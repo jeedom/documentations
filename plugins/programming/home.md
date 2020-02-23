@@ -1,3 +1,3 @@
 | | | | |
 |--- | --- | --- | ---
-|![htmldisplay](htmldisplay/htmldisplay_icon.png)<br>[htmldisplay](htmldisplay/index.md)
+|![htmldisplay](htmldisplay/htmldisplay_icon.png =100px)<br><center>[htmldisplay](htmldisplay/index.md)</center>
