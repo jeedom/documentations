@@ -1,0 +1,60 @@
+{
+	"categories" : {
+		"main" : {
+			"name" : {
+				"fr_FR" : "Général",
+				"en_US" : "Main"
+			},
+			"icon" : "",
+			"docs" : [ 
+				{
+					"name":"Installation",
+					"url":"installation/#language#/index.html"
+				},
+				{
+					"name":"Compatibilité",
+					"url":"compatibility/#language#/index.html"
+				}
+			]
+		},
+		"howto" : {
+			"name" : {
+				"fr_FR" : "Tutoriaux",
+				"en_US" : "How to"
+			},
+			"icon" : "",
+			"docs" : [ 
+				{
+					"name":"Howto1",
+					"url":"installation/#language#/index.html"
+				},
+				{
+					"name":"Howto2",
+					"url":"compatibility/#language#/index.html"
+				}
+			]
+		},
+		"plugins" : {
+			"name" : {
+				"fr_FR" : "Plugins",
+				"en_US" : "Plugins"
+			},
+			"icon" : "",
+			"docs" : [ 
+				{
+					"name":"plugin1",
+					"url":"installation/#language#/index.html"
+				},
+				{
+					"name":"plugin2",
+					"url":"compatibility/#language#/index.html"
+				},
+				{
+					"name":"plugin3",
+					"url":"compatibility/#language#/index.html"
+				}
+			]
+		}
+	}
+
+}
