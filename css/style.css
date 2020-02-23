@@ -1,0 +1,57 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a, nav {
+  color: #444;
+  background-color: #fff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.jeedomcolorbg {
+  background-color: #95C12B !important;
+}
+
+.jeedomcolor {
+  color: #95C12B !important;
+}
+.collection a.collection-item {
+  color: #85a835 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: 1.1;
+}
+.waves-effect.waves-jeedom .waves-ripple {
+ background-color: rgba(149, 193, 43, 0.65);
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+#div_googleSearch, #div_googleSearch:before, #div_googleSearch:after {
+  box-sizing : unset !important;
+}
+.tabs .tab a {
+  color: #95C12B !important;
+}
+.tabs .indicator {
+  background-color: #95C12B !important;
+}
+
+.tabs .tab a:hover {
+  color: #d2ef8b !important;
+}
