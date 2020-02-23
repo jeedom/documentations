@@ -7,7 +7,7 @@ Zipato miniKeypad RFID
 
  \
 
-![module](../images/zipato.minikeypad/module.jpg)
+![module](images/zipato.minikeypad/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Zipato miniKeypad RFID
 
  \
 
-![vuedefaut1](../images/zipato.minikeypad/vuedefaut1.jpg)
+![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
  \
 
@@ -131,7 +131,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/zipato.minikeypad//inclusion.jpg)
+![inclusion](images/zipato.minikeypad//inclusion.jpg)
 
  \
 
@@ -139,7 +139,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![information](../images/zipato.minikeypad/information.jpg)
+![information](images/zipato.minikeypad/information.jpg)
 
  \
 
@@ -152,7 +152,7 @@ disponibles.
 
  \
 
-![commandes](../images/zipato.minikeypad/commandes.jpg)
+![commandes](images/zipato.minikeypad/commandes.jpg)
 
  \
 
@@ -190,7 +190,7 @@ de votre installation, il faut pour cela passer par le bouton
 
  \
 
-![bouton configuration](../images/plugin/bouton_configuration.jpg)
+![bouton configuration](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -199,7 +199,7 @@ Paramètres)
 
  \
 
-![config1](../images/zipato.minikeypad/config1.jpg)
+![config1](images/zipato.minikeypad/config1.jpg)
 
  \
 
@@ -229,7 +229,7 @@ Ce module possède deux groupes d’association.
 
  \
 
-![groupe](../images/zipato.minikeypad/groupe.jpg)
+![groupe](images/zipato.minikeypad/groupe.jpg)
 
  \
 
@@ -246,7 +246,7 @@ Dans la page de l’équipement il y a un onglet Assistant.
 
  \
 
-![bouton assistant](../images/plugin/bouton_assistant.jpg)
+![bouton assistant](images/plugin/bouton_assistant.jpg)
 
  \
 
@@ -254,7 +254,7 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
  \
 
-![config2](../images/zipato.minikeypad/config2.jpg)
+![config2](images/zipato.minikeypad/config2.jpg)
 
  \
 
@@ -285,7 +285,7 @@ Exemples d’utilisation
 
  \
 
-![exemple](../images/zipato.minikeypad/exemple.jpg)
+![exemple](images/zipato.minikeypad/exemple.jpg)
 
  \
 

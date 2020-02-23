@@ -174,15 +174,15 @@ Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 
 dans mon cas 
 
-![image](../images/tutorial_vdm_icon.png)
+![image](images/tutorial_vdm_icon.png)
 
 Maintenant on peut copier le dossier vdm dans le dossier plugin de Jeedom et aller dans la gestion des plugins. On retrouve bien le plugin.
 
-![image](../images/tutorial_vdm_plugin.png)
+![image](images/tutorial_vdm_plugin.png)
 
 On l'active et ensuite plugins/Monitoring/Vie de Merde
 
-![image](../images/tutorial_vdm_desktop1.png)
+![image](images/tutorial_vdm_desktop1.png)
 
 ça ne va pas car la couleur du plus ne correspond pas à la couleur de l'icône.
 
@@ -220,7 +220,7 @@ par
 <span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
 ```
 
-![image](../images/tutorial_vdm_desktop2.png)
+![image](images/tutorial_vdm_desktop2.png)
 
 Voilà la base est prête. Vous devriez avoir le plugin d'actif mais pour le moment il ne fait rien.
 
@@ -272,7 +272,7 @@ public function postSave() {
 
 Dans l’onglet commandes , vous devriez voir.
 
-![image](../images/tutorial_vdm_cmd1.png)
+![image](images/tutorial_vdm_cmd1.png)
 
 Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 
@@ -371,7 +371,7 @@ Je change la class pull-right en pull-left
 
 Voici le rendu.Les options de configuration (Affichage et historiser) sont bien présentes. 
 
-![image](../images/tutorial_vdm_cmd2.png)
+![image](images/tutorial_vdm_cmd2.png)
 
 Voilà il reste à récupérer une vdm aléatoire et à utiliser les commandes.
 
@@ -725,7 +725,7 @@ Dans le champs « Paramètre» d’un équipement, taper « aleatoire » et sauv
 
 Parfait le paramètre est sauvegardé.
 
-![image](../images/tutorial_parametre1.png)
+![image](images/tutorial_parametre1.png)
 
 
 C’est simple,non? . C’est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . C’est lui qui fait tout le travail

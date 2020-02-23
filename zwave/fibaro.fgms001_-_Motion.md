@@ -7,7 +7,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-![module](../images/fibaro.fgms001/module.jpg)
+![module](images/fibaro.fgms001/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-![vuedefaut1](../images/fibaro.fgms001/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgms001/vuedefaut1.jpg)
 
  \
 
@@ -136,7 +136,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgms001/inclusion.jpg)
+![inclusion](images/fibaro.fgms001/inclusion.jpg)
 
  \
 
@@ -144,7 +144,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgms001/information.jpg)
+![Plugin Zwave](images/fibaro.fgms001/information.jpg)
 
  \
 
@@ -157,7 +157,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgms001/commandes.jpg)
+![Commandes](images/fibaro.fgms001/commandes.jpg)
 
  \
 
@@ -196,7 +196,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -205,13 +205,13 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgms001/config1.jpg)
+![Config1](images/fibaro.fgms001/config1.jpg)
 
-![Config2](../images/fibaro.fgms001/config2.jpg)
+![Config2](images/fibaro.fgms001/config2.jpg)
 
-![Config3](../images/fibaro.fgms001/config3.jpg)
+![Config3](images/fibaro.fgms001/config3.jpg)
 
-![Config3](../images/fibaro.fgms001/config4.jpg)
+![Config3](images/fibaro.fgms001/config4.jpg)
 
  \
 
@@ -306,7 +306,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgms001/groupe.jpg)
+![Groupe](images/fibaro.fgms001/groupe.jpg)
 
  \
 
@@ -333,7 +333,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/fibaro.fgms001/vuewidget.jpg)
+![vuewidget](images/fibaro.fgms001/vuewidget.jpg)
 
  \
 

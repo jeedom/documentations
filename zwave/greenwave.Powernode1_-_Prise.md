@@ -7,7 +7,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-![module](../images/greenwave.Powernode1/module.jpg)
+![module](images/greenwave.Powernode1/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-![vuedefaut1](../images/greenwave.Powernode1/vuedefaut1.jpg)
+![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
  \
 
@@ -154,7 +154,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/greenwave.Powernode1/inclusion.jpg)
+![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
  \
 
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/greenwave.Powernode1/information.jpg)
+![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
  \
 
@@ -175,7 +175,7 @@ disponibles.
 
  \
 
-![Commandes](../images/greenwave.Powernode1/commandes.jpg)
+![Commandes](images/greenwave.Powernode1/commandes.jpg)
 
  \
 
@@ -212,7 +212,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -221,7 +221,7 @@ Paramètres)
 
  \
 
-![Config1](../images/greenwave.Powernode1/config1.jpg)
+![Config1](images/greenwave.Powernode1/config1.jpg)
 
  \
 
@@ -251,7 +251,7 @@ indispensable.
 
  \
 
-![Groupe](../images/greenwave.Powernode1/groupe.jpg)
+![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
  \
 
@@ -269,7 +269,7 @@ de polling pour remonter la consommation.
 
  \
 
-![Config2](../images/greenwave.Powernode1/config2.jpg)
+![Config2](images/greenwave.Powernode1/config2.jpg)
 
  \
 

@@ -7,7 +7,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-![module](../images/fibaro.fgwpe101/module.jpg)
+![module](images/fibaro.fgwpe101/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-![vuedefaut1](../images/fibaro.fgwpe101/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgwpe101/vuedefaut1.jpg)
 
  \
 
@@ -115,7 +115,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgwpe101/inclusion.jpg)
+![inclusion](images/fibaro.fgwpe101/inclusion.jpg)
 
  \
 
@@ -123,7 +123,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgwpe101/information.jpg)
+![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
  \
 
@@ -136,7 +136,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgwpe101/commandes.jpg)
+![Commandes](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -173,7 +173,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -182,13 +182,13 @@ paramètres)
 
  \
 
-![Config1](../images/fibaro.fgwpe101/config1.jpg)
+![Config1](images/fibaro.fgwpe101/config1.jpg)
 
-![Config2](../images/fibaro.fgwpe101/config2.jpg)
+![Config2](images/fibaro.fgwpe101/config2.jpg)
 
-![Config3](../images/fibaro.fgwpe101/config3.jpg)
+![Config3](images/fibaro.fgwpe101/config3.jpg)
 
-![Config4](../images/fibaro.fgwpe101/config4.jpg)
+![Config4](images/fibaro.fgwpe101/config4.jpg)
 
  \
 
@@ -253,7 +253,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgwpe101/groupe.jpg)
+![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
  \
 
@@ -266,7 +266,7 @@ Bon à savoir
 
  \
 
-![Config5](../images/fibaro.fgwpe101/config5.jpg)
+![Config5](images/fibaro.fgwpe101/config5.jpg)
 
  \
 
@@ -280,7 +280,7 @@ PressButton.
 
  \
 
-![vuewidget](../images/fibaro.fgwpe101/vuewidget.jpg)
+![vuewidget](images/fibaro.fgwpe101/vuewidget.jpg)
 
  \
 

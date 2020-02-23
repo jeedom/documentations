@@ -7,7 +7,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-![module](../images/nodon.softremote/module.jpg)
+![module](images/nodon.softremote/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-![vuedefaut1](../images/nodon.softremote/vuedefaut1.png)
+![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
  \
 
@@ -109,7 +109,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/nodon.softremote/inclusion.jpg)
+![inclusion](images/nodon.softremote/inclusion.jpg)
 
  \
 
@@ -117,7 +117,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/nodon.softremote/information.png)
+![Plugin Zwave](images/nodon.softremote/information.png)
 
  \
 
@@ -130,7 +130,7 @@ disponibles.
 
  \
 
-![Commandes](../images/nodon.softremote/commandes.png)
+![Commandes](images/nodon.softremote/commandes.png)
 
  \
 
@@ -174,7 +174,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -183,7 +183,7 @@ paramètres)
 
  \
 
-![Config1](../images/nodon.softremote/config1.png)
+![Config1](images/nodon.softremote/config1.png)
 
  \
 
@@ -210,7 +210,7 @@ Ce module possède 7 groupes d’association.
 
  \
 
-![Groupe](../images/nodon.softremote/groupe.png)
+![Groupe](images/nodon.softremote/groupe.png)
 
  \
 

@@ -7,7 +7,7 @@ Philio Smart Color Button
 
  \
 
-![module](../images/philio.psr04/module.jpg)
+![module](images/philio.psr04/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Philio Smart Color Button
 
  \
 
-![vuedefaut1](../images/philio.psr04/vuedefaut1.jpg)
+![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
  \
 
@@ -145,7 +145,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/philio.psr04/inclusion.jpg)
+![inclusion](images/philio.psr04/inclusion.jpg)
 
  \
 
@@ -153,7 +153,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/philio.psr04/information.jpg)
+![Plugin Zwave](images/philio.psr04/information.jpg)
 
  \
 
@@ -166,7 +166,7 @@ disponibles.
 
  \
 
-![Commandes](../images/philio.psr04/commandes.jpg)
+![Commandes](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -199,7 +199,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -208,7 +208,7 @@ paramètres)
 
  \
 
-![Config1](../images/philio.psr04/config1.jpg)
+![Config1](images/philio.psr04/config1.jpg)
 
  \
 
@@ -240,7 +240,7 @@ indispensable. Le deuxième permet de remonter la position à Jeedom
 
  \
 
-![Groupe](../images/philio.psr04/groupe.jpg)
+![Groupe](images/philio.psr04/groupe.jpg)
 
  \
 

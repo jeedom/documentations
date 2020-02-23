@@ -18,4 +18,4 @@ Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (a
 
 Merci d'utiliser ce modèle (bors arrondi, taille, fond coloré, transparence autour etc..) :
 
-![modele-icone](../images/plugin-Jeedom-px.jpg)
+![modele-icone](images/plugin-Jeedom-px.jpg)

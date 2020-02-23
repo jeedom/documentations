@@ -1,10 +1,10 @@
 -   **Le module**
 
-![ets200.module](../images/ets200/ets200.module.jpg)
+![ets200.module](images/ets200/ets200.module.jpg)
 
 -   **Le visuel Jeedom**
 
-![ets200.vue defaut](../images/ets200/ets200.vue-defaut.jpg)
+![ets200.vue defaut](images/ets200/ets200.vue-defaut.jpg)
 
 Résumé 
 ======
@@ -87,7 +87,7 @@ Bouton "E"
 Vous trouverez dessous le bouton "E" qui est le bouton d’association du
 capteur de température.
 
-![ets200.bouton e](../images/ets200/ets200.bouton-e.jpg)
+![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
 Réglage du delta de température 
 -------------------------------
@@ -96,7 +96,7 @@ Par défaut, le delta de température est programmé à 1°C (+/-10%) afin
 d’optimiser l’autonomie de la batterie. Vous avez la possibilité de
 régler ce paramètre:
 
-![ets200.delta](../images/ets200/ets200.delta.jpg)
+![ets200.delta](images/ets200/ets200.delta.jpg)
 
 Association du capteur à Jeedom 
 ===============================
@@ -106,11 +106,11 @@ d’appuyer sur le bouton "E", situé sous le capteur. Celui-ci sera
 reconnu automatiquement. Placez-le dans un objet, donner lui un nom et
 sauvegarder.
 
-![ets200.association](../images/ets200/ets200.association.jpg)
+![ets200.association](images/ets200/ets200.association.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
-![ets200.general](../images/ets200/ets200.general.jpg)
+![ets200.general](images/ets200/ets200.general.jpg)
 
 Commandes 
 ---------
@@ -118,7 +118,7 @@ Commandes
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/ets200/ets200.commandes.jpg)
+![Commandes](images/ets200/ets200.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -132,7 +132,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/ets200/ets200.informations.jpg)
+![Commandes](images/ets200/ets200.informations.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à été créé
 

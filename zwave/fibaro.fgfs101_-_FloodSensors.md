@@ -7,7 +7,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
-![module](../images/fibaro.fgfs101/module.jpg)
+![module](images/fibaro.fgfs101/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
-![vuedefaut1](../images/fibaro.fgfs101/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
  \
 
@@ -146,7 +146,7 @@ inclusion référez-vous à cette
 
  \
 
-![Vue interieur](../images/fibaro.fgfs101/Vue_interieur.jpg)
+![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
  \
 
@@ -154,7 +154,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgfs101/information.jpg)
+![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
  \
 
@@ -167,7 +167,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgfs101/commandes.jpg)
+![Commandes](images/fibaro.fgfs101/commandes.jpg)
 
  \
 
@@ -204,7 +204,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -213,9 +213,9 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgfs101/config1.jpg)
+![Config1](images/fibaro.fgfs101/config1.jpg)
 
-![Config2](../images/fibaro.fgfs101/config2.jpg)
+![Config2](images/fibaro.fgfs101/config2.jpg)
 
  \
 
@@ -273,7 +273,7 @@ associé à minima aux groupes 1, 4 et 5:
 
  \
 
-![Groupe](../images/fibaro.fgfs101/groupe.jpg)
+![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
  \
 
@@ -285,7 +285,7 @@ Z-wave (information non confirmée actuellement)
 
 Le cablage pour une alimentation extérieure.  \
 
-![Alim Exterieur](../images/fibaro.fgfs101/Alim_Exterieur.jpg)
+![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
  \
 

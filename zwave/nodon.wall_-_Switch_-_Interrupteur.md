@@ -7,7 +7,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-![module](../images/nodon.wallswitch/module.jpg)
+![module](images/nodon.wallswitch/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-![vuedefaut1](../images/nodon.wallswitch/vuedefaut1.jpg)
+![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
  \
 
@@ -125,7 +125,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/nodon.wallswitch/inclusion.jpg)
+![inclusion](images/nodon.wallswitch/inclusion.jpg)
 
  \
 
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/nodon.wallswitch/information.jpg)
+![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
  \
 
@@ -146,7 +146,7 @@ disponibles.
 
  \
 
-![Commandes](../images/nodon.wallswitch/commandes.jpg)
+![Commandes](images/nodon.wallswitch/commandes.jpg)
 
  \
 
@@ -187,7 +187,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -196,7 +196,7 @@ paramètres)
 
  \
 
-![Config1](../images/nodon.wallswitch/config1.jpg)
+![Config1](images/nodon.wallswitch/config1.jpg)
 
  \
 
@@ -223,9 +223,9 @@ Ce module possède 7 groupes d’association.
 
  \
 
-![Groupe](../images/nodon.wallswitch/groupe.jpg)
+![Groupe](images/nodon.wallswitch/groupe.jpg)
 
-![Groupe](../images/nodon.wallswitch/groupe2.jpg)
+![Groupe](images/nodon.wallswitch/groupe2.jpg)
 
  \
 

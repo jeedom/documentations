@@ -7,7 +7,7 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
-![module](../images/dlink.dchz110/module.jpg)
+![module](images/dlink.dchz110/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
-![vuedefaut1](../images/dlink.dchz110/vuedefaut1.jpg)
+![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
  \
 
@@ -82,7 +82,7 @@ Autre lien technique :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-techniques](../images/dlink.dchz110/caracteristiques_techniques.jpg)
+techniques](images/dlink.dchz110/caracteristiques_techniques.jpg)
 
  \
 
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-![config inclusion](../images/dlink.dchz110/config-inclusion.jpg)
+![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
  \
 
@@ -137,7 +137,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/dlink.dchz110/apres_inclusion.jpg)
+![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
  \
 
@@ -150,7 +150,7 @@ disponibles.
 
  \
 
-![Commandes](../images/dlink.dchz110/commandes.jpg)
+![Commandes](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -191,7 +191,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -200,9 +200,9 @@ Paramètres)
 
  \
 
-![Config1](../images/dlink.dchz110/config1.jpg)
+![Config1](images/dlink.dchz110/config1.jpg)
 
-![Config2](../images/dlink.dchz110/config2.jpg)
+![Config2](images/dlink.dchz110/config2.jpg)
 
  \
 
@@ -262,7 +262,7 @@ indispensable.
 
  \
 
-![Groupe](../images/dlink.dchz110/groupe.jpg)
+![Groupe](images/dlink.dchz110/groupe.jpg)
 
  \
 
@@ -279,7 +279,7 @@ Visuel alternatif
 
  \
 
-![Groupe](../images/dlink.dchz110/autre_visuel_jeedom.jpg)
+![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
 
  \
 

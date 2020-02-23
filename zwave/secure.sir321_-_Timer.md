@@ -7,7 +7,7 @@ Secure SIR 321 "Timer"
 
  \
 
-![module](../images/secure.sir321/module.jpg)
+![module](images/secure.sir321/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Secure SIR 321 "Timer"
 
  \
 
-![vuedefaut1](../images/secure.sir321/vuedefaut1.jpg)
+![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
  \
 
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/secure.sir321/inclusion.jpg)
+![inclusion](images/secure.sir321/inclusion.jpg)
 
  \
 
@@ -122,7 +122,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/secure.sir321/information.jpg)
+![Plugin Zwave](images/secure.sir321/information.jpg)
 
  \
 
@@ -135,7 +135,7 @@ disponibles.
 
  \
 
-![Commandes](../images/secure.sir321/commandes.jpg)
+![Commandes](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -161,7 +161,7 @@ Si vous voulez configurer le module il faut passer par le bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -170,7 +170,7 @@ paramètres)
 
  \
 
-![Config1](../images/secure.sir321/config1.jpg)
+![Config1](images/secure.sir321/config1.jpg)
 
  \
 
@@ -204,7 +204,7 @@ de température est reliée.
 
  \
 
-![Groupe](../images/secure.sir321/groupe.jpg)
+![Groupe](images/secure.sir321/groupe.jpg)
 
 F.A.Q. 
 ------

@@ -1,10 +1,10 @@
 -   **Le module**
 
-![module](../images/emv.400/module.jpg)
+![module](images/emv.400/module.jpg)
 
 -   **Le visuel Jeedom**
 
-![vue default](../images/emv.400/vue_default.jpg)
+![vue default](images/emv.400/vue_default.jpg)
 
 Résumé 
 ======
@@ -109,12 +109,12 @@ référez-vous à cette
 DIP Switch et bouton "R" : 
 --------------------------
 
-![bouton association](../images/emv.400/bouton_association.jpg)
+![bouton association](images/emv.400/bouton_association.jpg)
 
 -   Le DIP Switch va vous permettre de régler les paramètres
     (Répéteur/Mode volet/éclairage/Minuterie) du module:
 
-![dip switch](../images/emv.400/dip_switch.jpg)
+![dip switch](images/emv.400/dip_switch.jpg)
 
 > **Note**
 >
@@ -126,7 +126,7 @@ DIP Switch et bouton "R" :
     d’activer ou désactiver la fonction minuterie et d’activer le mode
     déporté :
 
-![bouton r](../images/emv.400/bouton_r.jpg)
+![bouton r](images/emv.400/bouton_r.jpg)
 
 > **Note**
 >
@@ -143,7 +143,7 @@ touches", voici le fonctionnement du module:
 > Référez-vous à la documentation du fabricant, afin de pouvoir
 > configurer votre émetteur.
 
-![diagramme](../images/emv.400/diagramme.jpg)
+![diagramme](images/emv.400/diagramme.jpg)
 
 Fonction minuterie 
 ------------------
@@ -168,7 +168,7 @@ course électronique et mécanique à distance.
 Configuration et raccordements électriques : 
 --------------------------------------------
 
-![mode moteur](../images/emv.400/mode_moteur.jpg)
+![mode moteur](images/emv.400/mode_moteur.jpg)
 
 > **Important**
 >
@@ -185,11 +185,11 @@ Création du module dans Jeedom
 Pour associer un module récepteur Edisio à Jeedom, il faut créer
 manuellement un équipement.
 
-![ajout equip](../images/emv.400/ajout_equip.jpg)
+![ajout equip](images/emv.400/ajout_equip.jpg)
 
 Une fois, votre équipement créé, vous devriez obtenir ceci :
 
-![crea equip](../images/emv.400/crea_equip.jpg)
+![crea equip](images/emv.400/crea_equip.jpg)
 
 > **Note**
 >
@@ -198,7 +198,7 @@ Une fois, votre équipement créé, vous devriez obtenir ceci :
 Dans la liste d’équipements, à droite, sélectionner "Micro-module volet
 roulant" :
 
-![infos equip](../images/emv.400/infos_equip.jpg)
+![infos equip](images/emv.400/infos_equip.jpg)
 
 Commandes 
 ---------
@@ -206,7 +206,7 @@ Commandes
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/emv.400/commande.jpg)
+![Commandes](images/emv.400/commande.jpg)
 
 Voici la liste des commandes :
 
@@ -232,7 +232,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/emv.400/infos_moteur.jpg)
+![Commandes](images/emv.400/infos_moteur.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à était créé
 
@@ -349,7 +349,7 @@ remplace désormais le bouton "R" du récepteur.
 Visuel alternatif 
 =================
 
-![vue alt moteur](../images/emv.400/vue_alt_moteur.jpg)
+![vue alt moteur](images/emv.400/vue_alt_moteur.jpg)
 
 F.A.Q. 
 ======

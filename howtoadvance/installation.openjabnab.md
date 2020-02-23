@@ -332,46 +332,46 @@ Allez sur :
 
 Vous devez avoir :
 
-![installation.openjabnab](../images/installation.openjabnab.PNG)
+![installation.openjabnab](images/installation.openjabnab.PNG)
 
 Il faut vous maintenant vous créer un compte en cliquant sur créer un
 utilisateur :
 
-![installation.openjabnab2](../images/installation.openjabnab2.PNG)
+![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
 Renseignez les informations demandées et connectez-vous :
 
-![installation.openjabnab3](../images/installation.openjabnab3.PNG)
+![installation.openjabnab3](images/installation.openjabnab3.PNG)
 
 Une fois connecté allez sur server :
 
-![installation.openjabnab4](../images/installation.openjabnab4.PNG)
+![installation.openjabnab4](images/installation.openjabnab4.PNG)
 
 Puis descendez pour trouver la liste des lapins connectés et récuperer
 son adresse mac :
 
-![installation.openjabnab5](../images/installation.openjabnab5.PNG)
+![installation.openjabnab5](images/installation.openjabnab5.PNG)
 
 Allez ensuite sur compte et renseignez le champ nom et adresse mac du
 lapin puis validez :
 
-![installation.openjabnab6](../images/installation.openjabnab6.PNG)
+![installation.openjabnab6](images/installation.openjabnab6.PNG)
 
 Vous retrouvez maintenant sur la page lapin votre lapin, cliquez dessus
 pour ouvrir sa configuration :
 
-![installation.openjabnab7](../images/installation.openjabnab7.PNG)
+![installation.openjabnab7](images/installation.openjabnab7.PNG)
 
 Il vous faut maintenant activer l’api violet et la passer en public,
 c’est aussi ici que vous retrouvez la clef api violet qui vous servira
 pour Jeedom :
 
-![installation.openjabnab8](../images/installation.openjabnab8.PNG)
+![installation.openjabnab8](images/installation.openjabnab8.PNG)
 
 En dessous vous retrouvez la liste des plugins, n’oubliez pas de les
 activer (type TTS ou contrôle des oreilles) :
 
-![installation.openjabnab9](../images/installation.openjabnab9.PNG)
+![installation.openjabnab9](images/installation.openjabnab9.PNG)
 
 Configuration de Jeedom 
 =======================
@@ -389,7 +389,7 @@ Et ajouter la ligne suivante :
 Ensuite tous se passe dans Jeedom, après avoir créer votre lapin voilà
 la configuration à mettre:
 
-![installation.openjabnab10](../images/installation.openjabnab10.PNG)
+![installation.openjabnab10](images/installation.openjabnab10.PNG)
 
 Voilà votre lapin a maintenant son propre terrier en local !!!!!
 

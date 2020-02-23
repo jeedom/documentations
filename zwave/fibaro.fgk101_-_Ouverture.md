@@ -7,7 +7,7 @@ Fibaro Détecteur d’ouverture - FGK-101
 
  \
 
-![module](../images/fibaro.fgk101-DS18B20/module.jpg)
+![module](images/fibaro.fgk101-DS18B20/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro Détecteur d’ouverture - FGK-101
 
  \
 
-![vuedefaut1](../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgk101-DS18B20/vuedefaut1.jpg)
 
  \
 
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgk101-DS18B20/inclusion.jpg)
+![inclusion](images/fibaro.fgk101-DS18B20/inclusion.jpg)
 
  \
 
@@ -137,7 +137,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgk101-DS18B20/information.jpg)
+![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
  \
 
@@ -150,7 +150,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Commandes](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
  \
 
@@ -187,7 +187,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -196,9 +196,9 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgk101-DS18B20/config1.jpg)
+![Config1](images/fibaro.fgk101-DS18B20/config1.jpg)
 
-![Config2](../images/fibaro.fgk101-DS18B20/config2.jpg)
+![Config2](images/fibaro.fgk101-DS18B20/config2.jpg)
 
  \
 
@@ -244,7 +244,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgk101-DS18B20/groupe.jpg)
+![Groupe](images/fibaro.fgk101-DS18B20/groupe.jpg)
 
  \
 
@@ -268,7 +268,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/fibaro.fgk101-DS18B20/vuewidget.jpg)
+![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
  \
 

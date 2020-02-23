@@ -7,7 +7,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-![module](../images/fibaro.fgd211/module.jpg)
+![module](images/fibaro.fgd211/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-![vuedefaut1](../images/fibaro.fgd211/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
  \
 
@@ -146,7 +146,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgd211/inclusion.jpg)
+![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
  \
 
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgd211/information.jpg)
+![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
  \
 
@@ -175,7 +175,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgd211/commandes.jpg)
+![Commandes](images/fibaro.fgd211/commandes.jpg)
 
  \
 
@@ -208,7 +208,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,11 +217,11 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgd211/config1.jpg)
+![Config1](images/fibaro.fgd211/config1.jpg)
 
-![Config2](../images/fibaro.fgd211/config2.jpg)
+![Config2](images/fibaro.fgd211/config2.jpg)
 
-![Config3](../images/fibaro.fgd211/config3.jpg)
+![Config3](images/fibaro.fgd211/config3.jpg)
 
  \
 
@@ -288,7 +288,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgd211/groupe.jpg)
+![Groupe](images/fibaro.fgd211/groupe.jpg)
 
  \
 
@@ -319,7 +319,7 @@ interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur
 
  \
 
-![vuewidget](../images/fibaro.fgd211/vuewidget.jpg)
+![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
  \
 

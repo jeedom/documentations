@@ -13,16 +13,16 @@ La première chose à faire est de se créer un compte sur le Market pour
 pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
 [ici](https://www.jeedom.com/market) pour commencer
 
-![premier market](../images/premier-market.png)
+![premier market](images/premier-market.png)
 
 Cliquez sur le bouton "S’enregistrer" en haut à droite :
 
-![premier market2](../images/premier-market2.png)
+![premier market2](images/premier-market2.png)
 
 Remplissez les différents champs et validez. Vous tomberez ensuite sur
 cette page :
 
-![premier market3](../images/premier-market3.png)
+![premier market3](images/premier-market3.png)
 
 Voila votre compte Market est créé, pour plus de details sur le market
 cliquez
@@ -49,15 +49,15 @@ Une fois le code recupéré dans le mail il vous suffit d’aller sur le
 
 Puis allez sur votre page de profil :
 
-![premier servicepack](../images/premier-servicepack.png)
+![premier servicepack](images/premier-servicepack.png)
 
 Puis cliquez sur l’onglet "Mes Jeedoms"
 
-![premier servicepack2](../images/premier-servicepack2.png)
+![premier servicepack2](images/premier-servicepack2.png)
 
 Renseignez votre numéro de service pack et validez :
 
-![premier servicepack3](../images/premier-servicepack3.png)
+![premier servicepack3](images/premier-servicepack3.png)
 
 Voilà votre service pack est enregistré. Pour plus de details sur le
 Market cliquez
@@ -116,7 +116,7 @@ Première connexion
 Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de
 login. Par défaut le login et le mot de passe sont "admin".
 
-![premier jeedomfinder6](../images/premier-jeedomfinder6.png)
+![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
 Lier mon Jeedom à mon compte market 
 ===================================
@@ -159,7 +159,7 @@ Général → Administration → Configuration
 
 Puis d’aller sur la partie "Configuration réseaux"
 
-![premier dns2](../images/premier-dns2.png)
+![premier dns2](images/premier-dns2.png)
 
 Une fois ici, il vous suffit d’activer "Utiliser les DNS Jeedom" puis
 sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
@@ -181,12 +181,12 @@ votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
 Une fois dessus vous avez juste à choisir la ligne avec l’utilisateur
 **admin** et à cliquer sur **changer le mot de passe** :
 
-![premier changeuser2](../images/premier-changeuser2.png)
+![premier changeuser2](images/premier-changeuser2.png)
 
 Une fenêtre va vous demander le mot de passe. Attention à bien le
 retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
-![premier changeuser3](../images/premier-changeuser3.png)
+![premier changeuser3](images/premier-changeuser3.png)
 
 Voilà, vous avez changé le mot de passe du compte admin, pour plus
 d’information sur cette page cliquez
@@ -213,15 +213,15 @@ Pour créer un objet, rien de plus simple :
 
 -   Cliquez sur le bouton ajouter :
 
-![premier objet2](../images/premier-objet2.png)
+![premier objet2](images/premier-objet2.png)
 
 -   Jeedom va vous demander le nom de celui-ci :
 
-![premier objet3](../images/premier-objet3.png)
+![premier objet3](images/premier-objet3.png)
 
 -   Validez. Voilà votre premier objet créé :
 
-![premier objet4](../images/premier-objet4.png)
+![premier objet4](images/premier-objet4.png)
 
 Pour plus d’informations sur cette partie cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/object.asciidoc)
@@ -236,7 +236,7 @@ plugins.
 
 Il vous suffit ensuite de cliquer sur Market :
 
-![premier plugin2](../images/premier-plugin2.png)
+![premier plugin2](images/premier-plugin2.png)
 
 Vous allez ensuite avoir la liste de tous les plugins qu’il est possible
 d’installer.
@@ -247,11 +247,11 @@ d’installer.
 > avec un plugin non officiel, l’équipe Jeedom ne pourra être tenue pour
 > responsable.
 
-![premier plugin3](../images/premier-plugin3.png)
+![premier plugin3](images/premier-plugin3.png)
 
 En cliquant sur un plugin vous obtenez sa fiche :
 
-![premier plugin4](../images/premier-plugin4.png)
+![premier plugin4](images/premier-plugin4.png)
 
 Vous retrouvez alors : 
 
@@ -314,7 +314,7 @@ moins d’une heure (en moyenne). Attention cependant, le forum est
 maintenu par la communauté Jeedom, composée de bénévoles, et non par la
 société Jeedom.
 
-![premier support3](../images/premier-support3.png)
+![premier support3](images/premier-support3.png)
 
 Les demandes de support (ou tickets) 
 ------------------------------------
@@ -333,7 +333,7 @@ plusieurs façons :
     soyez dans Jeedom, il y a un point d’exclamation en haut à droite
     qui permet de faire une demande de support :
 
-![premier support4](../images/premier-support4.png)
+![premier support4](images/premier-support4.png)
 
 -   Si pour une raison ou pour une autre vous n’avez pas accès à votre
     Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
@@ -343,7 +343,7 @@ plusieurs façons :
     -   soit en allant sur votre profil (cliquez ensuite sur le bouton
         "Ouvrir une demande de support").
 
-![premier support5](../images/premier-support5.png)
+![premier support5](images/premier-support5.png)
 
 Toute la suite des échanges se fera par mail.
 

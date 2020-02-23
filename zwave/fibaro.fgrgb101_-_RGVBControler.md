@@ -7,7 +7,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-![module](../images/fibaro.fgrgb101/module.jpg)
+![module](images/fibaro.fgrgb101/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-![Visuel jeedom](../images/fibaro.fgrgb101/Visuel_jeedom.png)
+![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
  \
 
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-![vue bp inclusion](../images/fibaro.fgrgb101/vue_bp_inclusion.png)
+![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
  \
 
@@ -142,7 +142,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgrgb101/configuration.png)
+![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
  \
 
@@ -153,9 +153,9 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgrgb101/commande_1.png)
+![Commandes](images/fibaro.fgrgb101/commande_1.png)
 
-![Commandes](../images/fibaro.fgrgb101/commande_2.png)
+![Commandes](images/fibaro.fgrgb101/commande_2.png)
 
  \
 
@@ -206,7 +206,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -215,7 +215,7 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgrgb101/parametres.png)
+![Config1](images/fibaro.fgrgb101/parametres.png)
 
  \
 
@@ -233,7 +233,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgrgb101/groupes.png)
+![Groupe](images/fibaro.fgrgb101/groupes.png)
 
 Bon à savoir 
 ------------
@@ -253,7 +253,7 @@ Utilisation des capteurs 0-10V.
 
  \
 
-![Visuel alternatif](../images/fibaro.fgrgb101/Visuel_alternatif.png)
+![Visuel alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
  \
 

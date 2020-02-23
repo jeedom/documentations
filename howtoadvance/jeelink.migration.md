@@ -48,7 +48,7 @@ Préparation avant migration
 > s’effectuer à distance via internet (DNS Jeedom ou autre).\
 > \
 
-![jeelink.migration9](../images/jeelink.migration9.png)
+![jeelink.migration9](images/jeelink.migration9.png)
 
 Mises à jour et Vérification de la Configuration 
 ------------------------------------------------
@@ -91,7 +91,7 @@ nécessaire de récupérer les informations suivantes :
 > **Note**
 >
 > Une fiche non exhaustive des informations à noter pour la migration
-> est disponible [ici](../images/MemoMigration.xls)
+> est disponible [ici](images/MemoMigration.xls)
 
 Sauvegardes préventives 
 -----------------------
@@ -119,7 +119,7 @@ Installer et activer le plugin "Jeedom Link" sur le **Jeedom Cible** (ancien Ma�
 
 Sur votre **Jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
 
-![jeelink.migration1](../images/jeelink.migration1.png)
+![jeelink.migration1](images/jeelink.migration1.png)
 
 Installation du **Jeedom Source** : 
 -----------------------------------
@@ -169,7 +169,7 @@ Configuration du Jeedom Source
 -   Installation et activation du plugin "Jeedom Link" sur le nouveau
     **Jeedom Source**.
 
-![jeelink.migration2](../images/jeelink.migration2.png)
+![jeelink.migration2](images/jeelink.migration2.png)
 
 -   Installation et activation des plugins que vous souhaitez utiliser.
     (Il est conseillé de les faire un par un, en vérifiant bien à chaque
@@ -264,32 +264,32 @@ le plugin "Jeedom Link" en spécifiant :
 
 Et sauvegarder la configuration.
 
-![jeelink.migration3](../images/jeelink.migration3.png)
+![jeelink.migration3](images/jeelink.migration3.png)
 
 Dans l’onglet *Affectation*, ajouter les équipements que vous désirez
 remonter vers le **Jeedom Cible**.
 
-![jeelink.migration4](../images/jeelink.migration4.png)
+![jeelink.migration4](images/jeelink.migration4.png)
 
 Cliquer sur *Ajouter un équipement* Sélectionner l’objet et l’équipement
 à ajouter :
 
-![jeelink.migration5](../images/jeelink.migration5.png)
+![jeelink.migration5](images/jeelink.migration5.png)
 
 Après avoir rafraîchit la page *Mes JeeLinks* du **Jeedom Cible**, vous
 devez constater la création automatique de l’équipement :
 
-![jeelink.migration6](../images/jeelink.migration6.png)
+![jeelink.migration6](images/jeelink.migration6.png)
 
 Comme tout équipement Jeedom, vous pouvez activer/désactiver et afficher
 ou non l’équipement, ses commandes,…​ ou changer la catégorie :
 
-![jeelink.migration7](../images/jeelink.migration7.png)
+![jeelink.migration7](images/jeelink.migration7.png)
 
 Dans l’onglet *Commandes*, vous accédez à tous les paramètres des
 commandes de l’équipement :
 
-![jeelink.migration8](../images/jeelink.migration8.png)
+![jeelink.migration8](images/jeelink.migration8.png)
 
 Récupération des historiques 
 ----------------------------

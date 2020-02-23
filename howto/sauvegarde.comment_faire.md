@@ -44,16 +44,16 @@ ordinateur afin de faire une "image propre" de la carte SD. Il faut dans
 un premier temps arrêter la mini+. Pour cela, passer Jeedom en mode
 expert dans le menu utilisateur en haut à droite.
 
-![save restore06](../images/save-restore06.jpg)
+![save restore06](images/save-restore06.jpg)
 
 Et cliquer sur Éteindre
 
-![save restore07](../images/save-restore07.jpg)
+![save restore07](images/save-restore07.jpg)
 
 Ensuite, il faut sortir la carte microSD de la mini+ et la connecter à
 votre ordinateur via un adaptateur/lecteur de carte/…​
 
-![save restore08](../images/save-restore08.jpg)
+![save restore08](images/save-restore08.jpg)
 
 Sous Windows 
 ------------
@@ -71,7 +71,7 @@ Il faudra commencer par télécharger un logiciel tiers par exemple :
         vous voulez créer ainsi que l’endroit où il sera enregistré.
 
     -   Enfin cliquez sur le bouton *Read*, afin de créer l’image.
-        image::../images/save-restore09.jpg\[align="center"\]
+        image::images/save-restore09.jpg\[align="center"\]
 
 2.  **Restauration**
 
@@ -85,7 +85,7 @@ Il faudra commencer par télécharger un logiciel tiers par exemple :
     -   Enfin cliquez sur le bouton *Write*, afin de restaurer cette
         image sur la carte microSD.
 
-![save restore10](../images/save-restore10.jpg)
+![save restore10](images/save-restore10.jpg)
 
 Sous MacOSX 
 -----------
@@ -93,7 +93,7 @@ Sous MacOSX
 Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
-![save restore11](../images/save-restore11.jpg)
+![save restore11](images/save-restore11.jpg)
 
 1.  **Sauvegarde**
 
@@ -105,7 +105,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 
         -   Afin de trouver le disque correspondant à la carte, ouvrez
             un terminal et saisissez la commande : `diskutil list`
-            image::../images/save-restore12.jpg\[align="center"\]
+            image::images/save-restore12.jpg\[align="center"\]
 
         -   Lancez la création de l’image en saisissant la commande :
             `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`

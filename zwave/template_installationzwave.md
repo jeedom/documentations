@@ -9,7 +9,7 @@ faire, il suffit de se rendre dans le menu « Général », puis « Plugins »
 
  \
 
-![innstallationzwave1](../images/plugin/innstallationzwave1.jpg)
+![innstallationzwave1](images/plugin/innstallationzwave1.jpg)
 
  \
 
@@ -17,7 +17,7 @@ Enfin, cliquez sur le bouton « Market » situé en haut à gauche.
 
  \
 
-![innstallationzwave2](../images/plugin/innstallationzwave2.jpg)
+![innstallationzwave2](images/plugin/innstallationzwave2.jpg)
 
  \
 
@@ -28,7 +28,7 @@ le bouton « activer » qui apparait.
 
  \
 
-![innstallationzwave3](../images/plugin/innstallationzwave3.jpg)
+![innstallationzwave3](images/plugin/innstallationzwave3.jpg)
 
  \
 
@@ -42,7 +42,7 @@ configuration sera à adapter en fonction de votre type d’installation
 
  \
 
-![configzwave](../images/plugin/configzwave.jpg)
+![configzwave](images/plugin/configzwave.jpg)
 
  \
 

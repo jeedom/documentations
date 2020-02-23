@@ -7,7 +7,7 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
-![module](../images/philio.pst02c/module.jpg)
+![module](images/philio.pst02c/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
-![vuedefaut1](../images/philio.pst02c/vuedefaut1.jpg)
+![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
  \
 
@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/philio.pst02c/inclusion.jpg)
+![inclusion](images/philio.pst02c/inclusion.jpg)
 
  \
 
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/philio.pst02c/information.jpg)
+![Plugin Zwave](images/philio.pst02c/information.jpg)
 
  \
 
@@ -171,7 +171,7 @@ disponibles.
 
  \
 
-![Commandes](../images/philio.pst02c/commandes.jpg)
+![Commandes](images/philio.pst02c/commandes.jpg)
 
  \
 
@@ -208,7 +208,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,11 +217,11 @@ paramètres)
 
  \
 
-![Config1](../images/philio.pst02c/config1.jpg)
+![Config1](images/philio.pst02c/config1.jpg)
 
-![Config2](../images/philio.pst02c/config2.jpg)
+![Config2](images/philio.pst02c/config2.jpg)
 
-![Config3](../images/philio.pst02c/config3.jpg)
+![Config3](images/philio.pst02c/config3.jpg)
 
  \
 
@@ -281,7 +281,7 @@ indispensable.
 
  \
 
-![Groupe](../images/philio.pst02c/groupe.jpg)
+![Groupe](images/philio.pst02c/groupe.jpg)
 
  \
 
@@ -294,7 +294,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/philio.pst02c/vuewidget.jpg)
+![vuewidget](images/philio.pst02c/vuewidget.jpg)
 
  \
 

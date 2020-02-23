@@ -7,7 +7,7 @@ Aeotec Keyfob Gen5
 
  \
 
-![module](../images/aeotec.keyfob-gen5/module.jpg)
+![module](images/aeotec.keyfob-gen5/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Aeotec Keyfob Gen5
 
  \
 
-![vuedefaut1](../images/aeotec.keyfob-gen5/vuedefaut1.jpg)
+![vuedefaut1](images/aeotec.keyfob-gen5/vuedefaut1.jpg)
 
  \
 
@@ -133,7 +133,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/aeotec.keyfob-gen5/inclusion.jpg)
+![inclusion](images/aeotec.keyfob-gen5/inclusion.jpg)
 
  \
 
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/aeotec.keyfob-gen5/information.jpg)
+![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
  \
 
@@ -154,7 +154,7 @@ disponibles.
 
  \
 
-![Commandes](../images/aeotec.keyfob-gen5/commandes.jpg)
+![Commandes](images/aeotec.keyfob-gen5/commandes.jpg)
 
  \
 
@@ -199,7 +199,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -208,7 +208,7 @@ Paramètres)
 
  \
 
-![Config1](../images/aeotec.keyfob-gen5/config1.jpg)
+![Config1](images/aeotec.keyfob-gen5/config1.jpg)
 
  \
 
@@ -232,7 +232,7 @@ indispensable.
 
  \
 
-![Groupe](../images/aeotec.keyfob-gen5/groupe.jpg)
+![Groupe](images/aeotec.keyfob-gen5/groupe.jpg)
 
  \
 

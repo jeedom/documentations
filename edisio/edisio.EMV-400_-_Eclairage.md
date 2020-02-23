@@ -1,10 +1,10 @@
 -   **Le module**
 
-![module](../images/emv.400/module.jpg)
+![module](images/emv.400/module.jpg)
 
 -   **Le visuel Jeedom**
 
-![vue default eclairage](../images/emv.400/vue_default_eclairage.jpg)
+![vue default eclairage](images/emv.400/vue_default_eclairage.jpg)
 
 Résumé 
 ======
@@ -109,12 +109,12 @@ référez-vous à cette
 DIP Switch et bouton "R" : 
 --------------------------
 
-![bouton association](../images/emv.400/bouton_association.jpg)
+![bouton association](images/emv.400/bouton_association.jpg)
 
 -   Le DIP Switch va vous permettre de régler les paramètres
     (Répéteur/Mode volet/éclairage/Minuterie) du module:
 
-![dip switch](../images/emv.400/dip_switch.jpg)
+![dip switch](images/emv.400/dip_switch.jpg)
 
 > **Note**
 >
@@ -126,7 +126,7 @@ DIP Switch et bouton "R" :
     d’activer ou désactiver la fonction minuterie et d’activer le mode
     déporté :
 
-![bouton r](../images/emv.400/bouton_r.jpg)
+![bouton r](images/emv.400/bouton_r.jpg)
 
 > **Note**
 >
@@ -143,7 +143,7 @@ touches", voici le fonctionnement du module:
 > Référez-vous à la documentation du fabricant, afin de pouvoir
 > configurer votre émetteur.
 
-![diagramme](../images/emv.400/diagramme.jpg)
+![diagramme](images/emv.400/diagramme.jpg)
 
 Fonction minuterie 
 ------------------
@@ -174,7 +174,7 @@ distance.
 Configuration et raccordements électriques : 
 --------------------------------------------
 
-![mode eclairage](../images/emv.400/mode_eclairage.jpg)
+![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
 > **Important**
 >
@@ -191,11 +191,11 @@ Création du module dans Jeedom
 Pour associer un module récepteur Edisio à Jeedom, il faut créer
 manuellement un équipement.
 
-![ajout equip](../images/emv.400/ajout_equip.jpg)
+![ajout equip](images/emv.400/ajout_equip.jpg)
 
 Une fois, votre équipement créé, vous devriez obtenir ceci :
 
-![crea equip](../images/emv.400/crea_equip.jpg)
+![crea equip](images/emv.400/crea_equip.jpg)
 
 > **Note**
 >
@@ -204,7 +204,7 @@ Une fois, votre équipement créé, vous devriez obtenir ceci :
 Dans la liste d’équipements, à droite, sélectionner "Micro-module
 lumière" :
 
-![infos equip eclairage](../images/emv.400/infos_equip_eclairage.jpg)
+![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
 Commandes 
 ---------
@@ -212,7 +212,7 @@ Commandes
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/emv.400/commande_eclairage.jpg)
+![Commandes](images/emv.400/commande_eclairage.jpg)
 
 Voici la liste des commandes :
 
@@ -238,7 +238,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/emv.400/infos_eclairage.jpg)
+![Commandes](images/emv.400/infos_eclairage.jpg)
 
 -   Création : Indique la date à laquelle l’équipement a été crée
 
@@ -350,7 +350,7 @@ remplace désormais le bouton "R" du récepteur.
 Visuel alternatif 
 =================
 
-![Commandes](../images/emv.400/vue_alt_eclairage.jpg)
+![Commandes](images/emv.400/vue_alt_eclairage.jpg)
 
 F.A.Q. 
 ======

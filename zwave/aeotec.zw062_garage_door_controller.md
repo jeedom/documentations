@@ -7,7 +7,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-![module](../images/aeotec.garagedoorcontroller/module.jpg)
+![module](images/aeotec.garagedoorcontroller/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-![vuedefaut1](../images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
+![vuedefaut1](images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
 
  \
 
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/aeotec.garagedoorcontroller/inclusion.jpg)
+![inclusion](images/aeotec.garagedoorcontroller/inclusion.jpg)
 
  \
 
@@ -145,7 +145,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/aeotec.garagedoorcontroller/information.jpg)
+![Plugin Zwave](images/aeotec.garagedoorcontroller/information.jpg)
 
  \
 
@@ -158,7 +158,7 @@ disponibles.
 
  \
 
-![Commandes](../images/aeotec.garagedoorcontroller/commandes.jpg)
+![Commandes](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -188,7 +188,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -197,9 +197,9 @@ Paramètres)
 
  \
 
-![Config1](../images/aeotec.garagedoorcontroller/config1.jpg)
+![Config1](images/aeotec.garagedoorcontroller/config1.jpg)
 
-![Config1](../images/aeotec.garagedoorcontroller/config2.jpg)
+![Config1](images/aeotec.garagedoorcontroller/config2.jpg)
 
  \
 
@@ -228,7 +228,7 @@ indispensable.
 
  \
 
-![Groupe](../images/aeotec.garagedoorcontroller/groupe.jpg)
+![Groupe](images/aeotec.garagedoorcontroller/groupe.jpg)
 
  \
 

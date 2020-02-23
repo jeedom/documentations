@@ -40,24 +40,24 @@ Création du profil
 
 On ajoute un nouveau profil avec un **état** comme déclencheur.
 
-![android.autovoice1](../images/android.autovoice1.png)
+![android.autovoice1](images/android.autovoice1.png)
 
 On sélectionne **Plugin** sur le premier écran.
 
-![android.autovoice2](../images/android.autovoice2.png)
+![android.autovoice2](images/android.autovoice2.png)
 
 En type de plugin, on sélectionne **AutoVoice**.
 
-![android.autovoice3](../images/android.autovoice3.png)
+![android.autovoice3](images/android.autovoice3.png)
 
 Dans le sous-menu **AutoVoice**, on sélectionne **Recognized**.
 
-![android.autovoice4](../images/android.autovoice4.png)
+![android.autovoice4](images/android.autovoice4.png)
 
 Vous pouvez sauvegarder la configuration par défaut, à moins de vouloir
 préciser des mots clefs ou d’autres paramètres.
 
-![android.autovoice5](../images/android.autovoice5.png)
+![android.autovoice5](images/android.autovoice5.png)
 
 On pourra donner au profil un nom comme "Jeedom Interactions" et la
 sauvegarde sera faite après la liaison avec une tâche.
@@ -68,20 +68,20 @@ La tâche
 On ajoute une **nouvelle tâche** au profil nouvellement créé. Par
 exemple, elle pourra être appelée "API Jeedom".
 
-![android.autovoice6](../images/android.autovoice6.png)
+![android.autovoice6](images/android.autovoice6.png)
 
 La tâche regroupera finalement 2 actions : **appel API** et **dire le
 retour**.
 
-![android.autovoice7](../images/android.autovoice7.png)
+![android.autovoice7](images/android.autovoice7.png)
 
 D’abord on va ajouter une action de type **Réseau**.
 
-![android.autovoice8](../images/android.autovoice8.png)
+![android.autovoice8](images/android.autovoice8.png)
 
 Puis on sélectionne **Get HTTP**.
 
-![android.autovoice9](../images/android.autovoice9.png)
+![android.autovoice9](images/android.autovoice9.png)
 
 Là on va remplir avec les informations Jeedom. Voici les informations à
 entrer :
@@ -95,16 +95,16 @@ Ne pas oublier de mettre votre clef API en lieu et place de la chaine
 `votreclef`. Il faut bien laisser `%avcommonfilter` à la fin, ce sera
 remplacé par le retour d’Autovoice.
 
-![android.autovoice10](../images/android.autovoice10.png)
+![android.autovoice10](images/android.autovoice10.png)
 
 Ajouter une action de type **Dire**. Pour cela, filtrer les actions en
 mettant "dire" au niveau de la loupe.
 
-![android.autovoice11](../images/android.autovoice11.png)
+![android.autovoice11](images/android.autovoice11.png)
 
 Et on rentre `%HTTPD` dans le champ texte.
 
-![android.autovoice12](../images/android.autovoice12.png)
+![android.autovoice12](images/android.autovoice12.png)
 
 C’est fini. Sur reconnaissance de texte par AutoVoice, Jeedom sera
 appelé et vous aurez la réponse configurée dans les interactions qui

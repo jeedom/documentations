@@ -7,7 +7,7 @@ MCO MH-S412 Double
 
  \
 
-![module](../images/mco.mhs412/module.jpg)
+![module](images/mco.mhs412/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ MCO MH-S412 Double
 
  \
 
-![vuedefaut1](../images/mco.mhs412/vuedefaut1.jpg)
+![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
  \
 
@@ -122,7 +122,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/mco.mhs412/information.jpg)
+![Plugin Zwave](images/mco.mhs412/information.jpg)
 
  \
 
@@ -135,7 +135,7 @@ disponibles.
 
  \
 
-![Commandes](../images/mco.mhs412/commandes.jpg)
+![Commandes](images/mco.mhs412/commandes.jpg)
 
  \
 
@@ -145,7 +145,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -154,7 +154,7 @@ paramètres)
 
  \
 
-![Config1](../images/mco.mhs412/config1.jpg)
+![Config1](images/mco.mhs412/config1.jpg)
 
  \
 
@@ -177,7 +177,7 @@ indispensable.
 
  \
 
-![Groupe](../images/mco.mhs412/groupe.jpg)
+![Groupe](images/mco.mhs412/groupe.jpg)
 
  \
 

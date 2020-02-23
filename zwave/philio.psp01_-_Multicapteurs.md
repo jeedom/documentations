@@ -7,7 +7,7 @@ Philio PSP01
 
  \
 
-![module](../images/philio.psp01/module.jpg)
+![module](images/philio.psp01/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Philio PSP01
 
  \
 
-![vuedefaut1](../images/philio.psp01/vuedefaut1.jpg)
+![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
  \
 
@@ -149,7 +149,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/philio.psp01/inclusion.jpg)
+![inclusion](images/philio.psp01/inclusion.jpg)
 
  \
 
@@ -157,7 +157,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/philio.psp01/information.jpg)
+![Plugin Zwave](images/philio.psp01/information.jpg)
 
  \
 
@@ -170,7 +170,7 @@ disponibles.
 
  \
 
-![Commandes](../images/philio.psp01/commandes.jpg)
+![Commandes](images/philio.psp01/commandes.jpg)
 
  \
 
@@ -215,7 +215,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -224,9 +224,9 @@ Paramètres)
 
  \
 
-![Config1](../images/philio.psp01/config1.jpg)
+![Config1](images/philio.psp01/config1.jpg)
 
-![Config2](../images/philio.psp01/config2.jpg)
+![Config2](images/philio.psp01/config2.jpg)
 
  \
 
@@ -273,7 +273,7 @@ indispensable.
 
  \
 
-![Groupe](../images/philio.psp01/groupe.jpg)
+![Groupe](images/philio.psp01/groupe.jpg)
 
  \
 
@@ -301,7 +301,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/philio.psp01/vuewidget.jpg)
+![vuewidget](images/philio.psp01/vuewidget.jpg)
 
  \
 

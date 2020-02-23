@@ -17,7 +17,7 @@ nouveau lecteur CD-ROM. Il faut double-cliquer dessus et installer le
 logiciel proposé (il n’y a rien à changer faîtes juste suivant tout le
 long).
 
-![gsmonly](../images/gsmonly.PNG)
+![gsmonly](images/gsmonly.PNG)
 
 Récupération du port COM 
 ========================
@@ -28,7 +28,7 @@ celui-ci puis dépliez la partie "Ports (COM et LPT)", vous devriez avoir
 un item contenant "HUAWEI", il faut ensuite juste retenir le numéro du
 port COM :
 
-![gsmonly2](../images/gsmonly2.PNG)
+![gsmonly2](images/gsmonly2.PNG)
 
 Téléchargement de Putty 
 =======================
@@ -43,7 +43,7 @@ Configuration de putty et passage en mode GSM seulement
 Une fois lancé configurez putty comme cela (en mettant bien votre numéro
 de port COM à vous, voir étape au-dessus) :
 
-![gsmonly3](../images/gsmonly3.PNG)
+![gsmonly3](images/gsmonly3.PNG)
 
 Une fenêtre noire va apparaître (il peut de temps en temps y avoir un
 message "boot…​", c’est normal, cela veut dire que vous êtes bien

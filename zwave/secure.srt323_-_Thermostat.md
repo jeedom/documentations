@@ -7,7 +7,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-![module](../images/secure.srt323/module.jpg)
+![module](images/secure.srt323/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-![vuedefaut1](../images/secure.srt323/vuedefaut1.jpg)
+![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
  \
 
@@ -143,7 +143,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/secure.srt323/inclusion.jpg)
+![inclusion](images/secure.srt323/inclusion.jpg)
 
  \
 
@@ -164,7 +164,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/secure.srt323/information.jpg)
+![Plugin Zwave](images/secure.srt323/information.jpg)
 
  \
 
@@ -177,7 +177,7 @@ disponibles.
 
  \
 
-![Commandes](../images/secure.srt323/commandes.jpg)
+![Commandes](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -208,7 +208,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,7 +217,7 @@ paramètres)
 
  \
 
-![Config1](../images/secure.srt323/config1.jpg)
+![Config1](images/secure.srt323/config1.jpg)
 
  \
 
@@ -243,7 +243,7 @@ associé aux 5 groupes
 
  \
 
-![Groupe](../images/secure.srt323/groupe.jpg)
+![Groupe](images/secure.srt323/groupe.jpg)
 
  \
 

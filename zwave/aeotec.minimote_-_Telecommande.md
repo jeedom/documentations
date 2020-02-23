@@ -7,7 +7,7 @@ Aeotec Minimote
 
  \
 
-![module](../images/aeotec.minimote/module.jpg)
+![module](images/aeotec.minimote/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Aeotec Minimote
 
  \
 
-![vuedefaut1](../images/aeotec.minimote/vuedefaut1.jpg)
+![vuedefaut1](images/aeotec.minimote/vuedefaut1.jpg)
 
  \
 
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/aeotec.minimote/inclusion.jpg)
+![inclusion](images/aeotec.minimote/inclusion.jpg)
 
  \
 
@@ -122,7 +122,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/aeotec.minimote/information.jpg)
+![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
  \
 
@@ -135,7 +135,7 @@ disponibles.
 
  \
 
-![Commandes](../images/aeotec.minimote/commandes.jpg)
+![Commandes](images/aeotec.minimote/commandes.jpg)
 
  \
 
@@ -180,7 +180,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -189,7 +189,7 @@ paramètres)
 
  \
 
-![Config1](../images/aeotec.minimote/config1.jpg)
+![Config1](images/aeotec.minimote/config1.jpg)
 
  \
 
@@ -219,7 +219,7 @@ pour s’en servir en télécommande dans Jeedom.
 
  \
 
-![Groupe](../images/aeotec.minimote/groupe.jpg)
+![Groupe](images/aeotec.minimote/groupe.jpg)
 
  \
 

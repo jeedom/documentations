@@ -7,7 +7,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-![module](../images/greenwave.powernode/module.jpg)
+![module](images/greenwave.powernode/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-![vuedefaut1](../images/greenwave.powernode/vuedefaut1.jpg)
+![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
  \
 
@@ -153,7 +153,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/greenwave.powernode/inclusion.jpg)
+![inclusion](images/greenwave.powernode/inclusion.jpg)
 
  \
 
@@ -161,7 +161,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/greenwave.powernode/information.jpg)
+![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
  \
 
@@ -174,15 +174,15 @@ disponibles.
 
  \
 
-![Commandes](../images/greenwave.powernode/commandes.jpg)
+![Commandes](images/greenwave.powernode/commandes.jpg)
 
-![Commandes](../images/greenwave.powernode/commandes2.jpg)
+![Commandes](images/greenwave.powernode/commandes2.jpg)
 
-![Commandes](../images/greenwave.powernode/commandes3.jpg)
+![Commandes](images/greenwave.powernode/commandes3.jpg)
 
-![Commandes](../images/greenwave.powernode/commandes4.jpg)
+![Commandes](images/greenwave.powernode/commandes4.jpg)
 
-![Commandes](../images/greenwave.powernode/commandes5.jpg)
+![Commandes](images/greenwave.powernode/commandes5.jpg)
 
  \
 
@@ -285,7 +285,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -294,7 +294,7 @@ Paramètres)
 
  \
 
-![Config1](../images/greenwave.powernode/config1.jpg)
+![Config1](images/greenwave.powernode/config1.jpg)
 
  \
 
@@ -324,7 +324,7 @@ indispensable.
 
  \
 
-![Groupe](../images/greenwave.powernode/groupe.jpg)
+![Groupe](images/greenwave.powernode/groupe.jpg)
 
  \
 
@@ -342,7 +342,7 @@ un polling pour remonter la consommation.
 
  \
 
-![Config2](../images/greenwave.powernode/config2.jpg)
+![Config2](images/greenwave.powernode/config2.jpg)
 
  \
 
@@ -355,7 +355,7 @@ prise. Cela aura pour effet de remonter les deux (conso et puissance)
 
  \
 
-![consocumul](../images/greenwave.powernode/consocumul.jpg)
+![consocumul](images/greenwave.powernode/consocumul.jpg)
 
  \
 
@@ -364,7 +364,7 @@ des 6 prises.
 
  \
 
-![consocumul2](../images/greenwave.powernode/consocumul2.jpg)
+![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
  \
 
@@ -372,7 +372,7 @@ des 6 prises.
 
  \
 
-![Config3](../images/greenwave.powernode/config3.jpg)
+![Config3](images/greenwave.powernode/config3.jpg)
 
  \
 

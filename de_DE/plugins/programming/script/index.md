@@ -7,7 +7,7 @@ Plugin-Konfiguration
 La configuration est très simple, après téléchargement du plugin, il
 vous suffit de l’activer et c’est tout.
 
-![script1](../images/script1.PNG)
+![script1](images/script1.PNG)
 
 La seule option est l’endroit où jeedom met les scripts par défaut, il
 est conseillé de ne pas y toucher.
@@ -18,17 +18,17 @@ Gerätekonfiguration
 La configuration des équipements Script est accessible à partir du menu
 plugin :
 
-![script2](../images/script2.PNG)
+![script2](images/script2.PNG)
 
 Voilà à quoi ressemble la page du plugin Script (ici avec déjà 1
 équipement) :
 
-![script3](../images/script3.PNG)
+![script3](images/script3.PNG)
 
 Vous retrouvez ici la liste de vos Scripts. Une fois que vous cliquez
 sur un équipement vous obtenez :
 
-![script4](../images/script4.PNG)
+![script4](images/script4.PNG)
 
 > **Tip**
 >
@@ -151,7 +151,7 @@ Im unteren Bereich finden sie eine Liste der Befehle :
 > les parametres de celui-ci les caractères spéciaux. Les caractères
 > autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
 
-![script5](../images/script5.PNG)
+![script5](images/script5.PNG)
 
 Permet d’appeller une url ou de récupérer le retour d’une URL.
 
@@ -180,7 +180,7 @@ Permet d’appeller une url ou de récupérer le retour d’une URL.
 Le choix HTML 
 =============
 
-![script8](../images/script8.PNG)
+![script8](images/script8.PNG)
 
 Permet de parser une page Web (fichier HTML) pour récupérer une valeur
 dessus. La syntaxe est la même que pour jquery.
@@ -192,7 +192,7 @@ question.
 Le choix XML 
 ============
 
-![script6](../images/script6.PNG)
+![script6](images/script6.PNG)
 
 Permet de récupérer du xml et d’aller chercher spécifiquement une valeur
 dedans.
@@ -209,7 +209,7 @@ question.
 Le choix JSON 
 =============
 
-![script7](../images/script7.PNG)
+![script7](images/script7.PNG)
 
 Permet de récupérer du json et d’aller chercher spécifiquement une
 valeur dedans.
@@ -611,7 +611,7 @@ Ensuite il faut trouver le "chemin" de la dernière VDM. Pour ce faire,
 il faut aller sur le site puis faire clic droit sur l’élément voulu puis
 inspecter l’élément, on obtient :
 
-![script9](../images/script9.PNG)
+![script9](images/script9.PNG)
 
 Là c’est la partie la plus complexe et qui demande un peu d’analyse. Ici
 mon texte est dans une balise "a" qui est lui dans un élément de type p
@@ -622,7 +622,7 @@ contient. J’ai donc : "div.post.article:first p:first a".
 
 Wir erhalten somit :
 
-![script10](../images/script10.PNG)
+![script10](images/script10.PNG)
 
 Pour une actualisation en temps réel, il est possible de mettre un cron
 de mise à jour.

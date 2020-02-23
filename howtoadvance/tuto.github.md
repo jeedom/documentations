@@ -28,12 +28,12 @@ Vous devriez donc être sur une page ressemblant à celle ci-dessous et
 devez donc renseigner un pseudo, un email et un mot de passe et ensuite
 cliquer sur **Create an account**
 
-![tuto.github1](../images/tuto.github1.png)
+![tuto.github1](images/tuto.github1.png)
 
 Vous arrivez donc sur une 2eme page comme ci-dessous et vous ne changez
 rien, vous cliquez sur **Continue**
 
-![tuto.github2](../images/tuto.github2.png)
+![tuto.github2](images/tuto.github2.png)
 
 Vous voilà inscrit et sur la page de configuration des options de votre
 compte. Je vous conseille de vérifier l’adresse email afin de pouvoir
@@ -41,7 +41,7 @@ récupérer votre compte en cas d’oubli de mot de passe par exemple mais
 aussi afin de pouvoir soumettre des modifications. Je vous laisse
 également découvrir les autres options si vous êtes curieux.
 
-![tuto.github3](../images/tuto.github3.png)
+![tuto.github3](images/tuto.github3.png)
 
 Fork de Jeedom Core ou de la documentation 
 ==========================================
@@ -59,7 +59,7 @@ avec votre adresse email vérifiée, si vous vous rendez ici
 droite il y a un bouton fork vous permettant de le copier dans votre
 espace github.
 
-![tuto.github4](../images/tuto.github4.png)
+![tuto.github4](images/tuto.github4.png)
 
 Modification d’un ou plusieurs fichiers 
 ---------------------------------------
@@ -77,13 +77,13 @@ précisément ici : core/class/
 3.  On a donc notre fichier *history.class.php* - On clique sur le
     fichier
 
-![tuto.github5](../images/tuto.github5.png)
+![tuto.github5](images/tuto.github5.png)
 
 1.  On est donc bien dans notre fichier
 
 2.  On clique sur le crayon pour entrer en modification
 
-![tuto.github6](../images/tuto.github6.png)
+![tuto.github6](images/tuto.github6.png)
 
 Afin de faire une recherche dans le fichier, se positionner dans le bloc
 texte du fichier qu’on vient d’ouvrir en mode édition avec le crayon et
@@ -102,14 +102,14 @@ lancer la recherche.
 1.  Le champ de recherche, oui c’est assez mince comme information, la
     ligne copiée est bien plus grande ;).
 
-![tuto.github7](../images/tuto.github7.png)
+![tuto.github7](images/tuto.github7.png)
 
 1.  En jaune, c’est le résultat de la recherche
 
 2.  En bleu, ce que je viens de sélectionner et que je souhaite
     modifier/remplacer par mon code. Ma modification
 
-![tuto.github14](../images/tuto.github14.png)
+![tuto.github14](images/tuto.github14.png)
 
 Je supprime donc le bloc puis je le remplace.
 
@@ -119,7 +119,7 @@ explicite si possible 2. On entre une description un peu plus précise
 parlant) 3. On s’assure que ça soit bien coché comme ceci 4. On commit =
 Soumettre la modification
 
-![tuto.github8](../images/tuto.github8.png)
+![tuto.github8](images/tuto.github8.png)
 
 Soumettre une modification 
 --------------------------
@@ -132,7 +132,7 @@ il faut effecter un PR (Pull Request)
 
 2.  New Pull Request (PR pour les intimes)
 
-![tuto.github9](../images/tuto.github9.png)
+![tuto.github9](images/tuto.github9.png)
 
 1.  Le PR va lancer une comparaison entre la base de jeedom avec votre
     repository (le fork).
@@ -147,7 +147,7 @@ il faut effecter un PR (Pull Request)
 
 5.  On crée le Pull Request (PR)
 
-![tuto.github10](../images/tuto.github10.png)
+![tuto.github10](images/tuto.github10.png)
 
 Il est important de bien expiiquer les changements soumis pour que le(s)
 développeur(s) du projet d’origine comprennent et puissent valider votre
@@ -162,7 +162,7 @@ demande.
 
 4.  On clique sur Create Pull Request
 
-![tuto.github11](../images/tuto.github11.png)
+![tuto.github11](images/tuto.github11.png)
 
 **C’est terminé.** Il faut attendre que votre PR soit validé.
 
@@ -172,12 +172,12 @@ peuvent valider le PR.
 Pour vous assurer que votre modification est bien dans la liste, vous
 pouvez cliquer sur Pull Requests
 
-![tuto.github12](../images/tuto.github12.png)
+![tuto.github12](images/tuto.github12.png)
 
 On obtient la liste des PR en attentes de validation. On voit bien le
 nôtre
 
-![tuto.github13](../images/tuto.github13.png)
+![tuto.github13](images/tuto.github13.png)
 
 La mise à jour de votre fork 
 ============================

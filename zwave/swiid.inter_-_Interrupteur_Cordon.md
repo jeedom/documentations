@@ -7,7 +7,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-![module](../images/swiid.inter/module.jpg)
+![module](images/swiid.inter/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-![vuedefaut1](../images/swiid.inter/vuedefaut1.jpg)
+![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
  \
 
@@ -142,7 +142,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/swiid.inter/inclusion.jpg)
+![inclusion](images/swiid.inter/inclusion.jpg)
 
  \
 
@@ -150,7 +150,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/swiid.inter/information.jpg)
+![Plugin Zwave](images/swiid.inter/information.jpg)
 
  \
 
@@ -163,7 +163,7 @@ disponibles.
 
  \
 
-![Commandes](../images/swiid.inter/commandes.jpg)
+![Commandes](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -195,7 +195,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -204,7 +204,7 @@ paramètres)
 
  \
 
-![Config1](../images/swiid.inter/config1.jpg)
+![Config1](images/swiid.inter/config1.jpg)
 
  \
 
@@ -238,7 +238,7 @@ Ce module possède deux groupes d’association.
 
  \
 
-![Groupe](../images/swiid.inter/groupe.jpg)
+![Groupe](images/swiid.inter/groupe.jpg)
 
  \
 
@@ -269,7 +269,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/swiid.inter/vuewidget.jpg)
+![vuewidget](images/swiid.inter/vuewidget.jpg)
 
  \
 

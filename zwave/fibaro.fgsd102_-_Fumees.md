@@ -7,7 +7,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-![module](../images/fibaro.fgsd102/module.jpg)
+![module](images/fibaro.fgsd102/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-![vuedefaut1](../images/fibaro.fgsd102/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
  \
 
@@ -151,7 +151,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgsd102/inclusion.jpg)
+![inclusion](images/fibaro.fgsd102/inclusion.jpg)
 
  \
 
@@ -159,7 +159,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgsd102/information.jpg)
+![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
  \
 
@@ -172,7 +172,7 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgsd102/commandes.jpg)
+![Commandes](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -215,7 +215,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -224,9 +224,9 @@ Paramètres)
 
  \
 
-![Config1](../images/fibaro.fgsd102/config1.jpg)
+![Config1](images/fibaro.fgsd102/config1.jpg)
 
-![Config2](../images/fibaro.fgsd102/config2.jpg)
+![Config2](images/fibaro.fgsd102/config2.jpg)
 
  \
 
@@ -281,7 +281,7 @@ associé à minima aux groupes 1 4 et 5:
 
  \
 
-![Groupe](../images/fibaro.fgsd102/groupe.jpg)
+![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
  \
 
@@ -298,7 +298,7 @@ Bon à savoir
 
  \
 
-![widget1](../images/fibaro.fgsd102/widget1.jpg)
+![widget1](images/fibaro.fgsd102/widget1.jpg)
 
  \
 

@@ -7,7 +7,7 @@ Aeotec Panic Button
 
  \
 
-![module](../images/aeotec.panicbutton/module.jpg)
+![module](images/aeotec.panicbutton/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Aeotec Panic Button
 
  \
 
-![vuedefaut1](../images/aeotec.panicbutton/vuedefaut1.jpg)
+![vuedefaut1](images/aeotec.panicbutton/vuedefaut1.jpg)
 
  \
 
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/aeotec.panicbutton/inclusion.jpg)
+![inclusion](images/aeotec.panicbutton/inclusion.jpg)
 
  \
 
@@ -129,7 +129,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/aeotec.panicbutton/information.jpg)
+![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
  \
 
@@ -142,7 +142,7 @@ disponibles.
 
  \
 
-![Commandes](../images/aeotec.panicbutton/commandes.jpg)
+![Commandes](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -175,7 +175,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -184,7 +184,7 @@ Paramètres)
 
  \
 
-![Config1](../images/aeotec.panicbutton/config1.jpg)
+![Config1](images/aeotec.panicbutton/config1.jpg)
 
  \
 
@@ -208,7 +208,7 @@ indispensable.
 
  \
 
-![Groupe](../images/aeotec.panicbutton/groupe.jpg)
+![Groupe](images/aeotec.panicbutton/groupe.jpg)
 
  \
 

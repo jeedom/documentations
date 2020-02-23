@@ -1,10 +1,10 @@
 -   **Le module**
 
-![module](../images/etc4/module.jpg)
+![module](images/etc4/module.jpg)
 
 -   **Le visuel Jeedom**
 
-![vue default](../images/etc4/vue_default.jpg)
+![vue default](images/etc4/vue_default.jpg)
 
 Résumé 
 ======
@@ -90,7 +90,7 @@ Diagramme de fonctionnement
 Selon que votre émetteur est configuré en mode "1 touche" ou "2
 touches", voici le fonctionnement de la télécommande :
 
-![diagramme](../images/etc4/diagramme.jpg)
+![diagramme](images/etc4/diagramme.jpg)
 
 Changer le mode 
 ===============
@@ -102,7 +102,7 @@ Changer le mode
     -   Appuyez 1x la touche "C1", toujours en maintenant la touche
         "C4", la LED clignotera 1 fois
 
-![mode1](../images/etc4/mode1.jpg)
+![mode1](images/etc4/mode1.jpg)
 
 -   MODE 2 :
 
@@ -111,7 +111,7 @@ Changer le mode
     -   Appuyez 2x la touche "C1", toujours en maintenant la touche
         "C4", la LED clignotera 2 fois
 
-![mode2](../images/etc4/mode2.jpg)
+![mode2](images/etc4/mode2.jpg)
 
 Association de la télécommande à Jeedom 
 =======================================
@@ -122,7 +122,7 @@ souhaitez avoir dans votre Jeedom.
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
-![asso equip](../images/etc4/asso_equip.jpg)
+![asso equip](images/etc4/asso_equip.jpg)
 
 Commandes 
 ---------
@@ -130,7 +130,7 @@ Commandes
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/etc4/commandes.jpg)
+![Commandes](images/etc4/commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -150,7 +150,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/etc4/infos.jpg)
+![Commandes](images/etc4/infos.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à été créé
 

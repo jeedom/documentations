@@ -1,10 +1,10 @@
 -   **Le module**
 
-![ems200.module](../images/ems200/ems200.module.jpg)
+![ems200.module](images/ems200/ems200.module.jpg)
 
 -   **Le visuel Jeedom**
 
-![ems200.vue defaut](../images/ems200/ems200.vue-defaut.jpg)
+![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
 
 Résumé 
 ======
@@ -85,14 +85,14 @@ Bouton "E"
 Vous trouverez le bouton "E" qui est le bouton d’association du capteur
 de température.
 
-![ems200.bouton e](../images/ems200/ems200.bouton-e.jpg)
+![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
 Détection 
 ---------
 
 Le capteur détecte le moindre mouvement dans un rayon d’environ 6m
 
-![ems200.detection](../images/ems200/ems200.detection.jpg)
+![ems200.detection](images/ems200/ems200.detection.jpg)
 
 Réglage de la minuterie 
 -----------------------
@@ -100,7 +100,7 @@ Réglage de la minuterie
 Par défaut, la minuterie est désactivée. Ce paramètre sert à configurer
 le délai :
 
-![ems200.minuterie](../images/ems200/ems200.minuterie.jpg)
+![ems200.minuterie](images/ems200/ems200.minuterie.jpg)
 
 Association du capteur à Jeedom 
 ===============================
@@ -113,7 +113,7 @@ nom et sauvegarder.
 
 Une fois votre équipement associé, vous devriez obtenir ceci :
 
-![ems200.general](../images/ems200/ems200.general.jpg)
+![ems200.general](images/ems200/ems200.general.jpg)
 
 > **Tip**
 >
@@ -126,7 +126,7 @@ Commandes
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/ems200/ems200.commande.jpg)
+![Commandes](images/ems200/ems200.commande.jpg)
 
 Voici la liste des commandes :
 
@@ -141,7 +141,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/ems200/ems200.informations.jpg)
+![Commandes](images/ems200/ems200.informations.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à était créé
 
@@ -155,7 +155,7 @@ disponibles :
 Visuel alternatif 
 =================
 
-![ems200.vue alternative](../images/ems200/ems200.vue-alternative.jpg)
+![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)
 
 F.A.Q. 
 ======

@@ -7,7 +7,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
-![module](../images/fibaro.fgrm222/module.jpg)
+![module](images/fibaro.fgrm222/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
-![vuedefaut1](../images/fibaro.fgrm222/vuedefaut1.jpg)
+![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
  \
 
@@ -141,7 +141,7 @@ inclusion référez-vous à cette
 
  \
 
-![inclusion](../images/fibaro.fgrm222/inclusion.jpg)
+![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
  \
 
@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/fibaro.fgrm222/information.jpg)
+![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
  \
 
@@ -162,9 +162,9 @@ disponibles.
 
  \
 
-![Commandes](../images/fibaro.fgrm222/commandes.jpg)
+![Commandes](images/fibaro.fgrm222/commandes.jpg)
 
-![Commandes](../images/fibaro.fgrm222/commandes2.jpg)
+![Commandes](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -214,7 +214,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -223,13 +223,13 @@ paramètres)
 
  \
 
-![Config1](../images/fibaro.fgrm222/config1.jpg)
+![Config1](images/fibaro.fgrm222/config1.jpg)
 
-![Config2](../images/fibaro.fgrm222/config2.jpg)
+![Config2](images/fibaro.fgrm222/config2.jpg)
 
-![Config3](../images/fibaro.fgrm222/config3.jpg)
+![Config3](images/fibaro.fgrm222/config3.jpg)
 
-![Config4](../images/fibaro.fgrm222/config4.jpg)
+![Config4](images/fibaro.fgrm222/config4.jpg)
 
  \
 
@@ -290,7 +290,7 @@ indispensable.
 
  \
 
-![Groupe](../images/fibaro.fgrm222/groupe.jpg)
+![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
  \
 
@@ -303,7 +303,7 @@ Bon à savoir
 
  \
 
-![Config5](../images/fibaro.fgrm222/config5.jpg)
+![Config5](images/fibaro.fgrm222/config5.jpg)
 
  \
 
@@ -329,7 +329,7 @@ sur ce bouton disponible dans l’onglet Système.
 
  \
 
-![vuewidget](../images/fibaro.fgrm222/vuewidget.jpg)
+![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
  \
 

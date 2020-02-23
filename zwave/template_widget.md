@@ -8,7 +8,7 @@ le menu « Plugins », « Protocole Domotique » puis « Z-Wave ».
 
  \
 
-![inclusion1](../images/plugin/inclusion1.jpg)
+![inclusion1](images/plugin/inclusion1.jpg)
 
  \
 
@@ -17,7 +17,7 @@ il suffit de cliquer dessus pour passer en mode inclusion :
 
  \
 
-![bouton inclusion](../images/plugin/bouton_inclusion.jpg)
+![bouton inclusion](images/plugin/bouton_inclusion.jpg)
 
  \
 
@@ -26,7 +26,7 @@ rappeler que vous êtes dans ce mode.
 
  \
 
-![inclusion3](../images/plugin/inclusion3.jpg)
+![inclusion3](images/plugin/inclusion3.jpg)
 
  \
 
@@ -36,7 +36,7 @@ commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
  \
 
-![inclusion4](../images/plugin/inclusion4.jpg)
+![inclusion4](images/plugin/inclusion4.jpg)
 
  \
 

@@ -1,12 +1,12 @@
 -   **Le module**
 
-![etc1.module 1](../images/etc1/etc1.module-1.jpg)
+![etc1.module 1](images/etc1/etc1.module-1.jpg)
 
-![etc1.module 2](../images/etc1/etc1.module-2.png)
+![etc1.module 2](images/etc1/etc1.module-2.png)
 
 -   **Le visuel Jeedom**
 
-![etc1.vue default](../images/etc1/etc1.vue-default.jpg)
+![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
 Résumé 
 ======
@@ -53,7 +53,7 @@ Caractéristiques techniques
 
 -   Degré de protection : IP64
 
-![etc1.dimmension](../images/etc1/etc1.dimmension.png)
+![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Données du module 
 =================
@@ -81,7 +81,7 @@ Diagramme de fonctionnement
 
 Voici le fonctionnement de la télécommande :
 
-![etc1.diagramme](../images/etc1/etc1.diagramme.jpg)
+![etc1.diagramme](images/etc1/etc1.diagramme.jpg)
 
 Remplacement de la pile 
 -----------------------
@@ -89,7 +89,7 @@ Remplacement de la pile
 Pour remplacer la pile de votre télécommande, voici la démarche à suivre
 :
 
-![etc1.remplacement pile](../images/etc1/etc1.remplacement-pile.jpg)
+![etc1.remplacement pile](images/etc1/etc1.remplacement-pile.jpg)
 
 Association de la télécommande à Jeedom 
 =======================================
@@ -98,11 +98,11 @@ L’association d’un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d’appuyer sur la touche de votre
 télécommande.
 
-![Commandes](../images/etc1/etc1.touche-c.jpg)
+![Commandes](images/etc1/etc1.touche-c.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
-![etc1.general](../images/etc1/etc1.general.jpg)
+![etc1.general](images/etc1/etc1.general.jpg)
 
 Commandes 
 ---------
@@ -110,7 +110,7 @@ Commandes
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/etc1/etc1.commandes.jpg)
+![Commandes](images/etc1/etc1.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -124,7 +124,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/etc1/etc1.informations.jpg)
+![Commandes](images/etc1/etc1.informations.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à était créé
 

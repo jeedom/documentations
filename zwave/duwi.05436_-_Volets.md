@@ -7,7 +7,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-![1 Module](../images/duwi.05436/1-Module.PNG)
+![1 Module](images/duwi.05436/1-Module.PNG)
 
  \
 
@@ -15,7 +15,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-![Visuel defaut](../images/duwi.05436/Visuel_defaut.PNG)
+![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
  \
 
@@ -106,7 +106,7 @@ Données du module
 Connexion 
 ---------
 
-![2 Montage](../images/duwi.05436/2-Montage.PNG)
+![2 Montage](images/duwi.05436/2-Montage.PNG)
 
  \
 
@@ -132,7 +132,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/duwi.05436/3-Inclusion.PNG)
+![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
  \
 
@@ -145,7 +145,7 @@ disponibles.
 
  \
 
-![Commandes](../images/duwi.05436/4-Commandes.PNG)
+![Commandes](images/duwi.05436/4-Commandes.PNG)
 
  \
 
@@ -196,7 +196,7 @@ de votre installation, il faut pour cela passer par la bouton
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -205,7 +205,7 @@ paramètres)
 
  \
 
-![Config1](../images/duwi.05436/5-Paramètres.PNG)
+![Config1](images/duwi.05436/5-Paramètres.PNG)
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](../images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
  \
 
@@ -264,7 +264,7 @@ Bon à savoir
 
         o soit configurer un poll à 5 minutes dans la configuration, onglet 'valeurs'
 
-![Groupe](../images/duwi.05436/7-Poll.PNG)
+![Groupe](images/duwi.05436/7-Poll.PNG)
 
     o soit créer un scénario qui lance la commande 'Refresh' toutes les x minutes (au minimum 1 minute)
 
@@ -277,7 +277,7 @@ Bon à savoir
 
  \
 
-![Visuel custom](../images/duwi.05436/Visuel_custom.PNG)
+![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
 > **Tip**
 >

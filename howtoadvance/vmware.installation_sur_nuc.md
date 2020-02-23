@@ -133,7 +133,7 @@ C’est le plus dur en fait je crois, pour vous simplifier la vie il faut
     et là vous devez avoir dans "Downlaod Packages", un package "ESXi
     ISO image (Includes VMware Tools)" qu’il vous faut télécharger
 
-![installation.vmware.nuc](../images/installation.vmware.nuc.PNG)
+![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
 
 Juste au-dessus vous avez aussi votre clef de licence, vous pouvez en
 profiter pour la récupérer.
@@ -150,7 +150,7 @@ Création de la clef USB bootable
 
 Là aussi c’est facile voilà comment configurer rufus :
 
-![installation.vmware.nuc2](../images/installation.vmware.nuc2.PNG)
+![installation.vmware.nuc2](images/installation.vmware.nuc2.PNG)
 
 Il ne vous reste plus qu’à cliquer sur démarrer et attendre.
 
@@ -165,35 +165,35 @@ Voilà les 3 composants pour mon NUC :
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GO (2 X 8 GO) 2400 MHZ CL16
 
-![installation.vmware.nuc3](../images/installation.vmware.nuc3.jpg)
+![installation.vmware.nuc3](images/installation.vmware.nuc3.jpg)
 
 La boite du NUC :
 
-![installation.vmware.nuc4](../images/installation.vmware.nuc4.jpg)
+![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
 
 Ouverture de celle-ci :
 
-![installation.vmware.nuc5](../images/installation.vmware.nuc5.jpg)
+![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
 
 Les composants sortis de leur boîte :
 
-![installation.vmware.nuc6](../images/installation.vmware.nuc6.jpg)
+![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
 
 Ouverture du NUC, là c’est très simple, mettez-le à l’envers, dévissez
 les 4 vis sous les pieds (elles ne sortent pas en entier c’est normal il
 faut juste les dévisser), puis tirez légèrement sur les vis pour ouvrir
 le NUC:
 
-![installation.vmware.nuc7](../images/installation.vmware.nuc7.jpg)
+![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
 Le SSD installé (sur la gauche), la vis en bout pour le bloquer est un
 peu pénible à remettre, heureusement on ne fait ça qu’une fois
 
-![installation.vmware.nuc8](../images/installation.vmware.nuc8.jpg)
+![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
 
 Installation de la mémoire (à droite) :
 
-![installation.vmware.nuc10](../images/installation.vmware.nuc10.jpg)
+![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
 Et voilà, vous pouvez refermer (à moins bien sûr que vous ayez pris un
 SSD 2.5 pouces qu’il faut dans ce cas insérer dans le couvercle).
@@ -206,7 +206,7 @@ USB du NUC, de brancher un écran sur le port HDMI, un clavier et
 l’alimentation. Vous allumez le NUC, l’installation se lancera toute
 seule :
 
-![installation.vmware.nuc11](../images/installation.vmware.nuc11.jpg)
+![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
 
 > **Note**
 >
@@ -216,29 +216,29 @@ seule :
 Ici sélectionnez bien le disque correspondant au SSD (vous pouvez le
 repérer soit par le nom soit par la taille)
 
-![installation.vmware.nuc13](../images/installation.vmware.nuc13.jpg)
+![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
 
 Sélectionnez "French" :
 
-![installation.vmware.nuc14](../images/installation.vmware.nuc14.jpg)
+![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
 
 Mettez un mot passe, au début je vous conseille de mettre un truc simple
 comme "oooo" (on le changera par la suite) :
 
-![installation.vmware.nuc15](../images/installation.vmware.nuc15.jpg)
+![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
 
 Validez en faisant F11 :
 
-![installation.vmware.nuc16](../images/installation.vmware.nuc16.jpg)
+![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
 
 L’installation va prendre de 10 à 20min, ensuite il vous faudra enlever
 la clef USB et attendre que le système reboot
 
-![installation.vmware.nuc17](../images/installation.vmware.nuc17.jpg)
+![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
 
 Une fois le redémarrage fini vous devez avoir :
 
-![installation.vmware.nuc18](../images/installation.vmware.nuc18.jpg)
+![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
 
 Voilà VMware est installé (en plus il est sympa il vous donne son IP) ,
 plus qu’à jouer avec !!!

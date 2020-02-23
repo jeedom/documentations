@@ -1,10 +1,10 @@
 -   **Le module**
 
-![eos200.module](../images/eos200/eos200.module.jpg)
+![eos200.module](images/eos200/eos200.module.jpg)
 
 -   **Le visuel Jeedom**
 
-![eos200.vue defaut](../images/eos200/eos200.vue-defaut.jpg)
+![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
 Résumé 
 ======
@@ -85,21 +85,21 @@ Bouton "E"
 Vous trouverez dessous le bouton "E" qui est le bouton d’association du
 capteur de température.
 
-![eos200.bouton e](../images/eos200/eos200.bouton-e.jpg)
+![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
 Configuration 
 -------------
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
 
-![eos200.nf no](../images/eos200/eos200.nf-no.jpg)
+![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
 > **Note**
 >
 > Il faudra donc configurer votre capteur, si vous souhaitez avoir un
 > widget avec une porte fermée lorsque celle-ci l’est.
 
-![eos200.mode](../images/eos200/eos200.mode.jpg)
+![eos200.mode](images/eos200/eos200.mode.jpg)
 
 Association du capteur à Jeedom 
 ===============================
@@ -112,7 +112,7 @@ nom et sauvegarder.
 
 Une fois votre équipement associé, vous devriez obtenir ceci :
 
-![eos200.general](../images/eos200/eos200.general.jpg)
+![eos200.general](images/eos200/eos200.general.jpg)
 
 > **Tip**
 >
@@ -125,7 +125,7 @@ Commandes
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](../images/eos200/eos200.commandes.jpg)
+![Commandes](images/eos200/eos200.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -140,7 +140,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](../images/eos200/eos200.informations.jpg)
+![Commandes](images/eos200/eos200.informations.jpg)
 
 -   Création : Indique la date à laquelle l’équipement à été créé
 
@@ -154,7 +154,7 @@ disponibles :
 Visuel alternatif 
 =================
 
-![eos200.vue alternative](../images/eos200/eos200.vue-alternative.jpg)
+![eos200.vue alternative](images/eos200/eos200.vue-alternative.jpg)
 
 F.A.Q. 
 ======

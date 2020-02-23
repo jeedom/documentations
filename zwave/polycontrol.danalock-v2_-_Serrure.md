@@ -7,7 +7,7 @@ Danalock V2 BTZE
 
  \
 
-![module](../images/polycontrol.danalock/module.jpg)
+![module](images/polycontrol.danalock/module.jpg)
 
  \
 
@@ -15,7 +15,7 @@ Danalock V2 BTZE
 
  \
 
-![vuedefaut1](../images/polycontrol.danalock/vuedefaut1.jpg)
+![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
  \
 
@@ -189,7 +189,7 @@ sécurisée : il suffit d’aller sur la page de gestion des modules Z-wave
 et de cliquer sur l’icône "Réseau Zwave"
 
 ![inclusion securise jeedom
-1](../images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
+1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
 
  \
 
@@ -197,7 +197,7 @@ Puis dans l’onglet "Actions" cliquez sur : "AJOUTER MODULE EN MODE
 SECURISE (INCLUSION)"
 
 ![inclusion securise jeedom
-2](../images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
+2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
  \
 
@@ -207,11 +207,11 @@ SECURISE (INCLUSION)"
 > votre smartphone ou iphone et créé un compte. Si ce n’est pas déjà
 > fait, vous pouvez vous référer à cette page.
 
-![inclusion](../images/polycontrol.danalock/inclusion.jpg)
+![inclusion](images/polycontrol.danalock/inclusion.jpg)
 
-![inclusion1](../images/polycontrol.danalock/inclusion1.jpg)
+![inclusion1](images/polycontrol.danalock/inclusion1.jpg)
 
-![inclusion2](../images/polycontrol.danalock/inclusion2.jpg)
+![inclusion2](images/polycontrol.danalock/inclusion2.jpg)
 
 Dans l’application cliquez sur "Smart home" puis sur "Z-wave" et enfin
 sur "CONNECT".
@@ -220,7 +220,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-![Plugin Zwave](../images/polycontrol.danalock/information.jpg)
+![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
  \
 
@@ -233,7 +233,7 @@ disponibles.
 
  \
 
-![Commandes](../images/polycontrol.danalock/commandes.jpg)
+![Commandes](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -271,7 +271,7 @@ plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](../images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -280,7 +280,7 @@ paramètres)
 
  \
 
-![Config1](../images/polycontrol.danalock/bouton_configuration.jpg)
+![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
  \
 
@@ -340,7 +340,7 @@ Ce module possède un seul groupe d’association.
 
  \
 
-![Groupe](../images/polycontrol.danalock/groupe.jpg)
+![Groupe](images/polycontrol.danalock/groupe.jpg)
 
  \
 
@@ -371,7 +371,7 @@ Bon à savoir
 
  \
 
-![vuewidget](../images/polycontrol.danalock/vuewidget.jpg)
+![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
  \
 

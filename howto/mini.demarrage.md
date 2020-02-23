@@ -23,37 +23,37 @@ Le carton de la Jeedom Mini+ que vous avez reçu doit contenir :
     de démarrage compatible Z-Wave+) (Cette carte est normalement déjà
     installée dans la box)
 
-![mini.demarrage01](../images/mini.demarrage01.png)
+![mini.demarrage01](images/mini.demarrage01.png)
 
 Avant de pouvoir l’utiliser, vous devez brancher votre box Jeedom Mini+
 sur votre réseau local (sur routeur, switch ou votre box internet…​), et
 sur le secteur.
 
-![mini.demarrage02](../images/mini.demarrage02.png)
+![mini.demarrage02](images/mini.demarrage02.png)
 
-![mini.demarrage03](../images/mini.demarrage03.png)
+![mini.demarrage03](images/mini.demarrage03.png)
 
 Avant de commencer, veuillez noter que Jeedom fonctionne à l’aide de
 plugins. Plusieurs plugins sont préinstallés sur votre Jeedom Mini+ :
 
-![mini.demarrage04](../images/mini.demarrage04.png)
+![mini.demarrage04](images/mini.demarrage04.png)
 
 Le plugin Z-Wave qui sert à configurer son réseau Z-Wave et à ajouter de
 nouveaux modules Z-Wave.
 
-![mini.demarrage05](../images/mini.demarrage05.png)
+![mini.demarrage05](images/mini.demarrage05.png)
 
 Le plugin Mail.
 
-![mini.demarrage06](../images/mini.demarrage06.png)
+![mini.demarrage06](images/mini.demarrage06.png)
 
 Les plugins Widget et Script.
 
-![mini.demarrage07](../images/mini.demarrage07.png)
+![mini.demarrage07](images/mini.demarrage07.png)
 
 Le plugin Météo.
 
-![mini.demarrage08](../images/mini.demarrage08.png)
+![mini.demarrage08](images/mini.demarrage08.png)
 
 Vous trouverez encore de nombreux autres plugins directement via
 l’interface Jeedom sur le Market Jeedom.
@@ -69,7 +69,7 @@ Pack associé à la Jeedom Mini+. Vous pouvez le renseigner sur votre
 profil du Market, cela vous permettra entre autre d’accéder aux
 différents services correpondants à votre Service Pack.
 
-![mini.demarrage09](../images/mini.demarrage09.png)
+![mini.demarrage09](images/mini.demarrage09.png)
 
 Vous pouvez maintenant suivre la documentation : [Premiers pas avec
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
