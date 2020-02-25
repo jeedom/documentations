@@ -1,8 +1,8 @@
 ---
-langs: [fr_FR,en_US,es_ES,de_DE] 
+langs: [fr_FR,en_US,es_ES,de_DE]
 baseurl: "/"
 sass:
-  sass_dir: assets/css
+  sass_dir: css
   style: compressed
 markdown: kramdown
 permalink: /404.html
