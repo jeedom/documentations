@@ -1,6 +1,7 @@
 var docMenu = [
   {
     fr_FR : "Introduction",
+    en_US : "Introduction",
     submenu : {
       presentation: {link : "",fr_FR : "Présentation",en_US:"Presentation"},
       installation: {link : "",fr_FR : "Installation",en_US:"Installation"},
@@ -10,6 +11,7 @@ var docMenu = [
     }
   },{
     fr_FR : "Services",
+    en_US : "Service",
     submenu:{
       cloud_backup : {link : "",fr_FR : "Sauvegarde",en_US:"Backup"},
       voice_assist : {link : "",fr_FR : "Assistant vocaux",en_US:"Voice assistant"},
@@ -19,9 +21,11 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR:'Jeedom v3.3'
+    fr_FR:'Jeedom v3.3',
+    en_US : "Jeedom v3.3",
   },{
     fr_FR : "Manuel d'utilisation",
+    en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
       {link : "",fr_FR : "Vues",en_US:"View"},
@@ -30,6 +34,7 @@ var docMenu = [
     ]
   },{
     fr_FR : "Manuel de configuration",
+    en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
       {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
@@ -39,6 +44,7 @@ var docMenu = [
     fr_FR:'Jeedom v4.0'
   },{
     fr_FR : "Manuel d'utilisation",
+    en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
       {link : "",fr_FR : "Vues",en_US:"View"},
@@ -47,6 +53,7 @@ var docMenu = [
     ]
   },{
     fr_FR : "Manuel de configuration",
+    en_US : "User manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
       {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
@@ -56,6 +63,7 @@ var docMenu = [
     fr_FR:'Jeedom v4.1'
   },{
     fr_FR : "Manuel d'utilisation",
+    en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
       {link : "",fr_FR : "Vues",en_US:"View"},
@@ -64,6 +72,7 @@ var docMenu = [
     ]
   },{
     fr_FR : "Manuel de configuration",
+    en_US : "User manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
       {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
@@ -73,6 +82,7 @@ var docMenu = [
     divider : true
   },{
     fr_FR : "Plugins",
+    en_US : "Plugins",
     submenu:[
       {link:"",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security"},
       {link:"",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Security"},
@@ -95,6 +105,7 @@ var docMenu = [
     divider : true
   },{
     fr_FR:"Assitance et bug",
+    en_US : "Bug and assistance",
     link:""
   }
 ]
