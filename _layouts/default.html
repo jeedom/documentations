@@ -27,7 +27,7 @@
     <ul id="slide-out" class="sidenav sidenav-fixed">
       <li><div class="user-view">
         <div class="background">
-          <img src="../img/background1.jpg">
+          <img src="../../img/background1.jpg">
         </div>
         <div class="input-field col s12">
           <select style="color:white !important;">
@@ -169,7 +169,12 @@
 <script type="text/javascript" src="/{{site.github.project_title}}/assets/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="/{{site.github.project_title}}/assets/js/materialize.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
+$(function(){
+  $('.sidenav').sidenav();
+  $('.parallax').parallax();
+  $('.dropdown-trigger').dropdown();
+  $('.collapsible').collapsible();
+  $('select').formSelect();
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
