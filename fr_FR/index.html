@@ -10,37 +10,36 @@
   <meta property="og:image" content="https://www.jeedom.com/doc/img/logo.png" />
   <link rel="icon" href="favicon.ico"/>
   <title>Documentation Jeedom</title>
-  
-  <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../css/font-awesome5/css/all.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-  <div>
+  <div class="navbar-fixed hide-on-print">
     <nav>
       <div class="nav-wrapper container">
-        <a id="logo-container" href="https://www.jeedom.com/doc" class="brand-logo center"><img src="../img/logo.png" style="height:50px;margin-top:5px"></a>
+        <a href="#" data-target="slide-out" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a>
+        <a id="logo-container" href="https://www.jeedom.com/doc" class="brand-logo center"><img src="/{{site.github.project_title}}/img/logo.png" style="height:50px;margin-top:5px"></a>
         <ul class="left hide-on-med-and-down">
-          <li>Jeedom Documentation</li>
+          <li><a href="https://www.jeedom.com/doc">Jeedom Documentation</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="https://www.jeedom.com/site">Site</a></li>
+          <li><a href="https://www.jeedom.com/site">Site</a></li>
           <li><a href="https://www.jeedom.com/blog">Blog</a></li>
-          <li><a href="https://community.jeedom.com/">Communauty</a></li>
+          <li><a href="https://community.jeedom.com">Community</a></li>
           <li><a href="https://www.jeedom.com/market">Market</a></li>
-          <li><a href="https://www.jeedom.com/doc">Doc</a></li>
+          <li class="active"><a href="https://www.jeedom.com/doc">Doc</a></li>
         </ul>
       </div>
     </nav>
-    
+  </div>
+  <div class="container hide-on-print">
     <ul id="slide-out" class="sidenav sidenav-fixed">
       <li><div class="user-view">
         <div class="background">
-          <img src="../img/background1.jpg">
+          <img src="../../img/background1.jpg">
         </div>
         <div class="input-field col s12">
           <select style="color:white !important;">
@@ -170,10 +169,7 @@
       </ul>
       <li><a href="#!">Assitance et bug</a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
-  
-  
   
   <div class="parallax-container valign-wrapper" style="height:375px">
     <div class="parallax"><img src="../img/background5.jpg"></div>
@@ -182,11 +178,6 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        
-        
-        
-        
-        
         
       </div>
     </div>
