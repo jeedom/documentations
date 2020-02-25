@@ -38,13 +38,14 @@
             <option value="fr_fr">Français</option>
             <option value="en_US">English</option>
             <option value="es_ES">Spanish</option>
+            <option value="de_DE">Deutch</option>
           </select>
           <label style="color:black !important;">Langue</label>
         </div>
       </div></li>
       <ul class="collapsible">
         <li>
-          <div class="collapsible-header">Introduction</div>
+          <div class="collapsible-header">site.t[page.lang].introduction</div>
           <div class="collapsible-body">
             <ul>
               <li><a href="#!">Présentation</a></li>
@@ -197,13 +198,11 @@ $(function(){
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
+  $('#sel_lang').on('change',function(){
+    var url = window.location.href;
+    window.location.href = url.replace('fr-FR',$(this).val()).replace('en_US',$(this).val()).replace('es-ES',$(this).val()).replace('de-DE',$(this).val());
+  })
 });
-
-$('#sel_lang').on('change',function(){
-  var value = $(this).value();
-  var url = window.location.href;
-  window.location.href = url.replace('fr-FR',value).replace('en_US',value).replace('es-ES',value).replace('de-DE',value);
-})
 </script>
 </body>
 </html>
