@@ -172,6 +172,9 @@
 <script type="text/javascript" src="/{{site.github.project_title}}/js/materialize.min.js"></script>
 <script type="text/javascript">
 $(function(){
+  var title = '{{site.github.project_title}}';
+  title = title.replace('plugin-','');
+  document.title = 'Documentation Jeedom | '+ title[0].toUpperCase() + title.substring(1)
   $('.sidenav').sidenav();
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
