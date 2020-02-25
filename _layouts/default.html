@@ -180,9 +180,10 @@ $(document).ready(function() {
     if($(this).is('h2')){
       $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'"><span class="toctext">'+$(this).text()+'</span></a></li>')
     }
+    $(this).addClass('scrollspy');
     i++;
   });
-  
+  $('.scrollspy').scrollSpy();
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
