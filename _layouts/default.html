@@ -180,10 +180,10 @@ $(function(){
   $('#div_content h1,h2').each(function(){
     $(this).attr('id','tocAnchor-'+i)
     if($(this).is('h1')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'"><span class="toctext">'+$(this).text()+'</span></a></li>')
+      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
     }
     if($(this).is('h2')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'"><span class="toctext">'+$(this).text()+'</span></a></li>')
+      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
     }
     $(this).addClass('scrollspy');
     i++;
