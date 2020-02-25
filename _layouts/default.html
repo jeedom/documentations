@@ -91,7 +91,6 @@
     if(corresp !== null && corresp[1]){
       $('.sel_lang').val(corresp[1])
     }
-    $('select').material_select();
     $('.sel_lang').on('change',function(){
       var regex = /\/([a-z]{2}_[A-Z]{2})\//g;
       var corresp  = regex.exec(window.location.href);
