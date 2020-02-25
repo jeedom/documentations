@@ -1,25 +1,70 @@
-/* Custom Stylesheet */
-/**
-* Use this file to override Materialize files so you can update
-* the core Materialize files in the future
-*
-* Made By MaterializeCSS.com
-*/
-
-header, main, footer {
-  padding-left: 300px;
+h1 {
+  font-size : 2.5rem !important;
 }
-
+h2 {
+  font-size : 2rem !important;
+}
+h3 {
+  font-size : 1.5rem !important;
+}
+h1,h2,h3,h4,h5 {
+  color : #95C12B !important;
+}
+.tocAnchor.active{
+  font-weight: bold;
+  border-left: 2px solid #95C12B;
+}
+.tocAnchor{
+  color:black;
+  padding-left: 14px;
+}
+#div_content ul {
+  list-style-type: initial !important;
+}
+#div_content ul li {
+  list-style-type: initial !important;
+  margin-left : 20px !important;
+}
+#div_content {
+  padding-left : 200px !important;
+}
 @media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
+  #div_content {
+    padding-left : 0 !important;
   }
 }
-
 .jeedomcolorbg {
   background-color: #95C12B !important;
 }
-
 .jeedomcolor {
   color: #95C12B !important;
+}
+.collection a.collection-item {
+  color: #85a835 !important;
+}
+.container {
+  @media only screen and (min-width: 993px){
+    width: 85% !important;
+  }
+}
+@-moz-document url-prefix() {
+  .side-nav {
+    height: 100% !important;
+  }
+}
+@media print {
+  .hide-on-print {
+    height: 0px !important;
+    visibility: hidden  !important;
+  }
+  .show-on-print {
+    display:block !important;
+  }
+  #div_content {
+    padding-left : 0px !important;
+  }
+}
+nav ul a,nav {
+  color: #444 !important;
+  background-color: #fff !important;
 }
