@@ -53,7 +53,7 @@ var docMenu = [
     ]
   },{
     fr_FR : "Manuel de configuration",
-    en_US : "User manual",
+    en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
       {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
@@ -72,7 +72,7 @@ var docMenu = [
     ]
   },{
     fr_FR : "Manuel de configuration",
-    en_US : "User manual",
+    en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
       {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
