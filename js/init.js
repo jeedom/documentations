@@ -41,7 +41,8 @@ var docMenu = [
       {link:"",fr_FR:"Mise à jour",en_US:"Update"},
     ]
   },{
-    fr_FR:'Jeedom v4.0'
+    fr_FR:'Jeedom v4.0',
+    en_US : "Jeedom v4.0",
   },{
     fr_FR : "Manuel d'utilisation",
     en_US : "User manual",
@@ -60,7 +61,8 @@ var docMenu = [
       {link:"",fr_FR:"Mise à jour",en_US:"Update"},
     ]
   },{
-    fr_FR:'Jeedom v4.1'
+    fr_FR:'Jeedom v4.1',
+    en_US : "Jeedom v4.1",
   },{
     fr_FR : "Manuel d'utilisation",
     en_US : "User manual",
