@@ -198,6 +198,12 @@ $(function(){
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
 });
+
+$('#sel_lang').on('change',function(){
+  var value = $(this).value();
+  var url = window.location.href;
+  window.location.href = url.replace('fr-FR',value).replace('en_US',value).replace('es-ES',value).replace('de-DE',value);
+})
 </script>
 </body>
 </html>

@@ -42,7 +42,7 @@
           <img src="../img/background1.jpg">
         </div>
         <div class="input-field col s12">
-          <select style="color:white !important;">
+          <select id="sel_lang">
             <option value="" disabled selected>Français</option>
             <option value="fr_fr">Français</option>
             <option value="en_US">English</option>
@@ -203,7 +203,22 @@
     </div>
   </footer>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="../js/init.js"></script>
   <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script>
+  $(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $('.dropdown-trigger').dropdown();
+    $('.collapsible').collapsible();
+    $('select').formSelect();
+  });
+  
+  $('#sel_lang').on('change',function(){
+    var value = $(this).value();
+    var url = window.location.href;
+    window.location.href = url.replace('fr-FR',value).replace('en_US',value).replace('es-ES',value).replace('de-DE',value);
+  })
+  
+  </script>
 </body>
 </html>
