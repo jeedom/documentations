@@ -43,8 +43,8 @@
         </div>
         <div class="input-field col s12">
           <select id="sel_lang">
-            <option value="" disabled selected>Français</option>
-            <option value="fr_fr">Français</option>
+            <option disabled selected>Français</option>
+            <option value="fr_FR">Français</option>
             <option value="en_US">English</option>
             <option value="es_ES">Spanish</option>
             <option value="de_DE">Deutch</option>
@@ -52,123 +52,7 @@
           <label style="color:black !important;">Langue</label>
         </div>
       </div></li>
-      <ul class="collapsible">
-        <li>
-          <div class="collapsible-header">Introduction</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Présentation</a></li>
-              <li><a href="#!">Installation</a></li>
-              <li><a href="#!">Start Jeedom Smart</a></li>
-              <li><a href="#!">Start Jeedom Pro</a></li>
-              <li><a href="#!">Premiers-pas</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Services</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Backup cloud</a></li>
-              <li><a href="#!">Assistant vocaux</a></li>
-              <li><a href="#!">Monitoring</a></li>
-              <li><a href="#!">Accès distant</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><div class="divider"></div></li>
-        <li><strong style="margin-left:5px;">Jeedom v3.3</strong></li>
-        <li>
-          <div class="collapsible-header">Manuel d'utilisation</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Dashboard</a></li>
-              <li><a href="#!">Vues</a></li>
-              <li><a href="#!">Design</a></li>
-              <li><a href="#!">Design 3D</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Manuel de configuration</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Administration</a></li>
-              <li><a href="#!">Sauvegarde</a></li>
-              <li><a href="#!">Mise à jour</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><strong style="margin-left:5px;">Jeedom v4.0</strong></li>
-        <li>
-          <div class="collapsible-header">Manuel d'utilisation</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Dashboard</a></li>
-              <li><a href="#!">Vues</a></li>
-              <li><a href="#!">Design</a></li>
-              <li><a href="#!">Design 3D</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Manuel de configuration</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Administration</a></li>
-              <li><a href="#!">Sauvegarde</a></li>
-              <li><a href="#!">Mise à jour</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><strong style="margin-left:5px;">Jeedom v4.1</strong></li>
-        <li>
-          <div class="collapsible-header">Manuel d'utilisation</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Dashboard</a></li>
-              <li><a href="#!">Vues</a></li>
-              <li><a href="#!">Design</a></li>
-              <li><a href="#!">Design 3D</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Manuel de configuration</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!">Administration</a></li>
-              <li><a href="#!">Sauvegarde</a></li>
-              <li><a href="#!">Mise à jour</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><div class="divider"></div></li>
-        <li>
-          <div class="collapsible-header">Plugins</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a href="#!"><i class="fas fa-lock"></i>Sécurité</a></li>
-              <li><a href="#!"><i class="fas fa-rss"></i>Protocole domotique</a></li>
-              <li><a href="#!"><i class="fas fa-asterisk"></i>Passerelle domotique</a></li>
-              <li><a href="#!"><i class="fas fa-code"></i>Programmation</a></li>
-              <li><a href="#!"><i class="fas fa-calendar-alt"></i>Organisation</a></li>
-              <li><a href="#!"><i class="fas fa-sun"></i>Météo</a></li>
-              <li><a href="#!"><i class="fas fa-comment"></i>Communication</a></li>
-              <li><a href="#!"><i class="fas fa-language"></i>Objets connectés</a></li>
-              <li><a href="#!"><i class="fas fa-sliders-h"></i>Multimédia</a></li>
-              <li><a href="#!"><i class="fas fa-user"></i>Confort</a></li>
-              <li><a href="#!"><i class="fas fa-tachometer-alt"></i>Monitoring</a></li>
-              <li><a href="#!"><i class="fas fa-heartbeat"></i>Santé</a></li>
-              <li><a href="#!"><i class="fab fa-pagelines"></i>Nature</a></li>
-              <li><a href="#!"><i class="fas fa-magic"></i>Automatisme</a></li>
-              <li><a href="#!"><i class="fas fa-bolt"></i>Energie</a></li>
-              <li><a href="#!"><i class="fas fa-bars"></i>Autre</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-      <li><a href="#!">Assitance et bug</a></li>
+      <ul class="collapsible" id="ul_menu"></ul>
     </ul>
   </div>
   
@@ -205,18 +89,6 @@
   </footer>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="../js/materialize.min.js"></script>
-  <script>
-  $(function(){
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.dropdown-trigger').dropdown();
-    $('.collapsible').collapsible();
-    $('select').formSelect();
-    $('#sel_lang').on('change',function(){
-      var url = window.location.href;
-      window.location.href = url.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
-    })
-  });
-  </script>
+  <script type="text/javascript" src="../js/init.js"></script>
 </body>
 </html>

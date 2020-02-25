@@ -43,7 +43,7 @@
           <label style="color:black !important;">Langue</label>
         </div>
       </div></li>
-      <ul class="collapsible">
+      <ul class="collapsible" id="ul_menu">
         <li>
           <div class="collapsible-header">{{site.t[site.lang].introduction}}</div>
           <div class="collapsible-body">
@@ -171,38 +171,6 @@
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="/{{site.github.project_title}}/js/materialize.min.js"></script>
-<script type="text/javascript">
-$(function(){
-  var title = '{{site.github.project_title}}';
-  title = title.replace('plugin-','');
-  document.title = 'Documentation Jeedom | '+ title[0].toUpperCase() + title.substring(1)
-  $('.sidenav').sidenav();
-  $('.parallax').parallax();
-  $('.dropdown-trigger').dropdown();
-  $('.collapsible').collapsible();
-  $('select').formSelect();
-  $('#div_summary').empty().append('<ul></ul>');
-  var i=0;
-  $('#div_content h1,h2').each(function(){
-    $(this).attr('id','tocAnchor-'+i)
-    if($(this).is('h1')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
-    }
-    if($(this).is('h2')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
-    }
-    $(this).addClass('scrollspy');
-    i++;
-  });
-  $('.scrollspy').scrollSpy();
-  setTimeout(function() {
-    $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
-  }, 100);
-  $('#sel_lang').on('change',function(){
-    var url = window.location.href;
-    window.location.href = url.replace('fr-FR',$(this).val()).replace('en_US',$(this).val()).replace('es-ES',$(this).val()).replace('de-DE',$(this).val());
-  })
-});
-</script>
+<script type="text/javascript" src="/{{site.github.project_title}}/js/init.js"></script>
 </body>
 </html>
