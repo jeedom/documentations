@@ -1,0 +1,112 @@
+Auf dieser Seite können Sie eine 3D-Ansicht Ihres Hauses erstellen, die abhängig vom Status der verschiedenen Informationen in Ihrer Hausautomation reagieren kann.
+
+Der Zugriff erfolgt über Home → Dashboard
+
+> **Spitze**
+>
+> Dank des Untermenüs ist es möglich, direkt zu einem 3D-Design zu wechseln.
+
+# 3D-Modell importieren
+
+> **WICHTIG**
+>
+> Sie können Ihr 3D-Modell nicht direkt in Jeedom erstellen. Dies muss mit Software von Drittanbietern erfolgen. Wir empfehlen das sehr gute SweetHome3d (http://www.sweethome3d.com/fr/).
+
+Sobald Ihr 3D-Modell erstellt wurde, muss es im OBJ-Format exportiert werden. Wenn Sie SweetHome3d verwenden, erfolgt dies über das Menü &quot;3D-Ansicht&quot; und dann über &quot;In OBJ-Format exportieren&quot;.. Nehmen Sie dann alle generierten Dateien und fügen Sie sie in eine Zip-Datei ein (aufgrund der Texturen können viele Dateien vorhanden sein)..
+
+> **WICHTIG**
+>
+> Die Dateien müssen sich im Stammverzeichnis der Zip befinden und befinden sich nicht in einem Unterordner
+
+> **VORSICHT**
+>
+> Ein 3D-Modell ist ziemlich beeindruckend (dies kann mehrere hundert Mo darstellen). Je größer es ist, desto länger ist die Renderzeit in Jeedom.
+
+Nachdem Ihr 3D-Modell exportiert wurde, müssen Sie in Jeedom ein neues 3D-Design erstellen. Dazu müssen Sie in den Bearbeitungsmodus wechseln, indem Sie auf den kleinen Stift rechts klicken, dann auf das + klicken, diesem neuen 3D-Design einen Namen geben und dann validieren.
+
+Jeedom wechselt automatisch zum neuen 3D-Design. Sie müssen in den Bearbeitungsmodus zurückkehren und auf die kleinen gekerbten Räder klicken.
+
+Sie können von diesem Bildschirm aus :
+
+- Ändern Sie den Namen Ihres Designs
+- Fügen Sie einen Zugangscode hinzu
+- Wählen Sie ein Symbol
+- Importieren Sie Ihr 3D-Modell
+
+Klicken Sie auf der Ebene &quot;3D-Modell&quot; auf die Schaltfläche &quot;Senden&quot; und wählen Sie Ihre Zip-Datei aus
+
+> **VORSICHT**
+>
+> Jeedom autorisiert den Import einer Datei mit maximal 150 Monaten !
+
+> **VORSICHT**
+>
+> Sie müssen eine Zip-Datei haben
+
+> **Spitze**
+>
+> Nachdem die Datei importiert wurde (sie kann je nach Größe der Datei sehr lang sein), müssen Sie die Seite aktualisieren, um das Ergebnis anzuzeigen (F5).
+
+
+# Konfiguration von Elementen
+
+> **WICHTIG**
+>
+> Die Konfiguration kann nur im Bearbeitungsmodus erfolgen
+
+Doppelklicken Sie auf das Element, das Sie konfigurieren möchten, um ein Element im 3D-Design zu konfigurieren. Dies öffnet ein Fenster, in dem Sie können :
+
+- Geben Sie eine Art von Link an (derzeit ist nur Ausrüstung vorhanden).
+- Der Link zu dem betreffenden Artikel. Hier können Sie momentan nur einen Link zu einem Gerät setzen. Dies ermöglicht es beim Klicken auf den Gegenstand, die Ausrüstung aufzurufen
+- Die Spezifität, da gibt es einige, die wir gleich danach sehen werden, ermöglicht es, die Art der Ausrüstung und damit die Anzeige von Informationen zu spezifizieren
+
+## Licht
+
+- Status : Die Lichtstatussteuerung kann binär (0 oder 1), digital (0 bis 100%) oder farbig sein
+- Macht : Lampenleistung (bitte beachten Sie, dass dies möglicherweise nicht die Realität widerspiegelt)
+
+## Text
+
+- Text : anzuzeigender Text (Sie können dort Befehle eingeben, der Text wird bei Änderung automatisch aktualisiert)
+- Textgröße
+- Textfarbe
+- Texttransparenz : von 0 (unsichtbar) bis 1 (sichtbar)
+- Hintergrundfarbe
+- Hintergrundtransparenz : von 0 (unsichtbar) bis 1 (sichtbar)
+- Randfarbe
+- Grenztransparenz : von 0 (unsichtbar) bis 1 (sichtbar)
+- Platz über dem Objekt : Ermöglicht die Angabe des Abstands des Texts zum Element
+
+## Tür / Fenster
+
+### Tür / Fenster
+
+- Zustand : Tür- / Fensterstatus, 1 geschlossen und 0 offen
+- Rotation
+	- activate : Aktiviert die Drehung der Tür / des Fensters beim Öffnen
+	- Öffnung : Am besten testen Sie, ob es zu Ihrer Tür / Ihrem Fenster passt
+- Übersetzung
+	- activate : aktiviert die Übersetzung beim Öffnen (Schiebetür- / Fenstertyp)
+	- Bedeutung : Richtung, in die sich die Tür / das Fenster bewegen soll (Sie haben oben / unten / rechts / links)
+	- Wiederholung : Standardmäßig bewegt sich die Tür / das Fenster einmal in der angegebenen Richtung, aber Sie können diesen Wert erhöhen
+- Verstecken, wenn die Tür / das Fenster geöffnet ist
+	- activate : Blendet das Element aus, wenn die Tür / das Fenster geöffnet ist
+- Farbe
+	- Farbe öffnen : Wenn Sie das Kontrollkästchen aktivieren, nimmt das Element diese Farbe an, wenn die Tür / das Fenster geöffnet ist
+	- Farbe geschlossen : Wenn Sie das Kontrollkästchen aktivieren, nimmt das Element diese Farbe an, wenn die Tür / das Fenster geschlossen ist
+
+### Klappe
+
+- Zustand : Verschlussstatus, 0 offen anderer Wert geschlossen
+- Ausblenden, wenn der Verschluss geöffnet ist
+	- activate : Blenden Sie das Element aus, wenn der Verschluss geöffnet ist
+- Farbe
+	- Farbe geschlossen : Wenn diese Option aktiviert ist, nimmt das Element diese Farbe an, wenn der Verschluss geschlossen ist
+
+## Bedingte Farbe
+
+Ermöglicht die Zuweisung der ausgewählten Farbe zum Element, wenn die Bedingung gültig ist. Sie können so viele Farben / Bedingungen festlegen, wie Sie möchten.
+
+> **Spitze**
+>
+> Die Bedingungen werden in der Reihenfolge ausgewertet, die erste, die wahr ist, wird genommen, die folgenden werden daher nicht bewertet

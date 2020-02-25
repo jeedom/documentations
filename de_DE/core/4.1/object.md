@@ -1,0 +1,94 @@
+# Objekte
+**Werkzeuge → Objekte**
+
+die **Objekte** Mit dieser Option können Sie die Baumstruktur Ihrer Hausautomation definieren.
+Alle von Ihnen erstellten Geräte müssen zu einem Objekt gehören und können daher leichter lokalisiert werden. Wir sagen dann, dass das Objekt das ist **relativ** Ausrüstung.
+
+Um der Personalisierung freie Wahl zu lassen, können Sie diese Objekte nach Ihren Wünschen benennen. Normalerweise definieren wir die verschiedenen Teile seines Hauses, wie die Namen der Räume (dies ist übrigens die empfohlene Konfiguration)..
+
+## Management
+
+Sie haben zwei Möglichkeiten :
+- **hinzufügen** : Erstellen Sie ein neues Objekt.
+- **Übersicht** : Zeigt die Liste der erstellten Objekte und deren Konfiguration an.
+
+## Meine Objekte
+
+Sobald Sie ein Objekt erstellt haben, wird es in diesem Teil angezeigt.
+
+> **Spitze**
+>
+> Sie können ein Objekt öffnen, indem Sie dies tun :
+> - Klicken Sie auf eine davon.
+> - Strg Clic oder Clic Center, um es in einem neuen Browser-Tab zu öffnen.
+
+Sie haben eine Suchmaschine, um die Anzeige von Objekten zu filtern. Die Escape-Taste bricht die Suche ab.
+Rechts neben dem Suchfeld befinden sich drei Schaltflächen, die an mehreren Stellen in Jeedom gefunden wurden:
+- Das Kreuz, um die Suche abzubrechen.
+- Der geöffnete Ordner zum Entfalten aller Bedienfelder und Anzeigen aller Objekte.
+- Der geschlossene Ordner zum Falten aller Panels.
+
+Sobald Sie ein Objekt konfiguriert haben, haben Sie ein Kontextmenü mit der rechten Maustaste auf die Registerkarten des Objekts. Sie können auch einen Strg-Klick oder einen Mittel-Klick verwenden, um ein anderes Objekt direkt in einer neuen Browser-Registerkarte zu öffnen.
+
+## Registerkarte &quot;Objekt&quot;
+
+Durch Klicken auf ein Objekt gelangen Sie auf dessen Konfigurationsseite.
+Vergessen Sie nicht, die Änderungen zu speichern.
+
+Hier sind die verschiedenen Merkmale zum Konfigurieren eines Objekts :
+
+- **Objektname** : Der Name Ihres Objekts.
+- **Vater** : Gibt das übergeordnete Objekt des aktuellen Objekts an. Dadurch kann eine Hierarchie zwischen den Objekten definiert werden. Zum Beispiel : Das Wohnzimmer ist mit der Wohnung verbunden. Ein Objekt kann nur ein übergeordnetes Objekt haben, aber mehrere Objekte können dasselbe übergeordnete Objekt haben.
+- **sichtbar** : Aktivieren Sie dieses Kontrollkästchen, um dieses Objekt sichtbar zu machen.
+- **Im Dashboard ausblenden** : Aktivieren Sie dieses Kontrollkästchen, um das Objekt im Dashboard auszublenden. Es wird weiterhin in der Liste gespeichert, sodass es angezeigt werden kann, jedoch nur explizit..
+- **Zusammenfassung ausblenden &#39;** : Aktivieren Sie dieses Kontrollkästchen, um das Objekt in der Zusammenfassung &#39;&#39; auszublenden.. Es wird weiterhin in der Liste gespeichert, sodass es angezeigt werden kann, jedoch nur explizit..
+- **Symbol** : Ermöglicht die Auswahl eines Symbols für Ihr Objekt.
+- **Benutzerdefinierte Farben** : Aktiviert die Berücksichtigung der beiden optionalen Farbparameter.
+- **Tag Farbe** : Ermöglicht die Auswahl der Farbe des Objekts und der daran angeschlossenen Ausrüstung.
+- **Tag-Textfarbe** : Hier können Sie die Farbe des Textes des Objekts auswählen. Dieser Text wird über dem **Farbe des Tags**. Sie wählen eine Farbe, um den Text lesbar zu machen.
+- **Bild** : Sie haben die Möglichkeit, ein Bild hochzuladen oder zu löschen. Im JPEG-Format ist dieses Bild das Hintergrundbild des Objekts, wenn Sie es im Dashboard anzeigen.
+
+> **Spitze**
+>
+> Sie können die Anzeigereihenfolge von Objekten im Dashboard ändern. Wählen Sie in der Übersicht Ihr Objekt mit der Maus aus und ziehen Sie es per Drag &amp; Drop, um ihm einen neuen Platz zu geben.
+
+> **Spitze**
+>
+> Sie können eine Grafik sehen, die alle Elemente von Jeedom darstellt, die an dieses Objekt angehängt sind, indem Sie auf die Schaltfläche klicken **Verbindungen**oben rechts.
+
+> **Spitze**
+>
+> Wenn ein Gerät erstellt wird und kein übergeordnetes Gerät definiert wurde, wird es als übergeordnetes Element verwendet : **keine**.
+
+## Registerkarte &quot;Zusammenfassung&quot;
+
+Zusammenfassungen sind globale Informationen, die einem Objekt zugewiesen sind und insbesondere im Dashboard neben seinem Namen angezeigt werden..
+
+### Schwarzes Brett
+
+Die Spalten stellen die Zusammenfassungen dar, die dem aktuellen Objekt zugewiesen sind. Ihnen werden drei Zeilen vorgeschlagen :
+
+- **Gehen Sie in die globale Zusammenfassung** : Aktivieren Sie das Kontrollkästchen, wenn die Zusammenfassung in der Jeedom-Menüleiste angezeigt werden soll.
+- **Auf dem Desktop ausblenden** : Aktivieren Sie das Kontrollkästchen, wenn die Zusammenfassung nicht neben dem Objektnamen im Dashboard angezeigt werden soll.
+- **Auf dem Handy verstecken** : Aktivieren Sie das Kontrollkästchen, wenn die Zusammenfassung nicht angezeigt werden soll, wenn Sie sie von einem Mobiltelefon aus anzeigen.
+
+### Befehle
+
+Jede Registerkarte stellt eine Art Zusammenfassung dar, die in der Konfiguration von Jeedom definiert ist. Klicken Sie auf **Bestellung hinzufügen** so dass es in der Zusammenfassung berücksichtigt wird. Sie haben die Wahl, den Befehl eines Jeedom-Geräts auszuwählen, auch wenn dieses Objekt nicht als übergeordnetes Objekt vorhanden ist.
+
+> **Spitze**
+>
+> Wenn Sie eine Art von Zusammenfassung hinzufügen oder die Methode zur Berechnung des Ergebnisses, der Einheit, des Symbols und des Namens einer Zusammenfassung konfigurieren möchten, müssen Sie zur allgemeinen Konfiguration von Jeedom wechseln : **Einstellungen → System → Konfiguration : Registerkarte &quot;Zusammenfassungen&quot;**.
+
+## Übersicht
+
+In der Übersicht können Sie alle Objekte in Jeedom sowie deren Konfiguration anzeigen :
+
+- **Identifikation** : Objekt-Identifikation.
+- **Objekt** : Objektname.
+- **Vater** : Name des übergeordneten Objekts.
+- **sichtbar** : Objektsichtbarkeit.
+- **maskiert** : Gibt an, ob das Objekt im Dashboard ausgeblendet ist.
+- **Zusammenfassung definiert** : Gibt die Anzahl der Bestellungen pro Zusammenfassung an. Was blau ist, wird in der globalen Zusammenfassung berücksichtigt.
+- **Versteckte Dashboard-Zusammenfassung** : Zeigt versteckte Zusammenfassungen im Dashboard an.
+- **Versteckte mobile Zusammenfassung** : Versteckte Zusammenfassungen auf dem Handy anzeigen.
