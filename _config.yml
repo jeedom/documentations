@@ -1,5 +1,7 @@
 ---
-langs: [fr_FR,en_US,es_ES,de_DE]
+languages: [fr_FR,en_US,es_ES,de_DE]
+exclude_from_localizations: ["assets", "css", "js","img"]
+defaultLang: fr_FR
 baseurl: "/"
 sass:
   sass_dir: css
