@@ -117,6 +117,8 @@ var html = '';
 var lang = getCookie('lang');
 if(!lang){
   lang = 'fr_FR'
+}else{
+  $('#sel_lang').val(lang);
 }
 for(var i in docMenu){
   var menu = docMenu[i]
