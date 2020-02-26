@@ -155,9 +155,7 @@ function genText(_menu,_lang){
 }
 
 $(function(){
-  var title = '{{site.github.project_title}}';
-  title = title.replace('plugin-','');
-  document.title = 'Documentation Jeedom | '+ title[0].toUpperCase() + title.substring(1)
+  document.title = 'Documentation Jeedom'
   $('.sidenav').sidenav();
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
