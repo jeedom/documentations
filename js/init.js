@@ -182,11 +182,11 @@ $(function(){
   }, 100);
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
-    var url = window.location.href;
-    window.location.href = url.replace('fr-FR',$(this).val()).replace('en_US',$(this).val()).replace('es-ES',$(this).val()).replace('de-DE',$(this).val());
+    var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
+    console.log(url);
+    window.location.href = url;
   })
 });
-
 
 function getCookie(cname) {
   var name = cname + "=";
