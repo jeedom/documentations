@@ -183,7 +183,6 @@ $(function(){
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
-    console.log(url);
     window.location.href = url;
   })
 });
