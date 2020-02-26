@@ -86,22 +86,22 @@ var docMenu = [
     fr_FR : "Plugins",
     en_US : "Plugins",
     submenu:[
-      {link:"plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security"},
-      {link:"plugins/automation%20%protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol"},
-      {link:"plugins/home%20%automation%20%protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway"},
-      {link:"plugins/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming"},
-      {link:"plugins/organization/",icon:"fas fa-calendar-alt",fr_FR:"Organisation",en_US:"Organize"},
-      {link:"plugins/weather/",icon:"fas fa-sun",fr_FR:"Météo",en_US:"Weather"},
-      {link:"plugins/communication/",icon:"fas fa-comment",fr_FR:"Communication",en_US:"Communication"},
-      {link:"plugins/devicecommunication/",icon:"fas fa-language",fr_FR:"Objets connectés",en_US:"Connected object"},
-      {link:"plugins/multimedia/",icon:"fas fa-sliders-h",fr_FR:"Multimédia",en_US:"Multimedia"},
-      {link:"plugins/wellness/",icon:"fas fa-user",fr_FR:"Confort",en_US:"Wellness"},
-      {link:"plugins/monitoring/",icon:"fas fa-tachometer-alt",fr_FR:"Monitoring",en_US:"Monitoring"},
-      {link:"plugins/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health"},
-      {link:"plugins/nature/",icon:"fab fa-pagelines",fr_FR:"Nature",en_US:"Nature"},
-      {link:"plugins/automatisation/",icon:"fas fa-magic",fr_FR:"Automatisme",en_US:"Automation"},
-      {link:"plugins/energy/",icon:"fas fa-bolt",fr_FR:"Energie",en_US:"Energy"},
-      {link:"plugins/other/",icon:"fas fa-bars",fr_FR:"Autre",en_US:"Other"},
+      {link:"/documentations/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security"},
+      {link:"/documentations/#LANG#/plugins/automation%20%protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol"},
+      {link:"/documentations/#LANG#/plugins/home%20%automation%20%protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway"},
+      {link:"/documentations/#LANG#/plugins/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming"},
+      {link:"/documentations/#LANG#/plugins/organization/",icon:"fas fa-calendar-alt",fr_FR:"Organisation",en_US:"Organize"},
+      {link:"/documentations/#LANG#/plugins/weather/",icon:"fas fa-sun",fr_FR:"Météo",en_US:"Weather"},
+      {link:"/documentations/#LANG#/plugins/communication/",icon:"fas fa-comment",fr_FR:"Communication",en_US:"Communication"},
+      {link:"/documentations/#LANG#/plugins/devicecommunication/",icon:"fas fa-language",fr_FR:"Objets connectés",en_US:"Connected object"},
+      {link:"/documentations/#LANG#/plugins/multimedia/",icon:"fas fa-sliders-h",fr_FR:"Multimédia",en_US:"Multimedia"},
+      {link:"/documentations/#LANG#/plugins/wellness/",icon:"fas fa-user",fr_FR:"Confort",en_US:"Wellness"},
+      {link:"/documentations/#LANG#/plugins/monitoring/",icon:"fas fa-tachometer-alt",fr_FR:"Monitoring",en_US:"Monitoring"},
+      {link:"/documentations/#LANG#/plugins/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health"},
+      {link:"/documentations/#LANG#/plugins/nature/",icon:"fab fa-pagelines",fr_FR:"Nature",en_US:"Nature"},
+      {link:"/documentations/#LANG#/plugins/automatisation/",icon:"fas fa-magic",fr_FR:"Automatisme",en_US:"Automation"},
+      {link:"/documentations/#LANG#/plugins/energy/",icon:"fas fa-bolt",fr_FR:"Energie",en_US:"Energy"},
+      {link:"/documentations/#LANG#/plugins/other/",icon:"fas fa-bars",fr_FR:"Autre",en_US:"Other"},
     ]
   },{
     divider : true
@@ -131,14 +131,14 @@ for(var i in docMenu){
     html += '<ul>';
     for(var j in menu.submenu){
       var submenu = menu.submenu[j];
-      html += '<li><a href="'+submenu.link+'">'+genText(submenu,lang)+'</a></li>';
+      html += '<li><a href="'+submenu.link.replace('#LANG#',lang)+'">'+genText(submenu,lang)+'</a></li>';
     }
     html += '</ul>';
     html += '</div>';
     html += '</li>';
   }else{
     if(menu.link){
-      html += '<li><strong style="margin-left:5px;" href="'+menu.link+'">'+genText(menu,lang)+'</strong></li>';
+      html += '<li><strong style="margin-left:5px;" href="'+menu.link.replace('#LANG#',lang)+'">'+genText(menu,lang)+'</strong></li>';
     }else{
       html += '<li><strong style="margin-left:5px;" href="#!">'+genText(menu,lang)+'</strong></li>';
     }
