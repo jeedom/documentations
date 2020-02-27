@@ -87,8 +87,8 @@ var docMenu = [
     en_US : "Plugins",
     submenu:[
       {link:"/documentations/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security"},
-      {link:"/documentations/#LANG#/plugins/automation%20%protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol"},
-      {link:"/documentations/#LANG#/plugins/home%20%automation%20%protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway"},
+      {link:"/documentations/#LANG#/plugins/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol"},
+      {link:"/documentations/#LANG#/plugins/home%20automation%20protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway"},
       {link:"/documentations/#LANG#/plugins/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming"},
       {link:"/documentations/#LANG#/plugins/organization/",icon:"fas fa-calendar-alt",fr_FR:"Organisation",en_US:"Organize"},
       {link:"/documentations/#LANG#/plugins/weather/",icon:"fas fa-sun",fr_FR:"Météo",en_US:"Weather"},
