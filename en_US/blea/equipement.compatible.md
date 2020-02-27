@@ -148,12 +148,12 @@
 # niu
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="images/niu_wazabi.jpg" width="60" />|Nodon|Niu Wazabi|Boutons|Disponible en plusieurs coloris||
-|<img src="images/niu_cozygrey.jpg" width="60" />|Nodon|Niu Gris|Boutons|Disponible en plusieurs coloris||
-|<img src="images/niu_lagoon.jpg" width="60" />|Nodon|Niu Lagoon|Boutons|Disponible en plusieurs coloris||
-|<img src="images/niu_softberry.jpg" width="60" />|Nodon|Niu Softberry|Boutons|Disponible en plusieurs coloris||
-|<img src="images/niu_techblue.jpg" width="60" />|Nodon|Niu Techblue|Boutons|Disponible en plusieurs coloris||
-|<img src="images/niu_white.jpg" width="60" />|Nodon|Niu Blanc|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Wazabi|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Gris|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Lagoon|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Softberry|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Techblue|Boutons|Disponible en plusieurs coloris||
+|<img src="images/niu.jpg.jpg" width="60" />|Nodon|Niu Blanc|Boutons|Disponible en plusieurs coloris||
 
 # noke
 |Image|Marque|Nom|Type|Remarque|Lien|
