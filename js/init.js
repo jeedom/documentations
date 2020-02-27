@@ -119,7 +119,7 @@ if(!lang){
   lang = 'fr_FR'
 }
 if(window.location.href.indexOf(lang) == -1){
-  var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
+  var url = window.location.href.replace('fr_FR',lang).replace('en_US',lang).replace('es_ES',lang).replace('de_DE',lang);
   window.location.href = url;
 }
 $('#sel_lang').val(lang);
