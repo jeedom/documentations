@@ -118,6 +118,10 @@ var lang = getCookie('lang');
 if(!lang){
   lang = 'fr_FR'
 }
+if(window.location.href.indexOf(lang) == -1){
+  var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
+  window.location.href = url;
+}
 $('#sel_lang').val(lang);
 for(var i in docMenu){
   var menu = docMenu[i]
