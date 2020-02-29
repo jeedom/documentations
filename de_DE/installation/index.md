@@ -529,7 +529,7 @@ Synology
 Vous trouverez ici la documentation pas à pas pour installer Jeedom sur un
 Synology (DSM 5.2 minimum).
 
-Etape 1 : Installation de Docker
+Etape 1 : Installation de docker
 ================================
 
 Allez sur le centre des paquets :
@@ -552,7 +552,7 @@ Attendez jusqu'à ce que l'installation soit finie :
 Etape 2 : Récupération et installation des images Jeedom
 ========================================================
 
-Il faut Docker pour faire tourner Jeedom, le premier un Docker Mysql qui
+Il faut Docker pour faire tourner Jeedom, le premier un Docker MYSQL qui
 contiendra la base de données et un 2ème qui contient Jeedom
 
 Lancez l'application Docker :
@@ -682,7 +682,7 @@ cliquez sur "Appliquer".
 > - SSH_PORT : permet de changer le port par défaut (22) d'écoute du ssh
 > - MODE_HOST : indique que le résaux est en mode host
 
-> **IMPORTANT**
+> **Important**
 >
 > Certain plugin on besoin d'avoir le broadcast du réseaux (type plugin Xioami), pour cela il faut ABSOLUMENT passer en le réseaux en mode host (possible uniquement lors de la création), changer le port d'écoute par defaut du serveur web et ssh par des ports non utilisé (type 9080 pour le serveur web et 9022 pour le ssh), et mettre la variable MODE_HOST à 1
 
@@ -700,8 +700,8 @@ du Docker mysql installé précédemment) et validez.
 > **Important**
 >
 > L'addresse IP de la BDD est l'addresse IP du NAS, le port est celui
-> redirigé du Docker Mysql, le mot de passe est celui mis dans le Docker
-> Mysql. Le nom d'utilisateur est root et le nom de la base celui que
+> redirigé du Docker MYSQL, le mot de passe est celui mis dans le Docker
+> MYSQL. Le nom d'utilisateur est root et le nom de la base celui que
 > vous voulez (conseillé Jeedom)
 
 ![install synology 30](images/install_synology_30.PNG)

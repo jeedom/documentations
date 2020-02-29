@@ -217,7 +217,7 @@ Source**.
 -   Renommer vos modules et les placer dans les objets souhaités en vous
     aidant de votre mémo de migration.
 
-### Plugin Rfxcom : 
+### Plugin RFXcom : 
 
 #### Sondes, capteurs, détecteurs,…​ : 
 

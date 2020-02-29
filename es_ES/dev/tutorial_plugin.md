@@ -87,7 +87,7 @@ Remplacer
 $plugin = plugin::byId('template');
 ```
 
-Par 
+par 
 
 ```
 $plugin = plugin::byId(‘vdm');
@@ -97,7 +97,7 @@ $plugin = plugin::byId(‘vdm');
 {{Ajouter un template}}
 ```
 
-Par 
+par 
 
 ```
 {{Ajouter un équipement}}
@@ -107,7 +107,7 @@ Par
 <legend>{{Mes templates}}</legend>
 ```
 
-Par
+par
 
 ```
 <legend>{{Mes équipement}}</legend>
@@ -117,7 +117,7 @@ Par
 {{Nom de l'équipement template}}
 ```
 
-Par
+par
 
 ```
 {{Nom de l'équipement }} 
@@ -127,17 +127,17 @@ Par
 {{template param 1}}
 ```
 
-Par
+par
 
 ```
-{{Paramètres}}
+{{paramètres}}
 ```
 
 ```
 <?php include_file('desktop', 'template', 'js', 'template');?>
 ```
 
-Par
+par
 
 ```
 <?php include_file('desktop', vdm, 'js', vdm);?>
@@ -662,7 +662,7 @@ Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() et j'ajoute le 
 
 Rafraîchir le dasboard.
 
-C''est mieux mais le widget prend toujours la largeur du dashboard. On va donc corriger. Par défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
+C''est mieux mais le widget prend toujours la largeur du dashboard. On va donc corriger. par défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
 
 On va donc changer la largeur du widget(équipement => eqLogic) en utilisant la méthode setDisplay() héritée de la class eqLogic .On laisse la hauteur en auto.
 
@@ -699,7 +699,7 @@ $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 
 Il faut comprendre que tout est fait pour nous faciliter la tâche. 
 
-Pour un paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : setConfiguration() en y ajoutant les paramètres que l'on souhaite. Par exemple :
+Pour un paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : setConfiguration() en y ajoutant les paramètres que l'on souhaite. par exemple :
 
 ```
 $this->setConfiguration("type","mon_type"); // si on veut  définir un paramètre type de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
@@ -716,14 +716,14 @@ Chercher
 Et remplacer par
 
 ```
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr 
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //IMPORTANT de laisser la classe eqLogicAttr 
 ```
 
 Enregistrer et aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin). 
 
-Dans le champs « Paramètre» d'un équipement, taper « aleatoire » et sauvegarder.
+Dans le champs « paramètre» d'un équipement, taper « aleatoire » et sauvegarder.
 
-Parfait le paramètre est sauvegardé.
+parfait le paramètre est sauvegardé.
 
 ![image](images/tutorial_parametre1.png)
 
@@ -749,16 +749,16 @@ Etc…
 Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avant on va changer dans le fichier desktop.php 
 
 ```
-<label class="col-sm-3 control-label">{{Paramètre}}</label>
+<label class="col-sm-3 control-label">{{paramètre}}</label>
 ```
 
-Par 
+par 
 
 ```
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
 ```
 
-Important : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le market
+IMPORTANT : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le market
 
 Pour la suite , on va faire évoluer le plugin en choisissant un type de vdm(aleatoire ou epicees ou tops) que l'on souhaite ainsi qu'un cron personnalisé pour chaque équipement.
 
