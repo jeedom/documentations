@@ -162,7 +162,7 @@ Voici la liste des commandes :
     module
 
 -   Batterie : c'est la commande qui permet de remonter l'état de la
-    batterie
+    Batterie
 
  \
 
@@ -299,7 +299,7 @@ l'inclusion au plus proche de votre box.
 
  \
 
-Ce module est un module sur batterie, la nouvelle configuration sera
+Ce module est un module sur Batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
  \

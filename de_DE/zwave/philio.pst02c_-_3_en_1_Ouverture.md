@@ -25,7 +25,7 @@ Résumé
  \
 
 Le détecteur ZIP-PSM01 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de Température et détecteur de luminosité. Il se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -39,7 +39,7 @@ niveau de luminosité. Par exemple, le capteur enverra un signal à
 l'interrupteur Z-Wave pour allumer la lumière lorsque la porte s'ouvre
 et que la pièce est sombre.
 
-Le détecteur remontera aussi la luminosité et la température, soit en
+Le détecteur remontera aussi la luminosité et la Température, soit en
 cas de changement important, et à chaque fois que l'ouverture/fermeture
 est détectée.
 
@@ -54,7 +54,7 @@ Fonctions
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Ouverture, Température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -93,7 +93,7 @@ Caractéristiques techniques
 
 -   Distance de transmission : 30m en intérieur
 
--   Capteur de température : -10 à 70° C
+-   Capteur de Température : -10 à 70° C
 
 -   Capteur de luminosité : 0 à 500 lux
 
@@ -183,7 +183,7 @@ Voici la liste des commandes :
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
-    température
+    Température
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
@@ -259,12 +259,12 @@ Détails des paramètres :
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
 -   13: permet de définir la durée entre deux rapports auto de
-    température (une unité = parametre 20) Valeur recommandée : 2
+    Température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
--   21: valeur de variation en °F de température pour déclencher un
+-   21: valeur de variation en °F de Température pour déclencher un
     rapport
 
 -   22: valeur en % de variation de luminosité pour déclencher un

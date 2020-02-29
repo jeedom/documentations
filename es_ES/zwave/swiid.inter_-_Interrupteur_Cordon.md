@@ -1,4 +1,4 @@
-Swiid Interrupteur - Swiidinter 
+Swiid Interrupteur - SwiidInter 
 ===============================
 
  \
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Swiid
 
--   Nom : Swiidinter
+-   Nom : SwiidInter
 
 -   Fabricant ID : 358
 
