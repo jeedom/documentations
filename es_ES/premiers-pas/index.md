@@ -231,7 +231,7 @@ Installer mon premier plugin
 
 Un plugin permet d'ajouter des fonctionnalités à Jeedom. Il en existe
 des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
-Pour accéder à la page des plugins aller sur plugins → Gestion des
+Pour accéder à la page des plugins aller sur Plugins → Gestion des
 plugins.
 
 Il vous suffit ensuite de cliquer sur Market :
@@ -290,7 +290,7 @@ Celle-ci se compose de plusieurs catégories :
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
--   plugins : Les documentations des différents plugins officiels de
+-   Plugins : Les documentations des différents plugins officiels de
     Jeedom,
 
 -   les autres : diverses pages sur les différents protocoles utilisés

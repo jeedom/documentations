@@ -165,7 +165,7 @@ Voici la liste des commandes :
     afficher
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de
-    Cheminée
+    cheminée
 
 -   Orage : C'est la commande qui permet de simuler une ambiance d'Orage
 

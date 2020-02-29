@@ -98,7 +98,7 @@ Et enfin redémarrez le serveur Nginx.
 
     service nginx restart
 
-renouvellement 
+Renouvellement 
 ==============
 
 Le renouvellement se fait avec la commande :

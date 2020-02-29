@@ -25,7 +25,7 @@ Résumé
  \
 
 Le détecteur PSP01 propose 3 fonctions différentes : détection de
-mouvement, capteur de Température et détecteur de luminosité.
+mouvement, capteur de température et détecteur de luminosité.
 
 Ce détecteur peut être utilisé pour la sécurité ou pour
 l'automatisation. Quand le détecteur est associé avec des appareils de
@@ -40,7 +40,7 @@ changements dans les niveaux de radiation infrarouge (présence) et les
 modifications dans le niveau de luminosité. Ainsi, on peut déclencher un
 éclairage lors d'une détection de mouvement dans l'obscurité.
 
-Le détecteur remontera aussi la luminosité et la Température, soit en
+Le détecteur remontera aussi la luminosité et la température, soit en
 cas de changement important, et à chaque fois qu'un mouvement est
 détecté. Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire
 afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un
@@ -53,7 +53,7 @@ Fonctions
 
  \
 
--   Détecteur 3 en 1: mouvement, Température, lumière
+-   Détecteur 3 en 1: mouvement, température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -92,7 +92,7 @@ Caractéristiques techniques
 
 -   Distance de transmission : 30m en intérieur
 
--   Capteur de Température : -10 à 70° C
+-   Capteur de température : -10 à 70° C
 
 -   Capteur de luminosité : 0 à 500 lux
 
@@ -184,7 +184,7 @@ Voici la liste des commandes :
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
-    Température
+    température
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
@@ -259,7 +259,7 @@ Détails des paramètres :
 -   12: permet de définir la durée entre deux rapports de luminosité
     (une unité = 30 minutes)
 
--   13: permet de définir la durée entre deux rapports de Température
+-   13: permet de définir la durée entre deux rapports de température
     (une unité = 30 minutes)
 
  \

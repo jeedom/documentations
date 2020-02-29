@@ -26,13 +26,13 @@ Résumé
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
 En plus de la détection de mouvement, ce dispositif mesure la
-Température et l'intensité lumineuse. Ce détecteur comporte aussi un
+température et l'intensité lumineuse. Ce détecteur comporte aussi un
 accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
 pour être installé rapidement et facilement sur n'importe quelle
-surface. Le voyant LED signale le mouvement, le niveau de Température,
+surface. Le voyant LED signale le mouvement, le niveau de température,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
 
@@ -50,15 +50,15 @@ Fonctions
 
 -   Détecte les mouvements à l'aide d'un capteur infrarouge passif
 
--   Mesure de la Température
+-   Mesure de la température
 
 -   Mesure de l'intensité lumineuse
 
--   Mesure de l'intensité Sismique
+-   Mesure de l'intensité sismique
 
 -   Protection contre l'effraction et le vol
 
--   Alertes de mouvement et de Température signalées par le clignotement
+-   Alertes de mouvement et de température signalées par le clignotement
     de la diode LED
 
 -   Bouton pour inclure/exclure le détecteur
@@ -82,7 +82,7 @@ Caractéristiques techniques
 
 -   Hauteur recommandée pour l'installation : 2,4m
 
--   Plage de Température mesurée : -20°C à 100°C
+-   Plage de température mesurée : -20°C à 100°C
 
 -   Précision de la mesure : 0,5°C
 
@@ -170,14 +170,14 @@ Voici la liste des commandes :
 -   Présence : c'est la commande qui remontera une détection de présence
 
 -   Température : c'est la commande qui permet de remonter la
-    Température
+    température
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
-    Sismique
+    sismique
 
--   Sabotage : c'est la commande Sabotage (elle est déclenchée en cas
+-   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
 -   Batterie : c'est la commande batterie
@@ -254,10 +254,10 @@ Détails des paramètres :
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
 -   22: temps après lequel le capteur enverra le signal "plus de
-    Sabotage" (valeur conseillée 30)
+    sabotage" (valeur conseillée 30)
 
--   24: permet de dire comment le Sabotage est notifié (IMPORTANT :
-    valeur conseillée : Capteur anti-Sabotage notifié à SensorAlarm
+-   24: permet de dire comment le sabotage est notifié (IMPORTANT :
+    valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm
     command class/ Annulation est notifié après le temps défini en
     paramètre 22 )
 
@@ -270,15 +270,15 @@ Détails des paramètres :
     même si la luminosité n'a pas changée (valeur conseillée 3600)
 
 -   60: permet de dire de combien doit être modifiée la valeur de
-    Température pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
+    température pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
 
--   62: permet de donner la fréquence des mesures de Températures
+-   62: permet de donner la fréquence des mesures de températures
     (valeur conseillée 900)
 
 -   64: permet de donner une durée minimum entre deux envois successifs
-    même si la Température n'a pas changée (valeur conseillée 2700)
+    même si la température n'a pas changée (valeur conseillée 2700)
 
--   66: permet d'ajuster la Température
+-   66: permet d'ajuster la température
 
 -   80: permet de choisir la couleur de la led lorsqu'il y a détection
     de mouvement (voir de la désactiver)
@@ -291,14 +291,14 @@ Détails des paramètres :
 -   83: permet de régler le seuil maximal de luminosité pour mettre la
     led à 100% (lié au paramètre 81)
 
--   86: Température en dessous de laquelle la led s'allumera en bleu
+-   86: température en dessous de laquelle la led s'allumera en bleu
     (lié au paramètre 81)
 
--   87: Température au dessus de laquelle la led s'allumera en rouge
+-   87: température au dessus de laquelle la led s'allumera en rouge
     (lié au paramètre 81)
 
 -   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
-    Sabotage
+    sabotage
 
  \
 
@@ -322,13 +322,13 @@ Les noms des groupes de la version Z-Wave+ sont les suivant:
 
 -   2 : Motion, capteur de mouvement.
 
--   3 : Tamper, alerte Sabotage.
+-   3 : Tamper, alerte sabotage.
 
 -   4 : Motion BC, capteur de mouvement. Ce groupe a pour but d'assurer
     la compatibilité descendante avec les contrôleurs ne supportant pas
     le protocole Z-Wave+.
 
--   5 : Tamper BC, alerte Sabotage. Ce groupe a pour but d'assurer la
+-   5 : Tamper BC, alerte sabotage. Ce groupe a pour but d'assurer la
     compatibilité descendante avec les contrôleurs ne supportant pas le
     protocole Z-Wave+.
 

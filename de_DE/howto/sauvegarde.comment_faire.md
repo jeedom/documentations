@@ -1,23 +1,23 @@
 Description 
 ===========
 
-Il y a deux manières de Sauvegarder Jeedom et chacune comporte des
+Il y a deux manières de sauvegarder Jeedom et chacune comporte des
 avantages et des inconvénients.
 
-Il est possible de réaliser une Sauvegarde à partir de l'interface
+Il est possible de réaliser une sauvegarde à partir de l'interface
 Jeedom. Celle-ci concerne uniquement le logiciel Jeedom et ses données.
 Elle a l'avantage de pouvoir être faite à chaud et le fichier de
-Sauvegarde peut être exporté vers d'autres supports.
+sauvegarde peut être exporté vers d'autres supports.
 
-Il est aussi possible de réaliser une Sauvegarde en faisant une image
+Il est aussi possible de réaliser une sauvegarde en faisant une image
 disque de la carte microSD (mini et mini+). Cette façon a l'avantage
-d'être une Sauvegarde complète du système ainsi que de Jeedom et ses
+d'être une sauvegarde complète du système ainsi que de Jeedom et ses
 données. Par contre il faut l'effectuer en éteignant Jeedom et en
 branchant la carte microSD sur un autre ordinateur.
 
 Le meilleur moyen d'être tranquille est d'utiliser les deux : Faire une
-Sauvegarde de la carte microSD de temps en temps et programmer une
-Sauvegarde régulière de Jeedom.
+sauvegarde de la carte microSD de temps en temps et programmer une
+sauvegarde régulière de Jeedom.
 
 > **Tip**
 >
@@ -39,7 +39,7 @@ Sauvegarde/Restauration de la carte microSD
 Préparatifs 
 -----------
 
-Ces Sauvegardes/restaurations se réalisent à partir d'un autre
+Ces sauvegardes/restaurations se réalisent à partir d'un autre
 ordinateur afin de faire une "image propre" de la carte SD. Il faut dans
 un premier temps arrêter la mini+. Pour cela, passer Jeedom en mode
 expert dans le menu utilisateur en haut à droite.
@@ -111,7 +111,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
             `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`
             *Remarque: Dans cet exemple, le nom du disque de la carte
             est `/dev/disk1`, il faut donc saisir dans la commande de
-            Sauvegarde \`/dev/disk1\`*
+            sauvegarde \`/dev/disk1\`*
 
 2.  **Restauration**
 
@@ -125,7 +125,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 
         -   Afin de trouver le disque correspondant à la carte, ouvrez
             un terminal et saisissez la même commande que pour la
-            Sauvegarde : `diskutil list`
+            sauvegarde : `diskutil list`
 
         -   Démontez les partitions de la carte en tapant la commande :
             `sudo diskutil unmountDisk /dev/disk1`
@@ -135,7 +135,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
             `sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`
             *Remarque : Dans cet exemple, le nom du disque de la carte
             est `/dev/disk1`, il faut donc saisir dans la commande de
-            Sauvegarde \`/dev/disk1\`*
+            sauvegarde \`/dev/disk1\`*
 
 Sous Linux 
 ----------
