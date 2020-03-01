@@ -11,7 +11,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -74,7 +74,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -114,17 +114,17 @@ Données du module
 
 -   Marque : Swiid
 
--   Nom : Swiidinter
+-   aux dernières : Swiidinter
 
 -   Fabricant ID : 358
 
--   Type Produit : 256
+-   Type produit : 256
 
 -   Produit ID : 256
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -154,7 +154,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -163,7 +163,7 @@ disponibles.
 
  \
 
-![Commandes](images/swiid.inter/commandes.jpg)
+![vers](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -171,7 +171,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
+-   état : C'est la commande qui permet de connaitre le statut de la
     lumière
 
 -   ON : C'est la commande qui permet d'allumer la lumière
@@ -181,26 +181,26 @@ Voici la liste des commandes :
  \
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Icon
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "d'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -242,7 +242,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.
@@ -265,7 +265,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

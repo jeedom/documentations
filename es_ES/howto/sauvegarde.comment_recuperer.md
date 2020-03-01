@@ -4,7 +4,7 @@ Description
 La procédure va permettre de se connecter en SFTP à votre box afin
 d'aller récupérer les sauvegardes quotidiennes effectuées par celle-ci.
 
-> **Tip**
+> **punta**
 >
 > Attention, afin que cette procédure fonctionne, il est nécessaire que
 > le serveur SSH de la box soit toujours fonctionnel.
@@ -27,9 +27,9 @@ d'information en haut de la fenêtre Filezilla :
 
 -   Hôte : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
 
--   Identifiant : jeedom
+-   Identifiant : Jeedom
 
--   Mot de passe : Mjeedom96
+-   Contraseña : MJeedom96
 
 -   Port : 22
 
@@ -46,7 +46,7 @@ répertoire de sauvegarde de Jeedom.
 -   Serveur Apache (Box Jeedom Smart) : /var/www/html/backup
 
 -   Serveur Nginx (Box Jeedom Mini+) :
-    /usr/share/nginx/www/jeedom/backup
+    /usr/share/nginx/www/Jeedom/backup
 
 Le chemin d'accès se renseigne dans la partie site distant.
 

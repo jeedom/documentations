@@ -42,9 +42,9 @@ Par :
 
     PermitRootLogin yes
 
-> **Important**
+> **importante**
 >
-> Veillez à bien utiliser un mot de passe root fort ! L'utilisation de
+> Veillez à bien utiliser un Contraseña root fort ! L'utilisation de
 > fail2ban est également recommandée.
 
 Monter un partage Samba 
@@ -58,7 +58,7 @@ Créer le point de montage :
 
     mkdir /mnt/mon_partage
 
-> **Note**
+> **nota**
 >
 > Il faut adapter mon\_partage en fonction de votre besoin
 
@@ -66,10 +66,10 @@ Ajout du montage dans /etc/fstab
 
     //IP_SERVER_SAMBA/mon_partage /mnt/mon_partage cifs uid=0,rw,user=TODO,password=TODO 0 0
 
-> **Note**
+> **nota**
 >
 > Vous devez changer les TODO par votre nom d'utilisateur linux et votre
-> mot de passe
+> Contraseña
 
 Passage de Jessie à Stretch 
 ===========================
@@ -91,7 +91,7 @@ Avant de commencer, réalisez une sauvegarde complète via Jeedom de votre
 installation sous Jessie, puis exportez la sauvegarde sur un autre
 support de stockage.
 
-> **Tip**
+> **punta**
 >
 > Téléchargez la sauvegarde autrement que par l'interface web (SSH, FTP,
 > SAMBA, autres de votre choix), car si votre archive est volumineuse
@@ -133,14 +133,14 @@ MYSQL, sous Stretch :
     MariaDB [mysql]> exit;
     Bye
 
-> **Tip**
+> **punta**
 >
-> Remplacez 'monpass' par votre mot de passe MYSQL utilisé pour le
+> Remplacez 'monpass' par votre Contraseña MYSQL utilisé pour le
 > compte root sous "Debian 8 - Jessie". Je donne les droits à root
 > notamment pour gérer mes bases avec 'PHPMYADMIN', mais les donner à
 > l'utilisateur MYSQL 'jeedom' doit suffire.
 
-> **Tip**
+> **punta**
 >
 > Vous trouverez le mode passe de l'utilisateur MYSQL jeedom ici :
 > Administration → Configuration → OS/DB → Base de données
@@ -213,7 +213,7 @@ Suppression des librairies non nécessaires
     apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
     apt -y remove `aptitude -F %p search '~o'`----
 
-Note : Si lorsque vous ouvrez votre page Jeedom vous obtenez un code php, activez-le en lançant les commandes suivantes :
+nota : Si lorsque vous ouvrez votre page Jeedom vous obtenez un code php, activez-le en lançant les commandes suivantes :
 
     a2enmod php7.0 
     systemctl restart apache2.service

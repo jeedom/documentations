@@ -11,7 +11,7 @@ Secure SIR 321 "Timer"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -59,12 +59,12 @@ Fonctions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
--   Type: Minuteur électronique
+-   Typ: Minuteur électronique
 
 -   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu'à
     3kW
@@ -86,16 +86,16 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Fabricant ID : 89
 
--   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde
+-   Typ produit : 1/2 (en fonction de si il est inclus avec une sonde
     de température ou non)
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -106,7 +106,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton (jusqu'au clignotement rapide) et relacher, conformément à
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -135,7 +135,7 @@ disponibles.
 
  \
 
-![Commandes](images/secure.sir321/commandes.jpg)
+![Befehle](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -143,30 +143,30 @@ Voici la liste des commandes :
 
  \
 
--   On : c'est la commande permettant d'allumer le relais
+-   ON : c'est la commande permettant d'allumer le relais
 
--   Off : c'est la commande permettant d'éteindre le relais
+-   OFF : c'est la commande permettant d'éteindre le relais
 
 -   Température : c'est la commande de mesure de la température si une
     sonde externe est présente
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Si vous voulez configurer le module il faut passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 

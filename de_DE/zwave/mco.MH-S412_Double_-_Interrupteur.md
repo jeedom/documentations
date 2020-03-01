@@ -11,7 +11,7 @@ MCO MH-S412 Double
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -59,7 +59,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -74,7 +74,7 @@ Caractéristiques techniques
 
 -   Puissance maximum : 5A (1100W) pour chaque canal
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -91,17 +91,17 @@ Données du module
 
 -   Marque : MC HOME
 
--   Nom : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Fabricant ID : 351
 
--   Type Produit : 16642
+-   Type produit : 16642
 
 -   Produit ID : 514
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -112,7 +112,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur un seul
 > des 2 boutons en face avant pendant 3 sec, conformément à sa
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -135,22 +135,22 @@ disponibles.
 
  \
 
-![Commandes](images/mco.mhs412/commandes.jpg)
+![Befehle](images/mco.mhs412/commandes.jpg)
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -158,7 +158,7 @@ paramètres)
 
  \
 
-Détails des paramètres :
+Détails des Parameter :
 
  \
 
@@ -206,7 +206,7 @@ Wakeup
 
 Ce module étant raccordé au secteur (220v) , le reveil est instantanné
 et ne necessite donc pas d'action particulière lors d'un changement de
-paramètres
+Parameter
 
  \
 
@@ -219,7 +219,7 @@ Pour exclure ce modèle, mettre Openzwave en mode exclusion et appuyer
 sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa
 documentation papier.
 
-Pour restaurer les paramètres usine, appuyer sur un seul des 2 boutons
+Pour restaurer les Parameter usine, appuyer sur un seul des 2 boutons
 en face avant pendant 10 sec, conformément à sa documentation papier.
 
  \

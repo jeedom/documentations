@@ -11,7 +11,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -78,7 +78,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques techniques
 
 -   Durée de vie des piles : 2 ans
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -114,17 +114,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SRT 323 Electronic Room Thermostat and Temperature
+-   Name : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Fabricant ID : 89
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 4
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut mettre le switch 1 en
 > position ON puis avec la molette afficher L et appuyer sur la molette,
@@ -147,10 +147,10 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
-> réveillez toujours le module juste après l'inclusion. Pour ce faire
+> réveillez toujours le module juste après l'inclusion. Um dies zu tun
 > laisser le switch 1 en position ON puis avec la molette mettez vous en
 > position "n" et appuyez sur le bouton. Appuyez une seconde fois apres
 > 10 secondes pour être sûr. Une fois fait, cliquez sur le bouton
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -177,7 +177,7 @@ disponibles.
 
  \
 
-![Commandes](images/secure.srt323/commandes.jpg)
+![Befehle](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -198,22 +198,22 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Ce module est sur batterie. Donc il est important de noter qu'un
 > changement de consigne sera uniquement pris en compte au reveil. Par
@@ -293,7 +293,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

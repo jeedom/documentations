@@ -11,7 +11,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -73,7 +73,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -84,7 +84,7 @@ Caractéristiques techniques
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -101,17 +101,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGK-101 avec sonde de température (DS18B20)
+-   Name : Fibaro FGK-101 avec sonde de température (DS18B20)
 
 -   Fabricant ID : 271
 
--   Type Produit : 1792
+-   Type produit : 1792
 
 -   Produit ID : 4096
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -150,7 +150,7 @@ disponibles.
 
  \
 
-![Commandes](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Befehle](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
  \
 
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la commande qui remontera l'état ouvert ou fermé du
+-   état : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
 -   Batterie : c'est la commande qui permet de remonter l'état de la
@@ -170,11 +170,11 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -183,16 +183,16 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -257,14 +257,14 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Ce module est très capricieux sur les wakeup et nécessite une très
 > forte proximité avec le contrôleur lors de son inclusion
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -309,7 +309,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

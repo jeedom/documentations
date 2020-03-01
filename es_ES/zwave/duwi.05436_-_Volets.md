@@ -11,7 +11,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -63,7 +63,7 @@ Fonctions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -74,11 +74,11 @@ Caractéristiques Techniques
 
 -   Neutre nécessaire
 
--   Charge Maxi : 1800W (résistif), 460VA (inductif)
+-   Charge maxi : 1800W (résistif), 460VA (inductif)
 
 -   Fusible : T8AH
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Dimensions : 52 x 52 x 31mm
 
@@ -93,11 +93,11 @@ Données du module
 
 -   Marque : Popp/Duwi
 
--   Nom : ZW ESJ Blind Control
+-   Nombre : ZW ESJ Blind Control
 
 -   Fabricant ID : 100
 
--   Type produit : 16385
+-   Type Produit : 16385
 
 -   Produit ID : 0
 
@@ -110,7 +110,7 @@ Connexion
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre le module en mode inclusion, il faut appuyer trois fois
 > sur la montée ou la descente. L'exclusion se fait de la même manière.
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -145,7 +145,7 @@ disponibles.
 
  \
 
-![Commandes](images/duwi.05436/4-Commandes.PNG)
+![comandos](images/duwi.05436/4-comandos.PNG)
 
  \
 
@@ -153,15 +153,15 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la position actuelle du volet, en pourcentage de 0 à 99
+-   état : c'est la position actuelle du volet, en pourcentage de 0 à 99
 
 -   Descendre : commande pour descendre complètement
 
 -   Monter : commande pour monter complètement
 
--   Stop : arrêt immédiat du mouvement
+-   STOP : arrêt immédiat du mouvement
 
--   Rafraîchir : rafraichîr l'état actuel du module
+-   refrescar : rafraichîr l'état actuel du module
 
 -   Niveau : slider pour positionner une ouverture partielle
 
@@ -186,22 +186,22 @@ Recommencer l'opération dans l'autre sens.
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -230,9 +230,9 @@ décimal : 18s pour montée et descente.
 
 A noter : forcer une valeur à zéro pour ce paramètre impliquera que le
 module commutera sur montée ou descente sans limite de temps. Il faudra
-alors envoyer un 'Stop' pour interrompre.
+alors envoyer un 'STOP' pour interrompre.
 
--   1 : Stop-functionnality : Enabled ou Disabled :
+-   1 : STOP-functionnality : Enabled ou Disabled :
 
 Sert à indiquer si un appui dans la direction opposée pendant un
 déplacement stoppe le volet ou le renvoie immédiatement dans le sens
@@ -273,15 +273,15 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Tip**
+> **punta**
 >
-> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "Etat". Ce
+> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "état". Ce
 > widget est sympa car il montre les états 'partiellement ouvert'.
 
 **@Theduck38**

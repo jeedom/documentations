@@ -1,4 +1,4 @@
-Everspring Miniplug On/Off - AN180-6 
+Everspring Miniplug ON/OFF - AN180-6 
 ====================================
 
  \
@@ -11,7 +11,7 @@ Everspring Miniplug On/Off - AN180-6
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -24,13 +24,13 @@ Résumé
 
  \
 
-La Mini Prise On/Off est conçue pour contrôler l'allumage et
+La Mini Prise ON/OFF est conçue pour contrôler l'allumage et
 l'extinction des luminaires et des équipements électriques de votre
 maison. Avec une tension de 220 - 240 V, cette Prise peut supporter une
 charge jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur,
 fluorescent, Led).
 
-La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné
+La Mini Prise ON/OFF est un appareil compatible Z-Wave™ qui est destiné
 pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
 être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
 contrôleur Z-Wave de votre réseau.
@@ -62,7 +62,7 @@ Fonctions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -77,7 +77,7 @@ Caractéristiques Techniques
     : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :
     200W
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -94,17 +94,17 @@ Données du module
 
 -   Marque : Everspring
 
--   Nom : Miniplug On/Off
+-   aux dernières : Miniplug ON/OFF
 
 -   Fabricant ID : 96
 
--   Type Produit : 4
+-   Type produit : 4
 
 -   Produit ID : 7
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -115,7 +115,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -145,7 +145,7 @@ disponibles.
 
  \
 
-![Commandes](images/everspring.AN180-6/commandes.jpg)
+![vers](images/everspring.AN180-6/commandes.jpg)
 
  \
 
@@ -153,36 +153,36 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    prise (Allumée/éteinte)
+-   état : C'est la commande qui permet de connaître le statut de la
+    prise (Allumée/Eteinte)
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
 la même icône.
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "d'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -215,7 +215,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

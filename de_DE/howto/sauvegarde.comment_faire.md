@@ -19,7 +19,7 @@ Le meilleur moyen d'être tranquille est d'utiliser les deux : Faire une
 sauvegarde de la carte microSD de temps en temps et programmer une
 sauvegarde régulière de Jeedom.
 
-> **Tip**
+> **Spitze**
 >
 > La procédure de restauration de la carte microSD peut-être utile pour
 > restaurer un Jeedom par défaut à partir de l'image fournie par

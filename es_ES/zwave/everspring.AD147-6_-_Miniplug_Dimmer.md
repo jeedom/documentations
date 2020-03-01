@@ -11,7 +11,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -61,7 +61,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -75,7 +75,7 @@ Caractéristiques techniques
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -92,17 +92,17 @@ Données du module
 
 -   Marque : Everspring
 
--   Nom : Miniplug Dimmer
+-   Nombre : Miniplug Dimmer
 
 -   Fabricant ID : 96
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 3
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -113,7 +113,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -134,7 +134,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -143,7 +143,7 @@ disponibles.
 
  \
 
-![Commandes](images/everspring.AD147-6/commandes.jpg)
+![comandos](images/everspring.AD147-6/commandes.jpg)
 
  \
 
@@ -154,36 +154,36 @@ Voici la liste des commandes :
 -   Intensité : C'est la commande permettant de régler l'intensité de la
     prise
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
+-   état : C'est la commande qui permet de connaître le statut de la
     prise
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF, Intensité se
+A noter que sur le dashboard, les infos état, ON/OFF, intensité se
 retrouvent sur la même icône.
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -219,7 +219,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

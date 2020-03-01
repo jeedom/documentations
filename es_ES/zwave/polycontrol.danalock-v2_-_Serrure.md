@@ -11,7 +11,7 @@ Danalock V2 BTZE
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -131,7 +131,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -157,17 +157,17 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nom : Danalock V2 BTZE
+-   Nombre : Danalock V2 BTZE
 
 -   Fabricant ID : 010e
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 1
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -178,7 +178,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
 
@@ -201,7 +201,7 @@ SECURISE (INCLUSION)"
 
  \
 
-> **Important**
+> **importante**
 >
 > Nous partons du principe que vous avez installé l'application sur
 > votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
@@ -224,7 +224,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -233,7 +233,7 @@ disponibles.
 
  \
 
-![Commandes](images/polycontrol.danalock/commandes.jpg)
+![comandos](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -252,7 +252,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
@@ -266,17 +266,17 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuration" du
+installation, il faut pour cela passer par la bouton "configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -298,7 +298,7 @@ Détails des paramètres :
 -   3 : Mode 1 = Entraînement de moteur (économie d'énergie), 2 = mode
     complet d'entraînement (Normal)
 
--   4 : Nombre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
+-   4 : Nombrebre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
 
 -   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
     la serrure a été déverrouillée pour automatiquement se fermer
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **punta**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -362,12 +362,12 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **punta**
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main
 > l'état sera mis à jour.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

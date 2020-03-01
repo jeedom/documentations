@@ -11,7 +11,7 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -78,7 +78,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -89,7 +89,7 @@ Caractéristiques techniques
 
 -   Durée de vie des piles : 3 ans (pour 14 déclenchements par jour)
 
--   Fréquence : 868.42 MHz
+-   fréquence : 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -122,17 +122,17 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Nom : PST02-C Door/Window 3 in 1 sensor
+-   Name : PST02-C Door/Window 3 in 1 sensor
 
 -   Fabricant ID : 316
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 14
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -143,7 +143,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -171,7 +171,7 @@ disponibles.
 
  \
 
-![Commandes](images/philio.pst02c/commandes.jpg)
+![Befehle](images/philio.pst02c/commandes.jpg)
 
  \
 
@@ -182,20 +182,20 @@ Voici la liste des commandes :
 -   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Batterie : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -204,16 +204,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -290,7 +290,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -328,7 +328,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

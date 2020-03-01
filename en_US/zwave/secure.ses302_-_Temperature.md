@@ -11,7 +11,7 @@ Secure SES 302 "Température"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -65,18 +65,18 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
--   Type: Portable/fixation murale
+-   Vérifier dans la page Santé que la configuration réseau interne du: Portable/fixation murale
 
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
 
 -   Puce Z-Wave Plus
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -95,17 +95,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SES 302 Temperature Sensor
+-   aux dernières : SES 302 Temperature Sensor
 
 -   Fabricant ID : 89
 
--   Type Produit : 13
+-   Vérifier dans la page Santé que la configuration réseau interne du produit : 13
 
 -   Produit ID : 2
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,7 +135,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -144,7 +144,7 @@ disponibles.
 
  \
 
-![Commandes](images/secure.ses302/commandes.jpg)
+![vers](images/secure.ses302/commandes.jpg)
 
  \
 
@@ -161,11 +161,11 @@ utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -174,16 +174,16 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -227,7 +227,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -263,7 +263,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

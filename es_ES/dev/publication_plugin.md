@@ -1,12 +1,12 @@
 # Comment publier le plugin sur le market
 
-## Pré-requis
+## Requisitos previos
 
 - S'etre inscrit en tant que dev, voir [ici](https://www.jeedom.com/site/fr/dev.html)
 - Avoir attendu la validation du compte market comme developpeur
 - Avoir mis votre plugin sur github (dépot privé ou non)
 
-## Configuration
+## configuración
 
 Une fois connecté avec votre compte dev sur le market il faut : 
 
@@ -15,8 +15,8 @@ Une fois connecté avec votre compte dev sur le market il faut :
   - Général : 
     - Prix
     - Id (celui dans le fichier info.json)
-    - Nom
-    - Catégorie
+    - Nombre
+    - Categoría
     - Si il est privé ou non pour commencer
   - Documentation et liens
     - la description (bien mettre les point important, la plupart des utilisateurs ne vont pas voir la documentation avant l'achat)

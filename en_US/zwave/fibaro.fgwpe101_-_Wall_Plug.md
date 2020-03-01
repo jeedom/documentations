@@ -11,7 +11,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -46,14 +46,14 @@ Fonctions
 
 -   Contrôle à micro-chips.
 
--   Élément d\`exécution: relais.
+-   Élément d\`exécution: Relais.
 
 -   Mesure de puissance active du courant et de l\`énergie électrique
     du récepteur.
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques techniques
 
 -   Charge maxi : 2.5kW
 
--   Fréquence : 868,42 Mhz EU
+-   fréquence : 868,42 Mhz EU
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -87,17 +87,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Wall Plug FGWPE-101
+-   aux dernières : Wall Plug FGWPE-101
 
 -   Fabricant ID : 271
 
--   Type Produit : 1536
+-   Type produit : 1536
 
 -   Produit ID : 4096
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -127,7 +127,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -136,7 +136,7 @@ disponibles.
 
  \
 
-![Commandes](images/fibaro.fgwpe101/commandes.jpg)
+![vers](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -144,12 +144,12 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
+-   état : C'est la commande qui permet de connaitre le statut de la
     prise
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
 -   Puissance : C'est la commande qui remonte la puissance instatanée
     consommée
@@ -163,22 +163,22 @@ en un seul bouton.
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -276,7 +276,7 @@ PressButton.
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

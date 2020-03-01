@@ -10,7 +10,7 @@ Prérequis
 
 -   avoir un accès Internet depuis la box Jeedom
 
-> **Important**
+> **importante**
 >
 > Pensez bien à faire et exporter une sauvegarde avant toute mise à jour
 > manuelle.
@@ -37,7 +37,7 @@ Toujours en SSH:
     chmod 775 -R /var/www/html
     chown www-data:www-data -R /var/www/html
 
-> **Important**
+> **importante**
 >
 > Si votre installation de Jeedom est un peu ancienne, il faut remplacer
 > tous les /var/www/html par /usr/share/nginx/www/jeedom

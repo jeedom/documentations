@@ -11,7 +11,7 @@ PolyLock
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -71,14 +71,14 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
     bâtiments
@@ -96,17 +96,17 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nom : Polylock
+-   Name : Polylock
 
 -   Fabricant ID : 270
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 1
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -145,7 +145,7 @@ disponibles.
 
  \
 
-![Commandes](images/polycontrol.polylock/commandes.jpg)
+![Befehle](images/polycontrol.polylock/commandes.jpg)
 
  \
 
@@ -164,7 +164,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
@@ -178,17 +178,17 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuration" du
+installation, il faut pour cela passer par la bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -265,12 +265,12 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la
 > main l'état restera le même.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

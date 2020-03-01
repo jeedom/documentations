@@ -4,7 +4,7 @@
 
 ![etc1.module 2](images/etc1/etc1.module-2.png)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
@@ -34,10 +34,10 @@ Fonctions
 
 -   Facilité d'utilisation et d'installation
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium CR2032)
 
@@ -60,7 +60,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : ETC1
+-   Name : ETC1
 
 -   Référence : P01 / Y01 / L01
 
@@ -71,7 +71,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -98,19 +98,19 @@ L'association d'un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d'appuyer sur la touche de votre
 télécommande.
 
-![Commandes](images/etc1/etc1.touche-c.jpg)
+![Befehle](images/etc1/etc1.touche-c.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Commandes 
+Befehle 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/etc1/etc1.commandes.jpg)
+![Befehle](images/etc1/etc1.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -124,7 +124,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](images/etc1/etc1.informations.jpg)
+![Befehle](images/etc1/etc1.informations.jpg)
 
 -   Création : Indique la date à laquelle l'équipement à était créé
 
@@ -133,7 +133,7 @@ disponibles :
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 Utilisation 
 -----------
@@ -142,7 +142,7 @@ Une fois que votre télécommande est configurée, vous pouvez avec le
 plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom
 et ses équipements.
 
-> **Note**
+> **Notiz**
 >
 > La télécommande à un retour d'état binaire.
 

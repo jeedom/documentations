@@ -2,7 +2,7 @@
 
 ![eos200.module](images/eos200/eos200.module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
@@ -20,7 +20,7 @@ déclenchement d'une alarme via un scénario.
 Le signal est uniquement envoyé à la séparation du capteur de son
 élément magnétique. L'indicateur LED intégré signale tous changements
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
-récepteur
+recepteur
 
 Fonctions 
 =========
@@ -41,14 +41,14 @@ Fonctions
 
 -   Montage au mur par des vis ou par un adhésif double face
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   Fréquence : 868,3 MHz
+-   fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -65,16 +65,16 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : EOS-200
+-   aux dernières : EOS-200
 
-Configuration générale 
+d'actualité générale 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -83,18 +83,18 @@ Bouton "E"
 ----------
 
 Vous trouverez dessous le bouton "E" qui est le bouton d'association du
-capteur de température.
+Capteur de température.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Configuration 
+d'actualité 
 -------------
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **NOTE**
 >
 > Il faudra donc configurer votre capteur, si vous souhaitez avoir un
 > widget avec une porte fermée lorsque celle-ci l'est.
@@ -119,13 +119,13 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-Commandes 
+vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/eos200/eos200.commandes.jpg)
+![vers](images/eos200/eos200.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -140,7 +140,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](images/eos200/eos200.informations.jpg)
+![vers](images/eos200/eos200.informations.jpg)
 
 -   Création : Indique la date à laquelle l'équipement à été créé
 
@@ -149,9 +149,9 @@ disponibles :
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Visuel alternatif 
+Visuel Alternatif 
 =================
 
 ![eos200.vue alternative](images/eos200/eos200.vue-alternative.jpg)
@@ -159,7 +159,7 @@ Visuel alternatif
 F.A.Q. 
 ======
 
-Comment piloter un récepteur Z-Wave?
+Comment piloter un recepteur Z-Wave?
 
 :   Avec le plugin Scénario de Jeedom.
 

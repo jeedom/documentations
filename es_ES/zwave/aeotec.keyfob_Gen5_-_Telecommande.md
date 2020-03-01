@@ -1,4 +1,4 @@
-Aeotec Keyfob Gen5 
+aeotec Keyfob Gen5 
 ==================
 
  \
@@ -11,7 +11,7 @@ Aeotec Keyfob Gen5
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -38,7 +38,7 @@ gestion des appuis courts et longs. Cette télécommande peut être aussi
 bien utilisée comme contrôleur principal ou secondaire.
 
 Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la
-gamme Gen5 de Aeotec, elle surpasse tout ce qui existait auparavant.
+gamme Gen5 de aeotec, elle surpasse tout ce qui existait auparavant.
 Elle utilise la dernière puce Z-Wave série 500, offrant une augmentation
 de la portée radio de 50% et une vitesse de communication de 250% plus
 rapide par rapport aux précédents produits Z-Wave.
@@ -77,7 +77,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques techniques
 
 -   Durée de vie de la batterie : 1 an
 
--   Fréquence: 868.42 MHz
+-   fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -103,19 +103,19 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marque : aeotec
 
--   Nom : ZW088 Key Fob Gen5
+-   Nombre : ZW088 Key Fob Gen5
 
 -   Fabricant ID : 134
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 88
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -126,7 +126,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -145,7 +145,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -154,7 +154,7 @@ disponibles.
 
  \
 
-![Commandes](images/aeotec.keyfob-gen5/commandes.jpg)
+![comandos](images/aeotec.keyfob-gen5/commandes.jpg)
 
  \
 
@@ -182,11 +182,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
-> **Important**
+> **importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,16 +195,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -287,7 +287,7 @@ Note importante
 
  \
 
-> **Important**
+> **importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

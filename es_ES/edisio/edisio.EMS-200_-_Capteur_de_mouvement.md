@@ -2,7 +2,7 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
 
@@ -34,14 +34,14 @@ Fonctions
 
 -   Informations sur le niveau de la batterie
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   Fréquence : 868,3 MHz
+-   fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -60,7 +60,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : EMS-200
+-   Nombre : EMS-200
 
 Configuration générale 
 ======================
@@ -69,12 +69,12 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **Tip**
+> **punta**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -87,7 +87,7 @@ de température.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
-Détection 
+détection 
 ---------
 
 Le capteur détecte le moindre mouvement dans un rayon d'environ 6m
@@ -115,18 +115,18 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Tip**
+> **punta**
 >
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-Commandes 
+comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/ems200/ems200.commande.jpg)
+![comandos](images/ems200/ems200.commande.jpg)
 
 Voici la liste des commandes :
 
@@ -141,7 +141,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](images/ems200/ems200.informations.jpg)
+![comandos](images/ems200/ems200.informations.jpg)
 
 -   Création : Indique la date à laquelle l'équipement à était créé
 
@@ -150,9 +150,9 @@ disponibles :
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Visuel alternatif 
+Visuel Alternatif 
 =================
 
 ![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)

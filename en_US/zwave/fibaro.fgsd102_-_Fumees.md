@@ -11,7 +11,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -80,7 +80,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -91,7 +91,7 @@ Caractéristiques techniques
 
 -   Autonomie de la batterie : 3 ans
 
--   Fréquence : 868,42 MHz
+-   fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -123,17 +123,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro Smoke Sensor FGSD-002
+-   aux dernières : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
--   Type Produit : 3074
+-   Type produit : 3074
 
 -   Produit ID : 4098
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -163,7 +163,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -172,7 +172,7 @@ disponibles.
 
  \
 
-![Commandes](images/fibaro.fgsd102/commandes.jpg)
+![vers](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -198,11 +198,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,16 +211,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -294,7 +294,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

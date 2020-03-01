@@ -11,7 +11,7 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -70,7 +70,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -100,13 +100,13 @@ Données du module
 
 -   Fabricant ID : 264 \[0x0108\]
 
--   Type Produit : 2 \[0x0002\]
+-   Type produit : 2 \[0x0002\]
 
 -   Produit ID : 14 \[0x000e\]
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Ne pas installer le module sur la fenêtre/porte avant de l'avoir
 > correctement configuré, et bien faire attention à l'alignement de
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -150,7 +150,7 @@ disponibles.
 
  \
 
-![Commandes](images/dlink.dchz110/commandes.jpg)
+![vers](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -161,10 +161,10 @@ Voici la liste des commandes :
 -   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
@@ -173,11 +173,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion, ou d'une modification, sauvegarder puis
 > réveillez toujours le module en appuyant sur le bouton d'association.
@@ -187,16 +187,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -274,7 +274,7 @@ DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
  \
 
-Visuel alternatif 
+Visuel Alternatif 
 -----------------
 
  \
@@ -318,7 +318,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

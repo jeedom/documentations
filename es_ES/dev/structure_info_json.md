@@ -31,7 +31,7 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Temps maximum imparti pour l'installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
-**Exemple** :
+**ejemplo** :
 
 [Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 

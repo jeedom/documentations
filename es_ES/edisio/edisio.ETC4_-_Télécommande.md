@@ -2,7 +2,7 @@
 
 ![module](images/etc4/module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![vue default](images/etc4/vue_default.jpg)
 
@@ -31,16 +31,16 @@ Fonctions
 
 -   Facilité d'utilisation et d'installation
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium CR2430)
 
 -   Canaux : 4
 
--   Fréquence : 868,3 MHz
+-   fréquence : 868,3 MHz
 
 -   Température de fonctionnement : -10°C +50°C
 
@@ -53,7 +53,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : ETC4
+-   Nombre : ETC4
 
 Configuration générale 
 ======================
@@ -62,7 +62,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -124,13 +124,13 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Commandes 
+comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/etc4/commandes.jpg)
+![comandos](images/etc4/commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -150,7 +150,7 @@ Informations
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponibles :
 
-![Commandes](images/etc4/infos.jpg)
+![comandos](images/etc4/infos.jpg)
 
 -   Création : Indique la date à laquelle l'équipement à été créé
 
@@ -159,7 +159,7 @@ disponibles :
 
 -   Batterie : Indique l'état de la batterie pour les modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 Utilisation 
 -----------
@@ -167,7 +167,7 @@ Utilisation
 Une fois que votre télécommande est configurée, vous pouvez avec le
 plugin Scénario de Jeedom interagir avec votre télécommande sur Jeedom.
 
-> **Note**
+> **nota**
 >
 > Chaque touche à un retour d'état binaire.
 

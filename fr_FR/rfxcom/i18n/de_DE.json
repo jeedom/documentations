@@ -39,7 +39,7 @@
         "virtuelle": "virtuelle",
         "Choisir dans la liste des équipements le template": "Choisir dans la liste des équipements le template",
         "Volet Ematronic": "Volet Ematronic",
-        "Défaut": "Défaut",
+        "Défaut": "Fehler",
         "Remplacer l'ID automatique par celui que vous avez extrait précédemment": "Remplacer l'ID automatique par celui que vous avez extrait précédemment",
         "et Cocher \"Activer\" et \"Visible": "et Cocher \"Activer\" et \"Visible",
         "Cliquer sur \"Sauvegarder\" pour enregistrer votre configuration et": "Cliquer sur \"Sauvegarder\" pour enregistrer votre configuration et",
@@ -155,7 +155,7 @@
         "| TFA 30": "| TFA 30",
         "3139 RADIO SENSOR    | Température    |                |                |                |": "3139 RADIO SENSOR    | Température    |                |                |                |",
         "| WD18           | Détecteur d'Eau     | X10            |                |                |": "| WD18           | Détecteur d'Eau     | X10            |                |                |",
-        "Note": "Note",
+        "Note": "Notiz",
         "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne": "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne",
         "peut donc garantir que tous les modules de cette liste sont 100%": "peut donc garantir que tous les modules de cette liste sont 100%",
         "fonctionels": "fonctionels"

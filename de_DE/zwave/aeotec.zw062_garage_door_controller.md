@@ -1,4 +1,4 @@
-Aeotec Contrôleur de porte de garage 
+aeotec Contrôleur de porte de garage 
 ====================================
 
  \
@@ -11,7 +11,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -72,7 +72,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -107,19 +107,19 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marque : aeotec
 
--   Nom : Garage Door Controller (ZW062)
+-   Name : Garage Door Controller (ZW062)
 
 -   Fabricant ID : 134
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 62
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -158,7 +158,7 @@ disponibles.
 
  \
 
-![Commandes](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Befehle](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -178,22 +178,22 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 

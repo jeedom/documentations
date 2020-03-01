@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall On Off - AN179-0 
+SmartHome by Everspring In Wall ON OFF - AN179-0 
 ================================================
 
  \
@@ -11,7 +11,7 @@ SmartHome by Everspring In Wall On Off - AN179-0
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -69,7 +69,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -83,7 +83,7 @@ Caractéristiques techniques
 -   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
     : 1200W Ampoule Fluocompacte : 320W
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -100,17 +100,17 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Nom : In Wall On Off
+-   aux dernières : In Wall ON OFF
 
 -   Fabricant ID : 96
 
--   Type Produit : 4
+-   Type produit : 4
 
 -   Produit ID : 8
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -142,7 +142,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -151,7 +151,7 @@ disponibles.
 
  \
 
-![Commandes](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![vers](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
  \
 
@@ -159,36 +159,36 @@ Voici la liste des commandes :
 
  \
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la lumière
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la lumière
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
+-   état : C'est la commande qui permet de connaître le statut de la
     lumière
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
 le même icone.
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "d'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -224,7 +224,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -240,7 +240,7 @@ Bon à savoir
 -   Le retour d'état ne peut pas être configuré en dessous de 3
     secondes.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

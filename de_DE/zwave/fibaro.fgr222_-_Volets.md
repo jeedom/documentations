@@ -11,7 +11,7 @@ Fibaro FGR-222 "Volet roulant"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -43,7 +43,7 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les
 autres modules, afin d'assurer une couverture totale de votre
 habitation.
 
-Note : Ce module nécessite le neutre pour fonctionner.
+Notiz : Ce module nécessite le neutre pour fonctionner.
 
  \
 
@@ -75,7 +75,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques techniques
 
 -   Charge maxi : 1000W
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Puissance du signal : 1mW
 
@@ -113,17 +113,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGR-222
+-   Name : Fibaro FGR-222
 
 -   Fabricant ID : 271
 
--   Type Produit : 770
+-   Type produit : 770
 
 -   Produit ID : 4096
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -153,7 +153,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -162,9 +162,9 @@ disponibles.
 
  \
 
-![Commandes](images/fibaro.fgrm222/commandes.jpg)
+![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
-![Commandes](images/fibaro.fgrm222/commandes2.jpg)
+![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître la position de
+-   état : C'est la commande qui permet de connaître la position de
     votre volet
 
 -   Positionnement : C'est la commande qui permet de définir le
@@ -182,7 +182,7 @@ Voici la liste des commandes :
 
 -   Down : C'est la commande qui permet de fermer complétement le volet
 
--   Rafraîchir : C'est la commande qui permet de redemander la position
+-   auffrischen : C'est la commande qui permet de redemander la position
     du volet
 
 -   Puissance : Commande permettant d'avoir la consommation du module
@@ -204,22 +204,22 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -254,7 +254,7 @@ Détails des paramètres :
 -   14: permet de choisir le type d'interrupteur
 
 -   17: permet de choisir combien de temps après la limite définit en 18
-    le volet s'arrête
+    le volet s'arrete
 
 -   18: puissance de sécurité pour le moteur
 
@@ -312,11 +312,11 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Important 
+### wichtig 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
 > forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
@@ -325,7 +325,7 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

@@ -46,7 +46,7 @@ N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedo
 
 9- vous reconnecter avec le login : admin et le mot de passe : admin
 
-> **Important**
+> **IMPORTANT**
 >
 >
 > Attention ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer.

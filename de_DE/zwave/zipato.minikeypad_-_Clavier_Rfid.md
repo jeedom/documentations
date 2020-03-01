@@ -11,7 +11,7 @@ Zipato miniKeypad RFID
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -63,16 +63,16 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
--   Type : Esclave Z-Wave
+-   Typ : Esclave Z-Wave
 
 -   Alimentation : 2x AA 1,5V batteries
 
--   Fréquence : 868.42 MHz
+-   fréquence : 868.42 MHz
 
 -   Portée radio : 30m en champ libre
 
@@ -101,17 +101,17 @@ Données du module
 
 -   Marque : Zipato
 
--   Nom : Zipato Mini Keypad RFID
+-   Name : Zipato Mini Keypad RFID
 
 -   Fabricant ID : 151
 
--   Type Produit : 24881
+-   Typ produit : 24881
 
 -   Produit ID : 17665
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il suffit d'appuyer deux
 > secondes sur la languette métallique (la led rouge de la face avant
@@ -143,7 +143,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -160,7 +160,7 @@ Voici la liste des commandes :
 
  \
 
--   Action : c'est la commande qui remontera le home/away (5 pour away 6
+-   Aktion : c'est la commande qui remontera le home/away (5 pour away 6
     pour home)
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
@@ -173,11 +173,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
@@ -195,7 +195,7 @@ de votre installation, il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -233,7 +233,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 1.
@@ -274,7 +274,7 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pensez à réveiller le module après l'ajout d'un code ou badge.
 
@@ -358,7 +358,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

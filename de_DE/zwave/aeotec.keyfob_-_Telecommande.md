@@ -1,4 +1,4 @@
-Aeotec Keyfob 
+aeotec Keyfob 
 =============
 
  \
@@ -11,7 +11,7 @@ Aeotec Keyfob
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -60,7 +60,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -71,7 +71,7 @@ Caractéristiques techniques
 
 -   Durée de vie de la batterie : 1 an
 
--   Fréquence: 868.42 MHz
+-   fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -86,19 +86,19 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marque : aeotec
 
--   Nom : Key Fob
+-   Name : Key Fob
 
 -   Fabricant ID : 134
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 22
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -109,7 +109,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -137,7 +137,7 @@ disponibles.
 
  \
 
-![Commandes](images/aeotec.keyfob/commandes.jpg)
+![Befehle](images/aeotec.keyfob/commandes.jpg)
 
  \
 
@@ -165,29 +165,29 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
 
  \
 
-Ensuite si vous voulez éffectuer la configuration du module en fonction
+Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -234,7 +234,7 @@ Pour utiliser ce module en télécommande il faut procéder comme suit :
 -   2 : Réveiller la télécommande
 
 -   3 : Changer le paramètre 250 à true (bien le faire même s'il
-    apparaît déjà à true)
+    apparait déjà à true)
 
 -   4 : Réveiller la télécommande et s'assurer que le changement à été
     pris en compte
@@ -272,7 +272,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

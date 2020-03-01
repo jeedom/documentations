@@ -11,7 +11,7 @@ Philio PSP01
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -77,7 +77,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques techniques
 
 -   Durée de vie des piles : 2 ans
 
--   Fréquence : 868.42 MHz
+-   fréquence : 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -121,17 +121,17 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Nom : Philio PSP01
+-   Nombre : Philio PSP01
 
 -   Fabricant ID : 316
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 2
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -142,7 +142,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -161,7 +161,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -170,7 +170,7 @@ disponibles.
 
  \
 
-![Commandes](images/philio.psp01/commandes.jpg)
+![comandos](images/philio.psp01/commandes.jpg)
 
  \
 
@@ -183,10 +183,10 @@ Voici la liste des commandes :
 -   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
@@ -198,11 +198,11 @@ Voici la liste des commandes :
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
 correspondant à votre module.
 
-### Configuration du module 
+### configuración du module 
 
  \
 
-> **Important**
+> **importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,16 +211,16 @@ correspondant à votre module.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -286,7 +286,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **punta**
 >
 > Ce module a une particularité, n'ayant pas de rapport basé sur les
 > variations mais uniquement sur la durée, il envoit toutes ses infos à
@@ -297,7 +297,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -339,7 +339,7 @@ Note importante
 
  \
 
-> **Important**
+> **importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

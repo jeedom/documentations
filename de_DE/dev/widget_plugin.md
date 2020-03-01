@@ -46,13 +46,13 @@ public static function templateWidget(){
 
 Ici on va creer un nouveau widget basé sur le template "tmplmultistate" (vous avez la liste des templates [ici](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) c'est ceux avec tmpl dans leur nom), pour une commande de type info et sous type string.
 
->**IMPORTANT
+>**wichtig
 >
 >Chaque template est pour un type et sous type donné il faut donc bien verifier que le template que vous voulez utilisé existe pour le type et sous type
 
 Ensuite vu que c'est un template avec plusieurs état il faut definir les icones en fonction de l'état. Ca se fait dans la partie test du tableau.
 
-Exemple : pour le premier test on dit si la valeur de la commande vaut 2 alors il faudra remplacer le tage #\_state_# (dans le code html du template) par <i class="icon maison-vacuum6"></i>
+Beispiel : pour le premier test on dit si la valeur de la commande vaut 2 alors il faudra remplacer le tage #\_state_# (dans le code html du template) par <i class="icon maison-vacuum6"></i>
 
 Un autre exemple basé sur un autre template pourrait être : 
 

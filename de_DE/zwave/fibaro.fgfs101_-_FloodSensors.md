@@ -11,7 +11,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -72,7 +72,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -91,7 +91,7 @@ Caractéristiques techniques
 
 -   Tension maximale supportée en sortie : 40V (AC ou DC)
 
--   Fréquence : 868,42 MHz
+-   fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -121,13 +121,13 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 2816
+-   Type produit : 2816
 
 -   Produit ID : 4097
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -138,7 +138,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion,repéré TMP, conformément à sa documentation
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -167,7 +167,7 @@ disponibles.
 
  \
 
-![Commandes](images/fibaro.fgfs101/commandes.jpg)
+![Befehle](images/fibaro.fgfs101/commandes.jpg)
 
  \
 
@@ -187,11 +187,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -200,16 +200,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -317,7 +317,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

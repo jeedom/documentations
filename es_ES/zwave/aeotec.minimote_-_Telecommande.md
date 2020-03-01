@@ -1,4 +1,4 @@
-Aeotec Minimote 
+aeotec Minimote 
 ===============
 
  \
@@ -11,7 +11,7 @@ Aeotec Minimote
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -56,7 +56,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -69,7 +69,7 @@ Caractéristiques techniques
 
 -   Affichage: LED bleue et rouge
 
--   Fréquence : 868,42MHz
+-   fréquence : 868,42MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -84,19 +84,19 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marque : aeotec
 
--   Nom : Minimote
+-   Nombre : Minimote
 
 -   Fabricant ID : 134
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 3
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -107,7 +107,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -135,7 +135,7 @@ disponibles.
 
  \
 
-![Commandes](images/aeotec.minimote/commandes.jpg)
+![comandos](images/aeotec.minimote/commandes.jpg)
 
  \
 
@@ -163,11 +163,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
-> **Important**
+> **importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -176,16 +176,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -260,7 +260,7 @@ Note importante
 
  \
 
-> **Important**
+> **importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

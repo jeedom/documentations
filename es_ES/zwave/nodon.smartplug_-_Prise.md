@@ -11,7 +11,7 @@ Nodon Prise Intelligente - Smartplug
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -24,10 +24,10 @@ Résumé
 
  \
 
-La prise télécommandée NodOn® est pilotable via une centrale domotique
+La prise télécommandée NodON® est pilotable via une centrale domotique
 compatible Z- Wave® ou Z-Wave Plus® ou directement via d'autres
 contrôleurs Z-Wave® ou Z-Wave Plus® tels que la Soft Remote,
-l'interrupteur mural ou la Octan Remote NodOn®. Au standard allemand
+l'interrupteur mural ou la Octan Remote NodON®. Au standard allemand
 (Schuko) ou français (Type E), la prise peut se brancher dans les 2
 sens, tête en haut ou tête en bas. Associées à son design fin, ces 2
 caractéristiques permettent une intégration facilitée, sans boucher les
@@ -55,7 +55,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -87,17 +87,17 @@ Données du module
 
 -   Marque : Nodon
 
--   Nom : Smartplug
+-   Nombre : Smartplug
 
 -   Fabricant ID : 357
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 1
 
  \
 
-Configuration 
+configuración 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > jusqu'à que la lumière devienne rouge, conformément à sa documentation
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### comandos 
 
  \
 
@@ -137,7 +137,7 @@ disponibles.
 
  \
 
-![Commandes](images/nodon.smartplug/commandes.jpg)
+![comandos](images/nodon.smartplug/commandes.jpg)
 
  \
 
@@ -145,39 +145,39 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
+-   état : C'est la commande qui permet de connaître le statut de la
     prise (Allumée/Eteinte)
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
 -   Statut : Permet de savoir si la prise est alimentée ou non
     (Détection coupure de courant / débranchement)
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
 le même icone.
 
  \
 
-### Configuration du module 
+### configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "configuración" du
 plugin Zwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -262,7 +262,7 @@ Ce module possède 8 groupes d'association.
 
  \
 
-> **Important**
+> **importante**
 >
 > A minima Jeedom devrait se retrouver dans les groupes 1 et 4  \
 
@@ -298,7 +298,7 @@ F.A.Q.
 
 Vous ne deviez pas avoir l'option télécharger les widgets auto
 d'activée. Vous pouvez récupérer les widgets mobile et dashboard sur le
-market : alarme\_prise.
+mercado : alarme\_prise.
 
  \
 

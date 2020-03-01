@@ -1,4 +1,4 @@
-Aeotec Panic Button 
+aeotec Panic Button 
 ===================
 
  \
@@ -11,7 +11,7 @@ Aeotec Panic Button
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -66,7 +66,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques techniques
 -   Durée de vie de la batterie : 2 à 3 mois pour 10 à 20 utilisations
     par jour
 
--   Fréquence: 868.42 MHz
+-   fréquence: 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -91,19 +91,19 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marque : aeotec
 
--   Nom : Panic Button
+-   aux dernières : Panic Button
 
 -   Fabricant ID : 134
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 38
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -142,7 +142,7 @@ disponibles.
 
  \
 
-![Commandes](images/aeotec.panicbutton/commandes.jpg)
+![vers](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -171,16 +171,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -264,7 +264,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

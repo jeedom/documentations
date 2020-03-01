@@ -20,7 +20,7 @@ et
 Ce dernier permet de créer ses propres commandes vocales pour Google Now
 pour automatiser ses tâches en utilisant la voix.
 
-À noter : AutoVoice n'est que la composante pour parler à Jeedom mais ne
+A noter : AutoVoice n'est que la composante pour parler à Jeedom mais ne
 permet pas à Jeedom de répondre. Pour qu'il le fasse, pas besoin du
 plugin Tasker. On peut aussi utiliser cet exemple en remplaçant la
 reconnaissance vocale de AutoVoice par un tag NFC, une géolocalisation,
@@ -29,7 +29,7 @@ un SMS reçu…​
 Le principe 
 -----------
 
-On va utiliser un profil Tasker sur état. Celui-ci sera une
+On va utiliser un profil Tasker sur Etat. Celui-ci sera une
 reconnaissance vocale de AutoVoice. Ensuite en tâche, on demandera à
 Tasker d'exécuter 2 actions. La première sera d'appeler Jeedom et lui
 transmettre le résultat texte de la reconnaissance vocale. La deuxième
@@ -38,11 +38,11 @@ sera d'énoncer le retour de Jeedom.
 Création du profil 
 ==================
 
-On ajoute un nouveau profil avec un **état** comme déclencheur.
+On ajoute un nouveau profil avec un **Etat** comme déclencheur.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
-On sélectionne **Plugin** sur le premier écran.
+On sélectionne **plugin** sur le premier écran.
 
 ![android.autovoice2](images/android.autovoice2.png)
 

@@ -11,7 +11,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -65,18 +65,18 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
--   Type: Portable/fixation murale
+-   Typ: Portable/fixation murale
 
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
 
 -   Puce Z-Wave Plus
 
--   Fréquence : 868,42 Mhz
+-   fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -95,17 +95,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SES 303 Temperature and Humidity Sensor
+-   Name : SES 303 Temperature and Humidity Sensor
 
 -   Fabricant ID : 89
 
--   Type Produit : 13
+-   Typ produit : 13
 
 -   Produit ID : 3
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,7 +135,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -144,7 +144,7 @@ disponibles.
 
  \
 
-![Commandes](images/secure.ses303/commandes.jpg)
+![Befehle](images/secure.ses303/commandes.jpg)
 
  \
 
@@ -163,11 +163,11 @@ utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -176,16 +176,16 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -235,7 +235,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -271,7 +271,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

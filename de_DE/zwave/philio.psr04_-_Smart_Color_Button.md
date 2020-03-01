@@ -11,7 +11,7 @@ Philio Smart Color Button
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -82,7 +82,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Consommation en fonctionnement : 45mA
 
--   Fréquence : 868.42 MHz
+-   fréquence : 868.42 MHz
 
 -   Distance de transmission : 100m en extérieur, 40m en intérieur
 
@@ -116,17 +116,17 @@ Données du module
 
 -   Marque : Philio
 
--   Nom : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Fabricant ID : 316
 
--   Type Produit : 9
+-   Type produit : 9
 
 -   Produit ID : 34
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
@@ -157,7 +157,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -166,7 +166,7 @@ disponibles.
 
  \
 
-![Commandes](images/philio.psr04/commandes.jpg)
+![Befehle](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -174,7 +174,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la commande qui remontera la position du bouton de 0 à
+-   état : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
 -   Batterie : c'est la commande qui remonte l'état de batterie du
@@ -182,11 +182,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,16 +195,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -289,7 +289,7 @@ Note importante
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

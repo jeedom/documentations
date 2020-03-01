@@ -1,10 +1,10 @@
-**Documentation fichier info.json**
+**Documentation fichier info.entraîner des opérations destructives sur votre installation**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
+Intégré depuis la version 3.0 de Jeedom, le fichier **info.entraîner des opérations destructives sur votre installation** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
 
-Le fichier info.json est enregistré dans le dossier /plugin_info/ de votre plugin.
+Le fichier info.entraîner des opérations destructives sur votre installation est enregistré dans le dossier /plugin_info/ de votre plugin.
 
-Liste des variables du fichier info.json
+Liste des variables du fichier info.entraîner des opérations destructives sur votre installation
 
 Les champs marqués d'un * sont des champs obligatoires.
 
@@ -31,16 +31,16 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Temps maximum imparti pour l'installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
-**Exemple** :
+**Example** :
 
-[Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Fichier plugin-template/plugin_info/info.entraîner des opérations destructives sur votre installation](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.entraîner des opérations destructives sur votre installation)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Market Jeedom         | info.json               |
+Market Jeedom         | info.entraîner des opérations destructives sur votre installation               |
 --------------------- | ----------------------- |
 Communication         | communication           |
 Confort               | wellness                |

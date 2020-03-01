@@ -31,12 +31,12 @@ Voilà. Vous pouvez vous déconnecter/reconnecter à votre Jeedom avec les
 identifiants adminTmp/admin ce qui vous permettra de modifier le mot de
 passe des autres comptes également.
 
->**IMPORTANT**
+>**importante**
 >
 >N'oubliez pas une fois vos accès récupéré de bien supprimer l'utilisateur adminTmp, le laisser pourrait être une potentielle
 faille de sécurité dont vous seriez seul responsable.
 
->**IMPORTANT**
+>**importante**
 >
 > Si vous avez activé l'authentification AD/LDAP cette méthode de remise à zéro ne marchera pas à moins de désactiver le mode AD/LDAP. Vous pouvez le faire en faisant : 
 >``` {.bash}

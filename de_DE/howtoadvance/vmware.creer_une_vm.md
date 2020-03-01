@@ -26,7 +26,7 @@ Allez sur IP\_ESXI/ui avec votre navigateur internet, vous devez avoir :
 
 ![vmware.createvm3](images/vmware.createvm3.PNG)
 
-> **Note**
+> **Notiz**
 >
 > Si vous n'avez rien je vous conseille de faire l'installation de
 > l'interface web, toutes les informations
@@ -116,7 +116,7 @@ dure, cpu, mémoire…​) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
-> **Note**
+> **Notiz**
 >
 > Tous ces paramètres sont modifiable après coup sans soucis, à noter
 > tout de meme qu'il n'est pas vraiment possible de réduire la taille
@@ -161,7 +161,7 @@ votre OS :
 
 ![vmware.createvm17](images/vmware.createvm17.PNG)
 
-> **Important**
+> **wichtig**
 >
 > Un fois votre machine installée il faut ABSOLUMENT installer les
 > VMware tools (ça permet à VMware d'avoir des informations sur votre VM
@@ -174,7 +174,7 @@ Pour la suite de l'installation je vous invite à lire ce
 Monter les péripheriques USB dans la VM 
 =======================================
 
-> **Note**
+> **Notiz**
 >
 > Si vous n'avez pas les options ci-dessous c'est qu'il faut mettre à
 > jour l'ESXi Embedded Host Client , toutes les informations
@@ -185,7 +185,7 @@ effet j'ai sur mon ESXi les clefs Zwave, RFXcom, edisio, enOcean et GSM
 de branchées et il me fallait les relier à ma VM Jeedom pour pouvoir
 m'en servir.
 
-> **Note**
+> **Notiz**
 >
 > Pour Zwave, RFXcom, edisio et enOcean il n'y a aucun soucis, pour les
 > clefs GSM il vous faut suivre ce
@@ -201,7 +201,7 @@ Cliquez sur "Ajouter un autre périphérique" puis controleur USB :
 
 ![vmware.createvm26](images/vmware.createvm26.PNG)
 
-> **Note**
+> **Notiz**
 >
 > L'étape qui suit devra être repétée pour chaque périphérique USB que
 > vous voulez connecter

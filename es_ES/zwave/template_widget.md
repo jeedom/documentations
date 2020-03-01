@@ -40,7 +40,7 @@ commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
  \
 
-> **Tip**
+> **punta**
 >
 > Il est préférable d'effectuer une exclusion avant une inclusion. Pour
 > effectuer l'exclusion, rien de bien compliqué, il suffit de cliquer

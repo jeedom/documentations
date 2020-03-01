@@ -11,7 +11,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -85,7 +85,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -125,17 +125,17 @@ Données du module
 
 -   Marque : GreenWave
 
--   Nom : GreenWave\[6 x prises\]
+-   Name : GreenWave\[6 x prises\]
 
 -   Fabricant ID : 153
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 4
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -146,7 +146,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sur la prise.
@@ -165,7 +165,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
@@ -174,15 +174,15 @@ disponibles.
 
  \
 
-![Commandes](images/greenwave.powernode/commandes.jpg)
+![Befehle](images/greenwave.powernode/commandes.jpg)
 
-![Commandes](images/greenwave.powernode/commandes2.jpg)
+![Befehle](images/greenwave.powernode/commandes2.jpg)
 
-![Commandes](images/greenwave.powernode/commandes3.jpg)
+![Befehle](images/greenwave.powernode/commandes3.jpg)
 
-![Commandes](images/greenwave.powernode/commandes4.jpg)
+![Befehle](images/greenwave.powernode/commandes4.jpg)
 
-![Commandes](images/greenwave.powernode/commandes5.jpg)
+![Befehle](images/greenwave.powernode/commandes5.jpg)
 
  \
 
@@ -190,7 +190,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat-1 : C'est la commande qui permet de connaître le statut de la
+-   Etat-1 : C'est la commande qui permet de connaitre le statut de la
     prise 1
 
 -   On-1 : C'est la commande qui permet d'allumer la prise 1
@@ -203,7 +203,7 @@ Voici la liste des commandes :
 -   Conso-1 : C'est la commande qui remonte la consommation totale de la
     prise 1
 
--   Etat-2 : C'est la commande qui permet de connaître le statut de la
+-   Etat-2 : C'est la commande qui permet de connaitre le statut de la
     prise 2
 
 -   On-2 : C'est la commande qui permet d'allumer la prise 2
@@ -216,7 +216,7 @@ Voici la liste des commandes :
 -   Conso-2 : C'est la commande qui remonte la consommation totale de la
     prise 2
 
--   Etat-3 : C'est la commande qui permet de connaître le statut de la
+-   Etat-3 : C'est la commande qui permet de connaitre le statut de la
     prise 3
 
 -   On-3 : C'est la commande qui permet d'allumer la prise 3
@@ -229,7 +229,7 @@ Voici la liste des commandes :
 -   Conso-3 : C'est la commande qui remonte la consommation totale de la
     prise 3
 
--   Etat-4 : C'est la commande qui permet de connaître le statut de la
+-   Etat-4 : C'est la commande qui permet de connaitre le statut de la
     prise 4
 
 -   On-4 : C'est la commande qui permet d'allumer la prise 4
@@ -242,7 +242,7 @@ Voici la liste des commandes :
 -   Conso-4 : C'est la commande qui remonte la consommation totale de la
     prise 4
 
--   Etat-5 : C'est la commande qui permet de connaître le statut de la
+-   Etat-5 : C'est la commande qui permet de connaitre le statut de la
     prise 5
 
 -   On-5 : C'est la commande qui permet d'allumer la prise 5
@@ -255,7 +255,7 @@ Voici la liste des commandes :
 -   Conso-5 : C'est la commande qui remonte la consommation totale de la
     prise 5
 
--   Etat-6 : C'est la commande qui permet de connaître le statut de la
+-   Etat-6 : C'est la commande qui permet de connaitre le statut de la
     prise 6
 
 -   On-6 : C'est la commande qui permet d'allumer la prise 6
@@ -275,22 +275,22 @@ en un seul bouton.
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 

@@ -92,7 +92,7 @@ spécifier le texte que vous cherchez (un élément significatif et une
 ligne seulement, pas tout un bloc d'un coup). Valider avec "Entrée" pour
 lancer la recherche.
 
-> **Tip**
+> **punta**
 >
 > Si vous ne cliquez pas dans la fenêtre contenant le texte ou le code
 > que vous cherchez, c'est la recherche du navigateur qui va s'ouvrir et

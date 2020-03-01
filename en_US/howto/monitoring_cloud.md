@@ -54,15 +54,15 @@ Après avoir ajouté du crédit monitoring cloud, il faut soit attendre quelques
 
 Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. Il faut environ 10min pour qu'il se lance suite à la synchronisation avec le market (clic sur le bouton test).
 
->**IMPORTANT**
+>**Important**
 >
 >Lors de la premiere activation ou réactivation il est possible que vous receviez un mail/telegram/slack/sms vous indiquant que votre Jeedom n'est pas disponible. C'est normal c'est le temps que le Jeedom en question active les services de monitoring.
 
->**IMPORTANT**
+>**Important**
 >
 > Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte
 
->**IMPORTANT**
+>**Important**
 >
 > Pour les notifications il suffit de récupérer l'arn de votre mobile, il se situe dans le plugin mobile, sur votre equipement mobile puis d'accéder à l'onglet "notification" puis copie la ligne "ARN" attention il faut prendre uniquement ce qu'il y a apres "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

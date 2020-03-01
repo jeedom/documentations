@@ -11,7 +11,7 @@ Nodon Télécommande - Octan
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -54,7 +54,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -86,17 +86,17 @@ Données du module
 
 -   Marque : Nodon
 
--   Nom : CRC-3-1-00 Octan Remote
+-   aux dernières : CRC-3-1-00 Octan Remote
 
 -   Fabricant ID : 357
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 1
 
  \
 
-Configuration 
+d'actualité 
 -------------
 
  \
@@ -107,7 +107,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
@@ -127,7 +127,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### vers 
 
  \
 
@@ -136,7 +136,7 @@ disponibles.
 
  \
 
-![Commandes](images/nodon.octan/commandes.jpg)
+![vers](images/nodon.octan/commandes.jpg)
 
  \
 
@@ -147,7 +147,7 @@ Voici la liste des commandes :
 -   Boutons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Boutons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -160,11 +160,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### d'actualité du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -173,16 +173,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"d'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -231,7 +231,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -274,7 +274,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
