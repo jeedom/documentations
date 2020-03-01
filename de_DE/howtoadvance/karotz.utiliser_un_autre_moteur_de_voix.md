@@ -22,7 +22,7 @@ fonction (exemple pour Jeedom) :
         if [ "$NOCACHE" == "1" ]; then
             rm -f $CNF_DATADIR/Tmp/${MD5FILE}.mp3   >>/dev/null 2>>/dev/null
             rm -f $CNF_DATADIR/Tmp/${MD5FILE}.txt   >>/dev/null 2>>/dev/null
-         else
+         sonst
             Log "[TTS]"  "Storing sound ${MD5FILE}.mp3 to cache"
          fi
        echo ${MD5FILE}

@@ -1,4 +1,4 @@
-Présentation
+Presentation
 ============
 
 La Jeedom Smart est équipée d'un disque Emmc, garantissant une meilleur fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible.

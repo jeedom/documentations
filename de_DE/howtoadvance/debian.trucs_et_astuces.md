@@ -146,7 +146,7 @@ MYSQL, soders Stretch :
 > Administration → Configuration → OS/DB → Base de données
 
 A voders d'adapter cette commande en fonction de votre configuration
-précédente :
+früher :
 
     GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'monpass';
 
@@ -161,7 +161,7 @@ oder
 
 -   Lancez la restauration via l'interface de Jeedom (Administration →
     Sauvegardes → Sauvegardes Locales : Choisissez la bonne sauvegarde
-    et cliquez sur **Restaurer** juste en dessoders)
+    et cliquez sur **Wiederherstellen** juste en dessoders)
 
 -   Patientez pendant la restauration
 
@@ -201,7 +201,7 @@ Bascule en MariaDB.
 
     apt-get -y install mariadb-server mariadb-client mariadb-common
 
-Mise à joderr de Jeedom
+Jeedom Update
 
     sh /var/www/html/install/install.sh -s 2
     sh /var/www/html/install/install.sh -s 5

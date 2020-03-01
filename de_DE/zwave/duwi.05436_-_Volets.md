@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-Gruppen.PNG)
 
  \
 

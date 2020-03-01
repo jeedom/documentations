@@ -81,7 +81,7 @@ Caractéristiques Techniques
 
 -   Module pouvant être alimenté en externe : 12 – 24 VDC
 
--   Type de batterie : CR123A
+-   Batterietyp : CR123A
 
 -   Autonomie de la batterie : 2 Jahre
 
@@ -115,7 +115,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Modèle : FGFS101 Flood Sensor
+-   Modell : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
@@ -163,7 +163,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 

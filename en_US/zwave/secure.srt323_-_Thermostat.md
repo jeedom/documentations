@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -173,7 +173,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -194,7 +194,7 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   Batterie : c'est la commande batterie
+-   drums : c'est la commande batterie
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

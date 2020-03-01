@@ -37,7 +37,7 @@ d'allumer ou d'éteindre la prise directement.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -195,9 +195,9 @@ Détails des paramètres :
     coupure de courant ou après branchement
 
 -   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de
-    coupure/retour de courant, ainsi que les groupes associés (Groupes
+    coupure/retour de courant, ainsi que les groupes associés (groups
     4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à
-    la documentation papier ou à la bulle d'aide dans jeedom). Il est
+    la documentation papier ou à la bulle d'aide dans jeedom). It is
     recommandé de mettre ce paramètre à 1.
 
 -   3 : Ce paramètre permet d'activer ou désactiver les groupes 2 et 3.
@@ -211,7 +211,7 @@ Détails des paramètres :
     Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
     www.nodon.fr/support/asp3/alarm vous guidera
 
-### Groupes 
+### groups 
 
  \
 
@@ -275,7 +275,7 @@ Bon à savoir
 
  \
 
--   Il est inutile de s'amuser à brancher/débrancher la prise pour
+-   It is inutile de s'amuser à brancher/débrancher la prise pour
     observer l'alarme. Celle ci ne marchera à peu près que 3 fois. Au
     delà la prise doit rester alimentée un petit moment pour recharger
     la pile interne.

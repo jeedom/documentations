@@ -45,7 +45,7 @@ pouvez déja à partir de cette écran :
 -   voir l'utilisation des ressources (CPU,mémoire et disque)
 
 -   avoir des informations sur votre système (temps de fonctionnement,
-    version de VMware, version du bios, affichage des datastores)
+    version de VMware, version du bios, affichage des Datenspeichers)
 
 -   bouton pour créer une VM (on va s'en servir juste après)
 
@@ -60,17 +60,17 @@ Envoi de l'iso d'installation
 Après avoir téléchargé votre iso d'installation
 ([ici](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 par exemple pour debian 8.5 en netinstall), il vous faut le mettre sur
-votre datastore.
+votre Datenspeicher.
 
-Pour cela cliquez sur datastore :
+Pour cela cliquez sur Datenspeicher :
 
 ![vmware.createvm18](images/vmware.createvm18.PNG)
 
-Selectionnez votre datastore (en general il s'appelle datastore1) :
+Selectionnez votre Datenspeicher (en general il s'appelle Datenspeicher1) :
 
 ![vmware.createvm19](images/vmware.createvm19.PNG)
 
-Cliquez sur "Navigateur de banque de données" :
+Cliquez sur "Navigateur de banque de Daten" :
 
 ![vmware.createvm20](images/vmware.createvm20.PNG)
 
@@ -87,7 +87,7 @@ Vous pouvez ensuite suivre l'avancement de l'envoi :
 ![vmware.createvm23](images/vmware.createvm23.PNG)
 
 Une fois fini vous pouvez voir que votre iso est bien arrivé sur le
-datastore :
+Datenspeicher :
 
 ![vmware.createvm24](images/vmware.createvm24.PNG)
 
@@ -107,7 +107,7 @@ d'exploitation (ici on va installer une Débian) :
 
 ![vmware.createvm7](images/vmware.createvm7.PNG)
 
-Indiquez le datastore cible :
+Indiquez le Datenspeicher cible :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
@@ -124,7 +124,7 @@ dure, cpu, mémoire…​) :
 > niveau de l'OS ensuite) mais pas la réduire.
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de
-données" :
+Daten" :
 
 ![vmware.createvm10](images/vmware.createvm10.PNG)
 

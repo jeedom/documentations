@@ -25,7 +25,7 @@ Resumen
  \
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. El se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -47,7 +47,7 @@ déjà un réseau existant.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : D-Link
 
--   Modèle : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   modelo : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
@@ -146,7 +146,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -169,7 +169,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -253,7 +253,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

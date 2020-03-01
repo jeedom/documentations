@@ -21,7 +21,7 @@ Optimiser MYSQL
 
 <!-- -->
 
-    service mysql stop
+    MYSQL Stop Service
     rm /var/lib/mysql/ib_logfile*
 
 -   Puis faites :

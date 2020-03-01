@@ -1,4 +1,4 @@
-Présentation
+Präsentation
 ============
 
 La Jeedom Smart est équipée d'un disque Emmc, garantissant une meilleur fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible.
@@ -28,7 +28,7 @@ N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedo
 
 
 
-1- téléchargez l'archive que nous fournissons  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Attention de bien vérifier que le fichier à pour nom backupJeedom.tar.gz pour que la restauration marche.
+1- téléchargez l'archive que nous fournissons  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Achtung de bien vérifier que le fichier à pour nom backupJeedom.tar.gz pour que la restauration marche.
 
 2- copiez cette archive sans la modifier ni la dézipper, sur une clé USB formatée en FAT32 et vierge
 
@@ -44,12 +44,12 @@ N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedo
 
 8- cherchez votre Smart sur le réseau
 
-9- vous reconnecter avec le login : admin et le mot de passe : admin
+9- vous reconnecter avec le login : Admin et le mot de passe : Admin
 
 > **wichtig**
 >
 >
-> Attention ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer.
+> Achtung ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Ce Recovery Mode n'est compatible qu'avec la Jeedom Smart.

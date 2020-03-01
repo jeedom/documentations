@@ -1,4 +1,4 @@
-# Sauvegarde cloud
+# Cloud-Backup
 
 Une fois le service acheté il faut dans jeedom : 
 

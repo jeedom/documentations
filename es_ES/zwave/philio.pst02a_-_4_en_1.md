@@ -56,7 +56,7 @@ ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande,
 dongle …​) est nécessaire afin d'intégrer ce détecteur dans votre réseau
 si vous avez déjà un réseau existant.  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -178,7 +178,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -203,7 +203,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -294,7 +294,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

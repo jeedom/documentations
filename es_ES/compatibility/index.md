@@ -1,7 +1,7 @@
-Hardware
+hardware
 ========
 
-Hardware | Etat | Remarques
+hardware | Etat | Remarques
 --- | --- | ---
 Jeedomboard             | Stable                  |
 Hummingboard            | Stable                  |
@@ -29,7 +29,7 @@ puis dans le dossier Images
 > l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre
 > navigateur
 
-| Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
+| Images         | hardware       | Etat           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | jeedomboard et | Beta           | root/Mjeedom96 |                |
 | netinstall     | hummingboard   |                |                |                |
@@ -64,7 +64,7 @@ Logiciel
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Autre
+Otro
 =====
 
 Clef USB/Module d'extension

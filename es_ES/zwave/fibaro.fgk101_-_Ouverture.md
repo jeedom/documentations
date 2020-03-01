@@ -41,7 +41,7 @@ aussi d'une entrée filaire, il peut ainsi être utilisé comme un
 transmetteur universel : laissez de côté son contact magnétique, et
 reliez ses entrées à vis à tout détecteur (normalement fermé) de votre
 choix tel qu'un détecteur de fumée, de gaz ou de monoxyde de carbone,
-etc.
+etcétera.
 
 Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
 d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
@@ -49,7 +49,7 @@ existant.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -146,7 +146,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -161,8 +161,8 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
--   Batterie : c'est la commande qui permet de remonter l'état de la
-    batterie
+-   batería : c'est la commande qui permet de remonter l'état de la
+    batería
 
  \
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 
@@ -299,7 +299,7 @@ l'inclusion au plus proche de votre box.
 
  \
 
-Ce module est un module sur batterie, la nouvelle configuration sera
+Ce module est un module sur batería, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
  \

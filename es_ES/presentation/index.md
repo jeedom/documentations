@@ -1,4 +1,4 @@
-Présentation
+Presentación 
 ===
 
 Jeedom est composé d'une partie centrale (appelée core) qui se charge
@@ -53,7 +53,7 @@ base normalisée. Cela permet par exemple d'utiliser les plugins
 thermostat ou alarme avec n'importe quel protocole domotique ou même un
 plugin IP ou objet communiquant…​
 
-Principe
+principio
 === 
 
 Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui
@@ -95,7 +95,7 @@ Voici la liste des tutoriels disponibles :
 -   [Tuto Jeedom \#6 : Les scénarios dans Jeedom avec le plugin
     Météo](https://www.youtube.com/watch?v=w0ErP3wyEoA)
 
--   [Tuto Jeedom \#7 : Présentation du plugin
+-   [Tuto Jeedom \#7 : Presentación  du plugin
     Energie](https://www.youtube.com/watch?v=DZfA_DxqbNs)
 
 -   [Tuto Jeedom \#8 : Découverte du Mode

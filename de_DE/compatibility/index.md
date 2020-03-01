@@ -64,7 +64,7 @@ Logiciel
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Autre
+Andere
 =====
 
 Clef USB/Module d'extension

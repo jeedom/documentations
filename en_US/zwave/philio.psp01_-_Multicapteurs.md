@@ -48,7 +48,7 @@ réseau existant.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Brightness sensor : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -191,7 +191,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   drums : c'est la commande batterie
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

@@ -159,7 +159,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -230,7 +230,7 @@ swiidinter à un autre module (appui long)
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 

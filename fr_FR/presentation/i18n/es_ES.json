@@ -1,6 +1,6 @@
 {
     "presentation\/index.md": {
-        "Présentation": "Présentation",
+        "Présentation": "Presentación ",
         "Jeedom est composé d'une partie centrale (appelée core) qui se charge": "Jeedom est composé d'une partie centrale (appelée core) qui se charge",
         "des fonctions de base": "des fonctions de base",
         "Scénario": "Escenario",
@@ -24,7 +24,7 @@
         "Cela permet par exemple d'utiliser les plugins": "Cela permet par exemple d'utiliser les plugins",
         "thermostat ou alarme avec n'importe quel protocole domotique ou même un": "thermostat ou alarme avec n'importe quel protocole domotique ou même un",
         "plugin IP ou objet communiquant…​": "plugin IP ou objet communiquant…​",
-        "Principe": "Principe",
+        "Principe": "principio",
         "Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui": "Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui",
         "permet de garantir le fonctionnement de votre domotique même si vous": "permet de garantir le fonctionnement de votre domotique même si vous",
         "n'avez plus internet": "n'avez plus internet",

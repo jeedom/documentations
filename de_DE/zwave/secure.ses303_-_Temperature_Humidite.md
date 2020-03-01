@@ -140,7 +140,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
 -   Batterie : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi verfügbar et seront
 utiles si vous avez raccordé des sondes externes
 
  \
@@ -214,7 +214,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 

@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-Fonctions 
+functions 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 ### vers 
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### Groupes 
+### groups 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.

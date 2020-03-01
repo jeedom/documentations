@@ -32,7 +32,7 @@ compatible.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -43,7 +43,7 @@ Fonctions
 
 -   Se fixe partout grâce à son aimant intégré
 
--   6 coloris disponibles
+-   6 coloris available
 
  \
 
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -138,10 +138,10 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   buttons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Boutons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -153,7 +153,7 @@ Voici la liste des commandes :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 +----------------+----------------+----------------+----------------+----------------+
 
--   Batterie : c'est la commande qui remonte le niveau des piles
+-   drums : c'est la commande qui remonte le niveau des piles
 
  \
 
@@ -202,7 +202,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Groupes 
+### groups 
 
  \
 

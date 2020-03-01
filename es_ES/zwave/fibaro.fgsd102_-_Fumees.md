@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -87,7 +87,7 @@ Caractéristiques Techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : Batterie Lithium 3V CR123A
+-   Alimentation : batería Lithium 3V CR123A
 
 -   Autonomie de la batterie : 3 años
 
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -194,7 +194,7 @@ Voici la liste des commandes :
 -   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
     (pas fiable encore)
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -252,9 +252,9 @@ Détails des paramètres :
 -   10: ne pas changer ce paramètre sauf si vous savez ce que vous
     faites
 
--   11: idem
+-   11: ídem
 
--   12: idem
+-   12: ídem
 
 -   13: permet de notifier d'autres modules zwave (à désactiver sauf si
     vous savez pourquoi vous l'activez)
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

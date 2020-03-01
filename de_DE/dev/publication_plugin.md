@@ -12,13 +12,13 @@ Une fois connecté avec votre compte dev sur le market il faut :
 
 - cliquer sur market puis sur ajouter
 - renseigner les informations sur votre plugin : 
-  - Général : 
-    - Prix
+  - Allgemein : 
+    - Preis
     - Id (celui dans le fichier info.json)
     - Name
     - Kategorie
     - Si il est privé ou non pour commencer
-  - Documentation et liens
+  - Dokumentation und Links
     - la description (bien mettre les point important, la plupart des utilisateurs ne vont pas voir la documentation avant l'achat)
     - les langues
     - le matériel compatible
@@ -32,8 +32,8 @@ Une fois connecté avec votre compte dev sur le market il faut :
    Une fois sauvegardé en retournant dans l'onglet github vous aurez 3-4 champs pour indiquer les branches : 
    
    - beta
-   - stable
+   - Stabil
    - pro (ne sert a rien dans 99% des cas)
-   - stablev3 (bientot)
+   - Stabilv3 (bientot)
    
    La synchronisation se fait soit automatiquement tous les jours à 12h10 (attention vu le nombre de plugin et les restrictions d'appels api la mise à jour commence à 12h10 mais prendre plusieurs dizaine d'heure). Vous pouvez aussi lancer une synchronisation manuel d'une branche à partir de la fiche plugin

@@ -6,7 +6,7 @@
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
-Résumé 
+Resumen 
 ======
 
 Placé sur une porte, fenêtre, porte de garage, tiroir, tous ouvrants, ce
@@ -22,7 +22,7 @@ Le signal est uniquement envoyé à la séparation du capteur de son
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
 recepteur
 
-Fonctions 
+funciones 
 =========
 
 -   Capteur magnétique sans fil alimenté par piles
@@ -37,7 +37,7 @@ Fonctions
 
 -   Auto-protection à l'arrachage
 
--   Informations sur le niveau de la batterie
+-   información sur le niveau de la batterie
 
 -   Montage au mur par des vis ou par un adhésif double face
 
@@ -58,7 +58,7 @@ Caractéristiques techniques
 
 -   Degré de protection : IP20
 
--   Utilisation : En intérieur
+-   Uso : En intérieur
 
 Données du module 
 =================
@@ -67,7 +67,7 @@ Données du module
 
 -   Nombre : EOS-200
 
-configuración générale 
+Configuración general 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -132,22 +132,22 @@ Voici la liste des commandes :
 -   Porte : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
--   Batterie : Indique l'état de la batterie
+-   batería : Indique l'état de la batterie
 
-Informations 
+información 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+disponible :
 
 ![comandos](images/eos200/eos200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   creación : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   batería : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

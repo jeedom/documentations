@@ -8,7 +8,7 @@
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 Les télécommandes “Smile” ont un canal, elles sont idéales pour la table
@@ -25,7 +25,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-Fonctions 
+Funktionen 
 =========
 
 -   Mode d'usage : Eclairage, Variateur
@@ -64,7 +64,7 @@ Données du module
 
 -   Référence : P01 / Y01 / L01
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -118,15 +118,15 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
 ![Befehle](images/etc1/etc1.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Schaffung : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
@@ -135,7 +135,7 @@ disponibles :
 
 -   STATUS : Retourne le status du module
 
-Utilisation 
+Verwendung 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le

@@ -109,7 +109,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 
         -   Lancez la création de l'Picture en saisissant la commande :
             `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`
-            *Remarque: Dans cet exemple, le nom du disque de la carte
+            *Note: Dans cet exemple, le nom du disque de la carte
             est `/dev/disk1`, il faut donc saisir dans la commande de
             safeguard \`/dev/disk1\`*
 
@@ -133,7 +133,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
         -   Restaurez l'Picture sur la carte microSD en tapant la commande
             :
             `sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`
-            *Remarque : Dans cet exemple, le nom du disque de la carte
+            *Note : Dans cet exemple, le nom du disque de la carte
             est `/dev/disk1`, il faut donc saisir dans la commande de
             safeguard \`/dev/disk1\`*
 
@@ -153,7 +153,7 @@ Sous Linux
         ```
 
     -   Lancez la création de l'Picture en saisissant la commande :
-        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Remarque: Dans
+        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Note: Dans
         cet exemple, le nom du disque de la carte est /dev/sdc.*
 
 2.  **Restauration**
@@ -166,7 +166,7 @@ Sous Linux
         `sudo umount /dev/sdcX`
 
     -   Restaurez l'Picture sur la carte microSD en tapant la commande :
-        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Remarque: Dans
+        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Note: Dans
         cet exemple, le nom du disque de la carte est /dev/sdc.*
 
 

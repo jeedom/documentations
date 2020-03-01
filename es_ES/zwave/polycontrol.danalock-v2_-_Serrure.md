@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -229,7 +229,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -248,7 +248,7 @@ Voici la liste des commandes :
 
 -   cerca : c'est la commande qui permet de fermer la serrure
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -307,7 +307,7 @@ Détails des paramètres :
 -   6 : Désactiver ou activer le signal sonore de verrouillage ou
     déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : Type de batterie : Réglez le type de batterie qui
+-   7 : puntao de batería : Réglez le type de batterie qui
     alimente l'appareil.
 
 -   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

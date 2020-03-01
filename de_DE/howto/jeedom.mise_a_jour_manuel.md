@@ -23,11 +23,11 @@ En SSH, faites :
     sudo su -
     cd /root
     wget https://github.com/jeedom/core/archive/master.zip
-    unzip master.zip
+    entpacke master.zip
     cp -R core-master/* /var/www/html
     cp -R core-master/.[^.]* /var/www/html
 
-Mise à jour 
+Update 
 ===========
 
 Toujours en SSH:

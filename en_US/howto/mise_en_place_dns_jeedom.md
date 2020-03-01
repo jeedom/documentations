@@ -1,4 +1,4 @@
-# Mise en place du DNS jeedom
+# Set up du DNS jeedom
 
 ## Objectif
 
@@ -12,7 +12,7 @@ Mettre en place le DNS jeedom pour avoir un accès à son jeedom en externe par 
 
 Pour avoir accès aux DNS jeedom il faut absolument avoir un service pack power ou plus.
 
-## Principe
+## Principle
 
 Le principe du DNS jeedom est très simple, votre jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connexion à votre jeedom et la transfert vers celui-ci.
 
@@ -24,7 +24,7 @@ Ce principe a l'avantage de ne pas exposer votre jeedom sur internet, pas d'ouve
 
 Nous avons actuellement 6 serveurs DNS répartis sur 2 machines physiques différentes, ayant chacun une connexion 500Mbit/s. 
 
-## Mise en place
+## Set up
 
 ### jeedom
 

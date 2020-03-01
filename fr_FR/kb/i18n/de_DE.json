@@ -33,7 +33,7 @@
         "Symptôme": "Symptôme",
         "Lors d'un backup samba l'erreur suivante apparait": "Lors d'un backup samba l'erreur suivante apparait",
         "Error on shell exec, return value": "Error on shell exec, return value",
-        "Details": "Details",
+        "Details": "Einzelheiten",
         "Array ( [0] => session setup failed": "Array ( [0] => session setup failed",
         "NT_STATUS_LOGON_FAILURE )": "NT_STATUS_LOGON_FAILURE )",
         "NT_STATUS_BAD_NETWORK_NAME )": "NT_STATUS_BAD_NETWORK_NAME )",

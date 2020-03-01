@@ -53,7 +53,7 @@ assure du bon fonctionnement du capteur lors de son installation.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -81,7 +81,7 @@ Caractéristiques Techniques
 
 -   Module pouvant être alimenté en externe : 12 – 24 VDC
 
--   Type de batterie : CR123A
+-   Tipo de batería : CR123A
 
 -   Autonomie de la batterie : 2 años
 
@@ -115,7 +115,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Modèle : FGFS101 Flood Sensor
+-   modelo : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
@@ -163,7 +163,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -183,7 +183,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

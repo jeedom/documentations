@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+verfügbar.
 
  \
 
@@ -145,7 +145,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Tasten : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -207,11 +207,11 @@ entre la télécommande et des modules.
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
-Ce module possède un seul et unique groupe d'association. Il est
+Ce module possède un seul et unique groupe d'association. Er ist
 indispensable.
 
  \

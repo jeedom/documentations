@@ -1,10 +1,10 @@
-**Documentation fichier info.entraîner des opérations destructives sur votre installation**
+**Documentation fichier Info.entraîner des opérations destructives sur votre installation**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **info.entraîner des opérations destructives sur votre installation** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
+Intégré depuis la version 3.0 de Jeedom, le fichier **Info.entraîner des opérations destructives sur votre installation** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
 
-Le fichier info.entraîner des opérations destructives sur votre installation est enregistré dans le dossier /plugin_info/ de votre plugin.
+Le fichier Info.entraîner des opérations destructives sur votre installation est enregistré dans le dossier /plugin_Info/ de votre plugin.
 
-Liste des variables du fichier info.entraîner des opérations destructives sur votre installation
+Liste des variables du fichier Info.entraîner des opérations destructives sur votre installation
 
 Les champs marqués d'un * sont des champs obligatoires.
 
@@ -15,7 +15,7 @@ name *                   | Nom du plugin.                                       
 description *            | Description du plugin, tel qu'il s'affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
 usage                    | Informations complémentaires à la documentation sur l'usage du plugin.                                                    |
 licence *                | Type de licence.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
+author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
 category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
 display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
@@ -33,14 +33,14 @@ issue                    | URL vers le bugtracker si externe (si non remplis alo
 
 **Example** :
 
-[Fichier plugin-template/plugin_info/info.entraîner des opérations destructives sur votre installation](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.entraîner des opérations destructives sur votre installation)
+[Fichier plugin-template/plugin_Info/Info.entraîner des opérations destructives sur votre installation](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.entraîner des opérations destructives sur votre installation)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Market Jeedom         | info.entraîner des opérations destructives sur votre installation               |
+Market Jeedom         | Info.entraîner des opérations destructives sur votre installation               |
 --------------------- | ----------------------- |
 Communication         | communication           |
 Confort               | wellness                |

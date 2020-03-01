@@ -50,7 +50,7 @@ distance.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -61,7 +61,7 @@ Fonctions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction ON/OFF
+-   Fonction We/off
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -159,7 +159,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -174,9 +174,9 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaitre le statut de la
     Light
 
--   ON : C'est la commande qui permet d'allumer la Light
+-   We : C'est la commande qui permet d'allumer la Light
 
--   OFF : C'est la commande qui permet d'éteindre la Light
+-   off : C'est la commande qui permet d'éteindre la Light
 
  \
 
@@ -219,18 +219,18 @@ swiidinter à un autre module (appui long)
 
 -   Inactive : n'aura aucun effet sur les autres Lights
 
--   Uniquement OFF : sera effectif uniquement pour éteindre les autres
+-   Uniquement off : sera effectif uniquement pour éteindre les autres
     Lights
 
--   Uniquement ON : sera effectif uniquement pour allumer les autres
+-   Uniquement We : sera effectif uniquement pour allumer les autres
     Lights
 
--   ON et OFF (fully) : sera effectif pour allumer et éteindre les
+-   We et off (fully) : sera effectif pour allumer et éteindre les
     autres Lights
 
  \
 
-### Groupes 
+### groups 
 
  \
 

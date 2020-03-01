@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -132,7 +132,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

@@ -1,6 +1,6 @@
 # Monitoring cloud
 
-## Description
+## Beschreibung
 
 Le monitoring cloud est un service Jeedom SAS payant qui surveille en permanance votre ou vos Jeedoms et vous prévient en cas de soucis.
 
@@ -21,11 +21,11 @@ La liste de ce qui est surveillé évolue pour essayer d'etre le plus réactif/p
 - Charge mémoire
 - Charge SWAP
 - Entrée/Sortie disques
-- Espace disque libre
+- Freier Speicherplatz
 
 Vous êtes aussi prévenu lors d'un redemarrage de votre Jeedom.
 
-# Historique
+# Chronik
 
 Sur le market a partir de votre page profil puis en cliquant sur information dans l'onglet mes service partie service monitoring vous avez toute les données actuel connu sur votre jeedom et vous pouvez en cliquant sur graphique voir l'historique sur les dernieres 24h (nous ne conservons pas plus de données que les dernieres 24h)
 
@@ -39,7 +39,7 @@ Par default vous êtes prévenu par un mail sur votre mail configuré dans votre
 - Ajouter une alerte par SMS (attention cela necessite que vous ayez du crédit SMS sur le market)
 - Ajouter une alerte par Notification (nécessite l'app mobile) 
 
-> **Telegram**
+> **teleg**
 >
 > Vous pouvez trouver votre chatid a partir de jeedom en allant dans l'équipement telegram puis configuration avancé de la commande du destinataire voulu puis le bouton information et la dans le champs configuration vous avez le chatid
 

@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 ### Befehle 
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### Groupes 
+### Gruppen 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.

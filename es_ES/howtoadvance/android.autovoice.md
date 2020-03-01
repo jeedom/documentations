@@ -86,7 +86,7 @@ Puis on sélectionne **Gy HTTP**.
 Là on va remplir avec les informations Jeedom. Voici les informations à
 entrer :
 
--   Serveur:Puerto : `https://mondomain.tld`
+-   Servidor:Puerto : `https://mondomain.tld`
 
 -   Ruta :
     `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`

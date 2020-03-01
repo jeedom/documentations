@@ -35,7 +35,7 @@ paramétrer le réseau Z-Wave.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -46,7 +46,7 @@ Fonctions
 
 -   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
 
--   Fonctions marche/arrêt et variation
+-   funciones marche/arrêt et variation
 
 -   Fonction ALL ON/ALL OFF
 
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -143,7 +143,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -210,7 +210,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

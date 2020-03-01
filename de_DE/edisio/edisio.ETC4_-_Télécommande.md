@@ -6,26 +6,26 @@
 
 ![vue default](images/etc4/vue_default.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 La mini télécommande e-Trendy de 4 canaux est simple, robuste et design,
 elle a été crée pour plaire. Elle se relie facilement aux récepteurs et
 peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations,
 stores, volets, portails, portes de garage. Elle comporte deux modes de
-programmation.
+Programmierung.
 
 De plus, l'interaction avec d'autres protocoles est possible, elle peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-Fonctions 
+Funktionen 
 =========
 
 -   Mode d'usage : Marche/Arrêt, Ouvrir/Stop/Fermer, Variateur,
     Motorisation, Stores, Volets, Portails, Portes de garage
 
--   2 modes de programmation
+-   2 modes de Programmierung
 
 -   Petit, discret et esthétique
 
@@ -55,7 +55,7 @@ Données du module
 
 -   Name : ETC4
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -144,15 +144,15 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
 ![Befehle](images/etc4/infos.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Schaffung : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
@@ -161,7 +161,7 @@ disponibles :
 
 -   STATUS : Retourne le status du module
 
-Utilisation 
+Verwendung 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le
@@ -177,7 +177,7 @@ F.A.Q.
 Comment effacer l'association d'une touche à un récepteur ?
 
 :   Appuyez 5 sec sur le "R" du récepteur, un simple bip sonore signale
-    le mode déprogrammation activé. Appuyez sur la touche "C" à effacer.
+    le mode déProgrammierung activé. Appuyez sur la touche "C" à effacer.
     Recommencez cette opération pour toutes les touches à effacer.
 
 **@Jamsta**

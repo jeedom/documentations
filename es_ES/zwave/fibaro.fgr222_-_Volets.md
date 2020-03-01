@@ -47,7 +47,7 @@ nota : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -199,7 +199,7 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   Pas : Permet de définir le pas pour un appui sur Décliner ou
+-   no : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-Pas de notion de wakeup sur ce module.
+no de notion de wakeup sur ce module.
 
  \
 

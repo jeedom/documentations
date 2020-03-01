@@ -1,4 +1,4 @@
-Hardware
+hardware
 ========
 
 jeedom peut être installé sur différents composants hardware :
@@ -375,7 +375,7 @@ C'est du classique …​
 -   Choisissez Graphical install
 
 -   Installez la debian de préférence sans interface Gráfico
-    car inutile. Le nom d'utilisateur n'a aucune importance. Dans la
+    car inutile. Le nom d'utilisateur n'a aucune importance. En la
     plupart des écrans, il suffit de valider le choix par défaut. Vous
     pouvez laissez des champs vides, ce n'est Pas bloquant.
 
@@ -434,21 +434,21 @@ la saisir dans votre navigateur.
 Ensuite, vous pouvez suivre la documentation [Premier Pas avec
 jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
 
-Docker
+estibador
 ======
 
 > **importante**
 >
-> Attention, nous partons ici du principe que vous maîtrisez déjà Docker
+> Attention, nous partons ici du principe que vous maîtrisez déjà estibador
 
 Pour découvrir jeedom, vous pouvez aussi le faire tourner dans un
-conteneur Docker :
+conteneur estibador :
 
 
 Etapa 1 : Installation de docker
 ---
 
-Docker est maintenant disponible sur toutes les distributions récentes.
+estibador est maintenant disponible sur toutes les distributions récentes.
 Pour l'installer sur une distribution
 
 -   à base de rpm
@@ -482,7 +482,7 @@ Puis la lancer :
 
     sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-Password -d mysql:latest
 
-Avec :
+con :
 
 -   jeedom-mysql : le nom du conteneur mysql
 
@@ -502,9 +502,9 @@ Puis lancez la :
 
     sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v /your/jeedom/path:/var/www/html -e ROOT_PASSWORD=your-root-Password -p 9080:80 -p 9022:22 jeedom/jeedom
 
-Avec :
+con :
 
--   jeedom-server : nom du Docker jeedom voulu
+-   jeedom-server : nom du estibador jeedom voulu
 
 -   /your/jeedom/path : répertoire où les données de jeedom sont mises
     sur l'hôte
@@ -529,14 +529,14 @@ Synology
 Vous trouverez ici la documentation Pas à Pas pour installer jeedom sur un
 Synology (DSM 5.2 minimum).
 
-Etapa 1 : Installation de Docker
+Etapa 1 : Installation de estibador
 ================================
 
 Allez sur le centre des paquys :
 
 ![install synology 1](images/install_synology_1.PNG)
 
-Cliquez sur tous, puis installez le paquy Docker
+Cliquez sur tous, puis installez le paquy estibador
 
 ![install synology 2](images/install_synology_2.PNG)
 
@@ -546,16 +546,16 @@ Attendez jusqu'à ce que l'installation soit finie :
 
 > **importante**
 >
-> Pour avoir accès au paquy Docker, il faut absolument avoir DSM 5.2 y
+> Pour avoir accès au paquy estibador, il faut absolument avoir DSM 5.2 y
 > un NAS compatible
 
 Etapa 2 : Récupération y installation des images jeedom
 ========================================================
 
-Il faut Docker pour faire tourner jeedom, le premier un Docker Mysql qui
+Il faut estibador pour faire tourner jeedom, le premier un estibador Mysql qui
 contiendra la base de données y un 2ème qui contient jeedom
 
-Lancez l'application Docker :
+Lancez l'application estibador :
 
 ![install synology 4](images/install_synology_4.PNG)
 
@@ -695,12 +695,12 @@ IP\_NAS:9080
 ![install synology 31](images/install_synology_31.PNG)
 
 Remplissez les champs en fonction de votre configuration (configuration
-du Docker mysql installé précédemment) y validez.
+du estibador mysql installé précédemment) y validez.
 
 > **importante**
 >
 > L'addresse IP de la BDD est l'addresse IP du NAS, le port est celui
-> redirigé du Docker Mysql, le mot de Passe est celui mis dans le Docker
+> redirigé du estibador Mysql, le mot de Passe est celui mis dans le estibador
 > Mysql. Le nom d'utilisateur est root y le nom de la base celui que
 > vous voulez (conseillé jeedom)
 

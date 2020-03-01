@@ -39,7 +39,7 @@ Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
 Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. Si la
+détecteur de fumée sous la forme d'un capteur de température. Wenn die
 quantité de fumée n'est pas suffisante pour déclencher l'alarme,
 l'appareil sera toujours en mesure de détecter une menace en détectant
 un changement rapide de la température causée par le feu. Un changement
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 

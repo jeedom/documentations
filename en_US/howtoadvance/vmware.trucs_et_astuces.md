@@ -163,7 +163,7 @@ Mise à jour de l'ESXi
 
 La procédure est assez facile, il faut tout d'abord recupérer le patch
 en allant [ici](https://my.vmware.com/group/vmware/patch#search) (il
-vous faudra sûrement vous connecter avec votre compte VMware). Sur la
+vous faudra sûrement vous connecter avec votre compte VMware). On the
 liste "Select a Product" mettez "ESXi (Embedded and Installable)", en
 face laisser la dernière version de VMware et faites "Search". Puis
 télécharger le patch voulu (en général le dernier). Le build number (le

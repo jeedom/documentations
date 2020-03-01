@@ -56,7 +56,7 @@ Passer les plugins en bêta
 ==========================
 
 Pour cela, il faut vous rendre sur le Market Jeedom, puis dans votre
-profil, partie **Mon Profil**, cochez la case pour avoir accès aux
+profil, partie **Mi perfil**, cochez la case pour avoir accès aux
 plugins en version bêta.
 
 Ensuite, dans votre Jeedom, sur les fiches des plugins, vous devriez

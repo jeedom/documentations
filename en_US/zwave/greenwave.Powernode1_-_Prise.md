@@ -41,7 +41,7 @@ un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
 Une petite molette sur le côté de la prise permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. Par exemple "
+qui représentera la pièce à laquelle elle est affectée. for example "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
 différentes prises et multiprises PowerNode. ON peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -171,7 +171,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -242,7 +242,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

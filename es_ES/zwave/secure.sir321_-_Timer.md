@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

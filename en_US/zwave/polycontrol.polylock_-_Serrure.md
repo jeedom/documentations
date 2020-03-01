@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -160,7 +160,7 @@ Voici la liste des commandes :
 
 -   To close : c'est la commande qui permet de fermer la serrure
 
--   Batterie : c'est la commande batterie
+-   drums : c'est la commande batterie
 
  \
 
@@ -168,7 +168,7 @@ Voici la liste des commandes :
 
  \
 
-> **Warning**
+> **warning**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

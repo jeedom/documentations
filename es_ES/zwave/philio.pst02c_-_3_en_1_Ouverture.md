@@ -25,7 +25,7 @@ Resumen
  \
 
 Le détecteur ZIP-PSM01 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. El se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -49,7 +49,7 @@ existant.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -167,7 +167,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -187,7 +187,7 @@ Voici la liste des commandes :
 
 -   Luminosité : C'est la commande qui permet de remonter la luminosité
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

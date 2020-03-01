@@ -43,7 +43,7 @@ plus loin).
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -224,7 +224,7 @@ et la seconde pour la descente.
 Les valeurs sont codées en héxadécimal dans le module et remises en
 décimal dans l'affichage de Jeedom.
 
-Par exemple : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
+Por ejemplo : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
 pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
 décimal : 18s pour montée et descente.
 
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### Groupes 
+### grupos 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-grupos.PNG)
 
  \
 

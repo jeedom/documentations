@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -68,7 +68,7 @@ Fonctions
 
 -   S'adapte à tout style de décoration
 
--   Batterie rechargeable
+-   batería rechargeable
 
 -   Très faible consommation d'énergie
 
@@ -87,7 +87,7 @@ Caractéristiques Techniques
 
  \
 
--   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : batería Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -177,7 +177,7 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   Batterie : c'est la commande qui remonte l'état de batterie du
+-   batería : c'est la commande qui remonte l'état de batterie du
     module
 
  \
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

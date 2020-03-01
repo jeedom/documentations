@@ -28,11 +28,11 @@ Voila votre compte Markt est créé, pour plus de details sur le market
 cliquez
 [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
 
-Ajout de votre code service pack 
+Ajout de votre code Service Pack 
 ================================
 
-Si vous avez acheté une box jeedom alors vous avez dû recevoir un mail
-contenant un code pour votre service pack.
+wenn du avez acheté une box jeedom alors vous avez dû recevoir un mail
+contenant un code pour votre Service Pack.
 
 > **wichtig**
 >
@@ -41,7 +41,7 @@ contenant un code pour votre service pack.
 
 > **wichtig**
 >
-> Si vous achetez un service pack depuis le Markt jeedom vous n'avez
+> wenn du achetez un Service Pack depuis le Markt jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
@@ -55,18 +55,18 @@ Puis cliquez sur l'onglet "Mes jeedoms"
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Renseignez votre numéro de service pack et validez :
+Renseignez votre numéro de Service Pack et validez :
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Voilà votre service pack est enregistré. Pour plus de details sur le
+Voilà votre Service Pack est enregistré. Pour plus de details sur le
 Markt cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
 
 > **Spitze**
 >
-> Si vous avez acheté une box officielle jeedom, le numéro de service
-> pack a dû vous être envoyé par email. Si vous n'avez rien reçu, merci
+> wenn du avez acheté une box officielle jeedom, le numéro de service
+> pack a dû vous être envoyé par email. wenn du n'avez rien reçu, merci
 > de contacter le magasin où vous avez acheté votre box.
 
 Trouver votre jeedom sur le réseau 
@@ -102,7 +102,7 @@ image type netinstallation, ça sera plutôt 30min) et aller
 
 ### Par votre box internet 
 
--   Allez sur l'interface d'administration de votre box internet et
+-   Allez sur l'interface d'Administration de votre box internet et
     cherchez jeedom dans vos périphériques réseaux.
 
 -   Récupérez son IP.
@@ -114,7 +114,7 @@ Première connexion
 ------------------
 
 Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de
-login. Par défaut le login et le mot de passe sont "admin".
+login. Par défaut le login et le mot de passe sont "Admin".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
@@ -141,16 +141,16 @@ Nous allons voir ici comment lier votre jeedom à votre compte Markt.
 -   Vous pouvez tester pour vérifier que la connexion
     s'effectue correctement.
 
--   N'oubliez pas de sauvegarder !
+-   Vergiss nicht zu sparen !
 
 Pour plus de détails sur la page de configuration cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
+[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/Administration.asciidoc)
 .
 
 Obtenir mon URL d'accès direct 
 ==============================
 
-Si vous avez un Service Pack, jeedom vous met à disposition une URL
+wenn du avez un Service Pack, jeedom vous met à disposition une URL
 d'accès direct à votre jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
@@ -168,18 +168,18 @@ la page profil du Markt
 
 > **wichtig**
 >
-> Si vous venez de lier votre jeedom à votre compte Markt il faut
+> wenn du venez de lier votre jeedom à votre compte Markt il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 Changer le mot de passe par défaut de jeedom 
 ============================================
 
-Une des étapes importantes est de changer le mot de passe par défaut de
+Une des étapes importantes est de Passwort ändern par défaut de
 votre compte jeedom, pour cela cliquez sur Administration → Utilisateurs
 (en haut à droite) :
 
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
-**admin** et à cliquer sur **changer le mot de passe** :
+**Admin** et à cliquer sur **Passwort ändern** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -188,7 +188,7 @@ retenir, sinon vous ne pourrez plus accéder à votre jeedom :
 
 ![premier changeuser3](images/premier-changeuser3.png)
 
-Voilà, vous avez changé le mot de passe du compte admin, pour plus
+Voilà, vous avez changé le mot de passe du compte Admin, pour plus
 d'information sur cette page cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/user.asciidoc).
 
@@ -267,7 +267,7 @@ Vous retrouvez alors :
 
 Pour plus d'informations sur les Plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
 
-Support 
+Unterstützung 
 =======
 
 jeedom aborde des champs très vastes et évoluant de jour en jour.
@@ -308,7 +308,7 @@ Le forum
 
 Vous le trouverez [ici](https://jeedom.com/forum) .
 
-Le forum est très actif et contient énormément d'informations. Si vous
+Le forum est très actif et contient énormément d'informations. wenn du
 avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
 moins d'une heure (en moyenne). Attention cependant, le forum est
 maintenu par la communauté jeedom, composée de bénévoles, et non par la
@@ -324,7 +324,7 @@ Les demandes de support (ou tickets)
 > Attention, toute demande de support nécessite obligatoirement d'avoir
 > un compte sur le Markt.
 
-Si vous n'avez pas trouvé de solution à votre problème, en dernier
+wenn du n'avez pas trouvé de solution à votre problème, en dernier
 recours, vous pouvez faire une demande de support à l'équipe jeedom.
 Cette demande passe par un ticket. Il est possible d'en ouvrir un de
 plusieurs façons :
@@ -352,7 +352,7 @@ Toute la suite des échanges se fera par mail.
 > Si, lors de l'ouverture d'un ticket, vous obtenez une erreur indiquant
 > que vous avez atteint votre quota, c'est que vous êtes limités à un
 > certain nombre de demandes de support par mois, en fonction de votre
-> service pack.
+> Service Pack.
 
 Les différents services packs sont : \* Community (gratuit) : 2
 tickets/mois (sur Plugins payants uniquement) \* Power : 10 tickets/mois

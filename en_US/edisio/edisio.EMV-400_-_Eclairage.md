@@ -6,7 +6,7 @@
 
 ![vue default eclairage](images/emv.400/vue_default_eclairage.jpg)
 
-Résumé 
+Summary 
 ======
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur
@@ -30,7 +30,7 @@ recepteur.
 >
 > Le neutre est nécessaire que pour le mode "Volet"
 
-Fonctions 
+functions 
 =========
 
 -   2 sorties par relais alimentées
@@ -89,7 +89,7 @@ Données du module
 
 -   aux dernières : EMV-400
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à jeedom,
@@ -154,7 +154,7 @@ de 30 ou 60 minutes.
 -   pour un même : Appuyer 4x "R" du recepteur, confirmation par un simple
     bip sonore en continu
 
--   Désactiver: Appuyer 5x "R" du recepteur , confirmation par 3 simples
+-   deactivate: Appuyer 5x "R" du recepteur , confirmation par 3 simples
     bip sonores.
 
 -   Minuterie de 30 minutes: DIP Switch 3 en haut
@@ -185,7 +185,7 @@ Configuration et raccordements électriques :
 >
 > NE JAMAIS BRANCHER SOUS TENSION
 
-Création du module dans jeedom 
+Creation du module dans jeedom 
 ------------------------------
 
 Pour associer un module recepteur Edisio à jeedom, il faut créer
@@ -202,7 +202,7 @@ Une fois, votre équipement créé, vous devriez obtenir ceci :
 > Pensez à activer votre nouvel équipement.
 
 Dans la liste d'équipements, à droite, sélectionner "Micro-module
-lumière" :
+Light" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
@@ -232,20 +232,20 @@ Voici la liste des commandes :
 > utilisez un autre émetteur, jeedom ne pourra pas mettre à jour l'état
 > du recepteur.
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à jeedom, diverses informations seront
-disponibles :
+available :
 
 ![vers](images/emv.400/infos_eclairage.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie pour les modules à piles
+-   drums : Indique l'état de la batterie pour les modules à piles
 
 -   STATUS : Retourne le statut du module
 

@@ -21,7 +21,7 @@ La liste de ce qui est surveillé évolue pour essayer d'etre le plus réactif/p
 - Charge mémoire
 - Charge SWAP
 - Entrée/Sortie disques
-- Espace disque libre
+- Espacio disco libre
 
 Vous êtes aussi prévenu lors d'un redemarrage de votre Jeedom.
 

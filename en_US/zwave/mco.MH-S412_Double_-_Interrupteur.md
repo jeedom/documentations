@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -168,7 +168,7 @@ Détails des Rassemblement des informations utiles :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

@@ -86,7 +86,7 @@ Puis on sélectionne **Gund HTTP**.
 Là on va remplir avec les informations Jeedom. Voici les informations à
 entrer :
 
--   Serveur:Hafen : `https://mondomain.tld`
+-   Server:Hafen : `https://mondomain.tld`
 
 -   Weg :
     `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`

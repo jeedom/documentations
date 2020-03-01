@@ -30,7 +30,7 @@ conservant votre interrupteur existant.
 
 Vous allez donc pouvoir actionner la lampe connectée et faire varier son
 intensité en utilisant l'interrupteur existant, un émetteur Z-Wave ou
-directement depuis le bouton présent sur le micromodule. Il est
+directement depuis le bouton présent sur le micromodule. It is
 compatible avec tout type de lampe supportant la variation
 (incandescence, fluo-compact, LED, …​). Le micromodule variateur Fibaro
 est un concentré de technologie, il détecte automatiquement le type de
@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -171,7 +171,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: functions ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

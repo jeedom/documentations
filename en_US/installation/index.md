@@ -153,7 +153,7 @@ Graphic**
 
 **4/ Activer un accès SSH**
 
-> **Warning**
+> **warning**
 >
 > Pour des raisons de sécurité, l'accès SSH n'est plus activé par défaut
 > sur candte distribution. Il faut donc l'activer.
@@ -375,7 +375,7 @@ C'est du classique …​
 -   Choisissez Graphical install
 
 -   Installez la debian de préférence sans interface Graphic
-    car inutile. Le nom d'utilisateur n'a aucune importance. Dans la
+    car inutile. Le nom d'utilisateur n'a aucune importance. In the
     plupart des écrans, il suffit de valider le choix par défaut. Vous
     pouvez laissez des champs vides, ce n'est Pas bloquant.
 
@@ -426,7 +426,7 @@ Etape 7 : Lancement de jeedom
 Votre adresse Ip, type 192.168.0.XX apparait en rouge. Il vous suffit de
 la saisir dans votre navigateur.
 
-> **Warning**
+> **warning**
 >
 > Si cela ne fonctionne Pas, vous n'avez Pas configuré votre carte
 > réseau en Pont réseau comme indiquée au départ.
@@ -482,7 +482,7 @@ Puis la lancer :
 
     sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-Password -d mysql:latest
 
-Avec :
+with :
 
 -   jeedom-mysql : le nom du conteneur mysql
 
@@ -502,7 +502,7 @@ Puis lancez la :
 
     sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v /your/jeedom/path:/var/www/html -e ROOT_PASSWORD=your-root-Password -p 9080:80 -p 9022:22 jeedom/jeedom
 
-Avec :
+with :
 
 -   jeedom-server : nom du Docker jeedom voulu
 
@@ -606,7 +606,7 @@ décocher "Lecture seule")
 ![install synology 32](images/install_synology_32.PNG)
 
 Cliquez sur "Environnement" puis "Ajoutez une variable" and mandtant dans
-"Variable" : "MYSQL\_ROOT\_PASSWORD" and dans valeur mandtez le mot de
+"variable" : "MYSQL\_ROOT\_PASSWORD" and dans valeur mandtez le mot de
 Passe de BDD voulu (il servira plus tard). Puis validez :
 
 ![install synology 33](images/install_synology_33.PNG)

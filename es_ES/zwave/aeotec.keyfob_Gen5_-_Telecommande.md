@@ -45,7 +45,7 @@ rapide par rapport aux précédents produits Z-Wave.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -69,7 +69,7 @@ Fonctions
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparée à des périphériques Z-Wave
-    standard
+    estándar
 
 -   Optimisation de l'antenne, portée 100 mètres
 
@@ -150,7 +150,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -162,7 +162,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -223,7 +223,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

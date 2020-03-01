@@ -139,7 +139,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
@@ -207,7 +207,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir si la prise fontionnera en mode
     variation ou en mode on/off
 
-### Groupes 
+### Gruppen 
 
  \
 

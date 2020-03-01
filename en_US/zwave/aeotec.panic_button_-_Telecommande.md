@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -138,7 +138,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -199,11 +199,11 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 
-Ce module possède un seul et unique groupe d'association. Il est
+Ce module possède un seul et unique groupe d'association. It is
 indispensable.
 
  \

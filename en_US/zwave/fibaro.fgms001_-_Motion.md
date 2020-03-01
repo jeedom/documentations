@@ -31,7 +31,7 @@ accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapidement et facilement sur n'importe quelle
+pour être installé rapSameent et facilement sur n'importe quelle
 surface. Le voyant LED signale le mouvement, le niveau de température,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -153,7 +153,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -175,7 +175,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   Batterie : c'est la commande batterie
+-   drums : c'est la commande batterie
 
  \
 
@@ -242,9 +242,9 @@ Détails des paramètres :
 -   12: à modifier seulement si vous savez pourquoi vous le faites
     (association avec un module par exemple)
 
--   14: idem
+-   14: Same
 
--   16: idem
+-   16: Same
 
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
@@ -297,7 +297,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### groups 
 
  \
 

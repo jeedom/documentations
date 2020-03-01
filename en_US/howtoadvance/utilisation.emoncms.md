@@ -8,7 +8,7 @@ de la mettre en oeuvre.
 Un bref mémo pour installer emoncms est également proposé (cette
 installation n'est actuellement pas proposé en natif dans Jeedom)
 
-EmonCMS peut être installé à côté de Jeedom ou ailleurs. Vous pouvez
+EmonCMS peut être installé à côté de Jeedom ou ailleurs. You can
 meme utiliser l'instance emoncms.org
 
 Envoyer une valeur de Jeedom vers EmonCMS 

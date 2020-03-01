@@ -6,7 +6,7 @@
 
 ![vue default](images/emv.400/vue_default.jpg)
 
-Résumé 
+Resumen 
 ======
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur
@@ -30,7 +30,7 @@ recepteur.
 >
 > Le neutre est nécessaire que pour le mode "Volet"
 
-Fonctions 
+funciones 
 =========
 
 -   2 sorties par relais alimentées
@@ -89,7 +89,7 @@ Données du module
 
 -   Nombre : EMV-400
 
-Configuration générale 
+Configuración general 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à jeedom,
@@ -173,13 +173,13 @@ Configuration et raccordements électriques :
 > **importante**
 >
 > Afin que le module soit en mode "Volet" le DIP Switch 2 doit être en
-> bas
+> bajo
 
 > **importante**
 >
 > NE JAMAIS BRANCHER SOUS TENSION
 
-Création du module dans jeedom 
+creación du module dans jeedom 
 ------------------------------
 
 Pour associer un module recepteur Edisio à jeedom, il faut créer
@@ -226,20 +226,20 @@ Voici la liste des commandes :
 > utilisez un autre émetteur, jeedom ne pourra pas mettre à jour l'état
 > du recepteur.
 
-Informations 
+información 
 ------------
 
 Une fois votre équipement associé à jeedom, diverses informations seront
-disponibles :
+disponible :
 
 ![comandos](images/emv.400/infos_moteur.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   creación : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie pour les modules à piles
+-   batería : Indique l'état de la batterie pour les modules à piles
 
 -   STATUS : Retourne le status du module
 

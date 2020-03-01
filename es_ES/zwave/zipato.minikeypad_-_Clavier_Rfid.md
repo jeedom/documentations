@@ -39,7 +39,7 @@ qui a utilisé son badge.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -148,7 +148,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -169,7 +169,7 @@ Voici la liste des commandes :
 -   CODIGO : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -221,7 +221,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

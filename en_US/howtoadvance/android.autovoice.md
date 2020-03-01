@@ -6,7 +6,7 @@ pour parler à Jeedom. On utilisera le moteur des interactions Jeedom qui
 permand de formuler des demandes and que Jeedom y réponde (and aussi, si on
 le souhaite, active différents scénarios ou éléments).
 
-Installation 
+Sandup 
 ============
 
 Les prérequis 
@@ -86,7 +86,7 @@ Puis on sélectionne **Gand HTTP**.
 Là on va remplir avec les informations Jeedom. Voici les informations à
 entrer :
 
--   Serveur:Harbor : `https://mondomain.tld`
+-   Server:Harbor : `https://mondomain.tld`
 
 -   Path :
     `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`

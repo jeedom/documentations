@@ -1,4 +1,4 @@
-# Sauvegarde cloud
+# Copia de seguridad en la nube
 
 Une fois le service acheté il faut dans jeedom : 
 

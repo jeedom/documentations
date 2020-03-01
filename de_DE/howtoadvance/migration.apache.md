@@ -1,4 +1,4 @@
-Pourquoi ? 
+warum ? 
 ==========
 
 -   Apache va devenir petit à petit la norme avec jeedom
@@ -31,14 +31,14 @@ Prérequis
 > Attention certains plugins non officiels ne sont pas compatibles
 > Apache, renseignez-vous bien avant.
 
-Comment faire 
+Wie es geht 
 =============
 
 Désactivation des services jeedom et nginx 
 ------------------------------------------
 
 Dans jeedom, il faut aller sur chaque plugin ayant un démon, puis
-désactiver la gestion automatique du démon et couper celui-ci. Il faut
+désactiver la gestion automatique du démon et couper celui-ci. Du musst
 ensuite, dans le moteur de tâches, désactiver toutes les tâches (il y un
 bouton de désactivation générale) et dans les scénarios, désactiver tous
 les scénarios (il y un bouton de désactivation générale).

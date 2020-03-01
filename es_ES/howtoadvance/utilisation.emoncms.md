@@ -8,7 +8,7 @@ de la mettre en oeuvre.
 Un bref mémo pour installer emoncms est également proposé (cette
 installation n'est actuellement pas proposé en natif dans Jeedom)
 
-EmonCMS peut être installé à côté de Jeedom ou ailleurs. Vous pouvez
+EmonCMS peut être installé à côté de Jeedom ou ailleurs. Usted puede
 meme utiliser l'instance emoncms.org
 
 Envoyer une valeur de Jeedom vers EmonCMS 
@@ -27,7 +27,7 @@ qu'on veut remplir
 
 L'url de push est de la forme :
 
-[https://serveur/emoncms/input/post.json?json={power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json={power:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json={power:\#valor\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json={power:#valor#}&apikey=xxx)
 
 Avec les paramètres :
 
@@ -35,7 +35,7 @@ Avec les paramètres :
 
 -   apikey : la clef api de read&write pour emoncms
 
--   value : il faut bien laisser *value* pour que Jeedom envoie la
+-   valor : il faut bien laisser *valor* pour que Jeedom envoie la
     valeur de l'info
 
 -   power : c'est à modifier pour
@@ -51,7 +51,7 @@ Pour prendre une donnée de emoncms dans Jeedom, il y a deux possibilités
     la valeur régulièrement ou via scénario par exemple et normalement
     non utile car les données ont leur source dans jeedom\_setting
 
-        https://serveur/emoncms/feed/value.json?identificación=1&apikey=xxx
+        https://serveur/emoncms/feed/valor.json?identificación=1&apikey=xxx
 
 -   La deuxième possibilité est d'utiliser le plugin Event d'emoncms
     pour déclencher une action sur certaines conditions. Cette méthode

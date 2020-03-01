@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -160,7 +160,7 @@ Voici la liste des commandes :
 
 -   cerca : c'est la commande qui permet de fermer la serrure
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### grupos 
 
  \
 

@@ -47,7 +47,7 @@ de consommation instantanée (en W) et la consommation électrique totale
 
  \
 
-Fonctions 
+functions 
 ---------
 
  \
@@ -63,7 +63,7 @@ Fonctions
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparé à des périphériques Z-Wave
-    standard
+    Standard
 
 -   Détection automatique de la charge
 
@@ -194,7 +194,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+available.
 
  \
 
@@ -266,7 +266,7 @@ EN COURS DE REDACTION
 
  \
 
-### Groupes 
+### groups 
 
  \
 

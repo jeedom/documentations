@@ -23,10 +23,10 @@ pour l'ensemble du projet Jeedom, incluant ses plugins gratuits ou la
 documentation, ou encore tout autre projet github auxquels vous
 souhaiteriez participer.
 
-Se rendre sur <https://github.com> et cliquer sur le bouton sign up.
+Se rendre sur <https:// github.com> et haga clic en le bouton sign up.
 Vous devriez donc être sur une page ressemblant à celle ci-dessous et
 devez donc renseigner un pseudo, un email et un mot de passe et ensuite
-cliquer sur **Create an account**
+haga clic en **Create an account**
 
 ![tuto.github1](images/tuto.github1.png)
 
@@ -55,7 +55,7 @@ développeur(s) du dit projet
 
 Maintenant que vous avez un compte Github et que vous êtes identifiez
 avec votre adresse email vérifiée, si vous vous rendez ici
-<https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
+<https:// github.com/jeedom/core> vous êtes sur le projet jeedom, à
 droite il y a un bouton fork vous permettant de le copier dans votre
 espace github.
 
@@ -170,7 +170,7 @@ NB: Il n'y a que les utilisateurs ayant un droit de push sur Jeedom qui
 peuvent valider le PR.
 
 Pour vous assurer que votre modification est bien dans la liste, vous
-pouvez cliquer sur Pull Requests
+pouvez haga clic en Pull Requests
 
 ![tuto.github12](images/tuto.github12.png)
 

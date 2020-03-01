@@ -37,7 +37,7 @@ contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+disponible.
 
  \
 
@@ -203,7 +203,7 @@ Détails des paramètres :
 -   3 : Ce paramètre permet de définir si la prise reprendra son statut
     (ON ou OFF) après une reprise de courant.
 
-### Groupes 
+### grupos 
 
  \
 

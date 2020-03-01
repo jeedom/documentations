@@ -28,11 +28,11 @@ Voila votre compte Le nouveau mode de fonctionnement de synchronisation est cré
 cliquez
 [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
 
-Ajout de votre code service pack 
+Ajout de votre code Service pack 
 ================================
 
-Si vous avez acheté une box jeedom alors vous avez dû recevoir un mail
-contenant un code pour votre service pack.
+if you avez acheté une box jeedom alors vous avez dû recevoir un mail
+contenant un code pour votre Service pack.
 
 > **IMPORTANT**
 >
@@ -41,7 +41,7 @@ contenant un code pour votre service pack.
 
 > **IMPORTANT**
 >
-> Si vous achetez un service pack depuis le Le nouveau mode de fonctionnement de synchronisation jeedom vous n'avez
+> if you achetez un Service pack depuis le Le nouveau mode de fonctionnement de synchronisation jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
@@ -55,18 +55,18 @@ Puis cliquez sur l'onglet "Mes jeedoms"
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Renseignez votre numéro de service pack et validez :
+Renseignez votre numéro de Service pack et validez :
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Voilà votre service pack est enregistré. Pour plus de details sur le
+Voilà votre Service pack est enregistré. Pour plus de details sur le
 Le nouveau mode de fonctionnement de synchronisation cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
 
 > **Tip**
 >
-> Si vous avez acheté une box officielle jeedom, le numéro de service
-> pack a dû vous être envoyé par email. Si vous n'avez rien reçu, merci
+> if you avez acheté une box officielle jeedom, le numéro de service
+> pack a dû vous être envoyé par email. if you n'avez rien reçu, merci
 > de contacter le magasin où vous avez acheté votre box.
 
 Trouver votre jeedom sur le réseau 
@@ -141,7 +141,7 @@ Nous allons voir ici comment lier votre jeedom à votre compte Le nouveau mode d
 -   Vous pouvez tester pour vérifier que la connexion
     s'effectue correctement.
 
--   N'oubliez pas de sauvegarder !
+-   Don&#39;t forget to save !
 
 Pour plus de détails sur la page de configuration cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
@@ -150,7 +150,7 @@ Pour plus de détails sur la page de configuration cliquez
 Obtenir mon URL d'accès direct 
 ==============================
 
-Si vous avez un Service Pack, jeedom vous met à disposition une URL
+if you avez un Service Pack, jeedom vous met à disposition une URL
 d'accès direct à votre jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
@@ -168,18 +168,18 @@ la page profil du Le nouveau mode de fonctionnement de synchronisation
 
 > **IMPORTANT**
 >
-> Si vous venez de lier votre jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation il faut
+> if you venez de lier votre jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 Changer le mot de passe par défaut de jeedom 
 ============================================
 
-Une des étapes importantes est de changer le mot de passe par défaut de
+Une des étapes importantes est de to change the password par défaut de
 votre compte jeedom, pour cela cliquez sur Administration → Utilisateurs
 (en haut à droite) :
 
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
-**admin** et à cliquer sur **changer le mot de passe** :
+**admin** et à cliquer sur **to change the password** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -267,7 +267,7 @@ Vous retrouvez alors :
 
 Pour plus d'informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
 
-Support 
+support 
 =======
 
 jeedom aborde des champs très vastes et évoluant de jour en jour.
@@ -286,7 +286,7 @@ Celle-ci se compose de plusieurs catégories :
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,
 
--   Installation : Tout ce qui concerne l'installation de jeedom,
+-   Setup : Tout ce qui concerne l'installation de jeedom,
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
@@ -308,7 +308,7 @@ Le forum
 
 Vous le trouverez [ici](https://jeedom.com/forum) .
 
-Le forum est très actif et contient énormément d'informations. Si vous
+Le forum est très actif et contient énormément d'informations. if you
 avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
 moins d'une heure (en moyenne). Attention cependant, le forum est
 maintenu par la communauté jeedom, composée de bénévoles, et non par la
@@ -324,7 +324,7 @@ Les demandes de support (ou tickets)
 > Attention, toute demande de support nécessite obligatoirement d'avoir
 > un compte sur le Le nouveau mode de fonctionnement de synchronisation.
 
-Si vous n'avez pas trouvé de solution à votre problème, en dernier
+if you n'avez pas trouvé de solution à votre problème, en dernier
 recours, vous pouvez faire une demande de support à l'équipe jeedom.
 Cette demande passe par un ticket. Il est possible d'en ouvrir un de
 plusieurs façons :
@@ -352,7 +352,7 @@ Toute la suite des échanges se fera par mail.
 > Si, lors de l'ouverture d'un ticket, vous obtenez une erreur indiquant
 > que vous avez atteint votre quota, c'est que vous êtes limités à un
 > certain nombre de demandes de support par mois, en fonction de votre
-> service pack.
+> Service pack.
 
 Les différents services packs sont : \* Community (gratuit) : 2
 tickets/mois (sur plugins payants uniquement) \* Power : 10 tickets/mois

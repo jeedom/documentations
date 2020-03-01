@@ -6,7 +6,7 @@
 
 ![ets200.vue defaut](images/ets200/ets200.vue-defaut.jpg)
 
-Résumé 
+Summary 
 ======
 
 Placé dans une pièce, la température de la pièce voulue remontera
@@ -20,7 +20,7 @@ est compact et discret.
 
 L'indicateur LED intégré signal tout changement d'état.
 
-Fonctions 
+functions 
 =========
 
 -   Capteur de température sans fil alimenté par piles
@@ -34,14 +34,14 @@ Fonctions
 
 -   Montage au mur par des vis ou par double face
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
 Caractéristiques Techniques 
 ===========================
 
 -   Type de module : émetteur Edisio
 
--   Utilisation : En intérieur
+-   use : En intérieur
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
@@ -64,7 +64,7 @@ Données du module
 
 -   aux dernières : ETS-200
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -124,22 +124,22 @@ Voici la liste des commandes :
 
 -   Température : C'est la commande qui indique la température relevée
 
--   Batterie : Indique l'état de la batterie
+-   drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
 ![vers](images/ets200/ets200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   drums : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

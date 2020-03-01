@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+funciones 
 ---------
 
  \
@@ -140,7 +140,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
@@ -156,9 +156,9 @@ Voici la liste des commandes :
 
 -   Humidité : c'est la commande de mesure de l'humidité
 
--   Batterie : c'est la commande batterie
+-   batería : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi disponible et seront
 utiles si vous avez raccordé des sondes externes
 
  \
@@ -214,7 +214,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### grupos 
 
  \
 
