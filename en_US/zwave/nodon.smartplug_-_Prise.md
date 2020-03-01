@@ -19,7 +19,7 @@ Nodon Prise Intelligente - Smartplug
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -29,7 +29,7 @@ compatible Z- Wave® ou Z-Wave Plus® ou directement via d'autres
 contrôleurs Z-Wave® ou Z-Wave Plus® tels que la Soft Remote,
 l'interrupteur mural ou la Octan Remote NodON®. Au standard allemand
 (Schuko) ou français (Type E), la prise peut se brancher dans les 2
-sens, tête en haut ou tête en bas. Associées à son design fin, ces 2
+sens, tête en haut ou tête en Low. Associées à son design fin, ces 2
 caractéristiques permettent une intégration facilitée, sans boucher les
 fûts voisins sur une multiprise. L'apprentissage de la prise avec son
 contrôleur nécessite seulement quelques secondes. Un bouton local permet
@@ -45,7 +45,7 @@ Fonctions
 -   Détection perte de courant secteur
 
 -   Ergonomique: Possibilité de brancher la prise tête en haut/tête en
-    bas
+    Low
 
 -   Gestion intelligente des alarmes
 
@@ -152,7 +152,7 @@ Voici la liste des commandes :
 
 -   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Statut : Permet de savoir si la prise est alimentée ou non
+-   Status : Permet de savoir si la prise est alimentée ou non
     (Détection coupure de courant / débranchement)
 
  \

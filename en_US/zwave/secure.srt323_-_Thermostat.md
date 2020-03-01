@@ -19,7 +19,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -93,7 +93,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x piles AAA (LR3)
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 years
 
 -   fréquence : 868,42 MHz
 

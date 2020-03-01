@@ -19,7 +19,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -161,7 +161,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Couleur : C'est la commande qui permet de régler le code couleur à
+-   Farbe : C'est la commande qui permet de régler le code couleur à
     anzeigen
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de

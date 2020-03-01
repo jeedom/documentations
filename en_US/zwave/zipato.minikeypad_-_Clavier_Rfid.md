@@ -19,7 +19,7 @@ Zipato miniKeypad RFID
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Dimensions : 62 x 62 x 20 mm
 
--   Certifications : Sécurité : UL EMC : FCC, CE RoHS
+-   Certifications : security : UL EMC : FCC, CE RoHS
 
  \
 
@@ -160,13 +160,13 @@ Voici la liste des commandes :
 
  \
 
--   Action : c'est la commande qui remontera le home/away (5 pour away 6
+-   ACTION : c'est la commande qui remontera le home/away (5 pour away 6
     pour home)
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Code : affiche le code du badge ou du clavier lorsque le code saisi
+-   CODED : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
 -   Batterie : c'est la commande batterie

@@ -1,4 +1,4 @@
-Description 
+Descripción 
 ===========
 
 La procédure va permettre de se connecter en SFTP à votre box afin
@@ -25,13 +25,13 @@ d'information en haut de la fenêtre Filezilla :
 
 ![restore filezilla01](images/restore-filezilla01.jpg)
 
--   Hôte : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
+-   Host : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
 
--   Identifiant : Jeedom
+-   Identificador : Jeedom
 
 -   Contraseña : MJeedom96
 
--   Port : 22
+-   Puerto : 22
 
 Puis de cliquer sur "Connexion rapide"
 

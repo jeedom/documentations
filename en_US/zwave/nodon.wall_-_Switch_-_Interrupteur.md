@@ -19,7 +19,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

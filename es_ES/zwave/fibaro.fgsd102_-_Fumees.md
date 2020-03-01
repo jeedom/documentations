@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -89,7 +89,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Batterie Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 ans
+-   Autonomie de la batterie : 3 años
 
 -   fréquence : 868,42 Mhz
 

@@ -19,7 +19,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -47,7 +47,7 @@ Notiz : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -92,7 +92,7 @@ Caractéristiques Techniques
 
 -   fréquence : 868,42 MHz
 
--   Puissance du signal : 1mW
+-   Macht du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -185,14 +185,14 @@ Voici la liste des commandes :
 -   auffrischen : C'est la commande qui permet de redemander la position
     du volet
 
--   Puissance : Commande permettant d'avoir la consommation du module
+-   Macht : Commande permettant d'avoir la consommation du module
 
 -   Consommation : Commande permettant de connaître la puissance
     instantanée utilisée par le module
 
--   STOP : Commande pour stopper le mouvement du volet
+-   Stop : Commande pour stopper le mouvement du volet
 
--   STOP BSO : Commande pour stopper le mouvement (en mode
+-   Stop BSO : Commande pour stopper le mouvement (en mode
     lamelle orientable)
 
 -   Incliner : Permet d'incliner les lamelles (mode lamelle orientable)

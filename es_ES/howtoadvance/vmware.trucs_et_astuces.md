@@ -5,7 +5,7 @@ Ajouter sa licence
 ==================
 
 Une fois connecté sur l'interface web (IP\_ESXI/ui) il faut aller sur
-"Gérer" :
+"Gestionar" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
@@ -195,7 +195,7 @@ Configuration du NTP
 
 Par défaut l'ESXi n'utilise pas le NTP ce qui fait qu'il n'est pas à
 l'heure et que les VMs ne sont pas à l'heure, pour corriger c'est très
-simple. Il faut aller à partir de la version web sur Gérer → Système →
+simple. Il faut aller à partir de la version web sur Gestionar → Système →
 Date et heure, là vous cliquez sur "Modifier les paramètres" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)

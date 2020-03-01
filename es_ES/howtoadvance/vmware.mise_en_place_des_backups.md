@@ -61,7 +61,7 @@ Création du fichier de configuration
 > ce n'est pas le cas chez vous
 
 Sur le datastore de backup il faut créer un fichier ghettoVCB.conf qui
-contient :
+contiene :
 
     VM_BACKUP_VOLUME=/vmfs/volumes/Backup/
     DISK_BACKUP_FORMAT=thin
@@ -130,7 +130,7 @@ contenant 4 fichiers :
 
 -   \*.vmx ⇒ le fichier contenant le configuration de votre machine
 
--   STATUS.ok ⇒ indique que le backup est bien ok
+-   Estado.ok ⇒ indique que le backup est bien ok
 
 Voici d'autre possibilité pour la ligne de commande :
 

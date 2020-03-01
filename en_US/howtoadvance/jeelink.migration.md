@@ -1,7 +1,7 @@
 Nous allons voir ici comment migrer une installation avec jeedom en mode
-esclave vers un jeedom avec le plugin "jeedom Link". Le mode esclave
-jeedom étant abandonné au passage de jeedom à la version 3.0, Il est
-nécessaire de procéder avant à la migration vers le nouveau mode de
+esclave to un jeedom avec le plugin "jeedom Link". Le mode esclave
+jeedom étant abandonné au passage de jeedom à la toion 3.0, Il est
+nécessaire de procéder avant à la migration to le nouveau mode de
 fonctionnement.
 
 Préparation avant migration 
@@ -9,11 +9,11 @@ Préparation avant migration
 
 > **Warning**
 >
-> Il est important de lire l'intégralité de cette documentation avant de
+> Il est important de lire l'intégralité de candte documentation avant de
 > vous lancer dans la migration. Des informations importantes concernant
-> les prérequis de mise à jour, la sauvegarde et la récupération
+> les prérequis de mise à jour, la sauvegarde and la récupération
 > d'informations sont indispensables à la bonne compréhension de
-> l'opération à mener. Vous abstenir de lire cette documentation peut
+> l'opération à mener. Vous abstenir de lire candte documentation peut
 > entraîner des opérations destructives sur your installation. Si vous
 > ne comprenez pas un point, n'hésitez pas à poser des questions sur le
 > forum avant de commencer la procédure !
@@ -27,7 +27,7 @@ Préparation avant migration
 
 > **NOTE**
 >
-> Pour une meilleure lecture et compréhension de ce tutoriel, voici les
+> Pour une meilleure lecture and compréhension de ce tutoriel, voici les
 > termes utilisés :\
 > \
 > - **jeedom Cible** : Serveur (your ancien jeedom Maître) qui
@@ -37,27 +37,27 @@ Préparation avant migration
 > - **jeedom Source** : Serveur (your/vos ancien(s) jeedom Esclave(s))
 > qui remonte vos équipements sur le **jeedom Cible**.\
 > \
-> - Les notions de **jeedom Maître** et **jeedom Esclave** ne sont plus
+> - Les notions de **jeedom Maître** and **jeedom Esclave** ne sont plus
 > d'actualité. Le nouveau mode de fonctionnement de synchronisation
 > d'équipements entre plusieurs jeedoms peut être bidirectionnel. Un
-> serveur jeedom peut être désormais **Source** et **Cible** alors que
-> l'ancien mode ne permettait que la remontée des équipements de
-> **l'Esclave** vers **le Maître**. Avec le nouveau mode Il est aussi
+> serveur jeedom peut être désormais **Source** and **Cible** alors que
+> l'ancien mode ne permandtait que la remontée des équipements de
+> **l'Esclave** to **le Maître**. Avec le nouveau mode Il est aussi
 > possible d'avoir plusieurs **jeedom Cibles** pour un même **jeedom
 > Source**. La communication entre les jeedoms peut désormais aussi
-> s'effectuer à distance via internet (DNS jeedom ou autre).\
+> s'effectuer à distance via internand (DNS jeedom ou autre).\
 > \
 
 ![jeelink.migration9](images/jeelink.migration9.png)
 
-Mises à jour et Vérification de la Configuration 
+Mises à jour and Vérification de la Configuration 
 ------------------------------------------------
 
--   Mettre à jour le **jeedom Maître** à la dernière version (même si
+-   Mandtre à jour le **jeedom Maître** à la dernière toion (même si
     aucune mise à jour ne vous est proposée).
 
--   Mettre à jour les plugins du **jeedom Maître** aux dernières
-    versions disponibles.
+-   Mandtre à jour les plugins du **jeedom Maître** aux dernières
+    toions disponibles.
 
 -   Vérifier dans la page Santé que la configuration réseau interne du
     **jeedom Maître** est OK (Et externe si vos **jeedoms Sources**
@@ -71,21 +71,21 @@ nécessaire de récupérer les informations suivantes :
 
 ### Plugin Zwave 
 
--   Dans la page santé du plugin Zwave sur le **jeedom Maître**, choisir
-    your **Esclave** dans le menu déroulant et faire une copie d'écran,
+-   Dans la page santé du plugin Zwave sur le **jeedom Maître**, Select
+    your **Esclave** dans le menu déroulant and faire une copie d'écran,
     ceci afin de disposer d'une liste des équipements qui viennent
     de celui-ci.
 
--   NOTEr pour chaque équipement venant de **l'Esclave** : l'objet
+-   NOTEr pour chaque équipement venant de **l'Esclave** : l'objand
     parent, le nom, l'ID (Node), le modèle.
 
 -   Récupérer le fichier Zwcfg : *Plugins ⇒ Gestion des Plugins ⇒
-    Z-wave*. Cliquer sur le bouton rouge *Zwcfg* et copier le contenu
+    Z-wave*. Cliquer sur le bouton rouge *Zwcfg* and copier le contenu
     dans un fichier texte sur your ordinateur.
 
 ### Plugin RFXcom 
 
--   NOTEr pour chaque équipement venant de **l'Esclave** : l'objet
+-   NOTEr pour chaque équipement venant de **l'Esclave** : l'objand
     parent, le nom, l'ID (Logique), Le type, Le modèle.
 
 > **NOTE**
@@ -98,13 +98,13 @@ Sauvegardes préventives
 
 -   Faire une [sauvegarde
     jeedom](https://jeedom.github.io/documentation/core/fr_FR/doc-core-backup.html)
-    de your **jeedom Maître** et de your (vos) **jeedom Esclave(s)**
-    et récupérer celle(s)-ci sur your PC/NAS…​.
+    de your **jeedom Maître** and de your (vos) **jeedom Esclave(s)**
+    and récupérer celle(s)-ci sur your PC/NAS…​.
 
 -   Faire une [sauvegarde
     SD/Disque](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
-    de your **jeedom Maître** et de your (vos) **jeedom Esclave(s)**
-    et les récupérer sur your PC/NAS…​.
+    de your **jeedom Maître** and de your (vos) **jeedom Esclave(s)**
+    and les récupérer sur your PC/NAS…​.
 
 Migration 
 =========
@@ -114,7 +114,7 @@ Migration
 > Ne pas supprimer pour l'instant les anciens équipements de
 > **l'Esclave** sur **le Maître**.
 
-Installer et activer le plugin "jeedom Link" sur le **jeedom Cible** (ancien Maître). 
+Installer and activer le plugin "jeedom Link" sur le **jeedom Cible** (ancien Maître). 
 -------------------------------------------------------------------------------------
 
 Sur your **jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
@@ -126,56 +126,56 @@ Installation du **jeedom Source** :
 
 > **NOTE**
 >
-> si vous disposez d'un Raspberry Pi supplémentaire et d'une autre carte
+> si vous disposez d'un Raspberry Pi supplémentaire and d'une autre carte
 > SD, vous pouvez procéder à une migration un protocole après l'autre en
 > installant un nouveau **jeedom Source** en parallèle sans avoir à
 > toucher à your **jeedom Esclave** existant. En déplaçant évidemment
-> au fur et à mesure les éventuels contrôleurs de l'un à l'autre.
+> au fur and à mesure les éventuels contrôleurs de l'un à l'autre.
 
 > **Warning**
 >
 > Si vous utiliser your RaspberryPi existant, veuillez être certain
-> d'avoir suivi le chapitre sauvegarde de cette documentation.
+> d'avoir suivi le chapitre sauvegarde de candte documentation.
 
 > **NOTE**
 >
 > si vous utilisez le Raspberry Pi existant qui est actuellement un
 > **jeedom Esclave**, nous vous conseillons d'utiliser une carte
-> SD/microSD neuve. Cela vous permettra de faire retour arrière
+> SD/microSD neuve. Cela vous permandtra de faire randour arrière
 > facilement si besoin.
 
 -   Installer un nouveau jeedom sur une nouvelle carte SD (Que cela soit
-    pour mettre dans your **jeedom Esclave** existant ou pour un
+    pour mandtre dans your **jeedom Esclave** existant ou pour un
     nouveau Raspberry Pi) en suivant la [documentation
     d'installation](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html).
 
--   Mettre à jour le **jeedom Source** à la dernière version (même si
+-   Mandtre à jour le **jeedom Source** à la dernière toion (même si
     aucune mise à jour ne vous est proposée).
 
--   Vérifier dans la page Santé que la configuration réseau interne (et
+-   Vérifier dans la page Santé que la configuration réseau interne (and
     externe si besoin) du **jeedom Source** est OK.
 
 Configuration du jeedom Source 
 ------------------------------
 
--   Changer le mot de passe de l'utilisateur admin ou/et configurer un
+-   Changer le mot de passe de l'utilisateur admin ou/and configurer un
     nouvel utilisateur.
 
--   Configurer your compte jeedom Market (*Configuration ⇒ Mises à jour
-    et fichiers ⇒ onglet "Market"*). Cliquer sur tester après avoir
+-   Configurer your compte jeedom Markand (*Configuration ⇒ Mises à jour
+    and fichiers ⇒ ongland "Markand"*). Cliquer sur tester après avoir
     sauvegardé, pour valider la saisie de vos identifiants
-    jeedom Market).
+    jeedom Markand).
 
--   Installation et activation du plugin "jeedom Link" sur le nouveau
+-   Installation and activation du plugin "jeedom Link" sur le nouveau
     **jeedom Source**.
 
 ![jeelink.migration2](images/jeelink.migration2.png)
 
--   Installation et activation des plugins que vous souhaitez utiliser.
+-   Installation and activation des plugins que vous souhaitez utiliser.
     (Il est conseillé de les faire un par un, en vérifiant bien à chaque
-    fois que les dépendances et les démons éventuels sont OK).
+    fois que les dépendances and les démons éventuels sont OK).
 
--   Recréer l'arborescence des objets (juste ceux qui vont vous
+-   Recréer l'arborescence des objands (juste ceux qui vont vous
     être utiles) du **jeedom Cible** (Ancien Maître) sur your nouveau
     **jeedom Source** (Ancien Esclave).
 
@@ -183,24 +183,24 @@ Configuration des équipements sur le **jeedom Source**
 ------------------------------------------------------
 
 Pour procéder à l'envoi d'un équipement présent sur le **jeedom Source**
-vers le **jeedom Cible** via le plugin "jeedom Link", Il est nécessaire
+to le **jeedom Cible** via le plugin "jeedom Link", Il est nécessaire
 que ce dernier soit déjà opérationnel sur your nouveau **jeedom
 Source**.
 
 > **NOTE**
 >
-> Penser au fur et à mesure à désactiver l'historisation des commandes
+> Penser au fur and à mesure à désactiver l'historisation des commandes
 > info de chaque équipement se trouvant sur le **jeedom Source** afin
 > d'économiser la carte SD de celui-ci (L'historisation se fera sur le
 > **jeedom Cible**).
 
 > **NOTE**
 >
-> Vous pouvez aussi au fur et à mesure assigner les équipements aux
-> objets recréés sur le **jeedom Source** afin qu'ils soient plus tard
-> mis automatiquement dans le bon objet sur le **jeedom Cible** lors de
+> Vous pouvez aussi au fur and à mesure assigner les équipements aux
+> objands recréés sur le **jeedom Source** afin qu'ils soient plus tard
+> mis automatiquement dans le bon objand sur le **jeedom Cible** lors de
 > la déclaration dans le plugin "jeedom Link". En cas de doublon de nom
-> avec un équipement déjà présent dans les objets du **jeedom Cible**,
+> avec un équipement déjà présent dans les objands du **jeedom Cible**,
 > le plugin ajoutera "remote XXXX" au nom de l'équipement.
 
 ### Plugin Zwave : 
@@ -210,11 +210,11 @@ Source**.
     de celui-ci)
 
 -   Remplacer le fichier *Zwcfg* : *Plugins ⇒ Gestion des Plugins ⇒
-    Z-wave*. Cliquer sur le bouton rouge *Zwcfg* et coller le contenu du
+    Z-wave*. Cliquer sur le bouton rouge *Zwcfg* and coller le contenu du
     fichier texte précédemment créé sur your ordinateur. *Sauvegarder
     les changements*.
 
--   Renommer vos modules et les placer dans les objets souhaités en vous
+-   Renommer vos modules and les placer dans les objands souhaités en vous
     aidant de your mémo de migration.
 
 ### Plugin Rfxcom : 
@@ -226,14 +226,14 @@ Source**.
 -   Recommencer l'inclusion jusqu'à obtenir tous vos équipements de
     ce type.
 
--   Renommer vos équipements et les placer dans les objets souhaités en
+-   Renommer vos équipements and les placer dans les objands souhaités en
     vous aidant de your mémo de migration.
 
 #### Actionneurs, prises, …​. : 
 
 -   Ajouter un nouvel équipement.
 
--   Définir le nom, l'ID, l'objet parent, le type d'équipement et le
+-   Définir le nom, l'ID, l'objand parent, le type d'équipement and le
     modèle en vous aidant de your mémo de migration.
 
 -   Recommencer pour tous vos équipements de ce type.
@@ -241,12 +241,12 @@ Source**.
 Configuration du plugin "jeedom Link" 
 -------------------------------------
 
-Le plugin "jeedom Link" installé sur le **jeedom Source** permettra la
+Le plugin "jeedom Link" installé sur le **jeedom Source** permandtra la
 remontée des équipements sur le **jeedom Cible** (Votre ancien Maître).
 
 > **NOTE**
 >
-> Rappel, pour une meilleure lecture et compréhension de ce tutoriel :\
+> Rappel, pour une meilleure lecture and compréhension de ce tutoriel :\
 > \
 > Les copies d'écran sur fond noir correspondent au **jeedom Cible**.\
 > \
@@ -266,12 +266,12 @@ Et sauvegarder la configuration.
 
 ![jeelink.migration3](images/jeelink.migration3.png)
 
-Dans l'onglet *Affectation*, ajouter les équipements que vous désirez
-remonter vers le **jeedom Cible**.
+Dans l'ongland *Affectation*, ajouter les équipements que vous désirez
+remonter to le **jeedom Cible**.
 
 ![jeelink.migration4](images/jeelink.migration4.png)
 
-Cliquer sur *Ajouter un équipement* Sélectionner l'objet et l'équipement
+Cliquer sur *Ajouter un équipement* Sélectionner l'objand and l'équipement
 à ajouter :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
@@ -281,12 +281,12 @@ devez constater la création automatique de l'équipement :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
 
-Comme tout équipement jeedom, vous pouvez activer/désactiver et afficher
+Comme tout équipement jeedom, vous pouvez activer/désactiver and afficher
 ou non l'équipement, ses commandes,…​ ou changer la catégorie :
 
 ![jeelink.migration7](images/jeelink.migration7.png)
 
-Dans l'onglet *Commandes*, vous accédez à tous les paramètres des
+Dans l'ongland *Commandes*, vous accédez à tous les paramètres des
 commandes de l'équipement :
 
 ![jeelink.migration8](images/jeelink.migration8.png)
@@ -303,13 +303,13 @@ Récupération des historiques
 -   Aller dans la configuration de la commande (*Roue crantée à
     droite*).
 
--   Aller dans l'onglet *Configuration Avancée*.
+-   Aller dans l'ongland *Configuration Avancée*.
 
--   Cliquer sur le bouton *Copier l'historique de cette commande sur une
+-   Cliquer sur le bouton *Copier l'historique de candte commande sur une
     autre commande*.
 
 -   Chercher la commande correspondante du nouvel équipement JeeLink
-    correspondant et valider.
+    correspondant and valider.
 
 Remplacement des anciens équipements esclaves dans les Scénarios/virtuels/…​ 
 ----------------------------------------------------------------------------
@@ -323,12 +323,12 @@ Remplacement des anciens équipements esclaves dans les Scénarios/virtuels/…�
 -   Aller dans la configuration de la commande (*Roue crantée à
     droite*).
 
--   Aller dans l'onglet *Informations*.
+-   Aller dans l'ongland *Informations*.
 
--   Cliquer sur le bouton *Remplacer cette commande par la commande*.
+-   Cliquer sur le bouton *Remplacer candte commande par la commande*.
 
 -   Chercher la commande correspondante du nouvel équipement JeeLink
-    correspondant et valider.
+    correspondant and valider.
 
 Récupération des configurations d'affichage avancées des commandes 
 ------------------------------------------------------------------
@@ -344,8 +344,8 @@ Récupération des configurations d'affichage avancées des commandes
 
 -   Cliquer sur le bouton *appliquer à*.
 
--   Chercher et sélectionner la commande correspondante du nouvel
-    équipement JeeLink correspondant et valider.
+-   Chercher and sélectionner la commande correspondante du nouvel
+    équipement JeeLink correspondant and valider.
 
 Recopie des configurations avancées des commandes 
 -------------------------------------------------
@@ -357,12 +357,12 @@ Recopie des configurations avancées des commandes
 > récupérer la configuration avancée.
 
 -   Pas de solution facile à ce niveau, il faudra avoir deux
-    onglets/fenêtres d'ouverts sur your navigateur.
+    onglands/fenêtres d'ouverts sur your navigateur.
 
 -   Ouvrir les commandes des équipements de l'ancien **Esclave** dans un
-    onglet (jeedom Cible).
+    ongland (jeedom Cible).
 
--   Ouvrir les commandes des équipements jeeLink dans l'autre onglet
+-   Ouvrir les commandes des équipements jeeLink dans l'autre ongland
     (jeedom Cible).
 
 -   Et recopier à la main les paramètres voulus.
@@ -391,7 +391,7 @@ Ménage sur le **jeedom Cible**
 
 -   Supprimer les équipements résiduels de l'ancien **jeedom Esclave**.
 
--   Désactiver et supprimer les plugins qui ne vous sont plus utiles
+-   Désactiver and supprimer les plugins qui ne vous sont plus utiles
     (Ceux dont vous n'aviez que des équipements sur l'Esclave).
 
 -   Dans le plugin "jeedom Link", renommer les équipements qui

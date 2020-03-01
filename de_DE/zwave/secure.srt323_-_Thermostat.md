@@ -19,7 +19,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -93,7 +93,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x piles AAA (LR3)
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 Jahre
 
 -   fréquence : 868,42 MHz
 

@@ -19,7 +19,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -32,7 +32,7 @@ compatible.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

@@ -19,7 +19,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -80,7 +80,7 @@ Caractéristiques Techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
+-   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 

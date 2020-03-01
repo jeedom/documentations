@@ -44,7 +44,7 @@ vers l'iso (pensez bien à le connecter) et vous lancez la machine. Voir
 [ici](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.creer_une_vm.html)
 pour plus de détails.
 
-Installation 
+Instalación 
 ============
 
 Appuyez sur entrée pour lancer l'installation :

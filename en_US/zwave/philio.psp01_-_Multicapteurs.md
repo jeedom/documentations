@@ -19,7 +19,7 @@ Philio PSP01
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 years
 
 -   fréquence : 868.42 MHz
 
@@ -180,7 +180,7 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Opening : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : C'est la commande qui permet de remonter la

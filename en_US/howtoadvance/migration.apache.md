@@ -89,7 +89,7 @@ PAS FAIRE LA SUITE.
 Mise à jour de la crontab 
 -------------------------
 
-Faire :
+MAKE :
 
     crontab -e
 
@@ -97,7 +97,7 @@ Puis mettre à jour le chemin d'accès à jeedom, remplacer :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /usr/share/nginx/www/jeedom/core/php/jeeCron.php' >> /dev/null 2>&1
 
-Par :
+by :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /var/www/html/core/php/jeeCron.php' >> /dev/null 2>&1
 

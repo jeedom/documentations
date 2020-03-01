@@ -19,7 +19,7 @@ Philio Smart Color Button
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

@@ -41,7 +41,7 @@ Dans le "case \$TTS\_ENGINE in" pour avoir :
                  *)  MP3_ID=$(AcapelaTTS $TTS $VOICE $NO_CACHE $RAW_VOICE $MUTE);;
     esac
 
-Utilisation 
+use 
 ===========
 
 Il vous suffit d'appller l'url en donnant le numéro d'engin (ici 3) :

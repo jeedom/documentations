@@ -21,11 +21,11 @@ La liste de ce qui est surveillé évolue pour essayer d'etre le plus réactif/p
 - Charge mémoire
 - Charge SWAP
 - Entrée/Sortie disques
-- Espace disque libre
+- Free disk space
 
 Vous êtes aussi prévenu lors d'un redemarrage de votre Jeedom.
 
-# Historique
+# History
 
 Sur le market a partir de votre page profil puis en cliquant sur information dans l'onglet mes service partie service monitoring vous avez toute les données actuel connu sur votre jeedom et vous pouvez en cliquant sur graphique voir l'historique sur les dernieres 24h (nous ne conservons pas plus de données que les dernieres 24h)
 

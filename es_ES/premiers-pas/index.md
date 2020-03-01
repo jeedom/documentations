@@ -126,7 +126,7 @@ Nous allons voir ici comment lier votre jeedom à votre compte mercado.
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
--   Cliquez sur l'onglet **Mises à jour**
+-   Cliquez sur l'onglet **Actualizaciones**
 
 -   En dessous, cliquez sur l'onglet **mercado**
 
@@ -286,7 +286,7 @@ Celle-ci se compose de plusieurs catégories :
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,
 
--   Installation : Tout ce qui concerne l'installation de jeedom,
+-   Instalación : Tout ce qui concerne l'installation de jeedom,
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 

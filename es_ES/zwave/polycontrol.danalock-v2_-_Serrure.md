@@ -19,7 +19,7 @@ Danalock V2 BTZE
 
  \
 
-Résumé 
+Resumen 
 ------
 
  
@@ -241,12 +241,12 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Estado : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   cerca : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 
@@ -256,7 +256,7 @@ Voici la liste des commandes :
 
  \
 
-> **Warning**
+> **Advertencia**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il

@@ -19,7 +19,7 @@ MCO MH-S412 Double
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : Blanc
+-   Farbe : Blanc
 
 -   Alimentation : 230 V, 50 Hz
 
@@ -80,7 +80,7 @@ Caractéristiques Techniques
 
 -   Dimensions : 86 x 86 x 43 mm
 
--   Affichage: LED bleue/rouge
+-   Anzeigen: LED bleue/rouge
 
  \
 

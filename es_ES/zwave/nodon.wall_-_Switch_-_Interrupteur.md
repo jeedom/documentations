@@ -19,7 +19,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Température de fonctionnement : 0°C à 40°C
 
--   Altitude : 2000m
+-   altitud : 2000m
 
 -   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
     Plus® SDK 06.51.06

@@ -19,7 +19,7 @@ Secure SIR 321 "Timer"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

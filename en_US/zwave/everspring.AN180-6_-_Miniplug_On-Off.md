@@ -19,7 +19,7 @@ Everspring Miniplug ON/OFF - AN180-6
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Viewing: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 

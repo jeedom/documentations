@@ -19,7 +19,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-Résumé 
+Resumen 
 ------
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
@@ -161,7 +161,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Couleur : C'est la commande qui permet de régler le code couleur à
+-   Color : C'est la commande qui permet de régler le code couleur à
     Mostrar
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de

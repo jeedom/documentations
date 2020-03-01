@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

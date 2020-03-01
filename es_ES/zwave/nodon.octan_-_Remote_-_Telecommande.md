@@ -19,7 +19,7 @@ Nodon Télécommande - Octan
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \

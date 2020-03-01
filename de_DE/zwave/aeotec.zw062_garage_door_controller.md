@@ -19,7 +19,7 @@ aeotec Contrôleur de porte de garage
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

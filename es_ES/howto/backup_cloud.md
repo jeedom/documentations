@@ -11,7 +11,7 @@ Une fois le service acheté il faut dans jeedom :
 >
 >Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud
 
-## FAQ
+## Preguntas frecuentes
 
 > **Erreur Specification mandate value for attribute defer on line 19, column 146**
 >

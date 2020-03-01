@@ -19,7 +19,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -184,14 +184,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Iluminación
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Iluminación
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Iluminación
 
 -   état : C'est la commande qui permet de connaître le statut de la
-    lumière
+    Iluminación
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
 icono

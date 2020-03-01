@@ -19,7 +19,7 @@ aeotec Minimote
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -63,11 +63,11 @@ Caractéristiques Techniques
 
 -   Type de module : Contrôleur Z-Wave
 
--   Couleur : Blanc
+-   Color : Blanc
 
 -   Alimentation : batterie interne rechargeable via USB
 
--   Affichage: LED bleue et rouge
+-   Viewing: LED bleue et rouge
 
 -   fréquence : 868,42MHz
 

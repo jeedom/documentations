@@ -19,7 +19,7 @@ aeotec Minimote
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -35,7 +35,7 @@ paramétrer le réseau Z-Wave.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -46,7 +46,7 @@ Fonctions
 
 -   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
 
--   Fonctions marche/arrêt et variation
+-   Funktionen marche/arrêt et variation
 
 -   Fonction ALL ON/ALL OFF
 
@@ -63,11 +63,11 @@ Caractéristiques Techniques
 
 -   Type de module : Contrôleur Z-Wave
 
--   Couleur : Blanc
+-   Farbe : Blanc
 
 -   Alimentation : batterie interne rechargeable via USB
 
--   Affichage: LED bleue et rouge
+-   Anzeigen: LED bleue et rouge
 
 -   fréquence : 868,42MHz
 

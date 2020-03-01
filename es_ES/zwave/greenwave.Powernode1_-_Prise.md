@@ -19,7 +19,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Courant de charge maximum : 10A
 
--   Puissance de charge maximale : 2400W (@ 240V)
+-   Potencia de charge maximale : 2400W (@ 240V)
 
 -   Consommation en veille : 0,4 W
 
@@ -190,7 +190,7 @@ Voici la liste des commandes :
 
 -   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instantanée
+-   Potencia : C'est la commande qui remonte la puissance instantanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale

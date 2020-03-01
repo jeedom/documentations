@@ -19,7 +19,7 @@ Philio PSP01
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 años
 
 -   fréquence : 868.42 MHz
 
@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Sensor de brillo : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -180,7 +180,7 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Ouverture : c'est la commande qui remontera une détection
+-   apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : C'est la commande qui permet de remonter la

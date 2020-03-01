@@ -19,7 +19,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

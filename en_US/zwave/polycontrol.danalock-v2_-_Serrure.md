@@ -19,7 +19,7 @@ Danalock V2 BTZE
 
  \
 
-Résumé 
+Summary 
 ------
 
  
@@ -241,12 +241,12 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   To close : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 

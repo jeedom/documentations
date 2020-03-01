@@ -19,7 +19,7 @@ Secure SES 302 "Température"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

@@ -19,7 +19,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -63,7 +63,7 @@ un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave
 individuelles.  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

@@ -25,13 +25,13 @@ d'information en haut de la fenêtre Filezilla :
 
 ![restore filezilla01](images/restore-filezilla01.jpg)
 
--   Hôte : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
+-   Hostname : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
 
--   Identifiant : Jeedom
+-   login : Jeedom
 
 -   termes utilisés : MJeedom96
 
--   Port : 22
+-   Harbor : 22
 
 Puis de cliquer sur "Connexion rapide"
 

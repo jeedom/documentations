@@ -19,7 +19,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -41,7 +41,7 @@ aussi d'une entrée filaire, il peut ainsi être utilisé comme un
 transmetteur universel : laissez de côté son contact magnétique, et
 reliez ses entrées à vis à tout détecteur (normalement fermé) de votre
 choix tel qu'un détecteur de fumée, de gaz ou de monoxyde de carbone,
-etc.
+usw..
 
 Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
 d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
@@ -49,7 +49,7 @@ existant.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -80,7 +80,7 @@ Caractéristiques Techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
+-   Farbe : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 

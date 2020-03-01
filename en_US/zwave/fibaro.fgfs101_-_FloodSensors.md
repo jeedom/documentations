@@ -19,7 +19,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -83,7 +83,7 @@ Caractéristiques Techniques
 
 -   Type de batterie : CR123A
 
--   Autonomie de la batterie : 2 ans
+-   Autonomie de la batterie : 2 years
 
 -   Consommation sur alimentation externe : 0,4W
 
@@ -230,7 +230,7 @@ Détails des paramètres :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     s'arrête instantanément)
 
--   2\. Choix du type d'alarme. Valeur :
+-   2\. Choix du type d'alarme. Value :
 
         0 : Alarme sonore et visuelle désactivée
         1 : Alarme sonore désactivée et visuelle activée

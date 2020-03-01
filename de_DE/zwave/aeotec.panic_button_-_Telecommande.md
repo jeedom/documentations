@@ -19,7 +19,7 @@ aeotec Panic Button
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

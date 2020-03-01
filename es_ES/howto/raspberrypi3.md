@@ -10,7 +10,7 @@ génératrice de problèmes (corruption).
 
 **La procédure d'installation est strictement identique à celle sur une
 carte microSD, mais il faudra s'assurer de posséder un firmware à
-jour.**
+Día.**
 
 Pour cela ouvrez une connexion SSH. (si vous ne savez pas comment faire,
 regarder l'installation sur microSD :
@@ -28,7 +28,7 @@ l'USB. Si il ne trouve rien, il démarrera normalement sur une carte
 microSD.
 
 Si le retour est différent, vous devez simplement effectuer une mise à
-jour.
+Día.
 
     sudo apt-get update; sudo apt-get install rpi-update
 

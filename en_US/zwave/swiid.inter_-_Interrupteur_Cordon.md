@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -81,7 +81,7 @@ Caractéristiques Techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : noire
+-   Color : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -172,11 +172,11 @@ Voici la liste des commandes :
  \
 
 -   état : C'est la commande qui permet de connaitre le statut de la
-    lumière
+    Light
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
  \
 
@@ -217,16 +217,16 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inactif : n'aura aucun effet sur les autres lumières
+-   Inactive : n'aura aucun effet sur les autres Lights
 
 -   Uniquement OFF : sera effectif uniquement pour éteindre les autres
-    lumières
+    Lights
 
 -   Uniquement ON : sera effectif uniquement pour allumer les autres
-    lumières
+    Lights
 
 -   ON et OFF (fully) : sera effectif pour allumer et éteindre les
-    autres lumières
+    autres Lights
 
  \
 
@@ -249,13 +249,13 @@ Ce module possède deux groupes d'association.
 
  \
 
-Associer à une autre lumière 
+Associer à une autre Light 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
-l'allumage d'une autre lumière, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre Light et pouvoir bénéficier de
+l'allumage d'une autre Light, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-spécifique.
+Specific.
 
  \
 

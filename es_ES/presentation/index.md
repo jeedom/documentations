@@ -4,21 +4,21 @@ Présentation
 Jeedom est composé d'une partie centrale (appelée core) qui se charge
 des fonctions de base.
 
--   *Scénario,*
+-   *Escenario,*
 
-![Page Scénario](images/doc-presentation-scenario.png)
+![Page Escenario](images/doc-presentation-scenario.png)
 
 -   *Historisation,*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Affichage,*
+-   *Visualización,*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
--   *Interaction,*
+-   *interacción,*
 
-![Page Interaction](images/doc-presentation-interaction.png)
+![Page interacción](images/doc-presentation-interaction.png)
 
 -   *Mise à jour et sauvegarde.*
 
@@ -64,7 +64,7 @@ n'avez plus internet. Ceci garantit aussi la sécurité de vos données
 Le projet étant ouvert et open source cela lui garantit aussi un fort
 taux d'évolution grâce aux nombreux développeurs qui participent.
 
-Liens
+Enlaces
 ===
 
 Plusieurs tutoriels vidéo ont été réalisés afin de montrer les
@@ -84,7 +84,7 @@ Voici la liste des tutoriels disponibles :
     , Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
 
 -   [Tuto Jeedom \#3 : Jeedom, les Widget, Mails et
-    Scénarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
+    Escenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
 
 -   [Tuto Jeedom \#4 : Jeedom, Utilisation du plugin
     Agenda](https://www.youtube.com/watch?v=EBuvIabg3Cc)
@@ -117,4 +117,4 @@ Voici la liste des tutoriels disponibles :
     Alarme](https://www.youtube.com/watch?v=JjnWeU614gc)
 
 -   [Tuto Jeedom \#14 : Découverte des
-    Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+    interaccións](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 

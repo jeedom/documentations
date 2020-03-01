@@ -19,7 +19,7 @@ Fibaro Dimmer2 - FGD-212
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -117,7 +117,7 @@ Caractéristiques Techniques
 
 -   fréquence : 868,42 MHz
 
--   Puissance du signal : 1mW
+-   Power du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -207,19 +207,19 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Light
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
 -   état : C'est la commande qui permet de connaître le statut de la
-    lumière
+    Light
 
 -   Consommation : c'est la commande qui permet de remonter la
     consommation du module
 
--   Puissance : c'est la commande qui permet de remonter la puissance
+-   Power : c'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même

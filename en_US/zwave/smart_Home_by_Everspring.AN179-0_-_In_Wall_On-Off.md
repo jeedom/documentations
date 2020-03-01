@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall ON OFF - AN179-0
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -87,7 +87,7 @@ Caractéristiques Techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Viewing: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -159,12 +159,12 @@ Voici la liste des commandes :
 
  \
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
 -   état : C'est la commande qui permet de connaître le statut de la
-    lumière
+    Light
 
  \
 

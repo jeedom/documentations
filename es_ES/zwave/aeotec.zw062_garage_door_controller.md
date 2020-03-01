@@ -19,7 +19,7 @@ aeotec Contrôleur de porte de garage
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -168,7 +168,7 @@ Voici la liste des commandes :
 
 -   Open/Close : Ouvrir, fermer ou arrêter la porte de garage.
 
--   Position : Position actuelle de la porte de garage.
+-   Posición : Posición actuelle de la porte de garage.
 
 -   Volume : Volume actuel du haut-parleur.
 

@@ -19,7 +19,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -151,7 +151,7 @@ Voici la liste des commandes :
 
 -   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instatanée
+-   Potencia : C'est la commande qui remonte la puissance instatanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale

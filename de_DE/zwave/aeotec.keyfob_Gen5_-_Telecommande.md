@@ -19,7 +19,7 @@ aeotec Keyfob Gen5
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -45,7 +45,7 @@ rapide par rapport aux précédents produits Z-Wave.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -69,7 +69,7 @@ Fonctions
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparée à des périphériques Z-Wave
-    standard
+    Standard
 
 -   Optimisation de l'antenne, portée 100 mètres
 
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
--   Durée de vie de la batterie : 1 an
+-   Durée de vie de la batterie : 1 Jahr
 
 -   fréquence: 868.42 MHz
 

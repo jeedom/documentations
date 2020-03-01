@@ -19,7 +19,7 @@ aeotec Keyfob
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -69,7 +69,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
--   Durée de vie de la batterie : 1 an
+-   Durée de vie de la batterie : 1 año
 
 -   fréquence: 868.42 MHz
 

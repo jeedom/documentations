@@ -1,6 +1,6 @@
 # SMS/Appels cloud
 
-## Description
+## Descripción
 
 C'est un service Jeedom SAS payant qui vous permet d'envoyer des SMS et de passer des appels (avec message lu par un robot) depuis votre Jeedom.
 

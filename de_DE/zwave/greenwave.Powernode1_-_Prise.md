@@ -19,7 +19,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -41,7 +41,7 @@ un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
 Une petite molette sur le côté de la prise permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. Par exemple "
+qui représentera la pièce à laquelle elle est affectée. Zum Beispiel "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
 différentes prises et multiprises PowerNode. ON peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Courant de charge maximum : 10A
 
--   Puissance de charge maximale : 2400W (@ 240V)
+-   Macht de charge maximale : 2400W (@ 240V)
 
 -   Consommation en veille : 0,4 W
 
@@ -190,7 +190,7 @@ Voici la liste des commandes :
 
 -   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instantanée
+-   Macht : C'est la commande qui remonte la puissance instantanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale

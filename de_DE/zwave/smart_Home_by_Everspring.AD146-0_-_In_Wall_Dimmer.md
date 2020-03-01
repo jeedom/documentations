@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques Techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Anzeigen: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -170,14 +170,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    lumière
+    Licht
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Licht
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Licht
 
 -   état : C'est la commande qui permet de connaitre le statut de la
-    lumière
+    Licht
 
  \
 

@@ -1,4 +1,4 @@
-Philio PST02 C - 3 en 1 Ouverture 
+Philio PST02 C - 3 en 1 Opening 
 =================================
 
  \
@@ -19,7 +19,7 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -54,7 +54,7 @@ Fonctions
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Opening, température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -179,7 +179,7 @@ Voici la liste des commandes :
 
  \
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Opening : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : C'est la commande qui permet de remonter la
@@ -249,26 +249,26 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reports auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reports auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Report
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+    Report Valeur recommandée : 10
 
  \
 

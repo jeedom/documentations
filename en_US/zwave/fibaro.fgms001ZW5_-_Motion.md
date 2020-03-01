@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

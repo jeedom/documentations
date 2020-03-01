@@ -19,7 +19,7 @@ Philio Smart Color Button
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -74,7 +74,7 @@ Fonctions
 
 -   Longue durée de vie de la batterie (6 mois par charge)
 
--   Support magnétique
+-   Unterstützung magnétique
 
 -   LED d'indication RGBW
 
@@ -100,8 +100,8 @@ Caractéristiques Techniques
 
 -   Dimensions :
 
-Support : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) Support + Bouton : 71,16 x 17,22 mm (diamétre
+Unterstützung : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
+mm (diamétre x épaisseur) Unterstützung + Bouton : 71,16 x 17,22 mm (diamétre
 x épaisseur) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950

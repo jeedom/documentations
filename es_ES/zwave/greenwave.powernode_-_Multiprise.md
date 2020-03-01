@@ -19,7 +19,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \

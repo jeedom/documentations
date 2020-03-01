@@ -19,7 +19,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -36,7 +36,7 @@ Ses principales caractéristiques sont :
 -   La possibilité d'envoyer un signal montée / descente en continu sans
     limite de temps.
 
-Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque
+Be careful: ce module n'envoie pas son état au contrôleur z-wave lorsque
 l'utilisateur appuie directement sur les boutons. Il faut faire un
 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
 plus loin).
@@ -103,7 +103,7 @@ Données du module
 
  \
 
-Connexion 
+Connection 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
@@ -163,7 +163,7 @@ Voici la liste des commandes :
 
 -   Une fiche non exhaustive des informations à noter pour la migration : rafraichîr l'état actuel du module
 
--   Niveau : slider pour positionner une ouverture partielle
+-   Level : slider pour positionner une ouverture partielle
 
  \
 

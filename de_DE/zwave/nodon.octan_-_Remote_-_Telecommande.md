@@ -19,7 +19,7 @@ Nodon Télécommande - Octan
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -37,7 +37,7 @@ domestiques
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \

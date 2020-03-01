@@ -19,7 +19,7 @@ aeotec Panic Button
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \

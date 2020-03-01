@@ -19,7 +19,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

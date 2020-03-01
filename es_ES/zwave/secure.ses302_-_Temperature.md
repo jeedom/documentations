@@ -19,7 +19,7 @@ Secure SES 302 "Température"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \

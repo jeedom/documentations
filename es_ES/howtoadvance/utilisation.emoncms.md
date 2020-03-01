@@ -16,7 +16,7 @@ Envoyer une valeur de Jeedom vers EmonCMS
 
 Pour envoyer une valeur de Jeedom à EmonCMS, la solution la plus simple
 puisqu'elle est disponible nativement est d'utiliser l'URL de Push d'une
-information
+información
 
 Dans Jeedom, on peut accéder aux paramètres avancés en cliquant sur la
 roue crantée sur la droite.
@@ -31,7 +31,7 @@ L'url de push est de la forme :
 
 Avec les paramètres :
 
--   id : l'id de la feed qu'on trouve sur emoncms
+-   identificación : l'identificación de la feed qu'on trouve sur emoncms
 
 -   apikey : la clef api de read&write pour emoncms
 
@@ -51,7 +51,7 @@ Pour prendre une donnée de emoncms dans Jeedom, il y a deux possibilités
     la valeur régulièrement ou via scénario par exemple et normalement
     non utile car les données ont leur source dans jeedom\_setting
 
-        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?identificación=1&apikey=xxx
 
 -   La deuxième possibilité est d'utiliser le plugin Event d'emoncms
     pour déclencher une action sur certaines conditions. Cette méthode

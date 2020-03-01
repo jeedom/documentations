@@ -19,7 +19,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -37,7 +37,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -79,7 +79,7 @@ Caractéristiques Techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Anzeigen: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 

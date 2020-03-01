@@ -37,7 +37,7 @@ contenant un code pour votre service pack.
 > **wichtig**
 >
 > Il est important de le renseigner car ce code vous donne accès à
-> certains plugins gratuitement, ainsi qu'à des services exclusifs.
+> certains Plugins gratuitement, ainsi qu'à des services exclusifs.
 
 > **wichtig**
 >
@@ -126,7 +126,7 @@ Nous allons voir ici comment lier votre jeedom à votre compte Markt.
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
--   Cliquez sur l'onglet **Mises à jour**
+-   Cliquez sur l'onglet **Updates**
 
 -   En dessous, cliquez sur l'onglet **Markt**
 
@@ -231,14 +231,14 @@ Installer mon premier plugin
 
 Un plugin permet d'ajouter des fonctionnalités à jeedom. Il en existe
 des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
-Pour accéder à la page des plugins aller sur Plugins → Gestion des
-plugins.
+Pour accéder à la page des Plugins aller sur Plugins → Gestion des
+Plugins.
 
 Il vous suffit ensuite de cliquer sur Markt :
 
 ![premier plugin2](images/premier-plugin2.png)
 
-Vous allez ensuite avoir la liste de tous les plugins qu'il est possible
+Vous allez ensuite avoir la liste de tous les Plugins qu'il est possible
 d'installer.
 
 > **wichtig**
@@ -265,7 +265,7 @@ Vous retrouvez alors :
 - la façon d'utiliser le plugin, 
 - des informations complémentaires comme l'auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
 
-Pour plus d'informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
+Pour plus d'informations sur les Plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
 
 Support 
 =======
@@ -290,7 +290,7 @@ Celle-ci se compose de plusieurs catégories :
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
--   Plugins : Les documentations des différents plugins officiels de
+-   Plugins : Les documentations des différents Plugins officiels de
     jeedom,
 
 -   les autres : diverses pages sur les différents protocoles utilisés
@@ -298,7 +298,7 @@ Celle-ci se compose de plusieurs catégories :
     compatibilité, etc.
 
 Vous trouverez également en dessous la liste des documentations pour les
-plugins tiers.
+Plugins tiers.
 
 N'hésitez pas à utiliser la fonction **Suchen nach** en haut à droite de
 la page pour trouver les pages en fonction d'un mot précis.
@@ -355,7 +355,7 @@ Toute la suite des échanges se fera par mail.
 > service pack.
 
 Les différents services packs sont : \* Community (gratuit) : 2
-tickets/mois (sur plugins payants uniquement) \* Power : 10 tickets/mois
+tickets/mois (sur Plugins payants uniquement) \* Power : 10 tickets/mois
 \* Pro : 100 tickets/mois
 
 Vous pouvez retrouver le détail des services packs

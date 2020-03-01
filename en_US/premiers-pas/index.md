@@ -126,7 +126,7 @@ Nous allons voir ici comment lier votre jeedom à votre compte Le nouveau mode d
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
--   Cliquez sur l'onglet **Mises à jour**
+-   Cliquez sur l'onglet **Updates**
 
 -   En dessous, cliquez sur l'onglet **Le nouveau mode de fonctionnement de synchronisation**
 

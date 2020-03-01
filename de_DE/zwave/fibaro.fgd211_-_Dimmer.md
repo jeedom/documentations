@@ -19,7 +19,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -184,14 +184,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Licht
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Licht
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Licht
 
 -   état : C'est la commande qui permet de connaître le statut de la
-    lumière
+    Licht
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
 Symbol
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Funktionen ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe

@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -61,7 +61,7 @@ Fonctions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction ON/OFF
+-   Fonction uno/apagado
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -81,7 +81,7 @@ Caractéristiques Techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : noire
+-   Color : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -172,11 +172,11 @@ Voici la liste des commandes :
  \
 
 -   état : C'est la commande qui permet de connaitre le statut de la
-    lumière
+    Iluminación
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   uno : C'est la commande qui permet d'allumer la Iluminación
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   apagado : C'est la commande qui permet d'éteindre la Iluminación
 
  \
 
@@ -217,16 +217,16 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inactif : n'aura aucun effet sur les autres lumières
+-   Inactivo : n'aura aucun effet sur les autres Iluminacións
 
--   Uniquement OFF : sera effectif uniquement pour éteindre les autres
-    lumières
+-   Uniquement apagado : sera effectif uniquement pour éteindre les autres
+    Iluminacións
 
--   Uniquement ON : sera effectif uniquement pour allumer les autres
-    lumières
+-   Uniquement uno : sera effectif uniquement pour allumer les autres
+    Iluminacións
 
--   ON et OFF (fully) : sera effectif pour allumer et éteindre les
-    autres lumières
+-   uno et apagado (fully) : sera effectif pour allumer et éteindre les
+    autres Iluminacións
 
  \
 
@@ -249,13 +249,13 @@ Ce module possède deux groupes d'association.
 
  \
 
-Associer à une autre lumière 
+Associer à une autre Iluminación 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
-l'allumage d'une autre lumière, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre Iluminación et pouvoir bénéficier de
+l'allumage d'une autre Iluminación, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-spécifique.
+Especifico.
 
  \
 

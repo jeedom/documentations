@@ -19,7 +19,7 @@ aeotec Contrôleur de porte de garage
 
  \
 
-Résumé 
+Summary 
 ------
 
  \

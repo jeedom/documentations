@@ -19,7 +19,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -36,14 +36,14 @@ Ses principales caractéristiques sont :
 -   La possibilité d'envoyer un signal montée / descente en continu sans
     limite de temps.
 
-Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque
+Achtung: ce module n'envoie pas son état au contrôleur z-wave lorsque
 l'utilisateur appuie directement sur les boutons. Il faut faire un
 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
 plus loin).
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -103,7 +103,7 @@ Données du module
 
  \
 
-Connexion 
+Einloggen 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
@@ -163,7 +163,7 @@ Voici la liste des commandes :
 
 -   auffrischen : rafraichîr l'état actuel du module
 
--   Niveau : slider pour positionner une ouverture partielle
+-   Ebene : slider pour positionner une ouverture partielle
 
  \
 
@@ -224,7 +224,7 @@ et la seconde pour la descente.
 Les valeurs sont codées en héxadécimal dans le module et remises en
 décimal dans l'affichage de Jeedom.
 
-Par exemple : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
+Zum Beispiel : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
 pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
 décimal : 18s pour montée et descente.
 

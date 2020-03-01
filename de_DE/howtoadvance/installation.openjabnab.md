@@ -140,7 +140,7 @@ Vous devriez avoir :
 >
 > Il faut faire ctrl+c pour quitter le ping
 
-Par sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
+Von sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
 
     vim /etc/hosts
 
@@ -268,7 +268,7 @@ Maintenant allez sur :
 > **Notiz**
 >
 > Si tout est bon vous devriez avoir les statistique qui apparaissent en
-> bas
+> niedrig
 
 Configuration du lapin 
 ======================
@@ -574,7 +574,7 @@ et changer :
 
     TTS=acapela
 
-Par
+Von
 
     TTS=jeedom
 
