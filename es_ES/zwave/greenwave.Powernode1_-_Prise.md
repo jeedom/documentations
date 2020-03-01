@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -136,7 +136,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sous la prise.
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -175,7 +175,7 @@ disponible.
 
  \
 
-![comandos](images/greenwave.Powernode1/commandes.jpg)
+![Comandos](images/greenwave.Powernode1/commandes.jpg)
 
  \
 
@@ -202,22 +202,22 @@ en un seul bouton.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -242,7 +242,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

@@ -27,7 +27,7 @@ configurer comme cela :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **nota**
+> **Nota**
 >
 > Pensez bien à sélectionner le fichier ISO que vous avez téléchargé
 > juste avant
@@ -59,7 +59,7 @@ Ici il faut choisir "French" (Français)
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-idem :
+Idem :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
@@ -103,7 +103,7 @@ Validez en appuyant sur entrée :
 
 ![debian.installation13](images/debian.installation13.PNG)
 
-idem :
+Idem :
 
 ![debian.installation14](images/debian.installation14.PNG)
 
@@ -127,7 +127,7 @@ Validez en appuyant sur entrée :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-idem :
+Idem :
 
 ![debian.installation20](images/debian.installation20.PNG)
 

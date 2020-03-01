@@ -38,7 +38,7 @@ Il faut éditer le fichier /etc/ssh/sshd\_config et changer :
 
     PermitRootLogin withort-password
 
-by :
+By :
 
     PermitRootLogin yes
 

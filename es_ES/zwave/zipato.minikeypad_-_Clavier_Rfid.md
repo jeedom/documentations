@@ -39,7 +39,7 @@ qui a utilisé son badge.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -72,7 +72,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x AA 1,5V batteries
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Portée radio : 30m en champ libre
 
@@ -111,7 +111,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il suffit d'appuyer deux
 > secondes sur la languette métallique (la led rouge de la face avant
@@ -143,7 +143,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -160,7 +160,7 @@ Voici la liste des commandes :
 
  \
 
--   acción : c'est la commande qui remontera le home/away (5 pour away 6
+-   Acción : c'est la commande qui remontera le home/away (5 pour away 6
     pour home)
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
@@ -169,15 +169,15 @@ Voici la liste des commandes :
 -   CODIGO : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
@@ -195,7 +195,7 @@ de votre installation, il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -221,7 +221,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -233,7 +233,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 1.
@@ -274,7 +274,7 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pensez à réveiller le module après l'ajout d'un code ou badge.
 
@@ -358,7 +358,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

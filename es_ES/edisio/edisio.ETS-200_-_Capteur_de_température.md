@@ -20,7 +20,7 @@ est compact et discret.
 
 L'indicateur LED intégré signal tout changement d'état.
 
-funciones 
+Funciones 
 =========
 
 -   Capteur de température sans fil alimenté par piles
@@ -34,7 +34,7 @@ funciones
 
 -   Montage au mur par des vis ou par double face
 
--   información sur le niveau de la batterie
+-   Información sur le niveau de la batterie
 
 Caractéristiques Techniques 
 ===========================
@@ -47,7 +47,7 @@ Caractéristiques Techniques
 
 -   Autonomie : Jusqu'à 3 ans
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -71,12 +71,12 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **importante**
+> **Importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **punta**
+> **Punta**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -112,34 +112,34 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-comandos 
+Comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![comandos](images/ets200/ets200.commandes.jpg)
+![Comandos](images/ets200/ets200.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   Température : C'est la commande qui indique la température relevée
 
--   batería : Indique l'état de la batterie
+-   Batería : Indique l'état de la batterie
 
-información 
+Información 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponible :
 
-![comandos](images/ets200/ets200.informations.jpg)
+![Comandos](images/ets200/ets200.informations.jpg)
 
--   creación : Indique la date à laquelle l'équipement à été créé
+-   Creación : Indique la date à laquelle l'équipement à été créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Comunicación : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   batería : Indique l'état de la batterie des modules à piles
+-   Batería : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -93,7 +93,7 @@ Caractéristiques Techniques
 
 -   Ampoule Fluocompacte : 200W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -120,7 +120,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -131,7 +131,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -152,7 +152,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -161,7 +161,7 @@ disponible.
 
  \
 
-![comandos](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Comandos](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
  \
 
@@ -186,17 +186,17 @@ retrouvent sur le même icone.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -228,7 +228,7 @@ Détails des paramètres :
 -   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
     mode variation ou en mode on/off
 
-### grupos 
+### Grupos 
 
  \
 
@@ -240,7 +240,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

@@ -161,7 +161,7 @@ votre OS :
 
 ![vmware.createvm17](images/vmware.createvm17.PNG)
 
-> **wichtig**
+> **Wichtig**
 >
 > Un fois votre machine installée il faut ABSOLUMENT installer les
 > VMware tools (ça permet à VMware d'avoir des informations sur votre VM

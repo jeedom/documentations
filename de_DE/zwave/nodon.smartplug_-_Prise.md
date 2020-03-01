@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > jusqu'à que la lumière devienne rouge, conformément à sa documentation
@@ -262,7 +262,7 @@ Ce module possède 8 groupes d'association.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > A minima Jeedom devrait se retrouver dans les groupes 1 et 4  \
 

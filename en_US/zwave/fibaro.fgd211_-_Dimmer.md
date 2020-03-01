@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques Techniques
 
 -   Fusible : 2.5A
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -118,7 +118,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro FGMS-001 \[Motion Sensor\]
+-   Aux dernières : Fibaro FGMS-001 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
@@ -128,7 +128,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -175,7 +175,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgd211/commandes.jpg)
+![Vers](images/fibaro.fgd211/commandes.jpg)
 
  \
 
@@ -198,22 +198,22 @@ Icon
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: functions ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Functions ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

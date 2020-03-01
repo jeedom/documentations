@@ -4,7 +4,7 @@ Descripción
 La procédure va permettre de se connecter en SFTP à votre box afin
 d'aller récupérer les sauvegardes quotidiennes effectuées par celle-ci.
 
-> **punta**
+> **Punta**
 >
 > Attention, afin que cette procédure fonctionne, il est nécessaire que
 > le serveur SSH de la box soit toujours fonctionnel.

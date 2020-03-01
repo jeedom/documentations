@@ -11,12 +11,12 @@ box Jeedom, même authentification WiFi) . Bien entendu cela peut
 fonctionner également pour d'autres composants (ou pas) mais sans aucune
 garantie.
 
-> **wichtig**
+> **Wichtig**
 >
 > Attention cette procédure n'est surtout pas à faire sur mini+ sous
 > peine de perdre l'accès à celle-ci et de devoir tout réinstaller.
 
-> **wichtig**
+> **Wichtig**
 >
 > Cette doc est à appliquer à vos risques et périls en cas de soucis
 > l'équipe Jeedom ne pourra en aucun cas être tenue responsable.

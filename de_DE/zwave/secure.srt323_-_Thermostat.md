@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 2 Jahre
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut mettre le switch 1 en
 > position ON puis avec la molette afficher L et appuyer sur la molette,
@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
 > réveillez toujours le module juste après l'inclusion. Um dies zu tun
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Ce module est sur batterie. Donc il est important de noter qu'un
 > changement de consigne sera uniquement pris en compte au reveil. Par
@@ -293,7 +293,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

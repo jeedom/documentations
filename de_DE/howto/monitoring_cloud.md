@@ -39,7 +39,7 @@ Par default vous êtes prévenu par un mail sur votre mail configuré dans votre
 - Ajouter une alerte par SMS (attention cela necessite que vous ayez du crédit SMS sur le market)
 - Ajouter une alerte par Notification (nécessite l'app mobile) 
 
-> **teleg**
+> **Teleg**
 >
 > Vous pouvez trouver votre chatid a partir de jeedom en allant dans l'équipement telegram puis configuration avancé de la commande du destinataire voulu puis le bouton information et la dans le champs configuration vous avez le chatid
 
@@ -54,15 +54,15 @@ Après avoir ajouté du crédit monitoring cloud, il faut soit attendre quelques
 
 Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. Il faut environ 10min pour qu'il se lance suite à la synchronisation avec le market (clic sur le bouton test).
 
->**wichtig**
+>**Wichtig**
 >
 >Lors de la premiere activation ou réactivation il est possible que vous receviez un mail/telegram/slack/sms vous indiquant que votre Jeedom n'est pas disponible. C'est normal c'est le temps que le Jeedom en question active les services de monitoring.
 
->**wichtig**
+>**Wichtig**
 >
 > Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte
 
->**wichtig**
+>**Wichtig**
 >
 > Pour les notifications il suffit de récupérer l'arn de votre mobile, il se situe dans le plugin mobile, sur votre equipement mobile puis d'accéder à l'onglet "notification" puis copie la ligne "ARN" attention il faut prendre uniquement ce qu'il y a apres "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

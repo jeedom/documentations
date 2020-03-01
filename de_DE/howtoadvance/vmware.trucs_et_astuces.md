@@ -5,7 +5,7 @@ Ajouter sa licence
 ==================
 
 Une fois connecté sur l'interface web (IP\_ESXI/ui) il faut aller sur
-"verwalten" :
+"Verwalten" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
@@ -179,7 +179,7 @@ Ensuite transférez le zip sur un de vos datastores et faites :
 > Remplacer bien le chemin et le nom du zip en fonction de votre
 > Konfiguration
 
-> **wichtig**
+> **Wichtig**
 >
 > Attention à bien mettre le chemin complet vers le zip sinon ça ne
 > marche pas
@@ -195,7 +195,7 @@ Configuration du NTP
 
 Par défaut l'ESXi n'utilise pas le NTP ce qui fait qu'il n'est pas à
 l'heure et que les VMs ne sont pas à l'heure, pour corriger c'est très
-simple. Il faut aller à partir de la version web sur verwalten → Système →
+simple. Il faut aller à partir de la version web sur Verwalten → Système →
 Date et heure, là vous cliquez sur "Modifier les paramètres" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
@@ -264,7 +264,7 @@ Ensuite pour accéder à votre ESXi il vous suffit avec votre navigateur
 d'aller sur votre DNS ou IP externe en ajoutant /ui à la fin et c'est
 bon.
 
-> **wichtig**
+> **Wichtig**
 >
 > Si vous passez par le reverse proxy du NAS la console en mode web des
 > VMs ne fonctionne pas (car cela passe par du websocket), en revanche

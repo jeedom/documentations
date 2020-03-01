@@ -50,7 +50,7 @@ distance.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -61,7 +61,7 @@ funciones
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction uno/apagado
+-   Fonction Uno/Apagado
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -154,7 +154,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -163,7 +163,7 @@ disponible.
 
  \
 
-![comandos](images/swiid.inter/commandes.jpg)
+![Comandos](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -174,9 +174,9 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaitre le statut de la
     Iluminación
 
--   uno : C'est la commande qui permet d'allumer la Iluminación
+-   Uno : C'est la commande qui permet d'allumer la Iluminación
 
--   apagado : C'est la commande qui permet d'éteindre la Iluminación
+-   Apagado : C'est la commande qui permet d'éteindre la Iluminación
 
  \
 
@@ -185,17 +185,17 @@ icono
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -219,18 +219,18 @@ swiidinter à un autre module (appui long)
 
 -   Inactivo : n'aura aucun effet sur les autres Iluminacións
 
--   Uniquement apagado : sera effectif uniquement pour éteindre les autres
+-   Uniquement Apagado : sera effectif uniquement pour éteindre les autres
     Iluminacións
 
--   Uniquement uno : sera effectif uniquement pour allumer les autres
+-   Uniquement Uno : sera effectif uniquement pour allumer les autres
     Iluminacións
 
--   uno et apagado (fully) : sera effectif pour allumer et éteindre les
+-   Uno et Apagado (fully) : sera effectif pour allumer et éteindre les
     autres Iluminacións
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -242,7 +242,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.

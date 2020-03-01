@@ -1,16 +1,16 @@
 Why ? 
 ==========
 
--   Apache va devenir petit à petit la norme avec jeedom
+-   Apache va devenir petit à petit la norme avec Jeedom
 
 -   Permet d'avoir les dernières mises à jour de sécurité au niveau de
     l'accès aux fichiers (grâce au .htaccess) lors des mises à jour de
-    jeedom
+    Jeedom
 
 -   Corrige certains soucis d'accès et de stabilité (notamment pour ceux
     qui ont beaucoup de caméras)
 
--   Améliore les performances globales de jeedom.
+-   Améliore les performances globales de Jeedom.
 
 Prérequis 
 =========
@@ -22,7 +22,7 @@ Prérequis
 
 > **IMPORTANT**
 >
-> En cas de soucis l'équipe jeedom ne pourra être tenue responsable et
+> En cas de soucis l'équipe Jeedom ne pourra être tenue responsable et
 > pourra refuser toute demande de support. La manipulation est à vos
 > risques et périls.
 
@@ -34,10 +34,10 @@ Prérequis
 How to do 
 =============
 
-Désactivation des services jeedom et nginx 
+Désactivation des services Jeedom et nginx 
 ------------------------------------------
 
-Dans jeedom, il faut aller sur chaque plugin ayant un démon, puis
+Dans Jeedom, il faut aller sur chaque plugin ayant un démon, puis
 désactiver la gestion automatique du démon et couper celui-ci. It is necessary
 ensuite, dans le moteur de tâches, désactiver toutes les tâches (il y un
 bouton de désactivation générale) et dans les scénarios, désactiver tous
@@ -68,7 +68,7 @@ Installation et configuration d'Apache
 > non garder une version modifiée d'un fichier, faites : "Keep the local
 > version currently installed".
 
-Copie de jeedom 
+Copie de Jeedom 
 ---------------
 
     cp -R /usr/share/nginx/www/jeedom/* /var/www/html/
@@ -82,7 +82,7 @@ Test d'accès
 
     systemctl start mysql
 
-Vous devriez maintenant pouvoir accéder à jeedom depuis la même URL
+Vous devriez maintenant pouvoir accéder à Jeedom depuis la même URL
 qu'avant. Si c'est bon vous pouvez continuer SINON IL NE FAUT SURTOUT
 PAS FAIRE LA SUITE.
 
@@ -93,11 +93,11 @@ MAKE :
 
     crontab -e
 
-Puis mettre à jour le chemin d'accès à jeedom, remplacer :
+Puis mettre à jour le chemin d'accès à Jeedom, remplacer :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /usr/share/nginx/www/jeedom/core/php/jeeCron.php' >> /dev/null 2>&1
 
-by :
+By :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /var/www/html/core/php/jeeCron.php' >> /dev/null 2>&1
 
@@ -115,10 +115,10 @@ Redémarrage des services
     systemctl enable apache2
     systemctl start cron
 
-Ensuite connectez-vous à votre jeedom et réactivez le moteur de tâches
+Ensuite connectez-vous à votre Jeedom et réactivez le moteur de tâches
 et les scénarios. Vous pouvez aussi relancer les démons.
 
 > **IMPORTANT**
 >
 > Il est conseillé après la migration de lancer une mise à jour de
-> jeedom (même s'il ne vous propose rien).
+> Jeedom (même s'il ne vous propose rien).

@@ -93,7 +93,7 @@ Caractéristiques Techniques
 
 -   Ampoule Fluocompacte : 200W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -131,7 +131,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -240,7 +240,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

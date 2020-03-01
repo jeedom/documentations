@@ -106,7 +106,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton (jusqu'au clignotement rapide) et relacher, conformément à

@@ -1,4 +1,4 @@
-aeotec Contrôleur de porte de garage 
+Aeotec Contrôleur de porte de garage 
 ====================================
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -107,7 +107,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Nombre : Garage Door Controller (ZW062)
 
@@ -119,7 +119,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -158,7 +158,7 @@ disponible.
 
  \
 
-![comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -178,22 +178,22 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -219,7 +219,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

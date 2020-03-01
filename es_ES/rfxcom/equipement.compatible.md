@@ -74,7 +74,7 @@
 | TFA 30.3139 RADIO SENSOR    | Température    |                |                |                |
 | WD18           | Détecteur d'Eau     | X10            |                |                |
 
-> **nota**
+> **Nota**
 >
 > Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne
 > peut donc garantir que tous les modules de cette liste sont 100%

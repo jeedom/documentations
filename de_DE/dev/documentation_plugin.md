@@ -59,7 +59,7 @@ Il vous faut maintenant mettre les liens de votre documentation dans le fichier 
 Si votre plugin est structuré comme conseil au dessus alors la gestion des traductions est très simple a mettre en place en plus d'etre automatique, il suffit d'autoriser l'utilisateur github zoic21 à push/pull sur votre dépot et dans le market sur la page d'édition de votre plugin dans l'onglet github de cocher "Activer la génération de la documention et de la traduction". Le robot passe tous les jours à 12h (plus ou moins 2h en fonction de la charge de travails) pour recuperer la documentation Francaise de votre plugin et le Changelog (branche beta) la pousser sur transiflex (systeme de traduction communautaire), recuperer les nouvelles traduction et le pousser sur votre dépot github dans les bons dossier.
 
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour que la partie gestion de la traduction marche en automatique il faut obligatoirement que votre plugin soit hebergé sur Github
 

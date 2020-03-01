@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -68,13 +68,13 @@ funciones
 
 -   S'adapte à tout style de décoration
 
--   batería rechargeable
+-   Batería rechargeable
 
 -   Très faible consommation d'énergie
 
 -   Longue durée de vie de la batterie (6 mois par charge)
 
--   apoyo magnétique
+-   Apoyo magnétique
 
 -   LED d'indication RGBW
 
@@ -87,21 +87,21 @@ Caractéristiques Techniques
 
  \
 
--   Alimentation : batería Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : Batería Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
 
 -   Consommation en fonctionnement : 45mA
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 100m en extérieur, 40m en intérieur
 
 -   Dimensions :
 
-apoyo : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) apoyo + Bouton : 71,16 x 17,22 mm (diamétre
+Apoyo : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
+mm (diamétre x épaisseur) Apoyo + Bouton : 71,16 x 17,22 mm (diamétre
 x épaisseur) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
@@ -126,7 +126,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
@@ -157,7 +157,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -166,7 +166,7 @@ disponible.
 
  \
 
-![comandos](images/philio.psr04/commandes.jpg)
+![Comandos](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -177,16 +177,16 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   batería : c'est la commande qui remonte l'état de batterie du
+-   Batería : c'est la commande qui remonte l'état de batterie du
     module
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,11 +195,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -289,7 +289,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

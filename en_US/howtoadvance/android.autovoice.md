@@ -42,7 +42,7 @@ On ajoute un nouveau profil avec un **Etat** comme déclencheur.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
-On sélectionne **plugin** sur le premier écran.
+On sélectionne **Plugin** sur le premier écran.
 
 ![android.autovoice2](images/android.autovoice2.png)
 

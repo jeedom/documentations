@@ -63,7 +63,7 @@ virtuelle.
 ![image00](images/volet.ematronic/image00.png)
 
 Choisir dans la liste des équipements le template : "Volet Ematronic -
-fault".
+Fault".
 
 Remplacer l'ID automatique par celui que vous avez extrait précédemment
 et Cocher "Activer" et "Visible" :
@@ -71,7 +71,7 @@ et Cocher "Activer" et "Visible" :
 ![image11](images/volet.ematronic/image11.png)
 
 Cliquer sur "Sauvegarder" pour enregistrer votre configuration et
-charger le template "Volet Ematronic - fault".
+charger le template "Volet Ematronic - Fault".
 
 ![image02](images/volet.ematronic/image02.png)
 

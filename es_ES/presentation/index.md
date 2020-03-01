@@ -16,9 +16,9 @@ des fonctions de base.
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
--   *interacción,*
+-   *Interacción,*
 
-![Page interacción](images/doc-presentation-interaction.png)
+![Page Interacción](images/doc-presentation-interaction.png)
 
 -   *Mise à jour et sauvegarde.*
 
@@ -53,7 +53,7 @@ base normalisée. Cela permet par exemple d'utiliser les plugins
 thermostat ou alarme avec n'importe quel protocole domotique ou même un
 plugin IP ou objet communiquant…​
 
-principio
+Principio
 === 
 
 Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui
@@ -117,4 +117,4 @@ Voici la liste des tutoriels disponibles :
     Alarme](https://www.youtube.com/watch?v=JjnWeU614gc)
 
 -   [Tuto Jeedom \#14 : Découverte des
-    interaccións](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+    Interaccións](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 

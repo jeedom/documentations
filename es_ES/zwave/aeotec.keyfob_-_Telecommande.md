@@ -1,4 +1,4 @@
-aeotec Keyfob 
+Aeotec Keyfob 
 =============
 
  \
@@ -39,7 +39,7 @@ bien utilisée comme contrôleur principal que secondaire.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -71,7 +71,7 @@ Caractéristiques Techniques
 
 -   Durée de vie de la batterie : 1 año
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -86,7 +86,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Nombre : Key Fob
 
@@ -98,7 +98,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -109,7 +109,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -137,7 +137,7 @@ disponible.
 
  \
 
-![comandos](images/aeotec.keyfob/commandes.jpg)
+![Comandos](images/aeotec.keyfob/commandes.jpg)
 
  \
 
@@ -145,7 +145,7 @@ Voici la liste des commandes :
 
  \
 
--   botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -165,11 +165,11 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -178,16 +178,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -207,7 +207,7 @@ entre la télécommande et des modules.
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -272,7 +272,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

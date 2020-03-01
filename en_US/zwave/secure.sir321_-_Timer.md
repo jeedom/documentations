@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -86,7 +86,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   aux dernières : SIR 321 RF Countdown Timer
+-   Aux dernières : SIR 321 RF Countdown Timer
 
 -   Fabricant ID : 89
 
@@ -95,7 +95,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -135,7 +135,7 @@ available.
 
  \
 
-![vers](images/secure.sir321/commandes.jpg)
+![Vers](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -152,16 +152,16 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Si vous voulez configurer le module il faut passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

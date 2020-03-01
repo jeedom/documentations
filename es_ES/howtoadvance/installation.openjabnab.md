@@ -1,7 +1,7 @@
 Voici un tuto sur comment installer openjabnab en local (sur un rpi ou
 humming)
 
-> **nota**
+> **Nota**
 >
 > Ce tuto est largement inspiré de
 > [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -43,7 +43,7 @@ Le résultat est :
 
 Ici l'adresse IP est la 192.168.0.162.
 
-> **nota**
+> **Nota**
 >
 > Pour toute la suite du tuto j'utiliserai cette IP, elle est bien sûr à
 > remplacer en fonction de celle que vous avez réellement
@@ -110,7 +110,7 @@ Et mettez :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **importante**
+> **Importante**
 >
 > Pensez bien à remplacer le 162 de la dernière ligne par la dernière
 > partie de l'ip de votre système
@@ -136,11 +136,11 @@ Vous devriez avoir :
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min/avg/max/mdev = 0.059/0.065/0.069/0.010 ms
 
-> **nota**
+> **Nota**
 >
 > Il faut faire ctrl+c pour quitter le ping
 
-por sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
+Por sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
 
     vim /etc/hosts
 
@@ -165,7 +165,7 @@ Puis cloner openjabnab :
 Configuration du serveur web 
 ============================
 
-faites :
+Faites :
 
     cd /etc/apache2/sites-available/
     vim ojn.conf
@@ -210,21 +210,21 @@ Puis on redémarre apache :
 Installation d'openjabnab 
 =========================
 
-faites :
+Faites :
 
     su ojn
     cd /home/ojn/OpenJabNab/server
     qmake -r
     make
 
-> **nota**
+> **Nota**
 >
 > Cette étape peut être très longue (jusqu'à 45min)
 
 Configuration d'openjabnab 
 ==========================
 
-faites :
+Faites :
 
     cp openjabnab.ini-dist bin/openjabnab.ini
     vim bin/openjabnab.ini
@@ -250,7 +250,7 @@ Puis allez sur :
 
     http://ojn.raspberry.pi/ojn_admin/install.php
 
-validez le tout
+Validez le tout
 
 Lancement du serveur 
 ====================
@@ -265,7 +265,7 @@ Maintenant allez sur :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **nota**
+> **Nota**
 >
 > Si tout est bon vous devriez avoir les statistique qui apparaissent en
 > bajo
@@ -293,7 +293,7 @@ Surveillance du serveur openjabnab et démarrage auto
 
 Comme vous le remarquerez si vous fermez votre session le serveur
 openjabnab s'arrête. Il faut donc ajouter un petit script pour
-surveiller le serveur et le démarrer automatiquement. faites :
+surveiller le serveur et le démarrer automatiquement. Faites :
 
     cd /home/ojn
     vim checkojn.sh
@@ -318,7 +318,7 @@ Et ajoutez :
     @reboot /home/ojn/checkojn.sh
     */15 * * * * /home/ojn/checkojn.sh
 
-> **importante**
+> **Importante**
 >
 > Il faut absolument le mettre dans la crontab de root, si vous êtes
 > encore avec l'Usuario ojn faites ctrl+D
@@ -399,7 +399,7 @@ Mettre le TTS en local
 Tout est local sauf le TTS qui passe par le site Acapela mais il est
 possible en modifiant quelques fichiers de le passer en local
 
-> **nota**
+> **Nota**
 >
 > Je vais considérer que oenjabnab est installé dans
 > /home/ojn/OpenJabNab et que vous êtes connecté en tant que
@@ -549,7 +549,7 @@ Il faut ensuite faire 3 fichiers :
       return ttsHTTPUrl.arg(voice, fileName).toAscii();
     }
 
-> **nota**
+> **Nota**
 >
 > N'oubliez pas de remplacer les TODO
 
@@ -574,7 +574,7 @@ et changer :
 
     TTS=acapela
 
-por
+Por
 
     TTS=jeedom
 

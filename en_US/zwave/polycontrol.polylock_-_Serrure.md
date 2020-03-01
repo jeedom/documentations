@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
     bâtiments
@@ -96,7 +96,7 @@ Données du module
 
 -   Marque : Poly-Control
 
--   aux dernières : Polylock
+-   Aux dernières : Polylock
 
 -   Fabricant ID : 270
 
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -145,7 +145,7 @@ available.
 
  \
 
-![vers](images/polycontrol.polylock/commandes.jpg)
+![Vers](images/polycontrol.polylock/commandes.jpg)
 
  \
 
@@ -160,15 +160,15 @@ Voici la liste des commandes :
 
 -   To close : c'est la commande qui permet de fermer la serrure
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
-> **warning**
+> **Warning**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -178,12 +178,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "d'actualité" du
+installation, il faut pour cela passer par la bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

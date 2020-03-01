@@ -3,7 +3,7 @@ Installation du plugin Z-wave
 
  \
 
-if you n'en disposez pas encore, il va vous falloir installer le plugin
+If you n'en disposez pas encore, il va vous falloir installer le plugin
 Z-Wave, pas d'inquiétude, cela ne demande que quelques secondes. Pour ce
 faire, il suffit de se rendre dans le menu « Général », puis « Plugins »
 
@@ -32,7 +32,7 @@ le bouton « activer » qui apparait.
 
  \
 
-Une fois le plugin activé, vous avez accès à sa configuration. if you
+Une fois le plugin activé, vous avez accès à sa configuration. If you
 utilisez une box Jeedom Officiel (Mini, Mini+) veuillez ne pas toucher à
 la configuration, cependant vous pouvez renseigner un nom dans le champ
 « Serveur Z-wave nom » (ici Jeebox), même chose si vous êtes sur une

@@ -1,4 +1,4 @@
-aeotec Minimote 
+Aeotec Minimote 
 ===============
 
  \
@@ -69,7 +69,7 @@ Caractéristiques Techniques
 
 -   Anzeigen: LED bleue et rouge
 
--   fréquence : 868,42MHz
+-   Fréquence : 868,42MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -84,7 +84,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Name : Minimote
 
@@ -107,7 +107,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -167,7 +167,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -260,7 +260,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

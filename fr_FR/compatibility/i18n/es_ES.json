@@ -1,6 +1,6 @@
 {
     "compatibility\/index.md": {
-        "Hardware": "hardware",
+        "Hardware": "Hardware",
         "Hardware | Etat | Remarques": "Hardware | Etat | Remarques",
         "| --- |": "| --- |",
         "Jeedomboard             | Stable                  |": "Jeedomboard             | Stable                  |",
@@ -18,7 +18,7 @@
         "Images": "Images",
         "Vous pouvez retrouver toutes les images Jeedom": "Vous pouvez retrouver toutes les images Jeedom",
         "puis dans le dossier Images": "puis dans le dossier Images",
-        "Note": "nota",
+        "Note": "Nota",
         "Une image netinstall va lors du premier démarrage installer la": "Une image netinstall va lors du premier démarrage installer la",
         "dernière version stable de Jeedom, ce démarrage est donc un peu plus": "dernière version stable de Jeedom, ce démarrage est donc un peu plus",
         "long et nécessite d'avoir accès à internet": "long et nécessite d'avoir accès à internet",
@@ -39,7 +39,7 @@
         "Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian": "Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian",
         "(Ordoid,…​), …​": "(Ordoid,…​), …​",
         "Logiciel": "Logiciel",
-        "Important": "importante",
+        "Important": "Importante",
         "Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable)": "Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable)",
         "Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas": "Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas",
         "supportée par Jeedom": "supportée par Jeedom",

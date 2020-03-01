@@ -40,12 +40,12 @@ Puis redémarrage du PI3
 
     sudo reboot
 
-> **importante**
+> **Importante**
 >
 > Pour éviter les problèmes de puissance, optez pour un disque SSD mSATA
 > à faible consommation.
 
-> **punta**
+> **Punta**
 >
 > Vous pouvez désormais installer Jeedom en suivant exactement la même
 > procédure qu'avec une carte SD.
@@ -56,7 +56,7 @@ Ajustements possibles
 
 **Il faut ensuite prendre en compte les remarques suivantes :**
 
-> **importante**
+> **Importante**
 >
 > Les modifications suivantes sont le fruit de problèmes rencontrés par
 > les utilisateurs. Vous devez les adapter à votre cas. Le support

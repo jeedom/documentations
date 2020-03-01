@@ -6,7 +6,7 @@
 - Avoir attendu la validation du compte market comme developpeur
 - Avoir mis votre plugin sur github (dépot privé ou non)
 
-## d'actualité
+## D'actualité
 
 Une fois connecté avec votre compte dev sur le market il faut : 
 
@@ -15,7 +15,7 @@ Une fois connecté avec votre compte dev sur le market il faut :
   - Main : 
     - Price
     - Id (celui dans le fichier info.json)
-    - aux dernières
+    - Aux dernières
     - Jeedom Cibles
     - Si il est privé ou non pour commencer
   - Documentation and links

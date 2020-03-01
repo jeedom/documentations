@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -95,7 +95,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -106,7 +106,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton (jusqu'au clignotement rapide) et relacher, conformément à
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -135,7 +135,7 @@ disponible.
 
  \
 
-![comandos](images/secure.sir321/commandes.jpg)
+![Comandos](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -152,16 +152,16 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Si vous voulez configurer le module il faut passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

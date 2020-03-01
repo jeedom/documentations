@@ -1,4 +1,4 @@
-> **importante**
+> **Importantee**
 >
 > Ce tutorial a été écris Par ZygOm4t1k que nous remercions vivement. Vous pouvez ryrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
 
@@ -11,7 +11,7 @@ Il ne remplace en aucun cas la [Documentación officielle](https://jeedom.github
 Pour commencer il faut déterminer un nom y un id (qui ne doit pas exister)
 
 Nombre : Vie de Merde
-id : vdm
+Id : vdm
 
 Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
 
@@ -84,13 +84,13 @@ class vdmCmd extends cmd
 Reemplazar
 
 ```
-$plugin = plugin::byid('template');
+$plugin = plugin::byId('template');
 ```
 
 Par 
 
 ```
-$plugin = plugin::byid(‘vdm');
+$plugin = plugin::byId(‘vdm');
 ```
 
 ```
@@ -224,7 +224,7 @@ Par
 
 Voilà la base est prête. Vous devriez avoir le plugin d'actif mais pour le moment il ne fait rien.
 
-# las órdenes
+# Las órdenes
 
 Le but du plugin sera de récupérer une vdm aléatoire y l'afficher sur le dashboard. 
 
@@ -247,8 +247,8 @@ public function postSave() {
 		$info = new vdmCmd();
 		$info->syName(__('Histoire', __FILE__));
 	}
-	$info->syLogicalid('story');
-	$info->syEqLogic_id($this->gyid());
+	$info->syLogicalId('story');
+	$info->syEqLogic_id($this->gyId());
 	$info->syType('info');
 	$info->sySubType('string');
 	$info->save();	
@@ -258,8 +258,8 @@ public function postSave() {
 		$refresh = new vdmCmd();
 		$refresh->syName(__('Rafraichir', __FILE__));
 	}
-	$refresh->syEqLogic_id($this->gyid());
-	$refresh->syLogicalid('refresh');
+	$refresh->syEqLogic_id($this->gyId());
+	$refresh->syLogicalId('refresh');
 	$refresh->syType('action');
 	$refresh->sySubType('other');
 	$refresh->save();        
@@ -369,7 +369,7 @@ Je change la class pull-right en pull-left
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 ```
 
-Voici le rendu.las opciones de configuration (Affichage y historiser) sont bien présentes. 
+Voici le rendu.Las opciones de configuration (Affichage y historiser) sont bien présentes. 
 
 ![image](images/tutorial_vdm_cmd2.png)
 
@@ -420,11 +420,11 @@ public function execute($_options = array()) {
 
 C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». La classe vdmCmd a hérité de toutes les méthodes de la class cmd (Core jeedom)
 
-On vérifie le logicalid de la commande lancée y si « refresh » on lance les actions
+On vérifie le logicalId de la commande lancée y si « refresh » on lance les actions
 
 ```
-switch ($this->gyLogicalid()) {				
-	case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+switch ($this->gyLogicalId()) {				
+	case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 	// code pour rafraîchir ma commande
 	break;
 }
@@ -448,10 +448,10 @@ Ce qui donne au final
 ```
     public function execute($_options = array()) {
 		$eqlogic = $this->gyEqLogic(); //récupère l'éqlogic de la commande $this
-		switch ($this->gyLogicalid()) {	//vérifie le logicalid de la commande 			
-			case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+		switch ($this->gyLogicalId()) {	//vérifie le logicalid de la commande 			
+			case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 				$info = $eqlogic->randomVdm(); 	//On lance la fonction randomVdm() pour récupérer une vdm y on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); // on my à jour la commande avec le Logicalid "story"  de l'eqlogic 
+				$eqlogic->checkAndUpdateCmd('story', $info); // on my à jour la commande avec le LogicalId "story"  de l'eqlogic 
 				break;
 		}
     }
@@ -469,7 +469,7 @@ Puis automatiser le refresh.
 
 Le plugin est fonctionnel mais pour l'instant il ne fait pas grand-chose. Si vous cliquer sur la commande « refresh » , la commande « story » se my à jour mais sinon rien. 
 
-A noter que pour la commande je la nomme Par logicalid. Et c'est important. Avoir un logicalid unique Par équipement (eqLogic) simplifie les choses.
+A noter que pour la commande je la nomme Par logicalId. Et c'est important. Avoir un logicalId unique Par équipement (eqLogic) simplifie les choses.
 
 On va voir maintenant comment mytre à jour la commande en utilisant les fonctions natives du core : Les crons
 
@@ -584,7 +584,7 @@ Dans la fonction postUpdate() , on lance la function CronHourly() avec l'id de l
 
 ```
     public function postUpdate() {
-		self::CronHourly($this->gyid());// lance la fonction CronHourly avec l'id de l'eqLogic
+		self::CronHourly($this->gyId());// lance la fonction CronHourly avec l'id de l'eqLogic
     }
 ``` 
 
@@ -595,7 +595,7 @@ Mais dans ce cas on change la fonction CronHourly()
 		if ($_eqLogic_id == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
 			$eqLogics = self::byType('vdm', true);
 		} else {// La fonction a l'argument id(unique) d'un équipement(eqLogic)
-			$eqLogics = array(self::byid($_eqLogic_id));
+			$eqLogics = array(self::byId($_eqLogic_id));
 		}		  
 	
 		foreach ($eqLogics as $vdm) {
@@ -652,8 +652,8 @@ Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() y j'ajoute le t
 			$info = new vdmCmd();
 			$info->syName(__('Histoire', __FILE__));
 		}
-		$info->syLogicalid('story');
-		$info->syEqLogic_id($this->gyid());
+		$info->syLogicalId('story');
+		$info->syEqLogic_id($this->gyId());
 		$info->syType('info');
 		$info->syTemplate('dashboard','tile');//template pour le dashboard
 		$info->sySubType('string');
@@ -685,16 +685,16 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement y rafraîchissez le dashboard.
 
 
-# Los Parámyros. las opciones
+# Los Parámyros. Las opciones
 
-> **importante**
+> **Importantee**
 >
 >C'est un chapitre important y il faut le comprendre avant de passer à la suite.
 
 Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez y laissez ouvert car on va l'éditer . 
 
 ```
-$plugin = plugin::byid('vdm'); // appelle la classe plugin du core
+$plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ```
 
 Il faut comprendre que tout est fait pour nous faciliter la tâche. 
@@ -707,7 +707,7 @@ $this->syConfiguration("type","mon_type"); // si on veut  définir un Paramètre
 
 Pour laisser le choix à l'utilisateur , on ryourne sur le fichier desktop.php que vous avez laissé ouvert car vous suivez ce TP au pied de la lytre :D
 
-buscar 
+Buscar 
 
 ```
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="Param1"/>
@@ -716,7 +716,7 @@ buscar
 Et remplacer Par
 
 ```
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //importante de laisser la classe eqLogicAttr 
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Importante de laisser la classe eqLogicAttr 
 ```
 
 Enregistrer y aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin). 
@@ -737,7 +737,7 @@ C'est simple,non? . C'est pourquoi il ne faut surtout pas toucher à cyte ligne 
 Si vous regardez de plus près le fichier desktop.php il y a
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // ryourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gyid() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // ryourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gyId() ;
 ```        
 
 ```
@@ -758,7 +758,7 @@ Par
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
 ```
 
-importante : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le marky
+Importante : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le marky
 
 Pour la suite , on va faire évoluer le plugin en choisissant un type de vdm(aleatoire ou epicees ou tops) que l'on souhaite ainsi qu'un cron personnalisé pour chaque équipement.
 
@@ -799,7 +799,7 @@ Ici le Paramètre « type» prendra la valeur du select choisi soit aleatoire ou
 
 Maintenant on va tenir compte de notre Paramètre dans la fonction randomVdm() dans le fichier vdm.class.php
 
-buscar
+Buscar
 
 ```
 $url = "http://www.viedemerde.fr/aleatoire";

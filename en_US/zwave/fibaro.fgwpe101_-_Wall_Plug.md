@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Charge maxi : 2.5kW
 
--   fréquence : 868,42 Mhz EU
+-   Fréquence : 868,42 Mhz EU
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -87,7 +87,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Wall Plug FGWPE-101
+-   Aux dernières : Wall Plug FGWPE-101
 
 -   Fabricant ID : 271
 
@@ -97,7 +97,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -127,7 +127,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -136,7 +136,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgwpe101/commandes.jpg)
+![Vers](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -163,17 +163,17 @@ en un seul bouton.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

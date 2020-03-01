@@ -101,7 +101,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (+ et 0 plein) jusqu'à que la lumière devienne rose puis
@@ -161,7 +161,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -226,7 +226,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -269,7 +269,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

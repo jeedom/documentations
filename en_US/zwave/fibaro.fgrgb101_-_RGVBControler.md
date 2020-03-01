@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-functions 
+Functions 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -108,7 +108,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro FGRGB-101 RGBW
+-   Aux dernières : Fibaro FGRGB-101 RGBW
 
 -   Fabricant ID : 271
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
@@ -146,16 +146,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
 Une fois le module reconnu, les commandes associées au module seront
 available.
 
  \
 
-![vers](images/fibaro.fgrgb101/commande_1.png)
+![Vers](images/fibaro.fgrgb101/commande_1.png)
 
-![vers](images/fibaro.fgrgb101/commande_2.png)
+![Vers](images/fibaro.fgrgb101/commande_2.png)
 
  \
 
@@ -198,20 +198,20 @@ Icon
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### groups 
+### Groups 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.

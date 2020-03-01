@@ -47,7 +47,7 @@ de consommation instantanée (en W) et la consommation électrique totale
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -115,7 +115,7 @@ Caractéristiques Techniques
 
 -   Type de lampe compatible (non dimmable) : Fluocompacte, LED
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Potencia du signal : 1mW
 
@@ -149,7 +149,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -160,7 +160,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier. Si le
@@ -173,7 +173,7 @@ inclusion référez-vous à cette
 
  \
 
-> **punta**
+> **Punta**
 >
 > Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure
 > en faisant de nombreux allers-retours sur l'interrupteur ou de
@@ -189,7 +189,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -198,7 +198,7 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgd212/commandes.jpg)
+![Comandos](images/fibaro.fgd212/commandes.jpg)
 
  \
 
@@ -216,10 +216,10 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaître le statut de la
     Iluminación
 
--   Consommation : c'est la commande qui permet de remonter la
+-   Consommation : C'est la commande qui permet de remonter la
     consommation du module
 
--   Potencia : c'est la commande qui permet de remonter la puissance
+-   Potencia : C'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
@@ -227,17 +227,17 @@ icono
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -266,7 +266,7 @@ EN COURS DE REDACTION
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

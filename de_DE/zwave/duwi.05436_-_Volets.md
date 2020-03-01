@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Fusible : T8AH
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Dimensions : 52 x 52 x 31mm
 
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre le module en mode inclusion, il faut appuyer trois fois
 > sur la montée ou la descente. L'exclusion se fait de la même manière.
@@ -161,7 +161,7 @@ Voici la liste des commandes :
 
 -   STOP : arrêt immédiat du mouvement
 
--   auffrischen : rafraichîr l'état actuel du module
+-   Auffrischen : rafraichîr l'état actuel du module
 
 -   Ebene : slider pour positionner une ouverture partielle
 

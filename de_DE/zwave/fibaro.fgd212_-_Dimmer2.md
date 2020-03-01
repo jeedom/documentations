@@ -115,7 +115,7 @@ Caractéristiques Techniques
 
 -   Type de lampe compatible (non dimmable) : Fluocompacte, LED
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Macht du signal : 1mW
 
@@ -160,7 +160,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier. Si le
@@ -216,10 +216,10 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaître le statut de la
     Licht
 
--   Consommation : c'est la commande qui permet de remonter la
+-   Consommation : C'est la commande qui permet de remonter la
     consommation du module
 
--   Macht : c'est la commande qui permet de remonter la puissance
+-   Macht : C'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même

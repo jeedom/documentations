@@ -19,21 +19,21 @@ Le meilleur moyen d'être tranquille est d'utiliser les deux : Faire une
 salvaguardia de la carte microSD de temps en temps et programmer une
 salvaguardia régulière de Jeedom.
 
-> **punta**
+> **Punta**
 >
 > La procédure de restauration de la carte microSD peut-être utile pour
 > restaurer un Jeedom par défaut à partir de l'Imagen fournie par
 > l'équipe voir
 > [ici](https://www.jeedom.fr/doc/documentation/installation/fr_FR/doc-installation.html).
 
-salvaguardia/Restauration de Jeedom 
+Salvaguardia/Restauration de Jeedom 
 =================================
 
 Une documentation est déjà présente pour expliquer la page
-Administration→salvaguardias. Vous la trouverez
+Administration→Salvaguardias. Vous la trouverez
 [ici](https://jeedom.github.io/core/fr_FR/backup).
 
-salvaguardia/Restauration de la carte microSD 
+Salvaguardia/Restauration de la carte microSD 
 ===========================================
 
 Préparatifs 
@@ -61,7 +61,7 @@ Sous Windows
 Il faudra commencer par télécharger un logiciel tiers par exemple :
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskImagenr/)
 
-1.  **salvaguardia**
+1.  **Salvaguardia**
 
     -   Lancez le logiciel et vérifiez que la lettre en dessous de
         *Device* corresponde bien à celle de votre carte/lecteur
@@ -95,7 +95,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 
 ![save restore11](Imagens/save-restore11.jpg)
 
-1.  **salvaguardia**
+1.  **Salvaguardia**
 
     -   Avec ApplePi-Baker : Sélectionnez la bonne carte dans la liste
         *Pi-Crust*, et cliquez sur *Create Backup* afin de créer un
@@ -140,7 +140,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 Sous Linux 
 ----------
 
-1.  **salvaguardia**
+1.  **Salvaguardia**
 
     -   Afin de trouver le disque correspondant à la carte, ouvrez un
         terminal et saisissez la commande : `sudo fdisk -l | grep Dis`

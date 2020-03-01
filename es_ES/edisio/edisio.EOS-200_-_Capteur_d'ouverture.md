@@ -22,7 +22,7 @@ Le signal est uniquement envoyé à la séparation du capteur de son
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
 recepteur
 
-funciones 
+Funciones 
 =========
 
 -   Capteur magnétique sans fil alimenté par piles
@@ -37,7 +37,7 @@ funciones
 
 -   Auto-protection à l'arrachage
 
--   información sur le niveau de la batterie
+-   Información sur le niveau de la batterie
 
 -   Montage au mur par des vis ou par un adhésif double face
 
@@ -48,7 +48,7 @@ Caractéristiques techniques
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -74,7 +74,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **importante**
+> **Importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -87,14 +87,14 @@ Capteur de température.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-configuración 
+Configuración 
 -------------
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **nota**
+> **Nota**
 >
 > Il faudra donc configurer votre capteur, si vous souhaitez avoir un
 > widget avec une porte fermée lorsque celle-ci l'est.
@@ -114,40 +114,40 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **punta**
+> **Punta**
 >
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-comandos 
+Comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![comandos](images/eos200/eos200.commandes.jpg)
+![Comandos](images/eos200/eos200.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   Porte : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
--   batería : Indique l'état de la batterie
+-   Batería : Indique l'état de la batterie
 
-información 
+Información 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponible :
 
-![comandos](images/eos200/eos200.informations.jpg)
+![Comandos](images/eos200/eos200.informations.jpg)
 
--   creación : Indique la date à laquelle l'équipement à été créé
+-   Creación : Indique la date à laquelle l'équipement à été créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Comunicación : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   batería : Indique l'état de la batterie des modules à piles
+-   Batería : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

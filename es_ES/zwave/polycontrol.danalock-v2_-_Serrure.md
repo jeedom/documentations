@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -142,7 +142,7 @@ Caractéristiques Techniques
 
 -   Matériau : Aluminium massif anodisé
 
--   Communication : Bluetooth et Z-Wave
+-   Comunicación : Bluetooth et Z-Wave
 
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 
@@ -167,7 +167,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -178,7 +178,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
 
@@ -201,7 +201,7 @@ SECURISE (INCLUSION)"
 
  \
 
-> **importante**
+> **Importante**
 >
 > Nous partons du principe que vous avez installé l'application sur
 > votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
@@ -224,7 +224,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -233,7 +233,7 @@ disponible.
 
  \
 
-![comandos](images/polycontrol.danalock/commandes.jpg)
+![Comandos](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -246,13 +246,13 @@ Voici la liste des commandes :
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   cerca : c'est la commande qui permet de fermer la serrure
+-   Cerca : c'est la commande qui permet de fermer la serrure
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
@@ -266,12 +266,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "configuración" du
+installation, il faut pour cela passer par la bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -307,7 +307,7 @@ Détails des paramètres :
 -   6 : Désactiver ou activer le signal sonore de verrouillage ou
     déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : puntao de batería : Réglez le type de batterie qui
+-   7 : Puntao de batería : Réglez le type de batterie qui
     alimente l'appareil.
 
 -   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -362,7 +362,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main
 > l'état sera mis à jour.  \

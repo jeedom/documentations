@@ -103,7 +103,7 @@ Les paramètres que vous devez adapter sont :
 > [ici](https://communities.vmware.com/docs/DOC-8760) la documentation
 > complète de ghettoVCB avec une description de chaque paramètre
 
-> **wichtig**
+> **Wichtig**
 >
 > Attention à bien mettre le / final pour le paramètre
 > VM\_BACKUP\_VOLUME sinon le script sera en erreur
@@ -183,7 +183,7 @@ Et avant le "exit 0" ajouter les lignes suivantes :
 > /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > /var/spool/cron/crontabs/root" et en mettre une par VM à backuper
 
-> **wichtig**
+> **Wichtig**
 >
 > N'oubliez pas d'adapter le chemin vers le fichier de configuration de
 > ghettoVCB en fonction de votre configuration :

@@ -42,7 +42,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -83,7 +83,7 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
     : 1200W Ampoule Fluocompacte : 320W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -100,7 +100,7 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   aux dernières : In Wall ON OFF
+-   Aux dernières : In Wall ON OFF
 
 -   Fabricant ID : 96
 
@@ -110,7 +110,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -142,7 +142,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -151,7 +151,7 @@ available.
 
  \
 
-![vers](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Vers](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
  \
 
@@ -173,17 +173,17 @@ le même icone.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -212,7 +212,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir le type
     d'interrupteur (poussoir/bistable)
 
-### groups 
+### Groups 
 
  \
 

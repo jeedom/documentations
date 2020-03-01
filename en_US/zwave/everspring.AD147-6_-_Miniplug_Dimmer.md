@@ -37,7 +37,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -75,7 +75,7 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -92,7 +92,7 @@ Données du module
 
 -   Marque : Everspring
 
--   aux dernières : Miniplug Dimmer
+-   Aux dernières : Miniplug Dimmer
 
 -   Fabricant ID : 96
 
@@ -102,7 +102,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -134,7 +134,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -143,7 +143,7 @@ available.
 
  \
 
-![vers](images/everspring.AD147-6/commandes.jpg)
+![Vers](images/everspring.AD147-6/commandes.jpg)
 
  \
 
@@ -168,22 +168,22 @@ retrouvent sur la même icône.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -207,7 +207,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir si la prise fontionnera en mode
     variation ou en mode on/off
 
-### groups 
+### Groups 
 
  \
 

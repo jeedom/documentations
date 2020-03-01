@@ -47,7 +47,7 @@ NOTE : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Charge maxi : 1000W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Power du signal : 1mW
 
@@ -113,7 +113,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro FGR-222
+-   Aux dernières : Fibaro FGR-222
 
 -   Fabricant ID : 271
 
@@ -123,7 +123,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -153,7 +153,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -162,9 +162,9 @@ available.
 
  \
 
-![vers](images/fibaro.fgrm222/commandes.jpg)
+![Vers](images/fibaro.fgrm222/commandes.jpg)
 
-![vers](images/fibaro.fgrm222/commandes2.jpg)
+![Vers](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -199,27 +199,27 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   not : Permet de définir le pas pour un appui sur Décliner ou
+-   Not : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-not de notion de wakeup sur ce module.
+Not de notion de wakeup sur ce module.
 
  \
 

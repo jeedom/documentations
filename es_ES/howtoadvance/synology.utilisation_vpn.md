@@ -56,7 +56,7 @@ Décocher toutes les cases sous PPTP Open VPN et L2TP
 Cocher uniquement la case en face de l'utilisateur que vous voulez
 autoriser à utiliser le VPN .
 
-> **punta**
+> **Punta**
 >
 > Il est conseillé de vous créer un utilisateur uniquement pour le VPN
 > et sans autres droits / habilitation que faire du VPN.
@@ -85,7 +85,7 @@ Ajouter une redirection
 
 Entrer les paramètres comme suit.
 
-> **punta**
+> **Punta**
 >
 > ID de destination est le seul truc qui dépend de votre installation,
 > il faut y mettre l'IP de votre NAS Synology

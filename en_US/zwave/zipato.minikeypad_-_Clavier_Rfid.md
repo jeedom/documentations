@@ -39,7 +39,7 @@ qui a utilisé son badge.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -72,7 +72,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x AA 1,5V batteries
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Portée radio : 30m en champ libre
 
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Dimensions : 62 x 62 x 20 mm
 
--   Certifications : security : UL EMC : FCC, CE RoHS
+-   Certifications : Security : UL EMC : FCC, CE RoHS
 
  \
 
@@ -101,7 +101,7 @@ Données du module
 
 -   Marque : Zipato
 
--   aux dernières : Zipato Mini Keypad RFID
+-   Aux dernières : Zipato Mini Keypad RFID
 
 -   Fabricant ID : 151
 
@@ -111,7 +111,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -143,7 +143,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -169,11 +169,11 @@ Voici la liste des commandes :
 -   CODED : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
@@ -195,7 +195,7 @@ de votre installation, il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -221,7 +221,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

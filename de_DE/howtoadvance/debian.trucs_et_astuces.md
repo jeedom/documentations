@@ -42,7 +42,7 @@ Von :
 
     PermitRootLogin yes
 
-> **wichtig**
+> **Wichtig**
 >
 > Veillez à bien utiliser un Passwort root fort ! L'utilisation de
 > fail2ban est également recommandée.

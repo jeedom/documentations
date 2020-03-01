@@ -15,7 +15,7 @@ de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/STOP/Fermer.
 
 De plus, l'interaction avec d'autres protocoles est possible, il est
 contrôlable par des interrupteurs et/ou télécommandes de la marque
-Edisio, directement depuis jeedom, mais aussi par n'importe quel
+Edisio, directement depuis Jeedom, mais aussi par n'importe quel
 émetteur Z-Wave de votre réseau.
 
 Chaque module Edisio sur réseau électrique, à la possibilité de
@@ -30,7 +30,7 @@ recepteur.
 >
 > Le neutre est nécessaire que pour le mode "Volet"
 
-functions 
+Functions 
 =========
 
 -   2 sorties par relais alimentées
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Câblage: 4 fils, 2 pour les commandes et 2 pour l'alimentation
 
--   fréquence: 868,3 MHz
+-   Fréquence: 868,3 MHz
 
 -   Sorties alimentées: 2 relais
 
@@ -87,24 +87,24 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : EMV-400
+-   Aux dernières : EMV-400
 
 General configuration 
 ======================
 
-Pour configurer le plugin Edisio et associer un module à jeedom,
+Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
 > **IMPORTANT**
 >
-> Pour que jeedom crée automatiquement vos modules émetteurs, n'oubliez
+> Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
 > **IMPORTANT**
 >
 > A l'inverse, les recepteurs Edisio sont à créer manuellement dans
-> jeedom.
+> Jeedom.
 
 DIP Switch et bouton "R" : 
 --------------------------
@@ -179,10 +179,10 @@ Configuration et raccordements électriques :
 >
 > NE JAMAIS BRANCHER SOUS TENSION
 
-Creation du module dans jeedom 
+Creation du module dans Jeedom 
 ------------------------------
 
-Pour associer un module recepteur Edisio à jeedom, il faut créer
+Pour associer un module recepteur Edisio à Jeedom, il faut créer
 manuellement un équipement.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -200,13 +200,13 @@ roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/emv.400/commande.jpg)
+![Vers](images/emv.400/commande.jpg)
 
 Voici la liste des commandes :
 
@@ -222,31 +222,31 @@ Voici la liste des commandes :
 
 > **IMPORTANT**
 >
-> Le retour d'état est simulé par jeedom. Par conséquent, si vous
-> utilisez un autre émetteur, jeedom ne pourra pas mettre à jour l'état
+> Le retour d'état est simulé par Jeedom. Par conséquent, si vous
+> utilisez un autre émetteur, Jeedom ne pourra pas mettre à jour l'état
 > du recepteur.
 
 Information 
 ------------
 
-Une fois votre équipement associé à jeedom, diverses informations seront
+Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/emv.400/infos_moteur.jpg)
+![Vers](images/emv.400/infos_moteur.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
-    jeedom et le micro-module
+    Jeedom et le micro-module
 
--   drums : Indique l'état de la batterie pour les modules à piles
+-   Drums : Indique l'état de la batterie pour les modules à piles
 
 -   STATUS : Retourne le status du module
 
-Association du micromodule à jeedom 
+Association du micromodule à Jeedom 
 ===================================
 
-Afin que vous puissiez interagir avec jeedom, comme si c'était un
+Afin que vous puissiez interagir avec Jeedom, comme si c'était un
 Emetteur Edisio.
 
 > **NOTE**
@@ -257,7 +257,7 @@ Emetteur Edisio.
 Méthode standard 
 ----------------
 
-Chaque sortie est à associer à une commande jeedom:
+Chaque sortie est à associer à une commande Jeedom:
 
 -   Associer la sortie 1 :
 
@@ -265,8 +265,8 @@ Chaque sortie est à associer à une commande jeedom:
         en répétition) signale la programmation de la sortie 1 activée.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "Ouvrir"
-        dans jeedom, un bip sonore en continu signale l'association de
-        la sortie 1 à jeedom.
+        dans Jeedom, un bip sonore en continu signale l'association de
+        la sortie 1 à Jeedom.
 
     -   Dans les 10 sec, appuyez à nouveau sur "R" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
@@ -277,8 +277,8 @@ Chaque sortie est à associer à une commande jeedom:
         en répétition) signale la programmation de la sortie 2 activée.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "Fermer"
-        dans jeedom, un bip sonore en continu signale l'association de
-        la sortie 2 à jeedom.
+        dans Jeedom, un bip sonore en continu signale l'association de
+        la sortie 2 à Jeedom.
 
     -   Dans les 10 sec, appuyez à nouveau sur "R" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
@@ -302,20 +302,20 @@ recepteur.
         en répétition) signale le mode de programmation activé.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "E" dans
-        jeedom, un bip sonore en continu signale l'association à jeedom.
+        Jeedom, un bip sonore en continu signale l'association à Jeedom.
 
     -   Dans les 10 sec, appuyez à nouveau sur "E" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
 
-C'est fait, votre jeedom est à présent associé et sa commande "E"
+C'est fait, votre Jeedom est à présent associé et sa commande "E"
 remplace désormais le bouton "R" du recepteur.
 
--   Associer un nouvel émetteur à un recepteur avec jeedom déjà associé
+-   Associer un nouvel émetteur à un recepteur avec Jeedom déjà associé
     :
 
     -   Sortie 1 :
 
-        -   Appuyez 1x sur "Tester" la commande "E" dans jeedom, simple
+        -   Appuyez 1x sur "Tester" la commande "E" dans Jeedom, simple
             bip sonore (court en répétition) signale la programmation de
             la sortie 1 activée.
 
@@ -324,12 +324,12 @@ remplace désormais le bouton "R" du recepteur.
             l'association de la sortie 1.
 
         -   Dans les 10 sec, appuyez à nouveau sur "Tester" de la
-            commande "E" dans jeedom, pour valider l'association, le bip
+            commande "E" dans Jeedom, pour valider l'association, le bip
             sonore s'arrête.
 
     -   Sortie 2 :
 
-        -   Appuyez 2x sur "Tester" de la commande "E" dans jeedom,
+        -   Appuyez 2x sur "Tester" de la commande "E" dans Jeedom,
             double bip sonore (court en répétition) signale la
             programmation de la sortie 2 activée.
 
@@ -338,7 +338,7 @@ remplace désormais le bouton "R" du recepteur.
             l'association de la sortie 2.
 
         -   Dans les 10 sec, appuyez à nouveau sur "Tester" de la
-            commande "E" dans jeedom, pour valider l'association, le bip
+            commande "E" dans Jeedom, pour valider l'association, le bip
             sonore s'arrête.
 
 > **NOTE**
@@ -360,10 +360,10 @@ Comment effacer la mémoire du recepteur ?
 
 Comment piloter le recepteur via un émetteur Z-Wave?
 
-:   Avec le plugin Scénario de jeedom.
+:   Avec le plugin Scénario de Jeedom.
 
 Comment puis-je avoir le même visuel ?
 
-:   Avec le plugin Widgets de jeedom.
+:   Avec le plugin Widgets de Jeedom.
 
 **@Jamsta**

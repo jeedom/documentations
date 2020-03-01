@@ -91,7 +91,7 @@ Caractéristiques Techniques
 
 -   Autonomie de la batterie : 3 Jahre
 
--   fréquence : 868,42 Mhz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -202,7 +202,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -220,7 +220,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

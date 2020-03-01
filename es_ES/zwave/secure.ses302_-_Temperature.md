@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -76,7 +76,7 @@ Caractéristiques Techniques
 
 -   Puce Z-Wave Plus
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -105,7 +105,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,7 +135,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -144,7 +144,7 @@ disponible.
 
  \
 
-![comandos](images/secure.ses302/commandes.jpg)
+![Comandos](images/secure.ses302/commandes.jpg)
 
  \
 
@@ -154,18 +154,18 @@ Voici la liste des commandes :
 
 -   Température : c'est la commande de mesure de la température
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
 Plusieurs températures nons visibles sont aussi disponible et seront
 utiles si vous avez raccordé des sondes externes
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -174,11 +174,11 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -206,7 +206,7 @@ sondes externes éventuellement branchées
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -263,7 +263,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

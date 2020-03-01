@@ -1,4 +1,4 @@
-aeotec Minimote 
+Aeotec Minimote 
 ===============
 
  \
@@ -35,7 +35,7 @@ paramétrer le réseau Z-Wave.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -46,7 +46,7 @@ functions
 
 -   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
 
--   functions marche/arrêt et variation
+-   Functions marche/arrêt et variation
 
 -   Fonction ALL ON/ALL OFF
 
@@ -69,7 +69,7 @@ Caractéristiques Techniques
 
 -   Viewing: LED bleue et rouge
 
--   fréquence : 868,42MHz
+-   Fréquence : 868,42MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -84,9 +84,9 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
--   aux dernières : Minimote
+-   Aux dernières : Minimote
 
 -   Fabricant ID : 134
 
@@ -96,7 +96,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -135,7 +135,7 @@ available.
 
  \
 
-![vers](images/aeotec.minimote/commandes.jpg)
+![Vers](images/aeotec.minimote/commandes.jpg)
 
  \
 
@@ -143,7 +143,7 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -163,7 +163,7 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -176,11 +176,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -210,7 +210,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

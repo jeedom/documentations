@@ -26,14 +26,14 @@ safeguard régulière de Jeedom.
 > l'équipe voir
 > [ici](https://www.jeedom.fr/doc/documentation/installation/fr_FR/doc-installation.html).
 
-safeguard/Restauration de Jeedom 
+Safeguard/Restauration de Jeedom 
 =================================
 
 Une documentation est déjà présente pour expliquer la page
-Administration→safeguards. Vous la trouverez
+Administration→Safeguards. Vous la trouverez
 [ici](https://jeedom.github.io/core/fr_FR/backup).
 
-safeguard/Restauration de la carte microSD 
+Safeguard/Restauration de la carte microSD 
 ===========================================
 
 Préparatifs 
@@ -61,7 +61,7 @@ Sous Windows
 Il faudra commencer par télécharger un logiciel tiers par exemple :
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskPicturer/)
 
-1.  **safeguard**
+1.  **Safeguard**
 
     -   Lancez le logiciel et vérifiez que la lettre en dessous de
         *Device* corresponde bien à celle de votre carte/lecteur
@@ -95,7 +95,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 
 ![save restore11](Pictures/save-restore11.jpg)
 
-1.  **safeguard**
+1.  **Safeguard**
 
     -   Avec ApplePi-Baker : Sélectionnez la bonne carte dans la liste
         *Pi-Crust*, et cliquez sur *Create Backup* afin de créer un
@@ -140,7 +140,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel
 Sous Linux 
 ----------
 
-1.  **safeguard**
+1.  **Safeguard**
 
     -   Afin de trouver le disque correspondant à la carte, ouvrez un
         terminal et saisissez la commande : `sudo fdisk -l | grep Dis`

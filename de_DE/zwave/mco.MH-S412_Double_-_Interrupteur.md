@@ -74,7 +74,7 @@ Caractéristiques Techniques
 
 -   Puissance maximum : 5A (1100W) pour chaque canal
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -112,7 +112,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur un seul
 > des 2 boutons en face avant pendant 3 sec, conformément à sa

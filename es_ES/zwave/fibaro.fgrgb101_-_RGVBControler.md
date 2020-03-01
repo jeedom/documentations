@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-funciones 
+Funciones 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
@@ -127,7 +127,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -146,16 +146,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
 Une fois le module reconnu, les commandes associées au module seront
 disponible.
 
  \
 
-![comandos](images/fibaro.fgrgb101/commande_1.png)
+![Comandos](images/fibaro.fgrgb101/commande_1.png)
 
-![comandos](images/fibaro.fgrgb101/commande_2.png)
+![Comandos](images/fibaro.fgrgb101/commande_2.png)
 
  \
 
@@ -198,20 +198,20 @@ icono
 
  \
 
-### configuración du module 
+### Configuración du module 
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### grupos 
+### Grupos 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.

@@ -17,7 +17,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser
 un large périmètre. L'indicateur LED intégré signale tout changement
 d'état.
 
-functions 
+Functions 
 =========
 
 -   Détecte les mouvements, même dans le noir complet
@@ -41,7 +41,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -53,14 +53,14 @@ Caractéristiques Techniques
 
 -   Degré de protection : IP20
 
--   use : En intérieur
+-   Use : En intérieur
 
 Données du module 
 =================
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : EMS-200
+-   Aux dernières : EMS-200
 
 General configuration 
 ======================
@@ -87,7 +87,7 @@ de température.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
-détection 
+Détection 
 ---------
 
 Le capteur détecte le moindre mouvement dans un rayon d'environ 6m
@@ -120,20 +120,20 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/ems200/ems200.commande.jpg)
+![Vers](images/ems200/ems200.commande.jpg)
 
 Voici la liste des commandes :
 
 -   Présence : C'est la commande qui indique si une présence est
     détectée
 
--   drums : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
 Information 
 ------------
@@ -141,14 +141,14 @@ Information
 Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/ems200/ems200.informations.jpg)
+![Vers](images/ems200/ems200.informations.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   drums : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

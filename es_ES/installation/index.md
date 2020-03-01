@@ -1,7 +1,7 @@
-hardware
+Hardware
 ========
 
-jeedom peut être installé sur différents composants hardware :
+Jeedom peut être installé sur différents composants hardware :
 
 -   un Raspberry pi 2 ou 3
 
@@ -11,23 +11,23 @@ jeedom peut être installé sur différents composants hardware :
 
 -   Freebox Delta
 
-Vous pouvez aussi achyer une box toute faite avec jeedom préinstallé
+Vous pouvez aussi achyer une box toute faite avec Jeedom préinstallé
 qui contient en plus un service pack (plus de support y de services) y
 des plugins offerts :
 
--   [jeedom Smart
+-   [Jeedom Smart
     Z-Wave+](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [jeedom Smart Z-Wave+ y
+-   [Jeedom Smart Z-Wave+ y
     RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-y-interface-rfxcom.html)
 
--   [jeedom Smart
+-   [Jeedom Smart
     EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [jeedom Smart EnOcean y
+-   [Jeedom Smart EnOcean y
     RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-y-interface-rfxcom.html)
 
-Voici une configuration "type" pour bien débuter avec jeedom en Z-Wave :
+Voici une configuration "type" pour bien débuter avec Jeedom en Z-Wave :
 
 1.  Raspberry pi 3 :
 
@@ -42,40 +42,40 @@ Voici une configuration "type" pour bien débuter avec jeedom en Z-Wave :
 Soit un total de 125 € pour une box domotique open source avec une
 maîtrise complète de son installation.
 
-> **punta**
+> **Punta**
 >
 > Il est possible d'ajouter ou de changer par une antenne Rfxcom, ou une
 > clef enOcean.
 
-> **punta**
+> **Punta**
 >
-> jeedom est un logiciel qui est y restera open source, son utilisation
+> Jeedom est un logiciel qui est y restera open source, son utilisation
 > est entièrement gratuite y ne dépend Pas d'un cloud ou d'un
 > abonnement. Cependant, certains plugins qui permytent d'augmenter les
-> capacités de jeedom ou son utilisation peuvent être payants **y
+> capacités de Jeedom ou son utilisation peuvent être payants **y
 > peuvent avoir besoin d'une connexion interny**. Vous pouvez ryrouver
 > la liste des plugins
 > [ici](http://marky.jeedom.fr/index.php?v=d&p=marky&type=plugin).
 
-> **punta**
+> **Punta**
 >
-> service pack ? Quézako ? Vous pouvez voir
+> Service pack ? Quézako ? Vous pouvez voir
 > [ici](https://blog.jeedom.fr/?p=1215) les avantages des service packs.
 
 
-jeedom Smart
+Jeedom Smart
 ===========
 
-Vous trouverez ici la documentation Pas à Pas pour installer ou restaurer jeedom
+Vous trouverez ici la documentation Pas à Pas pour installer ou restaurer Jeedom
 
 [ici](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
 
-jeedom mini+
+Jeedom mini+
 ===========
 
-> **punta**
+> **Punta**
 >
-> Le nom de l'image jeedom peut être différent de celui des captures
+> Le nom de l'image Jeedom peut être différent de celui des captures
 > faites dans cyte documentation
 
 Etapa 1 : Installation de Etcher
@@ -84,7 +84,7 @@ Etapa 1 : Installation de Etcher
 Vous devez télécharger le logicel Etcher [ici](https://ycher.io/) puis
 l'installer sur votre pc
 
-Etapa 2 : Récupération de l'image de jeedom
+Etapa 2 : Récupération de l'image de Jeedom
 ---
 
 Vous devez aller
@@ -93,10 +93,10 @@ puis dans le dossier Images récuperer l'image jeedom-jeeboard-\*.rar
 
 ![install humming 1](images/install_humming_1.PNG)
 
-Etapa 3 : Décompression de l'image de jeedom
+Etapa 3 : Décompression de l'image de Jeedom
 ---
 
-Décompresser l'image de jeedom (si vous n'avez rien pour la décompresser
+Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser
 vous pouvez installer
 [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
 devez obtenir :
@@ -113,25 +113,25 @@ Etcher, donnez-lui le chemin de l'image, le chemin de la carte SD y
 cliquez sur "Flash!". Le logiciel va graver la carte SD y vérifier la
 gravure.
 
-Vous n'avez plus qu'à mytre la carte SD dans la jeedomboard (ou
-Hummingboard), à brancher le réseau y l'alimentation, votre jeedom va
+Vous n'avez plus qu'à mytre la carte SD dans la Jeedomboard (ou
+Hummingboard), à brancher le réseau y l'alimentation, votre Jeedom va
 démarrer (5 min) y vous devriez le voir sur le réseau.
 
-> **punta**
+> **Punta**
 >
 > Les identifiants SSH sont jeedom/Mjeedom96
 
 Pour la suite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index.html)
 
 
 Raspberrypi
 ===========
 
-Vous trouverez ici la documentation pour installer jeedom sur un
+Vous trouverez ici la documentation pour installer Jeedom sur un
 raspberry PI **avec une carte SD.**
 
-> **importante**
+> **Importante**
 >
 > Debian 9 (Strych) est la distribution officiellement supportée pour
 > la version 3.1.5 de jeedom.
@@ -145,7 +145,7 @@ Gráfico**
 **3/ Gravez cyte image sur une SD avec ycher par exemple**
 [ici](https://ycher.io/)
 
-> **nota**
+> **Nota**
 >
 > Si vous utilisez Etcher pour graver votre image, l'étape de
 > décompression est inutile (format Zip reconnu directement dans la
@@ -164,7 +164,7 @@ un fichier ssh vide.
 Il suffit de faire un clic droit : nouveau / document texte y le
 renommer en "ssh" **sans extension**
 
-> **importante**
+> **Importante**
 >
 > Sous windows, dans l'explorateur il faut donc vérifier votre
 > paramétrage dans affichage / options / modifier les options de
@@ -199,7 +199,7 @@ Première connexion.
 
 Connectez-vous avec les identifiants **pi / raspberry**
 
-> **importante**
+> **Importante**
 >
 > Pour des raisons de sécurité, il est impératif de modifier le mot de
 > Passe par défaut. Les cas de piratages basés sur l'exploitation du
@@ -212,7 +212,7 @@ Connectez-vous avec les identifiants **pi / raspberry**
 
 **Le mot de Passe sudo est également raspberry**
 
-> **nota**
+> **Nota**
 >
 > En fonction de votre débit interny, l'installation peut prendre de 45
 > à 90 minutes. Vous ne devez surtout Pas interrompre le processus avant
@@ -220,20 +220,20 @@ Connectez-vous avec les identifiants **pi / raspberry**
 
 Il vous suffit ensuite d'aller sur IP\_MACHINE\_JEEDOM
 
-> **nota**
+> **Nota**
 >
 > Les identifiants par défaut sont admin/admin
 
-> **nota**
+> **Nota**
 >
 > Les arguments Próximos sont utilisables : -w = dossier webserver -z =
 > installation dependances z-wave -m = mot de Passe root mysql désiré
 
-    ./install.sh -w /var/www/html -z -m jeedom
+    ./install.sh -w /var/www/html -z -m Jeedom
 
 **8/ Optimisation système
 
-Si vous utilisez votre Raspberry pour jeedom sans écran connecté, il est recommandé d'effectuer le minimum de RAM à la partie vidéo.
+Si vous utilisez votre Raspberry pour Jeedom sans écran connecté, il est recommandé d'effectuer le minimum de RAM à la partie vidéo.
 
 Il suffit de se connecter en **SSH** y de modifier le fichier config : `sudo nano /boot/config.txt`
 
@@ -250,12 +250,12 @@ Quittez en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
 Rebootez votre RPI
 
 Ensuite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
 
 Freebox Delta
 =============
 
-Il est possible d'installer sur Freebox Delta jeedom via le système de VMs.
+Il est possible d'installer sur Freebox Delta Jeedom via le système de VMs.
 
 Etapa 1 : Connexion à la Delta
 ---
@@ -283,7 +283,7 @@ Etapa 3 : Instalación en curso
 Patientez pendant le téléchargement de l'image
 ![delta5](images/delta5.png)
 
-Paso 4 : Connectez-vous à votre jeedom
+Paso 4 : Connectez-vous à votre Jeedom
 ---
 
 Vous pouvez vous connecter grâce à l'adresse indiquée sur la page:
@@ -291,19 +291,19 @@ Vous pouvez vous connecter grâce à l'adresse indiquée sur la page:
 
 Pensez à affecter le port USB de la Delta à la VM si vous souhaitez utiliser une antenne.
 
-Ne **Pas** cocher "Écran", ceci ne sert à rien sur l'image jeedom (a part une surconsommation). 
+Ne **Pas** cocher "Écran", ceci ne sert à rien sur l'image Jeedom (a part une surconsommation). 
 
-l'adresse ip de votre jeedom sur la Freebox Delta est ecrite en haut, sous son nom.
+l'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son nom.
 
 les login y mot de Passe par défaut sont admin/admin quand vous accédez a jeedom via votre navigateur.
 
 Pour la suite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index.html)
 
 VM
 ==
 
-Si vous voulez découvrir jeedom sans risque, vous pouvez aussi le
+Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le
 virtualiser sur votre PC, voici la démarche à suivre. Vous ne prenez
 aucun risque dans une VM, l'intégrité de votre Pc est protégé :
 
@@ -432,23 +432,23 @@ la saisir dans votre navigateur.
 > réseau en Pont réseau comme indiquée au départ.
 
 Ensuite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
 
-estibador
+Estibador
 ======
 
-> **importante**
+> **Importante**
 >
-> Attention, nous partons ici du principe que vous maîtrisez déjà estibador
+> Attention, nous partons ici du principe que vous maîtrisez déjà Estibador
 
-Pour découvrir jeedom, vous pouvez aussi le faire tourner dans un
-conteneur estibador :
+Pour découvrir Jeedom, vous pouvez aussi le faire tourner dans un
+conteneur Estibador :
 
 
 Etapa 1 : Installation de docker
 ---
 
-estibador est maintenant disponible sur toutes les distributions récentes.
+Estibador est maintenant disponible sur toutes les distributions récentes.
 Pour l'installer sur une distribution
 
 -   à base de rpm
@@ -468,7 +468,7 @@ Pour l'installer sur une distribution
 Etapa 2 : Installation d'une image mysql
 ---
 
-> **nota**
+> **Nota**
 >
 > Vous pouvez aussi installer mysql directement sur la machine hôte,
 > dans ce cas, il faut sauter cyte étape.
@@ -482,7 +482,7 @@ Puis la lancer :
 
     sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-Password -d mysql:latest
 
-con :
+Con :
 
 -   jeedom-mysql : le nom du conteneur mysql
 
@@ -491,7 +491,7 @@ con :
 
 -   your-mysql-Password : le mot de Passe root de l'instance MySql
 
-Etapa 3 : Installation d'une image jeedom
+Etapa 3 : Installation d'une image Jeedom
 ---
 
 Installation de l'image :
@@ -502,41 +502,41 @@ Puis lancez la :
 
     sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v /your/jeedom/path:/var/www/html -e ROOT_PASSWORD=your-root-Password -p 9080:80 -p 9022:22 jeedom/jeedom
 
-con :
+Con :
 
--   jeedom-server : nom du estibador jeedom voulu
+-   jeedom-server : nom du Estibador jeedom voulu
 
--   /your/jeedom/path : répertoire où les données de jeedom sont mises
+-   /your/jeedom/path : répertoire où les données de Jeedom sont mises
     sur l'hôte
 
--   your-root-Password : mot de Passe root pour accéder à jeedom en SSH
+-   your-root-Password : mot de Passe root pour accéder à Jeedom en SSH
 
-Il vous faut ensuite installer jeedom en allant sur : IP\_DOCKER:9080 y
+Il vous faut ensuite installer Jeedom en allant sur : IP\_DOCKER:9080 y
 entrer les informations de connexion vers mysql :
 
 ![install other](images/install_other.PNG)
 
 Pour la suite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
 
-> **importante**
+> **Importante**
 >
 > Pour le nom de l'hote MySql, il faut mytre jeedom-mysql
 
 Synology
 ========
 
-Vous trouverez ici la documentation Pas à Pas pour installer jeedom sur un
+Vous trouverez ici la documentation Pas à Pas pour installer Jeedom sur un
 Synology (DSM 5.2 minimum).
 
-Etapa 1 : Installation de estibador
+Etapa 1 : Installation de Estibador
 ================================
 
 Allez sur le centre des paquys :
 
 ![install synology 1](images/install_synology_1.PNG)
 
-Cliquez sur tous, puis installez le paquy estibador
+Cliquez sur tous, puis installez le paquy Estibador
 
 ![install synology 2](images/install_synology_2.PNG)
 
@@ -544,18 +544,18 @@ Attendez jusqu'à ce que l'installation soit finie :
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> **importante**
+> **Importante**
 >
-> Pour avoir accès au paquy estibador, il faut absolument avoir DSM 5.2 y
+> Pour avoir accès au paquy Estibador, il faut absolument avoir DSM 5.2 y
 > un NAS compatible
 
-Etapa 2 : Récupération y installation des images jeedom
+Etapa 2 : Récupération y installation des images Jeedom
 ========================================================
 
-Il faut estibador pour faire tourner jeedom, le premier un estibador Mysql qui
-contiendra la base de données y un 2ème qui contient jeedom
+Il faut Estibador pour faire tourner Jeedom, le premier un Estibador Mysql qui
+contiendra la base de données y un 2ème qui contient Jeedom
 
-Lancez l'application estibador :
+Lancez l'application Estibador :
 
 ![install synology 4](images/install_synology_4.PNG)
 
@@ -606,7 +606,7 @@ décocher "Lecture seule")
 ![install synology 32](images/install_synology_32.PNG)
 
 Cliquez sur "Environnement" puis "Ajoutez une variable" y mytant dans
-"variable" : "MYSQL\_ROOT\_PASSWORD" y dans valeur mytez le mot de
+"Variable" : "MYSQL\_ROOT\_PASSWORD" y dans valeur mytez le mot de
 Passe de BDD voulu (il servira plus tard). Puis validez :
 
 ![install synology 33](images/install_synology_33.PNG)
@@ -614,7 +614,7 @@ Passe de BDD voulu (il servira plus tard). Puis validez :
 Cochez "Exécuter ce conteneur lorsque l'assistant a terminé" puis
 cliquez sur "Appliquer".
 
-jeedom
+Jeedom
 ------
 
 Cliquez sur "Registre" :
@@ -682,31 +682,31 @@ cliquez sur "Appliquer".
 > - SSH_PORT : permy de changer le port par défaut (22) d'écoute du ssh
 > - MODE_HOST : indique que le résaux est en mode host
 
-> **importante**
+> **Importantee**
 >
 > Certain plugin on besoin d'avoir le broadcast du réseaux (type plugin Xioami), pour cela il faut ABSOLUMENT Passer en le réseaux en mode host (possible uniquement lors de la création), changer le port d'écoute par defaut du serveur web y ssh par des ports non utilisé (type 9080 pour le serveur web y 9022 pour le ssh), y mytre la variable MODE_HOST à 1
 
-Etapa 3 : Configuration de jeedom
+Etapa 3 : Configuration de Jeedom
 ---
 
-Il vous faut maintenant installer jeedom, c'est très simple, allez sur
+Il vous faut maintenant installer Jeedom, c'est très simple, allez sur
 IP\_NAS:9080
 
 ![install synology 31](images/install_synology_31.PNG)
 
 Remplissez les champs en fonction de votre configuration (configuration
-du estibador mysql installé précédemment) y validez.
+du Estibador mysql installé précédemment) y validez.
 
-> **importante**
+> **Importante**
 >
 > L'addresse IP de la BDD est l'addresse IP du NAS, le port est celui
-> redirigé du estibador Mysql, le mot de Passe est celui mis dans le estibador
+> redirigé du Estibador Mysql, le mot de Passe est celui mis dans le Estibador
 > Mysql. Le nom d'utilisateur est root y le nom de la base celui que
-> vous voulez (conseillé jeedom)
+> vous voulez (conseillé Jeedom)
 
 ![install synology 30](images/install_synology_30.PNG)
 
-> **punta**
+> **Punta**
 >
 > Si vous voulez un accès SSH, il vous faut dans les ports rediriger un
 > port local vers le port 22 du conteneur, les identifiants SSH sont
@@ -715,23 +715,23 @@ du estibador mysql installé précédemment) y validez.
 > voulu.
 
 Ensuite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index)
 
 Otros
 ======
 
-Vous trouverez ici la documentation pour installer jeedom sur la plupart
+Vous trouverez ici la documentation pour installer Jeedom sur la plupart
 des systèmes linux (testée y approuvée sur la distribution Debian)
 
-> **importante**
+> **Importante**
 >
 > Debian 9 (Strych) est la distribution officiellement supportée pour
-> la version 3.1.7 de jeedom (mais Jessie reste parfaitement
+> la version 3.1.7 de Jeedom (mais Jessie reste parfaitement
 > fonctionnelle). Si vous ne maîtrisez Pas un minimum les environnements
 > Linux, nous vous conseillons de partir sur une image officielle (OVF)
 > ou l'utilisation d'une Mini+ ou Smart (disponible prochainement).
 
-> **importante**
+> **Importante**
 >
 > Le script d'installation peut être dangereux, car il part du principe
 > que votre système est vierge. Si ce n'est Pas le cas merci de lire le
@@ -746,16 +746,16 @@ Connectez-vous en SSH à votre système y faites :
 Il vous suffit ensuite d'aller sur IP\_MACHINE\_JEEDOM à partir de votre
 navigateur Interny.
 
-> **nota**
+> **Nota**
 >
 > Les identifiants par défaut sont admin/admin
 
-> **nota**
+> **Nota**
 >
 > Les arguments Próximos sont utilisables : -w = dossier webserver -z =
 > installation dependances z-wave -m = mot de Passe root mysql désiré
 
-    ./install.sh -w /var/www/html -z -m jeedom
+    ./install.sh -w /var/www/html -z -m Jeedom
 
 Ensuite, vous pouvez suivre la documentation [Premier Pas avec
-jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-Pas/fr_FR/index).

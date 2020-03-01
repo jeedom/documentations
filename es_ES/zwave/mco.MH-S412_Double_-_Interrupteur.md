@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -74,7 +74,7 @@ Caractéristiques Techniques
 
 -   Puissance maximum : 5A (1100W) pour chaque canal
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -101,7 +101,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -112,7 +112,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur un seul
 > des 2 boutons en face avant pendant 3 sec, conformément à sa
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -135,17 +135,17 @@ disponible.
 
  \
 
-![comandos](images/mco.mhs412/commandes.jpg)
+![Comandos](images/mco.mhs412/commandes.jpg)
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -168,7 +168,7 @@ Détails des Parámetros :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

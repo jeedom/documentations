@@ -42,7 +42,7 @@ On ajoute un nouveau profil avec un **Etat** comme déclencheur.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
-On sélectionne **plugin** sur le premier écran.
+On sélectionne **Plugin** sur le premier écran.
 
 ![android.autovoice2](images/android.autovoice2.png)
 
@@ -113,14 +113,14 @@ interactions Jeedom y vous pourrez lui demander tout ce que vous
 voulez. De "quelle est la température du salon" à "allume la lumière du
 salon".
 
-> **punta**
+> **Punta**
 >
 > Si cela ne marche pas dès le début, c'est souvent parce que AutoVoice
 > n'est pas actif. Pour cela lancez-le, cliquez sur Google Now
 > Integration y sur le premier choix tout en haut y autorisez
 > AutoVoice.
 
-> **punta**
+> **Punta**
 >
 > Par défaut, AutoVoice désactive la recherche Google Now, il est
 > possible d'annuler ce comportement, pour cela dans Tasker cliquez sur

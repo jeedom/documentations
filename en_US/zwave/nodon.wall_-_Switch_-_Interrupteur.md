@@ -36,7 +36,7 @@ double-face présents au dos de la platine.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -96,7 +96,7 @@ Données du module
 
 -   Marque : Nodon
 
--   aux dernières : CWS-3-1-01 Wall Switch
+-   Aux dernières : CWS-3-1-01 Wall Switch
 
 -   Fabricant ID : 357
 
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -137,7 +137,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -146,7 +146,7 @@ available.
 
  \
 
-![vers](images/nodon.wallswitch/commandes.jpg)
+![Vers](images/nodon.wallswitch/commandes.jpg)
 
  \
 
@@ -154,10 +154,10 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -170,7 +170,7 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -183,11 +183,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -215,7 +215,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### groups 
+### Groups 
 
  \
 

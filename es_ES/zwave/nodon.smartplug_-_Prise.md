@@ -37,7 +37,7 @@ d'allumer ou d'éteindre la prise directement.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -97,7 +97,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > jusqu'à que la lumière devienne rouge, conformément à sa documentation
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -137,7 +137,7 @@ disponible.
 
  \
 
-![comandos](images/nodon.smartplug/commandes.jpg)
+![Comandos](images/nodon.smartplug/commandes.jpg)
 
  \
 
@@ -162,17 +162,17 @@ le même icone.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin Zwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -195,7 +195,7 @@ Détails des paramètres :
     coupure de courant ou après branchement
 
 -   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de
-    coupure/retour de courant, ainsi que les groupes associés (grupos
+    coupure/retour de courant, ainsi que les groupes associés (Grupos
     4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à
     la documentation papier ou à la bulle d'aide dans jeedom). El es
     recommandé de mettre ce paramètre à 1.
@@ -211,7 +211,7 @@ Détails des paramètres :
     Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
     www.nodon.fr/support/asp3/alarm vous guidera
 
-### grupos 
+### Grupos 
 
  \
 
@@ -262,7 +262,7 @@ Ce module possède 8 groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans les groupes 1 et 4  \
 

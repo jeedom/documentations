@@ -12,7 +12,7 @@ Editez le fichier /etc/mysql/mysql.conf.d/mysqld.cnf et ajoutez dedans :
 Optimiser MYSQL 
 ===============
 
-> **importante**
+> **Importante**
 >
 > Cette méthode est à vos risques et périls. En cas de soucis aucun
 > support ne sera possible.

@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -93,7 +93,7 @@ Caractéristiques Techniques
 
 -   Ampoule Fluocompacte : 200W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -110,7 +110,7 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   aux dernières : In Wall Dimmer
+-   Aux dernières : In Wall Dimmer
 
 -   Fabricant ID : 96
 
@@ -120,7 +120,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -152,7 +152,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -161,7 +161,7 @@ available.
 
  \
 
-![vers](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Vers](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
  \
 
@@ -186,17 +186,17 @@ retrouvent sur le même icone.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -228,7 +228,7 @@ Détails des paramètres :
 -   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
     mode variation ou en mode on/off
 
-### groups 
+### Groups 
 
  \
 

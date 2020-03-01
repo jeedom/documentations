@@ -12,7 +12,7 @@ Il existe dans Jeedom plusieurs manières de remonter un souci :
 >
 >Dans le cas d'une demande de support sur un plugin tierce un mail est envoyé au développeur du plugin
 
->**wichtig**
+>**Wichtig**
 >
 >Le support étant réalisé exclusivement par mail, pensez à surveiller vos spams. Le plus souvent, le support répond rapidement (délai avant réponse en moyenne de moins 72h, attention en fonction du problème cela peut etre beaucoup plus long)
 

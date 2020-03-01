@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 en 1 apertura" 
+D-Link DCH-Z110 - "3 en 1 Apertura" 
 ====================================
 
  \
@@ -47,12 +47,12 @@ déjà un réseau existant.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
 
--   Détecteur 3 en 1: apertura, température, lumière
+-   Détecteur 3 en 1: Apertura, température, lumière
 
 -   Portée de l'antenne optimisée
 
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : D-Link
 
--   modelo : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   Modelo : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Ne pas installer le module sur la fenêtre/porte avant de l'avoir
 > correctement configuré, et bien faire attention à l'alignement de
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -150,7 +150,7 @@ disponible.
 
  \
 
-![comandos](images/dlink.dchz110/commandes.jpg)
+![Comandos](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
  \
 
--   apertura : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : C'est la commande qui permet de remonter la
@@ -169,15 +169,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion, ou d'une modification, sauvegarder puis
 > réveillez toujours le module en appuyant sur le bouton d'association.
@@ -187,16 +187,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -253,7 +253,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -318,7 +318,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

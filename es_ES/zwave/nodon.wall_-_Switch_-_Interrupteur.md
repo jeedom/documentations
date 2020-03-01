@@ -36,7 +36,7 @@ double-face présents au dos de la platine.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Température de fonctionnement : 0°C à 40°C
 
--   altitud : 2000m
+-   Altitud : 2000m
 
 -   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
     Plus® SDK 06.51.06
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
@@ -137,7 +137,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -146,7 +146,7 @@ disponible.
 
  \
 
-![comandos](images/nodon.wallswitch/commandes.jpg)
+![Comandos](images/nodon.wallswitch/commandes.jpg)
 
  \
 
@@ -154,10 +154,10 @@ Voici la liste des commandes :
 
  \
 
--   botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| botones        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Botones        | Appui          | Appui Long     | Relâchement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -170,11 +170,11 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -183,11 +183,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -215,7 +215,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### grupos 
+### Grupos 
 
  \
 
@@ -241,7 +241,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -284,7 +284,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

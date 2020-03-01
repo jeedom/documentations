@@ -71,7 +71,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -128,7 +128,7 @@ verfügbar :
 
 -   Schaffung : Indique la date à laquelle l'équipement à était créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Kommunikation : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
 -   Batterie : Indique l'état de la batterie des modules à piles

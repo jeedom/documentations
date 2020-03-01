@@ -56,7 +56,7 @@ ou d'avoir un NAS type Synology pour faire du LUN iSCSI. Ne pas oublier
 qu'une VM de base (pas de stockage) c'est entre 20 à 40Go, rajoutez à
 cela 40Go pour le VMware en lui-même ça se remplit vite.
 
-> **wichtig**
+> **Wichtig**
 >
 > VMware ne supporte pas l'ajout de disque USB, il est donc difficile
 > d'étendre la place disponible
@@ -104,7 +104,7 @@ récupérer VMware et le mettre sur une clef USB.
 Téléchargement de VMware 
 ------------------------
 
-> **wichtig**
+> **Wichtig**
 >
 > Si vous mettez vmware 6.5, il y a un soucis avec la nouvelle gestion
 > de l'USB et les clefs Zwave, pour que cela marche il faut appliquer ce

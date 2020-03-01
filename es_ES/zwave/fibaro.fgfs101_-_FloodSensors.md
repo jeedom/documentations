@@ -53,7 +53,7 @@ assure du bon fonctionnement du capteur lors de son installation.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -91,7 +91,7 @@ Caractéristiques Techniques
 
 -   Tension maximale supportée en sortie : 40V (AC ou DC)
 
--   fréquence : 868,42 Mhz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -115,7 +115,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   modelo : FGFS101 Flood Sensor
+-   Modelo : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
@@ -127,7 +127,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -138,7 +138,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion,repéré TMP, conformément à sa documentation
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -167,7 +167,7 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgfs101/commandes.jpg)
+![Comandos](images/fibaro.fgfs101/commandes.jpg)
 
  \
 
@@ -183,15 +183,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -200,16 +200,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -317,7 +317,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

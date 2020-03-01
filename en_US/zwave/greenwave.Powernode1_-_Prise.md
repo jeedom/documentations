@@ -41,7 +41,7 @@ un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
 Une petite molette sur le côté de la prise permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. for example "
+qui représentera la pièce à laquelle elle est affectée. For example "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
 différentes prises et multiprises PowerNode. ON peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -126,7 +126,7 @@ Données du module
 
 -   Marque : GreenWave
 
--   aux dernières : GreenWave\[1 x prise\]
+-   Aux dernières : GreenWave\[1 x prise\]
 
 -   Fabricant ID : 153
 
@@ -136,7 +136,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -175,7 +175,7 @@ available.
 
  \
 
-![vers](images/greenwave.Powernode1/commandes.jpg)
+![Vers](images/greenwave.Powernode1/commandes.jpg)
 
  \
 
@@ -202,22 +202,22 @@ en un seul bouton.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -242,7 +242,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

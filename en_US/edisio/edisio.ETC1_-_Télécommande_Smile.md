@@ -25,7 +25,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-functions 
+Functions 
 =========
 
 -   Mode d'usage : Eclairage, Variateur
@@ -60,7 +60,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : ETC1
+-   Aux dernières : ETC1
 
 -   Référence : P01 / Y01 / L01
 
@@ -98,25 +98,25 @@ L'association d'un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d'appuyer sur la touche de votre
 télécommande.
 
-![vers](images/etc1/etc1.touche-c.jpg)
+![Vers](images/etc1/etc1.touche-c.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/etc1/etc1.commandes.jpg)
+![Vers](images/etc1/etc1.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   bt01 : C'est la commande qui permet d'interagir avec le bouton 1
 
--   drums : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
 Information 
 ------------
@@ -124,18 +124,18 @@ Information
 Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/etc1/etc1.informations.jpg)
+![Vers](images/etc1/etc1.informations.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   drums : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 
-use 
+Use 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le

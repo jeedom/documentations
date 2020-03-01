@@ -47,7 +47,7 @@ de consommation instantanée (en W) et la consommation électrique totale
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -115,7 +115,7 @@ Caractéristiques Techniques
 
 -   Type de lampe compatible (non dimmable) : Fluocompacte, LED
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Power du signal : 1mW
 
@@ -139,7 +139,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : FGD212 Dimmer 2
+-   Aux dernières : FGD212 Dimmer 2
 
 -   Fabricant ID : 271
 
@@ -149,7 +149,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -189,7 +189,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -198,7 +198,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgd212/commandes.jpg)
+![Vers](images/fibaro.fgd212/commandes.jpg)
 
  \
 
@@ -216,10 +216,10 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaître le statut de la
     Light
 
--   Consommation : c'est la commande qui permet de remonter la
+-   Consommation : C'est la commande qui permet de remonter la
     consommation du module
 
--   Power : c'est la commande qui permet de remonter la puissance
+-   Power : C'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
@@ -227,17 +227,17 @@ Icon
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -266,7 +266,7 @@ EN COURS DE REDACTION
 
  \
 
-### groups 
+### Groups 
 
  \
 

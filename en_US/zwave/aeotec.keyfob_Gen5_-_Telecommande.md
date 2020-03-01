@@ -1,4 +1,4 @@
-aeotec Keyfob Gen5 
+Aeotec Keyfob Gen5 
 ==================
 
  \
@@ -38,14 +38,14 @@ gestion des appuis courts et longs. Cette télécommande peut être aussi
 bien utilisée comme contrôleur principal ou secondaire.
 
 Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la
-gamme Gen5 de aeotec, elle surpasse tout ce qui existait auparavant.
+gamme Gen5 de Aeotec, elle surpasse tout ce qui existait auparavant.
 Elle utilise la dernière puce Z-Wave série 500, offrant une augmentation
 de la portée radio de 50% et une vitesse de communication de 250% plus
 rapide par rapport aux précédents produits Z-Wave.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Durée de vie de la batterie : 1 year
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -103,9 +103,9 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
--   aux dernières : ZW088 Key Fob Gen5
+-   Aux dernières : ZW088 Key Fob Gen5
 
 -   Fabricant ID : 134
 
@@ -115,7 +115,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -145,7 +145,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -154,7 +154,7 @@ available.
 
  \
 
-![vers](images/aeotec.keyfob-gen5/commandes.jpg)
+![Vers](images/aeotec.keyfob-gen5/commandes.jpg)
 
  \
 
@@ -162,7 +162,7 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -182,7 +182,7 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -195,16 +195,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -223,7 +223,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

@@ -76,7 +76,7 @@ Caractéristiques Techniques
 
 -   Puce Z-Wave Plus
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -167,7 +167,7 @@ utiles si vous avez raccordé des sondes externes
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -271,7 +271,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

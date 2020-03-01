@@ -6,7 +6,7 @@
 - Avoir attendu la validation du compte market comme developpeur
 - Avoir mis votre plugin sur github (dépot privé ou non)
 
-## configuración
+## Configuración
 
 Une fois connecté avec votre compte dev sur le market il faut : 
 

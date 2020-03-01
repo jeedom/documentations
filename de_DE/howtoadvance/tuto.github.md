@@ -99,7 +99,7 @@ lancer la recherche.
 > dans mon cas, sur Google chrome, ça ne sait pas faire la recherche
 > dans le code ou la documentation directement.
 
-1.  die champ de recherche, oui c'est assez mince comme information, la
+1.  Die champ de recherche, oui c'est assez mince comme information, la
     ligne copiée est bien plus grande ;).
 
 ![tuto.github7](images/tuto.github7.png)
@@ -124,7 +124,7 @@ Soumettre la modification
 Soumettre une modification 
 --------------------------
 
-die **commit** fait au-dessus ne concerne que le fork du projet dans
+Die **commit** fait au-dessus ne concerne que le fork du projet dans
 votre espace GitHub. Pour soumettre au projet d'origine les changements,
 il faut effecter un PR (Pull Request)
 
@@ -134,7 +134,7 @@ il faut effecter un PR (Pull Request)
 
 ![tuto.github9](images/tuto.github9.png)
 
-1.  die PR va lancer une comparaison entre la base de jeedom avec votre
+1.  Die PR va lancer une comparaison entre la base de jeedom avec votre
     repository (le fork).
 
 2.  Celà indique les modifications (le premier c'est parce que je me
@@ -143,7 +143,7 @@ il faut effecter un PR (Pull Request)
 
 3.  L'ancien code
 
-4.  die nouveau code
+4.  Die nouveau code
 
 5.  On crée le Pull Request (PR)
 

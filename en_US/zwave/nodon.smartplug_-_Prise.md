@@ -37,7 +37,7 @@ d'allumer ou d'éteindre la prise directement.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -87,7 +87,7 @@ Données du module
 
 -   Marque : Nodon
 
--   aux dernières : Smartplug
+-   Aux dernières : Smartplug
 
 -   Fabricant ID : 357
 
@@ -97,7 +97,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -137,7 +137,7 @@ available.
 
  \
 
-![vers](images/nodon.smartplug/commandes.jpg)
+![Vers](images/nodon.smartplug/commandes.jpg)
 
  \
 
@@ -162,17 +162,17 @@ le même icone.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin Zwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -195,7 +195,7 @@ Détails des paramètres :
     coupure de courant ou après branchement
 
 -   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de
-    coupure/retour de courant, ainsi que les groupes associés (groups
+    coupure/retour de courant, ainsi que les groupes associés (Groups
     4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à
     la documentation papier ou à la bulle d'aide dans jeedom). It is
     recommandé de mettre ce paramètre à 1.
@@ -211,7 +211,7 @@ Détails des paramètres :
     Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
     www.nodon.fr/support/asp3/alarm vous guidera
 
-### groups 
+### Groups 
 
  \
 

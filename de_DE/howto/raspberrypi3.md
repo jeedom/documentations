@@ -40,7 +40,7 @@ Puis redémarrage du PI3
 
     sudo reboot
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour éviter les problèmes de puissance, optez pour un disque SSD mSATA
 > à faible consommation.
@@ -56,7 +56,7 @@ Ajustements possibles
 
 **Il faut ensuite prendre en compte les remarques suivantes :**
 
-> **wichtig**
+> **Wichtig**
 >
 > Les modifications suivantes sont le fruit de problèmes rencontrés par
 > les utilisateurs. Vous devez les adapter à votre cas. Le support

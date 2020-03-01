@@ -140,7 +140,7 @@ Vous devriez avoir :
 >
 > Il faut faire ctrl+c pour quitter le ping
 
-by sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
+By sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
 
     vim /etc/hosts
 
@@ -165,7 +165,7 @@ Puis cloner openjabnab :
 Configuration du serveur web 
 ============================
 
-faites :
+Faites :
 
     cd /etc/apache2/sites-available/
     vim ojn.conf
@@ -210,7 +210,7 @@ Puis on redémarre apache :
 Installation d'openjabnab 
 =========================
 
-faites :
+Faites :
 
     su ojn
     cd /home/ojn/OpenJabNab/server
@@ -224,7 +224,7 @@ faites :
 Configuration d'openjabnab 
 ==========================
 
-faites :
+Faites :
 
     cp openjabnab.ini-dist bin/openjabnab.ini
     vim bin/openjabnab.ini
@@ -250,7 +250,7 @@ Puis allez sur :
 
     http://ojn.raspberry.pi/ojn_admin/install.php
 
-validez le tout
+Validez le tout
 
 Lancement du serveur 
 ====================
@@ -293,7 +293,7 @@ Surveillance du serveur openjabnab et démarrage auto
 
 Comme vous le remarquerez si vous fermez votre session le serveur
 openjabnab s'arrête. Il faut donc ajouter un petit script pour
-surveiller le serveur et le démarrer automatiquement. faites :
+surveiller le serveur et le démarrer automatiquement. Faites :
 
     cd /home/ojn
     vim checkojn.sh
@@ -574,7 +574,7 @@ et changer :
 
     TTS=acapela
 
-by
+By
 
     TTS=jeedom
 

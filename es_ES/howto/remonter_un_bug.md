@@ -8,11 +8,11 @@ Il existe dans Jeedom plusieurs manières de remonter un souci :
   - **Informe de error**, dans ce cas la demande est **publique** et sera postée sur la communauté
   - **Solicitud mejora**, dans ce cas la demande est **publique** et sera postée sur la communauté
 
->**nota**
+>**Nota**
 >
 >Dans le cas d'une demande de support sur un plugin tierce un mail est envoyé au développeur du plugin
 
->**importante**
+>**Importante**
 >
 >Le support étant réalisé exclusivement par mail, pensez à surveiller vos spams. Le plus souvent, le support répond rapidement (délai avant réponse en moyenne de moins 72h, attention en fonction du problème cela peut etre beaucoup plus long)
 

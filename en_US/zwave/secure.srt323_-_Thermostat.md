@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 2 years
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   aux dernières : SRT 323 Electronic Room Thermostat and Temperature
+-   Aux dernières : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Fabricant ID : 89
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -177,7 +177,7 @@ available.
 
  \
 
-![vers](images/secure.srt323/commandes.jpg)
+![Vers](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -194,21 +194,21 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

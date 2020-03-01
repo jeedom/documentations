@@ -27,9 +27,9 @@ d'information en haut de la fenêtre Filezilla :
 
 -   Hostname : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
 
--   login : Jeedom
+-   Login : Jeedom
 
--   termes utilisés : MJeedom96
+-   Termes utilisés : MJeedom96
 
 -   Harbor : 22
 

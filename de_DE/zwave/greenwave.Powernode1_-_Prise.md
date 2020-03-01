@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sous la prise.
@@ -217,7 +217,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 

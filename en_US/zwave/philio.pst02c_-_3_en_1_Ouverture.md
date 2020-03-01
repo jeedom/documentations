@@ -49,7 +49,7 @@ existant.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -89,7 +89,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 3 ans (pour 14 déclenchements par jour)
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -122,7 +122,7 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   aux dernières : PST02-C Door/Window 3 in 1 sensor
+-   Aux dernières : PST02-C Door/Window 3 in 1 sensor
 
 -   Fabricant ID : 316
 
@@ -132,7 +132,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -171,7 +171,7 @@ available.
 
  \
 
-![vers](images/philio.pst02c/commandes.jpg)
+![Vers](images/philio.pst02c/commandes.jpg)
 
  \
 
@@ -187,11 +187,11 @@ Voici la liste des commandes :
 
 -   Luminosité : C'est la commande qui permet de remonter la luminosité
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -204,11 +204,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

@@ -63,7 +63,7 @@ un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave
 individuelles.  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -125,7 +125,7 @@ Données du module
 
 -   Marque : GreenWave
 
--   aux dernières : GreenWave\[6 x prises\]
+-   Aux dernières : GreenWave\[6 x prises\]
 
 -   Fabricant ID : 153
 
@@ -135,7 +135,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -165,7 +165,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -174,15 +174,15 @@ available.
 
  \
 
-![vers](images/greenwave.powernode/commandes.jpg)
+![Vers](images/greenwave.powernode/commandes.jpg)
 
-![vers](images/greenwave.powernode/commandes2.jpg)
+![Vers](images/greenwave.powernode/commandes2.jpg)
 
-![vers](images/greenwave.powernode/commandes3.jpg)
+![Vers](images/greenwave.powernode/commandes3.jpg)
 
-![vers](images/greenwave.powernode/commandes4.jpg)
+![Vers](images/greenwave.powernode/commandes4.jpg)
 
-![vers](images/greenwave.powernode/commandes5.jpg)
+![Vers](images/greenwave.powernode/commandes5.jpg)
 
  \
 
@@ -275,22 +275,22 @@ en un seul bouton.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -315,7 +315,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Consommation en fonctionnement : 45mA
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 100m en extérieur, 40m en intérieur
 
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -289,7 +289,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

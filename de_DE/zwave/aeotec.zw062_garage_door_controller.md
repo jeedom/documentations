@@ -1,4 +1,4 @@
-aeotec Contrôleur de porte de garage 
+Aeotec Contrôleur de porte de garage 
 ====================================
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -107,7 +107,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Name : Garage Door Controller (ZW062)
 
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -193,7 +193,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 

@@ -61,7 +61,7 @@ Funktionen
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction ein/aus
+-   Fonction Ein/Aus
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -174,9 +174,9 @@ Voici la liste des commandes :
 -   état : C'est la commande qui permet de connaitre le statut de la
     Licht
 
--   ein : C'est la commande qui permet d'allumer la Licht
+-   Ein : C'est la commande qui permet d'allumer la Licht
 
--   aus : C'est la commande qui permet d'éteindre la Licht
+-   Aus : C'est la commande qui permet d'éteindre la Licht
 
  \
 
@@ -217,15 +217,15 @@ swiidinter à un autre module (appui long)
 
  \
 
--   inaktiv : n'aura aucun effet sur les autres Lichts
+-   Inaktiv : n'aura aucun effet sur les autres Lichts
 
--   Uniquement aus : sera effectif uniquement pour éteindre les autres
+-   Uniquement Aus : sera effectif uniquement pour éteindre les autres
     Lichts
 
--   Uniquement ein : sera effectif uniquement pour allumer les autres
+-   Uniquement Ein : sera effectif uniquement pour allumer les autres
     Lichts
 
--   ein et aus (fully) : sera effectif pour allumer et éteindre les
+-   Ein et Aus (fully) : sera effectif pour allumer et éteindre les
     autres Lichts
 
  \
@@ -242,7 +242,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.

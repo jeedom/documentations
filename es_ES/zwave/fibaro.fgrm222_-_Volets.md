@@ -43,11 +43,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les
 autres modules, afin d'assurer une couverture totale de votre
 habitation.
 
-nota : Ce module nécessite le neutre pour fonctionner.
+Nota : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Charge maxi : 1000W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Potencia du signal : 1mW
 
@@ -123,7 +123,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -153,7 +153,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -162,9 +162,9 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgrm222/commandes.jpg)
+![Comandos](images/fibaro.fgrm222/commandes.jpg)
 
-![comandos](images/fibaro.fgrm222/commandes2.jpg)
+![Comandos](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -182,7 +182,7 @@ Voici la liste des commandes :
 
 -   Down : C'est la commande qui permet de fermer complétement le volet
 
--   refrescar : C'est la commande qui permet de redemander la position
+-   Refrescar : C'est la commande qui permet de redemander la position
     du volet
 
 -   Potencia : Commande permettant d'avoir la consommation du module
@@ -199,22 +199,22 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   no : Permet de définir le pas pour un appui sur Décliner ou
+-   No : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -312,11 +312,11 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### importante 
+### Importante 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
 > forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-no de notion de wakeup sur ce module.
+No de notion de wakeup sur ce module.
 
  \
 

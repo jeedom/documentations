@@ -37,7 +37,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -75,7 +75,7 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -102,7 +102,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -113,7 +113,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -134,7 +134,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -143,7 +143,7 @@ disponible.
 
  \
 
-![comandos](images/everspring.AD147-6/commandes.jpg)
+![Comandos](images/everspring.AD147-6/commandes.jpg)
 
  \
 
@@ -168,22 +168,22 @@ retrouvent sur la même icône.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -207,7 +207,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir si la prise fontionnera en mode
     variation ou en mode on/off
 
-### grupos 
+### Grupos 
 
  \
 
@@ -219,7 +219,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

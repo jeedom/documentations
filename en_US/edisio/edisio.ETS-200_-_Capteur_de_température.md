@@ -20,7 +20,7 @@ est compact et discret.
 
 L'indicateur LED intégré signal tout changement d'état.
 
-functions 
+Functions 
 =========
 
 -   Capteur de température sans fil alimenté par piles
@@ -41,13 +41,13 @@ Caractéristiques Techniques
 
 -   Type de module : émetteur Edisio
 
--   use : En intérieur
+-   Use : En intérieur
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
 -   Autonomie : Jusqu'à 3 ans
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -62,7 +62,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : ETS-200
+-   Aux dernières : ETS-200
 
 General configuration 
 ======================
@@ -112,19 +112,19 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/ets200/ets200.commandes.jpg)
+![Vers](images/ets200/ets200.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   Température : C'est la commande qui indique la température relevée
 
--   drums : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
 Information 
 ------------
@@ -132,14 +132,14 @@ Information
 Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/ets200/ets200.informations.jpg)
+![Vers](images/ets200/ets200.informations.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   drums : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

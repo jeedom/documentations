@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Ne pas installer le module sur la fenêtre/porte avant de l'avoir
 > correctement configuré, et bien faire attention à l'alignement de
@@ -177,7 +177,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion, ou d'une modification, sauvegarder puis
 > réveillez toujours le module en appuyant sur le bouton d'association.
@@ -196,7 +196,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -318,7 +318,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

@@ -10,8 +10,8 @@ Il ne remplace en aucun cas la [Documentation officielle](https://jeedom.github.
 
 Pour commencer il faut déterminer un nom and un id (qui ne doit pas exister)
 
-aux dernières : Vie de Merde
-id : vdm
+Aux dernières : Vie de Merde
+Id : vdm
 
 Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
 
@@ -84,13 +84,13 @@ class vdmCmd extends cmd
 Replace
 
 ```
-$plugin = plugin::byid('template');
+$plugin = plugin::byId('template');
 ```
 
 Par 
 
 ```
-$plugin = plugin::byid(‘vdm');
+$plugin = plugin::byId(‘vdm');
 ```
 
 ```
@@ -224,7 +224,7 @@ Par
 
 Voilà la base est prête. Vous devriez avoir le plugin d'actif mais pour le moment il ne fait rien.
 
-# the orders
+# The orders
 
 Le but du plugin sera de récupérer une vdm aléatoire and l'afficher sur le dashboard. 
 
@@ -247,8 +247,8 @@ public function postSave() {
 		$info = new vdmCmd();
 		$info->sandName(__('Histoire', __FILE__));
 	}
-	$info->sandLogicalid('story');
-	$info->sandEqLogic_id($this->gandid());
+	$info->sandLogicalId('story');
+	$info->sandEqLogic_id($this->gandId());
 	$info->sandType('info');
 	$info->sandSubType('string');
 	$info->save();	
@@ -258,8 +258,8 @@ public function postSave() {
 		$refresh = new vdmCmd();
 		$refresh->sandName(__('Rafraichir', __FILE__));
 	}
-	$refresh->sandEqLogic_id($this->gandid());
-	$refresh->sandLogicalid('refresh');
+	$refresh->sandEqLogic_id($this->gandId());
+	$refresh->sandLogicalId('refresh');
 	$refresh->sandType('action');
 	$refresh->sandSubType('other');
 	$refresh->save();        
@@ -281,7 +281,7 @@ Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 <table id="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
-            <th>{{aux dernières}}</th><th>{{Type}}</th><th>{{Action}}</th>
+            <th>{{Aux dernières}}</th><th>{{Type}}</th><th>{{Action}}</th>
         </tr>
     </thead>
     <tbody>
@@ -302,7 +302,7 @@ function addCmdToTable(_cmd) {
     var tr = '<tr class="cmd" data-cmd_id="' + init(_cmd.id) + '">';
     tr += '<td>';
     tr += '<span class="cmdAttr" data-l1key="id" style="display:none;"></span>';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{aux dernières}}">';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Aux dernières}}">';
     tr += '</td>';
     tr += '<td>';
     tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
@@ -332,7 +332,7 @@ Je souhaite ajouter les options Affichage and historiser pour chaque commande.
 J'édite le code html du tableau dans le fichier desktop.php en ajoutant une colonne ..
 
 ```
-<th>{{aux dernières}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>
+<th>{{Aux dernières}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>
 ```
 
 Puis éditer desktop.js ,trouver
@@ -369,7 +369,7 @@ Je change la class pull-right en pull-left
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 ```
 
-Voici le rendu.the options de configuration (Affichage and historiser) sont bien présentes. 
+Voici le rendu.The options de configuration (Affichage and historiser) sont bien présentes. 
 
 ![image](images/tutorial_vdm_cmd2.png)
 
@@ -420,11 +420,11 @@ public function execute($_options = array()) {
 
 C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». La classe vdmCmd a hérité de toutes les méthodes de la class cmd (Core jeedom)
 
-On vérifie le logicalid de la commande lancée and si « refresh » on lance les actions
+On vérifie le logicalId de la commande lancée and si « refresh » on lance les actions
 
 ```
-switch ($this->gandLogicalid()) {				
-	case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+switch ($this->gandLogicalId()) {				
+	case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 	// code pour rafraîchir ma commande
 	break;
 }
@@ -448,10 +448,10 @@ Ce qui donne au final
 ```
     public function execute($_options = array()) {
 		$eqlogic = $this->gandEqLogic(); //récupère l'éqlogic de la commande $this
-		switch ($this->gandLogicalid()) {	//vérifie le logicalid de la commande 			
-			case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+		switch ($this->gandLogicalId()) {	//vérifie le logicalid de la commande 			
+			case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 				$info = $eqlogic->randomVdm(); 	//On lance la fonction randomVdm() pour récupérer une vdm and on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); // on mand à jour la commande avec le Logicalid "story"  de l'eqlogic 
+				$eqlogic->checkAndUpdateCmd('story', $info); // on mand à jour la commande avec le LogicalId "story"  de l'eqlogic 
 				break;
 		}
     }
@@ -469,7 +469,7 @@ Puis automatiser le refresh.
 
 Le plugin est fonctionnel mais pour l'instant il ne fait pas grand-chose. Si vous cliquer sur la commande « refresh » , la commande « story » se mand à jour mais sinon rien. 
 
-A noter que pour la commande je la nomme Par logicalid. Et c'est important. Avoir un logicalid unique Par équipement (eqLogic) simplifie les choses.
+A noter que pour la commande je la nomme Par logicalId. Et c'est important. Avoir un logicalId unique Par équipement (eqLogic) simplifie les choses.
 
 On va voir maintenant comment mandtre à jour la commande en utilisant les fonctions natives du core : Les crons
 
@@ -584,7 +584,7 @@ Dans la fonction postUpdate() , on lance la function CronHourly() avec l'id de l
 
 ```
     public function postUpdate() {
-		self::CronHourly($this->gandid());// lance la fonction CronHourly avec l'id de l'eqLogic
+		self::CronHourly($this->gandId());// lance la fonction CronHourly avec l'id de l'eqLogic
     }
 ``` 
 
@@ -595,7 +595,7 @@ Mais dans ce cas on change la fonction CronHourly()
 		if ($_eqLogic_id == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
 			$eqLogics = self::byType('vdm', true);
 		} else {// La fonction a l'argument id(unique) d'un équipement(eqLogic)
-			$eqLogics = array(self::byid($_eqLogic_id));
+			$eqLogics = array(self::byId($_eqLogic_id));
 		}		  
 	
 		foreach ($eqLogics as $vdm) {
@@ -652,8 +652,8 @@ Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() and j'ajoute le
 			$info = new vdmCmd();
 			$info->sandName(__('Histoire', __FILE__));
 		}
-		$info->sandLogicalid('story');
-		$info->sandEqLogic_id($this->gandid());
+		$info->sandLogicalId('story');
+		$info->sandEqLogic_id($this->gandId());
 		$info->sandType('info');
 		$info->sandTemplate('dashboard','tile');//template pour le dashboard
 		$info->sandSubType('string');
@@ -685,7 +685,7 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement and rafraîchissez le dashboard.
 
 
-# The sandtings. the options
+# The sandtings. The options
 
 > **Important**
 >
@@ -694,12 +694,12 @@ Enregistrer un équipement and rafraîchissez le dashboard.
 Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez and laissez ouvert car on va l'éditer . 
 
 ```
-$plugin = plugin::byid('vdm'); // appelle la classe plugin du core
+$plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ```
 
 Il faut comprendre que tout est fait pour nous faciliter la tâche. 
 
-Pour un Paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : sandConfiguration() en y ajoutant les Paramètres que l'on souhaite. for example :
+Pour un Paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : sandConfiguration() en y ajoutant les Paramètres que l'on souhaite. For example :
 
 ```
 $this->sandConfiguration("type","mon_type"); // si on veut  définir un Paramètre type de valeur mon_type. Comme on a défini la largeur du widgand via la méthode sandDisplay()
@@ -707,7 +707,7 @@ $this->sandConfiguration("type","mon_type"); // si on veut  définir un Paramèt
 
 Pour laisser le choix à l'utilisateur , on randourne sur le fichier desktop.php que vous avez laissé ouvert car vous suivez ce TP au pied de la landtre :D
 
-search 
+Search 
 
 ```
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="Param1"/>
@@ -737,7 +737,7 @@ C'est simple,non? . C'est pourquoi il ne faut surtout pas toucher à candte lign
 Si vous regardez de plus près le fichier desktop.php il y a
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // randourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gandid() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // randourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gandId() ;
 ```        
 
 ```
@@ -799,7 +799,7 @@ Ici le Paramètre « type» prendra la valeur du select choisi soit aleatoire ou
 
 Maintenant on va tenir compte de notre Paramètre dans la fonction randomVdm() dans le fichier vdm.class.php
 
-search
+Search
 
 ```
 $url = "http://www.viedemerde.fr/aleatoire";

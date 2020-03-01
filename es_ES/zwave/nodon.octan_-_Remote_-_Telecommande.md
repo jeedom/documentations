@@ -37,7 +37,7 @@ domestiques
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -96,7 +96,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -107,7 +107,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
@@ -127,7 +127,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -136,7 +136,7 @@ disponible.
 
  \
 
-![comandos](images/nodon.octan/commandes.jpg)
+![Comandos](images/nodon.octan/commandes.jpg)
 
  \
 
@@ -144,10 +144,10 @@ Voici la liste des commandes :
 
  \
 
--   botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| botones        | Appui          | Appui Long     | Relachement    | Double appui   |
+| Botones        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -160,11 +160,11 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -173,11 +173,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -205,7 +205,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### grupos 
+### Grupos 
 
  \
 
@@ -231,7 +231,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **importante**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -274,7 +274,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

@@ -49,7 +49,7 @@ existant.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -84,7 +84,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -111,7 +111,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -150,7 +150,7 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Comandos](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
  \
 
@@ -161,7 +161,7 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
--   batería : c'est la commande qui permet de remonter l'état de la
+-   Batería : c'est la commande qui permet de remonter l'état de la
     batería
 
  \
@@ -170,11 +170,11 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -183,16 +183,16 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -257,7 +257,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Ce module est très capricieux sur les wakeup et nécessite une très
 > forte proximité avec le contrôleur lors de son inclusion
@@ -309,7 +309,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

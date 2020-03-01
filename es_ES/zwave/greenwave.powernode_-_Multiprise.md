@@ -63,7 +63,7 @@ un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave
 individuelles.  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -135,7 +135,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -146,7 +146,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sur la prise.
@@ -165,7 +165,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -174,15 +174,15 @@ disponible.
 
  \
 
-![comandos](images/greenwave.powernode/commandes.jpg)
+![Comandos](images/greenwave.powernode/commandes.jpg)
 
-![comandos](images/greenwave.powernode/commandes2.jpg)
+![Comandos](images/greenwave.powernode/commandes2.jpg)
 
-![comandos](images/greenwave.powernode/commandes3.jpg)
+![Comandos](images/greenwave.powernode/commandes3.jpg)
 
-![comandos](images/greenwave.powernode/commandes4.jpg)
+![Comandos](images/greenwave.powernode/commandes4.jpg)
 
-![comandos](images/greenwave.powernode/commandes5.jpg)
+![Comandos](images/greenwave.powernode/commandes5.jpg)
 
  \
 
@@ -275,22 +275,22 @@ en un seul bouton.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -315,7 +315,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

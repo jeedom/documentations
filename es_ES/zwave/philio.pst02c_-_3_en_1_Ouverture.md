@@ -1,4 +1,4 @@
-Philio PST02 C - 3 en 1 apertura 
+Philio PST02 C - 3 en 1 Apertura 
 =================================
 
  \
@@ -49,12 +49,12 @@ existant.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
 
--   Détecteur 3 en 1: apertura, température, lumière
+-   Détecteur 3 en 1: Apertura, température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -89,7 +89,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 3 ans (pour 14 déclenchements par jour)
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -132,7 +132,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -143,7 +143,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -171,7 +171,7 @@ disponible.
 
  \
 
-![comandos](images/philio.pst02c/commandes.jpg)
+![Comandos](images/philio.pst02c/commandes.jpg)
 
  \
 
@@ -179,7 +179,7 @@ Voici la liste des commandes :
 
  \
 
--   apertura : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : C'est la commande qui permet de remonter la
@@ -187,15 +187,15 @@ Voici la liste des commandes :
 
 -   Luminosité : C'est la commande qui permet de remonter la luminosité
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -204,11 +204,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -328,7 +328,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

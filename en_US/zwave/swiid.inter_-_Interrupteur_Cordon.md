@@ -50,7 +50,7 @@ distance.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -61,7 +61,7 @@ functions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction We/off
+-   Fonction We/Off
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Swiid
 
--   aux dernières : Swiidinter
+-   Aux dernières : Swiidinter
 
 -   Fabricant ID : 358
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -154,7 +154,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -163,7 +163,7 @@ available.
 
  \
 
-![vers](images/swiid.inter/commandes.jpg)
+![Vers](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -176,7 +176,7 @@ Voici la liste des commandes :
 
 -   We : C'est la commande qui permet d'allumer la Light
 
--   off : C'est la commande qui permet d'éteindre la Light
+-   Off : C'est la commande qui permet d'éteindre la Light
 
  \
 
@@ -185,17 +185,17 @@ Icon
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -219,18 +219,18 @@ swiidinter à un autre module (appui long)
 
 -   Inactive : n'aura aucun effet sur les autres Lights
 
--   Uniquement off : sera effectif uniquement pour éteindre les autres
+-   Uniquement Off : sera effectif uniquement pour éteindre les autres
     Lights
 
 -   Uniquement We : sera effectif uniquement pour allumer les autres
     Lights
 
--   We et off (fully) : sera effectif pour allumer et éteindre les
+-   We et Off (fully) : sera effectif pour allumer et éteindre les
     autres Lights
 
  \
 
-### groups 
+### Groups 
 
  \
 

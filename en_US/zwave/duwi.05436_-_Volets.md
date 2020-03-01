@@ -43,7 +43,7 @@ plus loin).
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Fusible : T8AH
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Dimensions : 52 x 52 x 31mm
 
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : Popp/Duwi
 
--   aux dernières : ZW ESJ Blind Control
+-   Aux dernières : ZW ESJ Blind Control
 
 -   Fabricant ID : 100
 
@@ -110,7 +110,7 @@ Connection
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -145,7 +145,7 @@ available.
 
  \
 
-![vers](images/duwi.05436/4-vers.PNG)
+![Vers](images/duwi.05436/4-Vers.PNG)
 
  \
 
@@ -186,17 +186,17 @@ Recommencer l'opération dans l'autre sens.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -224,7 +224,7 @@ et la seconde pour la descente.
 Les valeurs sont codées en héxadécimal dans le module et remises en
 décimal dans l'affichage de Jeedom.
 
-for example : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
+For example : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
 pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
 décimal : 18s pour montée et descente.
 
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### groups 
+### Groups 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-groups.PNG)
+![Groupe](images/duwi.05436/6-Groups.PNG)
 
  \
 

@@ -32,7 +32,7 @@ compatible.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -80,7 +80,7 @@ Données du module
 
 -   Marque : Nodon
 
--   aux dernières : CRC-3-6-0x Soft Remote
+-   Aux dernières : CRC-3-6-0x Soft Remote
 
 -   Fabricant ID : 357
 
@@ -90,7 +90,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -121,7 +121,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -130,7 +130,7 @@ available.
 
  \
 
-![vers](images/nodon.softremote/commandes.png)
+![Vers](images/nodon.softremote/commandes.png)
 
  \
 
@@ -138,10 +138,10 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -153,11 +153,11 @@ Voici la liste des commandes :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 +----------------+----------------+----------------+----------------+----------------+
 
--   drums : c'est la commande qui remonte le niveau des piles
+-   Drums : c'est la commande qui remonte le niveau des piles
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -170,11 +170,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -202,7 +202,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### groups 
+### Groups 
 
  \
 

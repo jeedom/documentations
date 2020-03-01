@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -74,7 +74,7 @@ Caractéristiques Techniques
 
 -   Puissance maximum : 5A (1100W) pour chaque canal
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 30 m
 
@@ -91,7 +91,7 @@ Données du module
 
 -   Marque : MC HOME
 
--   aux dernières : MH-S412 Double
+-   Aux dernières : MH-S412 Double
 
 -   Fabricant ID : 351
 
@@ -101,7 +101,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -135,17 +135,17 @@ available.
 
  \
 
-![vers](images/mco.mhs412/commandes.jpg)
+![Vers](images/mco.mhs412/commandes.jpg)
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -168,7 +168,7 @@ Détails des Rassemblement des informations utiles :
 
  \
 
-### groups 
+### Groups 
 
  \
 

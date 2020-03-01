@@ -17,7 +17,7 @@ Et rentrer votre clef de licence
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **nota**
+> **Nota**
 >
 > Pour rappel, si vous ne le faites pas votre ESXi risque de ne plus
 > fonctionner au bout de 60 jours
@@ -174,12 +174,12 @@ Ensuite transférez le zip sur un de vos datastores et faites :
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **nota**
+> **Nota**
 >
 > Remplacer bien le chemin et le nom du zip en fonction de votre
 > configuración
 
-> **importante**
+> **Importante**
 >
 > Attention à bien mettre le chemin complet vers le zip sinon ça ne
 > marche pas
@@ -246,13 +246,13 @@ Dans "Nom d'hôte" (au niveau de la source) il faut mettre le DNS voulu
 (par exemple monesxi.mondsn.synology.me) et dans "Nom d'hôte" (au niveau
 de la destination) il faut mettre l'IP de l'ESXi
 
-> **nota**
+> **Nota**
 >
 > Vous pouvez faire aussi la même chose pour accéder à jeedom mais en
 > mettant cette fois l'IP de jeedom (de la vm si vous êtes en
 > virtualisé) et le port 80
 
-> **nota**
+> **Nota**
 >
 > Une fois que vous avez fait cela et si votre DNS pointe correctement
 > sur le NAS vous pouvez générer un certificat SSL valide gratuitement
@@ -264,14 +264,14 @@ Ensuite pour accéder à votre ESXi il vous suffit avec votre navigateur
 d'aller sur votre DNS ou IP externe en ajoutant /ui à la fin et c'est
 bon.
 
-> **importante**
+> **Importante**
 >
 > Si vous passez par le reverse proxy du NAS la console en mode web des
 > VMs ne fonctionne pas (car cela passe par du websocket), en revanche
 > si vous passez par VMware Remote Console tout devrait être ok (cela
 > passe par le port 902)
 
-> **nota**
+> **Nota**
 >
 > Il existe aussi une application Vmware Watchlist sur Android pour
 > avoir accès à l'ESXi ainsi qu'aux consoles des VMs

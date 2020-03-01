@@ -48,7 +48,7 @@ matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
 Logiciel
 ========
 
-> **wichtig**
+> **Wichtig**
 >
 > Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable).
 > Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas

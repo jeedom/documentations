@@ -43,7 +43,7 @@ plus loin).
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Fusible : T8AH
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Dimensions : 52 x 52 x 31mm
 
@@ -110,7 +110,7 @@ Conexión
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre le module en mode inclusion, il faut appuyer trois fois
 > sur la montée ou la descente. L'exclusion se fait de la même manière.
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -145,7 +145,7 @@ disponible.
 
  \
 
-![comandos](images/duwi.05436/4-comandos.PNG)
+![Comandos](images/duwi.05436/4-Comandos.PNG)
 
  \
 
@@ -161,7 +161,7 @@ Voici la liste des commandes :
 
 -   STOP : arrêt immédiat du mouvement
 
--   refrescar : rafraichîr l'état actuel du module
+-   Refrescar : rafraichîr l'état actuel du module
 
 -   Nivel : slider pour positionner une ouverture partielle
 
@@ -186,17 +186,17 @@ Recommencer l'opération dans l'autre sens.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-grupos.PNG)
+![Groupe](images/duwi.05436/6-Grupos.PNG)
 
  \
 
@@ -279,7 +279,7 @@ Bon à savoir
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **punta**
+> **Punta**
 >
 > Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "état". Ce
 > widget est sympa car il montre les états 'partiellement ouvert'.

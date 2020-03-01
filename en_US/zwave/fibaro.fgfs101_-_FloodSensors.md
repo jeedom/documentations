@@ -53,7 +53,7 @@ assure du bon fonctionnement du capteur lors de son installation.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -91,7 +91,7 @@ Caractéristiques Techniques
 
 -   Tension maximale supportée en sortie : 40V (AC ou DC)
 
--   fréquence : 868,42 Mhz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -115,7 +115,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   model : FGFS101 Flood Sensor
+-   Model : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
@@ -127,7 +127,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -167,7 +167,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgfs101/commandes.jpg)
+![Vers](images/fibaro.fgfs101/commandes.jpg)
 
  \
 
@@ -183,11 +183,11 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -200,16 +200,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

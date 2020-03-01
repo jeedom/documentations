@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques Techniques
 
 -   Fusible : 2.5A
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -128,7 +128,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -139,7 +139,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 
  \
 
-> **punta**
+> **Punta**
 >
 > Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure
 > en faisant de nombreux aller retour sur l'interrupteur ou de nombreux
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -175,7 +175,7 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgd211/commandes.jpg)
+![Comandos](images/fibaro.fgd211/commandes.jpg)
 
  \
 
@@ -198,22 +198,22 @@ icono
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "configuración" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: funciones ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Funciones ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

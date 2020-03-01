@@ -1,4 +1,4 @@
-aeotec Panic Button 
+Aeotec Panic Button 
 ===================
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques Techniques
 -   Durée de vie de la batterie : 2 à 3 mois pour 10 à 20 utilisations
     par jour
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -91,9 +91,9 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
--   aux dernières : Panic Button
+-   Aux dernières : Panic Button
 
 -   Fabricant ID : 134
 
@@ -103,7 +103,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -142,7 +142,7 @@ available.
 
  \
 
-![vers](images/aeotec.panicbutton/commandes.jpg)
+![Vers](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -171,16 +171,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -199,7 +199,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

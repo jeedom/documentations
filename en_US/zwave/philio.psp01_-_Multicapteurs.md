@@ -48,7 +48,7 @@ réseau existant.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 2 years
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -121,7 +121,7 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   aux dernières : Philio PSP01
+-   Aux dernières : Philio PSP01
 
 -   Fabricant ID : 316
 
@@ -131,7 +131,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -161,7 +161,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -170,7 +170,7 @@ available.
 
  \
 
-![vers](images/philio.psp01/commandes.jpg)
+![Vers](images/philio.psp01/commandes.jpg)
 
  \
 
@@ -191,14 +191,14 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
 correspondant à votre module.
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -211,16 +211,16 @@ correspondant à votre module.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

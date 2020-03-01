@@ -47,7 +47,7 @@ déjà un réseau existant.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : D-Link
 
--   model : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   Model : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -150,7 +150,7 @@ available.
 
  \
 
-![vers](images/dlink.dchz110/commandes.jpg)
+![Vers](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -169,11 +169,11 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -187,16 +187,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -253,7 +253,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

@@ -19,7 +19,7 @@ De plus, l'interaction avec d'autres protocoles est possible, elle peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-functions 
+Functions 
 =========
 
 -   Mode d'usage : Marche/Arrêt, Ouvrir/Stop/Fermer, Variateur,
@@ -40,7 +40,7 @@ Caractéristiques Techniques
 
 -   Canaux : 4
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : -10°C +50°C
 
@@ -53,7 +53,7 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : ETC4
+-   Aux dernières : ETC4
 
 General configuration 
 ======================
@@ -124,13 +124,13 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/etc4/commandes.jpg)
+![Vers](images/etc4/commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -142,7 +142,7 @@ Voici la liste des commandes :
 
 -   bt04 : C'est la commande qui permet d'interagir avec le bouton 4
 
--   drums : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
 Information 
 ------------
@@ -150,18 +150,18 @@ Information
 Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/etc4/infos.jpg)
+![Vers](images/etc4/infos.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   drums : Indique l'état de la batterie pour les modules à piles
+-   Drums : Indique l'état de la batterie pour les modules à piles
 
 -   STATUS : Retourne le status du module
 
-use 
+Use 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le

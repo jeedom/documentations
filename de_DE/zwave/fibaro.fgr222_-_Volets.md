@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Charge maxi : 1000W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Macht du signal : 1mW
 
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -182,7 +182,7 @@ Voici la liste des commandes :
 
 -   Down : C'est la commande qui permet de fermer complétement le volet
 
--   auffrischen : C'est la commande qui permet de redemander la position
+-   Auffrischen : C'est la commande qui permet de redemander la position
     du volet
 
 -   Macht : Commande permettant d'avoir la consommation du module
@@ -199,7 +199,7 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   nicht : Permet de définir le pas pour un appui sur Décliner ou
+-   Nicht : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
@@ -219,7 +219,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -312,11 +312,11 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### wichtig 
+### Wichtig 
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
 > forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-nicht de notion de wakeup sur ce module.
+Nicht de notion de wakeup sur ce module.
 
  \
 

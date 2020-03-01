@@ -159,7 +159,7 @@ C'est quand même mieux quand c'est automatique. Pour ce faire, voici les
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **wichtig**
+> **Wichtig**
 >
 > Attention à bien adapter le chemin vers le script.
 

@@ -38,11 +38,11 @@ Il faut éditer le fichier /etc/ssh/sshd\_config et changer :
 
     PermitRootLogin withot-password
 
-por :
+Por :
 
     PermitRootLogin yes
 
-> **importante**
+> **Importante**
 >
 > Veillez à bien utiliser un Contraseña root fort ! L'utilisation de
 > fail2ban est également recommandée.
@@ -58,7 +58,7 @@ Créer le point de montage :
 
     mkdir /mnt/mon_partage
 
-> **nota**
+> **Nota**
 >
 > Il faut adapter mon\_partage en fonction de votre besoin
 
@@ -66,7 +66,7 @@ Ajot du montage dans /etc/fstab
 
     //IP_SERVER_SAMBA/mon_partage /mnt/mon_partage cifs uid=0,rw,user=TODO,password=TODO 0 0
 
-> **nota**
+> **Nota**
 >
 > Vos devez changer les TODO par votre nom d'utilisateur linux et votre
 > Contraseña
@@ -91,7 +91,7 @@ Avant de commencer, réalisez une sauvegarde complète via Jeedom de votre
 installation sos Jessie, puis exportez la sauvegarde sur un autre
 support de stockage.
 
-> **punta**
+> **Punta**
 >
 > Téléchargez la sauvegarde autrement que par l'interface web (SSH, FTP,
 > SAMBA, autres de votre choix), car si votre archive est volumineuse
@@ -133,14 +133,14 @@ MYSQL, sos Stretch :
     MariaDB [mysql]> exit;
     Bye
 
-> **punta**
+> **Punta**
 >
 > Remplacez 'monpass' par votre Contraseña MYSQL utilisé por le
 > compte root sos "Debian 8 - Jessie". Je donne les droits à root
 > notamment por gérer mes bases avec 'PHPMYADMIN', mais les donner à
 > l'utilisateur MYSQL 'jeedom' doit suffire.
 
-> **punta**
+> **Punta**
 >
 > Vos troverez le mode passe de l'utilisateur MYSQL jeedom ici :
 > Administration → Configuration → OS/DB → Base de données
@@ -213,7 +213,7 @@ Suppression des librairies non nécessaires
     apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
     apt -y remove `aptitude -F %p search '~o'`----
 
-nota : Si lorsque vos ovrez votre page Jeedom vos obtenez un code php, activez-le en lançant les commandes suivantes :
+Nota : Si lorsque vos ovrez votre page Jeedom vos obtenez un code php, activez-le en lançant les commandes suivantes :
 
     a2enmod php7.0 
     systemctl restart apache2.service

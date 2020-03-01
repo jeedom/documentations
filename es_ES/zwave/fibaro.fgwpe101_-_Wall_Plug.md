@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Charge maxi : 2.5kW
 
--   fréquence : 868,42 Mhz EU
+-   Fréquence : 868,42 Mhz EU
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -97,7 +97,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -127,7 +127,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -136,7 +136,7 @@ disponible.
 
  \
 
-![comandos](images/fibaro.fgwpe101/commandes.jpg)
+![Comandos](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -163,17 +163,17 @@ en un seul bouton.
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 

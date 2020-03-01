@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Plage de mesure de la luminosité : 0-32000 LUX
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -108,7 +108,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro FGMS-001 \[Motion Sensor\]
+-   Aux dernières : Fibaro FGMS-001 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -148,7 +148,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -157,7 +157,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgms001/commandes.jpg)
+![Vers](images/fibaro.fgms001/commandes.jpg)
 
  \
 
@@ -175,11 +175,11 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -192,16 +192,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -297,7 +297,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

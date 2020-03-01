@@ -72,7 +72,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x AA 1,5V batteries
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Portée radio : 30m en champ libre
 
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il suffit d'appuyer deux
 > secondes sur la languette métallique (la led rouge de la face avant
@@ -177,7 +177,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,7 +195,7 @@ de votre installation, il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -233,7 +233,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 1.
@@ -274,7 +274,7 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pensez à réveiller le module après l'ajout d'un code ou badge.
 
@@ -358,7 +358,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

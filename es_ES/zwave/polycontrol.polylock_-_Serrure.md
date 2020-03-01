@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
     bâtiments
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -145,7 +145,7 @@ disponible.
 
  \
 
-![comandos](images/polycontrol.polylock/commandes.jpg)
+![Comandos](images/polycontrol.polylock/commandes.jpg)
 
  \
 
@@ -158,13 +158,13 @@ Voici la liste des commandes :
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   cerca : c'est la commande qui permet de fermer la serrure
+-   Cerca : c'est la commande qui permet de fermer la serrure
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
@@ -178,12 +178,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "configuración" du
+installation, il faut pour cela passer par la bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -265,7 +265,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la
 > main l'état restera le même.  \

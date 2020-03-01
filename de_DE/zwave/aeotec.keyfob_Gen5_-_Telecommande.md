@@ -1,4 +1,4 @@
-aeotec Keyfob Gen5 
+Aeotec Keyfob Gen5 
 ==================
 
  \
@@ -38,7 +38,7 @@ gestion des appuis courts et longs. Cette télécommande peut être aussi
 bien utilisée comme contrôleur principal ou secondaire.
 
 Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la
-gamme Gen5 de aeotec, elle surpasse tout ce qui existait auparavant.
+gamme Gen5 de Aeotec, elle surpasse tout ce qui existait auparavant.
 Elle utilise la dernière puce Z-Wave série 500, offrant une augmentation
 de la portée radio de 50% et une vitesse de communication de 250% plus
 rapide par rapport aux précédents produits Z-Wave.
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Durée de vie de la batterie : 1 Jahr
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -103,7 +103,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Name : ZW088 Key Fob Gen5
 
@@ -126,7 +126,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -204,7 +204,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -287,7 +287,7 @@ Note importante
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

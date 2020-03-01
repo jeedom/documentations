@@ -1,16 +1,16 @@
 Bienvenue dans cette documentation de premiers pas, celle-ci va vous
-aider à mettre en service votre jeedom.
+aider à mettre en service votre Jeedom.
 
-> **punta**
+> **Punta**
 >
 > Ce guide n'a pas vocation à se substituer à la documentation complète
-> disponible sur le site jeedom [ici](https://jeedom.fr/doc).
+> disponible sur le site Jeedom [ici](https://jeedom.fr/doc).
 
 Inscription sur le market 
 =========================
 
-La première chose à faire est de se créer un compte sur le mercado pour
-pouvoir enregistrer votre jeedom sur celui-ci, cliquez
+La première chose à faire est de se créer un compte sur le Mercado pour
+pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
 [ici](https://www.jeedom.com/market) pour commencer
 
 ![premier market](images/premier-market.png)
@@ -24,34 +24,34 @@ cette page :
 
 ![premier market3](images/premier-market3.png)
 
-Voila votre compte mercado est créé, pour plus de details sur le market
+Voila votre compte Mercado est créé, pour plus de details sur le market
 cliquez
 [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
 
 Ajout de votre code Servicio pack 
 ================================
 
-si usted avez acheté une box jeedom alors vous avez dû recevoir un mail
+Si usted avez acheté une box Jeedom alors vous avez dû recevoir un mail
 contenant un code pour votre Servicio pack.
 
-> **importante**
+> **Importante**
 >
 > Il est important de le renseigner car ce code vous donne accès à
 > certains plugins gratuitement, ainsi qu'à des services exclusifs.
 
-> **importante**
+> **Importante**
 >
-> si usted achetez un Servicio pack depuis le mercado jeedom vous n'avez
+> Si usted achetez un Servicio pack depuis le Mercado Jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
-[market jeedom](https://market.jeedom.fr) et de vous identifier.
+[market Jeedom](https://market.jeedom.fr) et de vous identifier.
 
 Puis allez sur votre page de profil :
 
 ![premier servicepack](images/premier-servicepack.png)
 
-Puis cliquez sur l'onglet "Mes jeedoms"
+Puis cliquez sur l'onglet "Mes Jeedoms"
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
@@ -60,22 +60,22 @@ Renseignez votre numéro de Servicio pack et validez :
 ![premier servicepack3](images/premier-servicepack3.png)
 
 Voilà votre Servicio pack est enregistré. Pour plus de details sur le
-mercado cliquez
+Mercado cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
 
-> **punta**
+> **Punta**
 >
-> si usted avez acheté une box officielle jeedom, le numéro de service
-> pack a dû vous être envoyé par email. si usted n'avez rien reçu, merci
+> Si usted avez acheté une box officielle Jeedom, le numéro de service
+> pack a dû vous être envoyé par email. Si usted n'avez rien reçu, merci
 > de contacter le magasin où vous avez acheté votre box.
 
-Trouver votre jeedom sur le réseau 
+Trouver votre Jeedom sur le réseau 
 ==================================
 
-Une fois jeedom branché électriquement et connecté à votre réseau local,
+Une fois Jeedom branché électriquement et connecté à votre réseau local,
 voici comment se connecter sur celui-ci.
 
-Trouver jeedom 
+Trouver Jeedom 
 --------------
 
 ### Par le market 
@@ -86,29 +86,29 @@ la box, attendre environ 10 minutes (attention si vous utilisez une
 image type netinstallation, ça sera plutôt 30min) et aller
 [ici](https://www.jeedom.com/market/index.php?v=d&p=find)
 
-> **punta**
+> **Punta**
 >
-> Attention, il faut être sur le même réseau que la box jeedom pour que
+> Attention, il faut être sur le même réseau que la box Jeedom pour que
 > cette méthode fonctionne.
 
-> **importante**
+> **Importante**
 >
 > En fonction de votre box ADSL cette fonctionalité peut ne pas marcher.
 > Si c'est le cas, rien de grave, il vous suffit de vous connecter à
 > votre box ADSL et de trouver l'IP de jeedom dans celle-ci. Cette étape
-> ne fait rien d'autre que de vous donner l'IP locale de votre jeedom.
-> Ce n'est pas à ce moment-là que l'ajout de votre jeedom à votre compte
+> ne fait rien d'autre que de vous donner l'IP locale de votre Jeedom.
+> Ce n'est pas à ce moment-là que l'ajout de votre Jeedom à votre compte
 > market est fait.
 
 ### Par votre box internet 
 
 -   Allez sur l'interface d'administraciónistration de votre box internet et
-    cherchez jeedom dans vos périphériques réseaux.
+    cherchez Jeedom dans vos périphériques réseaux.
 
 -   Récupérez son IP.
 
 -   Mettez cette IP dans votre navigateur internet. Vous devriez être
-    sur l'interface de jeedom.
+    sur l'interface de Jeedom.
 
 Première connexion 
 ------------------
@@ -118,25 +118,25 @@ login. Par défaut le login et le mot de passe sont "administración".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
-Lier mon jeedom à mon compte market 
+Lier mon Jeedom à mon compte market 
 ===================================
 
-Nous allons voir ici comment lier votre jeedom à votre compte mercado.
+Nous allons voir ici comment lier votre Jeedom à votre compte Mercado.
 
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
 -   Cliquez sur l'onglet **Actualizaciones**
 
--   En dessous, cliquez sur l'onglet **mercado**
+-   En dessous, cliquez sur l'onglet **Mercado**
 
 -   Cochez la case **Activar**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
 -   Renseignez également le champ "Nom d'utilisateur" et "Mot de passe"
-    en fonction de vos identifants (identifiants du mercado et non pas
-    de jeedom)
+    en fonction de vos identifants (identifiants du Mercado et non pas
+    de Jeedom)
 
 -   Vous pouvez tester pour vérifier que la connexion
     s'effectue correctement.
@@ -150,8 +150,8 @@ Pour plus de détails sur la page de configuration cliquez
 Obtenir mon URL d'accès direct 
 ==============================
 
-si usted avez un Service Pack, jeedom vous met à disposition une URL
-d'accès direct à votre jeedom sans que vous ayez à ouvrir les ports sur
+Si usted avez un Service Pack, Jeedom vous met à disposition une URL
+d'accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
 Pour la configurer il vous suffit d'aller dans
@@ -161,21 +161,21 @@ Puis d'aller sur la partie "Configuration réseaux"
 
 ![premier dns2](images/premier-dns2.png)
 
-Une fois ici, il vous suffit d'Activar "Utiliser les DNS jeedom" puis
+Une fois ici, il vous suffit d'Activar "Utiliser les DNS Jeedom" puis
 sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
 niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de
-la page profil du mercado
+la page profil du Mercado
 
-> **importante**
+> **Importante**
 >
-> si usted venez de lier votre jeedom à votre compte mercado il faut
+> Si usted venez de lier votre Jeedom à votre compte Mercado il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
-Changer le mot de passe par défaut de jeedom 
+Changer le mot de passe par défaut de Jeedom 
 ============================================
 
 Une des étapes importantes est de Cambiar contraseña par défaut de
-votre compte jeedom, pour cela cliquez sur Administration → Utilisateurs
+votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
 (en haut à droite) :
 
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
@@ -184,7 +184,7 @@ Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
 ![premier changeuser2](images/premier-changeuser2.png)
 
 Une fenêtre va vous demander le mot de passe. Attention à bien le
-retenir, sinon vous ne pourrez plus accéder à votre jeedom :
+retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
 ![premier changeuser3](images/premier-changeuser3.png)
 
@@ -198,10 +198,10 @@ Créer mon premier objet
 Vous allez créer votre premier objet, mais d'abord il faut savoir ce
 qu'est un objet.
 
-Dans jeedom, cela peut être tout et n'importe quoi, mais il est
+Dans Jeedom, cela peut être tout et n'importe quoi, mais il est
 recommandé de le faire en fonction de vos pièces.
 
-> **punta**
+> **Punta**
 >
 > Il est possible de définir des relations entre les objets, exemple :
 > le salon appartient à l'objet rez-de-chaussée qui appartient lui-même
@@ -215,7 +215,7 @@ Pour créer un objet, rien de plus simple :
 
 ![premier objet2](images/premier-objet2.png)
 
--   jeedom va vous demander le nom de celui-ci :
+-   Jeedom va vous demander le nom de celui-ci :
 
 ![premier objet3](images/premier-objet3.png)
 
@@ -229,22 +229,22 @@ Pour plus d'informations sur cette partie cliquez
 Installer mon premier plugin 
 ============================
 
-Un plugin permet d'ajouter des fonctionnalités à jeedom. Il en existe
+Un plugin permet d'ajouter des fonctionnalités à Jeedom. Il en existe
 des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
 Pour accéder à la page des plugins aller sur Plugins → Gestion des
 plugins.
 
-Il vous suffit ensuite de cliquer sur mercado :
+Il vous suffit ensuite de cliquer sur Mercado :
 
 ![premier plugin2](images/premier-plugin2.png)
 
 Vous allez ensuite avoir la liste de tous les plugins qu'il est possible
 d'installer.
 
-> **importante**
+> **Importante**
 >
 > Attention, certains sont officiels et d'autres non. En cas de souci
-> avec un plugin non officiel, l'équipe jeedom ne pourra être tenue pour
+> avec un plugin non officiel, l'équipe Jeedom ne pourra être tenue pour
 > responsable.
 
 ![premier plugin3](images/premier-plugin3.png)
@@ -267,34 +267,34 @@ Vous retrouvez alors :
 
 Pour plus d'informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
 
-apoyo 
+Apoyo 
 =======
 
-jeedom aborde des champs très vastes et évoluant de jour en jour.
+Jeedom aborde des champs très vastes et évoluant de jour en jour.
 Cependant, de nombreux moyens sont mis à votre disposition pour trouver
 de l'aide et poser vos questions.
 
-La documentation de jeedom 
+La documentation de Jeedom 
 --------------------------
 
 Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
 
 Celle-ci se compose de plusieurs catégories :
 
--   Core : une partie pour le "coeur" de jeedom,
+-   Core : une partie pour le "coeur" de Jeedom,
 
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,
 
--   Instalación : Tout ce qui concerne l'installation de jeedom,
+-   Instalación : Tout ce qui concerne l'installation de Jeedom,
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
 -   Plugins : Les documentations des différents plugins officiels de
-    jeedom,
+    Jeedom,
 
 -   les autres : diverses pages sur les différents protocoles utilisés
-    dans jeedom, la présentation de jeedom, des listes de
+    dans Jeedom, la présentation de Jeedom, des listes de
     compatibilité, etc.
 
 Vous trouverez également en dessous la liste des documentations pour les
@@ -308,35 +308,35 @@ Le forum
 
 Vous le trouverez [ici](https://jeedom.com/forum) .
 
-Le forum est très actif et contient énormément d'informations. si usted
+Le forum est très actif et contient énormément d'informations. Si usted
 avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
 moins d'une heure (en moyenne). Attention cependant, le forum est
-maintenu par la communauté jeedom, composée de bénévoles, et non par la
-société jeedom.
+maintenu par la communauté Jeedom, composée de bénévoles, et non par la
+société Jeedom.
 
 ![premier support3](images/premier-support3.png)
 
 Les demandes de support (ou tickets) 
 ------------------------------------
 
-> **importante**
+> **Importante**
 >
 > Attention, toute demande de support nécessite obligatoirement d'avoir
-> un compte sur le mercado.
+> un compte sur le Mercado.
 
-si usted n'avez pas trouvé de solution à votre problème, en dernier
-recours, vous pouvez faire une demande de support à l'équipe jeedom.
+Si usted n'avez pas trouvé de solution à votre problème, en dernier
+recours, vous pouvez faire une demande de support à l'équipe Jeedom.
 Cette demande passe par un ticket. Il est possible d'en ouvrir un de
 plusieurs façons :
 
--   Directement à partir de jeedom (méthode conseillée) : où que vous
-    soyez dans jeedom, il y a un point d'exclamation en haut à droite
+-   Directement à partir de Jeedom (méthode conseillée) : où que vous
+    soyez dans Jeedom, il y a un point d'exclamation en haut à droite
     qui permet de faire une demande de support :
 
 ![premier support4](images/premier-support4.png)
 
 -   Si pour une raison ou pour une autre vous n'avez pas accès à votre
-    jeedom, vous pouvez toujours ouvrir un ticket à partir du mercado :
+    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Mercado :
 
     -   soit avec le point d'exclamation en haut à droite,
 
@@ -347,7 +347,7 @@ plusieurs façons :
 
 Toute la suite des échanges se fera par mail.
 
-> **punta**
+> **Punta**
 >
 > Si, lors de l'ouverture d'un ticket, vous obtenez une erreur indiquant
 > que vous avez atteint votre quota, c'est que vous êtes limités à un

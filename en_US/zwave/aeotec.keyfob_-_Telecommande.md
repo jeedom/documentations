@@ -1,4 +1,4 @@
-aeotec Keyfob 
+Aeotec Keyfob 
 =============
 
  \
@@ -39,7 +39,7 @@ bien utilisée comme contrôleur principal que secondaire.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -71,7 +71,7 @@ Caractéristiques Techniques
 
 -   Durée de vie de la batterie : 1 year
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 100m en champ libre
 
@@ -86,9 +86,9 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
--   aux dernières : Key Fob
+-   Aux dernières : Key Fob
 
 -   Fabricant ID : 134
 
@@ -98,7 +98,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -128,7 +128,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -137,7 +137,7 @@ available.
 
  \
 
-![vers](images/aeotec.keyfob/commandes.jpg)
+![Vers](images/aeotec.keyfob/commandes.jpg)
 
  \
 
@@ -145,7 +145,7 @@ Voici la liste des commandes :
 
  \
 
--   buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -165,7 +165,7 @@ Voici la liste des commandes :
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -178,16 +178,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -207,7 +207,7 @@ entre la télécommande et des modules.
 
  \
 
-### groups 
+### Groups 
 
  \
 

@@ -142,7 +142,7 @@ Caractéristiques Techniques
 
 -   Matériau : Aluminium massif anodisé
 
--   Communication : Bluetooth et Z-Wave
+-   Kommunikation : Bluetooth et Z-Wave
 
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 
@@ -178,7 +178,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
 
@@ -201,7 +201,7 @@ SECURISE (INCLUSION)"
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Nous partons du principe que vous avez installé l'application sur
 > votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
@@ -246,7 +246,7 @@ Voici la liste des commandes :
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   schließen : c'est la commande qui permet de fermer la serrure
+-   Schließen : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 

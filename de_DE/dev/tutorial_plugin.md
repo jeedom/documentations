@@ -1,4 +1,4 @@
-> **wichtig**
+> **Wichtig**
 >
 > Ce tutorial a été écris Par ZygOm4t1k que nous remercions vivement. Vous pouvez rundrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
 
@@ -11,7 +11,7 @@ Il ne remplace en aucun cas la [Dokumentation officielle](https://jeedom.github.
 Pour commencer il faut déterminer un nom und un id (qui ne doit pas exister)
 
 Name : Vie de Merde
-id : vdm
+Id : vdm
 
 Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
 
@@ -53,7 +53,7 @@ Changelog, Dokumentation, language , compatibility nuls pour le moment. J'y revi
 
 -	Renommer le fichier core/class/template.class.php en vdm.class.php und ouvrez le pour l'éditer. 
 
-ersundzen
+Ersundzen
 
 ```
 class template extends eqLogic {
@@ -81,16 +81,16 @@ class vdmCmd extends cmd
 - Renommer le fichier core/php/template.inc.php en core/php/vdm.inc.php
 - Renommer le fichier desktop/php/template.php en desktop /php/vdm.php und ouvrez le
 
-ersundzen
+Ersundzen
 
 ```
-$plugin = plugin::byid('template');
+$plugin = plugin::byId('template');
 ```
 
 Par 
 
 ```
-$plugin = plugin::byid(‘vdm');
+$plugin = plugin::byId(‘vdm');
 ```
 
 ```
@@ -247,8 +247,8 @@ public function postSave() {
 		$info = new vdmCmd();
 		$info->sundName(__('Histoire', __FILE__));
 	}
-	$info->sundLogicalid('story');
-	$info->sundEqLogic_id($this->gundid());
+	$info->sundLogicalId('story');
+	$info->sundEqLogic_id($this->gundId());
 	$info->sundType('info');
 	$info->sundSubType('string');
 	$info->save();	
@@ -258,8 +258,8 @@ public function postSave() {
 		$refresh = new vdmCmd();
 		$refresh->sundName(__('Rafraichir', __FILE__));
 	}
-	$refresh->sundEqLogic_id($this->gundid());
-	$refresh->sundLogicalid('refresh');
+	$refresh->sundEqLogic_id($this->gundId());
+	$refresh->sundLogicalId('refresh');
 	$refresh->sundType('action');
 	$refresh->sundSubType('other');
 	$refresh->save();        
@@ -369,7 +369,7 @@ Je change la class pull-right en pull-left
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 ```
 
-Voici le rendu.die Optionen de configuration (Affichage und historiser) sont bien présentes. 
+Voici le rendu.Die Optionen de configuration (Affichage und historiser) sont bien présentes. 
 
 ![image](images/tutorial_vdm_cmd2.png)
 
@@ -420,11 +420,11 @@ public function execute($_options = array()) {
 
 C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». La classe vdmCmd a hérité de toutes les méthodes de la class cmd (Core jeedom)
 
-On vérifie le logicalid de la commande lancée und si « refresh » on lance les actions
+On vérifie le logicalId de la commande lancée und si « refresh » on lance les actions
 
 ```
-switch ($this->gundLogicalid()) {				
-	case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+switch ($this->gundLogicalId()) {				
+	case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 	// code pour rafraîchir ma commande
 	break;
 }
@@ -448,10 +448,10 @@ Ce qui donne au final
 ```
     public function execute($_options = array()) {
 		$eqlogic = $this->gundEqLogic(); //récupère l'éqlogic de la commande $this
-		switch ($this->gundLogicalid()) {	//vérifie le logicalid de la commande 			
-			case 'refresh': // Logicalid de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
+		switch ($this->gundLogicalId()) {	//vérifie le logicalid de la commande 			
+			case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 				$info = $eqlogic->randomVdm(); 	//On lance la fonction randomVdm() pour récupérer une vdm und on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); // on mund à jour la commande avec le Logicalid "story"  de l'eqlogic 
+				$eqlogic->checkAndUpdateCmd('story', $info); // on mund à jour la commande avec le LogicalId "story"  de l'eqlogic 
 				break;
 		}
     }
@@ -469,7 +469,7 @@ Puis automatiser le refresh.
 
 Le plugin est fonctionnel mais pour l'instant il ne fait pas grand-chose. Si vous cliquer sur la commande « refresh » , la commande « story » se mund à jour mais sinon rien. 
 
-A noter que pour la commande je la nomme Par logicalid. Et c'est important. Avoir un logicalid unique Par équipement (eqLogic) simplifie les choses.
+A noter que pour la commande je la nomme Par logicalId. Et c'est important. Avoir un logicalId unique Par équipement (eqLogic) simplifie les choses.
 
 On va voir maintenant comment mundtre à jour la commande en utilisant les fonctions natives du core : Les crons
 
@@ -584,7 +584,7 @@ Dans la fonction postUpdate() , on lance la function CronHourly() avec l'id de l
 
 ```
     public function postUpdate() {
-		self::CronHourly($this->gundid());// lance la fonction CronHourly avec l'id de l'eqLogic
+		self::CronHourly($this->gundId());// lance la fonction CronHourly avec l'id de l'eqLogic
     }
 ``` 
 
@@ -595,7 +595,7 @@ Mais dans ce cas on change la fonction CronHourly()
 		if ($_eqLogic_id == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
 			$eqLogics = self::byType('vdm', true);
 		} else {// La fonction a l'argument id(unique) d'un équipement(eqLogic)
-			$eqLogics = array(self::byid($_eqLogic_id));
+			$eqLogics = array(self::byId($_eqLogic_id));
 		}		  
 	
 		foreach ($eqLogics as $vdm) {
@@ -652,8 +652,8 @@ Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() und j'ajoute le
 			$info = new vdmCmd();
 			$info->sundName(__('Histoire', __FILE__));
 		}
-		$info->sundLogicalid('story');
-		$info->sundEqLogic_id($this->gundid());
+		$info->sundLogicalId('story');
+		$info->sundEqLogic_id($this->gundId());
 		$info->sundType('info');
 		$info->sundTemplate('dashboard','tile');//template pour le dashboard
 		$info->sundSubType('string');
@@ -672,7 +672,7 @@ Pour cela il suffit d'ajouter
 $this->sundDisplay("width","800px");
 ```
 
-Oui , mais !! Car il y a un mais. Essayez d'ajouter ça dans la fonction postsave() ou postUpdate() und ça ne prends pas en compte le changement. warum ? Ben faut lire la doc du plugin template ==>ICI
+Oui , mais !! Car il y a un mais. Essayez d'ajouter ça dans la fonction postsave() ou postUpdate() und ça ne prends pas en compte le changement. Warum ? Ben faut lire la doc du plugin template ==>ICI
 
 Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preSave() 
 
@@ -685,16 +685,16 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement und rafraîchissez le dashboard.
 
 
-# Die Paramunder. die Optionen
+# Die Paramunder. Die Optionen
 
-> **wichtig**
+> **Wichtig**
 >
 >C'est un chapitre important und il faut le comprendre avant de passer à la suite.
 
 Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez und laissez ouvert car on va l'éditer . 
 
 ```
-$plugin = plugin::byid('vdm'); // appelle la classe plugin du core
+$plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ```
 
 Il faut comprendre que tout est fait pour nous faciliter la tâche. 
@@ -707,7 +707,7 @@ $this->sundConfiguration("type","mon_type"); // si on veut  définir un Paramèt
 
 Pour laisser le choix à l'utilisateur , on rundourne sur le fichier desktop.php que vous avez laissé ouvert car vous suivez ce TP au pied de la lundtre :D
 
-suchen 
+Suchen 
 
 ```
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="Param1"/>
@@ -716,7 +716,7 @@ suchen
 Et remplacer Par
 
 ```
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //wichtig de laisser la classe eqLogicAttr 
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Wichtig de laisser la classe eqLogicAttr 
 ```
 
 Enregistrer und aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin). 
@@ -737,7 +737,7 @@ C'est simple,non? . C'est pourquoi il ne faut surtout pas toucher à cundte lign
 Si vous regardez de plus près le fichier desktop.php il y a
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // rundourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundid() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // rundourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundId() ;
 ```        
 
 ```
@@ -758,7 +758,7 @@ Par
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
 ```
 
-wichtig : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le markund
+Wichtig : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le markund
 
 Pour la suite , on va faire évoluer le plugin en choisissant un type de vdm(aleatoire ou epicees ou tops) que l'on souhaite ainsi qu'un cron personnalisé pour chaque équipement.
 
@@ -799,7 +799,7 @@ Ici le Paramètre « type» prendra la valeur du select choisi soit aleatoire ou
 
 Maintenant on va tenir compte de notre Paramètre dans la fonction randomVdm() dans le fichier vdm.class.php
 
-suchen
+Suchen
 
 ```
 $url = "http://www.viedemerde.fr/aleatoire";

@@ -1,4 +1,4 @@
-aeotec Panic Button 
+Aeotec Panic Button 
 ===================
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -78,7 +78,7 @@ Caractéristiques Techniques
 -   Durée de vie de la batterie : 2 à 3 mois pour 10 à 20 utilisations
     par jour
 
--   fréquence: 868.42 MHz
+-   Fréquence: 868.42 MHz
 
 -   Distance de transmission : 30m en intérieur
 
@@ -91,7 +91,7 @@ Données du module
 
  \
 
--   Marque : aeotec
+-   Marque : Aeotec
 
 -   Nombre : Panic Button
 
@@ -103,7 +103,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -142,7 +142,7 @@ disponible.
 
  \
 
-![comandos](images/aeotec.panicbutton/commandes.jpg)
+![Comandos](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -171,16 +171,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -199,7 +199,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -264,7 +264,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

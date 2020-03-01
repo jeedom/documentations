@@ -97,7 +97,7 @@ Caractéristiques Techniques
 
 -   Fusible : 2.5A
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -139,7 +139,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -213,7 +213,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 

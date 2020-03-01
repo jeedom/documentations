@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Plage de mesure de la luminosité : 0-32000 LUX
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ liste déroulante, vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -159,7 +159,7 @@ seront disponibles.
 
  \
 
-![comandos](images/fibaro.fgms001zw5/commandes.jpg)
+![Comandos](images/fibaro.fgms001zw5/commandes.jpg)
 
  \
 
@@ -180,15 +180,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
-> **importante**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -197,11 +197,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -302,7 +302,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -310,7 +310,7 @@ Détails des paramètres :
 
  \
 
-> **punta**
+> **Punta**
 >
 > Ce module possède cinq groupes d'association, il faut ajouter le
 > contrôleur sur le 1, 4 et 5 et retirer le 3.
@@ -343,7 +343,7 @@ Bon à savoir
 
  \
 
-> **punta**
+> **Punta**
 >
 > Ce module est très capricieux sur les wakeup et très mal configuré
 > d'usine. Il est primordial de bien le réveiller après l'inclusion
@@ -398,7 +398,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

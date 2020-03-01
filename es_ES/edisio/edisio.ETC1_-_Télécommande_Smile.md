@@ -25,7 +25,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-funciones 
+Funciones 
 =========
 
 -   Mode d'usage : Eclairage, Variateur
@@ -71,7 +71,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **importante**
+> **Importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -98,40 +98,40 @@ L'association d'un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d'appuyer sur la touche de votre
 télécommande.
 
-![comandos](images/etc1/etc1.touche-c.jpg)
+![Comandos](images/etc1/etc1.touche-c.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-comandos 
+Comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![comandos](images/etc1/etc1.commandes.jpg)
+![Comandos](images/etc1/etc1.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   bt01 : C'est la commande qui permet d'interagir avec le bouton 1
 
--   batería : Indique l'état de la batterie
+-   Batería : Indique l'état de la batterie
 
-información 
+Información 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponible :
 
-![comandos](images/etc1/etc1.informations.jpg)
+![Comandos](images/etc1/etc1.informations.jpg)
 
--   creación : Indique la date à laquelle l'équipement à était créé
+-   Creación : Indique la date à laquelle l'équipement à était créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Comunicación : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   batería : Indique l'état de la batterie des modules à piles
+-   Batería : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 
@@ -142,7 +142,7 @@ Une fois que votre télécommande est configurée, vous pouvez avec le
 plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom
 et ses équipements.
 
-> **nota**
+> **Nota**
 >
 > La télécommande à un retour d'état binaire.
 

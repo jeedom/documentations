@@ -17,7 +17,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser
 un large périmètre. L'indicateur LED intégré signale tout changement
 d'état.
 
-funciones 
+Funciones 
 =========
 
 -   Détecte les mouvements, même dans le noir complet
@@ -32,7 +32,7 @@ funciones
 
 -   Montage au mur par des vis ou par double face
 
--   información sur le niveau de la batterie
+-   Información sur le niveau de la batterie
 
 Caractéristiques Techniques 
 ===========================
@@ -41,7 +41,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -69,12 +69,12 @@ Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **importante**
+> **Importante**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **punta**
+> **Punta**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -87,7 +87,7 @@ de température.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
-détection 
+Détection 
 ---------
 
 Le capteur détecte le moindre mouvement dans un rayon d'environ 6m
@@ -115,40 +115,40 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **punta**
+> **Punta**
 >
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-comandos 
+Comandos 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![comandos](images/ems200/ems200.commande.jpg)
+![Comandos](images/ems200/ems200.commande.jpg)
 
 Voici la liste des commandes :
 
 -   Présence : C'est la commande qui indique si une présence est
     détectée
 
--   batería : Indique l'état de la batterie
+-   Batería : Indique l'état de la batterie
 
-información 
+Información 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
 disponible :
 
-![comandos](images/ems200/ems200.informations.jpg)
+![Comandos](images/ems200/ems200.informations.jpg)
 
--   creación : Indique la date à laquelle l'équipement à était créé
+-   Creación : Indique la date à laquelle l'équipement à était créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Comunicación : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   batería : Indique l'état de la batterie des modules à piles
+-   Batería : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

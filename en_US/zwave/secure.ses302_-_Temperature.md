@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -76,7 +76,7 @@ Caractéristiques Techniques
 
 -   Puce Z-Wave Plus
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -95,7 +95,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   aux dernières : SES 302 Temperature Sensor
+-   Aux dernières : SES 302 Temperature Sensor
 
 -   Fabricant ID : 89
 
@@ -105,7 +105,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -135,7 +135,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -144,7 +144,7 @@ available.
 
  \
 
-![vers](images/secure.ses302/commandes.jpg)
+![Vers](images/secure.ses302/commandes.jpg)
 
  \
 
@@ -154,14 +154,14 @@ Voici la liste des commandes :
 
 -   Température : c'est la commande de mesure de la température
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
 Plusieurs températures nons visibles sont aussi available et seront
 utiles si vous avez raccordé des sondes externes
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -174,11 +174,11 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -206,7 +206,7 @@ sondes externes éventuellement branchées
 
  \
 
-### groups 
+### Groups 
 
  \
 

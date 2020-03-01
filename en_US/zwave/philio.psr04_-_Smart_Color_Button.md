@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -68,13 +68,13 @@ functions
 
 -   S'adapte à tout style de décoration
 
--   drums rechargeable
+-   Drums rechargeable
 
 -   Très faible consommation d'énergie
 
 -   Longue durée de vie de la batterie (6 mois par charge)
 
--   support magnétique
+-   Support magnétique
 
 -   LED d'indication RGBW
 
@@ -87,21 +87,21 @@ Caractéristiques Techniques
 
  \
 
--   Alimentation : drums Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : Drums Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
 
 -   Consommation en fonctionnement : 45mA
 
--   fréquence : 868.42 MHz
+-   Fréquence : 868.42 MHz
 
 -   Distance de transmission : 100m en extérieur, 40m en intérieur
 
 -   Dimensions :
 
-support : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) support + Bouton : 71,16 x 17,22 mm (diamétre
+Support : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
+mm (diamétre x épaisseur) Support + Bouton : 71,16 x 17,22 mm (diamétre
 x épaisseur) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
@@ -116,7 +116,7 @@ Données du module
 
 -   Marque : Philio
 
--   aux dernières : PSR04 Smart Color Button
+-   Aux dernières : PSR04 Smart Color Button
 
 -   Fabricant ID : 316
 
@@ -126,7 +126,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -157,7 +157,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -166,7 +166,7 @@ available.
 
  \
 
-![vers](images/philio.psr04/commandes.jpg)
+![Vers](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -177,12 +177,12 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   drums : c'est la commande qui remonte l'état de batterie du
+-   Drums : c'est la commande qui remonte l'état de batterie du
     module
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -195,11 +195,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

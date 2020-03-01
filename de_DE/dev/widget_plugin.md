@@ -46,7 +46,7 @@ public static function templateWidget(){
 
 Ici on va creer un nouveau widget basé sur le template "tmplmultistate" (vous avez la liste des templates [ici](https:// github.com/jeedom/core/tree/alpha/core/template/dashboard) c'est ceux avec tmpl dans leur nom), pour une commande de type info et sous type string.
 
->**wichtig
+>**Wichtig
 >
 >Chaque template est pour un type et sous type donné il faut donc bien verifier que le template que vous voulez utilisé existe pour le type et sous type
 

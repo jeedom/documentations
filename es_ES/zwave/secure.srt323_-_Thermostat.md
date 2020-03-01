@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-funciones 
+Funciones 
 ---------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Durée de vie des piles : 2 años
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-configuración 
+Configuración 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut mettre le switch 1 en
 > position ON puis avec la molette afficher L et appuyer sur la molette,
@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **importante**
+> **Importante**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
 > réveillez toujours le module juste après l'inclusion. Para hacer esto
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### comandos 
+### Comandos 
 
  \
 
@@ -177,7 +177,7 @@ disponible.
 
  \
 
-![comandos](images/secure.srt323/commandes.jpg)
+![Comandos](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -194,21 +194,21 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   batería : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### configuración du module 
+### Configuración du module 
 
  \
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"configuración" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### grupos 
+### Grupos 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **importante**
+> **Importante**
 >
 > Ce module est sur batterie. Donc il est important de noter qu'un
 > changement de consigne sera uniquement pris en compte au reveil. Par
@@ -293,7 +293,7 @@ Note importante
 
  \
 
-> **importante**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

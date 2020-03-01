@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -157,7 +157,7 @@ Données du module
 
 -   Marque : Poly-Control
 
--   aux dernières : Danalock V2 BTZE
+-   Aux dernières : Danalock V2 BTZE
 
 -   Fabricant ID : 010e
 
@@ -167,7 +167,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -224,7 +224,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -233,7 +233,7 @@ available.
 
  \
 
-![vers](images/polycontrol.danalock/commandes.jpg)
+![Vers](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -248,15 +248,15 @@ Voici la liste des commandes :
 
 -   To close : c'est la commande qui permet de fermer la serrure
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
-> **warning**
+> **Warning**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -266,12 +266,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "d'actualité" du
+installation, il faut pour cela passer par la bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -298,7 +298,7 @@ Détails des paramètres :
 -   3 : Mode 1 = Entraînement de moteur (économie d'énergie), 2 = mode
     complet d'entraînement (Normal)
 
--   4 : aux dernièresbre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
+-   4 : Aux dernièresbre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
 
 -   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
     la serrure a été déverrouillée pour automatiquement se fermer
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

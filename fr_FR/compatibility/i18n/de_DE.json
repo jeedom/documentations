@@ -39,7 +39,7 @@
         "Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian": "Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian",
         "(Ordoid,…​), …​": "(Ordoid,…​), …​",
         "Logiciel": "Logiciel",
-        "Important": "wichtig",
+        "Important": "Wichtig",
         "Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable)": "Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable)",
         "Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas": "Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas",
         "supportée par Jeedom": "supportée par Jeedom",

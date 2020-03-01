@@ -22,7 +22,7 @@ Le signal est uniquement envoyé à la séparation du capteur de son
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
 recepteur
 
-functions 
+Functions 
 =========
 
 -   Capteur magnétique sans fil alimenté par piles
@@ -48,7 +48,7 @@ Caractéristiques techniques
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
--   fréquence : 868,3 MHz
+-   Fréquence : 868,3 MHz
 
 -   Température de fonctionnement : 0°C +45°C
 
@@ -58,14 +58,14 @@ Caractéristiques techniques
 
 -   Degré de protection : IP20
 
--   use : En intérieur
+-   Use : En intérieur
 
 Données du module 
 =================
 
 -   Marque : Edisio Smart Home
 
--   aux dernières : EOS-200
+-   Aux dernières : EOS-200
 
 General configuration 
 ======================
@@ -87,7 +87,7 @@ Capteur de température.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-d'actualité 
+D'actualité 
 -------------
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
@@ -119,20 +119,20 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-vers 
+Vers 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![vers](images/eos200/eos200.commandes.jpg)
+![Vers](images/eos200/eos200.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   Porte : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
--   drums : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
 Information 
 ------------
@@ -140,14 +140,14 @@ Information
 Une fois votre équipement associé à Jeedom, diverses informations seront
 available :
 
-![vers](images/eos200/eos200.informations.jpg)
+![Vers](images/eos200/eos200.informations.jpg)
 
 -   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   drums : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
 -   STATUS : Retourne le status du module
 

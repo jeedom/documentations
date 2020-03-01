@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -87,11 +87,11 @@ Caractéristiques Techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : drums Lithium 3V CR123A
+-   Alimentation : Drums Lithium 3V CR123A
 
 -   Autonomie de la batterie : 3 years
 
--   fréquence : 868,42 Mhz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -123,7 +123,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro Smoke Sensor FGSD-002
+-   Aux dernières : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
@@ -133,7 +133,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -163,7 +163,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -172,7 +172,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgsd102/commandes.jpg)
+![Vers](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -194,11 +194,11 @@ Voici la liste des commandes :
 -   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
     (pas fiable encore)
 
--   drums : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -211,16 +211,16 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

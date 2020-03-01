@@ -49,7 +49,7 @@ existant.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -84,7 +84,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -101,7 +101,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   aux dernières : Fibaro FGK-101 avec sonde de température (DS18B20)
+-   Aux dernières : Fibaro FGK-101 avec sonde de température (DS18B20)
 
 -   Fabricant ID : 271
 
@@ -111,7 +111,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -150,7 +150,7 @@ available.
 
  \
 
-![vers](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Vers](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
  \
 
@@ -161,7 +161,7 @@ Voici la liste des commandes :
 -   état : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
--   drums : c'est la commande qui permet de remonter l'état de la
+-   Drums : c'est la commande qui permet de remonter l'état de la
     drums
 
  \
@@ -170,7 +170,7 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
@@ -183,16 +183,16 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"d'actualité" du plugin OpenZwave de Jeedom.
+"D'actualité" du plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-### groups 
+### Groups 
 
  \
 

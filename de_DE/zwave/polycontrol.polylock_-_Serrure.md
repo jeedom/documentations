@@ -78,7 +78,7 @@ Caractéristiques Techniques
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
     bâtiments
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **wichtig**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   schließen : c'est la commande qui permet de fermer la serrure
+-   Schließen : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 

@@ -37,7 +37,7 @@ contrôleur Z-Wave de votre réseau.
 
  \
 
-functions 
+Functions 
 ---------
 
  \
@@ -77,7 +77,7 @@ Caractéristiques techniques
     : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :
     200W
 
--   fréquence : 868,42 MHz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
@@ -94,7 +94,7 @@ Données du module
 
 -   Marque : Everspring
 
--   aux dernières : Miniplug ON/OFF
+-   Aux dernières : Miniplug ON/OFF
 
 -   Fabricant ID : 96
 
@@ -104,7 +104,7 @@ Données du module
 
  \
 
-d'actualité 
+D'actualité 
 -------------
 
  \
@@ -136,7 +136,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### vers 
+### Vers 
 
  \
 
@@ -145,7 +145,7 @@ available.
 
  \
 
-![vers](images/everspring.AN180-6/commandes.jpg)
+![Vers](images/everspring.AN180-6/commandes.jpg)
 
  \
 
@@ -167,17 +167,17 @@ la même icône.
 
  \
 
-### d'actualité du module 
+### D'actualité du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "d'actualité" du
+installation. Il faut pour cela passer par le bouton "D'actualité" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![d'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -203,7 +203,7 @@ Détails des paramètres :
 -   3 : Ce paramètre permet de définir si la prise reprendra son statut
     (ON ou OFF) après une reprise de courant.
 
-### groups 
+### Groups 
 
  \
 
