@@ -118,8 +118,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/aeotec.keyfob_Gen5_-_Telecommande.md": {
         "Aeotec Keyfob Gen5": "Aeotec Keyfob Gen5",
@@ -248,8 +247,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/aeotec.minimote_-_Telecommande.md": {
         "Aeotec Minimote": "Aeotec Minimote",
@@ -363,8 +361,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/aeotec.panic_button_-_Telecommande.md": {
         "Aeotec Panic Button": "Aeotec Panic Button",
@@ -484,8 +481,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/aeotec.zw062_garage_door_controller.md": {
         "Aeotec Contrôleur de porte de garage": "Aeotec Contrôleur de porte de garage",
@@ -619,8 +615,7 @@
         "Activer le paramètre 41 sur \"Relieve the alarm state": "Activer le paramètre 41 sur \"Relieve the alarm state",
         "Actualiser les paramètres": "Actualiser les paramètres",
         "Le parametre 41 sera mis ajour avec \"Sensor is not removed": "Le parametre 41 sera mis ajour avec \"Sensor is not removed",
-        "F.A.Q": "F.A.Q",
-        "@nechry": "@nechry"
+        "F.A.Q": "F.A.Q"
     },
     "zwave\/dlink.dchz110_-_3en1_Ouverture.md": {
         "D-Link DCH-Z110 - \"3 en 1 Ouverture": "D-Link DCH-Z110 - \"3 en 1 Ouverture",
@@ -942,8 +937,7 @@
         "Visuel custom](images\/duwi.05436\/Visuel_custom.PNG)": "Visuel custom](images\/duwi.05436\/Visuel_custom.PNG)",
         "Tip": "Tip",
         "Le Widget \"Store\\_2\\_IMG\" utilisé sur la commande d'info \"Etat\". Ce": "Le Widget \"Store\\_2\\_IMG\" utilisé sur la commande d'info \"Etat\". Ce",
-        "widget est sympa car il montre les états 'partiellement ouvert": "widget est sympa car il montre les états 'partiellement ouvert",
-        "@Theduck38": "@Theduck38"
+        "widget est sympa car il montre les états 'partiellement ouvert": "widget est sympa car il montre les états 'partiellement ouvert"
     },
     "zwave\/equipement.compatible.md": {
         "aeotec": "aeotec",
@@ -2291,8 +2285,7 @@
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
         "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3": "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3",
-        "secondes": "secondes",
-        "@sarakha63": "@sarakha63"
+        "secondes": "secondes"
     },
     "zwave\/everspring.AN180-6_-_Miniplug_On-Off.md": {
         "Everspring Miniplug On\/Off - AN180-6": "Everspring Miniplug On\/Off - AN180-6",
@@ -2409,8 +2402,7 @@
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
         "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3": "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3",
-        "secondes": "secondes",
-        "@sarakha63": "@sarakha63"
+        "secondes": "secondes"
     },
     "zwave\/fibaro.fgd211_-_Dimmer.md": {
         "Fibaro Dimmer - FGD-211": "Fibaro Dimmer - FGD-211",
@@ -2586,8 +2578,7 @@
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
         "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois": "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois",
-        "sur l'interrupteur": "sur l'interrupteur",
-        "@sarakha63": "@sarakha63"
+        "sur l'interrupteur": "sur l'interrupteur"
     },
     "zwave\/fibaro.fgd212_-_Dimmer2.md": {
         "Fibaro Dimmer2 - FGD-212": "Fibaro Dimmer2 - FGD-212",
@@ -2753,8 +2744,7 @@
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
         "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois": "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois",
-        "sur l'interrupteur": "sur l'interrupteur",
-        "@sarakha63": "@sarakha63"
+        "sur l'interrupteur": "sur l'interrupteur"
     },
     "zwave\/fibaro.fgfs101_-_FloodSensors.md": {
         "Fibaro FGFS-101 \"Flood Sensor": "Fibaro FGFS-101 \"Flood Sensor",
@@ -3091,8 +3081,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/fibaro.fgms001ZW5_-_Motion.md": {
         "Fibaro Motion Sensor - FGMS-001": "Fibaro Motion Sensor - FGMS-001",
@@ -3297,8 +3286,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@nechry": "@nechry"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/fibaro.fgms001_-_Motion.md": {
         "Fibaro Motion Sensor - FGMS-001": "Fibaro Motion Sensor - FGMS-001",
@@ -3484,8 +3472,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/fibaro.fgr222_-_Volets.md": {
         "Fibaro FGR-222 \"Volet roulant": "Fibaro FGR-222 \"Volet roulant",
@@ -3657,8 +3644,7 @@
         "Wakeup": "Wakeup",
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
-        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc",
-        "@sarakha63": "@sarakha63"
+        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc"
     },
     "zwave\/fibaro.fgrgb101_-_RGVBControler.md": {
         "Fibaro RGVB Controler - FGRGB-101": "Fibaro RGVB Controler - FGRGB-101",
@@ -3974,8 +3960,7 @@
         "Wakeup": "Wakeup",
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
-        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc",
-        "@sarakha63": "@sarakha63"
+        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc"
     },
     "zwave\/fibaro.fgsd102_-_Fumees.md": {
         "Fibaro FGSD-002 \"Smoke Sensor 2": "Fibaro FGSD-002 \"Smoke Sensor 2",
@@ -4150,8 +4135,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/fibaro.fgwpe101_-_Wall_Plug.md": {
         "Fibaro FGRWPE-101 \"Wall plug": "Fibaro FGRWPE-101 \"Wall plug",
@@ -4295,8 +4279,7 @@
         "Wakeup": "Wakeup",
         "Pas de notion de wakeup sur ce module": "Pas de notion de wakeup sur ce module",
         "F.A.Q": "F.A.Q",
-        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc",
-        "@sarakha63": "@sarakha63"
+        "Lire la section Reset de cette doc": "Lire la section Reset de cette doc"
     },
     "zwave\/greenwave.Powernode1_-_Prise.md": {
         "Greenwave PowerNode - 1 prise": "Greenwave PowerNode - 1 prise",
@@ -4451,8 +4434,7 @@
         "Avez-vous associé le groupe 3 du module à Jeedom": "Avez-vous associé le groupe 3 du module à Jeedom",
         "Non. Le module ne le permet pas": "Non. Le module ne le permet pas",
         "Mettez dessus un petit morceau de ruban": "Mettez dessus un petit morceau de ruban",
-        "adhésif noir": "adhésif noir",
-        "@sarakha63": "@sarakha63"
+        "adhésif noir": "adhésif noir"
     },
     "zwave\/greenwave.powernode_-_Multiprise.md": {
         "Greenwave PowerNode - 6 prises": "Greenwave PowerNode - 6 prises",
@@ -4669,8 +4651,7 @@
         "Avez vous réglé un CRON": "Avez vous réglé un CRON",
         "Non. Le module ne le permet pas": "Non. Le module ne le permet pas",
         "Mettez un morceau de ruban adhésif noir": "Mettez un morceau de ruban adhésif noir",
-        "dessus": "dessus",
-        "@sarakha63": "@sarakha63"
+        "dessus": "dessus"
     },
     "zwave\/mco.MH-S412_Double_-_Interrupteur.md": {
         "MCO MH-S412 Double": "MCO MH-S412 Double",
@@ -4899,8 +4880,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@lunarok": "@lunarok"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/nodon.octan_-_Remote_-_Telecommande.md": {
         "Nodon Télécommande - Octan": "Nodon Télécommande - Octan",
@@ -5027,8 +5007,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/nodon.smartplug_-_Prise.md": {
         "Nodon Prise Intelligente - Smartplug": "Nodon Prise Intelligente - Smartplug",
@@ -5196,8 +5175,7 @@
         "Avez-vous bien Jeedom au moins": "Avez-vous bien Jeedom au moins",
         "dans les groupes 1 et 4": "dans les groupes 1 et 4",
         "Avez-vous laisser le temps à la pile pour se": "Avez-vous laisser le temps à la pile pour se",
-        "charger": "charger",
-        "@sarakha63": "@sarakha63"
+        "charger": "charger"
     },
     "zwave\/nodon.wall_-_Switch_-_Interrupteur.md": {
         "Nodon Interrupteur - Wall Switch": "Nodon Interrupteur - Wall Switch",
@@ -5332,8 +5310,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/philio.psp01_-_Multicapteurs.md": {
         "Philio PSP01": "Philio PSP01",
@@ -5510,8 +5487,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/philio.psr04_-_Smart_Color_Button.md": {
         "Philio Smart Color Button": "Philio Smart Color Button",
@@ -5652,8 +5628,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/philio.pst02a_-_4_en_1.md": {
         "Philio PST02 A - 4 en 1": "Philio PST02 A - 4 en 1",
@@ -5847,8 +5822,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/philio.pst02c_-_3_en_1_Ouverture.md": {
         "Philio PST02 C - 3 en 1 Ouverture": "Philio PST02 C - 3 en 1 Ouverture",
@@ -6019,8 +5993,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/polycontrol.danalock-v2_-_Serrure.md": {
         "Danalock V2 BTZE": "Danalock V2 BTZE",
@@ -6243,8 +6216,7 @@
         "Wakeup": "Wakeup",
         "Il n'y a pas de notion de wake up pour ce module": "Il n'y a pas de notion de wake up pour ce module",
         "F.A.Q": "F.A.Q",
-        "Pas de notion de wake up sur ce module; lire le paragraphe Spécificités": "Pas de notion de wake up sur ce module; lire le paragraphe Spécificités",
-        "@noumea": "@noumea"
+        "Pas de notion de wake up sur ce module; lire le paragraphe Spécificités": "Pas de notion de wake up sur ce module; lire le paragraphe Spécificités"
     },
     "zwave\/polycontrol.polylock_-_Serrure.md": {
         "PolyLock": "PolyLock",
@@ -6378,8 +6350,7 @@
         "Wake up": "Wake up",
         "Il n'y a pas de notion de wake up pour ce module": "Il n'y a pas de notion de wake up pour ce module",
         "F.A.Q": "F.A.Q",
-        "Pas de notion de wake up sur ce module, lire le paragraphe spécificités": "Pas de notion de wake up sur ce module, lire le paragraphe spécificités",
-        "@sarakha63": "@sarakha63"
+        "Pas de notion de wake up sur ce module, lire le paragraphe spécificités": "Pas de notion de wake up sur ce module, lire le paragraphe spécificités"
     },
     "zwave\/secure.ses302_-_Temperature.md": {
         "Secure SES 302 \"Température": "Secure SES 302 \"Température",
@@ -6494,8 +6465,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wake up, après un": "de la configuration , après un changement de wake up, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/secure.ses303_-_Temperature_Humidite.md": {
         "Secure SES 303 \"Température\/Humidité": "Secure SES 303 \"Température\/Humidité",
@@ -6618,8 +6588,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wake up, après un": "de la configuration , après un changement de wake up, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/secure.sir321_-_Timer.md": {
         "Secure SIR 321 \"Timer": "Secure SIR 321 \"Timer",
@@ -6717,8 +6686,7 @@
         "indispensable, le deuxième est actif et est indispensable si une sonde": "indispensable, le deuxième est actif et est indispensable si une sonde",
         "de température est reliée": "de température est reliée",
         "Groupe](images\/secure.sir321\/groupe.jpg)": "Groupe](images\/secure.sir321\/groupe.jpg)",
-        "F.A.Q": "F.A.Q",
-        "@sarakha63": "@sarakha63"
+        "F.A.Q": "F.A.Q"
     },
     "zwave\/secure.srt323_-_Thermostat.md": {
         "Secure SRT 323 \"Thermostat": "Secure SRT 323 \"Thermostat",
@@ -6876,8 +6844,7 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wakeup, après un": "de la configuration , après un changement de wakeup, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     },
     "zwave\/smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.md": {
         "SmartHome by Everspring In Wall Dimmer - AD146-0": "SmartHome by Everspring In Wall Dimmer - AD146-0",
@@ -7010,8 +6977,7 @@
         "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3": "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3",
         "secondes": "secondes",
         "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois": "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois",
-        "sur l'interrupteur": "sur l'interrupteur",
-        "@sarakha63": "@sarakha63"
+        "sur l'interrupteur": "sur l'interrupteur"
     },
     "zwave\/smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.md": {
         "SmartHome by Everspring In Wall On Off - AN179-0": "SmartHome by Everspring In Wall On Off - AN179-0",
@@ -7136,8 +7102,7 @@
         "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3": "Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3",
         "secondes": "secondes",
         "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois": "Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois",
-        "sur l'interrupteur": "sur l'interrupteur",
-        "@sarakha63": "@sarakha63"
+        "sur l'interrupteur": "sur l'interrupteur"
     },
     "zwave\/swiid.inter_-_Interrupteur_Cordon.md": {
         "Swiid Interrupteur - Swiidinter": "Swiid Interrupteur - Swiidinter",
@@ -7284,8 +7249,7 @@
         "F.A.Q": "F.A.Q",
         "Avez-vous associé les deux modules et avez-vous bien configuré la partie": "Avez-vous associé les deux modules et avez-vous bien configuré la partie",
         "spécifique": "spécifique",
-        "Non. Le module ne le permet pas": "Non. Le module ne le permet pas",
-        "@sarakha63": "@sarakha63"
+        "Non. Le module ne le permet pas": "Non. Le module ne le permet pas"
     },
     "zwave\/template_inclusion.md": {
         "Inclusion du module": "Inclusion du module",
@@ -7533,7 +7497,6 @@
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement": "après son inclusion, après un changement",
         "de la configuration , après un changement de wake up, après un": "de la configuration , après un changement de wake up, après un",
-        "changement des groupes d'association": "changement des groupes d'association",
-        "@sarakha63": "@sarakha63"
+        "changement des groupes d'association": "changement des groupes d'association"
     }
 }
