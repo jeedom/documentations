@@ -11,7 +11,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -37,7 +37,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -61,7 +61,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -75,11 +75,11 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Viewing: LED sur le bouton
+-   Affichage: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
@@ -92,17 +92,17 @@ Données du module
 
 -   Marque : Everspring
 
--   Aux dernières : Miniplug Dimmer
+-   Nom : Miniplug Dimmer
 
 -   Fabricant ID : 96
 
--   Type produit : 3
+-   Type Produit : 3
 
 -   Produit ID : 3
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -113,7 +113,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -134,16 +134,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/everspring.AD147-6/commandes.jpg)
+![Commandes](images/everspring.AD147-6/commandes.jpg)
 
  \
 
@@ -154,31 +154,31 @@ Voici la liste des commandes :
 -   Intensité : C'est la commande permettant de régler l'intensité de la
     prise
 
--   ON : C'est la commande qui permet d'allumer la prise
+-   On : C'est la commande qui permet d'allumer la prise
 
--   OFF : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la prise
 
--   état : C'est la commande qui permet de connaître le statut de la
+-   Etat : C'est la commande qui permet de connaitre le statut de la
     prise
 
  \
 
-A noter que sur le dashboard, les infos état, ON/OFF, intensité se
+A noter que sur le dashboard, les infos Etat, ON/OFF, Intensité se
 retrouvent sur la même icône.
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "D'actualité" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -207,7 +207,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir si la prise fontionnera en mode
     variation ou en mode on/off
 
-### Groups 
+### Groupes 
 
  \
 
@@ -219,7 +219,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

@@ -9,7 +9,7 @@ aider à mettre en service votre Jeedom.
 Inscription sur le market 
 =========================
 
-La première chose à faire est de se créer un compte sur le Le nouveau mode de fonctionnement de synchronisation pour
+La première chose à faire est de se créer un compte sur le Market pour
 pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
 [ici](https://www.jeedom.com/market) pour commencer
 
@@ -24,24 +24,24 @@ cette page :
 
 ![premier market3](images/premier-market3.png)
 
-Voila votre compte Le nouveau mode de fonctionnement de synchronisation est créé, pour plus de details sur le market
+Voila votre compte Market est créé, pour plus de details sur le market
 cliquez
 [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
 
-Ajout de votre code Service pack 
+Ajout de votre code service pack 
 ================================
 
-If you avez acheté une box Jeedom alors vous avez dû recevoir un mail
-contenant un code pour votre Service pack.
+Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail
+contenant un code pour votre service pack.
 
-> **IMPORTANT**
+> **Important**
 >
 > Il est important de le renseigner car ce code vous donne accès à
 > certains plugins gratuitement, ainsi qu'à des services exclusifs.
 
-> **IMPORTANT**
+> **Important**
 >
-> If you achetez un Service pack depuis le Le nouveau mode de fonctionnement de synchronisation Jeedom vous n'avez
+> Si vous achetez un service pack depuis le Market Jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
@@ -55,18 +55,18 @@ Puis cliquez sur l'onglet "Mes Jeedoms"
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Renseignez votre numéro de Service pack et validez :
+Renseignez votre numéro de service pack et validez :
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Voilà votre Service pack est enregistré. Pour plus de details sur le
-Le nouveau mode de fonctionnement de synchronisation cliquez
+Voilà votre service pack est enregistré. Pour plus de details sur le
+Market cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
 
 > **Tip**
 >
-> If you avez acheté une box officielle Jeedom, le numéro de service
-> pack a dû vous être envoyé par email. If you n'avez rien reçu, merci
+> Si vous avez acheté une box officielle Jeedom, le numéro de service
+> pack a dû vous être envoyé par email. Si vous n'avez rien reçu, merci
 > de contacter le magasin où vous avez acheté votre box.
 
 Trouver votre Jeedom sur le réseau 
@@ -91,7 +91,7 @@ image type netinstallation, ça sera plutôt 30min) et aller
 > Attention, il faut être sur le même réseau que la box Jeedom pour que
 > cette méthode fonctionne.
 
-> **IMPORTANT**
+> **Important**
 >
 > En fonction de votre box ADSL cette fonctionalité peut ne pas marcher.
 > Si c'est le cas, rien de grave, il vous suffit de vous connecter à
@@ -121,27 +121,27 @@ login. Par défaut le login et le mot de passe sont "admin".
 Lier mon Jeedom à mon compte market 
 ===================================
 
-Nous allons voir ici comment lier votre Jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation.
+Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
--   Cliquez sur l'onglet **Updates**
+-   Cliquez sur l'onglet **Mises à jour**
 
--   En dessous, cliquez sur l'onglet **Le nouveau mode de fonctionnement de synchronisation**
+-   En dessous, cliquez sur l'onglet **Market**
 
--   Cochez la case **pour un même**
+-   Cochez la case **activer**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
 -   Renseignez également le champ "Nom d'utilisateur" et "Mot de passe"
-    en fonction de vos identifants (identifiants du Le nouveau mode de fonctionnement de synchronisation et non pas
+    en fonction de vos identifants (identifiants du Market et non pas
     de Jeedom)
 
 -   Vous pouvez tester pour vérifier que la connexion
     s'effectue correctement.
 
--   Don&#39;t forget to save !
+-   N'oubliez pas de sauvegarder !
 
 Pour plus de détails sur la page de configuration cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
@@ -150,7 +150,7 @@ Pour plus de détails sur la page de configuration cliquez
 Obtenir mon URL d'accès direct 
 ==============================
 
-If you avez un Service Pack, Jeedom vous met à disposition une URL
+Si vous avez un Service Pack, Jeedom vous met à disposition une URL
 d'accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
@@ -161,25 +161,25 @@ Puis d'aller sur la partie "Configuration réseaux"
 
 ![premier dns2](images/premier-dns2.png)
 
-Une fois ici, il vous suffit d'pour un même "Utiliser les DNS Jeedom" puis
+Une fois ici, il vous suffit d'activer "Utiliser les DNS Jeedom" puis
 sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
 niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de
-la page profil du Le nouveau mode de fonctionnement de synchronisation
+la page profil du Market
 
-> **IMPORTANT**
+> **Important**
 >
-> If you venez de lier votre Jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation il faut
+> Si vous venez de lier votre Jeedom à votre compte Market il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 Changer le mot de passe par défaut de Jeedom 
 ============================================
 
-Une des étapes importantes est de to change the password par défaut de
+Une des étapes importantes est de changer le mot de passe par défaut de
 votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
 (en haut à droite) :
 
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
-**admin** et à cliquer sur **to change the password** :
+**admin** et à cliquer sur **changer le mot de passe** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -234,14 +234,14 @@ des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
 Pour accéder à la page des plugins aller sur Plugins → Gestion des
 plugins.
 
-Il vous suffit ensuite de cliquer sur Le nouveau mode de fonctionnement de synchronisation :
+Il vous suffit ensuite de cliquer sur Market :
 
 ![premier plugin2](images/premier-plugin2.png)
 
 Vous allez ensuite avoir la liste de tous les plugins qu'il est possible
 d'installer.
 
-> **IMPORTANT**
+> **Important**
 >
 > Attention, certains sont officiels et d'autres non. En cas de souci
 > avec un plugin non officiel, l'équipe Jeedom ne pourra être tenue pour
@@ -286,7 +286,7 @@ Celle-ci se compose de plusieurs catégories :
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,
 
--   Setup : Tout ce qui concerne l'installation de Jeedom,
+-   Installation : Tout ce qui concerne l'installation de Jeedom,
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
@@ -300,7 +300,7 @@ Celle-ci se compose de plusieurs catégories :
 Vous trouverez également en dessous la liste des documentations pour les
 plugins tiers.
 
-N'hésitez pas à utiliser la fonction **serveur Jeedom peut être désormais** en haut à droite de
+N'hésitez pas à utiliser la fonction **rechercher** en haut à droite de
 la page pour trouver les pages en fonction d'un mot précis.
 
 Le forum 
@@ -308,7 +308,7 @@ Le forum
 
 Vous le trouverez [ici](https://jeedom.com/forum) .
 
-Le forum est très actif et contient énormément d'informations. If you
+Le forum est très actif et contient énormément d'informations. Si vous
 avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
 moins d'une heure (en moyenne). Attention cependant, le forum est
 maintenu par la communauté Jeedom, composée de bénévoles, et non par la
@@ -319,12 +319,12 @@ société Jeedom.
 Les demandes de support (ou tickets) 
 ------------------------------------
 
-> **IMPORTANT**
+> **Important**
 >
 > Attention, toute demande de support nécessite obligatoirement d'avoir
-> un compte sur le Le nouveau mode de fonctionnement de synchronisation.
+> un compte sur le Market.
 
-If you n'avez pas trouvé de solution à votre problème, en dernier
+Si vous n'avez pas trouvé de solution à votre problème, en dernier
 recours, vous pouvez faire une demande de support à l'équipe Jeedom.
 Cette demande passe par un ticket. Il est possible d'en ouvrir un de
 plusieurs façons :
@@ -336,7 +336,7 @@ plusieurs façons :
 ![premier support4](images/premier-support4.png)
 
 -   Si pour une raison ou pour une autre vous n'avez pas accès à votre
-    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Le nouveau mode de fonctionnement de synchronisation :
+    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
 
     -   soit avec le point d'exclamation en haut à droite,
 
@@ -352,7 +352,7 @@ Toute la suite des échanges se fera par mail.
 > Si, lors de l'ouverture d'un ticket, vous obtenez une erreur indiquant
 > que vous avez atteint votre quota, c'est que vous êtes limités à un
 > certain nombre de demandes de support par mois, en fonction de votre
-> Service pack.
+> service pack.
 
 Les différents services packs sont : \* Community (gratuit) : 2
 tickets/mois (sur plugins payants uniquement) \* Power : 10 tickets/mois

@@ -11,7 +11,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -41,9 +41,9 @@ un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
 Une petite molette sur le côté de la prise permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. For example "
+qui représentera la pièce à laquelle elle est affectée. Par exemple "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes prises et multiprises PowerNode. ON peut également régler
+différentes prises et multiprises PowerNode. On peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
 prise afin d'éviter de l'éteindre par accident, mais le contrôle depuis
 la boxe domotique ne sera plus possible.
@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Functions
 -   Possibilité de lui affecter un numéro et une couleur afin de
     différencier les différentes PowerNode d'une même installation
 
--   Bouton ON/OFF directement sur la prise
+-   Bouton On/Off directement sur la prise
 
 -   Protection contre les surintensités
 
@@ -86,7 +86,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques Techniques
 
 -   Courant de charge maximum : 10A
 
--   Power de charge maximale : 2400W (@ 240V)
+-   Puissance de charge maximale : 2400W (@ 240V)
 
 -   Consommation en veille : 0,4 W
 
@@ -126,17 +126,17 @@ Données du module
 
 -   Marque : GreenWave
 
--   Aux dernières : GreenWave\[1 x prise\]
+-   Nom : GreenWave\[1 x prise\]
 
 -   Fabricant ID : 153
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 2
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sous la prise.
@@ -166,16 +166,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/greenwave.Powernode1/commandes.jpg)
+![Commandes](images/greenwave.Powernode1/commandes.jpg)
 
  \
 
@@ -183,14 +183,14 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaitre le statut de la
+-   Etat : C'est la commande qui permet de connaître le statut de la
     prise
 
--   ON : C'est la commande qui permet d'allumer la prise
+-   On : C'est la commande qui permet d'allumer la prise
 
--   OFF : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la prise
 
--   Power : C'est la commande qui remonte la puissance instantanée
+-   Puissance : C'est la commande qui remonte la puissance instantanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale
@@ -202,17 +202,17 @@ en un seul bouton.
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "D'actualité" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -242,7 +242,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

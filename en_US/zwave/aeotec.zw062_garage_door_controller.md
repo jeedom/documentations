@@ -11,7 +11,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -72,7 +72,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -109,17 +109,17 @@ Données du module
 
 -   Marque : Aeotec
 
--   Aux dernières : Garage Door Controller (ZW062)
+-   Nom : Garage Door Controller (ZW062)
 
 -   Fabricant ID : 134
 
--   Type produit : 3
+-   Type Produit : 3
 
 -   Produit ID : 62
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -149,16 +149,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Commandes](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -178,17 +178,17 @@ Voici la liste des commandes :
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"D'actualité" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -219,7 +219,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

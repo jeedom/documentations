@@ -11,7 +11,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -41,7 +41,7 @@ aussi d'une entrée filaire, il peut ainsi être utilisé comme un
 transmetteur universel : laissez de côté son contact magnétique, et
 reliez ses entrées à vis à tout détecteur (normalement fermé) de votre
 choix tel qu'un détecteur de fumée, de gaz ou de monoxyde de carbone,
-etc..
+etc.
 
 Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
 d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
@@ -49,7 +49,7 @@ existant.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -73,18 +73,18 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Emetteur Z-Wave
 
--   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
+-   Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -101,17 +101,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Aux dernières : Fibaro FGK-101 avec sonde de température (DS18B20)
+-   Nom : Fibaro FGK-101 avec sonde de température (DS18B20)
 
 -   Fabricant ID : 271
 
--   Type produit : 1792
+-   Type Produit : 1792
 
 -   Produit ID : 4096
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -141,16 +141,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Commandes](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
  \
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
--   état : c'est la commande qui remontera l'état ouvert ou fermé du
+-   Etat : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
--   Drums : c'est la commande qui permet de remonter l'état de la
-    drums
+-   Batterie : c'est la commande qui permet de remonter l'état de la
+    batterie
 
  \
 
@@ -170,11 +170,11 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -183,11 +183,11 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"D'actualité" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -264,7 +264,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -299,7 +299,7 @@ l'inclusion au plus proche de votre box.
 
  \
 
-Ce module est un module sur drums, la nouvelle configuration sera
+Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
  \
@@ -309,7 +309,7 @@ Note importante
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

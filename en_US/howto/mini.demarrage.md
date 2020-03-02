@@ -81,6 +81,6 @@ d'une documentation complète : [Documentation
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
 les tutoriels vidéos : [Tutos vidéos](https://jeedom.github.io/documentation/presentation/fr_FR/index#tocAnchor-1-3).
 N'hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre
-Question : [Forum Jeedom](https://www.jeedom.com/forum/).
+question : [Forum Jeedom](https://www.jeedom.com/forum/).
 
 Merci, et bonne découverte de la domotique avec Jeedom.

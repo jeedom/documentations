@@ -5,7 +5,7 @@ Ajouter sa licence
 ==================
 
 Une fois connecté sur l'interface web (IP\_ESXI/ui) il faut aller sur
-"Manage" :
+"Gérer" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
@@ -17,7 +17,7 @@ Et rentrer votre clef de licence
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **NOTE**
+> **Note**
 >
 > Pour rappel, si vous ne le faites pas votre ESXi risque de ne plus
 > fonctionner au bout de 60 jours
@@ -33,7 +33,7 @@ backups des machines sur le Synology
 Configuration du Synology 
 -------------------------
 
-Il faut aller sur le panneau de d'actualité puis "Services de
+Il faut aller sur le panneau de configuration puis "Services de
 fichiers" et cocher la case "Activer NFS" :
 
 ![vmware.tips4](images/vmware.tips4.PNG)
@@ -68,7 +68,7 @@ Puis cliquer sur "Nouvelle banque de données" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 Là vous selectionnez "Monter une banque de données NFS" puis faites
-next :
+suivant :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -93,7 +93,7 @@ montages NFS (pour explication voir
 [ici](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 Pour voir si vous l'avez, il faut se connecter avec le client lourd
-(j'ai pas trouvé l'info sur le client web) et aller dans d'actualité →
+(j'ai pas trouvé l'info sur le client web) et aller dans configuration →
 stockage :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
@@ -111,7 +111,7 @@ Vous devez avoir :
 ![vmware.tips14](images/vmware.tips14.PNG)
 
 Il faut ensuite redemarrer l'ESXi, pour vérifier que c'est ok il faut
-ensuite retourner avec le client lourd dans d'actualité → stockage :
+ensuite retourner avec le client lourd dans configuration → stockage :
 
 ![vmware.tips15](images/vmware.tips15.PNG)
 
@@ -163,7 +163,7 @@ Mise à jour de l'ESXi
 
 La procédure est assez facile, il faut tout d'abord recupérer le patch
 en allant [ici](https://my.vmware.com/group/vmware/patch#search) (il
-vous faudra sûrement vous connecter avec votre compte VMware). On the
+vous faudra sûrement vous connecter avec votre compte VMware). Sur la
 liste "Select a Product" mettez "ESXi (Embedded and Installable)", en
 face laisser la dernière version de VMware et faites "Search". Puis
 télécharger le patch voulu (en général le dernier). Le build number (le
@@ -174,12 +174,12 @@ Ensuite transférez le zip sur un de vos datastores et faites :
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **NOTE**
+> **Note**
 >
 > Remplacer bien le chemin et le nom du zip en fonction de votre
-> d'actualité
+> configuration
 
-> **IMPORTANT**
+> **Important**
 >
 > Attention à bien mettre le chemin complet vers le zip sinon ça ne
 > marche pas
@@ -195,7 +195,7 @@ Configuration du NTP
 
 Par défaut l'ESXi n'utilise pas le NTP ce qui fait qu'il n'est pas à
 l'heure et que les VMs ne sont pas à l'heure, pour corriger c'est très
-simple. Il faut aller à partir de la version web sur Manage → Système →
+simple. Il faut aller à partir de la version web sur Gérer → Système →
 Date et heure, là vous cliquez sur "Modifier les paramètres" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
@@ -233,7 +233,7 @@ pouvez faire (attention à bien suivre) :
 
 -   ouvrir le port 902 vers le 902 de l'ESXi
 
-Ensuite sur le NAS dans le panneau de d'actualité puis portail
+Ensuite sur le NAS dans le panneau de configuration puis portail
 d'application et proxy inversé (attention il faut absolument DSM 6) :
 
 ![vmware.tips19](images/vmware.tips19.PNG)
@@ -246,32 +246,32 @@ Dans "Nom d'hôte" (au niveau de la source) il faut mettre le DNS voulu
 (par exemple monesxi.mondsn.synology.me) et dans "Nom d'hôte" (au niveau
 de la destination) il faut mettre l'IP de l'ESXi
 
-> **NOTE**
+> **Note**
 >
 > Vous pouvez faire aussi la même chose pour accéder à jeedom mais en
 > mettant cette fois l'IP de jeedom (de la vm si vous êtes en
 > virtualisé) et le port 80
 
-> **NOTE**
+> **Note**
 >
 > Une fois que vous avez fait cela et si votre DNS pointe correctement
 > sur le NAS vous pouvez générer un certificat SSL valide gratuitement
 > avec Let's encrypt, en allant dans Sécruité ⇒ certificat et en faisant
-> ne sont plus. Ensuite n'oubliez pas de cliquer sur configurer pour
+> ajouter. Ensuite n'oubliez pas de cliquer sur configurer pour
 > l'affecter à votre proxy inversé
 
 Ensuite pour accéder à votre ESXi il vous suffit avec votre navigateur
 d'aller sur votre DNS ou IP externe en ajoutant /ui à la fin et c'est
 bon.
 
-> **IMPORTANT**
+> **Important**
 >
 > Si vous passez par le reverse proxy du NAS la console en mode web des
 > VMs ne fonctionne pas (car cela passe par du websocket), en revanche
 > si vous passez par VMware Remote Console tout devrait être ok (cela
 > passe par le port 902)
 
-> **NOTE**
+> **Note**
 >
 > Il existe aussi une application Vmware Watchlist sur Android pour
 > avoir accès à l'ESXi ainsi qu'aux consoles des VMs

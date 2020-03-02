@@ -11,7 +11,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -31,7 +31,7 @@ accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapSameent et facilement sur n'importe quelle
+pour être installé rapidement et facilement sur n'importe quelle
 surface. Le voyant LED signale le mouvement, le niveau de température,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -71,7 +71,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Plage de mesure de la luminosité : 0-32000 LUX
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -108,17 +108,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Aux dernières : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Nom : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
--   Type produit : 2048
+-   Type Produit : 2048
 
 -   Produit ID : 4097
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ liste déroulante, vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
@@ -159,7 +159,7 @@ seront disponibles.
 
  \
 
-![Vers](images/fibaro.fgms001zw5/commandes.jpg)
+![Commandes](images/fibaro.fgms001zw5/commandes.jpg)
 
  \
 
@@ -169,10 +169,10 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique
@@ -180,15 +180,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -197,16 +197,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"D'actualité" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -247,9 +247,9 @@ Détails des paramètres :
 -   12: à modifier seulement si vous savez pourquoi vous le faites
     (association avec un module par exemple)
 
--   14: Same
+-   14: idem
 
--   16: Same
+-   16: idem
 
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
@@ -302,7 +302,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -398,7 +398,7 @@ Note importante
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

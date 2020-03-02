@@ -11,7 +11,7 @@ Philio PSP01
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio PSP01
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -48,7 +48,7 @@ réseau existant.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -77,7 +77,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 years
+-   Durée de vie des piles : 2 ans
 
 -   Fréquence : 868.42 MHz
 
@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Brightness sensor : 0 à 500 lux
+-   Capteur de luminosité : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -121,17 +121,17 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Aux dernières : Philio PSP01
+-   Nom : Philio PSP01
 
 -   Fabricant ID : 316
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 2
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -142,7 +142,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -161,16 +161,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/philio.psp01/commandes.jpg)
+![Commandes](images/philio.psp01/commandes.jpg)
 
  \
 
@@ -180,29 +180,29 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Opening : c'est la commande qui remontera une détection
+-   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
 correspondant à votre module.
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ correspondant à votre module.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"D'actualité" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -297,7 +297,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -339,7 +339,7 @@ Note importante
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

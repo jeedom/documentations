@@ -14,7 +14,7 @@
 | Foscam C1               |                         |                          |
 | Foscam HD motorisée     |                         |                          |
 | Foscam motorisée        |                         |                          |
-| Foscam FI9803EP/FI9803P | Attention, il faut mettre [ce patch](:HTTPS://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne.
+| Foscam FI9803EP/FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne.
 | Heden CAMHED05IPWN      |                         |                          |
 | (V5.5)                  |                         |                          |
 | Heden Visioncam 22      |                         |                          |
@@ -44,7 +44,7 @@
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **NOTE**
+> **Note**
 >
 > Cette liste est dressée grâce aux retours utilisateurs, l'équipe
 > Jeedom ne peut donc garantir que toutes les caméras de cette liste

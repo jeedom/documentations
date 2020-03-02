@@ -11,7 +11,7 @@ Secure SIR 321 "Timer"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SIR 321 "Timer"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -59,12 +59,12 @@ Functions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
--   Vérifier dans la page Santé que la configuration réseau interne du: Minuteur électronique
+-   Type: Minuteur électronique
 
 -   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu'à
     3kW
@@ -86,16 +86,16 @@ Données du module
 
 -   Marque : Horstmann
 
--   Aux dernières : SIR 321 RF Countdown Timer
+-   Nom : SIR 321 RF Countdown Timer
 
 -   Fabricant ID : 89
 
--   Vérifier dans la page Santé que la configuration réseau interne du produit : 1/2 (en fonction de si il est inclus avec une sonde
+-   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde
     de température ou non)
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -106,7 +106,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton (jusqu'au clignotement rapide) et relacher, conformément à
@@ -126,16 +126,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
-![Vers](images/secure.sir321/commandes.jpg)
+![Commandes](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -143,30 +143,30 @@ Voici la liste des commandes :
 
  \
 
--   ON : c'est la commande permettant d'allumer le relais
+-   On : c'est la commande permettant d'allumer le relais
 
--   OFF : c'est la commande permettant d'éteindre le relais
+-   Off : c'est la commande permettant d'éteindre le relais
 
 -   Température : c'est la commande de mesure de la température si une
     sonde externe est présente
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
 Si vous voulez configurer le module il faut passer par le bouton
-"D'actualité" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

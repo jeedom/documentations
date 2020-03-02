@@ -11,7 +11,7 @@ Fibaro Dimmer2 - FGD-212
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Dimmer2 - FGD-212
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -47,7 +47,7 @@ de consommation instantanée (en W) et la consommation électrique totale
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -56,14 +56,14 @@ Functions
 
 -   S'installe derrière un interrupteur existant
 
--   Fonction ON/OFF et variation
+-   Fonction ON/OFF et Variation
 
 -   Utilisation en mode 2 fils (neutre pas nécessaire)
 
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparé à des périphériques Z-Wave
-    Standard
+    standard
 
 -   Détection automatique de la charge
 
@@ -94,7 +94,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -115,9 +115,9 @@ Caractéristiques Techniques
 
 -   Type de lampe compatible (non dimmable) : Fluocompacte, LED
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
--   Power du signal : 1mW
+-   Puissance du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -139,17 +139,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Aux dernières : FGD212 Dimmer 2
+-   Nom : FGD212 Dimmer 2
 
 -   Fabricant ID : 271
 
--   Type produit : 258
+-   Type Produit : 258
 
 -   Produit ID : 4096
 
  \
 
-D'actualité 
+Configuration 
 -------------
 
  \
@@ -160,7 +160,7 @@ inclusion référez-vous à cette
 
  \
 
-> **IMPORTANT**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier. Si le
@@ -189,16 +189,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Vers 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-available.
+disponibles.
 
  \
 
-![Vers](images/fibaro.fgd212/commandes.jpg)
+![Commandes](images/fibaro.fgd212/commandes.jpg)
 
  \
 
@@ -207,42 +207,42 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    Light
+    lumière
 
--   ON : C'est la commande qui permet d'allumer la Light
+-   On : C'est la commande qui permet d'allumer la lumière
 
--   OFF : C'est la commande qui permet d'éteindre la Light
+-   Off : C'est la commande qui permet d'éteindre la lumière
 
--   état : C'est la commande qui permet de connaître le statut de la
-    Light
+-   Etat : C'est la commande qui permet de connaitre le statut de la
+    lumière
 
 -   Consommation : C'est la commande qui permet de remonter la
     consommation du module
 
--   Power : C'est la commande qui permet de remonter la puissance
+-   Puissance : C'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-Icon
+icone
 
  \
 
-### D'actualité du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "D'actualité" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![D'actualité plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -266,7 +266,7 @@ EN COURS DE REDACTION
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -302,7 +302,7 @@ interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

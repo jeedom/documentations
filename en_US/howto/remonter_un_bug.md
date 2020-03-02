@@ -4,15 +4,15 @@ Il existe dans Jeedom plusieurs manières de remonter un souci :
 
 - remonter le souci sur la [communauté](https://community.jeedom.com), c'est en général la que vous aurez la réponse la plus rapide
 - remonter un souci à l'équipe Jeedom : 
-  - **Support request** (nécessite un service pack power ou plus ou bien que le souci soit sur un plugin/service payant), cette demande est **privée** et vous mettra directement en relation avec l'équipe support de Jeedom qui analyse votre cas en particulier
-  - **Bug report**, dans ce cas la demande est **publique** et sera postée sur la communauté
-  - **Request for improvement**, dans ce cas la demande est **publique** et sera postée sur la communauté
+  - **Demande de support** (nécessite un service pack power ou plus ou bien que le souci soit sur un plugin/service payant), cette demande est **privée** et vous mettra directement en relation avec l'équipe support de Jeedom qui analyse votre cas en particulier
+  - **Rapport de bug**, dans ce cas la demande est **publique** et sera postée sur la communauté
+  - **Demande d'amélioration**, dans ce cas la demande est **publique** et sera postée sur la communauté
 
->**Note**
+>**NOTE**
 >
 >Dans le cas d'une demande de support sur un plugin tierce un mail est envoyé au développeur du plugin
 
->**Important**
+>**IMPORTANT**
 >
 >Le support étant réalisé exclusivement par mail, pensez à surveiller vos spams. Le plus souvent, le support répond rapidement (délai avant réponse en moyenne de moins 72h, attention en fonction du problème cela peut etre beaucoup plus long)
 
