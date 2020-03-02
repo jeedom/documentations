@@ -11,7 +11,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -50,7 +50,7 @@ distance.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -61,7 +61,7 @@ Funktionen
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction Ein/Aus
+-   Fonction ON/OFF
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -74,14 +74,14 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Récepteur Z-Wave
 
--   Farbe : noire
+-   Couleur : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -114,17 +114,17 @@ Données du module
 
 -   Marque : Swiid
 
--   Name : Swiidinter
+-   Nom : Swiidinter
 
 -   Fabricant ID : 358
 
--   Type produit : 256
+-   Type Produit : 256
 
 -   Produit ID : 256
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -154,16 +154,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/swiid.inter/commandes.jpg)
+![Commandes](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -171,36 +171,36 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaitre le statut de la
-    Licht
+-   Etat : C'est la commande qui permet de connaître le statut de la
+    lumière
 
--   Ein : C'est la commande qui permet d'allumer la Licht
+-   ON : C'est la commande qui permet d'allumer la lumière
 
--   Aus : C'est la commande qui permet d'éteindre la Licht
+-   OFF : C'est la commande qui permet d'éteindre la lumière
 
  \
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-Symbol
+icone
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -217,20 +217,20 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inaktiv : n'aura aucun effet sur les autres Lichts
+-   Inactif : n'aura aucun effet sur les autres lumières
 
--   Uniquement Aus : sera effectif uniquement pour éteindre les autres
-    Lichts
+-   Uniquement OFF : sera effectif uniquement pour éteindre les autres
+    lumières
 
--   Uniquement Ein : sera effectif uniquement pour allumer les autres
-    Lichts
+-   Uniquement ON : sera effectif uniquement pour allumer les autres
+    lumières
 
--   Ein et Aus (fully) : sera effectif pour allumer et éteindre les
-    autres Lichts
+-   ON et OFF (fully) : sera effectif pour allumer et éteindre les
+    autres lumières
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -242,20 +242,20 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.
 
  \
 
-Associer à une autre Licht 
+Associer à une autre lumière 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre Licht et pouvoir bénéficier de
-l'allumage d'une autre Licht, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
+l'allumage d'une autre lumière, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -265,7 +265,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-spezifisch.
+spécifique.
 
  \
 

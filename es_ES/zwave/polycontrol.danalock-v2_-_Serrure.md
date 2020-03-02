@@ -11,7 +11,7 @@ Danalock V2 BTZE
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Danalock V2 BTZE
 
  \
 
-Resumen 
+Résumé 
 ------
 
  
@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -131,7 +131,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -142,7 +142,7 @@ Caractéristiques Techniques
 
 -   Matériau : Aluminium massif anodisé
 
--   Comunicación : Bluetooth et Z-Wave
+-   Communication : Bluetooth et Z-Wave
 
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 
@@ -157,17 +157,17 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nombre : Danalock V2 BTZE
+-   Nom : Danalock V2 BTZE
 
 -   Fabricant ID : 010e
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 1
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -178,7 +178,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
 
@@ -201,7 +201,7 @@ SECURISE (INCLUSION)"
 
  \
 
-> **Importante**
+> **Important**
 >
 > Nous partons du principe que vous avez installé l'application sur
 > votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
@@ -224,16 +224,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/polycontrol.danalock/commandes.jpg)
+![Commandes](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -241,22 +241,22 @@ Voici la liste des commandes :
 
  \
 
--   Estado : c'est la commande qui remontera la dernière action
+-   Statut : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Cerca : c'est la commande qui permet de fermer la serrure
+-   Fermer : c'est la commande qui permet de fermer la serrure
 
--   Batería : c'est la commande batterie
-
- \
-
-### Configuración du module 
+-   Batterie : c'est la commande batterie
 
  \
 
-> **Advertencia**
+### Configuration du module 
+
+ \
+
+> **Warning**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -266,17 +266,17 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuración" du
+installation, il faut pour cela passer par la bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -298,7 +298,7 @@ Détails des paramètres :
 -   3 : Mode 1 = Entraînement de moteur (économie d'énergie), 2 = mode
     complet d'entraînement (Normal)
 
--   4 : Nombrebre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
+-   4 : Nombre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
 
 -   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
     la serrure a été déverrouillée pour automatiquement se fermer
@@ -307,7 +307,7 @@ Détails des paramètres :
 -   6 : Désactiver ou activer le signal sonore de verrouillage ou
     déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : Puntao de batería : Réglez le type de batterie qui
+-   7 : Type de batterie : Réglez le type de batterie qui
     alimente l'appareil.
 
 -   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-> **Punta**
+> **Tip**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -362,12 +362,12 @@ Bon à savoir
 
  \
 
-> **Punta**
+> **Tip**
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main
 > l'état sera mis à jour.  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

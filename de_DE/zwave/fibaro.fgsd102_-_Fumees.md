@@ -11,7 +11,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -39,7 +39,7 @@ Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
 Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. Wenn die
+détecteur de fumée sous la forme d'un capteur de température. Si la
 quantité de fumée n'est pas suffisante pour déclencher l'alarme,
 l'appareil sera toujours en mesure de détecter une menace en détectant
 un changement rapide de la température causée par le feu. Un changement
@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -80,7 +80,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -89,9 +89,9 @@ Caractéristiques Techniques
 
 -   Alimentation : Batterie Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 Jahre
+-   Autonomie de la batterie : 3 ans
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -123,17 +123,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Name : Fibaro Smoke Sensor FGSD-002
+-   Nom : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
--   Type produit : 3074
+-   Type Produit : 3074
 
 -   Produit ID : 4098
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -163,16 +163,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/fibaro.fgsd102/commandes.jpg)
+![Commandes](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -198,11 +198,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -294,7 +294,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

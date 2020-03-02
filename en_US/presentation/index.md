@@ -1,18 +1,18 @@
-Presentation
+Présentation
 ===
 
 Jeedom est composé d'une partie centrale (appelée core) qui se charge
 des fonctions de base.
 
--   *Scenario,*
+-   *Scénario,*
 
-![Page Scenario](images/doc-presentation-scenario.png)
+![Page Scénario](images/doc-presentation-scenario.png)
 
 -   *Historisation,*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Viewing,*
+-   *Affichage,*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
@@ -53,7 +53,7 @@ base normalisée. Cela permet par exemple d'utiliser les plugins
 thermostat ou alarme avec n'importe quel protocole domotique ou même un
 plugin IP ou objet communiquant…​
 
-Principle
+Principe
 === 
 
 Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui
@@ -64,7 +64,7 @@ n'avez plus internet. Ceci garantit aussi la sécurité de vos données
 Le projet étant ouvert et open source cela lui garantit aussi un fort
 taux d'évolution grâce aux nombreux développeurs qui participent.
 
-Links
+Liens
 ===
 
 Plusieurs tutoriels vidéo ont été réalisés afin de montrer les
@@ -84,7 +84,7 @@ Voici la liste des tutoriels disponibles :
     , Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
 
 -   [Tuto Jeedom \#3 : Jeedom, les Widget, Mails et
-    Scenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
+    Scénarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
 
 -   [Tuto Jeedom \#4 : Jeedom, Utilisation du plugin
     Agenda](https://www.youtube.com/watch?v=EBuvIabg3Cc)
@@ -95,7 +95,7 @@ Voici la liste des tutoriels disponibles :
 -   [Tuto Jeedom \#6 : Les scénarios dans Jeedom avec le plugin
     Météo](https://www.youtube.com/watch?v=w0ErP3wyEoA)
 
--   [Tuto Jeedom \#7 : Presentation du plugin
+-   [Tuto Jeedom \#7 : Présentation du plugin
     Energie](https://www.youtube.com/watch?v=DZfA_DxqbNs)
 
 -   [Tuto Jeedom \#8 : Découverte du Mode

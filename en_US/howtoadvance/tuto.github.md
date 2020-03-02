@@ -4,7 +4,7 @@ Ce tutorial vous présente :
 
 -   Fork de Jeedom Core ou de la documentation
 
--   Modification d'un ou plusieurs Files
+-   Modification d'un ou plusieurs fichiers
 
 -   Soumettre une modification
 
@@ -23,10 +23,10 @@ pour l'ensemble du projet Jeedom, incluant ses plugins gratuits ou la
 documentation, ou encore tout autre projet github auxquels vous
 souhaiteriez participer.
 
-Se rendre sur <https:// github.com> et click on le bouton sign up.
+Se rendre sur <https://github.com> et cliquer sur le bouton sign up.
 Vous devriez donc être sur une page ressemblant à celle ci-dessous et
 devez donc renseigner un pseudo, un email et un mot de passe et ensuite
-click on **Create an account**
+cliquer sur **Create an account**
 
 ![tuto.github1](images/tuto.github1.png)
 
@@ -49,23 +49,23 @@ Fork de Jeedom Core ou de la documentation
 **Fork - Pourquoi - Comment**
 
 Fork c'est copier un projet dans votre espace github, afin de pouvoir
-modifier les Files de code, de documentation pour ensuite soumettre
+modifier les fichiers de code, de documentation pour ensuite soumettre
 un Pull Request au projet d'origine, qui sera alors étudié par le ou les
 développeur(s) du dit projet
 
 Maintenant que vous avez un compte Github et que vous êtes identifiez
 avec votre adresse email vérifiée, si vous vous rendez ici
-<https:// github.com/jeedom/core> vous êtes sur le projet jeedom, à
+<https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
 droite il y a un bouton fork vous permettant de le copier dans votre
 espace github.
 
 ![tuto.github4](images/tuto.github4.png)
 
-Modification d'un ou plusieurs Files 
+Modification d'un ou plusieurs fichiers 
 ---------------------------------------
 
-Dans mon cas, je souhaite donc pousser une modification sur le File
-*history.class.php* Ce File se situe dans le core de jeedom et plus
+Dans mon cas, je souhaite donc pousser une modification sur le fichier
+*history.class.php* Ce fichier se situe dans le core de jeedom et plus
 précisément ici : core/class/
 
 1.  On est donc sur mon dépôt (TaGGoU91 / core) qui est indiqué comme
@@ -74,19 +74,19 @@ précisément ici : core/class/
 2.  On se rend donc dans /core/class (le premier core est en gras, c'est
     le dépôt ou je suis (core, cf Petit 1)
 
-3.  On a donc notre File *history.class.php* - On clique sur le
-    File
+3.  On a donc notre fichier *history.class.php* - On clique sur le
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
-1.  On est donc bien dans notre File
+1.  On est donc bien dans notre fichier
 
 2.  On clique sur le crayon pour entrer en modification
 
 ![tuto.github6](images/tuto.github6.png)
 
-Afin de faire une recherche dans le File, se positionner dans le bloc
-texte du File qu'on vient d'ouvrir en mode édition avec le crayon et
+Afin de faire une recherche dans le fichier, se positionner dans le bloc
+texte du fichier qu'on vient d'ouvrir en mode édition avec le crayon et
 on fait un "Ctrl + F" pour activer la recherche. Vous coller ou
 spécifier le texte que vous cherchez (un élément significatif et une
 ligne seulement, pas tout un bloc d'un coup). Valider avec "Entrée" pour
@@ -99,7 +99,7 @@ lancer la recherche.
 > dans mon cas, sur Google chrome, ça ne sait pas faire la recherche
 > dans le code ou la documentation directement.
 
-1.  The champ de recherche, oui c'est assez mince comme information, la
+1.  Le champ de recherche, oui c'est assez mince comme information, la
     ligne copiée est bien plus grande ;).
 
 ![tuto.github7](images/tuto.github7.png)
@@ -124,7 +124,7 @@ Soumettre la modification
 Soumettre une modification 
 --------------------------
 
-The **commit** fait au-dessus ne concerne que le fork du projet dans
+Le **commit** fait au-dessus ne concerne que le fork du projet dans
 votre espace GitHub. Pour soumettre au projet d'origine les changements,
 il faut effecter un PR (Pull Request)
 
@@ -134,7 +134,7 @@ il faut effecter un PR (Pull Request)
 
 ![tuto.github9](images/tuto.github9.png)
 
-1.  The PR va lancer une comparaison entre la base de jeedom avec votre
+1.  Le PR va lancer une comparaison entre la base de jeedom avec votre
     repository (le fork).
 
 2.  Celà indique les modifications (le premier c'est parce que je me
@@ -143,7 +143,7 @@ il faut effecter un PR (Pull Request)
 
 3.  L'ancien code
 
-4.  The nouveau code
+4.  Le nouveau code
 
 5.  On crée le Pull Request (PR)
 
@@ -151,7 +151,7 @@ il faut effecter un PR (Pull Request)
 
 Il est important de bien expiiquer les changements soumis pour que le(s)
 développeur(s) du projet d'origine comprennent et puissent valider votre
-Request.
+demande.
 
 1.  On clique sur les trois petits points
 
@@ -170,7 +170,7 @@ NB: Il n'y a que les utilisateurs ayant un droit de push sur Jeedom qui
 peuvent valider le PR.
 
 Pour vous assurer que votre modification est bien dans la liste, vous
-pouvez click on Pull Requests
+pouvez cliquer sur Pull Requests
 
 ![tuto.github12](images/tuto.github12.png)
 

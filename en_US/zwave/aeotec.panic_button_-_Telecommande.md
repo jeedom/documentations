@@ -11,7 +11,7 @@ Aeotec Panic Button
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Panic Button
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -66,7 +66,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -97,7 +97,7 @@ Données du module
 
 -   Fabricant ID : 134
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 38
 
@@ -138,7 +138,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -199,11 +199,11 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
-Ce module possède un seul et unique groupe d'association. It is
+Ce module possède un seul et unique groupe d'association. Il est
 indispensable.
 
  \

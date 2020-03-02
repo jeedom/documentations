@@ -11,7 +11,7 @@ Zipato miniKeypad RFID
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Zipato miniKeypad RFID
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -39,7 +39,7 @@ qui a utilisé son badge.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -63,12 +63,12 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
--   Typ : Esclave Z-Wave
+-   Type : Esclave Z-Wave
 
 -   Alimentation : 2x AA 1,5V batteries
 
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Dimensions : 62 x 62 x 20 mm
 
--   Certifications : Sicherheit : UL EMC : FCC, CE RoHS
+-   Certifications : Sécurité : UL EMC : FCC, CE RoHS
 
  \
 
@@ -101,17 +101,17 @@ Données du module
 
 -   Marque : Zipato
 
--   Name : Zipato Mini Keypad RFID
+-   Nom : Zipato Mini Keypad RFID
 
 -   Fabricant ID : 151
 
--   Typ produit : 24881
+-   Type Produit : 24881
 
 -   Produit ID : 17665
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -122,7 +122,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il suffit d'appuyer deux
 > secondes sur la languette métallique (la led rouge de la face avant
@@ -143,12 +143,12 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
@@ -160,24 +160,24 @@ Voici la liste des commandes :
 
  \
 
--   Aktion : c'est la commande qui remontera le home/away (5 pour away 6
+-   Action : c'est la commande qui remontera le home/away (5 pour away 6
     pour home)
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   CODE : affiche le code du badge ou du clavier lorsque le code saisi
+-   Code : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
 -   Batterie : c'est la commande batterie
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -186,7 +186,7 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par le bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
@@ -221,7 +221,7 @@ Détails des paramètres :
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -233,7 +233,7 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 1.
@@ -274,7 +274,7 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pensez à réveiller le module après l'ajout d'un code ou badge.
 
@@ -290,7 +290,7 @@ Exemples d'utilisation
  \
 
 L'élément déclencheur est la commande évènement, en effet celle-ci est
-mise à jour uniquement lorsqu'un code/badge valide à été présenté. Wenn die
+mise à jour uniquement lorsqu'un code/badge valide à été présenté. Si la
 valeur est 6 (home) on désactive l'alarme (par exemple), ou allume la
 multiprise, on allume la lumière en fonction de la luminosité, on envoie
 une notification pour signaler que quelqu'un est rentré, on lance une
@@ -358,7 +358,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

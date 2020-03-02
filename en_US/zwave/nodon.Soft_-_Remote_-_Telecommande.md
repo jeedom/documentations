@@ -11,7 +11,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -32,7 +32,7 @@ compatible.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -43,11 +43,11 @@ Functions
 
 -   Se fixe partout grâce à son aimant intégré
 
--   6 coloris available
+-   6 coloris disponibles
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -84,7 +84,7 @@ Données du module
 
 -   Fabricant ID : 357
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 2
 
@@ -126,7 +126,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -138,10 +138,10 @@ Voici la liste des commandes :
 
  \
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -153,7 +153,7 @@ Voici la liste des commandes :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 +----------------+----------------+----------------+----------------+----------------+
 
--   Drums : c'est la commande qui remonte le niveau des piles
+-   Batterie : c'est la commande qui remonte le niveau des piles
 
  \
 
@@ -179,7 +179,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -202,7 +202,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Groups 
+### Groupes 
 
  \
 

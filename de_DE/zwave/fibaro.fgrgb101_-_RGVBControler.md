@@ -11,7 +11,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -58,7 +58,7 @@ Funktionen
 
 -   Simulation lumineuse précédemment programmée
 
--   Fonction ON/OFF et variation
+-   Fonction ON/OFF et Variation
 
 -   Petit, discret et esthétique
 
@@ -66,7 +66,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
 -   Alimentation : 12 V ou 24 V continu
@@ -108,17 +108,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Name : Fibaro FGRGB-101 RGBW
+-   Nom : Fibaro FGRGB-101 RGBW
 
 -   Fabricant ID : 271
 
--   Type produit : 2304
+-   Type Produit : 2304
 
 -   Produit ID : 4096
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
@@ -127,7 +127,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -146,23 +146,23 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/fibaro.fgrgb101/commande_1.png)
+![Commandes](images/fibaro.fgrgb101/commande_1.png)
 
-![Befehle](images/fibaro.fgrgb101/commande_2.png)
+![Commandes](images/fibaro.fgrgb101/commande_2.png)
 
  \
 
 Voici la liste des commandes :
 
--   Farbe : C'est la commande qui permet de régler le code couleur à
-    anzeigen
+-   Couleur : C'est la commande qui permet de régler le code couleur à
+    afficher
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de
     cheminée
@@ -185,28 +185,28 @@ Voici la liste des commandes :
     couleur type blanc chaud, si le bandeau de couleur le permet. (cette
     commande est non visible par défaut)
 
--   ON : C'est la commande qui permet d'allumer le bandeau sur la
+-   On : C'est la commande qui permet d'allumer le bandeau sur la
     dernière couleur choisit auparavant
 
--   OFF : C'est la commande qui permet d'éteindre le bandeau
+-   Off : C'est la commande qui permet d'éteindre le bandeau
 
 -   Intensité : C'est la commande qui permet de régler l'intensité
     lumineuse
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-Symbol
+icone
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### Gruppen 
+### Groupes 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.
@@ -249,11 +249,11 @@ Utilisation des capteurs 0-10V.
 > Pour l'instant, la configuration par défaut de jeedom ne le permet
 > pas, mais une configuration spécifique peut être envisagée.
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
-![Visuel Alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
+![Visuel alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
  \
 

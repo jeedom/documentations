@@ -37,7 +37,7 @@ votre télécommande Ematronic.
 Rechercher de l'ID de la télécommande 
 -------------------------------------
 
-Observación: les télécommandes Ematronic commencent toujours par : 09 19 03
+Remarque: les télécommandes Ematronic commencent toujours par : 09 19 03
 donc la zone qui nous intéresse démarre de "Test message" : 09 19 03.
 
 Repérer : Id1 et Id2 et ajouter l'hexadecimal suivant : dans mon exemple
@@ -63,7 +63,7 @@ virtuelle.
 ![image00](images/volet.ematronic/image00.png)
 
 Choisir dans la liste des équipements le template : "Volet Ematronic -
-Culpa".
+Défaut".
 
 Remplacer l'ID automatique par celui que vous avez extrait précédemment
 et Cocher "Activer" et "Visible" :
@@ -71,7 +71,7 @@ et Cocher "Activer" et "Visible" :
 ![image11](images/volet.ematronic/image11.png)
 
 Cliquer sur "Sauvegarder" pour enregistrer votre configuration et
-charger le template "Volet Ematronic - Culpa".
+charger le template "Volet Ematronic - Défaut".
 
 ![image02](images/volet.ematronic/image02.png)
 

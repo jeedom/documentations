@@ -12,13 +12,13 @@ Une fois connecté avec votre compte dev sur le market il faut :
 
 - cliquer sur market puis sur ajouter
 - renseigner les informations sur votre plugin : 
-  - Main : 
-    - Price
+  - Général : 
+    - Prix
     - Id (celui dans le fichier info.json)
     - Nom
     - Catégorie
     - Si il est privé ou non pour commencer
-  - Documentation and links
+  - Documentation et liens
     - la description (bien mettre les point important, la plupart des utilisateurs ne vont pas voir la documentation avant l'achat)
     - les langues
     - le matériel compatible

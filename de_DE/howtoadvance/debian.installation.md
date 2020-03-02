@@ -27,7 +27,7 @@ configurer comme cela :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **Notiz**
+> **Note**
 >
 > Pensez bien à sélectionner le fichier ISO que vous avez téléchargé
 > juste avant
@@ -163,7 +163,7 @@ Optimisation pour Jeedom
 ========================
 
 Pour préparer l'installation de Jeedom vous pouvez faire quelques
-Optimierungen :
+optimisations :
 
 Ajouter vim et sudo 
 -------------------
@@ -184,7 +184,7 @@ Ajouter les Open VMware Tools
 -----------------------------
 
 Les Open VMware Tools installent les drivers spécifiques au système
-d'exploitation installé et apportent les Optimierungen de cet OS hébergé
+d'exploitation installé et apportent les optimisations de cet OS hébergé
 sur un hyperviseur ESXi.
 
     sudo apt-get install -y open-vm-tools

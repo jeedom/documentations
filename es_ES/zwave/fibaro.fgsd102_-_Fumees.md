@@ -11,7 +11,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -80,18 +80,18 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : Batería Lithium 3V CR123A
+-   Alimentation : Batterie Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 años
+-   Autonomie de la batterie : 3 ans
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -123,17 +123,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nombre : Fibaro Smoke Sensor FGSD-002
+-   Nom : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
--   Type produit : 3074
+-   Type Produit : 3074
 
 -   Produit ID : 4098
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -163,16 +163,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/fibaro.fgsd102/commandes.jpg)
+![Commandes](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -194,15 +194,15 @@ Voici la liste des commandes :
 -   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
     (pas fiable encore)
 
--   Batería : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
-> **Importante**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -252,9 +252,9 @@ Détails des paramètres :
 -   10: ne pas changer ce paramètre sauf si vous savez ce que vous
     faites
 
--   11: ídem
+-   11: idem
 
--   12: ídem
+-   12: idem
 
 -   13: permet de notifier d'autres modules zwave (à désactiver sauf si
     vous savez pourquoi vous l'activez)
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -294,7 +294,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **Importante**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

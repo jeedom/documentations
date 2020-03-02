@@ -11,7 +11,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -50,7 +50,7 @@ distance.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -61,7 +61,7 @@ Functions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction We/Off
+-   Fonction ON/OFF
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -74,14 +74,14 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Récepteur Z-Wave
 
--   Color : noire
+-   Couleur : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -118,7 +118,7 @@ Données du module
 
 -   Fabricant ID : 358
 
--   Type produit : 256
+-   Type Produit : 256
 
 -   Produit ID : 256
 
@@ -159,7 +159,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -171,12 +171,12 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaitre le statut de la
-    Light
+-   Etat : C'est la commande qui permet de connaître le statut de la
+    lumière
 
--   We : C'est la commande qui permet d'allumer la Light
+-   ON : C'est la commande qui permet d'allumer la lumière
 
--   Off : C'est la commande qui permet d'éteindre la Light
+-   OFF : C'est la commande qui permet d'éteindre la lumière
 
  \
 
@@ -200,7 +200,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -217,20 +217,20 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inactive : n'aura aucun effet sur les autres Lights
+-   Inactif : n'aura aucun effet sur les autres lumières
 
--   Uniquement Off : sera effectif uniquement pour éteindre les autres
-    Lights
+-   Uniquement OFF : sera effectif uniquement pour éteindre les autres
+    lumières
 
--   Uniquement We : sera effectif uniquement pour allumer les autres
-    Lights
+-   Uniquement ON : sera effectif uniquement pour allumer les autres
+    lumières
 
--   We et Off (fully) : sera effectif pour allumer et éteindre les
-    autres Lights
+-   ON et OFF (fully) : sera effectif pour allumer et éteindre les
+    autres lumières
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -249,13 +249,13 @@ Ce module possède deux groupes d'association.
 
  \
 
-Associer à une autre Light 
+Associer à une autre lumière 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre Light et pouvoir bénéficier de
-l'allumage d'une autre Light, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
+l'allumage d'une autre lumière, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -265,7 +265,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-Specific.
+spécifique.
 
  \
 

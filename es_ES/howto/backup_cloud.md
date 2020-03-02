@@ -1,4 +1,4 @@
-# Copia de seguridad en la nube
+# Sauvegarde cloud
 
 Une fois le service acheté il faut dans jeedom : 
 
@@ -7,11 +7,11 @@ Une fois le service acheté il faut dans jeedom :
   - [Backup cloud] Mot de passe : mot de passe de cryptage du backup. ATTENTION si vous le perdez les backups sont perdu il est impossible de récuperer le mot de passe
 - dans la gestion des sauvegarde cochez la case "Envoi des sauvegardes" au niveau de "Sauvegardes Market"
 
->**Nota**
+>**NOTE**
 >
 >Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud
 
-## Preguntas frecuentes
+## FAQ
 
 > **Erreur Specification mandate value for attribute defer on line 19, column 146**
 >

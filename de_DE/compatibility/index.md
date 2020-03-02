@@ -21,7 +21,7 @@ Vous pouvez retrouver toutes les images Jeedom
 [ici](https://images.jeedom.com/),
 puis dans le dossier Images
 
-> **Notiz**
+> **Note**
 >
 > Une image netinstall va lors du premier démarrage installer la
 > dernière version stable de Jeedom, ce démarrage est donc un peu plus
@@ -48,7 +48,7 @@ matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
 Logiciel
 ========
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable).
 > Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas
@@ -64,7 +64,7 @@ Logiciel
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Andere
+Autre
 =====
 
 Clef USB/Module d'extension
@@ -94,10 +94,10 @@ Dongle GSM :
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 
-Contrôleur Z-Wave :
+Contrôleur Z-WAVE :
 
 -   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
--   Z-Wave.ME - Mini contrôleur USB Z-Wave Plus UZB1
+-   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
 

@@ -11,7 +11,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -36,7 +36,7 @@ double-face présents au dos de la platine.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -53,7 +53,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Température de fonctionnement : 0°C à 40°C
 
--   Höhe : 2000m
+-   Altitude : 2000m
 
 -   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
     Plus® SDK 06.51.06
@@ -96,17 +96,17 @@ Données du module
 
 -   Marque : Nodon
 
--   Name : CWS-3-1-01 Wall Switch
+-   Nom : CWS-3-1-01 Wall Switch
 
 -   Fabricant ID : 357
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 3
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
@@ -137,16 +137,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/nodon.wallswitch/commandes.jpg)
+![Commandes](images/nodon.wallswitch/commandes.jpg)
 
  \
 
@@ -154,10 +154,10 @@ Voici la liste des commandes :
 
  \
 
--   Tasten : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Tasten        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -170,11 +170,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -183,16 +183,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -215,7 +215,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -241,7 +241,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -284,7 +284,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

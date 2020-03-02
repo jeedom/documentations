@@ -11,7 +11,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -32,7 +32,7 @@ compatible.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -43,11 +43,11 @@ Funktionen
 
 -   Se fixe partout grâce à son aimant intégré
 
--   6 coloris verfügbar
+-   6 coloris disponibles
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -80,17 +80,17 @@ Données du module
 
 -   Marque : Nodon
 
--   Name : CRC-3-6-0x Soft Remote
+-   Nom : CRC-3-6-0x Soft Remote
 
 -   Fabricant ID : 357
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 2
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -101,7 +101,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (+ et 0 plein) jusqu'à que la lumière devienne rose puis
@@ -121,16 +121,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/nodon.softremote/commandes.png)
+![Commandes](images/nodon.softremote/commandes.png)
 
  \
 
@@ -138,10 +138,10 @@ Voici la liste des commandes :
 
  \
 
--   Tasten : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Tasten        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -157,11 +157,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -170,16 +170,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -202,7 +202,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -226,7 +226,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -269,7 +269,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

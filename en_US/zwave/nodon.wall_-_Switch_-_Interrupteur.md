@@ -11,7 +11,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Nodon Interrupteur - Wall Switch
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -36,7 +36,7 @@ double-face présents au dos de la platine.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -53,7 +53,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -100,7 +100,7 @@ Données du module
 
 -   Fabricant ID : 357
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 3
 
@@ -142,7 +142,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-available.
+disponibles.
 
  \
 
@@ -154,10 +154,10 @@ Voici la liste des commandes :
 
  \
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Buttons        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+
@@ -192,7 +192,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -215,7 +215,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Groups 
+### Groupes 
 
  \
 

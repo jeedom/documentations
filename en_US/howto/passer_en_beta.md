@@ -14,10 +14,10 @@
 
 > **Note**
 >
-> Cette Documentation est volontairement peu detaillée pour que
+> Cette documentation est volontairement peu detaillée pour que
 > l'opération ne soit pas facile. En effet, être en bêta nécessite des
 > compétences aussi bien en informatique qu'en déchiffrage de logs ou
-> Documentation.
+> documentation.
 
 Passer le core en bêta 
 ======================
@@ -34,7 +34,7 @@ core pour passer sur la version bêta de Jeedom.
 > Jeedom ne signale en bêta que les mises à jour importantes, il vous
 > faudra donc souvent forcer la mise à jour de Jeedom pour avoir la
 > dernière version, même si le centre de mise à jour ne vous propose
-> nothing.
+> rien.
 
 > **Important**
 >
@@ -56,7 +56,7 @@ Passer les plugins en bêta
 ==========================
 
 Pour cela, il faut vous rendre sur le Market Jeedom, puis dans votre
-profil, partie **My profile**, cochez la case pour avoir accès aux
+profil, partie **Mon Profil**, cochez la case pour avoir accès aux
 plugins en version bêta.
 
 Ensuite, dans votre Jeedom, sur les fiches des plugins, vous devriez

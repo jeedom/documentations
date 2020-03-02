@@ -186,10 +186,10 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Capteurs beacon||
 
-# Smartplug
+# smartplug
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/Smartplug.jpg" width="60" />|Awox|Smartplug|Prises|||
+|<img src="../../fr_FR/blea/images/smartplug.jpg" width="60" />|Awox|Smartplug|Prises|||
 
 # tb05
 |Image|Marque|Nom|Type|Remarque|Lien|

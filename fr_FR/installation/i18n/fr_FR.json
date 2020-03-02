@@ -133,7 +133,6 @@
         "7\/ Lancer le script d'installation jeedom": "7\/ Lancer le script d'installation jeedom",
         "wget -O- https": "wget -O- https",
         "\/\/raw.githubusercontent.com\/jeedom\/core\/master\/install\/install": "\/\/raw.githubusercontent.com\/jeedom\/core\/master\/install\/install",
-        "sh | sudo bash": "sh | sudo bash",
         "Le mot de passe sudo est également raspberry": "Le mot de passe sudo est également raspberry",
         "En fonction de votre débit internet, l'installation peut prendre de 45": "En fonction de votre débit internet, l'installation peut prendre de 45",
         "à 90 minutes": "à 90 minutes",

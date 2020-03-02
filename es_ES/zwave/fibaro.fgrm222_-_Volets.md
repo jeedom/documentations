@@ -11,7 +11,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -43,11 +43,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les
 autres modules, afin d'assurer une couverture totale de votre
 habitation.
 
-Nota : Ce module nécessite le neutre pour fonctionner.
+Note : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -75,7 +75,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -90,9 +90,9 @@ Caractéristiques Techniques
 
 -   Charge maxi : 1000W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
--   Potencia du signal : 1mW
+-   Puissance du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -113,17 +113,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nombre : Fibaro FGRM-222
+-   Nom : Fibaro FGRM-222
 
 -   Fabricant ID : 271
 
--   Type produit : 769
+-   Type Produit : 769
 
 -   Produit ID : 4097
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -153,18 +153,18 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/fibaro.fgrm222/commandes.jpg)
+![Commandes](images/fibaro.fgrm222/commandes.jpg)
 
-![Comandos](images/fibaro.fgrm222/commandes2.jpg)
+![Commandes](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaître la position de
+-   Etat : C'est la commande qui permet de connaître la position de
     votre volet
 
 -   Positionnement : C'est la commande qui permet de définir le
@@ -182,44 +182,44 @@ Voici la liste des commandes :
 
 -   Down : C'est la commande qui permet de fermer complétement le volet
 
--   Refrescar : C'est la commande qui permet de redemander la position
+-   Rafraichir : C'est la commande qui permet de redemander la position
     du volet
 
--   Potencia : Commande permettant d'avoir la consommation du module
+-   Puissance : Commande permettant d'avoir la consommation du module
 
 -   Consommation : Commande permettant de connaître la puissance
     instantanée utilisée par le module
 
--   Detener : Commande pour stopper le mouvement du volet
+-   STOP : Commande pour stopper le mouvement du volet
 
--   Detener BSO : Commande pour stopper le mouvement (en mode
+-   STOP BSO : Commande pour stopper le mouvement (en mode
     lamelle orientable)
 
 -   Incliner : Permet d'incliner les lamelles (mode lamelle orientable)
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   No : Permet de définir le pas pour un appui sur Décliner ou
+-   Pas : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -312,11 +312,11 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Importante 
+### Important 
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
 > forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
@@ -325,7 +325,7 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-No de notion de wakeup sur ce module.
+Pas de notion de wakeup sur ce module.
 
  \
 

@@ -11,7 +11,7 @@ Aeotec Keyfob Gen5
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Keyfob Gen5
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -45,7 +45,7 @@ rapide par rapport aux précédents produits Z-Wave.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -69,7 +69,7 @@ Functions
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparée à des périphériques Z-Wave
-    Standard
+    standard
 
 -   Optimisation de l'antenne, portée 100 mètres
 
@@ -77,7 +77,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
--   Durée de vie de la batterie : 1 year
+-   Durée de vie de la batterie : 1 an
 
 -   Fréquence: 868.42 MHz
 
@@ -109,7 +109,7 @@ Données du module
 
 -   Fabricant ID : 134
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 88
 
@@ -150,7 +150,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -162,7 +162,7 @@ Voici la liste des commandes :
 
  \
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -223,7 +223,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

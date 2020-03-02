@@ -11,7 +11,7 @@ Philio PSP01
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio PSP01
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -48,7 +48,7 @@ réseau existant.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -77,7 +77,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 years
+-   Durée de vie des piles : 2 ans
 
 -   Fréquence : 868.42 MHz
 
@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Brightness sensor : 0 à 500 lux
+-   Capteur de luminosité : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -125,7 +125,7 @@ Données du module
 
 -   Fabricant ID : 316
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 2
 
@@ -166,7 +166,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -180,18 +180,18 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Opening : c'est la commande qui remontera une détection
+-   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -297,7 +297,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

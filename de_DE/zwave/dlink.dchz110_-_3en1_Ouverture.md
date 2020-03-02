@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 en 1 Öffnung" 
+D-Link DCH-Z110 - "3 en 1 Ouverture" 
 ====================================
 
  \
@@ -11,7 +11,7 @@ D-Link DCH-Z110 - "3 en 1 Öffnung"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,13 +19,13 @@ D-Link DCH-Z110 - "3 en 1 Öffnung"
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Es ist
+d'ouverture, capteur de température et détecteur de luminosité. Il se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -47,12 +47,12 @@ déjà un réseau existant.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
 
--   Détecteur 3 en 1: Öffnung, température, lumière
+-   Détecteur 3 en 1: Ouverture, température, lumière
 
 -   Portée de l'antenne optimisée
 
@@ -70,7 +70,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -93,20 +93,20 @@ Données du module
 
 -   Marque : D-Link
 
--   Modell : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   Modèle : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
 
 -   Fabricant ID : 264 \[0x0108\]
 
--   Type produit : 2 \[0x0002\]
+-   Type Produit : 2 \[0x0002\]
 
 -   Produit ID : 14 \[0x000e\]
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Ne pas installer le module sur la fenêtre/porte avant de l'avoir
 > correctement configuré, et bien faire attention à l'alignement de
@@ -141,16 +141,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/dlink.dchz110/commandes.jpg)
+![Commandes](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -158,13 +158,13 @@ Voici la liste des commandes :
 
  \
 
--   Öffnung : c'est la commande qui remontera une détection
+-   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
@@ -173,11 +173,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion, ou d'une modification, sauvegarder puis
 > réveillez toujours le module en appuyant sur le bouton d'association.
@@ -187,11 +187,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -230,30 +230,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux Berichts de batterie (une
+-   10: permet de définir la durée entre deux rapports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux Berichts auto d'ouverture
+-   11: permet de définir la durée entre deux rapports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux Berichts auto de
+-   12: permet de définir la durée entre deux rapports auto de
     luminosité (une unité = parametre 20). Valeur recommandée : 6
 
--   13: permet de définir la durée entre deux Berichts auto de
+-   13: permet de définir la durée entre deux rapports auto de
     température (une unité = parametre 20). Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13. Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    Bericht
+    rapport
 
 -   22: valeur en % de variation de luminosité pour déclencher
-    un Bericht. Valeur recommandée : 10
+    un rapport. Valeur recommandée : 10
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -274,7 +274,7 @@ DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
  \
 
-Visuel Alternatif 
+Visuel alternatif 
 -----------------
 
  \
@@ -318,7 +318,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

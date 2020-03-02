@@ -11,7 +11,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -71,7 +71,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques Techniques
 
 -   Plage de mesure de la luminosité : 0-32000 LUX
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -108,17 +108,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Name : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Nom : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
--   Type produit : 2048
+-   Type Produit : 2048
 
 -   Produit ID : 4097
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ liste déroulante, vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
@@ -159,7 +159,7 @@ seront disponibles.
 
  \
 
-![Befehle](images/fibaro.fgms001zw5/commandes.jpg)
+![Commandes](images/fibaro.fgms001zw5/commandes.jpg)
 
  \
 
@@ -169,10 +169,10 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique
@@ -184,11 +184,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -197,16 +197,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -302,7 +302,7 @@ Détails des paramètres :
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -310,7 +310,7 @@ Détails des paramètres :
 
  \
 
-> **Spitze**
+> **Tip**
 >
 > Ce module possède cinq groupes d'association, il faut ajouter le
 > contrôleur sur le 1, 4 et 5 et retirer le 3.
@@ -343,7 +343,7 @@ Bon à savoir
 
  \
 
-> **Spitze**
+> **Tip**
 >
 > Ce module est très capricieux sur les wakeup et très mal configuré
 > d'usine. Il est primordial de bien le réveiller après l'inclusion
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -398,7 +398,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

@@ -11,7 +11,7 @@ Aeotec Minimote
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Minimote
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -35,7 +35,7 @@ paramétrer le réseau Z-Wave.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -46,7 +46,7 @@ Functions
 
 -   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
 
--   Functions marche/arrêt et variation
+-   Fonctions marche/arrêt et variation
 
 -   Fonction ALL ON/ALL OFF
 
@@ -56,18 +56,18 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Contrôleur Z-Wave
 
--   Color : Blanc
+-   Couleur : Blanc
 
 -   Alimentation : batterie interne rechargeable via USB
 
--   Viewing: LED bleue et rouge
+-   Affichage: LED bleue et rouge
 
 -   Fréquence : 868,42MHz
 
@@ -90,7 +90,7 @@ Données du module
 
 -   Fabricant ID : 134
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 3
 
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -143,7 +143,7 @@ Voici la liste des commandes :
 
  \
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -185,7 +185,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -210,7 +210,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

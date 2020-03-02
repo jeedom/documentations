@@ -11,7 +11,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -30,7 +30,7 @@ conservant votre interrupteur existant.
 
 Vous allez donc pouvoir actionner la lampe connectée et faire varier son
 intensité en utilisant l'interrupteur existant, un émetteur Z-Wave ou
-directement depuis le bouton présent sur le micromodule. Er ist
+directement depuis le bouton présent sur le micromodule. Il est
 compatible avec tout type de lampe supportant la variation
 (incandescence, fluo-compact, LED, …​). Le micromodule variateur Fibaro
 est un concentré de technologie, il détecte automatiquement le type de
@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -63,7 +63,7 @@ Funktionen
 
 -   S'installe derrière un interrupteur existant
 
--   Fonction ON/OFF et variation
+-   Fonction ON/OFF et Variation
 
 -   Utilisation en mode 2 fils (neutre pas nécessaire)
 
@@ -77,7 +77,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques Techniques
 
 -   Fusible : 2.5A
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -118,17 +118,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Name : Fibaro FGMS-001 \[Motion Sensor\]
+-   Nom : Fibaro FGMS-001 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
--   Type produit : 256
+-   Type Produit : 256
 
 -   Produit ID : 4106
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -139,7 +139,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Spitze**
+> **Tip**
 >
 > Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure
 > en faisant de nombreux aller retour sur l'interrupteur ou de nombreux
@@ -166,16 +166,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/fibaro.fgd211/commandes.jpg)
+![Commandes](images/fibaro.fgd211/commandes.jpg)
 
  \
 
@@ -184,31 +184,31 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    Licht
+    lumière
 
--   ON : C'est la commande qui permet d'allumer la Licht
+-   On : C'est la commande qui permet d'allumer la lumière
 
--   OFF : C'est la commande qui permet d'éteindre la Licht
+-   Off : C'est la commande qui permet d'éteindre la lumière
 
--   état : C'est la commande qui permet de connaître le statut de la
-    Licht
+-   Etat : C'est la commande qui permet de connaitre le statut de la
+    lumière
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-Symbol
+icone
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: Funktionen ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -315,7 +315,7 @@ interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

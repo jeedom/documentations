@@ -1,6 +1,6 @@
 # Monitoring cloud
 
-## Beschreibung
+## Description
 
 Le monitoring cloud est un service Jeedom SAS payant qui surveille en permanance votre ou vos Jeedoms et vous prévient en cas de soucis.
 
@@ -21,11 +21,11 @@ La liste de ce qui est surveillé évolue pour essayer d'etre le plus réactif/p
 - Charge mémoire
 - Charge SWAP
 - Entrée/Sortie disques
-- Freier Speicherplatz
+- Espace disque libre
 
 Vous êtes aussi prévenu lors d'un redemarrage de votre Jeedom.
 
-# Chronik
+# Historique
 
 Sur le market a partir de votre page profil puis en cliquant sur information dans l'onglet mes service partie service monitoring vous avez toute les données actuel connu sur votre jeedom et vous pouvez en cliquant sur graphique voir l'historique sur les dernieres 24h (nous ne conservons pas plus de données que les dernieres 24h)
 
@@ -39,7 +39,7 @@ Par default vous êtes prévenu par un mail sur votre mail configuré dans votre
 - Ajouter une alerte par SMS (attention cela necessite que vous ayez du crédit SMS sur le market)
 - Ajouter une alerte par Notification (nécessite l'app mobile) 
 
-> **Teleg**
+> **Telegram**
 >
 > Vous pouvez trouver votre chatid a partir de jeedom en allant dans l'équipement telegram puis configuration avancé de la commande du destinataire voulu puis le bouton information et la dans le champs configuration vous avez le chatid
 
@@ -54,15 +54,15 @@ Après avoir ajouté du crédit monitoring cloud, il faut soit attendre quelques
 
 Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. Il faut environ 10min pour qu'il se lance suite à la synchronisation avec le market (clic sur le bouton test).
 
->**Wichtig**
+>**IMPORTANT**
 >
 >Lors de la premiere activation ou réactivation il est possible que vous receviez un mail/telegram/slack/sms vous indiquant que votre Jeedom n'est pas disponible. C'est normal c'est le temps que le Jeedom en question active les services de monitoring.
 
->**Wichtig**
+>**IMPORTANT**
 >
 > Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte
 
->**Wichtig**
+>**IMPORTANT**
 >
 > Pour les notifications il suffit de récupérer l'arn de votre mobile, il se situe dans le plugin mobile, sur votre equipement mobile puis d'accéder à l'onglet "notification" puis copie la ligne "ARN" attention il faut prendre uniquement ce qu'il y a apres "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

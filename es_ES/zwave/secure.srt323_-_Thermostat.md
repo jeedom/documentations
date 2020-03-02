@@ -11,7 +11,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -93,9 +93,9 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x piles AAA (LR3)
 
--   Durée de vie des piles : 2 años
+-   Durée de vie des piles : 2 ans
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -114,17 +114,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nombre : SRT 323 Electronic Room Thermostat and Temperature
+-   Nom : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Fabricant ID : 89
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 4
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut mettre le switch 1 en
 > position ON puis avec la molette afficher L et appuyer sur la molette,
@@ -147,10 +147,10 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
-> réveillez toujours le module juste après l'inclusion. Para hacer esto
+> réveillez toujours le module juste après l'inclusion. Pour ce faire
 > laisser le switch 1 en position ON puis avec la molette mettez vous en
 > position "n" et appuyez sur le bouton. Appuyez une seconde fois apres
 > 10 secondes pour être sûr. Une fois fait, cliquez sur le bouton
@@ -168,16 +168,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/secure.srt323/commandes.jpg)
+![Commandes](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -194,26 +194,26 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   Batería : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **Importante**
+> **Important**
 >
 > Ce module est sur batterie. Donc il est important de noter qu'un
 > changement de consigne sera uniquement pris en compte au reveil. Par
@@ -293,7 +293,7 @@ Note importante
 
  \
 
-> **Importante**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

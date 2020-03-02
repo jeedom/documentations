@@ -1,7 +1,7 @@
 Symptôme 
 ========
 
-Análisis 
+Analyse 
 =======
 
 Résolution 

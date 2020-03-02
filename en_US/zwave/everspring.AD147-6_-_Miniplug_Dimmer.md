@@ -11,7 +11,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -37,7 +37,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -61,7 +61,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -75,11 +75,11 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Viewing: LED sur le bouton
+-   Affichage: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
@@ -96,7 +96,7 @@ Données du module
 
 -   Fabricant ID : 96
 
--   Type produit : 3
+-   Type Produit : 3
 
 -   Produit ID : 3
 
@@ -139,7 +139,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -154,16 +154,16 @@ Voici la liste des commandes :
 -   Intensité : C'est la commande permettant de régler l'intensité de la
     prise
 
--   ON : C'est la commande qui permet d'allumer la prise
+-   On : C'est la commande qui permet d'allumer la prise
 
--   OFF : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la prise
 
--   état : C'est la commande qui permet de connaître le statut de la
+-   Etat : C'est la commande qui permet de connaitre le statut de la
     prise
 
  \
 
-A noter que sur le dashboard, les infos état, ON/OFF, intensité se
+A noter que sur le dashboard, les infos Etat, ON/OFF, Intensité se
 retrouvent sur la même icône.
 
  \
@@ -207,7 +207,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir si la prise fontionnera en mode
     variation ou en mode on/off
 
-### Groups 
+### Groupes 
 
  \
 

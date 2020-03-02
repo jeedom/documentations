@@ -37,7 +37,7 @@ votre télécommande Ematronic.
 Rechercher de l'ID de la télécommande 
 -------------------------------------
 
-Note: les télécommandes Ematronic commencent toujours par : 09 19 03
+Remarque: les télécommandes Ematronic commencent toujours par : 09 19 03
 donc la zone qui nous intéresse démarre de "Test message" : 09 19 03.
 
 Repérer : Id1 et Id2 et ajouter l'hexadecimal suivant : dans mon exemple

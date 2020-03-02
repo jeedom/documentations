@@ -1,4 +1,4 @@
-Everspring Miniplug ON/OFF - AN180-6 
+Everspring Miniplug On/Off - AN180-6 
 ====================================
 
  \
@@ -11,7 +11,7 @@ Everspring Miniplug ON/OFF - AN180-6
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,25 +19,25 @@ Everspring Miniplug ON/OFF - AN180-6
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
 
-La Mini Prise ON/OFF est conçue pour contrôler l'allumage et
+La Mini Prise On/Off est conçue pour contrôler l'allumage et
 l'extinction des luminaires et des équipements électriques de votre
 maison. Avec une tension de 220 - 240 V, cette Prise peut supporter une
 charge jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur,
 fluorescent, Led).
 
-La Mini Prise ON/OFF est un appareil compatible Z-Wave™ qui est destiné
+La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné
 pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
 être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
 contrôleur Z-Wave de votre réseau.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -62,7 +62,7 @@ Funciones
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -77,11 +77,11 @@ Caractéristiques techniques
     : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :
     200W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Visualización: LED sur le bouton
+-   Affichage: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
@@ -94,17 +94,17 @@ Données du module
 
 -   Marque : Everspring
 
--   Nombre : Miniplug ON/OFF
+-   Nom : Miniplug On/Off
 
 -   Fabricant ID : 96
 
--   Type produit : 4
+-   Type Produit : 4
 
 -   Produit ID : 7
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -115,7 +115,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -136,16 +136,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/everspring.AN180-6/commandes.jpg)
+![Commandes](images/everspring.AN180-6/commandes.jpg)
 
  \
 
@@ -153,36 +153,36 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaître le statut de la
-    prise (Allumée/Eteinte)
+-   Etat : C'est la commande qui permet de connaitre le statut de la
+    prise (Allumée/éteinte)
 
--   ON : C'est la commande qui permet d'allumer la prise
+-   On : C'est la commande qui permet d'allumer la prise
 
--   OFF : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la prise
 
  \
 
-A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 la même icône.
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuración" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -203,7 +203,7 @@ Détails des paramètres :
 -   3 : Ce paramètre permet de définir si la prise reprendra son statut
     (ON ou OFF) après une reprise de courant.
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -215,7 +215,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Importante**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

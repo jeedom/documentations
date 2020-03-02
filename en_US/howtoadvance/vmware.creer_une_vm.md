@@ -70,7 +70,7 @@ Selectionnez votre datastore (en general il s'appelle datastore1) :
 
 ![vmware.createvm19](images/vmware.createvm19.PNG)
 
-Cliquez sur "Navigateur de banque de Data" :
+Cliquez sur "Navigateur de banque de données" :
 
 ![vmware.createvm20](images/vmware.createvm20.PNG)
 
@@ -124,7 +124,7 @@ dure, cpu, mémoire…​) :
 > niveau de l'OS ensuite) mais pas la réduire.
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de
-Data" :
+données" :
 
 ![vmware.createvm10](images/vmware.createvm10.PNG)
 

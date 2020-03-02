@@ -11,7 +11,7 @@ Danalock V2 BTZE
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Danalock V2 BTZE
 
  \
 
-Summary 
+Résumé 
 ------
 
  
@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -131,7 +131,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -161,7 +161,7 @@ Données du module
 
 -   Fabricant ID : 010e
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 1
 
@@ -229,7 +229,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -241,14 +241,14 @@ Voici la liste des commandes :
 
  \
 
--   Status : c'est la commande qui remontera la dernière action
+-   Statut : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   To close : c'est la commande qui permet de fermer la serrure
+-   Fermer : c'est la commande qui permet de fermer la serrure
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
@@ -276,7 +276,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -307,7 +307,7 @@ Détails des paramètres :
 -   6 : Désactiver ou activer le signal sonore de verrouillage ou
     déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : Battery type : Réglez le type de batterie qui
+-   7 : Type de batterie : Réglez le type de batterie qui
     alimente l'appareil.
 
 -   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -367,7 +367,7 @@ Bon à savoir
 > Ce module renvoi son état si vous actionnez la serrure à la main
 > l'état sera mis à jour.  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

@@ -64,7 +64,7 @@ Logiciel
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Other
+Autre
 =====
 
 Clef USB/Module d'extension
@@ -94,10 +94,10 @@ Dongle GSM :
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 
-Contrôleur Z-Wave :
+Contrôleur Z-WAVE :
 
 -   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
--   Z-Wave.ME - Mini contrôleur USB Z-Wave Plus UZB1
+-   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
 

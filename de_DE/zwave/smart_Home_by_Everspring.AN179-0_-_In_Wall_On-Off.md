@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall ON OFF - AN179-0 
+SmartHome by Everspring In Wall On Off - AN179-0 
 ================================================
 
  \
@@ -11,7 +11,7 @@ SmartHome by Everspring In Wall ON OFF - AN179-0
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall ON OFF - AN179-0
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -42,7 +42,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -69,7 +69,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -83,11 +83,11 @@ Caractéristiques Techniques
 -   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
     : 1200W Ampoule Fluocompacte : 320W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Anzeigen: LED sur le bouton
+-   Affichage: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -100,17 +100,17 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Name : In Wall ON OFF
+-   Nom : In Wall On Off
 
 -   Fabricant ID : 96
 
--   Type produit : 4
+-   Type Produit : 4
 
 -   Produit ID : 8
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -142,16 +142,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Commandes](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
  \
 
@@ -159,36 +159,36 @@ Voici la liste des commandes :
 
  \
 
--   ON : C'est la commande qui permet d'allumer la Licht
+-   On : C'est la commande qui permet d'allumer la lumière
 
--   OFF : C'est la commande qui permet d'éteindre la Licht
+-   Off : C'est la commande qui permet d'éteindre la lumière
 
--   état : C'est la commande qui permet de connaître le statut de la
-    Licht
+-   Etat : C'est la commande qui permet de connaitre le statut de la
+    lumière
 
  \
 
-A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 le même icone.
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -212,7 +212,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir le type
     d'interrupteur (poussoir/bistable)
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -224,7 +224,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -240,7 +240,7 @@ Bon à savoir
 -   Le retour d'état ne peut pas être configuré en dessous de 3
     secondes.  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

@@ -1,7 +1,7 @@
 Voici un tuto sur comment installer openjabnab en local (sur un rpi ou
 humming)
 
-> **Nota**
+> **Note**
 >
 > Ce tuto est largement inspiré de
 > [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -43,7 +43,7 @@ Le résultat est :
 
 Ici l'adresse IP est la 192.168.0.162.
 
-> **Nota**
+> **Note**
 >
 > Pour toute la suite du tuto j'utiliserai cette IP, elle est bien sûr à
 > remplacer en fonction de celle que vous avez réellement
@@ -110,7 +110,7 @@ Et mettez :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Importante**
+> **Important**
 >
 > Pensez bien à remplacer le 162 de la dernière ligne par la dernière
 > partie de l'ip de votre système
@@ -136,11 +136,11 @@ Vous devriez avoir :
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min/avg/max/mdev = 0.059/0.065/0.069/0.010 ms
 
-> **Nota**
+> **Note**
 >
 > Il faut faire ctrl+c pour quitter le ping
 
-Por sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
+Par sécurité on va aussi ajouter la résolution dans /etc/hosts, faites :
 
     vim /etc/hosts
 
@@ -151,7 +151,7 @@ Et ajoutez :
 Récupération d'openjabnab 
 =========================
 
-On va d'abord créer l'Usuario :
+On va d'abord créer l'utilisateur :
 
     adduser ojn
     cd /home/ojn
@@ -183,7 +183,7 @@ Et ajoutez :
                      Options Indexes FollowSymLinks MultiViews
                      AllowOverride all
                     Order allow,deny
-                     Allow from all
+                     allow from all
              </Directory>
     </VirtualHost>
 
@@ -217,7 +217,7 @@ Faites :
     qmake -r
     make
 
-> **Nota**
+> **Note**
 >
 > Cette étape peut être très longue (jusqu'à 45min)
 
@@ -265,10 +265,10 @@ Maintenant allez sur :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Nota**
+> **Note**
 >
 > Si tout est bon vous devriez avoir les statistique qui apparaissent en
-> bajo
+> bas
 
 Configuration du lapin 
 ======================
@@ -318,10 +318,10 @@ Et ajoutez :
     @reboot /home/ojn/checkojn.sh
     */15 * * * * /home/ojn/checkojn.sh
 
-> **Importante**
+> **Important**
 >
 > Il faut absolument le mettre dans la crontab de root, si vous êtes
-> encore avec l'Usuario ojn faites ctrl+D
+> encore avec l'utilisateur ojn faites ctrl+D
 
 Configuration de votre lapin dans openjabnab 
 ============================================
@@ -335,7 +335,7 @@ Vous devez avoir :
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
 Il faut vous maintenant vous créer un compte en cliquant sur créer un
-Usuario :
+utilisateur :
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
@@ -399,11 +399,11 @@ Mettre le TTS en local
 Tout est local sauf le TTS qui passe par le site Acapela mais il est
 possible en modifiant quelques fichiers de le passer en local
 
-> **Nota**
+> **Note**
 >
 > Je vais considérer que oenjabnab est installé dans
 > /home/ojn/OpenJabNab et que vous êtes connecté en tant que
-> l'Usuario d'openjabnab, ici ojn
+> l'utilisateur d'openjabnab, ici ojn
 
 Création du tts jeedom 
 ----------------------
@@ -549,7 +549,7 @@ Il faut ensuite faire 3 fichiers :
       return ttsHTTPUrl.arg(voice, fileName).toAscii();
     }
 
-> **Nota**
+> **Note**
 >
 > N'oubliez pas de remplacer les TODO
 
@@ -574,7 +574,7 @@ et changer :
 
     TTS=acapela
 
-Por
+Par
 
     TTS=jeedom
 

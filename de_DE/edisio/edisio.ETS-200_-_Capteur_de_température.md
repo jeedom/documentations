@@ -2,11 +2,11 @@
 
 ![ets200.module](images/ets200/ets200.module.jpg)
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
 ![ets200.vue defaut](images/ets200/ets200.vue-defaut.jpg)
 
-Zusammenfassung 
+Résumé 
 ======
 
 Placé dans une pièce, la température de la pièce voulue remontera
@@ -20,7 +20,7 @@ est compact et discret.
 
 L'indicateur LED intégré signal tout changement d'état.
 
-Funktionen 
+Fonctions 
 =========
 
 -   Capteur de température sans fil alimenté par piles
@@ -34,14 +34,14 @@ Funktionen
 
 -   Montage au mur par des vis ou par double face
 
--   Information sur le niveau de la batterie
+-   Informations sur le niveau de la batterie
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ===========================
 
--   Type de module : émetteur Edisio
+-   Type de module : Emetteur Edisio
 
--   Verwendung : En intérieur
+-   Utilisation : En intérieur
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
@@ -62,21 +62,21 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Name : ETS-200
+-   Nom : ETS-200
 
-Allgemeine Konfiguration 
+Configuration générale 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Wichtig**
+> **Important**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **Spitze**
+> **Tip**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -85,7 +85,7 @@ Bouton "E"
 ----------
 
 Vous trouverez dessous le bouton "E" qui est le bouton d'association du
-Capteur de température.
+capteur de température.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
@@ -101,10 +101,10 @@ régler ce paramètre:
 Association du capteur à Jeedom 
 ===============================
 
-L'association du Capteur de température, est un jeu d'enfant. Il suffit
+L'association du capteur de température, est un jeu d'enfant. Il suffit
 d'appuyer sur le bouton "E", situé sous le capteur. Celui-ci sera
 reconnu automatiquement. Placez-le dans un objet, donner lui un nom et
-Speichern.
+sauvegarder.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
@@ -112,13 +112,13 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Befehle 
+Commandes 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Befehle](images/ets200/ets200.commandes.jpg)
+![Commandes](images/ets200/ets200.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -126,21 +126,21 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Information 
+Informations 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-verfügbar :
+disponibles :
 
-![Befehle](images/ets200/ets200.informations.jpg)
+![Commandes](images/ets200/ets200.informations.jpg)
 
--   Schaffung : Indique la date à laquelle l'équipement à été créé
+-   Création : Indique la date à laquelle l'équipement à été créé
 
--   Kommunikation : Indique la dernière communication enregistrée entre
+-   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   STATUS : Retourne le status du module
+-   Status : Retourne le status du module
 
 **@Jamsta**

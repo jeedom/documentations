@@ -11,7 +11,7 @@ MCO MH-S412 Double
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ MCO MH-S412 Double
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -59,14 +59,14 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Récepteur Z-Wave
 
--   Color : Blanc
+-   Couleur : Blanc
 
 -   Alimentation : 230 V, 50 Hz
 
@@ -74,13 +74,13 @@ Caractéristiques Techniques
 
 -   Puissance maximum : 5A (1100W) pour chaque canal
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 30 m
 
 -   Dimensions : 86 x 86 x 43 mm
 
--   Viewing: LED bleue/rouge
+-   Affichage: LED bleue/rouge
 
  \
 
@@ -95,7 +95,7 @@ Données du module
 
 -   Fabricant ID : 351
 
--   Type produit : 16642
+-   Type Produit : 16642
 
 -   Produit ID : 514
 
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -150,7 +150,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -168,7 +168,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

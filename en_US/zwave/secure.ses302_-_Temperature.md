@@ -11,7 +11,7 @@ Secure SES 302 "Température"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SES 302 "Température"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -65,7 +65,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -76,7 +76,7 @@ Caractéristiques Techniques
 
 -   Puce Z-Wave Plus
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -99,7 +99,7 @@ Données du module
 
 -   Fabricant ID : 89
 
--   Type produit : 13
+-   Type Produit : 13
 
 -   Produit ID : 2
 
@@ -140,7 +140,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -154,9 +154,9 @@ Voici la liste des commandes :
 
 -   Température : c'est la commande de mesure de la température
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi available et seront
+Plusieurs températures nons visibles sont aussi disponibles et seront
 utiles si vous avez raccordé des sondes externes
 
  \
@@ -183,7 +183,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -206,7 +206,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -227,7 +227,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

@@ -11,7 +11,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -72,7 +72,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques Techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -109,17 +109,17 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nombre : Garage Door Controller (ZW062)
+-   Nom : Garage Door Controller (ZW062)
 
 -   Fabricant ID : 134
 
--   Type produit : 3
+-   Type Produit : 3
 
 -   Produit ID : 62
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -149,16 +149,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Commandes](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -168,7 +168,7 @@ Voici la liste des commandes :
 
 -   Open/Close : Ouvrir, fermer ou arrêter la porte de garage.
 
--   Posición : Posición actuelle de la porte de garage.
+-   Position : Position actuelle de la porte de garage.
 
 -   Volume : Volume actuel du haut-parleur.
 
@@ -178,17 +178,17 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -219,7 +219,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 

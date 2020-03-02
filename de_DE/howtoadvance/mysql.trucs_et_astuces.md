@@ -1,5 +1,5 @@
 Pas vraiment un howto ici mais plus un recueil de trucs et astuces sur
-MYSQL
+MySQL
 
 Désactiver le performance schéma 
 ================================
@@ -9,19 +9,19 @@ Editez le fichier /etc/mysql/mysql.conf.d/mysqld.cnf et ajoutez dedans :
     [mysqld]
     performance_schema=OFF
 
-Optimiser MYSQL 
+Optimiser MySQL 
 ===============
 
-> **Wichtig**
+> **Important**
 >
 > Cette méthode est à vos risques et périls. En cas de soucis aucun
 > support ne sera possible.
 
--   Arrêtez le démon MYSQL et supprimez les fichiers de log :
+-   Arrêtez le démon MySQL et supprimez les fichiers de log :
 
 <!-- -->
 
-    MYSQL Stop Service
+    service mysql stop
     rm /var/lib/mysql/ib_logfile*
 
 -   Puis faites :
@@ -42,7 +42,7 @@ Optimiser MYSQL
     echo "innodb_flush_log_at_trx_commit = 2" >> /etc/mysql/conf.d/jeedom_my.cnf
     echo "innodb_log_file_size = 32M" >> /etc/mysql/conf.d/jeedom_my.cnf
 
--   Relancez MYSQL :
+-   Relancez MySQL :
 
 <!-- -->
 

@@ -11,7 +11,7 @@ Philio PST02 A - 4 en 1
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio PST02 A - 4 en 1
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -56,7 +56,7 @@ ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande,
 dongle …​) est nécessaire afin d'intégrer ce détecteur dans votre réseau
 si vous avez déjà un réseau existant.  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -85,7 +85,7 @@ Funktionen
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -94,7 +94,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 Jahre
+-   Durée de vie des piles : 2 ans
 
 -   Fréquence : 868.42 MHz
 
@@ -102,7 +102,7 @@ Caractéristiques Techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Helligkeitssensor : 0 à 500 lux
+-   Capteur de luminosité : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -133,17 +133,17 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Name : PST02-A 4 in 1 Multi-Sensor
+-   Nom : PST02-A 4 in 1 Multi-Sensor
 
 -   Fabricant ID : 316
 
--   Type produit : 2
+-   Type Produit : 2
 
 -   Produit ID : 12
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -154,7 +154,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -173,16 +173,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/philio.pst02a/commandes.jpg)
+![Commandes](images/philio.pst02a/commandes.jpg)
 
  \
 
@@ -192,13 +192,13 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Öffnung : c'est la commande qui remontera une détection
+-   Ouverture : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : C'est la commande qui permet de remonter la
+-   Température : c'est la commande qui permet de remonter la
     température
 
--   Luminosité : C'est la commande qui permet de remonter la luminosité
+-   Luminosité : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
@@ -207,11 +207,11 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -220,16 +220,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -271,30 +271,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux Berichts de batterie (une
+-   10: permet de définir la durée entre deux rapports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux Berichts auto d'ouverture
+-   11: permet de définir la durée entre deux rapports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux Berichts auto de
+-   12: permet de définir la durée entre deux rapports auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux Berichts auto de
+-   13: permet de définir la durée entre deux rapports auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    Bericht
+    rapport
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    Bericht Valeur recommandée : 10
+    rapport Valeur recommandée : 10
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -312,7 +312,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -350,7 +350,7 @@ Note importante
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

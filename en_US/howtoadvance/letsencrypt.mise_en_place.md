@@ -1,7 +1,7 @@
 Installation de Letsencrypt 
 ===========================
 
-Voici les Commands à lancer pour installer letsencrypt avant la
+Voici les commandes à lancer pour installer letsencrypt avant la
 génération :
 
     apt-get install -y git
@@ -54,7 +54,7 @@ sont ajoutés par le script dans Apache.
 >
 > Si vous utilisez la méthode de renouvellement automatique ci-dessous,
 > vous pouvez désactiver le virtualHost **default-ssl.conf** avec la
-> Command **a2dissite default-ssl.conf** Pensez à reporter le code par
+> commande **a2dissite default-ssl.conf** Pensez à reporter le code par
 > défaut ci-dessous dans le virtualHost créé par le script de
 > renouvellement :
 > /etc/apache2/sites-available/000-default-le-ssl.conf\`
@@ -70,7 +70,7 @@ sont ajoutés par le script dans Apache.
 Configuration de Nginx 
 ======================
 
-Cette Command n'est à utiliser que si vous disposez d'un serveur web
+Cette commande n'est à utiliser que si vous disposez d'un serveur web
 Nginx.
 
     ./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
@@ -101,12 +101,12 @@ Et enfin redémarrez le serveur Nginx.
 Renouvellement 
 ==============
 
-Le renouvellement se fait avec la Command :
+Le renouvellement se fait avec la commande :
 
     /opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
 Vous recevez un mail automatiquement à l'arrivée de l'échéance du
-certificat qui vous rappellera de lancer cette Command.
+certificat qui vous rappellera de lancer cette commande.
 
 Méthode automatique 
 -------------------

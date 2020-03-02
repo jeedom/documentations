@@ -11,7 +11,7 @@ Aeotec Panic Button
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Panic Button
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -66,7 +66,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -93,17 +93,17 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nombre : Panic Button
+-   Nom : Panic Button
 
 -   Fabricant ID : 134
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 38
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -133,16 +133,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/aeotec.panicbutton/commandes.jpg)
+![Commandes](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   Botones : c'est la commande qui remontera le bouton appuyé
+-   Boutons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
-> **Importante**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -171,11 +171,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -199,11 +199,11 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
-Ce module possède un seul et unique groupe d'association. El es
+Ce module possède un seul et unique groupe d'association. Il est
 indispensable.
 
  \
@@ -264,7 +264,7 @@ Note importante
 
  \
 
-> **Importante**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

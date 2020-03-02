@@ -11,7 +11,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -36,14 +36,14 @@ Ses principales caractéristiques sont :
 -   La possibilité d'envoyer un signal montée / descente en continu sans
     limite de temps.
 
-Be careful: ce module n'envoie pas son état au contrôleur z-wave lorsque
+Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque
 l'utilisateur appuie directement sur les boutons. Il faut faire un
 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
 plus loin).
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -63,7 +63,7 @@ Functions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -74,11 +74,11 @@ Caractéristiques techniques
 
 -   Neutre nécessaire
 
--   Charge maxi : 1800W (résistif), 460VA (inductif)
+-   Charge Maxi : 1800W (résistif), 460VA (inductif)
 
 -   Fusible : T8AH
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Dimensions : 52 x 52 x 31mm
 
@@ -97,13 +97,13 @@ Données du module
 
 -   Fabricant ID : 100
 
--   Type Produit : 16385
+-   Type produit : 16385
 
 -   Produit ID : 0
 
  \
 
-Connection 
+Connexion 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -153,17 +153,17 @@ Voici la liste des commandes :
 
  \
 
--   état : c'est la position actuelle du volet, en pourcentage de 0 à 99
+-   Etat : c'est la position actuelle du volet, en pourcentage de 0 à 99
 
 -   Descendre : commande pour descendre complètement
 
 -   Monter : commande pour monter complètement
 
--   STOP : arrêt immédiat du mouvement
+-   Stop : arrêt immédiat du mouvement
 
 -   Rafraîchir : rafraichîr l'état actuel du module
 
--   Level : slider pour positionner une ouverture partielle
+-   Niveau : slider pour positionner une ouverture partielle
 
  \
 
@@ -201,7 +201,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -224,15 +224,15 @@ et la seconde pour la descente.
 Les valeurs sont codées en héxadécimal dans le module et remises en
 décimal dans l'affichage de Jeedom.
 
-For example : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
+Par exemple : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
 pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
 décimal : 18s pour montée et descente.
 
 A noter : forcer une valeur à zéro pour ce paramètre impliquera que le
 module commutera sur montée ou descente sans limite de temps. Il faudra
-alors envoyer un 'STOP' pour interrompre.
+alors envoyer un 'Stop' pour interrompre.
 
--   1 : STOP-functionnality : Enabled ou Disabled :
+-   1 : Stop-functionnality : Enabled ou Disabled :
 
 Sert à indiquer si un appui dans la direction opposée pendant un
 déplacement stoppe le volet ou le renvoie immédiatement dans le sens
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-Groups.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
  \
 
@@ -273,7 +273,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -281,7 +281,7 @@ Bon à savoir
 
 > **Tip**
 >
-> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "état". Ce
+> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "Etat". Ce
 > widget est sympa car il montre les états 'partiellement ouvert'.
 
 **@Theduck38**

@@ -1,10 +1,10 @@
-**Documentation fichier Info.json**
+**Documentation fichier info.json**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **Info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
+Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
 
-Le fichier Info.json est enregistré dans le dossier /plugin_Info/ de votre plugin.
+Le fichier info.json est enregistré dans le dossier /plugin_info/ de votre plugin.
 
-Liste des variables du fichier Info.json
+Liste des variables du fichier info.json
 
 Les champs marqués d'un * sont des champs obligatoires.
 
@@ -15,7 +15,7 @@ name *                   | Nom du plugin.                                       
 description *            | Description du plugin, tel qu'il s'affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
 usage                    | Informations complémentaires à la documentation sur l'usage du plugin.                                                    |
 licence *                | Type de licence.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
+author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
 category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
 display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
@@ -31,16 +31,16 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Temps maximum imparti pour l'installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
-**Beispiel** :
+**Exemple** :
 
-[Fichier plugin-template/plugin_Info/Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
+[Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Market Jeedom         | Info.json               |
+Market Jeedom         | info.json               |
 --------------------- | ----------------------- |
 Communication         | communication           |
 Confort               | wellness                |

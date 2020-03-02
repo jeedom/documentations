@@ -11,7 +11,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-Zusammenfassung 
+Résumé 
 ------
 
  \
@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-Funktionen 
+Fonctions 
 ---------
 
  \
@@ -46,14 +46,14 @@ Funktionen
 
 -   Contrôle à micro-chips.
 
--   Élément d\`exécution: Relais.
+-   Élément d\`exécution: relais.
 
 -   Mesure de puissance active du courant et de l\`énergie électrique
     du récepteur.
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -87,17 +87,17 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Name : Wall Plug FGWPE-101
+-   Nom : Wall Plug FGWPE-101
 
 -   Fabricant ID : 271
 
--   Type produit : 1536
+-   Type Produit : 1536
 
 -   Produit ID : 4096
 
  \
 
-Konfiguration 
+Configuration 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Wichtig**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -127,16 +127,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Befehle 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-verfügbar.
+disponibles.
 
  \
 
-![Befehle](images/fibaro.fgwpe101/commandes.jpg)
+![Commandes](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -144,14 +144,14 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaitre le statut de la
+-   Etat : C'est la commande qui permet de connaître le statut de la
     prise
 
--   ON : C'est la commande qui permet d'allumer la prise
+-   On : C'est la commande qui permet d'allumer la prise
 
--   OFF : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la prise
 
--   Macht : C'est la commande qui remonte la puissance instatanée
+-   Puissance : C'est la commande qui remonte la puissance instatanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale
@@ -163,22 +163,22 @@ en un seul bouton.
 
  \
 
-### Konfiguration du module 
+### Configuration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### Gruppen 
+### Groupes 
 
  \
 
@@ -276,7 +276,7 @@ PressButton.
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

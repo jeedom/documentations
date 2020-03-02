@@ -11,7 +11,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -74,7 +74,7 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -93,11 +93,11 @@ Caractéristiques Techniques
 
 -   Ampoule Fluocompacte : 200W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Visualización: LED sur le bouton
+-   Affichage: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -110,17 +110,17 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Nombre : In Wall Dimmer
+-   Nom : In Wall Dimmer
 
 -   Fabricant ID : 96
 
--   Type produit : 3
+-   Type Produit : 3
 
 -   Produit ID : 2
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -131,7 +131,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -152,16 +152,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Commandes](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
  \
 
@@ -170,38 +170,38 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    Iluminación
+    lumière
 
--   ON : C'est la commande qui permet d'allumer la Iluminación
+-   On : C'est la commande qui permet d'allumer la lumière
 
--   OFF : C'est la commande qui permet d'éteindre la Iluminación
+-   Off : C'est la commande qui permet d'éteindre la lumière
 
--   état : C'est la commande qui permet de connaitre le statut de la
-    Iluminación
+-   Etat : C'est la commande qui permet de connaître le statut de la
+    lumière
 
  \
 
-A noter que sur le dashboard, les infos état, ON/OFF, intensité se
+A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se
 retrouvent sur le même icone.
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuración" du
+installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -228,7 +228,7 @@ Détails des paramètres :
 -   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
     mode variation ou en mode on/off
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -240,7 +240,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Importante**
+> **Important**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 -   Le retour d'état ne peut pas être configuré en dessous de 3
     secondes.  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

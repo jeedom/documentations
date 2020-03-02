@@ -11,7 +11,7 @@ Secure SIR 321 "Timer"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SIR 321 "Timer"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -59,7 +59,7 @@ Functions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Données du module
 
 -   Fabricant ID : 89
 
--   Type produit : 1/2 (en fonction de si il est inclus avec une sonde
+-   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde
     de température ou non)
 
  \
@@ -131,7 +131,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -143,9 +143,9 @@ Voici la liste des commandes :
 
  \
 
--   ON : c'est la commande permettant d'allumer le relais
+-   On : c'est la commande permettant d'allumer le relais
 
--   OFF : c'est la commande permettant d'éteindre le relais
+-   Off : c'est la commande permettant d'éteindre le relais
 
 -   Température : c'est la commande de mesure de la température si une
     sonde externe est présente
@@ -166,7 +166,7 @@ Si vous voulez configurer le module il faut passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

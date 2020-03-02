@@ -11,7 +11,7 @@ Fibaro FGR-222 "Volet roulant"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGR-222 "Volet roulant"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -47,7 +47,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -75,7 +75,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -90,9 +90,9 @@ Caractéristiques Techniques
 
 -   Charge maxi : 1000W
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
--   Power du signal : 1mW
+-   Puissance du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -117,7 +117,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type produit : 770
+-   Type Produit : 770
 
 -   Produit ID : 4096
 
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
  \
 
--   état : C'est la commande qui permet de connaître la position de
+-   Etat : C'est la commande qui permet de connaître la position de
     votre volet
 
 -   Positionnement : C'est la commande qui permet de définir le
@@ -185,7 +185,7 @@ Voici la liste des commandes :
 -   Rafraîchir : C'est la commande qui permet de redemander la position
     du volet
 
--   Power : Commande permettant d'avoir la consommation du module
+-   Puissance : Commande permettant d'avoir la consommation du module
 
 -   Consommation : Commande permettant de connaître la puissance
     instantanée utilisée par le module
@@ -199,7 +199,7 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   Not : Permet de définir le pas pour un appui sur Décliner ou
+-   Pas : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
@@ -254,7 +254,7 @@ Détails des paramètres :
 -   14: permet de choisir le type d'interrupteur
 
 -   17: permet de choisir combien de temps après la limite définit en 18
-    le volet s'arrete
+    le volet s'arrête
 
 -   18: puissance de sécurité pour le moteur
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -325,7 +325,7 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-Not de notion de wakeup sur ce module.
+Pas de notion de wakeup sur ce module.
 
  \
 

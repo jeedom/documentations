@@ -11,7 +11,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -41,7 +41,7 @@ aussi d'une entrée filaire, il peut ainsi être utilisé comme un
 transmetteur universel : laissez de côté son contact magnétique, et
 reliez ses entrées à vis à tout détecteur (normalement fermé) de votre
 choix tel qu'un détecteur de fumée, de gaz ou de monoxyde de carbone,
-Etc..
+etc.
 
 Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
 d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
@@ -49,7 +49,7 @@ existant.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -73,18 +73,18 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Emetteur Z-Wave
 
--   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
+-   Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
 -   Alimentation : Pile ER14250 (1/2AA) 3,6V
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -105,7 +105,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type produit : 1792
+-   Type Produit : 1792
 
 -   Produit ID : 4096
 
@@ -146,7 +146,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
--   état : c'est la commande qui remontera l'état ouvert ou fermé du
+-   Etat : c'est la commande qui remontera l'état ouvert ou fermé du
     module
 
--   Drums : c'est la commande qui permet de remonter l'état de la
-    drums
+-   Batterie : c'est la commande qui permet de remonter l'état de la
+    batterie
 
  \
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -264,7 +264,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 
@@ -299,7 +299,7 @@ l'inclusion au plus proche de votre box.
 
  \
 
-Ce module est un module sur drums, la nouvelle configuration sera
+Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
  \

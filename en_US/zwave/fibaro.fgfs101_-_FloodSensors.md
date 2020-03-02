@@ -11,7 +11,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -53,7 +53,7 @@ assure du bon fonctionnement du capteur lors de son installation.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -72,7 +72,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -81,9 +81,9 @@ Caractéristiques Techniques
 
 -   Module pouvant être alimenté en externe : 12 – 24 VDC
 
--   Battery type : CR123A
+-   Type de batterie : CR123A
 
--   Autonomie de la batterie : 2 years
+-   Autonomie de la batterie : 2 ans
 
 -   Consommation sur alimentation externe : 0,4W
 
@@ -91,7 +91,7 @@ Caractéristiques Techniques
 
 -   Tension maximale supportée en sortie : 40V (AC ou DC)
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -115,13 +115,13 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Model : FGFS101 Flood Sensor
+-   Modèle : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
 -   Fabricant ID : 271
 
--   Type produit : 2816
+-   Type Produit : 2816
 
 -   Produit ID : 4097
 
@@ -163,7 +163,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -183,7 +183,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
@@ -230,7 +230,7 @@ Détails des paramètres :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     s'arrête instantanément)
 
--   2\. Choix du type d'alarme. Value :
+-   2\. Choix du type d'alarme. Valeur :
 
         0 : Alarme sonore et visuelle désactivée
         1 : Alarme sonore désactivée et visuelle activée
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 

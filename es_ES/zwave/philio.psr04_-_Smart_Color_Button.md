@@ -11,7 +11,7 @@ Philio Smart Color Button
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio Smart Color Button
 
  \
 
-Resumen 
+Résumé 
 ------
 
  \
@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-Funciones 
+Fonctions 
 ---------
 
  \
@@ -68,13 +68,13 @@ Funciones
 
 -   S'adapte à tout style de décoration
 
--   Batería rechargeable
+-   Batterie rechargeable
 
 -   Très faible consommation d'énergie
 
 -   Longue durée de vie de la batterie (6 mois par charge)
 
--   Apoyo magnétique
+-   Support magnétique
 
 -   LED d'indication RGBW
 
@@ -82,12 +82,12 @@ Funciones
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
--   Alimentation : Batería Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
@@ -100,8 +100,8 @@ Caractéristiques Techniques
 
 -   Dimensions :
 
-Apoyo : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) Apoyo + Bouton : 71,16 x 17,22 mm (diamétre
+Support : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
+mm (diamétre x épaisseur) Support + Bouton : 71,16 x 17,22 mm (diamétre
 x épaisseur) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
@@ -116,17 +116,17 @@ Données du module
 
 -   Marque : Philio
 
--   Nombre : PSR04 Smart Color Button
+-   Nom : PSR04 Smart Color Button
 
 -   Fabricant ID : 316
 
--   Type produit : 9
+-   Type Produit : 9
 
 -   Produit ID : 34
 
  \
 
-Configuración 
+Configuration 
 -------------
 
  \
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Importante**
+> **Important**
 >
 > Pour mettre ce module en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
@@ -157,16 +157,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Comandos 
+### Commandes 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponible.
+disponibles.
 
  \
 
-![Comandos](images/philio.psr04/commandes.jpg)
+![Commandes](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -174,19 +174,19 @@ Voici la liste des commandes :
 
  \
 
--   état : c'est la commande qui remontera la position du bouton de 0 à
+-   Etat : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   Batería : c'est la commande qui remonte l'état de batterie du
+-   Batterie : c'est la commande qui remonte l'état de batterie du
     module
 
  \
 
-### Configuración du module 
+### Configuration du module 
 
  \
 
-> **Importante**
+> **Important**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,16 +195,16 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+"Configuration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### Grupos 
+### Groupes 
 
  \
 
@@ -289,7 +289,7 @@ Note importante
 
  \
 
-> **Importante**
+> **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

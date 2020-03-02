@@ -11,7 +11,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -39,7 +39,7 @@ Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
 Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. If the
+détecteur de fumée sous la forme d'un capteur de température. Si la
 quantité de fumée n'est pas suffisante pour déclencher l'alarme,
 l'appareil sera toujours en mesure de détecter une menace en détectant
 un changement rapide de la température causée par le feu. Un changement
@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -80,18 +80,18 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : Drums Lithium 3V CR123A
+-   Alimentation : Batterie Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 years
+-   Autonomie de la batterie : 3 ans
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -127,7 +127,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type produit : 3074
+-   Type Produit : 3074
 
 -   Produit ID : 4098
 
@@ -168,7 +168,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -194,7 +194,7 @@ Voici la liste des commandes :
 -   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
     (pas fiable encore)
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
@@ -252,9 +252,9 @@ Détails des paramètres :
 -   10: ne pas changer ce paramètre sauf si vous savez ce que vous
     faites
 
--   11: Same
+-   11: idem
 
--   12: Same
+-   12: idem
 
 -   13: permet de notifier d'autres modules zwave (à désactiver sauf si
     vous savez pourquoi vous l'activez)
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
@@ -294,7 +294,7 @@ Bon à savoir
 
  \
 
-### Visuel Alternatif 
+### Visuel alternatif 
 
  \
 

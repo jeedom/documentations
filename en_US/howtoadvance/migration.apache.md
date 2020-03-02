@@ -1,4 +1,4 @@
-Why ? 
+Pourquoi ? 
 ==========
 
 -   Apache va devenir petit à petit la norme avec Jeedom
@@ -31,14 +31,14 @@ Prérequis
 > Attention certains plugins non officiels ne sont pas compatibles
 > Apache, renseignez-vous bien avant.
 
-How to do 
+Comment faire 
 =============
 
 Désactivation des services Jeedom et nginx 
 ------------------------------------------
 
 Dans Jeedom, il faut aller sur chaque plugin ayant un démon, puis
-désactiver la gestion automatique du démon et couper celui-ci. It is necessary
+désactiver la gestion automatique du démon et couper celui-ci. Il faut
 ensuite, dans le moteur de tâches, désactiver toutes les tâches (il y un
 bouton de désactivation générale) et dans les scénarios, désactiver tous
 les scénarios (il y un bouton de désactivation générale).
@@ -89,7 +89,7 @@ PAS FAIRE LA SUITE.
 Mise à jour de la crontab 
 -------------------------
 
-MAKE :
+Faire :
 
     crontab -e
 
@@ -97,7 +97,7 @@ Puis mettre à jour le chemin d'accès à Jeedom, remplacer :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /usr/share/nginx/www/jeedom/core/php/jeeCron.php' >> /dev/null 2>&1
 
-By :
+Par :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /var/www/html/core/php/jeeCron.php' >> /dev/null 2>&1
 

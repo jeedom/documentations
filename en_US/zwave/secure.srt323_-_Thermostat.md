@@ -11,7 +11,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-Summary 
+Résumé 
 ------
 
  \
@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-Functions 
+Fonctions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Functions
 
  \
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ---------------------------
 
  \
@@ -93,9 +93,9 @@ Caractéristiques Techniques
 
 -   Alimentation : 2x piles AAA (LR3)
 
--   Durée de vie des piles : 2 years
+-   Durée de vie des piles : 2 ans
 
--   Fréquence : 868,42 MHz
+-   Fréquence : 868,42 Mhz
 
 -   Portée : jusqu'à 50 m en champ libre
 
@@ -118,7 +118,7 @@ Données du module
 
 -   Fabricant ID : 89
 
--   Type produit : 1
+-   Type Produit : 1
 
 -   Produit ID : 4
 
@@ -173,7 +173,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-available.
+disponibles.
 
  \
 
@@ -194,7 +194,7 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   Drums : c'est la commande batterie
+-   Batterie : c'est la commande batterie
 
  \
 
@@ -213,7 +213,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+paramètres)
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### Groups 
+### Groupes 
 
  \
 
