@@ -72,6 +72,10 @@
         "tous les \/var\/www\/html par \/usr\/share\/nginx\/www\/jeedom": "tous les \/var\/www\/html par \/usr\/share\/nginx\/www\/jeedom"
     },
     "howto\/mini.clef_wifi.md": {
+        "sudo lsmod": "sudo lsmod",
+        "grep 8192cu": "grep 8192cu",
+        "sudo lsusb": "sudo lsusb",
+        "grep Edimax": "grep Edimax",
         "Objectif": "Objectif",
         "Voici, au cas où, une procédure de bout en bout pour installer une clé": "Voici, au cas où, une procédure de bout en bout pour installer une clé",
         "WiFi de type \"Edimax ew-7811n\" sur une Jeedom Mini, et en considérant": "WiFi de type \"Edimax ew-7811n\" sur une Jeedom Mini, et en considérant",
@@ -374,6 +378,8 @@
         "notre part": "notre part"
     },
     "howto\/raspberrypi3.md": {
+        "vcgencmd otp_dump": "vcgencmd otp_dump",
+        "grep 17": "grep 17",
         "Objectif": "Objectif",
         "Vous trouverez ici la documentation pour installer Jeedom sur un": "Vous trouverez ici la documentation pour installer Jeedom sur un",
         "raspberry PI 3": "raspberry PI 3",

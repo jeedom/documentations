@@ -167,6 +167,7 @@
         "Il ne vous reste plus qu'à installer Jeedom en suivant": "Il ne vous reste plus qu'à installer Jeedom en suivant"
     },
     "howtoadvance\/debian.trucs_et_astuces.md": {
+        "apt -y remove `aptitude -F %p search '~o": "apt -y remove `aptitude -F %p search '~o",
         "Paquets utiles": "Paquets utiles",
         "Voici quelques paquets utiles à mettre sur une installation vierge": "Voici quelques paquets utiles à mettre sur une installation vierge",
         "fail2ban": "fail2ban",
@@ -514,6 +515,10 @@
         "bean-io -g": "bean-io -g"
     },
     "howtoadvance\/installation.openjabnab.md": {
+        "if [ $(ps ax": "if [ $(ps ax",
+        "grep openjabnab": "grep openjabnab",
+        "grep -v grep": "grep -v grep",
+        "wc -l) -eq 0 ]; then": "wc -l) -eq 0 ]; then",
         "Voici un tuto sur comment installer openjabnab en local (sur un rpi ou": "Voici un tuto sur comment installer openjabnab en local (sur un rpi ou",
         "humming)": "humming)",
         "Note": "Note",
@@ -1194,6 +1199,11 @@
         "Dans la page Réseau Jeedom, supprimer l'ancien": "Dans la page Réseau Jeedom, supprimer l'ancien"
     },
     "howtoadvance\/karotz.utiliser_un_autre_moteur_de_voix.md": {
+        "echo $( echo \"$RAW_TTS": "echo $( echo \"$RAW_TTS",
+        "UrlDecode)  > $CNF_DATADIR\/Tmp\/${MD5FILE}.txt": "UrlDecode)  > $CNF_DATADIR\/Tmp\/${MD5FILE}.txt",
+        "MD5FILE=$(echo \"$TTS": "MD5FILE=$(echo \"$TTS",
+        "md5sum": "md5sum",
+        "cut -d ' ' -f 1)": "cut -d ' ' -f 1)",
         "Se connecter en telnet": "Se connecter en telnet",
         "Il faut tout d'abord se connecter en telnet (port 23) sur openkarotz": "Il faut tout d'abord se connecter en telnet (port 23) sur openkarotz",
         "l'identifiant étant kartoz": "l'identifiant étant kartoz",
@@ -1647,6 +1657,7 @@
         "A compléter": "A compléter"
     },
     "howtoadvance\/utilisation.emoncms.md": {
+        "php(\/": "php(\/",
         "EmonCMS est une application PHP de supervision de l'énergie (Emon": "EmonCMS est une application PHP de supervision de l'énergie (Emon",
         "Energy Monitor)": "Energy Monitor)",
         "Pour ce qui concerne le partage de données entre Jeedom et EmonCMS (dans": "Pour ce qui concerne le partage de données entre Jeedom et EmonCMS (dans",

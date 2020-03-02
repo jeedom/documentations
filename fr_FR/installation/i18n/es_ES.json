@@ -1,5 +1,7 @@
 {
     "installation\/index.md": {
+        "sh": "sh",
+        "sudo bash": "sudo bash",
         "Hardware": "Hardware",
         "Jeedom peut être installé sur différents composants hardware": "Jeedom peut être installé sur différents composants hardware",
         "un Raspberry pi 2 ou 3": "un Raspberry pi 2 ou 3",
