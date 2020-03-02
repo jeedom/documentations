@@ -11,7 +11,7 @@ PolyLock
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ PolyLock
 
  \
 
-Résumé 
+Summary 
 ------
 
  
@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -71,14 +71,14 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
     bâtiments
@@ -100,7 +100,7 @@ Données du module
 
 -   Fabricant ID : 270
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 1
 
@@ -141,7 +141,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -153,14 +153,14 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   To close : c'est la commande qui permet de fermer la serrure
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -188,7 +188,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -270,7 +270,7 @@ Bon à savoir
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la
 > main l'état restera le même.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

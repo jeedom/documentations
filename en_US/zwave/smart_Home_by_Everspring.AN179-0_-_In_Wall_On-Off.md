@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall On Off - AN179-0 
+SmartHome by Everspring In Wall ON OFF - AN179-0 
 ================================================
 
  \
@@ -11,7 +11,7 @@ SmartHome by Everspring In Wall On Off - AN179-0
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall On Off - AN179-0
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -42,7 +42,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -69,7 +69,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -83,11 +83,11 @@ Caractéristiques techniques
 -   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
     : 1200W Ampoule Fluocompacte : 320W
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Viewing: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -100,11 +100,11 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Nom : In Wall On Off
+-   Nom : In Wall ON OFF
 
 -   Fabricant ID : 96
 
--   Type Produit : 4
+-   Type produit : 4
 
 -   Produit ID : 8
 
@@ -147,7 +147,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -159,16 +159,16 @@ Voici la liste des commandes :
 
  \
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    lumière
+-   état : C'est la commande qui permet de connaître le statut de la
+    Light
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
 le même icone.
 
  \
@@ -188,7 +188,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -212,7 +212,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir le type
     d'interrupteur (poussoir/bistable)
 
-### Groupes 
+### Groups 
 
  \
 
@@ -240,7 +240,7 @@ Bon à savoir
 -   Le retour d'état ne peut pas être configuré en dessous de 3
     secondes.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

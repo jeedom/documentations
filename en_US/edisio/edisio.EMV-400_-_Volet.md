@@ -2,16 +2,16 @@
 
 ![module](images/emv.400/module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![vue default](images/emv.400/vue_default.jpg)
 
-Résumé 
+Summary 
 ======
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur
 bidirectionnel ou des appareillages électriques. Il permet le contrôle
-de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
+de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/STOP/Fermer.
 
 De plus, l'interaction avec d'autres protocoles est possible, il est
 contrôlable par des interrupteurs et/ou télécommandes de la marque
@@ -24,13 +24,13 @@ d'assurer une couverture totale de votre habitation.
 
 Pour finir, chaque module peut être utilisé en mode déporté, c'est très
 pratique car cela permet d'associer un émetteur sans devoir accéder au
-récepteur.
+recepteur.
 
 > **Important**
 >
 > Le neutre est nécessaire que pour le mode "Volet"
 
-Fonctions 
+Functions 
 =========
 
 -   2 sorties par relais alimentées
@@ -38,7 +38,7 @@ Fonctions
 -   S'installe dans une boite d'encastrement de 55mm ou directement dans
     les caissons des ouvrants
 
--   Mode d'usage: Marche/Arrêt, Ouvrir/Stop/Fermer
+-   Mode d'usage: Marche/Arrêt, Ouvrir/STOP/Fermer
 
 -   Compatible avec les moteurs à fin de course électronique et
     mécanique
@@ -55,9 +55,9 @@ Fonctions
 
 -   Petit, discret et esthétique
 
--   Facilité d'utilisation et d'installation
+-   Facilité d'utilisation et d'Installation
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
 -   Type de module: Récepteur Edisio
@@ -89,7 +89,7 @@ Données du module
 
 -   Nom : EMV-400
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -103,7 +103,7 @@ référez-vous à cette
 
 > **Important**
 >
-> A l'inverse, les récepteurs Edisio sont à créer manuellement dans
+> A l'inverse, les recepteurs Edisio sont à créer manuellement dans
 > Jeedom.
 
 DIP Switch et bouton "R" : 
@@ -119,10 +119,10 @@ DIP Switch et bouton "R" :
 > **Note**
 >
 > Afin d'éviter des redondances inutiles, ne jamais activer le mode
-> "Répéteur" sur tous les récepteurs, 5 récepteurs au maximum par
-> installation.
+> "Répéteur" sur tous les recepteurs, 5 recepteurs au maximum par
+> Installation.
 
--   Le bouton "R", va permettre d'associer un émetteur au récepteur,
+-   Le bouton "R", va permettre d'associer un émetteur au recepteur,
     d'activer ou désactiver la fonction minuterie et d'activer le mode
     déporté :
 
@@ -173,16 +173,16 @@ Configuration et raccordements électriques :
 > **Important**
 >
 > Afin que le module soit en mode "Volet" le DIP Switch 2 doit être en
-> bas
+> Low
 
 > **Important**
 >
 > NE JAMAIS BRANCHER SOUS TENSION
 
-Création du module dans Jeedom 
+Creation du module dans Jeedom 
 ------------------------------
 
-Pour associer un module récepteur Edisio à Jeedom, il faut créer
+Pour associer un module recepteur Edisio à Jeedom, il faut créer
 manuellement un équipement.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -210,11 +210,11 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Etat : C'est la commande qui permet de simuler le retour d'état
+-   état : C'est la commande qui permet de simuler le retour d'état
 
 -   Monter : C'est la commande qui permet d'ouvrir le volet
 
--   Stop : C'est la commande qui permet de stopper le mouvement du volet
+-   STOP : C'est la commande qui permet de stopper le mouvement du volet
 
 -   Descendre : C'est la commande qui permet de fermer le volet
 
@@ -224,34 +224,34 @@ Voici la liste des commandes :
 >
 > Le retour d'état est simulé par Jeedom. Par conséquent, si vous
 > utilisez un autre émetteur, Jeedom ne pourra pas mettre à jour l'état
-> du récepteur.
+> du recepteur.
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
 ![Commandes](images/emv.400/infos_moteur.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie pour les modules à piles
+-   Drums : Indique l'état de la batterie pour les modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 Association du micromodule à Jeedom 
 ===================================
 
 Afin que vous puissiez interagir avec Jeedom, comme si c'était un
-émetteur Edisio.
+Emetteur Edisio.
 
 > **Note**
 >
-> Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir
+> Un des gros avantages d'Edisio, c'est qu'un recepteur peut avoir
 > plusieurs émetteurs associés
 
 Méthode standard 
@@ -261,31 +261,31 @@ Chaque sortie est à associer à une commande Jeedom:
 
 -   Associer la sortie 1 :
 
-    -   Appuyez 1x sur le "R" du récepteur, simple bip sonore (court
+    -   Appuyez 1x sur le "R" du recepteur, simple bip sonore (court
         en répétition) signale la programmation de la sortie 1 activée.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "Ouvrir"
         dans Jeedom, un bip sonore en continu signale l'association de
         la sortie 1 à Jeedom.
 
-    -   Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour
+    -   Dans les 10 sec, appuyez à nouveau sur "R" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
 
 -   Associer la sortie 2 :
 
-    -   Appuyez 2x sur le "R" du récepteur, double bip sonore (court
+    -   Appuyez 2x sur le "R" du recepteur, double bip sonore (court
         en répétition) signale la programmation de la sortie 2 activée.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "Fermer"
         dans Jeedom, un bip sonore en continu signale l'association de
         la sortie 2 à Jeedom.
 
-    -   Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour
+    -   Dans les 10 sec, appuyez à nouveau sur "R" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
 
 > **Note**
 >
-> Il n'y a pas besoin d'associer la commande "Stop", celle-ci se fait
+> Il n'y a pas besoin d'associer la commande "STOP", celle-ci se fait
 > automatiquement.
 
 Méthode déportée 
@@ -294,23 +294,23 @@ Méthode déportée
 Nous en avons parlé au début de cette documentation, dans le cas de
 modules déjà encastrés dans les faux-plafonds ou même les combles. Cette
 méthode permet l'ajout d'un nouvel émetteur sans accéder au "R" du
-récepteur.
+recepteur.
 
 -   Associer le bouton "R" :
 
-    -   Appuyez 3x sur "R" du récepteur, triple bip sonore (court
+    -   Appuyez 3x sur "R" du recepteur, triple bip sonore (court
         en répétition) signale le mode de programmation activé.
 
     -   Dans les 10 sec, appuyez sur "Tester" de la commande "E" dans
         Jeedom, un bip sonore en continu signale l'association à Jeedom.
 
-    -   Dans les 10 sec, appuyez à nouveau sur "E" du récepteur, pour
+    -   Dans les 10 sec, appuyez à nouveau sur "E" du recepteur, pour
         valider l'association, le bip sonore s'arrête.
 
 C'est fait, votre Jeedom est à présent associé et sa commande "E"
-remplace désormais le bouton "R" du récepteur.
+remplace désormais le bouton "R" du recepteur.
 
--   Associer un nouvel émetteur à un récepteur avec Jeedom déjà associé
+-   Associer un nouvel émetteur à un recepteur avec Jeedom déjà associé
     :
 
     -   Sortie 1 :
@@ -344,9 +344,9 @@ remplace désormais le bouton "R" du récepteur.
 > **Note**
 >
 > Vous pouvez recommencer autant de fois que vous voulez associer
-> d'émetteurs au récepteur
+> d'émetteurs au recepteur
 
-Visuel alternatif 
+Visuel Alternatif 
 =================
 
 ![vue alt moteur](images/emv.400/vue_alt_moteur.jpg)
@@ -354,11 +354,11 @@ Visuel alternatif
 F.A.Q. 
 ======
 
-Comment effacer la mémoire du récepteur ?
+Comment effacer la mémoire du recepteur ?
 
 :   Appuyez et maintenez 10 sec sur le "R", jusqu'au bip sonore continu.
 
-Comment piloter le récepteur via un émetteur Z-Wave?
+Comment piloter le recepteur via un émetteur Z-Wave?
 
 :   Avec le plugin Scénario de Jeedom.
 

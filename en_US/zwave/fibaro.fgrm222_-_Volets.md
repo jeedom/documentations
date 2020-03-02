@@ -11,7 +11,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -47,7 +47,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -75,7 +75,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,9 +90,9 @@ Caractéristiques techniques
 
 -   Charge maxi : 1000W
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
--   Puissance du signal : 1mW
+-   Power du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -117,7 +117,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 769
+-   Type produit : 769
 
 -   Produit ID : 4097
 
@@ -158,7 +158,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître la position de
+-   état : C'est la commande qui permet de connaître la position de
     votre volet
 
 -   Positionnement : C'est la commande qui permet de définir le
@@ -185,7 +185,7 @@ Voici la liste des commandes :
 -   Rafraichir : C'est la commande qui permet de redemander la position
     du volet
 
--   Puissance : Commande permettant d'avoir la consommation du module
+-   Power : Commande permettant d'avoir la consommation du module
 
 -   Consommation : Commande permettant de connaître la puissance
     instantanée utilisée par le module
@@ -199,7 +199,7 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   Pas : Permet de définir le pas pour un appui sur Décliner ou
+-   Not : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
@@ -219,7 +219,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -325,7 +325,7 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-Pas de notion de wakeup sur ce module.
+Not de notion de wakeup sur ce module.
 
  \
 

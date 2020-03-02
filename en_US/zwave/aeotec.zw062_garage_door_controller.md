@@ -11,7 +11,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -72,7 +72,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques techniques
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 300m en champ libre
 
@@ -113,7 +113,7 @@ Données du module
 
 -   Fabricant ID : 134
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 62
 
@@ -154,7 +154,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -219,7 +219,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

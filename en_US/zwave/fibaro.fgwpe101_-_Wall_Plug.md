@@ -11,7 +11,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -46,14 +46,14 @@ Fonctions
 
 -   Contrôle à micro-chips.
 
--   Élément d\`exécution: relais.
+-   Élément d\`exécution: Relais.
 
 -   Mesure de puissance active du courant et de l\`énergie électrique
     du récepteur.
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -91,7 +91,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 1536
+-   Type produit : 1536
 
 -   Produit ID : 4096
 
@@ -132,7 +132,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -144,14 +144,14 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
+-   état : C'est la commande qui permet de connaitre le statut de la
     prise
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instatanée
+-   Power : C'est la commande qui remonte la puissance instatanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale
@@ -178,7 +178,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -276,7 +276,7 @@ PressButton.
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

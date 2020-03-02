@@ -2,11 +2,11 @@
 
 ![eos200.module](images/eos200/eos200.module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
-Résumé 
+Summary 
 ======
 
 Placé sur une porte, fenêtre, porte de garage, tiroir, tous ouvrants, ce
@@ -20,9 +20,9 @@ déclenchement d'une alarme via un scénario.
 Le signal est uniquement envoyé à la séparation du capteur de son
 élément magnétique. L'indicateur LED intégré signale tous changements
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
-récepteur
+recepteur
 
-Fonctions 
+Functions 
 =========
 
 -   Capteur magnétique sans fil alimenté par piles
@@ -37,14 +37,14 @@ Fonctions
 
 -   Auto-protection à l'arrachage
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
 -   Montage au mur par des vis ou par un adhésif double face
 
-Caractéristiques Techniques 
+Caractéristiques techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
@@ -58,7 +58,7 @@ Caractéristiques Techniques
 
 -   Degré de protection : IP20
 
--   Utilisation : En intérieur
+-   Use : En intérieur
 
 Données du module 
 =================
@@ -67,7 +67,7 @@ Données du module
 
 -   Nom : EOS-200
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -83,7 +83,7 @@ Bouton "E"
 ----------
 
 Vous trouverez dessous le bouton "E" qui est le bouton d'association du
-capteur de température.
+Capteur de température.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
@@ -132,26 +132,26 @@ Voici la liste des commandes :
 -   Porte : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
--   Batterie : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
 ![Commandes](images/eos200/eos200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Visuel alternatif 
+Visuel Alternatif 
 =================
 
 ![eos200.vue alternative](images/eos200/eos200.vue-alternative.jpg)
@@ -159,7 +159,7 @@ Visuel alternatif
 F.A.Q. 
 ======
 
-Comment piloter un récepteur Z-Wave?
+Comment piloter un recepteur Z-Wave?
 
 :   Avec le plugin Scénario de Jeedom.
 

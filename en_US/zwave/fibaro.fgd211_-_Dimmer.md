@@ -11,7 +11,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -30,7 +30,7 @@ conservant votre interrupteur existant.
 
 Vous allez donc pouvoir actionner la lampe connectée et faire varier son
 intensité en utilisant l'interrupteur existant, un émetteur Z-Wave ou
-directement depuis le bouton présent sur le micromodule. Il est
+directement depuis le bouton présent sur le micromodule. It is
 compatible avec tout type de lampe supportant la variation
 (incandescence, fluo-compact, LED, …​). Le micromodule variateur Fibaro
 est un concentré de technologie, il détecte automatiquement le type de
@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -63,7 +63,7 @@ Fonctions
 
 -   S'installe derrière un interrupteur existant
 
--   Fonction ON/OFF et Variation
+-   Fonction ON/OFF et variation
 
 -   Utilisation en mode 2 fils (neutre pas nécessaire)
 
@@ -77,7 +77,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques techniques
 
 -   Fusible : 2.5A
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -122,7 +122,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 256
+-   Type produit : 256
 
 -   Produit ID : 4106
 
@@ -171,7 +171,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -184,14 +184,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Light
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    lumière
+-   état : C'est la commande qui permet de connaître le statut de la
+    Light
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
 icone
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Functions ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -315,7 +315,7 @@ interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

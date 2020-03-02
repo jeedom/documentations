@@ -11,7 +11,7 @@ Nodon Prise Intelligente - Smartplug
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,17 +19,17 @@ Nodon Prise Intelligente - Smartplug
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
 
-La prise télécommandée NodOn® est pilotable via une centrale domotique
+La prise télécommandée NodON® est pilotable via une centrale domotique
 compatible Z- Wave® ou Z-Wave Plus® ou directement via d'autres
 contrôleurs Z-Wave® ou Z-Wave Plus® tels que la Soft Remote,
-l'interrupteur mural ou la Octan Remote NodOn®. Au standard allemand
+l'interrupteur mural ou la Octan Remote NodON®. Au standard allemand
 (Schuko) ou français (Type E), la prise peut se brancher dans les 2
-sens, tête en haut ou tête en bas. Associées à son design fin, ces 2
+sens, tête en haut ou tête en Low. Associées à son design fin, ces 2
 caractéristiques permettent une intégration facilitée, sans boucher les
 fûts voisins sur une multiprise. L'apprentissage de la prise avec son
 contrôleur nécessite seulement quelques secondes. Un bouton local permet
@@ -37,7 +37,7 @@ d'allumer ou d'éteindre la prise directement.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -45,7 +45,7 @@ Fonctions
 -   Détection perte de courant secteur
 
 -   Ergonomique: Possibilité de brancher la prise tête en haut/tête en
-    bas
+    Low
 
 -   Gestion intelligente des alarmes
 
@@ -55,7 +55,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -91,7 +91,7 @@ Données du module
 
 -   Fabricant ID : 357
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 1
 
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -145,19 +145,19 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
+-   état : C'est la commande qui permet de connaître le statut de la
     prise (Allumée/Eteinte)
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Statut : Permet de savoir si la prise est alimentée ou non
+-   Status : Permet de savoir si la prise est alimentée ou non
     (Détection coupure de courant / débranchement)
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos état, ON/OFF se retrouvent sur
 le même icone.
 
  \
@@ -177,7 +177,7 @@ plugin Zwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -195,9 +195,9 @@ Détails des paramètres :
     coupure de courant ou après branchement
 
 -   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de
-    coupure/retour de courant, ainsi que les groupes associés (Groupes
+    coupure/retour de courant, ainsi que les groupes associés (Groups
     4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à
-    la documentation papier ou à la bulle d'aide dans jeedom). Il est
+    la documentation papier ou à la bulle d'aide dans jeedom). It is
     recommandé de mettre ce paramètre à 1.
 
 -   3 : Ce paramètre permet d'activer ou désactiver les groupes 2 et 3.
@@ -211,7 +211,7 @@ Détails des paramètres :
     Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
     www.nodon.fr/support/asp3/alarm vous guidera
 
-### Groupes 
+### Groups 
 
  \
 
@@ -275,7 +275,7 @@ Bon à savoir
 
  \
 
--   Il est inutile de s'amuser à brancher/débrancher la prise pour
+-   It is inutile de s'amuser à brancher/débrancher la prise pour
     observer l'alarme. Celle ci ne marchera à peu près que 3 fois. Au
     delà la prise doit rester alimentée un petit moment pour recharger
     la pile interne.

@@ -11,7 +11,7 @@ Philio Smart Color Button
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio Smart Color Button
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -68,7 +68,7 @@ Fonctions
 
 -   S'adapte à tout style de décoration
 
--   Batterie rechargeable
+-   Drums rechargeable
 
 -   Très faible consommation d'énergie
 
@@ -82,12 +82,12 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
 
--   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : Drums Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
@@ -120,7 +120,7 @@ Données du module
 
 -   Fabricant ID : 316
 
--   Type Produit : 9
+-   Type produit : 9
 
 -   Produit ID : 34
 
@@ -162,7 +162,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -174,10 +174,10 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la commande qui remontera la position du bouton de 0 à
+-   état : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   Batterie : c'est la commande qui remonte l'état de batterie du
+-   Drums : c'est la commande qui remonte l'état de batterie du
     module
 
  \
@@ -204,7 +204,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

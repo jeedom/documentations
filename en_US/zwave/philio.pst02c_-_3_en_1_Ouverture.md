@@ -1,4 +1,4 @@
-Philio PST02 C - 3 en 1 Ouverture 
+Philio PST02 C - 3 en 1 Opening 
 =================================
 
  \
@@ -11,7 +11,7 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,13 +19,13 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
 
 Le détecteur ZIP-PSM01 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. It is
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -49,12 +49,12 @@ existant.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Opening, température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -78,7 +78,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Brightness sensor : 0 à 500 lux
 
 -   Dimensions :
 
@@ -126,7 +126,7 @@ Données du module
 
 -   Fabricant ID : 316
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 14
 
@@ -167,7 +167,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -179,15 +179,15 @@ Voici la liste des commandes :
 
  \
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Opening : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -213,7 +213,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -249,30 +249,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reports auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reports auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Report
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+    Report Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -290,7 +290,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

@@ -11,7 +11,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
--   **Le visuel jeedom**
+-   **Le visuel Jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -65,7 +65,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -76,7 +76,7 @@ Caractéristiques techniques
 
 -   Puce Z-Wave Plus
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Alimentation: 2x piles AA (LR6)
 
@@ -99,7 +99,7 @@ Données du module
 
 -   Fabricant ID : 89
 
--   Type Produit : 13
+-   Type produit : 13
 
 -   Produit ID : 3
 
@@ -140,7 +140,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -156,9 +156,9 @@ Voici la liste des commandes :
 
 -   Humidité : c'est la commande de mesure de l'humidité
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi available et seront
 utiles si vous avez raccordé des sondes externes
 
  \
@@ -185,7 +185,7 @@ fonction de votre installation. Il faut pour cela passer par le bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -214,7 +214,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -235,7 +235,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

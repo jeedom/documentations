@@ -11,7 +11,7 @@ Zipato miniKeypad RFID
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Zipato miniKeypad RFID
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -39,7 +39,7 @@ qui a utilisé son badge.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -63,7 +63,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -90,7 +90,7 @@ Caractéristiques techniques
 
 -   Dimensions : 62 x 62 x 20 mm
 
--   Certifications : Sécurité : UL EMC : FCC, CE RoHS
+-   Certifications : Security : UL EMC : FCC, CE RoHS
 
  \
 
@@ -105,7 +105,7 @@ Données du module
 
 -   Fabricant ID : 151
 
--   Type Produit : 24881
+-   Type produit : 24881
 
 -   Produit ID : 17665
 
@@ -148,7 +148,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -166,10 +166,10 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Code : affiche le code du badge ou du clavier lorsque le code saisi
+-   CODED : affiche le code du badge ou du clavier lorsque le code saisi
     n'est pas dans une des mémoires
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -221,7 +221,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -290,7 +290,7 @@ Exemples d'utilisation
  \
 
 L'élément déclencheur est la commande évènement, en effet celle-ci est
-mise à jour uniquement lorsqu'un code/badge valide à été présenté. Si la
+mise à jour uniquement lorsqu'un code/badge valide à été présenté. If the
 valeur est 6 (home) on désactive l'alarme (par exemple), ou allume la
 multiprise, on allume la lumière en fonction de la luminosité, on envoie
 une notification pour signaler que quelqu'un est rentré, on lance une

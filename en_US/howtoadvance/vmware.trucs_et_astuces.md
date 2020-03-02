@@ -5,7 +5,7 @@ Ajouter sa licence
 ==================
 
 Une fois connecté sur l'interface web (IP\_ESXI/ui) il faut aller sur
-"Gérer" :
+"Manage" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
@@ -163,7 +163,7 @@ Mise à jour de l'ESXi
 
 La procédure est assez facile, il faut tout d'abord recupérer le patch
 en allant [ici](https://my.vmware.com/group/vmware/patch#search) (il
-vous faudra sûrement vous connecter avec votre compte VMware). Sur la
+vous faudra sûrement vous connecter avec votre compte VMware). On the
 liste "Select a Product" mettez "ESXi (Embedded and Installable)", en
 face laisser la dernière version de VMware et faites "Search". Puis
 télécharger le patch voulu (en général le dernier). Le build number (le
@@ -195,7 +195,7 @@ Configuration du NTP
 
 Par défaut l'ESXi n'utilise pas le NTP ce qui fait qu'il n'est pas à
 l'heure et que les VMs ne sont pas à l'heure, pour corriger c'est très
-simple. Il faut aller à partir de la version web sur Gérer → Système →
+simple. Il faut aller à partir de la version web sur Manage → Système →
 Date et heure, là vous cliquez sur "Modifier les paramètres" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)

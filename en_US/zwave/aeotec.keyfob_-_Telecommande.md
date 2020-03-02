@@ -11,7 +11,7 @@ Aeotec Keyfob
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Aeotec Keyfob
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -39,7 +39,7 @@ bien utilisée comme contrôleur principal que secondaire.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -60,7 +60,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -69,7 +69,7 @@ Caractéristiques techniques
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
--   Durée de vie de la batterie : 1 an
+-   Durée de vie de la batterie : 1 year
 
 -   Fréquence: 868.42 MHz
 
@@ -92,7 +92,7 @@ Données du module
 
 -   Fabricant ID : 134
 
--   Type Produit : 1
+-   Type produit : 1
 
 -   Produit ID : 22
 
@@ -133,7 +133,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+available.
 
  \
 
@@ -145,7 +145,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -176,7 +176,7 @@ Voici la liste des commandes :
 
  \
 
-Ensuite si vous voulez éffectuer la configuration du module en fonction
+Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
@@ -207,11 +207,11 @@ entre la télécommande et des modules.
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
-Ce module possède un seul et unique groupe d'association. Il est
+Ce module possède un seul et unique groupe d'association. It is
 indispensable.
 
  \
@@ -234,7 +234,7 @@ Pour utiliser ce module en télécommande il faut procéder comme suit :
 -   2 : Réveiller la télécommande
 
 -   3 : Changer le paramètre 250 à true (bien le faire même s'il
-    apparaît déjà à true)
+    apparait déjà à true)
 
 -   4 : Réveiller la télécommande et s'assurer que le changement à été
     pris en compte

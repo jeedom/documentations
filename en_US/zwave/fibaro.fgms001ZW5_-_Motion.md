@@ -11,7 +11,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -31,7 +31,7 @@ accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapidement et facilement sur n'importe quelle
+pour être installé rapSameent et facilement sur n'importe quelle
 surface. Le voyant LED signale le mouvement, le niveau de température,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -71,7 +71,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -88,7 +88,7 @@ Caractéristiques techniques
 
 -   Plage de mesure de la luminosité : 0-32000 LUX
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -112,7 +112,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 2048
+-   Type produit : 2048
 
 -   Produit ID : 4097
 
@@ -169,10 +169,10 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique
@@ -180,7 +180,7 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -206,7 +206,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -247,9 +247,9 @@ Détails des paramètres :
 -   12: à modifier seulement si vous savez pourquoi vous le faites
     (association avec un module par exemple)
 
--   14: idem
+-   14: Same
 
--   16: idem
+-   16: Same
 
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
@@ -302,7 +302,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

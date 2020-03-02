@@ -44,7 +44,7 @@ vers l'iso (pensez bien à le connecter) et vous lancez la machine. Voir
 [ici](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.creer_une_vm.html)
 pour plus de détails.
 
-Installation 
+Setup 
 ============
 
 Appuyez sur entrée pour lancer l'installation :
@@ -163,7 +163,7 @@ Optimisation pour Jeedom
 ========================
 
 Pour préparer l'installation de Jeedom vous pouvez faire quelques
-optimisations :
+Optimizations :
 
 Ajouter vim et sudo 
 -------------------
@@ -184,7 +184,7 @@ Ajouter les Open VMware Tools
 -----------------------------
 
 Les Open VMware Tools installent les drivers spécifiques au système
-d'exploitation installé et apportent les optimisations de cet OS hébergé
+d'exploitation installé et apportent les Optimizations de cet OS hébergé
 sur un hyperviseur ESXi.
 
     sudo apt-get install -y open-vm-tools

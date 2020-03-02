@@ -2,14 +2,14 @@ OpenGarage est un objet de type DIY mais aussi disponible monté sur
 commande et qui sert dans le garage.
 
 Il propose l'activation d'un relais (pour ouvrir le garage) et un
-capteur de distance pour vérifier la présence de la voiture.
+capteur de Distance pour vérifier la présence de la voiture.
 
 <http://opengarage.io/>
 
 Lecture des états du OpenGarage 
 ===============================
 
-Afin de récupérer l'état du relais et du capteur de distance, l'url à
+Afin de récupérer l'état du relais et du capteur de Distance, l'url à
 utiliser est :
 
     http://addropengarage/jc
@@ -19,7 +19,7 @@ Script et une commande info de type json
 
 Pour l'état du relais le nom de la propriété du json : door
 
-Pour le capteur de distance : dist
+Pour le capteur de Distance : Dist
 
 Action sur le OpenGarage 
 ========================

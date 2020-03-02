@@ -25,13 +25,13 @@ d'information en haut de la fenêtre Filezilla :
 
 ![restore filezilla01](images/restore-filezilla01.jpg)
 
--   Hôte : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
+-   Hostname : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
 
--   Identifiant : jeedom
+-   Login : Jeedom
 
--   Mot de passe : Mjeedom96
+-   Mot de passe : MJeedom96
 
--   Port : 22
+-   Harbor : 22
 
 Puis de cliquer sur "Connexion rapide"
 
@@ -46,7 +46,7 @@ répertoire de sauvegarde de Jeedom.
 -   Serveur Apache (Box Jeedom Smart) : /var/www/html/backup
 
 -   Serveur Nginx (Box Jeedom Mini+) :
-    /usr/share/nginx/www/jeedom/backup
+    /usr/share/nginx/www/Jeedom/backup
 
 Le chemin d'accès se renseigne dans la partie site distant.
 

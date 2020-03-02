@@ -27,7 +27,7 @@ En SSH, faites :
     cp -R core-master/* /var/www/html
     cp -R core-master/.[^.]* /var/www/html
 
-Mise à jour 
+Update 
 ===========
 
 Toujours en SSH:

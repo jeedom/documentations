@@ -11,7 +11,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -63,7 +63,7 @@ un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave
 individuelles.  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -85,7 +85,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -129,7 +129,7 @@ Données du module
 
 -   Fabricant ID : 153
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 4
 
@@ -170,7 +170,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -190,7 +190,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat-1 : C'est la commande qui permet de connaître le statut de la
+-   Etat-1 : C'est la commande qui permet de connaitre le statut de la
     prise 1
 
 -   On-1 : C'est la commande qui permet d'allumer la prise 1
@@ -203,7 +203,7 @@ Voici la liste des commandes :
 -   Conso-1 : C'est la commande qui remonte la consommation totale de la
     prise 1
 
--   Etat-2 : C'est la commande qui permet de connaître le statut de la
+-   Etat-2 : C'est la commande qui permet de connaitre le statut de la
     prise 2
 
 -   On-2 : C'est la commande qui permet d'allumer la prise 2
@@ -216,7 +216,7 @@ Voici la liste des commandes :
 -   Conso-2 : C'est la commande qui remonte la consommation totale de la
     prise 2
 
--   Etat-3 : C'est la commande qui permet de connaître le statut de la
+-   Etat-3 : C'est la commande qui permet de connaitre le statut de la
     prise 3
 
 -   On-3 : C'est la commande qui permet d'allumer la prise 3
@@ -229,7 +229,7 @@ Voici la liste des commandes :
 -   Conso-3 : C'est la commande qui remonte la consommation totale de la
     prise 3
 
--   Etat-4 : C'est la commande qui permet de connaître le statut de la
+-   Etat-4 : C'est la commande qui permet de connaitre le statut de la
     prise 4
 
 -   On-4 : C'est la commande qui permet d'allumer la prise 4
@@ -242,7 +242,7 @@ Voici la liste des commandes :
 -   Conso-4 : C'est la commande qui remonte la consommation totale de la
     prise 4
 
--   Etat-5 : C'est la commande qui permet de connaître le statut de la
+-   Etat-5 : C'est la commande qui permet de connaitre le statut de la
     prise 5
 
 -   On-5 : C'est la commande qui permet d'allumer la prise 5
@@ -255,7 +255,7 @@ Voici la liste des commandes :
 -   Conso-5 : C'est la commande qui remonte la consommation totale de la
     prise 5
 
--   Etat-6 : C'est la commande qui permet de connaître le statut de la
+-   Etat-6 : C'est la commande qui permet de connaitre le statut de la
     prise 6
 
 -   On-6 : C'est la commande qui permet d'allumer la prise 6
@@ -315,7 +315,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

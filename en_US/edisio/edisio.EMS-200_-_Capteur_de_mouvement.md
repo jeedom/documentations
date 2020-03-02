@@ -2,11 +2,11 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
 
-Résumé 
+Summary 
 ======
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple,
@@ -17,7 +17,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser
 un large périmètre. L'indicateur LED intégré signale tout changement
 d'état.
 
-Fonctions 
+Functions 
 =========
 
 -   Détecte les mouvements, même dans le noir complet
@@ -32,12 +32,12 @@ Fonctions
 
 -   Montage au mur par des vis ou par double face
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
@@ -53,7 +53,7 @@ Caractéristiques techniques
 
 -   Degré de protection : IP20
 
--   Utilisation : En intérieur
+-   Use : En intérieur
 
 Données du module 
 =================
@@ -62,7 +62,7 @@ Données du module
 
 -   Nom : EMS-200
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -133,26 +133,26 @@ Voici la liste des commandes :
 -   Présence : C'est la commande qui indique si une présence est
     détectée
 
--   Batterie : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
 ![Commandes](images/ems200/ems200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Visuel alternatif 
+Visuel Alternatif 
 =================
 
 ![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)

@@ -11,7 +11,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -74,7 +74,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -93,11 +93,11 @@ Caractéristiques techniques
 
 -   Ampoule Fluocompacte : 200W
 
--   Fréquence : 868,42 Mhz
+-   Fréquence : 868,42 MHz
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Viewing: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -114,7 +114,7 @@ Données du module
 
 -   Fabricant ID : 96
 
--   Type Produit : 3
+-   Type produit : 3
 
 -   Produit ID : 2
 
@@ -157,7 +157,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -170,18 +170,18 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    lumière
+    Light
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   ON : C'est la commande qui permet d'allumer la Light
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   OFF : C'est la commande qui permet d'éteindre la Light
 
--   Etat : C'est la commande qui permet de connaître le statut de la
-    lumière
+-   état : C'est la commande qui permet de connaitre le statut de la
+    Light
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se
+A noter que sur le dashboard, les infos état, ON/OFF, intensité se
 retrouvent sur le même icone.
 
  \
@@ -201,7 +201,7 @@ plugin OpenZwave de Jeedom.
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -228,7 +228,7 @@ Détails des paramètres :
 -   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
     mode variation ou en mode on/off
 
-### Groupes 
+### Groups 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 -   Le retour d'état ne peut pas être configuré en dessous de 3
     secondes.  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

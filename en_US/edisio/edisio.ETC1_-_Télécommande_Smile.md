@@ -4,11 +4,11 @@
 
 ![etc1.module 2](images/etc1/etc1.module-2.png)
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
-Résumé 
+Summary 
 ======
 
 Les télécommandes “Smile” ont un canal, elles sont idéales pour la table
@@ -25,7 +25,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-Fonctions 
+Functions 
 =========
 
 -   Mode d'usage : Eclairage, Variateur
@@ -34,10 +34,10 @@ Fonctions
 
 -   Facilité d'utilisation et d'installation
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ===========================
 
--   Type de module : Emetteur Edisio
+-   Type de module : émetteur Edisio
 
 -   Alimentation : 3VDC (Pile Lithium CR2032)
 
@@ -64,7 +64,7 @@ Données du module
 
 -   Référence : P01 / Y01 / L01
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
@@ -116,26 +116,26 @@ Voici la liste des commandes :
 
 -   bt01 : C'est la commande qui permet d'interagir avec le bouton 1
 
--   Batterie : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
 ![Commandes](images/etc1/etc1.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Creation : Indique la date à laquelle l'équipement à était créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Utilisation 
+Use 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le

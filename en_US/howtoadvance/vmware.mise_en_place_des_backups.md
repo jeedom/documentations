@@ -61,7 +61,7 @@ Création du fichier de configuration
 > ce n'est pas le cas chez vous
 
 Sur le datastore de backup il faut créer un fichier ghettoVCB.conf qui
-contient :
+contains :
 
     VM_BACKUP_VOLUME=/vmfs/volumes/Backup/
     DISK_BACKUP_FORMAT=thin

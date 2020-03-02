@@ -31,7 +31,7 @@ cliquez
 Ajout de votre code service pack 
 ================================
 
-Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail
+If you avez acheté une box Jeedom alors vous avez dû recevoir un mail
 contenant un code pour votre service pack.
 
 > **Important**
@@ -41,7 +41,7 @@ contenant un code pour votre service pack.
 
 > **Important**
 >
-> Si vous achetez un service pack depuis le Market Jeedom vous n'avez
+> If you achetez un service pack depuis le Market Jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
@@ -65,8 +65,8 @@ Market cliquez
 
 > **Tip**
 >
-> Si vous avez acheté une box officielle Jeedom, le numéro de service
-> pack a dû vous être envoyé par email. Si vous n'avez rien reçu, merci
+> If you avez acheté une box officielle Jeedom, le numéro de service
+> pack a dû vous être envoyé par email. If you n'avez rien reçu, merci
 > de contacter le magasin où vous avez acheté votre box.
 
 Trouver votre Jeedom sur le réseau 
@@ -126,7 +126,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
--   Cliquez sur l'onglet **Mises à jour**
+-   Cliquez sur l'onglet **Updates**
 
 -   En dessous, cliquez sur l'onglet **Market**
 
@@ -141,7 +141,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 -   Vous pouvez tester pour vérifier que la connexion
     s'effectue correctement.
 
--   N'oubliez pas de sauvegarder !
+-   Don&#39;t forget to save !
 
 Pour plus de détails sur la page de configuration cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
@@ -150,7 +150,7 @@ Pour plus de détails sur la page de configuration cliquez
 Obtenir mon URL d'accès direct 
 ==============================
 
-Si vous avez un Service Pack, Jeedom vous met à disposition une URL
+If you avez un Service Pack, Jeedom vous met à disposition une URL
 d'accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
@@ -168,18 +168,18 @@ la page profil du Market
 
 > **Important**
 >
-> Si vous venez de lier votre Jeedom à votre compte Market il faut
+> If you venez de lier votre Jeedom à votre compte Market il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 Changer le mot de passe par défaut de Jeedom 
 ============================================
 
-Une des étapes importantes est de changer le mot de passe par défaut de
+Une des étapes importantes est de To change the password par défaut de
 votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
 (en haut à droite) :
 
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
-**admin** et à cliquer sur **changer le mot de passe** :
+**admin** et à cliquer sur **To change the password** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -286,7 +286,7 @@ Celle-ci se compose de plusieurs catégories :
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,
 
--   Installation : Tout ce qui concerne l'installation de Jeedom,
+-   Setup : Tout ce qui concerne l'installation de Jeedom,
 
 -   Howto : Des tutoriels pour progresser dans divers domaines,
 
@@ -308,7 +308,7 @@ Le forum
 
 Vous le trouverez [ici](https://jeedom.com/forum) .
 
-Le forum est très actif et contient énormément d'informations. Si vous
+Le forum est très actif et contient énormément d'informations. If you
 avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
 moins d'une heure (en moyenne). Attention cependant, le forum est
 maintenu par la communauté Jeedom, composée de bénévoles, et non par la
@@ -324,7 +324,7 @@ Les demandes de support (ou tickets)
 > Attention, toute demande de support nécessite obligatoirement d'avoir
 > un compte sur le Market.
 
-Si vous n'avez pas trouvé de solution à votre problème, en dernier
+If you n'avez pas trouvé de solution à votre problème, en dernier
 recours, vous pouvez faire une demande de support à l'équipe Jeedom.
 Cette demande passe par un ticket. Il est possible d'en ouvrir un de
 plusieurs façons :

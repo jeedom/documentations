@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 en 1 Ouverture" 
+D-Link DCH-Z110 - "3 en 1 Opening" 
 ====================================
 
  \
@@ -11,7 +11,7 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,13 +19,13 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. It is
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -47,12 +47,12 @@ déjà un réseau existant.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Opening, température, lumière
 
 -   Portée de l'antenne optimisée
 
@@ -70,7 +70,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -93,14 +93,14 @@ Données du module
 
 -   Marque : D-Link
 
--   Modèle : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   Model : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
 
 -   Fabricant ID : 264 \[0x0108\]
 
--   Type Produit : 2 \[0x0002\]
+-   Type produit : 2 \[0x0002\]
 
 -   Produit ID : 14 \[0x000e\]
 
@@ -146,7 +146,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -158,18 +158,18 @@ Voici la liste des commandes :
 
  \
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Opening : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -230,30 +230,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reports auto de
     luminosité (une unité = parametre 20). Valeur recommandée : 6
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reports auto de
     température (une unité = parametre 20). Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13. Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Report
 
 -   22: valeur en % de variation de luminosité pour déclencher
-    un rapport. Valeur recommandée : 10
+    un Report. Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -274,7 +274,7 @@ DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
  \
 
-Visuel alternatif 
+Visuel Alternatif 
 -----------------
 
  \

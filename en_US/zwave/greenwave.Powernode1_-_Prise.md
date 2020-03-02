@@ -11,7 +11,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -41,9 +41,9 @@ un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
 Une petite molette sur le côté de la prise permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. Par exemple "
+qui représentera la pièce à laquelle elle est affectée. For example "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes prises et multiprises PowerNode. On peut également régler
+différentes prises et multiprises PowerNode. ON peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
 prise afin d'éviter de l'éteindre par accident, mais le contrôle depuis
 la boxe domotique ne sera plus possible.
@@ -61,7 +61,7 @@ interne situé dans la prise.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -78,7 +78,7 @@ Fonctions
 -   Possibilité de lui affecter un numéro et une couleur afin de
     différencier les différentes PowerNode d'une même installation
 
--   Bouton On/Off directement sur la prise
+-   Bouton ON/OFF directement sur la prise
 
 -   Protection contre les surintensités
 
@@ -86,7 +86,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -95,7 +95,7 @@ Caractéristiques techniques
 
 -   Courant de charge maximum : 10A
 
--   Puissance de charge maximale : 2400W (@ 240V)
+-   Power de charge maximale : 2400W (@ 240V)
 
 -   Consommation en veille : 0,4 W
 
@@ -130,7 +130,7 @@ Données du module
 
 -   Fabricant ID : 153
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 2
 
@@ -171,7 +171,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -183,14 +183,14 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
+-   état : C'est la commande qui permet de connaitre le statut de la
     prise
 
--   On : C'est la commande qui permet d'allumer la prise
+-   ON : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   OFF : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instantanée
+-   Power : C'est la commande qui remonte la puissance instantanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale
@@ -242,7 +242,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

@@ -11,7 +11,7 @@ Philio PST02 A - 4 en 1
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Philio PST02 A - 4 en 1
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -56,7 +56,7 @@ ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande,
 dongle …​) est nécessaire afin d'intégrer ce détecteur dans votre réseau
 si vous avez déjà un réseau existant.  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -85,7 +85,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
  \
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 years
 
 -   Fréquence : 868.42 MHz
 
@@ -102,7 +102,7 @@ Caractéristiques techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Brightness sensor : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -137,7 +137,7 @@ Données du module
 
 -   Fabricant ID : 316
 
--   Type Produit : 2
+-   Type produit : 2
 
 -   Produit ID : 12
 
@@ -178,7 +178,7 @@ Une fois inclus vous devriez obtenir ceci :
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -192,18 +192,18 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Opening : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
+-   Température : C'est la commande qui permet de remonter la
     température
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Luminosité : C'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
@@ -229,7 +229,7 @@ de votre installation, il faut pour cela passer par la bouton
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Paramètres)
 
  \
 
@@ -271,30 +271,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reports de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reports auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reports auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reports auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Report
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+    Report Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -312,7 +312,7 @@ Bon à savoir
 
  \
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 

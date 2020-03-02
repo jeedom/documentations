@@ -23,7 +23,7 @@ noyau VMware):
 
 Le i5 est nettement plus puissant car il a un peu plus de mémoire cache
 et surtout un mode turbo qui lui permet de monter beaucoup plus haut en
-fréquence.
+Fréquence.
 
 A cela se rajoute 2 types de boitier :
 

@@ -11,7 +11,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
--   **Le visuel Jeedom**
+-   **Le visuel jeedom**
 
  \
 
@@ -19,7 +19,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-Résumé 
+Summary 
 ------
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -58,7 +58,7 @@ Fonctions
 
 -   Simulation lumineuse précédemment programmée
 
--   Fonction ON/OFF et Variation
+-   Fonction ON/OFF et variation
 
 -   Petit, discret et esthétique
 
@@ -66,7 +66,7 @@ Fonctions
 
  \
 
-Caractéristiques techniques 
+Caractéristiques Techniques 
 ---------------------------
 
 -   Alimentation : 12 V ou 24 V continu
@@ -112,7 +112,7 @@ Données du module
 
 -   Fabricant ID : 271
 
--   Type Produit : 2304
+-   Type produit : 2304
 
 -   Produit ID : 4096
 
@@ -149,7 +149,7 @@ Une fois inclus vous devriez obtenir ceci :
 ### Commandes 
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
@@ -161,7 +161,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Couleur : C'est la commande qui permet de régler le code couleur à
+-   Color : C'est la commande qui permet de régler le code couleur à
     afficher
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de
@@ -185,10 +185,10 @@ Voici la liste des commandes :
     couleur type blanc chaud, si le bandeau de couleur le permet. (cette
     commande est non visible par défaut)
 
--   On : C'est la commande qui permet d'allumer le bandeau sur la
+-   ON : C'est la commande qui permet d'allumer le bandeau sur la
     dernière couleur choisit auparavant
 
--   Off : C'est la commande qui permet d'éteindre le bandeau
+-   OFF : C'est la commande qui permet d'éteindre le bandeau
 
 -   Intensité : C'est la commande qui permet de régler l'intensité
     lumineuse
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### Groupes 
+### Groups 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.
@@ -249,11 +249,11 @@ Utilisation des capteurs 0-10V.
 > Pour l'instant, la configuration par défaut de jeedom ne le permet
 > pas, mais une configuration spécifique peut être envisagée.
 
-### Visuel alternatif 
+### Visuel Alternatif 
 
  \
 
-![Visuel alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
+![Visuel Alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
  \
 
