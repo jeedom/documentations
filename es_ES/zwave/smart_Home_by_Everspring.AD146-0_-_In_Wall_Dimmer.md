@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -43,7 +43,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -97,7 +97,7 @@ Caractéristiques techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Visualización: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -110,7 +110,7 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Nom : In Wall Dimmer
+-   Nombre : In Wall Dimmer
 
 -   Fabricant ID : 96
 
@@ -120,7 +120,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -131,7 +131,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -152,16 +152,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Comandos](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
  \
 
@@ -170,33 +170,33 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    lumière
+    Iluminación
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   Uno : C'est la commande qui permet d'allumer la Iluminación
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   Apagado : C'est la commande qui permet d'éteindre la Iluminación
 
--   Etat : C'est la commande qui permet de connaître le statut de la
-    lumière
+-   Estado : C'est la commande qui permet de connaître le statut de la
+    Iluminación
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se
+A noter que sur le dashboard, les infos Estado, ON/OFF, intensité se
 retrouvent sur le même icone.
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -228,7 +228,7 @@ Détails des paramètres :
 -   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
     mode variation ou en mode on/off
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -240,7 +240,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

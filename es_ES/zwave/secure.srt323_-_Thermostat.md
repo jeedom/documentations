@@ -19,7 +19,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -57,7 +57,7 @@ PC à portée de main et connecté à internet.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -93,7 +93,7 @@ Caractéristiques techniques
 
 -   Alimentation : 2x piles AAA (LR3)
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 años
 
 -   Fréquence : 868,42 Mhz
 
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SRT 323 Electronic Room Thermostat and Temperature
+-   Nombre : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Fabricant ID : 89
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut mettre le switch 1 en
 > position ON puis avec la molette afficher L et appuyer sur la molette,
@@ -147,7 +147,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
 > réveillez toujours le module juste après l'inclusion. Pour ce faire
@@ -168,16 +168,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/secure.srt323/commandes.jpg)
+![Comandos](images/secure.srt323/commandes.jpg)
 
  \
 
@@ -194,21 +194,21 @@ Voici la liste des commandes :
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -234,7 +234,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **Important**
+> **Importante**
 >
 > Ce module est sur batterie. Donc il est important de noter qu'un
 > changement de consigne sera uniquement pris en compte au reveil. Par
@@ -293,7 +293,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

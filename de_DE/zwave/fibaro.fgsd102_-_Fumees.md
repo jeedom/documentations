@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -39,7 +39,7 @@ Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
 Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. Si la
+détecteur de fumée sous la forme d'un capteur de température. Wenn die
 quantité de fumée n'est pas suffisante pour déclencher l'alarme,
 l'appareil sera toujours en mesure de détecter une menace en détectant
 un changement rapide de la température causée par le feu. Un changement
@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -89,7 +89,7 @@ Caractéristiques techniques
 
 -   Alimentation : Batterie Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 ans
+-   Autonomie de la batterie : 3 Jahre
 
 -   Fréquence : 868,42 MHz
 
@@ -123,7 +123,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro Smoke Sensor FGSD-002
+-   Name : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
@@ -133,7 +133,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -163,16 +163,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/fibaro.fgsd102/commandes.jpg)
+![Befehle](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -198,11 +198,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

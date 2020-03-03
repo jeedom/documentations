@@ -22,7 +22,7 @@ fonction (exemple pour Jeedom) :
         if [ "$NOCACHE" == "1" ]; then
             rm -f $CNF_DATADIR/Tmp/${MD5FILE}.mp3   >>/dev/null 2>>/dev/null
             rm -f $CNF_DATADIR/Tmp/${MD5FILE}.txt   >>/dev/null 2>>/dev/null
-         else
+         sonst
             Log "[TTS]"  "Storing sound ${MD5FILE}.mp3 to cache"
          fi
        echo ${MD5FILE}
@@ -41,7 +41,7 @@ Dans le "case \$TTS\_ENGINE in" pour avoir :
                  *)  MP3_ID=$(AcapelaTTS $TTS $VOICE $NO_CACHE $RAW_VOICE $MUTE);;
     esac
 
-Utilisation 
+Verwendung 
 ===========
 
 Il vous suffit d'appller l'url en donnant le numéro d'engin (ici 3) :

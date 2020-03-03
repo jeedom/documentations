@@ -19,7 +19,7 @@ Philio PST02 A - 4 en 1
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -56,7 +56,7 @@ ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande,
 dongle …​) est nécessaire afin d'intégrer ce détecteur dans votre réseau
 si vous avez déjà un réseau existant.  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 años
 
 -   Fréquence : 868.42 MHz
 
@@ -102,7 +102,7 @@ Caractéristiques techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Sensor de brillo : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -133,7 +133,7 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Nom : PST02-A 4 in 1 Multi-Sensor
+-   Nombre : PST02-A 4 in 1 Multi-Sensor
 
 -   Fabricant ID : 316
 
@@ -143,7 +143,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -154,7 +154,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -173,16 +173,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/philio.pst02a/commandes.jpg)
+![Comandos](images/philio.pst02a/commandes.jpg)
 
  \
 
@@ -192,7 +192,7 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
@@ -203,15 +203,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -220,11 +220,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -271,30 +271,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reportes de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reportes auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reportes auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reportes auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Reporte
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+    Reporte Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -350,7 +350,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

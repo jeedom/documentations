@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -50,7 +50,7 @@ distance.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -61,7 +61,7 @@ Fonctions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction ON/OFF
+-   Fonction Ein/Aus
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : noire
+-   Farbe : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Swiid
 
--   Nom : Swiidinter
+-   Name : Swiidinter
 
 -   Fabricant ID : 358
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -154,16 +154,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/swiid.inter/commandes.jpg)
+![Befehle](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -171,31 +171,31 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
-    lumière
+-   Zustand : C'est la commande qui permet de connaître le statut de la
+    Licht
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   Ein : C'est la commande qui permet d'allumer la Licht
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   Aus : C'est la commande qui permet d'éteindre la Licht
 
  \
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Symbol
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,20 +217,20 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inactif : n'aura aucun effet sur les autres lumières
+-   Inaktiv : n'aura aucun effet sur les autres Lichts
 
--   Uniquement OFF : sera effectif uniquement pour éteindre les autres
-    lumières
+-   Uniquement Aus : sera effectif uniquement pour éteindre les autres
+    Lichts
 
--   Uniquement ON : sera effectif uniquement pour allumer les autres
-    lumières
+-   Uniquement Ein : sera effectif uniquement pour allumer les autres
+    Lichts
 
--   ON et OFF (fully) : sera effectif pour allumer et éteindre les
-    autres lumières
+-   Ein et Aus (fully) : sera effectif pour allumer et éteindre les
+    autres Lichts
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -242,20 +242,20 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.
 
  \
 
-Associer à une autre lumière 
+Associer à une autre Licht 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
-l'allumage d'une autre lumière, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre Licht et pouvoir bénéficier de
+l'allumage d'une autre Licht, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-spécifique.
+Spezifisch.
 
  \
 

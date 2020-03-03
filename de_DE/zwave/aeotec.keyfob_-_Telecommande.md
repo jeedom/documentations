@@ -19,7 +19,7 @@ Aeotec Keyfob
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -39,7 +39,7 @@ bien utilisée comme contrôleur principal que secondaire.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -69,7 +69,7 @@ Caractéristiques techniques
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
--   Durée de vie de la batterie : 1 an
+-   Durée de vie de la batterie : 1 Jahr
 
 -   Fréquence: 868.42 MHz
 
@@ -88,7 +88,7 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nom : Key Fob
+-   Name : Key Fob
 
 -   Fabricant ID : 134
 
@@ -98,7 +98,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -109,7 +109,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -128,16 +128,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/aeotec.keyfob/commandes.jpg)
+![Befehle](images/aeotec.keyfob/commandes.jpg)
 
  \
 
@@ -145,7 +145,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Tasten : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -165,11 +165,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -178,11 +178,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez éffectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -207,11 +207,11 @@ entre la télécommande et des modules.
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
-Ce module possède un seul et unique groupe d'association. Il est
+Ce module possède un seul et unique groupe d'association. Er ist
 indispensable.
 
  \
@@ -272,7 +272,7 @@ Note importante
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

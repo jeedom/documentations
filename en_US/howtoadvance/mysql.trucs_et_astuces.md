@@ -12,7 +12,7 @@ Editez le fichier /etc/mysql/mysql.conf.d/mysqld.cnf et ajoutez dedans :
 Optimiser MySQL 
 ===============
 
-> **Important**
+> **IMPORTANT**
 >
 > Cette méthode est à vos risques et périls. En cas de soucis aucun
 > support ne sera possible.
@@ -21,7 +21,7 @@ Optimiser MySQL
 
 <!-- -->
 
-    service mysql stop
+    mysql stop service
     rm /var/lib/mysql/ib_logfile*
 
 -   Puis faites :

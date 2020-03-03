@@ -19,7 +19,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -35,7 +35,7 @@ devrait pas.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -109,7 +109,7 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nom : Garage Door Controller (ZW062)
+-   Name : Garage Door Controller (ZW062)
 
 -   Fabricant ID : 134
 
@@ -119,7 +119,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -130,7 +130,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > Z-Wave, conformément à sa documentation papier.
@@ -149,16 +149,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Commands](images/aeotec.garagedoorcontroller/commandes.jpg)
 
  \
 
@@ -178,17 +178,17 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -219,7 +219,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

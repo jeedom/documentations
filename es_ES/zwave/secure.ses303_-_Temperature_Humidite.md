@@ -19,7 +19,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -70,7 +70,7 @@ Caractéristiques techniques
 
  \
 
--   Type: Portable/fixation murale
+-   Tipo: Portable/fixation murale
 
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
 
@@ -95,17 +95,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SES 303 Temperature and Humidity Sensor
+-   Nombre : SES 303 Temperature and Humidity Sensor
 
 -   Fabricant ID : 89
 
--   Type Produit : 13
+-   Tipo Produit : 13
 
 -   Produit ID : 3
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,16 +135,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/secure.ses303/commandes.jpg)
+![Comandos](images/secure.ses303/commandes.jpg)
 
  \
 
@@ -156,18 +156,18 @@ Voici la liste des commandes :
 
 -   Humidité : c'est la commande de mesure de l'humidité
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi disponible et seront
 utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -176,11 +176,11 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -214,7 +214,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -271,7 +271,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

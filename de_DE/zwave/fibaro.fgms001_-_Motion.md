@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -108,7 +108,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGMS-001 \[Motion Sensor\]
+-   Name : Fibaro FGMS-001 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -148,16 +148,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/fibaro.fgms001/commandes.jpg)
+![Befehle](images/fibaro.fgms001/commandes.jpg)
 
  \
 
@@ -179,11 +179,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -192,11 +192,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -297,7 +297,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -319,7 +319,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Ce module est très capricieux sur les wakeup et très mal configuré
 > d'usine. Il est primordial de bien le réveiller après l'inclusion
@@ -374,7 +374,7 @@ Note importante
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

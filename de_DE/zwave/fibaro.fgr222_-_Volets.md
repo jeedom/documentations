@@ -19,7 +19,7 @@ Fibaro FGR-222 "Volet roulant"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -43,11 +43,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les
 autres modules, afin d'assurer une couverture totale de votre
 habitation.
 
-Note : Ce module nécessite le neutre pour fonctionner.
+Notiz : Ce module nécessite le neutre pour fonctionner.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -92,7 +92,7 @@ Caractéristiques techniques
 
 -   Fréquence : 868,42 Mhz
 
--   Puissance du signal : 1mW
+-   Macht du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -113,7 +113,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGR-222
+-   Name : Fibaro FGR-222
 
 -   Fabricant ID : 271
 
@@ -123,7 +123,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -134,7 +134,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -153,18 +153,18 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/fibaro.fgrm222/commandes.jpg)
+![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
-![Commandes](images/fibaro.fgrm222/commandes2.jpg)
+![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
  \
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître la position de
+-   Zustand : C'est la commande qui permet de connaître la position de
     votre volet
 
 -   Positionnement : C'est la commande qui permet de définir le
@@ -182,10 +182,10 @@ Voici la liste des commandes :
 
 -   Down : C'est la commande qui permet de fermer complétement le volet
 
--   Rafraîchir : C'est la commande qui permet de redemander la position
+-   Aktualisieren : C'est la commande qui permet de redemander la position
     du volet
 
--   Puissance : Commande permettant d'avoir la consommation du module
+-   Macht : Commande permettant d'avoir la consommation du module
 
 -   Consommation : Commande permettant de connaître la puissance
     instantanée utilisée par le module
@@ -199,22 +199,22 @@ Voici la liste des commandes :
 
 -   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
 
--   Pas : Permet de définir le pas pour un appui sur Décliner ou
+-   Nicht : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -281,7 +281,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -312,11 +312,11 @@ sur ce bouton disponible dans l'onglet Système.
 
  \
 
-### Important 
+### Wichtig 
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
 > forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
@@ -338,7 +338,7 @@ Wakeup
 
  \
 
-Pas de notion de wakeup sur ce module.
+Nicht de notion de wakeup sur ce module.
 
  \
 

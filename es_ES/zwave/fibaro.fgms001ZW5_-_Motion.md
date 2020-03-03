@@ -19,7 +19,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -31,7 +31,7 @@ accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapidement et facilement sur n'importe quelle
+pour être installé rapídement et facilement sur n'importe quelle
 surface. Le voyant LED signale le mouvement, le niveau de température,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
@@ -41,7 +41,7 @@ et les systèmes de surveillance et/ou de sécurité.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -108,7 +108,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Nombre : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -129,7 +129,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -149,7 +149,7 @@ liste déroulante, vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
@@ -159,7 +159,7 @@ seront disponibles.
 
  \
 
-![Commandes](images/fibaro.fgms001zw5/commandes.jpg)
+![Comandos](images/fibaro.fgms001zw5/commandes.jpg)
 
  \
 
@@ -180,15 +180,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -197,11 +197,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -247,9 +247,9 @@ Détails des paramètres :
 -   12: à modifier seulement si vous savez pourquoi vous le faites
     (association avec un module par exemple)
 
--   14: idem
+-   14: ídem
 
--   16: idem
+-   16: ídem
 
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
@@ -302,7 +302,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -310,7 +310,7 @@ Détails des paramètres :
 
  \
 
-> **Tip**
+> **Punta**
 >
 > Ce module possède cinq groupes d'association, il faut ajouter le
 > contrôleur sur le 1, 4 et 5 et retirer le 3.
@@ -343,7 +343,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Punta**
 >
 > Ce module est très capricieux sur les wakeup et très mal configuré
 > d'usine. Il est primordial de bien le réveiller après l'inclusion
@@ -398,7 +398,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

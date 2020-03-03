@@ -19,7 +19,7 @@ Secure SES 302 "Température"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -95,7 +95,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SES 302 Temperature Sensor
+-   Name : SES 302 Temperature Sensor
 
 -   Fabricant ID : 89
 
@@ -105,7 +105,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,16 +135,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/secure.ses302/commandes.jpg)
+![Commands](images/secure.ses302/commandes.jpg)
 
  \
 
@@ -154,18 +154,18 @@ Voici la liste des commandes :
 
 -   Température : c'est la commande de mesure de la température
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi available et seront
 utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -174,11 +174,11 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -206,7 +206,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -263,7 +263,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

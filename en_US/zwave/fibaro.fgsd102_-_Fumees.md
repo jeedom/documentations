@@ -19,7 +19,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -39,7 +39,7 @@ Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
 Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. Si la
+détecteur de fumée sous la forme d'un capteur de température. If the
 quantité de fumée n'est pas suffisante pour déclencher l'alarme,
 l'appareil sera toujours en mesure de détecter une menace en détectant
 un changement rapide de la température causée par le feu. Un changement
@@ -50,7 +50,7 @@ efficacité élevée, indépendamment de ce qui brûle.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -87,9 +87,9 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : Batterie Lithium 3V CR123A
+-   Alimentation : Drums Lithium 3V CR123A
 
--   Autonomie de la batterie : 3 ans
+-   Autonomie de la batterie : 3 years
 
 -   Fréquence : 868,42 MHz
 
@@ -123,7 +123,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro Smoke Sensor FGSD-002
+-   Name : Fibaro Smoke Sensor FGSD-002
 
 -   Fabricant ID : 271
 
@@ -133,7 +133,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -144,7 +144,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion, conformément à sa documentation papier.
@@ -163,16 +163,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/fibaro.fgsd102/commandes.jpg)
+![Commands](images/fibaro.fgsd102/commandes.jpg)
 
  \
 
@@ -194,15 +194,15 @@ Voici la liste des commandes :
 -   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
     (pas fiable encore)
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -252,9 +252,9 @@ Détails des paramètres :
 -   10: ne pas changer ce paramètre sauf si vous savez ce que vous
     faites
 
--   11: idem
+-   11: Same
 
--   12: idem
+-   12: Same
 
 -   13: permet de notifier d'autres modules zwave (à désactiver sauf si
     vous savez pourquoi vous l'activez)
@@ -272,7 +272,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -330,7 +330,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

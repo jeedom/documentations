@@ -1,18 +1,18 @@
 Hardware
 ========
 
-Hardware | Etat | Remarques
+Hardware | Zustand | Remarques
 --- | --- | ---
-Jeedomboard             | Stable                  |
-Hummingboard            | Stable                  |
-Odroid C2               | Stable                  |                          
-Smart                   | Stable                  |                          
-RPI1                    | Stable                  |                          
-RPI2                    | Non officiel/Stable     |                          
-RPI3                    | Non officiel/Stable     | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
-64 bits                 | Stable                  |                          
+Jeedomboard             | Stabil                  |
+Hummingboard            | Stabil                  |
+Odroid C2               | Stabil                  |                          
+Smart                   | Stabil                  |                          
+RPI1                    | Stabil                  |                          
+RPI2                    | Non officiel/Stabil     |                          
+RPI3                    | Non officiel/Stabil     | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
+64 bits                 | Stabil                  |                          
 32 bits                 | Non supporté            |                          
-Vmware                  | Stable                  | Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 nécessite l'installation d'un correctif VMWare pour le support des Zwave.         
+Vmware                  | Stabil                  | Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 nécessite l'installation d'un correctif VMWare pour le support des Zwave.         
 
 Images
 ======
@@ -21,7 +21,7 @@ Vous pouvez retrouver toutes les images Jeedom
 [ici](https://images.jeedom.com/),
 puis dans le dossier Images
 
-> **Note**
+> **Notiz**
 >
 > Une image netinstall va lors du premier démarrage installer la
 > dernière version stable de Jeedom, ce démarrage est donc un peu plus
@@ -29,11 +29,11 @@ puis dans le dossier Images
 > l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre
 > navigateur
 
-| Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
+| Images         | Hardware       | Zustand           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | jeedomboard et | Beta           | root/Mjeedom96 |                |
 | netinstall     | hummingboard   |                |                |                |
-| Jeedomboard    | jeedomboard et | Stable         | root/Mjeedom96 |                |
+| Jeedomboard    | jeedomboard et | Stabil         | root/Mjeedom96 |                |
 |                | hummingboard   |                |                |                |
 | Docker         |                | Beta           | root/Mjeedom96 |                |
 
@@ -48,23 +48,23 @@ matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
 Logiciel
 ========
 
-> **Important**
+> **Wichtig**
 >
 > Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable).
 > Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas
 > supportée par Jeedom.
 
 
-| Nom                     | Etat                    | Remarques                |
+| Name                     | Zustand                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
-| PHP 5.6                 | Stable                  |                          |
-| PHP 7.X                 | Stable                  |                          |
-| Mysql 5.5/5.6           | Stable                  |                          |
+| PHP 5.6                 | Stabil                  |                          |
+| PHP 7.X                 | Stabil                  |                          |
+| Mysql 5.5/5.6           | Stabil                  |                          |
 | Mysql 5.7               | Beta                    |                          |
-| MariaBD                 | Stable                  |                          |
+| MariaBD                 | Stabil                  |                          |
 
-Autre
+Andere
 =====
 
 Clef USB/Module d'extension

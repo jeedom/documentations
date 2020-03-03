@@ -19,7 +19,7 @@ Aeotec Panic Button
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -45,7 +45,7 @@ peut aussi être utilisé comme un médaillon autour du cou.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nom : Panic Button
+-   Nombre : Panic Button
 
 -   Fabricant ID : 134
 
@@ -103,7 +103,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -114,7 +114,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -133,16 +133,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/aeotec.panicbutton/commandes.jpg)
+![Comandos](images/aeotec.panicbutton/commandes.jpg)
 
  \
 
@@ -150,7 +150,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton appui court
 
@@ -158,11 +158,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -171,11 +171,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -199,11 +199,11 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
-Ce module possède un seul et unique groupe d'association. Il est
+Ce module possède un seul et unique groupe d'association. El es
 indispensable.
 
  \
@@ -264,7 +264,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

@@ -1,4 +1,4 @@
-Philio PST02 C - 3 en 1 Ouverture 
+Philio PST02 C - 3 en 1 Apertura 
 =================================
 
  \
@@ -19,13 +19,13 @@ Philio PST02 C - 3 en 1 Ouverture
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
 
 Le détecteur ZIP-PSM01 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. El se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -49,12 +49,12 @@ existant.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Apertura, température, lumière
 
 -   Adopte la récente puce Z-Wave 400series pour supporter les
     opérations multicanaux et un débit de données plus
@@ -95,7 +95,7 @@ Caractéristiques techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Sensor de brillo : 0 à 500 lux
 
 -   Dimensions :
 
@@ -122,7 +122,7 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Nom : PST02-C Door/Window 3 in 1 sensor
+-   Nombre : PST02-C Door/Window 3 in 1 sensor
 
 -   Fabricant ID : 316
 
@@ -132,7 +132,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -143,7 +143,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -162,16 +162,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/philio.pst02c/commandes.jpg)
+![Comandos](images/philio.pst02c/commandes.jpg)
 
  \
 
@@ -179,7 +179,7 @@ Voici la liste des commandes :
 
  \
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
@@ -187,15 +187,15 @@ Voici la liste des commandes :
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -204,11 +204,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -249,30 +249,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reportes de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reportes auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reportes auto de
     luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reportes auto de
     température (une unité = parametre 20) Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Reporte
 
 -   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+    Reporte Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -328,7 +328,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

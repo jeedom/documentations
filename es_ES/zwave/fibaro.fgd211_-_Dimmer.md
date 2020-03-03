@@ -19,7 +19,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -30,7 +30,7 @@ conservant votre interrupteur existant.
 
 Vous allez donc pouvoir actionner la lampe connectée et faire varier son
 intensité en utilisant l'interrupteur existant, un émetteur Z-Wave ou
-directement depuis le bouton présent sur le micromodule. Il est
+directement depuis le bouton présent sur le micromodule. El es
 compatible avec tout type de lampe supportant la variation
 (incandescence, fluo-compact, LED, …​). Le micromodule variateur Fibaro
 est un concentré de technologie, il détecte automatiquement le type de
@@ -54,7 +54,7 @@ couverture totale de votre habitation.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -118,7 +118,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGMS-001 \[Motion Sensor\]
+-   Nombre : Fibaro FGMS-001 \[Motion Sensor\]
 
 -   Fabricant ID : 271
 
@@ -128,7 +128,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -139,7 +139,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Tip**
+> **Punta**
 >
 > Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure
 > en faisant de nombreux aller retour sur l'interrupteur ou de nombreux
@@ -166,16 +166,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/fibaro.fgd211/commandes.jpg)
+![Comandos](images/fibaro.fgd211/commandes.jpg)
 
  \
 
@@ -184,31 +184,31 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Iluminación
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   Uno : C'est la commande qui permet d'allumer la Iluminación
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   Apagado : C'est la commande qui permet d'éteindre la Iluminación
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    lumière
+-   Estado : C'est la commande qui permet de connaitre le statut de la
+    Iluminación
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Icono
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -229,7 +229,7 @@ Détails des paramètres :
 
  \
 
--   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
+-   1: Funciones ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
 
 -   6: permet de dire comment les informations sont envoyées au groupe
@@ -279,7 +279,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 

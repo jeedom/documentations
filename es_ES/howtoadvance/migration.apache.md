@@ -1,4 +1,4 @@
-Pourquoi ? 
+Por qué ? 
 ==========
 
 -   Apache va devenir petit à petit la norme avec Jeedom
@@ -20,25 +20,25 @@ Prérequis
 
 -   Etre connecté à internet.
 
-> **Important**
+> **Importante**
 >
 > En cas de soucis l'équipe Jeedom ne pourra être tenue responsable et
 > pourra refuser toute demande de support. La manipulation est à vos
 > risques et périls.
 
-> **Important**
+> **Importante**
 >
 > Attention certains plugins non officiels ne sont pas compatibles
 > Apache, renseignez-vous bien avant.
 
-Comment faire 
+Como hacer 
 =============
 
 Désactivation des services Jeedom et nginx 
 ------------------------------------------
 
 Dans Jeedom, il faut aller sur chaque plugin ayant un démon, puis
-désactiver la gestion automatique du démon et couper celui-ci. Il faut
+désactiver la gestion automatique du démon et couper celui-ci. Hay que
 ensuite, dans le moteur de tâches, désactiver toutes les tâches (il y un
 bouton de désactivation générale) et dans les scénarios, désactiver tous
 les scénarios (il y un bouton de désactivation générale).
@@ -62,7 +62,7 @@ Installation et configuration d'Apache
     systemctl restart apache2
     rm /var/www/html/index.html
 
-> **Note**
+> **Nota**
 >
 > Si lors de l'installation le système vous demande si vous voulez ou
 > non garder une version modifiée d'un fichier, faites : "Keep the local
@@ -89,7 +89,7 @@ PAS FAIRE LA SUITE.
 Mise à jour de la crontab 
 -------------------------
 
-Faire :
+HACER :
 
     crontab -e
 
@@ -97,7 +97,7 @@ Puis mettre à jour le chemin d'accès à Jeedom, remplacer :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /usr/share/nginx/www/jeedom/core/php/jeeCron.php' >> /dev/null 2>&1
 
-Par :
+Por :
 
     * * * * * su --shell=/bin/bash - www-data -c '/usr/bin/php /var/www/html/core/php/jeeCron.php' >> /dev/null 2>&1
 
@@ -118,7 +118,7 @@ Redémarrage des services
 Ensuite connectez-vous à votre Jeedom et réactivez le moteur de tâches
 et les scénarios. Vous pouvez aussi relancer les démons.
 
-> **Important**
+> **Importante**
 >
 > Il est conseillé après la migration de lancer une mise à jour de
 > Jeedom (même s'il ne vous propose rien).

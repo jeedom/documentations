@@ -1,62 +1,62 @@
-**Documentation fichier info.json**
+**Documentation fichier Info.json**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
+Intégré depuis la version 3.0 de Jeedom, le fichier **Info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Jeedom Market.
 
-Le fichier info.json est enregistré dans le dossier /plugin_info/ de votre plugin.
+Le fichier Info.json est enregistré dans le dossier /plugin_Info/ de votre plugin.
 
-Liste des variables du fichier info.json
+Liste des variables du fichier Info.json
 
 Les champs marqués d'un * sont des champs obligatoires.
 
 Champs                   | Valeurs                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-id *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
+Id *                     | Identifiant unique du plugin sur le Jeedom Market. Doit debuter par une lettre. Sans accents.                             |
 name *                   | Nom du plugin.                                                                                                            |
-description *            | Description du plugin, tel qu'il s'affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
+description *            | Description du plugin, tel qu'il s'affichera sur le Jeedom Market Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
 usage                    | Informations complémentaires à la documentation sur l'usage du plugin.                                                    |
 licence *                | Type de licence.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
+author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
 category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
 display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
-mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
+Mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
 changelog *              | Lien Html vers le Changelog.                                                                                              |
 documentation *          | Lien Html vers la documentation du plugin.                                                                                |
-link -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
+link -> vIdeo               | Lien Html vers une vIdéo de présentation.                                                                                 |
 link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
 languages                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
-compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
+compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, Mobileapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Temps maximum imparti pour l'installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
-**Exemple** :
+**Example** :
 
-[Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Fichier plugin-template/plugin_Info/Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Market Jeedom         | info.json               |
+Jeedom Market         | Info.json               |
 --------------------- | ----------------------- |
 Communication         | communication           |
-Confort               | wellness                |
-Energie               | energy                  |
-Météo                 | weather                 |
+Comfort               | wellness                |
+Energy               | energy                  |
+Weather                 | weather                 |
 Monitoring            | monitoring              |
-Multimédia            | multimedia              |
+Multimedia            | Multimedia              |
 Nature                | nature                  |
-Objets Connectés      | devicecommunication     |
-Organisation          | organization            |
-Passerelle domotique  | home automation protocol|
-Programmation         | programming             |
-Protocole domotique   | automation protocol     |
-Santé                 | health                  |
-Sécurité              | security                |
-Automatisme           | automatisation          |
+Connected objects      | devicecommunication     |
+Organization          | organization            |
+Home automation gateway  | home automation protocol|
+Programming         | programming             |
+Home automation protocol   | automation protocol     |
+Health                 | health                  |
+Security              | security                |
+Automatism           | automatisation          |
 
 
    

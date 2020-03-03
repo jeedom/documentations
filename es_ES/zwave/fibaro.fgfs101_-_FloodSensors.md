@@ -19,7 +19,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -53,7 +53,7 @@ assure du bon fonctionnement du capteur lors de son installation.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -81,9 +81,9 @@ Caractéristiques techniques
 
 -   Module pouvant être alimenté en externe : 12 – 24 VDC
 
--   Type de batterie : CR123A
+-   Tipo de batería : CR123A
 
--   Autonomie de la batterie : 2 ans
+-   Autonomie de la batterie : 2 años
 
 -   Consommation sur alimentation externe : 0,4W
 
@@ -115,7 +115,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Modèle : FGFS101 Flood Sensor
+-   Modelo : FGFS101 Flood Sensor
 
 -   Fabricant : FIBARO System
 
@@ -127,7 +127,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -138,7 +138,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d'inclusion,repéré TMP, conformément à sa documentation
@@ -158,16 +158,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/fibaro.fgfs101/commandes.jpg)
+![Comandos](images/fibaro.fgfs101/commandes.jpg)
 
  \
 
@@ -183,15 +183,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -200,11 +200,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -230,7 +230,7 @@ Détails des paramètres :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     s'arrête instantanément)
 
--   2\. Choix du type d'alarme. Valeur :
+-   2\. Choix du type d'alarme. Valor :
 
         0 : Alarme sonore et visuelle désactivée
         1 : Alarme sonore désactivée et visuelle activée
@@ -240,7 +240,7 @@ Détails des paramètres :
 -   10\. Temps de report entre deux relevés de température : de 1 à 65535 s
     (300 par défaut). Attention à ne pas mettre une valeur de report trop
     rapprochée sous peine de voir la batterie du module fondre à toute
-    vitesse ! (1800 est recommandé)
+    velocidad ! (1800 est recommandé)
 
 -   12\. Écart de température entre deux reports : de 1 à 1000 (50 par défaut
     = 0,5°). En accord avec le paramètre 10, il est également possible de
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -317,7 +317,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

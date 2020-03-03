@@ -19,7 +19,7 @@ Nodon Télécommande - Soft Remote
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -32,7 +32,7 @@ compatible.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -43,7 +43,7 @@ Fonctions
 
 -   Se fixe partout grâce à son aimant intégré
 
--   6 coloris disponibles
+-   6 coloris available
 
  \
 
@@ -80,7 +80,7 @@ Données du module
 
 -   Marque : Nodon
 
--   Nom : CRC-3-6-0x Soft Remote
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Fabricant ID : 357
 
@@ -90,7 +90,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -101,7 +101,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur les deux
 > bouton (+ et 0 plein) jusqu'à que la lumière devienne rose puis
@@ -121,16 +121,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/nodon.softremote/commandes.png)
+![Commands](images/nodon.softremote/commandes.png)
 
  \
 
@@ -138,10 +138,10 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Boutons        | Appui          | Appui Long     | Relachement    | Double appui   |
+| Buttons        | Appui          | Appui Long     | Relachement    | Double appui   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -153,15 +153,15 @@ Voici la liste des commandes :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 +----------------+----------------+----------------+----------------+----------------+
 
--   Batterie : c'est la commande qui remonte le niveau des piles
+-   Drums : c'est la commande qui remonte le niveau des piles
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -170,11 +170,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -202,7 +202,7 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Groupes 
+### Groups 
 
  \
 
@@ -226,7 +226,7 @@ Ce module possède 7 groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 
@@ -269,7 +269,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

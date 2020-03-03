@@ -6,7 +6,7 @@
 
 ![ets200.vue defaut](images/ets200/ets200.vue-defaut.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 Placé dans une pièce, la température de la pièce voulue remontera
@@ -20,7 +20,7 @@ est compact et discret.
 
 L'indicateur LED intégré signal tout changement d'état.
 
-Fonctions 
+Funktionen 
 =========
 
 -   Capteur de température sans fil alimenté par piles
@@ -34,14 +34,14 @@ Fonctions
 
 -   Montage au mur par des vis ou par double face
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
 Caractéristiques techniques 
 ===========================
 
 -   Type de module : Emetteur Edisio
 
--   Utilisation : En intérieur
+-   Verwendung : En intérieur
 
 -   Alimentation : 3VDC (Pile Lithium ER14250)
 
@@ -62,21 +62,21 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : ETS-200
+-   Name : ETS-200
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **Tip**
+> **Spitze**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -104,7 +104,7 @@ Association du capteur à Jeedom
 L'association du capteur de température, est un jeu d'enfant. Il suffit
 d'appuyer sur le bouton "E", situé sous le capteur. Celui-ci sera
 reconnu automatiquement. Placez-le dans un objet, donner lui un nom et
-sauvegarder.
+Speichern.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
@@ -112,13 +112,13 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Commandes 
+Befehle 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/ets200/ets200.commandes.jpg)
+![Befehle](images/ets200/ets200.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -126,21 +126,21 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
-![Commandes](images/ets200/ets200.informations.jpg)
+![Befehle](images/ets200/ets200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Schaffung : Indique la date à laquelle l'équipement à été créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Kommunikation : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 **@Jamsta**

@@ -19,7 +19,7 @@ MCO MH-S412 Double
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -35,7 +35,7 @@ un éclairage ou un appareil électrique.
 L'interrupteur est également équipé d'un voyant LED qui indique son
 état.  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -66,7 +66,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : Blanc
+-   Farbe : Blanc
 
 -   Alimentation : 230 V, 50 Hz
 
@@ -80,7 +80,7 @@ Caractéristiques techniques
 
 -   Dimensions : 86 x 86 x 43 mm
 
--   Affichage: LED bleue/rouge
+-   Anzeigen: LED bleue/rouge
 
  \
 
@@ -91,7 +91,7 @@ Données du module
 
 -   Marque : MC HOME
 
--   Nom : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Fabricant ID : 351
 
@@ -101,7 +101,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -112,7 +112,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur un seul
 > des 2 boutons en face avant pendant 3 sec, conformément à sa
@@ -126,31 +126,31 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/mco.mhs412/commandes.jpg)
+![Befehle](images/mco.mhs412/commandes.jpg)
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
 Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Einstellungen)
 
  \
 
@@ -158,7 +158,7 @@ paramètres)
 
  \
 
-Détails des paramètres :
+Détails des Einstellungen :
 
  \
 
@@ -168,7 +168,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -206,7 +206,7 @@ Wakeup
 
 Ce module étant raccordé au secteur (220v) , le reveil est instantanné
 et ne necessite donc pas d'action particulière lors d'un changement de
-paramètres
+Einstellungen
 
  \
 
@@ -219,7 +219,7 @@ Pour exclure ce modèle, mettre Openzwave en mode exclusion et appuyer
 sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa
 documentation papier.
 
-Pour restaurer les paramètres usine, appuyer sur un seul des 2 boutons
+Pour restaurer les Einstellungen usine, appuyer sur un seul des 2 boutons
 en face avant pendant 10 sec, conformément à sa documentation papier.
 
  \

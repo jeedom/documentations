@@ -27,7 +27,7 @@ sous-réseau par défaut de votre box ex chez free le sous-réseau des
 machines est 192.168.1.0 donc dans l'exemple on met 2
 
 Entrer ensuite le nombre maximum de connexions que vous voulez autoriser
-sur le serveur VPN, puis le nombre de connexions simultanées maximum
+sur le Servidor VPN, puis le nombre de connexions simultanées maximum
 pour un utilisateur
 
 Enfin entrer une clef de partage NB : il s'agit d'un mot de passe qu'il
@@ -56,7 +56,7 @@ Décocher toutes les cases sous PPTP Open VPN et L2TP
 Cocher uniquement la case en face de l'utilisateur que vous voulez
 autoriser à utiliser le VPN .
 
-> **Tip**
+> **Punta**
 >
 > Il est conseillé de vous créer un utilisateur uniquement pour le VPN
 > et sans autres droits / habilitation que faire du VPN.
@@ -85,7 +85,7 @@ Ajouter une redirection
 
 Entrer les paramètres comme suit.
 
-> **Tip**
+> **Punta**
 >
 > ID de destination est le seul truc qui dépend de votre installation,
 > il faut y mettre l'IP de votre NAS Synology
@@ -122,7 +122,7 @@ Cliquer sur le + en haut à droite
 Donner un nom à l'accès VPN, mettre comme type L2TP/IPSec PSK, entrer
 l'adresse publique de votre box internet (ou un nom DNS si vous en avvez
 un) et entrer la clef partagée renseignée dans la partie Configurer un
-serveur VPN :
+Servidor VPN :
 
 ![synology.utilisation vpn16](images/synology.utilisation_vpn16.png)
 
@@ -132,7 +132,7 @@ ligne qui est apparue avec le nom de votre tunnel VPN
 ![synology.utilisation vpn17](images/synology.utilisation_vpn17.png)
 
 Entrez alors le login et le mot de passe de l'utilisateur qui a été
-configuré dans la partie Configurer un serveur VPN
+configuré dans la partie Configurer un Servidor VPN
 
 ![synology.utilisation vpn18](images/synology.utilisation_vpn18.png)
 

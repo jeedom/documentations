@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall On Off - AN179-0 
+SmartHome by Everspring In Wall We Off - AN179-0 
 ================================================
 
  \
@@ -19,7 +19,7 @@ SmartHome by Everspring In Wall On Off - AN179-0
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -42,7 +42,7 @@ quel contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -87,7 +87,7 @@ Caractéristiques techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Viewing: LED sur le bouton
 
 -   Dimensions : 42mm x 43mm x 16mm
 
@@ -100,7 +100,7 @@ Données du module
 
 -   Marque : SmartHome by Everspring
 
--   Nom : In Wall On Off
+-   Name : In Wall We Off
 
 -   Fabricant ID : 96
 
@@ -110,7 +110,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -142,16 +142,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Commands](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
  \
 
@@ -159,31 +159,31 @@ Voici la liste des commandes :
 
  \
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   We : C'est la commande qui permet d'allumer la Light
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   Off : C'est la commande qui permet d'éteindre la Light
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    lumière
+-   State : C'est la commande qui permet de connaitre le statut de la
+    Light
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos State, ON/OFF se retrouvent sur
 le même icone.
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Setup" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -212,7 +212,7 @@ Détails des paramètres :
 -   4 : Ce paramètre permet de définir le type
     d'interrupteur (poussoir/bistable)
 
-### Groupes 
+### Groups 
 
  \
 
@@ -224,7 +224,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

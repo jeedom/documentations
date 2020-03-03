@@ -1,62 +1,62 @@
-**Documentation fichier info.json**
+**Documentation fichier Info.json**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom.
+Intégré depuis la version 3.0 de Jeedom, le fichier **Info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Jeedom Markt.
 
-Le fichier info.json est enregistré dans le dossier /plugin_info/ de votre plugin.
+Le fichier Info.json est enregistré dans le dossier /plugin_Info/ de votre plugin.
 
-Liste des variables du fichier info.json
+Liste des variables du fichier Info.json
 
 Les champs marqués d'un * sont des champs obligatoires.
 
 Champs                   | Valeurs                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-id *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
-name *                   | Nom du plugin.                                                                                                            |
-description *            | Description du plugin, tel qu'il s'affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
-usage                    | Informations complémentaires à la documentation sur l'usage du plugin.                                                    |
-licence *                | Type de licence.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
+Identifikation *                     | Identifiant unique du plugin sur le Jeedom Markt. Doit debuter par une lettre. Sans accents.                             |
+Name *                   | Nom du plugin.                                                                                                            |
+Beschreibung *            | Description du plugin, tel qu'il s'affichera sur le Jeedom Markt Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
+usage                    | Informations complémentaires à la Dokumentation sur l'usage du plugin.                                                    |
+Lizenz *                | Type de Lizenz.                                                                                                          |
+author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
-category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
+Kategorie *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
 display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
-mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
-changelog *              | Lien Html vers le Changelog.                                                                                              |
-documentation *          | Lien Html vers la documentation du plugin.                                                                                |
-link -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
+Handy                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
+Änderungsprotokoll *              | Lien Html vers le Changelog.                                                                                              |
+Dokumentation *          | Lien Html vers la Dokumentation du plugin.                                                                                |
+link -> vIdentifikationeo               | Lien Html vers une vIdentifikationéo de présentation.                                                                                 |
 link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
 languages                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
-compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
+compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, Handyapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Temps maximum imparti pour l'installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
-**Exemple** :
+**Beispiel** :
 
-[Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Fichier plugin-template/plugin_Info/Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Market Jeedom         | info.json               |
+Jeedom Markt         | Info.json               |
 --------------------- | ----------------------- |
-Communication         | communication           |
-Confort               | wellness                |
+Kommunikation         | Kommunikation           |
+Komfort               | wellness                |
 Energie               | energy                  |
-Météo                 | weather                 |
-Monitoring            | monitoring              |
-Multimédia            | multimedia              |
-Nature                | nature                  |
-Objets Connectés      | devicecommunication     |
+Wetter                 | weather                 |
+Überwachung            | Überwachung              |
+Multimedia            | Multimedia              |
+Natur                | Natur                  |
+Verbundene Objekte      | deviceKommunikation     |
 Organisation          | organization            |
-Passerelle domotique  | home automation protocol|
-Programmation         | programming             |
-Protocole domotique   | automation protocol     |
-Santé                 | health                  |
-Sécurité              | security                |
-Automatisme           | automatisation          |
+Hausautomations-Gateway  | home automation protocol|
+Programmierung         | programming             |
+Hausautomationsprotokoll   | automation protocol     |
+Gesundheit                 | Gesundheit                  |
+Sicherheit              | security                |
+Automatismus           | automatisation          |
 
 
    

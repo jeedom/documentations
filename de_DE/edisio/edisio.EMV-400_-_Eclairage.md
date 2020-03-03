@@ -6,7 +6,7 @@
 
 ![vue default eclairage](images/emv.400/vue_default_eclairage.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur
@@ -26,11 +26,11 @@ Pour finir, chaque module peut être utilisé en mode déporté, c'est très
 pratique car cela permet d'associer un émetteur sans devoir accéder au
 récepteur.
 
-> **Important**
+> **Wichtig**
 >
 > Le neutre est nécessaire que pour le mode "Volet"
 
-Fonctions 
+Funktionen 
 =========
 
 -   2 sorties par relais alimentées
@@ -87,21 +87,21 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : EMV-400
+-   Name : EMV-400
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **Important**
+> **Wichtig**
 >
 > A l'inverse, les récepteurs Edisio sont à créer manuellement dans
 > Jeedom.
@@ -116,7 +116,7 @@ DIP Switch et bouton "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Afin d'éviter des redondances inutiles, ne jamais activer le mode
 > "Répéteur" sur tous les récepteurs, 5 récepteurs au maximum par
@@ -128,7 +128,7 @@ DIP Switch et bouton "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Appuyer R 3x permet d'activer le mode déporté.
 
@@ -138,7 +138,7 @@ Diagramme de fonctionnement
 Suivant si votre émetteur est configuré en mode "1 touche" ou "2
 touches", voici le fonctionnement du module:
 
-> **Note**
+> **Notiz**
 >
 > Référez-vous à la documentation du fabricant, afin de pouvoir
 > configurer votre émetteur.
@@ -151,10 +151,10 @@ Fonction minuterie
 La fonction minuterie permet l'extinction automatique des relais au bout
 de 30 ou 60 minutes.
 
--   Activer : Appuyer 4x "R" du récepteur, confirmation par un simple
+-   Aktivieren : Appuyer 4x "R" du récepteur, confirmation par un simple
     bip sonore en continu
 
--   Désactiver: Appuyer 5x "R" du récepteur , confirmation par 3 simples
+-   Deactivate: Appuyer 5x "R" du récepteur , confirmation par 3 simples
     bip sonores.
 
 -   Minuterie de 30 minutes: DIP Switch 3 en haut
@@ -167,7 +167,7 @@ Le mode "Eclairage"
 Le mode "Eclairage" permet de piloter 2 appareils électriques à
 distance.
 
-> **Important**
+> **Wichtig**
 >
 > Le neutre n'est pas nécessaire
 
@@ -176,16 +176,16 @@ Configuration et raccordements électriques :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **Important**
+> **Wichtig**
 >
 > Afin que le module soit en mode "Eclairage" le DIP Switch 2 doit être
 > en haut
 
-> **Important**
+> **Wichtig**
 >
 > NE JAMAIS BRANCHER SOUS TENSION
 
-Création du module dans Jeedom 
+Schaffung du module dans Jeedom 
 ------------------------------
 
 Pour associer un module récepteur Edisio à Jeedom, il faut créer
@@ -197,57 +197,57 @@ Une fois, votre équipement créé, vous devriez obtenir ceci :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Pensez à activer votre nouvel équipement.
 
 Dans la liste d'équipements, à droite, sélectionner "Micro-module
-lumière" :
+Licht" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Commandes 
+Befehle 
 ---------
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/emv.400/commande_eclairage.jpg)
+![Befehle](images/emv.400/commande_eclairage.jpg)
 
 Voici la liste des commandes :
 
--   On : C'est la commande qui permet d'activer le relais 1
+-   Ein : C'est la commande qui permet d'activer le relais 1
 
--   Off : C'est la commande qui permet de désactiver le relais 1
+-   Aus : C'est la commande qui permet de désactiver le relais 1
 
--   On 2 : C'est la commande qui permet d'activer le relais 2
+-   Ein 2 : C'est la commande qui permet d'activer le relais 2
 
--   Off 2: C'est la commande qui permet de désactiver le relais 2
+-   Aus 2: C'est la commande qui permet de désactiver le relais 2
 
 -   E : C'est la commande qui permet de se servir du mode déporté
 
-> **Important**
+> **Wichtig**
 >
 > Le retour d'état est simulé par Jeedom. Par conséquent, si vous
 > utilisez un autre émetteur, Jeedom ne pourra pas mettre à jour l'état
 > du récepteur.
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
-![Commandes](images/emv.400/infos_eclairage.jpg)
+![Befehle](images/emv.400/infos_eclairage.jpg)
 
--   Création : Indique la date à laquelle l'équipement a été crée
+-   Schaffung : Indique la date à laquelle l'équipement a été crée
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Kommunikation : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
 -   Batterie : Indique l'état de la batterie pour les modules à piles
 
--   Status : Retourne le statut du module
+-   STATUS : Retourne le statut du module
 
 Association du micromodule à Jeedom 
 ===================================
@@ -255,7 +255,7 @@ Association du micromodule à Jeedom
 Afin que vous puissiez interagir avec Jeedom, comme si c'était un
 émetteur Edisio.
 
-> **Note**
+> **Notiz**
 >
 > Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir
 > plusieurs émetteurs associés
@@ -342,7 +342,7 @@ remplace désormais le bouton "R" du récepteur.
             commande "E" dans Jeedom, pour valider l'association, le bip
             sonore s'arrête.
 
-> **Note**
+> **Notiz**
 >
 > Vous pouvez recommencer autant de fois que vous voulez associer
 > d'émetteurs au récepteur
@@ -350,7 +350,7 @@ remplace désormais le bouton "R" du récepteur.
 Visuel alternatif 
 =================
 
-![Commandes](images/emv.400/vue_alt_eclairage.jpg)
+![Befehle](images/emv.400/vue_alt_eclairage.jpg)
 
 F.A.Q. 
 ======

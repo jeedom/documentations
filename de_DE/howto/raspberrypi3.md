@@ -10,7 +10,7 @@ génératrice de problèmes (corruption).
 
 **La procédure d'installation est strictement identique à celle sur une
 carte microSD, mais il faudra s'assurer de posséder un firmware à
-jour.**
+Tag.**
 
 Pour cela ouvrez une connexion SSH. (si vous ne savez pas comment faire,
 regarder l'installation sur microSD :
@@ -28,7 +28,7 @@ l'USB. Si il ne trouve rien, il démarrera normalement sur une carte
 microSD.
 
 Si le retour est différent, vous devez simplement effectuer une mise à
-jour.
+Tag.
 
     sudo apt-get update; sudo apt-get install rpi-update
 
@@ -40,12 +40,12 @@ Puis redémarrage du PI3
 
     sudo reboot
 
-> **Important**
+> **Wichtig**
 >
 > Pour éviter les problèmes de puissance, optez pour un disque SSD mSATA
 > à faible consommation.
 
-> **Tip**
+> **Spitze**
 >
 > Vous pouvez désormais installer Jeedom en suivant exactement la même
 > procédure qu'avec une carte SD.
@@ -56,7 +56,7 @@ Ajustements possibles
 
 **Il faut ensuite prendre en compte les remarques suivantes :**
 
-> **Important**
+> **Wichtig**
 >
 > Les modifications suivantes sont le fruit de problèmes rencontrés par
 > les utilisateurs. Vous devez les adapter à votre cas. Le support

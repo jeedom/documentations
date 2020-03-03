@@ -8,7 +8,7 @@ de la mettre en oeuvre.
 Un bref mémo pour installer emoncms est également proposé (cette
 installation n'est actuellement pas proposé en natif dans Jeedom)
 
-EmonCMS peut être installé à côté de Jeedom ou ailleurs. Vous pouvez
+EmonCMS peut être installé à côté de Jeedom ou ailleurs. You can
 meme utiliser l'instance emoncms.org
 
 Envoyer une valeur de Jeedom vers EmonCMS 
@@ -31,7 +31,7 @@ L'url de push est de la forme :
 
 Avec les paramètres :
 
--   id : l'id de la feed qu'on trouve sur emoncms
+-   Id : l'Id de la feed qu'on trouve sur emoncms
 
 -   apikey : la clef api de read&write pour emoncms
 
@@ -51,7 +51,7 @@ Pour prendre une donnée de emoncms dans Jeedom, il y a deux possibilités
     la valeur régulièrement ou via scénario par exemple et normalement
     non utile car les données ont leur source dans jeedom\_setting
 
-        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?Id=1&apikey=xxx
 
 -   La deuxième possibilité est d'utiliser le plugin Event d'emoncms
     pour déclencher une action sur certaines conditions. Cette méthode

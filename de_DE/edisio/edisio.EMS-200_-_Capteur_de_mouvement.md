@@ -6,7 +6,7 @@
 
 ![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple,
@@ -17,7 +17,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser
 un large périmètre. L'indicateur LED intégré signale tout changement
 d'état.
 
-Fonctions 
+Funktionen 
 =========
 
 -   Détecte les mouvements, même dans le noir complet
@@ -32,7 +32,7 @@ Fonctions
 
 -   Montage au mur par des vis ou par double face
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
 Caractéristiques techniques 
 ===========================
@@ -53,28 +53,28 @@ Caractéristiques techniques
 
 -   Degré de protection : IP20
 
--   Utilisation : En intérieur
+-   Verwendung : En intérieur
 
 Données du module 
 =================
 
 -   Marque : Edisio Smart Home
 
--   Nom : EMS-200
+-   Name : EMS-200
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-> **Tip**
+> **Spitze**
 >
 > Le placement est conseillé à une hauteur de 150 cm et à proximité de
 > la température ressentie voulue.
@@ -115,18 +115,18 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Tip**
+> **Spitze**
 >
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-Commandes 
+Befehle 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/ems200/ems200.commande.jpg)
+![Befehle](images/ems200/ems200.commande.jpg)
 
 Voici la liste des commandes :
 
@@ -135,22 +135,22 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
-![Commandes](images/ems200/ems200.informations.jpg)
+![Befehle](images/ems200/ems200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Schaffung : Indique la date à laquelle l'équipement à était créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Kommunikation : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 Visuel alternatif 
 =================

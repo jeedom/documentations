@@ -19,7 +19,7 @@ PolyLock
 
  \
 
-Résumé 
+Summary 
 ------
 
  
@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -96,7 +96,7 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nom : Polylock
+-   Name : Polylock
 
 -   Fabricant ID : 270
 
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -136,16 +136,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/polycontrol.polylock/commandes.jpg)
+![Commands](images/polycontrol.polylock/commandes.jpg)
 
  \
 
@@ -153,18 +153,18 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   To close : c'est la commande qui permet de fermer la serrure
 
--   Batterie : c'est la commande batterie
+-   Drums : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
@@ -178,12 +178,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuration" du
+installation, il faut pour cela passer par la bouton "Setup" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

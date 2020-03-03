@@ -19,7 +19,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -63,7 +63,7 @@ un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave
 individuelles.  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -125,7 +125,7 @@ Données du module
 
 -   Marque : GreenWave
 
--   Nom : GreenWave\[6 x prises\]
+-   Name : GreenWave\[6 x prises\]
 
 -   Fabricant ID : 153
 
@@ -135,7 +135,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -146,7 +146,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sur la prise.
@@ -165,24 +165,24 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/greenwave.powernode/commandes.jpg)
+![Befehle](images/greenwave.powernode/commandes.jpg)
 
-![Commandes](images/greenwave.powernode/commandes2.jpg)
+![Befehle](images/greenwave.powernode/commandes2.jpg)
 
-![Commandes](images/greenwave.powernode/commandes3.jpg)
+![Befehle](images/greenwave.powernode/commandes3.jpg)
 
-![Commandes](images/greenwave.powernode/commandes4.jpg)
+![Befehle](images/greenwave.powernode/commandes4.jpg)
 
-![Commandes](images/greenwave.powernode/commandes5.jpg)
+![Befehle](images/greenwave.powernode/commandes5.jpg)
 
  \
 
@@ -275,17 +275,17 @@ en un seul bouton.
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -315,7 +315,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 

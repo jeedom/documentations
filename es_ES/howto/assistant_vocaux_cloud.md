@@ -1,6 +1,6 @@
 # Assistants vocaux cloud
 
-## Description
+## Descripción
 
 Ce service permet de connecter votre Jeedom avec les assistants vocaux de Google et Amazon.
 

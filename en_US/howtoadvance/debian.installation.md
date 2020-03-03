@@ -27,7 +27,7 @@ configurer comme cela :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **Note**
+> **NOTE**
 >
 > Pensez bien à sélectionner le fichier ISO que vous avez téléchargé
 > juste avant
@@ -44,7 +44,7 @@ vers l'iso (pensez bien à le connecter) et vous lancez la machine. Voir
 [ici](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.creer_une_vm.html)
 pour plus de détails.
 
-Installation 
+Setup 
 ============
 
 Appuyez sur entrée pour lancer l'installation :
@@ -59,7 +59,7 @@ Ici il faut choisir "French" (Français)
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-Idem :
+Same :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
@@ -103,7 +103,7 @@ Validez en appuyant sur entrée :
 
 ![debian.installation13](images/debian.installation13.PNG)
 
-Idem :
+Same :
 
 ![debian.installation14](images/debian.installation14.PNG)
 
@@ -127,7 +127,7 @@ Validez en appuyant sur entrée :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-Idem :
+Same :
 
 ![debian.installation20](images/debian.installation20.PNG)
 
@@ -163,7 +163,7 @@ Optimisation pour Jeedom
 ========================
 
 Pour préparer l'installation de Jeedom vous pouvez faire quelques
-optimisations :
+Optimizations :
 
 Ajouter vim et sudo 
 -------------------
@@ -184,7 +184,7 @@ Ajouter les Open VMware Tools
 -----------------------------
 
 Les Open VMware Tools installent les drivers spécifiques au système
-d'exploitation installé et apportent les optimisations de cet OS hébergé
+d'exploitation installé et apportent les Optimizations de cet OS hébergé
 sur un hyperviseur ESXi.
 
     sudo apt-get install -y open-vm-tools

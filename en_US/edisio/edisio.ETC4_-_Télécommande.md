@@ -6,26 +6,26 @@
 
 ![vue default](images/etc4/vue_default.jpg)
 
-Résumé 
+Summary 
 ======
 
 La mini télécommande e-Trendy de 4 canaux est simple, robuste et design,
 elle a été crée pour plaire. Elle se relie facilement aux récepteurs et
 peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations,
 stores, volets, portails, portes de garage. Elle comporte deux modes de
-programmation.
+Programming.
 
 De plus, l'interaction avec d'autres protocoles est possible, elle peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-Fonctions 
+Functions 
 =========
 
 -   Mode d'usage : Marche/Arrêt, Ouvrir/Stop/Fermer, Variateur,
     Motorisation, Stores, Volets, Portails, Portes de garage
 
--   2 modes de programmation
+-   2 modes de Programming
 
 -   Petit, discret et esthétique
 
@@ -53,16 +53,16 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : ETC4
+-   Name : ETC4
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -124,13 +124,13 @@ Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Commandes 
+Commands 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/etc4/commandes.jpg)
+![Commands](images/etc4/commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -142,32 +142,32 @@ Voici la liste des commandes :
 
 -   bt04 : C'est la commande qui permet d'interagir avec le bouton 4
 
--   Batterie : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
-![Commandes](images/etc4/infos.jpg)
+![Commands](images/etc4/infos.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
--   Batterie : Indique l'état de la batterie pour les modules à piles
+-   Drums : Indique l'état de la batterie pour les modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Utilisation 
+Use 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le
 plugin Scénario de Jeedom interagir avec votre télécommande sur Jeedom.
 
-> **Note**
+> **NOTE**
 >
 > Chaque touche à un retour d'état binaire.
 
@@ -177,7 +177,7 @@ F.A.Q.
 Comment effacer l'association d'une touche à un récepteur ?
 
 :   Appuyez 5 sec sur le "R" du récepteur, un simple bip sonore signale
-    le mode déprogrammation activé. Appuyez sur la touche "C" à effacer.
+    le mode déProgramming activé. Appuyez sur la touche "C" à effacer.
     Recommencez cette opération pour toutes les touches à effacer.
 
 **@Jamsta**

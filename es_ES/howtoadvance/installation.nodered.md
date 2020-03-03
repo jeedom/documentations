@@ -13,7 +13,7 @@ fonctionnel :
     sudo npm install -g node-red
 
 Pour obtenir Nodejs vous pouvez installer un des plugins jeedom qui s'en
-charge.
+Carga.
 
 Démarrage automatique de Nodered 
 ================================

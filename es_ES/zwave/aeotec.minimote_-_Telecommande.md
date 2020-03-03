@@ -19,7 +19,7 @@ Aeotec Minimote
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -35,7 +35,7 @@ paramétrer le réseau Z-Wave.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -46,7 +46,7 @@ Fonctions
 
 -   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
 
--   Fonctions marche/arrêt et variation
+-   Funciones marche/arrêt et variation
 
 -   Fonction ALL ON/ALL OFF
 
@@ -63,11 +63,11 @@ Caractéristiques techniques
 
 -   Type de module : Contrôleur Z-Wave
 
--   Couleur : Blanc
+-   Color : Blanc
 
 -   Alimentation : batterie interne rechargeable via USB
 
--   Affichage: LED bleue et rouge
+-   Visualización: LED bleue et rouge
 
 -   Fréquence : 868,42MHz
 
@@ -86,7 +86,7 @@ Données du module
 
 -   Marque : Aeotec
 
--   Nom : Minimote
+-   Nombre : Minimote
 
 -   Fabricant ID : 134
 
@@ -96,7 +96,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -107,7 +107,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > LEARN, conformément à sa documentation papier.
@@ -126,16 +126,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/aeotec.minimote/commandes.jpg)
+![Comandos](images/aeotec.minimote/commandes.jpg)
 
  \
 
@@ -143,7 +143,7 @@ Voici la liste des commandes :
 
  \
 
--   Boutons : c'est la commande qui remontera le bouton appuyé
+-   Botones : c'est la commande qui remontera le bouton appuyé
 
 1 : Bouton 1 appui court
 
@@ -163,11 +163,11 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -176,11 +176,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -210,7 +210,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -260,7 +260,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

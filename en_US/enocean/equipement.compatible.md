@@ -1,6 +1,6 @@
 
 # a5-02
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température blanc|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2627-nodon-capteur-de-temperature-sans-fils-et-sans-piles-blanc-3700313920183.html)|
 |<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température black|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2637-nodon-capteur-de-temperature-enocean-black-3700313920169.html)|
@@ -10,7 +10,7 @@
 |<img src="../../fr_FR/enocean/images/a5-02-17.jpg" width="60" />|Thermokon|Capteur de température tuyau|Température|||
 
 # a5-04
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 ||a5-04|||||
 |<img src="../../fr_FR/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Sonde radio humidité et température pour montage interieur|Température|||
@@ -18,12 +18,12 @@
 |<img src="../../fr_FR/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Sonde radio humidité et température pour montage extérieur - FAFT60|Température||[Acheter](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
 
 # a5-06
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-06-01.jpg" width="60" />|Eltako|Sonde de luminosité extérieure FAH60|Luminosité||[Acheter](http://www.domadoo.fr/fr/peripheriques/3084-eltako-sonde-de-luminosite-exterieure-4010312305218.html)|
 
 # a5-07
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Eosca|Détecteur de mouvement EnOcean (position plafond)|Mouvement|||
 |<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Pressac|Détecteur de mouvement Sous bureau (underdesk)|Mouvement|||
@@ -31,7 +31,7 @@
 |<img src="../../fr_FR/enocean/images/a5-07-03.jpg" width="60" />|Avidsen|Détecteur de mouvement|Mouvement|||
 
 # a5-09
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 ||a5-09|||||
 |<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|Sonde CO2 qualité d'air E4000|Capteur|||
@@ -42,18 +42,18 @@
 |<img src="../../fr_FR/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Sonde qualité d'air E4000NG|Capteur|||
 
 # a5-10
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-10-06.jpg" width="60" />|Eltako|Régulateur de température avec fonctions jour/nuit/OFF|Régulateur||[Acheter](http://www.domadoo.fr/fr/peripheriques/3128-eltako-regulateur-de-temperature-avec-fonctions-journuitoff-4010312315859.html)|
 ||Avidsen|Sonde de température et d'humidité avec affichage numérique|Régulateur|||
 
 # a5-11
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-11-02.jpg" width="60" />|Altecon|Régulateur de climatisaton/chauffage|Régulateur|||
 
 # a5-12
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-12-00.jpg" width="60" />|Avidsen|Module Pince ampérimétrique|Compteur|||
 |<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Module de comptage d'énergie 65A|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2837-eltako-module-de-comptage-d-energie-65a-4010312311059.html)|
@@ -62,28 +62,28 @@
 |<img src="../../fr_FR/enocean/images/a5-12-10.jpg" width="60" />|Ewattch|SQUID Sous-compteur electrique EnOcean - 12 entrées|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2859-ewattch-squid-sous-compteur-electrique-enocean-12-entrees-3770002148045.html)|
 
 # a5-14
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-14-01.jpg" width="60" />|Avidsen|Rain Sensor|Détecteur|||
 |<img src="../../fr_FR/enocean/images/a5-14-05.jpg" width="60" />|Avidsen|Détecteur de bruit|Détecteur|||
 
 # a5-20
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-20-01.jpg" width="60" />|Micropelt|Vanne thermostatique EnOcean sans pile|Vanne|Bien s'assurer que la vanne clignote une fois en réponse à l'inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/3259-micropelt-vanne-thermostatique-enocean-4260413370022.html)|
 
 # d1079-00
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d1079-00-00.jpg" width="60" />|Ventilairsec|Assistant|Télécommande|||
 
 # d1079-01
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d1079-01-00.jpg" width="60" />|Ventilairsec|VMI|Ventilation|||
 
 # d2-01
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-01-01.jpg" width="60" />|Avidsen|Module Chaudière|Contacteur|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant||
 |<img src="../../fr_FR/enocean/images/d2-01-08.jpg" width="60" />|Flextron|ALADIN prise intermédiaire Pro|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant||
@@ -98,52 +98,52 @@
 |<img src="../../fr_FR/enocean/images/d2-01-12.jpg" width="60" />|Avidsen|Micromodule commutateur double EnOcean|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant||
 
 # d2-03
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-03-0a.jpg" width="60" />|Nodon|Soft Button|Bouton|5 appuis rapides en mode inclusion||
 
 # d2-04
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-04-08.jpg" width="60" />|Nanosense|E4000-NG|Capteur|||
 
 # d2-05
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-05-00.jpg" width="60" />|Nodon|Micromodule Volet Roulant EnOcean|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant||
 |<img src="../../fr_FR/enocean/images/d2-05-00.jpg" width="60" />|Avidsen|Micromodule Volet Roulant EnOcean|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant||
 
 # d2-06
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-06-01.jpg" width="60" />|Soda|Poignée intelligente EnOcean|Poignée|Bien s'assurer que la poignée bippe après inclusion. Sinon procédez à une exclusion avant|[Acheter](http://www.domadoo.fr/fr/peripheriques/2.html)|
 
 # d2-14
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Fumée|||
 
 # d2-32
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-32-00.jpg" width="60" />|PressacSensing|Pince Ampérimétrique Enocean|Courant|||
 |<img src="../../fr_FR/enocean/images/d2-32-02.jpg" width="60" />|PressacSensing|Pince Ampérimétrique Enocean 3 voies|Courant|||
 
 # d5-00
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture blanc|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2626-nodon-detecteur-d-ouverture-sans-fils-et-sans-piles-blanc-3700313920138.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture black|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2640-nodon-detecteur-d-ouverture-enocean-black-3700313920114.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture alu|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2641-nodon-detecteur-d-ouverture-enocean-alu-3700313920121.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture wood|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2638-nodon-detecteur-d-ouverture-enocean-wood-3700313920091.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture varnish|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2639-nodon-detecteur-d-ouverture-enocean-varnish-3700313920107.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - blanc - FTK-RW|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3122-eltako-contact-de-portefenetre-blanc-4010312305010.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - argent - FTK-SI|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3123-eltako-contat-de-portefenetre-argente-4010312305171.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - anthracite - FTK-AN|Ouverture|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3121-eltako-contact-de-portefenetre-anthracite-4010312305164.html)|
-|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Avidsen|Contact de porte/fenêtre|Ouverture|||
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture blanc|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2626-nodon-detecteur-d-ouverture-sans-fils-et-sans-piles-blanc-3700313920138.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture black|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2640-nodon-detecteur-d-ouverture-enocean-black-3700313920114.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture alu|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2641-nodon-detecteur-d-ouverture-enocean-alu-3700313920121.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture wood|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2638-nodon-detecteur-d-ouverture-enocean-wood-3700313920091.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Nodon|Capteur d'ouverture varnish|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2639-nodon-detecteur-d-ouverture-enocean-varnish-3700313920107.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - blanc - FTK-RW|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3122-eltako-contact-de-portefenetre-blanc-4010312305010.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - argent - FTK-SI|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3123-eltako-contat-de-portefenetre-argente-4010312305171.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Eltako|Contact de porte/fenêtre - anthracite - FTK-AN|Opening|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/3121-eltako-contact-de-portefenetre-anthracite-4010312305164.html)|
+|<img src="../../fr_FR/enocean/images/d5-00-01.jpg" width="60" />|Avidsen|Contact de porte/fenêtre|Opening|||
 
 # f6-02
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 ||f6-02|||||
 ||f6-02|||||
@@ -157,7 +157,7 @@
 |<img src="../../fr_FR/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Interrupteur mural EnOcean - Cozi Grey|Interrupteur|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Convertisseur infrarouge/EnOcean avec port USB pour télécommande Harmony Logitech - FIW-USB|Infrarouge|Créera autant d'équipement que de famille boutons disponibles dans la documentation de modules (à chaque famille une inclusion est nécessaire)|[Acheter](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|f6-02|||||
-|<img src="../../fr_FR/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Contact de porte/fenêtre avec levier - blanc - FTKE-RW|Ouverture|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
+|<img src="../../fr_FR/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Contact de porte/fenêtre avec levier - blanc - FTKE-RW|Opening|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote blue tech|Télécommande|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote cozy grey|Télécommande|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote blue lagoon|Télécommande|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
@@ -170,29 +170,29 @@
 |<img src="../../fr_FR/enocean/images/f6-02-02.smoke.jpg" width="60" />|Eltako|Détecteur de fumée optique EnOcean - FRW-WS|Fumée|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/2835-eltako-detecteur-de-fumee-optique-enocean-4010312312308.html)|
 
 # f6-03
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/f6-03-01.impulsion.jpg" width="60" />|Eltako|Module F8S12-12VDC|Impulsion|Bien choisir le bon profil après inclusion et créer un équipement par canal||
 ||f6-03|||||
 
 # f6-04
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/f6-04-01.jpg" width="60" />|Nodon|Interrupteur à carte EnOcean|Interrupteur|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/3066-nodon-interrupteur-a-carte-enocean-3700313920329.html)|
 
 # f6-05
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/f6-05-01.jpg" width="60" />|Eltako|Détecteur d'inondation Enocean FWS81|Fuite|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/3132-eltako-detecteur-d-inondation-enocean-4010312316061.html)|
 
 # f6-10
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Poignée de fenêtre Sécusignal Atlanta Aluminium|Poignée|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/1062-hoppe-poignee-fenetre-secusignal-atlanta-alu-4012789023428.html)|
 |<img src="../../fr_FR/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Poignée de fenêtre Sécusignal Atlanta Blanche|Poignée|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/1063-hoppe-poignee-fenetre-secusignal-atlanta-blanc-4012789104158.html)|
 
 # recepteur
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/recepteur_1_canal.jpg" width="60" />|Trio2sys|Récepteur 1 canal O2line|Micromodule|Module récepteur seulement ne s'inclue pas mais s'appaire||
 |<img src="../../fr_FR/enocean/images/recepteur_1_canal.jpg" width="60" />|Vitec|Récepteur 1 canal Vitec|Micromodule|Module récepteur seulement ne s'inclue pas mais s'appaire||

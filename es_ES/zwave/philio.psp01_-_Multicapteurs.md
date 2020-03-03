@@ -19,7 +19,7 @@ Philio PSP01
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -48,7 +48,7 @@ réseau existant.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -86,7 +86,7 @@ Caractéristiques techniques
 
 -   Alimentation : 1 pile 3V CR123A
 
--   Durée de vie des piles : 2 ans
+-   Durée de vie des piles : 2 años
 
 -   Fréquence : 868.42 MHz
 
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Capteur de température : -10 à 70° C
 
--   Capteur de luminosité : 0 à 500 lux
+-   Sensor de brillo : 0 à 500 lux
 
 -   Angle de détection PIR : 90°
 
@@ -121,7 +121,7 @@ Données du module
 
 -   Marque : Philio Technology Corporation
 
--   Nom : Philio PSP01
+-   Nombre : Philio PSP01
 
 -   Fabricant ID : 316
 
@@ -131,7 +131,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -142,7 +142,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -161,16 +161,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/philio.psp01/commandes.jpg)
+![Comandos](images/philio.psp01/commandes.jpg)
 
  \
 
@@ -180,7 +180,7 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
@@ -191,18 +191,18 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
 correspondant à votre module.
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -211,11 +211,11 @@ correspondant à votre module.
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -264,7 +264,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -286,7 +286,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Punta**
 >
 > Ce module a une particularité, n'ayant pas de rapport basé sur les
 > variations mais uniquement sur la durée, il envoit toutes ses infos à
@@ -339,7 +339,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

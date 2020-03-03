@@ -19,7 +19,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -37,7 +37,7 @@ contrôleur compatible avec le standard Z-Wave
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -87,7 +87,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Wall Plug FGWPE-101
+-   Nombre : Wall Plug FGWPE-101
 
 -   Fabricant ID : 271
 
@@ -97,7 +97,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -108,7 +108,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -127,16 +127,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/fibaro.fgwpe101/commandes.jpg)
+![Comandos](images/fibaro.fgwpe101/commandes.jpg)
 
  \
 
@@ -144,14 +144,14 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
+-   Estado : C'est la commande qui permet de connaître le statut de la
     prise
 
--   On : C'est la commande qui permet d'allumer la prise
+-   Uno : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   Apagado : C'est la commande qui permet d'éteindre la prise
 
--   Puissance : C'est la commande qui remonte la puissance instatanée
+-   Potencia : C'est la commande qui remonte la puissance instatanée
     consommée
 
 -   Conso : C'est la commande qui remonte la consommation totale
@@ -163,17 +163,17 @@ en un seul bouton.
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -244,7 +244,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 

@@ -19,7 +19,7 @@ Secure SIR 321 "Timer"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -39,7 +39,7 @@ SES002 et SES003.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -86,7 +86,7 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Fabricant ID : 89
 
@@ -95,7 +95,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -106,7 +106,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton (jusqu'au clignotement rapide) et relacher, conformément à
@@ -126,16 +126,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/secure.sir321/commandes.jpg)
+![Commands](images/secure.sir321/commandes.jpg)
 
  \
 
@@ -143,7 +143,7 @@ Voici la liste des commandes :
 
  \
 
--   On : c'est la commande permettant d'allumer le relais
+-   We : c'est la commande permettant d'allumer le relais
 
 -   Off : c'est la commande permettant d'éteindre le relais
 
@@ -152,16 +152,16 @@ Voici la liste des commandes :
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
 Si vous voulez configurer le module il faut passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -194,7 +194,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

@@ -1,4 +1,4 @@
-Everspring Miniplug On/Off - AN180-6 
+Everspring Miniplug Uno/Apagado - AN180-6 
 ====================================
 
  \
@@ -19,25 +19,25 @@ Everspring Miniplug On/Off - AN180-6
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
 
-La Mini Prise On/Off est conçue pour contrôler l'allumage et
+La Mini Prise Uno/Apagado est conçue pour contrôler l'allumage et
 l'extinction des luminaires et des équipements électriques de votre
 maison. Avec une tension de 220 - 240 V, cette Prise peut supporter une
 charge jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur,
 fluorescent, Led).
 
-La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné
+La Mini Prise Uno/Apagado est un appareil compatible Z-Wave™ qui est destiné
 pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
 être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
 contrôleur Z-Wave de votre réseau.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -81,7 +81,7 @@ Caractéristiques Techniques
 
 -   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 
--   Affichage: LED sur le bouton
+-   Visualización: LED sur le bouton
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
@@ -94,7 +94,7 @@ Données du module
 
 -   Marque : Everspring
 
--   Nom : Miniplug On/Off
+-   Nombre : Miniplug Uno/Apagado
 
 -   Fabricant ID : 96
 
@@ -104,7 +104,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -115,7 +115,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
 > bouton, conformément à sa documentation papier. Il est important de
@@ -136,16 +136,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/everspring.AN180-6/commandes.jpg)
+![Comandos](images/everspring.AN180-6/commandes.jpg)
 
  \
 
@@ -153,31 +153,31 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
+-   Estado : C'est la commande qui permet de connaitre le statut de la
     prise (Allumée/éteinte)
 
--   On : C'est la commande qui permet d'allumer la prise
+-   Uno : C'est la commande qui permet d'allumer la prise
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   Apagado : C'est la commande qui permet d'éteindre la prise
 
  \
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
+A noter que sur le dashboard, les infos Estado, ON/OFF se retrouvent sur
 la même icône.
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -203,7 +203,7 @@ Détails des paramètres :
 -   3 : Ce paramètre permet de définir si la prise reprendra son statut
     (ON ou OFF) après une reprise de courant.
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -215,7 +215,7 @@ Ce module possède 2 groupes d'association.
 
  \
 
-> **Important**
+> **Importante**
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1  \
 

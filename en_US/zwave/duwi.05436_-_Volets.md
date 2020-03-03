@@ -19,7 +19,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -36,14 +36,14 @@ Ses principales caractéristiques sont :
 -   La possibilité d'envoyer un signal montée / descente en continu sans
     limite de temps.
 
-Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque
+Be careful: ce module n'envoie pas son état au contrôleur z-wave lorsque
 l'utilisateur appuie directement sur les boutons. Il faut faire un
 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
 plus loin).
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : Popp/Duwi
 
--   Nom : ZW ESJ Blind Control
+-   Name : ZW ESJ Blind Control
 
 -   Fabricant ID : 100
 
@@ -103,14 +103,14 @@ Données du module
 
  \
 
-Connexion 
+Connection 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -121,7 +121,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre le module en mode inclusion, il faut appuyer trois fois
 > sur la montée ou la descente. L'exclusion se fait de la même manière.
@@ -136,16 +136,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/duwi.05436/4-Commandes.PNG)
+![Commands](images/duwi.05436/4-Commands.PNG)
 
  \
 
@@ -153,17 +153,17 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la position actuelle du volet, en pourcentage de 0 à 99
+-   State : c'est la position actuelle du volet, en pourcentage de 0 à 99
 
 -   Descendre : commande pour descendre complètement
 
 -   Monter : commande pour monter complètement
 
--   Stop : arrêt immédiat du mouvement
+-   STOP : arrêt immédiat du mouvement
 
--   Rafraîchir : rafraichîr l'état actuel du module
+-   Refresh : rafraichîr l'état actuel du module
 
--   Niveau : slider pour positionner une ouverture partielle
+-   Level : slider pour positionner une ouverture partielle
 
  \
 
@@ -186,17 +186,17 @@ Recommencer l'opération dans l'autre sens.
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -224,15 +224,15 @@ et la seconde pour la descente.
 Les valeurs sont codées en héxadécimal dans le module et remises en
 décimal dans l'affichage de Jeedom.
 
-Par exemple : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
+For example : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
 pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
 décimal : 18s pour montée et descente.
 
 A noter : forcer une valeur à zéro pour ce paramètre impliquera que le
 module commutera sur montée ou descente sans limite de temps. Il faudra
-alors envoyer un 'Stop' pour interrompre.
+alors envoyer un 'STOP' pour interrompre.
 
--   1 : Stop-functionnality : Enabled ou Disabled :
+-   1 : STOP-functionnality : Enabled ou Disabled :
 
 Sert à indiquer si un appui dans la direction opposée pendant un
 déplacement stoppe le volet ou le renvoie immédiatement dans le sens
@@ -240,7 +240,7 @@ opposé.
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -249,7 +249,7 @@ trouver votre contrôleur Z-Wave.
 
  \
 
-![Groupe](images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-Groups.PNG)
 
  \
 
@@ -281,7 +281,7 @@ Bon à savoir
 
 > **Tip**
 >
-> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "Etat". Ce
+> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "State". Ce
 > widget est sympa car il montre les états 'partiellement ouvert'.
 
 **@Theduck38**

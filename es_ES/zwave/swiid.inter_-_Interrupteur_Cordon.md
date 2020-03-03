@@ -19,7 +19,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
@@ -50,7 +50,7 @@ distance.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
@@ -61,7 +61,7 @@ Fonctions
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
 
--   Fonction ON/OFF
+-   Fonction Uno/Apagado
 
 -   Activation d'un scénario domotique sur appui long
     (association Z-Wave)
@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Couleur : noire
+-   Color : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -114,7 +114,7 @@ Données du module
 
 -   Marque : Swiid
 
--   Nom : Swiidinter
+-   Nombre : Swiidinter
 
 -   Fabricant ID : 358
 
@@ -124,7 +124,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -135,7 +135,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l'arrière, conformément à sa documentation papier
@@ -154,16 +154,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/swiid.inter/commandes.jpg)
+![Comandos](images/swiid.inter/commandes.jpg)
 
  \
 
@@ -171,31 +171,31 @@ Voici la liste des commandes :
 
  \
 
--   Etat : C'est la commande qui permet de connaître le statut de la
-    lumière
+-   Estado : C'est la commande qui permet de connaître le statut de la
+    Iluminación
 
--   ON : C'est la commande qui permet d'allumer la lumière
+-   Uno : C'est la commande qui permet d'allumer la Iluminación
 
--   OFF : C'est la commande qui permet d'éteindre la lumière
+-   Apagado : C'est la commande qui permet d'éteindre la Iluminación
 
  \
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Icono
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,20 +217,20 @@ swiidinter à un autre module (appui long)
 
  \
 
--   Inactif : n'aura aucun effet sur les autres lumières
+-   Inactivo : n'aura aucun effet sur les autres Iluminacións
 
--   Uniquement OFF : sera effectif uniquement pour éteindre les autres
-    lumières
+-   Uniquement Apagado : sera effectif uniquement pour éteindre les autres
+    Iluminacións
 
--   Uniquement ON : sera effectif uniquement pour allumer les autres
-    lumières
+-   Uniquement Uno : sera effectif uniquement pour allumer les autres
+    Iluminacións
 
--   ON et OFF (fully) : sera effectif pour allumer et éteindre les
-    autres lumières
+-   Uno et Apagado (fully) : sera effectif pour allumer et éteindre les
+    autres Iluminacións
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -242,20 +242,20 @@ Ce module possède deux groupes d'association.
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.
 
  \
 
-Associer à une autre lumière 
+Associer à une autre Iluminación 
 ----------------------------
 
  \
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
-l'allumage d'une autre lumière, il suffit de la rajouter au groupe
+Pour associer le swiidinter à une autre Iluminación et pouvoir bénéficier de
+l'allumage d'une autre Iluminación, il suffit de la rajouter au groupe
 d'association 1 via l'écran cité au-dessus.
 
  \
@@ -288,7 +288,7 @@ F.A.Q.
  \
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
-spécifique.
+Especifico.
 
  \
 

@@ -26,7 +26,7 @@ Allez sur IP\_ESXI/ui avec votre navigateur internet, vous devez avoir :
 
 ![vmware.createvm3](images/vmware.createvm3.PNG)
 
-> **Note**
+> **Nota**
 >
 > Si vous n'avez rien je vous conseille de faire l'installation de
 > l'interface web, toutes les informations
@@ -45,7 +45,7 @@ pouvez déja à partir de cette écran :
 -   voir l'utilisation des ressources (CPU,mémoire et disque)
 
 -   avoir des informations sur votre système (temps de fonctionnement,
-    version de VMware, version du bios, affichage des datastores)
+    version de VMware, version du bios, affichage des almacén de datoss)
 
 -   bouton pour créer une VM (on va s'en servir juste après)
 
@@ -60,17 +60,17 @@ Envoi de l'iso d'installation
 Après avoir téléchargé votre iso d'installation
 ([ici](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 par exemple pour debian 8.5 en netinstall), il vous faut le mettre sur
-votre datastore.
+votre almacén de datos.
 
-Pour cela cliquez sur datastore :
+Pour cela cliquez sur almacén de datos :
 
 ![vmware.createvm18](images/vmware.createvm18.PNG)
 
-Selectionnez votre datastore (en general il s'appelle datastore1) :
+Selectionnez votre almacén de datos (en general il s'appelle almacén de datos1) :
 
 ![vmware.createvm19](images/vmware.createvm19.PNG)
 
-Cliquez sur "Navigateur de banque de données" :
+Cliquez sur "Navigateur de banque de Datos" :
 
 ![vmware.createvm20](images/vmware.createvm20.PNG)
 
@@ -87,7 +87,7 @@ Vous pouvez ensuite suivre l'avancement de l'envoi :
 ![vmware.createvm23](images/vmware.createvm23.PNG)
 
 Une fois fini vous pouvez voir que votre iso est bien arrivé sur le
-datastore :
+almacén de datos :
 
 ![vmware.createvm24](images/vmware.createvm24.PNG)
 
@@ -107,7 +107,7 @@ d'exploitation (ici on va installer une Débian) :
 
 ![vmware.createvm7](images/vmware.createvm7.PNG)
 
-Indiquez le datastore cible :
+Indiquez le almacén de datos cible :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
@@ -116,7 +116,7 @@ dure, cpu, mémoire…​) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
-> **Note**
+> **Nota**
 >
 > Tous ces paramètres sont modifiable après coup sans soucis, à noter
 > tout de meme qu'il n'est pas vraiment possible de réduire la taille
@@ -124,7 +124,7 @@ dure, cpu, mémoire…​) :
 > niveau de l'OS ensuite) mais pas la réduire.
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de
-données" :
+Datos" :
 
 ![vmware.createvm10](images/vmware.createvm10.PNG)
 
@@ -161,7 +161,7 @@ votre OS :
 
 ![vmware.createvm17](images/vmware.createvm17.PNG)
 
-> **Important**
+> **Importante**
 >
 > Un fois votre machine installée il faut ABSOLUMENT installer les
 > VMware tools (ça permet à VMware d'avoir des informations sur votre VM
@@ -174,7 +174,7 @@ Pour la suite de l'installation je vous invite à lire ce
 Monter les péripheriques USB dans la VM 
 =======================================
 
-> **Note**
+> **Nota**
 >
 > Si vous n'avez pas les options ci-dessous c'est qu'il faut mettre à
 > jour l'ESXi Embedded Host Client , toutes les informations
@@ -185,7 +185,7 @@ effet j'ai sur mon ESXi les clefs Zwave, RFXcom, edisio, enOcean et GSM
 de branchées et il me fallait les relier à ma VM Jeedom pour pouvoir
 m'en servir.
 
-> **Note**
+> **Nota**
 >
 > Pour Zwave, RFXcom, edisio et enOcean il n'y a aucun soucis, pour les
 > clefs GSM il vous faut suivre ce
@@ -201,7 +201,7 @@ Cliquez sur "Ajouter un autre périphérique" puis controleur USB :
 
 ![vmware.createvm26](images/vmware.createvm26.PNG)
 
-> **Note**
+> **Nota**
 >
 > L'étape qui suit devra être repétée pour chaque périphérique USB que
 > vous voulez connecter

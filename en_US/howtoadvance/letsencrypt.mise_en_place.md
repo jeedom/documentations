@@ -1,7 +1,7 @@
 Installation de Letsencrypt 
 ===========================
 
-Voici les commandes à lancer pour installer letsencrypt avant la
+Voici les Commands à lancer pour installer letsencrypt avant la
 génération :
 
     apt-get install -y git
@@ -31,7 +31,7 @@ Attention il est nécessaire d'ouvrir le port 80 sur le routeur (FAI) !
 Activation du virtualHost et du module SSL 
 ------------------------------------------
 
-> **Note**
+> **NOTE**
 >
 > Se connecter en SSH sur la box Jeedom.
 
@@ -39,7 +39,7 @@ Activation du virtualHost et du module SSL
     a2ensite default-ssl.conf
     service apache2 restart
 
-> **Note**
+> **NOTE**
 >
 > Aucun certificat ne sera délivré par LetsEncrypt tant que votre site
 > en HTTPS ne sera pas joignable de l'extérieur.
@@ -50,11 +50,11 @@ Vous devez remplacer les paramètres <email@domaine.com> et domaine.com
 par vos valeurs. Normalement les paramètres d'ajout du protocole HTTPS
 sont ajoutés par le script dans Apache.
 
-> **Note**
+> **NOTE**
 >
 > Si vous utilisez la méthode de renouvellement automatique ci-dessous,
 > vous pouvez désactiver le virtualHost **default-ssl.conf** avec la
-> commande **a2dissite default-ssl.conf** Pensez à reporter le code par
+> Command **a2dissite default-ssl.conf** Pensez à reporter le code par
 > défaut ci-dessous dans le virtualHost créé par le script de
 > renouvellement :
 > /etc/apache2/sites-available/000-default-le-ssl.conf\`
@@ -70,7 +70,7 @@ sont ajoutés par le script dans Apache.
 Configuration de Nginx 
 ======================
 
-Cette commande n'est à utiliser que si vous disposez d'un serveur web
+Cette Command n'est à utiliser que si vous disposez d'un serveur web
 Nginx.
 
     ./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
@@ -101,12 +101,12 @@ Et enfin redémarrez le serveur Nginx.
 Renouvellement 
 ==============
 
-Le renouvellement se fait avec la commande :
+Le renouvellement se fait avec la Command :
 
     /opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
 Vous recevez un mail automatiquement à l'arrivée de l'échéance du
-certificat qui vous rappellera de lancer cette commande.
+certificat qui vous rappellera de lancer cette Command.
 
 Méthode automatique 
 -------------------
@@ -159,7 +159,7 @@ C'est quand même mieux quand c'est automatique. Pour ce faire, voici les
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **IMPORTANT**
 >
 > Attention à bien adapter le chemin vers le script.
 

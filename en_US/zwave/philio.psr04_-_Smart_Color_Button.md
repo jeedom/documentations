@@ -19,7 +19,7 @@ Philio Smart Color Button
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -51,7 +51,7 @@ faible consomation d'énergie permettant une plus grande autonomie.
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -68,7 +68,7 @@ Fonctions
 
 -   S'adapte à tout style de décoration
 
--   Batterie rechargeable
+-   Drums rechargeable
 
 -   Très faible consommation d'énergie
 
@@ -87,7 +87,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Alimentation : Drums Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
@@ -116,7 +116,7 @@ Données du module
 
 -   Marque : Philio
 
--   Nom : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Fabricant ID : 316
 
@@ -126,7 +126,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -137,7 +137,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
@@ -157,16 +157,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/philio.psr04/commandes.jpg)
+![Commands](images/philio.psr04/commandes.jpg)
 
  \
 
@@ -174,19 +174,19 @@ Voici la liste des commandes :
 
  \
 
--   Etat : c'est la commande qui remontera la position du bouton de 0 à
+-   State : c'est la commande qui remontera la position du bouton de 0 à
     100%
 
--   Batterie : c'est la commande qui remonte l'état de batterie du
+-   Drums : c'est la commande qui remonte l'état de batterie du
     module
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -195,11 +195,11 @@ Voici la liste des commandes :
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Setup" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -231,7 +231,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Groups 
 
  \
 
@@ -289,7 +289,7 @@ Note importante
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un

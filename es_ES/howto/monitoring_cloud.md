@@ -1,6 +1,6 @@
 # Monitoring cloud
 
-## Description
+## Descripción
 
 Le monitoring cloud est un service Jeedom SAS payant qui surveille en permanance votre ou vos Jeedoms et vous prévient en cas de soucis.
 
@@ -21,11 +21,11 @@ La liste de ce qui est surveillé évolue pour essayer d'etre le plus réactif/p
 - Charge mémoire
 - Charge SWAP
 - Entrée/Sortie disques
-- Espace disque libre
+- Espacio disco libre
 
 Vous êtes aussi prévenu lors d'un redemarrage de votre Jeedom.
 
-# Historique
+# Historial
 
 Sur le market a partir de votre page profil puis en cliquant sur information dans l'onglet mes service partie service monitoring vous avez toute les données actuel connu sur votre jeedom et vous pouvez en cliquant sur graphique voir l'historique sur les dernieres 24h (nous ne conservons pas plus de données que les dernieres 24h)
 
@@ -54,15 +54,15 @@ Après avoir ajouté du crédit monitoring cloud, il faut soit attendre quelques
 
 Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. Il faut environ 10min pour qu'il se lance suite à la synchronisation avec le market (clic sur le bouton test).
 
->**IMPORTANT**
+>**Importante**
 >
 >Lors de la premiere activation ou réactivation il est possible que vous receviez un mail/telegram/slack/sms vous indiquant que votre Jeedom n'est pas disponible. C'est normal c'est le temps que le Jeedom en question active les services de monitoring.
 
->**IMPORTANT**
+>**Importante**
 >
 > Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte
 
->**IMPORTANT**
+>**Importante**
 >
 > Pour les notifications il suffit de récupérer l'arn de votre mobile, il se situe dans le plugin mobile, sur votre equipement mobile puis d'accéder à l'onglet "notification" puis copie la ligne "ARN" attention il faut prendre uniquement ce qu'il y a apres "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 
@@ -73,7 +73,7 @@ Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. 
 - Debian x64 Jessie
 - RPI
 
-# FAQ
+# Preguntas frecuentes
 
 >**Je recois toute les 10 minutes un message m'indiquant que jeedom à redemarré alors que c'est pas vrai**
 >

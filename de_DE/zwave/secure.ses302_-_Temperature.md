@@ -19,7 +19,7 @@ Secure SES 302 "Température"
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  \
@@ -45,7 +45,7 @@ peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -70,7 +70,7 @@ Caractéristiques techniques
 
  \
 
--   Type: Portable/fixation murale
+-   Typ: Portable/fixation murale
 
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
 
@@ -95,17 +95,17 @@ Données du module
 
 -   Marque : Horstmann
 
--   Nom : SES 302 Temperature Sensor
+-   Name : SES 302 Temperature Sensor
 
 -   Fabricant ID : 89
 
--   Type Produit : 13
+-   Typ Produit : 13
 
 -   Produit ID : 2
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -116,7 +116,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
 > le bouton au dos et relacher, conformément à sa documentation papier.
@@ -135,16 +135,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/secure.ses302/commandes.jpg)
+![Befehle](images/secure.ses302/commandes.jpg)
 
  \
 
@@ -156,16 +156,16 @@ Voici la liste des commandes :
 
 -   Batterie : c'est la commande batterie
 
-Plusieurs températures nons visibles sont aussi disponibles et seront
+Plusieurs températures nons visibles sont aussi verfügbar et seront
 utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Lors d'une première inclusion réveillez toujours le module juste après
 > l'inclusion.
@@ -174,11 +174,11 @@ utiles si vous avez raccordé des sondes externes
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Konfiguration" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -206,7 +206,7 @@ sondes externes éventuellement branchées
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -263,7 +263,7 @@ Note importante
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un

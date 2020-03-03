@@ -19,7 +19,7 @@ Fibaro Dimmer2 - FGD-212
 
  \
 
-Résumé 
+Summary 
 ------
 
  \
@@ -47,7 +47,7 @@ de consommation instantanée (en W) et la consommation électrique totale
 
  \
 
-Fonctions 
+Functions 
 ---------
 
  \
@@ -117,7 +117,7 @@ Caractéristiques techniques
 
 -   Fréquence : 868,42 Mhz
 
--   Puissance du signal : 1mW
+-   Power du signal : 1mW
 
 -   Distance de transmission : 50m champ libre, 30m en intérieur
 
@@ -139,7 +139,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : FGD212 Dimmer 2
+-   Name : FGD212 Dimmer 2
 
 -   Fabricant ID : 271
 
@@ -149,7 +149,7 @@ Données du module
 
  \
 
-Configuration 
+Setup 
 -------------
 
  \
@@ -160,7 +160,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier. Si le
@@ -189,16 +189,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Commands 
 
  \
 
 Une fois le module reconnu, les commandes associées aux modules seront
-disponibles.
+available.
 
  \
 
-![Commandes](images/fibaro.fgd212/commandes.jpg)
+![Commands](images/fibaro.fgd212/commandes.jpg)
 
  \
 
@@ -207,37 +207,37 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande qui permet de régler l'intensité de la
-    lumière
+    Light
 
--   On : C'est la commande qui permet d'allumer la lumière
+-   We : C'est la commande qui permet d'allumer la Light
 
--   Off : C'est la commande qui permet d'éteindre la lumière
+-   Off : C'est la commande qui permet d'éteindre la Light
 
--   Etat : C'est la commande qui permet de connaitre le statut de la
-    lumière
+-   State : C'est la commande qui permet de connaitre le statut de la
+    Light
 
 -   Consommation : C'est la commande qui permet de remonter la
     consommation du module
 
--   Puissance : C'est la commande qui permet de remonter la puissance
+-   Power : C'est la commande qui permet de remonter la puissance
     instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Icon
 
  \
 
-### Configuration du module 
+### Setup du module 
 
  \
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Setup" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -266,7 +266,7 @@ EN COURS DE REDACTION
 
  \
 
-### Groupes 
+### Groups 
 
  \
 

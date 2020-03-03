@@ -19,7 +19,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
-Résumé 
+Resumen 
 ------
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
@@ -49,7 +49,7 @@ la norme 0-10V.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
@@ -108,7 +108,7 @@ Données du module
 
 -   Marque : Fibar Group
 
--   Nom : Fibaro FGRGB-101 RGBW
+-   Nombre : Fibaro FGRGB-101 RGBW
 
 -   Fabricant ID : 271
 
@@ -118,7 +118,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
@@ -127,7 +127,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -146,23 +146,23 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/fibaro.fgrgb101/commande_1.png)
+![Comandos](images/fibaro.fgrgb101/commande_1.png)
 
-![Commandes](images/fibaro.fgrgb101/commande_2.png)
+![Comandos](images/fibaro.fgrgb101/commande_2.png)
 
  \
 
 Voici la liste des commandes :
 
--   Couleur : C'est la commande qui permet de régler le code couleur à
-    afficher
+-   Color : C'est la commande qui permet de régler le code couleur à
+    Mostrar
 
 -   Cheminée : C'est la commande qui permet de simuler une ambiance de
     cheminée
@@ -185,28 +185,28 @@ Voici la liste des commandes :
     couleur type blanc chaud, si le bandeau de couleur le permet. (cette
     commande est non visible par défaut)
 
--   On : C'est la commande qui permet d'allumer le bandeau sur la
+-   Uno : C'est la commande qui permet d'allumer le bandeau sur la
     dernière couleur choisit auparavant
 
--   Off : C'est la commande qui permet d'éteindre le bandeau
+-   Apagado : C'est la commande qui permet d'éteindre le bandeau
 
 -   Intensité : C'est la commande qui permet de régler l'intensité
     lumineuse
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
-icone
+Icono
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
 Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuration" du
+installation. Il faut pour cela passer par le bouton "Configuración" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -226,7 +226,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres
 
  \
 
-### Groupes 
+### Grupos 
 
 Ce module possède cinq groupes d'association, seul le cinquième est
 indispensable.

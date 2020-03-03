@@ -11,12 +11,12 @@ box Jeedom, même authentification WiFi) . Bien entendu cela peut
 fonctionner également pour d'autres composants (ou pas) mais sans aucune
 garantie.
 
-> **Important**
+> **Wichtig**
 >
 > Attention cette procédure n'est surtout pas à faire sur mini+ sous
 > peine de perdre l'accès à celle-ci et de devoir tout réinstaller.
 
-> **Important**
+> **Wichtig**
 >
 > Cette doc est à appliquer à vos risques et périls en cas de soucis
 > l'équipe Jeedom ne pourra en aucun cas être tenue responsable.
@@ -50,12 +50,12 @@ chez moi, j'obtiens en retour cela :
 
     8192cu                550797  0
 
-==Édition du fichier "/etc/network/interfaces"
+==Édition du fichier "/etc/Netzwerk/interfaces"
 
-Il vous faut d'abord éditer le fichier "/etc/network/interfaces" avec la
+Il vous faut d'abord éditer le fichier "/etc/Netzwerk/interfaces" avec la
 commande suivante :
 
-    sudo nano /etc/network/interfaces
+    sudo nano /etc/Netzwerk/interfaces
 
 Voici le contenu du fichier opérationnel chez moi :
 
@@ -85,7 +85,7 @@ Voici mon fichier opérationnel chez moi :
     update_config=1
     eapol_version=1
     ap_scan=2
-    network={
+    Netzwerk={
             ssid="NOM_DE_TON_RESEAU_SSID"
             scan_ssid=1
             mode=0

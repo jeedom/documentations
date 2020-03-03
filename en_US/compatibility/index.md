@@ -1,7 +1,7 @@
 Hardware
 ========
 
-Hardware | Etat | Remarques
+Hardware | State | Remarques
 --- | --- | ---
 Jeedomboard             | Stable                  |
 Hummingboard            | Stable                  |
@@ -21,7 +21,7 @@ Vous pouvez retrouver toutes les images Jeedom
 [ici](https://images.jeedom.com/),
 puis dans le dossier Images
 
-> **Note**
+> **NOTE**
 >
 > Une image netinstall va lors du premier démarrage installer la
 > dernière version stable de Jeedom, ce démarrage est donc un peu plus
@@ -29,7 +29,7 @@ puis dans le dossier Images
 > l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre
 > navigateur
 
-| Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
+| Images         | Hardware       | State           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | jeedomboard et | Beta           | root/Mjeedom96 |                |
 | netinstall     | hummingboard   |                |                |                |
@@ -48,14 +48,14 @@ matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
 Logiciel
 ========
 
-> **Important**
+> **IMPORTANT**
 >
 > Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable).
 > Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n'est pas
 > supportée par Jeedom.
 
 
-| Nom                     | Etat                    | Remarques                |
+| Name                     | State                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
 | PHP 5.6                 | Stable                  |                          |
@@ -64,7 +64,7 @@ Logiciel
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Autre
+Other
 =====
 
 Clef USB/Module d'extension

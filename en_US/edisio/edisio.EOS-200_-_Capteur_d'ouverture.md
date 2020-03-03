@@ -6,7 +6,7 @@
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
-Résumé 
+Summary 
 ======
 
 Placé sur une porte, fenêtre, porte de garage, tiroir, tous ouvrants, ce
@@ -22,7 +22,7 @@ Le signal est uniquement envoyé à la séparation du capteur de son
 d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le
 récepteur
 
-Fonctions 
+Functions 
 =========
 
 -   Capteur magnétique sans fil alimenté par piles
@@ -37,7 +37,7 @@ Fonctions
 
 -   Auto-protection à l'arrachage
 
--   Informations sur le niveau de la batterie
+-   Information sur le niveau de la batterie
 
 -   Montage au mur par des vis ou par un adhésif double face
 
@@ -58,23 +58,23 @@ Caractéristiques Techniques
 
 -   Degré de protection : IP20
 
--   Utilisation : En intérieur
+-   Use : En intérieur
 
 Données du module 
 =================
 
 -   Marque : Edisio Smart Home
 
--   Nom : EOS-200
+-   Name : EOS-200
 
-Configuration générale 
+General configuration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -87,14 +87,14 @@ capteur de température.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Configuration 
+Setup 
 -------------
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **NOTE**
 >
 > Il faudra donc configurer votre capteur, si vous souhaitez avoir un
 > widget avec une porte fermée lorsque celle-ci l'est.
@@ -119,37 +119,37 @@ Une fois votre équipement associé, vous devriez obtenir ceci :
 > Afin que le widget soit présent sur le dashboard, pensez à placer
 > votre équipement dans un objet.
 
-Commandes 
+Commands 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/eos200/eos200.commandes.jpg)
+![Commands](images/eos200/eos200.commandes.jpg)
 
 Voici la liste des commandes :
 
 -   Porte : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
--   Batterie : Indique l'état de la batterie
+-   Drums : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+available :
 
-![Commandes](images/eos200/eos200.informations.jpg)
+![Commands](images/eos200/eos200.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à été créé
+-   Creation : Indique la date à laquelle l'équipement à été créé
 
 -   Communication : Indique la dernière communication enregistrée entre
     Jeedom et le module
 
--   Batterie : Indique l'état de la batterie des modules à piles
+-   Drums : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
 Visuel alternatif 
 =================

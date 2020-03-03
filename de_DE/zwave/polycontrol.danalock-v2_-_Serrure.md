@@ -19,7 +19,7 @@ Danalock V2 BTZE
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  
@@ -95,7 +95,7 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -142,7 +142,7 @@ Caractéristiques techniques
 
 -   Matériau : Aluminium massif anodisé
 
--   Communication : Bluetooth et Z-Wave
+-   Kommunikation : Bluetooth et Z-Wave
 
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 
@@ -157,7 +157,7 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nom : Danalock V2 BTZE
+-   Name : Danalock V2 BTZE
 
 -   Fabricant ID : 010e
 
@@ -167,7 +167,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -178,7 +178,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
 
@@ -201,7 +201,7 @@ SECURISE (INCLUSION)"
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Nous partons du principe que vous avez installé l'application sur
 > votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
@@ -224,16 +224,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/polycontrol.danalock/commandes.jpg)
+![Befehle](images/polycontrol.danalock/commandes.jpg)
 
  \
 
@@ -241,22 +241,22 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   Schließen : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Warning**
+> **Warnung**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -266,12 +266,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuration" du
+installation, il faut pour cela passer par la bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -298,7 +298,7 @@ Détails des paramètres :
 -   3 : Mode 1 = Entraînement de moteur (économie d'énergie), 2 = mode
     complet d'entraînement (Normal)
 
--   4 : Nombre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
+-   4 : Namebre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
 
 -   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
     la serrure a été déverrouillée pour automatiquement se fermer
@@ -307,7 +307,7 @@ Détails des paramètres :
 -   6 : Désactiver ou activer le signal sonore de verrouillage ou
     déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : Type de batterie : Réglez le type de batterie qui
+-   7 : Batterietyp : Réglez le type de batterie qui
     alimente l'appareil.
 
 -   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
@@ -332,7 +332,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -353,7 +353,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -362,7 +362,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main
 > l'état sera mis à jour.  \

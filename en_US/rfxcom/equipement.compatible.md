@@ -1,4 +1,4 @@
-| Nom            | Type           | Protocole      | Remarque       | Lien           |
+| Name            | Type           | Protocol      | NOTE       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Station météo  | Rubicson/Alecto              |                |                |
 | Atlantic'S     | Détecteur      | Meiantech      |                |                |
@@ -56,7 +56,7 @@
 | ITL-1000       | Contact sec avec minuterie |                |                |                |
 | JB-Media       | Convertisseur  | AC             |                |                |
 | récepteur IR   | RF - Infra     |                |                |                |
-| Light-Manager Mini | Rouge          |                |                |                |
+| Light-Manager Mini | Red          |                |                |                |
 | Oregon         | Température    | Oregon         |                | [Acheter](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 | Oregon         | Température    | Oregon         |                |                |
 | THGN132N       | Humidité       |                |                |                |
@@ -74,7 +74,7 @@
 | TFA 30.3139 RADIO SENSOR    | Température    |                |                |                |
 | WD18           | Détecteur d'Eau     | X10            |                |                |
 
-> **Note**
+> **NOTE**
 >
 > Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne
 > peut donc garantir que tous les modules de cette liste sont 100%

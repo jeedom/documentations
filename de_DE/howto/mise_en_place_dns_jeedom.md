@@ -1,10 +1,10 @@
-# Mise en place du DNS Jeedom
+# Einrichten du DNS Jeedom
 
 ## Objectif
 
 Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par une URL en HTTPS
 
-> **IMPORTANT**
+> **Wichtig**
 >
 >Le DNS Jeedom agis comme un reverse proxy il ne donne donc accès qu'a votre Jeedom en https, il ne sera donc pas possible d'acceder à votre jeedom en SSH a distance avec le DNS Jeedom
 
@@ -12,25 +12,25 @@ Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par 
 
 Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power ou plus.
 
-## Principe
+## Prinzip
 
 Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connexion à votre jeedom et la transfert vers celui-ci.
 
 Ce principe a l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouverture de port à faire.
 
-> **IMPORTANT**
+> **Wichtig**
 >
 > Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001 en UDP. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall, pour les Freebox Delta il faut désactiver le contrôle parental
 
 Nous avons actuellement 6 serveurs DNS répartis sur 2 machines physiques différentes, ayant chacun une connexion 500Mbit/s. 
 
-## Mise en place
+## Einrichten
 
 ### Jeedom
 
 Là c'est super simple, vous devez connecter votre Jeedom au market (voir documentation premier-pas). 
 
-### Market
+### Markt
 
 Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v=d&p=profils) et enfin sur l'onglet "Mes Jeedoms".
 
@@ -40,7 +40,7 @@ Une fois le status du market à "Connexion possible", allez sur votre Jeedom, da
 
 Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom
 
-> **IMPORTANT**
+> **Wichtig**
 >
 > Vous pouvez changer cette url en allant sur votre page profils du market puis partie mes Jeedoms. Attention tout changement prend 24h avant d'être effectif
 

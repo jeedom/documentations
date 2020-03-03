@@ -1,17 +1,17 @@
 Nous allons voir ici comment changer le mot de passe Jeedom directement
-en modifiant celui-ci dans la base de données, dans le cas où vous l'auriez oublié 
+en modifiant celui-ci dans la base de Data, dans le cas où vous l'auriez oublié 
 
 La première chose à faire est de se connecter en SSH à Jeedom (avec un
 logiciel type kitty ou putty).
 
 Une fois connecté, il faut récupérer les identifiants de la base de
-données :
+Data :
 
 ``` {.bash}
 cat /var/www/html/core/config/common.config.php
 ```
 
-Ici, vous trouverez le mot de passe pour accéder à la base de données
+Ici, vous trouverez le mot de passe pour accéder à la base de Data
 Jeedom, il faut ensuite faire :
 
 ``` {.bash}

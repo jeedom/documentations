@@ -19,7 +19,7 @@ PolyLock
 
  \
 
-Résumé 
+Zusammenfassung 
 ------
 
  
@@ -51,7 +51,7 @@ remplacement de la batterie.
 
  \
 
-Fonctions 
+Funktionen 
 ---------
 
  \
@@ -96,7 +96,7 @@ Données du module
 
 -   Marque : Poly-Control
 
--   Nom : Polylock
+-   Name : Polylock
 
 -   Fabricant ID : 270
 
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-Configuration 
+Konfiguration 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Wichtig**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
@@ -136,16 +136,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Befehle 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+verfügbar.
 
  \
 
-![Commandes](images/polycontrol.polylock/commandes.jpg)
+![Befehle](images/polycontrol.polylock/commandes.jpg)
 
  \
 
@@ -153,22 +153,22 @@ Voici la liste des commandes :
 
  \
 
--   Statut : c'est la commande qui remontera la dernière action
+-   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 
--   Fermer : c'est la commande qui permet de fermer la serrure
+-   Schließen : c'est la commande qui permet de fermer la serrure
 
 -   Batterie : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Konfiguration du module 
 
  \
 
-> **Warning**
+> **Warnung**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -178,12 +178,12 @@ Voici la liste des commandes :
  \
 
 Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuration" du
+installation, il faut pour cela passer par la bouton "Konfiguration" du
 plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -217,7 +217,7 @@ Détails des paramètres :
 
  \
 
-### Groupes 
+### Gruppen 
 
  \
 
@@ -256,7 +256,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Bien que ce module soit sur batterie il utilise la technologie Flirs.
 > Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
@@ -265,7 +265,7 @@ Bon à savoir
 
  \
 
-> **Tip**
+> **Spitze**
 >
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la
 > main l'état restera le même.  \

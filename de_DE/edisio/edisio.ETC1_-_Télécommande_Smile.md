@@ -8,7 +8,7 @@
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
-Résumé 
+Zusammenfassung 
 ======
 
 Les télécommandes “Smile” ont un canal, elles sont idéales pour la table
@@ -25,7 +25,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut
 interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais
 aussi par n'importe quel récepteur Z-Wave de votre réseau.
 
-Fonctions 
+Funktionen 
 =========
 
 -   Mode d'usage : Eclairage, Variateur
@@ -60,18 +60,18 @@ Données du module
 
 -   Marque : Edisio Smart Home
 
--   Nom : ETC1
+-   Name : ETC1
 
 -   Référence : P01 / Y01 / L01
 
-Configuration générale 
+Allgemeine Konfiguration 
 ======================
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
@@ -98,19 +98,19 @@ L'association d'un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d'appuyer sur la touche de votre
 télécommande.
 
-![Commandes](images/etc1/etc1.touche-c.jpg)
+![Befehle](images/etc1/etc1.touche-c.jpg)
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Commandes 
+Befehle 
 ---------
 
 Une fois votre équipement créé, vous devriez obtenir les commandes
 associées au module :
 
-![Commandes](images/etc1/etc1.commandes.jpg)
+![Befehle](images/etc1/etc1.commandes.jpg)
 
 Voici la liste des commandes :
 
@@ -118,31 +118,31 @@ Voici la liste des commandes :
 
 -   Batterie : Indique l'état de la batterie
 
-Informations 
+Information 
 ------------
 
 Une fois votre équipement associé à Jeedom, diverses informations seront
-disponibles :
+verfügbar :
 
-![Commandes](images/etc1/etc1.informations.jpg)
+![Befehle](images/etc1/etc1.informations.jpg)
 
--   Création : Indique la date à laquelle l'équipement à était créé
+-   Schaffung : Indique la date à laquelle l'équipement à était créé
 
--   Communication : Indique la dernière communication enregistrée entre
+-   Kommunikation : Indique la dernière communication enregistrée entre
     Jeedom et le micro-module
 
 -   Batterie : Indique l'état de la batterie des modules à piles
 
--   Status : Retourne le status du module
+-   STATUS : Retourne le status du module
 
-Utilisation 
+Verwendung 
 -----------
 
 Une fois que votre télécommande est configurée, vous pouvez avec le
 plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom
 et ses équipements.
 
-> **Note**
+> **Notiz**
 >
 > La télécommande à un retour d'état binaire.
 

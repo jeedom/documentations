@@ -19,7 +19,7 @@ disponible soit par l'installation d'un vib soit à partir de la version
 6.0 update 2. Pour rappel, pour accéder à cette interface il suffit
 d'aller sur IP\_ESXI/ui
 
-> **Note**
+> **Nota**
 >
 > Pour ce tuto je vais utiliser l'interface Web de l'ESXi qui est
 > disponible soit par l'installation d'un vib soit à partir de le
@@ -34,7 +34,7 @@ Il faut récupérer ce
 et le transférer vers l'ESXi (sur le même datastore que celui qui va
 accueillir les backups par exemple).
 
-> **Note**
+> **Nota**
 >
 > Dans la suite de ce tuto je considère que vous avez mis le script
 > ghettoVCB.sh dans /vmfs/volumes/Backup/ghettoVCB.sh. A vous d'adapter
@@ -54,14 +54,14 @@ votre ESXi et en utilisant vos identifiants de celui-ci
 Création du fichier de configuration 
 ====================================
 
-> **Note**
+> **Nota**
 >
 > Pour toute la suite de ce tuto je considère que votre datastore de
 > backup a pour chemin /vmfs/volumes/Backup, attention à bien changer si
 > ce n'est pas le cas chez vous
 
 Sur le datastore de backup il faut créer un fichier ghettoVCB.conf qui
-contient :
+contiene :
 
     VM_BACKUP_VOLUME=/vmfs/volumes/Backup/
     DISK_BACKUP_FORMAT=thin
@@ -97,13 +97,13 @@ Les paramètres que vous devez adapter sont :
 
 -   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ nombre de backup par VM à garder
 
-> **Note**
+> **Nota**
 >
 > Vous pouvez consulter
 > [ici](https://communities.vmware.com/docs/DOC-8760) la documentation
 > complète de ghettoVCB avec une description de chaque paramètre
 
-> **Important**
+> **Importante**
 >
 > Attention à bien mettre le / final pour le paramètre
 > VM\_BACKUP\_VOLUME sinon le script sera en erreur
@@ -130,7 +130,7 @@ contenant 4 fichiers :
 
 -   \*.vmx ⇒ le fichier contenant le configuration de votre machine
 
--   STATUS.ok ⇒ indique que le backup est bien ok
+-   Estado.ok ⇒ indique que le backup est bien ok
 
 Voici d'autre possibilité pour la ligne de commande :
 
@@ -169,12 +169,12 @@ Et avant le "exit 0" ajouter les lignes suivantes :
     /bin/echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     /usr/lib/vmware/busybox/bin/busybox crond
 
-> **Note**
+> **Nota**
 >
 > Ici je demande un backup tous les 1er du mois, vous pouvez changer
 > cela en modifiant : 0 0 1 \* \*
 
-> **Note**
+> **Nota**
 >
 > Ici je fais un backup de toute les VMs, vous pouvez adapter cela en
 > remplaçant le -a par -m ma\_vm, attention si vous voulez mettre
@@ -183,7 +183,7 @@ Et avant le "exit 0" ajouter les lignes suivantes :
 > /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > /var/spool/cron/crontabs/root" et en mettre une par VM à backuper
 
-> **Important**
+> **Importante**
 >
 > N'oubliez pas d'adapter le chemin vers le fichier de configuration de
 > ghettoVCB en fonction de votre configuration :

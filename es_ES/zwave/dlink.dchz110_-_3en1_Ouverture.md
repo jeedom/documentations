@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 en 1 Ouverture" 
+D-Link DCH-Z110 - "3 en 1 Apertura" 
 ====================================
 
  \
@@ -19,13 +19,13 @@ D-Link DCH-Z110 - "3 en 1 Ouverture"
 
  \
 
-Résumé 
+Resumen 
 ------
 
  \
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. Il se
+d'ouverture, capteur de température et détecteur de luminosité. El se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -47,12 +47,12 @@ déjà un réseau existant.
 
  \
 
-Fonctions 
+Funciones 
 ---------
 
  \
 
--   Détecteur 3 en 1: Ouverture, température, lumière
+-   Détecteur 3 en 1: Apertura, température, lumière
 
 -   Portée de l'antenne optimisée
 
@@ -93,7 +93,7 @@ Données du module
 
 -   Marque : D-Link
 
--   Modèle : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
+-   Modelo : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
 -   Fabricant : FIBARO System
@@ -106,7 +106,7 @@ Données du module
 
  \
 
-Configuration 
+Configuración 
 -------------
 
  \
@@ -117,7 +117,7 @@ inclusion référez-vous à cette
 
  \
 
-> **Important**
+> **Importante**
 >
 > Ne pas installer le module sur la fenêtre/porte avant de l'avoir
 > correctement configuré, et bien faire attention à l'alignement de
@@ -141,16 +141,16 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-### Commandes 
+### Comandos 
 
  \
 
 Une fois le module reconnu, les commandes associées au module seront
-disponibles.
+disponible.
 
  \
 
-![Commandes](images/dlink.dchz110/commandes.jpg)
+![Comandos](images/dlink.dchz110/commandes.jpg)
 
  \
 
@@ -158,7 +158,7 @@ Voici la liste des commandes :
 
  \
 
--   Ouverture : c'est la commande qui remontera une détection
+-   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
 -   Température : c'est la commande qui permet de remonter la
@@ -169,15 +169,15 @@ Voici la liste des commandes :
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)
 
--   Batterie : c'est la commande batterie
+-   Batería : c'est la commande batterie
 
  \
 
-### Configuration du module 
+### Configuración du module 
 
  \
 
-> **Important**
+> **Importante**
 >
 > Lors d'une première inclusion, ou d'une modification, sauvegarder puis
 > réveillez toujours le module en appuyant sur le bouton d'association.
@@ -187,11 +187,11 @@ Voici la liste des commandes :
 
 Ensuite il est nécessaire d'effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuration" du plugin OpenZwave de Jeedom.
+"Configuración" du plugin OpenZwave de Jeedom.
 
  \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
  \
 
@@ -230,30 +230,30 @@ Détails des paramètres :
 -   9: permet de définir au bout de combien de temps le signal OFF sera
     envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
+-   10: permet de définir la durée entre deux Reportes de batterie (une
     unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d'ouverture
+-   11: permet de définir la durée entre deux Reportes auto d'ouverture
     (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
+-   12: permet de définir la durée entre deux Reportes auto de
     luminosité (une unité = parametre 20). Valeur recommandée : 6
 
--   13: permet de définir la durée entre deux rapports auto de
+-   13: permet de définir la durée entre deux Reportes auto de
     température (une unité = parametre 20). Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13. Valeur
     recommandée : 10
 
 -   21: valeur de variation en °F de température pour déclencher un
-    rapport
+    Reporte
 
 -   22: valeur en % de variation de luminosité pour déclencher
-    un rapport. Valeur recommandée : 10
+    un Reporte. Valeur recommandée : 10
 
  \
 
-### Groupes 
+### Grupos 
 
  \
 
@@ -318,7 +318,7 @@ Note importante
 
  \
 
-> **Important**
+> **Importante**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
