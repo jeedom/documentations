@@ -9,7 +9,7 @@ aider à mettre en service votre Jeedom.
 Inscription sur le market 
 =========================
 
-La première chose à faire est de se créer un compte sur le Le nouveau mode de fonctionnement de synchronisation pour
+La première chose à faire est de se créer un compte sur le Market pour
 pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
 [ici](https://www.jeedom.com/market) pour commencer
 
@@ -24,7 +24,7 @@ cette page :
 
 ![premier market3](images/premier-market3.png)
 
-Voila votre compte Le nouveau mode de fonctionnement de synchronisation est créé, pour plus de details sur le market
+Voila votre compte Market est créé, pour plus de details sur le market
 cliquez
 [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
 
@@ -41,7 +41,7 @@ contenant un code pour votre Service pack.
 
 > **IMPORTANT**
 >
-> If you achetez un Service pack depuis le Le nouveau mode de fonctionnement de synchronisation Jeedom vous n'avez
+> If you achetez un Service pack depuis le Market Jeedom vous n'avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d'aller sur le
@@ -60,7 +60,7 @@ Renseignez votre numéro de Service pack et validez :
 ![premier servicepack3](images/premier-servicepack3.png)
 
 Voilà votre Service pack est enregistré. Pour plus de details sur le
-Le nouveau mode de fonctionnement de synchronisation cliquez
+Market cliquez
 [ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
 
 > **Tip**
@@ -121,21 +121,21 @@ login. Par défaut le login et le mot de passe sont "admin".
 Lier mon Jeedom à mon compte market 
 ===================================
 
-Nous allons voir ici comment lier votre Jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation.
+Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
 -   Une fois connecté à votre jeedom, vous devez aller sur
     Administration → Configuration
 
 -   Cliquez sur l'onglet **Updates**
 
--   En dessous, cliquez sur l'onglet **Le nouveau mode de fonctionnement de synchronisation**
+-   En dessous, cliquez sur l'onglet **Market**
 
 -   Cochez la case **Activate**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
 -   Renseignez également le champ "Nom d'utilisateur" et "Mot de passe"
-    en fonction de vos identifants (identifiants du Le nouveau mode de fonctionnement de synchronisation et non pas
+    en fonction de vos identifants (identifiants du Market et non pas
     de Jeedom)
 
 -   Vous pouvez tester pour vérifier que la connexion
@@ -164,11 +164,11 @@ Puis d'aller sur la partie "Configuration réseaux"
 Une fois ici, il vous suffit d'Activate "Utiliser les DNS Jeedom" puis
 sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
 niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de
-la page profil du Le nouveau mode de fonctionnement de synchronisation
+la page profil du Market
 
 > **IMPORTANT**
 >
-> If you venez de lier votre Jeedom à votre compte Le nouveau mode de fonctionnement de synchronisation il faut
+> If you venez de lier votre Jeedom à votre compte Market il faut
 > attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 Changer le mot de passe par défaut de Jeedom 
@@ -234,7 +234,7 @@ des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
 Pour accéder à la page des plugins aller sur Plugins → Gestion des
 plugins.
 
-Il vous suffit ensuite de cliquer sur Le nouveau mode de fonctionnement de synchronisation :
+Il vous suffit ensuite de cliquer sur Market :
 
 ![premier plugin2](images/premier-plugin2.png)
 
@@ -322,7 +322,7 @@ Les demandes de support (ou tickets)
 > **IMPORTANT**
 >
 > Attention, toute demande de support nécessite obligatoirement d'avoir
-> un compte sur le Le nouveau mode de fonctionnement de synchronisation.
+> un compte sur le Market.
 
 If you n'avez pas trouvé de solution à votre problème, en dernier
 recours, vous pouvez faire une demande de support à l'équipe Jeedom.
@@ -336,7 +336,7 @@ plusieurs façons :
 ![premier support4](images/premier-support4.png)
 
 -   Si pour une raison ou pour une autre vous n'avez pas accès à votre
-    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Le nouveau mode de fonctionnement de synchronisation :
+    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
 
     -   soit avec le point d'exclamation en haut à droite,
 

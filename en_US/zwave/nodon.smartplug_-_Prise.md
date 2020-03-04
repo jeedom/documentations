@@ -298,7 +298,7 @@ F.A.Q.
 
 Vous ne deviez pas avoir l'option télécharger les widgets auto
 d'activée. Vous pouvez récupérer les widgets mobile et dashboard sur le
-Le nouveau mode de fonctionnement de synchronisation : alarme\_prise.
+Market : alarme\_prise.
 
  \
 

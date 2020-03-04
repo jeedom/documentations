@@ -30,7 +30,7 @@ Nous avons actuellement 6 serveurs DNS répartis sur 2 machines physiques diffé
 
 Là c'est super simple, vous devez connecter votre Jeedom au market (voir documentation premier-pas). 
 
-### Le nouveau mode de fonctionnement de synchronisation
+### Market
 
 Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v=d&p=profils) et enfin sur l'onglet "Mes Jeedoms".
 
