@@ -29,8 +29,8 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'Identificación
 	"nombre" : "Vie de Merde",
 	"Descripción" : "Plugin pour récupérer les dernières vdm",
 	"Licencia" : "AGPL",
-	"author" : "Zyg0m4t1k",
-	"require" : "3.2",
+	"autor" : "Zyg0m4t1k",
+	"exigir" : "3.2",
 	"categoría" : "Monitoreo",
 	"Cambios" : "",
 	"Documentación" : "",
@@ -43,7 +43,7 @@ Copier coller le code ci-dessus.
 
 J'ai changé l'Identificación (vdm) , le nom , ajouter une Descripción , l'auteur y la catégorie.
 
-require : version minimale de jeedom pour avoir accés au plugin sur le marky.
+exigir : version minimale de jeedom pour avoir accés au plugin sur le marky.
 
 Changelog, Documentación, language , compatibility nuls pour le moment. J'y reviendrai plus tard
 
@@ -114,7 +114,7 @@ Por
 ```
 
 ```
-{{Nombrebre del equipo template}}
+{{Plantilla de nombre de equipo}}
 ```
 
 Por
@@ -243,7 +243,7 @@ On crée les 2 commandes
 ```
 public function postSave() {
 	$info = $this->gyCmd(null, 'story');
-	if (!is_object($info)) {
+	si (!is_object($info)) {
 		$info = new vdmCmd();
 		$info->syName(__('Histoire', __FILE__));
 	}
@@ -254,7 +254,7 @@ public function postSave() {
 	$info->save();	
 	
 	$refresh = $this->gyCmd(null, 'refresh');
-	if (!is_object($refresh)) {
+	si (!is_object($refresh)) {
 		$refresh = new vdmCmd();
 		$refresh->syName(__('Rafraichir', __FILE__));
 	}
@@ -292,11 +292,11 @@ Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 Au moment de l'affichage , c'est le script desktop/js/vdm.js qui est appelé y lance la fonction addCmdToTable.
 
 ```
-function addCmdToTable(_cmd) {
-    if (!issy(_cmd)) {
-        var _cmd = {configuration: {}};
+función addCmdToTable (_cmd) {
+    si (!issy (_cmd)) {
+        var _cmd = {configuración: {}};
     }
-    if (!issy(_cmd.configuration)) {
+    si (!issy (_cmd.configuration)) {
         _cmd.configuration = {};
     }
     var tr = '<tr class="cmd" data-cmd_Identificación="' + init(_cmd.Identificación) + '">';
@@ -305,23 +305,23 @@ function addCmdToTable(_cmd) {
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="nombre" style="wIdentificaciónth : 140px;" placeholder="{{Nombre}}">';
     tr += '</td>';
     tr += '<td>';
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.tipo) + &#39;">&#39; + jeedom.cmd.availableType () + &#39;&#39;;
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
-    if (is_numeric(_cmd.Identificación)) {
+    si (es_numeric (_cmd.Identificación)) {
         tr += '<a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></i></a> ';
-        tr += '<a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Tester}}</a>';
+        tr + = &#39; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Test}}</a> &#39;;
     }
     tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i>';
     tr += '</td>';
     tr += '</tr>';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').syValues(_cmd, '.cmdAttr');
-    if (issy(_cmd.type)) {
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
+    si (issy (_cmd.tipo)) {
+        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.tipo));
     }
-    jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
+    jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
 }
 ```
 
@@ -338,23 +338,23 @@ J'édite le code html du tableau dans le fichier desktop.php en ajoutant une col
 Puis éditer desktop.js ,trouver
 
 ```
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
-    if (is_numeric(_cmd.Identificación)) {
+    si (es_numeric (_cmd.Identificación)) {
 ```
 
 On ajoute les informations souhaitées.
 
 ```
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
     tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
    tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /> {{Affichage}}<br/></span>';
    tr += '</td>';		
     tr += '<td>';
-    if (is_numeric(_cmd.Identificación)) {
+    si (es_numeric (_cmd.Identificación)) {
 ```
 
 Je laisse le bouton pour créer une commande mais je souhaite qu'il soit à gauche. 
@@ -412,7 +412,7 @@ Maintenant on va updater la commande info(story) avec cyte information en lança
 Toujours dans core/class/vdm.class.php pour la class vdmCmd on va utiliser la méthode execute 
 
 ```
-public function execute($_options = array()) {
+función pública ejecutar ($ _ options = array ()) {
 		
         
  }
@@ -446,7 +446,7 @@ $eqlogic->checkAndUpdateCmd('story', $info);
 Ce qui donne au final
 
 ```
-    public function execute($_options = array()) {
+    función pública ejecutar ($ _ options = array ()) {
 		$eqlogic = $this->gyEqLogic(); //récupère l'éqlogic de la commande $this
 		switch ($this->gyLogicalIdentificación()) {	//vérifie le logicalIdentificación de la commande 			
 			case 'refresh': // LogicalIdentificación de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
@@ -508,20 +508,20 @@ Notre fonction est opérationnelle
 Maintenant il faut récupérer tous les équipements de notre plugin,
 
 ```
-self::byType('vdm') //array contenant tous les équipements du plugin 
+yo::byType('vdm') //array contenant tous les équipements du plugin 
 ```
 
 y les trier 1 por 1
 
 ```
-foreach (self::byType('vdm') as $vdm) {
+foreach (yo::byType('vdm') as $vdm) {
 }
 ```
 
 Avant d'effectuer quoique ce soit on vérifie que l'équipement est actif
 
 ```
-if ($vdm->gyIsEnable() == 1) {
+si ($vdm->gyIsEnable() == 1) {
 }
 ```
 
@@ -534,7 +534,7 @@ $cmd = $vdm->gyCmd(null, 'refresh');
 Si elle n'existe pas on continue la boucle (foreach) sinon on l'éxécute
 
 ```
-if (!is_object($cmd)) {
+si (!is_object($cmd)) {
 continue;
 }
 $cmd->execCmd();
@@ -544,10 +544,10 @@ Ce qui donne au final
 
 ```
       public static function cronHourly () {
-		  foreach (self::byType('vdm') as $vdm) {//porcours tous les équipements du plugin vdm
-			  if ($vdm->gyIsEnable() == 1) {//vérifie que l'équipement est actif
+		  foreach (yo::byType('vdm') as $vdm) {//porcours tous les équipements du plugin vdm
+			  si ($vdm->gyIsEnable() == 1) {//vérifie que l'équipement est actif
 				  $cmd = $vdm->gyCmd(null, 'refresh');//ryourne la commande "refresh si elle existe
-				  if (!is_object($cmd)) {//Si la commande n'existe pas
+				  si (!is_object($cmd)) {//Si la commande n'existe pas
 				  	continue; //continue la boucle
 				  }
 				  $cmd->execCmd(); // la commande existe on la lance
@@ -568,9 +568,9 @@ Pour la création des commandes nous avons utilisé la méthode postSave(). On v
 La manière la plus simple vu qu'il n'y a qu'une commande y qu'elle est créé en postSave
 
 ```
-    public function postUpdate() {
+    función pública postUpdate () {
 		$cmd = $this->gyCmd(null, 'refresh'); // On recherche la commande refresh de l'équipement
-		if (is_object($cmd)) { //elle existe y on lance la commande
+		si (is_object($cmd)) { //elle existe y on lance la commande
 			 $cmd->execCmd();
 		}
     }
@@ -583,8 +583,8 @@ Mais voici une alternative qui peut s'avérer plus utile dans des cas plus compl
 Dans la fonction postUpdate() , on lance la function cronHourly() avec l'Identificación de l'équipement
 
 ```
-    public function postUpdate() {
-		self::cronHourly($this->gyIdentificación());// lance la fonction cronHourly avec l'Identificación de l'eqLogic
+    función pública postUpdate () {
+		yo::cronHourly($this->gyIdentificación());// lance la fonction cronHourly avec l'Identificación de l'eqLogic
     }
 ``` 
 
@@ -592,16 +592,16 @@ Mais dans ce cas on change la fonction cronHourly()
 
 ```
 	public static function cronHourly($_eqLogic_Identificación = null) {
-		if ($_eqLogic_Identificación == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
-			$eqLogics = self::byType('vdm', true);
+		si ($_eqLogic_Identificación == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
+			$eqLogics = yo::byType('vdm', true);
 		} else {// La fonction a l'argument Identificación(unique) d'un équipement(eqLogic)
-			$eqLogics = array(self::byIdentificación($_eqLogic_Identificación));
+			$eqLogics = array(yo::byIdentificación($_eqLogic_Identificación));
 		}		  
 	
 		foreach ($eqLogics as $vdm) {
-			if ($vdm->gyIsEnable() == 1) {//vérifie que l'équipement est acitf
+			si ($vdm->gyIsEnable() == 1) {//vérifie que l'équipement est acitf
 				$cmd = $vdm->gyCmd(null, 'refresh');//ryourne la commande "refresh si elle existe
-				if (!is_object($cmd)) {//Si la commande n'existe pas
+				si (!is_object($cmd)) {//Si la commande n'existe pas
 				  continue; //continue la boucle
 				}
 				$cmd->execCmd(); // la commande existe on la lance
@@ -648,7 +648,7 @@ Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() y j'ajoute le t
 
 ```
 		$info = $this->gyCmd(null, 'story');
-		if (!is_object($info)) {
+		si (!is_object($info)) {
 			$info = new vdmCmd();
 			$info->syName(__('Histoire', __FILE__));
 		}

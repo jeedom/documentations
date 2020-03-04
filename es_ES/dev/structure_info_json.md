@@ -15,10 +15,10 @@ nombre *                   | Nom du plugin.                                     
 Descripción *            | Description du plugin, tel qu'il s'affichera sur le Mercado de la libertad Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
 usage                    | Informations complémentaires à la Documentación sur l'usage du plugin.                                                    |
 Licencia *                | Type de Licencia.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informaciónrmations de celui-ci.         |
-require *                | Version minimum de Jeedom.                                                                                                |
+autor *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informaciónrmations de celui-ci.         |
+exigir *                | Version minimum de Jeedom.                                                                                                |
 categoría *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
-display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
+visualización                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
 Móvil                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
 Cambios *              | Lien Html vers le Changelog.                                                                                              |
 Documentación *          | Lien Html vers la Documentación du plugin.                                                                                |
@@ -52,7 +52,7 @@ Naturaleza                | Naturaleza                  |
 Objetos conectados      | deviceComunicación     |
 Organización          | organization            |
 Pasarela domótica  | home automation protocol|
-Programación         | programming             |
+Programación         | programación             |
 Protocolo de domótica   | automation protocol     |
 Salud                 | salud                  |
 SegurIdentificaciónad              | security                |

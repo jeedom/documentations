@@ -15,10 +15,10 @@ Name *                   | Nom du plugin.                                       
 Beschreibung *            | Description du plugin, tel qu'il s'affichera sur le Jeedom Markt Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
 usage                    | Informations complémentaires à la Dokumentation sur l'usage du plugin.                                                    |
 Lizenz *                | Type de Lizenz.                                                                                                          |
-author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
-require *                | Version minimum de Jeedom.                                                                                                |
+Autor *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
+erfordern *                | Version minimum de Jeedom.                                                                                                |
 Kategorie *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
-display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
+Anzeige                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
 Handy                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
 Änderungsprotokoll *              | Lien Html vers le Changelog.                                                                                              |
 Dokumentation *          | Lien Html vers la Dokumentation du plugin.                                                                                |
@@ -52,7 +52,7 @@ Natur                | Natur                  |
 Verbundene Objekte      | deviceKommunikation     |
 Organisation          | organization            |
 Hausautomations-Gateway  | home automation protocol|
-Programmierung         | programming             |
+Programmierung         | Programmierung             |
 Hausautomationsprotokoll   | automation protocol     |
 Gesundheit                 | Gesundheit                  |
 Sicherheit              | security                |

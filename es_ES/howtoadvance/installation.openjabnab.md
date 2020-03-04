@@ -539,7 +539,7 @@ Il faut ensuite faire 3 fichiers :
       loop.exec();
 
       QFile file(filePath);
-      if (!file.open(QIODevice::WriteOnly))
+      si (!file.open(QIODevice::WriteOnly))
       {
         LogError("Cannot open sound file for writing : "+filePath);
         return QByteArray();

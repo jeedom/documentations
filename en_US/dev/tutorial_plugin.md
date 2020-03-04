@@ -28,7 +28,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'Id) du plugin.
 	"Id" : "vdm",
 	"name" : "Vie de Merde",
 	"description" : "Plugin pour récupérer les dernières vdm",
-	"licence" : "AGPL",
+	"Licence" : "AGPL",
 	"author" : "Zyg0m4t1k",
 	"require" : "3.2",
 	"category" : "monitoring",
@@ -114,7 +114,7 @@ By
 ```
 
 ```
-{{Name of equipment template}}
+{{Equipment name template}}
 ```
 
 By
@@ -292,11 +292,11 @@ Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 Au moment de l'affichage , c'est le script desktop/js/vdm.js qui est appelé and lance la fonction addCmdToTable.
 
 ```
-function addCmdToTable(_cmd) {
-    if (!issand(_cmd)) {
+function addCmdToTable (_cmd) {
+    if (!issand (_cmd)) {
         var _cmd = {configuration: {}};
     }
-    if (!issand(_cmd.configuration)) {
+    if (!issand (_cmd.configuration)) {
         _cmd.configuration = {};
     }
     var tr = '<tr class="cmd" data-cmd_Id="' + init(_cmd.Id) + '">';
@@ -305,23 +305,23 @@ function addCmdToTable(_cmd) {
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="wIdth : 140px;" placeholder="{{Name}}">';
     tr += '</td>';
     tr += '<td>';
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.type) + &#39;">&#39; + jeedom.cmd.availableType () + &#39;&#39;;
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
-    if (is_numeric(_cmd.Id)) {
+    if (is_numeric (_cmd.Id)) {
         tr += '<a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></i></a> ';
-        tr += '<a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Tester}}</a>';
+        tr + = &#39; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Test}}</a> &#39;;
     }
     tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i>';
     tr += '</td>';
     tr += '</tr>';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').sandValues(_cmd, '.cmdAttr');
-    if (issand(_cmd.type)) {
+    if (issand (_cmd.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
     }
-    jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
+    jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
 }
 ```
 
@@ -338,23 +338,23 @@ J'édite le code html du tableau dans le fichier desktop.php en ajoutant une col
 Puis éditer desktop.js ,trouver
 
 ```
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
-    if (is_numeric(_cmd.Id)) {
+    if (is_numeric (_cmd.Id)) {
 ```
 
 On ajoute les informations souhaitées.
 
 ```
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr += '</td>';
     tr += '<td>';
     tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
    tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /> {{Affichage}}<br/></span>';
    tr += '</td>';		
     tr += '<td>';
-    if (is_numeric(_cmd.Id)) {
+    if (is_numeric (_cmd.Id)) {
 ```
 
 Je laisse le bouton pour créer une commande mais je souhaite qu'il soit à gauche. 
@@ -412,7 +412,7 @@ Maintenant on va updater la commande info(story) avec candte information en lan�
 Toujours dans core/class/vdm.class.php pour la class vdmCmd on va utiliser la méthode execute 
 
 ```
-public function execute($_options = array()) {
+public function execute ($ _ options = array ()) {
 		
         
  }
@@ -446,7 +446,7 @@ $eqlogic->checkAndUpdateCmd('story', $info);
 Ce qui donne au final
 
 ```
-    public function execute($_options = array()) {
+    public function execute ($ _ options = array ()) {
 		$eqlogic = $this->gandEqLogic(); //récupère l'éqlogic de la commande $this
 		switch ($this->gandLogicalId()) {	//vérifie le logicalId de la commande 			
 			case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
@@ -568,7 +568,7 @@ Pour la création des commandes nous avons utilisé la méthode postSave(). On v
 La manière la plus simple vu qu'il n'y a qu'une commande and qu'elle est créé en postSave
 
 ```
-    public function postUpdate() {
+    public function postUpdate () {
 		$cmd = $this->gandCmd(null, 'refresh'); // On recherche la commande refresh de l'équipement
 		if (is_object($cmd)) { //elle existe and on lance la commande
 			 $cmd->execCmd();
@@ -583,7 +583,7 @@ Mais voici une alternative qui peut s'avérer plus utile dans des cas plus compl
 Dans la fonction postUpdate() , on lance la function cronHourly() avec l'Id de l'équipement
 
 ```
-    public function postUpdate() {
+    public function postUpdate () {
 		self::cronHourly($this->gandId());// lance la fonction cronHourly avec l'Id de l'eqLogic
     }
 ``` 

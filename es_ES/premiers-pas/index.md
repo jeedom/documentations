@@ -281,7 +281,7 @@ Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
 
 Celle-ci se compose de plusieurs catégories :
 
--   Core : une partie pour le "coeur" de Jeedom,
+-   Núcleo : une partie pour le "coeur" de Jeedom,
 
 -   Premiers-pas : Une partie (où vous êtes actuellement) pour les
     premiers éléments à connaître,

@@ -252,7 +252,7 @@ remontée des équipements auf le **Jeedom Cible** (Votre ancien Maître).
 > \
 > Les copies d'écran auf fond blanc correspondent au **Jeedom Quelle**.\
 
-Sur le **Jeedom Quelle**,
+Auf dem **Jeedom Quelle**,
 [configurer](https://jeedom.github.io/documentation/plugins/jeelink/fr_FR/jeelink)
 le plugin "Jeedom Link" en spécifiant :
 
