@@ -16,7 +16,7 @@ Envoyer une valeur de Jeedom vers EmonCMS
 
 Pour envoyer une valeur de Jeedom à EmonCMS, la solution la plus simple
 puisqu'elle est disponible nativement est d'utiliser l'URL de Push d'une
-information
+Information
 
 Dans Jeedom, on peut accéder aux paramètres avancés en cliquant sur la
 roue crantée sur la droite.

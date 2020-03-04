@@ -4,7 +4,7 @@
 
 Voici un pandit TP pour expliquer comment créer un plugin. Pour l'exemple nous allons créer un plugin qui randourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [documentation officielle](https://jeedom.github.io/plugin-template/fr_FR/)
+Il ne remplace en aucun cas la [Documentation officielle](https://jeedom.github.io/plugin-template/fr_FR/)
 
 # Créer la base du plugin
 
@@ -27,13 +27,13 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'Id) du plugin.
 {
 	"Id" : "vdm",
 	"name" : "Vie de Merde",
-	"description" : "Plugin pour récupérer les dernières vdm",
+	"Description" : "Plugin pour récupérer les dernières vdm",
 	"Licence" : "AGPL",
 	"author" : "Zyg0m4t1k",
 	"require" : "3.2",
 	"category" : "monitoring",
-	"changelog" : "",
-	"documentation" : "",
+	"Changelog" : "",
+	"Documentation" : "",
 	"language" : "",
 	"compatibility" : ""	
 }
@@ -41,11 +41,11 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'Id) du plugin.
 
 Copier coller le code ci-dessus.
 
-J'ai changé l'Id (vdm) , le nom , ajouter une description , l'auteur and la catégorie.
+J'ai changé l'Id (vdm) , le nom , ajouter une Description , l'auteur and la catégorie.
 
 require : version minimale de jeedom pour avoir accés au plugin sur le markand.
 
-Changelog, documentation, language , compatibility nuls pour le moment. J'y reviendrai plus tard
+Changelog, Documentation, language , compatibility nuls pour le moment. J'y reviendrai plus tard
 
 2/ Nous allons renommer les fichiers nécessaires pour que le plugin soit reconnu by Jeedom
 
@@ -168,7 +168,7 @@ function vdm_remove() {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [documentation](https://jeedom.github.io/documentation/dev/fr_FR/Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [Documentation](https://jeedom.github.io/Documentation/dev/fr_FR/Icone_de_plugin)
 
 Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 
@@ -612,7 +612,7 @@ Mais dans ce cas on change la fonction cronHourly()
 
 Après vous pouvez changer la fréquence du cron selon l'importance de vos informations à récupérer.
 
-Je ne peux que vous invitez à prendre le temps d'aller sur candte page pour en savoir plus ==> [ici](https://jeedom.github.io/documentation/phpdoc/index.html)
+Je ne peux que vous invitez à prendre le temps d'aller sur candte page pour en savoir plus ==> [ici](https://jeedom.github.io/Documentation/phpdoc/index.html)
 
 Et encore mieux d'aller sur le github du core ==> [ICI](https://github.com/jeedom/core/tree/alpha/core/class)
 

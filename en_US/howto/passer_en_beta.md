@@ -14,10 +14,10 @@
 
 > **NOTE**
 >
-> Cette documentation est volontairement peu detaillée pour que
+> Cette Documentation est volontairement peu detaillée pour que
 > l'opération ne soit pas facile. En effet, être en bêta nécessite des
 > compétences aussi bien en informatique qu'en déchiffrage de logs ou
-> documentation.
+> Documentation.
 
 Passer le core en bêta 
 ======================

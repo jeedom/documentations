@@ -12,16 +12,16 @@ Champs                   | Valeurs                                              
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Id *                     | Identifiant unique du plugin sur le Jeedom Market. Doit debuter par une lettre. Sans accents.                             |
 name *                   | Nom du plugin.                                                                                                            |
-description *            | Description du plugin, tel qu'il s'affichera sur le Jeedom Market Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
-usage                    | Informations complémentaires à la documentation sur l'usage du plugin.                                                    |
+Description *            | Description du plugin, tel qu'il s'affichera sur le Jeedom Market Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
+usage                    | Informations complémentaires à la Documentation sur l'usage du plugin.                                                    |
 Licence *                | Type de Licence.                                                                                                          |
 author *                 | Nom de l'auteur du plugin, tel qu'il sera affiché une fois le plugin installé, dans les Informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
 category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
 display                  | si le plugin utilise un panel dédié sur le desktop, il s'agit du nom du fichier principal de ce panel.                    |
 Mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s'agit du nom du fichier principal de ce panel.   |
-changelog *              | Lien Html vers le Changelog.                                                                                              |
-documentation *          | Lien Html vers la documentation du plugin.                                                                                |
+Changelog *              | Lien Html vers le Changelog.                                                                                              |
+Documentation *          | Lien Html vers la Documentation du plugin.                                                                                |
 link -> vIdeo               | Lien Html vers une vIdéo de présentation.                                                                                 |
 link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
 languages                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
