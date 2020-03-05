@@ -73,7 +73,7 @@ Ensuite vous pouvez voir dans la partie santé de Jeedom si celui-ci est actif. 
 - Debian x64 Jessie
 - RPI
 
-# FAQ
+# Faq
 
 >**Je recois toute les 10 minutes un message m'indiquant que jeedom à redemarré alors que c'est pas vrai**
 >

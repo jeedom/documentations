@@ -28,15 +28,15 @@ Préparation avant migration
 > **Notiz**
 >
 > Pour une meilleure lecture und compréhension de ce tutoriel, voici les
-> termes utilisés :\
-> \
+> termes utilisés :\.
+> \.
 > - **Jeedom Cible** : Serveur (votre ancien Jeedom Maître) qui
-> centralise les équipements du/des **Jeedom(s) Quelle(s)**\
-> Les copies d'écran auf fond noir correspondent au **Jeedom Cible**.\
-> \
+> centralise les équipements du/des **Jeedom(s) Quelle(s)**\.
+> Les copies d'écran auf fond noir correspondent au **Jeedom Cible**.\.
+> \.
 > - **Jeedom Quelle** : Serveur (votre/vos ancien(s) Jeedom Esclave(s))
-> qui remonte vos équipements auf le **Jeedom Cible**.\
-> \
+> qui remonte vos équipements auf le **Jeedom Cible**.\.
+> \.
 > - Les notions de **Jeedom Maître** und **Jeedom Esclave** ne sont plus
 > d'actualité. Le nouveau mode de fonctionnement de synchronisation
 > d'équipements entre plusieurs Jeedoms peut être bidirectionnel. Un
@@ -45,8 +45,8 @@ Préparation avant migration
 > **l'Esclave** zu **le Maître**. Avec le nouveau mode Er ist aussi
 > possible d'avoir plusieurs **Jeedom Cibles** pour un même **Jeedom
 > Quelle**. La communication entre les Jeedoms peut désormais aussi
-> s'effectuer à distance via internund (DNS Jeedom ou autre).\
-> \
+> s'effectuer à distance via internund (DNS Jeedom ou autre).\.
+> \.
 
 ![jeelink.migration9](images/jeelink.migration9.png)
 
@@ -246,11 +246,11 @@ remontée des équipements auf le **Jeedom Cible** (Votre ancien Maître).
 
 > **Notiz**
 >
-> Rappel, pour une meilleure lecture und compréhension de ce tutoriel :\
-> \
-> Les copies d'écran auf fond noir correspondent au **Jeedom Cible**.\
-> \
-> Les copies d'écran auf fond blanc correspondent au **Jeedom Quelle**.\
+> Rappel, pour une meilleure lecture und compréhension de ce tutoriel :\.
+> \.
+> Les copies d'écran auf fond noir correspondent au **Jeedom Cible**.\.
+> \.
+> Les copies d'écran auf fond blanc correspondent au **Jeedom Quelle**.\.
 
 Auf dem **Jeedom Quelle**,
 [configurer](https://jeedom.github.io/documentation/plugins/jeelink/fr_FR/jeelink)

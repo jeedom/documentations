@@ -46,7 +46,7 @@ Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom
 
 Voilà votre Jeedom est accessible de l'exterieure en https
 
-## FAQ
+## Faq
 
 > **Y a-t-il besoin d'ouvrir des ports sur ma box**
 >
