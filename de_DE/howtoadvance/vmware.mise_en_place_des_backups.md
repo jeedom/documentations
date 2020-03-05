@@ -17,14 +17,14 @@ absolument 2 datastores. Pour cela vous avez plusieurs choix :
 Pour ce tuto je vais utiliser l'interface Web de l'ESXi qui est
 disponible soit par l'installation d'un vib soit à partir de la version
 6.0 update 2. Pour rappel, pour accéder à cette interface il suffit
-d'aller sur IP\_ESXI/ui
+d'aller sur IP\._ESXI/ui
 
 > **Notiz**
 >
 > Pour ce tuto je vais utiliser l'interface Web de l'ESXi qui est
 > disponible soit par l'installation d'un vib soit à partir de le
 > version 6.0 update 2. Pour rappels pour acceder à cette interface il
-> suffit d'aller sur IP\_ESXI/ui
+> suffit d'aller sur IP\._ESXI/ui
 
 Installation de ghettoVCB 
 =========================
@@ -93,9 +93,9 @@ enthält :
 
 Les paramètres que vous devez adapter sont :
 
--   **VM\_BACKUP\_VOLUME** ⇒ emplacement de votre datastore de backup
+-   **VM\._BACKUP\._VOLUME** ⇒ emplacement de votre datastore de backup
 
--   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ nombre de backup par VM à garder
+-   **VM\._BACKUP\._ROTATION\._COUNT** ⇒ nombre de backup par VM à garder
 
 > **Notiz**
 >
@@ -106,7 +106,7 @@ Les paramètres que vous devez adapter sont :
 > **Wichtig**
 >
 > Attention à bien mettre le / final pour le paramètre
-> VM\_BACKUP\_VOLUME sinon le script sera en erreur
+> VM\._BACKUP\._VOLUME sinon le script sera en erreur
 
 Test de backup 
 ==============
@@ -124,11 +124,11 @@ contenant 4 fichiers :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \*-flat.vmdk ⇒ le disque virtuel de votre machine
+-   \.*-flat.vmdk ⇒ le disque virtuel de votre machine
 
--   \*.vmdk ⇒ le descripteur du disque
+-   \.*.vmdk ⇒ le descripteur du disque
 
--   \*.vmx ⇒ le fichier contenant le configuration de votre machine
+-   \.*.vmx ⇒ le fichier contenant le configuration de votre machine
 
 -   STATUS.ok ⇒ indique que le backup est bien ok
 
@@ -172,13 +172,13 @@ Et avant le "exit 0" ajouter les lignes suivantes :
 > **Notiz**
 >
 > Ici je demande un backup tous les 1er du mois, vous pouvez changer
-> cela en modifiant : 0 0 1 \* \*
+> cela en modifiant : 0 0 1 \.* \.*
 
 > **Notiz**
 >
 > Ici je fais un backup de toute les VMs, vous pouvez adapter cela en
-> remplaçant le -a par -m ma\_vm, attention si vous voulez mettre
-> plusieurs VMs il faut dupliquer la ligne "/bin/echo "0 0 1 \* \*
+> remplaçant le -a par -m ma\._vm, attention si vous voulez mettre
+> plusieurs VMs il faut dupliquer la ligne "/bin/echo "0 0 1 \.* \.*
 > /vmfs/volumes/Backup/ghettoVCB.sh -a -g
 > /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > /var/spool/cron/crontabs/root" et en mettre une par VM à backuper
