@@ -587,7 +587,7 @@
         "zone \"raspberry.pi": "zone \"raspberry.pi",
         "type master;": "type master;",
         "file \"\/etc\/bind\/db.raspberry.pi\";": "file \"\/etc\/bind\/db.raspberry.pi\";",
-        ";": ";",
+        ";": ";;",
         "zone \"0.168.192.in-addr.arpa": "zone \"0.168.192.in-addr.arpa",
         "file \"\/etc\/bind\/db.192.168.0.inv\";": "file \"\/etc\/bind\/db.192.168.0.inv\";",
         "Créez le fichier db.raspberry.pi": "Créez le fichier db.raspberry.pi",

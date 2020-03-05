@@ -67,13 +67,13 @@ Editez le fichier /etc/bind/named.conf.local
 Et ajoutez :
 
     zone "raspberry.pi"{
-     type master;
-     file "/etc/bind/db.raspberry.pi";
-    };
+     type master;;
+     file "/etc/bind/db.raspberry.pi";;
+    };;
     zone "0.168.192.in-addr.arpa"{
-     type master;
-     file "/etc/bind/db.192.168.0.inv";
-    };
+     type master;;
+     file "/etc/bind/db.192.168.0.inv";;
+    };;
 
 Créez le fichier db.raspberry.pi
 
@@ -83,12 +83,12 @@ Et mettez dedans :
 
     $TTL 604800
     @ IN SOA ojn.raspberry.pi. root.raspberry.pi. (
-     1 ; Serial
-     604800 ; Refresh
-     86400 ; Retry
-     2419200 ; Expire
-     604800 ) ; Negative Cache TTL
-    ;
+     1 ;; Serial
+     604800 ;; Refresh
+     86400 ;; Retry
+     2419200 ;; Expire
+     604800 ) ;; Negative Cache TTL
+    ;;
     @ IN NS ojn.raspberry.pi.
     ojn IN A 192.168.0.162
     192.168.0.162 IN A 192.168.0.162
@@ -101,12 +101,12 @@ Et mettez :
 
     $TTL 604800
     @ IN SOA ojn.raspberry.pi. root.localhost. (
-     2 ; Serial
-     604800 ; Refresh
-     86400 ; Retry
-     2419200 ; Expire
-     604800 ) ; Negative Cache TTL
-    ;
+     2 ;; Serial
+     604800 ;; Refresh
+     86400 ;; Retry
+     2419200 ;; Expire
+     604800 ) ;; Negative Cache TTL
+    ;;
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
@@ -300,8 +300,8 @@ surveiller le serveur et le démarrer automatiquement. Faites :
 
 Et ajoutez dedans :
 
-    if [ $(ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0 ]; then
-        su ojn; cd /home/ojn/OpenJabNab/server/bin;nohup ./openjabnab >> /dev/null 2>&1 &
+    if [ $(ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0 ];; then
+        su ojn;; cd /home/ojn/OpenJabNab/server/bin;;nohup ./openjabnab >> /dev/null 2>&1 &
     fi
 
 Puis faites :
@@ -465,12 +465,12 @@ Il faut ensuite faire 3 fichiers :
       Q_INTERFACES(TTSInterface)
 
     public:
-      TTSJeedom();
-      virtual ~TTSJeedom();
-      QByteArray CreateNewSound(QString, QString, bool);
+      TTSJeedom();;
+      virtual ~TTSJeedom();;
+      QByteArray CreateNewSound(QString, QString, bool);;
 
     private:
-    };
+    };;
 
     #endif
 
@@ -492,7 +492,7 @@ Il faut ensuite faire 3 fichiers :
 
     TTSJeedom::TTSJeedom():TTSInterface("jeedom", "Jeedom")
     {
-      voiceList.insert("fr", "fr");
+      voiceList.insert("fr", "fr");;
     }
 
     TTSJeedom::~TTSJeedom()
@@ -501,52 +501,52 @@ Il faut ensuite faire 3 fichiers :
 
     QByteArray TTSJeedom::CreateNewSound(QString text, QString voice, bool forceOverwrite)
     {
-      QEventLoop loop;
+      QEventLoop loop;;
       if(!voiceList.contains(voice))
-        voice = "fr";
+        voice = "fr";;
       // Check (and create if needed) output folder
-      QDir outputFolder = ttsFolder;
+      QDir outputFolder = ttsFolder;;
       if(!outputFolder.exists(voice))
-        outputFolder.mkdir(voice);
+        outputFolder.mkdir(voice);;
 
       if(!outputFolder.cd(voice))
       {
-        LogError(QString("Cant create TTS Folder : %1").arg(ttsFolder.absoluteFilePath(voice)));
-        return QByteArray();
+        LogError(QString("Cant create TTS Folder : %1").arg(ttsFolder.absoluteFilePath(voice)));;
+        return QByteArray();;
       }
 
       // Compute fileName
-      QString fileName = QCryptographicHash::hash(text.toAscii(), QCryptographicHash::Md5).toHex().append(".mp3");
-      QString filePath = outputFolder.absoluteFilePath(fileName);
+      QString fileName = QCryptographicHash::hash(text.toAscii(), QCryptographicHash::Md5).toHex().append(".mp3");;
+      QString filePath = outputFolder.absoluteFilePath(fileName);;
 
       if(!forceOverwrite && QFile::exists(filePath))
-        return ttsHTTPUrl.arg(voice, fileName).toAscii();
+        return ttsHTTPUrl.arg(voice, fileName).toAscii();;
 
       // Fetch MP3
-      QHttp http("TODO_IP_JEEDOM");
-      QObject::connect(&http, SIGNAL(done(bool)), &loop, SLOT(quit()));
+      QHttp http("TODO_IP_JEEDOM");;
+      QObject::connect(&http, SIGNAL(done(bool)), &loop, SLOT(quit()));;
 
-      QByteArray ContentData;
-      ContentData += "apikey=TODO_API_JEEDOM&text="+QUrl::toPercentEncoding(text);
+      QByteArray ContentData;;
+      ContentData += "apikey=TODO_API_JEEDOM&text="+QUrl::toPercentEncoding(text);;
 
-      QHttpRequestHeader Header;
-      Header.addValue("Host", "TODO_IP_JEEDOM");
+      QHttpRequestHeader Header;;
+      Header.addValue("Host", "TODO_IP_JEEDOM");;
 
-      Header.setContentLength(ContentData.length());
-      Header.setRequest("GET", "/core/api/tts.php?apikey=TODO_API_JEEDOM&text="+QUrl::toPercentEncoding(text), 1, 1);
+      Header.setContentLength(ContentData.length());;
+      Header.setRequest("GET", "/core/api/tts.php?apikey=TODO_API_JEEDOM&text="+QUrl::toPercentEncoding(text), 1, 1);;
 
-      http.request(Header, ContentData);
-      loop.exec();
+      http.request(Header, ContentData);;
+      loop.exec();;
 
-      QFile file(filePath);
+      QFile file(filePath);;
       if (!file.open(QIODevice::WriteOnly))
       {
-        LogError("Cannot open sound file for writing : "+filePath);
-        return QByteArray();
+        LogError("Cannot open sound file for writing : "+filePath);;
+        return QByteArray();;
       }
-      file.write(http.readAll());
-      file.close();
-      return ttsHTTPUrl.arg(voice, fileName).toAscii();
+      file.write(http.readAll());;
+      file.close();;
+      return ttsHTTPUrl.arg(voice, fileName).toAscii();;
     }
 
 > **Notiz**

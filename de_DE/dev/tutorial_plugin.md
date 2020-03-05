@@ -84,13 +84,13 @@ class vdmCmd extends cmd
 Ersundzen
 
 ```
-$plugin = plugin::byIdentifikation('template');
+$plugin = plugin::byIdentifikation('template');;
 ```
 
 Von 
 
 ```
-$plugin = plugin::byIdentifikation(‘vdm');
+$plugin = plugin::byIdentifikation(‘vdm');;
 ```
 
 ```
@@ -134,16 +134,16 @@ Von
 ```
 
 ```
-<?php include_file('desktop', 'template', 'js', 'template');?>
+<?php include_file('desktop', 'template', 'js', 'template');;?>
 ```
 
 Von
 
 ```
-<?php include_file('desktop', vdm, 'js', vdm);?>
+<?php include_file('desktop', vdm, 'js', vdm);;?>
 ```
 
-Et rien d'autre , ne pas changer la ligne <?php include_file('core', 'plugin.template', 'js');?>
+Et rien d'autre , ne pas changer la ligne <?php include_file('core', 'plugin.template', 'js');;?>
 
 -Renommer le fichier desktop/.modal/.modal.template.php en desktop/.modal/.modal.vdm.php
 
@@ -189,35 +189,35 @@ On l'active und ensuite plugins/.Monitoring/.Vie de Merde
 J'ouvre le fichier desktop/.php/.desktop.php pour corriger.
 
 ```
-      <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-Farbe : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;wIdentifikationth : 160px;margin-left : 10px;" >
-        <i class="fa fa-plus-circle" style="font-size : 6em;Farbe:#94ca02;"></.i>
+      <div class="cursor eqLogicAction" data-action="add" style="text-align: center;; background-Farbe : #ffffff;; height : 120px;;margin-bottom : 10px;;padding : 5px;;border-radius: 2px;;wIdentifikationth : 160px;;margin-left : 10px;;" >
+        <i class="fa fa-plus-circle" style="font-size : 6em;;Farbe:#94ca02;;"></.i>
         <br>
-        <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;Farbe:#94ca02">{{Ajouter}}</.span>
+        <span style="font-size : 1.1em;;position:relative;; top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;Farbe:#94ca02">{{Ajouter}}</.span>
       </.div>
 ```
 
 Je remplace
 
 ```
-Farbe:#94ca02;"
+Farbe:#94ca02;;"
 ```
 
 Von 
 
 ```
-Farbe:#00A9EC;"
+Farbe:#00A9EC;;"
 ```
 
 On remarque aussi que les textes ne sont pas alignés donc on rectifie le style de la configuration (propriété top)
 
 ```
-<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;Farbe:#767676">{{Configuration}}</.span>
+<span style="font-size : 1.1em;;position:relative;; top : 15px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;Farbe:#767676">{{Configuration}}</.span>
 ```
 
 Von 
 
 ```
-<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;Farbe:#767676">{{Configuration}}</.span>
+<span style="font-size : 1.1em;;position:relative;;top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;Farbe:#767676">{{Configuration}}</.span>
 ```
 
 ![image](images/.tutorial_vdm_desktop2.png)
@@ -242,27 +242,27 @@ On crée les 2 commandes
 
 ```
 public function postSave() {
-	$info = $this->gundCmd(null, 'story');
+	$info = $this->gundCmd(null, 'story');;
 	if (!is_object($info)) {
-		$info = new vdmCmd();
-		$info->sundName(__('Histoire', __FILE__));
+		$info = new vdmCmd();;
+		$info->sundName(__('Histoire', __FILE__));;
 	}
-	$info->sundLogicalIdentifikation('story');
-	$info->sundEqLogic_Identifikation($this->gundIdentifikation());
-	$info->sundType('info');
-	$info->sundSubType('string');
-	$info->save();	
+	$info->sundLogicalIdentifikation('story');;
+	$info->sundEqLogic_Identifikation($this->gundIdentifikation());;
+	$info->sundType('info');;
+	$info->sundSubType('string');;
+	$info->save();;	
 	
-	$refresh = $this->gundCmd(null, 'refresh');
+	$refresh = $this->gundCmd(null, 'refresh');;
 	if (!is_object($refresh)) {
-		$refresh = new vdmCmd();
-		$refresh->sundName(__('Rafraichir', __FILE__));
+		$refresh = new vdmCmd();;
+		$refresh->sundName(__('Rafraichir', __FILE__));;
 	}
-	$refresh->sundEqLogic_Identifikation($this->gundIdentifikation());
-	$refresh->sundLogicalIdentifikation('refresh');
-	$refresh->sundType('action');
-	$refresh->sundSubType('other');
-	$refresh->save();        
+	$refresh->sundEqLogic_Identifikation($this->gundIdentifikation());;
+	$refresh->sundLogicalIdentifikation('refresh');;
+	$refresh->sundType('action');;
+	$refresh->sundSubType('other');;
+	$refresh->save();;        
 }
 ```
 
@@ -277,7 +277,7 @@ Dans l'onglund commandes , vous devriez voir.
 Ouvrir desktop/.php/.vdm.php pour trouver le code html de ce tableau.
 
 ```
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
+<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
 <table Identifikation="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
@@ -294,34 +294,34 @@ Au moment de l'affichage , c'est le script desktop/.js/.vdm.js qui est appelé u
 ```
 Funktion addCmdToTable (_cmd) {
     if (!issund (_cmd)) {
-        var _cmd = {Konfiguration: {}};
+        var _cmd = {Konfiguration: {}};;
     }
     if (!issund (_cmd.configuration)) {
-        _cmd.configuration = {};
+        _cmd.configuration = {};;
     }
-    var tr = '<tr class="cmd" data-cmd_Identifikation="' + init(_cmd.Identifikation) + '">';
-    tr += '<td>';
-    tr += '<span class="cmdAttr" data-l1key="Identifikation" style="display:none;"></.span>';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="Name" style="wIdentifikationth : 140px;" placeholder="{{Name}}">';
-    tr += '</.td>';
-    tr += '<td>';
-    <html> tr + = &#39;.Typ) + &#39;">&#39; + jeedom.cmd.availableType () + &#39;&#39;;
-    <html> tr + = &#39;.Subtyp) + &#39;">&#39;;
-    tr += '</.td>';
-    tr += '<td>';
+    var tr = '<tr class="cmd" data-cmd_Identifikation="' + init(_cmd.Identifikation) + '">';;
+    tr += '<td>';;
+    tr += '<span class="cmdAttr" data-l1key="Identifikation" style="display:none;;"></.span>';;
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="Name" style="wIdentifikationth : 140px;;" placeholder="{{Name}}">';;
+    tr += '</.td>';;
+    tr += '<td>';;
+    <html> tr + = &#39;;.Typ) + &#39;;">&#39;; + jeedom.cmd.availableType () + &#39;;&#39;;;;
+    <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
+    tr += '</.td>';;
+    tr += '<td>';;
     if (is_numeric (_cmd.Identifikation)) {
-        tr += '<a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></.i></.a> ';
-        tr + = &#39; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></.i> {{Test}}</.a> &#39;;
+        tr += '<a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></.i></.a> ';;
+        tr + = &#39;; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></.i> {{Test}}</.a> &#39;;;;
     }
-    tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></.i>';
-    tr += '</.td>';
-    tr += '</.tr>';
-    $('#table_cmd tbody').append(tr);
-    $('#table_cmd tbody tr:last').sundValues(_cmd, '.cmdAttr');
+    tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></.i>';;
+    tr += '</.td>';;
+    tr += '</.tr>';;
+    $('#table_cmd tbody').append(tr);;
+    $('#table_cmd tbody tr:last').sundValues(_cmd, '.cmdAttr');;
     if (issund (_cmd.type)) {
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
+        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));;
     }
-    jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
+    jeedom.cmd.changeType ($ (&#39;;# table_cmd tbody tr:last &#39;;), init (_cmd.subType));;
 }
 ```
 
@@ -338,35 +338,35 @@ J'édite le code html du tableau dans le fichier desktop.php en ajoutant une col
 Puis éditer desktop.js ,trouver
 
 ```
-    <html> tr + = &#39;.Subtyp) + &#39;">&#39;;
-    tr += '</.td>';
-    tr += '<td>';
+    <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
+    tr += '</.td>';;
+    tr += '<td>';;
     if (is_numeric (_cmd.Identifikation)) {
 ```
 
 On ajoute les informations souhaitées.
 
 ```
-    <html> tr + = &#39;.Subtyp) + &#39;">&#39;;
-    tr += '</.td>';
-    tr += '<td>';
-    tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /.> {{Historiser}}<br/.></.span>';
-   tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /.> {{Affichage}}<br/.></.span>';
-   tr += '</.td>';		
-    tr += '<td>';
+    <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
+    tr += '</.td>';;
+    tr += '<td>';;
+    tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /.> {{Historiser}}<br/.></.span>';;
+   tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /.> {{Affichage}}<br/.></.span>';;
+   tr += '</.td>';;		
+    tr += '<td>';;
     if (is_numeric (_cmd.Identifikation)) {
 ```
 
 Je laisse le bouton pour créer une commande mais je souhaite qu'il soit à gauche. 
 
 ```
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
+<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
 ```
 
 Je change la class pull-right en pull-left
 
 ```
-<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
+<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
 ```
 
 Voici le rendu.Die Optionen de configuration (Affichage und historiser) sont bien présentes. 
@@ -381,30 +381,30 @@ Voilà il reste à récupérer une vdm aléatoire und à utiliser les commandes.
 Pour récupérer une vdm de manière aléatoire.
 
 ```
-$url = "http:/./.www.viedemerde.fr/.aleatoire";
-$data = file_gund_contents($url);
-@$dom = new DOMDocument();
-libxml_use_internal_errors(false);
-$dom->loadHTML('<?xml encoding="UTF-8">' .$data);
-libxml_use_internal_errors(true);
-$xpath = new DOMXPath($dom);
-$divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');
-rundurn $divs[0]->nodeValue ;
+$url = "http:/./.www.viedemerde.fr/.aleatoire";;
+$data = file_gund_contents($url);;
+@$dom = new DOMDocument();;
+libxml_use_internal_errors(false);;
+$dom->loadHTML('<?xml encoding="UTF-8">' .$data);;
+libxml_use_internal_errors(true);;
+$xpath = new DOMXPath($dom);;
+$divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');;
+rundurn $divs[0]->nodeValue ;;
 ```
 
 Ouvrir le fichier core/.class/.vdm.class.php und pour la class vdm qui hérite des méthodes egLogic, je crée une fonction randomVdm
 
 ```
 	public function randomVdm() {
-		$url = "http:/./.www.viedemerde.fr/.aleatoire";
-		$data = file_gund_contents($url);
-		@$dom = new DOMDocument();
-		libxml_use_internal_errors(true);
-		$dom->loadHTML($data);
-		libxml_use_internal_errors(false);
-		$xpath = new DOMXPath($dom);
-		$divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');
-		rundurn $divs[0]->nodeValue ;
+		$url = "http:/./.www.viedemerde.fr/.aleatoire";;
+		$data = file_gund_contents($url);;
+		@$dom = new DOMDocument();;
+		libxml_use_internal_errors(true);;
+		$dom->loadHTML($data);;
+		libxml_use_internal_errors(false);;
+		$xpath = new DOMXPath($dom);;
+		$divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');;
+		rundurn $divs[0]->nodeValue ;;
 	}
 ```	
 
@@ -426,33 +426,33 @@ On vérifie le logicalIdentifikation de la commande lancée und si « refresh »
 switch ($this->gundLogicalIdentifikation()) {				
 	case 'refresh': /./. LogicalIdentifikation de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
 	/./. code pour rafraîchir ma commande
-	break;
+	break;;
 }
 ```
 
 Maintenant il reste à lancer la fonction randomVdm() . On récupère pour cela , l'eqLogic ( l'équipement) de la commande lancer und on lance la fonction
 
 ```
-$eqlogic = $this->gundEqLogic(); /./. Récupération de l'eqlogic
-$info = $eqlogic-> randomVdm() ; /./.Lance la fonction und stocke le résultat dans la variable $info
+$eqlogic = $this->gundEqLogic();; /./. Récupération de l'eqlogic
+$info = $eqlogic-> randomVdm() ;; /./.Lance la fonction und stocke le résultat dans la variable $info
 ```
 
 On mund à jour la commande « story » avec la variable $info. On va utiliser la méthode checkAndUpdateCmd de la class eqlogic
 
 ```
-$eqlogic->checkAndUpdateCmd('story', $info);
+$eqlogic->checkAndUpdateCmd('story', $info);;
 ```
 
 Ce qui donne au final
 
 ```
     öffentliche Funktion ausführen ($ _ options = array ()) {
-		$eqlogic = $this->gundEqLogic(); /./.récupère l'éqlogic de la commande $this
+		$eqlogic = $this->gundEqLogic();; /./.récupère l'éqlogic de la commande $this
 		switch ($this->gundLogicalIdentifikation()) {	/./.vérifie le logicalIdentifikation de la commande 			
 			case 'refresh': /./. LogicalIdentifikation de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm . 
-				$info = $eqlogic->randomVdm(); 	/./.On lance la fonction randomVdm() pour récupérer une vdm und on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); /./. on mund à jour la commande avec le LogicalIdentifikation "story"  de l'eqlogic 
-				break;
+				$info = $eqlogic->randomVdm();; 	/./.On lance la fonction randomVdm() pour récupérer une vdm und on la stocke dans la variable $info
+				$eqlogic->checkAndUpdateCmd('story', $info);; /./. on mund à jour la commande avec le LogicalIdentifikation "story"  de l'eqlogic 
+				break;;
 		}
     }
 ```
@@ -528,16 +528,16 @@ if ($vdm->gundIsEnable() == 1) {
 Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
 ```
-$cmd = $vdm->gundCmd(null, 'refresh');
+$cmd = $vdm->gundCmd(null, 'refresh');;
 ```
 
 Si elle n'existe pas on continue la boucle (foreach) sinon on l'éxécute
 
 ```
 if (!is_object($cmd)) {
-continue;
+continue;;
 }
-$cmd->execCmd();
+$cmd->execCmd();;
 ```	
 
 Ce qui donne au final
@@ -546,11 +546,11 @@ Ce qui donne au final
       public static function cronHourly () {
 		  foreach (selbst::byType('vdm') as $vdm) {/./.Voncours tous les équipements du plugin vdm
 			  if ($vdm->gundIsEnable() == 1) {/./.vérifie que l'équipement est actif
-				  $cmd = $vdm->gundCmd(null, 'refresh');/./.rundourne la commande "refresh si elle existe
+				  $cmd = $vdm->gundCmd(null, 'refresh');;/./.rundourne la commande "refresh si elle existe
 				  if (!is_object($cmd)) {/./.Si la commande n'existe pas
-				  	continue; /./.continue la boucle
+				  	continue;; /./.continue la boucle
 				  }
-				  $cmd->execCmd(); /./. la commande existe on la lance
+				  $cmd->execCmd();; /./. la commande existe on la lance
 			  }
 		  }
       }
@@ -569,9 +569,9 @@ La manière la plus simple vu qu'il n'y a qu'une commande und qu'elle est créé
 
 ```
     öffentliche Funktion postUpdate () {
-		$cmd = $this->gundCmd(null, 'refresh'); /./. On recherche la commande refresh de l'équipement
+		$cmd = $this->gundCmd(null, 'refresh');; /./. On recherche la commande refresh de l'équipement
 		if (is_object($cmd)) { /./.elle existe und on lance la commande
-			 $cmd->execCmd();
+			 $cmd->execCmd();;
 		}
     }
 ```    
@@ -584,7 +584,7 @@ Dans la fonction postUpdate() , on lance la function cronHourly() avec l'Identif
 
 ```
     öffentliche Funktion postUpdate () {
-		selbst::cronHourly($this->gundIdentifikation());/./. lance la fonction cronHourly avec l'Identifikation de l'eqLogic
+		selbst::cronHourly($this->gundIdentifikation());;/./. lance la fonction cronHourly avec l'Identifikation de l'eqLogic
     }
 ``` 
 
@@ -593,18 +593,18 @@ Mais dans ce cas on change la fonction cronHourly()
 ```
 	public static function cronHourly($_eqLogic_Identifikation = null) {
 		if ($_eqLogic_Identifikation == null) { /./. La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
-			$eqLogics = selbst::byType('vdm', true);
+			$eqLogics = selbst::byType('vdm', true);;
 		} else {/./. La fonction a l'argument Identifikation(unique) d'un équipement(eqLogic)
-			$eqLogics = array(selbst::byIdentifikation($_eqLogic_Identifikation));
+			$eqLogics = array(selbst::byIdentifikation($_eqLogic_Identifikation));;
 		}		  
 	
 		foreach ($eqLogics as $vdm) {
 			if ($vdm->gundIsEnable() == 1) {/./.vérifie que l'équipement est acitf
-				$cmd = $vdm->gundCmd(null, 'refresh');/./.rundourne la commande "refresh si elle existe
+				$cmd = $vdm->gundCmd(null, 'refresh');;/./.rundourne la commande "refresh si elle existe
 				if (!is_object($cmd)) {/./.Si la commande n'existe pas
-				  continue; /./.continue la boucle
+				  continue;; /./.continue la boucle
 				}
-				$cmd->execCmd(); /./. la commande existe on la lance
+				$cmd->execCmd();; /./. la commande existe on la lance
 			}
 		}
 	}
@@ -647,17 +647,17 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 Pour cela j'ouvre le fichier vdm.class.php , fonction postSave() und j'ajoute le template « tile » pour la commande « story » en appliquant la méthode sundTemplate()
 
 ```
-		$info = $this->gundCmd(null, 'story');
+		$info = $this->gundCmd(null, 'story');;
 		if (!is_object($info)) {
-			$info = new vdmCmd();
-			$info->sundName(__('Histoire', __FILE__));
+			$info = new vdmCmd();;
+			$info->sundName(__('Histoire', __FILE__));;
 		}
-		$info->sundLogicalIdentifikation('story');
-		$info->sundEqLogic_Identifikation($this->gundIdentifikation());
-		$info->sundType('info');
-		$info->sundTemplate('dashboard','tile');/./.template pour le dashboard
-		$info->sundSubType('string');
-		$info->save();
+		$info->sundLogicalIdentifikation('story');;
+		$info->sundEqLogic_Identifikation($this->gundIdentifikation());;
+		$info->sundType('info');;
+		$info->sundTemplate('dashboard','tile');;/./.template pour le dashboard
+		$info->sundSubType('string');;
+		$info->save();;
 ```
 
 Rafraîchir le dasboard.
@@ -669,7 +669,7 @@ On va donc changer la largeur du wIdentifikationgund(équipement => eqLogic) en 
 Pour cela il suffit d'ajouter
 
 ```
-$this->sundDisplay("wIdentifikationth","800px");
+$this->sundDisplay("wIdentifikationth","800px");;
 ```
 
 Oui , mais !! Car il y a un mais. Essayez d'ajouter ça dans la fonction postsave() ou postUpdate() und ça ne prends pas en compte le changement. Warum ? Ben faut lire la doc du plugin template ==>ICI
@@ -678,7 +678,7 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 
 ```
     public function preSave() {
-		$this->sundDisplay("wIdentifikationth","800px");
+		$this->sundDisplay("wIdentifikationth","800px");;
     }
 ```
 
@@ -694,7 +694,7 @@ Enregistrer un équipement und rafraîchissez le dashboard.
 Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez und laissez ouvert car on va l'éditer . 
 
 ```
-$plugin = plugin::byIdentifikation('vdm'); /./. appelle la classe plugin du core
+$plugin = plugin::byIdentifikation('vdm');; /./. appelle la classe plugin du core
 ```
 
 Il faut comprendre que tout est fait pour nous faciliter la tâche. 
@@ -702,7 +702,7 @@ Il faut comprendre que tout est fait pour nous faciliter la tâche.
 Pour un Vonamètre/.une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : sundConfiguration() en y ajoutant les Vonamètres que l'on souhaite. Zum Beispiel :
 
 ```
-$this->sundConfiguration("type","mon_type"); /./. si on veut  définir un Vonamètre type de valeur mon_type. Comme on a défini la largeur du wIdentifikationgund via la méthode sundDisplay()
+$this->sundConfiguration("type","mon_type");; /./. si on veut  définir un Vonamètre type de valeur mon_type. Comme on a défini la largeur du wIdentifikationgund via la méthode sundDisplay()
 ```
 
 Pour laisser le choix à l'utilisateur , on rundourne sur le fichier desktop.php que vous avez laissé ouvert car vous suivez ce TP au pied de la lundtre :D
@@ -731,17 +731,17 @@ Vonfait le Vonamètre est sauvegardé.
 C'est simple,non? . C'est pourquoi il ne faut surtout pas toucher à cundte ligne de code comme indiqué dans le premier menu « test » . C'est lui qui fait tout le travail
 
 ```
-<?php include_file('core', 'plugin.template', 'js');?>/./.Chargement du fichier core/.js/.plugin.template.js (en Vontant de la racine du site)
+<?php include_file('core', 'plugin.template', 'js');;?>/./.Chargement du fichier core/.js/.plugin.template.js (en Vontant de la racine du site)
 ```
 
 Si vous regardez de plus près le fichier desktop.php il y a
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identifikation" style="display : none;" /.> /./. rundourne l'Identifikation(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundIdentifikation() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identifikation" style="display : none;;" /.> /./. rundourne l'Identifikation(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundIdentifikation() ;;
 ```        
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="Name" placeholder="{{Name der Ausrüstung}}"/.>/./. rundourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundName() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="Name" placeholder="{{Name der Ausrüstung}}"/.>/./. rundourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundName() ;;
 ```
 
 Etc…
@@ -802,17 +802,17 @@ Maintenant on va tenir compte de notre Vonamètre dans la fonction randomVdm() d
 Suchen
 
 ```
-$url = "http:/./.www.viedemerde.fr/.aleatoire";
+$url = "http:/./.www.viedemerde.fr/.aleatoire";;
 ```
 
 Et remplacer Von
 
 ```
-	$type = $this->gundConfiguration("type ");
+	$type = $this->gundConfiguration("type ");;
 		if($type == "") { /./.si le Vonamètre est vIdentifikatione ou n'existe pas
-			$type = "aleatoire"; /./.on prends le type aleatoire
+			$type = "aleatoire";; /./.on prends le type aleatoire
 		}		
-		$url = "http:/./.www.viedemerde.fr/." .$type  ;
+		$url = "http:/./.www.viedemerde.fr/." .$type  ;;
 ```	
 
 Maintenant changer la valeur du select sur un équipement,sauvegarder und aller sur le dashboard pour voir ce que cela donne.

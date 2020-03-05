@@ -323,7 +323,7 @@
         "function addCmdToTable(_cmd)": "Funktion addCmdToTable (_cmd)",
         "isset(_cmd))": "isset (_cmd))",
         "var _cmd = {configuration": "var _cmd = {Konfiguration",
-        ";": ";",
+        ";": ";;",
         "isset(_cmd.configuration))": "isset (_cmd.configuration))",
         "_cmd.configuration = {};": "_cmd.configuration = {};",
         "var tr = '<tr class=\"cmd\" data-cmd_id=\"' + init(_cmd": "var tr = '<tr class=\"cmd\" data-cmd_id=\"' + init(_cmd",
