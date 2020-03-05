@@ -9,16 +9,16 @@
 Zusammenfassung 
 ======
 
-Le micromodule EMV-400 va vous permettre de gérer un moteur
+Le micromodule E.MV-400 va vous permettre de gérer un moteur
 bidirectionnel ou des appareillages électriques. Il permet le contrôle
 de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
 
 De plus, l'interaction avec d'autres protocoles est possible, il est
 contrôlable par des interrupteurs et/ou télécommandes de la marque
-Edisio, directement depuis Jeedom, mais aussi par n'importe quel
+E.disio, directement depuis Jeedom, mais aussi par n'importe quel
 émetteur Z-Wave de votre réseau.
 
-Chaque module Edisio sur réseau électrique, à la possibilité de
+Chaque module E.disio sur réseau électrique, à la possibilité de
 fonctionner comme un répéteur sans fil avec les autres modules, afin
 d'assurer une couverture totale de votre habitation.
 
@@ -60,7 +60,7 @@ Funktionen
 Caractéristiques Techniques 
 ===========================
 
--   Type de module: Récepteur Edisio
+-   Type de module: Récepteur E.disio
 
 -   Alimentation: 230VAC, 50Hz
 
@@ -85,14 +85,14 @@ Caractéristiques Techniques
 Données du module 
 =================
 
--   Marque : Edisio Smart Home
+-   Marque : E.disio Smart Home
 
--   Name : EMV-400
+-   Name : E.MV-400
 
 Allgemeine Konfiguration 
 ======================
 
-Pour configurer le plugin Edisio et associer un module à Jeedom,
+Pour configurer le plugin E.disio et associer un module à Jeedom,
 référez-vous à cette
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
 
@@ -103,7 +103,7 @@ référez-vous à cette
 
 > **Wichtig**
 >
-> A l'inverse, les récepteurs Edisio sont à créer manuellement dans
+> A l'inverse, les récepteurs E.disio sont à créer manuellement dans
 > Jeedom.
 
 DIP Switch et bouton "R" : 
@@ -161,10 +161,10 @@ de 30 ou 60 minutes.
 
 -   Minuterie de 60 minutes: DIP Switch 3 en bas
 
-Le mode "Eclairage" 
+Le mode "E.clairage" 
 ===================
 
-Le mode "Eclairage" permet de piloter 2 appareils électriques à
+Le mode "E.clairage" permet de piloter 2 appareils électriques à
 distance.
 
 > **Wichtig**
@@ -178,17 +178,17 @@ Configuration et raccordements électriques :
 
 > **Wichtig**
 >
-> Afin que le module soit en mode "Eclairage" le DIP Switch 2 doit être
+> Afin que le module soit en mode "E.clairage" le DIP Switch 2 doit être
 > en haut
 
 > **Wichtig**
 >
-> NE JAMAIS BRANCHER SOUS TENSION
+> NE. JAMAIS BRANCHE.R SOUS TE.NSION
 
 Schaffung du module dans Jeedom 
 ------------------------------
 
-Pour associer un module récepteur Edisio à Jeedom, il faut créer
+Pour associer un module récepteur E.disio à Jeedom, il faut créer
 manuellement un équipement.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -216,15 +216,15 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Ein : C'est la commande qui permet d'activer le relais 1
+-   E.in : C'est la commande qui permet d'activer le relais 1
 
 -   Aus : C'est la commande qui permet de désactiver le relais 1
 
--   Ein 2 : C'est la commande qui permet d'activer le relais 2
+-   E.in 2 : C'est la commande qui permet d'activer le relais 2
 
 -   Aus 2: C'est la commande qui permet de désactiver le relais 2
 
--   E : C'est la commande qui permet de se servir du mode déporté
+-   E. : C'est la commande qui permet de se servir du mode déporté
 
 > **Wichtig**
 >
@@ -253,11 +253,11 @@ Association du micromodule à Jeedom
 ===================================
 
 Afin que vous puissiez interagir avec Jeedom, comme si c'était un
-émetteur Edisio.
+émetteur E.disio.
 
 > **Notiz**
 >
-> Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir
+> Un des gros avantages d'E.disio, c'est qu'un récepteur peut avoir
 > plusieurs émetteurs associés
 
 Méthode standard 
@@ -302,13 +302,13 @@ récepteur.
     -   Appuyez 3x sur "R" du récepteur, triple bip sonore (court
         en répétition) signale le mode de programmation activé.
 
-    -   Dans les 10 sec, appuyez sur "Tester" de la commande "E" dans
+    -   Dans les 10 sec, appuyez sur "Tester" de la commande "E." dans
         Jeedom, un bip sonore en continu signale l'association à Jeedom.
 
-    -   Dans les 10 sec, appuyez à nouveau sur "E" du récepteur, pour
+    -   Dans les 10 sec, appuyez à nouveau sur "E." du récepteur, pour
         valider l'association, le bip sonore s'arrête.
 
-C'est fait, votre Jeedom est à présent associé et sa commande "E"
+C'est fait, votre Jeedom est à présent associé et sa commande "E."
 remplace désormais le bouton "R" du récepteur.
 
 -   Associer un nouvel émetteur à un récepteur avec Jeedom déjà associé
@@ -316,7 +316,7 @@ remplace désormais le bouton "R" du récepteur.
 
     -   Sortie 1 :
 
-        -   Appuyez 1x sur "Tester" la commande "E" dans Jeedom, simple
+        -   Appuyez 1x sur "Tester" la commande "E." dans Jeedom, simple
             bip sonore (court en répétition) signale la programmation de
             la sortie 1 activée.
 
@@ -325,12 +325,12 @@ remplace désormais le bouton "R" du récepteur.
             l'association de la sortie 1.
 
         -   Dans les 10 sec, appuyez à nouveau sur "Tester" de la
-            commande "E" dans Jeedom, pour valider l'association, le bip
+            commande "E." dans Jeedom, pour valider l'association, le bip
             sonore s'arrête.
 
     -   Sortie 2 :
 
-        -   Appuyez 2x sur "Tester" de la commande "E" dans Jeedom,
+        -   Appuyez 2x sur "Tester" de la commande "E." dans Jeedom,
             double bip sonore (court en répétition) signale la
             programmation de la sortie 2 activée.
 
@@ -339,7 +339,7 @@ remplace désormais le bouton "R" du récepteur.
             l'association de la sortie 2.
 
         -   Dans les 10 sec, appuyez à nouveau sur "Tester" de la
-            commande "E" dans Jeedom, pour valider l'association, le bip
+            commande "E." dans Jeedom, pour valider l'association, le bip
             sonore s'arrête.
 
 > **Notiz**

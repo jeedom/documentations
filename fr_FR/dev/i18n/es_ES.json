@@ -419,7 +419,7 @@
         "On va donc utiliser la fonction cronHourly()": "On va donc utiliser la fonction cronHourly()",
         "On va donc ouvrir le fichier vdm.class": "On va donc ouvrir le fichier vdm.class",
         "php et chercher": "php et chercher",
-        "\/": "\/",
+        "\/": "\/ \/",
         "Fonction exécutée automatiquement toutes les heures par Jeedom": "Fonction exécutée automatiquement toutes les heures par Jeedom",
         "public static function cronHourly()": "public static function cronHourly()",
         "Décommenter le code": "Décommenter le code",
