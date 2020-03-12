@@ -3,7 +3,7 @@ Secure SES 302 "Température"
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -161,7 +161,7 @@ utiles si vous avez raccordé des sondes externes
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

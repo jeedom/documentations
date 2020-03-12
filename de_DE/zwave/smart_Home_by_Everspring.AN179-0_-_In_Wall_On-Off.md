@@ -3,7 +3,7 @@ SmartHome by Everspring In Wall Ein Aus - AN179-0
 
  \
 
--   **Le module**
+-   **Das Modul**
 
  \
 
@@ -173,7 +173,7 @@ le même icone.
 
  \
 
-### Konfiguration du module 
+### Konfiguration des Moduls 
 
  \
 

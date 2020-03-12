@@ -3,7 +3,7 @@ DUWI 05436 "Volet roulant"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -24,7 +24,7 @@ Resumen
 
  \
 
-Le module volet roulant DUWI 05436 permet de contrôler des volets
+El módulo volet roulant DUWI 05436 permet de contrôler des volets
 roulants dans deux directions.
 
 Ses principales caractéristiques sont :
@@ -186,7 +186,7 @@ Recommencer l'opération dans l'autre sens.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

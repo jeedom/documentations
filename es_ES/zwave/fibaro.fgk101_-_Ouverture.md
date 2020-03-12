@@ -3,11 +3,11 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
-![module](images/fibaro.fgk101-DS18B20/module.jpg)
+![Modulo](images/fibaro.fgk101-DS18B20/Modulo.jpg)
 
  \
 
@@ -78,7 +78,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave
+-   Type de Modulo : Emetteur Z-Wave
 
 -   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
  \
 
-Données du module 
+Données du Modulo 
 -----------------
 
  \
@@ -124,7 +124,7 @@ inclusion référez-vous à cette
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
+> Pour mettre ce Modulo en mode inclusion il faut appuyer 3 fois sur le
 > bouton d'inclusion, conformément à sa documentation papier.
 
  \
@@ -145,7 +145,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-Une fois le module reconnu, les commandes associées au module seront
+Une fois le Modulo reconnu, les commandes associées au Modulo seront
 disponible.
 
  \
@@ -159,7 +159,7 @@ Voici la liste des commandes :
  \
 
 -   Estado : c'est la commande qui remontera l'état ouvert ou fermé du
-    module
+    Modulo
 
 -   Batería : c'est la commande qui permet de remonter l'état de la
     batería
@@ -170,18 +170,18 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
+> Lors d'une première inclusion réveillez toujours le Modulo juste après
 > l'inclusion.
 
  \
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
+Ensuite si vous voulez effectuer la configuration du Modulo en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuración" du plugin OpenZwave de Jeedom.
 
@@ -206,7 +206,7 @@ Détails des paramètres :
 
  \
 
--   Wakeup : c'est l'interval de réveil du module (valeur
+-   Wakeup : c'est l'interval de réveil du Modulo (valeur
     recommandée 7200)
 
 -   1: permet de régler le délai d'annulation de l'alarme de l'entrée IN
@@ -226,7 +226,7 @@ Détails des paramètres :
     et le groupe d'association 1
 
 -   12: permet de régler la sensibilité au changement de température (si
-    une sonde 1 wire est reliée au module)
+    une sonde 1 wire est reliée au Modulo)
 
 -   13: permet de régler l'envoi en mode broadcast des signaux de
     température et de tamper
@@ -239,7 +239,7 @@ Détails des paramètres :
 
  \
 
-Ce module possède trois groupes d'association, seul le troisième est
+Ce Modulo possède trois groupes d'association, seul le troisième est
 indispensable.
 
  \
@@ -259,7 +259,7 @@ Bon à savoir
 
 > **Punta**
 >
-> Ce module est très capricieux sur les wakeup et nécessite une très
+> Ce Modulo est très capricieux sur les wakeup et nécessite une très
 > forte proximité avec le contrôleur lors de son inclusion
 
  \
@@ -277,7 +277,7 @@ Wakeup
 
  \
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Pour réveiller ce Modulo il y a une seule et unique façon de procéder :
 
 -   appuyer 3/4 fois sur le bouton d'inclusion. Il peut être nécessaire
     de le faire plusieurs fois de suite (2 ou 3)
@@ -289,17 +289,17 @@ F.A.Q.
 
  \
 
-Ce module se réveille en appuyant 3 fois sur un des boutons tamper. Mais
+Ce Modulo se réveille en appuyant 3 fois sur un des boutons tamper. Mais
 il faut que l'autre bouton tamper soit enfoncé.
 
  \
 
-Ce module à une portée très faible. Il est conseillé de faire
+Ce Modulo à une portée très faible. Il est conseillé de faire
 l'inclusion au plus proche de votre box.
 
  \
 
-Ce module est un module sur batería, la nouvelle configuration sera
+Ce Modulo est un Modulo sur batería, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
  \
@@ -311,7 +311,7 @@ Note importante
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
+> Il faut réveiller le Modulo : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d'association
 

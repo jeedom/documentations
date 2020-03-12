@@ -3,7 +3,7 @@ Fibaro FGSD-002 "Smoke Sensor 2"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -198,7 +198,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

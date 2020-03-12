@@ -3,7 +3,7 @@ Everspring Miniplug Uno/Apagado - AN180-6
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -167,7 +167,7 @@ la même icône.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

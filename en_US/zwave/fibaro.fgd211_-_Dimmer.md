@@ -3,7 +3,7 @@ Fibaro Dimmer - FGD-211
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -198,7 +198,7 @@ Icon
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

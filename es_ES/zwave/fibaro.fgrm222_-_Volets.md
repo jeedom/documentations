@@ -3,7 +3,7 @@ Fibaro FGRM-222 "Volet roulant"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -204,7 +204,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

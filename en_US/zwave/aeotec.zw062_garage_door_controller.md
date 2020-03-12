@@ -3,7 +3,7 @@ Aeotec Contrôleur de porte de garage
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -178,7 +178,7 @@ Voici la liste des commandes :
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

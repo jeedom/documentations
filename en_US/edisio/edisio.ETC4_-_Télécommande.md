@@ -1,4 +1,4 @@
--   **Le module**
+-   **The module**
 
 ![module](images/etc4/module.jpg)
 

@@ -3,7 +3,7 @@ Philio PST02 A - 4 en 1
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -207,7 +207,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

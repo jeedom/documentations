@@ -1,4 +1,4 @@
--   **Le module**
+-   **The module**
 
 ![module](images/emv.400/module.jpg)
 

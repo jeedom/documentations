@@ -3,7 +3,7 @@ Danalock V2 BTZE
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -252,7 +252,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

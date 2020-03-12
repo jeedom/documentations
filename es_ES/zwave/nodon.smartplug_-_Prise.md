@@ -3,7 +3,7 @@ Nodon Prise Intelligente - Smartplug
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -162,7 +162,7 @@ le même icone.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

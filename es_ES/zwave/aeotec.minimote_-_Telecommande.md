@@ -3,7 +3,7 @@ Aeotec Minimote
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -163,7 +163,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

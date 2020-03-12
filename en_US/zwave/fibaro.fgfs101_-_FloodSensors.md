@@ -3,7 +3,7 @@ Fibaro FGFS-101 "Flood Sensor"
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -187,7 +187,7 @@ Voici la liste des commandes :
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

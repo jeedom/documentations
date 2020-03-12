@@ -3,7 +3,7 @@ Secure SES 303 "Température/Humidité"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -163,7 +163,7 @@ utiles si vous avez raccordé des sondes externes
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

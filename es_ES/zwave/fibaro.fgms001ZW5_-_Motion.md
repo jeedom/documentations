@@ -3,7 +3,7 @@ Fibaro Motion Sensor - FGMS-001
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -184,7 +184,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

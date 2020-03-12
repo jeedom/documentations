@@ -3,7 +3,7 @@ MCO MH-S412 Double
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 

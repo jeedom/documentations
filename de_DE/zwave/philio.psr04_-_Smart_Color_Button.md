@@ -3,11 +3,11 @@ Philio Smart Color Button
 
  \
 
--   **Le module**
+-   **Das Modul**
 
  \
 
-![module](images/philio.psr04/module.jpg)
+![Modul](images/philio.psr04/Modul.jpg)
 
  \
 
@@ -109,7 +109,7 @@ FCC Part 15 B, FCC Part 15 C
 
  \
 
-Données du module 
+Données du Modul 
 -----------------
 
  \
@@ -139,7 +139,7 @@ inclusion référez-vous à cette
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut le mettre en position
+> Pour mettre ce Modul en mode inclusion il faut le mettre en position
 > basse (inclusion) et appuyer sur le bouton, conformément à sa
 > documentation papier.
 
@@ -161,7 +161,7 @@ Une fois inclus vous devriez obtenir ceci :
 
  \
 
-Une fois le module reconnu, les commandes associées au module seront
+Une fois le Modul reconnu, les commandes associées au Modul seront
 verfügbar.
 
  \
@@ -178,22 +178,22 @@ Voici la liste des commandes :
     100%
 
 -   Batterie : c'est la commande qui remonte l'état de batterie du
-    module
+    Modul
 
  \
 
-### Konfiguration du module 
+### Konfiguration des Moduls 
 
  \
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
+> Lors d'une première inclusion réveillez toujours le Modul juste après
 > l'inclusion.
 
  \
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
+Ensuite si vous voulez effectuer la configuration du Modul en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Konfiguration" du plugin OpenZwave de Jeedom.
 
@@ -222,7 +222,7 @@ Détails des paramètres :
 
 -   10 : intervalle de temps de remontée de batterie
 
--   25 : permet de définir si le module envoie sa positon
+-   25 : permet de définir si le Modul envoie sa positon
     automatiquement après rotation (1s de délai) ou si il faut appuyer
     sur le bouton pour valider l'envoi
 
@@ -235,7 +235,7 @@ Détails des paramètres :
 
  \
 
-Ce module possède deux groupes d'association, le premier est le seul
+Ce Modul possède deux groupes d'association, le premier est le seul
 indispensable. Le deuxième permet de remonter la position à Jeedom
 
  \
@@ -251,12 +251,12 @@ Bon à savoir
 
 ### Spécificités 
 
-Pour utiliser ce module en télécommande il faut procéder comme suit :
+Pour utiliser ce Modul en télécommande il faut procéder comme suit :
 
 -   Rajouter le contrôleur dans le groupe 2
 
-En effet ce type de module n'est pas fait pour interagir directement
-avec une box mais directement avec d'autres modules. Cependant en
+En effet ce type de Modul n'est pas fait pour interagir directement
+avec une box mais directement avec d'autres Moduls. Cependant en
 rajoutant Jeedom au groupe 2, cela permet de recevoir la position du
 bouton et donc de s'en servir pour contrôller un scénario (régler un
 volume par exemple)
@@ -266,9 +266,9 @@ Wakeup
 
  \
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Pour réveiller ce Modul il y a une seule et unique façon de procéder :
 
--   mettre le module en position basse et appuyer sur le bouton
+-   mettre le Modul en position basse et appuyer sur le bouton
 
  \
 
@@ -279,8 +279,8 @@ F.A.Q.
 
  \
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez le module.
+Ce Modul est un Modul sur batterie, la nouvelle configuration ne sera
+prise en compte que si vous réveillez le Modul.
 
  \
 
@@ -291,7 +291,7 @@ Note importante
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
+> Il faut réveiller le Modul : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d'association
 

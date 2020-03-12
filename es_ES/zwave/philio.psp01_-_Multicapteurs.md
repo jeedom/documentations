@@ -3,7 +3,7 @@ Philio PSP01
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -198,7 +198,7 @@ Voici la liste des commandes :
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
 correspondant à votre module.
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

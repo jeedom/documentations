@@ -3,7 +3,7 @@ Secure SRT 323 "Thermostat"
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -198,7 +198,7 @@ Voici la liste des commandes :
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

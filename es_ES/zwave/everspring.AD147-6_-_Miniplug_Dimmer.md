@@ -3,7 +3,7 @@ Everspring Miniplug Dimmer - AD147-6
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -168,7 +168,7 @@ retrouvent sur la même icône.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

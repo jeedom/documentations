@@ -3,7 +3,7 @@ Swiid Interrupteur - Swiidinter
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -185,7 +185,7 @@ Icon
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 
@@ -292,7 +292,7 @@ Specific.
 
  \
 
-Non. Le module ne le permet pas.
+Non. The module ne le permet pas.
 
  \
 

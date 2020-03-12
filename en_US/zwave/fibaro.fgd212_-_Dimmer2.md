@@ -3,7 +3,7 @@ Fibaro Dimmer2 - FGD-212
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -227,7 +227,7 @@ Icon
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

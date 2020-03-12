@@ -3,7 +3,7 @@ Fibaro FGRWPE-101 "Wall plug"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -163,7 +163,7 @@ en un seul bouton.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

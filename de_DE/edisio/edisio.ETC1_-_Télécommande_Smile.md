@@ -1,4 +1,4 @@
--   **Le module**
+-   **Das Modul**
 
 ![etc1.module 1](images/etc1/etc1.module-1.jpg)
 

@@ -3,7 +3,7 @@ Secure SIR 321 "Timer"
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -152,7 +152,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

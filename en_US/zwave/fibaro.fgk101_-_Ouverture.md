@@ -3,7 +3,7 @@ Fibaro Détecteur d'ouverture - FGK-101
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -170,7 +170,7 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

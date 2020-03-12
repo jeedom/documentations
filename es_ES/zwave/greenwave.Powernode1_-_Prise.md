@@ -3,7 +3,7 @@ Greenwave PowerNode - 1 prise
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -24,7 +24,7 @@ Resumen
 
  \
 
-Le module prise PowerNode de GreenWave est un appareil intelligent qui
+El módulo prise PowerNode de GreenWave est un appareil intelligent qui
 se connecte à un de vos appareils électroménagers et électroniques pour
 vous permettre de surveiller et contrôler la consommation électrique à
 distance via un navigateur Web ou un smartphone.
@@ -53,7 +53,7 @@ lumineux qui donne différentes informations en fonction de sa couleur :
 prises allumées ou éteintes, portée radio limitée, mode inclusion et
 exclusion.
 
-Le module prise PowerNode est équipé d'une protection contre les
+El módulo prise PowerNode est équipé d'une protection contre les
 surintensités pour protéger l'appareil connecté. La prise PowerNode sera
 désactivée en cas du dysfonctionnement d'un appareil défectueux ou d'un
 court-circuit. Une protection supplémentaire est assurée par le fusible
@@ -202,7 +202,7 @@ en un seul bouton.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 
@@ -301,7 +301,7 @@ Avez-vous associé le groupe 3 du module à Jeedom ?
 
  \
 
-Non. Le module ne le permet pas. Mettez dessus un petit morceau de ruban
+Non. El módulo ne le permet pas. Mettez dessus un petit morceau de ruban
 adhésif noir.
 
  \

@@ -3,7 +3,7 @@ Everspring Miniplug Ein/Aus - AN180-6
 
  \
 
--   **Le module**
+-   **Das Modul**
 
  \
 
@@ -167,7 +167,7 @@ la même icône.
 
  \
 
-### Konfiguration du module 
+### Konfiguration des Moduls 
 
  \
 

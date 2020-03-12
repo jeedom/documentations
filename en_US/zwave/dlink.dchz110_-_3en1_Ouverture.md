@@ -3,7 +3,7 @@ D-Link DCH-Z110 - "3 en 1 Opening"
 
  \
 
--   **Le module**
+-   **The module**
 
  \
 
@@ -173,7 +173,7 @@ Voici la liste des commandes :
 
  \
 
-### Setup du module 
+### Setup of the module 
 
  \
 

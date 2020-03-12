@@ -3,7 +3,7 @@ Fibaro RGVB Controler - FGRGB-101
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -198,7 +198,7 @@ Icono
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuración" du

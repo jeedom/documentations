@@ -3,7 +3,7 @@ SmartHome by Everspring In Wall Dimmer - AD146-0
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -186,7 +186,7 @@ retrouvent sur le même icone.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

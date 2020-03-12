@@ -3,7 +3,7 @@ Philio PST02 C - 3 en 1 Apertura
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -191,7 +191,7 @@ Voici la liste des commandes :
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

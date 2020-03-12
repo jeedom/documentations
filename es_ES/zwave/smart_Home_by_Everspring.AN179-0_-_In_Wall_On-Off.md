@@ -3,7 +3,7 @@ SmartHome by Everspring In Wall Uno Apagado - AN179-0
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -173,7 +173,7 @@ le même icone.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 

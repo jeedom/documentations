@@ -3,7 +3,7 @@ Aeotec Keyfob
 
  \
 
--   **Le module**
+-   **Das Modul**
 
  \
 
@@ -165,7 +165,7 @@ Voici la liste des commandes :
 
  \
 
-### Konfiguration du module 
+### Konfiguration des Moduls 
 
  \
 

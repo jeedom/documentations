@@ -2,7 +2,7 @@
 # aeotec
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|aeotec|Range Extender (DSD37)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../fr_FR/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|aeotec|Range Extender (DSD37)|Repetidor|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../fr_FR/zwave/images/134.1.1_dsa07203.z-stick.lite.jpg" width="60" />|aeotec|Z-Stick Lite (DSA07203)|Contrôleur|||
 |<img src="../../fr_FR/zwave/images/134.1.22_dsA22_key.fob.jpg" width="60" />|aeotec|Key Fob (DSA22)|Télécommande|Remplacé dans les boutiques par le keyfob Gen5|[Acheter](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
 |<img src="../../fr_FR/zwave/images/134.1.38_dsa38_panic.button.jpg" width="60" />|aeotec|Panic Button (DSA38)|Télécommande||[Acheter](http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html)|
@@ -54,8 +54,8 @@
 |<img src="../../fr_FR/zwave/images/134.259.96_zw096_smart.switch.gen5.jpg" width="60" />|aeotec|Smart Switch 6 (ZW096)|Prise||[Acheter](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
 |<img src="../../fr_FR/zwave/images/134.259.98_zw098_rgbw_bulb.jpg" width="60" />|aeotec|LED Bulb (ZW098)|Ampoule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
 |<img src="../../fr_FR/zwave/images/134.259.99_zw099_smart.dimmer6.jpg" width="60" />|aeotec|Smart Dimmer 6 (ZW099)|Prise|||
-|<img src="../../fr_FR/zwave/images/134.260.117_zw117.range.extender.6.jpg" width="60" />|aeotec|Range Extender (ZW117)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau||
-|<img src="../../fr_FR/zwave/images/134.260.37_dsd37_range.extender.jpg" width="60" />|aeotec|Range Extender (DSD37)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../fr_FR/zwave/images/134.260.117_zw117.range.extender.6.jpg" width="60" />|aeotec|Range Extender (ZW117)|Repetidor|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau||
+|<img src="../../fr_FR/zwave/images/134.260.37_dsd37_range.extender.jpg" width="60" />|aeotec|Range Extender (DSD37)|Repetidor|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../fr_FR/zwave/images/134.260.80_zw080.siren.jpg" width="60" />|aeotec|Siren Gen5 (ZW080)|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../fr_FR/zwave/images/134.3.10_dsc10_heavy.duty.smart.switch.jpg" width="60" />|aeotec|Heavy Duty Smart Switch (DSC10)|Prise|||
 |<img src="../../fr_FR/zwave/images/134.3.111_zw111.nano.dimmer.jpg" width="60" />|aeotec|Nano Dimmer (ZW111)|Micromodule|||
@@ -81,8 +81,8 @@
 |<img src="../../fr_FR/zwave/images/134.3.96_zw096_smart.switch.gen5.jpg" width="60" />|aeotec|Smart Switch 6 (ZW096)|Prise||[Acheter](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
 |<img src="../../fr_FR/zwave/images/134.3.98_zw098_rgbw_bulb.jpg" width="60" />|aeotec|LED Bulb (ZW098)|Ampoule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
 |<img src="../../fr_FR/zwave/images/134.3.99_zw099_smart.dimmer6.jpg" width="60" />|aeotec|Smart Dimmer 6 (ZW099)|Prise|||
-|<img src="../../fr_FR/zwave/images/134.4.117_zw117.range.extender.6.jpg" width="60" />|aeotec|Range Extender (ZW117)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau||
-|<img src="../../fr_FR/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|aeotec|Range Extender (DSD37)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../fr_FR/zwave/images/134.4.117_zw117.range.extender.6.jpg" width="60" />|aeotec|Range Extender (ZW117)|Repetidor|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau||
+|<img src="../../fr_FR/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|aeotec|Range Extender (DSD37)|Repetidor|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../fr_FR/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|aeotec|Siren Gen5 (ZW080)|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../fr_FR/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|aeotec|Recessed Door Sensor Gen5 (ZW089)|Apertura||[Acheter](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 

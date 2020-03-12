@@ -3,7 +3,7 @@ Greenwave PowerNode - 6 prises
 
  \
 
--   **Le module**
+-   **El módulo**
 
  \
 
@@ -275,7 +275,7 @@ en un seul bouton.
 
  \
 
-### Configuración du module 
+### Configuracion del modulo 
 
  \
 
@@ -400,7 +400,7 @@ Avez vous réglé un CRON.
 
  \
 
-Non. Le module ne le permet pas. Mettez un morceau de ruban adhésif noir
+Non. El módulo ne le permet pas. Mettez un morceau de ruban adhésif noir
 dessus.
 
  \
