@@ -97,7 +97,7 @@ Caractéristiques techniques
 
 -   Dimensions : 65 x 28 mm (diamètre x hauteur)
 
--   Température de fonctionnement : 0-55°C
+-   Temperature de fonctionnement : 0-55°C
 
 -   Humidité de fonctionnement : 0% - 93%
 
@@ -183,7 +183,7 @@ Voici la liste des commandes :
 -   Fumées : c'est la commande d'alerte du module (pour la fumée, la
     chaleur …​)
 
--   Température : c'est la commande de mesure de la température
+-   Temperature : c'est la commande de mesure de la température
 
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier

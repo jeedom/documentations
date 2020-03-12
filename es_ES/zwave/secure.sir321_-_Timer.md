@@ -75,7 +75,7 @@ Caractéristiques Techniques
 
 -   Indice de protection : IP30
 
--   Température de fonctionnement: 0°C à 35°C
+-   Temperatura de fonctionnement: 0°C à 35°C
 
  \
 
@@ -147,7 +147,7 @@ Voici la liste des commandes :
 
 -   Apagado : c'est la commande permettant d'éteindre le relais
 
--   Température : c'est la commande de mesure de la température si une
+-   Temperatura : c'est la commande de mesure de la température si une
     sonde externe est présente
 
  \

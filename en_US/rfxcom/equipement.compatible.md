@@ -27,9 +27,9 @@
 | Chacon 54524   | Micro-module   | AC             | On/Off         |                |
 | 300W           | Variateur 300W |                | seulement      |                |
 | Coco           |                | AC             | Gamme complète | [Acheter](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
-| CRESTA         | Température    | Hideki         |                |                |
+| CRESTA         | Temperature    | Hideki         |                |                |
 | HW-TX320       | Humidité avec affichage      |                |                |                |
-| Digimax 210    | Thermostat     | X10            | Utiliser "Température,Humidité et Pression - Défaut"        |                |
+| Digimax 210    | Thermostat     | X10            | Utiliser "Temperature,Humidité et Pression - Défaut"        |                |
 | DI.O by Chacon | Détecteur      | AC             |                |                |
 | 54583          | crépusculaire  |                |                |                |
 | DI-O by Chacon | Détecteur de   | AC             |                |                |
@@ -49,7 +49,7 @@
 | DS18           | Détecteur      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
 | KDI FER-1000W  | Prise          | Ex de code pour allumer la prise 07100102500D01 60             |                |                |
 | KDI FECT-100   | Télécommande   |                |                |                |
-| Homewizad      | Température    |                |                |                |
+| Homewizad      | Temperature    |                |                |                |
 | HW-TX320       | Humidité avec affichage      |                |                |                |
 | LaCross Technologie WS7394       | Station météo  | LaCrosse       |                |                |
 | Lexibook SM883 | Station météo  | Hideki / UPM   |                |                |
@@ -57,8 +57,8 @@
 | JB-Media       | Convertisseur  | AC             |                |                |
 | récepteur IR   | RF - Infra     |                |                |                |
 | Light-Manager Mini | Red          |                |                |                |
-| Oregon         | Température    | Oregon         |                | [Acheter](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
-| Oregon         | Température    | Oregon         |                |                |
+| Oregon         | Temperature    | Oregon         |                | [Acheter](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
+| Oregon         | Temperature    | Oregon         |                |                |
 | THGN132N       | Humidité       |                |                |                |
 | Oregon WGR800  | Anémomètre     | Oregon         |                |                |
 | Oregon PCR800  | Pluviomètre    | Oregon         |                |                |
@@ -70,8 +70,8 @@
 | Somfy Freevia 300  | Motorisation portail   | Poser RFXcom sur le moteur pour l'associer au moteur comme si c'était une télécommande   |                |                |
 | Somfy Evolvia 400/450 | Motorisation portail   | Poser RFXcom sur le moteur pour l'associer au moteur comme si c'était une télécommande.Le capot du moteur doit être ouvert et il doit faire jour. La procédure ne marche pas s'il fait nuit.          |                |                |
 | Somfy RTS      | Volets roulants et autres périphériques Somfy RTS      |                |                |                |
-| Thermomètre TX320   | Température Humidité avec affichage      |                |                |                |
-| TFA 30.3139 RADIO SENSOR    | Température    |                |                |                |
+| Thermomètre TX320   | Temperature Humidité avec affichage      |                |                |                |
+| TFA 30.3139 RADIO SENSOR    | Temperature    |                |                |                |
 | WD18           | Détecteur d'Eau     | X10            |                |                |
 
 > **NOTE**

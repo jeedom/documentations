@@ -2,20 +2,20 @@
 # a5-02
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température blanc|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2627-nodon-capteur-de-temperature-sans-fils-et-sans-piles-blanc-3700313920183.html)|
-|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température black|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2637-nodon-capteur-de-temperature-enocean-black-3700313920169.html)|
-|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température alu|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2634-nodon-capteur-de-temperature-enocean-alu-3700313920176.html)|
-|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température wood|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2635-nodon-capteur-de-temperature-enocean-wood-3700313920145.html)|
-|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température varnish|Température|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2636-nodon-capteur-de-temperature-enocean-varnish-3700313920152.html)|
-|<img src="../../fr_FR/enocean/images/a5-02-17.jpg" width="60" />|Thermokon|Capteur de température tuyau|Température|||
+|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température blanc|Temperatur|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2627-nodon-capteur-de-temperature-sans-fils-et-sans-piles-blanc-3700313920183.html)|
+|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température black|Temperatur|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2637-nodon-capteur-de-temperature-enocean-black-3700313920169.html)|
+|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température alu|Temperatur|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2634-nodon-capteur-de-temperature-enocean-alu-3700313920176.html)|
+|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température wood|Temperatur|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2635-nodon-capteur-de-temperature-enocean-wood-3700313920145.html)|
+|<img src="../../fr_FR/enocean/images/a5-02-05.jpg" width="60" />|Nodon|Capteur de température varnish|Temperatur|Disponible en plusieurs coloris|[Acheter](http://www.domadoo.fr/fr/peripheriques/2636-nodon-capteur-de-temperature-enocean-varnish-3700313920152.html)|
+|<img src="../../fr_FR/enocean/images/a5-02-17.jpg" width="60" />|Thermokon|Capteur de température tuyau|Temperatur|||
 
 # a5-04
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
 ||a5-04|||||
-|<img src="../../fr_FR/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Sonde radio humidité et température pour montage interieur|Température|||
-|<img src="../../fr_FR/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe+ Pilot Sonde humidité et température|Température|||
-|<img src="../../fr_FR/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Sonde radio humidité et température pour montage extérieur - FAFT60|Température||[Acheter](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
+|<img src="../../fr_FR/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Sonde radio humidité et température pour montage interieur|Temperatur|||
+|<img src="../../fr_FR/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe+ Pilot Sonde humidité et température|Temperatur|||
+|<img src="../../fr_FR/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Sonde radio humidité et température pour montage extérieur - FAFT60|Temperatur||[Acheter](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
 
 # a5-06
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -35,8 +35,8 @@
 |---|---|---|---|---|---|
 ||a5-09|||||
 |<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|Sonde CO2 qualité d'air E4000|Capteur|||
-|<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Sonde Co2 Température Humidité|Capteur|||
-|<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Insafe+ Carbon Sonde Co2 Température Humidité|Capteur|||
+|<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Sonde Co2 Temperatur Humidité|Capteur|||
+|<img src="../../fr_FR/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Insafe+ Carbon Sonde Co2 Temperatur Humidité|Capteur|||
 |<img src="../../fr_FR/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Sonde qualité d'air E4000|Capteur|||
 ||Nanosense|Sonde particules fines P4000|Capteur|||
 |<img src="../../fr_FR/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Sonde qualité d'air E4000NG|Capteur|||

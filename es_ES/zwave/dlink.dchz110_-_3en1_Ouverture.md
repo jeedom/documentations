@@ -25,7 +25,7 @@ Resumen
  \
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
-d'ouverture, capteur de température et détecteur de luminosité. El se
+d'ouverture, capteur de Temperatura et détecteur de luminosité. El se
 compose de deux parties : un détecteur et un aimant. Ils sont conçus
 pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
 partie qui s'ouvre et le détecteur sur la partie fixe.
@@ -39,7 +39,7 @@ niveau de luminosité. Par exemple, le capteur enverra un signal à
 l'interrupteur Z-Wave pour allumer la lumière lorsque la porte s'ouvre
 et que la pièce est sombre.
 
-Le détecteur remontera aussi la luminosité et la température, soit en
+Le détecteur remontera aussi la luminosité et la Temperatura, soit en
 cas de changement important, et à chaque fois que l'ouverture/fermeture
 est détectée. Un contrôleur Z-Wave (télécommande, dongle …?) est
 nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez
@@ -52,7 +52,7 @@ Funciones
 
  \
 
--   Détecteur 3 en 1: Apertura, température, lumière
+-   Détecteur 3 en 1: Apertura, Temperatura, lumière
 
 -   Portée de l'antenne optimisée
 
@@ -161,8 +161,8 @@ Voici la liste des commandes :
 -   Apertura : c'est la commande qui remontera une détection
     d'ouverture
 
--   Température : c'est la commande qui permet de remonter la
-    température
+-   Temperatura : c'est la commande qui permet de remonter la
+    Temperatura
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
@@ -240,12 +240,12 @@ Détails des paramètres :
     luminosité (une unité = parametre 20). Valeur recommandée : 6
 
 -   13: permet de définir la durée entre deux Reportes auto de
-    température (une unité = parametre 20). Valeur recommandée : 2
+    Temperatura (une unité = parametre 20). Valeur recommandée : 2
 
 -   20: durée d'un intervalle pour les paramètres 10 à 13. Valeur
     recommandée : 10
 
--   21: valeur de variation en °F de température pour déclencher un
+-   21: valeur de variation en °F de Temperatura pour déclencher un
     Reporte
 
 -   22: valeur en % de variation de luminosité pour déclencher

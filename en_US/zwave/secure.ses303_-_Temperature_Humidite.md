@@ -1,4 +1,4 @@
-Secure SES 303 "Température/Humidité" 
+Secure SES 303 "Temperature/Humidité" 
 =====================================
 
  \
@@ -152,7 +152,7 @@ Voici la liste des commandes :
 
  \
 
--   Température : c'est la commande de mesure de la température
+-   Temperature : c'est la commande de mesure de la température
 
 -   Humidité : c'est la commande de mesure de l'humidité
 

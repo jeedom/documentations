@@ -75,7 +75,7 @@ Caractéristiques Techniques
 
 -   Indice de protection : IP30
 
--   Température de fonctionnement: 0°C à 35°C
+-   Temperatur de fonctionnement: 0°C à 35°C
 
  \
 
@@ -147,7 +147,7 @@ Voici la liste des commandes :
 
 -   Aus : c'est la commande permettant d'éteindre le relais
 
--   Température : c'est la commande de mesure de la température si une
+-   Temperatur : c'est la commande de mesure de la température si une
     sonde externe est présente
 
  \

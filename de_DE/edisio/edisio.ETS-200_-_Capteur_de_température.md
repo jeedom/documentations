@@ -49,7 +49,7 @@ Caractéristiques techniques
 
 -   Fréquence : 868,3 MHz
 
--   Température de fonctionnement : 0°C +45°C
+-   Temperatur de fonctionnement : 0°C +45°C
 
 -   Portée en champs libre : 100M
 
@@ -122,7 +122,7 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Température : C'est la commande qui indique la température relevée
+-   Temperatur : C'est la commande qui indique la température relevée
 
 -   Batterie : Indique l'état de la batterie
 

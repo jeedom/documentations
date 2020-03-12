@@ -101,7 +101,7 @@ Caractéristiques techniques
 
 -   Indice de protection : IP30
 
--   Température de fonctionnement : 0°C à 40°C
+-   Temperatur de fonctionnement : 0°C à 40°C
 
 -   Dimensions : 86 x 86 x 36,25 mm
 
@@ -185,11 +185,11 @@ Voici la liste des commandes :
 
  \
 
--   Température : c'est la commande de mesure de la température
+-   Temperatur : c'est la commande de mesure de la température
 
--   ConsigneEtat : c'est la commande qui donne la consigne en cours
+-   AnleitungEtat : c'est la commande qui donne la consigne en cours
 
--   Consigne : c'est la commande qui permet de régler la consigne
+-   Anleitung : c'est la commande qui permet de régler la consigne
 
 -   Etat Chauffe : c'est la commande qui permet de savoir si le
     thermostat est en mode chauffe ou non

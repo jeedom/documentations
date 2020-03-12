@@ -1,4 +1,4 @@
-Secure SES 302 "Température" 
+Secure SES 302 "Temperatura" 
 ============================
 
  \
@@ -152,7 +152,7 @@ Voici la liste des commandes :
 
  \
 
--   Température : c'est la commande de mesure de la température
+-   Temperatura : c'est la commande de mesure de la température
 
 -   Batería : c'est la commande batterie
 

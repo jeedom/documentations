@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Distance de transmission : 300m en champ libre
 
--   Température de fonctionnement : -20°C à 50°C
+-   Temperatura de fonctionnement : -20°C à 50°C
 
 -   Humidité de fonctionnement : 80%
 
@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
 -   Volume : Volume actuel du haut-parleur.
 
--   Température : Température de la zone, pas de remonté automatique.
+-   Temperatura : Temperatura de la zone, pas de remonté automatique.
 
 -   Sabotage : Etat du sabotage en texte.
 

@@ -26,13 +26,13 @@ Summary
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
 En plus de la détection de mouvement, ce dispositif mesure la
-température et l'intensité lumineuse. Ce détecteur comporte aussi un
+Temperature et l'intensité lumineuse. Ce détecteur comporte aussi un
 accéléromètre intégré afin de détecter toute tentative d'altération du
 dispositif.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
 pour être installé rapSameent et facilement sur n'importe quelle
-surface. Le voyant LED signale le mouvement, le niveau de température,
+surface. Le voyant LED signale le mouvement, le niveau de Temperature,
 le mode de fonctionnement et peut être utilisé pour voir si l'appareil
 est dans le réseau Z-Wave.
 
@@ -50,13 +50,13 @@ Functions
 
 -   Détecte les mouvements à l'aide d'un capteur infrarouge passif
 
--   Mesure de la température
+-   Mesure de la Temperature
 
 -   Mesure de l'intensité lumineuse
 
 -   Protection contre l'effraction et le vol
 
--   Alertes de mouvement et de température signalées par le clignotement
+-   Alertes de mouvement et de Temperature signalées par le clignotement
     de la diode LED
 
 -   Mode de détection de tremblement de terre
@@ -82,7 +82,7 @@ Caractéristiques techniques
 
 -   Hauteur recommandée pour l'installation : 2,4m
 
--   Plage de température mesurée : -20°C à 100°C
+-   Plage de Temperature mesurée : -20°C à 100°C
 
 -   Précision de la mesure : 0,5°C
 
@@ -94,7 +94,7 @@ Caractéristiques techniques
 
 -   Dimensions: 4,4 cm de diamètre
 
--   Température de fonctionnement : 0-40°C
+-   Temperature de fonctionnement : 0-40°C
 
 -   Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS
     II
@@ -167,8 +167,8 @@ Voici la liste des commandes :
 
 -   Présence : c'est la commande qui remontera une détection de présence
 
--   Température : c'est la commande qui permet de remonter la
-    température
+-   Temperature : c'est la commande qui permet de remonter la
+    Temperature
 
 -   Luminosité : c'est la commande qui permet de remonter la luminosité
 
@@ -265,15 +265,15 @@ Détails des paramètres :
     même si la luminosité n'a pas changée (valeur conseillée 3600)
 
 -   60: permet de dire de combien doit être modifiée la valeur de
-    température pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
+    Temperature pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
 
--   62: permet de donner la fréquence des mesures de température (valeur
+-   62: permet de donner la fréquence des mesures de Temperature (valeur
     conseillée 900)
 
 -   64: permet de donner une durée minimum entre deux envois successifs
-    même si la température n'a pas changée (valeur conseillée 2700)
+    même si la Temperature n'a pas changée (valeur conseillée 2700)
 
--   66: permet d'ajuster la température
+-   66: permet d'ajuster la Temperature
 
 -   80: permet de choisir la couleur de la led lorsqu'il ya détection de
     mouvement (voir de la désactiver)
@@ -286,10 +286,10 @@ Détails des paramètres :
 -   83: permet de régler le seuil maximal de luminosité pour mettre la
     led à 100% (lié au paramètre 81)
 
--   86: température en dessous de laquelle la led s'allumera en bleu
+-   86: Temperature en dessous de laquelle la led s'allumera en bleu
     (lié au paramètre 81)
 
--   87: température au dessus de laquelle la led s'allumera en rouge
+-   87: Temperature au dessus de laquelle la led s'allumera en rouge
     (lié au paramètre 81)
 
 -   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de

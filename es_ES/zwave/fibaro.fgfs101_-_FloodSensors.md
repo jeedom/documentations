@@ -97,7 +97,7 @@ Caractéristiques techniques
 
 -   Dimensions : 72 x 28 mm (diamètre x hauteur)
 
--   Température de fonctionnement : 0-40°C (-20°C à 70°C si
+-   Temperatura de fonctionnement : 0-40°C (-20°C à 70°C si
     alimentation externe)
 
 -   Gamme de mesure de la température : -20 à 100°C
@@ -178,7 +178,7 @@ Voici la liste des commandes :
 -   Fuite : c'est la commande d'alerte du module (pour la présence
     d'eau, inondation …​)
 
--   Température : c'est la commande de mesure de la température
+-   Temperatura : c'est la commande de mesure de la température
 
 -   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
     du boitier

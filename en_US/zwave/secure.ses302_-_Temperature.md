@@ -1,4 +1,4 @@
-Secure SES 302 "Température" 
+Secure SES 302 "Temperature" 
 ============================
 
  \
@@ -152,7 +152,7 @@ Voici la liste des commandes :
 
  \
 
--   Température : c'est la commande de mesure de la température
+-   Temperature : c'est la commande de mesure de la température
 
 -   Drums : c'est la commande batterie
 
