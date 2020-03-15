@@ -63,7 +63,7 @@ Caractéristiques techniques
 
 -   Type de module : Contrôleur Z-Wave
 
--   Farbe : Blanc
+-   Farbe : Weiß
 
 -   Alimentation : batterie interne rechargeable via USB
 

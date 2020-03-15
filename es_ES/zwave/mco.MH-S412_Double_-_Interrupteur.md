@@ -66,7 +66,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Color : Blanc
+-   Color : Blanco, Blanca
 
 -   Alimentation : 230 V, 50 Hz
 
