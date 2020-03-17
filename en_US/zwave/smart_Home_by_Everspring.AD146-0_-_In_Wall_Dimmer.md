@@ -83,7 +83,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230 V, 50 Hz
 
--   Consommation : 0.5W
+-   Consumption : 0.5W
 
 -   Puissance maximum :
 

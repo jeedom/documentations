@@ -87,7 +87,7 @@ Caractéristiques techniques
 
 -   Puissance maxi : 660W
 
--   Consommation : &lt; 0,08W
+-   El consumo : &lt; 0,08W
 
 -   Indice de protection: IP20
 

@@ -84,7 +84,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230V, 50 Hz
 
--   Consommation électrique : &lt; 0,8W
+-   Consumption électrique : &lt; 0,8W
 
 -   Câblage : 3 fils, neutre nécessaire
 
@@ -187,7 +187,7 @@ Voici la liste des commandes :
 
 -   Power : Commande permettant d'avoir la consommation du module
 
--   Consommation : Commande permettant de connaître la puissance
+-   Consumption : Commande permettant de connaître la puissance
     instantanée utilisée par le module
 
 -   STOP : Commande pour stopper le mouvement du volet

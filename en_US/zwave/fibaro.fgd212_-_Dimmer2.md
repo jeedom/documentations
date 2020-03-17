@@ -103,7 +103,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230V +/- 10%, 50Hz
 
--   Consommation : 1.3W
+-   Consumption : 1.3W
 
 -   Câblage : neutre pas nécessaire
 
@@ -216,7 +216,7 @@ Voici la liste des commandes :
 -   State : C'est la commande qui permet de connaitre le statut de la
     Light
 
--   Consommation : C'est la commande qui permet de remonter la
+-   Consumption : C'est la commande qui permet de remonter la
     consommation du module
 
 -   Power : C'est la commande qui permet de remonter la puissance

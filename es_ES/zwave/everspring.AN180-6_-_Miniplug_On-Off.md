@@ -71,7 +71,7 @@ Caractéristiques Techniques
 
 -   Alimentation : 230 V, 50 Hz
 
--   Consommation : 0.6W
+-   El consumo : 0.6W
 
 -   Puissance maximum : Charge résistive : 1500W, Ampoule à incandesence
     : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :

@@ -103,7 +103,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230V +/- 10%, 50Hz
 
--   Consommation : 1.3W
+-   El consumo : 1.3W
 
 -   Câblage : neutre pas nécessaire
 
@@ -216,7 +216,7 @@ Voici la liste des commandes :
 -   Estado : C'est la commande qui permet de connaitre le statut de la
     Iluminación
 
--   Consommation : C'est la commande qui permet de remonter la
+-   El consumo : C'est la commande qui permet de remonter la
     consommation du module
 
 -   Potencia : C'est la commande qui permet de remonter la puissance

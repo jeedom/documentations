@@ -85,7 +85,7 @@ Caractéristiques techniques
 
 -   Fréquence de modulation PWM : 244 Hz
 
--   Consommation : 0,3W
+-   Verbrauch : 0,3W
 
 -   Protocole radio : Z-Wave à 868,4 MHz (EU)
 

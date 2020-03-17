@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230 V, 50 Hz
 
--   Consommation : 0.5W
+-   Verbrauch : 0.5W
 
 -   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
     : 1200W Ampoule Fluocompacte : 320W

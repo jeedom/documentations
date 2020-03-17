@@ -17,7 +17,7 @@
 |<img src="../../fr_FR/zwave/images/134.2.129_zw129_wallmote.duo.jpg" width="60" />|aeotec|WallMote Duo (ZW129)|Télécommande|||
 |<img src="../../fr_FR/zwave/images/134.2.130_zw130_wallmote.quad.jpg" width="60" />|aeotec|WallMote Quad (ZW130)|Télécommande|||
 |<img src="../../fr_FR/zwave/images/134.2.1_dsa02203.z-stick-s2.jpg" width="60" />|aeotec|Z-Stick S2 (DSA02203)|Contrôleur|||
-|<img src="../../fr_FR/zwave/images/134.2.28_dsb28_hem.g2.jpg" width="60" />|aeotec|Home Energy Meter 2nd Edition (DSB28)|Consommation||[Acheter](http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html)|
+|<img src="../../fr_FR/zwave/images/134.2.28_dsb28_hem.g2.jpg" width="60" />|aeotec|Home Energy Meter 2nd Edition (DSB28)|Consumption||[Acheter](http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html)|
 |<img src="../../fr_FR/zwave/images/134.2.29_dsb29_door.window.sensor.jpg" width="60" />|aeotec|Door/Window Sensor 2nd Edition (DSB29)|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
 |<img src="../../fr_FR/zwave/images/134.2.45_dsb45_water.sensor.jpg" width="60" />|aeotec|Water Sensor (DSB45)|Fuite|Paramètre 121 doit être forcé a 4113|[Acheter](http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html)|
 |<img src="../../fr_FR/zwave/images/134.2.4_dsb04100_door.window.sensor.jpg" width="60" />|aeotec|Door/Window Sensor (DSB04100)|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
@@ -25,12 +25,12 @@
 |<img src="../../fr_FR/zwave/images/134.2.5_dsb05_multi.sensor.jpg" width="60" />|aeotec|MultiSensor (DSB05) |Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5|[Acheter](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
 |<img src="../../fr_FR/zwave/images/134.2.74_zw074_multi-sensor.gen5.jpg" width="60" />|aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration|[Acheter](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
 |<img src="../../fr_FR/zwave/images/134.2.89_zw089_recessed.door.sensor.jpg" width="60" />|aeotec|Recessed Door Sensor Gen5 (ZW089)|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-|<img src="../../fr_FR/zwave/images/134.2.95_zw095_hem_gen5.jpg" width="60" />|aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
+|<img src="../../fr_FR/zwave/images/134.2.95_zw095_hem_gen5.jpg" width="60" />|aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
 |<img src="../../fr_FR/zwave/images/134.2.97_zw097_dry.contact.sensor.gen5.jpg" width="60" />|aeotec|Dry Contact Sensor Gen5 (ZW097)|Opening|||
-|<img src="../../fr_FR/zwave/images/134.2.9_dsb09104_hem_2.jpg" width="60" />|aeotec|Home Energy Meter (DSB09104)|Consommation|Remplacé par le Home Energy Meter 2G (DSB28)||
+|<img src="../../fr_FR/zwave/images/134.2.9_dsb09104_hem_2.jpg" width="60" />|aeotec|Home Energy Meter (DSB09104)|Consumption|Remplacé par le Home Energy Meter 2G (DSB28)||
 |<img src="../../fr_FR/zwave/images/134.257.90_zw090.z-stick-gen5.jpg" width="60" />|aeotec|Z-Stick Gen5 (ZW090)|Contrôleur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html)|
 |<img src="../../fr_FR/zwave/images/134.258.100_zw100_6in1.multisensor.jpg" width="60" />|aeotec|MultiSensor 6 (ZW100)|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html)|
 |<img src="../../fr_FR/zwave/images/134.258.112_zw112_door.window.sensor6.jpg" width="60" />|aeotec|Door/Window Sensor 6 (ZW112)|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html)|
@@ -39,9 +39,9 @@
 |<img src="../../fr_FR/zwave/images/134.258.129_zw129_wallmote.duo.jpg" width="60" />|aeotec|WallMote Duo (ZW129)|Télécommande|Partiellement compatible: Fonctionne en association directe seulement ||
 |<img src="../../fr_FR/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|aeotec|WallMote Quad (ZW130)|Télécommande|Partiellement compatible: Fonctionne en association directe seulement ||
 |<img src="../../fr_FR/zwave/images/134.258.89_zw089_recessed.door.sensor.jpg" width="60" />|aeotec|Recessed Door Sensor Gen5 (ZW089)|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
-||aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
+||aeotec|Home Energy Meter Gen5 (ZW095)|Consumption|||
 |<img src="../../fr_FR/zwave/images/134.258.97_zw097_dry.contact.sensor.gen5.jpg" width="60" />|aeotec|Dry Contact Sensor Gen5 (ZW097)|Opening|||
 |<img src="../../fr_FR/zwave/images/134.259.111_zw111.nano.dimmer.jpg" width="60" />|aeotec|Nano Dimmer (ZW111)|Micromodule|||
 |<img src="../../fr_FR/zwave/images/134.259.116_zw116.nano.switch.jpg" width="60" />|aeotec|Nano Switch (ZW116)|Micromodule|||
@@ -561,7 +561,7 @@
 |<img src="../../fr_FR/zwave/images/316.4.10_pse02.indoor.siren.jpg" width="60" />|philio|PH-PSE02 Sirène Z-Wave+|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html)|
 |<img src="../../fr_FR/zwave/images/316.5.49.Smart.Dimmer.E27.jpg" width="60" />|philio|Smart Dimmer E27|Douille|||
 |<img src="../../fr_FR/zwave/images/316.5.49_Smart.Dimmer.E27.jpg" width="60" />|philio|Smart Dimmer E27|Douille|||
-|<img src="../../fr_FR/zwave/images/316.6.26_phpab01.micromodule.energy.meter.jpg" width="60" />|philio|Micromodule Energy Meter (PH-PAB01)|Consommation|Vendu sous la marique Zipato|[Acheter](http://www.domadoo.fr/fr/peripheriques/3576-zipato-micromodule-compteur-d-energie-z-wave-3858890732689.html)|
+|<img src="../../fr_FR/zwave/images/316.6.26_phpab01.micromodule.energy.meter.jpg" width="60" />|philio|Micromodule Energy Meter (PH-PAB01)|Consumption|Vendu sous la marique Zipato|[Acheter](http://www.domadoo.fr/fr/peripheriques/3576-zipato-micromodule-compteur-d-energie-z-wave-3858890732689.html)|
 |<img src="../../fr_FR/zwave/images/316.9.34_psr04.smart.color.button.jpg" width="60" />|philio|PSR04 Smart Color Button|Interrupteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html)|
 
 # polycontrol

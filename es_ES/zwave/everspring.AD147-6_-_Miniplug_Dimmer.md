@@ -70,7 +70,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230 V, 50 Hz
 
--   Consommation : 0.6W
+-   El consumo : 0.6W
 
 -   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
     : 250W, Ampoule Led (non dimmable) : 6W
