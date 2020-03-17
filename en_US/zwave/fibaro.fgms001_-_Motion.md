@@ -170,7 +170,7 @@ Voici la liste des commandes :
 -   Temperature : c'est la commande qui permet de remonter la
     Temperature
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Brightness : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)

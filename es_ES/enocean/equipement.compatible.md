@@ -20,7 +20,7 @@
 # a5-06
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/a5-06-01.jpg" width="60" />|Eltako|Sonde de luminosité extérieure FAH60|Luminosité||[Acheter](http://www.domadoo.fr/fr/peripheriques/3084-eltako-sonde-de-luminosite-exterieure-4010312305218.html)|
+|<img src="../../fr_FR/enocean/images/a5-06-01.jpg" width="60" />|Eltako|Sonde de luminosité extérieure FAH60|Brillo||[Acheter](http://www.domadoo.fr/fr/peripheriques/3084-eltako-sonde-de-luminosite-exterieure-4010312305218.html)|
 
 # a5-07
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -55,11 +55,11 @@
 # a5-12
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/a5-12-00.jpg" width="60" />|Avidsen|Module Pince ampérimétrique|Compteur|||
-|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Module de comptage d'énergie 65A|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2837-eltako-module-de-comptage-d-energie-65a-4010312311059.html)|
-|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Module de comptage d'énergie 16A|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2836-eltako-module-de-comptage-d-energie-16a-4010312303184.html)|
-|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Avidsen|Module Téléinfo|Compteur|||
-|<img src="../../fr_FR/enocean/images/a5-12-10.jpg" width="60" />|Ewattch|SQUID Sous-compteur electrique EnOcean - 12 entrées|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2859-ewattch-squid-sous-compteur-electrique-enocean-12-entrees-3770002148045.html)|
+|<img src="../../fr_FR/enocean/images/a5-12-00.jpg" width="60" />|Avidsen|Module Pince ampérimétrique|Contador|||
+|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Module de comptage d'énergie 65A|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2837-eltako-module-de-comptage-d-energie-65a-4010312311059.html)|
+|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Module de comptage d'énergie 16A|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2836-eltako-module-de-comptage-d-energie-16a-4010312303184.html)|
+|<img src="../../fr_FR/enocean/images/a5-12-01.jpg" width="60" />|Avidsen|Module Téléinfo|Contador|||
+|<img src="../../fr_FR/enocean/images/a5-12-10.jpg" width="60" />|Ewattch|SQUID Sous-compteur electrique EnOcean - 12 entrées|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2859-ewattch-squid-sous-compteur-electrique-enocean-12-entrees-3770002148045.html)|
 
 # a5-14
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -90,7 +90,7 @@
 |<img src="../../fr_FR/enocean/images/d2-01-09.jpg" width="60" />|UbiWizz|Smart Plug EnOcean|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant|[Acheter](http://www.domadoo.fr/fr/peripheriques/2667-ubiwizz-smart-plug-enocean-schuko.html)|
 |<img src="../../fr_FR/enocean/images/d2-01-0a.jpg" width="60" />|Nodon|Prise intelligente EnOcean|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant|[Acheter](http://www.domadoo.fr/fr/peripheriques/2631-nodon-prise-intelligente-enocean-type-eu-3700313920008.html)|
 |<img src="../../fr_FR/enocean/images/d2-01-0b.jpg" width="60" />|Nodon|Prise intelligente + metering|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant|[Acheter](http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html)|
-|<img src="../../fr_FR/enocean/images/d2-01-0c.jpg" width="60" />|Avidsen|Module Fil Pilote|Fil Pilote|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant||
+|<img src="../../fr_FR/enocean/images/d2-01-0c.jpg" width="60" />|Avidsen|Module Cable piloto|Cable piloto|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant||
 |<img src="../../fr_FR/enocean/images/d2-01-0e.jpg" width="60" />|Nodon|Micro Smart Plug|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant|[Acheter](http://www.domadoo.fr/fr/peripheriques/4309-nodon-micro-smart-plug-enocean-prise-fr-3700313921401.html)|
 |<img src="../../fr_FR/enocean/images/d2-01-0f.jpg" width="60" />|Nodon|Micromodule commutateur simple EnOcean|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant||
 |<img src="../../fr_FR/enocean/images/d2-01-0f.jpg" width="60" />|Avidsen|Micromodule commutateur simple EnOcean|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant||

@@ -28,8 +28,8 @@
 | 300W           | Variateur 300W |                | seulement      |                |
 | Coco           |                | AC             | Gamme complète | [Acheter](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
 | CRESTA         | Temperatura    | Hideki         |                |                |
-| HW-TX320       | Humidité avec affichage      |                |                |                |
-| Digimax 210    | Thermostat     | X10            | Utiliser "Temperatura,Humidité et Pression - Défaut"        |                |
+| HW-TX320       | Humedad avec affichage      |                |                |                |
+| Digimax 210    | Termostato     | X10            | Utiliser "Temperatura,Humedad et Pression - Défaut"        |                |
 | DI.O by Chacon | Détecteur      | AC             |                |                |
 | 54583          | crépusculaire  |                |                |                |
 | DI-O by Chacon | Détecteur de   | AC             |                |                |
@@ -41,7 +41,7 @@
 | 54746          | extérieure     |                |                |                |
 | DI-O by Chacon | Détecteur      | AC             |                |                |
 | 54783          | crépusculaire  |                |                |                |
-| DI-O by Chacon | Volet roulant  | AC             |                |                |
+| DI-O by Chacon | Persiana enrollable  | AC             |                |                |
 | 54754          |                |                |                |                |
 | DI-O by Chacon | Prise 1500W    | AC             |                |                |
 | 54798          |                |                |                |                |
@@ -50,7 +50,7 @@
 | KDI FER-1000W  | Prise          | Ex de code pour allumer la prise 07100102500D01 60             |                |                |
 | KDI FECT-100   | Télécommande   |                |                |                |
 | Homewizad      | Temperatura    |                |                |                |
-| HW-TX320       | Humidité avec affichage      |                |                |                |
+| HW-TX320       | Humedad avec affichage      |                |                |                |
 | LaCross Technologie WS7394       | Station météo  | LaCrosse       |                |                |
 | Lexibook SM883 | Station météo  | Hideki / UPM   |                |                |
 | ITL-1000       | Contact sec avec minuterie |                |                |                |
@@ -59,7 +59,7 @@
 | Light-Manager Mini | Rojo          |                |                |                |
 | Oregon         | Temperatura    | Oregon         |                | [Acheter](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 | Oregon         | Temperatura    | Oregon         |                |                |
-| THGN132N       | Humidité       |                |                |                |
+| THGN132N       | Humedad       |                |                |                |
 | Oregon WGR800  | Anémomètre     | Oregon         |                |                |
 | Oregon PCR800  | Pluviomètre    | Oregon         |                |                |
 | UV Oregon      | Sonde UV       | Oregon         |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
@@ -70,7 +70,7 @@
 | Somfy Freevia 300  | Motorisation portail   | Poser RFXcom sur le moteur pour l'associer au moteur comme si c'était une télécommande   |                |                |
 | Somfy Evolvia 400/450 | Motorisation portail   | Poser RFXcom sur le moteur pour l'associer au moteur comme si c'était une télécommande.Le capot du moteur doit être ouvert et il doit faire jour. La procédure ne marche pas s'il fait nuit.          |                |                |
 | Somfy RTS      | Volets roulants et autres périphériques Somfy RTS      |                |                |                |
-| Thermomètre TX320   | Temperatura Humidité avec affichage      |                |                |                |
+| Thermomètre TX320   | Temperatura Humedad avec affichage      |                |                |                |
 | TFA 30.3139 RADIO SENSOR    | Temperatura    |                |                |                |
 | WD18           | Détecteur d'Eau     | X10            |                |                |
 

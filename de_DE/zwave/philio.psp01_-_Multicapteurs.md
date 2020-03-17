@@ -186,7 +186,7 @@ Voici la liste des commandes :
 -   Temperatur : c'est la commande qui permet de remonter la
     Temperatur
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Helligkeit : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en
     cas d'arrachement)

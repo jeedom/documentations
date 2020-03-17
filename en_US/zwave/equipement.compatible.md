@@ -255,7 +255,7 @@
 |<img src="../../fr_FR/zwave/images/96.514.1_hsm02.doorwindow.jpg" width="60" />|everspring|HSM02|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 ||everspring|SM103|Opening||[Acheter](http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html)|
 |<img src="../../fr_FR/zwave/images/96.6.1_st814.temperature.and.humidity.sensor.jpg" width="60" />|everspring|ST814|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html)|
-|<img src="../../fr_FR/zwave/images/96.7.1_st815.jpg" width="60" />|everspring|ST815|Luminosité||[Acheter](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
+|<img src="../../fr_FR/zwave/images/96.7.1_st815.jpg" width="60" />|everspring|ST815|Brightness||[Acheter](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
 |<img src="../../fr_FR/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|everspring|TSE03 Door Bell|Carillon|||
 
 # evolve
@@ -377,9 +377,9 @@
 # fortrezz
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/132.1105.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
-|<img src="../../fr_FR/zwave/images/132.1107.270_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
-|<img src="../../fr_FR/zwave/images/132.1107.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1105.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Counter||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1107.270_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Counter||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1107.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Counter||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
 |<img src="../../fr_FR/zwave/images/132.577.768_wv01_water_valve.jpg" width="60" />|fortrezz|Automated Water Shut-Off Valve (WV-01)|Valve||[Acheter](http://www.domadoo.fr/fr/peripheriques/2957-fortrezz-vanne-d-arret-d-eau-34-z-wave-661799486057.html)|
 |<img src="../../fr_FR/zwave/images/132.785.265_ssa1.jpg" width="60" />|fortrezz|SSA-01|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/979-fortrezz-sirene-z-wave-flash-clair-ssa1-0661799486033.html)|
 |<img src="../../fr_FR/zwave/images/132.785.265_ssa2.jpg" width="60" />|fortrezz|SSA-02|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/980-fortrezz-sirene-z-wave-flash-rouge-ssa2-0661799486026.html)|
@@ -532,9 +532,9 @@
 # northq
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
-|<img src="../../fr_FR/zwave/images/150.1.2_nq-9021.power.reader.jpg" width="60" />|northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html)|
-|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gaz Meter|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
+|<img src="../../fr_FR/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
+|<img src="../../fr_FR/zwave/images/150.1.2_nq-9021.power.reader.jpg" width="60" />|northq|Power Reader|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html)|
+|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gaz Meter|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
 
 # oomi
 |Picture|Marque|Name|Type|Note|Link|

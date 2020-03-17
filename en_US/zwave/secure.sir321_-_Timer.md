@@ -66,7 +66,7 @@ Caractéristiques Techniques
 
 -   Type: Minuteur électronique
 
--   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu'à
+-   Relay: 13(3)A, 230V AC, approprié pour des charges allants jusqu'à
     3kW
 
 -   Alimentation: 230V AC, 50Hz

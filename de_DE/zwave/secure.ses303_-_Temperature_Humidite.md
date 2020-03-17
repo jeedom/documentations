@@ -1,4 +1,4 @@
-Secure SES 303 "Temperatur/Humidité" 
+Secure SES 303 "Temperatur/Luftfeuchtigkeit" 
 =====================================
 
  \
@@ -154,7 +154,7 @@ Voici la liste des commandes :
 
 -   Temperatur : c'est la commande de mesure de la température
 
--   Humidité : c'est la commande de mesure de l'humidité
+-   Luftfeuchtigkeit : c'est la commande de mesure de l'humidité
 
 -   Batterie : c'est la commande batterie
 

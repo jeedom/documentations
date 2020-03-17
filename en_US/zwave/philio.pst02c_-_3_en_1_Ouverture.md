@@ -185,7 +185,7 @@ Voici la liste des commandes :
 -   Temperature : c'est la commande qui permet de remonter la
     Temperature
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Brightness : c'est la commande qui permet de remonter la luminosité
 
 -   Drums : c'est la commande batterie
 

@@ -136,14 +136,14 @@
 # danfoss
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/2.100.1_ra.plus-w.radiator.thermostat.jpg" width="60" />|danfoss|RA Plus-W Radiator Thermostat|Thermostat|||
-|<img src="../../fr_FR/zwave/images/2.277.40976_pop.radiator.thermostat.jpg" width="60" />|danfoss|Popp Radiator Thermostat|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3683-popp-tete-thermostatique-sans-fil-z-wave-0019962010101.html)|
-|<img src="../../fr_FR/zwave/images/2.3.32784_rs.room.sensor.jpg" width="60" />|danfoss|RS Room Sensor|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
-|<img src="../../fr_FR/zwave/images/2.32771.32769_rs.room.sensor.jpg" width="60" />|danfoss|RS Room Sensor|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
-|<img src="../../fr_FR/zwave/images/2.32773.1_living.connect.jpg" width="60" />|danfoss|Living Connect Radiator Thermostat|Thermostat|||
-|<img src="../../fr_FR/zwave/images/2.5.373_thermostat.devolo.jpg" width="60" />|danfoss|Devolo Home Control Radiator Thermostat|Thermostat|||
-|<img src="../../fr_FR/zwave/images/2.5.3_thermostat.living.connect.jpg" width="60" />|danfoss|Thermostat Living Connect|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
-|<img src="../../fr_FR/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|danfoss|Thermostat Living Connect|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
+|<img src="../../fr_FR/zwave/images/2.100.1_ra.plus-w.radiator.thermostat.jpg" width="60" />|danfoss|RA Plus-W Radiator Termostato|Termostato|||
+|<img src="../../fr_FR/zwave/images/2.277.40976_pop.radiator.thermostat.jpg" width="60" />|danfoss|Popp Radiator Termostato|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3683-popp-tete-thermostatique-sans-fil-z-wave-0019962010101.html)|
+|<img src="../../fr_FR/zwave/images/2.3.32784_rs.room.sensor.jpg" width="60" />|danfoss|RS Room Sensor|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
+|<img src="../../fr_FR/zwave/images/2.32771.32769_rs.room.sensor.jpg" width="60" />|danfoss|RS Room Sensor|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
+|<img src="../../fr_FR/zwave/images/2.32773.1_living.connect.jpg" width="60" />|danfoss|Living Connect Radiator Termostato|Termostato|||
+|<img src="../../fr_FR/zwave/images/2.5.373_thermostat.devolo.jpg" width="60" />|danfoss|Devolo Home Control Radiator Termostato|Termostato|||
+|<img src="../../fr_FR/zwave/images/2.5.3_thermostat.living.connect.jpg" width="60" />|danfoss|Termostato Living Connect|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
+|<img src="../../fr_FR/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|danfoss|Termostato Living Connect|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
 
 # devolo
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -221,11 +221,11 @@
 # eurotronic
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/328.1.1_eur_stellaz.jpg" width="60" />|eurotronic|Vanne Thermostatique Z-Wave StellaZ|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/2361-eurotronic-vanne-thermostatique-z-wave-stellaz.html)|
-|<img src="../../fr_FR/zwave/images/328.2.1_eur_cometz.jpg" width="60" />|eurotronic|Vanne thermostatique Z-Wave+ Comet|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3228-eurotronic-vanne-thermostatique-z-wave-comet-4260012711011.html)|
-|<img src="../../fr_FR/zwave/images/328.3.1_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Thermostatique Spiritz|Thermostat|||
-|<img src="../../fr_FR/zwave/images/328.3.2_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Thermostatique Spiritz|Thermostat|||
-|<img src="../../fr_FR/zwave/images/328.3.3_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Thermostatique Spiritz|Thermostat|||
+|<img src="../../fr_FR/zwave/images/328.1.1_eur_stellaz.jpg" width="60" />|eurotronic|Vanne Termostatoique Z-Wave StellaZ|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/2361-eurotronic-vanne-thermostatique-z-wave-stellaz.html)|
+|<img src="../../fr_FR/zwave/images/328.2.1_eur_cometz.jpg" width="60" />|eurotronic|Vanne thermostatique Z-Wave+ Comet|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3228-eurotronic-vanne-thermostatique-z-wave-comet-4260012711011.html)|
+|<img src="../../fr_FR/zwave/images/328.3.1_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Termostatoique Spiritz|Termostato|||
+|<img src="../../fr_FR/zwave/images/328.3.2_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Termostatoique Spiritz|Termostato|||
+|<img src="../../fr_FR/zwave/images/328.3.3_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Vanne Termostatoique Spiritz|Termostato|||
 
 # everspring
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -255,7 +255,7 @@
 |<img src="../../fr_FR/zwave/images/96.514.1_hsm02.doorwindow.jpg" width="60" />|everspring|HSM02|Apertura||[Acheter](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 ||everspring|SM103|Apertura||[Acheter](http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html)|
 |<img src="../../fr_FR/zwave/images/96.6.1_st814.temperature.and.humidity.sensor.jpg" width="60" />|everspring|ST814|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html)|
-|<img src="../../fr_FR/zwave/images/96.7.1_st815.jpg" width="60" />|everspring|ST815|Luminosité||[Acheter](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
+|<img src="../../fr_FR/zwave/images/96.7.1_st815.jpg" width="60" />|everspring|ST815|Brillo||[Acheter](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
 |<img src="../../fr_FR/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|everspring|TSE03 Door Bell|Carillon|||
 
 # evolve
@@ -338,7 +338,7 @@
 |<img src="../../fr_FR/zwave/images/271.4097.8192_fgkf601.keyfob.jpg" width="60" />|fibaro|FGKF-601 Keyfob|Télécommande||[Acheter](http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html)|
 |<img src="../../fr_FR/zwave/images/271.4609.4096_fgcd001.co.sensor.jpg" width="60" />|fibaro|FGCD-001 CO Sensor|Fumée|||
 |<img src="../../fr_FR/zwave/images/271.4609.4097_fgcd001.co.sensor.jpg" width="60" />|fibaro|FGCD-001 CO Sensor|Fumée|||
-|<img src="../../fr_FR/zwave/images/271.4865.4096_fgt001.heat.controller.jpg" width="60" />|fibaro|FGT-001 HEAT CONTROLLER|Thermostat|||
+|<img src="../../fr_FR/zwave/images/271.4865.4096_fgt001.heat.controller.jpg" width="60" />|fibaro|FGT-001 HEAT CONTROLLER|Termostato|||
 ||fibaro|FGS-221 Double charge|Micromodule|Ce module est remplacé dans les boutiques par le FGS-222|[Acheter](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||fibaro|FGS-221 Double charge|Micromodule|Ce module est remplacé dans les boutiques par le FGS-222|[Acheter](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||fibaro|FGS-221 Double charge|Micromodule|Ce module est remplacé dans les boutiques par le FGS-222|[Acheter](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
@@ -377,9 +377,9 @@
 # fortrezz
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/132.1105.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
-|<img src="../../fr_FR/zwave/images/132.1107.270_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
-|<img src="../../fr_FR/zwave/images/132.1107.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1105.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1107.270_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
+|<img src="../../fr_FR/zwave/images/132.1107.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Contador||[Acheter](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
 |<img src="../../fr_FR/zwave/images/132.577.768_wv01_water_valve.jpg" width="60" />|fortrezz|Automated Water Shut-Off Valve (WV-01)|Valve||[Acheter](http://www.domadoo.fr/fr/peripheriques/2957-fortrezz-vanne-d-arret-d-eau-34-z-wave-661799486057.html)|
 |<img src="../../fr_FR/zwave/images/132.785.265_ssa1.jpg" width="60" />|fortrezz|SSA-01|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/979-fortrezz-sirene-z-wave-flash-clair-ssa1-0661799486033.html)|
 |<img src="../../fr_FR/zwave/images/132.785.265_ssa2.jpg" width="60" />|fortrezz|SSA-02|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/980-fortrezz-sirene-z-wave-flash-rouge-ssa2-0661799486026.html)|
@@ -399,7 +399,7 @@
 # gig
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/152.25857.12_ct101.thermostat.iris.jpg" width="60" />|gig|CT101 Thermostat Iris|Thermostat|||
+|<img src="../../fr_FR/zwave/images/152.25857.12_ct101.thermostat.iris.jpg" width="60" />|gig|CT101 Termostato Iris|Termostato|||
 
 # gr-smarthome
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -454,14 +454,14 @@
 # horstmann
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|horstmann|HRT4-ZW Transmitter|Thermostat|Module vendu sous la marque Secure SRT321|[Acheter](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
-|<img src="../../fr_FR/zwave/images/89.1.4_srt323.jpg" width="60" />|horstmann|SRT 323 Electronic Room Thermostat and Temperature|Thermostat|Module vendu sous la marque Secure SRT323|[Acheter](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
+|<img src="../../fr_FR/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|horstmann|HRT4-ZW Transmitter|Termostato|Module vendu sous la marque Secure SRT321|[Acheter](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
+|<img src="../../fr_FR/zwave/images/89.1.4_srt323.jpg" width="60" />|horstmann|SRT 323 Electronic Room Termostato and Temperature|Termostato|Module vendu sous la marque Secure SRT323|[Acheter](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
 |<img src="../../fr_FR/zwave/images/89.13.2_ses302.jpg" width="60" />|horstmann|SES 302 Temperature Sensor|Temperatura|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
 |<img src="../../fr_FR/zwave/images/89.13.3_ses303.jpg" width="60" />|horstmann|SES 303 Temperature and Humidity Sensor|Multicapteurs|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html)|
 |<img src="../../fr_FR/zwave/images/89.16.1_sir321.jpg" width="60" />|horstmann|SIR 321 RF Countdown Timer|Timer|Pas de gestion de Schedule, pas de remonté d'état|[Acheter](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
 |<img src="../../fr_FR/zwave/images/89.16.2_sir321.jpg" width="60" />|horstmann|SIR 321 RF Countdown Timer|Timer||[Acheter](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
-|<img src="../../fr_FR/zwave/images/89.3.1_ssr303.jpg" width="60" />|horstmann|SSR303 ASR-ZW Receiver|Thermostat|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html)|
-|<img src="../../fr_FR/zwave/images/89.4.1_scsc17.jpg" width="60" />|horstmann|SCS317, 7 Day Programmable Room Thermostat|Thermostat|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html)|
+|<img src="../../fr_FR/zwave/images/89.3.1_ssr303.jpg" width="60" />|horstmann|SSR303 ASR-ZW Receiver|Termostato|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html)|
+|<img src="../../fr_FR/zwave/images/89.4.1_scsc17.jpg" width="60" />|horstmann|SCS317, 7 Day Programmable Room Termostato|Termostato|Module vendu sous la marque Secure|[Acheter](http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html)|
 
 # inovelli
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -497,13 +497,13 @@
 |<img src="../../fr_FR/zwave/images/351.16642.514_mco.home.mh-s412.double.jpg" width="60" />|mco|MH-S412 Double|Interrupteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html)|
 |<img src="../../fr_FR/zwave/images/351.16657.4866_mco.home.mh-s411.simple.jpg" width="60" />|mco|MH-S411 Simple|Interrupteur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html)|
 |<img src="../../fr_FR/zwave/images/351.16673.4866_mco.home.mh-s312.double.jpg" width="60" />|mco|MH-S312 Double|Interrupteur|Equivalent au MH-S412|[Acheter](http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html)|
-|<img src="../../fr_FR/zwave/images/351.1793.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Thermostat MH7H-WH/EH|Thermostat|||
-|<img src="../../fr_FR/zwave/images/351.1794.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Thermostat MH7H-WH/EH|Thermostat|||
-|<img src="../../fr_FR/zwave/images/351.1810.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Thermostat MH7H-WH/EH|Thermostat|||
-|<img src="../../fr_FR/zwave/images/351.1842.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Thermostat MH7H-WH/EH|Thermostat|||
-|<img src="../../fr_FR/zwave/images/351.2049.12546_mco.home.mh8-fc.thermostat.jpg" width="60" />|mco|Thermostat MH8-FC-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
-|<img src="../../fr_FR/zwave/images/351.2049.20738_mco.home.mh8-fc.thermostat.jpg" width="60" />|mco|Thermostat MH8-FC-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
-|<img src="../../fr_FR/zwave/images/351.2050.12546_mco.home.mh8-fc4.thermostat.jpg" width="60" />|mco|Thermostat MH8-FC4-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html)|
+|<img src="../../fr_FR/zwave/images/351.1793.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Termostato MH7H-WH/EH|Termostato|||
+|<img src="../../fr_FR/zwave/images/351.1794.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Termostato MH7H-WH/EH|Termostato|||
+|<img src="../../fr_FR/zwave/images/351.1810.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Termostato MH7H-WH/EH|Termostato|||
+|<img src="../../fr_FR/zwave/images/351.1842.20738_mco.home.mh7h.thermostat.jpg" width="60" />|mco|Termostato MH7H-WH/EH|Termostato|||
+|<img src="../../fr_FR/zwave/images/351.2049.12546_mco.home.mh8-fc.thermostat.jpg" width="60" />|mco|Termostato MH8-FC-EU|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
+|<img src="../../fr_FR/zwave/images/351.2049.20738_mco.home.mh8-fc.thermostat.jpg" width="60" />|mco|Termostato MH8-FC-EU|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
+|<img src="../../fr_FR/zwave/images/351.2050.12546_mco.home.mh8-fc4.thermostat.jpg" width="60" />|mco|Termostato MH8-FC4-EU|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html)|
 |<img src="../../fr_FR/zwave/images/351.2309.513_c02.monitor.jpg" width="60" />|mco|CO2 Monitor (MH9-CO2-WD)|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html)|
 |<img src="../../fr_FR/zwave/images/351.8458.4866_mh.p210.dimmer.jpg" width="60" />|mco|MH-P210 Mini Energy Dimmer|Micromodule|Vendu sous la marque Zipato|[Acheter](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
 
@@ -532,9 +532,9 @@
 # northq
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
-|<img src="../../fr_FR/zwave/images/150.1.2_nq-9021.power.reader.jpg" width="60" />|northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html)|
-|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gaz Meter|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
+|<img src="../../fr_FR/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Contador|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
+|<img src="../../fr_FR/zwave/images/150.1.2_nq-9021.power.reader.jpg" width="60" />|northq|Power Reader|Contador|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html)|
+|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gaz Meter|Contador|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
 
 # oomi
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -615,11 +615,11 @@
 |<img src="../../fr_FR/zwave/images/345.4.1_zmnhja2.flush.dimmer.fil.pilote.jpg" width="60" />|qubino|ZMNHJA2 Fil Pilote|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2654-qubino-module-fil-pilote-encastrable-z-wave-zmnhja2.html)|
 |<img src="../../fr_FR/zwave/images/345.4.81_zmnhjd1.flush.dimmer.fil.pilote.jpg" width="60" />|qubino|ZMNHJD1 Fil Pilote|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/3210-qubino-module-fil-pilote-encastrable-z-wave-zmnhjd1.html)|
 |<img src="../../fr_FR/zwave/images/345.4.82_zmnhud1.din.fil.pilote.plus.jpg" width="60" />|qubino|ZMNHUD1 DIN Pilot Wire|Rail-din||[Acheter](http://www.domadoo.fr/fr/peripheriques/3409-qubino-module-rail-din-fil-pilote-z-wave-zmnhud1.html)|
-|<img src="../../fr_FR/zwave/images/345.5.1_zmnhia2.onoff.thermostat.jpg" width="60" />|qubino|ZMNHIA2 Thermostat|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2653-qubino-micromodule-thermostat-encastrable-z-wave-zmnhia2-3830062070041.html)|
-|<img src="../../fr_FR/zwave/images/345.5.3_zmnhlax.pwm.thermostat.jpg" width="60" />|qubino|ZMNHLAx PWM Thermostat|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2941-qubino-micromodule-thermostat-pwm-encastrable-z-wave-zmnhla2-3830062070065.html)|
-|<img src="../../fr_FR/zwave/images/345.5.81_zmnhid1.onoff.thermostat.jpg" width="60" />|qubino|ZMNHID1 On/Off Thermostat|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/3319-qubino-micromodule-thermostat-encastrable-z-wave-zmnhid1.html)|
-|<img src="../../fr_FR/zwave/images/345.5.82_zmnhkdx.heatcool.thermostat.jpg" width="60" />|qubino|ZMNHKDx Heat and Cool Thermostat Z-Wave+|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2948-qubino-micromodule-thermostat-chaud-froid-encastrable-z-wave-zmnhka2.html)|
-|<img src="../../fr_FR/zwave/images/345.5.83_zmnhldx.pwm.thermostat.jpg" width="60" />|qubino|ZMNHLDx PWM Thermostat Z-Wave+|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2949-qubino-micromodule-thermostat-pwm-encastrable-z-wave-zmnhld1.html)|
+|<img src="../../fr_FR/zwave/images/345.5.1_zmnhia2.onoff.thermostat.jpg" width="60" />|qubino|ZMNHIA2 Termostato|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2653-qubino-micromodule-thermostat-encastrable-z-wave-zmnhia2-3830062070041.html)|
+|<img src="../../fr_FR/zwave/images/345.5.3_zmnhlax.pwm.thermostat.jpg" width="60" />|qubino|ZMNHLAx PWM Termostato|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2941-qubino-micromodule-thermostat-pwm-encastrable-z-wave-zmnhla2-3830062070065.html)|
+|<img src="../../fr_FR/zwave/images/345.5.81_zmnhid1.onoff.thermostat.jpg" width="60" />|qubino|ZMNHID1 On/Off Termostato|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/3319-qubino-micromodule-thermostat-encastrable-z-wave-zmnhid1.html)|
+|<img src="../../fr_FR/zwave/images/345.5.82_zmnhkdx.heatcool.thermostat.jpg" width="60" />|qubino|ZMNHKDx Heat and Cool Termostato Z-Wave+|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2948-qubino-micromodule-thermostat-chaud-froid-encastrable-z-wave-zmnhka2.html)|
+|<img src="../../fr_FR/zwave/images/345.5.83_zmnhldx.pwm.thermostat.jpg" width="60" />|qubino|ZMNHLDx PWM Termostato Z-Wave+|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/2949-qubino-micromodule-thermostat-pwm-encastrable-z-wave-zmnhld1.html)|
 |<img src="../../fr_FR/zwave/images/345.7.82_zmnhtdx.smart.meter.jpg" width="60" />|qubino|ZMNHTDx Smart meter|Rail-din|Le module doit être inclus en mode sécurisé pour pouvoir contrôler les relais|[Acheter](http://www.domadoo.fr/fr/peripheriques/3251-qubino-module-rail-din-compteur-d-energie-z-wave-3830062070362.html)|
 |<img src="../../fr_FR/zwave/images/345.7.83_zmnhzdx.weather.station.jpg" width="60" />|qubino|ZMNHZDx Weather Station Z-Wave+|Weather Station||[Acheter](http://www.domadoo.fr/fr/peripheriques/3443-qubino-station-meteo-z-wave-zmnhzd1-3830062070560.html)|
 |<img src="../../fr_FR/zwave/images/345.7.84_zmnhxdx.3.phase.smart.meter.jpg" width="60" />|qubino|ZMNHXDx 3 PhaseSmart meter|Rail-din|Le module doit être inclus en mode sécurisé pour pouvoir contrôler les relais additionnels||
@@ -628,8 +628,8 @@
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/21076.1.34064_zrc-90.jpg" width="60" />|remotec|ZRC-90|Contrôleur portable|||
-|<img src="../../fr_FR/zwave/images/21076.257.33655_zxt-120.jpg" width="60" />|remotec|ZXT-120|Thermostat|Pose soucis sur des réseaux avec d'autres modules|[Acheter](http://www.domadoo.fr/fr/peripheriques/826-remotec-zxt-120-passerelle-z-wave-vers-ir-pour-climatiseur-ac.html)|
-|<img src="../../fr_FR/zwave/images/21076.257.33936_zxt-600.jpg" width="60" />|remotec|ZXT-600|Thermostat|||
+|<img src="../../fr_FR/zwave/images/21076.257.33655_zxt-120.jpg" width="60" />|remotec|ZXT-120|Termostato|Pose soucis sur des réseaux avec d'autres modules|[Acheter](http://www.domadoo.fr/fr/peripheriques/826-remotec-zxt-120-passerelle-z-wave-vers-ir-pour-climatiseur-ac.html)|
+|<img src="../../fr_FR/zwave/images/21076.257.33936_zxt-600.jpg" width="60" />|remotec|ZXT-600|Termostato|||
 
 # schlage
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -666,7 +666,7 @@
 # stelpro
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/569.1.1_STZW402.plus.electronic.thermostat.jpg" width="60" />|stelpro|STZW402+ Electronic Thermostat|Thermostat|||
+|<img src="../../fr_FR/zwave/images/569.1.1_STZW402.plus.electronic.thermostat.jpg" width="60" />|stelpro|STZW402+ Electronic Termostato|Termostato|||
 
 # swiid
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -677,7 +677,7 @@
 # thermofloor
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/411.1.1_thermostat.jpg" width="60" />|thermofloor|Heatit Z-Wave thermostat|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
+|<img src="../../fr_FR/zwave/images/411.1.1_thermostat.jpg" width="60" />|thermofloor|Heatit Z-Wave thermostat|Termostato||[Acheter](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
 
 # vision security
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -790,7 +790,7 @@
 |<img src="../../fr_FR/zwave/images/277.4352.2_plug-in.dimmer.jpg" width="60" />|zwaveme|Plugin Dimmer|Prise|||
 |<img src="../../fr_FR/zwave/images/277.512.1_itemp.temperature.sensor.jpg" width="60" />|zwaveme|Itemp Temperature Sensor|Multicapteurs|||
 |<img src="../../fr_FR/zwave/images/277.513.1_itemp.temperature.sensor.jpg" width="60" />|zwaveme|Itemp Temperature Sensor|Multicapteurs|||
-|<img src="../../fr_FR/zwave/images/277.513.2_thermostat.jpg" width="60" />|zwaveme|Z-Wave thermostat|Thermostat|||
+|<img src="../../fr_FR/zwave/images/277.513.2_thermostat.jpg" width="60" />|zwaveme|Z-Wave thermostat|Termostato|||
 |<img src="../../fr_FR/zwave/images/277.513.3_binary.sensor.jpg" width="60" />|zwaveme|Binary Sensor|Multicapteurs|||
 
 # zwaveme

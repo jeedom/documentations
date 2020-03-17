@@ -172,7 +172,7 @@ Voici la liste des commandes :
 -   Temperatur : c'est la commande qui permet de remonter la
     Temperatur
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Helligkeit : c'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique

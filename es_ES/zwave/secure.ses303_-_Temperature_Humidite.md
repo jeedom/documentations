@@ -1,4 +1,4 @@
-Secure SES 303 "Temperatura/Humidité" 
+Secure SES 303 "Temperatura/Humedad" 
 =====================================
 
  \
@@ -154,7 +154,7 @@ Voici la liste des commandes :
 
 -   Temperatura : c'est la commande de mesure de la température
 
--   Humidité : c'est la commande de mesure de l'humidité
+-   Humedad : c'est la commande de mesure de l'humidité
 
 -   Batería : c'est la commande batterie
 

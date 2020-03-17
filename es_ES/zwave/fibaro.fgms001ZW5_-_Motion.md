@@ -172,7 +172,7 @@ Voici la liste des commandes :
 -   Temperatura : c'est la commande qui permet de remonter la
     Temperatura
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Brillo : c'est la commande qui permet de remonter la luminosité
 
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique

@@ -79,7 +79,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur et émetteur Z-Wave+ série 500
 
--   Alimentation : Actionneur : 5 VDC (adaptateur fourni) Capteur : Pile
+-   Alimentation : Actuator : 5 VDC (adaptateur fourni) Capteur : Pile
     Lithium 3V 800mA CR2
 
 -   Consommation en veille : 1W

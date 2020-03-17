@@ -170,7 +170,7 @@ Voici la liste des commandes :
 -   Temperatura : c'est la commande qui permet de remonter la
     Temperatura
 
--   Luminosité : c'est la commande qui permet de remonter la luminosité
+-   Brillo : c'est la commande qui permet de remonter la luminosité
 
 -   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
     de vibration)
