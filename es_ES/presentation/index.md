@@ -77,7 +77,7 @@ la référence à consulter en cas de besoins, questions, etc.
 
 Voici la liste des tutoriels disponibles :
 
--   [Tuto Jeedom \#1 : Premier
+-   [Tuto Jeedom \#1 : Primero
     démarrage](https://www.youtube.com/watch?v=UTECRBGEUtI)
 
 -   [Tuto Jeedom \#2 : Débuter avec Jeedom (Objet, Market, Plugin

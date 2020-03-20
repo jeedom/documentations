@@ -1,3 +1,3 @@
 | | | | | | |
 |--- | --- | --- | --- | --- | ---
-|DomoGeek<img src="domogeek/domogeek_icon.png" width="100" /><br>[Documentation](domogeek/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=250)<br/>Plugin pour récuperer les informations du site DomoGeek
+|Agenda<img src="calendar/calendar_icon.png" width="100" /><br>[Documentation](calendar/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=57)<br/>Plugin pour créer un calendrier|DomoGeek<img src="domogeek/domogeek_icon.png" width="100" /><br>[Documentation](domogeek/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=250)<br/>Plugin pour récuperer les informations du site DomoGeek
