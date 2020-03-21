@@ -87,7 +87,7 @@ Caractéristiques techniques
 
 -   Algorythme TPI intégré
 
--   Relai: 3(1)A 230V AC
+-   Relé: 3(1)A 230V AC
 
 -   Plage de température réglable: 5°C à 30°C
 
