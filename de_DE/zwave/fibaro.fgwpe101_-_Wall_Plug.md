@@ -222,7 +222,7 @@ Détails des paramètres :
     d'une variation
 
 -   49: prendre en compte la consommation du module lui même dans les
-    valeurs
+    Werte
 
 -   50: valeur minimal utilisée par le param 52
 

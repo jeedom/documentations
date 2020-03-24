@@ -34,15 +34,15 @@ Préparation avant migration
 > centralise les équipements du/des **Jeedom(s) Source(s)**\
 > Les copies d'écran sure fond noir correspondent au **Jeedom Cible**.\
 > \
-> - **Jeedom Source** : Serveur (votre/vos ancien(s) Jeedom Esclave(s))
+> - **Jeedom Source** : Serveur (votre/vos ancien(s) Jeedom Slave(s))
 > qui remonte vos équipements sure le **Jeedom Cible**.\
 > \
-> - Les notions de **Jeedom Maître** and **Jeedom Esclave** ne sont plus
+> - Les notions de **Jeedom Maître** and **Jeedom Slave** ne sont plus
 > d'actualité. Le nouveau mode de fonctionnement de synchronisation
 > d'équipements entre plusieurs Jeedoms peut être bidirectionnel. Un
 > serveur Jeedom peut être désormais **Source** and **Cible** alors que
 > l'ancien mode ne permandtait que la remontée des équipements de
-> **l'Esclave** to **le Maître**. Avec le nouveau mode It is aussi
+> **l'Slave** to **le Maître**. Avec le nouveau mode It is aussi
 > possible d'avoir plusieurs **Jeedom Cibles** pour un même **Jeedom
 > Source**. La communication entre les Jeedoms peut désormais aussi
 > s'effectuer à distance via internand (DNS Jeedom ou autre).\
@@ -66,17 +66,17 @@ Mises à jour and Vérification de la Configuration
 Rassemblement des informations utiles 
 -------------------------------------
 
-En fonction des plugins installés sure votre **Jeedom Esclave**, It is
+En fonction des plugins installés sure votre **Jeedom Slave**, It is
 nécessaire de récupérer les informations suivantes :
 
 ### Plugin Zwave 
 
 -   Dans la page santé du plugin Zwave sure le **Jeedom Maître**, Select
-    votre **Esclave** dans le menu déroulant and faire une copie d'écran,
+    votre **Slave** dans le menu déroulant and faire une copie d'écran,
     ceci afin de disposer d'une liste des équipements qui viennent
     de celui-ci.
 
--   NOTEr pour chaque équipement venant de **l'Esclave** : l'objand
+-   NOTEr pour chaque équipement venant de **l'Slave** : l'objand
     parent, le nom, l'ID (Node), le modèle.
 
 -   Récupérer le fichier Zwcfg : *Plugins ⇒ Gestion des Plugins ⇒
@@ -85,7 +85,7 @@ nécessaire de récupérer les informations suivantes :
 
 ### Plugin RFXcom 
 
--   NOTEr pour chaque équipement venant de **l'Esclave** : l'objand
+-   NOTEr pour chaque équipement venant de **l'Slave** : l'objand
     parent, le nom, l'ID (Logique), Le type, Le modèle.
 
 > **NOTE**
@@ -98,12 +98,12 @@ Sauvegardes préventives
 
 -   Faire une [sauvegarde
     Jeedom](https://jeedom.github.io/documentation/core/fr_FR/doc-core-backup.html)
-    de votre **Jeedom Maître** and de votre (vos) **Jeedom Esclave(s)**
+    de votre **Jeedom Maître** and de votre (vos) **Jeedom Slave(s)**
     and récupérer celle(s)-ci sure votre PC/NAS…​.
 
 -   Faire une [sauvegarde
     SD/Disque](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
-    de votre **Jeedom Maître** and de votre (vos) **Jeedom Esclave(s)**
+    de votre **Jeedom Maître** and de votre (vos) **Jeedom Slave(s)**
     and les récupérer sure votre PC/NAS…​.
 
 Migration 
@@ -112,7 +112,7 @@ Migration
 > **NOTE**
 >
 > Ne pas supprimer pour l'instant les anciens équipements de
-> **l'Esclave** sure **le Maître**.
+> **l'Slave** sure **le Maître**.
 
 Installer and activer le plugin "Jeedom Link" sure le **Jeedom Cible** (ancien Maître). 
 -------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ Installation du **Jeedom Source** :
 > si You disposez d'un Raspberry Pi supplémentaire and d'une autre carte
 > SD, You pouvez procéder à une migration un protocole après l'autre en
 > installant un nouveau **Jeedom Source** en parallèle sans avoir à
-> toucher à votre **Jeedom Esclave** existant. En déplaçant évidemment
+> toucher à votre **Jeedom Slave** existant. En déplaçant évidemment
 > au fur and à mesuree les éventuels contrôleurs de l'un à l'autre.
 
 > **Warning**
@@ -140,12 +140,12 @@ Installation du **Jeedom Source** :
 > **NOTE**
 >
 > si You utilisez le Raspberry Pi existant qui est actuellement un
-> **Jeedom Esclave**, nous You conseillons d'utiliser une carte
+> **Jeedom Slave**, nous You conseillons d'utiliser une carte
 > SD/microSD neuve. Cela You permandtra de faire randour arrière
 > facilement si besoin.
 
 -   Installer un nouveau Jeedom sure une nouvelle carte SD (Que cela soit
-    pour mandtre dans votre **Jeedom Esclave** existant ou pour un
+    pour mandtre dans votre **Jeedom Slave** existant ou pour un
     nouveau Raspberry Pi) en suivant la [documentation
     d'installation](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html).
 
@@ -177,7 +177,7 @@ Configuration du Jeedom Source
 
 -   Recréer l'arborescence des objands (juste ceux qui vont You
     être utiles) du **Jeedom Cible** (Ancien Maître) sure votre nouveau
-    **Jeedom Source** (Ancien Esclave).
+    **Jeedom Source** (Ancien Slave).
 
 Configuration des équipements sure le **Jeedom Source** 
 ------------------------------------------------------
@@ -297,7 +297,7 @@ Récupération des historiques
 > **NOTE**
 >
 > A faire sure le **Jeedom Cible** (Ancien Maître) pour chaque commande
-> info des équipements de l'ancien **Esclave** dont on veut récupérer
+> info des équipements de l'ancien **Slave** dont on veut récupérer
 > l'historique.
 
 -   Aller dans la configuration de la commande (*Roue crantée à
@@ -317,7 +317,7 @@ Remplacement des anciens équipements esclaves dans les Scénarios/virtuels/…�
 > **NOTE**
 >
 > A faire sure le **Jeedom Cible** (Ancien Maître) pour chaque commande
-> info/action des équipements de l'ancien **Esclave** dont on veut
+> info/action des équipements de l'ancien **Slave** dont on veut
 > remplacer les occurrences dans les scénarios/virtuels/…​.
 
 -   Aller dans la configuration de la commande (*Roue crantée à
@@ -336,7 +336,7 @@ Récupération des configurations d'affichage avancées des commandes
 > **NOTE**
 >
 > A faire sure le **Jeedom Cible** (Ancien Maître) pour chaque commande
-> info/action des équipements de l'ancien **Esclave** dont on veut
+> info/action des équipements de l'ancien **Slave** dont on veut
 > récupérer les paramètres d'affichage avancés.
 
 -   Aller dans la configuration de la commande (*Roue crantée à
@@ -353,13 +353,13 @@ Recopie des configurations avancées des commandes
 > **NOTE**
 >
 > A faire sure le **Jeedom Cible** (Ancien Maître) pour chaque commande
-> info/action des équipements de l'ancien **Esclave** dont on veut
+> info/action des équipements de l'ancien **Slave** dont on veut
 > récupérer la configuration avancée.
 
 -   Pas de solution facile à ce niveau, il faudra avoir deux
     onglands/fenêtres d'ouverts sure votre navigateur.
 
--   Ouvrir les commandes des équipements de l'ancien **Esclave** dans un
+-   Ouvrir les commandes des équipements de l'ancien **Slave** dans un
     ongland (Jeedom Cible).
 
 -   Ouvrir les commandes des équipements jeeLink dans l'autre ongland
@@ -389,14 +389,14 @@ Ménage sure le **Jeedom Cible**
 > correctement avec le nouveau système jeelink, You pouvez procéder au
 > ménage.
 
--   Supprimer les équipements résiduels de l'ancien **Jeedom Esclave**.
+-   Supprimer les équipements résiduels de l'ancien **Jeedom Slave**.
 
 -   Désactiver and supprimer les plugins qui ne You sont plus utiles
-    (Ceux dont You n'aviez que des équipements sure l'Esclave).
+    (Ceux dont You n'aviez que des équipements sure l'Slave).
 
 -   Dans le plugin "Jeedom Link", renommer les équipements qui
     pourraient avoir un nom finissant par "remote XXXX".
 
--   Dans la page Réseau Jeedom, supprimer l'ancien **Jeedom Esclave**.
+-   Dans la page Réseau Jeedom, supprimer l'ancien **Jeedom Slave**.
 
 

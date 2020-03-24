@@ -8,7 +8,7 @@ Liste des variables du fichier Info.json
 
 Les champs marqués d'un * sont des champs obligatoires.
 
-Felder                   | Valeurs                                                                                                                   |
+Felder                   | Werte                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identifikation *                     | Identifiant unique du plugin sur le Jeedom Markt. Doit debuter par une lettre. Sans accents.                             |
 Name *                   | Nom du plugin.                                                                                                            |

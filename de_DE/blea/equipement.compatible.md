@@ -9,7 +9,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Lichts|Compatible avec Awox Mesh technologie.||
 |<img src="../../fr_FR/blea/images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Lichts|Compatible avec Awox Mesh technologie.||
-|<img src="../../fr_FR/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Télécommande|Lichts|Compatible avec Awox Mesh technologie. Il faut activer le mode bluetooth pour utiliser les commande.||
+|<img src="../../fr_FR/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Fernbedienung|Lichts|Compatible avec Awox Mesh technologie. Il faut activer le mode bluetooth pour utiliser les commande.||
 
 # beagle
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -33,17 +33,17 @@
 # divoompixoo
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-||Divoom|Pixoo|Afficheur|Fonction garder la connection recommandée||
+||Divoom|Pixoo|Anzeige|Fonction garder la connection recommandée||
 
 # divoomtimeboxmini
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Fonction garder la connection obligatoire pour pas avoir le logo bluetooth||
+|<img src="../../fr_FR/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Anzeige|Fonction garder la connection obligatoire pour pas avoir le logo bluetooth||
 
 # dotti
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection||
+|<img src="../../fr_FR/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Anzeige|Fonctionnera beaucoup mieux avec option garder la connection||
 
 # dreamscreen
 |Bild|Marque|Name|Typ|Bemerkung|Link|

@@ -4,12 +4,12 @@
 | Atlantic'S     | Détecteur      | Meiantech      |                |                |
 | MD-210R        | d'ouverture    |                |                |                |
 | Atlantic'S     | Détecteur de   | Meiantech      |                |                |
-| DT-335R DMT    | mouvement      |                |                |                |
+| DT-335R DMT    | Bewegung      |                |                |                |
 | Atlantic'S     | Détecteur de   | Meiantech      |                |                |
-| MC-335R DMT    | mouvement      |                |                |                |
+| MC-335R DMT    | Bewegung      |                |                |                |
 | Atlantic'S     | Détecteur de   | Meiantech      |                |                |
-| 7380R DMT      | mouvement      |                |                |                |
-| Atlantic's     | Télécommande porte-clé 1 bouton   | Meiantech      |                |                |
+| 7380R DMT      | Bewegung      |                |                |                |
+| Atlantic's     | Fernbedienung porte-clé 1 bouton   | Meiantech      |                |                |
 | Blyss 567434   | Détecteur de fumée  |                |                |                |
 | Blyss 582866   | Interrupteur   |                |                |                |
 | Blyss 582849   | Motorisation de porte de garage |                |                |                |
@@ -20,7 +20,7 @@
 | Chacon 54795   | Pack de 3 Prises Chacon  DI.O first + télécommande 3 canaux      | AC             |                |                |
 | Chacon 54501   | Interrupteur   | AC             |                |                |
 | Chacon 54514   | Variateur      | AC             |                |                |
-| Chacon 54761   | Télécommande 16 canaux    | AC             |                |                |
+| Chacon 54761   | Fernbedienung 16 canaux    | AC             |                |                |
 | Chacon 54730   | Sonnette       | AC             |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
 | Chacon 54758   | Micro-module ON/OFF 200W   | AC             | On/Off seulement        |                |
 | Chacon 54660   | Pack 3 prises + télécommande 2000W  | AC             |                |                |
@@ -33,10 +33,10 @@
 | DI.O by Chacon | Détecteur      | AC             |                |                |
 | 54583          | crépusculaire  |                |                |                |
 | DI-O by Chacon | Détecteur de   | AC             |                |                |
-| 54703          | mouvement      |                |                |                |
-| DI.O by Chacon | Télécommande 3 | AC             |                |                |
+| 54703          | Bewegung      |                |                |                |
+| DI.O by Chacon | Fernbedienung 3 | AC             |                |                |
 | 54760          | canaux         |                |                |                |
-| DI.O by Chacon | Télécommande   | AC             |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
+| DI.O by Chacon | Fernbedienung   | AC             |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O by Chacon | Prise          | AC             |                |                |
 | 54746          | extérieure     |                |                |                |
 | DI-O by Chacon | Détecteur      | AC             |                |                |
@@ -48,7 +48,7 @@
 | DI-O by Chacon | Micro-module   | AC             |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
 | DS18           | Détecteur      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
 | KDI FER-1000W  | Prise          | Ex de code pour allumer la prise 07100102500D01 60             |                |                |
-| KDI FECT-100   | Télécommande   |                |                |                |
+| KDI FECT-100   | Fernbedienung   |                |                |                |
 | Homewizad      | Temperatur    |                |                |                |
 | HW-TX320       | Luftfeuchtigkeit avec affichage      |                |                |                |
 | LaCross Technologie WS7394       | Station météo  | LaCrosse       |                |                |

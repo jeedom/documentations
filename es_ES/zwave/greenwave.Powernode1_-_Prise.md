@@ -51,7 +51,7 @@ la boxe domotique ne sera plus possible.
 La prise commandée PowerNode dispose aussi d'un indicateur d'état
 lumineux qui donne différentes informations en fonction de sa couleur :
 prises allumées ou éteintes, portée radio limitée, mode inclusion et
-exclusion.
+Exclusión.
 
 El módulo prise PowerNode est équipé d'une protection contre les
 surintensités pour protéger l'appareil connecté. La prise PowerNode sera

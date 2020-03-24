@@ -265,7 +265,7 @@ Remise à zéro du sabotage:
 
 -   2 : Activer le paramètre 41 sur "Relieve the alarm state".
 
--   3 : Actualiser les paramètres.
+-   3 : Update settings.
 
 La calibration est complétée
 

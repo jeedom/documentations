@@ -8,7 +8,7 @@ Liste des variables du fichier Información.json
 
 Les champs marqués d'un * sont des champs obligatoires.
 
-Campos                   | Valeurs                                                                                                                   |
+Campos                   | Valores                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identificación *                     | Identifiant unique du plugin sur le Mercado de la libertad. Doit debuter par une lettre. Sans accents.                             |
 nombre *                   | Nom du plugin.                                                                                                            |

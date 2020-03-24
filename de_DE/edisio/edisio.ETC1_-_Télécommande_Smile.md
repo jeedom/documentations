@@ -11,7 +11,7 @@
 Zusammenfassung 
 ======
 
-Les télécommandes “Smile” ont un canal, elles sont idéales pour la table
+Les Fernbedienungs “Smile” ont un canal, elles sont idéales pour la table
 de chevet, salle de bain et surtout pour les enfants, car celles-ci sont
 très robustes grâce au matériau utilisé. Ultra simples et à la fois
 “fun” elles ont pour but d'être pratiques dans l'habitat. Elles existent
@@ -79,24 +79,24 @@ référez-vous à cette
 Diagramme de fonctionnement 
 ---------------------------
 
-Voici le fonctionnement de la télécommande :
+Voici le fonctionnement de la Fernbedienung :
 
 ![etc1.diagramme](images/etc1/etc1.diagramme.jpg)
 
 Remplacement de la pile 
 -----------------------
 
-Pour remplacer la pile de votre télécommande, voici la démarche à suivre
+Pour remplacer la pile de votre Fernbedienung, voici la démarche à suivre
 :
 
 ![etc1.remplacement pile](images/etc1/etc1.remplacement-pile.jpg)
 
-Association de la télécommande à Jeedom 
+Association de la Fernbedienung à Jeedom 
 =======================================
 
 L'association d'un émetteur Edisio, se fait simplement et
 automatiquement. Il suffit juste d'appuyer sur la touche de votre
-télécommande.
+Fernbedienung.
 
 ![Befehle](images/etc1/etc1.touche-c.jpg)
 
@@ -138,12 +138,12 @@ verfügbar :
 Verwendung 
 -----------
 
-Une fois que votre télécommande est configurée, vous pouvez avec le
-plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom
+Une fois que votre Fernbedienung est configurée, vous pouvez avec le
+plugin Scénario de Jeedom, interagir avec votre Fernbedienung sur Jeedom
 et ses équipements.
 
 > **Notiz**
 >
-> La télécommande à un retour d'état binaire.
+> La Fernbedienung à un retour d'état binaire.
 
 **@Jamsta**
