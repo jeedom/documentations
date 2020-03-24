@@ -96,9 +96,9 @@ Données du module
 -   Model : DCH-Z110 Détecteur d'ouverture de porte et de fenêtre
     mydlink™ Home
 
--   Fabricant : FIBARO System
+-   Maker : FIBARO System
 
--   Fabricant ID : 264 \[0x0108\]
+-   Maker ID : 264 \[0x0108\]
 
 -   Type Produit : 2 \[0x0002\]
 

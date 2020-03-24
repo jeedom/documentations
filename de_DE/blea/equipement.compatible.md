@@ -18,7 +18,7 @@
 # beewismartdoor
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Capteurs|Capteurs d'ouverture de porte||
+|<img src="../../fr_FR/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Sensoren|Sensoren d'ouverture de porte||
 
 # blpnr
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -58,7 +58,7 @@
 # flowerpower
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Sensoren|Sensoren de plantes||
 
 # gigaset
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -68,7 +68,7 @@
 # hector
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/hector.jpg" width="60" />|Hector|Hector|Capteurs|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
+|<img src="../../fr_FR/blea/images/hector.jpg" width="60" />|Hector|Hector|Sensoren|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
 
 # itag
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -100,7 +100,7 @@
 # lywsd02
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran (Lywsd02)||
+|<img src="../../fr_FR/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Sensoren|Sensoren de Température Humidité avec écran (Lywsd02)||
 
 # meyerdom
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -127,7 +127,7 @@
 # miflora
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Sensoren|Sensoren de plantes||
 
 # miscale
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -169,7 +169,7 @@
 # parrotpot
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Sensoren|Sensoren de plantes||
 
 # playbulb
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -179,12 +179,12 @@
 # ropot
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Sensoren|Sensoren de plantes||
 
 # ruuvi
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Capteurs beacon||
+|<img src="../../fr_FR/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Sensoren beacon||
 
 # smartplug
 |Bild|Marque|Name|Typ|Bemerkung|Link|
@@ -214,8 +214,8 @@
 # xiaomiht
 |Bild|Marque|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran||
-|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Capteurs de Température Humidité avec écran e-ink||
+|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Sensoren|Sensoren de Température Humidité avec écran||
+|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Sensoren de Température Humidité avec écran e-ink||
 
 # yeelight
 |Bild|Marque|Name|Typ|Bemerkung|Link|

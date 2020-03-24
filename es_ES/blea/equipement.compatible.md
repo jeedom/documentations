@@ -18,7 +18,7 @@
 # beewismartdoor
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Capteurs|Capteurs d'ouverture de porte||
+|<img src="../../fr_FR/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Sensores|Sensores d'ouverture de porte||
 
 # blpnr
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -58,7 +58,7 @@
 # flowerpower
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Sensores|Sensores de plantes||
 
 # gigaset
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -68,7 +68,7 @@
 # hector
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/hector.jpg" width="60" />|Hector|Hector|Capteurs|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
+|<img src="../../fr_FR/blea/images/hector.jpg" width="60" />|Hector|Hector|Sensores|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
 
 # itag
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -100,7 +100,7 @@
 # lywsd02
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran (Lywsd02)||
+|<img src="../../fr_FR/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Sensores|Sensores de Température Humidité avec écran (Lywsd02)||
 
 # meyerdom
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -127,7 +127,7 @@
 # miflora
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Sensores|Sensores de plantes||
 
 # miscale
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -169,7 +169,7 @@
 # parrotpot
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Sensores|Sensores de plantes||
 
 # playbulb
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -179,12 +179,12 @@
 # ropot
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes||
+|<img src="../../fr_FR/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Sensores|Sensores de plantes||
 
 # ruuvi
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Capteurs beacon||
+|<img src="../../fr_FR/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Sensores beacon||
 
 # smartplug
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -214,8 +214,8 @@
 # xiaomiht
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran||
-|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Capteurs de Température Humidité avec écran e-ink||
+|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Sensores|Sensores de Température Humidité avec écran||
+|<img src="../../fr_FR/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Sensores de Température Humidité avec écran e-ink||
 
 # yeelight
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|

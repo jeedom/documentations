@@ -262,7 +262,7 @@ Bon à savoir
 
  \
 
-### Reset 
+### Zurücksetzen 
 
  \
 
@@ -298,7 +298,7 @@ F.A.Q.
 
  \
 
-Lire la section Reset de cette doc.
+Lire la section Zurücksetzen de cette doc.
 
  \
 

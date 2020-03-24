@@ -265,7 +265,7 @@ de polling pour remonter la consommation.
 
  \
 
-### Reset 
+### Zurücksetzen 
 
  \
 

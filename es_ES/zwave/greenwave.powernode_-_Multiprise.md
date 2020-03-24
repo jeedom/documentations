@@ -368,7 +368,7 @@ des 6 prises.
 
  \
 
-### Reset 
+### Restablecer 
 
  \
 

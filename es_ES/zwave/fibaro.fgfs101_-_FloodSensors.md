@@ -117,9 +117,9 @@ Données du module
 
 -   Modelo : FGFS101 Flood Sensor
 
--   Fabricant : FIBARO System
+-   Fabricante : FIBARO System
 
--   Fabricant ID : 271
+-   Fabricante ID : 271
 
 -   Type Produit : 2816
 
