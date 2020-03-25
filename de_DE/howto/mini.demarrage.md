@@ -51,7 +51,7 @@ Les plugins Widget et Script.
 
 ![mini.demarrage07](images/mini.demarrage07.png)
 
-Le plugin Météo.
+Das Wetter Plugin.
 
 ![mini.demarrage08](images/mini.demarrage08.png)
 

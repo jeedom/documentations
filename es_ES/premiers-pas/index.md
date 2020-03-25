@@ -130,7 +130,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Mercado.
 
 -   En dessous, cliquez sur l'onglet **Mercado**
 
--   Cochez la case **Activar**
+-   Marca la casilla **Activar**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 

@@ -622,7 +622,7 @@ Le plugin est fonctionnel en l'état.
 
 Je prendrai le temps d'ajouter la façon de mytre en place un cron personnalisé selon l'équipement .
 
-# Le wIdentificacióngy
+# El wIdentificacióngy
 
 Pas une mince affaire le wIdentificacióngy mais on va rester sur le wIdentificacióngy por défaut pour le moment.
 

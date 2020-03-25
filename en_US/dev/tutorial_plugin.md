@@ -622,7 +622,7 @@ Le plugin est fonctionnel en l'état.
 
 Je prendrai le temps d'ajouter la façon de mandtre en place un cron personnalisé selon l'équipement .
 
-# Le wIdgand
+# The wIdgand
 
 Pas une mince affaire le wIdgand mais on va rester sur le wIdgand by défaut pour le moment.
 

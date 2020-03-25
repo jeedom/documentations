@@ -622,7 +622,7 @@ Le plugin est fonctionnel en l'état.
 
 Je prendrai le temps d'ajouter la façon de mundtre en place un cron personnalisé selon l'équipement .
 
-# Le wIdentifikationgund
+# Das WIdentifikationgund
 
 Pas une mince affaire le wIdentifikationgund mais on va rester sur le wIdentifikationgund Von défaut pour le moment.
 

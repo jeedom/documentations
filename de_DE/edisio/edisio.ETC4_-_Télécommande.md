@@ -67,7 +67,7 @@ référez-vous à cette
 > Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
-Les modes 
+Mode 
 ---------
 
 Contrôler et centraliser vos éclairages Marche/Arrêt et variateurs,
