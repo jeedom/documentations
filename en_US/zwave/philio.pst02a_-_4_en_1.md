@@ -190,7 +190,7 @@ Voici la liste des commandes :
 
  \
 
--   Présence : c'est la commande qui remontera une détection de présence
+-   Presence : c'est la commande qui remontera une détection de présence
 
 -   Opening : c'est la commande qui remontera une détection
     d'ouverture

@@ -130,7 +130,7 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Présence : C'est la commande qui indique si une présence est
+-   Presencia : C'est la commande qui indique si une présence est
     détectée
 
 -   Batería : Indique l'état de la batterie

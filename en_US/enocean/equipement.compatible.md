@@ -121,7 +121,7 @@
 # d2-14
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Fumée|||
+|<img src="../../fr_FR/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Smoke|||
 
 # d2-32
 |Picture|Marque|Name|Type|Note|Link|
@@ -167,7 +167,7 @@
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Interrupteur mural Z-Wave plus - Cozi White|Interrupteur|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Interrupteur mural EnOcean - Cozi Grey|Interrupteur|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../fr_FR/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Eltako|Convertisseur infrarouge/EnOcean avec port USB pour télécommande Harmony Logitech - FIW-USB|Infrarouge|Créera autant d'équipement que de famille boutons disponibles dans la documentation de modules (à chaque famille une inclusion est nécessaire)|[Acheter](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
-|<img src="../../fr_FR/enocean/images/f6-02-02.smoke.jpg" width="60" />|Eltako|Détecteur de fumée optique EnOcean - FRW-WS|Fumée|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/2835-eltako-detecteur-de-fumee-optique-enocean-4010312312308.html)|
+|<img src="../../fr_FR/enocean/images/f6-02-02.smoke.jpg" width="60" />|Eltako|Détecteur de fumée optique EnOcean - FRW-WS|Smoke|Bien choisir le bon profil après inclusion|[Acheter](http://www.domadoo.fr/fr/peripheriques/2835-eltako-detecteur-de-fumee-optique-enocean-4010312312308.html)|
 
 # f6-03
 |Picture|Marque|Name|Type|Note|Link|

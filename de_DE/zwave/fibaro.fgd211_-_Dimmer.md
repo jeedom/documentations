@@ -301,7 +301,7 @@ Bon à savoir
 
  \
 
-> **Caution**
+> **Kaution**
 >
 > Le paramètre le plus important de la configuration est le 14. Il
 > permet de choisir le type d'interrupteur utilisé. Par défaut le type

@@ -244,7 +244,7 @@ Utilisation des capteurs 0-10V.
 
  \
 
-> **Caution**
+> **Kaution**
 >
 > Pour l'instant, la configuration par défaut de jeedom ne le permet
 > pas, mais une configuration spécifique peut être envisagée.

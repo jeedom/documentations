@@ -63,7 +63,7 @@
 # gigaset
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Presence|Uniquement pour de la présence||
 
 # hector
 |Picture|Marque|Name|Type|Note|Link|
@@ -143,7 +143,7 @@
 # myfox
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Presence|Uniquement pour de la présence||
 
 # niu
 |Picture|Marque|Name|Type|Note|Link|
@@ -163,8 +163,8 @@
 # nut
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut|Présence|Uniquement pour de la présence||
-|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Bleu|Présence|||
+|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut|Presence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Bleu|Presence|||
 
 # parrotpot
 |Picture|Marque|Name|Type|Note|Link|
@@ -204,12 +204,12 @@
 # tile
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/tile.jpg" width="60" />|Tile|Tile|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/tile.jpg" width="60" />|Tile|Tile|Presence|Uniquement pour de la présence||
 
 # wistiki
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Presence|Uniquement pour de la présence||
 
 # xiaomiht
 |Picture|Marque|Name|Type|Note|Link|

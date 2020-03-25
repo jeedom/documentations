@@ -178,7 +178,7 @@ Voici la liste des commandes :
 
  \
 
--   Présence : c'est la commande qui remontera une détection de présence
+-   Presencia : c'est la commande qui remontera une détection de présence
 
 -   Apertura : c'est la commande qui remontera une détection
     d'ouverture

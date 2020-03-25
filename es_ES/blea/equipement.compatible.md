@@ -63,7 +63,7 @@
 # gigaset
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Presencia|Uniquement pour de la présence||
 
 # hector
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -143,7 +143,7 @@
 # myfox
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Presencia|Uniquement pour de la présence||
 
 # niu
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -163,8 +163,8 @@
 # nut
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut|Présence|Uniquement pour de la présence||
-|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Bleu|Présence|||
+|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut|Presencia|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Bleu|Presencia|||
 
 # parrotpot
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
@@ -204,12 +204,12 @@
 # tile
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/tile.jpg" width="60" />|Tile|Tile|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/tile.jpg" width="60" />|Tile|Tile|Presencia|Uniquement pour de la présence||
 
 # wistiki
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Présence|Uniquement pour de la présence||
+|<img src="../../fr_FR/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Presencia|Uniquement pour de la présence||
 
 # xiaomiht
 |Imagen|Marque|Nombre|Tipo|Observación|Enlace|

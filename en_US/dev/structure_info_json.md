@@ -42,14 +42,14 @@ issue                    | URL vers le bugtracker si externe (si non remplis alo
 
 Jeedom Market         | Info.json               |
 --------------------- | ----------------------- |
-Communication         | communication           |
+Communication         | Communication           |
 Comfort               | wellness                |
 Energy               | energy                  |
 Weather                 | weather                 |
 Monitoring            | monitoring              |
 Multimedia            | Multimedia              |
 Nature                | nature                  |
-Connected objects      | devicecommunication     |
+Connected objects      | deviceCommunication     |
 Organization          | organization            |
 Home automation gateway  | home automation protocol|
 Programming         | programming             |

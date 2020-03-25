@@ -130,7 +130,7 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Présence : C'est la commande qui indique si une présence est
+-   Presence : C'est la commande qui indique si une présence est
     détectée
 
 -   Drums : Indique l'état de la batterie

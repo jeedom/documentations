@@ -167,7 +167,7 @@ Voici la liste des commandes :
 
  \
 
--   Présence : c'est la commande qui remontera une détection de présence
+-   Präsenz : c'est la commande qui remontera une détection de présence
 
 -   Temperatur : c'est la commande qui permet de remonter la
     Temperatur

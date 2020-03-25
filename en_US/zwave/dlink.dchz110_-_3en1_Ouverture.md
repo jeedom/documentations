@@ -269,7 +269,7 @@ indispensable.
 Bon à savoir 
 ------------
 
-Association/Notification possible avec d'autres modules (exemple: Sirène
+Association/Notification possible avec d'autres modules (exemple: Mermaid
 DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
  \
