@@ -69,7 +69,7 @@ Funktionen
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparée à des périphériques Z-Wave
-    standard
+    Standard
 
 -   Optimisation de l'antenne, portée 100 mètres
 

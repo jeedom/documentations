@@ -63,7 +63,7 @@ Functions
 -   Intègre la puce Z-Wave série 500
 
 -   Communication 250% plus rapide comparé à des périphériques Z-Wave
-    standard
+    Standard
 
 -   Détection automatique de la charge
 

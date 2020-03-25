@@ -6,7 +6,7 @@ Hardware | Zustand | Remarques
 Jeedomboard             | Stabil                  |
 Hummingboard            | Stabil                  |
 Odroid C2               | Stabil                  |                          
-Smart                   | Stabil                  |                          
+SMART                   | Stabil                  |                          
 RPI1                    | Stabil                  |                          
 RPI2                    | Non officiel/Stabil     |                          
 RPI3                    | Non officiel/Stabil     | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
@@ -141,7 +141,7 @@ Plateforme matérielle recommandée
 
 L'équipe jeedom vous recommande (en fonction de votre budget) :
 
--   Jeedom Smart (tout est préinstallé, vous n'avez rien à faire)
+-   Jeedom SMART (tout est préinstallé, vous n'avez rien à faire)
 
 -   Odroid C2 (meilleur rapport performance/prix)
 

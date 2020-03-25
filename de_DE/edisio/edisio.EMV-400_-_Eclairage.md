@@ -55,7 +55,7 @@ Funktionen
 
 -   Petit, discret et esthétique
 
--   Facilité d'utilisation et d'installation
+-   Facilité d'utilisation et d'Installation
 
 Caractéristiques Techniques 
 ===========================
@@ -120,7 +120,7 @@ DIP Switch et bouton "R" :
 >
 > Afin d'éviter des redondances inutiles, ne jamais activer le mode
 > "Répéteur" sur tous les récepteurs, 5 récepteurs au maximum par
-> installation.
+> Installation.
 
 -   Le bouton "R", va permettre d'associer un émetteur au récepteur,
     d'activer ou désactiver la fonction minuterie et d'activer le mode

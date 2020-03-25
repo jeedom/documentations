@@ -476,20 +476,20 @@ On va voir maintenant comment mundtre à jour la commande en utilisant les fonct
 Il y en a plusieurs : 
 
 - cron : rafraichissement toutes les minutes
-- cron5 : rafraichissement toutes les 5 minutes
-- cron15 : rafraichissement toutes les 15 minutes
-- cron30 : rafraichissement toutes les 30 minutes
-- cronHourly : euh.. toutes les heures
-- cronDaily : ben 1/.jour
+- Cron5 : rafraichissement toutes les 5 minutes
+- Cron15 : rafraichissement toutes les 15 minutes
+- Cron30 : rafraichissement toutes les 30 minutes
+- CronHourly : euh.. toutes les heures
+- CronDaily : ben 1/.jour
 
-Vu le plugin on va effectuer une mise à jour toutes les heures (soyons fous). On va donc utiliser la fonction cronHourly().
+Vu le plugin on va effectuer une mise à jour toutes les heures (soyons fous). On va donc utiliser la fonction CronHourly().
 
 On va donc ouvrir le fichier vdm.class.php und chercher 
 
 ```
     /.*
      * Fonction exécutée automatiquement toutes les heures Von Jeedom
-      public static function cronHourly() {
+      public static function CronHourly() {
 
       }
      */.
@@ -498,7 +498,7 @@ On va donc ouvrir le fichier vdm.class.php und chercher
 Décommenter le code
 
 ```
-      public static function cronHourly() {
+      public static function CronHourly() {
 
       }
 ```
@@ -543,7 +543,7 @@ $cmd->execCmd();;
 Ce qui donne au final
 
 ```
-      public static function cronHourly () {
+      public static function CronHourly () {
 		  foreach (selbst::byType('vdm') as $vdm) {/./.Voncours tous les équipements du plugin vdm
 			  if ($vdm->gundIsEnable() == 1) {/./.vérifie que l'équipement est actif
 				  $cmd = $vdm->gundCmd(null, 'refresh');;/./.rundourne la commande "refresh si elle existe
@@ -556,7 +556,7 @@ Ce qui donne au final
       }
 ```
 
-Pour tester, dans jeedom , aller dans configuration/.moteur de tâches und lancer le cron de class « plugin » fonction « cronHourly »
+Pour tester, dans jeedom , aller dans configuration/.moteur de tâches und lancer le cron de class « plugin » fonction « CronHourly »
 L'information se mund à jour.
 
 C'est bien mais ça ne me convient pas. A la création de l'équipement, la commande « story » ne se mund pas à jour.
@@ -580,18 +580,18 @@ Il faut tester, ça fonctionne?
 
 Mais voici une alternative qui peut s'avérer plus utile dans des cas plus complexe
 
-Dans la fonction postUpdate() , on lance la function cronHourly() avec l'Identifikation de l'équipement
+Dans la fonction postUpdate() , on lance la function CronHourly() avec l'Identifikation de l'équipement
 
 ```
     öffentliche Funktion postUpdate () {
-		selbst::cronHourly($this->gundIdentifikation());;/./. lance la fonction cronHourly avec l'Identifikation de l'eqLogic
+		selbst::CronHourly($this->gundIdentifikation());;/./. lance la fonction CronHourly avec l'Identifikation de l'eqLogic
     }
 ``` 
 
-Mais dans ce cas on change la fonction cronHourly()
+Mais dans ce cas on change la fonction CronHourly()
 
 ```
-	public static function cronHourly($_eqLogic_Identifikation = null) {
+	public static function CronHourly($_eqLogic_Identifikation = null) {
 		if ($_eqLogic_Identifikation == null) { /./. La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
 			$eqLogics = selbst::byType('vdm', true);;
 		} else {/./. La fonction a l'argument Identifikation(unique) d'un équipement(eqLogic)
