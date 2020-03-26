@@ -2,22 +2,33 @@ var docMenu = [
   {
     fr_FR : "Introduction",
     en_US : "Introduction",
-    submenu : {
-      presentation: {link : "",fr_FR : "Présentation",en_US:"Presentation"},
-      installation: {link : "",fr_FR : "Installation",en_US:"Installation"},
-      start_smart: {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start"},
-      start_pro: {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start"},
-      first_step: {link : "",fr_FR : "Premiers pas",en_US:"First step"},
-    }
+    link : ""
+  },{
+    fr_FR : "Utiliser Jeedom",
+    en_US : "Use Jeedom",
+    submenu : [
+      {link : "",fr_FR : "Installation",en_US:"Installation"},
+      {link : "",fr_FR : "Compatibilité matériel et logiciel",en_US:"Compatibilité hard and soft"},
+      {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start"},
+      {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start"},
+      {link : "",fr_FR : "Premiers pas",en_US:"First step"},
+    ]
+  },{
+    fr_FR : "Box Jeedom",
+    en_US : "jeedom's box",
+    link : ""
   },{
     fr_FR : "Services",
     en_US : "Service",
-    submenu:{
-      cloud_backup : {link : "",fr_FR : "Sauvegarde",en_US:"Backup"},
-      voice_assist : {link : "",fr_FR : "Assistant vocaux",en_US:"Voice assistant"},
-      cloud_monitoring : {link : "",fr_FR : "Monitoring",en_US:"Monitoring"},
-      remote_access : {link : "",fr_FR : "Accès distance",en_US:"Remote access"}
-    },
+    submenu:[
+      {link : "",fr_FR : "Présentation",en_US:"Presentation"},
+      {link : "",fr_FR : "Market",en_US:"Market"},
+      {link : "",fr_FR : "Assistant vocaux",en_US:"Voice assistant"},
+      {link : "",fr_FR : "Sauvegarde",en_US:"Backup"},
+      {link : "",fr_FR : "Accès distance",en_US:"Remote access"}
+      {link : "",fr_FR : "Monitoring",en_US:"Monitoring"},
+      {link : "",fr_FR : "SMS, Appels",en_US:"SMS and call"},
+    ]
   },{
     divider : true
   },{
@@ -28,17 +39,39 @@ var docMenu = [
     en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
-      {link : "",fr_FR : "Vues",en_US:"View"},
+      {link : "",fr_FR : "Vues",en_US:"Views"},
       {link : "",fr_FR : "Design",en_US:"Design"},
-      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"}
+      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"},
+      {link : "",fr_FR : "Log",en_US:"Log"},
+      {link : "",fr_FR : "Temps reel",en_US:"Real time"},
+      {link : "",fr_FR : "Analyse",en_US:"Analyse"},
+      {link : "",fr_FR : "Résumé Domotique",en_US:"Summary"},
+      {link : "",fr_FR : "Historique",en_US:"History"},
+      {link : "",fr_FR : "Report",en_US:"Report"},
+      {link : "",fr_FR : "Santé",en_US:"Health"},
+      {link : "",fr_FR : "Objet",en_US:"Object"},
+      {link : "",fr_FR : "Scenario",en_US:"Scenario"},
+      {link : "",fr_FR : "Intéractions",en_US:"Interactions"},
+      {link : "",fr_FR : "Widget",en_US:"Widget"},
+      {link : "",fr_FR : "Notes",en_US:"Notes"},
+      {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester"},
+      {link : "",fr_FR : "Variables",en_US:"Variables"},
+      {link : "",fr_FR : "Plugin",en_US:"Plugin"}
     ]
   },{
     fr_FR : "Manuel de configuration",
     en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
-      {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
-      {link:"",fr_FR:"Mise à jour",en_US:"Update"},
+      {link:"",fr_FR:"Sauvegarde",en_US:"Save"},
+      {link:"",fr_FR:"Mise à jour",en_US:"update"},
+      {link:"",fr_FR:"Restauration Image",en_US:"Image restoration"},
+      {link:"",fr_FR:"Moteur de tâche",en_US:"Cron"},
+      {link:"",fr_FR:"Personalisation",en_US:"Personalisation"},
+      {link:"",fr_FR:"Utilisateur",en_US:"Users"},
+      {link:"",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart"},
+      {link:"",fr_FR:"Profils",en_US:"Profils"},
+      {link:"",fr_FR:"Version mobile",en_US:"Mobile version"}
     ]
   },{
     fr_FR:'Jeedom v4.0',
@@ -48,17 +81,39 @@ var docMenu = [
     en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
-      {link : "",fr_FR : "Vues",en_US:"View"},
+      {link : "",fr_FR : "Vues",en_US:"Views"},
       {link : "",fr_FR : "Design",en_US:"Design"},
-      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"}
+      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"},
+      {link : "",fr_FR : "Log",en_US:"Log"},
+      {link : "",fr_FR : "Temps reel",en_US:"Real time"},
+      {link : "",fr_FR : "Analyse",en_US:"Analyse"},
+      {link : "",fr_FR : "Résumé Domotique",en_US:"Summary"},
+      {link : "",fr_FR : "Historique",en_US:"History"},
+      {link : "",fr_FR : "Report",en_US:"Report"},
+      {link : "",fr_FR : "Santé",en_US:"Health"},
+      {link : "",fr_FR : "Objet",en_US:"Object"},
+      {link : "",fr_FR : "Scenario",en_US:"Scenario"},
+      {link : "",fr_FR : "Intéractions",en_US:"Interactions"},
+      {link : "",fr_FR : "Widget",en_US:"Widget"},
+      {link : "",fr_FR : "Notes",en_US:"Notes"},
+      {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester"},
+      {link : "",fr_FR : "Variables",en_US:"Variables"},
+      {link : "",fr_FR : "Plugin",en_US:"Plugin"}
     ]
   },{
     fr_FR : "Manuel de configuration",
     en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
-      {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
-      {link:"",fr_FR:"Mise à jour",en_US:"Update"},
+      {link:"",fr_FR:"Sauvegarde",en_US:"Save"},
+      {link:"",fr_FR:"Mise à jour",en_US:"update"},
+      {link:"",fr_FR:"Restauration Image",en_US:"Image restoration"},
+      {link:"",fr_FR:"Moteur de tâche",en_US:"Cron"},
+      {link:"",fr_FR:"Personalisation",en_US:"Personalisation"},
+      {link:"",fr_FR:"Utilisateur",en_US:"Users"},
+      {link:"",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart"},
+      {link:"",fr_FR:"Profils",en_US:"Profils"},
+      {link:"",fr_FR:"Version mobile",en_US:"Mobile version"}
     ]
   },{
     fr_FR:'Jeedom v4.1',
@@ -68,17 +123,39 @@ var docMenu = [
     en_US : "User manual",
     submenu:[
       {link : "",fr_FR : "Dashboard",en_US:"Dashboard"},
-      {link : "",fr_FR : "Vues",en_US:"View"},
+      {link : "",fr_FR : "Vues",en_US:"Views"},
       {link : "",fr_FR : "Design",en_US:"Design"},
-      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"}
+      {link : "",fr_FR : "Design 3D",en_US:"Design 3D"},
+      {link : "",fr_FR : "Log",en_US:"Log"},
+      {link : "",fr_FR : "Temps reel",en_US:"Real time"},
+      {link : "",fr_FR : "Analyse",en_US:"Analyse"},
+      {link : "",fr_FR : "Résumé Domotique",en_US:"Summary"},
+      {link : "",fr_FR : "Historique",en_US:"History"},
+      {link : "",fr_FR : "Report",en_US:"Report"},
+      {link : "",fr_FR : "Santé",en_US:"Health"},
+      {link : "",fr_FR : "Objet",en_US:"Object"},
+      {link : "",fr_FR : "Scenario",en_US:"Scenario"},
+      {link : "",fr_FR : "Intéractions",en_US:"Interactions"},
+      {link : "",fr_FR : "Widget",en_US:"Widget"},
+      {link : "",fr_FR : "Notes",en_US:"Notes"},
+      {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester"},
+      {link : "",fr_FR : "Variables",en_US:"Variables"},
+      {link : "",fr_FR : "Plugin",en_US:"Plugin"}
     ]
   },{
     fr_FR : "Manuel de configuration",
     en_US : "Configuration manual",
     submenu:[
       {link:"",fr_FR:"Administration",en_US:"Administration"},
-      {link:"",fr_FR:"Sauvegarde",en_US:"Backup"},
-      {link:"",fr_FR:"Mise à jour",en_US:"Update"},
+      {link:"",fr_FR:"Sauvegarde",en_US:"Save"},
+      {link:"",fr_FR:"Mise à jour",en_US:"update"},
+      {link:"",fr_FR:"Restauration Image",en_US:"Image restoration"},
+      {link:"",fr_FR:"Moteur de tâche",en_US:"Cron"},
+      {link:"",fr_FR:"Personalisation",en_US:"Personalisation"},
+      {link:"",fr_FR:"Utilisateur",en_US:"Users"},
+      {link:"",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart"},
+      {link:"",fr_FR:"Profils",en_US:"Profils"},
+      {link:"",fr_FR:"Version mobile",en_US:"Mobile version"}
     ]
   },{
     divider : true
@@ -106,9 +183,28 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR:"Assitance et bug",
-    en_US : "Bug and assistance",
-    link:""
+    fr_FR:'Guides',
+    en_US : 'Guides',
+    submenu:[
+      {link:"",fr_FR:"FAQ",en_US:"FAQ"},
+      {link:"",fr_FR:"Tutoriaux",en_US:"Tutorials"}
+    ]
+  },{
+    fr_FR:'Assistance et bug',
+    en_US : 'Assistance and bug',
+    link : ""
+  },{
+    fr_FR:'Développer sur Jeedom',
+    en_US : 'Developpe on Jeedom',
+    submenu:[
+      {link:"",fr_FR:"Présentation",en_US:"Presentation"},
+      {link:"",fr_FR:"Api HTTP",en_US:"Api HTTP"},
+      {link:"",fr_FR:"API JsonRPC",en_US:"API JsonRPC"},
+      {link:"",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom"},
+    ]
+  },{
+    fr_FR:'Information',
+    en_US : 'Information',
   }
 ]
 
