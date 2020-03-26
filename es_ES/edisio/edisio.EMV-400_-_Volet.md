@@ -98,7 +98,7 @@ référez-vous à cette
 
 > **Importante**
 >
-> Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
+> Pour que Jeedom crée automáticamente vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
 > **Importante**
@@ -286,7 +286,7 @@ Chaque sortie est à associer à une commande Jeedom:
 > **Nota**
 >
 > Il n'y a pas besoin d'associer la commande "Detener", celle-ci se fait
-> automatiquement.
+> automáticamente.
 
 Méthode déportée 
 ----------------

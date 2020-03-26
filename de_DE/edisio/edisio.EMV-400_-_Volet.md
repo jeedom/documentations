@@ -98,7 +98,7 @@ référez-vous à cette
 
 > **Wichtig**
 >
-> Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez
+> Pour que Jeedom crée automatisch vos modules émetteurs, n'oubliez
 > pas d'activer l'option dans la configuration du plugin.
 
 > **Wichtig**
@@ -286,7 +286,7 @@ Chaque sortie est à associer à une commande Jeedom:
 > **Notiz**
 >
 > Il n'y a pas besoin d'associer la commande "STOP", celle-ci se fait
-> automatiquement.
+> automatisch.
 
 Méthode déportée 
 ----------------
