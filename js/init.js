@@ -25,7 +25,7 @@ var docMenu = [
       {link : "",fr_FR : "Market",en_US:"Market"},
       {link : "",fr_FR : "Assistant vocaux",en_US:"Voice assistant"},
       {link : "",fr_FR : "Sauvegarde",en_US:"Backup"},
-      {link : "",fr_FR : "Accès distance",en_US:"Remote access"}
+      {link : "",fr_FR : "Accès distance",en_US:"Remote access"},
       {link : "",fr_FR : "Monitoring",en_US:"Monitoring"},
       {link : "",fr_FR : "SMS, Appels",en_US:"SMS and call"},
     ]
