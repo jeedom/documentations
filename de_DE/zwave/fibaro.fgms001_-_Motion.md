@@ -325,7 +325,7 @@ Bon à savoir
 > d'usine. Il est primordial de bien le réveiller après l'inclusion
 > (plusieurs fois valent mieux qu'une), de bien le configurer selon vos
 > souhaits, et de bien le réveiller pour que la config soit prise en
-> compte.
+> Konto.
 
  \
 
@@ -365,7 +365,7 @@ plus proche de votre box et de s'y reprendre plusieurs fois.
  \
 
 Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+prise en Konto au prochain wakeup.
 
  \
 
