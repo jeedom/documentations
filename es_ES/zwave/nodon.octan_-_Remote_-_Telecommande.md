@@ -147,7 +147,7 @@ Voici la liste des commandes :
 -   Botones : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Botones        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Botones        | Appui          | Pulsación larga     | Relajamiento    | Doble soporte   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+

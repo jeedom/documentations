@@ -147,7 +147,7 @@ Voici la liste des commandes :
 -   Tasten : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Tasten        | Appui          | Appui Long     | Relâchement    | Double appui   |
+| Tasten        | Appui          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 +================+================+================+================+================+
 | **1**          | 10             | 12             | 11             | 13             |
 +----------------+----------------+----------------+----------------+----------------+

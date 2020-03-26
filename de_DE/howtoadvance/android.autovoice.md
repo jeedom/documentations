@@ -75,7 +75,7 @@ Rückkehr**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
-D'abord on va ajouter une action de type **Réseau**.
+D'abord on va ajouter une action de type **Nundzwerk**.
 
 ![android.autovoice8](images/android.autovoice8.png)
 

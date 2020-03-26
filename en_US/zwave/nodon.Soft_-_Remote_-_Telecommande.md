@@ -141,7 +141,7 @@ Voici la liste des commandes :
 -   Buttons : c'est la commande qui remontera le bouton appuyé
 
 +----------------+----------------+----------------+----------------+----------------+
-| Buttons        | Appui          | Appui Long     | Relachement    | Double appui   |
+| Buttons        | Appui          | Long press     | Relaxation    | Double support   |
 +================+================+================+================+================+
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |

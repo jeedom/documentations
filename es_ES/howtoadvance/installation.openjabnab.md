@@ -6,7 +6,7 @@ humming)
 > Ce tuto est largement inspiré de
 > [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
-Installation des dépendances 
+Instalación de dependencias. 
 ============================
 
 Une fois le système installé en SSH faite :
