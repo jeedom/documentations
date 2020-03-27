@@ -16,8 +16,8 @@
 | Blyss 528852   | Motorisation de portail à vérins  |                |                |                |
 | Blyss 582867   | Pack Interrupteur + micro-module ON/OFF         |                |                |                |
 | Chacon 34131   | Détecteur de fumée  | AC             |                |                |
-| Chacon 54595   | Pack de 3 Prises Chacon  + télécommande 3 canaux + 1 groupe     | AC             |                |                |
-| Chacon 54795   | Pack de 3 Prises Chacon  DI.O first + télécommande 3 canaux      | AC             |                |                |
+| Chacon 54595   | Pack de 3 Steckdoses Chacon  + télécommande 3 canaux + 1 groupe     | AC             |                |                |
+| Chacon 54795   | Pack de 3 Steckdoses Chacon  DI.O first + télécommande 3 canaux      | AC             |                |                |
 | Chacon 54501   | Interrupteur   | AC             |                |                |
 | Chacon 54514   | Variateur      | AC             |                |                |
 | Chacon 54761   | Fernbedienung 16 canaux    | AC             |                |                |
@@ -37,17 +37,17 @@
 | DI.O by Chacon | Fernbedienung 3 | AC             |                |                |
 | 54760          | canaux         |                |                |                |
 | DI.O by Chacon | Fernbedienung   | AC             |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
-| DI.O by Chacon | Prise          | AC             |                |                |
+| DI.O by Chacon | Steckdose          | AC             |                |                |
 | 54746          | extérieure     |                |                |                |
 | DI-O by Chacon | Détecteur      | AC             |                |                |
 | 54783          | crépusculaire  |                |                |                |
 | DI-O by Chacon | Rollladen  | AC             |                |                |
 | 54754          |                |                |                |                |
-| DI-O by Chacon | Prise 1500W    | AC             |                |                |
+| DI-O by Chacon | Steckdose 1500W    | AC             |                |                |
 | 54798          |                |                |                |                |
 | DI-O by Chacon | Micro-module   | AC             |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
 | DS18           | Détecteur      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
-| KDI FER-1000W  | Prise          | Ex de code pour allumer la prise 07100102500D01 60             |                |                |
+| KDI FER-1000W  | Steckdose          | Ex de code pour allumer la prise 07100102500D01 60             |                |                |
 | KDI FECT-100   | Fernbedienung   |                |                |                |
 | Homewizad      | Temperatur    |                |                |                |
 | HW-TX320       | Luftfeuchtigkeit avec affichage      |                |                |                |

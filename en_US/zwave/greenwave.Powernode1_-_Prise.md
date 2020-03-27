@@ -1,4 +1,4 @@
-Greenwave PowerNode - 1 prise 
+Greenwave PowerNode - 1 Outlet 
 =============================
 
  \
@@ -24,40 +24,40 @@ Summary
 
  \
 
-The module prise PowerNode de GreenWave est un appareil intelligent qui
+The module Outlet PowerNode de GreenWave est un appareil intelligent qui
 se connecte à un de vos appareils électroménagers et électroniques pour
 vous permettre de surveiller et contrôler la consommation électrique à
 distance via un navigateur Web ou un smartphone.
 
-Utilisant la technologie Z-Wave, la prise commandée PowerNode est
+Utilisant la technologie Z-Wave, la Outlet commandée PowerNode est
 compatible avec la plupart des box domotiques du marché comme Fibaro
 Home Center 2, eedomus ou Zipabox.
 
-La module prise PowerNode recueille des données sur la consommation
+La module Outlet PowerNode recueille des données sur la consommation
 d'énergie de l'appareil connecté et les transmet à la box domotique.
-Cette prise commandée vous permet également d'activer ou désactiver
+Cette Outlet commandée vous permet également d'activer ou désactiver
 l'appareil à distance via un navigateur Web ou smartphone ou de définir
 un calendrier pour activer ou désactiver automatiquement votre appareil
 à des heures prédéfinies.
 
-Une petite molette sur le côté de la prise permet de choisir une couleur
+Une petite molette sur le côté de la Outlet permet de choisir une couleur
 qui représentera la pièce à laquelle elle est affectée. For example "
 bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes prises et multiprises PowerNode. We peut également régler
+différentes Outlets et multiOutlets PowerNode. We peut également régler
 cette molette sur un cadenas. Cette fonction permet de verrouiller la
-prise afin d'éviter de l'éteindre par accident, mais le contrôle depuis
+Outlet afin d'éviter de l'éteindre par accident, mais le contrôle depuis
 la boxe domotique ne sera plus possible.
 
-La prise commandée PowerNode dispose aussi d'un indicateur d'état
+La Outlet commandée PowerNode dispose aussi d'un indicateur d'état
 lumineux qui donne différentes informations en fonction de sa couleur :
-prises allumées ou éteintes, portée radio limitée, mode inclusion et
+Outlets allumées ou éteintes, portée radio limitée, mode inclusion et
 exclusion.
 
-The module prise PowerNode est équipé d'une protection contre les
-surintensités pour protéger l'appareil connecté. La prise PowerNode sera
+The module Outlet PowerNode est équipé d'une protection contre les
+surintensités pour protéger l'appareil connecté. La Outlet PowerNode sera
 désactivée en cas du dysfonctionnement d'un appareil défectueux ou d'un
 court-circuit. Une protection supplémentaire est assurée par le fusible
-interne situé dans la prise.
+interne situé dans la Outlet.
 
  \
 
@@ -68,7 +68,7 @@ Functions
 
 -   Commander une lampe ou un appareil à distance
 
--   Module prise s'intégrant directement entre une prise électrique et
+-   Module Outlet s'intégrant directement entre une Outlet électrique et
     la charge à commander
 
 -   Permet le suivi de consommation de l'appareil branché
@@ -78,7 +78,7 @@ Functions
 -   Possibilité de lui affecter un numéro et une couleur afin de
     différencier les différentes PowerNode d'une même installation
 
--   Bouton We/Off directement sur la prise
+-   Bouton We/Off directement sur la Outlet
 
 -   Protection contre les surintensités
 
@@ -103,7 +103,7 @@ Caractéristiques techniques
 
 -   Protection contre les surintensités : 10A fusible interne
 
--   Type de prise : DIN49440 / CEE 7/7 (Schuko)
+-   Type de Outlet : DIN49440 / CEE 7/7 (Schuko)
 
 -   Radio Fréquence Z-Wave : 868.42MHz
 
@@ -126,7 +126,7 @@ Données du module
 
 -   Marque : GreenWave
 
--   Name : GreenWave\[1 x prise\]
+-   Name : GreenWave\[1 x Outlet\]
 
 -   Fabricant ID : 153
 
@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 > **IMPORTANT**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> inclusion présent sous la prise.
+> inclusion présent sous la Outlet.
 
  \
 
@@ -184,11 +184,11 @@ Voici la liste des commandes :
  \
 
 -   State : C'est la commande qui permet de connaître le statut de la
-    prise
+    Outlet
 
--   We : C'est la commande qui permet d'allumer la prise
+-   We : C'est la commande qui permet d'allumer la Outlet
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la Outlet
 
 -   Power : C'est la commande qui remonte la puissance instantanée
     consommée
@@ -236,7 +236,7 @@ Détails des paramètres :
 
 -   1 : Délai avant le clignotement du bouton : nombres de secondes
     minimum entre deux communications (si ce délai est dépassé le bouton
-    de la prise clignotera)
+    de la Outlet clignotera)
 
 -   2 : Couleur selectionnée de la molette (détectée automatiquement)
 
@@ -260,7 +260,7 @@ Bon à savoir
 
  \
 
-Contrairement à sa grande soeur multiprise, cette prise ne nécessite pas
+Contrairement à sa grande soeur multiOutlet, cette Outlet ne nécessite pas
 de polling pour remonter la consommation.
 
  \

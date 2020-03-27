@@ -74,7 +74,7 @@ nécessaire de récupérer les informations suivantes :
 -   Dans la page santé du plugin Zwave auf le **Jeedom Maître**, Wählen
     votre **Sklave** dans le menu déroulant und faire une copie d'écran,
     ceci afin de disposer d'une liste des équipements qui viennent
-    de celui-ci.
+    davon.
 
 -   Notizr pour chaque équipement venant de **l'Sklave** : l'objund
     parent, le nom, l'ID (Node), le modèle.
@@ -191,7 +191,7 @@ Quelle**.
 >
 > Penser au fur und à meaufe à désactiver l'historisation des commandes
 > info de chaque équipement se trouvant auf le **Jeedom Quelle** afin
-> d'économiser la carte SD de celui-ci (L'historisation se fera auf le
+> d'économiser la carte SD davon (L'historisation se fera auf le
 > **Jeedom Cible**).
 
 > **Notiz**
@@ -207,7 +207,7 @@ Quelle**.
 
 -   Cliquer auf le bouton "Synchroniser" afin de récupérer les modules
     associés à votre contrôleur. (Ils sont gardés dans la mémoire
-    de celui-ci)
+    davon)
 
 -   Remplacer le fichier *Zwcfg* : *Plugins ⇒ Gestion des Plugins ⇒
     Z-wave*. Cliquer auf le bouton rouge *Zwcfg* und coller le contenu du

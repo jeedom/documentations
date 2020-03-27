@@ -51,7 +51,7 @@ Funciones
 
 -   Alertes d'ouverture/fermeture sonores et visuelles.
 
--   Volume sonore de l'alarme réglable (105 dB max)
+-   Volumen sonore de l'alarme réglable (105 dB max)
 
 -   Port USB pour charger vos propres sons MP3.
 
@@ -86,7 +86,7 @@ Caractéristiques techniques
 
 -   Consommation de l'alarme : 2W
 
--   Volume maximum : 105 dB
+-   Volumen maximum : 105 dB
 
 -   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
 
@@ -170,7 +170,7 @@ Voici la liste des commandes :
 
 -   Posición : Posición actuelle de la porte de garage.
 
--   Volume : Volume actuel du haut-parleur.
+-   Volumen : Volumen actuel du haut-parleur.
 
 -   Temperatura : Temperatura de la zone, pas de remonté automatique.
 

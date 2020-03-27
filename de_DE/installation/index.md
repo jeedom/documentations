@@ -341,7 +341,7 @@ Cliquez sur nouvelle und renseignez les champs comme ci dessous :
 -   Cliquez sur folgende, Choisissez une taille pour l'espace
     (4Go suffisent)
 
--   Cliquez sur créer
+-   Klicken Sie auf Erstellen
 
 Schritt 4 : Lancement de la VM
 ---

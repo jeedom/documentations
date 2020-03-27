@@ -44,7 +44,7 @@ Funktionen
 
 -   Commander une lampe à distance
 
--   Module prise s'intégrant directement entre une prise électrique et
+-   Module Steckdose s'intégrant directement entre une Steckdose électrique et
     la charge à commander
 
 -   Fonction ON / OFF et Variateur pour piloter des lampes
@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Anzeigen: LED sur le bouton
 
--   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
+-   Dimensions : Longueur (Steckdose incluse) : 74mm Diamètre : 52mm
 
  \
 
@@ -152,14 +152,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    prise
+    Steckdose
 
--   Ein : C'est la commande qui permet d'allumer la prise
+-   Ein : C'est la commande qui permet d'allumer la Steckdose
 
--   Aus : C'est la commande qui permet d'éteindre la prise
+-   Aus : C'est la commande qui permet d'éteindre la Steckdose
 
 -   Zustand : C'est la commande qui permet de connaitre le statut de la
-    prise
+    Steckdose
 
  \
 
@@ -199,12 +199,12 @@ Détails des paramètres :
     conseillé de changer cette valeur.
 
 -   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+    groupe 1 (valeur comSteckdose entre 3 et 25 secondes)
 
--   3 : Ce paramètre permet de définir si la prise reprendra son statut
-    (ON ou OFF) après une reprise de courant.
+-   3 : Ce paramètre permet de définir si la Steckdose reprendra son statut
+    (ON ou OFF) après une reSteckdose de courant.
 
--   4 : Ce paramètre permet de définir si la prise fontionnera en mode
+-   4 : Ce paramètre permet de définir si la Steckdose fontionnera en mode
     variation ou en mode on/off
 
 ### Gruppen 

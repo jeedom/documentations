@@ -24,8 +24,8 @@ Summary
 
  \
 
-Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous
-forme d\`un adaptateur à brancher sur une prise murale au réseau
+Le Wall Plug Fibaro est un récepteur-Outlet-transmetteur universel sous
+forme d\`un adaptateur à brancher sur une Outlet murale au réseau
 électrique, compatible avec le standard Z-Wave. Il permet de gérer
 n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en
 intégrant la fonctionnalité de mesurer la puissance active du courant et
@@ -145,11 +145,11 @@ Voici la liste des commandes :
  \
 
 -   State : C'est la commande qui permet de connaître le statut de la
-    prise
+    Outlet
 
--   We : C'est la commande qui permet d'allumer la prise
+-   We : C'est la commande qui permet d'allumer la Outlet
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   Off : C'est la commande qui permet d'éteindre la Outlet
 
 -   Power : C'est la commande qui remonte la puissance instatanée
     consommée
@@ -201,10 +201,10 @@ Détails des paramètres :
 -   16: permet de se souvenir du dernier état en cas de coupure de
     courant
 
--   34: permet de choisir a quel type d'alarme du réseau Zwave la prise
+-   34: permet de choisir a quel type d'alarme du réseau Zwave la Outlet
     doit réagir
 
--   35: permet de régler la façon dont la prise réagira aux alarmes
+-   35: permet de régler la façon dont la Outlet réagira aux alarmes
 
 -   39: permet de définir la durée de l'alarme
 
@@ -231,15 +231,15 @@ Détails des paramètres :
 -   52: action à faire si la puissance sort des bornes définies aux
     paramètres 50 et 51
 
--   60: puissance au dela de laquelle la prise clignotera en violet
+-   60: puissance au dela de laquelle la Outlet clignotera en violet
 
--   61: couleur quand la prise est allumée
+-   61: couleur quand la Outlet est allumée
 
--   62: couleur quand la prise est éteinte
+-   62: couleur quand la Outlet est éteinte
 
 -   63: couleur lorsqu'une alarme Zwave est détectée
 
--   70: puissance de sécurité (la prise se coupera lorsque la puissance
+-   70: puissance de sécurité (la Outlet se coupera lorsque la puissance
     atteindra ce seuil)
 
  \

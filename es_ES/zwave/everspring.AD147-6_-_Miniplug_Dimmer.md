@@ -44,7 +44,7 @@ Funciones
 
 -   Commander une lampe à distance
 
--   Module prise s'intégrant directement entre une prise électrique et
+-   Module Salida s'intégrant directement entre une Salida électrique et
     la charge à commander
 
 -   Fonction ON / OFF et Variateur pour piloter des lampes
@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Visualización: LED sur le bouton
 
--   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
+-   Dimensions : Longueur (Salida incluse) : 74mm Diamètre : 52mm
 
  \
 
@@ -152,14 +152,14 @@ Voici la liste des commandes :
  \
 
 -   Intensité : C'est la commande permettant de régler l'intensité de la
-    prise
+    Salida
 
--   Uno : C'est la commande qui permet d'allumer la prise
+-   Uno : C'est la commande qui permet d'allumer la Salida
 
--   Apagado : C'est la commande qui permet d'éteindre la prise
+-   Apagado : C'est la commande qui permet d'éteindre la Salida
 
 -   Estado : C'est la commande qui permet de connaitre le statut de la
-    prise
+    Salida
 
  \
 
@@ -199,12 +199,12 @@ Détails des paramètres :
     conseillé de changer cette valeur.
 
 -   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+    groupe 1 (valeur comSalida entre 3 et 25 secondes)
 
--   3 : Ce paramètre permet de définir si la prise reprendra son statut
-    (ON ou OFF) après une reprise de courant.
+-   3 : Ce paramètre permet de définir si la Salida reprendra son statut
+    (ON ou OFF) après une reSalida de courant.
 
--   4 : Ce paramètre permet de définir si la prise fontionnera en mode
+-   4 : Ce paramètre permet de définir si la Salida fontionnera en mode
     variation ou en mode on/off
 
 ### Grupos 
