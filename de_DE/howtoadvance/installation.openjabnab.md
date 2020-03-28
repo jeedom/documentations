@@ -165,7 +165,7 @@ Puis cloner openjabnab :
 Configuration du serveur web 
 ============================
 
-Faites :
+Tun :
 
     cd /etc/apache2/sites-available/
     vim ojn.conf
@@ -210,7 +210,7 @@ Puis on redémarre apache :
 Installation d'openjabnab 
 =========================
 
-Faites :
+Tun :
 
     su ojn
     cd /home/ojn/OpenJabNab/server
@@ -224,7 +224,7 @@ Faites :
 Configuration d'openjabnab 
 ==========================
 
-Faites :
+Tun :
 
     cp openjabnab.ini-dist bin/openjabnab.ini
     vim bin/openjabnab.ini
@@ -293,7 +293,7 @@ Surveillance du serveur openjabnab et démarrage auto
 
 Comme vous le remarquerez si vous fermez votre session le serveur
 openjabnab s'arrête. Il faut donc ajouter un petit script pour
-surveiller le serveur et le démarrer automatiquement. Faites :
+surveiller le serveur et le démarrer automatiquement. Tun :
 
     cd /home/ojn
     vim checkojn.sh

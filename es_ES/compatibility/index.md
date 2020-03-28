@@ -14,12 +14,12 @@ RPI3                    | Non officiel/Estable     | Attention si vous utilisez 
 32 bits                 | Non supporté            |                          
 Vmware                  | Estable                  | Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 nécessite l'installation d'un correctif VMWare pour le support des Zwave.         
 
-Images
+Imágenes
 ======
 
 Vous pouvez retrouver toutes les images Jeedom
 [ici](https://images.jeedom.com/),
-puis dans le dossier Images
+puis dans le dossier Imágenes
 
 > **Nota**
 >
@@ -29,7 +29,7 @@ puis dans le dossier Images
 > l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre
 > navigateur
 
-| Images         | Hardware       | Estado           | Accès SSH      | Remarques      |
+| Imágenes         | Hardware       | Estado           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | jeedomboard et | Beta           | root/Mjeedom96 |                |
 | netinstall     | hummingboard   |                |                |                |

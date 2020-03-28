@@ -250,7 +250,7 @@ Détails des paramètres :
     d'incendies feront sonner le module)
 
 -   10: ne pas changer ce paramètre sauf si vous savez ce que vous
-    faites
+    tun
 
 -   11: idem
 

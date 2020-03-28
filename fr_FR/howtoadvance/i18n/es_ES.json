@@ -650,7 +650,7 @@
         "ojn \/home\/ojn\/OpenJabNab\/": "ojn \/home\/ojn\/OpenJabNab\/",
         "chmod 0777 \/home\/ojn\/OpenJabNab\/http-wrapper\/ojn_admin\/include": "chmod 0777 \/home\/ojn\/OpenJabNab\/http-wrapper\/ojn_admin\/include",
         "Configuration du serveur web": "Configuration du serveur web",
-        "Faites": "Faites",
+        "Faites": "Hacer",
         "cd \/etc\/apache2\/sites-available\/": "cd \/etc\/apache2\/sites-available\/",
         "vim ojn.conf": "vim ojn.conf",
         "DocumentRoot \/home\/ojn\/OpenJabNab\/http-wrapper\/": "DocumentRoot \/home\/ojn\/OpenJabNab\/http-wrapper\/",
