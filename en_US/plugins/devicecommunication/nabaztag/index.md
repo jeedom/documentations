@@ -1,120 +1,120 @@
-Plugin pour commander le Nabaztag.
+Plugin to order the Nabaztag.
 
-Configuration
+Setup 
 =============
 
-Equipment configuration
+Equipment configuration 
 =============================
 
-Une fois le plugin installé et activé à partir du Market, on accède à la
-page du plugin Nabaztag par :
+Once the plugin is installed and activated from the Market, you access the
+Nabaztag plugin page by :
 
 ![nabaztag1](../images/nabaztag1.png)
 
-Vous retrouvez ici tous vos équipements Nabaztag :
+Here you find all your Nabaztag equipment :
 
 ![nabaztag2](../images/nabaztag2.png)
 
 > **Tip**
 >
-> Comme à beaucoup d’endroit sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> As in many places on Jeedom, place the mouse on the far left
+> brings up a quick access menu (you can
+> from your profile always leave it visible).
 
-Une fois un équipement sélectionné vous obtenez :
+Once an equipment is selected you get :
 
 ![nabaztag3](../images/nabaztag3.png)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Nabaztag** : nom de votre équipement Nabaztag
+-   **Name of the Nabaztag equipment** : name of your Nabaztag equipment
 
--   **Parent Object** : means the parent object the equipment depend
+-   **Parent object** : indicates the parent object to which belongs
     equipment
 
--   **Category**: categories of equipment (it may belong to
-    plusieurs catégories)
+-   **Category** : equipment categories (it may belong to
+    multiple categories)
 
--   **Enable**: makes your equipment active
+-   **Activate** : makes your equipment active
 
--   **Visible**: makes it visible on the dashboard
+-   **Visible** : makes it visible on the dashboard
 
--   **Adresse (openjabnab.fr ou @IP)** : adresse openjabnab ou IP (DNS)
-    de votre openjabnab si vous l’auto-hébergez
+-   **Address (openjabnab.fr or @IP)** : openjabnab or IP address (DNS)
+    your openjabnab if you self-host it
 
--   **Adresse MAC** : adresse mac de votre lapin (voir plus bas)
+-   **MAC address** : your rabbit's mac address (see below)
 
--   **Token d’API Violet** : token de l’api (voir plus bas)
+-   **API Token Purple** : API token (see below)
 
-En dessous vous retrouvez la liste des commandes :
+Below you find the list of orders :
 
--   le nom affiché sur le dashboard
+-   the name displayed on the dashboard
 
--   afficher : permet d’afficher la donnée sur le dashboard
+-   Pin up : allows to display the data on the dashboard
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   advanced configuration (small notched wheels) : Displays
+    the advanced configuration of the command (method
+    history, widget…)
 
--   Test: test the command
+-   Test : Used to test the command
 
-La liste des commandes est la suivante :
+The list of commands is as follows :
 
--   **Debout** : Permet de réveiller le lapin
+-   **Standing** : Wakes up the rabbit
 
--   **Redemarrer** : Permet de redémarrer le lapin
+-   **Restart** : Restart the rabbit
 
--   **Coucher** : Permet de dire au lapin d’aller se coucher
+-   **Sleep** : Lets tell the rabbit to go to bed
 
--   **Qualité de lair** : Donne la qualité de l’air (nécessite
-    l’activation du plugin correspondant dans openjabnab)
+-   **Air quality** : Gives air quality (requires
+    activation of the corresponding plugin in openjabnab)
 
--   **Ephéméride** : Donne les ephémérides (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Ephemeris** : Give ephemeris (requires activation of
+    corresponding plugin in openjabnab)
 
--   **Horloge parlante** : Donne l’heure (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Talking clock** : Gives the time (requires activation of the
+    corresponding plugin in openjabnab)
 
--   **Météo** : Donne la météo (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Weather** : Gives weather (requires plugin activation
+    correspondent in openjabnab)
 
--   **Dicton** : Donne un dicton (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Saying** : Give a saying (requires plugin activation
+    correspondent in openjabnab)
 
--   **Oreille gauche** : Permet de choisir la position de l’oreille
-    gauche (16 positions possibles)
+-   **Left ear** : Allows you to choose the position of the ear
+    left (16 positions possible)
 
--   **Oreille droite** : Permet de choisir la position de l’oreille
-    droite (16 positions possibles)
+-   **Right ear** : Allows you to choose the position of the ear
+    right (16 positions possible)
 
--   **Parle** : Permet de faire dire une phrase au lapin
+-   **Speak** : Lets say a sentence to the rabbit
 
-Récupérer l’adresse max et le token 
+Retrieve max address and token 
 ===================================
 
-Allez sur le site [openjabnab](http://openjabnab.fr/ojn_admin/index.php)
-puis connectez-vous à votre compte :
+Go to the website [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
+then log into your account :
 
 ![nabaztag4](../images/nabaztag4.png)
 
-Cliquez sur lapin :
+Click on rabbit :
 
 ![nabaztag5](../images/nabaztag5.png)
 
-Puis cliquez sur API :
+Then click on API :
 
 ![nabaztag6](../images/nabaztag6.png)
 
-Ici activez l’api violet et public et récupérez l’addresse mac ainsi que
-la clef api violet pour la mettre dans la configuration de votre lapin
-sur Jeedom
+Here activate the purple and public API and get the mac address as well as
+the purple API key to put it in the configuration of your rabbit
+on Jeedom
 
 Widget 
 ======
 
-Voici le widget obtenu après création de l’équipement :
+Here is the widget obtained after creation of the equipment :
 
 ![nabaztag7](../images/nabaztag7.png)
 
-Changelog détaillé :
+Changelog detailed :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

@@ -1,10 +1,10 @@
 Plugin allowing to execute scripts (shell, php, ruby…),
-d'informations sont indispensables à la bonne compréhension de requests, to retrieve information in XML or JSON.
+HTTP requests, to retrieve information in XML or JSON.
 
 Plugin configuration 
 =======================
 
-The configuration is very simple, after downloading the plugin, it
+The configuration is very simple, after downloading the Plugin, it
 you just activate it and that&#39;s it.
 
 ![script1](../images/script1.PNG)
@@ -16,11 +16,11 @@ Equipment configuration
 =============================
 
 Configuration of Script equipment is accessible from the menu
-plugin :
+Plugin :
 
 ![script2](../images/script2.PNG)
 
-This is what the Script plugin page looks like (here with already 1
+This is what the Script Plugin page looks like (here with already 1
 equipment) :
 
 ![script3](../images/script3.PNG)
@@ -45,7 +45,7 @@ Here you find all the configuration of your equipment :
 
 -   **Activate** : makes your equipment active
 
--   **Jeedom** : makes it visible on the dashboard
+-   **Visible** : makes it visible on the dashboard
 
 -   **Parent object** : indicates the parent object to which belongs
     equipment
@@ -55,7 +55,7 @@ Here you find all the configuration of your equipment :
 
 Below you find the list of orders :
 
--   **Last name** : This field contains the name you want to give to
+-   **Name** : This field contains the name you want to give to
     your order / information.
 
 -   **Icon** : This field allows you to associate an icon with your name (in
@@ -63,9 +63,9 @@ Below you find the list of orders :
 
 -   **Script type** :
 
-    -   The d'informations sont indispensables à la bonne compréhension de type : allows to send a request to a device
+    -   The HTTP type : allows to send a request to a device
         external without necessarily waiting for a return of this command.
-        The example which will serve as support for the d'informations sont indispensables à la bonne compréhension de type will be the
+        The example which will serve as support for the HTTP type will be the
         configuration of a request to a Vera to switch on
         a light.
 
@@ -84,9 +84,9 @@ Below you find the list of orders :
         support for type JSON will be the script configuration for
         interrogate Sickbeard (or XBMC).
 
--   **the type** and the **subtype**
+-   **the type** and the **Sub-type**
 
--   Field **request**
+-   Field **Request**
 
     -   This field must contain the query itself, or the path of the
         script if the field "type of script" is script. The button
@@ -96,7 +96,7 @@ Below you find the list of orders :
         > **Tip**
         >
         > This file is accessible in SSH
-        > in / usr / share / nginx / www / jeedom / plugins / script / core / resources /.
+        > in / usr / share / nginx / www / jeedom / Plugins / script / core / resources /.
         > FYI, the SSH command to assign www-data rights
         > to a file is : sudo chown
         > www-data:www-data NOMDUSCRIPT.EXTENSION. NOTE that for
@@ -116,7 +116,7 @@ Below you find the list of orders :
         > recognize the language associated with your file. CF :
         > Generality
 
-    -   The button **Remove** : allows to delete a file
+    -   The button **Delete** : allows to delete a file
         control.
 
     -   The button **Share** : one of the most important, and after
@@ -126,15 +126,15 @@ Below you find the list of orders :
 -   Field **Options** : Field with variable options depending on the choice
     script type.
 
--   **unit** : data unit (can be empty).
+-   **Unit** : data unit (can be empty).
 
 -   **min / max** : data bounds (may be empty).
 
--   **historicize** : allows to historize the data.
+-   **Historize** : allows to historize the data.
 
--   **pin up** : allows to display the data on the dashboard.
+-   **Pin up** : allows to display the data on the dashboard.
 
--   **event** : return in case of events. In the case of RFXcom
+-   **Event** : return in case of events. In the case of RFXcom
     this box must always be checked because you cannot query
     an RFXcom module.
 
@@ -145,7 +145,7 @@ Below you find the list of orders :
 -   **Lifetime cache** : allows to modify the lifetime of the cache
     (default 5 min).
 
-> **IMPORTANT**
+> **Important**
 >
 > Avoid as much as possible in the script path or in
 > the parameters of it special characters. The characters
@@ -187,7 +187,7 @@ above. The syntax is the same as for jquery.
 
 The option field has a "HTML file URL" field" : this field
 therefore contains the link to the machine hosting the HTML file in
-question.
+Question.
 
 The XML choice 
 ============
@@ -199,9 +199,9 @@ in.
 
 The option field has a "URL of the XML file" field" : this field
 therefore contains the link to the machine hosting the XML file in
-question.
+Question.
 
-> **IMPORTANT**
+> **Important**
 >
 > It is only possible to retrieve values, attributes do not
 > can be recovered.
@@ -216,20 +216,20 @@ value in.
 
 The option field has a "JSON file URL" field" : this field
 therefore contains the link to the machine hosting the JSON file in
-question.
+Question.
 
 HTTP example : Piloting a Vera 
 ==================================
 
 The example is based on a Vera and consists in driving a bulb
 dimmable. I&#39;m not going to dwell on how to drive a Vera
-by d'informations sont indispensables à la bonne compréhension de request, the TLD forum is filled with responses. Moreover,
+by HTTP request, the TLD forum is filled with responses. Moreover,
 the example corresponds to my type of material and will have to be adapted to
 your.
 
 > **Tip**
 >
-> A method for those who are groping for writing d'informations sont indispensables à la bonne compréhension de requests,
+> A method for those who are groping for writing HTTP requests,
 > first validate the syntax in your browser and only then
 > go to configuration under Jeedom. When an Action script doesn&#39;t
 > not working, switch to Info / Other script allows you to see the error
@@ -258,18 +258,18 @@ Let&#39;s go :
 
 Explanations :
 
--   Last name : 100% because we will turn on a light at full power
+-   Name : 100% because we will turn on a light at full power
 
--   Script type : d'informations sont indispensables à la bonne compréhension de
+-   Script type : HTTP
 
--   Vérifier dans la page Santé que la configuration réseau interne du : Action (it&#39;s an order)
+-   Type : Action (it&#39;s an order)
 
--   Sub type : fault
+-   Sub type : Default
 
 -   Request :
 
 ````
-d'informations sont indispensables à la bonne compréhension de://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
+HTTP://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
 ````
 
 > **Tip**
@@ -289,7 +289,7 @@ It is also possible to create a slider type command by putting the
 tag \ #slider \ # in the request :
 
 ````
-d'informations sont indispensables à la bonne compréhension de://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
+HTTP://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
 ````
 
 > **Tip**
@@ -304,23 +304,23 @@ HTTP example : Send notification to XBMC
 Goal : Send notification to XBMC when opening a door
 input.
 
--   Last name : PUSH XBMC
+-   Name : PUSH XBMC
 
--   Script type : d'informations sont indispensables à la bonne compréhension de
+-   Script type : HTTP
 
--   Vérifier dans la page Santé que la configuration réseau interne du : Action (it&#39;s an order)
+-   Type : Action (it&#39;s an order)
 
--   Subtype : fault
+-   Sub-type : Default
 
 -   Request :
 
 ````
-d'informations sont indispensables à la bonne compréhension de://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
+HTTP://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
 ````
 
 It&#39;s up to you to test this in a scenario for example !
 
-XBMC API [here] (d'informations sont indispensables à la bonne compréhension de://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
+XBMC API [here] (HTTP://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
 (only the fields marked "required" are compulsory)
 
 Goal : Send a notification to XBMC when the temperature drops
@@ -346,7 +346,7 @@ The nicest but not the easiest to explain.
 
 Prerequisites : know how to develop a script in php, python or ruby.
 
->**IMPORTANT**
+>**Important**
 >
 > The extension of your script must absolutely match its type. Ex .php for a php type. Indeed Jeedom is based on the extension of the script for the executable to launch (php if .php, python if .py ....)
 
@@ -382,7 +382,7 @@ recovery depends on the type of script used :
 Example :
 
 -   In the line :
-    /usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
+    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
     list, the argument "list" is a character string (fixed)
     retrieved from the php script using the following function
     \ $ argv \ [1 \] cf. : Google for more details on retrieving
@@ -392,7 +392,7 @@ Example :
     dynamic values from Jeedom.
 
 -   In the line :
-    /usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py
+    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/radio.py
     VOL * slider *, the argument "* slider *" is retrieved from this
     argv \ [2 \]. When jeedom runs the script, it
     will automatically replace * slider * with the value (numeric)
@@ -400,7 +400,7 @@ Example :
     parameters in Python.
 
 -   Stronger : Potentially, all the variables accessible by
-    Jeedom can be used by the script plugin :
+    Jeedom can be used by the script Plugin :
 
     -   You want to recover the value of the kitchen temperature
         to historicize it outside of Jeedom ?
@@ -458,7 +458,7 @@ Complex XML example
  </root>
  ````
 
-the syntax is :
+The syntax is :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de
 array row !
@@ -534,12 +534,12 @@ premium, not the tool !
 
 Access to this file is possible using the following URL :
 
-``d'informations sont indispensables à la bonne compréhension de://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
+``HTTP://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
 
 NOTE : XXXX is the API key number specific to each SICKBEARD.
 
-First of all, before launching into the configuration of the script plugin
-JSON, it is a question of correctly identifying the infos to recover., because
+First of all, before launching into the configuration of the script Plugin
+JSON, it is a Question of correctly identifying the infos to recover., because
 here we will integrate a notion of array in the returns.
 
 Validate the display of information from your browser (test
@@ -619,7 +619,7 @@ Here we will try to retrieve the last FML.
 
 First of all you have to configure the url :
 
-``d'informations sont indispensables à la bonne compréhension de://www.viedemerde.fr``
+``HTTP://www.viedemerde.fr``
 
 Then you have to find the "path" of the last FML. To do this,
 you have to go to the site then right click on the desired item then

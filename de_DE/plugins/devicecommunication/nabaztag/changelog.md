@@ -1,4 +1,8 @@
-# 13/08/2019
+# 29.03.2020
 
-- Support de PHP 7.3
+- Erhöhtes Timeout bei Anfragen
+
+# 2019.08.13
+
+- Unterstützung für PHP 7.3
 

@@ -1,8 +1,12 @@
-# 01/08/2019
+# 03/30/2020
 
-- PHP 7.3 support
+- Bugfix
 
-# 05/06/2018
+# 08/01/2019
+
+- Support for php 7.3
+
+# 06/05/2018
 
 - Improved security of the resource directory
 

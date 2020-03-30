@@ -1,120 +1,120 @@
-Plugin pour commander le Nabaztag.
+Plugin para ordenar el Nabaztag.
 
-Configuration 
+Configuración 
 =============
 
-Configuración del dispositivo
+Configuración del equipo 
 =============================
 
-Une fois le plugin installé et activé à partir du Market, on accède à la
-page du plugin Nabaztag par :
+Una vez que el complemento está instalado y activado desde Market, accede a
+Página del complemento Nabaztag por :
 
 ![nabaztag1](../images/nabaztag1.png)
 
-Vous retrouvez ici tous vos équipements Nabaztag :
+Aquí encontrarás todos tus equipos Nabaztag :
 
 ![nabaztag2](../images/nabaztag2.png)
 
-> **Tip**
+> **Punta**
 >
-> Comme à beaucoup d’endroit sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
+> abre un menú de acceso rápido (puedes
+> desde tu perfil siempre déjalo visible).
 
-Une fois un équipement sélectionné vous obtenez :
+Una vez que se selecciona un equipo, obtienes :
 
 ![nabaztag3](../images/nabaztag3.png)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Nabaztag** : nom de votre équipement Nabaztag
+-   **Nombre del equipo Nabaztag.** : nombre de su equipo Nabaztag
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
+-   **Objeto padre** : indica el objeto padre al que pertenece
     equipo
 
--   ** ** Categoría: categorías de equipos (que pueden pertenecer a
-    plusieurs catégories)
+-   **Categoría** : categorías de equipos (puede pertenecer a
+    categorías múltiples)
 
--   ** ** Activar: para que su equipo activo
+-   **Activar** : activa su equipo
 
--   Visible ** **: hace visible en el tablero de instrumentos
+-   **Visible** : lo hace visible en el tablero
 
--   **Adresse (openjabnab.fr ou @IP)** : adresse openjabnab ou IP (DNS)
-    de votre openjabnab si vous l’auto-hébergez
+-   **Dirección (openjabnab.fr o @IP)** : openjabnab o dirección IP (DNS)
+    su openjabnab si lo autohospeda
 
--   **Adresse MAC** : adresse mac de votre lapin (voir plus bas)
+-   **Dirección MAC** : la dirección mac de tu conejo (ver más abajo)
 
--   **Token d’API Violet** : token de l’api (voir plus bas)
+-   **API Token Purple** : Token API (ver más abajo)
 
-A continuación encontrará la lista de ordenes :
+A continuación encontrará la lista de pedidos. :
 
--   le nom affiché sur le dashboard
+-   el nombre que se muestra en el tablero
 
--   afficher : permet d’afficher la donnée sur le dashboard
+-   Mostrar : permite mostrar los datos en el tablero
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   configuración avanzada (ruedas con muescas pequeñas) : Muestra
+    La configuración avanzada del comando (método
+    historia, widget ...)
 
--   Prueba: prueba el comando
+-   Probar : Se usa para probar el comando
 
-La liste des commandes est la suivante :
+La lista de comandos es la siguiente :
 
--   **Debout** : Permet de réveiller le lapin
+-   **De pie** : Despierta el conejo
 
--   **Redemarrer** : Permet de redémarrer le lapin
+-   **Reiniciar** : Reinicia el conejo
 
--   **Coucher** : Permet de dire au lapin d’aller se coucher
+-   **Hora de acostarse** : Vamos a decirle al conejo que se vaya a la cama
 
--   **Qualité de lair** : Donne la qualité de l’air (nécessite
-    l’activation du plugin correspondant dans openjabnab)
+-   **Calidad del aire** : Da calidad del aire (requiere
+    activación del complemento correspondiente en openjabnab)
 
--   **Ephéméride** : Donne les ephémérides (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Efemérides** : Dar efemérides (requiere activación de
+    complemento correspondiente en openjabnab)
 
--   **Horloge parlante** : Donne l’heure (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Reloj parlante** : Da el tiempo (requiere la activación de
+    complemento correspondiente en openjabnab)
 
--   **Météo** : Donne la météo (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Tiempo** : Da tiempo (requiere la activación del complemento
+    corresponsal en openjabnab)
 
--   **Dicton** : Donne un dicton (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Diciendo** : Dar un dicho (requiere la activación del complemento
+    corresponsal en openjabnab)
 
--   **Oreille gauche** : Permet de choisir la position de l’oreille
-    gauche (16 positions possibles)
+-   **Oreja izquierda** : Le permite elegir la posición del oído.
+    izquierda (16 posiciones posibles)
 
--   **Oreille droite** : Permet de choisir la position de l’oreille
-    droite (16 positions possibles)
+-   **Oreja derecha** : Le permite elegir la posición del oído.
+    derecha (16 posiciones posibles)
 
--   **Parle** : Permet de faire dire une phrase au lapin
+-   **Hablar** : Digamos una oración al conejo
 
-Récupérer l’adresse max et le token 
+Recuperar dirección máxima y token 
 ===================================
 
-Allez sur le site [openjabnab](http://openjabnab.fr/ojn_admin/index.php)
-puis connectez-vous à votre compte :
+Vaya al sitio web [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
+luego inicie sesión en su cuenta :
 
 ![nabaztag4](../images/nabaztag4.png)
 
-Cliquez sur lapin :
+Click en conejo :
 
 ![nabaztag5](../images/nabaztag5.png)
 
-Puis cliquez sur API :
+Luego haga clic en API :
 
 ![nabaztag6](../images/nabaztag6.png)
 
-Ici activez l’api violet et public et récupérez l’addresse mac ainsi que
-la clef api violet pour la mettre dans la configuration de votre lapin
-sur Jeedom
+Aquí active la API púrpura y pública y obtenga la dirección mac, así como
+la clave API púrpura para ponerlo en la configuración de tu conejo
+en Jeedom
 
-Widget 
+Reproductor 
 ======
 
-Voici le widget obtenu après création de l’équipement :
+Aquí está el widget obtenido después de la creación del equipo. :
 
 ![nabaztag7](../images/nabaztag7.png)
 
-Changelog détaillé :
+Registro de cambios detallado :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

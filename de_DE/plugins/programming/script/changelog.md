@@ -1,6 +1,10 @@
+# 30.03.2020
+
+- Fehlerbehebungen
+
 # 2019.01.08
 
-- PHP 7.3-Unterstützung
+- Unterstützung für PHP 7.3
 
 # 2018.05.06
 
@@ -12,7 +16,7 @@
 - Hinzufügen einer Nachricht, wenn der JSON ungültig oder nicht decodierbar ist
 - Hinzufügen eines Feldes zum Konfigurieren von Befehlen für ausgewählte Typen
 
-# 2018.04.25
+# 25.04.2008
 
 - Aktualisieren des Dokuments
 - Durch das Speichern des Skripts wird das Bearbeitungsfenster nicht mehr geschlossen

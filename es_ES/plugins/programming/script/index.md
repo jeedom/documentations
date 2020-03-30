@@ -1,7 +1,7 @@
 Plugin que permite ejecutar scripts (shell, php, ruby ​​...),
-solicitudes http, para recuperar información en XML o JSON.
+solicitudes Http, para recuperar información en XML o JSON.
 
-Configuración del complemento 
+Configuración del Plugin 
 =======================
 
 La configuración es muy simple, después de descochegar el complemento,
@@ -16,7 +16,7 @@ Configuración del equipo
 =============================
 
 Se puede acceder a la configuración del equipo Guión desde el menú
-plugin :
+Plugin :
 
 ![script2](../images/script2.PNG)
 
@@ -38,7 +38,7 @@ en el equipo que obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Apellidobre del equipo de script** : nombre de su equipo de script
+-   **Nombrebre del equipo de script** : nombre de su equipo de script
 
 -   **Categoría** : categorías de equipos (puede pertenecer a
     categorías múltiples)
@@ -55,7 +55,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 A continuación encontrará la lista de pedidos. :
 
--   **Apellido** : Este campo contiene el nombre que desea dar a
+-   **Nombre** : Este campo contiene el nombre que desea dar a
     su pedido / información.
 
 -   **Icono** : Este campo le permite asociar un icono con su nombre (en
@@ -63,9 +63,9 @@ A continuación encontrará la lista de pedidos. :
 
 -   **Puntao de script** :
 
-    -   El tipo http : permite enviar una solicitud a un dispositivo
+    -   El tipo Http : permite enviar una solicitud a un dispositivo
         externo sin necesariamente esperar el regreso de este comando.
-        El ejemplo que servirá de soporte para el tipo http será el
+        El ejemplo que servirá de soporte para el tipo Http será el
         configuración de una solicitud a un Vera para encender
         una luz.
 
@@ -84,19 +84,19 @@ A continuación encontrará la lista de pedidos. :
         la compatibilidad con el tipo JSON será la configuración del script para
         interrogar a Sickbeard (o XBMC).
 
--   **el tipo** y el **subtipo**
+-   **el tipo** y el **Sub-tipo**
 
--   El campo **petición**
+-   El campo **Petición**
 
     -   Este campo debe contener la consulta en sí o la ruta de acceso de
         script si el campo "tipo de script" es script. El botón
-        "recorrer" : le permite seleccionar el archivo contenido en el
+        "Recorrer" : le permite seleccionar el archivo contenido en el
         archivo interno en Jeedom.
 
         > **Punta**
         >
         > Este archivo es accesible en SSH
-        > en / usr / share / nginx / www / jeedom / plugins / script / core / resources /.
+        > en / usr / share / nginx / www / jeedom / Plugins / script / core / resources /.
         > FYI, el comando SSH para asignar derechos de datos www
         > a un archivo es : vestido de sudo
         > www-data:www-data NOMDUSCRIPT.EXTENSION. Tenga en cuenta que para
@@ -116,7 +116,7 @@ A continuación encontrará la lista de pedidos. :
         > reconocer el idioma asociado con su archivo. CF :
         > Generalidad
 
-    -   El botón **Remove** : permite eliminar un archivo
+    -   El botón **Borrar** : permite eliminar un archivo
         de encochego.
 
     -   El botón **Compartir, repartir** : uno de los más importantes, y después
@@ -126,15 +126,15 @@ A continuación encontrará la lista de pedidos. :
 -   El campo **Opciones** : Campo con opciones variables dependiendo de la elección.
     tipo de script.
 
--   **unidad** : unidad de datos (puede estar vacía).
+-   **Unidad** : unidad de datos (puede estar vacía).
 
 -   **min / max** : límites de datos (pueden estar vacíos).
 
--   **historizar** : permite historizar los datos.
+-   **Guardar historial** : permite historizar los datos.
 
--   **visualización** : permite mostrar los datos en el tablero.
+-   **Mostrar** : permite mostrar los datos en el tablero.
 
--   **evento** : volver en caso de eventos. En el caso de RFXcom
+-   **Evento** : volver en caso de eventos. En el caso de RFXcom
     esta casilla siempre debe estar marcada porque no puede consultar
     un módulo RFXcom.
 
@@ -187,7 +187,7 @@ anteriormente. La sintaxis es la misma que para jquery.
 
 El campo de opción tiene un campo "URL de archivo HTML"" : este campo
 por lo tanto contiene el enlace a la máquina que aloja el archivo HTML en
-pregunta.
+Pregunta.
 
 La elección XML 
 ============
@@ -199,7 +199,7 @@ en.
 
 El campo de opción tiene un campo "URL del archivo XML"" : este campo
 por lo tanto contiene el enlace a la máquina que aloja el archivo XML en
-pregunta.
+Pregunta.
 
 > **Importante**
 >
@@ -216,20 +216,20 @@ valor en.
 
 El campo de opción tiene un campo "URL de archivo JSON"" : este campo
 por lo tanto contiene el enlace a la máquina que aloja el archivo JSON en
-pregunta.
+Pregunta.
 
 Ejemplo HTTP : Pilotando una Vera 
 ==================================
 
 El ejemplo se basa en una Vera y consiste en conducir una bombilla.
 regulable. No me detendré en cómo conducir un Vera
-por solicitud http, el foro de TLD está lleno de respuestas. De más,
+por solicitud Http, el foro de TLD está lleno de respuestas. De más,
 el ejemplo corresponde a mi tipo de material y tendrá que adaptarse a
 suyo.
 
 > **Punta**
 >
-> Un método para quienes buscan a tientas escribir solicitudes http,
+> Un método para quienes buscan a tientas escribir solicitudes Http,
 > primero valide la sintaxis en su navegador y solo entonces
 > ir a la configuración bajo Jeedom. Cuando un script de acción no lo hace
 > no funciona, cambiar a Info / Otro script le permite ver el error
@@ -258,18 +258,18 @@ Vamos a ir :
 
 Explicaciones :
 
--   Apellido : 100% porque prenderemos una luz a plena potencia
+-   Nombre : 100% porque prenderemos una luz a plena potencia
 
--   Puntao de script : http
+-   Puntao de script : Http
 
 -   Puntao : Acción (es una orden)
 
--   Subtipo : culpa
+-   Subtipo : Por defecto
 
 -   Petición :
 
 ````
-http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
+Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
 ````
 
 > **Punta**
@@ -289,7 +289,7 @@ También es posible crear un comando de tipo deslizador colocando el
 etiqueta \ #slider \ # en la solicitud :
 
 ````
-http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
+Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
 ````
 
 > **Punta**
@@ -304,23 +304,23 @@ Ejemplo HTTP : Enviar notificación a XBMC
 Objetivo : Enviar notificación a XBMC al abrir una puerta
 entrada.
 
--   Apellido : EMPUJE XBMC
+-   Nombre : EMPUJE XBMC
 
--   Puntao de script : http
+-   Puntao de script : Http
 
 -   Puntao : Acción (es una orden)
 
--   Subtipo : culpa
+-   Sub-tipo : Por defecto
 
 -   Petición :
 
 ````
-http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
+Http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
 ````
 
 Depende de usted probar esto en un escenario, por ejemplo !
 
-API XBMC [aquí] (http://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
+API XBMC [aquí] (Http://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
 (solo los campos marcados como "obligatorios" son obligatorios)
 
 Objetivo : Enviar una notificación a XBMC cuando la temperatura baje
@@ -382,7 +382,7 @@ la recuperación depende del tipo de script utilizado :
 Ejemplo :
 
 -   En la linea :
-    /usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
+    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
     lista, el argumento "lista" es una cadena de cocheacteres (fija)
     recuperado del script php usando la siguiente función
     \ $ argv \ [1 \] cf. : Google para más detalles sobre la recuperación
@@ -392,7 +392,7 @@ Ejemplo :
     valores dinámicos de Jeedom.
 
 -   En la linea :
-    /usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py
+    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/radio.py
     VOL * slider *, el argumento "* slider *" se recupera de este
     argv \ [2 \]. Cuando jeedom ejecuta el script,
     reemplazará automáticamente * deslizador * con el valor (numérico)
@@ -458,7 +458,7 @@ Ejemplo complejo de XML
  </root>
  ````
 
-la sintaxis es :
+La sintaxis es :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de
 fila de matriz !
@@ -534,7 +534,7 @@ premium, no la herramienta !
 
 El acceso a este archivo es posible utilizando la siguiente URL :
 
-``http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
+``Http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
 
 Nota : XXXX es el número de clave API específico de cada SICKBEARD.
 
@@ -619,7 +619,7 @@ Aquí intentaremos recuperar el último FML.
 
 Primero que nada tienes que configurar la url :
 
-``http://www.viedemerde.fr``
+``Http://www.viedemerde.fr``
 
 Entonces tienes que encontrar el "camino" de la última FML. Para hacer esto,
 tienes que ir al sitio y luego hacer clic derecho en el elemento deseado y luego

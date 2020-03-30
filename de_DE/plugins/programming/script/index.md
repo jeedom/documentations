@@ -1,5 +1,5 @@
 Plugin zum Ausführen von Skripten (Shell, PHP, Ruby…),
-http-Anforderungen zum Abrufen von Informationen in XML oder JSON.
+Http-Anforderungen zum Abrufen von Informationen in XML oder JSON.
 
 Plugin Konfiguration 
 =======================
@@ -43,7 +43,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Kategorie** : Gerätekategorien (es kann gehören
     mehrere Kategorien)
 
--   **Activate** : macht Ihre Ausrüstung aktiv
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
@@ -63,9 +63,9 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 
 -   **Skripttyp** :
 
-    -   Der http-Typ : ermöglicht das Senden einer Anfrage an ein Gerät
+    -   Der Http-Typ : ermöglicht das Senden einer Anfrage an ein Gerät
         extern, ohne unbedingt auf die Rückgabe dieses Befehls zu warten.
-        Das Beispiel, das als Unterstützung für den http-Typ dient, ist das
+        Das Beispiel, das als Unterstützung für den Http-Typ dient, ist das
         Konfiguration einer Anfrage an eine Vera zum Einschalten
         ein Licht.
 
@@ -84,7 +84,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
         Unterstützung für Typ JSON ist die Skriptkonfiguration für
         befragen Sickbeard (oder XBMC).
 
--   **der Typ** und die **Unterart**
+-   **der Typ** und die **Untertyp**
 
 -   Das Feld **Petition**
 
@@ -99,7 +99,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
         > in / usr / share / nginx / www / jeedom / Plugins / script / core / resources /.
         > Zu Ihrer Information, der SSH-Befehl zum Zuweisen von WWW-Datenrechten
         > zu einer Datei ist : Sudo Chown
-        > www-data:www-data NOMDUSCRIPT.EXTENSION. Beachten Sie, dass für
+        > www-Daten:www-Daten NOMDUSCRIPT.EXTENSION. Beachten Sie, dass für
         > Führen Sie ein Skript aus, es muss über WWW-Datenrechte verfügen.
 
     -   Die Schaltfläche **Bearbeiten** : Ermöglicht das Bearbeiten mit einem Editor
@@ -113,10 +113,10 @@ Nachfolgend finden Sie die Liste der Bestellungen :
         > Vergessen Sie nicht, den Namen der Datei sowie deren Namen einzugeben
         > volle Ausdehnung auf Schmerzen, Ihr großartiges Skript nicht zu sehen
         > nicht funktionieren. Ohne Erweiterung wird Jeedom es nicht wissen
-        > Erkennen Sie die mit Ihrer Datei verknüpfte Sprache. CF :
+        > Erkennen Sie die mit Ihrer Datei verknüpfte Sprache. CF. :
         > Allgemeinheit
 
-    -   Die Schaltfläche **Entfernen** : ermöglicht das Löschen einer Datei
+    -   Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Datei
         der Ordnung.
 
     -   Die Schaltfläche **Aktie** : eines der wichtigsten und danach
@@ -126,11 +126,11 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 -   Das Feld **Optionen** : Feld mit variablen Optionen je nach Auswahl
     Skripttyp.
 
--   **Einheit** : Dateneinheit (kann leer sein).
+-   **Unit** : Dateneinheit (kann leer sein).
 
 -   **min / max** : Datengrenzen (können leer sein).
 
--   **historisieren** : ermöglicht das Historisieren der Daten.
+-   **Chronik** : ermöglicht das Historisieren der Daten.
 
 -   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
 
@@ -223,13 +223,13 @@ HTTP-Beispiel : Eine Vera steuern
 
 Das Beispiel basiert auf einer Vera und besteht darin, eine Glühbirne anzutreiben
 dimmbar. Ich werde nicht darüber nachdenken, wie man eine Vera fährt
-Auf http-Anfrage wird das TLD-Forum mit Antworten gefüllt. Darüber hinaus,
+Auf Http-Anfrage wird das TLD-Forum mit Antworten gefüllt. Darüber hinaus,
 Das Beispiel entspricht meiner Materialart und muss angepasst werden
 Ihre.
 
 > **Spitze**
 >
-> Eine Methode für diejenigen, die nach dem Schreiben von http-Anfragen suchen,
+> Eine Methode für diejenigen, die nach dem Schreiben von Http-Anfragen suchen,
 > Überprüfen Sie zuerst die Syntax in Ihrem Browser und erst dann
 > Gehen Sie zur Konfiguration unter Jeedom. Wenn ein Aktionsskript dies nicht tut
 > funktioniert nicht, wechseln Sie zu Info / Anderes Skript, damit Sie den Fehler sehen können
@@ -260,16 +260,16 @@ Erklärungen :
 
 -   Name : 100%, weil wir ein Licht mit voller Leistung einschalten
 
--   Skripttyp : http
+-   Skripttyp : Http
 
 -   Typ : Aktion (es ist eine Bestellung)
 
--   Untertyp : Fehler
+-   Untertyp : Standard
 
 -   Petition :
 
 ````
-http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
+Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
 ````
 
 > **Spitze**
@@ -289,7 +289,7 @@ Es ist auch möglich, einen Befehl vom Typ Schieberegler zu erstellen, indem Sie
 tag \ #slider \ # in der Anfrage :
 
 ````
-http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
+Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
 ````
 
 > **Spitze**
@@ -306,21 +306,21 @@ Eingang.
 
 -   Name : XBMC DRÜCKEN
 
--   Skripttyp : http
+-   Skripttyp : Http
 
 -   Typ : Aktion (es ist eine Bestellung)
 
--   Unterart : Fehler
+-   Untertyp : Standard
 
 -   Petition :
 
 ````
-http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
+Http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
 ````
 
 Es liegt an Ihnen, dies beispielsweise in einem Szenario zu testen !
 
-XBMC-API [hier] (http://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
+XBMC-API [hier] (Http://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
 (nur die mit "erforderlich" gekennzeichneten Felder sind obligatorisch)
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn die Temperatur sinkt
@@ -534,7 +534,7 @@ Premium, nicht das Werkzeug !
 
 Der Zugriff auf diese Datei ist über die folgende URL möglich :
 
-``http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
+``Http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
 
 Notiz : XXXX ist die für jeden SICKBEARD spezifische API-Schlüsselnummer.
 
@@ -619,7 +619,7 @@ Hier werden wir versuchen, die letzte FML abzurufen.
 
 Zunächst müssen Sie die URL konfigurieren :
 
-``http://www.viedemerde.fr``
+``Http://www.viedemerde.fr``
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Um dies zu tun,
 Sie müssen zur Site gehen und dann mit der rechten Maustaste auf das gewünschte Element klicken

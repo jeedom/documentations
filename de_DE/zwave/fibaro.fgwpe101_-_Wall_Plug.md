@@ -46,7 +46,7 @@ Funktionen
 
 -   Contrôle à micro-chips.
 
--   Élément d\`exécution: relais.
+-   Élément d\`exécution: Relais.
 
 -   Mesure de puissance active du courant et de l\`énergie électrique
     du récepteur.

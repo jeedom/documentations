@@ -1,120 +1,120 @@
-Plugin pour commander le Nabaztag.
+Plugin um den Nabaztag zu bestellen.
 
-Konfiguration
+Konfiguration 
 =============
 
-Gerätekonfiguration
+Gerätekonfiguration 
 =============================
 
-Une fois le plugin installé et activé à partir du Market, on accède à la
-page du plugin Nabaztag par :
+Sobald das Plugin über den Markt installiert und aktiviert ist, greifen Sie auf das zu
+Nabaztag Plugin Seite von :
 
 ![nabaztag1](../images/nabaztag1.png)
 
-Vous retrouvez ici tous vos équipements Nabaztag :
+Hier finden Sie alle Ihre Nabaztag-Geräte :
 
 ![nabaztag2](../images/nabaztag2.png)
 
-> **Tip**
+> **Spitze**
 >
-> Comme à beaucoup d’endroit sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Platzieren Sie wie an vielen Stellen in Jeedom die Maus ganz links
+> ruft ein Schnellzugriffsmenü auf (Sie können
+> von deinem Profil immer sichtbar lassen).
 
-Une fois un équipement sélectionné vous obtenez :
+Sobald ein Gerät ausgewählt ist, erhalten Sie :
 
 ![nabaztag3](../images/nabaztag3.png)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Nabaztag** : nom de votre équipement Nabaztag
+-   **Name der Nabaztag-Ausrüstung** : Name Ihrer Nabaztag-Ausrüstung
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+-   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories)
+-   **Kategorie** : Gerätekategorien (es kann gehören
+    mehrere Kategorien)
 
--   **Aktivieren**: auf Ihre aktiven Geräte machen
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
--   **Adresse (openjabnab.fr ou @IP)** : adresse openjabnab ou IP (DNS)
-    de votre openjabnab si vous l’auto-hébergez
+-   **Adresse (openjabnab.fr oder @IP)** : Openjabnab oder IP-Adresse (DNS)
+    Ihr Openjabnab, wenn Sie es selbst hosten
 
--   **Adresse MAC** : adresse mac de votre lapin (voir plus bas)
+-   **MAC-Adresse** : Mac-Adresse Ihres Kaninchens (siehe unten)
 
--   **Token d’API Violet** : token de l’api (voir plus bas)
+-   **API-Token Lila** : API-Token (siehe unten)
 
-Im unteren Bereich finden sie eine Liste der Befehle :
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   Der Name, der auf dem Armaturenbrett angezeigt wird
+-   Der im Dashboard angezeigte Name
 
--   afficher : permet d’afficher la donnée sur le dashboard
+-   Anzeige : ermöglicht die Anzeige der Daten im Dashboard
 
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Konfiguration des Befehls anzuzeigen (Methode der
-    Archivierung, Widget ...)
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
+    die erweiterte Konfiguration des Befehls (Methode
+    Geschichte, Widget…)
 
--   Test: prüft den Befehl
+-   Test : Wird zum Testen des Befehls verwendet
 
-La liste des commandes est la suivante :
+Die Liste der Befehle lautet wie folgt :
 
--   **Debout** : Permet de réveiller le lapin
+-   **Stehend** : Weckt das Kaninchen auf
 
--   **Redemarrer** : Permet de redémarrer le lapin
+-   **Neu starten** : Starten Sie das Kaninchen neu
 
--   **Coucher** : Permet de dire au lapin d’aller se coucher
+-   **Schlafenszeit** : Sagen wir dem Kaninchen, er soll ins Bett gehen
 
--   **Qualité de lair** : Donne la qualité de l’air (nécessite
-    l’activation du plugin correspondant dans openjabnab)
+-   **Luftqualität** : Gibt Luftqualität (erfordert
+    Aktivierung des entsprechenden Plugins in openjabnab)
 
--   **Ephéméride** : Donne les ephémérides (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Ephemeride** : Geben Sie Ephemeride (erfordert Aktivierung von
+    entsprechendes Plugin in openjabnab)
 
--   **Horloge parlante** : Donne l’heure (nécessite l’activation du
-    plugin correspondant dans openjabnab)
+-   **Sprechende Uhr** : Gibt die Zeit an (erfordert die Aktivierung des
+    entsprechendes Plugin in openjabnab)
 
--   **Météo** : Donne la météo (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Wetter** : Gibt Wetter (erfordert Plugin-Aktivierung
+    Korrespondent in openjabnab)
 
--   **Dicton** : Donne un dicton (nécessite l’activation du plugin
-    correspondant dans openjabnab)
+-   **Sagen** : Geben Sie ein Sprichwort (erfordert Plugin-Aktivierung
+    Korrespondent in openjabnab)
 
--   **Oreille gauche** : Permet de choisir la position de l’oreille
-    gauche (16 positions possibles)
+-   **Linkes Ohr** : Hier können Sie die Position des Ohrs auswählen
+    links (16 Positionen möglich)
 
--   **Oreille droite** : Permet de choisir la position de l’oreille
-    droite (16 positions possibles)
+-   **Rechtes Ohr** : Hier können Sie die Position des Ohrs auswählen
+    rechts (16 Positionen möglich)
 
--   **Parle** : Permet de faire dire une phrase au lapin
+-   **Sprich** : Sagen wir dem Kaninchen einen Satz
 
-Récupérer l’adresse max et le token 
+Maximale Adresse und Token abrufen 
 ===================================
 
-Allez sur le site [openjabnab](http://openjabnab.fr/ojn_admin/index.php)
-puis connectez-vous à votre compte :
+Gehen Sie zur Website [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
+Melden Sie sich dann in Ihrem Konto an :
 
 ![nabaztag4](../images/nabaztag4.png)
 
-Cliquez sur lapin :
+Klicken Sie auf Kaninchen :
 
 ![nabaztag5](../images/nabaztag5.png)
 
-Puis cliquez sur API :
+Klicken Sie dann auf API :
 
 ![nabaztag6](../images/nabaztag6.png)
 
-Ici activez l’api violet et public et récupérez l’addresse mac ainsi que
-la clef api violet pour la mettre dans la configuration de votre lapin
-sur Jeedom
+Aktivieren Sie hier die lila und öffentliche API und erhalten Sie die Mac-Adresse sowie
+den lila API-Schlüssel, um ihn in die Konfiguration Ihres Kaninchens zu integrieren
+auf Jeedom
 
 Widget 
 ======
 
-Voici le widget obtenu après création de l’équipement :
+Hier ist das Widget, das nach dem Erstellen der Ausrüstung erhalten wurde :
 
 ![nabaztag7](../images/nabaztag7.png)
 
-Changelog détaillé :
+Changelog detailliert :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>
