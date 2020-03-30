@@ -14,7 +14,7 @@ Préparation avant migration
 > les prérequis de mise à jour, la sauvegarde und la récupération
 > d'informations sont indispensables à la bonne compréhension de
 > l'opération à mener. Vous abstenir de lire cundte documentation peut
-> entraîner des opérations destructives auf votre installation. Wenn du
+> entraîner des opérations destructives auf Ihre installation. Wenn du
 > ne comprenez pas un point, n'hésitez pas à poser des questions auf le
 > forum avant de commencer la procédure !
 
@@ -30,11 +30,11 @@ Préparation avant migration
 > Pour une meilleure lecture und compréhension de ce tutoriel, voici les
 > termes utilisés :\.
 > \.
-> - **Jeedom Cible** : Serveur (votre ancien Jeedom Maître) qui
+> - **Jeedom Cible** : Serveur (Ihre ancien Jeedom Maître) qui
 > centralise les équipements du/des **Jeedom(s) Quelle(s)**\.
 > Les copies d'écran auf fond noir correspondent au **Jeedom Cible**.\.
 > \.
-> - **Jeedom Quelle** : Serveur (votre/vos ancien(s) Jeedom Sklave(s))
+> - **Jeedom Quelle** : Serveur (Ihre/vos ancien(s) Jeedom Sklave(s))
 > qui remonte vos équipements auf le **Jeedom Cible**.\.
 > \.
 > - Les notions de **Jeedom Maître** und **Jeedom Sklave** ne sont plus
@@ -66,13 +66,13 @@ Mises à jour und Vérification de la Configuration
 Rassemblement des informations utiles 
 -------------------------------------
 
-En fonction des plugins installés auf votre **Jeedom Sklave**, Er ist
+En fonction des plugins installés auf Ihre **Jeedom Sklave**, Er ist
 nécessaire de récupérer les informations suivantes :
 
 ### Plugin Zwave 
 
 -   Dans la page santé du plugin Zwave auf le **Jeedom Maître**, Wählen
-    votre **Sklave** dans le menu déroulant und faire une copie d'écran,
+    Ihre **Sklave** dans le menu déroulant und faire une copie d'écran,
     ceci afin de disposer d'une liste des équipements qui viennent
     davon.
 
@@ -81,7 +81,7 @@ nécessaire de récupérer les informations suivantes :
 
 -   Récupérer le fichier Zwcfg : *Plugins ⇒ Gestion des Plugins ⇒
     Z-wave*. Cliquer auf le bouton rouge *Zwcfg* und copier le contenu
-    dans un fichier texte auf votre ordinateur.
+    dans un fichier texte auf Ihre ordinateur.
 
 ### Plugin RFXcom 
 
@@ -98,13 +98,13 @@ Sauvegardes préventives
 
 -   Faire une [sauvegarde
     Jeedom](https://jeedom.github.io/documentation/core/fr_FR/doc-core-backup.html)
-    de votre **Jeedom Maître** und de votre (vos) **Jeedom Sklave(s)**
-    und récupérer celle(s)-ci auf votre PC/NAS…​.
+    de Ihre **Jeedom Maître** und de Ihre (vos) **Jeedom Sklave(s)**
+    und récupérer celle(s)-ci auf Ihre PC/NAS…​.
 
 -   Faire une [sauvegarde
     SD/Disque](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
-    de votre **Jeedom Maître** und de votre (vos) **Jeedom Sklave(s)**
-    und les récupérer auf votre PC/NAS…​.
+    de Ihre **Jeedom Maître** und de Ihre (vos) **Jeedom Sklave(s)**
+    und les récupérer auf Ihre PC/NAS…​.
 
 Migration 
 =========
@@ -117,7 +117,7 @@ Migration
 Installer und activer le plugin "Jeedom Link" auf le **Jeedom Cible** (ancien Maître). 
 -------------------------------------------------------------------------------------
 
-Sur votre **Jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
+Sur Ihre **Jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
@@ -129,12 +129,12 @@ Installation du **Jeedom Quelle** :
 > si Sie disposez d'un Raspberry Pi supplémentaire und d'une autre carte
 > SD, Sie pouvez procéder à une migration un protocole après l'autre en
 > installant un nouveau **Jeedom Quelle** en parallèle sans avoir à
-> toucher à votre **Jeedom Sklave** existant. En déplaçant évidemment
+> toucher à Ihre **Jeedom Sklave** existant. En déplaçant évidemment
 > au fur und à meaufe les éventuels contrôleurs de l'un à l'autre.
 
 > **Warnung**
 >
-> Wenn du utiliser votre RaspberryPi existant, veuillez être certain
+> Wenn du utiliser Ihre RaspberryPi existant, veuillez être certain
 > d'avoir suivi le chapitre sauvegarde de cundte documentation.
 
 > **Notiz**
@@ -145,7 +145,7 @@ Installation du **Jeedom Quelle** :
 > facilement si besoin.
 
 -   Installer un nouveau Jeedom auf une nouvelle carte SD (Que cela soit
-    pour mundtre dans votre **Jeedom Sklave** existant ou pour un
+    pour mundtre dans Ihre **Jeedom Sklave** existant ou pour un
     nouveau Raspberry Pi) en suivant la [documentation
     d'installation](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html).
 
@@ -161,7 +161,7 @@ Configuration du Jeedom Quelle
 -   Changer le mot de passe de l'utilisateur admin ou/und configurer un
     nouvel utilisateur.
 
--   Configurer votre compte Jeedom Markund (*Configuration ⇒ Mises à jour
+-   Configurer Ihre compte Jeedom Markund (*Configuration ⇒ Mises à jour
     und fichiers ⇒ onglund "Markund"*). Cliquer auf tester après avoir
     sauvegardé, pour valider la saisie de vos identifiants
     Jeedom Markund).
@@ -176,7 +176,7 @@ Configuration du Jeedom Quelle
     fois que les dépendances und les démons éventuels sont OK).
 
 -   Recréer l'arborescence des objunds (juste ceux qui vont Sie
-    être utiles) du **Jeedom Cible** (Ancien Maître) auf votre nouveau
+    être utiles) du **Jeedom Cible** (Ancien Maître) auf Ihre nouveau
     **Jeedom Quelle** (Ancien Sklave).
 
 Configuration des équipements auf le **Jeedom Quelle** 
@@ -184,7 +184,7 @@ Configuration des équipements auf le **Jeedom Quelle**
 
 Pour procéder à l'envoi d'un équipement présent auf le **Jeedom Quelle**
 zu le **Jeedom Cible** via le plugin "Jeedom Link", Er ist nécessaire
-que ce dernier soit déjà opérationnel auf votre nouveau **Jeedom
+que ce dernier soit déjà opérationnel auf Ihre nouveau **Jeedom
 Quelle**.
 
 > **Notiz**
@@ -206,16 +206,16 @@ Quelle**.
 ### Plugin Zwave : 
 
 -   Cliquer auf le bouton "Synchroniser" afin de récupérer les modules
-    associés à votre contrôleur. (Ils sont gardés dans la mémoire
+    associés à Ihre contrôleur. (Ils sont gardés dans la mémoire
     davon)
 
 -   Remplacer le fichier *Zwcfg* : *Plugins ⇒ Gestion des Plugins ⇒
     Z-wave*. Cliquer auf le bouton rouge *Zwcfg* und coller le contenu du
-    fichier texte précédemment créé auf votre ordinateur. *Sauvegarder
+    fichier texte précédemment créé auf Ihre ordinateur. *Sauvegarder
     les changements*.
 
 -   Renommer vos modules und les placer dans les objunds souhaités en Sie
-    aidant de votre mémo de migration.
+    aidant de Ihre mémo de migration.
 
 ### Plugin Rfxcom : 
 
@@ -227,14 +227,14 @@ Quelle**.
     ce type.
 
 -   Renommer vos équipements und les placer dans les objunds souhaités en
-    Sie aidant de votre mémo de migration.
+    Sie aidant de Ihre mémo de migration.
 
 #### Actionneurs, prises, …​. : 
 
 -   Ajouter un nouvel équipement.
 
 -   Définir le nom, l'ID, l'objund parent, le type d'équipement und le
-    modèle en Sie aidant de votre mémo de migration.
+    modèle en Sie aidant de Ihre mémo de migration.
 
 -   Recommencer pour tous vos équipements de ce type.
 
@@ -357,7 +357,7 @@ Recopie des configurations avancées des commandes
 > récupérer la configuration avancée.
 
 -   Pas de solution facile à ce niveau, il faudra avoir deux
-    onglunds/fenêtres d'ouverts auf votre navigateur.
+    onglunds/fenêtres d'ouverts auf Ihre navigateur.
 
 -   Ouvrir les commandes des équipements de l'ancien **Sklave** dans un
     onglund (Jeedom Cible).

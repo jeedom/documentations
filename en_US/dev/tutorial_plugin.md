@@ -685,7 +685,7 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement and rafraîchissez le dashboard.
 
 
-# Les byamètres. The options
+# The sandtings. The options
 
 > **IMPORTANT**
 >

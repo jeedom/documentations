@@ -1,26 +1,26 @@
 # 01/08/2019
 
-- Support de PHP 7.3
+- PHP 7.3 support
 
 # 05/06/2018
 
-- Amélioration de la sécurité du répertoire ressources
+- Improved security of the resource directory
 
-# 25/05/2018
+# 05/25/2018
 
-- Amélioration de l'interface
-- Ajout d'un message si le json est invalide ou non décodable
-- Ajout d'un champs pour configurer les commandes de type select
+- Improved interface
+- Adding a message if the json is invalid or not decodable
+- Addition of a field to configure select type commands
 
-# 25/04/2018
+# 04/25/2018
 
-- Mise à jour de la doc
-- La sauvegarde du script ne ferme plus la fenetre d'édition de celui-ci
+- Updating the doc
+- Saving the script no longer closes its editing window
 
-# 30/03/2018
+# 03/30/2018
 
-- Correction de la perte de l'icone
+- Correction of the loss of the icon
 
-# 13/03/2018
+# 03/13/2018
 
-- Correction de bugs sur le refresh automatique des commandes
+- Correction of bugs on the automatic refresh of orders

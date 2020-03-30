@@ -150,7 +150,7 @@ inclusion référez-vous à cette
 > **Importante**
 >
 > Ce module est capricieux à l'inclusion. Lors d'une première inclusion
-> réveillez toujours le module juste après l'inclusion. Pour ce faire
+> réveillez toujours le module juste après l'inclusion. Para hacer esto
 > laisser le switch 1 en position ON puis avec la molette mettez vous en
 > position "n" et appuyez sur le bouton. Appuyez une seconde fois apres
 > 10 secondes pour être sûr. Une fois fait, cliquez sur le bouton

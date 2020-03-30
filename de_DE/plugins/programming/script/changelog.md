@@ -1,27 +1,26 @@
-# 01/08/2019
+# 2019.01.08
 
-- Support de PHP 7.3
+- PHP 7.3-Unterstützung
 
-# 05/06/2018
+# 2018.05.06
 
-- Verbesserte Sicherheit vom Ressourcenverzeichnis
+- Verbesserte Sicherheit des Ressourcenverzeichnisses
 
-# 25/05/2018
+# 2018.05.25
 
-- Verbesserung der Schnittstelle
-        
-- Hinzufügen einer Nachricht, wenn das JSON ungültig oder nicht decodierbar ist
-- Hinzufügen eines Felds, zum Konfigurieren von Befehlen des Typs select
+- Verbesserte Oberfläche
+- Hinzufügen einer Nachricht, wenn der JSON ungültig oder nicht decodierbar ist
+- Hinzufügen eines Feldes zum Konfigurieren von Befehlen für ausgewählte Typen
 
-# 25/04/2018
+# 2018.04.25
 
-- Aktualisierung des Dokuments
-- Die Speicherung des Skripts schließt nicht mehr das Bearbeitungsfenster
+- Aktualisieren des Dokuments
+- Durch das Speichern des Skripts wird das Bearbeitungsfenster nicht mehr geschlossen
 
-# 30/03/2018
+# 2018.03.30
 
-- Der Verlust des Symbols wurde behoben
+- Korrektur des Verlusts des Symbols
 
-# 13/03/2018
+# 2018.03.13
 
-- Fehler behoben, bei der automatischen Aktualisierung der Befehle
+- Behebung von Fehlern bei der automatischen Aktualisierung von Bestellungen

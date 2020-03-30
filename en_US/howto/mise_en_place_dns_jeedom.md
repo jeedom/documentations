@@ -8,7 +8,7 @@ Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par 
 >
 >Le DNS Jeedom agis comme un reverse proxy il ne donne donc accès qu'a votre Jeedom en https, il ne sera donc pas possible d'acceder à votre jeedom en SSH a distance avec le DNS Jeedom
 
-## Pré-requis
+## Prerequisites
 
 Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power ou plus.
 

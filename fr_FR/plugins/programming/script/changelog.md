@@ -1,3 +1,7 @@
+# 30/03/2020
+
+- Correction de bugs
+
 # 01/08/2019
 
 - Support de PHP 7.3

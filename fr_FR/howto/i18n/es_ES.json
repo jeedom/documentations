@@ -217,7 +217,7 @@
         "Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par une URL en HTTPS": "Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par une URL en HTTPS",
         "IMPORTANT": "Importante",
         "Le DNS Jeedom agis comme un reverse proxy il ne donne donc accès qu'a votre Jeedom en https, il ne sera donc pas possible d'acceder à votre jeedom en SSH a distance avec le DNS Jeedom": "Le DNS Jeedom agis comme un reverse proxy il ne donne donc accès qu'a votre Jeedom en https, il ne sera donc pas possible d'acceder à votre jeedom en SSH a distance avec le DNS Jeedom",
-        "Pré-requis": "Pré-requis",
+        "Pré-requis": "Requisitos previos",
         "Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power ou plus": "Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power ou plus",
         "Principe": "Principio",
         "Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée)": "Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée)",

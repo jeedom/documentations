@@ -1,6 +1,6 @@
 # Comment publier le plugin sur le market
 
-## Pré-requis
+## Prerequisites
 
 - S'etre inscrit en tant que dev, voir [ici](https://www.jeedom.com/site/fr/dev.html)
 - Avoir attendu la validation du compte market comme developpeur

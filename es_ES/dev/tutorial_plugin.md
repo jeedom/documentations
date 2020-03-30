@@ -685,7 +685,7 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement y rafraîchissez le dashboard.
 
 
-# Les poramètres. Las opciones
+# Los porámyros. Las opciones
 
 > **Importantee**
 >

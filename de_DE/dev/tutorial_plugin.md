@@ -685,7 +685,7 @@ Maintenant que vous avez bien lu vous savez qu'Il faut utiliser la méthode preS
 Enregistrer un équipement und rafraîchissez le dashboard.
 
 
-# Les Vonamètres. Die Optionen
+# Die Vonamunder. Die Optionen
 
 > **Wichtig**
 >
