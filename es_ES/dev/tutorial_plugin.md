@@ -100,7 +100,7 @@ $plugin = plugin::byIdentificación(‘vdm');
 Por 
 
 ```
-{{Ajouter un équipement}}
+{{Agregar equipo}}
 ```
 
 ```

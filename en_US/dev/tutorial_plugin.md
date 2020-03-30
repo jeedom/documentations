@@ -100,7 +100,7 @@ $plugin = plugin::byId(‘vdm');
 By 
 
 ```
-{{Ajouter un équipement}}
+{{Add equipment}}
 ```
 
 ```
