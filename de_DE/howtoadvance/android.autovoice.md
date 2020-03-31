@@ -70,7 +70,7 @@ exemple, elle pourra être appelée "API Jeedom".
 
 ![android.autovoice6](images/android.autovoice6.png)
 
-La tâche regroupera finalement 2 actions : **appel API** und **dire le
+La tâche regroupera finalement 2 actions : **API-Aufruf** und **dire le
 Rückkehr**.
 
 ![android.autovoice7](images/android.autovoice7.png)
