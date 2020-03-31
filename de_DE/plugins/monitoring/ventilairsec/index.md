@@ -1,6 +1,6 @@
-Description
+Beschreibung
 ===
 
-Plugin permettant la liaison avec l'app VMI Link + la VMI de la marque Ventilairsec.
+Plugin, das die Verbindung mit der VMI Link App + dem VMI der Marke Ventilairsec ermöglicht.
 
-Plugin Premium, utliser uniquement par les installateurs de la solution VMI Link de Ventilairsec.
+Premium-Plugin, das nur von Installateuren der VMI Link-Lösung von Ventilairsec verwendet wird.
