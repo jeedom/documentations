@@ -385,7 +385,7 @@ Ejemplo :
     /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
     lista, el argumento "lista" es una cadena de cocheacteres (fija)
     recuperado del script php usando la siguiente función
-    \ $ argv \ [1 \] cf. : Google para más detalles sobre la recuperación
+    \ $ argv \ [1 \] CF : Google para más detalles sobre la recuperación
     parámetros en PHP.
 
 -   Anteriormente hemos visto que era posible recuperar
@@ -396,7 +396,7 @@ Ejemplo :
     VOL * slider *, el argumento "* slider *" se recupera de este
     argv \ [2 \]. Cuando jeedom ejecuta el script,
     reemplazará automáticamente * deslizador * con el valor (numérico)
-    control deslizante. cf. : Google para más detalles sobre la recuperación
+    control deslizante. CF : Google para más detalles sobre la recuperación
     parámetros en Python.
 
 -   Más fuerte : Potencialmente, todas las variables accesibles por

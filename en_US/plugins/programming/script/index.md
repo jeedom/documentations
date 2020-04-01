@@ -385,7 +385,7 @@ Example :
     /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
     list, the argument "list" is a character string (fixed)
     retrieved from the php script using the following function
-    \ $ argv \ [1 \] cf. : Google for more details on retrieving
+    \ $ argv \ [1 \] CF : Google for more details on retrieving
     parameters in PHP.
 
 -   We have previously seen that it was possible to recover
@@ -396,7 +396,7 @@ Example :
     VOL * slider *, the argument "* slider *" is retrieved from this
     argv \ [2 \]. When jeedom runs the script, it
     will automatically replace * slider * with the value (numeric)
-    slider. cf. : Google for more details on retrieving
+    slider. CF : Google for more details on retrieving
     parameters in Python.
 
 -   Stronger : Potentially, all the variables accessible by

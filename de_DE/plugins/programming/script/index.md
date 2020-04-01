@@ -396,7 +396,7 @@ Beispiel :
     VOL * slider *, daraus wird das Argument "* slider *" abgerufen
     argv \ [2 \]. Wenn jeedom das Skript ausführt, ist es
     ersetzt automatisch * slider * durch den Wert (numerisch)
-    Schieberegler. vgl : Google für weitere Details zum Abrufen
+    Schieberegler. CF.. : Google für weitere Details zum Abrufen
     Parameter in Python.
 
 -   Stärker : Potenziell alle Variablen, auf die über zugegriffen werden kann
