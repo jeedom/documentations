@@ -27,6 +27,8 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Eosca|Détecteur de mouvement EnOcean (position plafond)|Mouvement|||
 |<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Pressac|Détecteur de mouvement Sous bureau (underdesk)|Mouvement|||
+|<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Easyfit|Détecteur de mouvement plafond|Mouvement|||
+|<img src="../../fr_FR/enocean/images/a5-07-01.jpg" width="60" />|Easyfit|Détecteur de mouvement sous bureau|Mouvement|||
 |<img src="../../fr_FR/enocean/images/a5-07-03.jpg" width="60" />|Nodon|Détecteur de mouvement et luminosité EnOcean|Mouvement|||
 |<img src="../../fr_FR/enocean/images/a5-07-03.jpg" width="60" />|Avidsen|Détecteur de mouvement|Mouvement|||
 
@@ -122,6 +124,11 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Fumée|||
+
+# d2-15
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/enocean/images/d2-15-00.jpg" width="60" />|EasyFit|EPAC|Présence|||
 
 # d2-32
 |Image|Marque|Nom|Type|Remarque|Lien|
