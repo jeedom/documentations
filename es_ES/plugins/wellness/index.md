@@ -1,3 +1,3 @@
 | | | | | | |
 |--- | --- | --- | --- | --- | ---
-|Intesis<img src="intesis/intesis_icon.png" width="100" /><br>[Documentation](intesis/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=3921)<br/>Plugin pour controler intesis
+|Intesis<img src="intesis/intesis_icon.png" width="100" /><br>[Documentation](intesis/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=3921)<br/>Plugin pour controler intesis|Thermostat<img src="thermostat/thermostat_icon.png" width="100" /><br>[Documentation](thermostat/index.md) - [Market](https://market.jeedom.com/index.php?v=d&plugin_id=77)<br/>Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement.
