@@ -156,7 +156,7 @@ Voici la liste des commandes :
 -   Status : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
--   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
+-   Open : c'est la commande qui permet d'ouvrir la serrure
 
 -   To close : c'est la commande qui permet de fermer la serrure
 
