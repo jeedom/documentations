@@ -1,3 +1,7 @@
+# 08/04/2020
+
+- bugfix arp ping considère le device absent si plus d'une tentative a été nécessaire
+
 # 04/04/2020
 
 - Suppression du panel
