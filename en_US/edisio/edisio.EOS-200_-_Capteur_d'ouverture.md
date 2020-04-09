@@ -129,7 +129,7 @@ associées au module :
 
 Voici la liste des commandes :
 
--   Porte : C'est la commande qui indique si la porte est ouverte ou
+-   Door : C'est la commande qui indique si la porte est ouverte ou
     fermée
 
 -   Drums : Indique l'état de la batterie

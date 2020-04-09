@@ -102,7 +102,7 @@
 # d2-03
 |Picture|Marque|Name|Type|Note|Link|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/enocean/images/d2-03-0a.jpg" width="60" />|Nodon|Soft Button|Bouton|5 appuis rapides en mode inclusion||
+|<img src="../../fr_FR/enocean/images/d2-03-0a.jpg" width="60" />|Nodon|Soft Button|Button|5 appuis rapides en mode inclusion||
 
 # d2-04
 |Picture|Marque|Name|Type|Note|Link|
