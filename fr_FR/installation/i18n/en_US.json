@@ -347,7 +347,7 @@
         "aura tous les fichiers jeedom), attention à bien décocher \"Lecture": "aura tous les fichiers jeedom), attention à bien décocher \"Lecture",
         "seule": "seule",
         "Dans chemin d'accès, mettez \/var\/www\/html puis cliquez sur": "Dans chemin d'accès, mettez \/var\/www\/html puis cliquez sur",
-        "Environnement": "Environnement",
+        "Environnement": "Environment",
         "Cochez \"Exécuter le conteneur à l'aide de privilèges élevés\" puis": "Cochez \"Exécuter le conteneur à l'aide de privilèges élevés\" puis",
         "validez le tout": "validez le tout",
         "Paramètre de configuration avancé": "Paramètre de configuration avancé",

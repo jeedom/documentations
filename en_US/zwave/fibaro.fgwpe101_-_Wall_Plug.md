@@ -62,7 +62,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230V, 50Hz
 
--   Consommation électrique : jusqu'à 0.8W
+-   Power consumption : jusqu'à 0.8W
 
 -   Charge maxi : 2.5kW
 

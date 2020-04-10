@@ -605,7 +605,7 @@ décocher "Lecture seule")
 
 ![install synology 32](images/install_synology_32.PNG)
 
-Cliquez sur "Environnement" puis "Ajoutez une variable" and mandtant dans
+Cliquez sur "Environment" puis "Ajoutez une variable" and mandtant dans
 "Variable" : "MYSQL\_ROOT\_PASSWORD" and dans valeur mandtez le mot de
 notse de BDD voulu (il servira plus tard). Puis validez :
 
@@ -663,7 +663,7 @@ seule"
 ![install synology 27](images/install_synology_27.PNG)
 
 Dans chemin d'accès, mandtez /var/www/html puis cliquez sur
-"Environnement" :
+"Environment" :
 
 ![install synology 28](images/install_synology_28.PNG)
 

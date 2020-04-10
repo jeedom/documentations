@@ -84,7 +84,7 @@ Caractéristiques techniques
 
 -   Alimentation : 230V, 50 Hz
 
--   Consumption électrique : &lt; 0,8W
+-   Power consumption : &lt; 0,8W
 
 -   Câblage : 3 fils, neutre nécessaire
 
