@@ -1,0 +1,9 @@
+{
+	"id" : "ipx800v2",
+	"name" : "ipx800 V2",
+	"licence" : "AGPL",
+	"author" : "Jeedom Legacy",
+	"require" : "2.0",
+	"category" : "automation protocol",
+	"hasOwnDeamon" : true
+}
