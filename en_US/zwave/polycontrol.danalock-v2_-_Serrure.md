@@ -146,7 +146,7 @@ Caractéristiques techniques
 
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 
--   Poids : 363g
+-   Weight : 363g
 
  \
 
