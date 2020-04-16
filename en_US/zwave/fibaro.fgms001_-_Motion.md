@@ -172,7 +172,7 @@ Voici la liste des commandes :
 
 -   Brightness : c'est la commande qui permet de remonter la luminosité
 
--   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
+-   Sabotage : c'est la commande Sabotage (elle est déclenchée en cas
     de vibration)
 
 -   Drums : c'est la commande batterie
@@ -249,10 +249,10 @@ Détails des paramètres :
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
 -   22: temps après lequel le capteur enverra le signal "plus de
-    sabotage" (valeur conseillée 30)
+    Sabotage" (valeur conseillée 30)
 
--   24: permet de dire comment le sabotage est notifié (IMPORTANT :
-    valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm
+-   24: permet de dire comment le Sabotage est notifié (IMPORTANT :
+    valeur conseillée : Capteur anti-Sabotage notifié à SensorAlarm
     command class/ Annulation est notifié après le temps défini en
     paramètre 22 )
 
@@ -293,7 +293,7 @@ Détails des paramètres :
     (lié au paramètre 81)
 
 -   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
-    sabotage
+    Sabotage
 
  \
 

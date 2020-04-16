@@ -177,7 +177,7 @@ Voici la liste des commandes :
 -   Sismique : c'est la commande qui permet de remonter l'intensité
     sismique
 
--   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
+-   Sabotage : c'est la commande Sabotage (elle est déclenchée en cas
     de vibration)
 
 -   Drums : c'est la commande batterie
@@ -254,10 +254,10 @@ Détails des paramètres :
 -   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 
 -   22: temps après lequel le capteur enverra le signal "plus de
-    sabotage" (valeur conseillée 30)
+    Sabotage" (valeur conseillée 30)
 
--   24: permet de dire comment le sabotage est notifié (IMPORTANT :
-    valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm
+-   24: permet de dire comment le Sabotage est notifié (IMPORTANT :
+    valeur conseillée : Capteur anti-Sabotage notifié à SensorAlarm
     command class/ Annulation est notifié après le temps défini en
     paramètre 22 )
 
@@ -298,7 +298,7 @@ Détails des paramètres :
     (lié au paramètre 81)
 
 -   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
-    sabotage
+    Sabotage
 
  \
 
@@ -322,13 +322,13 @@ Les noms des groupes de la version Z-Wave+ sont les suivant:
 
 -   2 : Motion, capteur de mouvement.
 
--   3 : Tamper, alerte sabotage.
+-   3 : Tamper, alerte Sabotage.
 
 -   4 : Motion BC, capteur de mouvement. Ce groupe a pour but d'assurer
     la compatibilité descendante avec les contrôleurs ne supportant pas
     le protocole Z-Wave+.
 
--   5 : Tamper BC, alerte sabotage. Ce groupe a pour but d'assurer la
+-   5 : Tamper BC, alerte Sabotage. Ce groupe a pour but d'assurer la
     compatibilité descendante avec les contrôleurs ne supportant pas le
     protocole Z-Wave+.
 

@@ -165,7 +165,7 @@ Le mode "Eclairage"
 ===================
 
 Le mode "Eclairage" permet de piloter 2 appareils électriques à
-distance.
+Range.
 
 > **IMPORTANT**
 >

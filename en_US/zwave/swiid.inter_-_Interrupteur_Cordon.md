@@ -29,7 +29,7 @@ domotique Z-Wave qui soit suffisamment petit et discret pour être
 comparable à un interrupteur sur cordon ordinaire.
 
 Il peut être utilisé à la fois manuellement comme n'importe quel
-interrupteur sur cordon ordinaire et à distance via un contrôleur
+interrupteur sur cordon ordinaire et à Range via un contrôleur
 Z-Wave.
 
 L'interrupteur SwiidInter offre également des possibilités d'association
@@ -46,7 +46,7 @@ sur cordon ordinaire : c'est donc une installation simple et rapide qui
 ne nécessite aucun outil spécialisé. Il doit ensuite être configuré pour
 s'intégrer dans un "réseau" Z-Wave, ce réseau pouvant être aussi simple
 qu'une seule télécommande qui commande votre interrupteur SwiidInter à
-distance.
+Range.
 
  \
 
@@ -56,7 +56,7 @@ Functions
  \
 
 -   Interrupteur sur cordon utilisable à la fois manuellement
-    (appui court) et par radio à distance (Z-Wave)
+    (appui court) et par radio à Range (Z-Wave)
 
 -   Utilisation en remplacement d'un interrupteur à cordon standard
     d'une lampe de chevet, de table ou de bureau
