@@ -35,7 +35,7 @@ Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossi
 Une fois cela fait vous allez avoir dans le dossier docs un dossier fr_FR (le seul à modifier). Dans ce dossier nous vous conseillons de faire 2 fichiers : 
 
 - Changelog.md => votre Changelog
-- index.md => votre documentation
+- Index.md => votre documentation
 
 ### Mise en ligne
 

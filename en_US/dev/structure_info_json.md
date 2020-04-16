@@ -1,10 +1,10 @@
-**Documentation fichier Info.json**
+**Documentation fichier Info.JSON**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **Info.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Jeedom Market.
+Intégré depuis la version 3.0 de Jeedom, le fichier **Info.JSON** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Jeedom Market.
 
-Le fichier Info.json est enregistré dans le dossier /plugin_Info/ de votre plugin.
+Le fichier Info.JSON est enregistré dans le dossier /plugin_Info/ de votre plugin.
 
-Liste des variables du fichier Info.json
+Liste des variables du fichier Info.JSON
 
 Les champs marqués d'un * sont des champs obligatoires.
 
@@ -33,14 +33,14 @@ issue                    | URL vers le bugtracker si externe (si non remplis alo
 
 **Example** :
 
-[Fichier plugin-template/plugin_Info/Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
+[Fichier plugin-template/plugin_Info/Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Jeedom Market         | Info.json               |
+Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
 Communication         | Communication           |
 Comfort               | wellness                |
@@ -48,7 +48,7 @@ Energy               | energy                  |
 Weather                 | weather                 |
 Monitoring            | monitoring              |
 Multimedia            | Multimedia              |
-Nature                | nature                  |
+Nature                | Nature                  |
 Connected objects      | deviceCommunication     |
 Organization          | organization            |
 Home automation gateway  | home automation protocol|
