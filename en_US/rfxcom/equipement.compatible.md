@@ -60,7 +60,7 @@
 | Oregon         | Temperature    | Oregon         |                | [Acheter](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 | Oregon         | Temperature    | Oregon         |                |                |
 | THGN132N       | Humidity       |                |                |                |
-| Oregon WGR800  | Anémomètre     | Oregon         |                |                |
+| Oregon WGR800  | Anemometer     | Oregon         |                |                |
 | Oregon PCR800  | Pluviomètre    | Oregon         |                |                |
 | UV Oregon      | Sonde UV       | Oregon         |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
 | OWL CM119      | Pince ampèremétrique + afficheur          | Oregon         |                |                |
