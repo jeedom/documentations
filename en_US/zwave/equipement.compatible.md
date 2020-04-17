@@ -188,7 +188,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|domux|Motion Sensor (DX1MS-Z)|Multicapteurs|||
 |<img src="../../fr_FR/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|domux|Smart Smoke Sensor (DX1SA-Z)|Smoke|||
-|<img src="../../fr_FR/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|domux|Gaz Sensor (DX1CG-Z)|Gaz|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible||
+|<img src="../../fr_FR/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|domux|Gas Sensor (DX1CG-Z)|Gas|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible||
 |<img src="../../fr_FR/zwave/images/540.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|domux|Flood Sensor (DX1WL-Z)|Fuite|||
 |<img src="../../fr_FR/zwave/images/540.32773.4096_dx1caz_co_sensor.jpg" width="60" />|domux|CO Sensor (DX1CA-Z)|CO|||
 |<img src="../../fr_FR/zwave/images/540.32774.4096_dx2skz_wallplug.jpg" width="60" />|domux|Smart Metering Plug (DX2SK-Z)|Outlet|||
@@ -431,7 +431,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/608.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|heiman|Motion Sensor (HS1MS-Z)|Multicapteurs|||
 |<img src="../../fr_FR/zwave/images/608.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|heiman|Smart Smoke Sensor (HS1SA-Z)|Smoke|||
-|<img src="../../fr_FR/zwave/images/608.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|heiman|Gaz Sensor (HS1CG-Z)|Gaz|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible||
+|<img src="../../fr_FR/zwave/images/608.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|heiman|Gas Sensor (HS1CG-Z)|Gas|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible||
 |<img src="../../fr_FR/zwave/images/608.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|heiman|Flood Sensor (HS1WL-Z)|Fuite|||
 |<img src="../../fr_FR/zwave/images/608.32773.4096_dx1caz_co_sensor.jpg" width="60" />|heiman|CO Sensor (HS1CA-Z)|CO|||
 |<img src="../../fr_FR/zwave/images/608.32774.4096_dx2skz_wallplug.jpg" width="60" />|heiman|Smart Metering Plug (HS2SK-Z)|Outlet|||
@@ -534,7 +534,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
 |<img src="../../fr_FR/zwave/images/150.1.2_nq-9021.power.reader.jpg" width="60" />|northq|Power Reader|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html)|
-|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gaz Meter|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
+|<img src="../../fr_FR/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|NQ-9121 Gas Meter|Counter|Activer le rafraichissement manuel à 5 minutes sur la valeur Gas pour avoir les rapports|[Acheter](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
 
 # oomi
 |Picture|Marque|Name|Type|Note|Link|
@@ -757,7 +757,7 @@
 |<img src="../../fr_FR/zwave/images/305.3.4227_nas-pd01z.jpg" width="60" />|zipato|PIR Sensor|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/4160-zipato-capteur-de-mouvement-pir-z-wave-3858890733341.html)|
 |<img src="../../fr_FR/zwave/images/305.3.4233_nas-pd01zt.jpg" width="60" />|zipato|PIR Sensor|Multicapteurs|||
 |<img src="../../fr_FR/zwave/images/305.32770.4096_hs1saz_smoke_sensor.jpg" width="60" />|zipato|Smart Smoke Sensor (HS1SA-Z)|Smoke||[Acheter](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
-|<img src="../../fr_FR/zwave/images/305.32771.4096_hs1cgz_gaz_sensor.jpg" width="60" />|zipato|Gaz Sensor (HS1CG-Z)|Gaz|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible|[Acheter](http://www.domadoo.fr/fr/peripheriques/4153-zipato-capteur-de-gaz-z-wave-3858890733587.html)|
+|<img src="../../fr_FR/zwave/images/305.32771.4096_hs1cgz_gaz_sensor.jpg" width="60" />|zipato|Gas Sensor (HS1CG-Z)|Gas|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible|[Acheter](http://www.domadoo.fr/fr/peripheriques/4153-zipato-capteur-de-gaz-z-wave-3858890733587.html)|
 |<img src="../../fr_FR/zwave/images/305.32772.4096_hs1wlz_flood_sensor.jpg" width="60" />|zipato|Flood Sensor (HS1WL-Z)|Fuite||[Acheter](http://www.domadoo.fr/fr/peripheriques/4159-zipato-capteur-d-inondation-z-wave--3858890733624.html)|
 |<img src="../../fr_FR/zwave/images/305.32773.4096_hs1caz_co_sensor.jpg" width="60" />|zipato|CO Sensor (HS1CA-Z)|CO||[Acheter](http://www.domadoo.fr/fr/peripheriques/4151-zipato-capteur-de-monoxyde-de-carbone-z-wave-3858890733563.html)|
 |<img src="../../fr_FR/zwave/images/305.4.10_pse02.indoor.siren.jpg" width="60" />|zipato|PH-PSE02 Mermaid Z-Wave+|Mermaid||[Acheter](http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html)|
