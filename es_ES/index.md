@@ -1,3 +1,3 @@
-# Documentation Jeedom
+# Documentación de Jeedom
 
-Bienvenu sur le site de documentation Jeedom. Vous trouverez ici toute la documentation relative a jeedom.
+Bienvenido a la documentación de Jeedom. Aquí encontrará toda la documentación relacionada con jeedom.

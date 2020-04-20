@@ -156,7 +156,7 @@ Voici la liste des commandes :
 -   Estado : c'est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
 
--   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
+-   Abrir : c'est la commande qui permet d'ouvrir la serrure
 
 -   Cerca : c'est la commande qui permet de fermer la serrure
 

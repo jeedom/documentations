@@ -1,19 +1,19 @@
 Hardware
 ========
 
-Jeedom peut être installé sur différents composants hardware :
+Jeedom se puede instalar en diferentes tipos de hardware :
 
--   un Raspberry pi 2 ou 3
+-   un Raspberry pi 2 o 3
 
 -   un NAS Synology
 
--   tout système Linux basé sur Debian 9 (strych)
+-   cualquier sistema Linux basado en Debian 9 (strych)
 
 -   Freebox Delta
 
-Vous pouvez aussi achyer une box toute faite avec Jeedom préinstallé
-qui contient en plus un service pack (plus de support y de services) y
-des plugins offerts :
+También puede comprar una caja con Jeedom preinstalado
+que también contiene un paquye de servicio (más soporte y servicios) y
+plugins ofrecidos :
 
 -   [Jeedom Smart
     Z-Wave+](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
@@ -27,20 +27,20 @@ des plugins offerts :
 -   [Jeedom Smart EnOcean y
     RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-y-interface-rfxcom.html)
 
-Voici une configuration "type" pour bien débuter avec Jeedom en Z-Wave :
+Aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
 
 1.  Raspberry pi 3 :
 
-    -   Un raspberry+boitier \~ 50 €
+    -   Un raspberry+caja \~ 50 €
 
-    -   Une clef Aeon Gen 5 \~ 60 €
+    -   Una llave USB Aeon Gen 5 \~ 60 €
 
-    -   Une micro carte SD \~ 7 €
+    -   Una tarjya micro SD \~ 7 €
 
-    -   Une alimentation USB \~ 8 €
+    -   Una fuente de alimentación USB \~ 8 €
 
-Soit un total de 125 € pour une box domotique open source avec une
-maîtrise complète de son installation.
+Un total de 125 € para una caja domotica open-source con un
+control complyo de su instalación.
 
 > **Punta**
 >
