@@ -25,10 +25,10 @@ Resumen
  \
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
-En plus de la détection de mouvement, ce dispositif mesure la
+En plus de la détection de mouvement, ce Dispositivo mesure la
 Temperatura et l'intensité lumineuse. Ce détecteur comporte aussi un
 accéléromètre intégré afin de détecter toute tentative d'altération du
-dispositif.
+Dispositivo.
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
 pour être installé rapídement et facilement sur n'importe quelle

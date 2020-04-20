@@ -103,7 +103,7 @@ Caractéristiques techniques
 
 -   Aimant : 10 x 50 x 12 mm
 
--   Poids : 52g
+-   Peso : 52g
 
 -   Temperatura de fonctionnement : -10 à 40° C
 

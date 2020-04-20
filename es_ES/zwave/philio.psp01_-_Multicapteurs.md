@@ -102,7 +102,7 @@ Caractéristiques techniques
 
 -   Dimensions : 28 x 96 x 23 mm
 
--   Poids : 39g
+-   Peso : 39g
 
 -   Temperatura de fonctionnement : -10 à 40° C
 

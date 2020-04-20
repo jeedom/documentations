@@ -1,10 +1,10 @@
-**Documentation fichier Información.json**
+**Documentation fichier Información.JSON**
 
-Intégré depuis la version 3.0 de Jeedom, le fichier **Información.json** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Mercado de la libertad.
+Intégré depuis la version 3.0 de Jeedom, le fichier **Información.JSON** est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Mercado de la libertad.
 
-Le fichier Información.json est enregistré dans le dossier /plugin_Información/ de votre plugin.
+Le fichier Información.JSON est enregistré dans le dossier /plugin_Información/ de votre plugin.
 
-Liste des variables du fichier Información.json
+Liste des variables du fichier Información.JSON
 
 Les champs marqués d'un * sont des champs obligatoires.
 
@@ -33,14 +33,14 @@ issue                    | URL vers le bugtracker si externe (si non remplis alo
 
 **Ejemplo** :
 
-[Fichier plugin-template/plugin_Información/Información.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.json)
+[Fichier plugin-template/plugin_Información/Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.JSON)
 
 
 
 
 **NOMENCLATURE CATEGORIES**
 
-Mercado de la libertad         | Información.json               |
+Mercado de la libertad         | Información.JSON               |
 --------------------- | ----------------------- |
 Comunicación         | Comunicación           |
 Confort               | wellness                |

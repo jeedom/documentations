@@ -85,7 +85,7 @@ Caractéristiques techniques
 
 -   Dimensions : 120 x 52 x 60 mm (L x l x h)
 
--   Poids : 370g
+-   Peso : 370g
 
  \
 
