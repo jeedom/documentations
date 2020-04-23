@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Fréquence : 868,42 Mhz
 
--   Alimentation: 2x piles AA (LR6)
+-   Suministro: 2x piles AA (LR6)
 
 -   Portée : jusqu'à 100 m en champ libre
 

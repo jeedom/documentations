@@ -36,7 +36,7 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Edisio
 
--   Alimentation : 3VDC (Pile Lithium CR2430)
+-   Suministro : 3VDC (Pile Lithium CR2430)
 
 -   Canaux : 4
 

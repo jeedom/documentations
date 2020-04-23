@@ -81,7 +81,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Alimentation : 230 V, 50 Hz
+-   Suministro : 230 V, 50 Hz
 
 -   El consumo : 0.5W
 

@@ -69,7 +69,7 @@ Caractéristiques Techniques
 -   Relé: 13(3)A, 230V AC, approprié pour des charges allants jusqu'à
     3kW
 
--   Alimentation: 230V AC, 50Hz
+-   Suministro: 230V AC, 50Hz
 
 -   Dimensions 85x85x44mm
 

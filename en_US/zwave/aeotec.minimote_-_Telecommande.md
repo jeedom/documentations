@@ -65,7 +65,7 @@ Caractéristiques techniques
 
 -   Color : White
 
--   Alimentation : batterie interne rechargeable via USB
+-   Food : batterie interne rechargeable via USB
 
 -   Viewing: LED bleue et rouge
 

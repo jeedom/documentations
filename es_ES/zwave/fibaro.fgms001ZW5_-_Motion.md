@@ -78,7 +78,7 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave+
 
--   Alimentation : Pile CR123A 3,6VDC
+-   Suministro : Pile CR123A 3,6VDC
 
 -   Hauteur recommandée pour l'installation : 2,4m
 

@@ -46,7 +46,7 @@ Caractéristiques Techniques
 
 -   Type de module : Emetteur Edisio
 
--   Alimentation : 3VDC (Pile Lithium ER14250)
+-   Versorgung : 3VDC (Pile Lithium ER14250)
 
 -   Fréquence : 868,3 MHz
 

@@ -62,7 +62,7 @@ Caractéristiques techniques
 
 -   Type de module: Récepteur E.disio
 
--   Alimentation: 230VAC, 50Hz
+-   Versorgung: 230VAC, 50Hz
 
 -   Câblage: 4 fils, 2 pour les commandes et 2 pour l'alimentation
 

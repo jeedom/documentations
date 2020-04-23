@@ -68,7 +68,7 @@ Caractéristiques techniques
 
 -   Color : White
 
--   Alimentation : 230 V, 50 Hz
+-   Food : 230 V, 50 Hz
 
 -   Câblage : 3 fils, neutre nécessaire
 

@@ -65,7 +65,7 @@ Caractéristiques techniques
 
 -   Farbe : Weiß
 
--   Alimentation : batterie interne rechargeable via USB
+-   Versorgung : batterie interne rechargeable via USB
 
 -   Anzeigen: LED bleue et rouge
 

@@ -60,7 +60,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : 230V AC +/-10% - 50Hz
+-   Suministro : 230V AC +/-10% - 50Hz
 
 -   Puissance maximum : 3000W en continue / 3500W cyclique
     (Charge résistive) Consommation intrinsèque : &lt;1W

@@ -82,7 +82,7 @@ Caractéristiques techniques
 
 -   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
--   Alimentation : Pile ER14250 (1/2AA) 3,6V
+-   Food : Pile ER14250 (1/2AA) 3,6V
 
 -   Fréquence : 868,42 Mhz
 

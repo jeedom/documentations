@@ -90,7 +90,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : 250V \~ AC, 50Hz
+-   Suministro : 250V \~ AC, 50Hz
 
 -   Courant de charge maximum : 10A
 

@@ -65,7 +65,7 @@ Caractéristiques techniques
 
 -   Color : Blanco, Blanca
 
--   Alimentation : batterie interne rechargeable via USB
+-   Suministro : batterie interne rechargeable via USB
 
 -   Visualización: LED bleue et rouge
 

@@ -68,7 +68,7 @@ Caractéristiques techniques
 
 -   Color : Blanco, Blanca
 
--   Alimentation : 230 V, 50 Hz
+-   Suministro : 230 V, 50 Hz
 
 -   Câblage : 3 fils, neutre nécessaire
 

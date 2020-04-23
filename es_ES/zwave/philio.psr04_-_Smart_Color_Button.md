@@ -87,7 +87,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : Batería Lithium Polymère 3.7V, 220mA vAutonomie de
+-   Suministro : Batería Lithium Polymère 3.7V, 220mA vAutonomie de
     la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA

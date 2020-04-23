@@ -69,7 +69,7 @@ Funciones
 Caractéristiques techniques 
 ---------------------------
 
--   Alimentation : 12 V ou 24 V continu
+-   Suministro : 12 V ou 24 V continu
 
 -   Puissance maximale de sortie :
 

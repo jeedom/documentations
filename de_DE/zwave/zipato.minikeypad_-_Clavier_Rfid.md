@@ -70,7 +70,7 @@ Caractéristiques techniques
 
 -   Typ : Esclave Z-Wave
 
--   Alimentation : 2x AA 1,5V batteries
+-   Versorgung : 2x AA 1,5V batteries
 
 -   Fréquence : 868.42 MHz
 

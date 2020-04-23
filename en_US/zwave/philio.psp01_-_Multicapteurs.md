@@ -84,7 +84,7 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : 1 pile 3V CR123A
+-   Food : 1 pile 3V CR123A
 
 -   Durée de vie des piles : 2 years
 

@@ -68,7 +68,7 @@ Caractéristiques techniques
 
 -   Farbe : Weiß
 
--   Alimentation : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Câblage : 3 fils, neutre nécessaire
 

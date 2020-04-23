@@ -136,7 +136,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : 4 piles 3V CR123
+-   Food : 4 piles 3V CR123
 
 -   Versions : V2
 

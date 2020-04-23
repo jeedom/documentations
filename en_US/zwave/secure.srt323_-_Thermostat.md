@@ -91,7 +91,7 @@ Caractéristiques techniques
 
 -   Plage de température réglable: 5°C à 30°C
 
--   Alimentation : 2x piles AAA (LR3)
+-   Food : 2x piles AAA (LR3)
 
 -   Durée de vie des piles : 2 years
 

@@ -83,7 +83,7 @@ Caractéristiques techniques
 
 -   Color : noire
 
--   Alimentation: 230V ± 10% - 50Hz
+-   Suministro: 230V ± 10% - 50Hz
 
 -   Puissance maxi : 660W
 

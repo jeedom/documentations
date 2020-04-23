@@ -43,7 +43,7 @@ Caractéristiques techniques
 
 -   Uso : En intérieur
 
--   Alimentation : 3VDC (Pile Lithium ER14250)
+-   Suministro : 3VDC (Pile Lithium ER14250)
 
 -   Autonomie : Jusqu'à 3 ans
 

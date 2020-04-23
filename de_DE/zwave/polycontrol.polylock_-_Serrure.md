@@ -76,7 +76,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : Pile Lithium-Chloride 3.6V
+-   Versorgung : Pile Lithium-Chloride 3.6V
 
 -   Fréquence : 868,42 Mhz
 

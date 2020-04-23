@@ -69,7 +69,7 @@ Funktionen
 Caractéristiques techniques 
 ---------------------------
 
--   Alimentation : 12 V ou 24 V continu
+-   Versorgung : 12 V ou 24 V continu
 
 -   Puissance maximale de sortie :
 

@@ -87,7 +87,7 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : Drums Lithium 3V CR123A
+-   Food : Drums Lithium 3V CR123A
 
 -   Autonomie de la batterie : 3 years
 

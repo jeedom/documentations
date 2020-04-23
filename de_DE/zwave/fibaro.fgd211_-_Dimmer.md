@@ -84,7 +84,7 @@ Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 
--   Alimentation : 230V, 50 Hz
+-   Versorgung : 230V, 50 Hz
 
 -   Câblage : neutre pas nécessaire
 

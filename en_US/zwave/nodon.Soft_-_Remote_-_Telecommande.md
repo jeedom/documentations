@@ -52,7 +52,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Food : Pile CR2032 – Autonomie 1,5 - 2ans
 
 -   4 boutons
 

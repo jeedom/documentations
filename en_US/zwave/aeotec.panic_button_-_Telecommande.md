@@ -73,7 +73,7 @@ Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 
--   Alimentation : 1 pile Lithium 3V CR2450
+-   Food : 1 pile Lithium 3V CR2450
 
 -   Durée de vie de la batterie : 2 à 3 mois pour 10 à 20 utilisations
     par jour
