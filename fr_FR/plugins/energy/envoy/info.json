@@ -9,6 +9,8 @@
     "installation" : "Aucune",
     "hasDependency" : 0,
     "hasOwnDeamon" : 0,
+    "documentation" : "https://jeedom.github.io/plugin-envoy/#language#/",
+    "changelog" : "https://jeedom.github.io/plugin-envoy/#language#/changelog",
     "category" : "energy",
     "version" : "1"
 }
