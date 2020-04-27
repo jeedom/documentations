@@ -99,6 +99,9 @@ var docMenu = [
   },{
     fr_FR:'Jeedom v4.0',
     en_US : "Jeedom v4.0",
+    es_ES : "Jeedom v4.0",
+    de_DE : "Jeedom v4.0",
+    pt_PT : "Jeedom v4.0",
   },{
     fr_FR : "Manuel d'utilisation",
     en_US : "User manual",
