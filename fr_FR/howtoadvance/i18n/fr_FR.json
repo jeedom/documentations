@@ -370,6 +370,12 @@
         "Votre clef est bien en mode GSM seulement et vous": "Votre clef est bien en mode GSM seulement et vous",
         "pouvez vous en servir à travers un VMware maintenant": "pouvez vous en servir à travers un VMware maintenant"
     },
+    "howtoadvance\/index.md": {
+        "Sommaire": "Sommaire",
+        "Debian": "Debian",
+        "Vmware": "Vmware",
+        "Archive": "Archive"
+    },
     "howtoadvance\/installation.monit.md": {
         "Monit est un service de supervision de services": "Monit est un service de supervision de services",
         "Il se charge de": "Il se charge de",
