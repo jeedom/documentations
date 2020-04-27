@@ -294,6 +294,8 @@ $(function(){
     setTheme();
   })
   
+  setTheme();
+  
   $('img').addClass('responsive-img')
   cookiesPolicyBar();
 });
