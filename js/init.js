@@ -7,6 +7,13 @@ var docMenu = [
     pt_PT : "",
     link : ""
   },{
+    fr_FR:'Assistance et bug',
+    en_US : 'Assistance and bug',
+    es_ES : "Asistencia y error",
+    de_DE : "Hilfe und Fehler",
+    pt_PT : "",
+    link : "/documentations/#LANG#/howto/remonter_un_bug"
+  },{
     fr_FR : "Utiliser Jeedom",
     en_US : "Use Jeedom",
     es_ES : "Use Jeedom",
@@ -186,13 +193,6 @@ var docMenu = [
       {link:"/documentations/#LANG#/plugins/howto/",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""},
       {link:"/documentations/#LANG#/plugins/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
     ]
-  },{
-    fr_FR:'Assistance et bug',
-    en_US : 'Assistance and bug',
-    es_ES : "Asistencia y error",
-    de_DE : "Hilfe und Fehler",
-    pt_PT : "",
-    link : "/documentations/#LANG#/howto/remonter_un_bug"
   },{
     fr_FR:'Développer sur Jeedom',
     en_US : 'Developpe on Jeedom',
