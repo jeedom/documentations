@@ -14,6 +14,15 @@ html,
   scrollbar-width: thin;
 }
 
+#ul_menu li,
+.sidenav li i {
+  line-height: 32px !important;
+}
+#ul_menu li a,
+.sidenav li i {
+  height: 32px !important;
+}
+
 .sidenav-trigger{
   color:black !important;
 }

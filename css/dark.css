@@ -20,19 +20,32 @@ body.dark nav,
 body.dark ul,
 body.dark nav ul a, nav {
   background-color: #202123 !important;
-  color: #fff !important;
+  color: #ebebeb !important;
 }
 body.dark a {
-  color: #fff;
+  color: #ebebeb;
   background-color: #202123 !important;
   opacity: 0.65;
 }
 body.dark a:hover {
   opacity: 1;
 }
+body.dark a:focus {
+  text-decoration: none;
+}
 body.dark nav {
   background-color: #26A69A;
 }
+#logo-container {
+  opacity: 1;
+}
+body.dark i {
+  color: #ebebeb !important;
+}
+body.dark .collapsible-header:focus {
+ background-color: #292a2b !important;
+}
+
 body.dark .card {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -46,7 +59,7 @@ body.dark .sidenav {
   background-color: #2D2D31;
 }
 body.dark .sidenav li a:not(.subheader) {
-  color: #fff;
+  color: #ebebeb;
   opacity: 0.65;
 }
 body.dark .sidenav li a:not(.subheader):hover {
