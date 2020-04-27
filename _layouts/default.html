@@ -3,6 +3,7 @@
 <head>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/{{site.github.project_title}}/css/style.css">
+  <link rel="stylesheet" href="/{{site.github.project_title}}/css/dark.css">
   <link rel="stylesheet" href="/{{site.github.project_title}}/css/materialize.min.css">
   <link rel="stylesheet" href="/{{site.github.project_title}}/css/font-awesome5/css/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -48,6 +49,14 @@
       <li><div class="user-view">
         <div class="background">
           <img src="/{{site.github.project_title}}/img/background1.jpg">
+        </div>
+        <div class="input-field col s12">
+          <select id="sel_theme" style="color:white !important;">
+            <option value="" disabled selected>Français</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+          <label style="color:black !important;">Langue</label>
         </div>
         <div class="input-field col s12">
           <select id="sel_lang" style="color:white !important;">

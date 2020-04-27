@@ -289,8 +289,22 @@ $(function(){
     window.location.href = url;
   })
   
+  $('#sel_lang').on('change',function(){
+    setCookie('theme',$(this).val(),7)
+  })
   cookiesPolicyBar();
 });
+
+function setTheme(){
+  if(getCookie('theme') == 'dark'){
+    $('body').addClass('dark')
+    if($('#sel_theme').val() != 'dark'){
+      $('#sel_theme').val('dark');
+    }
+  }else{
+    $('body').removeClass('dark')
+  }
+}
 
 function getCookie(cname) {
   var name = cname + "=";
