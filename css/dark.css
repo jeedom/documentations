@@ -42,6 +42,11 @@ body.dark nav {
 body.dark i {
   color: #ebebeb !important;
 }
+
+body.dark .user-view input {
+  color: #ebebeb !important;
+}
+
 body.dark .collapsible-header:focus {
  background-color: #292a2b !important;
 }

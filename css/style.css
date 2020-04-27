@@ -13,6 +13,9 @@ html,
 .sidenav {
   scrollbar-width: thin;
 }
+.sidenav {
+  width: 280px !important;
+}
 
 #ul_menu li,
 .sidenav li i {
