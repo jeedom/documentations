@@ -265,7 +265,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  $('select').formSelect();
+  
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -296,6 +296,7 @@ $(function(){
   
   setTheme();
   
+  $('select').formSelect();
   $('img').addClass('responsive-img')
   cookiesPolicyBar();
 });
