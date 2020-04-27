@@ -292,6 +292,8 @@ $(function(){
   $('#sel_lang').on('change',function(){
     setCookie('theme',$(this).val(),7)
   })
+  
+  $('img').addClass('responsive-img')
   cookiesPolicyBar();
 });
 
