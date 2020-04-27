@@ -1,0 +1,14 @@
+{
+    "id" : "bornetenda",
+    "name" : "Borne Tenda W301A",
+    "licence" : "AGPL",
+    "author" : "Jeedom Legacy",
+    "require" : "1.124.0",
+    "category" : "communication",
+    "description" : "Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de gérer les Bornes Tenda W301A.",
+    "hasDependency" : false,
+    "hasOwnDeamon" : false,
+    "maxDependancyInstallTime" : 0,
+    "changelog" : "https://jeedom.github.io/documentation/third_plugin/bornetenda/#language#/index.html#_changelog",
+    "documentation" : "https://jeedom.github.io/documentation/third_plugin/bornetenda/#language#/index.html"
+}
