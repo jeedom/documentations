@@ -1,7 +1,3 @@
-# 14/11/2019
-
-- Corrección de errores
-
 # 05/11/2019
 
 - Corrección de errores

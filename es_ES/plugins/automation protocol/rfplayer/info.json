@@ -1,0 +1,13 @@
+{
+	"id" : "rfplayer",
+	"name" : "RfPlayer",
+	"description" : "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom",
+	"licence" : "AGPL",
+	"author" : "Alexandre dev. Jeedom",
+	"require" : "2.4",
+	"category" : "automation protocol",
+	"hasDependency" : true,
+        "hasOwnDeamon" : true,
+        "changelog" : "https://jeedom.github.io/plugin-rfplayer/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-rfplayer/#language#/"
+}
