@@ -26,7 +26,7 @@ cette page :
 
 Voila votre compte Markt est créé, pour plus de details sur le market
 cliquez
-[ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
+[ici](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
 
 Ajout de votre code Service Pack 
 ================================
@@ -61,7 +61,7 @@ Renseignez votre numéro de Service Pack et validez :
 
 Voilà votre Service Pack est enregistré. Pour plus de details sur le
 Markt cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
+[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
 
 > **Spitze**
 >
@@ -144,7 +144,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Markt.
 -   Vergiss nicht zu sparen !
 
 Pour plus de détails sur la page de configuration cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
+[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
 .
 
 Obtenir mon URL d'accès direct 
@@ -190,7 +190,7 @@ retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
 Voilà, vous avez changé le mot de passe du compte admin, pour plus
 d'information sur cette page cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/user.asciidoc).
+[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/user.asciidoc).
 
 Créer mon premier objet 
 =======================
@@ -224,7 +224,7 @@ Pour créer un objet, rien de plus simple :
 ![premier objet4](images/premier-objet4.png)
 
 Pour plus d'informations sur cette partie cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/object.asciidoc)
+[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/object.asciidoc)
 
 Installer mon premier plugin 
 ============================
@@ -265,7 +265,7 @@ Vous retrouvez alors :
 - la façon d'utiliser le plugin, 
 - des informations complémentaires comme l'auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
 
-Pour plus d'informations sur les Plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
+Pour plus d'informations sur les Plugins cliquez [ici](https://jeedom.github.io/core/de_DE/plugin).
 
 Unterstützung 
 =======

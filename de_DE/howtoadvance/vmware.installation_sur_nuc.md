@@ -244,8 +244,8 @@ Voilà VMware est installé (en plus il est sympa il vous donne son IP) ,
 plus qu'à jouer avec !!!
 
 Pour la suite voici un
-[tutoriel](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.creer_une_vm.html)
+[tutoriel](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.creer_une_vm.html)
 pour la création de votre première VM. Et vous trouverez
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.trucs_et_astuces.html)
+[ici](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
 un tutoriel de trucs et astuces (pour par exemple mettre votre licence
 VMware)

@@ -104,7 +104,7 @@ support de stockage.
     opérationnelle et à jorr.
 
 -   Installez Jeedom en suivant la doc :
-    <https://github.com/jeedom/documentation/blob/master/installation/fr_FR/other.asciidoc>
+    <https://github.com/jeedom/documentation/blob/master/installation/en_US/other.asciidoc>
 
 \[ATTENTION\] MariaDB n'autorise plus l'accès au profil 'root', ce qui
 peut bloquer la restauration d'une base de données dont vors auriez

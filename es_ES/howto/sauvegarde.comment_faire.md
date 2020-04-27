@@ -24,14 +24,14 @@ Salvaguardia régulière de Jeedom.
 > La procédure de restauration de la carte microSD peut-être utile pour
 > restaurer un Jeedom par défaut à partir de l'Imagen fournie par
 > l'équipe voir
-> [ici](https://www.jeedom.fr/doc/documentation/installation/fr_FR/doc-installation.html).
+> [ici](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
 
 Salvaguardia/Restauration de Jeedom 
 =================================
 
 Une documentation est déjà présente pour expliquer la page
 Administration→Salvaguardias. Vous la trouverez
-[ici](https://jeedom.github.io/core/fr_FR/backup).
+[ici](https://jeedom.github.io/core/es_ES/backup).
 
 Salvaguardia/Restauration de la carte microSD 
 ===========================================

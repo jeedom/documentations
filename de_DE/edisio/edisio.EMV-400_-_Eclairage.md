@@ -94,7 +94,7 @@ Allgemeine Konfiguration
 
 Pour configurer le plugin E.disio et associer un module à Jeedom,
 référez-vous à cette
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
+[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
 > **Wichtig**
 >

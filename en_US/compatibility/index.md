@@ -40,7 +40,7 @@ puis dans le dossier Pictures
 
 Toutes les autres images téléchargeables précédemment ne sont plus
 maintenues, il vaut mieux passer par l'installation manuelle de Jeedom
-[Doc](https://github.com/jeedom/documentation/blob/master/installation/fr_FR/other.asciidoc)
+[Doc](https://github.com/jeedom/documentation/blob/master/installation/en_US/other.asciidoc)
 après avoir installé une distribution linux correspondant à votre
 matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
 (Ordoid,…​), …​
@@ -110,31 +110,31 @@ Modules Zwave
 -------------
 
 Vous trouverez la liste
-[ici](https://jeedom.github.io/documentation/zwave/fr_FR/equipement.compatible)
+[ici](https://jeedom.github.io/documentation/zwave/en_US/equipement.compatible)
 
 Modules EnOcean
 ---------------
 
 Vous trouverez la liste
-[ici](https://jeedom.github.io/documentation/enocean/fr_FR/equipement.compatible)
+[ici](https://jeedom.github.io/documentation/enocean/en_US/equipement.compatible)
 
 Modules Edisio
 --------------
 
 Vous trouverez la liste
-[ici](https://jeedom.github.io/documentation/edisio/fr_FR/equipement.compatible)
+[ici](https://jeedom.github.io/documentation/edisio/en_US/equipement.compatible)
 
 Modules RFXcom
 --------------
 
 Vous trouverez la liste
-[ici](https://jeedom.github.io/documentation/rfxcom/fr_FR/equipement.compatible)
+[ici](https://jeedom.github.io/documentation/rfxcom/en_US/equipement.compatible)
 
 Caméras
 -------
 
 Vous trouverez la liste
-[ici](https://jeedom.github.io/documentation/camera/fr_FR/equipement.compatible)
+[ici](https://jeedom.github.io/documentation/camera/en_US/equipement.compatible)
 
 Plateforme matérielle recommandée
 ---------------------------------
