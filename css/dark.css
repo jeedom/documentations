@@ -1,3 +1,17 @@
+
+#logo-container:before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-image: url('/documentations/img/logo_dark.png')  !important;
+}
+#logo-container .responsive-img {
+  display: none;
+}
+
 body {
   background-color: #eee;
 }
@@ -12,6 +26,9 @@ body.dark a {
   color: #fff;
   background-color: #202123 !important;
   opacity: 0.65;
+}
+body.dark a:hover {
+  opacity: 1;
 }
 body.dark nav {
   background-color: #26A69A;
@@ -29,12 +46,15 @@ body.dark .sidenav {
   background-color: #2D2D31;
 }
 body.dark .sidenav li a:not(.subheader) {
-  color: #89B2F5;
+  color: #fff;
+  opacity: 0.65;
 }
 body.dark .sidenav li a:not(.subheader):hover {
-  background-color: #3B4043;
+  opacity: 1;
+  background-color: #27292a !important;
 }
-body.dark .sidenav li a.subheader {
+body.dark .sidenav li a.subheader,
+.top-nav i {
   color: #9AA0A6;
 }
 body.dark .sidenav li a .material-icons {
