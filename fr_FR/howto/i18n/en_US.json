@@ -41,6 +41,10 @@
         "Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly)": "Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly)",
         "Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud)": "Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud)"
     },
+    "howto\/index.md": {
+        "Sommaire": "Sommaire",
+        "Archive": "Archive"
+    },
     "howto\/jeedom.mise_a_jour_manuel.md": {
         "Nous allons voir ici comment faire une mise à jour manuellement sur": "Nous allons voir ici comment faire une mise à jour manuellement sur",
         "Jeedom, via la console SSH": "Jeedom, via la console SSH",
