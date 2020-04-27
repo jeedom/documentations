@@ -97,12 +97,12 @@ Sauvegardes préventives
 -----------------------
 
 -   Faire une [sauvegarde
-    Jeedom](https://jeedom.github.io/documentation/core/fr_FR/doc-core-backup.html)
+    Jeedom](https://jeedom.github.io/documentation/core/es_ES/doc-core-backup.html)
     de suyo **Jeedom Maître** y de suyo (vos) **Jeedom Esclavo(s)**
     y récupérer celle(s)-ci sobre suyo PC/NAS…​.
 
 -   Faire une [sauvegarde
-    SD/Disque](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
+    SD/Disque](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
     de suyo **Jeedom Maître** y de suyo (vos) **Jeedom Esclavo(s)**
     y les récupérer sobre suyo PC/NAS…​.
 
@@ -147,7 +147,7 @@ Installation du **Jeedom Fuente** :
 -   Installer un nouveau Jeedom sobre une nouvelle carte SD (Que cela soit
     pour mytre dans suyo **Jeedom Esclavo** existant ou pour un
     nouveau Raspberry Pi) en suivant la [documentation
-    d'installation](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html).
+    d'installation](https://jeedom.github.io/documentation/installation/es_ES/doc-installation.html).
 
 -   Mytre à jour le **Jeedom Fuente** à la dernière Haciaion (même si
     aucune mise à jour ne Vosotras est proposée).
@@ -253,7 +253,7 @@ remontée des équipements sobre le **Jeedom Cible** (Votre ancien Maître).
 > Les copies d'écran sobre fond blanc correspondent au **Jeedom Fuente**.\
 
 Sobre **Jeedom Fuente**,
-[configurer](https://jeedom.github.io/documentation/plugins/jeelink/fr_FR/jeelink)
+[configurer](https://jeedom.github.io/documentation/plugins/jeelink/es_ES/jeelink)
 le plugin "Jeedom Link" en spécifiant :
 
 -   Le nom du **Jeedom Cible**.

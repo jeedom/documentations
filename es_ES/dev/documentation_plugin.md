@@ -6,7 +6,7 @@ Nous allons voir dans cette documentation comment faire la documentation de votr
 
 ## Principio
 
-Le principe est très simple la documentation du plugin doit etre un simple lien web a indiquer dans votre fichier info.json (voir le détail [ici](https://jeedom.github.io/documentation/dev/fr_FR/structure_info_json) ) dans le champs documentation.
+Le principe est très simple la documentation du plugin doit etre un simple lien web a indiquer dans votre fichier info.json (voir le détail [ici](https://jeedom.github.io/documentation/dev/es_ES/structure_info_json) ) dans le champs documentation.
 
 A noter que vous avez aussi un champs Cambios qui doit fonctionne de la meme maniere que le champs documentation.
 

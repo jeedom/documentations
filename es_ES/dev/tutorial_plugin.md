@@ -4,7 +4,7 @@
 
 Voici un pyit TP pour expliquer comment créer un plugin. Pour l'exemple nous allons créer un plugin qui ryourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [Documentación officielle](https:/ // /jeedom.github.io/ /plugin-template/ /fr_FR/ /)
+Il ne remplace en aucun cas la [Documentación officielle](https:/ // /jeedom.github.io/ /plugin-template/ /es_ES/ /)
 
 # Créer la base du plugin
 
@@ -168,7 +168,7 @@ function vdm_remove() {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation y l'icône à mytre à jour : [Documentación](https:/ // /jeedom.github.io/ /Documentación/ /dev/ /fr_FR/ /Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation y l'icône à mytre à jour : [Documentación](https:/ // /jeedom.github.io/ /Documentación/ /dev/ /es_ES/ /Icone_de_plugin)
 
 Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 

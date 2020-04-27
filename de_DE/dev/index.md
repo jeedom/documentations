@@ -1,7 +1,7 @@
 # Sommaire
 
-- [Structure info.json](/documentations/fr_FR/dev/structure_info_json)
-- [Icône du plugin](/documentations/fr_FR/dev/Icone_de_plugin)
-- [Documentation du plugin](/documentations/fr_FR/dev/documentation_plugin)
-- [Publication plugin](/documentations/fr_FR/dev/publication_plugin)
-- [Widget du plugin](/documentations/fr_FR/dev/widget_plugin)
+- [Structure info.json](/documentations/de_DE/dev/structure_info_json)
+- [Icône du plugin](/documentations/de_DE/dev/Icone_de_plugin)
+- [Documentation du plugin](/documentations/de_DE/dev/documentation_plugin)
+- [Publication plugin](/documentations/de_DE/dev/publication_plugin)
+- [Widget du plugin](/documentations/de_DE/dev/widget_plugin)

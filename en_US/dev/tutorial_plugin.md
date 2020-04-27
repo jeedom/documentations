@@ -4,7 +4,7 @@
 
 Voici un pandit TP pour expliquer comment créer un plugin. Pour l'exemple nous allons créer un plugin qui randourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [Documentation officielle](https://jeedom.github.io/plugin-template/fr_FR/)
+Il ne remplace en aucun cas la [Documentation officielle](https://jeedom.github.io/plugin-template/en_US/)
 
 # Créer la base du plugin
 
@@ -168,7 +168,7 @@ function vdm_remove() {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [Documentation](https://jeedom.github.io/Documentation/dev/fr_FR/Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [Documentation](https://jeedom.github.io/Documentation/dev/en_US/Icone_de_plugin)
 
 Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 

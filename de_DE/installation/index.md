@@ -68,7 +68,7 @@ Jeedom Smart
 
 Vous trouverez ici la documentation nicht à nicht pour installer ou restaurer Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
+[ici](https://jeedom.github.io/documentation/howto/de_DE/recovery_mode_jeedom_smart)
 
 Jeedom mini+
 ===========
@@ -122,7 +122,7 @@ démarrer (5 min) und vous devriez le voir sur le réseau.
 > Les identifiants SSH sont jeedom/Mjeedom96
 
 Pour la suite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 
 Raspberrypi
@@ -250,7 +250,7 @@ Quittez en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
 Rebootez votre RPI
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Freebox Delta
 =============
@@ -298,7 +298,7 @@ l'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son n
 les login und mot de nichtse par défaut sont admin/admin quand vous accédez a jeedom via votre navigateur.
 
 Pour la suite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 VM
 ==
@@ -432,7 +432,7 @@ la saisir dans votre navigateur.
 > réseau en Pont réseau comme indiquée au départ.
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Docker
 ======
@@ -517,7 +517,7 @@ entrer les informations de connexion vers mysql :
 ![install other](images/install_other.PNG)
 
 Pour la suite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 > **Wichtig**
 >
@@ -715,7 +715,7 @@ du Docker mysql installé précédemment) und validez.
 > voulu.
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Andere
 ======
@@ -758,4 +758,4 @@ navigateur Internund.
     ./install.sh -w /var/www/html -z -m Jeedom
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/fr_FR/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).
