@@ -1,0 +1,12 @@
+{
+	"id" : "netatmoWeather",
+	"name" : "Netatmo Station",
+	"description" : "Plugin pour avoir les informations métérologiques des stations météo Netatmo",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.2",
+        "category" : "weather"
+,
+        "changelog" : "https://jeedom.github.io/plugin-netatmoWeather/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-netatmoWeather/#language#/"
+}

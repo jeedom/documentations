@@ -1,0 +1,3 @@
+| | | | | | |
+|--- | --- | --- | --- | --- | ---
+|Netatmo Station<img src="netatmoWeather/netatmoWeather_icon.png" width="100" /><br>[Documentation](netatmoWeather/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=133)<br/>Plugin pour avoir les informations métérologiques des stations météo Netatmo|Publie Meteo<img src="publiemeteo/publiemeteo_icon.png" width="100" /><br>[Documentation](publiemeteo/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2318)<br/>

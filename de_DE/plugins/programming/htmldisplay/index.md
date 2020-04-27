@@ -1,16 +1,16 @@
-# HTML-Anzeige
+# HTML Display
 
-Sehr einfaches Plugin, mit dem Sie den gewünschten HTML- / Javascript- / CSS-Code auf die Gerätekachel setzen können.
+Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements.
 
->**WICHTIG**
+>**IMPORTANT**
 >
->Das Plugin muss wissen, wie man in HTML, Javascript und CSS codiert. Das Jeedom-Team unterstützt den Code Ihres Widgets nicht.
+>Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget.
 
-Anwendungsfälle können sein :
+Les cas d'utilisation peuvent etre :
 
-- einzigartiges Menü für Designs
-- Aufnahme externer Informationen bei Jeedom
+- menu unique pour les designs
+- inclusion d'information exterieure à Jeedom
 
->**WICHTIG**
+>**IMPORTANT**
 >
->Zur Erinnerung: Die Designs verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop).
+>Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)
