@@ -16,8 +16,6 @@ var docMenu = [
       {link : "/documentations/#LANG#/presentation/index",fr_FR : "Présentation",en_US:"Presentation",es_ES:"Presentación",de_DE:"Presentation",pt_PT:""},
       {link : "/documentations/#LANG#/installation/index",fr_FR : "Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       {link : "/documentations/#LANG#/compatibility/index",fr_FR : "Compatibilité matériel et logiciel",en_US:"Compatibilité hardware and software",es_ES:"Compatibilidad de hardware y software.",de_DE:"Hardware- und Softwarekompatibilität",pt_PT:""},
-      {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start",es_ES:"Bota  Jeedom Smart",de_DE:"Erste Schritte Jeedom Smart",pt_PT:""},
-      {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start",es_ES:"Bota Jeedom pro",de_DE:"Erste Schritte Jeedom Pro",pt_PT:""},
       {link : "/documentations/#LANG#/premiers-pas/index",fr_FR : "Premiers pas",en_US:"First step",es_ES:"Empezando",de_DE:"Erste Schritte",pt_PT:""},
     ]
   },{
@@ -26,7 +24,10 @@ var docMenu = [
     es_ES : "Box Jeedom",
     de_DE : "Jeedom Box",
     pt_PT : "",
-    link : ""
+    submenu : [
+      {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start",es_ES:"Bota  Jeedom Smart",de_DE:"Erste Schritte Jeedom Smart",pt_PT:""},
+      {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start",es_ES:"Bota Jeedom pro",de_DE:"Erste Schritte Jeedom Pro",pt_PT:""},
+    ]
   },{
     fr_FR : "Services",
     en_US : "Service",
@@ -180,6 +181,7 @@ var docMenu = [
     pt_PT : "",
     submenu:[
       {link:"",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""}
+      {link:"",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
     ]
   },{
     fr_FR:'Assistance et bug',
@@ -195,17 +197,11 @@ var docMenu = [
     de_DE : "Entwickle auf Jeedom",
     pt_PT : "",
     submenu:[
-      {link:"",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
-      {link:"",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
-      {link:"",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
-      {link:"",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
+      {link:"/dev/#LANG#/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
+      {link:"/documentations/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
+      {link:"/documentations/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
+      {link:"/dev/#LANG#/index",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
     ]
-  },{
-    fr_FR:'Information',
-    en_US : 'Information',
-    es_ES : "Informacion",
-    de_DE : "Informationen",
-    pt_PT : "",
   }
 ]
 
