@@ -1,0 +1,14 @@
+{
+	"id" : "philipsHue",
+	"name" : "Philips Hue",
+	"description" : "Plugin pour commander les lampes Philips Hue.<br/>Fonctions dispos:<br/>- On/Off<br/>- Luminosité<br/>- Transition<br/>- Groupe<br/>- Couleur<br/>- Mode Alerte<br/>- Mode Arc en ciel<br/><br/>ATTENTION : il y a un léger décalage de couleurs connu entre le sélecteur et la couleur de l'ampoule. Il semble que la grille de couleur des ampoules aient un offset",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.3.32",
+	"category" : "communication",
+	"hasOwnDeamon" : 1,
+	"changelog" : "https://jeedom.github.io/plugin-philipsHue/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-philipsHue/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

@@ -1,0 +1,8 @@
+{
+	"id" : "publiemeteo",
+	"name" : "Publie Meteo",
+	"licence" : "AGPL",
+	"author" : "Jeedom Legacy",
+	"require" : "1.150",
+	"category" : "weather"
+}

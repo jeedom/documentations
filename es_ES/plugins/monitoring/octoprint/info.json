@@ -1,0 +1,11 @@
+{
+	"id" : "octoprint",
+	"name" : "Octoprint",
+	"description" : "Plugin pour monitorer vos serveurs d'impression 3D",
+	"licence" : "AGPL",
+	"author" : "Ludovic SARAKHA",
+	"require" : "3.0",
+	"category" : "monitoring",
+	"changelog" : "https://jeedom.github.io/plugin-octoprint/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-octoprint/#language#/"
+}

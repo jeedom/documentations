@@ -1,0 +1,11 @@
+{
+  "id": "netatmoWelcome",
+  "name" : "Netatmo Security",
+  "description" : "Plugin pour les caméras netatmo Welcome et Présence",
+  "licence" : "AGPL",
+  "author" : "Loïc",
+  "require" : "2.4",
+  "category" : "security",
+  "changelog" : "https://jeedom.github.io/plugin-netatmoWelcome/#language#/changelog",
+  "documentation" : "https://jeedom.github.io/plugin-netatmoWelcome/#language#/"
+}

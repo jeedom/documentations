@@ -226,6 +226,9 @@ for(var i in docMenu){
   if(menu.divider){
     html += '<li><div class="divider"></div></li>';
   }else if(menu.submenu){
+    if(submenu.link == ''){
+      continue; 
+    }
     html += '<li>';
     html += '<div class="collapsible-header">'+genText(menu,lang)+'</div>';
     html += '<div class="collapsible-body">';
@@ -239,6 +242,9 @@ for(var i in docMenu){
     html += '</li>';
   }else{
     if(menu.link){
+      if(menu.link == ''){
+        continue; 
+      }
       html += '<li><strong style="margin-left:5px;" href="'+menu.link.replace('#LANG#',lang)+'">'+genText(menu,lang)+'</strong></li>';
     }else{
       html += '<li><strong style="margin-left:5px;" href="#!">'+genText(menu,lang)+'</strong></li>';

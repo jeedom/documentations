@@ -1,0 +1,11 @@
+{
+	"id" : "greenmomit",
+	"name" : "Green Momit",
+	"description" : "Plugin pour les thermostats Greenmomit",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "2.4",
+        "category" : "wellness",
+        "changelog" : "https://jeedom.github.io/plugin-greenmomit/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-greenmomit/#language#/"
+}
