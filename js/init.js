@@ -289,7 +289,7 @@ $(function(){
     window.location.href = url;
   })
   
-  $('#sel_lang').on('change',function(){
+  $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
