@@ -284,6 +284,8 @@ $(function(){
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
+  
+  cookiesPolicyBar();
 });
 
 function getCookie(cname) {
@@ -307,4 +309,12 @@ function setCookie(cname, cvalue, exdays) {
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function cookiesPolicyBar(){
+  if (getCookie('cookiePolicyAccept') != "active") $('#cookieAcceptBar').show();
+  $('#cookieAcceptBarConfirm').on('click',function(){
+    setCookie('cookiePolicyAccept', 'active', { expires: 30 });
+    $('#cookieAcceptBar').fadeOut();
+  });
 }
