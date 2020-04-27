@@ -183,8 +183,8 @@ var docMenu = [
     de_DE : "Anleitungen",
     pt_PT : "",
     submenu:[
-      {link:"",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""},
-      {link:"",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
+      {link:"/documentations/#LANG#/plugins/howto/",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""},
+      {link:"/documentations/#LANG#/plugins/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
     ]
   },{
     fr_FR:'Assistance et bug',
@@ -203,7 +203,7 @@ var docMenu = [
       {link:"/dev/#LANG#/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
       {link:"/documentations/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
       {link:"/documentations/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
-      {link:"/documentations/#LANG#/dev/index",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
+      {link:"/documentations/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
     ]
   }
 ]
@@ -243,7 +243,7 @@ for(var i in docMenu){
       if(menu.link == ''){
         continue;
       }
-      html += '<li><strong style="margin-left:5px;" href="'+menu.link.replace('#LANG#',lang)+'">'+genText(menu,lang)+'</strong></li>';
+      html += '<li><a href="'+menu.link.replace('#LANG#',lang)+'"><strong style="margin-left:5px;">'+genText(menu,lang)+'</strong></a></li>';
     }else{
       html += '<li><strong style="margin-left:5px;" href="#!">'+genText(menu,lang)+'</strong></li>';
     }
