@@ -2,10 +2,19 @@ body {
   background-color: #eee;
   -webkit-transition: color 1s ease, background-color 1s ease;
   transition: color 1s ease, background-color 1s ease;
+  ​
 }
-body.dark {
-  background-color: #202123;
+body.dark,
+body.dark nav,
+body.dark ul,
+body.dark nav ul a, nav {
+  background-color: #202123 !important;
+  color: #fff !important;
+}
+body.dark a {
   color: #fff;
+  background-color: #202123 !important;
+  opacity: 0.65;
 }
 body.dark nav {
   background-color: #26A69A;

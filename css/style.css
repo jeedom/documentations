@@ -3,6 +3,11 @@ nav ul a,nav {
   background-color: #fff !important;
 }
 
+html,
+.sidenav {
+  scrollbar-width: thin;
+}
+
 .sidenav-trigger{
   color:black !important;
 }
