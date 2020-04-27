@@ -225,15 +225,15 @@ for(var i in docMenu){
   if(menu.divider){
     html += '<li><div class="divider"></div></li>';
   }else if(menu.submenu){
-    if(submenu.link == ''){
-      continue;
-    }
     html += '<li>';
     html += '<div class="collapsible-header">'+genText(menu,lang)+'</div>';
     html += '<div class="collapsible-body">';
     html += '<ul>';
     for(var j in menu.submenu){
       var submenu = menu.submenu[j];
+      if(submenu.link == ''){
+        continue;
+      }
       html += '<li><a href="'+submenu.link.replace('#LANG#',lang)+'">'+genText(submenu,lang)+'</a></li>';
     }
     html += '</ul>';
