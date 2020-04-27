@@ -65,6 +65,9 @@
         "\/\/doc.jeedom": "\/\/doc.jeedom",
         "com) ajoutera automatiquement votre plugin": "com) ajoutera automatiquement votre plugin"
     },
+    "dev\/index.md": {
+        "Sommaire": "Sommaire"
+    },
     "dev\/publication_plugin.md": {
         "Comment publier le plugin sur le market": "Comment publier le plugin sur le market",
         "Pré-requis": "Voraussetzungen",
