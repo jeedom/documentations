@@ -1,8 +1,5 @@
 body {
   background-color: #eee;
-  -webkit-transition: color 1s ease, background-color 1s ease;
-  transition: color 1s ease, background-color 1s ease;
-  ​
 }
 body.dark,
 body.dark nav,
