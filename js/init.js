@@ -243,7 +243,7 @@ for(var i in docMenu){
       if(menu.link == ''){
         continue;
       }
-      html += '<li><a href="'+menu.link.replace('#LANG#',lang)+'"><strong style="margin-left:5px;">'+genText(menu,lang)+'</strong></a></li>';
+      html += '<li><a href="'+menu.link.replace('#LANG#',lang)+'">'+genText(menu,lang)+'</a></li>';
     }else{
       html += '<li><strong style="margin-left:5px;" href="#!">'+genText(menu,lang)+'</strong></li>';
     }
