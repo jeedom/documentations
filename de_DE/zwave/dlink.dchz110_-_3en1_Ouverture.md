@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 in 1 Öffnung" 
+ DCH-Z110 - "3 in 1 Öffnung" 
 ====================================
 
 \.
@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : D-Link
+-   Machen Sie : 
 
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home

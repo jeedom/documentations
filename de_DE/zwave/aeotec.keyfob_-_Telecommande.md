@@ -1,4 +1,4 @@
-Aeotec Keyfob 
+ 
 =============
 
 \.
@@ -86,7 +86,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie : 
 
 -   Name : Schlüsselanhänger
 

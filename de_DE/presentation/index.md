@@ -3,23 +3,23 @@ Präsentation
 
 Jeedom besteht aus einem zentralen Teil (Kern genannt), der sich um die Grundfunktionen kümmert.
 
--   *Szenario,*
+-   *Szenario*
 
 ![Page Szenario](images/doc-presentation-scenario.png)
 
--   *Historisierung,*
+-   *Historisierung*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Anzeigen,*
+-   *Anzeigen*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
--   *Interaktion,*
+-   *Interaktion*
 
 ![Page Interaktion](images/doc-presentation-interaction.png)
 
--   *Aktualisieren und sichern.*
+-   *Aktualisieren und sichern*
 
 ![Page Mise à jour](images/doc-presentation-maj.png)
 
@@ -57,30 +57,30 @@ Seit der Realisierung dieser Tutorials konnte sich die Jeedom-Oberfläche jedoch
 
 Hier ist die Liste der verfügbaren Tutorials :
 
--   [Jeedom \ # 1 Tutorial : Erster Start](https://www.youtube.com/watch?v=UTECRBGEUtI)
+-   [Jeedom Tutorial 1 : Erster Start](https://www.youtube.com/watch?v=UTECRBGEUtI)
 
--   [Jeedom \ # 2 Tutorial : Erste Schritte mit Jeedom (Objekt, Markt, Plugin, Modul)](https://www.youtube.com/watch?v=2LU1neNvbus)
+-   [Jeedom 2 Tutorial : Erste Schritte mit Jeedom (Objekt, Markt, Plugin, Modul)](https://www.youtube.com/watch?v=2LU1neNvbus)
 
--   [Jeedom \ # 3 Tutorial : Jeedom, Widgets, Mails und Szenarien](https://www.youtube.com/watch?v=OJn33XbpiH8)
+-   [Jeedom 3 Tutorial : Jeedom, Widgets, Mails und Szenarien](https://www.youtube.com/watch?v=OJn33XbpiH8)
 
--   [Jeedom \ # 4 Tutorial : Jeedom, Verwenden des Agenda-Plugins](https://www.youtube.com/watch?v=EBuvIabg3Cc)
+-   [Jeedom 4 Tutorial : Jeedom, Verwenden des Agenda-Plugins](https://www.youtube.com/watch?v=EBuvIabg3Cc)
 
--   [Jeedom \ # 5 Tutorial : Skripte in Jeedom mit dem Skript-Plugin](https://www.youtube.com/watch?v=FRbQILAogX0)
+-   [Jeedom 5 Tutorial : Skripte in Jeedom mit dem Skript-Plugin](https://www.youtube.com/watch?v=FRbQILAogX0)
 
--   [Jeedom \ # 6 Tutorial : Szenarien in Jeedom mit dem Wetter-Plugin](https://www.youtube.com/watch?v=w0ErP3wyEoA)
+-   [Jeedom 6 Tutorial : Szenarien in Jeedom mit dem Wetter-Plugin](https://www.youtube.com/watch?v=w0ErP3wyEoA)
 
--   [Jeedom \ # 7 Tutorial : Präsentation des Energy Plugins](https://www.youtube.com/watch?v=DZfA_DxqbNs)
+-   [Jeedom 7 Tutorial : Präsentation des Energy Plugins](https://www.youtube.com/watch?v=DZfA_DxqbNs)
 
--   [Jeedom \ # 8 Tutorial : Entdeckung des Planmodus](https://www.youtube.com/watch?v=2IkXF6CBCAE)
+-   [Jeedom 8 Tutorial : Entdeckung des Planmodus](https://www.youtube.com/watch?v=2IkXF6CBCAE)
 
--   [Jeedom \ # 9 Tutorial : DataTransfert Plugin, Auto Backups und Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
+-   [Jeedom 9 Tutorial : DataTransfert Plugin, Auto Backups und Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
 
--   [Jeedom \ # 10 Tutorial : Lass Jeedom sprechen (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
+-   [Jeedom 10 Tutorial : Lass Jeedom sprechen (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
 
--   [Jeedom \ # 11 Tutorial : Erkennungsfenster einer Standardinstallation](https://www.youtube.com/watch?v=hW1d1FvkmSs)
+-   [Jeedom 11 Tutorial : Erkennungsfenster einer Standardinstallation](https://www.youtube.com/watch?v=hW1d1FvkmSs)
 
--   [Jeedom \ # 12 Tutorial : Entdeckung des Thermostat-Plugins](https://www.youtube.com/watch?v=T21gqp1SQK0)
+-   [Jeedom 12 Tutorial : Entdeckung des Thermostat-Plugins](https://www.youtube.com/watch?v=T21gqp1SQK0)
 
--   [Jeedom \ # 13 Tutorial : Entdeckung des Alarm-Plugins](https://www.youtube.com/watch?v=JjnWeU614gc)
+-   [Jeedom 13 Tutorial : Entdeckung des Alarm-Plugins](https://www.youtube.com/watch?v=JjnWeU614gc)
 
--   [Jeedom Tutorial # 14 : Entdeckung von Interaktionen](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+-   [Jeedom Tutorial 14 : Entdeckung von Interaktionen](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 

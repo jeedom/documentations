@@ -1,4 +1,4 @@
-Aeotec Garagentorsteuerung 
+ Garagentorsteuerung 
 ====================================
 
 \.
@@ -51,7 +51,7 @@ Funktionen
 
 -   Akustische und visuelle Warnungen zum Öffnen / Schließen.
 
--   Einstellbare Alarmlautstärke (max. 105 dB)
+-   Einstellbare Alarmlautstärke (max. )
 
 -   USB-Anschluss zum Laden eigener MP3-Sounds.
 
@@ -80,13 +80,13 @@ Technische Daten
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
 -   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Stapel
-    Lithium 3V 800mA CR2
+    
 
--   Standby-Verbrauch : 1W
+-   Standby-Verbrauch : 
 
--   Alarmverbrauch : 2W
+-   Alarmverbrauch : 
 
--   Maximale Lautstärke : 105 dB
+-   Maximale Lautstärke : 
 
 -   Unterstützte Audioformate : mp3 und WMV mit einer Frequenz von 320Kbps
 
@@ -96,9 +96,9 @@ Technische Daten
 
 -   Betriebstemperatur : -20 ° C bis 50 ° C.
 
--   Betriebsfeuchtigkeit : 80%
+-   Betriebsfeuchtigkeit : 
 
--   Zertifizierungen: FCC, UL, CE, ROHS
+-   Zertifizierungen: 
 
 \.
 
@@ -107,7 +107,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie : 
 
 -   Name : Garagentorsteuerung (ZW062)
 

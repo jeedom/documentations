@@ -76,7 +76,7 @@ Technische Daten
 
 -   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv)
 
--   Sicherung : T8AH
+-   Sicherung : 
 
 -   Frequenz : 868,42 MHz
 
@@ -93,7 +93,7 @@ Moduldaten
 
 -   Machen Sie : Popp / Duwi
 
--   Name : ZW ESJ Blind Control
+-   Name : 
 
 -   Hersteller ID : 100
 
@@ -224,7 +224,7 @@ und der zweite für den Abstieg.
 Die Werte werden im Modul hexadezimal codiert und zurückgesetzt
 Dezimal in der Jeedom-Anzeige.
 
-Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12
+Zum Beispiel : für 4626 ergibt dies hexadezimal : . Entweder 0x12
 für den Aufstieg und 0x12 für den Abstieg. Oder wieder reingebracht
 dezimal : 18s für Auf- und Abstieg.
 
