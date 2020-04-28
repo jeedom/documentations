@@ -33,7 +33,7 @@ copias de seguridad de la máquina en Synology
 Configuración de Synology 
 -------------------------
 
-Tienes que ir al panel de control y luego "Servicios de
+Tienes que ir al panel de control y luego "Servaquíos de
 archivos "y marque la casilla" Habilitar NFS" :
 
 ![vmware.tips4](images/vmware.tips4.PNG)
@@ -90,7 +90,7 @@ Complemento VAAI Synology agregado para montaje NFS
 
 Agregar este complemento habilita la aceleración de hardware en
 Montajes NFS (para una explicación, vea
-[ici](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
+[aquí](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 Para ver si lo tiene, debe conectarse con el cliente grueso
 (No encontré la información en el cliente web) y vaya a configuración →
@@ -98,8 +98,8 @@ almacenamiento :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-La instalación es bastante simple, primero debes activar el servicio
-ESXi SSH (en la interfaz web, vaya a la acción ⇒ servicios
+La instalación es bastante simple, primero debes activar el servaquío
+ESXi SSH (en la interfaz web, vaya a la acción ⇒ servaquíos
 ⇒ Active Secure Shell), luego conéctese en SSH arriba (el
 los identificadores son los mismos que para acceder a la interfaz). Entonces el
 solo lo haces :
@@ -110,7 +110,7 @@ Usted debe tener :
 
 ![vmware.tips14](images/vmware.tips14.PNG)
 
-Luego debe reiniciar el ESXi, para verificar que está bien, debe
+Luego debe reinaquíar el ESXi, para verificar que está bien, debe
 luego regrese con el cliente grueso a configuración → almacenamiento :
 
 ![vmware.tips15](images/vmware.tips15.PNG)
@@ -124,7 +124,7 @@ predeterminado en la versión 6.0 actualización 2, pero en la versión 1.0 es
 Se recomienda encarecidamente actualizarlo.
 
 Encontrarás toda la información
-[ici](https://labs.vmware.com/flings/esxi-embedded-host-client)
+[aquí](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 Para ver si tiene la interfaz web, simplemente vaya con
 su navegador en IP \ _ESXI / ui si no tiene nada que necesita
@@ -147,9 +147,9 @@ luego haga clic en el enlace "Descargar vSphere Client para Windows" :
 ![vmware.createvm](images/vmware.createvm.PNG)
 
 Una vez descargado solo tienes que comenzar la instalación (paso
-voluntariamente en esta parte porque es suficiente para validar todo).
+voluntariamente en esta parte porque es sufaquíente para validar todo).
 
-Luego, inicie VMware vSphere Client, debería tener :
+Luego, inaquíe VMware vSphere Client, debería tener :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -162,8 +162,8 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-yendo [aquí] (https://my.vmware.com / group / vmware / patch # search) (se
-probablemente tendrá que iniciar sesión con su cuenta de VMware). En la
+yendo [aquí](https://my.vmware.com / group / vmware / patch # search) (se
+probablemente tendrá que inaquíar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después
 descargar el parche deseado (generalmente el último). El número de compilación (el
@@ -205,12 +205,12 @@ Y en el cuadro "Servidor NTP" tienes que poner : 0.debian.pool.n,
 
 ![vmware.tips17](images/vmware.tips17.PNG)
 
-Luego, en Acciones → Servicio NTP → Estrategia, haga clic en "Iniciar y
+Luego, en Acciones → Servaquío NTP → Estrategia, haga clic en "Inaquíar y
 parar con el anfitrión" :
 
 ![vmware.tips18](images/vmware.tips18.PNG)
 
-Aún en Acciones → Servicio NTP, haga clic en "Iniciar"
+Aún en Acciones → Servaquío NTP, haga clic en "Inaquíar"
 
 Este es tu ESXi ya debería tomarse el tiempo solo.
 

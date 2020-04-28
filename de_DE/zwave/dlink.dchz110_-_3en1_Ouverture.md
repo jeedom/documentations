@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 in 1 Öffnung" 
+ DCH-Z110 - "3 in 1 Öffnung" 
 ====================================
 
 \.
@@ -82,7 +82,7 @@ Anderer technischer Link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-Techniken] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+Techniken](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \.
 
@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : D-Link
+-   Machen Sie : 
 
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home
@@ -113,7 +113,7 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 

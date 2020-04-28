@@ -16,16 +16,16 @@ which also contains a service pack (more support and services) and
 plugins offered :
 
 -   [Jeedom Smart
-    Z-Wave +] (https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+    Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
 -   [Jeedom Smart Z-Wave+ and
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
 
 -   [Jeedom Smart
-    EnOcean] (https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
 -   [Jeedom Smart EnOcean and
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
 
 Here is a "typical" configuration to gand started with Jeedom in Z-Wave :
 
@@ -55,12 +55,12 @@ complande control of its installation.
 > Jeedom's capabilities or its use may be chargeable **and
 > may need internand connection**. You can find
 > the list of plugins
-> [ici](http://markand.jeedom.fr/index.php?v = d & p = markand & type = plugin).
+> [here](http://markand.jeedom.fr/index.php?v = d & p = markand & type = plugin).
 
 > **Tip**
 >
 > Service pack ? Quézako ? You can see
-> [ici](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
+> [Here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
 
 
 Jeedom Smart
@@ -68,7 +68,7 @@ Jeedom Smart
 
 Here you will find step by step documentation to install or restore Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/en_US/recovery_mode_jeedom_smart)
+[Here](https://jeedom.github.io/documentation/howto/en_US/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -81,14 +81,14 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-You must download Etcher software [here] (https:// andcher.io /) then
+You must download Etcher software [here](https:// andcher.io /) then
 install it on your pc
 
 2nd step : Jeedom image recovery
 ---
 
 You have to go
-[ici](https://images.jeedom.com/jeeboard/),
+[Here](https://images.jeedom.com/jeeboard/),
 then in the Images folder recover the jeedom-jeeboard - \ *. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -122,7 +122,7 @@ start (5 min) and you should see it on the nandwork.
 > SSH IDs are jeedom / Mjeedom96
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 
 Raspberrypi
@@ -133,17 +133,17 @@ raspberry PI **with an SD card.**
 
 > **IMPORTANT**
 >
-> Debian 9 (Strandch) is the officially supported distribution for
+> Debian 9 (Strandch) is the offhereally supported distribution for
 > version 3.1.5 of jeedom.
 
 **1 / Download the latest "lite" image, ie without interface
 Graphic**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
+[Here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
-**2 / Decompress the image with winrar** [Ici](http://www.win-rar.com)
+**2 / Decompress the image with winrar** [here](http://www.win-rar.com)
 
 **3 / Burn this image on an SD with andcher for example**
-[ici](https:// andcher.io/)
+[Here](https:// andcher.io/)
 
 > **NOTE**
 >
@@ -186,12 +186,12 @@ You need to know the IP address of your PI. Many solutions :
 -   Consult the DHCP configuration in your router
 
 -   Use an angyipscanner type port scanner"
-    [ici](http://angryip.org/download/#windows)
+    [here](http://angryip.org/download/#windows)
 
 Establish connection
 
 Then use for example putty to establish your connection
-[Ici](http://www.putty.org/)
+[here](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on
 open. Accept the default security message when
@@ -250,7 +250,7 @@ Quit by saving : `CTRL+X` puis `O `puis `ENTREE`
 Reboot your RPI
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Freebox Delta
 =============
@@ -298,7 +298,7 @@ the IP address of your Jeedom on the Freebox Delta is written at the top, under 
 the default login and notsword are admin / admin when you access jeedom via your browser.
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 VM
 ==
@@ -311,16 +311,16 @@ Step 1 : Download and install VMware Player
 ---
 
 You must download the Virtual Box software
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+[Here](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 2nd step : Downloading a Debian strecht image - nandinstall
 ---
 
 Download a minimalist debian 9 Strandch image
-[Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
+[here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
 
 Download the extension pack, and install it.
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+[Here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stage 3 : Configuring the VM environment
 ---
@@ -330,7 +330,7 @@ Click on new and fill in the fields as below :
 ![VirtualBox1](images/VirtualBox1.PNG)
 
 -   Click on next, adapt the memory size in relation to
-    your system (1024 are sufficient)
+    your system (1024 are suffhereent)
 
 -   Click next, create a virtual disk now
 
@@ -429,10 +429,10 @@ enter it in your browser.
 > **Warning**
 >
 > If this does not work, you have not configured your card
-> nandwork in Borntwork bridge as indicated at the start.
+> nandwork in Nandwork bridge as indicated at the start.
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Docker
 ======
@@ -473,7 +473,7 @@ To install it on a distribution
 > You can also install mysql directly on the host machine,
 > in this case, skip this step.
 
-I use [this one] (https://hub.docker.com/_/mysql/). To install it
+I use [this one](https://hub.docker.com/_/mysql/). To install it
 :
 
     docker pull mysql:latest
@@ -517,7 +517,7 @@ enter connection information to mysql :
 ![install other](images/install_other.PNG)
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 > **IMPORTANT**
 >
@@ -715,7 +715,7 @@ Docker mysql installed previously) and validate.
 > desired.
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Any
 ======
@@ -725,10 +725,10 @@ Linux systems (tested and approved on the Debian distribution)
 
 > **IMPORTANT**
 >
-> Debian 9 (Strandch) is the officially supported distribution for
+> Debian 9 (Strandch) is the offhereally supported distribution for
 > version 3.1.7 of Jeedom (but Jessie remains perfectly
 > functional). If you do not master a minimum the environments
-> Linux, we advise you to start with an official image (OVF)
+> Linux, we advise you to start with an offhereal image (OVF)
 > or the use of a Mini + or Smart (available soon).
 
 > **IMPORTANT**
@@ -758,4 +758,4 @@ Web browser.
     ./install.sh -w / var / www / html -z -m Jeedom
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index).

@@ -138,14 +138,14 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper documentation.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -245,10 +245,10 @@ Parameter details :
     group 2
 
 -   5: operating mode (not recommended to change it : report to
-    on the manufacturer's documentation)
+    on the manufacturer's Documentation)
 
 -   6: multi-sensor operating mode (not recommended to change it
-    : refer to the manufacturer's documentation)
+    : refer to the manufacturer's Documentation)
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2

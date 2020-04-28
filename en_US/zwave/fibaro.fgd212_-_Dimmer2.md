@@ -156,14 +156,14 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper documentation. If the
+> inclusion button, according to its paper Documentation. If the
 > module is not already included, it will be included
 > automatically when powered up.
 

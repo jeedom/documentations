@@ -7,7 +7,7 @@ Hay varias posibilidades para crear widgets personalizados para complementos :
 
 ## Función ToHtml
 
-Por encima de nada especial, la función toHtml debe devolver el widget en html, tiene un ejemplo [the] (https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Por encima de nada especial, la función toHtml debe devolver el widget en html, tiene un ejemplo [the](https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Lo importante es especialmente las primeras líneas. : 
 
@@ -21,7 +21,7 @@ if (!is_array($replace)) {
 La función preToHtml devuelve :
 
 - una cadena si el widget está en caché (si está en caché, no ha habido cambios desde la última generación, por lo que es posible que desee enviarlo de inmediato)
-- una tabla con los reemplazos principales, tiene la lista [aquí] (https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- una tabla con los reemplazos principales, tiene la lista [aquí](https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## El sistema de plantillas
 
@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí] (https:// github.com / jeedom / core / tree / alpha / core / template / dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y bajo tipo de cadena.
+Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí](https:// github.com / jeedom / core / tree / alpha / core / template / dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y bajo tipo de cadena.
 
 >**Importante
 >

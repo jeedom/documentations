@@ -104,14 +104,14 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
-> until the light turns red, according to its documentation
+> until the light turns red, according to its Documentation
 > paper.
 
 \
@@ -197,7 +197,7 @@ Parameter details :
 -   2 : This setting allows you to configure the reporting reports of
     power cut / return, as well as the associated groups (Groups
     4, 5, 6, 7, 8). Several combinations are possible (refer to
-    paper documentation or help bubble in jeedom). It is
+    paper Documentation or help bubble in jeedom). It is
     recommended to set this parameter to 1.
 
 -   3 : This parameter enables groups 2 and 3 to be activated or deactivated.

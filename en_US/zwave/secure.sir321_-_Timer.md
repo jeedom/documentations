@@ -102,7 +102,7 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -110,7 +110,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 1 second on
 > the button (until rapid flashing) and release, in accordance with
-> paper documentation.
+> paper Documentation.
 
 \
 
@@ -179,7 +179,7 @@ Parameter details :
 \
 
 -   1: Allows you to activate or not the fail safe timer function (refer to
-    module documentation)
+    module Documentation)
 
 -   2: Adjusts the temperature unit
 

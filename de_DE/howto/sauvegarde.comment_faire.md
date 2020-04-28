@@ -24,14 +24,14 @@ regelmäßige Sicherung von Jeedom.
 > Das Verfahren zur Wiederherstellung der microSD-Karte kann für hilfreich sein
 > Stellen Sie ein Standard-Jeedom aus dem von bereitgestellten Image wieder her
 > das Team sehen
-> [ici](https://www.jeedom.fr/doc/documentation/installation/de_DE/doc-installation.html).
+> [hier](https://www.jeedom.fr/doc/documentation/installation/de_DE/doc-installation.html).
 
 Jeedom Backup / Restore 
 =================================
 
 Zur Erläuterung der Seite ist bereits eine Dokumentation vorhanden
 Administration → Backups. Sie werden es finden
-[ici](https://jeedom.github.io/core/de_DE/backup).
+[hier](https://jeedom.github.io/core/de_DE/backup).
 
 Sichern / Wiederherstellen der microSD-Karte 
 ===========================================

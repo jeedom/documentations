@@ -90,7 +90,7 @@ VAAI Synology Plugin für die NFS-Montage hinzugefügt
 
 Durch Hinzufügen dieses Plugins wird die Hardwarebeschleunigung aktiviert
 NFS-Halterungen (eine Erklärung finden Sie unter
-[ici](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
+[hier](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden
 (Ich habe die Informationen auf dem Webclient nicht gefunden) und gehe zu Konfiguration →
@@ -124,7 +124,7 @@ Standard in Version 6.0 Update 2, aber in Version 1.0 ist es
 dringend empfohlen, es zu aktualisieren.
 
 Hier finden Sie alle Informationen
-[ici](https://labs.vmware.com/flings/esxi-embedded-host-client)
+[hier](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 Um zu sehen, ob Sie die Weboberfläche haben, gehen Sie einfach mit
 Ihr Browser auf IP \ _ESXI / ui, wenn Sie nichts haben, was Sie brauchen

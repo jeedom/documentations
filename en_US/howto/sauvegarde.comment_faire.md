@@ -24,14 +24,14 @@ regular backup of Jeedom.
 > The microSD card restore procedure may be useful for
 > restore a default Jeedom from the Picture provided by
 > the team see
-> [ici](https://www.jeedom.fr/doc/documentation/installation/en_US/doc-installation.html).
+> [here](https://www.jeedom.fr/doc/documentation/installation/en_US/doc-installation.html).
 
 Jeedom Backup / Restore 
 =================================
 
 Documentation is already present to explain the page
 Administration → Backups. You will find it
-[ici](https://jeedom.github.io/core/en_US/backup).
+[here](https://jeedom.github.io/core/en_US/backup).
 
 Backup / Restore microSD card 
 ===========================================

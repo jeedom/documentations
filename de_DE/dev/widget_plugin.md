@@ -7,7 +7,7 @@ Es gibt verschiedene Möglichkeiten, benutzerdefinierte Widgets für Plugins zu 
 
 ## ToHtml-Funktion
 
-Vor allem muss die Funktion toHtml das Widget in HTML zurückgeben, Sie haben ein Beispiel [the] (https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Vor allem muss die Funktion toHtml das Widget in HTML zurückgeben, Sie haben ein Beispiel [the](https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Das Wichtigste ist vor allem die 1. Zeile : 
 
@@ -21,7 +21,7 @@ if (!is_array($replace)) {
 Die Funktion preToHtml gibt zurück :
 
 - eine Zeichenfolge, wenn das Widget zwischengespeichert ist (wenn es zwischengespeichert ist, hat sich seit der letzten Generation nichts geändert, daher möchten Sie es möglicherweise sofort senden)
-- Wenn Sie eine Tabelle mit den wichtigsten ersetzen, haben Sie die Liste [hier] (https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- Wenn Sie eine Tabelle mit den wichtigsten ersetzen, haben Sie die Liste [hier](https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Das Vorlagensystem
 
@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (Sie haben die Liste der Vorlagen [hier] (https):// github.com / jeedom / core / tree / alpha / core / template / dashboard (es sind diejenigen mit tmpl im Namen), für einen Befehl vom Typ info und unter Zeichenfolgentyp.
+Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (Sie haben die Liste der Vorlagen [hier](https):// github.com / jeedom / core / tree / alpha / core / template / dashboard (es sind diejenigen mit tmpl im Namen), für einen Befehl vom Typ info und unter Zeichenfolgentyp.
 
 >**Wichtig
 >

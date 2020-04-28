@@ -82,7 +82,7 @@ Otro enlace técnico :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-técnicas] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+técnicas](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -113,7 +113,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 

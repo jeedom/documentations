@@ -18,7 +18,7 @@ In Jeedom gibt es verschiedene Möglichkeiten, Bedenken zu melden :
 
 # Welche Informationen müssen gesendet werden, um so schnell wie möglich eine Lösung zu finden?
 
-Unabhängig davon, mit welcher Methode das aufgetretene Problem gemeldet wird, ist es sehr wichtig, so viele Informationen wie möglich anzugeben. Zu unserem größten Bedauern haben 80% der Anfragen die erste Standardantwort : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". Und ja ... trotz unseres guten Willens sehen wir Ihren Bildschirm nicht, wir haben keine Geschichte darüber, was Sie als Manipulation getan haben, und wir verwenden manchmal ein anderes Vokabular, um über dieselben Dinge zu sprechen...
+Unabhängig davon, mit welcher Methode das aufgetretene Problem gemeldet wird, ist es sehr wichtig, so viele Informationen wie möglich anzugeben. Zu unserem größten Bedauern haben 80% der Anfragen die erste Standardantwort : "Bitte geben Sie uns weitere Informationen zum Problem, damit wir Ihnen helfen können. [...]". Und ja ... trotz unseres guten Willens sehen wir Ihren Bildschirm nicht, wir haben keine Geschichte darüber, was Sie als Manipulation getan haben, und wir verwenden manchmal ein anderes Vokabular, um über dieselben Dinge zu sprechen...
 
 Da wir Ihnen jedoch wirklich helfen möchten, finden Sie hier einige Hinweise, die uns wertvolle Informationen geben : 
 

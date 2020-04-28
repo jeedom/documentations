@@ -1,5 +1,5 @@
 Here is a tutorial to install VMware on an Intel NUC (gen6). We
-will see later how to add Jeedom on it
+will see theter how to add Jeedom on it
 
 Equipment 
 ===========
@@ -35,16 +35,16 @@ In addition, there are 2 types of case :
 That makes 4 references :
 
 -   i3 M2 : [Intel NUC
-    NUC6I3SYK] (http://www.ldlc.com/fiche/PB00203086.html) 320 €
+    NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) 320 €
 
 -   i3 M2 + 2.5inch : [Intel NUC
-    NUC6I3SYH] (http://www.ldlc.com/fiche/PB00203148.html) 320 €
+    NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) 320 €
 
 -   i5 M2 : [Intel NUC
-    NUC6I5SYK] (http://www.ldlc.com/fiche/PB00203084.html) 460 €
+    NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) 460 €
 
 -   i5 M2 + 2.5inch : [Intel NUC
-    NUC6I5SYH] (http://www.ldlc.com/fiche/PB00202760.html) 430 €
+    NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) 430 €
 
 SSD 
 ---
@@ -59,22 +59,22 @@ this 40GB for VMware itself it fills up quickly.
 > **IMPORTANT**
 >
 > VMware does not support adding USB disk, so it is difficult
-> to extend the available space
+> to extend the avaitheble space
 
 -   [LDLC SSD M.2 2280 F6 PLUS 120
-    GB] (http://www.ldlc.com/fiche/PB00203635.html) 55 €
+    GB](http://www.ldlc.com/fiche/PB00203635.html) 55 €
 
 -   [Samsung SSD 850 EVO 120 Go
-    M.2] (http://www.ldlc.com/fiche/PB00185923.html) 100 €
+    M.2](http://www.ldlc.com/fiche/PB00185923.html) 100 €
 
 -   [LDLC SSD M.2 2280 F6 PLUS 240
-    GB] (http://www.ldlc.com/fiche/PB00203636.html) 105 €
+    GB](http://www.ldlc.com/fiche/PB00203636.html) 105 €
 
 -   [Samsung SSD 850 EVO 250 Go
-    M.2] (http://www.ldlc.com/fiche/PB00185924.html) 120 €
+    M.2](http://www.ldlc.com/fiche/PB00185924.html) 120 €
 
 -   [LDLC SSD M.2 2280 F6 PLUS 480
-    GB] (http://www.ldlc.com/fiche/PB00207301.html) 190 €
+    GB](http://www.ldlc.com/fiche/PB00207301.html) 190 €
 
 Memory 
 -------
@@ -87,18 +87,18 @@ cheaper is going very well (be careful I always take packs of 2
 bars, this improves performance) :
 
 -   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
-    X8] (http://www.ldlc.com/fiche/PB00204134.html) 35 €
+    X8](http://www.ldlc.com/fiche/PB00204134.html) 35 €
 
 -   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
-    X8] (http://www.ldlc.com/fiche/PB00204135.html) 65 €
+    X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
 
 -   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
-    X8] (http://www.ldlc.com/fiche/PB00204136.html) 120 €
+    X8](http://www.ldlc.com/fiche/PB00204136.html) 120 €
 
-Installation preparation 
+Instalthetion preparation 
 =============================
 
-Before launching the installation itself, we will first have to
+Before theunching the instalthetion itself, we will first have to
 recover VMware and put it on a USB key.
 
 VMware Download 
@@ -108,32 +108,32 @@ VMware Download
 >
 > If you put vmware 6.5, there is a problem with the new management
 > USB and Zwave keys, for this to work you must apply this
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language = en_US & cmd = displayKC & externalId = 2147650). Attention this manipulation is no longer to be done in vmware 6.7
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?thenguage = en_US & cmd = disptheyKC & externalId = 2147650). Attention this maniputhetion is no longer to be done in vmware 6.7
 
 It's the hardest actually I think, to simplify your life you have to
 :
 
 -   go on
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     and register
 
 -   wait for the email to validate the registration
 
 -   return
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     and log in (you may be asked to accept the
     conditions, you must validate)
 
 -   then go
-    [là](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
+    [the](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
     and add to your account "ESXi ISO image (Includes VMware Tools)"
 
 -   finally return
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
-    and there you must have in "Downlaod Packages", an "ESXi package
+    [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    and there you must have in "Downtheod Packages", an "ESXi package
     ISO image (Includes VMware Tools) "that you need to download
 
-![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
+![instalthetion.vmware.nuc](images/instalthetion.vmware.nuc.PNG)
 
 Right above you also have your license key, you can
 take advantage to recover it.
@@ -142,15 +142,15 @@ Rufus download
 -----------------------
 
 There it is much simpler you just have to click
-[la](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
-launch the .exe
+[the](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
+theunch the .exe
 
 Creation of the bootable USB key 
 --------------------------------
 
 Here too it is easy this is how to configure rufus :
 
-![installation.vmware.nuc2](images/installation.vmware.nuc2.PNG)
+![instalthetion.vmware.nuc2](images/instalthetion.vmware.nuc2.PNG)
 
 All you have to do is click on start and wait.
 
@@ -165,48 +165,48 @@ These are the 3 components for my NUC :
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
-![installation.vmware.nuc3](images/installation.vmware.nuc3.jpg)
+![instalthetion.vmware.nuc3](images/instalthetion.vmware.nuc3.jpg)
 
 The NUC box :
 
-![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
+![instalthetion.vmware.nuc4](images/instalthetion.vmware.nuc4.jpg)
 
 Opening of it :
 
-![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
+![instalthetion.vmware.nuc5](images/instalthetion.vmware.nuc5.jpg)
 
 Components out of their box :
 
-![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
+![instalthetion.vmware.nuc6](images/instalthetion.vmware.nuc6.jpg)
 
 Opening the NUC, there it is very simple, put it upside down, unscrew
 the 4 screws under the feet (they do not come out in full it is normal it
 just unscrew them), then slightly pull on the screws to open
 the NUC:
 
-![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
+![instalthetion.vmware.nuc7](images/instalthetion.vmware.nuc7.jpg)
 
 The SSD installed (on the left), the end screw to block it is a
 hard to put back, fortunately we only do that once
 
-![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
+![instalthetion.vmware.nuc8](images/instalthetion.vmware.nuc8.jpg)
 
-Memory installation (right) :
+Memory instalthetion (right) :
 
-![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
+![instalthetion.vmware.nuc10](images/instalthetion.vmware.nuc10.jpg)
 
 And there you are, you can close (unless of course you have taken a
 SSD 2.5 inches which must be inserted in the cover in this case).
 
-VMware installation 
+VMware instalthetion 
 ======================
 
 There it is very simple, just put the USB key on one of the ports
 NUC USB, plug a screen into the HDMI port, a keyboard and
-food. You turn on the NUC, the installation will start
+food. You turn on the NUC, the instalthetion will start
 alone :
 
-![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
+![instalthetion.vmware.nuc11](images/instalthetion.vmware.nuc11.jpg)
 
 > **NOTE**
 >
@@ -216,36 +216,36 @@ alone :
 Here select the disk corresponding to the SSD (you can
 identify either by name or by size)
 
-![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
+![instalthetion.vmware.nuc13](images/instalthetion.vmware.nuc13.jpg)
 
 Select "French" :
 
-![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
+![instalthetion.vmware.nuc14](images/instalthetion.vmware.nuc14.jpg)
 
 Put a password, at the beginning I advise you to put a simple thing
-like "oooo" (we'll change it later) :
+like "oooo" (we'll change it theter) :
 
-![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
+![instalthetion.vmware.nuc15](images/instalthetion.vmware.nuc15.jpg)
 
 Confirm by pressing F11 :
 
-![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
+![instalthetion.vmware.nuc16](images/instalthetion.vmware.nuc16.jpg)
 
-The installation will take 10 to 20 minutes, then you will need to remove
+The instalthetion will take 10 to 20 minutes, then you will need to remove
 the USB key and wait for the reboot system
 
-![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
+![instalthetion.vmware.nuc17](images/instalthetion.vmware.nuc17.jpg)
 
 Once the reboot is finished you should have :
 
-![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
+![instalthetion.vmware.nuc18](images/instalthetion.vmware.nuc18.jpg)
 
 Here VMware is installed (in addition it is nice it gives you its IP) ,
-more than playing with !!!
+more than ptheying with !!!
 
 For the rest here is a
-[tutoriel](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.creer_une_vm.html)
+[Tutorial](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.creer_une_vm.html)
 for the creation of your first VM. And you will find
-[ici](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.trucs_et_astuces.html)
+[here](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.trucs_et_astuces.html)
 a tutorial of tips and tricks (for example to put your license
 VMware)

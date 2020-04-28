@@ -1,33 +1,33 @@
 # Zusammenfassung
 
-- [Huawei GSM mode réseaux](/documentations/de_DE/howto/gsm.huawei_mode_carte_reseau)
-- [Huawei GSM mode modem](/documentations/de_DE/howto/gsm.huawei_mode_modem)
-- [Mariadb/Mysql truc et astuce](/documentations/de_DE/howto/mysql.trucs_et_astuces)
-- [Github](/documentations/de_DE/howto/tuto.github)
+- [Huawei GSM-Netzwerkmodus](/ documentation / de_FR / howto / gsm.huawei_mode_carte_reseau)
+- [Huawei GSM-Modemmodus](/ documentation / de_DE / howto / gsm.huawei_mode_modem)
+- [Mariadb / MySQL-Tipp und Tipp](/ documentations / fr_FR / howto / mysql.trucs_et_astuces)
+- [Github](/ documentations / fr_FR / howto / tuto.github)
 
 ## Debian
 
-- [Installation](/documentations/de_DE/howto/debian.installation)
-- [Truc et astuces](/documentations/de_DE/howto/debian.trucs_et_astuces)
+- [Installation](/ documentations / fr_FR / howto / debian.installation)
+- [Tipps und Tricks](/ documentations / fr_FR / howto / debian.trucs_et_astuces)
 
 ## VMware
 
-- [Créer une vm](/documentations/de_DE/howto/vmware.creer_une_vm)
-- [Insallation sur NUC](/documentations/de_DE/howto/vmware.installation_sur_nuc)
-- [Sauvegarde/restauration](/documentations/de_DE/howto/vmware.mise_en_place_des_backups)
-- [Truc et astuce](/documentations/de_DE/howto/vmware.trucs_et_astuces)
+- [Erstellen Sie eine VM](/ documentations / fr_FR / howto / vmware.creer_une_vm)
+- [Installation auf NUC](/ documentations / fr_FR / howto / vmware.installation_sur_nuc)
+- [Sichern / Wiederherstellen](/ documentation / de_FR / howto / vmware.mise_en_place_des_backups)
+- [Hinweis und Tipp](/ documentation / de_DE / howto / vmware.trucs_et_astuces)
 
 ## Archiv
 
-- [Android autovoice](/documentations/de_DE/howto/android.autovoice)
-- [Installer monit](/documentations/de_DE/howto/installation.monit)
-- [Installer nodered](/documentations/de_DE/howto/installation.nodered)
-- [Installer openjabnab](/documentations/de_DE/howto/installation.openjabnab)
-- [Installer shellinbox](/documentations/de_DE/howto/installation.shellinabox)
-- [Migration jeelink](/documentations/de_DE/howto/jeelink.migration)
-- [Karotz changer la voix](/documentations/de_DE/howto/karotz.utiliser_un_autre_moteur_de_voix)
-- [Let's encrypt mise en place](/documentations/de_DE/howto/letsencrypt.mise_en_place)
-- [Migration Apache](/documentations/de_DE/howto/migration.apache)
-- [Synology utilisation du VPN](/documentations/de_DE/howto/synology.utilisation_vpn)
-- [Utilisation emoncms](/documentations/de_DE/howto/utilisation.emoncms)
-- [Utilisation opengarage](/documentations/de_DE/howto/utilisation.opengarage)
+- [Android Autovoice](/ Dokumentation / de_DE / howto / android.autovoice)
+- [Monit installieren](/ documentation / de_DE / howto / installation.monit)
+- [Install nodered](/ documentation / de_DE / howto / installation.nodered)
+- [Openjabnab installieren](/ documentations / fr_FR / howto / installation.openjabnab)
+- [Shellinbox installieren](/ documentation / de_DE / howto / installation.shellinabox)
+- [Jeelink-Migration](/ documentation / de_DE / howto / jeelink.migration)
+- [Karotz ändere die Stimme](/ documentation / de_DE / howto / karotz.user_un_autre_moteur_de_voix)
+- [Lassen Sie uns die Implementierung verschlüsseln](/ documentations / fr_FR / howto / letsencrypt.mise_en_place)
+- [Apache-Migration](/ documentation / en_FR / howto / migration.apache)
+- [Synologie mit dem VPN](/ documentations / fr_FR / howto / synology. Utility_vpn)
+- [Usage emoncms](/ documentations / fr_FR / howto / usage.emoncms)
+- [Opengarage verwenden](/ documentations / fr_FR / howto / usage.opengarage)

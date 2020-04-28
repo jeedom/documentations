@@ -94,7 +94,7 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
 > **IMPORTANT**
 >
@@ -140,7 +140,7 @@ keys ", this is how the module works:
 
 > **NOTE**
 >
-> Refer to the manufacturer's documentation in order to be able to
+> Refer to the manufacturer's Documentation in order to be able to
 > configure your transmitter.
 
 ![diagramme](images/emv.400/diagramme.jpg)
@@ -292,7 +292,7 @@ Each output must be associated with a Jeedom command:
 Remote method 
 ----------------
 
-We talked about it at the beginning of this documentation. In the case of
+We talked about it at the beginning of this Documentation. In the case of
 modules already built in, in false ceilings or even attics.
 This method allows the addition of a new transmitter without accessing the "R" of the
 receiver.

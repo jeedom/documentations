@@ -30,7 +30,7 @@ GhettoVCB Installation
 =========================
 
 Wir müssen das wiederherstellen
-[script](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
+[Skript](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
 und übertragen Sie es auf den ESXi (im selben Datenspeicher wie der, der sich befindet
 willkommene Backups zum Beispiel).
 
@@ -100,7 +100,7 @@ Die Parameter, die Sie anpassen müssen, sind :
 > **Notiz**
 >
 > Sie können konsultieren
-> [ici](https://communities.vmware.com / docs / DOC-8760) Dokumentation
+> [Hier](https://communities.vmware.com / docs / DOC-8760) Dokumentation
 > komplett von ghettoVCB mit einer Beschreibung jedes Parameters
 
 > **Wichtig**

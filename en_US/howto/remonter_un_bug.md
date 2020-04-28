@@ -2,7 +2,7 @@
 
 There are several ways in Jeedom to report a concern : 
 
-- raise the concern on the [community] (https://community.jeedom.com), this is usually where you will get the quickest answer
+- raise the concern on the [community](https://community.jeedom.com), this is usually where you will get the quickest answer
 - report a concern to the Jeedom team : 
   - **Support request** (requires a service pack power or more or even if the concern is on a plugin / paid service), this request is **private** and will put you directly in contact with the Jeedom support team which analyzes your particular case
   - **Bug report**, in this case the request is **public** and will be posted on the community
@@ -18,7 +18,7 @@ There are several ways in Jeedom to report a concern :
 
 # What information to send to have a solution as quickly as possible
 
-Whatever method is used to report the problem encountered, it is very important to give as much information as possible. Indeed, to our greatest regret, 80% of requests have the first standard response : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". And yes ... despite our good will, we do not see your screen, we have no history of what you did as manipulation, and we sometimes use a different vocabulary to talk about the same things...
+Whatever method is used to report the problem encountered, it is very important to give as much information as possible. Indeed, to our greatest regret, 80% of requests have the first standard response : "please give us more information about the problem so that we can help you. [...]". And yes ... despite our good will, we do not see your screen, we have no history of what you did as manipulation, and we sometimes use a different vocabulary to talk about the same things...
 
 But as we really want to help you, here are some clues to give us some valuable information : 
 

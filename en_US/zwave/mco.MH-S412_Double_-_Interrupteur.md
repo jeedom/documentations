@@ -108,7 +108,7 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -116,7 +116,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press only one
 > 2 buttons on the front panel for 3 sec, in accordance with its
-> paper documentation.
+> paper Documentation.
 
 Once included you should get this :
 
@@ -217,10 +217,10 @@ Faq.
 
 To exclude this model, put Openzwave in exclusion mode and press
 on one of the 2 buttons on the front panel for 3 sec, in accordance with its
-paper documentation.
+paper Documentation.
 
 To restore the factory settings, press only one of the 2 buttons
-on the front panel for 10 sec, in accordance with its paper documentation.
+on the front panel for 10 sec, in accordance with its paper Documentation.
 
 \
 

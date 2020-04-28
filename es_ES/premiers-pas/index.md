@@ -4,14 +4,14 @@ ayuda a configurar tu Jeedom.
 > **Punta**
 >
 > Esta guía no pretende reemplazar la documentación completa
-> disponible en el sitio web de Jeedom [aquí] (https:// jeedom.fr/doc).
+> disponible en el sitio web de Jeedom [aquí](https:// jeedom.fr/doc).
 
 Registro en el mercado 
 =========================
 
 Lo primero que debe hacer es crear una cuenta en el mercado para
 poder registrar su Jeedom en este, haga clic
-[ici](https://www.jeedom.com/market) pour commencer
+[aquí](https://www.jeedom.com/market) pour commencer
 
 ![premier market](images/premier-market.png)
 
@@ -26,26 +26,26 @@ esta página:
 
 Aquí está su cuenta Mercado creada, para más detalles sobre el mercado
 haga clic
-[ici](https://www.jeedom.fr/doc/documentation/core/es_ES/doc-core-market.html)
+[aquí](https://www.jeedom.fr/doc/documentation/core/es_ES/doc-core-market.html)
 
-Agregar su código de paquete de servicio 
+Agregar su código de paquete de servaquío 
 ================================
 
 Si compró una caja Jeedom, entonces debería haber recibido un correo electrónico
-que contiene un código para su paquete de servicio.
+que contiene un código para su paquete de servaquío.
 
 > **Importante**
 >
 > Es importante completarlo porque este código le da acceso a
-> ciertos complementos de forma gratuita, así como servicios exclusivos.
+> ciertos complementos de forma gratuita, así como servaquíos exclusivos.
 
 > **Importante**
 >
-> Si compra un paquete de servicio en el mercado Jeedom, no tiene
+> Si compra un paquete de servaquío en el mercado Jeedom, no tiene
 > nada que hacer, se te asigna automáticamente.
 
 Una vez que se recupera el código en el correo, solo necesita ir al
-[market Jeedom](https://market.jeedom.fr) et de vous identifier.
+[Mercado de la libertad](https://market.jeedom.fr) et de vous identifier.
 
 Luego ve a tu página de perfil:
 
@@ -55,17 +55,17 @@ Luego haga clic en la pestaña "Mis Jeedoms""
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Ingrese su número de paquete de servicio y valide:
+Ingrese su número de paquete de servaquío y valide:
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Aquí está su paquete de servicio registrado. Para más detalles sobre el
+Aquí está su paquete de servaquío registrado. Para más detalles sobre el
 Clic de mercado
-[ici](https://github.com/jeedom/core/blob/stable/doc/es_ES/market.asciidoc)
+[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/market.asciidoc)
 
 > **Punta**
 >
-> Si compró una caja oficial de Jeedom, el número de servicio
+> Si compró una caja ofaquíal de Jeedom, el número de servaquío
 > el paquete debería haberte enviado por correo electrónico. Si no has recibido nada, gracias
 > ponerse en contacto con la tienda donde compró su caja.
 
@@ -84,7 +84,7 @@ La solución más simple (pero no funciona en el 100% de los casos en
 dependiendo de la configuración de su acceso a internet), debe comenzar
 la caja, espere unos 10 minutos (tenga cuidado si usa un
 imagen del tipo de instalación neta, será más bien 30 minutos) y listo
-[ici](https://www.jeedom.com/market/index.php?v=d&p=find)
+[aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Punta**
 >
@@ -94,7 +94,7 @@ imagen del tipo de instalación neta, será más bien 30 minutos) y listo
 > **Importante**
 >
 > Dependiendo de su cuadro ADSL, esta funcionalidad puede no funcionar.
-> Si es así, nada serio, solo inicie sesión en
+> Si es así, nada serio, solo inaquíe sesión en
 > su caja ADSL y encuentre la IP de la libertad en ella. Este paso
 > no hace más que darle la IP local de su Jeedom.
 > No es entonces cuando agrega su Jeedom a su cuenta
@@ -114,7 +114,7 @@ Primera conexión
 ------------------
 
 Cualquiera que sea el método utilizado, llegarás a la página de
-iniciar sesión Por defecto, el nombre de usuario y la contraseña son "Administración".
+inaquíar sesión Por defecto, el nombre de usuario y la contraseña son "Administración".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
@@ -144,7 +144,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
 -   No olvides guardar !
 
 Para más detalles sobre la página de configuración, haga clic en
-[ici](https://github.com/jeedom/core/blob/stable/doc/es_ES/Administraciónistration.asciidoc)
+[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/Administraciónistration.asciidoc)
 .
 
 Obtener mi URL de acceso directo 
@@ -162,14 +162,14 @@ Luego vaya a la sección "Configuración de red""
 ![premier dns2](images/premier-dns2.png)
 
 Una vez aquí, solo necesita activar "Usar Jeedom DNS" y luego
-en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en
+en la línea "Administración" para hacer "Reinaquíar" y su URL aparecerá en
 Nivel de estado HTTP, por supuesto, puede personalizarlo desde
 la página de perfil del mercado
 
 > **Importante**
 >
 > Si acaba de vincular su Jeedom a su cuenta de Mercado, debe
-> espere de 24 a 48 horas antes de poder usar el servicio DNS
+> espere de 24 a 48 horas antes de poder usar el servaquío DNS
 
 Cambiar la contraseña predeterminada de Jeedom 
 ============================================
@@ -190,7 +190,7 @@ recuerde, de lo contrario ya no podrá acceder a su Jeedom :
 
 Aquí ha cambiado la contraseña de la cuenta de Administraciónistrador, para más
 haga clic en la información de esta página
-[ici](https://github.com/jeedom/core/blob/stable/doc/es_ES/user.asciidoc).
+[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/user.asciidoc).
 
 Crear mi primer objeto 
 =======================
@@ -224,7 +224,7 @@ Nada podría ser más simple para crear un objeto :
 ![premier objet4](images/premier-objet4.png)
 
 Para obtener más información sobre esta parte, haga clic en
-[ici](https://github.com/jeedom/core/blob/stable/doc/es_ES/object.asciidoc)
+[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/object.asciidoc)
 
 Instalar mi primer complemento 
 ============================
@@ -243,8 +243,8 @@ para instalar.
 
 > **Importante**
 >
-> Tenga en cuenta que algunos son oficiales y otros no. En caso de preocupación
-> con un complemento no oficial, el equipo de Jeedom no puede ser retenido
+> Tenga en cuenta que algunos son ofaquíales y otros no. En caso de preocupación
+> con un complemento no ofaquíal, el equipo de Jeedom no puede ser retenido
 > responsable.
 
 ![premier plugin3](images/premier-plugin3.png)
@@ -263,9 +263,9 @@ Entonces encuentras :
 - compatibilidad con diferentes plataformas, 
 - opiniones de usuarios, 
 - cómo usar el complemento, 
-- información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
+- información adaquíonal como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-Para obtener más información sobre complementos, haga clic en [aquí] (https:// jeedom.github.io/core/es_ES/plugin).
+Para obtener más información sobre complementos, haga clic en [aquí](https:// jeedom.github.io/core/es_ES/plugin).
 
 Apoyo 
 =======
@@ -277,7 +277,7 @@ ayuda y haz tus preguntas.
 Documentación de Jeedom 
 --------------------------
 
-Encontrará una documentación completa [aquí] (https:// jeedom.fr / doc):
+Encontrará una documentación completa [aquí](https:// jeedom.fr / doc):
 
 Este consta de varias categorías:
 
@@ -290,7 +290,7 @@ Este consta de varias categorías:
 
 -   Howto : Tutoriales para progresar en varios campos.,
 
--   Plugins : La documentación de los diferentes complementos oficiales de
+-   Plugins : La documentación de los diferentes complementos ofaquíales de
     Jeedom,
 
 -   los otros : Varias páginas sobre los diferentes protocolos utilizados
@@ -306,7 +306,7 @@ página para encontrar páginas basadas en una palabra específica.
 El foro 
 --------
 
-Lo encontrarás [aquí] (https:// jeedom.com / forum) .
+Lo encontrarás [aquí](https:// jeedom.com / forum) .
 
 El foro es muy activo y contiene mucha información.. Si usted
 tiene una pregunta, siéntase libre de preguntar. Tendrás una respuesta en
@@ -316,22 +316,22 @@ Empresa Jeedom.
 
 ![premier support3](images/premier-support3.png)
 
-Solicitudes de soporte (o tickets) 
+Solaquítudes de soporte (o tickets) 
 ------------------------------------
 
 > **Importante**
 >
-> Tenga en cuenta que cualquier solicitud de soporte debe tener
+> Tenga en cuenta que cualquier solaquítud de soporte debe tener
 > una cuenta en el mercado.
 
 Si no ha encontrado una solución a su problema, último
-recurso, puede solicitar apoyo del equipo de Jeedom.
-Esta solicitud pasa por un ticket. Es posible abrir uno de
+recurso, puede solaquítar apoyo del equipo de Jeedom.
+Esta solaquítud pasa por un ticket. Es posible abrir uno de
 muchas maneras:
 
 -   Directamente de Jeedom (método recomendado): donde sea que tu
     estar en Jeedom, hay un signo de exclamación en la esquina superior derecha
-    que le permite solicitar soporte :
+    que le permite solaquítar soporte :
 
 ![premier support4](images/premier-support4.png)
 
@@ -341,7 +341,7 @@ muchas maneras:
     -   ya sea con el signo de exclamación en la esquina superior derecha,
 
     -   ya sea yendo a su perfil (luego haga clic en el botón
-        "Abrir una solicitud de soporte ").
+        "Abrir una solaquítud de soporte ").
 
 ![premier support5](images/premier-support5.png)
 
@@ -351,12 +351,12 @@ Todos los intercambios posteriores serán por correo electrónico..
 >
 > Si, al abrir un ticket, obtiene un error que indica
 > que has alcanzado tu cuota es que estás limitado a uno
-> cantidad de solicitudes de soporte por mes, dependiendo de su
-> Servicio pack.
+> cantidad de solaquítudes de soporte por mes, dependiendo de su
+> Servaquío pack.
 
-Los diferentes paquetes de servicio son : \ * Comunidad (gratis): 2
+Los diferentes paquetes de servaquío son : \ * Comunidad (gratis): 2
 tickets / mes (solo en complementos pagos) \ * Power: 10 entradas / mes
 \ * Pro: 100 entradas / mes
 
-Puede encontrar el detalle de los paquetes de servicio.
-[ici](https://www.jeedom.com/site/fr/soft.html#obtenir)
+Puede encontrar el detalle de los paquetes de servaquío.
+[aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)

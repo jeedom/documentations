@@ -1,4 +1,4 @@
-Aeotec Keyfob 
+ 
 =============
 
 \.
@@ -86,7 +86,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie : 
 
 -   Name : Schlüsselanhänger
 
@@ -105,7 +105,7 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 

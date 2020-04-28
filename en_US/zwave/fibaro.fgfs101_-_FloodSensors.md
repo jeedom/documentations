@@ -134,14 +134,14 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
-> central inclusion button, identified TMP, according to its documentation
+> central inclusion button, identified TMP, according to its Documentation
 > paper (the black tab).
 
 \
@@ -328,7 +328,7 @@ IMPORTANT note
 \
 Usage detail :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
-Fibaro documentation :
+Fibaro Documentation :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \

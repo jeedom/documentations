@@ -174,7 +174,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -189,7 +189,7 @@ seguro : simplemente vaya a la página de administración del módulo Z-wave
 y haga clic en el icono "Red Zwave"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
+1](images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
 
 \
 
@@ -197,7 +197,7 @@ Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO
 SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
+2](images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
 
 \
 

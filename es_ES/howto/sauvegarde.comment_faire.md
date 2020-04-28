@@ -24,14 +24,14 @@ copia de seguridad regular de Jeedom.
 > El procedimiento de restauración de la tarjeta microSD puede ser útil para
 > restaurar un Jeedom predeterminado de la Imagenn proporcionada por
 > el equipo ve
-> [ici](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
+> [aquí](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
 
 Jeedom Backup / Restore 
 =================================
 
 La documentación ya está presente para explicar la página.
 Administración → Copias de seguridad. Lo encontraras
-[ici](https://jeedom.github.io/core/es_ES/backup).
+[aquí](https://jeedom.github.io/core/es_ES/backup).
 
 Copia de seguridad / Restaurar tarjeta microSD 
 ===========================================
@@ -63,7 +63,7 @@ Tendrá que comenzar descargando software de terceros, por ejemplo :
 
 1.  **Salvaguardia**
 
-    -   Inicie el software y verifique que la siguiente carta
+    -   Inaquíe el software y verifique que la siguiente carta
         *El dispositivo * coincide con el de su tarjeta / lector
         tarjeta.
 
@@ -75,7 +75,7 @@ Tendrá que comenzar descargando software de terceros, por ejemplo :
 
 2.  **Catering**
 
-    -   Inicie el software y verifique que la siguiente carta
+    -   Inaquíe el software y verifique que la siguiente carta
         *El dispositivo * coincide con el de su tarjeta / lector
         tarjeta.
 
@@ -127,7 +127,7 @@ Para facilitar su tarea, puede descargar el software
             un terminal e ingrese el mismo comando que para el
             Salvaguardia : `diskutil list`
 
-        -   Desmonta las particiones de la tarjeta escribiendo el comando :
+        -   Desmonta las partaquíones de la tarjeta escribiendo el comando :
             `sudo diskutil unmountDisk /dev/disk1`
 
         -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando
@@ -161,8 +161,8 @@ Bajo Linux
     -   Para encontrar el disco correspondiente a la tarjeta, abra un
         terminal e ingrese el comando : `sudo fdisk -l | grep Dis`
 
-    -   Desmonta las particiones de la tarjeta escribiendo el comando (en
-        reemplazando la X con los números de partición) :
+    -   Desmonta las partaquíones de la tarjeta escribiendo el comando (en
+        reemplazando la X con los números de partaquíón) :
         `sudo umount /dev/sdcX`
 
     -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando :

@@ -2,7 +2,7 @@
 
 Hay varias formas en Jeedom para informar una inquietud : 
 
-- plantear la preocupación sobre la [comunidad] (https://community.jeedom.com), aquí suele obtener la respuesta más rápida
+- plantear la preocupación sobre la [comunidad](https://community.jeedom.com), aquí suele obtener la respuesta más rápida
 - informar una inquietud al equipo de Jeedom : 
   - **Solicitud de soporte** (requiere un paquete de servicio de energía o más o incluso si la preocupación está en un complemento / servicio pago), esta solicitud es **privado** y lo pondrá directamente en contacto con el equipo de soporte de Jeedom que analiza su caso particular
   - **Informe de error**, en este caso la solicitud es **publico** y será publicado en la comunidad
@@ -18,7 +18,7 @@ Hay varias formas en Jeedom para informar una inquietud :
 
 # Qué información enviar para tener una solución lo más rápido posible
 
-Cualquiera que sea el método utilizado para informar el problema encontrado, es muy importante proporcionar tanta información como sea posible.. De hecho, para nuestro mayor pesar, el 80% de las solicitudes tienen la primera respuesta estándar : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". Y sí ... a pesar de nuestra buena voluntad, no vemos su pantalla, no tenemos historial de lo que hizo como manipulación, y a veces usamos un vocabulario diferente para hablar sobre las mismas cosas....
+Cualquiera que sea el método utilizado para informar el problema encontrado, es muy importante proporcionar tanta información como sea posible.. De hecho, para nuestro mayor pesar, el 80% de las solicitudes tienen la primera respuesta estándar : "dénos más información sobre el problema para que podamos ayudarlo. [...]". Y sí ... a pesar de nuestra buena voluntad, no vemos su pantalla, no tenemos historial de lo que hizo como manipulación, y a veces usamos un vocabulario diferente para hablar sobre las mismas cosas....
 
 Pero como realmente queremos ayudarlo, aquí hay algunas pistas para brindarnos información valiosa : 
 

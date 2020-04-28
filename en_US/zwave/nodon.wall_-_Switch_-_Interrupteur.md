@@ -113,7 +113,7 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -121,7 +121,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press the two
 > button (1 and 2) until the light turns pink then press
-> button 1, according to its paper documentation.
+> button 1, according to its paper Documentation.
 
 \
 
