@@ -1,4 +1,4 @@
-Everspring Miniplug Uno / Apagado - AN180-6 
+ Miniplug Uno / Apagado - AN180-6 
 ====================================
 
 \
@@ -71,7 +71,7 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 0.6W
+-   El consumo : 
 
 -   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
     : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
@@ -83,7 +83,7 @@ Características técnicas
 
 -   Visualización: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 
 
 \
 
@@ -92,7 +92,7 @@ Datos del módulo
 
 \
 
--   Hacer : Everspring
+-   Hacer : 
 
 -   Nombre : Miniplug encendido / apagado
 

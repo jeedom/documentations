@@ -83,19 +83,19 @@ Características técnicas
 
 -   \ * 24V - 288W en total (todos los canales)
 
--   Frecuencia de modulación PWM : 244 Hz
+-   Frecuencia de modulación PWM : 
 
 -   El consumo : 0.3W
 
 -   Protocolo de radio : Unoda Z a 868,4 MHz (UE)
 
--   Potencia de transmisión Z-Wave : 1mW
+-   Potencia de transmisión Z-Wave : 
 
--   Temperatura de funcionamiento : 0 - 40 C
+-   Temperatura de funcionamiento : 
 
--   Para instalar en cajas : Ø≥50 mm
+-   Para instalar en cajas : 
 
--   Dimensiones : 42 x 37 x 17 mm
+-   Dimensiones : 
 
 -   Normas europeas : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRGB-101 RGBW
+-   Nombre : 
 
 -   ID del fabricante : 271
 
@@ -175,7 +175,7 @@ Aquí está la lista de comandos :
 -   Desvanecimiento : Este es el comando que simula todo
     espectro de color
 
--   RBB : Este es el comando que simula una atmósfera de policía.
+-    : Este es el comando que simula una atmósfera de policía.
 
 -   Blanco frio : Este es el comando que simula tener un
     color blanco frío, si la tira de color lo permite. (este

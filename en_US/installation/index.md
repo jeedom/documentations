@@ -140,7 +140,7 @@ raspberry PI **with an SD card.**
 Graphic**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
-**2 / Decompress the image with winrar** [Here](http://www.win-rar.com)
+**2 / Decompress the image with winrar** [here](http://www.win-rar.com)
 
 **3 / Burn this image on an SD with andcher for example**
 [Here](https:// andcher.io/)
@@ -191,7 +191,7 @@ You need to know the IP address of your PI. Many solutions :
 Establish connection
 
 Then use for example putty to establish your connection
-[Here](http://www.putty.org/)
+[here](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on
 open. Accept the default security message when
@@ -317,7 +317,7 @@ You must download the Virtual Box software
 ---
 
 Download a minimalist debian 9 Strandch image
-[Here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
+[here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
 
 Download the extension pack, and install it.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)

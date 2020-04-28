@@ -140,7 +140,7 @@ Himbeer PI **mit einer SD-Karte.**
 Grafik**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
 
-**2 / Dekomprimieren Sie das Bild mit winrar** [Hier](http://www.win-rar.com)
+**2 / Dekomprimieren Sie das Bild mit winrar** [hier](http://www.win-rar.com)
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD**
 [Hier](https:// Radierer.io/)
@@ -191,7 +191,7 @@ Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 Verbindung herstellen
 
 Verwenden Sie dann beispielsweise Kitt, um Ihre Verbindung herzustellen
-[Hier](http://www.putty.org/)
+[hier](http://www.putty.org/)
 
 Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf
 offen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn
@@ -317,7 +317,7 @@ Stufe 2 : Herunterladen eines Debian-Strecht-Images - nundinstall
 ---
 
 Laden Sie ein minimalistisches Debian 9 Strundch-Bild herunter
-[Hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
+[hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
 
 Laden Sie das Erweiterungspakund herunter und installieren Sie es.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)

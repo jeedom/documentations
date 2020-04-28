@@ -140,7 +140,7 @@ frambuesa PI **con una tarjya SD.**
 Gráfico**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
 
-**2 / Descomprime la imagen con winrar** [Aquí](http://www.win-rar.com)
+**2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
 
 **3 / Grabar esta imagen en una SD con ycher, por ejemplo**
 [Aquí](https:// ycher.io/)
@@ -191,7 +191,7 @@ Nocesita saber la dirección IP de su PI. Varias soluciones :
 Establecer conexión
 
 Luego use, por ejemplo, masilla para establecer su conexión
-[Aquí](http://www.putty.org/)
+[aquí](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.10) y haga clic en
 abierto Acepte el mensaje de seguridad predyerminado cuando
@@ -317,7 +317,7 @@ Etapa 2 : Descargar una imagen de Strecht de Debian - nyinstall
 ---
 
 Descargue una imagen minimalista de Debian 9 Strych
-[Aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
+[aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
 
 Descargue el paquye de extensión e instálelo.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)

@@ -84,7 +84,7 @@ Características técnicas
 
 -   Puntao de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50 Hz
+-   Suministro : 
 
 -   Cableado : neutral no requerido
 
@@ -95,13 +95,13 @@ Características técnicas
 
 -   Puntao de lámpara compatible (no regulable) : Fluorescente compacta, LED
 
--   Fusible : 2.5A
+-   Fusible : 
 
 -   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 15 x 42 x 36 mm
+-   Dimensiones: 
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
