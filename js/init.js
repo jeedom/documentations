@@ -364,7 +364,7 @@ function setLeftMenu(){
     var menu = docMenu[i]
     if(menu.link && menu.link != ''){
       if(url.indexOf(menu.link.replace('#LANG#',lang)) != -1){
-        $('a[href="'+menu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('active')
+        $('a[href="'+menu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('menu_active')
         return;
       }
       continue;
@@ -374,7 +374,7 @@ function setLeftMenu(){
         var submenu = menu.submenu[j]
         if(submenu.link && submenu.link != ''){
           if(url.indexOf(submenu.link.replace('#LANG#',lang)) != -1){
-            $('a[href="'+submenu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('active')
+            $('a[href="'+submenu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('menu_active')
             if(menu.id){
               $('#div_'+menu.id).click();
             }
