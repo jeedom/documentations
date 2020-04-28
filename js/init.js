@@ -167,6 +167,7 @@ var lang = getCookie('lang');
 if(!lang){
   lang = 'fr_FR'
 }
+$('#meta-lang').attr('content',lang)
 var jeedomVersion = getCookie('jeedomVersion');
 if(!jeedomVersion){
   jeedomVersion = '3.3'
