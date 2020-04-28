@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5 {
   padding: 0 20px;
 }
 
-#ul_menu .li.active{
+#ul_menu li.active{
   background-color: #ee6e73;
 }
 
