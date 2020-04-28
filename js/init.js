@@ -19,6 +19,7 @@ var docMenu = [
     es_ES : "Use Jeedom",
     de_DE : "Benutze Jeedom",
     pt_PT : "",
+    id : "useJeedom",
     submenu : [
       {link : "/documentations/#LANG#/presentation/index",fr_FR : "Présentation",en_US:"Presentation",es_ES:"Presentación",de_DE:"Presentation",pt_PT:""},
       {link : "/documentations/#LANG#/installation/index",fr_FR : "Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
@@ -31,6 +32,7 @@ var docMenu = [
     es_ES : "Box Jeedom",
     de_DE : "Jeedom Box",
     pt_PT : "",
+    id : "boxJeedom",
     submenu : [
       {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start",es_ES:"Bota  Jeedom Smart",de_DE:"Erste Schritte Jeedom Smart",pt_PT:""},
       {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start",es_ES:"Bota Jeedom pro",de_DE:"Erste Schritte Jeedom Pro",pt_PT:""},
@@ -41,6 +43,7 @@ var docMenu = [
     es_ES : "Servicios",
     de_DE : "Service",
     pt_PT : "",
+    id : "service",
     submenu:[
       {link : "",fr_FR : "Market",en_US:"Market"},
       {link : "/documentations/#LANG#/howto/assistant_vocaux_cloud",fr_FR : "Assistant vocaux",en_US:"Voice assistant",es_ES:"Asistente de voz",de_DE:"Sprachassistent",pt_PT:""},
@@ -52,17 +55,18 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR:'Jeedom v3.3',
-    en_US : "Jeedom v3.3",
-    es_ES : "Jeedom v3.3",
-    de_DE : "Jeedom v3.3",
-    pt_PT : "Jeedom v3.3",
+    fr_FR:'Jeedom v3',
+    en_US : "Jeedom v3",
+    es_ES : "Jeedom v3",
+    de_DE : "Jeedom v3",
+    pt_PT : "Jeedom v3",
   },{
     fr_FR : "Manuel d'utilisation",
     en_US : "User manual",
     es_ES : "Manual del usuario",
     de_DE : "Benutzerhandbuch",
     pt_PT : "",
+    id : "v3UserManual",
     submenu:[
       {link : "/documentations/#LANG#/core/3.3/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
       {link : "/documentations/#LANG#/core/3.3/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
@@ -91,6 +95,7 @@ var docMenu = [
     es_ES : "Manual de configuración",
     de_DE : "Konfigurationshandbuch",
     pt_PT : "",
+    id : "v3ConfigManual",
     submenu:[
       {link:"/documentations/#LANG#/core/3.3/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
       {link:"/documentations/#LANG#/core/3.3/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
@@ -115,6 +120,7 @@ var docMenu = [
     es_ES : "Manual del usuario",
     de_DE : "Benutzerhandbuch",
     pt_PT : "",
+    id : "v4UserManual",
     submenu:[
       {link : "/documentations/#LANG#/core/4.0/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
       {link : "/documentations/#LANG#/core/4.0/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
@@ -143,6 +149,7 @@ var docMenu = [
     es_ES : "Manual de configuración",
     de_DE : "Konfigurationshandbuch",
     pt_PT : "",
+    id : "v4ConfigManual",
     submenu:[
       {link:"/documentations/#LANG#/core/4.0/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
       {link:"/documentations/#LANG#/core/4.0/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
@@ -163,6 +170,7 @@ var docMenu = [
     es_ES : "Plugins",
     de_DE : "Plugins",
     pt_PT : "Plugins",
+    id : "plugins",
     submenu:[
       {link:"/documentations/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"",pt_PT:""},
       {link:"/documentations/#LANG#/plugins/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol",es_ES:"Protocolo de domótica",de_DE:"Hausautomationsprotokoll",pt_PT:""},
@@ -189,6 +197,7 @@ var docMenu = [
     es_ES : "Guides",
     de_DE : "Anleitungen",
     pt_PT : "",
+    id : "guides",
     submenu:[
       {link:"/documentations/#LANG#/howto/",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""},
       {link:"/documentations/#LANG#/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
@@ -199,6 +208,7 @@ var docMenu = [
     es_ES : "Desarrollar en Jeedom",
     de_DE : "Entwickle auf Jeedom",
     pt_PT : "",
+    id : "devOnJeedom",
     submenu:[
       {link:"/dev/#LANG#/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
       {link:"/documentations/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
@@ -225,7 +235,11 @@ for(var i in docMenu){
     html += '<li><div class="divider"></div></li>';
   }else if(menu.submenu){
     html += '<li>';
-    html += '<div class="collapsible-header">'+genText(menu,lang)+'</div>';
+    if(menu.id){
+      html += '<div class="collapsible-header" id="div_'+menu.id+'">'+genText(menu,lang)+'</div>';
+    }else{
+      html += '<div class="collapsible-header">'+genText(menu,lang)+'</div>';
+    }
     html += '<div class="collapsible-body">';
     html += '<ul>';
     for(var j in menu.submenu){
@@ -341,6 +355,13 @@ function cookiesPolicyBar(){
     setCookie('cookiePolicyAccept', 'active', 30);
     $('#cookieAcceptBar').fadeOut();
   });
+}
+
+function setLeftMenu(){
+  var url = window.location.href;
+  if(url.indexOf('plugins') != -1){
+    
+  }
 }
 
 if($('#div_searchBar')){
