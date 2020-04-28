@@ -1,84 +1,84 @@
 # Beschreibung
 
-Ce plugin permet de faire le lien entre votre Jeedom et Alexa
+Dieses Plugin ermöglicht es, die Verbindung zwischen Ihrem Jeedom und Alexa herzustellen
 
-Il peut fonctionner en passant par un service cloud mis à disposition par Jeedom.
+Es kann über einen Cloud-Dienst von Jeedom betrieben werden.
 
-> **Important**
+> **Wichtig**
 >
-> Le plugin necessite un abonnement aux services vocaux. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Das Plugin erfordert ein Abonnement für Sprachdienste. Sie können Ihr Abonnement [hier] verwalten (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-> **Important**
+> **Wichtig**
 >
-> Le plugin ne supporte pas les équipement avec des double fonction (2 sortie comme certain module zwave Fibaro). Il faut absolument passer par 2 virtuels pour le décomposer.
+> Das Plugin unterstützt keine Geräte mit Doppelfunktionen (2 Ausgänge als bestimmtes zwave Fibaro-Modul). Sie müssen unbedingt 2 virtuelle durchlaufen, um es aufzuschlüsseln.
 
-# Mise en place de la connexion vers Alexa
+# Herstellen der Verbindung zu Alexa
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Il est important de faire les étapes suivantes dans l'ordre indiqué !!!
+> Es ist wichtig, die folgenden Schritte in der angegebenen Reihenfolge auszuführen !!!
 
-## Markt Konfiguration
+## Konfigurationsmarkt
 
-Après l'installation du plugin, il vous suffit d'aller dans la partie configuration du plugin puis de cliquer sur envoyer la configuration au market.
+Nach der Installation des Plugins müssen Sie nur zum Konfigurationsteil des Plugins gehen und dann auf Konfiguration an den Markt senden klicken.
 
 ## Alexa Konfiguration
 
-Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.html) aller dans la partie skill et chercher le skill Jeedom puis l'activer, la il vous demandera des identifants il faut mettre ceux du market (attention bien mettre vos identifiants market et non ceux de votre Jeedom)
+Sobald der Dienst aktiv ist, müssen Sie in der Alexa-Anwendung oder auf der [Website] (https://alexa.amazon.fr/spa/index.html) Gehen Sie zum Skill-Teil und suchen Sie nach dem Jeedom-Skill. Aktivieren Sie ihn dann. Dort werden Sie nach Kennungen gefragt, die Sie vom Markt nehmen müssen (achten Sie darauf, dass Sie Ihre Marktkennungen und nicht die Ihrer Jeedom-Kennungen eingeben).
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Si vous avez un message d'erreur vous indiquants que votre mot de passe ou non d'utilisateur n'est pas bon il faut :
-> - vérifier qu'Amazon Alexa est bien en actif sur le market
-> - si c'est bien le cas, etês vous sur de vos identifiants (attention il faut respecter majuscule/minuscule) ?
-> - si c'est le cas changer votre mot de passe sur le market et sur la configuration du service d'assistant vocal (page profils du market onglet mes services) faire sauvegarder
+> Wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass Ihr Benutzerkennwort nicht korrekt ist oder nicht, müssen Sie dies tun :
+> - Überprüfen Sie, ob Amazon Alexa auf dem Markt aktiv ist
+> - Wenn dies der Fall ist, achten Sie auf Ihre Anmeldeinformationen (Aufmerksamkeit, die Sie in Groß- / Kleinschreibung beachten müssen) ?
+> - Wenn dies der Fall ist, ändern Sie Ihr Passwort auf dem Markt und haben Sie es bei der Konfiguration des Sprachassistenten-Dienstes (Registerkarte Marktprofile Seite Meine Dienste) gespeichert
 
-> **IMPORTANT**
+> **Wichtig**
 >
->Toute modification de configuration des équipements transmis à Alexa (ajout d'un équipement, suppression d'un équipement, changement d'un générique type d'une commande) nécessite forcement d'aller dans Plugin -> Communication -> Alexa puis de faire sauvegarder et dans l'application Alexa de refaire une découverte
+>Jede Änderung der Konfiguration der an Alexa übertragenen Geräte (Hinzufügen von Geräten, Löschen von Geräten, Ändern eines generischen Auftragstyps) erfordert zwangsläufig das Aufrufen von Plugin -> Kommunikation -> Alexa und anschließendes Speichern und in der Alexa-Anwendung, um eine Entdeckung zu wiederholen
 
 ## Plugin Konfiguration
 
-Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie équipement sélectionnez les équipements à transmettre à Alexa ainsi que le type de l'équipement.
+Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie im Gerätebereich das Gerät aus, das an Alexa übertragen werden soll, sowie den Gerätetyp.
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) des explications sur les generiques type
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können [hier] sehen (https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) Erklärungen zu generischen Credits
 
-Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'entrée et de sortie.
+Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Si vous n'envoyez aucun équipement (aucun OK dans la liste des équipements sur le plugin Alexa), Amazon considere que c'est une erreur et reprend la derniere configuration connue. Donc si vous faite oublier tout et n'envoyez aucun équipement amazon reprendra la derniere configuration connu et donc fera tout réapparaitre.
+> Wenn Sie keine Geräte senden (kein OK in der Geräteliste des Alexa-Plugins), betrachtet Amazon dies als Fehler und verwendet die letzte bekannte Konfiguration. Wenn Sie also alles vergessen und keine Geräte senden, übernimmt amazon die letzte bekannte Konfiguration und lässt daher alles wieder erscheinen.
 
-# FAQ
+# Faq
 
->**J'ai lu que le plugin necessiterait un abonnement, pourquoi ?**
+>**Ich habe gelesen, dass das Plugin ein Abonnement erfordern würde, warum ?**
 >
-> C'est assez simple, Jeedom est une solution non-cloud (entendre tout est chez vous il n'y a pas de serveur de notre coté pour votre Jeedom) mais Alexa ne peut envoyer des demandes que vers un serveur unique pour un skill. On a donc été obligé de faire un serveur qui recoit toute les demandes d'Alexa et les retransmets vers votre Jeedom. Malheureusement se serveur (en plus du coût de développement et de maintenance) à un coût de location de notre coté. Voila pourquoi il y aura un abonnement pour le service "Assistant Vocal" qui couvrira et Amazon et Google (vous inquietez pas pour le prix il sera minime, le but est juste d'amortir le coût du serveur)
+> Es ist ganz einfach, Jeedom ist eine Nicht-Cloud-Lösung (hören Sie, dass alles zu Hause ist, es gibt keinen Server für Ihr Jeedom auf unserer Seite), aber Alexa kann nur Anforderungen für eine Fertigkeit an einen einzelnen Server senden. Also mussten wir einen Server erstellen, der alle Anfragen von Alexa empfängt und sie erneut an Ihr Jeedom überträgt. Leider Server (zusätzlich zu den Kosten für Entwicklung und Wartung) zu einem Mietpreis auf unserer Seite. Aus diesem Grund wird es ein Abonnement für den "Voice Assistant" -Dienst geben, der sowohl Amazon als auch Google abdeckt (keine Sorge, der Preis ist minimal, das Ziel besteht nur darin, die Kosten des Servers zu amortisieren).
 
->**Pour ouvrir/fermer les volets je dois dire allume/eteint ?**
+>**Um die Fensterläden zu öffnen / schließen, muss ich Ein- / Ausschalten sagen ?**
 >
-> C'est normal Alexa ne supporte pas les équipements de type ouvrant (pour des questions de securité) il faut donc lui faire croire que c'est une lumiere. Par contre grace aux routines vous pouvez dire ouvre/ferme
+> Dies ist normal. Alexa unterstützt das Öffnen von Geräten (aus Sicherheitsgründen) nicht. Sie müssen also davon ausgehen, dass es sich um ein Licht handelt. Dank der Routinen können Sie öffnen / schließen sagen
 
->**Alexa me dis "l'appareil ne répond pas" alors que l'action est bien faite**
+>**Alexa sagt mir "das Gerät reagiert nicht", während die Aktion gut gemacht ist**
 >
-> Regardez vos types génériques, Alexa nécessite ABSOLUMENT un retour d'état sinon il vous dira que l'appareil ne répond pas. Attention aussi au délai pour faire l'action si c'est trop long vous aurez le message l'appareil ne répond pas.
+> Schauen Sie sich Ihre generischen Typen an. Alexa benötigt unbedingt eine Statusrückgabe, andernfalls wird Ihnen mitgeteilt, dass das Gerät nicht reagiert. Achten Sie auch auf die Verzögerung, mit der die Aktion ausgeführt wird, wenn sie zu lang ist. Sie erhalten die Meldung, dass das Gerät nicht reagiert.
 
->**Lors de l'association j'ai une erreur (mais pas sur un soucis de mot de passe/nom d'utilisateur)**
+>**Während der Zuordnung habe ich einen Fehler (aber nicht bei einem Problem mit Passwort / Benutzername)**
 >
->Si vous avez une erreur lors de l'association avec Jeedom cela vient surement du faite que vous n'avez pas ajouté/transmis d'équipement avant de faire l'association. Pour corriger aller sur Plugins -> Communication -> Alexa puis coché au moins un équipement à transmettre et faite sauvegarder (vérifié que l'équipement est bien en OK, si il est en NOK cliquer sur le NOK pour voir pourquoi ou renseignez vous sur les générique type dans jeedom). Puis refaite l'association
+>Wenn Sie während der Zuordnung zu Jeedom einen Fehler haben, liegt dies wahrscheinlich daran, dass Sie vor der Zuordnung keine Geräte hinzugefügt / übertragen haben. Um dies zu korrigieren, gehen Sie zu Plugins -> Kommunikation -> Alexa und aktivieren Sie mindestens ein Gerät zum Senden und Speichern (überprüfen Sie, ob das Gerät in Ordnung ist. Wenn es sich in NOK befindet, klicken Sie auf NOK, um zu sehen, warum oder fragen Sie nach generischer Typ in jeedom). Wiederholen Sie dann die Zuordnung
 
->**Lors de l'ajout des équipement j'ai des NOK**
+>**Beim Hinzufügen von Geräten habe ich NOK**
 >
->Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche
+>Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert
 
->**L'ajout d'équipement/scene n'apparait pas dans l'application alexa**
+>**Das Hinzufügen von Ausrüstung / Szene wird in der alexa-Anwendung nicht angezeigt**
 >
-> Il faut :
-> - supprimé tous mes équipements transmis (vert OK) depuis le plugin Alexa
-> - bien sauvegarder
-> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (ou l’app)
-> - faire une detection depuis Alexa
-> - remettre les équipements
-> - refaire une detection depuis Alexa
+> Du musst :
+> - löschte alle meine übertragenen Geräte (grün OK) aus dem Alexa-Plugin
+> - gut sparen
+> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (oder App)
+> - mache eine Entdeckung von Alexa
+> - Rückgabegeräte
+> - Wiederholen Sie die Erkennung von Alexa

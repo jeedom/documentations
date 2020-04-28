@@ -1,82 +1,91 @@
-# 20/01/2020
+- 
+- Verbesserte Verschlussunterstützung
+- Verbesserte Oberfläche
+- 
 
-- Préparation du support de la synchronisation sans cache
+# 23.01.2020
 
-# 30/12/2019
+- Korrektur von Bedenken hinsichtlich der Entdeckung von Geräten
 
-- Correction d'un bug sur les thermostats
+# 20.01.2020
 
-# 13/12/2019
+- Vorbereiten der Synchronisierungsunterstützung ohne Cache
 
-- Correction d'un soucis d'icone
+# 2019.12.30
 
-# 11/12/2019
+- Korrektur eines Fehlers an Thermostaten
 
-- Mise à jour de la documentation
+# 13.12.2019
 
-# 02/12/2019
+- Korrektur eines Symbolproblems
 
-- Corretion de bug sur la geestion de multiple générique type de type etat
+# 12/11/2019
 
-# 15/10/2019
+- Aktualisierung der Dokumentation
 
-- Envoi automatique des informations au market lors de l'installation du plugin
+# 12/02/2019
 
-# 23/06/2019
+- Fehlerkorrektur bei der Verwaltung mehrerer generischer Typstatusarten
 
-- Aktualisierung des Dokuments
-- Amélioration du support des volets
-- Possibilité d'inverser le sens des volets
+# 15.10.2019
 
-# 05/06/2019
+- Automatisches Senden von Informationen an den Markt bei der Installation des Plugins
 
-- Correction de bug
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
+# 23.06.2019
 
-# 03/06/2019
+- Aktualisieren des Dokuments
+- Verbesserte Verschlussunterstützung
+- Möglichkeit, die Richtung der Klappen umzukehren
 
-- Aktualisierung des Dokuments
-- Ajout de d'information et d'un lien vers le service Assistant Vocaux
+# 06/05/2019
 
-# 31/05/2019
+- Fehlerbehebung
+- Möglichkeit, Informationen über den generischen Typ zu erhalten, die beim Klicken auf das NOK-Etikett erforderlich sind
 
-- Support des volets
-- Support des capteurs (mouvement,contact, température)
+# 06/03/2019
+
+- Aktualisieren des Dokuments
+- Hinzufügen von Informationen und eines Links zum Voice Assistant-Dienst
+
+# 31.05.2019
+
+- Verschlussunterstützung
+- Sensorunterstützung (Bewegung, Kontakt, Temperatur)
 - Fehlerbehebungen
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
-# 24/04/2019
+# 24.04.2019
 
-- Nouvelle methode de synchronisation des péripheriques
+- Neue Gerätesynchronisationsmethode
 
-# 02/11/2018
+# 11/02/2018
 
-- Aktualisierung des Dokuments
+- Aktualisieren des Dokuments
 
-# 25/10/2018
+# 25.10.2008
 
-- Correction d'un bug sur les volets
-- Aktualisierung des Dokuments
+- Korrektur eines Fehlers in den Scheiben
+- Aktualisieren des Dokuments
 
 # 10/10/2018
 
-- Aktualisierung des Dokuments
+- Aktualisieren des Dokuments
 
-# 09/10/2018
+# 10/09/2018
 
-- Correction de nombreux bug sur les retours d'état (lumière, prise, température, thermostat...)
+- Korrektur vieler Fehler bei Statusrückgaben (Licht, Steckdose, Temperatur, Thermostat ...)
 
-# 08/10/2018
+# 10/08/2018
 
-- Correction de bug sur les prises, volets...
+- Fehlerkorrektur an Steckdosen, Fensterläden...
 
-# 05/10/2018
+# 10/05/2018
 
-- Amélioration de la gestion des noms des équipements
-- Possibilité de mettre un pseudo à un équipement
-- Correction d'un bug indiquant un soucis de serveur
+- Verbesserte Verwaltung von Gerätenamen
+- Möglichkeit, ein Gerät zu klauen
+- Korrektur eines Fehlers, der auf ein Serverproblem hinweist
 
-# 04/10/2018
+# 10/04/2018
 
-- Correction d'un bug lors de l'envoi de la configuration
-- Correction d'un bug lors de la demande de la température
+- Behebung eines Fehlers beim Senden der Konfiguration
+- Korrektur eines Fehlers während der Temperaturanforderung

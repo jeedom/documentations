@@ -1,82 +1,91 @@
-# 20/01/2020
+- 
+- Improved shutter support
+- Improved interface
+- 
 
-- Préparation du support de la synchronisation sans cache
+# 01/23/2020
 
-# 30/12/2019
+- Correction of concerns about equipment discovery
 
-- Correction d'un bug sur les thermostats
+# 01/20/2020
 
-# 13/12/2019
+- Preparing for synchronization support without cache
 
-- Correction d'un soucis d'icone
+# 12/30/2019
 
-# 11/12/2019
+- Correction of a bug on thermostats
 
-- Updated documentation
+# 12/13/2019
 
-# 02/12/2019
+- Correction of an icon problem
 
-- Corretion de bug sur la geestion de multiple générique type de type etat
+# 12/11/2019
 
-# 15/10/2019
+- Documentation update
 
-- Envoi automatique des informations au market lors de l'installation du plugin
+# 12/02/2019
 
-# 23/06/2019
+- Bug correction on the management of multiple generic type of type state
 
-- Mise à jour de la doc
-- Amélioration du support des volets
-- Possibilité d'inverser le sens des volets
+# 10/15/2019
 
-# 05/06/2019
+- Automatic sending of information to the market when installing the plugin
 
-- Correction de bug
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
+# 06/23/2019
 
-# 03/06/2019
+- Updating the doc
+- Improved shutter support
+- Possibility to reverse the direction of the flaps
 
-- Mise à jour de la doc
-- Ajout de d'information et d'un lien vers le service Assistant Vocaux
+# 06/05/2019
 
-# 31/05/2019
+- Bug fix
+- Possibility of having information on the generic type required when clicking on the NOK label
 
-- Support des volets
-- Support des capteurs (mouvement,contact, température)
-- Correction de bugs
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+# 06/03/2019
 
-# 24/04/2019
+- Updating the doc
+- Addition of information and a link to the Voice Assistant service
 
-- Nouvelle methode de synchronisation des péripheriques
+# 05/31/2019
 
-# 02/11/2018
+- Shutter support
+- Sensor support (movement, contact, temperature)
+- Bugfix
+- Important : from 01/06/2019 the voice services become chargeable, you can see your status on your profile page on the market, tab my services
 
-- Mise à jour de la doc
+# 04/24/2019
 
-# 25/10/2018
+- New device synchronization method
 
-- Correction d'un bug sur les volets
-- Mise à jour de la doc
+# 11/02/2018
+
+- Updating the doc
+
+# 10/25/2018
+
+- Correction of a bug on the panes
+- Updating the doc
 
 # 10/10/2018
 
-- Mise à jour de la doc
+- Updating the doc
 
-# 09/10/2018
+# 10/09/2018
 
-- Correction de nombreux bug sur les retours d'état (lumière, prise, température, thermostat...)
+- Correction of many bugs on status returns (light, outlet, temperature, thermostat ...)
 
-# 08/10/2018
+# 10/08/2018
 
-- Correction de bug sur les prises, volets...
+- Bug correction on sockets, shutters...
 
-# 05/10/2018
+# 10/05/2018
 
-- Amélioration de la gestion des noms des équipements
-- Possibilité de mettre un pseudo à un équipement
-- Correction d'un bug indiquant un soucis de serveur
+- Improved management of equipment names
+- Possibility to nick a device
+- Correction of a bug indicating a server problem
 
-# 04/10/2018
+# 10/04/2018
 
-- Correction d'un bug lors de l'envoi de la configuration
-- Correction d'un bug lors de la demande de la température
+- Correction of a bug when sending the configuration
+- Correction of a bug during the temperature request

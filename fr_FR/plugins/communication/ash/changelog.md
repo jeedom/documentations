@@ -1,3 +1,10 @@
+# 28/04/2020
+
+- Correction d'un soucis sur l'allumage des lampes
+- Amélioration du support des volets
+- Amélioration de l'interface
+- Support des équipements de type mode
+
 # 23/01/2020
 
 - Correction de soucis sur la decouverte d'équipements
