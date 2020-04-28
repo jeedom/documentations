@@ -224,7 +224,7 @@ Liste des modules compatibles
 =============================
 
 Vous trouverez la liste non exhaustive des modules compatibles
-[ici](https://jeedom.github.io/documentation/rfxcom/fr_FR/equipement.compatible)
+[ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
 
 Ajouter une prise
 =================

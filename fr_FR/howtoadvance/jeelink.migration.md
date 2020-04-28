@@ -97,12 +97,12 @@ Sauvegardes préventives
 -----------------------
 
 -   Faire une [sauvegarde
-    Jeedom](https://jeedom.github.io/documentation/core/fr_FR/doc-core-backup.html)
+    Jeedom](https://doc.jeedom.com/fr_FR/core/doc-core-backup.html)
     de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)**
     et récupérer celle(s)-ci sur votre PC/NAS…​.
 
 -   Faire une [sauvegarde
-    SD/Disque](https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
+    SD/Disque](https://doc.jeedom.com/fr_FR/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
     de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)**
     et les récupérer sur votre PC/NAS…​.
 
@@ -147,7 +147,7 @@ Installation du **Jeedom Source** :
 -   Installer un nouveau Jeedom sur une nouvelle carte SD (Que cela soit
     pour mettre dans votre **Jeedom Esclave** existant ou pour un
     nouveau Raspberry Pi) en suivant la [documentation
-    d’installation](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html).
+    d’installation](https://doc.jeedom.com/fr_FR/installation/doc-installation.html).
 
 -   Mettre à jour le **Jeedom Source** à la dernière version (même si
     aucune mise à jour ne vous est proposée).
@@ -253,7 +253,7 @@ remontée des équipements sur le **Jeedom Cible** (Votre ancien Maître).
 > Les copies d’écran sur fond blanc correspondent au **Jeedom Source**.\
 
 Sur le **Jeedom Source**,
-[configurer](https://jeedom.github.io/documentation/plugins/jeelink/fr_FR/jeelink)
+[configurer](https://doc.jeedom.com/fr_FR/plugins/jeelink/jeelink)
 le plugin "Jeedom Link" en spécifiant :
 
 -   Le nom du **Jeedom Cible**.

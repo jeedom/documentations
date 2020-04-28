@@ -149,7 +149,7 @@ Migration ancien mode Esclave
 =============================
 
 Un tutoriel est disponible,
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/jeelink.migration.html)
+[ici](https://doc.jeedom.com/fr_FR/howto/jeelink.migration.html)
 précisant la procédure à suivre pour effectuer la migration d’un Jeedom
 Esclave vers le nouveau mode de fonctionnement Jeedom Link.
 

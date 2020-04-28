@@ -57,7 +57,7 @@ Jeedom Smart
 
 Vous trouverez ici la documentation pas à pas pour installer ou restaurer Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
+[ici](https://doc.jeedom.com/fr_FR/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini+
 ===========
@@ -104,7 +104,7 @@ Vous n’avez plus qu’à mettre la carte SD dans la Jeedomboard (ou Hummingboa
 >
 > Les identifiants SSH sont jeedom/Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index.html)
 
 
 Raspberrypi
@@ -229,7 +229,7 @@ Quittez en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
 
 Rebootez votre RPI
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ l'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son n
 
 les login et mot de passe par défaut sont admin/admin quand vous accédez a jeedom via votre navigateur.
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index.html)
 
 VM
 ==
@@ -409,7 +409,7 @@ la saisir dans votre navigateur.
 > Si cela ne fonctionne pas, vous n’avez pas configuré votre carte
 > réseau en Pont réseau comme indiquée au départ.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
 
 Docker
 ======
@@ -493,7 +493,7 @@ entrer les informations de connexion vers mysql :
 
 ![install other](images/install_other.PNG)
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
 
 > **Important**
 >
@@ -690,7 +690,7 @@ du Docker mysql installé précédemment) et validez.
 > variable d’environement ROOT\_PASSWORD à la valeur du mot de passe
 > voulu.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
 
 Autres
 ======
@@ -732,4 +732,4 @@ navigateur Internet.
 
     ./install.sh -w /var/www/html -z -m Jeedom
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index).
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/$1/index).
