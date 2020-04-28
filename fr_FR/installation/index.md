@@ -229,8 +229,7 @@ Quittez en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
 
 Rebootez votre RPI
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 
 Freebox Delta
 =============
@@ -277,8 +276,7 @@ l'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son n
 
 les login et mot de passe par défaut sont admin/admin quand vous accédez a jeedom via votre navigateur.
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
 
 VM
 ==
@@ -411,8 +409,7 @@ la saisir dans votre navigateur.
 > Si cela ne fonctionne pas, vous n’avez pas configuré votre carte
 > réseau en Pont réseau comme indiquée au départ.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 
 Docker
 ======
@@ -496,8 +493,7 @@ entrer les informations de connexion vers mysql :
 
 ![install other](images/install_other.PNG)
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 
 > **Important**
 >
@@ -694,8 +690,7 @@ du Docker mysql installé précédemment) et validez.
 > variable d’environement ROOT\_PASSWORD à la valeur du mot de passe
 > voulu.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 
 Autres
 ======
@@ -737,5 +732,4 @@ navigateur Internet.
 
     ./install.sh -w /var/www/html -z -m Jeedom
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index).
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index).
