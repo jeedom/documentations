@@ -1,4 +1,4 @@
- 
+Everspring Miniplug Dimmer - AD147-6 
 ====================================
 
 \.
@@ -24,15 +24,15 @@ Zusammenfassung
 
 \.
 
-
+Der Mini-Dimmerstecker dient zur Steuerung der Zündung und
 Ausschalten der Lichter und elektrischen Geräte Ihres
+Haus. Es ermöglicht auch eine Dimmerfunktion, die kompatibel ist
+nur mit Glühbirnen. Mit einer Spannung von 220 - 240 V ist dies
+Die Dimmerbuchse kann eine Last von 6 W bis 250 W aufnehmen.
 
-. 
-.
-
-
-
-
+Der Mini Dimmer Plug ist ein Z-Wave ™ -kompatibles Gerät
+Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Sie
+kann über eine Fernbedienung, eine PC-Software oder eine andere gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
@@ -42,7 +42,7 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie eine Lampe fern
 
 -   Steckermodul direkt zwischen Steckdose und integriert
     die Ladung auf Bestellung
@@ -73,7 +73,7 @@ Technische Daten
 -   Verbrauch : 0,6 W.
 
 -   Maximale Leistung : Widerstandslast : 250W, Glühlampe
-    : 250W, LED-Lampe (nicht dimmbar) : 
+    : 250W, LED-Lampe (nicht dimmbar) : 6W
 
 -   Frequenz : 868,42 MHz
 
@@ -81,7 +81,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
 \.
 
@@ -90,7 +90,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Everspring
 
 -   Name : Miniplug Dimmer
 

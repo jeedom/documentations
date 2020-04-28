@@ -17,7 +17,7 @@ Beobachten Sie die Installation auf microSD :
 [Ici](https://jeedom.github.io/documentation/installation/de_DE/index.html)
 )
 
-     | :
+    vcgencmd otp_dump | grep 17:
 
 Du musst zurück :
 

@@ -367,7 +367,7 @@
         "du Docker mysql installé précédemment) et validez": "Docker mysql instalado previamente) y validar",
         "L'addresse IP de la BDD est l'addresse IP du NAS, le port est celui": "La dirección IP del BDD es la dirección IP del NAS, el puerto es ese",
         "redirigé du Docker Mysql, le mot de passe est celui mis dans le Docker": "redirigido desde Docker Mysql, la contraseña es la que se puso en Docker",
-        "Mysql": "Mysql",
+        "Mysql": "MySQL",
         "Le nom d'utilisateur est root et le nom de la base celui que": "El nombre de usuario es root y el nombre de la base de datos es el",
         "vous voulez (conseillé Jeedom)": "quieres (Jeedom recomienda)",
         "Si vous voulez un accès SSH, il vous faut dans les ports rediriger un": "Si desea acceso SSH, debe redirigir un puerto",

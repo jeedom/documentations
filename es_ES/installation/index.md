@@ -552,7 +552,7 @@ Espere hasta que termine la instalación. :
 Etapa 2 : Recuperación e instalación de imágenes de Jeedom
 ========================================================
 
-Nocesitas Estibador para ejecutar Jeedom, el primer Estibador Mysql que
+Nocesitas Estibador para ejecutar Jeedom, el primer Estibador MySQL que
 contendrá la base de datos y un segundo que contiene Jeedom
 
 Inicie la aplicación Estibador :
@@ -700,8 +700,8 @@ Estibador mysql instalado previamente) y validar.
 > **Importante**
 >
 > La dirección IP del BDD es la dirección IP del NAS, el puerto es ese
-> redirigido desde Estibador Mysql, la contraseña es la que se puso en Estibador
-> Mysql. El nombre de usuario es root y el nombre de la base de datos es el
+> redirigido desde Estibador MySQL, la contraseña es la que se puso en Estibador
+> MySQL. El nombre de usuario es root y el nombre de la base de datos es el
 > quieres (Jeedom recomienda)
 
 ![install synology 30](images/install_synology_30.PNG)

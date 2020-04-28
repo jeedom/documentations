@@ -5,13 +5,13 @@ Manipulation oder ein Problem nach einem Update. Sei vorsichtig hier wir
 spricht über das vollständige Image von VMs, es ist nicht nur eine Anwendungssicherung,
 es wird daher eine ziemlich große Größe haben.
 
+Eine der Einschränkungen beim Erstellen eines Backups unter VMware ist das Vorhandensein von
+absolut 2 Datenspeicher. Dafür haben Sie mehrere Möglichkeiten :
 
-.  :
+-   2 Festplatten / SSD mit jeweils einem Datenspeicher
 
--   
-
--   . 
-    
+-   ein NAS (Synology-Typ), der einen NFS-Mount gemeinsam nutzt. In diesem Fall ist es
+    Sie müssen VMware ein Netzwerkdateisystem hinzufügen, damit es angezeigt wird
     
 
 
@@ -115,7 +115,7 @@ enthält :
 . .
 Kehren Sie in SSH zum ESXi zurück (stellen Sie gegebenenfalls die Verbindung wieder her) und tun Sie dies :
 
-    / vmfs / volume / Backup / .sh -a -g / vmfs / volume / Backup / .conf
+    
 
 Dies startet eine Sicherung aller Ihrer VMs (und kann daher viel Zeit in Anspruch nehmen
 Zeit). Am Ende sollten Sie auf Ihrem Backup-Datenspeicher a haben
@@ -138,19 +138,19 @@ Hier ist eine weitere Möglichkeit für die Befehlszeile :
 
 <!-- -->
 
-    / vmfs / volume / Backup / .sh -d dryrun -a -g / vmfs / volume / Backup / .conf
+    
 
 -   Starten Sie im Debug-Modus :
 
 <!-- -->
 
-    / vmfs / volume / Backup / .sh -d debug -a -g / vmfs / volume / Backup / .conf
+    
 
 -   Sichern Sie nur die VM "toto"
 
 <!-- -->
 
-    / vmfs / volume / Backup / .sh -m toto -a -g / vmfs / volume / Backup / .conf
+    
 
 Automatischer Start der Sicherung 
 =================================
@@ -161,12 +161,12 @@ Vermeiden Sie dies, damit Sie ein kleines Skript hinzufügen müssen, das das ak
 crontab beim Booten (keine Sorge, es ist ziemlich einfach und schnell), in
 SSH auf dem ESXi tun :
 
-    vi /etc/rc.local.d/local.sh
+    
 
 Und vor "exit 0" fügen Sie die folgenden Zeilen hinzu :
 
     / bin / kill $ (cat /var/run/crond.pid)
-    / bin / echo "0 0 1 * * / vmfs / volume / Backup / .sh -a -g / vmfs / volume / Backup / .conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
+    /bin/echo "0 0 1 * *  >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     / usr / lib / vmware / Busybox / Bin / Busybox Crond
 
 > **Notiz**
@@ -179,15 +179,15 @@ Und vor "exit 0" fügen Sie die folgenden Zeilen hinzu :
 > Hier mache ich ein Backup aller VMs, Sie können dies anpassen, indem Sie
 > Ersetzen Sie -a durch -m ma \. _vm. Seien Sie vorsichtig, wenn Sie setzen möchten
 > Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \. * \. duplizieren*
-> / vmfs / volume / Backup / .sh -a -g
-> / vmfs / volume / Backup / .conf &gt;/dev/null 2&gt;&1" &gt;&gt;
+> / vmfs / volume / Backup / .
+>  &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "und legen Sie eine pro VM für die Sicherung ab
 
 > **Wichtig**
 >
 > Vergessen Sie nicht, den Pfad an die Konfigurationsdatei von anzupassen
 >  entsprechend Ihrer Konfiguration :
-> / vmfs / volume / Backup / .conf
+> 
 
 Letzter Schritt: Sie müssen Ihr ESXi neu starten, damit der Cron genommen werden kann
 In Anbetracht dessen können Sie das Ergebnis sehen, indem Sie (immer in SSH) :
@@ -196,4 +196,4 @@ In Anbetracht dessen können Sie das Ergebnis sehen, indem Sie (immer in SSH) :
 
 Hier müssen Sie eine Linie haben :
 
-    0 0 1 * * / vmfs / volume / Backup / .sh -a -g / vmfs / volume / Backup / .conf> / dev / null 2> & 1
+    0 0 1 * *  >/dev/null 2>&1

@@ -9,49 +9,49 @@
 Resumen 
 ======
 
+El micromódulo EMV-400 le permitirá administrar un motor
+equipos bidireccionales o eléctricos. Permite el control
+2 salidas Start / Detener o un obturador Open / Detener / Close.
 
-. 
-.
+Además, la interacción con otros protocolos es posible, es
+controlable por interruptores de marca y / o controles remotos
+Edisio, directamente de Jeedom, pero también por cualquier
+Transmisor Z-Wave en su red.
 
+Cada módulo Edisio en la red eléctrica, con la posibilidad de
+funciona como un repetidor inalámbrico con los otros módulos, por lo que
+Asegure la cobertura total de su hogar.
 
-
-
-.
-
-
-
-.
-
-
-
+Finalmente, cada módulo se puede usar en modo remoto, es muy
+práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
 > **Importante**
 >
-> "
+> Neutral solo es necesario para el modo "Obturador""
 
 Funciones 
 =========
 
--   
+-   2 salidas de relé suministradas
 
--   
-    
+-   Se instala en una caja empotrada de 55 mm o directamente en
+    las cajas de apertura
 
--   Modo de uso: 
+-   Modo de uso: Encendido / Apagado, Abrir / Parar / Cerrar
 
--   
-    
+-   Compatible con finales de carrera electrónicos y
+    mecánico
 
--   
+-   Modo remoto
 
--   : : 
+-   Función de temporizador: Modo de encendido / apagado: 30 min o 60 min
 
--   
+-   Réplica de señal (repetidor)
 
--   
+-   Micromódulo bidireccional
 
--   
+-   Nivel bajo de batería del transmisor
 
 -   Pequeño, discreto y estético.
 
@@ -60,11 +60,11 @@ Funciones
 Características técnicas 
 ===========================
 
--   Tipo de módulo: 
+-   Tipo de módulo: Receptor Edisio
 
--   Suministro: 
+-   Suministro: 230VAC, 50Hz
 
--   Cableado: 
+-   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
 -   Frecuencia: 868.3 MHz
 
@@ -145,7 +145,7 @@ teclas ", así es como funciona el módulo:
 
 ![diagramme](images/emv.400/diagramme.jpg)
 
- 
+Función de temporizador 
 ------------------
 
 La función de temporizador apaga automáticamente los relés al final
@@ -153,7 +153,7 @@ La función de temporizador apaga automáticamente los relés al final
 
 > **Nota**
 >
-> "
+> Esta función solo se utiliza en el modo "Iluminación""
 
 El modo "Obturador"" 
 ===============

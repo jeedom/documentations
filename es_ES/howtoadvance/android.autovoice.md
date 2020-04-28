@@ -50,7 +50,7 @@ En tipo de complemento, seleccionamos **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-En el submenú **AutoVoice**, seleccionamos **Reconocido**.
+En el submenú **AutoVoice**, Seleccionamos **Reconocido**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 

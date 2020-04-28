@@ -1,4 +1,4 @@
-" 
+Fibaro FGFS-101 "Hochwassersensor" 
 ==============================
 
 \.
@@ -24,32 +24,32 @@ Zusammenfassung
 
 \.
 
+Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
+Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
+Flood Fibaro warnt Sie vor einer drohenden Flut oder einem Anstieg
+oder schneller Temperaturabfall.
 
+Es ist mit einem Neigungssensor ausgestattet, der einen Alarm sendet
+sofort zum Z-Wave-Netzwerk, wenn der Detektor bewegt oder gestohlen wird
+(gibt die Neigung oder Rückmeldung an den Z-Wave-Controller zurück
+Bewegung).
 
+Dieser universelle Hochwasser- und Temperaturdetektor kann mit Strom versorgt werden
+durch Batterie oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
+An eine externe Stromquelle angeschlossen, dient die Batterie als Quelle
+Notstromversorgung.
 
-.
+Dank seines Temperatursensors können Sie die Temperatur von steuern
+dein Boden. Es ist wasserdicht, im Hochwasser schwimmt es auf der Oberfläche von
+Wasser.
 
+Es hat auch einen Sirenenalarm, der im Falle von ertönen kann
+Problem. Sie können den Trockenkontaktausgang an ein System anschließen
+vorhandener Alarm. Eine Front-LED zur Überprüfung des Status der
+FGFS-101.
 
-
-
-.
-
-
-. 
-
-.
-
-
-. 
-.
-
-
-
-. 
-.
-
-
-.
+Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
+stellt die korrekte Funktion des Sensors während seiner Installation sicher.
 
 \.
 
@@ -58,17 +58,17 @@ Funktionen
 
 \.
 
--   
+-   Hochwassermelder (Vorhandensein von Wasser über Kontakte)
 
--   
+-   Temperaturdetektor
 
--   
+-   Neigungsdetektor
 
--   
+-   Akustischer und visueller Alarm
 
--   
+-   Z-Wave-Entfernungsmesser
 
--    ?? 
+-   Z-Wave Repeater ?? (siehe Abschnitt "Gut zu wissen")
 
 \.
 
@@ -79,30 +79,30 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--    : 
+-   Das Modul kann extern mit Strom versorgt werden : 12 - 24 VDC
 
--   Batterietyp : 
+-   Batterietyp : CR123A
 
 -   Akkulaufzeit : 2 Jahre
 
--    : 
+-   Verbrauch an externer Stromversorgung : 0,4 W.
 
--    :
+-   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
 
--    : 
+-   Maximale am Ausgang unterstützte Spannung : 40 V (AC oder DC)
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 
+-   Abmessungen : 72 x 28 mm (Durchmesser x Höhe)
 
--   Betriebstemperatur : 
-    
+-   Betriebstemperatur : 0-40 ° C (-20 ° C bis 70 ° C, wenn
+    externe Stromversorgung)
 
 -   Temperaturmessbereich : -20 bis 100 ° C.
 
--   Messgenauigkeit : 
+-   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 40 ° C)
 
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
@@ -115,7 +115,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Modell : 
+-   Modell : Hochwassersensor FGFS101
 
 -   Hersteller : FIBARO-System
 
@@ -141,8 +141,8 @@ Aufnahme beziehen sich darauf
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
-> 
-> .
+> zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
+> Papier (die schwarze Lasche).
 
 \.
 
@@ -175,8 +175,8 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Leck : 
-    
+-   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
+    Wasser, Überschwemmungen ...)
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
@@ -226,7 +226,7 @@ Parameterdetails :
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
 
--   .  :
+-   1 \. Verzögerung der Alarmstornierung nach Erkennung einer Überschwemmung :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     stoppt sofort)
 
@@ -329,7 +329,7 @@ Wichtiger Hinweis
 Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro-Dokumentation :
-<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
+<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \.
 

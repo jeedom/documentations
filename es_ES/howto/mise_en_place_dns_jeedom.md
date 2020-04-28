@@ -38,32 +38,32 @@ Una vez que su Jeedom está vinculado al mercado, usted va al mercado; luego en 
 
 Una vez que el estado del mercado en "Conexión posible", vaya a su Jeedom, en la administración de la misma vaya a la pestaña Redes y marque "Usar Jeedom DNS" y luego guarde.
 
-
+Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom
 
 > **Importante**
 >
-> . 
+> Puede cambiar esta URL yendo a la página de perfiles de su mercado y luego a mis Jeedoms. Tenga en cuenta que cualquier cambio demora 24 horas antes de ser efectivo
 
-
+Aquí está su Jeedom accesible desde el exterior en https
 
 ## Preguntas frecuentes
 
-> ****
+> **¿Hay necesidad de abrir puertos en mi caja?**
 >
-> . .
+> No, no hay necesidad de abrir un puerto desde su caja de internet a su Jeedom. La conexión está en la dirección Jeedom -> VPN, por lo que es una conexión saliente (en los puertos 1194,1195,1996 y 1997) y no una conexión entrante.
 
-> ****
+> **¿Por qué Jeedom DNS protege mi acceso?**
 >
-> . .
+> Jeedom DNS le permite configurar algo muy importante, el acceso HTTPS, esto garantiza que la conexión entre su navegador y su Jeedom esté encriptada, además el certificado es válido, nadie podrá suplantar su Jeedom. Finalmente, la conexión VPN en su Jeedom y nuestros servidores también está encriptada.
 
-> ****
+> **Cambié el puerto de escucha interno de mi Jeedom y el Jeedom DNS ya no funciona**
 >
-> . .
+> De hecho, el Jeedom DNS solo funciona si su Jeedom está escuchando en el puerto local 80 (todos los demás puertos están cerrados en la interfaz VPN cuando se conecta). Esto no plantea problemas de seguridad porque la VPN crea un túnel encriptado, por lo que incluso si el flujo está libre en el puerto 80, está encriptado en el túnel VPN.
 
-> ****
+> **No tengo la página de inicio de sesión pero no puedo iniciar sesión**
 >
-> .
+> Compruebe que ha cambiado las credenciales predeterminadas de jeedom (admin / admin) y que su usuario no está restringido solo localmente.
 
-> ****
+> **Mi configuración es buena pero imposible tener una página que da vuelta infinitamente**
 >
-> . .
+> Si su configuración es correcta (Secuencia de inicialización completada en el registro openvpn_DNS_Jeedom) pero no puede obtener la página de inicio de sesión que funciona aleatoriamente con la aplicación móvil y está en 4g o al final de la línea ADSL. En este caso, debe marcar la casilla en la configuración de red de jeedom como lo que está en 4g y reiniciar el dns como ese jeedom cambiará el mtu de su conexión para reducir el tamaño de los paquetes.

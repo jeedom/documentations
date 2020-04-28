@@ -1,23 +1,23 @@
-# 
+# Resumen
 
 - [Huawei GSM mode réseaux](/documentations/es_ES/howto/gsm.huawei_mode_carte_reseau)
 - [Huawei GSM mode modem](/documentations/es_ES/howto/gsm.huawei_mode_modem)
 - [Mariadb/Mysql truc et astuce](/documentations/es_ES/howto/mysql.trucs_et_astuces)
 - [Github](/documentations/es_ES/howto/tuto.github)
 
-## 
+## Debian
 
 - [Installation](/documentations/es_ES/howto/debian.installation)
 - [Truc et astuces](/documentations/es_ES/howto/debian.trucs_et_astuces)
 
-## 
+## VMware
 
 - [Créer une vm](/documentations/es_ES/howto/vmware.creer_une_vm)
 - [Insallation sur NUC](/documentations/es_ES/howto/vmware.installation_sur_nuc)
 - [Sauvegarde/restauration](/documentations/es_ES/howto/vmware.mise_en_place_des_backups)
 - [Truc et astuce](/documentations/es_ES/howto/vmware.trucs_et_astuces)
 
-## 
+## Archivo
 
 - [Android autovoice](/documentations/es_ES/howto/android.autovoice)
 - [Installer monit](/documentations/es_ES/howto/installation.monit)

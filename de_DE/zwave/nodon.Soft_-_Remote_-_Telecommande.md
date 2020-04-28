@@ -1,4 +1,4 @@
-Nodon Fernbedienung - Soft Remote 
+Nicken Fernbedienung - Soft Remote 
 ================================
 
 \.
@@ -78,7 +78,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nodon
+-   Machen Sie : Nicken
 
 -   Name : CRC-3-6-0x Soft Remote
 

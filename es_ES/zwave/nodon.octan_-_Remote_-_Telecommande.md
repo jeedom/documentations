@@ -1,4 +1,4 @@
-Mando a distancia Nodon - Octan 
+Mando a distancia Mediodía - Octan 
 ==========================
 
 \
@@ -84,7 +84,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : CRC-3-1-00 Octan Remote
 

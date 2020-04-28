@@ -175,7 +175,7 @@ Here is the list of commands :
 -   Brightness : it is the command which makes it possible to raise the brightness
 
 -   Seismic : it is the command which allows to increase the intensity
-    seismic
+    Seismic
 
 -   Sabotage : this is the Sabotage command (it is triggered in case
     vibration)

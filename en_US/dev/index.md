@@ -1,4 +1,4 @@
-# 
+# Summary
 
 - [Structure info.json](/documentations/en_US/dev/structure_info_json)
 - [Icône du plugin](/documentations/en_US/dev/Icone_de_plugin)

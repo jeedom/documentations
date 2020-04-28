@@ -1,85 +1,85 @@
 Beschreibung 
 ===========
 
+Es gibt zwei Möglichkeiten, Jeedom zu retten, und jede hat
+Vor- und Nachteile.
 
-.
+Es ist möglich, über die Schnittstelle zu speichern
+Jeedom. Dies betrifft nur die Jeedom-Software und ihre Daten.
+Es hat den Vorteil, heiß gemacht zu werden und die Datei von
+Backup kann auf andere Medien exportiert werden.
 
+Es ist auch möglich, ein Backup zu erstellen, indem Sie ein Image erstellen
+microSD-Karten-Disc (Mini und Mini +). Dieser Weg hat den Vorteil
+eine vollständige Sicherung des Systems sowie von Jeedom und seiner
+Daten. Dies muss jedoch durch Ausschalten von Jeedom und erfolgen
+Einstecken der microSD-Karte in einen anderen Computer.
 
-.
-
-.
-
-
-. 
-
-
-.
-
- : 
-
-.
+Der beste Weg, leise zu sein, ist, beide zu verwenden : Machen Sie eine
+Sichern Sie die microSD-Karte von Zeit zu Zeit und programmieren Sie a
+regelmäßige Sicherung von Jeedom.
 
 > **Spitze**
 >
-> 
-> 
-> 
-> [ici](https:.
+> Das Verfahren zur Wiederherstellung der microSD-Karte kann für hilfreich sein
+> Stellen Sie ein Standard-Jeedom aus dem von bereitgestellten Image wieder her
+> das Team sehen
+> [ici](https://www.jeedom.fr/doc/documentation/installation/de_DE/doc-installation.html).
 
- 
+Jeedom Backup / Restore 
 =================================
 
-
-
+Zur Erläuterung der Seite ist bereits eine Dokumentation vorhanden
+Administration → Backups. Sie werden es finden
 [ici](https://jeedom.github.io/core/de_DE/backup).
 
- 
+Sichern / Wiederherstellen der microSD-Karte 
 ===========================================
 
- 
+Vorbereitungen 
 -----------
 
-
-
-. 
-.
+Diese Sicherungen / Wiederherstellungen werden von einem anderen durchgeführt
+Computer, um ein "sauberes Bild" der SD-Karte zu machen. Es nimmt in
+Stoppen Sie zuerst den Mini +. Versetzen Sie dazu Jeedom in den Modus
+Experte im Benutzermenü oben rechts.
 
 ![save restore06](Bilds/save-restore06.jpg)
 
-
+Und klicken Sie auf Ausschalten
 
 ![save restore07](Bilds/save-restore07.jpg)
 
-
-
+Entfernen Sie dann die microSD-Karte aus dem mini + und schließen Sie sie an
+Ihr Computer über einen Adapter / Kartenleser /…
 
 ![save restore08](Bilds/save-restore08.jpg)
 
- 
+Windows 
 ------------
 
- :
+Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen :
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskBildr/)
 
 1.  **Schutz**
 
-    -   
-        *
-        .
+    -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben
+        *Gerät * entspricht dem Ihrer Karte / Ihres Lesegeräts
+        Karte.
 
-    -   
-        .
+    -   Geben Sie im Feld * Bilddatei * den Namen der Bilddatei ein, die
+        Sie möchten erstellen und wo es gespeichert wird.
 
-    -   .
-        Bild::]
+    -   Klicken Sie abschließend auf die Schaltfläche * Lesen *, um das Bild zu erstellen.
+        Bild::Bilds / save-restore09.jpg \ [align = "center" \]
 
-2.  ****
+2.  **Verpflegung**
 
-    -   
-        *
-        .
+    -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben
+        *Gerät * entspricht dem Ihrer Karte / Ihres Lesegeräts
+        Karte.
 
-    -   
+    -   Suchen Sie im Feld * Bilddatei * nach der Bilddatei, die
         Sie möchten wiederherstellen.
 
     -   Klicken Sie abschließend auf die Schaltfläche * Schreiben *, um dies wiederherzustellen
@@ -113,7 +113,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
             ist `/ dev / disk1`, also geben Sie den Befehl ein
             Schutz \`/dev/disk1\`*
 
-2.  ****
+2.  **Verpflegung**
 
     -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust *, geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
@@ -156,7 +156,7 @@ Unter Linux
         `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Bemerkung: Dans
         In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
-2.  ****
+2.  **Verpflegung**
 
     -   Öffnen Sie a, um die der Karte entsprechende Festplatte zu finden
         Terminal und geben Sie den Befehl ein : `sudo fdisk -l | grep Dis`

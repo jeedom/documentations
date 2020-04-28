@@ -72,44 +72,44 @@ Beachten Sie, dass einige Plugins mit der neuesten Version veraltet zu sein sche
 EmonCMS (v9 Ende 2015)
 
 Wenn wir sie installieren, gibt es Probleme mit den Menüs. Jedenfalls,
- :
+wir brauchen nur a priori :
 
-:.
+Git-Klon <https://github.com/emoncms/event.git> (Er ist derjenige, der kann
+erlauben, Reaktionen auf Ereignisse in Emoncms für zu erstellen
+Jeedom benachrichtigen)
 
+Git-Klon <https://github.com/emoncms/openbem.git> (Dies ist ein Plugin für
+den Energieverbrauch des Hauses überwachen)
 
+Git-Klon <https://github.com/emoncms/energy.git>
 
-:.
+Git-Klon <https://github.com/emoncms/report.git>
 
+Git-Klon <https://github.com/elyobelyob/mqtt.git>
 
-:>
-
-:>
-
-:>
-
- 
+Nginx-Konfiguration 
 ===================
 
-. 
+Hier ist eine Beispielkonfiguration für Nginx. Für Apache gibt es keine
+Special Conf brauchen ein klassisches Repertoire
 
+    Ort / Emoncms {
+           alias / var / www / emoncms /;
+           index index.php;
+            try_files = $ uri $ uri / @missing;
 
-     {
-           
-           
-            
-
-       .PHP (/|$) {
-               ?
-               :
-               
-               
-               
-               
-               
+       Ort ~ [^ /] \.PHP (/|$) {
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
+               fastcgi_pass unix:/var/run/php5-fpm.sock;
+               fastcgi_index index.php;
+               include fastcgi_params;
+               fastcgi_param REMOTE_USER $ remote_user;
+               fastcgi_param PATH_INFO $ fastcgi_path_info;
+               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
            }
 
     }
 
-     {
-            .*?
+    location @missing {
+            schreibe um ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
     }

@@ -165,7 +165,7 @@ Aquí está la lista de comandos :
     Mostrar
 
 -   Chimenea : Es el comando que simula una atmósfera de
-    chimenea
+    Chimenea
 
 -   Tormenta : Este es el comando que simula una atmósfera de tormenta
 

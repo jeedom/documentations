@@ -87,29 +87,29 @@ git clone <https://github.com/emoncms/report.git>
 
 git clone <https://github.com/elyobelyob/mqtt.git>
 
- 
+Nginx configuration 
 ===================
 
-. 
+Here is an example configuration for Nginx. For Apache there is no
+special conf need a classic repertoire
 
+    location / emoncms {
+           alias / var / www / emoncms /;
+           index index.php;
+            try_files = $ uri $ uri / @missing;
 
-     {
-           
-           
-            
-
-       .php (/|$) {
-               ?
-               :
-               
-               
-               
-               
-               
+       location ~ [^ /] \.php (/|$) {
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
+               fastcgi_pass unix:/var/run/php5-fpm.sock;
+               fastcgi_index index.php;
+               include fastcgi_params;
+               fastcgi_param REMOTE_USER $ remote_user;
+               fastcgi_param PATH_INFO $ fastcgi_path_info;
+               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
            }
 
     }
 
-     {
-            .*?
+    location @missing {
+            rewrite ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
     }

@@ -1,4 +1,4 @@
-Nodon Switch - Wandschalter 
+Nicken Switch - Wandschalter 
 ================================
 
 \.
@@ -94,7 +94,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nodon
+-   Machen Sie : Nicken
 
 -   Name : CWS-3-1-01 Wandschalter
 

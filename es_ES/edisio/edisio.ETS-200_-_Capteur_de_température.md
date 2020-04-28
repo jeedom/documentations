@@ -9,30 +9,30 @@
 Resumen 
 ======
 
+Colocado en una habitación, la temperatura ambiente deseada aumentará
+automáticamente Además, asociado con un receptor tipo EMR-2000 o
+EDR-B4 (4 salidas) tendrá un termostato conectado y controlable
+desde cualquier parte del mundo a través de internet.
 
+La señal solo se envía después de detectar una diferencia en
+o, 5 ° C o 1 ° C de temperatura o cada 5 minutos. Además, el sensor
+es compacto y discreto.
 
-
-.
-
-
-. 
-.
-
-.
+El indicador LED integrado señala cualquier cambio de estado.
 
 Funciones 
 =========
 
--   
+-   Sensor inalámbrico de temperatura alimentado por batería
 
 -   Ultra compacto
 
--   
-    
+-   Señal transmitida instantáneamente durante un aumento o disminución
+    temperatura
 
 -   Facilidad de uso e instalación.
 
--   
+-   Montaje en pared por tornillos o doble cara
 
 -   Información de nivel de batería
 
@@ -45,7 +45,7 @@ Características técnicas
 
 -   Suministro : 3VDC (batería de litio ER14250)
 
--    : 
+-   Autonomía : Hasta 3 años
 
 -   Frecuencia : 868.3 MHz
 
@@ -62,7 +62,7 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : 
+-   Nombre : ETS-200
 
 Configuración general 
 ======================
@@ -78,8 +78,8 @@ referirse a esto
 
 > **Punta**
 >
-> 
-> .
+> Se recomienda su colocación a una altura de 150 cm y cerca
+> la temperatura deseada.
 
 Botón "E"" 
 ----------
@@ -89,21 +89,21 @@ Sensor de temperatura.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
- 
+Ajuste de la temperatura delta 
 -------------------------------
 
-
-. 
-:
+Por defecto, la temperatura delta se programa a 1 ° C (+/- 10%) para
+optimizar la duración de la batería. Tienes la posibilidad de
+establecer este parámetro:
 
 ![ets200.delta](images/ets200/ets200.delta.jpg)
 
 Asociación del sensor con Jeedom 
 ===============================
 
-. 
-. Este lo hará
-. 
+La combinación del sensor de temperatura es muy sencilla.. Simplemente
+presione el botón "E", ubicado debajo del sensor. Este lo hará
+reconocido automáticamente. Colóquelo en un objeto, asígnele un nombre y
 Guardar.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
@@ -122,7 +122,7 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Temperatura : 
+-   Temperatura : Es el comando que indica la temperatura leída.
 
 -   Batería : Indica el estado de la batería.
 

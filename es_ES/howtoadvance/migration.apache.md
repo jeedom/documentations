@@ -1,60 +1,60 @@
 Por qué ? 
 ==========
 
--   
+-   Apache se convertirá gradualmente en la norma con Jeedom
 
--   
-     .
+-   Le permite tener las últimas actualizaciones de seguridad en
+    acceso a archivos (gracias a .htaccess) durante las actualizaciones de
     Jeedom
 
--   
-    
+-   Corrige algunos problemas de acceso y estabilidad (especialmente para aquellos
+    que tienen muchas cámaras)
 
--   .
+-   Mejora el rendimiento general de Jeedom.
 
- 
+Prerrequisitos 
 =========
 
--   
-    
+-   Sepa cómo conectarse en SSH en la caja (encontrará el
+    identificadores en la documentación de instalación)
 
--   .
-
-> **Importante**
->
-> 
-> . 
-> .
+-   Estar conectado a internet.
 
 > **Importante**
 >
-> 
-> .
+> En caso de inquietud, el equipo de Jeedom no puede ser considerado responsable y
+> puede rechazar cualquier solicitud de soporte. El manejo es tuyo
+> riesgos y peligros.
+
+> **Importante**
+>
+> Tenga en cuenta que algunos complementos no oficiales no son compatibles
+> Apache, averígualo mucho antes.
 
 Como hacer 
 =============
 
- 
+Desactivación de los servicios Jeedom y nginx 
 ------------------------------------------
 
+En Jeedom, debes ir a cada plugin con un demonio, luego
+desactivar la gestión automática del demonio y cortarlo. Hay que
+luego, en el motor de tareas, desactive todas las tareas (hay un
+botón de desactivación general) y en los escenarios desactivar todos
+los escenarios (hay un botón de desactivación general).
 
-. Hay que
+    systemctl stop cron
+    systemctl stop nginx
+    systemctl stop mysql
 
-
-.
-
-    
-    
-    
-
- 
+Instalación y configuración de Apache 
 --------------------------------------
 
-    
-    
-    
-    
-    wget https:.com / jeedom / core / stable / install / apache_security -O /etc/apache2/conf-available/security.conf
+    mkdir -p / var / www / html / log
+    apt-get -y instalar ntp ca-certificados descomprimir curl sudo
+    apt-get -y instalar apache2 php5 mysql-client mysql-server libapache2-mod-php5
+    apt-get -y install php5-cli php5-common php5-curl php5-fpm php5-json php5-mysql php5-gd
+    wget https://raw.githubusercontent.com / jeedom / core / stable / install / apache_security -O /etc/apache2/conf-available/security.conf
     rm /etc/apache2/conf-enabled/security.conf
     ln -s / etc / apache2 / conf-available / security.conf / etc / apache2 / conf-enabled /
     rm /etc/apache2/conf-available/other-vhosts-access-log.conf

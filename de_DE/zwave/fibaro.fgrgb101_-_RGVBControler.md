@@ -165,7 +165,7 @@ Hier ist die Liste der Befehle :
     Anzeige
 
 -   Schornstein : Es ist der Befehl, der eine Atmosphäre von simuliert
-    Kamin
+    Schornstein
 
 -   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
 

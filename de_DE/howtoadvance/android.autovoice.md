@@ -50,7 +50,7 @@ Im Plugin-Typ wählen wir **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-Im Untermenü **AutoVoice**, wir wählen **Anerkannt**.
+Im Untermenü **AutoVoice**, Wir wählen **Anerkannt**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 

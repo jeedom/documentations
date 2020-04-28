@@ -1,41 +1,41 @@
-
-". 
-.0 es
-
+Veremos aquí cómo migrar una instalación con Jeedom en modo
+esclavo de un Jeedom con el complemento Jeedom Link". Modo esclavo
+Jeedom siendo abandonado en la transición de Jeedom a la Haciaión 3.0 es
+necesario proceder antes de la migración al nuevo modo de
 funcionando.
 
- 
+Preparación antes de la migración 
 ===========================
 
 > **Advertencia**
 >
-> 
-> . 
-> 
-> 
-> . 
-> . Si usted
-> 
->  !
+> Es importante leer toda esta documentación antes
+> iniciarse en la migración. Información importante sobre
+> requisitos de actualización, respaldo y recuperación
+> de información son esenciales para la comprensión adecuada de
+> la operación a realizar. Abstenerse de leer esta documentación puede
+> conducir a operaciones destructivas en su instalación. Si usted
+> no entiendo un punto, no dude en hacer preguntas sobre el
+> foro antes de comenzar el procedimiento !
 
 > **Importante**
 >
-> 
-> ". 
-> 
-> .  !
+> Tenga cuidado de no enrollar el equipo
+> configurar el complemento Jeedom Link". Por ejemplo, no hagas un
+> Equipment-X en un Jeedom1 que sube en un Jeedom2 y luego sube
+> de nuevo en Jeedom1. Podría dejar caer tus Jeedoms !
 
 > **Nota**
 >
-> 
->  :\
+> Para una mejor lectura y comprensión de este tutorial, aquí están los
+> términos utilizados :\
 > \
-> - **** : 
->  ****\
->  ****.\
+> - **Jeedom Targy** : Servidor (tu antiguo Jeedom Master) que
+> centralizar el equipamiento de la **Jeedom (s) Fuente (s)**\
+> Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Targy**.\
 > \
 > - **Fuente de la libertad** : Servidor (su ex esclavo (s) Jeedom)
-> lo que vuelve a poner su equipo en el ****.\
+> lo que vuelve a poner su equipo en el **Jeedom Targy**.\
 > \
 > - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no son
 > noticias. El nuevo modo operativo de sincronización
@@ -114,10 +114,10 @@ Migración
 > No elimine equipos viejos de
 > **el esclavo** sobre **el maestro**.
 
-Instale y active el complemento "Jeedom Link" en el **** (ex maestro). 
+Instale y active el complemento "Jeedom Link" en el **Jeedom Targy** (ex maestro). 
 -------------------------------------------------------------------------------------
 
-En su ****, *Complementos ⇒ Gestión de complementos* :
+En su **Jeedom Targy**, *Complementos ⇒ Gestión de complementos* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
@@ -176,14 +176,14 @@ Configuración de fuente de Jeedom
     una vez que las dependencias y los posibles demonios estén bien).
 
 -   Recrea el árbol de objyos (solo los que
-    ser útil) de **** (Viejo maestro) en tu nuevo
+    ser útil) de **Jeedom Targy** (Viejo maestro) en tu nuevo
     **Fuente de la libertad** (Ex esclavo).
 
 Configuración de equipos en el **Fuente de la libertad** 
 ------------------------------------------------------
 
 Para enviar equipos presentes en el **Fuente de la libertad**
-hacia **** a través del complemento "Jeedom Link", es necesario
+hacia **Jeedom Targy** a través del complemento "Jeedom Link", es necesario
 que ya está operativo en su nuevo **Jeedom
 Fuente**.
 
@@ -192,15 +192,15 @@ Fuente**.
 > Recuerde desactivar el registro de comandos
 > información de cada equipo en el **Fuente de la libertad** entonces
 > para guardar la tarjya SD (la historización se realizará en el
-> ****).
+> **Jeedom Targy**).
 
 > **Nota**
 >
 > También puede asignar gradualmente el equipo a
 > objyos recreados en el **Fuente de la libertad** para que sean más tarde
-> poner automáticamente en el objyo correcto en el **** Durante
+> poner automáticamente en el objyo correcto en el **Jeedom Targy** Durante
 > la declaración en el complemento "Jeedom Link". En caso de nombre duplicado
-> con equipos ya presentes en los objyos del ****,
+> con equipos ya presentes en los objyos del **Jeedom Targy**,
 > el complemento agregará "XXXX remoto" al nombre del equipo.
 
 ### Complemento Zwave : 
@@ -217,7 +217,7 @@ Fuente**.
 -   Cambie el nombre de sus módulos y colóquelos en los objyos deseados dentro de usted
     ayudando con su memo de migración.
 
-### Complemento Rfxcom : 
+### Complemento RFXcom : 
 
 #### Sondas, sensores, dyectores, ... : 
 
@@ -242,13 +242,13 @@ Configuración del complemento "Jeedom Link"
 -------------------------------------
 
 El complemento "Jeedom Link" instalado en el **Fuente de la libertad** permitirá el
-equipo en el **** (Tu viejo maestro).
+equipo en el **Jeedom Targy** (Tu viejo maestro).
 
 > **Nota**
 >
 > Recordatorio, para una mejor lectura y comprensión de este tutorial :\
 > \
->  ****.\
+> Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Targy**.\
 > \
 > Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.\
 
@@ -256,18 +256,18 @@ Sobre **Fuente de la libertad**,
 [configurer](https://jeedom.github.io/documentation/plugins/jeelink/es_ES/jeelink)
 el complemento "Jeedom Link" especificando :
 
--   El nombre de ****.
+-   El nombre de **Jeedom Targy**.
 
--   La dirección IP o el nombre DNS del ****.
+-   La dirección IP o el nombre DNS del **Jeedom Targy**.
 
--   La clave API de ****.
+-   La clave API de **Jeedom Targy**.
 
 Y guarda la configuración.
 
 ![jeelink.migration3](images/jeelink.migration3.png)
 
 En la pestaña * Asignación *, agregue el equipo que desee
-subir a la ****.
+subir a la **Jeedom Targy**.
 
 ![jeelink.migration4](images/jeelink.migration4.png)
 
@@ -276,7 +276,7 @@ para agregar :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-Después de actualizar la página * My JeeLinks * de ****, Vosotras
+Después de actualizar la página * My JeeLinks * de **Jeedom Targy**, Vosotras
 debe tener en cuenta la creación automática del equipo :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -296,7 +296,7 @@ Recuperación histórica
 
 > **Nota**
 >
-> Para hacer en **** (Ex maestro) para cada pedido
+> Para hacer en **Jeedom Targy** (Ex maestro) para cada pedido
 > información del equipo antiguo **Esclavo** que queremos recuperar
 > la historia.
 
@@ -316,7 +316,7 @@ Reemplazo de equipos esclavos antiguos en escenarios / virtuales / ...
 
 > **Nota**
 >
-> Para hacer en **** (Ex maestro) para cada pedido
+> Para hacer en **Jeedom Targy** (Ex maestro) para cada pedido
 > información / acción de equipos viejos **Esclavo** que queremos
 > reemplazar ocurrencias en escenarios / virtuales / ....
 
@@ -335,7 +335,7 @@ Recuperando configuraciones de pantalla avanzadas para comandos
 
 > **Nota**
 >
-> Para hacer en **** (Ex maestro) para cada pedido
+> Para hacer en **Jeedom Targy** (Ex maestro) para cada pedido
 > información / acción de equipos viejos **Esclavo** que queremos
 > recuperar configuraciones avanzadas de pantalla.
 
@@ -352,7 +352,7 @@ Copia de configuraciones de comando avanzadas
 
 > **Nota**
 >
-> Para hacer en **** (Ex maestro) para cada pedido
+> Para hacer en **Jeedom Targy** (Ex maestro) para cada pedido
 > información / acción de equipos viejos **Esclavo** que queremos
 > recuperar la configuración avanzada.
 
@@ -362,41 +362,41 @@ Copia de configuraciones de comando avanzadas
 -   Órdenes abiertas para equipos viejos **Esclavo** en un
     Pestaña (Objyivo de libertad).
 
--   
-    .
+-   Abra los controles del equipo jeeLink en la otra pestaña
+    (Objyivo de libertad).
 
--   .
+-   Y copie los parámyros deseados a mano.
 
 > **Nota**
 >
-> 
-> .
-> .
+> Para evitar repyir el mismo orden varias veces, el
+> operaciones 2.6 → 2.9 se pueden realizar consecutivamente en el mismo
+> orden antes de proceder al siguiente.
 
 > **Advertencia**
 >
->  **** 
->  **Fuente de la libertad** 
-> ".
+> Interacciones en el **Jeedom Targy** no se puede lanzar
+> a través del equipo de un **Fuente de la libertad** transferido a través de
+> Complemento Jeedom Link".
 
- **** 
+Hogar en el **Jeedom Targy** 
 ==============================
 
 > **Nota**
 >
-> 
-> 
-> 
-> .
+> Después de confirmar con certeza que su
+> equipos / escenarios / interacciones / virtuales / ... trabajar
+> correctamente con el nuevo sistema jeelink puedes hacer el
+> hogar.
 
--    **Jeedom Slave**.
+-   Eliminar el equipo residual de la antigua **Jeedom Slave**.
 
--   
-    .
+-   Deshabilita y elimina los complementos que ya no te son útiles
+    (Los que solo tenías equipo en el Esclavo).
 
--   
-     XXXX".
+-   En el complemento "Jeedom Link", cambie el nombre del equipo que
+    podría tener un nombre que termine con "remoto XXXX".
 
--    **Jeedom Slave**.
+-   En la página de Jeedom Nywork, elimine la anterior. **Jeedom Slave**.
 
 

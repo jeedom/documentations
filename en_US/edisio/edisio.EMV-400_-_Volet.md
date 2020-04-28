@@ -155,15 +155,15 @@ The timer function automatically switches off the relays at the end
 >
 > This function is only used in "Lighting" mode"
 
-" 
+The "Shutter" mode" 
 ===============
 
-
-.
+The "Shutter" mode allows you to control a bidirectional motor at the end of
+electronic and mechanical distance racing.
 
 > **IMPORTANT**
 >
-> 
+> Neutral is required
 
 Electrical configuration and connections : 
 --------------------------------------------
@@ -172,7 +172,7 @@ Electrical configuration and connections :
 
 > **IMPORTANT**
 >
-> 
+> In order for the module to be in "Shutter" mode, the DIP Switch 2 must be in
 > Low
 
 > **IMPORTANT**
@@ -195,8 +195,8 @@ Once your equipment is created, you should get this :
 >
 > Remember to activate your new equipment.
 
-
-" :
+In the list of equipment, on the right, select "Micro-module shutter
+rolling" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
@@ -210,13 +210,13 @@ associated with the module :
 
 Here is the list of commands :
 
--   State : 
+-   State : This is the command that simulates the return of status
 
--   Ascend : 
+-   Ascend : This is the command that opens the shutter
 
--   STOP : 
+-   STOP : It is the command which makes it possible to stop the movement of the shutter
 
--   Go down : 
+-   Go down : This is the command that closes the shutter
 
 -   E : This is the command that allows you to use the remote mode
 
@@ -234,14 +234,14 @@ available :
 
 ![Commands](images/emv.400/infos_moteur.jpg)
 
--   Creation : 
+-   Creation : Indicates the date on which the equipment was created
 
 -   Communication : Indicates the last communication recorded between
     Jeedom and the micro-module
 
 -   Drums : Indicates the battery status for battery modules
 
--   STATUS : 
+-   STATUS : Returns the status of the module
 
 Association of the micromodule with Jeedom 
 ===================================
@@ -285,15 +285,15 @@ Each output must be associated with a Jeedom command:
 
 > **NOTE**
 >
-> 
+> There is no need to associate the "STOP" command, it is done
 > automatically.
 
 Remote method 
 ----------------
 
-
-
-
+We talked about it at the beginning of this documentation, in the case of
+modules already embedded in false ceilings or even attics. This
+method allows the addition of a new transmitter without accessing the "R" of the
 receiver.
 
 -   Associate the button "R" :
