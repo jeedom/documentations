@@ -360,31 +360,15 @@ function cookiesPolicyBar(){
 
 function setLeftMenu(){
   var url = window.location.href;
-  for(var i in docMenu){
-    var menu = docMenu[i]
-    if(menu.link && menu.link != ''){
-      if(url.indexOf(menu.link.replace('#LANG#',lang)) != -1){
-        $('a[href="'+menu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('menu_active')
-        return;
+  $('#ul_menu a').each(function(){
+    if($(this).attr('href') && url.indexOf($(this).attr('href')) != -1){
+      $(this).closest('li').addClass('menu_active');
+      if($(this).closest('li').closest('ul').closest('li')){
+        $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click();
       }
-      continue;
+      return;
     }
-    if(menu.submenu){
-      for(var j in menu.submenu){
-        var submenu = menu.submenu[j]
-        if(submenu.link && submenu.link != ''){
-          if(url.indexOf(submenu.link.replace('#LANG#',lang)) != -1){
-            $('a[href="'+submenu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('menu_active')
-            if(menu.id){
-              $('#div_'+menu.id).click();
-            }
-            return;
-          }
-          continue;
-        }
-      }
-    }
-  }
+  })
 }
 
 if($('#div_searchBar')){
