@@ -86,7 +86,7 @@ Características técnicas
 
 -   Precisión de medición : 0.5 ° C
 
--   Rango de medición de brillo : X
+-   Rango de medición de brillo : 0-32000 LUX
 
 -   Frecuencia : 868.42 Mhz
 
@@ -97,7 +97,7 @@ Características técnicas
 -   Temperatura de funcionamiento : 0-40 ° C
 
 -   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    
+    II
 
 \
 
@@ -125,7 +125,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 

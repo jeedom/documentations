@@ -90,7 +90,7 @@ Added VAAI Synology plugin for NFS mounting
 
 Adding this plugin enables hardware acceleration on
 NFS mounts (for an explanation, see
-[ici](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
+[here](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 To see if you have it, you have to connect with the thick client
 (I did not find the info on the web client) and go to Setup →
@@ -124,7 +124,7 @@ default in version 6.0 update 2, but in version 1.0 it is
 strongly advised to update it.
 
 You will find all the information
-[ici](https://labs.vmware.com/flings/esxi-embedded-host-client)
+[here](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 To see if you have the web interface, just go with
 your browser on IP \ _ESXI / ui if you have nothing you need

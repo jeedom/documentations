@@ -11,7 +11,7 @@ Registrierung am Markt
 
 Als erstes müssen Sie ein Konto auf dem Markt für erstellen
 Klicken Sie hier, um Ihr Jeedom zu registrieren
-[ici](https://www.jeedom.com/market) pour commencer
+[hier](https://www.jeedom.com/market) pour commencer
 
 ![premier market](images/premier-market.png)
 
@@ -26,7 +26,7 @@ diese Seite:
 
 Hier wird Ihr Marktkonto erstellt, um weitere Informationen zum Markt zu erhalten
 Klicken Sie auf
-[ici](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
+[hier](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
 
 Hinzufügen Ihres Service Pack-Codes 
 ================================
@@ -45,7 +45,7 @@ mit einem Code für Ihr Service Pack.
 > nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
 Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen
-[market Jeedom](https://market.jeedom.fr) et de vous identifier.
+[Jeedom Markt](https://market.jeedom.fr) et de vous identifier.
 
 Dann gehen Sie zu Ihrer Profilseite:
 
@@ -61,7 +61,7 @@ Geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie:
 
 Hier ist Ihr Service Pack registriert. Weitere Details zum
 Marktklick
-[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
 
 > **Spitze**
 >
@@ -84,7 +84,7 @@ Einfachste Lösung (funktioniert aber in 100% der Fälle nicht in
 Abhängig von der Konfiguration Ihres Internetzugangs müssen Sie starten
 Warten Sie in der Box etwa 10 Minuten (seien Sie vorsichtig, wenn Sie eine verwenden
 Bild vom Typ Netzinstallation, es wird eher 30 Minuten dauern) und los geht's
-[ici](https://www.jeedom.com/market/index.php?v=d&p=find)
+[hier](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Spitze**
 >
@@ -144,7 +144,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 -   Vergiss nicht zu sparen !
 
 Für weitere Details auf der Konfigurationsseite klicken Sie auf
-[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
 .
 
 Holen Sie sich meine direkte Zugriffs-URL 
@@ -190,7 +190,7 @@ Denken Sie daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen :
 
 Hier haben Sie das Passwort für das Administratorkonto geändert, um mehr zu erfahren
 Informationen auf dieser Seite klicken
-[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/user.asciidoc).
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/user.asciidoc).
 
 Erstelle mein erstes Objekt 
 =======================
@@ -224,7 +224,7 @@ Nichts könnte einfacher sein, ein Objekt zu erstellen :
 ![premier objet4](images/premier-objet4.png)
 
 Für weitere Informationen zu diesem Teil klicken Sie auf
-[ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/object.asciidoc)
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/object.asciidoc)
 
 Installiere mein erstes Plugin 
 ============================
@@ -359,4 +359,4 @@ Tickets / Monat (nur für kostenpflichtige Plugins) \ * Power: 10 Tickets / Mona
 \ * Pro: 100 Tickets / Monat
 
 Sie finden die Details der Service Packs
-[ici](https://www.jeedom.com/site/fr/soft.html#obtenir)
+[hier](https://www.jeedom.com/site/fr/soft.html#obtenir)

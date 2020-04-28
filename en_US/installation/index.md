@@ -133,12 +133,12 @@ raspberry PI **with an SD card.**
 
 > **IMPORTANT**
 >
-> Debian 9 (Strandch) is the officially supported distribution for
+> Debian 9 (Strandch) is the offhereally supported distribution for
 > version 3.1.5 of jeedom.
 
 **1 / Download the latest "lite" image, ie without interface
 Graphic**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
+[Here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
 **2 / Decompress the image with winrar** [here](http://www.win-rar.com)
 
@@ -311,7 +311,7 @@ Step 1 : Download and install VMware Player
 ---
 
 You must download the Virtual Box software
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+[Here](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 2nd step : Downloading a Debian strecht image - nandinstall
 ---
@@ -320,7 +320,7 @@ Download a minimalist debian 9 Strandch image
 [here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
 
 Download the extension pack, and install it.
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+[Here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stage 3 : Configuring the VM environment
 ---
@@ -330,7 +330,7 @@ Click on new and fill in the fields as below :
 ![VirtualBox1](images/VirtualBox1.PNG)
 
 -   Click on next, adapt the memory size in relation to
-    your system (1024 are sufficient)
+    your system (1024 are suffhereent)
 
 -   Click next, create a virtual disk now
 
@@ -429,7 +429,7 @@ enter it in your browser.
 > **Warning**
 >
 > If this does not work, you have not configured your card
-> nandwork in Borntwork bridge as indicated at the start.
+> nandwork in Nandwork bridge as indicated at the start.
 
 Then you can follow the documentation [First step with
 Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
@@ -725,10 +725,10 @@ Linux systems (tested and approved on the Debian distribution)
 
 > **IMPORTANT**
 >
-> Debian 9 (Strandch) is the officially supported distribution for
+> Debian 9 (Strandch) is the offhereally supported distribution for
 > version 3.1.7 of Jeedom (but Jessie remains perfectly
 > functional). If you do not master a minimum the environments
-> Linux, we advise you to start with an official image (OVF)
+> Linux, we advise you to start with an offhereal image (OVF)
 > or the use of a Mini + or Smart (available soon).
 
 > **IMPORTANT**

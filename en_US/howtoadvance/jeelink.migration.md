@@ -253,7 +253,7 @@ equipment on the **Jeedom Targand** (Your old Master).
 > The screenshots on a white background correspond to **Jeedom Source**.\
 
 On the **Jeedom Source**,
-[configurer](https://jeedom.github.io/documentation/plugins/jeelink/en_US/jeelink)
+[Configuring](https://jeedom.github.io/documentation/plugins/jeelink/en_US/jeelink)
 the "Jeedom Link" plugin by specifying :
 
 -   The name of **Jeedom Targand**.

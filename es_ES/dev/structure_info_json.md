@@ -33,7 +33,7 @@ problema                    | URL al rastreador de errores si es externo (si no 
 
 **Ejemplo** :
 
-[Fichier plugin-template/plugin_Información/Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.JSON)
+[Plugin-template file / plugin_Información / Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.JSON)
 
 
 

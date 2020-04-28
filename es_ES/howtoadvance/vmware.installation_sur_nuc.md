@@ -1,4 +1,4 @@
-Aquí hay un tutorial para instalar VMware en un Intel NUC (gen6). Nosotros
+Aquí hay un tutorial para instaelr VMware en un Intel NUC (gen6). Nosotros
 luego veremos cómo agregar Jeedom en él
 
 El material 
@@ -7,12 +7,12 @@ El material
 Intel NUC 
 ---------
 
-Intel NUC es una PC pequeña, no la más potente, pero muy económica
+Intel NUC es una PC pequeña, no el más potente, pero muy económica
 energía y pequeñas dimensiones. Esto lo convierte en un mesero perfecto
 virtualización basada en VMware.
 
-Actualmente hay 2 NUC de 6ta generación (las otras funcionan
-también para VMware pero requiere controladores adicionales en el
+Actualmente hay 2 NUC de 6ta generación (els otras funcionan
+también para VMware pero requiere controeldores adaquíonales en el
 Núcleo de VMware):
 
 -   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 hilos - Caché 3 MB -
@@ -51,7 +51,7 @@ SSD
 
 Tienes que agregar un SSD y memoria. SSD nivel I usted
 recomienda 240 GB o más, a menos que tome el modelo con un
-ubicación 2.5 pulgadas (que le permite poner un disco duro adicional)
+ubicación 2.5 pulgadas (que le permite poner un disco duro adaquíonal)
 o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
 que una VM básica (sin almacenamiento) tiene entre 20 y 40 GB, agregue a
 este 40GB para VMware se llena rápidamente.
@@ -79,7 +79,7 @@ este 40GB para VMware se llena rápidamente.
 Memoria 
 -------
 
-Atención a la memoria es absolutamente necesario DDR4 en So-DIMM 260
+Atención a el memoria es absolutamente necesario DDR4 en So-DIMM 260
 pines, necesitas al menos 4 GB para VMware, pero por experiencia te digo
 aconsejar al menos 8 GB (personalmente incluso monté hasta 16 GB,
 NUC admite un máximo de 32 GB). Allí, no se recomienda memoria, el
@@ -95,66 +95,66 @@ barras, esto mejora el rendimiento) :
 -   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
     X8](http://www.ldlc.com/fiche/PB00204136.html) 120 €
 
-Preparación de la instalación 
+Preparación de el instaelción 
 =============================
 
-Antes de iniciar la instalación en sí, primero tendremos que
-recuperar VMware y ponerlo en una llave USB.
+Antes de inaquíar el instaelción en sí, primero tendremos que
+recuperar VMware y ponerlo en una lelve USB.
 
 Descarga de VMware 
 ------------------------
 
 > **Importante**
 >
-> Si pones vmware 6.5, hay un problema con la nueva administración
-> USB y llaves Zwave, para que esto funcione debes aplicar esto
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language = en_US & cmd = displayKC & externalId = 2147650). Atención, esta manipulación ya no se debe hacer en vmware 6.7
+> Si pones vmware 6.5, hay un problema con el nueva administración
+> USB y lelves Zwave, para que esto funcione debes aplicar esto
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?elnguage = en_US & cmd = dispelyKC & externalId = 2147650). Atención, esta manipuelción ya no se debe hacer en vmware 6.7
 
 Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 :
 
 -   seguir
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     y registrarse
 
 -   espera el correo electrónico para validar el registro
 
 -   volver
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
-    e inicie sesión (se le puede pedir que acepte el
-    condiciones, debe validar)
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    e inaquíe sesión (se le puede pedir que acepte el
+    condaquíones, debe validar)
 
 -   entonces ve
-    [là](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
+    [el](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
     y agregue a su cuenta "imagen ESXi ISO (Incluye VMware Tools)"
 
 -   finalmente regreso
-    [ici](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
-    y allí debe tener en "Paquetes Downlaod", un "paquete ESXi
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    y allí debe tener en "Paquetes Downelod", un "paquete ESXi
     Imagen ISO (incluye VMware Tools) "que necesita descargar
 
-![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
+![instaleltion.vmware.nuc](images/instaleltion.vmware.nuc.PNG)
 
-Justo arriba también tienes tu clave de licencia, puedes
+Justo arriba también tienes tu celve de licencia, puedes
 aprovecha para recuperarlo.
 
 Descargar Rufus 
 -----------------------
 
 Ahí es mucho más simple solo tienes que hacer clic
-[la](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
-lanzar el .exe
+[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
+elnzar el .exe
 
-Creación de la llave USB de arranque 
+Creación de el lelve USB de arranque 
 --------------------------------
 
 Aquí también es fácil, así es como configurar rufus :
 
-![installation.vmware.nuc2](images/installation.vmware.nuc2.PNG)
+![instaleltion.vmware.nuc2](images/instaleltion.vmware.nuc2.PNG)
 
-Todo lo que tienes que hacer es hacer clic en iniciar y esperar.
+Todo lo que tienes que hacer es hacer clic en inaquíar y esperar.
 
-Desempacando y ensamblando el NUC 
+Desempacando y ensambelndo el NUC 
 ==============================
 
 Estos son los 3 componentes para mi NUC :
@@ -165,87 +165,87 @@ Estos son los 3 componentes para mi NUC :
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
-![installation.vmware.nuc3](images/installation.vmware.nuc3.jpg)
+![instaleltion.vmware.nuc3](images/instaleltion.vmware.nuc3.jpg)
 
 La caja NUC :
 
-![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
+![instaleltion.vmware.nuc4](images/instaleltion.vmware.nuc4.jpg)
 
-Apertura de ella :
+Apertura de elel :
 
-![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
+![instaleltion.vmware.nuc5](images/instaleltion.vmware.nuc5.jpg)
 
 Componentes fuera de su caja :
 
-![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
+![instaleltion.vmware.nuc6](images/instaleltion.vmware.nuc6.jpg)
 
 Al abrir el NUC, allí es muy simple, ponerlo al revés, desenroscar
 los 4 tornillos debajo de los pies (no salen completamente, es normal que
 simplemente desenroscarlos), luego tire ligeramente de los tornillos para abrir
 el NUC:
 
-![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
+![instaleltion.vmware.nuc7](images/instaleltion.vmware.nuc7.jpg)
 
-El SSD instalado (a la izquierda), el tornillo final para bloquearlo es un
+El SSD instaeldo (a el izquierda), el tornillo final para bloquearlo es un
 difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
-![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
+![instaleltion.vmware.nuc8](images/instaleltion.vmware.nuc8.jpg)
 
-Instalación de memoria (derecha) :
+Instaelción de memoria (derecha) :
 
-![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
+![instaleltion.vmware.nuc10](images/instaleltion.vmware.nuc10.jpg)
 
 Y ahí estás, puedes cerrar (a menos que, por supuesto, hayas tomado un
-SSD 2.5 pulgadas que se deben insertar en la cubierta en este caso).
+SSD 2.5 pulgadas que se deben insertar en el cubierta en este caso).
 
-Instalación de VMware 
+Instaelción de VMware 
 ======================
 
-Ahí es muy simple, solo coloque la llave USB en uno de los puertos
-NUC USB, conecte una pantalla al puerto HDMI, un teclado y
-comida Enciende el NUC, la instalación comenzará
+Ahí es muy simple, solo coloque el lelve USB en uno de los puertos
+NUC USB, conecte una pantalel al puerto HDMI, un teceldo y
+comida Enciende el NUC, el instaelción comenzará
 solo :
 
-![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
+![instaleltion.vmware.nuc11](images/instaleltion.vmware.nuc11.jpg)
 
 > **Nota**
 >
-> Olvidé capturar la validación de la licencia,
-> solo acepta seguir las instrucciones
+> Olvidé capturar el validación de el licencia,
+> solo acepta seguir els instrucciones
 
-Aquí seleccione el disco correspondiente a la SSD (puede
+Aquí seleccione el disco correspondiente a el SSD (puede
 identificar ya sea por nombre o por tamaño)
 
-![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
+![instaleltion.vmware.nuc13](images/instaleltion.vmware.nuc13.jpg)
 
 Seleccione "francés" :
 
-![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
+![instaleltion.vmware.nuc14](images/instaleltion.vmware.nuc14.jpg)
 
 Pon una contraseña, al principio te aconsejo que pongas una cosa simple
 como "oooo" (lo cambiaremos más tarde) :
 
-![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
+![instaleltion.vmware.nuc15](images/instaleltion.vmware.nuc15.jpg)
 
 Confirme presionando F11 :
 
-![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
+![instaleltion.vmware.nuc16](images/instaleltion.vmware.nuc16.jpg)
 
-La instalación tomará entre 10 y 20 minutos, luego deberá quitar
-la llave USB y espere a que se reinicie el sistema
+La instaelción tomará entre 10 y 20 minutos, luego deberá quitar
+el lelve USB y espere a que se reinaquíe el sistema
 
-![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
+![instaleltion.vmware.nuc17](images/instaleltion.vmware.nuc17.jpg)
 
-Una vez que el reinicio haya finalizado, debería tener :
+Una vez que el reinaquío haya finalizado, debería tener :
 
-![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
+![instaleltion.vmware.nuc18](images/instaleltion.vmware.nuc18.jpg)
 
-Aquí está instalado VMware (además es bueno, te da su IP) ,
+Aquí está instaeldo VMware (además es bueno, te da su IP) ,
 más que jugar con !!!
 
 Por lo demás aquí hay un
-[tutoriel](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.creer_une_vm.html)
-para la creación de tu primera VM. Y encontrarás
-[ici](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.trucs_et_astuces.html)
+[Tutorial](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.creer_une_vm.html)
+para el creación de tu primera VM. Y encontrarás
+[aquí](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.trucs_et_astuces.html)
 Un tutorial de consejos y trucos (por ejemplo, para poner su licencia
 VMware)

@@ -6,9 +6,9 @@ Fuente de recuperación
 
 Puede encontrar la última versión de Debian en netinstall (tamaño
 mínimo pero necesita internet para la instalación)
-[ici](https://www.debian.org/CD/netinst) (il faut prendre l'image en
+[aquí](https://www.debian.org/CD/netinst) (il faut prendre l'image en
 amd64) o haga clic directamente
-[ici](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
+[aquí](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 para descargar el ISO.
 
 Lanzamiento de la instalación 
@@ -22,7 +22,7 @@ Debes grabar el ISO en un CD y poner el CD en la máquina
 crear una llave USB de arranque.
 
 Para la llave USB de arranque, descargue rufus
-[là](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
+[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
 configurar así :
 
 ![debian.installation](images/debian.installation.PNG)
@@ -32,7 +32,7 @@ configurar así :
 > Recuerde seleccionar el archivo ISO que descargó
 > justo antes
 
-Solo tienes que hacer clic en Inicio, luego poner la llave USB
+Solo tienes que hacer clic en Inaquío, luego poner la llave USB
 en la máquina y arrancarlo.
 
 En una máquina virtual 
@@ -41,7 +41,7 @@ En una máquina virtual
 El manejo es bastante simple, creas una nueva máquina
 virtual, se conecta, coloca un reproductor de CD virtual que apunta
 a la ISO (recuerde conectarlo) y enciende la máquina. Ver
-[ici](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.creer_une_vm.html)
+[aquí](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-vmware.creer_une_vm.html)
 para más detalles.
 
 Instalación 
@@ -190,4 +190,4 @@ en un hipervisor ESXi.
     sudo apt-get install -y open-vm-tools
 
 Solo tienes que instalar Jeedom siguiendo
-[ceci](https://jeedom.github.io/documentation/installation/es_ES/index#tocAnchor-1-27)
+[este](https://jeedom.github.io/documentation/installation/es_ES/index#tocAnchor-1-27)

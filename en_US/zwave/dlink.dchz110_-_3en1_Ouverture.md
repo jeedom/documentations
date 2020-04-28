@@ -113,7 +113,7 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -124,7 +124,7 @@ inclusion refer to this
 > the magnet during tests on a flat surface and during installation.
 > (Use shims if necessary) To put this module in mode
 > inclusion it is necessary to press 3 times on the association button in 1.5
-> second, according to its documentation. (constant red flashing
+> second, according to its Documentation. (constant red flashing
 > in association mode)
 
 \
@@ -218,13 +218,13 @@ Parameter details :
     group 2
 
 -   5: operating mode (see the
-    manufacturer documentation)
+    manufacturer Documentation)
 
 -   6: multi-sensor operating mode (see the
-    manufacturer documentation). Recommended value : 7
+    manufacturer Documentation). Recommended value : 7
 
 -   7: personalized multi-sensor operating mode (see
-    on the manufacturer's documentation). Recommended value : 20 (for
+    on the manufacturer's Documentation). Recommended value : 20 (for
     have functional opening)
 
 -   9: allows to define after how long the OFF signal will be

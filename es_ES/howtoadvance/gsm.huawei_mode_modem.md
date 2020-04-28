@@ -23,7 +23,7 @@ Recuperación de puerto COM
 ========================
 
 Luego debe recuperar el número de puerto de comunicación. Seguir
-el menú "Inicio" y busque "Administrador de dispositivos", inicie
+el menú "Inaquío" y busque "Administrador de dispositivos", inaquíe
 éste despliega la parte "Puertos (COM y LPT)", deberías tener
 un elemento que contiene "HUAWEI", solo tiene que recordar el número de
 Puerto COM :
@@ -34,13 +34,13 @@ Descarga de masilla
 =======================
 
 Luego descarga masilla
-[ici](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
-iniciar el archivo descargado
+[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+inaquíar el archivo descargado
 
 Configuración de masilla y cambio al modo GSM solamente 
 =======================================================
 
-Una vez iniciado, configure la masilla de esta manera (poniendo su número
+Una vez inaquíado, configure la masilla de esta manera (poniendo su número
 Puerto COM para usted, vea el paso anterior) :
 
 ![gsmonly3](images/gsmonly3.PNG)

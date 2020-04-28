@@ -18,7 +18,7 @@ Bilder
 ======
 
 Sie finden alle Jeedom-Bilder
-[ici](https://images.jeedom.com/),
+[hier](https://images.jeedom.com/),
 dann im Ordner Bilder
 
 > **Notiz**
@@ -110,31 +110,31 @@ Zwave Module
 -------------
 
 Sie finden die Liste
-[ici](https://jeedom.github.io/documentation/zwave/de_DE/equipement.compatible)
+[hier](https://jeedom.github.io/documentation/zwave/de_DE/equipement.compatible)
 
 EnOcean-Module
 ---------------
 
 Sie finden die Liste
-[ici](https://jeedom.github.io/documentation/enocean/de_DE/equipement.compatible)
+[hier](https://jeedom.github.io/documentation/enocean/de_DE/equipement.compatible)
 
 Edisio-Module
 --------------
 
 Sie finden die Liste
-[ici](https://jeedom.github.io/documentation/edisio/de_DE/equipement.compatible)
+[hier](https://jeedom.github.io/documentation/edisio/de_DE/equipement.compatible)
 
 RFXcom-Module
 --------------
 
 Sie finden die Liste
-[ici](https://jeedom.github.io/documentation/rfxcom/de_DE/equipement.compatible)
+[hier](https://jeedom.github.io/documentation/rfxcom/de_DE/equipement.compatible)
 
 Kameras
 -------
 
 Sie finden die Liste
-[ici](https://jeedom.github.io/documentation/camera/de_DE/equipement.compatible)
+[hier](https://jeedom.github.io/documentation/camera/de_DE/equipement.compatible)
 
 Empfohlene Hardwareplattform
 ---------------------------------

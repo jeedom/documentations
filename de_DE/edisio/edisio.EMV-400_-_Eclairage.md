@@ -94,7 +94,7 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das E.disio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
 
 > **Wichtig**
 >

@@ -11,7 +11,7 @@ Registration on the market
 
 The first thing to do is to create an account on the Market for
 be able to register your Jeedom on this one, click
-[ici](https://www.jeedom.com/market) pour commencer
+[here](https://www.jeedom.com/market) pour commencer
 
 ![premier market](images/premier-market.png)
 
@@ -26,7 +26,7 @@ this page:
 
 Here is your Market account is created, for more details on the market
 click
-[ici](https://www.jeedom.fr/doc/documentation/core/en_US/doc-core-market.html)
+[here](https://www.jeedom.fr/doc/documentation/core/en_US/doc-core-market.html)
 
 Adding your Service pack code 
 ================================
@@ -45,7 +45,7 @@ containing a code for your Service pack.
 > nothing to do, it is automatically assigned to you.
 
 Once the code is retrieved in the mail, you just need to go to the
-[market Jeedom](https://market.jeedom.fr) et de vous identifier.
+[Jeedom Market](https://market.jeedom.fr) et de vous identifier.
 
 Then go to your profile page:
 
@@ -61,11 +61,11 @@ Enter your Service pack number and validate:
 
 Here is your Service pack is registered. For more details on the
 Market click
-[ici](https://github.com/jeedom/core/blob/stable/doc/en_US/market.asciidoc)
+[here](https://github.com/jeedom/core/blob/stable/doc/en_US/market.asciidoc)
 
 > **Tip**
 >
-> If you bought an official Jeedom box, the service number
+> If you bought an offhereal Jeedom box, the service number
 > pack should have been emailed to you. If you have not received anything, thank you
 > to contact the store where you bought your box.
 
@@ -84,7 +84,7 @@ Simplest solution (but does not work in 100% of cases in
 depending on the configuration of your internet access), you must start
 the box, wait about 10 minutes (be careful if you use a
 netinstallation type image, it will be rather 30min) and go
-[ici](https://www.jeedom.com/market/index.php?v=d&p=find)
+[here](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Tip**
 >
@@ -144,7 +144,7 @@ We will see here how to link your Jeedom to your Market account.
 -   Don&#39;t forget to save !
 
 For more details on the configuration page click
-[ici](https://github.com/jeedom/core/blob/stable/doc/en_US/administration.asciidoc)
+[here](https://github.com/jeedom/core/blob/stable/doc/en_US/administration.asciidoc)
 .
 
 Get my direct access URL 
@@ -190,7 +190,7 @@ remember, otherwise you will no longer be able to access your Jeedom :
 
 Here you have changed the password for the admin account, for more
 information on this page click
-[ici](https://github.com/jeedom/core/blob/stable/doc/en_US/user.asciidoc).
+[here](https://github.com/jeedom/core/blob/stable/doc/en_US/user.asciidoc).
 
 Create my first object 
 =======================
@@ -224,7 +224,7 @@ Nothing could be simpler to create an object :
 ![premier objet4](images/premier-objet4.png)
 
 For more information on this part click
-[ici](https://github.com/jeedom/core/blob/stable/doc/en_US/object.asciidoc)
+[here](https://github.com/jeedom/core/blob/stable/doc/en_US/object.asciidoc)
 
 Install my first plugin 
 ============================
@@ -243,8 +243,8 @@ to install.
 
 > **IMPORTANT**
 >
-> Please note, some are official and others are not. In case of concern
-> with an unofficial plugin, the Jeedom team cannot be held to
+> Please note, some are offhereal and others are not. In case of concern
+> with an unoffhereal plugin, the Jeedom team cannot be held to
 > responsible.
 
 ![premier plugin3](images/premier-plugin3.png)
@@ -290,7 +290,7 @@ This consists of several categories:
 
 -   Howto : Tutorials to progress in various fields,
 
--   Plugins : The documentation of the different official plugins from
+-   Plugins : The documentation of the different offhereal plugins from
     Jeedom,
 
 -   others : various pages on the different protocols used
@@ -359,4 +359,4 @@ tickets / month (on paid plugins only) \ * Power: 10 tickets / month
 \ * Pro: 100 tickets / month
 
 You can find the detail of the Service packs
-[ici](https://www.jeedom.com/site/fr/soft.html#obtenir)
+[here](https://www.jeedom.com/site/fr/soft.html#obtenir)

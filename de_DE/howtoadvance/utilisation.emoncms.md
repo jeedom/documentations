@@ -27,7 +27,7 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://serveur/emoncms/input/post.json?json={Macht:\#Wert\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json={Macht:#Wert#}&apikey=xxx)
+[https://server/emoncms/input/post.json?json = {Macht:\#Wert\#}&apikey=xxx](https://server/emoncms/input/post.json?json = {Macht:#Wert#}&apikey=xxx)
 
 Mit Parametern :
 

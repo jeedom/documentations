@@ -1,4 +1,4 @@
- "Persiana enrollable" 
+Fibaro FGR-222 "Persiana enrollable" 
 ==============================
 
 \
@@ -82,17 +82,17 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230V, 50 Hz
 
 -   El consumo de energía : &lt; 0,8W
 
 -   Cableado : 3 hilos, neutro requerido
 
--   Carga máxima : 
+-   Carga máxima : 1000W
 
 -   Frecuencia : 868.42 Mhz
 
--   Fuerza de la señal : 
+-   Fuerza de la señal : 1mW
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : Fibaro FGR-222
 
 -   ID del fabricante : 271
 
@@ -130,7 +130,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -258,7 +258,7 @@ Detalles del parámetro :
 
 -   18: potencia de seguridad del motor
 
--   22: 
+-   22: NA
 
 -   29: permite calibrar la aleta
 

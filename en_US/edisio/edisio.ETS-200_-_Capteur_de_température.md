@@ -69,7 +69,7 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
 > **IMPORTANT**
 >

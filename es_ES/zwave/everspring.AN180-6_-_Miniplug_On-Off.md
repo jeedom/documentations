@@ -1,4 +1,4 @@
- Miniplug Uno / Apagado - AN180-6 
+Everspring Miniplug Uno / Apagado - AN180-6 
 ====================================
 
 \
@@ -71,7 +71,7 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.6W
 
 -   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
     : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
@@ -83,7 +83,7 @@ Características técnicas
 
 -   Visualización: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -92,7 +92,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Everspring
 
 -   Nombre : Miniplug encendido / apagado
 
@@ -111,7 +111,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 

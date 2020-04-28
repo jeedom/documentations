@@ -37,7 +37,7 @@ Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
 
     -   Eine Micro-SD-Karte 7 €
 
-    -   Ein USB-Tu es nichttzteil 8 €
+    -   Ein USB-Nundzteil 8 €
 
 Insgesamt 125 € für eine Open-Source-Hausautomationsbox mit a
 vollständige Kontrolle über die Installation.
@@ -98,7 +98,7 @@ Stufe 3 : Das Jeedom-Bild dekomprimieren
 
 Entpacken Sie das Jeedom-Bild (wenn Sie nichts zum Entpacken haben
 Sie können installieren
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
+[Winrar](http://www.clubic.com/telecharger-fiche9632-Winrar.html)), vous
 muss bekommen :
 
 ![install humming 2](images/install_humming_2.PNG)
@@ -114,8 +114,8 @@ Klicken Sie auf "Flash!". Die Software brennt die SD-Karte und überprüft die
 Gravur.
 
 Sie müssen nur die SD-Karte in das Jeedomboard einlegen (oder
-Hummingboard), um das Tu es nichttzwerk und die Stromversorgung zu verbinden, wird Ihr Jeedom
-Start (5 min) und Sie sollten es im Tu es nichttzwerk sehen.
+Hummingboard), um das Nundzwerk und die Stromversorgung zu verbinden, wird Ihr Jeedom
+Start (5 min) und Sie sollten es im Nundzwerk sehen.
 
 > **Spitze**
 >
@@ -138,9 +138,9 @@ Himbeer PI **mit einer SD-Karte.**
 
 **1 / Laden Sie das neueste "Lite" -Bild herunter, dh ohne Benutzeroberfläche
 Grafik**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
+[Hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
 
-**2 / Dekomprimieren Sie das Bild mit winrar** [hier](http://www.win-rar.com)
+**2 / Dekomprimieren Sie das Bild mit Winrar** [hier](http://www.win-rar.com)
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD**
 [Hier](https:// Radierer.io/)
@@ -174,12 +174,12 @@ umbenennen in "ssh" **ohne Verlängerung**
 
 **5 / Starten Sie den PI**
 
-Legen Sie Ihre SD-Karte ein, schließen Sie das Tu es nichttzwerkkabel an und verbinden Sie sich
+Legen Sie Ihre SD-Karte ein, schließen Sie das Nundzwerkkabel an und verbinden Sie sich
 Essen.
 
 **6 / Mit SSH verbinden**
 
-Identifizieren Sie Ihren Pi im Tu es nichttzwerk
+Identifizieren Sie Ihren Pi im Nundzwerk
 
 Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
@@ -311,7 +311,7 @@ Stufe 1 : Laden Sie den VMware Player herunter und installieren Sie ihn
 ---
 
 Sie müssen die Virtual Box-Software herunterladen
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+[Hier](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Stufe 2 : Herunterladen eines Debian-Strecht-Images - nundinstall
 ---
@@ -320,7 +320,7 @@ Laden Sie ein minimalistisches Debian 9 Strundch-Bild herunter
 [hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
 
 Laden Sie das Erweiterungspakund herunter und installieren Sie es.
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+[Hier](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stufe 3 : Konfigurieren der VM-Umgebung
 ---
@@ -358,8 +358,8 @@ Schritt 4 : VM-Start
 
 -   Geben Sie das zuvor heruntergeladene Bild an
 
--   Wählen Sie dann Tu es nichttzwerk und wählen Sie im Modus "Zugriff über Brücke"
-    Tu es nichttzwerkzugriff.
+-   Wählen Sie dann Nundzwerk und wählen Sie im Modus "Zugriff über Brücke"
+    Nundzwerkzugriff.
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
@@ -429,7 +429,7 @@ Geben Sie es in Ihren Browser ein.
 > **Warnung**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Karte nicht konfiguriert
-> Tu es nichttzwerk in der Tu es nichttzwerkbrücke wie zu Beginn angegeben.
+> Nundzwerk in der Nundzwerkbrücke wie zu Beginn angegeben.
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit
 Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
@@ -680,11 +680,11 @@ Klicken Sie auf "Übernehmen"".
 > Es gibt 3 optionale Konfigurationsparamunder. Diese Paramunder müssen als Umgebungsvariable übergeben werden
 > - APACHE_PORT : Ermöglicht das Ändern des Standardports (80) zum Abhören des Webservers
 > - SSH_PORT : ermöglicht das Ändern des Standardports (22) für das Abhören von ssh
-> - MODE_HOST : zeigt an, dass sich das Tu es nichttzwerk im Host-Modus befindund
+> - MODE_HOST : zeigt an, dass sich das Nundzwerk im Host-Modus befindund
 
 > **Wichtig**
 >
-> Für bestimmte Plugins muss das Tu es nichttzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Tu es nichttzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
+> Für bestimmte Plugins muss das Nundzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Nundzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
 
 Stufe 3 : Jeedom Konfiguration
 ---

@@ -57,30 +57,30 @@ However since the realization of these tutorials, the Jeedom interface has been 
 
 Here is the list of available tutorials :
 
--   [Tuto Jeedom \#1 : Premier démarrage](https://www.youtube.com/watch?v=UTECRBGEUtI)
+-   [Jeedom \ # 1 tutorial : First start](https://www.youtube.com/watch?v=UTECRBGEUtI)
 
--   [Tuto Jeedom \#2 : Débuter avec Jeedom (Objet, Market, Plugin, Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
+-   [Jeedom \ # 2 tutorial : Getting started with Jeedom (Object, Market, Plugin, Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
 
--   [Tuto Jeedom \#3 : Jeedom, les Widget, Mails et Scenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
+-   [Jeedom \ # 3 tutorial : Jeedom, Widgets, Mails and Scenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
 
--   [Tuto Jeedom \#4 : Jeedom, Utilisation du plugin Agenda](https://www.youtube.com/watch?v=EBuvIabg3Cc)
+-   [Jeedom \ # 4 tutorial : Jeedom, Using the Agenda plugin](https://www.youtube.com/watch?v=EBuvIabg3Cc)
 
--   [Tuto Jeedom \#5 : Les scripts dans Jeedom à l'aide du plugin Script](https://www.youtube.com/watch?v=FRbQILAogX0)
+-   [Jeedom \ # 5 tutorial : Scripts in Jeedom using the Script plugin](https://www.youtube.com/watch?v=FRbQILAogX0)
 
--   [Tuto Jeedom \#6 : Les scénarios dans Jeedom avec le plugin Météo](https://www.youtube.com/watch?v=w0ErP3wyEoA)
+-   [Jeedom \ # 6 tutorial : Scenarios in Jeedom with the Weather plugin](https://www.youtube.com/watch?v=w0ErP3wyEoA)
 
--   [Tuto Jeedom \#7 : Presentation du plugin Energie](https://www.youtube.com/watch?v=DZfA_DxqbNs)
+-   [Jeedom \ # 7 tutorial : Presentation of the Energy plugin](https://www.youtube.com/watch?v=DZfA_DxqbNs)
 
--   [Tuto Jeedom \#8 : Découverte du Mode Plan](https://www.youtube.com/watch?v=2IkXF6CBCAE)
+-   [Jeedom \ # 8 tutorial : Discovery of Plan Mode](https://www.youtube.com/watch?v=2IkXF6CBCAE)
 
--   [Tuto Jeedom \#9 : Plugin DataTransfert, les Backups Auto et Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
+-   [Jeedom \ # 9 tutorial : DataTransfert plugin, Auto Backups and Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
 
--   [Tuto Jeedom \#10 : Faire parler Jeedom (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
+-   [Jeedom \ # 10 tutorial : Make Jeedom talk (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
 
--   [Tuto Jeedom \#11 : Vitrine découverte d'une installation standard](https://www.youtube.com/watch?v=hW1d1FvkmSs)
+-   [Jeedom \ # 11 tutorial : Discovery window of a standard installation](https://www.youtube.com/watch?v=hW1d1FvkmSs)
 
--   [Tuto Jeedom \#12 : Découverte du plugin Thermostat](https://www.youtube.com/watch?v=T21gqp1SQK0)
+-   [Jeedom \ # 12 tutorial : Discovery of the Thermostat plugin](https://www.youtube.com/watch?v=T21gqp1SQK0)
 
--   [Tuto Jeedom \#13 : Découverte du plugin Alarme](https://www.youtube.com/watch?v=JjnWeU614gc)
+-   [Jeedom \ # 13 tutorial : Discovery of the Alarm plugin](https://www.youtube.com/watch?v=JjnWeU614gc)
 
--   [Tuto Jeedom \#14 : Découverte des Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+-   [Jeedom tutorial # 14 : Discovery of Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 

@@ -253,7 +253,7 @@ Ausrüstung auf der **Jeedom Ziel** (Dein alter Meister).
 > Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Quelle**.\.
 
 Auf dem **Jeedom Quelle**,
-[configurer](https://jeedom.github.io/documentation/plugins/jeelink/de_DE/jeelink)
+[Projektierungs](https://jeedom.github.io/documentation/plugins/jeelink/de_DE/jeelink)
 das "Jeedom Link" Plugin durch Angabe :
 
 -   Der Name von **Jeedom Ziel**.

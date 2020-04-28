@@ -30,15 +30,15 @@ Instalación de GhettoVCB
 =========================
 
 Debemos recuperar esto
-[script](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
+[Guión](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
 y transferirlo al ESXi (en el mismo almacén de datos que el que va
 bienvenidos respaldos por ejemplo).
 
 > **Nota**
 >
-> En el resto de este tutorial considero que has puesto el script
+> En el resto de este tutorial considero que has puesto el Guión
 > ghettoVCB.sh en / vmfs / volume / Backup / ghettoVCB.sh. Depende de usted adaptarse
-> dependiendo de su configuración, los comandos / scripts provistos.
+> dependiendo de su configuración, los comandos / Guións provistos.
 
 Conexión en ssh 
 ================
@@ -106,7 +106,7 @@ Los parámetros que debe adaptar son :
 > **Importante**
 >
 > Tenga cuidado de poner / final para el parámetro
-> VM \ _BACKUP \ _VOLUME de lo contrario, el script tendrá un error
+> VM \ _BACKUP \ _VOLUME de lo contrario, el Guión tendrá un error
 
 Prueba de respaldo 
 ==============
@@ -126,7 +126,7 @@ que contiene 4 archivos :
 
 -   \ * - plano.vmdk ⇒ el disco virtual de su máquina
 
--   \*.vmdk ⇒ el descriptor del disco
+-   \*.vmdk ⇒ el deGuiónor del disco
 
 -   \*.vmx ⇒ el archivo que contiene la configuración de su máquina
 
@@ -157,7 +157,7 @@ Lanzamiento automático de respaldo
 
 Debe agregar la línea de comando al crontab pero en VMware el
 crontab es un poco especial y se sobrescribe especialmente en cada inicio. Para
-evite esto, por lo que debe agregar un pequeño script que actualizará el
+evite esto, por lo que debe agregar un pequeño Guión que actualizará el
 crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
 

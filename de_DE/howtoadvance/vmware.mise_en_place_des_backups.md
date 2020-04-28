@@ -30,7 +30,7 @@ GhettoVCB Installation
 =========================
 
 Wir müssen das wiederherstellen
-[script](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
+[Skript](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
 und übertragen Sie es auf den ESXi (im selben Datenspeicher wie der, der sich befindet
 willkommene Backups zum Beispiel).
 

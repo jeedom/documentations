@@ -12,7 +12,7 @@ Jeedom se puede instalar en diferentes tipos de hardware :
 -   Freebox Delta
 
 También puede comprar una caja con Jeedom preinstalado
-que también contiene un paquye de servicio (más soporte y servicios) y
+que también contiene un paquye de servaquío (más soporte y servaquíos) y
 plugins ofrecidos :
 
 -   [Jeedom Smart
@@ -59,7 +59,7 @@ control complyo de su instalación.
 
 > **Punta**
 >
-> Servicio pack ? Quézako ? Podéis ver
+> Servaquío pack ? Quézako ? Podéis ver
 > [Aquí](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
 
 
@@ -108,14 +108,14 @@ debe obtener :
 Paso 4 : Grabar la imagen en la tarjya SD
 ---
 
-Inserte su tarjya SD en su computadora y luego inicie el software
+Inserte su tarjya SD en su computadora y luego inaquíe el software
 Etcher, dale la ruta de la imagen, la ruta de la tarjya SD y
 haga clic en "Flash!". El software quemará la tarjya SD y verificará
 grabado.
 
 Solo tiene que poner la tarjya SD en el Jeedomboard (o
 Hummingboard), para conectar la red y la fuente de alimentación, su Jeedom
-inicio (5 min) y debería verlo en la red.
+inaquío (5 min) y debería verlo en la red.
 
 > **Punta**
 >
@@ -133,12 +133,12 @@ frambuesa PI **con una tarjya SD.**
 
 > **Importante**
 >
-> Debian 9 (Strych) es la distribución oficialmente compatible para
+> Debian 9 (Strych) es la distribución ofaquíalmente compatible para
 > versión 3.1.5 de la libertad.
 
 **1 / Descargue la última imagen "lite", es decir, sin interfaz
 Gráfico**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
+[Aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
 
 **2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
 
@@ -158,7 +158,7 @@ Gráfico**
 > Por razones de seguridad, el acceso SSH ya no está habilitado de forma predyerminada
 > en esta distribución. Entonces tienes que activarlo.
 
-Debe crear en la partición de arranque (la única accesible bajo Windows)
+Debe crear en la partaquíón de arranque (la única accesible bajo Windows)
 un archivo ssh vacío.
 
 Solo haz clic derecho : nuevo / documento de texto y el
@@ -172,7 +172,7 @@ renombrar a "ssh" **sin extensión**
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-**5 / Iniciar el PI**
+**5 / Inaquíar el PI**
 
 Inserte su tarjya SD, conecte el cable de red, conecte
 comida.
@@ -197,16 +197,16 @@ Ingrese la dirección IP de su PI (aquí 192.168.0.10) y haga clic en
 abierto Acepte el mensaje de seguridad predyerminado cuando
 Primera conexión.
 
-Inicie sesión con credenciales **pi / frambuesa**
+Inaquíe sesión con credenciales **pi / frambuesa**
 
 > **Importante**
 >
 > Por razones de seguridad, es imperativo cambiar la palabra.
 > noe predyerminado. Casos de piratería basados en la explotación de
-> El par predyerminado de inicio de sesión / contraseña de Raspberry es
+> El par predyerminado de inaquío de sesión / contraseña de Raspberry es
 > particularmente extendido. (comando noswd y sudo noswd)
 
-**7 / Inicie el script de instalación de jeedom**
+**7 / Inaquíe el script de instalación de jeedom**
 
     wgy -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
 
@@ -235,7 +235,7 @@ Luego solo vaya a IP \ _MACHINE \ _JEEDOM
 
 Si usa su Raspberry for Jeedom sin una pantalla conectada, se recomienda llevar la RAM mínima en la parte de video.
 
-Solo inicia sesión **SSH** y modificar el archivo de configuración : `sudo nano /boot/config.txt`
+Solo inaquía sesión **SSH** y modificar el archivo de configuración : `sudo nano /boot/config.txt`
 
 Agregar **y O** Descomentar (quitando el #) **y O** Edita las lineas :
 
@@ -247,7 +247,7 @@ Agregar **y O** Descomentar (quitando el #) **y O** Edita las lineas :
 
 Salir guardando : `CTRL+X` puis `O `puis `ENTREE`
 
-Reinicia tu RPI
+Reinaquía tu RPI
 
 Luego puede seguir la documentación [Primer noo con
 Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
@@ -295,7 +295,7 @@ No **no** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del 
 
 la dirección IP de su Jeedom en Freebox Delta está escrita en la parte superior, debajo de su nombre.
 
-el inicio de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
+el inaquío de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
 
 Por lo demás, puede seguir la documentación [Primer noo con
 Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
@@ -311,7 +311,7 @@ Etapa 1 : Descargue e instale VMware Player
 ---
 
 Debes descargar el software Virtual Box
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+[Aquí](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Etapa 2 : Descargar una imagen de Strecht de Debian - nyinstall
 ---
@@ -320,7 +320,7 @@ Descargue una imagen minimalista de Debian 9 Strych
 [aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
 
 Descargue el paquye de extensión e instálelo.
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+[Aquí](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Etapa 3 : Configurar el entorno VM
 ---
@@ -330,7 +330,7 @@ Haga clic en nuevo y complye los campos a continuación :
 ![VirtualBox1](images/VirtualBox1.PNG)
 
 -   Haga clic en siguiente, adapte el tamaño de la memoria en relación con
-    su sistema (1024 son suficientes)
+    su sistema (1024 son sufaquíentes)
 
 -   Haga clic en Siguiente, cree un disco virtual ahora
 
@@ -339,7 +339,7 @@ Haga clic en nuevo y complye los campos a continuación :
 -   Haga clic en siguiente, asignado dinámicamente
 
 -   Haga clic en siguiente, elija un tamaño para el espacio
-    (4 GB es suficiente)
+    (4 GB es sufaquíente)
 
 -   Haga clic en crear
 
@@ -363,7 +363,7 @@ Paso 4 : Lanzamiento de VM
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Haga clic en Aceptar \ * Haga clic en Inicio
+-   Haga clic en Aceptar \ * Haga clic en Inaquío
 
 Paso 5 : Instalación de Debian 9
 ---
@@ -383,7 +383,7 @@ Es clásico ...
 
 ![VirtualBox5](images/VirtualBox5.PNG)
 
--   Para Grub, no te preocupes, el sector de inicio es el de
+-   Para Grub, no te preocupes, el sector de inaquío es el de
     VM, no la de tu PC. No hay riesgo de romper nada..
 
 Paso 6 : Instalación Jeedom
@@ -429,7 +429,7 @@ ingrésalo en tu navegador.
 > **Advertencia**
 >
 > Si esto no funciona, no ha configurado su tarjya
-> red en el puente de red como se indica al inicio.
+> red en el puente de red como se indica al inaquío.
 
 Luego puede seguir la documentación [Primer noo con
 Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
@@ -498,7 +498,7 @@ Instalación de imagen :
 
     tirón de la libertad
 
-Luego inicie el :
+Luego inaquíe el :
 
     sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v / your / jeedom / path:/ var / www / html -e ROOT_PASSWORD = su-contraseña-raíz -p 9080:80 -p 9022:22 jeedom / jeedom
 
@@ -555,7 +555,7 @@ Etapa 2 : Recuperación e instalación de imágenes de Jeedom
 Nocesitas Estibador para ejecutar Jeedom, el primer Estibador MySQL que
 contendrá la base de datos y un segundo que contiene Jeedom
 
-Inicie la aplicación Estibador :
+Inaquíe la aplicación Estibador :
 
 ![install synology 4](images/install_synology_4.PNG)
 
@@ -571,7 +571,7 @@ en descarga :
 
 ![install synology 15](images/install_synology_15.PNG)
 
-Luego valide la solicitud de versión, lo mejor es tomar el
+Luego valide la solaquítud de versión, lo mejor es tomar el
 última versión :
 
 ![install synology 14](images/install_synology_14.PNG)
@@ -581,7 +581,7 @@ descargar (puede tomar varias decenas de minutos) :
 
 ![install synology 16](images/install_synology_16.PNG)
 
-Una vez terminado, haga clic en la imagen y luego inicie :
+Una vez terminado, haga clic en la imagen y luego inaquíe :
 
 ![install synology 17](images/install_synology_17.PNG)
 
@@ -626,7 +626,7 @@ y haga clic en descargar :
 
 ![install synology 20](images/install_synology_20.PNG)
 
-Luego valide la solicitud de versión, lo mejor es tomar el
+Luego valide la solaquítud de versión, lo mejor es tomar el
 último.
 
 Luego haga clic en la imagen, aquí puede seguir el progreso de la
@@ -634,7 +634,7 @@ descargar (puede tomar varias decenas de minutos) :
 
 ![install synology 21](images/install_synology_21.PNG)
 
-Una vez terminado, haga clic en la imagen y luego inicie :
+Una vez terminado, haga clic en la imagen y luego inaquíe :
 
 ![install synology 22](images/install_synology_22.PNG)
 
@@ -682,7 +682,7 @@ haga clic en "Aplicar".
 > - SSH_PORT : permite cambiar el puerto predyerminado (22) para escuchar ssh
 > - MODE_HOST : indica que la red está en modo host
 
-> **Importante**
+> **Importantee**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predyerminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
 
@@ -710,7 +710,7 @@ Estibador mysql instalado previamente) y validar.
 >
 > Si desea acceso SSH, debe redirigir un puerto
 > puerto local al puerto de contenedor 22, los identificadores SSH son
-> raíz / libertad. Puede cambiar la contraseña inicializando el
+> raíz / libertad. Puede cambiar la contraseña inaquíalizando el
 > ROOT \ _PASSWORD variable de entorno a valor de contraseña
 > quería.
 
@@ -725,10 +725,10 @@ Sistemas Linux (probados y aprobados en la distribución Debian)
 
 > **Importante**
 >
-> Debian 9 (Strych) es la distribución oficialmente compatible para
+> Debian 9 (Strych) es la distribución ofaquíalmente compatible para
 > versión 3.1.7 de Jeedom (pero Jessie permanece perfectamente
 > funcional). Si no dominas al mínimo los entornos
-> Linux, le recomendamos comenzar con una imagen oficial (OVF)
+> Linux, le recomendamos comenzar con una imagen ofaquíal (OVF)
 > o el uso de un Mini + o Smart (disponible próximamente).
 
 > **Importante**

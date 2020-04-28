@@ -253,7 +253,7 @@ equipo en el **Jeedom Targy** (Tu viejo maestro).
 > Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.\
 
 Sobre **Fuente de la libertad**,
-[configurer](https://jeedom.github.io/documentation/plugins/jeelink/es_ES/jeelink)
+[Configurar](https://jeedom.github.io/documentation/plugins/jeelink/es_ES/jeelink)
 el complemento "Jeedom Link" especificando :
 
 -   El nombre de **Jeedom Targy**.

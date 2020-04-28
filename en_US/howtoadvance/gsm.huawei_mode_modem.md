@@ -34,7 +34,7 @@ Putty Download
 =======================
 
 Then download putty
-[ici](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
 launch the downloaded file
 
 Putty configuration and switch to GSM mode only 

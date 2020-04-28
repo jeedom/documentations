@@ -8,8 +8,8 @@ Colibrí            | Estable                  |
 Odroid C2               | Estable                  |                          
 INTELIGENTE                   | Estable                  |                          
 RPI1                    | Estable                  |                          
-RPI2                    | No oficial / estable     |                          
-RPI3                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI2                    | No ofaquíal / estable     |                          
+RPI3                    | No ofaquíal / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom. ATENCIÓN VmWare 6.5 requiere la instalación de un parche VMWare para el soporte de Zwave.         
@@ -18,7 +18,7 @@ Imágenes
 ======
 
 Puedes encontrar todas las imágenes de Jeedom
-[ici](https://images.jeedom.com/),
+[aquí](https://images.jeedom.com/),
 luego en la carpeta Imágenes
 
 > **Nota**
@@ -40,7 +40,7 @@ luego en la carpeta Imágenes
 
 Todas las demás imágenes descargables anteriormente ya no son
 mantenido, es mejor pasar por la instalación manual de Jeedom
-[Doc](https://github.com/jeedom/documentation/blob/master/installation/es_ES/other.asciidoc)
+[Doctor](https://github.com/jeedom/documentation/blob/master/installation/es_ES/other.asciidoc)
 después de instalar una distribución de Linux correspondiente a su
 material : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian
 (Ordoide, ...), ...
@@ -110,31 +110,31 @@ Módulos Zwave
 -------------
 
 Encontrarás la lista
-[ici](https://jeedom.github.io/documentation/zwave/es_ES/equipement.compatible)
+[aquí](https://jeedom.github.io/documentation/zwave/es_ES/equipement.compatible)
 
 Módulos EnOcean
 ---------------
 
 Encontrarás la lista
-[ici](https://jeedom.github.io/documentation/enocean/es_ES/equipement.compatible)
+[aquí](https://jeedom.github.io/documentation/enocean/es_ES/equipement.compatible)
 
 Módulos Edisio
 --------------
 
 Encontrarás la lista
-[ici](https://jeedom.github.io/documentation/edisio/es_ES/equipement.compatible)
+[aquí](https://jeedom.github.io/documentation/edisio/es_ES/equipement.compatible)
 
 Módulos RFXcom
 --------------
 
 Encontrarás la lista
-[ici](https://jeedom.github.io/documentation/rfxcom/es_ES/equipement.compatible)
+[aquí](https://jeedom.github.io/documentation/rfxcom/es_ES/equipement.compatible)
 
 Cámaras
 -------
 
 Encontrarás la lista
-[ici](https://jeedom.github.io/documentation/camera/es_ES/equipement.compatible)
+[aquí](https://jeedom.github.io/documentation/camera/es_ES/equipement.compatible)
 
 Plataforma de hardware recomendada
 ---------------------------------

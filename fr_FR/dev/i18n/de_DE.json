@@ -201,6 +201,7 @@
         "Respecter impérativement la nomenclature du tableau ci-dessous": "Es ist wichtig, die Nomenklatur in der folgenden Tabelle zu beachten",
         "Exemple": "Beispiel",
         " ": " ",
+        "Fichier plugin-template\/plugin_info\/info.json": "Plugin-Vorlagendatei \/ plugin_info \/ info.json",
         "NOMENCLATURE CATEGORIES": "KATEGORIE-NOMENKLATUR"
     },
     "dev\/tutorial_plugin.md": {

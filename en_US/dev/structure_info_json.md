@@ -33,7 +33,7 @@ issue                    | URL to the bugtracker if external (if not filled then
 
 **Example** :
 
-[Fichier plugin-template/plugin_Info/Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
+[Plugin-template file / plugin_Info / Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
 
 
 

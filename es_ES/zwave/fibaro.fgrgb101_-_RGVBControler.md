@@ -83,19 +83,19 @@ Características técnicas
 
 -   \ * 24V - 288W en total (todos los canales)
 
--   Frecuencia de modulación PWM : 
+-   Frecuencia de modulación PWM : 244 Hz
 
 -   El consumo : 0.3W
 
 -   Protocolo de radio : Unoda Z a 868,4 MHz (UE)
 
--   Potencia de transmisión Z-Wave : 
+-   Potencia de transmisión Z-Wave : 1mW
 
--   Temperatura de funcionamiento : 
+-   Temperatura de funcionamiento : 0 - 40 C
 
--   Para instalar en cajas : 
+-   Para instalar en cajas : Ø≥50 mm
 
--   Dimensiones : 
+-   Dimensiones : 42 x 37 x 17 mm
 
 -   Normas europeas : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -123,7 +123,7 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -175,7 +175,7 @@ Aquí está la lista de comandos :
 -   Desvanecimiento : Este es el comando que simula todo
     espectro de color
 
--    : Este es el comando que simula una atmósfera de policía.
+-   RBB : Este es el comando que simula una atmósfera de policía.
 
 -   Blanco frio : Este es el comando que simula tener un
     color blanco frío, si la tira de color lo permite. (este
