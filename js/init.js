@@ -156,7 +156,15 @@ var docMenu = [
       {link:"/documentations/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
       {link:"/documentations/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
     ]
+  },{
+    fr_FR : "Mentions légales",
+    en_US : "Legal Notice",
+    es_ES : "Notas legales",
+    de_DE : "Introduction",
+    pt_PT : "Rechtliche Hinweise",
+    link : "/documentations/#LANG#/legal_notice"
   }
+  
 ]
 
 setTheme();
