@@ -172,6 +172,9 @@ var jeedomVersion = getCookie('jeedomVersion');
 if(!jeedomVersion){
   jeedomVersion = '3.3'
 }
+if($('#sel_jeedomVersion').val() != jeedomVersion){
+  $('#sel_jeedomVersion').val(jeedomVersion);
+}
 if(window.location.href.indexOf(lang) == -1){
   var url = window.location.href.replace('fr_FR',lang).replace('en_US',lang).replace('es_ES',lang).replace('de_DE',lang);
   window.location.href = url;
@@ -245,9 +248,11 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
+  
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
