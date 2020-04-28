@@ -2,8 +2,20 @@
   z-index: 1000;
 }
 #slide-out {
-  top: 60px;
+  top: 65px;
+  height: calc(100% - 65px);
 }
+#slide-out .user-view {
+  padding-top: 0;
+}
+
+#slide-out .select-wrapper .select-dropdown {
+  border-bottom: 1px solid rgb(149, 193, 43);
+}
+.dropdown-content li:not(.disabled) > span {
+  color: rgb(149, 193, 43) !important;
+}
+
 body nav ul a, body nav {
   color: #444 !important;
   background-color: #fff !important;
@@ -24,6 +36,7 @@ html,
 #ul_menu li a,
 .sidenav li i {
   height: 32px !important;
+  line-height: 32px !important;
 }
 
 .sidenav-trigger{

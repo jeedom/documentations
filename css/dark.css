@@ -1,14 +1,14 @@
 
-#logo-container:before {
+body.dark #logo-container:before {
   content: '';
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-size: cover !important;
   background-repeat: no-repeat;
   background-image: url('/documentations/img/logo_dark.png')  !important;
 }
-#logo-container .responsive-img {
+body.dark #logo-container .responsive-img {
   display: none;
 }
 
