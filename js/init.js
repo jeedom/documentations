@@ -55,12 +55,6 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR:'Jeedom v3',
-    en_US : "Jeedom v3",
-    es_ES : "Jeedom v3",
-    de_DE : "Jeedom v3",
-    pt_PT : "Jeedom v3",
-  },{
     fr_FR : "Manuel d'utilisation",
     en_US : "User manual",
     es_ES : "Manual del usuario",
@@ -68,26 +62,26 @@ var docMenu = [
     pt_PT : "",
     id : "v3UserManual",
     submenu:[
-      {link : "/documentations/#LANG#/core/3.3/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/design",fr_FR : "Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/design3d",fr_FR : "Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/log",fr_FR : "Log",en_US:"Log",es_ES:"Log",de_DE:"",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/design",fr_FR : "Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/design3d",fr_FR : "Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/log",fr_FR : "Log",en_US:"Log",es_ES:"Log",de_DE:"",pt_PT:""},
       {link : "",fr_FR : "Temps reel",en_US:"Real time",es_ES:"Tiempo real",de_DE:"Echtzeit",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/eqAnalyse",fr_FR : "Analyse",en_US:"Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/display",fr_FR : "Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/history",fr_FR : "Historique",en_US:"History",es_ES:"Historia",de_DE:"Historique",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/report",fr_FR : "Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/health",fr_FR : "Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/object",fr_FR : "Objet",en_US:"Object",es_ES:"Asunto",de_DE:"Betreff",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/scenario",fr_FR : "Scénario",en_US:"Scenario",es_ES:"Escenario",de_DE:"Szenario",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/interact",fr_FR : "Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/eqAnalyse",fr_FR : "Analyse",en_US:"Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/display",fr_FR : "Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/history",fr_FR : "Historique",en_US:"History",es_ES:"Historia",de_DE:"Historique",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/report",fr_FR : "Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/health",fr_FR : "Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/object",fr_FR : "Objet",en_US:"Object",es_ES:"Asunto",de_DE:"Betreff",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/scenario",fr_FR : "Scénario",en_US:"Scenario",es_ES:"Escenario",de_DE:"Szenario",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/interact",fr_FR : "Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
+      {link : "/documentations/#LANG#/core/#VERSION#/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
       {link : "",fr_FR : "Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {link : "/documentations/#LANG#/core/3.3/plugin",fr_FR : "Plugin",en_US:"Plugin",es_ES:"Plugin",de_DE:"Plugin",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/faq",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
+      {link : "/documentations/#LANG#/core/#VERSION#/plugin",fr_FR : "Plugin",en_US:"Plugin",es_ES:"Plugin",de_DE:"Plugin",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/faq",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
   },{
     fr_FR : "Manuel de configuration",
@@ -97,69 +91,15 @@ var docMenu = [
     pt_PT : "",
     id : "v3ConfigManual",
     submenu:[
-      {link:"/documentations/#LANG#/core/3.3/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/update",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Mise à jour",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/update",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Mise à jour",pt_PT:""},
       {link:"",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/cron",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/custom",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/user",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/cron",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/custom",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/user",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
       {link:"#",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart",es_ES:"Apagar / reiniciar",de_DE:"Herunterfahren / Neustart",pt_PT:""},
-      {link:"/documentations/#LANG#/core/3.3/profils",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""},
-      {link:"#",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""}
-    ]
-  },{
-    fr_FR:'Jeedom v4.0',
-    en_US : "Jeedom v4.0",
-    es_ES : "Jeedom v4.0",
-    de_DE : "Jeedom v4.0",
-    pt_PT : "Jeedom v4.0",
-  },{
-    fr_FR : "Manuel d'utilisation",
-    en_US : "User manual",
-    es_ES : "Manual del usuario",
-    de_DE : "Benutzerhandbuch",
-    pt_PT : "",
-    id : "v4UserManual",
-    submenu:[
-      {link : "/documentations/#LANG#/core/4.0/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/design",fr_FR : "Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/design3d",fr_FR : "Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/log",fr_FR : "Log",en_US:"Log",es_ES:"Log",de_DE:"",pt_PT:""},
-      {link : "",fr_FR : "Temps reel",en_US:"Real time",es_ES:"Tiempo real",de_DE:"Echtzeit",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/eqAnalyse",fr_FR : "Analyse",en_US:"Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/display",fr_FR : "Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/history",fr_FR : "Historique",en_US:"History",es_ES:"Historia",de_DE:"Historique",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/report",fr_FR : "Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/health",fr_FR : "Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/object",fr_FR : "Objet",en_US:"Object",es_ES:"Asunto",de_DE:"Betreff",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/scenario",fr_FR : "Scénario",en_US:"Scenario",es_ES:"Escenario",de_DE:"Szenario",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/interact",fr_FR : "Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
-      {link : "",fr_FR : "Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
-      {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
-      {link : "",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {link : "/documentations/#LANG#/core/4.0/plugin",fr_FR : "Plugin",en_US:"Plugin",es_ES:"Plugin",de_DE:"Plugin",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/faq",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
-    ]
-  },{
-    fr_FR : "Manuel de configuration",
-    en_US : "Configuration manual",
-    es_ES : "Manual de configuración",
-    de_DE : "Konfigurationshandbuch",
-    pt_PT : "",
-    id : "v4ConfigManual",
-    submenu:[
-      {link:"/documentations/#LANG#/core/4.0/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/update",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Mise à jour",pt_PT:""},
-      {link:"",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/cron",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/custom",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/user",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
-      {link:"#",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart",es_ES:"Apagar / reiniciar",de_DE:"Herunterfahren / Neustart",pt_PT:""},
-      {link:"/documentations/#LANG#/core/4.0/profils",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""},
+      {link:"/documentations/#LANG#/core/#VERSION#/profils",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""},
       {link:"#",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""}
     ]
   },{
@@ -219,12 +159,17 @@ var docMenu = [
 ]
 
 setTheme();
+setJeedomVersion();
 
 $('#ul_menu').empty();
 var html = '';
 var lang = getCookie('lang');
 if(!lang){
   lang = 'fr_FR'
+}
+var jeedomVersion = getCookie('jeedomVersion');
+if(!jeedomVersion){
+  jeedomVersion = '3.3'
 }
 if(window.location.href.indexOf(lang) == -1){
   var url = window.location.href.replace('fr_FR',lang).replace('en_US',lang).replace('es_ES',lang).replace('de_DE',lang);
@@ -249,7 +194,7 @@ for(var i in docMenu){
       if(submenu.link == ''){
         continue;
       }
-      html += '<li><a href="'+submenu.link.replace('#LANG#',lang)+'">'+genText(submenu,lang)+'</a></li>';
+      html += '<li><a href="'+submenu.link.replace('#LANG#',lang).replace('#VERSION#',jeedomVersion)+'">'+genText(submenu,lang)+'</a></li>';
     }
     html += '</ul>';
     html += '</div>';
@@ -259,7 +204,7 @@ for(var i in docMenu){
       if(menu.link == ''){
         continue;
       }
-      html += '<li><a href="'+menu.link.replace('#LANG#',lang)+'">'+genText(menu,lang)+'</a></li>';
+      html += '<li><a href="'+menu.link.replace('#LANG#',lang).replace('#VERSION#',jeedomVersion)+'">'+genText(menu,lang)+'</a></li>';
     }else{
       html += '<li><strong style="margin-left:5px;" href="#!">'+genText(menu,lang)+'</strong></li>';
     }
@@ -310,6 +255,11 @@ $(function(){
     setTheme();
   })
   
+  $('#sel_jeedomVersion').on('change',function(){
+    setCookie('jeedomVersion',$(this).val(),7)
+    setJeedomVersion();
+  })
+  
   $('select').formSelect();
   $('img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -324,6 +274,13 @@ function setTheme(){
     }
   }else{
     $('body').removeClass('dark')
+  }
+}
+
+function setJeedomVersion(){
+  var url = window.location.href;
+  if(url.indexOf('/core/') != ''){
+    window.location.href = window.location.href.replace('3.3',getCookie('jeedomVersion')).replace('4.0',getCookie('jeedomVersion')).replace('4.1',getCookie('jeedomVersion'))
   }
 }
 
