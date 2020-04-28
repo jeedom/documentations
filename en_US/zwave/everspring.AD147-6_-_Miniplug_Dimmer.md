@@ -1,257 +1,257 @@
-Everspring Miniplug Dimmer - AD147-6 
+ Miniplug Dimmer - AD147-6 
 ====================================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/everspring.AD147-6/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/everspring.AD147-6/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-La Mini Prise Variateur est conçue pour contrôler l'allumage et
-l'extinction des luminaires et des équipements électriques de votre
-maison. Elle permet aussi une fonction de variateur qui est compatible
-uniquement avec les ampoules. Avec une tension de 220 - 240 V, cette
-Prise Variateur peut supporter une charge de 6 W à 250 W.
+The Mini Dimmer Plug is designed to control ignition and
+switching off the lights and electrical equipment of your
+House. It also allows a dimmer function which is compatible
+only with bulbs. With a voltage of 220 - 240 V, this
+Dimmer socket can support a load from 6 W to 250 W.
 
-La Mini Prise Variateur est un appareil compatible Z-Wave™ qui est
-destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle
-peut être contrôlée par une télécommande, un logiciel PC, ou n'importe
-quel contrôleur Z-Wave de votre réseau.
+The Mini Dimmer Plug is a Z-Wave ™ compatible device that is
+designed to work with all Z-Wave ™ compatible networks. She
+can be controlled by a remote control, PC software, or any
+which Z-Wave controller in your network.
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Commander une lampe à distance
+-   
 
--   Module Outlet s'intégrant directement entre une Outlet électrique et
-    la charge à commander
+-   
+    
 
--   Fonction ON / OFF et Variateur pour piloter des lampes
+-   
 
--   Contrôle de la charge en local via le bouton intégré
+-   
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus technology
 
--   Dimensions réduites pour passer presque inaperçue
+-   
 
--   LED de statut sur le bouton intégré
+-   
 
--   Fonction répéteur Z-Wave
+-   Z-Wave repeater function
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module : Z-Wave receiver
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 0.6W
+-   Consumption : 
 
--   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
-    : 250W, Ampoule Led (non dimmable) : 6W
+-   Maximum power : Resistive load : 
+    :  : 
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED sur le bouton
+-   Viewing: LED on the button
 
--   Dimensions : Longueur (Outlet incluse) : 74mm Diamètre : 52mm
+-   Dimensions :  :  : 
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Everspring
+-   Mark : 
 
 -   Name : Miniplug Dimmer
 
--   Fabricant ID : 96
+-   Manufacturer ID : 96
 
--   Type Produit : 3
+-   Product Type : 3
 
--   Produit ID : 3
+-   Product ID : 3
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> To put this module in inclusion mode, press 3 times on its
+> button, according to its paper documentation. It's important to
+> note that this module goes directly to inclusion when
+> does not belong to any network and is powered
 
- \
+\
 
 ![inclusion](images/everspring.AD147-6/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Wece included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Wece the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/everspring.AD147-6/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Intensité : C'est la commande permettant de régler l'intensité de la
+-   Intensity : This is the command used to adjust the intensity of the
     Outlet
 
--   We : C'est la commande qui permet d'allumer la Outlet
+-   We : This is the command that turns on the outlet
 
--   Off : C'est la commande qui permet d'éteindre la Outlet
+-   Off : It is the command which makes it possible to extinguish the catch
 
--   State : C'est la commande qui permet de connaitre le statut de la
+-   State : It is the command which allows to know the status of the
     Outlet
 
- \
+\
 
-A noter que sur le dashboard, les infos State, ON/OFF, Intensité se
-retrouvent sur la même icône.
 
- \
+.
+
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+You will arrive on this page (after clicking on the tab
+Settings)
 
- \
+\
 
 ![Config1](images/everspring.AD147-6/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : This parameter defines the status value command, it is not
+    advised to change this value.
 
--   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comOutlet entre 3 et 25 secondes)
+-   2 : 
+    group 1 (value between 3 and 25 seconds)
 
--   3 : Ce paramètre permet de définir si la Outlet reprendra son statut
-    (ON ou OFF) après une reOutlet de courant.
+-   3 : 
+    .
 
--   4 : Ce paramètre permet de définir si la Outlet fontionnera en mode
-    variation ou en mode on/off
+-   4 : 
+    
 
 ### Groups 
 
- \
+\
 
-Ce module possède 2 groupes d'association.
+This module has 2 association groups.
 
- \
+\
 
 ![Groupe](images/everspring.AD147-6/groupe.jpg)
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Status feedback cannot be configured below 3
+    seconds. \
 
 Wakeup 
 ------
 
- \
+\
 
-Pas de notion de wakeup sur ce module.
+No notion of wakeup on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Yes it is parameter 2 and it cannot be set below 3
+seconds.
 
- \
+\
 
 **@sarakha63**

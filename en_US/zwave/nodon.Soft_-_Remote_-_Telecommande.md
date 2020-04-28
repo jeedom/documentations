@@ -1,280 +1,280 @@
-Nodon Télécommande - Soft Remote 
+Nodon Remote Control - Soft Remote 
 ================================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/nodon.softremote/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-La Soft Remote NodOn® peut contrôler directement n'importe quel appareil
-compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn®.
+The Soft Remote NodOn® can directly control any device
+Z-Wave® or Z-Wave Plus® compatible such as the NodOn® smart plug.
 
-Elle peut également déclencher des scènes via une centrale domotique
+It can also trigger scenes via a home automation system
 compatible.
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Contrôle n'importe quel appareil compatible Z-Wave
+-   Control any Z-Wave compatible device
 
--   Résistante aux chocs et aux éclaboussures
+-   Impact and splash resistant
 
--   Se fixe partout grâce à son aimant intégré
+-   Attaches everywhere thanks to its integrated magnet
 
--   6 coloris available
+-   6 colors available
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Food : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Food : CR2032 battery - Autonomy 1,5 - 2 years
 
--   4 boutons
+-   4 buttons
 
--   Aimant intégré pour fixation sur surface métallique
+-   Integrated magnet for fixing to metal surface
 
--   Résistante aux chocs et aux éclaboussures
+-   Impact and splash resistant
 
--   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
+-   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.06
 
--   Portée : 40m en intéieur / 80m en extérieur
+-   Scope : 40m indoors / 80m outdoors
 
--   Dimensions 56\*56\*20mm
+-   Dimensions 56 \ * 56 \ * 20mm
 
--   Garantie 2 ans
+-   2 years warranty
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Nodon
+-   Mark : Nodon
 
 -   Name : CRC-3-6-0x Soft Remote
 
--   Fabricant ID : 357
+-   Manufacturer ID : 357
 
--   Type Produit : 2
+-   Product Type : 2
 
--   Produit ID : 2
+-   Product ID : 2
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (+ et 0 plein) jusqu'à que la lumière devienne rose puis
-> appuyer sur le bouton +, conformément à sa documentation papier.
+> To put this module in inclusion mode, press the two
+> button (+ and 0 full) until the light turns pink then
+> press the + button, in accordance with its paper documentation.
 
- \
+\
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/nodon.softremote/commandes.png)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : it is the command which will push the button up
 
-+----------------+----------------+----------------+----------------+----------------+
-| Buttons        | Appui          | Long press     | Relaxation    | Double support   |
-+================+================+================+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Buttons        | Support          | Long press     | Relaxation    | Double support   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| plein)**       |                |                |                |                |
-+----------------+----------------+----------------+----------------+----------------+
+| full)**       |                |                |                |                |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
-| **3 (0 vide)** | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| **3 (0 empty)** | 30             | 32             | 31             | 33             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4 (-)**      | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Drums : c'est la commande qui remonte le niveau des piles
+-   Drums : it is the command which raises the level of the batteries
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
 > **IMPORTANT**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> During a first inclusion always wake up the module just after
+> inclusion.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/nodon.softremote/config1.png)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1-2 : Permet de choisir le profil des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-   1-2 : Allows you to choose the profile of the buttons when used in
+    central (not necessary for use in Jeedom)
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : IMPORTANT parameter to say if the switch should work
+    in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-   4-7 : Choose the button operating mode (in case
+    group associations)
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : Allows you to choose the operating mode of the LED
 
 ### Groups 
 
- \
+\
 
-Ce module possède 7 groupes d'association.
+This module has 7 association groups.
 
- \
+\
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
- \
+\
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Group 1 - Lifeline : This group is generally used for
+    transfer information from the Smart Plug to the main controller
+    of the network.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   Group 2 to 5 - The devices in these groups are controlled by the
+    corresponding button according to MONO profile
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par les
-    boutons correspondants selon le profil DUO
+-   Group 6 to 7 - The devices in these groups are controlled by the
+    corresponding buttons according to DUO profile
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion. Et bien vérifier le
-    groupe d'association.
+-   This module can be finicky on inclusion. Do not hesitate to
+    wake up 1 or 2 times after inclusion. And check the
+    association group.
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pour réveiller ce module il suffit d'appuyer sur un des boutons
+To wake up this module, just press one of the buttons
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+This module is a battery module, the new configuration will not be
+take into account that if you wake up the remote control.
 
- \
+\
 
-Note importante 
+IMPORTANT note 
 ---------------
 
- \
+\
 
 > **IMPORTANT**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> You have to wake up the module : after its inclusion, after a change
+> of the configuration, after a change of wakeup, after a
+> change of association groups
 
- \
+\
 
 **@lunarok**

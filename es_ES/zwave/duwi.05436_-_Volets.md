@@ -1,287 +1,287 @@
-DUWI 05436 "Volet roulant" 
+" 
 ==========================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-El módulo volet roulant DUWI 05436 permet de contrôler des volets
-roulants dans deux directions.
 
-Ses principales caractéristiques sont :
+.
 
--   La possibilité d'utiliser un 'Commun' sur lequel commuter la montée
-    ou la descente. Du coup il est possible de commander les deux
-    directions avec n'importe quel type de tension, voire un neutre.
+ :
 
--   La possibilité d'envoyer un signal montée / descente en continu sans
-    limite de temps.
+-   
+    . 
+    .
 
-Atención: ce module n'envoie pas son état au contrôleur z-wave lorsque
-l'utilisateur appuie directement sur les boutons. Il faut faire un
-'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
-plus loin).
+-   
+    .
 
- \
+Atención: 
+. 
+'
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Montée / descente
+-   
 
--   Un fil commun qui sera commuté sur montée ou descente
+-   
 
--   Nécessite le neutre pour fonctionner
+-   
 
--   Protection par fusible
+-   
 
--   Temps de montée et de descente réglables par paramètrage ou par
-    apprentissage sur le module
+-   
+    
 
--   L'interrupteur est fourni avec le module, non interchangeable
+-   
 
- \
+\
 
-Caractéristiques Techniques 
+ 
 ---------------------------
 
- \
+\
 
--   Type de module : récepteur / actionneur Z-Wave
+-   Puntao de módulo : 
 
--   Alimentation 230V, 50Hz
+-   
 
--   Neutre nécessaire
+-   
 
--   Charge Maxi : 1800W (résistif), 460VA (inductif)
+-    : 
 
--   Fusible : T8AH
+-   Fusible : 
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Dimensions : 52 x 52 x 31mm
+-   Dimensiones : 
 
--   Plage de température : 0°C / +40°C
+-    : 
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Popp/Duwi
+-   Hacer : 
 
--   Nombre : ZW ESJ Blind Control
+-   Nombre : 
 
--   Fabricant ID : 100
+-   ID del fabricante : 100
 
--   Type produit : 16385
+-    : 16385
 
--   Produit ID : 0
+-   ID del producto : 0
 
- \
+\
 
 Conexión 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre le module en mode inclusion, il faut appuyer trois fois
-> sur la montée ou la descente. L'exclusion se fait de la même manière.
+> 
+> . .
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/duwi.05436/4-Comandos.PNG)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : c'est la position actuelle du volet, en pourcentage de 0 à 99
+-   Estado : 
 
--   Descendre : commande pour descendre complètement
+-    : 
 
--   Monter : commande pour monter complètement
+-    : 
 
--   Detener : arrêt immédiat du mouvement
+-   Detener : 
 
--   Refrescar : rafraichîr l'état actuel du module
+-   Refrescar : 
 
--   Nivel : slider pour positionner une ouverture partielle
+-   Nivel : 
 
- \
+\
 
-#### Réglage des temps de montée et de descente : 
+####  : 
 
-Il faut démonter l'interrupteur pour avoir accès aux deux boutons
-"montée" et "descente".
 
-Positionnez le volet tout en haut si vous voulez régler le temps de
-descente, et inversement.
+"".
 
-Appuyez au moins 2s sur les deux boutons (montée et descente)
-simultanément. La led doit se mettre à clignoter en vert.
 
-Appuyez ensuite en continu sur le bouton de descente ou de montée,
-jusqu'à atteindre la position désirée. Lorsque vous lâchez le bouton, la
-led s'allume en vert fixe quelques secondes. Le temps est mémorisé.
+.
 
-Recommencer l'opération dans l'autre sens.
 
- \
+.
+
+,
+. 
+. .
+
+.
+
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   0 : Running Time :
+-   0 :  :
 
-Ce sont les temps de montée et descente. Vous devriez y retrouver votre
-apprentissage.
+. 
+.
 
-Le codage est fait par deux paires d'octets : la première pour la montée
-et la seconde pour la descente.
+ : 
+.
 
-Les valeurs sont codées en héxadécimal dans le module et remises en
-décimal dans l'affichage de Jeedom.
 
-Por ejemplo : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
-pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
-décimal : 18s pour montée et descente.
+.
 
-A noter : forcer une valeur à zéro pour ce paramètre impliquera que le
-module commutera sur montée ou descente sans limite de temps. Il faudra
-alors envoyer un 'Detener' pour interrompre.
+Por ejemplo :  : . 
+. 
+ : .
 
--   1 : Detener-functionnality : Enabled ou Disabled :
+ : 
+. 
+.
 
-Sert à indiquer si un appui dans la direction opposée pendant un
-déplacement stoppe le volet ou le renvoie immédiatement dans le sens
-opposé.
+-   1 :  :  :
 
- \
+
+
+.
+
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module ne possède qu'un seul groupe d'association dans lequel doit se
-trouver votre contrôleur Z-Wave.
 
- \
+.
+
+\
 
 ![Groupe](images/duwi.05436/6-Grupos.PNG)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
--   Comme précisé au début, le module ne reporte pas les changements de
-    positions faits par l'utilisateur en appuyant directement
-    sur l'interrupteur. Pour avoir un retour d'état, il faut donc :
+-   
+    
+    en el interruptor.  :
 
-        o soit configurer un poll à 5 minutes dans la configuration, onglet 'valeurs'
+        '
 
 ![Groupe](images/duwi.05436/7-Poll.PNG)
 
-    o soit créer un scénario qui lance la commande 'Refresh' toutes les x minutes (au minimum 1 minute)
+    
 
--   Paramétrer un fonctionnement sans limite de temps peut s'avérer
-    utile pour les commandes de VMC
+-   
+    
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
 > **Punta**
 >
-> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "Estado". Ce
-> widget est sympa car il montre les états 'partiellement ouvert'.
+> 
+> '.
 
 **@Theduck38**

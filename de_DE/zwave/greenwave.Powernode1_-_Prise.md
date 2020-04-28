@@ -1,309 +1,309 @@
-Greenwave PowerNode - 1 Steckdose 
+ 
 =============================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Das Modul Steckdose PowerNode de GreenWave est un appareil intelligent qui
-se connecte à un de vos appareils électroménagers et électroniques pour
-vous permettre de surveiller et contrôler la consommation électrique à
-distance via un navigateur Web ou un smartphone.
 
-Utilisant la technologie Z-Wave, la Steckdose commandée PowerNode est
-compatible avec la plupart des box domotiques du marché comme Fibaro
-Home Center 2, eedomus ou Zipabox.
 
-La module Steckdose PowerNode recueille des données sur la consommation
-d'énergie de l'appareil connecté et les transmet à la box domotique.
-Cette Steckdose commandée vous permet également d'activer ou désactiver
-l'appareil à distance via un navigateur Web ou smartphone ou de définir
-un calendrier pour activer ou désactiver automatiquement votre appareil
-à des heures prédéfinies.
 
-Une petite molette sur le côté de la Steckdose permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. Zum Beispiel "
-bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes Steckdoses et multiSteckdoses PowerNode. Ein peut également régler
-cette molette sur un cadenas. Cette fonction permet de verrouiller la
-Steckdose afin d'éviter de l'éteindre par accident, mais le contrôle depuis
-la boxe domotique ne sera plus possible.
+.
 
-La Steckdose commandée PowerNode dispose aussi d'un indicateur d'état
-lumineux qui donne différentes informations en fonction de sa couleur :
-Steckdoses allumées ou éteintes, portée radio limitée, mode inclusion et
+
+
+.
+
+
+.
+
+
+
+.
+
+
+. Zum Beispiel "
+ ". 
+. 
+. 
+
+.
+
+
+ :
+
 Ausschluss.
 
-Das Modul Steckdose PowerNode est équipé d'une protection contre les
-surintensités pour protéger l'appareil connecté. La Steckdose PowerNode sera
-désactivée en cas du dysfonctionnement d'un appareil défectueux ou d'un
-court-circuit. Une protection supplémentaire est assurée par le fusible
-interne situé dans la Steckdose.
 
- \
+. 
+
+
+.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Commander une lampe ou un appareil à distance
+-   Steuern Sie eine Lampe oder ein Gerät fern
 
--   Module Steckdose s'intégrant directement entre une Steckdose électrique et
-    la charge à commander
+-   Steckermodul direkt zwischen Steckdose und integriert
+    die Ladung auf Bestellung
 
--   Permet le suivi de consommation de l'appareil branché
+-   
 
--   Fonction ON/OFF
+-   EIN / AUS-Funktion
 
--   Possibilité de lui affecter un numéro et une couleur afin de
-    différencier les différentes PowerNode d'une même installation
+-   Möglichkeit, ihm eine Nummer und eine Farbe zuzuweisen, um
+    Unterscheiden Sie zwischen den verschiedenen PowerNodes derselben Installation
 
--   Bouton Ein/Aus directement sur la Steckdose
+-   
 
--   Protection contre les surintensités
+-   Überstromschutz
 
--   Indicateur d'état lumineux
+-   Lichtstatusanzeige
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Versorgung : 250V \~ AC, 50Hz
+-   Versorgung : 250 V AC, 50 Hz
 
--   Courant de charge maximum : 10A
+-   Maximaler Ladestrom : 10A
 
--   Macht de charge maximale : 2400W (@ 240V)
+-   Maximale Lastleistung : 2400 W (bei 240 V)
 
--   Consommation en veille : 0,4 W
+-   Standby-Verbrauch : 0,4 W.
 
--   Précision de mesure : ± 0.1W
+-   Messgenauigkeit : ± 0,1 W.
 
--   Protection contre les surintensités : 10A fusible interne
+-   Überstromschutz : 10A interne Sicherung
 
--   Type de Steckdose : DIN49440 / CEE 7/7 (Schuko)
+-   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Radio Fréquence Z-Wave : 868.42MHz
+-   Z-Wave-Radiofrequenz : 868,42 MHz
 
--   Portée maximale Z-Wave : 30m
+-   Maximale Reichweite Z-Wave : 30m
 
--   Température de fonctionnement : 0 ° C à + 25 ° C
+-   Betriebstemperatur : 0 ° C bis + 25 ° C.
 
--   Température de stockage : -20 ° C à + 60 ° C
+-   Lagertemperatur : -20 ° C bis + 60 ° C.
 
--   Humidité maximale : 5% à 90%
+-   Maximale Luftfeuchtigkeit : 5% bis 90%
 
--   Classe IP (Tolérance d'humidité) : IP20
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : GreenWave
+-   Machen Sie : GreenWave
 
--   Name : GreenWave\[1 x Steckdose\]
+-   Name : GreenWave \ [1 x Stecker \]
 
--   Fabricant ID : 153
+-   Hersteller ID : 153
 
--   Type Produit : 2
+-   Produkttyp : 2
 
--   Produit ID : 2
+-   Produkt-ID : 2
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> inclusion présent sous la Steckdose.
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> Einschluss unter der Steckdose vorhanden.
 
- \
+\.
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/greenwave.Powernode1/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Zustand : C'est la commande qui permet de connaître le statut de la
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose
 
--   Ein : C'est la commande qui permet d'allumer la Steckdose
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : C'est la commande qui permet d'éteindre la Steckdose
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht : C'est la commande qui remonte la puissance instantanée
-    consommée
+-   Macht : Es ist die Steuerung, die die momentane Kraft erhöht
+    verbraucht
 
--   Conso : C'est la commande qui remonte la consommation totale
+-   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
 
- \
+\.
 
-A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
-en un seul bouton.
+Beachten Sie, dass im Dashboard die Befehle ON / OFF / STATUS zusammengefasst sind
+in einer Taste.
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
-plugin OpenZwave de Jeedom.
+Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Jeedom OpenZwave Plugin.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/greenwave.Powernode1/config1.jpg)
 
- \
+\.
 
-Comme vous pourrez le constater il n'y a pas beaucoup de configuration
-pour ce module.
+Wie Sie sehen, gibt es nicht viel Konfiguration
+für dieses Modul.
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1 : Délai avant le clignotement du bouton : nombres de secondes
-    minimum entre deux communications (si ce délai est dépassé le bouton
-    de la Steckdose clignotera)
+-   1 : Verzögerung, bevor die Taste blinkt : Anzahl der Sekunden
+    Minimum zwischen zwei Kommunikationen (wenn diese Verzögerung überschritten wird, die Taste
+    der Steckdose blinkt)
 
--   2 : Couleur selectionnée de la molette (détectée automatiquement)
+-   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède quatre groupes d'association, seul le 3ème groupe est
-indispensable.
+Dieses Modul hat vier Zuordnungsgruppen, nur die 3. Gruppe
+wesentlich.
 
- \
+\.
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-Contrairement à sa grande soeur multiSteckdose, cette Steckdose ne nécessite pas
-de polling pour remonter la consommation.
+Im Gegensatz zu seiner großen Schwester Mehrfachsteckdose benötigt diese Steckdose nicht
+Umfragen zur Steigerung des Verbrauchs.
 
- \
+\.
 
 ### Zurücksetzen 
 
- \
+\.
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
- \
+\.
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système. Il faut choisir
-PressButton.
+Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
+auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
+Drücken Sie die Taste.
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pas de notion de wakeup sur ce module.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Avez-vous associé le groupe 3 du module à Jeedom ?
+Haben Sie Gruppe 3 des Moduls mit Jeedom verknüpft? ?
 
- \
+\.
 
-Non. Das Modul ne le permet pas. Mettez dessus un petit morceau de ruban
-adhésif noir.
+Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein kleines Stück Band darauf
+schwarzer Kleber.
 
- \
+\.
 
 **@sarakha63**

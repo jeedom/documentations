@@ -1,291 +1,291 @@
 SmartHome by Everspring In Wall Dimmer - AD146-0 
 ================================================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/smarthomebyeverspring.AD146-0/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-Ce Micromodule Variateur Mural de la marque SmartHome Europe by
-Everspring, est conçu pour contrôler l'allumage et l'extinction des
-luminaires et des équipements électriques de votre maison. Il peut
-également fournir une fonction de variateur qui est uniquement
-compatible avec les ampoules. À une tension de 230V, ce module peut
-supporter jusqu'à 300 Watts en charge résistive ou incandescente, ou 200
-Watts de charge fluorescente.
+This Wall Dimmer Micromodule from SmartHome Europe by
+Everspring, is designed to control the switching on and off of
+light fixtures and electrical equipment in your home. He can
+also provide a dimmer function which is only
+compatible with bulbs. At a voltage of 230V, this module can
+support up to 300 Watts in resistive or incandescent load, or 200
+Watts of fluorescent charge.
 
-Il peut être utilisé en mode 2 fils (sans neutre), en remplacement d'un
-interrupteur existant, ou trois fils avec une alimentation classique du
-module (Phase + Neutre).
+It can be used in 2-wire mode (without neutral), replacing a
+existing switch, or three wires with conventional power supply from
+module (Phase + Neutral).
 
-Le Module Variateur Mural est un appareil compatible Z-Wave™ qui est
-destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il
-peut être contrôlé par une télécommande, un logiciel PC, ou n'importe
-quel contrôleur Z-Wave de votre réseau.
+The Wall Dimmer Module is a Z-Wave ™ compatible device which is
+designed to work with all Z-Wave ™ compatible networks. he
+can be controlled by remote control, PC software, or any
+which Z-Wave controller in your network.
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Commandez un éclairage/appareil à distance
+-   Control a light / device remotely
 
--   S'installe derrière un interrupteur existant
+-   Installs behind an existing switch
 
--   Fonction ON/OFF et variation
+-   ON / OFF function and variation
 
--   Faible consommation d'énergie
+-   Low energy consumption
 
--   Très petit, dimensions réduites
+-   Very small, reduced dimensions
 
--   Antenne longue portée
+-   Long range antenna
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus technology
 
--   S'installe facilement dans une boîte d'encastrement standard
+-   Easily installs in a standard flush-mount box
 
--   Utilisation en mode 2 fils (neutre pas nécessaire)
+-   Use in 2-wire mode (neutral not necessary)
 
--   Compatible avec les ampoules Led Dimmable
+-   Compatible with Led Dimmable bulbs
 
--   Bouton pour inclure/exclure/associer le module
+-   Button to include / exclude / associate the module
 
--   Fonction répéteur Z-Wave
+-   Z-Wave repeater function
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module : Z-Wave receiver
 
 -   Food : 230 V, 50 Hz
 
 -   Consumption : 0.5W
 
--   Puissance maximum :
+-   Maximum power :
 
--   Charge résistive : 300W
+-   Resistive load : 300W
 
--   Ampoule à incandesence : 300W
+-   Incandescent bulb : 300W
 
--   Ampoule Fluocompacte : 200W
+-   Compact fluorescent bulb : 200W
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED sur le bouton
+-   Viewing: LED on the button
 
 -   Dimensions : 42mm x 43mm x 16mm
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : SmartHome by Everspring
+-   Mark : SmartHome by Everspring
 
 -   Name : In Wall Dimmer
 
--   Fabricant ID : 96
+-   Manufacturer ID : 96
 
--   Type Produit : 3
+-   Product Type : 3
 
--   Produit ID : 2
+-   Product ID : 2
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> To put this module in inclusion mode, press 3 times on its
+> button, according to its paper documentation. It's important to
+> note that this module goes directly to inclusion when
+> does not belong to any network and is powered
 
- \
+\
 
 ![inclusion](images/smarthomebyeverspring.AD146-0/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Wece included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Wece the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Intensité : C'est la commande permettant de régler l'intensité de la
+-   Intensity : This is the command used to adjust the intensity of the
     Light
 
--   We : C'est la commande qui permet d'allumer la Light
+-   We : It is the control that turns on the light
 
--   Off : C'est la commande qui permet d'éteindre la Light
+-   Off : It is the command that turns off the light
 
--   State : C'est la commande qui permet de connaître le statut de la
+-   State : It is the command which allows to know the status of the
     Light
 
- \
+\
 
-A noter que sur le dashboard, les infos State, ON/OFF, intensité se
-retrouvent sur le même icone.
+Note that on the dashboard, the status information, ON / OFF, intensity is
+found on the same icon.
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : This parameter defines the status value command, it is not
+    advised to change this value.
 
--   2 : Ce paramètre définit le délai d'envoi du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : This parameter defines the delay in sending the change of state to
+    group 1 (value between 3 and 25 seconds)
 
--   3 : Ce paramètre permet de définir si l'interrupteur reprendra son
-    statut (ON ou OFF) après une reprise de courant.
+-   3 : This parameter allows you to define whether the switch will resume its
+    status (ON or OFF) after a power recovery.
 
--   4 : Ce paramètre permet de définir le type
-    d'interrupteur (poussoir/bistable)
+-   4 : This parameter defines the type
+    switch (push / bistable)
 
--   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
-    mode variation ou en mode on/off
+-   5 : This parameter defines whether the switch will operate in
+    variation mode or on / off mode
 
 ### Groups 
 
- \
+\
 
-Ce module possède 2 groupes d'association.
+This module has 2 association groups.
 
- \
+\
 
 ![Groupe](images/smarthomebyeverspring.AD146-0/groupe.jpg)
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Status feedback cannot be configured below 3
+    seconds. \
 
-### Visuel alternatif 
+### Alternative visual 
 
- \
+\
 
 ![vuewidget](images//smarthomebyeverspring.AD146-0/vuewidget.jpg)
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pas de notion de wake up sur ce module.
+No notion of wake up on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Yes it is parameter 2 and it cannot be set below 3
+seconds.
 
- \
+\
 
-Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois
-sur l'interrupteur.
+No. this module can be included or excluded by pressing several times
+on the switch.
 
- \
+\
 
 **@sarakha63**

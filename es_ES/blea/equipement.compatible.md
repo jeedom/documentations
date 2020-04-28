@@ -1,226 +1,226 @@
 
-# amazfit
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/amazfitgtr.jpg" width="60" />|Huami|Amazfit GTR|Salud|Uniquement de la présence pour le moment||
+|<img src="../../es_ES/blea/images/gtr.>|||Salud|||
 
-# awoxmesh
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Iluminacións|Compatible avec Awox Mesh technologie.||
-|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Iluminacións|Compatible avec Awox Mesh technologie.||
-|<img src="../../es_ES/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Control remoto|Iluminacións|Compatible avec Awox Mesh technologie. Il faut activer le mode bluetooth pour utiliser les commande.||
+|<img src="../../es_ES/blea/images/awox.>||||.||
+|<img src="../../es_ES/blea/images/awox.>||||.||
+|<img src="../../es_ES/blea/images/awoxremote.>||Control remoto||. .||
 
-# beagle
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
 
-# beewismartdoor
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Sensores|Sensores d'ouverture de porte||
+|<img src="../../es_ES/blea/images/.>|||Sensores|||
 
-# blpnr
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/blpnr.jpg" width="60" />|Jardibric|BLP NR|Plante|||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# default
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/default.jpg" width="60" />|Desconocido|Desconocido|Por defecto|Uniquement pour les équipements non encore rajouté dans le plugin, pour a minima avoir la présence et les rssi ainsi que la data brute||
+|<img src="../../es_ES/blea/images/.>|Desconocido|Desconocido|Por defecto|||
 
-# divoompixoo
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-||Divoom|Pixoo|Display|Fonction garder la connection recommandée||
+||||Display|||
 
-# divoomtimeboxmini
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Display|Fonction garder la connection obligatoire pour pas avoir le logo bluetooth||
+|<img src="../../es_ES/blea/images/.>|||Display|||
 
-# dotti
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Display|Fonctionnera beaucoup mieux avec option garder la connection||
+|<img src="../../es_ES/blea/images/.>|||Display|||
 
-# dreamscreen
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/dreamscreen.jpg" width="60" />|DreamScreen|DreamScreen|Iluminacións|||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# fitbit
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/fitbit.jpg" width="60" />|Fitbit|Badge|Bracelet|Uniquement pour de la présence||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# flowerpower
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Sensores|Sensores de plantes||
+|<img src="../../es_ES/blea/images/.>|||Sensores|||
 
-# gigaset
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Presencia|Uniquement pour de la présence||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
 
-# hector
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/hector.jpg" width="60" />|Hector|Hector|Sensores|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
+|<img src="../../es_ES/blea/images/.>|||Sensores|||
 
-# itag
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Noir|Botones|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Blanc|Botones|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Botones|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Vert|Botones|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Bleu|Botones|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../es_ES/blea/images/.>|||Botones|. ||
+|<img src="../../es_ES/blea/images/.>|||Botones|. ||
+|<img src="../../es_ES/blea/images/.>|||Botones|. ||
+|<img src="../../es_ES/blea/images/.>|||Botones|. ||
+|<img src="../../es_ES/blea/images/.>|||Botones|. ||
 
-# jinlin
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Iluminación|Uniquement pour de la présence (le reste viendra)||
+|<img src="../../es_ES/blea/images/.>|||Iluminación|||
 
-# kst1
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/kst1.jpg" width="60" />|Koogeek|Kst1|Salud|||
+|<img src="../../es_ES/blea/images/.>|||Salud|||
 
-# logiswitch
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop rouge|Botones|Ne doit absolument pas être connecté sur un autre appareil||
-|<img src="../../es_ES/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop blanc|Botones|Ne doit absolument pas être connecté sur un autre appareil||
-|<img src="../../es_ES/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop vert|Botones|Ne doit absolument pas être connecté sur un autre appareil||
-|<img src="../../es_ES/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop gris|Botones|Ne doit absolument pas être connecté sur un autre appareil||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
 
-# lywsd02
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Sensores|Sensores de Température Humidité avec écran (Lywsd02)||
+|<img src="../../es_ES/blea/images/.>|X||Sensores|||
 
-# meyerdom
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 Analogiques|Contacteurs|2 analogiques||
-|<img src="../../es_ES/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contacteurs|Contacteurs|4 contacteurs||
-|<img src="../../es_ES/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Contact Vocal|Contacteurs|Contacteur Vocal||
+|<img src="../../es_ES/blea/images/2analog.>||||||
+|<img src="../../es_ES/blea/images/.>||||||
+|<img src="../../es_ES/blea/images/contactvocal.>||||||
 
-# meyerdom4contacts
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contacteurs|Contacteurs|4 contacteurs et 2 analogiques||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# miband
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Salud|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
-|<img src="../../es_ES/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Salud|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
-|<img src="../../es_ES/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Salud|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
-|<img src="../../es_ES/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Salud|Uniquement de la présence pour le moment||
-|<img src="../../es_ES/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Salud|Uniquement de la présence pour le moment||
-|<img src="../../es_ES/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (avec led couleur)|Salud|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
+|<img src="../../es_ES/blea/images/1.>|X||Salud|. ||
+|<img src="../../es_ES/blea/images/1s.>|X||Salud|. ||
+|<img src="../../es_ES/blea/images/2.>|X||Salud|. ||
+|<img src="../../es_ES/blea/images/3.>|X||Salud|||
+|<img src="../../es_ES/blea/images/4.>|X||Salud|||
+|<img src="../../es_ES/blea/images/color.>|X||Salud|. ||
 
-# miflora
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Sensores|Sensores de plantes||
+|<img src="../../es_ES/blea/images/.>|X||Sensores|||
 
-# miscale
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miscale.jpg" width="60" />|Xiaomi|MiEscala|Escala|Gestion de profils complète||
-|<img src="../../es_ES/blea/images/miscale.jpg" width="60" />|Xiaomi|MiEscala 2019|Escala|Gestion de profils complète||
+|<img src="../../es_ES/blea/images/.>|X||Escala|||
+|<img src="../../es_ES/blea/images/.>|X||Escala|||
 
-# miscale2
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiEscala V2|Escala|Gestion de profils complète||
+|<img src="../../es_ES/blea/images/.>|X||Escala|||
 
-# myfox
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Presencia|Uniquement pour de la présence||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
 
-# niu
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Wazabi|Botones|Disponible en plusieurs coloris||
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Gris|Botones|Disponible en plusieurs coloris||
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Lagoon|Botones|Disponible en plusieurs coloris||
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Softberry|Botones|Disponible en plusieurs coloris||
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Techblue|Botones|Disponible en plusieurs coloris||
-|<img src="../../es_ES/blea/images/niu.jpg" width="60" />|Nodon|Niu Blanc|Botones|Disponible en plusieurs coloris||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
 
-# noke
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/noke.jpg" width="60" />|Noke|Noke|Cadenas|Visible que sur appui du bouton (peut fonctionner via un hack des trames pour récupérer la clé) mais ne sera pas fait car illégal||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# nut
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/nut.jpg" width="60" />|Nut|Nut|Presencia|Uniquement pour de la présence||
-|<img src="../../es_ES/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Bleu|Presencia|||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
 
-# parrotpot
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Sensores|Sensores de plantes||
+|<img src="../../es_ES/blea/images/.>|||Sensores|||
 
-# playbulb
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-||Playbulb|Sphère|Iluminacións|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant||
+|||||. ||
 
-# ropot
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Sensores|Sensores de plantes||
+|<img src="../../es_ES/blea/images/.>|X||Sensores|||
 
-# ruuvi
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Sensores beacon||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# smartplug
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/smartplug.jpg" width="60" />|Awox|Smartplug|Prises|||
+|<img src="../../es_ES/blea/images/.>||||||
 
-# tb05
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Il est recommandé d'utiliser l'option garder la connection. Obligatoire pour tenter expérimentalement l'accès au couleur direct||
+|<img src="../../es_ES/blea/images/.>||||. ||
 
-# ticatag
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/ticatag.jpg" width="60" />|Tibe|Ticatag|Botones|Le relachement est envoyé même après un appui simple ou appui double||
+|<img src="../../es_ES/blea/images/.>|||Botones|||
 
-# tile
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/tile.jpg" width="60" />|Tile|Tile|Presencia|Uniquement pour de la présence||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
 
-# wistiki
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Presencia|Uniquement pour de la présence||
+|<img src="../../es_ES/blea/images/.>|||Presencia|||
 
-# xiaomiht
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Sensores|Sensores de Température Humidité avec écran||
-|<img src="../../es_ES/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Sensores de Température Humidité avec écran e-ink||
+|<img src="../../es_ES/blea/images/.>|X||Sensores|||
+|<img src="../../es_ES/blea/images/.>|X|||||
 
-# yeelight
-|Imagen|Marque|Nombre|Tipo|Observación|Enlace|
+# 
+|Imagen||Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/yeelight_bed.jpg" width="60" />|Yeelight|Bed|Iluminacións|Il faut valider l'appairage en appuyant sur le bouton. Si éteint il faut allumer avant de choisir une couleur||
+|<img src="../../es_ES/blea/images/_bed.>||||. ||
 
 
-Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
+

@@ -1,14 +1,14 @@
 Presentation
 ===
 
-Jeedom est composé d'une partie centrale (appelée core) qui se charge
-des fonctions de base.
+Jeedom is composed of a central part (called core) which is charged
+basic functions.
 
 -   *Scenario,*
 
 ![Page Scenario](images/doc-presentation-scenario.png)
 
--   *Historisation,*
+-   *Historization,*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
@@ -20,101 +20,101 @@ des fonctions de base.
 
 ![Page Interaction](images/doc-presentation-interaction.png)
 
--   *Mise à jour et sauvegarde.*
+-   *Update and backup.*
 
 ![Page Mise à jour](images/doc-presentation-maj.png)
 
 ![Page Sauvegarde](images/doc-presentation-sauvegarde.png)
 
-Autour de ce noyau viennent se greffer des plugins qui peuvent être de
-toutes sortes :
+Around this core are plugins which can be
+all kinds :
 
--   protocole domotique (Z-Wave, RFXcom, EnOcean…​),
+-   home automation protocol (Z-Wave, RFXcom, EnOcean…),
 
--   protocole IP (KNX,xPL…​),
+-   IP protocol (KNX, xPL…),
 
--   objet communiquant (Nest, Netatmo…​),
+-   communicating object (Nest, Netatmo…),
 
--   haut niveau (alarme, thermostat…​),
+-   high level (alarm, thermostat ...),
 
 -   interface (widget),
 
--   organisation (agenda, Google agenda),
+-   organization (calendar, Google calendar),
 
--   développement (script).
+-   development (script).
 
-Ces plugins peuvent être récupérés via Market et permettent d'étendre
-les possibilités de Jeedom.
+These plugins can be retrieved via Market and allow you to extend
+Jeedom's possibilities.
 
 ![Page Market](images/doc-presentation-market.png)
 
-Jeedom permet à n'importe quel plugin de discuter avec un autre sur une
-base normalisée. Cela permet par exemple d'utiliser les plugins
-thermostat ou alarme avec n'importe quel protocole domotique ou même un
-plugin IP ou objet communiquant…​
+Jeedom allows any plugin to chat with another on a
+standardized base. This allows for example to use plugins
+thermostat or alarm with any home automation protocol or even a
+IP plugin or communicating object…
 
 Principle
 === 
 
-Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui
-permet de garantir le fonctionnement de votre domotique même si vous
-n'avez plus internet. Ceci garantit aussi la sécurité de vos données
-(évite les risques de piratage en masse des comptes).
+Jeedom has the distinction of being without subscription and without cloud, which
+ensures the functioning of your home automation even if you
+no longer have internet. This also guarantees the security of your data
+(avoids the risks of mass hacking of accounts).
 
-Le projet étant ouvert et open source cela lui garantit aussi un fort
-taux d'évolution grâce aux nombreux développeurs qui participent.
+The project being open and open source this also guarantees it a strong
+evolution rate thanks to the many developers who participate.
 
 Links
 ===
 
-Plusieurs tutoriels vidéo ont été réalisés afin de montrer les
-fonctionnalités importantes de Jeedom, faciliter son utilisation et
-familiariser l'utilisateur avec le logiciel.
+Several video tutorials were made to show the
+important features of Jeedom, facilitate its use and
+familiarize the user with the software.
 
-Cependant depuis la réalisation de ces tutoriels, l'interface de Jeedom
-a pu évoluer et des fonctionnalités ajoutées. La documention reste donc
-la référence à consulter en cas de besoins, questions, etc.
+However since the realization of these tutorials, the Jeedom interface
+was able to evolve and functionalities added. The documentation therefore remains
+the reference to consult in case of needs, questions, etc..
 
-Voici la liste des tutoriels disponibles :
+Here is the list of available tutorials :
 
 -   [Tuto Jeedom \#1 : First
-    démarrage](https://www.youtube.com/watch?v=UTECRBGEUtI)
+    startup] (https://www.youtube.com/watch?v = UTECRBGEUtI)
 
--   [Tuto Jeedom \#2 : Débuter avec Jeedom (Objet, Market, Plugin
-    , Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
+-   [Tuto Jeedom \#2 : Getting started with Jeedom (Object, Market, Plugin
+    , Module)] (https://www.youtube.com/watch?v = 2LU1neNvbus)
 
--   [Tuto Jeedom \#3 : Jeedom, les Widget, Mails et
-    Scenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
+-   [Tuto Jeedom \#3 : Jeedom, Widgets, Mails and
+    Scenarios] (https://www.youtube.com/watch?v = OJn33XbpiH8)
 
--   [Tuto Jeedom \#4 : Jeedom, Utilisation du plugin
-    Agenda](https://www.youtube.com/watch?v=EBuvIabg3Cc)
+-   [Tuto Jeedom \#4 : Jeedom, Using the plugin
+    Calendar] (https://www.youtube.com/watch?v = EBuvIabg3Cc)
 
--   [Tuto Jeedom \#5 : Les scripts dans Jeedom à l'aide du plugin
-    Script](https://www.youtube.com/watch?v=FRbQILAogX0)
+-   [Tuto Jeedom \#5 : Scripts in Jeedom using the plugin
+    Script] (https://www.youtube.com/watch?v = FRbQILAogX0)
 
--   [Tuto Jeedom \#6 : Les scénarios dans Jeedom avec le plugin
-    Météo](https://www.youtube.com/watch?v=w0ErP3wyEoA)
+-   [Tuto Jeedom \#6 : Scenarios in Jeedom with the plugin
+    Weather] (https://www.youtube.com/watch?v = w0ErP3wyEoA)
 
--   [Tuto Jeedom \#7 : Presentation du plugin
-    Energie](https://www.youtube.com/watch?v=DZfA_DxqbNs)
+-   [Tuto Jeedom \#7 : Presentation of the plugin
+    Energy] (https://www.youtube.com/watch?v = DZfA_DxqbNs)
 
--   [Tuto Jeedom \#8 : Découverte du Mode
-    Plan](https://www.youtube.com/watch?v=2IkXF6CBCAE)
+-   [Tuto Jeedom \#8 : Fashion Discovery
+    Map] (https://www.youtube.com/watch?v = 2IkXF6CBCAE)
 
--   [Tuto Jeedom \#9 : Plugin DataTransfert, les Backups Auto et
-    Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
+-   [Tuto Jeedom \#9 : DataTransfert plugin, Auto Backups and
+    Dropbox] (https://www.youtube.com/watch?v = wLOfJygFc8k)
 
--   [Tuto Jeedom \#10 : Faire parler
-    Jeedom (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
+-   [Tuto Jeedom \#10 : Make people talk
+    Jeedom (Android)] (https://www.youtube.com/watch?v = 3Pc3VJFWHo4)
 
--   [Tuto Jeedom \#11 : Vitrine découverte d'une installation
-    standard](https://www.youtube.com/watch?v=hW1d1FvkmSs)
+-   [Tuto Jeedom \#11 : Installation discovery window
+    standard] (https://www.youtube.com/watch?v = hW1d1FvkmSs)
 
--   [Tuto Jeedom \#12 : Découverte du plugin
-    Thermostat](https://www.youtube.com/watch?v=T21gqp1SQK0)
+-   [Tuto Jeedom \#12 : Discover the plugin
+    Thermostat] (https://www.youtube.com/watch?v = T21gqp1SQK0)
 
--   [Tuto Jeedom \#13 : Découverte du plugin
-    Alarme](https://www.youtube.com/watch?v=JjnWeU614gc)
+-   [Tuto Jeedom \#13 : Discover the plugin
+    Alarm] (https://www.youtube.com/watch?v = JjnWeU614gc)
 
--   [Tuto Jeedom \#14 : Découverte des
-    Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+-   [Tuto Jeedom \#14 : Discovery of
+    Interactions] (https://www.youtube.com/watch?v = Z8SHo_Xwk0Q) 

@@ -1,186 +1,186 @@
-Fibaro FGRWPE-101 "Wall plug" 
+" 
 =============================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/fibaro.fgwpe101/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/fibaro.fgwpe101/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Le Wall Plug Fibaro est un récepteur-Steckdose-transmetteur universel sous
-forme d\`un adaptateur à brancher sur une Steckdose murale au réseau
-électrique, compatible avec le standard Z-Wave. Il permet de gérer
-n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en
-intégrant la fonctionnalité de mesurer la puissance active du courant et
-la consommation d'énergie des dispositifs. Ce module est équipé d\`un
-anneau lumineux avec des LEDs signalant son état et la consommation
-d'énergie de tout dispositif branché. Le Wall Plug Fibaro peut être
-contrôlé par un bouton sur son carter ou bien depuis n'importe quel
-contrôleur compatible avec le standard Z-Wave
 
- \
+
+. 
+
+
+. 
+
+. 
+
+
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
+-   .
 
--   Contrôle à micro-chips.
+-   .
 
--   Élément d\`exécution: Relais.
+-   : Relais.
 
--   Mesure de puissance active du courant et de l\`énergie électrique
-    du récepteur.
+-   
+    .
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230V, 50Hz
+-   Versorgung : 
 
--   Consommation électrique : jusqu'à 0.8W
+-   Stromverbrauch : 
 
--   Charge maxi : 2.5kW
+-   Maximale Belastung : 
 
--   Fréquence : 868,42 Mhz EU
+-   Frequenz : 
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Dimensions: 17 x 42 x 37 mm
+-   Abmessungen: 17 x 42 x 37 mm
 
--   Température de fonctionnement : 0-40°C
+-   Betriebstemperatur : 0-40 ° C.
 
--   Température limite : 105°C
+-   Temperatur begrenzen : 105 ° C.
 
--   Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
+-   Standards : 
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Fibar Group
+-   Machen Sie : Fibar Group
 
--   Name : Wall Plug FGWPE-101
+-   Name : 
 
--   Fabricant ID : 271
+-   Hersteller ID : 271
 
--   Type Produit : 1536
+-   Produkttyp : 1536
 
--   Produit ID : 4096
+-   Produkt-ID : 4096
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
+> Einschlussknopf gemäß seiner Papierdokumentation.
 
- \
+\.
 
 ![inclusion](images/fibaro.fgwpe101/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/fibaro.fgwpe101/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Zustand : C'est la commande qui permet de connaître le statut de la
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose
 
--   Ein : C'est la commande qui permet d'allumer la Steckdose
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : C'est la commande qui permet d'éteindre la Steckdose
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht : C'est la commande qui remonte la puissance instatanée
-    consommée
+-   Macht : Dies ist der Befehl, der die momentane Leistung erhöht
+    verbraucht
 
--   Conso : C'est la commande qui remonte la consommation totale
+-   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
 
- \
+\.
 
-A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
-en un seul bouton.
+Beachten Sie, dass im Dashboard die Befehle ON / OFF / STATUS zusammengefasst sind
+in einer Taste.
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -190,116 +190,116 @@ paramètres)
 
 ![Config4](images/fibaro.fgwpe101/config4.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1: permet de bloquer le module en toujours ON
+-   1: 
 
--   16: permet de se souvenir du dernier état en cas de coupure de
-    courant
+-   16: 
+    
 
--   34: permet de choisir a quel type d'alarme du réseau Zwave la Steckdose
-    doit réagir
+-   34: 
+    
 
--   35: permet de régler la façon dont la Steckdose réagira aux alarmes
+-   35: 
 
--   39: permet de définir la durée de l'alarme
+-   39: 
 
--   40: permet de définir de combien doit varier la puissance pour être
-    remontée (en %)
+-   40: 
+    
 
--   42: idem mais en mode standard (jusqu'à 5 fois par pas définis en
-    param 43)
+-   42: 
+    
 
--   43: intervalle de remontée de la puissance
+-   43: 
 
--   45: intervalle de remontée de la consommation (en kWh 10=0,1 kWh)
+-   45: 
 
--   47: intervalle en secondes de remontée des infos independamment
-    d'une variation
+-   47: 
+    
 
--   49: prendre en compte la consommation du module lui même dans les
+-   49: 
     Werte
 
--   50: valeur minimal utilisée par le param 52
+-   50: 
 
--   51: valeur maximale utilisée par le param 52
+-   51: 
 
--   52: action à faire si la puissance sort des bornes définies aux
-    paramètres 50 et 51
+-   52: 
+    
 
--   60: puissance au dela de laquelle la Steckdose clignotera en violet
+-   60: 
 
--   61: couleur quand la Steckdose est allumée
+-   61: 
 
--   62: couleur quand la Steckdose est éteinte
+-   62: 
 
--   63: couleur lorsqu'une alarme Zwave est détectée
+-   63: 
 
--   70: puissance de sécurité (la Steckdose se coupera lorsque la puissance
-    atteindra ce seuil)
+-   70: 
+    
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 3 groupes d'association, seul le troisième est
-indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
+wesentlich.
 
- \
+\.
 
 ![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
 ### Zurücksetzen 
 
- \
+\.
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
 
- \
+\.
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système. Il faut choisir
-PressButton.
+Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
+auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
+Drücken Sie die Taste.
 
- \
+\.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![vuewidget](images/fibaro.fgwpe101/vuewidget.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pas de notion de wakeup sur ce module.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Lire la section Zurücksetzen de cette doc.
+Lesen Sie den Abschnitt Zurücksetzen in diesem Dokument.
 
- \
+\.
 
 **@sarakha63**

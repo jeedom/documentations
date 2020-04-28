@@ -1,287 +1,287 @@
-DUWI 05436 "Volet roulant" 
+DUWI 05436 "Rollladen" 
 ==========================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Das Modul volet roulant DUWI 05436 permet de contrôler des volets
-roulants dans deux directions.
+Das Rollladenmodul DUWI 05436 dient zur Steuerung von Rollläden
+in zwei Richtungen rollen.
 
-Ses principales caractéristiques sont :
+Seine Hauptmerkmale sind :
 
--   La possibilité d'utiliser un 'Commun' sur lequel commuter la montée
-    ou la descente. Du coup il est possible de commander les deux
-    directions avec n'importe quel type de tension, voire un neutre.
+-   Die Möglichkeit, ein "Common" zu verwenden, um den Aufstieg zu wechseln
+    oder der Abstieg. So ist es möglich, beide zu bestellen
+    Richtungen mit jeder Art von Spannung, auch ein Neutralleiter.
 
--   La possibilité d'envoyer un signal montée / descente en continu sans
-    limite de temps.
+-   Die Fähigkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
+    Zeitlimit.
 
-Achtung: ce module n'envoie pas son état au contrôleur z-wave lorsque
-l'utilisateur appuie directement sur les boutons. Il faut faire un
-'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
-plus loin).
+Achtung: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
+Der Benutzer drückt die Tasten direkt. Du musst eine machen
+'Aktualisieren Sie die Position, um die Umfrage zu aktualisieren, oder passen Sie sie an (siehe
+weiter).
 
- \
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Montée / descente
+-   Hoch / runter
 
--   Un fil commun qui sera commuté sur montée ou descente
+-   Ein gemeinsamer Draht, der beim Auf- oder Abstieg eingeschaltet wird
 
--   Nécessite le neutre pour fonctionner
+-   Zum Betrieb ist Neutral erforderlich
 
--   Protection par fusible
+-   Sicherungsschutz
 
--   Temps de montée et de descente réglables par paramètrage ou par
-    apprentissage sur le module
+-   Anstiegs- und Abfallzeiten einstellbar durch Einstellen oder durch
+    Modul lernen
 
--   L'interrupteur est fourni avec le module, non interchangeable
+-   Der Schalter wird mit dem Modul geliefert und ist nicht austauschbar
 
- \
+\.
 
-Caractéristiques Techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : récepteur / actionneur Z-Wave
+-   Modultyp : Z-Wave Empfänger / Aktor
 
--   Alimentation 230V, 50Hz
+-   230V, 50Hz Stromversorgung
 
--   Neutre nécessaire
+-   Neutral erforderlich
 
--   Charge Maxi : 1800W (résistif), 460VA (inductif)
+-   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv)
 
--   Fusible : T8AH
+-   Sicherung : T8AH
 
--   Fréquence : 868,42 Mhz
+-   Frequenz : 868,42 MHz
 
--   Dimensions : 52 x 52 x 31mm
+-   Abmessungen : 52 x 52 x 31 mm
 
--   Plage de température : 0°C / +40°C
+-   Temperaturbereich : 0 ° C / + 40 ° C.
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Popp/Duwi
+-   Machen Sie : Popp / Duwi
 
 -   Name : ZW ESJ Blind Control
 
--   Fabricant ID : 100
+-   Hersteller ID : 100
 
--   Type produit : 16385
+-   Produkttyp : 16385
 
--   Produit ID : 0
+-   Produkt-ID : 0
 
- \
+\.
 
 Einloggen 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre le module en mode inclusion, il faut appuyer trois fois
-> sur la montée ou la descente. L'exclusion se fait de la même manière.
+> Drücken Sie dreimal, um das Modul in den Einschlussmodus zu versetzen
+> beim Auf- oder Abstieg. Der Ausschluss erfolgt auf die gleiche Weise.
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/duwi.05436/4-Befehle.PNG)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Zustand : c'est la position actuelle du volet, en pourcentage de 0 à 99
+-   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
 
--   Descendre : commande pour descendre complètement
+-   Geh runter : Befehl, vollständig abzusteigen
 
--   Monter : commande pour monter complètement
+-   Geh hoch : Befehl, vollständig zu mounten
 
--   STOP : arrêt immédiat du mouvement
+-   STOP : Sofortiger Bewegungsstopp
 
--   Aktualisieren : rafraichîr l'état actuel du module
+-   Aktualisieren : Aktualisieren Sie den aktuellen Status des Moduls
 
--   Ebene : slider pour positionner une ouverture partielle
+-   Ebene : Schieberegler zum Positionieren einer Teilöffnung
 
- \
+\.
 
-#### Réglage des temps de montée et de descente : 
+#### Einstellen der Anstiegs- und Abfallzeiten : 
 
-Il faut démonter l'interrupteur pour avoir accès aux deux boutons
-"montée" et "descente".
+Der Schalter muss entfernt werden, um auf die beiden Tasten zugreifen zu können
+"Aufstieg "und" Abstieg".
 
-Positionnez le volet tout en haut si vous voulez régler le temps de
-descente, et inversement.
+Positionieren Sie die Klappe ganz oben, wenn Sie die Einstellung vornehmen möchten
+Abstieg und umgekehrt.
 
-Appuyez au moins 2s sur les deux boutons (montée et descente)
-simultanément. La led doit se mettre à clignoter en vert.
+Drücken Sie mindestens 2 Sekunden auf beiden Tasten (nach oben und unten).
+gleichzeitig. Die LED sollte grün blinken.
 
-Appuyez ensuite en continu sur le bouton de descente ou de montée,
-jusqu'à atteindre la position désirée. Lorsque vous lâchez le bouton, la
-led s'allume en vert fixe quelques secondes. Le temps est mémorisé.
+Halten Sie dann die Abwärts- oder Aufwärts-Taste gedrückt,
+bis zum Erreichen der gewünschten Position. Wenn Sie die Taste loslassen, wird die
+Die LED leuchtet einige Sekunden lang grün. Die Zeit wird gespeichert.
 
-Recommencer l'opération dans l'autre sens.
+Wiederholen Sie den Vorgang in die andere Richtung.
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   0 : Running Time :
+-   0 : Laufzeit :
 
-Ce sont les temps de montée et descente. Vous devriez y retrouver votre
-apprentissage.
+Dies sind die Anstiegs- und Abfallzeiten. Sie sollten Ihre finden
+Lernen.
 
-Le codage est fait par deux paires d'octets : la première pour la montée
-et la seconde pour la descente.
+Die Codierung erfolgt durch zwei Bytepaare : der erste für den Aufstieg
+und der zweite für den Abstieg.
 
-Les valeurs sont codées en héxadécimal dans le module et remises en
-décimal dans l'affichage de Jeedom.
+Die Werte werden im Modul hexadezimal codiert und zurückgesetzt
+Dezimal in der Jeedom-Anzeige.
 
-Zum Beispiel : pour 4626, cela donne en héxadécimal : 0x1212. Soit 0x12
-pour la montée et 0x12 pour la descente. Soit, ramené à nouveau en
-décimal : 18s pour montée et descente.
+Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12
+für den Aufstieg und 0x12 für den Abstieg. Oder wieder reingebracht
+dezimal : 18s für Auf- und Abstieg.
 
-A noter : forcer une valeur à zéro pour ce paramètre impliquera que le
-module commutera sur montée ou descente sans limite de temps. Il faudra
-alors envoyer un 'STOP' pour interrompre.
+Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet dies, dass die
+Das Modul schaltet den Auf- oder Abstieg ohne zeitliche Begrenzung ein. Es wird dauern
+Senden Sie dann einen 'STOP', um zu unterbrechen.
 
--   1 : STOP-functionnality : Enabled ou Disabled :
+-   1 : STOP-Funktionalität : Aktiviert oder deaktiviert :
 
-Sert à indiquer si un appui dans la direction opposée pendant un
-déplacement stoppe le volet ou le renvoie immédiatement dans le sens
-opposé.
+Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung gedrückt wird
+Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück
+Gegenteil.
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module ne possède qu'un seul groupe d'association dans lequel doit se
-trouver votre contrôleur Z-Wave.
+Dieses Modul hat nur eine Zuordnungsgruppe, in der es sein muss
+Finden Sie Ihren Z-Wave-Controller.
 
- \
+\.
 
 ![Groupe](images/duwi.05436/6-Gruppen.PNG)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
--   Comme précisé au début, le module ne reporte pas les changements de
-    positions faits par l'utilisateur en appuyant directement
-    sur l'interrupteur. Pour avoir un retour d'état, il faut donc :
+-   Wie zu Beginn angegeben, meldet das Modul keine Änderungen in
+    Positionen, die der Benutzer durch direktes Drücken gemacht hat
+    auf dem Schalter. Für eine Rückkehr des Staates ist es daher notwendig :
 
-        o soit configurer un poll à 5 minutes dans la configuration, onglet 'valeurs'
+        o Konfigurieren Sie entweder eine Umfrage nach 5 Minuten in der Konfiguration, Registerkarte 'Werte'
 
 ![Groupe](images/duwi.05436/7-Poll.PNG)
 
-    o soit créer un scénario qui lance la commande 'Refresh' toutes les x minutes (au minimum 1 minute)
+    o Erstellen Sie entweder ein Szenario, in dem der Befehl 'Aktualisieren' alle x Minuten (mindestens 1 Minute) gestartet wird.
 
--   Paramétrer un fonctionnement sans limite de temps peut s'avérer
-    utile pour les commandes de VMC
+-   Das Einstellen einer Operation ohne zeitliche Begrenzung kann sich als richtig erweisen
+    nützlich für VMC-Befehle
 
- \
+\.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
 > **Spitze**
 >
-> Le Widget "Store\_2\_IMG" utilisé sur la commande d'info "Zustand". Ce
-> widget est sympa car il montre les états 'partiellement ouvert'.
+> Das Widget "Store \ _2 \ _IMG", das im Infobefehl "Status" verwendet wird. Das hier
+> Widget ist schön, weil es "teilweise geöffnete" Zustände anzeigt'.
 
 **@Theduck38**

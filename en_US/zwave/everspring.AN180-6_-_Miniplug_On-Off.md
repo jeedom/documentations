@@ -1,253 +1,253 @@
-Everspring Miniplug We/Off - AN180-6 
+ 
 ====================================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/everspring.AN180-6/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/everspring.AN180-6/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-La Mini Prise We/Off est conçue pour contrôler l'allumage et
-l'extinction des luminaires et des équipements électriques de votre
-maison. Avec une tension de 220 - 240 V, cette Prise peut supporter une
-charge jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur,
-fluorescent, Led).
 
-La Mini Prise We/Off est un appareil compatible Z-Wave™ qui est destiné
-pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
-être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
-contrôleur Z-Wave de votre réseau.
+switching off the lights and electrical equipment of your
 
- \
+,
+.
+
+
+. 
+
+.
+
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Commander une lampe ou un appareil à distance
+-   
 
--   Module prise s'intégrant directement entre une prise électrique et
-    la charge à commander
+-   
+    
 
--   Fonction ON / OFF pour piloter des lampes ou des appareils (pas
-    de variation)
+-   
+    
 
--   Contrôle de la charge en local via le bouton intégré
+-   
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus technology
 
--   Dimensions réduites pour passer presque inaperçu
+-   
 
--   LED de statut sur le bouton intégré
+-   
 
--   Fonction répéteur Z-Wave
+-   Z-Wave repeater function
 
- \
+\
 
-Caractéristiques Techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module : Z-Wave receiver
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 0.6W
+-   Consumption : 
 
--   Puissance maximum : Charge résistive : 1500W, Ampoule à incandesence
-    : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :
+-   Maximum power : Resistive load : 
+    :  :  :
     200W
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED sur le bouton
+-   Viewing: LED on the button
 
--   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
+-   Dimensions :  :  : 
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Everspring
+-   Mark : 
 
--   Name : Miniplug We/Off
+-   Name : Miniplug We / Off
 
--   Fabricant ID : 96
+-   Manufacturer ID : 96
 
--   Type Produit : 4
+-   Product Type : 4
 
--   Produit ID : 7
+-   Product ID : 7
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> To put this module in inclusion mode, press 3 times on its
+> button, according to its paper documentation. It's important to
+> note that this module goes directly to inclusion when
+> does not belong to any network and is powered
 
- \
+\
 
 ![inclusion](images/everspring.AN180-6/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Wece included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées aux modules seront
+
 available.
 
- \
+\
 
 ![Commands](images/everspring.AN180-6/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   State : C'est la commande qui permet de connaitre le statut de la
-    prise (Allumée/éteinte)
+-   State : It is the command which allows to know the status of the
+    
 
--   We : C'est la commande qui permet d'allumer la prise
+-   We : This is the command that turns on the outlet
 
--   Off : C'est la commande qui permet d'éteindre la prise
+-   Off : It is the command which makes it possible to extinguish the catch
 
- \
+\
 
-A noter que sur le dashboard, les infos State, ON/OFF se retrouvent sur
-la même icône.
+Note that on the dashboard, the status information, ON / OFF can be found on
+.
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : This parameter defines the status value command, it is not
+    advised to change this value.
 
--   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : 
+    group 1 (value between 3 and 25 seconds)
 
--   3 : Ce paramètre permet de définir si la prise reprendra son statut
-    (ON ou OFF) après une reprise de courant.
+-   3 : 
+    .
 
 ### Groups 
 
- \
+\
 
-Ce module possède 2 groupes d'association.
+This module has 2 association groups.
 
- \
+\
 
 ![Groupe](images/everspring.AN180-6/groupe.jpg)
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Status feedback cannot be configured below 3
+    seconds. \
 
 Wakeup 
 ------
 
- \
+\
 
-Pas de notion de wakeup sur ce module.
+No notion of wakeup on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Yes it is parameter 2 and it cannot be set below 3
+seconds.
 
- \
+\
 
 **@sarakha63**

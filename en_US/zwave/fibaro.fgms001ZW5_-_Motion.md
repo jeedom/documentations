@@ -1,214 +1,214 @@
 Fibaro Motion Sensor - FGMS-001 
 ===============================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/fibaro.fgms001zw5/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
-En plus de la détection de mouvement, ce Devices mesure la
-Temperature et l'intensité lumineuse. Ce détecteur comporte aussi un
-accéléromètre intégré afin de détecter toute tentative d'altération du
+The Fibaro motion detector is a Z-Wave multifunction detector.
+In addition to motion detection, this device measures the
+temperature and light intensity. This detector also includes a
+built-in accelerometer to detect any attempt to alter the
 Devices.
 
-Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapSameent et facilement sur n'importe quelle
-surface. Le voyant LED signale le mouvement, le niveau de Temperature,
-le mode de fonctionnement et peut être utilisé pour voir si l'appareil
-est dans le réseau Z-Wave.
+The Fibaro motion detector is battery powered and designed
+to be installed quickly and easily on any
+area. LED indicator signals movement, temperature level,
+the operating mode and can be used to see if the device
+is in the Z-Wave network.
 
-Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage
-et les systèmes de surveillance et/ou de sécurité.
+Motion detector can be used for lighting scenes
+and surveillance and / or security systems.
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Détecteur de mouvement sans fil
+-   Wireless motion detector
 
--   Détecte les mouvements à l'aide d'un capteur infrarouge passif
+-   Detects movement using a passive infrared sensor
 
--   Mesure de la Temperature
+-   Temperature measurement
 
--   Mesure de l'intensité lumineuse
+-   Light intensity measurement
 
--   Mesure de l'intensité sismique
+-   
 
--   Protection contre l'effraction et le vol
+-   Burglary and theft protection
 
--   Alertes de mouvement et de Temperature signalées par le clignotement
-    de la diode LED
+-   Motion and temperature alerts signaled by flashing
+    LED diode
 
--   Bouton pour inclure/exclure le détecteur
+-   Button to include / exclude the detector
 
--   Détection pile faible
+-   Low battery detection
 
--   Très petit, dimensions réduites
+-   Very small, reduced dimensions
 
--   Facilité d'installation sur un mur ou toute autre surface
+-   Easy installation on a wall or any other surface
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave+
+-   Type of module : 
 
--   Food : Pile CR123A 3,6VDC
+-   Food : CR123A 3,6VDC battery
 
--   Hauteur recommandée pour l'installation : 2,4m
+-   Recommended height for installation : 2.4m
 
--   Plage de Temperature mesurée : -20°C à 100°C
+-   Measured temperature range : -20 ° C to 100 ° C
 
--   Précision de la mesure : 0,5°C
+-   Measurement accuracy : 0.5 ° C
 
--   Plage de mesure de la luminosité : 0-32000 LUX
+-   Brightness measurement range : 0-32000 LUX
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 4,4 cm de diamètre
+-   Dimensions: 4.4 cm in diameter
 
--   Temperature de fonctionnement : 0-40°C
+-   Operating temperature : 0-40 ° C
 
--   Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS
+-   Certifications : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Mark : Fibar Group
 
--   Name : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Name : ]
 
--   Fabricant ID : 271
+-   Manufacturer ID : 271
 
--   Type Produit : 2048
+-   Product Type : 2048
 
--   Produit ID : 4097
+-   Product ID : 4097
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> To put this module in inclusion mode, press the button 3 times
+> inclusion button, according to its paper documentation.
 
- \
+\
 
 ![inclusion](images/fibaro.fgms001zw5/inclusion.jpg)
 
- \
+\
 
-Une fois inclus, vous devez appliquer la configuration zwave+ via la
-liste déroulante, vous devriez obtenir ceci :
 
- \
+ :
+
+\
 
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Il faut cliquer une fois sur la loupe pour récupérer les commandes du
-module. Une fois le module reconnu, les commandes associées au module
-seront disponibles.
 
- \
+
+.
+
+\
 
 ![Commands](images/fibaro.fgms001zw5/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Presence : c'est la commande qui remontera une détection de présence
+-   Presence : it is the command which will detect a presence detection
 
--   Temperature : c'est la commande qui permet de remonter la
+-   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : c'est la commande qui permet de remonter la luminosité
+-   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sismique : c'est la commande qui permet de remonter l'intensité
-    sismique
+-    : 
+    
 
--   Sabotage : c'est la commande Sabotage (elle est déclenchée en cas
-    de vibration)
+-   Sabotage : this is the Sabotage command (it is triggered in case
+    vibration)
 
--   Drums : c'est la commande batterie
+-   Drums : it's the battery command
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
 > **IMPORTANT**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> During a first inclusion always wake up the module just after
+> inclusion.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -218,192 +218,192 @@ paramètres)
 
 ![Config3](images/fibaro.fgms001zw5/config4.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   Wakeup : c'est l'intervalle de réveil du module (valeur
-    recommandée 7200)
+-   Wakeup : this is the module wake-up interval (value
+    7200 recommended)
 
--   1: permet de régler la sensibilité du capteur de présence
+-   1: adjusts the sensitivity of the presence sensor
 
--   2: permet de régler l'inertie du capteur de présence
+-   2: adjusts the inertia of the presence sensor
 
--   3: déconseillé de changer ce paramètre
+-   3: not recommended to change this setting
 
--   4: déconseillé de changer ce paramètre
+-   4: not recommended to change this setting
 
--   6: temps après lequel le capteur enverra le signal "plus de
-    mouvement" (valeur conseillée 30)
+-   6: time after which the sensor will send the signal "more than
+    movement "(recommended value 30)
 
--   8: permet d'activer le mode nuit / jour ou les deux (valeur
-    conseillée : toujours actif)
+-   8: activates night / day mode or both (value
+    recommended : always active)
 
--   9: permet de régler le seuil de passage en mode nuit (utile si vous
-    avez changé le paramètre 8)
+-   9: allows you to adjust the threshold for switching to night mode (useful if you
+    have changed parameter 8)
 
--   12: à modifier seulement si vous savez pourquoi vous le faites
-    (association avec un module par exemple)
+-   12: to change only if you know why you are doing it
+    (association with a module for example)
 
 -   14: Same
 
 -   16: Same
 
--   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
+-   20: sensitivity of the gyro sensor (recommended value 15)
 
--   22: temps après lequel le capteur enverra le signal "plus de
-    Sabotage" (valeur conseillée 30)
+-   22: time after which the sensor will send the signal "more than
+    Sabotage "(recommended value 30)
 
--   24: permet de dire comment le Sabotage est notifié (IMPORTANT :
-    valeur conseillée : Capteur anti-Sabotage notifié à SensorAlarm
-    command class/ Annulation est notifié après le temps défini en
-    paramètre 22 )
+-   24: lets you tell how the Sabotage is notified (IMPORTANT :
+    recommended value : Tamper sensor notified to SensorAlarm
+    command class / Cancellation is notified after the time defined in
+    parameter 22)
 
--   26: à modifier seulement si vous savez pourquoi vous le faites
+-   26: to change only if you know why you are doing it
 
--   40: permet de dire de combien doit être modifiée la valeur de
-    luminosité pour être envoyée (valeur conseillée 50)
+-   40: lets say how much the value of
+    brightness to be sent (recommended value 50)
 
--   42: permet de donner une durée minimum entre deux envois successifs
-    même si la luminosité n'a pas changée (valeur conseillée 3600)
+-   42: allows to give a minimum duration between two successive sendings
+    even if the brightness has not changed (recommended value 3600)
 
--   60: permet de dire de combien doit être modifiée la valeur de
-    Temperature pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
+-   60: lets say how much the value of
+    temperature to be sent (recommended value 2 or 0.2 degrees)
 
--   62: permet de donner la fréquence des mesures de Temperatures
-    (valeur conseillée 900)
+-   62: allows to give the frequency of temperature measurements
+    (recommended value 900)
 
--   64: permet de donner une durée minimum entre deux envois successifs
-    même si la Temperature n'a pas changée (valeur conseillée 2700)
+-   64: allows to give a minimum duration between two successive sendings
+    even if the temperature has not changed (recommended value 2700)
 
--   66: permet d'ajuster la Temperature
+-   66: allows to adjust the temperature
 
--   80: permet de choisir la couleur de la led lorsqu'il y a détection
-    de mouvement (voir de la désactiver)
+-   80: allows to choose the color of the led when there is detection
+    of movement (see to deactivate it)
 
--   81: permet de régler la luminosité de la led
+-   81: allows to adjust the brightness of the led
 
--   82: permet de régler le seuil minimal de luminosité pour mettre la
-    led à 1% (lié au paramètre 81)
+-   82: adjusts the minimum brightness threshold to set the
+    1% led (linked to parameter 81)
 
--   83: permet de régler le seuil maximal de luminosité pour mettre la
-    led à 100% (lié au paramètre 81)
+-   83: adjusts the maximum brightness threshold to set the
+    100% led (linked to parameter 81)
 
--   86: Temperature en dessous de laquelle la led s'allumera en bleu
-    (lié au paramètre 81)
+-   86: temperature below which the LED will light blue
+    (linked to parameter 81)
 
--   87: Temperature au dessus de laquelle la led s'allumera en rouge
-    (lié au paramètre 81)
+-   87: temperature above which the LED will light red
+    (linked to parameter 81)
 
--   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
+-   89: allows the LED to flash in blue / white / red in case of
     Sabotage
 
- \
+\
 
 ### Groups 
 
- \
+\
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 
- \
+\
 
 > **Tip**
 >
-> Ce module possède cinq groupes d'association, il faut ajouter le
-> contrôleur sur le 1, 4 et 5 et retirer le 3.
+> This module has five association groups, add the
+> controller on 1, 4 and 5 and remove the 3.
 
-Les noms des groupes de la version Z-Wave+ sont les suivant:
+The names of the groups in the Z-Wave + version are as follows:
 
--   1 : Lifeline, remontée d'état ​​du module. Le contrôleur principal
-    devrait être ajouté à ce groupe.
+-   1 : Lifeline, module status feedback. The main controller
+    should be added to this group.
 
--   2 : Motion, capteur de mouvement.
+-   2 : Motion, motion sensor.
 
--   3 : Tamper, alerte Sabotage.
+-   3 : Tamper, Sabotage alert.
 
--   4 : Motion BC, capteur de mouvement. Ce groupe a pour but d'assurer
-    la compatibilité descendante avec les contrôleurs ne supportant pas
-    le protocole Z-Wave+.
+-   4 : Motion BC, motion sensor. This group aims to ensure
+    backward compatibility with controllers that do not support
+    the Z-Wave + protocol.
 
--   5 : Tamper BC, alerte Sabotage. Ce groupe a pour but d'assurer la
-    compatibilité descendante avec les contrôleurs ne supportant pas le
-    protocole Z-Wave+.
+-   5 : Tamper BC, Sabotage alert. The purpose of this group is to
+    backward compatibility with controllers that do not support
+    Z-Wave + protocol.
 
- \
+\
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
 > **Tip**
 >
-> Ce module est très capricieux sur les wakeup et très mal configuré
-> d'usine. Il est primordial de bien le réveiller après l'inclusion
-> (plusieurs fois valent mieux qu'une), de bien le configurer selon vos
-> souhaits, et de bien le réveiller pour que la config soit prise en
+> This module is very finicky on wakeup and very badly configured
+> factory. It is essential to wake it up well after inclusion
+> (several times are better than one), to configure it according to your
+> wishes, and to wake it up well so that the config is taken into account
 > Account.
 
- \
+\
 
-### Visuel alternatif 
+### Alternative visual 
 
- \
+\
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+To wake up this module there is only one way :
 
--   appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume
-    en bleue). Même si la lumière s'allume, il peut être nécessaire de
-    le faire plusieurs fois de suite (2 ou 3)
+-   press the inclusion button 3 times (the light comes on
+    in blue). Even if the light comes on, it may be necessary to
+    do it several times in a row (2 or 3)
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
+This module wakes up by pressing 3 times on its inclusion button.
 
- \
+\
 
-Ce module est très capricieux. Il est conseillé de faire l'inclusion au
-plus proche de votre box et de s'y reprendre à plusieurs fois.
+This module is very finicky. It is advisable to include
+closer to your box and to repeat it several times.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en Account au prochain wakeup.
+This module is a battery module, the new configuration will be
+taken into account at the next wakeup.
 
- \
+\
 
-Note importante 
+IMPORTANT note 
 ---------------
 
- \
+\
 
 > **IMPORTANT**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> You have to wake up the module : after its inclusion, after a change
+> of the configuration, after a change of wakeup, after a
+> change of association groups
 
- \
+\
 
 **@nechry**

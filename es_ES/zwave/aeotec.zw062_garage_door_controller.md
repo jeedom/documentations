@@ -1,283 +1,283 @@
-Aeotec Contrôleur de porte de garage 
+ 
 ====================================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/aeotec.garagedoorcontroller/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Facilement connecté sur le moteur existant de votre porte, le contrôleur
-de porte de garage l'améliore avec une suite de capteurs de sécurité et
-de sûreté. Le contrôleur de porte de garage ne permet pas seulement de
-contrôler votre porte de garage, il vous permet également de vérifier
-son état. Qu'il soit utilisé par le moteur ou manuellement, le détecteur
-intelligent livré avec le contrôleur de porte de garage sait si la porte
-est ouverte ou fermée, et peut vous avertir quand ce qui se passe ne le
-devrait pas.
 
- \
+
+. 
+
+. 
+
+
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Contrôlez et surveillez votre porte de garage à distance.
+-   .
 
--   Module s'installant simplement sur le moteur de votre
-    porte actuelle.
+-   
+    .
 
--   Contrôle de la porte en local via le bouton intégré.
+-   .
 
--   Envoie des alertes d'ouverture/fermeture au contrôleur Z-Wave.
+-   .
 
--   Alertes d'ouverture/fermeture sonores et visuelles.
+-   .
 
--   Volumen sonore de l'alarme réglable (105 dB max)
+-   
 
--   Port USB pour charger vos propres sons MP3.
+-   Puerto USB para cargar sus propios sonidos MP3.
 
--   LED de statut intégrée sur le bouton.
+-   LED de estado integrado en el botón.
 
--   Fait partie de la gamme Gen5 de Aeon Labs.
+-   Parte de la gama Gen5 de Aeon Labs.
 
--   Sécurité de la communication radio via le chiffrement AES-128.
+-   Seguridad de la comunicación por radio a través del cifrado AES-128.
 
--   Intègre la puce Z-Wave série 500.
+-   Integra el chip de la serie Z-Wave 500.
 
--   Communication 250% plus rapide comparée à des périphériques
-    Z-Wave standard.
+-   Comunicación 250% más rápida en comparación con los periféricos
+    Z-Wave estándar.
 
--   Répéteur de messages Z-Wave.
+-   Repetidor de mensaje Z-Wave.
 
--   Optimisation de l'antenne, portée 300 mètres.
+-   Optimización de la antena, alcance 300 metros..
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur et émetteur Z-Wave+ série 500
+-   Tipo de módulo : Receptor y transmisor de la serie Z-Wave + 500
 
--   Suministro : Actuador : 5 VDC (adaptateur fourni) Capteur : Pile
-    Lithium 3V 800mA CR2
+-   Suministro : Actuador : Sensor de 5 V CC (adaptador incluido) : Pila
+    Litio 3V 800mA CR2
 
--   Consommation en veille : 1W
+-   Consumo en espera : 1W
 
--   Consommation de l'alarme : 2W
+-   Consumo de alarma : 2W
 
--   Volumen maximum : 105 dB
+-   Volumenn máximo : 105 dB
 
--   Formats audio supportés : mp3 et WMV à la fréquence de 320Kbps
+-   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320 Kbps
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Distance de transmission : 300m en champ libre
+-   Distancia de transmisión : 300m en campo abierto
 
--   Temperatura de fonctionnement : -20°C à 50°C
+-   Temperatura de funcionamiento : -20 ° C a 50 ° C
 
--   Humidité de fonctionnement : 80%
+-   Humedad de funcionamiento : 80%
 
--   Certifications: FCC, UL, CE, ROHS
+-   Certificaciones: FCC, UL, CE, ROHS
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Aeotec
+-   Hacer : Aeotec
 
--   Nombre : Garage Door Controller (ZW062)
+-   Nombre : Controlador de puerta de garaje (ZW062)
 
--   Fabricant ID : 134
+-   ID del fabricante : 134
 
--   Type Produit : 3
+-   Tipo de producto : 3
 
--   Produit ID : 62
+-   ID del producto : 62
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> Z-Wave, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón
+> Z-Wave, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/aeotec.garagedoorcontroller/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/aeotec.garagedoorcontroller/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Open/Close : Ouvrir, fermer ou arrêter la porte de garage.
+-   Abrir / cerrar : Abrir, cerrar o detener la puerta del garaje..
 
--   Posición : Posición actuelle de la porte de garage.
+-   Posición : Posición actual de la puerta del garaje.
 
--   Volumen : Volumen actuel du haut-parleur.
+-   Volumen : Volumenn actual del altavoz.
 
--   Temperatura : Temperatura de la zone, pas de remonté automatique.
+-   Temperatura : Temperatura de zona, sin ascenso automático.
 
--   Sabotage : Etat du sabotage en texte.
+-   Sabotaje : Estado de sabotaje de texto.
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/aeotec.garagedoorcontroller/config1.jpg)
 
 ![Config1](images/aeotec.garagedoorcontroller/config2.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   34: Permet de démarrer la calibration du temps d'ouverture de
-    la porte.
+-   34: Le permite iniciar la calibración del tiempo de apertura de
+    la puerta.
 
--   41: Permet de resetter l'état du sabotage en sélectionnant "Relieve
-    the alarm state"
+-   41: Le permite restablecer el estado de sabotaje seleccionando "Aliviar
+    el estado de alarma"
 
--   80: sur Hail
+-   80: en granizo
 
--   255 : permet de resetter la configuration d'usine
+-   255 : permite restablecer la configuración de fábrica
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède deux groupes d'association. Le premier "Lifeline" est
+Este módulo tiene dos grupos de asociación.. El primer "Lifeline" es
 indispensable.
 
- \
+\
 
 ![Groupe](images/aeotec.garagedoorcontroller/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
-Calibration du temps d'ouverture de la porte de garage:
+Calibración del tiempo de apertura de la puerta del garaje:
 
--   1 : La porte de garage doit être entièrement fermée.
+-   1 : La puerta del garaje debe estar completamente cerrada..
 
--   2 : Activer le parametre 34 sur "Do calibration".
+-   2 : Active el parámetro 34 en "Realizar calibración".
 
--   3 : Lancer l'ouverture de la porte
+-   3 : Comience la apertura de la puerta
 
--   4 : Attendre que la porte soit completement ouverte.
+-   4 : Espere hasta que la puerta esté completamente abierta..
 
--   5 : Lancer la fermeture de la porte
+-   5 : Comienza a cerrar la puerta
 
-La calibration est complétée
+La calibración se ha completado
 
--   Le paramètre 34 sera actualisé sur "Normal".
+-   El parámetro 34 se actualizará a "Normal".
 
--   Le paramètre 35 sera mis ajour avec le temps d'ouverture calculé.
+-   El parámetro 35 se actualizará con el tiempo de apertura calculado.
 
- \
+\
 
-Remise à zéro du sabotage:
+Reinicio de sabotaje:
 
--   1 : Le capteur doit être convenablement fixé.
+-   1 : El sensor debe estar conectado correctamente.
 
--   2 : Activer le paramètre 41 sur "Relieve the alarm state".
+-   2 : Active el parámetro 41 en "Libere el estado de alarma".
 
 -   3 : Actualizar configuraciones.
 
-La calibration est complétée
+La calibración se ha completado
 
--   Le parametre 41 sera mis ajour avec "Sensor is not removed".
+-   El parámetro 41 se actualizará con "El sensor no se elimina".
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
- \
+\
 
 **@nechry**

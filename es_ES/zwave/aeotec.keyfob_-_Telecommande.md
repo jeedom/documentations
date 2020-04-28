@@ -1,283 +1,283 @@
-Aeotec Keyfob 
+ 
 =============
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/aeotec.keyfob/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/aeotec.keyfob/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-La télécommande porte-clés Aeon Labs au design moderne et agréable
-dispose de 4 boutons permettant de contrôler tout type de dispositifs
-Z-Wave tels que des lampes, stores, etc…​
 
-Avec ses dimensions très réduites, vous pourrez facilement la mettre
-dans votre poche. Facile à utiliser et élégante, elle est équipée d'un
-anneau permettant de l'attacher à des clés, ce qui la rend disponible au
-moment de quitter la maison ou lors du retour à votre domicile.
 
-Chaque bouton permet de contrôler deux dispositifs ou scènes grâce à la
-gestion des appuis courts et longs. Cette télécommande peut être aussi
-bien utilisée comme contrôleur principal que secondaire.
 
- \
+
+Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
+en tu bolsillo. Fácil de usar y elegante, está equipado con un
+anillo para adjuntarlo a las teclas, lo que lo hace disponible para
+al salir de casa o al regresar a casa.
+
+
+gestión de prensas cortas y largas. Este control remoto también puede ser
+bien utilizado como controlador primario como secundario.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Télécommande porte-clés
+-   
 
--   Contrôleur principal ou secondaire
+-   
 
--   Ultra compacte et ultra design
+-   
 
--   4 boutons configurables
+-   
 
--   Gère jusqu'à 8 périphériques/scènes
+-   
 
--   Volet de protection coulissant
+-   
 
--   Facilité d'utilisation et d'installation
+-   Facilidad de uso e instalación.
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave
+-   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 pile Lithium 3V CR2450
+-   Suministro : 
 
--   Durée de vie de la batterie : 1 año
+-    : 1 año
 
--   Fréquence: 868.42 MHz
+-   Frecuencia: 868.42 MHz
 
--   Distance de transmission : 100m en champ libre
+-   Distancia de transmisión : 
 
--   Température d'utilisation : -10°C à 50°C
+-    : -
 
--   Dimensions : 55 x 30 x 13mm (L x l x h)
+-   Dimensiones : 
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Aeotec
+-   Hacer : Aeotec
 
--   Nombre : Key Fob
+-   Nombre : 
 
--   Fabricant ID : 134
+-   ID del fabricante : 134
 
--   Type Produit : 1
+-   Tipo de producto : 1
 
--   Produit ID : 22
+-   ID del producto : 22
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> LEARN, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón
+> APRENDER, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/aeotec.keyfob/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées aux modules seront
+
 disponible.
 
- \
+\
 
 ![Comandos](images/aeotec.keyfob/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : es el comando que empujará el botón hacia arriba
 
-1 : Bouton 1 appui court
+1 : Botón 1 pulsación corta
 
-2 : Bouton 1 appui long
+2 : Botón 1 pulsación larga
 
-3 : Bouton 2 appuis courts
+3 : Botón 2 presiones cortas
 
-4 : Bouton 2 appuis longs
+4 : Botón 2 prensas largas
 
-5 : Bouton 3 appuis courts
+5 : Botón 3 pulsaciones cortas
 
-6 : Bouton 3 appuis longs
+6 : Botón 3 pulsaciones largas
 
-7 : Bouton 4 appuis courts
+7 : Botón 4 pulsaciones cortas
 
-8 : Bouton 4 appuis longs
+8 : Botón 4 prensas largas
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez éffectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
 
- \
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
+
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/aeotec.keyfob/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   250: mode de fonctionnement de la télécommande (absolument mettre
-    Scene pour s'en servir en télécommande)
+-   250: 
+    Escena para control remoto)
 
-Tous les autres paramètres ne sont utiles qu'en cas d'association direct
-entre la télécommande et des modules.
 
- \
+.
+
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède un seul et unique groupe d'association. El es
+. El es
 indispensable.
 
- \
+\
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
-Pour utiliser ce module en télécommande il faut procéder comme suit :
+ :
 
--   1 : Inclure la télécommande
+-   1 : 
 
--   2 : Réveiller la télécommande
+-   2 : 
 
--   3 : Changer le paramètre 250 à true (bien le faire même s'il
-    apparaît déjà à true)
+-   3 : 
+    
 
--   4 : Réveiller la télécommande et s'assurer que le changement à été
-    pris en compte
+-   4 : 
+    
 
--   5 : Changer le mode de focntionnement de la télécommande en restant
-    appuyer sur les deux boutons au dos pendant 3 secondes.
+-   5 : 
+    .
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   rester appuyé 3 secondes sur le bouton LEARN
+-   mantenga presionado el botón APRENDIZAJE durante 3 segundos
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en restant appuyé 3 secondes sur le bouton LEARN.
+Este módulo se activa presionando y manteniendo presionado el botón LEARN durante 3 segundos.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Este módulo es un módulo de batería, la nueva configuración no será
+tenga en cuenta que si despierta el control remoto.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

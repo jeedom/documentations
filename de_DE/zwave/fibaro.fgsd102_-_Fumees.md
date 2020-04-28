@@ -1,341 +1,341 @@
-Fibaro FGSD-002 "Smoke Sensor 2" 
+Fibaro FGSD-002 "Rauchsensor 2" 
 ================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
- \
+\.
 
--   **Le visuel jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Doté de lignes douces, d'une surface polie et d'une petite taille, ce
-détecteur de fumée vous permettra d'être alerté d'une menace avec des
-Leds RGB multicouleurs et une sirène intégrée. Le grand format de la
-grille permet de détecter la plus petite quantité de fumée afin
-d'obtenir une réaction rapide. Il trouvera ainsi très facilement sa
-place dans votre domicile pour préserver la sécurité de toute la
-famille.
+Mit weichen Linien, einer polierten Oberfläche und einer geringen Größe
+Mit dem Rauchmelder können Sie auf eine Bedrohung mit aufmerksam gemacht werden
+Mehrfarbige RGB-LEDs und eine integrierte Sirene. Das große Format der
+Gitter kann so die kleinste Rauchmenge erkennen
+schnell reagieren. Es wird also sehr leicht seine finden
+Platzieren Sie es in Ihrem Haus, um die Sicherheit des Ganzen zu gewährleisten
+Familie.
 
-Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur
-Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien
-qu'autonome, il est également communiquant grâce à la technologie Z-Wave
-Plus.
+Der Rauchmelder Fibaro FGSD-002 ist ein Alarmmelder
+Autonomer Rauch (DAAF) gemäß Norm EN 14604:2005. Gut
+So autonom kommuniziert es auch dank der Z-Wave-Technologie
+Mehr.
 
-Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de
-Fibaro ont décidé d'inclure une protection supplémentaire dans leur
-détecteur de fumée sous la forme d'un capteur de température. Wenn die
-quantité de fumée n'est pas suffisante pour déclencher l'alarme,
-l'appareil sera toujours en mesure de détecter une menace en détectant
-un changement rapide de la température causée par le feu. Un changement
-rapide de la température ou une augmentation jusqu'à 54°C est suffisant
-pour que le capteur de fumée détecte une menace et le signale aux
-habitants de la maison. Seul ce type de capteur de fumée offre une
-efficacité élevée, indépendamment de ce qui brûle.
+Einige Materialien brennen ohne zu rauchen. Deshalb die Ingenieure bei
+Fibaro hat beschlossen, zusätzlichen Schutz in ihre aufzunehmen
+Rauchmelder in Form eines Temperatursensors. Wenn die
+Nicht genug Rauch, um Alarm zu schlagen,
+Das Gerät kann weiterhin eine Bedrohung durch Erkennen erkennen
+eine schnelle Änderung der Temperatur durch Feuer verursacht. Eine Veränderung
+Ein schneller Temperaturanstieg oder -anstieg auf 54 ° C ist ausreichend
+damit der Rauchsensor eine Bedrohung erkennt und an meldet
+Bewohner des Hauses. Nur diese Art von Rauchsensor bietet
+hohe Effizienz, unabhängig davon, was brennt.
 
- \
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Détecteur de fumée Z-Wave
+-   Z-Wave Rauchmelder
 
--   Alimenté sur batterie
+-   Batteriebetrieben
 
--   Sensibilité du capteur réglable (3 niveaux)
+-   Einstellbare Sensorempfindlichkeit (3 Stufen)
 
--   Protection contre le sabotage
+-   Manipulationsschutz
 
--   Alarme signalée par le son, une lumière LED et un signal Z-Wave
+-   Alarm durch Ton, LED-Licht und Z-Wave-Signal
 
--   Détection d'incendie par mesure de la température de l'air
+-   Branderkennung durch Messung der Lufttemperatur
 
--   Test d'efficacité automatique, effectuée toutes les 5 secondes
+-   Automatischer Effizienztest, alle 5 Sekunden durchgeführt
 
--   Testeur de couverture du réseau Z-Wave intégré
+-   Integrierter Z-Wave-Netzabdeckungstester
 
--   Conforme avec la norme EN 14604:2005
+-   Entspricht der Norm EN 14604:2005
 
--   Compatible Z-Wave Plus
+-   Z-Wave Mehr kompatibel
 
--   Installation très simple - il suffit de l'installer dans un endroit
-    ou il y a un risque de feu
+-   Sehr einfache Installation - installieren Sie es einfach an einem Ort
+    oder es besteht Brandgefahr
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave Sender
 
--   Versorgung : Batterie Lithium 3V CR123A
+-   Versorgung : 3V CR123A Lithiumbatterie
 
--   Autonomie de la batterie : 3 Jahre
+-   Akkulaufzeit : 3 Jahre
 
--   Fréquence : 868,42 MHz
+-   Frequenz : 868,42 MHz
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Dimensions : 65 x 28 mm (diamètre x hauteur)
+-   Abmessungen : 65 x 28 mm (Durchmesser x Höhe)
 
--   Temperatur de fonctionnement : 0-55°C
+-   Betriebstemperatur : 0-55 ° C.
 
--   Humidité de fonctionnement : 0% - 93%
+-   Betriebsfeuchtigkeit : 0% - 93%
 
--   Gamme de mesure de la température : -20 à 100°C
+-   Temperaturmessbereich : -20 bis 100 ° C.
 
--   Sensibilité à la fumée : 1er niveau - 1,20 +/- 0,5% obs/m; 2e
-    niveau - 1,80 +/- 0,5% obs/m; 3e niveau - 2,80 +/- 0,5% obs/m
+-   Rauchempfindlichkeit : 1. Stufe - 1,20 +/- 0,5% obs / m; 2 ..
+    Niveau - 1,80 +/- 0,5% obs / m; 3. Stufe - 2,80 +/- 0,5% obs / m
 
--   Niveau sonore: 85 dB à 3m
+-   Geräuschpegel: 85 dB bei 3 m
 
--   Précision de la mesure : 0,5°C (dans une gamme de 0 à 55°C)
+-   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 55 ° C)
 
--   Normes : EMC 2004/108/EC et R&TTE 199/5/WE
+-   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
--   Certifications : EN 14604:2005
+-   Zertifizierungen : EN 14604:2005
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Fibar Group
+-   Machen Sie : Fibar Group
 
--   Name : Fibaro Smoke Sensor FGSD-002
+-   Name : Fibaro Rauchsensor FGSD-002
 
--   Fabricant ID : 271
+-   Hersteller ID : 271
 
--   Type Produit : 3074
+-   Produkttyp : 3074
 
--   Produit ID : 4098
+-   Produkt-ID : 4098
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton central d'inclusion, conformément à sa documentation papier.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
+> zentraler Einschlussknopf gemäß Papierdokumentation.
 
- \
+\.
 
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/fibaro.fgsd102/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Fumées : c'est la commande d'alerte du module (pour la fumée, la
-    chaleur …​)
+-   Rauch : Dies ist der Modul-Alarmbefehl (für Rauch,
+    Hitze…)
 
--   Temperatur : c'est la commande de mesure de la température
+-   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
-    du boitier
+-   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+    des Falles
 
--   Alerte Test : c'est la commande qui remontera le fait que le module
-    est en mode test
+-   Testalarm : Es ist der Befehl, der die Tatsache aufzeigt, dass das Modul
+    ist im Testmodus
 
--   Alerte Chaleur : c'est la commande qui remontera une alerte chaleur
-    (pas fiable encore)
+-   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst
+    (noch nicht zuverlässig)
 
--   Batterie : c'est la commande batterie
+-   Batterie : Es ist der Batteriebefehl
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite il est nécessaire d'effectuer la configuration du module en
-fonction de votre installation. Il faut pour cela passer par le bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann muss das Modul in konfiguriert werden
+abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   Wakeup : c'est l'intervalle de réveil du module (valeur
-    recommandée 21600)
+-   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
+    
 
--   1: permet de régler la sensibilité de la détection de fumée
+-   1: 
 
--   2: permet de choisir les notifications qui seront envoyées à Jeedom
-    (conseil : toutes)
+-   2: 
+     : 
 
--   3: permet de choisir quelles notifications seront accompagnées d'une
-    indication visuelle
+-   3: 
+    
 
--   4: permet de choisir quelles notifications seront accompagnées d'une
-    indication sonore (dans tous les cas les detections de chaleurs et
-    d'incendies feront sonner le module)
+-   4: 
+    
+    
 
--   10: ne pas changer ce paramètre sauf si vous savez ce que vous
+-   10: 
     tun
 
 -   11: idem
 
 -   12: idem
 
--   13: permet de notifier d'autres modules zwave (à désactiver sauf si
-    vous savez pourquoi vous l'activez)
+-   13: 
+    
 
--   20: durée entre deux rapports de températures
+-   20: 
 
--   21: différence de température à partir de laquelle, même si la durée
-    du dessus n'est pas atteinte, la température sera envoyée à Jeedom
+-   21: 
+    
 
--   30: température de déclenchement de l'alarme Chaleur
+-   30: 
 
--   31: intervalle de signalisation des pics de température
+-   31: 
 
--   32: intervalle de signal si perte de Zwave
+-   32: 
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit
-associé à minima aux groupes 1 4 et 5:
+. 
+:
 
- \
+\.
 
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![widget1](images/fibaro.fgsd102/widget1.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
- \
 
-F.A.Q. 
+\.
+
+Faq. 
 ------
 
- \
+\.
 
-Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
+.
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+beim nächsten Aufwachen berücksichtigt.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

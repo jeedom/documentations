@@ -1,186 +1,186 @@
-Fibaro FGRWPE-101 "Wall plug" 
+" 
 =============================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/fibaro.fgwpe101/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgwpe101/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Le Wall Plug Fibaro est un récepteur-Salida-transmetteur universel sous
-forme d\`un adaptateur à brancher sur une Salida murale au réseau
-électrique, compatible avec le standard Z-Wave. Il permet de gérer
-n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en
-intégrant la fonctionnalité de mesurer la puissance active du courant et
-la consommation d'énergie des dispositifs. Ce module est équipé d\`un
-anneau lumineux avec des LEDs signalant son état et la consommation
-d'énergie de tout dispositif branché. Le Wall Plug Fibaro peut être
-contrôlé par un bouton sur son carter ou bien depuis n'importe quel
-contrôleur compatible avec le standard Z-Wave
 
- \
+
+. 
+
+
+. 
+
+. 
+
+
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
+-   .
 
--   Contrôle à micro-chips.
+-   .
 
--   Élément d\`exécution: Relé.
+-   : Relé.
 
--   Mesure de puissance active du courant et de l\`énergie électrique
-    du récepteur.
+-   
+    .
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50Hz
+-   Suministro : 
 
--   Consommation électrique : jusqu'à 0.8W
+-   El consumo de energía : 
 
--   Charge maxi : 2.5kW
+-   Carga máxima : 
 
--   Fréquence : 868,42 Mhz EU
+-   Frecuencia : 
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 17 x 42 x 37 mm
+-   Dimensiones: 17 x 42 x 37 mm
 
--   Température de fonctionnement : 0-40°C
+-   Temperatura de funcionamiento : 0-40 ° C
 
--   Température limite : 105°C
+-   Temperatura límite : 105 ° C
 
--   Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
+-   Normas : 
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Nombre : Wall Plug FGWPE-101
+-   Nombre : 
 
--   Fabricant ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 1536
+-   Tipo de producto : 1536
 
--   Produit ID : 4096
+-   ID del producto : 4096
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/fibaro.fgwpe101/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/fibaro.fgwpe101/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : C'est la commande qui permet de connaître le statut de la
+-   Estado : Es el comando que permite conocer el estado de la
     Salida
 
--   Uno : C'est la commande qui permet d'allumer la Salida
+-   Uno : Este es el comando que enciende la salida
 
--   Apagado : C'est la commande qui permet d'éteindre la Salida
+-   Apagado : Es el comando que hace posible extinguir la captura.
 
--   Potencia : C'est la commande qui remonte la puissance instatanée
-    consommée
+-   Potencia : 
+    consumido
 
--   Conso : C'est la commande qui remonte la consommation totale
+-   El consumo : Es el orden que informa el consumo total.
 
- \
+\
 
-A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
-en un seul bouton.
+Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS están agrupados
+en un botón.
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -190,116 +190,116 @@ paramètres)
 
 ![Config4](images/fibaro.fgwpe101/config4.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1: permet de bloquer le module en toujours ON
+-   1: 
 
--   16: permet de se souvenir du dernier état en cas de coupure de
-    courant
+-   16: 
+    
 
--   34: permet de choisir a quel type d'alarme du réseau Zwave la Salida
-    doit réagir
+-   34: 
+    
 
--   35: permet de régler la façon dont la Salida réagira aux alarmes
+-   35: 
 
--   39: permet de définir la durée de l'alarme
+-   39: 
 
--   40: permet de définir de combien doit varier la puissance pour être
-    remontée (en %)
+-   40: 
+    
 
--   42: idem mais en mode standard (jusqu'à 5 fois par pas définis en
-    param 43)
+-   42: 
+    
 
--   43: intervalle de remontée de la puissance
+-   43: 
 
--   45: intervalle de remontée de la consommation (en kWh 10=0,1 kWh)
+-   45: 
 
--   47: intervalle en secondes de remontée des infos independamment
-    d'une variation
+-   47: 
+    
 
--   49: prendre en compte la consommation du module lui même dans les
+-   49: 
     Valores
 
--   50: valeur minimal utilisée par le param 52
+-   50: 
 
--   51: valeur maximale utilisée par le param 52
+-   51: 
 
--   52: action à faire si la puissance sort des bornes définies aux
-    paramètres 50 et 51
+-   52: 
+    
 
--   60: puissance au dela de laquelle la Salida clignotera en violet
+-   60: 
 
--   61: couleur quand la Salida est allumée
+-   61: 
 
--   62: couleur quand la Salida est éteinte
+-   62: 
 
--   63: couleur lorsqu'une alarme Zwave est détectée
+-   63: 
 
--   70: puissance de sécurité (la Salida se coupera lorsque la puissance
-    atteindra ce seuil)
+-   70: 
+    
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède 3 groupes d'association, seul le troisième est
+Este módulo tiene 3 grupos de asociación, solo el tercero es
 indispensable.
 
- \
+\
 
 ![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
 ### Restablecer 
 
- \
+\
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
 
- \
+\
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système. Il faut choisir
+Puede restablecer su medidor de consumo haciendo clic en
+en este botón disponible en la pestaña Sistema. Hay que elegir
 PressButton.
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![vuewidget](images/fibaro.fgwpe101/vuewidget.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pas de notion de wakeup sur ce module.
+No hay noción de activación en este módulo.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Lire la section Restablecer de cette doc.
+Lea la sección Restablecer de este documento.
 
- \
+\
 
 **@sarakha63**

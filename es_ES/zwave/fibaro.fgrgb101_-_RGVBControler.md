@@ -1,274 +1,274 @@
-Fibaro RGVB Controler - FGRGB-101 
+Controlador Fibaro RGVB - FGRGB-101 
 =================================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
- \
+\
 
 Resumen 
 ------
 
-Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander
-des éclairages basse tension 12/24V (halogène ou LED), un ruban LED RVB
-ou RVB+blanc ou bien encore de relier des sondes analogiques utilisant
-la norme 0-10V.
+El micromódulo Z-Wave Fibaro FGRGB-101 le permite elegir entre
+Luces de bajo voltaje de 12 / 24V (halógeno o LED), una tira de LED RGB
+o RGB + blanco o incluso para conectar sondas analógicas usando
+0-10 V estándar.
 
--   4 entrées analogiques 0 à 10V à connecter à de nombreux capteurs
-    compatibles, des potentiomètres, des boutons-poussoirs (monostables)
-    ou des commutateurs (bistables).
+-   4 entradas analógicas de 0 a 10 V para conectar a muchos sensores
+    compatible, potenciómetros, pulsadores (monoestable)
+    o interruptores (biestables).
 
--   4 sorties variateur (PWM) pour contrôler :
+-   4 salidas de dimmer (PWM) para controlar :
 
--   \* soit 1 canal de LED RVB + Blanc (RGBW) 12/24V
+-   \ * es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 
--   \* ou 4 canaux de LED blanches 12/24V
+-   \ * o 4 canales de LED blancos 12 / 24V
 
--   \* ou 4 canaux de lampes halogènes 12/24V (144W 12V / 288W 24V max.)
+-   \ * o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
 
--   \* ou des ventilateurs 12 / 24V.
+-   \ * o ventiladores 12 / 24V.
 
--   Nécessite une alimentation 12/24V séparée.
+-   Requiere fuente de alimentación separada de 12 / 24V.
 
--   Mesure de consommation globale ou par canal instantanée ou cumulée.
+-   Medida de consumo global o instantánea o acumulativa.
 
--   Fonction répéteur (routeur) pour étendre le réseau Z-Wave.
+-   Función de repetidor (enrutador) para extender la red Z-Wave.
 
- \
+\
 
 Funciones 
 ---------
 
--   Commander des éclairages basse tension 12/24V (halogène ou LED)
+-   Ordene luces de bajo voltaje 12 / 24V (halógeno o LED)
 
--   S'installe derrière un interrupteur existant
+-   Se instala detrás de un interruptor existente
 
--   Simulation lumineuse précédemment programmée
+-   Simulación de luz previamente programada
 
--   Fonction ON/OFF et Variation
+-   ON / OFF y función de variación
 
--   Petit, discret et esthétique
+-   Pequeño, discreto y estético.
 
--   Facilité d'utilisation et d'installation
+-   Facilidad de uso e instalación.
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
--   Suministro : 12 V ou 24 V continu
+-   Suministro : 12 V o 24 V CC
 
--   Puissance maximale de sortie :
+-   Máxima potencia de salida :
 
--   \* 12A au total (addition de l'ensemble des canaux),
+-   \ * 12A en total (suma de todos los canales),
 
--   \* 6A max. par canal
+-   \ * 6A máx.. por canal
 
--   Puissance maximale avec lampes halogènes :
+-   Máxima potencia con lámparas halógenas. :
 
--   \* 12V - 144W total (tous canaux),
+-   \ * 12V - 144W en total (todos los canales),
 
--   \* 24V - 288W total (tous canaux)
+-   
 
--   Fréquence de modulation PWM : 244 Hz
+-    : 
 
--   El consumo : 0,3W
+-   El consumo : 
 
--   Protocole radio : Z-Wave à 868,4 MHz (EU)
+-   Protocolo de radio : 
 
--   Puissance d'émission Z-Wave : 1mW
+-    : 1mW
 
--   Température de fonctionnement : 0 - 40 C
+-   Temperatura de funcionamiento : 
 
--   Pour installation dans des boites : Ø≥50 mm
+-    : 
 
--   Dimensions : 42 x 37 x 17 mm
+-   Dimensiones : 
 
--   Normes Européenes : EMC 2004/108/EC R&TTE 199/5/WE
+-    : 
 
--   Ce module nécessite un contrôleur Z-Wave pour fonctionner.
+-   .
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRGB-101 RGBW
+-   Nombre : 
 
--   Fabricant ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 2304
+-   Tipo de producto : 2304
 
--   Produit ID : 4096
+-   ID del producto : 4096
 
- \
+\
 
 Configuración 
 -------------
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
- \
+\
 
 ### Comandos 
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/fibaro.fgrgb101/commande_1.png)
 
 ![Comandos](images/fibaro.fgrgb101/commande_2.png)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
--   Color : C'est la commande qui permet de régler le code couleur à
+-   Color : 
     Mostrar
 
--   Cheminée : C'est la commande qui permet de simuler une ambiance de
-    cheminée
+-    : 
+    
 
--   Orage : C'est la commande qui permet de simuler une ambiance d'Orage
+-    : 
 
--   Aube : C'est la commande qui permet de simuler une ambiance d'aude
-    (levée progressive du soleil)
+-    : 
+    
 
--   Fading : C'est la commande qui permet de simuler l'ensemble du
-    spectre de couleur
+-    : 
+    
 
--   RBB : C'est la commande qui permet de simuler une ambiance de flic
+-    : 
 
--   Blanc Froid : C'est la commande qui permet de simuler d'avoir une
-    couleur type blanc froid, si le bandeau de couleur le permet. (cette
-    commande est non visible par défaut)
+-    : 
+    
+    
 
--   Blanc Chaud : C'est la commande qui permet de simuler d'avoir une
-    couleur type blanc chaud, si le bandeau de couleur le permet. (cette
-    commande est non visible par défaut)
+-    : 
+    
+    
 
--   Uno : C'est la commande qui permet d'allumer le bandeau sur la
-    dernière couleur choisit auparavant
+-   Uno : 
+    
 
--   Apagado : C'est la commande qui permet d'éteindre le bandeau
+-   Apagado : 
 
--   Intensité : C'est la commande qui permet de régler l'intensité
-    lumineuse
+-   Intensidad : 
+    
 
-A noter que sur le dashboard toutes les infos se retrouvent sur le même
+Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 Icono
 
- \
+\
 
 ### Configuracion del modulo 
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuración" du
-plugin OpenZwave de Jeedom.
+Puede configurar el módulo de acuerdo con su
+instalación Esto requiere pasar por el botón "Configuración" del
+Complemento Jeedom OpenZwave.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
-Merci de vous rapporter à la capture d'écran précédente, les paramètres
-étant traduit en francais.
 
- \
+.
+
+\
 
 ### Grupos 
 
-Ce module possède cinq groupes d'association, seul le cinquième est
+
 indispensable.
 
- \
+\
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
-Bon à savoir 
+Bueno saber 
 ------------
 
-### Spécificités 
+### Específicos 
 
-Utilisation des capteurs 0-10V.
+.
 
- \
+\
 
 > **Depositar**
 >
-> Pour l'instant, la configuration par défaut de jeedom ne le permet
-> pas, mais une configuration spécifique peut être envisagée.
+> 
+> .
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
-![Visuel alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
+![Visual alternativo](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
-Pas de notion de wakeup sur ce module.
+No hay noción de activación en este módulo.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
-Pour l'instant, la configuration par défaut de jeedom ne le permet pas,
-mais une configuration spécifique peut être envisagée.
+,
+.
 
- \
+\
 

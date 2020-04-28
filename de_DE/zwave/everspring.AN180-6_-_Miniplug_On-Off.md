@@ -1,253 +1,253 @@
-Everspring Miniplug Ein/Aus - AN180-6 
+Everspring Miniplug Ein / Aus - AN180-6 
 ====================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/everspring.AN180-6/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/everspring.AN180-6/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-La Mini Prise Ein/Aus est conçue pour contrôler l'allumage et
-l'extinction des luminaires et des équipements électriques de votre
-maison. Avec une tension de 220 - 240 V, cette Prise peut supporter une
-charge jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur,
-fluorescent, Led).
+Der Mini-Ein / Aus-Stecker dient zur Steuerung der Zündung und
+Ausschalten der Lichter und elektrischen Geräte Ihres
+Haus. Mit einer Spannung von 220 - 240 V kann dieser Stecker a
+Last bis 1500 W (Widerstand), 800 W (Glühlampe), 200 W (Motor),
+fluoreszierend, LED).
 
-La Mini Prise Ein/Aus est un appareil compatible Z-Wave™ qui est destiné
-pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
-être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
-contrôleur Z-Wave de votre réseau.
+Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät
+für die Arbeit mit allen Z-Wave ™ -kompatiblen Netzwerken. Sie kann
+von einer Fernbedienung, einer PC-Software oder einer anderen gesteuert werden
+Z-Wave-Controller für Ihr Netzwerk.
 
- \
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Commander une lampe ou un appareil à distance
+-   Steuern Sie eine Lampe oder ein Gerät fern
 
--   Module prise s'intégrant directement entre une prise électrique et
-    la charge à commander
+-   Steckermodul direkt zwischen Steckdose und integriert
+    die Ladung auf Bestellung
 
--   Fonction ON / OFF pour piloter des lampes ou des appareils (pas
-    de variation)
+-   EIN / AUS-Funktion zur Steuerung von Lampen oder Geräten (nicht
+    Variation)
 
--   Contrôle de la charge en local via le bouton intégré
+-   Lokale Ladesteuerung über integrierte Taste
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus-Technologie
 
--   Dimensions réduites pour passer presque inaperçu
+-   Reduzierte Abmessungen bleiben fast unbemerkt
 
--   LED de statut sur le bouton intégré
+-   Status-LED an der integrierten Taste
 
--   Fonction répéteur Z-Wave
+-   Z-Wave-Repeater-Funktion
 
- \
+\.
 
-Caractéristiques Techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave Empfänger
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0.6W
+-   Verbrauch : 0,6 W.
 
--   Puissance maximum : Charge résistive : 1500W, Ampoule à incandesence
-    : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) :
-    200W
+-   Maximale Leistung : Widerstandslast : 
+    :  :  :
+    
 
--   Fréquence : 868,42 Mhz
+-   Frequenz : 868,42 MHz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED sur le bouton
+-   Anzeigen: LED auf der Taste
 
--   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Everspring
+-   Machen Sie : Everspring
 
--   Name : Miniplug Ein/Aus
+-   Name : 
 
--   Fabricant ID : 96
+-   Hersteller ID : 96
 
--   Type Produit : 4
+-   Produkttyp : 4
 
--   Produit ID : 7
+-   Produkt-ID : 7
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
+> Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
+> Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
+> gehört zu keinem Netzwerk und wird mit Strom versorgt
 
- \
+\.
 
 ![inclusion](images/everspring.AN180-6/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées aux modules seront
+Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/everspring.AN180-6/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Zustand : C'est la commande qui permet de connaitre le statut de la
-    prise (Allumée/éteinte)
+-   Zustand : Es ist der Befehl, mit dem der Status des
+    
 
--   Ein : C'est la commande qui permet d'allumer la prise
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : C'est la commande qui permet d'éteindre la prise
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
- \
+\.
 
-A noter que sur le dashboard, les infos Zustand, ON/OFF se retrouvent sur
-la même icône.
 
- \
+.
+
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
-plugin OpenZwave de Jeedom.
+Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Jeedom OpenZwave Plugin.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+    empfohlen, diesen Wert zu ändern.
 
--   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
+    Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Ce paramètre permet de définir si la prise reprendra son statut
-    (ON ou OFF) après une reprise de courant.
+-   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
+    (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 2 groupes d'association.
+Dieses Modul hat 2 Zuordnungsgruppen.
 
- \
+\.
 
 ![Groupe](images/everspring.AN180-6/groupe.jpg)
 
- \
+\.
 
 > **Wichtig**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Jeedom sollte mindestens in Gruppe 1 landen
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
+    Sekunden. \.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pas de notion de wakeup sur ce module.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
+Sekunden.
 
- \
+\.
 
 **@sarakha63**

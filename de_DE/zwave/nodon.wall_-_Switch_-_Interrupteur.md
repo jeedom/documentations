@@ -1,295 +1,295 @@
-Nodon Interrupteur - Wall Switch 
+ Switch - Wandschalter 
 ================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/nodon.wallswitch/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-L'interrupteur mural NodOn® peut contrôler directement n'importe quel
-appareil compatible Z-Wave® ou Z-Wave Plus® tel que la prise
-intelligente NodOn® ou encore déclencher des scènes via une centrale
-domotique compatible.
+Der NodOn® Wandschalter kann jeden direkt steuern
+Z-Wave®- oder Z-Wave Plus®-kompatibles Gerät wie Stecker
+NodOn® Smart oder Triggerszenen über eine Zentrale
+kompatible Hausautomation.
 
-L'interrupteur possède une platine de fixation pour le monter facilement
-dans la maison: en utilisant les vis d'un pot d'encastrement, en le
-vissant au mur, ou tout simplement en le collant via les adhésifs
-double-face présents au dos de la platine.
+Der Schalter verfügt über eine Montageplatte zur einfachen Montage
+im Haus: mit den Schrauben eines vertieften Topfes von
+an die Wand schrauben oder einfach mit Klebstoff kleben
+doppelseitig auf der Rückseite der Platte.
 
- \
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Contrôle seul ou avec une centrale domotique
+-   Steuerung allein oder mit einem Hausautomationssystem
 
--   Facile à monter et démonter
+-   Einfach zu montieren und zu demontieren
 
--   Sensation d'appui agréable
+-   Angenehmes Gefühl der Unterstützung
 
--   Sans Fil
+-   Drahtlos
 
--   2 ans de batterie
+-   2 Jahre Batterie
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Versorgung : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
--   4 boutons
+-   4 Tasten
 
--   Montage mural par adhésif double face (inclus) ou vis (non incluses)
+-   Wandmontage mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten)
 
--   Température de fonctionnement : 0°C à 40°C
+-   Betriebstemperatur : 0 ° C bis 40 ° C.
 
 -   Höhe : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
+-   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.06
 
--   Portée : 40m en intérieur / 70m en extérieur
+-   Geltungsbereich : 40 m drinnen / 70 m draußen
 
--   Dimensions : 80\*80\*15mm
+-   Abmessungen : 80 \ * 80 \ * 15mm
 
--   Garantie 2 ans
+-   2 Jahre Garantie
 
--   EN 60950-1:2006 +A11:2009 + A1:2010 + A12:2011 + A2:2013
+-   EN 60950-1:::::2013
 
--   EN 300 220-2 V2.4.1
+-   
 
--   EN301 489-1 V1.9.2
+-   
 
--   EN301 489-3 V1.6.1
+-   
 
--   EN 62479:2010
+-   :2010
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Nodon
+-   Machen Sie : 
 
--   Name : CWS-3-1-01 Wall Switch
+-   Name : 
 
--   Fabricant ID : 357
+-   Hersteller ID : 357
 
--   Type Produit : 2
+-   Produkttyp : 2
 
--   Produit ID : 3
+-   Produkt-ID : 3
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
-> le bouton 1, conformément à sa documentation papier.
+> 
+> 
+> .
 
- \
+\.
 
 ![inclusion](images/nodon.wallswitch/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées aux modules seront
+Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/nodon.wallswitch/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Tasten : c'est la commande qui remontera le bouton appuyé
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-+----------------+----------------+----------------+----------------+----------------+
-| Tasten        | Appui          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
-+================+================+================+================+================+
+
+| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
+
 | **1**          | 10             | 12             | 11             | 13             |
-+----------------+----------------+----------------+----------------+----------------+
-| **2**          | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
-| **3**          | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
-| **4**          | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
 
- \
+| **2**          | 20             | 22             | 21             | 23             |
+
+| **3**          | 30             | 32             | 31             | 33             |
+
+| **4**          | 40             | 42             | 41             | 43             |
+
+
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/nodon.wallswitch/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1-2 : Permet de choisir le profil des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-    : 
+    
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : 
+    
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-    : 
+    
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : 
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 7 groupes d'association.
+.
 
- \
+\.
 
 ![Groupe](images/nodon.wallswitch/groupe.jpg)
 
 ![Groupe](images/nodon.wallswitch/groupe2.jpg)
 
- \
+\.
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
+    Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
+    des Netzwerks.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   
+    
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil DUO
+-   
+    
 
- \
+\.
 
 > **Wichtig**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Jeedom sollte mindestens in Gruppe 1 landen
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion. Et bien vérifier le
-    groupe d'association.
+-   . 
+    . 
+    .
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il suffit d'appuyer sur un de ces boutons
 
- \
 
-F.A.Q. 
+\.
+
+Faq. 
 ------
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
+Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

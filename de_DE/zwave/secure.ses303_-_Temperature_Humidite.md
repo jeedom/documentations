@@ -1,282 +1,282 @@
-Secure SES 303 "Temperatur/Luftfeuchtigkeit" 
+SES 303 "Temperatur / Luftfeuchtigkeit sichern" 
 =====================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/secure.ses303/module.jpg)
 
- \
+\.
 
--   **Le visuel jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/secure.ses303/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-La sonde SES303 permet la mesure de la température d'ambiance intérieure
-ainsi que l'humidité. Elle est alimentée par 2 piles AA et est certifiée
-Z-Wave Plus. En plus de sa fonction principale, il est possible de
-câbler différentes sondes externes SECURE sur le module, soit:
+Die Sonde SES303 ermöglicht die Messung der Umgebungstemperatur in Innenräumen
+sowie Luftfeuchtigkeit. Es wird mit 2 AA-Batterien betrieben und ist zertifiziert
+Z-Wave Plus. Zusätzlich zu seiner Hauptfunktion ist es möglich
+Verdrahten Sie verschiedene externe SICHERE Sonden mit dem Modul, d.h.:
 
--   Une sonde de température externe NTC (SES001)
+-   Ein externer NTC-Temperatursensor (SES001)
 
--   4 capteurs de température filaires pour tuyau ou réservoir (SES002)
-    reliés par des câbles de 1m
+-   4 verdrahtete Temperatursensoren für Schlauch oder Tank (SES002)
+    durch 1m Kabel verbunden
 
--   1 capteur de température filaire pour tuyau ou réservoir (SES003)
-    relié par un câble de 4m
+-   1 verdrahteter Temperatursensor für Schlauch oder Tank (SES003)
+    durch ein 4m Kabel verbunden
 
-Ces modules sont parfaits pour la mesure de température dans des
-applications de contrôles de chauffage central ou toute autre
-application similaire. Son interface utilisateur est simple, avec un
-bouton-poussoir local et une LED d'indication sur la face arrière. On
-peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
+Diese Module sind ideal für die Temperaturmessung in
+Zentralheizungssteuerungsanwendungen oder andere
+ähnliche Anwendung. Die Benutzeroberfläche ist einfach, mit einem
+lokaler Druckknopf und eine Anzeige-LED auf der Rückseite. Wir
+kann es leicht in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
- \
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Mesure précise de la température et de l'humidité
+-   Präzise Messung von Temperatur und Luftfeuchtigkeit
 
--   Application dans des systèmes de contrôle dynamique de
-    réservoirs/tubes/planchers chauffants/…​
+-   Anwendung in dynamischen Steuerungssystemen
+    Tanks / Rohre / Fußbodenheizung /…
 
--   Possibilité de brancher des sonde externes
+-   Möglichkeit, externe Sensoren anzuschließen
 
--   Interropérable avec les produits et systèmes Z-Wave certifiés
+-   Interoperabel mit Z-Wave-zertifizierten Produkten und Systemen
 
--   Installation facile et rapide
+-   Schnelle und einfache Installation
 
--   Rapport de batterie faible
+-   Bericht über niedrigen Batteriestand
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Typ: Portable/fixation murale
+-   Typ: Tragbar / Wandhalterung
 
--   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
+-   Temperaturmessbereich: ± 0.5 ° C für 0 ° C bis 40 ° C.
 
--   Puce Z-Wave Plus
+-   Z-Wave Plus Chip
 
--   Fréquence : 868,42 Mhz
+-   Frequenz : 868,42 MHz
 
--   Versorgung: 2x piles AA (LR6)
+-   Versorgung: 2x AA-Batterien (LR6)
 
--   Portée : jusqu'à 100 m en champ libre
+-   Geltungsbereich : bis zu 100 m im freien Feld
 
--   Indice de protection : IP30
+-   Schutzindex : IP30
 
--   Dimensions : 86 x 85 x 30 mm
+-   Abmessungen : 86 x 85 x 30 mm
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Horstmann
+-   Machen Sie : Horstmann
 
--   Name : SES 303 Temperature and Humidity Sensor
+-   Name : SES 303 Temperatur- und Feuchtigkeitssensor
 
--   Fabricant ID : 89
+-   Hersteller ID : 89
 
--   Typ Produit : 13
+-   Produkttyp : 13
 
--   Produit ID : 3
+-   Produkt-ID : 3
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur
-> le bouton au dos et relacher, conformément à sa documentation papier.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie 1 Sekunde auf
+> Drücken Sie den Knopf auf der Rückseite und lassen Sie ihn gemäß der Papierdokumentation los.
 
- \
+\.
 
 ![inclusion](images/secure.ses303/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/secure.ses303/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/secure.ses303/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Temperatur : c'est la commande de mesure de la température
+-   Temperatur : Es ist der Temperaturmessbefehl
 
--   Luftfeuchtigkeit : c'est la commande de mesure de l'humidité
+-   Luftfeuchtigkeit : Es ist die Feuchtigkeitsmessung
 
--   Batterie : c'est la commande batterie
+-   Batterie : Es ist der Batteriebefehl
 
-Plusieurs températures nons visibles sont aussi verfügbar et seront
-utiles si vous avez raccordé des sondes externes
+Einige nicht sichtbare Temperaturen sind ebenfalls verfügbar und werden es auch sein
+nützlich, wenn Sie externe Sonden angeschlossen haben
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite il est nécessaire d'effectuer la configuration du module en
-fonction de votre installation. Il faut pour cela passer par le bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann muss das Modul in konfiguriert werden
+abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/secure.ses303/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1: Permet de régler de combien doit varier la température pour que
-    le module l'envoie à Jeedom (par pas de 0.1)
+-   1: Stellt ein, um wie viel die Temperatur variieren muss
+    Das Modul sendet es an Jeedom (in Schritten von 0,1).
 
--   2: Permet de régler l'intervalle de temps d'envoi de la température
-    à Jeedom (en minutes)
+-   2: Hier können Sie das Zeitintervall für das Senden der Temperatur einstellen
+    in Jeedom (in Minuten)
 
--   3: Permet de régler de combien doit varier l'humidité pour que le
-    module l'envoie à Jeedom (par %)
+-   3: Stellt ein, wie stark die Luftfeuchtigkeit variieren muss, damit die
+    Modul sendet es an Jeedom (um%)
 
--   4: Permet de régler l'intervalle de temps d'envoi de l'humidité à
-    Jeedom (en minutes)
+-   4: Legt das Zeitintervall für das Senden von Feuchtigkeit an fest
+    Jeedom (in Minuten)
 
-Tous les autres paramètres sont identiques et correspondent à toutes les
-sondes externes éventuellement branchées
+Alle anderen Parameter sind identisch und entsprechen allen
+externe Sonden möglicherweise angeschlossen
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède un seul groupe d'association, il est indispensable
+Dieses Modul hat nur eine Zuordnungsgruppe, es ist wichtig
 
- \
+\.
 
 ![Groupe](images/secure.ses303/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![widget1](images/secure.ses303/widget1.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il faut appuyer 1 fois sur le bouton au dos
+Um dieses Modul zu aktivieren, drücken Sie einmal die Taste auf der Rückseite
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Ce module se réveille en appuyant 1 fois sur son bouton d'inclusion.
+Dieses Modul wird durch einmaliges Drücken der Einschlusstaste aktiviert.
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wake up.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+beim nächsten Aufwachen berücksichtigt.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wake up, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufwachens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

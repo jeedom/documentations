@@ -1,300 +1,300 @@
-Philio Smart Color Button 
+ 
 =========================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![Modul](images/philio.psr04/Modul.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Cet interrupteur au design unique propose plusieurs fonctions. Vous
-pourrez l'utiliser pour allumer, éteindre ou varier l'éclairage, ajuster
-la position de vos volets, régler la température du thermostat ou
-l'utiliser comme une minuterie.
 
-Une fois inclus dans votre réseau Z-Wave, l'interrupteur PSR04 de Philio
-devra être associé au(x) périphérique(s) que vous souhaitez contrôler.
-Il peut fonctionner uniquement par association directe avec des
-périphériques, et ne peut lancer de scènes créées dans votre contrôleur
-domotique Z-Wave.
 
-Utilisé comme un variateur, il a le même comportement qu'un variateur
-traditionnel. Tournez le bouton vers la droite pour augmentez la
-lumière, et vers la gauche pour la diminuer.
 
-De plus, vous pouvez facilement déplacer et positionner cet interrupteur
-à l'endroit de votre choix grâce à son support magnétique. Sa conception
-étanche permet de l'installer dans un endroit à forte humidité comme une
-salle de bains.
+.
 
-Il utilise la dernière puce Z-Wave série 500, offrant une augmentation
-de la portée radio de 50% et une vitesse de communication de 250% plus
-rapide par rapport aux précédents produits Z-Wave, ainsi qu'une plus
-faible consomation d'énergie permettant une plus grande autonomie.
 
- \
+.
+
+
+.
+
+
+
+.
+
+
+. 
+
+.
+
+
+50% Funkreichweite und 250% schnellere Kommunikationsgeschwindigkeit
+
+.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Interrupteur multifonctions
+-   
 
--   Technologie Z-Wave+
+-   
 
--   Fonction ON/OFF et variation (éclairage ou volets)
+-   
 
--   Fonction minuterie intégrée
+-   
 
--   Etanche
+-   
 
--   S'adapte à tout style de décoration
+-   
 
--   Batterie rechargeable
+-   
 
--   Très faible consommation d'énergie
+-   
 
--   Longue durée de vie de la batterie (6 mois par charge)
+-   
 
--   Unterstützung magnétique
+-   
 
--   LED d'indication RGBW
+-   
 
--   Facile à installer
+-   Einfach zu installieren
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Versorgung : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
-    la batterie : 6 mois pour 2h de charge
+-   Versorgung : .
+    die Batterie : 
 
--   Consommation en veille : 18µA
+-   Standby-Verbrauch : 
 
--   Consommation en fonctionnement : 45mA
+-    : 
 
--   Fréquence : 868.42 MHz
+-   Frequenz : 868.42 MHz
 
--   Distance de transmission : 100m en extérieur, 40m en intérieur
+-   Übertragungsentfernung : 
 
--   Dimensions :
+-   Abmessungen :
 
-Unterstützung : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) Unterstützung + Bouton : 71,16 x 17,22 mm (diamétre
-x épaisseur) \* Certifications :
+Unterstützung :  : 
+ : 
+ :
 
-EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
-FCC Part 15 B, FCC Part 15 C
 
- \
 
-Données du Modul 
+
+\.
+
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Philio
+-   Machen Sie : 
 
--   Name : PSR04 Smart Color Button
+-   Name : 
 
--   Fabricant ID : 316
+-   Hersteller ID : 316
 
--   Type Produit : 9
+-   Produkttyp : 9
 
--   Produit ID : 34
+-   Produkt-ID : 34
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce Modul en mode inclusion il faut le mettre en position
-> basse (inclusion) et appuyer sur le bouton, conformément à sa
-> documentation papier.
+> 
+> 
+> .
 
- \
+\.
 
 ![inclusion](images/philio.psr04/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le Modul reconnu, les commandes associées au Modul seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/philio.psr04/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Zustand : c'est la commande qui remontera la position du bouton de 0 à
-    100%
+-   Zustand : 
+    
 
--   Batterie : c'est la commande qui remonte l'état de batterie du
+-   Batterie : 
     Modul
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le Modul juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du Modul en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/philio.psr04/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1: définit la borne la plus basse (position complètement à gauche)
+-   1: 
 
--   2 : définit la borne la plus haute (position complètement à droite)
+-   2 : 
 
--   10 : intervalle de temps de remontée de batterie
+-   10 : 
 
--   25 : permet de définir si le Modul envoie sa positon
-    automatiquement après rotation (1s de délai) ou si il faut appuyer
-    sur le bouton pour valider l'envoi
+-   25 : 
+    
+    
 
--   26 : active l'envoi de scène ou non sur appui du bouton centrale
-    (paramètre non pris en compte dans Jeedom)
+-   26 : 
+    
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce Modul possède deux groupes d'association, le premier est le seul
-indispensable. Le deuxième permet de remonter la position à Jeedom
+Dieses Modul hat zwei Zuordnungsgruppen, die erste ist die einzige
 
- \
+
+\.
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
-Pour utiliser ce Modul en télécommande il faut procéder comme suit :
+Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
--   Rajouter le contrôleur dans le groupe 2
+-   
 
-En effet ce type de Modul n'est pas fait pour interagir directement
-avec une box mais directement avec d'autres Moduls. Cependant en
-rajoutant Jeedom au groupe 2, cela permet de recevoir la position du
-bouton et donc de s'en servir pour contrôller un scénario (régler un
-volume par exemple)
 
-Wakeup 
+. 
+
+
+
+
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce Modul il y a une seule et unique façon de procéder :
+Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   mettre le Modul en position basse et appuyer sur le bouton
+-   
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
- \
+\.
 
-Ce Modul est un Modul sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez le Modul.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
+.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le Modul : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

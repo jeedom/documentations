@@ -1,300 +1,300 @@
-Philio Smart Color Button 
+ 
 =========================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![Modulo](images/philio.psr04/Modulo.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Cet interrupteur au design unique propose plusieurs fonctions. Vous
-pourrez l'utiliser pour allumer, éteindre ou varier l'éclairage, ajuster
-la position de vos volets, régler la température du thermostat ou
-l'utiliser comme une minuterie.
 
-Une fois inclus dans votre réseau Z-Wave, l'interrupteur PSR04 de Philio
-devra être associé au(x) périphérique(s) que vous souhaitez contrôler.
-Il peut fonctionner uniquement par association directe avec des
-périphériques, et ne peut lancer de scènes créées dans votre contrôleur
-domotique Z-Wave.
 
-Utilisé comme un variateur, il a le même comportement qu'un variateur
-traditionnel. Tournez le bouton vers la droite pour augmentez la
-lumière, et vers la gauche pour la diminuer.
 
-De plus, vous pouvez facilement déplacer et positionner cet interrupteur
-à l'endroit de votre choix grâce à son support magnétique. Sa conception
-étanche permet de l'installer dans un endroit à forte humidité comme une
-salle de bains.
+.
 
-Il utilise la dernière puce Z-Wave série 500, offrant une augmentation
-de la portée radio de 50% et une vitesse de communication de 250% plus
-rapide par rapport aux précédents produits Z-Wave, ainsi qu'une plus
-faible consomation d'énergie permettant une plus grande autonomie.
 
- \
+.
+
+
+.
+
+
+
+.
+
+
+. 
+
+.
+
+
+
+
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Interrupteur multifonctions
+-   
 
--   Technologie Z-Wave+
+-   
 
--   Fonction ON/OFF et variation (éclairage ou volets)
+-   
 
--   Fonction minuterie intégrée
+-   
 
--   Etanche
+-   
 
--   S'adapte à tout style de décoration
+-   
 
--   Batería rechargeable
+-   
 
--   Très faible consommation d'énergie
+-   
 
--   Longue durée de vie de la batterie (6 mois par charge)
+-   
 
--   Apoyo magnétique
+-   
 
--   LED d'indication RGBW
+-   
 
--   Facile à installer
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Suministro : Batería Lithium Polymère 3.7V, 220mA vAutonomie de
-    la batterie : 6 mois pour 2h de charge
+-   Suministro : .
+     : 
 
--   Consommation en veille : 18µA
+-   Consumo en espera : 
 
--   Consommation en fonctionnement : 45mA
+-    : 
 
--   Fréquence : 868.42 MHz
+-   Frecuencia : 868.42 MHz
 
--   Distance de transmission : 100m en extérieur, 40m en intérieur
+-   Distancia de transmisión : 
 
--   Dimensions :
+-   Dimensiones :
 
-Apoyo : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89
-mm (diamétre x épaisseur) Apoyo + Bouton : 71,16 x 17,22 mm (diamétre
-x épaisseur) \* Certifications :
+Apoyo :  : 
+ : 
+ :
 
-EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
-FCC Part 15 B, FCC Part 15 C
 
- \
 
-Données du Modulo 
+
+\
+
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Philio
+-   Hacer : 
 
--   Nombre : PSR04 Smart Color Button
+-   Nombre : 
 
--   Fabricant ID : 316
+-   ID del fabricante : 316
 
--   Type Produit : 9
+-   Tipo de producto : 9
 
--   Produit ID : 34
+-   ID del producto : 34
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce Modulo en mode inclusion il faut le mettre en position
-> basse (inclusion) et appuyer sur le bouton, conformément à sa
-> documentation papier.
+> 
+> 
+> documentación en papel.
 
- \
+\
 
 ![inclusion](images/philio.psr04/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le Modulo reconnu, les commandes associées au Modulo seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/philio.psr04/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : c'est la commande qui remontera la position du bouton de 0 à
-    100%
+-   Estado : 
+    
 
--   Batería : c'est la commande qui remonte l'état de batterie du
+-   Batería : 
     Modulo
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le Modulo juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du Modulo en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/philio.psr04/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1: définit la borne la plus basse (position complètement à gauche)
+-   1: 
 
--   2 : définit la borne la plus haute (position complètement à droite)
+-   2 : 
 
--   10 : intervalle de temps de remontée de batterie
+-   10 : 
 
--   25 : permet de définir si le Modulo envoie sa positon
-    automatiquement après rotation (1s de délai) ou si il faut appuyer
-    sur le bouton pour valider l'envoi
+-   25 : 
+    
+    
 
--   26 : active l'envoi de scène ou non sur appui du bouton centrale
-    (paramètre non pris en compte dans Jeedom)
+-   26 : 
+    
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce Modulo possède deux groupes d'association, le premier est le seul
-indispensable. Le deuxième permet de remonter la position à Jeedom
 
- \
+
+
+\
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
-Pour utiliser ce Modulo en télécommande il faut procéder comme suit :
+ :
 
--   Rajouter le contrôleur dans le groupe 2
+-   
 
-En effet ce type de Modulo n'est pas fait pour interagir directement
-avec une box mais directement avec d'autres Modulos. Cependant en
-rajoutant Jeedom au groupe 2, cela permet de recevoir la position du
-bouton et donc de s'en servir pour contrôller un scénario (régler un
-volume par exemple)
 
-Wakeup 
+. 
+
+
+
+
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce Modulo il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   mettre le Modulo en position basse et appuyer sur le bouton
+-   
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
- \
+\
 
-Ce Modulo est un Modulo sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez le Modulo.
+Este módulo es un módulo de batería, la nueva configuración no será
+.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le Modulo : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

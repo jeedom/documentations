@@ -1,285 +1,285 @@
-Nodon Télécommande - Octan 
+Nodon Remote Control - Octan 
 ==========================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/nodon.octan/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-La Octan Remote NodOn® permet de contrôler n'importe quels récepteurs
-compatibles Z- Wave® ou Z-Wave Plus® tels que la prise télécommandée
-NodOn® (mode Contrôleur Principal - Standalone), ou encore déclencher
-des scènes / actions via une centrale domotique compatible (mode
+The Octan Remote NodOn® allows you to control any receiver
+Z-Wave® or Z-Wave Plus® compatible such as the remote control socket
+NodOn® (Main Controller mode - Standalone), or even trigger
+scenes / actions via a compatible home automation system (mode
 Gateway)
 
-Son aimant intégré permet de la fixer partout, du radiateur à la porte
-de réfrigérateur, en passant par son support mural. Entre télécommande
-et interrupteur, la Octan Remote révolutionne le contrôle des objets
-domestiques
+Its integrated magnet allows it to be fixed everywhere, from the radiator to the door
+refrigerator, through its wall support. Between remote control
+and switch, the Octan Remote revolutionizes object control
+domestic
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Contrôle seul ou avec une centrale domotique
+-   Control alone or with a home automation system
 
--   Aimant intégré
+-   Integrated magnet
 
--   Led de couleur
+-   Colored led
 
--   Platine Murale
+-   Wall plate
 
--   2 ans de batterie
+-   2 years of battery
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Food : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Food : CR2032 battery - Autonomy 1,5 - 2 years
 
--   4 boutons
+-   4 buttons
 
--   Support mural fixé par adhésif double face (inclus) ou vis
-    (non incluses)
+-   Wall support fixed by double-sided adhesive (included) or screws
+    (not included)
 
--   Aimant intégré pour fixation sur surface métallique
+-   Integrated magnet for fixing to metal surface
 
--   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
-    Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
+-   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
+    Plus® SDK 06.51.01 Scope: 40m indoor / 80m outdoor
 
--   Dimensions : 80\*80\*15mm
+-   Dimensions : 80 \ * 80 \ * 15mm
 
--   Garantie 2 ans
+-   2 years warranty
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Nodon
+-   Mark : Nodon
 
 -   Name : CRC-3-1-00 Octan Remote
 
--   Fabricant ID : 357
+-   Manufacturer ID : 357
 
--   Type Produit : 2
+-   Product Type : 2
 
--   Produit ID : 1
+-   Product ID : 1
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
-> le bouton 1, conformément à sa documentation papier.
+> To put this module in inclusion mode, press the two
+> button (1 and 2) until the light turns pink then press
+> button 1, according to its paper documentation.
 
- \
+\
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/nodon.octan/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : it is the command which will push the button up
 
-+----------------+----------------+----------------+----------------+----------------+
-| Buttons        | Appui          | Long press     | Relaxation    | Double support   |
-+================+================+================+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Buttons        | Support          | Long press     | Relaxation    | Double support   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2**          | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3**          | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4**          | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
 > **IMPORTANT**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> During a first inclusion always wake up the module just after
+> inclusion.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/nodon.octan/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1-2 : Permet de choisir le profils des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-   1-2 : Allows you to choose the button profiles when used in
+    central (not necessary for use in Jeedom)
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : IMPORTANT parameter to say if the switch should work
+    in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-   4-7 : Choose the button operating mode (in case
+    group associations)
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : Allows you to choose the operating mode of the LED
 
 ### Groups 
 
- \
+\
 
-Ce module possède 7 groupes d'association.
+This module has 7 association groups.
 
- \
+\
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
- \
+\
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Group 1 - Lifeline : This group is generally used for
+    transfer information from the Smart Plug to the main controller
+    of the network.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   Group 2 to 5 - The devices in these groups are controlled by the
+    corresponding button according to MONO profile
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil DUO
+-   Group 6 to 7 - The devices in these groups are controlled by the
+    corresponding button according to DUO profile
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion, et bien vérifier le
-    groupe d'association.
+-   This module can be finicky on inclusion. Do not hesitate to
+    wake up 1 or 2 times after inclusion, and check the
+    association group.
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pour réveiller ce module il suffit d'appuyer sur un des boutons
+To wake up this module, just press one of the buttons
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+This module is a battery module, the new configuration will not be
+take into account that if you wake up the remote control.
 
- \
+\
 
-Note importante 
+IMPORTANT note 
 ---------------
 
- \
+\
 
 > **IMPORTANT**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> You have to wake up the module : after its inclusion, after a change
+> of the configuration, after a change of wakeup, after a
+> change of association groups
 
- \
+\
 
 **@sarakha63**

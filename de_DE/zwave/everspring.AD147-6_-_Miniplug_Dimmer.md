@@ -1,257 +1,257 @@
-Everspring Miniplug Dimmer - AD147-6 
+ 
 ====================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/everspring.AD147-6/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/everspring.AD147-6/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-La Mini Prise Variateur est conçue pour contrôler l'allumage et
-l'extinction des luminaires et des équipements électriques de votre
-maison. Elle permet aussi une fonction de variateur qui est compatible
-uniquement avec les ampoules. Avec une tension de 220 - 240 V, cette
-Prise Variateur peut supporter une charge de 6 W à 250 W.
 
-La Mini Prise Variateur est un appareil compatible Z-Wave™ qui est
-destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle
-peut être contrôlée par une télécommande, un logiciel PC, ou n'importe
-quel contrôleur Z-Wave de votre réseau.
+Ausschalten der Lichter und elektrischen Geräte Ihres
 
- \
+. 
+.
+
+
+
+
+.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Commander une lampe à distance
+-   
 
--   Module Steckdose s'intégrant directement entre une Steckdose électrique et
-    la charge à commander
+-   Steckermodul direkt zwischen Steckdose und integriert
+    die Ladung auf Bestellung
 
--   Fonction ON / OFF et Variateur pour piloter des lampes
+-   EIN / AUS und Dimmerfunktion zur Steuerung der Lampen
 
--   Contrôle de la charge en local via le bouton intégré
+-   Lokale Ladesteuerung über integrierte Taste
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus-Technologie
 
--   Dimensions réduites pour passer presque inaperçue
+-   Reduzierte Abmessungen bleiben fast unbemerkt
 
--   LED de statut sur le bouton intégré
+-   Status-LED an der integrierten Taste
 
--   Fonction répéteur Z-Wave
+-   Z-Wave-Repeater-Funktion
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave Empfänger
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0.6W
+-   Verbrauch : 0,6 W.
 
--   Puissance maximum : Charge résistive : 250W, Ampoule à incandesence
-    : 250W, Ampoule Led (non dimmable) : 6W
+-   Maximale Leistung : Widerstandslast : 250W, Glühlampe
+    : 250W, LED-Lampe (nicht dimmbar) : 6W
 
--   Fréquence : 868,42 Mhz
+-   Frequenz : 868,42 MHz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED sur le bouton
+-   Anzeigen: LED auf der Taste
 
--   Dimensions : Longueur (Steckdose incluse) : 74mm Diamètre : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Everspring
+-   Machen Sie : Everspring
 
 -   Name : Miniplug Dimmer
 
--   Fabricant ID : 96
+-   Hersteller ID : 96
 
--   Type Produit : 3
+-   Produkttyp : 3
 
--   Produit ID : 3
+-   Produkt-ID : 3
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
+> Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
+> Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
+> gehört zu keinem Netzwerk und wird mit Strom versorgt
 
- \
+\.
 
 ![inclusion](images/everspring.AD147-6/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/everspring.AD147-6/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Intensité : C'est la commande permettant de régler l'intensité de la
+-   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
     Steckdose
 
--   Ein : C'est la commande qui permet d'allumer la Steckdose
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : C'est la commande qui permet d'éteindre la Steckdose
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Zustand : C'est la commande qui permet de connaitre le statut de la
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose
 
- \
+\.
 
-A noter que sur le dashboard, les infos Zustand, ON/OFF, Intensité se
-retrouvent sur la même icône.
+Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
+auf dem gleichen Symbol gefunden.
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
-plugin OpenZwave de Jeedom.
+Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Jeedom OpenZwave Plugin.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/everspring.AD147-6/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+    empfohlen, diesen Wert zu ändern.
 
--   2 : Ce paramètre définit le délai d'envoit du changement d'état au
-    groupe 1 (valeur comSteckdose entre 3 et 25 secondes)
+-   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
+    Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Ce paramètre permet de définir si la Steckdose reprendra son statut
-    (ON ou OFF) après une reSteckdose de courant.
+-   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
+    (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
--   4 : Ce paramètre permet de définir si la Steckdose fontionnera en mode
-    variation ou en mode on/off
+-   4 : Mit diesem Parameter können Sie festlegen, ob die Steckdose in Betrieb sein soll
+    Variation oder im Ein / Aus-Modus
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 2 groupes d'association.
+Dieses Modul hat 2 Zuordnungsgruppen.
 
- \
+\.
 
 ![Groupe](images/everspring.AD147-6/groupe.jpg)
 
- \
+\.
 
 > **Wichtig**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Jeedom sollte mindestens in Gruppe 1 landen
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
+    Sekunden. \.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pas de notion de wakeup sur ce module.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
+Sekunden.
 
- \
+\.
 
 **@sarakha63**

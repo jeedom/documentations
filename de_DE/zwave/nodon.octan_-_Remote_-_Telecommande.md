@@ -1,285 +1,285 @@
-Nodon Télécommande - Octan 
+ 
 ==========================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/nodon.octan/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-La Octan Remote NodOn® permet de contrôler n'importe quels récepteurs
-compatibles Z- Wave® ou Z-Wave Plus® tels que la prise télécommandée
-NodOn® (mode Contrôleur Principal - Standalone), ou encore déclencher
-des scènes / actions via une centrale domotique compatible (mode
-Gateway)
 
-Son aimant intégré permet de la fixer partout, du radiateur à la porte
-de réfrigérateur, en passant par son support mural. Entre télécommande
-et interrupteur, la Octan Remote révolutionne le contrôle des objets
-domestiques
 
- \
+
+
+
+
+
+. 
+
+
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Contrôle seul ou avec une centrale domotique
+-   Steuerung allein oder mit einem Hausautomationssystem
 
--   Aimant intégré
+-   
 
--   Led de couleur
+-   
 
--   Platine Murale
+-   
 
--   2 ans de batterie
+-   2 Jahre Batterie
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Versorgung : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
--   4 boutons
+-   4 Tasten
 
--   Support mural fixé par adhésif double face (inclus) ou vis
-    (non incluses)
+-   
+    
 
--   Aimant intégré pour fixation sur surface métallique
+-   
 
--   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+-   Betriebstemperatur :  : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
-    Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
+-   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
+    .: 
 
--   Dimensions : 80\*80\*15mm
+-   Abmessungen : 80 \ * 80 \ * 15mm
 
--   Garantie 2 ans
+-   2 Jahre Garantie
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Nodon
+-   Machen Sie : 
 
--   Name : CRC-3-1-00 Octan Remote
+-   Name : 
 
--   Fabricant ID : 357
+-   Hersteller ID : 357
 
--   Type Produit : 2
+-   Produkttyp : 2
 
--   Produit ID : 1
+-   Produkt-ID : 1
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
-> le bouton 1, conformément à sa documentation papier.
+> 
+> 
+> .
 
- \
+\.
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/nodon.octan/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Tasten : c'est la commande qui remontera le bouton appuyé
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-+----------------+----------------+----------------+----------------+----------------+
-| Tasten        | Appui          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
-+================+================+================+================+================+
+
+| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
+
 | **1**          | 10             | 12             | 11             | 13             |
-+----------------+----------------+----------------+----------------+----------------+
-| **2**          | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
-| **3**          | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
-| **4**          | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
 
- \
+| **2**          | 20             | 22             | 21             | 23             |
+
+| **3**          | 30             | 32             | 31             | 33             |
+
+| **4**          | 40             | 42             | 41             | 43             |
+
+
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/nodon.octan/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1-2 : Permet de choisir le profils des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-    : 
+    
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : 
+    
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-    : 
+    
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : 
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 7 groupes d'association.
+.
 
- \
+\.
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
- \
+\.
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
+    Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
+    des Netzwerks.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   
+    
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil DUO
+-   
+    
 
- \
+\.
 
 > **Wichtig**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Jeedom sollte mindestens in Gruppe 1 landen
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion, et bien vérifier le
-    groupe d'association.
+-   . 
+    
+    .
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il suffit d'appuyer sur un des boutons
 
- \
 
-F.A.Q. 
+\.
+
+Faq. 
 ------
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
+Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

@@ -1,226 +1,226 @@
-MCO MH-S412 Double 
+ 
 ==================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/mco.mhs412/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
-L'interrupteur MH-S412-EU permet de commuter les 2 charges connectées,
-soit manuellement comme un interrupteur classique, ou à distance via le
-protocole sans fil Z-Wave.
+\
+,
 
-Sa finition en verre et son design apporte un style moderne.
+.
 
-L'interrupteur MH-S412-EU peut contrôler n'importe quel type de charge,
-un éclairage ou un appareil électrique.
+.
 
-L'interrupteur est également équipé d'un voyant LED qui indique son
-état.  \
+,
+.
+
+
+
 
 Functions 
 ---------
 
- \
+\
 
--   Commander deux lampes ou appareils à distance
+-   
 
--   S'installe à la place d'un interrupteur existant (s'insère
-    parfaitement dans une boite d'encastrement de 40mm)
+-   
+    
 
--   Fonction ON / OFF
+-   
 
--   Supporte les commandes d'association (Groupe 1 et Groupe 2)
+-   
 
--   Contrôle des deux charges en local
+-   
 
--   LED de statut
+-   
 
--   Finition en verre, design moderne
+-   
 
--   Boutons tactiles
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module : Z-Wave receiver
 
 -   Color : White
 
 -   Food : 230 V, 50 Hz
 
--   Câblage : 3 fils, neutre nécessaire
+-   Wiring : 3 wire, neutral required
 
--   Puissance maximum : 5A (1100W) pour chaque canal
+-   Maximum power : 
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Portée : jusqu'à 30 m
+-   Scope : 
 
--   Dimensions : 86 x 86 x 43 mm
+-   Dimensions : 
 
--   Viewing: LED bleue/rouge
+-   Viewing: 
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : MC HOME
+-   Mark : 
 
 -   Name : MH-S412 Double
 
--   Fabricant ID : 351
+-   Manufacturer ID : 351
 
--   Type Produit : 16642
+-   Product Type : 16642
 
--   Produit ID : 514
+-   Product ID : 514
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur un seul
-> des 2 boutons en face avant pendant 3 sec, conformément à sa
-> documentation papier.
+> To put this module in inclusion mode, press only one
+> 2 buttons on the front panel for 3 sec, in accordance with its
+> paper documentation.
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/mco.mhs412/commandes.jpg)
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Settings)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/mco.mhs412/config1.jpg)
 
- \
+\
 
-Détails des Settings :
+Parameter details :
 
- \
+\
 
--   1: Saving state before power failure : enable ( permet de retrouver
-    le dernier état des interrupteurs juste avant la coupure secteur )
-    diseable (les interrupteurs seront a l'état OFF au retour secteur )
+-   1: Saving state before power failure : enable (allows to find
+    the last state of the switches just before the power cut)
+    diseable (the switches will be in the OFF state on mains return)
 
- \
+\
 
 ### Groups 
 
- \
+\
 
-Ce module possède 3 groupes d'association. Seul le troisieme est
-indispensable.
+This module has 3 association groups. Only the third is
+essential.
 
- \
+\
 
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
-1\) les boutons tactiles ont un halo de couleur bleu lorsque la charge
-est pilotée
+1 \) the touch buttons have a blue halo when the charge
+is piloted
 
-2\) les boutons tactiles ont un halo de couleur orangé lorsque la charge
-est non pilotée
+2 \) the touch buttons have an orange halo when the charge
+is unmanned
 
-3\) le touché est plutôt agréable et les commandes réactives
+3 \) the touch is pleasant and the controls responsive
 
-4\) cet interrupteur peut piloter sa charge en mode autonome (non
-rattaché à un contrôleur z-wave)
+4 \) this switch can control its load in autonomous mode (not
+attached to a z-wave controller)
 
 Wakeup 
 ------
 
- \
+\
 
-Ce module étant raccordé au secteur (220v) , le reveil est instantanné
-et ne necessite donc pas d'action particulière lors d'un changement de
+This module being connected to the mains (220v), the alarm clock is instantaneous
+and therefore does not require any particular action when changing
 Settings
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Pour exclure ce modèle, mettre Openzwave en mode exclusion et appuyer
-sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa
-documentation papier.
+To exclude this model, put Openzwave in exclusion mode and press
+on one of the 2 buttons on the front panel for 3 sec, in accordance with its
+paper documentation.
 
-Pour restaurer les Settings usine, appuyer sur un seul des 2 boutons
-en face avant pendant 10 sec, conformément à sa documentation papier.
+To restore the factory settings, press only one of the 2 buttons
+on the front panel for 10 sec, in accordance with its paper documentation.
 
- \
+\
 

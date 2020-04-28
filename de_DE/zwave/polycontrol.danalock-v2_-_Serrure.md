@@ -1,211 +1,211 @@
 Danalock V2 BTZE 
 ================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/polycontrol.danalock/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
  
 
-**Sécurisez votre maison en utilisant la serrure électronique Z-Wave de
+**Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
 Poly-Control !**
 
-Plus de clés, utilisez votre smartphone pour verrouiller et
-déverrouiller votre porte ! Danalock est une nouvelle solution qui vous
-permettra de sécuriser fiablement et intelligemment votre intérieur.
-Sans avoir de clé, vous pourrez ouvrir votre serrure à l'aide de votre
-tablette ou smartphone. Vous contrôlerez ainsi l'accès de vos invités ou
-d'ouvriers et pourrez surveiller efficacement votre intérieur.
-Différents réglages vous permettront de contrôler l'accès à votre
-maison. Danalock dispose d'une fonction Autolock permettant un
-verrouillage automatique de la porte d'entrée. Idéal lorsque vous n'avez
-pas les mains libres, par exemple. De plus, 5 clés sont fournies. Vous
-pourrez les utiliser de l'extérieur. L'installation est simple et rapide
-à effectuer peu importe le type de porte. L'application correspondante
-est compatible pour iPhone 4S, Android 4.4 et Smartphone. Le Danalock ne
-nécessite pas de source d'alimentation externe. L'alimentation
-s'effectue à l'aide de piles d'une durée de vie de deux ans. Vous
-recevrez un signal sonore au cas ou le niveau de chargement des piles
-est trop faible.
+Keine Schlüssel mehr, verwenden Sie Ihr Smartphone zum Sperren und
+Schließ deine Tür auf ! Danalock ist eine neue Lösung, die
+wird Ihr Interieur zuverlässig und intelligent sichern.
+Ohne Schlüssel können Sie Ihr Schloss mit Ihrem öffnen
+Tablet oder Smartphone. Sie kontrollieren somit den Zugang Ihrer Gäste oder
+von Arbeitern und kann Ihr Interieur effektiv überwachen.
+Mit verschiedenen Einstellungen können Sie den Zugriff auf Ihre steuern
+Haus. Danalock verfügt über eine Autolock-Funktion
+automatische Türverriegelung. Ideal, wenn Sie es nicht tun
+Zum Beispiel keine Hände frei. Zusätzlich werden 5 Schlüssel bereitgestellt. Sie
+kann sie von außen benutzen. Die Installation ist schnell und einfach
+unabhängig von der Art der Tür durchzuführen. Die entsprechende Anwendung
+ist kompatibel für iPhone 4S, Android 4.4 und Smartphone. Der Danalock tut es
+Keine externe Stromquelle erforderlich. Essen
+wird mit Batterien mit einer Lebensdauer von zwei Jahren durchgeführt. Sie
+Empfangen Sie ein akustisches Signal für den Fall, dass der Batterieladezustand steigt
+ist zu schwach.
 
-**Facile à mettre en place**
+**Einfach einzurichten**
 
- Le Danalock est une serrure intelligente qui se monte sur presque
-toutes les portes en quelques minutes.
+Das Danalock ist ein intelligentes Schloss, das fast montiert werden kann
+Alle Türen in Minuten.
 
-**Facile à installer **
+**Einfach zu installieren**
 
-Installez l'application Danalock sur votre téléphone en quelques
-secondes. Un assistant vous guide alors à travers l'installation et
-l'étalonnage de votre Danalock.
+Installieren Sie die Danalock-App in wenigen Schritten auf Ihrem Telefon
+Sekunden. Ein Assistent führt Sie dann durch die Installation und
+die Kalibrierung Ihres Danalock.
 
- **Facile à utiliser **
+ **Einfach zu bedienen**
 
-Verrouiller et déverrouiller avec le bouton, la fonction TwistAssist ou
-en utilisant votre smartphone. Et avec la fonction auto-déverrouillage,
-la serrure Danalock déverrouille automatiquement la porte lorsque vous
-approchez de votre maison et la verrouille juste après que vous soyez
-rentré.
+Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
+mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
+Das Danalock-Schloss entriegelt automatisch die Tür, wenn Sie
+nähere dich deinem Haus und schließe es gleich ab, nachdem du es bist
+zurückgegeben.
 
-**Longue durée de vie de la batterie**
+**Lange Akkulaufzeit**
 
- Le Danalock a une durée de vie moyenne de la batterie jusqu'à un an, et
-ne nécessite pas d'alimentation externe. Soyez informé que l'utilisation
-d'un contrôleur ou box domotique Z-Wave peut réduire la durée de vie de
-la batterie. L'état de la batterie est facilement visible dans l'App.
-Lorsque la batterie atteint 30, 20, 15 et 10 pourcent, une notification
-est envoyée par SMS et email.
+Das Danalock hat eine durchschnittliche Akkulaufzeit von bis zu einem Jahr
+benötigt keine externe Stromversorgung. Bitte beachten Sie diese Verwendung
+einer Z-Wave-Hausautomationssteuerung oder -box kann die Lebensdauer von verkürzen
+die Batterie. Der Batteriestatus ist in der App gut sichtbar.
+Wenn der Akku 30, 20, 15 und 10 Prozent erreicht, wird eine Benachrichtigung angezeigt
+wird per SMS und E-Mail gesendet.
 
-**Accès limité ou permanent**
+**Eingeschränkter oder dauerhafter Zugang**
 
- Plus besoin de cacher les clés sous le paillasson. Donnez à votre
-famille un accès rapide et facile avec leurs Smartphones. A votre femme
-de ménage ou vos invités, un accès limité dans le temps ou récurrent et
-recevez des notifications lorsque votre serrure est utilisé et par qui.
+Nie mehr die Schlüssel unter der Fußmatte verstecken. Gib dein
+Familie schnellen und einfachen Zugang mit ihren Smartphones. Zu deiner Frau
+Reinigung oder Ihre Gäste, zeitlich begrenzter oder wiederkehrender Zugang und
+Sie erhalten Benachrichtigungen, wenn und von wem Ihr Schloss verwendet wird.
 
-**Contrôle total de la maison **
+**Volle Kontrolle über das Haus**
 
-Développez le contrôle de votre maison intelligente avec un Danalock,
-l'initiateur parfait pour toutes vos commandes à domicile. Le Danalock
-fonctionne de manière transparente avec d'autres appareils de la maison
-intelligente, et toute la communication est fortement cryptée - personne
-ne peut pirater leur chemin dans votre maison.
+Entwickeln Sie mit einem Danalock die Kontrolle über Ihr Smart Home,
+Der perfekte Initiator für alle Ihre Hausbestellungen. Danalock
+funktioniert nahtlos mit anderen Heimgeräten
+intelligent und die gesamte Kommunikation ist stark verschlüsselt - niemand
+Ich kann mich nicht in dein Haus hacken.
 
-**Discret, durable et danois **
+**Diskret, nachhaltig und dänisch**
 
-Danalock allie l'élégance et le minimalisme du design scandinave - avec
-une lunette en aluminium massif anodisé et les technologies de pointe
-Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
- \
+Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit
+Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
+Bluetooth und Z-Wave. Ein diskretes dänisches Design für die Ewigkeit.
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Contrôlez votre porte d'entrée à distance
+-   Steuern Sie Ihre Haustür fern
 
--   Serrure connectée
+-   Verbundenes Schloss
 
--   1 cylindre adaptable à différentes longueurs fourni
+-   1 Zylinder anpassbar an verschiedene Längen geliefert
 
--   5 clés physiques sont fournies pour ouvrir la porte de l'extérieur
+-   5 physische Schlüssel dienen zum Öffnen der Tür von außen
 
--   Connexion via Bluetooth Smart et Z-Wave
+-   Verbindung über Bluetooth Smart und Z-Wave
 
--   Intégration dans les contrôleurs Z-Wave compatibles (eedomus,
-    Vera, …​)
+-   Integration in kompatible Z-Wave-Controller (eedomus,
+    Vera,…)
 
--   Historique d'activités
+-   Aktivitätsverlauf
 
--   Différentes possibilités de réglage pour la fermeture et l'ouverture
+-   Verschiedene Einstellmöglichkeiten zum Schließen und Öffnen
 
--   Partage d'accès : donnez l'accès à votre femme de ménage ou à un ami
-    pendant une période limitée
+-   Zugriffsfreigabe : Geben Sie Ihrer Putzfrau oder einem Freund Zugang
+    für eine begrenzte Zeit
 
--   Calibration automatique
+-   Automatische Kalibrierung
 
--   Facile à installer
+-   Einfach zu installieren
 
--   Fonctionnement avec des piles
+-   Batteriebetrieb
 
--   Compatible avec iOS (iPhone 4s ou une version ultérieure), mais
-    aussi Android (à partir de 4.4).
+-   Kompatibel mit iOS (iPhone 4s oder höher), aber
+    auch Android (ab 4.4).
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Versorgung : 4 piles 3V CR123
+-   Versorgung : 4 CR123 3V Batterien
 
--   Versions : V2
+-   Versionen : V2
 
--   Matériau : Aluminium massif anodisé
+-   Material : Massives eloxiertes Aluminium
 
--   Kommunikation : Bluetooth et Z-Wave
+-   Kommunikation : Bluetooth und Z-Wave
 
--   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
+-   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
 
--   Poids : 363g
+-   Gewicht : 363 g
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Poly-Control
+-   Machen Sie : Poly-Control
 
 -   Name : Danalock V2 BTZE
 
--   Fabricant ID : 010e
+-   Hersteller ID : 010e
 
--   Type Produit : 1
+-   Produkttyp : 1
 
--   Produit ID : 1
+-   Produkt-ID : 1
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut absolument inclure ce module en mode sécurisé..
+> Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
 
- \
+\.
 
-Pour mettre le plugin Z-Wave (openzwave) dans Jeedom en mode inclusion
-sécurisée : il suffit d'aller sur la page de gestion des modules Z-wave
-et de cliquer sur l'icône "Réseau Zwave"
-
-![inclusion securise jeedom
-1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
-
- \
-
-Puis dans l'onglet "Actions" cliquez sur : "AJOUTER MODULE EN MODE
-SECURISE (INCLUSION)"
+So versetzen Sie das Z-Wave-Plugin (openzwave) im Einschlussmodus in Jeedom
+sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
+und klicken Sie auf das Symbol "Zwave Network"
 
 ![inclusion securise jeedom
-2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
+1] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
- \
+\.
+
+Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜGEN
+SICHER (INKLUSION)"
+
+![inclusion securise jeedom
+2] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
+
+\.
 
 > **Wichtig**
 >
-> Nous partons du principe que vous avez installé l'application sur
-> votre smartphone ou iphone et créé un compte. Si ce n'est pas déjà
-> fait, vous pouvez vous référer à cette page.
+> Wir gehen davon aus, dass Sie die Anwendung installiert haben
+> Ihr Smartphone oder iPhone und erstellt ein Konto. Wenn es nicht schon ist
+> Fertig können Sie auf diese Seite verweisen.
 
 ![inclusion](images/polycontrol.danalock/inclusion.jpg)
 
@@ -213,184 +213,184 @@ SECURISE (INCLUSION)"
 
 ![inclusion2](images/polycontrol.danalock/inclusion2.jpg)
 
-Dans l'application cliquez sur "Smart home" puis sur "Z-wave" et enfin
-sur "CONNECT".
+Klicken Sie in der Anwendung auf "Smart Home", dann auf "Z-Wave" und schließlich
+auf "CONNECT".
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/polycontrol.danalock/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Status : c'est la commande qui remontera la dernière action
-    éxécutée (ouvrir/fermer)
+-   Status : Es ist der Befehl, der die letzte Aktion ausführt
+    ausgeführt (öffnen / schließen)
 
--   Ouvrir : c'est la commande qui permet d'ouvrir la serrure
+-   Öffnen : Es ist der Befehl, der das Schloss öffnet
 
--   Schließen : c'est la commande qui permet de fermer la serrure
+-   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 
--   Batterie : c'est la commande batterie
+-   Batterie : Es ist der Batteriebefehl
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Warnung**
 >
-> Bien que ce module soit sur batterie il utilise la technologie Flirs.
-> Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
-> récupérera toutes modifications de configutation en quasi temps réel
-> comme un module secteur.
+> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
+> Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
+> Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
+> als Sektormodul.
 
- \
+\.
 
-Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Konfiguration" du
-plugin OpenZwave de Jeedom.
+Wenn Sie das Modul entsprechend Ihrer Konfiguration konfigurieren möchten
+Installation müssen Sie über die Schaltfläche "Konfiguration" der
+Jeedom OpenZwave Plugin.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1 : Direction 0-1 : 0 = Le moteur va dans le sens horaire
-    verrouillé, 1 = Le moteur va dans le sens antihoraire lorsque
-    verrouillé
+-   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
+    gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
+    gesperrt
 
--   2 : Vitesse 1 = le plus lent, 2 = lent, 3 = Normal, 4 = Fast, 5 = le
-    plus rapide
+-   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
+    schneller
 
--   3 : Mode 1 = Entraînement de moteur (économie d'énergie), 2 = mode
-    complet d'entraînement (Normal)
+-   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Modus
+    volle Ausbildung (Normal)
 
--   4 : Namebre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
+-   4 : Anzahl der Umdrehungen (1 = 10 Grad, 9 = 90 Grad usw.)
 
--   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
-    la serrure a été déverrouillée pour automatiquement se fermer
-    à nouveau. Si 0, il est désactivé.
+-   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Moment
+    Das Schloss wurde entsperrt, um es automatisch zu schließen
+    wieder. Wenn 0, ist es deaktiviert.
 
--   6 : Désactiver ou activer le signal sonore de verrouillage ou
-    déverrouillage (0 = Désactiver, 1 = Activer.)
+-   6 : Sperrsignal deaktivieren oder aktivieren oder
+    Entsperren (0 = Deaktivieren, 1 = Aktivieren.)
 
--   7 : Batterietyp : Réglez le type de batterie qui
-    alimente l'appareil.
+-   7 : Batterietyp : Stellen Sie den Batterietyp ein
+    versorgt das Gerät mit Strom.
 
--   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
-    à cette valeur, le dispositif informera l'utilisateur avec un signal
-    sonore après le verrouillage ou déverrouillage.
+-   8 : Batteriealarm : Wenn der Akkuladestand niedriger ist
+    Bei diesem Wert informiert das Gerät den Benutzer mit einem Signal
+    Ton nach dem Verriegeln oder Entriegeln.
 
 -   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
-    tournera la poignée automatiquement lorsqu'on
-    l'actionne manuellement.
+    dreht den Griff automatisch, wenn
+    manuell bedienen.
 
--   10 : Brake & GoBack 0 = Désactivé. 1⇒15 secondes pour freiner. Quand
-    il est utilisé le verrou freine pour x quantité de secondes, puis
-    reviens à 75 degrés en arrière. Conçu pour des portes spéciales
-    sans levier. (Uniquement lors du déverrouillage).
+-   10 : Brake & GoBack 0 = Deaktiviert. 1⇒15 Sekunden zum Bremsen. Wann
+    Dann werden die Feststellbremsen für x Sekunden verwendet
+    gehe 75 Grad zurück. Entwickelt für spezielle Türen
+    ohne Hebel. (Nur beim Entsperren).
 
--   11 : Async 0 = Async off, 1 = Async On. Lorsqu'async est activé le
-    verrou sera automatiquement calibré s'il est déjà déverrouillé et
-    Déverrouille à nouveau (utilisé pour des serrures de
-    porte spéciales).
+-   11 : Async 0 = Async aus, 1 = Async ein. Wenn Async aktiviert ist, wird die
+    Die Sperre wird automatisch kalibriert, wenn sie bereits entsperrt ist und
+    Wird wieder entriegelt (wird für Türschlösser verwendet
+    spezielle Tür).
 
--   12 : rapport d'opération
+-   12 : Betriebsbericht
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède un seul groupe d'association.
+Dieses Modul hat nur eine Zuordnungsgruppe.
 
- \
+\.
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
-
-> **Spitze**
->
-> Bien que ce module soit sur batterie il utilise la technologie Flirs.
-> Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
-> récupérera toutes modifications de configutation en quasi temps réel
-> comme un module secteur.
-
- \
+\.
 
 > **Spitze**
 >
-> Ce module renvoi son état si vous actionnez la serrure à la main
-> l'état sera mis à jour.  \
+> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
+> Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
+> Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
+> als Sektormodul.
 
-### Visuel alternatif 
+\.
 
- \
+> **Spitze**
+>
+> 
+> 
+
+### Alternative visuelle 
+
+\.
 
 ![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Il n'y a pas de notion de wake up pour ce module.
+Für dieses Modul gibt es kein Konzept zum Aufwecken.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Pas de notion de wake up sur ce module; lire le paragraphe Spécificités.
+.
 
- \
+\.
 
 **@noumea**

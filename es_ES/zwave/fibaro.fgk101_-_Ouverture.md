@@ -1,320 +1,320 @@
-Fibaro Détecteur d'ouverture - FGK-101 
+Detector de apertura Fibaro - FGK-101 
 ======================================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![Modulo](images/fibaro.fgk101-DS18B20/Modulo.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgk101-DS18B20/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Ce détecteur alimenté par pile et compatible Z-Wave dispose d'un capteur
-reed, un interrupteur de proximité à fonctionnement magnétique, qui
-permet de détecter l'ouverture d'une porte ou d'une fenêtre lorsque les
-deux éléments sont éloignés.
+Este detector compatible con baterías y compatible con Z-Wave tiene un sensor
+Reed, un interruptor de proximidad con funcionamiento magnético, que
+detecta la apertura de una puerta o ventana cuando el
+dos elementos son distantes.
 
-Le dispositif est constitué d'une partie avec un aimant (la partie
-mobile), fixée sur la porte ou la fenêtre, ainsi que de l'unité
-principale positionnée sur la partie fixe de la fenêtre/porte avec des
-vis ou un adhésif. Lorsque les deux parties ne sont plus en face, un
-signal radio Z-Wave est automatiquement envoyé.
+El dispositivo consta de una parte con un imán (la parte
+móvil), conectado a la puerta o ventana, así como a la unidad
+principal colocado en la parte fija de la ventana / puerta con
+tornillo o adhesivo. Cuando las dos partes ya no son opuestas, un
+La señal de radio Z-Wave se envía automáticamente.
 
-De plus, ce détecteur dispose d'une entrée analogique permettant d'y
-connecter une sonde de température 1-Wire DS18B20. Ce détecteur dispose
-aussi d'une entrée filaire, il peut ainsi être utilisé comme un
-transmetteur universel : laissez de côté son contact magnétique, et
-reliez ses entrées à vis à tout détecteur (normalement fermé) de votre
-choix tel qu'un détecteur de fumée, de gaz ou de monoxyde de carbone,
+Además, este detector tiene una entrada analógica que permite
+conecte una sonda de temperatura DS18B20 de 1 cable. Este detector tiene
+también desde una entrada cableada, por lo que se puede usar como
+transmisor universal : dejar de lado su contacto magnético, y
+conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de su
+elección como detector de humo, gas o monóxido de carbono,
 Etcétera.
 
-Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
-d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
-existant.
+Se requiere un controlador Z-Wave (control remoto, dongle, Etcétera.) para
+integre este detector en su red si ya tiene una red
+existente.
 
- \
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Détecteur d'ouverture
+-   Detector de apertura
 
--   Bouton pour inclure/exclure le détecteur
+-   Botón para incluir / excluir el detector
 
--   Détection pile faible
+-   Detección de batería baja
 
--   Protection anti-sabotage
+-   Protección contra manipulaciones
 
--   1 entrée filaire sans potentiel
+-   1 entrada cableada sin potencial
 
--   1 entrée analogique 1-Wire (pour connecter une sonde de
-    température DS18B20)
+-   1 entrada analógica de 1 cable (para conectar un
+    temperatura DS18B20)
 
--   Très petit, dimensions réduites
+-   Muy pequeño, dimensiones reducidas
 
--   Facilité d'utilisation et d'installation
+-   Facilidad de uso e instalación.
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de Modulo : Emetteur Z-Wave
+-   Puntao de módulo : Transmisor de onda Z
 
--   Color : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
+-   Color : Blanco (FGK-101/102/103/104/105/106/107 según el color)
 
--   Suministro : Pile ER14250 (1/2AA) 3,6V
+-   Suministro : Batería ER14250 (1 / 2AA) 3.6V
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 76 x 17 x 19 mm
+-   Dimensiones: 76 x 17 x 19 mm
 
--   Température de fonctionnement : 0-40°C
+-   Temperatura de funcionamiento : 0-40 ° C
 
- \
+\
 
-Données du Modulo 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGK-101 avec sonde de température (DS18B20)
+-   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
--   Fabricant ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 1792
+-   Puntao de producto : 1792
 
--   Produit ID : 4096
+-   ID del producto : 4096
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce Modulo en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/fibaro.fgk101-DS18B20/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le Modulo reconnu, les commandes associées au Modulo seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : c'est la commande qui remontera l'état ouvert ou fermé du
+-   Estado : es el comando que elevará el estado abierto o cerrado del
     Modulo
 
--   Batería : c'est la commande qui permet de remonter l'état de la
+-   Batería : es el comando que permite subir el estado del
     batería
 
- \
+\
 
-Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
+Puede ocultar o mostrar estos comandos como desee.
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le Modulo juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du Modulo en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgk101-DS18B20/config1.jpg)
 
 ![Config2](images/fibaro.fgk101-DS18B20/config2.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   Wakeup : c'est l'interval de réveil du Modulo (valeur
-    recommandée 7200)
+-   Despertador : Este es el intervalo de activación del módulo (valor
+    7200 recomendado)
 
--   1: permet de régler le délai d'annulation de l'alarme de l'entrée IN
-    (contact sec)
+-   1: establece el retraso para cancelar la alarma de entrada IN
+    (contacto seco)
 
--   2: permet de choisir si la led bleue doit clignoter à l'ouverture et
-    la fermeture de votre porte par exemple
+-   2: permite elegir si el led azul debería parpadear al abrir y
+    cerrando tu puerta por ejemplo
 
--   3: permet de définir le type contact relié au bornier (IN)
+-   3: se usa para definir el tipo de contacto conectado al bloque de terminales (IN)
 
--   5: déconseillé de changer ce paramètre sauf si vous savez pourquoi
-    (définit le type de signal envoyé au groupe d'association 1)
+-   5: no se recomienda cambiar esta configuración a menos que sepa por qué
+    (define el tipo de señal enviada al grupo de asociación 1)
 
--   7: valeur envoyée au groupe d'association 1
+-   7: valor enviado al grupo de asociación 1
 
--   9: permet de régler l'envoi du signal d'annulation entre l'entrée IN
-    et le groupe d'association 1
+-   9: le permite configurar el envío de la señal de cancelación entre la entrada IN
+    y el grupo de asociación 1
 
--   12: permet de régler la sensibilité au changement de température (si
-    une sonde 1 wire est reliée au Modulo)
+-   12: permite ajustar la sensibilidad al cambio de temperatura (si
+    una sonda de 1 cable está conectada al módulo)
 
--   13: permet de régler l'envoi en mode broadcast des signaux de
-    température et de tamper
+-   13: permite configurar el envío en modo broadcast de las señales de
+    temperatura y sabotaje
 
--   14: permet d'activer la fonctionnalité d'activation de scènes
+-   14: activa la función de activación de escena
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce Modulo possède trois groupes d'association, seul le troisième est
+Este módulo tiene tres grupos de asociación, solo el tercero es
 indispensable.
 
- \
+\
 
 ![Groupe](images/fibaro.fgk101-DS18B20/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
 > **Punta**
 >
-> Ce Modulo est très capricieux sur les wakeup et nécessite une très
-> forte proximité avec le contrôleur lors de son inclusion
+> Este módulo es muy meticuloso al despertar y requiere un muy
+> fuerte proximidad al controlador cuando está incluido
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce Modulo il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   appuyer 3/4 fois sur le bouton d'inclusion. Il peut être nécessaire
-    de le faire plusieurs fois de suite (2 ou 3)
+-   presione el botón de inclusión 3/4 veces. Puede ser necesario
+    hacerlo varias veces seguidas (2 o 3)
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce Modulo se réveille en appuyant 3 fois sur un des boutons tamper. Mais
-il faut que l'autre bouton tamper soit enfoncé.
 
- \
+.
 
-Ce Modulo à une portée très faible. Il est conseillé de faire
-l'inclusion au plus proche de votre box.
+\
 
- \
+. 
+.
 
-Ce Modulo est un Modulo sur batería, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+\
 
- \
+Este módulo es un módulo de batería, la nueva configuración será
+tomado en cuenta en el próximo despertar.
 
-Note importante 
+\
+
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le Modulo : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

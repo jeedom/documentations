@@ -1,159 +1,159 @@
-Installation de Letsencrypt 
+ 
 ===========================
 
-Voici les Befehls à lancer pour installer letsencrypt avant la
-génération :
 
-    apt-get install -y git
-    cd /opt
-    git clone https://github.com/letsencrypt/letsencrypt
-    cd letsencrypt
-    ./letsencrypt-auto --help
+ :
 
-Pour faire une demande de certificat vous devez posséder un nom de
-domaine pour lequel il sera généré.
+    
+    
+    :
+    
+    .
 
-Configuration d'Apache 
+
+.
+
+ 
 ======================
 
-Pour que le processus de letsEncrypt se termine correctement, il est
-nécessaire d'effectuer les trois étapes ci-dessous au préalable :
 
-Attention il est nécessaire d'ouvrir le port 80 sur le routeur (FAI) ! 
+ :
 
--   Activer le module SSL d'apache de la box Jeedom.
+ ! 
 
--   Activer le VirtualHost HTTPS d'apache de la box Jeedom .
+-   .
 
--   Configurer un portForwarding des requêtes HTTPS sur votre Box
-    internet pour les rediriger vers votre Box Jeedom.
+-    .
 
-Activation du virtualHost et du module SSL 
+-   
+    .
+
+ 
 ------------------------------------------
 
 > **Notiz**
 >
-> Se connecter en SSH sur la box Jeedom.
+> .
 
-    a2enmod ssl
-    a2ensite default-ssl.conf
-    service apache2 restart
-
-> **Notiz**
->
-> Aucun certificat ne sera délivré par LetsEncrypt tant que votre site
-> en HTTPS ne sera pas joignable de l'extérieur.
-
-    /opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com
-
-Vous devez remplacer les paramètres <email@domaine.com> et domaine.com
-par vos valeurs. Normalement les paramètres d'ajout du protocole HTTPS
-sont ajoutés par le script dans Apache.
+    
+    
+    
 
 > **Notiz**
 >
-> Si vous utilisez la méthode de renouvellement automatique ci-dessous,
-> vous pouvez désactiver le virtualHost **default-ssl.conf** avec la
-> Befehl **a2dissite default-ssl.conf** Pensez à reporter le code par
-> défaut ci-dessous dans le virtualHost créé par le script de
-> renouvellement :
+> 
+> .
+
+    .
+
+.
+. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
+werden vom Skript in Apache hinzugefügt.
+
+> **Notiz**
+>
+> Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
+> Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
+> Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
+> Standard unten in dem vom Skript erstellten virtualHost
+> Erneuerung :
 > /etc/apache2/sites-available/000-default-le-ssl.conf\`
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
-       SSLOptions +StdEnvVars
+       SSLOptions + StdEnvVars
     </FilesMatch>
     <Directory /usr/lib/cgi-bin>
-       SSLOptions +StdEnvVars
+       SSLOptions + StdEnvVars
     </Directory>
     </VirtualHost>
 
-Configuration de Nginx 
+Konfiguration von Nginx 
 ======================
 
-Cette Befehl n'est à utiliser que si vous disposez d'un serveur web
+Dieser Befehl darf nur verwendet werden, wenn Sie einen Webserver haben
 Nginx.
 
-    ./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
+    ./ letsencrypt-auto certonly - E-Mail email @ domain. -a webroot --webroot-path / usr / share / nginx / www /
 
-Vous devez remplacer les paramètres email et domaine par vos valeurs,
-ainsi que le chemin vers la racine du serveur. Vous devez ajouter les
-deux lignes de configuration du HTTPS dans la configuration nginx :
+Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
+sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen
+zwei HTTPS-Konfigurationszeilen in der Nginx-Konfiguration :
 
-    vi /etc/nginx/sites-enabled/default
+    vi / etc / nginx / sites-enabled / default
 
-Ajouter les lignes suivantes, entre les lignes `server {` et
+Fügen Sie die folgenden Zeilen zwischen den Zeilen `server {` und ein
 `root /usr/share/nginx/www ;` :
 
-    listen 80;
+    höre 80;
 
-    listen 443 ssl;
+    höre 443 ssl;
 
-    ssl_certificate /etc/nginx/ssl/ jeedom.chezmoi.fr.crt;
+    ssl_certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
 
-    ssl_certificate_key /etc/nginx/ssl/ jeedom.chezmoi.fr.key;
+    ssl_certificate_key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
 
     ssl_session_timeout 5m;
 
-Et enfin redémarrez le serveur Nginx.
+Und schließlich starten Sie den Nginx-Server neu.
 
-    service nginx restart
+    Service Nginx Neustart
 
-Renouvellement 
+Erneuerung 
 ==============
 
-Le renouvellement se fait avec la Befehl :
+Die Verlängerung erfolgt mit der Bestellung :
 
-    /opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
+    / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-Vous recevez un mail automatiquement à l'arrivée de l'échéance du
-certificat qui vous rappellera de lancer cette Befehl.
+Sie erhalten automatisch eine E-Mail, wenn die Frist abgelaufen ist.
+Zertifikat, das Sie daran erinnert, diesen Befehl zu starten.
 
-Méthode automatique 
+Automatische Methode 
 -------------------
 
-C'est quand même mieux quand c'est automatique. Pour ce faire, voici les
-étapes à suivre :
+Es ist immer noch besser, wenn es automatisch ist. Um dies zu tun, hier sind die
+Schritte zu folgen :
 
--   Installez **bc**, utilisé dans le script le-renew :
+-   Installieren **bc**, wird im Skript le-erneuern verwendet :
 
 <!-- -->
 
     apt-get install -y bc
 
--   Créez un fichier pour y écrire le script (son emplacement est libre)
+-   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei).
     :
 
 <!-- -->
 
     nano /bin/certletsencryptrenew.sh
 
--   Saisissez les lignes ci-dessous dans le fichier créé précédemment.
-    Le copier/coller fonctionne via putty. Ce script vérifie
-    l'expiration du certificat et le renouvelle automatiquement si la
-    date d'expiration est à moins de 30 jours. Vous devez remplacer le
-    paramètre domaine.com par votre valeur :
+-   Geben Sie die folgenden Zeilen in die zuvor erstellte Datei ein.
+    Kopieren / Einfügen funktioniert über Kitt. Dieses Skript prüft
+    Das Zertifikat läuft ab und erneuert es automatisch, wenn das
+    Das Ablaufdatum liegt innerhalb von 30 Tagen. Sie müssen die ersetzen
+    Domäneneinstellung.com nach Ihrem Wert :
 
 <!-- -->
 
-    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
-    chmod +x /usr/local/sbin/le-renew
-    le-renew domaine.com
+    curl -L -o / usr / local / sbin / le-erneuern http://do.co/le-renew
+    chmod + x / usr / local / sbin / le-erneuern
+    le-erneuere domaine.com
 
--   Sauvegardez le fichier puis quittez l'éditeur de texte, par exemple,
-    avec nano :
+-   Speichern Sie die Datei und beenden Sie beispielsweise den Texteditor,
+    mit nano :
 
 <!-- -->
 
-    ctrl+o -> Entrée     (permet de sauvegarder)
-    ctrl+x -> Entrée     (permet de quitter)
+    Strg + o -> Eingabetaste (ermöglicht das Speichern)
+    Strg + x -> Eingabe (Beenden)
 
--   Editez le crontab. Il faut être connecté en root :
+-   Bearbeiten Sie die Crontab. Sie müssen als root angemeldet sein :
 
 <!-- -->
 
     crontab -e
 
--   On ajoute la ligne suivante :
+-   Wir fügen die folgende Zeile hinzu :
 
 <!-- -->
 
@@ -161,18 +161,18 @@ C'est quand même mieux quand c'est automatique. Pour ce faire, voici les
 
 > **Wichtig**
 >
-> Attention à bien adapter le chemin vers le script.
+> Passen Sie den Pfad unbedingt an das Skript an.
 
 > **Spitze**
 >
-> Pour comprendre la planification 0 5 \* \* 1, allez voir ici et
-> ajustez la à votre besoin si nécessaire :
+> Um die Planung 0 5 \ * \ * 1 zu verstehen, siehe hier und
+> Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 
--   Sauvegardez le fichier puis quittez l'éditeur de texte en
-    sauvegardant :
+-   Speichern Sie die Datei und beenden Sie den Texteditor mit
+    Sichern :
 
 <!-- -->
 
-    ctrl+o -> Entrée
-    ctrl+x -> Entrée
+    Strg + o -> Eingabe
+    Strg + x -> Eingabetaste

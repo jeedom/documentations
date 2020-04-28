@@ -1,227 +1,227 @@
-Fibaro FGRM-222 "Volet roulant" 
+" 
 ===============================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Le micromodule FGRM-222 va vous permettre de gérer les motorisations de
-volets à butée électronique, les stores vénitiens ou encore les portes
-de garage grâce au protocole Z-Wave tout en conservant votre
-interrupteur existant. Vous allez donc pouvoir actionner le moteur
-connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou
-directement depuis le bouton présent sur le micromodule.
 
-De plus, ce micromodule est capable de transmettre la consommation
-électrique instantanée (W) et cumulée (KWh) de l'équipement qui lui est
-rattaché.
 
-Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
-d'intégrer ce module dans votre réseau si vous avez déjà un réseau
-existant.
 
-Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les
-autres modules, afin d'assurer une couverture totale de votre
-habitation.
+. 
 
-Nota : Ce module nécessite le neutre pour fonctionner.
+.
 
- \
+Además, este micromódulo es capaz de transmitir el consumo.
+potencia eléctrica instantánea (W) y acumulativa (KWh) del equipo
+adjunto.
+
+Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
+integre este módulo en su red si ya tiene una red
+existente.
+
+Cada módulo Z-Wave funciona como un repetidor inalámbrico con el
+otros módulos, para garantizar una cobertura total de su
+vivienda.
+
+Nota : Este módulo requiere neutral para operar.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Commandez vos stores ou volets roulants à distance
+-   Controle sus persianas o persianas de forma remota
 
--   Compatible avec BSO et store vénitien avec positionnement des
-    lamelles
+-   Compatible con BSO y persiana veneciana con posicionamiento de
+    listones
 
--   S'installe derrière un interrupteur existant
+-   Se instala detrás de un interruptor existente
 
--   Fonction montée/descente et positionnement
+-   Arriba / abajo y función de posicionamiento
 
--   Compatible avec les moteurs à butée mécanique ou électronique
+-   Compatible con motores con parada mecánica o electrónica.
 
--   Mesure de la consommation instantanée et cumulée
+-   Medición del consumo instantáneo y acumulativo.
 
--   Mise à jour sans fil avec la box Fibaro Home Center 2
+-   Actualización inalámbrica con la caja Fibaro Home Center 2
 
--   Fonction test de la couverture réseau Z-Wave
+-   Función de prueba de cobertura de red Z-Wave
 
--   Petit, discret et esthétique
+-   Pequeño, discreto y estético.
 
--   Facilité d'utilisation et d'installation
+-   Facilidad de uso e instalación.
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Tipo de módulo : Receptor Z-Wave
 
 -   Suministro : 230V, 50 Hz
 
--   El consumo électrique : &lt; 0,8W
+-   El consumo de energía : &lt; 0,8W
 
--   Câblage : 3 fils, neutre nécessaire
+-   Cableado : 3 hilos, neutro requerido
 
--   Charge maxi : 1000W
+-   Carga máxima : 1000W
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Potencia du signal : 1mW
+-   Fuerza de la señal : 1mW
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 17 x 42 x 37 mm
+-   Dimensiones: 17 x 42 x 37 mm
 
--   Température de fonctionnement : 0-40°C
+-   Temperatura de funcionamiento : 0-40 ° C
 
--   Température limite : 105°C
+-   Temperatura límite : 105 ° C
 
--   Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
+-   Normas : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRM-222
+-   Nombre : 
 
--   Fabricant ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 769
+-   Tipo de producto : 769
 
--   Produit ID : 4097
+-   ID del producto : 4097
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/fibaro.fgrm222/commandes.jpg)
 
 ![Comandos](images/fibaro.fgrm222/commandes2.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : C'est la commande qui permet de connaître la position de
-    votre volet
+-   Estado : Es el comando que permite conocer la posición de
+    tu obturador
 
--   Positionnement : C'est la commande qui permet de définir le
-    pourcentage d'ouverture
+-   Posicionamiento : Es el comando que hace posible definir el
+    porcentaje de apertura
 
--   Up : C'est la commande qui permet d'ouvrir complétement le volet
+-   Arriba : Este es el comando que le permite abrir completamente el obturador
 
--   Down : C'est la commande qui permet de fermer complétement le volet
+-   Abajo : Es el comando que cierra completamente el obturador.
 
--   Refrescar : C'est la commande qui permet de redemander la position
-    du volet
+-   Refrescar : Es el comando que permite volver a preguntar la posición.
+    de la persiana
 
--   Potencia : Commande permettant d'avoir la consommation du module
+-   Potencia : Comando que permite tener el consumo del módulo
 
--   El consumo : Commande permettant de connaître la puissance
-    instantanée utilisée par le module
+-   El consumo : Control que permite conocer el poder
+    Instantáneo utilizado por el módulo
 
--   Detener : Commande pour stopper le mouvement du volet
+-   Detener : Control para detener el movimiento del obturador.
 
--   Detener BSO : Commande pour stopper le mouvement (en mode
-    lamelle orientable)
+-   DETENER BSO : Comando para detener el movimiento (en modo
+    listón ajustable)
 
--   Incliner : Permet d'incliner les lamelles (mode lamelle orientable)
+-   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
 
--   Décliner : Permet de décliner les lamelles (mode lamelle orientable)
+-   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 
--   No : Permet de définir le pas pour un appui sur Décliner ou
-    Incliner
+-   No : Se usa para definir el paso para presionar Rechazar o
+    Inclinación
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,124 +231,124 @@ paramètres)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1: permet de bloquer le module (pour figer un volet) (dasn le cas
-    d'un appui sur un interrupteur)
+-   1: permite bloquear el módulo (para congelar un obturador) (en el caso
+    
 
--   2: idem mais pour les commandes zwave
+-   2: lo mismo pero para los comandos zwave
 
--   3: type de rapports (classique ou fibar)
+-   3: tipo de informes (clásico o fibroso)
 
--   10: mode de fonctionnement (store venitien, volet etc…​)
+-   10: modo de funcionamiento (persiana veneciana, obturador, etc.)
 
--   12: durée d'un tour complet (en mode store venitien)
+-   12: duración de un turno completo (en modo de persiana veneciana)
 
--   13: permet de choisir quand les lamelles doivent revenir à leur
-    précédente position
+-   13: le permite elegir cuándo los listones deben volver a su
+    puesto anterior
 
--   14: permet de choisir le type d'interrupteur
+-   14: permite elegir el tipo de interruptor
 
--   17: permet de choisir combien de temps après la limite définit en 18
-    le volet s'arrete
+-   17: permite elegir cuánto tiempo después del límite definido en 18
+    
 
--   18: puissance de sécurité pour le moteur
+-   18: potencia de seguridad del motor
 
 -   22: NA
 
--   29: permet de calibrer le volet
+-   29: permite calibrar la aleta
 
--   30 à 35: permet de définir le comportement du module face aux
-    différentes alarmes zwave
+-   30 a 35: permite definir el comportamiento del módulo
+    diferentes alarmas zwave
 
--   40: delta de puissance pour déclencher une remontée d'infos (même en
-    dehors de la période définie en 42)
+-   40: Power Delta para desencadenar un aumento de la información (incluso en
+    fuera del período definido en 42)
 
--   42: période de remontée d'infos
+-   42: período de retroalimentación de información
 
--   43: delta d'énergie pour déclencher une remontée d'infos (même en
-    dehors de la période définie en 42)
+-   43: delta de energía para desencadenar un ascenso de información (incluso en
+    fuera del período definido en 42)
 
--   44: permet de choisir si oui ou non la consommation et puissance
-    doit prendre en compte celle du module lui même
+-   44: 
+    
 
--   50: permet de choisir si le module doit envoyer les infos aux noeuds
-    en association en mode scene ou en mode association
+-   50: permite elegir si el módulo debe enviar la información a los nodos
+    en asociación en modo escena o en modo asociación
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède 3 groupes d'association, seul le troisième est
+Este módulo tiene 3 grupos de asociación, solo el tercero es
 indispensable.
 
- \
+\
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
 ### Restablecer 
 
- \
+\
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
- \
+\
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système.
+Puede restablecer su medidor de consumo haciendo clic en
+en este botón disponible en la pestaña Sistema.
 
- \
+\
 
 ### Importante 
 
- \
+\
 
 > **Importante**
 >
-> Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de
-> forcer l'étalonnage de l'équipement (paramètre 29 à "Oui") et le
-> positionnement doit être actif (paramètre 10 aux valeurs "Active
-> direct", "Active vénitien" ou "Active porte").
+> Para que los comentarios de estado funcionen en Jeedom, es necesario
+> forzar la calibración del equipo (parámetro 29 a "Sí") y la
+> el posicionamiento debe estar activo (parámetro 10 con valores "Activo
+> directo "," Veneciano activo "o" Puerta activa ").
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-No de notion de wakeup sur ce module.
+No hay noción de activación en este módulo.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Lire la section Restablecer de cette doc.
+Lea la sección Restablecer de este documento.
 
- \
+\
 
 **@sarakha63**

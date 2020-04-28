@@ -1,291 +1,291 @@
-SmartHome by Everspring In Wall Dimmer - AD146-0 
+SmartHome von Everspring  - AD146-0 
 ================================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/smarthomebyeverspring.AD146-0/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Ce Micromodule Variateur Mural de la marque SmartHome Europe by
-Everspring, est conçu pour contrôler l'allumage et l'extinction des
-luminaires et des équipements électriques de votre maison. Il peut
-également fournir une fonction de variateur qui est uniquement
-compatible avec les ampoules. À une tension de 230V, ce module peut
-supporter jusqu'à 300 Watts en charge résistive ou incandescente, ou 200
-Watts de charge fluorescente.
+Dieses Wanddimmer-Mikromodul von SmartHome Europe von
+Everspring dient zur Steuerung des Ein- und Ausschaltens
+Leuchten und elektrische Geräte in Ihrem Haus. Er kann
+bieten auch eine Dimmerfunktion, die nur ist
+kompatibel mit Glühbirnen. Bei einer Spannung von 230V kann dieses Modul
 
-Il peut être utilisé en mode 2 fils (sans neutre), en remplacement d'un
-interrupteur existant, ou trois fils avec une alimentation classique du
-module (Phase + Neutre).
+.
 
-Le Module Variateur Mural est un appareil compatible Z-Wave™ qui est
-destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il
-peut être contrôlé par une télécommande, un logiciel PC, ou n'importe
-quel contrôleur Z-Wave de votre réseau.
 
- \
+
+.
+
+
+
+
+.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Commandez un éclairage/appareil à distance
+-   
 
--   S'installe derrière un interrupteur existant
+-   Wird hinter einem vorhandenen Switch installiert
 
--   Fonction ON/OFF et variation
+-   
 
--   Faible consommation d'énergie
+-   
 
--   Très petit, dimensions réduites
+-   Sehr kleine, reduzierte Abmessungen
 
--   Antenne longue portée
+-   
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus-Technologie
 
--   S'installe facilement dans une boîte d'encastrement standard
+-   
 
--   Utilisation en mode 2 fils (neutre pas nécessaire)
+-   Verwendung im 2-Draht-Modus (Neutralleiter nicht erforderlich)
 
--   Compatible avec les ampoules Led Dimmable
+-   
 
--   Bouton pour inclure/exclure/associer le module
+-   
 
--   Fonction répéteur Z-Wave
+-   Z-Wave-Repeater-Funktion
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave Empfänger
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0.5W
+-   Verbrauch : 
 
--   Puissance maximum :
+-   Maximale Leistung :
 
--   Charge résistive : 300W
+-   Widerstandslast : 
 
--   Ampoule à incandesence : 300W
+-    : 
 
--   Ampoule Fluocompacte : 200W
+-    : 
 
--   Fréquence : 868,42 Mhz
+-   Frequenz : 868,42 MHz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED sur le bouton
+-   Anzeigen: LED auf der Taste
 
--   Dimensions : 42mm x 43mm x 16mm
+-   Abmessungen : 
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : SmartHome by Everspring
+-   Machen Sie : 
 
--   Name : In Wall Dimmer
+-   Name : 
 
--   Fabricant ID : 96
+-   Hersteller ID : 96
 
--   Type Produit : 3
+-   Produkttyp : 3
 
--   Produit ID : 2
+-   Produkt-ID : 2
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
+> Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
+> Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
+> gehört zu keinem Netzwerk und wird mit Strom versorgt
 
- \
+\.
 
 ![inclusion](images/smarthomebyeverspring.AD146-0/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Intensité : C'est la commande permettant de régler l'intensité de la
+-   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
     Licht
 
--   Ein : C'est la commande qui permet d'allumer la Licht
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : C'est la commande qui permet d'éteindre la Licht
+-   Aus : 
 
--   Zustand : C'est la commande qui permet de connaître le statut de la
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
- \
+\.
 
-A noter que sur le dashboard, les infos Zustand, ON/OFF, intensité se
-retrouvent sur le même icone.
 
- \
+.
+
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Konfiguration" du
-plugin OpenZwave de Jeedom.
+Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Jeedom OpenZwave Plugin.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+    empfohlen, diesen Wert zu ändern.
 
--   2 : Ce paramètre définit le délai d'envoi du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : 
+    Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Ce paramètre permet de définir si l'interrupteur reprendra son
-    statut (ON ou OFF) après une reprise de courant.
+-   3 : 
+    .
 
--   4 : Ce paramètre permet de définir le type
-    d'interrupteur (poussoir/bistable)
+-   4 : 
+    
 
--   5 : Ce paramètre permet de définir si l'interrupteur fontionnera en
-    mode variation ou en mode on/off
+-   5 : 
+    
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède 2 groupes d'association.
+Dieses Modul hat 2 Zuordnungsgruppen.
 
- \
+\.
 
 ![Groupe](images/smarthomebyeverspring.AD146-0/groupe.jpg)
 
- \
+\.
 
 > **Wichtig**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Jeedom sollte mindestens in Gruppe 1 landen
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
- \
+\.
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
+    Sekunden. \.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![vuewidget](images//smarthomebyeverspring.AD146-0/vuewidget.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pas de notion de wake up sur ce module.
+.
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
+Sekunden.
 
- \
+\.
 
-Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois
-sur l'interrupteur.
+Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
+auf dem Schalter.
 
- \
+\.
 
 **@sarakha63**

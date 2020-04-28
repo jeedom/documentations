@@ -1,275 +1,275 @@
-SmartHome by Everspring In Wall We Off - AN179-0 
+SmartHome by Everspring  - AN179-0 
 ================================================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/smarthomebyeverspring.AN179-0/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring,
-est conçu pour contrôler l'allumage et l'extinction des luminaires et
-des appareils électriques de votre maison. Deux jeux de contacts secs
-permettent le raccordement de deux interrupteurs.
+SmartHome Europe by Everspring brand ON / OFF Wall Micromodule,
 
-À des fins de sécurité, l'unité peut détecter la surchauffe et éteindra
-directement le relais afin d'éviter tout dommage. À une tension de 230
-V, ce module peut supporter jusqu'à 11 A en charge résistive, 1200 Watts
-en incandescence, 700 Watts de moteur, ou 320 Watts (8 x 40 Watts) de
-charge fluorescente.
+. 
+.
 
-Le Micromodule Mural ON/OFF est un appareil compatible Z-Wave™ qui est
-destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il
-peut être contrôlé par une télécommande, un logiciel PC, ou n'importe
-quel contrôleur Z-Wave de votre réseau.
 
- \
+. 
+
+
+.
+
+
+designed to work with all Z-Wave ™ compatible networks. he
+can be controlled by remote control, PC software, or any
+which Z-Wave controller in your network.
+
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Commandez un éclairage/appareil à distance
+-   Control a light / device remotely
 
--   S'installe derrière un interrupteur existant
+-   Installs behind an existing switch
 
--   Fonction ON/OFF
+-   
 
--   Faible consommation d'énergie
+-   Low energy consumption
 
--   Très petit, dimensions réduites
+-   Very small, reduced dimensions
 
--   Antenne longue portée
+-   Long range antenna
 
--   Technologie Z-Wave Plus
+-   Z-Wave Plus technology
 
--   S'installe facilement dans une boîte d'encastrement standard
+-   Easily installs in a standard flush-mount box
 
--   Bouton pour inclure/exclure/associer le module
+-   Button to include / exclude / associate the module
 
--   Fonction répéteur Z-Wave
+-   Z-Wave repeater function
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module : Z-Wave receiver
 
 -   Food : 230 V, 50 Hz
 
 -   Consumption : 0.5W
 
--   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
-    : 1200W Ampoule Fluocompacte : 320W
+-   Maximum power : Resistive load : 
+    :  : 
 
--   Fréquence : 868,42 Mhz
+-   Frequency : 868.42 Mhz
 
--   Portée : jusqu'à 70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+-   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED sur le bouton
+-   Viewing: LED on the button
 
 -   Dimensions : 42mm x 43mm x 16mm
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : SmartHome by Everspring
+-   Mark : SmartHome by Everspring
 
--   Name : In Wall We Off
+-   Name : 
 
--   Fabricant ID : 96
+-   Manufacturer ID : 96
 
--   Type Produit : 4
+-   Product Type : 4
 
--   Produit ID : 8
+-   Product ID : 8
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur son
-> bouton, conformément à sa documentation papier. Il est important de
-> noter que ce module se met directement en inclusion lorsqu'il
-> n'appartient à aucun réseau et qu'il est alimenté
+> To put this module in inclusion mode, press 3 times on its
+> button, according to its paper documentation. It's important to
+> note that this module goes directly to inclusion when
+> does not belong to any network and is powered
 
- \
+\
 
 ![inclusion](images/smarthomebyeverspring.AN179-0/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Wece included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/smarthomebyeverspring.AN179-0/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Wece the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   We : C'est la commande qui permet d'allumer la Light
+-   We : It is the control that turns on the light
 
--   Off : C'est la commande qui permet d'éteindre la Light
+-   Off : It is the command that turns off the light
 
--   State : C'est la commande qui permet de connaitre le statut de la
+-   State : It is the command which allows to know the status of the
     Light
 
- \
+\
 
-A noter que sur le dashboard, les infos State, ON/OFF se retrouvent sur
-le même icone.
+Note that on the dashboard, the status information, ON / OFF can be found on
+the same icon.
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/smarthomebyeverspring.AN179-0/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas
-    conseillé de changer cette valeur.
+-   1 : This parameter defines the status value command, it is not
+    advised to change this value.
 
--   2 : Ce paramètre définit le délai d'envoi du changement d'état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : This parameter defines the delay in sending the change of state to
+    group 1 (value between 3 and 25 seconds)
 
--   3 : Ce paramètre permet de définir si l'interrupteur reprendra son
-    statut (ON ou OFF) après une reprise de courant.
+-   3 : This parameter allows you to define whether the switch will resume its
+    status (ON or OFF) after a power recovery.
 
--   4 : Ce paramètre permet de définir le type
-    d'interrupteur (poussoir/bistable)
+-   4 : This parameter defines the type
+    switch (push / bistable)
 
 ### Groups 
 
- \
+\
 
-Ce module possède 2 groupes d'association.
+This module has 2 association groups.
 
- \
+\
 
 ![Groupe](images/smarthomebyeverspring.AN179-0/groupe.jpg)
 
- \
+\
 
 > **IMPORTANT**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> At a minimum Jeedom should end up in group 1 \
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
--   Le retour d'état ne peut pas être configuré en dessous de 3
-    secondes.  \
+-   Status feedback cannot be configured below 3
+    seconds. \
 
-### Visuel alternatif 
+### Alternative visual 
 
- \
+\
 
 ![vuewidget](images//smarthomebyeverspring.AN179-0/vuewidget.jpg)
 
- \
+\
 
-Wake up 
+ 
 -------
 
- \
+\
 
-Pas de notion de wake up sur ce module.
+No notion of wake up on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3
-secondes.
+Yes it is parameter 2 and it cannot be set below 3
+seconds.
 
- \
+\
 
-Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois
-sur l'interrupteur.
+No. this module can be included or excluded by pressing several times
+on the switch.
 
- \
+\
 
 **@sarakha63**

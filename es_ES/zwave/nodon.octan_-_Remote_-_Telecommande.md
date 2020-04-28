@@ -1,285 +1,285 @@
-Nodon Télécommande - Octan 
+ 
 ==========================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/nodon.octan/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-La Octan Remote NodOn® permet de contrôler n'importe quels récepteurs
-compatibles Z- Wave® ou Z-Wave Plus® tels que la prise télécommandée
-NodOn® (mode Contrôleur Principal - Standalone), ou encore déclencher
-des scènes / actions via une centrale domotique compatible (mode
-Gateway)
 
-Son aimant intégré permet de la fixer partout, du radiateur à la porte
-de réfrigérateur, en passant par son support mural. Entre télécommande
-et interrupteur, la Octan Remote révolutionne le contrôle des objets
-domestiques
 
- \
+
+
+
+
+
+. 
+
+
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Contrôle seul ou avec une centrale domotique
+-   Control solo o con un sistema domótico
 
--   Aimant intégré
+-   
 
--   Led de couleur
+-   
 
--   Platine Murale
+-   
 
--   2 ans de batterie
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Suministro : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
--   4 boutons
+-   4 botones
 
--   Support mural fixé par adhésif double face (inclus) ou vis
-    (non incluses)
+-   
+    
 
--   Aimant intégré pour fixation sur surface métallique
+-   Imán integrado para fijación a superficie metálica.
 
--   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
-    Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
+-   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
+    .: 40m interior / 80m exterior
 
--   Dimensions : 80\*80\*15mm
+-   Dimensiones : 
 
--   Garantie 2 ans
+-   2 años de garantia
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Nodon
+-   Hacer : Nodon
 
--   Nombre : CRC-3-1-00 Octan Remote
+-   Nombre : 
 
--   Fabricant ID : 357
+-   ID del fabricante : 357
 
--   Type Produit : 2
+-   Tipo de producto : 2
 
--   Produit ID : 1
+-   ID del producto : 1
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (1 et 2) jusqu'à que la lumière devienne rose puis appuyer sur
-> le bouton 1, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione los dos
+> 
+> .
 
- \
+\
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/nodon.octan/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : es el comando que empujará el botón hacia arriba
 
-+----------------+----------------+----------------+----------------+----------------+
-| Botones        | Appui          | Pulsación larga     | Relajamiento    | Doble soporte   |
-+================+================+================+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2**          | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3**          | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4**          | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/nodon.octan/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1-2 : Permet de choisir le profils des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-   1-2 : Le permite elegir los perfiles de botón cuando se usa en
+    central (no es necesario para usar en Jeedom)
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : Parámetro importante para decir si el interruptor debería funcionar
+    en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+    asociaciones de grupo)
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Grupos 
 
- \
+\
 
-Ce module possède 7 groupes d'association.
+Este módulo tiene 7 grupos de asociación..
 
- \
+\
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
- \
+\
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
+    transferir información del Smart Plug al controlador principal
+    de la red.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   Grupo 2 a 5: los dispositivos de estos grupos están controlados por
+    botón correspondiente según perfil MONO
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil DUO
+-   Grupo 6 a 7: los dispositivos de estos grupos están controlados por
+    botón correspondiente según perfil DUO
 
- \
+\
 
 > **Importante**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Como mínimo, Jeedom debería terminar en el grupo 1 \
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion, et bien vérifier le
-    groupe d'association.
+-   Este módulo puede ser complicado en la inclusión. No dudes en
+    Despierte 1 o 2 veces después de la inclusión y verifique
+    grupo de asociación.
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il suffit d'appuyer sur un des boutons
+Para activar este módulo, solo presione uno de los botones
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Este módulo es un módulo de batería, la nueva configuración no será
+tenga en cuenta que si despierta el control remoto.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

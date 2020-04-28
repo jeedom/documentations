@@ -1,362 +1,362 @@
-Bienvenue dans cette documentation de premiers pas, celle-ci va vous
-aider à mettre en service votre Jeedom.
+Willkommen zu dieser Dokumentation der ersten Schritte, diese wird
+Hilf mit, dein Jeedom einzurichten.
 
 > **Spitze**
 >
-> Ce guide n'a pas vocation à se substituer à la documentation complète
-> disponible sur le site Jeedom [ici](https://jeedom.fr/doc).
+> Dieses Handbuch ersetzt nicht die vollständige Dokumentation
+> verfügbar auf der Jeedom-Website [hier] (https:// jeedom.fr/doc).
 
-Inscription sur le market 
+Registrierung am Markt 
 =========================
 
-La première chose à faire est de se créer un compte sur le Markt pour
-pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
+Als erstes müssen Sie ein Konto auf dem Markt für erstellen
+Klicken Sie hier, um Ihr Jeedom zu registrieren
 [ici](https://www.jeedom.com/market) pour commencer
 
 ![premier market](images/premier-market.png)
 
-Cliquez sur le bouton "S'enregistrer" en haut à droite :
+Klicken Sie oben rechts auf die Schaltfläche "Registrieren":
 
 ![premier market2](images/premier-market2.png)
 
-Remplissez les différents champs et validez. Vous tomberez ensuite sur
-cette page :
+Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie werden dann rüberkommen
+diese Seite:
 
 ![premier market3](images/premier-market3.png)
 
-Voila votre compte Markt est créé, pour plus de details sur le market
-cliquez
+Hier wird Ihr Marktkonto erstellt, um weitere Informationen zum Markt zu erhalten
+Klicken Sie auf
 [ici](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
 
-Ajout de votre code Service Pack 
+Hinzufügen Ihres Service Pack-Codes 
 ================================
 
-Wenn du avez acheté une box Jeedom alors vous avez dû recevoir un mail
-contenant un code pour votre Service Pack.
+Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail erhalten haben
+mit einem Code für Ihr Service Pack.
 
 > **Wichtig**
 >
-> Il est important de le renseigner car ce code vous donne accès à
-> certains Plugins gratuitement, ainsi qu'à des services exclusifs.
+> Es ist wichtig, es auszufüllen, da Sie mit diesem Code Zugriff haben
+> bestimmte Plugins kostenlos sowie exklusive Dienste.
 
 > **Wichtig**
 >
-> Wenn du achetez un Service Pack depuis le Markt Jeedom vous n'avez
-> rien à faire, celui-ci vous est automatiquement affecté.
+> Wenn Sie ein Service Pack auf dem Jeedom Markt kaufen, haben Sie es nicht
+> nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
-Une fois le code recupéré dans le mail il vous suffit d'aller sur le
+Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen
 [market Jeedom](https://market.jeedom.fr) et de vous identifier.
 
-Puis allez sur votre page de profil :
+Dann gehen Sie zu Ihrer Profilseite:
 
 ![premier servicepack](images/premier-servicepack.png)
 
-Puis cliquez sur l'onglet "Mes Jeedoms"
+Klicken Sie dann auf die Registerkarte "Meine Jeedoms""
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Renseignez votre numéro de Service Pack et validez :
+Geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie:
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Voilà votre Service Pack est enregistré. Pour plus de details sur le
-Markt cliquez
+Hier ist Ihr Service Pack registriert. Weitere Details zum
+Marktklick
 [ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
 
 > **Spitze**
 >
-> Wenn du avez acheté une box officielle Jeedom, le numéro de service
-> pack a dû vous être envoyé par email. Wenn du n'avez rien reçu, merci
-> de contacter le magasin où vous avez acheté votre box.
+> Wenn Sie eine offizielle Jeedom-Box gekauft haben, die Servicenummer
+> Pack sollte per E-Mail an Sie gesendet worden sein. Wenn Sie nichts erhalten haben, danke
+> um das Geschäft zu kontaktieren, in dem Sie Ihre Box gekauft haben.
 
-Trouver votre Jeedom sur le réseau 
+Finden Sie Ihr Jeedom im Netzwerk 
 ==================================
 
-Une fois Jeedom branché électriquement et connecté à votre réseau local,
-voici comment se connecter sur celui-ci.
+Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist,
+Hier erfahren Sie, wie Sie eine Verbindung herstellen.
 
-Trouver Jeedom 
+Finde Jeedom 
 --------------
 
-### Par le market 
+### Durch den Markt 
 
-Solution la plus simple (mais ne marche pas dans 100% des cas en
-fonction de la configuration de votre accès internet), il faut démarrer
-la box, attendre environ 10 minutes (attention si vous utilisez une
-image type netinstallation, ça sera plutôt 30min) et aller
+Einfachste Lösung (funktioniert aber in 100% der Fälle nicht in
+Abhängig von der Konfiguration Ihres Internetzugangs müssen Sie starten
+Warten Sie in der Box etwa 10 Minuten (seien Sie vorsichtig, wenn Sie eine verwenden
+Bild vom Typ Netzinstallation, es wird eher 30 Minuten dauern) und los geht's
 [ici](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Spitze**
 >
-> Attention, il faut être sur le même réseau que la box Jeedom pour que
-> cette méthode fonctionne.
+> Achtung, Sie müssen sich im selben Netzwerk befinden wie die Jeedom-Box für
+> Diese Methode funktioniert.
 
 > **Wichtig**
 >
-> En fonction de votre box ADSL cette fonctionalité peut ne pas marcher.
-> Si c'est le cas, rien de grave, il vous suffit de vous connecter à
-> votre box ADSL et de trouver l'IP de jeedom dans celle-ci. Cette étape
-> ne fait rien d'autre que de vous donner l'IP locale de votre Jeedom.
-> Ce n'est pas à ce moment-là que l'ajout de votre Jeedom à votre compte
-> market est fait.
+> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht.
+> Wenn ja, nichts Ernstes, melden Sie sich einfach bei an
+> Ihre ADSL-Box und finden Sie die jeedom IP darin. Dieser Schritt
+> tut nichts anderes, als Ihnen die lokale IP Ihres Jeedom zu geben.
+> Es ist dann nicht so, dass Sie Ihr Jeedom Ihrem Konto hinzufügen
+> Markt ist fertig.
 
-### Par votre box internet 
+### Durch Ihre Internetbox 
 
--   Allez sur l'interface d'administration de votre box internet et
-    cherchez Jeedom dans vos périphériques réseaux.
+-   Gehen Sie zur Administrationsoberfläche Ihrer Internetbox und
+    Suchen Sie Jeedom in Ihren Netzwerkgeräten.
 
--   Récupérez son IP.
+-   Holen Sie sich seine IP.
 
--   Mettez cette IP dans votre navigateur internet. Vous devriez être
-    sur l'interface de Jeedom.
+-   Geben Sie diese IP in Ihren Internetbrowser ein. Du solltest sein
+    auf der Jeedom-Schnittstelle.
 
-Première connexion 
+Erste Verbindung 
 ------------------
 
-Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de
-login. Par défaut le login et le mot de passe sont "admin".
+Welche Methode auch immer verwendet wird, Sie gelangen dann auf die Seite von
+Login. Standardmäßig lauten Login und Passwort "admin"".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
-Lier mon Jeedom à mon compte market 
+Verknüpfe mein Jeedom mit meinem Marktkonto 
 ===================================
 
-Nous allons voir ici comment lier votre Jeedom à votre compte Markt.
+Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
--   Une fois connecté à votre jeedom, vous devez aller sur
-    Administration → Configuration
+-   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen
+    Administration → Konfiguration
 
--   Cliquez sur l'onglet **Updates**
+-   Klicken Sie auf die Registerkarte **Updates**
 
--   En dessous, cliquez sur l'onglet **Markt**
+-   Klicken Sie unten auf die Registerkarte **Markt**
 
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 
--   Remplissez l'adresse : `https://www.jeedom.com/market`
+-   Geben Sie die Adresse ein : `https://www.jeedom.com/market`
 
--   Renseignez également le champ "Nom d'utilisateur" et "Mot de passe"
-    en fonction de vos identifants (identifiants du Markt et non pas
-    de Jeedom)
+-   Füllen Sie auch die Felder "Benutzername" und "Passwort" aus."
+    basierend auf Ihren Kennungen (Marktkennungen und nicht
+    Jeedom)
 
--   Vous pouvez tester pour vérifier que la connexion
-    s'effectue correctement.
+-   Sie können testen, um die Verbindung zu überprüfen
+    ist richtig gemacht.
 
 -   Vergiss nicht zu sparen !
 
-Pour plus de détails sur la page de configuration cliquez
+Für weitere Details auf der Konfigurationsseite klicken Sie auf
 [ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
 .
 
-Obtenir mon URL d'accès direct 
+Holen Sie sich meine direkte Zugriffs-URL 
 ==============================
 
-Wenn du avez un Service Pack, Jeedom vous met à disposition une URL
-d'accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur
-votre box ou autre.
+Wenn Sie ein Service Pack haben, erhalten Sie von Jeedom eine URL
+Direkter Zugriff auf Ihr Jeedom, ohne die Ports öffnen zu müssen
+deine Box oder andere.
 
-Pour la configurer il vous suffit d'aller dans
-Général → Administration → Configuration
+Um es zu konfigurieren, gehen Sie einfach zu
+Allgemein → Administration → Konfiguration
 
-Puis d'aller sur la partie "Configuration réseaux"
+Gehen Sie dann zum Abschnitt "Netzwerkkonfiguration""
 
 ![premier dns2](images/premier-dns2.png)
 
-Une fois ici, il vous suffit d'Aktivieren "Utiliser les DNS Jeedom" puis
-sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
-niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de
-la page profil du Markt
+Sobald Sie hier sind, müssen Sie nur noch "Use Jeedom DNS" aktivieren
+Klicken Sie in der Zeile "Verwaltung" auf "Neustart", und Ihre URL wird unter angezeigt
+Auf HTTP-Statusebene können Sie diese natürlich anpassen
+die Marktprofilseite
 
 > **Wichtig**
 >
-> Wenn du venez de lier votre Jeedom à votre compte Markt il faut
-> attendre 24 à 48h avant de pouvoir utiliser le service DNS
+> Wenn Sie gerade Ihr Jeedom mit Ihrem Marktkonto verknüpft haben, müssen Sie dies tun
+> Warten Sie 24 bis 48 Stunden, bevor Sie den DNS-Dienst verwenden können
 
-Changer le mot de passe par défaut de Jeedom 
+Ändern Sie das Standardkennwort von Jeedom 
 ============================================
 
-Une des étapes importantes est de Passwort ändern par défaut de
-votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
-(en haut à droite) :
+Einer der wichtigen Schritte ist das Ändern des Standardkennworts von
+Klicken Sie in Ihrem Jeedom-Konto auf Administration → Benutzer
+(oben rechts):
 
-Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur
-**admin** et à cliquer sur **Passwort ändern** :
+Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen
+**admin** und klicken Sie auf **Passwort ändern** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
-Une fenêtre va vous demander le mot de passe. Attention à bien le
-retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
+In einem Fenster werden Sie nach dem Passwort gefragt. Achten Sie auf die
+Denken Sie daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen :
 
 ![premier changeuser3](images/premier-changeuser3.png)
 
-Voilà, vous avez changé le mot de passe du compte admin, pour plus
-d'information sur cette page cliquez
+Hier haben Sie das Passwort für das Administratorkonto geändert, um mehr zu erfahren
+Informationen auf dieser Seite klicken
 [ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/user.asciidoc).
 
-Créer mon premier objet 
+Erstelle mein erstes Objekt 
 =======================
 
-Vous allez créer votre premier objet, mais d'abord il faut savoir ce
-qu'est un objet.
+Sie werden Ihr erstes Objekt erstellen, aber zuerst müssen Sie wissen, was
+Was ist ein Objekt?.
 
-Dans Jeedom, cela peut être tout et n'importe quoi, mais il est
-recommandé de le faire en fonction de vos pièces.
+In Jeedom kann es alles und jedes sein, aber es ist
+empfohlen, es entsprechend Ihren Teilen zu tun.
 
 > **Spitze**
 >
-> Il est possible de définir des relations entre les objets, exemple :
-> le salon appartient à l'objet rez-de-chaussée qui appartient lui-même
-> à l'objet maison.
+> Es ist beispielsweise möglich, Beziehungen zwischen Objekten zu definieren:
+> Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst gehört
+> zum Hausobjekt.
 
-Pour créer un objet, rien de plus simple :
+Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
--   Allez sur Outils → Objets
+-   Gehen Sie zu Extras → Objekte
 
--   Cliquez sur le bouton ajouter :
+-   Klicken Sie auf die Schaltfläche Hinzufügen:
 
 ![premier objet2](images/premier-objet2.png)
 
--   Jeedom va vous demander le nom de celui-ci :
+-   Jeedom wird dich nach dem Namen fragen:
 
 ![premier objet3](images/premier-objet3.png)
 
--   Validez. Voilà votre premier objet créé :
+-   Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
 ![premier objet4](images/premier-objet4.png)
 
-Pour plus d'informations sur cette partie cliquez
+Für weitere Informationen zu diesem Teil klicken Sie auf
 [ici](https://github.com/jeedom/core/blob/stable/doc/de_DE/object.asciidoc)
 
-Installer mon premier plugin 
+Installiere mein erstes Plugin 
 ============================
 
-Un plugin permet d'ajouter des fonctionnalités à Jeedom. Il en existe
-des centaines. Beaucoup sont gratuits, d'autres peuvent être payants.
-Pour accéder à la page des Plugins aller sur Plugins → Gestion des
+Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt einige
+Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein.
+Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Verwalten
 Plugins.
 
-Il vous suffit ensuite de cliquer sur Markt :
+Dann klicken Sie einfach auf Markt:
 
 ![premier plugin2](images/premier-plugin2.png)
 
-Vous allez ensuite avoir la liste de tous les Plugins qu'il est possible
-d'installer.
+Sie haben dann die Liste aller möglichen Plugins
+zu installieren.
 
 > **Wichtig**
 >
-> Attention, certains sont officiels et d'autres non. En cas de souci
-> avec un plugin non officiel, l'équipe Jeedom ne pourra être tenue pour
-> responsable.
+> Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle einer Besorgnis
+> Mit einem inoffiziellen Plugin kann das Jeedom-Team nicht festgehalten werden
+> verantwortlich.
 
 ![premier plugin3](images/premier-plugin3.png)
 
-En cliquant sur un plugin vous obtenez sa fiche :
+Durch Klicken auf ein Plugin erhalten Sie dessen Datei:
 
 ![premier plugin4](images/premier-plugin4.png)
 
-Vous retrouvez alors : 
+Sie finden dann : 
 
-- des boutons pour installer le plugin : la version stable est fortement recommandée, 
-- un bouton pour supprimer le plugin, 
-- une brève description, 
-- un lien vers la documentation du plugin, 
-- un lien vers le changelog (les dernières modifications apportées), 
-- la compatibilité avec les différentes plateformes, 
-- les avis des utilisateurs, 
-- la façon d'utiliser le plugin, 
-- des informations complémentaires comme l'auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
+- Schaltflächen zum Installieren des Plugins : Die stabile Version wird dringend empfohlen, 
+- eine Schaltfläche zum Entfernen des Plugins, 
+- eine kurze Beschreibung, 
+- ein Link zur Plugin-Dokumentation, 
+- ein Link zum Changelog (die letzten vorgenommenen Änderungen), 
+- Kompatibilität mit verschiedenen Plattformen, 
+- Nutzerbewertungen, 
+- wie man das Plugin benutzt, 
+- zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
-Pour plus d'informations sur les Plugins cliquez [ici](https://jeedom.github.io/core/de_DE/plugin).
+Für weitere Informationen zu Plugins klicken Sie auf [hier] (https:// jeedom.github.io/core/de_DE/plugin).
 
 Unterstützung 
 =======
 
-Jeedom aborde des champs très vastes et évoluant de jour en jour.
-Cependant, de nombreux moyens sont mis à votre disposition pour trouver
-de l'aide et poser vos questions.
+Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.
+Es gibt jedoch viele Möglichkeiten, die Sie finden können
+Hilfe und stellen Sie Ihre Fragen.
 
-La documentation de Jeedom 
+Jeedom Dokumentation 
 --------------------------
 
-Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
+Eine vollständige Dokumentation finden Sie [hier] (https:// jeedom.fr / doc):
 
-Celle-ci se compose de plusieurs catégories :
+Dies besteht aus mehreren Kategorien:
 
--   Kern : une partie pour le "coeur" de Jeedom,
+-   Kern : ein Teil für das "Herz" von Jeedom,
 
--   Premiers-pas : Une partie (où vous êtes actuellement) pour les
-    premiers éléments à connaître,
+-   Erste Schritte : Ein Abschnitt (wo Sie gerade sind) für
+    erste Dinge zu wissen,
 
--   Installation : Tout ce qui concerne l'installation de Jeedom,
+-   Installation : Alles über die Installation von Jeedom,
 
--   Howto : Des tutoriels pour progresser dans divers domaines,
+-   Howto : Tutorials zum Fortschritt in verschiedenen Bereichen,
 
--   Plugins : Les documentations des différents Plugins officiels de
+-   Plugins : Die Dokumentation der verschiedenen offiziellen Plugins aus
     Jeedom,
 
--   les autres : diverses pages sur les différents protocoles utilisés
-    dans Jeedom, la présentation de Jeedom, des listes de
-    compatibilité, etc.
+-   die anderen : verschiedene Seiten zu den verschiedenen verwendeten Protokollen
+    in Jeedom, die Darstellung von Jeedom, Listen von
+    Kompatibilität usw..
 
-Vous trouverez également en dessous la liste des documentations pour les
-Plugins tiers.
+Nachfolgend finden Sie auch die Liste der Dokumentationen für
+Plugins von Drittanbietern.
 
-N'hésitez pas à utiliser la fonction **Suchen nach** en haut à droite de
-la page pour trouver les pages en fonction d'un mot précis.
+Fühlen Sie sich frei, die Funktion zu nutzen **Suchen nach** oben rechts von
+Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
 
-Le forum 
+Das Forum 
 --------
 
-Vous le trouverez [ici](https://jeedom.com/forum) .
+Sie finden es [hier] (https:// jeedom.com / forum) .
 
-Le forum est très actif et contient énormément d'informations. Wenn du
-avez une question, n'hésitez pas à la poser. Vous aurez une réponse en
-moins d'une heure (en moyenne). Attention cependant, le forum est
-maintenu par la communauté Jeedom, composée de bénévoles, et non par la
-société Jeedom.
+Das Forum ist sehr aktiv und enthält viele Informationen. Wenn du
+Haben Sie eine Frage, zögern Sie nicht, sie zu stellen. Sie werden eine Antwort in haben
+weniger als eine Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum ist
+unterhalten von der Jeedom-Gemeinschaft, bestehend aus Freiwilligen, und nicht von der
+Jeedom Firma.
 
 ![premier support3](images/premier-support3.png)
 
-Les demandes de support (ou tickets) 
+Unterstützunganfragen (oder Tickets) 
 ------------------------------------
 
 > **Wichtig**
 >
-> Attention, toute demande de support nécessite obligatoirement d'avoir
-> un compte sur le Markt.
+> Bitte beachten Sie, dass jede Unterstützunganfrage vorliegen muss
+> ein Konto auf dem Markt.
 
-Wenn du n'avez pas trouvé de solution à votre problème, en dernier
-recours, vous pouvez faire une demande de support à l'équipe Jeedom.
-Cette demande passe par un ticket. Il est possible d'en ouvrir un de
-plusieurs façons :
+Wenn Sie keine Lösung für Ihr Problem gefunden haben, zuletzt
+Rückgriff können Sie Unterstützung vom Jeedom-Team anfordern.
+Diese Anfrage geht durch ein Ticket. Es ist möglich, eine von zu öffnen
+viele Möglichkeiten:
 
--   Directement à partir de Jeedom (méthode conseillée) : où que vous
-    soyez dans Jeedom, il y a un point d'exclamation en haut à droite
-    qui permet de faire une demande de support :
+-   Direkt von Jeedom (empfohlene Methode): wo immer du bist
+    In Jeedom befindet sich oben rechts ein Ausrufezeichen
+    Hier können Sie Unterstützung anfordern :
 
 ![premier support4](images/premier-support4.png)
 
--   Si pour une raison ou pour une autre vous n'avez pas accès à votre
-    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Markt :
+-   Wenn Sie aus irgendeinem Grund keinen Zugriff auf Ihre haben
+    Jeedom, Sie können jederzeit ein Ticket vom Markt öffnen :
 
-    -   soit avec le point d'exclamation en haut à droite,
+    -   entweder mit dem Ausrufezeichen oben rechts,
 
-    -   soit en allant sur votre profil (cliquez ensuite sur le bouton
-        "Ouvrir une demande de support").
+    -   Gehen Sie entweder zu Ihrem Profil (und klicken Sie dann auf die Schaltfläche
+        "Unterstützunganfrage öffnen ").
 
 ![premier support5](images/premier-support5.png)
 
-Toute la suite des échanges se fera par mail.
+Alle weiteren Austausche erfolgen per E-Mail.
 
 > **Spitze**
 >
-> Si, lors de l'ouverture d'un ticket, vous obtenez une erreur indiquant
-> que vous avez atteint votre quota, c'est que vous êtes limités à un
-> certain nombre de demandes de support par mois, en fonction de votre
+> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird
+> Wenn Sie Ihr Kontingent erreicht haben, sind Sie auf eines beschränkt
+> Anzahl der Unterstützunganfragen pro Monat, abhängig von Ihrer
 > Service Pack.
 
-Les différents services packs sont : \* Community (gratuit) : 2
-tickets/mois (sur Plugins payants uniquement) \* Power : 10 tickets/mois
-\* Pro : 100 tickets/mois
+Die verschiedenen Service Packs sind : \ * Community (kostenlos): 2
+Tickets / Monat (nur für kostenpflichtige Plugins) \ * Power: 10 Tickets / Monat
+\ * Pro: 100 Tickets / Monat
 
-Vous pouvez retrouver le détail des services packs
+Sie finden die Details der Service Packs
 [ici](https://www.jeedom.com/site/fr/soft.html#obtenir)

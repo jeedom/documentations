@@ -1,335 +1,335 @@
-Fibaro FGFS-101 "Flood Sensor" 
+" 
 ==============================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/fibaro.fgfs101/module.jpg)
 
- \
+\
 
--   **Le visuel jeedom**
+-   **El visual de la libertad**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Le capteur FGFS-101 est compact et possède une grande variété de
-fonctions. Avec sa technologie de pointe et de précision, le capteur
-Flood Fibaro vous alerte d'une inondation menaçante, ou une augmentation
-ou baisse rapide de la température.
 
-Il est équipé d'un capteur d'inclinaison qui envoie une alerte
-immédiatement au réseau Z-Wave si le détecteur est déplacé ou volé
-(remonte au contrôleur Z-Wave l'information d'inclinaison ou de
-mouvement).
 
-Ce détecteur d'inondation et de température universel peut être alimenté
-par batterie ou par une alimentation externe 12 ou 24 VDC. Lorsqu'il est
-connecté à une source d'alimentation externe, la batterie sert de source
-d'alimentation de secours.
 
-Grâce à sa sonde de température vous pouvez contrôler la température de
-votre sol. Il est étanche, en cas d'inondation il flotte à la surface de
-l'eau.
+.
 
-Il dispose également d'une alarme sirène qui peut retentir en cas de
-problème. Vous pouvez raccorder la sortie contact sec à un système
-d'alarme existant. Une LED en façade permettant de vérifier l'état du
-FGFS-101.
 
-Ce capteur intègre un testeur de portée de réseau Z-Wave,ce qui vous
-assure du bon fonctionnement du capteur lors de son installation.
 
- \
+
+.
+
+
+. 
+
+.
+
+
+. 
+.
+
+
+
+. 
+.
+
+
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Détecteur d'inondation (présence d'eau via contacts)
+-   
 
--   Détecteur de température
+-   
 
--   Détecteur d'inclinaison
+-   
 
--   Alarme sonore et visuelle
+-   
 
--   Testeur de portée Z-Wave
+-   
 
--   Répeteur Z-Wave ?? (voir rubrique "Bon à savoir")
+-    ?? 
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave
+-   Tipo de módulo : Transmisor de onda Z
 
--   Module pouvant être alimenté en externe : 12 – 24 VDC
+-    : 
 
--   Tipo de batería : CR123A
+-   Tipo de batería : 
 
--   Autonomie de la batterie : 2 años
+-    : 2 años
 
--   Consommation sur alimentation externe : 0,4W
+-    : 
 
--   Courant maximal supporté en sortie (ALARM NC, TAMP NC) :25mA
+-    :
 
--   Tension maximale supportée en sortie : 40V (AC ou DC)
+-    : 
 
--   Fréquence : 868,42 MHz
+-   Frecuencia : 
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions : 72 x 28 mm (diamètre x hauteur)
+-   Dimensiones : 
 
--   Temperatura de fonctionnement : 0-40°C (-20°C à 70°C si
-    alimentation externe)
+-   Temperatura de funcionamiento : 
+    
 
--   Gamme de mesure de la température : -20 à 100°C
+-    : -
 
--   Précision de la mesure : 0,5°C (dans une gamme de 0 à 40°C)
+-    : 0.5 ° C (en un rango de 0 a 40 ° C)
 
--   Normes : EMC 2004/108/EC et R&TTE 199/5/WE
+-   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Modelo : FGFS101 Flood Sensor
+-   Modelo : Sensor de inundación FGFS101
 
--   Fabricante : FIBARO System
+-   Fabricante : Sistema FIBARO
 
--   Fabricante ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 2816
+-   Tipo de producto : 2816
 
--   Produit ID : 4097
+-   ID del producto : 4097
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton central d'inclusion,repéré TMP, conformément à sa documentation
-> papier (la languette noir).
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión central, TMP identificado, de acuerdo con su documentación
+> papel (la pestaña negra).
 
- \
+\
 
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/fibaro.fgfs101/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Fuite : c'est la commande d'alerte du module (pour la présence
-    d'eau, inondation …​)
+-   Fuga : este es el comando de alerta del módulo (para la presencia
+    agua, inundaciones ...)
 
--   Temperatura : c'est la commande de mesure de la température
+-   Temperatura : es el comando de medición de temperatura
 
--   Sabotage : c'est la commande de sabotage. Elle signale l'ouverture
-    du boitier
+-   Sabotaje : este es el comando de sabotaje. Señala la apertura
+    del caso
 
--   Batería : c'est la commande batterie
+-   Batería : es el comando de la batería
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite il est nécessaire d'effectuer la configuration du module en
-fonction de votre installation. Il faut pour cela passer par le bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces es necesario configurar el módulo en
+dependiendo de su instalación. Esto requiere pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgfs101/config1.jpg)
 
 ![Config2](images/fibaro.fgfs101/config2.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   Wakeup : c'est l'intervalle de réveil du module (valeur
-    recommandée 21600)
+-   Despertador : este es el intervalo de activación del módulo (valor
+    recomendado 21600)
 
--   1\. Délai d'annulation de l'alarme après détection d'une inondation :
+-   1 \. Retraso de cancelación de alarma después de la detección de una inundación :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
-    s'arrête instantanément)
+    se detiene al instante)
 
--   2\. Choix du type d'alarme. Valor :
+-   2 \. Elección del tipo de alarma.. Valor :
 
-        0 : Alarme sonore et visuelle désactivée
-        1 : Alarme sonore désactivée et visuelle activée
-        2 : Alarme sonore activée et visuelle désactivée
-        3 : Alarme sonore et visuelle activée.
+        0 : Alarma audible y visual desactivada
+        1 : Alarma sonora desactivada y alarma visual activada
+        2 : Alarma sonora activada y alarma visual desactivada
+        3 : Alarma audible y visual activada.
 
--   10\. Temps de report entre deux relevés de température : de 1 à 65535 s
-    (300 par défaut). Attention à ne pas mettre une valeur de report trop
-    rapprochée sous peine de voir la batterie du module fondre à toute
-    velocidad ! (1800 est recommandé)
+-   10 \. Tiempo de transferencia entre dos lecturas de temperatura. : 1 a 65,535 s
+    (300 por defecto). Tenga cuidado de no poner un valor de arrastre también
+    muy juntos bajo pena de ver la batería del módulo derretirse
+    velocidad ! (Se recomienda 1800)
 
--   12\. Écart de température entre deux reports : de 1 à 1000 (50 par défaut
-    = 0,5°). En accord avec le paramètre 10, il est également possible de
-    gérer le report des températures en fonction de la variation de
-    ces dernières.
+-   12 \. Diferencia de temperatura entre dos informes. : de 1 a 1000 (50 por defecto
+    = 0.5 °). De acuerdo con el parámetro 10, también es posible
+    gestionar la transferencia de temperatura según la variación de
+    estos últimos.
 
--   50\. Définition de l'alarme de température basse : de -10000 à + 10000
-    (1500 par défaut = 15°C) Permet de déclencher une alarme lorsque la
-    température descend en dessous d'un certain seuil.
+-   50 \. Configurar la alarma de baja temperatura : de -10000 a + 10000
+    (1500 por defecto = 15 ° C) Se utiliza para activar una alarma cuando el
+    la temperatura cae por debajo de cierto umbral.
 
--   51.Définition de l'alarme de température haute : de -10000 à + 10000
-    (3500 par défaut = 35°C) Permet de déclencher une alarme lorsque la
-    température passe au dessus d'un certain seuil.
+-   51.Configurar la alarma de alta temperatura : de -10000 a + 10000
+    (3500 por defecto = 35 ° C) Se utiliza para activar una alarma cuando el
+    la temperatura supera un cierto umbral.
 
--   73\. Compensation de température : de -10000 à + 10000 (0 par défaut
-    = 0°C) Permet de définir un décalage entre la température du capteur et
-    la température réelle
+-   73 \. Compensación de temperatura : de -10000 a + 10000 (0 por defecto
+    = 0 ° C) Se utiliza para definir un desplazamiento entre la temperatura del sensor y
+    la temperatura actual
 
--   75\. Définition de la durée de l'alarme : de 0 à 65535s (0 par défaut,
-    L'alarme s'arrête dès quelle ne détecte plus de défaut.)
+-   75 \. Establecer la duración de la alarma : de 0 a 65535s (0 por defecto,
+    La alarma se detiene tan pronto como ya no detecta una falla).
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit
-associé à minima aux groupes 1, 4 et 5:
+Para un funcionamiento óptimo de su módulo. Jeedom debe ser
+asociado al menos con los grupos 1, 4 y 5:
 
- \
+\
 
 ![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
-Alimenté par l'extérieur ce module permet de faire office de répéteur
-Z-wave (information non confirmée actuellement)
+Alimentado desde el exterior, este módulo puede usarse como repetidor
+Onda Z (información no confirmada actualmente)
 
-Le cablage pour une alimentation extérieure.  \
+El cableado para una fuente de alimentación externa. \
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
+Para activar este módulo, presione el botón central 3 veces
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
+Este módulo se activa presionando 3 veces en su botón de inclusión.
 
- \
+\
 
-Ce module est, par défaut, un module sur batterie, la nouvelle
-configuration sera prise en compte au prochain wakeup.
+Este módulo es, por defecto, un módulo de batería, el nuevo
+la configuración se tendrá en cuenta en la próxima activación.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
- \
-Detail d'utilsation :
+\
+Detalle de uso :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
-Documentation fibaro (en) :
-<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
+Documentación de fibaro :
+<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
 
- \
+\
 

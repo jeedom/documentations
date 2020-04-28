@@ -1,221 +1,221 @@
-Philio PST02 C - 3 en 1 Öffnung 
+ 
 =================================
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/philio.pst02c/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-Le détecteur ZIP-PSM01 propose 3 fonctions différentes : détection
-d'ouverture, capteur de Temperatur et détecteur de luminosité. Es ist
-compose de deux parties : un détecteur et un aimant. Ils sont conçus
-pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la
-partie qui s'ouvre et le détecteur sur la partie fixe.
+ : 
+. Es ist
+ : . 
 
-L'ouverture de la porte ou de la fenêtre éloignera l'aimant du
-détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave
-d'alarme, si le système est armé (ce signal peut être exploité par une
-sirène ou par une box domotique par exemple). Le capteur peut également
-être utilisé pour le contrôle automatique de l'éclairage, en fonction du
-niveau de luminosité. Par exemple, le capteur enverra un signal à
-l'interrupteur Z-Wave pour allumer la lumière lorsque la porte s'ouvre
-et que la pièce est sombre.
+.
 
-Le détecteur remontera aussi la luminosité et la Temperatur, soit en
-cas de changement important, et à chaque fois que l'ouverture/fermeture
-est détectée.
 
-Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
-d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
-existant.
 
- \
+
+. 
+
+Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
+Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
+und der Raum ist dunkel.
+
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
+im Falle einer wesentlichen Änderung und jedes Mal das Öffnen / Schließen
+erkannt wird.
+
+Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
+Integrieren Sie diesen Detektor in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
+vorhanden.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Détecteur 3 en 1: Öffnung, Temperatur, lumière
+-   3 in 1 Detektor: Blende, Temperatur, Licht
 
--   Adopte la récente puce Z-Wave 400series pour supporter les
-    opérations multicanaux et un débit de données plus
-    élevé (9.6/40/100kbps)
+-   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
+    Mehrkanalbetrieb und mehr Datendurchsatz
+    hoch (9,6 / 40 / 100kbps)
 
--   Utilise le SDK Z-Wave 6.02
+-   Verwendet das Z-Wave 6.02 SDK
 
--   Portée de l'antenne optimisée
+-   Optimierte Antennenreichweite
 
--   Utilisation pour des applications domotique ou de sécurité
+-   Verwendung für Hausautomations- oder Sicherheitsanwendungen
 
--   Bouton pour inclure/exclure le détecteur
+-   Taste zum Ein- / Ausschließen des Detektors
 
--   Autoprotection
+-   Selbstschutz
 
--   Indication de batterie faible
+-   Anzeige für niedrigen Batteriestand
 
--   Petit, discret et esthétique
+-   Klein, diskret und ästhetisch
 
--   Facilité d'utilisation et d'installation
+-   Benutzerfreundlichkeit und Installation
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 pile 3V CR123A
+-   Versorgung : 1 CR123A 3V Batterie
 
--   Durée de vie des piles : 3 ans (pour 14 déclenchements par jour)
+-   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
 
--   Fréquence : 868.42 MHz
+-   Frequenz : 868.42 MHz
 
--   Distance de transmission : 30m en intérieur
+-   Übertragungsentfernung : 30m drinnen
 
--   Capteur de Temperatur : -10 à 70° C
+-   Temperatursensor : -10 bis 70 ° C.
 
--   Helligkeitssensor : 0 à 500 lux
+-   Helligkeitssensor : 0 bis 500 Lux
 
--   Dimensions :
+-   Abmessungen :
 
--   Détecteur : 28 x 96 x 23 mm
+-   Detektor : 28 x 96 x 23 mm
 
--   Aimant : 10 x 50 x 12 mm
+-   Magnet : 10 x 50 x 12 mm
 
--   Poids : 52g
+-   Gewicht : 52 g
 
--   Temperatur de fonctionnement : -10 à 40° C
+-   Betriebstemperatur : -10 bis 40 ° C.
 
--   Humidité de fonctionnement : 85%RH max
+-   Betriebsfeuchtigkeit : 85% rF max
 
--   Norme CE : EN300 220-1
+-   CE-Norm : EN300 220-1
 
--   Certification Z-Wave : ZC08-13050003
+-   Z-Wave-Zertifizierung : ZC08-13050003
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Philio Technology Corporation
+-   Machen Sie : Philio Technology Corporation
 
--   Name : PST02-C Door/Window 3 in 1 sensor
+-   Name : PST02-C Tür / Fenster 3 in 1 Sensor
 
--   Fabricant ID : 316
+-   Hersteller ID : 316
 
--   Type Produit : 2
+-   Produkttyp : 2
 
--   Produit ID : 14
+-   Produkt-ID : 14
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
+> Einschlussknopf gemäß seiner Papierdokumentation.
 
- \
+\.
 
 ![inclusion](images/philio.pst02c/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées au module seront
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/philio.pst02c/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Öffnung : c'est la commande qui remontera une détection
-    d'ouverture
+-   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
+    Öffnung
 
--   Temperatur : c'est la commande qui permet de remonter la
+-   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit : c'est la commande qui permet de remonter la luminosité
+-   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Batterie : c'est la commande batterie
+-   Batterie : Es ist der Batteriebefehl
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
 
- \
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -223,117 +223,117 @@ paramètres)
 
 ![Config3](images/philio.pst02c/config3.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   2: permet de régler le signal envoyé aux modules dans le groupe
-    d'association 2
+-   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
+    Verein 2
 
--   4: permet de régler le niveau de luminosité à partir duquel le
-    signal défini en paramètre 2 sera envoyé aux modules associés au
-    groupe 2
+-   4: Stellt die Helligkeitsstufe ein, ab der die
+    Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
+    Gruppe 2
 
--   5: mode de fonctionnement (se reporter sur la
-    documentation constructeur) Valeur recommandée : 8
+-   5: Betriebsart (siehe die
+    Herstellerdokumentation) Empfohlener Wert : 8
 
--   6: mode de fonctionnement du multi-sensor (se reporter sur la
-    documentation constructeur) Valeur recommandée : 4
+-   6: Multisensor-Betriebsart (siehe
+    Herstellerdokumentation) Empfohlener Wert : 4
 
--   7: mode de fonctionnement personnalisée du multi-sensor (se reporter
-    sur la documentation constructeur) Valeur recommandée : 20 (pour
-    avoir l'ouverture de fonctionnelle)
+-   7: personalisierte Multisensor-Betriebsart (siehe
+    auf der Dokumentation des Herstellers) Empfohlener Wert : 20 (für
+    die funktionale Öffnung haben)
 
--   9: permet de définir au bout de combien de temps le signal OFF sera
-    envoyé aux modules associés au groupe 2
+-   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
+    wird an Module gesendet, die der Gruppe 2 zugeordnet sind
 
--   10: permet de définir la durée entre deux Berichts de batterie (une
-    unité = parametre 20)
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
+    Einheit = Parameter 20)
 
--   11: permet de définir la durée entre deux Berichts auto d'ouverture
-    (une unité = parametre 20)
+-   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
+    (eine Einheit = Parameter 20)
 
--   12: permet de définir la durée entre deux Berichts auto de
-    luminosité (une unité = parametre 20) Valeur recommandée : 3
+-   12: Hier können Sie die Dauer zwischen zwei Auto definieren
+    Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
 
--   13: permet de définir la durée entre deux Berichts auto de
-    Temperatur (une unité = parametre 20) Valeur recommandée : 2
+-   13: Hier können Sie die Dauer zwischen zwei Auto definieren
+    Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
 
--   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
-    recommandée : 10
+-   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
+    empfohlen : 10
 
--   21: valeur de variation en °F de Temperatur pour déclencher un
+-   21: Temperaturänderungswert in ° F zum Auslösen von a
     Bericht
 
--   22: valeur en % de variation de luminosité pour déclencher un
-    Bericht Valeur recommandée : 10
+-   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
+    Empfohlenen Wert melden : 10
 
- \
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède deux groupes d'association, seul le premier est
-indispensable.
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
+wesentlich.
 
- \
+\.
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Visuel alternatif 
+### Alternative visuelle 
 
- \
+\.
 
 ![vuewidget](images/philio.pst02c/vuewidget.jpg)
 
- \
+\.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   relachez le bouton tamper et réappuyez dessus
+-   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Ce module se réveille en appuyant sur son bouton tamper.
+Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+beim nächsten Aufwachen berücksichtigt.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

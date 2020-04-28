@@ -1,299 +1,299 @@
-PolyLock 
+ 
 ========
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/polycontrol.polylock/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
  
 
-Sécurisez votre maison en utilisant la serrure électronique Z-Wave de
-Poly-Control !
 
-La serrure électronique Poly-Lock est prévue pour s'adapter à presque
-toutes les portes dans le monde. Elle se monte très facilement en 5
-minutes, il faut juste changer le cylindre de votre porte.
+ !
 
-Une fois couplé à votre contrôleur Z-Wave (tel que les systèmes Vera de
-VeraControl), vous pouvez avoir un contrôle complet de votre serrure
-depuis n'importe quel ordinateur ou smartphone, peu importe où vous
-soyez dans le monde. Il est également possible d'utiliser la serrure
-avec le clavier sans fil Poly-Pad pour ouvrir ou verrouiller la porte.
 
-Il est donc possible de verrouiller votre maison d'une manière similaire
-à verrouiller votre voiture - avec une télécommande, en appuyant
-simplement sur un bouton et votre maison est sécurisée. La serrure
-Poly-Control peut également fonctionner avec d'autres scènes Z-Wave, où
-les lumières s'allument, et le système d'alarme est désactivé lorsque
-déverrouillé via votre télécommande.
+. 
+.
 
-Le système Poly-Control peut être utilisé dans un environnement
-domestique ou de travail. La serrure Poly-Lock est alimentée par
-batterie, et a été testée pour fonctionner pendant 1 an, sans
-remplacement de la batterie.
 
- \
+
+
+. 
+.
+
+
+
+. 
+
+
+.
+
+
+. 
+
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Contrôlez votre porte d'entrée à distance
+-   
 
--   S'adapte à la plupart des portes
+-   
 
--   Peut s'intégrer dans des scènes Z-Wave, par exemple pour un système
-    d'alarme
+-   
+    
 
--   Convient à un usage domestique ou d'entreprise
+-   
 
--   Molette pour fermeture manuelle
+-   
 
--   Installation facile
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Suministro : Pile Lithium-Chloride 3.6V
+-   Suministro : 
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les
-    bâtiments
+-   Alcance : 
+    
 
--   Dimensions : 120 x 52 x 60 mm (L x l x h)
+-   Dimensiones : 
 
--   Peso : 370g
+-   Peso : 
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Poly-Control
+-   Hacer : 
 
--   Nombre : Polylock
+-   Nombre : 
 
--   Fabricant ID : 270
+-   ID del fabricante : 270
 
--   Type Produit : 1
+-   Puntao de producto : 1
 
--   Produit ID : 1
+-   ID del producto : 1
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> 
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/polycontrol.polylock/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/polycontrol.polylock/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : c'est la commande qui remontera la dernière action
-    éxécutée (ouvrir/fermer)
+-   Estado : 
+    
 
--   Abrir : c'est la commande qui permet d'ouvrir la serrure
+-   Abrir : 
 
--   Cerca : c'est la commande qui permet de fermer la serrure
+-   Cerca : 
 
--   Batería : c'est la commande batterie
+-   Batería : es el comando de la batería
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Advertencia**
 >
-> Bien que ce module soit sur batterie il utilise la technologie Flirs.
-> Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
-> récupérera toutes modifications de configutation en quasi temps réel
-> comme un module secteur.
+> .
+> 
+> 
+> .
 
- \
+\
 
-Si vous voulez effectuer la configuration du module en fonction de votre
-installation, il faut pour cela passer par la bouton "Configuración" du
-plugin OpenZwave de Jeedom.
 
- \
+
+Complemento Jeedom OpenZwave.
+
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   0: permet de changer le sens de rotation pour les commandes
-    ouvrir/fermer
+-   0: 
+    
 
--   1: permet de définir combien de temps va tourner la serrure pour
-    ouvrir (0 à 15 s)
+-   1: 
+    
 
--   2: permet de définir combien de temps va tourner la serrure pour
-    fermer (0 à 15 s)
+-   2: 
+    
 
--   3: permet de définir la vitesse de rotation de la serrure (0 à 15,
-    15 étant le plus lent)
+-   3: ,
+    
 
--   4: permet de choisir parmi différents modes de fonctionnement
-    (couple, force, puissance etc…​)
+-   4: 
+    
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède un seul groupe d'association.
+.
 
- \
+\
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
- \
+\
 
-Exemples d'utilisation 
+ 
 ----------------------
 
- \
+\
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
- \
+\
 
-L'élément déclencheur est la commande évènement d'un clavier zipato
-(cela peut être n'importe quoi d'autre). Si la valeur est 6 (home) on
-ferme la porte à clé. En effet on vient de rentrer donc on peut fermer
-la porte à clé. Sinon (forcément 5) on ouvre la porte à clé et 2 minutes
-après on la referme. En effet, on veut sortir, la porte s'ouvre et se
-refermera peu de temps après.
 
- \
+. 
+. 
+. 
+. 
+.
 
-Bon à savoir 
+\
+
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
-
-> **Punta**
->
-> Bien que ce module soit sur batterie il utilise la technologie Flirs.
-> Cela veut dire qu'il n'a pas de notion de wake up et de réveil. Il
-> récupérera toutes modifications de configutation en quasi temps réel
-> comme un module secteur.
-
- \
+\
 
 > **Punta**
 >
-> Ce module ne renvoit pas son état, si vous actionnez la serrure à la
-> main l'état restera le même.  \
+> .
+> 
+> 
+> .
 
-### Visuel alternatif 
+\
 
- \
+> **Punta**
+>
+> 
+> 
+
+### Visual alternativo 
+
+\
 
 ![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
 
- \
+\
 
-Wake up 
+ 
 -------
 
- \
+\
 
-Il n'y a pas de notion de wake up pour ce module.
+.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Pas de notion de wake up sur ce module, lire le paragraphe spécificités.
+.
 
- \
+\
 
 **@sarakha63**

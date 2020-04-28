@@ -1,271 +1,271 @@
-Aeotec Minimote 
+ 
 ===============
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/aeotec.minimote/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/aeotec.minimote/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-Ce mini contrôleur Aeon Labs est compatible avec une grande variété de
-modules Z-Wave tels que des interrupteurs, variateurs, détecteurs de
-mouvement, interrupteurs pour stores…​ Ainsi, vous pourrez commander à
-distance vos éclairages, appareils ou volets roulants. Avec cette
-télécommande, vous pourrez également inclure/exclure des modules de
-votre réseau Z-Wave et associer des scènes aux boutons de la
-télécommande. Un clapet coulissant dissimule les boutons permettant de
-paramétrer le réseau Z-Wave.
 
- \
+
+
+. 
+
+
+
+.
+
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Paramétrage du réseau Z-Wave (inclusion/exclusion de modules)
+-   
 
--   Permet de piloter jusqu'à 4 scènes
+-   
 
--   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
+-    : 
 
--   Functions marche/arrêt et variation
+-   
 
--   Fonction ALL ON/ALL OFF
+-   
 
--   Batterie interne rehargeable sur USB
+-   
 
--   Mise à jour du firmware par USB
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Contrôleur Z-Wave
+-   Type of module : Z-Wave controller
 
 -   Color : White
 
--   Food : batterie interne rechargeable via USB
+-   Food : 
 
--   Viewing: LED bleue et rouge
+-   Viewing: 
 
--   Fréquence : 868,42MHz
+-   Frequency : 
 
--   Portée : jusqu'à 30 m
+-   Scope : 
 
--   Dimensions : 0.8cm x 3.3cm x 9.3cm
+-   Dimensions : 0..
 
--   Température de fonctionnement : -35 to +85 °C
+-   Operating temperature : -
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Aeotec
+-   Mark : 
 
--   Name : Minimote
+-   Name : 
 
--   Fabricant ID : 134
+-   Manufacturer ID : 134
 
--   Type Produit : 1
+-   Product Type : 1
 
--   Produit ID : 3
+-   Product ID : 3
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> LEARN, conformément à sa documentation papier.
+> To put this module in inclusion mode, press the button
+> .
 
- \
+\
 
 ![inclusion](images/aeotec.minimote/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/aeotec.minimote/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Buttons : c'est la commande qui remontera le bouton appuyé
+-   Buttons : it is the command which will push the button up
 
-1 : Bouton 1 appui court
+1 : 
 
-2 : Bouton 1 appui long
+2 : 
 
-3 : Bouton 2 appuis courts
+3 : 
 
-4 : Bouton 2 appuis longs
+4 : 
 
-5 : Bouton 3 appuis courts
+5 : 
 
-6 : Bouton 3 appuis longs
+6 : 
 
-7 : Bouton 4 appuis courts
+7 : 
 
-8 : Bouton 4 appuis longs
+8 : 
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
 > **IMPORTANT**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> During a first inclusion always wake up the module just after
+> inclusion.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/aeotec.minimote/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   241: mode de fonctionnement du bouton 1 (laisser par défaut)
+-   241: 
 
--   242: mode de fonctionnement du bouton 2 (laisser par défaut)
+-   242: 
 
--   243: mode de fonctionnement du bouton 3 (laisser par défaut)
+-   243: 
 
--   244: mode de fonctionnement du bouton 4 (laisser par défaut)
+-   244: 
 
--   250: mode de fonctionnement de la télécommande (absolument laisser
-    Scene pour s'en servir en télécommande)
+-   250: 
+    
 
- \
+\
 
 ### Groups 
 
- \
+\
 
-Ce module possède quatre groupes d'association, aucun n'est nécessaire
-pour s'en servir en télécommande dans Jeedom.
 
- \
+.
+
+\
 
 ![Groupe](images/aeotec.minimote/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
 Wakeup 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+To wake up this module there is only one way :
 
--   rester appuyé 3 secondes sur le bouton LEARN
+-   
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en restant appuyé 3 secondes sur le bouton LEARN.
+.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+This module is a battery module, the new configuration will not be
+take into account that if you wake up the remote control.
 
- \
+\
 
-Note importante 
+IMPORTANT note 
 ---------------
 
- \
+\
 
 > **IMPORTANT**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> You have to wake up the module : after its inclusion, after a change
+> of the configuration, after a change of wakeup, after a
+> change of association groups
 
- \
+\
 
 **@sarakha63**

@@ -1,4 +1,4 @@
-# Sommaire
+# 
 
 - [Mettre à jour manuellement Jeedom](/documentations/es_ES/howto/jeedom.mise_a_jour_manuel)
 - [Passer jeedom ou un plugin en beta](/documentations/es_ES/howto/passer_en_beta)
@@ -8,7 +8,7 @@
 - [Comment faire une sauvegarde](/documentations/es_ES/howto/sauvegarde.comment_faire)
 - [Comment restaurer une sauvegarde](/documentations/es_ES/howto/sauvegarde.comment_recuperer)
 
-## Archive
+## 
 
 - [Clef wifi sur mini](/documentations/es_ES/howto/mini.clef_wifi)
 - [Mini guide de démarrage](/documentations/es_ES/howto/mini.demarrage)

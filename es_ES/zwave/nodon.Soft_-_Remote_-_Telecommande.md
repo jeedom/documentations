@@ -1,280 +1,280 @@
-Nodon Télécommande - Soft Remote 
+Control remoto Nodon - Control remoto suave 
 ================================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/nodon.softremote/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-La Soft Remote NodOn® peut contrôler directement n'importe quel appareil
-compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn®.
+El Soft Remote NodOn® puede controlar directamente cualquier dispositivo
+Compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn®.
 
-Elle peut également déclencher des scènes via une centrale domotique
+También puede desencadenar escenas a través de un sistema de automatización del hogar.
 compatible.
 
- \
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Contrôle n'importe quel appareil compatible Z-Wave
+-   Controla cualquier dispositivo compatible con Z-Wave
 
--   Résistante aux chocs et aux éclaboussures
+-   Resistente a golpes y salpicaduras.
 
--   Se fixe partout grâce à son aimant intégré
+-   Se adhiere a todas partes gracias a su imán integrado
 
--   6 coloris disponible
+-   6 colores disponible
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Suministro : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
--   4 boutons
+-   4 botones
 
--   Aimant intégré pour fixation sur surface métallique
+-   Imán integrado para fijación a superficie metálica.
 
--   Résistante aux chocs et aux éclaboussures
+-   Resistente a golpes y salpicaduras.
 
--   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
+-   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.06
 
--   Portée : 40m en intéieur / 80m en extérieur
+-   Alcance : 40m en interiores / 80m en exteriores
 
--   Dimensions 56\*56\*20mm
+-   Dimensiones 56 \ * 56 \ * 20 mm
 
--   Garantie 2 ans
+-   2 años de garantia
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Nodon
+-   Hacer : Nodon
 
--   Nombre : CRC-3-6-0x Soft Remote
+-   Nombre : CRC-3-6-0x Control remoto suave
 
--   Fabricant ID : 357
+-   ID del fabricante : 357
 
--   Type Produit : 2
+-   Tipo de producto : 2
 
--   Produit ID : 2
+-   ID del producto : 2
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur les deux
-> bouton (+ et 0 plein) jusqu'à que la lumière devienne rose puis
-> appuyer sur le bouton +, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione los dos
+> botón (+ y 0 lleno) hasta que la luz se vuelva rosa
+> presione el botón +, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/nodon.softremote/commandes.png)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : es el comando que empujará el botón hacia arriba
 
-+----------------+----------------+----------------+----------------+----------------+
-| Botones        | Appui          | Pulsación larga     | Relajamiento    | Doble soporte   |
-+================+================+================+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| plein)**       |                |                |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| **2 (+)**      | 20             | 22             | 21             | 23             |
-+----------------+----------------+----------------+----------------+----------------+
-| **3 (0 vide)** | 30             | 32             | 31             | 33             |
-+----------------+----------------+----------------+----------------+----------------+
-| **4 (-)**      | 40             | 42             | 41             | 43             |
-+----------------+----------------+----------------+----------------+----------------+
+| completo)**       |                |                |                |                |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| ****      | 20             | 22             | 21             | 23             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| **** | 30             | 32             | 31             | 33             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| ****      | 40             | 42             | 41             | 43             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Batería : c'est la commande qui remonte le niveau des piles
+-   Batería : 
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/nodon.softremote/config1.png)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1-2 : Permet de choisir le profil des boutons en cas d'usage en
-    central (inutile pour un usage dans Jeedom)
+-   1-2 : 
+    central (no es necesario para usar en Jeedom)
 
--   3 : Paramètre important pour dire si l'interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : Parámetro importante para decir si el interruptor debería funcionar
+    en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d'associations groupes)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+    asociaciones de grupo)
 
--   8 : Permet de choisir le mode de fonctionnement de la LED
+-   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Grupos 
 
- \
+\
 
-Ce module possède 7 groupes d'association.
+Este módulo tiene 7 grupos de asociación..
 
- \
+\
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
- \
+\
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
+    transferir información del Smart Plug al controlador principal
+    de la red.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   Grupo 2 a 5: los dispositivos de estos grupos están controlados por
+    botón correspondiente según perfil MONO
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par les
-    boutons correspondants selon le profil DUO
+-   
+    
 
- \
+\
 
 > **Importante**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> Como mínimo, Jeedom debería terminar en el grupo 1 \
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
--   Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l'inclusion. Et bien vérifier le
-    groupe d'association.
+-   Este módulo puede ser complicado en la inclusión. No dudes en
+    . 
+    grupo de asociación.
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il suffit d'appuyer sur un des boutons
+Para activar este módulo, solo presione uno de los botones
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Este módulo es un módulo de batería, la nueva configuración no será
+tenga en cuenta que si despierta el control remoto.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@lunarok**

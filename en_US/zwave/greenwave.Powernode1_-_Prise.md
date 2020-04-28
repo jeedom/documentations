@@ -1,309 +1,309 @@
-Greenwave PowerNode - 1 Outlet 
+ 
 =============================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-The module Outlet PowerNode de GreenWave est un appareil intelligent qui
-se connecte à un de vos appareils électroménagers et électroniques pour
-vous permettre de surveiller et contrôler la consommation électrique à
-distance via un navigateur Web ou un smartphone.
 
-Utilisant la technologie Z-Wave, la Outlet commandée PowerNode est
-compatible avec la plupart des box domotiques du marché comme Fibaro
-Home Center 2, eedomus ou Zipabox.
 
-La module Outlet PowerNode recueille des données sur la consommation
-d'énergie de l'appareil connecté et les transmet à la box domotique.
-Cette Outlet commandée vous permet également d'activer ou désactiver
-l'appareil à distance via un navigateur Web ou smartphone ou de définir
-un calendrier pour activer ou désactiver automatiquement votre appareil
-à des heures prédéfinies.
 
-Une petite molette sur le côté de la Outlet permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. For example "
-bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes Outlets et multiOutlets PowerNode. We peut également régler
-cette molette sur un cadenas. Cette fonction permet de verrouiller la
-Outlet afin d'éviter de l'éteindre par accident, mais le contrôle depuis
-la boxe domotique ne sera plus possible.
+.
 
-La Outlet commandée PowerNode dispose aussi d'un indicateur d'état
-lumineux qui donne différentes informations en fonction de sa couleur :
-Outlets allumées ou éteintes, portée radio limitée, mode inclusion et
+
+
+.
+
+
+.
+
+
+
+.
+
+
+. For example "
+ ". 
+. 
+. 
+
+.
+
+
+ :
+
 Exclusion.
 
-The module Outlet PowerNode est équipé d'une protection contre les
-surintensités pour protéger l'appareil connecté. La Outlet PowerNode sera
-désactivée en cas du dysfonctionnement d'un appareil défectueux ou d'un
-court-circuit. Une protection supplémentaire est assurée par le fusible
-interne situé dans la Outlet.
 
- \
+. 
+
+
+.
+
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Commander une lampe ou un appareil à distance
+-   
 
--   Module Outlet s'intégrant directement entre une Outlet électrique et
-    la charge à commander
+-   
+    
 
--   Permet le suivi de consommation de l'appareil branché
+-   
 
--   Fonction ON/OFF
+-   
 
--   Possibilité de lui affecter un numéro et une couleur afin de
-    différencier les différentes PowerNode d'une même installation
+-   
+    
 
--   Bouton We/Off directement sur la Outlet
+-   
 
--   Protection contre les surintensités
+-   
 
--   Indicateur d'état lumineux
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Food : 250V \~ AC, 50Hz
+-   Food : 
 
--   Courant de charge maximum : 10A
+-    : 
 
--   Power de charge maximale : 2400W (@ 240V)
+-    : 
 
--   Consommation en veille : 0,4 W
+-    : 
 
--   Précision de mesure : ± 0.1W
+-    : 
 
--   Protection contre les surintensités : 10A fusible interne
+-    : 
 
--   Type de Outlet : DIN49440 / CEE 7/7 (Schuko)
+-    : 
 
--   Radio Fréquence Z-Wave : 868.42MHz
+-    : 
 
--   Portée maximale Z-Wave : 30m
+-    : 
 
--   Température de fonctionnement : 0 ° C à + 25 ° C
+-   Operating temperature : 
 
--   Température de stockage : -20 ° C à + 60 ° C
+-   Storage temperature : -
 
--   Humidité maximale : 5% à 90%
+-    : 
 
--   Classe IP (Tolérance d'humidité) : IP20
+-    : 
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : GreenWave
+-   Mark : 
 
--   Name : GreenWave\[1 x Outlet\]
+-   Name : ]
 
--   Fabricant ID : 153
+-   Manufacturer ID : 153
 
--   Type Produit : 2
+-   Product Type : 2
 
--   Produit ID : 2
+-   Product ID : 2
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> inclusion présent sous la Outlet.
+> To put this module in inclusion mode, press the button
+> .
 
- \
+\
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Wece included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Wece the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/greenwave.Powernode1/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   State : C'est la commande qui permet de connaître le statut de la
+-   State : It is the command which allows to know the status of the
     Outlet
 
--   We : C'est la commande qui permet d'allumer la Outlet
+-   We : This is the command that turns on the outlet
 
--   Off : C'est la commande qui permet d'éteindre la Outlet
+-   Off : It is the command which makes it possible to extinguish the catch
 
--   Power : C'est la commande qui remonte la puissance instantanée
-    consommée
+-   Power : 
+    
 
--   Conso : C'est la commande qui remonte la consommation totale
+-    : 
 
- \
+\
 
-A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
-en un seul bouton.
 
- \
+.
+
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+You will arrive on this page (after clicking on the tab
+Settings)
 
- \
+\
 
 ![Config1](images/greenwave.Powernode1/config1.jpg)
 
- \
+\
 
-Comme vous pourrez le constater il n'y a pas beaucoup de configuration
-pour ce module.
 
- \
+.
 
-Détails des paramètres :
+\
 
- \
+Parameter details :
 
--   1 : Délai avant le clignotement du bouton : nombres de secondes
-    minimum entre deux communications (si ce délai est dépassé le bouton
-    de la Outlet clignotera)
+\
 
--   2 : Couleur selectionnée de la molette (détectée automatiquement)
+-   1 :  : 
+    
+    
 
- \
+-   2 : 
+
+\
 
 ### Groups 
 
- \
+\
 
-Ce module possède quatre groupes d'association, seul le 3ème groupe est
-indispensable.
 
- \
+essential.
+
+\
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-Contrairement à sa grande soeur multiOutlet, cette Outlet ne nécessite pas
-de polling pour remonter la consommation.
 
- \
+.
+
+\
 
 ### Reset 
 
- \
+\
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
- \
+\
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système. Il faut choisir
-PressButton.
+You can reset your consumption meter by clicking
+on this button available in the System tab. 
+.
 
- \
+\
 
-### Spécificités 
+### Specificities 
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pas de notion de wakeup sur ce module.
+No notion of wakeup on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Avez-vous associé le groupe 3 du module à Jeedom ?
+ ?
 
- \
+\
 
-Non. The module ne le permet pas. Mettez dessus un petit morceau de ruban
-adhésif noir.
+No. The module does not allow it. 
+.
 
- \
+\
 
 **@sarakha63**

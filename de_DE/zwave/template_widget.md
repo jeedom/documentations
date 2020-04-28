@@ -1,51 +1,51 @@
-Visuel Alternatif 
+Alternative visuelle 
 =================
 
- \
+\.
 
-Il faut maintenant inclure le module, pour cela, il faut se rendre dans
+Wir müssen jetzt das Modul einschließen, dafür müssen wir gehen
 le menu « Plugins », « Protocole Domotique » puis « Z-Wave ».
 
- \
+\.
 
 ![inclusion1](images/plugin/inclusion1.jpg)
 
- \
+\.
 
-Une fois sur cette page, vous allez trouver une bouton "Mode Inclusion",
-il suffit de cliquer dessus pour passer en mode inclusion :
+Auf dieser Seite finden Sie eine Schaltfläche "Einschlussmodus"",
+Klicken Sie einfach darauf, um in den Einschlussmodus zu wechseln :
 
- \
+\.
 
 ![bouton inclusion](images/plugin/bouton_inclusion.jpg)
 
- \
+\.
 
 Après avoir cliqué sur « Mode inclusion », un message apparait pour vous
-rappeler que vous êtes dans ce mode.
+Denken Sie daran, dass Sie sich in diesem Modus befinden.
 
- \
+\.
 
 ![inclusion3](images/plugin/inclusion3.jpg)
 
- \
+\.
 
-Une fois l'inclusion en cours, un message apparait , il faut donc
-patienter le temps que Jeedom intègre le module. La configuration des
-commandes se fait automatiquement une fois le module reconnu par Jeedom.
+Sobald die Aufnahme erfolgt ist, wird eine Meldung angezeigt, die Sie benötigen
+Warten Sie, während Jeedom das Modul integriert. Die Konfiguration von
+Befehle werden automatisch ausgeführt, sobald das Modul von Jeedom erkannt wurde.
 
- \
+\.
 
 ![inclusion4](images/plugin/inclusion4.jpg)
 
- \
+\.
 
 > **Spitze**
 >
-> Il est préférable d'effectuer une exclusion avant une inclusion. Pour
-> effectuer l'exclusion, rien de bien compliqué, il suffit de cliquer
+> Es ist vorzuziehen, vor einer Aufnahme einen Ausschluss zu machen. Für
+> Führen Sie den Ausschluss durch, nichts Kompliziertes, klicken Sie einfach
 > sur « Mode exclusion » et d'exclure le module, un message apparaitra
-> vous confirmant l'exclusion du module.
+> Bestätigung des Ausschlusses des Moduls.
 
- \
+\.
 

@@ -1,283 +1,283 @@
-Aeotec Keyfob 
+ 
 =============
 
- \
+\.
 
 -   **Das Modul**
 
- \
+\.
 
 ![module](images/aeotec.keyfob/module.jpg)
 
- \
+\.
 
--   **Le visuel Jeedom**
+-   **Das Jeedom Visual**
 
- \
+\.
 
 ![vuedefaut1](images/aeotec.keyfob/vuedefaut1.jpg)
 
- \
+\.
 
 Zusammenfassung 
 ------
 
- \
+\.
 
-La télécommande porte-clés Aeon Labs au design moderne et agréable
-dispose de 4 boutons permettant de contrôler tout type de dispositifs
-Z-Wave tels que des lampes, stores, etc…​
 
-Avec ses dimensions très réduites, vous pourrez facilement la mettre
-dans votre poche. Facile à utiliser et élégante, elle est équipée d'un
-anneau permettant de l'attacher à des clés, ce qui la rend disponible au
-moment de quitter la maison ou lors du retour à votre domicile.
 
-Chaque bouton permet de contrôler deux dispositifs ou scènes grâce à la
-gestion des appuis courts et longs. Cette télécommande peut être aussi
-bien utilisée comme contrôleur principal que secondaire.
 
- \
+
+Mit seinen sehr kleinen Abmessungen können Sie es leicht setzen
+in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet
+klingeln, um es an Schlüsseln zu befestigen, wodurch es verfügbar wird
+beim Verlassen des Hauses oder bei der Rückkehr nach Hause.
+
+Mit jeder Taste können Sie dank der Funktion zwei Geräte oder Szenen steuern
+Management von kurzen und langen Pressen. Diese Fernbedienung kann auch sein
+gut als primärer als sekundärer Controller verwendet.
+
+\.
 
 Funktionen 
 ---------
 
- \
+\.
 
--   Télécommande porte-clés
+-   Schlüsselanhänger Fernbedienung
 
--   Contrôleur principal ou secondaire
+-   Primärer oder sekundärer Controller
 
--   Ultra compacte et ultra design
+-   Ultra kompakt und ultra Design
 
--   4 boutons configurables
+-   4 konfigurierbare Tasten
 
--   Gère jusqu'à 8 périphériques/scènes
+-   Verwaltet bis zu 8 Geräte / Szenen
 
--   Volet de protection coulissant
+-   Gleitschutzklappe
 
--   Facilité d'utilisation et d'installation
+-   Benutzerfreundlichkeit und Installation
 
- \
+\.
 
-Caractéristiques techniques 
+Technische Daten 
 ---------------------------
 
- \
+\.
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 pile Lithium 3V CR2450
+-   Versorgung : 1 Lithium 3V CR2450 Batterie
 
--   Durée de vie de la batterie : 1 Jahr
+-   Akkulaufzeit : 1 Jahr
 
--   Fréquence: 868.42 MHz
+-   Frequenz: 868.42 MHz
 
--   Distance de transmission : 100m en champ libre
+-   Übertragungsentfernung : 100m auf freiem Feld
 
--   Température d'utilisation : -10°C à 50°C
+-   Betriebstemperatur : -10 ° C bis 50 ° C.
 
--   Dimensions : 55 x 30 x 13mm (L x l x h)
+-   Abmessungen : 55 x 30 x 13 mm (L x B x H)
 
- \
+\.
 
-Données du module 
+Moduldaten 
 -----------------
 
- \
+\.
 
--   Marque : Aeotec
+-   Machen Sie : Aeotec
 
--   Name : Key Fob
+-   Name : 
 
--   Fabricant ID : 134
+-   Hersteller ID : 134
 
--   Type Produit : 1
+-   Produkttyp : 1
 
--   Produit ID : 22
+-   Produkt-ID : 22
 
- \
+\.
 
 Konfiguration 
 -------------
 
- \
+\.
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
+Aufnahme beziehen sich darauf
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
- \
+\.
 
 > **Wichtig**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> LEARN, conformément à sa documentation papier.
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> LERNEN Sie gemäß seiner Papierdokumentation.
 
- \
+\.
 
 ![inclusion](images/aeotec.keyfob/inclusion.jpg)
 
- \
+\.
 
-Une fois inclus vous devriez obtenir ceci :
+Einmal enthalten, sollten Sie dies erhalten :
 
- \
+\.
 
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
- \
+\.
 
 ### Befehle 
 
- \
+\.
 
-Une fois le module reconnu, les commandes associées aux modules seront
+Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 verfügbar.
 
- \
+\.
 
 ![Befehle](images/aeotec.keyfob/commandes.jpg)
 
- \
+\.
 
-Voici la liste des commandes :
+Hier ist die Liste der Befehle :
 
- \
+\.
 
--   Tasten : c'est la commande qui remontera le bouton appuyé
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-1 : Bouton 1 appui court
+1 : Taste 1 kurz drücken
 
-2 : Bouton 1 appui long
+2 : Taste 1 lange drücken
 
-3 : Bouton 2 appuis courts
+3 : Taste 2 kurz drücken
 
-4 : Bouton 2 appuis longs
+4 : Taste 2 lange drücken
 
-5 : Bouton 3 appuis courts
+5 : Taste 3 kurz drücken
 
-6 : Bouton 3 appuis longs
+6 : Taste 3 lange drücken
 
-7 : Bouton 4 appuis courts
+7 : Taste 4 kurz drücken
 
-8 : Bouton 4 appuis longs
+8 : Taste 4 lange drücken
 
- \
+\.
 
 ### Konfiguration des Moduls 
 
- \
+\.
 
 > **Wichtig**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
+> Einbeziehung.
 
- \
+\.
 
-Ensuite si vous voulez éffectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Konfiguration" du plugin OpenZwave de Jeedom.
 
- \
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
+"Konfiguration "des OpenZwave-Plugins von Jeedom.
+
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\.
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+Einstellungen)
 
- \
+\.
 
 ![Config1](images/aeotec.keyfob/config1.jpg)
 
- \
+\.
 
-Détails des paramètres :
+Parameterdetails :
 
- \
+\.
 
--   250: mode de fonctionnement de la télécommande (absolument mettre
-    Scene pour s'en servir en télécommande)
+-   250: Betriebsart der Fernbedienung (absolut
+    Szene für Fernbedienung)
 
-Tous les autres paramètres ne sont utiles qu'en cas d'association direct
-entre la télécommande et des modules.
 
- \
+.
+
+\.
 
 ### Gruppen 
 
- \
+\.
 
-Ce module possède un seul et unique groupe d'association. Er ist
-indispensable.
+. Er ist
+wesentlich.
 
- \
+\.
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)
 
- \
+\.
 
-Bon à savoir 
+Gut zu wissen 
 ------------
 
- \
+\.
 
-### Spécificités 
+### Besonderheiten 
 
-Pour utiliser ce module en télécommande il faut procéder comme suit :
+Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
--   1 : Inclure la télécommande
+-   1 : Fernbedienung einschließen
 
--   2 : Réveiller la télécommande
+-   2 : Wecken Sie die Fernbedienung auf
 
--   3 : Changer le paramètre 250 à true (bien le faire même s'il
-    apparaît déjà à true)
+-   3 : 
+    
 
--   4 : Réveiller la télécommande et s'assurer que le changement à été
-    pris en compte
+-   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung vorgenommen wurde
+    berücksichtigt
 
--   5 : Changer le mode de focntionnement de la télécommande en restant
-    appuyer sur les deux boutons au dos pendant 3 secondes.
+-   5 : Ändern Sie den Betriebsmodus der Fernbedienung, während Sie bleiben
+    Drücken Sie die beiden Tasten auf der Rückseite 3 Sekunden lang.
 
-Wakeup 
+Aufwachen 
 ------
 
- \
+\.
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   rester appuyé 3 secondes sur le bouton LEARN
+-   Halten Sie die LEARN-Taste 3 Sekunden lang gedrückt
 
- \
+\.
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\.
 
-Ce module se réveille en restant appuyé 3 secondes sur le bouton LEARN.
+Dieses Modul wird aktiviert, indem Sie die LEARN-Taste 3 Sekunden lang gedrückt halten.
 
- \
+\.
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
+Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
- \
+\.
 
-Note importante 
+Wichtiger Hinweis 
 ---------------
 
- \
+\.
 
 > **Wichtig**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
+> der Konfiguration, nach einer Änderung des Aufweckens, nach a
+> Änderung der Assoziationsgruppen
 
- \
+\.
 
 **@sarakha63**

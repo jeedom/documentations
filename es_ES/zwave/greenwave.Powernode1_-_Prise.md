@@ -1,309 +1,309 @@
-Greenwave PowerNode - 1 Salida 
+ 
 =============================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-El módulo Salida PowerNode de GreenWave est un appareil intelligent qui
-se connecte à un de vos appareils électroménagers et électroniques pour
-vous permettre de surveiller et contrôler la consommation électrique à
-distance via un navigateur Web ou un smartphone.
 
-Utilisant la technologie Z-Wave, la Salida commandée PowerNode est
-compatible avec la plupart des box domotiques du marché comme Fibaro
-Home Center 2, eedomus ou Zipabox.
 
-La module Salida PowerNode recueille des données sur la consommation
-d'énergie de l'appareil connecté et les transmet à la box domotique.
-Cette Salida commandée vous permet également d'activer ou désactiver
-l'appareil à distance via un navigateur Web ou smartphone ou de définir
-un calendrier pour activer ou désactiver automatiquement votre appareil
-à des heures prédéfinies.
 
-Une petite molette sur le côté de la Salida permet de choisir une couleur
-qui représentera la pièce à laquelle elle est affectée. Por ejemplo "
-bleu pour la chambre ". Cette astuce vous permettra de différencier vos
-différentes Salidas et multiSalidas PowerNode. Uno peut également régler
-cette molette sur un cadenas. Cette fonction permet de verrouiller la
-Salida afin d'éviter de l'éteindre par accident, mais le contrôle depuis
-la boxe domotique ne sera plus possible.
+.
 
-La Salida commandée PowerNode dispose aussi d'un indicateur d'état
-lumineux qui donne différentes informations en fonction de sa couleur :
-Salidas allumées ou éteintes, portée radio limitée, mode inclusion et
+
+
+.
+
+
+.
+
+
+
+.
+
+
+. Por ejemplo "
+ ". 
+. 
+. 
+
+.
+
+
+ :
+
 Exclusión.
 
-El módulo Salida PowerNode est équipé d'une protection contre les
-surintensités pour protéger l'appareil connecté. La Salida PowerNode sera
-désactivée en cas du dysfonctionnement d'un appareil défectueux ou d'un
-court-circuit. Une protection supplémentaire est assurée par le fusible
-interne situé dans la Salida.
 
- \
+. 
+
+cortocircuito. El fusible proporciona protección adicional
+interno ubicado en el zócalo.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Commander une lampe ou un appareil à distance
+-   Controlar una lámpara o dispositivo de forma remota
 
--   Module Salida s'intégrant directement entre une Salida électrique et
-    la charge à commander
+-   Módulo de enchufe que se integra directamente entre una toma de corriente y
+    la carga a la orden
 
--   Permet le suivi de consommation de l'appareil branché
+-   Permite el monitoreo del consumo del dispositivo conectado
 
--   Fonction ON/OFF
+-   Función ON / OFF
 
--   Possibilité de lui affecter un numéro et une couleur afin de
-    différencier les différentes PowerNode d'une même installation
+-   Posibilidad de asignarle un número y un color para
+    diferenciar entre los diferentes PowerNodes de la misma instalación
 
--   Bouton Uno/Apagado directement sur la Salida
+-   Botón de encendido / apagado directamente en el zócalo
 
--   Protection contre les surintensités
+-   Protección contra sobrecorriente
 
--   Indicateur d'état lumineux
+-   Indicador de estado de luz
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Suministro : 250V \~ AC, 50Hz
+-   Suministro : 250 V CA, 50 Hz
 
--   Courant de charge maximum : 10A
+-   Corriente de carga máxima : 10A
 
--   Potencia de charge maximale : 2400W (@ 240V)
+-   Máxima potencia de carga : 2400W (@ 240V)
 
--   Consommation en veille : 0,4 W
+-   Consumo en espera : 0.4 W
 
--   Précision de mesure : ± 0.1W
+-   Precisión de medición : ± 0.1W
 
--   Protection contre les surintensités : 10A fusible interne
+-   Protección contra sobrecorriente : Fusible interno 10A
 
--   Type de Salida : DIN49440 / CEE 7/7 (Schuko)
+-   Tipo de enchufe : DIN49440 / EEC 7/7 (Schuko)
 
--   Radio Fréquence Z-Wave : 868.42MHz
+-   Radio Frecuencia Z-Wave : 868.42MHz
 
--   Portée maximale Z-Wave : 30m
+-   Rango máximo de onda Z : 30m
 
--   Température de fonctionnement : 0 ° C à + 25 ° C
+-   Temperatura de funcionamiento : 0 ° C a + 25 ° C
 
--   Température de stockage : -20 ° C à + 60 ° C
+-   Temperatura de almacenamiento : -20 ° C a + 60 ° C
 
--   Humidité maximale : 5% à 90%
+-   Humedad máxima : 5% a 90%
 
--   Classe IP (Tolérance d'humidité) : IP20
+-   Clase de IP (tolerancia a la humedad) : IP20
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : GreenWave
+-   Hacer : GreenWave
 
--   Nombre : GreenWave\[1 x Salida\]
+-   Nombre : GreenWave \ [1 x enchufe \]
 
--   Fabricant ID : 153
+-   ID del fabricante : 153
 
--   Type Produit : 2
+-   Tipo de producto : 2
 
--   Produit ID : 2
+-   ID del producto : 2
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> inclusion présent sous la Salida.
+> Para poner este módulo en modo de inclusión, presione el botón
+> inclusión presente bajo el zócalo.
 
- \
+\
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/greenwave.Powernode1/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Estado : C'est la commande qui permet de connaître le statut de la
+-   Estado : Es el comando que permite conocer el estado de la
     Salida
 
--   Uno : C'est la commande qui permet d'allumer la Salida
+-   Uno : Este es el comando que enciende la salida
 
--   Apagado : C'est la commande qui permet d'éteindre la Salida
+-   Apagado : Es el comando que hace posible extinguir la captura.
 
--   Potencia : C'est la commande qui remonte la puissance instantanée
-    consommée
+-   Potencia : Es el control que trae el poder instantáneo
+    consumido
 
--   Conso : C'est la commande qui remonte la consommation totale
+-   El consumo : Es el orden que informa el consumo total.
 
- \
+\
 
-A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
-en un seul bouton.
+Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS están agrupados
+en un botón.
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Configuración" du
-plugin OpenZwave de Jeedom.
+Puede configurar el módulo de acuerdo con su
+instalación Esto requiere pasar por el botón "Configuración" del
+Complemento Jeedom OpenZwave.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/greenwave.Powernode1/config1.jpg)
 
- \
+\
 
-Comme vous pourrez le constater il n'y a pas beaucoup de configuration
-pour ce module.
+Como puede ver, no hay mucha configuración
+para este módulo.
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   1 : Délai avant le clignotement du bouton : nombres de secondes
-    minimum entre deux communications (si ce délai est dépassé le bouton
-    de la Salida clignotera)
+-   1 : Retraso antes de que el botón parpadee : cantidad de segundos
+    mínimo entre dos comunicaciones (si se supera este retraso, el botón
+    del zócalo parpadeará)
 
--   2 : Couleur selectionnée de la molette (détectée automatiquement)
+-   2 : Color de rueda seleccionado (detectado automáticamente)
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède quatre groupes d'association, seul le 3ème groupe est
+Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es
 indispensable.
 
- \
+\
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-Contrairement à sa grande soeur multiSalida, cette Salida ne nécessite pas
-de polling pour remonter la consommation.
+A diferencia de su socket múltiple hermana mayor, este socket no requiere
+encuestas para aumentar el consumo.
 
- \
+\
 
 ### Restablecer 
 
- \
+\
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
- \
+\
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant
-sur ce bouton disponible dans l'onglet Système. Il faut choisir
+Puede restablecer su medidor de consumo haciendo clic en
+en este botón disponible en la pestaña Sistema. Hay que elegir
 PressButton.
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pas de notion de wakeup sur ce module.
+No hay noción de activación en este módulo.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Avez-vous associé le groupe 3 du module à Jeedom ?
+¿Has asociado el grupo 3 del módulo con Jeedom? ?
 
- \
+\
 
-Non. El módulo ne le permet pas. Mettez dessus un petit morceau de ruban
-adhésif noir.
+No El módulo no lo permite.. Ponle un pequeño trozo de cinta
+adhesivo negro.
 
- \
+\
 
 **@sarakha63**

@@ -1,350 +1,350 @@
-Philio PSP01 
+ 
 ============
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/philio.psp01/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Le détecteur PSP01 propose 3 fonctions différentes : détection de
-mouvement, capteur de Temperatura et détecteur de luminosité.
+ : 
+.
 
-Ce détecteur peut être utilisé pour la sécurité ou pour
-l'automatisation. Quand le détecteur est associé avec des appareils de
-sécurité, il sert comme déclencheur d'alertes en détectant des
-changements dans les niveaux de radiation infra-rouge. Si une personne
-bouge dans le champ de vision du détecteur, un signal radio est
-transmis, ce qui déclenche une alarme afin de dissuader les intrus.
 
-Le détecteur peut également être utilisé en association avec un
-contrôleur Z-Wave pour des usages domotiques, en détectant à la fois les
-changements dans les niveaux de radiation infrarouge (présence) et les
-modifications dans le niveau de luminosité. Ainsi, on peut déclencher un
-éclairage lors d'une détection de mouvement dans l'obscurité.
 
-Le détecteur remontera aussi la luminosité et la Temperatura, soit en
-cas de changement important, et à chaque fois qu'un mouvement est
-détecté. Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire
-afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un
-réseau existant.
 
- \
+. 
+
+.
+
+El detector también se puede usar en combinación con un
+Controlador Z-Wave para usos de domótica, detectando ambos
+cambios en los niveles de radiación infrarroja (presencia) y
+cambios en el nivel de brillo. Entonces podemos desencadenar un
+iluminación cuando se detecta movimiento en la oscuridad.
+
+El detector también aumentará el brillo y la temperatura, es decir.
+cambio significativo, y cada vez que un movimiento es
+detectado Se requiere un controlador Z-Wave (control remoto, dongle, etc.)
+para integrar este detector en su red si ya tiene un
+red existente.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Détecteur 3 en 1: mouvement, Temperatura, lumière
+-   Detector 3 en 1: movimiento, temperatura, luz
 
--   Adopte la récente puce Z-Wave 400series pour supporter les
-    opérations multicanaux et un débit de données plus
-    élevé (9.6/40/100kbps)
+-   Adopta el reciente chip de la serie Z-Wave 400 para admitir
+    operaciones multicanal y más rendimiento de datos
+    alto (9.6 / 40 / 100kbps)
 
--   Utilise le SDK Z-Wave 6.02
+-   Utiliza el SDK de Z-Wave 6.02
 
--   Portée de l'antenne optimisée
+-   Rango de antena optimizado
 
--   Utilisation pour des applications domotiques ou de sécurité
+-   Uso para aplicaciones de domótica o seguridad
 
--   Bouton pour inclure/exclure le détecteur
+-   Botón para incluir / excluir el detector
 
--   Autoprotection
+-   Autoprotección
 
--   Indication de batterie faible
+-   Indicación de batería baja
 
--   Petit, discret et esthétique
+-   Pequeño, discreto y estético.
 
--   Facilité d'utilisation et d'installation
+-   Facilidad de uso e instalación.
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave
+-   Puntao de módulo : Transmisor de onda Z
 
--   Suministro : 1 pile 3V CR123A
+-   Suministro : 1 batería CR123A 3V
 
--   Durée de vie des piles : 2 años
+-   Duración de la batería : 2 años
 
--   Fréquence : 868.42 MHz
+-   Frecuencia : 868.42 MHz
 
--   Distance de transmission : 30m en intérieur
+-   Distancia de transmisión : 30m en interiores
 
--   Capteur de Temperatura : -10 à 70° C
+-   Sensor de temperatura : -10 a 70 ° C
 
--   Sensor de brillo : 0 à 500 lux
+-   Sensor de brillo : 0 a 500 lux
 
--   Angle de détection PIR : 90°
+-   Ángulo de detección PIR : 90 °
 
--   Portée de détection PIR : 8 à 10m
+-   Rango de detección PIR : 8 a 10m
 
--   Dimensions : 28 x 96 x 23 mm
+-   Dimensiones : 28 x 96 x 23 mm
 
 -   Peso : 39g
 
--   Temperatura de fonctionnement : -10 à 40° C
+-   Temperatura de funcionamiento : -10 a 40 ° C
 
--   Humidité de fonctionnement : 85%RH max
+-   Humedad de funcionamiento : 85% HR máx.
 
--   Norme CE : EN300 220-1
+-   Norma CE : EN300 220-1
 
--   Certification Z-Wave : ZC08-13050003
+-   Certificación Z-Wave : ZC08-13050003
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Philio Technology Corporation
+-   Hacer : Philio Technology Corporation
 
--   Nombre : Philio PSP01
+-   Nombre : 
 
--   Fabricant ID : 316
+-   ID del fabricante : 316
 
--   Type Produit : 2
+-   Puntao de producto : 2
 
--   Produit ID : 2
+-   ID del producto : 2
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/philio.psp01/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/philio.psp01/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Presencia : c'est la commande qui remontera une détection de présence
+-   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura : c'est la commande qui remontera une détection
-    d'ouverture
+-   Apertura : es el comando que generará una detección
+    abriendo
 
--   Temperatura : c'est la commande qui permet de remonter la
+-   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo : c'est la commande qui permet de remonter la luminosité
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotage : c'est la commande sabotage (elle est déclenchée en
-    cas d'arrachement)
+-   Sabotaje : Este es el comando de sabotaje (se activa en
+    arrancando)
 
--   Batería : c'est la commande batterie
+-   Batería : es el comando de la batería
 
- \
+\
 
-Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux
-correspondant à votre module.
+Todos los módulos de la gama tienen los mismos identificadores, debe mostrarlos
+correspondiente a su módulo.
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-Paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+Configuraciones)
 
- \
+\
 
 ![Config1](images/philio.psp01/config1.jpg)
 
 ![Config2](images/philio.psp01/config2.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   2: permet de régler le signal envoyé aux modules dans le groupe
-    d'association 2
+-   2: permite ajustar la señal enviada a los módulos en el grupo
+    asociación 2
 
--   3: permet de régler la sensibilité du capteur de présence (0 :
-    désactivé 99: sensibilité max)
+-   3: ajusta la sensibilidad del sensor de presencia (0 :
+    discapacitado 99: máxima sensibilidad)
 
--   4: permet de régler le niveau de luminosité à partir duquel le
-    signal défini en paramètre 2 sera envoyé aux modules associés au
-    groupe 2
+-   4: ajusta el nivel de brillo desde el cual
+    la señal definida en el parámetro 2 se enviará a los módulos asociados con el
+    grupo 2
 
--   5: mode de fonctionnement (déconseillé de le changer : se reporter
-    sur la documentation constructeur)
+-   5: modo de funcionamiento (no se recomienda cambiarlo : referir
+    en la documentación del fabricante)
 
--   6: mode de fonctionnement du multi-sensor (déconseillé de le changer
-    : se reporter sur la documentation constructeur)
+-   6: modo de funcionamiento multisensor (no se recomienda cambiarlo
+    : consulte la documentación del fabricante)
 
--   9: permet de définir au bout de combien de temps le signal OFF sera
-    envoyé aux modules associés au groupe 2
+-   9: permite definir después de cuánto tiempo será la señal OFF
+    enviado a módulos asociados con el grupo 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
-    unité = 30 minutes)
+-   10: le permite definir la duración entre dos informes de batería (uno
+    unidad = 30 minutos)
 
--   12: permet de définir la durée entre deux rapports de luminosité
-    (une unité = 30 minutes)
+-   12: 
+    
 
--   13: permet de définir la durée entre deux rapports de Temperatura
-    (une unité = 30 minutes)
+-   13: 
+    
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède deux groupes d'association, seul le premier est
+Este módulo tiene dos grupos de asociación, solo el primero es
 indispensable.
 
- \
+\
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
 > **Punta**
 >
-> Ce module a une particularité, n'ayant pas de rapport basé sur les
-> variations mais uniquement sur la durée, il envoit toutes ses infos à
-> chaque détection. Il envoie aussi plusieurs fois le signal de
-> détection de présence à la suite. Il est donc conseillé de cocher la
-> case "Evènement sur changement" sur la présence si vous utilisez cette
-> commande en déclencheur de scénario.
+> 
+> 
+> . 
+> . 
+> 
+> .
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![vuewidget](images/philio.psp01/vuewidget.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   relachez le bouton tamper et réappuyez dessus
+-   suelte el botón de manipulación y presiónelo nuevamente
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en appuyant sur son bouton tamper.
+Este módulo se activa presionando su botón de manipulación.
 
- \
+\
 
-Cochez la case "Evènement sur changement".
+".
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+Este módulo es un módulo de batería, la nueva configuración será
+tomado en cuenta en el próximo despertar.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

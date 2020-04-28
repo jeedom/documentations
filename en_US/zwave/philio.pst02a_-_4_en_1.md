@@ -1,237 +1,237 @@
-Philio PST02 A - 4 en 1 
+ 
 =======================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/philio.pst02a/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-Le détecteur ZIP-PSM02-EU propose 4 fonctions différentes : détection de
-mouvement, détection d'ouverture, capteur de Temperature et détecteur de
-luminosité. Il se compose de deux parties : un détecteur et un aimant.
-Ils sont conçus pour être placés sur une porte ou une fenêtre avec
-l'aimant fixé sur la partie qui s'ouvre et le détecteur sur la partie
-fixe.
+ : 
 
-L'ouverture de la porte ou de la fenêtre éloignera l'aimant du
-détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave
-d'alarme, si le système est armé (ce signal peut être exploité par une
-sirène ou par une box domotique par exemple). Ce détecteur peut être
-utilisé pour la sécurité ou pour l'automatisation. Quand le détecteur
-est associé avec des appareils de sécurité, il sert comme déclencheur
-d'alertes en détectant des changements dans les niveaux de radiation
-infrarouge ou d'ouverture de porte/fenêtre. Si une personne bouge dans
-le champ de vision du détecteur ou ouvre une porte/fenêtre, un signal
-radio est transmis, ce qui déclenche une alarme afin de dissuader les
-intrus.
+ : a detector and a magnet.
 
-Le détecteur peut également être utilisé en association avec un
-contrôleur Z-Wave pour des usages domotiques, en détectant à la fois les
-changements dans les niveaux de radiation infrarouge (présence) ou
-d'ouverture de porte/fenêtre et les modifications dans le niveau de
-luminosité. Ainsi, on peut déclencher un éclairage lors d'une détection
-de mouvement ou d'ouverture de porte dans l'obscurité.
 
-Le détecteur remontera aussi la luminosité et la Temperature, soit en
-cas de changement important, et à chaque fois qu'un mouvement ou
-ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande,
-dongle …​) est nécessaire afin d'intégrer ce détecteur dans votre réseau
-si vous avez déjà un réseau existant.  \
+.
+
+Opening the door or window will keep the magnet away from
+detector, which will trigger the detector which will send a Z-Wave signal
+alarm, if the system is armed (this signal can be used by a
+. 
+. 
+
+
+. 
+
+
+.
+
+
+
+
+
+
+.
+
+
+
+. ,
+
+
 
 Functions 
 ---------
 
- \
+\
 
--   Détecteur 4 en 1: mouvement, ouverture, Temperature, lumière
+-   : 
 
--   Adopte la récente puce Z-Wave 400series pour supporter les
-    opérations multicanaux et un débit de données plus
-    élevé (9.6/40/100kbps)
+-   
+    
+    
 
--   Utilise le SDK Z-Wave 6.02
+-   
 
--   Portée de l'antenne optimisée
+-   
 
--   Utilisation pour des applications domotique ou de sécurité
+-   
 
--   Bouton pour inclure/exclure le détecteur
+-   Button to include / exclude the detector
 
--   Autoprotection
+-   
 
--   Indication de batterie faible
+-   
 
--   Petit, discret et esthétique
+-   Small, discreet and aesthetic
 
--   Facilité d'utilisation et d'installation
+-   Ease of use and installation
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave
+-   Type of module : Z-Wave transmitter
 
--   Food : 1 pile 3V CR123A
+-   Food : 
 
--   Durée de vie des piles : 2 years
+-   Battery life : 2 years
 
--   Fréquence : 868.42 MHz
+-   Frequency : 868.42 MHz
 
--   Distance de transmission : 30m en intérieur
+-   Transmission distance : 
 
--   Capteur de Temperature : -10 à 70° C
+-    : -
 
--   Brightness sensor : 0 à 500 lux
+-   Brightness sensor : 
 
--   Angle de détection PIR : 90°
+-    : 
 
--   Portée de détection PIR : 8 à 10m
+-    : 
 
 -   Dimensions :
 
--   Détecteur : 28 x 96 x 23 mm
+-    : 
 
--   Aimant : 10 x 50 x 12 mm
+-    : 
 
 -   Weight : 52g
 
--   Temperature de fonctionnement : -10 à 40° C
+-   Operating temperature : -10 to 40 ° C
 
--   Humidité de fonctionnement : 85%RH max
+-   Operating humidity : 85% RH max
 
--   Norme CE : EN300 220-1
+-   CE standard : EN300 220-1
 
--   Certification Z-Wave : ZC08-13050003
+-   Z-Wave certification : ZC08-13050003
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Philio Technology Corporation
+-   Mark : Philio Technology Corporation
 
 -   Name : PST02-A 4 in 1 Multi-Sensor
 
--   Fabricant ID : 316
+-   Manufacturer ID : 316
 
--   Type Produit : 2
+-   Product Type : 2
 
--   Produit ID : 12
+-   Product ID : 12
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> To put this module in inclusion mode, press the button 3 times
+> inclusion button, according to its paper documentation.
 
- \
+\
 
 ![inclusion](images/philio.pst02a/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/philio.pst02a/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   Presence : c'est la commande qui remontera une détection de présence
+-   Presence : it is the command which will detect a presence detection
 
--   Opening : c'est la commande qui remontera une détection
-    d'ouverture
+-   Opening : it is the command which will raise a detection
+    opening
 
--   Temperature : c'est la commande qui permet de remonter la
+-   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : c'est la commande qui permet de remonter la luminosité
+-   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage : c'est la commande sabotage (elle est déclenchée en
-    cas d'arrachement)
+-   Sabotage : this is the sabotage command (it is triggered in
+    tearing out)
 
--   Drums : c'est la commande batterie
+-   Drums : it's the battery command
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
 > **IMPORTANT**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> During a first inclusion always wake up the module just after
+> inclusion.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Setup" du plugin OpenZwave de Jeedom.
+Then if you want to configure the module according to
+of your installation, you have to go through the button
+"Setup "of Jeedom's OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -239,123 +239,123 @@ paramètres)
 
 ![Config3](images/philio.pst02a/config3.jpg)
 
- \
+\
 
-Détails des paramètres :
+Parameter details :
 
- \
+\
 
--   2: permet de régler le signal envoyé aux modules dans le groupe
-    d'association 2
+-   2: allows to adjust the signal sent to the modules in the group
+    association 2
 
--   3: permet de régler la sensibilité du capteur de présence (0 :
-    désactivé 99: sensibilité max)
+-   3: adjusts the sensitivity of the presence sensor (0 :
+    disabled 99: maximum sensitivity)
 
--   4: permet de régler le niveau de luminosité à partir duquel le
-    signal défini en paramètre 2 sera envoyé aux modules associés au
-    groupe 2
+-   4: adjusts the brightness level from which the
+    signal defined in parameter 2 will be sent to the modules associated with the
+    group 2
 
--   5: mode de fonctionnement (se reporter sur la
-    documentation constructeur) Valeur recommandée : 8
+-   5: operating mode (see the
+    manufacturer documentation) Recommended value : 8
 
--   6: mode de fonctionnement du multi-sensor (se reporter sur la
-    documentation constructeur) Valeur recommandée : 4
+-   6: multi-sensor operating mode (see the
+    manufacturer documentation) Recommended value : 4
 
--   7: mode de fonctionnement personnalisée du multi-sensor (se reporter
-    sur la documentation constructeur) Valeur recommandée : 6 (pour
-    avoir un retour sur OFF de la présence)
+-   7: personalized multi-sensor operating mode (see
+    on the manufacturer's documentation) Recommended value : 6 (for
+    have a return to OFF of the presence)
 
--   8: permet de définir la durée par pas de 8 secondes de redétection
-    de mouvement
+-   8: allows to define the duration in steps of 8 seconds of redetection
+    of movement
 
--   9: permet de définir au bout de combien de temps le signal OFF sera
-    envoyé aux modules associés au groupe 2
+-   9: allows to define after how long the OFF signal will be
+    sent to modules associated with group 2
 
--   10: permet de définir la durée entre deux Reports de batterie (une
-    unité = parametre 20)
+-   10: allows you to define the duration between two battery reports (one
+    unit = parameter 20)
 
--   11: permet de définir la durée entre deux Reports auto d'ouverture
-    (une unité = parametre 20)
+-   11: allows you to define the duration between two self-opening reports
+    (one unit = parameter 20)
 
--   12: permet de définir la durée entre deux Reports auto de
-    luminosité (une unité = parametre 20) Valeur recommandée : 3
+-   12: allows you to define the duration between two auto
+    brightness (one unit = parameter 20) Recommended value : 3
 
--   13: permet de définir la durée entre deux Reports auto de
-    Temperature (une unité = parametre 20) Valeur recommandée : 2
+-   13: allows you to define the duration between two auto
+    temperature (one unit = parameter 20) Recommended value : 2
 
--   20: durée d'un intervalle pour les paramètres 10 à 13 Valeur
-    recommandée : 10
+-   20: duration of an interval for parameters 10 to 13 Value
+    recommended : 10
 
--   21: valeur de variation en °F de Temperature pour déclencher un
+-   21: temperature variation value in ° F to trigger a
     Report
 
--   22: valeur en % de variation de luminosité pour déclencher un
-    Report Valeur recommandée : 10
+-   22: value in% of brightness variation to trigger a
+    Report Recommended value : 10
 
- \
+\
 
 ### Groups 
 
- \
+\
 
-Ce module possède deux groupes d'association, seul le premier est
-indispensable.
+This module has two association groups, only the first is
+essential.
 
- \
+\
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Good to know 
 ------------
 
- \
+\
 
-### Visuel alternatif 
+### Alternative visual 
 
- \
+\
 
 ![vuewidget](images/philio.pst02a/vuewidget.jpg)
 
- \
+\
 
 Wakeup 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+To wake up this module there is only one way :
 
--   relachez le bouton tamper et réappuyez dessus
+-   release the tamper button and press it again
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en appuyant sur son bouton tamper.
+This module wakes up by pressing its tamper button.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en compte au prochain wakeup.
+This module is a battery module, the new configuration will be
+taken into account at the next wakeup.
 
- \
+\
 
-Note importante 
+IMPORTANT note 
 ---------------
 
- \
+\
 
 > **IMPORTANT**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> You have to wake up the module : after its inclusion, after a change
+> of the configuration, after a change of wakeup, after a
+> change of association groups
 
- \
+\
 
 **@sarakha63**

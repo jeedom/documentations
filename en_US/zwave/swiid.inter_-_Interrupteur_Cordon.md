@@ -1,299 +1,299 @@
-Swiid Interrupteur - Swiidinter 
+ 
 ===============================
 
- \
+\
 
 -   **The module**
 
- \
+\
 
 ![module](images/swiid.inter/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **The Jeedom visual**
 
- \
+\
 
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
- \
+\
 
 Summary 
 ------
 
- \
+\
 
-SwiidInter est le premier interrupteur sur cordon dans l'environnement
-domotique Z-Wave qui soit suffisamment petit et discret pour être
-comparable à un interrupteur sur cordon ordinaire.
 
-Il peut être utilisé à la fois manuellement comme n'importe quel
-interrupteur sur cordon ordinaire et à Range via un contrôleur
-Z-Wave.
 
-L'interrupteur SwiidInter offre également des possibilités d'association
-et ce à double sens. Ainsi, il peut être actionné automatiquement par un
-autre périphérique Z-Wave du même réseau, comme par exemple par le
-déclenchement d'un détecteur de présence. Inversement avec un appui
-court ou avec un appui long il peut commander deux groupes séparés de
-périphériques Z-Wave qui lui auront été associés : par exemple tous les
-autres éclairages de la pièce où se trouve votre interrupteur
-SwiidInter.
+.
 
-L'interrupteur SwiidInter s'installe exactement comme un interrupteur
-sur cordon ordinaire : c'est donc une installation simple et rapide qui
-ne nécessite aucun outil spécialisé. Il doit ensuite être configuré pour
-s'intégrer dans un "réseau" Z-Wave, ce réseau pouvant être aussi simple
-qu'une seule télécommande qui commande votre interrupteur SwiidInter à
+
+
+.
+
+
+. 
+
+. 
+
+ : 
+
+Inter.
+
+
+ : 
+. 
+
+
 Range.
 
- \
+\
 
 Functions 
 ---------
 
- \
+\
 
--   Interrupteur sur cordon utilisable à la fois manuellement
-    (appui court) et par radio à Range (Z-Wave)
+-   
+    
 
--   Utilisation en remplacement d'un interrupteur à cordon standard
-    d'une lampe de chevet, de table ou de bureau
+-   
+    
 
--   Fonction We/Off
+-   
 
--   Activation d'un scénario domotique sur appui long
-    (association Z-Wave)
+-   
+    
 
--   Dimensions comparables à un interrupteur sur cordon ordinaire
+-   
 
--   S'installe comme un interrupteur sur cordon ordinaire
+-   
 
--   Convient pour tous types d'ampoules de lampe
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Technical characteristics 
 ---------------------------
 
- \
+\
 
--   Type de module : Récepteur Z-Wave
+-   Type of module :  receiver
 
--   Color : noire
+-   Color : 
 
--   Food: 230V ± 10% - 50Hz
+-   Food: 
 
--   Puissance maxi : 660W
+-    : 
 
 -   Consumption : &lt; 0,08W
 
--   Indice de protection: IP20
+-   Protection sign: 
 
--   Protocole radio: Z-Wave® (SDK 4.55)
+-   Radio protocol: 
 
--   Fréquence radio : 868,42 MHz (EU)
+-    : 
 
--   Dist. transmission: Jusqu'à 30m en intérieur (dépend des matériaux)
+-   . : 
 
--   Temp. fonctionnement : 0 – 40°C
+-   .  : 
 
--   Affichage marche/arrêt : LEDs bleues
+-    : 
 
--   Dimensions : 84 x 32 x 29 mm
+-   Dimensions : 
 
--   Normes UE : EN 61058-2-1:2011 EN 55015
+-    : :
 
- \
+\
 
-Données du module 
+Module data 
 -----------------
 
- \
+\
 
--   Marque : Swiid
+-   Mark : 
 
--   Name : Swiidinter
+-   Name : 
 
--   Fabricant ID : 358
+-   Manufacturer ID : 358
 
--   Type Produit : 256
+-   Product Type : 256
 
--   Produit ID : 256
+-   Product ID : 256
 
- \
+\
 
 Setup 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+To configure the OpenZwave plugin and know how to put Jeedom in
+inclusion refer to this
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> à l'arrière, conformément à sa documentation papier
+> To put this module in inclusion mode, press the button
+> 
 
- \
+\
 
 ![inclusion](images/swiid.inter/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Once included you should get this :
 
- \
+\
 
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
- \
+\
 
 ### Commands 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Once the module has been recognized, the commands associated with the module will be
 available.
 
- \
+\
 
 ![Commands](images/swiid.inter/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Here is the list of commands :
 
- \
+\
 
--   State : C'est la commande qui permet de connaître le statut de la
+-   State : It is the command which allows to know the status of the
     Light
 
--   We : C'est la commande qui permet d'allumer la Light
+-   We : It is the control that turns on the light
 
--   Off : C'est la commande qui permet d'éteindre la Light
+-   Off : It is the command that turns off the light
 
- \
+\
 
-A noter que sur le dashboard toutes les infos se retrouvent sur le même
+Note that on the dashboard all the information is found on the same
 Icon
 
- \
+\
 
 ### Setup of the module 
 
- \
+\
 
-Vous pouvez effectuer la configuration du module en fonction de votre
-installation. Il faut pour cela passer par le bouton "Setup" du
-plugin OpenZwave de Jeedom.
+You can configure the module according to your
+installation. This requires going through the "Setup" button of the
+Jeedom OpenZwave plugin.
 
- \
+\
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+You will arrive on this page (after clicking on the tab
+settings)
 
- \
+\
 
 ![Config1](images/swiid.inter/config1.jpg)
 
- \
+\
 
-Détails du paramètre :
+ :
 
- \
+\
 
-Ce paramètre permet de choisir le comportement lorsque vous associez le
-swiidinter à un autre module (appui long)
 
- \
 
--   Inactive : n'aura aucun effet sur les autres Lights
 
--   Uniquement Off : sera effectif uniquement pour éteindre les autres
-    Lights
+\
 
--   Uniquement We : sera effectif uniquement pour allumer les autres
-    Lights
+-   Inactive : 
 
--   We et Off (fully) : sera effectif pour allumer et éteindre les
-    autres Lights
+-    : 
+    
 
- \
+-    : 
+    
+
+-    : 
+    
+
+\
 
 ### Groups 
 
- \
+\
 
-Ce module possède deux groupes d'association.
+This module has two association groups.
 
- \
+\
 
 ![Groupe](images/swiid.inter/groupe.jpg)
 
- \
+\
 
 > **IMPORTANT**
 >
-> Pour un fonctionnement optimum de votre module. Il faut que Jeedom
-> soit associé à minima au groupe 2.
+> For optimum operation of your module. Jeedom must
+> .
 
- \
+\
 
-Associer à une autre Light 
+ 
 ----------------------------
 
- \
+\
 
-Pour associer le swiidinter à une autre Light et pouvoir bénéficier de
-l'allumage d'une autre Light, il suffit de la rajouter au groupe
-d'association 1 via l'écran cité au-dessus.
 
- \
 
-Bon à savoir 
+.
+
+\
+
+Good to know 
 ------------
 
- \
+\
 
-### Visuel alternatif 
+### Alternative visual 
 
- \
+\
 
 ![vuewidget](images/swiid.inter/vuewidget.jpg)
 
- \
+\
 
-Wake up 
+ 
 -------
 
- \
+\
 
-Pas de notion de wake up sur ce module.
+No notion of wake up on this module.
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Avez-vous associé les deux modules et avez-vous bien configuré la partie
+Have you combined the two modules and have you configured the part correctly?
 Specific.
 
- \
+\
 
-Non. The module ne le permet pas.
+No. The module does not allow it.
 
- \
+\
 
 **@sarakha63**

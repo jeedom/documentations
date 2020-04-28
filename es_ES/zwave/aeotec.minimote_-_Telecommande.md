@@ -1,271 +1,271 @@
-Aeotec Minimote 
+ 
 ===============
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/aeotec.minimote/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/aeotec.minimote/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Ce mini contrôleur Aeon Labs est compatible avec une grande variété de
-modules Z-Wave tels que des interrupteurs, variateurs, détecteurs de
-mouvement, interrupteurs pour stores…​ Ainsi, vous pourrez commander à
-distance vos éclairages, appareils ou volets roulants. Avec cette
-télécommande, vous pourrez également inclure/exclure des modules de
-votre réseau Z-Wave et associer des scènes aux boutons de la
-télécommande. Un clapet coulissant dissimule les boutons permettant de
-paramétrer le réseau Z-Wave.
+Este mini controlador Aeon Labs es compatible con una amplia variedad de
+Módulos Z-Wave como interruptores, atenuadores,
+movimiento, interruptores para persianas ... Para que pueda ordenar en
+distancia tus luces, dispositivos o persianas. Con esto
+control remoto, también puede incluir / excluir
+su red Z-Wave y asocie escenas con los botones del
+control remoto Una solapa deslizante oculta los botones para
+configurar la red Z-Wave.
 
- \
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Paramétrage du réseau Z-Wave (inclusion/exclusion de modules)
+-   Configuración de red Z-Wave (inclusión / exclusión de módulos)
 
--   Permet de piloter jusqu'à 4 scènes
+-   Le permite controlar hasta 4 escenas.
 
--   8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
+-   8 llaves : 4 para escenas, 4 para configuraciones de red
 
--   Funciones marche/arrêt et variation
+-   Inicio / parada y funciones de atenuación
 
--   Fonction ALL ON/ALL OFF
+-   Función ALL ON / ALL OFF
 
--   Batterie interne rehargeable sur USB
+-   Batería interna recargable en USB
 
--   Mise à jour du firmware par USB
+-   Actualización de firmware a través de USB
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Contrôleur Z-Wave
+-   Tipo de módulo : Controlador Z-Wave
 
 -   Color : Blanco, Blanca
 
--   Suministro : batterie interne rechargeable via USB
+-   Suministro : batería interna recargable a través de USB
 
--   Visualización: LED bleue et rouge
+-   Visualización: LED azul y rojo
 
--   Fréquence : 868,42MHz
+-   Frecuencia : 868.42MHz
 
--   Portée : jusqu'à 30 m
+-   Alcance : hasta 30 m
 
--   Dimensions : 0.8cm x 3.3cm x 9.3cm
+-   Dimensiones : 0.8cm x 3.3cm x 9.3cm
 
--   Température de fonctionnement : -35 to +85 °C
+-   Temperatura de funcionamiento : -35 a +85 ° C
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Aeotec
+-   Hacer : Aeotec
 
 -   Nombre : Minimote
 
--   Fabricant ID : 134
+-   ID del fabricante : 134
 
--   Type Produit : 1
+-   Tipo de producto : 1
 
--   Produit ID : 3
+-   ID del producto : 3
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
-> LEARN, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón
+> APRENDER, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/aeotec.minimote/inclusion.jpg)
 
- \
+\
 
-Une fois inclus vous devriez obtenir ceci :
+Una vez incluido, deberías obtener esto :
 
- \
+\
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Une fois le module reconnu, les commandes associées au module seront
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponible.
 
- \
+\
 
 ![Comandos](images/aeotec.minimote/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Botones : c'est la commande qui remontera le bouton appuyé
+-   Botones : es el comando que empujará el botón hacia arriba
 
-1 : Bouton 1 appui court
+1 : Botón 1 pulsación corta
 
-2 : Bouton 1 appui long
+2 : Botón 1 pulsación larga
 
-3 : Bouton 2 appuis courts
+3 : Botón 2 presiones cortas
 
-4 : Bouton 2 appuis longs
+4 : Botón 2 prensas largas
 
-5 : Bouton 3 appuis courts
+5 : Botón 3 pulsaciones cortas
 
-6 : Bouton 3 appuis longs
+6 : Botón 3 pulsaciones largas
 
-7 : Bouton 4 appuis courts
+7 : Botón 4 pulsaciones cortas
 
-8 : Bouton 4 appuis longs
+8 : Botón 4 prensas largas
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/aeotec.minimote/config1.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   241: mode de fonctionnement du bouton 1 (laisser par défaut)
+-   241: Botón 1 modo de funcionamiento (salir por defecto)
 
--   242: mode de fonctionnement du bouton 2 (laisser par défaut)
+-   242: botón 2 modo de funcionamiento (dejar por defecto)
 
--   243: mode de fonctionnement du bouton 3 (laisser par défaut)
+-   243: Botón 3 modo de funcionamiento (salir por defecto)
 
--   244: mode de fonctionnement du bouton 4 (laisser par défaut)
+-   244: botón 4 modo de funcionamiento (dejar por defecto)
 
--   250: mode de fonctionnement de la télécommande (absolument laisser
-    Scene pour s'en servir en télécommande)
+-   250: modo de funcionamiento del control remoto (dejar absolutamente
+    Escena para control remoto)
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
-Ce module possède quatre groupes d'association, aucun n'est nécessaire
-pour s'en servir en télécommande dans Jeedom.
+Este módulo tiene cuatro grupos de asociación, ninguno es necesario
+para usarlo como control remoto en Jeedom.
 
- \
+\
 
 ![Groupe](images/aeotec.minimote/groupe.jpg)
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   rester appuyé 3 secondes sur le bouton LEARN
+-   mantenga presionado el botón APRENDIZAJE durante 3 segundos
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en restant appuyé 3 secondes sur le bouton LEARN.
+Este módulo se activa presionando y manteniendo presionado el botón LEARN durante 3 segundos.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration ne sera
-prise en compte que si vous réveillez la télécommande.
+Este módulo es un módulo de batería, la nueva configuración no será
+tenga en cuenta que si despierta el control remoto.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@sarakha63**

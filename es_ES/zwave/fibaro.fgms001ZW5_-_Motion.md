@@ -1,214 +1,214 @@
-Fibaro Motion Sensor - FGMS-001 
+ 
 ===============================
 
- \
+\
 
 -   **El módulo**
 
- \
+\
 
 ![module](images/fibaro.fgms001zw5/module.jpg)
 
- \
+\
 
--   **Le visuel Jeedom**
+-   **El visual de Jeedom**
 
- \
+\
 
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
- \
+\
 
 Resumen 
 ------
 
- \
+\
 
-Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
-En plus de la détection de mouvement, ce Dispositivo mesure la
-Temperatura et l'intensité lumineuse. Ce détecteur comporte aussi un
-accéléromètre intégré afin de détecter toute tentative d'altération du
+.
+
+. 
+
 Dispositivo.
 
-Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu
-pour être installé rapídement et facilement sur n'importe quelle
-surface. Le voyant LED signale le mouvement, le niveau de Temperatura,
-le mode de fonctionnement et peut être utilisé pour voir si l'appareil
-est dans le réseau Z-Wave.
 
-Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage
-et les systèmes de surveillance et/ou de sécurité.
 
- \
+,
+
+.
+
+
+.
+
+\
 
 Funciones 
 ---------
 
- \
+\
 
--   Détecteur de mouvement sans fil
+-   
 
--   Détecte les mouvements à l'aide d'un capteur infrarouge passif
+-   
 
--   Mesure de la Temperatura
+-   
 
--   Mesure de l'intensité lumineuse
+-   
 
--   Mesure de l'intensité sismique
+-   
 
--   Protection contre l'effraction et le vol
+-   
 
--   Alertes de mouvement et de Temperatura signalées par le clignotement
-    de la diode LED
+-   
+    
 
--   Bouton pour inclure/exclure le détecteur
+-   Botón para incluir / excluir el detector
 
--   Détection pile faible
+-   Detección de batería baja
 
--   Très petit, dimensions réduites
+-   Muy pequeño, dimensiones reducidas
 
--   Facilité d'installation sur un mur ou toute autre surface
+-   
 
- \
+\
 
-Caractéristiques techniques 
+Características técnicas 
 ---------------------------
 
- \
+\
 
--   Type de module : Emetteur Z-Wave+
+-   Puntao de módulo : 
 
--   Suministro : Pile CR123A 3,6VDC
+-   Suministro : 
 
--   Hauteur recommandée pour l'installation : 2,4m
+-    : 
 
--   Plage de Temperatura mesurée : -20°C à 100°C
+-    : -
 
--   Précision de la mesure : 0,5°C
+-    : 
 
--   Plage de mesure de la luminosité : 0-32000 LUX
+-    : X
 
--   Fréquence : 868,42 Mhz
+-   Frecuencia : 868.42 Mhz
 
--   Distance de transmission : 50m champ libre, 30m en intérieur
+-   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 4,4 cm de diamètre
+-   Dimensiones: 
 
--   Temperatura de fonctionnement : 0-40°C
+-   Temperatura de funcionamiento : 0-40 ° C
 
--   Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS
-    II
+-   Certificaciones : 
+    
 
- \
+\
 
-Données du module 
+Datos del módulo 
 -----------------
 
- \
+\
 
--   Marque : Fibar Group
+-   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Nombre : ]
 
--   Fabricant ID : 271
+-   ID del fabricante : 271
 
--   Type Produit : 2048
+-   Puntao de producto : 2048
 
--   Produit ID : 4097
+-   ID del producto : 4097
 
- \
+\
 
 Configuración 
 -------------
 
- \
+\
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
-inclusion référez-vous à cette
+Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
+inclusión refiérase a esto
 [documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
- \
+\
 
 > **Importante**
 >
-> Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
-> bouton d'inclusion, conformément à sa documentation papier.
+> Para poner este módulo en modo de inclusión, presione el botón 3 veces
+> botón de inclusión, de acuerdo con su documentación en papel.
 
- \
+\
 
 ![inclusion](images/fibaro.fgms001zw5/inclusion.jpg)
 
- \
+\
 
-Une fois inclus, vous devez appliquer la configuration zwave+ via la
-liste déroulante, vous devriez obtenir ceci :
 
- \
+ :
+
+\
 
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
- \
+\
 
 ### Comandos 
 
- \
+\
 
-Il faut cliquer une fois sur la loupe pour récupérer les commandes du
-module. Une fois le module reconnu, les commandes associées au module
-seront disponibles.
 
- \
+
+.
+
+\
 
 ![Comandos](images/fibaro.fgms001zw5/commandes.jpg)
 
- \
+\
 
-Voici la liste des commandes :
+Aquí está la lista de comandos :
 
- \
+\
 
--   Presencia : c'est la commande qui remontera une détection de présence
+-   Presencia : es el comando que detectará una detección de presencia
 
--   Temperatura : c'est la commande qui permet de remonter la
+-   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo : c'est la commande qui permet de remonter la luminosité
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sismique : c'est la commande qui permet de remonter l'intensité
-    sismique
+-    : 
+    
 
--   Sabotage : c'est la commande sabotage (elle est déclenchée en cas
-    de vibration)
+-   Sabotaje : 
+    
 
--   Batería : c'est la commande batterie
+-   Batería : es el comando de la batería
 
- \
+\
 
 ### Configuracion del modulo 
 
- \
+\
 
 > **Importante**
 >
-> Lors d'une première inclusion réveillez toujours le module juste après
-> l'inclusion.
+> Durante una primera inclusión, siempre active el módulo justo después
+> inclusión.
 
- \
+\
 
-Ensuite si vous voulez effectuer la configuration du module en fonction
-de votre installation, il faut pour cela passer par la bouton
-"Configuración" du plugin OpenZwave de Jeedom.
+Entonces, si desea configurar el módulo de acuerdo con
+de su instalación, debe pasar por el botón
+"Configuración "del complemento OpenZwave de Jeedom.
 
- \
+\
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+\
 
-Vous arriverez sur cette page (après avoir cliqué sur l'onglet
-paramètres)
+Llegará a esta página (después de hacer clic en la pestaña
+configuraciones)
 
- \
+\
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -218,192 +218,192 @@ paramètres)
 
 ![Config3](images/fibaro.fgms001zw5/config4.jpg)
 
- \
+\
 
-Détails des paramètres :
+Detalles del parámetro :
 
- \
+\
 
--   Wakeup : c'est l'intervalle de réveil du module (valeur
-    recommandée 7200)
+-   Despertador : este es el intervalo de activación del módulo (valor
+    7200 recomendado)
 
--   1: permet de régler la sensibilité du capteur de présence
+-   1: 
 
--   2: permet de régler l'inertie du capteur de présence
+-   2: 
 
--   3: déconseillé de changer ce paramètre
+-   3: 
 
--   4: déconseillé de changer ce paramètre
+-   4: 
 
--   6: temps après lequel le capteur enverra le signal "plus de
-    mouvement" (valeur conseillée 30)
+-   6: 
+    
 
--   8: permet d'activer le mode nuit / jour ou les deux (valeur
-    conseillée : toujours actif)
+-   8: 
+     : 
 
--   9: permet de régler le seuil de passage en mode nuit (utile si vous
-    avez changé le paramètre 8)
+-   9: 
+    
 
--   12: à modifier seulement si vous savez pourquoi vous le faites
-    (association avec un module par exemple)
+-   12: 
+    
 
 -   14: ídem
 
 -   16: ídem
 
--   20: sensibilité du capteur gyroscopique (valeur conseillée 15)
+-   20: 
 
--   22: temps après lequel le capteur enverra le signal "plus de
-    sabotage" (valeur conseillée 30)
+-   22: 
+    
 
--   24: permet de dire comment le sabotage est notifié (IMPORTANT :
-    valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm
-    command class/ Annulation est notifié après le temps défini en
-    paramètre 22 )
+-   24:  :
+     : 
+    
+    
 
--   26: à modifier seulement si vous savez pourquoi vous le faites
+-   26: 
 
--   40: permet de dire de combien doit être modifiée la valeur de
-    luminosité pour être envoyée (valeur conseillée 50)
+-   40: 
+    
 
--   42: permet de donner une durée minimum entre deux envois successifs
-    même si la luminosité n'a pas changée (valeur conseillée 3600)
+-   42: 
+    
 
--   60: permet de dire de combien doit être modifiée la valeur de
-    Temperatura pour être envoyée (valeur conseillée 2 soit 0.2 degrés)
+-   60: 
+    .
 
--   62: permet de donner la fréquence des mesures de Temperaturas
-    (valeur conseillée 900)
+-   62: 
+    
 
--   64: permet de donner une durée minimum entre deux envois successifs
-    même si la Temperatura n'a pas changée (valeur conseillée 2700)
+-   64: 
+    
 
--   66: permet d'ajuster la Temperatura
+-   66: 
 
--   80: permet de choisir la couleur de la led lorsqu'il y a détection
-    de mouvement (voir de la désactiver)
+-   80: 
+    
 
--   81: permet de régler la luminosité de la led
+-   81: 
 
--   82: permet de régler le seuil minimal de luminosité pour mettre la
-    led à 1% (lié au paramètre 81)
+-   82: 
+    
 
--   83: permet de régler le seuil maximal de luminosité pour mettre la
-    led à 100% (lié au paramètre 81)
+-   83: 
+    100% led (vinculado al parámetro 81)
 
--   86: Temperatura en dessous de laquelle la led s'allumera en bleu
-    (lié au paramètre 81)
+-   86: temperatura por debajo de la cual el LED se iluminará en azul
+    (vinculado al parámetro 81)
 
--   87: Temperatura au dessus de laquelle la led s'allumera en rouge
-    (lié au paramètre 81)
+-   87: temperatura por encima de la cual el LED se iluminará en rojo
+    (vinculado al parámetro 81)
 
--   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
-    sabotage
+-   89: permite que el LED parpadee en azul / blanco / rojo en caso de
+    sabotaje
 
- \
+\
 
 ### Grupos 
 
- \
+\
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 
- \
+\
 
 > **Punta**
 >
-> Ce module possède cinq groupes d'association, il faut ajouter le
-> contrôleur sur le 1, 4 et 5 et retirer le 3.
+> 
+> .
 
-Les noms des groupes de la version Z-Wave+ sont les suivant:
+:
 
--   1 : Lifeline, remontée d'état ​​du module. Le contrôleur principal
-    devrait être ajouté à ce groupe.
+-   1 : . 
+    .
 
--   2 : Motion, capteur de mouvement.
+-   2 : .
 
--   3 : Tamper, alerte sabotage.
+-   3 : .
 
--   4 : Motion BC, capteur de mouvement. Ce groupe a pour but d'assurer
-    la compatibilité descendante avec les contrôleurs ne supportant pas
-    le protocole Z-Wave+.
+-   4 : . 
+    
+    .
 
--   5 : Tamper BC, alerte sabotage. Ce groupe a pour but d'assurer la
-    compatibilité descendante avec les contrôleurs ne supportant pas le
-    protocole Z-Wave+.
+-   5 : . 
+    
+    .
 
- \
+\
 
-Bon à savoir 
+Bueno saber 
 ------------
 
- \
+\
 
-### Spécificités 
+### Específicos 
 
- \
+\
 
 > **Punta**
 >
-> Ce module est très capricieux sur les wakeup et très mal configuré
-> d'usine. Il est primordial de bien le réveiller après l'inclusion
-> (plusieurs fois valent mieux qu'une), de bien le configurer selon vos
-> souhaits, et de bien le réveiller pour que la config soit prise en
+> Este módulo es muy complicado al despertar y está muy mal configurado
+> fabrica. Es esencial despertarlo bien después de la inclusión.
+> (varias veces son mejores que uno), para configurarlo de acuerdo a su
+> deseos, y despertarlo bien para que la configuración se tenga en cuenta
 > Cuenta.
 
- \
+\
 
-### Visuel alternatif 
+### Visual alternativo 
 
- \
+\
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
- \
+\
 
-Wakeup 
+Despertador 
 ------
 
- \
+\
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Para activar este módulo, solo hay una forma :
 
--   appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume
-    en bleue). Même si la lumière s'allume, il peut être nécessaire de
-    le faire plusieurs fois de suite (2 ou 3)
+-   presione el botón de inclusión 3 veces (la luz se enciende
+    en azul). Incluso si la luz se enciende, puede ser necesario
+    hazlo varias veces seguidas (2 o 3)
 
- \
+\
 
-F.A.Q. 
+Faq. 
 ------
 
- \
+\
 
-Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
+Este módulo se activa presionando 3 veces en su botón de inclusión.
 
- \
+\
 
-Ce module est très capricieux. Il est conseillé de faire l'inclusion au
-plus proche de votre box et de s'y reprendre à plusieurs fois.
+Este módulo es muy meticuloso.. Es recomendable incluir
+.
 
- \
+\
 
-Ce module est un module sur batterie, la nouvelle configuration sera
-prise en Cuenta au prochain wakeup.
+Este módulo es un módulo de batería, la nueva configuración será
+tomado en cuenta en el próximo despertar.
 
- \
+\
 
-Note importante 
+Nota importante 
 ---------------
 
- \
+\
 
 > **Importante**
 >
-> Il faut réveiller le module : après son inclusion, après un changement
-> de la configuration , après un changement de wakeup, après un
-> changement des groupes d'association
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio
+> de la configuración, después de un cambio de activación, después de un
+> cambio de grupos de asociación
 
- \
+\
 
 **@nechry**
