@@ -35,11 +35,14 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 > **Punta**
 >
-> .  ****. Vous pouvez retrouver la liste des plugins [aquí](http://market.jeedom.fr/index.php?v = d & p = market & type = plugin).
+> .  ****. 
+>[aquí](http://market.jeedom.fr/index.php?v = d & p = market & type = plugin).
 
 > **Punta**
 >
-> Servaquío pack ?  ? Vous pouvez voir [aquí](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
+> Servaquío pack ?  ? 
+>[aquí](https://blog.jeedom.fr/?
+>.
 
 
 
@@ -556,7 +559,7 @@ Luego en "Agregar una carpeta"
 > -  : permite cambiar el puerto predeterminado (22) para escuchar ssh
 > -  : indica que la red está en modo host
 
-> **Importante**
+> **Importantee**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predeterminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable  en 1
 
