@@ -321,16 +321,15 @@ function cookiesPolicyBar(){
 
 function setLeftMenu(){
   var url = window.location.href;
-  var el = $('#ul_menu a');
-  for(var i in el){
-    if(el[i].attr('href') && url.indexOf(el[i].attr('href')) != -1){
-      el[i].closest('li').addClass('menu_active');
-      if(el[i].closest('li').closest('ul').closest('li')){
-        el[i].closest('li').closest('ul').closest('li').find('.collapsible-header').click();
+  $('#ul_menu a').each(function(){
+    if($(this).attr('href') && url.indexOf($(this).attr('href')) != -1){
+      $(this).closest('li').addClass('menu_active');
+      if($(this).closest('li').closest('ul').closest('li')){
+        $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click();
+        return false;
       }
-      return;
     }
-  }
+  })
 }
 
 if($('#div_searchBar')){
