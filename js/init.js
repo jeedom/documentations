@@ -168,9 +168,18 @@ if(!lang){
   lang = 'fr_FR'
 }
 $('#meta-lang').attr('content',lang)
-var jeedomVersion = getCookie('jeedomVersion');
-if(!jeedomVersion){
+var jeedomVersion = '3.3'
+if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '3.3'
+}else if(window.location.href.indexOf('4.0') != -1){
+  jeedomVersion = '4.0'
+}else if(window.location.href.indexOf('4.1') != -1){
+  jeedomVersion = '4.1'
+}else if(getCookie('jeedomVersion') != ''){
+  jeedomVersion = getCookie('jeedomVersion');
+}
+if(getCookie('jeedomVersion') != jeedomVersion){
+  setCookie('jeedomVersion',jeedomVersion,7)
 }
 if($('#sel_jeedomVersion').val() != jeedomVersion){
   $('#sel_jeedomVersion').val(jeedomVersion);
