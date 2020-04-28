@@ -1,4 +1,4 @@
-Nodon Switch - Interruptor de pared 
+Mediodía Switch - Interruptor de pared 
 ================================
 
 \
@@ -94,7 +94,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : CWS-3-1-01 Interruptor de pared
 

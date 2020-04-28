@@ -1,4 +1,4 @@
-Nodon Smart Plug - Smartplug 
+Nicken Smart Plug - Smartplug 
 ====================================
 
 \.
@@ -85,7 +85,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nodon
+-   Machen Sie : Nicken
 
 -   Name : Smartplug
 

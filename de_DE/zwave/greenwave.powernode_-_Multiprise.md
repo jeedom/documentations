@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Die GreenWave PowerNode-Steckdosenleiste ist ein intelligentes Gerät, das
+Die Grünwelle PowerNode-Steckdosenleiste ist ein intelligentes Gerät, das
 verbindet sich mit Ihren Haushaltsgeräten und Elektronik für Sie
 Mit dieser Funktion können Sie den Stromverbrauch Ihres Geräts überwachen und steuern
 Geräte aus der Ferne über Webbrowser oder Smartphone. Verwenden von
@@ -123,9 +123,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : GreenWave
+-   Machen Sie : Grünwelle
 
--   Name : GreenWave \ [6 x Sockets \]
+-   Name : Grünwelle \ [6 x Sockets \]
 
 -   Hersteller ID : 153
 

@@ -1,46 +1,46 @@
+We will see here how to install a Debian, as well as
+as VM or in direct installation on a physical machine
 
-
-
- 
+Source recovery 
 ========================
 
-
-
+You can find the latest Debian version in netinstall (size
+minimal but need internet for installation)
 [ici](https://www.debian.org/CD/netinst) (il faut prendre l'image en
-
+amd64) or click directly
 [ici](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
-.
+to download the ISO.
 
- 
+Setup launch 
 ===========================
 
- 
+On a physical machine 
 ------------------------
 
+You must either burn the ISO on a CD and put the CD in the machine
+(but nowadays CD players are more and more rare) or so
+create a bootable USB key.
 
-
-.
-
-
+For the bootable USB key download rufus
 [là](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
- :
+configure like this :
 
 ![debian.installation](images/debian.installation.PNG)
 
 > **NOTE**
 >
-> 
-> 
+> Remember to select the ISO file that you downloaded
+> just before
 
+You just have to click on start, then put the USB key
+on the machine and boot it up.
 
-.
-
- 
+On a VM 
 ----------
 
-
-
-
+The handling is quite simple, you create a new machine
+virtual, you plug in, put a virtual CD player on it that points
+to the ISO (remember to connect it) and you start the machine. See
 [ici](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.creer_une_vm.html)
 for more details.
 

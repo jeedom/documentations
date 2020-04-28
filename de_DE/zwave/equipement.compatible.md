@@ -3,26 +3,26 @@
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/imaAlters/134.0.0_dsd37_ranAlter.extender.repeater.jpg "width =" 60 "/>|aeotec|RanAlter Extender (DSD37)|Repeater|Modul ohne Funktionalität, außer zur Weitergabe von Netzwerkinformationen|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
-|<img src="../../de_DE/zwave/imaAlters/134.1.1_dsa07203.z-stick.lite.jpg "width =" 60 "/>|aeotec||Controller|||
-|<img src="../../de_DE/zwave/imaAlters/134.1.22_dsA22_key.fob.jpg "width =" 60 "/>|aeotec||Fernbedienung||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.1.38_dsa38_panic.button.jpg "width =" 60 "/>|aeotec||Fernbedienung||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.1.3_dsa03202_minimote.jpg "width =" 60 "/>|aeotec||Fernbedienung||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.1.88_zw088.key.fob.Altern5.jpg "width =" 60 "/>|aeotec||Fernbedienung||[Acheter](http:|
+|<img src="../../de_DE/zwave/imaAlters/134.1.1_dsa07203.z-stick.lite.jpg "width =" 60 "/>|aeotec|Z-Stick Lite (DSA07203)|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/134.1.22_dsA22_key.fob.jpg "width =" 60 "/>|aeotec|SchlüsselanhänAlterr (DSA22)|Fernbedienung|In Geschäften durch den Gen5-SchlüsselanhänAlterr ersetzt|[Acheter](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-Altern5.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.1.38_dsa38_panic.button.jpg "width =" 60 "/>|aeotec|Panikknopf (DSA38)|Fernbedienung||[Acheter](http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.1.3_dsa03202_minimote.jpg "width =" 60 "/>|aeotec|Minimote (DSA03202)|Fernbedienung||[Acheter](http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.1.88_zw088.key.fob.Altern5.jpg "width =" 60 "/>|aeotec|SchlüsselanhänAlterr Gen5 (ZW088)|Fernbedienung||[Acheter](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-Altern5.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.1.90_zw090.z-stick-Altern5.jpg "width =" 60 "/>|aeotec|Z-Stick Gen5 (ZW090)|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-Controller-usb-z-wave-plus-z-stick-Altern5-1220000012813.html)|
-|<img src="../../de_DE/zwave/imaAlters/134.1.92_zw092.z-stick.lite.Altern5.jpg "width =" 60 "/>|aeotec||Controller|||
+|<img src="../../de_DE/zwave/imaAlters/134.1.92_zw092.z-stick.lite.Altern5.jpg "width =" 60 "/>|aeotec|Z-Stick Lite Gen5 (ZW092)|Controller|||
 |<img src="../../de_DE/zwave/imaAlters/134.2.100_zw100_6in1.multisensor.jpg "width =" 60 "/>|aeotec|MultiSensor 6 (ZW100)|Multisensoren||[Acheter](http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-Altern5-1220000013100.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.2.112_zw112_door.window.sensor6.jpg "width =" 60 "/>|aeotec|Tür- / Fenstersensor 6 (ZW112)|Öffnung||[Acheter](http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.2.120_zw120_door.window.sensor.Altern5.jpg "width =" 60 "/>|aeotec|Tür- / Fenstersensor Gen5 (ZW120)|Öffnung|||
 |<img src="../../de_DE/zwave/imaAlters/134.2.122_zw122_water.sensor6.jpg "width =" 60 "/>|aeotec|Wassersensor 6 (ZW122)|Leck|||
 |<img src="../../de_DE/zwave/imaAlters/134.2.129_zw129_wallmote.duo.jpg "width =" 60 "/>|aeotec|WallMote Duo (ZW129)|Fernbedienung|||
 |<img src="../../de_DE/zwave/imaAlters/134.2.130_zw130_wallmote.quad.jpg "width =" 60 "/>|aeotec|WallMote Quad (ZW130)|Fernbedienung|||
-|<img src="../../de_DE/zwave/imaAlters/134.2.1_dsa02203.z-stick-s2.jpg "width =" 60 "/>|aeotec||Controller|||
-|<img src="../../de_DE/zwave/imaAlters/134.2.28_dsb28_hem.g2.jpg "width =" 60 "/>|aeotec||Verbrauch||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.2.29_dsb29_door.window.sensor.jpg "width =" 60 "/>|aeotec||Öffnung||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.2.45_dsb45_water.sensor.jpg "width =" 60 "/>|aeotec||Leck||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.2.4_dsb04100_door.window.sensor.jpg "width =" 60 "/>|aeotec||Öffnung||[Acheter](http:|
-|<img src="../../de_DE/zwave/imaAlters/134.2.54_dsb54_recessed.door.sensor.jpg "width =" 60 "/>|aeotec||Öffnung|||
-|<img src="../../de_DE/zwave/imaAlters/134.2.5_dsb05_multi.sensor.jpg "width =" 60 "/>|aeotec| |Multisensoren|Achtung, dieses Modul kann fehlerhafte Daten auslösen. Achten Sie auf die Konfiguration. |[Acheter](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-Altern5-1220000012684.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.2.1_dsa02203.z-stick-s2.jpg "width =" 60 "/>|aeotec|Z-Stick S2 (DSA02203)|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/134.2.28_dsb28_hem.g2.jpg "width =" 60 "/>|aeotec|Home Energy Meter 2. AuflaAlter (DSB28)|Verbrauch||[Acheter](http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.2.29_dsb29_door.window.sensor.jpg "width =" 60 "/>|aeotec|Tür- / Fenstersensor 2. AuflaAlter (DSB29)|Öffnung||[Acheter](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.2.45_dsb45_water.sensor.jpg "width =" 60 "/>|aeotec|Wassersensor (DSB45)|Leck|Parameter 121 muss auf 4113 AlterzwunAltern werden|[Acheter](http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.2.4_dsb04100_door.window.sensor.jpg "width =" 60 "/>|aeotec|Tür- / Fenstersensor (DSB04100)|Öffnung||[Acheter](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
+|<img src="../../de_DE/zwave/imaAlters/134.2.54_dsb54_recessed.door.sensor.jpg "width =" 60 "/>|aeotec|Einbautürsensor (DSB54)|Öffnung|||
+|<img src="../../de_DE/zwave/imaAlters/134.2.5_dsb05_multi.sensor.jpg "width =" 60 "/>|aeotec|MultiSensor (DSB05) |Multisensoren|Achtung, dieses Modul kann fehlerhafte Daten auslösen. Achten Sie auf die Konfiguration. Ersetzt im Laden durch das Gen5-Äquivalent|[Acheter](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-Altern5-1220000012684.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.2.74_zw074_multi-sensor.Altern5.jpg "width =" 60 "/>|aeotec|MultiSensor Gen5 (ZW074)|Multisensoren|Achtung, dieses Modul kann fehlerhafte Daten auslösen. Achten Sie auf die Konfiguration|[Acheter](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-Altern5-1220000012684.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.2.89_zw089_recessed.door.sensor.jpg "width =" 60 "/>|aeotec|Einbautürsensor Gen5 (ZW089)|Öffnung||[Acheter](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-Altern5-1220000012721.html)|
 |<img src="../../de_DE/zwave/imaAlters/134.2.95_zw095_hem_Altern5.jpg "width =" 60 "/>|aeotec|Hausenergiezähler Gen5 (ZW095)|Verbrauch|||
@@ -646,7 +646,7 @@
 # Sigma
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/0.1..jpg "width =" 60 "/>|Sigma|Z-Wave Plus USB-Controller|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/3171-Sigma-designs-Controller-z-wave-plus-usb.html)|
+|<img src="../../de_DE/zwave/imaAlters/0.1.1_usb Adapter.jpg "width =" 60 "/>|Sigma|Z-Wave Plus USB-Controller|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/3171-Sigma-designs-Controller-z-wave-plus-usb.html)|
 
 # smarthome von Everspring
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
@@ -770,9 +770,9 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/imaAlters/277.1.105_key.fob_1.jpg "width =" 60 "/>|zwaveme|KFOB|Fernbedienung|||
 ||zwaveme|004308 Rauchmelder|Rauch|Als Zwave-me USB-Stick erkannt. Kein Assistent für EinstellunAltern.||
-|<img src="../../de_DE/zwave/imaAlters/277.1..jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
-|<img src="../../de_DE/zwave/imaAlters/277.1024..jpg "width =" 60 "/>|zwaveme|ZME_UZB1 USB-Stick|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-Controller-usb-z-wave-plus-0019962006500.html)|
-|<img src="../../de_DE/zwave/imaAlters/277.2..jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/277.1.1_usb stick.jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/277.1024.1_ZME_UZB1 USB-Stick.jpg "width =" 60 "/>|zwaveme|ZME_UZB1 USB-Stick|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-Controller-usb-z-wave-plus-0019962006500.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.2.3_usb stick.jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
 |<img src="../../de_DE/zwave/imaAlters/277.256.1024_zweather.jpg "width =" 60 "/>|zwaveme|Z-Wetter Wind- und Wettersensor|Multisensoren|Verkauft unter dem Namen POPP - Z-Wave Wetterstation + Z-Wetter|[Acheter](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
 |<img src="../../de_DE/zwave/imaAlters/277.256.1_kfob_4.jpg "width =" 60 "/>|zwaveme|KFOB Key Chain Controller|Fernbedienung||[Acheter](http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html)|
 |<img src="../../de_DE/zwave/imaAlters/277.256.257_wall-s.jpg "width =" 60 "/>|zwaveme|Secure Wall Controller|Fernbedienung|||
@@ -796,8 +796,8 @@
 # zwaveme
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/327.1024..jpg "width =" 60 "/>|zwaveme|RaZberry Controller ZWave +|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
-|<img src="../../de_DE/zwave/imaAlters/327.2..jpg "width =" 60 "/>|zwaveme|RaZberry Controller|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/327.1024.1_RaZberry Controller ZWavePlus.jpg "width =" 60 "/>|zwaveme|RaZberry Controller ZWave +|Controller||[Acheter](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
+|<img src="../../de_DE/zwave/imaAlters/327.2.3_RaZberry Controller.jpg "width =" 60 "/>|zwaveme|RaZberry Controller|Controller|||
 
 
-
+Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind.

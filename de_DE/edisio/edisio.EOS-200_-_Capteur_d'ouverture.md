@@ -9,37 +9,37 @@
 Zusammenfassung 
 ======
 
+Platziert an einer Tür, einem Fenster, einem Garagentor, einer Schublade, allen Öffnungen
+Mit dem kompakten und diskreten Sensor können Sie den Zustand erkennen
+Öffnen oder Schließen des letzteren.
 
+Je nach Zustand steuert der Sensor die Zündung oder das Erlöschen Ihres
+Lichter, Schließen oder Öffnen der Fensterläden oder der
+Alarm durch ein Szenario ausgelöst.
 
-.
-
-
-
-.
-
-
-. 
-
+Das Signal wird nur an die Trennung des Schallsensors gesendet
+magnetisches Element. Die integrierte LED-Anzeige signalisiert Änderungen
+Zustand. Niedriger Batteriestand durch 3 akustische "Pieptöne" am
 Empfänger
 
 Funktionen 
 =========
 
--   
+-   Drahtloser Magnetsensor mit Batterien
 
--   
+-   Erkennt Öffnungen / Verschlüsse
 
 -   Ultrakompakt
 
--   
+-   Einfache und kostenlose Installation
 
--   
+-   Signal wird sofort beim Öffnen / Schließen übertragen
 
 -   Selbstschutz gegen Anheben
 
 -   Informationen zum Batteriestand
 
--   
+-   Wandmontage mit Schrauben oder doppelseitigem Klebeband
 
 Technische Daten 
 ===========================
@@ -65,7 +65,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : 
+-   Name : EOS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -82,7 +82,7 @@ beziehen sich darauf
 "E" -Taste" 
 ----------
 
-
+Sie finden unter der Schaltfläche "E" die Zuordnungsschaltfläche der
 Temperatursensor.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
@@ -90,21 +90,21 @@ Temperatursensor.
 Konfiguration 
 -------------
 
-
+Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert.
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
 > **Notiz**
 >
-> 
-> .
+> Sie müssen daher Ihren Sensor konfigurieren, wenn Sie einen haben möchten
+> Widget mit geschlossener Tür, wenn sie geschlossen ist.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
 
 Assoziation des Sensors mit Jeedom 
 ===============================
 
-
+Das Koppeln des Bewegungssensors ist einfach. Er
 Drücken Sie einfach die Taste "E" unter dem Sensor. Dieser wird
 automatisch von Jeedom erkannt. Geh einfach zum
 Edisio Plugin. Sie können es dann in ein Objekt einfügen und ihm ein geben
@@ -129,8 +129,8 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--    : 
-    
+-   Tür : Es ist der Befehl, der angibt, ob die Tür offen ist oder
+    geschlossen
 
 -   Batterie : Zeigt den Batteriestatus an
 
@@ -142,7 +142,7 @@ verfügbar :
 
 ![Befehle](images/eos200/eos200.informations.jpg)
 
--   Schaffung : 
+-   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul

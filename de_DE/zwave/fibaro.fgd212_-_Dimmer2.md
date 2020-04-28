@@ -121,7 +121,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 42..25 x 20,3 mm
+-   Abmessungen : 42.5 x 38.25 x 20,3 mm
 
 -   Betriebstemperatur : 0-35 ° C.
 
@@ -217,10 +217,10 @@ Hier ist die Liste der Befehle :
     Licht
 
 -   Verbrauch : Es ist der Befehl, der es erlaubt, die
-    
+    Modulverbrauch
 
--   Macht : 
-    
+-   Macht : Es ist der Befehl, mit dem die Leistung erhöht werden kann
+    Modul sofort
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 Symbol
@@ -262,7 +262,7 @@ Parameterdetails :
 
 \.
 
-
+ENTWURF SEIN
 
 \.
 
@@ -270,7 +270,7 @@ Parameterdetails :
 
 \.
 
-
+Dieses Modul hat fünf Zuordnungsgruppen, nur die erste ist
 wesentlich.
 
 \.
@@ -290,15 +290,15 @@ Gut zu wissen
 
 > **Kaution**
 >
-> 
-> . 
-> .
+> Der wichtigste Parameter der Konfiguration ist 20. Es
+> ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
+> ist auf monostabil eingestellt.
 
 \.
 
-
-
-
+Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
+Schalter Sie können Ihren Schalter mehrmals drücken
+(oder im Falle eines bistabilen Schalters hin und her gehen)
 
 \.
 

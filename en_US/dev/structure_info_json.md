@@ -1,62 +1,62 @@
-****
+**Info.JSON file Documentation**
 
-. **Info.JSON** .
+Integrated since version 3.0 from Jeedom, the file **Info.JSON** is mandatory for the proper functioning of plugins, and their proper deployment on the Jeedom Market.
 
-..
+The Info file.JSON is saved in the / plugin_Info / folder of your plugin.
 
+List of variables in the Info.JSON file
 
-
-.
+Fields marked with * are mandatory fields.
 
 Fields                   | Values                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-Id *                     | . . .                             |
-name *                   | .                                                                                                            |
-Description *            | .                                   |                                                                                     |
-                    | .                                                    |
-Licence *                | .                                                                                                          |
- *                 | .         |
- *                | .                                                                                                |
-category *               | . **** |
-                  | .                    |
-Mobile                   | .   |
-Changelog *              | .                                                                                              |
-Documentation *          | .                                                                                |
-               | .                                                                                 |
-               | .                                                                  |
-                | :            |
-            | : .                                                   |
-            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
- | .                                            |
-                    | 
+Id *                     | Unique Identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
+name *                   | Plugin name.                                                                                                            |
+Description *            | Description of the plugin, as it will be displayed on the Jeedom Market Minimum 80 characters. (` <br/> `for the line break.)                                  |                                                                                     |
+use                    | Additional Information to the Documentation on the use of the plugin.                                                    |
+Licence *                | Type of license.                                                                                                          |
+author *                 | Name of the plugin author, as it will be displayed once the plugin is installed, in the plugin Information.         |
+require *                | Jeedom minimum version.                                                                                                |
+category *               | Ranking category of the plugin on the Jeedom Market. **It is essential to respect the nomenclature in the table below** |
+display                  | if the plugin uses a dedicated panel on the desktop, it is the name of the main file of this panel.                    |
+Mobile                   | If the plugin uses a dedicated panel on the Jeedom webApp, this is the name of the main file for this panel.   |
+Changelog *              | Html link to Changelog.                                                                                              |
+Documentation *          | Html link to plugin Documentation.                                                                                |
+link -> vIdeo               | Html link to a vIdeo presentation.                                                                                 |
+link -> forum               | Html link to the forum on the official subject of the plugin.                                                                  |
+languages                | List of languages available for the plugin:french, english, german, italian, spanish, russian, indonesian            |
+compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, Mobileapp.                                                   |
+hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
+issue                    | URL to the bugtracker if external (if not filled then you will receive an email)
 
-**Example**:
+**Example** :
 
 [Fichier plugin-template/plugin_Info/Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
 
 
 
 
-****
+**CATEGORY NOMENCLATURE**
 
 Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
 Communication         | Communication           |
-Comfort               |                 |
-Energy               |                   |
-Weather                 |                  |
+Comfort               | wellness                |
+Energy               | energy                  |
+Weather                 | weather                 |
 Monitoring            | monitoring              |
 Multimedia            | Multimedia              |
 Nature                | Nature                  |
-Connected objects      |      |
-Organization          |             |
-Home automation gateway  | |
-Programming         |              |
-Home    |      |
+Connected objects      | deviceCommunication     |
+Organization          | organization            |
+Home automation gateway  | home automation protocol|
+Programming         | programming             |
+Home automation protocol   | automation protocol     |
 Health                 | health                  |
-Security              |                 |
-Automatism           |           |
+Security              | security                |
+Automatism           | automating          |
 
 
    
@@ -68,7 +68,7 @@ Automatism           |           |
   
 
 
- 
+  
 
     
 

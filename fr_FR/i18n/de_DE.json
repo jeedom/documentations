@@ -1,29 +1,29 @@
 {
     ".\/index.md": {
-        "Documentation Jeedom": "",
-        "Bienvenu sur le site de documentation Jeedom": "",
-        "Vous trouverez ici toute la documentation relative a jeedom": ""
+        "Documentation Jeedom": "Jeedom Dokumentation",
+        "Bienvenu sur le site de documentation Jeedom": "Willkommen auf der Jeedom-Dokumentationsseite",
+        "Vous trouverez ici toute la documentation relative a jeedom": "Hier finden Sie alle Unterlagen zu Jeedom"
     },
     ".\/legal_notice.md": {
-        "Mentions légales": "",
-        "Le site jeedom": "",
-        "com est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4": "",
-        "000 €, immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON": "",
-        "Siège social": "",
-        "1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France": "",
-        "N° de TVA intracommunautaire": "",
-        "FR31810505784": "",
-        "REPRÉSENTANTS LÉGAU": "",
-        "Président": "",
-        "ENOXA SAS": "",
+        "Mentions légales": "Rechtliche Hinweise",
+        "Le site jeedom": "Jeedom Website",
+        "com est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4": "com wird von JEEDOM SAS, einer vereinfachten Aktiengesellschaft (SAS) mit einem Kapital von 4, bearbeitet und betrieben",
+        "000 €, immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON": "000 €, eingetragen im Handels- und Handelsregister von Lyon unter der Nummer 810 505 784 RCS LYON",
+        "Siège social": "Hauptsitz",
+        "1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France": "1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - Frankreich",
+        "N° de TVA intracommunautaire": "Gemeinschaftsinterne Umsatzsteuer-Identifikationsnummer",
+        "FR31810505784": "FR31810505784",
+        "REPRÉSENTANTS LÉGAU": "LEGAU-VERTRETER",
+        "Président": "Präsident",
+        "ENOXA SAS": "ENOXA SAS",
         "CONTACT": "Kontakt",
-        "Notre service clients est joignable par e-mail à l'adresse contact@jeedom.com": "",
-        "HÉBERGEUR": "",
-        "L'hébergement du site jeedom": "",
-        "com est assuré par": "",
-        "OVH": "",
-        "2 rue Kellermann – 59100 ROUBAIX – France": "",
-        "Directeur de la publication et webmaster": "",
-        "Jeedom SAS": ""
+        "Notre service clients est joignable par e-mail à l'adresse contact@jeedom.com": "Unser Kundenservice kann per E-Mail unter contact@jeedom.com erreicht werden",
+        "HÉBERGEUR": "GASTGEBER",
+        "L'hébergement du site jeedom": "Jeedom Website-Hosting",
+        "com est assuré par": "com wird bereitgestellt von",
+        "OVH": "OVH",
+        "2 rue Kellermann – 59100 ROUBAIX – France": "2 rue Kellermann - 59100 ROUBAIX - Frankreich",
+        "Directeur de la publication et webmaster": "Publikationsdirektor und Webmaster",
+        "Jeedom SAS": "Jeedom SAS"
     }
 }

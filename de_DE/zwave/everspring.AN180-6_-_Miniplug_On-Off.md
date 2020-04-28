@@ -1,4 +1,4 @@
- Miniplug Ein / Aus - AN180-6 
+Everspring Miniplug Ein / Aus - AN180-6 
 ====================================
 
 \.
@@ -73,8 +73,8 @@ Technische Daten
 
 -   Verbrauch : 0,6 W.
 
--   Maximale Leistung : Widerstandslast : 
-    :  :  :
+-   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
+    : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
     200W
 
 -   Frequenz : 868,42 MHz
@@ -83,7 +83,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
 \.
 
@@ -92,7 +92,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Everspring
 
 -   Name : Ministecker ein / aus
 
@@ -154,7 +154,7 @@ Hier ist die Liste der Befehle :
 \.
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
-    
+    Steckdose (Ein / Aus)
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
@@ -163,7 +163,7 @@ Hier ist die Liste der Befehle :
 \.
 
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
-.
+das gleiche Symbol.
 
 \.
 

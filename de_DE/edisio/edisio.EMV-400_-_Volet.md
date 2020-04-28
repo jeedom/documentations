@@ -155,15 +155,15 @@ Die Timer-Funktion schaltet die Relais am E.nde automatisch aus
 >
 > Diese Funktion wird nur im "Beleuchtungs" -Modus verwendet"
 
-" 
+Der "Shutter" -Modus" 
 ===============
 
-
-.
+Im "Shutter" -Modus können Sie am E.nde einen bidirektionalen Motor steuern
+elektronisches und mechanisches Distanzrennen.
 
 > **Wichtig**
 >
-> 
+> Neutral ist erforderlich
 
 E.lektrische Konfiguration und Anschlüsse : 
 --------------------------------------------
@@ -172,7 +172,7 @@ E.lektrische Konfiguration und Anschlüsse :
 
 > **Wichtig**
 >
-> 
+> Damit sich das Modul im "Shutter" -Modus befindet, muss sich der DIP-Schalter 2 in befinden
 > Niedrig
 
 > **Wichtig**
@@ -195,8 +195,8 @@ Sobald Ihre Ausrüstung erstellt ist, sollten Sie diese erhalten :
 >
 > Denken Sie daran, Ihre neue Ausrüstung zu aktivieren.
 
-
-" :
+Wählen Sie in der Liste der Geräte rechts "Mikromodul-Verschluss" aus
+rollen" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
@@ -210,13 +210,13 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Zustand : 
+-   Zustand : Dies ist der Befehl, der die Rückkehr des STATUS simuliert
 
--   Geh hoch : 
+-   Geh hoch : Dies ist der Befehl, der den Verschluss öffnet
 
--   STOP : 
+-   STOP : E.s ist der Befehl, der es ermöglicht, die Bewegung des Verschlusses zu stoppen
 
--   Geh runter : 
+-   Geh runter : Dies ist der Befehl, der den Verschluss schließt
 
 -   E. : Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
 
@@ -285,15 +285,15 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
 
 > **Notiz**
 >
-> 
+> E.s ist nicht erforderlich, den Befehl "STOP" zuzuordnen
 > automatisch.
 
 Remote-Methode 
 ----------------
 
-
-
-
+Wir haben zu Beginn dieser Dokumentation darüber gesprochen, im Fall von
+Module bereits in Zwischendecken oder sogar Dachböden eingebettet. Das hier
+Methode ermöglicht das Hinzufügen eines neuen Senders ohne Zugriff auf das "R" des
 E.mpfänger.
 
 -   Verknüpfen Sie die Schaltfläche "R." :

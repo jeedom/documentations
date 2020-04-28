@@ -9,26 +9,26 @@
 Zusammenfassung 
 ======
 
+In einem Raum erhöht sich die gewünschte Raumtemperatur
+automatisch. Darüber hinaus mit einem EMR-2000-Empfänger verbunden oder
+EDR-B4 (4 Ausgänge) Sie haben einen angeschlossenen und steuerbaren Thermostat
+von überall auf der Welt über das Internet.
 
+Das Signal wird erst gesendet, nachdem ein Unterschied in festgestellt wurde
+o, 5 ° C oder 1 ° C Temperatur oder alle 5 Minuten. Außerdem der Sensor
+ist kompakt und diskret.
 
-
-.
-
-
-. 
-.
-
-.
+Die integrierte LED-Anzeige signalisiert jede Zustandsänderung.
 
 Funktionen 
 =========
 
--   
+-   Drahtloser batteriebetriebener Temperatursensor
 
 -   Ultrakompakt
 
--   
-    
+-   Signal wird während einer Zunahme oder Abnahme sofort übertragen
+    Temperatur
 
 -   Benutzerfreundlichkeit und Installation
 
@@ -45,7 +45,7 @@ Technische Daten
 
 -   Versorgung : 3VDC (Lithiumbatterie ER14250)
 
--    : 
+-   Autonomie : Bis zu 3 Jahre
 
 -   Frequenz : 868,3 MHz
 
@@ -62,7 +62,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : 
+-   Name : ETS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -84,31 +84,31 @@ beziehen sich darauf
 "E" -Taste" 
 ----------
 
-
+Sie finden unter der Schaltfläche "E" die Zuordnungsschaltfläche der
 Temperatursensor.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
- 
+Temperaturdelta einstellen 
 -------------------------------
 
-
-. 
-:
+Standardmäßig ist das Temperaturdelta auf 1 ° C (+/- 10%) programmiert, um
+Akkulaufzeit optimieren. Sie haben die Möglichkeit dazu
+Stellen Sie diesen Parameter ein:
 
 ![ets200.delta](images/ets200/ets200.delta.jpg)
 
 Assoziation des Sensors mit Jeedom 
 ===============================
 
-. 
-. Dieser wird
-. 
+Die Kombination des Temperatursensors ist ein Kinderspiel. Es ist genug
+Drücken Sie die Taste "E" unter dem Sensor. Dieser wird
+automatisch erkannt. Platziere es in einem Objekt, gib ihm einen Namen und
 Speichern.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
- :
+Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
@@ -122,7 +122,7 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Temperatur : 
+-   Temperatur : Es ist der Befehl, der die gelesene Temperatur anzeigt
 
 -   Batterie : Zeigt den Batteriestatus an
 
@@ -134,7 +134,7 @@ verfügbar :
 
 ![Befehle](images/ets200/ets200.informations.jpg)
 
--   Schaffung : 
+-   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul

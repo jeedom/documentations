@@ -9,58 +9,58 @@
 Summary 
 ======
 
-,
+Placed in a corridor, the living room, the garage of your house for example,
+the motion sensor detects a presence, the change of state is
+instantaneous.
 
-.
-
-
-. 
-.
+Thanks to its wide viewing angle and its range, it makes it possible to secure
+a large perimeter. Integrated LED indicator signals any changes
+state.
 
 Functions 
 =========
 
--   
+-   Detects movement, even in complete darkness
 
--   
+-   Ultra compact
 
--   
+-   Signal transmitted instantly upon detection
 
--   
+-   Self-protection against lifting
 
 -   Ease of use and installation
 
--   
+-   Wall mounting by screws or double sided
 
--   
+-   Battery level information
 
 Technical characteristics 
 ===========================
 
--   Type of module : 
+-   Type of module : Edisio transmitter
 
--   Food : 
+-   Food : 3VDC (Lithium Battery ER14250)
 
 -   Frequency : 868.3 MHz
 
--   Operating temperature : 
+-   Operating temperature : 0 ° C + 45 ° C
 
--    : 
+-   Range in free field : 100M
 
--    : 
+-   Detection range : 6M
 
--   Dimensions : 
+-   Dimensions : 25x79x19mm
 
 -   Degree of protection : IP20
 
--   Use : 
+-   Use : Indoors
 
 Module data 
 =================
 
 -   Mark : Edisio Smart Home
 
--   Name : 
+-   Name : EMS-200
 
 General configuration 
 ======================
@@ -76,64 +76,64 @@ refer to this
 
 > **Tip**
 >
-> 
-> .
+> Placement is recommended at a height of 150 cm and near
+> the desired temperature.
 
-" 
+"E" button" 
 ----------
 
-
-.
+You will find the button "E" which is the button of association of the sensor
+of temperature.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
 Detection 
 ---------
 
-
+The sensor detects the slightest movement within a radius of about 6m
 
 ![ems200.detection](images/ems200/ems200.detection.jpg)
 
- 
+Timer setting 
 -----------------------
 
-. 
- :
+By default, the timer is disabled. This parameter is used to configure
+the deadline :
 
 ![ems200.minuterie](images/ems200/ems200.minuterie.jpg)
 
- 
+Association of the sensor with Jeedom 
 ===============================
 
+The association of the motion sensor is easy as pie. he
+just press the "E" button, located under the sensor. This one will
+automatically recognized by Jeedom. Just go to the
+Edisio plugin. You can then place it in an object, give it a
+name and save.
 
-. 
-. 
-. 
-.
-
- :
+Once your equipment is paired, you should get this :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
 > **Tip**
 >
-> 
-> .
+> So that the widget is present on the dashboard, remember to place
+> your equipment in an object.
 
 Commands 
 ---------
 
-
+Once your equipment is created, you should get the orders
 associated with the module :
 
 ![Commands](images/ems200/ems200.commande.jpg)
 
 Here is the list of commands :
 
--   Presence : 
-    
+-   Presence : It is the command which indicates if a presence is
+    detected
 
--   Drums : 
+-   Drums : Indicates the battery status
 
 Information 
 ------------
@@ -143,14 +143,14 @@ available :
 
 ![Commands](images/ems200/ems200.informations.jpg)
 
--   Creation : 
+-   Creation : Indicates the date on which the equipment was created
 
 -   Communication : Indicates the last communication recorded between
-    
+    Jeedom and the module
 
--   Drums : 
+-   Drums : Indicates the battery status of the battery modules
 
--   STATUS : 
+-   STATUS : Returns the status of the module
 
 Alternative visual 
 =================
@@ -160,7 +160,7 @@ Alternative visual
 Faq. 
 ======
 
-?
+How to control a Z-Wave receiver?
 
 :   With the Jeedom Scenario plugin.
 

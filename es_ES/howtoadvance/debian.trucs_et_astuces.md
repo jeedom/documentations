@@ -1,94 +1,94 @@
- 
+Paquetes utiles 
 ==============
 
- :
+Aquí hay algunos paquetes útiles para instalar en blanco. :
 
--   **** : 
-    .
+-   **fail2ban** : Le permite prohibir las IP que intentan conectarse
+    maquina.
 
--   **** : 
-    .
+-   **vim** : Es un editor de texto de línea de comando, puedes
+    también reemplazarlo con nano o muchos otros.
 
--   **** : 
+-   **herramientas de red** : colección de programas para administrar la red
 
--   **** : 
+-   **dos2unix** : herramienta de conversión de texto
 
 <!-- -->
 
-    
+    apt-get install -y vim fail2ban herramientas de red dos2unix
 
-
+Si está en VMware, puede agregar herramientas adicionales
 :
 
-    
+    apt-get install -y open-vm-tools
 
- 
+Colorea la consola 
 ====================
 
- :
+Si quieres que tu consola (bash) use colores :
 
-    
-    wget https:.
-    
+    rm -rf /root/.bashrc
+    wget https://raw.githubusercontent.com / jeedom / core / stable / install / bashrc -O /root/.bashrc
+    dos2unix /root/.bashrc
 
- 
+Permitir inicio de sesión raíz en SSH 
 ==================================
 
- :
+Edite el archivo / etc / ssh / sshd \ _config y cambie :
 
-    
+    PermitRootLogin sin contraseña
 
 Por :
 
-    
+    PermitRootLogin yes
 
 > **Importante**
 >
->  ! 
-> .
+> Asegúrese de usar una contraseña de root segura ! El uso de
+> fail2ban también se recomienda.
 
- 
+Monta una parte de Samba 
 =======================
 
+Instalación del paquete cifs
 
+    apt-get install -y cifs-utils
 
-    
+Crea el punto de montaje :
 
- :
-
-    
-
-> **Nota**
->
-> 
-
-
-
-    
+    mkdir / mnt / my_share
 
 > **Nota**
 >
-> 
+> Tienes que adaptar mi parte de acuerdo a tus necesidades
+
+Montaje agregado en / etc / fstab
+
+    // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, usuario = TODO, contraseña = TODO 0 0
+
+> **Nota**
+>
+> Debe cambiar los TODO con su nombre de usuario de Linux y su
 > Contraseña
 
- 
+Transición de Jessie a Stretch 
 ===========================
 
+Por haber probado la actualización y la instalación de Stretch con restauración
+una copia de seguridad, confirmo que la instalación de Stretch por
+sobrescribir le ahorrará tiempo.
 
+-   **Método 1 : Instalación de estiramiento :** 1 a 2 horas máximo, y
+    especialmente un sistema operativo limpio.
 
-.
+-   **Método 2 : actualización de Jessie a Stretch :** medio día a las
+    limpiar errores.
 
--   ** :  :** 
-    .
-
--   ** :  :** 
-    .
-
- :  
+Método 1 : Instalación de Stretch y restauración de respaldo 
 -----------------------------------------------------------------
 
-
-
+Antes de comenzar, haga una copia de seguridad completa a través de Jeedom de su
+instalación bajo Jessie, luego exportar la copia de seguridad a otro
 medio de almacenamiento.
 
 > **Punta**
@@ -176,7 +176,7 @@ o
 -   Cambie a cada complemento para reinstalar las dependencias (en particular
     en aquellos donde el demonio es "NOK" KO).
 
- : Actualización (menos posibilidades de éxito) 
+Método 1 : Actualización (menos posibilidades de éxito) 
 -----------------------------------------------
 
 Actualización del sistema operativo en la versión Jessie.
@@ -210,8 +210,8 @@ Actualización de Jeedom
 
 Eliminación de bibliotecas innecesarias.
 
-    ' | grep -E -v ^lib`
-    '`----
+    apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^lib`
+    apt -y remove `aptitude -F% p search '~ o'`----
 
 Nota : Si cuando abres tu página de Jeedom obtienes un código php, actívalo ejecutando los siguientes comandos :
 

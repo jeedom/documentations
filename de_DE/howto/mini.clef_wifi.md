@@ -74,41 +74,41 @@ Bearbeiten der Datei "/etc/wpa\_supplicant.conf"
 ==============================================
 
 Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen eingeben (Name von
-. 
- :
+Ihre SSID und Ihren WPA-Schlüssel). Dies erfolgt durch Bearbeiten der Datei
+/etc/wpa\_supplicant.conf mit dem Befehl :
 
-    
+    sudo nano /etc/wpa_supplicant.conf
 
- :
+Hier ist meine Betriebsakte zu Hause :
 
-    
-    
-    
-    
+    ctrl_interface = / var / run / wpa_supplicant
+    update_config = 1
+    eapol_version = 1
+    ap_scan = 2
     Netzwerk={
-            "
-            
-            
-            
-            
-            
-            
-            # 
-            "
+            ssid = "NOM_DE_TON_RESEAU_SSID"
+            scan_ssid = 1
+            Modus = 0
+            proto = WPA2
+            paarweise = CCMP
+            Gruppe = CCMP
+            key_mgmt = WPA-PSK
+            # Wählen Sie eine der folgenden Optionen
+            psk = "TA_CLE_WIFI"
      }
      ----
 
-      :
+     Achten Sie darauf, die unten angegebenen Parameter durch Ihre zu ersetzen :
 
-    * 
-    * 
+    * NOM_DE_TON_RESEAU_SSID mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
+    * TA_CLE_WIFI mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
 
-    . .
+    Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen)..
 
-    == 
+    == WiFi-Aktivierung
 
-     :
+    Sobald die Dateien fertig sind, muss nur noch die WiFi-Verbindung durch Eingabe des folgenden Befehls gestartet werden :
 
+sudo ifup wlan0
 
-
-    .
+    Normalerweise sollte Ihr WLAN auf Ihrem Mini betriebsbereit sein.

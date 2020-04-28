@@ -1,13 +1,13 @@
 | Nombre            | Tipo           | Protocolo      | Observación       | Enlace           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Estación meteorológica  | Rubicson / Alecto              |                |                |
-| Atlantic'S     | Detector      | Meiantech      |                |                |
+| Del Atlántico     | Detector      | Meiantech      |                |                |
 | MD-210R        | abriendo    |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
 | DT-335R DMT    | Movimiento      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
 | MC-335R DMT    | Movimiento      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
 | 7380R DMT      | Movimiento      |                |                |                |
 | Del Atlántico     | Mando a distancia de 1 botón   | Meiantech      |                |                |
 | Blyss 567434   | Detector de humo  |                |                |                |

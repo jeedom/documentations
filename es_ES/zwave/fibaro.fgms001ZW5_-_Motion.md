@@ -175,7 +175,7 @@ Aquí está la lista de comandos :
 -   Brillo : es el comando que hace posible aumentar el brillo
 
 -   Sísmica : es el comando que permite aumentar la intensidad
-    sísmica
+    Sísmica
 
 -   Sabotaje : este es el comando de sabotaje (se activa en caso de que
     vibración)

@@ -1,4 +1,4 @@
-Control remoto Nodon - Control remoto suave 
+Control remoto Mediodía - Control remoto suave 
 ================================
 
 \
@@ -78,7 +78,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : CRC-3-6-0x Control remoto suave
 

@@ -1,58 +1,58 @@
 Why ? 
 ==========
 
--   
+-   Apache will gradually become the norm with Jeedom
 
--   
-     .
+-   Allows you to have the latest security updates at
+    access to files (thanks to .htaccess) during updates of
     Jeedom
 
--   
-    
+-   Corrects some access and stability concerns (especially for those
+    who have a lot of cameras)
 
--   .
+-   Improves overall performance of Jeedom.
 
 Prerequisites 
 =========
 
--   
-    
+-   Know how to connect in SSH on the box (you will find the
+    identifiers on the installation documentation)
 
--   .
-
-> **IMPORTANT**
->
-> 
-> . 
-> .
+-   Being connected to the internet.
 
 > **IMPORTANT**
 >
-> 
-> .
+> In case of concerns, the Jeedom team cannot be held responsible and
+> may refuse any support request. Handling is yours
+> risks and dangers.
+
+> **IMPORTANT**
+>
+> Please note that some unofficial plugins are not compatible
+> Apache, find out well before.
 
 How to do 
 =============
 
- 
+Deactivation of Jeedom and nginx services 
 ------------------------------------------
 
+In Jeedom, you have to go to each plugin with a daemon, then
+deactivate the automatic management of the daemon and cut it. It is necessary
+then, in the task engine, deactivate all tasks (there is a
+general deactivation button) and in the scenarios deactivate all
+the scenarios (there is a general deactivation button).
 
-. It is necessary
+    systemctl stop cron
+    systemctl stop nginx
+    systemctl stop mysql
 
-
-.
-
-    
-    
-    
-
- 
+Installation and configuration of Apache 
 --------------------------------------
 
-    
-    
-    
+    mkdir -p / var / www / html / log
+    apt-get -y install ntp ca-certificates unzip curl sudo
+    apt-get -y install apache2 php5 mysql-client mysql-server libapache2-mod-php5
     apt-get -y install php5-cli php5-common php5-curl php5-fpm php5-json php5-mysql php5-gd
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / apache_security -O /etc/apache2/conf-available/security.conf
     rm /etc/apache2/conf-enabled/security.conf

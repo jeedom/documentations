@@ -1,100 +1,100 @@
-.
+Wir werden hier sehen, wie Sie eine VM unter VMware erstellen.
 
+Bevor es etwas Wichtiges über VMware gibt, gibt es zwei
+Weg des Managers :
 
- :
+-   die Weboberfläche (standardmäßig in 6 vorhanden.0 Update 2 oder von
+    über eine Vib für die anderen Versionen) greifen wir über zu
+    IP \ _ESXI / ui
 
--   .
-    
-    
+-   der schwere und historische Client von VMware (vSphere-Client)
 
--   
+Hier werde ich hauptsächlich das Webinterface verwenden, weil ich denke, dass es das ist
+die Zukunft von VMware, die den Thick Client zunehmend aufgibt
+(übrigens alle neuen Funktionen seit dem 5.1 kann nicht verwendet werden
+mit dem schweren Kunden).
 
+Beachten Sie auch, dass die Weboberfläche noch implementiert wird
+Bei VMware werden Sie wahrscheinlich auf einige Fehler stoßen oder
+Verlangsamung mit nur ein wenig Auffrischung der Seite und das
+Blätter ohne Sorgen.
 
-
-.
-.
-
-
-
-
-.
-
- 
+Verbindung zum Webinterface 
 ===========================
 
- :
+Gehen Sie mit Ihrem Internetbrowser zu IP \ _ESXI / ui :
 
 ![vmware.createvm3](images/vmware.createvm3.PNG)
 
 > **Notiz**
 >
-> 
-> 
-> [ici](https:
+> Wenn Sie nichts haben, rate ich Ihnen zu installieren
+> Webinterface, alle Informationen
+> [ici](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
 
- :
+Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
 
 ![vmware.createvm4](images/vmware.createvm4.PNG)
 
+Wie Sie sehen können, ist die Oberfläche sehr schön und ermöglicht es Ihnen
+mache viele Dinge, ich werde nicht auf Details eingehen, sondern auf dich
+kann schon von diesem Bildschirm :
 
+-   Stoppen Sie den ESXi / starten Sie ihn neu
 
- :
+-   siehe Ressourcennutzung (CPU, Speicher und Festplatte)
 
--   
+-   Informationen über Ihr System haben (Betriebszeit,
+    VMware-Version, BIOS-Version, Datenspeicheranzeige)
 
--   
+-   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
 
--   ,
-    
+-   Eine Aktionstaste, mit der Sie in den Wartungsmodus wechseln können
+    (nützlich, wenn Sie einen ESXi-Cluster haben, sonst nicht
+    Niemals dienen), SSH-Dienst aktivieren / deaktivieren (wird verwendet
+    im Backup-Konfigurations-Tutorial)
 
--   
-
--   
-    
-    
-    
-
- 
+Installations-ISO senden 
 =============================
 
+Nach dem Herunterladen Ihrer Installation iso
+([hier] (http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+zum Beispiel für debian 8.5 in netinstall) müssen Sie es anziehen
+Ihr Datenspeicher.
 
-:
-.
-.
-
- :
+Klicken Sie dazu auf Datenspeicher :
 
 ![vmware.createvm18](images/vmware.createvm18.PNG)
 
- :
+Wählen Sie Ihren Datenspeicher aus (normalerweise heißt er Datenspeicher1). :
 
 ![vmware.createvm19](images/vmware.createvm19.PNG)
 
-" :
+Klicken Sie auf "Datenbankbrowser" :
 
 ![vmware.createvm20](images/vmware.createvm20.PNG)
 
- :
+Klicken Sie auf "Download" (der erste) :
 
 ![vmware.createvm21](images/vmware.createvm21.PNG)
 
- :
+Wählen Sie die zuvor heruntergeladene ISO aus und validieren Sie sie :
 
 ![vmware.createvm22](images/vmware.createvm22.PNG)
 
- :
+Sie können dann den Fortschritt der Sendung verfolgen :
 
 ![vmware.createvm23](images/vmware.createvm23.PNG)
 
-
+Sobald Sie fertig sind, können Sie sehen, dass Ihre ISO auf dem angekommen ist
 Datenspeicher :
 
 ![vmware.createvm24](images/vmware.createvm24.PNG)
 
- 
+Erstellung Ihrer ersten VM 
 =============================
 
-" :
+Klicken Sie auf die Schaltfläche "VM erstellen / speichern"" :
 
 ![vmware.createvm5](images/vmware.createvm5.PNG)
 
@@ -178,7 +178,7 @@ Mounten Sie USB-Geräte in der VM
 >
 > Wenn Sie die folgenden Optionen nicht haben, müssen Sie sie aktualisieren
 > der ESXi Embedded Host Client, alle Informationen
-> [ici](https:
+> [ici](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
 
 Es ist ein ziemlich seltener Bedarf, aber ich musste ihn für Jeedom verwenden
 in der Tat habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcean und GSM
@@ -189,7 +189,7 @@ benutze es.
 >
 > Für Zwave, RFXcom, edisio und enOcean gibt es kein Problem, z
 > GSM-Schlüssel müssen Sie befolgen
-> [tutoriel](https:
+> [tutoriel](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-gsm.huawei_mode_modem.html)
 > vorher, um den Schlüssel nur im Modem-Modus zu erzwingen, sonst ist es nicht
 > auf dem ESXi nicht richtig gesehen.
 

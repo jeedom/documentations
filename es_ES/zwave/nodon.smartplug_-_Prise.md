@@ -1,4 +1,4 @@
-Enchufe inteligente Nodon - Smartplug 
+Enchufe inteligente Mediodía - Smartplug 
 ====================================
 
 \
@@ -85,7 +85,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : Smartplug
 

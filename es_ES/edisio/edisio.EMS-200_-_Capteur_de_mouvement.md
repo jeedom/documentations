@@ -9,28 +9,28 @@
 Resumen 
 ======
 
-,
+Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo,
+el sensor de movimiento detecta una presencia, el cambio de estado es
+instantáneo.
 
-.
-
-
-. 
-.
+Gracias a su amplio ángulo de visión y su alcance, permite asegurar
+un gran perímetro. El indicador LED integrado señala cualquier cambio
+estado.
 
 Funciones 
 =========
 
--   
+-   Detecta movimiento, incluso en completa oscuridad.
 
 -   Ultra compacto
 
--   
+-   Señal transmitida instantáneamente al detectarla
 
 -   Autoprotección contra el levantamiento
 
 -   Facilidad de uso e instalación.
 
--   
+-   Montaje en pared por tornillos o doble cara
 
 -   Información de nivel de batería
 
@@ -47,7 +47,7 @@ Características técnicas
 
 -   Rango en campo libre : 100 millones
 
--    : 
+-   Rango de detección : Los 6M
 
 -   Dimensiones : 25x79x19mm
 
@@ -60,7 +60,7 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : 
+-   Nombre : EMS-200
 
 Configuración general 
 ======================
@@ -76,36 +76,36 @@ referirse a esto
 
 > **Punta**
 >
-> 
-> .
+> Se recomienda su colocación a una altura de 150 cm y cerca
+> la temperatura deseada.
 
 Botón "E"" 
 ----------
 
-
-.
+Encontrará el botón "E", que es el botón de asociación del sensor
+de temperatura.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
 Detección 
 ---------
 
-
+El sensor detecta el más mínimo movimiento dentro de un radio de unos 6 m.
 
 ![ems200.detection](images/ems200/ems200.detection.jpg)
 
- 
+Ajuste del temporizador 
 -----------------------
 
-. 
- :
+Por defecto, el temporizador está deshabilitado. Este parámetro se usa para configurar
+el plazo :
 
 ![ems200.minuterie](images/ems200/ems200.minuterie.jpg)
 
 Asociación del sensor con Jeedom 
 ===============================
 
-
+La asociación del sensor de movimiento es fácil como un pastel. Él
 simplemente presione el botón "E", ubicado debajo del sensor. Este lo hará
 reconocido automáticamente por Jeedom. Solo ve al
 Complemento Edisio. Luego puede colocarlo en un objeto, darle un
@@ -130,8 +130,8 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Presencia : 
-    
+-   Presencia : Es el comando que indica si hay presencia
+    detectado
 
 -   Batería : Indica el estado de la batería.
 

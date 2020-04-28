@@ -114,7 +114,7 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--    : 
+-   bt01 : Es el comando que te permite interactuar con el botón 1
 
 -   Batería : Indica el estado de la batería.
 
@@ -138,12 +138,12 @@ disponible :
 Uso 
 -----------
 
-
-
-.
+Una vez que su control remoto está configurado, puede hacerlo con
+Plugin Jeedom Scenario, interactúa con tu control remoto en Jeedom
+y su equipamiento.
 
 > **Nota**
 >
-> .
+> El control remoto con retroalimentación de estado binario..
 
 **@Jamsta**

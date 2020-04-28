@@ -1,4 +1,4 @@
-Nodon Fernbedienung - Octan 
+Nicken Fernbedienung - Octan 
 ==========================
 
 \.
@@ -84,7 +84,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nodon
+-   Machen Sie : Nicken
 
 -   Name : CRC-3-1-00 Octan Remote
 
