@@ -35,11 +35,11 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. Vous pouvez retrouver la liste des plugins [here](http://market.jeedom.fr/index.php?v = d & p = market & type = plugin).
+> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. Vous pouvez retrouver la liste des plugins [here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Tip**
 >
-> Service pack ?  ? Vous pouvez voir [here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
+> Service pack ?  ? Vous pouvez voir [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
 
 
@@ -64,7 +64,7 @@ Vous devez télécharger le logicel Etcher [here](https://etcher.io/) then insta
 2nd step : Jeedom image recovery
 ---
 
-Vous devez aller [here](https://images.jeedom.com / jeeboard/), then in the Images folder recover the jeedom-jeeboard - \*. rar image
+Vous devez aller [here](https://images.jeedom.com/jeeboard/), then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 
@@ -288,7 +288,7 @@ Step 4 :  launch
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Click OK \* Click start
+-   Click OK \*Click start
 
 Step 5 : Debian 9 installation
 ---
