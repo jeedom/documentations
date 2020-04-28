@@ -14,6 +14,8 @@ var docMenu = [
     pt_PT : "",
     link : "/documentations/#LANG#/howto/remonter_un_bug"
   },{
+    divider : true
+  },{
     fr_FR : "Utiliser Jeedom",
     en_US : "Use Jeedom",
     es_ES : "Use Jeedom",
@@ -137,6 +139,8 @@ var docMenu = [
       {link:"/documentations/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
       {link:"/documentations/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
     ]
+  },{
+    divider : true
   },{
     fr_FR : "Mentions légales",
     en_US : "Legal Notice",
