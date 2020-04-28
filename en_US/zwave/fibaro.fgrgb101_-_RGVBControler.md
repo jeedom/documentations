@@ -1,4 +1,4 @@
-Fibaro RGVB Controler - FGRGB-101 
+ 
 =================================
 
 \
@@ -83,19 +83,19 @@ Technical characteristics
 
 -   \* 24V - 288W total (all channels)
 
--   PWM modulation frequency : 244 Hz
+-   PWM modulation frequency : 
 
 -   Consumption : 0.3W
 
 -   Radio protocol : Z-Wave at 868.4 MHz (EU)
 
--   Z-Wave transmit power : 1mW
+-   Z-Wave transmit power : 
 
--   Operating temperature : 0 - 40 C
+-   Operating temperature : 
 
--   For installation in boxes : Ø≥50 mm
+-   For installation in boxes : 
 
--   Dimensions : 42 x 37 x 17 mm
+-    : 
 
 -   European standards : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -106,9 +106,9 @@ Technical characteristics
 Module data 
 -----------------
 
--   Mark : Fibar Group
+-   Mark : 
 
--   Name : Fibaro FGRGB-101 RGBW
+-   Name : 
 
 -   Manufacturer ID : 271
 
@@ -172,10 +172,10 @@ Here is the list of commands :
 -   Dawn : This is the command that simulates an Aude atmosphere
     (progressive sunrise)
 
--   Fading : This is the command that simulates the entire
+-    : This is the command that simulates the entire
     color spectrum
 
--   RBB : This is the command that simulates a cop atmosphere
+-    : This is the command that simulates a cop atmosphere
 
 -   White cold : This is the command that simulates having a
     cool white color, if the color strip allows it. (this
@@ -257,7 +257,7 @@ Use of 0-10V sensors.
 
 \
 
-Wakeup 
+ 
 ------
 
 No notion of wakeup on this module.

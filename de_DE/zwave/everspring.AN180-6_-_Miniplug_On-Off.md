@@ -69,13 +69,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung : 
 
 -   Verbrauch : 0,6 W.
 
 -   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
-    : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
-    200W
+    : 800W, Kompaktleuchtstofflampe : , LED-Lampe (nicht dimmbar) :
+    
 
 -   Frequenz : 868,42 MHz
 
@@ -83,7 +83,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 
 
 \.
 

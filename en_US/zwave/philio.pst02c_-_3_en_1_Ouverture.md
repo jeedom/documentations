@@ -89,7 +89,7 @@ Technical characteristics
 
 -   Battery life : 3 years (for 14 trips per day)
 
--   Frequency : 868.42 MHz
+-   Frequency : 868.
 
 -   Transmission distance : 30m indoors
 
@@ -97,21 +97,21 @@ Technical characteristics
 
 -   Brightness sensor : 0 to 500 lux
 
--   Dimensions :
+-    :
 
--   Detector : 28 x 96 x 23 mm
+-   Detector : 
 
--   Magnet : 10 x 50 x 12 mm
+-   Magnet : 
 
--   Weight : 52g
+-   Weight : 
 
 -   Operating temperature : -10 to 40 ° C
 
 -   Operating humidity : 85% RH max
 
--   CE standard : EN300 220-1
+-   CE standard : 
 
--   Z-Wave certification : ZC08-13050003
+-   Z-Wave certification : 
 
 \
 
@@ -120,7 +120,7 @@ Module data
 
 \
 
--   Mark : Philio Technology Corporation
+-   Mark : 
 
 -   Name : PST02-C Door / Window 3 in 1 sensor
 
@@ -298,7 +298,7 @@ Good to know
 
 \
 
-Wakeup 
+ 
 ------
 
 \

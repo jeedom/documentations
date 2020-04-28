@@ -1,4 +1,4 @@
-Llavero Aeotec 
+Llavero  
 =============
 
 \
@@ -71,7 +71,7 @@ Características técnicas
 
 -   Duración de la batería : 1 año
 
--   Frecuencia: 868.42 MHz
+-   Frecuencia: 868.
 
 -   Distancia de transmisión : 100m en campo abierto
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer : 
 
 -   Nombre : Llavero
 
@@ -212,7 +212,7 @@ entre el control remoto y los módulos.
 \
 
 Este módulo tiene un solo grupo de asociación. El es
-indispensable.
+.
 
 \
 

@@ -1,4 +1,4 @@
-Aeotec Garagentorsteuerung 
+ Garagentorsteuerung 
 ====================================
 
 \.
@@ -51,7 +51,7 @@ Funktionen
 
 -   Akustische und visuelle Warnungen zum Öffnen / Schließen.
 
--   Einstellbare Alarmlautstärke (max. 105 dB)
+-   Einstellbare Alarmlautstärke (max. )
 
 -   USB-Anschluss zum Laden eigener MP3-Sounds.
 
@@ -80,13 +80,13 @@ Technische Daten
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
 -   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Stapel
-    Lithium 3V 800mA CR2
+    
 
--   Standby-Verbrauch : 1W
+-   Standby-Verbrauch : 
 
--   Alarmverbrauch : 2W
+-   Alarmverbrauch : 
 
--   Maximale Lautstärke : 105 dB
+-   Maximale Lautstärke : 
 
 -   Unterstützte Audioformate : mp3 und WMV mit einer Frequenz von 320Kbps
 
@@ -96,9 +96,9 @@ Technische Daten
 
 -   Betriebstemperatur : -20 ° C bis 50 ° C.
 
--   Betriebsfeuchtigkeit : 80%
+-   Betriebsfeuchtigkeit : 
 
--   Zertifizierungen: FCC, UL, CE, ROHS
+-   Zertifizierungen: 
 
 \.
 
@@ -107,7 +107,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie : 
 
 -   Name : Garagentorsteuerung (ZW062)
 
@@ -174,7 +174,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Zonentemperatur, kein automatischer Aufstieg.
 
--   Sabotage : Textsabotagestatus.
+-    : Textsabotagestatus.
 
 \.
 
@@ -210,7 +210,7 @@ Parameterdetails :
 -   34: Ermöglicht das Starten der Kalibrierung der Öffnungszeit von
     die Tür.
 
--   41: Ermöglicht das Zurücksetzen des Sabotagestatus durch Auswahl von "Entlasten"
+-   41: Ermöglicht das Zurücksetzen des status durch Auswahl von "Entlasten"
     der Alarmzustand"
 
 -   80: auf Hagel
@@ -259,7 +259,7 @@ Die Kalibrierung ist abgeschlossen
 
 \.
 
-Sabotage zurückgesetzt:
+ zurückgesetzt:
 
 -   1 : Der Sensor muss ordnungsgemäß angebracht sein.
 

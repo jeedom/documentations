@@ -1,4 +1,4 @@
-D-Link DCH-Z110 - "3 in 1 Öffnung" 
+ DCH-Z110 - "3 in 1 Öffnung" 
 ====================================
 
 \.
@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : D-Link
+-   Machen Sie : 
 
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home
@@ -166,7 +166,7 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-    : Dies ist der befehl (er wird ausgelöst in
     herausreißen)
 
 -   Batterie : Es ist der Batteriebefehl

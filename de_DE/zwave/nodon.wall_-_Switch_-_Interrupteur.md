@@ -66,10 +66,10 @@ Technische Daten
 
 -   Betriebstemperatur : 0 ° C bis 40 ° C.
 
--   Höhe : 2000m
+-   Höhe : 
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    Plus® SDK 06.51.06
+    
 
 -   Geltungsbereich : 40 m drinnen / 70 m draußen
 
@@ -77,15 +77,15 @@ Technische Daten
 
 -   2 Jahre Garantie
 
--   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
+-   :2006 + A11::::2013
 
--   EN 300 220-2 V2.4.1
+-   
 
--   EN301 489-1 V1.9.2
+-   
 
--   EN301 489-3 V1.6.1
+-   
 
--   EN 62479:2010
+-   :2010
 
 \.
 
@@ -204,13 +204,13 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+-    : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-    : Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen

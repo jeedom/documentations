@@ -1,4 +1,4 @@
-Aeotec Panic Button 
+ 
 ===================
 
 \
@@ -78,11 +78,11 @@ Technical characteristics
 -   Battery life : 2 to 3 months for 10 to 20 uses
     per day
 
--   Frequency: 868.42 MHz
+-   Frequency: 868.
 
 -   Transmission distance : 30m indoors
 
--   Dimensions : 55 x 30 x 11mm (L x W x H)
+-    : 55 x 30 x 11mm (L x W x H)
 
 \
 
@@ -91,9 +91,9 @@ Module data
 
 \
 
--   Mark : Aeotec
+-   Mark : 
 
--   Name : Panic Button
+-   Name : 
 
 -   Manufacturer ID : 134
 
@@ -234,7 +234,7 @@ To use this module as a remote control, proceed as follows :
 -   5 : Change the operating mode of the remote control while remaining
     press the two buttons on the back for 3 seconds.
 
-Wakeup 
+ 
 ------
 
 \

@@ -1,4 +1,4 @@
-Everspring Miniplug We / Off - AN180-6 
+ Miniplug We / Off - AN180-6 
 ====================================
 
 \
@@ -27,8 +27,8 @@ Summary
 The Mini We / Off Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
 House. With a voltage of 220 - 240 V, this Plug can support a
-load up to 1500W (resistance), 800W (incandescent), 200W (motor,
-fluorescent, Led).
+load up to 1500W (resistance), 800W (incandescent),  (motor,
+.
 
 The Mini We / Off Plug is a Z-Wave ™ compatible device which is intended
 to work with all Z-Wave ™ compatible networks. She can
@@ -69,13 +69,13 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food : 
 
--   Consumption : 0.6W
+-   Consumption : 
 
 -   Maximum power : Resistive load : 1500W, Incandescent bulb
-    : 800W, Compact fluorescent bulb : 200W, Led bulb (not dimmable) :
-    200W
+    : 800W, Compact fluorescent bulb : , Led bulb (not dimmable) :
+    
 
 -   Frequency : 868.42 Mhz
 
@@ -83,7 +83,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--   Dimensions : Length (plug included) : 74mm Diameter : 52mm
+-    : Length (plug included) : 74mm Diameter : 
 
 \
 
@@ -92,7 +92,7 @@ Module data
 
 \
 
--   Mark : Everspring
+-   Mark : 
 
 -   Name : Miniplug We / Off
 
@@ -231,7 +231,7 @@ Good to know
 -   Status feedback cannot be configured below 3
     seconds. \
 
-Wakeup 
+ 
 ------
 
 \

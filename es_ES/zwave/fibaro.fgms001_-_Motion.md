@@ -86,7 +86,7 @@ Características técnicas
 
 -   Precisión de medición : 0.5 ° C
 
--   Rango de medición de brillo : 0-32000 LUX
+-   Rango de medición de brillo : X
 
 -   Frecuencia : 868.42 Mhz
 
@@ -97,7 +97,7 @@ Características técnicas
 -   Temperatura de funcionamiento : 0-40 ° C
 
 -   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    II
+    
 
 \
 
@@ -302,7 +302,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene tres grupos de asociación, solo el tercero es
-indispensable.
+.
 
 \
 

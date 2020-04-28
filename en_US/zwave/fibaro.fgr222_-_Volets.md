@@ -1,4 +1,4 @@
-Fibaro FGR-222 "Roller shutter" 
+ "Roller shutter" 
 ==============================
 
 \
@@ -59,7 +59,7 @@ Functions
 
 -   Installs behind an existing switch
 
--   Up / down and positioning function
+-    / down and positioning function
 
 -   Compatible with motors with mechanical or electronic stop
 
@@ -82,21 +82,21 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50 Hz
+-   Food : 
 
 -   Power consumption : &lt; 0,8W
 
 -   Wiring : 3 wire, neutral required
 
--   Max load : 1000W
+-   Max load : 
 
 -   Frequency : 868.42 Mhz
 
--   Signal strength : 1mW
+-   Signal strength : 
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 17 x 42 x 37 mm
+-   : 
 
 -   Operating temperature : 0-40 ° C
 
@@ -111,9 +111,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark : 
 
--   Name : Fibaro FGR-222
+-   Name : 
 
 -   Manufacturer ID : 271
 
@@ -178,9 +178,9 @@ Here is the list of commands :
 -   Positioning : It is the command which makes it possible to define the
     opening percentage
 
--   Up : This is the command that allows you to fully open the shutter
+-    : This is the command that allows you to fully open the shutter
 
--   Down : It is the command that completely closes the shutter
+-    : It is the command that completely closes the shutter
 
 -   Refresh : It is the command which allows to ask again the position
     of the shutter
@@ -192,7 +192,7 @@ Here is the list of commands :
 
 -   STOP : Control to stop the movement of the shutter
 
--   STOP BSO : Command to stop the movement (in mode
+-    : Command to stop the movement (in mode
     adjustable slat)
 
 -   Tilt : Allows you to tilt the slats (adjustable slat mode)
@@ -333,7 +333,7 @@ on this button available in the System tab.
 
 \
 
-Wakeup 
+ 
 ------
 
 \

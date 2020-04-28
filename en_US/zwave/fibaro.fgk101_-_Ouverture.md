@@ -88,7 +88,7 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 76 x 17 x 19 mm
+-   : 
 
 -   Operating temperature : 0-40 ° C
 
@@ -99,7 +99,7 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark : 
 
 -   Name : Fibaro FGK-101 with temperature probe (DS18B20)
 
@@ -206,7 +206,7 @@ Parameter details :
 
 \
 
--   Wakeup : this is the Module's wake-up interval (value
+-    : this is the Module's wake-up interval (value
     7200 recommended)
 
 -   1: sets the delay for canceling the IN input alarm
@@ -272,7 +272,7 @@ Good to know
 
 \
 
-Wakeup 
+ 
 ------
 
 \

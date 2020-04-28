@@ -1,4 +1,4 @@
-Everspring Miniplug Dimmer - AD147-6 
+ 
 ====================================
 
 \
@@ -68,12 +68,12 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food : 
 
--   Consumption : 0.6W
+-   Consumption : 
 
 -   Maximum power : Resistive load : 250W, Incandescent bulb
-    : 250W, Led bulb (not dimmable) : 6W
+    : 250W, Led bulb (not dimmable) : 
 
 -   Frequency : 868.42 Mhz
 
@@ -81,7 +81,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--   Dimensions : Length (plug included) : 74mm Diameter : 52mm
+-    : Length (plug included) : 74mm Diameter : 
 
 \
 
@@ -90,9 +90,9 @@ Module data
 
 \
 
--   Mark : Everspring
+-   Mark : 
 
--   Name : Miniplug Dimmer
+-   Name : 
 
 -   Manufacturer ID : 96
 
@@ -235,7 +235,7 @@ Good to know
 -   Status feedback cannot be configured below 3
     seconds. \
 
-Wakeup 
+ 
 ------
 
 \

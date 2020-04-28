@@ -60,10 +60,10 @@ Technische Daten
 
 -   Schlag- und spritzwassergeschützt
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    Plus® SDK 06.51.06
+    
 
 -   Geltungsbereich : 40 m drinnen / 80 m draußen
 
@@ -80,7 +80,7 @@ Moduldaten
 
 -   Machen Sie : Nicken
 
--   Name : CRC-3-6-0x Soft Remote
+-   Name : 
 
 -   Hersteller ID : 357
 
@@ -143,14 +143,14 @@ Hier ist die Liste der Befehle :
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
-| **1 (0         | 10             | 12             | 11             | 13             |
+| **         | 10             | 12             | 11             | 13             |
 | voll)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **2 (+)**      | 20             | 22             | 21             | 23             |
+| ****      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3 (0 leer)** | 30             | 32             | 31             | 33             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **4 (-)**      | 40             | 42             | 41             | 43             |
+| ****      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
 -   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
@@ -191,13 +191,13 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+-    : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-    : Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen

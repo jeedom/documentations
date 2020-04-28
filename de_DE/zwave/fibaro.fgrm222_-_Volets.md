@@ -1,4 +1,4 @@
-Fibaro FGRM-222 "Rollladen" 
+ "Rollladen" 
 ===============================
 
 \.
@@ -88,15 +88,15 @@ Technische Daten
 
 -   Verkabelung : 3 Draht, Neutralleiter erforderlich
 
--   Maximale Belastung : 1000W
+-   Maximale Belastung : 
 
 -   Frequenz : 868,42 MHz
 
--   Signalstärke : 1mW
+-   Signalstärke : 
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 17 x 42 x 37 mm
+-   Abmessungen: 
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -111,9 +111,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Fibar Group
+-   Machen Sie : 
 
--   Name : Fibaro FGRM-222
+-   Name : 
 
 -   Hersteller ID : 271
 
@@ -192,7 +192,7 @@ Hier ist die Liste der Befehle :
 
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
 
--   STOP BSO : Befehl zum Stoppen der Bewegung (im Modus
+-    : Befehl zum Stoppen der Bewegung (im Modus
     verstellbare Lamelle)
 
 -   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
@@ -258,7 +258,7 @@ Parameterdetails :
 
 -   18: Motorsicherheitsleistung
 
--   22: NA
+-   22: 
 
 -   29: ermöglicht die Kalibrierung der Klappe
 

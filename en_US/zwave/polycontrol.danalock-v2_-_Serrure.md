@@ -1,4 +1,4 @@
-Danalock V2 BTZE 
+ 
 ================
 
 \
@@ -25,7 +25,7 @@ Summary
  
 
 **Secure your home using the Z-Wave electronic lock from
-Poly-Control !**
+ !**
 
 No more keys, use your smartphone to lock and
 unlock your door ! Danalock is a new solution that
@@ -56,7 +56,7 @@ Install the Danalock app on your phone in just a few
 seconds. An assistant then guides you through the installation and
 the calibration of your Danalock.
 
- **Easy to use**
+**Easy to use**
 
 Lock and unlock with the button, the TwistAssist function or
 using your smartphone. And with the auto-unlock function,
@@ -138,15 +138,15 @@ Technical characteristics
 
 -   Food : 4 CR123 3V batteries
 
--   Versions : V2
+-    : 
 
 -   Material : Solid anodized aluminum
 
 -   Communication : Bluetooth and Z-Wave
 
--   Dimensions : 79 mm x 49 mm (diameter x height)
+-    : 79 mm x 49 mm (diameter x height)
 
--   Weight : 363g
+-   Weight : 
 
 \
 
@@ -155,11 +155,11 @@ Module data
 
 \
 
--   Mark : Poly-Control
+-   Mark : 
 
--   Name : Danalock V2 BTZE
+-   Name : 
 
--   Manufacturer ID : 010e
+-   Manufacturer ID : 
 
 -   Product Type : 1
 
@@ -288,7 +288,7 @@ Parameter details :
 
 \
 
--   1 : Direction 0-1 : 0 = Motor goes clockwise
+-   1 :  : 0 = Motor goes clockwise
     locked, 1 = Motor goes counterclockwise when
     Locked
 
@@ -314,7 +314,7 @@ Parameter details :
     at this value, the device will inform the user with a signal
     sound after locking or unlocking.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
+-   9 : 
     will turn the handle automatically when
     operate it manually.
 
@@ -375,7 +375,7 @@ Good to know
 
 \
 
-Wakeup 
+ 
 ------
 
 \

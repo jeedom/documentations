@@ -179,7 +179,7 @@ your Jeedom account, for that click on Administration → Users
 (top right):
 
 Once on it you just have to choose the line with the user
-**admin** and click on **To change the password** :
+**admin** and click on **To change the password**:
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -288,7 +288,7 @@ This consists of several categories:
 
 -   Setup : Everything about installing Jeedom,
 
--   Howto : Tutorials to progress in various fields,
+-    : Tutorials to progress in various fields,
 
 -   Plugins : The documentation of the different offhereal plugins from
     Jeedom,

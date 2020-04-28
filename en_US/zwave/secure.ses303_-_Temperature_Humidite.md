@@ -26,7 +26,7 @@ Summary
 
 The SES303 probe allows the measurement of the indoor ambient temperature
 as well as humidity. It is powered by 2 AA batteries and is certified
-Z-Wave Plus. In addition to its main function, it is possible to
+. In addition to its main function, it is possible to
 wire various external SECURE probes to the module, i.e.:
 
 -   An external NTC temperature sensor (SES001)
@@ -74,7 +74,7 @@ Technical characteristics
 
 -   Temperature measurement range: ± 0.5 ° C for 0 ° C to 40 ° C
 
--   Z-Wave Plus chip
+-    chip
 
 -   Frequency : 868.42 Mhz
 
@@ -82,9 +82,9 @@ Technical characteristics
 
 -   Scope : up to 100 m in free field
 
--   Protection sign : IP30
+-   Protection sign : 
 
--   Dimensions : 86 x 85 x 30 mm
+-    : 
 
 \
 
@@ -93,9 +93,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark : 
 
--   Name : SES 303 Temperature and Humidity Sensor
+-   Name : 
 
 -   Manufacturer ID : 89
 
@@ -243,7 +243,7 @@ Good to know
 
 \
 
-Wakeup 
+ 
 ------
 
 \

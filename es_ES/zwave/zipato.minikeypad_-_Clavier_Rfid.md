@@ -1,4 +1,4 @@
-Zipato miniKeypad RFID 
+ 
 ======================
 
 \
@@ -24,7 +24,7 @@ Resumen
 
 \
 
-Controle su sistema de seguridad con este mini teclado de pared Zipato
+Controle su sistema de seguridad con este mini teclado de pared 
 !
 
 Con este teclado RFID compatible con Z-Wave, podrá activar o
@@ -72,7 +72,7 @@ Características técnicas
 
 -   Suministro : 2 pilas AA 1.5V
 
--   Frecuencia : 868.42 MHz
+-   Frecuencia : 868.
 
 -   Rango de radio : 30m en campo abierto
 
@@ -88,9 +88,9 @@ Características técnicas
 
 -   Humedad de funcionamiento : 30% a 80%
 
--   Dimensiones : 62 x 62 x 20 mm
+-   Dimensiones : 
 
--   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
+-   Certificaciones : Seguridad :  : 
 
 \
 
@@ -99,9 +99,9 @@ Datos del módulo
 
 \
 
--   Hacer : Zipato
+-   Hacer : 
 
--   Nombre : Mini teclado Zipato RFID
+-   Nombre : Mini teclado  RFID
 
 -   ID del fabricante : 151
 

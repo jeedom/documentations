@@ -68,10 +68,10 @@ Características técnicas
 
 -   Imán integrado para fijación a superficie metálica.
 
--   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
-    Plus® SDK 06.51.01 Alcance: 40m interior / 80m exterior
+    .01 Alcance: 40m interior / 80m exterior
 
 -   Dimensiones : 80 \* 80 \* 15 mm
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Mediodía
 
--   Nombre : CRC-3-1-00 Octan Remote
+-   Nombre : 
 
 -   ID del fabricante : 357
 
@@ -194,13 +194,13 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir los perfiles de botón cuando se usa en
+-    : Le permite elegir los perfiles de botón cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+-    : Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED

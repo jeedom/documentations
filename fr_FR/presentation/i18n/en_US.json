@@ -12,7 +12,7 @@
         "protocole IP (KNX,xPL…)": "IP protocol (KNX, xPL…)",
         "objet communiquant (Nest, Netatmo…)": "communicating object (Nest, Netatmo…)",
         "haut niveau (alarme, thermostat…)": "high level (alarm, thermostat ...)",
-        "interface (widget)": "interface (widget)",
+        "interface (widget)": "",
         "organisation (agenda, Google agenda)": "organization (calendar, Google calendar)",
         "développement (script)": "development (script)",
         "Ces plugins peuvent être récupérés via Market et permettent d'étendre les possibilités de Jeedom": "These plugins can be retrieved via Market and allow you to extend the possibilities of Jeedom",
