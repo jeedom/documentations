@@ -62,6 +62,7 @@ var docMenu = [
     pt_PT : "",
     id : "v3UserManual",
     submenu:[
+      {link : "/documentations/#LANG#/core/#VERSION#/changelog",fr_FR : "Changelog",en_US:"Changelog",es_ES:"Changelog",de_DE:"Changelog",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/design",fr_FR : "Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
@@ -159,18 +160,26 @@ var docMenu = [
 ]
 
 setTheme();
-setJeedomVersion();
 
 $('#ul_menu').empty();
 var html = '';
-var lang = getCookie('lang');
-if(!lang){
-  lang = 'fr_FR'
+var lang = 'fr_FR' ;
+if(getCookie('lang') != ''){
+  lang = getCookie('lang');
 }
 $('#meta-lang').attr('content',lang)
-var jeedomVersion = getCookie('jeedomVersion');
-if(!jeedomVersion){
+var jeedomVersion = '3.3'
+if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '3.3'
+}else if(window.location.href.indexOf('4.0') != -1){
+  jeedomVersion = '4.0'
+}else if(window.location.href.indexOf('4.1') != -1){
+  jeedomVersion = '4.1'
+}else if(getCookie('jeedomVersion') != ''){
+  jeedomVersion = getCookie('jeedomVersion');
+}
+if(getCookie('jeedomVersion') != jeedomVersion){
+  setCookie('jeedomVersion',jeedomVersion,7)
 }
 if($('#sel_jeedomVersion').val() != jeedomVersion){
   $('#sel_jeedomVersion').val(jeedomVersion);
