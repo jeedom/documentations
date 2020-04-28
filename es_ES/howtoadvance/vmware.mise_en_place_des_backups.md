@@ -124,7 +124,7 @@ que contiene 4 archivos :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \ * - plano.vmdk ⇒ el disco virtual de su máquina
+-   \* - plano.vmdk ⇒ el disco virtual de su máquina
 
 -   \*.vmdk ⇒ el deGuiónor del disco
 
@@ -172,13 +172,13 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > **Nota**
 >
 > Aquí solicito una copia de seguridad cada 1 de cada mes, puede cambiar
-> esto modificando : 0 0 1 \ * \*
+> esto modificando : 0 0 1 \* \*
 
 > **Nota**
 >
 > Aquí hago una copia de seguridad de todas las máquinas virtuales, puede adaptar esto
 > reemplazando -a con -m ma \ _vm, tenga cuidado si quiere poner
-> varias máquinas virtuales debe duplicar la línea "/ bin / echo" 0 0 1 \ * \*
+> varias máquinas virtuales debe duplicar la línea "/ bin / echo" 0 0 1 \* \*
 > / vmfs / volume / Backup / ghettoVCB.sh -a -g
 > / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "y coloca uno por VM para hacer una copia de seguridad

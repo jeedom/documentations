@@ -165,7 +165,7 @@ steps to follow :
 
 > **Tip**
 >
-> To understand the planning 0 5 \ * \ * 1, see here and
+> To understand the planning 0 5 \* \* 1, see here and
 > adjust it to your needs if necessary :
 > <https://crontab.guru/#0_5_*_*_1>
 

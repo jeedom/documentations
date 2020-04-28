@@ -354,9 +354,9 @@ Alle weiteren Austausche erfolgen per E-Mail.
 > Anzahl der Unterstützunganfragen pro Monat, abhängig von Ihrer
 > Service Pack.
 
-Die verschiedenen Service Packs sind : \ * Community (kostenlos): 2
-Tickets / Monat (nur für kostenpflichtige Plugins) \ * Power: 10 Tickets / Monat
-\ * Pro: 100 Tickets / Monat
+Die verschiedenen Service Packs sind : \* Community (kostenlos): 2
+Tickets / Monat (nur für kostenpflichtige Plugins) \* Power: 10 Tickets / Monat
+\* Pro: 100 Tickets / Monat
 
 Sie finden die Details der Service Packs
 [hier](https://www.jeedom.com/site/fr/soft.html#obtenir)

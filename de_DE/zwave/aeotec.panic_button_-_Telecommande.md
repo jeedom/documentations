@@ -1,4 +1,4 @@
- Panikknopf 
+Aeotec Panikknopf 
 ===================
 
 \.
@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Aeotec
 
 -   Name : Panikknopf
 

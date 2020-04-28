@@ -102,7 +102,7 @@ Características técnicas
 
 Apoyo : Botón 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
 mm (diámetro x grosor) Soporte + Botón : 71,16 x 17,22 mm (diámetro
-x espesor) \ * Certificaciones :
+x espesor) \* Certificaciones :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Parte 15 B, FCC Parte 15 C

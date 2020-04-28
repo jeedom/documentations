@@ -11,41 +11,30 @@ Jeedom se puede instalar en diferentes tipos de hardware :
 
 -   Freebox Delta
 
-También puede comprar una caja con Jeedom preinstalado
-que también contiene un paquye de servaquío (más soporte y servaquíos) y
-plugins ofrecidos :
+También puede comprar una caja preparada con Jeedom preinstalado que también contiene un paquye de servaquío (más soporte y servaquíos) y complementos ofrecidos :
 
--   [Jeedom Smart
-    Z-Wave+](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+-   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [Jeedom Smart Z-Wave+ y
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-y-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave + y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-y-interface-rfxcom.html)
 
--   [Jeedom Smart
-    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [Jeedom Smart EnOcean y
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-y-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-y-interface-rfxcom.html)
 
 Aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
 
 1.  Raspberry pi 3 :
 
     -   Un raspberry+caja \~ 50 €
-
     -   Una llave USB Aeon Gen 5 \~ 60 €
-
     -   Una tarjya micro SD \~ 7 €
-
     -   Una fuente de alimentación USB \~ 8 €
 
-Un total de 125 € para una caja domotica open-source con un
-control complyo de su instalación.
+Un total de 125 € para una caja de automatización del hogar de código abierto con control complyo sobre su instalación.
 
 > **Punta**
 >
-> Es posible agregar o cambiar por una antena Rfxcom, o un
-> enOcean key.
+> Es posible agregar o cambiar mediante una antena Rfxcom o una clave enOcean.
 
 > **Punta**
 >
@@ -89,17 +78,15 @@ Etapa 2 : Jeedom recuperación de imagen
 
 Tiene que ir
 [Aquí](https://images.jeedom.com/jeeboard/),
-luego, en la carpya Imágenes, recupere la imagen jeedom-jeeboard - \ *. rar
+luego, en la carpya Imágenes, recupere la imagen jeedom-jeeboard - \*. rar
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Etapa 3 : Descomprimiendo la imagen de Jeedom
 ---
 
-Descomprima la imagen de Jeedom (si no tiene nada que descomprimir)
-puedes instalar
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
-debe obtener :
+Descomprima la imagen de Jeedom (si no tiene nada que descomprimir, puede instalar
+[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -108,36 +95,29 @@ debe obtener :
 Paso 4 : Grabar la imagen en la tarjya SD
 ---
 
-Inserte su tarjya SD en su computadora y luego inaquíe el software
-Etcher, dale la ruta de la imagen, la ruta de la tarjya SD y
-haga clic en "Flash!". El software quemará la tarjya SD y verificará
+Inserte su tarjya SD en su computadora, luego inaquíe el software Etcher, dele la ruta de la imagen, la ruta de la tarjya SD y haga clic en "Flash!". El software quemará la tarjya SD y verificará
 grabado.
 
-Solo tiene que poner la tarjya SD en el Jeedomboard (o
-Hummingboard), para conectar la red y la fuente de alimentación, su Jeedom
-inaquío (5 min) y debería verlo en la red.
+Solo tiene que colocar la tarjya SD en el Jeedomboard (o Hummingboard), conectar la red y la fuente de alimentación, su Jeedom se inaquíará (5 min) y debería verlo en la red.
 
 > **Punta**
 >
 > Las ID de SSH son jeedom / Mjeedom96
 
-Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
 
 
 Raspberrypi
 ===========
 
-Aquí encontrará la documentación para instalar Jeedom en un
-frambuesa PI **con una tarjya SD.**
+Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjya SD.**
 
 > **Importante**
 >
-> Debian 9 (Strych) es la distribución ofaquíalmente compatible para
-> versión 3.1.5 de la libertad.
+> Debian 9 (Strych) es la distribución ofaquíalmente compatible para la versión 3.1.5 de la libertad.
 
-**1 / Descargue la última imagen "lite", es decir, sin interfaz
-Gráfico**
+**1 / Descargue la última imagen "lite", es decir, sin interfaz gráfica**
+
 [Aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
 
 **2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
@@ -249,8 +229,7 @@ Salir guardando : `CTRL+X` puis `O `puis `ENTREE`
 
 Reinaquía tu RPI
 
-Luego puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Freebox Delta
 =============
@@ -291,14 +270,13 @@ Puede conectarse usando la dirección indicada en la página:
 
 Recuerde asignar el puerto USB de Delta a la VM si desea usar una antena.
 
-No **no** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del consumo excesivo). 
+No **no** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del consumo excesivo).
 
 la dirección IP de su Jeedom en Freebox Delta está escrita en la parte superior, debajo de su nombre.
 
 el inaquío de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
 
-Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
 
 VM
 ==
@@ -363,7 +341,7 @@ Paso 4 : Lanzamiento de VM
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Haga clic en Aceptar \ * Haga clic en Inaquío
+-   Haga clic en Aceptar \* Haga clic en Inaquío
 
 Paso 5 : Instalación de Debian 9
 ---
@@ -431,8 +409,7 @@ ingrésalo en tu navegador.
 > Si esto no funciona, no ha configurado su tarjya
 > red en el puente de red como se indica al inaquío.
 
-Luego puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Estibador
 ======
@@ -516,8 +493,7 @@ ingrese la información de conexión a mysql :
 
 ![install other](images/install_other.PNG)
 
-Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 > **Importante**
 >
@@ -682,7 +658,7 @@ haga clic en "Aplicar".
 > - SSH_PORT : permite cambiar el puerto predyerminado (22) para escuchar ssh
 > - MODE_HOST : indica que la red está en modo host
 
-> **Importantee**
+> **Importante**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predyerminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
 
@@ -714,8 +690,7 @@ Estibador mysql instalado previamente) y validar.
 > ROOT \ _PASSWORD variable de entorno a valor de contraseña
 > quería.
 
-Luego puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Otros
 ======
@@ -757,5 +732,4 @@ navegador de interny.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Luego puede seguir la documentación [Primer noo con
-Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index).
+Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index).

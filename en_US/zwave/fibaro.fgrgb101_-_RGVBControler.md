@@ -33,13 +33,13 @@ or RGB + white or even to connect analog probes using
 
 -   4 dimmer outputs (PWM) to control :
 
--   \ * i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
+-   \* i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
 
--   \ * or 4 channels of white LEDs 12 / 24V
+-   \* or 4 channels of white LEDs 12 / 24V
 
--   \ * or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
+-   \* or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
 
--   \ * or 12 / 24V fans.
+-   \* or 12 / 24V fans.
 
 -   Requires separate 12 / 24V power supply.
 
@@ -73,15 +73,15 @@ Technical characteristics
 
 -   Maximum output power :
 
--   \ * 12A in total (addition of all channels),
+-   \* 12A in total (addition of all channels),
 
--   \ * 6A max. per channel
+-   \* 6A max. per channel
 
 -   Maximum power with halogen lamps :
 
--   \ * 12V - 144W total (all channels),
+-   \* 12V - 144W total (all channels),
 
--   \ * 24V - 288W total (all channels)
+-   \* 24V - 288W total (all channels)
 
 -   PWM modulation frequency : 244 Hz
 

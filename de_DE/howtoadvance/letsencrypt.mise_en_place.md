@@ -165,7 +165,7 @@ Schritte zu folgen :
 
 > **Spitze**
 >
-> Um die Planung 0 5 \ * \ * 1 zu verstehen, siehe hier und
+> Um die Planung 0 5 \* \* 1 zu verstehen, siehe hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 

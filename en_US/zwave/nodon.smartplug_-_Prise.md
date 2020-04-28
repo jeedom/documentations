@@ -72,7 +72,7 @@ Technical characteristics
 
 -   Scope: 40m indoor / 80m outdoor
 
--   Dimensions: 104 \ * 51 \ * 36mm
+-   Dimensions: 104 \* 51 \* 36mm
 
 -   2 years warranty
 
@@ -206,8 +206,8 @@ Parameter details :
     Plug activated). When the setting is enabled, it is not
     possible to switch off the Smart Plug (local or radio)
 
--   Parameters 5 to 20 : Through the configuration parameters \ # 5 to
-    \ # 20, it is possible to configure up to 8 different alarms.
+-   Parameters 5 to 20 : Through the configuration parameters \# 5 to
+    \# 20, it is possible to configure up to 8 different alarms.
     In order to properly configure your alarms, the online form:
     www.nodon.fr/support/asp3/alarm will guide you
 

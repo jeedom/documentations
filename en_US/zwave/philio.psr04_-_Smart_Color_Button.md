@@ -102,7 +102,7 @@ Technical characteristics
 
 Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
 mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
-x thickness) \ * Certifications :
+x thickness) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Part 15 B, FCC Part 15 C

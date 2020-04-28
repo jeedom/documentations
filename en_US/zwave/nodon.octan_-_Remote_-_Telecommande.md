@@ -73,7 +73,7 @@ Technical characteristics
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.01 Scope: 40m indoor / 80m outdoor
 
--   Dimensions : 80 \ * 80 \ * 15mm
+-   Dimensions : 80 \* 80 \* 15mm
 
 -   2 years warranty
 

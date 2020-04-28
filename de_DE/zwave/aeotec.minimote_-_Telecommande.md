@@ -1,4 +1,4 @@
- 
+Aeotec Minimote 
 ===============
 
 \.
@@ -84,9 +84,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Aeotec
 
--   Name : 
+-   Name : Minimote
 
 -   Hersteller ID : 134
 

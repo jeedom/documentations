@@ -35,11 +35,11 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 
--   \ * oder 4 Kanäle mit weißen LEDs 12 / 24V
+-   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
 
--   \ * oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
+-   \* oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
 
--   \ * oder 12 / 24V-Lüfter.
+-   \* oder 12 / 24V-Lüfter.
 
 -   Benötigt separate 12 / 24V Stromversorgung.
 
@@ -73,15 +73,15 @@ Technische Daten
 
 -   Maximale Ausgangsleistung :
 
--   \ * 12A insgesamt (Addition aller Kanäle),
+-   \* 12A insgesamt (Addition aller Kanäle),
 
--   \ * 6A max. pro Kanal
+-   \* 6A max. pro Kanal
 
 -   Maximale Leistung mit Halogenlampen :
 
--   \ * 12V - 144W insgesamt (alle Kanäle),
+-   \* 12V - 144W insgesamt (alle Kanäle),
 
--   \ * 24V - 288W insgesamt (alle Kanäle)
+-   \* 24V - 288W insgesamt (alle Kanäle)
 
 -   PWM-Modulationsfrequenz : 244 Hz
 

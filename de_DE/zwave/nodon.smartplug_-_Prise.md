@@ -72,7 +72,7 @@ Technische Daten
 
 -   Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen: 104 \ * 51 \ * 36 mm
+-   Abmessungen: 104 \* 51 \* 36 mm
 
 -   2 Jahre Garantie
 
@@ -206,8 +206,8 @@ Parameterdetails :
     Stecker aktiviert). Wenn die Einstellung aktiviert ist, ist dies nicht der Fall
     möglich, den Smart Plug (lokal oder Radio) auszuschalten
 
--   Parameter 5 bis 20 : Über die Konfigurationsparameter \ # 5 bis
-    \ # 20, es ist möglich, bis zu 8 verschiedene Alarme zu konfigurieren.
+-   Parameter 5 bis 20 : Über die Konfigurationsparameter \# 5 bis
+    \# 20, es ist möglich, bis zu 8 verschiedene Alarme zu konfigurieren.
     Um Ihre Alarme richtig zu konfigurieren, das Einline-Formular:
     www.nodon.fr/support/asp3/alarm wird Sie führen
 

@@ -11,41 +11,30 @@ Jeedom can be installed on different hardware components :
 
 -   Freebox Delta
 
-You can also buy a ready-made box with Jeedom preinstalled
-which also contains a service pack (more support and services) and
-plugins offered :
+You can also buy a ready-made box with Jeedom preinstalled which also contains a service pack (more support and services) and plugins offered :
 
--   [Jeedom Smart
-    Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+-   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [Jeedom Smart Z-Wave+ and
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave + and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
 
--   [Jeedom Smart
-    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [Jeedom Smart EnOcean and
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
 
 Here is a "typical" configuration to gand started with Jeedom in Z-Wave :
 
 1. Raspberry pi 3 :
 
     -   A raspberry + box 50 €
-
     -   An Aeon Gen key 5 € 60
-
     -   A micro SD card 7 €
-
     -   A USB power supply € 8
 
-A total of € 125 for an open source home automation box with a
-complande control of its installation.
+A total of € 125 for an open source home automation box with complande control over its installation.
 
 > **Tip**
 >
-> It is possible to add or change by an Rfxcom antenna, or a
-> enOcean key.
+> It is possible to add or change by an Rfxcom antenna, or an enOcean key.
 
 > **Tip**
 >
@@ -89,17 +78,15 @@ install it on your pc
 
 You have to go
 [Here](https://images.jeedom.com/jeeboard/),
-then in the Images folder recover the jeedom-jeeboard - \ *. rar image
+then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Stage 3 : Decompressing the Jeedom image
 ---
 
-Unzip the Jeedom image (if you have nothing to unzip it
-you can install
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
-must gand :
+Unzip the Jeedom image (if you have nothing to unzip it you can install
+[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -108,36 +95,29 @@ must gand :
 Step 4 : Burning the image to the SD card
 ---
 
-Insert your SD card into your computer then launch the software
-Etcher, give it the path of the image, the path of the SD card and
-click on "Flash!". The software will burn the SD card and check the
+Insert your SD card in your computer then launch the Etcher software, give it the path of the image, the path of the SD card and click on "Flash!". The software will burn the SD card and check the
 engraving.
 
-You just have to put the SD card in the Jeedomboard (or
-Hummingboard), to connect the nandwork and the power supply, your Jeedom will
-start (5 min) and you should see it on the nandwork.
+You just have to put the SD card in the Jeedomboard (or Hummingboard), connect the nandwork and the power supply, your Jeedom will start (5 min) and you should see it on the nandwork.
 
 > **Tip**
 >
 > SSH IDs are jeedom / Mjeedom96
 
-For the rest, you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 
 Raspberrypi
 ===========
 
-Here you will find the documentation to install Jeedom on a
-raspberry PI **with an SD card.**
+You will find here the documentation to install Jeedom on a raspberry PI **with an SD card.**
 
 > **IMPORTANT**
 >
-> Debian 9 (Strandch) is the offhereally supported distribution for
-> version 3.1.5 of jeedom.
+> Debian 9 (Strandch) is the offhereally supported distribution for version 3.1.5 of jeedom.
 
-**1 / Download the latest "lite" image, ie without interface
-Graphic**
+**1 / Download the last "lite" image, ie without graphical interface**
+
 [Here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
 **2 / Decompress the image with winrar** [here](http://www.win-rar.com)
@@ -249,8 +229,7 @@ Quit by saving : `CTRL+X` puis `O `puis `ENTREE`
 
 Reboot your RPI
 
-Then you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Freebox Delta
 =============
@@ -291,14 +270,13 @@ You can connect using the address indicated on the page:
 
 Remember to assign the Delta's USB port to the VM if you want to use an antenna.
 
-Born **not** check "Screen", this is useless on the Jeedom image (apart from overconsumption). 
+Born **not** check "Screen", this is useless on the Jeedom image (apart from overconsumption).
 
 the IP address of your Jeedom on the Freebox Delta is written at the top, under its name.
 
 the default login and notsword are admin / admin when you access jeedom via your browser.
 
-For the rest, you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 VM
 ==
@@ -363,7 +341,7 @@ Step 4 : VM launch
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Click OK \ * Click start
+-   Click OK \* Click start
 
 Step 5 : Debian 9 installation
 ---
@@ -429,10 +407,9 @@ enter it in your browser.
 > **Warning**
 >
 > If this does not work, you have not configured your card
-> nandwork in Nandwork bridge as indicated at the start.
+> nandwork in Borntwork bridge as indicated at the start.
 
-Then you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Docker
 ======
@@ -516,8 +493,7 @@ enter connection information to mysql :
 
 ![install other](images/install_other.PNG)
 
-For the rest, you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 > **IMPORTANT**
 >
@@ -714,8 +690,7 @@ Docker mysql installed previously) and validate.
 > ROOT \ _PASSWORD environment variable to notsword value
 > desired.
 
-Then you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Any
 ======
@@ -757,5 +732,4 @@ Web browser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Then you can follow the documentation [First step with
-Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index).
+Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index).

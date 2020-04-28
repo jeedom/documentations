@@ -102,7 +102,7 @@ Technische Daten
 
 Unterstützung : 71,16 x 10,94 mm (Durchmesser x Dicke) Taste : 59,99 x 14,89
 mm (Durchmesser x Dicke) Unterstützung + Taste : 71,16 x 17,22 mm (Durchmesser
-x Dicke) \ * Zertifizierungen :
+x Dicke) \* Zertifizierungen :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Teil 15 B, FCC Teil 15 C.

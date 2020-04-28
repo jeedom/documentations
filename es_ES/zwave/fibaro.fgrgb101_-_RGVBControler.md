@@ -33,13 +33,13 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   4 salidas de dimmer (PWM) para controlar :
 
--   \ * es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
+-   \* es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 
--   \ * o 4 canales de LED blancos 12 / 24V
+-   \* o 4 canales de LED blancos 12 / 24V
 
--   \ * o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
+-   \* o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
 
--   \ * o ventiladores 12 / 24V.
+-   \* o ventiladores 12 / 24V.
 
 -   Requiere fuente de alimentación separada de 12 / 24V.
 
@@ -73,15 +73,15 @@ Características técnicas
 
 -   Máxima potencia de salida :
 
--   \ * 12A en total (suma de todos los canales),
+-   \* 12A en total (suma de todos los canales),
 
--   \ * 6A máx.. por canal
+-   \* 6A máx.. por canal
 
 -   Máxima potencia con lámparas halógenas. :
 
--   \ * 12V - 144W en total (todos los canales),
+-   \* 12V - 144W en total (todos los canales),
 
--   \ * 24V - 288W en total (todos los canales)
+-   \* 24V - 288W en total (todos los canales)
 
 -   Frecuencia de modulación PWM : 244 Hz
 

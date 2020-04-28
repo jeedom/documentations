@@ -354,9 +354,9 @@ Todos los intercambios posteriores serán por correo electrónico..
 > cantidad de solaquítudes de soporte por mes, dependiendo de su
 > Servaquío pack.
 
-Los diferentes paquetes de servaquío son : \ * Comunidad (gratis): 2
-tickets / mes (solo en complementos pagos) \ * Power: 10 entradas / mes
-\ * Pro: 100 entradas / mes
+Los diferentes paquetes de servaquío son : \* Comunidad (gratis): 2
+tickets / mes (solo en complementos pagos) \* Power: 10 entradas / mes
+\* Pro: 100 entradas / mes
 
 Puede encontrar el detalle de los paquetes de servaquío.
 [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)

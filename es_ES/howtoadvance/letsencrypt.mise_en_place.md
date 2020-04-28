@@ -165,7 +165,7 @@ pasos a seguir :
 
 > **Punta**
 >
-> Para comprender la planificación 0 5 \ * \ * 1, consulte aquí y
+> Para comprender la planificación 0 5 \* \* 1, consulte aquí y
 > ajústelo a sus necesidades si es necesario :
 > <https://crontab.guru/#0_5_*_*_1>
 

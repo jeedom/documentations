@@ -354,9 +354,9 @@ All further exchanges will be by email.
 > number of support requests per month, depending on your
 > Service pack.
 
-The different Service packs are : \ * Community (free): 2
-tickets / month (on paid plugins only) \ * Power: 10 tickets / month
-\ * Pro: 100 tickets / month
+The different Service packs are : \* Community (free): 2
+tickets / month (on paid plugins only) \* Power: 10 tickets / month
+\* Pro: 100 tickets / month
 
 You can find the detail of the Service packs
 [here](https://www.jeedom.com/site/fr/soft.html#obtenir)

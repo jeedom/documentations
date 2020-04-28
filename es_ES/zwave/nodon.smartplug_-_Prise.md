@@ -72,7 +72,7 @@ Características técnicas
 
 -   Alcance: 40m interior / 80m exterior
 
--   Dimensiones: 104 \ * 51 \ * 36 mm
+-   Dimensiones: 104 \* 51 \* 36 mm
 
 -   2 años de garantia
 
@@ -206,8 +206,8 @@ Detalles del parámetro :
     Enchufe activado). Cuando la configuración está habilitada, no está
     posible apagar el Smart Plug (local o radio)
 
--   Parámetros 5 a 20 : A través de los parámetros de configuración \ # 5 para
-    \ # 20, es posible configurar hasta 8 alarmas diferentes.
+-   Parámetros 5 a 20 : A través de los parámetros de configuración \# 5 para
+    \# 20, es posible configurar hasta 8 alarmas diferentes.
     Para configurar correctamente sus alarmas, el formulario en línea:
     www.nodon.fr/support/asp3/alarm lo guiará
 

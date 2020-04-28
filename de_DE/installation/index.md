@@ -11,41 +11,30 @@ Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 
 -   Freebox Delta
 
-Sie können auch eine fertige Box mit vorinstalliertem Jeedom kaufen
-welches auch ein Service Pack (mehr Support und Services) enthält und
-Plugins angeboten :
+Sie können auch eine vorgefertigte Box mit vorinstalliertem Jeedom kaufen, die auch ein Service Pack (mehr Support und Services) und angebotene Plugins enthält :
 
--   [Jeedom Smart
-    Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+-   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [Jeedom Smart Z-Wave+ und
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-und-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave + und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-und-interface-rfxcom.html)
 
--   [Jeedom Smart
-    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [Jeedom Smart EnOcean und
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-und-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-und-interface-rfxcom.html)
 
 Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
 
 1. Himbeer pi 3 :
 
     -   Eine Himbeere + Box 50 €
-
     -   Ein Aeon Gen Schlüssel 5 € 60
-
     -   Eine Micro-SD-Karte 7 €
+    -   Ein USB-Tu es nichttzteil 8 €
 
-    -   Ein USB-Nundzteil 8 €
-
-Insgesamt 125 € für eine Open-Source-Hausautomationsbox mit a
-vollständige Kontrolle über die Installation.
+Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
 > **Spitze**
 >
-> Es ist möglich, eine Rfxcom-Antenne hinzuzufügen oder zu ändern, oder a
-> enOcean Schlüssel.
+> Es ist möglich, eine Rfxcom-Antenne oder einen enOcean-Schlüssel hinzuzufügen oder zu ändern.
 
 > **Spitze**
 >
@@ -89,17 +78,15 @@ Stufe 2 : Jeedom Bildwiederherstellung
 
 Du musst gehen
 [Hier](https://images.jeedom.com/jeeboard/),
-Stellen Sie dann im Ordner "Images" das Bild "jeedom-jeeboard - \ *. rar" wieder her
+Stellen Sie dann im Ordner "Images" das Bild "jeedom-jeeboard - \*. rar" wieder her
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Stufe 3 : Das Jeedom-Bild dekomprimieren
 ---
 
-Entpacken Sie das Jeedom-Bild (wenn Sie nichts zum Entpacken haben
-Sie können installieren
-[Winrar](http://www.clubic.com/telecharger-fiche9632-Winrar.html)), vous
-muss bekommen :
+Entpacken Sie das Jeedom-Image (wenn Sie nichts zum Entpacken haben, können Sie es installieren
+[Winrar](http://www.clubic.com/telecharger-fiche9632-Winrar.html)), vous devez obtenir :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -108,36 +95,29 @@ muss bekommen :
 Schritt 4 : Brennen Sie das Bild auf die SD-Karte
 ---
 
-Legen Sie Ihre SD-Karte in Ihren Computer ein und starten Sie die Software
-Radierer, geben Sie ihm den Pfad des Bildes, den Pfad der SD-Karte und
-Klicken Sie auf "Flash!". Die Software brennt die SD-Karte und überprüft die
+Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, geben Sie den Pfad des Bildes und den Pfad der SD-Karte ein und klicken Sie auf "Flash"!". Die Software brennt die SD-Karte und überprüft die
 Gravur.
 
-Sie müssen nur die SD-Karte in das Jeedomboard einlegen (oder
-Hummingboard), um das Nundzwerk und die Stromversorgung zu verbinden, wird Ihr Jeedom
-Start (5 min) und Sie sollten es im Nundzwerk sehen.
+Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Tu es nichttzwerk und die Stromversorgung verbinden, Ihr Jeedom startund (5 Minuten) und Sie sollten es im Tu es nichttzwerk sehen.
 
 > **Spitze**
 >
 > SSH-IDs sind jeedom / Mjeedom96
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 
 Himbeerpi
 ===========
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem
-Himbeer PI **mit einer SD-Karte.**
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**
 
 > **Wichtig**
 >
-> Debian 9 (Strundch) ist die offiziell unterstützte Distribution für
-> Version 3.1.5 der Freiheit.
+> Debian 9 (Strundch) ist die offiziell unterstützte Distribution für Version 3.1.5 der Freiheit.
 
-**1 / Laden Sie das neueste "Lite" -Bild herunter, dh ohne Benutzeroberfläche
-Grafik**
+**1 / Laden Sie das lundzte "Lite" -Bild herunter, dh ohne grafische Oberfläche**
+
 [Hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
 
 **2 / Dekomprimieren Sie das Bild mit Winrar** [hier](http://www.win-rar.com)
@@ -174,12 +154,12 @@ umbenennen in "ssh" **ohne Verlängerung**
 
 **5 / Starten Sie den PI**
 
-Legen Sie Ihre SD-Karte ein, schließen Sie das Nundzwerkkabel an und verbinden Sie sich
+Legen Sie Ihre SD-Karte ein, schließen Sie das Tu es nichttzwerkkabel an und verbinden Sie sich
 Essen.
 
 **6 / Mit SSH verbinden**
 
-Identifizieren Sie Ihren Pi im Nundzwerk
+Identifizieren Sie Ihren Pi im Tu es nichttzwerk
 
 Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
@@ -249,8 +229,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O `puis `ENTREE`
 
 Starten Sie Ihr RPI neu
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Freebox Delta
 =============
@@ -291,14 +270,13 @@ Sie können eine Verbindung über die auf der Seite angegebene Adresse herstelle
 
 Denken Sie daran, der VM den USB-Anschluss des Delta zuzuweisen, wenn Sie eine Antenne verwenden möchten.
 
-Tu es nicht **nicht** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum).. 
+Tu es nicht **nicht** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum)..
 
 Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 VM
 ==
@@ -358,12 +336,12 @@ Schritt 4 : VM-Start
 
 -   Geben Sie das zuvor heruntergeladene Bild an
 
--   Wählen Sie dann Nundzwerk und wählen Sie im Modus "Zugriff über Brücke"
-    Nundzwerkzugriff.
+-   Wählen Sie dann Tu es nichttzwerk und wählen Sie im Modus "Zugriff über Brücke"
+    Tu es nichttzwerkzugriff.
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Klicken Sie auf OK \ * Klicken Sie auf Start
+-   Klicken Sie auf OK \* Klicken Sie auf Start
 
 Schritt 5 : Debian 9 Installation
 ---
@@ -429,10 +407,9 @@ Geben Sie es in Ihren Browser ein.
 > **Warnung**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Karte nicht konfiguriert
-> Nundzwerk in der Nundzwerkbrücke wie zu Beginn angegeben.
+> Tu es nichttzwerk in der Tu es nichttzwerkbrücke wie zu Beginn angegeben.
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Docker
 ======
@@ -516,8 +493,7 @@ Geben Sie die Verbindungsinformationen zu MySQL ein :
 
 ![install other](images/install_other.PNG)
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 > **Wichtig**
 >
@@ -680,11 +656,11 @@ Klicken Sie auf "Übernehmen"".
 > Es gibt 3 optionale Konfigurationsparamunder. Diese Paramunder müssen als Umgebungsvariable übergeben werden
 > - APACHE_PORT : Ermöglicht das Ändern des Standardports (80) zum Abhören des Webservers
 > - SSH_PORT : ermöglicht das Ändern des Standardports (22) für das Abhören von ssh
-> - MODE_HOST : zeigt an, dass sich das Nundzwerk im Host-Modus befindund
+> - MODE_HOST : zeigt an, dass sich das Tu es nichttzwerk im Host-Modus befindund
 
 > **Wichtig**
 >
-> Für bestimmte Plugins muss das Nundzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Nundzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
+> Für bestimmte Plugins muss das Tu es nichttzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Tu es nichttzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
 
 Stufe 3 : Jeedom Konfiguration
 ---
@@ -714,8 +690,7 @@ Docker MySQL zuvor installiert) und validieren.
 > Umgebungsvariable ROOT \ _PASSWORD auf Kennwortwert
 > wollte.
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Andere
 ======
@@ -757,5 +732,4 @@ Internundbrowser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).

@@ -124,8 +124,8 @@
 |<img src="../../de_DE/zwave/imaAlters/138.33.256_heating.control.jpg "width =" 60 "/>|benext|HeizungsreAlterlung|Mikromodul|||
 |<img src="../../de_DE/zwave/imaAlters/138.4.256_door.sensor.jpg "width =" 60 "/>|benext|Türsensor|Öffnung|||
 |<img src="../../de_DE/zwave/imaAlters/138.4.257_door.sensor.jpg "width =" 60 "/>|benext|Türsensor|Öffnung|||
-|<img src="../../de_DE/zwave/imaAlters/138.7.256_minikeypad.jpg "width =" 60 "/>|benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/138.7.257_minikeypad.jpg "width =" 60 "/>|benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/138.7.256_minikeypad.jpg "width =" 60 "/>|benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
+|<img src="../../de_DE/zwave/imaAlters/138.7.257_minikeypad.jpg "width =" 60 "/>|benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
 # chromagisch
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
@@ -190,7 +190,7 @@
 |<img src="../../de_DE/zwave/imaAlters/540.32770.4096_dx1saz_smoke_sensor.jpg "width =" 60 "/>|domux|Smart Rauchsensor (DX1SA-Z)|Rauch|||
 |<img src="../../de_DE/zwave/imaAlters/540.32771.4096_dx1cgz_gaz_sensor.jpg "width =" 60 "/>|domux|Gassensor (DX1CG-Z)|Gas|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas||
 |<img src="../../de_DE/zwave/imaAlters/540.32772.4096_dx1wlz_flood_sensor.jpg "width =" 60 "/>|domux|Hochwassersensor (DX1WL-Z)|Leck|||
-|<img src="../../de_DE/zwave/imaAlters/540.32773.4096_dx1caz_co_sensor.jpg "width =" 60 "/>|domux|-Sensor (DX1CA-Z)||||
+|<img src="../../de_DE/zwave/imaAlters/540.32773.4096_dx1caz_co_sensor.jpg "width =" 60 "/>|domux|CO-Sensor (DX1CA-Z)|CO|||
 |<img src="../../de_DE/zwave/imaAlters/540.32774.4096_dx2skz_wallplug.jpg "width =" 60 "/>|domux|Smart Metering Plug (DX2SK-Z)|Steckdose|||
 |<img src="../../de_DE/zwave/imaAlters/540.32775.4096_dx1htz_2in1_sensor.jpg "width =" 60 "/>|domux|Temperatur- und Feuchtigkeitssensor (DX1HT-Z)|Multisensoren|||
 |<img src="../../de_DE/zwave/imaAlters/540.32776.4096_dx2skz_wallplug.jpg "width =" 60 "/>|domux|Smart Plug (DX2SK-Z)|Steckdose|||
@@ -202,7 +202,7 @@
 |<img src="../../de_DE/zwave/imaAlters/100.1.0_zw.edan.300.flush.mounted.dimmer.jpg "width =" 60 "/>|duwi|ZW EDAN 300 Dimmer|Wechseln|Es ist erforderlich, die AbfraAlter zu aktivieren, um den Status wiederherzustellen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/749-duwi-interacteur-variateur-everlux-z-wave-4008297054337.html)|
 |<img src="../../de_DE/zwave/imaAlters/100.12289.0_zw.zs.3500.plugin.switch.jpg "width =" 60 "/>|duwi|ZW ZS 3500 Plugin Switch|Steckdose|Es ist erforderlich, die AbfraAlter zu aktivieren, um den Status wiederherzustellen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/752-duwi-module-prise-on-off-z-wave-pour-l-exterieur-4008297054382.html)|
 |<img src="../../de_DE/zwave/imaAlters/100.16385.0_zw.esj.blind.control.jpg "width =" 60 "/>|duwi|ZW ESJ Duwi Blind Control|Fensterläden|||
-|<img src="../../de_DE/zwave/imaAlters/100.20481.0_zwfb.jpg "width =" 60 "/>|duwi|Drahtlose Fernbedienung 10-Kanal|Fernbedienung|Ersetzt durch Z-WAVE.ME RC2|[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/100.20481.0_zwfb.jpg "width =" 60 "/>|duwi|Drahtlose Fernbedienung 10-Kanal|Fernbedienung|Ersetzt durch Z-WAVE.ME RC2|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
 |<img src="../../de_DE/zwave/imaAlters/100.20482.0_wireless.flush.mounted.switch.jpg "width =" 60 "/>|duwi|Drahtloser Unterputzschalter (5443)|Fernbedienung|||
 |<img src="../../de_DE/zwave/imaAlters/100.4096.9_05458.dimmer.jpg "width =" 60 "/>|duwi|DURO 2000 Dimmer 05458|Wechseln||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2307-z-waveme-interacteur-variateur-z-wave-avance-finition-duro-2000-0019962003509.html)|
 ||duwi|Duro 2000 Dimmer|Wechseln|Es ist erforderlich, die AbfraAlter zu aktivieren, um den Status wiederherzustellen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/758-duwi-interacteur-variateur-duro-2000-z-wave-4008297054580.html)|
@@ -235,7 +235,7 @@
 |<img src="../../de_DE/zwave/imaAlters/96.1.4_sp815.petimmunepirmotiondetector.jpg "width =" 60 "/>|Everspring|SP815|Bewegung|||
 |<img src="../../de_DE/zwave/imaAlters/96.1.5_sp816.outdoormotiondetector.jpg "width =" 60 "/>|Everspring|SP816 Bewegungsmelder|Bewegung|||
 |<img src="../../de_DE/zwave/imaAlters/96.1.6_sp817.motion.detector.jpg "width =" 60 "/>|Everspring|SP817 Bewegungsmelder|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/96.11.1_st812.flood.detector.jpg "width =" 60 "/>|Everspring||Leck||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/96.11.1_st812.flood.detector.jpg "width =" 60 "/>|Everspring|ST812|Leck||[Kaufen](http://www.domadoo.fr/fr/peripheriques/860-Everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html)|
 |<img src="../../de_DE/zwave/imaAlters/96.12.1_se812.siren.jpg "width =" 60 "/>|Everspring|SE812|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/845-Everspring-sirene-z-wave-se812-3700946500189.html)|
 |<img src="../../de_DE/zwave/imaAlters/96.12.3_se813.indoor.voice.siren.jpg "width =" 60 "/>|Everspring|Innenstimme Sirenee SE813|Meerjungfrau|||
 |<img src="../../de_DE/zwave/imaAlters/96.13.1_sf812.smoke.alarm.jpg "width =" 60 "/>|Everspring|SF812|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/848-Everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html)|
@@ -336,8 +336,8 @@
 |<img src="../../de_DE/zwave/imaAlters/271.3841.8192_fgpb101.button.jpg "width =" 60 "/>|Fibaro|FGPB101-Taste|Controller||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3701-Fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html)|
 |<img src="../../de_DE/zwave/imaAlters/271.4097.4096_fgkf601.keyfob.jpg "width =" 60 "/>|Fibaro|FGKF-601 SchlüsselanhänAlterr|Fernbedienung|Die Fernbedienung im nicht funktionierenden Szenenmodus funktioniert jedoch in Kombination mit anderen Modulen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3994-Fibaro-telecommande-porte-cles-z-wave-Fibaro-keyfob-fgkf-601-5905279987562.html)|
 |<img src="../../de_DE/zwave/imaAlters/271.4097.8192_fgkf601.keyfob.jpg "width =" 60 "/>|Fibaro|FGKF-601 SchlüsselanhänAlterr|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3994-Fibaro-telecommande-porte-cles-z-wave-Fibaro-keyfob-fgkf-601-5905279987562.html)|
-|<img src="../../de_DE/zwave/imaAlters/271.4609.4096_fgcd001.co.sensor.jpg "width =" 60 "/>|Fibaro|-Sensor FGCD-001|Rauch|||
-|<img src="../../de_DE/zwave/imaAlters/271.4609.4097_fgcd001.co.sensor.jpg "width =" 60 "/>|Fibaro|-Sensor FGCD-001|Rauch|||
+|<img src="../../de_DE/zwave/imaAlters/271.4609.4096_fgcd001.co.sensor.jpg "width =" 60 "/>|Fibaro|CO-Sensor FGCD-001|Rauch|||
+|<img src="../../de_DE/zwave/imaAlters/271.4609.4097_fgcd001.co.sensor.jpg "width =" 60 "/>|Fibaro|CO-Sensor FGCD-001|Rauch|||
 |<img src="../../de_DE/zwave/imaAlters/271.4865.4096_fgt001.heat.controller.jpg "width =" 60 "/>|Fibaro|FGT-001 WÄRMEREGLER|Thermostat|||
 ||Fibaro|FGS-221 Doppelte Last|Mikromodul|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-Fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Doppelte Last|Mikromodul|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-Fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
@@ -430,10 +430,10 @@
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/imaAlters/608.32769.4096_dx1msz_motion_sensor.jpg "width =" 60 "/>|heiman|Bewegungssensor (HS1MS-Z)|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/608.32770.4096_dx1saz_smoke_sensor.jpg "width =" 60 "/>|heiman||Rauch|||
+|<img src="../../de_DE/zwave/imaAlters/608.32770.4096_dx1saz_smoke_sensor.jpg "width =" 60 "/>|heiman|Smart Rauchsensor (HS1SA-Z)|Rauch|||
 |<img src="../../de_DE/zwave/imaAlters/608.32771.4096_dx1cgz_gaz_sensor.jpg "width =" 60 "/>|heiman|Gassensor (HS1CG-Z)|Gas|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas||
 |<img src="../../de_DE/zwave/imaAlters/608.32772.4096_dx1wlz_flood_sensor.jpg "width =" 60 "/>|heiman|Hochwassersensor (HS1WL-Z)|Leck|||
-|<img src="../../de_DE/zwave/imaAlters/608.32773.4096_dx1caz_co_sensor.jpg "width =" 60 "/>|heiman|-Sensor (HS1CA-Z)||||
+|<img src="../../de_DE/zwave/imaAlters/608.32773.4096_dx1caz_co_sensor.jpg "width =" 60 "/>|heiman|CO-Sensor (HS1CA-Z)|CO|||
 |<img src="../../de_DE/zwave/imaAlters/608.32774.4096_dx2skz_wallplug.jpg "width =" 60 "/>|heiman|Smart Metering Plug (HS2SK-Z)|Steckdose|||
 |<img src="../../de_DE/zwave/imaAlters/608.32775.4096_dx1htz_2in1_sensor.jpg "width =" 60 "/>|heiman|Temperatur- und Feuchtigkeitssensor (HS1HT-Z)|Multisensoren|||
 |<img src="../../de_DE/zwave/imaAlters/608.32776.4096_dx2skz_wallplug.jpg "width =" 60 "/>|heiman|Smart Plug (HS2SK-Z)|Steckdose|||
@@ -504,8 +504,8 @@
 |<img src="../../de_DE/zwave/imaAlters/351.2049.12546_mco.home.mh8-fc.thermostat.jpg "width =" 60 "/>|mco|MH8-FC-EU Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../de_DE/zwave/imaAlters/351.2049.20738_mco.home.mh8-fc.thermostat.jpg "width =" 60 "/>|mco|MH8-FC-EU Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../de_DE/zwave/imaAlters/351.2050.12546_mco.home.mh8-fc4.thermostat.jpg "width =" 60 "/>|mco|MH8-FC4-EU Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html)|
-|<img src="../../de_DE/zwave/imaAlters/351.2309.513_c02.monitor.jpg "width =" 60 "/>|mco|2-Monitor (MH9-2-WD)|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html)|
-|<img src="../../de_DE/zwave/imaAlters/351.8458.4866_mh.p210.dimmer.jpg "width =" 60 "/>|mco|MH-P210 Mini-Energiedimmer|Mikromodul|Verkauft unter dem Markennamen Zipato|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3577--mini-micromodule-variateur-z-wave-3858890732733.html)|
+|<img src="../../de_DE/zwave/imaAlters/351.2309.513_c02.monitor.jpg "width =" 60 "/>|mco|CO2-Monitor (MH9-CO2-WD)|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html)|
+|<img src="../../de_DE/zwave/imaAlters/351.8458.4866_mh.p210.dimmer.jpg "width =" 60 "/>|mco|MH-P210 Mini-Energiedimmer|Mikromodul|Verkauft unter dem Markennamen Zipato|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
 
 # neocoolcam
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
@@ -544,24 +544,24 @@
 # Philio
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/316.1.15_pan03.jpg "width =" 60 "/>|Philio|PAN03-Schaltermodul mit MessAlterrät 3 KW X1|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2959--micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.1.18_pan04-1.double.relay.switch.jpg "width =" 60 "/>|Philio|PAN04 In Wandschaltermodul mit MessAlterrät 2X1.|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/316.1.21_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|Philio||Fensterläden|||
-|<img src="../../de_DE/zwave/imaAlters/316.1.3_pan04-1.double.relay.switch.jpg "width =" 60 "/>|Philio|PAN04 In Wandschaltermodul mit MessAlterrät 2X1.|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/316.1.4_pan06.in.wall.dual.relay.1.way.jpg "width =" 60 "/>|Philio|PAN06 Im Wandschaltermodul 2X1.|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2482-Philio-micromodule-commutateur-double-z-wave-4713698570019.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.1.6_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|Philio||Fensterläden|||
-|<img src="../../de_DE/zwave/imaAlters/316.2.12_pst02-a.4.in.1.jpg "width =" 60 "/>|Philio|PST02-A 4in1 Multisensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/316.1.15_pan03.jpg "width =" 60 "/>|Philio|PAN03-Schaltermodul mit MessAlterrät 3 KW X1|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.1.18_pan04-1.double.relay.switch.jpg "width =" 60 "/>|Philio|PAN04 In Wandschaltermodul mit MessAlterrät 2X1.5KW|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.1.21_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|Philio|PAN08-1 In Wall Roller Shutter Controller|Fensterläden|||
+|<img src="../../de_DE/zwave/imaAlters/316.1.3_pan04-1.double.relay.switch.jpg "width =" 60 "/>|Philio|PAN04 In Wandschaltermodul mit MessAlterrät 2X1.5KW|Mikromodul|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.1.4_pan06.in.wall.dual.relay.1.way.jpg "width =" 60 "/>|Philio|PAN06 Im Wandschaltermodul 2X1.5KW|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2482-Philio-micromodule-commutateur-double-z-wave-4713698570019.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.1.6_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|Philio|PAN08-1 In Wall Roller Shutter Controller|Fensterläden|||
+|<img src="../../de_DE/zwave/imaAlters/316.2.12_pst02-a.4.in.1.jpg "width =" 60 "/>|Philio|PST02-A 4in1 Multisensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
 |<img src="../../de_DE/zwave/imaAlters/316.2.13_pst02-b.pirmotion.3.in.1.jpg "width =" 60 "/>|Philio|PST02-B PIR / Motion 3in1 Sensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3067-Philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.2.14_pst02-c.doorwindow.3.in.1.jpg "width =" 60 "/>|Philio|PST02-C Tür / Fenster 3in1 Sensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2606--detecteur-z-wave-3-de-1-ouverture-luminosite-temperature-3858890730371.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.2.2_psm02-1.slim.multi-sensor.jpg "width =" 60 "/>|Philio|PSP01 / PSM02|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/316.2.30_phpsg01.smoke.detector.jpg "width =" 60 "/>|Philio|PH-PSG01 Rauchsensor|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3149--capteur-de-fumee-z-wave--3858890733051.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.2.31_phpat02a.flood.3in1.jpg "width =" 60 "/>|Philio|PAT02-C Hochwassersensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3152--detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.2.14_pst02-c.doorwindow.3.in.1.jpg "width =" 60 "/>|Philio|PST02-C Tür / Fenster 3in1 Sensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2606-zipato-detecteur-z-wave-3-de-1-ouverture-luminosite-temperature-3858890730371.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.2.2_psm02-1.slim.multi-sensor.jpg "width =" 60 "/>|Philio|PSP01 / PSM02|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.2.30_phpsg01.smoke.detector.jpg "width =" 60 "/>|Philio|PH-PSG01 Rauchsensor|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3149-zipato-capteur-de-fumee-z-wave--3858890733051.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.2.31_phpat02a.flood.3in1.jpg "width =" 60 "/>|Philio|PAT02-C Hochwassersensor|Multisensoren|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html)|
 |<img src="../../de_DE/zwave/imaAlters/316.2.32_phpat02b.multisensor.2in1.jpg "width =" 60 "/>|Philio|PAT02-B 2in1 Multisensor|Multisensoren|Es kann einiAlter Zeit dauern, bis der erste Feuchtigkeitswert ansteigt. Auch unter der Marke Zipato erhältlich||
 |<img src="../../de_DE/zwave/imaAlters/316.2.80_psp05.motionsensor.jpg "width =" 60 "/>|Philio|PSP05 B, C & D Version|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4108-Philio-detecteur-de-mouvement-exterieur-z-wave-4713698573508.html)|
-|<img src="../../de_DE/zwave/imaAlters/316.4.10_pse02.indoor.siren.jpg "width =" 60 "/>|Philio|PH-PSE02 Z-Wave + Sirenee|Meerjungfrau||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/316.4.10_pse02.indoor.siren.jpg "width =" 60 "/>|Philio|PH-PSE02 Z-Wave + Sirenee|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html)|
 |<img src="../../de_DE/zwave/imaAlters/316.5.49.Smart.Dimmer.E27.jpg "width =" 60 "/>|Philio|Smart Dimmer E27|Steckdose|||
 |<img src="../../de_DE/zwave/imaAlters/316.5.49_Smart.Dimmer.E27.jpg "width =" 60 "/>|Philio|Smart Dimmer E27|Steckdose|||
-|<img src="../../de_DE/zwave/imaAlters/316.6.26_phpab01.micromodule.energy.meter.jpg "width =" 60 "/>|Philio|EnergiemessAlterrät Mikromodul (PH-PAB01)|Verbrauch|Verkauft unter dem Zipato-Topf|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3576--micromodule-compteur-d-energie-z-wave-3858890732689.html)|
+|<img src="../../de_DE/zwave/imaAlters/316.6.26_phpab01.micromodule.energy.meter.jpg "width =" 60 "/>|Philio|EnergiemessAlterrät Mikromodul (PH-PAB01)|Verbrauch|Verkauft unter dem Zipato-Topf|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3576-zipato-micromodule-compteur-d-energie-z-wave-3858890732689.html)|
 |<img src="../../de_DE/zwave/imaAlters/316.9.34_psr04.smart.color.button.jpg "width =" 60 "/>|Philio|PSR04 Smart Color Button|Wechseln||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3207-Philio-interouleztelecommande-mural-z-wave-4713698571542.html)|
 
 # Polycontrol
@@ -575,16 +575,16 @@
 # popp
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/340.256.1024_zweather.jpg "width =" 60 "/>|popp|Z-Wetter Wind- und Wettersensor|Multisensoren||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/340.256.1024_zweather.jpg "width =" 60 "/>|popp|Z-Wetter Wind- und Wettersensor|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.256.257_009303_wall_controller.jpg "width =" 60 "/>|popp|009303 Z-Wave Plus Batteriewand-Controller|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3074-popp-Controller-mural-sans-fil-z-wave.html)|
-|<img src="../../de_DE/zwave/imaAlters/340.256.259_key.fob.jpg "width =" 60 "/>|popp|-C|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html)|
+|<img src="../../de_DE/zwave/imaAlters/340.256.259_key.fob.jpg "width =" 60 "/>|popp|KFOB-C|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.256.513_popp.smoke.sensor.jpg "width =" 60 "/>|popp|Rauchmelder und Sirenee|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.3.10_700397.wall.plug.ip44.jpg "width =" 60 "/>|popp|700397 Wandstecker Schalter Outdoor Schuko (IP44) |Steckdose|||
 |<img src="../../de_DE/zwave/imaAlters/340.3.1_009105.wall.plug.switch.jpg "width =" 60 "/>|popp|009105 Wandsteckerschalter Schuko (IP44)|Steckdose||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3070-popp-z-wave-plugin-switch-ip44-outdoor-use.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.3.4098_700793.power.plug.jpg "width =" 60 "/>|popp|700793 Smart Plug|Steckdose|||
 |<img src="../../de_DE/zwave/imaAlters/340.4.17_rainsensor.jpg "width =" 60 "/>|popp|ReAlternmesser|ReAlternmesser||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4094-popp-pluviometre-z-wave-z-rain-4251295700168.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.4.2_popp.solar.siren.jpg "width =" 60 "/>|popp|Solarbetriebene Außensirene|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3180-popp-sirene-exterieure-solaire-z-wave-0019962005107.html)|
-|<img src="../../de_DE/zwave/imaAlters/340.4.3_co_detector.jpg "width =" 60 "/>|popp|POPE004407 -Detektor|||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3852-popp-detecteur-de-monoxyde-de-carbone-z-wave-0019962004407.html)|
+|<img src="../../de_DE/zwave/imaAlters/340.4.3_co_detector.jpg "width =" 60 "/>|popp|POPE004407 CO-Detektor|CO||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3852-popp-detecteur-de-monoxyde-de-carbone-z-wave-0019962004407.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.4.4_popp.smoke.sensor.jpg "width =" 60 "/>|popp|10 Jahre Rauchmelder (009402)|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3636-popp-detecteur-de-fumee-z-wave-avec-autonomie-10-ans-0019962009402.html)|
 |<img src="../../de_DE/zwave/imaAlters/340.5.1_strike.lock.control.jpg "width =" 60 "/>|popp|Strike Lock Control|Abfall|||
 |<img src="../../de_DE/zwave/imaAlters/340.5.2_universal.keypad.jpg "width =" 60 "/>|popp|Universelle Tastatur|Tastatur|||
@@ -634,7 +634,7 @@
 # schlaAlter
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/151.24881.17665_mini.keypad.rfid.jpg "width =" 60 "/>|schlaAlter|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/151.24881.17665_mini.keypad.rfid.jpg "width =" 60 "/>|schlaAlter|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../de_DE/zwave/imaAlters/151.26947.17665_on_wall_power_socket.jpg "width =" 60 "/>|schlaAlter|Steckdose an der Wand|Steckdose|Dieses Modul wird derzeit unter der Marke TapHome verkauft.||
 
 # empfindlich
@@ -651,153 +651,153 @@
 # smarthome von Everspring
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/96.3.2_ad.146.in.wall.dimmer.jpg "width =" 60 "/>|smarthome von Everspring|AD146-0 Laufwerk|Mikromodul||[Kaufen](http:|
-||smarthome von Everspring|AD146-0 Laufwerk|Mikromodul||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/96.4.8_an.179.in.wall.on.off.jpg "width =" 60 "/>|smarthome von Everspring|AN179-0 Ein / Aus|Mikromodul||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/96.3.2_ad.146.in.wall.dimmer.jpg "width =" 60 "/>|smarthome von Everspring|AD146-0 Laufwerk|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html)|
+||smarthome von Everspring|AD146-0 Laufwerk|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html)|
+|<img src="../../de_DE/zwave/imaAlters/96.4.8_an.179.in.wall.on.off.jpg "width =" 60 "/>|smarthome von Everspring|AN179-0 Ein / Aus|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html)|
 
 # Steinel
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/imaAlters/625.1.6771_xled.home2.jpg "width =" 60 "/>|Steinel|XHome2 LED|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/625.1.6772_rs.led2.d2.jpg "width =" 60 "/>|Steinel||Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/625.1.6772_rs.led2.d2.jpg "width =" 60 "/>|Steinel|RS LED D2|Multisensoren|||
 |<img src="../../de_DE/zwave/imaAlters/625.1.6773_l810.led.ihf.jpg "width =" 60 "/>|Steinel|L 810 iHF LED|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/625.2.6770_is140-2.jpg "width =" 60 "/>|Steinel||Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/625.2.6770_is140-2.jpg "width =" 60 "/>|Steinel|RS LED D2|Multisensoren|||
 
-# 
+# stelpro
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/569.1.1_STZW402.plus.electronic.thermostat.jpg "width =" 60 "/>||STZW402 + Elektronischer Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/imaAlters/569.1.1_STZW402.plus.electronic.thermostat.jpg "width =" 60 "/>|stelpro|STZW402 + Elektronischer Thermostat|Thermostat|||
 
-# 
+# swiid
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/358.256.256_.inter.jpg "width =" 60 "/>||SwiidInter|Wechseln||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2675--interacteur-sur-cordon-z-wave-inter-blanc-370092591002.html)|
-|<img src="../../de_DE/zwave/imaAlters/358.8199.1798_.plug.jpg "width =" 60 "/>|||Steckdose||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/358.256.256_swiid.inter.jpg "width =" 60 "/>|swiid|SwiidInter|Wechseln||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2675-swiid-interacteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html)|
+|<img src="../../de_DE/zwave/imaAlters/358.8199.1798_swiid.swiidplug.jpg "width =" 60 "/>|swiid|SwiidPlug|Steckdose||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-Gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html)|
 
 # Thermofloor
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/411.1.1_thermostat.jpg "width =" 60 "/>|Thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/411.1.1_thermostat.jpg "width =" 60 "/>|Thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2731-Thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
 
 # Vision Sicherheit
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/265.4097.257_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit||Controller|||
-|<img src="../../de_DE/zwave/imaAlters/265.4097.260_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit||Controller|||
-|<img src="../../de_DE/zwave/imaAlters/265.4097.261_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit||Controller|||
-|<img src="../../de_DE/zwave/imaAlters/265.8193.257_zd2102.us.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8193.258_zd2102.au.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8193.260_zd2102.jp.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8193.261_zd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8193.262_zd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8194.513_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8194.514_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8194.515_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8194.516_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8194.517_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit||Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8195.769_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit||||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8195.770_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit||||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8195.774_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit||||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8195.774_zs51015.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit| ZWave + Stoßdetektor|||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8195.775_zs51015.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit| ZWave + Stoßdetektor|||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8196.1027_zs6101.smoke.detector.jpg "width =" 60 "/>|Vision Sicherheit|ZS6101 Rauchmelder |Rauch||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8197.1283_zm1601.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit||Meerjungfrau|Ersetzt durch den ||
-|<img src="../../de_DE/zwave/imaAlters/265.8197.1285_zm1601.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit||Meerjungfrau|Ersetzt durch den ||
-|<img src="../../de_DE/zwave/imaAlters/265.8197.1288_zm1601eu5.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit||Meerjungfrau||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/265.4097.257_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/265.4097.260_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/265.4097.261_zu1401.z-wave.usb.stick.jpg "width =" 60 "/>|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/265.8193.257_zd2102.us.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZD2102|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8193.258_zd2102.au.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZD2102|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8193.260_zd2102.jp.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZD2102|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8193.261_zd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZD2102|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8193.262_zd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZD2102|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8194.513_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZP3102|Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8194.514_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZP3102|Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8194.515_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZP3102|Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8194.516_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZP3102|Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8194.517_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZP3102|Multisensoren|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8195.769_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZS5101|Vibration||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8195.770_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZS5101|Vibration||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8195.774_zs5101.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZS5101|Vibration||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8195.774_zs51015.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZS5101 ZWave + Stoßdetektor|Vibration||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave-0019962005503.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8195.775_zs51015.shock.and.vibration.sensor.jpg "width =" 60 "/>|Vision Sicherheit|ZS5101 ZWave + Stoßdetektor|Vibration||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave-0019962005503.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8196.1027_zs6101.smoke.detector.jpg "width =" 60 "/>|Vision Sicherheit|ZS6101 Rauchmelder |Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2158-vision-security-detecteur-de-fumee-z-wave-0696859123443.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8197.1283_zm1601.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit|ZM1601|Meerjungfrau|Ersetzt durch den ZM1601EU5||
+|<img src="../../de_DE/zwave/imaAlters/265.8197.1285_zm1601.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit|ZM1601|Meerjungfrau|Ersetzt durch den ZM1601EU5||
+|<img src="../../de_DE/zwave/imaAlters/265.8197.1288_zm1601eu5.battery.operated.siren.jpg "width =" 60 "/>|Vision Sicherheit|ZM1601EU5|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie-0019962005404.html)|
 |<img src="../../de_DE/zwave/imaAlters/265.8198.1552_zw1701_doorlock.jpg "width =" 60 "/>|Vision Sicherheit|ZM1701 Türschloss ohne Griff|Sperren|Aufnahme in den sicheren Modus||
 |<img src="../../de_DE/zwave/imaAlters/265.8198.1568_zm1702.electronic.deadbolt.door.lock.jpg "width =" 60 "/>|Vision Sicherheit|ZM1702 Türschloss|Sperren|Aufnahme in den sicheren Modus||
 |<img src="../../de_DE/zwave/imaAlters/265.8198.1569_zw1701_doorlock.jpg "width =" 60 "/>|Vision Sicherheit|ZM1701 Türschloss ohne Griff|Sperren|Aufnahme in den sicheren Modus||
-|<img src="../../de_DE/zwave/imaAlters/265.8201.2307_zm1602.jpg "width =" 60 "/>|Vision Sicherheit||Meerjungfrau||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8201.2312_zm1602.jpg "width =" 60 "/>|Vision Sicherheit| +|Meerjungfrau||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8202.2562_zg8101.garaAlter.door.detector.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8207.3842_zs6301.co.detector.jpg "width =" 60 "/>|Vision Sicherheit|Drahtloser -Detektor ZS 6301|||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/265.8207.3843_zs6301.co.detector.jpg "width =" 60 "/>|Vision Sicherheit|Drahtloser -Detektor ZS 6301|||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/265.8201.2307_zm1602.jpg "width =" 60 "/>|Vision Sicherheit|ZM1602|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8201.2312_zm1602.jpg "width =" 60 "/>|Vision Sicherheit|ZM1602 +|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur-0019962005602.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8202.2562_zg8101.garaAlter.door.detector.jpg "width =" 60 "/>|Vision Sicherheit|ZG8101|Öffnung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garaAlter-z-wave-zg8101-0696859123412.html.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8207.3842_zs6301.co.detector.jpg "width =" 60 "/>|Vision Sicherheit|Drahtloser CO-Detektor ZS 6301|CO||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8207.3843_zs6301.co.detector.jpg "width =" 60 "/>|Vision Sicherheit|Drahtloser CO-Detektor ZS 6301|CO||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html)|
 |<img src="../../de_DE/zwave/imaAlters/265.8220.7169_zf5201.water.sensor.jpg "width =" 60 "/>|Vision Sicherheit|Hochwassersensor (ZF5201)|Leck|||
-|<img src="../../de_DE/zwave/imaAlters/265.8223.7952_zd2201.multisensor.4in1.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3150--detecteur-z-wave-plus-4-de-1-3858890732931.html)|
-|<img src="../../de_DE/zwave/imaAlters/265.8223.7968_zd2301.multisensor.4in1.jpg "width =" 60 "/>|Vision Sicherheit||Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823--detecteur-z-wave-plus-4-de-1-3858890732153.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8223.7952_zd2201.multisensor.4in1.jpg "width =" 60 "/>|Vision Sicherheit|ZD2201 Multisensor 4in1|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3150-zipato-detecteur-z-wave-plus-4-de-1-3858890732931.html)|
+|<img src="../../de_DE/zwave/imaAlters/265.8223.7968_zd2301.multisensor.4in1.jpg "width =" 60 "/>|Vision Sicherheit|ZD2301 Multisensor 4in1|Öffnung|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-de-1-3858890732153.html)|
 
 # Vitrum
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
 ||Vitrum|ZWE060 6 Tasten|Wechseln|||
 
-# 
+# wenzhou
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/280.1.1_tz88.smart.energy.plug.jpg "width =" 60 "/>|||Steckdose|Auch unter der Marke TkbHome erhältlich||
-|<img src="../../de_DE/zwave/imaAlters/280.11.1_st812.flood.detector.jpg "width =" 60 "/>|||Leck|Verkauft unter der Marke Everspring|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/280.2056.2056_tz65d.dual.wall.dimmer.jpg "width =" 60 "/>|||Wechseln|Auch unter der Marke TkbHome erhältlich. Die rechte Taste funktioniert nur in Verbindung.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2056-tkb-home-tz65d-interacteur-variateur-double-z-wave-blanc-6959174465006.html)|
-|<img src="../../de_DE/zwave/imaAlters/280.257.259_tz68e.wall.plug.jpg "width =" 60 "/>|||Steckdose|Auch unter der Marke TkbHome erhältlich||
-|<img src="../../de_DE/zwave/imaAlters/280.258.4128_tz66d.double.switch.jpg "width =" 60 "/>|||Wechseln|Auch unter der Marke TkbHome erhältlich. Die rechte Taste funktioniert nur in Verbindung.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2058-tkb-home-tz66d-interacteur-double-z-wave-blanc-6959174466010.html)|
-|<img src="../../de_DE/zwave/imaAlters/280.3.3_tz56.double.switch.jpg "width =" 60 "/>|||Wechseln|Die zweite Schaltfläche wird nur in direkter Zuordnung verwendet||
-|<img src="../../de_DE/zwave/imaAlters/280.3.4_tz55.double.switch.dimmer.jpg "width =" 60 "/>|||Wechseln|Die zweite Schaltfläche wird nur in direkter Zuordnung verwendet||
-|<img src="../../de_DE/zwave/imaAlters/280.514.1553_tz67.wall.plug.dimmer.jpg "width =" 60 "/>|||Steckdose|Auch unter der Marke TkbHome erhältlich.||
-|<img src="../../de_DE/zwave/imaAlters/280.785.515_tz57.double.switch.jpg "width =" 60 "/>|||Wechseln|||
-|<img src="../../de_DE/zwave/imaAlters/280.785.772_tz74.double.switch.jpg "width =" 60 "/>||TZ74 Doppelte Ladung|Mikromodul|||
+|<img src="../../de_DE/zwave/imaAlters/280.1.1_tz88.smart.energy.plug.jpg "width =" 60 "/>|wenzhou|TZ88|Steckdose|Auch unter der Marke TkbHome erhältlich||
+|<img src="../../de_DE/zwave/imaAlters/280.11.1_st812.flood.detector.jpg "width =" 60 "/>|wenzhou|ST812|Leck|Verkauft unter der Marke Everspring|[Kaufen](http://www.domadoo.fr/fr/peripheriques/860-Everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html)|
+|<img src="../../de_DE/zwave/imaAlters/280.2056.2056_tz65d.dual.wall.dimmer.jpg "width =" 60 "/>|wenzhou|TZ65D|Wechseln|Auch unter der Marke TkbHome erhältlich. Die rechte Taste funktioniert nur in Verbindung.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2056-tkb-home-tz65d-interacteur-variateur-double-z-wave-blanc-6959174465006.html)|
+|<img src="../../de_DE/zwave/imaAlters/280.257.259_tz68e.wall.plug.jpg "width =" 60 "/>|wenzhou|TZ68e|Steckdose|Auch unter der Marke TkbHome erhältlich||
+|<img src="../../de_DE/zwave/imaAlters/280.258.4128_tz66d.double.switch.jpg "width =" 60 "/>|wenzhou|TZ66D|Wechseln|Auch unter der Marke TkbHome erhältlich. Die rechte Taste funktioniert nur in Verbindung.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2058-tkb-home-tz66d-interacteur-double-z-wave-blanc-6959174466010.html)|
+|<img src="../../de_DE/zwave/imaAlters/280.3.3_tz56.double.switch.jpg "width =" 60 "/>|wenzhou|TZ56|Wechseln|Die zweite Schaltfläche wird nur in direkter Zuordnung verwendet||
+|<img src="../../de_DE/zwave/imaAlters/280.3.4_tz55.double.switch.dimmer.jpg "width =" 60 "/>|wenzhou|TZ55|Wechseln|Die zweite Schaltfläche wird nur in direkter Zuordnung verwendet||
+|<img src="../../de_DE/zwave/imaAlters/280.514.1553_tz67.wall.plug.dimmer.jpg "width =" 60 "/>|wenzhou|TZ67|Steckdose|Auch unter der Marke TkbHome erhältlich.||
+|<img src="../../de_DE/zwave/imaAlters/280.785.515_tz57.double.switch.jpg "width =" 60 "/>|wenzhou|TZ57|Wechseln|||
+|<img src="../../de_DE/zwave/imaAlters/280.785.772_tz74.double.switch.jpg "width =" 60 "/>|wenzhou|TZ74 Doppelte Ladung|Mikromodul|||
 
-# 
+# widom
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/329.18.260_ubs.switch.jpg "width =" 60 "/>||USB Einmalladung|Mikromodul|||
-|<img src="../../de_DE/zwave/imaAlters/329.4628.1284_wds.double.switch.jpg "width =" 60 "/>||WDS Doppelte Ladung|Mikromodul||[Kaufen](http:|
-||||Mikromodul||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/329.4628.772_wpms.energy.driven.switch.jpg "width =" 60 "/>|||Mikromodul||[Kaufen](http:|
+|<img src="../../de_DE/zwave/imaAlters/329.18.260_ubs.switch.jpg "width =" 60 "/>|widom|USB Einmalladung|Mikromodul|||
+|<img src="../../de_DE/zwave/imaAlters/329.4628.1284_wds.double.switch.jpg "width =" 60 "/>|widom|WDS Doppelte Ladung|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3694-widom-micromodule-commutateur-double-z-wave-8059265060047.html)|
+||widom|WPMC Energy Driven Switch|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3693-widom-micromodule-commutateur-z-wave-avec-pince-amperemetrique.html)|
+|<img src="../../de_DE/zwave/imaAlters/329.4628.772_wpms.energy.driven.switch.jpg "width =" 60 "/>|widom|WPMS Energy Driven Switch|Mikromodul||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3688-widom-micromodule-z-wave-commutateur-avec-mesure-d-energie.html)|
 
-# 
+# zipato
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/305.1.18_pan04-eu.wallSwitch.jpg "width =" 60 "/>||PAN04 In Wandschaltermodul mit MessAlterrät 2X1.|Mikromodul|Auch unter der Marke Philio erhältlich|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.1.21_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|||Fensterläden|||
-|<img src="../../de_DE/zwave/imaAlters/305.2.12_psm02-eu.4.in.1.jpg "width =" 60 "/>||PSM02 4in1 Multisensor|Multisensoren||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.2.2_rgbw_bulb.jpg "width =" 60 "/>||Glühlampe RGBW|Glühbirne||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.2.3_rgbw_bulb2.jpg "width =" 60 "/>||Glühbirne 2|Glühbirne|Ändern Sie auf der Registerkarte "System" die Farbkanäle mit dem Wert 31, um konsistente Farbverhältnisse zu erhalten|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.24881.17665_mini.keypad.jpg "width =" 60 "/>||Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück.|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.3.1089_nas-pd01zt.jpg "width =" 60 "/>||PIR-Sensor|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/305.3.4226_nas-ds01z.jpg "width =" 60 "/>||Türsensor|Öffnung|||
-|<img src="../../de_DE/zwave/imaAlters/305.3.4227_nas-pd01z.jpg "width =" 60 "/>||PIR-Sensor|Multisensoren||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.3.4233_nas-pd01zt.jpg "width =" 60 "/>||PIR-Sensor|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/305.32770.4096_hs1saz_smoke_sensor.jpg "width =" 60 "/>|||Rauch||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.32771.4096_hs1cgz_gaz_sensor.jpg "width =" 60 "/>||Gassensor (HS1CG-Z)|Gas|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.32772.4096_hs1wlz_flood_sensor.jpg "width =" 60 "/>||Hochwassersensor (HS1WL-Z)|Leck||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.32773.4096_hs1caz_co_sensor.jpg "width =" 60 "/>||-Sensor (HS1CA-Z)|||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.4.10_pse02.indoor.siren.jpg "width =" 60 "/>||PH-PSE02 Z-Wave + Sirenee|Meerjungfrau||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.8193.262_vszd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>||VS- Tür- / Fenstersensor|Öffnung||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.8194.517_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|||Multisensoren||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/305.8223.7968_zd2301.multisensor.4in1.jpg "width =" 60 "/>|||Öffnung|Wird auch unter der Marke Vision verkauft.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823--detecteur-z-wave-plus-4-de-1-3858890732153.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.1.18_pan04-eu.wallSwitch.jpg "width =" 60 "/>|zipato|PAN04 In Wandschaltermodul mit MessAlterrät 2X1.5KW|Mikromodul|Auch unter der Marke Philio erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.1.21_pan08-1.in.wall.roller.shutter.jpg "width =" 60 "/>|zipato|PAN08-1 In Wall Roller Shutter Controller|Fensterläden|||
+|<img src="../../de_DE/zwave/imaAlters/305.2.12_psm02-eu.4.in.1.jpg "width =" 60 "/>|zipato|PSM02 4in1 Multisensor|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.2.2_rgbw_bulb.jpg "width =" 60 "/>|zipato|Glühlampe RGBW|Glühbirne||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.2.3_rgbw_bulb2.jpg "width =" 60 "/>|zipato|Glühbirne 2|Glühbirne|Ändern Sie auf der Registerkarte "System" die Farbkanäle mit dem Wert 31, um konsistente Farbverhältnisse zu erhalten|[Kaufen](http://www.domadoo.fr/fr/peripheriques/4111-zipato-ampoule-led-rgbw-z-wave-v2-3858890733464.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.24881.17665_mini.keypad.jpg "width =" 60 "/>|zipato|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.3.1089_nas-pd01zt.jpg "width =" 60 "/>|zipato|PIR-Sensor|Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/305.3.4226_nas-ds01z.jpg "width =" 60 "/>|zipato|Türsensor|Öffnung|||
+|<img src="../../de_DE/zwave/imaAlters/305.3.4227_nas-pd01z.jpg "width =" 60 "/>|zipato|PIR-Sensor|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4160-zipato-capteur-de-mouvement-pir-z-wave-3858890733341.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.3.4233_nas-pd01zt.jpg "width =" 60 "/>|zipato|PIR-Sensor|Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/305.32770.4096_hs1saz_smoke_sensor.jpg "width =" 60 "/>|zipato|Smart Rauchsensor (HS1SA-Z)|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.32771.4096_hs1cgz_gaz_sensor.jpg "width =" 60 "/>|zipato|Gassensor (HS1CG-Z)|Gas|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas|[Kaufen](http://www.domadoo.fr/fr/peripheriques/4153-zipato-capteur-de-gaz-z-wave-3858890733587.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.32772.4096_hs1wlz_flood_sensor.jpg "width =" 60 "/>|zipato|Hochwassersensor (HS1WL-Z)|Leck||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4159-zipato-capteur-d-inondation-z-wave--3858890733624.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.32773.4096_hs1caz_co_sensor.jpg "width =" 60 "/>|zipato|CO-Sensor (HS1CA-Z)|CO||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4151-zipato-capteur-de-monoxyde-de-carbone-z-wave-3858890733563.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.4.10_pse02.indoor.siren.jpg "width =" 60 "/>|zipato|PH-PSE02 Z-Wave + Sirenee|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.8193.262_vszd2102.eu.doorwindow.sensor.jpg "width =" 60 "/>|zipato|VS-ZD2102 Tür- / Fenstersensor|Öffnung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.8194.517_zp3102.eu.pir.motion.sensor.jpg "width =" 60 "/>|zipato|ZP3102|Multisensoren||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
+|<img src="../../de_DE/zwave/imaAlters/305.8223.7968_zd2301.multisensor.4in1.jpg "width =" 60 "/>|zipato|ZD2301 Multisensor 4in1|Öffnung|Wird auch unter der Marke Vision verkauft.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-de-1-3858890732153.html)|
 
-# 
+# zwaveme
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/277.1.105_key.fob_1.jpg "width =" 60 "/>|||Fernbedienung|||
-|||004308 Rauchmelder|Rauch|Als Zwave-me USB-Stick erkannt. Kein Assistent für EinstellunAltern.||
-|<img src="../../de_DE/zwave/imaAlters/277.1.1_usb stick.jpg "width =" 60 "/>||USB-Stick|Controller|||
-|<img src="../../de_DE/zwave/imaAlters/277.1024.1_ZME_UZB1 USB-Stick.jpg "width =" 60 "/>||ZME_UZB1 USB-Stick|Controller||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/277.2.3_usb stick.jpg "width =" 60 "/>||USB-Stick|Controller|||
-|<img src="../../de_DE/zwave/imaAlters/277.256.1024_zweather.jpg "width =" 60 "/>||Z-Wetter Wind- und Wettersensor|Multisensoren|Verkauft unter dem Namen POPP - Z-Wave Wetterstation + Z-Wetter|[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/277.256.1_kfob_4.jpg "width =" 60 "/>|||Fernbedienung||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/277.256.257_wall-s.jpg "width =" 60 "/>|||Fernbedienung|||
-|<img src="../../de_DE/zwave/imaAlters/277.256.258_kfob_s4.jpg "width =" 60 "/>|| Secure 4-Tasten-Tastenketten-Controller|Fernbedienung|||
-|<img src="../../de_DE/zwave/imaAlters/277.256.259_popp_kfob_c.jpg "width =" 60 "/>||Popp -C Fernbedienung|Fernbedienung||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/277.256.4_zme_wcd2.double.paddle.wall.controller.jpg "width =" 60 "/>||Doppelpaddel-Wandregler (ZME WCD2)|Fernbedienung|||
-|<img src="../../de_DE/zwave/imaAlters/277.256.512_smoke.detector.jpg "width =" 60 "/>||Rauchsensor|Rauch|||
-|<img src="../../de_DE/zwave/imaAlters/277.256.513_smoke.detector.jpg "width =" 60 "/>||Rauchsensor|Rauch|||
-|<img src="../../de_DE/zwave/imaAlters/277.272.1_z-uno.jpg "width =" 60 "/>|||Entwicklerkarte|||
-|<img src="../../de_DE/zwave/imaAlters/277.4096.1_zme_054313z.flush-mountable.switch.jpg "width =" 60 "/>||ZME-054313 Unterputzschalter|Mikromodul|||
-|<img src="../../de_DE/zwave/imaAlters/277.4096.2_zme_06433.wall.flush-mountable.dimmer.jpg "width =" 60 "/>|||Mikromodul|||
-|<img src="../../de_DE/zwave/imaAlters/277.4096.3_zme_06436.motor.control.jpg "width =" 60 "/>||Mikromotorsteuerung (ZME06436)|Fensterläden|||
-|<img src="../../de_DE/zwave/imaAlters/277.4096.4_zme_064435.wall.controller.jpg "width =" 60 "/>||Wandcontroller (ZME064435)|Fernbedienung|||
-|<img src="../../de_DE/zwave/imaAlters/277.4096.768_zme_rc2.jpg "width =" 60 "/>||Fernbedienung 2|Fernbedienung||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/277.4352.2_plug-in.dimmer.jpg "width =" 60 "/>||Dimmer Plugin|Steckdose|||
-|<img src="../../de_DE/zwave/imaAlters/277.512.1_itemp.temperature.sensor.jpg "width =" 60 "/>||Itemp Temperatursensor|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/277.513.1_itemp.temperature.sensor.jpg "width =" 60 "/>||Itemp Temperatursensor|Multisensoren|||
-|<img src="../../de_DE/zwave/imaAlters/277.513.2_thermostat.jpg "width =" 60 "/>||Z-Wave-Thermostat|Thermostat|||
-|<img src="../../de_DE/zwave/imaAlters/277.513.3_binary.sensor.jpg "width =" 60 "/>||Binärsensor|Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/277.1.105_key.fob_1.jpg "width =" 60 "/>|zwaveme|KFOB|Fernbedienung|||
+||zwaveme|004308 Rauchmelder|Rauch|Als Zwave-me USB-Stick erkannt. Kein Assistent für EinstellunAltern.||
+|<img src="../../de_DE/zwave/imaAlters/277.1.1_usb stick.jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/277.1024.1_ZME_UZB1 USB-Stick.jpg "width =" 60 "/>|zwaveme|ZME_UZB1 USB-Stick|Controller||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-Controller-usb-z-wave-plus-0019962006500.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.2.3_usb stick.jpg "width =" 60 "/>|zwaveme|USB-Stick|Controller|||
+|<img src="../../de_DE/zwave/imaAlters/277.256.1024_zweather.jpg "width =" 60 "/>|zwaveme|Z-Wetter Wind- und Wettersensor|Multisensoren|Verkauft unter dem Namen POPP - Z-Wave Wetterstation + Z-Wetter|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.256.1_kfob_4.jpg "width =" 60 "/>|zwaveme|KFOB Key Chain Controller|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.256.257_wall-s.jpg "width =" 60 "/>|zwaveme|Secure Wall Controller|Fernbedienung|||
+|<img src="../../de_DE/zwave/imaAlters/277.256.258_kfob_s4.jpg "width =" 60 "/>|zwaveme|KFOB Secure 4-Tasten-Tastenketten-Controller|Fernbedienung|||
+|<img src="../../de_DE/zwave/imaAlters/277.256.259_popp_kfob_c.jpg "width =" 60 "/>|zwaveme|Popp KFOB-C Fernbedienung|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.256.4_zme_wcd2.double.paddle.wall.controller.jpg "width =" 60 "/>|zwaveme|Doppelpaddel-Wandregler (ZME WCD2)|Fernbedienung|||
+|<img src="../../de_DE/zwave/imaAlters/277.256.512_smoke.detector.jpg "width =" 60 "/>|zwaveme|Rauchsensor|Rauch|||
+|<img src="../../de_DE/zwave/imaAlters/277.256.513_smoke.detector.jpg "width =" 60 "/>|zwaveme|Rauchsensor|Rauch|||
+|<img src="../../de_DE/zwave/imaAlters/277.272.1_z-uno.jpg "width =" 60 "/>|zwaveme|Z-Uno|Entwicklerkarte|||
+|<img src="../../de_DE/zwave/imaAlters/277.4096.1_zme_054313z.flush-mountable.switch.jpg "width =" 60 "/>|zwaveme|ZME-054313 Unterputzschalter|Mikromodul|||
+|<img src="../../de_DE/zwave/imaAlters/277.4096.2_zme_06433.wall.flush-mountable.dimmer.jpg "width =" 60 "/>|zwaveme|ZME 06433 Dimmer|Mikromodul|||
+|<img src="../../de_DE/zwave/imaAlters/277.4096.3_zme_06436.motor.control.jpg "width =" 60 "/>|zwaveme|Mikromotorsteuerung (ZME06436)|Fensterläden|||
+|<img src="../../de_DE/zwave/imaAlters/277.4096.4_zme_064435.wall.controller.jpg "width =" 60 "/>|zwaveme|Wandcontroller (ZME064435)|Fernbedienung|||
+|<img src="../../de_DE/zwave/imaAlters/277.4096.768_zme_rc2.jpg "width =" 60 "/>|zwaveme|Fernbedienung 2|Fernbedienung||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
+|<img src="../../de_DE/zwave/imaAlters/277.4352.2_plug-in.dimmer.jpg "width =" 60 "/>|zwaveme|Dimmer Plugin|Steckdose|||
+|<img src="../../de_DE/zwave/imaAlters/277.512.1_itemp.temperature.sensor.jpg "width =" 60 "/>|zwaveme|Itemp Temperatursensor|Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/277.513.1_itemp.temperature.sensor.jpg "width =" 60 "/>|zwaveme|Itemp Temperatursensor|Multisensoren|||
+|<img src="../../de_DE/zwave/imaAlters/277.513.2_thermostat.jpg "width =" 60 "/>|zwaveme|Z-Wave-Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/imaAlters/277.513.3_binary.sensor.jpg "width =" 60 "/>|zwaveme|Binärsensor|Multisensoren|||
 
-# 
+# zwaveme
 |Bild|Machen Sie|Name|Typ|Bemerkung|Link|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/imaAlters/327.1024.1_ ZWavePlus.jpg "width =" 60 "/>|| ZWave +|Controller||[Kaufen](http:|
-|<img src="../../de_DE/zwave/imaAlters/327.2.3_.jpg "width =" 60 "/>|||Controller|||
+|<img src="../../de_DE/zwave/imaAlters/327.1024.1_RaZberry Controller ZWavePlus.jpg "width =" 60 "/>|zwaveme|RaZberry Controller ZWave +|Controller||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
+|<img src="../../de_DE/zwave/imaAlters/327.2.3_RaZberry Controller.jpg "width =" 60 "/>|zwaveme|RaZberry Controller|Controller|||
 
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind.

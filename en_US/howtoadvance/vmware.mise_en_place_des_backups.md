@@ -124,7 +124,7 @@ containing 4 files :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \ * - flat.vmdk ⇒ the virtual disk of your machine
+-   \* - flat.vmdk ⇒ the virtual disk of your machine
 
 -   \*.vmdk ⇒ the descriptor of the disc
 
@@ -172,13 +172,13 @@ And before "exit 0" add the following lines :
 > **NOTE**
 >
 > Here I request a backup every 1st of the month, you can change
-> this by modifying : 0 0 1 \ * \*
+> this by modifying : 0 0 1 \* \*
 
 > **NOTE**
 >
 > Here I make a backup of all the VMs, you can adapt this by
 > replacing the -a with -m ma \ _vm, be careful if you want to put
-> several VMs you must duplicate the line "/ bin / echo" 0 0 1 \ * \*
+> several VMs you must duplicate the line "/ bin / echo" 0 0 1 \* \*
 > / vmfs / volumes / Backup / ghettoVCB.sh -a -g
 > / vmfs / volumes / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "and put one per VM to backup
