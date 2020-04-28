@@ -49,7 +49,7 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 > **Punta**
 >
 > Servaquío pack ? Quézako ? Podéis ver
-> [Aquí](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
+> [aquí](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
 
 
 Jeedom Smart
@@ -57,7 +57,7 @@ Jeedom Smart
 
 Aquí encontrará documentación noo a noo para instalar o restaurar Jeedom
 
-[Aquí](https://doc.jeedom.com/es_ES/howto/recovery_mode_jeedom_smart)
+[aquí](https://doc.jeedom.com/es_ES/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -70,14 +70,14 @@ Jeedom mini +
 Etapa 1 : Instalación de grabado
 ---
 
-Debe descargar el software Etcher [aquí](https:// ycher.io /) entonces
+Vous devez télécharger le logicel Etcher [aquí](https://ycher.io /) entonces
 instálalo en tu pc
 
 Etapa 2 : Jeedom recuperación de imagen
 ---
 
 Tiene que ir
-[Aquí](https://images.jeedom.com/jeeboard/),
+[aquí](https://images.jeedom.com/jeeboard/),
 luego, en la carpya Imágenes, recupere la imagen jeedom-jeeboard - \*. rar
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -104,7 +104,7 @@ Solo tiene que colocar la tarjya SD en el Jeedomboard (o Hummingboard), conectar
 >
 > Las ID de SSH son jeedom / Mjeedom96
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 
 Raspberrypi
@@ -120,10 +120,10 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 [Aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
 
-**2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
+**2 / Descomprime la imagen con winrar** [Aquí](http://www.win-rar.com)
 
 **3 / Grabar esta imagen en una SD con ycher, por ejemplo**
-[Aquí](https:// ycher.io/)
+[aquí](https://ycher.io/)
 
 > **Nota**
 >
@@ -171,7 +171,7 @@ Nocesita saber la dirección IP de su PI. Varias soluciones :
 Establecer conexión
 
 Luego use, por ejemplo, masilla para establecer su conexión
-[aquí](http://www.putty.org/)
+[Aquí](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.10) y haga clic en
 abierto Acepte el mensaje de seguridad predyerminado cuando
@@ -229,7 +229,7 @@ Salir guardando : `CTRL+X` puis `O `puis `ENTREE`
 
 Reinaquía tu RPI
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ la dirección IP de su Jeedom en Freebox Delta está escrita en la parte superio
 
 el inaquío de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 VM
 ==
@@ -295,7 +295,7 @@ Etapa 2 : Descargar una imagen de Strecht de Debian - nyinstall
 ---
 
 Descargue una imagen minimalista de Debian 9 Strych
-[aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
+[Aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
 
 Descargue el paquye de extensión e instálelo.
 [Aquí](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
@@ -409,7 +409,7 @@ ingrésalo en tu navegador.
 > Si esto no funciona, no ha configurado su tarjya
 > red en el puente de red como se indica al inaquío.
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Estibador
 ======
@@ -450,7 +450,7 @@ Etapa 2 : Instalar una imagen mysql
 > También puede instalar mysql directamente en la máquina host,
 > en este caso, omita este noo.
 
-Yo uso [este](https://hub.docker.com/_/mysql/). Para instalarlo
+J'utilise [celle-ci](https://hub.docker.com/_/mysql/). Para instalarlo
 :
 
     docker pull mysql:ultimo
@@ -493,7 +493,7 @@ ingrese la información de conexión a mysql :
 
 ![install other](images/install_other.PNG)
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 > **Importante**
 >
@@ -690,7 +690,7 @@ Estibador mysql instalado previamente) y validar.
 > ROOT \ _PASSWORD variable de entorno a valor de contraseña
 > quería.
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Otros
 ======
@@ -732,4 +732,4 @@ navegador de interny.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/$1/index).
+Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/$1/index).

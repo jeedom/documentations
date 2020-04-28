@@ -5,11 +5,11 @@
 Mit diesem Dienst können Sie Ihr Jeedom mit Sprachassistenten von Google und Amazon verbinden.
 
 Es kann mit verwendet werden 
-- das Dialogflow-Plugin [Dokumentation](https://jeedom.github.io/plugin-dialogflow/de_DE/)
-- oder das Google Smarthome-Plugin [Dokumentation](https://jeedom.github.io/plugin-gsh/de_DE/)
-- oder das Alexa-Plugin [Dokumentation](https://jeedom.github.io/plugin-ash//de_DE/)
+- le plugin Dialogflow, [documentation](https://jeedom.github.io/plugin-dialogflow/de_DE/)
+- ou le plugin Google Smarthome, [documentation](https://jeedom.github.io/plugin-gsh/de_DE/)
+- ou le plugin Alexa, [documentation](https://jeedom.github.io/plugin-ash//de_DE/)
 
-Dieser Service ist kostenpflichtig und kann auf dem Jeedom Market auf der Seite [Meine Services](https) abonniert werden://www.jeedom.com/market/index.php?v=d&p=profils#services)
+Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page [Mes Services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 Ihre Unterschiede finden Sie in der jeweiligen Dokumentation der Plugins.
 

@@ -162,7 +162,7 @@ ESXi-Update
 =====================
 
 Das Verfahren ist recht einfach, Sie müssen zuerst den Patch wiederherstellen
-indem Sie [hier] gehen (https://my.vmware.com / group / vmware / patch # search) (it
+en allant [hier](https://my.vmware.com / group / vmware / patch # search) (it
 Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden.. Auf dem
 In der Liste "Produkt auswählen" geben Sie "ESXi (eingebettet und installierbar)" ein
 Verlassen Sie die neueste Version von VMware und führen Sie "Suchen" durch. Dann

@@ -30,7 +30,7 @@ Vaya a IP \ _ESXI / ui con su navegador de Internet, debe tener :
 >
 > Si no tienes nada te aconsejo que instales
 > interfaz web, toda la información
-> [Aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Ingrese sus credenciales de inicio de sesión en ESXI :
 
@@ -58,7 +58,7 @@ Envío de instalación ISO
 =============================
 
 Después de descargar su instalación iso
-([aquí](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+([ici](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 por ejemplo para debian 8.5 en netinstall), debes ponerte
 tu almacén de datos.
 
@@ -169,7 +169,7 @@ su sistema operativo :
 > "sudo apt-get -y install open-vm-tools".
 
 Para el resto de la instalación, los invito a leer esto.
-[tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
+[Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
 
 Montar dispositivos USB en la VM 
 =======================================
@@ -178,7 +178,7 @@ Montar dispositivos USB en la VM
 >
 > Si no tiene las siguientes opciones, es necesario actualizar
 > el cliente de host integrado ESXi, toda la información
-> [Aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Es una necesidad bastante rara, pero tuve que usarla para Jeedom, en
 de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM
@@ -189,7 +189,7 @@ conectado y tuve que conectarlos a mi máquina virtual Jeedom para poder
 >
 > Para Zwave, RFXcom, edisio y enOcean no hay problema, para
 > Claves GSM debe seguir esto
-> [tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-gsm.huawei_mode_modem.html)
+> [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-gsm.huawei_mode_modem.html)
 > antes de forzar la clave en modo módem solo de lo contrario no es
 > no se ve correctamente en el ESXi.
 

@@ -30,7 +30,7 @@ Go to IP \ _ESXI / ui with your internet browser, you must have :
 >
 > If you have nothing I advise you to install
 > web interface, all information
-> [Here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Enter your login credentials to ESXI :
 
@@ -58,7 +58,7 @@ Sending installation ISO
 =============================
 
 After downloading your installation iso
-([here](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+([ici](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 for example for debian 8.5 in netinstall), you need to put it on
 your datastore.
 
@@ -169,7 +169,7 @@ your OS :
 > "sudo apt-get -y install open-vm-tools".
 
 For the rest of the installation I invite you to read this
-[tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-debian.installation.html#_installation)
+[Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-debian.installation.html#_installation)
 
 Mount USB devices in the VM 
 =======================================
@@ -178,7 +178,7 @@ Mount USB devices in the VM
 >
 > If you do not have the options below it is necessary to update
 > the ESXi Embedded Host Client, all information
-> [Here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 It's a fairly rare need, but I had to use it for Jeedom, in
 indeed I have on my ESXi the keys Zwave, RFXcom, edisio, enOcean and GSM
@@ -189,7 +189,7 @@ use it.
 >
 > For Zwave, RFXcom, edisio and enOcean there is no problem, for
 > GSM keys you must follow this
-> [tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-gsm.huawei_mode_modem.html)
+> [Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-gsm.huawei_mode_modem.html)
 > before to force the key in modem mode only otherwise it is not
 > not seen correctly on the ESXi.
 

@@ -62,7 +62,7 @@ Además, no olvides que tienes 2 cupones
 (enviado por correo electrónico), lo que le permite instalar 2 complementos pagos
 gratis (RFXCOM y alarma). Para usarlo debes crear un
 cuenta en el mercado Jeedom, vea la documentación : [Doc
-Mercado](https://doc.jeedom.com/es_ES/premiers-pas/index).
+Market](https://doc.jeedom.com/es_ES/premiers-pas/index).
 
 En el correo electrónico que recibió, también aparece el número de Servicio
 Paquete asociado a Jeedom Mini +. Puedes completarlo en tu
@@ -78,9 +78,9 @@ inicie sesión para comenzar a configurarlo y usarlo.
 
 Para seguir explorando y usar Jeedom, tienes
 documentación completa : [Documentación
-Jeedom](https://jeedom.fr/doc) y también de una lista de secciones
-video tutoriales : [Tutoriales en video](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
+Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
+les tutoriels vidéos : [Tutos vidéos](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
 No dudes en ir al Foro de Jeedom por cualquier otro
-Pregunta : [Foro de la libertad](https://www.jeedom.com/forum/).
+question : [Forum Jeedom](https://www.jeedom.com/forum/).
 
 Gracias y buen descubrimiento de la automatización del hogar con Jeedom..

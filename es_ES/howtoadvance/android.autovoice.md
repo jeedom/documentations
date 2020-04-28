@@ -86,7 +86,7 @@ Luego seleccionamos **Obtener HTTP**.
 Aquí rellenaremos con información de Jeedom. Aquí está la información para
 Entrar :
 
--   Servidor:Puerto : `https://mondomain.tld`
+-   Serveur:Port : `https://mondomain.tld`
 
 -   Ruta :
     `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`

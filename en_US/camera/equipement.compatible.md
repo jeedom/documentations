@@ -14,7 +14,7 @@
 | Foscam C1               |                         |                          |
 | Motorized Foscam HD     |                         |                          |
 | Motorized foscam        |                         |                          |
-| Foscam FI9803EP / FI9803P | Attention, you must put [this patch](:HTTPS://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp = sharing) for the camera to work.
+| Foscam FI9803EP/FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp = sharing) for the camera to work.
 | Heden CAMHED05IPWN      |                         |                          |
 | (V5.5)                  |                         |                          |
 | Heden Visioncam 22      |                         |                          |

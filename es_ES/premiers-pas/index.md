@@ -4,7 +4,7 @@ ayuda a configurar tu Jeedom.
 > **Punta**
 >
 > Esta guía no pretende reemplazar la documentación completa
-> disponible en el sitio web de Jeedom [aquí](https:// jeedom.fr/doc).
+> disponible sur le site Jeedom [aquí](https://jeedom.fr/doc).
 
 Registro en el mercado 
 =========================
@@ -132,7 +132,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
 
 -   Marca la casilla **Activar**
 
--   Complete la direccion : `https://www.jeedom.com/market`
+-   Remplissez l'adresse : `https://www.jeedom.com/market`
 
 -   Rellene también los campos "Nombre de usuario" y "Contraseña"."
     basado en sus identificadores (identificadores de mercado y no
@@ -265,7 +265,7 @@ Entonces encuentras :
 - cómo usar el complemento, 
 - información adaquíonal como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-Para obtener más información sobre complementos, haga clic en [aquí](https:// jeedom.github.io/core/es_ES/plugin).
+Pour plus d'informations sur les plugins haga clic [aquí](https://jeedom.github.io/core/es_ES/plugin).
 
 Apoyo 
 =======
@@ -277,7 +277,7 @@ ayuda y haz tus preguntas.
 Documentación de Jeedom 
 --------------------------
 
-Encontrará una documentación completa [aquí](https:// jeedom.fr / doc):
+Vous trouverez une documentation complète [aquí](https://jeedom.fr / doc):
 
 Este consta de varias categorías:
 
@@ -306,7 +306,7 @@ página para encontrar páginas basadas en una palabra específica.
 El foro 
 --------
 
-Lo encontrarás [aquí](https:// jeedom.com / forum) .
+Vous le trouverez [aquí](https://jeedom.com / forum) .
 
 El foro es muy activo y contiene mucha información.. Si usted
 tiene una pregunta, siéntase libre de preguntar. Tendrás una respuesta en

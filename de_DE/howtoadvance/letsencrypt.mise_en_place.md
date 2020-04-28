@@ -6,7 +6,7 @@ Generation :
 
     apt-get install -y git
     cd / opt
-    Git-Klon https://github.com/letsencrypt/letsencrypt
+    git clone https://github.com/letsencrypt/letsencrypt
     cd letsencrypt
     ./ letsencrypt-auto --help
 
@@ -135,7 +135,7 @@ Schritte zu folgen :
 
 <!-- -->
 
-    curl -L -o / usr / local / sbin / le-erneuern http://do.co/le-renew
+    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
     chmod + x / usr / local / sbin / le-erneuern
     le-erneuere domaine.com
 

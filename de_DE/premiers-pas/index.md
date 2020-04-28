@@ -4,7 +4,7 @@ Hilf mit, dein Jeedom einzurichten.
 > **Spitze**
 >
 > Dieses Handbuch ersetzt nicht die vollständige Dokumentation
-> verfügbar auf der Jeedom-Website [hier](https:// jeedom.fr/doc).
+> disponible sur le site Jeedom [hier](https://jeedom.fr/doc).
 
 Registrierung am Markt 
 =========================
@@ -132,7 +132,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 
--   Geben Sie die Adresse ein : `https://www.jeedom.com/market`
+-   Remplissez l'adresse : `https://www.jeedom.com/market`
 
 -   Füllen Sie auch die Felder "Benutzername" und "Passwort" aus."
     basierend auf Ihren Kennungen (Marktkennungen und nicht
@@ -265,7 +265,7 @@ Sie finden dann :
 - wie man das Plugin benutzt, 
 - zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
-Für weitere Informationen zu Plugins klicken Sie auf [hier](https:// jeedom.github.io/core/de_DE/plugin).
+Pour plus d'informations sur les Plugins Klicken Sie auf [hier](https://jeedom.github.io/core/de_DE/plugin).
 
 Unterstützung 
 =======
@@ -277,7 +277,7 @@ Hilfe und stellen Sie Ihre Fragen.
 Jeedom Dokumentation 
 --------------------------
 
-Eine vollständige Dokumentation finden Sie [hier](https:// jeedom.fr / doc):
+Vous trouverez une documentation complète [hier](https://jeedom.fr / doc):
 
 Dies besteht aus mehreren Kategorien:
 
@@ -306,7 +306,7 @@ Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
 Das Forum 
 --------
 
-Sie finden es [hier](https:// jeedom.com / forum) .
+Vous le trouverez [hier](https://jeedom.com / forum) .
 
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn du
 Haben Sie eine Frage, zögern Sie nicht, sie zu stellen. Sie werden eine Antwort in haben

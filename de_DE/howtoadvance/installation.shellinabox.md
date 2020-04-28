@@ -19,8 +19,8 @@ Sie müssen eine Datei in erstellen
 und starten Sie dann Apache neu
 
     <Location /jeedom/shellinabox>
-    Proxypass http:// localhost:4200 /
-    #ProxyPassReverse http:// localhost:4200 /
+    Proxypass  http://localhost:4200/
+    #ProxyPassReverse  http://localhost:4200/
     Erlaube von allen
     </Location>
 

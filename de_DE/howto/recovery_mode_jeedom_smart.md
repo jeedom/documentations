@@ -28,7 +28,7 @@ Hinweis: Denken Sie daran, eine Jeedom-Konfigurationssicherung (lokal) beiseite 
 
 
 
-1- Laden Sie das von uns bereitgestellte Archiv herunter  : [backupJeedom.tar.gz](https://IFMJEEDOM.com/smart/backupJeedom.tar.gz). Stellen Sie sicher, dass die Datei den Namen backupJeedom.tar hat.gz, um Restaurierungsarbeiten durchzuführen.
+1- téléchargez l'archive que nous fournissons  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Stellen Sie sicher, dass die Datei den Namen backupJeedom.tar hat.gz, um Restaurierungsarbeiten durchzuführen.
 
 2- Kopieren Sie dieses Archiv, ohne es zu ändern oder zu entpacken, auf einen leeren USB-Stick, der in FAT32 formatiert ist
 

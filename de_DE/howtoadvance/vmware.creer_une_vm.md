@@ -30,7 +30,7 @@ Gehen Sie mit Ihrem Internetbrowser zu IP \ _ESXI / ui :
 >
 > Wenn Sie nichts haben, rate ich Ihnen zu installieren
 > Webinterface, alle Informationen
-> [Hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
 
@@ -58,7 +58,7 @@ Installations-ISO senden
 =============================
 
 Nach dem Herunterladen Ihrer Installation iso
-([hier](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+([ici](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 zum Beispiel für debian 8.5 in netinstall) müssen Sie es anziehen
 Ihr Datenspeicher.
 
@@ -178,7 +178,7 @@ Mounten Sie USB-Geräte in der VM
 >
 > Wenn Sie die folgenden Optionen nicht haben, müssen Sie sie aktualisieren
 > der ESXi Embedded Host Client, alle Informationen
-> [Hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [ici](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Es ist ein ziemlich seltener Bedarf, aber ich musste ihn für Jeedom verwenden
 in der Tat habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcean und GSM

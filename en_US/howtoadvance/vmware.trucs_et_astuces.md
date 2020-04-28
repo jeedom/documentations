@@ -162,7 +162,7 @@ ESXi update
 =====================
 
 The procedure is quite easy, you must first recover the patch
-by going [here](https://my.vmware.com / group / vmware / patch # search) (it
+en allant [here](https://my.vmware.com / group / vmware / patch # search) (it
 you will probably have to log in with your VMware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
 face leave the latest version of VMware and do "Search". Then

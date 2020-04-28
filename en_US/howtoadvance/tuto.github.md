@@ -23,7 +23,7 @@ for the entire Jeedom project, including its free plugins or the
 documentation, or any other github project you
 would like to participate.
 
-Go to <https:// github.com> and click on the sign up button.
+Se rendre sur <https://github.com> and click on the sign up button.
 So you should be on a page looking like the one below and
 must therefore enter a nickname, an email and a password and then
 click on **Create an account**
@@ -55,7 +55,7 @@ developer (s) of said project
 
 Now that you have a Github account and you are logged in
 with your verified email address, if you go here
-<https:// github.com/jeedom/core> vous êtes sur le projet jeedom, à
+<https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
 right there is a fork button allowing you to copy it to your
 github space.
 

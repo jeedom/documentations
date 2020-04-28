@@ -2,7 +2,7 @@
 
 Hay varias formas en Jeedom para informar una inquietud : 
 
-- plantear la preocupación sobre la [comunidad](https://community.jeedom.com), aquí suele obtener la respuesta más rápida
+- remonter le souci sur la [communauté](https://community.jeedom.com), aquí suele obtener la respuesta más rápida
 - informar una inquietud al equipo de Jeedom : 
   - **Solicitud de soporte** (requiere un paquete de servicio de energía o más o incluso si la preocupación está en un complemento / servicio pago), esta solicitud es **privado** y lo pondrá directamente en contacto con el equipo de soporte de Jeedom que analiza su caso particular
   - **Informe de error**, en este caso la solicitud es **publico** y será publicado en la comunidad

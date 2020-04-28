@@ -4,7 +4,7 @@ tarareando)
 > **Nota**
 >
 > Este tutorial está inspirado en gran medida por
-> [este](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
+> [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Instalación de dependencias. 
 ============================

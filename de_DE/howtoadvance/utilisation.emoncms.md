@@ -27,7 +27,7 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://server/emoncms/input/post.json?json = {Macht:\#Wert\#}&apikey=xxx](https://server/emoncms/input/post.json?json = {Macht:#Wert#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {Macht:\#Wert\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {Macht:#Wert#}&apikey=xxx)
 
 Mit Parametern :
 
@@ -74,18 +74,18 @@ EmonCMS (v9 Ende 2015)
 Wenn wir sie installieren, gibt es Probleme mit den Menüs. Jedenfalls,
 wir brauchen nur a priori :
 
-Git-Klon <https://github.com/emoncms/event.git> (Er ist derjenige, der kann
+git clone <https://github.com/emoncms/event.git> (Er ist derjenige, der kann
 erlauben, Reaktionen auf Ereignisse in Emoncms für zu erstellen
 Jeedom benachrichtigen)
 
-Git-Klon <https://github.com/emoncms/openbem.git> (Dies ist ein Plugin für
+git clone <https://github.com/emoncms/openbem.git> (Dies ist ein Plugin für
 den Energieverbrauch des Hauses überwachen)
 
-Git-Klon <https://github.com/emoncms/energy.git>
+git clone <https://github.com/emoncms/energy.git>
 
-Git-Klon <https://github.com/emoncms/report.git>
+git clone <https://github.com/emoncms/report.git>
 
-Git-Klon <https://github.com/elyobelyob/mqtt.git>
+git clone <https://github.com/elyobelyob/mqtt.git>
 
 Nginx-Konfiguration 
 ===================

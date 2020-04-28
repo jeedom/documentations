@@ -49,7 +49,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 > **Spitze**
 >
 > Service Pack ? Quézako ? Sie können sehen
-> [Hier](https://blog.jeedom.fr/?p = 1215) die Vorteile von Service Packs.
+> [hier](https://blog.jeedom.fr/?p = 1215) die Vorteile von Service Packs.
 
 
 Jeedom Smart
@@ -57,7 +57,7 @@ Jeedom Smart
 
 Hier finden Sie eine schrittweise Dokumentation zum Installieren oder Wiederherstellen von Jeedom
 
-[Hier](https://doc.jeedom.com/de_DE/howto/recovery_mode_jeedom_smart)
+[hier](https://doc.jeedom.com/de_DE/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -70,14 +70,14 @@ Jeedom mini +
 Stufe 1 : Etcher Installation
 ---
 
-Sie müssen die Etcher-Software [hier] herunterladen (https:// Radierer.io /) dann
+Vous devez télécharger le logicel Etcher [hier](https://undcher.io /) dann
 Installieren Sie es auf Ihrem PC
 
 Stufe 2 : Jeedom Bildwiederherstellung
 ---
 
 Du musst gehen
-[Hier](https://images.jeedom.com/jeeboard/),
+[hier](https://images.jeedom.com/jeeboard/),
 Stellen Sie dann im Ordner "Images" das Bild "jeedom-jeeboard - \*. rar" wieder her
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -104,7 +104,7 @@ Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, da
 >
 > SSH-IDs sind jeedom / Mjeedom96
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 
 Himbeerpi
@@ -120,10 +120,10 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 [Hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
 
-**2 / Dekomprimieren Sie das Bild mit Winrar** [hier](http://www.win-rar.com)
+**2 / Dekomprimieren Sie das Bild mit Winrar** [Hier](http://www.win-rar.com)
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD**
-[Hier](https:// Radierer.io/)
+[hier](https://undcher.io/)
 
 > **Notiz**
 >
@@ -171,7 +171,7 @@ Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 Verbindung herstellen
 
 Verwenden Sie dann beispielsweise Kitt, um Ihre Verbindung herzustellen
-[hier](http://www.putty.org/)
+[Hier](http://www.putty.org/)
 
 Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf
 offen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn
@@ -229,7 +229,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O `puis `ENTREE`
 
 Starten Sie Ihr RPI neu
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 VM
 ==
@@ -295,7 +295,7 @@ Stufe 2 : Herunterladen eines Debian-Strecht-Images - nundinstall
 ---
 
 Laden Sie ein minimalistisches Debian 9 Strundch-Bild herunter
-[hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
+[Hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
 
 Laden Sie das Erweiterungspakund herunter und installieren Sie es.
 [Hier](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
@@ -409,7 +409,7 @@ Geben Sie es in Ihren Browser ein.
 > Wenn dies nicht funktioniert, haben Sie Ihre Karte nicht konfiguriert
 > Nundzwerk in der Nundzwerkbrücke wie zu Beginn angegeben.
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Docker
 ======
@@ -450,7 +450,7 @@ Stufe 2 : Installieren eines MySQL-Images
 > Sie können MySQL auch direkt auf dem Host-Computer installieren,
 > Überspringen Sie in diesem Fall diesen Schritt.
 
-Ich benutze [dieses](https://hub.docker.com/_/mysql/). Um es zu installieren
+J'utilise [celle-ci](https://hub.docker.com/_/mysql/). Um es zu installieren
 :
 
     Docker ziehen MySQL:spätestens
@@ -493,7 +493,7 @@ Geben Sie die Verbindungsinformationen zu MySQL ein :
 
 ![install other](images/install_other.PNG)
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 > **Wichtig**
 >
@@ -690,7 +690,7 @@ Docker MySQL zuvor installiert) und validieren.
 > Umgebungsvariable ROOT \ _PASSWORD auf Kennwortwert
 > wollte.
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Andere
 ======
@@ -732,4 +732,4 @@ Internundbrowser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/$1/index).
+Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/$1/index).

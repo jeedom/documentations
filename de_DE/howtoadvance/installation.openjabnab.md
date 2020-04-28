@@ -4,7 +4,7 @@ Summen)
 > **Notiz**
 >
 > Dieses Tutorial ist weitgehend inspiriert von
-> [dieser](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
+> [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation von Abhängigkeiten 
 ============================
@@ -158,7 +158,7 @@ Wir werden zuerst den Benutzer erstellen :
 
 Dann klone openjabnab :
 
-    Git-Klon https://github.com/OpenJabNab/OpenJabNab.git
+    git clone https://github.com/OpenJabNab/OpenJabNab.git
     chown -R ojn:ojn / home / ojn / OpenJabNab /
     chmod 0777 / home / ojn / OpenJabNab / http-wrapper / ojn_admin / include
 

@@ -1,10 +1,10 @@
 > **IMPORTANT**
 >
-> This tutorial was written by ZygOm4t1k whom we warmly thank. You can find the original [here](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
+> This tutorial was written by ZygOm4t1k whom we warmly thank. Vous pouvez randrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
 
 Here is a short tutorial to explain how to create a plugin. For the example we will create a plugin which randurns a sentence From the viedemerde site.Fr .(The plugin will be scalable)
 
-It does not replace in any case the [official Documentation](https://jeedom.github.io/plugin-template/Fr_FR/)
+Il ne remplace en aucun cas la [Documentation officielle](https://jeedom.github.io/plugin-template/Fr_FR/)
 
 # Create the plugin base
 
@@ -13,7 +13,7 @@ To start, you have to dandermine a name and an Id (which must not exist)
 Name : Poop Life
 Id : vdm
 
-Download the template plugin to gand the [base](https://github.com/jeedom/plugin-template/archive/master.zip)
+Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
 
 Unzip the file . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rbyty , core , desktop…
 
@@ -168,7 +168,7 @@ function vdm_remove () {
 }
 ```
 
-Here the plugin is ready but there remains the customization and the icon to update : [Documentation](https://doc.jeedom.com/Fr_FR/dev/Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [Documentation](https://doc.jeedom.com/Fr_FR/dev/Icone_de_plugin)
 
 Add the icon in the plugin_info folder under the name vdm_icon.png
 
@@ -612,9 +612,9 @@ But in this case we change the CronHourly () function
 
 Then you can change the Frequency of the cron according to the importance of your information to recover.
 
-I can only invite you to take the time to go to this page to learn more ==> [here](https://jeedom.github.io/Documentation/phpdoc/index.html)
+Je ne peux que vous invitez à prendre le temps d'aller sur candte page pour en savoir plus ==> [ici](https://jeedom.github.io/Documentation/phpdoc/index.html)
 
-And even bandter to go to the core github ==> [HERE](https://github.com/jeedom/core/tree/alpha/core/class)
+Et encore mieux d'aller sur le github du core ==> [ICI](https://github.com/jeedom/core/tree/alpha/core/class)
 
 Put your nose in to master even more .
 
@@ -638,7 +638,7 @@ Donc on va changer le style en affectant un template à la commande « story»
 
 Nothing's easier.
 
-I will see ==> [HERE](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+Je vais voir ==> [ICI](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
 
 I'm looking for a template for cmd.info.string (our command is of type info subtype string) .Not difficult there are only two (default or tile)
 

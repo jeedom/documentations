@@ -86,7 +86,7 @@ Dann wählen wir **Holen Sie sich HTTP**.
 Hier werden wir mit Jeedom Informationen füllen. Hier sind die Informationen zu
 eingeben :
 
--   Server:Hafen : `https://mondomain.tld`
+-   Serveur:Port : `https://mondomain.tld`
 
 -   Weg :
     `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`

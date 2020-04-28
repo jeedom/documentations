@@ -32,7 +32,7 @@ Dort ist es super einfach, Sie müssen Ihr Jeedom mit dem Markt verbinden (siehe
 
 ### Markt
 
-Sobald Ihr Jeedom mit dem Markt verbunden ist, gehen Sie zum Markt. dann auf Ihren Profilen (https://www.jeedom.com/market/index.php?v = d & p = Profile) und schließlich auf der Registerkarte "Meine Jeedoms".
+Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = Profile) und schließlich auf der Registerkarte "Meine Jeedoms".
 
 ### Kehre zu Jeedom zurück
 

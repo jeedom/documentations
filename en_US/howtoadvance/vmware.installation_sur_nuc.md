@@ -35,16 +35,16 @@ In addition, there are 2 types of case :
 That makes 4 references :
 
 -   i3 M2 : [Intel NUC
-    NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) 320 €
+    NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
 
 -   i3 M2 + 2.5inch : [Intel NUC
-    NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) 320 €
+    NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
 
 -   i5 M2 : [Intel NUC
-    NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) 460 €
+    NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
 
 -   i5 M2 + 2.5inch : [Intel NUC
-    NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) 430 €
+    NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
 SSD 
 ---
@@ -62,19 +62,19 @@ this 40GB for VMware itself it fills up quickly.
 > to extend the avaitheble space
 
 -   [LDLC SSD M.2 2280 F6 PLUS 120
-    GB](http://www.ldlc.com/fiche/PB00203635.html) 55 €
+    GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
 -   [Samsung SSD 850 EVO 120 Go
-    M.2](http://www.ldlc.com/fiche/PB00185923.html) 100 €
+    M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
 -   [LDLC SSD M.2 2280 F6 PLUS 240
-    GB](http://www.ldlc.com/fiche/PB00203636.html) 105 €
+    GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
 -   [Samsung SSD 850 EVO 250 Go
-    M.2](http://www.ldlc.com/fiche/PB00185924.html) 120 €
+    M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
 -   [LDLC SSD M.2 2280 F6 PLUS 480
-    GB](http://www.ldlc.com/fiche/PB00207301.html) 190 €
+    GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Memory 
 -------
@@ -87,13 +87,13 @@ cheaper is going very well (be careful I always take packs of 2
 bars, this improves performance) :
 
 -   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
-    X8](http://www.ldlc.com/fiche/PB00204134.html) 35 €
+    X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
 
 -   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
-    X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
+    X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
 
 -   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
-    X8](http://www.ldlc.com/fiche/PB00204136.html) 120 €
+    X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
 Instalthetion preparation 
 =============================

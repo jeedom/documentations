@@ -23,7 +23,7 @@ für das gesamte Jeedom-Projekt, einschließlich seiner kostenlosen Plugins oder
 Dokumentation oder ein anderes Github-Projekt, das Sie
 möchte teilnehmen.
 
-Gehe zu <https:// github.com> und klicken Sie auf die Schaltfläche Anmelden.
+Se rendre sur <https://github.com> und klicken Sie auf die Schaltfläche Anmelden.
 Sie sollten sich also auf einer Seite befinden, die wie die folgende und aussieht
 muss daher einen Spitznamen, eine E-Mail und ein Passwort eingeben und dann
 Klicken Sie auf **Erstellen Sie ein Konto**
@@ -55,7 +55,7 @@ Entwickler des Projekts
 
 Jetzt, da Sie ein Github-Konto haben und angemeldet sind
 mit Ihrer verifizierten E-Mail-Adresse, wenn Sie hier gehen
-<https:// github.com/jeedom/core> vous êtes sur le projet jeedom, à
+<https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
 Genau dort befindet sich eine Gabelschaltfläche, mit der Sie sie auf Ihre kopieren können
 Github Raum.
 

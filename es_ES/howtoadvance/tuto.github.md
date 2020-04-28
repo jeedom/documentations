@@ -23,7 +23,7 @@ para todo el proyecto Jeedom, incluidos sus complementos gratuitos o el
 documentación o cualquier otro proyecto github que
 quisiera participar.
 
-Ir a <https:// github.com> y haga clic en el botón Registrarse.
+Se rendre sur <https://github.com> y haga clic en el botón Registrarse.
 Por lo tanto, debe estar en una página como la siguiente y
 por lo tanto, debe ingresar un apodo, un correo electrónico y una contraseña y luego
 haga clic en **Crear una cuenta**
@@ -55,7 +55,7 @@ desarrollador (s) de dicho proyecto
 
 Ahora que tiene una cuenta de Github y ha iniciado sesión
 con tu dirección de correo electrónico verificada, si vas aquí
-<https:// github.com/jeedom/core> vous êtes sur le projet jeedom, à
+<https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
 a la derecha hay un botón de horquilla que le permite copiarlo en su
 espacio github.
 

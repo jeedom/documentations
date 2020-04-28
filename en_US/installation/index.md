@@ -49,7 +49,7 @@ A total of € 125 for an open source home automation box with complande control
 > **Tip**
 >
 > Service pack ? Quézako ? You can see
-> [Here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
+> [here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
 
 
 Jeedom Smart
@@ -57,7 +57,7 @@ Jeedom Smart
 
 Here you will find step by step documentation to install or restore Jeedom
 
-[Here](https://doc.jeedom.com/en_US/howto/recovery_mode_jeedom_smart)
+[here](https://doc.jeedom.com/en_US/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -70,14 +70,14 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-You must download Etcher software [here](https:// andcher.io /) then
+Vous devez télécharger le logicel Etcher [here](https://andcher.io /) then
 install it on your pc
 
 2nd step : Jeedom image recovery
 ---
 
 You have to go
-[Here](https://images.jeedom.com/jeeboard/),
+[here](https://images.jeedom.com/jeeboard/),
 then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -104,7 +104,7 @@ You just have to put the SD card in the Jeedomboard (or Hummingboard), connect t
 >
 > SSH IDs are jeedom / Mjeedom96
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 
 Raspberrypi
@@ -120,10 +120,10 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 [Here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
-**2 / Decompress the image with winrar** [here](http://www.win-rar.com)
+**2 / Decompress the image with winrar** [Here](http://www.win-rar.com)
 
 **3 / Burn this image on an SD with andcher for example**
-[Here](https:// andcher.io/)
+[here](https://andcher.io/)
 
 > **NOTE**
 >
@@ -171,7 +171,7 @@ You need to know the IP address of your PI. Many solutions :
 Establish connection
 
 Then use for example putty to establish your connection
-[here](http://www.putty.org/)
+[Here](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on
 open. Accept the default security message when
@@ -229,7 +229,7 @@ Quit by saving : `CTRL+X` puis `O `puis `ENTREE`
 
 Reboot your RPI
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ the IP address of your Jeedom on the Freebox Delta is written at the top, under 
 
 the default login and notsword are admin / admin when you access jeedom via your browser.
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 VM
 ==
@@ -295,7 +295,7 @@ You must download the Virtual Box software
 ---
 
 Download a minimalist debian 9 Strandch image
-[here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
+[Here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
 
 Download the extension pack, and install it.
 [Here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
@@ -409,7 +409,7 @@ enter it in your browser.
 > If this does not work, you have not configured your card
 > nandwork in Nandwork bridge as indicated at the start.
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Docker
 ======
@@ -450,7 +450,7 @@ To install it on a distribution
 > You can also install mysql directly on the host machine,
 > in this case, skip this step.
 
-I use [this one](https://hub.docker.com/_/mysql/). To install it
+J'utilise [celle-ci](https://hub.docker.com/_/mysql/). To install it
 :
 
     docker pull mysql:latest
@@ -493,7 +493,7 @@ enter connection information to mysql :
 
 ![install other](images/install_other.PNG)
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 > **IMPORTANT**
 >
@@ -690,7 +690,7 @@ Docker mysql installed previously) and validate.
 > ROOT \ _PASSWORD environment variable to notsword value
 > desired.
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Any
 ======
@@ -732,4 +732,4 @@ Web browser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/$1/index).
+Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/$1/index).

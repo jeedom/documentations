@@ -104,7 +104,7 @@ Z-Wave controller :
 
 Zigbee controller :
 
-- [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
+- [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
 
 Zwave modules
 -------------

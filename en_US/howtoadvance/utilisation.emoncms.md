@@ -27,7 +27,7 @@ we want to fill
 
 The url of push is of the form :
 
-[HTTPS://server/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](HTTPS://server/emoncms/input/post.json?json = {power:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}&apikey=xxx)
 
 With parameters :
 
@@ -51,7 +51,7 @@ To take a data from emoncms in Jeedom, there are two possibilities
     the value regularly or via scenario for example and normally
     not useful because the data has its source in jeedom \ _setting
 
-        HTTPS://serveur/emoncms/feed/value.json?Id=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?Id=1&apikey=xxx
 
 -   The second possibility is to use the emoncms Event plugin
     to trigger an action on certain conditions. This method
@@ -66,7 +66,7 @@ Memo for EmonCMS installation
 
 Installation is described on this github page :
 
-<HTTPS://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md>
+<https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md>
 
 Note that some plugins seem obsolete with the latest version
 EmonCMS (v9 at the end of 2015)
@@ -74,18 +74,18 @@ EmonCMS (v9 at the end of 2015)
 If we install them, there are problems with the menus. Anyway,
 we only need a priori :
 
-git clone <HTTPS://github.com/emoncms/event.git> (He's the one who can
+git clone <https://github.com/emoncms/event.git> (He's the one who can
 allow to create reactions on event in emoncms for
 notify Jeedom)
 
-git clone <HTTPS://github.com/emoncms/openbem.git> (This is a plugin for
+git clone <https://github.com/emoncms/openbem.git> (This is a plugin for
 monitor the energy consumption of the house)
 
-git clone <HTTPS://github.com/emoncms/energy.git>
+git clone <https://github.com/emoncms/energy.git>
 
-git clone <HTTPS://github.com/emoncms/report.git>
+git clone <https://github.com/emoncms/report.git>
 
-git clone <HTTPS://github.com/elyobelyob/mqtt.git>
+git clone <https://github.com/elyobelyob/mqtt.git>
 
 Nginx configuration 
 ===================

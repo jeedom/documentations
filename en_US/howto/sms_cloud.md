@@ -15,4 +15,4 @@ A simple example is : in case of alarm triggering then I receive a call with a v
 It's very simple you have to : 
 
 - have SMS credit  : SMS = 1 credit (limited to 140 characters), calls = 2 credits (limited to 450 characters)
-- have the phonemarket plugin, install and configure, documentation [here](https://jeedom.github.io/plugin-phonemarket/en_US/)
+- avoir le plugin phonemarket, d'installer et configuré, documentation [ici](https://jeedom.github.io/plugin-phonemarket/en_US/)

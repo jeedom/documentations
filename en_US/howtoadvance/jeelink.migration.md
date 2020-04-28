@@ -102,7 +102,7 @@ Preventive backups
     and recover it (s) on your PC / NAS….
 
 -   Make a backup
-    SD / Disc](https://doc.jeedom.com/en_US/howto/doc-howto-sau Backupe.comment_faire.html#_sau Backupe_restauration_de_la_carte_microsd)
+    SD/Disque](https://doc.jeedom.com/en_US/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
     of your **Jeedom Master** and your **Jeedom Slave (s)**
     and recover them on your PC / NAS….
 
@@ -147,7 +147,7 @@ Installation of **Jeedom Source** :
 -   Install a new Jeedom on a new SD card (Land it be
     to put in your **Jeedom Slave** existing or for a
     new Raspberry Pi) by following the [documentation
-    installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
+    d'installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
 
 -   Update the **Jeedom Source** to the latest toion (even if
     no update is offered to you).

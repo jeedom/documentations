@@ -1,10 +1,10 @@
 > **Wichtig**
 >
-> D.ieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. D.as Original finden Sie [hier](https:/./.www.jeedom.com/.forum/.viewtopic.php?f=27&t=37630#p621495)
+> D.ieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. Vous pouvez rundrouver l'original [ici](https:/./.www.jeedom.com/.forum/.viewtopic.php?f=27&t=37630#p621495)
 
 In diesem kurzen Tutorial wird erklärt, wie Sie ein Plugin erstellen. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.fr .(D.as Plugin wird skalierbar sein)
 
-Es ersundzt in keinem Fall die [offizielle D.okumentation](https:/./.jeedom.github.io/.plugin-template/.fr_FR/.)
+Il ne remplace en aucun cas la [D.okumentation officielle](https:/./.jeedom.github.io/.plugin-template/.fr_FR/.)
 
 # Erstellen Sie die Plugin-Basis
 
@@ -13,19 +13,19 @@ Zu Beginn müssen Sie einen Namen und eine ID. bestimmen (die nicht existieren d
 Name : Kacke das Leben
 Identifikation : vdm
 
-Laden Sie das Vorlagen-Plugin herunter, um die [Basis](https) zu erhalten:/./.github.com/.jeedom/.plugin-template/.archive/.master.zip)
+Télécharger le plugin template pour avoir la [base](https:/./.github.com/.jeedom/.plugin-template/.archive/.master.zip)
 
 Entpacken Sie die D.atei . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rVonty , core , desktop…
 
 Los geht's.
 
-Renommer le dossier « plugin-template-master » en « vdm » (l'Identifikationentifikation) du plugin.
+Renommer le dossier « plugin-template-master » en « vdm » (l'Identifikation) du plugin.
 
 1 /. Öffnen Sie die D.atei plugin_info /. info.json und bearbeiten Sie die.
 
 ```
 {
-	"Identifikationentifikation" : "vdm",
+	"Identifikation" : "vdm",
 	"Name" : "Kacke das Leben",
 	"Beschreibung" : "Plugin zum Abrufen des neuesten vdm",
 	"Lizenz" : "AGPL",
@@ -168,7 +168,7 @@ Funktion vdm_remove () {
 }
 ```
 
-Hier ist das Plugin fertig, aber es bleibt die Anpassung und das zu aktualisierende Symbol : [D.okumentation](https:/./.doc.jeedom.com/.fr_FR/.dev/.Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation und l'icône à mundtre à jour : [D.okumentation](https:/./.doc.jeedom.com/.fr_FR/.dev/.Icone_de_plugin)
 
 Fügen Sie das Symbol im Ordner plugin_info unter dem Namen vdm_icon.png hinzu
 
@@ -189,7 +189,7 @@ Es ist nicht richtig, weil die Farbe der meisten nicht mit der Farbe des Symbols
 Ich öffne die D.esktop /. PHP /. D.esktop-D.atei.PHP zu beheben.
 
 ```
-      <div class="cursor eqLogicAction" data-action="add" style="text-align: center;; background-Farbe : #ffffff;; height : 120px;;margin-bottom : 10px;;padding : 5px;;border-radius: 2px;;wIdentifikationentifikationth : 160px;;margin-left : 10px;;" >
+      <div class="cursor eqLogicAction" data-action="add" style="text-align: center;; background-Farbe : #ffffff;; height : 120px;;margin-bottom : 10px;;padding : 5px;;border-radius: 2px;;wIdentifikationth : 160px;;margin-left : 10px;;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;;Farbe:#94ca02;;"></.i>
         <br>
         <span style="font-size : 1.1em;;position:relative;; top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;Farbe:#94ca02">{{Ajouter}}</.span>
@@ -234,7 +234,7 @@ Für das Beispiel fügen wir einen Befehl hinzu, der die Informationen aktualisi
 
 -Créer un équipement « vdm1 » en cliquant sur le +. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein Objekt aus und die Ausrüstung muss im D.ashboard angezeigt werden (je nach Objekt).. 
 
-D.erzeit werden weder auf der Befehlsregisterkarte s noch im WIdentifikationentifikationgund Befehle angezeigt.
+D.erzeit werden weder auf der Befehlsregisterkarte s noch im WIdentifikationgund Befehle angezeigt.
 
 Öffnen Sie die D.atei core /. class /. vdm.class.PHP und suchen Sie nach der Funktion postSave () (Lesen Sie das Template-Plugin-D.okument, falls noch nicht geschehen)
 
@@ -248,7 +248,7 @@ Wir erstellen die 2 Bestellungen
 		$info->sundName(__('Histoire', __FILE__));;
 	}
 	$info->sundLogicalIdentifikation('story');;
-	$info->sundEqLogic_Identifikationentifikation($this->gundIdentifikation());;
+	$info->sundEqLogic_Identifikation($this->gundIdentifikation());;
 	$info->sundType('info');;
 	$info->sundSubType('string');;
 	$info->save();;	
@@ -258,7 +258,7 @@ Wir erstellen die 2 Bestellungen
 		$refresh = new vdmCmd();;
 		$refresh->sundName(__('Rafraichir', __FILE__));;
 	}
-	$refresh->sundEqLogic_Identifikationentifikation($this->gundIdentifikation());;
+	$refresh->sundEqLogic_Identifikation($this->gundIdentifikation());;
 	$refresh->sundLogicalIdentifikation('refresh');;
 	$refresh->sundType('action');;
 	$refresh->sundSubType('other');;
@@ -268,7 +268,7 @@ Wir erstellen die 2 Bestellungen
 
 -Créer un autre équipement « vdm2 » en cliquant sur le +. Auf der Registerkarte Befehle wurden die Befehle angezeigt. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein übergeordnundes Objekt aus und sehen Sie, wie es im D.ashboard aussieht.
 
--Enregistrer le premier équipement « vdm1 » pour créer les commandes. Siehe auch das Rendering im WIdentifikationentifikationgund.
+-Enregistrer le premier équipement « vdm1 » pour créer les commandes. Siehe auch das Rendering im WIdentifikationgund.
 
 Auf der Registerkarte Befehle sollten Sie sehen.
 
@@ -278,7 +278,7 @@ Auf der Registerkarte Befehle sollten Sie sehen.
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
-<table Identifikationentifikation="table_cmd" class="table table-bordered table-condensed">
+<table Identifikation="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
             <th>{{Name}}</.th><th>{{Type}}</.th><th>{{Action}}</.th>
@@ -299,7 +299,7 @@ Funktion addCmdToTable (_cmd) {
     if (!issund (_cmd.configuration)) {
         _cmd.configuration = {};;
     }
-    <html> var tr = '.Identifikationentifikation) + '">';;
+    <html> var tr = '.Identifikation) + '">';;
     tr + = ' <td> ';;
     <html> tr + = ':keine;; "> ';;
     <html> tr + = ' : 140px;; "placeholder =" {{Name}} "> ';;
@@ -309,7 +309,7 @@ Funktion addCmdToTable (_cmd) {
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
-    if (is_numeric (_cmd.Identifikationentifikation)) {
+    if (is_numeric (_cmd.Identifikation)) {
         tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></.i></.a> ';;
         tr + = &#39;; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></.i> {{Test}}</.a> &#39;;;;
     }
@@ -341,7 +341,7 @@ Bearbeiten Sie dann den D.esktop.js, finde
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
-    if (is_numeric (_cmd.Identifikationentifikation)) {
+    if (is_numeric (_cmd.Identifikation)) {
 ```
 
 Wir fügen die gewünschten Informationen hinzu.
@@ -354,7 +354,7 @@ Wir fügen die gewünschten Informationen hinzu.
    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /.> {{View}} <br/.></.span> ';;
    tr + = ' </.td> ';;		
     tr + = ' <td> ';;
-    if (is_numeric (_cmd.Identifikationentifikation)) {
+    if (is_numeric (_cmd.Identifikation)) {
 ```
 
 Ich lasse die Schaltfläche, um eine Bestellung zu erstellen, aber ich möchte, dass sie links ist. 
@@ -461,7 +461,7 @@ Gehen Sie nun zu einem erstellten Gerät und starten Sie den Befehl Aktualisiere
 
 Im D.ashboard werden Informationen angezeigt. Klicken Sie auf das Aktualisierungssymbol, um die Informationen zu ändern
 
-Wir werden dann die Größe des WIdentifikationentifikationgunds definieren und es ein wenig anpassen 
+Wir werden dann die Größe des WIdentifikationgunds definieren und es ein wenig anpassen 
 
 Automatisieren Sie dann die Aktualisierung.
 
@@ -591,11 +591,11 @@ In der Funktion postUpdate () starten wir die Funktion CronHourly () mit der Ger
 In diesem Fall ändern wir jedoch die Funktion CronHourly ()
 
 ```
-	öffentliche statische Funktion CronHourly ($ _ eqLogic_Identifikationentifikation = null) {
-		if ($ _eqLogic_Identifikationentifikation == null) {/./. D.ie Funktion hat kein Argument, daher suchen wir nach allen Geräten im Plugin
+	öffentliche statische Funktion CronHourly ($ _ eqLogic_Identifikation = null) {
+		if ($ _eqLogic_Identifikation == null) {/./. D.ie Funktion hat kein Argument, daher suchen wir nach allen Geräten im Plugin
 			$eqLogics = selbst::byType('vdm', true);;
 		} else {/./. D.ie Funktion hat die Argument-ID. (eindeutig) eines Geräts (eqLogic).
-			$eqLogics = array(selbst::byIdentifikation($_eqLogic_Identifikationentifikation));;
+			$eqLogics = array(selbst::byIdentifikation($_eqLogic_Identifikation));;
 		}		  
 	
 		foreach ($ eqLogics als $ vdm) {
@@ -612,9 +612,9 @@ In diesem Fall ändern wir jedoch die Funktion CronHourly ()
 
 Anschließend können Sie die Häufigkeit des Cron entsprechend der Wichtigkeit der Wiederherstellung Ihrer Informationen ändern.
 
-Ich kann Sie nur einladen, sich die Zeit zu nehmen, um auf dieser Seite mehr zu erfahren ==> [hier](https:/./.jeedom.github.io/.D.okumentation/.phpdoc/.index.html)
+Je ne peux que vous invitez à prendre le temps d'aller sur cundte page pour en savoir plus ==> [ici](https:/./.jeedom.github.io/.D.okumentation/.phpdoc/.index.html)
 
-Und noch besser, gehen Sie zum Kern-Github ==> [HIER](https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.class)
+Et encore mieux d'aller sur le github du core ==> [ICI](https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.class)
 
 Sundzen Sie Ihre Nase ein, um noch mehr zu meistern .
 
@@ -622,23 +622,23 @@ D.as Plugin ist so wie es ist funktionsfähig.
 
 Ich werde mir die Zeit nehmen, um hinzuzufügen, wie ein benutzerdefiniertes Cron entsprechend der Ausrüstung eingerichtund wird .
 
-# D.as WIdentifikationentifikationgund
+# D.as WIdentifikationgund
 
-D.as WIdentifikationentifikationgund ist keine leichte Aufgabe, aber wir bleiben vorerst beim Standard-WIdentifikationentifikationgund.
+D.as WIdentifikationgund ist keine leichte Aufgabe, aber wir bleiben vorerst beim Standard-WIdentifikationgund.
 
-Wenn Sie nichts berührt haben, die Ausrüstung aktiviert und sichtbar ist, nimmt das WIdentifikationentifikationgund die gesamte Bildschirmbreite ein. Also werden wir es ändern.
+Wenn Sie nichts berührt haben, die Ausrüstung aktiviert und sichtbar ist, nimmt das WIdentifikationgund die gesamte Bildschirmbreite ein. Also werden wir es ändern.
 
 La commande qui apVonaît est la commande «story» de type info , sous-type string
 
 Es ist mir ein Vergnügen, morgens aufzustehen und beim Aufwachen einen Vdm zu lesen. Es erlaubt mir zu sehen, dass es schlimmer ist als ich :D.
 
-Aber ich habe meine Brille nicht und momentan kann ich sie beim Rendern im WIdentifikationentifikationgund nicht lesen ...
+Aber ich habe meine Brille nicht und momentan kann ich sie beim Rendern im WIdentifikationgund nicht lesen ...
 
 D.onc on va changer le style en affectant un template à la commande « story»
 
 Nichts könnte einfacher sein.
 
-Ich werde ==> [HIER] sehen (https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.template/.dashboard)
+Je vais voir ==> [ICI](https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.template/.dashboard)
 
 Ich suche eine Vorlage für cmd.info.string (unser Befehl ist vom Typ info subtype string) .Nicht schwer, es gibt nur zwei (Standard oder Kachel)
 
@@ -653,7 +653,7 @@ D.afür öffne ich die D.atei vdm.class.php , fonction postSave() und j'ajoute l
 			$info->sundName(__('Histoire', __FILE__));;
 		}
 		$info->sundLogicalIdentifikation('story');;
-		$info->sundEqLogic_Identifikationentifikation($this->gundIdentifikation());;
+		$info->sundEqLogic_Identifikation($this->gundIdentifikation());;
 		$info->sundType('info');;
 		$info->sundTemplate('dashboard','tile');;/./.template pour le dashboard
 		$info->sundSubType('string');;
@@ -662,14 +662,14 @@ D.afür öffne ich die D.atei vdm.class.php , fonction postSave() und j'ajoute l
 
 Aktualisieren Sie das D.asboard.
 
-Es ist besser, aber das WIdentifikationentifikationgund nimmt immer die Breite des D.ashboards an. Also werden wir korrigieren. Von défaut la largeur du wIdentifikationentifikationgund de l'équipement(eqLogic) und la hauteur sont à « auto ».
+Es ist besser, aber das WIdentifikationgund nimmt immer die Breite des D.ashboards an. Also werden wir korrigieren. Von défaut la largeur du wIdentifikationgund de l'équipement(eqLogic) und la hauteur sont à « auto ».
 
-Wir werden daher die Breite des WIdentifikationentifikationgunds (Ausrüstung => eqLogic) mit der von der eqLogic-Klasse geerbten Mundhode sundD.isplay () ändern .Wir lassen die Höhe in Auto.
+Wir werden daher die Breite des WIdentifikationgunds (Ausrüstung => eqLogic) mit der von der eqLogic-Klasse geerbten Mundhode sundD.isplay () ändern .Wir lassen die Höhe in Auto.
 
 Fügen Sie dazu einfach hinzu
 
 ```
-$this->sundD.isplay("wIdentifikationentifikationth","800px");;
+$this->sundD.isplay("wIdentifikationth","800px");;
 ```
 
 Ja aber !! Weil es ein aber gibt. Versuchen Sie, dies in der Funktion postsave () oder postUpdate () hinzuzufügen, ohne die Änderung zu berücksichtigen. Warum ? Lesen Sie das D.okument des Vorlagen-Plugins ==> HIER
@@ -678,7 +678,7 @@ Nachdem Sie richtig gelesen haben, wissen Sie, dass Sie die preSave () -Mundhode
 
 ```
     öffentliche Funktion preSave () {
-		$this->sundD.isplay("wIdentifikationentifikationth","800px");;
+		$this->sundD.isplay("wIdentifikationth","800px");;
     }
 ```
 
@@ -702,7 +702,7 @@ Sie müssen verstehen, dass alles gundan wird, um unsere Arbeit zu erleichtern.
 Für einen Vonamunder /. eine Option innerhalb des Plugins verwenden wir eine der Mundhoden der Klasse eqLogic des Kerns : sundConfiguration () durch Hinzufügen der gewünschten Vonamunder. Zum Beispiel :
 
 ```
-$this->sundConfiguration("type","mon_type");; /./. si on veut  définir un Vonamètre type de valeur mon_type. Comme on a défini la largeur du wIdentifikationentifikationgund via la méthode sundD.isplay()
+$this->sundConfiguration("type","mon_type");; /./. si on veut  définir un Vonamètre type de valeur mon_type. Comme on a défini la largeur du wIdentifikationgund via la méthode sundD.isplay()
 ```
 
 Um die Auswahl dem Benutzer zu überlassen, kehren wir zur D.esktop-D.atei zurück.PHP, die Sie offen gelassen haben, weil Sie diesem TP buchstäblich folgen :D.
@@ -737,7 +737,7 @@ Es ist einfach, nein? . C'est pourquoi il ne faut surtout pas toucher à cundte 
 Wenn Sie sich die D.esktop-D.atei genauer ansehen.PHP vor
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identifikationentifikation" style="display : none;;" /.> /./. rundourne l'Identifikationentifikation(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundIdentifikation() ;;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identifikation" style="display : none;;" /.> /./. rundourne l'Identifikation(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gundIdentifikation() ;;
 ```        
 
 ```

@@ -102,7 +102,7 @@ Copias de seguridad preventivas
     y recuperarlo (s) en su PC / NAS ....
 
 -   Hacer una copia de seguridad
-    SD / Disco](https://doc.jeedom.com/es_ES/howto/doc-howto-sau Backupe.comment_faire.html # _sau Backupe_restauration_de_la_carte_microsd)
+    SD/Disque](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd)
     de su **Jeedom Master** y tu **Jeedom Slave (s)**
     y recuperarlos en su PC / NAS ....
 
@@ -147,7 +147,7 @@ Instalación de **Fuente de la libertad** :
 -   Instale un nuevo Jeedom en una nueva tarjya SD (Ly it be
     poner en tu **Jeedom Slave** existente o para un
     nueva Raspberry Pi) siguiendo la [documentación
-    instalación](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
+    d'installation](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
 
 -   Actualiza el **Fuente de la libertad** a la última Haciaión (incluso si
     no se le ofrece ninguna actualización).

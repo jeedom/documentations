@@ -6,7 +6,7 @@ Veremos en esta documentación cómo hacer la documentación de su complemento.
 
 ## Principio
 
-El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com / en_FR / dev / structure_info_json)) en el campo de documentación.
+El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (voir le détail [ici](https://doc.jeedom.com / en_FR / dev / structure_info_json)) en el campo de documentación.
 
 Tenga en cuenta que también tiene un campo de registro de cambios que debería funcionar de la misma manera que el campo de documentación.
 
@@ -26,11 +26,11 @@ La forma más fácil para su documentación es usar el sistema de páginas githu
 
 Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el markedown aquí.
 
-No vamos a describir la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, incluido [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+On ne va pas vous decrire la syntaxe complete du markdown, d'autre site le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Ubicación
 
-Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https:// github.com / jeedom / plugin-template / tree / master / docs))
+Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossier et d'y copier les fichiers et repertoire du dossier docs dans le plugin template (voir [ici](https://github.com / jeedom / plugin-template / tree / master / docs))
 
 Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para modificar). En esta carpeta te recomendamos que hagas 2 archivos : 
 
@@ -43,12 +43,12 @@ Conectarse en línea es bastante simple, en su repositorio de github, luego en "
 
 ![doc-github](images/tutoDoc.png)
 
-Github le proporcionará un enlace como "https://jeedom.github.io / plugin-template / "(después de unos minutos de revisarlo, debería ver su diseño de documentación correctamente).
+Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugin-template / "(después de unos minutos de revisarlo, debería ver su diseño de documentación correctamente).
 
 Ahora necesita poner los enlaces de su documentación en el archivo de información.json de tu plugin para eso es necesario : 
 
-- agregue # idioma # / para el enlace a la documentación, por lo que esto da nuestro ejemplo "https://jeedom.github.io/plugin-template/#language#/"
-- agregue # idioma # / registro de cambios para el enlace a su cambio, así que esto da nuestro ejemplo "https://jeedom.github.io/plugin-template/#language#/Cambios"
+- ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
+- ajouter #language#/Cambios pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/Cambios"
 
 > **Nota**
 >
@@ -65,4 +65,4 @@ Si su plugin está estructurado como el consejo anterior, entonces la administra
 
 > **Nota**
 >
-> Tenga en cuenta que una vez que su archivo de información.json informó e introdujo en una versión estable el sitio de documentación de Jeedom (https://doc.jeedom.com) agregará automáticamente su complemento.
+> Tenga en cuenta que una vez que su archivo de información.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) agregará automáticamente su complemento.

@@ -104,7 +104,7 @@ ESXi SSH (en la interfaz web, vaya a la acción ⇒ servaquíos
 los identificadores son los mismos que para acceder a la interfaz). Entonces el
 solo lo haces :
 
-    software esxcli vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
+    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
 
 Usted debe tener :
 
@@ -134,7 +134,7 @@ instálelo, primero debe conectarse en SSH en el ESXI y luego :
 
 Si ya lo tienes, para actualizarlo debes hacer :
 
-    actualización de vib del software esxcli -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
+    esxcli software vib update -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
 
 Instalación del cliente grueso 
 ============================
@@ -162,7 +162,7 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-yendo [aquí](https://my.vmware.com / group / vmware / patch # search) (se
+en allant [aquí](https://my.vmware.com / group / vmware / patch # search) (se
 probablemente tendrá que inaquíar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después

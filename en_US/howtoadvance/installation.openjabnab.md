@@ -4,7 +4,7 @@ humming)
 > **NOTE**
 >
 > This tutorial is largely inspired by
-> [this one](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
+> [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation of dependencies 
 ============================

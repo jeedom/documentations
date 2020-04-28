@@ -135,7 +135,7 @@ pasos a seguir :
 
 <!-- -->
 
-    curl -L -o / usr / local / sbin / le-renew http://do.co/le-renew
+    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
     chmod + x / usr / local / sbin / le -new
     le-renovar domaine.com
 

@@ -27,7 +27,7 @@ queremos llenar
 
 La url de empuje es de la forma :
 
-[HTTPS://server/emoncms/input/post.json?json = {poder:\#valor\#}&apikey=xxx](HTTPS://server/emoncms/input/post.json?json = {poder:#valor#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {poder:\#valor\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {poder:#valor#}&apikey=xxx)
 
 Con parámetros :
 
@@ -51,7 +51,7 @@ Para tomar datos de emoncms en Jeedom, hay dos posibilIdentificaciónades
     el valor regularmente o por escenario, por ejemplo y normalmente
     no es útil porque los datos tienen su fuente en jeedom \ _setting
 
-        HTTPS://serveur/emoncms/feed/valor.json?Identificación=1&apikey=xxx
+        https://serveur/emoncms/feed/valor.json?Identificación=1&apikey=xxx
 
 -   La segunda posibilIdentificaciónad es usar el complemento Evento emoncms
     para desencadenar una acción en ciertas condiciones. Este metodo
@@ -66,7 +66,7 @@ Memo para la instalación de EmonCMS
 
 La instalación se describe en esta página de github :
 
-<HTTPS://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md>
+<https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md>
 
 Tenga en cuenta que algunos complementos parecen obsoletos con la última versión
 EmonCMS (v9 a finales de 2015)
@@ -74,18 +74,18 @@ EmonCMS (v9 a finales de 2015)
 Si los instalamos, hay problemas con los menús.. De todas formas,
 solo necesitamos a priori :
 
-git clone <HTTPS://github.com/emoncms/event.git> (Él es quien puede
+git clone <https://github.com/emoncms/event.git> (Él es quien puede
 permitir crear reacciones en evento en emoncms para
 notificar a Jeedom)
 
-git clone <HTTPS://github.com/emoncms/openbem.git> (Este es un complemento para
+git clone <https://github.com/emoncms/openbem.git> (Este es un complemento para
 controlar el consumo de energía de la casa)
 
-git clone <HTTPS://github.com/emoncms/energy.git>
+git clone <https://github.com/emoncms/energy.git>
 
-git clone <HTTPS://github.com/emoncms/report.git>
+git clone <https://github.com/emoncms/report.git>
 
-git clone <HTTPS://github.com/elyobelyob/mqtt.git>
+git clone <https://github.com/elyobelyob/mqtt.git>
 
 Configuración de Nginx 
 ===================

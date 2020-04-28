@@ -6,7 +6,7 @@ We will see in this documentation how to do the documentation of your plugin.
 
 ## Principle
 
-The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com / en_FR / dev / structure_info_json)) in the documentation field.
+The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (voir le détail [ici](https://doc.jeedom.com / en_FR / dev / structure_info_json)) in the documentation field.
 
 NOTE that you also have a Changelog field which should work in the same way as the documentation field.
 
@@ -26,11 +26,11 @@ The easiest way for your documentation is to use the github page system which ha
 
 Github asciidoc and markedown (md) support for pages, we will only see markedown here.
 
-We are not going to describe the complete markdown syntax, other sites already do it very well including [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+On ne va pas vous decrire la syntaxe complete du markdown, d'autre site le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Location
 
-We recommend in your plugin (hosted on github) to make a folder and copy the files and directory from the docs folder into the template plugin (see [here](https:// github.com / jeedom / plugin-template / tree / master / docs))
+Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossier et d'y copier les fichiers et repertoire du dossier docs dans le plugin template (voir [ici](https://github.com / jeedom / plugin-template / tree / master / docs))
 
 Once done you will have in the docs folder a folder fr_FR (the only one to modify). In this folder we advise you to make 2 files : 
 
@@ -43,12 +43,12 @@ Getting online is quite simple, in your github repository then "Settings" and in
 
 ![doc-github](images/tutoDoc.png)
 
-Github will then provide you with a link like "https://jeedom.github.io / plugin-template / "(after a few minutes going over it you should see your documentation layout correctly).
+Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugin-template / "(after a few minutes going over it you should see your documentation layout correctly).
 
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
-- add # language # / for the link to the documentation, so this gives our example "https://jeedom.github.io/plugin-template/#language#/"
-- add # language # / Changelog for the link to your change, so this gives our example "https://jeedom.github.io/plugin-template/#language#/Changelog"
+- ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
+- ajouter #language#/Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/Changelog"
 
 > **NOTE**
 >
@@ -65,4 +65,4 @@ If your plugin is structured as advice above then the translation management is 
 
 > **NOTE**
 >
-> NOTE that once your info file.json informed and push in a stable version the Jeedom documentation site (https://doc.jeedom.com) will automatically add your plugin.
+> NOTE that once your info file.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) will automatically add your plugin.

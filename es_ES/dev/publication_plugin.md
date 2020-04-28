@@ -2,7 +2,7 @@
 
 ## Requisitos previos
 
-- Regístrese como desarrollador, consulte [aquí](https://www.jeedom.com/site/fr/dev.html)
+- S'etre inscrit en tant que dev, voir [ici](https://www.jeedom.com/site/fr/dev.html)
 - A la espera de la validación de la cuenta de mercado como desarrollador
 - Tenga su complemento en github (depósito privado o no)
 
