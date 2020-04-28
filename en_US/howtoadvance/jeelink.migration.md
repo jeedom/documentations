@@ -217,7 +217,7 @@ Source**.
 -   Rename your modules and place them in the desired objects within you
     helping with your migration memo.
 
-### Rfxcom plugin : 
+### RFXcom plugin : 
 
 #### Probes, sensors, dandectors,… : 
 

@@ -1,232 +1,232 @@
-
-
+Here is a tutorial on how to install openjabnab locally (on an rpi or
+humming)
 
 > **NOTE**
 >
-> 
-> [celui-ci](http:
+> This tutorial is largely inspired by
+> [celui-ci](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation of dependencies 
 ============================
 
- :
+Once the system installed in SSH done :
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    apt-get update
+    apt-get dist-upgrade
+    apt-get install ssh
+    apt-get install apache2 php5 php5-mysql libapache2-mod-php5
+    a2enmod rewrite
+    apt-get install make
+    apt-get install build-essential
+    apt-get install libqt4-dev --fix-missing
+    apt-get install qt4-dev-tools
+    apt-get install bind9
+    apt-get install git
 
- 
+Network configuration 
 =======================
 
- :
+Then you have to recover the IP address of the system :
 
-    
+    ifconfig
 
- :
+The result is :
 
-    ::63::00:54:98
-              :.:.:
-              : ::::::
-              ::1
-              :::::0
-              :::::0
-              ::1000
-              :.:.
+    eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
+              inet addr:192.168.0.162 Bcast:192.168.0.255 Mask:255.255.255.0
+              inet6 addr: fe80::d263:b4ff:fe00:5498/64 Scope:Link
+              UP BROADVSAST RUNNING MULTIVSAST MTU:1500 Metric:1
+              RX packets:10721 errors:0 dropped:0 overruns:0 frame:0
+              TX packets:6477 errors:0 dropped:0 overruns:0 carrier:0
+              collisions:0 txqueuelen:1000
+              RX bytes:2032942 (1.9 MiB) TX bytes:1230703 (1.1 MiB)
 
-.
+Here the IP address is 192.168.0.162.
 
 > **NOTE**
 >
-> 
-> 
+> For the rest of the tutorial I will use this IP, it is of course
+> replace depending on which one you actually
 
+Then edit the file /etc/resolv.conf
 
+    vim /etc/resolv.conf
 
-    
+And add :
 
- :
+    nameserver 192.168.0.162
 
-    
-
- 
+DNS configuration 
 ====================
 
+Edit the file /etc/bind/named.conf.local
 
+    cd / etc / bind /
+    vim named.conf.local
 
-    
-    
+And add :
 
- :
-
-    "{
-     
-     
+    "raspberry.pi" area"{
+     master type;
+     file "/etc/bind/db.raspberry.pi";
     };
-    "{
-     
-     
+    zone "0.168.192.in-addr.arpa"{
+     master type;
+     file "/etc/bind/db.192.168.0.inv";
     };
 
+VSreate the db.raspberry.pi file
 
+vim db.raspberry.pi ---
 
-. ---
-
- :
+And put in it :
 
     $TTL 604800
-    @ IN SOA .. root.raspberry.. (
-     
-     
-     
-     
-     
+    @ IN SOA ojn.raspberry.pi. root.raspberry.pi. (
+     1; Serial
+     604800; Refresh
+     86400; Retry
+     2419200; Expired
+     604800); Negative VSache TTL
     ;
-    @ IN NS ..
-    
-    
+    @ IN NS ojn.raspberry.pi.
+    ojn IN A 192.168.0.162
+    192.168.0.162 IN A 192.168.0.162
 
+Then create this db.192.168.0.inv file
 
+    vim db.192.168.0.inv
 
-    
-
- :
+And put :
 
     $TTL 604800
-    @ IN SOA .. root.localhost. (
-     
-     
-     
-     
-     
+    @ IN SOA ojn.raspberry.pi. root.localhost. (
+     2; Serial
+     604800; Refresh
+     86400; Retry
+     2419200; Expired
+     604800); Negative VSache TTL
     ;
-    @ IN NS ..
-    .
+    @ IN NS ojn.raspberry.pi.
+    162 IN PTR ojn.raspberry.pi.
 
 > **IMPORTANT**
 >
-> 
-> 
+> Remember to replace the 162 on the last line with the last
+> part of your system ip
 
- :
+Launch DNS :
 
-    
+    /etc/init.d/bind9 start
 
- :
+Test if it's good :
 
-    
+    ping ojn.raspberry.pi
 
- :
+You should have :
 
-    :
-    ...
-    ..: .
-    ..: .
-    ..: .
-    ..: .
-    
-    --- . ---
-    
-    .
+    root @ cubox-i:/ home / ojn # ping ojn.raspberry.pi
+    PING ojn.raspberry.ft (192.168.0.162) 56 (84) bytes of data.
+    64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 1 ttl = 64 time = 0.069 ms
+    64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 time = 0.067 ms
+    64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 time = 0.059 ms
+    64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 time = 0.068 ms
+    ^ VS
+    --- ojn.raspberry.pi ping statistics ---
+    4 packets transmitted, 4 received, 0% packet loss, time 3000ms
+    rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
 > **NOTE**
 >
-> 
+> You have to do ctrl + c to quit the ping
 
- :
+For security we will also add the resolution in / etc / hosts, do :
 
-    
+    vim / etc / hosts
 
- :
+And add :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
- 
+Openjabnab recovery 
 =========================
 
- :
+We will first create the user :
 
-    
-    
+    adduser ojn
+    cd / home / ojn
 
- :
+Then clone openjabnab :
 
-    git clone https:
-    :
-    
+    git clone https://github.com/OpenJabNab/OpenJabNab.git
+    chown -R ojn:ojn / home / ojn / OpenJabNab /
+    chmod 0777 / home / ojn / OpenJabNab / http-wrapper / ojn_admin / include
 
- 
+Web server configuration 
 ============================
 
 Do :
 
-    
-    
+    cd / etc / apache2 / sites-available /
+    vim ojn.conf
 
- :
+And add :
 
     <VirtualHost *:80>
-            
-            
+            DocumentRoot / home / ojn / OpenJabNab / http-wrapper /
+            ServerName ojn.raspberry.pi
              <Directory />
-                     
-                    
+                     FollowSymLinks options
+                    AllowOverride None
              </Directory>
              <Directory /home/ojn/OpenJabNab/http-wrapper/>
-                     
-                     
-                    
-                     
+                     FollowSymLinks MultiViews Index Options
+                     AllowOverride all
+                    Order allow, deny
+                     allow from all
              </Directory>
     </VirtualHost>
 
- :
+Then activate the site :
 
-    
+    a2ensite ojn
 
- :
+You must then authorize the openjabnab server directory, do :
 
-    
+    vim /etc/apache2/apache2.conf
 
- :
+And add :
 
     <Directory /home/ojn/>
-            
-            
-            
+            FollowSymLinks Index Options
+            AllowOverride None
+            Require all granted
     </Directory>
 
- :
+Then we restart apache :
 
-    
+    apache2 reload service
 
- 
+Installation of openjabnab 
 =========================
 
 Do :
 
-    
-    
-    
-    
+    su ojn
+    cd / home / ojn / OpenJabNab / server
+    qmake -r
+    make
 
 > **NOTE**
 >
-> 
+> This step can be very long (up to 45min)
 
- 
+Openjabnab configuration 
 ==========================
 
 Do :
 
-    .
+    cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
 
 And change the following lines :
@@ -236,7 +236,7 @@ And change the following lines :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-And replace all * my.domain.com * by * .*
+And replace all * my.domain.com * by * ojn.raspberry.pi*
 
 Openjabnab web server configuration 
 =======================================
@@ -244,11 +244,11 @@ Openjabnab web server configuration
 On your post you must edit the file
 VS:\\ Windows \\ System32 \\ drivers \\ etc and add :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
 Then go on :
 
-    http://./ojn_admin/install.php
+    http://ojn.raspberry.pi/ojn_admin/install.php
 
 Validate everything
 
@@ -257,13 +257,13 @@ Server launch
 
 Now everything is ready, all that remains is to launch the server :
 
-    
+    su ojn
     cd ~ / OpenJabNab / server / bin
     ./ openjabnab
 
 Now go to :
 
-    http://./ojn_admin/index.php
+    http://ojn.raspberry.pi/ojn_admin/index.php
 
 > **NOTE**
 >
@@ -278,15 +278,15 @@ then reconnect it, stay press its button. He must
 normally light blue.
 
 Then with your PVS you should have a new wifi network
-nabaztagXX, connect to it by tyng .1.
+nabaztagXX, connect to it by typing 192.168.0.1.
 
 Once on enter your wifi configuration and information
 following :
 
     DHVSP enabled : no
-    Local Mask : 
-    Local gateway : .1 or .254 (depending on your network)
-    DNS server : .162
+    Local Mask : 255.255.255.0
+    Local gateway : 192.168.0.1 or 192.168.0.254 (depending on your network)
+    DNS server : 192.168.0.162
 
 Openjabnab server monitoring and auto start 
 ====================================================
@@ -295,13 +295,13 @@ As you will notice if you log off the server
 openjabnab stops. So you have to add a little script to
 monitor the server and start it automatically. Do :
 
-    
+    cd / home / ojn
     vim checkojn.sh
 
 And add in :
 
-     |  |  | 
-        ; cd / home / ojn / OpenJabNab / server / bin; nohup ./ openjabnab >> / dev / null 2> & 1 &
+    if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0]; then
+        su ojn; cd / home / ojn / OpenJabNab / server / bin; nohup ./ openjabnab >> / dev / null 2> & 1 &
     fi
 
 Then do :
@@ -313,7 +313,7 @@ every 15 min for example :
 
     crontab -e
 
- :
+And add :
 
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
@@ -328,7 +328,7 @@ VSonfiguration of your rabbit in openjabnab
 
 Go to :
 
-    http://./ojn_admin/index.php
+    http://ojn.raspberry.pi/ojn_admin/index.php
 
 You must have :
 
@@ -345,7 +345,7 @@ Fill in the requested information and log in :
 
 Once connected go to server :
 
-![installation.openjabna](images/installation.openjabna.PNG)
+![installation.openjabnab4](images/installation.openjabnab4.PNG)
 
 Then go down to find the list of connected rabbits and recover
 his mac address :
@@ -363,7 +363,7 @@ to open its configuration :
 ![installation.openjabnab7](images/installation.openjabnab7.PNG)
 
 Now you need to activate the purple API and pass it in public,
-it is also here that you will find the purple a key which will serve you
+it is also here that you will find the purple api key which will serve you
 for Jeedom :
 
 ![installation.openjabnab8](images/installation.openjabnab8.PNG)
@@ -380,11 +380,11 @@ The configuration in Jeedom is quite simple, you must first of all
 connect in SSH to Jeedom (if you have a Jeedom box the identifiers
 are in the installation doc). Then edit the / etc / hosts file
 
-    
+    vim / etc / hosts
 
 And add the following line :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
 Then everything happens in Jeedom, after creating your rabbit here
 the configuration to put:
@@ -412,14 +412,14 @@ You need to create a jeedom folder in servver / tts :
 
     mkdir / home / ojn / OpenJabNab / server / tts / jeedom
 
-Then you have to  3 files :
+Then you have to make 3 files :
 
 -   jeedom.pro
 
 <!-- -->
 
     ######################################################################
-    # Automatically generated by q (2.01a) Sat Jan. 19 19:10:01 2008
+    # Automatically generated by qmake (2.01a) Sat Jan. 19 19:10:01 2008
     ######################################################################
 
     TEMPLATE = lib
@@ -527,13 +527,13 @@ Then you have to  3 files :
       QObject::connect (& http, SIGNAL (done (bool)), & loop, SLOT (quit ()));
 
       QByteArray VSontentData;
-      VSontentData + = "akey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (text);
+      VSontentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (text);
 
       QHttpRequestHeader Header;
       Header.addValue ("Host", "TODO_IP_JEEDOM");
 
       Header.setVSontentLength (VSontentData.length ());
-      Header.setRequest ("GET", "/core/a/tts.php?akey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (text), 1, 1);
+      Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (text), 1, 1);
 
       http.request (Header, VSontentData);
       loop.exec ();
@@ -559,12 +559,12 @@ Then activate the tts jeedom by modifying the file
     TEMPLATE = subdirs
     SUBDIRS = acapela google jeedom
 
-Recomle 
+Recompile 
 -------------
 
-    
-    
-    
+    cd / home / ojn / OpenJabNab / server
+    qmake -r
+    make
 
 Modification of the tts service 
 ------------------------------

@@ -50,7 +50,7 @@ In plugin type, we select **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-In the submenu **AutoVoice**, we select **Recognized**.
+In the submenu **AutoVoice**, We select **Recognized**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
