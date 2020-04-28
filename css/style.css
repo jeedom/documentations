@@ -8,8 +8,11 @@
 #slide-out .user-view {
   padding-top: 0;
 }
-
-#slide-out .select-wrapper .select-dropdown {
+#slide-out .select-wrapper > ul{
+  z-index: 1200 !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+#slide-out .select-wrapper > input{
   border-bottom: 1px solid rgb(149, 193, 43);
 }
 .dropdown-content li:not(.disabled) > span {
