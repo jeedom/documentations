@@ -4,7 +4,7 @@
 #slide-out {
   top: 60px;
 }
-nav ul a,nav {
+body nav ul a, body nav {
   color: #444 !important;
   background-color: #fff !important;
 }
