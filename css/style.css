@@ -84,6 +84,7 @@ h1,h2,h3,h4,h5 {
   margin-left : 20px !important;
 }
 #div_content {
+  text-align: justify;
   padding-left : 200px !important;
 }
 @media only screen and (max-width : 992px) {
