@@ -159,13 +159,12 @@ var docMenu = [
 ]
 
 setTheme();
-setJeedomVersion();
 
 $('#ul_menu').empty();
 var html = '';
-var lang = getCookie('lang');
-if(!lang){
-  lang = 'fr_FR'
+var lang = 'fr_FR' ;
+if(getCookie('lang') != ''){
+  lang = getCookie('lang');
 }
 $('#meta-lang').attr('content',lang)
 var jeedomVersion = '3.3'
