@@ -81,17 +81,17 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung : 
 
 -   Verbrauch : 0,5 W.
 
 -   Maximale Leistung :
 
--   Widerstandslast : 300W
+-   Widerstandslast : 
 
--   Glühbirne : 300W
+-   Glühbirne : 
 
--   Kompaktleuchtstofflampe : 200W
+-   Kompaktleuchtstofflampe : 
 
 -   Frequenz : 868,42 MHz
 

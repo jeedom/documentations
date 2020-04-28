@@ -82,9 +82,9 @@ Características técnicas
 
 -   Alcance : hasta 100 m en campo libre
 
--   Indice de PROTECCION : IP30
+-   Indice de PROTECCION : 
 
--   Dimensiones : 86 x 85 x 30 mm
+-   Dimensiones : 
 
 \
 

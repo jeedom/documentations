@@ -33,7 +33,7 @@ colocar en su hogar para preservar la seguridad del conjunto
 familia.
 
 El detector de humo Fibaro FGSD-002 es un detector de alarma
-Humo autónomo (DAAF) compatible con la norma EN 14604:2005. bueno
+Humo autónomo (DAAF) compatible con la norma :2005. bueno
 así de autónomo, también se está comunicando gracias a la tecnología Z-Wave
 Más.
 
@@ -71,7 +71,7 @@ Funciones
 
 -   Probador de cobertura de red Z-Wave integrado
 
--   Cumple con la norma EN 14604:2005
+-   Cumple con la norma :2005
 
 -   Compatible con Z-Wave Más
 
@@ -99,7 +99,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0-55 ° C
 
--   Humedad de funcionamiento : 0% - 93%
+-   Humedad de funcionamiento : 
 
 -   Rango de medición de temperatura : -20 a 100 ° C
 
@@ -112,7 +112,7 @@ Características técnicas
 
 -   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
--   Certificaciones : EN 14604:2005
+-   Certificaciones : :2005
 
 \
 

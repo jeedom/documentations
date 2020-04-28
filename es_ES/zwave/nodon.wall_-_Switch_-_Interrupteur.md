@@ -66,10 +66,10 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
--   Altitud : 2000m
+-   Altitud : 
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
-    Plus® SDK 06.51.06
+    
 
 -   Alcance : 40m en interiores / 70m en exteriores
 
@@ -77,15 +77,15 @@ Características técnicas
 
 -   2 años de garantia
 
--   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
+-   :2006 + A11::::2013
 
 -   EN 300220-2 V2.4.1
 
--   EN301 489-1 V1.9.2
+-   
 
--   EN301 489-3 V1.6.1
+-   
 
--   EN 62479:2010
+-   :2010
 
 \
 
@@ -204,13 +204,13 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir el perfil de los botones cuando se usa en
+-    : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+-    : Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED

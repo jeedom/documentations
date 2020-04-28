@@ -67,13 +67,13 @@ Technische Daten
 -   Typ: Elektronischer Timer
 
 -   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis
-    3kW
+    
 
 -   Versorgung: 230 V AC, 50 Hz
 
 -   Abmessungen 85x85x44mm
 
--   Schutzindex : IP30
+-   Schutzindex : 
 
 -   Betriebstemperatur: 0 ° C bis 35 ° C.
 
@@ -84,9 +84,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Horstmann
+-   Machen Sie : 
 
--   Name : SIR 321 RF Countdown Timer
+-   Name : 
 
 -   Hersteller ID : 89
 

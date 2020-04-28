@@ -26,7 +26,7 @@ Zusammenfassung
 
 Die Sonde SES303 ermöglicht die Messung der Umgebungstemperatur in Innenräumen
 sowie Luftfeuchtigkeit. Es wird mit 2 AA-Batterien betrieben und ist zertifiziert
-Z-Wave Plus. Zusätzlich zu seiner Hauptfunktion ist es möglich
+. Zusätzlich zu seiner Hauptfunktion ist es möglich
 Verdrahten Sie verschiedene externe SICHERE Sonden mit dem Modul, d.h.:
 
 -   Ein externer NTC-Temperatursensor (SES001)
@@ -74,7 +74,7 @@ Technische Daten
 
 -   Temperaturmessbereich: ± 0.5 ° C für 0 ° C bis 40 ° C.
 
--   Z-Wave Plus Chip
+-    Chip
 
 -   Frequenz : 868,42 MHz
 
@@ -82,9 +82,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 100 m im freien Feld
 
--   Schutzindex : IP30
+-   Schutzindex : 
 
--   Abmessungen : 86 x 85 x 30 mm
+-   Abmessungen : 
 
 \.
 
@@ -93,7 +93,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Horstmann
+-   Machen Sie : 
 
 -   Name : SES 303 Temperatur- und Feuchtigkeitssensor
 

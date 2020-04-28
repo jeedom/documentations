@@ -28,7 +28,7 @@ Mit der Octan Remote NodOn® können Sie jeden Empfänger steuern
 Z-Wave®- oder Z-Wave Plus®-kompatibel wie die Fernbedienungsbuchse
 NodOn® (Hauptcontrollermodus - Standalone) oder sogar Trigger
 Szenen / Aktionen über ein kompatibles Hausautomationssystem (Modus
-Gateway)
+
 
 Dank seines integrierten Magneten kann er überall befestigt werden, vom Kühler bis zur Tür
 Kühlschrank, durch seine Wandhalterung. Zwischen Fernbedienung
@@ -68,10 +68,10 @@ Technische Daten
 
 -   Integrierter Magnet zur Befestigung an der Metalloberfläche
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    Plus® SDK 06.51.01 Geltungsbereich: 40 m innen / 80 m außen
+    .01 Geltungsbereich: 40 m innen / 80 m außen
 
 -   Abmessungen : 80 \* 80 \* 15mm
 
@@ -86,7 +86,7 @@ Moduldaten
 
 -   Machen Sie : Nicken
 
--   Name : CRC-3-1-00 Octan Remote
+-   Name : 
 
 -   Hersteller ID : 357
 
@@ -194,13 +194,13 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
+-    : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-    : Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen

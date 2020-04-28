@@ -1,4 +1,4 @@
-SmartHome von Everspring In Wall Ein Aus - AN179-0 
+SmartHome von Everspring  - AN179-0 
 ================================================
 
 \.
@@ -76,12 +76,12 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung : 
 
 -   Verbrauch : 0,5 W.
 
 -   Maximale Leistung : Widerstandslast : 2500W Glühlampe
-    : 1200W Kompaktleuchtstofflampe : 320W
+    : 1200W Kompaktleuchtstofflampe : 
 
 -   Frequenz : 868,42 MHz
 
@@ -100,7 +100,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : In Wall Ein Aus
+-   Name : 
 
 -   Hersteller ID : 96
 

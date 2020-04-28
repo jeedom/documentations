@@ -114,7 +114,7 @@ Erste Verbindung
 ------------------
 
 Welche Methode auch immer verwendet wird, Sie gelangen dann auf die Seite von
-Login. Standardmäßig lauten Login und Passwort "admin"".
+Login. Standardmäßig lauten Login und Passwort """.
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
@@ -144,7 +144,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 -   Vergiss nicht zu sparen !
 
 Für weitere Details auf der Konfigurationsseite klicken Sie auf
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/istration.asciidoc)
 .
 
 Holen Sie sich meine direkte Zugriffs-URL 
@@ -179,7 +179,7 @@ Klicken Sie in Ihrem Jeedom-Konto auf Administration → Benutzer
 (oben rechts):
 
 Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen
-**admin** und klicken Sie auf **Passwort ändern** :
+**** und klicken Sie auf **Passwort ändern**:
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -288,7 +288,7 @@ Dies besteht aus mehreren Kategorien:
 
 -   Installation : Alles über die Installation von Jeedom,
 
--   Howto : Tutorials zum Fortschritt in verschiedenen Bereichen,
+-    : Tutorials zum Fortschritt in verschiedenen Bereichen,
 
 -   Plugins : Die Dokumentation der verschiedenen offiziellen Plugins aus
     Jeedom,

@@ -1,4 +1,4 @@
-Aeotec Keyfob Gen5 
+ 
 ==================
 
 \
@@ -38,7 +38,7 @@ gestión de prensas cortas y largas. Este control remoto también puede ser
 bien utilizado como controlador primario o secundario.
 
 Y porque el llavero Keyfob Gen5 es parte del
-Gama Gen5 de Aeotec, supera todo lo que existía antes.
+Gama Gen5 de , supera todo lo que existía antes.
 Utiliza el último chip de la serie Z-Wave 500, proporcionando un aumento
 50% de alcance de radio y 250% de velocidad de comunicación más rápida
 rápido en comparación con los productos Z-Wave anteriores.
@@ -88,7 +88,7 @@ Características técnicas
 
 -   Duración de la batería : 1 año
 
--   Frecuencia: 868.42 MHz
+-   Frecuencia: 868.
 
 -   Distancia de transmisión : 100m en campo abierto
 
@@ -103,7 +103,7 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer : 
 
 -   Nombre : Llavero ZW088 Gen5
 
@@ -228,7 +228,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación, el primero es el único.
-indispensable.
+.
 
 \
 

@@ -1,4 +1,4 @@
-Secure SIR 321 "Timer" 
+" 
 ======================
 
 \
@@ -28,7 +28,7 @@ The SIR321 digital timer is a simple switch to
 push button that remembers turning off your devices for you
 electric. Big energy savings are possible by adding
 this simple device on any high power electrical device,
-with loads up to 3kW (resistive).
+with loads up to  (resistive).
 
 These units are perfect for use on panels
 heaters, immersion heaters, towel warmers and oil coolers. The
@@ -67,13 +67,13 @@ Technical characteristics
 -   Type: Electronic timer
 
 -   Relay: 13 (3) A, 230V AC, suitable for loads up to
-    3kW
+    
 
--   Food: 230V AC, 50Hz
+-   Food: 
 
--   Dimensions 85x85x44mm
+-   
 
--   Protection sign : IP30
+-   Protection sign : 
 
 -   Operating temperature: 0 ° C to 35 ° C
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark : 
 
--   Name : SIR 321 RF Countdown Timer
+-   Name : 
 
 -   Manufacturer ID : 89
 

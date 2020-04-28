@@ -68,7 +68,7 @@ Características técnicas
 
 -   Color : Blanco, Blanca
 
--   Suministro : 230 V, 50 Hz
+-   Suministro : 
 
 -   Cableado : 3 hilos, neutro requerido
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Alcance : hasta 30 m
 
--   Dimensiones : 86 x 86 x 43 mm
+-   Dimensiones : 
 
 -   Visualización: LED azul / rojo
 
@@ -89,7 +89,7 @@ Datos del módulo
 
 \
 
--   Hacer : MC HOME
+-   Hacer : 
 
 -   Nombre : MH-S412 doble
 
@@ -173,7 +173,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene 3 grupos de asociación.. Solo el tercero es
-indispensable.
+.
 
 \
 

@@ -99,11 +99,11 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 50 m auf freiem Feld
 
--   Schutzindex : IP30
+-   Schutzindex : 
 
 -   Betriebstemperatur : 0 ° C bis 40 ° C.
 
--   Abmessungen : 86 x 86 x 36,25 mm
+-   Abmessungen : 
 
 \.
 
@@ -112,7 +112,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Horstmann
+-   Machen Sie : 
 
 -   Name : SRT 323 Elektronischer Raumthermostat und Temperatur
 

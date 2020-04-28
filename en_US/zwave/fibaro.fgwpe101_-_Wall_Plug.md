@@ -1,4 +1,4 @@
-Fibaro FGRWPE-101 "Wall plug" 
+" 
 =============================
 
 \
@@ -27,7 +27,7 @@ Summary
 The Fibaro Wall Plug is a universal receiver-socket-transmitter under
 form of an adapter to plug into a wall outlet to the network
 electric, compatible with Z-Wave standard. It allows you to manage
-any device with a maximum power of 2.5kW, while
+any device with a maximum power of , while
 integrating the functionality of measuring the active power of the current and
 energy consumption of devices. This module is equipped with a
 light ring with LEDs indicating its status and consumption
@@ -60,17 +60,17 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50Hz
+-   Food : 
 
 -   Power consumption : up to 0.8W
 
--   Max load : 2.5kW
+-   Max load : 
 
 -   Frequency : 868.42 Mhz EU
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 17 x 42 x 37 mm
+-   : 
 
 -   Operating temperature : 0-40 ° C
 
@@ -85,9 +85,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark : 
 
--   Name : Wall Plug FGWPE-101
+-   Name : 
 
 -   Manufacturer ID : 271
 
@@ -212,7 +212,7 @@ Parameter details :
     increase (in%)
 
 -   42: same as in standard mode (up to 5 times per step defined in
-    param 43)
+    
 
 -   43: power rise interval
 
@@ -272,7 +272,7 @@ Good to know
 
 You can reset your consumption meter by clicking
 on this button available in the System tab. It's necessary to choose
-PressButton.
+.
 
 \
 
@@ -284,7 +284,7 @@ PressButton.
 
 \
 
-Wakeup 
+ 
 ------
 
 \

@@ -1,4 +1,4 @@
-Aeotec Garage door controller 
+ Garage door controller 
 ====================================
 
 \
@@ -51,7 +51,7 @@ Functions
 
 -   Audible and visual opening / closing alerts.
 
--   Adjustable alarm volume (105 dB max)
+-   Adjustable alarm volume ( max)
 
 -   USB port for charging your own MP3 sounds.
 
@@ -64,7 +64,7 @@ Functions
 -   Integrates the Z-Wave 500 series chip.
 
 -   250% faster communication compared to peripherals
-    Z-Wave standard.
+    .
 
 -   Z-Wave message repeater.
 
@@ -80,13 +80,13 @@ Technical characteristics
 -   Type of module : Z-Wave + 500 series receiver and transmitter
 
 -   Food : Actuator : 5 VDC (adapter supplied) Sensor : Battery
-    Lithium 3V 800mA CR2
+    
 
--   Standby consumption : 1W
+-   Standby consumption : 
 
--   Alarm consumption : 2W
+-   Alarm consumption : 
 
--   Maximum volume : 105 dB
+-   Maximum volume : 
 
 -   Supported audio formats : mp3 and WMV at the frequency of 320Kbps
 
@@ -96,9 +96,9 @@ Technical characteristics
 
 -   Operating temperature : -20 ° C to 50 ° C
 
--   Operating humidity : 80%
+-   Operating humidity : 
 
--   Certifications: FCC, UL, CE, ROHS
+-   : 
 
 \
 
@@ -107,9 +107,9 @@ Module data
 
 \
 
--   Mark : Aeotec
+-   Mark : 
 
--   Name : Garage Door Controller (ZW062)
+-   Name : 
 
 -   Manufacturer ID : 134
 
@@ -211,7 +211,7 @@ Parameter details :
     the door.
 
 -   41: Allows you to reset the sabotage status by selecting "Relieve
-    the alarm state"
+    "
 
 -   80: on Hail
 
@@ -263,7 +263,7 @@ Sabotage reset:
 
 -   1 : The sensor must be properly attached.
 
--   2 : Activate parameter 41 on "Relieve the alarm state".
+-   2 : Activate parameter 41 on "Relieve ".
 
 -   3 : Update settings.
 

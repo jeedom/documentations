@@ -1,4 +1,4 @@
-MCO MH-S412 Double 
+ 
 ==================
 
 \
@@ -68,7 +68,7 @@ Technical characteristics
 
 -   Color : White
 
--   Food : 230 V, 50 Hz
+-   Food : 
 
 -   Wiring : 3 wire, neutral required
 
@@ -78,7 +78,7 @@ Technical characteristics
 
 -   Scope : up to 30 m
 
--   Dimensions : 86 x 86 x 43 mm
+-    : 
 
 -   Viewing: Blue / red LED
 
@@ -89,9 +89,9 @@ Module data
 
 \
 
--   Mark : MC HOME
+-   Mark : 
 
--   Name : MH-S412 Double
+-   Name : 
 
 -   Manufacturer ID : 351
 
@@ -162,7 +162,7 @@ Parameter details :
 
 \
 
--   1: Saving state before power failure : enable (allows to find
+-   1:  : enable (allows to find
     the last state of the switches just before the power cut)
     diseable (the switches will be in the OFF state on mains return)
 
@@ -199,7 +199,7 @@ is unmanned
 4 \) this switch can control its load in autonomous mode (not
 attached to a z-wave controller)
 
-Wakeup 
+ 
 ------
 
 \

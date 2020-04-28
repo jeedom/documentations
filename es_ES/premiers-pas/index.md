@@ -179,7 +179,7 @@ su cuenta Jeedom, para eso haga clic en Administración → Usuarios
 (arriba a la derecha):
 
 Una vez en él, solo tiene que elegir la línea con el usuario
-**Administración** y haga clic en **Cambiar contraseña** :
+**Administración** y haga clic en **Cambiar contraseña**:
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -245,7 +245,7 @@ para instalar.
 >
 > Tenga en cuenta que algunos son ofaquíales y otros no. En caso de preocupación
 > con un complemento no ofaquíal, el equipo de Jeedom no puede ser retenido
-> responsable.
+> .
 
 ![premier plugin3](images/premier-plugin3.png)
 
@@ -288,7 +288,7 @@ Este consta de varias categorías:
 
 -   Instalación : Todo sobre la instalación de Jeedom,
 
--   Howto : Tutoriales para progresar en varios campos.,
+-    : Tutoriales para progresar en varios campos.,
 
 -   Plugins : La documentación de los diferentes complementos ofaquíales de
     Jeedom,

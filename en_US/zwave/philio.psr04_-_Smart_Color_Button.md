@@ -1,4 +1,4 @@
-Philio Smart Color Button 
+ 
 =========================
 
 \
@@ -29,7 +29,7 @@ can use it to turn on, off or dim the lighting, adjust
 the position of your shutters, adjust the temperature of the thermostat or
 use it as a timer.
 
-Once included in your Z-Wave network, the Philio PSR04 switch
+Once included in your Z-Wave network, the  PSR04 switch
 must be associated with the device (s) you wish to control.
 It can only operate by direct association with
 devices, and cannot launch scenes created in your controller
@@ -90,22 +90,22 @@ Technical characteristics
 -   Food : Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
 
--   Standby consumption : 18µA
+-   Standby consumption : 
 
--   Consumption in operation : 45mA
+-   Consumption in operation : 
 
--   Frequency : 868.42 MHz
+-   Frequency : 868.
 
 -   Transmission distance : 100m outdoors, 40m indoors
 
--   Dimensions :
+-    :
 
 Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
 mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
 x thickness) \* Certifications :
 
-EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
-FCC Part 15 B, FCC Part 15 C
+
+
 
 \
 
@@ -114,9 +114,9 @@ Module data
 
 \
 
--   Mark : Philio
+-   Mark : 
 
--   Name : PSR04 Smart Color Button
+-   Name : 
 
 -   Manufacturer ID : 316
 
@@ -175,7 +175,7 @@ Here is the list of commands :
 \
 
 -   State : it is the command which will move the button position from 0 to
-    100%
+    
 
 -   Drums : this is the command that reports the battery status of the
     Module
@@ -261,7 +261,7 @@ adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
 
-Wakeup 
+ 
 ------
 
 \

@@ -1,4 +1,4 @@
-Philio PST02 A - 4 en 1 
+ 
 =======================
 
 \
@@ -96,7 +96,7 @@ Características técnicas
 
 -   Duración de la batería : 2 años
 
--   Frecuencia : 868.42 MHz
+-   Frecuencia : 868.
 
 -   Distancia de transmisión : 30m en interiores
 
@@ -110,19 +110,19 @@ Características técnicas
 
 -   Dimensiones :
 
--   Detector : 28 x 96 x 23 mm
+-   Detector : 
 
--   Imán : 10 x 50 x 12 mm
+-   Imán : 
 
--   Peso : 52g
+-   Peso : 
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
 -   Humedad de funcionamiento : 85% HR máx.
 
--   Norma CE : EN300 220-1
+-   Norma CE : 
 
--   Certificación Z-Wave : ZC08-13050003
+-   Certificación Z-Wave : 
 
 \
 
@@ -131,7 +131,7 @@ Datos del módulo
 
 \
 
--   Hacer : Philio Technology Corporation
+-   Hacer : 
 
 -   Nombre : PST02-A Multisensor 4 en 1
 
@@ -299,7 +299,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación, solo el primero es
-indispensable.
+.
 
 \
 

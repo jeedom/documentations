@@ -1,4 +1,4 @@
-PolyLock 
+ 
 ========
 
 \
@@ -25,7 +25,7 @@ Summary
  
 
 Secure your home using the Z-Wave electronic lock from
-Poly-Control !
+ !
 
 The Poly-Lock electronic lock is designed to adapt to almost
 all the doors in the world. It mounts very easily in 5
@@ -40,11 +40,11 @@ with the Poly-Pad wireless keyboard to open or lock the door.
 It is therefore possible to lock your house in a similar way
 to lock your car - with a remote control, by pressing
 just a button and your home is secure. The lock
-Poly-Control can also work with other Z-Wave scenes, where
+ can also work with other Z-Wave scenes, where
 the lights come on, and the alarm system is deactivated when
 unlocked via your remote control.
 
-The Poly-Control system can be used in an environment
+The  system can be used in an environment
 domestic or work. The Poly-Lock is powered by
 battery, and has been tested to operate for 1 year, without
 battery replacement.
@@ -83,9 +83,9 @@ Technical characteristics
 -   Scope : up to 100 m outdoors, up to 30 m in
     buildings
 
--   Dimensions : 120 x 52 x 60 mm (L x W x H)
+-    : 120 x 52 x 60 mm (L x W x H)
 
--   Weight : 370g
+-   Weight : 
 
 \
 
@@ -94,9 +94,9 @@ Module data
 
 \
 
--   Mark : Poly-Control
+-   Mark : 
 
--   Name : Polylock
+-   Name : 
 
 -   Manufacturer ID : 270
 
@@ -278,7 +278,7 @@ Good to know
 
 \
 
-Wake up 
+ 
 -------
 
 \

@@ -1,4 +1,4 @@
-Fibaro Dimmer - FGD-211 
+ 
 =======================
 
 \
@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50 Hz
+-   Food : 
 
 -   Wiring : neutral not required
 
@@ -95,13 +95,13 @@ Technical characteristics
 
 -   Compatible lamp type (not dimmable) : Compact fluorescent, LED
 
--   Fuse : 2.5A
+-   Fuse : 
 
 -   Frequency : 868.42 Mhz
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 15 x 42 x 36 mm
+-   : 
 
 -   Operating temperature : 0-40 ° C
 
@@ -116,7 +116,7 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark : 
 
 -   Name : Fibaro FGMS-001 \ [Motion Sensor \]
 
@@ -323,7 +323,7 @@ switch you can press your switch multiple times
 
 \
 
-Wakeup 
+ 
 ------
 
 \

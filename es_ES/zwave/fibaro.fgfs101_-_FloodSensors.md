@@ -1,4 +1,4 @@
-Fibaro FGFS-101 "Sensor de inundación" 
+Fibaro  "Sensor de inundación" 
 ==============================
 
 \
@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El sensor FGFS-101 es compacto y tiene una amplia variedad de
+El sensor  es compacto y tiene una amplia variedad de
 funciones Con su avanzada tecnología y precisión, el sensor
 Inundación Fibaro lo alerta de una inundación amenazante o un aumento
 o caída rápida de temperatura.
@@ -46,7 +46,7 @@ agua.
 También tiene una alarma de sirena que puede sonar en caso de
 problema. Puede conectar la salida de contacto seco a un sistema
 alarma existente. Un LED frontal para verificar el estado del
-FGFS-101.
+.
 
 Este sensor incorpora un probador de rango de red Z-Wave, que le permite
 asegura el correcto funcionamiento del sensor durante su instalación.
@@ -81,13 +81,13 @@ Características técnicas
 
 -   El módulo puede ser alimentado externamente : 12-24 VDC
 
--   Tipo de batería : CR123A
+-   Tipo de batería : 
 
 -   Duración de la batería : 2 años
 
 -   Consumo en fuente de alimentación externa : 0.4W
 
--   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
+-   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :
 
 -   Tensión máxima soportada en la salida : 40V (CA o CC)
 
@@ -329,7 +329,7 @@ Nota importante
 Detalle de uso :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Documentación de fibaro :
-<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
+<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
 
 \
 

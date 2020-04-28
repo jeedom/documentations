@@ -33,7 +33,7 @@ Platzieren Sie es in Ihrem Haus, um die Sicherheit des Ganzen zu gewährleisten
 Familie.
 
 Der Rauchmelder Fibaro FGSD-002 ist ein Alarmmelder
-Autonomer Rauch (DAAF) gemäß Norm EN 14604:2005. Gut
+Autonomer Rauch (DAAF) gemäß Norm :2005. Gut
 So autonom kommuniziert es auch dank der Z-Wave-Technologie
 Mehr.
 
@@ -71,7 +71,7 @@ Funktionen
 
 -   Integrierter Z-Wave-Netzabdeckungstester
 
--   Entspricht der Norm EN 14604:2005
+-   Entspricht der Norm :2005
 
 -   Z-Wave Mehr kompatibel
 
@@ -99,7 +99,7 @@ Technische Daten
 
 -   Betriebstemperatur : 0-55 ° C.
 
--   Betriebsfeuchtigkeit : 0% - 93%
+-   Betriebsfeuchtigkeit : 
 
 -   Temperaturmessbereich : -20 bis 100 ° C.
 
@@ -112,7 +112,7 @@ Technische Daten
 
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
--   Zertifizierungen : EN 14604:2005
+-   Zertifizierungen : :2005
 
 \.
 
@@ -121,7 +121,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Fibar Group
+-   Machen Sie : 
 
 -   Name : Fibaro Rauchsensor FGSD-002
 
@@ -185,7 +185,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-    : Dies ist der befehl. Es signalisiert die Öffnung
     des Falles
 
 -   Testalarm : Es ist der Befehl, der die Tatsache aufzeigt, dass das Modul

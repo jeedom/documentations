@@ -76,11 +76,11 @@ Technical characteristics
 
 -   Max load : 1800W (resistive), 460VA (inductive)
 
--   Fuse : T8AH
+-   Fuse : 
 
 -   Frequency : 868.42 Mhz
 
--   Dimensions : 52 x 52 x 31mm
+-    : 
 
 -   Temperature range : 0 ° C / + 40 ° C
 
@@ -93,7 +93,7 @@ Module data
 
 -   Mark : Popp / Duwi
 
--   Name : ZW ESJ Blind Control
+-   Name : 
 
 -   Manufacturer ID : 100
 
@@ -213,7 +213,7 @@ Parameter details :
 
 \
 
--   0 : Running Time :
+-   0 :  :
 
 These are the rise and fall times. You should find your
 learning.
@@ -224,7 +224,7 @@ and the second for the descent.
 The values are coded in hexadecimal in the module and reset
 decimal in Jeedom display.
 
-For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
+For example : for 4626, this gives in hexadecimal : . Either 0x12
 for ascent and 0x12 for descent. Or, brought back again in
 decimal : 18s for ascent and descent.
 
@@ -232,7 +232,7 @@ To note : forcing a value to zero for this parameter will imply that the
 module will switch on ascent or descent without time limit. It will take
 then send a 'STOP' to interrupt.
 
--   1 : STOP-functionnality : Enabled or Disabled :
+-   1 :  : Enabled or Disabled :
 
 Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction

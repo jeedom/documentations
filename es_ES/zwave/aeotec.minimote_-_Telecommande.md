@@ -1,4 +1,4 @@
-Aeotec Minimote 
+ 
 ===============
 
 \
@@ -73,7 +73,7 @@ Características técnicas
 
 -   Alcance : hasta 30 m
 
--   Dimensiones : 0.8cm x 3.3cm x 9.3cm
+-   Dimensiones : 0..
 
 -   Temperatura de funcionamiento : -35 a +85 ° C
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer : 
 
--   Nombre : Minimote
+-   Nombre : 
 
 -   ID del fabricante : 134
 

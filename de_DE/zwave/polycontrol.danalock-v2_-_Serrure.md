@@ -1,4 +1,4 @@
-Danalock V2 BTZE 
+ 
 ================
 
 \.
@@ -25,7 +25,7 @@ Zusammenfassung
  
 
 **Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
-Poly-Control !**
+ !**
 
 Keine Schlüssel mehr, verwenden Sie Ihr Smartphone zum Sperren und
 Schließ deine Tür auf ! Danalock ist eine neue Lösung, die
@@ -56,7 +56,7 @@ Installieren Sie die Danalock-App in wenigen Schritten auf Ihrem Telefon
 Sekunden. Ein Assistent führt Sie dann durch die Installation und
 die Kalibrierung Ihres Danalock.
 
- **Einfach zu bedienen**
+**Einfach zu bedienen**
 
 Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
 mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
@@ -138,7 +138,7 @@ Technische Daten
 
 -   Versorgung : 4 CR123 3V Batterien
 
--   Versionen : V2
+-   Versionen : 
 
 -   Material : Massives eloxiertes Aluminium
 
@@ -155,11 +155,11 @@ Moduldaten
 
 \.
 
--   Machen Sie : Poly-Control
+-   Machen Sie : 
 
--   Name : Danalock V2 BTZE
+-   Name : 
 
--   Hersteller ID : 010e
+-   Hersteller ID : 
 
 -   Produkttyp : 1
 
@@ -314,7 +314,7 @@ Parameterdetails :
     Bei diesem Wert informiert das Gerät den Benutzer mit einem Signal
     Ton nach dem Verriegeln oder Entriegeln.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
+-   9 : 
     dreht den Griff automatisch, wenn
     manuell bedienen.
 

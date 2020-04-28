@@ -1,4 +1,4 @@
-Zipato miniKeypad RFID 
+ 
 ======================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur
+Steuern Sie Ihr Sicherheitssystem mit dieser Mini--Wandtastatur
 !
 
 Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie oder aktivieren
@@ -72,7 +72,7 @@ Technische Daten
 
 -   Versorgung : 2x AA 1,5V Batterien
 
--   Frequenz : 868.42 MHz
+-   Frequenz : 868.
 
 -   Funkreichweite : 30m auf freiem Feld
 
@@ -88,9 +88,9 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 30% bis 80%
 
--   Abmessungen : 62 x 62 x 20 mm
+-   Abmessungen : 
 
--   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
+-   Zertifizierungen : Sicherheit :  : 
 
 \.
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Zipato
+-   Machen Sie : 
 
--   Name : Zipato Mini Keypad RFID
+-   Name : 
 
 -   Hersteller ID : 151
 
@@ -163,7 +163,7 @@ Hier ist die Liste der Befehle :
 -   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
     für zu Hause)
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-    : Dies ist der befehl (er wird ausgelöst in
     herausreißen)
 
 -   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
@@ -331,7 +331,7 @@ Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
 \.
 
--   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
+-   Drücken Sie die taste und lassen Sie sie nach 1 bis 2 Sekunden los
 
 -   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 
@@ -342,7 +342,7 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
+Dieses Modul wird durch Drücken der -Taste und aktiviert
 entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
 Geben Sie ein.
 

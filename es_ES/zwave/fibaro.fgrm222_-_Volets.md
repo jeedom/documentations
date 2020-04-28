@@ -1,4 +1,4 @@
-Fibaro FGRM-222 "Persiana enrollable" 
+ "Persiana enrollable" 
 ===============================
 
 \
@@ -82,21 +82,21 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50 Hz
+-   Suministro : 
 
 -   El consumo de energía : &lt; 0,8W
 
 -   Cableado : 3 hilos, neutro requerido
 
--   Carga máxima : 1000W
+-   Carga máxima : 
 
 -   Frecuencia : 868.42 Mhz
 
--   Fuerza de la señal : 1mW
+-   Fuerza de la señal : 
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 17 x 42 x 37 mm
+-   Dimensiones: 
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRM-222
+-   Nombre : 
 
 -   ID del fabricante : 271
 
@@ -258,7 +258,7 @@ Detalles del parámetro :
 
 -   18: potencia de seguridad del motor
 
--   22: NA
+-   22: 
 
 -   29: permite calibrar la aleta
 
@@ -286,7 +286,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es
-indispensable.
+.
 
 \
 

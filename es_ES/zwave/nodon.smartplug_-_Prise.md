@@ -1,4 +1,4 @@
-Enchufe inteligente Mediodía - Smartplug 
+Enchufe inteligente Mediodía -  
 ====================================
 
 \
@@ -51,7 +51,7 @@ Funciones
 
 -   Alcance de radio mejorado
 
--   Amperaje máximo: 16A
+-   Amperaje máximo: 
 
 \
 
@@ -65,10 +65,10 @@ Características técnicas
 -   Potencia máxima : 3000W continuo / 3500W cíclico
     (Carga resistiva) Consumo intrínseco : &lt;1W
 
--   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
-    Plus® SDK 06.51.01
+    
 
 -   Alcance: 40m interior / 80m exterior
 
@@ -87,7 +87,7 @@ Datos del módulo
 
 -   Hacer : Mediodía
 
--   Nombre : Smartplug
+-   Nombre : 
 
 -   ID del fabricante : 357
 
@@ -196,7 +196,7 @@ Detalles del parámetro :
 
 -   2 : Esta configuración le permite configurar los informes de informes de
     corte de energía / retorno, así como los grupos asociados (Grupos
-    4, 5, 6, 7, 8). Son posibles varias combinaciones (consulte
+    . Son posibles varias combinaciones (consulte
     documentación en papel o burbuja de ayuda en libertad). El es
     recomienda establecer este parámetro en 1.
 

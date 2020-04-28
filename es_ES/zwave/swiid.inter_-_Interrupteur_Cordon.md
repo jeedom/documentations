@@ -1,4 +1,4 @@
-Interruptor Swiid - Swiidinter 
+Interruptor  -  
 ===============================
 
 \
@@ -24,7 +24,7 @@ Resumen
 
 \
 
-SwiidInter es el primer interruptor de cable del entorno
+ es el primer interruptor de cable del entorno
 Domótica Onda Z que es lo suficientemente pequeña y discreta como para ser
 comparable a un interruptor de cable ordinario.
 
@@ -32,20 +32,20 @@ Se puede usar tanto manualmente como cualquier
 interruptor de cable ordinario y remoto a través del controlador
 Onda Z.
 
-El interruptor SwiidInter también ofrece posibilidades de asociación.
+El interruptor  también ofrece posibilidades de asociación.
 y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
 otro dispositivo Onda Z en la misma red, como el
 detector de presencia activado. Por el contrario con apoyo
 corto o con una pulsación larga puede controlar dos grupos separados de
 Dispositivos Onda Z asociados a él : por ejemplo cada
 otras luces en la habitación donde se encuentra su interruptor
-SwiidInter.
+.
 
-El interruptor SwiidInter se instala exactamente como un interruptor
+El interruptor  se instala exactamente como un interruptor
 en cordón ordinario : así que es una instalación rápida y fácil que
 no requiere herramientas especializadas. Luego debe configurarse para
 integrarse en una "red" Onda Z, esta red puede ser tan simple
-solo un control remoto que controla su interruptor SwiidInter a
+solo un control remoto que controla su interruptor  a
 distancia.
 
 \
@@ -83,27 +83,27 @@ Características técnicas
 
 -   Color : negro
 
--   Suministro: 230V ± 10% - 50Hz
+-   Suministro: 
 
--   Potencia máxima : 660W
+-   Potencia máxima : 
 
 -   El consumo : &lt; 0,08W
 
--   Indice de PROTECCIUno: IP20
+-   Indice de PROTECCIUno: 
 
--   Protocolo de radio: Onda Z® (SDK 4.55)
+-   Protocolo de radio: 
 
 -   Radiofrecuencia : 868,42 MHz (UE)
 
--   Dist. transmisión: Hasta 30 m en interiores (depende de los materiales)
+-   . transmisión: Hasta 30 m en interiores (depende de los materiales)
 
--   Temp. funcionando : 0 - 40 ° C
+-   . funcionando : 0 - 40 ° C
 
 -   Pantalla de encendido / apagado : LEDs azules
 
--   Dimensiones : 84 x 32 x 29 mm
+-   Dimensiones : 
 
--   Normas de la UE : EN 61058-2-1:2011 EN 55015
+-   Normas de la UE : :
 
 \
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer : Swiid
+-   Hacer : 
 
--   Nombre : Swiidinter
+-   Nombre : 
 
 -   ID del fabricante : 358
 

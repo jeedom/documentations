@@ -86,7 +86,7 @@ Technische Daten
 
 -   Messgenauigkeit : 0,5 ° C.
 
--   Helligkeitsmessbereich : 0-32000 LUX
+-   Helligkeitsmessbereich : X
 
 -   Frequenz : 868,42 MHz
 
@@ -97,7 +97,7 @@ Technische Daten
 -   Betriebstemperatur : 0-40 ° C.
 
 -   Zertifizierungen : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    II
+    
 
 \.
 
@@ -106,7 +106,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Fibar Group
+-   Machen Sie : 
 
 -   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 
@@ -172,7 +172,7 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
+-    : Dies ist der befehl (er wird für den Fall ausgelöst
     Vibration)
 
 -   Batterie : Es ist der Batteriebefehl
@@ -249,9 +249,9 @@ Parameterdetails :
 -   20: Empfindlichkeit des Kreiselsensors (empfohlener Wert 15)
 
 -   22: Zeit, nach der der Sensor das Signal "mehr als
-    Sabotage "(empfohlener Wert 30)
+     "(empfohlener Wert 30)
 
--   24: Hier erfahren Sie, wie die Sabotage gemeldet wird (WICHTIG :
+-   24: Hier erfahren Sie, wie die  gemeldet wird (WICHTIG :
     empfohlener Wert : Manipulationssensor an SensorAlarm benachrichtigt
     Befehlsklasse / Stornierung wird nach der in definierten Zeit benachrichtigt
     Parameter 22)
@@ -293,7 +293,7 @@ Parameterdetails :
     (verknüpft mit Parameter 81)
 
 -   89: Ermöglicht es der LED, bei blau / weiß / rot zu blinken
-    Sabotage
+    
 
 \.
 

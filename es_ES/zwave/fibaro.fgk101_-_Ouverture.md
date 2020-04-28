@@ -88,7 +88,7 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 76 x 17 x 19 mm
+-   Dimensiones: 
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -240,7 +240,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene tres grupos de asociación, solo el tercero es
-indispensable.
+.
 
 \
 

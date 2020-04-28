@@ -82,9 +82,9 @@ Technical characteristics
 
 -   Scope : up to 100 m in free field
 
--   Protection sign : IP30
+-   Protection sign : 
 
--   Dimensions : 86 x 85 x 30 mm
+-    : 
 
 \
 
@@ -93,9 +93,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark : 
 
--   Name : SES 302 Temperature Sensor
+-   Name : 
 
 -   Manufacturer ID : 89
 
@@ -235,7 +235,7 @@ Good to know
 
 \
 
-Wakeup 
+ 
 ------
 
 \
