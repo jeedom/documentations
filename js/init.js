@@ -218,11 +218,6 @@ var docMenu = [
   }
 ]
 
-$('#sel_theme').on('change',function(){
-  setCookie('theme',$(this).val(),7)
-  setTheme();
-})
-
 setTheme();
 
 $('#ul_menu').empty();
@@ -308,6 +303,11 @@ $(function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
+  })
+  
+  $('#sel_theme').on('change',function(){
+    setCookie('theme',$(this).val(),7)
+    setTheme();
   })
   
   $('select').formSelect();
