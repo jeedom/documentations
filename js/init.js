@@ -76,7 +76,7 @@ var docMenu = [
       {link : "/documentations/#LANG#/core/#VERSION#/object",fr_FR : "Objet",en_US:"Object",es_ES:"Asunto",de_DE:"Betreff",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/scenario",fr_FR : "Scénario",en_US:"Scenario",es_ES:"Escenario",de_DE:"Szenario",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/interact",fr_FR : "Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {version : ['4.0'],link : "/documentations/#LANG#/core/#VERSION#/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
+      {version : ['4.0','4.1'],link : "/documentations/#LANG#/core/#VERSION#/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
       {link : "",fr_FR : "Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
