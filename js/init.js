@@ -288,7 +288,7 @@ $(function(){
       $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
     }
     if($(this).is('h2')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
+      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor" style="margin-right:5px;">'+$(this).text()+'</a></li>')
     }
     $(this).addClass('scrollspy');
     i++;
