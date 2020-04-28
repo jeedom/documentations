@@ -1,4 +1,4 @@
-SmartHome von Everspring  - AN179-0 
+SmartHome von Everspring In Wall Ein Aus - AN179-0 
 ================================================
 
 \.
@@ -81,7 +81,7 @@ Technische Daten
 -   Verbrauch : 0,5 W.
 
 -   Maximale Leistung : Widerstandslast : 2500W Glühlampe
-    : 1200W Kompaktleuchtstofflampe : 
+    : 1200W Kompaktleuchtstofflampe : 320W
 
 -   Frequenz : 868,42 MHz
 
@@ -100,7 +100,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : 
+-   Name : In Wall Ein Aus
 
 -   Hersteller ID : 96
 

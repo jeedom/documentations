@@ -87,9 +87,9 @@ Technische Daten
 
 -   Maximale Leistung :
 
--   Widerstandslast : 
+-   Widerstandslast : 300W
 
--   Glühbirne : 
+-   Glühbirne : 300W
 
 -   Kompaktleuchtstofflampe : 200W
 

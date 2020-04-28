@@ -1,4 +1,4 @@
- 
+Zipato miniKeypad RFID 
 ======================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Steuern Sie Ihr Sicherheitssystem mit dieser Mini--Wandtastatur
+Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur
 !
 
 Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie oder aktivieren
@@ -88,9 +88,9 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 30% bis 80%
 
--   Abmessungen : 
+-   Abmessungen : 62 x 62 x 20 mm
 
--   Zertifizierungen : Sicherheit :  : 
+-   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
 
 \.
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Zipato
 
--   Name : 
+-   Name : Zipato Mini Keypad RFID
 
 -   Hersteller ID : 151
 

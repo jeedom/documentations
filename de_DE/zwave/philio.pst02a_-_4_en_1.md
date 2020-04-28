@@ -112,7 +112,7 @@ Technische Daten
 
 -   Detektor : 28 x 96 x 23 mm
 
--   Magnet : 
+-   Magnet : 10 x 50 x 12 mm
 
 -   Gewicht : 52 g
 
@@ -122,7 +122,7 @@ Technische Daten
 
 -   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : 
+-   Z-Wave-Zertifizierung : ZC08-13050003
 
 \.
 
@@ -131,7 +131,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Philio Technology Corporation
 
 -   Name : PST02-A 4-in-1-Multisensor
 
