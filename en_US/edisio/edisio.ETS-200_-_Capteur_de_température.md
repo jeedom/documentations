@@ -25,7 +25,7 @@ Functions
 
 -   Wireless battery-powered temperature sensor
 
--   
+-   Ultra compact
 
 -   Signal transmitted instantly during an increase or decrease
     of the temperature
@@ -51,18 +51,18 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C + 45 ° C
 
--   Range in free field : 
+-   Range in free field : 100M
 
--    : 
+-   Dimensions : 25x79x19mm
 
--   Degree of protection : 
+-   Degree of protection : IP20
 
 Module data 
 =================
 
--   Mark : 
+-   Mark : Edisio Smart Home
 
--   Name : 
+-   Name : ETS-200
 
 General configuration 
 ======================
