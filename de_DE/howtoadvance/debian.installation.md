@@ -41,7 +41,7 @@ Auf einer VM
 Die Handhabung ist ganz einfach, Sie erstellen eine neue Maschine
 virtuell, stecken Sie ein, legen Sie einen virtuellen CD-Player darauf, der zeigt
 an die ISO (denken Sie daran, sie anzuschließen) und Sie starten die Maschine. Siehe
-[hier](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.creer_une_vm.html)
+[hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html)
 für weitere Details.
 
 Installation 
@@ -190,4 +190,4 @@ auf einem ESXi-Hypervisor.
     sudo apt-get install -y open-vm-tools
 
 Sie müssen Jeedom nur installieren, indem Sie folgen
-[diese](https://jeedom.github.io/documentation/installation/de_DE/index#tocAnchor-1-27)
+[diese](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)

@@ -168,7 +168,7 @@ función vdm_remove () {
 }
 ```
 
-Aquí el complemento está listo pero queda la personalización y el ícono pora actualizar : [documentación](https:/ // /jeedom.github.io/ /Documentación/ /dev/ /es_ES/ /Icone_de_plugin)
+Aquí el complemento está listo pero queda la personalización y el ícono pora actualizar : [documentación](https:/ // /doc.jeedom.com/ /es_ES/ /dev/ /Icone_de_plugin)
 
 Agregue el icono en la carpya plugin_info bajo el nombre vdm_icon.png
 

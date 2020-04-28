@@ -97,12 +97,12 @@ Preventive backups
 -----------------------
 
 -   Make a backup
-    Jeedom](https://jeedom.github.io/documentation/core/en_US/doc-core-backup.html)
+    Jeedom](https://doc.jeedom.com/en_US/core/doc-core-backup.html)
     of your **Jeedom Master** and your **Jeedom Slave (s)**
     and recover it (s) on your PC / NAS….
 
 -   Make a backup
-    SD / Disc](https://jeedom.github.io/documentation/howto/en_US/doc-howto-sau Backupe.comment_faire.html#_sau Backupe_restauration_de_la_carte_microsd)
+    SD / Disc](https://doc.jeedom.com/en_US/howto/doc-howto-sau Backupe.comment_faire.html#_sau Backupe_restauration_de_la_carte_microsd)
     of your **Jeedom Master** and your **Jeedom Slave (s)**
     and recover them on your PC / NAS….
 
@@ -147,7 +147,7 @@ Installation of **Jeedom Source** :
 -   Install a new Jeedom on a new SD card (Land it be
     to put in your **Jeedom Slave** existing or for a
     new Raspberry Pi) by following the [documentation
-    installation](https://jeedom.github.io/documentation/installation/en_US/doc-installation.html).
+    installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
 
 -   Update the **Jeedom Source** to the latest toion (even if
     no update is offered to you).
@@ -253,7 +253,7 @@ equipment on the **Jeedom Targand** (Your old Master).
 > The screenshots on a white background correspond to **Jeedom Source**.\
 
 On the **Jeedom Source**,
-[Configuring](https://jeedom.github.io/documentation/plugins/jeelink/en_US/jeelink)
+[Configuring](https://doc.jeedom.com/en_US/plugins/jeelink/jeelink)
 the "Jeedom Link" plugin by specifying :
 
 -   The name of **Jeedom Targand**.

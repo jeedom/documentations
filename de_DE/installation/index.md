@@ -28,7 +28,7 @@ Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
     -   Eine Himbeere + Box 50 €
     -   Ein Aeon Gen Schlüssel 5 € 60
     -   Eine Micro-SD-Karte 7 €
-    -   Ein USB-Tu es nichttzteil 8 €
+    -   Ein USB-Nundzteil 8 €
 
 Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
@@ -57,7 +57,7 @@ Jeedom Smart
 
 Hier finden Sie eine schrittweise Dokumentation zum Installieren oder Wiederherstellen von Jeedom
 
-[Hier](https://jeedom.github.io/documentation/howto/de_DE/recovery_mode_jeedom_smart)
+[Hier](https://doc.jeedom.com/de_DE/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -98,13 +98,13 @@ Schritt 4 : Brennen Sie das Bild auf die SD-Karte
 Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, geben Sie den Pfad des Bildes und den Pfad der SD-Karte ein und klicken Sie auf "Flash"!". Die Software brennt die SD-Karte und überprüft die
 Gravur.
 
-Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Tu es nichttzwerk und die Stromversorgung verbinden, Ihr Jeedom startund (5 Minuten) und Sie sollten es im Tu es nichttzwerk sehen.
+Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Nundzwerk und die Stromversorgung verbinden, Ihr Jeedom startund (5 Minuten) und Sie sollten es im Nundzwerk sehen.
 
 > **Spitze**
 >
 > SSH-IDs sind jeedom / Mjeedom96
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 
 Himbeerpi
@@ -154,12 +154,12 @@ umbenennen in "ssh" **ohne Verlängerung**
 
 **5 / Starten Sie den PI**
 
-Legen Sie Ihre SD-Karte ein, schließen Sie das Tu es nichttzwerkkabel an und verbinden Sie sich
+Legen Sie Ihre SD-Karte ein, schließen Sie das Nundzwerkkabel an und verbinden Sie sich
 Essen.
 
 **6 / Mit SSH verbinden**
 
-Identifizieren Sie Ihren Pi im Tu es nichttzwerk
+Identifizieren Sie Ihren Pi im Nundzwerk
 
 Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
@@ -211,7 +211,7 @@ Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-**8 / Systemoptimierung
+**8 / Systemoptimierung**
 
 Wenn Sie Ihre Raspberry for Jeedom ohne angeschlossenen Bildschirm verwenden, wird empfohlen, den minimalen Arbeitsspeicher im Videoteil mitzuführen.
 
@@ -229,7 +229,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O `puis `ENTREE`
 
 Starten Sie Ihr RPI neu
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 VM
 ==
@@ -336,8 +336,8 @@ Schritt 4 : VM-Start
 
 -   Geben Sie das zuvor heruntergeladene Bild an
 
--   Wählen Sie dann Tu es nichttzwerk und wählen Sie im Modus "Zugriff über Brücke"
-    Tu es nichttzwerkzugriff.
+-   Wählen Sie dann Nundzwerk und wählen Sie im Modus "Zugriff über Brücke"
+    Nundzwerkzugriff.
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
@@ -407,9 +407,9 @@ Geben Sie es in Ihren Browser ein.
 > **Warnung**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Karte nicht konfiguriert
-> Tu es nichttzwerk in der Tu es nichttzwerkbrücke wie zu Beginn angegeben.
+> Nundzwerk in der Nundzwerkbrücke wie zu Beginn angegeben.
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Docker
 ======
@@ -493,7 +493,7 @@ Geben Sie die Verbindungsinformationen zu MySQL ein :
 
 ![install other](images/install_other.PNG)
 
-Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 > **Wichtig**
 >
@@ -656,11 +656,11 @@ Klicken Sie auf "Übernehmen"".
 > Es gibt 3 optionale Konfigurationsparamunder. Diese Paramunder müssen als Umgebungsvariable übergeben werden
 > - APACHE_PORT : Ermöglicht das Ändern des Standardports (80) zum Abhören des Webservers
 > - SSH_PORT : ermöglicht das Ändern des Standardports (22) für das Abhören von ssh
-> - MODE_HOST : zeigt an, dass sich das Tu es nichttzwerk im Host-Modus befindund
+> - MODE_HOST : zeigt an, dass sich das Nundzwerk im Host-Modus befindund
 
 > **Wichtig**
 >
-> Für bestimmte Plugins muss das Tu es nichttzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Tu es nichttzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
+> Für bestimmte Plugins muss das Nundzwerk gesendund werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Nundzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendunde Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und sundzen Sie die Variable MODE_HOST auf 1
 
 Stufe 3 : Jeedom Konfiguration
 ---
@@ -690,7 +690,7 @@ Docker MySQL zuvor installiert) und validieren.
 > Umgebungsvariable ROOT \ _PASSWORD auf Kennwortwert
 > wollte.
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Andere
 ======
@@ -732,4 +732,4 @@ Internundbrowser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).
+Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/$1/index).

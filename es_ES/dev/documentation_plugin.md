@@ -6,7 +6,7 @@ Veremos en esta documentación cómo hacer la documentación de su complemento.
 
 ## Principio
 
-El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://jeedom.github.io / documentation / dev / fr_FR / structure_info_json)) en el campo de documentación.
+El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com / en_FR / dev / structure_info_json)) en el campo de documentación.
 
 Tenga en cuenta que también tiene un campo de registro de cambios que debería funcionar de la misma manera que el campo de documentación.
 

@@ -168,7 +168,7 @@ Funktion vdm_remove () {
 }
 ```
 
-Hier ist das Plugin fertig, aber es bleibt die Anpassung und das zu aktualisierende Symbol : [D.okumentation](https:/./.jeedom.github.io/.D.okumentation/.dev/.fr_FR/.Icone_de_plugin)
+Hier ist das Plugin fertig, aber es bleibt die Anpassung und das zu aktualisierende Symbol : [D.okumentation](https:/./.doc.jeedom.com/.fr_FR/.dev/.Icone_de_plugin)
 
 Fügen Sie das Symbol im Ordner plugin_info unter dem Namen vdm_icon.png hinzu
 

@@ -41,7 +41,7 @@ On a VM
 The handling is quite simple, you create a new machine
 virtual, you plug in, put a virtual CD player on it that points
 to the ISO (remember to connect it) and you start the machine. See
-[here](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.creer_une_vm.html)
+[here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html)
 for more details.
 
 Setup 
@@ -190,4 +190,4 @@ on an ESXi hypervisor.
     sudo apt-get install -y open-vm-tools
 
 You just have to install Jeedom by following
-[this](https://jeedom.github.io/documentation/installation/en_US/index#tocAnchor-1-27)
+[this](https://doc.jeedom.com/en_US/installation/index#tocAnchor-1-27)

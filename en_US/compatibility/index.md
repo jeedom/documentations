@@ -110,31 +110,31 @@ Zwave modules
 -------------
 
 You will find the list
-[here](https://jeedom.github.io/documentation/zwave/en_US/equipement.compatible)
+[here](https://doc.jeedom.com/en_US/zwave/equipement.compatible)
 
 EnOcean modules
 ---------------
 
 You will find the list
-[here](https://jeedom.github.io/documentation/enocean/en_US/equipement.compatible)
+[here](https://doc.jeedom.com/en_US/enocean/equipement.compatible)
 
 Edisio modules
 --------------
 
 You will find the list
-[here](https://jeedom.github.io/documentation/edisio/en_US/equipement.compatible)
+[here](https://doc.jeedom.com/en_US/edisio/equipement.compatible)
 
 RFXcom modules
 --------------
 
 You will find the list
-[here](https://jeedom.github.io/documentation/rfxcom/en_US/equipement.compatible)
+[here](https://doc.jeedom.com/en_US/rfxcom/equipement.compatible)
 
 Cameras
 -------
 
 You will find the list
-[here](https://jeedom.github.io/documentation/camera/en_US/equipement.compatible)
+[here](https://doc.jeedom.com/en_US/camera/equipement.compatible)
 
 Recommended hardware platform
 ---------------------------------

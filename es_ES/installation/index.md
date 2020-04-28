@@ -57,7 +57,7 @@ Jeedom Smart
 
 Aquí encontrará documentación noo a noo para instalar o restaurar Jeedom
 
-[Aquí](https://jeedom.github.io/documentation/howto/es_ES/recovery_mode_jeedom_smart)
+[Aquí](https://doc.jeedom.com/es_ES/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -104,7 +104,7 @@ Solo tiene que colocar la tarjya SD en el Jeedomboard (o Hummingboard), conectar
 >
 > Las ID de SSH son jeedom / Mjeedom96
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 
 Raspberrypi
@@ -211,7 +211,7 @@ Luego solo vaya a IP \ _MACHINE \ _JEEDOM
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-**8 / Optimización del sistema
+**8 / Optimización del sistema**
 
 Si usa su Raspberry for Jeedom sin una pantalla conectada, se recomienda llevar la RAM mínima en la parte de video.
 
@@ -229,7 +229,7 @@ Salir guardando : `CTRL+X` puis `O `puis `ENTREE`
 
 Reinaquía tu RPI
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ la dirección IP de su Jeedom en Freebox Delta está escrita en la parte superio
 
 el inaquío de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 VM
 ==
@@ -409,7 +409,7 @@ ingrésalo en tu navegador.
 > Si esto no funciona, no ha configurado su tarjya
 > red en el puente de red como se indica al inaquío.
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Estibador
 ======
@@ -493,7 +493,7 @@ ingrese la información de conexión a mysql :
 
 ![install other](images/install_other.PNG)
 
-Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Por lo demás, puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 > **Importante**
 >
@@ -690,7 +690,7 @@ Estibador mysql instalado previamente) y validar.
 > ROOT \ _PASSWORD variable de entorno a valor de contraseña
 > quería.
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Otros
 ======
@@ -732,4 +732,4 @@ navegador de interny.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Luego puede seguir la documentación [Primer noo con Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index).
+Luego puede seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/$1/index).

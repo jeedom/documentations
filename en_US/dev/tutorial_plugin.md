@@ -168,7 +168,7 @@ function vdm_remove () {
 }
 ```
 
-Here the plugin is ready but there remains the customization and the icon to update : [Documentation](https://jeedom.github.io/Documentation/dev/Fr_FR/Icone_de_plugin)
+Here the plugin is ready but there remains the customization and the icon to update : [Documentation](https://doc.jeedom.com/Fr_FR/dev/Icone_de_plugin)
 
 Add the icon in the plugin_info folder under the name vdm_icon.png
 

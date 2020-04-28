@@ -6,7 +6,7 @@ In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation Ihres Plugins er
 
 ## Prinzip
 
-Das Prinzip ist sehr einfach. Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://jeedom.github.io / Dokumentation / dev / fr_FR / Struktur_info_json)) im Feld Dokumentation.
+Das Prinzip ist sehr einfach. Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://doc.jeedom.com / de_FR / dev / structure_info_json)) im Dokumentationsfeld.
 
 Beachten Sie, dass Sie auch ein Änderungsprotokollfeld haben, das genauso funktionieren sollte wie das Dokumentationsfeld.
 

@@ -62,7 +62,7 @@ Vergessen Sie auch nicht, dass Sie 2 Gutscheine haben
 (per E-Mail gesendet), sodass Sie 2 kostenpflichtige Plugins installieren können
 kostenlos (RFXCOM und Alarm). Um es zu verwenden, müssen Sie eine erstellen
 Konto auf dem Jeedom Market, siehe Dokumentation : [Doc
-Markt](https://jeedom.github.io/documentation/premiers-pas/de_DE/index).
+Markt](https://doc.jeedom.com/de_DE/premiers-pas/index).
 
 In der E-Mail, die Sie erhalten haben, wird auch die Servicenummer angezeigt
 Pack mit Jeedom Mini + verbunden. Sie können es auf Ihrem ausfüllen
@@ -72,14 +72,14 @@ verschiedene Services, die Ihrem Service Pack entsprechen.
 ![mini.demarrage09](images/mini.demarrage09.png)
 
 Sie können jetzt der Dokumentation folgen : [Erste Schritte mit
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/de_DE/index)
+Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 So können Sie die IP-Adresse Ihres Jeedom Mini + und finden
 Melden Sie sich an, um die Einrichtung und Verwendung zu starten.
 
 Um Jeedom weiter zu erforschen und zu nutzen, haben Sie
 vollständige Dokumentation : [Dokumentation
 Jeedom](https://jeedom.fr/doc) und auch einer Abschnittsliste
-Video-Tutorials : [Video-Tutorials](https://jeedom.github.io/documentation/presentation/de_DE/index#tocAnchor-1-3).
+Video-Tutorials : [Video-Tutorials](https://doc.jeedom.com/de_DE/presentation/index#tocAnchor-1-3).
 Zögern Sie nicht, für andere ins Jeedom Forum zu gehen
 Frage : [Jeedom Forum](https://www.jeedom.com/forum/).
 

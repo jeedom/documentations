@@ -57,7 +57,7 @@ Jeedom Smart
 
 Here you will find step by step documentation to install or restore Jeedom
 
-[Here](https://jeedom.github.io/documentation/howto/en_US/recovery_mode_jeedom_smart)
+[Here](https://doc.jeedom.com/en_US/howto/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -104,7 +104,7 @@ You just have to put the SD card in the Jeedomboard (or Hummingboard), connect t
 >
 > SSH IDs are jeedom / Mjeedom96
 
-For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 
 Raspberrypi
@@ -211,7 +211,7 @@ Then just go to IP \ _MACHINE \ _JEEDOM
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-**8 / System optimization
+**8 / System optimization**
 
 If you use your Raspberry for Jeedom without a screen connected, it is recommended to carry the minimum RAM at the video part.
 
@@ -229,7 +229,7 @@ Quit by saving : `CTRL+X` puis `O `puis `ENTREE`
 
 Reboot your RPI
 
-Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Freebox Delta
 =============
@@ -276,7 +276,7 @@ the IP address of your Jeedom on the Freebox Delta is written at the top, under 
 
 the default login and notsword are admin / admin when you access jeedom via your browser.
 
-For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 VM
 ==
@@ -407,9 +407,9 @@ enter it in your browser.
 > **Warning**
 >
 > If this does not work, you have not configured your card
-> nandwork in Borntwork bridge as indicated at the start.
+> nandwork in Nandwork bridge as indicated at the start.
 
-Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Docker
 ======
@@ -493,7 +493,7 @@ enter connection information to mysql :
 
 ![install other](images/install_other.PNG)
 
-For the rest, you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 > **IMPORTANT**
 >
@@ -690,7 +690,7 @@ Docker mysql installed previously) and validate.
 > ROOT \ _PASSWORD environment variable to notsword value
 > desired.
 
-Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Any
 ======
@@ -732,4 +732,4 @@ Web browser.
 
     ./install.sh -w / var / www / html -z -m Jeedom
 
-Then you can follow the documentation [First step with Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index).
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/$1/index).

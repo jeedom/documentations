@@ -68,7 +68,7 @@
         "Vous n'avez plus qu'à mettre la carte SD dans la Jeedomboard (ou Hummingboard), à brancher le réseau et l'alimentation, votre Jeedom va démarrer (5 min) et vous devriez le voir sur le réseau": "Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Netzwerk und die Stromversorgung verbinden, Ihr Jeedom startet (5 Minuten) und Sie sollten es im Netzwerk sehen",
         "Les identifiants SSH sont jeedom\/Mjeedom96": "SSH-IDs sind jeedom \/ Mjeedom96",
         "Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https": "Im Übrigen können Sie der Dokumentation [Erster Schritt mit Jeedom](https",
-        "\/\/jeedom.github.io\/documentation\/premiers-pas\/fr_FR\/index.html)": "\/\/jeedom.github.io\/documentation\/premiers-pas\/fr_FR\/index.html)",
+        "\/\/doc.jeedom.com\/fr_FR\/premiers-pas\/index.html)": "\/\/doc.jeedom.com\/fr_FR\/premiers-pas\/index.html)",
         "Raspberrypi": "Himbeerpi",
         "Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI": "Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI",
         "avec une carte SD": "mit einer SD-Karte",
@@ -149,7 +149,7 @@
         "Quittez en sauvegardant": "Beenden Sie durch Speichern",
         "Rebootez votre RPI": "Starten Sie Ihr RPI neu",
         "Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https": "Dann können Sie der Dokumentation [Erster Schritt mit Jeedom](https",
-        "\/\/jeedom.github.io\/documentation\/premiers-pas\/fr_FR\/index)": "\/\/jeedom.github.io\/documentation\/premiers-pas\/fr_FR\/index)",
+        "\/\/doc.jeedom.com\/fr_FR\/premiers-pas\/index)": "\/\/doc.jeedom.com\/fr_FR\/premiers-pas\/index)",
         "Il est possible d'installer sur Freebox Delta Jeedom via le système de VMs": "Die Installation auf Freebox Delta Jeedom ist über das VM-System möglich",
         "Connexion à la Delta": "Verbindung zum Delta",
         "Vous devez vous rendre sur l'interface de configuration de votre Freebox Delta": "Sie müssen zur Konfigurationsoberfläche Ihrer Freebox Delta gehen",
@@ -382,6 +382,7 @@
         "script et de faire une installation à la main": "Skript und machen Sie eine Installation von Hand",
         "Connectez-vous en SSH à votre système et faites": "Stellen Sie in SSH eine Verbindung zu Ihrem System her und tun Sie dies",
         "Il vous suffit ensuite d'aller sur IP\\_MACHINE\\_JEEDOM à partir de votre": "Dann gehen Sie einfach von Ihrem zu IP \\ _MACHINE \\ _JEEDOM",
-        "navigateur Internet": "Internetbrowser"
+        "navigateur Internet": "Internetbrowser",
+        "\/\/doc.jeedom.com\/fr_FR\/$1\/index)": "\/\/doc.jeedom.com\/fr_FR\/$1\/index)"
     }
 }

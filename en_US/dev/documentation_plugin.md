@@ -6,7 +6,7 @@ We will see in this documentation how to do the documentation of your plugin.
 
 ## Principle
 
-The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://jeedom.github.io / documentation / dev / fr_FR / structure_info_json)) in the documentation field.
+The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com / en_FR / dev / structure_info_json)) in the documentation field.
 
 NOTE that you also have a Changelog field which should work in the same way as the documentation field.
 

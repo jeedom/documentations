@@ -97,12 +97,12 @@ Copias de seguridad preventivas
 -----------------------
 
 -   Hacer una copia de seguridad
-    Jeedom](https://jeedom.github.io/documentation/core/es_ES/doc-core-backup.html)
+    Jeedom](https://doc.jeedom.com/es_ES/core/doc-core-backup.html)
     de su **Jeedom Master** y tu **Jeedom Slave (s)**
     y recuperarlo (s) en su PC / NAS ....
 
 -   Hacer una copia de seguridad
-    SD / Disco](https://jeedom.github.io/documentation/howto/es_ES/doc-howto-sau Backupe.comment_faire.html # _sau Backupe_restauration_de_la_carte_microsd)
+    SD / Disco](https://doc.jeedom.com/es_ES/howto/doc-howto-sau Backupe.comment_faire.html # _sau Backupe_restauration_de_la_carte_microsd)
     de su **Jeedom Master** y tu **Jeedom Slave (s)**
     y recuperarlos en su PC / NAS ....
 
@@ -147,7 +147,7 @@ Instalación de **Fuente de la libertad** :
 -   Instale un nuevo Jeedom en una nueva tarjya SD (Ly it be
     poner en tu **Jeedom Slave** existente o para un
     nueva Raspberry Pi) siguiendo la [documentación
-    instalación](https://jeedom.github.io/documentation/installation/es_ES/doc-installation.html).
+    instalación](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
 
 -   Actualiza el **Fuente de la libertad** a la última Haciaión (incluso si
     no se le ofrece ninguna actualización).
@@ -253,7 +253,7 @@ equipo en el **Jeedom Targy** (Tu viejo maestro).
 > Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.\
 
 Sobre **Fuente de la libertad**,
-[Configurar](https://jeedom.github.io/documentation/plugins/jeelink/es_ES/jeelink)
+[Configurar](https://doc.jeedom.com/es_ES/plugins/jeelink/jeelink)
 el complemento "Jeedom Link" especificando :
 
 -   El nombre de **Jeedom Targy**.

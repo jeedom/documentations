@@ -110,31 +110,31 @@ Módulos Zwave
 -------------
 
 Encontrarás la lista
-[aquí](https://jeedom.github.io/documentation/zwave/es_ES/equipement.compatible)
+[aquí](https://doc.jeedom.com/es_ES/zwave/equipement.compatible)
 
 Módulos EnOcean
 ---------------
 
 Encontrarás la lista
-[aquí](https://jeedom.github.io/documentation/enocean/es_ES/equipement.compatible)
+[aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible)
 
 Módulos Edisio
 --------------
 
 Encontrarás la lista
-[aquí](https://jeedom.github.io/documentation/edisio/es_ES/equipement.compatible)
+[aquí](https://doc.jeedom.com/es_ES/edisio/equipement.compatible)
 
 Módulos RFXcom
 --------------
 
 Encontrarás la lista
-[aquí](https://jeedom.github.io/documentation/rfxcom/es_ES/equipement.compatible)
+[aquí](https://doc.jeedom.com/es_ES/rfxcom/equipement.compatible)
 
 Cámaras
 -------
 
 Encontrarás la lista
-[aquí](https://jeedom.github.io/documentation/camera/es_ES/equipement.compatible)
+[aquí](https://doc.jeedom.com/es_ES/camera/equipement.compatible)
 
 Plataforma de hardware recomendada
 ---------------------------------
