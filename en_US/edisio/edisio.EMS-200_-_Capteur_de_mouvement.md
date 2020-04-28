@@ -22,7 +22,7 @@ Functions
 
 -   Detects movement, even in complete darkness
 
--   Ultra compact
+-   
 
 -   Signal transmitted instantly upon detection
 
@@ -45,22 +45,22 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C + 45 ° C
 
--   Range in free field : 100M
+-   Range in free field : 
 
--   Detection range : 6M
+-   Detection range : 
 
--   Dimensions : 25x79x19mm
+-    : 
 
--   Degree of protection : IP20
+-   Degree of protection : 
 
 -   Use : Indoors
 
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark : 
 
--   Name : EMS-200
+-   Name : 
 
 General configuration 
 ======================

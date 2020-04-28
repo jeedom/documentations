@@ -1,3 +1,8 @@
+# 28/04/2020
+
+- Correction de bugs
+- Optimisation diverse
+
 # 23/01/2020
 
 - Amélioration du support des thermostats (possibilité de choisir n'importe quelle commande chauf/froid/off)
