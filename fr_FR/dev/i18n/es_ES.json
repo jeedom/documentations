@@ -66,7 +66,12 @@
         "com) ajoutera automatiquement votre plugin": "com) agregará automáticamente su complemento"
     },
     "dev\/index.md": {
-        "Sommaire": "Resumen"
+        "Sommaire": "Resumen",
+        "[Structure info.json](\/documentations\/fr_FR\/dev\/structure_info_json)": "[Estructura info.json](\/ documentations \/ fr_FR \/ dev \/ structure_info_json)",
+        "[Icône du plugin](\/documentations\/fr_FR\/dev\/Icone_de_plugin)": "[Icono de complemento](\/ documentations \/ fr_FR \/ dev \/ Icone_de_plugin)",
+        "[Documentation du plugin](\/documentations\/fr_FR\/dev\/documentation_plugin)": "[Documentación del complemento](\/ documentations \/ fr_FR \/ dev \/ documentation_plugin)",
+        "[Publication plugin](\/documentations\/fr_FR\/dev\/publication_plugin)": "[Complemento de publicación](\/ documentations \/ fr_FR \/ dev \/ publishing_plugin)",
+        "[Widget du plugin](\/documentations\/fr_FR\/dev\/widget_plugin)": "[Complemento widget](\/ documentations \/ fr_FR \/ dev \/ widget_plugin)"
     },
     "dev\/publication_plugin.md": {
         "Comment publier le plugin sur le market": "Cómo publicar el complemento en el mercado",
@@ -280,6 +285,7 @@
         "function vdm_update()": "función vdm_update ()",
         "function vdm_remove()": "función vdm_remove ()",
         "Voilà le plugin est prêt mais il reste la customisation et l'icône à mettre à jour": "Aquí el complemento está listo pero queda la personalización y el ícono para actualizar",
+        "[documentation](https": "[documentación](https",
         "\/\/jeedom.github.io\/documentation\/dev\/fr_FR\/Icone_de_plugin)": "\/\/jeedom.github.io\/documentation\/dev\/fr_FR\/Icone_de_plugin)",
         "Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png": "Agregue el icono en la carpeta plugin_info bajo el nombre vdm_icon.png",
         "dans mon cas": "en mi caso",

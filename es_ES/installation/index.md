@@ -55,12 +55,12 @@ control complyo de su instalación.
 > Las capacidades de Jeedom o su uso pueden ser de pago. **y
 > puede necesitar conexión a interny**. Puedes encontrar
 > la lista de complementos
-> [ici](http://marky.jeedom.fr/index.php?v = d & p = marky & type = plugin).
+> [aquí](http://marky.jeedom.fr/index.php?v = d & p = marky & type = plugin).
 
 > **Punta**
 >
 > Servicio pack ? Quézako ? Podéis ver
-> [ici](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
+> [Aquí](https://blog.jeedom.fr/?p = 1215) las ventajas de los service packs.
 
 
 Jeedom Smart
@@ -68,7 +68,7 @@ Jeedom Smart
 
 Aquí encontrará documentación noo a noo para instalar o restaurar Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/es_ES/recovery_mode_jeedom_smart)
+[Aquí](https://jeedom.github.io/documentation/howto/es_ES/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -88,7 +88,7 @@ Etapa 2 : Jeedom recuperación de imagen
 ---
 
 Tiene que ir
-[ici](https://images.jeedom.com/jeeboard/),
+[Aquí](https://images.jeedom.com/jeeboard/),
 luego, en la carpya Imágenes, recupere la imagen jeedom-jeeboard - \ *. rar
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -140,10 +140,10 @@ frambuesa PI **con una tarjya SD.**
 Gráfico**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strych-lite.zip)
 
-**2 / Descomprime la imagen con winrar** [Ici](http://www.win-rar.com)
+**2 / Descomprime la imagen con winrar** [Aquí](http://www.win-rar.com)
 
 **3 / Grabar esta imagen en una SD con ycher, por ejemplo**
-[ici](https:// ycher.io/)
+[Aquí](https:// ycher.io/)
 
 > **Nota**
 >
@@ -186,12 +186,12 @@ Nocesita saber la dirección IP de su PI. Varias soluciones :
 -   Consulte la configuración de DHCP en su enrutador
 
 -   Utilice un escáner de puertos de tipo angyipscanner"
-    [ici](http://angryip.org/download/#windows)
+    [aquí](http://angryip.org/download/#windows)
 
 Establecer conexión
 
 Luego use, por ejemplo, masilla para establecer su conexión
-[Ici](http://www.putty.org/)
+[Aquí](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.10) y haga clic en
 abierto Acepte el mensaje de seguridad predyerminado cuando
@@ -317,7 +317,7 @@ Etapa 2 : Descargar una imagen de Strecht de Debian - nyinstall
 ---
 
 Descargue una imagen minimalista de Debian 9 Strych
-[Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
+[Aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nyinst.iso)
 
 Descargue el paquye de extensión e instálelo.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
@@ -682,7 +682,7 @@ haga clic en "Aplicar".
 > - SSH_PORT : permite cambiar el puerto predyerminado (22) para escuchar ssh
 > - MODE_HOST : indica que la red está en modo host
 
-> **Importantee**
+> **Importante**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predyerminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
 

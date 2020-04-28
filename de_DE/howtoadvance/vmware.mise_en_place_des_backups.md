@@ -100,7 +100,7 @@ Die Parameter, die Sie anpassen müssen, sind :
 > **Notiz**
 >
 > Sie können konsultieren
-> [ici](https://communities.vmware.com / docs / DOC-8760) Dokumentation
+> [Hier](https://communities.vmware.com / docs / DOC-8760) Dokumentation
 > komplett von ghettoVCB mit einer Beschreibung jedes Parameters
 
 > **Wichtig**

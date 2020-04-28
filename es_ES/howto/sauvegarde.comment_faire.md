@@ -24,14 +24,14 @@ copia de seguridad regular de Jeedom.
 > El procedimiento de restauración de la tarjeta microSD puede ser útil para
 > restaurar un Jeedom predeterminado de la Imagenn proporcionada por
 > el equipo ve
-> [ici](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
+> [aquí](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
 
 Jeedom Backup / Restore 
 =================================
 
 La documentación ya está presente para explicar la página.
 Administración → Copias de seguridad. Lo encontraras
-[ici](https://jeedom.github.io/core/es_ES/backup).
+[aquí](https://jeedom.github.io/core/es_ES/backup).
 
 Copia de seguridad / Restaurar tarjeta microSD 
 ===========================================

@@ -55,12 +55,12 @@ vollständige Kontrolle über die Installation.
 > Jeedom's Fähigkeiten oder seine Verwendung können kostenpflichtig sein **und
 > Möglicherweise benötigen Sie eine Internundverbindung**. Sie können finden
 > die Liste der Plugins
-> [ici](http://markund.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
+> [hier](http://markund.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
 
 > **Spitze**
 >
 > Service Pack ? Quézako ? Sie können sehen
-> [ici](https://blog.jeedom.fr/?p = 1215) die Vorteile von Service Packs.
+> [Hier](https://blog.jeedom.fr/?p = 1215) die Vorteile von Service Packs.
 
 
 Jeedom Smart
@@ -68,7 +68,7 @@ Jeedom Smart
 
 Hier finden Sie eine schrittweise Dokumentation zum Installieren oder Wiederherstellen von Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/de_DE/recovery_mode_jeedom_smart)
+[Hier](https://jeedom.github.io/documentation/howto/de_DE/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -88,7 +88,7 @@ Stufe 2 : Jeedom Bildwiederherstellung
 ---
 
 Du musst gehen
-[ici](https://images.jeedom.com/jeeboard/),
+[Hier](https://images.jeedom.com/jeeboard/),
 Stellen Sie dann im Ordner "Images" das Bild "jeedom-jeeboard - \ *. rar" wieder her
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -140,10 +140,10 @@ Himbeer PI **mit einer SD-Karte.**
 Grafik**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strundch-lite.zip)
 
-**2 / Dekomprimieren Sie das Bild mit winrar** [Ici](http://www.win-rar.com)
+**2 / Dekomprimieren Sie das Bild mit winrar** [Hier](http://www.win-rar.com)
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD**
-[ici](https:// Radierer.io/)
+[Hier](https:// Radierer.io/)
 
 > **Notiz**
 >
@@ -186,12 +186,12 @@ Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 -   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
 
 -   Verwenden Sie einen Port-Scanner vom Typ Angyipscanner"
-    [ici](http://angryip.org/download/#windows)
+    [hier](http://angryip.org/download/#windows)
 
 Verbindung herstellen
 
 Verwenden Sie dann beispielsweise Kitt, um Ihre Verbindung herzustellen
-[Ici](http://www.putty.org/)
+[Hier](http://www.putty.org/)
 
 Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf
 offen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn
@@ -317,7 +317,7 @@ Stufe 2 : Herunterladen eines Debian-Strecht-Images - nundinstall
 ---
 
 Laden Sie ein minimalistisches Debian 9 Strundch-Bild herunter
-[Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
+[Hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nundinst.iso)
 
 Laden Sie das Erweiterungspakund herunter und installieren Sie es.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)

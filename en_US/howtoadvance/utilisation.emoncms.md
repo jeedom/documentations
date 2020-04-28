@@ -1,5 +1,5 @@
 EmonCMS is a PHP energy monitoring application (Emon :
-
+Energy Monitor)
 
 Regarding data sharing between Jeedom and EmonCMS (in
 one way or the other), you will find in this documentation the means
@@ -27,7 +27,7 @@ we want to fill
 
 The url of push is of the form :
 
-[https://serveur/emoncms/input/post.json?json={:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json={:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json={power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json={power:#value#}&apikey=xxx)
 
 With parameters :
 
@@ -38,7 +38,7 @@ With parameters :
 -   value : you must leave * value * for Jeedom to send the
     value of info
 
--    : to modify for
+-   power : to modify for
 
 Notification to Jeedom or recovery from Jeedom 
 ======================================================
@@ -74,18 +74,18 @@ EmonCMS (v9 at the end of 2015)
 If we install them, there are problems with the menus. Anyway,
 we only need a priori :
 
-:.git> (He's the one who can
+git clone <https://github.com/emoncms/event.git> (He's the one who can
 allow to create reactions on event in emoncms for
 notify Jeedom)
 
-:.git> (This is a plugin for
+git clone <https://github.com/emoncms/openbem.git> (This is a plugin for
 monitor the energy consumption of the house)
 
-:>
+git clone <https://github.com/emoncms/energy.git>
 
-:>
+git clone <https://github.com/emoncms/report.git>
 
-:>
+git clone <https://github.com/elyobelyob/mqtt.git>
 
 Nginx configuration 
 ===================
@@ -95,21 +95,21 @@ special conf need a classic repertoire
 
     location / emoncms {
            alias / var / www / emoncms /;
-           
+           index index.php;
             try_files = $ uri $ uri / @missing;
 
        location ~ [^ /] \.php (/|$) {
                fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
-               :
-               
-               
+               fastcgi_pass unix:/var/run/php5-fpm.sock;
+               fastcgi_index index.php;
+               include fastcgi_params;
                fastcgi_param REMOTE_USER $ remote_user;
                fastcgi_param PATH_INFO $ fastcgi_path_info;
-               
+               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
            }
 
     }
 
-     {
+    location @missing {
             rewrite ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
     }

@@ -66,7 +66,12 @@
         "com) ajoutera automatiquement votre plugin": "com) will automatically add your plugin"
     },
     "dev\/index.md": {
-        "Sommaire": "Summary"
+        "Sommaire": "Summary",
+        "[Structure info.json](\/documentations\/fr_FR\/dev\/structure_info_json)": "[Structure info.json](\/ documentations \/ fr_FR \/ dev \/ structure_info_json)",
+        "[Icône du plugin](\/documentations\/fr_FR\/dev\/Icone_de_plugin)": "[Plugin icon](\/ documentations \/ fr_FR \/ dev \/ Icone_de_plugin)",
+        "[Documentation du plugin](\/documentations\/fr_FR\/dev\/documentation_plugin)": "[Plugin documentation](\/ documentations \/ fr_FR \/ dev \/ documentation_plugin)",
+        "[Publication plugin](\/documentations\/fr_FR\/dev\/publication_plugin)": "[Publication plugin](\/ documentations \/ fr_FR \/ dev \/ publication_plugin)",
+        "[Widget du plugin](\/documentations\/fr_FR\/dev\/widget_plugin)": "[Plugin widget](\/ documentations \/ fr_FR \/ dev \/ widget_plugin)"
     },
     "dev\/publication_plugin.md": {
         "Comment publier le plugin sur le market": "How to publish the plugin on the market",
@@ -280,6 +285,7 @@
         "function vdm_update()": "function vdm_update ()",
         "function vdm_remove()": "function vdm_remove ()",
         "Voilà le plugin est prêt mais il reste la customisation et l'icône à mettre à jour": "Here the plugin is ready but there remains the customization and the icon to update",
+        "[documentation](https": "[documentation](https",
         "\/\/jeedom.github.io\/documentation\/dev\/fr_FR\/Icone_de_plugin)": "\/\/jeedom.github.io\/documentation\/dev\/fr_FR\/Icone_de_plugin)",
         "Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png": "Add the icon in the plugin_info folder under the name vdm_icon.png",
         "dans mon cas": "in my case",

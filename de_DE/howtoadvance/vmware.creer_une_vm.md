@@ -30,7 +30,7 @@ Gehen Sie mit Ihrem Internetbrowser zu IP \ _ESXI / ui :
 >
 > Wenn Sie nichts haben, rate ich Ihnen zu installieren
 > Webinterface, alle Informationen
-> [ici](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
+> [Hier](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
 
 Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
 
@@ -169,7 +169,7 @@ Ihr Betriebssystem :
 > "sudo apt-get -y installiere open-vm-tools".
 
 Für den Rest der Installation lade ich Sie ein, dies zu lesen
-[tutoriel](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-debian.installation.html#_installation)
+[Tutorial](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-debian.installation.html#_installation)
 
 Mounten Sie USB-Geräte in der VM 
 =======================================
@@ -178,7 +178,7 @@ Mounten Sie USB-Geräte in der VM
 >
 > Wenn Sie die folgenden Optionen nicht haben, müssen Sie sie aktualisieren
 > der ESXi Embedded Host Client, alle Informationen
-> [ici](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
+> [Hier](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-vmware.trucs_et_astuces.html)
 
 Es ist ein ziemlich seltener Bedarf, aber ich musste ihn für Jeedom verwenden
 in der Tat habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcean und GSM
@@ -189,7 +189,7 @@ benutze es.
 >
 > Für Zwave, RFXcom, edisio und enOcean gibt es kein Problem, z
 > GSM-Schlüssel müssen Sie befolgen
-> [tutoriel](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-gsm.huawei_mode_modem.html)
+> [Tutorial](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-gsm.huawei_mode_modem.html)
 > vorher, um den Schlüssel nur im Modem-Modus zu erzwingen, sonst ist es nicht
 > auf dem ESXi nicht richtig gesehen.
 

@@ -55,12 +55,12 @@ complande control of its installation.
 > Jeedom's capabilities or its use may be chargeable **and
 > may need internand connection**. You can find
 > the list of plugins
-> [ici](http://markand.jeedom.fr/index.php?v = d & p = markand & type = plugin).
+> [here](http://markand.jeedom.fr/index.php?v = d & p = markand & type = plugin).
 
 > **Tip**
 >
 > Service pack ? Quézako ? You can see
-> [ici](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
+> [Here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
 
 
 Jeedom Smart
@@ -68,7 +68,7 @@ Jeedom Smart
 
 Here you will find step by step documentation to install or restore Jeedom
 
-[ici](https://jeedom.github.io/documentation/howto/en_US/recovery_mode_jeedom_smart)
+[Here](https://jeedom.github.io/documentation/howto/en_US/recovery_mode_jeedom_smart)
 
 Jeedom mini +
 ===========
@@ -88,7 +88,7 @@ install it on your pc
 ---
 
 You have to go
-[ici](https://images.jeedom.com/jeeboard/),
+[Here](https://images.jeedom.com/jeeboard/),
 then in the Images folder recover the jeedom-jeeboard - \ *. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
@@ -140,10 +140,10 @@ raspberry PI **with an SD card.**
 Graphic**
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-strandch-lite.zip)
 
-**2 / Decompress the image with winrar** [Ici](http://www.win-rar.com)
+**2 / Decompress the image with winrar** [Here](http://www.win-rar.com)
 
 **3 / Burn this image on an SD with andcher for example**
-[ici](https:// andcher.io/)
+[Here](https:// andcher.io/)
 
 > **NOTE**
 >
@@ -186,12 +186,12 @@ You need to know the IP address of your PI. Many solutions :
 -   Consult the DHCP configuration in your router
 
 -   Use an angyipscanner type port scanner"
-    [ici](http://angryip.org/download/#windows)
+    [here](http://angryip.org/download/#windows)
 
 Establish connection
 
 Then use for example putty to establish your connection
-[Ici](http://www.putty.org/)
+[Here](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on
 open. Accept the default security message when
@@ -317,7 +317,7 @@ You must download the Virtual Box software
 ---
 
 Download a minimalist debian 9 Strandch image
-[Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
+[Here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-nandinst.iso)
 
 Download the extension pack, and install it.
 [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)

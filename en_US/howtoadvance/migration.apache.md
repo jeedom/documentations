@@ -73,14 +73,14 @@ Jeedom copy
 
     cp -R / usr / share / nginx / www / jeedom / * / var / www / html /
     cp -R /usr/share/nginx/www/jeedom/.{.]* / var / www / html /
-    
+    rm / var / www / html /log/nginx.error
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
 
 Access test 
 ------------
 
-    
+    systemctl start mysql
 
 You should now be able to access Jeedom from the same URL
 than before. If it is good you can continue ELSE IT IS NOT ESSENTIAL
@@ -104,16 +104,16 @@ By :
 Cleaning and removing nginx 
 ---------------------------------
 
-    *
+    apt-get remove nginx*
     rm -rf cp -R / usr / share / nginx
-    
-    
+    apt-get autoremove
+    systemctl disable nginx
 
 Restarting services 
 ------------------------
 
-    
-    
+    systemctl enable apache2
+    systemctl start cron
 
 Then connect to your Jeedom and reactivate the task engine
 and the scenarios. You can also revive the demons.

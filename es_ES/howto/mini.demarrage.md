@@ -71,16 +71,16 @@ diferentes servicios correspondientes a su Service Pack.
 
 ![mini.demarrage09](images/mini.demarrage09.png)
 
-Ahora puedes seguir la documentación : [Premiers pas avec
+Ahora puedes seguir la documentación : [Comenzando con
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/es_ES/index)
 Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y
 inicie sesión para comenzar a configurarlo y usarlo.
 
 Para seguir explorando y usar Jeedom, tienes
-documentación completa : [Documentation
+documentación completa : [Documentación
 Jeedom](https://jeedom.fr/doc) y también de una lista de secciones
-video tutoriales : [Tutos vidéos](https://jeedom.github.io/documentation/presentation/es_ES/index#tocAnchor-1-3).
+video tutoriales : [Tutoriales en video](https://jeedom.github.io/documentation/presentation/es_ES/index#tocAnchor-1-3).
 No dudes en ir al Foro de Jeedom por cualquier otro
-Pregunta : [Forum Jeedom](https://www.jeedom.com/forum/).
+Pregunta : [Foro de la libertad](https://www.jeedom.com/forum/).
 
 Gracias y buen descubrimiento de la automatización del hogar con Jeedom..

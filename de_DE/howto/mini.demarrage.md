@@ -71,16 +71,16 @@ verschiedene Services, die Ihrem Service Pack entsprechen.
 
 ![mini.demarrage09](images/mini.demarrage09.png)
 
-Sie können jetzt der Dokumentation folgen : [Premiers pas avec
+Sie können jetzt der Dokumentation folgen : [Erste Schritte mit
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/de_DE/index)
 So können Sie die IP-Adresse Ihres Jeedom Mini + und finden
 Melden Sie sich an, um die Einrichtung und Verwendung zu starten.
 
 Um Jeedom weiter zu erforschen und zu nutzen, haben Sie
-vollständige Dokumentation : [Documentation
+vollständige Dokumentation : [Dokumentation
 Jeedom](https://jeedom.fr/doc) und auch einer Abschnittsliste
-Video-Tutorials : [Tutos vidéos](https://jeedom.github.io/documentation/presentation/de_DE/index#tocAnchor-1-3).
+Video-Tutorials : [Video-Tutorials](https://jeedom.github.io/documentation/presentation/de_DE/index#tocAnchor-1-3).
 Zögern Sie nicht, für andere ins Jeedom Forum zu gehen
-Frage : [Forum Jeedom](https://www.jeedom.com/forum/).
+Frage : [Jeedom Forum](https://www.jeedom.com/forum/).
 
 Vielen Dank und gute Entdeckung der Heimautomation mit Jeedom.

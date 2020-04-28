@@ -14,7 +14,7 @@ Day.**
 
 To do this, open an SSH connection. (if you don't know how,
 watch the installation on microSD :
-[Ici](https://jeedom.github.io/documentation/installation/en_US/index.html)
+[Here](https://jeedom.github.io/documentation/installation/en_US/index.html)
 )
 
     vcgencmd otp_dump | grep 17:
@@ -49,7 +49,7 @@ Then restart PI3
 >
 > You can now install Jeedom by following exactly the same
 > procedure with an SD card.
-> [Ici](https://jeedom.github.io/documentation/installation/en_US/index.html)
+> [Here](https://jeedom.github.io/documentation/installation/en_US/index.html)
 
 Possible adjustments 
 =====================

@@ -1,5 +1,5 @@
 Not really a howto here but more a collection of tips and tricks on
-
+VMware
 
 Add your license 
 ==================
@@ -26,7 +26,7 @@ Mount an NFS datastore with Synology
 ========================================
 
 We will see here how to mount an NFS share from a Synology on
-. This allows for example to put virtual machines on the
+VMware. This allows for example to put virtual machines on the
 Synology (which may have more space than the ESXi) or send the
 machine backups on Synology
 
@@ -104,7 +104,7 @@ ESXi SSH (on the web interface, go to action ⇒ services
 identifiers are the same as to access the interface). Then he
 you just do :
 
-    :.
+    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
 
 You must have :
 
@@ -130,11 +130,11 @@ To see if you have the web interface, just go with
 your browser on IP \ _ESXI / ui if you have nothing you need
 install it, you must first connect in SSH on the ESXI then do :
 
-    :
+    esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
 
 If you already have it, to update it you have to do :
 
-    :
+    esxcli software vib update -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
 
 Installation of the thick client 
 ============================
@@ -149,7 +149,7 @@ then click on the link "Download vSphere Client for Windows" :
 Once downloaded you just have to start the installation (I pass
 voluntarily on this part because it is enough to validate everything).
 
-Then launch  vSphere Client, you should have :
+Then launch VMware vSphere Client, you should have :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -162,17 +162,17 @@ ESXi update
 =====================
 
 The procedure is quite easy, you must first recover the patch
-by going [here](https:.com / group / vmware / patch # search) (it
-you will probably have to log in with your  account). On the
+by going [here](https://my.vmware.com / group / vmware / patch # search) (it
+you will probably have to log in with your VMware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
-face leave the latest version of  and do "Search". Then
+face leave the latest version of VMware and do "Search". Then
 download the desired patch (usually the last one). The build number (the
 first issue not the one starting with KB) gives you the version of the
 patch that you can compare with your build number.
 
 Then transfer the zip to one of your datastores and make :
 
-    
+    esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
 > **NOTE**
 >
@@ -188,7 +188,7 @@ The command above only updates the vibes that need it but
 you can force the installation of all the vibes of the package (so
 be careful this can be downgrade) by doing :
 
-    
+    esxcli software vib install -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
 NTP Setup 
 ====================
@@ -200,8 +200,8 @@ Date and time, there you click on "Change settings" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
 
-And in the "NTP server" box you have to put : ,
-..
+And in the "NTP server" box you have to put : 0.debian.pool.n,
+1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov
 
 ![vmware.tips17](images/vmware.tips17.PNG)
 
@@ -268,7 +268,7 @@ Well.
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
-> if you go through  Remote Console everything should be ok (this
+> if you go through VMware Remote Console everything should be ok (this
 > goes through port 902)
 
 > **NOTE**
@@ -285,7 +285,7 @@ your pc to no longer have the alert.
 In order it is necessary :
 
 -   have a url (dns) to access your esxi, here we will take
-    
+    esxi1.lan
 
 -   configure the name of your esxi, in ssh above do :
 
@@ -297,10 +297,10 @@ In order it is necessary :
 
 <!-- -->
 
-    esxcli system hostname set --fqdn = 
+    esxcli system hostname set --fqdn = esxi1.lan
 
 -   Retrieve the root certificate of esxi, it is in
-    
+    /etc/vmware/ssl/castore.pem
 
 Right click on the computer then install the certificate, put it in
 "Trusted Root Certification Authority"

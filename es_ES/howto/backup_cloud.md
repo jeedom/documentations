@@ -3,8 +3,8 @@
 Una vez que se compra el servicio, debe estar en libertad : 
 
 - vaya a la administración de la misma y luego en la pestaña "Actualización / Mercado" y complete
-  - [Backup cloud] Nom : nombre de la carpeta o poner las copias de seguridad de jeedom (si tiene un jeedom simplemente ponga jeedom, de lo contrario, coloque una carpeta por jeedom)
-  - [Backup cloud] Mot de passe : contraseña de cifrado de respaldo. Tenga cuidado si lo pierde, las copias de seguridad se pierden, es imposible recuperar la contraseña
+  - Nombre [nube de respaldo] : nombre de la carpeta o poner las copias de seguridad de jeedom (si tiene un jeedom simplemente ponga jeedom, de lo contrario, coloque una carpeta por jeedom)
+  - [Copia de seguridad de la nube] Contraseña : contraseña de cifrado de respaldo. Tenga cuidado si lo pierde, las copias de seguridad se pierden, es imposible recuperar la contraseña
 - en la gestión de copias de seguridad, marque la casilla "Enviar copias de seguridad" en el nivel "Copias de seguridad del mercado""
 
 >**Nota**

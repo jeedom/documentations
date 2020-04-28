@@ -18,7 +18,7 @@ Hay varias formas en Jeedom para informar una inquietud :
 
 # Qué información enviar para tener una solución lo más rápido posible
 
-Cualquiera que sea el método utilizado para informar el problema encontrado, es muy importante proporcionar tanta información como sea posible.. De hecho, para nuestro mayor pesar, el 80% de las solicitudes tienen la primera respuesta estándar : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". Y sí ... a pesar de nuestra buena voluntad, no vemos su pantalla, no tenemos historial de lo que hizo como manipulación, y a veces usamos un vocabulario diferente para hablar sobre las mismas cosas....
+Cualquiera que sea el método utilizado para informar el problema encontrado, es muy importante proporcionar tanta información como sea posible.. De hecho, para nuestro mayor pesar, el 80% de las solicitudes tienen la primera respuesta estándar : "dénos más información sobre el problema para que podamos ayudarlo. [...]". Y sí ... a pesar de nuestra buena voluntad, no vemos su pantalla, no tenemos historial de lo que hizo como manipulación, y a veces usamos un vocabulario diferente para hablar sobre las mismas cosas....
 
 Pero como realmente queremos ayudarlo, aquí hay algunas pistas para brindarnos información valiosa : 
 

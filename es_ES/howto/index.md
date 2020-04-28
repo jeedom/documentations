@@ -1,14 +1,14 @@
 # Resumen
 
-- [Mettre à jour manuellement Jeedom](/documentations/es_ES/howto/jeedom.mise_a_jour_manuel)
-- [Passer jeedom ou un plugin en beta](/documentations/es_ES/howto/passer_en_beta)
-- [Raspberrypi 3](/documentations/es_ES/howto/raspberrypi3)
-- [Remise en état d'usine d'une smart](/documentations/es_ES/howto/recovery_mode_jeedom_smart)
-- [Remettre à zéro son mon de passe Jeedom en cas de perte](/documentations/es_ES/howto/reset.password)
-- [Comment faire une sauvegarde](/documentations/es_ES/howto/sauvegarde.comment_faire)
-- [Comment restaurer une sauvegarde](/documentations/es_ES/howto/sauvegarde.comment_recuperer)
+- [Actualización manual de Jeedom](/ documentations / fr_FR / howto / jeedom.mise_a_jour_manuel)
+- [Omitir jeedom o un complemento en beta](/ documentation / es_FR / howto / passer_en_beta)
+- [Raspberrypi 3](/ documentations / fr_FR / howto / raspberrypi3)
+- [Restablecimiento de fábrica de un dispositivo inteligente](/ documentation / en_FR / howto / recovery_mode_jeedom_smart)
+- [Restablezca su contraseña de Jeedom en caso de pérdida](/ documentations / fr_FR / howto / reset.password)
+- [Cómo hacer una copia de seguridad](/ documentation / es_FR / howto / backup.comment_faire)
+- [Cómo restaurar una copia de seguridad](/ documentation / es_FR / howto / backup.comment_recuperer)
 
 ## Archivo
 
-- [Clef wifi sur mini](/documentations/es_ES/howto/mini.clef_wifi)
-- [Mini guide de démarrage](/documentations/es_ES/howto/mini.demarrage)
+- [Clave WiFi en mini](/ documentation / fr_FR / howto / mini.clef_wifi)
+- [Mini guía de inicio](/ documentation / en_FR / howto / mini.demarrage)
