@@ -110,7 +110,7 @@ Technische Daten
 
 -   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : ZC08-13050003
+-   Z-Wave-Zertifizierung : 
 
 \.
 
@@ -119,7 +119,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Philio Technology Corporation
+-   Machen Sie : 
 
 -   Name : Philio PSP01
 

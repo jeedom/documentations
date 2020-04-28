@@ -101,7 +101,7 @@ Technische Daten
 
 -   Detektor : 28 x 96 x 23 mm
 
--   Magnet : 10 x 50 x 12 mm
+-   Magnet : 
 
 -   Gewicht : 52 g
 
@@ -111,7 +111,7 @@ Technische Daten
 
 -   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : ZC08-13050003
+-   Z-Wave-Zertifizierung : 
 
 \.
 
@@ -120,7 +120,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Philio Technology Corporation
+-   Machen Sie : 
 
 -   Name : PST02-C Tür / Fenster 3 in 1 Sensor
 
