@@ -145,3 +145,11 @@ h1,h2,h3,h4,h5 {
 #ul_menu{
   white-space:nowrap;
 }
+
+pre{
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Mozilla, post millennium */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
