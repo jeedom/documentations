@@ -4,11 +4,11 @@ Le site jeedom.com est édité et exploité par la société JEEDOM SAS, sociét
 Siège social : 1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France
 N° de TVA intracommunautaire : FR31810505784
 
-# REPRÉSENTANTS LÉGAUX:
+# REPRÉSENTANTS LÉGAUX
 
 Président: ENOXA SAS
 
-# CONTACT :
+# CONTACT
 
 Notre service clients est joignable par e-mail à l’adresse contact@jeedom.com
 
