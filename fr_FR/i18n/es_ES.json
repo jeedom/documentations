@@ -3,5 +3,27 @@
         "Documentation Jeedom": "Documentación de Jeedom",
         "Bienvenu sur le site de documentation Jeedom": "Bienvenido a la documentación de Jeedom",
         "Vous trouverez ici toute la documentation relative a jeedom": "Aquí encontrará toda la documentación relacionada con jeedom"
+    },
+    ".\/legal_notice.md": {
+        "Mentions légales": "Notas legales",
+        "Le site jeedom": "Le site jeedom",
+        "com est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4": "com est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4",
+        "000 €, immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON": "000 €, immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON",
+        "Siège social": "Siège social",
+        "1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France": "1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France",
+        "N° de TVA intracommunautaire": "N° de TVA intracommunautaire",
+        "FR31810505784": "FR31810505784",
+        "REPRÉSENTANTS LÉGAU": "REPRÉSENTANTS LÉGAU",
+        "Président": "Président",
+        "ENOXA SAS": "ENOXA SAS",
+        "CONTACT": "Contactar",
+        "Notre service clients est joignable par e-mail à l'adresse contact@jeedom.com": "Notre service clients est joignable par e-mail à l'adresse contact@jeedom.com",
+        "HÉBERGEUR": "HÉBERGEUR",
+        "L'hébergement du site jeedom": "L'hébergement du site jeedom",
+        "com est assuré par": "com est assuré par",
+        "OVH": "OVH",
+        "2 rue Kellermann – 59100 ROUBAIX – France": "2 rue Kellermann – 59100 ROUBAIX – France",
+        "Directeur de la publication et webmaster": "Directeur de la publication et webmaster",
+        "Jeedom SAS": "Jeedom SAS"
     }
 }
