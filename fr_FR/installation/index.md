@@ -211,7 +211,7 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 
     ./install.sh -w /var/www/html -z -m Jeedom
 
-**8/ Optimisation système
+**8/ Optimisation système**
 
 Si vous utilisez votre Raspberry pour Jeedom sans écran connecté, il est recommandé d'effectuer le minimum de RAM à la partie vidéo.
 
