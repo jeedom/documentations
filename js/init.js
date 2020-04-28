@@ -62,6 +62,7 @@ var docMenu = [
     pt_PT : "",
     id : "v3UserManual",
     submenu:[
+      {link : "/documentations/#LANG#/core/#VERSION#/changelog",fr_FR : "Changelog",en_US:"Changelog",es_ES:"Changelog",de_DE:"Changelog",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/dashboard",fr_FR : "Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/view",fr_FR : "Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
       {link : "/documentations/#LANG#/core/#VERSION#/design",fr_FR : "Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
