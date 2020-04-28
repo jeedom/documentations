@@ -59,12 +59,12 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-Vous devez télécharger le logicel Etcher [here](https://etcher.io /) then install it on your pc
+Vous devez télécharger le logicel Etcher [here](https://etcher.io/) then install it on your pc
 
 2nd step : Jeedom image recovery
 ---
 
-Vous devez aller [here](https://images.jeedom.com / jeeboard /), then in the Images folder recover the jeedom-jeeboard - \*. rar image
+Vous devez aller [here](https://images.jeedom.com / jeeboard/), then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 
