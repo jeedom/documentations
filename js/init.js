@@ -215,7 +215,7 @@ for(var i in docMenu){
       if(submenu.link == ''){
         continue;
       }
-      if(submenu.version && !submenu.version.indexOf(jeedomVersion) == -1){
+      if(submenu.version && submenu.version.indexOf(jeedomVersion) == -1){
         continue;
       }
       html += '<li><a href="'+submenu.link.replace('#LANG#',lang).replace('#VERSION#',jeedomVersion)+'">'+genText(submenu,lang)+'</a></li>';
