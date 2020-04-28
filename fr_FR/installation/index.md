@@ -11,41 +11,30 @@ Jeedom peut être installé sur différents composants hardware :
 
 -   Freebox Delta
 
-Vous pouvez aussi acheter une box toute faite avec Jeedom préinstallé
-qui contient en plus un service pack (plus de support et de services) et
-des plugins offerts :
+Vous pouvez aussi acheter une box toute faite avec Jeedom préinstallé qui contient en plus un service pack (plus de support et de services) et des plugins offerts :
 
--   [Jeedom Smart
-    Z-Wave+](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+-   [Jeedom Smart Z-Wave+](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [Jeedom Smart Z-Wave+ et
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave+ et RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
 
--   [Jeedom Smart
-    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [Jeedom Smart EnOcean et
-    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean et RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
 Voici une configuration "type" pour bien débuter avec Jeedom en Z-Wave :
 
 1.  Raspberry pi 3 :
 
     -   Un raspberry+boitier \~ 50 €
-
     -   Une clef Aeon Gen 5 \~ 60 €
-
     -   Une micro carte SD \~ 7 €
-
     -   Une alimentation USB \~ 8 €
 
-Soit un total de 125 € pour une box domotique open source avec une
-maîtrise complète de son installation.
+Soit un total de 125 € pour une box domotique open source avec une maîtrise complète de son installation.
 
 > **Tip**
 >
-> Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une
-> clef enOcean.
+> Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une clef enOcean.
 
 > **Tip**
 >
@@ -96,10 +85,8 @@ puis dans le dossier Images récuperer l’image jeedom-jeeboard-\*.rar
 Etape 3 : Décompression de l’image de Jeedom
 ---
 
-Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser
-vous pouvez installer
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
-devez obtenir :
+Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser vous pouvez installer
+[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -108,36 +95,29 @@ devez obtenir :
 Etape 4 : Gravure de l’image sur la carte SD
 ---
 
-Insérez votre carte SD dans votre ordinateur puis lancez le logiciel
-Etcher, donnez-lui le chemin de l’image, le chemin de la carte SD et
-cliquez sur "Flash!". Le logiciel va graver la carte SD et vérifier la
+Insérez votre carte SD dans votre ordinateur puis lancez le logiciel Etcher, donnez-lui le chemin de l’image, le chemin de la carte SD et cliquez sur "Flash!". Le logiciel va graver la carte SD et vérifier la
 gravure.
 
-Vous n’avez plus qu’à mettre la carte SD dans la Jeedomboard (ou
-Hummingboard), à brancher le réseau et l’alimentation, votre Jeedom va
-démarrer (5 min) et vous devriez le voir sur le réseau.
+Vous n’avez plus qu’à mettre la carte SD dans la Jeedomboard (ou Hummingboard), à brancher le réseau et l’alimentation, votre Jeedom va démarrer (5 min) et vous devriez le voir sur le réseau.
 
 > **Tip**
 >
 > Les identifiants SSH sont jeedom/Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
 
 
 Raspberrypi
 ===========
 
-Vous trouverez ici la documentation pour installer Jeedom sur un
-raspberry PI **avec une carte SD.**
+Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **avec une carte SD.**
 
 > **Important**
 >
-> Debian 9 (Stretch) est la distribution officiellement supportée pour
-> la version 3.1.5 de jeedom.
+> Debian 9 (Stretch) est la distribution officiellement supportée pour la version 3.1.5 de jeedom.
 
-**1/ Télécharger le dernière image "lite", c’est à dire sans interface
-graphique**
+**1/ Télécharger le dernière image "lite", c’est à dire sans interface graphique**
+
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
 **2/ Décompresser l’image avec winrar** [Ici](http://www.win-rar.com)
@@ -291,7 +271,7 @@ Vous pouvez vous connecter grâce à l'adresse indiquée sur la page:
 
 Pensez à affecter le port USB de la Delta à la VM si vous souhaitez utiliser une antenne.
 
-Ne **pas** cocher "Écran", ceci ne sert à rien sur l'image Jeedom (a part une surconsommation). 
+Ne **pas** cocher "Écran", ceci ne sert à rien sur l'image Jeedom (a part une surconsommation).
 
 l'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son nom.
 
