@@ -100,17 +100,11 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **
 >
 > Debian 9 (Stretch) est la distribution officiellement supportée pour la version 3.1.5 de jeedom.
 
-**1/ Télécharger le dernière image "lite", c’est à dire sans interface graphique**
+**1/ Télécharger le dernière image "lite", c’est à dire sans interface graphique** [ici](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
+**2/ Décompresser l’image avec winrar** [ici](http://www.win-rar.com)
 
-**2/ Décompresser l’image avec winrar**
-
-[ici](http://www.win-rar.com)
-
-**3/ Gravez cette image sur une SD avec etcher par exemple**
-
-[ici](https://etcher.io/)
+**3/ Gravez cette image sur une SD avec etcher par exemple** [ici](https://etcher.io/)
 
 > **Note**
 >
@@ -256,17 +250,14 @@ Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser s
 Etape 1 : Téléchargement et installation de VMware Player
 ---
 
-Vous devez télécharger le logicel Virtual Box
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Etape 2 : Téléchargement d’une image Debian strecht - netinstall
 ---
 
-Téléchargez une image minimaliste debian 9 Stretch
-[Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Téléchargez le pack d’extensions, et installez-le.
-[ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Téléchargez le pack d’extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Etape 3 : Configuration de l’environnement de la VM
 ---
