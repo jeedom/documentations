@@ -313,6 +313,7 @@ $(function(){
   $('select').formSelect();
   $('img').addClass('responsive-img')
   cookiesPolicyBar();
+  setLeftMenu();
 });
 
 function setTheme(){
@@ -359,8 +360,30 @@ function cookiesPolicyBar(){
 
 function setLeftMenu(){
   var url = window.location.href;
-  if(url.indexOf('plugins') != -1){
-    
+  for(var i in docMenu){
+    var menu = docMenu[i]
+    if(menu.link && menu.link != ''){
+      if(url.indexOf(menu.link.replace('#LANG#',lang)) != -1){
+        $('a[href="'+menu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('active')
+        return;
+      }
+      continue;
+    }
+    if(menu.submenu){
+      for(var j in menu.submenu){
+        var submenu = menu.submenu[j]
+        if(submenu.link && submenu.link != ''){
+          if(url.indexOf(submenu.link.replace('#LANG#',lang)) != -1){
+            $('a[href="'+submenu.link.replace('#LANG#',lang)+'"]').closest('li').addClass('active')
+            if(menu.id){
+              $('#div_'+menu.id).click();
+            }
+            return;
+          }
+          continue;
+        }
+      }
+    }
   }
 }
 
