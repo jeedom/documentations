@@ -5,7 +5,7 @@ var docMenu = [
     es_ES : "Introduccion",
     de_DE : "Introduction",
     pt_PT : "",
-    link : ""
+    link : "/documentations/#LANG#/presentation/index"
   },{
     fr_FR:'Assistance et bug',
     en_US : 'Assistance and bug',
@@ -21,21 +21,9 @@ var docMenu = [
     pt_PT : "",
     id : "useJeedom",
     submenu : [
-      {link : "/documentations/#LANG#/presentation/index",fr_FR : "Présentation",en_US:"Presentation",es_ES:"Presentación",de_DE:"Presentation",pt_PT:""},
       {link : "/documentations/#LANG#/installation/index",fr_FR : "Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       {link : "/documentations/#LANG#/compatibility/index",fr_FR : "Compatibilité matériel et logiciel",en_US:"Compatibilité hardware and software",es_ES:"Compatibilidad de hardware y software.",de_DE:"Hardware- und Softwarekompatibilität",pt_PT:""},
       {link : "/documentations/#LANG#/premiers-pas/index",fr_FR : "Premiers pas",en_US:"First step",es_ES:"Empezando",de_DE:"Erste Schritte",pt_PT:""},
-    ]
-  },{
-    fr_FR : "Box Jeedom",
-    en_US : "Jeedom's box",
-    es_ES : "Box Jeedom",
-    de_DE : "Jeedom Box",
-    pt_PT : "",
-    id : "boxJeedom",
-    submenu : [
-      {link : "",fr_FR : "Démarrage Jeedom smart",en_US:"Jeedom smart start",es_ES:"Bota  Jeedom Smart",de_DE:"Erste Schritte Jeedom Smart",pt_PT:""},
-      {link : "",fr_FR : "Démarrage Jeedom pro",en_US:"Jeedom pro start",es_ES:"Bota Jeedom pro",de_DE:"Erste Schritte Jeedom Pro",pt_PT:""},
     ]
   },{
     fr_FR : "Services",
