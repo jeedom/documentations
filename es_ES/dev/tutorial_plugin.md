@@ -222,28 +222,28 @@ por
 
 ![image](images/ /tutorial__desktop2.png)
 
-. .
+. ebería tener el complemento de activos, pero por el momento no hace nada.
 
 # Las órdenes
 
-. 
+El propósito del complemento será recuperar un  aleatorio y mostrarlo en el tablero. 
 
-. Elle sera de sous-type « String » car c'est une chaîne de caractère.
+Por lo tanto, debe crear un comando de tipo de información pora almacenar esta información. Elle sera de sous-type « String » car c'est une chaîne de caractère.
 
-. 
+Pora el ejemplo agregaremos un comando que actualiza la información. Por lo tanto, será un comando de tipo de acción y otro subtipo.
 
--Créer un équipement « 1 » en cliquant sur le +. . . 
+-Créer un équipement « 1 » en cliquant sur le +. Actívalo y hazlo visible. Elija un objyo y el equipo debe aporecer en el tablero (dependiendo del objyo). 
 
-.
+En este momento, no hay comandos que aporezcan en la pestaña de comandos s, ni en el wIdentificacióngy.
 
-.
+Abra el archivo core / / class / / .class.php y busque la función postSave () (Lea el documento del complemento de plantilla si aún no lo ha hecho)
 
-
+Creamos los 2 pedIdentificaciónos
 
 ```
- {
+función pública postSave () {
 	$info = $this->gyCmd(null, 'story');
-	si (! {
+	si (!is_object ($ info)) {
 		$info = new Cmd();
 		$info->syName(__('Histoire', __FILE__));
 	}
@@ -254,7 +254,7 @@ por
 	$info->save();	
 	
 	$reesh = $this->gyCmd(null, 'reesh');
-	si (! {
+	si (!is_object ($ reesh)) {
 		$reesh = new Cmd();
 		$reesh->syName(__('Raaichir', __FILE__));
 	}
@@ -266,15 +266,15 @@ por
 }
 ```
 
--Créer un autre équipement « 2 » en cliquant sur le +. . . .
+-Créer un autre équipement « 2 » en cliquant sur le +. En la pestaña de comandos, aporecieron los comandos. Actívalo y hazlo visible. Elija un objyo principal y vea cómo se ve en el tablero.
 
--Enregistrer le premier équipement « 1 » pour créer les commandes. .
+-Enregistrer le premier équipement « 1 » pour créer les commandes. Vea el renderizado en el wIdentificacióngy también.
 
-.
+En la pestaña de comandos, deberías ver.
 
 ![image](images/ /tutorial__cmd1.png)
 
-..
+Abra el escritorio / / php / / .php pora encontrar el código html de esta tabla.
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
@@ -289,7 +289,7 @@ por
 </ /table>
 ```
 
-..
+En el momento de la visualización, es el script de escritorio / / js / / .js que se llama y lanza la función addCmdToTable.
 
 ```
 función addCmdToTable (_cmd) {
@@ -297,25 +297,25 @@ función addCmdToTable (_cmd) {
         var _cmd = {configuración: {}};
     }
     si (!issy (_cmd.configuration)) {
-        
+        _cmd.configuration = {};
     }
-    .
-    
-    :
-     : 
-    
-    
+    <html> var tr = '.Identificación) + '">';
+    tr + = ' <td> ';
+    <html> tr + = ':ninguno; "> ';
+    <html> tr + = ' : 140px; "marcador de posición =" {{Nombre}} "> ';
+    tr + = ' </ /td> ';
+    tr + = ' <td> ';
     <html> tr + = &#39;.tipo) + &#39;">&#39; + jeedom.cmd.availableType () + &#39;&#39;;
     <html> tr + = &#39;.subType) + &#39;">&#39;;
-    
-    
-    si (es_numeric (_cmd. {
-        
+    tr + = ' </ /td> ';
+    tr + = ' <td> ';
+    si (es_numeric (_cmd.Identificación)) {
+        tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></ /i></ /a> ';
         tr + = &#39; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></ /i> {{Test}}</ /a> &#39;;
     }
-    
-    
-    
+    tr + = ' <i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></ /i> ';
+    tr + = ' </ /td> ';
+    tr + = ' </ /tr> ';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').syValues(_cmd, '.cmdAttr');
     si (issy (_cmd.tipo)) {
@@ -325,91 +325,91 @@ función addCmdToTable (_cmd) {
 }
 ```
 
-. 
+Esto se hace automáticamente. 
 
-.
+Quiero agregar las opciones de visualización y registro pora cada pedIdentificacióno.
 
-. ..
+Edito el código html de la tabla en el archivo de escritorio.php agregando una columna ..
 
 ```
 <th>{{Nombre}}</ /th><th>{{Type}}</ /th><th>{{Configuration}}</ /th><th>{{Action}}</ /th>
 ```
 
-.
+Luego edite el escritorio.js, encuentra
 
 ```
     <html> tr + = &#39;.subType) + &#39;">&#39;;
-    
-    
-    si (es_numeric (_cmd. {
+    tr + = ' </ /td> ';
+    tr + = ' <td> ';
+    si (es_numeric (_cmd.Identificación)) {
 ```
 
-.
+Agregamos la información deseada.
 
 ```
     <html> tr + = &#39;.subType) + &#39;">&#39;;
-    
-    
-    
-   
-   		
-    
-    si (es_numeric (_cmd. {
+    tr + = ' </ /td> ';
+    tr + = ' <td> ';
+    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" / /> {{Historizar}} <br/ /></ /span> ';
+   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" / /> {{Ver}} <br/ /></ /span> ';
+   tr + = ' </ /td> ';		
+    tr + = ' <td> ';
+    si (es_numeric (_cmd.Identificación)) {
 ```
 
-. 
+ejo el botón pora crear un pedIdentificacióno, pero quiero que esté a la izquierda.. 
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
 ```
 
-
+Cambio la clase pull-right a pull-left
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
 ```
 
-.. 
+Aquí está la representación.Las opciones de configuración (pantalla y registro) están presentes. 
 
 ![image](images/ /tutorial__cmd2.png)
 
-.
+Aquí queda recuperar un  aleatorio y usar los comandos.
 
 
-# 
+# Recuperación de información
 
-.
+Pora recuperar aleatoriamente un .
 
 ```
 $url = "http:/ // /www.viedemerde./ /aleatoire";
 $data = file_gy_contents($url);
 @$dom = new OMocument();
-
+libxml_use_internal_errors (false);
 $dom->loadHTML('<?xml encoding="UTF-8">' .$data);
-
+libxml_use_internal_errors (true);
 $xpath = new OMXPath($dom);
 $divs = $xpath->query('/ // /article[@class="art-panel col-xs-12"]/ // /div[@class="panel-content"]/ // /p/ // /a');
-
+devuelve $ divs [0] -> nodeValue;
 ```
 
-.
+Abra el archivo core / / class / / .class.php y pora la clase  que hereda de los métodos egLogic, creo una función randomVdm
 
 ```
-	 {
+	función pública randomVdm () {
 		$url = "http:/ // /www.viedemerde./ /aleatoire";
 		$data = file_gy_contents($url);
 		@$dom = new OMocument();
-		
+		libxml_use_internal_errors (true);
 		$dom->loadHTML($data);
-		
+		libxml_use_internal_errors (false);
 		$xpath = new OMXPath($dom);
 		$divs = $xpath->query('/ // /article[@class="art-panel col-xs-12"]/ // /div[@class="panel-content"]/ // /p/ // /a');
-		
+		devuelve $ divs [0] -> nodeValue;
 	}
 ```	
 
-. 
-. 
+Ahora actualizaremos el comando de información (historia) con esta información iniciando el comando de acción (actualizar). 
+Todavía en core / / class / / .class.php pora la clase Cmd usaremos el método execute 
 
 ```
 función pública ejecutar ($ _ options = array ()) {
@@ -418,71 +418,71 @@ función pública ejecutar ($ _ options = array ()) {
  }
 ```
 
-C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». 
+C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». La clase Cmd heredó todos los métodos de la clase cmd (Core jeedom)
 
 On vérifie le logicalIdentificación de la commande lancée y si « reesh » on lance les actions
 
 ```
- {				
-	':  . 
-	
-	
+switch ($ this-> gyLogicalIdentificación ()) {				
+	caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
+	/ // / código pora actualizar mi pedIdentificacióno
+	pausa;
 }
 ```
 
- . 
+Ahora queda por iniciar la función randomVdm () . Pora hacer esto, recuperamos el eqLogic (equipo) del comando de lanzamiento y lanzamos la función
 
 ```
 $eqlogic = $this->gyEqLogic(); / // / Récupération de l'eqlogic
 $info = $eqlogic-> randomVdm() ; / // /Lance la fonction y stocke le résultat dans la variable $info
 ```
 
-On my à jour la commande « story » avec la variable $info. 
+On my à jour la commande « story » avec la variable $info. Utilizaremos el método checkAndUpdateCmd de la clase eqlogic
 
 ```
 $eqlogic->checkAndUpdateCmd('story', $info);
 ```
 
-
+Que da al final
 
 ```
     función pública ejecutar ($ _ options = array ()) {
 		$eqlogic = $this->gyEqLogic(); / // /récupère l'éqlogic de la commande $this
-		 			
-			':  . 
+		switch ($ this-> gyLogicalIdentificación ()) {/ // / comprueba el logicalIdentificación del comando 			
+			caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
 				$info = $eqlogic->randomVdm(); 	/ // /On lance la fonction randomVdm() pour récupérer une  y on la stocke dans la variable $info
 				$eqlogic->checkAndUpdateCmd('story', $info); / // / on my à jour la commande avec le LogicalIdentificación "story"  de l'eqlogic 
-				
+				pausa;
 		}
     }
 ```
 
-. Puis la commande « Histoire » qui doit être à jour.
+Ahora ve a un dispositivo creado y ejecuta el comando Actualizar. Puis la commande « Histoire » qui doit être à jour.
 
-. 
+En el Tablero, aporece información. Haga clic en el icono de actualización pora cambiar la información.
 
- 
+Luego definiremos el tamaño del wIdentificacióngy y lo personalizaremos un poco 
 
-.
+Luego automatiza la actualización.
 
-# 
+# Actualizar información (cron)
 
-. Si vous cliquer sur la commande « reesh » , la commande « story » se my à jour mais sinon rien. 
+El complemento es funcional pero por el momento no hace mucho. Si vous cliquer sur la commande « reesh » , la commande « story » se my à jour mais sinon rien. 
 
-. . .
+Tenga en cuenta que pora el orden lo nombro por logicalIdentificación. Y es importante. Tener un Identificación. Lógico único por dispositivo (eqLogic) simplifica las cosas.
 
- : 
+Ahora veremos cómo actualizar el comando usando las funciones nativas del núcleo : Crons
 
- : 
+Hay varios : 
 
-- cron : 
-- Cron5 : 
-- Cron15 : 
-- Cron30 : 
-- CronHourly : 
-- Cronaily : 
+- cron : actualizar cada minuto
+- Cron5 : actualizar cada 5 minutos
+- Cron15 : actualizar cada 15 minutos
+- Cron30 : actualizar cada 30 minutos
+- CronHourly : eh ... cada hora
+- Cronaily : bien 1 / / día
 
-. .
+Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función CronHourly ().
 
 . 
 
@@ -540,7 +540,7 @@ si (! {
 $cmd->execCmd();
 ```	
 
-
+Que da al final
 
 ```
        {
@@ -595,7 +595,7 @@ Pour tester, dans jeedom , aller dans configuration/ /moteur de tâches y lancer
 		
 			$eqLogics = yo::byType('', true);
 		} 
-			$eqLogics = array(yo::byIdentificación($_eqLogic_;
+			$eqLogics = array(yo::byIdentificación($_eqLogic_Identificación));
 		}		  
 	
 		 {
@@ -648,7 +648,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 ```
 		$info = $this->gyCmd(null, 'story');
-		si (! {
+		si (!is_object ($ info)) {
 			$info = new Cmd();
 			$info->syName(__('Histoire', __FILE__));
 		}

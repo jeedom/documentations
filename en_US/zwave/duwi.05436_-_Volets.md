@@ -216,27 +216,27 @@ Parameter details :
 -   0 : Running Time :
 
 These are the rise and fall times. You should find your
-.
+learning.
 
- : 
-.
+Coding is done by two pairs of bytes : the first for the climb
+and the second for the descent.
 
+The values are coded in hexadecimal in the module and reset
+decimal in Jeedom display.
 
-.
+For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
+for ascent and 0x12 for descent. Or, brought back again in
+decimal : 18s for ascent and descent.
 
-For example :  : . 
-. 
- : .
+To note : forcing a value to zero for this parameter will imply that the
+module will switch on ascent or descent without time limit. It will take
+then send a 'STOP' to interrupt.
 
- : 
-. 
-.
+-   1 : STOP-functionnality : Enabled or Disabled :
 
--   1 :  :  :
-
-
-
-.
+Used to indicate whether pressing in the opposite direction during a
+displacement stops the shutter or immediately returns it in the direction
+opposite.
 
 \
 
@@ -244,8 +244,8 @@ For example :  : .
 
 \
 
-
-.
+This module has only one association group in which must be
+find your Z-Wave controller.
 
 \
 
@@ -258,18 +258,18 @@ Good to know
 
 \
 
--   
-    
-    on the switch.  :
+-   As specified at the beginning, the module does not report changes in
+    positions made by the user by pressing directly
+    on the switch. To have a return of state, it is thus necessary :
 
-        '
+        o either configure a poll at 5 minutes in the configuration, tab 'values'
 
 ![Groupe](images/duwi.05436/7-Poll.PNG)
 
-    
+    o either create a scenario which launches the 'Refresh' command every x minutes (at least 1 minute)
 
--   
-    
+-   Setting an operation without time limit may prove to be
+    useful for VMC commands
 
 \
 
@@ -281,7 +281,7 @@ Good to know
 
 > **Tip**
 >
-> 
-> '.
+> The "Store \ _2 \ _IMG" Widget used on the "Status" info command. This
+> widget is nice because it shows 'partially open' states'.
 
 **@Theduck38**

@@ -4,7 +4,7 @@
 
 ![etc1.module 2](images/etc1/etc1.module-2.png)
 
--   ****
+-   **The Jeedom visual**
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
@@ -28,37 +28,37 @@ Les Remote controls “Smile” ont un canal, elles sont idéales pour la table
 Functions 
 =========
 
--    : 
+-   Mode of use : 
 
--   
+-   Small, discreet and aesthetic
 
--   
+-   Ease of use and installation
 
- 
+Technical characteristics 
 ===========================
 
--    : 
+-   Type of module : 
 
 -   Food : 
 
 -    : 1
 
--    : 
+-   Radio protocol : 868.3 MHz
 
 -    : 
 
--    : -
+-   Operating temperature : -
 
--    : 
+-   Dimensions : 
 
--    : 
+-   Degree of protection : 
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
- 
+Module data 
 =================
 
--    : 
+-   Mark : Edisio Smart Home
 
 -   Name : 
 
@@ -67,16 +67,16 @@ Functions
 General configuration 
 ======================
 
-,
-
+To configure the Edisio plugin and associate a module with Jeedom,
+refer to this
 [documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **IMPORTANT**
 >
-> 
-> .
+> To have Jeedom automatically create your transmitter modules, remember
+> not activate the option in the plugin configuration.
 
- 
+Function diagram 
 ---------------------------
 
  :
@@ -108,11 +108,11 @@ Commands
 ---------
 
 
- :
+associated with the module :
 
 ![Commands](images/etc1/etc1.commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
 
@@ -121,15 +121,15 @@ Commands
 Information 
 ------------
 
-
+Once your equipment is associated with Jeedom, various information will be
 available :
 
 ![Commands](images/etc1/etc1.informations.jpg)
 
 -   Creation : 
 
--   Communication : 
-    
+-   Communication : Indicates the last communication recorded between
+    Jeedom and the micro-module
 
 -   Drums : 
 

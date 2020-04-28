@@ -1,4 +1,4 @@
- 
+Aeotec Keyfob 
 =============
 
 \.
@@ -24,9 +24,9 @@ Zusammenfassung
 
 \.
 
-
-
-
+Die Aeon Labs Schlüsselbundfernbedienung mit modernem und angenehmem Design
+verfügt über 4 Tasten zur Steuerung aller Gerätetypen
+Z-Wave wie Lampen, Jalousien usw.
 
 Mit seinen sehr kleinen Abmessungen können Sie es leicht setzen
 in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet
@@ -88,7 +88,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : 
+-   Name : Schlüsselanhänger
 
 -   Hersteller ID : 134
 
@@ -176,7 +176,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-
+Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
@@ -202,8 +202,8 @@ Parameterdetails :
 -   250: Betriebsart der Fernbedienung (absolut
     Szene für Fernbedienung)
 
-
-.
+Alle anderen Parameter sind nur bei direkter Zuordnung sinnvoll
+zwischen Fernbedienung und Modulen.
 
 \.
 
@@ -211,7 +211,7 @@ Parameterdetails :
 
 \.
 
-. Er ist
+Dieses Modul hat eine einzelne Zuordnungsgruppe. Er ist
 wesentlich.
 
 \.
@@ -233,8 +233,8 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   2 : Wecken Sie die Fernbedienung auf
 
--   3 : 
-    
+-   3 : Ändern Sie den Parameter 250 auf true (auch wenn
+    erscheint schon wahr)
 
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung vorgenommen wurde
     berücksichtigt

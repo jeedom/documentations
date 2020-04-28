@@ -1,4 +1,4 @@
-" 
+Fibaro FGRM-222 "Rollladen" 
 ===============================
 
 \.
@@ -24,26 +24,26 @@ Zusammenfassung
 
 \.
 
-
-
-
-. 
-
+Mit dem Mikromodul FGRM-222 können Sie die Motorisierungen von verwalten
+elektronische Rollläden, Jalousien oder Türen
+Garage dank des Z-Wave-Protokolls unter Beibehaltung Ihrer
+vorhandener Schalter. So können Sie den Motor bedienen
+verbunden mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
 direkt von der Taste am Mikromodul.
 
-
-
-.
+Darüber hinaus kann dieses Mikromodul den Verbrauch übertragen
+Momentane (W) und kumulative (KWh) elektrische Leistung des Geräts
+beigefügt.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
-
+Integrieren Sie dieses Modul in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
 vorhanden.
 
+Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
+andere Module, um eine vollständige Abdeckung Ihrer
+Wohnung.
 
-
-.
-
-Notiz : .
+Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
 \.
 
@@ -52,22 +52,22 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie Ihre Jalousien oder Rollläden fern
 
--   
-    
+-   Kompatibel mit BSO und Jalousie mit Positionierung von
+    Lamellen
 
 -   Wird hinter einem vorhandenen Switch installiert
 
--   
+-   Auf / Ab und Positionierungsfunktion
 
--   
+-   Kompatibel mit Motoren mit mechanischem oder elektronischem Anschlag
 
--   
+-   Messung des momentanen und kumulativen Verbrauchs
 
--   
+-   Drahtloses Aufdate mit der Fibaro Home Center 2-Box
 
--   
+-   Testfunktion für die Z-Wave-Netzabdeckung
 
 -   Klein, diskret und ästhetisch
 

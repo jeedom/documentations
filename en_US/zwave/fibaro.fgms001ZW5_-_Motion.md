@@ -54,7 +54,7 @@ Functions
 
 -   Light intensity measurement
 
--   
+-   Seismic intensity measurement
 
 -   Burglary and theft protection
 
@@ -76,7 +76,7 @@ Technical characteristics
 
 \
 
--   Type of module : 
+-   Type of module : Z-Wave + transmitter
 
 -   Food : CR123A 3,6VDC battery
 
@@ -108,7 +108,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Name : ]
+-   Name : Fibaro FGMS-001-ZW5 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -140,8 +140,8 @@ inclusion refer to this
 
 \
 
-
- :
+Once included, you must apply the zwave + configuration via the
+drop-down list you should get this :
 
 \
 
@@ -153,9 +153,9 @@ inclusion refer to this
 
 \
 
-
-
-.
+You have to click once on the magnifying glass to retrieve the orders from the
+module. Once the module has been recognized, the commands associated with the module
+will be available.
 
 \
 
@@ -174,8 +174,8 @@ Here is the list of commands :
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
--    : 
-    
+-   Seismic : it is the command which allows to increase the intensity
+    seismic
 
 -   Sabotage : this is the Sabotage command (it is triggered in case
     vibration)

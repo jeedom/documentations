@@ -1,4 +1,4 @@
- 
+Greenwave PowerNode - 1 enchufe 
 =============================
 
 \
@@ -24,38 +24,38 @@ Resumen
 
 \
 
+El módulo de enchufe PowerNode de Greenwave es un dispositivo inteligente que
+se conecta a uno de sus electrodomésticos y dispositivos electrónicos para
+le permite monitorear y controlar el consumo de energía a
+distancia a través del navegador web o teléfono inteligente.
 
+Usando la tecnología Z-Wave, el tomacorriente controlado por PowerNode es
+compatible con la mayoría de las cajas de domótica del mercado, como Fibaro
+Home Center 2, eedomus o Zipabox.
 
+El módulo de enchufe PowerNode recopila datos de consumo
+de energía del dispositivo conectado y las transmite a la caja de automatización del hogar.
+Esta salida controlada también le permite activar o desactivar
+el dispositivo de forma remota a través de un navegador web o teléfono inteligente o conjunto
+un calendario para activar o desactivar automáticamente su dispositivo
+en tiempos predefinidos.
 
-.
+Una pequeña rueda en el costado del zócalo le permite elegir un color.
+que representará la sala a la que está asignado. Por ejemplo "
+azul para el dormitorio ". Este consejo le permitirá diferenciar su
+diferentes enchufes PowerNode y múltiples enchufes. También podemos ajustar
+esta rueda en un candado. Esta función le permite bloquear el
+tomado para evitar apagarlo accidentalmente, pero control desde
+el boxeo de domótica ya no será posible.
 
-
-
-.
-
-
-.
-
-
-
-.
-
-
-. Por ejemplo "
- ". 
-. 
-. 
-
-.
-
-
- :
-
+El tomacorriente controlado por PowerNode también tiene un indicador de estado
+brillante que proporciona información diferente según su color :
+enchufes de encendido o apagado, alcance de radio limitado, modo de inclusión y
 Exclusión.
 
-
-. 
-
+El módulo de enchufe PowerNode está equipado con protección contra
+sobrecorrientes para proteger el dispositivo conectado. El zócalo PowerNode
+desactivado en caso de un dispositivo defectuoso o
 cortocircuito. El fusible proporciona protección adicional
 interno ubicado en el zócalo.
 
@@ -124,9 +124,9 @@ Datos del módulo
 
 \
 
--   Hacer : GreenWave
+-   Hacer : Greenwave
 
--   Nombre : GreenWave \ [1 x enchufe \]
+-   Nombre : Greenwave \ [1 x enchufe \]
 
 -   ID del fabricante : 153
 

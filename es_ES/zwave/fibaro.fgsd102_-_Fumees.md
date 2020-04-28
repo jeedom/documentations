@@ -1,4 +1,4 @@
-" 
+Fibaro FGSD-002 "Sensor de humo 2" 
 ================================
 
 \
@@ -24,29 +24,29 @@ Resumen
 
 \
 
+Con líneas suaves, una superficie pulida y un tamaño pequeño, esto
+el detector de humo le permitirá ser alertado de una amenaza con
+LED RGB multicolor y una sirena integrada.. El gran formato de la
+la cuadrícula puede detectar la menor cantidad de humo
+obtener una reacción rápida. Por lo tanto, encontrará muy fácilmente su
+colocar en su hogar para preservar la seguridad del conjunto
+familia.
 
+El detector de humo Fibaro FGSD-002 es un detector de alarma
+Humo autónomo (DAAF) compatible con la norma EN 14604:2005. bueno
+así de autónomo, también se está comunicando gracias a la tecnología Z-Wave
+Más.
 
-. 
-
-. 
-
-.
-
-
-:
-
-.
-
-. 
-
-. Si la
-,
-
-. 
-
-
-. 
-.
+Algunos materiales se queman sin fumar. Por eso los ingenieros de
+Fibaro ha decidido incluir protección adicional en sus
+detector de humo en forma de sensor de temperatura. Si la
+no hay suficiente humo para hacer sonar la alarma,
+el dispositivo aún podrá detectar una amenaza al detectar
+Un cambio rápido de temperatura causado por un incendio.. Cambio
+El aumento o aumento rápido de la temperatura a 54 ° C es suficiente
+para que el sensor de humo detecte una amenaza y la informe a
+habitantes de la casa. Solo este tipo de sensor de humo ofrece
+alta eficiencia, independientemente de lo que se queme.
 
 \
 
@@ -55,28 +55,28 @@ Funciones
 
 \
 
--   
+-   Detector de humo Z-Wave
 
--   
+-   Alimentado por batería
 
--   
+-   Sensibilidad ajustable del sensor (3 niveles)
 
--   
+-   Protección contra manipulaciones
 
--   
+-   Alarma señalizada por sonido, luz LED y señal Z-Wave
 
--   
+-   Detección de incendios midiendo la temperatura del aire.
 
--   
+-   Prueba de eficiencia automática, realizada cada 5 segundos.
 
--   
+-   Probador de cobertura de red Z-Wave integrado
 
--   :2005
+-   Cumple con la norma EN 14604:2005
 
--   
+-   Compatible con Z-Wave Más
 
--   
-    
+-   Instalación muy simple: simplemente instálela en un lugar
+    o existe riesgo de incendio
 
 \
 
@@ -87,32 +87,32 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 
+-   Suministro : Batería de litio CR123A de 3V
 
--    : 3 años
+-   Duración de la batería : 3 años
 
--   Frecuencia : 
+-   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones : 
+-   Dimensiones : 65 x 28 mm (diámetro x altura)
 
--   Temperatura de funcionamiento : 
+-   Temperatura de funcionamiento : 0-55 ° C
 
--   Humedad de funcionamiento : 
+-   Humedad de funcionamiento : 0% - 93%
 
--    : -
+-   Rango de medición de temperatura : -20 a 100 ° C
 
--    : 
-    
+-   Sensibilidad al humo : 1er nivel - 1.20 +/- 0.5% obs / m; 2do
+    nivel - 1.80 +/- 0.5% obs / m; 3er nivel - 2.80 +/- 0.5% obs / m
 
--   : 
+-   Nivel sonoro: 85 dB a 3 m
 
--    : 
+-   Precisión de medición : 0.5 ° C (en un rango de 0 a 55 ° C)
 
 -   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
--   Certificaciones : :2005
+-   Certificaciones : EN 14604:2005
 
 \
 
@@ -123,7 +123,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : Sensor de humo Fibaro FGSD-002
 
 -   ID del fabricante : 271
 
@@ -147,7 +147,7 @@ inclusión refiérase a esto
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
-> .
+> botón central de inclusión, de acuerdo con su documentación en papel.
 
 \
 
@@ -180,19 +180,19 @@ Aquí está la lista de comandos :
 
 \
 
--    : 
-    
+-   Humo : Este es el comando de alerta del módulo (para humo,
+    calor ...)
 
 -   Temperatura : es el comando de medición de temperatura
 
 -   Sabotaje : este es el comando de sabotaje. Señala la apertura
     del caso
 
--    : 
-    
+-   Alerta de prueba : Es el comando el que mostrará el hecho de que el módulo
+    está en modo de prueba
 
--    : 
-    
+-   Alerta de calor : es el control el que generará una alerta de calor
+    (no confiable todavía)
 
 -   Batería : es el comando de la batería
 
@@ -237,38 +237,38 @@ Detalles del parámetro :
 -   Despertador : este es el intervalo de activación del módulo (valor
     recomendado 21600)
 
--   1: 
+-   1: ajusta la sensibilidad de la detección de humo
 
--   2: 
-     : 
+-   2: le permite elegir qué notificaciones se enviarán a Jeedom
+    (consejo : todas)
 
--   3: 
-    
+-   3: le permite elegir qué notificaciones irán acompañadas de un
+    indicación visual
 
--   4: 
-    
-    
+-   4: le permite elegir qué notificaciones irán acompañadas de un
+    indicación audible (en todos los casos las detecciones de calor y
+    el módulo sonará)
 
--   10: 
+-   10: no cambie esta configuración a menos que sepa lo que
     hacer
 
 -   11: ídem
 
 -   12: ídem
 
--   13: 
-    
+-   13: permite notificar a otros módulos zwave (para desactivar a menos que
+    sabes por qué lo activas)
 
--   20: 
+-   20: tiempo entre dos informes de temperatura
 
--   21: 
-    
+-   21: diferencia de temperatura a partir de la cual, incluso si la duración
+    desde arriba no se alcanza, la temperatura se enviará a Jeedom
 
--   30: 
+-   30: Temperatura de activación de alarma de calor
 
--   31: 
+-   31: intervalo de informe de temperatura pico
 
--   32: 
+-   32: intervalo de señal si la pérdida de Zwave
 
 \
 
@@ -277,7 +277,7 @@ Detalles del parámetro :
 \
 
 Para un funcionamiento óptimo de su módulo. Jeedom debe ser
-:
+al menos asociado con los grupos 1 4 y 5:
 
 \
 

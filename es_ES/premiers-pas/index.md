@@ -4,7 +4,7 @@ ayuda a configurar tu Jeedom.
 > **Punta**
 >
 > Esta guía no pretende reemplazar la documentación completa
-> disponible en el sitio web de Jeedom [aquí] (https:.fr/doc).
+> disponible en el sitio web de Jeedom [aquí] (https:// jeedom.fr/doc).
 
 Registro en el mercado 
 =========================
@@ -196,167 +196,167 @@ Crear mi primer objeto
 =======================
 
 Creará su primer objeto, pero primero necesita saber qué
-.
+que es un objeto.
 
-
-.
+En Jeedom, puede ser cualquier cosa, pero es
+recomendado hacerlo de acuerdo a tus partes.
 
 > **Punta**
 >
-> :
-> 
-> .
+> Es posible definir relaciones entre objetos, ejemplo:
+> la sala de estar pertenece al objeto de la planta baja que pertenece
+> al objeto de la casa.
 
- :
+Nada podría ser más simple para crear un objeto :
 
--   
+-   Vaya a Herramientas → Objetos
 
--   :
+-   Haga clic en el botón Agregar.:
 
 ![premier objet2](images/premier-objet2.png)
 
--   :
+-   Jeedom te preguntará el nombre:
 
 ![premier objet3](images/premier-objet3.png)
 
--   .  :
+-   Validar. Este es tu primer objeto creado :
 
 ![premier objet4](images/premier-objet4.png)
 
-
+Para obtener más información sobre esta parte, haga clic en
 [ici](https://github.com/jeedom/core/blob/stable/doc/es_ES/object.asciidoc)
 
- 
+Instalar mi primer complemento 
 ============================
 
-. 
-. .
-
+Un complemento permite agregar funcionalidad a Jeedom. Hay algunos
+cientos. Muchos son gratuitos, otros pueden ser de pago.
+Para acceder a la página de complementos, vaya a Complementos → Administrar
 plugins.
 
-:
+Luego solo haga clic en Mercado:
 
 ![premier plugin2](images/premier-plugin2.png)
 
-
-.
+Luego tendrá la lista de todos los complementos posibles
+para instalar.
 
 > **Importante**
 >
-> . 
-> 
-> .
+> Tenga en cuenta que algunos son oficiales y otros no. En caso de preocupación
+> con un complemento no oficial, el equipo de Jeedom no puede ser retenido
+> responsable.
 
 ![premier plugin3](images/premier-plugin3.png)
 
-:
+Al hacer clic en un complemento obtienes su archivo:
 
 ![premier plugin4](images/premier-plugin4.png)
 
- : 
+Entonces encuentras : 
 
--  : , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- .
+- botones para instalar el complemento : la versión estable es muy recomendable, 
+- un botón para eliminar el complemento, 
+- una breve descripcion, 
+- un enlace a la documentación del complemento, 
+- un enlace al registro de cambios (las últimas modificaciones realizadas), 
+- compatibilidad con diferentes plataformas, 
+- opiniones de usuarios, 
+- cómo usar el complemento, 
+- información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-:.
+Para obtener más información sobre complementos, haga clic en [aquí] (https:// jeedom.github.io/core/es_ES/plugin).
 
 Apoyo 
 =======
 
-.
+Jeedom aborda campos muy amplios y evoluciona día a día..
+Sin embargo, hay muchas maneras de encontrar
+ayuda y haz tus preguntas.
 
-.
-
- 
+Documentación de Jeedom 
 --------------------------
 
-:.:
+Encontrará una documentación completa [aquí] (https:// jeedom.fr / doc):
 
-:
+Este consta de varias categorías:
 
--   Núcleo : ,
+-   Núcleo : una parte para el "corazón" de Jeedom,
 
--    : 
-    ,
+-   Primeros pasos : Una sección (donde estás actualmente) para
+    primeras cosas que debes saber,
 
--   Instalación : ,
+-   Instalación : Todo sobre la instalación de Jeedom,
 
--    : ,
+-   Howto : Tutoriales para progresar en varios campos.,
 
--   Plugins : 
+-   Plugins : La documentación de los diferentes complementos oficiales de
     Jeedom,
 
--    : 
-    
-    .
+-   los otros : Varias páginas sobre los diferentes protocolos utilizados
+    en Jeedom, la presentación de Jeedom, listas de
+    compatibilidad, etc..
 
+También encontrará a continuación la lista de documentación para
+complementos de terceros.
 
-.
+Siéntase libre de usar la función **Buscar** arriba a la derecha de
+página para encontrar páginas basadas en una palabra específica.
 
- **Buscar** 
-.
-
- 
+El foro 
 --------
 
-:. .
+Lo encontrarás [aquí] (https:// jeedom.com / forum) .
 
-. Si usted
-. 
-. 
-
-.
+El foro es muy activo y contiene mucha información.. Si usted
+tiene una pregunta, siéntase libre de preguntar. Tendrás una respuesta en
+menos de una hora (en promedio). Tenga en cuenta que el foro es
+mantenida por la comunidad Jeedom, compuesta por voluntarios, y no por el
+Empresa Jeedom.
 
 ![premier support3](images/premier-support3.png)
 
- 
+Solicitudes de soporte (o tickets) 
 ------------------------------------
 
 > **Importante**
 >
-> 
-> .
+> Tenga en cuenta que cualquier solicitud de soporte debe tener
+> una cuenta en el mercado.
 
+Si no ha encontrado una solución a su problema, último
+recurso, puede solicitar apoyo del equipo de Jeedom.
+Esta solicitud pasa por un ticket. Es posible abrir uno de
+muchas maneras:
 
-.
-. 
-:
-
--   : 
-    
-     :
+-   Directamente de Jeedom (método recomendado): donde sea que tu
+    estar en Jeedom, hay un signo de exclamación en la esquina superior derecha
+    que le permite solicitar soporte :
 
 ![premier support4](images/premier-support4.png)
 
--   
-     :
+-   Si por alguna razón no tiene acceso a su
+    Jeedom, siempre puedes abrir un boleto del mercado :
 
-    -   ,
+    -   ya sea con el signo de exclamación en la esquina superior derecha,
 
-    -   
-        ".
+    -   ya sea yendo a su perfil (luego haga clic en el botón
+        "Abrir una solicitud de soporte ").
 
 ![premier support5](images/premier-support5.png)
 
-.
+Todos los intercambios posteriores serán por correo electrónico..
 
 > **Punta**
 >
-> 
-> 
-> 
+> Si, al abrir un ticket, obtiene un error que indica
+> que has alcanzado tu cuota es que estás limitado a uno
+> cantidad de solicitudes de soporte por mes, dependiendo de su
 > Servicio pack.
 
- : : 2
-: 
-: 
+Los diferentes paquetes de servicio son : \ * Comunidad (gratis): 2
+tickets / mes (solo en complementos pagos) \ * Power: 10 entradas / mes
+\ * Pro: 100 entradas / mes
 
-
+Puede encontrar el detalle de los paquetes de servicio.
 [ici](https://www.jeedom.com/site/fr/soft.html#obtenir)

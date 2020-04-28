@@ -1,4 +1,4 @@
- 
+Aeotec Garagentorsteuerung 
 ====================================
 
 \.
@@ -24,14 +24,14 @@ Zusammenfassung
 
 \.
 
-
-
-. 
-
-. 
-
-
-.
+Einfach an den vorhandenen Türmotor, die Steuerung, anzuschließen
+Garagentor erweitert es mit einer Reihe von Sicherheitssensoren und
+Sicherheit. Die Garagentorsteuerung erlaubt nicht nur
+Steuern Sie Ihr Garagentor, damit Sie es auch überprüfen können
+sein Zustand. Ob vom Motor oder manuell verwendet, der Detektor
+smart kommt mit der garagentorsteuerung weiß ob die tür
+ist offen oder geschlossen und kann Sie benachrichtigen, wenn dies nicht der Fall ist
+sollte nicht.
 
 \.
 
@@ -40,22 +40,22 @@ Funktionen
 
 \.
 
--   .
+-   Steuern und überwachen Sie Ihr Garagentor aus der Ferne.
 
--   
-    .
+-   Modul einfach am Motor Ihres installiert
+    aktuelle Tür.
 
--   .
+-   Lokale Türsteuerung über integrierte Taste.
 
--   .
+-   Sendet Warnungen zum Öffnen / Schließen an den Z-Wave-Controller.
 
--   .
+-   Akustische und visuelle Warnungen zum Öffnen / Schließen.
 
--   
+-   Einstellbare Alarmlautstärke (max. 105 dB)
 
--   .
+-   USB-Anschluss zum Laden eigener MP3-Sounds.
 
--   .
+-   Integrierte Status-LED an der Taste.
 
 -   Ein Teil des Gen5-Sortiments von Aeon Labs.
 
@@ -63,12 +63,12 @@ Funktionen
 
 -   Integriert den Chip der Z-Wave 500-Serie.
 
--   
-    .
+-   250% schnellere Kommunikation im Vergleich zu Peripheriegeräten
+    Z-Wave Standard.
 
--   .
+-   Z-Wave Nachrichtenverstärker.
 
--   .
+-   Optimierung der Antenne, Reichweite 300 Meter.
 
 \.
 
@@ -77,28 +77,28 @@ Technische Daten
 
 \.
 
--   Modultyp : 
+-   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
--   Versorgung : Aktuator :  : 
-    
+-   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Stapel
+    Lithium 3V 800mA CR2
 
--   Standby-Verbrauch : 
+-   Standby-Verbrauch : 1W
 
--    : 
+-   Alarmverbrauch : 2W
 
--    : 
+-   Maximale Lautstärke : 105 dB
 
--    : 
+-   Unterstützte Audioformate : mp3 und WMV mit einer Frequenz von 320Kbps
 
 -   Frequenz : 868,42 MHz
 
--   Übertragungsentfernung : 
+-   Übertragungsentfernung : 300m auf freiem Feld
 
--   Betriebstemperatur : -
+-   Betriebstemperatur : -20 ° C bis 50 ° C.
 
--   Betriebsfeuchtigkeit : 
+-   Betriebsfeuchtigkeit : 80%
 
--   Zertifizierungen: 
+-   Zertifizierungen: FCC, UL, CE, ROHS
 
 \.
 
@@ -109,7 +109,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : 
+-   Name : Garagentorsteuerung (ZW062)
 
 -   Hersteller ID : 134
 
@@ -133,7 +133,7 @@ Aufnahme beziehen sich darauf
 > **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
-> .
+> Z-Wave gemäß seiner Papierdokumentation.
 
 \.
 
@@ -166,15 +166,15 @@ Hier ist die Liste der Befehle :
 
 \.
 
--    : .
+-   Öffnen / Schließen : Öffnen, schließen oder stoppen Sie das Garagentor.
 
--   Position : .
+-   Position : Aktuelle Garagentorposition.
 
--   Lautstärke : .
+-   Lautstärke : Aktuelle Lautsprecherlautstärke.
 
--   Temperatur : .
+-   Temperatur : Zonentemperatur, kein automatischer Aufstieg.
 
--   Sabotage : .
+-   Sabotage : Textsabotagestatus.
 
 \.
 
@@ -207,15 +207,15 @@ Parameterdetails :
 
 \.
 
--   34: 
-    .
+-   34: Ermöglicht das Starten der Kalibrierung der Öffnungszeit von
+    die Tür.
 
--   41: 
-    "
+-   41: Ermöglicht das Zurücksetzen des Sabotagestatus durch Auswahl von "Entlasten"
+    der Alarmzustand"
 
--   80: 
+-   80: auf Hagel
 
--   255 : 
+-   255 : Ermöglicht das Zurücksetzen der Werkskonfiguration
 
 \.
 
@@ -223,7 +223,7 @@ Parameterdetails :
 
 \.
 
-Dieses Modul hat zwei Zuordnungsgruppen. 
+Dieses Modul hat zwei Zuordnungsgruppen. Die erste "Rettungsleine" ist
 wesentlich.
 
 \.
@@ -239,37 +239,37 @@ Gut zu wissen
 
 ### Besonderheiten 
 
-:
+Kalibrierung der Garagentoröffnungszeit:
 
--   1 : .
+-   1 : Das Garagentor muss vollständig geschlossen sein.
 
--   2 : ".
+-   2 : Aktivieren Sie Parameter 34 unter "Kalibrierung durchführen"".
 
--   3 : 
+-   3 : Starten Sie die Türöffnung
 
--   4 : .
+-   4 : Warten Sie, bis die Tür vollständig geöffnet ist.
 
--   5 : 
+-   5 : Mach die Tür zu
 
+Die Kalibrierung ist abgeschlossen
 
+-   Parameter 34 wird auf "Normal" aktualisiert".
 
--   ".
-
--   .
+-   Parameter 35 wird mit der berechneten Öffnungszeit aktualisiert.
 
 \.
 
-:
+Sabotage zurückgesetzt:
 
--   1 : .
+-   1 : Der Sensor muss ordnungsgemäß angebracht sein.
 
--   2 : ".
+-   2 : Aktivieren Sie Parameter 41 unter "Alarmzustand entlasten"".
 
 -   3 : Einstellungen aktualisieren.
 
+Die Kalibrierung ist abgeschlossen
 
-
--   ".
+-   Parameter 41 wird aktualisiert mit "Sensor wird nicht entfernt".
 
 \.
 

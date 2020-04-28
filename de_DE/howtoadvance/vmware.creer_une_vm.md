@@ -189,7 +189,7 @@ benutze es.
 >
 > Für Zwave, RFXcom, edisio und enOcean gibt es kein Problem, z
 > GSM-Schlüssel müssen Sie befolgen
-> [tutoriel](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-gsm.huawei_mode_modem.html)
+> [tutoriel](https:
 > vorher, um den Schlüssel nur im Modem-Modus zu erzwingen, sonst ist es nicht
 > auf dem ESXi nicht richtig gesehen.
 

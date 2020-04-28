@@ -243,8 +243,8 @@ Detalles del parámetro :
     documentación del fabricante) Valor recomendado : 4
 
 -   7: modo de funcionamiento multisensor personalizado (ver
-    en la documentación del fabricante) Valor recomendado : 
-    
+    en la documentación del fabricante) Valor recomendado : 20 (para
+    tener la apertura funcional)
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2

@@ -81,25 +81,25 @@ Características técnicas
 
 -   \ * 12V - 144W en total (todos los canales),
 
--   
+-   \ * 24V - 288W en total (todos los canales)
 
--    : 
+-   Frecuencia de modulación PWM : 244 Hz
 
--   El consumo : 
+-   El consumo : 0.3W
 
--   Protocolo de radio : 
+-   Protocolo de radio : Unoda Z a 868,4 MHz (UE)
 
--    : 1mW
+-   Potencia de transmisión Z-Wave : 1mW
 
--   Temperatura de funcionamiento : 
+-   Temperatura de funcionamiento : 0 - 40 C
 
--    : 
+-   Para instalar en cajas : Ø≥50 mm
 
--   Dimensiones : 
+-   Dimensiones : 42 x 37 x 17 mm
 
--    : 
+-   Normas europeas : EMC 2004/108 / EC R & TTE 199/5 / WE
 
--   .
+-   Este módulo requiere un controlador Z-Wave para funcionar.
 
 \
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -161,37 +161,37 @@ disponible.
 
 Aquí está la lista de comandos :
 
--   Color : 
+-   Color : Es el comando que permite configurar el código de color para
     Mostrar
 
--    : 
-    
+-   Chimenea : Es el comando que simula una atmósfera de
+    chimenea
 
--    : 
+-   Tormenta : Este es el comando que simula una atmósfera de tormenta
 
--    : 
-    
+-   Alba : Este es el comando que simula una atmósfera de Aude.
+    (amanecer progresivo)
 
--    : 
-    
+-   Desvanecimiento : Este es el comando que simula todo
+    espectro de color
 
--    : 
+-   RBB : Este es el comando que simula una atmósfera de policía.
 
--    : 
-    
-    
+-   Blanco frio : Este es el comando que simula tener un
+    color blanco frío, si la tira de color lo permite. (este
+    el comando no es visible por defecto)
 
--    : 
-    
-    
+-   Blanco cálido : Este es el comando que simula tener un
+    color blanco cálido, si la tira de colores lo permite. (este
+    el comando no es visible por defecto)
 
--   Uno : 
-    
+-   Uno : Este es el comando que activa la tira en el
+    último color elige antes
 
--   Apagado : 
+-   Apagado : Este es el comando que apaga el banner
 
--   Intensidad : 
-    
+-   Intensidad : Es el comando que permite ajustar la intensidad.
+    brillante
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 Icono
@@ -221,14 +221,14 @@ Configuraciones)
 
 Detalles del parámetro :
 
-
-.
+Consulte la captura de pantalla anterior, la configuración
+siendo traducido al francés.
 
 \
 
 ### Grupos 
 
-
+Este módulo tiene cinco grupos de asociación, solo el quinto es
 indispensable.
 
 \
@@ -240,14 +240,14 @@ Bueno saber
 
 ### Específicos 
 
-.
+Uso de sensores de 0-10 V.
 
 \
 
 > **Depositar**
 >
-> 
-> .
+> Por ahora, la configuración predeterminada de jeedom no lo permite
+> no, pero se puede considerar una configuración específica.
 
 ### Visual alternativo 
 
@@ -267,8 +267,8 @@ No hay noción de activación en este módulo.
 Faq. 
 ------
 
-,
-.
+Por ahora, la configuración predeterminada de jeedom no lo permite,
+pero se puede considerar una configuración específica.
 
 \
 

@@ -121,7 +121,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 42.5 x 38.25 x 20,3 mm
+-   Abmessungen : 42..25 x 20,3 mm
 
 -   Betriebstemperatur : 0-35 ° C.
 
@@ -211,18 +211,18 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : 
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
--   Verbrauch : 
+-   Verbrauch : Es ist der Befehl, der es erlaubt, die
     
 
 -   Macht : 
     
 
-
+Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 Symbol
 
 \.

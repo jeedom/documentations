@@ -1,53 +1,53 @@
-. ,
+En primer lugar, gracias por comprar el Jeedom Mini +. Encontraras aqui,
+documentación detallada que explica cómo comisionar esto
+box, y así descubrir la domótica con Jeedom.
 
-.
+La caja Jeedom Mini + que recibió debe contener :
 
- :
+-   Una caja Jeedom Mini + (Tarjeta JeedomBoard Mono - ARM Cortex A9 1.2Ghz
+    Y 512 MB de RAM)
 
--   
-    
+-   Un cargador de red de 5V 2A.
 
--   .
+-   Una tarjeta micro SD con software Jeedom preinstalado. (Este
+    la tarjeta normalmente ya está insertada en la caja)
 
--   
-    
+-   Adaptador de tarjeta microSD / SD.
 
--   .
+-   Pegatina Jeedom.
 
--   .
+-   *Un módulo RFXcom 433E con su cable USB.* (Solo si tienes
+    compró el paquete de inicio con interfaz RFXcom).
 
--   *.* 
-    .
-
--   *.* 
-    
-    
+-   *Tarjeta RaZberry Z-Wave +.* (Solo si compraste el paquete
+    Arrancador compatible con Z-Wave +) (esta tarjeta normalmente ya está
+    instalado en la caja)
 
 ![mini.demarrage01](images/mini.demarrage01.png)
 
-
-
-.
+Antes de poder usarlo, debe enchufar su caja Jeedom Mini +
+en su red local (en enrutador, conmutador o caja de internet, etc.), y
+en el sector.
 
 ![mini.demarrage02](images/mini.demarrage02.png)
 
 ![mini.demarrage03](images/mini.demarrage03.png)
 
-
- :
+Antes de comenzar, tenga en cuenta que Jeedom funciona utilizando
+complementos Varios complementos están preinstalados en su Jeedom Mini + :
 
 ![mini.demarrage04](images/mini.demarrage04.png)
 
-
-.
+El complemento Z-Wave que se utiliza para configurar su red Z-Wave y agregar
+nuevos módulos Z-Wave.
 
 ![mini.demarrage05](images/mini.demarrage05.png)
 
-.
+El complemento de correo.
 
 ![mini.demarrage06](images/mini.demarrage06.png)
 
-.
+Complementos de widgets y scripts.
 
 ![mini.demarrage07](images/mini.demarrage07.png)
 
@@ -55,32 +55,32 @@ El plugin meteorológico.
 
 ![mini.demarrage08](images/mini.demarrage08.png)
 
+Todavía encontrará muchos otros complementos directamente a través de
+Interfaz Jeedom en el mercado Jeedom.
 
-.
+Además, no olvides que tienes 2 cupones
+(enviado por correo electrónico), lo que le permite instalar 2 complementos pagos
+gratis (RFXCOM y alarma). Para usarlo debes crear un
+cuenta en el mercado Jeedom, vea la documentación : [Doc
+Mercado] (https://jeedom.github.io/documentation/premiers-pas/es_ES/index).
 
-
-
-. 
- : [Doc
-:.
-
-
-. 
-
-.
+En el correo electrónico que recibió, también aparece el número de Servicio
+Paquete asociado a Jeedom Mini +. Puedes completarlo en tu
+Perfil de mercado, esto le permitirá, entre otras cosas, acceder
+diferentes servicios correspondientes a su Service Pack.
 
 ![mini.demarrage09](images/mini.demarrage09.png)
 
- : [Premiers pas avec
-:
+Ahora puedes seguir la documentación : [Premiers pas avec
+Jeedom] (https://jeedom.github.io/documentation/premiers-pas/es_ES/index)
+Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y
+inicie sesión para comenzar a configurarlo y usarlo.
 
-.
+Para seguir explorando y usar Jeedom, tienes
+documentación completa : [Documentation
+Jeedom] (https://jeedom.fr/doc) y también de una lista de secciones
+video tutoriales : [Tutos vidéos](https://jeedom.github.io/documentation/presentation/es_ES/index#tocAnchor-1-3).
+No dudes en ir al Foro de Jeedom por cualquier otro
+Pregunta : [Forum Jeedom] (https://www.jeedom.com/forum/).
 
-
- : [Documentation
-:
- : [Tutos vidéos](https:.
-
-Pregunta : [Forum :.
-
-.
+Gracias y buen descubrimiento de la automatización del hogar con Jeedom..

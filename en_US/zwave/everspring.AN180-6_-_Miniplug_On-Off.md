@@ -1,4 +1,4 @@
- 
+Everspring Miniplug We / Off - AN180-6 
 ====================================
 
 \
@@ -24,16 +24,16 @@ Summary
 
 \
 
-
+The Mini We / Off Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
+House. With a voltage of 220 - 240 V, this Plug can support a
+load up to 1500W (resistance), 800W (incandescent), 200W (motor,
+fluorescent, Led).
 
-,
-.
-
-
-. 
-
-.
+The Mini We / Off Plug is a Z-Wave ™ compatible device which is intended
+to work with all Z-Wave ™ compatible networks. She can
+be controlled by a remote control, PC software, or any
+Z-Wave controller for your network.
 
 \
 
@@ -42,21 +42,21 @@ Functions
 
 \
 
--   
+-   Control a lamp or device remotely
 
--   
-    
+-   Plug module integrating directly between an electrical outlet and
+    the load to order
 
--   
-    
+-   ON / OFF function to control lamps or devices (not
+    variation)
 
--   
+-   Local charge control via integrated button
 
 -   Z-Wave Plus technology
 
--   
+-   Reduced dimensions to go almost unnoticed
 
--   
+-   Status LED on the integrated button
 
 -   Z-Wave repeater function
 
@@ -71,10 +71,10 @@ Technical characteristics
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 
+-   Consumption : 0.6W
 
--   Maximum power : Resistive load : 
-    :  :  :
+-   Maximum power : Resistive load : 1500W, Incandescent bulb
+    : 800W, Compact fluorescent bulb : 200W, Led bulb (not dimmable) :
     200W
 
 -   Frequency : 868.42 Mhz
@@ -83,7 +83,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--   Dimensions :  :  : 
+-   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
 \
 
@@ -92,7 +92,7 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Everspring
 
 -   Name : Miniplug We / Off
 
@@ -140,7 +140,7 @@ Wece included you should get this :
 
 \
 
-
+Wece the module has been recognized, the commands associated with the modules will be
 available.
 
 \
@@ -154,7 +154,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    
+    socket (We / Off)
 
 -   We : This is the command that turns on the outlet
 
@@ -163,7 +163,7 @@ Here is the list of commands :
 \
 
 Note that on the dashboard, the status information, ON / OFF can be found on
-.
+the same icon.
 
 \
 
@@ -197,11 +197,11 @@ Parameter details :
 -   1 : This parameter defines the status value command, it is not
     advised to change this value.
 
--   2 : 
+-   2 : This parameter defines the delay in sending the change of state to
     group 1 (value between 3 and 25 seconds)
 
--   3 : 
-    .
+-   3 : This parameter is used to define whether the socket will resume its status
+    (ON or OFF) after a power recovery.
 
 ### Groups 
 

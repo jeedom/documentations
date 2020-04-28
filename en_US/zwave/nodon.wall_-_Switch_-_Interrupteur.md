@@ -1,4 +1,4 @@
- 
+Nodon Switch - Wall Switch 
 ================================
 
 \
@@ -24,15 +24,15 @@ Summary
 
 \
 
+The NodOn® wall switch can directly control any
+Z-Wave® or Z-Wave Plus® compatible device such as plug
+NodOn® smart or trigger scenes via a central
+compatible home automation.
 
-
-
-.
-
-
-: 
-
-.
+The switch has a mounting plate for easy mounting
+in the House: using the screws of a recessed pot, by
+screwing to the wall, or simply by sticking it with adhesives
+double-sided on the back of the plate.
 
 \
 
@@ -43,11 +43,11 @@ Functions
 
 -   Control alone or with a home automation system
 
--   
+-   Easy to assemble and disassemble
 
--   
+-   Pleasant feeling of support
 
--   
+-   Wireless
 
 -   2 years of battery
 
@@ -62,30 +62,30 @@ Technical characteristics
 
 -   4 buttons
 
--   
+-   Wall mounting by double-sided adhesive (included) or screws (not included)
 
--   Operating temperature : 
+-   Operating temperature : 0 ° C to 40 ° C
 
 -   Altitude : 2000m
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.06
 
--   Scope : 
+-   Scope : 40m indoors / 70m outdoors
 
 -   Dimensions : 80 \ * 80 \ * 15mm
 
 -   2 years warranty
 
--   :::::2013
+-   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
 
--   
+-   EN 300 220-2 V2.4.1
 
--   
+-   EN301 489-1 V1.9.2
 
--   
+-   EN301 489-3 V1.6.1
 
--   :2010
+-   EN 62479:2010
 
 \
 
@@ -96,7 +96,7 @@ Module data
 
 -   Mark : Nodon
 
--   Name : 
+-   Name : CWS-3-1-01 Wall Switch
 
 -   Manufacturer ID : 357
 
@@ -141,7 +141,7 @@ Once included you should get this :
 
 \
 
-
+Once the module has been recognized, the commands associated with the modules will be
 available.
 
 \
@@ -265,7 +265,7 @@ Wakeup
 
 \
 
-
+To wake up this module just press one of these buttons
 
 \
 

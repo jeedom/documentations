@@ -1,4 +1,4 @@
- 
+Llavero Aeotec 
 =============
 
 \
@@ -24,16 +24,16 @@ Resumen
 
 \
 
-
-
-
+El control remoto del llavero Aeon Labs con un diseño moderno y agradable
+tiene 4 botones para controlar todo tipo de dispositivos
+Z-Wave como lámparas, persianas, etc.
 
 Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
 en tu bolsillo. Fácil de usar y elegante, está equipado con un
 anillo para adjuntarlo a las teclas, lo que lo hace disponible para
 al salir de casa o al regresar a casa.
 
-
+Cada botón le permite controlar dos dispositivos o escenas gracias a la
 gestión de prensas cortas y largas. Este control remoto también puede ser
 bien utilizado como controlador primario como secundario.
 
@@ -44,17 +44,17 @@ Funciones
 
 \
 
--   
+-   Control remoto llavero
 
--   
+-   Controlador primario o secundario
 
--   
+-   Diseño ultra compacto y ultra
 
--   
+-   4 botones configurables
 
--   
+-   Gestiona hasta 8 dispositivos / escenas
 
--   
+-   Solapa de protección deslizante
 
 -   Facilidad de uso e instalación.
 
@@ -67,17 +67,17 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 
+-   Suministro : 1 batería de litio 3V CR2450
 
--    : 1 año
+-   Duración de la batería : 1 año
 
 -   Frecuencia: 868.42 MHz
 
--   Distancia de transmisión : 
+-   Distancia de transmisión : 100m en campo abierto
 
--    : -
+-   Temperatura de funcionamiento : -10 ° C a 50 ° C
 
--   Dimensiones : 
+-   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto)
 
 \
 
@@ -88,7 +88,7 @@ Datos del módulo
 
 -   Hacer : Aeotec
 
--   Nombre : 
+-   Nombre : Llavero
 
 -   ID del fabricante : 134
 
@@ -132,7 +132,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-
+Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
 disponible.
 
 \
@@ -176,7 +176,7 @@ Aquí está la lista de comandos :
 
 \
 
-
+Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
@@ -199,11 +199,11 @@ Detalles del parámetro :
 
 \
 
--   250: 
+-   250: modo de funcionamiento del control remoto (absolutamente
     Escena para control remoto)
 
-
-.
+Todos los demás parámetros solo son útiles en caso de asociación directa
+entre el control remoto y los módulos.
 
 \
 
@@ -211,7 +211,7 @@ Detalles del parámetro :
 
 \
 
-. El es
+Este módulo tiene un solo grupo de asociación. El es
 indispensable.
 
 \
@@ -227,20 +227,20 @@ Bueno saber
 
 ### Específicos 
 
- :
+Para usar este módulo como control remoto, proceda de la siguiente manera :
 
--   1 : 
+-   1 : Incluye control remoto
 
--   2 : 
+-   2 : Despierta el control remoto
 
--   3 : 
-    
+-   3 : Cambie el parámetro 250 a verdadero (hágalo incluso si
+    ya parece cierto)
 
--   4 : 
-    
+-   4 : Active el control remoto y asegúrese de que el cambio haya sido
+    tener en cuenta
 
--   5 : 
-    .
+-   5 : Cambie el modo de funcionamiento del control remoto mientras permanece
+    presione los dos botones en la parte posterior durante 3 segundos.
 
 Despertador 
 ------

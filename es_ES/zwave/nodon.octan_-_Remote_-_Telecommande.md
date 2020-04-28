@@ -1,4 +1,4 @@
- 
+Mando a distancia Nodon - Octan 
 ==========================
 
 \
@@ -24,16 +24,16 @@ Resumen
 
 \
 
+El Octan Remote NodOn® le permite controlar cualquier receptor
+Compatible con Z-Wave® o Z-Wave Plus®, como la toma del control remoto
+NodOn® (modo de controlador principal - Independiente), o incluso disparador
+escenas / acciones a través de un sistema de automatización del hogar compatible (modo
+Puerta de enlace)
 
-
-
-
-
-
-
-. 
-
-
+Su imán integrado permite su fijación en todas partes, desde el radiador hasta la puerta.
+refrigerador, a través de su soporte de pared. Entre control remoto
+y cambia, el control remoto Octan revoluciona el control de objetos
+domestico
 
 \
 
@@ -44,13 +44,13 @@ Funciones
 
 -   Control solo o con un sistema domótico
 
--   
+-   Imán integrado
 
--   
+-   Led de color
 
--   
+-   Placa de pared
 
--   
+-   2 años de batería
 
 \
 
@@ -63,17 +63,17 @@ Características técnicas
 
 -   4 botones
 
--   
-    
+-   Soporte de pared fijado con adhesivo de doble cara (incluido) o tornillos
+    (no incluido)
 
 -   Imán integrado para fijación a superficie metálica.
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
-    .: 40m interior / 80m exterior
+    Plus® SDK 06.51.01 Alcance: 40m interior / 80m exterior
 
--   Dimensiones : 
+-   Dimensiones : 80 \ * 80 \ * 15 mm
 
 -   2 años de garantia
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Nombre : 
+-   Nombre : CRC-3-1-00 Octan Remote
 
 -   ID del fabricante : 357
 
@@ -110,8 +110,8 @@ inclusión refiérase a esto
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
-> 
-> .
+> botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
+> botón 1, según su documentación en papel.
 
 \
 

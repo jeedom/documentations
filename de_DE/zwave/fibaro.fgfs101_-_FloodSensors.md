@@ -117,7 +117,7 @@ Moduldaten
 
 -   Modell : 
 
--   Hersteller : 
+-   Hersteller : FIBARO-System
 
 -   Hersteller ID : 271
 
@@ -224,43 +224,43 @@ Parameterdetails :
 \.
 
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
-    
+    empfohlen 21600)
 
 -   .  :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
-    
+    stoppt sofort)
 
--   . . Wert :
+-   2 \. Wahl des Alarmtyps. Wert :
 
-        0 : 
-        1 : 
-        2 : 
-        3 : .
+        0 : Akustischer und optischer Alarm deaktiviert
+        1 : Akustischer Alarm deaktiviert und visueller Alarm aktiviert
+        2 : Akustischer Alarm ein und visueller Alarm aus
+        3 : Akustischer und visueller Alarm aktiviert.
 
--   .  : 
-    . 
-    
-    Geschwindigkeit ! 
+-   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : 1 bis 65.535 s
+    (Standardmäßig 300). Achten Sie darauf, keinen Übertragswert zu setzen
+    nahe beieinander unter der Strafe, dass die Batterie des Moduls überhaupt schmilzt
+    Geschwindigkeit ! (1800 wird empfohlen)
 
--   .  : 
-    = . 
-    
-    .
+-   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (standardmäßig 50
+    = 0,5 °). Gemäß Parameter 10 ist dies auch möglich
+    Verwalten Sie die Temperaturübertragung entsprechend der Variation von
+    diese letzten.
 
--   .  : 
-    
-    .
+-   50 \. Einstellen des Niedertemperaturalarms : von -10000 bis + 10000
+    (Standardmäßig 1500 = 15 ° C) Wird verwendet, um einen Alarm auszulösen, wenn die
+    Temperatur fällt unter einen bestimmten Schwellenwert.
 
--   51. : 
-    
-    .
+-   51.Hochtemperaturalarm einstellen : von -10000 bis + 10000
+    (Standardmäßig 3500 = 35 ° C) Wird verwendet, um einen Alarm auszulösen, wenn die
+    Temperatur überschreitet einen bestimmten Schwellenwert.
 
--   .  : 
-    = 
-    
+-   73 \. Temperaturkompensation : von -10000 bis + 10000 (standardmäßig 0)
+    = 0 ° C) Wird verwendet, um einen Versatz zwischen der Sensortemperatur und zu definieren
+    die tatsächliche Temperatur
 
--   .  : ,
-    
+-   75 \. Einstellen der Dauer des Alarms : von 0 bis 65535s (standardmäßig 0,
+    Der Alarm stoppt, sobald kein Fehler mehr erkannt wird.)
 
 \.
 
@@ -268,8 +268,8 @@ Parameterdetails :
 
 \.
 
-. 
-:
+Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
+zumindest mit den Gruppen 1, 4 und 5 verbunden:
 
 \.
 
@@ -280,10 +280,10 @@ Parameterdetails :
 Gut zu wissen 
 ------------
 
+Dieses von außen betriebene Modul kann als Repeater verwendet werden
+Z-Welle (Informationen derzeit nicht bestätigt)
 
-
-
-
+Die Verkabelung für eine externe Stromversorgung. \.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
@@ -294,7 +294,7 @@ Aufwachen
 
 \.
 
-
+Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
 \.
 
@@ -303,12 +303,12 @@ Faq.
 
 \.
 
-.
+Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-
-.
+Dieses Modul ist standardmäßig ein Batteriemodul, das neue
+Die Konfiguration wird beim nächsten Aufwecken berücksichtigt.
 
 \.
 
@@ -326,9 +326,9 @@ Wichtiger Hinweis
 \.
 
 \.
- :
+Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
- :
+Fibaro-Dokumentation :
 <http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
 
 \.

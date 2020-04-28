@@ -1,4 +1,4 @@
- 
+SmartHome von Everspring In Wall Ein Aus - AN179-0 
 ================================================
 
 \.
@@ -24,21 +24,21 @@ Zusammenfassung
 
 \.
 
-,
+SmartHome Europe von Everspring Marke ON / OFF Wandmikromodul,
+dient zum Ein- und Ausschalten der Beleuchtung und
+Elektrogeräte in Ihrem Haus. Zwei Sätze trockener Kontakte
+erlauben den Anschluss von zwei Schaltern.
 
-. 
-.
+Aus Sicherheitsgründen kann das Gerät eine Überhitzung erkennen und schaltet sich aus
+das Relais direkt, um Schäden zu vermeiden. Bei einer Spannung von 230
+V, dieses Modul kann bis zu 11 A ohmsche Last von 1200 Watt tragen
+Glühlampe, 700 Watt Motor oder 320 Watt (8 x 40 Watt) von
+fluoreszierende Ladung.
 
-
-. 
-
-
-.
-
-
-
-
-.
+Das Micromodule Mural ON / OFF ist ein Z-Wave ™ -kompatibles Gerät
+Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
+kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
+welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
 
@@ -47,23 +47,23 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie ein Licht / Gerät fern
 
 -   Wird hinter einem vorhandenen Switch installiert
 
 -   EIN / AUS-Funktion
 
--   
+-   Geringer Energieverbrauch
 
 -   Sehr kleine, reduzierte Abmessungen
 
--   
+-   Langstreckenantenne
 
 -   Z-Wave Plus-Technologie
 
--   
+-   Einfache Installation in einer Standard-Unterputzdose
 
--   
+-   Schaltfläche zum Einschließen / Ausschließen / Zuordnen des Moduls
 
 -   Z-Wave-Repeater-Funktion
 
@@ -78,10 +78,10 @@ Technische Daten
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 
+-   Verbrauch : 0,5 W.
 
--   Maximale Leistung : Widerstandslast : 
-    :  : 
+-   Maximale Leistung : Widerstandslast : 2500W Glühlampe
+    : 1200W Kompaktleuchtstofflampe : 320W
 
 -   Frequenz : 868,42 MHz
 
@@ -89,7 +89,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : 
+-   Abmessungen : 42 mm x 43 mm x 16 mm
 
 \.
 
@@ -98,9 +98,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : SmartHome von Everspring
 
--   Name : 
+-   Name : In Wall Ein Aus
 
 -   Hersteller ID : 96
 
@@ -161,15 +161,15 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : 
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 \.
 
-
-.
+Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
+das gleiche Symbol.
 
 \.
 
@@ -203,14 +203,14 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
 
--   2 : 
+-   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
     Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : 
-    .
+-   3 : Mit diesem Parameter können Sie festlegen, ob der Switch seine Funktion wieder aufnehmen soll
+    Status (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
--   4 : 
-    
+-   4 : Dieser Parameter definiert den Typ
+    Schalter (Push / Bistable)
 
 ### Gruppen 
 
@@ -253,7 +253,7 @@ Wach auf
 
 \.
 
-.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
 \.
 

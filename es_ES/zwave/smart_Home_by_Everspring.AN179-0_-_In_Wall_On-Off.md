@@ -1,4 +1,4 @@
- 
+SmartHome de Everspring en pared encendido apagado - AN179-0 
 ================================================
 
 \
@@ -24,21 +24,21 @@ Resumen
 
 \
 
-,
+Micromódulo de pared ON / OFF de la marca SmartHome Europe by Everspring,
+está diseñado para controlar la iluminación de encendido y apagado y
+electrodomésticos en su hogar. Dos juegos de contactos secos.
+permitir la conexión de dos interruptores.
 
-. 
-.
+Por razones de seguridad, la unidad puede detectar sobrecalentamiento y se apagará
+el relé directamente para evitar daños. A una tensión de 230
+V, este módulo puede soportar una carga resistiva de hasta 11 A, 1200 vatios
+incandescente, 700 vatios de motor o 320 vatios (8 x 40 vatios) de
+carga fluorescente.
 
-
-. 
-
-
-.
-
-
-
-
-.
+El Micromodule Mural ON / OFF es un dispositivo compatible con Z-Wave ™ que es
+diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Él
+puede ser controlado por control remoto, software de PC o cualquier
+qué controlador Z-Wave en su red.
 
 \
 
@@ -47,25 +47,25 @@ Funciones
 
 \
 
--   
+-   Controlar una luz / dispositivo de forma remota
 
 -   Se instala detrás de un interruptor existente
 
 -   Función ON / OFF
 
--   
+-   Bajo consumo de energía
 
 -   Muy pequeño, dimensiones reducidas
 
--   
+-   Antena de largo alcance
 
--   
+-   Tecnología Z-Wave Plus
 
--   
+-   Se instala fácilmente en una caja de empotrar estándar
 
--   
+-   Botón para incluir / excluir / asociar el módulo
 
--   
+-   Función repetidora Z-Wave
 
 \
 
@@ -78,18 +78,18 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.5W
 
--   Potencia máxima :  : 
-    :  : 
+-   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
+    : Bombilla fluorescente compacta de 1200 vatios : 320W
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : 
+-   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: 
+-   Visualización: LED en el botón
 
--   Dimensiones : 
+-   Dimensiones : 42 mm x 43 mm x 16 mm
 
 \
 
@@ -98,9 +98,9 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Smarthome por everspring
 
--   Nombre : 
+-   Nombre : En pared encendido apagado
 
 -   ID del fabricante : 96
 
@@ -123,10 +123,10 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
-> . 
-> 
-> 
+> Para poner este módulo en modo de inclusión, presione 3 veces en su
+> botón, de acuerdo con su documentación en papel. Es importante
+> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> no pertenece a ninguna red y está alimentado
 
 \
 
@@ -200,23 +200,23 @@ Detalles del parámetro :
 
 \
 
--   1 : 
-    .
+-   1 : Este parámetro define el comando de valor de estado, no es
+    aconseja cambiar este valor.
 
--   2 : 
-    
+-   2 : Este parámetro define el retraso en el envío del cambio de estado a
+    grupo 1 (valor entre 3 y 25 segundos)
 
--   3 : 
-    .
+-   3 : Este parámetro le permite definir si el interruptor reanudará su
+    estado (ON u OFF) después de una recuperación de energía.
 
--   4 : 
-    
+-   4 : Este parámetro define el tipo
+    interruptor (push / biestable)
 
 ### Grupos 
 
 \
 
-.
+Este módulo tiene 2 grupos de asociación..
 
 \
 
@@ -237,8 +237,8 @@ Bueno saber
 
 \
 
--   
-    
+-   La retroalimentación de estado no se puede configurar por debajo de 3
+    segundos \
 
 ### Visual alternativo 
 
@@ -248,7 +248,7 @@ Bueno saber
 
 \
 
- 
+Despertar 
 -------
 
 \

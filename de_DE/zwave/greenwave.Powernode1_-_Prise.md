@@ -1,4 +1,4 @@
- 
+Greenwave PowerNode - 1 Stecker 
 =============================
 
 \.
@@ -24,40 +24,40 @@ Zusammenfassung
 
 \.
 
+Das PowerNode-Steckermodul von GreenWave ist ein intelligentes Gerät, das
+verbindet sich mit einem Ihrer Haushaltsgeräte und Elektronik zu
+Mit dieser Funktion können Sie den Stromverbrauch bei überwachen und steuern
+Entfernung über Webbrowser oder Smartphone.
 
+Unter Verwendung der Z-Wave-Technologie ist die PowerNode-gesteuerte Steckdose
+Kompatibel mit den meisten Hausautomationsboxen auf dem Markt wie Fibaro
+Home Center 2, Eedomus oder Zipabox.
 
+Das PowerNode-Steckermodul sammelt Verbrauchsdaten
+Energie vom angeschlossenen Gerät und überträgt sie an die Hausautomationsbox.
+Mit dieser kontrollierten Steckdose können Sie auch aktivieren oder deaktivieren
+das Gerät aus der Ferne über einen Webbrowser oder ein Smartphone oder ein Gerät
+einen Kalender zum automatischen Aktivieren oder Deaktivieren Ihres Geräts
+zu vordefinierten Zeiten.
 
-.
+Mit einem kleinen Rad an der Seite der Steckdose können Sie eine Farbe auswählen
+Dies wird den Raum darstellen, dem es zugewiesen ist. Zum Beispiel "
+blau für das schlafzimmer ". Mit diesem Tipp können Sie Ihre unterscheiden
+verschiedene PowerNode-Sockets und mehrere Sockets. Wir können uns auch anpassen
+Dieses Rad auf einem Vorhängeschloss. Mit dieser Funktion können Sie die sperren
+genommen, um ein versehentliches Ausschalten zu vermeiden, aber steuern von
+Heimautomationsboxen ist nicht mehr möglich.
 
-
-
-.
-
-
-.
-
-
-
-.
-
-
-. Zum Beispiel "
- ". 
-. 
-. 
-
-.
-
-
- :
-
+Die PowerNode-gesteuerte Steckdose verfügt auch über eine Statusanzeige
+hell, was je nach Farbe unterschiedliche Informationen liefert :
+Steckdosen ein oder aus, begrenzte Funkreichweite, Einschlussmodus und
 Ausschluss.
 
-
-. 
-
-
-.
+Das PowerNode-Steckermodul ist mit einem Schutz gegen ausgestattet
+Überströme zum Schutz des angeschlossenen Geräts. Die PowerNode-Buchse wird
+bei defektem Gerät deaktiviert oder
+Kurzschluss. Zusätzlichen Schutz bietet die Sicherung
+intern befindet sich in der Steckdose.
 
 \.
 
@@ -71,14 +71,14 @@ Funktionen
 -   Steckermodul direkt zwischen Steckdose und integriert
     die Ladung auf Bestellung
 
--   
+-   Ermöglicht die Überwachung des Verbrauchs des angeschlossenen Geräts
 
 -   EIN / AUS-Funktion
 
 -   Möglichkeit, ihm eine Nummer und eine Farbe zuzuweisen, um
     Unterscheiden Sie zwischen den verschiedenen PowerNodes derselben Installation
 
--   
+-   Ein / Aus-Taste direkt an der Steckdose
 
 -   Überstromschutz
 

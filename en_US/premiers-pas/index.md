@@ -4,7 +4,7 @@ help set up your Jeedom.
 > **Tip**
 >
 > This guide is not intended to replace the complete documentation
-> available on the Jeedom website [here] (https:.fr/doc).
+> available on the Jeedom website [here] (https:// jeedom.fr/doc).
 
 Registration on the market 
 =========================
@@ -196,167 +196,167 @@ Create my first object
 =======================
 
 You are going to create your first object, but first you have to know what
-.
+what is an object.
 
-
-.
+In Jeedom, it can be anything and everything, but it's
+recommended to do it according to your parts.
 
 > **Tip**
 >
-> :
-> 
-> .
+> It is possible to define relationships between objects, example:
+> the living room belongs to the ground floor object which itself belongs
+> to the house object.
 
- :
+Nothing could be simpler to create an object :
 
--   
+-   Go to Tools → Objects
 
--   :
+-   Click on the add button:
 
 ![premier objet2](images/premier-objet2.png)
 
--   :
+-   Jeedom will ask you the name of it:
 
 ![premier objet3](images/premier-objet3.png)
 
--   .  :
+-   Validate. This is your first object created :
 
 ![premier objet4](images/premier-objet4.png)
 
-
+For more information on this part click
 [ici](https://github.com/jeedom/core/blob/stable/doc/en_US/object.asciidoc)
 
- 
+Install my first plugin 
 ============================
 
-. 
-. .
-
+A plugin allows to add functionality to Jeedom. There are
+hundreds. Many are free, others may be chargeable.
+To access the plugins page go to Plugins → Manage
 plugins.
 
-:
+Then just click on Market:
 
 ![premier plugin2](images/premier-plugin2.png)
 
-
-.
+You will then have the list of all possible plugins
+to install.
 
 > **IMPORTANT**
 >
-> . 
-> 
-> .
+> Please note, some are official and others are not. In case of concern
+> with an unofficial plugin, the Jeedom team cannot be held to
+> responsible.
 
 ![premier plugin3](images/premier-plugin3.png)
 
-:
+By clicking on a plugin you get its file:
 
 ![premier plugin4](images/premier-plugin4.png)
 
- : 
+You then find : 
 
--  : , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- , 
-- .
+- buttons to install the plugin : the stable version is highly recommended, 
+- a button to remove the plugin, 
+- a brief description, 
+- a link to the plugin documentation, 
+- a link to the changelog (the last modifications made), 
+- compatibility with different platforms, 
+- user reviews, 
+- how to use the plugin, 
+- additional information like the author, the link to the forum discussion regarding this plugin, the date of the last update, etc..
 
-:.
+For more information on plugins click [here] (https:// jeedom.github.io/core/en_US/plugin).
 
 Support 
 =======
 
-.
+Jeedom tackles very wide fields and evolving from day to day.
+However, there are many ways you can find
+help and ask your questions.
 
-.
-
- 
+Jeedom documentation 
 --------------------------
 
-:.:
+You will find a complete documentation [here] (https:// jeedom.fr / doc):
 
-:
+This consists of several categories:
 
--   Core : ,
+-   Core : a part for the "heart" of Jeedom,
 
--    : 
-    ,
+-   First steps : A section (where you are currently) for
+    first things to know,
 
--   Setup : ,
+-   Setup : Everything about installing Jeedom,
 
--    : ,
+-   Howto : Tutorials to progress in various fields,
 
--   Plugins : 
+-   Plugins : The documentation of the different official plugins from
     Jeedom,
 
--    : 
-    
-    .
+-   others : various pages on the different protocols used
+    in Jeedom, the presentation of Jeedom, lists of
+    compatibility, etc.
 
+You will also find below the list of documentation for
+third party plugins.
 
-.
+Feel free to use the function **Search** top right of
+page to find pages based on a specific word.
 
- **Search** 
-.
-
- 
+The forum 
 --------
 
-:. .
+You will find it [here] (https:// jeedom.com / forum) .
 
-. If you
-. 
-. 
-
-.
+The forum is very active and contains a lot of information. If you
+have a question, feel free to ask it. You will have an answer in
+less than an hour (on average). Please note, the forum is
+maintained by the Jeedom community, made up of volunteers, and not by the
+Jeedom company.
 
 ![premier support3](images/premier-support3.png)
 
- 
+Support requests (or tickets) 
 ------------------------------------
 
 > **IMPORTANT**
 >
-> 
-> .
+> Please note, any support request must have
+> an account on the Market.
 
+If you haven't found a solution to your problem, last
+recourse, you can request support from the Jeedom team.
+This request goes through a ticket. It is possible to open one of
+many ways:
 
-.
-. 
-:
-
--   : 
-    
-     :
+-   Directly from Jeedom (recommended method): wherever you
+    be in Jeedom, there is an exclamation mark at the top right
+    which allows you to request support :
 
 ![premier support4](images/premier-support4.png)
 
--   
-     :
+-   If for some reason you do not have access to your
+    Jeedom, you can always open a ticket from the Market :
 
-    -   ,
+    -   either with the exclamation mark at the top right,
 
-    -   
-        ".
+    -   either by going to your profile (then click on the button
+        "Open a support request ").
 
 ![premier support5](images/premier-support5.png)
 
-.
+All further exchanges will be by email.
 
 > **Tip**
 >
-> 
-> 
-> 
+> If, when opening a ticket, you get an error stating
+> that you have reached your quota is that you are limited to one
+> number of support requests per month, depending on your
 > Service pack.
 
- : : 2
-: 
-: 
+The different Service packs are : \ * Community (free): 2
+tickets / month (on paid plugins only) \ * Power: 10 tickets / month
+\ * Pro: 100 tickets / month
 
-
+You can find the detail of the Service packs
 [ici](https://www.jeedom.com/site/fr/soft.html#obtenir)

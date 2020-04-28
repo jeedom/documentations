@@ -39,9 +39,9 @@ gut als primärer als sekundärer Controller verwendet.
 
 Diese Fernbedienung kann auch als Taste verwendet werden
 Notfall oder Panik. Im Notfall oder wenn sein Inhaber
-
-. 
-.
+befindet sich in einer anderen Notsituation, er muss nur drücken
+Die Taste und ein Z-Wave-Signal werden ausgegeben. In diesem Fall dieses Gerät
+kann auch als Medaillon um den Hals verwendet werden.
 
 \.
 
@@ -56,13 +56,13 @@ Funktionen
 
 -   Ultra kompakt und ultra Design
 
--   
+-   1 konfigurierbare Taste
 
--   
+-   Verwaltet bis zu 2 Geräte / Szenen
 
--   
+-   Kann als Notfall- / Panikknopf verwendet werden
 
--   
+-   Verwenden Sie um den Hals als Notfallmedaillon
 
 \.
 
@@ -75,14 +75,14 @@ Technische Daten
 
 -   Versorgung : 1 Lithium 3V CR2450 Batterie
 
--   Akkulaufzeit : 
-    
+-   Akkulaufzeit : 2 bis 3 Monate für 10 bis 20 Anwendungen
+    pro Tag
 
 -   Frequenz: 868.42 MHz
 
 -   Übertragungsentfernung : 30m drinnen
 
--   Abmessungen : 
+-   Abmessungen : 55 x 30 x 11 mm (L x B x H)
 
 \.
 
@@ -93,7 +93,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : 
+-   Name : Panikknopf
 
 -   Hersteller ID : 134
 
@@ -152,9 +152,9 @@ Hier ist die Liste der Befehle :
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-1 : 
+1 : Kurze Taste drücken
 
-2 : 
+2 : Langer Druckknopf
 
 \.
 
@@ -203,7 +203,7 @@ Parameterdetails :
 
 \.
 
-. Er ist
+Dieses Modul hat eine einzelne Zuordnungsgruppe. Er ist
 wesentlich.
 
 \.
@@ -225,14 +225,14 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   2 : Wecken Sie die Fernbedienung auf
 
--   3 : 
-    
+-   3 : Ändern Sie den Parameter 250 auf true (auch wenn
+    scheint schon wahr zu sein)
 
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung vorgenommen wurde
     berücksichtigt
 
 -   5 : Ändern Sie den Betriebsmodus der Fernbedienung, während Sie bleiben
-    .
+    Drücken Sie die beiden Tasten auf der Rückseite 3 Sekunden lang.
 
 Aufwachen 
 ------

@@ -289,13 +289,13 @@ Faq.
 
 \
 
-
-.
+Este módulo se activa presionando 3 veces en uno de los botones de manipulación. Pero
+el otro botón de sabotaje debe ser presionado.
 
 \
 
-. 
-.
+Este módulo tiene un rango muy bajo. Es recomendable hacer
+inclusión más cercana a su caja.
 
 \
 

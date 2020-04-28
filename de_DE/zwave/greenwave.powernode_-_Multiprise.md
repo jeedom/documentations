@@ -234,39 +234,39 @@ Hier ist die Liste der Befehle :
 
 -   On-4 : Es ist der Befehl, der Socket 4 einschaltet
 
--   Aus-4 : 
+-   Aus-4 : Es ist der Befehl, der Socket 4 ausschaltet
 
--    : Dies ist der Befehl, der die momentane Leistung erhöht
-    
+-   Power-4 : Dies ist der Befehl, der die momentane Leistung erhöht
+    entnommen aus Aufnahme 4
 
--    : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-4 : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 4
 
--    : Es ist der Befehl, mit dem der Status des
-    
+-   Zustand-5 : Es ist der Befehl, mit dem der Status des
+    nimm 5
 
--    : 
+-   On-5 : Es ist der Befehl, der Socket 5 einschaltet
 
--    : 
+-   Aus-5 : Es ist der Befehl, der Socket 5 ausschaltet
 
--    : Dies ist der Befehl, der die momentane Leistung erhöht
-    
+-   Power-5 : Dies ist der Befehl, der die momentane Leistung erhöht
+    entnommen aus Aufnahme 5
 
--    : Es ist der Befehl, der den Gesamtverbrauch des
-    
+-   Conso-5 : Es ist der Befehl, der den Gesamtverbrauch des
+    nimm 5
 
--    : Es ist der Befehl, mit dem der Status des
-    
+-   Zustand-6 : Es ist der Befehl, mit dem der Status des
+    nimm 6
 
--    : 
+-   On-6 : Es ist der Befehl, der Socket 6 einschaltet
 
--    : 
+-   Aus-6 : Es ist der Befehl, der Socket 6 ausschaltet
 
--    : Dies ist der Befehl, der die momentane Leistung erhöht
-    
+-   Power-6 : Dies ist der Befehl, der die momentane Leistung erhöht
+    entnommen aus Aufnahme 6
 
--    : Es ist der Befehl, der den Gesamtverbrauch des
-    
+-   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch des
+    nimm 6
 
 \.
 
@@ -307,7 +307,7 @@ Parameterdetails :
 
 \.
 
--   1 :  : Anzahl der Sekunden
+-   1 : Verzögerungen, bevor die Taste blinkt : Anzahl der Sekunden
     Minimum zwischen zwei Kommunikationen (wenn diese Verzögerung überschritten wird, die Taste
     der Steckdose blinkt)
 
@@ -319,7 +319,7 @@ Parameterdetails :
 
 \.
 
-
+Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe
 wesentlich.
 
 \.
@@ -333,12 +333,12 @@ Gut zu wissen
 
 \.
 
-###  
+### Besonderheiten / Polling 
 
 \.
 
-
-.
+Im Gegensatz zu seiner kleinen Schwester "Une Preis" benötigt diese Steckdosenleiste
+Umfragen zur Steigerung des Verbrauchs.
 
 \.
 
@@ -346,12 +346,12 @@ Gut zu wissen
 
 \.
 
-
-
+Es ist nur notwendig, es für den Power-Befehl eines jeden zu aktivieren
+genommen. Dies hat zur Folge, dass die beiden Werte erhöht werden (Verbrauch und Leistung).
 
 \.
 
-###  
+### Gesamtverbrauch 
 
 \.
 
@@ -359,8 +359,8 @@ Gut zu wissen
 
 \.
 
-
-.
+Sie können eine virtuelle verwenden, um einen kumulativen Verbrauch zu erstellen
+von 6 nimmt.
 
 \.
 
@@ -377,8 +377,8 @@ Gut zu wissen
 \.
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
-auf dieser Schaltfläche auf der Registerkarte System verfügbar. 
-.
+auf dieser Schaltfläche auf der Registerkarte System verfügbar. (Es erfolgt ein Zurücksetzen von
+genommen). Wählen Sie PressButton.
 
 \.
 
@@ -396,12 +396,12 @@ Faq.
 
 \.
 
-.
+Hast du für einen CRON bezahlt?.
 
 \.
 
-Nein, nein. Das Modul erlaubt es nicht. 
-.
+Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein Stück schwarzes Klebeband
+oben.
 
 \.
 **@sarakha63**

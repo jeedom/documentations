@@ -165,7 +165,7 @@ Here is the list of commands :
     Pin up
 
 -   Fireplace : It is the command that simulates an atmosphere of
-    fireplace
+    Fireplace
 
 -   Thunderstorm : This is the command that simulates a Storm atmosphere
 

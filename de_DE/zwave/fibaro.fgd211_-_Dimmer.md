@@ -40,14 +40,14 @@ direkt von der Taste am Mikromodul. Er ist
 
 .
 
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
+vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
+Modul (Phase + Neutral).
 
 
-.
 
-
-
-. ,
-
+. Eine Z-Wave-Steuerung (Fernbedienung),
+Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
 . 
 
 .
@@ -188,12 +188,12 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : 
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
-
+Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 Symbol
 
 \.

@@ -1,4 +1,4 @@
-" 
+Secure SES 303 "Temperature / Humidity" 
 =====================================
 
 \
@@ -24,24 +24,24 @@ Summary
 
 \
 
+The SES303 probe allows the measurement of the indoor ambient temperature
+as well as humidity. It is powered by 2 AA batteries and is certified
+Z-Wave Plus. In addition to its main function, it is possible to
+wire various external SECURE probes to the module, i.e.:
 
-. 
-. 
-:
+-   An external NTC temperature sensor (SES001)
 
--   
+-   4 wired temperature sensors for hose or tank (SES002)
+    connected by 1m cables
 
--   
-    
+-   1 wired temperature sensor for hose or tank (SES003)
+    connected by a 4m cable
 
--   
-    
-
-
-
-. 
-
-.
+These modules are ideal for temperature measurement in
+central heating control applications or any other
+similar application. Its user interface is simple, with a
+local push button and an indication LED on the rear panel. We
+can easily include / exclude it in a Z-Wave network.
 
 \
 
@@ -50,18 +50,18 @@ Functions
 
 \
 
--   
+-   Precise measurement of temperature and humidity
 
--   
-    
+-   Application in dynamic control systems
+    tanks / tubes / heated floors /…
 
--   
+-   Possibility to connect external sensors
 
--   
+-   Interoperable with Z-Wave certified products and systems
 
--   
+-   Quick and easy installation
 
--   
+-   Low battery report
 
 \
 
@@ -70,21 +70,21 @@ Technical characteristics
 
 \
 
--   Type: 
+-   Type: Portable / wall mount
 
--   : .
+-   Temperature measurement range: ± 0.5 ° C for 0 ° C to 40 ° C
 
--   
+-   Z-Wave Plus chip
 
 -   Frequency : 868.42 Mhz
 
--   Food: 
+-   Food: 2x AA batteries (LR6)
 
--   Scope : 
+-   Scope : up to 100 m in free field
 
 -   Protection sign : IP30
 
--   Dimensions : 
+-   Dimensions : 86 x 85 x 30 mm
 
 \
 
@@ -118,8 +118,8 @@ inclusion refer to this
 
 > **IMPORTANT**
 >
-> 
-> .
+> To put this module in inclusion mode, press 1 second on
+> the button on the back and release, according to its paper documentation.
 
 \
 
@@ -154,12 +154,12 @@ Here is the list of commands :
 
 -   Temperature : it is the temperature measurement command
 
--   Humidity : 
+-   Humidity : it is the humidity measurement control
 
 -   Drums : it's the battery command
 
-
-
+Several non visible temperatures are also available and will be
+useful if you have connected external probes
 
 \
 
@@ -197,20 +197,20 @@ Parameter details :
 
 \
 
--   1: 
-    
+-   1: Adjusts how much the temperature must vary for
+    the module sends it to Jeedom (in steps of 0.1)
 
--   2: 
-    
+-   2: Allows you to set the temperature sending time interval
+    in Jeedom (in minutes)
 
--   3: 
-    
+-   3: Adjusts how much the humidity must vary so that the
+    module sends it to Jeedom (by%)
 
--   4: 
-    
+-   4: Sets the time interval for sending humidity to
+    Jeedom (in minutes)
 
-
-
+All other parameters are identical and correspond to all
+external probes possibly connected
 
 \
 
@@ -218,7 +218,7 @@ Parameter details :
 
 \
 
-
+This module has only one association group, it is essential
 
 \
 
@@ -248,7 +248,7 @@ Wakeup
 
 \
 
-
+To wake up this module, press the button on the back once
 
 \
 
@@ -257,7 +257,7 @@ Faq.
 
 \
 
-.
+This module wakes up by pressing once on its inclusion button.
 
 \
 

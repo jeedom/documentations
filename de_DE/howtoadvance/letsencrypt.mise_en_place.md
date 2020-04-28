@@ -1,53 +1,53 @@
- 
+Installation von Letsencrypt 
 ===========================
 
+Hier sind die Befehle, die gestartet werden müssen, um letsencrypt vor dem zu installieren
+Generation :
 
- :
+    apt-get install -y git
+    cd / opt
+    Git-Klon https://github.com/letsencrypt/letsencrypt
+    cd letsencrypt
+    ./ letsencrypt-auto --help
 
-    
-    
-    :
-    
-    .
+Um ein Zertifikat anzufordern, müssen Sie den Namen haben
+Domain, für die es generiert wird.
 
-
-.
-
- 
+Apache-Konfiguration 
 ======================
 
+Damit der Let'sEncrypt-Prozess erfolgreich abgeschlossen werden kann, ist dies der Fall
+notwendig, um die drei folgenden Schritte vorher auszuführen :
 
- :
+Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen. ! 
 
- ! 
+-   Aktivieren Sie das Apache-SSL-Modul der Jeedom-Box.
 
--   .
+-   Aktivieren Sie das Apache VirtualHost HTTPS über die Jeedom-Box .
 
--    .
+-   Konfigurieren Sie eine Portweiterleitung von HTTPS-Anforderungen auf Ihrer Box
+    Internet, um sie auf Ihre Jeedom Box umzuleiten.
 
--   
-    .
-
- 
+Aktivierung des virtualHost- und SSL-Moduls 
 ------------------------------------------
 
 > **Notiz**
 >
-> .
+> Schließen Sie SSH an der Jeedom-Box an.
 
-    
-    
-    
+    a2enmod ssl
+    a2ensite default-ssl.conf
+    apache2 Neustartdienst
 
 > **Notiz**
 >
-> 
-> .
+> Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
+> in HTTPS ist von außen nicht erreichbar.
 
-    .
+    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d Domain.com
 
-.
-. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
+Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
+durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
 werden vom Skript in Apache hinzugefügt.
 
 > **Notiz**
@@ -73,7 +73,7 @@ Konfiguration von Nginx
 Dieser Befehl darf nur verwendet werden, wenn Sie einen Webserver haben
 Nginx.
 
-    ./ letsencrypt-auto certonly - E-Mail email @ domain. -a webroot --webroot-path / usr / share / nginx / www /
+    ./ letsencrypt-auto certonly - E-Mail email @ domain.com -d Domain.com -a webroot --webroot-path / usr / share / nginx / www /
 
 Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
 sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen

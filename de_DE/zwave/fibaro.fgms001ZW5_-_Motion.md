@@ -175,7 +175,7 @@ Hier ist die Liste der Befehle :
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
 -   Seismisch : Es ist der Befehl, mit dem die Intensität erhöht werden kann
-    seismisch
+    Seismisch
 
 -   Sabotage : Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
     Vibration)
@@ -272,16 +272,16 @@ Parameterdetails :
 -   60: Sagen wir, wie viel der Wert von
     zu sendende Temperatur (empfohlener Wert 2 oder 0.2 Grad)
 
--   62: 
-    
+-   62: ermöglicht die Angabe der Häufigkeit von Temperaturmessungen
+    (empfohlener Wert 900)
 
 -   64: Ermöglicht die Angabe einer Mindestdauer zwischen zwei aufeinander folgenden Sendungen
     auch wenn sich die Temperatur nicht geändert hat (empfohlener Wert 2700)
 
 -   66: ermöglicht die Einstellung der Temperatur
 
--   80: 
-    
+-   80: Ermöglicht die Auswahl der Farbe der LED bei Erkennung
+    der Bewegung (siehe, um es zu deaktivieren)
 
 -   81: ermöglicht die Einstellung der Helligkeit der LED
 
@@ -312,25 +312,25 @@ Parameterdetails :
 
 > **Spitze**
 >
-> 
-> .
+> Dieses Modul hat fünf Zuordnungsgruppen
+> Controller auf 1, 4 und 5 und entfernen Sie die 3.
 
-:
+Die Namen der Gruppen in der Z-Wave + -Version lauten wie folgt:
 
--   1 : . 
-    .
+-   1 : Lifeline, Modulstatus-Feedback. Der Hauptcontroller
+    sollte dieser Gruppe hinzugefügt werden.
 
--   2 : .
+-   2 : Bewegung, Bewegungssensor.
 
--   3 : .
+-   3 : Manipulation, Sabotagealarm.
 
--   4 : . 
-    
-    .
+-   4 : Bewegung BC, Bewegungssensor. Diese Gruppe möchte sicherstellen
+    Abwärtskompatibilität mit Controllern, die nicht unterstützen
+    das Z-Wave + -Protokoll.
 
--   5 : . 
-    
-    .
+-   5 : Tamper BC, Sabotagealarm. Der Zweck dieser Gruppe ist es
+    Abwärtskompatibilität mit Controllern, die nicht unterstützen
+    Z-Wave + -Protokoll.
 
 \.
 
@@ -346,9 +346,9 @@ Gut zu wissen
 > **Spitze**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und sehr schlecht konfiguriert
-> Fabrik. 
-> 
-> 
+> Fabrik. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
+> (mehrmals sind besser als eins), um es nach Ihren Wünschen zu konfigurieren
+> wünscht, und es gut aufzuwecken, damit die Konfiguration berücksichtigt wird
 > Konto.
 
 \.
@@ -368,9 +368,9 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   
-    . 
-    
+-   Drücken Sie dreimal die Einschlusstaste (das Licht geht an
+    in blau). Selbst wenn das Licht aufleuchtet, kann dies erforderlich sein
+    mach es mehrmals hintereinander (2 oder 3)
 
 \.
 
@@ -379,12 +379,12 @@ Faq.
 
 \.
 
-.
+Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-. 
-.
+Dieses Modul ist sehr pingelig. Es ist ratsam, aufzunehmen
+näher an Ihrer Box und mehrmals wiederholen.
 
 \.
 

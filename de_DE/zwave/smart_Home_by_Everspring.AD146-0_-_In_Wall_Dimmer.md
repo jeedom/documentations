@@ -1,4 +1,4 @@
-SmartHome von Everspring  - AD146-0 
+SmartHome von Everspring Im Wanddimmer - AD146-0 
 ================================================
 
 \.
@@ -29,17 +29,17 @@ Everspring dient zur Steuerung des Ein- und Ausschaltens
 Leuchten und elektrische Geräte in Ihrem Haus. Er kann
 bieten auch eine Dimmerfunktion, die nur ist
 kompatibel mit Glühbirnen. Bei einer Spannung von 230V kann dieses Modul
+Unterstützung von bis zu 300 Watt bei ohmscher oder glühender Last oder 200 Watt
+Watt fluoreszierende Ladung.
 
-.
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
+vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
+Modul (Phase + Neutral).
 
-
-
-.
-
-
-
-
-.
+Das Wall Dimmer Module ist ein Z-Wave ™ -kompatibles Gerät
+Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
+kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
+welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
 
@@ -48,27 +48,27 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie ein Licht / Gerät fern
 
 -   Wird hinter einem vorhandenen Switch installiert
 
--   
+-   EIN / AUS und Variationsfunktion
 
--   
+-   Geringer Energieverbrauch
 
 -   Sehr kleine, reduzierte Abmessungen
 
--   
+-   Langstreckenantenne
 
 -   Z-Wave Plus-Technologie
 
--   
+-   Einfache Installation in einer Standard-Unterputzdose
 
 -   Verwendung im 2-Draht-Modus (Neutralleiter nicht erforderlich)
 
--   
+-   Kompatibel mit dimmbaren LED-Lampen
 
--   
+-   Schaltfläche zum Einschließen / Ausschließen / Zuordnen des Moduls
 
 -   Z-Wave-Repeater-Funktion
 
@@ -83,15 +83,15 @@ Technische Daten
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 
+-   Verbrauch : 0,5 W.
 
 -   Maximale Leistung :
 
--   Widerstandslast : 
+-   Widerstandslast : 300W
 
--    : 
+-   Glühbirne : 300W
 
--    : 
+-   Kompaktleuchtstofflampe : 200W
 
 -   Frequenz : 868,42 MHz
 
@@ -99,7 +99,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : 
+-   Abmessungen : 42 mm x 43 mm x 16 mm
 
 \.
 
@@ -108,9 +108,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : SmartHome von Everspring
 
--   Name : 
+-   Name : Im Wanddimmer
 
 -   Hersteller ID : 96
 
@@ -174,15 +174,15 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : 
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 \.
 
-
-.
+Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
+auf dem gleichen Symbol gefunden.
 
 \.
 
@@ -216,17 +216,17 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
 
--   2 : 
+-   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
     Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : 
-    .
+-   3 : Mit diesem Parameter können Sie festlegen, ob der Switch seine Funktion wieder aufnehmen soll
+    Status (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
--   4 : 
-    
+-   4 : Dieser Parameter definiert den Typ
+    Schalter (Push / Bistable)
 
--   5 : 
-    
+-   5 : Dieser Parameter definiert, ob der Schalter in funktioniert
+    Variationsmodus oder Ein / Aus-Modus
 
 ### Gruppen 
 
@@ -269,7 +269,7 @@ Aufwachen
 
 \.
 
-.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
 \.
 

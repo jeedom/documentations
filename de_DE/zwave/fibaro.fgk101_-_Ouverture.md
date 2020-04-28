@@ -1,4 +1,4 @@
- 
+Fibaro Öffnungsdetektor - FGK-101 
 ======================================
 
 \.
@@ -24,23 +24,23 @@ Zusammenfassung
 
 \.
 
+Dieser Batteriebetriebene und Z-Wave-kompatible Detektor verfügt über einen Sensor
+Reed, ein Näherungsschalter mit Magnetbetrieb, der
+erkennt das Öffnen einer Tür oder eines Fensters, wenn die
+Zwei Elemente sind entfernt.
 
+Das Gerät besteht aus einem Teil mit einem Magneten (dem Teil
+mobil), an der Tür oder am Fenster sowie am Gerät befestigt
+Hauptposition am festen Teil des Fensters / der Tür mit
+Schraube oder Kleber. Wenn sich die beiden Teile nicht mehr gegenüberliegen, a
+Das Z-Wave-Funksignal wird automatisch gesendet.
 
-
-.
-
-
-
-
-. 
-.
-
-
-. 
-
- : 
-
-,
+Zusätzlich verfügt dieser Detektor über einen analogen Eingang
+Schließen Sie einen 1-Draht-Temperaturfühler DS18B20 an. Dieser Detektor hat
+auch von einem kabelgebundenen Eingang, so dass es als verwendet werden kann
+Universalsender : lassen Sie seinen Magnetkontakt beiseite und
+Schließen Sie die Schraubeingänge an einen Detektor (normalerweise geschlossen) Ihres Geräts an
+Wahl wie Rauch-, Gas- oder Kohlenmonoxiddetektor,
 Usw..
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
@@ -54,7 +54,7 @@ Funktionen
 
 \.
 
--   
+-   Detektor öffnen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
@@ -62,10 +62,10 @@ Funktionen
 
 -   Manipulationsschutz
 
--   
+-   1 Potentialfreier verdrahteter Eingang
 
--   
-    
+-   1 analoger 1-Draht-Eingang (zum Anschließen von a
+    Temperatur DS18B20)
 
 -   Sehr kleine, reduzierte Abmessungen
 
@@ -80,15 +80,15 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Farbe : 
+-   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
 
--   Versorgung : 
+-   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 
+-   Abmessungen: 76 x 17 x 19 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -101,7 +101,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : 
+-   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 
 -   Hersteller ID : 271
 
@@ -158,15 +158,15 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : 
+-   Zustand : Es ist der Befehl, der den offenen oder geschlossenen Zustand des
     Modul
 
--   Batterie : 
+-   Batterie : es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
     Batterie
 
 \.
 
-.
+Sie können diese Befehle nach Belieben ein- oder ausblenden.
 
 \.
 
@@ -209,29 +209,29 @@ Parameterdetails :
 -   Aufwachen : Dies ist das Aufweckintervall des Moduls (Wert
     7200 empfohlen)
 
--   1: 
-    
+-   1: Legt die Verzögerung für das Aufheben des IN-Eingangsalarms fest
+    (trockener Kontakt)
 
--   2: 
-    
+-   2: ermöglicht die Auswahl, ob die blaue LED beim Öffnen blinken soll und
+    Zum Beispiel die Tür schließen
 
--   3: 
+-   3: wird verwendet, um den Kontakttyp zu definieren, der an die Klemmenleiste (IN) angeschlossen ist.
 
--   5: 
-    
+-   5: Es wird nicht empfohlen, diese Einstellung zu ändern, es sei denn, Sie wissen warum
+    (Definiert die Art des an die Assoziationsgruppe 1 gesendeten Signals.)
 
--   7: 
+-   7: Wert an Assoziationsgruppe 1 gesendet
 
--   9: 
-    
+-   9: Mit dieser Option können Sie das Senden des Löschsignals zwischen dem IN-Eingang einstellen
+    und Assoziationsgruppe 1
 
--   12: 
-    
+-   12: ermöglicht die Einstellung der Empfindlichkeit gegenüber Temperaturänderungen (wenn
+    eine 1-Draht-Sonde ist an das Modul angeschlossen)
 
--   13: 
-    
+-   13: ermöglicht es, das Senden der Signale von im Broadcast-Modus einzustellen
+    Temperatur und Manipulation
 
--   14: 
+-   14: Aktiviert die Szenenaktivierungsfunktion
 
 \.
 
@@ -259,8 +259,8 @@ Gut zu wissen
 
 > **Spitze**
 >
-> 
-> 
+> Dieses Modul ist beim Aufwecken sehr pingelig und erfordert eine sehr
+> starke Nähe zum Controller, wenn enthalten
 
 \.
 
@@ -279,8 +279,8 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   . 
-    
+-   Drücken Sie die Einschlusstaste 3/4 Mal. Es kann notwendig sein
+    mehrmals hintereinander (2 oder 3)
 
 \.
 
@@ -289,13 +289,13 @@ Faq.
 
 \.
 
-
-.
+Dieses Modul wird durch dreimaliges Drücken einer der Manipulationstasten aktiviert. Aber
+Die andere Sabotage-Taste muss gedrückt werden.
 
 \.
 
-. 
-.
+Dieses Modul hat eine sehr geringe Reichweite. Es ist ratsam zu tun
+Aufnahme am nächsten zu Ihrer Box.
 
 \.
 

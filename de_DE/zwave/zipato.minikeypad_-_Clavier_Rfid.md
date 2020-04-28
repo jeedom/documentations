@@ -1,4 +1,4 @@
- miniKeypad RFID 
+Zipato miniKeypad RFID 
 ======================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Steuern Sie Ihr Sicherheitssystem mit dieser Mini--Wandtastatur
+Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur
 !
 
 Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie oder aktivieren
@@ -90,7 +90,7 @@ Technische Daten
 
 -   Abmessungen : 62 x 62 x 20 mm
 
--   Zertifizierungen : Sicherheit : UL EMC : 
+-   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
 
 \.
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Zipato
 
--   Name : 
+-   Name : Zipato Mini Keypad RFID
 
 -   Hersteller ID : 151
 
@@ -124,10 +124,10 @@ Aufnahme beziehen sich darauf
 
 > **Wichtig**
 >
-> 
-> 
-> 
-> .
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie einfach zwei
+> Sekunden auf der Metalllasche (die rote LED auf der Vorderseite
+> zweimal blinken) und lassen Sie die Lasche so los
+> Inklusion erfolgt.
 
 \.
 
@@ -160,14 +160,14 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Aktion : 
-    
+-   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
+    für zu Hause)
 
--   Sabotage : 
-    
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+    herausreißen)
 
--   Code : 
-    
+-   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
+    ist nicht in einer der Erinnerungen
 
 -   Batterie : Es ist der Batteriebefehl
 
@@ -185,7 +185,7 @@ Hier ist die Liste der Befehle :
 \.
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
-
+Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
 \.
@@ -207,17 +207,17 @@ Parameterdetails :
 
 \.
 
--   1: 
+-   1: ermöglicht das Zurücksetzen der Standardkonfiguration (nicht empfohlen)
 
--   2: 
+-   2: Widerrufsfrist (nicht zu ändern)
 
--   3:  : 
-    
+-   3: Rückkehr per Piepton : Ermöglicht das Aktivieren oder Nicht-Aktivieren einer Reihe von 8 Signaltönen
+    nach Erkennung eines Ausweises / Codes
 
--   4: 
+-   4: Anzahl der Pieptöne pro Sekunde (nicht ändern hat keine Auswirkung)
 
--   5:  : 
-    
+-   5: Betriebsart : normaler oder immer wacher Modus
+    (nicht empfohlen, da sehr sehr batterieverbrauchend)
 
 \.
 
@@ -235,14 +235,14 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 > **Wichtig**
 >
-> . 
-> .
+> Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
+> mindestens mit Gruppe 1 verbunden sein.
 
-###  
+### Abzeichen / Codes 
 
 \.
 
-.
+Auf der Ausrüstungsseite befindet sich eine Registerkarte Assistent.
 
 \.
 
@@ -250,7 +250,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \.
 
-. .
+Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 \.
 
@@ -258,29 +258,29 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \.
 
--   
-    
+-   In dieser Tabelle können Sie die auf Ihrem Computer belegten Speicher anzeigen
+    Tastatur
 
--   
-    
+-   Um einen neuen Code zu registrieren, klicken Sie auf die grüne Schaltfläche auf der
+    gewünschter Speicher und folgen Sie den Schritten
 
--   .
+-   Um einen Code zu löschen, klicken Sie einfach auf die rote Schaltfläche.
 
--   
-    
+-   Es ist unmöglich, denselben Code / dasselbe Abzeichen in zwei Speichern zu speichern
+    anders
 
--   
-    
+-   Es ist (aus Sicherheitsgründen) unmöglich, den Wert von a zu lesen
+    registrierter Code
 
 \.
 
 > **Wichtig**
 >
-> .
+> Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
 \.
 
- 
+Anwendungsbeispiele 
 ----------------------
 
 \.
@@ -289,14 +289,14 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \.
 
-
-. Wenn die
-
-
-
-. 
-
-.
+Der Auslöser ist der Ereignisbefehl, tatsächlich ist dies der Fall
+wird nur aktualisiert, wenn ein gültiger Code / Ausweis vorgelegt wurde. Wenn die
+Wert ist 6 (home) Wir deaktivieren den Alarm (zum Beispiel) oder schalten den ein
+Mehrfachsteckdose, wir schalten das Licht je nach Helligkeit ein, die wir senden
+eine Benachrichtigung, um zu melden, dass jemand zurückgekehrt ist, starten wir eine
+Sprachsynthese, um beispielsweise einen Wetterbericht zu erstellen. Ansonsten (unbedingt
+5) Wir aktivieren den Alarm, wir schneiden die Steckdosenleiste ab, wir senden eine
+Benachrichtigung, um zu melden, dass das Haus leer ist.
 
 \.
 
@@ -309,16 +309,16 @@ Gut zu wissen
 
 \.
 
- :
+Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
 \.
 
--   
-    
+-   wenn Sie für die ersten 1 bis 2 nach Hause / weg drücken
+    Sekunden, wenn Sie anfangen, einen Code einzugeben, wird dieser Code gelesen
 
--   
-    . 
-    .
+-   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, beginnt es
+    Lesemodus für RFID-Ausweise (rotes Licht an). Zu dieser Zeit
+    er kann ein Abzeichen lesen, nicht vorher.
 
 \.
 
@@ -327,13 +327,13 @@ Aufwachen
 
 \.
 
- :
+Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
 \.
 
--   
+-   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
 
--   
+-   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 
 \.
 
@@ -342,9 +342,9 @@ Faq.
 
 \.
 
-
-
-.
+Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
+entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
+Geben Sie ein.
 
 \.
 

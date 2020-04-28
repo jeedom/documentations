@@ -235,40 +235,40 @@ Parameterdetails :
 \.
 
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
-    
+    empfohlen 21600)
 
--   1: 
+-   1: Passt die Empfindlichkeit der Raucherkennung an
 
--   2: 
-     : 
+-   2: Hier können Sie auswählen, welche Benachrichtigungen an Jeedom gesendet werden sollen
+    (Rat : alle)
 
--   3: 
-    
+-   3: Hier können Sie auswählen, welche Benachrichtigungen von einem begleitet werden sollen
+    visuelle Anzeige
 
--   4: 
-    
-    
+-   4: Hier können Sie auswählen, welche Benachrichtigungen von einem begleitet werden sollen
+    akustische Anzeige (in allen Fällen die Wärmemelder und
+    das Modul klingelt)
 
--   10: 
+-   10: Ändern Sie diese Einstellung nur, wenn Sie wissen, was Sie tun
     tun
 
 -   11: idem
 
 -   12: idem
 
--   13: 
-    
+-   13: ermöglicht das Benachrichtigen anderer zwave-Module (zum Deaktivieren, es sei denn
+    Sie wissen, warum Sie es aktivieren)
 
--   20: 
+-   20: Zeit zwischen zwei Temperaturberichten
 
--   21: 
-    
+-   21: Temperaturunterschied von dem, auch wenn die Dauer
+    von oben nicht erreicht wird, wird die Temperatur an Jeedom gesendet
 
--   30: 
+-   30: Temperatur des Wärmealarmauslösers
 
--   31: 
+-   31: Berichtsintervall für Temperaturspitzen
 
--   32: 
+-   32: Signalintervall bei Verlust von Zwave
 
 \.
 
@@ -276,8 +276,8 @@ Parameterdetails :
 
 \.
 
-. 
-:
+Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
+zumindest mit den Gruppen 1 4 und 5 verbunden:
 
 \.
 
@@ -307,7 +307,7 @@ Aufwachen
 
 \.
 
-
+Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
 \.
 
@@ -316,7 +316,7 @@ Faq.
 
 \.
 
-.
+Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 

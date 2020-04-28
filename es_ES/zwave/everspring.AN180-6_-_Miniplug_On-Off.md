@@ -1,4 +1,4 @@
- 
+Everspring Miniplug Uno / Apagado - AN180-6 
 ====================================
 
 \
@@ -24,16 +24,16 @@ Resumen
 
 \
 
+El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
+apagar las luces y el equipo eléctrico de su
+casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
+Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
+fluorescente, Led).
 
-
-
-,
-.
-
-
-. 
-
-.
+El Mini Uno / Apagado Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
+para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
+ser controlado por un control remoto, software de PC o cualquier
+Controlador Z-Wave para su red.
 
 \
 
@@ -47,22 +47,22 @@ Funciones
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y
     la carga a la orden
 
--   
-    
+-   Función ON / OFF para controlar lámparas o dispositivos (no
+    variación)
 
--   
+-   Control de carga local mediante botón integrado.
 
--   
+-   Tecnología Z-Wave Plus
 
--   
+-   Dimensiones reducidas para pasar casi desapercibidas
 
--   
+-   LED de estado en el botón integrado
 
--   
+-   Función repetidora Z-Wave
 
 \
 
- 
+Características técnicas 
 ---------------------------
 
 \
@@ -71,19 +71,19 @@ Funciones
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.6W
 
--   Potencia máxima :  : 
-    :  :  :
-    
+-   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
+    : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
+    200W
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : 
+-   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: 
+-   Visualización: LED en el botón
 
--   Dimensiones :  :  : 
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -92,7 +92,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Everspring
 
 -   Nombre : Miniplug encendido / apagado
 
@@ -117,10 +117,10 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
-> . 
-> 
-> 
+> Para poner este módulo en modo de inclusión, presione 3 veces en su
+> botón, de acuerdo con su documentación en papel. Es importante
+> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> no pertenece a ninguna red y está alimentado
 
 \
 
@@ -140,7 +140,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-
+Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
 disponible.
 
 \
@@ -154,7 +154,7 @@ Aquí está la lista de comandos :
 \
 
 -   Estado : Es el comando que permite conocer el estado de la
-    
+    zócalo (encendido / apagado)
 
 -   Uno : Este es el comando que enciende la salida
 
@@ -163,7 +163,7 @@ Aquí está la lista de comandos :
 \
 
 Tenga en cuenta que en el tablero, la información de estado, ON / OFF, se puede encontrar en
-.
+el mismo icono.
 
 \
 
@@ -194,20 +194,20 @@ Detalles del parámetro :
 
 \
 
--   1 : 
-    .
+-   1 : Este parámetro define el comando de valor de estado, no es
+    aconseja cambiar este valor.
 
--   2 : 
-    
+-   2 : Este parámetro define el retraso en el envío del cambio de estado a
+    grupo 1 (valor entre 3 y 25 segundos)
 
--   3 : 
-    .
+-   3 : Este parámetro se usa para definir si el socket reanudará su estado
+    (ON u OFF) después de una recuperación de energía.
 
 ### Grupos 
 
 \
 
-.
+Este módulo tiene 2 grupos de asociación..
 
 \
 
@@ -228,8 +228,8 @@ Bueno saber
 
 \
 
--   
-    
+-   La retroalimentación de estado no se puede configurar por debajo de 3
+    segundos \
 
 Despertador 
 ------

@@ -1,4 +1,4 @@
- 
+MCO MH-S412 Double 
 ==================
 
 \
@@ -23,39 +23,39 @@ Summary
 ------
 
 \
-,
+The MH-S412-EU switch is used to switch the 2 connected loads,
+either manually like a conventional switch, or remotely via the
+Z-Wave wireless protocol.
 
-.
+Its glass finish and design brings a modern style.
 
-.
+MH-S412-EU switch can control any type of load,
+lighting or an electrical appliance.
 
-,
-.
-
-
-
+The switch is also equipped with an LED indicator that indicates its
+state. \
 
 Functions 
 ---------
 
 \
 
--   
+-   Control two lamps or devices remotely
 
--   
-    
+-   Installs in place of an existing switch (fits
+    perfectly in a 40mm installation box)
 
--   
+-   ON / OFF function
 
--   
+-   Support association commands (Group 1 and Group 2)
 
--   
+-   Control of the two charges locally
 
--   
+-   Status LED
 
--   
+-   Glass finish, modern design
 
--   
+-   Touch buttons
 
 \
 
@@ -72,15 +72,15 @@ Technical characteristics
 
 -   Wiring : 3 wire, neutral required
 
--   Maximum power : 
+-   Maximum power : 5A (1100W) for each channel
 
 -   Frequency : 868.42 Mhz
 
--   Scope : 
+-   Scope : up to 30 m
 
--   Dimensions : 
+-   Dimensions : 86 x 86 x 43 mm
 
--   Viewing: 
+-   Viewing: Blue / red LED
 
 \
 
@@ -89,7 +89,7 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : MC HOME
 
 -   Name : MH-S412 Double
 

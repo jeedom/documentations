@@ -1,4 +1,4 @@
-" 
+Fibaro FGR-222 "Roller shutter" 
 ==============================
 
 \
@@ -24,12 +24,12 @@ Summary
 
 \
 
-
-
-
-
-
-.
+The FGR-222 micromodule will allow you to manage the motorizations of
+shutter with electronic stop, Venetian blinds or the doors of
+garage thanks to the Z-Wave protocol while keeping your switch
+existing. You will therefore be able to activate the connected motor by
+using the existing switch, a Z-Wave transmitter or directly
+from the button on the micromodule.
 
 In addition, this micromodule is capable of transmitting consumption
 instantaneous (W) and cumulative (KWh) electrical power of the equipment
@@ -113,7 +113,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Name : 
+-   Name : Fibaro FGR-222
 
 -   Manufacturer ID : 271
 

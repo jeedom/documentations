@@ -1,4 +1,4 @@
-" 
+Fibaro FGRM-222 "Persiana enrollable" 
 ===============================
 
 \
@@ -24,12 +24,12 @@ Resumen
 
 \
 
-
-
-
-. 
-
-.
+El micromódulo FGRM-222 le permitirá gestionar las motorizaciones de
+persianas electrónicas, persianas o puertas venecianas
+garaje gracias al protocolo Z-Wave manteniendo su
+interruptor existente. Entonces podrá operar el motor
+conectado usando el interruptor existente, un transmisor Z-Wave o
+directamente desde el botón en el micromódulo.
 
 Además, este micromódulo es capaz de transmitir el consumo.
 potencia eléctrica instantánea (W) y acumulativa (KWh) del equipo
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : Fibaro FGRM-222
 
 -   ID del fabricante : 271
 
@@ -238,7 +238,7 @@ Detalles del parámetro :
 \
 
 -   1: permite bloquear el módulo (para congelar un obturador) (en el caso
-    
+    presionando un interruptor)
 
 -   2: lo mismo pero para los comandos zwave
 
@@ -254,7 +254,7 @@ Detalles del parámetro :
 -   14: permite elegir el tipo de interruptor
 
 -   17: permite elegir cuánto tiempo después del límite definido en 18
-    
+    el obturador se detiene
 
 -   18: potencia de seguridad del motor
 
@@ -273,8 +273,8 @@ Detalles del parámetro :
 -   43: delta de energía para desencadenar un ascenso de información (incluso en
     fuera del período definido en 42)
 
--   44: 
-    
+-   44: permite elegir si el consumo y la potencia
+    debe tener en cuenta la del módulo en sí
 
 -   50: permite elegir si el módulo debe enviar la información a los nodos
     en asociación en modo escena o en modo asociación

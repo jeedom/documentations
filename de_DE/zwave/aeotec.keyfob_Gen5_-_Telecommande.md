@@ -1,4 +1,4 @@
- 
+Aeotec Keyfob Gen5 
 ==================
 
 \.
@@ -24,9 +24,9 @@ Zusammenfassung
 
 \.
 
-
-
-.
+Die Aeon Labs Schlüsselbundfernbedienung mit modernem und angenehmem Design
+verfügt über 4 Tasten zur Steuerung aller Gerätetypen
+Z-Wave wie Lampen, Jalousien usw..
 
 Mit seinen sehr kleinen Abmessungen können Sie es leicht setzen
 in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet

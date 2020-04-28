@@ -1,4 +1,4 @@
-" 
+Fibaro FGFS-101 "Sensor de inundación" 
 ==============================
 
 \
@@ -24,32 +24,32 @@ Resumen
 
 \
 
+El sensor FGFS-101 es compacto y tiene una amplia variedad de
+funciones Con su avanzada tecnología y precisión, el sensor
+Inundación Fibaro lo alerta de una inundación amenazante o un aumento
+o caída rápida de temperatura.
 
+Está equipado con un sensor de inclinación que envía una alerta
+inmediatamente a la red Z-Wave si el detector es movido o robado
+(retroalimenta al controlador Z-Wave la inclinación o
+movimiento).
 
+Este detector universal de inundación y temperatura puede ser alimentado
+por batería o por una fuente de alimentación externa de 12 o 24 VCC. Cuando es
+conectada a una fuente de alimentación externa, la batería sirve como fuente
+poder de emergencia.
 
-.
+Gracias a su sensor de temperatura puedes controlar la temperatura de
+tu suelo. Es resistente al agua, en caso de inundación flota sobre la superficie de
+agua.
 
+También tiene una alarma de sirena que puede sonar en caso de
+problema. Puede conectar la salida de contacto seco a un sistema
+alarma existente. Un LED frontal para verificar el estado del
+FGFS-101.
 
-
-
-.
-
-
-. 
-
-.
-
-
-. 
-.
-
-
-
-. 
-.
-
-
-.
+Este sensor incorpora un probador de rango de red Z-Wave, que le permite
+asegura el correcto funcionamiento del sensor durante su instalación.
 
 \
 
@@ -58,17 +58,17 @@ Funciones
 
 \
 
--   
+-   Detector de inundaciones (presencia de agua a través de contactos)
 
--   
+-   Detector de temperatura
 
--   
+-   Detector de inclinación
 
--   
+-   Alarma audible y visual
 
--   
+-   Probador de rango Z-Wave
 
--    ?? 
+-   Repetidor de onda Z ?? (ver sección "Es bueno saberlo")
 
 \
 
@@ -79,30 +79,30 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--    : 
+-   El módulo puede ser alimentado externamente : 12-24 VDC
 
--   Tipo de batería : 
+-   Tipo de batería : CR123A
 
--    : 2 años
+-   Duración de la batería : 2 años
 
--    : 
+-   Consumo en fuente de alimentación externa : 0.4W
 
--    :
+-   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
 
--    : 
+-   Tensión máxima soportada en la salida : 40V (CA o CC)
 
--   Frecuencia : 
+-   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones : 
+-   Dimensiones : 72 x 28 mm (diámetro x altura)
 
--   Temperatura de funcionamiento : 
-    
+-   Temperatura de funcionamiento : 0-40 ° C (-20 ° C a 70 ° C si
+    fuente de alimentación externa)
 
--    : -
+-   Rango de medición de temperatura : -20 a 100 ° C
 
--    : 0.5 ° C (en un rango de 0 a 40 ° C)
+-   Precisión de medición : 0.5 ° C (en un rango de 0 a 40 ° C)
 
 -   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
@@ -329,7 +329,7 @@ Nota importante
 Detalle de uso :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Documentación de fibaro :
-<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
+<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \
 

@@ -1,4 +1,4 @@
-" 
+Secure SRT 323 "Thermostat" 
 ===========================
 
 \
@@ -24,36 +24,36 @@ Summary
 
 \
 
-. 
+The SRT323 is a wall-mounted battery-operated thermostat. He has
+a rotary knob allowing the user to adjust the temperature
+in the room. This thermostat incorporates a control relay
+dump. There is therefore no need to install an actuator near
+of the boiler.
 
-. 
-. 
-.
+By checking the set temperature with the actual temperature
+measured, the thermostat decides to activate the boiler. What's more
+thermostat incorporates a TPI (time-proportional integral) algorithm,
+allowing a more accurate optimization and adjustment of the temperature
+of your environment.
 
+Thermostat can receive setpoint temperature from another
+Z-Wave controller, and can also be used as a
+temperature. The thermostat itself does not have a built-in timer but
+execute Z-Wave commands and local commands.
 
-. 
-,
+It can be used as a direct replacement for thermostats
+existing, without having to make any wiring changes. The algorithm
+TPI will optimize the switching on and off of the boiler
+in order to best maintain the set temperature, without
+"overshoot "of it. It has been shown that TPI controllers
+can provide considerable energy savings compared to
+traditional heating controllers.
 
-.
-
-
-
-
-.
-
-
-
-
-
-". 
-
-.
-
-
-
-
-
-.
+The SRT323 is an ideal partner for use with a gateway
+home automation, allowing you to remotely control your system
+heater. You will no longer have to worry about going home in
+a cold house, as long as you have a smartphone, tablet or
+PC at hand and connected to the internet.
 
 \
 
@@ -62,9 +62,9 @@ Functions
 
 \
 
--   
+-   Thermostat for domestic application
 
--   
+-   Replaces an existing thermostat
 
 -   Z-Wave wireless technology
 

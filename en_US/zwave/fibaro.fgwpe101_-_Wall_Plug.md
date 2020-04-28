@@ -151,15 +151,15 @@ Here is the list of commands :
 
 -   Off : It is the command which makes it possible to extinguish the catch
 
--   Power : 
-    
+-   Power : This is the command that brings up the instantaneous power
+    consumed
 
--    : 
+-   Consumption : It is the order which reports the total consumption
 
 \
 
-
-.
+Note that on the dashboard the ON / OFF / STATUS commands are grouped together
+in one button.
 
 \
 
@@ -196,51 +196,51 @@ Parameter details :
 
 \
 
--   1: 
+-   1: allows to block the module in always ON
 
--   16: 
-    
+-   16: allows you to remember the last state in the event of a power cut
+    Current
 
--   34: 
-    
+-   34: allows you to choose the type of alarm on the Zwave network
+    must react
 
--   35: 
+-   35: allows you to set how the outlet will respond to alarms
 
--   39: 
+-   39: sets the duration of the alarm
 
--   40: 
-    
+-   40: defines how much the power must vary to be
+    increase (in%)
 
--   42: 
-    
+-   42: same as in standard mode (up to 5 times per step defined in
+    param 43)
 
--   43: 
+-   43: power rise interval
 
--   45: 
+-   45: consumption rise interval (in kWh 10 = 0.1 kWh)
 
--   47: 
-    
+-   47: interval in seconds of reporting of information independently
+    of a variation
 
--   49: 
+-   49: take into account the consumption of the module itself in the
     Values
 
--   50: 
+-   50: minimum value used by param 52
 
--   51: 
+-   51: maximum value used by param 52
 
--   52: 
-    
+-   52: action to be taken if the power goes outside the limits defined in
+    parameters 50 and 51
 
--   60: 
+-   60: power beyond which the plug will flash purple
 
--   61: 
+-   61: color when plug is on
 
--   62: 
+-   62: color when plug is off
 
--   63: 
+-   63: color when a Zwave alarm is detected
 
--   70: 
-    
+-   70: safety power (the plug will cut when the power
+    will reach this threshold)
 
 \
 
@@ -271,8 +271,8 @@ Good to know
 \
 
 You can reset your consumption meter by clicking
-on this button available in the System tab. 
-.
+on this button available in the System tab. It's necessary to choose
+PressButton.
 
 \
 

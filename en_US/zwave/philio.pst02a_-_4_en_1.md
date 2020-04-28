@@ -1,4 +1,4 @@
- 
+Philio PST02 A - 4 in 1 
 =======================
 
 \
@@ -24,60 +24,60 @@ Summary
 
 \
 
- : 
-
- : a detector and a magnet.
-
-
-.
+The ZIP-PSM02-EU detector offers 4 different functions : detection of
+movement, opening detection, temperature sensor and detector
+brightness. It consists of two parts : a detector and a magnet.
+They are designed to be placed on a door or window with
+the magnet fixedd on the part which opens and the detector on the part
+fixed.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
 alarm, if the system is armed (this signal can be used by a
-. 
-. 
+siren or by a home automation box for example). This detector can be
+used for security or automation. When the detector
+is associated with security devices, it serves as a trigger
+alerts when detecting changes in radiation levels
+infrared or door / window opening. If a person moves in
+the detector's field of vision or opens a door / window, a signal
+radio is transmitted, which triggers an alarm to deter
+intruder.
 
+The detector can also be used in combination with a
+Z-Wave controller for home automation uses, by detecting both
+changes in infrared radiation levels (presence) or
+door / window opening and changes in the level of
+brightness. Thus, one can trigger a lighting during a detection
+door movement or opening in the dark.
 
-. 
-
-
-.
-
-
-
-
-
-
-.
-
-
-
-. ,
-
-
+The detector will also raise the brightness and the temperature, i.e.
+significant change, and whenever a movement or
+opening / closing are detected. A Z-Wave controller (remote control,
+dongle…) is necessary in order to integrate this detector into your network
+if you already have an existing network. \
 
 Functions 
 ---------
 
 \
 
--   : 
+-   4 in 1 detector: movement, aperture, temperature, light
 
--   
-    
-    
+-   Adopts the recent Z-Wave 400series chip to support
+    multichannel operations and more data throughput
+    high (9.6 / 40 / 100kbps)
 
--   
+-   Uses the Z-Wave 6.02 SDK
 
--   
+-   Optimized antenna range
 
--   
+-   Use for home automation or security applications
 
 -   Button to include / exclude the detector
 
--   
+-   Self-protection
 
--   
+-   Low battery indication
 
 -   Small, discreet and aesthetic
 
@@ -92,27 +92,27 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 
+-   Food : 1 CR123A 3V battery
 
 -   Battery life : 2 years
 
 -   Frequency : 868.42 MHz
 
--   Transmission distance : 
+-   Transmission distance : 30m indoors
 
--    : -
+-   Temperature sensor : -10 to 70 ° C
 
--   Brightness sensor : 
+-   Brightness sensor : 0 to 500 lux
 
--    : 
+-   PIR detection angle : 90 °
 
--    : 
+-   PIR detection range : 8 to 10m
 
 -   Dimensions :
 
--    : 
+-   Detector : 28 x 96 x 23 mm
 
--    : 
+-   Magnet : 10 x 50 x 12 mm
 
 -   Weight : 52g
 

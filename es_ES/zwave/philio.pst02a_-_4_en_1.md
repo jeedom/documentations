@@ -1,4 +1,4 @@
- 
+Philio PST02 A - 4 en 1 
 =======================
 
 \
@@ -24,44 +24,44 @@ Resumen
 
 \
 
- : 
-
- : un detector y un imán.
-
-
-.
+El detector ZIP-PSM02-EU ofrece 4 funciones diferentes. : detección de
+movimiento, detección de apertura, sensor de temperatura y detector
+brillo Consta de dos partes : un detector y un imán.
+Están diseñados para colocarse en una puerta o ventana con
+el imán fijado en la parte que se abre y el detector en la parte
+arreglado.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
 detector, que activará el detector que enviará una señal Z-Wave
 alarma, si el sistema está armado (esta señal puede ser utilizada por un
-sirena o por una caja de automatización del hogar, por ejemplo). 
-. 
-
-
-. 
-
-
-.
+sirena o por una caja de automatización del hogar, por ejemplo). Este detector puede ser
+utilizado para seguridad o automatización. Cuando el detector
+está asociado con dispositivos de seguridad, sirve como disparador
+alertas al detectar cambios en los niveles de radiación
+infrarrojo o puerta / ventana de apertura. Si una persona se muda
+el campo de visión del detector o abre una puerta / ventana, una señal
+se transmite la radio, que activa una alarma para disuadir
+intruso.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
-
-
-
-.
+cambios en los niveles de radiación infrarroja (presencia) o
+apertura de puerta / ventana y cambios en el nivel de
+brillo Por lo tanto, uno puede activar una iluminación durante una detección
+movimiento de puerta o apertura en la oscuridad.
 
 El detector también aumentará el brillo y la temperatura, es decir.
-
-. ,
-
-
+cambio significativo, y siempre que un movimiento o
+se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
+dongle ...) es necesario para integrar este detector en su red
+si ya tienes una red existente. \
 
 Funciones 
 ---------
 
 \
 
--   : 
+-   Detector 4 en 1: movimiento, apertura, temperatura, luz
 
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir
     operaciones multicanal y más rendimiento de datos

@@ -1,4 +1,4 @@
- 
+Philio PST02 A - 4 in 1 
 =======================
 
 \.
@@ -24,44 +24,44 @@ Zusammenfassung
 
 \.
 
- : 
+Der Detektor ZIP-PSM02-EU bietet 4 verschiedene Funktionen : Erkennung von
+Bewegung, Öffnungserkennung, Temperatursensor und Detektor
+Helligkeit. Es besteht aus zwei Teilen : ein Detektor und ein Magnet.
+Sie sind so konzipiert, dass sie an einer Tür oder einem Fenster mit angebracht werden können
+Der Magnet ist an dem sich öffnenden Teil und der Detektor an dem Teil befestigt
+behoben.
 
- : .
+Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
+Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
+Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
+Sirene oder von einer Hausautomationsbox zum Beispiel). Dieser Detektor kann sein
+wird für Sicherheit oder Automatisierung verwendet. Wenn der Detektor
+ist mit Sicherheitsgeräten verbunden, dient als Auslöser
+Warnungen beim Erkennen von Änderungen der Strahlungswerte
+Infrarot- oder Tür- / Fensteröffnung. Wenn eine Person einzieht
+das Sichtfeld des Detektors oder öffnet eine Tür / ein Fenster, ein Signal
+Radio wird gesendet, was einen Alarm auslöst, um abzuschrecken
+Eindringling.
 
-
-.
-
-
-
-
-. 
-. 
-
-
-. 
-
-
-.
-
-
-
-
-
-
-.
+Der Detektor kann auch in Kombination mit a verwendet werden
+Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
+Änderungen der Infrarotstrahlung (Vorhandensein) oder
+Tür- / Fensteröffnung und Änderungen in der Höhe von
+Helligkeit. Somit kann man während einer Erkennung eine Beleuchtung auslösen
+Türbewegung oder Öffnung im Dunkeln.
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
-
-. ,
-
-
+signifikante Änderung, und wann immer eine Bewegung oder
+Öffnen / Schließen werden erkannt. Eine Z-Wave-Steuerung (Fernbedienung),
+Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
+wenn Sie bereits ein vorhandenes Netzwerk haben. \.
 
 Funktionen 
 ---------
 
 \.
 
--   : 
+-   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
 
 -   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
     Mehrkanalbetrieb und mehr Datendurchsatz
@@ -104,9 +104,9 @@ Technische Daten
 
 -   Helligkeitssensor : 0 bis 500 Lux
 
--    : 
+-   PIR-Erfassungswinkel : 90 °
 
--    : 
+-   PIR-Erfassungsbereich : 8 bis 10 m
 
 -   Abmessungen :
 
@@ -133,7 +133,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Name : 
+-   Name : PST02-A 4-in-1-Multisensor
 
 -   Hersteller ID : 316
 
@@ -200,8 +200,8 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : 
-    
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+    herausreißen)
 
 -   Batterie : Es ist der Batteriebefehl
 
@@ -248,8 +248,8 @@ Parameterdetails :
 -   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
     Verein 2
 
--   3:  :
-    : 
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 :
+    deaktiviert 99: maximale Empfindlichkeit)
 
 -   4: Stellt die Helligkeitsstufe ein, ab der die
     Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
@@ -262,11 +262,11 @@ Parameterdetails :
     Herstellerdokumentation) Empfohlener Wert : 4
 
 -   7: personalisierte Multisensor-Betriebsart (siehe
-    auf der Dokumentation des Herstellers) Empfohlener Wert : 
-    
+    auf der Dokumentation des Herstellers) Empfohlener Wert : 6 (für
+    eine Rückkehr zu AUS der Anwesenheit haben)
 
--   8: 
-    
+-   8: Ermöglicht die Definition der Dauer in Schritten von 8 Sekunden für die erneute Erkennung
+    der Bewegung
 
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind

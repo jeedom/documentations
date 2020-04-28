@@ -222,11 +222,11 @@ swiidinter a otro módulo (pulsación larga)
 -   Solo apagado : será efectivo solo para apagar a otros
     luces
 
--    : 
+-   SOLO : será efectivo solo para encender a los demás
     luces
 
--    : 
-    
+-   ENCENDIDO y APAGADO (completamente) : será efectivo para encender y apagar el
+    otras luces
 
 \
 
@@ -244,19 +244,19 @@ Este módulo tiene dos grupos de asociación..
 
 > **Importante**
 >
-> Para un funcionamiento óptimo de su módulo. 
-> .
+> Para un funcionamiento óptimo de su módulo. Jeedom debe
+> estar asociado al menos con el grupo 2.
 
 \
 
- 
+Asociarse con otra luz 
 ----------------------------
 
 \
 
-
-
-.
+Para asociar el swiidinter con otra luz y poder beneficiarse de
+encender otra luz, solo agréguela al grupo
+de asociación 1 a través de la pantalla citada anteriormente.
 
 \
 
@@ -273,7 +273,7 @@ Bueno saber
 
 \
 
- 
+Despertar 
 -------
 
 \
@@ -287,7 +287,7 @@ Faq.
 
 \
 
-
+¿Ha combinado los dos módulos y ha configurado la pieza correctamente?
 Especifico.
 
 \

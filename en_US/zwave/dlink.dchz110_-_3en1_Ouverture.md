@@ -1,4 +1,4 @@
-" 
+D-Link DCH-Z110 - "3 in 1 Opening" 
 ====================================
 
 \
@@ -24,7 +24,7 @@ Summary
 
 \
 
- : detection
+The DCH-Z110 detector offers 3 different functions : detection
 opening, temperature sensor and light detector. It is
 consists of two parts : a detector and a magnet. They are designed
 to be placed on a door or window with the magnet fixed on the
@@ -33,17 +33,17 @@ opening part and the detector on the fixed part.
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
 alarm, if the system is armed (this signal can be used by a
-. 
+siren or by a home automation box for example). The sensor can also
+be used for automatic lighting control, depending on the
+brightness level. For example, the sensor will send a signal to
+Z-Wave switch to turn on the light when the door opens
+and the room is dark.
 
-. 
-
-.
-
-
-
-. 
-
-.
+The detector will also raise the brightness and the temperature, i.e.
+in the event of a significant change, and each time the opening / closing
+is detected. A Z-Wave controller (remote control, dongle…?) Is
+necessary in order to integrate this detector into your network if you have
+already an existing network.
 
 \
 
@@ -52,17 +52,17 @@ Functions
 
 \
 
--   : 
+-   3 in 1 detector: Aperture, temperature, light
 
--   
+-   Optimized antenna range
 
--   
+-   Use for home automation or security applications
 
 -   Button to include / exclude the detector
 
--   
+-   Self-protection
 
--   
+-   Low battery indication
 
 -   Small, discreet and aesthetic
 
@@ -75,14 +75,14 @@ Technical characteristics
 
 \
 
- :
+Official site :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
 
- :
+Other technical link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-
+techniques] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -91,18 +91,18 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : D-Link
 
--   Model : 
-    
+-   Model : DCH-Z110 Door and window opening detector
+    mydlink ™ Home
 
--   Maker : 
+-   Maker : FIBARO System
 
--   Manufacturer ID : ]
+-   Manufacturer ID : 264 \ [0x0108 \]
 
--   Product Type : ]
+-   Product Type : 2 \ [0x0002 \]
 
--   Product ID : ]
+-   Product ID : 14 \ [0x000e \]
 
 \
 
@@ -119,13 +119,13 @@ inclusion refer to this
 
 > **IMPORTANT**
 >
-> 
-> 
-> .
-> 
-> 
-> . 
-> 
+> Do not install the module on the window / door before having it
+> correctly configured, and pay attention to the alignment of
+> the magnet during tests on a flat surface and during installation.
+> (Use shims if necessary) To put this module in mode
+> inclusion it is necessary to press 3 times on the association button in 1.5
+> second, according to its documentation. (constant red flashing
+> in association mode)
 
 \
 
@@ -179,9 +179,9 @@ Here is the list of commands :
 
 > **IMPORTANT**
 >
-> 
-> .
-> .
+> During a first inclusion, or a modification, save then
+> always wake up the module by pressing the association button.
+> It should flash red and change status.
 
 \
 
@@ -218,14 +218,14 @@ Parameter details :
     group 2
 
 -   5: operating mode (see the
-    
+    manufacturer documentation)
 
 -   6: multi-sensor operating mode (see the
-    .  : 7
+    manufacturer documentation). Recommended value : 7
 
--   7: 
-    .  : 
-    
+-   7: personalized multi-sensor operating mode (see
+    on the manufacturer's documentation). Recommended value : 20 (for
+    have functional opening)
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2
@@ -237,19 +237,19 @@ Parameter details :
     (one unit = parameter 20)
 
 -   12: allows you to define the duration between two auto
-    .  : 6
+    brightness (one unit = parameter 20). Recommended value : 6
 
 -   13: allows you to define the duration between two auto
-    .  : 2
+    temperature (one unit = parameter 20). Recommended value : 2
 
--   20: 
+-   20: duration of an interval for parameters 10 to 13. Value
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
     Report
 
--   22: 
-    .  : 10
+-   22: value in% of variation of brightness to trigger
+    a report. Recommended value : 10
 
 \
 
@@ -269,8 +269,8 @@ essential.
 Good to know 
 ------------
 
-: Mermaid
-
+Association / Notification possible with other modules (example: Mermaid
+DCH-Z510 chime notification on door / window opening)
 
 \
 

@@ -1,4 +1,4 @@
- 
+Philio PSP01 
 ============
 
 \
@@ -24,15 +24,15 @@ Resumen
 
 \
 
- : 
-.
+El detector PSP01 ofrece 3 funciones diferentes. : detección de
+movimiento, sensor de temperatura y detector de luz.
 
-
-
-
-. 
-
-.
+Este detector puede usarse para seguridad o para
+automatización Cuando el detector está asociado con
+seguridad, sirve como disparador de alertas al detectar
+cambios en los niveles de radiación infrarroja. Si una persona
+se mueve en el campo de visión del detector, una señal de radio es
+transmitido, que activa una alarma para disuadir a los intrusos.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
@@ -121,7 +121,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Nombre : 
+-   Nombre : Philio PSP01
 
 -   ID del fabricante : 316
 
@@ -256,11 +256,11 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = 30 minutos)
 
--   12: 
-    
+-   12: se usa para definir la duración entre dos informes de brillo
+    (una unidad = 30 minutos)
 
--   13: 
-    
+-   13: permite definir el tiempo entre dos informes de temperatura
+    (una unidad = 30 minutos)
 
 \
 
@@ -288,12 +288,12 @@ Bueno saber
 
 > **Punta**
 >
-> 
-> 
-> . 
-> . 
-> 
-> .
+> Este módulo tiene una particularidad, no tener un informe basado en el
+> variaciones, pero solo con el tiempo, envía toda su información a
+> cada detección. También envía la señal varias veces.
+> detección de presencia después. Por lo tanto, es aconsejable marcar el
+> Cuadro "Evento en cambio" en la presencia si usa esto
+> comando en desencadenador de escenario.
 
 \
 
@@ -325,7 +325,7 @@ Este módulo se activa presionando su botón de manipulación.
 
 \
 
-".
+Hacer la casilla "Evento en cambio".
 
 \
 

@@ -1,4 +1,4 @@
- 
+Swiid Switch - Swiidinter 
 ===============================
 
 \.
@@ -24,29 +24,29 @@ Zusammenfassung
 
 \.
 
+SwiidInter ist der erste Kabelschalter in der Umgebung
+Z-Wave-Heimautomation, die klein und diskret genug ist
+vergleichbar mit einem normalen Kabelschalter.
 
+Es kann wie jedes manuell verwendet werden
+gewöhnlicher und entfernter Kabelschalter über Controller
+Z-Wave.
 
-.
+Der SwiidInter-Schalter bietet auch Zuordnungsmöglichkeiten
+und das in beide Richtungen. Somit kann es automatisch von a bedient werden
+andere Z-Wave-Geräte im selben Netzwerk, z
+Präsenzmelder ausgelöst. Umgekehrt mit Unterstützung
+kurz oder mit einem langen Druck kann es zwei separate Gruppen von steuern
+Zugeordnete Z-Wave-Geräte : zum Beispiel jeder
+andere Lichter in dem Raum, in dem sich Ihr Schalter befindet
+SwiidInter.
 
-
-
-.
-
-
-. 
-
-. 
-
- : 
-
-.
-
-
- : 
-. 
-
-
-.
+Der SwiidInter-Switch wird genau wie ein Switch installiert
+auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
+erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
+In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
+Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
+Entfernung.
 
 \.
 
@@ -55,22 +55,22 @@ Funktionen
 
 \.
 
--   
-    
+-   Kabelschalter beide manuell verwendbar
+    (kurzes Drücken) und per Fernfunk (Z-Wave)
 
--   
-    
+-   Verwendung als Ersatz für einen Standard-Kabelschalter
+    eine Nachttisch-, Tisch- oder Schreibtischlampe
 
 -   EIN / AUS-Funktion
 
--   
-    
+-   Aktivierung eines Hausautomationsszenarios bei langer Druckmaschine
+    (Z-Wave-Assoziation)
 
--   
+-   Abmessungen vergleichbar mit einem normalen Kabelschalter
 
--   
+-   Wird wie ein gewöhnlicher Kabelschalter installiert
 
--   
+-   Geeignet für alle Arten von Lampen
 
 \.
 
@@ -79,31 +79,31 @@ Technische Daten
 
 \.
 
--   Modultyp :  Empfänger
+-   Modultyp : Z-Wave Empfänger
 
--   Farbe : 
+-   Farbe : schwarz
 
--   Versorgung: 
+-   Versorgung: 230 V ± 10% - 50 Hz
 
--    : 
+-   Maximale Leistung : 660W
 
 -   Verbrauch : &lt; 0,08W
 
 -   Schutzindex: IP20
 
--   : 
+-   Funkprotokoll: Z-Wave® (SDK 4.55)
 
--    : 
+-   Radiofrequenz : 868,42 MHz (EU)
 
--   . : 
+-   Dist. Übertragung: Bis zu 30 m in Innenräumen (abhängig von den Materialien)
 
--   .  : 
+-   Temp. Funktionieren : 0 - 40 ° C.
 
--    : 
+-   Ein / Aus-Anzeige : Blaue LEDs
 
--   Abmessungen : 
+-   Abmessungen : 84 x 32 x 29 mm
 
--    : :
+-   EU-Standards : EN 61058-2-1:2011 EN 55015
 
 \.
 
@@ -112,9 +112,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Swiid
 
--   Name : 
+-   Name : Swiidinter
 
 -   Hersteller ID : 358
 
@@ -138,7 +138,7 @@ Aufnahme beziehen sich darauf
 > **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
-> 
+> auf der Rückseite gemäß der Papierdokumentation
 
 \.
 
@@ -176,11 +176,11 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : 
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 \.
 
-
+Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 Symbol
 
 \.
@@ -208,25 +208,25 @@ Einstellungen)
 
 \.
 
- :
+Parameterdetails :
 
 \.
 
-
-
+Mit diesem Parameter können Sie das Verhalten auswählen, wenn Sie das verknüpfen
+swiidinter zu einem anderen Modul wechseln (lange drücken)
 
 \.
 
--   Inaktiv : 
+-   Inaktiv : hat keine Auswirkung auf andere Lichter
 
--    : 
-    
+-   Nur AUS : wird nur wirksam sein, um andere auszuschalten
+    Lichter
 
--    : 
-    
+-   NUR NUR : wird nur wirksam sein, um die anderen einzuschalten
+    Lichter
 
--    : 
-    
+-   EIN und AUS (vollständig) : wird effektiv sein, um die ein- und auszuschalten
+    andere Lichter
 
 \.
 
@@ -244,19 +244,19 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 > **Wichtig**
 >
-> . 
-> .
+> Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
+> mindestens mit Gruppe 2 verbunden sein.
 
 \.
 
- 
+Verbinde dich mit einem anderen Licht 
 ----------------------------
 
 \.
 
-
-
-.
+Den Swiidinter mit einem anderen Licht verbinden und davon profitieren können
+Wenn Sie ein anderes Licht einschalten, fügen Sie es einfach der Gruppe hinzu
+der Assoziation 1 über den oben genannten Bildschirm.
 
 \.
 
@@ -278,7 +278,7 @@ Wach auf
 
 \.
 
-.
+Keine Vorstellung von Aufwecken auf diesem Modul.
 
 \.
 
@@ -287,7 +287,7 @@ Faq.
 
 \.
 
-
+Haben Sie die beiden Module kombiniert und das Teil richtig konfiguriert?
 Spezifisch.
 
 \.

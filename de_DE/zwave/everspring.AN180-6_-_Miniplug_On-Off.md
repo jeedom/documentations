@@ -1,4 +1,4 @@
-Everspring Miniplug Ein / Aus - AN180-6 
+ Miniplug Ein / Aus - AN180-6 
 ====================================
 
 \.
@@ -75,7 +75,7 @@ Technische Daten
 
 -   Maximale Leistung : Widerstandslast : 
     :  :  :
-    
+    200W
 
 -   Frequenz : 868,42 MHz
 
@@ -83,7 +83,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 
 
 \.
 
@@ -92,9 +92,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Everspring
+-   Machen Sie : 
 
--   Name : 
+-   Name : Ministecker ein / aus
 
 -   Hersteller ID : 96
 
@@ -162,7 +162,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-
+Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
 .
 
 \.

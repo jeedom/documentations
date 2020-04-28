@@ -1,4 +1,4 @@
- 
+Aeotec Minimote 
 ===============
 
 \
@@ -24,14 +24,14 @@ Summary
 
 \
 
-
-
-
-. 
-
-
-
-.
+This Aeon Labs mini controller is compatible with a wide variety of
+Z-Wave modules such as switches, dimmers,
+movement, switches for blinds ... So you can order at
+distance your lights, devices or roller shutters. With this
+remote control, you can also include / exclude
+your Z-Wave network and associate scenes with the buttons on the
+remote control. A sliding flap conceals the buttons for
+configure the Z-Wave network.
 
 \
 
@@ -40,19 +40,19 @@ Functions
 
 \
 
--   
+-   Z-Wave network configuration (inclusion / exclusion of modules)
 
--   
+-   Allows you to control up to 4 scenes
 
--    : 
+-   8 keys : 4 for scenes, 4 for network settings
 
--   
+-   Start / stop and dimming functions
 
--   
+-   ALL ON / ALL OFF function
 
--   
+-   Internal rechargeable battery on USB
 
--   
+-   Firmware update via USB
 
 \
 
@@ -65,17 +65,17 @@ Technical characteristics
 
 -   Color : White
 
--   Food : 
+-   Food : internal rechargeable battery via USB
 
--   Viewing: 
+-   Viewing: Blue and red LED
 
--   Frequency : 
+-   Frequency : 868.42MHz
 
--   Scope : 
+-   Scope : up to 30 m
 
--   Dimensions : 0..
+-   Dimensions : 0.8cm x 3.3cm x 9.3cm
 
--   Operating temperature : -
+-   Operating temperature : -35 to +85 ° C
 
 \
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Aeotec
 
--   Name : 
+-   Name : Minimote
 
 -   Manufacturer ID : 134
 
@@ -110,7 +110,7 @@ inclusion refer to this
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
-> .
+> LEARN, in accordance with its paper documentation.
 
 \
 
@@ -145,21 +145,21 @@ Here is the list of commands :
 
 -   Buttons : it is the command which will push the button up
 
-1 : 
+1 : Button 1 short press
 
-2 : 
+2 : Button 1 long press
 
-3 : 
+3 : Button 2 short presses
 
-4 : 
+4 : Button 2 long presses
 
-5 : 
+5 : Button 3 short presses
 
-6 : 
+6 : Button 3 long presses
 
-7 : 
+7 : Button 4 short presses
 
-8 : 
+8 : Button 4 long presses
 
 \
 
@@ -197,16 +197,16 @@ Parameter details :
 
 \
 
--   241: 
+-   241: button 1 operating mode (leave by default)
 
--   242: 
+-   242: button 2 operating mode (leave by default)
 
--   243: 
+-   243: button 3 operating mode (leave by default)
 
--   244: 
+-   244: button 4 operating mode (leave by default)
 
--   250: 
-    
+-   250: operating mode of the remote control (absolutely leave
+    Scene for remote control)
 
 \
 
@@ -214,8 +214,8 @@ Parameter details :
 
 \
 
-
-.
+This module has four association groups, none is necessary
+to use it as a remote control in Jeedom.
 
 \
 
@@ -237,7 +237,7 @@ Wakeup
 
 To wake up this module there is only one way :
 
--   
+-   press and hold the LEARN button for 3 seconds
 
 \
 
@@ -246,7 +246,7 @@ Faq.
 
 \
 
-.
+This module wakes up by pressing and holding the LEARN button for 3 seconds.
 
 \
 

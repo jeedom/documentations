@@ -1,4 +1,4 @@
- 
+Fibaro Dimmer - FGD-211 
 =======================
 
 \
@@ -24,33 +24,33 @@ Summary
 
 \
 
-
+The FGD-211 dimmer module will allow you to control a
 lamp or ceiling lamp remotely thanks to the Z-Wave protocol while
 keeping your existing switch.
 
 You will therefore be able to activate the connected lamp and vary its
 intensity using the existing switch, a Z-Wave transmitter or
 directly from the button on the micromodule. It is
+compatible with any type of lamp supporting variation
+(incandescence, fluo-compact, LED,…). The Fibaro dimmer module
+is a concentrate of technology, it automatically detects the type of
+connected load and is protected against overvoltage.
 
-. 
-
-.
-
-
-
-.
+For fluorescent bulbs that do not support variation, the
+module then acts automatically as a switch module (ON / OFF
+only).
 
 It can be used in 2-wire mode (without neutral), replacing a
 existing switch, or three wires with conventional power supply from
 module (Phase + Neutral).
 
-
-
-. ,
-
-. 
-
-.
+For lamps with very low consumption (LED lamp by
+example), you can use the FGB-001 load (bypass) which allows
+correct operation of the module. A Z-Wave controller (remote control,
+dongle…) is necessary in order to integrate this detector into your network
+if you already have an existing network. Each Z-Wave module works
+as a wireless repeater with the other modules, to ensure
+total coverage of your home.
 
 \
 
@@ -88,26 +88,26 @@ Technical characteristics
 
 -   Wiring : neutral not required
 
--   Max load : .
+-   Max load : 25-500W (resistive load) or 1.5A (inductive load)
 
 -   Compatible lamp type (dimmable) : Incandescent, Fluocompact,
     Halogen (230VAC and 12VDC with electronic transformer), LED
 
 -   Compatible lamp type (not dimmable) : Compact fluorescent, LED
 
--   Fuse : 
+-   Fuse : 2.5A
 
 -   Frequency : 868.42 Mhz
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 
+-   Dimensions: 15 x 42 x 36 mm
 
 -   Operating temperature : 0-40 ° C
 
 -   Limit temperature : 105 ° C
 
--   Standards : 
+-   Standards : EN 55015 and EN 60669-2-1
 
 \
 
@@ -153,8 +153,8 @@ inclusion refer to this
 > **Tip**
 >
 > If you have already integrated your module on the wall, you can include it
-> 
-> .
+> by doing many back and forth on the switch or many
+> press if you have a push button switch.
 
 \
 
@@ -183,7 +183,7 @@ Here is the list of commands :
 
 \
 
--   Intensity : 
+-   Intensity : This is the command that allows you to adjust the intensity of the
     Light
 
 -   We : It is the control that turns on the light
@@ -229,53 +229,53 @@ Parameter details :
 
 \
 
--   1:  : 
-    
+-   1: ALL ON / ALL OFF functions : used only if you have associated the
+    FGD-211 to another module
 
--   6: 
-    
+-   6: lets say how information is sent to the group
+    association 1
 
--   7: 
-    
+-   7: allows to check or not the status of the associated module before
+    to send an order
 
--   8: 
+-   8: allows to define the percentage of variation (auto)
 
--   9: 
+-   9: duration of the variation between the two extremes (manual)
 
--   10: 
+-   10: duration of the variation between the two extremes (auto)
 
--   11: 
+-   11: allows to define the percentage of variation (manual)
 
--   12: 
+-   12: allows to define the maximum authorized level
 
--   13: 
+-   13: allows to define the minimum authorized level
 
--   14:  : 
-    
+-   14: IMPORTANT ADJUSTMENT : allows to choose between switch
+    BISTABLE or MONOSTABLE (push button)
 
--   15: 
-    
+-   15: activates the option allowing to set the brightness to the maximum
+    on double press (or go back on bistable)
 
--   16: 
+-   16: option to activate the memorization of the last state
 
--   17: 
-    
+-   17: allows you to choose between back and forth mode and
+    remote control switch
 
--   18: 
-    
+-   18: allows to synchronize the level of variation to others
+    associated drives
 
--   19: 
-    
+-   19: operating mode of the bistable switch (reversing
+    or not)
 
--   20: 
-    
+-   20: allows to adjust the minimum level for LEDS bulbs
+    dimmable for example
 
--   30: 
-    
+-   30: allows to define the operating mode of the module in case of
+    reception of a broadcast alarm signal
 
--   39: 
+-   39: alarm duration defined in parameter 30
 
--   41: 
+-   41: allows to activate or not the Scene Activation function
 
 \
 
@@ -303,9 +303,9 @@ Good to know
 
 > **Bail**
 >
-> 
-> . 
-> .
+> The most important parameter of the configuration is 14. It
+> allows to choose the type of switch used. Default type
+> is set to monostable.
 
 \
 

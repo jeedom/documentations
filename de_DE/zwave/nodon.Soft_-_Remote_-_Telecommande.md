@@ -1,4 +1,4 @@
- 
+Nodon Fernbedienung - Soft Remote 
 ================================
 
 \.
@@ -24,11 +24,11 @@ Zusammenfassung
 
 \.
 
+Die Soft Remote NodOn® kann jedes Gerät direkt steuern
+Z-Wave®- oder Z-Wave Plus®-kompatibel wie der NodOn® Smart Plug.
 
-.
-
-
-.
+Es kann auch Szenen über ein Hausautomationssystem auslösen
+kompatibel.
 
 \.
 
@@ -37,13 +37,13 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie jedes Z-Wave-kompatible Gerät
 
--   
+-   Schlag- und spritzwassergeschützt
 
--   
+-   Wird dank des integrierten Magneten überall angebracht
 
--   
+-   6 Farben erhältlich
 
 \.
 
@@ -56,18 +56,18 @@ Technische Daten
 
 -   4 Tasten
 
--   
+-   Integrierter Magnet zur Befestigung an der Metalloberfläche
 
--   
+-   Schlag- und spritzwassergeschützt
 
--   Betriebstemperatur :  : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.06
 
--   Geltungsbereich : 
+-   Geltungsbereich : 40 m drinnen / 80 m draußen
 
--   
+-   Abmessungen 56 \ * 56 \ * 20 mm
 
 -   2 Jahre Garantie
 
@@ -78,9 +78,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Nodon
 
--   Name : 
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Hersteller ID : 357
 
@@ -103,9 +103,9 @@ Aufnahme beziehen sich darauf
 
 > **Wichtig**
 >
-> 
-> 
-> .
+> Drücken Sie die beiden Tasten, um dieses Modul in den Einschlussmodus zu versetzen
+> Taste (+ und 0 voll), bis das Licht dann rosa wird
+> Drücken Sie die Taste + gemäß der Papierdokumentation.
 
 \.
 
@@ -140,20 +140,20 @@ Hier ist die Liste der Befehle :
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
++ =============== + =============== + ================ = + =============== + ================= +
+| **1 (0         | 10             | 12             | 11             | 13             |
+| voll)**       |                |                |                |                |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| **2 (+)**      | 20             | 22             | 21             | 23             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| **3 (0 leer)** | 30             | 32             | 31             | 33             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| **4 (-)**      | 40             | 42             | 41             | 43             |
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-| **         | 10             | 12             | 11             | 13             |
-| **       |                |                |                |                |
-
-| ****      | 20             | 22             | 21             | 23             |
-
-| **** | 30             | 32             | 31             | 33             |
-
-| ****      | 40             | 42             | 41             | 43             |
-
-
--   Batterie : 
+-   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
 
 \.
 
@@ -191,22 +191,22 @@ Parameterdetails :
 
 \.
 
--    : 
-    
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+    zentral (für den Einsatz in Jeedom nicht erforderlich)
 
--   3 : 
-    
+-   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
+    im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--    : 
-    
+-   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+    Gruppenverbände)
 
--   8 : 
+-   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen 
 
 \.
 
-.
+Dieses Modul hat 7 Zuordnungsgruppen.
 
 \.
 
@@ -218,11 +218,11 @@ Parameterdetails :
     Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
     des Netzwerks.
 
--   
-    
+-   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltfläche entsprechend MONO-Profil
 
--   
-    
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltflächen entsprechend DUO-Profil
 
 \.
 
@@ -239,9 +239,9 @@ Gut zu wissen
 
 \.
 
--   . 
-    . 
-    .
+-   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
+    1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
+    Assoziationsgruppe.
 
 \.
 
@@ -250,7 +250,7 @@ Aufwachen
 
 \.
 
-
+Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 
 \.
 

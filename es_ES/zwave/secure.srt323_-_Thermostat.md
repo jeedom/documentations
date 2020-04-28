@@ -1,4 +1,4 @@
-" 
+Termostato SRT seguro de 323 "" 
 ===========================
 
 \
@@ -24,36 +24,36 @@ Resumen
 
 \
 
-. 
+El SRT323 es un termostato de batería montado en la pared.. Tiene
+un botón giratorio que permite al usuario ajustar la temperatura
+en la sala. Este termostato incorpora un relé de control.
+cobrar. Por lo tanto, no es necesario instalar un actuador cerca
+de la caldera.
 
-. 
-. 
-.
+Al verificar la temperatura establecida con la temperatura real
+medido, el termostato decide activar la caldera. Lo que es mas
+El termostato incorpora un algoritmo TPI (integral proporcional al tiempo),
+permitiendo una optimización y ajuste más precisos de la temperatura
+de su entorno.
 
+El termostato puede recibir la temperatura de consigna de otro
+Controlador Z-Wave, y también se puede utilizar como
+temperatura El termostato en sí no tiene un temporizador incorporado, pero
+ejecutar comandos Z-Wave y comandos locales.
 
-. 
-,
+Se puede usar como reemplazo directo de termostatos
+existente, sin tener que hacer ningún cambio de cableado. El algoritmo
+TPI optimizará el encendido y apagado de la caldera
+para mantener mejor la temperatura establecida, sin
+"sobrepasar "de eso. Se ha demostrado que los controladores TPI
+puede proporcionar un considerable ahorro de energía en comparación con
+controladores de calefacción tradicionales.
 
-.
-
-
-
-
-.
-
-
-
-
-
-". 
-
-.
-
-
-
-
-
-.
+El SRT323 es un socio ideal para usar con una puerta de enlace
+domótica, que le permite controlar de forma remota su sistema
+calefaccion. Ya no tendrá que preocuparse por volver a casa en
+una casa fría, siempre que tenga un teléfono inteligente, tableta o
+PC a mano y conectada a internet.
 
 \
 
@@ -62,19 +62,19 @@ Funciones
 
 \
 
--   
+-   Termostato para aplicación doméstica
 
--   
+-   Reemplaza un termostato existente
 
--   
+-   Tecnología inalámbrica Z-Wave
 
--   
+-   Pantalla LCD retroiluminada
 
--   
+-   Fácil de usar
 
--   
+-   Compatible con otros productos Z-Wave
 
--   
+-   Un botón
 
 \
 
@@ -85,25 +85,25 @@ Características técnicas
 
 -   Tipo de módulo : Controlador Z-Wave
 
--   
+-   Algoritmo TPI integrado
 
--   Relé: 
+-   Relé: 3 (1) A 230V CA
 
--   : 
+-   Rango de temperatura ajustable: 5 ° C a 30 ° C
 
--   Suministro : 
+-   Suministro : 2 pilas AAA (LR3)
 
 -   Duración de la batería : 2 años
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : 
+-   Alcance : hasta 50 m en campo abierto
 
 -   Indice de PROTECCION : IP30
 
--   Temperatura de funcionamiento : 
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
--   Dimensiones : 
+-   Dimensiones : 86 x 86 x 36.25 mm
 
 \
 
@@ -137,9 +137,9 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
-> ,
-> .
+> Para poner este módulo en modo de inclusión, debe poner el interruptor 1 en
+> posición ON y luego con la pantalla del dial L y presione el dial,
+> de acuerdo con su documentación en papel.
 
 \
 
@@ -149,14 +149,14 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> . 
-> . Para hacer esto
-> 
-> . 
-> . 
-> 
-> . 
-> .
+> Este módulo es meticuloso en la inclusión. Durante una primera inclusión
+> siempre active el módulo inmediatamente después de la inclusión. Para hacer esto
+> deje el interruptor 1 en la posición ON y luego con la rueda de ajuste
+> posición "n" y presione el botón. Presione una segunda vez después
+> 10 segundos para estar seguro. Una vez hecho esto, haz clic en el botón
+> Sincronizar (visible en la vista experta) junto a los botones
+> Inclusión / Exclusión. Luego, en la página de su módulo, haga clic en
+> lupa arriba a la derecha.
 
 \
 
@@ -187,12 +187,12 @@ Aquí está la lista de comandos :
 
 -   Temperatura : es el comando de medición de temperatura
 
--    : 
+-   Estado : es el comando que da la instrucción actual
 
--   Consigna : 
+-   Consigna : es el comando que hace posible ajustar el punto de ajuste
 
--    : 
-    
+-   Estado de calentamiento : es el comando que hace posible saber si el
+    el termostato está en modo calefacción o no
 
 -   Batería : es el comando de la batería
 
@@ -225,12 +225,12 @@ Detalles del parámetro :
 
 \
 
--   1: 
+-   1: permite activar o no el sensor de temperatura interno
 
--   2: 
+-   2: permite elegir la unidad de temperatura
 
--   3: 
-    
+-   3: permite definir el nivel de variación de temperatura para
+    Copia de seguridad del módulo (en unidades de 0.1 ° C)
 
 \
 
@@ -238,8 +238,8 @@ Detalles del parámetro :
 
 \
 
-
-
+Para un funcionamiento óptimo de su módulo, Jeedom debe ser
+asociado con los 5 grupos
 
 \
 
@@ -258,11 +258,11 @@ Bueno saber
 
 > **Importante**
 >
-> . 
-> 
-> . 
-> . 
-> 
+> Este módulo está en batería. Por eso es importante tener en cuenta que
+> El cambio del punto de ajuste solo se tendrá en cuenta al despertar. Por
+> el despertador predeterminado es a 86400 segundos. Se recomienda encarecidamente
+> disminuirlo a unos 10 minutos. Por lo tanto, un cambio de punto de ajuste será
+> tomado en cuenta por el módulo como máximo después de 10 minutos
 
 \
 
@@ -271,8 +271,8 @@ Despertador
 
 \
 
-
-.
+Para activar este módulo, debe colocar el interruptor 1 en la posición ON y
+con la rueda, elija n y presione la rueda.
 
 \
 

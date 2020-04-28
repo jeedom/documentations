@@ -1,4 +1,4 @@
- 
+Philio PSP01 
 ============
 
 \.
@@ -24,27 +24,27 @@ Zusammenfassung
 
 \.
 
- : 
-.
+Der PSP01-Detektor bietet 3 verschiedene Funktionen : Erkennung von
+Bewegung, Temperatursensor und Lichtdetektor.
 
+Dieser Detektor kann zur Sicherheit oder für verwendet werden
+Automatisierung. Wenn der Detektor zugeordnet ist
+Sicherheit dient es als Auslöser für Warnungen durch Erkennen
+Änderungen der Infrarotstrahlung. Wenn eine Person
+bewegt sich im Sichtfeld des Detektors, ist ein Funksignal
+übertragen, was einen Alarm auslöst, um Eindringlinge abzuhalten.
 
-
-
-. 
-
-.
-
-
-
-
-. 
-.
+Der Detektor kann auch in Kombination mit a verwendet werden
+Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
+Änderungen der Infrarotstrahlung (Anwesenheit) und
+Änderungen in der Helligkeit. Also können wir a auslösen
+Beleuchtung, wenn Bewegung im Dunkeln erkannt wird.
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
-
-
-
-.
+signifikante Änderung, und jedes Mal, wenn eine Bewegung ist
+erkannt. Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich
+um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits einen haben
+bestehendes Netzwerk.
 
 \.
 
@@ -53,7 +53,7 @@ Funktionen
 
 \.
 
--   3 in 1 Detektor: 
+-   3 in 1 Detektor: Bewegung, Temperatur, Licht
 
 -   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
     Mehrkanalbetrieb und mehr Datendurchsatz
@@ -63,7 +63,7 @@ Funktionen
 
 -   Optimierte Antennenreichweite
 
--   
+-   Verwendung für Hausautomations- oder Sicherheitsanwendungen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
@@ -96,13 +96,13 @@ Technische Daten
 
 -   Helligkeitssensor : 0 bis 500 Lux
 
--    : 
+-   PIR-Erfassungswinkel : 90 °
 
--    : 
+-   PIR-Erfassungsbereich : 8 bis 10 m
 
 -   Abmessungen : 28 x 96 x 23 mm
 
--   Gewicht : 
+-   Gewicht : 39g
 
 -   Betriebstemperatur : -10 bis 40 ° C.
 
@@ -121,7 +121,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Name : 
+-   Name : Philio PSP01
 
 -   Hersteller ID : 316
 
@@ -188,15 +188,15 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : 
-    
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+    herausreißen)
 
 -   Batterie : Es ist der Batteriebefehl
 
 \.
 
-
-.
+Alle Module des Bereichs haben die gleichen IDs. Es liegt an Ihnen, diese anzuzeigen
+entsprechend Ihrem Modul.
 
 ### Konfiguration des Moduls 
 
@@ -237,30 +237,30 @@ Parameterdetails :
 -   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
     Verein 2
 
--   3:  :
-    : 
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 :
+    deaktiviert 99: maximale Empfindlichkeit)
 
 -   4: Stellt die Helligkeitsstufe ein, ab der die
     Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
     Gruppe 2
 
--   5:  : 
-    
+-   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : siehe
+    auf der Dokumentation des Herstellers)
 
--   6: 
-    : 
+-   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen
+    : siehe Dokumentation des Herstellers)
 
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
 
 -   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
-    
+    Einheit = 30 Minuten)
 
--   12: 
-    
+-   12: wird verwendet, um die Dauer zwischen zwei Helligkeitsberichten zu definieren
+    (eine Einheit = 30 Minuten)
 
--   13: 
-    
+-   13: Ermöglicht die Definition der Zeit zwischen zwei Temperaturberichten
+    (eine Einheit = 30 Minuten)
 
 \.
 
@@ -288,12 +288,12 @@ Gut zu wissen
 
 > **Spitze**
 >
-> 
-> 
-> . 
-> . 
-> 
-> .
+> Dieses Modul hat eine Besonderheit und keinen Bericht, der auf dem basiert
+> Variationen, aber nur im Laufe der Zeit, sendet es alle seine Informationen an
+> jede Erkennung. Es sendet das Signal auch mehrmals
+> Anwesenheitserkennung folgt. Es ist daher ratsam, das Häkchen zu setzen
+> Feld "Ereignis bei Änderung" auf der Anwesenheit, wenn Sie dies verwenden
+> Befehl im Szenario-Trigger.
 
 \.
 
@@ -325,7 +325,7 @@ Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
 \.
 
-".
+Aktivieren Sie das Kontrollkästchen "Ereignis bei Änderung"".
 
 \.
 

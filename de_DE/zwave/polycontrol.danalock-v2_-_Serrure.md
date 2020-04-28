@@ -364,8 +364,8 @@ Gut zu wissen
 
 > **Spitze**
 >
-> 
-> 
+> Dieses Modul gibt seinen Status zurück, wenn Sie das Schloss von Hand bedienen
+> Der Status wird aktualisiert. \.
 
 ### Alternative visuelle 
 
@@ -389,7 +389,7 @@ Faq.
 
 \.
 
-.
+Keine Vorstellung von Aufwachen in diesem Modul; Lesen Sie den Abschnitt Besonderheiten.
 
 \.
 

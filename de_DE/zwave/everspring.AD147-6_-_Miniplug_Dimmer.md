@@ -33,7 +33,7 @@ Ausschalten der Lichter und elektrischen Geräte Ihres
 
 
 
-.
+welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
 
@@ -73,7 +73,7 @@ Technische Daten
 -   Verbrauch : 0,6 W.
 
 -   Maximale Leistung : Widerstandslast : 250W, Glühlampe
-    : 250W, LED-Lampe (nicht dimmbar) : 6W
+    : 250W, LED-Lampe (nicht dimmbar) : 
 
 -   Frequenz : 868,42 MHz
 
@@ -81,7 +81,7 @@ Technische Daten
 
 -   Anzeigen: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 
 
 \.
 
@@ -90,7 +90,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Everspring
+-   Machen Sie : 
 
 -   Name : Miniplug Dimmer
 

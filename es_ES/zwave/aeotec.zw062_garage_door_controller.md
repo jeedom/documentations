@@ -1,4 +1,4 @@
- 
+Controlador de puerta de garaje Aeotec 
 ====================================
 
 \
@@ -24,14 +24,14 @@ Resumen
 
 \
 
-
-
-. 
-
-. 
-
-
-.
+Fácilmente conectado al motor de la puerta existente, el controlador
+la puerta del garaje la mejora con un conjunto de sensores de seguridad y
+seguridad. El controlador de la puerta del garaje no solo permite
+controla la puerta de tu garaje también te permite revisar
+su condición. Ya sea utilizado por el motor o manualmente, el detector
+inteligente viene con el controlador de puerta de garaje sabe si la puerta
+está abierto o cerrado, y puede alertarlo cuando lo que está sucediendo no
+no deberia.
 
 \
 
@@ -40,18 +40,18 @@ Funciones
 
 \
 
--   .
+-   Controla y controla la puerta de tu garaje de forma remota.
 
--   
-    .
+-   Módulo de fácil instalación en el motor de su
+    puerta actual.
 
--   .
+-   Control local de la puerta mediante botón integrado..
 
--   .
+-   Envía alertas de apertura / cierre al controlador Z-Wave.
 
--   .
+-   Alertas audibles y visuales de apertura / cierre.
 
--   
+-   Volumenn de alarma ajustable (105 dB máx.)
 
 -   Puerto USB para cargar sus propios sonidos MP3.
 

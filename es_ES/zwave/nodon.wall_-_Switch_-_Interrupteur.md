@@ -49,7 +49,7 @@ Funciones
 
 -   Sin hilos
 
--   
+-   2 años de batería
 
 \
 
@@ -62,30 +62,30 @@ Características técnicas
 
 -   4 botones
 
--   
+-   Montaje en pared mediante adhesivo de doble cara (incluido) o tornillos (no incluidos)
 
--   Temperatura de funcionamiento : 
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
 -   Altitud : 2000m
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.06
 
--   Alcance : 
+-   Alcance : 40m en interiores / 70m en exteriores
 
--   Dimensiones : 
+-   Dimensiones : 80 \ * 80 \ * 15 mm
 
 -   2 años de garantia
 
--   :::::2013
+-   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
 
--   
+-   EN 300220-2 V2.4.1
 
--   
+-   EN301 489-1 V1.9.2
 
--   
+-   EN301 489-3 V1.6.1
 
--   :2010
+-   EN 62479:2010
 
 \
 
@@ -96,7 +96,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Nombre : 
+-   Nombre : CWS-3-1-01 Interruptor de pared
 
 -   ID del fabricante : 357
 
@@ -120,8 +120,8 @@ inclusión refiérase a esto
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
-> 
-> .
+> botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
+> botón 1, según su documentación en papel.
 
 \
 
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-
+Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
 disponible.
 
 \
@@ -204,7 +204,7 @@ Detalles del parámetro :
 
 \
 
--   1-2 : 
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
@@ -255,7 +255,7 @@ Bueno saber
 \
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en
-    . 
+    despertarse 1 o 2 veces después de la inclusión. Y revisa el
     grupo de asociación.
 
 \
@@ -265,7 +265,7 @@ Despertador
 
 \
 
-
+Para activar este módulo, simplemente presione uno de estos botones
 
 \
 

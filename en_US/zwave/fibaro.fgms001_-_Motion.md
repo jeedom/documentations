@@ -360,7 +360,7 @@ This module wakes up by pressing 3 times on its inclusion button.
 \
 
 This module is very finicky. It is advisable to include
-.
+closer to your box and pick it up several times.
 
 \
 

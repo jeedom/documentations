@@ -33,18 +33,18 @@ opening part and the detector on the fixed part.
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
 alarm, if the system is armed (this signal can be used by a
-. 
+siren or by a home automation box for example). The sensor can also
+be used for automatic lighting control, depending on the
+brightness level. For example, the sensor will send a signal to
+Z-Wave switch to turn on the light when the door opens
+and the room is dark.
 
-. 
-
-.
-
-
-
-.
+The detector will also raise the brightness and the temperature, i.e.
+in the event of a significant change, and each time the opening / closing
+is detected.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
-
+integrate this detector into your network if you already have a network
 existing.
 
 \
@@ -54,23 +54,23 @@ Functions
 
 \
 
--   : 
+-   3 in 1 detector: Aperture, temperature, light
 
--   
-    
-    
+-   Adopts the recent Z-Wave 400series chip to support
+    multichannel operations and more data throughput
+    high (9.6 / 40 / 100kbps)
 
--   
+-   Uses the Z-Wave 6.02 SDK
 
--   
+-   Optimized antenna range
 
--   
+-   Use for home automation or security applications
 
 -   Button to include / exclude the detector
 
--   
+-   Self-protection
 
--   
+-   Low battery indication
 
 -   Small, discreet and aesthetic
 
@@ -85,23 +85,23 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 
+-   Food : 1 CR123A 3V battery
 
--   Battery life : 
+-   Battery life : 3 years (for 14 trips per day)
 
 -   Frequency : 868.42 MHz
 
--   Transmission distance : 
+-   Transmission distance : 30m indoors
 
--    : -
+-   Temperature sensor : -10 to 70 ° C
 
--   Brightness sensor : 
+-   Brightness sensor : 0 to 500 lux
 
 -   Dimensions :
 
--    : 
+-   Detector : 28 x 96 x 23 mm
 
--    : 
+-   Magnet : 10 x 50 x 12 mm
 
 -   Weight : 52g
 
@@ -122,7 +122,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name : 
+-   Name : PST02-C Door / Window 3 in 1 sensor
 
 -   Manufacturer ID : 316
 
@@ -243,8 +243,8 @@ Parameter details :
     manufacturer documentation) Recommended value : 4
 
 -   7: personalized multi-sensor operating mode (see
-    on the manufacturer's documentation) Recommended value : 
-    
+    on the manufacturer's documentation) Recommended value : 20 (for
+    have the functional opening)
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2

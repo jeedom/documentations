@@ -24,60 +24,60 @@ Resumen
 
 \
 
-La regleta de alimentación GreenWave PowerNode es un dispositivo inteligente que
+La regleta de alimentación Greenwave PowerNode es un dispositivo inteligente que
 se conecta a sus electrodomésticos y productos electrónicos para usted
 le permite monitorear y controlar el consumo eléctrico de su
 dispositivos de forma remota a través del navegador web o teléfono inteligente. Utilizando
 Tecnología Z-Wave, la regleta PowerNode es compatible con
 la mayoría de las cajas de domótica en el mercado, como Fibaro Home Center 2, eedomus
-o Zipabox. 
-.
+o Zipabox. Equipado con 6 puertos, puede controlar de forma independiente 6
+diferentes aparatos eléctricos con una potencia total de 10A.
 
+La regleta de alimentación PowerNode recopila datos de consumo
+de energía de los dispositivos conectados y los transmite a la caja de automatización del hogar.
+Luego puede controlar el consumo de energía de cada dispositivo
+conectado Esta regleta también le permite activar o desactivar
+dispositivos de forma remota a través de un navegador web o teléfono inteligente o
+establecer un horario para activar o desactivar automáticamente su
+dispositivos en tiempos preestablecidos. Una pequeña rueda al costado del
+Multi-socket le permite elegir un color que representará la parte a
+que se ve afectada la regleta. Por ejemplo "azul para el dormitorio
+". Este consejo le permitirá diferenciar sus diferentes
+Regleta de alimentación PowerNode. También puede configurar este dial en
+candado Esta función le permite bloquear la regleta de alimentación
+evite apagarlo accidentalmente, pero controle desde la caja
+la domótica ya no será posible.
 
-.
+La regleta de alimentación PowerNode también tiene un indicador luminoso de estado
+que da información diferente dependiendo de su color : tomado
+encendido o apagado, alcance de radio limitado, modo de inclusión y exclusión.
 
+La regleta de alimentación PowerNode está equipada con protección contra
+sobrecorrientes para proteger los dispositivos conectados. El PowerNode
+deshabilitará los puertos en caso de mal funcionamiento del dispositivo
+defectuoso o cortocircuito. Protección adicional es
+asegurado por el fusible interno ubicado en la regleta.
 
-
-
-. 
-
-. 
-". 
-. 
-
-
-.
-
-
- : 
-.
-
-
-. 
-
-. 
-.
-
-
-
-
-
+Esta regleta es ideal para controlar dispositivos multimedia en
+un gabinete de TV o para controlar equipos informáticos ubicados
+en una oficina y así evitar tener que usar 6 enchufes Z-Wave
+individual. \
 
 Funciones 
 ---------
 
 \
 
--   
+-   Regleta de 6 puertos Z-Wave
 
--   
+-   Permite el monitoreo del consumo de dispositivos conectados
 
 -   Función ON / OFF
 
 -   Posibilidad de asignarle un número y un color para
     diferenciar entre los diferentes PowerNodes de la misma instalación.
 
--   
+-   Botón de encendido / apagado directamente en la regleta
 
 -   Protección contra sobrecorriente
 
@@ -123,9 +123,9 @@ Datos del módulo
 
 \
 
--   Hacer : GreenWave
+-   Hacer : Greenwave
 
--   Nombre : ]
+-   Nombre : Greenwave \ [6 x tomas \]
 
 -   ID del fabricante : 153
 
@@ -149,7 +149,7 @@ inclusión refiérase a esto
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
-> .
+> inclusión presente en el zócalo.
 
 \
 
@@ -190,31 +190,31 @@ Aquí está la lista de comandos :
 
 \
 
--    : Es el comando que permite conocer el estado de la
-    
+-   Estado-1 : Es el comando que permite conocer el estado de la
+    toma 1
 
--    : 
+-   En-1 : Este es el comando que activa el socket 1
 
--    : 
+-   Off-1 : Es el comando que apaga el socket 1
 
--    : 
-    
+-   Poder-1 : Este es el comando que trae el poder instantáneo
+    tomado de la ingesta 1
 
--    : 
-    
+-   Conso-1 : Es el comando que informa el consumo total de
+    toma 1
 
--    : Es el comando que permite conocer el estado de la
-    
+-   Estado-2 : Es el comando que permite conocer el estado de la
+    toma 2
 
--    : 
+-   En-2 : Es el comando que enciende el socket 2
 
--    : 
+-   Off-2 : Es el comando que apaga el socket 2
 
--    : 
+-   Poder-2 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 2
 
--   Conso-2 : 
-    
+-   Conso-2 : Es el comando que informa el consumo total de
+    toma 2
 
 -   Estado-3 : Es el comando que permite conocer el estado de la
     toma 3
@@ -223,10 +223,10 @@ Aquí está la lista de comandos :
 
 -   Off-3 : Es el comando que apaga el socket 3
 
--   Poder-3 : 
+-   Poder-3 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 3
 
--   Conso-3 : 
+-   Conso-3 : Es el comando que informa el consumo total de
     toma 3
 
 -   Estado-4 : Es el comando que permite conocer el estado de la
@@ -236,10 +236,10 @@ Aquí está la lista de comandos :
 
 -   Off-4 : Es el comando que apaga el socket 4
 
--   Poder-4 : 
+-   Poder-4 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 4
 
--   Conso-4 : 
+-   Conso-4 : Es el comando que informa el consumo total de
     toma 4
 
 -   Estado-5 : Es el comando que permite conocer el estado de la
@@ -249,10 +249,10 @@ Aquí está la lista de comandos :
 
 -   Off-5 : Es el comando que apaga el socket 5
 
--   Poder-5 : 
+-   Poder-5 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 5
 
--   Conso-5 : 
+-   Conso-5 : Es el comando que informa el consumo total de
     toma 5
 
 -   Estado-6 : Es el comando que permite conocer el estado de la
@@ -262,10 +262,10 @@ Aquí está la lista de comandos :
 
 -   Off-6 : Es el comando que apaga el zócalo 6
 
--   Poder-6 : 
+-   Poder-6 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 6
 
--   Conso-6 : 
+-   Conso-6 : Es el comando que informa el consumo total de
     toma 6
 
 \

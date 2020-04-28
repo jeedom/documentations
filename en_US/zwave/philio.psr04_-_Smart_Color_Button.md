@@ -1,4 +1,4 @@
- 
+Philio Smart Color Button 
 =========================
 
 \
@@ -24,30 +24,30 @@ Summary
 
 \
 
+This unique design switch offers several functions. You
+can use it to turn on, off or dim the lighting, adjust
+the position of your shutters, adjust the temperature of the thermostat or
+use it as a timer.
 
+Once included in your Z-Wave network, the Philio PSR04 switch
+must be associated with the device (s) you wish to control.
+It can only operate by direct association with
+devices, and cannot launch scenes created in your controller
+Z-Wave home automation.
 
+Used as a drive, it has the same behavior as a drive
+traditional. Turn the knob to the right to increase the
+light, and to the left to decrease it.
 
-.
+In addition, you can easily move and position this switch
+at the location of your choice thanks to its magnetic support. Its conception
+waterproof allows it to be installed in a place with high humidity such as
+bathroom.
 
-
-.
-
-
-.
-
-
-
-.
-
-
-. 
-
-.
-
-
-
-
-.
+It uses the latest Z-Wave 500 series chip, providing an increase
+50% radio range and 250% faster communication speed
+fast compared to previous Z-Wave products, as well as a plus
+low energy consumption allowing greater autonomy.
 
 \
 
@@ -56,29 +56,29 @@ Functions
 
 \
 
--   
+-   Multifunction switch
 
--   
+-   Z-Wave + technology
 
--   
+-   ON / OFF and dimming function (lighting or shutters)
 
--   
+-   Integrated timer function
 
--   
+-   Waterproof
 
--   
+-   Adapts to any decoration style
 
--   
+-   Rechargeable battery
 
--   
+-   Very low energy consumption
 
--   
+-   Long battery life (6 months per charge)
 
--   
+-   Magnetic holder
 
--   
+-   RGBW indication LED
 
--   
+-   Easy to install
 
 \
 
@@ -87,25 +87,25 @@ Technical characteristics
 
 \
 
--   Food : .
-     : 
+-   Food : Lithium Polymer 3 Battery.7V, 220mA v
+    battery : 6 months for 2 hours charge
 
--    : 
+-   Standby consumption : 18µA
 
--    : 
+-   Consumption in operation : 45mA
 
 -   Frequency : 868.42 MHz
 
--   Transmission distance : 
+-   Transmission distance : 100m outdoors, 40m indoors
 
 -   Dimensions :
 
-Support :  : 
- : 
- :
+Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
+mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
+x thickness) \ * Certifications :
 
-
-
+EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
+FCC Part 15 B, FCC Part 15 C
 
 \
 
@@ -114,7 +114,7 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Philio
 
 -   Name : PSR04 Smart Color Button
 
@@ -139,8 +139,8 @@ inclusion refer to this
 
 > **IMPORTANT**
 >
-> 
-> 
+> To put this Module in inclusion mode, put it in position
+> low (inclusion) and press the button in accordance with its
 > paper documentation.
 
 \
@@ -174,10 +174,10 @@ Here is the list of commands :
 
 \
 
--   State : 
-    
+-   State : it is the command which will move the button position from 0 to
+    100%
 
--   Drums : 
+-   Drums : this is the command that reports the battery status of the
     Module
 
 \
@@ -216,18 +216,18 @@ Parameter details :
 
 \
 
--   1: 
+-   1: defines the lowest bound (position completely left)
 
--   2 : 
+-   2 : defines the highest terminal (position completely right)
 
--   10 : 
+-   10 : battery ascent time interval
 
--   25 : 
-    
-    
+-   25 : allows to define if the Module sends its position
+    automatically after rotation (1s delay) or if it is necessary to press
+    on the button to validate the sending
 
--   26 : 
-    
+-   26 : activates the sending of scene or not on pressing of the central button
+    (parameter not taken into account in Jeedom)
 
 \
 
@@ -235,8 +235,8 @@ Parameter details :
 
 \
 
-
-
+This Module has two association groups, the first is the only one
+essential. The second allows to go up the position to Jeedom
 
 \
 
@@ -251,15 +251,15 @@ Good to know
 
 ### Specificities 
 
- :
+To use this Module as a remote control, proceed as follows :
 
--   
+-   Add the controller in group 2
 
-
-. 
-
-
-
+Indeed this type of Module is not made to interact directly
+with a box but directly with other Modules. However in
+adding Jeedom to group 2, this allows to receive the position of the
+button and therefore use it to control a scenario (set a
+volume for example)
 
 Wakeup 
 ------
@@ -268,7 +268,7 @@ Wakeup
 
 To wake up this Module there is only one way :
 
--   
+-   put the Module in the low position and press the button
 
 \
 
@@ -280,7 +280,7 @@ Faq.
 \
 
 This Module is a battery Module, the new configuration will not be
-.
+take into account that if you wake up the Module.
 
 \
 

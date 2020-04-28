@@ -1,4 +1,4 @@
- 
+Sensor de movimiento Fibaro - FGMS-001 
 ===============================
 
 \
@@ -24,20 +24,20 @@ Resumen
 
 \
 
-.
-
-. 
-
+El detector de movimiento Fibaro es un detector multifunción Z-Wave.
+Además de la detección de movimiento, este dispositivo mide la
+temperatura e intensidad de luz. Este detector también incluye un
+Acelerómetro incorporado para detectar cualquier intento de alterar el
 Dispositivo.
 
+El detector de movimiento Fibaro funciona con batería y está diseñado
+para ser instalado rápida y fácilmente en cualquier
+superficie El indicador LED indica movimiento, nivel de temperatura,
+el modo de funcionamiento y se puede usar para ver si el dispositivo
+está en la red Z-Wave.
 
-
-,
-
-.
-
-
-.
+El detector de movimiento se puede usar para iluminar escenas
+y sistemas de vigilancia y / o seguridad.
 
 \
 
@@ -46,20 +46,20 @@ Funciones
 
 \
 
--   
+-   Detector de movimiento inalámbrico
 
--   
+-   Detecta movimiento usando un sensor infrarrojo pasivo
 
--   
+-   Medida de temperatura
 
--   
+-   Medida de intensidad de luz
 
--   
+-   Medida de intensidad sísmica
 
--   
+-   Protección contra robos y robos
 
--   
-    
+-   Alertas de movimiento y temperatura señaladas por parpadeo
+    Diodo LED
 
 -   Botón para incluir / excluir el detector
 
@@ -67,7 +67,7 @@ Funciones
 
 -   Muy pequeño, dimensiones reducidas
 
--   
+-   Fácil instalación en una pared o cualquier otra superficie.
 
 \
 
@@ -76,28 +76,28 @@ Características técnicas
 
 \
 
--   Puntao de módulo : 
+-   Puntao de módulo : Transmisor Z-Wave +
 
--   Suministro : 
+-   Suministro : Batería CR123A 3,6VDC
 
--    : 
+-   Altura recomendada para la instalación : 2.4m
 
--    : -
+-   Rango de temperatura medido : -20 ° C a 100 ° C
 
--    : 
+-   Precisión de medición : 0.5 ° C
 
--    : X
+-   Rango de medición de brillo : 0-32000 LUX
 
 -   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 
+-   Dimensiones: 4.4 cm de diámetro
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Certificaciones : 
-    
+-   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+    II
 
 \
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : ]
+-   Nombre : Fibaro FGMS-001-ZW5 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -140,8 +140,8 @@ inclusión refiérase a esto
 
 \
 
-
- :
+Una vez incluido, debe aplicar la configuración de zwave + a través de
+lista desplegable debe obtener esto :
 
 \
 
@@ -153,9 +153,9 @@ inclusión refiérase a esto
 
 \
 
-
-
-.
+Debe hacer clic una vez en la lupa para recuperar los pedidos de la
+módulo Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo
+estará disponible.
 
 \
 
@@ -174,11 +174,11 @@ Aquí está la lista de comandos :
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
--    : 
-    
+-   Sísmica : es el comando que permite aumentar la intensidad
+    sísmica
 
--   Sabotaje : 
-    
+-   Sabotaje : este es el comando de sabotaje (se activa en caso de que
+    vibración)
 
 -   Batería : es el comando de la batería
 
@@ -227,68 +227,68 @@ Detalles del parámetro :
 -   Despertador : este es el intervalo de activación del módulo (valor
     7200 recomendado)
 
--   1: 
+-   1: ajusta la sensibilidad del sensor de presencia
 
--   2: 
+-   2: ajusta la inercia del sensor de presencia
 
--   3: 
+-   3: no se recomienda cambiar esta configuración
 
--   4: 
+-   4: no se recomienda cambiar esta configuración
 
--   6: 
-    
+-   6: tiempo después del cual el sensor enviará la señal "más de
+    movimiento "(valor recomendado 30)
 
--   8: 
-     : 
+-   8: activa el modo noche / día o ambos (valor
+    recomendado : siempre activo)
 
--   9: 
-    
+-   9: le permite ajustar el umbral para cambiar al modo nocturno (útil si
+    ha cambiado el parámetro 8)
 
--   12: 
-    
+-   12: cambiar solo si sabes por qué lo estás haciendo
+    (asociación con un módulo por ejemplo)
 
 -   14: ídem
 
 -   16: ídem
 
--   20: 
+-   20: sensibilidad del sensor giroscópico (valor recomendado 15)
 
--   22: 
-    
+-   22: tiempo después del cual el sensor enviará la señal "más de
+    sabotaje "(valor recomendado 30)
 
--   24:  :
-     : 
-    
-    
+-   24: le permite saber cómo se notifica el sabotaje (IMPORTANTE :
+    valor recomendado : Sensor de sabotaje notificado a SensorAlarm
+    clase de comando / Cancelación se notifica después del tiempo definido en
+    parámetro 22)
 
--   26: 
+-   26: cambiar solo si sabes por qué lo estás haciendo
 
--   40: 
-    
+-   40: digamos cuánto es el valor de
+    brillo a enviar (valor recomendado 50)
 
--   42: 
-    
+-   42: permite dar una duración mínima entre dos envíos sucesivos
+    incluso si el brillo no ha cambiado (valor recomendado 3600)
 
--   60: 
-    .
+-   60: digamos cuánto es el valor de
+    temperatura a enviar (valor recomendado 2 o 0.2 grados)
 
--   62: 
-    
+-   62: permite dar la frecuencia de las mediciones de temperatura
+    (valor recomendado 900)
 
--   64: 
-    
+-   64: permite dar una duración mínima entre dos envíos sucesivos
+    incluso si la temperatura no ha cambiado (valor recomendado 2700)
 
--   66: 
+-   66: permite ajustar la temperatura
 
--   80: 
-    
+-   80: permite elegir el color del led cuando hay detección
+    de movimiento (ver para desactivarlo)
 
--   81: 
+-   81: permite ajustar el brillo del led
 
--   82: 
-    
+-   82: ajusta el umbral de brillo mínimo para establecer el
+    1% led (vinculado al parámetro 81)
 
--   83: 
+-   83: ajusta el umbral de brillo máximo para establecer el
     100% led (vinculado al parámetro 81)
 
 -   86: temperatura por debajo de la cual el LED se iluminará en azul
@@ -298,7 +298,7 @@ Detalles del parámetro :
     (vinculado al parámetro 81)
 
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de
-    sabotaje
+    Sabotaje
 
 \
 
@@ -312,25 +312,25 @@ Detalles del parámetro :
 
 > **Punta**
 >
-> 
-> .
+> Este módulo tiene cinco grupos de asociación, agregue el
+> controlador en 1, 4 y 5 y retire el 3.
 
-:
+Los nombres de los grupos en la versión Z-Wave + son los siguientes:
 
--   1 : . 
-    .
+-   1 : Lifeline, retroalimentación de estado del módulo. El controlador principal
+    debe agregarse a este grupo.
 
--   2 : .
+-   2 : Movimiento, sensor de movimiento.
 
--   3 : .
+-   3 : Sabotaje, alerta de sabotaje.
 
--   4 : . 
-    
-    .
+-   4 : Motion BC, sensor de movimiento. Este grupo tiene como objetivo garantizar
+    compatibilidad hacia atrás con controladores que no son compatibles
+    el protocolo Z-Wave +.
 
--   5 : . 
-    
-    .
+-   5 : Sabotaje BC, alerta de sabotaje. El propósito de este grupo es
+    compatibilidad hacia atrás con controladores que no son compatibles
+    Protocolo Z-Wave +.
 
 \
 
@@ -384,7 +384,7 @@ Este módulo se activa presionando 3 veces en su botón de inclusión.
 \
 
 Este módulo es muy meticuloso.. Es recomendable incluir
-.
+más cerca de tu caja y repetirla varias veces.
 
 \
 

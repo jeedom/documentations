@@ -1,4 +1,4 @@
-" 
+Fibaro FGRWPE-101 "Wandstecker" 
 =============================
 
 \.
@@ -24,16 +24,16 @@ Zusammenfassung
 
 \.
 
-
-
-. 
-
-
-. 
-
-. 
-
-
+Der Fibaro Wall Plug ist ein universeller Empfänger-Sockel-Sender unter
+Form eines Adapters zum Anschließen an eine Steckdose des Netzwerks
+elektrisch, kompatibel mit Z-Wave Standard. Es ermöglicht Ihnen zu verwalten
+jedes Gerät mit einer maximalen Leistung von 2,5 kW, während
+Integration der Funktionalität zur Messung der Wirkleistung des Stroms und
+Energieverbrauch von Geräten. Dieses Modul ist mit einem ausgestattet
+Lichtring mit LEDs, die den Status und den Verbrauch anzeigen
+von Energie von jedem angeschlossenen Gerät. Der Fibaro Wall Plug kann sein
+gesteuert durch einen Knopf an seinem Gehäuse oder von einem beliebigen
+Z-Wave Standard kompatibler Controller
 
 \.
 
@@ -42,14 +42,14 @@ Funktionen
 
 \.
 
--   .
+-   Wird von einem Controller gesteuert, der mit dem Z-Wave-Standard kompatibel ist.
 
--   .
+-   Mikrochip-Steuerung.
 
--   : Relais.
+-   Ausführungselement: Relais.
 
--   
-    .
+-   Messung der Wirkleistung von Strom und elektrischer Energie
+    des Empfängers.
 
 \.
 
@@ -60,13 +60,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 
+-   Versorgung : 230 V, 50 Hz
 
--   Stromverbrauch : 
+-   Stromverbrauch : bis zu 0,8W
 
--   Maximale Belastung : 
+-   Maximale Belastung : 2,5 kW
 
--   Frequenz : 
+-   Frequenz : 868,42 MHz EU
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
@@ -76,7 +76,7 @@ Technische Daten
 
 -   Temperatur begrenzen : 105 ° C.
 
--   Standards : 
+-   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
 \.
 
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : 
+-   Name : Wandstecker FGWPE-101
 
 -   Hersteller ID : 271
 
@@ -196,51 +196,51 @@ Parameterdetails :
 
 \.
 
--   1: 
+-   1: ermöglicht das Blockieren des Moduls in immer EIN
 
--   16: 
-    
+-   16: Ermöglicht es Ihnen, sich den letzten Zustand im Falle eines Stromausfalls zu merken
+    Strom
 
--   34: 
-    
+-   34: Mit dieser Option können Sie die Art des Alarms im Zwave-Netzwerk auswählen
+    muss reagieren
 
--   35: 
+-   35: Hier können Sie festlegen, wie die Steckdose auf Alarme reagiert
 
--   39: 
+-   39: Legt die Dauer des Alarms fest
 
--   40: 
-    
+-   40: definiert, wie stark die Leistung variieren muss
+    erhöhen (in%)
 
--   42: 
-    
+-   42: wie im Standardmodus (bis zu 5 Mal pro Schritt definiert in
+    Parameter 43)
 
--   43: 
+-   43: Leistungsanstiegsintervall
 
--   45: 
+-   45: Verbrauchsanstiegsintervall (in kWh 10 = 0,1 kWh)
 
--   47: 
-    
+-   47: Intervall in Sekunden für die unabhängige Berichterstattung von Informationen
+    einer Variation
 
--   49: 
+-   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in der
     Werte
 
--   50: 
+-   50: Mindestwert von Parameter 52
 
--   51: 
+-   51: Maximalwert von Parameter 52 verwendet
 
--   52: 
-    
+-   52: Maßnahmen, die ergriffen werden müssen, wenn die Leistung die in definierten Grenzen überschreitet
+    Parameter 50 und 51
 
--   60: 
+-   60: Strom, ab dem der Stecker lila blinkt
 
--   61: 
+-   61: Farbe, wenn der Stecker an ist
 
--   62: 
+-   62: Farbe bei ausgeschaltetem Stecker
 
--   63: 
+-   63: Farbe, wenn ein Zwave-Alarm erkannt wird
 
--   70: 
-    
+-   70: Sicherheitsenergie (der Stecker wird unterbrochen, wenn die Stromversorgung unterbrochen wird
+    wird diese Schwelle erreichen)
 
 \.
 

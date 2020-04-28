@@ -94,10 +94,10 @@ Otro
 -   
 -   .
 
- :
+Controlador Z-Wave :
 
 -   
--   .
+-   Onda Z.
 -   
 -   
 

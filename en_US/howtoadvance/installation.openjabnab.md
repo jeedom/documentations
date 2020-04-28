@@ -158,7 +158,7 @@ Installation of dependencies
 
  :
 
-    :
+    git clone https:
     :
     
 
@@ -302,16 +302,16 @@ Do :
 
      |  |  | 
          .
+    fi
+
+Then do :
+
     
+
 
  :
 
-    
-
-
- :
-
-    
+    crontab -e
 
  :
 
@@ -326,7 +326,7 @@ Do :
  
 ============================================
 
- :
+Go to :
 
     http://./ojn_admin/index.php
 

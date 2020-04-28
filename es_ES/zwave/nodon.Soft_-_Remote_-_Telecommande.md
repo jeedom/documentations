@@ -146,14 +146,14 @@ Aquí está la lista de comandos :
 | **1 (0         | 10             | 12             | 11             | 13             |
 | completo)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| ****      | 20             | 22             | 21             | 23             |
+| **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **** | 30             | 32             | 31             | 33             |
+| **3 (0 vacío)** | 30             | 32             | 31             | 33             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| ****      | 40             | 42             | 41             | 43             |
+| **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Batería : 
+-   Batería : es el comando que eleva el nivel de las baterías
 
 \
 
@@ -191,7 +191,7 @@ Detalles del parámetro :
 
 \
 
--   1-2 : 
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
@@ -221,8 +221,8 @@ Este módulo tiene 7 grupos de asociación..
 -   Grupo 2 a 5: los dispositivos de estos grupos están controlados por
     botón correspondiente según perfil MONO
 
--   
-    
+-   Grupo 6 a 7: los dispositivos de estos grupos están controlados por
+    botones correspondientes según el perfil DUO
 
 \
 
@@ -240,7 +240,7 @@ Bueno saber
 \
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en
-    . 
+    despertarse 1 o 2 veces después de la inclusión. Y revisa el
     grupo de asociación.
 
 \

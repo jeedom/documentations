@@ -1,12 +1,12 @@
-#  ?
+# How to report a bug ?
 
- : 
+There are several ways in Jeedom to report a concern : 
 
-- :.
--  : 
-  - **Support request**  **** 
-  - **Bug report**,  **** 
-  - **Request for improvement**,  **** 
+- raise the concern on the [community] (https://community.jeedom.com), this is usually where you will get the quickest answer
+- report a concern to the Jeedom team : 
+  - **Support request** (requires a service pack power or more or even if the concern is on a plugin / paid service), this request is **private** and will put you directly in contact with the Jeedom support team which analyzes your particular case
+  - **Bug report**, in this case the request is **** 
+  - **Request for improvement**, in this case the request is **** 
 
 >**NOTE**
 >

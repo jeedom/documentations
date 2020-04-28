@@ -1,4 +1,4 @@
- 
+Nodon Smart Plug - Smartplug 
 ====================================
 
 \.
@@ -24,16 +24,16 @@ Zusammenfassung
 
 \.
 
-
-
-,
-. 
-
-. 
-
-. 
-. 
-.
+Die ferngesteuerte NodEin®-Buchse kann über ein Hausautomationssystem gesteuert werden
+Z-Wave® oder Z-Wave Plus® kompatibel oder direkt über andere
+Z-Wave®- oder Z-Wave Plus®-Controller wie die Soft Remote,
+der Wandschalter oder der Octan Remote NodEin®. Deutscher Standard
+(Schuko) oder Französisch (Typ E), der Stecker kann in 2 angeschlossen werden
+spüren, Kopf hoch oder Kopf runter. Verbunden mit seinem feinen Design, diese 2
+Funktionen ermöglichen eine einfache Integration ohne Verstopfung
+benachbarte Fässer auf einer Steckdosenleiste. Lernen mit Ton zu nehmen
+Die Steuerung benötigt nur wenige Sekunden. Eine lokale Schaltfläche ermöglicht
+Schalten Sie den Stecker direkt ein oder aus.
 
 \.
 
@@ -42,16 +42,16 @@ Funktionen
 
 \.
 
--   
+-   Netzstromverlusterkennung
 
--   : 
+-   Ergonomisch: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
     Niedrig
 
--   
+-   Intelligentes Alarmmanagement
 
--   
+-   Verbesserte Funkreichweite
 
--   : 
+-   Maximale Stromstärke: 16A
 
 \.
 
@@ -60,23 +60,23 @@ Technische Daten
 
 \.
 
--   Versorgung : 
+-   Versorgung : 230 V AC +/- 10% - 50 Hz
 
--   Maximale Leistung : 
-     : &lt;1W
+-   Maximale Leistung : 3000 W kontinuierlich / 3500 W zyklisch
+    (Widerstandslast) Eigenverbrauch : &lt;1W
 
--   Betriebstemperatur :  : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    
+    Plus® SDK 06.51.01
 
--   Geltungsbereich: 
+-   Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen: 
+-   Abmessungen: 104 \ * 51 \ * 36 mm
 
 -   2 Jahre Garantie
 
--   
+-   EU-Typ
 
 \.
 
@@ -85,9 +85,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Nodon
 
--   Name : 
+-   Name : Smartplug
 
 -   Hersteller ID : 357
 
@@ -111,8 +111,8 @@ Aufnahme beziehen sich darauf
 > **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
-> 
-> .
+> bis das Licht laut Dokumentation rot wird
+> Papier.
 
 \.
 
@@ -146,19 +146,19 @@ Hier ist die Liste der Befehle :
 \.
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
-    
+    Steckdose (Ein / Aus)
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Status : 
-    
+-   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht
+    (Stromausfall / Unterbrechungserkennung)
 
 \.
 
-
-.
+Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
+das gleiche Symbol.
 
 \.
 
@@ -168,7 +168,7 @@ Hier ist die Liste der Befehle :
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
-.
+Jeedom Zwave Plugin.
 
 \.
 
@@ -191,7 +191,7 @@ Parameterdetails :
 
 \.
 
--   1 : 
+-   1 : Dieser Parameter definiert den Status (EIN / AUS) des Smart Plug nach a
     Stromausfall oder nach dem Anschluss
 
 -   2 : Mit dieser Einstellung können Sie die Berichtsberichte von konfigurieren

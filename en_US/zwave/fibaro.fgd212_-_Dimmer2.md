@@ -193,7 +193,7 @@ Wece included you should get this :
 
 \
 
-
+Wece the module has been recognized, the commands associated with the modules will be
 available.
 
 \
@@ -206,7 +206,7 @@ Here is the list of commands :
 
 \
 
--   Intensity : 
+-   Intensity : This is the command that allows you to adjust the intensity of the
     Light
 
 -   We : It is the control that turns on the light
@@ -216,11 +216,11 @@ Here is the list of commands :
 -   State : It is the command which allows to know the status of the
     Light
 
--   Consumption : 
-    
+-   Consumption : It is the command which allows to go up the
+    module consumption
 
--   Power : 
-    
+-   Power : It is the command which allows to raise the power
+    module instant
 
 Note that on the dashboard all the information is found on the same
 Icon
@@ -262,7 +262,7 @@ Parameter details :
 
 \
 
-
+ON GOING REDACTION
 
 \
 
@@ -270,7 +270,7 @@ Parameter details :
 
 \
 
-
+This module has five association groups, only the first is
 essential.
 
 \
@@ -290,15 +290,15 @@ Good to know
 
 > **Bail**
 >
-> 
-> . 
-> .
+> The most important parameter of the configuration is 20. It
+> allows to choose the type of switch used. Default type
+> is set to monostable.
 
 \
 
 If you want to exclude / include the module without dismantling your
 switch you can press your switch multiple times
-
+(or go back and forth in the event of a bistable switch)
 
 \
 

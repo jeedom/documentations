@@ -1,4 +1,4 @@
- 
+Dimmer Fibaro - FGD-211 
 =======================
 
 \
@@ -24,33 +24,33 @@ Resumen
 
 \
 
+El módulo de atenuación FGD-211 le permitirá controlar un
+lámpara o lámpara de techo de forma remota gracias al protocolo Z-Wave mientras
+manteniendo su interruptor existente.
 
+Por lo tanto, podrá activar la lámpara conectada y variar su
+intensidad usando el interruptor existente, un transmisor Z-Wave o
+directamente desde el botón en el micromódulo. El es
+compatible con cualquier tipo de variación de soporte de lámpara
+(incandescencia, fluo-compacto, LED, ...). El módulo dimmer Fibaro
+es un concentrado de tecnología, detecta automáticamente el tipo de
+carga conectada y está protegida contra sobretensión.
 
-.
+Para bombillas fluorescentes que no admiten variación, el
+El módulo actúa automáticamente como un módulo de conmutación (ON / OFF
+unicamente).
 
+Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un
+interruptor existente, o tres cables con fuente de alimentación convencional de
+módulo (Fase + Neutro).
 
-
-. El es
-
-. 
-
-.
-
-
-
-.
-
-
-
-.
-
-
-
-. ,
-
-. 
-
-.
+Para lámparas de muy bajo consumo (lámpara LED de
+ejemplo), puede usar la carga FGB-001 (bypass) que permite
+correcto funcionamiento del módulo. Un controlador Z-Wave (control remoto,
+dongle ...) es necesario para integrar este detector en su red
+si ya tienes una red existente. Cada módulo Z-Wave funciona
+como repetidor inalámbrico con los otros módulos, para asegurar
+cobertura total de su hogar.
 
 \
 
@@ -303,15 +303,15 @@ Bueno saber
 
 > **Depositar**
 >
-> 
-> . 
-> .
+> El parámetro más importante de la configuración es 14. Es
+> permite elegir el tipo de interruptor utilizado. Puntao predeterminado
+> se establece en monoestable.
 
 \
 
-
-
-
+Si desea excluir / incluir el módulo sin desmontar su
+interruptor puede presionar su interruptor varias veces
+(o ir y venir en caso de un interruptor biestable)
 
 \
 

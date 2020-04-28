@@ -25,7 +25,7 @@ Resumen
 \
 
 
-
+apagar las luces y el equipo eléctrico de su
 
 . 
 .
@@ -33,7 +33,7 @@ Resumen
 
 
 
-.
+qué controlador Z-Wave en su red.
 
 \
 
@@ -49,15 +49,15 @@ Funciones
 
 -   
 
--   
+-   Control de carga local mediante botón integrado.
+
+-   Tecnología Z-Wave Plus
 
 -   
 
--   
+-   LED de estado en el botón integrado
 
--   
-
--   
+-   Función repetidora Z-Wave
 
 \
 
@@ -70,18 +70,18 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.
 
--   Potencia máxima :  : 
+-   Potencia máxima : Carga resistiva : 
     :  : 
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : 
+-   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: 
+-   Visualización: LED en el botón
 
--   Dimensiones :  :  : 
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -90,7 +90,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Everspring
 
 -   Nombre : Dimmer Miniplug
 
@@ -115,10 +115,10 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
-> . 
-> 
-> 
+> Para poner este módulo en modo de inclusión, presione 3 veces en su
+> botón, de acuerdo con su documentación en papel. Es importante
+> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> no pertenece a ninguna red y está alimentado
 
 \
 
@@ -151,7 +151,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Intensidad : 
+-   Intensidad : Este es el comando utilizado para ajustar la intensidad de la
     Salida
 
 -   Uno : Este es el comando que enciende la salida
@@ -195,23 +195,23 @@ Detalles del parámetro :
 
 \
 
--   1 : 
-    .
+-   1 : Este parámetro define el comando de valor de estado, no es
+    aconseja cambiar este valor.
 
--   2 : 
-    
+-   2 : Este parámetro define el retraso en el envío del cambio de estado a
+    grupo 1 (valor entre 3 y 25 segundos)
 
--   3 : 
-    .
+-   3 : Este parámetro se usa para definir si el socket reanudará su estado
+    (ON u OFF) después de una recuperación de energía.
 
 -   4 : 
-    
+    variación o en modo encendido / apagado
 
 ### Grupos 
 
 \
 
-.
+Este módulo tiene 2 grupos de asociación..
 
 \
 
@@ -232,8 +232,8 @@ Bueno saber
 
 \
 
--   
-    
+-   La retroalimentación de estado no se puede configurar por debajo de 3
+    segundos \
 
 Despertador 
 ------

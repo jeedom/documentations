@@ -1,80 +1,80 @@
+Here is a tutorial to install VMware on an Intel NUC (gen6). We
+will see later how to add Jeedom on it
 
-
-
- 
+Equipment 
 ===========
 
- 
+Intel NUC 
 ---------
 
+The Intel NUC is a small PC, not the most powerful, but very economical
+energy and small dimensions. This makes it a perfect little waiter
+virtualization based on VMware.
 
-. 
-.
+There are currently 2 6th generation NUCs (the others work
+also for VMware but require additional drivers on the
+VMware kernel):
 
+-   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 threads - Cache 3 MB -
+    TDP 15W)
 
+-   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 threads -
+    Cache 4 MB)
 
-:
+The i5 is significantly more powerful because it has a little more cache memory
+and especially a turbo mode which allows it to climb much higher in
+Frequency.
 
--   . -
-    
+In addition, there are 2 types of case :
 
--   .. -
-    
+-   A thin case that can only contain one type M2 disc
 
+-   A thicker case that can contain an M2 type disc and a
+    disc 2.5 inch
 
+That makes 4 references :
 
-.
+-   i3 M2 : [Intel NUC
+    NUC6I3SYK] (http://www.ldlc.com/fiche/PB00203086.html) 320 €
 
- :
+-   i3 M2 + 2.5inch : [Intel NUC
+    NUC6I3SYH] (http://www.ldlc.com/fiche/PB00203148.html) 320 €
 
--   
+-   i5 M2 : [Intel NUC
+    NUC6I5SYK] (http://www.ldlc.com/fiche/PB00203084.html) 460 €
 
--   
-    .
+-   i5 M2 + 2.5inch : [Intel NUC
+    NUC6I5SYH] (http://www.ldlc.com/fiche/PB00202760.html) 430 €
 
- :
-
--    : [
-    :
-
--   . : [
-    :
-
--    : [
-    :
-
--   . : [
-    :
-
- 
+SSD 
 ---
 
-. 
-
-.
-. 
-
-.
+You have to add an SSD and memory. SSD level I you
+recommend 240GB or more, unless you take the model with a
+location 2.5 inches (which allows you to put additional hard drive)
+or to have a Synology NAS to make the iSCSI LUN. Do not forget
+that a basic VM (no storage) is between 20 to 40GB, add to
+this 40GB for VMware itself it fills up quickly.
 
 > **IMPORTANT**
 >
-> 
-> 
+> VMware does not support adding USB disk, so it is difficult
+> to extend the available space
 
--   [LDLC  M.2 2280 F6 PLUS 120
-    :
+-   [LDLC SSD M.2 2280 F6 PLUS 120
+    GB] (http://www.ldlc.com/fiche/PB00203635.html) 55 €
 
--   [Samsung  850 EVO 120 Go
-    :
+-   [Samsung SSD 850 EVO 120 Go
+    M.2] (http://www.ldlc.com/fiche/PB00185923.html) 100 €
 
--   [LDLC  M.2 2280 F6 PLUS 240
-    :
+-   [LDLC SSD M.2 2280 F6 PLUS 240
+    GB] (http:
 
--   [Samsung  850 EVO 250 Go
-    :
+-   [Samsung SSD 850 EVO 250 Go
+    M.2] (http:
 
--   [LDLC  M.2 2280 F6 PLUS 480
-    :
+-   [LDLC SSD M.2 2280 F6 PLUS 480
+    GB] (http:
 
  
 -------

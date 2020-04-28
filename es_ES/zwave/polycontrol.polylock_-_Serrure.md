@@ -1,4 +1,4 @@
- 
+PolyLock 
 ========
 
 \
@@ -24,30 +24,30 @@ Resumen
 
  
 
+Asegure su hogar con la cerradura electrónica Z-Wave de
+Poly-Control !
 
- !
+La cerradura electrónica Poly-Lock está diseñada para adaptarse a casi
+todas las puertas del mundo. Se monta muy fácilmente en 5
+minutos, solo tienes que cambiar el cilindro de tu puerta.
 
+Una vez emparejado con su controlador Z-Wave (como los sistemas de Vera
+VeraControl), puede tener un control completo de su cerradura
+desde cualquier computadora o teléfono inteligente, sin importar dónde se encuentre
+estar en el mundo. También es posible usar la cerradura
+con el teclado inalámbrico Poly-Pad para abrir o bloquear la puerta.
 
-. 
-.
+Por lo tanto, es posible bloquear su casa de manera similar
+para bloquear su automóvil - con un control remoto, presionando
+solo un botón y tu casa está segura. La cerradura
+Poly-Control también puede funcionar con otras escenas de Z-Wave, donde
+las luces se encienden y el sistema de alarma se desactiva cuando
+desbloqueado a través de su control remoto.
 
-
-
-
-. 
-.
-
-
-
-. 
-
-
-.
-
-
-. 
-
-.
+El sistema Poly-Control se puede utilizar en un entorno.
+doméstica o laboral. El Poly-Lock funciona con
+batería, y ha sido probado para funcionar durante 1 año, sin
+reemplazo de la batería.
 
 \
 
@@ -56,18 +56,18 @@ Funciones
 
 \
 
--   
+-   Controla tu puerta de entrada de forma remota
 
--   
+-   Se adapta a la mayoría de las puertas
 
--   
-    
+-   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema
+    alarma
 
--   
+-   Adecuado para uso doméstico o comercial.
 
--   
+-   Rueda para cierre manual
 
--   
+-   Instalación fácil
 
 \
 
@@ -76,16 +76,16 @@ Características técnicas
 
 \
 
--   Suministro : 
+-   Suministro : Batería de cloruro de litio de 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : 
-    
+-   Alcance : hasta 100 m en exteriores, hasta 30 m en
+    edificios
 
--   Dimensiones : 
+-   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
 
--   Peso : 
+-   Peso : 370g
 
 \
 
@@ -94,9 +94,9 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Poly-Control
 
--   Nombre : 
+-   Nombre : Polylock
 
 -   ID del fabricante : 270
 
@@ -119,7 +119,7 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
+> Para poner este módulo en modo de inclusión, presione el botón 1 vez
 > botón de inclusión, de acuerdo con su documentación en papel.
 
 \
@@ -153,12 +153,12 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : 
-    
+-   Estado : es el comando que subirá la última acción
+    ejecutado (abrir / cerrar)
 
--   Abrir : 
+-   Abrir : es el comando que abre la cerradura
 
--   Cerca : 
+-   Cerca : es el comando que hace posible cerrar la cerradura
 
 -   Batería : es el comando de la batería
 
@@ -170,15 +170,15 @@ Aquí está la lista de comandos :
 
 > **Advertencia**
 >
-> .
-> 
-> 
-> .
+> Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
+> Esto significa que no tiene el concepto de despertar y despertar. Él
+> recuperará cualquier cambio de configuración en tiempo casi real
+> como módulo sectorial.
 
 \
 
-
-
+Si desea configurar el módulo de acuerdo a su
+instalación, debe pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
@@ -200,20 +200,20 @@ Detalles del parámetro :
 
 \
 
--   0: 
-    
+-   0: permite cambiar la dirección de rotación de los comandos
+    abrir / cerrar
 
--   1: 
-    
+-   1: le permite definir cuánto tiempo girará la cerradura
+    abierto (0 a 15 s)
 
--   2: 
-    
+-   2: le permite definir cuánto tiempo girará la cerradura
+    cerrar (0 a 15 s)
 
--   3: ,
-    
+-   3: Se utiliza para definir la velocidad de rotación de la cerradura (0 a 15,
+    15 siendo el más lento)
 
--   4: 
-    
+-   4: le permite elegir entre diferentes modos de operación
+    (par, fuerza, potencia, etc.)
 
 \
 
@@ -221,7 +221,7 @@ Detalles del parámetro :
 
 \
 
-.
+Este módulo tiene solo un grupo de asociación.
 
 \
 
@@ -229,7 +229,7 @@ Detalles del parámetro :
 
 \
 
- 
+Ejemplos de uso 
 ----------------------
 
 \
@@ -238,12 +238,12 @@ Detalles del parámetro :
 
 \
 
-
-. 
-. 
-. 
-. 
-.
+El disparador es el comando de evento de un teclado zipato
+(puede ser cualquier otra cosa). Si el valor es 6 (inicio) en
+cierra la puerta. Acabamos de regresar para poder cerrar
+la puerta de la llave. De lo contrario (necesariamente 5) la puerta se abre con una llave y 2 minutos
+después de cerrarlo. De hecho, queremos salir, la puerta se abre y
+se cerrará poco después.
 
 \
 
@@ -258,17 +258,17 @@ Bueno saber
 
 > **Punta**
 >
-> .
-> 
-> 
-> .
+> Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
+> Esto significa que no tiene el concepto de despertar y despertar. Él
+> recuperará cualquier cambio de configuración en tiempo casi real
+> como módulo sectorial.
 
 \
 
 > **Punta**
 >
-> 
-> 
+> Este módulo no devuelve su estado, si opera el bloqueo en el
+> mano el estado seguirá siendo el mismo. \
 
 ### Visual alternativo 
 
@@ -278,12 +278,12 @@ Bueno saber
 
 \
 
- 
+Despertar 
 -------
 
 \
 
-.
+No hay concepto de despertar para este módulo.
 
 \
 
@@ -292,7 +292,7 @@ Faq.
 
 \
 
-.
+No hay concepto de despertar en este módulo, lea el párrafo específico.
 
 \
 

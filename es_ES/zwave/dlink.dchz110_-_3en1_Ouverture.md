@@ -1,4 +1,4 @@
- DCH-Z110 - "Apertura 3 en 1" 
+D-Link DCH-Z110 - "Apertura 3 en 1" 
 ====================================
 
 \
@@ -41,9 +41,9 @@ y el cuarto esta oscuro.
 
 El detector también aumentará el brillo y la temperatura, es decir.
 en caso de un cambio significativo, y cada vez que la apertura / cierre
-se detecta. 
-
-.
+se detecta. Un controlador Z-Wave (control remoto, dongle ...?) Es
+necesario para integrar este detector en su red si tiene
+ya una red existente.
 
 \
 
@@ -75,14 +75,14 @@ Características técnicas
 
 \
 
- :
+Sitio oficial :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
 
- :
+Otro enlace técnico :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-
+técnicas] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -91,18 +91,18 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : D-Link
 
--   Modelo : 
-    
+-   Modelo : Detector de apertura de puertas y ventanas DCH-Z110
+    mydlink ™ Inicio
 
 -   Fabricante : Sistema FIBARO
 
--   ID del fabricante : ]
+-   ID del fabricante : 264 \ [0x0108 \]
 
--   Tipo de producto : ]
+-   Tipo de producto : 2 \ [0x0002 \]
 
--   ID del producto : ]
+-   ID del producto : 14 \ [0x000e \]
 
 \
 
@@ -119,13 +119,13 @@ inclusión refiérase a esto
 
 > **Importante**
 >
-> 
-> 
-> .
-> 
-> 
-> . 
-> 
+> No instale el módulo en la ventana / puerta antes de tenerlo
+> configurado correctamente y preste atención a la alineación de
+> el imán durante las pruebas en una superficie plana y durante la instalación.
+> (Use cuñas si es necesario) Para poner este módulo en modo
+> inclusión es necesario presionar 3 veces en el botón de asociación en 1.5
+> segundo, según su documentación. (parpadeo rojo constante
+> en modo asociación)
 
 \
 
@@ -179,9 +179,9 @@ Aquí está la lista de comandos :
 
 > **Importante**
 >
-> 
-> .
-> .
+> Durante una primera inclusión o modificación, guarde
+> siempre active el módulo presionando el botón de asociación.
+> Debería parpadear en rojo y cambiar de estado.
 
 \
 
@@ -218,14 +218,14 @@ Detalles del parámetro :
     grupo 2
 
 -   5: modo de funcionamiento (ver el
-    
+    documentación del fabricante)
 
 -   6: modo de funcionamiento multisensor (ver el
-    .  : 7
+    documentación del fabricante). Valor recomendado : 7
 
--   7: 
-    en la documentación del fabricante).  : 
-    
+-   7: modo de funcionamiento multisensor personalizado (ver
+    en la documentación del fabricante). Valor recomendado : 20 (para
+    tener apertura funcional)
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2
@@ -237,19 +237,19 @@ Detalles del parámetro :
     (una unidad = parámetro 20)
 
 -   12: le permite definir la duración entre dos auto
-    .  : 6
+    brillo (una unidad = parámetro 20). Valor recomendado : 6
 
 -   13: le permite definir la duración entre dos auto
-    .  : 2
+    temperatura (una unidad = parámetro 20). Valor recomendado : 2
 
--   20: 
+-   20: duración de un intervalo para los parámetros 10 a 13. Valor
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
     Reporte
 
--   22: 
-    .  : 10
+-   22: valor en% de variación de brillo para disparar
+    un informe. Valor recomendado : 10
 
 \
 
@@ -269,8 +269,8 @@ indispensable.
 Bueno saber 
 ------------
 
-: Sirena
-
+Asociación / Notificación posible con otros módulos (ejemplo: Sirena
+Notificación de campanilla DCH-Z510 al abrir la puerta / ventana)
 
 \
 
@@ -290,10 +290,10 @@ Despertador
 
 Para activar este módulo, solo hay una forma :
 
--   
+-   Suelte el botón de asociación y presiónelo nuevamente.
 
--   
-    
+-   Reduzca el intervalo de activación en la configuración / sistema del módulo
+    (en segundos)
 
 \
 
@@ -302,14 +302,14 @@ Faq.
 
 \
 
-.
+Este módulo se activa presionando su botón de asociación.
 
 \
 
 Este módulo es un módulo de batería, la nueva configuración será
-tomado en cuenta en el próximo despertar. 
-
-
+tomado en cuenta en el próximo despertar. (botón de asociación para
+fuerza, de ahí el interés de no instalar el módulo antes de su
+buena configuración)
 
 \
 

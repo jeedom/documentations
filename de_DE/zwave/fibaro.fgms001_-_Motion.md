@@ -59,7 +59,7 @@ Funktionen
 -   Bewegungs- und Temperaturalarme werden durch Blinken signalisiert
     LED-Diode
 
--   
+-   Erdbebenerkennungsmodus
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
@@ -322,9 +322,9 @@ Gut zu wissen
 > **Spitze**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und sehr schlecht konfiguriert
-> Fabrik. 
-> 
-> 
+> Fabrik. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
+> (mehrmals sind besser als eins), um es nach Ihren Wünschen zu konfigurieren
+> wünscht, und es gut aufzuwecken, damit die Konfiguration berücksichtigt wird
 > Konto.
 
 \.
@@ -344,9 +344,9 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   
-    . 
-    
+-   Drücken Sie dreimal die Einschlusstaste (das Licht geht an
+    in blau). Selbst wenn das Licht aufleuchtet, kann dies erforderlich sein
+    mach es mehrmals hintereinander (2 oder 3)
 
 \.
 
@@ -355,12 +355,12 @@ Faq.
 
 \.
 
-.
+Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-. 
-.
+Dieses Modul ist sehr pingelig. Es ist ratsam, aufzunehmen
+näher an Ihrer Box und heben Sie sie mehrmals auf.
 
 \.
 

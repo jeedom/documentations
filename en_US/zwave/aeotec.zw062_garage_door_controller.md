@@ -1,4 +1,4 @@
- 
+Aeotec Garage door controller 
 ====================================
 
 \
@@ -24,14 +24,14 @@ Summary
 
 \
 
-
-
-. 
-
-. 
-
-
-.
+Easily connected to the existing door motor, the controller
+garage door enhances it with a suite of security sensors and
+safety. The garage door controller does not only allow
+control your garage door it also allows you to check
+its state. Whether used by the engine or manually, the detector
+smart comes with the garage door controller knows if the door
+is open or closed, and can alert you when what's going on doesn't
+should not.
 
 \
 
@@ -40,35 +40,35 @@ Functions
 
 \
 
--   .
+-   Control and monitor your garage door remotely.
 
--   
-    .
+-   Module easily installed on the engine of your
+    current door.
 
--   .
+-   Local door control via integrated button.
 
--   .
+-   Sends open / close alerts to the Z-Wave controller.
 
--   .
+-   Audible and visual opening / closing alerts.
 
--   
+-   Adjustable alarm volume (105 dB max)
 
--   .
+-   USB port for charging your own MP3 sounds.
 
--   .
+-   Integrated status LED on the button.
 
--   .
+-   Part of the Gen5 range from Aeon Labs.
 
--   .
+-   Security of radio communication via AES-128 encryption.
 
 -   Integrates the Z-Wave 500 series chip.
 
--   
-    .
+-   250% faster communication compared to peripherals
+    Z-Wave standard.
 
--   .
+-   Z-Wave message repeater.
 
--   .
+-   Optimization of the antenna, range 300 meters.
 
 \
 
@@ -77,28 +77,28 @@ Technical characteristics
 
 \
 
--   Type of module : 
+-   Type of module : Z-Wave + 500 series receiver and transmitter
 
--   Food : Actuator :  : 
-    
+-   Food : Actuator : 5 VDC (adapter supplied) Sensor : Battery
+    Lithium 3V 800mA CR2
 
--    : 
+-   Standby consumption : 1W
 
--    : 
+-   Alarm consumption : 2W
 
--    : 
+-   Maximum volume : 105 dB
 
--    : 
+-   Supported audio formats : mp3 and WMV at the frequency of 320Kbps
 
 -   Frequency : 868.42 Mhz
 
--   Transmission distance : 
+-   Transmission distance : 300m in open field
 
--   Operating temperature : -
+-   Operating temperature : -20 ° C to 50 ° C
 
--   Operating humidity : 
+-   Operating humidity : 80%
 
--   Certifications: 
+-   Certifications: FCC, UL, CE, ROHS
 
 \
 
@@ -107,9 +107,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Aeotec
 
--   Name : 
+-   Name : Garage Door Controller (ZW062)
 
 -   Manufacturer ID : 134
 
@@ -133,7 +133,7 @@ inclusion refer to this
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
-> .
+> Z-Wave, in accordance with its paper documentation.
 
 \
 
@@ -166,15 +166,15 @@ Here is the list of commands :
 
 \
 
--    : .
+-   Open / Close : Open, close or stop the garage door.
 
--   Position : .
+-   Position : Current garage door position.
 
--   Volume : .
+-   Volume : Current speaker volume.
 
--   Temperature : .
+-   Temperature : Zone temperature, no automatic ascent.
 
--   Sabotage : .
+-   Sabotage : Text sabotage status.
 
 \
 
@@ -207,15 +207,15 @@ Parameter details :
 
 \
 
--   34: 
-    .
+-   34: Allows you to start the calibration of the opening time of
+    the door.
 
--   41: 
-    "
+-   41: Allows you to reset the sabotage status by selecting "Relieve
+    the alarm state"
 
--   80: 
+-   80: on Hail
 
--   255 : 
+-   255 : allows resetting the factory configuration
 
 \
 
@@ -223,7 +223,7 @@ Parameter details :
 
 \
 
-This module has two association groups. 
+This module has two association groups. The first "Lifeline" is
 essential.
 
 \
@@ -239,37 +239,37 @@ Good to know
 
 ### Specificities 
 
-:
+Garage door opening time calibration:
 
--   1 : .
+-   1 : Garage door must be fully closed.
 
--   2 : ".
+-   2 : Activate parameter 34 on "Do calibration".
 
--   3 : 
+-   3 : Start the door opening
 
--   4 : .
+-   4 : Wait until the door is fully open.
 
--   5 : 
+-   5 : Start closing the door
 
+The calibration is completed
 
+-   Parameter 34 will be updated to "Normal".
 
--   ".
-
--   .
+-   Parameter 35 will be updated with the calculated opening time.
 
 \
 
-:
+Sabotage reset:
 
--   1 : .
+-   1 : The sensor must be properly attached.
 
--   2 : ".
+-   2 : Activate parameter 41 on "Relieve the alarm state".
 
 -   3 : Update settings.
 
+The calibration is completed
 
-
--   ".
+-   Parameter 41 will be updated with "Sensor is not removed".
 
 \
 

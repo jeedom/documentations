@@ -1,4 +1,4 @@
-" 
+Asegure la temperatura SES 302 "" 
 ============================
 
 \
@@ -24,10 +24,10 @@ Resumen
 
 \
 
-
-
-
-:
+La sonda SES302 permite medir la temperatura ambiente.
+interior Está alimentado por 2 baterías AA y tiene certificación Z-Wave
+Más. Además de su función principal, es posible cablear
+varias sondas externas seguras en el módulo, es decir:
 
 -   Un sensor de temperatura externo NTC (SES001)
 
@@ -50,14 +50,14 @@ Funciones
 
 \
 
--   
+-   Medición precisa de temperatura
 
 -   Aplicación en sistemas de control dinámico.
     tanques / tubos / pisos calentados /…
 
 -   Posibilidad de conectar sensores externos
 
--   
+-   Interoperable con productos y sistemas certificados Z-Wave
 
 -   Instalación rápida y fácil.
 

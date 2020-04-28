@@ -1,4 +1,4 @@
- Miniplug Dimmer - AD147-6 
+Everspring Miniplug Dimmer - AD147-6 
 ====================================
 
 \
@@ -42,20 +42,20 @@ Functions
 
 \
 
--   
+-   Control a lamp remotely
 
--   
-    
+-   Plug module integrating directly between an electrical outlet and
+    the load to order
 
--   
+-   ON / OFF and Dimmer function to control lamps
 
--   
+-   Local charge control via integrated button
 
 -   Z-Wave Plus technology
 
--   
+-   Reduced dimensions to go almost unnoticed
 
--   
+-   Status LED on the integrated button
 
 -   Z-Wave repeater function
 
@@ -70,10 +70,10 @@ Technical characteristics
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 
+-   Consumption : 0.6W
 
--   Maximum power : Resistive load : 
-    :  : 
+-   Maximum power : Resistive load : 250W, Incandescent bulb
+    : 250W, Led bulb (not dimmable) : 6W
 
 -   Frequency : 868.42 Mhz
 
@@ -81,7 +81,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--   Dimensions :  :  : 
+-   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
 \
 
@@ -90,7 +90,7 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Everspring
 
 -   Name : Miniplug Dimmer
 
@@ -163,8 +163,8 @@ Here is the list of commands :
 
 \
 
-
-.
+Note that on the dashboard, the status information, ON / OFF, intensity is
+found on the same icon.
 
 \
 
@@ -198,14 +198,14 @@ Parameter details :
 -   1 : This parameter defines the status value command, it is not
     advised to change this value.
 
--   2 : 
+-   2 : This parameter defines the delay in sending the change of state to
     group 1 (value between 3 and 25 seconds)
 
--   3 : 
-    .
+-   3 : This parameter is used to define whether the socket will resume its status
+    (ON or OFF) after a power recovery.
 
--   4 : 
-    
+-   4 : This parameter allows you to define whether the outlet will operate in
+    variation or in on / off mode
 
 ### Groups 
 

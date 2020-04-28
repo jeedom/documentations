@@ -1,85 +1,85 @@
 > **Wichtig**
 >
-> . :?f=27&t=37630#p621495)
+> ieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. as Original finden Sie [hier] (https:/./.www.jeedom.com/.forum/.viewtopic.php?f=27&t=37630#p621495)
 
-. . .
+In diesem kurzen Tutorial wird erklärt, wie Sie ein Plugin erstellen. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.fr .(as Plugin wird skalierbar sein)
 
-:
+Es ersundzt in keinem Fall die [offizielle okumentation] (https:/./.jeedom.github.io/.plugin-template/.fr_FR/.)
 
-# 
+# Erstellen Sie die Plugin-Basis
 
+Zu Beginn müssen Sie einen Namen und eine I bestimmen (die nicht existieren dürfen).
 
+Name : Kacke das Leben
+Identifikation : vdm
 
-Name : 
-Identifikation : 
+Laden Sie das Vorlagen-Plugin herunter, um die [Basis] (https) zu erhalten:/./.github.com/.jeedom/.plugin-template/.archive/.master.zip)
 
-:
+Entpacken Sie die atei . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rVonty , core , desktop…
 
- . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rVonty , core , desktop…
+Los geht's.
 
-.
+Renommer le dossier « plugin-template-master » en « vdm » (l'Identifikation) du plugin.
 
-Renommer le dossier « plugin-template-master » en «  » (l'Identifikation) du plugin.
-
-..
+1 /. Öffnen Sie die atei plugin_info /. info.json und bearbeiten Sie die.
 
 ```
 {
-	"Identifikation" : "",
-	"Name" : "",
-	"Beschreibung" : "",
+	"Identifikation" : "vdm",
+	"Name" : "Kacke das Leben",
+	"Beschreibung" : "Plugin zum Abrufen des neuesten vdm",
 	"Lizenz" : "AGPL",
-	"Autor" : "",
+	"Autor" : "Zyg0m4t1k",
 	"erfordern" : "3.2",
 	"Kategorie" : "Überwachung",
 	"Änderungsprotokoll" : "",
 	"okumentation" : "",
-	"" : "",
-	"" : ""	
+	"Sprache" : "",
+	"Kompatibilität" : ""	
 }
 ```
 
-.
+Kopieren Sie den obigen Code und fügen Sie ihn ein.
 
-.
+Ich habe die I (vdm), den Namen, eine Beschreibung, den Autor und die Kategorie geändert.
 
-erfordern : .
+erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt zu haben.
 
-. 
+Änderungsprotokoll, okumentation, Sprache, Kompatibilität für den Moment null. Ich werde später darauf zurückkommen
 
+2 /. Wir werden die ateien umbenennen, die erforderlich sind, damit das Plugin von Jeedom erkannt wird
 
+-	Benennen Sie die atei core /. ajax /. template.ajax um.php zu vdm.ajax.php
 
--	.
-
--	... 
+-	Benennen Sie die atei core /. class /. template.class um.PHP zu vdm.class.PHP und öffnen Sie es, um es zu bearbeiten. 
 
 Ersundzen
 
 ```
- {
+Klassenvorlage erweitert eqLogic {
 ```
 
 Von
 
 
 ```
- {
+Klasse vdm erweitert eqLogic {
 ```
 
 und
 
 ```
-
+Klasse templateCmd erweitert cmd
 ```
 
 Von
 
 ```
-
+Klasse vdmCmd erweitert cmd
 ```
 
-- .
-- ..
+- Benennen Sie die atei core /. php /. template.inc um.php to core /. php /. vdm.inc.php
+- Benennen Sie die esktop- /. PHP- /. Vorlagendatei um.PHP zu esktop /. PHP /. VM.PHP und öffne es
 
 Ersundzen
 
@@ -90,11 +90,11 @@ $plugin = plugin::byIdentifikation('template');;
 Von 
 
 ```
-$plugin = plugin::byIdentifikation(‘');;
+$plugin = plugin::byIdentifikation(‘vdm');;
 ```
 
 ```
-{{}}
+{{Fügen Sie eine Vorlage hinzu}}
 ```
 
 Von 
@@ -124,7 +124,7 @@ Von
 ```
 
 ```
-{{}}
+{{Vorlage Vonamunder 1}}
 ```
 
 Von
@@ -140,49 +140,49 @@ Von
 Von
 
 ```
-<?php include_file('desktop', , 'js', );;?>
+<?php include_file('desktop', vdm, 'js', vdm);;?>
 ```
 
-Et rien d'autre , ne pas changer la ligne <?.?>
+Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.Vorlage ',' js ');;?>
 
--.
+-Benennen Sie die atei desktop /. modal /. modal.template um.PHP in esktop /. Modal /. Modal.vdm.php
 
--.
+-Benennen Sie die atei desktop /. js /. template um.js en desktop /. js /. vdm.js.
 
-- 
+- Öffnen Sie die atei plugin_info /. install.php
 
-
+Und benennen Sie die Funktionen wie folgt um
 
 ```
- {
+Funktion vdm_install () {
     
 }
 
- {
+Funktion vdm_update () {
     
 }
 
 
- {
+Funktion vdm_remove () {
     
 }
 ```
 
- : [okumentation](https:
+Hier ist das Plugin fertig, aber es bleibt die Anpassung und das zu aktualisierende Symbol : [okumentation](https:/./.jeedom.github.io/.okumentation/.dev/.fr_FR/.Icone_de_plugin)
+
+Fügen Sie das Symbol im Ordner plugin_info unter dem Namen vdm_icon.png hinzu
+
+in meinem Fall 
+
+![image](images/.tutorial_vdm_icon.png)
+
+Jundzt können wir den vdm-Ordner in den Jeedom-Plugin-Ordner kopieren und zur Plugin-Verwaltung gehen. Wir finden das Plugin.
+
+![image](images/.tutorial_vdm_plugin.png)
 
 
 
- 
-
-![image](images/.tutorial__icon.png)
-
-. .
-
-![image](images/.tutorial__plugin.png)
-
-
-
-![image](images/.tutorial__desktop1.png)
+![image](images/.tutorial_vdm_desktop1.png)
 
 .
 
@@ -220,7 +220,7 @@ Von
 <span style="font-size : 1.1em;;position:relative;;top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;Farbe:#767676">{{Configuration}}</.span>
 ```
 
-![image](images/.tutorial__desktop2.png)
+![image](images/.tutorial_vdm_desktop2.png)
 
 . .
 
@@ -232,7 +232,7 @@ Von
 
 . 
 
--Créer un équipement « 1 » en cliquant sur le +. . . 
+-Créer un équipement « vdm1 » en cliquant sur le +. . . 
 
 .
 
@@ -244,7 +244,7 @@ Von
  {
 	$info = $this->gundCmd(null, 'story');;
 	! {
-		$info = new Cmd();;
+		$info = new vdmCmd();;
 		$info->sundName(__('Histoire', __FILE__));;
 	}
 	$info->sundLogicalIdentifikation('story');;
@@ -253,26 +253,26 @@ Von
 	$info->sundSubType('string');;
 	$info->save();;	
 	
-	$reesh = $this->gundCmd(null, 'reesh');;
+	$refresh = $this->gundCmd(null, 'refresh');;
 	! {
-		$reesh = new Cmd();;
-		$reesh->sundName(__('Raaichir', __FILE__));;
+		$refresh = new vdmCmd();;
+		$refresh->sundName(__('Rafraichir', __FILE__));;
 	}
-	$reesh->sundEqLogic_Identifikation($this->gundIdentifikation());;
-	$reesh->sundLogicalIdentifikation('reesh');;
-	$reesh->sundType('action');;
-	$reesh->sundSubType('other');;
-	$reesh->save();;        
+	$refresh->sundEqLogic_Identifikation($this->gundIdentifikation());;
+	$refresh->sundLogicalIdentifikation('refresh');;
+	$refresh->sundType('action');;
+	$refresh->sundSubType('other');;
+	$refresh->save();;        
 }
 ```
 
--Créer un autre équipement « 2 » en cliquant sur le +. . . .
+-Créer un autre équipement « vdm2 » en cliquant sur le +. . . .
 
--Enregistrer le premier équipement « 1 » pour créer les commandes. .
+-Enregistrer le premier équipement « vdm1 » pour créer les commandes. .
 
 .
 
-![image](images/.tutorial__cmd1.png)
+![image](images/.tutorial_vdm_cmd1.png)
 
 ..
 
@@ -371,7 +371,7 @@ Funktion addCmdToTable (_cmd) {
 
 .. 
 
-![image](images/.tutorial__cmd2.png)
+![image](images/.tutorial_vdm_cmd2.png)
 
 .
 
@@ -381,7 +381,7 @@ Funktion addCmdToTable (_cmd) {
 .
 
 ```
-$url = "http:/./.www.viedemerde./.aleatoire";;
+$url = "http:/./.www.viedemerde.fr/.aleatoire";;
 $data = file_gund_contents($url);;
 @$dom = new OMocument();;
 
@@ -396,7 +396,7 @@ $divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="
 
 ```
 	 {
-		$url = "http:/./.www.viedemerde./.aleatoire";;
+		$url = "http:/./.www.viedemerde.fr/.aleatoire";;
 		$data = file_gund_contents($url);;
 		@$dom = new OMocument();;
 		
@@ -418,9 +418,9 @@ $divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="
  }
 ```
 
-C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». 
+C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». 
 
-On vérifie le logicalIdentifikation de la commande lancée und si « reesh » on lance les actions
+On vérifie le logicalIdentifikation de la commande lancée und si « refresh » on lance les actions
 
 ```
  {				
@@ -450,7 +450,7 @@ $eqlogic->checkAndUpdateCmd('story', $info);;
 		$eqlogic = $this->gundEqLogic();; /./.récupère l'éqlogic de la commande $this
 		 			
 			':  . 
-				$info = $eqlogic->randomVdm();; 	/./.On lance la fonction randomVdm() pour récupérer une  und on la stocke dans la variable $info
+				$info = $eqlogic->randomVdm();; 	/./.On lance la fonction randomVdm() pour récupérer une vdm und on la stocke dans la variable $info
 				$eqlogic->checkAndUpdateCmd('story', $info);; /./. on mund à jour la commande avec le LogicalIdentifikation "story"  de l'eqlogic 
 				
 		}
@@ -467,7 +467,7 @@ $eqlogic->checkAndUpdateCmd('story', $info);;
 
 # 
 
-. Si vous cliquer sur la commande « reesh » , la commande « story » se mund à jour mais sinon rien. 
+. Si vous cliquer sur la commande « refresh » , la commande « story » se mund à jour mais sinon rien. 
 
 . . .
 
@@ -525,10 +525,10 @@ selbst::
 }
 ```
 
-Voila maintenant on recherche la commande « reesh » de l'équipement (eqLogic)
+Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
 ```
-$cmd = $->gundCmd(null, 'reesh');;
+$cmd = $vdm->gundCmd(null, 'refresh');;
 ```
 
 
@@ -546,7 +546,7 @@ $cmd->execCmd();;
        {
 		  ::
 			  
-				  $cmd = $->gundCmd(null, 'reesh');;/./.rundourne la commande "reesh si elle existe
+				  $cmd = $vdm->gundCmd(null, 'refresh');;/./.rundourne la commande "refresh si elle existe
 				  !
 				  	
 				  }
@@ -569,7 +569,7 @@ Pour tester, dans jeedom , aller dans configuration/.moteur de tâches und lance
 
 ```
     öffentliche Funktion postUpdate () {
-		$cmd = $this->gundCmd(null, 'reesh');; /./. On recherche la commande reesh de l'équipement
+		$cmd = $this->gundCmd(null, 'refresh');; /./. On recherche la commande refresh de l'équipement
 		
 			 $cmd->execCmd();;
 		}
@@ -593,14 +593,14 @@ Pour tester, dans jeedom , aller dans configuration/.moteur de tâches und lance
 ```
 	 {
 		
-			$eqLogics = selbst::byType('', true);;
+			$eqLogics = selbst::byType('vdm', true);;
 		} 
 			$eqLogics = array(selbst::byIdentifikation($_eqLogic_;;
 		}		  
 	
 		 {
 			
-				$cmd = $->gundCmd(null, 'reesh');;/./.rundourne la commande "reesh si elle existe
+				$cmd = $vdm->gundCmd(null, 'refresh');;/./.rundourne la commande "refresh si elle existe
 				!
 				  
 				}
@@ -649,7 +649,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 ```
 		$info = $this->gundCmd(null, 'story');;
 		! {
-			$info = new Cmd();;
+			$info = new vdmCmd();;
 			$info->sundName(__('Histoire', __FILE__));;
 		}
 		$info->sundLogicalIdentifikation('story');;
@@ -694,7 +694,7 @@ $this->sundisplay("wIdentifikationth","800px");;
  :  . . . 
 
 ```
-$plugin = plugin::byIdentifikation('');; /./. appelle la classe plugin du core
+$plugin = plugin::byIdentifikation('vdm');; /./. appelle la classe plugin du core
 ```
 
 . 
@@ -731,7 +731,7 @@ ans le champs « Vonamètre» d'un équipement, taper « aleatoire » und sauveg
 ? . C'est pourquoi il ne faut surtout pas toucher à cundte ligne de code comme indiqué dans le premier menu « test » . 
 
 ```
-<?.?>/./.Chargement du fichier core/.js/.plugin.template.js (en Vontant de la racine du site)
+<?php include_file ('core', 'plugin.Vorlage ',' js ');;?>/./.Chargement du fichier core/.js/.plugin.template.js (en Vontant de la racine du site)
 ```
 
 .
@@ -755,7 +755,7 @@ ans le champs « Vonamètre» d'un équipement, taper « aleatoire » und sauveg
 Von 
 
 ```
-<label class="col-sm-3 control-label">{{Type de }}</.label>
+<label class="col-sm-3 control-label">{{Type de vdm}}</.label>
 ```
 
 Wichtig : 
@@ -766,13 +766,13 @@ Wichtig :
 
 
 
-On pourrait le laisser taper dans l'input « Type de  » : 
+On pourrait le laisser taper dans l'input « Type de vdm » : 
 
 
 
 ```
        <div class="form-group">
-        <label class="col-sm-3 control-label">{{Type de }}</.label>
+        <label class="col-sm-3 control-label">{{Type de vdm}}</.label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/.>
         </.div>
@@ -783,7 +783,7 @@ On pourrait le laisser taper dans l'input « Type de  » :
 
 ```
     <div class="form-group">
-        <label class="col-sm-3 control-label" >{{ Type de  }}</.label>
+        <label class="col-sm-3 control-label" >{{ Type de vdm }}</.label>
         <div class="col-sm-3">
             <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="type ">
                 <option value="aleatoire">{{Aleatoire}}</.option>
@@ -802,7 +802,7 @@ Ici le Vonamètre « type» prendra la valeur du select choisi soit aleatoire ou
 Suchen
 
 ```
-$url = "http:/./.www.viedemerde./.aleatoire";;
+$url = "http:/./.www.viedemerde.fr/.aleatoire";;
 ```
 
 
@@ -812,7 +812,7 @@ $url = "http:/./.www.viedemerde./.aleatoire";;
 		
 			$type = "aleatoire";; /./.on prends le type aleatoire
 		}		
-		$url = "http:/./.www.viedemerde./." .$type  ;;
+		$url = "http:/./.www.viedemerde.fr/." .$type  ;;
 ```	
 
 .

@@ -1,4 +1,4 @@
- 
+Swiid Switch - Swiidinter 
 ===============================
 
 \
@@ -24,28 +24,28 @@ Summary
 
 \
 
+SwiidInter is the first cord switch in the environment
+Z-Wave home automation that is small and discreet enough to be
+comparable to an ordinary cord switch.
 
+It can be used both manually like any
+ordinary and remote cord switch via controller
+Z-Wave.
 
-.
+The SwiidInter switch also offers association possibilities
+and this two-way. Thus, it can be operated automatically by a
+other Z-Wave device on the same network, such as the
+presence detector triggered. Conversely with support
+short or with a long press it can control two separate groups of
+Z-Wave devices associated with it : for example every
+other lights in the room where your switch is located
+SwiidInter.
 
-
-
-.
-
-
-. 
-
-. 
-
- : 
-
-Inter.
-
-
- : 
-. 
-
-
+The SwiidInter switch is installed exactly like a switch
+on ordinary cord : so it's a quick and easy installation that
+requires no specialized tools. It must then be configured to
+integrate into a Z-Wave "network", this network can be as simple
+only one remote control that controls your SwiidInter switch to
 Range.
 
 \
@@ -55,22 +55,22 @@ Functions
 
 \
 
--   
-    
+-   Cord switch usable both manually
+    (short press) and by remote radio (Z-Wave)
 
--   
-    
+-   Use as a replacement for a standard cord switch
+    a bedside, table or desk lamp
 
--   
+-   We / Off function
 
--   
-    
+-   Activation of a home automation scenario on long press
+    (Z-Wave association)
 
--   
+-   Dimensions comparable to an ordinary cord switch
 
--   
+-   Installs like an ordinary cord switch
 
--   
+-   Suitable for all types of lamp bulbs
 
 \
 
@@ -79,31 +79,31 @@ Technical characteristics
 
 \
 
--   Type of module :  receiver
+-   Type of module : Z-Wave receiver
 
--   Color : 
+-   Color : black
 
--   Food: 
+-   Food: 230V ± 10% - 50Hz
 
--    : 
+-   Max power : 660W
 
 -   Consumption : &lt; 0,08W
 
--   Protection sign: 
+-   Protection sign: IP20
 
--   Radio protocol: 
+-   Radio protocol: Z-Wave® (SDK 4.55)
 
--    : 
+-   Radio frequency : 868.42 MHz (EU)
 
--   . : 
+-   Dist. transmission: Up to 30m indoors (depends on materials)
 
--   .  : 
+-   Temp. operation : 0 - 40 ° C
 
--    : 
+-   On / off display : Blue LEDs
 
--   Dimensions : 
+-   Dimensions : 84 x 32 x 29 mm
 
--    : :
+-   EU standards : EN 61058-2-1:2011 EN 55015
 
 \
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Swiid
 
--   Name : 
+-   Name : Swiidinter
 
 -   Manufacturer ID : 358
 
@@ -138,7 +138,7 @@ inclusion refer to this
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
-> 
+> on the back, in accordance with its paper documentation
 
 \
 
@@ -208,25 +208,25 @@ settings)
 
 \
 
- :
+Parameter details :
 
 \
 
-
-
+This parameter allows you to choose the behavior when you associate the
+swiidinter to another module (long press)
 
 \
 
--   Inactive : 
+-   Inactive : will have no effect on other lights
 
--    : 
-    
+-   Only Off : will be effective only to turn off others
+    Lights
 
--    : 
-    
+-   We WeLY : will be effective only to turn on the others
+    Lights
 
--    : 
-    
+-   We and Off (fully) : will be effective to turn on and off the
+    other lights
 
 \
 
@@ -245,18 +245,18 @@ This module has two association groups.
 > **IMPORTANT**
 >
 > For optimum operation of your module. Jeedom must
-> .
+> be associated at least with group 2.
 
 \
 
- 
+Associate with another light 
 ----------------------------
 
 \
 
-
-
-.
+To associate the swiidinter with another light and be able to benefit from
+switching on another light, just add it to the group
+of association 1 via the screen cited above.
 
 \
 
@@ -273,7 +273,7 @@ Good to know
 
 \
 
- 
+Wake up 
 -------
 
 \

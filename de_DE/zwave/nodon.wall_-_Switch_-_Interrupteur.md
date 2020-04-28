@@ -1,4 +1,4 @@
- Switch - Wandschalter 
+Nodon Switch - Wandschalter 
 ================================
 
 \.
@@ -77,15 +77,15 @@ Technische Daten
 
 -   2 Jahre Garantie
 
--   EN 60950-1:::::2013
+-   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
 
--   
+-   EN 300 220-2 V2.4.1
 
--   
+-   EN301 489-1 V1.9.2
 
--   
+-   EN301 489-3 V1.6.1
 
--   :2010
+-   EN 62479:2010
 
 \.
 
@@ -94,9 +94,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Nodon
 
--   Name : 
+-   Name : CWS-3-1-01 Wandschalter
 
 -   Hersteller ID : 357
 
@@ -119,9 +119,9 @@ Aufnahme beziehen sich darauf
 
 > **Wichtig**
 >
-> 
-> 
-> .
+> Drücken Sie die beiden Tasten, um dieses Modul in den Einschlussmodus zu versetzen
+> Taste (1 und 2) drücken, bis das Licht rosa wird, dann drücken
+> Taste 1 gemäß der Papierdokumentation.
 
 \.
 
@@ -156,17 +156,17 @@ Hier ist die Liste der Befehle :
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
-
++ =============== + =============== + ================ = + =============== + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2**          | 20             | 22             | 21             | 23             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3**          | 30             | 32             | 31             | 33             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4**          | 40             | 42             | 41             | 43             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
 \.
 
@@ -204,22 +204,22 @@ Parameterdetails :
 
 \.
 
--    : 
-    
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+    zentral (für den Einsatz in Jeedom nicht erforderlich)
 
--   3 : 
-    
+-   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
+    im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--    : 
-    
+-   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+    Gruppenverbände)
 
--   8 : 
+-   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen 
 
 \.
 
-.
+Dieses Modul hat 7 Zuordnungsgruppen.
 
 \.
 
@@ -233,11 +233,11 @@ Parameterdetails :
     Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
     des Netzwerks.
 
--   
-    
+-   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltfläche entsprechend MONO-Profil
 
--   
-    
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltfläche entsprechend DUO-Profil
 
 \.
 
@@ -254,9 +254,9 @@ Gut zu wissen
 
 \.
 
--   . 
-    . 
-    .
+-   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
+    1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
+    Assoziationsgruppe.
 
 \.
 
@@ -265,7 +265,7 @@ Aufwachen
 
 \.
 
-
+Um dieses Modul zu aktivieren, drücken Sie einfach eine dieser Tasten
 
 \.
 

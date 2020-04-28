@@ -1,4 +1,4 @@
- 
+Nodon Fernbedienung - Octan 
 ==========================
 
 \.
@@ -24,16 +24,16 @@ Zusammenfassung
 
 \.
 
+Mit der Octan Remote NodOn® können Sie jeden Empfänger steuern
+Z-Wave®- oder Z-Wave Plus®-kompatibel wie die Fernbedienungsbuchse
+NodOn® (Hauptcontrollermodus - Standalone) oder sogar Trigger
+Szenen / Aktionen über ein kompatibles Hausautomationssystem (Modus
+Gateway)
 
-
-
-
-
-
-
-. 
-
-
+Dank seines integrierten Magneten kann er überall befestigt werden, vom Kühler bis zur Tür
+Kühlschrank, durch seine Wandhalterung. Zwischen Fernbedienung
+und schalten, die Octan Remote revolutioniert die Objektsteuerung
+Inland
 
 \.
 
@@ -44,11 +44,11 @@ Funktionen
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 
--   
+-   Integrierter Magnet
 
--   
+-   Farbig geführt
 
--   
+-   Wandplatte
 
 -   2 Jahre Batterie
 
@@ -63,15 +63,15 @@ Technische Daten
 
 -   4 Tasten
 
--   
-    
+-   Wandhalterung mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben
+    (nicht enthalten)
 
--   
+-   Integrierter Magnet zur Befestigung an der Metalloberfläche
 
--   Betriebstemperatur :  : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    .: 
+    Plus® SDK 06.51.01 Geltungsbereich: 40 m innen / 80 m außen
 
 -   Abmessungen : 80 \ * 80 \ * 15mm
 
@@ -84,9 +84,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Nodon
 
--   Name : 
+-   Name : CRC-3-1-00 Octan Remote
 
 -   Hersteller ID : 357
 
@@ -109,9 +109,9 @@ Aufnahme beziehen sich darauf
 
 > **Wichtig**
 >
-> 
-> 
-> .
+> Drücken Sie die beiden Tasten, um dieses Modul in den Einschlussmodus zu versetzen
+> Taste (1 und 2) drücken, bis das Licht rosa wird, dann drücken
+> Taste 1 gemäß der Papierdokumentation.
 
 \.
 
@@ -146,17 +146,17 @@ Hier ist die Liste der Befehle :
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
-
++ =============== + =============== + ================ = + =============== + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2**          | 20             | 22             | 21             | 23             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3**          | 30             | 32             | 31             | 33             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4**          | 40             | 42             | 41             | 43             |
-
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
 \.
 
@@ -194,22 +194,22 @@ Parameterdetails :
 
 \.
 
--    : 
-    
+-   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
+    zentral (für den Einsatz in Jeedom nicht erforderlich)
 
--   3 : 
-    
+-   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
+    im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--    : 
-    
+-   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+    Gruppenverbände)
 
--   8 : 
+-   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen 
 
 \.
 
-.
+Dieses Modul hat 7 Zuordnungsgruppen.
 
 \.
 
@@ -223,11 +223,11 @@ Parameterdetails :
     Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
     des Netzwerks.
 
--   
-    
+-   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltfläche entsprechend MONO-Profil
 
--   
-    
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
+    entsprechende Schaltfläche entsprechend DUO-Profil
 
 \.
 
@@ -244,9 +244,9 @@ Gut zu wissen
 
 \.
 
--   . 
-    
-    .
+-   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
+    Wachen Sie 1 oder 2 Mal nach der Aufnahme auf und überprüfen Sie die
+    Assoziationsgruppe.
 
 \.
 
@@ -255,7 +255,7 @@ Aufwachen
 
 \.
 
-
+Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 
 \.
 

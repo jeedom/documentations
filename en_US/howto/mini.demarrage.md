@@ -72,15 +72,15 @@ The weather plugin.
 ![mini.demarrage09](images/mini.demarrage09.png)
 
  : [Premiers pas avec
-:
+Jeedom] (https:
 
 .
 
 
  : [Documentation
-:
+Jeedom] (https:
  : [Tutos vidéos](https:.
 
-Question : [Forum :.
+Question : [Forum Jeedom] (https:.
 
 .

@@ -1,4 +1,4 @@
-SmartHome by Everspring  - AN179-0 
+SmartHome by Everspring In Wall We Off - AN179-0 
 ================================================
 
 \
@@ -25,17 +25,17 @@ Summary
 \
 
 SmartHome Europe by Everspring brand ON / OFF Wall Micromodule,
+is designed to control the lighting on and off and
+electrical appliances in your home. Two sets of dry contacts
+allow the connection of two switches.
 
-. 
-.
+For safety purposes, the unit can detect overheating and will shut down
+the relay directly to avoid damage. At a voltage of 230
+V, this module can support up to 11 A resistive load, 1200 Watts
+incandescent, 700 Watts of motor, or 320 Watts (8 x 40 Watts) of
+fluorescent charge.
 
-
-. 
-
-
-.
-
-
+The Micromodule Mural ON / OFF is a Z-Wave ™ compatible device which is
 designed to work with all Z-Wave ™ compatible networks. he
 can be controlled by remote control, PC software, or any
 which Z-Wave controller in your network.
@@ -51,7 +51,7 @@ Functions
 
 -   Installs behind an existing switch
 
--   
+-   ON / OFF function
 
 -   Low energy consumption
 
@@ -80,8 +80,8 @@ Technical characteristics
 
 -   Consumption : 0.5W
 
--   Maximum power : Resistive load : 
-    :  : 
+-   Maximum power : Resistive load : 2500W Incandescent bulb
+    : 1200W Compact Fluorescent Bulb : 320W
 
 -   Frequency : 868.42 Mhz
 
@@ -100,7 +100,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Name : 
+-   Name : In Wall We Off
 
 -   Manufacturer ID : 96
 
@@ -248,7 +248,7 @@ Good to know
 
 \
 
- 
+Wake up 
 -------
 
 \

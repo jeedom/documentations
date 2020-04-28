@@ -1,4 +1,4 @@
-" 
+Fibaro FGR-222 "Rollladen" 
 ==============================
 
 \.
@@ -24,26 +24,26 @@ Zusammenfassung
 
 \.
 
+Mit dem Mikromodul FGR-222 können Sie die Motorisierungen von verwalten
+Verschluss mit elektronischem Anschlag, Jalousien oder den Türen von
+Garage dank des Z-Wave-Protokolls, während Sie Ihren Schalter behalten
+vorhanden. Sie können daher den angeschlossenen Motor über aktivieren
+mit dem vorhandenen Schalter, einem Z-Wave-Sender oder direkt
+von der Taste am Mikromodul.
 
-
-
-
-
-.
-
-
-
-.
+Darüber hinaus kann dieses Mikromodul den Verbrauch übertragen
+Momentane (W) und kumulative (KWh) elektrische Leistung des Geräts
+beigefügt.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
-
+Integrieren Sie dieses Modul in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
 vorhanden.
 
+Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
+andere Module, um eine vollständige Abdeckung Ihrer
+Wohnung.
 
-
-.
-
-Notiz : .
+Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
 \.
 
@@ -52,22 +52,22 @@ Funktionen
 
 \.
 
--   
+-   Steuern Sie Ihre Jalousien oder Rollläden fern
 
--   
-    
+-   Kompatibel mit BSO und Jalousie mit Positionierung von
+    Lamellen
 
 -   Wird hinter einem vorhandenen Switch installiert
 
--   
+-   Auf / Ab und Positionierungsfunktion
 
--   
+-   Kompatibel mit Motoren mit mechanischem oder elektronischem Anschlag
 
--   
+-   Messung des momentanen und kumulativen Verbrauchs
 
--   
+-   Drahtloses Aufdate mit der Fibaro Home Center 2-Box
 
--   
+-   Testfunktion für die Z-Wave-Netzabdeckung
 
 -   Klein, diskret und ästhetisch
 
@@ -113,7 +113,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : 
+-   Name : Fibaro FGR-222
 
 -   Hersteller ID : 271
 
@@ -238,7 +238,7 @@ Parameterdetails :
 \.
 
 -   1: ermöglicht das Blockieren des Moduls (um einen Verschluss einzufrieren) (in dem Fall
-    
+    Drücken eines Schalters)
 
 -   2: Das Gleiche gilt für zwave-Befehle
 
@@ -254,7 +254,7 @@ Parameterdetails :
 -   14: ermöglicht die Auswahl des Schaltertyps
 
 -   17: ermöglicht die Auswahl, wie lange nach dem in 18 definierten Grenzwert
-    
+    Der Verschluss stoppt
 
 -   18: Motorsicherheitsleistung
 
@@ -273,8 +273,8 @@ Parameterdetails :
 -   43: Energiedelta, um einen Informationsanstieg auszulösen (auch in
     außerhalb des in 42) definierten Zeitraums
 
--   44: 
-    
+-   44: ermöglicht die Auswahl, ob Verbrauch und Leistung
+    muss das des Moduls selbst enthalten
 
 -   50: Hier können Sie auswählen, ob das Modul die Informationen an die Knoten senden soll
     in Assoziation im Szenenmodus oder im Assoziationsmodus

@@ -1,4 +1,4 @@
- 
+Philio PST02 C - 3 in 1 Öffnung 
 =================================
 
 \.
@@ -24,17 +24,17 @@ Zusammenfassung
 
 \.
 
- : 
-. Es ist
- : . 
+Der ZIP-PSM01-Detektor bietet 3 verschiedene Funktionen : Erkennung
+Öffnung, Temperatursensor und Lichtdetektor. Es ist
+besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie sind entworfen
+an einer Tür oder einem Fenster mit dem Magneten an der Tür anbringen
+Öffnungsteil und Detektor am festen Teil.
 
-.
-
-
-
-
-. 
-
+Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
+Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
+Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
+Sirene oder von einer Hausautomationsbox zum Beispiel). Der Sensor kann auch
+für die automatische Lichtsteuerung verwendet werden, abhängig von der
 Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
 Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
 und der Raum ist dunkel.
