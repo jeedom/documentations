@@ -95,17 +95,17 @@ conf especial necesita un repertorio clásico
 
     ubicación / emoncms {
            alias / var / www / emoncms /;
-           index index.php;
+           
             try_files = $ uri $ uri / @missing;
 
        ubicación ~ [^ /] \.php (/|$) {
                fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
-               fastcgi_pass unix:/var/run/php5-fpm.sock;
-               fastcgi_index index.php;
+               :
+               
                incluir fastcgi_params;
                fastcgi_param REMOTE_USER $ remote_user;
                fastcgi_param PATH_INFO $ fastcgi_path_info;
-               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
+               
            }
 
     }

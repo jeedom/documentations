@@ -45,24 +45,24 @@ Technische Daten
 
 -   Versorgung : 3VDC (Lithiumbatterie ER14250)
 
--   Autonomie : Bis zu 3 Jahre
+-    : Bis zu 3 Jahre
 
--   Frequenz : 868,3 MHz
+-   Frequenz : 
 
 -   Betriebstemperatur : 0 ° C + 45 ° C.
 
--   Reichweite im freien Feld : 100M
+-   Reichweite im freien Feld : 
 
--   Abmessungen : 25x79x19mm
+-   Abmessungen : 
 
--   Schutzart : IP20
+-   Schutzart : 
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie : 
 
--   Name : ETS-200
+-   Name : 
 
 Allgemeine Konfiguration 
 ======================

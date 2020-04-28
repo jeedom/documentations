@@ -100,17 +100,11 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 >
 > Debian 9 (Stretch) es la distribución ofaquíalmente compatible para la versión 3.1.5 de la libertad.
 
-**1 / Descargue la última imagen "lite", es decir, sin interfaz gráfica**
+**1 / Descargue la última imagen "lite", es decir, sin interfaz gráfica** [aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-[Aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
+**2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
 
-**2 / Descomprime la imagen con winrar**
-
-[aquí](http://www.win-rar.com)
-
-**3 / Grabar esta imagen en una SD con etcher, por ejemplo**
-
-[aquí](https://etcher.io/)
+**3 / Grabar esta imagen en una SD con etcher, por ejemplo** [aquí](https://etcher.io/)
 
 > **Nota**
 >
@@ -147,7 +141,7 @@ Nocesita saber la dirección IP de su PI. Varias soluciones :
 
 Establecer conexión
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Aquí](http://www.putty.org/)
+Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.. .
 
@@ -256,17 +250,14 @@ Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](http
 Etapa 1 : Descargue e instale ware Player
 ---
 
-Debes descargar el software Virtual Box
-[Aquí](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Etapa 2 : Descargar una imagen de Strecht de Debian - netinstall
 ---
 
-Descargue una imagen minimalista de Debian 9 Stretch
-[Aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Descargue el paquete de extensión e instálelo.
-[Aquí](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Etapa 3 : Configurar el entorno 
 ---
@@ -565,7 +556,7 @@ Luego en "Agregar una carpeta"
 > -  : permite cambiar el puerto predeterminado (22) para escuchar ssh
 > -  : indica que la red está en modo host
 
-> **Importantee**
+> **Importante**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predeterminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable  en 1
 

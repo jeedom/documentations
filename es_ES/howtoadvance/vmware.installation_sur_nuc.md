@@ -1,24 +1,24 @@
-Aquí hay un tutorial para instaelr VMware en un Intel NUC (gen6). Nosotros
+Aquí hay un tutorial para instaelr VMware en un  (gen6). Nosotros
 luego veremos cómo agregar Jeedom en él
 
 El material 
 ===========
 
-Intel NUC 
+ 
 ---------
 
-Intel NUC es una PC pequeña, no el más potente, pero muy económica
+ es una PC pequeña, no el más potente, pero muy económica
 energía y pequeñas dimensiones. Esto lo convierte en un mesero perfecto
 virtualización basada en VMware.
 
 Actualmente hay 2 NUC de 6ta generación (els otras funcionan
 también para VMware pero requiere controeldores adaquíonales en el
-Núcleo de VMware):
+Núcleo de :
 
--   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 hilos - Caché 3 MB -
-    TDP 15W)
+-   .3 GHz - - 4 hilos - Caché 3 MB -
+    
 
--   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 hilos -
+-   ..9 GHz - 4 hilos -
     Caché 4 MB)
 
 El i5 es significativamente más potente porque tiene un poco más de memoria caché
@@ -34,22 +34,22 @@ Además, hay 2 tipos de casos :
 
 Eso hace 4 referencias :
 
--   i3 M2 : [Intel NUC
+-    : 
     NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
 
--   i3 M2 + 2.5 pulgadas : [Intel NUC
+-   .5 pulgadas : 
     NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
 
--   i5 M2 : [Intel NUC
+-    : 
     NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
 
--   i5 M2 + 2.5 pulgadas : [Intel NUC
+-   .5 pulgadas : 
     NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
-SSD 
+ 
 ---
 
-Tienes que agregar un SSD y memoria. SSD nivel I usted
+Tienes que agregar un  y memoria.  nivel I usted
 recomienda 240 GB o más, a menos que tome el modelo con un
 ubicación 2.5 pulgadas (que le permite poner un disco duro adaquíonal)
 o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
@@ -61,19 +61,19 @@ este 40GB para VMware se llena rápidamente.
 > VMware no admite agregar discos USB, por lo que es difícil
 > para ampliar el espacio disponible
 
--   [LDLC SSD M.2 2280 F6 PLUS 120
+-   [LDLC  M.2 2280 F6 PLUS 120
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung SSD 850 EVO 120 Go
+-   [Samsung  850 EVO 120 Go
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC SSD M.2 2280 F6 PLUS 240
+-   [LDLC  M.2 2280 F6 PLUS 240
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung SSD 850 EVO 250 Go
+-   [Samsung  850 EVO 250 Go
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC SSD M.2 2280 F6 PLUS 480
+-   [LDLC  M.2 2280 F6 PLUS 480
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Memoria 
@@ -159,9 +159,9 @@ Desempacando y ensambelndo el NUC
 
 Estos son los 3 componentes para mi NUC :
 
--   Intel NUC NUC6I5SYH
+-   
 
--   Samsung SSD 850 EVO 250 Go M.2
+-   
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
@@ -186,7 +186,7 @@ el NUC:
 
 ![instaleltion.vmware.nuc7](images/instaleltion.vmware.nuc7.jpg)
 
-El SSD instaeldo (a el izquierda), el tornillo final para bloquearlo es un
+El  instaeldo (a el izquierda), el tornillo final para bloquearlo es un
 difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
 ![instaleltion.vmware.nuc8](images/instaleltion.vmware.nuc8.jpg)
@@ -196,7 +196,7 @@ Instaelción de memoria (derecha) :
 ![instaleltion.vmware.nuc10](images/instaleltion.vmware.nuc10.jpg)
 
 Y ahí estás, puedes cerrar (a menos que, por supuesto, hayas tomado un
-SSD 2.5 pulgadas que se deben insertar en el cubierta en este caso).
+.5 pulgadas que se deben insertar en el cubierta en este caso).
 
 Instaelción de VMware 
 ======================
@@ -213,7 +213,7 @@ solo :
 > Olvidé capturar el validación de el licencia,
 > solo acepta seguir els instrucciones
 
-Aquí seleccione el disco correspondiente a el SSD (puede
+Aquí seleccione el disco correspondiente a el  (puede
 identificar ya sea por nombre o por tamaño)
 
 ![instaleltion.vmware.nuc13](images/instaleltion.vmware.nuc13.jpg)
@@ -248,4 +248,4 @@ Por lo demás aquí hay un
 para el creación de tu primera VM. Y encontrarás
 [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 Un tutorial de consejos y trucos (por ejemplo, para poner su licencia
-VMware)
+

@@ -44,16 +44,16 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C + 50 ° C
 
--   Dimensions : 52x28x12mm
+-    : 
 
--   Degree of protection : IP40
+-   Degree of protection : 
 
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark : 
 
--   Name : ETC4
+-   Name : 
 
 General configuration 
 ======================
@@ -72,13 +72,13 @@ The trends
 
 Control and centralize your On / Off lights and dimmers,
 opening, motors, on the same key or on 2 separate buttons. The
-e-Trendy remote controls have 2 operating modes, MODE 1 and MODE 2
+e-Trendy remote controls have 2 operating modes,  and 
 :
 
--   MODE 1 : 1-button control : On / Off, Open / Close,
+-    : 1-button control : On / Off, Open / Close,
     Variation + / Variation-, Impulse
 
--   MODE 2 : Control on 2 keys :
+-    : Control on 2 keys :
 
     -   UP keys: Stop, Close, Variation-, Impulse
 
@@ -95,7 +95,7 @@ keys ", this is how the remote control works :
 Change mode 
 ===============
 
--   MODE 1 :
+-    :
 
     -   Press and hold the "C4 key"
 
@@ -104,7 +104,7 @@ Change mode
 
 ![mode1](images/etc4/mode1.jpg)
 
--   MODE 2 :
+-    :
 
     -   Press and hold the "C4 key"
 
@@ -134,13 +134,13 @@ associated with the module :
 
 Here is the list of commands :
 
--   bt01 : It is the command that allows you to interact with button 1
+-    : It is the command that allows you to interact with button 1
 
--   bt02 : It is the command which allows to interact with button 2
+-    : It is the command which allows to interact with button 2
 
--   bt03 : It is the command which allows to interact with the button 3
+-    : It is the command which allows to interact with the button 3
 
--   bt04 : It is the command that allows you to interact with button 4
+-    : It is the command that allows you to interact with button 4
 
 -   Drums : Indicates the battery status
 

@@ -9,7 +9,7 @@ Instalación de Monit
 
 Aquí están los comandos para iniciar la instalación de monit :
 
-    sudo apt-get -y monit
+    
 
 Ejemplos de conf 
 ================
@@ -25,10 +25,10 @@ Supervisión Apache
         detener programa = "/ etc / init.d / apache2 stop"
            si falla el puerto 80 durante 2 ciclos, reinicie
 
-Supervisión Nginx (incluido Php-fpm) 
+Supervisión Nginx (incluido ) 
 =====================================
 
-    # Php-fpm
+    # 
     compruebe el proceso php5-fpm con pidfile /var/run/php5-fpm.pid
        programa de inicio = "/ etc / init.inicio d / php5-fpm"
        detener programa = "/ etc / init.parada d / php5-fpm"
@@ -50,7 +50,7 @@ Supervisión MySQL
        programa de inicio = "/ etc / init.d / mysql start"
        detener programa = "/ etc / init.d / mysql stop"
            si falla
-           unixsocket /var/run/mysqld/mysqld.sock
+           
            luego alerta
 
 Supervisión APCupsd 

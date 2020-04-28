@@ -44,16 +44,16 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 ° C + 50 ° C
 
--   Dimensiones : 52x28x12mm
+-   Dimensiones : 
 
--   Grado de protección : IP40
+-   Grado de protección : 
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer : 
 
--   Nombre : ETC4
+-   Nombre : 
 
 Configuración general 
 ======================
@@ -134,13 +134,13 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   bt01 : Es el comando que te permite interactuar con el botón 1
+-    : Es el comando que te permite interactuar con el botón 1
 
--   bt02 : Es el comando que permite interactuar con el botón 2
+-    : Es el comando que permite interactuar con el botón 2
 
--   bt03 : Es el comando que permite interactuar con el botón 3
+-    : Es el comando que permite interactuar con el botón 3
 
--   bt04 : Es el comando que te permite interactuar con el botón 4
+-    : Es el comando que te permite interactuar con el botón 4
 
 -   Batería : Indica el estado de la batería.
 

@@ -3,33 +3,33 @@ Paquetes utiles
 
 Aquí hay algunos paquetes útiles para instalar en blanco. :
 
--   **fail2ban** : Le permite prohibir las IP que intentan conectarse
+-   **** : Le permite prohibir las IP que intentan conectarse
     maquina.
 
--   **vim** : Es un editor de texto de línea de comando, puedes
+-   **** : Es un editor de texto de línea de comando, puedes
     también reemplazarlo con nano o muchos otros.
 
 -   **herramientas de red** : colección de programas para administrar la red
 
--   **dos2unix** : herramienta de conversión de texto
+-   **** : herramienta de conversión de texto
 
 <!-- -->
 
-    apt-get install -y vim fail2ban herramientas de red dos2unix
+    
 
 Si está en VMware, puede agregar herramientas adicionales
 :
 
-    apt-get install -y open-vm-tools
+    
 
 Colorea la consola 
 ====================
 
 Si quieres que tu consola (bash) use colores :
 
-    rm -rf /root/.bashrc
+    
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / bashrc -O /root/.bashrc
-    dos2unix /root/.bashrc
+    
 
 Permitir inicio de sesión raíz en SSH 
 ==================================
@@ -40,19 +40,19 @@ Edite el archivo / etc / ssh / sshd \ _config y cambie :
 
 Por :
 
-    PermitRootLogin yes
+    
 
 > **Importante**
 >
 > Asegúrese de usar una contraseña de root segura ! El uso de
-> fail2ban también se recomienda.
+>  también se recomienda.
 
 Monta una parte de Samba 
 =======================
 
 Instalación del paquete cifs
 
-    apt-get install -y cifs-utils
+    
 
 Crea el punto de montaje :
 
@@ -123,14 +123,14 @@ MYSQL, bajo Estiramiento :
     Ingrese contraseña:
     Bienvenido al monitor MariaDB.  Los comandos terminan con; o \ g.
     Su ID de conexión MariaDB es 2
-    Versión del servidor: 10.1.21-MariaDB-5 Debian 9.0
+    Versión del servidor: 10.1.
     Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab y otros.
     Escriba "ayuda"; o '\ h' para ayuda. Escriba '\ c' para borrar la declaración de entrada actual.
 
-    MariaDB [mysql]>
-    MariaDB [mysql]> OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
+    ]>
+    ]> OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
     Consulta OK, 0 filas afectadas (0.00 segundos)
-    MariaDB [mysql]> salir;
+    ]> salir;
     Adios
 
 > **Punta**
@@ -181,32 +181,32 @@ Método 1 : Actualización (menos posibilidades de éxito)
 
 Actualización del sistema operativo en la versión Jessie.
 
-    apt-get -y update
+    
     actualización de apt-get -y
-    apt-get -y dist-upgrade
+    
 
 Edite el archivo / etc / apt / sorces.enumerar y reemplazar todo
 Jessie by Stretch, con copia de seguridad de archivos previa, haciendo :
 
-    cp / etc / apt / sorces.list /etc/apt/sorces.list_backup
+    cp / etc / apt / sorces.
     sed -i 's / jessie / stretch / g' /etc/apt/sorces.list
 
 Actualización del sistema operativo en la versión Stretch.
 
-    apt-get -y update
+    
     actualización de apt-get -y
-    apt-get -y dist-upgrade
+    
 
 Cambiar a MariaDB.
 
-    apt-get -y install mariadb-server mariadb-client mariadb-common
+    
 
 Actualización de Jeedom
 
-    sh / var / www / html / install / install.sh -s 2
-    sh / var / www / html / install / install.sh -s 5
-    sh / var / www / html / install / install.sh -s 7
-    sh / var / www / html / install / install.sh -s 10
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
 
 Eliminación de bibliotecas innecesarias.
 
@@ -215,6 +215,6 @@ Eliminación de bibliotecas innecesarias.
 
 Nota : Si cuando abres tu página de Jeedom obtienes un código php, actívalo ejecutando los siguientes comandos :
 
-    a2enmod php7.0 
-    systemctl restart apache2.service
+     
+    
 

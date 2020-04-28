@@ -44,7 +44,7 @@ Hinweis: Denken Sie daran, eine Jeedom-Konfigurationssicherung (lokal) beiseite 
 
 8- Finden Sie Ihren Smart im Netzwerk
 
-9- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin
+9- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : 
 
 > **Wichtig**
 >

@@ -61,7 +61,7 @@ Jeedom interface on the Jeedom Market.
 Also, don't forget that you have 2 coupons
 (sent by email), allowing you to install 2 paid plugins
 for free (RFXCOM and Alarm). To use it you must create a
-account on the Jeedom Market, see the documentation : [Doc
+account on the Jeedom Market, see the documentation : 
 Market](https://doc.jeedom.com/en_US/premiers-pas/index).
 
 In the email you received, the Service number also appears
@@ -77,7 +77,7 @@ Which will allow you to find the IP address of your Jeedom Mini + and
 log in to start setting up and using it.
 
 To further explore and use Jeedom, you have
-complete documentation : [Documentation
+complete documentation : 
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
 les tutoriels vidéos : [Tutos vidéos](https://doc.jeedom.com/en_US/presentation/index#tocAnchor-1-3).
 Do not hesitate to go to the Jeedom Forum for any other

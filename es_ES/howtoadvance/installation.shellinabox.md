@@ -9,7 +9,7 @@ Instalación de Shellinabox
 
 Aquí está el comando para iniciar la instalación de Shellinabox :
 
-    sudo apt-get -y shellinabox
+    
 
 Proxy inverso de Apache 
 ====================
@@ -34,6 +34,6 @@ con el contenido a continuación y luego reinicie Nginx
     proxy_pass http://127.0.0.1:4200;
     proxy_set_header Host $ host;
     proxy_buffering desactivado;
-    tcp_nodelay on;
+    
     acceso_log desactivado;
     }

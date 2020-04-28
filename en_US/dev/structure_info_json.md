@@ -12,26 +12,26 @@ Fields                   | Values                                               
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Id *                     | Unique Identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
 name *                   | Plugin name.                                                                                                            |
-Description *            | Description of the plugin, as it will be displayed on the Jeedom Market Minimum 80 characters. (` <br/> `for the line break.)                                  |                                                                                     |
+Description *            | Description of the plugin, as it will be ed on the Jeedom Market Minimum 80 characters. (` <br/> `for the line break.)                                  |                                                                                     |
 use                    | Additional Information to the Documentation on the use of the plugin.                                                    |
 Licence *                | Type of license.                                                                                                          |
-author *                 | Name of the plugin author, as it will be displayed once the plugin is installed, in the plugin Information.         |
-require *                | Jeedom minimum version.                                                                                                |
+ *                 | Name of the plugin , as it will be ed once the plugin is installed, in the plugin Information.         |
+ *                | Jeedom minimum version.                                                                                                |
 category *               | Ranking category of the plugin on the Jeedom Market. **It is essential to respect the nomenclature in the table below** |
-display                  | if the plugin uses a dedicated panel on the desktop, it is the name of the main file of this panel.                    |
+                  | if the plugin uses a dedicated panel on the desktop, it is the name of the main file of this panel.                    |
 Mobile                   | If the plugin uses a dedicated panel on the Jeedom webApp, this is the name of the main file for this panel.   |
 Changelog *              | Html link to Changelog.                                                                                              |
 Documentation *          | Html link to plugin Documentation.                                                                                |
-link -> vIdeo               | Html link to a vIdeo presentation.                                                                                 |
-link -> forum               | Html link to the forum on the official subject of the plugin.                                                                  |
-languages                | List of languages available for the plugin:french, english, german, italian, spanish, russian, indonesian            |
-compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, Mobileapp.                                                   |
-hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
-maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
-issue                    | URL to the bugtracker if external (if not filled then you will receive an email)
+               | Html link to a vIdeo presentation.                                                                                 |
+               | Html link to the forum on the official subject of the plugin.                                                                  |
+                | List of  available for the plugin:french, english, german, italian, spanish, russian, indonesian            |
+            | Plugin : .                                                   |
+            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+ | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
+                    | URL to the bugtracker if external (if not filled then you will receive an email)
 
-**Example** :
+**Example**:
 
 [Plugin-template file / plugin_Info / Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
 
@@ -43,19 +43,19 @@ issue                    | URL to the bugtracker if external (if not filled then
 Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
 Communication         | Communication           |
-Comfort               | wellness                |
-Energy               | energy                  |
-Weather                 | weather                 |
+Comfort               |                 |
+Energy               |                   |
+Weather                 |                  |
 Monitoring            | monitoring              |
 Multimedia            | Multimedia              |
 Nature                | Nature                  |
-Connected objects      | deviceCommunication     |
-Organization          | organization            |
-Home automation gateway  | home automation protocol|
-Programming         | programming             |
-Home automation protocol   | automation protocol     |
+Connected objects      |      |
+Organization          |             |
+Home automation gateway  | |
+Programming         |              |
+Home    |      |
 Health                 | health                  |
-Security              | security                |
+Security              |                 |
 Automatism           | automating          |
 
 
@@ -68,7 +68,7 @@ Automatism           | automating          |
   
 
 
-  
+ 
 
     
 

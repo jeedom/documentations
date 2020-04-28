@@ -4,12 +4,12 @@ Standardmäßig ist dies im Modem-Modus konfiguriert, um mit dem SMS-Plugin komp
 1. Löschen der Standardkonfiguration 
 =============================================
 
-> sudo rm /etc/udev/rules.d/40-modemswitch.rules
+> 
 
 2. Fügen Sie die Konfiguration hinzu 
 ============================
 
-> sudo nano /etc/usb_modeswitch.conf
+> 
 
 dann füge dies hinzu :
 

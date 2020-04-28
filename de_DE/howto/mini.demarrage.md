@@ -61,7 +61,7 @@ Jeedom-Schnittstelle auf dem Jeedom-Markt.
 Vergessen Sie auch nicht, dass Sie 2 Gutscheine haben
 (per E-Mail gesendet), sodass Sie 2 kostenpflichtige Plugins installieren können
 kostenlos (RFXCOM und Alarm). Um es zu verwenden, müssen Sie eine erstellen
-Konto auf dem Jeedom Market, siehe Dokumentation : [Doc
+Konto auf dem Jeedom Market, siehe Dokumentation : 
 Market](https://doc.jeedom.com/de_DE/premiers-pas/index).
 
 In der E-Mail, die Sie erhalten haben, wird auch die Servicenummer angezeigt

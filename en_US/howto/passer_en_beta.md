@@ -7,7 +7,7 @@
 >
 > Beta versions are often unstable and can cause
 > many concerns, it is important not to put them on a system of
-> production. IN CASE OF CONCERN, THE JEEDOM TEAM WILL NOT BE AND CANNOT
+> . IN CASE OF CONCERN, THE JEEDOM TEAM WILL NOT BE AND CANNOT
 > NOT BE HELD RESPONSIBLE.
 
 > **NOTE**

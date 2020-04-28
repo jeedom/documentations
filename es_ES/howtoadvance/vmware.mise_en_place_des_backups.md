@@ -30,14 +30,14 @@ Instalación de GhettoVCB
 =========================
 
 Debemos recuperar esto
-[Guión](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
+[Guión](https://raw.githubusercontent.com/lamw//master/.sh)
 y transferirlo al ESXi (en el mismo almacén de datos que el que va
 bienvenidos respaldos por ejemplo).
 
 > **Nota**
 >
 > En el resto de este tutorial considero que has puesto el Guión
-> ghettoVCB.sh en / vmfs / volume / Backup / ghettoVCB.sh. Depende de usted adaptarse
+> .sh en / vmfs / volume / Backup / .sh. Depende de usted adaptarse
 > dependiendo de su configuración, los comandos / Guións provistos.
 
 Conexión en ssh 
@@ -60,7 +60,7 @@ Creación de archivo de configuración
 > la copia de seguridad tiene ruta / vmfs / volume / Backup, tenga cuidado de cambiar si
 > este no es el caso contigo
 
-En el almacén de datos de respaldo debe crear un archivo ghettoVCB.conf quien
+En el almacén de datos de respaldo debe crear un archivo .conf quien
 contiene :
 
     VM_BACKUP_VOLUME = / vmfs / volume / Backup /
@@ -85,11 +85,11 @@ contiene :
     EMAIL_SERVER = auroa.primp-industries.com
     EMAIL_SERVER_PORT = 25
     EMAIL_DELAY_INTERVAL = 1
-    EMAIL_TO=auroa@primp-industries.com
-    EMAIL_FROM = root @ ghettoVCB
+    
+    EMAIL_FROM = root @ 
     WORKDIR_DEBUG = 0
-    VM_SHUTDOWN_ORDER=
-    VM_STARTUP_ORDER=
+    =
+    =
 
 Los parámetros que debe adaptar son :
 
@@ -101,7 +101,7 @@ Los parámetros que debe adaptar son :
 >
 > Puedes consultar
 > [ici](https://communities.vmware.com / docs / DOC-8760) documentación
-> completo de ghettoVCB con una descripción de cada parámetro
+> completo de  con una descripción de cada parámetro
 
 > **Importante**
 >
@@ -115,7 +115,7 @@ Aquí vamos a lanzar una primera copia de seguridad inicial de todas las máquin
 ver si todo está bien. A partir de entonces lo programaremos automáticamente.
 Regrese al ESXi en SSH (vuelva a conectar si es necesario) y haga :
 
-    / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    
 
 Esto lanzará una copia de seguridad de todas sus máquinas virtuales (y, por lo tanto, puede tomar mucho
 de tiempo). Al final, debe tener en su almacén de datos de respaldo un
@@ -138,19 +138,19 @@ Aquí hay otra posibilidad para la línea de comando :
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -d dryrun -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    
 
 -   Iniciar en modo de depuración :
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -d debug -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    
 
 -   Copia de seguridad solo de la VM "toto"
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -m toto -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    
 
 Lanzamiento automático de respaldo 
 =================================
@@ -161,12 +161,12 @@ evite esto, por lo que debe agregar un pequeño Guión que actualizará el
 crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
 
-    vi /etc/rc.local.d/local.sh
+    
 
 Y antes de "salir 0" agregue las siguientes líneas :
 
     / bin / kill $ (cat /var/run/crond.pid)
-    / bin / echo "0 0 1 * * / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
+    /bin/echo "0 0 1 * *  >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     / usr / lib / vmware / busybox / bin / busybox crond
 
 > **Nota**
@@ -179,15 +179,15 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > Aquí hago una copia de seguridad de todas las máquinas virtuales, puede adaptar esto
 > reemplazando -a con -m ma \ _vm, tenga cuidado si quiere poner
 > varias máquinas virtuales debe duplicar la línea "/ bin / echo" 0 0 1 \* \*
-> / vmfs / volume / Backup / ghettoVCB.sh -a -g
-> / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
+> / vmfs / volume / Backup / .
+>  &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "y coloca uno por VM para hacer una copia de seguridad
 
 > **Importante**
 >
 > No olvide adaptar la ruta al archivo de configuración de
-> ghettoVCB según su configuración :
-> / vmfs / volume / Backup / ghettoVCB.conf
+>  según su configuración :
+> 
 
 Ultimo paso: debe reiniciar su ESXi para que se tome el cron
 en cuenta, puede ver el resultado haciendo (siempre en SSH) :
@@ -196,4 +196,4 @@ en cuenta, puede ver el resultado haciendo (siempre en SSH) :
 
 Aquí debes tener una línea :
 
-    0 0 1 * * / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf> / dev / null 2> & 1
+    0 0 1 * *  >/dev/null 2>&1

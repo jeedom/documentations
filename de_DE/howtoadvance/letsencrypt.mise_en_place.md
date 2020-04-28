@@ -4,10 +4,10 @@ Installation von Letsencrypt
 Hier sind die Befehle, die gestartet werden müssen, um letsencrypt vor dem zu installieren
 Generation :
 
-    apt-get install -y git
+    
     cd / opt
     git clone https://github.com/letsencrypt/letsencrypt
-    cd letsencrypt
+    
     ./ letsencrypt-auto --help
 
 Um ein Zertifikat anzufordern, müssen Sie den Namen haben
@@ -35,8 +35,8 @@ Aktivierung des virtualHost- und SSL-Moduls
 >
 > Schließen Sie SSH an der Jeedom-Box an.
 
-    a2enmod ssl
-    a2ensite default-ssl.conf
+    
+    
     apache2 Neustartdienst
 
 > **Notiz**
@@ -44,7 +44,7 @@ Aktivierung des virtualHost- und SSL-Moduls
 > Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
 > in HTTPS ist von außen nicht erreichbar.
 
-    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d Domain.com
+    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.
 
 Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
 durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
@@ -53,11 +53,11 @@ werden vom Skript in Apache hinzugefügt.
 > **Notiz**
 >
 > Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
-> Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
-> Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
+> Sie können virtualHost deaktivieren **.** mit dem
+> Befehl **.** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
 > Erneuerung :
-> /etc/apache2/sites-available/000-default-le-ssl.conf\`
+> /etc/apache2/sites-available/000-default-le-ssl.\`
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
@@ -67,17 +67,17 @@ werden vom Skript in Apache hinzugefügt.
     </Directory>
     </VirtualHost>
 
-Konfiguration von Nginx 
+Konfiguration von  
 ======================
 
 Dieser Befehl darf nur verwendet werden, wenn Sie einen Webserver haben
-Nginx.
+.
 
-    ./ letsencrypt-auto certonly - E-Mail email @ domain.com -d Domain.com -a webroot --webroot-path / usr / share / nginx / www /
+    ./ letsencrypt-auto certonly - E-Mail email @ domain. -a webroot --webroot-path / usr / share / nginx / www /
 
 Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
 sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen
-zwei HTTPS-Konfigurationszeilen in der Nginx-Konfiguration :
+zwei HTTPS-Konfigurationszeilen in der -Konfiguration :
 
     vi / etc / nginx / sites-enabled / default
 
@@ -92,11 +92,11 @@ Fügen Sie die folgenden Zeilen zwischen den Zeilen `server {` und ein
 
     ssl_certificate_key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
 
-    ssl_session_timeout 5m;
+    
 
-Und schließlich starten Sie den Nginx-Server neu.
+Und schließlich starten Sie den -Server neu.
 
-    Service Nginx Neustart
+    Service  Neustart
 
 Erneuerung 
 ==============
@@ -114,18 +114,18 @@ Automatische Methode
 Es ist immer noch besser, wenn es automatisch ist. Um dies zu tun, hier sind die
 Schritte zu folgen :
 
--   Installieren **bc**, wird im Skript le-erneuern verwendet :
+-   Installieren ****, wird im Skript le-erneuern verwendet :
 
 <!-- -->
 
-    apt-get install -y bc
+    
 
 -   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei).
     :
 
 <!-- -->
 
-    nano /bin/certletsencryptrenew.sh
+    
 
 -   Geben Sie die folgenden Zeilen in die zuvor erstellte Datei ein.
     Kopieren / Einfügen funktioniert über Kitt. Dieses Skript prüft
@@ -151,13 +151,13 @@ Schritte zu folgen :
 
 <!-- -->
 
-    crontab -e
+    
 
 -   Wir fügen die folgende Zeile hinzu :
 
 <!-- -->
 
-    0 5 * * 1 /bin/certletsencryptrenew.sh
+    
 
 > **Wichtig**
 >

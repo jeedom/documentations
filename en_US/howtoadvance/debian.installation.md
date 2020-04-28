@@ -168,7 +168,7 @@ Optimizations :
 Add vim and sudo 
 -------------------
 
-    sudo apt-get install -y vim sudo
+    
 
 Add fail2ban 
 ----------------
@@ -178,7 +178,7 @@ in the event of too many connection failures it blocks access to
 the IP in question (therefore not to everyone, only to the attacker) a
 time.
 
-    sudo apt-get install -y fail2ban
+    
 
 Add the Open VMware Tools 
 -----------------------------
@@ -187,7 +187,7 @@ Open VMware Tools install system-specific drivers
 installed and bring the optimizations of this hosted OS
 on an ESXi hypervisor.
 
-    sudo apt-get install -y open-vm-tools
+    
 
 You just have to install Jeedom by following
 [this](https://doc.jeedom.com/en_US/installation/index#tocAnchor-1-27)

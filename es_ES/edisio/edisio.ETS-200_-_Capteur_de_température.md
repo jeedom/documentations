@@ -53,16 +53,16 @@ Características técnicas
 
 -   Rango en campo libre : 100 millones
 
--   Dimensiones : 25x79x19mm
+-   Dimensiones : 
 
--   Grado de protección : IP20
+-   Grado de protección : 
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer : 
 
--   Nombre : ETS-200
+-   Nombre : 
 
 Configuración general 
 ======================

@@ -35,7 +35,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 > **Spitze**
 >
-> .  ****. Vous pouvez retrouver la liste des plugins [hier](http://market.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
+> Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**. Vous pouvez retrouver la liste des plugins [hier](http://market.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
 
 > **Spitze**
 >
@@ -54,24 +54,24 @@ Jeedom mini +
 
 > **Spitze**
 >
-> 
+> Der Name des Jeedom-Bildes kann sich von dem der in dieser Dokumentation vorgenommenen Aufnahmen unterscheiden
 
 Stufe 1 : Etcher Installation
 ---
 
-Vous devez télécharger le logicel Etcher [hier](https://etcher.
+Vous devez télécharger le logicel Etcher [hier](https://etcher.io/) dann installiere es auf deinem PC
 
 Stufe 2 : Jeedom Bildwiederherstellung
 ---
 
-Vous devez aller [hier](https://images.jeedom.
+Vous devez aller [hier](https://images.jeedom.com / jeeboard/), dann im Ordner Images das Bild jeedom-jeeboard - \*. rar wiederherstellen
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Stufe 3 : Das Jeedom-Bild dekomprimieren
 ---
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar. :
+Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)) müssen Sie erhalten :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -80,7 +80,7 @@ Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous 
 Schritt 4 : Brennen Sie das Bild auf die SD-Karte
 ---
 
-Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, geben Sie den Pfad des Bildes und den Pfad der SD-Karte ein und klicken Sie auf "Fla"!". .
+Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, geben Sie den Pfad des Bildes und den Pfad der SD-Karte ein und klicken Sie auf "Fla"!". Die Software brennt die SD-Karte und überprüft das Brennen.
 
 Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Tu es nichttzwerk und die Stromversorgung verbinden, Ihr Jeedom startet (5 Minuten) und Sie sollten es im Tu es nichttzwerk sehen.
 
@@ -100,41 +100,35 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 >
 > Debian 9 (Stretch) ist die offiziell unterstützte Distribution für Version 3.1.5 der Freiheit.
 
-**1 / Laden Sie das letzte "Lite" -Bild herunter, dh ohne grafische Oberfläche**
+**1 / Laden Sie das letzte "Lite" -Bild herunter, dh ohne grafische Oberfläche** [hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-[Hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
+**2 / Dekomprimieren Sie das Bild mit winrar** [hier](http://www.win-rar.com)
 
-**2 / Dekomprimieren Sie das Bild mit winrar**
-
-[hier](http://www.win-rar.com)
-
-**3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD**
-
-[hier](https://etcher.io/)
+**3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD** [hier](https://etcher.io/)
 
 > **Notiz**
 >
-> .
+> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt)..
 
 **4 / Aktivieren Sie den -Zugriff**
 
 > **Warnung**
 >
-> . Also musst du es aktivieren.
+> Aus Sicherheitsgründen ist der -Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Also musst du es aktivieren.
 
-.
+Auf der Boot-Partition muss eine leere -Datei erstellt werden (die einzige, auf die unter Windows zugegriffen werden kann)..
 
-Klicken Sie einfach mit der rechten Maustaste : " **ohne Verlängerung**
+Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne es in "s" um" **ohne Verlängerung**
 
 > **Wichtig**
 >
-> 
+> Unter Windows müssen Sie daher im Explorer Ihre Konfiguration in Anzeige / Optionen / Ordner ändern und Suchoptionen ändern /
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
 **5 / Starten Sie den PI**
 
-.
+Legen Sie Ihre SD-Karte ein, schließen Sie das Tu es nichttzwerkkabel an und schließen Sie die Stromversorgung an.
 
 **6 / Mit  verbinden**
 
@@ -147,15 +141,15 @@ Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
 Verbindung herstellen
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Hier](http://www.putty.org/)
+Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
 
-Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.. .
+Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn Sie sich zum ersten Mal anmelden.
 
 Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 > **Wichtig**
 >
-> . . (Befehl nichtswd und sudo nichtswd)
+> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares der Himbeere basieren. (Befehl nichtswd und sudo nichtswd)
 
 **7 / Starten Sie das Jeedom-Installationsskript**
 
@@ -165,7 +159,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 > **Notiz**
 >
-> . . Andernfalls müssen Sie den gesamten Vorgang wiederholen.
+> Abhängig von Ihrer Internetgeschwindigkeit kann die Installation 45 bis 90 Minuten dauern. Sie dürfen den Vorgang nicht vor dem Ende unterbrechen. Andernfalls müssen Sie den gesamten Vorgang wiederholen.
 
 Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
@@ -175,7 +169,7 @@ Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
 > **Notiz**
 >
-> Die folgenden Argumente können verwendet werden : -
+> Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
 
 ````
 ./install. -w /var/www/html -z -m Jeedom
@@ -251,22 +245,19 @@ Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](h
 
 ==
 
-.  :
+Wenn Sie Jeedom ohne Risiko entdecken möchten, können Sie es auch auf Ihrem PC virtualisieren. Gehen Sie wie folgt vor. Sie gehen in einer  kein Risiko ein, die Integrität Ihres PCs ist geschützt :
 
 Stufe 1 : Laden Sie den ware Player herunter und installieren Sie ihn
 ---
 
-Sie müssen die Virtual Box-Software herunterladen
-[Hier](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Stufe 2 : Herunterladen eines Debian-Strecht-Images - netinstall
 ---
 
-Laden Sie ein minimalistisches Debian 9 Stretch-Bild herunter
-[Hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Laden Sie das Erweiterungspaket herunter und installieren Sie es.
-[Hier](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stufe 3 : Konfigurieren der -Umgebung
 ---
@@ -275,11 +266,11 @@ Klicken Sie auf Tu es nichtu und füllen Sie die Felder wie folgt aus :
 
 ![VirtualBox1](images/VirtualBox1.PNG)
 
--   
+-   Klicken Sie auf Weiter und nichtsen Sie die Speichergröße an Ihr System an (1024 sind ausreichend).
 -   Klicken Sie auf Weiter und erstellen Sie jetzt eine virtuelle Festplatte
 -   Klicken Sie auf Erstellen und wählen Sie VDI
 -   Klicken Sie auf Weiter, dynamisch zugeordnet
--   
+-   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend).
 -   Klicken Sie auf Erstellen
 
 Schritt 4 : -Start
@@ -293,7 +284,7 @@ Schritt 4 : -Start
 ![VirtualBox2](images/VirtualBox2.PNG)
 
 -   Geben Sie das zuvor heruntergeladene Bild an
--   .
+-   Wählen Sie dann Tu es nichttzwerk und im Tu es nichttzwerkzugriffsmodus "Bridge-Zugriff".
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
@@ -302,23 +293,23 @@ Schritt 4 : -Start
 Schritt 5 : Debian 9 Installation
 ---
 
-
+Es ist klassisch ...
 
 ![VirtualBox4](images/VirtualBox4.PNG)
 
 -   Wählen Sie Grafische Installation
--   . Benutzername spielt keine Rolle. . .
+-   Installieren Sie den Debian vorzugsweise ohne grafische Oberfläche, da er unbrauchbar ist. Benutzername spielt keine Rolle. In den meisten Bildschirmen müssen Sie nur die Standardauswahl überprüfen. Sie können leere Felder lassen, es wird nicht blockiert.
 -   Zur Softwareauswahl :
 
 ![VirtualBox5](images/VirtualBox5.PNG)
 
--   .
+-   Machen Sie sich für Grub keine Sorgen, der Bootsektor ist der der , nicht der Ihres PCs. Keine Gefahr, etwas zu zerbrechen.
 
 Schritt 6 : Jeedom Installation
 ---
 
 -   Starten Sie Ihre 
--   
+-   Identifizieren Sie sich mit dem Benutzer und dem Kennwort, die Sie während der Installation ausgewählt haben
 -   Gehen Sie root
 
 ``su``
@@ -344,11 +335,11 @@ Schritt 7 : Jeedom starten
 ip -s -c -h a
 ````
 
-Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. .
+Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. Geben Sie es einfach in Ihren Browser ein.
 
 > **Warnung**
 >
-> .
+> Wenn dies nicht funktioniert, haben Sie Ihre Tu es nichttzwerkkarte nicht wie zu Beginn angegeben als Tu es nichttzwerkbrücke konfiguriert.
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
@@ -359,7 +350,7 @@ Docker
 >
 > Bitte beachten Sie, dass wir hier davon ausgehen, dass Sie mit Docker bereits vertraut sind
 
- :
+Um Jeedom zu entdecken, können Sie es auch in einem Docker-Container drehen :
 
 Stufe 1 : Docker-Installation
 ---
@@ -386,7 +377,7 @@ Stufe 2 : Installieren eines MySQL-Images
 
 > **Notiz**
 >
-> .
+> Sie können MySQL auch direkt auf dem Host-Computer installieren. In diesem Fall überspringen Sie diesen Schritt.
 
 J'utilise [celle-ci](https://hub.docker.com/_/mysql/). Um es zu installieren :
 
@@ -399,7 +390,7 @@ Dann starten Sie es :
 Mit :
 
 -    : der Name des MySQL-Containers
--   / opt / jeedom / mysql : 
+-   / opt / jeedom / mysql : Die Datei des Hosts, auf dem MySQL-Daten gespeichert werden müssen
 -   Ihr-MySQL-Passwort : das root-Passwort der MySql-Instanz
 
 Stufe 3 : Installieren eines Jeedom-Images
@@ -416,10 +407,10 @@ Starten Sie dann die :
 Mit :
 
 -   Jeedom-Server : Jeedom Docker Name gesucht
--   / dein / jeedom / Pfad : 
+-   / dein / jeedom / Pfad : Verzeichnis, in dem Jeedom-Daten auf dem Host abgelegt werden
 -   Ihr-root-Passwort : Root-Passwort für den Zugriff auf Jeedom in 
 
-Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP \ _DOCKER: :
+Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP \ _DOCKER:9080 und geben Sie die Verbindungsinformationen zu MySQL ein :
 
 ![install other](images/install_other.PNG)
 
@@ -432,7 +423,7 @@ Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](h
 Synologie
 ========
 
-.2 Minimum).
+Hier finden Sie Schritt für Schritt die Dokumentation zur Installation von Jeedom auf einer Synologie (DSM 5).2 Minimum).
 
 Stufe 1 : Docker-Installation
 ================================
@@ -451,12 +442,12 @@ Warten Sie, bis die Installation abgeschlossen ist :
 
 > **Wichtig**
 >
-> Um auf das Docker-Paket zugreifen zu können, benötigen Sie DSM 5.
+> Um auf das Docker-Paket zugreifen zu können, benötigen Sie DSM 5.2 und ein kompatibles NAS
 
 Stufe 2 : Wiederherstellung und Installation von Jeedom-Images
 ========================================================
 
-
+Sie benötigen Docker, um Jeedom auszuführen, das erste Docker Mysql, das die Datenbank enthält, und ein zweites, das Jeedom enthält
 
 Starten Sie die Docker-Anwendung :
 
@@ -469,15 +460,15 @@ Klicken Sie auf "Registrieren"" :
 
 ![install synology 5](images/install_synology_5.PNG)
 
- :
+Wählen Sie im Suchfeld "mysql" mysql aus und klicken Sie auf Download :
 
 ![install synology 15](images/install_synology_15.PNG)
 
- :
+Überprüfen Sie anschließend die Versionsanforderung. Tu es nichthmen Sie am besten die neueste Version :
 
 ![install synology 14](images/install_synology_14.PNG)
 
- :
+Klicken Sie dann auf das Bild. Hier können Sie den Fortschritt des Downloads verfolgen (kann einige zehn Minuten dauern). :
 
 ![install synology 16](images/install_synology_16.PNG)
 
@@ -485,7 +476,7 @@ Wenn Sie fertig sind, klicken Sie auf das Bild und starten Sie es :
 
 ![install synology 17](images/install_synology_17.PNG)
 
- :
+Geben Sie Ihrer MySQL einen Namen sowie einen lokalen Port, der an Port 3306 des Containers umgeleitet wird, und führen Sie dann die folgenden Schritte aus :
 
 ![install synology 18](images/install_synology_18.PNG)
 
@@ -497,15 +488,15 @@ Klicken Sie auf "Erweiterte Einstellungen"" :
 
 ![install synology 34](images/install_synology_34.PNG)
 
-
+Legen Sie dann unter "Ordner hinzufügen" den gewünschten Ordner auf der Synologieseite ab (in diesem Ordner befinden sich alle Dateien der Datenbank) und / var / lib / mysql auf der Containerseite (seien Sie vorsichtig mit Deaktivieren Sie "Schreibgeschützt".
 
 ![install synology 32](images/install_synology_32.PNG)
 
-" : ". Dann validieren :
+Klicken Sie auf "Umgebung", dann auf "Variable hinzufügen" und geben Sie "Variable" ein" : " \ _ROOT \ _PASSWORD "und geben Sie als Wert das gewünschte BDD-Passwort ein (es wird später verwendet). Dann validieren :
 
 ![install synology 33](images/install_synology_33.PNG)
 
-".
+Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und klicken Sie auf "Übernehmen"".
 
 Jeedom
 ------
@@ -514,13 +505,13 @@ Klicken Sie auf "Registrieren"" :
 
 ![install synology 5](images/install_synology_5.PNG)
 
- :
+Geben Sie im Suchfeld "jeedom" ein, wählen Sie jeedom / jeedom und klicken Sie auf Download :
 
 ![install synology 20](images/install_synology_20.PNG)
 
-.
+Überprüfen Sie dann die Versionsanforderung. Am besten nehmen Sie die letzte.
 
- :
+Klicken Sie dann auf das Bild. Hier können Sie den Fortschritt des Downloads verfolgen (kann einige zehn Minuten dauern). :
 
 ![install synology 21](images/install_synology_21.PNG)
 
@@ -528,7 +519,7 @@ Wenn Sie fertig sind, klicken Sie auf das Bild und starten Sie es :
 
 ![install synology 22](images/install_synology_22.PNG)
 
- :
+Geben Sie Ihrem Jeedom einen Namen sowie einen lokalen Port, der auf Port 80 (hier 9080) und einen auf 22 (hier 9022) des Containers umgeleitet wird, und führen Sie dann die folgenden Schritte aus :
 
 ![install synology 23](images/install_synology_23.PNG)
 
@@ -544,19 +535,19 @@ Dann auf "Ordner hinzufügen"
 
 ![install synology 26](images/install_synology_26.PNG)
 
-"
+Wählen Sie einen Ordner in Ihrer Synologie (in diesem Ordner befinden sich alle Jeedom-Dateien). Deaktivieren Sie das Kontrollkästchen "Schreibgeschützt""
 
 ![install synology 27](images/install_synology_27.PNG)
 
-" :
+Geben Sie im Pfad / var / www / html ein und klicken Sie auf "Umgebung"" :
 
 ![install synology 28](images/install_synology_28.PNG)
 
- :
+Aktivieren Sie "Container mit erhöhten Berechtigungen ausführen" und überprüfen Sie alles :
 
 ![install synology 29](images/install_synology_29.PNG)
 
-".
+Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und klicken Sie auf "Übernehmen"".
 
 > **Erweiterte Konfigurationseinstellung**
 >
@@ -572,36 +563,36 @@ Dann auf "Ordner hinzufügen"
 Stufe 3 : Jeedom Konfiguration
 ---
 
-:9080
+Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP \ _NAS:9080
 
 ![install synology 31](images/install_synology_31.PNG)
 
-.
+Füllen Sie die Felder entsprechend Ihrer Konfiguration aus (Konfiguration der zuvor installierten Docker-MySQL) und validieren Sie sie.
 
 > **Wichtig**
 >
-> . 
+> Die IP-Adresse des BDD ist die IP-Adresse des NAS, der Port ist der vom Docker Mysql umgeleitete, das Kennwort ist das im Docker Mysql eingegebene. Benutzername ist root und Basisname ist was immer Sie wollen (Jeedom empfohlen)
 
 ![install synology 30](images/install_synology_30.PNG)
 
 > **Spitze**
 >
-> . .
+> Wenn Sie -Zugriff wünschen, müssen Sie in Ports einen lokalen Port zu Port 22 des Containers umleiten. Die -Kennungen sind root / jeedom. Sie können das Kennwort ändern, indem Sie die Umgebungsvariable ROOT \ _PASSWORD auf den Wert des gewünschten Kennworts setzen.
 
 Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Andere
 ======
 
-
-
-> **Wichtig**
->
-> Debian 9 (Stretch) ist die offiziell unterstützte Distribution für Version 3.1.. .
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf den meisten Linux-Systemen (getestet und genehmigt in der Debian-Distribution).
 
 > **Wichtig**
 >
-> . .
+> Debian 9 (Stretch) ist die offiziell unterstützte Distribution für Version 3.1.7 von Jeedom (aber Jessie bleibt perfekt funktionsfähig). Wenn Sie Linux-Umgebungen nicht mindestens beherrschen, empfehlen wir Ihnen, ein offizielles Image (OVF) oder die Verwendung eines Mini + oder Smart (in Kürze verfügbar) zu verwenden..
+
+> **Wichtig**
+>
+> Das Installationsskript kann gefährlich sein, da davon ausgegangen wird, dass Ihr System leer ist. Wenn nicht, lesen Sie bitte das Skript und installieren Sie es von Hand..
 
 Stellen Sie in  eine Verbindung zu Ihrem System her und tun Sie dies :
 
@@ -611,7 +602,7 @@ chmod +x install.
 ./install.
 ````
 
-.
+Gehen Sie dann einfach von Ihrem Internetbrowser zu IP \ _MACHINE \ _JEEDOM.
 
 > **Notiz**
 >
@@ -619,7 +610,7 @@ chmod +x install.
 
 > **Notiz**
 >
-> Die folgenden Argumente können verwendet werden : -
+> Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
 
 ````
 ./install. -w /var/www/html -z -m Jeedom

@@ -35,11 +35,11 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. Vous pouvez retrouver la liste des plugins [here](http://market.jeedom.fr/index.php?v = d & p = market & type = plugin).
+> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. Vous pouvez retrouver la liste des plugins [here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Tip**
 >
-> Service pack ? Quézako ? Vous pouvez voir [here](https://blog.jeedom.fr/?p = 1215) the advantages of service packs.
+> Service pack ? What is it ? Vous pouvez voir [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
 
 Jeedom Smart
@@ -59,12 +59,12 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-Vous devez télécharger le logicel Etcher [here](https://etcher.io /) then install it on your pc
+Vous devez télécharger le logicel Etcher [here](https://etcher.io/) then install it on your pc
 
 2nd step : Jeedom image recovery
 ---
 
-Vous devez aller [here](https://images.jeedom.com / jeeboard /), then in the Images folder recover the jeedom-jeeboard - \*. rar image
+Vous devez aller [here](https://images.jeedom.com/jeeboard/), then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 
@@ -100,23 +100,17 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 >
 > Debian 9 (Stretch) is the offhereally supported distribution for version 3.1.5 of jeedom.
 
-**1 / Download the last "lite" image, ie without graphical interface**
+**1 / Download the last "lite" image, ie without graphical interface** [here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-[Here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
+**2/ Decompress the image with winrar** [here](http://www.win-rar.com)
 
-**2 / Decompress the image with winrar**
-
-[here](http://www.win-rar.com)
-
-**3 / Burn this image on an SD with etcher for example**
-
-[here](https://etcher.io/)
+**3/ Burn this image on an SD with etcher for example** [here](https://etcher.io/)
 
 > **NOTE**
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
-**4 / Activate SSH access**
+**4/ Activate SSH access**
 
 > **Warning**
 >
@@ -132,11 +126,11 @@ Just right click : new / text document and rename it to "ssh" **without extensio
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-**5 / Start the PI**
+**5/ Start the PI**
 
 Insert your SD card, connect the network cable, connect the power.
 
-**6 / Connect using SSH**
+**6/ Connect using SSH**
 
 Identify your Pi on the network
 
@@ -147,7 +141,7 @@ You need to know the IP address of your PI. Many solutions :
 
 Establish connection
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Here](http://www.putty.org/)
+Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
 
@@ -157,7 +151,7 @@ Log in with credentials **pi / raspberry**
 >
 > For security reasons, it is imperative to change the default notsword. Cases of hacking based on the use of the default login / notsword pair of the Raspberry are particularly widespread. (notswd and sudo notswd command)
 
-**7 / Launch the jeedom installation script**
+**7/ Launch the jeedom installation script**
 
     wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
 
@@ -181,7 +175,7 @@ Then just go to IP \ _MACHINE \ _JEEDOM
 ./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-**8 / System optimization**
+**8/ System optimization**
 
 If you use your Raspberry for Jeedom without a screen connected, it is recommended to carry the minimum RAM at the video part.
 
@@ -256,17 +250,14 @@ If you want to discover Jeedom without risk, you can also virtualize it on your 
 Step 1 : Download and install VMware Player
 ---
 
-You must download the Virtual Box software
-[Here](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 2nd step : Downloading a Debian strecht image - netinstall
 ---
 
-Download a minimalist debian 9 Stretch image
-[Here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Download the extension pack, and install it.
-[Here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stage 3 : Configuring the VM environment
 ---
@@ -297,7 +288,7 @@ Step 4 : VM launch
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Click OK \* Click start
+-   Click OK \*Click start
 
 Step 5 : Debian 9 installation
 ---

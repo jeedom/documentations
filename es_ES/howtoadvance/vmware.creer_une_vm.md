@@ -166,7 +166,7 @@ su sistema operativo :
 > Una vez que su máquina esté instalada, DEBE instalar
 > Herramientas de VMware (esto permite que VMware tenga información sobre su VM
 > y apágalo correctamente). Bajo debian solo haz
-> "sudo apt-get -y install open-vm-tools".
+> "".
 
 Para el resto de la instalación, los invito a leer esto.
 [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
@@ -219,4 +219,4 @@ Y ahora su dispositivo está conectado a su VM. A cada
 reiniciar se volverá a conectar automáticamente a la máquina virtual y si
 desconectar / conectar físicamente, luego se volverá a conectar a
 tu VM En otras palabras, el uso ahora es totalmente
-transparente.
+.
