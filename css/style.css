@@ -8,11 +8,8 @@
 #slide-out .user-view {
   padding-top: 0;
 }
-#slide-out .select-wrapper > ul{
-  z-index: 1200 !important;
-  background-color: rgb(255, 255, 255) !important;
-}
-#slide-out .select-wrapper > input{
+
+#slide-out .select-wrapper .select-dropdown {
   border-bottom: 1px solid rgb(149, 193, 43);
 }
 .dropdown-content li:not(.disabled) > span {
@@ -25,7 +22,10 @@ body nav ul a, body nav {
 }
 
 html,
-.sidenav {
+body,
+.sidenav,
+#div_summary {
+  scrollbar-color: rgba(120,120,120,0.5) transparent !important;
   scrollbar-width: thin;
 }
 .sidenav {
