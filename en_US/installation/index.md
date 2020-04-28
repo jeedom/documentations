@@ -16,16 +16,16 @@ which also contains a service pack (more support and services) and
 plugins offered :
 
 -   [Jeedom Smart
-    Z-Wave +] (https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+    Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
 -   [Jeedom Smart Z-Wave+ and
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-and-interface-rfxcom.html)
 
 -   [Jeedom Smart
-    EnOcean] (https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
 -   [Jeedom Smart EnOcean and
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-and-interface-rfxcom.html)
 
 Here is a "typical" configuration to gand started with Jeedom in Z-Wave :
 
@@ -81,7 +81,7 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-You must download Etcher software [here] (https:// andcher.io /) then
+You must download Etcher software [here](https:// andcher.io /) then
 install it on your pc
 
 2nd step : Jeedom image recovery
@@ -122,7 +122,7 @@ start (5 min) and you should see it on the nandwork.
 > SSH IDs are jeedom / Mjeedom96
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 
 Raspberrypi
@@ -250,7 +250,7 @@ Quit by saving : `CTRL+X` puis `O `puis `ENTREE`
 Reboot your RPI
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Freebox Delta
 =============
@@ -298,7 +298,7 @@ the IP address of your Jeedom on the Freebox Delta is written at the top, under 
 the default login and notsword are admin / admin when you access jeedom via your browser.
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index.html)
 
 VM
 ==
@@ -432,7 +432,7 @@ enter it in your browser.
 > nandwork in Borntwork bridge as indicated at the start.
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Docker
 ======
@@ -473,7 +473,7 @@ To install it on a distribution
 > You can also install mysql directly on the host machine,
 > in this case, skip this step.
 
-I use [this one] (https://hub.docker.com/_/mysql/). To install it
+I use [this one](https://hub.docker.com/_/mysql/). To install it
 :
 
     docker pull mysql:latest
@@ -517,7 +517,7 @@ enter connection information to mysql :
 ![install other](images/install_other.PNG)
 
 For the rest, you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 > **IMPORTANT**
 >
@@ -715,7 +715,7 @@ Docker mysql installed previously) and validate.
 > desired.
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index)
 
 Any
 ======
@@ -758,4 +758,4 @@ Web browser.
     ./install.sh -w / var / www / html -z -m Jeedom
 
 Then you can follow the documentation [First step with
-Jeedom] (https://jeedom.github.io/documentation/premiers-not/en_US/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-not/en_US/index).

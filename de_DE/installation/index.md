@@ -16,16 +16,16 @@ welches auch ein Service Pack (mehr Support und Services) enthält und
 Plugins angeboten :
 
 -   [Jeedom Smart
-    Z-Wave +] (https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+    Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
 -   [Jeedom Smart Z-Wave+ und
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-und-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-und-interface-rfxcom.html)
 
 -   [Jeedom Smart
-    EnOcean] (https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+    EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
 -   [Jeedom Smart EnOcean und
-    RFXCOM] (https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-und-interface-rfxcom.html)
+    RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-und-interface-rfxcom.html)
 
 Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
 
@@ -122,7 +122,7 @@ Start (5 min) und Sie sollten es im Tu es nichttzwerk sehen.
 > SSH-IDs sind jeedom / Mjeedom96
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 
 Himbeerpi
@@ -250,7 +250,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O `puis `ENTREE`
 Starten Sie Ihr RPI neu
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Freebox Delta
 =============
@@ -298,7 +298,7 @@ Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index.html)
 
 VM
 ==
@@ -432,7 +432,7 @@ Geben Sie es in Ihren Browser ein.
 > Tu es nichttzwerk in der Tu es nichttzwerkbrücke wie zu Beginn angegeben.
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Docker
 ======
@@ -473,7 +473,7 @@ Stufe 2 : Installieren eines MySQL-Images
 > Sie können MySQL auch direkt auf dem Host-Computer installieren,
 > Überspringen Sie in diesem Fall diesen Schritt.
 
-Ich benutze [dieses] (https://hub.docker.com/_/mysql/). Um es zu installieren
+Ich benutze [dieses](https://hub.docker.com/_/mysql/). Um es zu installieren
 :
 
     Docker ziehen MySQL:spätestens
@@ -517,7 +517,7 @@ Geben Sie die Verbindungsinformationen zu MySQL ein :
 ![install other](images/install_other.PNG)
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 > **Wichtig**
 >
@@ -715,7 +715,7 @@ Docker MySQL zuvor installiert) und validieren.
 > wollte.
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index)
 
 Andere
 ======
@@ -758,4 +758,4 @@ Internundbrowser.
     ./install.sh -w / var / www / html -z -m Jeedom
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit
-Jeedom] (https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-nicht/de_DE/index).

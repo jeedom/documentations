@@ -91,18 +91,18 @@ erforderlich, um die folgenden Informationen abzurufen :
 > **Notiz**
 >
 > Ein nicht erschöpfendes Informationsblatt, das Sie für die Migration beachten sollten
-> ist verfügbar [hier] (images / MemoMigration.xls)
+> ist verfügbar [hier](images / MemoMigration.xls)
 
 Vorbeugende Backups 
 -----------------------
 
 -   Erstellen Sie ein Backup
-    Jeedom] (https://jeedom.github.io/documentation/core/de_DE/doc-core-backup.html)
+    Jeedom](https://jeedom.github.io/documentation/core/de_DE/doc-core-backup.html)
     von dir **Jeedom Meister** und dein **Jeedom Slave (s)**
     und stellen Sie es auf Ihrem PC / NAS wieder her….
 
 -   Erstellen Sie ein Backup
-    SD / Disc] (https://jeedom.github.io/documentation/howto/de_DE/doc-howto-sau Backupe.comment_faire.html # _sau Backupe_restauration_de_la_carte_microsd)
+    SD / Disc](https://jeedom.github.io/documentation/howto/de_DE/doc-howto-sau Backupe.comment_faire.html # _sau Backupe_restauration_de_la_carte_microsd)
     von dir **Jeedom Meister** und dein **Jeedom Slave (s)**
     und stellen Sie sie auf Ihrem PC / NAS wieder her….
 
@@ -147,7 +147,7 @@ Installation von **Jeedom Quelle** :
 -   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (Lund it be
     in deine sundzen **Jeedom Sklave** vorhanden oder für eine
     neuer Raspberry Pi), indem Sie der [Dokumentation
-    Installation] (https://jeedom.github.io/documentation/installation/de_DE/doc-installation.html).
+    Installation](https://jeedom.github.io/documentation/installation/de_DE/doc-installation.html).
 
 -   Aktualisieren Sie die **Jeedom Quelle** auf die neueste Version (auch wenn
     Es wird Ihnen kein Update angeboten.).

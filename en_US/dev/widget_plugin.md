@@ -7,7 +7,7 @@ There are several possibilities to make custom widgets for plugins :
 
 ## ToHtml function
 
-Above nothing special the toHtml function must return the widget in html, you have an example [the] (https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Above nothing special the toHtml function must return the widget in html, you have an example [the](https:// github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 The important thing is especially the 1st lines : 
 
@@ -21,7 +21,7 @@ if (!is_array($replace)) {
 The preToHtml function returns :
 
 - a string if the widget is cached (if it is cached, there has been no change since the last generation, so you might want to send it right away)
-- a table with the main replaces, you have the list [here] (https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- a table with the main replaces, you have the list [here](https:// github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## The template system
 
@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Here we will create a new widget based on the template "tmplmultistate" (you have the list of templates [here] (https:// github.com / jeedom / core / tree / alpha / core / template / dashboard) it's those with tmpl in their name), for an info type command and under string type.
+Here we will create a new widget based on the template "tmplmultistate" (you have the list of templates [here](https:// github.com / jeedom / core / tree / alpha / core / template / dashboard) it's those with tmpl in their name), for an info type command and under string type.
 
 >**IMPORTANT
 >

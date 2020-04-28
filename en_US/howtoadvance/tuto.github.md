@@ -11,7 +11,7 @@ This tutorial presents you :
 -   Updating your fork
 
 To allow you to contribute to Jeedom, you will need to
-propose changes (PR : Pull Request).
+propose changes (PR : .
 
 Create a GitHub account 
 ===========================
@@ -26,7 +26,7 @@ would like to participate.
 Go to <https:// github.com> and click on the sign up button.
 So you should be on a page looking like the one below and
 must therefore enter a nickname, an email and a password and then
-click on **Create an account**
+click on ****
 
 ![tuto.github1](images/tuto.github1.png)
 
@@ -116,7 +116,7 @@ So I delete the block then I replace it.
 Then on the lower part we find this : 1. We indicate a title
 explicit if possible 2. We enter a slightly more precise description
 (in my case, it would be too long, the link to the forum will be more
-speaking) 3. We make sure it is ticked like this 4. We commit =
+speaking) 3. We make sure it is ticked like this 4. We  =
 Submit the change
 
 ![tuto.github8](images/tuto.github8.png)
@@ -124,9 +124,9 @@ Submit the change
 Submit a change 
 --------------------------
 
-The **commit** done above only concerns the fork of the project in
+The **** done above only concerns the fork of the project in
 your GitHub space. To submit changes to the original project,
-you must perform a PR (Pull Request)
+you must perform a PR (
 
 1. We click on the Pull Request tab
 

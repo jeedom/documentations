@@ -58,7 +58,7 @@ Envío de instalación ISO
 =============================
 
 Después de descargar su instalación iso
-([aquí] (http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+([aquí](http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 por ejemplo para debian 8.5 en netinstall), debes ponerte
 tu almacén de datos.
 

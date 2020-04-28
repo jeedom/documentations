@@ -82,7 +82,7 @@ Other technical link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-techniques] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+techniques](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 

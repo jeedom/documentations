@@ -4,7 +4,7 @@ Hilf mit, dein Jeedom einzurichten.
 > **Spitze**
 >
 > Dieses Handbuch ersetzt nicht die vollständige Dokumentation
-> verfügbar auf der Jeedom-Website [hier] (https:// jeedom.fr/doc).
+> verfügbar auf der Jeedom-Website [hier](https:// jeedom.fr/doc).
 
 Registrierung am Markt 
 =========================
@@ -265,7 +265,7 @@ Sie finden dann :
 - wie man das Plugin benutzt, 
 - zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
-Für weitere Informationen zu Plugins klicken Sie auf [hier] (https:// jeedom.github.io/core/de_DE/plugin).
+Für weitere Informationen zu Plugins klicken Sie auf [hier](https:// jeedom.github.io/core/de_DE/plugin).
 
 Unterstützung 
 =======
@@ -277,7 +277,7 @@ Hilfe und stellen Sie Ihre Fragen.
 Jeedom Dokumentation 
 --------------------------
 
-Eine vollständige Dokumentation finden Sie [hier] (https:// jeedom.fr / doc):
+Eine vollständige Dokumentation finden Sie [hier](https:// jeedom.fr / doc):
 
 Dies besteht aus mehreren Kategorien:
 
@@ -306,7 +306,7 @@ Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
 Das Forum 
 --------
 
-Sie finden es [hier] (https:// jeedom.com / forum) .
+Sie finden es [hier](https:// jeedom.com / forum) .
 
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn du
 Haben Sie eine Frage, zögern Sie nicht, sie zu stellen. Sie werden eine Antwort in haben

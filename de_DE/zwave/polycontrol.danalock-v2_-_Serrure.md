@@ -189,7 +189,7 @@ sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
 und klicken Sie auf das Symbol "Zwave Network"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
+1](images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
 \.
 
@@ -197,7 +197,7 @@ Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜ
 SICHER (INKLUSION)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
+2](images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
 
 \.
 

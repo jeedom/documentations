@@ -81,7 +81,7 @@ Jeedom mini +
 Etapa 1 : Instalación de grabado
 ---
 
-Debe descargar el software Etcher [aquí] (https:// ycher.io /) entonces
+Debe descargar el software Etcher [aquí](https:// ycher.io /) entonces
 instálalo en tu pc
 
 Etapa 2 : Jeedom recuperación de imagen
@@ -122,7 +122,7 @@ inicio (5 min) y debería verlo en la red.
 > Las ID de SSH son jeedom / Mjeedom96
 
 Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
 
 
 Raspberrypi
@@ -250,7 +250,7 @@ Salir guardando : `CTRL+X` puis `O `puis `ENTREE`
 Reinicia tu RPI
 
 Luego puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Freebox Delta
 =============
@@ -298,7 +298,7 @@ la dirección IP de su Jeedom en Freebox Delta está escrita en la parte superio
 el inicio de sesión y la contraseña predyerminados son admin / admin cuando accede a jeedom a través de su navegador.
 
 Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index.html)
 
 VM
 ==
@@ -432,7 +432,7 @@ ingrésalo en tu navegador.
 > red en el puente de red como se indica al inicio.
 
 Luego puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Estibador
 ======
@@ -473,7 +473,7 @@ Etapa 2 : Instalar una imagen mysql
 > También puede instalar mysql directamente en la máquina host,
 > en este caso, omita este noo.
 
-Yo uso [este] (https://hub.docker.com/_/mysql/). Para instalarlo
+Yo uso [este](https://hub.docker.com/_/mysql/). Para instalarlo
 :
 
     docker pull mysql:ultimo
@@ -517,7 +517,7 @@ ingrese la información de conexión a mysql :
 ![install other](images/install_other.PNG)
 
 Por lo demás, puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 > **Importante**
 >
@@ -715,7 +715,7 @@ Estibador mysql instalado previamente) y validar.
 > quería.
 
 Luego puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index)
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index)
 
 Otros
 ======
@@ -758,4 +758,4 @@ navegador de interny.
     ./install.sh -w / var / www / html -z -m Jeedom
 
 Luego puede seguir la documentación [Primer noo con
-Jeedom] (https://jeedom.github.io/documentation/premiers-no/es_ES/index).
+Jeedom](https://jeedom.github.io/documentation/premiers-no/es_ES/index).

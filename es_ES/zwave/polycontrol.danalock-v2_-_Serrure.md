@@ -189,7 +189,7 @@ seguro : simplemente vaya a la página de administración del módulo Z-wave
 y haga clic en el icono "Red Zwave"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
+1](images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
 
 \
 
@@ -197,7 +197,7 @@ Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO
 SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
+2](images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
 
 \
 

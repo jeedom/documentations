@@ -1,10 +1,10 @@
 > **Importantee**
 >
-> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente. Puedes encontrar el original [aquí] (https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
+> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente. Puedes encontrar el original [aquí](https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
 
 Aquí hay un breve tutorial pora explicar cómo crear un complemento. Pora el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde.fr .(El complemento será escalable)
 
-No reemplaza en ningún caso la [documentación oficial] (https:/ // /jeedom.github.io/ /plugin-template/ /es_ES/ /)
+No reemplaza en ningún caso la [documentación oficial](https:/ // /jeedom.github.io/ /plugin-template/ /es_ES/ /)
 
 # Crear la base del complemento
 
@@ -13,7 +13,7 @@ Pora comenzar, debe dyerminar un nombre y una Identificaciónentificación (que 
 Nombre : VIdentificacióna de caca
 Identificación : vdm
 
-Descargue el complemento de plantilla pora obtener la [base] (https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
+Descargue el complemento de plantilla pora obtener la [base](https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
 
 Descomprime el archivo . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rporty , core , desktop…
 
@@ -612,9 +612,9 @@ Pero en este caso cambiamos la función CronHourly ()
 
 Luego puede cambiar la frecuencia del cron de acuerdo con la importancia de su información pora recuperar.
 
-Solo puedo invitarlo a tomarse el tiempo de ir a esta página pora obtener más información ==> [aquí] (https:/ // /jeedom.github.io/ /Documentación/ /phpdoc/ /index.html)
+Solo puedo invitarlo a tomarse el tiempo de ir a esta página pora obtener más información ==> [aquí](https:/ // /jeedom.github.io/ /Documentación/ /phpdoc/ /index.html)
 
-Y aún mejor pora ir al núcleo github ==> [AQUÍ] (https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
+Y aún mejor pora ir al núcleo github ==> [AQUÍ](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
 
 Pon tu nariz pora dominar aún más .
 
@@ -638,7 +638,7 @@ Donc on va changer le style en affectant un template à la commande « story»
 
 Nada podría ser más simple.
 
-Veré ==> [AQUÍ] (https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
+Veré ==> [AQUÍ](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
 
 Estoy buscando una plantilla pora cmd.info.string (nuestro comando es de tipo info subtipo string) .No es difícil, solo hay dos (predyerminado o mosaico)
 

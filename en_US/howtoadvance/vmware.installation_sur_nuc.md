@@ -1,13 +1,13 @@
-Here is a tutorial to install VMware on an Intel NUC (gen6). We
+Here is a tutorial to install VMware on an  (gen6). We
 will see later how to add Jeedom on it
 
 Equipment 
 ===========
 
-Intel NUC 
+ 
 ---------
 
-The Intel NUC is a small PC, not the most powerful, but very economical
+The  is a small PC, not the most powerful, but very economical
 energy and small dimensions. This makes it a perfect little waiter
 virtualization based on VMware.
 
@@ -15,10 +15,10 @@ There are currently 2 6th generation NUCs (the others work
 also for VMware but require additional drivers on the
 VMware kernel):
 
--   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 threads - Cache 3 MB -
-    TDP 15W)
+-   .3 GHz - - 4 threads - Cache 3 MB -
+    
 
--   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 threads -
+-   .. -
     Cache 4 MB)
 
 The i5 is significantly more powerful because it has a little more cache memory
@@ -34,22 +34,22 @@ In addition, there are 2 types of case :
 
 That makes 4 references :
 
--   i3 M2 : [Intel NUC
-    NUC6I3SYK] (http://www.ldlc.com/fiche/PB00203086.html) 320 €
+-    : [
+    NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) 320 €
 
--   i3 M2 + 2.5inch : [Intel NUC
-    NUC6I3SYH] (http://www.ldlc.com/fiche/PB00203148.html) 320 €
+-   .5inch : [
+    NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) 320 €
 
--   i5 M2 : [Intel NUC
-    NUC6I5SYK] (http://www.ldlc.com/fiche/PB00203084.html) 460 €
+-    : [
+    NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) 460 €
 
--   i5 M2 + 2.5inch : [Intel NUC
-    NUC6I5SYH] (http://www.ldlc.com/fiche/PB00202760.html) 430 €
+-   .5inch : [
+    NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) 430 €
 
-SSD 
+ 
 ---
 
-You have to add an SSD and memory. SSD level I you
+You have to add an  and memory.  level I you
 recommend 240GB or more, unless you take the model with a
 location 2.5 inches (which allows you to put additional hard drive)
 or to have a Synology NAS to make the iSCSI LUN. Do not forget
@@ -61,20 +61,20 @@ this 40GB for VMware itself it fills up quickly.
 > VMware does not support adding USB disk, so it is difficult
 > to extend the available space
 
--   [LDLC SSD M.2 2280 F6 PLUS 120
-    GB] (http://www.ldlc.com/fiche/PB00203635.html) 55 €
+-   [LDLC  M.2 2280 F6 PLUS 120
+    GB](http://www.ldlc.com/fiche/PB00203635.html) 55 €
 
--   [Samsung SSD 850 EVO 120 Go
-    M.2] (http://www.ldlc.com/fiche/PB00185923.html) 100 €
+-   [Samsung  850 EVO 120 Go
+    M.2](http://www.ldlc.com/fiche/PB00185923.html) 100 €
 
--   [LDLC SSD M.2 2280 F6 PLUS 240
-    GB] (http://www.ldlc.com/fiche/PB00203636.html) 105 €
+-   [LDLC  M.2 2280 F6 PLUS 240
+    GB](http://www.ldlc.com/fiche/PB00203636.html) 105 €
 
--   [Samsung SSD 850 EVO 250 Go
-    M.2] (http://www.ldlc.com/fiche/PB00185924.html) 120 €
+-   [Samsung  850 EVO 250 Go
+    M.2](http://www.ldlc.com/fiche/PB00185924.html) 120 €
 
--   [LDLC SSD M.2 2280 F6 PLUS 480
-    GB] (http://www.ldlc.com/fiche/PB00207301.html) 190 €
+-   [LDLC  M.2 2280 F6 PLUS 480
+    GB](http://www.ldlc.com/fiche/PB00207301.html) 190 €
 
 Memory 
 -------
@@ -87,13 +87,13 @@ cheaper is going very well (be careful I always take packs of 2
 bars, this improves performance) :
 
 -   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
-    X8] (http://www.ldlc.com/fiche/PB00204134.html) 35 €
+    X8](http://www.ldlc.com/fiche/PB00204134.html) 35 €
 
 -   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
-    X8] (http://www.ldlc.com/fiche/PB00204135.html) 65 €
+    X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
 
 -   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
-    X8] (http://www.ldlc.com/fiche/PB00204136.html) 120 €
+    X8](http://www.ldlc.com/fiche/PB00204136.html) 120 €
 
 Installation preparation 
 =============================
@@ -108,7 +108,7 @@ VMware Download
 >
 > If you put vmware 6.5, there is a problem with the new management
 > USB and Zwave keys, for this to work you must apply this
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language = en_US & cmd = displayKC & externalId = 2147650). Attention this manipulation is no longer to be done in vmware 6.7
+> [KB](https:?language = en_US & cmd = displayKC & externalId = 2147650). Attention this manipulation is no longer to be done in vmware 6.7
 
 It's the hardest actually I think, to simplify your life you have to
 :
@@ -159,9 +159,9 @@ Unpacking and assembling the NUC
 
 These are the 3 components for my NUC :
 
--   Intel NUC NUC6I5SYH
+-   
 
--   Samsung SSD 850 EVO 250 Go M.2
+-   
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
@@ -186,7 +186,7 @@ the NUC:
 
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
-The SSD installed (on the left), the end screw to block it is a
+The  installed (on the left), the end screw to block it is a
 hard to put back, fortunately we only do that once
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
@@ -196,7 +196,7 @@ Memory installation (right) :
 ![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
 And there you are, you can close (unless of course you have taken a
-SSD 2.5 inches which must be inserted in the cover in this case).
+.5 inches which must be inserted in the cover in this case).
 
 VMware installation 
 ======================
@@ -213,7 +213,7 @@ alone :
 > I forgot to capture the license validation, it
 > just agree to follow the instructions
 
-Here select the disk corresponding to the SSD (you can
+Here select the disk corresponding to the  (you can
 identify either by name or by size)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
@@ -248,4 +248,4 @@ For the rest here is a
 for the creation of your first VM. And you will find
 [ici](https://jeedom.github.io/documentation/howto/en_US/doc-howto-vmware.trucs_et_astuces.html)
 a tutorial of tips and tricks (for example to put your license
-VMware)
+

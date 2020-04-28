@@ -1,10 +1,10 @@
 > **Wichtig**
 >
-> D.ieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. D.as Original finden Sie [hier] (https:/./.www.jeedom.com/.forum/.viewtopic.php?f=27&t=37630#p621495)
+> D.ieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. D.as Original finden Sie [hier](https:/./.www.jeedom.com/.forum/.viewtopic.php?f=27&t=37630#p621495)
 
 In diesem kurzen Tutorial wird erklärt, wie Sie ein Plugin erstellen. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.fr .(D.as Plugin wird skalierbar sein)
 
-Es ersundzt in keinem Fall die [offizielle D.okumentation] (https:/./.jeedom.github.io/.plugin-template/.fr_FR/.)
+Es ersundzt in keinem Fall die [offizielle D.okumentation](https:/./.jeedom.github.io/.plugin-template/.fr_FR/.)
 
 # Erstellen Sie die Plugin-Basis
 
@@ -13,7 +13,7 @@ Zu Beginn müssen Sie einen Namen und eine ID. bestimmen (die nicht existieren d
 Name : Kacke das Leben
 Identifikation : vdm
 
-Laden Sie das Vorlagen-Plugin herunter, um die [Basis] (https) zu erhalten:/./.github.com/.jeedom/.plugin-template/.archive/.master.zip)
+Laden Sie das Vorlagen-Plugin herunter, um die [Basis](https) zu erhalten:/./.github.com/.jeedom/.plugin-template/.archive/.master.zip)
 
 Entpacken Sie die D.atei . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rVonty , core , desktop…
 
@@ -612,9 +612,9 @@ In diesem Fall ändern wir jedoch die Funktion CronHourly ()
 
 Anschließend können Sie die Häufigkeit des Cron entsprechend der Wichtigkeit der Wiederherstellung Ihrer Informationen ändern.
 
-Ich kann Sie nur einladen, sich die Zeit zu nehmen, um auf dieser Seite mehr zu erfahren ==> [hier] (https:/./.jeedom.github.io/.D.okumentation/.phpdoc/.index.html)
+Ich kann Sie nur einladen, sich die Zeit zu nehmen, um auf dieser Seite mehr zu erfahren ==> [hier](https:/./.jeedom.github.io/.D.okumentation/.phpdoc/.index.html)
 
-Und noch besser, gehen Sie zum Kern-Github ==> [HIER] (https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.class)
+Und noch besser, gehen Sie zum Kern-Github ==> [HIER](https:/./.github.com/.jeedom/.core/.tree/.alpha/.core/.class)
 
 Sundzen Sie Ihre Nase ein, um noch mehr zu meistern .
 

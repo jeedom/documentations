@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Register as a dev, see [here] (https://www.jeedom.com/site/fr/dev.html)
+- Register as a dev, see [here](https://www.jeedom.com/site/fr/dev.html)
 - Waiting for validation of the market account as a developer
 - Have your plugin on github (private deposit or not)
 
