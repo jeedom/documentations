@@ -64,13 +64,13 @@ Then you can see in the health section of Jeedom if it is active. It takes appro
 
 >**IMPORTANT**
 >
-> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint /"
+> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn::::507915066327:endpoint /"
 
 ## It is compatible with everything ?
 
 - Smart (tested)
 - Debian x64 Stretch (tested)
-- Debian x64 Jessie
+- 
 - RPI
 
 # Faq

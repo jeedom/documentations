@@ -104,7 +104,7 @@ ESXi SSH (Gehen Sie auf der Weboberfläche zu Aktion ⇒ Dienste
 Bezeichner sind die gleichen wie für den Zugriff auf die Schnittstelle.. Dann er
 du tust es einfach :
 
-    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
+    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.
 
 Sie müssen haben :
 
@@ -172,7 +172,7 @@ Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
 
 Übertragen Sie dann die Zip in einen Ihrer Datenspeicher und machen Sie :
 
-    esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
+    
 
 > **Notiz**
 >
@@ -188,7 +188,7 @@ Der obige Befehl aktualisiert aber nur die Vibes, die ihn benötigen
 Sie können die Installation aller Vibes des Pakets erzwingen (so
 Seien Sie vorsichtig, dies kann ein Downgrade sein :
 
-    esxcli software vib install -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
+    
 
 NTP-Konfiguration 
 ====================
@@ -200,8 +200,8 @@ Datum und Uhrzeit, dort klicken Sie auf "Einstellungen ändern" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
 
-Und in das Feld "NTP-Server" müssen Sie setzen : 0.debian.pool.n,
-1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov
+Und in das Feld "NTP-Server" müssen Sie setzen : ,
+..
 
 ![vmware.tips17](images/vmware.tips17.PNG)
 
@@ -285,7 +285,7 @@ Ihr PC hat den Alarm nicht mehr.
 Damit ist es notwendig :
 
 -   Haben Sie eine URL (DNS), um auf Ihre Esxi zuzugreifen, hier nehmen wir
-    esxi1.lan
+    
 
 -   Konfigurieren Sie den Namen Ihres ESXI in ssh oben :
 
@@ -297,10 +297,10 @@ Damit ist es notwendig :
 
 <!-- -->
 
-    Hostname des esxcli-Systems gesetzt --fqdn = esxi1.lan
+    Hostname des esxcli-Systems gesetzt --fqdn = 
 
 -   Rufen Sie das Stammzertifikat von esxi ab, in dem es sich befindet
-    /etc/vmware/ssl/castore.pem
+    
 
 Klicken Sie mit der rechten Maustaste auf den Computer, installieren Sie das Zertifikat und legen Sie es ein
 "Vertrauenswürdige Stammzertifizierungsstelle"

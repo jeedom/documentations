@@ -9,7 +9,7 @@
 Zusammenfassung 
 ======
 
-Mit dem Mikromodul E.MV-400 können Sie einen Motor verwalten
+Mit dem Mikromodul  können Sie einen Motor verwalten
 bidirektionale oder elektrische Geräte. E.s ermöglicht die Kontrolle
 2 Start / STOPp-Ausgänge oder ein Open / STOP / Close-Verschluss.
 
@@ -66,28 +66,28 @@ Technische Daten
 
 -   Verkabelung: 4 Drähte, 2 für die Steuerung und 2 für die Stromversorgung
 
--   Frequenz: 868,3 MHz
+-   Frequenz: 
 
 -   Angetriebene Ausgänge: 2 Relais
 
 -   Maximale Leistung: 2A pro Ausgang
 
--   Widerstandslast: 460W
+-   Widerstandslast: 
 
--   Sonstige Gebühren: 100W
+-   Sonstige Gebühren: 
 
 -   Betriebstemperatur: -10 ° C + 45 ° C.
 
 -   Abmessungen: 48 x 46 x 26 mm
 
--   Schutzart: IP20
+-   Schutzart: 
 
 Moduldaten 
 =================
 
--   Machen Sie : E.disio Smart Home
+-   Machen Sie : 
 
--   Name : E.MV-400
+-   Name : 
 
 Allgemeine Konfiguration 
 ======================

@@ -59,7 +59,7 @@ Ventanas
 ------------
 
 Tendrá que comenzar descargando software de terceros, por ejemplo :
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskImagenr/)
+[](http://sourceforge.net/projects/win32diskImagenr/)
 
 1.  **Salvaguardia**
 
@@ -91,7 +91,7 @@ Bajo MacOSX
 -----------
 
 Para facilitar su tarea, puede descargar el software
-[ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+[](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
 ![save restore11](Imagens/save-restore11.jpg)
 
@@ -147,9 +147,9 @@ Bajo Linux
 
         ``` {.bash}
         $ sudo fdisk -l | grep Dis
-        Disco / dev / sda: 320.1 GB, 320072933376 bytes
-        Disco / dev / sdb: 16.0 GB, 16012804096 bytes
-        Disco / dev / sdc: 8.0 GB, 8006402048 bytes
+        Disco / dev / sda: 320.
+        Disco / dev / sdb: 16.
+        Disco / dev / sdc: 8.
         ```
 
     -   Comience a crear la Imagenn ingresando el comando :

@@ -5,19 +5,19 @@
 - [Mariadb / Mysql tip and tip](/ documentations / fr_FR / howto / mysql.trucs_et_astuces)
 - [Github](/ documentations / fr_FR / howto / tuto.github)
 
-## Debian
+## 
 
 - [Installation](/ documentations / fr_FR / howto / debian.installation)
 - [Tips and tricks](/ documentations / fr_FR / howto / debian.trucs_et_astuces)
 
-## Vmware
+## 
 
 - [Create a vm](/ documentations / fr_FR / howto / vmware.creer_une_vm)
 - [Installation on NUC](/ documentations / fr_FR / howto / vmware.installation_sur_nuc)
 - [Backup / restore](/ documentation / en_FR / howto / vmware.mise_en_place_des_backups)
 - [Hint and tip](/ documentation / en_US / howto / vmware.trucs_et_astuces)
 
-## Archive
+## 
 
 - [Android autovoice](/ documentation / en_US / howto / android.autovoice)
 - [Install monit](/ documentation / en_US / howto / installation.monit)

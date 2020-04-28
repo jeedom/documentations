@@ -168,7 +168,7 @@ Optimierungen :
 Fügen Sie vim und sudo hinzu 
 -------------------
 
-    sudo apt-get install -y vim sudo
+    
 
 Fügen Sie fail2ban hinzu 
 ----------------
@@ -178,7 +178,7 @@ Bei zu vielen Verbindungsfehlern wird der Zugriff blockiert
 die betreffende IP (daher nicht an alle, nur an den Angreifer) a
 einige Zeit.
 
-    sudo apt-get install -y fail2ban
+    
 
 Fügen Sie die Open VMware Tools hinzu 
 -----------------------------
@@ -187,7 +187,7 @@ Fügen Sie die Open VMware Tools hinzu
 installiert und bringen Sie die Optimierungen dieses gehosteten Betriebssystems
 auf einem ESXi-Hypervisor.
 
-    sudo apt-get install -y open-vm-tools
+    
 
 Sie müssen Jeedom nur installieren, indem Sie folgen
 [diese](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)

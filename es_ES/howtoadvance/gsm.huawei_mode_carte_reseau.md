@@ -4,12 +4,12 @@ Por defecto, esto está configurado en modo Módem para ser compatible con el co
 1.Eliminar la configuración predeterminada 
 =============================================
 
-> sudo rm /etc/udev/rules.d/40-modemswitch.rules
+> 
 
 2.Agregue la configuración 
 ============================
 
-> sudo nano /etc/usb_modeswitch.conf
+> 
 
 luego agrega esto :
 

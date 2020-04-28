@@ -166,7 +166,7 @@ your OS :
 > Once your machine is installed you MUST install the
 > VMware tools (this allows VMware to have information about your VM
 > and turn it off properly). Under debian just do
-> "sudo apt-get -y install open-vm-tools".
+> "".
 
 For the rest of the installation I invite you to read this
 [Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-debian.installation.html#_installation)

@@ -59,7 +59,7 @@ Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 ````
 public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
-	$return['info']['binary']['toto'] = array(
+	$return['info']['binary'][''] = array(
 		'template' => 'tmplicon',
 		'replace' => array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das 2. Beispiel ist es id_plugin::toto
+Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das 2. Beispiel ist es id_plugin::
   
   

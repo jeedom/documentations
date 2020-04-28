@@ -59,7 +59,7 @@ Windows
 ------------
 
 You will have to start by downloading third-party software for example :
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskPicturer/)
+[](http://sourceforge.net/projects/win32diskPicturer/)
 
 1.  **Safeguard**
 
@@ -91,13 +91,13 @@ Under MacOSX
 -----------
 
 To make your task easier, you can download the software
-[ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+[](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
 ![save restore11](Pictures/save-restore11.jpg)
 
 1.  **Safeguard**
 
-    -   With ApplePi-Baker : Select the correct card from the list
+    -   With  : Select the correct card from the list
         *Pi-Crust *, and click on * Create Backup * to create a
         Picture file of your microSD card.
 
@@ -115,7 +115,7 @@ To make your task easier, you can download the software
 
 2.  **Restoration**
 
-    -   With ApplePi-Baker : Select the correct card from the list
+    -   With  : Select the correct card from the list
         *Pi-Crust *, put the path to the Picture file to restore
         in the * IMG file * field of the * Pi-Ingredients * section, and
         click on * Restore Backup * to restore the Picture on the
@@ -147,9 +147,9 @@ Under Linux
 
         ``` {.bash}
         $ sudo fdisk -l | grep Dis
-        Disk / dev / sda: 320.1 GB, 320072933376 bytes
-        Disk / dev / sdb: 16.0 GB, 16012804096 bytes
-        Disk / dev / sdc: 8.0 GB, 8006402048 bytes
+        Disk / dev / sda: 320.
+        Disk / dev / sdb: 16.
+        Disk / dev / sdc: 8.
         ```
 
     -   Start creating the Picture by entering the command :

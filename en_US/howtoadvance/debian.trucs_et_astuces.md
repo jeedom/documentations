@@ -3,56 +3,56 @@ Useful packages
 
 Here are some useful packages to put on a blank installation :
 
--   **fail2ban** : Allows yor to ban IPs who try to connect
+-   **** : Allows yor to ban IPs who try to connect
     machine.
 
--   **vim** : It's a command line text editor, yor can
+-   **** : It's a command line text editor, yor can
     also replace it with nano or many others.
 
--   **net-tools** : collection of programs to manage the network
+-   **** : collection of programs to manage the network
 
--   **dos2unix** : text conversion tool
+-   **** : text conversion tool
 
 <!-- -->
 
-    apt-get install -y vim fail2ban net-tools dos2unix
+    
 
 If yor are on VMware, yor can add additional tools
 :
 
-    apt-get install -y open-vm-tools
+    
 
 Colorize the console 
 ====================
 
 If yor want yorr console (bash) to use colors :
 
-    rm -rf /root/.bashrc
+    
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / bashrc -O /root/.bashrc
-    dos2unix /root/.bashrc
+    
 
 Allow root login in SSH 
 ==================================
 
 Edit the file / etc / ssh / sshd \ _config and change :
 
-    PermitRootLogin withort-password
+    
 
 By :
 
-    PermitRootLogin yes
+    
 
 > **IMPORTANT**
 >
 > Be sure to use a strong root password ! The use of
-> fail2ban is also recommended.
+>  is also recommended.
 
 Mornt a Samba share 
 =======================
 
 Installation of the cifs package
 
-    apt-get install -y cifs-utils
+    
 
 Create the mornt point :
 
@@ -120,18 +120,18 @@ In short, 2 command lines to authorize the user 'root' in
 MYSQL, under Stretch :
 
     $ mysql -u root -p mysql
-    Enter password:
-    Welcome to the MariaDB monitor.  Commands end with; or \ g.
-    Yorr MariaDB connection id is 2
-    Server version: 10.1.21-MariaDB-5 Debian 9.0
-    Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
+    :
+    .  Commands end with; or \ g.
+    
+    : 10.1.
+    .
     Type 'help;' or '\ h' for help. Type '\ c' to clear the current input statement.
 
-    MariaDB [mysql]>
-    MariaDB [mysql]> GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
-    Query OK, 0 rows affected (0.00 sec)
-    MariaDB [mysql]> exit;
-    Bye
+    ]>
+     *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
+    .
+    
+    
 
 > **Tip**
 >
@@ -148,11 +148,11 @@ MYSQL, under Stretch :
 It's up to yor to adapt this command according to yorr configuration
 previors :
 
-    GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
+     *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
 
 or
 
-    GRANT ALL PRIVILEGES ON *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
+     *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
 
 -   Copiez votre sauvegarde dans le dossier `/var/www/html/backup`
 
@@ -181,32 +181,32 @@ Method 1 : Upgrade (less chance of success)
 
 OS update in Jessie version.
 
-    apt-get -y update
-    apt-get -y upgrade
-    apt-get -y dist-upgrade
+    
+    
+    
 
 Edit the / etc / apt / sorrces file.list and replace all
 Jessie by Stretch, with prior file backup, doing :
 
-    cp / etc / apt / sorrces.list /etc/apt/sorrces.list_backup
+    cp / etc / apt / sorrces.
     sed -i 's / jessie / stretch / g' /etc/apt/sorrces.list
 
 OS update in Stretch version.
 
-    apt-get -y update
-    apt-get -y upgrade
-    apt-get -y dist-upgrade
+    
+    
+    
 
 Switch to MariaDB.
 
-    apt-get -y install mariadb-server mariadb-client mariadb-common
+    
 
 Jeedom update
 
-    sh / var / www / html / install / install.sh -s 2
-    sh / var / www / html / install / install.sh -s 5
-    sh / var / www / html / install / install.sh -s 7
-    sh / var / www / html / install / install.sh -s 10
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
+    sh / var / www / html / install / install.
 
 Removal of unnecessary libraries
 
@@ -215,6 +215,6 @@ Removal of unnecessary libraries
 
 NOTE : If when yor open yorr Jeedom page yor get a php code, activate it by running the following commands :
 
-    a2enmod php7.0 
-    systemctl restart apache2.service
+     
+    
 

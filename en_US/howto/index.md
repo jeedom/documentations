@@ -8,7 +8,7 @@
 - [How to make a backup](/ documentation / en_FR / howto / backup.comment_faire)
 - [How to restore a backup](/ documentation / en_FR / howto / backup.comment_recuperer)
 
-## Archive
+## 
 
 - [WiFi key on mini](/ documentation / fr_FR / howto / mini.clef_wifi)
 - [Mini start guide](/ documentation / en_FR / howto / mini.demarrage)

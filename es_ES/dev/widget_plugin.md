@@ -59,7 +59,7 @@ Otro ejemplo basado en otra plantilla podría ser :
 ````
 public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
-	$return['info']['binary']['toto'] = array(
+	$return['info']['binary'][''] = array(
 		'template' => 'tmplicon',
 		'replace' => array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
@@ -70,7 +70,7 @@ public static function templateWidget(){
 }
 ````
   
-Aquí creo un widget de toto basado en la plantilla "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
+Aquí creo un widget de  basado en la plantilla "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
   
 >**Consejos**
 >
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
+Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::
   
   

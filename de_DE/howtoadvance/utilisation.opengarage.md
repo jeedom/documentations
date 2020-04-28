@@ -19,7 +19,7 @@ Skript- und Infobefehl vom Typ json
 
 Für den Status des Relais der Name der Eigenschaft des JSON : Tür
 
-Für den Abstandssensor : dist
+Für den Abstandssensor : 
 
 Aktion auf OpenGarage 
 ========================

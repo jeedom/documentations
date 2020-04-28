@@ -1,6 +1,6 @@
 Nodered is a tool written in Nodejs to manage IoT oriented flows or
 Automation. It offers a graphical interface for editing flows. The
-tuto describes its installation, a reverse proxy configuration and a
+tuto describes its installation, a reverse  configuration and a
 service start
 
 Installation of Nodered 
@@ -9,8 +9,8 @@ Installation of Nodered
 Here are the commands to launch to install nodered with a nodejs
 functional :
 
-    sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
-    sudo npm install -g node-red
+    .
+    
 
 To get Nodejs you can install one of the jeedom plugins which
 Charge.
@@ -27,12 +27,12 @@ Apache configuration
 ======================
 
 Here is an example of a file to access Nodered via a reverse
-proxy.
+.
 
     <Location /jeedom/nodered>
-    ProxyPass ws:// localhost:1880 / jeedom / nodered /
+    :// localhost:1880 / jeedom / nodered /
     ProxyPass http:// localhost:1880 / jeedom / nodered /
-    #ProxyPassReverse ws:// localhost:1880 / jeedom / nodered /
+    #:// localhost:1880 / jeedom / nodered /
     #ProxyPassReverse http:// localhost:1880 / jeedom / nodered /
     </Location>
 
@@ -40,19 +40,19 @@ Configuration of Nginx
 ======================
 
 Here is an example of a file to access Nodered via a reverse
-proxy.
+.
 
     location / jeedom / nodered / {
-      proxy_pass http://127.0.0.1:1880;
-      proxy_set_header Host $ host;
-      proxy_buffering off;
-      tcp_nodelay on;
-      access_log off;
-      proxy_http_version 1.1;
-      proxy_set_header Upgrade $ http_upgrade;
-      proxy_set_header Connection 'Upgrade';
-      proxy_redirect off;
-      proxy_read_timeout 6000;
+      _pass http://127.0.0.1:1880;
+      _set_header Host $ host;
+      
+      
+      
+      
+      _set_header Upgrade $ http_upgrade;
+      
+      
+      
     }
 
 Existing modules for Nodered 
@@ -68,14 +68,14 @@ install node-red-node-google -g \# sun events module sudo npm install
 node-red-contrib-sunevents -g \# Json path sudo npm install
 node-red-contrib-jsonpath -g \# geofence module, check if localization
 is in zone sudo npm install node-red-node-geofence -g \# geohas, decode
-latitude longitude from string sudo npm install node-red-node-geohash -g
+
 \# Foursquare, recommendation on location sudo npm install
 node-red-node-foursquare -g \# Ping sudo npm install
-node-red-contrib-advanced-ping -g sudo npm install node-red-node-ping -g
+
 \# WOL sudo npm install node-red-node-wol -g \# SNMP sudo npm install
 node-red-node-snmp -g \# Weather sudo npm install
-node-red-node-forecastio -g sudo npm install
-node-red-node-openweathermap -g sudo npm install
+
+
 node-red-node-weather-underground -g \# General GPIO sudo npm install
 node-red-contrib-gpio -g \# Electirc Imp sudo npm install imp-io -g \#
 Spark Core sudo npm install spark-io -g \# Arduino / Firmata sudo npm
@@ -86,11 +86,11 @@ npm install node-red-node-prowl -g \# XMPP sudo npm install
 node-red-node-xmpp -g \# IRC sudo npm install node-red-node-irc -g \#
 Slack sudo npm install node-red-contrib-slack -g \# Pusher sudo npm
 install node-red-node-pusher -g \# Storage sudo npm install
-node-red-node-dropbox -g sudo npm install node-red-node-flickr -g sudo
-npm install node-red-node-aws -g sudo npm install node-red-node-box -g
+
+
 \# Music sudo npm install node-red-contrib-mpd -g sudo npm install
 node-red-contrib-mopidy -g \# Activities sudo npm install
-node-red-node-fitbit -g sudo npm install node-red-node-jawboneup -g sudo
+
 npm install node-red-node-strava -g \# KNX / EIBD sudo npm install
 node-red-contrib-eibd -g \# OpenZwave sudo npm install
 node-red-contrib-openzwave -g \# RFXcom sudo npm install
@@ -104,7 +104,7 @@ Blinkstick sudo npm install node-red-node-blinkstick -g \# Blink1 sudo
 npm install node-red-node-blink1 -g \# Tellstick * sudo npm install
 node-red-contrib-tellstick -g \# PiTFT \#sudo npm install
 node-red-contrib-pitft-touch -g \# Pibrella \#sudo npm install
-node-red-node-pibrella -g \#sudo apt-get -y install python-rpi.gpio \#
+node-red-node-pibrella -g \#sudo apt-get -y install python-rpi.#
 PiBord \#sudo npm install node-red-node-ledborg -g \# Sensors \#sudo npm
 install node-red-contrib-bmp085 -g \#sudo npm install
 node-red-contrib-ds18b20-sensor -g \#sudo npm install
@@ -115,4 +115,4 @@ node \ _modules / node-red-node-hbgpio / gpiohb / usr / local / bin / \#sudo chm
 -g \# * BeagleBone Black \#sudo npm install beaglebone-io -g \#
 Galileo / Edison \#sudo npm install galileo-io -g \# Blend Micro \#sudo
 npm install blend-micro-io -g \# LightBlue Bean \#sudo npm install
-bean-io -g
+

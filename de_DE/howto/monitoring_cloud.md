@@ -64,14 +64,14 @@ Dann können Sie im Gesundheitsbereich von Jeedom sehen, ob es aktiv ist. Nach d
 
 >**Wichtig**
 >
-> Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:Endpunkt /"
+> Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn::::507915066327:Endpunkt /"
 
 ## Es ist mit allem kompatibel ?
 
 - Smart (getestet)
 - Debian x64 Stretch (getestet)
-- Debian x64 Jessie
-- RPI
+- 
+- 
 
 # Faq
 

@@ -5,11 +5,11 @@ Hardware | Estado | Observaciones
 --- | --- | ---
 Jeedomboard             | Estable                  |
 Colibrí            | Estable                  |
-Odroid C2               | Estable                  |                          
+               | Estable                  |                          
 INTELIGENTE                   | Estable                  |                          
-RPI1                    | Estable                  |                          
-RPI2                    | No ofaquíal / estable     |                          
-RPI3                    | No ofaquíal / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
+                    | Estable                  |                          
+                    | No ofaquíal / estable     |                          
+                    | No ofaquíal / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom. ATENCIÓN VmWare 6.5 requiere la instalación de un parche VMWare para el soporte de Zwave.         
@@ -23,7 +23,7 @@ luego en la carpeta Imágenes
 
 > **Nota**
 >
-> Una imagen netinstall instalará el
+> Una imagen  instalará el
 > última versión estable de Jeedom, por lo que esta startup es un poco más
 > largo y requiere acceso a internet. Puedes seguir
 > el progreso de ello yendo a la IP de su Jeedom con su
@@ -31,11 +31,11 @@ luego en la carpeta Imágenes
 
 | Imágenes         | Hardware       | Estado           | Acceso SSH      | Observaciones      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | Jeedomboard y | Beta           | root / Mjeedom96 |                |
-| netinstall     | colibrí   |                |                |                |
+| Jeedomboard    | Jeedomboard y |            | root / Mjeedom96 |                |
+|      | colibrí   |                |                |                |
 | Jeedomboard    | Jeedomboard y | Estable         | root / Mjeedom96 |                |
 |                | colibrí   |                |                |                |
-| Estibador         |                | Beta           | root / Mjeedom96 |                |
+| Estibador         |                |            | root / Mjeedom96 |                |
 
 
 Todas las demás imágenes descargables anteriormente ya no son
@@ -57,12 +57,12 @@ Software
 
 | Nombre                     | Estado                    | Observaciones                |
 |-------------------------|-------------------------|--------------------------|
-| PHP 5.5 o menos        | No compatible            |                          |
-| PHP 5.6                 | Estable                  |                          |
-| PHP 7.X                 | Estable                  |                          |
-| Mysql 5.5 / 5.6           | Estable                  |                          |
-| Mysql 5.7               | Beta                    |                          |
-| MariaBD                 | Estable                  |                          |
+| .5 o menos        | No compatible            |                          |
+| .6                 | Estable                  |                          |
+| .X                 | Estable                  |                          |
+| .5 / 5.6           | Estable                  |                          |
+| .7               |                     |                          |
+|                  | Estable                  |                          |
 
 Otro
 =====
@@ -77,7 +77,7 @@ Controlador ENOCEAN :
 
 Interfaz RFXCOM :
 
--   RFXtrx433 USB
+-   
 -   RFXtrx433E USB (recomendado)
 
 Gateway EDISIO :
@@ -88,11 +88,11 @@ Indicador led :
 
 -   parpadeo (1) mk2 (recomendado)
 
-Dongle GSM :
+ :
 
 -   HUAWEI E220 (Recomendado)
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G inalámbrico
+-   
+-   .2MBPS 3G inalámbrico
 
 Controlador Z-Wave :
 
@@ -143,7 +143,7 @@ El equipo de jeedom lo recomienda (según su presupuesto) :
 
 -   Jeedom INTELIGENTE (todo está preinstalado, no tiene que hacer nada)
 
--   Odroid C2 (mejor relación rendimiento / precio)
+-    (mejor relación rendimiento / precio)
 
 -   Intel Nuc gen6 (rendimiento extremo, vea la categoría tutorial
     para la elección en los diferentes modelos y la instalación)

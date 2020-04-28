@@ -8,14 +8,14 @@ Una vez conectado, debe recuperar los identificadores de la base de datos.
 Datos :
 
 ``` {.bash}
-cat /var/www/html/core/config/common.config.php
+
 ```
 
 Aquí encontrará la contraseña para acceder a la base de datos.
 Jeedom, entonces tienes que hacer :
 
 ``` {.bash}
-mysql -ujeedom -p
+
 ```
 
 Allí te pide la contraseña recuperada arriba (la contraseña

@@ -14,7 +14,7 @@ Tenga en cuenta que también tiene un campo de registro de cambios que debería 
 
 Como se ve arriba, solo tiene que indicar en el archivo de información.json el enlace http (s) a su documentación, por lo tanto, es libre en la presentación, el host o incluso el modo : 
 
-- un blog
+- 
 - un servidor web simple
 - github (único método que veremos aquí)
 

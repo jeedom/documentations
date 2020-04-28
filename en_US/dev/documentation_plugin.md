@@ -1,6 +1,6 @@
 # How to do the documentation of a plugin
 
-## Introduction
+## 
 
 We will see in this documentation how to do the documentation of your plugin.
 

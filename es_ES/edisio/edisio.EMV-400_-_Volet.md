@@ -9,7 +9,7 @@
 Resumen 
 ======
 
-El micromódulo EMV-400 le permitirá administrar un motor
+El micromódulo  le permitirá administrar un motor
 equipos bidireccionales o eléctricos. Permite el control
 2 salidas Start / Detener o un obturador Open / Detener / Close.
 
@@ -62,7 +62,7 @@ Características técnicas
 
 -   Tipo de módulo: Receptor Edisio
 
--   Suministro: 230VAC, 50Hz
+-   Suministro: 
 
 -   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
@@ -72,22 +72,22 @@ Características técnicas
 
 -   Potencia máxima: 2A por salida
 
--   Carga resistiva: 460W
+-   Carga resistiva: 
 
--   Otros cargos: 100W
+-   Otros cargos: 
 
 -   Temperatura de funcionamiento: -10 ° C + 45 ° C
 
--   Dimensiones: 48x46x26mm
+-   Dimensiones: 
 
--   Grado de protección: IP20
+-   Grado de protección: 
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer : 
 
--   Nombre : EMV-400
+-   Nombre : 
 
 Configuración general 
 ======================

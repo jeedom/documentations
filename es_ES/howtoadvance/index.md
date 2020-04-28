@@ -5,7 +5,7 @@
 - [Mariadb / Mysql tip and tip](/ documentations / fr_FR / howto / mysql.trucs_et_astuces)
 - [Github](/ documentations / fr_FR / howto / tuto.github)
 
-## Debian
+## 
 
 - [Instalación](/ documentations / fr_FR / howto / debian.installation)
 - [Consejos y trucos](/ documentations / fr_FR / howto / debian.trucs_et_astuces)
