@@ -4,19 +4,19 @@ Hardware
 Jeedom can be installed on different hardware components :
 
 -   a Raspberry pi 2 or 3
--    NAS
+-   Synology NAS
 -   any Linux system based on Debian 9 (stretch)
--   
+-   Freebox Delta
 
 You can also buy a ready-made box with Jeedom preinstalled which also contains a service pack (more support and services) and plugins offered :
 
--   [ Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
+-   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
--   [ Z-Wave + and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave + and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
 
--   [](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [ and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
 Here is a "typical" configuration to get started with Jeedom in Z-Wave :
 
@@ -39,10 +39,10 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Service pack ?  ? Vous pouvez voir [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
+> Service pack ? What is it ? Vous pouvez voir [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
 
-
+Jeedom Smart
 ===========
 
 Here you will find step by step documentation to install or restore Jeedom
@@ -80,9 +80,9 @@ Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous 
 Step 4 : Burning the image to the SD card
 ---
 
-Insert your SD card in your computer then launch the Etcher software, give it the path of the image, the path of the SD card and click on "Fla!". The software will burn the SD card and check the burning.
+Insert your SD card in your computer then launch the Etcher software, give it the path of the image, the path of the SD card and click on "Flash!". The software will burn the SD card and check the burning.
 
-You just have to put the SD card in the Jeedomboard (or Hummingboard), connect the network and the power supply, your Jeedom will start (5 min) and you ould see it on the network.
+You just have to put the SD card in the Jeedomboard (or Hummingboard), connect the network and the power supply, your Jeedom will start (5 min) and you should see it on the network.
 
 > **Tip**
 >
@@ -91,7 +91,7 @@ You just have to put the SD card in the Jeedomboard (or Hummingboard), connect t
 Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 
-
+Raspberrypi
 ===========
 
 You will find here the documentation to install Jeedom on a raspberry PI **with an SD card.**
@@ -102,23 +102,23 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 **1 / Download the last "lite" image, ie without graphical interface** [here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-**2 / Decompress the image with winrar** [here](http://www.win-rar.com)
+**2/ Decompress the image with winrar** [here](http://www.win-rar.com)
 
-**3 / Burn this image on an SD with etcher for example** [here](https://etcher.io/)
+**3/ Burn this image on an SD with etcher for example** [here](https://etcher.io/)
 
 > **NOTE**
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
-**4 / Activate SSH access**
+**4/ Activate SSH access**
 
 > **Warning**
 >
 > For security reasons, SSH access is no longer enabled by default on this distribution. So you have to activate it.
 
-An empty s file must be created on the boot partition (the only one accessible under windows).
+An empty ssh file must be created on the boot partition (the only one accessible under windows).
 
-Just right click : new / text document and rename it to "s" **without extension**
+Just right click : new / text document and rename it to "ssh" **without extension**
 
 > **IMPORTANT**
 >
@@ -126,11 +126,11 @@ Just right click : new / text document and rename it to "s" **without extension*
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-**5 / Start the PI**
+**5/ Start the PI**
 
 Insert your SD card, connect the network cable, connect the power.
 
-**6 / Connect using SSH**
+**6/ Connect using SSH**
 
 Identify your Pi on the network
 
@@ -139,21 +139,21 @@ You need to know the IP address of your PI. Many solutions :
 -   Consult the DHCP configuration in your router
 -   Utilisez un scanner de port type "angyipscanner" [here](http://angryip.org/download/#windows)
 
-Establi connection
+Establish connection
 
 Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
 
-Log in with credentials ****
+Log in with credentials **pi / raspberry**
 
 > **IMPORTANT**
 >
 > For security reasons, it is imperative to change the default notsword. Cases of hacking based on the use of the default login / notsword pair of the Raspberry are particularly widespread. (notswd and sudo notswd command)
 
-**7 / Launch the jeedom installation script**
+**7/ Launch the jeedom installation script**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install. | 
+    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
 
 **The sudo notsword is also raspberry**
 
@@ -172,10 +172,10 @@ Then just go to IP \ _MACHINE \ _JEEDOM
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root notsword
 
 ````
-./install. -w /var/www/html -z -m Jeedom
+./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-**8 / System optimization**
+**8/ System optimization**
 
 If you use your Raspberry for Jeedom without a screen connected, it is recommended to carry the minimum RAM at the video part.
 
@@ -195,22 +195,22 @@ Reboot your RPI
 
 Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
-
+Freebox Delta
 =============
 
-It is possible to install on  Jeedom via the  system.
+It is possible to install on Freebox Delta Jeedom via the VM system.
 
 Step 1 : Connection to the Delta
 ---
 
-You must go to the configuration interface of your . Then click on s.
+You must go to the configuration interface of your Freebox Delta. Then click on VMs.
 
 ![delta1](images/delta1.png)
 
 2nd step : Set the different options
 ---
 
-Click on "Add a "
+Click on "Add a VM"
 ![delta2](images/delta2.png)
 
 Configure features. We recommend that you put 2 CPUs and the maximum in RAM.
@@ -232,22 +232,22 @@ Step 4 : Connect to your Jeedom
 You can connect using the address indicated on the page:
 ![delta6](images/delta6.png)
 
-Remember to assign the Delta's USB port to the  if you want to use an antenna.
+Remember to assign the Delta's USB port to the VM if you want to use an antenna.
 
 Born **not** check "Screen", this is useless on the Jeedom image (apart from overconsumption).
 
-The IP address of your Jeedom on the  is written at the top, under its name.
+The IP address of your Jeedom on the Freebox Delta is written at the top, under its name.
 
 The default login and notsword are admin / admin when you access jeedom via your browser.
 
 Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
-
+VM
 ==
 
-If you want to discover Jeedom without risk, you can also virtualize it on your PC, here is the procedure to follow. You take no risk in a , the integrity of your PC is protected :
+If you want to discover Jeedom without risk, you can also virtualize it on your PC, here is the procedure to follow. You take no risk in a VM, the integrity of your PC is protected :
 
-Step 1 : Download and install ware Player
+Step 1 : Download and install VMware Player
 ---
 
 Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
@@ -257,9 +257,9 @@ Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox
 
 Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
-Stage 3 : Configuring the  environment
+Stage 3 : Configuring the VM environment
 ---
 
 Click on new and fill in the fields as below :
@@ -273,7 +273,7 @@ Click on new and fill in the fields as below :
 -   Click on next, Choose a size for the space (4GB is enough)
 -   Click on create
 
-Step 4 :  launch
+Step 4 : VM launch
 ---
 
 -   Click on configuration
@@ -303,12 +303,12 @@ It's classic…
 
 ![VirtualBox5](images/VirtualBox5.PNG)
 
--   For Grub, do not worry, the boot sector is that of the , not that of your PC. No risk of breaking anything.
+-   For Grub, do not worry, the boot sector is that of the VM, not that of your PC. No risk of breaking anything.
 
 Step 6 : Jeedom installation
 ---
 
--   Launch your 
+-   Launch your VM
 -   Identify yourself with the user and notsword chosen during installation
 -   Go root
 
@@ -319,9 +319,9 @@ Step 6 : Jeedom installation
 
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.
-chmod +x install.
-./install.
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+chmod +x install.sh
+./install.sh
 ````
 
 -   and let it go ...
@@ -329,7 +329,7 @@ chmod +x install.
 Step 7 : Jeedom launch
 ---
 
--   To know the Ip Lan address of the 
+-   To know the Ip Lan address of the VM
 
 ````
 ip -s -c -h a
@@ -385,13 +385,13 @@ J'utilise [celle-ci](https://hub.docker.com/_/mysql/). To install it :
 
 Then launch it :
 
-``sudo docker run --name  -v / opt / jeedom / mysql:/var/lib/mysql -e _ROOT_PASSWORD= -d mysql:latest``
+``sudo docker run --name jeedom-mysql -v / opt / jeedom / mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-notsword -d mysql:latest``
 
 With :
 
--    : the name of the mysql container
+-   jeedom-mysql : the name of the mysql container
 -   / opt / jeedom / mysql : the file of the host where we have to store MySql data
--    : the root notsword of the MySql instance
+-   your-mysql-notsword : the root notsword of the MySql instance
 
 Stage 3 : Installing a Jeedom image
 ---
@@ -402,13 +402,13 @@ Image installation :
 
 Then launch the :
 
-``sudo docker run --name  --link :mysql --privileged -v / your / jeedom / path:/var/www/html -e ROOT_PASSWORD= -p 9080:80 -p 9022:22 jeedom/jeedom``
+``sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v / your / jeedom / path:/var/www/html -e ROOT_PASSWORD=your-root-notsword -p 9080:80 -p 9022:22 jeedom/jeedom``
 
 With :
 
--    : jeedom Docker name wanted
+-   jeedom-server : jeedom Docker name wanted
 -   / your / jeedom / path : directory where Jeedom data is put on the host
--    : root notsword to access Jeedom in SSH
+-   your-root-notsword : root notsword to access Jeedom in SSH
 
 Then you need to install Jeedom by going to : IP \ _DOCKER:9080 and enter the connection information to mysql :
 
@@ -418,12 +418,12 @@ Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](htt
 
 > **IMPORTANT**
 >
-> For the name of the host MySql, you have to put 
+> For the name of the host MySql, you have to put jeedom-mysql
 
-
+Synology
 ========
 
-Here you will find the documentation step by step to install Jeedom on a  (DSM 5..
+Here you will find the documentation step by step to install Jeedom on a Synology (DSM 5.2 minimum).
 
 Step 1 : Docker installation
 ================================
@@ -436,7 +436,7 @@ Click all, then install the Docker package
 
 ![install synology 2](images/install_synology_2.PNG)
 
-Wait until the installation is finied :
+Wait until the installation is finished :
 
 ![install synology 3](images/install_synology_3.PNG)
 
@@ -453,7 +453,7 @@ Launch the Docker application :
 
 ![install synology 4](images/install_synology_4.PNG)
 
-
+MYSQL
 -----
 
 Click on "Register" :
@@ -472,7 +472,7 @@ Then click on image, here you can follow the progress of the download (can take 
 
 ![install synology 16](images/install_synology_16.PNG)
 
-Once finied, click on the image then launch :
+Once finished, click on the image then launch :
 
 ![install synology 17](images/install_synology_17.PNG)
 
@@ -488,15 +488,15 @@ Click on "Advanced settings" :
 
 ![install synology 34](images/install_synology_34.PNG)
 
-Then on "Add a folder", and there, put the desired folder on the  side (it is in this folder that there will be all the files in the database) and / var / lib / mysql on the container side (be careful uncheck "Read only")
+Then on "Add a folder", and there, put the desired folder on the Synology side (it is in this folder that there will be all the files in the database) and / var / lib / mysql on the container side (be careful uncheck "Read only")
 
 ![install synology 32](images/install_synology_32.PNG)
 
-Click on "Environment" then "Add a variable" and putting in "Variable" : " \ _ROOT \ _PASSWORD "and in value put the desired BDD notsword (it will be used later). Then validate :
+Click on "Environment" then "Add a variable" and putting in "Variable" : "MYSQL \ _ROOT \ _PASSWORD "and in value put the desired BDD notsword (it will be used later). Then validate :
 
 ![install synology 33](images/install_synology_33.PNG)
 
-Check "Run this container when the wizard has finied" then click on "Apply".
+Check "Run this container when the wizard has finished" then click on "Apply".
 
 Jeedom
 ------
@@ -515,7 +515,7 @@ Then click on image, here you can follow the progress of the download (can take 
 
 ![install synology 21](images/install_synology_21.PNG)
 
-Once finied, click on the image then launch :
+Once finished, click on the image then launch :
 
 ![install synology 22](images/install_synology_22.PNG)
 
@@ -535,7 +535,7 @@ Then on "Add a folder"
 
 ![install synology 26](images/install_synology_26.PNG)
 
-Choose a folder on your  (it is in this folder that there will be all jeedom files), be careful to uncheck "Read only"
+Choose a folder on your Synology (it is in this folder that there will be all jeedom files), be careful to uncheck "Read only"
 
 ![install synology 27](images/install_synology_27.PNG)
 
@@ -547,18 +547,18 @@ Check "Run the container using elevated privileges" then validate everything :
 
 ![install synology 29](images/install_synology_29.PNG)
 
-Check "Run this container when the wizard has finied" then click on "Apply".
+Check "Run this container when the wizard has finished" then click on "Apply".
 
 > **Advanced configuration setting**
 >
 > There are 3 optional configuration parameters, these parameters must be notsed as an environment variable
-> -  : allows to change the default port (80) for listening to the web server
-> -  : allows to change the default port (22) for listening to s
-> -  : indicates that the network is in host mode
+> - APACHE_PORT : allows to change the default port (80) for listening to the web server
+> - SSH_PORT : allows to change the default port (22) for listening to ssh
+> - MODE_HOST : indicates that the network is in host mode
 
 > **IMPORTANT**
 >
-> Certain plugin you need to have the network broadcast (Xioami plugin type), for that you must ABSOLUTELY switch to the network in host mode (only possible during creation), change the default listening port of the web server and s by unused ports (type 9080 for the web server and 9022 for the s), and set the variable  to 1
+> Certain plugin you need to have the network broadcast (Xioami plugin type), for that you must ABSOLUTELY switch to the network in host mode (only possible during creation), change the default listening port of the web server and ssh by unused ports (type 9080 for the web server and 9022 for the ssh), and set the variable MODE_HOST to 1
 
 Stage 3 : Jeedom configuration
 ---
@@ -597,9 +597,9 @@ Here you will find the documentation to install Jeedom on most linux systems (te
 Connect in SSH to your system and do :
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.
-chmod +x install.
-./install.
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+chmod +x install.sh
+./install.sh
 ````
 
 Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
@@ -613,7 +613,7 @@ Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root notsword
 
 ````
-./install. -w /var/www/html -z -m Jeedom
+./install.sh -w /var/www/html -z -m Jeedom
 ````
 
 Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index).

@@ -1442,7 +1442,7 @@
     },
     "howtoadvance\/mysql.trucs_et_astuces.md": {
         "Pas vraiment un howto ici mais plus un recueil de trucs et astuces sur": "Not really a howto here but more a collection of tips and tricks on",
-        "MySQL": "",
+        "MySQL": "MYSQL",
         "Désactiver le performance schéma": "Disable schema performance",
         "Editez le fichier \/etc\/mysql\/mysql.conf.d\/mysqld": "Edit the file \/etc\/mysql\/mysql.conf.d\/mysqld",
         "cnf et ajoutez dedans": "cnf and add in",

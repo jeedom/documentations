@@ -1,5 +1,5 @@
 Not really a howto here but more a collection of tips and tricks on
-
+MYSQL
 
 Disable schema performance 
 ================================
@@ -9,7 +9,7 @@ Edit the file /etc/mysql/mysql.conf.d/mysqld.cnf and add in :
     [mysqld]
     performance_schema = OFF
 
-Optimizing  
+Optimizing MYSQL 
 ===============
 
 > **IMPORTANT**
@@ -17,7 +17,7 @@ Optimizing
 > This method is at your own risk. In case of any worries
 > support will only be possible.
 
--   Stop the  daemon and delete the log files :
+-   Stop the MYSQL daemon and delete the log files :
 
 <!-- -->
 
@@ -42,7 +42,7 @@ Optimizing
     
     
 
--   Relaunch  :
+-   Relaunch MYSQL :
 
 <!-- -->
 
