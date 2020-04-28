@@ -35,8 +35,7 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 > **Tip**
 >
-> Jeedom est un logiciel qui est et restera open source, son utilisation est entièrement gratuite et ne dépend pas d’un cloud ou d’un abonnement. Cependant, certains plugins qui permettent d’augmenter les
-> capacités de Jeedom ou son utilisation peuvent être payants **et peuvent avoir besoin d’une connexion internet**. Vous pouvez retrouver la liste des plugins [ici](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
+> Jeedom est un logiciel qui est et restera open source, son utilisation est entièrement gratuite et ne dépend pas d’un cloud ou d’un abonnement. Cependant, certains plugins qui permettent d’augmenter les capacités de Jeedom ou son utilisation peuvent être payants **et peuvent avoir besoin d’une connexion internet**. Vous pouvez retrouver la liste des plugins [ici](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Tip**
 >
@@ -105,9 +104,12 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **
 
 [ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-**2/ Décompresser l’image avec winrar** [Ici](http://www.win-rar.com)
+**2/ Décompresser l’image avec winrar**
+
+[ici](http://www.win-rar.com)
 
 **3/ Gravez cette image sur une SD avec etcher par exemple**
+
 [ici](https://etcher.io/)
 
 > **Note**
@@ -175,7 +177,9 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 >
 > Les arguments suivants sont utilisables : -w = dossier webserver -z = installation dependances z-wave -m = mot de passe root mysql désiré
 
-    ./install.sh -w /var/www/html -z -m Jeedom
+````
+./install.sh -w /var/www/html -z -m Jeedom
+````
 
 **8/ Optimisation système**
 
@@ -185,11 +189,13 @@ Il suffit de se connecter en **SSH** et de modifier le fichier config : `sudo na
 
 Ajoutez **et/ou** De-commentez (en supprimant le #) **et/ou** Modifiez les lignes :
 
-`gpu_mem=16`
-`disable_l2cache=0`
-`gpu_freq=250`
+````
+gpu_mem=16
+disable_l2cache=0
+gpu_freq=250
+````
 
-Quittez en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
+Quittez en sauvegardant : `CTRL+X` puis `O` puis `ENTREE`
 
 Rebootez votre RPI
 
@@ -354,7 +360,6 @@ Docker
 > Attention, nous partons ici du principe que vous maîtrisez déjà Docker
 
 Pour découvrir Jeedom, vous pouvez aussi le faire tourner dans un conteneur Docker :
-
 
 Etape 1 : Installation de docker
 ---
