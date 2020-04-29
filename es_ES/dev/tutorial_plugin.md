@@ -1,39 +1,39 @@
 > **Importante**
 >
-> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente.  [aquí](https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
+> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente. Puedes encontrar el original [aquí](https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
 
-Aquí hay un breve tutorial pora explicar cómo crear un complemento. Pora el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde. .(El complemento será escalable)
+Aquí hay un breve tutorial pora explicar cómo crear un complemento. Pora el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde.fr .(El complemento será escalable)
 
- [](https:/ // /jeedom.github.io/ /plugin-template/ /_FR/ /)
+No reemplaza el [documentación ofaquíal](https:/ // /jeedom.github.io/ /plugin-template/ /es_ES/ /)
 
-# Crear la  del complemento
+# Crear la base del complemento
 
 Pora comenzar, debe dyerminar un nombre y una Identificaciónentificaciónentificación (que no debe existir)
 
 Nombre : VIdentificaciónentificacióna de caca
-Identificación : 
+Identificación : vdm
 
- [](https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
+Descargue el complemento de plantilla pora tener el [base](https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
 
-escomprime el archivo . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rporty , core , desktop…
+Descomprime el archivo . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rporty , core , desktop…
 
 Vamos.
 
-Renommer le dossier « plugin-template-master » en «  » (l'Identificaciónentificación) du plugin.
+Renommer le dossier « plugin-template-master » en « vdm » (l'Identificaciónentificación) du plugin.
 
 1 / / Abra el archivo plugin_info / / info.json y edita el.
 
 ```
 {
-	"Identificaciónentificación" : "",
+	"Identificaciónentificación" : "vdm",
 	"nombre" : "VIdentificaciónentificacióna de caca",
-	"escripción" : "Plugin pora recuperar el último ",
+	"Descripción" : "Plugin pora recuperar el último vdm",
 	"Licencia" : "AGPL",
-	"autor" : "",
+	"autor" : "Zyg0m4t1k",
 	"exigir" : "3.2",
 	"categoría" : "Monitoreo",
 	"Cambios" : "",
-	"ocumentación" : "",
+	"Documentación" : "",
 	"Identificaciónentificaciónioma" : "",
 	"compatibilIdentificaciónentificaciónad" : ""	
 }
@@ -41,7 +41,7 @@ Renommer le dossier « plugin-template-master » en «  » (l'Identificaciónent
 
 Copia y pega el código de arriba.
 
-Cambié la Identificaciónentificaciónentificación (), el nombre, agregué una descripción, el autor y la categoría.
+Cambié la Identificaciónentificaciónentificación (vdm), el nombre, agregué una descripción, el autor y la categoría.
 
 exigir : versión mínima de jeedom pora tener acceso al complemento en el mercado.
 
@@ -49,9 +49,9 @@ Registro de cambios, documentación, Identificaciónentificaciónioma, compatibi
 
 2 / / Cambiaremos el nombre de los archivos necesarios pora que Jeedom reconozca el complemento
 
--	Cambie el nombre del archivo core / / ajax / / template.ajax.php a .ajax.php
+-	Cambie el nombre del archivo core / / ajax / / template.ajax.php a vdm.ajax.php
 
--	Cambie el nombre del archivo core / / class / / template.class.php a .class.php y ábrelo pora editarlo. 
+-	Cambie el nombre del archivo core / / class / / template.class.php a vdm.class.php y ábrelo pora editarlo. 
 
 Reemplazar
 
@@ -63,7 +63,7 @@ por
 
 
 ```
-clase  extiende eqLogic {
+clase vdm extiende eqLogic {
 ```
 
 y
@@ -75,11 +75,11 @@ class templateCmd extiende cmd
 por
 
 ```
-clase Cmd extiende cmd
+clase vdmCmd extiende cmd
 ```
 
-- Cambie el nombre del archivo core / / php / / template.inc.php a core / / php / / .inc.php
-- Cambie el nombre del archivo de escritorio / / php / / template.php a escritorio / / php / / .php y ábrelo
+- Cambie el nombre del archivo core / / php / / template.inc.php a core / / php / / vdm.inc.php
+- Cambie el nombre del archivo de escritorio / / php / / template.php a escritorio / / php / / vdm.php y ábrelo
 
 Reemplazar
 
@@ -90,7 +90,7 @@ $plugin = plugin::byIdentificación('template');
 Por 
 
 ```
-$plugin = plugin::byIdentificación(‘');
+$plugin = plugin::byIdentificación(‘vdm');
 ```
 
 ```
@@ -140,49 +140,49 @@ Por
 Por
 
 ```
-<?php include_file('desktop', , 'js', );?>
+<?php include_file('desktop', vdm, 'js', vdm);?>
 ```
 
 Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.plantilla ',' js ');?>
 
--Cambie el nombre del archivo desktop / / modal / / modal.template.php en escritorio / / modal / / modal..php
+-Cambie el nombre del archivo desktop / / modal / / modal.template.php en escritorio / / modal / / modal.vdm.php
 
--Cambie el nombre del archivo de escritorio / / js / / template.js en desktop / / js / / .js
+-Cambie el nombre del archivo de escritorio / / js / / template.js en desktop / / js / / vdm.js
 
 - Abra el archivo plugin_info / / install.php
 
 Y cambie el nombre de las funciones de la siguiente manera
 
 ```
-función _install () {
+función vdm_install () {
     
 }
 
-función _update () {
+función vdm_update () {
     
 }
 
 
-función _remove () {
+función vdm_remove () {
     
 }
 ```
 
- : [ocumentación](https:/ // /doc.jeedom.com/ /_FR/ /dev/ /Icone_de_plugin)
+Aquí el complemento está listo pero queda la personalización y el ícono pora actualizar : [Documentación](https:/ // /doc.jeedom.com/ /es_ES/ /dev/ /Icone_de_plugin)
 
-Agregue el icono en la carpya plugin_info bajo el nombre _icon.png
+Agregue el icono en la carpya plugin_info bajo el nombre vdm_icon.png
 
 en mi caso 
 
-![image](images/ /tutorial__icon.png)
+![image](images/ /tutorial_vdm_icon.png)
 
-Ahora podemos copiar la carpya  en la carpya del complemento Jeedom e ir a la administración del complemento. Encontramos el complemento.
+Ahora podemos copiar la carpya vdm en la carpya del complemento Jeedom e ir a la administración del complemento. Encontramos el complemento.
 
-![image](images/ /tutorial__plugin.png)
+![image](images/ /tutorial_vdm_plugin.png)
 
 Lo activamos y luego complementos / / Monitoreo / / VIdentificaciónentificacióna de caca
 
-![image](images/ /tutorial__desktop1.png)
+![image](images/ /tutorial_vdm_desktop1.png)
 
 no está bien porque el color de la mayoría no coincIdentificaciónentificacióne con el color del icono.
 
@@ -190,7 +190,7 @@ Abro el archivo de escritorio / / php / / escritorio.PHP pora arreglar.
 
 ```
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;wIdentificaciónentificaciónth : 160px;margin-left : 10px;" >
-        <i class="fa fa-plus-circle" style="font-size : 6em;color:#"></ /i>
+        <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></ /i>
         <br>
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</ /span>
       </ /div>
@@ -199,13 +199,13 @@ Abro el archivo de escritorio / / php / / escritorio.PHP pora arreglar.
 Sustituyo
 
 ```
-color:#"
+color:#94ca02;"
 ```
 
 por 
 
 ```
-color:#"
+color:#00A9EC;"
 ```
 
 También notamos que los textos no están alineados, por lo que corregimos el estilo de la configuración (propiedad superior)
@@ -220,23 +220,23 @@ por
 <span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</ /span>
 ```
 
-![image](images/ /tutorial__desktop2.png)
+![image](images/ /tutorial_vdm_desktop2.png)
 
-Aquí está la  está lista. ebería tener el complemento de activos, pero por el momento no hace nada.
+Aquí está la base está lista. Debería tener el complemento de activos, pero por el momento no hace nada.
 
 # Las órdenes
 
-El propósito del complemento será recuperar un  aleatorio y mostrarlo en el tablero. 
+El propósito del complemento será recuperar un vdm aleatorio y mostrarlo en el tablero. 
 
 Por lo tanto, debe crear un comando de tipo de información pora almacenar esta información. Elle sera de sous-type « String » car c'est une chaîne de caractère.
 
 Pora el ejemplo agregaremos un comando que actualiza la información. Por lo tanto, será un comando de tipo de acción y otro subtipo.
 
--Créer un équipement « 1 » en cliquant sur le +. Actívalo y hazlo visible. Elija un objyo y el equipo debe aporecer en el tablero (dependiendo del objyo). 
+-Créer un équipement « vdm1 » en cliquant sur le +. Actívalo y hazlo visible. Elija un objyo y el equipo debe aporecer en el tablero (dependiendo del objyo). 
 
 En este momento, no hay comandos que aporezcan en la pestaña de comandos s, ni en el wIdentificaciónentificacióngy.
 
-Abra el archivo core / / class / / .class.php y busque la función postSave () (Lea el documento del complemento de plantilla si aún no lo ha hecho)
+Abra el archivo core / / class / / vdm.class.php y busque la función postSave () (Lea el documento del complemento de plantilla si aún no lo ha hecho)
 
 Creamos los 2 pedIdentificaciónentificaciónos
 
@@ -244,7 +244,7 @@ Creamos los 2 pedIdentificaciónentificaciónos
 función pública postSave () {
 	$info = $this->gyCmd(null, 'story');
 	si (!is_object ($ info)) {
-		$info = new Cmd();
+		$info = new vdmCmd();
 		$info->syName(__('Histoire', __FILE__));
 	}
 	$info->syLogicalIdentificación('story');
@@ -253,28 +253,28 @@ función pública postSave () {
 	$info->sySubType('string');
 	$info->save();	
 	
-	$reesh = $this->gyCmd(null, 'reesh');
-	si (!is_object ($ reesh)) {
-		$reesh = new Cmd();
-		$reesh->syName(__('Raaichir', __FILE__));
+	$refresh = $this->gyCmd(null, 'refresh');
+	si (!is_object ($ refresh)) {
+		$refresh = new vdmCmd();
+		$refresh->syName(__('Rafraichir', __FILE__));
 	}
-	$reesh->syEqLogic_Identificaciónentificación($this->gyIdentificación());
-	$reesh->syLogicalIdentificación('reesh');
-	$reesh->syType('action');
-	$reesh->sySubType('other');
-	$reesh->save();        
+	$refresh->syEqLogic_Identificaciónentificación($this->gyIdentificación());
+	$refresh->syLogicalIdentificación('refresh');
+	$refresh->syType('action');
+	$refresh->sySubType('other');
+	$refresh->save();        
 }
 ```
 
--Créer un autre équipement « 2 » en cliquant sur le +. En la pestaña de comandos, aporecieron los comandos. Actívalo y hazlo visible. Elija un objyo principal y vea cómo se ve en el tablero.
+-Créer un autre équipement « vdm2 » en cliquant sur le +. En la pestaña de comandos, aporecieron los comandos. Actívalo y hazlo visible. Elija un objyo principal y vea cómo se ve en el tablero.
 
--Enregistrer le premier équipement « 1 » pour créer les commandes. Vea el renderizado en el wIdentificaciónentificacióngy también.
+-Enregistrer le premier équipement « vdm1 » pour créer les commandes. Vea el renderizado en el wIdentificaciónentificacióngy también.
 
 En la pestaña de comandos, deberías ver.
 
-![image](images/ /tutorial__cmd1.png)
+![image](images/ /tutorial_vdm_cmd1.png)
 
-Abra el escritorio / / php / / .php pora encontrar el código html de esta tabla.
+Abra el escritorio / / php / / vdm.php pora encontrar el código html de esta tabla.
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
@@ -289,7 +289,7 @@ Abra el escritorio / / php / / .php pora encontrar el código html de esta tabla
 </ /table>
 ```
 
-En el momento de la visualización, es el script de escritorio / / js / / .js que se llama y lanza la función addCmdToTable.
+En el momento de la visualización, es el script de escritorio / / js / / vdm.js que se llama y lanza la función addCmdToTable.
 
 ```
 función addCmdToTable (_cmd) {
@@ -297,9 +297,9 @@ función addCmdToTable (_cmd) {
         var _cmd = {configuración: {}};
     }
     si (!issy (_cmd.configuration)) {
-        
+        _cmd.configuration = {};
     }
-    <html> var tr = '.
+    <html> var tr = '.Identificaciónentificación) + '">';
     tr + = ' <td> ';
     <html> tr + = ':ninguno; "> ';
     <html> tr + = ' : 140px; "marcador de posaquíón =" {{Nombre}} "> ';
@@ -309,7 +309,7 @@ función addCmdToTable (_cmd) {
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </ /td> ';
     tr + = ' <td> ';
-    si (es_numeric (_cmd. {
+    si (es_numeric (_cmd.Identificaciónentificación)) {
         tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="configure"><i class="fa fa-cogs"></ /i></ /a> ';
         tr + = &#39; <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></ /i> {{Test}}</ /a> &#39;;
     }
@@ -341,7 +341,7 @@ Luego edite el escritorio.js, encuentra
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </ /td> ';
     tr + = ' <td> ';
-    si (es_numeric (_cmd. {
+    si (es_numeric (_cmd.Identificaciónentificación)) {
 ```
 
 Agregamos la información deseada.
@@ -354,10 +354,10 @@ Agregamos la información deseada.
    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" / /> {{Ver}} <br/ /></ /span> ';
    tr + = ' </ /td> ';		
     tr + = ' <td> ';
-    si (es_numeric (_cmd. {
+    si (es_numeric (_cmd.Identificaciónentificación)) {
 ```
 
-ejo el botón pora crear un pedIdentificaciónentificacióno, pero quiero que esté a la izquierda.. 
+Dejo el botón pora crear un pedIdentificaciónentificacióno, pero quiero que esté a la izquierda.. 
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
@@ -371,45 +371,45 @@ Cambio la clase pull-right a pull-left
 
 Aquí está la representación.Las opciones de configuración (pantalla y registro) están presentes. 
 
-![image](images/ /tutorial__cmd2.png)
+![image](images/ /tutorial_vdm_cmd2.png)
 
-Aquí queda recuperar un  aleatorio y usar los comandos.
+Aquí queda recuperar un vdm aleatorio y usar los comandos.
 
 
 # Recuperación de información
 
-Pora recuperar aleatoriamente un .
+Pora recuperar aleatoriamente un vdm.
 
 ```
-$url = "http:/ // /www.viedemerde./ /aleatoire";
+$url = "http:/ // /www.viedemerde.fr/ /aleatoire";
 $data = file_gy_contents($url);
-@$dom = new OMocument();
+@$dom = new DOMDocument();
 libxml_use_internal_errors (false);
 $dom->loadHTML('<?xml encoding="UTF-8">' .$data);
 libxml_use_internal_errors (true);
-$xpath = new OMXPath($dom);
+$xpath = new DOMXPath($dom);
 $divs = $xpath->query('/ // /article[@class="art-panel col-xs-12"]/ // /div[@class="panel-content"]/ // /p/ // /a');
 devuelve $ divs [0] -> nodeValue;
 ```
 
-Abra el archivo core / / class / / .class.php y pora la clase  que hereda de los métodos egLogic, creo una función randomVdm
+Abra el archivo core / / class / / vdm.class.php y pora la clase vdm que hereda de los métodos egLogic, creo una función randomVdm
 
 ```
 	función pública randomVdm () {
-		$url = "http:/ // /www.viedemerde./ /aleatoire";
+		$url = "http:/ // /www.viedemerde.fr/ /aleatoire";
 		$data = file_gy_contents($url);
-		@$dom = new OMocument();
+		@$dom = new DOMDocument();
 		libxml_use_internal_errors (true);
 		$dom->loadHTML($data);
 		libxml_use_internal_errors (false);
-		$xpath = new OMXPath($dom);
+		$xpath = new DOMXPath($dom);
 		$divs = $xpath->query('/ // /article[@class="art-panel col-xs-12"]/ // /div[@class="panel-content"]/ // /p/ // /a');
 		devuelve $ divs [0] -> nodeValue;
 	}
 ```	
 
 Ahora actualizaremos el comando de información (historia) con esta información inaquíando el comando de acción (actualizar). 
-Todavía en core / / class / / .class.php pora la clase Cmd usaremos el método execute 
+Todavía en core / / class / / vdm.class.php pora la clase vdmCmd usaremos el método execute 
 
 ```
 función pública ejecutar ($ _ options = array ()) {
@@ -418,13 +418,13 @@ función pública ejecutar ($ _ options = array ()) {
  }
 ```
 
-C'est aquí qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». La clase Cmd heredó todos los métodos de la clase cmd (Core jeedom)
+C'est aquí qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». La clase vdmCmd heredó todos los métodos de la clase cmd (Core jeedom)
 
-On vérifie le logicalIdentificación de la commande lancée y si « reesh » on lance les actions
+On vérifie le logicalIdentificación de la commande lancée y si « refresh » on lance les actions
 
 ```
 switch ($ this-> gyLogicalIdentificación ()) {				
-	caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
+	caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase vdm . 
 	/ // / código pora actualizar mi pedIdentificaciónentificacióno
 	pausa;
 }
@@ -449,8 +449,8 @@ Que da al final
     función pública ejecutar ($ _ options = array ()) {
 		$eqlogic = $this->gyEqLogic(); / // /récupère l'éqlogic de la commande $this
 		switch ($ this-> gyLogicalIdentificación ()) {/ // / comprueba el logicalIdentificaciónentificación del comando 			
-			caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
-				$info = $eqlogic->randomVdm(); 	/ // /On lance la fonction randomVdm() pour récupérer une  y on la stocke dans la variable $info
+			caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase vdm . 
+				$info = $eqlogic->randomVdm(); 	/ // /On lance la fonction randomVdm() pour récupérer une vdm y on la stocke dans la variable $info
 				$eqlogic->checkAndUpdateCmd('story', $info); / // / on my à jour la commande avec le LogicalIdentificación "story"  de l'eqlogic 
 				pausa;
 		}
@@ -467,7 +467,7 @@ Luego automatiza la actualización.
 
 # Actualizar información (cron)
 
-El complemento es funcional pero por el momento no hace mucho. Si vous cliquer sur la commande « reesh » , la commande « story » se my à jour mais sinon rien. 
+El complemento es funcional pero por el momento no hace mucho. Si vous cliquer sur la commande « refresh » , la commande « story » se my à jour mais sinon rien. 
 
 Tenga en cuenta que pora el orden lo nombro por logicalIdentificación. Y es importante. Tener un Identificación. Lógico único por dispositivo (eqLogic) simplifica las cosas.
 
@@ -480,11 +480,11 @@ Hay varios :
 - Cron15 : actualizar cada 15 minutos
 - Cron30 : actualizar cada 30 minutos
 - CronHourly : eh ... cada hora
-- Cronaily : bien 1 / / día
+- CronDaily : bien 1 / / día
 
 Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función CronHourly ().
 
-Por lo tanto, abriremos el archivo .class.PHP y búsqueda 
+Por lo tanto, abriremos el archivo vdm.class.PHP y búsqueda 
 
 ```
     / /*
@@ -495,7 +495,7 @@ Por lo tanto, abriremos el archivo .class.PHP y búsqueda
      */ /
 ```
 
-escomenta el código
+Descomenta el código
 
 ```
       función estática pública CronHourly () {
@@ -508,27 +508,27 @@ Nuestra función es operativa
 Ahora tienes que recuperar todo el equipo de nuestro complemento,
 
 ```
-yo::byType ('') / // / matriz que contiene todo el equipo del complemento 
+yo::byType ('vdm') / // / matriz que contiene todo el equipo del complemento 
 ```
 
 y ordenarlos 1 por 1
 
 ```
-foreach::byType ('') como $ ) {
+foreach::byType ('vdm') como $ vdm) {
 }
 ```
 
 Antes de hacer nada, verificamos que el equipo esté activo
 
 ```
-si ($ -> gyIsEnable () == 1) {
+si ($ vdm-> gyIsEnable () == 1) {
 }
 ```
 
-Voila maintenant on recherche la commande « reesh » de l'équipement (eqLogic)
+Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
 ```
-$cmd = $->gyCmd(null, 'reesh');
+$cmd = $vdm->gyCmd(null, 'refresh');
 ```
 
 Si no existe, continuamos el ciclo (foreach), de lo contrario lo ejecutamos
@@ -544,9 +544,9 @@ Que da al final
 
 ```
       función estática pública CronHourly () {
-		  foreach::byType ('') como $ ) {/ // / explore todos los equipos en el complemento 
-			  si ($ -> gyIsEnable () == 1) {/ // / verifica que el equipo esté activo
-				  $cmd = $->gyCmd(null, 'reesh');/ // /ryourne la commande "reesh si elle existe
+		  foreach::byType ('vdm') como $ vdm) {/ // / explore todos los equipos en el complemento vdm
+			  si ($ vdm-> gyIsEnable () == 1) {/ // / verifica que el equipo esté activo
+				  $cmd = $vdm->gyCmd(null, 'refresh');/ // /ryourne la commande "refresh si elle existe
 				  si (!is_object ($ cmd)) {/ // / Si el comando no existe
 				  	continúa; / // / continúa el ciclo
 				  }
@@ -569,7 +569,7 @@ La forma más fácil ya que solo hay un comando y se crea en postSave
 
 ```
     función pública postUpdate () {
-		$cmd = $this->gyCmd(null, 'reesh'); / // / On recherche la commande reesh de l'équipement
+		$cmd = $this->gyCmd(null, 'refresh'); / // / On recherche la commande refresh de l'équipement
 		si (is_object ($ cmd)) {/ // / existe y lanzamos el comando
 			 $cmd->execCmd();
 		}
@@ -584,7 +584,7 @@ En la función postUpdate (), inaquíamos la función CronHourly () con la Ident
 
 ```
     función pública postUpdate () {
-		yo::CronHourly ($ this-> gyIdentificación ()); / // / inaquía la función CronHourly con el I de eqLogic
+		yo::CronHourly ($ this-> gyIdentificación ()); / // / inaquía la función CronHourly con el ID de eqLogic
     }
 ``` 
 
@@ -593,14 +593,14 @@ Pero en este caso cambiamos la función CronHourly ()
 ```
 	función estática pública CronHourly ($ _ eqLogic_Identificaciónentificación = null) {
 		si ($ _eqLogic_Identificaciónentificación == null) {/ // / La función no tiene argumento, por lo que estamos buscando todo el equipo en el complemento
-			$eqLogics = yo::byType('', true);
-		} else {/ // / La función tiene el I de argumento (único) de un dispositivo (eqLogic)
-			$eqLogics = array(yo::byIdentificación($_eqLogic_;
+			$eqLogics = yo::byType('vdm', true);
+		} else {/ // / La función tiene el ID de argumento (único) de un dispositivo (eqLogic)
+			$eqLogics = array(yo::byIdentificación($_eqLogic_Identificaciónentificación));
 		}		  
 	
-		foreach ($ eqLogics como $ ) {
-			si ($ -> gyIsEnable () == 1) {/ // / verifica que el equipo esté activo
-				$cmd = $->gyCmd(null, 'reesh');/ // /ryourne la commande "reesh si elle existe
+		foreach ($ eqLogics como $ vdm) {
+			si ($ vdm-> gyIsEnable () == 1) {/ // / verifica que el equipo esté activo
+				$cmd = $vdm->gyCmd(null, 'refresh');/ // /ryourne la commande "refresh si elle existe
 				si (!is_object ($ cmd)) {/ // / Si el comando no existe
 				  continúa; / // / continúa el ciclo
 				}
@@ -610,11 +610,11 @@ Pero en este caso cambiamos la función CronHourly ()
 	}
 ```	
 
-Luego puede cambiar la ecuencia del cron de acuerdo con la importancia de su información pora recuperar.
+Luego puede cambiar la frecuencia del cron de acuerdo con la importancia de su información pora recuperar.
 
- ==> [aquí](https:/ // /jeedom.github.io/ /ocumentación/ /phpdoc/ /index.html)
+Solo puedo invitarte a que te tomes el tiempo de visitar esta página pora obtener más información. ==> [aquí](https:/ // /jeedom.github.io/ /Documentación/ /phpdoc/ /index.html)
 
- ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
+Y aún mejor ir al núcleo de Github ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
 
 Pon tu nariz pora dominar aún más .
 
@@ -630,26 +630,26 @@ Si no ha tocado nada, el equipo está activado y visible, el wIdentificaciónent
 
 La commande qui apporaît est la commande «story» de type info , sous-type string
 
-Mi placer es levantarme por la mañana es leer un  al despertar. Me permite ver que hay algo peor que yo. :
+Mi placer es levantarme por la mañana es leer un vdm al despertar. Me permite ver que hay algo peor que yo. :D
 
 Pero no tengo mis lentes y actualmente el renderizado en el wIdentificaciónentificacióngy no me permite leerlo ...
 
-onc on va changer le style en affectant un template à la commande « story»
+Donc on va changer le style en affectant un template à la commande « story»
 
 Nada podría ser más simple.
 
- ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
+Voy a ver ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
 
 Estoy buscando una plantilla pora cmd.info.string (nuestro comando es de tipo info subtipo string) .No es difícil, solo hay dos (predyerminado o mosaico)
 
 J'applique le template « cmd.info.string.tile.html » à ma commande.
 
-Pora eso abro el archivo .class.php , fonction postSave() y j'ajoute le template « tile » pour la commande « story » en appliquant la méthode syTemplate()
+Pora eso abro el archivo vdm.class.php , fonction postSave() y j'ajoute le template « tile » pour la commande « story » en appliquant la méthode syTemplate()
 
 ```
 		$info = $this->gyCmd(null, 'story');
 		si (!is_object ($ info)) {
-			$info = new Cmd();
+			$info = new vdmCmd();
 			$info->syName(__('Histoire', __FILE__));
 		}
 		$info->syLogicalIdentificación('story');
@@ -664,12 +664,12 @@ Actualizar el tablero.
 
 Es mejor, pero el wIdentificaciónentificacióngy siempre toma el ancho del tablero. Entonces corregiremos. Por défaut la largeur du wIdentificaciónentificacióngy de l'équipement(eqLogic) y la hauteur sont à « auto ».
 
-Por lo tanto, cambiaremos el ancho del wIdentificaciónentificacióngy (equipment => eqLogic) usando el método syisplay () heredado de la clase eqLogic .ejamos la altura en auto.
+Por lo tanto, cambiaremos el ancho del wIdentificaciónentificacióngy (equipment => eqLogic) usando el método syDisplay () heredado de la clase eqLogic .Dejamos la altura en auto.
 
 Pora hacer esto, simplemente agregue
 
 ```
-$this->syisplay("wIdentificaciónentificaciónth","800px");
+$this->syDisplay("wIdentificaciónentificaciónth","800px");
 ```
 
 Si pero !! Porque hay un pero. Intente agregar esto en la función postsave () o postUpdate () y no tendrá en cuenta el cambio. Por qué ? Bueno, lea el documento del complemento de plantilla ==> AQUÍ
@@ -678,7 +678,7 @@ Ahora que ha leído correctamente, sabe que debe usar el método preSave ()
 
 ```
     función pública preSave () {
-		$this->syisplay("wIdentificaciónentificaciónth","800px");
+		$this->syDisplay("wIdentificaciónentificaciónth","800px");
     }
 ```
 
@@ -691,10 +691,10 @@ Registre el equipo y actualice el tablero.
 >
 >Este es un capítulo importante y debes entenderlo antes de continuar.
 
-Por el momento, usamos 3 clases del núcleo de la libertad : EqLogic, cmd, cron . Ir pora obtener información, agregamos un cuarto con el complemento de clase en el archivo .php que abres y dejas abierto porque vamos a editarlo . 
+Por el momento, usamos 3 clases del núcleo de la libertad : EqLogic, cmd, cron . Ir pora obtener información, agregamos un cuarto con el complemento de clase en el archivo vdm.php que abres y dejas abierto porque vamos a editarlo . 
 
 ```
-$plugin = plugin::byIdentificación(''); / // / appelle la classe plugin du core
+$plugin = plugin::byIdentificación('vdm'); / // / appelle la classe plugin du core
 ```
 
 Tienes que entender que todo se hace pora facilitar nuestro trabajo.. 
@@ -702,10 +702,10 @@ Tienes que entender que todo se hace pora facilitar nuestro trabajo..
 Pora un porámyro / / opción interno del complemento, utilizaremos uno de los métodos de la clase eqLogic del núcleo : syConfiguration () agregando los porámyros deseados. Por ejemplo :
 
 ```
-$this->syConfiguration("type","mon_type"); / // / si on veut  définir un poramètre type de valeur mon_type. Comme on a défini la largeur du wIdentificaciónentificacióngy via la méthode syisplay()
+$this->syConfiguration("type","mon_type"); / // / si on veut  définir un poramètre type de valeur mon_type. Comme on a défini la largeur du wIdentificaciónentificacióngy via la méthode syDisplay()
 ```
 
-Pora dejar la elección al usuario, volvemos al archivo de escritorio.PHP que dejaste abierto porque sigues este TP literalmente :
+Pora dejar la elección al usuario, volvemos al archivo de escritorio.PHP que dejaste abierto porque sigues este TP literalmente :D
 
 Buscar 
 
@@ -721,7 +721,7 @@ Y reemplazar con
 
 Guarde y vaya a un dispositivo de complemento que ya ha creado siguiendo este laboratorio (Actualice si es necesario). 
 
-ans le champs « Poramètre» d'un équipement, taper « aleatoire » y sauvegarder.
+Dans le champs « Poramètre» d'un équipement, taper « aleatoire » y sauvegarder.
 
 Perfecto se guarda la configuración.
 
@@ -755,24 +755,24 @@ Si ha entendIdentificaciónentificacióno todo esto bien, podremos seguir adelan
 Por 
 
 ```
-<label class="col-sm-3 control-label">{{Type de }}</ /label>
+<label class="col-sm-3 control-label">{{Type de vdm}}</ /label>
 ```
 
 Importante : El texto entre llaves corresponde al texto que se traducirá si empuja el complemento en el mercado
 
-Por lo demás, desarrollaremos el complemento eligiendo un tipo de  (aleatorio o picante o superior) que queramos, así como un cron personalizado pora cada equipo.
+Por lo demás, desarrollaremos el complemento eligiendo un tipo de vdm (aleatorio o picante o superior) que queramos, así como un cron personalizado pora cada equipo.
 
 # Uso de opciones / / porámyros
 
-Pora ir más allá y comprender el capítulo anterior, dejaremos que el usuario elija un tipo de  (aleatorio o picante o superior)
+Pora ir más allá y comprender el capítulo anterior, dejaremos que el usuario elija un tipo de vdm (aleatorio o picante o superior)
 
-On pourrait le laisser taper dans l'input « Type de  » : al azar o picante o superior, pero haremos lo contrario dejándolo elegir a través de una yiquya de selección
+On pourrait le laisser taper dans l'input « Type de vdm » : al azar o picante o superior, pero haremos lo contrario dejándolo elegir a través de una yiquya de selección
 
 Si has seguIdentificaciónentificacióno todo, deberías tenerlo en el archivo desktop.php
 
 ```
        <div class="form-group">
-        <label class="col-sm-3 control-label">{{Type de }}</ /label>
+        <label class="col-sm-3 control-label">{{Type de vdm}}</ /label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/ />
         </ /div>
@@ -783,7 +783,7 @@ Que reemplazaremos con
 
 ```
     <div class="form-group">
-        <label class="col-sm-3 control-label" >{{ Type de  }}</ /label>
+        <label class="col-sm-3 control-label" >{{ Type de vdm }}</ /label>
         <div class="col-sm-3">
             <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="type ">
                 <option value="aleatoire">{{Aleatoire}}</ /option>
@@ -797,12 +797,12 @@ Que reemplazaremos con
 Ici le poramètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
 
-Ahora tendremos en cuenta nuestro porámyro en la función randomVdm () en el archivo .class.php
+Ahora tendremos en cuenta nuestro porámyro en la función randomVdm () en el archivo vdm.class.php
 
 Buscar
 
 ```
-$url = "http:/ // /www.viedemerde./ /aleatoire";
+$url = "http:/ // /www.viedemerde.fr/ /aleatoire";
 ```
 
 Y reemplazar con
@@ -812,7 +812,7 @@ Y reemplazar con
 		si ($ type == "") {/ // / si el porámyro está vacío o no existe
 			$type = "aleatoire"; / // /on prends le type aleatoire
 		}		
-		$url = "http:/ // /www.viedemerde./ /" .$type  ;
+		$url = "http:/ // /www.viedemerde.fr/ /" .$type  ;
 ```	
 
-Ahora cambie el valor de la selección en un dispositivo, guarde y vaya al panel de control pora ver qué oece.
+Ahora cambie el valor de la selección en un dispositivo, guarde y vaya al panel de control pora ver qué ofrece.

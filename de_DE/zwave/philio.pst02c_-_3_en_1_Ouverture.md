@@ -89,7 +89,7 @@ Technische Daten
 
 -   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
 
--   Frequenz : 868.
+-   Frequenz : 868.42 MHz
 
 -   Übertragungsentfernung : 30m drinnen
 
@@ -99,9 +99,9 @@ Technische Daten
 
 -   Abmessungen :
 
--   Detektor : 
+-   Detektor : 28 x 96 x 23 mm
 
--   Magnet : 
+-   Magnet : 10 x 50 x 12 mm
 
 -   Gewicht : 52 g
 
@@ -109,9 +109,9 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 85% rF max
 
--   CE-Norm : 
+-   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : 
+-   Z-Wave-Zertifizierung : ZC08-13050003
 
 \.
 
@@ -120,7 +120,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Philio Technology Corporation
 
 -   Name : PST02-C Tür / Fenster 3 in 1 Sensor
 

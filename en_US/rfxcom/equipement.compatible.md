@@ -1,78 +1,78 @@
 | Name            | Type           | Protocol      | NOTE       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
-|  | Weather Channel  | Rubicson / Alecto              |                |                |
-|      | Detector      |       |                |                |
-|         | opening    |                |                |                |
-|      | Detector   |       |                |                |
-|     | Movement      |                |                |                |
-|      | Detector   |       |                |                |
-|     | Movement      |                |                |                |
-|      | Detector   |       |                |                |
-|       | Movement      |                |                |                |
-|      | 1-button key fob remote control   |       |                |                |
-|    | Smoke detector  |                |                |                |
-|    | Light switch   |                |                |                |
-|    | Garage door operator |                |                |                |
-|    | Actuator of actuators with cylinders  |                |                |                |
-|    | ON / OFF switch + micro-module pack         |                |                |                |
-|    | Smoke detector  |              |                |                |
-|    | Pack of 3 Chacon sockets + 3-channel remote control + 1 group     |              |                |                |
-|    | Pack of 3 Chacon DI.O first sockets + 3-channel remote control      |              |                |                |
-|    | Light switch   |              |                |                |
-|    | Dimmer      |              |                |                |
-|    | 16-channel remote control    |              |                |                |
-|    |        |              |                | [Buy](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
-|    | ON / OFF 200W micro-module   |              | On / Off only        |                |
-|    | Pack 3 sockets + 2000W remote control  |              |                |                |
-|    |    |              | On / off         |                |
-|            |  dimmer |                | only      |                |
-|            |                |              |  | [Buy](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
-|          | Temperature    |          |                |                |
-|        | Humidity with display      |                |                |                |
-|     | Thermostat     | X10            | Use "Temperature, Humidity and Pressure - Fault"        |                |
-|  | Detector      |              |                |                |
+| Alteco WS-1700 | Weather Channel  | Rubicson / Alecto              |                |                |
+| Atlantic'S     | Detector      | Meiantech      |                |                |
+| MD-210R        | opening    |                |                |                |
+| Atlantic'S     | Detector   | Meiantech      |                |                |
+| DT-335R DMT    | Movement      |                |                |                |
+| Atlantic'S     | Detector   | Meiantech      |                |                |
+| MC-335R DMT    | Movement      |                |                |                |
+| Atlantic'S     | Detector   | Meiantech      |                |                |
+| 7380R DMT      | Movement      |                |                |                |
+| Atlantic's     | 1-button key fob remote control   | Meiantech      |                |                |
+| Blyss 567434   | Smoke detector  |                |                |                |
+| Blyss 582866   | Light switch   |                |                |                |
+| Blyss 582849   | Garage door operator |                |                |                |
+| Blyss 528852   | Actuator of actuators with cylinders  |                |                |                |
+| Blyss 582867   | ON / OFF switch + micro-module pack         |                |                |                |
+| Chacon 34131   | Smoke detector  | AC             |                |                |
+| Chacon 54595   | Pack of 3 Chacon sockets + 3-channel remote control + 1 group     | AC             |                |                |
+| Chacon 54795   | Pack of 3 Chacon DI.O first sockets + 3-channel remote control      | AC             |                |                |
+| Chacon 54501   | Light switch   | AC             |                |                |
+| Chacon 54514   | Dimmer      | AC             |                |                |
+| Chacon 54761   | 16-channel remote control    | AC             |                |                |
+| Chacon 54730   | Doorbell       | AC             |                | [Buy](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
+| Chacon 54758   | ON / OFF 200W micro-module   | AC             | On / Off only        |                |
+| Chacon 54660   | Pack 3 sockets + 2000W remote control  | AC             |                |                |
+| Chacon 54524   | Micro-module   | AC             | On / off         |                |
+| 300W           | 300W dimmer |                | only      |                |
+| Coco           |                | AC             | Full range | [Buy](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
+| CRESTA         | Temperature    | Hideki         |                |                |
+| HW-TX320       | Humidity with display      |                |                |                |
+| Digimax 210    | Thermostat     | X10            | Use "Temperature, Humidity and Pressure - Fault"        |                |
+| DI.O by Chacon | Detector      | AC             |                |                |
 | 54583          | twilight  |                |                |                |
-|  | Detector   |              |                |                |
+| DI-O by Chacon | Detector   | AC             |                |                |
 | 54703          | Movement      |                |                |                |
-|  | Remote control 3 |              |                |                |
+| DI.O by Chacon | Remote control 3 | AC             |                |                |
 | 54760          | canals         |                |                |                |
-|  | Remote control   |              |                | [Buy](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-canals-Blanche-%28gamme-DI-O%29.htm)      |
-|  | Outlet          |              |                |                |
+| DI.O by Chacon | Remote control   | AC             |                | [Buy](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canals-Blanche-%28gamme-DI-O%29.htm)      |
+| DI.O by Chacon | Outlet          | AC             |                |                |
 | 54746          | outdoor     |                |                |                |
-|  | Detector      |              |                |                |
+| DI-O by Chacon | Detector      | AC             |                |                |
 | 54783          | twilight  |                |                |                |
-|  | Roller shutter  |              |                |                |
+| DI-O by Chacon | Roller shutter  | AC             |                |                |
 | 54754          |                |                |                |                |
-|  | 1500W socket    |              |                |                |
+| DI-O by Chacon | 1500W socket    | AC             |                |                |
 | 54798          |                |                |                |                |
-|  |    |              |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
-|            | Detector      |                |                | [Buy](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
-|   | Outlet          | Ex code to switch on the socket 07100102500D01 60             |                |                |
-|    | Remote control   |                |                |                |
-|       | Temperature    |                |                |                |
-|        | Humidity with display      |                |                |                |
-|        | Weather Channel  | The Crosse       |                |                |
-|  | Weather Channel  |    |                |                |
-|        | Dry contact with timer |                |                |                |
-|        | Converter  |              |                |                |
-| IR receiver   |      |                |                |                |
-|  | Red          |                |                |                |
-|          | Temperature    |          |                | [Buy](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
-|          | Temperature    |          |                |                |
-|        | Humidity       |                |                |                |
-|   | Anemometer     |          |                |                |
-|   | Rain gauge    |          |                |                |
-|       |        |          |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
-|       | Current clamp + display          |          |                |                |
-| OWL Micro + CM180     | Current clamp + display         |          |                |                |
-|  | Transmitter for current clamp (ref TSE000-001 or TSE000-002)  |          |                |                |
-|     | Garage door         |                |                |                |
-|   | Gate operator   | Place RFXcom on the engine to associate it with the engine as if it were a remote control   |                |                |
-|  | Gate operator   | Place RFXcom on the engine to associate it with the engine as if it were a remote control.Engine cover must be open and it should be light. Procedure does not work if it is dark.          |                |                |
-|       | Roller shutters and other  devices      |                |                |                |
+| DI-O by Chacon | Micro-module   | AC             |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
+| DS18           | Detector      |                |                | [Buy](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
+| KDI FER-1000W  | Outlet          | Ex code to switch on the socket 07100102500D01 60             |                |                |
+| KDI FECT-100   | Remote control   |                |                |                |
+| Homewizad      | Temperature    |                |                |                |
+| HW-TX320       | Humidity with display      |                |                |                |
+| LaCross Technologie WS7394       | Weather Channel  | The Crosse       |                |                |
+| Lexibook SM883 | Weather Channel  | Hideki / UPM   |                |                |
+| ITL-1000       | Dry contact with timer |                |                |                |
+| JB-Media       | Converter  | AC             |                |                |
+| IR receiver   | RF - Infra     |                |                |                |
+| Light-Manager Mini | Red          |                |                |                |
+| Oregon         | Temperature    | Oregon         |                | [Buy](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
+| Oregon         | Temperature    | Oregon         |                |                |
+| THGN132N       | Humidity       |                |                |                |
+| Oregon WGR800  | Anemometer     | Oregon         |                |                |
+| Oregon PCR800  | Rain gauge    | Oregon         |                |                |
+| UV Oregon      | UV sensor       | Oregon         |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
+| OWL CM119      | Current clamp + display          | Oregon         |                |                |
+| OWL Micro + CM180     | Current clamp + display         | Oregon         |                |                |
+| OWL TSE200-001 | Transmitter for current clamp (ref TSE000-001 or TSE000-002)  | Oregon         |                |                |
+| SIMU RSA HZ    | Garage door         |                |                |                |
+| Somfy Freevia 300  | Gate operator   | Place RFXcom on the engine to associate it with the engine as if it were a remote control   |                |                |
+| Somfy Evolvia 400/450 | Gate operator   | Place RFXcom on the engine to associate it with the engine as if it were a remote control.Engine cover must be open and it should be light. Procedure does not work if it is dark.          |                |                |
+| Somfy RTS      | Roller shutters and other Somfy RTS devices      |                |                |                |
 | TX320 thermometer   | Temperature Humidity with display      |                |                |                |
-| .    | Temperature    |                |                |                |
-|            | Water Detector     | X10            |                |                |
+| TFA 30.3139 RADIO SENSOR    | Temperature    |                |                |                |
+| WD18           | Water Detector     | X10            |                |                |
 
 > **NOTE**
 >

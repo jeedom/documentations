@@ -1,4 +1,4 @@
- 
+PolyLock 
 ========
 
 \
@@ -25,7 +25,7 @@ Resumen
  
 
 Asegure su hogar con la cerradura electrónica Z-Wave de
- !
+Poly-Control !
 
 La cerradura electrónica Poly-Lock está diseñada para adaptarse a casi
 todas las puertas del mundo. Se monta muy fácilmente en 5
@@ -40,11 +40,11 @@ con el teclado inalámbrico Poly-Pad para abrir o bloquear la puerta.
 Por lo tanto, es posible bloquear su casa de manera similar
 para bloquear su automóvil - con un control remoto, presionando
 solo un botón y tu casa está segura. La cerradura
- también puede funcionar con otras escenas de Z-Wave, donde
+Poly-Control también puede funcionar con otras escenas de Z-Wave, donde
 las luces se encienden y el sistema de alarma se desactiva cuando
 desbloqueado a través de su control remoto.
 
-El sistema  se puede utilizar en un entorno.
+El sistema Poly-Control se puede utilizar en un entorno.
 doméstica o laboral. El Poly-Lock funciona con
 batería, y ha sido probado para funcionar durante 1 año, sin
 reemplazo de la batería.
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
 
--   Peso : 
+-   Peso : 370g
 
 \
 
@@ -94,9 +94,9 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Poly-Control
 
--   Nombre : 
+-   Nombre : Polylock
 
 -   ID del fabricante : 270
 

@@ -49,20 +49,20 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 ° C + 50 ° C
 
--   Dimensiones : 
+-   Dimensiones : 65x18mm
 
--   Grado de protección : 
+-   Grado de protección : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Datos del módulo 
 =================
 
--   Hacer : 
+-   Hacer : Edisio Smart Home
 
--   Nombre : 
+-   Nombre : ETC1
 
--   Referencia : 
+-   Referencia : P01 / Y01 / L01
 
 Configuración general 
 ======================
@@ -114,7 +114,7 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--    : Es el comando que te permite interactuar con el botón 1
+-   bt01 : Es el comando que te permite interactuar con el botón 1
 
 -   Batería : Indica el estado de la batería.
 

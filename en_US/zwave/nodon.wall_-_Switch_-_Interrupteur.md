@@ -1,4 +1,4 @@
- Switch - Wall Switch 
+Nodon Switch - Wall Switch 
 ================================
 
 \
@@ -66,26 +66,26 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C to 40 ° C
 
--   Altitude : 
+-   Altitude : 2000m
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
-    
+    Plus® SDK 06.51.06
 
 -   Scope : 40m indoors / 70m outdoors
 
--    : 80 \* 80 \* 15mm
+-   Dimensions : 80 \* 80 \* 15mm
 
 -   2 years warranty
 
--   :2006 + A11::::2013
+-   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
 
--   
+-   EN 300 220-2 V2.4.1
 
--   
+-   EN301 489-1 V1.9.2
 
--   
+-   EN301 489-3 V1.6.1
 
--   :2010
+-   EN 62479:2010
 
 \
 
@@ -94,9 +94,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Nodon
 
--   Name : 
+-   Name : CWS-3-1-01 Wall Switch
 
 -   Manufacturer ID : 357
 
@@ -204,13 +204,13 @@ Parameter details :
 
 \
 
--    : Allows you to choose the profile of the buttons when used in
+-   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
 -   3 : IMPORTANT parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--    : Choose the button operating mode (in case
+-   4-7 : Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED
@@ -260,7 +260,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

@@ -1,4 +1,4 @@
- Smart Plug -  
+Nodon Smart Plug - Smartplug 
 ====================================
 
 \
@@ -51,7 +51,7 @@ Functions
 
 -   Improved radio range
 
--   Maximum amperage: 
+-   Maximum amperage: 16A
 
 \
 
@@ -65,14 +65,14 @@ Technical characteristics
 -   Maximum power : 3000W continuous / 3500W cyclic
     (Resistive load) Intrinsic consumption : &lt;1W
 
--   Operating temperature : 0 ° C to 40 ° C - Altitude : 
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
-    
+    Plus® SDK 06.51.01
 
--   Scope: 
+-   Scope: 40m indoor / 80m outdoor
 
--   : 104 \* 51 \* 36mm
+-   Dimensions: 104 \* 51 \* 36mm
 
 -   2 years warranty
 
@@ -85,9 +85,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Nodon
 
--   Name : 
+-   Name : Smartplug
 
 -   Manufacturer ID : 357
 
@@ -196,7 +196,7 @@ Parameter details :
 
 -   2 : This setting allows you to configure the reporting reports of
     power cut / return, as well as the associated groups (Groups
-    . Several combinations are possible (refer to
+    4, 5, 6, 7, 8). Several combinations are possible (refer to
     paper Documentation or help bubble in jeedom). It is
     recommended to set this parameter to 1.
 
@@ -244,8 +244,8 @@ This module has 8 association groups.
 -   Group 4 - Notification of power failure When the Smart Plug
     detects a power failure or a return of power, a report
     notification is sent to paired devices. The report sent
-    est un « Notiﬁcation Report : 
-    .
+    est un « Notiﬁcation Report : Power Management - AC disconnected
+    / Re-connected).
 
 -   Group 5 - Activation on power failure When the Smart Plug
     detects a power failure, it activates the associated devices.
@@ -282,7 +282,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

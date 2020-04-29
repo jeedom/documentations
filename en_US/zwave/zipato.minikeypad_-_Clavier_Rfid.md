@@ -1,4 +1,4 @@
- 
+Zipato miniKeypad RFID 
 ======================
 
 \
@@ -24,7 +24,7 @@ Summary
 
 \
 
-Control your security system with this mini  wall keypad
+Control your security system with this mini Zipato wall keypad
 !
 
 With this Z-Wave compatible RFID keyboard, you will be able to activate or
@@ -72,13 +72,13 @@ Technical characteristics
 
 -   Food : 2x AA 1.5V batteries
 
--   Frequency : 868.
+-   Frequency : 868.42 MHz
 
 -   Radio range : 30m in open field
 
 -   RFID protocol : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--    : 60dBa at 10 cm distance
+-   Buzzer : 60dBa at 10 cm distance
 
 -   Storage temperature : -5 ° C to + 65 ° C
 
@@ -88,9 +88,9 @@ Technical characteristics
 
 -   Operating humidity : 30% to 80%
 
--    : 
+-   Dimensions : 62 x 62 x 20 mm
 
--    : Security :  : 
+-   Certifications : Security : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,9 +99,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Zipato
 
--   Name : 
+-   Name : Zipato Mini Keypad RFID
 
 -   Manufacturer ID : 151
 
@@ -322,7 +322,7 @@ The keypad reads codes / badges in two ways :
 
 \
 
- 
+Wakeup 
 ------
 
 \
@@ -333,7 +333,7 @@ To wake up this module there are two ways to proceed :
 
 -   press the tamper button then release after 1 to 2 seconds
 
--   press Home, a random number and 
+-   press Home, a random number and Enter
 
 \
 
@@ -344,7 +344,7 @@ Faq.
 
 This module wakes up by pressing the tamper button and
 relaxing. He can also wake up by pressing Home then 1 then
-.
+Enter.
 
 \
 

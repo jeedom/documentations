@@ -117,11 +117,11 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Signalstärke : 
+-   Signalstärke : 1mW
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 42..25 x 20,3 mm
+-   Abmessungen : 42.5 x 38.25 x 20,3 mm
 
 -   Betriebstemperatur : 0-35 ° C.
 
@@ -137,7 +137,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
 -   Name : REA-Dimmer 2
 

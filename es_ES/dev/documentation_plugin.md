@@ -6,7 +6,7 @@ Veremos en esta documentación cómo hacer la documentación de su complemento.
 
 ## Principio
 
-El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información. [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) .
+El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
 
 Tenga en cuenta que también tiene un campo de registro de cambios que debería funcionar de la misma manera que el campo de documentación.
 
@@ -14,7 +14,7 @@ Tenga en cuenta que también tiene un campo de registro de cambios que debería 
 
 Como se ve arriba, solo tiene que indicar en el archivo de información.json el enlace http (s) a su documentación, por lo tanto, es libre en la presentación, el host o incluso el modo : 
 
-- 
+- un blog
 - un servidor web simple
 - github (único método que veremos aquí)
 
@@ -26,11 +26,11 @@ La forma más fácil para su documentación es usar el sistema de páginas githu
 
 Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el markedown aquí.
 
- [](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+No le describiremos la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Ubicación
 
- [aquí](https://github.com/jeedom/plugin-template/tree/master/docs) )
+Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
 Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para modificar). En esta carpeta te recomendamos que hagas 2 archivos : 
 

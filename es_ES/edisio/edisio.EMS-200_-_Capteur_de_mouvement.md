@@ -49,18 +49,18 @@ Características técnicas
 
 -   Rango de detección : Los 6M
 
--   Dimensiones : 
+-   Dimensiones : 25x79x19mm
 
--   Grado de protección : 
+-   Grado de protección : IP20
 
 -   Uso : En el interior
 
 Datos del módulo 
 =================
 
--   Hacer : 
+-   Hacer : Edisio Smart Home
 
--   Nombre : 
+-   Nombre : EMS-200
 
 Configuración general 
 ======================

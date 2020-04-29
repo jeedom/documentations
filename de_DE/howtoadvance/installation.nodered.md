@@ -30,9 +30,9 @@ Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered 
 Proxy.
 
     <Location /jeedom/nodered>
-    :// localhost:1880 / jeedom / nodered /
+    ProxyPass ws:// localhost:1880 / jeedom / nodered /
     ProxyPass http:// localhost:1880 / jeedom / nodered /
-    #:// localhost:1880 / jeedom / nodered /
+    #ProxyPassReverse ws:// localhost:1880 / jeedom / nodered /
     #ProxyPassReverse http:// localhost:1880 / jeedom / nodered /
     </Location>
 
@@ -45,14 +45,14 @@ Proxy.
     Ort / Jeedom / Nodered / {
       Proxy_pass http://127.0.0.1:1880;
       Proxy_set_header Host $ host;
-      
-      
-      
-      
+      Proxy_buffering off;
+      tcp_nodelay on;
+      access_log off;
+      Proxy_http_version 1.1;
       Proxy_set_header Upgrade $ http_upgrade;
       Proxy_set_header Verbindung 'Upgrade';
-      
-      
+      Proxy_redirect off;
+      Proxy_read_timeout 6000;
     }
 
 Bestehende Module für Nodered 
@@ -104,7 +104,7 @@ Blinkstick sudo npm installiere node-red-node-blinkstick -g \# Blink1 sudo
 npm install node-red-node-blink1 -g \# Tellstick * sudo npm install
 Node-Red-Contrib-Tellstick -g \# PiTFT \#sudo npm installieren
 Node-Red-Contrib-Pitft-Touch -g \# Pibrella \#sudo npm installieren
-node-red-node-pibrella -g \#sudo apt-get -y installiere python-rpi.#
+node-red-node-pibrella -g \#sudo apt-get -y installiere python-rpi.gpio \#
 PiBord \#sudo npm installiere node-red-node-ledborg -g \# Sensors \#sudo npm
 install node-red-contrib-bmp085 -g \#sudo npm install
 node-red-contrib-ds18b20-sensor -g \#sudo npm installieren
@@ -115,4 +115,4 @@ node \ _modules / node-red-node-hbgpio / gpiohb / usr / local / bin / \#sudo chm
 -g \# * BeagleBone Black \#sudo npm install beaglebone-io -g \#
 Galileo / Edison \#sudo npm installiere galileo-io -g \# Blend Micro \#sudo
 npm install mix-micro-io -g \# LightBlue Bean \#sudo npm install
-
+bean-io -g

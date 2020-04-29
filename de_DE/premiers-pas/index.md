@@ -4,14 +4,14 @@ Hilf mit, dein Jeedom einzurichten.
 > **Spitze**
 >
 > Dieses Handbuch ersetzt nicht die vollständige Dokumentation
->  [hier](https://jeedom.fr/doc).
+> verfügbar auf der Jeedom-Website [hier](https://jeedom.fr/doc).
 
 Registrierung am Markt 
 =========================
 
 Als erstes müssen Sie ein Konto auf dem Markt für erstellen
 Klicken Sie hier, um Ihr Jeedom zu registrieren
-[hier](https://www.jeedom.com/market) 
+[hier](https://www.jeedom.com/market) um zu beginnen
 
 ![premier market](images/premier-market.png)
 
@@ -45,7 +45,7 @@ mit einem Code für Ihr Service Pack.
 > nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
 Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen
-[Jeedom Markt](https://market.jeedom.fr) .
+[Jeedom Markt](https://market.jeedom.fr) und identifiziere dich.
 
 Dann gehen Sie zu Ihrer Profilseite:
 
@@ -114,7 +114,7 @@ Erste Verbindung
 ------------------
 
 Welche Methode auch immer verwendet wird, Sie gelangen dann auf die Seite von
-Login. Standardmäßig lauten Login und Passwort """.
+Login. Standardmäßig lauten Login und Passwort "admin"".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
@@ -144,7 +144,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 -   Vergiss nicht zu sparen !
 
 Für weitere Details auf der Konfigurationsseite klicken Sie auf
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/istration.asciidoc)
+[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
 .
 
 Holen Sie sich meine direkte Zugriffs-URL 
@@ -179,7 +179,7 @@ Klicken Sie in Ihrem Jeedom-Konto auf Administration → Benutzer
 (oben rechts):
 
 Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen
-**** und klicken Sie auf **Passwort ändern**:
+**admin** und klicken Sie auf **Passwort ändern** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -265,7 +265,7 @@ Sie finden dann :
 - wie man das Plugin benutzt, 
 - zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
- [hier](https://jeedom.github.io/core/de_DE/plugin).
+Für weitere Informationen zu Plugins klicken Sie auf [hier](https://jeedom.github.io/core/de_DE/plugin).
 
 Unterstützung 
 =======
@@ -277,7 +277,7 @@ Hilfe und stellen Sie Ihre Fragen.
 Jeedom Dokumentation 
 --------------------------
 
- [hier](https://jeedom.fr/doc):
+Sie finden eine vollständige Dokumentation [hier](https://jeedom.fr/doc) :
 
 Dies besteht aus mehreren Kategorien:
 
@@ -288,7 +288,7 @@ Dies besteht aus mehreren Kategorien:
 
 -   Installation : Alles über die Installation von Jeedom,
 
--    : Tutorials zum Fortschritt in verschiedenen Bereichen,
+-   Howto : Tutorials zum Fortschritt in verschiedenen Bereichen,
 
 -   Plugins : Die Dokumentation der verschiedenen offiziellen Plugins aus
     Jeedom,
@@ -306,7 +306,7 @@ Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
 Das Forum 
 --------
 
- [hier](https://jeedom.com/forum) .
+Sie werden es finden [hier](https://jeedom.com/forum) .
 
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn du
 Haben Sie eine Frage, zögern Sie nicht, sie zu stellen. Sie werden eine Antwort in haben

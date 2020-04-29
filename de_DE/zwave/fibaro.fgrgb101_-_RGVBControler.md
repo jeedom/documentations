@@ -1,4 +1,4 @@
- 
+Fibaro RGVB Controler - FGRGB-101 
 =================================
 
 \.
@@ -83,19 +83,19 @@ Technische Daten
 
 -   \* 24V - 288W insgesamt (alle Kanäle)
 
--   PWM-Modulationsfrequenz : 
+-   PWM-Modulationsfrequenz : 244 Hz
 
 -   Verbrauch : 0,3 W.
 
 -   Funkprotokoll : Z-Wave bei 868,4 MHz (EU)
 
--   Z-Wave Sendeleistung : 
+-   Z-Wave Sendeleistung : 1mW
 
 -   Betriebstemperatur : 0 - 40 C.
 
 -   Zur Installation in Boxen : Ø ≥ 50 mm
 
--   Abmessungen : 
+-   Abmessungen : 42 x 37 x 17 mm
 
 -   Europäische Standards : EMV 2004/108 / EG R & TTE 199/5 / WE
 
@@ -106,9 +106,9 @@ Technische Daten
 Moduldaten 
 -----------------
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
--   Name : 
+-   Name : Fibaro FGRGB-101 RGBW
 
 -   Hersteller ID : 271
 
@@ -175,7 +175,7 @@ Hier ist die Liste der Befehle :
 -   Verblassen : Dies ist der Befehl, der das gesamte simuliert
     Farbspektrum
 
--    : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
+-   RBB : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
 
 -   Kaltes Weiß : Dies ist der Befehl, der simuliert, dass a
     kühle weiße Farbe, wenn der Farbstreifen es erlaubt. (das

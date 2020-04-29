@@ -1,4 +1,4 @@
- 
+Aeotec Minimote 
 ===============
 
 \
@@ -73,7 +73,7 @@ Technical characteristics
 
 -   Scope : up to 30 m
 
--    : 0..
+-   Dimensions : 0.8cm x 3.3cm x 9.3cm
 
 -   Operating temperature : -35 to +85 ° C
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Aeotec
 
--   Name : 
+-   Name : Minimote
 
 -   Manufacturer ID : 134
 
@@ -230,7 +230,7 @@ Good to know
 
 ### Specificities 
 
- 
+Wakeup 
 ------
 
 \

@@ -104,7 +104,7 @@ ESXi SSH (en la interfaz web, vaya a la acción ⇒ servaquíos
 los identificadores son los mismos que para acceder a la interfaz). Entonces el
 solo lo haces :
 
-    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.
+    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
 
 Usted debe tener :
 
@@ -162,7 +162,7 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
- [aquí](https://my.vmware.com/group/vmware/patch#search) 
+yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (Él
 probablemente tendrá que inaquíar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después
@@ -200,8 +200,8 @@ Fecha y hora, haga clic en "Cambiar configuración" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
 
-Y en el cuadro "Servidor NTP" tienes que poner : ,
-..
+Y en el cuadro "Servidor NTP" tienes que poner : 0.debian.pool.n,
+1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov
 
 ![vmware.tips17](images/vmware.tips17.PNG)
 
@@ -285,7 +285,7 @@ tu pc ya no tiene la alerta.
 Para que sea necesario :
 
 -   tener una url (dns) para acceder a su esxi, aquí tomaremos
-    
+    esxi1.lan
 
 -   configura el nombre de tu esxi, en ssh arriba haz :
 
@@ -297,10 +297,10 @@ Para que sea necesario :
 
 <!-- -->
 
-    conjunto de nombres de host del sistema esxcli --fqdn = 
+    conjunto de nombres de host del sistema esxcli --fqdn = esxi1.lan
 
 -   Recupere el certificado raíz de esxi, está en
-    
+    /etc/vmware/ssl/castore.pem
 
 Haga clic derecho en la computadora, luego instale el certificado, póngalo en
 "Autoridad de certificación raíz de confianza"

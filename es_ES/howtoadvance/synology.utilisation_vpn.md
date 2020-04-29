@@ -67,7 +67,7 @@ Redireccionar los puertos de su BOX
 ===============================
 
 En el navegador ingrese 192.168.1.1. Haga clic en configuración
-
+Freebox
 
 ![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)
 

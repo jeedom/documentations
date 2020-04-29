@@ -96,7 +96,7 @@ Technical characteristics
 
 -   Battery life : 2 years
 
--   Frequency : 868.
+-   Frequency : 868.42 MHz
 
 -   Transmission distance : 30m indoors
 
@@ -108,21 +108,21 @@ Technical characteristics
 
 -   PIR detection range : 8 to 10m
 
--    :
+-   Dimensions :
 
--   Detector : 
+-   Detector : 28 x 96 x 23 mm
 
--   Magnet : 
+-   Magnet : 10 x 50 x 12 mm
 
--   Weight : 
+-   Weight : 52g
 
 -   Operating temperature : -10 to 40 ° C
 
 -   Operating humidity : 85% RH max
 
--   CE standard : 
+-   CE standard : EN300 220-1
 
--   Z-Wave certification : 
+-   Z-Wave certification : ZC08-13050003
 
 \
 
@@ -131,9 +131,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Philio Technology Corporation
 
--   Name : 
+-   Name : PST02-A 4 in 1 Multi-Sensor
 
 -   Manufacturer ID : 316
 
@@ -320,7 +320,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

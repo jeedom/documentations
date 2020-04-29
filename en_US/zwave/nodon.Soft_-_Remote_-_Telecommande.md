@@ -1,4 +1,4 @@
- Remote Control - Soft Remote 
+Nodon Remote Control - Soft Remote 
 ================================
 
 \
@@ -25,10 +25,10 @@ Summary
 \
 
 The Soft Remote NodOn® can directly control any device
-Z-Wave® or Z-Wave Plus®  such as the NodOn® smart plug.
+Z-Wave® or Z-Wave Plus® compatible such as the NodOn® smart plug.
 
 It can also trigger scenes via a home automation system
-.
+compatible.
 
 \
 
@@ -37,7 +37,7 @@ Functions
 
 \
 
--   Control any Z-Wave  device
+-   Control any Z-Wave compatible device
 
 -   Impact and splash resistant
 
@@ -60,10 +60,10 @@ Technical characteristics
 
 -   Impact and splash resistant
 
--   Operating temperature : 0 ° C to 40 ° C - Altitude : 
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
--   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave 
-    
+-   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
+    Plus® SDK 06.51.06
 
 -   Scope : 40m indoors / 80m outdoors
 
@@ -78,9 +78,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Nodon
 
--   Name : 
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Manufacturer ID : 357
 
@@ -143,14 +143,14 @@ Here is the list of commands :
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | Buttons        | Support          | Long press     | Relaxation    | Double support   |
 + ================ + ================ + ================ = + ================ + ================= +
-| **         | 10             | 12             | 11             | 13             |
+| **1 (0         | 10             | 12             | 11             | 13             |
 | full)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| ****      | 20             | 22             | 21             | 23             |
+| **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3 (0 empty)** | 30             | 32             | 31             | 33             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| ****      | 40             | 42             | 41             | 43             |
+| **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
 -   Drums : it is the command which raises the level of the batteries
@@ -191,13 +191,13 @@ Parameter details :
 
 \
 
--    : Allows you to choose the profile of the buttons when used in
+-   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
 -   3 : IMPORTANT parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--    : Choose the button operating mode (in case
+-   4-7 : Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED
@@ -245,7 +245,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

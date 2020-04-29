@@ -4,12 +4,12 @@ By default, this is configured in Modem mode in order to be compatible with the 
 1.Deleting the default configuration 
 =============================================
 
-> 
+> sudo rm /etc/udev/rules.d/40-modemswitch.rules
 
 2.Add the configuration 
 ============================
 
-> 
+> sudo nano /etc/usb_modeswitch.conf
 
 then add this :
 
@@ -23,10 +23,10 @@ then add this :
 
 Then save by pressing Ctrl + x
 
- 
+3.Reboot 
 =========
 
-> 
+> sudo reboot
 
 You can then check that the card is well recognized by doing an ifconfig, you should see a usbnet key appear.
 

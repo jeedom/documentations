@@ -3,45 +3,45 @@ Summen)
 
 > **Notiz**
 >
-> Dieses Tutorial ist weitgehend insriert von
-> [](http://jetweb.free.fr/nabaztag_r/Tutoriel_OJN_RPi_v1-1.pdf)
+> Dieses Tutorial ist weitgehend inspiriert von
+> [dieser hier](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation von Abhängigkeiten 
 ============================
 
 Sobald das in SSH installierte System fertig ist :
 
-    
-    
-    
-    
+    apt-get update
+    apt-get dist-upgrade
+    apt-get install ssh
+    apt-get install apache2 php5 php5-mysql libapache2-mod-php5
     a2enmod umschreiben
-    
-    
-    apt-get install libqt4-dev --x-fehlt
+    apt-get install machen
+    apt-get install build-essential
+    apt-get install libqt4-dev --fix-fehlt
     apt-get installiere qt4-dev-tools
-    
-    
+    apt-get install bind9
+    apt-get install git
 
-Netzwerkkonguration 
+Netzwerkkonfiguration 
 =======================
 
 Dann müssen Sie die IP-Adresse des Systems wiederherstellen :
 
-    
+    ifconfig
 
 Das Ergebnis ist :
 
-    eth0  encap:Ethernet HWaddr d0:63::00:54:98
-              :  Bcast:.255 Maske:
-              : :::::5498/64 Geltungsbereich:
+    eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
+              inet addr:192.168.0.162 Bcast:192.168.0.255 Maske:255.255.255.0
+              inet6 addr: fe80::d263:b4ff:fe00:5498/64 Geltungsbereich:Link
               UP BROADC.AST RUNNING MULTIC.AST MTU:1500 metrisch:1
-              RX-Pakete:10721 Fehler:0 el:0 Überläufe:0 Frame:0
-              TX-Pakete:6477 Fehler:0 el:0 Überläufe:0 Träger:0
-              Kollisionen::1000
-              RX-Bytes:.9 MiB) TX-Bytes:.
+              RX-Pakete:10721 Fehler:0 fiel:0 Überläufe:0 Frame:0
+              TX-Pakete:6477 Fehler:0 fiel:0 Überläufe:0 Träger:0
+              Kollisionen:0 txqueuelen:1000
+              RX-Bytes:2032942 (1.9 MiB) TX-Bytes:1230703 (1.1 MiB)
 
-Hier lautet die IP-Adresse .
+Hier lautet die IP-Adresse 192.168.0.162.
 
 > **Notiz**
 >
@@ -54,61 +54,61 @@ Bearbeiten Sie dann die Datei /etc/resolv.conf
 
 Und hinzufügen :
 
-    Nameserver 
+    Nameserver 192.168.0.162
 
-DNS-Konguration 
+DNS-Konfiguration 
 ====================
 
 Bearbeiten Sie die Datei /etc/bind/named.conf.local
 
     cd / etc / bind /
-    
+    vim named.conf.local
 
 Und hinzufügen :
 
-    Bereich "raspberry.""{
+    Bereich "raspberry.pi""{
      Mastertyp;;
-     Datei "/etc/bind/db.raspberry.";;
+     Datei "/etc/bind/db.raspberry.pi";;
     };;
     Zone "0.168.192.in-addr.arpa"{
      Mastertyp;;
-     Datei "/etc/bind/db..inv";;
+     Datei "/etc/bind/db.192.168.0.inv";;
     };;
 
-Erstellen Sie die Datei db.raspberry.
+Erstellen Sie die Datei db.raspberry.pi
 
-. ---
+vim db.raspberry.pi ---
 
 Und steck es ein :
 
     $TTL 604800
-    @ IN SOA .. root.raspberry.. (
+    @ IN SOA ojn.raspberry.pi. root.raspberry.pi. (
      1;; Seriennummer
      604800;; Aktualisieren
      86400;; Wiederholen Sie den Vorgang
      2419200;; Läuft ab
      604800);; Negative C.ache-TTL
     ;;
-    @ IN NS ..
-    
-    
+    @ IN NS ojn.raspberry.pi.
+    ojn IN A 192.168.0.162
+    192.168.0.162 IN A 192.168.0.162
 
-Erstellen Sie dann diese Datei db..inv
+Erstellen Sie dann diese Datei db.192.168.0.inv
 
-    
+    vim db.192.168.0.inv
 
 Und setzen :
 
     $TTL 604800
-    @ IN SOA .. root.localhost. (
+    @ IN SOA ojn.raspberry.pi. root.localhost. (
      2;; Seriennummer
      604800;; Aktualisieren
      86400;; Wiederholen Sie den Vorgang
      2419200;; Läuft ab
      604800);; Negative C.ache-TTL
     ;;
-    @ IN NS ..
-    .
+    @ IN NS ojn.raspberry.pi.
+    162 IN PTR ojn.raspberry.pi.
 
 > **Wichtig**
 >
@@ -117,24 +117,24 @@ Und setzen :
 
 Starten Sie DNS :
 
-    
+    /etc/init.d/bind9 start
 
 Testen Sie, ob es gut ist :
 
-    
+    ping ojn.raspberry.pi
 
 Das solltest du haben :
 
-    root @ cubox-i:/ home / ojn # 
-    .ft () 56 (84) Datenbytes.
-    64 Bytes von .ft (): icmp_seq = 1 ttl = 64 time = 0.
-    64 Bytes von .ft (): icmp_seq = 2 ttl = 64 time = 0.
-    64 Bytes von .ft (): icmp_seq = 3 ttl = 64 time = 0.
-    64 Bytes von .ft (): icmp_seq = 4 ttl = 64 time = 0.
+    root @ cubox-i:/ home / ojn # ping ojn.raspberry.pi
+    PING ojn.raspberry.ft (192.168.0.162) 56 (84) Datenbytes.
+    64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 1 ttl = 64 time = 0.069 ms
+    64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 time = 0.067 ms
+    64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 time = 0.059 ms
+    64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 time = 0.068 ms
     ^ C..
-    --- . ng-Statistiken ---
+    --- ojn.raspberry.pi ping-Statistiken ---
     4 Pakete gesendet, 4 empfangen, 0% Paketverlust, Zeit 3000ms
-    rtt min / avg / max / mdev = 0,059 / 0,065 / 0,069 / 0.
+    rtt min / avg / max / mdev = 0,059 / 0,065 / 0,069 / 0.010 ms
 
 > **Notiz**
 >
@@ -146,7 +146,7 @@ Aus Sicherheitsgründen werden wir auch die Auflösung in / etc / hosts hinzufü
 
 Und hinzufügen :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
 Openjabnab-Wiederherstellung 
 =========================
@@ -159,29 +159,29 @@ Wir werden zuerst den Benutzer erstellen :
 Dann klone openjabnab :
 
     git clone https://github.com/OpenJabNab/OpenJabNab.git
-    :ojn / home / ojn / OpenJabNab /
+    chown -R ojn:ojn / home / ojn / OpenJabNab /
     chmod 0777 / home / ojn / OpenJabNab / http-wrapper / ojn_admin / include
 
-Webserverkonguration 
+Webserverkonfiguration 
 ============================
 
 Tun :
 
     cd / etc / apache2 / sites-available /
-    
+    vim ojn.conf
 
 Und hinzufügen :
 
     <VirtualHost *:80>
             DocumentRoot / home / ojn / OpenJabNab / http-wrapper /
-            Servername .
+            Servername ojn.raspberry.pi
              <Directory />
-                     FollowSyms-Optionen
+                     FollowSymLinks-Optionen
                     AllowOverride Keine
              </Directory>
              <Directory /home/ojn/OpenJabNab/http-wrapper/>
-                     FollowSyms MultiViews Indexoptionen
-                     
+                     FollowSymLinks MultiViews Indexoptionen
+                     AllowOverride all
                     Bestellung erlauben, verweigern
                      Erlaube von allen
              </Directory>
@@ -189,16 +189,16 @@ Und hinzufügen :
 
 Aktivieren Sie dann die Site :
 
-    
+    a2ensite ojn
 
 Sie müssen dann das openjabnab-Serververzeichnis autorisieren :
 
-    
+    vim /etc/apache2/apache2.conf
 
 Und hinzufügen :
 
     <Directory /home/ojn/>
-            FollowSyms-Indexoptionen
+            FollowSymLinks-Indexoptionen
             AllowOverride Keine
             Benötigen Sie alle gewährt
     </Directory>
@@ -212,43 +212,43 @@ Installation von openjabnab
 
 Tun :
 
-    
+    su ojn
     cd / home / ojn / OpenJabNab / server
-    
+    qmachen -r
     machen
 
 > **Notiz**
 >
 > Dieser Schritt kann sehr lang sein (bis zu 45 Minuten)
 
-Openjabnab-Konguration 
+Openjabnab-Konfiguration 
 ==========================
 
 Tun :
 
-    .ini-dist bin / openjabnab.ini
+    cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
 
 Und ändern Sie die folgenden Zeilen :
 
-    
-    
-    
-    
+    StandAloneAuthBypass = true
+    AllowAneinnymousRegistration = true
+    AllowUserManageBunny = true
+    AllowUserManageZtamp = true
 
-Und ersetzen Sie alle * my.domain.com * von * .*
+Und ersetzen Sie alle * my.domain.com * von * ojn.raspberry.pi*
 
-Openjabnab-Webserverkonguration 
+Openjabnab-Webserverkonfiguration 
 =======================================
 
 In Ihrem Beitrag müssen Sie die Datei bearbeiten
 C.:\\ Windows \\ System32 \\ Treiber \\ usw. und hinzufügen :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
 Dann mach weiter :
 
-    http://./ojn_admin/install.php
+    http://ojn.raspberry.pi/ojn_admin/install.php
 
 Alles validieren
 
@@ -257,36 +257,36 @@ Serverstart
 
 Jetzt ist alles fertig, alles was bleibt ist, den Server zu starten :
 
-    
+    su ojn
     cd ~ / OpenJabNab / server / bin
     ./ openjabnab
 
 Jetzt geh zu :
 
-    http://./ojn_admin/index.php
+    http://ojn.raspberry.pi/ojn_admin/index.php
 
 > **Notiz**
 >
 > Wenn alles in Ordnung ist, sollten Sie die Statistiken haben, die in angezeigt werden
 > Niedrig
 
-Kaninchenkonguration 
+Kaninchenkonfiguration 
 ======================
 
-Um das Kaninchen zu kongurieren, ist es ganz einfach, Sie müssen es herausziehen
+Um das Kaninchen zu konfigurieren, ist es ganz einfach, Sie müssen es herausziehen
 Schließen Sie es dann wieder an und drücken Sie die Taste. Er muss
 neinrmalerweise hellblau.
 
 Dann sollten Sie mit Ihrem PC. ein neues WLAN-Netzwerk haben
-nabaztagXX, stellen Sie eine Verbindung her, indem Sie .1 eingeben.
+nabaztagXX, stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
 
-Geben Sie einmal Ihre WLAN-Konguration und Informationen ein
+Geben Sie einmal Ihre WLAN-Konfiguration und Informationen ein
 folgenden :
 
     DHC.P aktiviert : nein
-    Lokale Maske : 
-    Lokales Gateway : .1 oder .254 (abhängig von Ihrem Netzwerk)
-    DNS-Server : 
+    Lokale Maske : 255.255.255.0
+    Lokales Gateway : 192.168.0.1 oder 192.168.0.254 (abhängig von Ihrem Netzwerk)
+    DNS-Server : 192.168.0.162
 
 Openjabnab Server Überwachung und Autostart 
 ====================================================
@@ -296,22 +296,22 @@ openjabnab bleibt stehen. Sie müssen also ein kleines Skript hinzufügen
 Überwachen Sie den Server und starten Sie ihn automatisch. Tun :
 
     cd / home / ojn
-    
+    vim checkojn.sh
 
 Und hinzufügen :
 
-    if [$ (ps ax |  |  | wc -l) -eq 0];; dann
-        ;; cd / home / ojn / OpenJabNab / server / bin;; neinhup ./ openjabnab >> / dev / null 2> & 1 &
-    
+    if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0];; dann
+        su ojn;; cd / home / ojn / OpenJabNab / server / bin;; neinhup ./ openjabnab >> / dev / null 2> & 1 &
+    fi
 
 Dann mach es :
 
     chmod + x checkojn.sh
 
 Wir müssen jetzt das Skript beim Start und eine Überprüfung hinzufügen
-zum Beisel alle 15 min :
+zum Beispiel alle 15 min :
 
-    
+    crontab -e
 
 Und hinzufügen :
 
@@ -323,12 +323,12 @@ Und hinzufügen :
 > Es ist absolut neintwendig, es in die Wurzel crontab zu legen, wenn Sie sind
 > wieder mit Benutzer ojn do ctrl + D.
 
-Konguration Ihres Kaninchens in Openjabnab 
+Konfiguration Ihres Kaninchens in Openjabnab 
 ============================================
 
 Weiter :
 
-    http://./ojn_admin/index.php
+    http://ojn.raspberry.pi/ojn_admin/index.php
 
 Sie müssen haben :
 
@@ -345,9 +345,9 @@ Geben Sie die angeforderten Informationen ein und melden Sie sich an :
 
 Sobald die Verbindung hergestellt ist, gehen Sie zum Server :
 
-![installation.openjabna](images/installation.openjabna.PNG)
+![installation.openjabnab4](images/installation.openjabnab4.PNG)
 
-Gehen Sie dann nach unten, um die Liste der verbundenen Kaninchen zu nden und sich zu erholen
+Gehen Sie dann nach unten, um die Liste der verbundenen Kaninchen zu finden und sich zu erholen
 seine Mac-Adresse :
 
 ![installation.openjabnab5](images/installation.openjabnab5.PNG)
@@ -357,26 +357,26 @@ Kaninchen dann validieren :
 
 ![installation.openjabnab6](images/installation.openjabnab6.PNG)
 
-Sie nden Ihr Kaninchen jetzt auf der Kaninchenseite, klicken Sie darauf
-um seine Konguration zu öffnen :
+Sie finden Ihr Kaninchen jetzt auf der Kaninchenseite, klicken Sie darauf
+um seine Konfiguration zu öffnen :
 
 ![installation.openjabnab7](images/installation.openjabnab7.PNG)
 
 Jetzt müssen Sie die lila API aktivieren und öffentlich übergeben,
-Hier nden Sie auch den lila API-Schlüssel, der Ihnen dienen wird
+Hier finden Sie auch den lila API-Schlüssel, der Ihnen dienen wird
 für Jeedom :
 
 ![installation.openjabnab8](images/installation.openjabnab8.PNG)
 
-Unten nden Sie die Liste der Plugins. Vergessen Sie nicht, sie hinzuzufügen
+Unten finden Sie die Liste der Plugins. Vergessen Sie nicht, sie hinzuzufügen
 aktivieren (TTS-Typ oder Ohrsteuerung) :
 
 ![installation.openjabnab9](images/installation.openjabnab9.PNG)
 
-Jeedom Konguration 
+Jeedom Konfiguration 
 =======================
 
-Die Konguration in Jeedom ist recht einfach, Sie müssen zunächst einmal
+Die Konfiguration in Jeedom ist recht einfach, Sie müssen zunächst einmal
 Verbinden Sie in SSH mit Jeedom (wenn Sie eine Jeedom-Box haben, geben Sie die Kennungen an
 sind im Installationsdokument). Bearbeiten Sie dann die Datei / etc / hosts
 
@@ -384,10 +384,10 @@ sind im Installationsdokument). Bearbeiten Sie dann die Datei / etc / hosts
 
 Und fügen Sie die folgende Zeile hinzu :
 
-    
+    192.168.0.162 ojn.raspberry.pi
 
 Dann passiert alles in Jeedom, nachdem Sie hier Ihr Kaninchen erstellt haben
-die Konguration zu setzen:
+die Konfiguration zu setzen:
 
 ![installation.openjabnab10](images/installation.openjabnab10.PNG)
 
@@ -414,27 +414,27 @@ Sie müssen einen jeedom-Ordner in servver / tts erstellen :
 
 Dann müssen Sie 3 Dateien erstellen :
 
--   
+-   jeedom.pro
 
 <!-- -->
 
     ######################################################################
-    # Automatisch generiert von qmachen (2.01a) Sa Jan.. :10:
+    # Automatisch generiert von qmachen (2.01a) Sa Jan.. 19 19:10:01 2008
     ######################################################################
 
-    
+    TEMPLATE = lib
     C.ONFIG - = Debug
     C.ONFIG + = qt Release Plugin
     QT + = Netzwerk-XML
     QT - = Mistel
-    = . ..
+    INC.LUDEPATH += . ../../server ../../lib
     ZIEL = tts_jeedom
-    
-    = . ..
+    DESTDIR = ../../bin/tts
+    DEPENDPATH += . ../../server ../../lib
     LIBS + = -L ../../ bin / -lcommon
-    
-    
-     {
+    MOC._DIR = ./tmp/moc
+    OBJEC.TS_DIR = ./tmp/obj
+    win32 {
       QMAKE_C.XXFLAGS_WARN_ON + = -WX
     }
     Unix {
@@ -450,29 +450,29 @@ Dann müssen Sie 3 Dateien erstellen :
 
 <!-- -->
 
-    #
-    #deniere _TTSAC.APELA_H_
+    #ifndef _TTSAC.APELA_H_
+    #definiere _TTSAC.APELA_H_
 
     #einschließen <QHttp>
     #einschließen <QMultiMap>
     #einschließen <QTextStream>
     #einschließen <QThread>
-    #"
+    #include "ttsinterface.h"
 
-    Klasse  : öffentliches TTSInterface
+    Klasse TTSJeedom : öffentliches TTSInterface
     {
-      
+      Q_OBJEC.T
       Q_INTERFAC.ES (TTSInterface)
 
     Öffentlichkeit:
-       ();;
-      virtual ~  ();;
+      TTSJeedom ();;
+      virtual ~ TTSJeedom ();;
       QByteArray C.reateNewSound (QString, QString, bool);;
 
     privat:
     };;
 
-    #
+    #endif
 
 -   tts \ _jeedom.cpp
 
@@ -482,30 +482,30 @@ Dann müssen Sie 3 Dateien erstellen :
     #einschließen <QUrl>
     #einschließen <QC.ryptographicHash>
     #einschließen <QMapIterator>
-    #"
+    #include "tts_jeedom.h"
     #include "log.h."
     #einschließen <QNetworkReply>
     #einschließen <QNetworkRequest>
     #einschließen <QNetworkAccessManager>
 
-    Q_EXPORT_PLUGIN2 (tts_jeedom, )
+    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    :: ():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");;
     }
 
-    ::~  ()
+    TTSJeedom::~ TTSJeedom ()
     {
     }
 
-    ::C.reateNewSound (QString-Text, QString-Stimme, bool forceOverwrite)
+    QByteArray TTSJeedom::C.reateNewSound (QString-Text, QString-Stimme, bool forceOverwrite)
     {
       QEventLoop-Schleife;;
       if (!voiceList.contains (Stimme))
         Stimme = "fr";;
       // Ausgabeordner prüfen (und ggf. erstellen)
-      
+      QDir outputFolder = ttsFolder;;
       if (!outputFolder.exists (voice))
         outputFolder.mkdir (Stimme);;
 
@@ -516,37 +516,37 @@ Dann müssen Sie 3 Dateien erstellen :
       }
 
       // Dateiname berechnen
-      ::Hash (Text.toAscii (), QC.ryptographicHash::Md5) .toHex (). Append (". Mp3");;
-      QString lePath = outputFolder.absoluteFilePath (Dateiname);;
+      QString fileName = QC.ryptographicHash::Hash (Text.toAscii (), QC.ryptographicHash::Md5) .toHex (). Append (". Mp3");;
+      QString filePath = outputFolder.absoluteFilePath (Dateiname);;
 
-      if (!::existiert (lePath))
-        .arg (voice, leName) .toAscii ();;
+      if (!forceOverwrite && QFile::existiert (filePath))
+        return ttsHTTPUrl.arg (voice, fileName) .toAscii ();;
 
       // MP3 holen
       QHttp http ("TODO_IP_JEEDOM");;
-      ::connect (& http, SIGNAL (erledigt (bool)), & loop, SLOT (quit ()));;
+      QObject::connect (& http, SIGNAL (erledigt (bool)), & loop, SLOT (quit ()));;
 
-      
-      C.ontentData + = "akey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (Text);;
+      QByteArray C.ontentData;;
+      C.ontentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (Text);;
 
-      
+      QHttpRequestHeader Header;;
       Header.addValue ("Host", "TODO_IP_JEEDOM");;
 
       Header.setC.ontentLength (C.ontentData.length ());;
-      Header.setRequest ("GET", "/core/a/tts.php?akey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (Text), 1, 1);;
+      Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (Text), 1, 1);;
 
       http.request (Header, C.ontentData);;
       loop.exec ();;
 
-      QFile-Datei (lePath);;
-      !le.open (QIODevice::
+      QFile-Datei (filePath);;
+      if (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("Sounddatei kann nicht zum Schreiben geöffnet werden : "+ lePath);;
+        LogError ("Sounddatei kann nicht zum Schreiben geöffnet werden : "+ filePath);;
         return QByteArray ();;
       }
-      le.write (http.readAll ());;
-      le.close ();;
-      .arg (voice, leName) .toAscii ();;
+      file.write (http.readAll ());;
+      file.close ();;
+      return ttsHTTPUrl.arg (voice, fileName) .toAscii ();;
     }
 
 > **Notiz**
@@ -557,13 +557,13 @@ Aktivieren Sie dann die tts jeedom, indem Sie die Datei ändern
 /home/ojn/OpenJabNab/server/tts/tts.pro durch Hinzufügen von jeedom zu SUBDIRS :
 
     TEMPLATE = Unterverzeichnisse
-    
+    SUBDIRS = acapela google jeedom
 
-Neu komlieren 
+Neu kompilieren 
 -------------
 
     cd / home / ojn / OpenJabNab / server
-    
+    qmachen -r
     machen
 
 Änderung des tts-Dienstes 

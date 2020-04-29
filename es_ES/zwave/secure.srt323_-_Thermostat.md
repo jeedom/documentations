@@ -99,7 +99,7 @@ Características técnicas
 
 -   Alcance : hasta 50 m en campo abierto
 
--   Indice de PROTECCION : 
+-   Indice de PROTECCION : IP30
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 

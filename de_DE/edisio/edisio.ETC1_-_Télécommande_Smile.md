@@ -43,7 +43,7 @@ Technische Daten
 
 -   Kanäle : 1
 
--   Funkprotokoll : 
+-   Funkprotokoll : 868,3 MHz
 
 -   Reichweite im freien Feld : 100M
 
@@ -51,18 +51,18 @@ Technische Daten
 
 -   Abmessungen : 65 x 18 mm
 
--   Schutzart : 
+-   Schutzart : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Moduldaten 
 =================
 
--   Machen Sie : 
+-   Machen Sie : Edisio Smart Home
 
--   Name : 
+-   Name : ETC1
 
--   Referenz : 
+-   Referenz : P01 / Y01 / L01
 
 Allgemeine Konfiguration 
 ======================
@@ -114,7 +114,7 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--    : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
+-   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
 -   Batterie : Zeigt den Batteriestatus an
 

@@ -70,7 +70,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 
+-   Abmessungen: 17 x 42 x 37 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -85,7 +85,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
 -   Name : Wandstecker FGWPE-101
 

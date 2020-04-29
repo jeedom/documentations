@@ -82,9 +82,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 100 m im freien Feld
 
--   Schutzindex : 
+-   Schutzindex : IP30
 
--   Abmessungen : 
+-   Abmessungen : 86 x 85 x 30 mm
 
 \.
 
@@ -93,7 +93,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Horstmann
 
 -   Name : Temperatursensor SES 302
 

@@ -43,9 +43,9 @@ luego, en el motor de tareas, desactive todas las tareas (hay un
 botón de desactivación general) y en los escenarios desactivar todos
 los escenarios (hay un botón de desactivación general).
 
-    
-    
-    
+    systemctl stop cron
+    systemctl stop nginx
+    systemctl stop mysql
 
 Instalación y configuración de Apache 
 --------------------------------------
@@ -53,14 +53,14 @@ Instalación y configuración de Apache
     mkdir -p / var / www / html / log
     apt-get -y instalar ntp ca-certificados descomprimir curl sudo
     apt-get -y instalar apache2 php5 mysql-client mysql-server libapache2-mod-php5
-    
+    apt-get -y install php5-cli php5-common php5-curl php5-fpm php5-json php5-mysql php5-gd
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / apache_security -O /etc/apache2/conf-available/security.conf
-    
+    rm /etc/apache2/conf-enabled/security.conf
     ln -s / etc / apache2 / conf-available / security.conf / etc / apache2 / conf-enabled /
-    
-    
+    rm /etc/apache2/conf-available/other-vhosts-access-log.conf
+    rm /etc/apache2/conf-enabled/other-vhosts-access-log.conf
     systemctl reiniciar apache2
-    
+    rm / var / www / html /index.html
 
 > **Nota**
 >
@@ -72,8 +72,8 @@ Copia de Jeedom
 ---------------
 
     cp -R / usr / share / nginx / www / jeedom / * / var / www / html /
-    .]* / var / www / html /
-    
+    cp -R /usr/share/nginx/www/jeedom/.[^.]* / var / www / html /
+    rm / var / www / html /log/nginx.error
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
 
@@ -91,7 +91,7 @@ Actualización de Crontab
 
 HACER :
 
-    
+    crontab -e
 
 Luego actualice la ruta a Jeedom, reemplace :
 
@@ -104,16 +104,16 @@ Por :
 Limpieza y eliminación de nginx 
 ---------------------------------
 
-    *
+    apt-get remove nginx*
     rm -rf cp -R / usr / share / nginx
-    
+    apt-get autoremove
     systemctl deshabilita nginx
 
 Reiniciar servicios 
 ------------------------
 
     systemctl habilita apache2
-    
+    systemctl start cron
 
 Luego conéctese a su Jeedom y reactive el motor de tareas
 y los escenarios. También puedes revivir a los demonios..

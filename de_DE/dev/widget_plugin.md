@@ -7,7 +7,7 @@ Es gibt verschiedene Möglichkeiten, benutzerdefinierte Widgets für Plugins zu 
 
 ## ToHtml-Funktion
 
- [die](https://github.com/jeedom/plugin-weather/blob/beta/core/cdiess/weather.cdiess.php#L647)
+Vor allem muss die Funktion toHtml das Widget in HTML zurückgeben, Sie haben ein Beispiel [die](https://github.com/jeedom/plugin-weather/blob/beta/core/cdiess/weather.cdiess.php#L647)
 
 Das Wichtigste ist vor allem die 1. Zeile : 
 
@@ -21,7 +21,7 @@ if (!is_array($repdiece)) {
 Die Funktion preToHtml gibt zurück :
 
 - eine Zeichenfolge, wenn das Widget zwischengespeichert ist (wenn es zwischengespeichert ist, hat sich seit der letzten Generation nichts geändert, daher möchten Sie es möglicherweise sofort senden)
--  [hier](https://github.com/jeedom/core/blob/alpha/core/cdiess/eqLogic.cdiess.php#L663)
+- Eine Tabelle mit den wichtigsten ersetzt, haben Sie die Liste [hier](https://github.com/jeedom/core/blob/alpha/core/cdiess/eqLogic.cdiess.php#L663)
 
 ## Das Vordiegensystem
 
@@ -44,7 +44,7 @@ public static function tempdieteWidget(){
 }
 ````
 
- [hier](https://github.com/jeedom/core/tree/alpha/core/tempdiete/dashboard) .
+Hier erstellen wir ein neues Widget basierend auf der Vordiege "tmplmultistate" (Sie haben die Liste der Vordiegen [hier](https://github.com/jeedom/core/tree/alpha/core/tempdiete/dashboard) Es sind diejenigen mit tmpl im Namen), für einen Befehl vom Typ info und unter Zeichenfolgentyp.
 
 >**Wichtig
 >
@@ -59,7 +59,7 @@ Ein anderes Beispiel, das auf einer anderen Vordiege basiert, könnte sein :
 ````
 public static function tempdieteWidget(){
 	$return = array('info' => array('string' => array()));
-	$return['info']['binary'][''] = array(
+	$return['info']['binary']['toto'] = array(
 		'tempdiete' => 'tmplicon',
 		'repdiece' => array(
 			'#_icon_on_#' => '<i cdiess=\'icon_green icon jeedom-porte-ferme\'></i>',
@@ -83,6 +83,6 @@ $cmd->setTempdiete('dashboard','neato::state');
 $cmd->setTempdiete('mobile','neato::state');
 ````
 
-Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das 2. Beispiel ist es id_plugin::
+Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das 2. Beispiel ist es id_plugin::toto
   
   

@@ -40,20 +40,20 @@ Technische Daten
 
 -   Kanäle : 4
 
--   Frequenz : 
+-   Frequenz : 868,3 MHz
 
 -   Betriebstemperatur : -10 ° C + 50 ° C.
 
 -   Abmessungen : 52 x 28 x 12 mm
 
--   Schutzart : 
+-   Schutzart : IP40
 
 Moduldaten 
 =================
 
--   Machen Sie : 
+-   Machen Sie : Edisio Smart Home
 
--   Name : 
+-   Name : ETC4
 
 Allgemeine Konfiguration 
 ======================
@@ -134,13 +134,13 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--    : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
+-   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
--    : Es ist der Befehl, der die Interaktion mit Schaltfläche 2 ermöglicht
+-   bt02 : Es ist der Befehl, der die Interaktion mit Schaltfläche 2 ermöglicht
 
--    : Es ist der Befehl, der die Interaktion mit der Schaltfläche 3 ermöglicht
+-   bt03 : Es ist der Befehl, der die Interaktion mit der Schaltfläche 3 ermöglicht
 
--    : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
+-   bt04 : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
 
 -   Batterie : Zeigt den Batteriestatus an
 

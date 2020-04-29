@@ -96,7 +96,7 @@ Technische Daten
 
 -   Akkulaufzeit : 2 Jahre
 
--   Frequenz : 868.
+-   Frequenz : 868.42 MHz
 
 -   Übertragungsentfernung : 30m drinnen
 
@@ -110,9 +110,9 @@ Technische Daten
 
 -   Abmessungen :
 
--   Detektor : 
+-   Detektor : 28 x 96 x 23 mm
 
--   Magnet : 
+-   Magnet : 10 x 50 x 12 mm
 
 -   Gewicht : 52 g
 
@@ -120,9 +120,9 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 85% rF max
 
--   CE-Norm : 
+-   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : 
+-   Z-Wave-Zertifizierung : ZC08-13050003
 
 \.
 
@@ -131,7 +131,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Philio Technology Corporation
 
 -   Name : PST02-A 4-in-1-Multisensor
 
@@ -200,7 +200,7 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--    : Dies ist der befehl (er wird ausgelöst in
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
 -   Batterie : Es ist der Batteriebefehl
@@ -327,7 +327,7 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Lassen Sie die -Taste los und drücken Sie sie erneut
+-   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
 \.
 
@@ -336,7 +336,7 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der -Taste aktiviert.
+Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
 \.
 

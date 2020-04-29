@@ -1,4 +1,4 @@
- 
+Fibaro Dimmer2 - FGD-212 
 ========================
 
 \
@@ -101,9 +101,9 @@ Características técnicas
 
 -   Puntao de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230V +/- 10%, 50Hz
 
--   El consumo : 
+-   El consumo : 1.3W
 
 -   Cableado : neutral no requerido
 
@@ -117,11 +117,11 @@ Características técnicas
 
 -   Frecuencia : 868.42 Mhz
 
--   Fuerza de la señal : 
+-   Fuerza de la señal : 1mW
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones : 42..25 x 20.3 mm
+-   Dimensiones : 42.5 x 38.25 x 20.3 mm
 
 -   Temperatura de funcionamiento : 0-35 ° C
 
@@ -139,7 +139,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : 
+-   Nombre : FGD212 Dimmer 2
 
 -   ID del fabricante : 271
 
@@ -271,7 +271,7 @@ Ser redactado
 \
 
 Este módulo tiene cinco grupos de asociación, solo el primero es
-.
+indispensable.
 
 \
 

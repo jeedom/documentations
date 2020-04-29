@@ -27,7 +27,7 @@ Resumen
 El Fibaro Wall Plug es un receptor-zócalo-transmisor universal bajo
 forma de un adaptador para enchufar a una toma de corriente a la red
 eléctrico, compatible con el estándar Z-Wave. Te permite gestionar
-cualquier dispositivo con una potencia máxima de , mientras
+cualquier dispositivo con una potencia máxima de 2.5kW, mientras
 integrando la funcionalidad de medir la potencia activa de la corriente y
 consumo de energía de dispositivos. Este módulo está equipado con un
 anillo de luz con LEDs que indican su estado y consumo
@@ -60,17 +60,17 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230V, 50Hz
 
 -   El consumo de energía : hasta 0.8W
 
--   Carga máxima : 
+-   Carga máxima : 2.5kW
 
 -   Frecuencia : 868.42 Mhz UE
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 
+-   Dimensiones: 17 x 42 x 37 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -212,7 +212,7 @@ Detalles del parámetro :
     aumento (en%)
 
 -   42: igual que en el modo estándar (hasta 5 veces por paso definido en
-    
+    param 43)
 
 -   43: intervalo de aumento de potencia
 
@@ -249,7 +249,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es
-.
+indispensable.
 
 \
 
@@ -272,7 +272,7 @@ Bueno saber
 
 Puede restablecer su medidor de consumo haciendo clic en
 en este botón disponible en la pestaña Sistema. Hay que elegir
-.
+PressButton.
 
 \
 

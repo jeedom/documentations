@@ -1,4 +1,4 @@
- 
+Aeotec Keyfob 
 =============
 
 \
@@ -71,13 +71,13 @@ Technical characteristics
 
 -   Battery life : 1 year
 
--   Frequency: 868.
+-   Frequency: 868.42 MHz
 
 -   Transmission distance : 100m in open field
 
 -   Operating temperature : -10 ° C to 50 ° C
 
--    : 55 x 30 x 13mm (L x W x H)
+-   Dimensions : 55 x 30 x 13mm (L x W x H)
 
 \
 
@@ -86,9 +86,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Aeotec
 
--   Name : 
+-   Name : Key Fob
 
 -   Manufacturer ID : 134
 
@@ -242,7 +242,7 @@ To use this module as a remote control, proceed as follows :
 -   5 : Change the operating mode of the remote control while remaining
     press the two buttons on the back for 3 seconds.
 
- 
+Wakeup 
 ------
 
 \

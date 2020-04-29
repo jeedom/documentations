@@ -1,4 +1,4 @@
- 
+SmartHome by Everspring In Wall We Off - AN179-0 
 ================================================
 
 \
@@ -76,12 +76,12 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 
+-   Food : 230 V, 50 Hz
 
--   Consumption : 
+-   Consumption : 0.5W
 
 -   Maximum power : Resistive load : 2500W Incandescent bulb
-    : 1200W Compact Fluorescent Bulb : 
+    : 1200W Compact Fluorescent Bulb : 320W
 
 -   Frequency : 868.42 Mhz
 
@@ -89,7 +89,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--    : 
+-   Dimensions : 42mm x 43mm x 16mm
 
 \
 
@@ -98,9 +98,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : SmartHome by Everspring
 
--   Name : 
+-   Name : In Wall We Off
 
 -   Manufacturer ID : 96
 
@@ -248,7 +248,7 @@ Good to know
 
 \
 
- 
+Wake up 
 -------
 
 \

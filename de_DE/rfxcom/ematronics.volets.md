@@ -23,27 +23,27 @@ Aktivieren Sie "Im Debug-Modus starten""
 Warten Sie, bis sich das Fenster öffnet, und drücken Sie dann die Taste Öffnen
 Ihre Ematronic-Fernbedienung.
 
-    :2765 - DEBUG - Testnachricht: 
-    :2805 - DEBUG - Meldung OK
-    :328 - DEBUG - Verifiziert OK
-    :: 19
-    :: 03
-    :: 01
-    :: 
-    :: 84
-    :359 - DEBUG - Überprüfen Sie die korrekte Paketlänge
-    :556 - DEBUG - Paket in log_msgfile speichern
+    MainThread - rfxcmd:2765 - DEBUG - Testnachricht: 09 19 03 01 1F 84 B9 01 01 60
+    MainThread - rfxcmd:2805 - DEBUG - Meldung OK
+    MainThread - rfxcmd:328 - DEBUG - Verifiziert OK
+    MainThread - rfxcmd:334 - DEBUG - PacketType: 19
+    MainThread - rfxcmd:338 - DEBUG - SubType: 03
+    MainThread - rfxcmd:342 - DEBUG - SeqNbr: 01
+    MainThread - rfxcmd:346 - DEBUG - Id1: 1F
+    MainThread - rfxcmd:350 - DEBUG - Id2: 84
+    MainThread - rfxcmd:359 - DEBUG - Überprüfen Sie die korrekte Paketlänge
+    MainThread - rfxcmd:556 - DEBUG - Paket in log_msgfile speichern
 
 Suchen Sie nach der Fernbedienungs-ID 
 -------------------------------------
 
-Bemerkung: Ematronic-Fernbedienungen beginnen immer mit : 
-Der Bereich, der uns interessiert, beginnt also mit "Testnachricht"" : .
+Bemerkung: Ematronic-Fernbedienungen beginnen immer mit : 09 19 03
+Der Bereich, der uns interessiert, beginnt also mit "Testnachricht"" : 09 19 03.
 
 Spot : Id1 und Id2 und fügen Sie das folgende Hexadezimal hinzu : in meinem Beispiel
-Id1 =  und Id2 = 84. Sie sollten sie also in der Zeile "Test
+Id1 = 1F und Id2 = 84. Sie sollten sie also in der Zeile "Test
 message "und extrahiere Id3, hier Id3 = B9, Unsere Fernbedienung hat
-als ID ⇒ 84B9.
+als ID ⇒ 1F84B9.
 
 Stoppen Sie den Debug-Modus mit der Schaltfläche "Stop / Restart the Daemon"" 
 -----------------------------------------------------------------

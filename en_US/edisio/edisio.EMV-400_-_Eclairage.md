@@ -9,7 +9,7 @@
 Summary 
 ======
 
-The  micromodule will allow you to manage an engine
+The EMV-400 micromodule will allow you to manage an engine
 bidirectional or electrical equipment. It allows control
 2 Start / Stop outputs or an Open / Stop / Close shutter.
 
@@ -62,7 +62,7 @@ Technical characteristics
 
 -   Type of module: Edisio receiver
 
--   Food: 
+-   Food: 230VAC, 50Hz
 
 -   Wiring: 4 wires, 2 for controls and 2 for power
 
@@ -72,22 +72,22 @@ Technical characteristics
 
 -   Maximum power: 2A per output
 
--   Resistive load: 
+-   Resistive load: 460W
 
--   Other expenses: 
+-   Other expenses: 100W
 
 -   Operating temperature: -10 ° C + 45 ° C
 
--   : 
+-   Dimensions: 48x46x26mm
 
--   Degree of protection: 
+-   Degree of protection: IP20
 
 Module data 
 =================
 
--   Mark : 
+-   Mark : Edisio Smart Home
 
--   Name : 
+-   Name : EMV-400
 
 General configuration 
 ======================
@@ -222,7 +222,7 @@ Here is the list of commands :
 
 -   We 2 : It is the command which activates relay 2
 
--   : It is the command which deactivates relay 2
+-   Off 2: It is the command which deactivates relay 2
 
 -   E : This is the command that allows you to use the remote mode
 

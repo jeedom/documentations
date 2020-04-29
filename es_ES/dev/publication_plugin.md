@@ -2,7 +2,7 @@
 
 ## Requisitos previos
 
--  [aquí](https://www.jeedom.com/site/fr/dev.html)
+- Registrarse como desarrollador, ver [aquí](https://www.jeedom.com/site/fr/dev.html)
 - A la espera de la validación de la cuenta de mercado como desarrollador
 - Tenga su complemento en github (depósito privado o no)
 
@@ -31,7 +31,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     
    Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
    
-   - 
+   - beta
    - Estable
    - pro (es inútil en el 99% de los casos)
    - Establev3 (próximamente)

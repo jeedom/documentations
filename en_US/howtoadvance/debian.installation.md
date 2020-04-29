@@ -6,7 +6,7 @@ Source recovery
 
 You can find the latest Debian version in netinstall (size
 minimal but need internet for installation)
-[here](https://www.debian.org/CD/netinst) 
+[here](https://www.debian.org/CD/netinst) (you have to take the image in
 amd64) or click directly
 [here](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 to download the ISO.
@@ -22,7 +22,7 @@ You must either burn the ISO on a CD and put the CD in the machine
 create a bootable USB key.
 
 For the bootable USB key download rufus
-[the](http://rufus.akeo.ie/downloads/rufus-2.9.exe), 
+[the](http://rufus.akeo.ie/downloads/rufus-2.9.exe), launch and
 configure like this :
 
 ![debian.installation](images/debian.installation.PNG)
@@ -168,7 +168,7 @@ Optimizations :
 Add vim and sudo 
 -------------------
 
-    
+    sudo apt-get install -y vim sudo
 
 Add fail2ban 
 ----------------
@@ -178,7 +178,7 @@ in the event of too many connection failures it blocks access to
 the IP in question (therefore not to everyone, only to the attacker) a
 time.
 
-    
+    sudo apt-get install -y fail2ban
 
 Add the Open VMware Tools 
 -----------------------------
@@ -187,7 +187,7 @@ Open VMware Tools install system-specific drivers
 installed and bring the optimizations of this hosted OS
 on an ESXi hypervisor.
 
-    
+    sudo apt-get install -y open-vm-tools
 
 You just have to install Jeedom by following
 [this](https://doc.jeedom.com/en_US/installation/index#tocAnchor-1-27)

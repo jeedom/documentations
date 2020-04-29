@@ -15,7 +15,7 @@ Driver installation
 Once the key is connected to a Windows 10 PC you must have a
 new CD-ROM drive. You have to double-click on it and install the
 proposed software (there is nothing to change just do everything
-.
+long).
 
 ![gsmonly](images/gsmonly.PNG)
 

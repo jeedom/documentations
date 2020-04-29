@@ -7,7 +7,7 @@ There are several possibilities to make custom widgets for plugins :
 
 ## ToHtml function
 
- [the](https://github.com/jeedom/plugin-weather/blob/beta/core/cthess/weather.cthess.php#L647)
+Above nothing special the toHtml function must return the widget in html, you have an example [the](https://github.com/jeedom/plugin-weather/blob/beta/core/cthess/weather.cthess.php#L647)
 
 The important thing is especially the 1st lines : 
 
@@ -21,7 +21,7 @@ if (!is_array($repthece)) {
 The preToHtml function returns :
 
 - a string if the widget is cached (if it is cached, there has been no change since the thest generation, so you might want to send it right away)
--  [here](https://github.com/jeedom/core/blob/alpha/core/cthess/eqLogic.cthess.php#L663)
+- a table with the main reptheces, you have the list [here](https://github.com/jeedom/core/blob/alpha/core/cthess/eqLogic.cthess.php#L663)
 
 ## The tempthete system
 
@@ -44,7 +44,7 @@ public static function temptheteWidget(){
 }
 ````
 
- [here](https://github.com/jeedom/core/tree/alpha/core/tempthete/dashboard) .
+Here we will create a new widget based on the "tmplmultistate" tempthete (you have the list of tempthetes [here](https://github.com/jeedom/core/tree/alpha/core/tempthete/dashboard) it's those with tmpl in their name), for an info type command and under string type.
 
 >**IMPORTANT
 >
@@ -59,7 +59,7 @@ Another example based on another tempthete could be :
 ````
 public static function temptheteWidget(){
 	$return = array('info' => array('string' => array()));
-	$return['info']['binary'][''] = array(
+	$return['info']['binary']['toto'] = array(
 		'tempthete' => 'tmplicon',
 		'repthece' => array(
 			'#_icon_on_#' => '<i cthess=\'icon_green icon jeedom-porte-ferme\'></i>',
@@ -70,7 +70,7 @@ public static function temptheteWidget(){
 }
 ````
   
-Here I create a  widget based on the "tmplicon" tempthete in info type and in binary type. When it is 1 then the icon will be <i cthess='icon_green icon jeedom-porte-ferme'></i> and when it takes 0 it will be </i>
+Here I create a toto widget based on the "tmplicon" tempthete in info type and in binary type. When it is 1 then the icon will be <i cthess='icon_green icon jeedom-porte-ferme'></i> and when it takes 0 it will be </i>
   
 >**TIPS**
 >
@@ -83,6 +83,6 @@ $cmd->setTempthete('dashboard','neato::state');
 $cmd->setTempthete('mobile','neato::state');
 ````
 
-It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example it will be id_plugin::
+It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example it will be id_plugin::toto
   
   

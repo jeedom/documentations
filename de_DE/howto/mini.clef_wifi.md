@@ -26,12 +26,12 @@ Garantie.
 
 Geben Sie einfach den folgenden Befehl in SSH ein :
 
-     | 
+    sudo lsusb | grep Edimax
 
 Wenn der Schlüssel richtig erkannt wird, sollte die folgende Meldung angezeigt werden
 :
 
-    Bus 001 Gerät 004: :7811 Edimax Technology Co., Ltd. EW-7811A 802.11n Drahtloser Adapter [Realtek RTL8188CUS]
+    Bus 001 Gerät 004: ID 7392:7811 Edimax Technology Co., Ltd. EW-7811A 802.11n Drahtloser Adapter [Realtek RTL8188CUS]
 
 Die Kennungen des Busses und des Geräts können bei unterschiedlich sein
 Sie, abhängig vom USB-Anschluss, an den Sie Ihren Schlüssel angeschlossen haben.
@@ -43,7 +43,7 @@ Der Edimax WiFi-Schlüssel hat den Vorteil, dass bereits ein Treiber integriert 
 Ihr Mini und überprüfen Sie es einfach durch Eingabe des Befehls
 als nächstes in SSH :
 
-     | 
+    sudo lsmod | grep 8192cu
 
 Wenn der Befehl einen Wert zurückgibt, ist alles in Ordnung. Zum Beispiel
 zu Hause bekomme ich es zurück :
@@ -59,16 +59,16 @@ nächste Bestellung :
 
 Hier ist der Inhalt der Betriebsdatei bei mir :
 
-    
-    
-    
-    #
+    auto lo
+    iface lo inet loopback
+    iface eth0 inet dhcp
+    #wlan
     #=============
-    
-    
-    
-    Pre-Up wpa_supplicant -Dwext -i 0 -c / etc / wpa_supplicant.
-    
+    auto wlan0
+    allow-hotplug wlan0
+    iface wlan0 inet dhcp
+    Pre-Up wpa_supplicant -Dwext -i wlan0 -c / etc / wpa_supplicant.conf -B
+    iface default inet dhcp
 
 Bearbeiten der Datei "/etc/wpa\_supplicant.conf" 
 ==============================================
@@ -77,7 +77,7 @@ Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen eingeben (Name von
 Ihre SSID und Ihren WPA-Schlüssel). Dies erfolgt durch Bearbeiten der Datei
 /etc/wpa\_supplicant.conf mit dem Befehl :
 
-    
+    sudo nano /etc/wpa_supplicant.conf
 
 Hier ist meine Betriebsakte zu Hause :
 
@@ -109,6 +109,6 @@ Hier ist meine Betriebsakte zu Hause :
 
     Sobald die Dateien fertig sind, muss nur noch die WiFi-Verbindung durch Eingabe des folgenden Befehls gestartet werden :
 
-
+sudo ifup wlan0
 
     Normalerweise sollte Ihr WLAN auf Ihrem Mini betriebsbereit sein.

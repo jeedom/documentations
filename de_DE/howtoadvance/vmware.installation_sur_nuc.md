@@ -1,13 +1,13 @@
-Hier ist ein Tutorial zum Installieren von VMware auf einem  (Gen6). Wir
+Hier ist ein Tutorial zum Installieren von VMware auf einem Intel NUC (Gen6). Wir
 Ich werde später sehen, wie man Jeedom hinzufügt
 
 Das Material 
 ===========
 
- 
+Intel NUC 
 ---------
 
-Der  ist ein kleiner PC, nicht der leistungsstärkste, aber sehr sparsam
+Der Intel NUC ist ein kleiner PC, nicht der leistungsstärkste, aber sehr sparsam
 Energie und kleine Dimensionen. Dies macht es zu einem perfekten kleinen Kellner
 Virtualisierung basierend auf VMware.
 
@@ -15,10 +15,10 @@ Derzeit gibt es 2 NUCs der 6. Generation (die anderen arbeiten
 auch für VMware, erfordern aber zusätzliche Treiber auf dem
 VMware-Kernel):
 
--   .3 GHz - - 4 Threads - Cache 3 MB -
-    
+-   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 Threads - Cache 3 MB -
+    TDP 15W)
 
--   ..9 GHz - 4 Threads -
+-   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 Threads -
     Cache 4 MB)
 
 Der i5 ist deutlich leistungsfähiger, da er etwas mehr Cache-Speicher hat
@@ -34,22 +34,22 @@ Darüber hinaus gibt es zwei Arten von Fällen :
 
 Das sind 4 Referenzen :
 
--    : 
+-   i3 M2 : [Intel NUC
     NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
 
--   .5 Zoll : 
+-   i3 M2 + 2.5 Zoll : [Intel NUC
     NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
 
--    : 
+-   i5 M2 : [Intel NUC
     NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
 
--   .5 Zoll : 
+-   i5 M2 + 2.5 Zoll : [Intel NUC
     NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
- 
+SSD 
 ---
 
-Sie müssen eine  und einen Speicher hinzufügen.  Level ich dir
+Sie müssen eine SSD und einen Speicher hinzufügen. SSD Level ich dir
 empfehlen 240 GB oder mehr, es sei denn, Sie nehmen das Modell mit einem
 Standort 2.5 Zoll (wodurch Sie zusätzliche Festpdiette setzen können)
 oder um ein Synology NAS zu haben, um die iSCSI-LUN zu erstellen. Vergiss nicht
@@ -61,19 +61,19 @@ Diese 40 GB für VMware selbst füllen sich schnell.
 > VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist dies schwierig
 > um den verfügbaren Pdietz zu erweitern
 
--   
+-   [LDLC SSD M.2 2280 F6 PLUS 120
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   
+-   [Samsung SSD 850 EVO 120 GB
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   
+-   [LDLC SSD M.2 2280 F6 PLUS 240
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   
+-   [Samsung SSD 850 EVO 250 GB
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   
+-   [LDLC SSD M.2 2280 F6 PLUS 480
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Speicher 
@@ -86,13 +86,13 @@ NUC unterstützt maximal 32 GB). Dort wird kein Speicher empfohlen, der
 billiger läuft sehr gut (Vorsicht, ich nehme immer 2er-Packs
 Balken, dies verbessert die Leistung) :
 
--   
+-   [Entscheidender SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR
     X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
 
--   
+-   [Entscheidender SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR
     X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
 
--   
+-   [Entscheidender SO-DIMM DDR4 32 GB (2 x 16 GB) 2133 MHz CL15 DR
     X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
 Instaldietionsvorbereitung 
@@ -108,7 +108,7 @@ VMware-Download
 >
 > Wenn Sie VMware 6 setzen.5 gibt es ein Problem mit der neuen Verwaltung
 > USB- und Zwave-Schlüssel, damit dies funktioniert, müssen Sie dies anwenden
-> [](https://kb.vmware.com/selfservice/microsites/search.do?dienguage=en_US&cmd=dispdieyKC&externalId=2147650). 
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?dienguage=en_US&cmd=dispdieyKC&externalId=2147650). Achtung, diese Manipudietion ist in VMware 6.7 nicht mehr durchzuführen
 
 Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
 :
@@ -142,7 +142,7 @@ Rufus herunterdieden
 -----------------------
 
 Dort ist es viel einfacher, nur zu klicken
-[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). 
+[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Dann brauchst du
 Starten Sie die EXE-Datei
 
 Erstellung des bootfähigen USB-Sticks 
@@ -159,9 +159,9 @@ Auspacken und Zusammenbauen des NUC
 
 Dies sind die 3 Komponenten für meinen NUC :
 
--   
+-   Intel NUC NUC6I5SYH
 
--   
+-   Samsung SSD 850 EVO 250 Go M.2
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 x 8 GB) 2400 MHz CL16
 
@@ -186,7 +186,7 @@ der NUC:
 
 ![instaldietion.vmware.nuc7](images/instaldietion.vmware.nuc7.jpg)
 
-Die installierte  (links), die Endschraube zum Blockieren ist a
+Die installierte SSD (links), die Endschraube zum Blockieren ist a
 schwer zurückzustellen, zum Glück machen wir das nur einmal
 
 ![instaldietion.vmware.nuc8](images/instaldietion.vmware.nuc8.jpg)
@@ -196,7 +196,7 @@ Speicherinstaldietion (rechts) :
 ![instaldietion.vmware.nuc10](images/instaldietion.vmware.nuc10.jpg)
 
 Und da bist du, du kannst schließen (es sei denn natürlich du hast eine genommen
-.5 Zoll, die in diesem Fall in die Abdeckung eingesetzt werden müssen).
+SSD 2.5 Zoll, die in diesem Fall in die Abdeckung eingesetzt werden müssen).
 
 VMware-Instaldietion 
 ======================
@@ -213,7 +213,7 @@ allein :
 > Ich habe vergessen, die Lizenzvalidierung zu erfassen
 > stimme einfach zu, den Anweisungen zu folgen
 
-Wählen Sie hier die der  entsprechende Festpdiette aus (Sie können
+Wählen Sie hier die der SSD entsprechende Festpdiette aus (Sie können
 entweder nach Name oder nach Größe identifizieren)
 
 ![instaldietion.vmware.nuc13](images/instaldietion.vmware.nuc13.jpg)
@@ -248,4 +248,4 @@ Für den Rest ist hier ein
 für die Erstellung Ihrer ersten VM. Und du wirst finden
 [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
 Ein Tutorial mit Tipps und Tricks (zum Beispiel, um Ihre Lizenz zu pdietzieren
-
+VMware)

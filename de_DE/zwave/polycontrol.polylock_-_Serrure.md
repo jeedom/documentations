@@ -1,4 +1,4 @@
- 
+PolyLock 
 ========
 
 \.
@@ -25,7 +25,7 @@ Zusammenfassung
  
 
 Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
- !
+Poly-Control !
 
 Das elektronische Poly-Lock-Schloss ist so konzipiert, dass es sich fast anpasst
 alle Türen der Welt. Es lässt sich sehr leicht in 5 montieren
@@ -40,11 +40,11 @@ mit der kabellosen Poly-Pad-Tastatur zum Öffnen oder Verriegeln der Tür.
 Es ist daher möglich, Ihr Haus auf ähnliche Weise zu verschließen
 um Ihr Auto zu verriegeln - mit einer Fernbedienung durch Drücken
 Nur ein Knopf und Ihr Zuhause ist sicher. Das Schloss
- kann auch mit anderen Z-Wave-Szenen verwendet werden
+Poly-Control kann auch mit anderen Z-Wave-Szenen verwendet werden
 Die Lichter gehen an und die Alarmanlage wird deaktiviert, wenn
 über Ihre Fernbedienung entsperrt.
 
-Das -System kann in einer Umgebung verwendet werden
+Das Poly-Control-System kann in einer Umgebung verwendet werden
 häuslich oder beruflich. Das Poly-Lock wird mit Strom versorgt
 Batterie, und wurde getestet, um für 1 Jahr ohne zu arbeiten
 Batteriewechsel.
@@ -94,9 +94,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Poly-Control
 
--   Name : 
+-   Name : Polylock
 
 -   Hersteller ID : 270
 

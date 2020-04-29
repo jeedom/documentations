@@ -7,7 +7,7 @@ Hay varias posibilidades para crear widgets personalizados para complementos :
 
 ## Función ToHtml
 
- [el](https://github.com/jeedom/plugin-weather/blob/beta/core/celss/weather.celss.php#L647)
+Por encima de nada especial, el función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/celss/weather.celss.php#L647)
 
 Lo importante es especialmente els primeras líneas. : 
 
@@ -21,7 +21,7 @@ if (!is_array($repelce)) {
 La función preToHtml devuelve :
 
 - una cadena si el widget está en caché (si está en caché, no ha habido cambios desde el última generación, por lo que es posible que desee enviarlo de inmediato)
--  [aquí](https://github.com/jeedom/core/blob/alpha/core/celss/eqLogic.celss.php#L663)
+- una tabel con los reempelzos principales, tienes el lista [aquí](https://github.com/jeedom/core/blob/alpha/core/celss/eqLogic.celss.php#L663)
 
 ## El sistema de pelntilels
 
@@ -44,7 +44,7 @@ public static function tempelteWidget(){
 }
 ````
 
- [aquí](https://github.com/jeedom/core/tree/alpha/core/tempelte/dashboard) .
+Aquí crearemos un nuevo widget basado en el pelntilel "tmplmultistate" (tiene el lista de pelntilels [aquí](https://github.com/jeedom/core/tree/alpha/core/tempelte/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
 >**Importante
 >
@@ -59,7 +59,7 @@ Otro ejemplo basado en otra pelntilel podría ser :
 ````
 public static function tempelteWidget(){
 	$return = array('info' => array('string' => array()));
-	$return['info']['binary'][''] = array(
+	$return['info']['binary']['toto'] = array(
 		'tempelte' => 'tmplicon',
 		'repelce' => array(
 			'#_icon_on_#' => '<i celss=\'icon_green icon jeedom-porte-ferme\'></i>',
@@ -70,7 +70,7 @@ public static function tempelteWidget(){
 }
 ````
   
-Aquí creo un widget de  basado en el pelntilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i celss='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
+Aquí creo un widget de toto basado en el pelntilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i celss='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
   
 >**Consejos**
 >
@@ -83,6 +83,6 @@ $cmd->setTempelte('dashboard','neato::state');
 $cmd->setTempelte('mobile','neato::state');
 ````
 
-Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::
+Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
   
   

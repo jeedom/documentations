@@ -24,7 +24,7 @@ Summary
 
 \
 
-'s PowerNode plug module is a smart device that
+GreenWave's PowerNode plug module is a smart device that
 connects to one of your home appliances and electronics to
 allow you to monitor and control power consumption at
 distance via web browser or smartphone.
@@ -93,21 +93,21 @@ Technical characteristics
 
 -   Food : 250V AC, 50Hz
 
--   Maximum charge current : 
+-   Maximum charge current : 10A
 
--   Maximum load power : 
+-   Maximum load power : 2400W (@ 240V)
 
 -   Standby consumption : 0.4 W
 
--   Measurement accuracy : 
+-   Measurement accuracy : ± 0.1W
 
--   Overcurrent protection :  internal fuse
+-   Overcurrent protection : 10A internal fuse
 
 -   Plug type : DIN49440 / EEC 7/7 (Schuko)
 
--   Z-Wave Radio Frequency : 
+-   Z-Wave Radio Frequency : 868.42MHz
 
--   Maximum range Z-Wave : 
+-   Maximum range Z-Wave : 30m
 
 -   Operating temperature : 0 ° C to + 25 ° C
 
@@ -115,7 +115,7 @@ Technical characteristics
 
 -   Maximum humidity : 5% to 90%
 
--   IP class (Humidity tolerance) : 
+-   IP class (Humidity tolerance) : IP20
 
 \
 
@@ -124,9 +124,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : GreenWave
 
--   Name :  \ [1 x plug \]
+-   Name : GreenWave \ [1 x plug \]
 
 -   Manufacturer ID : 153
 
@@ -275,7 +275,7 @@ polling to boost consumption.
 
 You can reset your consumption meter by clicking
 on this button available in the System tab. It's necessary to choose
-.
+PressButton.
 
 \
 
@@ -283,7 +283,7 @@ on this button available in the System tab. It's necessary to choose
 
 \
 
- 
+Wakeup 
 ------
 
 \

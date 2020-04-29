@@ -34,7 +34,7 @@ Preparation before migration
 > centralize the equipment of the **Jeedom (s) Source (s)**\
 > The screenshots on a black background correspond to the **Jeedom Targand**.\
 > \
-> - **** : Server (your former Jeedom Slave (s))
+> - **Jeedom Source** : Server (your former Jeedom Slave (s))
 > which puts your equipment back on the **Jeedom Targand**.\
 > \
 > - The notions of **Jeedom Master** and **Jeedom Slave** are not anymore
@@ -60,7 +60,7 @@ Configuration Updates and Verification
     available toions.
 
 -   Check in the Health page that the internal nandwork configuration of the
-    **Jeedom Master** is OK (And external if your ****
+    **Jeedom Master** is OK (And external if your **Jeedoms Sources**
     will be distant).
 
 Gathering useful information 
@@ -91,7 +91,7 @@ necessary to randrieve the following information :
 > **NOTE**
 >
 > A non-exhaustive sheand of information to note for migration
-> is available [here](images/Memo.xls)
+> is available [here](images/MemoMigration.xls)
 
 Preventive backups 
 -----------------------
@@ -106,7 +106,7 @@ Preventive backups
     of your **Jeedom Master** and your **Jeedom Slave (s)**
     and recover them on your PC / NAS….
 
- 
+Migration 
 =========
 
 > **NOTE**
@@ -121,14 +121,14 @@ On your **Jeedom Targand**, *Plugins ⇒ Management of plugins* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
-Installation of **** : 
+Installation of **Jeedom Source** : 
 -----------------------------------
 
 > **NOTE**
 >
 > if you have an additional Raspberry Pi and another card
 > SD, you can migrate one protocol after another by
-> installing a new **** in parallel without having to
+> installing a new **Jeedom Source** in parallel without having to
 > touch your **Jeedom Slave** existing. By obviously moving
 > as the possible controllers from one to the other.
 
@@ -149,13 +149,13 @@ Installation of **** :
     new Raspberry Pi) by following the [documentation
     d'installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
 
--   Update the **** to the latest toion (even if
+-   Update the **Jeedom Source** to the latest toion (even if
     no update is offered to you).
 
 -   Check in the Health page that the internal nandwork configuration (and
-    external if necessary) **** is OK.
+    external if necessary) **Jeedom Source** is OK.
 
- Configuration 
+Jeedom Source Configuration 
 ------------------------------
 
 -   Change the password of the admin user or / and configure a
@@ -164,10 +164,10 @@ Installation of **** :
 -   Configure your Jeedom Markand account (* Configuration ⇒ Updates
     and files ⇒ "Markand" tab *). Click on test after
     saved, to validate the entry of your identifiers
-    .
+    Jeedom Markand).
 
 -   Installation and activation of the "Jeedom Link" plugin on the new
-    ****.
+    **Jeedom Source**.
 
 ![jeelink.migration2](images/jeelink.migration2.png)
 
@@ -177,12 +177,12 @@ Installation of **** :
 
 -   Recreate the tree of objects (just the ones that will
     be useful) of **Jeedom Targand** (Old Master) on your new
-    **** (Former Slave).
+    **Jeedom Source** (Former Slave).
 
-Configuration of equipment on the **** 
+Configuration of equipment on the **Jeedom Source** 
 ------------------------------------------------------
 
-To send equipment present on the ****
+To send equipment present on the **Jeedom Source**
 to the **Jeedom Targand** via the "Jeedom Link" plugin, it is necessary
 that it is already operational on your new **Jeedom
 Source**.
@@ -190,14 +190,14 @@ Source**.
 > **NOTE**
 >
 > Remember to deactivate command logging
-> info of each piece of equipment on the **** to
+> info of each piece of equipment on the **Jeedom Source** to
 > to save the SD card of it (Historization will be done on the
 > **Jeedom Targand**).
 
 > **NOTE**
 >
 > You can also gradually assign the equipment to
-> objects recreated on the **** so that they are later
+> objects recreated on the **Jeedom Source** so that they are later
 > automatically put in the correct object on the **Jeedom Targand** during
 > the declaration in the Jeedom Link plugin". In case of duplicate name
 > with equipment already present in the objects of the **Jeedom Targand**,
@@ -241,7 +241,7 @@ Source**.
 Configuration of the "Jeedom Link plugin" 
 -------------------------------------
 
-The "Jeedom Link" plugin installed on the **** will allow the
+The "Jeedom Link" plugin installed on the **Jeedom Source** will allow the
 equipment on the **Jeedom Targand** (Your old Master).
 
 > **NOTE**
@@ -250,9 +250,9 @@ equipment on the **Jeedom Targand** (Your old Master).
 > \
 > The screenshots on a black background correspond to the **Jeedom Targand**.\
 > \
-> The screenshots on a white background correspond to ****.\
+> The screenshots on a white background correspond to **Jeedom Source**.\
 
-On the ****,
+On the **Jeedom Source**,
 [Configuring](https://doc.jeedom.com/en_US/plugins/jeelink/jeelink)
 the "Jeedom Link" plugin by specifying :
 
@@ -376,7 +376,7 @@ Copy of advanced command configurations
 > **Warning**
 >
 > Interactions on the **Jeedom Targand** cannot be launched
-> through equipment of a **** transferred via the
+> through equipment of a **Jeedom Source** transferred via the
 > Jeedom Link plugin".
 
 Household on the **Jeedom Targand** 

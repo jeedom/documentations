@@ -59,7 +59,7 @@ Windows
 ------------
 
 Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen :
-[](http://sourceforge.net/projects/win32diskBildr/)
+[Win32 Disk Imager](http://sourceforge.net/projects/win32diskBildr/)
 
 1.  **Schutz**
 
@@ -91,13 +91,13 @@ Unter MacOSX
 -----------
 
 Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
-[](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+[ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
 ![save restore11](Bilds/save-restore11.jpg)
 
 1.  **Schutz**
 
-    -   Mit  : Wählen Sie die richtige Karte aus der Liste
+    -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust * und klicken Sie auf * Backup erstellen *, um ein zu erstellen
         Bilddatei Ihrer microSD-Karte.
 
@@ -115,7 +115,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
 2.  **Verpflegung**
 
-    -   Mit  : Wählen Sie die richtige Karte aus der Liste
+    -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust *, geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
         im Feld * IMG-Datei * des Abschnitts * Pi-Ingredients * und
         Klicken Sie auf * Backup wiederherstellen *, um das Image auf dem wiederherzustellen

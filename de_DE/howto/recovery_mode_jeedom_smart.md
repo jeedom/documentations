@@ -28,7 +28,7 @@ Hinweis: Denken Sie daran, eine Jeedom-Konfigurationssicherung (lokal) beiseite 
 
 
 
-  : [](https://images.jeedom.com/smart/). Stellen Sie sicher, dass die Datei den Namen backupJeedom.tar hat.gz, um Restaurierungsarbeiten durchzuführen.
+1- Laden Sie das von uns bereitgestellte Archiv herunter  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Stellen Sie sicher, dass die Datei den Namen backupJeedom.tar hat.gz, um Restaurierungsarbeiten durchzuführen.
 
 2- Kopieren Sie dieses Archiv, ohne es zu ändern oder zu entpacken, auf einen leeren USB-Stick, der in FAT32 formatiert ist
 
@@ -44,7 +44,7 @@ Hinweis: Denken Sie daran, eine Jeedom-Konfigurationssicherung (lokal) beiseite 
 
 8- Finden Sie Ihren Smart im Netzwerk
 
-9- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : 
+9- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin
 
 > **Wichtig**
 >

@@ -95,13 +95,13 @@ Technische Daten
 
 -   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
--   Sicherung : 
+-   Sicherung : 2.5A
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 
+-   Abmessungen: 15 x 42 x 36 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -116,7 +116,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
 -   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 

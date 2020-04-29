@@ -1,4 +1,4 @@
- 
+MCO MH-S412 Double 
 ==================
 
 \.
@@ -68,7 +68,7 @@ Technische Daten
 
 -   Farbe : Weiß
 
--   Versorgung : 
+-   Versorgung : 230 V, 50 Hz
 
 -   Verkabelung : 3 Draht, Neutralleiter erforderlich
 
@@ -78,7 +78,7 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 30 m
 
--   Abmessungen : 
+-   Abmessungen : 86 x 86 x 43 mm
 
 -   Anzeigen: Blaue / rote LED
 
@@ -89,9 +89,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : MC HOME
 
--   Name : 
+-   Name : MH-S412 Double
 
 -   Hersteller ID : 351
 

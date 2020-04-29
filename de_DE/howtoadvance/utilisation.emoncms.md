@@ -95,21 +95,21 @@ Special Conf brauchen ein klassisches Repertoire
 
     Ort / Emoncms {
            alias / var / www / emoncms /;
-           
+           index index.php;
             try_files = $ uri $ uri / @missing;
 
        Ort ~ [^ /] \.PHP (/|$) {
                fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
-               :
-               
-               
+               fastcgi_pass unix:/var/run/php5-fpm.sock;
+               fastcgi_index index.php;
+               include fastcgi_params;
                fastcgi_param REMOTE_USER $ remote_user;
                fastcgi_param PATH_INFO $ fastcgi_path_info;
-               
+               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
            }
 
     }
 
-     {
+    location @missing {
             schreibe um ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
     }

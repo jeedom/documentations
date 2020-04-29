@@ -1,4 +1,4 @@
- 
+Aeotec Keyfob 
 =============
 
 \.
@@ -71,7 +71,7 @@ Technische Daten
 
 -   Akkulaufzeit : 1 Jahr
 
--   Frequenz: 868.
+-   Frequenz: 868.42 MHz
 
 -   Übertragungsentfernung : 100m auf freiem Feld
 
@@ -86,7 +86,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Aeotec
 
 -   Name : Schlüsselanhänger
 

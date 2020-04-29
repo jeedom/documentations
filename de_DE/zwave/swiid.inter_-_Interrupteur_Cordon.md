@@ -1,4 +1,4 @@
- Switch -  
+Swiid Switch - Swiidinter 
 ===============================
 
 \.
@@ -24,28 +24,28 @@ Zusammenfassung
 
 \.
 
- ist der erste Kabelschalter in der Umgebung
--Heimautomation, die klein und diskret genug ist
+SwiidInter ist der erste Kabelschalter in der Umgebung
+Z-Wave-Heimautomation, die klein und diskret genug ist
 vergleichbar mit einem normalen Kabelschalter.
 
 Es kann wie jedes manuell verwendet werden
 gewöhnlicher und entfernter Kabelschalter über Controller
-.
+Z-Wave.
 
-Der -Schalter bietet auch Zuordnungsmöglichkeiten
+Der SwiidInter-Schalter bietet auch Zuordnungsmöglichkeiten
 und das in beide Richtungen. Somit kann es automatisch von a bedient werden
-andere -Geräte im selben Netzwerk, z
+andere Z-Wave-Geräte im selben Netzwerk, z
 Präsenzmelder ausgelöst. Umgekehrt mit Unterstützung
 kurz oder mit einem langen Druck kann es zwei separate Gruppen von steuern
-Zugeordnete -Geräte : zum Beispiel jeder
+Zugeordnete Z-Wave-Geräte : zum Beispiel jeder
 andere Lichter in dem Raum, in dem sich Ihr Schalter befindet
-.
+SwiidInter.
 
-Der -Switch wird genau wie ein Switch installiert
+Der SwiidInter-Switch wird genau wie ein Switch installiert
 auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
-In ein  "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
-Nur eine Fernbedienung, die Ihren -Schalter steuert
+In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
+Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
 Entfernung.
 
 \.
@@ -56,7 +56,7 @@ Funktionen
 \.
 
 -   Kabelschalter beide manuell verwendbar
-    (kurzes Drücken) und per Fernfunk ()
+    (kurzes Drücken) und per Fernfunk (Z-Wave)
 
 -   Verwendung als Ersatz für einen Standard-Kabelschalter
     eine Nachttisch-, Tisch- oder Schreibtischlampe
@@ -64,7 +64,7 @@ Funktionen
 -   EIN / AUS-Funktion
 
 -   Aktivierung eines Hausautomationsszenarios bei langer Druckmaschine
-    (-Assoziation)
+    (Z-Wave-Assoziation)
 
 -   Abmessungen vergleichbar mit einem normalen Kabelschalter
 
@@ -79,31 +79,31 @@ Technische Daten
 
 \.
 
--   Modultyp :  Empfänger
+-   Modultyp : Z-Wave Empfänger
 
 -   Farbe : schwarz
 
 -   Versorgung: 230 V ± 10% - 50 Hz
 
--   Maximale Leistung : 
+-   Maximale Leistung : 660W
 
 -   Verbrauch : &lt; 0,08W
 
--   Schutzindex: 
+-   Schutzindex: IP20
 
--   Funkprotokoll: 
+-   Funkprotokoll: Z-Wave® (SDK 4.55)
 
--   Radiofrequenz : 
+-   Radiofrequenz : 868,42 MHz (EU)
 
--   . Übertragung: Bis zu 30 m in Innenräumen (abhängig von den Materialien)
+-   Dist. Übertragung: Bis zu 30 m in Innenräumen (abhängig von den Materialien)
 
--   . Funktionieren : 0 - 40 ° C.
+-   Temp. Funktionieren : 0 - 40 ° C.
 
 -   Ein / Aus-Anzeige : Blaue LEDs
 
--   Abmessungen : 
+-   Abmessungen : 84 x 32 x 29 mm
 
--   EU-Standards : :
+-   EU-Standards : EN 61058-2-1:2011 EN 55015
 
 \.
 
@@ -112,9 +112,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Swiid
 
--   Name : 
+-   Name : Swiidinter
 
 -   Hersteller ID : 358
 
@@ -254,7 +254,7 @@ Verbinde dich mit einem anderen Licht
 
 \.
 
-Den  mit einem anderen Licht verbinden und davon profitieren können
+Den Swiidinter mit einem anderen Licht verbinden und davon profitieren können
 Wenn Sie ein anderes Licht einschalten, fügen Sie es einfach der Gruppe hinzu
 der Assoziation 1 über den oben genannten Bildschirm.
 

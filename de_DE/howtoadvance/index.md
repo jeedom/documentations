@@ -1,33 +1,33 @@
 # Zusammenfassung
 
-- [](/documentations/de_DE/howto/gsm.huawei_mode_carte_reseau)
-- [](/documentations/de_DE/howto/gsm.huawei_mode_modem)
-- [](/documentations/de_DE/howto/mysql.trucs_et_astuces)
+- [Huawei GSM-Netzwerkmodus](/documentations/de_DE/howto/gsm.huawei_mode_carte_reseau)
+- [Huawei GSM Modem Modus](/documentations/de_DE/howto/gsm.huawei_mode_modem)
+- [Mariadb / Mysql Spitze und Spitze](/documentations/de_DE/howto/mysql.trucs_et_astuces)
 - [Github](/documentations/de_DE/howto/tuto.github)
 
-## 
+## Debian
 
 - [Installation](/documentations/de_DE/howto/debian.installation)
-- [](/documentations/de_DE/howto/debian.trucs_et_astuces)
+- [Tipps und Tricks](/documentations/de_DE/howto/debian.trucs_et_astuces)
 
 ## VMware
 
-- [](/documentations/de_DE/howto/vmware.creer_une_vm)
-- [](/documentations/de_DE/howto/vmware.installation_sur_nuc)
-- [](/documentations/de_DE/howto/vmware.mise_en_place_des_backups)
-- [](/documentations/de_DE/howto/vmware.trucs_et_astuces)
+- [Erstellen Sie eine VM](/documentations/de_DE/howto/vmware.creer_une_vm)
+- [Installation auf NUC](/documentations/de_DE/howto/vmware.installation_sur_nuc)
+- [Sichern / Wiederherstellen](/documentations/de_DE/howto/vmware.mise_en_place_des_backups)
+- [Tipp und Tipp](/documentations/de_DE/howto/vmware.trucs_et_astuces)
 
 ## Archiv
 
-- [](/documentations/de_DE/howto/android.autovoice)
-- [](/documentations/de_DE/howto/installation.monit)
-- [](/documentations/de_DE/howto/installation.nodered)
-- [](/documentations/de_DE/howto/installation.openjabnab)
-- [](/documentations/de_DE/howto/installation.shellinabox)
-- [](/documentations/de_DE/howto/jeelink.migration)
-- [](/documentations/de_DE/howto/karotz.utiliser_un_autre_moteur_de_voix)
-- [](/documentations/de_DE/howto/letsencrypt.mise_en_place)
-- [](/documentations/de_DE/howto/migration.apache)
-- [](/documentations/de_DE/howto/synology.utilisation_vpn)
-- [](/documentations/de_DE/howto/utilisation.emoncms)
-- [](/documentations/de_DE/howto/utilisation.opengarage)
+- [Android Autovoice](/documentations/de_DE/howto/android.autovoice)
+- [Monit installieren](/documentations/de_DE/howto/installation.monit)
+- [Installieren Sie nodered](/documentations/de_DE/howto/installation.nodered)
+- [Installieren Sie openjabnab](/documentations/de_DE/howto/installation.openjabnab)
+- [Installieren Sie die Shellinbox](/documentations/de_DE/howto/installation.shellinabox)
+- [Jeelink-Migration](/documentations/de_DE/howto/jeelink.migration)
+- [Karotz wechselt die Stimme](/documentations/de_DE/howto/karotz.utiliser_un_autre_moteur_de_voix)
+- [Lassen Sie uns die Einrichtung verschlüsseln](/documentations/de_DE/howto/letsencrypt.mise_en_place)
+- [Apache-Migration](/documentations/de_DE/howto/migration.apache)
+- [Synologische Nutzung von VPN](/documentations/de_DE/howto/synology.utilisation_vpn)
+- [Emoncms verwenden](/documentations/de_DE/howto/utilisation.emoncms)
+- [Verwenden Sie Opengarage](/documentations/de_DE/howto/utilisation.opengarage)

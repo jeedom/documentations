@@ -76,7 +76,7 @@ Características técnicas
 
 -   Carga máxima : 1800W (resistivo), 460VA (inductivo)
 
--    : 
+-   Fusible : T8AH
 
 -   Frecuencia : 868.42 Mhz
 
@@ -224,7 +224,7 @@ y el segundo para el descenso.
 Los valores se codifican en hexadecimal en el módulo y se restablecen
 decimal en la pantalla Jeedom.
 
-Por ejemplo : para 4626, esto da en hexadecimal : . O 0x12
+Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. O 0x12
 para ascenso y 0x12 para descenso. O, traído de nuevo en
 decimal : 18 años para ascenso y descenso.
 

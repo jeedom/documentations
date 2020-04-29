@@ -28,7 +28,7 @@ NB remember to put aside (locally) a Jeedom configuration backup
 
 
 
-  : [](https://images.jeedom.com/smart/). Be careful to verify that the file has the name  to make restoration work.
+1- download the archive we provide  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Be careful to verify that the file has the name backupJeedom.tar.gz to make restoration work.
 
 2- copy this archive without modifying or unzipping it, on a blank USB key formatted in FAT32
 
