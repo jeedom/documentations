@@ -350,8 +350,8 @@ Agregamos la información deseada.
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </ /td> ';
     tr + = ' <td> ';
-    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" / /> {{Historizar}} <br/ /></ /span> ';
-   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" / /> {{Ver}} <br/ /></ /span> ';
+    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" / /> {{Historia</ /span>}}<br/ /></ /span>';
+   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" / /> {{Mostrar</ /span>}}<br/ /></ /span>';
    tr + = ' </ /td> ';		
     tr + = ' <td> ';
     si (es_numeric (_cmd.id)) {

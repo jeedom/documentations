@@ -12,7 +12,7 @@ Fields                   | Values                                               
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Id *                     | Unique Identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
 name *                   | Plugin name.                                                                                                            |
-Description *            | Description of the plugin, as it will be displayed on the Jeedom Market Minimum 80 characters. (` <br/> `for the line break.)                                  |                                                                                     |
+Description *            | Description of the plugin, as it will appear on the Jeedom Market Minimum 80 characters. (`<br/>`for the line break.)                                  |                                                                                     |
 use                    | Additional Information to the Documentation on the use of the plugin.                                                    |
 Licence *                | Type of license.                                                                                                          |
 author *                 | Name of the plugin author, as it will be displayed once the plugin is installed, in the plugin Information.         |

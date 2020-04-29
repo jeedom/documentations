@@ -12,9 +12,7 @@ You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&
 | | | | |
 |--- | --- | --- | ---|
 |<img src="ash/ash_icon.png" width="100" />|Alexa|Alexa|[Documentation](ash/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3409)|
-|<img src="bornetenda/bornetenda_icon.png" width="100" />|Tenda W301A bollard|Plugin author : Thomas Guenneguez
-PLEASE NOTE, this is not an Official Jeedom plugin but a plugin developed by a third person and whose development has been abandoned. The Jeedom technical team will provide assistance with this plugin without obligation of result.
-Plugin to manage Tenda W301A Kiosks.|[Documentation](bornetenda/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
+|<img src="bornetenda/bornetenda_icon.png" width="100" />|Tenda W301A bollard|Plugin author : Thomas Guenneguez<br>PLEASE NOTE, this is not an Official Jeedom plugin but a plugin developed by a third person and whose development has been abandoned. The Jeedom technical team will provide assistance with this plugin without obligation of result.<br>Plugin to manage Tenda W301A Kiosks.|[Documentation](bornetenda/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
 |<img src="dialogflow/dialogflow_icon.png" width="100" />|Dialog flow|Plugin allows talking to Google Home / Assistant through Jeedom interactions|[Documentation](dialogflow/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3215)|
 |<img src="gcast/gcast_icon.png" width="100" />|Gcast|Simple cast management plugin, and allows voice notification|[Documentation](gcast/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3057)|
 |<img src="gsh/gsh_icon.png" width="100" />|Google Smarthome|Plugin to drive Jeedom with a Google Home. Important : the configuration of this plugin is not click and play it is absolutely necessary to read the documentation before buying it !!!!!|[Documentation](gsh/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3412)|
@@ -23,56 +21,13 @@ Plugin to manage Tenda W301A Kiosks.|[Documentation](bornetenda/index.md) - [Mar
 |<img src="jeelink/jeelink_icon.png" width="100" />|Jeedom Link|Plugin allowing to link several Jeedom|[Documentation](jeelink/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2530)|
 |<img src="lametric/lametric_icon.png" width="100" />|LaMetric|Plugin to display notifications on LaMetric Time|[Documentation](lametric/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2818)|
 |<img src="mail/mail_icon.png" width="100" />|Mail|Plugin to send emails|[Documentation](mail/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=22)|
-|<img src="mobile/mobile_icon.png" width="100" />|Mobile App|The official Jeedom application allows you to control your Jeedom home automation system, whether by local Wi-Fi or on your operator's 3G / 4G network.
-
-The app automatically connects to your Jeedom with automatic initialization by QRcode, no configuration is necessary. (possibility to do it manually)
-You will find on your mobile all the features of your Jeedom.
-You can customize your app with shortcuts and more...
-
-Current functionalities:
-- Managing your scenarios.
-- Management of your home automation according to your parts and equipment.
-- Automatic shift and status feedback
-- Compatibility with plugins, such as thermostat, alarm, camera etc...
-- Customizable interface with shortcuts.
-- General home automation and by room
-- Notifications (with ASK support)
-- Display of Designs 
-
-Other features and compatibilities are coming in the next updates !
-
-Respect for privacy.
-No data (home automation or personal) is stored or kept on our servers.|[Documentation](mobile/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
-|<img src="nest/nest_icon.png" width="100" />|Nest|This plugin will allow you to find your Nest Thermostat or Nest Protect (be careful not to report alerts in real time) in your Jeedom.
-Important : There is no API for Nest E in Europe. This plugin therefore does not allow you to control a Nest E thermostat in Europe.|[Documentation](nest/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
+|<img src="mobile/mobile_icon.png" width="100" />|Mobile App|The official Jeedom application allows you to control your Jeedom home automation system, whether by local Wi-Fi or on your operator's 3G / 4G network.<br/><br/>The app automatically connects to your Jeedom with automatic initialization by QRcode, no configuration is necessary. (possibility to do it manually)<br/>You will find on your mobile all the features of your Jeedom.<br/>You can customize your app with shortcuts and more...<br/><br/>Current functionalities:<br/>- Managing your scenarios.<br/>- Management of your home automation according to your parts and equipment.<br/>- Automatic shift and status feedback<br/>- Compatibility with plugins, such as thermostat, alarm, camera etc...<br/>- Customizable interface with shortcuts.<br/>- General home automation and by room<br/>- Notifications (with ASK support)<br/>- Display of Designs <br/><br/>Other features and compatibilities are coming in the next updates !<br/><br/>Respect for privacy.<br/>No data (home automation or personal) is stored or kept on our servers.|[Documentation](mobile/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
+|<img src="nest/nest_icon.png" width="100" />|Nest|This plugin will allow you to find your Nest Thermostat or Nest Protect (be careful not to report alerts in real time) in your Jeedom.<br/>Important : There is no API for Nest E in Europe. This plugin therefore does not allow you to control a Nest E thermostat in Europe.|[Documentation](nest/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
 |<img src="networks/networks_icon.png" width="100" />|Network|Plugin for network management of equipment : ping (ip, arp and port) and wake on lan|[Documentation](networks/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1950)|
-|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin to control your Nimbus.
-
-You can control the displayed text, the position of the hands. All via scenario or via the dashboard.
-
-A customizable representation of the nimbus on your dash will enhance the whole
-
-The dashboard is completely customizable
-
-You can change the position of each needle and change the text of each screen independently (either via the dashboard or via scenario)
-
-There is also a demo command and an all command (to act on all the screens at the same time), as well as a phrase command to split a phrase on the 4 screens.
-
-
-Read the documentation|[Documentation](nimbus/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
+|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin to control your Nimbus.<br/><br/>You can control the displayed text, the position of the hands. All via scenario or via the dashboard.<br/><br/>A customizable representation of the nimbus on your dash will enhance the whole<br/><br/>The dashboard is completely customizable<br/><br/>You can change the position of each needle and change the text of each screen independently (either via the dashboard or via scenario)<br/><br/>There is also a demo command and an all command (to act on all the screens at the same time), as well as a phrase command to split a phrase on the 4 screens.<br/><br/><br/>Read the documentation|[Documentation](nimbus/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
 |<img src="notificationmanager/notificationmanager_icon.png" width="100" />|Notification Manager|This plugin allows you to manage notifications (recovery in case of error, generation of text ...)|[Documentation](notificationmanager/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3315)|
 |<img src="openvpn/openvpn_icon.png" width="100" />|Openvpn|Plugin to manage the connection to an openvpn server|[Documentation](openvpn/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1965)|
-|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin to control Philips Hue lamps.
-Available functions:
-- On / off
-- Brightness
-- Transition
-- Group
-- Color
-- Alert Mode
-- Rainbow mode
-
-Be careful : there is a slight known color shift between the selector and the color of the bulb. It seems that the color grid of the bulbs has an offset|[Documentation](philipsHue/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
+|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin to control Philips Hue lamps.<br/>Available functions:<br/>- On / off<br/>- Brightness<br/>- Transition<br/>- Group<br/>- Color<br/>- Alert Mode<br/>- Rainbow mode<br/><br/>Be careful : there is a slight known color shift between the selector and the color of the bulb. It seems that the color grid of the bulbs has an offset|[Documentation](philipsHue/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
 |<img src="phonemarket/phonemarket_icon.png" width="100" />|Phone market|Plugin to use the market as an SMS gateway and to make calls|[Documentation](phonemarket/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1694)|
 |<img src="sarah/sarah_icon.png" width="100" />|Sarah|Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)|[Documentation](sarah/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=17)|
 |<img src="slack/slack_icon.png" width="100" />|Slack|Plugin to link Jeedom to Slack|[Documentation](slack/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1689)|

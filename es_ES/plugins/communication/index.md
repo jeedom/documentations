@@ -12,9 +12,7 @@ Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin
 | | | | |
 |--- | --- | --- | ---|
 |<img src="ash/ash_icon.png" width="100" />|Alexa|Alexa|[Documentación](ash/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3409)|
-|<img src="bornetenda/bornetenda_icon.png" width="100" />|Bolardo Tenda W301A|Autor del complemento : Thomas Guenneguez
-TENGA EN CUENTA que este no es un complemento oficial de Jeedom sino un complemento desarrollado por una tercera persona y cuyo desarrollo ha sido abandonado. El equipo técnico de Jeedom proporcionará asistencia con este complemento sin obligación de resultado..
-Complemento para administrar los quioscos Tenda W301A.|[Documentación](bornetenda/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
+|<img src="bornetenda/bornetenda_icon.png" width="100" />|Bolardo Tenda W301A|Autor del complemento : Thomas Guenneguez<br>TENGA EN CUENTA que este no es un complemento oficial de Jeedom sino un complemento desarrollado por una tercera persona y cuyo desarrollo ha sido abandonado. El equipo técnico de Jeedom proporcionará asistencia con este complemento sin obligación de resultado..<br>Complemento para administrar los quioscos Tenda W301A.|[Documentación](bornetenda/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
 |<img src="dialogflow/dialogflow_icon.png" width="100" />|Flujo de diálogo|El complemento permite hablar con Google Home / Assistant a través de las interacciones de Jeedom|[Documentación](dialogflow/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3215)|
 |<img src="gcast/gcast_icon.png" width="100" />|Gcast|Complemento de administración de cast simple, y permite la notificación de voz|[Documentación](gcast/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3057)|
 |<img src="gsh/gsh_icon.png" width="100" />|Google Smarthome|Complemento para conducir Jeedom con un Google Home. Importante : la configuración de este complemento no es hacer clic y reproducir, es absolutamente necesario leer la documentación antes de comprarlo !!!!!|[Documentación](gsh/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3412)|
@@ -23,56 +21,13 @@ Complemento para administrar los quioscos Tenda W301A.|[Documentación](borneten
 |<img src="jeelink/jeelink_icon.png" width="100" />|Enlace de libertad|Plugin que permite vincular varios Jeedom|[Documentación](jeelink/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2530)|
 |<img src="lametric/lametric_icon.png" width="100" />|LaMetric|Complemento para mostrar notificaciones en LaMetric Time|[Documentación](lametric/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2818)|
 |<img src="mail/mail_icon.png" width="100" />|Mail|Complemento para enviar correos electrónicos|[Documentación](mail/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=22)|
-|<img src="mobile/mobile_icon.png" width="100" />|Aplicación móvil|La aplicación oficial Jeedom le permite controlar su sistema de automatización del hogar Jeedom, ya sea por Wi-Fi local o en la red 3G / 4G de su operador.
-
-La aplicación se conecta automáticamente a su Jeedom con inicialización automática por QRcode, no es necesaria ninguna configuración. (posibilidad de hacerlo manualmente)
-Encontrarás en tu móvil todas las características de tu Jeedom.
-Puedes personalizar tu aplicación con accesos directos y más...
-
-Funcionalidades actuales:
-- Administrando sus escenarios.
-- Gestión de su domótica según sus piezas y equipos..
-- Cambio automático y retroalimentación de estado
-- Compatibilidad con complementos, como termostato, alarma, cámara, etc....
-- Interfaz personalizable con accesos directos..
-- Domótica general y por habitación
-- Notificaciones (con soporte de ASK)
-- Exhibición de diseños 
-
-Otras características y compatibilidades llegarán en las próximas actualizaciones. !
-
-Respeto a la privacidad..
-No se almacenan ni guardan datos (domótica o personales) en nuestros servidores.|[Documentación](mobile/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
-|<img src="nest/nest_icon.png" width="100" />|Nest|Este complemento le permitirá encontrar su Nido Thermostat o Nido Protect (tenga cuidado de no informar alertas en tiempo real) en su Jeedom.
-Importante : No hay API para Nido E en Europa. Por lo tanto, este complemento no le permite controlar un termostato Nido E en Europa.|[Documentación](nest/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
+|<img src="mobile/mobile_icon.png" width="100" />|Aplicación móvil|La aplicación oficial Jeedom le permite controlar su sistema de automatización del hogar Jeedom, ya sea por Wi-Fi local o en la red 3G / 4G de su operador.<br/><br/>La aplicación se conecta automáticamente a su Jeedom con inicialización automática por QRcode, no es necesaria ninguna configuración. (posibilidad de hacerlo manualmente)<br/>Encontrarás en tu móvil todas las características de tu Jeedom.<br/>Puedes personalizar tu aplicación con accesos directos y más...<br/><br/>Funcionalidades actuales:<br/>- Administrando sus escenarios.<br/>- Gestión de su domótica según sus piezas y equipos..<br/>- Cambio automático y retroalimentación de estado<br/>- Compatibilidad con complementos, como termostato, alarma, cámara, etc....<br/>- Interfaz personalizable con accesos directos..<br/>- Domótica general y por habitación<br/>- Notificaciones (con soporte de ASK)<br/>- Exhibición de diseños <br/><br/>Otras características y compatibilidades llegarán en las próximas actualizaciones. !<br/><br/>Respeto a la privacidad..<br/>No se almacenan ni guardan datos (domótica o personales) en nuestros servidores.|[Documentación](mobile/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
+|<img src="nest/nest_icon.png" width="100" />|Nest|Este complemento le permitirá encontrar su Nido Thermostat o Nido Protect (tenga cuidado de no informar alertas en tiempo real) en su Jeedom.<br/>Importante : No hay API para Nido E en Europa. Por lo tanto, este complemento no le permite controlar un termostato Nido E en Europa.|[Documentación](nest/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
 |<img src="networks/networks_icon.png" width="100" />|Network|Plugin para la gestión de equipos en red. : ping (ip, arp y port) y wake on lan|[Documentación](networks/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1950)|
-|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin para controlar tu Nimbus.
-
-Puede controlar el texto que se muestra, la posición de las manos.. Todo a través del escenario o el tablero.
-
-Una representación personalizable del nimbo en su tablero mejorará todo
-
-El tablero de instrumentos es completamente personalizable.
-
-Puede cambiar la posición de cada aguja y cambiar el texto de cada pantalla de forma independiente (ya sea a través del tablero o a través del escenario)
-
-También hay un comando de demostración y un comando de todos (para actuar en todas las pantallas al mismo tiempo), así como un comando de frase para dividir una frase en las 4 pantallas.
-
-
-Lee la documentación|[Documentación](nimbus/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
+|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin para controlar tu Nimbus.<br/><br/>Puede controlar el texto que se muestra, la posición de las manos.. Todo a través del escenario o el tablero.<br/><br/>Una representación personalizable del nimbo en su tablero mejorará todo<br/><br/>El tablero de instrumentos es completamente personalizable.<br/><br/>Puede cambiar la posición de cada aguja y cambiar el texto de cada pantalla de forma independiente (ya sea a través del tablero o a través del escenario)<br/><br/>También hay un comando de demostración y un comando de todos (para actuar en todas las pantallas al mismo tiempo), así como un comando de frase para dividir una frase en las 4 pantallas.<br/><br/><br/>Lee la documentación|[Documentación](nimbus/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
 |<img src="notificationmanager/notificationmanager_icon.png" width="100" />|Gerente de notificaciones|Este complemento le permite administrar notificaciones (recuperación en caso de error, generación de texto ...)|[Documentación](notificationmanager/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3315)|
 |<img src="openvpn/openvpn_icon.png" width="100" />|Openvpn|Complemento para administrar la conexión a un servidor openvpn|[Documentación](openvpn/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1965)|
-|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin para controlar lámparas Philips Hue.
-Funciones disponibles:
-- Encendido / apagado
-- Brillo
-- Transición
-- Grupo
-- Color
-- Modo de alerta
-- Modo arco iris
-
-Atención : hay un ligero cambio de color conocido entre el selector y el color de la bombilla. Parece que la cuadrícula de colores de las bombillas tiene un desplazamiento|[Documentación](philipsHue/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
+|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin para controlar lámparas Philips Hue.<br/>Funciones disponibles:<br/>- Encendido / apagado<br/>- Brillo<br/>- Transición<br/>- Grupo<br/>- Color<br/>- Modo de alerta<br/>- Modo arco iris<br/><br/>Atención : hay un ligero cambio de color conocido entre el selector y el color de la bombilla. Parece que la cuadrícula de colores de las bombillas tiene un desplazamiento|[Documentación](philipsHue/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
 |<img src="phonemarket/phonemarket_icon.png" width="100" />|Mercado telefónico|Complemento para usar el mercado como puerta de enlace de SMS y hacer llamadas|[Documentación](phonemarket/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1694)|
 |<img src="sarah/sarah_icon.png" width="100" />|Sarah|Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)|[Documentación](sarah/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=17)|
 |<img src="slack/slack_icon.png" width="100" />|Slack|Complemento para vincular Jeedom a Flojo|[Documentación](slack/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1689)|

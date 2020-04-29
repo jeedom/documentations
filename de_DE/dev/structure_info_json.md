@@ -12,7 +12,7 @@ Felder                   | Werte                                                
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identifikation *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
 Name *                   | Name des Plugins.                                                                                                            |
-Beschreibung *            | Beschreibung des Plugins, wie es auf dem Jeedom Market mit mindestens 80 Zeichen angezeigt wird. (` <br/> `für den Zeilenumbruch.)                                  |                                                                                     |
+Beschreibung *            | Beschreibung des Plugins, wie es auf dem Jeedom Market angezeigt wird Mindestens 80 Zeichen. (`<br/>`für den Zeilenumbruch.)                                  |                                                                                     |
 Nutzung                    | Zusätzliche Informationen zur Dokumentation zur Verwendung des Plugins.                                                    |
 Lizenz *                | Art der Lizenz.                                                                                                          |
 Autor *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |

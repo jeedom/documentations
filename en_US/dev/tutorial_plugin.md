@@ -350,8 +350,8 @@ We add the desired information.
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </td> ';
     tr + = ' <td> ';
-    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /> {{Historize}} <br/></span> ';
-   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /> {{View}} <br/></span> ';
+    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /> {{History</span>}}<br/></span>';
+   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /> {{Display</span>}}<br/></span>';
    tr + = ' </td> ';		
     tr + = ' <td> ';
     if (is_numeric (_cmd.id)) {

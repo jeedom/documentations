@@ -12,7 +12,7 @@ Campos                   | Valores                                              
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identificación *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
 nombre *                   | Nombre del complemento.                                                                                                            |
-Descripción *            | Descripción del complemento, ya que se mostrará en el mercado de Jeedom Mínimo 80 caracteres. (` <br/> `para el salto de línea.)                                  |                                                                                     |
+Descripción *            | Descripción del complemento, tal como aparecerá en el Mercado Jeedom Mínimo 80 caracteres. (`<br/>`para el salto de línea.)                                  |                                                                                     |
 uso                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
 Licencia *                | Tipo de licencia.                                                                                                          |
 autor *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la Informaciónrmación del complemento.         |

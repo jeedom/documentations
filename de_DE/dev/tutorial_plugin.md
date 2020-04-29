@@ -350,8 +350,8 @@ Wir fügen die gewünschten Informationen hinzu.
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
-    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /.> {{Historisieren}} <br/.></.span> ';;
-   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /.> {{View}} <br/.></.span> ';;
+    tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /.> {{Geschichte</.span>}}<br/.></.span>';;
+   tr + = ' <span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /.> {{Anzeige</.span>}}<br/.></.span>';;
    tr + = ' </.td> ';;		
     tr + = ' <td> ';;
     if (is_numeric (_cmd.id)) {
