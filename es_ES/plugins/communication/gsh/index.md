@@ -11,7 +11,7 @@ Puede funcionar de 2 maneras. :
 
 > **Importante**
 >
-> El modo en la nube requiere una suscripción a los servicios de voz (3 meses gratis al comprar el complemento). Puede administrar su suscripción [aquí] (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> El modo en la nube requiere una suscripción a los servicios de voz (3 meses gratis al comprar el complemento). Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > **Importante**
 >
@@ -101,7 +101,7 @@ Por lo tanto, hay 2 aplicaciones que figuran en Google : uno para la parte de Go
 
 ## Aplicación Google Smarthome
 
-Ir [aquí] (https://console.actions.google.com) luego haga clic en "Agregar / importar proyecto"
+Allez [ici](https://console.actions.google.com) luego haga clic en "Agregar / importar proyecto"
 
 ![gsh](../images/gsh7.png)
 
@@ -170,7 +170,7 @@ Escribe "Toto" y luego haz "Guardar" :
 
 ![gsh](../images/gsh20.png)
 
-Ahora configure la clave API de homegraph, para eso vaya [aquí] (https://console.developers.google.com / apis / dashboard), luego haga clic derecho en "Biblioteca" :
+Il faut maintenant configuré la clef API homegraph, pour cela allez [ici](https://console.developers.google.com / apis / dashboard), luego haga clic derecho en "Biblioteca" :
 
 ![gsh](../images/gsh21.png)
 
@@ -200,7 +200,7 @@ Haga clic en "Crear identificadores" y luego en "Clave API"" :
 
 Copie la clave API generada y péguela en la página de administración del complemento de Google Smarthome en "Google API Homegraph"
 
-Último paso para darle a Jeedom la identificación del proyecto para administrar la conexión, vaya [aquí] (https://console.actions.google.com) luego haga clic en su proyecto. Obtenga la url del formulario "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", la identificación del proyecto está entre project / y / overview, en el ejemplo aquí es" myproject-31023 ", copie esta identificación en la página de administración el complemento de Google Smarthome en "ID del proyecto Smarthome".
+Derniere étape à faire donner l'id projet à Jeedom pour la gestion de la connexion, allez [ici](https://console.actions.google.com) luego haga clic en su proyecto. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", la identificación del proyecto está entre project / y / overview, en el ejemplo aquí es" myproject-31023 ", copie esta identificación en la página de administración el complemento de Google Smarthome en "ID del proyecto Smarthome".
 
 Aquí puede hacer clic a la izquierda en "Acción" :
 
@@ -218,7 +218,7 @@ JWT le permite informar automáticamente cualquier cambio en el estado de un ele
 
 Para hacer la configuración necesitas
 
-* ir [aquí] (https://console.developers.google.com / iam-admin / serviceaccounts), si Google le pide que elija el proyecto (el creado justo arriba).
+* aller [ici](https://console.developers.google.com / iam-admin / serviceaccounts), si Google le pide que elija el proyecto (el creado justo arriba).
 * Haga clic en crear una cuenta de servicio
   * Dale un nombre (puedes poner lo que quieras, evitar)
   * Recupere el correo electrónico generado justo debajo para copiarlo en la configuración del complemento en Jeedom (campos : Correo del cliente (JWT))
@@ -293,7 +293,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 
 > **Nota**
 >
-> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Atención en modo independiente si tiene un error (escriba "No se encontró la entidad solicitada") intente reactivar la prueba de la aplicación ([aquí] (https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces Google borra los campos)
+> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Attention en mode standalone si vous avez une erreur (type "Requested entity was not found") essayez de réactiver le test de l'application ([ici](https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces Google borra los campos)
 
 Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplicación Google Home
 
@@ -314,7 +314,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**¿Cuáles son los posibles pedidos? ?**
 >
->Los comandos de voz (así como las devoluciones) son administrados solo por Google, aquí está la [documentación] (https://support.google.com/googlehome/answer/7073578?hl = fr)
+>Les commandes vocales (ainsi que les retours) sont gérés uniquement pas Google, voila la [documentation](https://support.google.com/googlehome/answer/7073578?hl = fr)
 
 >**El asistente me pide que asigne las partes pero no sé a qué corresponde el equipo.**
 >
@@ -331,7 +331,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 >**Aparece el mensaje de error "No puedo encontrar el recurso 404" al guardar**
 >
 >Así que no te preocupes, todo está guardado, es solo una sincronización automática que no se hace. Para hacerlo, diga "Sincronizar mis dispositivos" a su asistente. Para tratar de corregir esta preocupación :
-> vaya a la página siguiente [aquí] (https://console.cloud.google.com/cloud-resource-manager). En esta página verá la lista de todos los proyectos, incluso los invisibles en la página de acciones de Google.. Eliminar todos los proyectos no utilizados.
+> allez sur la page suivante [ici](https://console.cloud.google.com/cloud-resource-manager). En esta página verá la lista de todos los proyectos, incluso los invisibles en la página de acciones de Google.. Eliminar todos los proyectos no utilizados.
 > Luego, vuelva a hacer el tutorial desde el paso de configurar la clave API Homegraph (activación, generación de clave, luego disocie jeedom de su cuenta de Google y vuelva a hacer el enlace)
 
 

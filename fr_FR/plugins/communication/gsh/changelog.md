@@ -1,3 +1,7 @@
+# 29/04/2020
+
+- Correction de bugs
+
 # 28/04/2020
 
 - Correction de bugs

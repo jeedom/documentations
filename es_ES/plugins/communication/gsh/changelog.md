@@ -1,3 +1,8 @@
+# 
+
+- Correcciones de errores
+- 
+
 # 23/01/2020
 
 - Soporte mejorado para termostatos (posibilidad de elegir cualquier control de calefacción / frío / apagado)

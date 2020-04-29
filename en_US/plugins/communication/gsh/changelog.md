@@ -1,3 +1,8 @@
+# 
+
+- Bugfix
+- 
+
 # 01/23/2020
 
 - Improved support for thermostats (possibility to choose any heating / cold / off control)

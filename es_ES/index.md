@@ -1,5 +1,7 @@
 # Documentación de Jeedom
 
-Bienvenido a la documentación de Jeedom. Aquí encontrará toda la documentación relacionada con jeedom.
+Bienvenido al sitio de documentación de Jeedom. Aquí encontrará toda la documentación relacionada con la solución de automatización del hogar Jeedom.
 
-<div id="div_searchBar"></div>
+![Présentation](../img/img_home.png)
+
+  <!-- <div id="div_searchBar"></div> -->
