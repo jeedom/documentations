@@ -1,6 +1,5 @@
 {
     "installation\/index.md": {
-        "sudo bash": "sudo bash",
         "Jeedom peut être installé sur différents composants hardware": "Jeedom can be installed on different hardware components",
         "un Raspberry pi 2 ou 3": "a Raspberry pi 2 or 3",
         "un NAS Synology": "Synology NAS",
@@ -250,10 +249,6 @@
         "Si ce n'est pas le cas merci de lire le script et de faire une installation à la main": "If not, please read the script and install by hand.",
         "Connectez-vous en SSH à votre système et faites": "Connect in SSH to your system and do",
         "Il vous suffit ensuite d'aller sur IP\\_MACHINE\\_JEEDOM à partir de votre navigateur Internet": "Then simply go to IP \\ _MACHINE \\ _JEEDOM from your Internet browser",
-        " sh": " sh",
-        "sh ": "sh ",
-        "[sh": "[sh",
-        "sh]": "sh]",
         " Hardware": " Hardware",
         "Hardware ": "Hardware ",
         "[Hardware": "[Hardware",

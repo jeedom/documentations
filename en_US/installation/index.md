@@ -153,7 +153,7 @@ Log in with credentials **pi / raspberry**
 
 **7/ Launch the jeedom installation script**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **The sudo notsword is also raspberry**
 

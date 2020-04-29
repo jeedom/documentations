@@ -153,7 +153,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 **7 / Starten Sie das Jeedom-Installationsskript**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | Sudo Bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
 

@@ -153,7 +153,7 @@ Inicie sesión con credenciales **pi / frambuesa**
 
 **7 / Inicie el script de instalación de jeedom**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **La contraseña de sudo también es frambuesa**
 
