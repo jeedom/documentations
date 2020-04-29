@@ -8,7 +8,7 @@ body.dark #logo-container:before {
   background-repeat: no-repeat;
   background-image: url('/documentations/img/logo_dark.png')  !important;
 }
-body.dark #logo-container .responsive-img {
+body.dark #logo-container img {
   display: none;
 }
 
@@ -54,6 +54,7 @@ body.dark .collapsible-header:focus {
 }
 body.dark #slide-out .select-wrapper > ul {
   background-color:#202123 !important;
+  border: none !important;
 }
 body.dark .card {
   background-color: rgba(255, 255, 255, 0.2);
