@@ -1,5 +1,5 @@
 
-#Confort
+# Komfort
 
 
 >**IMPORTANT**

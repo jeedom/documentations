@@ -1,5 +1,5 @@
 
-#Home automation gateway
+# Home automation gateway
 
 
 >**IMPORTANT**
