@@ -389,9 +389,9 @@ Puis la lancer :
 
 Avec :
 
--   jeedom-mysql : le nom du conteneur mysql
--   /opt/jeedom/mysql : le dossier de l’hote ou l’on doit stoker les données de MySql
--   your-mysql-password : le mot de passe root de l’instance MySql
+-   ``jeedom-mysql`` : le nom du conteneur mysql
+-   ``/opt/jeedom/mysql`` : le dossier de l’hote ou l’on doit stoker les données de MySql
+-   ``your-mysql-password`` : le mot de passe root de l’instance MySql
 
 Etape 3 : Installation d’une image Jeedom
 ---
@@ -406,9 +406,9 @@ Puis lancez la :
 
 Avec :
 
--   jeedom-server : nom du Docker jeedom voulu
--   /your/jeedom/path : répertoire où les données de Jeedom sont mises sur l’hôte
--   your-root-password : mot de passe root pour accéder à Jeedom en SSH
+-   ``jeedom-server`` : nom du Docker jeedom voulu
+-   ``/your/jeedom/path`` : répertoire où les données de Jeedom sont mises sur l’hôte
+-   ``your-root-password`` : mot de passe root pour accéder à Jeedom en SSH
 
 Il vous faut ensuite installer Jeedom en allant sur : IP\_DOCKER:9080 et entrer les informations de connexion vers mysql :
 
