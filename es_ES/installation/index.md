@@ -385,13 +385,13 @@ Yo uso [esta](https://hub.docker.com/_/mysql/). Para instalarlo :
 
 Luego ejecútalo :
 
-``sudo docker run --name jeedom-mysql -v / opt / jeedom / mysql:/var/lib/mysql -e MySQL_ROOT_PASSWORD=tu-contraseña-mysql -d mysql:latest``
+``sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MySQL_ROOT_PASSWORD=your-mysql-password -d mysql:latest``
 
 Con :
 
--   jeedom-mysql : el nombre del contenedor mysql
--   / opt / jeedom / mysql : El archivo del host donde tenemos que almacenar datos MySql
--   tu-contraseña-mysql : la contraseña de root de la instancia de MySql
+-   ``jeedom-mysql`` : el nombre del contenedor mysql
+-   ``/opt/jeedom/mysql`` : El archivo del host donde tenemos que almacenar datos MySql
+-   ``your-mysql-password`` : la contraseña de root de la instancia de MySql
 
 Etapa 3 : Instalar una imagen Jeedom
 ---
@@ -402,13 +402,13 @@ Instalación de imagen :
 
 Luego inicie el :
 
-``sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v / your / jeedom / path:/var/www/html -e ROOT_PASSWORD=su-contraseña-raíz -p 9080:80 -p 9022:22 jeedom/jeedom``
+``sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v /your/jeedom/path:/var/www/html -e ROOT_PASSWORD=your-root-password -p 9080:80 -p 9022:22 jeedom/jeedom``
 
 Con :
 
--   jeedom-server : Se busca el nombre de Jeedom Estibador
--   / your / jeedom / path : directorio donde los datos de Jeedom se colocan en el host
--   su-contraseña-raíz : contraseña de root para acceder a Jeedom en SSH
+-   ``jeedom-server`` : Se busca el nombre de Jeedom Estibador
+-   ``/your/jeedom/path`` : directorio donde los datos de Jeedom se colocan en el host
+-   ``your-root-password`` : contraseña de root para acceder a Jeedom en SSH
 
 Entonces necesita instalar Jeedom yendo a : IP \ _DOCKER:9080 e ingrese la información de conexión a mysql :
 
