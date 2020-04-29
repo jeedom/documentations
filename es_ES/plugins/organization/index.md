@@ -1,16 +1,16 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Solo los complementos oficiales tienen su documentación aquí.. Puede consultar la documentación de los otros complementos directamente desde el mercado de Jeedom y luego una vez en el complemento en cuestión haciendo clic en la documentación
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=organization) tous les plugins (officiel ou non) de cette categorie
+Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=organization) todos los complementos (oficiales o no) en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="caldav/caldav_icon.png" width="100" />|Agenda Caldav||[Documentation](caldav/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1149)|
-|<img src="calendar/calendar_icon.png" width="100" />|Agenda|Plugin pour créer un calendrier|[Documentation](calendar/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=57)|
-|<img src="domogeek/domogeek_icon.png" width="100" />|DomoGeek|Plugin pour récuperer les informations du site DomoGeek|[Documentation](domogeek/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=250)|
-|<img src="gCalendar/gCalendar_icon.png" width="100" />|Google agenda|Plugin permettant de recuperer les événements de Google Agenda. Il est capable d’interpréter les titres des événements comme interaction.IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliqué dans la documentation. |[Documentation](gCalendar/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3318)|
-|<img src="geoloc/geoloc_icon.png" width="100" />|Geoloc|Plugin permettant à Jeedom de gérer la géolocalisation.|[Documentation](geoloc/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=12)|
-|<img src="mode/mode_icon.png" width="100" />|Mode|Plugin pour gerer different mode de sa maison/son appartement|[Documentation](mode/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1929)|
+|<img src="caldav/caldav_icon.png "ancho =" 100 "/>|Calendario de Caldav||[Documentación](caldav / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1149)|
+|<img src="calendar/calendar_icon.png "ancho =" 100 "/>|Agenda|Complemento para crear un calendario|[Documentación](calendario / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 57)|
+|<img src="domogeek/domogeek_icon.png "ancho =" 100 "/>|DomoGeek|Complemento para recuperar información del sitio DomoGeek|[Documentación](domogeek / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 250)|
+|<img src="gCalendar/gCalendar_icon.png "ancho =" 100 "/>|Calendario de Google|Complemento para recuperar eventos de Google Calendar. Es capaz de interpretar los títulos de los eventos como interacción..Importante : Este complemento requiere tener una cuenta de desarrollo con Google (todos pueden tenerlo, es gratis y sin impacto). El proceso se explica en la documentación.. |[Documentación](gCalendar / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3318)|
+|<img src="geoloc/geoloc_icon.png "ancho =" 100 "/>|Geoloc|Complemento que permite a Jeedom gestionar la geolocalización.|[Documentación](geoloc / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 12)|
+|<img src="mode/mode_icon.png "ancho =" 100 "/>|Mode|Complemento para administrar diferentes modos de su casa / apartamento|[Documentación](modo / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1929)|

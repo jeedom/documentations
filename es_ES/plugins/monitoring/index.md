@@ -1,14 +1,14 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Solo los complementos oficiales tienen su documentación aquí.. Puede consultar la documentación de los otros complementos directamente desde el mercado de Jeedom y luego una vez en el complemento en cuestión haciendo clic en la documentación
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) tous les plugins (officiel ou non) de cette categorie
+Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) todos los complementos (oficiales o no) en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="monitoring2/monitoring2_icon.png" width="100" />|Monitoring|Plugin de Monitoring local et distant par SSH|[Documentation](monitoring2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)|
-|<img src="nut/nut_icon.png" width="100" />|Onduleur (NUT)|Plugin pour récuperer les informations des onduleurs via nut|[Documentation](nut/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)|
-|<img src="octoprint/octoprint_icon.png" width="100" />|Octoprint|Plugin pour monitorer vos serveurs d'impression 3D|[Documentation](octoprint/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)|
-|<img src="ventilairsec/ventilairsec_icon.png" width="100" />|Ventilairsec||[Documentation](ventilairsec/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)|
+|<img src="monitoring2/monitoring2_icon.png "ancho =" 100 "/>|Monitoring|Complemento de monitoreo local y remoto por SSH|[Documentación](monitoreo2 / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3317)|
+|<img src="nut/nut_icon.png "ancho =" 100 "/>|Inversor (NUT)|Complemento para recuperar información de los inversores a través de la tuerca|[Documentación](tuerca / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1500)|
+|<img src="octoprint/octoprint_icon.png "ancho =" 100 "/>|Octoprint|Plugin para monitorear sus servidores de impresión 3D|[Documentación](octoprint / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3295)|
+|<img src="ventilairsec/ventilairsec_icon.png "ancho =" 100 "/>|Ventilairsec||[Documentación](ventilairsec / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3895)|

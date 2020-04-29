@@ -1,11 +1,11 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Only the official plugins have their documentation here. You can consult the documentation of the other plugins directly from the jeedom market then once on the plugin in question by clicking on documentation
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) tous les plugins (officiel ou non) de cette categorie
+You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) all plugins (official or not) in this category
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" width="100" />|Gestion Volets|Plugin pour gerer l'ouverture/fermeture des volets en fonction du soleil|[Documentation](sunshutter/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
+|<img src="sunshutter/sunshutter_icon.png "width =" 100 "/>|Shutter management|Plugin to manage the opening / closing of the shutters according to the sun|[Documentation](sunshutter / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3793)|

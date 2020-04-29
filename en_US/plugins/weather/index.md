@@ -1,13 +1,13 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Only the official plugins have their documentation here. You can consult the documentation of the other plugins directly from the jeedom market then once on the plugin in question by clicking on documentation
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=weather) tous les plugins (officiel ou non) de cette categorie
+You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=weather) all plugins (official or not) in this category
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="netatmoWeather/netatmoWeather_icon.png" width="100" />|Netatmo Station|Plugin pour avoir les informations métérologiques des stations météo Netatmo|[Documentation](netatmoWeather/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=133)|
-|<img src="publiemeteo/publiemeteo_icon.png" width="100" />|Publie Meteo||[Documentation](publiemeteo/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2318)|
-|<img src="weather/weather_icon.png" width="100" />|Weather|Ce plugin vous permet de récolter par le biais de Yahoo ! Météo. toutes les informations météos utiles pour votre système domotique. On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir. Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres. Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis.|[Documentation](weather/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=7)|
+|<img src="netatmoWeather/netatmoWeather_icon.png "width =" 100 "/>|Netatmo Station|Plugin for meteorological information from Netatmo weather stations|[Documentation](netatmoWeather / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 133)|
+|<img src="publiemeteo/publiemeteo_icon.png "width =" 100 "/>|Publish Weather||[Documentation](publiemeteo / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2318)|
+|<img src="weather/weather_icon.png "width =" 100 "/>|Weather|This plugin allows you to harvest through Yahoo ! Weather. all the weather information useful for your home automation system. We find information such as, conditions, temperatures, current and days to come. You will also have the humidity, the strength of the wind and its direction, the time of sunrise and sunset and many others. You wanted to buy a weather station, this plugin may make you change your mind.|[Documentation](weather / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 7)|

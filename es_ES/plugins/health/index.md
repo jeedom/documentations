@@ -1,12 +1,12 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Solo los complementos oficiales tienen su documentación aquí.. Puede consultar la documentación de los otros complementos directamente desde el mercado de Jeedom y luego una vez en el complemento en cuestión haciendo clic en la documentación
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=health) tous les plugins (officiel ou non) de cette categorie
+Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=health) todos los complementos (oficiales o no) en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="fitbit/fitbit_icon.png" width="100" />|Fitbit|Plugin pour Fitbit|[Documentation](fitbit/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1018)|
-|<img src="sevenhugs/sevenhugs_icon.png" width="100" />|SevenHugs|Plugin pour SevenHugs|[Documentation](sevenhugs/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2492)|
+|<img src="fitbit/fitbit_icon.png "ancho =" 100 "/>|Fitbit|Plugbit para Fitbit|[Documentación](fitbit / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1018)|
+|<img src="sevenhugs/sevenhugs_icon.png "ancho =" 100 "/>|SevenHugs|Plugin SevenHugs|[Documentación](sevenhugs / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2492)|

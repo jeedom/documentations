@@ -1,14 +1,14 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Nur die offiziellen Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt vom Jeedom-Markt abrufen und dann einmal auf das betreffende Plugin klicken, indem Sie auf Dokumentation klicken
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) tous les plugins (officiel ou non) de cette categorie
+Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) Alle Plugins (offiziell oder nicht) in dieser Kategorie
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="monitoring2/monitoring2_icon.png" width="100" />|Monitoring|Plugin de Monitoring local et distant par SSH|[Documentation](monitoring2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)|
-|<img src="nut/nut_icon.png" width="100" />|Onduleur (NUT)|Plugin pour récuperer les informations des onduleurs via nut|[Documentation](nut/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)|
-|<img src="octoprint/octoprint_icon.png" width="100" />|Octoprint|Plugin pour monitorer vos serveurs d'impression 3D|[Documentation](octoprint/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)|
-|<img src="ventilairsec/ventilairsec_icon.png" width="100" />|Ventilairsec||[Documentation](ventilairsec/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)|
+|<img src="monitoring2/monitoring2_icon.png "width =" 100 "/>|Monitoring|Plugin für lokale und Fernüberwachung per SSH|[Dokumentation](Überwachung2 / Index.md) - [Markt](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3317)|
+|<img src="nut/nut_icon.png "width =" 100 "/>|Wechselrichter (NUT)|Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter|[Dokumentation](Mutter / Index.md) - [Markt](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1500)|
+|<img src="octoprint/octoprint_icon.png "width =" 100 "/>|Octoprint|Plugin zur Überwachung Ihrer 3D-Druckserver|[Dokumentation](Oktoprint / Index.md) - [Markt](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3295)|
+|<img src="ventilairsec/ventilairsec_icon.png "width =" 100 "/>|Ventilairsec||[Dokumentation](ventilairsec / index.md) - [Markt](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3895)|

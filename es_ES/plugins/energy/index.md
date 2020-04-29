@@ -1,19 +1,19 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Solo los complementos oficiales tienen su documentación aquí.. Puede consultar la documentación de los otros complementos directamente desde el mercado de Jeedom y luego una vez en el complemento en cuestión haciendo clic en la documentación
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=energy) tous les plugins (officiel ou non) de cette categorie
+Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=energy) todos los complementos (oficiales o no) en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="delestage/delestage_icon.png" width="100" />|Délestage|Plugin pour gérer le délestage|[Documentation](delestage/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2616)|
-|<img src="energy/energy_icon.png" width="100" />|Energie|Plugin pour gérer sa consommation énergétique|[Documentation](energy/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=54)|
-|<img src="energy2/energy2_icon.png" width="100" />|Comptage|Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE.|[Documentation](energy2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3591)|
-|<img src="envoy/envoy_icon.png" width="100" />|Enphase Envoy|Plugin pour remonter les informations photovoltaïques des passerelles Envoy|[Documentation](envoy/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3992)|
-|<img src="ewattch/ewattch_icon.png" width="100" />|Ewattch|Plugin pour le superviseur ewattch|[Documentation](ewattch/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1668)|
-|<img src="extel/extel_icon.png" width="100" />|Extel|Plugin pour controller la multiprise Extel|[Documentation](extel/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2979)|
-|<img src="mpower/mpower_icon.png" width="100" />|Mpower|Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos :<br/><br/>Etat<br/>Puissance<br/>Consommation<br/>Courant<br/>Voltage<br/>Et facteur de puissance<br/><br/>Les données sont rafraichies toutes les minutes et après une action depuis jeedom<br/><br/>Uniquement testé sur le modèle 6 prises|[Documentation](mpower/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2181)|
-|<img src="rt2/rt2_icon.png" width="100" />|Eco RT2|Plugin pour piloter l'eco RT2|[Documentation](rt2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2918)|
-|<img src="wiserlink/wiserlink_icon.png" width="100" />|WiserLink|Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux / la téléinfo / les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie.|[Documentation](wiserlink/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2938)|
+|<img src="delestage/delestage_icon.png "ancho =" 100 "/>|Deslastre de carga|Complemento para gestionar el desprendimiento de carga|[Documentación](desprendimiento de carga / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2616)|
+|<img src="energy/energy_icon.png "ancho =" 100 "/>|Energie|Complemento para administrar su consumo de energía|[Documentación](energía / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 54)|
+|<img src="energy2/energy2_icon.png "ancho =" 100 "/>|Comptage|Plugin para medición de energía (gas, electricidad y agua). Le permite hacer un cálculo estimado del DPE.|[Documentación](energía2 / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3591)|
+|<img src="envoy/envoy_icon.png "ancho =" 100 "/>|Enphase Envoy|Complemento para recopilar información fotovoltaica de las puertas de enlace de Envoy|[Documentación](envío / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3992)|
+|<img src="ewattch/ewattch_icon.png "ancho =" 100 "/>|Ewattch|Plugin para el supervisor de ewattch|[Documentación](ewattch / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1668)|
+|<img src="extel/extel_icon.png "ancho =" 100 "/>|Extel|Plugin para controlar la regleta Extel|[Documentación](extel / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2979)|
+|<img src="mpower/mpower_icon.png "ancho =" 100 "/>|Mpower|Este complemento le permite controlar sus múltiples enchufes Mpower. El widget te permite ver toda la información :<br/><br/>Etat<br/>Puissance<br/>Consommation<br/>Courant<br/>Voltage<br/>Et facteur de puissance<br/><br/>Les données sont rafraichies toutes les minutes et après une action depuis jeedom<br/><br/>Uniquement testé sur le modèle 6 prises|[Documentación](mpower / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2181)|
+|<img src="rt2/rt2_icon.png "ancho =" 100 "/>|Eco RT2|Complemento para controlar eco RT2|[Documentación](rt2 / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2918)|
+|<img src="wiserlink/wiserlink_icon.png "ancho =" 100 "/>|WiserLink|Complemento para mostrar datos del módulo Wiser IP. Sube los 5 canales / información de TV / 2 módulos de pulso. En cada caso, los iconos son personalizables, así como los nombres, y tenemos el poder y la energía..|[Documentación](wiserlink / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2938)|

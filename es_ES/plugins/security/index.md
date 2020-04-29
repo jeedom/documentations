@@ -1,15 +1,15 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Solo los complementos oficiales tienen su documentación aquí.. Puede consultar la documentación de los otros complementos directamente desde el mercado de Jeedom y luego una vez en el complemento en cuestión haciendo clic en la documentación
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) tous les plugins (officiel ou non) de cette categorie
+Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) todos los complementos (oficiales o no) en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="alarm/alarm_icon.png" width="100" />|Alarme|Plugin pour la gestion de la sécurité|[Documentation](alarm/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=26)|
-|<img src="camera/camera_icon.png" width="100" />|Caméra|Plugin pour afficher les caméras IP.<br>/L'affichage vidéo de la caméra s'effectue par snapshot (capture) successives toutes les secondes.|[Documentation](camera/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=70)|
-|<img src="gestAccess/gestAccess_icon.png" width="100" />|gestion access|Plugin de gestion d'acces via un système de bagdes|[Documentation](gestAccess/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3686)|
-|<img src="netatmoWelcome/netatmoWelcome_icon.png" width="100" />|Netatmo Security|Plugin pour les caméras netatmo Welcome et Présence|[Documentation](netatmoWelcome/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1967)|
-|<img src="nuki/nuki_icon.png" width="100" />|Nuki|Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push|[Documentation](nuki/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2819)|
+|<img src="alarm/alarm_icon.png "ancho =" 100 "/>|Alarme|Complemento de gestión de seguridad|[Documentación](alarma / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 26)|
+|<img src="camera/camera_icon.png "ancho =" 100 "/>|Cámara|Complemento para mostrar cámaras IP. <br> / La visualización de video de la cámara se realiza mediante una instantánea (captura) sucesiva cada segundo.|[Documentación](cámara / índice.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 70)|
+|<img src="gestAccess/gestAccess_icon.png "ancho =" 100 "/>|gestión de acceso|Complemento de gestión de acceso a través de un sistema bagdes|[Documentación](gestAccess / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3686)|
+|<img src="netatmoWelcome/netatmoWelcome_icon.png "ancho =" 100 "/>|Seguridad de Netatmo|Plugin para cámaras netatmo Welcome y Presence|[Documentación](netatmoWelcome / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1967)|
+|<img src="nuki/nuki_icon.png "ancho =" 100 "/>|Nuki|Este complemento le permite controlar las cerraduras conectadas de Nuki utilizando el puente. También le permite configurar el puente en modo push|[Documentación](nuki / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 2819)|

@@ -1,14 +1,14 @@
 
 >**IMPORTANT**
 
->Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+>Only the official plugins have their documentation here. You can consult the documentation of the other plugins directly from the jeedom market then once on the plugin in question by clicking on documentation
 
 
-Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) tous les plugins (officiel ou non) de cette categorie
+You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) all plugins (official or not) in this category
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="monitoring2/monitoring2_icon.png" width="100" />|Monitoring|Plugin de Monitoring local et distant par SSH|[Documentation](monitoring2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)|
-|<img src="nut/nut_icon.png" width="100" />|Onduleur (NUT)|Plugin pour récuperer les informations des onduleurs via nut|[Documentation](nut/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)|
-|<img src="octoprint/octoprint_icon.png" width="100" />|Octoprint|Plugin pour monitorer vos serveurs d'impression 3D|[Documentation](octoprint/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)|
-|<img src="ventilairsec/ventilairsec_icon.png" width="100" />|Ventilairsec||[Documentation](ventilairsec/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)|
+|<img src="monitoring2/monitoring2_icon.png "width =" 100 "/>|Monitoring|Local and remote monitoring plugin by SSH|[Documentation](monitoring2 / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3317)|
+|<img src="nut/nut_icon.png "width =" 100 "/>|Inverter (NUT)|Plugin to retrieve information from inverters via nut|[Documentation](nut / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1500)|
+|<img src="octoprint/octoprint_icon.png "width =" 100 "/>|Octoprint|Plugin to monitor your 3D print servers|[Documentation](octoprint / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3295)|
+|<img src="ventilairsec/ventilairsec_icon.png "width =" 100 "/>|Ventilairsec||[Documentation](ventilairsec / index.md) - [Market](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3895)|
