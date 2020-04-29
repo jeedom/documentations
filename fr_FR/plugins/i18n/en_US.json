@@ -974,6 +974,20 @@
         "[ici": "[here",
         "ici]": "here]"
     },
+    "plugins\/i18n\/index.md": {
+        "Seul les plugins officiel on leur documentation ici": "Only the official plugins have their documentation here",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation": "You can consult the documentation of the other plugins directly from the jeedom market then once on the plugin in question by clicking on documentation",
+        "Vous pouvez voir": "You can see",
+        "tous les plugins (officiel ou non) de cette categorie": "all plugins (official or not) in this category",
+        " IMPORTANT": " Important",
+        "IMPORTANT ": "Important ",
+        "[IMPORTANT": "[Important",
+        "IMPORTANT]": "Important]",
+        " ici": " here",
+        "ici ": "here ",
+        "[ici": "[here",
+        "ici]": "here]"
+    },
     "plugins\/monitoring\/index.md": {
         "png\" width=\"100\" \/": "png \"width =\" 100 \"\/",
         "[Documentation](ventilairsec\/index": "[Documentation](ventilairsec \/ index",

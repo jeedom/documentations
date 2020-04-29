@@ -647,6 +647,14 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins (officiel ou non) de cette categorie": "tous les plugins (officiel ou non) de cette categorie"
     },
+    "plugins\/i18n\/index.md": {
+        "IMPORTANT": "IMPORTANT",
+        "Seul les plugins officiel on leur documentation ici": "Seul les plugins officiel on leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation": "Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins (officiel ou non) de cette categorie": "tous les plugins (officiel ou non) de cette categorie"
+    },
     "plugins\/monitoring\/index.md": {
         "png\" width=\"100\" \/": "png\" width=\"100\" \/",
         "Ventilairsec": "Ventilairsec",
