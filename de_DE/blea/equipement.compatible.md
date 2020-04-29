@@ -45,12 +45,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/dotti.jpg "width =" 60 "/>|Dotti|Dotti|Afficheur|Funktioniert viel besser mit der Option zum Verbinden der Verbindung||
 
-# Traumbildschirm
+# DreamScreen
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/dreamscreen.jpg "width =" 60 "/>|DreamScreen|DreamScreen|Lichter|||
 
-# fitbit
+# Fitbit
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/fitbit.jpg "width =" 60 "/>|Fitbit|Badge|Bracelet|Nur zur Anwesenheit||
@@ -65,12 +65,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/gigaset.jpg "width =" 60 "/>|Gigaset|G-Tag|Präsenz|Nur zur Anwesenheit||
 
-# hector
+# Hector
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/hector.jpg "width =" 60 "/>|Hector|Hector|Capteurs|Darf nicht dauerhaft auf Ihrem Telefon verbunden bleiben, wenn Sie in Jeedom interagieren möchten||
 
-# itag
+# Itag
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/itag.jpg "width =" 60 "/>|Itag|Itag Schwarz|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
@@ -84,7 +84,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/jinlin.jpg "width =" 60 "/>|Lyl Smart|Jinlin|Licht|Nur für die Anwesenheit (der Rest wird kommen)||
 
-# kst1
+# Kst1
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/kst1.jpg "width =" 60 "/>|Koogeek|Kst1|Santé|||
@@ -102,14 +102,14 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/lywsd02.jpg "width =" 60 "/>|Xiaomi|Temperatur Luftfeuchtigkeit|Capteurs|Feuchtigkeitstemperatursensoren mit Display (Lywsd02)||
 
-# Meyerdom
+# MeyerDom
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/meyerdom2analog.jpg "width =" 60 "/>|MeyerDom|2 Analog|Contacteurs|2 Analog||
 |<img src="../../de_DE/blea/images/meyerdom4contacts.jpg "width =" 60 "/>|MeyerDom|4 Schütze|Contacteurs|4 Schütze||
 |<img src="../../de_DE/blea/images/meyerdomcontactvocal.jpg "width =" 60 "/>|MeyerDom|Sprachkontakt|Contacteurs|Sprachschütz||
 
-# Meyerdom4contacts
+# MeyerDom4contacts
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/meyerdom4contacts.jpg "width =" 60 "/>|MeyerDom|4 Schütze|Contacteurs|4 Schütze und 2 analoge||
@@ -129,13 +129,13 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/miflora.jpg "width =" 60 "/>|Xiaomi|Miflora|Capteurs|Pflanzensensoren||
 
-# miscal
+# MiScale
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/miscale.jpg "width =" 60 "/>|Xiaomi|MiScale|Scale|Vollständige Profilverwaltung||
 |<img src="../../de_DE/blea/images/miscale.jpg "width =" 60 "/>|Xiaomi|MiSkala 2019|Scale|Vollständige Profilverwaltung||
 
-# miscal2
+# MiScale2
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/miscale2.jpg "width =" 60 "/>|Xiaomi|MiSkala V2|Scale|Vollständige Profilverwaltung||
@@ -155,7 +155,7 @@
 |<img src="../../de_DE/blea/images/niu.jpg "width =" 60 "/>|Nodon|Niu Techblue|Boutons|In verschiedenen Farben erhältlich||
 |<img src="../../de_DE/blea/images/niu.jpg "width =" 60 "/>|Nodon|Niu White|Boutons|In verschiedenen Farben erhältlich||
 
-# noke
+# Noke
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/noke.jpg "width =" 60 "/>|Noke|Noke|Cadenas|Nur beim Drücken der Taste sichtbar (kann über einen Frame-Hack ausgeführt werden, um den Schlüssel wiederherzustellen), wird jedoch nicht ausgeführt, da dies illegal ist||
@@ -191,7 +191,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/smartplug.jpg "width =" 60 "/>|Awox|Smartplug|Prises|||
 
-# tb05
+# Tb05
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/tb05.jpg "width =" 60 "/>|E-Diffuser|Tb05|Diffuseur|Es wird empfohlen, die Option Verbindung beibehalten zu verwenden. Obligatorisch, um experimentell mit direktem Farbzugriff zu experimentieren||
@@ -217,7 +217,7 @@
 |<img src="../../de_DE/blea/images/xiaomiht.jpg "width =" 60 "/>|Xiaomi|Temperatur Luftfeuchtigkeit|Capteurs|Feuchtigkeitstemperatursensoren mit Display||
 |<img src="../../de_DE/blea/images/xiaomiht.jpg "width =" 60 "/>|Xiaomi|Temperatur Luftfeuchtigkeit Cleargrass|Micromodule|Feuchtigkeitstemperatursensoren mit E-Ink-Bildschirm||
 
-# yeelight
+# Yeelight
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/yeelight_bed.jpg "width =" 60 "/>|Yeelight|Bed|Lichter|Sie müssen die Kopplung durch Drücken der Taste bestätigen. Wenn ausgeschaltet, schalten Sie es ein, bevor Sie eine Farbe auswählen||

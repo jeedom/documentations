@@ -96,7 +96,7 @@ Module data
 
 -   Mark : Poly-Control
 
--   Name : Polylock
+-   Name : PolyLock
 
 -   Manufacturer ID : 270
 

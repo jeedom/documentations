@@ -272,6 +272,7 @@
         "Le script d'installation peut être dangereux, car il part du principe que votre système est vierge": "Le script d'installation peut être dangereux, car il part du principe que votre système est vierge",
         "Si ce n'est pas le cas merci de lire le script et de faire une installation à la main": "Si ce n'est pas le cas merci de lire le script et de faire une installation à la main",
         "Connectez-vous en SSH à votre système et faites": "Connectez-vous en SSH à votre système et faites",
-        "Il vous suffit ensuite d'aller sur IP\\_MACHINE\\_JEEDOM à partir de votre navigateur Internet": "Il vous suffit ensuite d'aller sur IP\\_MACHINE\\_JEEDOM à partir de votre navigateur Internet"
+        "Il vous suffit ensuite d'aller sur": "Il vous suffit ensuite d'aller sur",
+        "à partir de votre navigateur Internet": "à partir de votre navigateur Internet"
     }
 }

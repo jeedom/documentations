@@ -1,4 +1,4 @@
-Swiid Switch - Swiidinter 
+Swiid Switch - SwiidInter 
 ===============================
 
 \
@@ -114,7 +114,7 @@ Module data
 
 -   Mark : Swiid
 
--   Name : Swiidinter
+-   Name : SwiidInter
 
 -   Manufacturer ID : 358
 

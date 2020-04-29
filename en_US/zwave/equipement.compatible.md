@@ -122,8 +122,8 @@
 |<img src="../../en_US/zwave/images/138.3.257_zw-snmt-01.multi.sensor.jpg "width =" 60 "/>|benext|MoLite Sensor|Multicapteurs|||
 |<img src="../../en_US/zwave/images/138.33.1_heating.control.jpg "width =" 60 "/>|benext|Heating Control|Micromodule|||
 |<img src="../../en_US/zwave/images/138.33.256_heating.control.jpg "width =" 60 "/>|benext|Heating Control|Micromodule|||
-|<img src="../../en_US/zwave/images/138.4.256_door.sensor.jpg "width =" 60 "/>|benext|Door sensor|Ouverture|||
-|<img src="../../en_US/zwave/images/138.4.257_door.sensor.jpg "width =" 60 "/>|benext|Door sensor|Ouverture|||
+|<img src="../../en_US/zwave/images/138.4.256_door.sensor.jpg "width =" 60 "/>|benext|Door Sensor|Ouverture|||
+|<img src="../../en_US/zwave/images/138.4.257_door.sensor.jpg "width =" 60 "/>|benext|Door Sensor|Ouverture|||
 |<img src="../../en_US/zwave/images/138.7.256_minikeypad.jpg "width =" 60 "/>|benext|Mini Keypad RFID|RFID keyboard|The badage used does not go back. This module is currently sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../en_US/zwave/images/138.7.257_minikeypad.jpg "width =" 60 "/>|benext|Mini Keypad RFID|RFID keyboard|The badage used does not go back. This module is currently sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 

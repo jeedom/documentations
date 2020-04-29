@@ -1,13 +1,13 @@
 | Name            | Type           | Protocol      | NOTE       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Weather Channel  | Rubicson / Alecto              |                |                |
-| Atlantic'S     | Detector      | Meiantech      |                |                |
+| Atlantic's     | Detector      | Meiantech      |                |                |
 | MD-210R        | opening    |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
 | DT-335R DMT    | Movement      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
 | MC-335R DMT    | Movement      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
 | 7380R DMT      | Movement      |                |                |                |
 | Atlantic's     | 1-button key fob remote control   | Meiantech      |                |                |
 | Blyss 567434   | Smoke detector  |                |                |                |

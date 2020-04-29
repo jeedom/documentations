@@ -40,12 +40,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/divoomtimeboxmini.jpg "ancho =" 60 "/>|Divoom|TimeBox Mini|Afficheur|La función mantiene la conexión obligatoria para no tener el logotipo de bluetooth||
 
-# dotti
+# Dotti
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/dotti.jpg "ancho =" 60 "/>|Dotti|Dotti|Afficheur|Funcionará mucho mejor con la opción de mantener la conexión||
 
-# pantalla de sueños
+# DreamScreen
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/dreamscreen.jpg "ancho =" 60 "/>|DreamScreen|DreamScreen|Luces|||
@@ -60,17 +60,17 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/flowerpower.jpg "ancho =" 60 "/>|Parrot|Flor de poder|Capteurs|Sensores de planta||
 
-# gigaset
+# Gigaset
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/gigaset.jpg "ancho =" 60 "/>|Gigaset|G-Tag|Presencia|Solo por presencia||
 
-# hector
+# Hector
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/hector.jpg "ancho =" 60 "/>|Hector|Hector|Capteurs|No debe permanecer conectado permanentemente a su teléfono si desea interactuar en Jeedom||
 
-# itag
+# Itag
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/itag.jpg "ancho =" 60 "/>|Itag|Itag Black|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
@@ -79,12 +79,12 @@
 |<img src="../../es_ES/blea/images/itag.jpg "ancho =" 60 "/>|Itag|Itag Green|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
 |<img src="../../es_ES/blea/images/itag.jpg "ancho =" 60 "/>|Itag|Itag Blue|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
 
-# jinlin
+# Jinlin
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/jinlin.jpg "ancho =" 60 "/>|Lyl Smart|Jinlin|Iluminación|Solo por presencia (el resto vendrá)||
 
-# kst1
+# Kst1
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/kst1.jpg "ancho =" 60 "/>|Koogeek|Kst1|Santé|||
@@ -102,19 +102,19 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/lywsd02.jpg "ancho =" 60 "/>|Xiaomi|Temperatura Humedad|Capteurs|Sensores de temperatura y humedad con pantalla (Lywsd02)||
 
-# meyerdom
+# MeyerDom
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/meyerdom2analog.jpg "ancho =" 60 "/>|MeyerDom|2 analógico|Contacteurs|2 analógico||
 |<img src="../../es_ES/blea/images/meyerdom4contacts.jpg "ancho =" 60 "/>|MeyerDom|4 contactores|Contacteurs|4 contactores||
 |<img src="../../es_ES/blea/images/meyerdomcontactvocal.jpg "ancho =" 60 "/>|MeyerDom|Contacto de voz|Contacteurs|Contactor de voz||
 
-# meyerdom4contacts
+# MeyerDom4contacts
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/meyerdom4contacts.jpg "ancho =" 60 "/>|MeyerDom|4 contactores|Contacteurs|4 contactores y 2 analógicos||
 
-# miband
+# Miband
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miband1.jpg "ancho =" 60 "/>|Xiaomi|Miband|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
@@ -124,23 +124,23 @@
 |<img src="../../es_ES/blea/images/miband4.jpg "ancho =" 60 "/>|Xiaomi|Miband 4|Santé|Solo presencia por el momento||
 |<img src="../../es_ES/blea/images/mibandcolor.jpg "ancho =" 60 "/>|Xiaomi|Miband (con color led)|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
 
-# miflora
+# Miflora
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miflora.jpg "ancho =" 60 "/>|Xiaomi|Miflora|Capteurs|Sensores de planta||
 
-# miscal
+# MiScale
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miscale.jpg "ancho =" 60 "/>|Xiaomi|MiScale|Scale|Gestión completa del perfil||
 |<img src="../../es_ES/blea/images/miscale.jpg "ancho =" 60 "/>|Xiaomi|MiEscala 2019|Scale|Gestión completa del perfil||
 
-# miscal2
+# MiScale2
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miscale2.jpg "ancho =" 60 "/>|Xiaomi|MiEscala V2|Scale|Gestión completa del perfil||
 
-# myfox
+# Myfox
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/myfox.jpg "ancho =" 60 "/>|Myfox|Badge|Presencia|Solo por presencia||
@@ -155,7 +155,7 @@
 |<img src="../../es_ES/blea/images/niu.jpg "ancho =" 60 "/>|Nodon|Niu Techblue|Boutons|Disponible en varios colores.||
 |<img src="../../es_ES/blea/images/niu.jpg "ancho =" 60 "/>|Nodon|Niu White|Boutons|Disponible en varios colores.||
 
-# noke
+# Noke
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/noke.jpg "ancho =" 60 "/>|Noke|Noke|Cadenas|Visible solo al presionar el botón (puede operar a través de un marco para recuperar la clave) pero no se hará porque es ilegal||
@@ -171,7 +171,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/parrotpot.jpg "ancho =" 60 "/>|Parrot|Loro Pot|Capteurs|Sensores de planta||
 
-# bombilla
+# Playbulb
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||Playbulb|Esfera|Luces|Alcance caprichoso, que puede justificar un procesamiento de acciones un poco largo. Se puede detectar en lugar de otra bombilla de reproducción si es el caso de cambio en el menú desplegable||
@@ -181,22 +181,22 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/ropot.jpg "ancho =" 60 "/>|Xiaomi|Miflora|Capteurs|Sensores de planta||
 
-# ruuvi
+# Ruuvi
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/ruuvi.jpg "ancho =" 60 "/>|Ruuvi|Ruuvi|Beacon|Sensores de baliza||
 
-# enchufe inteligente
+# Smartplug
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/smartplug.jpg "ancho =" 60 "/>|Awox|Smartplug|Prises|||
 
-# tb05
+# Tb05
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/tb05.jpg "ancho =" 60 "/>|E-Diffuser|Tb05|Diffuseur|Se recomienda utilizar la opción de mantener la conexión. Obligatorio experimentar experimentalmente con acceso directo al color.||
 
-# ticatag
+# Ticatag
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/ticatag.jpg "ancho =" 60 "/>|Tibe|Ticatag|Boutons|El lanzamiento se envía incluso después de presionar una vez o presionar dos veces||
@@ -217,7 +217,7 @@
 |<img src="../../es_ES/blea/images/xiaomiht.jpg "ancho =" 60 "/>|Xiaomi|Temperatura Humedad|Capteurs|Sensores de temperatura y humedad con pantalla||
 |<img src="../../es_ES/blea/images/xiaomiht.jpg "ancho =" 60 "/>|Xiaomi|Temperatura Humedad Cleargrass|Micromodule|Sensores de temperatura y humedad con pantalla de tinta electrónica||
 
-# yeelight
+# Yeelight
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/yeelight_bed.jpg "ancho =" 60 "/>|Yeelight|Bed|Luces|Debe confirmar el emparejamiento presionando el botón. Si está apagado, enciéndalo antes de elegir un color||
