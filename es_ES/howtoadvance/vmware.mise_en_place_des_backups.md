@@ -100,7 +100,7 @@ Los parámetros que debe adaptar son :
 > **Nota**
 >
 > Puedes consultar
-> [ici](https://communities.vmware.com / docs / DOC-8760) documentación
+> [aquí](https://communities.vmware.com/docs/DOC-8760) 
 > completo de  con una descripción de cada parámetro
 
 > **Importante**
@@ -111,7 +111,7 @@ Los parámetros que debe adaptar son :
 Prueba de respaldo 
 ==============
 
-Aquí vamos a lanzar una primera copia de seguridad inicial de todas las máquinas virtuales para
+Aquí vamos a lanzar una primera copia de seguridad inaquíal de todas las máquinas virtuales para
 ver si todo está bien. A partir de entonces lo programaremos automáticamente.
 Regrese al ESXi en SSH (vuelva a conectar si es necesario) y haga :
 
@@ -140,7 +140,7 @@ Aquí hay otra posibilidad para la línea de comando :
 
     
 
--   Iniciar en modo de depuración :
+-   Inaquíar en modo de depuración :
 
 <!-- -->
 
@@ -156,7 +156,7 @@ Lanzamiento automático de respaldo
 =================================
 
 Debe agregar la línea de comando al crontab pero en VMware el
-crontab es un poco especial y se sobrescribe especialmente en cada inicio. Para
+crontab es un poco especial y se sobrescribe especialmente en cada inaquío. Para
 evite esto, por lo que debe agregar un pequeño Guión que actualizará el
 crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
@@ -171,7 +171,7 @@ Y antes de "salir 0" agregue las siguientes líneas :
 
 > **Nota**
 >
-> Aquí solicito una copia de seguridad cada 1 de cada mes, puede cambiar
+> Aquí solaquíto una copia de seguridad cada 1 de cada mes, puede cambiar
 > esto modificando : 0 0 1 \* \*
 
 > **Nota**
@@ -189,7 +189,7 @@ Y antes de "salir 0" agregue las siguientes líneas :
 >  según su configuración :
 > 
 
-Ultimo paso: debe reiniciar su ESXi para que se tome el cron
+Ultimo paso: debe reinaquíar su ESXi para que se tome el cron
 en cuenta, puede ver el resultado haciendo (siempre en SSH) :
 
     cat / var / spool / cron / crontabs / root

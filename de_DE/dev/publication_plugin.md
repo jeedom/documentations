@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 
-- S'etre inscrit en tant que dev, voir [ici](https://www.jeedom.com/site/fr/dev.html)
+-  [hier](https://www.jeedom.com/site/fr/dev.html)
 - Warten auf die Validierung des Marktkontos als Entwickler
 - Habe dein Plugin auf Github (private Einzahlung oder nicht)
 

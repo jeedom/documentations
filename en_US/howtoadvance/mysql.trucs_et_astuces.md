@@ -6,7 +6,7 @@ Disable schema performance
 
 Edit the file /etc/mysql/mysql.conf.d/mysqld.cnf and add in :
 
-    [mysqld]
+    ]
     performance_schema = OFF
 
 Optimizing MYSQL 

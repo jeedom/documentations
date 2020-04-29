@@ -35,14 +35,11 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 > **Spitze**
 >
-> Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**. 
->[hier](http://market.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
+> Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**.  [hier](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Spitze**
 >
-> Service Pack ?  ? 
->[hier](https://blog.jeedom.fr/?
->.
+> Service Pack ?  ?  [hier](https://blog.jeedom.fr/?p=1215) .
 
 
 
@@ -62,19 +59,19 @@ Jeedom mini +
 Stufe 1 : Etcher Installation
 ---
 
-Vous devez télécharger le logicel Etcher [hier](https://etcher.io/) dann installiere es auf deinem PC
+ [hier](https://etcher.io/) 
 
 Stufe 2 : Jeedom Bildwiederherstellung
 ---
 
-Vous devez aller [hier](https://images.jeedom.com / jeeboard/), dann im Ordner Images das Bild jeedom-jeeboard - \*. rar wiederherstellen
+ [hier](https://images.jeedom.com/jeeboard/),
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Stufe 3 : Das Jeedom-Bild dekomprimieren
 ---
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)) müssen Sie erhalten :
+ [](http://www.clubic.com/telecharger-fiche9632-.html) :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -91,7 +88,7 @@ Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, da
 >
 > -IDs sind jeedom / Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 
 Himbeerpi
@@ -105,7 +102,7 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 **1 / Laden Sie das letzte "Lite" -Bild herunter, dh ohne grafische Oberfläche** [hier](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-**2 / Dekomprimieren Sie das Bild mit winrar** [hier](http://www.win-rar.com)
+**2 / Dekomprimieren Sie das Bild mit ** [hier](http://www.win-rar.com)
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD** [hier](https://etcher.io/)
 
@@ -140,11 +137,11 @@ Identifizieren Sie Ihren Pi im Tu es nichttzwerk
 Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
 -   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
--   Utilisez un scanner de port type "angyipscanner" [hier](http://angryip.org/download/#windows)
+-   " [hier](http://angryip.org/download/#windows)
 
 Verbindung herstellen
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
+ [Hier](http://www.putty.org/)
 
 Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn Sie sich zum ersten Mal anmelden.
 
@@ -196,7 +193,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O` puis `ENTREE`
 
 Starten Sie Ihr RPI neu
 
-Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 
 =============
@@ -243,7 +240,7 @@ Die IP-Adresse Ihres Jeedom im  steht oben unter seinem Namen.
 
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
-Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
 
 
 ==
@@ -253,14 +250,14 @@ Wenn Sie Jeedom ohne Risiko entdecken möchten, können Sie es auch auf Ihrem PC
 Stufe 1 : Laden Sie den ware Player herunter und installieren Sie ihn
 ---
 
-Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+ [Hier](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Stufe 2 : Herunterladen eines Debian-Strecht-Images - netinstall
 ---
 
-Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+ [Hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+. [Hier](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stufe 3 : Konfigurieren der -Umgebung
 ---
@@ -344,7 +341,7 @@ Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. Geben Sie es einfac
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Tu es nichttzwerkkarte nicht wie zu Beginn angegeben als Tu es nichttzwerkbrücke konfiguriert.
 
-Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Docker
 ======
@@ -382,7 +379,7 @@ Stufe 2 : Installieren eines MySQL-Images
 >
 > Sie können MySQL auch direkt auf dem Host-Computer installieren. In diesem Fall überspringen Sie diesen Schritt.
 
-J'utilise [celle-ci](https://hub.docker.com/_/mysql/). Um es zu installieren :
+ [dieses hier](https://hub.docker.com/_/mysql/). Um es zu installieren :
 
 ``docker pull mysql:latest``
 
@@ -417,7 +414,7 @@ Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP \ _DOCKER:9080 und
 
 ![install other](images/install_other.PNG)
 
-Pour la suite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 > **Wichtig**
 >
@@ -582,7 +579,7 @@ Füllen Sie die Felder entsprechend Ihrer Konfiguration aus (Konfiguration der z
 >
 > Wenn Sie -Zugriff wünschen, müssen Sie in Ports einen lokalen Port zu Port 22 des Containers umleiten. Die -Kennungen sind root / jeedom. Sie können das Kennwort ändern, indem Sie die Umgebungsvariable ROOT \ _PASSWORD auf den Wert des gewünschten Kennworts setzen.
 
-Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index)
 
 Andere
 ======
@@ -619,4 +616,4 @@ Gehen Sie dann einfach von Ihrem Internetbrowser zu IP \ _MACHINE \ _JEEDOM.
 ./install. -w /var/www/html -z -m Jeedom
 ````
 
-Ensuite, vous pouvez suivre la documentation [Premier nicht avec Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index).
+ [](https://doc.jeedom.com/de_DE/premiers-nicht/index).

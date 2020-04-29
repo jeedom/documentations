@@ -6,7 +6,7 @@ Deaktivieren Sie die Schemaleistung
 
 Bearbeiten Sie die Datei /etc/mysql/mysql.conf.d/mysqld.cnf und hinzufügen :
 
-    [mysqld]
+    ]
     Leistungsschema = AUS
 
  optimieren 

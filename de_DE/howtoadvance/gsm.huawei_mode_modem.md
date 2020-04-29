@@ -24,7 +24,7 @@ COM-Port-Wiederherstellung
 
 Dann müssen Sie die Kommunikationsportnummer abrufen. Weiter
 Starten Sie das Menü "Start" und suchen Sie nach "Geräte-Manager"
-Dieser entfaltet dann den Teil "Ports (COM und LPT)", den Sie haben sollten
+Dieser entfaltund dann den Teil "Ports (COM und LPT)", den Sie haben sollten
 Bei einem Artikel mit "HUAWEI" muss man sich nur die Nummer des merken
 COM-Anschluss :
 
@@ -34,7 +34,7 @@ Kitt herunterladen
 =======================
 
 Dann Kitt herunterladen
-[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) und
 Starten Sie die heruntergeladene Datei
 
 Kittkonfiguration und nur in den GSM-Modus wechseln 
@@ -46,7 +46,7 @@ COM-Anschluss an Sie, siehe Schritt oben) :
 ![gsmonly3](images/gsmonly3.PNG)
 
 Ein schwarzes Fenster wird angezeigt (gelegentlich kann ein
-Meldung "boot ...", das ist normal, es bedeutet, dass es dir gut geht
+Meldung "boot ...", das ist normal, es bedeutund, dass es dir gut geht
 mit dem GSM-Schlüssel verbunden). In diesem Fenster müssen Sie eingeben und dann drücken
 auf die "Enter" -Taste" :
 
@@ -59,5 +59,5 @@ auf die "Enter" -Taste" :
 
 Normalerweise müssen Sie im Gegenzug ein OK haben.
 
-Damit ist es fertig. Ihr Schlüssel befindet sich nur im GSM-Modus und Sie
-kann es jetzt über VMware verwenden.
+Damit ist es fertig. Ihr Schlüssel befindund sich nur im GSM-Modus und Sie
+kann es jundzt über VMware verwenden.

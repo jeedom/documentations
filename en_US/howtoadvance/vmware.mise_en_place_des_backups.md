@@ -100,7 +100,7 @@ The parameters that you must adapt are :
 > **NOTE**
 >
 > You can consult
-> [ici](https://communities.vmware.com / docs / DOC-8760) documentation
+> [here](https://communities.vmware.com/docs/DOC-8760) 
 > complete of  with a description of each parameter
 
 > **IMPORTANT**

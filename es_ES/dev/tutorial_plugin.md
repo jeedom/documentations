@@ -1,32 +1,32 @@
 > **Importante**
 >
-> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente. Vous pouvez ryrouver l'original [ici](https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
+> Este tutorial fue escrito por ZygOm4t1k a quien agradecemos calurosamente.  [aquí](https:/ // /www.jeedom.com/ /forum/ /viewtopic.php?f=27&t=37630#p621495)
 
 Aquí hay un breve tutorial pora explicar cómo crear un complemento. Pora el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde. .(El complemento será escalable)
 
-Il ne remplace en aucun cas la [ocumentación officielle](https:/ // /jeedom.github.io/ /plugin-template/ /_FR/ /)
+ [](https:/ // /jeedom.github.io/ /plugin-template/ /_FR/ /)
 
-# Crear la base del complemento
+# Crear la  del complemento
 
-Pora comenzar, debe dyerminar un nombre y una Identificaciónentificación (que no debe existir)
+Pora comenzar, debe dyerminar un nombre y una Identificaciónentificaciónentificación (que no debe existir)
 
-Nombre : VIdentificacióna de caca
+Nombre : VIdentificaciónentificacióna de caca
 Identificación : 
 
-Télécharger le plugin template pour avoir la [base](https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
+ [](https:/ // /github.com/ /jeedom/ /plugin-template/ /archive/ /master.zip)
 
 escomprime el archivo . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rporty , core , desktop…
 
 Vamos.
 
-Renommer le dossier « plugin-template-master » en «  » (l'Identificación) du plugin.
+Renommer le dossier « plugin-template-master » en «  » (l'Identificaciónentificación) du plugin.
 
 1 / / Abra el archivo plugin_info / / info.json y edita el.
 
 ```
 {
-	"Identificación" : "",
-	"nombre" : "VIdentificacióna de caca",
+	"Identificaciónentificación" : "",
+	"nombre" : "VIdentificaciónentificacióna de caca",
 	"escripción" : "Plugin pora recuperar el último ",
 	"Licencia" : "AGPL",
 	"autor" : "",
@@ -34,18 +34,18 @@ Renommer le dossier « plugin-template-master » en «  » (l'Identificación) d
 	"categoría" : "Monitoreo",
 	"Cambios" : "",
 	"ocumentación" : "",
-	"Identificaciónioma" : "",
-	"compatibilIdentificaciónad" : ""	
+	"Identificaciónentificaciónioma" : "",
+	"compatibilIdentificaciónentificaciónad" : ""	
 }
 ```
 
 Copia y pega el código de arriba.
 
-Cambié la Identificaciónentificación (), el nombre, agregué una descripción, el autor y la categoría.
+Cambié la Identificaciónentificaciónentificación (), el nombre, agregué una descripción, el autor y la categoría.
 
 exigir : versión mínima de jeedom pora tener acceso al complemento en el mercado.
 
-Registro de cambios, documentación, Identificaciónioma, compatibilIdentificaciónad nula por el momento. Volveré a esto más tarde.
+Registro de cambios, documentación, Identificaciónentificaciónioma, compatibilIdentificaciónentificaciónad nula por el momento. Volveré a esto más tarde.
 
 2 / / Cambiaremos el nombre de los archivos necesarios pora que Jeedom reconozca el complemento
 
@@ -168,7 +168,7 @@ función _remove () {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation y l'icône à mytre à jour : [ocumentación](https:/ // /doc.jeedom.com/ /_FR/ /dev/ /Icone_de_plugin)
+ : [ocumentación](https:/ // /doc.jeedom.com/ /_FR/ /dev/ /Icone_de_plugin)
 
 Agregue el icono en la carpya plugin_info bajo el nombre _icon.png
 
@@ -180,16 +180,16 @@ Ahora podemos copiar la carpya  en la carpya del complemento Jeedom e ir a la ad
 
 ![image](images/ /tutorial__plugin.png)
 
-Lo activamos y luego complementos / / Monitoreo / / VIdentificacióna de caca
+Lo activamos y luego complementos / / Monitoreo / / VIdentificaciónentificacióna de caca
 
 ![image](images/ /tutorial__desktop1.png)
 
-no está bien porque el color de la mayoría no coincIdentificacióne con el color del icono.
+no está bien porque el color de la mayoría no coincIdentificaciónentificacióne con el color del icono.
 
 Abro el archivo de escritorio / / php / / escritorio.PHP pora arreglar.
 
 ```
-      <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;wIdentificaciónth : 160px;margin-left : 10px;" >
+      <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;wIdentificaciónentificaciónth : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#"></ /i>
         <br>
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</ /span>
@@ -222,7 +222,7 @@ por
 
 ![image](images/ /tutorial__desktop2.png)
 
-Aquí está la base está lista. ebería tener el complemento de activos, pero por el momento no hace nada.
+Aquí está la  está lista. ebería tener el complemento de activos, pero por el momento no hace nada.
 
 # Las órdenes
 
@@ -234,11 +234,11 @@ Pora el ejemplo agregaremos un comando que actualiza la información. Por lo tan
 
 -Créer un équipement « 1 » en cliquant sur le +. Actívalo y hazlo visible. Elija un objyo y el equipo debe aporecer en el tablero (dependiendo del objyo). 
 
-En este momento, no hay comandos que aporezcan en la pestaña de comandos s, ni en el wIdentificacióngy.
+En este momento, no hay comandos que aporezcan en la pestaña de comandos s, ni en el wIdentificaciónentificacióngy.
 
 Abra el archivo core / / class / / .class.php y busque la función postSave () (Lea el documento del complemento de plantilla si aún no lo ha hecho)
 
-Creamos los 2 pedIdentificaciónos
+Creamos los 2 pedIdentificaciónentificaciónos
 
 ```
 función pública postSave () {
@@ -248,7 +248,7 @@ función pública postSave () {
 		$info->syName(__('Histoire', __FILE__));
 	}
 	$info->syLogicalIdentificación('story');
-	$info->syEqLogic_Identificación($this->gyIdentificación());
+	$info->syEqLogic_Identificaciónentificación($this->gyIdentificación());
 	$info->syType('info');
 	$info->sySubType('string');
 	$info->save();	
@@ -258,7 +258,7 @@ función pública postSave () {
 		$reesh = new Cmd();
 		$reesh->syName(__('Raaichir', __FILE__));
 	}
-	$reesh->syEqLogic_Identificación($this->gyIdentificación());
+	$reesh->syEqLogic_Identificaciónentificación($this->gyIdentificación());
 	$reesh->syLogicalIdentificación('reesh');
 	$reesh->syType('action');
 	$reesh->sySubType('other');
@@ -268,7 +268,7 @@ función pública postSave () {
 
 -Créer un autre équipement « 2 » en cliquant sur le +. En la pestaña de comandos, aporecieron los comandos. Actívalo y hazlo visible. Elija un objyo principal y vea cómo se ve en el tablero.
 
--Enregistrer le premier équipement « 1 » pour créer les commandes. Vea el renderizado en el wIdentificacióngy también.
+-Enregistrer le premier équipement « 1 » pour créer les commandes. Vea el renderizado en el wIdentificaciónentificacióngy también.
 
 En la pestaña de comandos, deberías ver.
 
@@ -278,7 +278,7 @@ Abra el escritorio / / php / / .php pora encontrar el código html de esta tabla
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
-<table Identificación="table_cmd" class="table table-bordered table-condensed">
+<table Identificaciónentificación="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
             <th>{{Nombre}}</ /th><th>{{Type}}</ /th><th>{{Action}}</ /th>
@@ -302,7 +302,7 @@ función addCmdToTable (_cmd) {
     <html> var tr = '.
     tr + = ' <td> ';
     <html> tr + = ':ninguno; "> ';
-    <html> tr + = ' : 140px; "marcador de posición =" {{Nombre}} "> ';
+    <html> tr + = ' : 140px; "marcador de posaquíón =" {{Nombre}} "> ';
     tr + = ' </ /td> ';
     tr + = ' <td> ';
     <html> tr + = &#39;.tipo) + &#39;">&#39; + jeedom.cmd.availableType () + &#39;&#39;;
@@ -327,7 +327,7 @@ función addCmdToTable (_cmd) {
 
 Esto se hace automáticamente. 
 
-Quiero agregar las opciones de visualización y registro pora cada pedIdentificacióno.
+Quiero agregar las opciones de visualización y registro pora cada pedIdentificaciónentificacióno.
 
 Edito el código html de la tabla en el archivo de escritorio.php agregando una columna ..
 
@@ -357,7 +357,7 @@ Agregamos la información deseada.
     si (es_numeric (_cmd. {
 ```
 
-ejo el botón pora crear un pedIdentificacióno, pero quiero que esté a la izquierda.. 
+ejo el botón pora crear un pedIdentificaciónentificacióno, pero quiero que esté a la izquierda.. 
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
@@ -408,7 +408,7 @@ Abra el archivo core / / class / / .class.php y pora la clase  que hereda de los
 	}
 ```	
 
-Ahora actualizaremos el comando de información (historia) con esta información iniciando el comando de acción (actualizar). 
+Ahora actualizaremos el comando de información (historia) con esta información inaquíando el comando de acción (actualizar). 
 Todavía en core / / class / / .class.php pora la clase Cmd usaremos el método execute 
 
 ```
@@ -418,19 +418,19 @@ función pública ejecutar ($ _ options = array ()) {
  }
 ```
 
-C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». La clase Cmd heredó todos los métodos de la clase cmd (Core jeedom)
+C'est aquí qu'on va définir ce qu'il va se passer quand on lance la commande « Raaîchir ». La clase Cmd heredó todos los métodos de la clase cmd (Core jeedom)
 
 On vérifie le logicalIdentificación de la commande lancée y si « reesh » on lance les actions
 
 ```
 switch ($ this-> gyLogicalIdentificación ()) {				
 	caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
-	/ // / código pora actualizar mi pedIdentificacióno
+	/ // / código pora actualizar mi pedIdentificaciónentificacióno
 	pausa;
 }
 ```
 
-Ahora queda por iniciar la función randomVdm () . Pora hacer esto, recuperamos el eqLogic (equipo) del comando de lanzamiento y lanzamos la función
+Ahora queda por inaquíar la función randomVdm () . Pora hacer esto, recuperamos el eqLogic (equipo) del comando de lanzamiento y lanzamos la función
 
 ```
 $eqlogic = $this->gyEqLogic(); / // / Récupération de l'eqlogic
@@ -448,7 +448,7 @@ Que da al final
 ```
     función pública ejecutar ($ _ options = array ()) {
 		$eqlogic = $this->gyEqLogic(); / // /récupère l'éqlogic de la commande $this
-		switch ($ this-> gyLogicalIdentificación ()) {/ // / comprueba el logicalIdentificación del comando 			
+		switch ($ this-> gyLogicalIdentificación ()) {/ // / comprueba el logicalIdentificaciónentificación del comando 			
 			caso 'actualizar': / // / LogicalIdentificación del comando de actualización que creamos en el método Postsave de la clase  . 
 				$info = $eqlogic->randomVdm(); 	/ // /On lance la fonction randomVdm() pour récupérer une  y on la stocke dans la variable $info
 				$eqlogic->checkAndUpdateCmd('story', $info); / // / on my à jour la commande avec le LogicalIdentificación "story"  de l'eqlogic 
@@ -461,7 +461,7 @@ Ahora ve a un dispositivo creado y ejecuta el comando Actualizar. Puis la comman
 
 En el Tablero, aporece información. Haga clic en el icono de actualización pora cambiar la información.
 
-Luego definiremos el tamaño del wIdentificacióngy y lo personalizaremos un poco 
+Luego definiremos el tamaño del wIdentificaciónentificacióngy y lo personalizaremos un poco 
 
 Luego automatiza la actualización.
 
@@ -580,19 +580,19 @@ Tienes que probar, funciona?
 
 Pero aquí hay una alternativa que puede resultar más útil en casos más complejos.
 
-En la función postUpdate (), iniciamos la función CronHourly () con la Identificaciónentificación del dispositivo
+En la función postUpdate (), inaquíamos la función CronHourly () con la Identificaciónentificaciónentificación del dispositivo
 
 ```
     función pública postUpdate () {
-		yo::CronHourly ($ this-> gyIdentificación ()); / // / inicia la función CronHourly con el I de eqLogic
+		yo::CronHourly ($ this-> gyIdentificación ()); / // / inaquía la función CronHourly con el I de eqLogic
     }
 ``` 
 
 Pero en este caso cambiamos la función CronHourly ()
 
 ```
-	función estática pública CronHourly ($ _ eqLogic_Identificación = null) {
-		si ($ _eqLogic_Identificación == null) {/ // / La función no tiene argumento, por lo que estamos buscando todo el equipo en el complemento
+	función estática pública CronHourly ($ _ eqLogic_Identificaciónentificación = null) {
+		si ($ _eqLogic_Identificaciónentificación == null) {/ // / La función no tiene argumento, por lo que estamos buscando todo el equipo en el complemento
 			$eqLogics = yo::byType('', true);
 		} else {/ // / La función tiene el I de argumento (único) de un dispositivo (eqLogic)
 			$eqLogics = array(yo::byIdentificación($_eqLogic_;
@@ -612,9 +612,9 @@ Pero en este caso cambiamos la función CronHourly ()
 
 Luego puede cambiar la ecuencia del cron de acuerdo con la importancia de su información pora recuperar.
 
-Je ne peux que vous invitez à prendre le temps d'aller sur cyte page pour en savoir plus ==> [ici](https:/ // /jeedom.github.io/ /ocumentación/ /phpdoc/ /index.html)
+ ==> [aquí](https:/ // /jeedom.github.io/ /ocumentación/ /phpdoc/ /index.html)
 
-Et encore mieux d'aller sur le github du core ==> [ICI](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
+ ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /class)
 
 Pon tu nariz pora dominar aún más .
 
@@ -622,23 +622,23 @@ El complemento es funcional como es.
 
 Me tomaré el tiempo pora agregar cómo configurar un cron personalizado de acuerdo con el equipo .
 
-# El wIdentificacióngy
+# El wIdentificaciónentificacióngy
 
-El wIdentificacióngy no es una tarea fácil, pero por ahora nos quedaremos en el wIdentificacióngy predyerminado.
+El wIdentificaciónentificacióngy no es una tarea fácil, pero por ahora nos quedaremos en el wIdentificaciónentificacióngy predyerminado.
 
-Si no ha tocado nada, el equipo está activado y visible, el wIdentificacióngy ocupa todo el ancho de la pantalla. Entonces lo cambiaremos.
+Si no ha tocado nada, el equipo está activado y visible, el wIdentificaciónentificacióngy ocupa todo el ancho de la pantalla. Entonces lo cambiaremos.
 
 La commande qui apporaît est la commande «story» de type info , sous-type string
 
 Mi placer es levantarme por la mañana es leer un  al despertar. Me permite ver que hay algo peor que yo. :
 
-Pero no tengo mis lentes y actualmente el renderizado en el wIdentificacióngy no me permite leerlo ...
+Pero no tengo mis lentes y actualmente el renderizado en el wIdentificaciónentificacióngy no me permite leerlo ...
 
 onc on va changer le style en affectant un template à la commande « story»
 
 Nada podría ser más simple.
 
-Je vais voir ==> [ICI](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
+ ==> [Aquí](https:/ // /github.com/ /jeedom/ /core/ /tree/ /alpha/ /core/ /template/ /dashboard)
 
 Estoy buscando una plantilla pora cmd.info.string (nuestro comando es de tipo info subtipo string) .No es difícil, solo hay dos (predyerminado o mosaico)
 
@@ -653,7 +653,7 @@ Pora eso abro el archivo .class.php , fonction postSave() y j'ajoute le template
 			$info->syName(__('Histoire', __FILE__));
 		}
 		$info->syLogicalIdentificación('story');
-		$info->syEqLogic_Identificación($this->gyIdentificación());
+		$info->syEqLogic_Identificaciónentificación($this->gyIdentificación());
 		$info->syType('info');
 		$info->syTemplate('dashboard','tile');/ // /template pour le dashboard
 		$info->sySubType('string');
@@ -662,14 +662,14 @@ Pora eso abro el archivo .class.php , fonction postSave() y j'ajoute le template
 
 Actualizar el tablero.
 
-Es mejor, pero el wIdentificacióngy siempre toma el ancho del tablero. Entonces corregiremos. Por défaut la largeur du wIdentificacióngy de l'équipement(eqLogic) y la hauteur sont à « auto ».
+Es mejor, pero el wIdentificaciónentificacióngy siempre toma el ancho del tablero. Entonces corregiremos. Por défaut la largeur du wIdentificaciónentificacióngy de l'équipement(eqLogic) y la hauteur sont à « auto ».
 
-Por lo tanto, cambiaremos el ancho del wIdentificacióngy (equipment => eqLogic) usando el método syisplay () heredado de la clase eqLogic .ejamos la altura en auto.
+Por lo tanto, cambiaremos el ancho del wIdentificaciónentificacióngy (equipment => eqLogic) usando el método syisplay () heredado de la clase eqLogic .ejamos la altura en auto.
 
 Pora hacer esto, simplemente agregue
 
 ```
-$this->syisplay("wIdentificaciónth","800px");
+$this->syisplay("wIdentificaciónentificaciónth","800px");
 ```
 
 Si pero !! Porque hay un pero. Intente agregar esto en la función postsave () o postUpdate () y no tendrá en cuenta el cambio. Por qué ? Bueno, lea el documento del complemento de plantilla ==> AQUÍ
@@ -678,7 +678,7 @@ Ahora que ha leído correctamente, sabe que debe usar el método preSave ()
 
 ```
     función pública preSave () {
-		$this->syisplay("wIdentificaciónth","800px");
+		$this->syisplay("wIdentificaciónentificaciónth","800px");
     }
 ```
 
@@ -702,7 +702,7 @@ Tienes que entender que todo se hace pora facilitar nuestro trabajo..
 Pora un porámyro / / opción interno del complemento, utilizaremos uno de los métodos de la clase eqLogic del núcleo : syConfiguration () agregando los porámyros deseados. Por ejemplo :
 
 ```
-$this->syConfiguration("type","mon_type"); / // / si on veut  définir un poramètre type de valeur mon_type. Comme on a défini la largeur du wIdentificacióngy via la méthode syisplay()
+$this->syConfiguration("type","mon_type"); / // / si on veut  définir un poramètre type de valeur mon_type. Comme on a défini la largeur du wIdentificaciónentificacióngy via la méthode syisplay()
 ```
 
 Pora dejar la elección al usuario, volvemos al archivo de escritorio.PHP que dejaste abierto porque sigues este TP literalmente :
@@ -737,7 +737,7 @@ Es simple, no? . C'est pourquoi il ne faut surtout pas toucher à cyte ligne de 
 Si observa de cerca el archivo de escritorio.Hace php
 
 ```
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identificación" style="display : none;" / /> / // / ryourne l'Identificación(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gyIdentificación() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="Identificaciónentificación" style="display : none;" / /> / // / ryourne l'Identificaciónentificación(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->gyIdentificación() ;
 ```        
 
 ```
@@ -746,7 +746,7 @@ Si observa de cerca el archivo de escritorio.Hace php
 
 Etc ...
 
-Si ha entendIdentificacióno todo esto bien, podremos seguir adelante. Pero primero cambiaremos en el archivo desktop.php 
+Si ha entendIdentificaciónentificacióno todo esto bien, podremos seguir adelante. Pero primero cambiaremos en el archivo desktop.php 
 
 ```
 <label class="col-sm-3 control-label">{{Poramètre}}</ /label>
@@ -768,7 +768,7 @@ Pora ir más allá y comprender el capítulo anterior, dejaremos que el usuario 
 
 On pourrait le laisser taper dans l'input « Type de  » : al azar o picante o superior, pero haremos lo contrario dejándolo elegir a través de una yiquya de selección
 
-Si has seguIdentificacióno todo, deberías tenerlo en el archivo desktop.php
+Si has seguIdentificaciónentificacióno todo, deberías tenerlo en el archivo desktop.php
 
 ```
        <div class="form-group">

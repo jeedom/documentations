@@ -5,15 +5,15 @@
 This service allows you to connect your Jeedom with voice assistants from Google and Amazon.
 
 It can be used with 
-- le plugin Dialogflow, [documentation](https://jeedom.github.io/plugin-dialogflow/en_US/)
-- ou le plugin Google Smarthome, [documentation](https://jeedom.github.io/plugin-gsh/en_US/)
-- ou le plugin Alexa, [documentation](https://jeedom.github.io/plugin-ash//en_US/)
+- , [Documentation](https://jeedom.github.io/plugin-dialogflow/en_US/)
+- , [Documentation](https://jeedom.github.io/plugin-gsh/en_US/)
+- , [Documentation](https://jeedom.github.io/plugin-ash//en_US/)
 
-Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page [Mes Services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+ [My services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-You will find in the respective documentation of the plugins their differences.
+You will find in the respective Documentation of the plugins their differences.
 
-Then once the subscription is subscribed you must wait for synchronization (see next chapter). You can configure by following the documentation of the plugin
+Then once the subscription is subscribed you must wait for synchronization (see next chapter). You can configure by following the Documentation of the plugin
 
 ## Synchronization and delay
 

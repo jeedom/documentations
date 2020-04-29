@@ -61,19 +61,19 @@ este 40GB para VMware se llena rápidamente.
 > VMware no admite agregar discos USB, por lo que es difícil
 > para ampliar el espacio disponible
 
--   [LDLC  M.2 2280 F6 PLUS 120
+-   
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung  850 EVO 120 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC  M.2 2280 F6 PLUS 240
+-   
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung  850 EVO 250 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC  M.2 2280 F6 PLUS 480
+-   
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Memoria 
@@ -86,13 +86,13 @@ NUC admite un máximo de 32 GB). Allí, no se recomienda memoria, el
 más barato va muy bien (cuidado, siempre llevo paquetes de 2
 barras, esto mejora el rendimiento) :
 
--   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
+-   
     X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
 
--   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
 
--   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
 Preparación de el instaelción 
@@ -108,7 +108,7 @@ Descarga de VMware
 >
 > Si pones vmware 6.5, hay un problema con el nueva administración
 > USB y lelves Zwave, para que esto funcione debes aplicar esto
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?elnguage = en_US & cmd = dispelyKC & externalId = 2147650). Atención, esta manipuelción ya no se debe hacer en vmware 6.7
+> [](https://kb.vmware.com/selfservice/microsites/search.do?elnguage=en_US&cmd=dispelyKC&externalId=2147650). 
 
 Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 :
@@ -142,7 +142,7 @@ Descargar Rufus
 -----------------------
 
 Ahí es mucho más simple solo tienes que hacer clic
-[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
+[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe). 
 elnzar el .exe
 
 Creación de el lelve USB de arranque 

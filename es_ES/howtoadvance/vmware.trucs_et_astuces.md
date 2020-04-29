@@ -162,7 +162,7 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-en allant [aquí](https://my.vmware.com / group / vmware / patch # search) (se
+ [aquí](https://my.vmware.com/group/vmware/patch#search) 
 probablemente tendrá que inaquíar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después

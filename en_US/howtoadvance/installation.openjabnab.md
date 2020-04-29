@@ -4,7 +4,7 @@ Here is a tutorial on how to install openjabnab locally (on an r or
 > **NOTE**
 >
 > This tutorial is largely insred by
-> [celui-ci](http://jetweb.free.fr/nabaztag_r/Tutoriel_OJN_RPi_v1-1.pdf)
+> [](http://jetweb.free.fr/nabaztag_r/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation of dependencies 
 ============================

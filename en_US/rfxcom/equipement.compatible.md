@@ -21,12 +21,12 @@
 |    | Light switch   |              |                |                |
 |    | Dimmer      |              |                |                |
 |    | 16-channel remote control    |              |                |                |
-| Chacon 54730   | Sonnette       |              |                | [Acheter](http://www.domadoo.fr / fr / peripheriques / 574-chacon-di-o-chime-wireless-n pluggable.              |
+|    |        |              |                | [Buy](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
 |    | ON / OFF 200W micro-module   |              | On / Off only        |                |
 |    | Pack 3 sockets + 2000W remote control  |              |                |                |
 |    |    |              | On / off         |                |
 |            |  dimmer |                | only      |                |
-| Coco           |                |              | Gamme complète | [Acheter](http://www.domotique-store.fr / 36_coco-becomes-trust-smart-home)            |
+|            |                |              |  | [Buy](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
 |          | Temperature    |          |                |                |
 |        | Humidity with display      |                |                |                |
 |     | Thermostat     | X10            | Use "Temperature, Humidity and Pressure - Fault"        |                |
@@ -36,7 +36,7 @@
 | 54703          | Movement      |                |                |                |
 |  | Remote control 3 |              |                |                |
 | 54760          | canals         |                |                |                |
-|  | Remote control   |              |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-canals-Blanche-%28gamme-DI-O%29.      |
+|  | Remote control   |              |                | [Buy](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-canals-Blanche-%28gamme-DI-O%29.htm)      |
 |  | Outlet          |              |                |                |
 | 54746          | outdoor     |                |                |                |
 |  | Detector      |              |                |                |
@@ -45,8 +45,8 @@
 | 54754          |                |                |                |                |
 |  | 1500W socket    |              |                |                |
 | 54798          |                |                |                |                |
-|  |    |              |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907. |
-| DS18           | Detector      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.          |
+|  |    |              |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
+|            | Detector      |                |                | [Buy](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
 |   | Outlet          | Ex code to switch on the socket 07100102500D01 60             |                |                |
 |    | Remote control   |                |                |                |
 |       | Temperature    |                |                |                |
@@ -57,12 +57,12 @@
 |        | Converter  |              |                |                |
 | IR receiver   |      |                |                |                |
 |  | Red          |                |                |                |
-|          | Temperature    |          |                | [Acheter](http://my-domotique.com/store/index.php?id_product = 48 & controller = product & id_lang = 2)      |
+|          | Temperature    |          |                | [Buy](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 |          | Temperature    |          |                |                |
 |        | Humidity       |                |                |                |
 |   | Anemometer     |          |                |                |
 |   | Rain gauge    |          |                |                |
-| UV       | Sonde UV       |          |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.   |
+|       |        |          |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
 |       | Current clamp + display          |          |                |                |
 | OWL Micro + CM180     | Current clamp + display         |          |                |                |
 |  | Transmitter for current clamp (ref TSE000-001 or TSE000-002)  |          |                |                |

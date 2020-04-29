@@ -4,6 +4,12 @@
         "Description": "Descripción",
         "Ce service permet de connecter votre Jeedom avec les assistants vocaux de Google et Amazon": "Este servicio le permite conectar su Jeedom con asistentes de voz de Google y Amazon",
         "Il peut être utilisé avec": "Se puede usar con",
+        "documentation": "Documentación",
+        "le plugin Dialogflow": "",
+        "ou le plugin Google Smarthome": "",
+        "ou le plugin Alexa": "",
+        "Mes Services": "Mis servicios",
+        "Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page": "",
         "Vous trouverez dans la documentation respective des plugins leurs différences": "Encontrará en la documentación respectiva de los complementos sus diferencias",
         "Ensuite une fois l'abonnement souscrit il faut attendre la synchronisation (voir chapitre suivant)": "Luego, una vez que se suscribe la suscripción, debe esperar la sincronización (consulte el siguiente capítulo)",
         "Vous pouvez faire la configuration en suivant la documentation du plugin": "Puede configurarlo siguiendo la documentación del complemento",
@@ -37,16 +43,16 @@
     },
     "howto\/index.md": {
         "Sommaire": "Resumen",
-        "[Mettre à jour manuellement Jeedom](\/documentations\/fr_FR\/howto\/jeedom.mise_a_jour_manuel)": "[Actualización manual de Jeedom](\/ documentations \/ fr_FR \/ howto \/ jeedom.mise_a_jour_manuel)",
-        "[Passer jeedom ou un plugin en beta](\/documentations\/fr_FR\/howto\/passer_en_beta)": "[Omitir jeedom o un complemento en beta](\/ documentation \/ es_FR \/ howto \/ passer_en_beta)",
-        "[Raspberrypi 3](\/documentations\/fr_FR\/howto\/raspberrypi3)": "[Raspberrypi 3](\/ documentations \/ fr_FR \/ howto \/ raspberrypi3)",
-        "[Remise en état d'usine d'une smart](\/documentations\/fr_FR\/howto\/recovery_mode_jeedom_smart)": "[Restablecimiento de fábrica de un dispositivo inteligente](\/ documentation \/ en_FR \/ howto \/ recovery_mode_jeedom_smart)",
-        "[Remettre à zéro son mon de passe Jeedom en cas de perte](\/documentations\/fr_FR\/howto\/reset.password)": "[Restablezca su contraseña de Jeedom en caso de pérdida](\/ documentations \/ fr_FR \/ howto \/ reset.password)",
-        "[Comment faire une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_faire)": "[Cómo hacer una copia de seguridad](\/ documentation \/ es_FR \/ howto \/ backup.comment_faire)",
-        "[Comment restaurer une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_recuperer)": "[Cómo restaurar una copia de seguridad](\/ documentation \/ es_FR \/ howto \/ backup.comment_recuperer)",
+        "Mettre à jour manuellement Jeedom": "",
+        "Passer jeedom ou un plugin en beta": "",
+        "Raspberrypi 3": "",
+        "Remise en état d'usine d'une smart": "",
+        "Remettre à zéro son mon de passe Jeedom en cas de perte": "",
+        "Comment faire une sauvegarde": "",
+        "Comment restaurer une sauvegarde": "",
         "Archive": "Archivo",
-        "[Clef wifi sur mini](\/documentations\/fr_FR\/howto\/mini.clef_wifi)": "[Clave WiFi en mini](\/ documentation \/ fr_FR \/ howto \/ mini.clef_wifi)",
-        "[Mini guide de démarrage](\/documentations\/fr_FR\/howto\/mini.demarrage)": "[Mini guía de inicio](\/ documentation \/ en_FR \/ howto \/ mini.demarrage)"
+        "Clef wifi sur mini": "",
+        "Mini guide de démarrage": ""
     },
     "howto\/jeedom.mise_a_jour_manuel.md": {
         "Nous allons voir ici comment faire une mise à jour manuellement sur": "Veremos aquí cómo actualizar manualmente en",
@@ -208,7 +214,11 @@
         "Pour approfondir la découverte et l'utilisation de Jeedom, vous disposez": "Para seguir explorando y usar Jeedom, tienes",
         "d'une documentation complète": "documentación completa",
         "[Documentation": "[Documentación",
+        "Tutos vidéos": "",
+        "les tutoriels vidéos": "",
         "N'hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre": "No dudes en ir al Foro de Jeedom por cualquier otro",
+        "Forum Jeedom": "",
+        "question": "Pregunta",
         "Merci, et bonne découverte de la domotique avec Jeedom": "Gracias y buen descubrimiento de la automatización del hogar con Jeedom."
     },
     "howto\/mise_en_place_dns_jeedom.md": {
@@ -434,6 +444,8 @@
         "Matériel necessaire": "Material requerido",
         "une clé USB (minimum 8Go)": "una llave USB (mínimo 8GB)",
         "N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom": "Nota: recuerde reservar (localmente) una copia de seguridad de configuración de Jeedom",
+        "backupJeedom.tar.gz": "",
+        "1- téléchargez l'archive que nous fournissons": "",
         "Attention de bien vérifier que le fichier à pour nom backupJeedom.tar": "Tenga cuidado de verificar que el archivo tenga el nombre backupJeedom.tar",
         "gz pour que la restauration marche": "gz para hacer trabajos de restauración",
         "2- copiez cette archive sans la modifier ni la dézipper, sur une clé USB formatée en FAT32 et vierge": "2- copie este archivo sin modificarlo o descomprimirlo, en una llave USB en blanco formateada en FAT32",
@@ -456,7 +468,9 @@
     "howto\/remonter_un_bug.md": {
         "Comment remonter un bug": "Cómo informar un error",
         "Il existe dans Jeedom plusieurs manières de remonter un souci": "Hay varias formas en Jeedom para informar una inquietud",
-        "com), c'est en général la que vous aurez la réponse la plus rapide": "com), aquí suele obtener la respuesta más rápida",
+        "communauté": "",
+        "remonter le souci sur la": "",
+        "c'est en général la que vous aurez la réponse la plus rapide": "",
         "remonter un souci à l'équipe Jeedom": "informar una inquietud al equipo de Jeedom",
         "Demande de support": "Solicitud de soporte",
         "(nécessite un service pack power ou plus ou bien que le souci soit sur un plugin\/service payant), cette demande est": "(requiere un paquete de servicio de energía o más o incluso si la preocupación está en un complemento \/ servicio pago), esta solicitud es",
@@ -549,10 +563,10 @@
         "La procédure de restauration de la carte microSD peut-être utile pour": "El procedimiento de restauración de la tarjeta microSD puede ser útil para",
         "restaurer un Jeedom par défaut à partir de l'image fournie par": "restaurar un Jeedom predeterminado de la imagen proporcionada por",
         "l'équipe voir": "el equipo ve",
+        "ici": "aquí",
         "Sauvegarde\/Restauration de Jeedom": "Jeedom Backup \/ Restore",
         "Une documentation est déjà présente pour expliquer la page": "La documentación ya está presente para explicar la página.",
         "Administration→Sauvegardes. Vous la trouverez": "Administración → Copias de seguridad. Lo encontraras",
-        "ici": "aquí",
         "Sauvegarde\/Restauration de la carte microSD": "Copia de seguridad \/ Restaurar tarjeta microSD",
         "Préparatifs": "Preparaciones",
         "Ces sauvegardes\/restaurations se réalisent à partir d'un autre": "Estas copias de seguridad \/ restauraciones se realizan desde otro",
@@ -664,6 +678,8 @@
         "Comment l'utiliser": "Cómo utilizarlo",
         "C'est très simple il faut": "Es muy simple tienes que",
         "avoir du crédit SMS": "tener crédito por SMS",
-        "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)": "SMS = 1 crédito (limitado a 140 caracteres), llamadas = 2 créditos (limitado a 450 caracteres)"
+        "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)": "SMS = 1 crédito (limitado a 140 caracteres), llamadas = 2 créditos (limitado a 450 caracteres)",
+        "ici": "aquí",
+        "avoir le plugin phonemarket, d'installer et configuré, documentation": ""
     }
 }

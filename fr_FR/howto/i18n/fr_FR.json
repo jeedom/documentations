@@ -4,6 +4,12 @@
         "Description": "Description",
         "Ce service permet de connecter votre Jeedom avec les assistants vocaux de Google et Amazon": "Ce service permet de connecter votre Jeedom avec les assistants vocaux de Google et Amazon",
         "Il peut être utilisé avec": "Il peut être utilisé avec",
+        "documentation": "documentation",
+        "le plugin Dialogflow": "le plugin Dialogflow",
+        "ou le plugin Google Smarthome": "ou le plugin Google Smarthome",
+        "ou le plugin Alexa": "ou le plugin Alexa",
+        "Mes Services": "Mes Services",
+        "Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page": "Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page",
         "Vous trouverez dans la documentation respective des plugins leurs différences": "Vous trouverez dans la documentation respective des plugins leurs différences",
         "Ensuite une fois l'abonnement souscrit il faut attendre la synchronisation (voir chapitre suivant)": "Ensuite une fois l'abonnement souscrit il faut attendre la synchronisation (voir chapitre suivant)",
         "Vous pouvez faire la configuration en suivant la documentation du plugin": "Vous pouvez faire la configuration en suivant la documentation du plugin",
@@ -37,16 +43,16 @@
     },
     "howto\/index.md": {
         "Sommaire": "Sommaire",
-        "[Mettre à jour manuellement Jeedom](\/documentations\/fr_FR\/howto\/jeedom.mise_a_jour_manuel)": "[Mettre à jour manuellement Jeedom](\/documentations\/fr_FR\/howto\/jeedom.mise_a_jour_manuel)",
-        "[Passer jeedom ou un plugin en beta](\/documentations\/fr_FR\/howto\/passer_en_beta)": "[Passer jeedom ou un plugin en beta](\/documentations\/fr_FR\/howto\/passer_en_beta)",
-        "[Raspberrypi 3](\/documentations\/fr_FR\/howto\/raspberrypi3)": "[Raspberrypi 3](\/documentations\/fr_FR\/howto\/raspberrypi3)",
-        "[Remise en état d'usine d'une smart](\/documentations\/fr_FR\/howto\/recovery_mode_jeedom_smart)": "[Remise en état d'usine d'une smart](\/documentations\/fr_FR\/howto\/recovery_mode_jeedom_smart)",
-        "[Remettre à zéro son mon de passe Jeedom en cas de perte](\/documentations\/fr_FR\/howto\/reset.password)": "[Remettre à zéro son mon de passe Jeedom en cas de perte](\/documentations\/fr_FR\/howto\/reset.password)",
-        "[Comment faire une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_faire)": "[Comment faire une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_faire)",
-        "[Comment restaurer une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_recuperer)": "[Comment restaurer une sauvegarde](\/documentations\/fr_FR\/howto\/sauvegarde.comment_recuperer)",
+        "Mettre à jour manuellement Jeedom": "Mettre à jour manuellement Jeedom",
+        "Passer jeedom ou un plugin en beta": "Passer jeedom ou un plugin en beta",
+        "Raspberrypi 3": "Raspberrypi 3",
+        "Remise en état d'usine d'une smart": "Remise en état d'usine d'une smart",
+        "Remettre à zéro son mon de passe Jeedom en cas de perte": "Remettre à zéro son mon de passe Jeedom en cas de perte",
+        "Comment faire une sauvegarde": "Comment faire une sauvegarde",
+        "Comment restaurer une sauvegarde": "Comment restaurer une sauvegarde",
         "Archive": "Archive",
-        "[Clef wifi sur mini](\/documentations\/fr_FR\/howto\/mini.clef_wifi)": "[Clef wifi sur mini](\/documentations\/fr_FR\/howto\/mini.clef_wifi)",
-        "[Mini guide de démarrage](\/documentations\/fr_FR\/howto\/mini.demarrage)": "[Mini guide de démarrage](\/documentations\/fr_FR\/howto\/mini.demarrage)"
+        "Clef wifi sur mini": "Clef wifi sur mini",
+        "Mini guide de démarrage": "Mini guide de démarrage"
     },
     "howto\/jeedom.mise_a_jour_manuel.md": {
         "Nous allons voir ici comment faire une mise à jour manuellement sur": "Nous allons voir ici comment faire une mise à jour manuellement sur",
@@ -208,7 +214,11 @@
         "Pour approfondir la découverte et l'utilisation de Jeedom, vous disposez": "Pour approfondir la découverte et l'utilisation de Jeedom, vous disposez",
         "d'une documentation complète": "d'une documentation complète",
         "[Documentation": "[Documentation",
+        "Tutos vidéos": "Tutos vidéos",
+        "les tutoriels vidéos": "les tutoriels vidéos",
         "N'hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre": "N'hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre",
+        "Forum Jeedom": "Forum Jeedom",
+        "question": "question",
         "Merci, et bonne découverte de la domotique avec Jeedom": "Merci, et bonne découverte de la domotique avec Jeedom"
     },
     "howto\/mise_en_place_dns_jeedom.md": {
@@ -434,6 +444,8 @@
         "Matériel necessaire": "Matériel necessaire",
         "une clé USB (minimum 8Go)": "une clé USB (minimum 8Go)",
         "N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom": "N.B. pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom",
+        "backupJeedom.tar.gz": "backupJeedom.tar.gz",
+        "1- téléchargez l'archive que nous fournissons": "1- téléchargez l'archive que nous fournissons",
         "Attention de bien vérifier que le fichier à pour nom backupJeedom.tar": "Attention de bien vérifier que le fichier à pour nom backupJeedom.tar",
         "gz pour que la restauration marche": "gz pour que la restauration marche",
         "2- copiez cette archive sans la modifier ni la dézipper, sur une clé USB formatée en FAT32 et vierge": "2- copiez cette archive sans la modifier ni la dézipper, sur une clé USB formatée en FAT32 et vierge",
@@ -456,7 +468,9 @@
     "howto\/remonter_un_bug.md": {
         "Comment remonter un bug": "Comment remonter un bug",
         "Il existe dans Jeedom plusieurs manières de remonter un souci": "Il existe dans Jeedom plusieurs manières de remonter un souci",
-        "com), c'est en général la que vous aurez la réponse la plus rapide": "com), c'est en général la que vous aurez la réponse la plus rapide",
+        "communauté": "communauté",
+        "remonter le souci sur la": "remonter le souci sur la",
+        "c'est en général la que vous aurez la réponse la plus rapide": "c'est en général la que vous aurez la réponse la plus rapide",
         "remonter un souci à l'équipe Jeedom": "remonter un souci à l'équipe Jeedom",
         "Demande de support": "Demande de support",
         "(nécessite un service pack power ou plus ou bien que le souci soit sur un plugin\/service payant), cette demande est": "(nécessite un service pack power ou plus ou bien que le souci soit sur un plugin\/service payant), cette demande est",
@@ -549,10 +563,10 @@
         "La procédure de restauration de la carte microSD peut-être utile pour": "La procédure de restauration de la carte microSD peut-être utile pour",
         "restaurer un Jeedom par défaut à partir de l'image fournie par": "restaurer un Jeedom par défaut à partir de l'image fournie par",
         "l'équipe voir": "l'équipe voir",
+        "ici": "ici",
         "Sauvegarde\/Restauration de Jeedom": "Sauvegarde\/Restauration de Jeedom",
         "Une documentation est déjà présente pour expliquer la page": "Une documentation est déjà présente pour expliquer la page",
         "Administration→Sauvegardes. Vous la trouverez": "Administration→Sauvegardes. Vous la trouverez",
-        "ici": "ici",
         "Sauvegarde\/Restauration de la carte microSD": "Sauvegarde\/Restauration de la carte microSD",
         "Préparatifs": "Préparatifs",
         "Ces sauvegardes\/restaurations se réalisent à partir d'un autre": "Ces sauvegardes\/restaurations se réalisent à partir d'un autre",
@@ -664,6 +678,8 @@
         "Comment l'utiliser": "Comment l'utiliser",
         "C'est très simple il faut": "C'est très simple il faut",
         "avoir du crédit SMS": "avoir du crédit SMS",
-        "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)": "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)"
+        "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)": "SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)",
+        "ici": "ici",
+        "avoir le plugin phonemarket, d'installer et configuré, documentation": "avoir le plugin phonemarket, d'installer et configuré, documentation"
     }
 }

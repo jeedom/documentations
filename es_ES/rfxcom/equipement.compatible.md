@@ -21,12 +21,12 @@
 |    | Interruptor   |              |                |                |
 |    | Dimmer      |              |                |                |
 |    | Control remoto de 16 canales    |              |                |                |
-| Chacon 54730   | Sonnette       |              |                | [Acheter](http://www.domadoo.fr / fr / peripheriques / 574-chacon-di-o-chime-wireless-n conectable.              |
+|    |        |              |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
 |    | ON / OFF 200W micro-módulo   |              | Solo encendido / apagado        |                |
 |    | Pack 3 enchufes + control remoto 2000W  |              |                |                |
 |    | Micro-módulo   |              | Encendido / apagado         |                |
 |            |  dimmer |                | solamente      |                |
-| Coco           |                |              | Gamme complète | [Acheter](http://www.domotique-store.fr / 36_coco-Become-Trust-Smart-Home)            |
+|            |                |              |  | [Comprar](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
 |          | Temperatura    |          |                |                |
 |        | Humedad con display      |                |                |                |
 |     | Termostato     | X10            | Use "Temperatura, Humedad y Presión - Falla"        |                |
@@ -36,7 +36,7 @@
 | 54703          | Movimiento      |                |                |                |
 | DI.O por Chacon | Mando a distancia 3 |              |                |                |
 | 54760          | Canales         |                |                |                |
-| DI.O por Chacon | Control remoto   |              |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-Canales-Blanche-%28gamme-DI-O%29.      |
+| DI.O por Chacon | Control remoto   |              |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-Canales-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O por Chacon | Salida          |              |                |                |
 | 54746          | al aire libre     |                |                |                |
 | DI-O por Chacon | Detector      |              |                |                |
@@ -45,8 +45,8 @@
 | 54754          |                |                |                |                |
 | DI-O por Chacon | Toma de 1500W    |              |                |                |
 | 54798          |                |                |                |                |
-| DI-O por Chacon | Micro-módulo   |              |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907. |
-| DS18           | Detector      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.          |
+| DI-O por Chacon | Micro-módulo   |              |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
+|            | Detector      |                |                | [Comprar](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
 |   | Salida          | Código ex para encender el zócalo 07100102500D01 60             |                |                |
 |    | Control remoto   |                |                |                |
 |       | Temperatura    |                |                |                |
@@ -57,12 +57,12 @@
 |        | Convertidor  |              |                |                |
 | Receptor IR   |      |                |                |                |
 |  | Rojo          |                |                |                |
-| Oregón         | Temperatura    | Oregón         |                | [Acheter](http://my-domotique.com/store/index.php?id_product = 48 & controller = product & id_lang = 2)      |
+| Oregón         | Temperatura    | Oregón         |                | [Comprar](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 | Oregón         | Temperatura    | Oregón         |                |                |
 |        | Humedad       |                |                |                |
 |   | Anemómetro     | Oregón         |                |                |
 |   | Pluviómetro    | Oregón         |                |                |
-| UV Oregón      | Sonde UV       | Oregón         |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.   |
+|       |        | Oregón         |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
 |       | Abrazadera actual + pantalla          | Oregón         |                |                |
 | OWL Micro + CM180     | Abrazadera actual + pantalla         | Oregón         |                |                |
 |  | Transmisor para pinza de corriente (ref TSE000-001 o TSE000-002)  | Oregón         |                |                |

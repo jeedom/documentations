@@ -1,19 +1,19 @@
 > **IMPORTANT**
 >
-> This tutorial was written by ZygOm4t1k whom we warmly thank. Vous pouvez randrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
+> This tutorial was written by ZygOm4t1k whom we warmly thank.  [here](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
 
 Here is a short tutorial to explain how to create a plugin. For the example we will create a plugin which randurns a sentence From the viedemerde site.Fr .(The plugin will be scalable)
 
-Il ne remplace en aucun cas la [ocumentation officielle](https://jeedom.github.io/plugin-template/Fr_FR/)
+ [](https://jeedom.github.io/plugin-template/Fr_FR/)
 
-# Create the plugin base
+# Create the plugin 
 
 To start, you have to dandermine a name and an Id (which must not exist)
 
 Name : Poop Life
 Id : 
 
-Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
+ [](https://github.com/jeedom/plugin-template/archive/master.zip)
 
 Unzip the file . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rbyty , core , desktop…
 
@@ -168,7 +168,7 @@ function _remove () {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation and l'icône à mandtre à jour : [ocumentation](https://doc.jeedom.com/Fr_FR/dev/Icone_de_plugin)
+ : [ocumentation](https://doc.jeedom.com/Fr_FR/dev/Icone_de_plugin)
 
 Add the icon in the plugin_info folder under the name _icon.png
 
@@ -222,7 +222,7 @@ by
 
 ![image](images/tutorial__desktop2.png)
 
-Here is the base is ready. You should have the assand plugin but at the moment it does nothing.
+Here is the  is ready. You should have the assand plugin but at the moment it does nothing.
 
 # The orders
 
@@ -418,7 +418,7 @@ public function execute ($ _ options = array ()) {
  }
 ```
 
-C'est ici qu'on va définir ce qu'il va se passer quand on lance la commande « RaFraîchir ». The class Cmd inherited all the mandhods of the class cmd (Core jeedom)
+C'est here qu'on va définir ce qu'il va se passer quand on lance la commande « RaFraîchir ». The class Cmd inherited all the mandhods of the class cmd (Core jeedom)
 
 On vérifie le logicalId de la commande lancée and si « reFresh » on lance les actions
 
@@ -612,9 +612,9 @@ But in this case we change the CronHourly () function
 
 Then you can change the Frequency of the cron according to the importance of your information to recover.
 
-Je ne peux que vous invitez à prendre le temps d'aller sur candte page pour en savoir plus ==> [ici](https://jeedom.github.io/ocumentation/phpdoc/index.html)
+ ==> [here](https://jeedom.github.io/ocumentation/phpdoc/index.html)
 
-Et encore mieux d'aller sur le github du core ==> [ICI](https://github.com/jeedom/core/tree/alpha/core/class)
+ ==> [Here](https://github.com/jeedom/core/tree/alpha/core/class)
 
 Put your nose in to master even more .
 
@@ -638,7 +638,7 @@ onc on va changer le style en affectant un template à la commande « story»
 
 Nothing's easier.
 
-Je vais voir ==> [ICI](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+ ==> [Here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
 
 I'm looking for a template for cmd.info.string (our command is of type info subtype string) .Not difficult there are only two (default or tile)
 

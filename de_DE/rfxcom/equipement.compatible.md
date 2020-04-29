@@ -21,12 +21,12 @@
 |    | Wechseln   |              |                |                |
 |    | Dimmer      |              |                |                |
 |    | 16-Kanal-Fernbedienung    |              |                |                |
-| Chacon 54730   | Sonnette       |              |                | [Acheter](http://www.domadoo.fr / fr / peripheriques / 574-chacon-di-o-chime-wireless-n steckbar.              |
+|    |        |              |                | [Kaufen](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
 |    | EIN / AUS 200W Mikromodul   |              | Nur Ein / Aus        |                |
 |    | Pack 3 Steckdosen + 2000W Fernbedienung  |              |                |                |
 |    | Mikromodul   |              | Ein / Aus         |                |
 |            |  Dimmer |                | nur      |                |
-| Coco           |                |              | Gamme complète | [Acheter](http://www.domotique-store.fr / 36_coco-wird-vertrauens-smart-home)            |
+|            |                |              |  | [Kaufen](http://www.domotique-store.fr/36_coco-devient-trust-smart-home)            |
 |          | Temperatur    |          |                |                |
 |        | Luftfeuchtigkeit mit Display      |                |                |                |
 |     | Thermostat     | X10            | Verwenden Sie "Temperatur, Luftfeuchtigkeit und Druck - Fehler""        |                |
@@ -36,7 +36,7 @@
 | 54703          | Bewegung      |                |                |                |
 | DI.O von Chacon | Fernbedienung 3 |              |                |                |
 | 54760          | Kanäle         |                |                |                |
-| DI.O von Chacon | Fernbedienung   |              |                | [Acheter](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-Kanäle-Blanche-%28gamme-DI-O%29.      |
+| DI.O von Chacon | Fernbedienung   |              |                | [Kaufen](http://www.domadoo.fr/produit,1528,15,CHON-T%E5%B9%A8%E5%B6%B0ommande-16-Kanäle-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O von Chacon | Steckdose          |              |                |                |
 | 54746          | im Freien     |                |                |                |
 | DI-O von Chacon | Detektor      |              |                |                |
@@ -45,8 +45,8 @@
 | 54754          |                |                |                |                |
 | DI-O von Chacon | 1500W Steckdose    |              |                |                |
 | 54798          |                |                |                |                |
-| DI-O von Chacon | Mikromodul   |              |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907. |
-| DS18           | Detektor      |                |                | [Acheter](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.          |
+| DI-O von Chacon | Mikromodul   |              |                | [Kaufen](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
+|            | Detektor      |                |                | [Kaufen](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
 |   | Steckdose          | Ex-Code zum Einschalten der Steckdose 07100102500D01 60             |                |                |
 |    | Fernbedienung   |                |                |                |
 |       | Temperatur    |                |                |                |
@@ -57,12 +57,12 @@
 |        | Konverter  |              |                |                |
 | IR-Empfänger   |      |                |                |                |
 |  | Rot          |                |                |                |
-|          | Temperatur    |          |                | [Acheter](http://my-domotique.com/store/index.php?id_product = 48 & controller = product & id_lang = 2)      |
+|          | Temperatur    |          |                | [Kaufen](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 |          | Temperatur    |          |                |                |
 |        | Luftfeuchtigkeit       |                |                |                |
 |   | Windmesser     |          |                |                |
 |   | Regenmesser    |          |                |                |
-| UV       | Sonde UV       |          |                | [Acheter](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.   |
+|       |        |          |                | [Kaufen](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
 |       | Aktuelle Klemme + Anzeige          |          |                |                |
 | OWL Micro + CM180     | Aktuelle Klemme + Anzeige         |          |                |                |
 |  | Messumformer für Stromklemme (Ref. TSE000-001 oder TSE000-002)  |          |                |                |

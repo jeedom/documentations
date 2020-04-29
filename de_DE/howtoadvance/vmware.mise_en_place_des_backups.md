@@ -100,7 +100,7 @@ Die Parameter, die Sie anpassen müssen, sind :
 > **Notiz**
 >
 > Sie können konsultieren
-> [ici](https://communities.vmware.com / docs / DOC-8760) Dokumentation
+> [hier](https://communities.vmware.com/docs/DOC-8760) 
 > komplett von  mit einer Beschreibung jedes Parameters
 
 > **Wichtig**

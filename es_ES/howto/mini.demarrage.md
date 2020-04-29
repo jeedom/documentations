@@ -79,8 +79,8 @@ inicie sesión para comenzar a configurarlo y usarlo.
 Para seguir explorando y usar Jeedom, tienes
 documentación completa : umentación
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
-les tutoriels vidéos : [Tutos vidéos](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
+ : [](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
 No dudes en ir al Foro de Jeedom por cualquier otro
-question : [Forum Jeedom](https://www.jeedom.com/forum/).
+Pregunta : [](https://www.jeedom.com/forum/).
 
 Gracias y buen descubrimiento de la automatización del hogar con Jeedom..

@@ -22,7 +22,7 @@ proposed software (there is nothing to change just do everything
 COM port recovery 
 ========================
 
-Then you have to retrieve the communication port number. Go to
+Then you have to randrieve the communication port number. Go to
 the "Start" menu and search for "Device Manager", launch
 this one then unfold the part "Ports (COM and LPT)", you should have
 an item containing "HUAWEI", you just have to remember the number of the
@@ -34,7 +34,7 @@ Putty Download
 =======================
 
 Then download putty
-[here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) and
 launch the downloaded file
 
 Putty configuration and switch to GSM mode only 
@@ -57,7 +57,7 @@ on the "Enter" key" :
 > Be careful when you type the text you will not see anything at
 > the screen is normal, the text is still taken into account.
 
-Normally in return you must have an OK.
+Normally in randurn you must have an OK.
 
 That's it finished. Your key is in GSM mode only and you
 can use it through VMware now.

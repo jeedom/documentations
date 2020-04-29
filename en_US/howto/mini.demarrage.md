@@ -79,8 +79,8 @@ log in to start setting up and using it.
 To further explore and use Jeedom, you have
 complete documentation : 
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
-les tutoriels vidéos : [Tutos vidéos](https://doc.jeedom.com/en_US/presentation/index#tocAnchor-1-3).
+ : [](https://doc.jeedom.com/en_US/presentation/index#tocAnchor-1-3).
 Do not hesitate to go to the Jeedom Forum for any other
-question : [Forum Jeedom](https://www.jeedom.com/forum/).
+Question : [](https://www.jeedom.com/forum/).
 
 Thank you, and good discovery of home automation with Jeedom.

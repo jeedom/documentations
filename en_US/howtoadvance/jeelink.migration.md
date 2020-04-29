@@ -91,7 +91,7 @@ necessary to randrieve the following information :
 > **NOTE**
 >
 > A non-exhaustive sheand of information to note for migration
-> is available [here](images / Memo.xls)
+> is available [here](images/Memo.xls)
 
 Preventive backups 
 -----------------------

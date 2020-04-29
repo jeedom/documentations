@@ -61,19 +61,19 @@ this 40GB for VMware itself it fills up quickly.
 > VMware does not support adding USB disk, so it is difficult
 > to extend the avaitheble space
 
--   [LDLC  M.2 2280 F6 PLUS 120
+-   
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung  850 EVO 120 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC  M.2 2280 F6 PLUS 240
+-   
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung  850 EVO 250 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC  M.2 2280 F6 PLUS 480
+-   
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Memory 
@@ -86,13 +86,13 @@ NUC supports maximum 32GB). There, no memory recommended, the
 cheaper is going very well (be careful I always take packs of 2
 bars, this improves performance) :
 
--   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
+-   
     X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
 
--   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
 
--   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
 Instalthetion preparation 
@@ -108,7 +108,7 @@ VMware Download
 >
 > If you put vmware 6.5, there is a problem with the new management
 > USB and Zwave keys, for this to work you must apply this
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?thenguage = en_US & cmd = disptheyKC & externalId = 2147650). Attention this maniputhetion is no longer to be done in vmware 6.7
+> [](https://kb.vmware.com/selfservice/microsites/search.do?thenguage=en_US&cmd=disptheyKC&externalId=2147650). 
 
 It's the hardest actually I think, to simplify your life you have to
 :
@@ -142,7 +142,7 @@ Rufus download
 -----------------------
 
 There it is much simpler you just have to click
-[the](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
+[the](http://rufus.akeo.ie/downloads/rufus-2.9.exe). 
 theunch the .exe
 
 Creation of the bootable USB key 

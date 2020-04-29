@@ -6,7 +6,7 @@ Deshabilitar el rendimiento del esquema
 
 Edite el archivo /etc/mysql/mysql.conf.d/mysqld.cnf y agregar :
 
-    [mysqld]
+    ]
     performance_schema = OFF
 
 Optimizando MySQL 

@@ -35,14 +35,11 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 > **Punta**
 >
-> .  ****. 
->[aquí](http://market.jeedom.fr/index.php?v = d & p = market & type = plugin).
+> .  ****.  [aquí](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Punta**
 >
-> Servaquío pack ?  ? 
->[aquí](https://blog.jeedom.fr/?
->.
+> Servaquío pack ?  ?  [aquí](https://blog.jeedom.fr/?p=1215) .
 
 
 
@@ -62,19 +59,19 @@ Jeedom mini +
 Etapa 1 : Instalación de grabado
 ---
 
-Vous devez télécharger le logicel Etcher [aquí](https://etcher.
+ [aquí](https://etcher.io/) 
 
 Etapa 2 : Jeedom recuperación de imagen
 ---
 
-Vous devez aller [aquí](https://images.jeedom.
+ [aquí](https://images.jeedom.com/jeeboard/),
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Etapa 3 : Descomprimiendo la imagen de Jeedom
 ---
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar. :
+ [](http://www.clubic.com/telecharger-fiche9632-.html) :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -91,7 +88,7 @@ Solo tiene que colocar la tarjeta SD en el Jeedomboard (o Hummingboard), conecta
 >
 > Las ID de  son jeedom / Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 
 
@@ -105,7 +102,7 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 **1 / Descargue la última imagen "lite", es decir, sin interfaz gráfica** [aquí](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
-**2 / Descomprime la imagen con winrar** [aquí](http://www.win-rar.com)
+**2 / Descomprime la imagen con ** [aquí](http://www.win-rar.com)
 
 **3 / Grabar esta imagen en una SD con etcher, por ejemplo** [aquí](https://etcher.io/)
 
@@ -140,11 +137,11 @@ Identifica tu Pi en la red
 Nocesita saber la dirección IP de su PI. Varias soluciones :
 
 -   Consulte la configuración de DHCP en su enrutador
--   Utilisez un scanner de port type "angyipscanner" [aquí](http://angryip.org/download/#windows)
+-   " [aquí](http://angryip.org/download/#windows)
 
 Establecer conexión
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
+ [Aquí](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.. .
 
@@ -196,7 +193,7 @@ Salir guardando : `CTRL+X` puis `O` puis `ENTREE`
 
 Reinaquía tu RPI
 
-Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Freebox Delta
 =============
@@ -243,7 +240,7 @@ La dirección IP de su Jeedom en Freebox Delta está escrita en la parte superio
 
 El inaquío de sesión y la contraseña predeterminados son admin / admin cuando accede a jeedom a través de su navegador.
 
-Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index.html)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index.html)
 
 
 ==
@@ -253,14 +250,14 @@ Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](http
 Etapa 1 : Descargue e instale ware Player
 ---
 
-Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+ [Aquí](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 Etapa 2 : Descargar una imagen de Strecht de Debian - netinstall
 ---
 
-Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+ [Aquí](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+. [Aquí](http://download.virtualbox.org/virtualbox/5.1.28/Oracle__VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Etapa 3 : Configurar el entorno 
 ---
@@ -344,7 +341,7 @@ Su dirección IP, escriba 192.168.0.XX aparece en rojo. .
 >
 > .
 
-Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Estibador
 ======
@@ -382,7 +379,7 @@ Etapa 2 : Instalar una imagen mysql
 >
 > .
 
-J'utilise [celle-ci](https://hub.docker.com/_/mysql/). Para instalarlo :
+ [esta](https://hub.docker.com/_/mysql/). Para instalarlo :
 
 ``docker pull mysql:latest``
 
@@ -417,7 +414,7 @@ Entonces necesita instalar Jeedom yendo a : IP \ _DOCKER: :
 
 ![install other](images/install_other.PNG)
 
-Pour la suite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 > **Importante**
 >
@@ -582,7 +579,7 @@ Etapa 3 : Configuración de Jeedom
 >
 > . .
 
-Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index)
+ [](https://doc.jeedom.com/es_ES/premiers-no/index)
 
 Otros
 ======
@@ -619,4 +616,4 @@ chmod +x install.sh
 ./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-Ensuite, vous pouvez suivre la documentation [Premier no avec Jeedom](https://doc.jeedom.com/es_ES/premiers-no/index).
+ [](https://doc.jeedom.com/es_ES/premiers-no/index).

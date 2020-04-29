@@ -61,19 +61,19 @@ Diese 40 GB für VMware selbst füllen sich schnell.
 > VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist dies schwierig
 > um den verfügbaren Pdietz zu erweitern
 
--   [LDLC  M.2 2280 F6 PLUS 120
+-   
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung  850 EVO 120 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC  M.2 2280 F6 PLUS 240
+-   
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung  850 EVO 250 Go
+-   
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC  M.2 2280 F6 PLUS 480
+-   
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Speicher 
@@ -86,13 +86,13 @@ NUC unterstützt maximal 32 GB). Dort wird kein Speicher empfohlen, der
 billiger läuft sehr gut (Vorsicht, ich nehme immer 2er-Packs
 Balken, dies verbessert die Leistung) :
 
--   [Crucial SO-DIMM DDR4 8 Go (2 x 4 Go) 2133 MHz CL15 SR
+-   
     X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
 
--   [Crucial SO-DIMM DDR4 16 Go (2 x 8 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
 
--   [Crucial SO-DIMM DDR4 32 Go (2 x 16 Go) 2133 MHz CL15 DR
+-   
     X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
 Instaldietionsvorbereitung 
@@ -108,7 +108,7 @@ VMware-Download
 >
 > Wenn Sie VMware 6 setzen.5 gibt es ein Problem mit der neuen Verwaltung
 > USB- und Zwave-Schlüssel, damit dies funktioniert, müssen Sie dies anwenden
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?dienguage = en_US & cmd = dispdieyKC & externalId = 2147650). Achtung, diese Manipudietion ist in VMware 6.7 nicht mehr durchzuführen
+> [](https://kb.vmware.com/selfservice/microsites/search.do?dienguage=en_US&cmd=dispdieyKC&externalId=2147650). 
 
 Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
 :
@@ -142,7 +142,7 @@ Rufus herunterdieden
 -----------------------
 
 Dort ist es viel einfacher, nur zu klicken
-[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Il vous faut ensuite
+[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). 
 Starten Sie die EXE-Datei
 
 Erstellung des bootfähigen USB-Sticks 

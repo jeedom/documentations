@@ -91,7 +91,7 @@ erforderlich, um die folgenden Informationen abzurufen :
 > **Notiz**
 >
 > Ein nicht erschöpfendes Informationsblatt, das Sie für die  beachten sollten
-> ist verfügbar [hier](images / Memo.xls)
+> ist verfügbar [hier](images/Memo.xls)
 
 Vorbeugende Backups 
 -----------------------

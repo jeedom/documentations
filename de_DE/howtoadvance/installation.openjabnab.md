@@ -4,7 +4,7 @@ Summen)
 > **Notiz**
 >
 > Dieses Tutorial ist weitgehend insriert von
-> [celui-ci](http://jetweb.free.fr/nabaztag_r/Tutoriel_OJN_RPi_v1-1.pdf)
+> [](http://jetweb.free.fr/nabaztag_r/Tutoriel_OJN_RPi_v1-1.pdf)
 
 Installation von Abhängigkeiten 
 ============================

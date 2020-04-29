@@ -14,7 +14,7 @@
 |                |                         |                          |
 | Motorisierte Foscam HD     |                         |                          |
 | Motorisierte Foscam        |                         |                          |
-| Foscam FI9803EP/FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp = teilen), damit die Kamera funktioniert.
+|  |  [](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) .
 |       |                         |                          |
 | .                  |                         |                          |
 |       |                         |                          |

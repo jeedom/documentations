@@ -6,7 +6,7 @@ Quellenwiederherstellung
 
 Sie finden die neueste Debian-Version in netinstall (Größe)
 minimal, aber Internet für die Installation benötigen)
-[hier](https://www.debian.org/CD/netinst) (il faut prendre l'image en
+[hier](https://www.debian.org/CD/netinst) 
 amd64) oder direkt klicken
 [hier](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 um die ISO herunterzuladen.
@@ -22,7 +22,7 @@ Sie müssen entweder die ISO auf eine CD brennen und die CD in das Gerät einleg
 Erstellen Sie einen bootfähigen USB-Stick.
 
 Für den bootfähigen USB-Stick rufus herunterladen
-[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
+[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), 
 so konfigurieren :
 
 ![debian.installation](images/debian.installation.PNG)

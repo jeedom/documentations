@@ -6,7 +6,7 @@ Fuente de recuperación
 
 Puede encontrar la última versión de Debian en netinstall (tamaño
 mínimo pero necesita internet para la instalación)
-[aquí](https://www.debian.org/CD/netinst) (il faut prendre l'image en
+[aquí](https://www.debian.org/CD/netinst) 
 amd64) o haga clic directamente
 [aquí](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 para descargar el ISO.
@@ -22,7 +22,7 @@ Debes grabar el ISO en un CD y poner el CD en la máquina
 crear una llave USB de arranque.
 
 Para la llave USB de arranque, descargue rufus
-[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
+[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe), 
 configurar así :
 
 ![debian.installation](images/debian.installation.PNG)

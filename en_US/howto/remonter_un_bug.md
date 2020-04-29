@@ -2,7 +2,7 @@
 
 There are several ways in Jeedom to report a concern : 
 
-- remonter le souci sur la [communauté](https://community.jeedom.com), this is usually where you will get the quickest answer
+-  [](https://community.jeedom.com), 
 - report a concern to the Jeedom team : 
   - **Support request** (requires a service pack power or more or even if the concern is on a plugin / paid service), this request is **private** and will put you directly in contact with the Jeedom support team which analyzes your particular case
   - **Bug report**, in this case the request is **public** and will be posted on the community
