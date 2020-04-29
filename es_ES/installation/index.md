@@ -161,7 +161,7 @@ Inicie sesión con credenciales **pi / frambuesa**
 >
 > Dependiendo de su velocidad de internet, la instalación puede tomar de 45 a 90 minutos.. No debe interrumpir el proceso antes del final.. De lo contrario, tendrá que repetir todo el procedimiento..
 
-Luego solo vaya a IP \ _MACHINE \ _JEEDOM
+Luego solo vaya a IP \_MACHINE \_JEEDOM
 
 > **Note**
 >
@@ -410,7 +410,7 @@ Con :
 -   ``/your/jeedom/path`` : directorio donde los datos de Jeedom se colocan en el host
 -   ``your-root-password`` : contraseña de root para acceder a Jeedom en SSH
 
-Entonces necesita instalar Jeedom yendo a : IP \ _DOCKER:9080 e ingrese la información de conexión a mysql :
+Entonces necesita instalar Jeedom yendo a : IP \_DOCKER:9080 e ingrese la información de conexión a mysql :
 
 ![install other](images/install_other.PNG)
 
@@ -492,7 +492,7 @@ Luego, en "Agregar una carpeta", y allí, coloque la carpeta deseada en el lado 
 
 ![install synology 32](images/install_synology_32.PNG)
 
-Haga clic en "Entorno" y luego "Agregar una variable" y agregue "Variable" : "MySQL \ _ROOT \ _PASSWORD "y en valor ponga la contraseña BDD deseada (se usará más adelante). Luego validar :
+Haga clic en "Entorno" y luego "Agregar una variable" y agregue "Variable" : "MySQL \_ROOT \_PASSWORD "y en valor ponga la contraseña BDD deseada (se usará más adelante). Luego validar :
 
 ![install synology 33](images/install_synology_33.PNG)
 
@@ -563,7 +563,7 @@ Marque "Ejecutar este contenedor cuando el asistente haya terminado" y luego hag
 Etapa 3 : Configuración de Jeedom
 ---
 
-Ahora necesita instalar Jeedom, es muy simple, vaya a IP \ _NAS:9080
+Ahora necesita instalar Jeedom, es muy simple, vaya a IP \_NAS:9080
 
 ![install synology 31](images/install_synology_31.PNG)
 
@@ -577,7 +577,7 @@ Complete los campos de acuerdo con su configuración (configuración de Estibado
 
 > **Tip**
 >
-> Si desea acceso SSH, necesita en los puertos para redirigir un puerto local al puerto 22 del contenedor, los identificadores SSH son root / jeedom. Puede cambiar la contraseña configurando la variable de entorno ROOT \ _PASSWORD en el valor de la contraseña deseada.
+> Si desea acceso SSH, necesita en los puertos para redirigir un puerto local al puerto 22 del contenedor, los identificadores SSH son root / jeedom. Puede cambiar la contraseña configurando la variable de entorno ROOT \_PASSWORD en el valor de la contraseña deseada.
 
 Entonces puedes seguir la documentación [Primer noo con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
 
@@ -602,7 +602,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
-Luego simplemente vaya a IP \ _MACHINE \ _JEEDOM desde su navegador de Internet.
+Luego simplemente vaya a IP \_MACHINE \_JEEDOM desde su navegador de Internet.
 
 > **Note**
 >

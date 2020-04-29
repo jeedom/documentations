@@ -5,7 +5,7 @@ Weg des Managers :
 
 -   die Weboberfläche ((standardmäßig in 6 vorhanden.0 Update 2 oder von
     über eine Vib für die anderen Versionen) greifen wir über zu
-    IP \ _ESXI / ui
+    IP \_ESXI / ui
 
 -   der schwere und historische Client von VMware ((vSphere-Client)
 
@@ -22,7 +22,7 @@ Blätter ohne Sorgen.
 Verbindung zum Webinterface 
 ===========================
 
-Gehen Sie mit Ihrem Internetbrowser zu IP \ _ESXI / ui :
+Gehen Sie mit Ihrem Internetbrowser zu IP \_ESXI / ui :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 

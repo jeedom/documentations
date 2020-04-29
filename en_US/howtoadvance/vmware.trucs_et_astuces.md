@@ -4,7 +4,7 @@ VMware
 Add your license 
 ==================
 
-Once connected on the web interface (IP \ _ESXI / ui) you have to go to
+Once connected on the web interface (IP \_ESXI / ui) you have to go to
 "Manage" :
 
 ![vmware.tips](images/vmware.tips.PNG)
@@ -127,7 +127,7 @@ You will find all the information
 [here](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 To see if you have the web interface, just go with
-your browser on IP \ _ESXI / ui if you have nothing you need
+your browser on IP \_ESXI / ui if you have nothing you need
 install it, you must first connect in SSH on the ESXI then do :
 
     esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib

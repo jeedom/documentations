@@ -281,7 +281,7 @@ Gut zu wissen
 
 > **Tip**
 >
-> Das Widget "Store \ _2 \ _IMG", das im Infobefehl "Status" verwendet wird. Das hier
+> Das Widget "Store \_2 \_IMG", das im Infobefehl "Status" verwendet wird. Das hier
 > Widget ist schön, weil es "teilweise geöffnete" Zustände anzeigt'.
 
 **@Theduck38**

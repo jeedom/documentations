@@ -446,7 +446,7 @@ Then you have to make 3 files :
     HEADERS + = tts_jeedom.h
     SOURCES + = tts_jeedom.cpp
 
--   tts \ _jeedom.h
+-   tts \_jeedom.h
 
 <!-- -->
 
@@ -474,7 +474,7 @@ Then you have to make 3 files :
 
     #endif
 
--   tts \ _jeedom.cpp
+-   tts \_jeedom.cpp
 
 <!-- -->
 

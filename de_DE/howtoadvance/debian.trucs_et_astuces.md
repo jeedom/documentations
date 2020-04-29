@@ -34,7 +34,7 @@ Wenn Sie möchten, dass Ihre Konsole (Bash) Farben verwendet :
 Root-Login in SSH zulassen 
 ==================================
 
-Bearbeiten Sie die Datei / etc / ssh / sshd \ _config und ändern Sie sie :
+Bearbeiten Sie die Datei / etc / ssh / sshd \_config und ändern Sie sie :
 
     PermitRootLogin ohne Passwort
 

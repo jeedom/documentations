@@ -281,7 +281,7 @@ Bueno saber
 
 > **Tip**
 >
-> El widget "Store \ _2 \ _IMG" utilizado en el comando de información "Estado". Este
+> El widget "Store \_2 \_IMG" utilizado en el comando de información "Estado". Este
 > el widget es bueno porque muestra estados 'parcialmente abiertos''.
 
 **@Theduck38**

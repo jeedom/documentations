@@ -78,7 +78,7 @@ Mögliche Anpassungen
 
     CONF_SWAPSIZE = 100
 
--   Ändern Sie dann beispielsweise den Wert von CONF \ _SWAPSIZE in 1024
+-   Ändern Sie dann beispielsweise den Wert von CONF \_SWAPSIZE in 1024
     neu starten :
 
 <!-- -->

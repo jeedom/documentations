@@ -17,14 +17,14 @@ absolutamente 2 almacenes de datos. Para esto tienes varias opciones :
 Para este tutorial usaré la interfaz web de ESXi que es
 disponible ya sea instalando un vib o desde la versión
 6.0 actualización 2. Como recordatorio, para acceder a esta interfaz solo
-ir a IP \ _ESXI / ui
+ir a IP \_ESXI / ui
 
 > **Note**
 >
 > Para este tutorial usaré la interfaz web de ESXi que es
 > disponible ya sea instalando un vib o desde
 > versión 6.0 actualización 2. Para recordatorios para acceder a esta interfaz,
-> solo ve a IP \ _ESXI / ui
+> solo ve a IP \_ESXI / ui
 
 Instalación de GhettoVCB 
 =========================
@@ -93,9 +93,9 @@ contiene :
 
 Los parámetros que debe adaptar son :
 
--   **VM \ _BACKUP \ _VOLUME** ⇒ ubicación de su almacén de datos de respaldo
+-   **VM \_BACKUP \_VOLUME** ⇒ ubicación de su almacén de datos de respaldo
 
--   **VM \ _BACKUP \ _ROTATION \ _COUNT** ⇒ número de copias de seguridad por VM para mantener
+-   **VM \_BACKUP \_ROTATION \_COUNT** ⇒ número de copias de seguridad por VM para mantener
 
 > **Note**
 >
@@ -106,7 +106,7 @@ Los parámetros que debe adaptar son :
 > **Important**
 >
 > Tenga cuidado de poner / final para el parámetro
-> VM \ _BACKUP \ _VOLUME de lo contrario, el Guión tendrá un error
+> VM \_BACKUP \_VOLUME de lo contrario, el Guión tendrá un error
 
 Prueba de respaldo 
 ==============
@@ -177,7 +177,7 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > **Note**
 >
 > Aquí hago una copia de seguridad de todas las máquinas virtuales, puede adaptar esto
-> reemplazando -a con -m ma \ _vm, tenga cuidado si quiere poner
+> reemplazando -a con -m ma \_vm, tenga cuidado si quiere poner
 > varias máquinas virtuales debe duplicar la línea "/ bin / echo" 0 0 1 \* \*
 > / vmfs / volume / Backup / ghettoVCB.sh -a -g
 > / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;

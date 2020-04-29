@@ -161,7 +161,7 @@ Log in with credentials **pi / raspberry**
 >
 > Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
 
-Then just go to IP \ _MACHINE \ _JEEDOM
+Then just go to IP \_MACHINE \_JEEDOM
 
 > **Note**
 >
@@ -410,7 +410,7 @@ With :
 -   ``/your/jeedom/path`` : directory where Jeedom data is put on the host
 -   ``your-root-password`` : root notsword to access Jeedom in SSH
 
-Then you need to install Jeedom by going to : IP \ _DOCKER:9080 and enter the connection information to mysql :
+Then you need to install Jeedom by going to : IP \_DOCKER:9080 and enter the connection information to mysql :
 
 ![install other](images/install_other.PNG)
 
@@ -492,7 +492,7 @@ Then on "Add a folder", and there, put the desired folder on the Synology side (
 
 ![install synology 32](images/install_synology_32.PNG)
 
-Click on "Environment" then "Add a variable" and putting in "Variable" : "MYSQL \ _ROOT \ _PASSWORD "and in value put the desired BDD notsword (it will be used later). Then validate :
+Click on "Environment" then "Add a variable" and putting in "Variable" : "MYSQL \_ROOT \_PASSWORD "and in value put the desired BDD notsword (it will be used later). Then validate :
 
 ![install synology 33](images/install_synology_33.PNG)
 
@@ -563,7 +563,7 @@ Check "Run this container when the wizard has finished" then click on "Apply".
 Stage 3 : Jeedom configuration
 ---
 
-Now you need to install Jeedom, it's very simple, go to IP \ _NAS:9080
+Now you need to install Jeedom, it's very simple, go to IP \_NAS:9080
 
 ![install synology 31](images/install_synology_31.PNG)
 
@@ -577,7 +577,7 @@ Fill in the fields according to your configuration (configuration of the Docker 
 
 > **Tip**
 >
-> If you want SSH access, you need in ports to redirect a local port to port 22 of the container, the SSH identifiers are root / jeedom. You can change the notsword by setting the environment variable ROOT \ _PASSWORD to the value of the desired notsword.
+> If you want SSH access, you need in ports to redirect a local port to port 22 of the container, the SSH identifiers are root / jeedom. You can change the notsword by setting the environment variable ROOT \_PASSWORD to the value of the desired notsword.
 
 Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
@@ -602,7 +602,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
-Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
+Then simply go to IP \_MACHINE \_JEEDOM from your Internet browser.
 
 > **Note**
 >

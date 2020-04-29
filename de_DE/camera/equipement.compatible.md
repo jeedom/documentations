@@ -26,7 +26,7 @@
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
 | Hikvision.DS-7216HWI-SH / A. |                         |                          |
-| IP \ _Linkcom Videotür-Eingangseinheit |                         |                          |
+| IP \_Linkcom Videotür-Eingangseinheit |                         |                          |
 | Konx Videotür-Eingangseinheit      |                         |                          |
 | Motorisierte Mustcam HD    |                         |                          |
 | Panasonic BL-C121       |                         |                          |

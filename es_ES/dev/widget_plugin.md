@@ -52,7 +52,7 @@ Aquí crearemos un nuevo widget basado en el plantilel "tmplmultistate" (tiene e
 
 Luego, dado que es una plantilel con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en el parte de prueba de el tabla..
 
-Ejemplo : para el primera prueba, decimos que si el valor del comando vale 2, entonces tendremos que reemplazar el etiqueta # \ _ state_ # (en el código html de el plantilla) por </i>
+Ejemplo : para el primera prueba, decimos que si el valor del comando vale 2, entonces tendremos que reemplazar el etiqueta # \_ state_ # (en el código html de el plantilla) por </i>
 
 Otro ejemplo basado en otra plantilel podría ser : 
 

@@ -298,7 +298,7 @@ Faq.
 
 You should not have the option to download auto widgets
 activated. You can retrieve the mobile and dashboard widgets on the
-Market : alarm \ _back.
+Market : alarm \_back.
 
 \
 
