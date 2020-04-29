@@ -277,11 +277,6 @@
         "Il vous suffit ensuite d'aller sur": "Il vous suffit ensuite d'aller sur",
         "à partir de votre navigateur Internet": "à partir de votre navigateur Internet"
     },
-    "plugins\/..\/index.md": {
-        "Documentation Jeedom": "Documentation Jeedom",
-        "Bienvenue sur le site de documentation Jeedom": "Bienvenue sur le site de documentation Jeedom",
-        "Vous trouverez ici toute la documentation relative a la solution domotique Jeedom": "Vous trouverez ici toute la documentation relative a la solution domotique Jeedom"
-    },
     "plugins\/Energie\/index.md": {
         "[Documentation](Palazzetti\/index": "[Documentation](Palazzetti\/index",
         "png\" width=\"100\" \/": "png\" width=\"100\" \/",

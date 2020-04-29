@@ -349,11 +349,6 @@
         "[Autres": "[Others",
         "Autres]": "Others]"
     },
-    "plugins\/..\/index.md": {
-        "Documentation Jeedom": "Jeedom documentation",
-        "Bienvenue sur le site de documentation Jeedom": "Welcome to the Jeedom documentation site",
-        "Vous trouverez ici toute la documentation relative a la solution domotique Jeedom": "Here you will find all the documentation relating to the Jeedom home automation solution"
-    },
     "plugins\/Energie\/index.md": {
         "[Documentation](Palazzetti\/index": "[Documentation](Palazzetti \/ index",
         "png\" width=\"100\" \/": "png \"width =\" 100 \"\/",
