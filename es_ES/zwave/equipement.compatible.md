@@ -797,7 +797,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/327.1024.1_Controlador RaZberry ZWavePlus.jpg "ancho =" 60 "/>|zwaveme|Controlador RaZberry ZWave +|Controlador||[Comprar](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
-|<img src="../../es_ES/zwave/images/327.2.3_Controlador Razberry.jpg "ancho =" 60 "/>|zwaveme|Controlador RaZberry|Controlador|||
+|<img src="../../es_ES/zwave/images/327.2.3_Controlador RaZberry.jpg "ancho =" 60 "/>|zwaveme|Controlador RaZberry|Controlador|||
 
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales.
