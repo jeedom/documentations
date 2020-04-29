@@ -1,6 +1,13 @@
 .navbar-fixed {
   z-index: 1000;
 }
+#navTopLeft {
+  background: url("../img/background5.jpg") !important;
+  background-size: cover !important;
+}
+#navTopLeft a {
+  background-color: transparent !important;
+}
 #slide-out {
   top: 65px;
   height: calc(100% - 65px);
@@ -30,6 +37,10 @@ body,
 }
 .sidenav {
   width: 280px !important;
+}
+
+#div_summary {
+  font-size: 13px;
 }
 
 #ul_menu li,

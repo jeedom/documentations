@@ -19,9 +19,13 @@ Le Core comprend notamment:
 
 - Un moteur de scénario particulièrement complet.
 
+Les scénarios sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.
+
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
 - L'historisation des informations.
+
+Toutes les informations sont historisables, et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
