@@ -6,7 +6,7 @@
 
 Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) todos los complementos (oficiales o no) en esta categoría
 
-| | | | |
+Complemento para controlar el riego automático a través del módulo GreenIQPlugin para sensores de plantas koubachi| | | | |
 |--- | --- | --- | ---|
-|<img src="greeniq/greeniq_icon.png" width="100" />|GreenIQ|Complemento para controlar el riego automático a través del módulo GreenIQ|[Documentación](greeniq/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)|
-|<img src="koubachi/koubachi_icon.png" width="100" />|Koubachi|Plugin para sensores de planta koubachi|[Documentación](koubachi/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)|
+|<img src="greeniq/greeniq_icon.png" width="100" />|GreenIQ||[Documentación](greeniq/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)|
+|<img src="koubachi/koubachi_icon.png" width="100" />|Koubachi||[Documentación](koubachi/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)|

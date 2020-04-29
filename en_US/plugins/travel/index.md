@@ -6,6 +6,6 @@
 
 You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) all plugins (official or not) in this category
 
-| | | | |
+Plugin to have the journey time between two points| | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" width="100" />|Waze in Time|Plugin to have the journey time between two points|[Documentation](wazeintime/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|
+|<img src="wazeintime/wazeintime_icon.png" width="100" />|Waze in Time||[Documentation](wazeintime/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|

@@ -6,6 +6,6 @@
 
 Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) todos los complementos (oficiales o no) en esta categoría
 
-| | | | |
+Plugin para gestionar la apertura / cierre de las persianas según el sol| | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" width="100" />|Gestión de persianas|Plugin para gestionar la apertura / cierre de las persianas según el sol|[Documentación](sunshutter/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
+|<img src="sunshutter/sunshutter_icon.png" width="100" />|Gestión de persianas||[Documentación](sunshutter/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|

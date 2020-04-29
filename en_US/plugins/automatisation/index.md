@@ -6,6 +6,6 @@
 
 You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) all plugins (official or not) in this category
 
-| | | | |
+Plugin to manage the opening / closing of the shutters according to the sun| | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" width="100" />|Shutter management|Plugin to manage the opening / closing of the shutters according to the sun|[Documentation](sunshutter/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
+|<img src="sunshutter/sunshutter_icon.png" width="100" />|Shutter management||[Documentation](sunshutter/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|

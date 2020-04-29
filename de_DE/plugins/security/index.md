@@ -6,10 +6,10 @@
 
 Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) Alle Plugins (offiziell oder nicht) in dieser Kategorie
 
-| | | | |
+Plugin für das SicherheitsmanagementPlugin zum Anzeigen von IP-Kameras. <br> / Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Momentaufnahme (Aufnahme).Zugriffsverwaltungs-Plugin über ein bagdesPlugin-System für Netatmo Welcome- und Presence-Kameras Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Bridge steuern. Außerdem können Sie die Bridge im Push-Modus konfigurieren| | | | |
 |--- | --- | --- | ---|
-|<img src="alarm/alarm_icon.png" width="100" />|Alarme|Sicherheitsmanagement-Plugin|[Dokumentation](alarm/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=26)|
-|<img src="camera/camera_icon.png" width="100" />|Kamera|Plugin zur Anzeige von IP-Kameras. <br> / Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Momentaufnahme (Aufnahme).|[Dokumentation](camera/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=70)|
-|<img src="gestAccess/gestAccess_icon.png" width="100" />|Zugriffsverwaltung|Access Management Plugin über ein Bagdes-System|[Dokumentation](gestAccess/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3686)|
-|<img src="netatmoWelcome/netatmoWelcome_icon.png" width="100" />|Netatmo Sicherheit|Plugin für Netatmo Welcome und Presence Kameras|[Dokumentation](netatmoWelcome/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1967)|
-|<img src="nuki/nuki_icon.png" width="100" />|Nuki|Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Brücke steuern. Außerdem können Sie die Bridge im Push-Modus konfigurieren|[Dokumentation](nuki/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2819)|
+|<img src="alarm/alarm_icon.png" width="100" />|Alarme||[Dokumentation](alarm/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=26)|
+|<img src="camera/camera_icon.png" width="100" />|Kamera||[Dokumentation](camera/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=70)|
+|<img src="gestAccess/gestAccess_icon.png" width="100" />|Zugriffsverwaltung||[Dokumentation](gestAccess/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3686)|
+|<img src="netatmoWelcome/netatmoWelcome_icon.png" width="100" />|Netatmo Sicherheit||[Dokumentation](netatmoWelcome/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1967)|
+|<img src="nuki/nuki_icon.png" width="100" />|Nuki||[Dokumentation](nuki/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2819)|

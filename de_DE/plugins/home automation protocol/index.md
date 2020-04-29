@@ -6,5 +6,3 @@
 
 Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) Alle Plugins (offiziell oder nicht) in dieser Kategorie
 
-| | | | |
-|--- | --- | --- | ---|

@@ -6,5 +6,3 @@
 
 You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=i18n) all plugins (official or not) in this category
 
-| | | | |
-|--- | --- | --- | ---|

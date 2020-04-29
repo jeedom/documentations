@@ -6,6 +6,6 @@
 
 Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) Alle Plugins (offiziell oder nicht) in dieser Kategorie
 
-| | | | |
+Plugin für die Reisezeit zwischen zwei Punkten| | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" width="100" />|Warte rechtzeitig|Plugin für die Reisezeit zwischen zwei Punkten|[Dokumentation](wazeintime/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|
+|<img src="wazeintime/wazeintime_icon.png" width="100" />|Warte rechtzeitig||[Dokumentation](wazeintime/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|

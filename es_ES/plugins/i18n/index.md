@@ -6,5 +6,3 @@
 
 Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=i18n) todos los complementos (oficiales o no) en esta categoría
 
-| | | | |
-|--- | --- | --- | ---|
