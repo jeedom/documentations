@@ -4,7 +4,7 @@ VMware
 Add your license 
 ==================
 
-Once connected on the web interface (IP \_ESXI / ui) you have to go to
+Once connected on the web interface (IP\_ESXI / ui) you have to go to
 "Manage" :
 
 ![vmware.tips](images/vmware.tips.PNG)
@@ -127,7 +127,7 @@ You will find all the information
 [here](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 To see if you have the web interface, just go with
-your browser on IP \_ESXI / ui if you have nothing you need
+your browser on IP\_ESXI / ui if you have nothing you need
 install it, you must first connect in SSH on the ESXI then do :
 
     esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
@@ -149,7 +149,7 @@ then click on the link "Download vSphere Client for Windows" :
 Once downloaded you just have to start the installation (I pass
 voluntarily on this part because it is enough to validate everything).
 
-Then launch VMware vSphere Client, you should have :
+Then launch Vmware vSphere Client, you should have :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -163,9 +163,9 @@ ESXi update
 
 The procedure is quite easy, you must first recover the patch
 going [here](https://my.vmware.com/group/vmware/patch#search) (he
-you will probably have to log in with your VMware account). On the
+you will probably have to log in with your Vmware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
-face leave the latest version of VMware and do "Search". Then
+face leave the latest version of Vmware and do "Search". Then
 download the desired patch (usually the last one). The build number (the
 first issue not the one starting with KB) gives you the version of the
 patch that you can compare with your build number.
@@ -268,7 +268,7 @@ bon.
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
-> if you go through VMware Remote Console everything should be ok (this
+> if you go through Vmware Remote Console everything should be ok (this
 > goes through port 902)
 
 > **Note**

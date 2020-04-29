@@ -446,7 +446,7 @@ Dann müssen Sie 3 Dateien erstellen :
     HEADERS + = tts_jeedom.h
     QUELLEN + = tts_jeedom.cpp
 
--   tts \_jeedom.h
+-   tts\_jeedom.h
 
 <!-- -->
 
@@ -474,7 +474,7 @@ Dann müssen Sie 3 Dateien erstellen :
 
     #endif
 
--   tts \_jeedom.cpp
+-   tts\_jeedom.cpp
 
 <!-- -->
 

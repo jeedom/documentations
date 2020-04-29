@@ -49,7 +49,7 @@ Para tomar datos de emoncms en Jeedom, hay dos posibilidades
 -   El primero es crear una información a través del complemento de script en Jeedom
     y use la URL de API del feed. Este método requiere recuperación
     el valor regularmente o por escenario, por ejemplo y normalmente
-    no es útil porque los datos tienen su fuente en jeedom \_setting
+    no es útil porque los datos tienen su fuente en jeedom\_setting
 
         https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
 

@@ -52,7 +52,7 @@ Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (
 
 Da es sich dann um eine Vorlage mit mehreren Status handelt, müssen Sie die Symbole entsprechend dem Status definieren. Dies erfolgt im Testteil der Tabelle.
 
-Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, müssen wir das Tag # \_ state_ # (im HTML-Code der Vorlage) durch ersetzen </i>
+Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, müssen wir das Tag #\_ state_ # (im HTML-Code der Vorlage) durch ersetzen </i>
 
 Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein : 
 

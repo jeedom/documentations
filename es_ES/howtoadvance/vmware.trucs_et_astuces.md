@@ -4,7 +4,7 @@ VMware
 Agrega tu licencia 
 ==================
 
-Una vez conectado en la interfaz web (IP \_ESXI / ui) debe ir a
+Una vez conectado en la interfaz web (IP\_ESXI / ui) debe ir a
 "Gestionar" :
 
 ![vmware.tips](images/vmware.tips.PNG)
@@ -127,7 +127,7 @@ Encontrarás toda la información
 [aquí](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 Para ver si tiene la interfaz web, simplemente vaya con
-su navegador en IP \_ESXI / ui si no tiene nada que necesita
+su navegador en IP\_ESXI / ui si no tiene nada que necesita
 instálelo, primero debe conectarse en SSH en el ESXI y luego :
 
     esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib

@@ -34,5 +34,5 @@ Luego tome una captura de pantalla de lo que se mostrará, en particular la lín
 
 Aquí, si sigues todo esto bien, deberías tener respuestas a tu problema mucho más rápido y mucho más preciso y tal vez incluso permitir que la persona que te ayudó a ayudar a otra persona sea más rápido.
 
-- Tienes un problema con un demonio. ? es absolutamente necesario poner el log en la depuración, de lo contrario no será posible ninguna ayuda. También puede agregar el registro de instalación de dependencias (a menudo en \_update)
-- Tienes un problema instalando dependencias ? es absolutamente necesario poner el registro de su instalación (a menudo en \_update)
+- Tienes un problema con un demonio. ? es absolutamente necesario poner el log en la depuración, de lo contrario no será posible ninguna ayuda. También puede agregar el registro de instalación de dependencias (a menudo en\_update)
+- Tienes un problema instalando dependencias ? es absolutamente necesario poner el registro de su instalación (a menudo en\_update)

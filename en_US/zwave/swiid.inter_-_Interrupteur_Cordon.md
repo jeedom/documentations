@@ -25,7 +25,7 @@ Summary
 \
 
 SwiidInter is the first cord switch in the environment
-Z-Wave home automation that is small and discreet enough to be
+Z-WAVE home automation that is small and discreet enough to be
 comparable to an ordinary cord switch.
 
 It can be used both manually like any
@@ -34,17 +34,17 @@ Z-Wave.
 
 The SwiidInter switch also offers association possibilities
 and this two-way. Thus, it can be operated automatically by a
-other Z-Wave device on the same network, such as the
+other Z-WAVE device on the same network, such as the
 presence detector triggered. Conversely with support
 short or with a long press it can control two separate groups of
-Z-Wave devices associated with it : for example every
+Z-WAVE devices associated with it : for example every
 other lights in the room where your switch is located
 SwiidInter.
 
 The SwiidInter switch is installed exactly like a switch
 on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
-integrate into a Z-Wave "network", this network can be as simple
+integrate into a Z-WAVE "network", this network can be as simple
 only one remote control that controls your SwiidInter switch to
 distance.
 
@@ -64,7 +64,7 @@ Functions
 -   We / Off function
 
 -   Activation of a home automation scenario on long press
-    (Z-Wave association)
+    (Z-WAVE association)
 
 -   Dimensions comparable to an ordinary cord switch
 
@@ -79,7 +79,7 @@ Technical characteristics
 
 \
 
--   Type of module : Z-Wave receiver
+-   Type of module : Z-WAVE receiver
 
 -   Color : black
 
@@ -91,7 +91,7 @@ Technical characteristics
 
 -   Protection sign: IP20
 
--   Radio protocol: Z-Wave® (SDK 4.55)
+-   Radio protocol: Z-WAVE® (SDK 4.55)
 
 -   Radio frequency : 868.42 MHz (EU)
 

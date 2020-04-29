@@ -298,7 +298,7 @@ Faq.
 
 Sie sollten nicht die Möglichkeit haben, automatische Widgets herunterzuladen
 aktiviert. Sie können die Mobil- und Dashboard-Widgets auf der Website abrufen
-Markt : Alarm \_back.
+Markt : Alarm\_back.
 
 \.
 

@@ -31,9 +31,9 @@ Once connected with your dev account on the market you must :
     
    Once saved by returning to the github tab you will have 3-4 fields to indicate the branches : 
    
-   - beta
-   - stable
+   - Beta
+   - Stable
    - pro (is useless in 99% of cases)
-   - stablev3 (coming soon)
+   - Stablev3 (coming soon)
    
    Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m. but take several ten hours). You can also start a manual synchronization of a branch from the plugin file

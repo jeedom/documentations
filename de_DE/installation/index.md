@@ -161,7 +161,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 >
 > Abhängig von Ihrer Internetgeschwindigkeit kann die Installation 45 bis 90 Minuten dauern. Sie dürfen den Vorgang nicht vor dem Ende unterbrechen. Andernfalls müssen Sie den gesamten Vorgang wiederholen.
 
-Dann gehen Sie einfach zu IP \_MACHINE \_JEEDOM
+Dann gehen Sie einfach zu IP\_MACHINE\_JEEDOM
 
 > **Note**
 >
@@ -385,7 +385,7 @@ Ich benutze [dieses hier](https://hub.docker.com/_/mysql/). Um es zu installiere
 
 Dann starten Sie es :
 
-``sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-password -d mysql:latest``
+``sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MySQL_ROOT_PASSWORD=your-mysql-password -d mysql:latest``
 
 Mit :
 
@@ -410,7 +410,7 @@ Mit :
 -   ``/your/jeedom/path`` : Verzeichnis, in dem Jeedom-Daten auf dem Host abgelegt werden
 -   ``your-root-password`` : Root-Passwort für den Zugriff auf Jeedom in SSH
 
-Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP \_DOCKER:9080 und geben Sie die Verbindungsinformationen zu MySQL ein :
+Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP\_DOCKER:9080 und geben Sie die Verbindungsinformationen zu MySQL ein :
 
 ![install other](images/install_other.PNG)
 
@@ -492,7 +492,7 @@ Legen Sie dann unter "Ordner hinzufügen" den gewünschten Ordner auf der Synolo
 
 ![install synology 32](images/install_synology_32.PNG)
 
-Klicken Sie auf "Umgebung", dann auf "Variable hinzufügen" und geben Sie "Variable" ein" : "MYSQL \_ROOT \_PASSWORD "und geben Sie als Wert das gewünschte BDD-Passwort ein (es wird später verwendet). Dann validieren :
+Klicken Sie auf "Umgebung", dann auf "Variable hinzufügen" und geben Sie "Variable" ein" : "MYSQL\_ROOT\_PASSWORD "und geben Sie als Wert das gewünschte BDD-Passwort ein (es wird später verwendet). Dann validieren :
 
 ![install synology 33](images/install_synology_33.PNG)
 
@@ -563,7 +563,7 @@ Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und 
 Stufe 3 : Jeedom Konfiguration
 ---
 
-Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP \_NAS:9080
+Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP\_NAS:9080
 
 ![install synology 31](images/install_synology_31.PNG)
 
@@ -577,7 +577,7 @@ Füllen Sie die Felder entsprechend Ihrer Konfiguration aus (Konfiguration der z
 
 > **Tip**
 >
-> Wenn Sie SSH-Zugriff wünschen, müssen Sie in Ports einen lokalen Port zu Port 22 des Containers umleiten. Die SSH-Kennungen sind root / jeedom. Sie können das Kennwort ändern, indem Sie die Umgebungsvariable ROOT \_PASSWORD auf den Wert des gewünschten Kennworts setzen.
+> Wenn Sie SSH-Zugriff wünschen, müssen Sie in Ports einen lokalen Port zu Port 22 des Containers umleiten. Die SSH-Kennungen sind root / jeedom. Sie können das Kennwort ändern, indem Sie die Umgebungsvariable ROOT\_PASSWORD auf den Wert des gewünschten Kennworts setzen.
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
@@ -602,7 +602,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
-Gehen Sie dann einfach von Ihrem Internetbrowser zu IP \_MACHINE \_JEEDOM.
+Gehen Sie dann einfach von Ihrem Internetbrowser zu IP\_MACHINE\_JEEDOM.
 
 > **Note**
 >

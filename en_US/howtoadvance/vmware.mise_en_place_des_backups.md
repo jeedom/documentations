@@ -17,14 +17,14 @@ absolutely 2 datastores. For this you have several choices :
 For this tutorial I will use the ESXi web interface which is
 available either by installing a vib or from the version
 6.0 update 2. As a reminder, to access this interface just
-go to IP \_ESXI / ui
+go to IP\_ESXI / ui
 
 > **Note**
 >
 > For this tutorial I will use the ESXi web interface which is
 > available either by installing a vib or from the
 > version 6.0 update 2. For reminders to access this interface it
-> just go to IP \_ESXI / ui
+> just go to IP\_ESXI / ui
 
 GhettoVCB installation 
 =========================
@@ -93,9 +93,9 @@ contains :
 
 The parameters that you must adapt are :
 
--   **VM \_BACKUP \_VOLUME** ⇒ location of your backup datastore
+-   **VM\_BACKUP\_VOLUME** ⇒ location of your backup datastore
 
--   **VM \_BACKUP \_ROTATION \_COUNT** ⇒ number of backups per VM to keep
+-   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ number of backups per VM to keep
 
 > **Note**
 >
@@ -106,7 +106,7 @@ The parameters that you must adapt are :
 > **Important**
 >
 > Be careful to put the / final for the parameter
-> VM \_BACKUP \_VOLUME otherwise the script will be in error
+> VM\_BACKUP\_VOLUME otherwise the script will be in error
 
 Backup test 
 ==============
@@ -177,7 +177,7 @@ And before "exit 0" add the following lines :
 > **Note**
 >
 > Here I make a backup of all the VMs, you can adapt this by
-> replacing the -a with -m ma \_vm, be careful if you want to put
+> replacing the -a with -m ma\_vm, be careful if you want to put
 > several VMs you must duplicate the line "/ bin / echo" 0 0 1 \* \*
 > / vmfs / volumes / Backup / ghettoVCB.sh -a -g
 > / vmfs / volumes / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;

@@ -32,7 +32,7 @@ Luego edite el archivo tts y agregue :
 
     3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
 
-En el "cuadro \ $ TTS \_ENGINE in" para tener :
+En el "cuadro \ $ TTS\_ENGINE in" para tener :
 
      box $ TTS_ENGINE en
                  1) MP3_ID = $ (GoogleTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;

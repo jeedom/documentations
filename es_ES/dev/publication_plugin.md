@@ -31,7 +31,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     
    Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
    
-   - beta
+   - Beta
    - Estable
    - pro (es inútil en el 99% de los casos)
    - Establev3 (próximamente)

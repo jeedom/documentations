@@ -110,7 +110,7 @@ instalar node-red-contrib-bmp085 -g \#sudo npm install
 node-red-contrib-ds18b20-sensor -g \#sudo npm install
 node-red-contrib-dht-sensor -g \# GPIO \# HummingBoard \#sudo npm
 instalar nodo-nodo-rojo-hbgpio -g \#sudo cp
-nodo \_módulos / nodo-nodo-rojo-hbgpio / gpiohb / usr / local / bin / \#sudo chmod
+nodo\_módulos / nodo-nodo-rojo-hbgpio / gpiohb / usr / local / bin / \#sudo chmod
 4755 / usr / lcoal / bin / gpiohb \# Raspberry Pi \#sudo npm install raspi-io
 -g \# * BeagleBone Black \#sudo npm install beaglebone-io -g \#
 Galileo / Edison \#sudo npm install galileo-io -g \# Blend Micro \#sudo

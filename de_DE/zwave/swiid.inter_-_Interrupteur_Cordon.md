@@ -34,17 +34,17 @@ Z-Wave.
 
 Der SwiidInter-Schalter bietet auch Zuordnungsmöglichkeiten
 und das in beide Richtungen. Somit kann es automatisch von a bedient werden
-andere Z-Wave-Geräte im selben Netzwerk, z
+andere Z-WAVE-Geräte im selben Netzwerk, z
 Präsenzmelder ausgelöst. Umgekehrt mit Unterstützung
 kurz oder mit einem langen Druck kann es zwei separate Gruppen von steuern
-Zugeordnete Z-Wave-Geräte : zum Beispiel jeder
+Zugeordnete Z-WAVE-Geräte : zum Beispiel jeder
 andere Lichter in dem Raum, in dem sich Ihr Schalter befindet
 SwiidInter.
 
 Der SwiidInter-Switch wird genau wie ein Switch installiert
 auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
-In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
+In ein Z-WAVE "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
 Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
 distance.
 
@@ -79,7 +79,7 @@ Technische Daten
 
 \.
 
--   Modultyp : Z-Wave Empfänger
+-   Modultyp : Z-WAVE Empfänger
 
 -   Farbe : schwarz
 
@@ -91,7 +91,7 @@ Technische Daten
 
 -   Schutzindex: IP20
 
--   Funkprotokoll: Z-Wave® (SDK 4.55)
+-   Funkprotokoll: Z-WAVE® (SDK 4.55)
 
 -   Radiofrequenz : 868,42 MHz (EU)
 

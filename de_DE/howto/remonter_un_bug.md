@@ -34,5 +34,5 @@ Machen Sie dann einen Screenshot von dem, was angezeigt wird, insbesondere von d
 
 Wenn Sie all dies gut verfolgen, sollten Sie Antworten auf Ihr Problem viel schneller und genauer haben und vielleicht sogar zulassen, dass die Person, die Ihnen geholfen hat, einer anderen Person schneller hilft.
 
-- Du hast ein Problem mit einem Dämon ? Es ist absolut notwendig, das Log in Debug zu setzen, sonst ist keine Hilfe möglich. Sie können auch das Installationsprotokoll für Abhängigkeiten hinzufügen (häufig in \_update).
-- Sie haben ein Problem bei der Installation von Abhängigkeiten ? Es ist unbedingt erforderlich, das Protokoll ihrer Installation abzulegen (häufig in \_update).
+- Du hast ein Problem mit einem Dämon ? Es ist absolut notwendig, das Log in Debug zu setzen, sonst ist keine Hilfe möglich. Sie können auch das Installationsprotokoll für Abhängigkeiten hinzufügen (häufig in\_update).
+- Sie haben ein Problem bei der Installation von Abhängigkeiten ? Es ist unbedingt erforderlich, das Protokoll ihrer Installation abzulegen (häufig in\_update).

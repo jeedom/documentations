@@ -34,7 +34,7 @@ Si quieres que tu consola (bash) use colores :
 Permitir inicio de sesión raíz en SSH 
 ==================================
 
-Edite el archivo / etc / ssh / sshd \_config y cambie :
+Edite el archivo / etc / ssh / sshd\_config y cambie :
 
     PermitRootLogin sin contraseña
 

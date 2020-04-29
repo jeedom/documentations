@@ -5,7 +5,7 @@ camino del gerente :
 
 -   la interfaz web ((presente por defecto en 6.0 actualización 2, o por
     a través de un vib para las otras versiones), accedemos a él por
-    IP \_ESXI / ui
+    IP\_ESXI / ui
 
 -   El cliente pesado e histórico de VMware ((cliente vSphere)
 
@@ -22,7 +22,7 @@ deja sin preocupaciones.
 Conexión a la interfaz web. 
 ===========================
 
-Vaya a IP \_ESXI / ui con su navegador de Internet, debe tener :
+Vaya a IP\_ESXI / ui con su navegador de Internet, debe tener :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 

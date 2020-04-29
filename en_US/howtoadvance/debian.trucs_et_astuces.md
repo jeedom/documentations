@@ -34,7 +34,7 @@ If yor want your console (bash) to use colors :
 Allow root login in SSH 
 ==================================
 
-Edit the file / etc / ssh / sshd \_config and change :
+Edit the file / etc / ssh / sshd\_config and change :
 
     PermitRootLogin without-password
 

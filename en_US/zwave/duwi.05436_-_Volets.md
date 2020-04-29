@@ -281,7 +281,7 @@ Good to know
 
 > **Tip**
 >
-> The "Store \_2 \_IMG" Widget used on the "Status" info command. This
+> The "Store\_2\_IMG" Widget used on the "Status" info command. This
 > widget is nice because it shows 'partially open' states'.
 
 **@Theduck38**
