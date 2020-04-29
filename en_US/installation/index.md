@@ -602,7 +602,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
-Then simply go to IP\_MACHINE\_JEEDOM from your Internet browser.
+Then just go to ``IP_JEEDOM`` from your internet browser.
 
 > **Note**
 >

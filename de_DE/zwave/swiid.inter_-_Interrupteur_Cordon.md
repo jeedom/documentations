@@ -1,4 +1,4 @@
-Swiid Switch - Swiidinter 
+Swiid Switch - SwiidInter 
 ===============================
 
 \.
@@ -114,7 +114,7 @@ Moduldaten
 
 -   Machen Sie : Swiid
 
--   Name : Swiidinter
+-   Name : SwiidInter
 
 -   Hersteller ID : 358
 
@@ -254,7 +254,7 @@ Verbinde dich mit einem anderen Licht
 
 \.
 
-Den Swiidinter mit einem anderen Licht verbinden und davon profitieren können
+Den SwiidInter mit einem anderen Licht verbinden und davon profitieren können
 Wenn Sie ein anderes Licht einschalten, fügen Sie es einfach der Gruppe hinzu
 der Assoziation 1 über den oben genannten Bildschirm.
 

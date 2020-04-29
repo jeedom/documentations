@@ -18,7 +18,9 @@ body {
 body.dark,
 body.dark nav,
 body.dark ul,
-body.dark nav ul a, nav {
+body.dark nav ul a,
+body.dark nav,
+body.dark #slide-out {
   background-color: #202123 !important;
   color: #ebebeb !important;
 }

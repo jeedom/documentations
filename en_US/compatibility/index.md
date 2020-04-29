@@ -4,7 +4,7 @@ Hardware
 Hardware | State | Remarks
 --- | --- | ---
 Jeedomboard             | Stable                  |
-Hummboard            | Stable                  |
+Hummingboard            | Stable                  |
 Odroid C2               | Stable                  |                          
 SMART                   | Stable                  |                          
 RPI1                    | Stable                  |                          

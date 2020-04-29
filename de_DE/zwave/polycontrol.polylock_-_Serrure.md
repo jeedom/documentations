@@ -96,7 +96,7 @@ Moduldaten
 
 -   Machen Sie : Poly-Control
 
--   Name : Polylock
+-   Name : PolyLock
 
 -   Hersteller ID : 270
 
