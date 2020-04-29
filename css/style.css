@@ -22,7 +22,10 @@ body nav ul a, body nav {
 }
 
 html,
-.sidenav {
+body,
+.sidenav,
+#div_summary {
+  scrollbar-color: rgba(120,120,120,0.5) transparent !important;
   scrollbar-width: thin;
 }
 .sidenav {

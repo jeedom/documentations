@@ -1,8 +1,14 @@
 {
-	"id" : "publiemeteo",
-	"name" : "Publie Meteo",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacy",
-	"require" : "1.150",
-	"category" : "weather"
+    "id": "publiemeteo",
+    "name": "Publie Meteo",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "3.3.24",
+    "category": "weather",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "v4"],
+    "changelog": "https://jeedom.github.io/plugin-publiemeteo/#language#/changelog",
+    "documentation": "https://jeedom.github.io/plugin-publiemeteo/#language#/"
 }

@@ -1,99 +1,101 @@
-- Amélioration du support des thermostats (possibilité de choisir n'importe quelle commande chauf/froid/off)
-- Support de la température de couleur
-- Préparation du support de la synchronisation sans cache
+# 01/23/2020
 
-# 11/12/2019
+- Improved support for thermostats (possibility to choose any heating / cold / off control)
+- Color temperature support
+- Preparing for synchronization support without cache
 
-- Amélioration du support des ventilateur (on/off maintenant seulement)
-- Ajout du support des hottes
-- Mise à jour de la doc
+# 12/11/2019
 
-# 15/10/2019
+- Improved fan support (on / off now only)
+- Addition of hood support
+- Updating the doc
 
-- Envoi automatique de la configuration au market lors de l'installation
+# 10/15/2019
 
-# 26/08/2019
+- Automatic sending of the configuration to the market during installation
 
-- Correction de bugs
+# 08/26/2019
 
-# 23/08/2019
+- Bugfix
 
-- Mise à jour de la doc
+# 08/23/2019
 
-# 08/06/2019
+- Updating the doc
 
-- Mise à jour de la doc
+# 06/08/2019
 
-# 03/06/2019
+- Updating the doc
 
-- Correction de bugs
-- Mise à jour de la doc
-- Ajout d'information sur le status de l'abonnement aux services vocaux
+# 06/03/2019
 
-# 31/05/2019
+- Bugfix
+- Updating the doc
+- Addition of information on the subscription status to voice services
 
-- Mise à jour de la doc
-- Correction de bugs
-- Ajout de type
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+# 05/31/2019
 
-# 13/05/2019
+- Updating the doc
+- Bugfix
+- Add type
+- Possibility of having information on the generic type required when clicking on the NOK label
+- Important : from 01/06/2019 the voice services become chargeable, you can see your status on your profile page on the market, tab my services
 
-- Mise à jour de la doc
+# 05/13/2019
 
-# 09/05/2019
+- Updating the doc
 
-- Inversion de l'inversion des volets (pour s'accorder avec google)
-- correction de bugs
-- support de nouveau type d'équipements
-- améliorations diverse
+# 05/09/2019
 
-# 24/04/2019
+- Inversion of the inversion of the panes (to agree with google)
+- Bugfix
+- support for new types of equipment
+- various improvements
 
-- Correction de bugs
+# 04/24/2019
 
-# 08/02/2019
+- Bugfix
 
-- Support des modes sur l'alarme coté Jeedom (ne marche pas encore coté Google...)
-- Ajout de l'inversion sur les volets et store
-- Ajout des TV (nécessite jeedom 3.3.x ou plus)
-- Ajout du control de volumes et commande media (stop,pause,lecture,suivant,précedent) pour le type enceinte (nécessite jeedom 3.3.x ou plus)
-- Correction d'un soucis de non désactivation de la transmission lors de la désactivation d'un équipement
+# 02/08/2019
+
+- Support of modes on the alarm on the Jeedom side (not yet working on the Google side ...)
+- Added inversion on shutters and blinds
+- Adding TVs (requires jeedom 3.3.x or more)
+- Addition of volume control and media command (stop, pause, play, next, previous) for the speaker type (requires jeedom 3.3.x or more)
+- Correction of a problem of non-deactivation of the transmission when deactivating an equipment
 
 
-# 07/01/2018
+# 01/07/2018
 
-- Updated documentation
-- Ajout d'une option pour inverser l'ouverture/fermeture des volets
-- Ajout d'options pour le thermostat
-- Support du report state
-- Support d'une confirmation lors d'une action (attention le mode validation est bugué coté Google, le mode code marche)
-- Ajout des capteurs (ne marche pas encore, aucune doc coté Google)
-- Ajout des stores
-- Ajout des fenêtres (ne marche pas encore, aucune doc coté Google)
-- Ajout des portes (ne marche pas encore, aucune doc coté Google)
+- Documentation update
+- Add an option to reverse the opening / closing of the shutters
+- Addition of options for the thermostat
+- Report state support
+- Support of a confirmation during an action (attention the validation mode is bugged on Google side, the walking code mode)
+- Adding sensors (not yet working, no Google listed doc)
+- Adding blinds
+- Adding windows (not yet working, no doc listed on Google)
+- Adding doors (not yet working, no Google listed doc)
 
-# 25/11/2018
+# 11/25/2018
 
-- Mise à jour de la doc
+- Updating the doc
 
-# 04/10/2018
+# 10/04/2018
 
-- Support des volets (attention c'est non officiel coté Google)
+- Support for the shutters (note that this is unofficial on the Google side)
 
-# 31/07/2018
+# 07/31/2018
 
-- Correction de bugs
+- Bugfix
 
-# 17/07/2018
+# 07/17/2018
 
-- Mise à jour de la doc
+- Updating the doc
 
-# 10/07/2018
+# 07/10/2018
 
-- Correction de bugs
+- Bugfix
 
-# 06/07/2018
+# 07/06/2018
 
-- Correction de bugs
+- Bugfix

@@ -35,11 +35,14 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 > **Spitze**
 >
-> Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**. Vous pouvez retrouver la liste des plugins [hier](http://market.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
+> Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**. 
+>[hier](http://market.jeedom.fr/index.php?v = d & p = Markt & Typ = Plugin).
 
 > **Spitze**
 >
-> Service Pack ?  ? Vous pouvez voir [hier](https://blog.jeedom.fr/?p = 1215) die Vorteile von Service Packs.
+> Service Pack ?  ? 
+>[hier](https://blog.jeedom.fr/?
+>.
 
 
 

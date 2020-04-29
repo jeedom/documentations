@@ -35,11 +35,14 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. Vous pouvez retrouver la liste des plugins [here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
+> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. 
+>[here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Tip**
 >
-> Service pack ? What is it ? Vous pouvez voir [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
+> Service pack ? What is it ? 
+>[here](https://blog.jeedom.fr/?
+>.
 
 
 Jeedom Smart

@@ -1,99 +1,101 @@
-- Amélioration du support des thermostats (possibilité de choisir n'importe quelle commande chauf/froid/off)
-- Support de la température de couleur
-- Préparation du support de la synchronisation sans cache
+# 23.01.2020
 
-# 11/12/2019
+- Verbesserte Unterstützung für Thermostate (Möglichkeit zur Auswahl einer Heizungs- / Kalt- / Ausschaltsteuerung)
+- Unterstützung der Farbtemperatur
+- Vorbereiten der Synchronisierungsunterstützung ohne Cache
 
-- Amélioration du support des ventilateur (on/off maintenant seulement)
-- Ajout du support des hottes
-- Aktualisierung des Dokuments
+# 12/11/2019
 
-# 15/10/2019
+- Verbesserte Lüfterunterstützung (jetzt nur ein / aus)
+- Zusätzliche Haubenstütze
+- Aktualisieren des Dokuments
 
-- Envoi automatique de la configuration au market lors de l'installation
+# 15.10.2019
 
-# 26/08/2019
+- Automatisches Senden der Konfiguration an den Markt während der Installation
 
-- Fehlerbehebungen
-
-# 23/08/2019
-
-- Aktualisierung des Dokuments
-
-# 08/06/2019
-
-- Aktualisierung des Dokuments
-
-# 03/06/2019
-
-- Fehlerbehebungen
-- Aktualisierung des Dokuments
-- Ajout d'information sur le status de l'abonnement aux services vocaux
-
-# 31/05/2019
-
-- Aktualisierung des Dokuments
-- Fehlerbehebungen
-- Ajout de type
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
-
-# 13/05/2019
-
-- Aktualisierung des Dokuments
-
-# 09/05/2019
-
-- Inversion de l'inversion des volets (pour s'accorder avec google)
-- correction de bugs
-- support de nouveau type d'équipements
-- améliorations diverse
-
-# 24/04/2019
+# 26.08.2019
 
 - Fehlerbehebungen
 
-# 08/02/2019
+# 23.08.2019
 
-- Support des modes sur l'alarme coté Jeedom (ne marche pas encore coté Google...)
-- Ajout de l'inversion sur les volets et store
-- Ajout des TV (nécessite jeedom 3.3.x ou plus)
-- Ajout du control de volumes et commande media (stop,pause,lecture,suivant,précedent) pour le type enceinte (nécessite jeedom 3.3.x ou plus)
-- Correction d'un soucis de non désactivation de la transmission lors de la désactivation d'un équipement
+- Aktualisieren des Dokuments
 
+# 06/08/2019
 
-# 07/01/2018
+- Aktualisieren des Dokuments
 
-- Mise à jour de la documentation
-- Ajout d'une option pour inverser l'ouverture/fermeture des volets
-- Ajout d'options pour le thermostat
-- Support du report state
-- Support d'une confirmation lors d'une action (attention le mode validation est bugué coté Google, le mode code marche)
-- Ajout des capteurs (ne marche pas encore, aucune doc coté Google)
-- Ajout des stores
-- Ajout des fenêtres (ne marche pas encore, aucune doc coté Google)
-- Ajout des portes (ne marche pas encore, aucune doc coté Google)
+# 06/03/2019
 
-# 25/11/2018
+- Fehlerbehebungen
+- Aktualisieren des Dokuments
+- Hinzufügen von Informationen zum Abonnementstatus für Sprachdienste
 
-- Aktualisierung des Dokuments
+# 31.05.2019
 
-# 04/10/2018
+- Aktualisieren des Dokuments
+- Fehlerbehebungen
+- Typ hinzufügen
+- Möglichkeit, Informationen über den generischen Typ zu erhalten, die beim Klicken auf das NOK-Etikett erforderlich sind
+- Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
-- Support des volets (attention c'est non officiel coté Google)
+# 13.05.2019
 
-# 31/07/2018
+- Aktualisieren des Dokuments
+
+# 05/09/2019
+
+- Inversion der Inversion der Fenster (um mit Google übereinzustimmen)
+- Fehlerbehebungen
+- Unterstützung für neue Arten von Geräten
+- verschiedene Verbesserungen
+
+# 24.04.2019
 
 - Fehlerbehebungen
 
-# 17/07/2018
+# 02/08/2019
 
-- Aktualisierung des Dokuments
+- Unterstützung von Alarmmodi auf der Jeedom-Seite (funktioniert noch nicht auf der Google-Seite ...)
+- Inversion an Rollläden und Jalousien hinzugefügt
+- Hinzufügen von Fernsehgeräten (erfordert Jeedom 3.3.x oder mehr)
+- Hinzufügen eines Lautstärkereglers und eines Medienbefehls (Stopp, Pause, Wiedergabe, Weiter, Zurück) für den Lautsprechertyp (erfordert Jeedom 3.3.x oder mehr)
+- Behebung eines Problems der Nicht-Deaktivierung des Getriebes beim Deaktivieren eines Geräts
 
-# 10/07/2018
+
+# 01/07/2018
+
+- Aktualisierung der Dokumentation
+- Fügen Sie eine Option hinzu, um das Öffnen / Schließen der Fensterläden umzukehren
+- Hinzufügen von Optionen für den Thermostat
+- Statusunterstützung melden
+- Unterstützung einer Bestätigung während einer Aktion (Achtung, der Validierungsmodus ist auf Google-Seite fehlerhaft, der Walking-Code-Modus)
+- Hinzufügen von Sensoren (funktioniert noch nicht, kein von Google gelistetes Dokument)
+- Jalousien hinzufügen
+- Hinzufügen von Fenstern (funktioniert noch nicht, kein Dokument bei Google aufgeführt)
+- Hinzufügen von Türen (funktioniert noch nicht, kein von Google gelistetes Dokument)
+
+# 25.11.2008
+
+- Aktualisieren des Dokuments
+
+# 10/04/2018
+
+- Unterstützung für die Fensterläden (beachten Sie, dass dies auf der Google-Seite inoffiziell ist)
+
+# 31.07.2008
 
 - Fehlerbehebungen
 
-# 06/07/2018
+# 17.07.2008
+
+- Aktualisieren des Dokuments
+
+# 07/10/2018
+
+- Fehlerbehebungen
+
+# 07/06/2018
 
 - Fehlerbehebungen

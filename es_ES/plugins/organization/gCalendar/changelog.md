@@ -1,3 +1,7 @@
+# 07/04/2020
+
+- Agregar eventos para el día actual
+
 # 08/13/2019
 
 - Soporte para php 7.3
