@@ -1264,7 +1264,6 @@
     "zwave\/equipement.compatible.md": {
         "RaZberry Controller": "RaZberry Controller",
         "Contrôleur": "Controller",
-        "jpg\" width=\"60\" \/": "jpg \"width =\" 60 \"\/",
         "RaZberry Controller ZWave+": "RaZberry Controller ZWave +",
         "Binary Sensor": "Binärsensor",
         "Z-Wave thermostat": "Z-Wave-Thermostat",
@@ -1690,9 +1689,6 @@
         "Key Fob (DSA22)": "Schlüsselanhänger (DSA22)",
         "Remplacé dans les boutiques par le keyfob Gen5": "In Geschäften durch den Gen5-Schlüsselanhänger ersetzt",
         "Z-Stick Lite (DSA07203)": "Z-Stick Lite (DSA07203)",
-        "1_usb adapter": "1_usb Adapter",
-        "1_ZME_UZB1 USB Stick": "1_ZME_UZB1 USB-Stick",
-        "1_RaZberry Controller ZWavePlus": "1_RaZberry Controller ZWavePlus",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind.",
         " zwaveme": " zwaveme",
         "zwaveme ": "zwaveme ",

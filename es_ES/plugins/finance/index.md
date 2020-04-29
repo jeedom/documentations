@@ -8,4 +8,4 @@ Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="porkfolio/porkfolio_icon.png "ancho =" 100 "/>|Porkfolio|Complemento para enviar y recibir información de su Pokfolio|[Documentación](porkfolio / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1503)|
+|<img src="porkfolio/porkfolio_icon.png" width="100" />|Porkfolio|Complemento para enviar y recibir información de su Pokfolio|[Documentación](porkfolio/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|

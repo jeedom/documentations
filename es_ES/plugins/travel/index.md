@@ -8,4 +8,4 @@ Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png "ancho =" 100 "/>|Waze in Time|Complemento para tener el tiempo de viaje entre dos puntos|[Documentación](wazeintime / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 1820)|
+|<img src="wazeintime/wazeintime_icon.png" width="100" />|Waze in Time|Complemento para tener el tiempo de viaje entre dos puntos|[Documentación](wazeintime/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|

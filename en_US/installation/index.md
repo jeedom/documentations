@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Quit by saving : `` CTRL + X`` then `` O`` then ``ENTER``
+Quit by saving : ``CTRL+X`` then ``O`` then ``ENTER``
 
 Reboot your RPI
 

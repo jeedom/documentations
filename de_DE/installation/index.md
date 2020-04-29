@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Beenden Sie durch Speichern : `` STRG + X`` dann `` O`` dann ``ENTER``
+Beenden Sie durch Speichern : ``CTRL+X`` dann ``O`` dann ``ENTER``
 
 Starten Sie Ihr RPI neu
 

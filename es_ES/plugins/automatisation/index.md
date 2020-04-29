@@ -8,4 +8,4 @@ Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png "ancho =" 100 "/>|Gestión de persianas|Plugin para gestionar la apertura / cierre de las persianas según el sol|[Documentación](sunshutter / index.md) - [Mercado](https://market.jeedom.com/index.php?v = d & p = market_display & id = 3793)|
+|<img src="sunshutter/sunshutter_icon.png" width="100" />|Gestión de persianas|Plugin para gestionar la apertura / cierre de las persianas según el sol|[Documentación](sunshutter/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
