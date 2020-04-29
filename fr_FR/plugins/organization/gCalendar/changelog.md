@@ -1,3 +1,7 @@
+# 28/04/2020
+
+- Correction d'un soucis sur les évenements journée en cours à cheval sur 2 jours
+
 # 07/04/2020
 
 - Ajout des évenements sur la journée en cours
