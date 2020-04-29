@@ -8,4 +8,6 @@ Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=p
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Palazzetti/Palazzetti_icon.png" width="100" />|Palazzetti|Plugin Autor : Narsene.<br/>ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. <br/>Plugin de pilotage poêle à granules de la marque Palazzetti au moyen de la Connection Box|[Dokumentation](Palazzetti/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|
+|<img src="Palazzetti/Palazzetti_icon.png" width="100" />|Palazzetti|Plugin Autor : Narsene.
+BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. 
+Pelletofen-Steuerungs-Plugin der Marke Palazzetti über die Connection Box|[Dokumentation](Palazzetti/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|

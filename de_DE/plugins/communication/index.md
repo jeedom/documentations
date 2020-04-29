@@ -12,7 +12,9 @@ Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=p
 | | | | |
 |--- | --- | --- | ---|
 |<img src="ash/ash_icon.png" width="100" />|Alexa|Alexa|[Dokumentation](ash/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3409)|
-|<img src="bornetenda/bornetenda_icon.png" width="100" />|Tenda W301A Poller|Plugin Autor : Thomas Guenneguez <br> BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen.<br>Plugin permettant de gérer les Bornes Tenda W301A.|[Dokumentation](bornetenda/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
+|<img src="bornetenda/bornetenda_icon.png" width="100" />|Tenda W301A Poller|Plugin Autor : Thomas Guenneguez
+BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen.
+Plugin zur Verwaltung von Tenda W301A Kiosken.|[Dokumentation](bornetenda/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1299)|
 |<img src="dialogflow/dialogflow_icon.png" width="100" />|Dialogfluss|Das Plugin ermöglicht die Kommunikation mit Google Home / Assistant über Jeedom-Interaktionen|[Dokumentation](dialogflow/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3215)|
 |<img src="gcast/gcast_icon.png" width="100" />|Gcast|Einfaches Cast Management Plugin und ermöglicht Sprachbenachrichtigung|[Dokumentation](gcast/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3057)|
 |<img src="gsh/gsh_icon.png" width="100" />|Google Smarthome|Plugin zum Fahren von Jeedom mit einem Google Home. Wichtig : Die Konfiguration dieses Plugins ist nicht Click and Play. Es ist unbedingt erforderlich, die Dokumentation zu lesen, bevor Sie es kaufen !!!!!|[Dokumentation](gsh/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3412)|
@@ -21,13 +23,56 @@ Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=p
 |<img src="jeelink/jeelink_icon.png" width="100" />|Jeedom Link|Plugin zum Verknüpfen mehrerer Jeedom|[Dokumentation](jeelink/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2530)|
 |<img src="lametric/lametric_icon.png" width="100" />|LaMetric|Plugin zum Anzeigen von Benachrichtigungen zur LaMetric Time|[Dokumentation](lametric/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2818)|
 |<img src="mail/mail_icon.png" width="100" />|Mail|Plugin zum Versenden von E-Mails|[Dokumentation](mail/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=22)|
-|<img src="mobile/mobile_icon.png" width="100" />|Mobile App|Mit der offiziellen Jeedom-Anwendung können Sie Ihr Jeedom-Hausautomationssystem steuern, sei es über lokales WLAN oder über das 3G / 4G-Netzwerk Ihres Betreibers.<br/><br/>L'app se connecte automatiquement à votre Jeedom avec une initialisation automatique par QRcode, aucune configuration n'est nécessaire. (Möglichkeit es manuell zu machen) <br/> Auf Ihrem Handy finden Sie alle Funktionen Ihres Jeedom.<br/>Vous pourrez personnaliser votre application avec des raccourcis et plus encore...<br/><br/>Fonctionnalités actuelles:<br/>- Gestion de vos scénarios.<br/>- Gestion de votre domotique en fonction de vos pièces et équipements.<br/>- Maj et retour d'état automatique<br/>- Compatibilité aves les plugins, tel que thermostat, alarme, caméra etc...<br/>- Interface personnalisable avec les raccourcis.<br/>- Résumé domotique général et par pièce<br/>- Notifications (avec prise en charge du ASK)<br/>- Affichage des Designs <br/><br/>D'autres fonctionnalités et compatibilités sont à venir dans les prochaines mises à jour !<br/><br/>Respect de la vie privée.<br/>Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs.|[Dokumentation](mobile/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
-|<img src="nest/nest_icon.png" width="100" />|Nest|Mit diesem Plugin können Sie Ihren Nest-Thermostat oder Nest-Schutz (achten Sie darauf, dass Sie keine Warnungen in Echtzeit melden) in Ihrem Jeedom finden.<br/>Wichtig : In Europa gibt es keine API für Nest E.. Mit diesem Plugin können Sie daher keinen Nest E-Thermostat in Europa steuern.|[Dokumentation](nest/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
+|<img src="mobile/mobile_icon.png" width="100" />|Mobile App|Mit der offiziellen Jeedom-Anwendung können Sie Ihr Jeedom-Hausautomationssystem steuern, sei es über lokales WLAN oder über das 3G / 4G-Netzwerk Ihres Betreibers.
+
+Die App stellt automatisch eine Verbindung zu Ihrem Jeedom mit automatischer Initialisierung per QRcode her. Es ist keine Konfiguration erforderlich. (Möglichkeit es manuell zu machen)
+Auf Ihrem Handy finden Sie alle Funktionen Ihres Jeedom.
+Sie können Ihre App mit Verknüpfungen und mehr anpassen...
+
+Aktuelle Funktionen:
+- Verwalten Ihrer Szenarien.
+- Management Ihrer Hausautomation nach Ihren Teilen und Geräten.
+- Automatische Schalt- und Statusrückmeldung
+- Kompatibilität mit Plugins wie Thermostat, Alarm, Kamera usw....
+- Anpassbare Oberfläche mit Verknüpfungen.
+- Allgemeine Hausautomation und nach Raum
+- Benachrichtigungen (mit ASK-Unterstützung)
+- Anzeige von Designs 
+
+Weitere Funktionen und Kompatibilitäten werden in den nächsten Updates verfügbar sein !
+
+Respekt für die Privatsphäre.
+Auf unseren Servern werden keine Daten (Heimautomation oder persönliche Daten) gespeichert oder gespeichert.|[Dokumentation](mobile/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2030)|
+|<img src="nest/nest_icon.png" width="100" />|Nest|Mit diesem Plugin können Sie Ihren Nest-Thermostat oder Nest-Schutz (achten Sie darauf, dass Sie keine Warnungen in Echtzeit melden) in Ihrem Jeedom finden.
+Wichtig : In Europa gibt es keine API für Nest E.. Mit diesem Plugin können Sie daher keinen Nest E-Thermostat in Europa steuern.|[Dokumentation](nest/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=407)|
 |<img src="networks/networks_icon.png" width="100" />|Network|Plugin zur Netzwerkverwaltung von Geräten : ping (ip, arp und port) und wache auf lan auf|[Dokumentation](networks/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1950)|
-|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin zur Steuerung Ihres Nimbus.<br/><br/>Vous pouvez controller le texte affiché, la position des aiguilles. Alles über Szenario oder über das Dashboard.<br/><br/>Une représentation personnalisable du nimbus sur votre dash viendra aggrémenter le tout<br/><br/>Le dashboard est complétement personnalisable<br/><br/>Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario)<br/><br/>Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans.<br/><br/><br/>Bien lire la documentation|[Dokumentation](nimbus/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
+|<img src="nimbus/nimbus_icon.png" width="100" />|Nimbus|Plugin zur Steuerung Ihres Nimbus.
+
+Sie können den angezeigten Text und die Position der Hände steuern. Alles über Szenario oder über das Dashboard.
+
+Eine anpassbare Darstellung des Nimbus auf Ihrem Armaturenbrett verbessert das Ganze
+
+Das Dashboard ist vollständig anpassbar
+
+Sie können die Position jeder Nadel und den Text jedes Bildschirms unabhängig voneinander ändern (entweder über das Dashboard oder über das Szenario).
+
+Es gibt auch einen Demo-Befehl und einen All-Befehl (um auf allen Bildschirmen gleichzeitig zu agieren) sowie einen Phrasenbefehl, um eine Phrase auf den 4 Bildschirmen zu teilen.
+
+
+Lesen Sie die Dokumentation|[Dokumentation](nimbus/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1506)|
 |<img src="notificationmanager/notificationmanager_icon.png" width="100" />|Benachrichtigungsmanager|Mit diesem Plugin können Sie Benachrichtigungen verwalten (Wiederherstellung im Fehlerfall, Generierung von Text ...)|[Dokumentation](notificationmanager/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3315)|
 |<img src="openvpn/openvpn_icon.png" width="100" />|Openvpn|Plugin zum Verwalten der Verbindung zu einem OpenVPN-Server|[Dokumentation](openvpn/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1965)|
-|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin zur Steuerung von Philips Hue-Lampen.<br/>Fonctions dispos:<br/>- On/Off<br/>- Luminosité<br/>- Transition<br/>- Groupe<br/>- Couleur<br/>- Mode Alerte<br/>- Mode Arc en ciel<br/><br/>ATTENTION : Es gibt eine leichte bekannte Farbverschiebung zwischen dem Wahlschalter und der Farbe der Glühbirne. Es scheint, dass das Farbraster der Glühbirnen einen Versatz hat|[Dokumentation](philipsHue/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
+|<img src="philipsHue/philipsHue_icon.png" width="100" />|Philips Hue|Plugin zur Steuerung von Philips Hue-Lampen.
+Verfügbare Funktionen:
+- Ein / Aus
+- Helligkeit
+- Übergang
+- Gruppe
+- Farbe
+- Alarmmodus
+- Regenbogenmodus
+
+Achtung : Es gibt eine leichte bekannte Farbverschiebung zwischen dem Wahlschalter und der Farbe der Glühbirne. Es scheint, dass das Farbraster der Glühbirnen einen Versatz hat|[Dokumentation](philipsHue/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
 |<img src="phonemarket/phonemarket_icon.png" width="100" />|Telefonmarkt|Plugin, um den Markt als SMS-Gateway zu nutzen und Anrufe zu tätigen|[Dokumentation](phonemarket/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1694)|
 |<img src="sarah/sarah_icon.png" width="100" />|Sarah|Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)|[Dokumentation](sarah/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=17)|
 |<img src="slack/slack_icon.png" width="100" />|Slack|Plugin, um Jeedom mit Schlaff zu verbinden|[Dokumentation](slack/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1689)|

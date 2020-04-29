@@ -8,4 +8,6 @@ Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Palazzetti/Palazzetti_icon.png" width="100" />|Palazzetti|Autor del complemento : Narsene.<br/>ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée. El equipo técnico de Jeedom proporcionará asistencia con este complemento sin obligación de resultado.. <br/>Plugin de pilotage poêle à granules de la marque Palazzetti au moyen de la Connection Box|[Documentación](Palazzetti/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|
+|<img src="Palazzetti/Palazzetti_icon.png" width="100" />|Palazzetti|Autor del complemento : Narsene.
+TENGA EN CUENTA que este no es un complemento oficial de Jeedom sino un complemento desarrollado por una tercera persona y cuyo desarrollo ha sido abandonado. El equipo técnico de Jeedom proporcionará asistencia con este complemento sin obligación de resultado.. 
+Complemento de control de la estufa de pellets de la marca Palazzetti usando la caja de conexión|[Documentación](Palazzetti/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|
