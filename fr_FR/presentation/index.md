@@ -1,7 +1,7 @@
 Présentation
 ===
 
-Jeedom est une solution domotique Open-Source et Cloudless (sans serveurs dans le cloud). Il fonctionne sans abonnement, ce qui permet de garantir le fonctionnement de votre domotique sans internet, ainsi que la sécurité de vos données. Il est également extrêmement ouvert, multi-protocoles, personnalisable, et fortement évolutif.
+Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans le cloud). Il fonctionne sans abonnement, ce qui permet de garantir le fonctionnement de votre domotique sans internet, ainsi que la sécurité de vos données. Il est également extrêmement ouvert, multi-protocoles, personnalisable, et fortement évolutif.
 
 Jeedom propose un noyau, le Core, embarquant la structure et les fonctions centrales.
 
@@ -36,6 +36,8 @@ Le Core comprend notamment:
 ![Page Sauvegarde](images/doc-presentation-sauvegarde.jpg)
 
 
+Market
+===
 
 Autour de ce noyau viennent se greffer des plugins, qui peuvent être de toutes sortes :
 

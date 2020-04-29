@@ -38,6 +38,9 @@ body.dark a:focus {
 body.dark nav {
   background-color: #26A69A;
 }
+body.dark .caret > path:first-child {
+  fill: #ebebeb;
+}
 #logo-container {
   opacity: 1;
 }
