@@ -19,9 +19,13 @@ The Core includes:
 
 - A particularly complete scenario engine.
 
+The scenarios are built with different blocks. Conditional blocks (If Then, Otherwise), actions, programming (IN x minutes or A hhmm), loop, comment, or php code. All blocks are nestable into each other, offering endless possibilities.
+
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
 - The historization of information.
+
+All the information is historisable, and accessible in Analysis → History or from the Dashboard tiles.
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 

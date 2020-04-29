@@ -19,9 +19,13 @@ Der Kern enthält:
 
 - Eine besonders vollständige Szenario-Engine.
 
+Die Szenarien werden mit verschiedenen Blöcken erstellt. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.
+
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
 - Die Historisierung von Informationen.
+
+Alle Informationen sind historisierbar und können unter Analyse → Verlauf oder über die Dashboard-Kacheln abgerufen werden.
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 

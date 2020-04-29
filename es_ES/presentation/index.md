@@ -19,9 +19,13 @@ El núcleo incluye:
 
 - Un motor de escenario particularmente completo.
 
+Los escenarios se construyen con diferentes bloques.. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades..
+
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
 - La historización de la información..
+
+Toda la información es historizable y accesible en Análisis → Historial o desde los mosaicos del Tablero.
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
