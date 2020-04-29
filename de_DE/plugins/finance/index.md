@@ -6,6 +6,6 @@
 
 Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=finance) Alle Plugins (offiziell oder nicht) in dieser Kategorie
 
-Plugin zum Senden und Empfangen von Informationen aus Ihrem Pokfolio| | | | |
+| | | | |
 |--- | --- | --- | ---|
-|<img src="porkfolio/porkfolio_icon.png" width="100" />|Porkfolio||[Dokumentation](porkfolio/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|
+|<img src="porkfolio/porkfolio_icon.png" width="100" />|Porkfolio|Plugin zum Senden und Empfangen von Informationen aus Ihrem Pokfolio|[Dokumentation](porkfolio/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|
