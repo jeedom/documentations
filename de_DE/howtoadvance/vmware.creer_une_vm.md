@@ -26,7 +26,7 @@ Gehen Sie mit Ihrem Internetbrowser zu IP \ _ESXI / ui :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie nichts haben, rate ich Ihnen zu installieren
 > Webinterface, alle Informationen
@@ -116,7 +116,7 @@ hart, CPU, Gedächtnis ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
 
-> **Notiz**
+> **Note**
 >
 > Alle diese Parameter können anschließend ohne Bedenken geändert werden
 > Es ist jedoch nicht wirklich möglich, die Größe zu reduzieren
@@ -138,7 +138,7 @@ Dann mach weiter :
 ![vmware.createvm12]((images/vmware.createvm12.PNG)
 
 Sie haben dann eine Zusammenfassung Ihrer Konfiguration, klicken Sie auf
-"Beenden Sie" :
+"Terminer" :
 
 ![vmware.createvm13]((images/vmware.createvm13.PNG)
 
@@ -161,7 +161,7 @@ Ihr Betriebssystem :
 
 ![vmware.createvm17]((images/vmware.createvm17.PNG)
 
-> **Wichtig**
+> **Important**
 >
 > Sobald Ihr Computer installiert ist, MÜSSEN Sie den installieren
 > VMware-Tools ((Dadurch kann VMware Informationen zu Ihrer VM abrufen
@@ -174,7 +174,7 @@ Für den Rest der Installation lade ich Sie ein, dies zu lesen
 Mounten Sie USB-Geräte in der VM 
 =======================================
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie die folgenden Optionen nicht haben, müssen Sie sie aktualisieren
 > der ESXi Embedded Host Client, alle Informationen
@@ -185,7 +185,7 @@ in der Tat habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcea
 verbunden und ich musste sie mit meiner Jeedom VM verbinden, um in der Lage zu sein
 benutze es.
 
-> **Notiz**
+> **Note**
 >
 > Für Zwave, RFXcom, edisio und enOcean gibt es kein Problem, z
 > GSM-Schlüssel müssen Sie befolgen
@@ -201,7 +201,7 @@ Klicken Sie auf "Anderes Gerät hinzufügen" und dann auf USB-Controller :
 
 ![vmware.createvm26]((images/vmware.createvm26.PNG)
 
-> **Notiz**
+> **Note**
 >
 > Der folgende Schritt sollte für jedes USB-Gerät wiederholt werden
 > Sie möchten eine Verbindung herstellen
@@ -219,4 +219,4 @@ Und jetzt ist Ihr Gerät an Ihre VM angeschlossen. Bei jedem
 Neustart wird automatisch wieder mit der VM verbunden und wenn Sie
 physisch trennen / verbinden, dann wird es wieder verbunden
 Ihre VM. Mit anderen Worten, die Verwendung ist jetzt total
-transparent.
+transparente.

@@ -36,7 +36,7 @@
 | 54703          | Bewegung      |                |                |                |
 | DI.O von Chacon | Fernbedienung 3 | AC             |                |                |
 | 54760          | Kanäle         |                |                |                |
-| DI.O von Chacon | Fernbedienung   | AC             |                | [Kaufen](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-Kanäle-Blanche-%28gamme-DI-O%29.htm)      |
+| DI.O von Chacon | Fernbedienung   | AC             |                | [Kaufen](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O von Chacon | Steckdose          | AC             |                |                |
 | 54746          | im Freien     |                |                |                |
 | DI-O von Chacon | Detektor      | AC             |                |                |
@@ -74,7 +74,7 @@
 | TFA 30.3139 FUNKSENSOR    | Temperatur    |                |                |                |
 | WD18           | Wasserdetektor     | X10            |                |                |
 
-> **Notiz**
+> **Note**
 >
 > Diese Liste basiert auf Benutzer-Feedback, das Jeedom-Team nicht
 > kann daher garantieren, dass alle Module in dieser Liste 100% sind

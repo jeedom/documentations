@@ -111,11 +111,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper Documentation. It's important to
@@ -128,7 +128,7 @@ inclusion refer to this
 
 \
 
-Wece included you should get this :
+Once included you should get this :
 
 \
 
@@ -140,8 +140,8 @@ Wece included you should get this :
 
 \
 
-Wece the module has been recognized, the commands associated with the modules will be
-available.
+Once the module has been recognized, the commands associated with the modules will be
+disponibles.
 
 \
 
@@ -172,7 +172,7 @@ the same icon.
 \
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
@@ -215,7 +215,7 @@ This module has 2 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -246,7 +246,7 @@ Faq.
 \
 
 Yes it is parameter 2 and it cannot be set below 3
-seconds.
+secondes.
 
 \
 

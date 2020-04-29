@@ -17,7 +17,7 @@
 
 
 
-> **Nota**
+> **Note**
 >
 > Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no
 > por lo tanto, puede garantizar que todos los módulos de esta lista sean 100%

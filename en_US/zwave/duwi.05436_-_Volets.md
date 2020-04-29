@@ -36,7 +36,7 @@ Its main features are :
 -   The ability to send a continuous up / down signal without
     time limit.
 
-Be careful: this module does not send its status to the z-wave controller when
+Attention: this module does not send its status to the z-wave controller when
 the user presses the buttons directly. You have to make a
 'Refresh 'on its position to update, or adjust the Poll (see
 further).
@@ -117,11 +117,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put the module in inclusion mode, press three times
 > on the ascent or descent. Exclusion is done the same way.
@@ -141,11 +141,11 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
-![Commands](images/duwi.05436/4-Commands.PNG)
+![Commands](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -216,7 +216,7 @@ Parameter details :
 -   0 : Running Time :
 
 These are the rise and fall times. You should find your
-learning.
+apprentissage.
 
 Coding is done by two pairs of bytes : the first for the climb
 and the second for the descent.
@@ -230,13 +230,13 @@ decimal : 18s for ascent and descent.
 
 To note : forcing a value to zero for this parameter will imply that the
 module will switch on ascent or descent without time limit. It will take
-then send a 'STOP' to interrupt.
+then send a 'Stop' to interrupt.
 
 -   1 : STOP-functionnality : Enabled or Disabled :
 
 Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction
-opposite.
+opposé.
 
 \
 
@@ -249,7 +249,7 @@ find your Z-Wave controller.
 
 \
 
-![Groupe](images/duwi.05436/6-Groups.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \
 

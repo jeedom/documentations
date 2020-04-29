@@ -48,9 +48,9 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json deines Plugins dafür ist es notwendig : 
 
 - ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- ajouter #language#/Änderungsprotokoll pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/Änderungsprotokoll"
+- ajouter #language#/Änderungsprotokoll pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
-> **Notiz**
+> **Note**
 >
 > Sie werden verstehen, wann der Benutzer nach Ihrem Jeedom-Dokument fragen wird oder der Markt automatisch # language # durch die Sprache des Benutzers ersetzt, um auf die richtige Sprache zu verweisen (wenn Ihre Dokumentation nicht in der Sprache verfügbar ist des Benutzers kehrt es dann automatisch zu Französisch zurück)
 
@@ -59,10 +59,10 @@ Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json
 Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmanagement nicht nur automatisch, sondern auch sehr einfach einzurichten. Autorisieren Sie einfach den Benutzer github zoic21, Ihr Repository zu pushen / zu ziehen und auf den Markt zu bringen Klicken Sie auf der Editionsseite Ihres Plugins auf der Registerkarte Github auf "Aktivieren Sie die Generierung von Dokumentation und Übersetzung". Der Roboter fährt jeden Tag um 12 Uhr (mehr oder weniger 2 Stunden, abhängig von der Arbeitsbelastung), um die französische Dokumentation Ihres Plugins abzurufen, und das Changelog (Beta-Zweig) schiebt es auf Transiflex (Community-Übersetzungssystem), um die Nachrichten abzurufen Übersetzung und schieben Sie es auf Ihr Github-Repository in den richtigen Ordnern.
 
 
-> **Wichtig**
+> **Important**
 >
 > Damit der Übersetzungsverwaltungsteil automatisch funktioniert, muss Ihr Plugin auf Github gehostet werden
 
-> **Notiz**
+> **Note**
 >
 > Beachten Sie, dass einmal Ihre Info-Datei.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) fügt automatisch Ihr Plugin hinzu.

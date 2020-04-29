@@ -32,7 +32,7 @@ oder schneller Temperaturabfall.
 Es ist mit einem Neigungssensor ausgestattet, der einen Alarm sendet
 sofort zum Z-Wave-Netzwerk, wenn der Detektor bewegt oder gestohlen wird
 (gibt die Neigung oder Rückmeldung an den Z-Wave-Controller zurück
-Bewegung).
+mouvement).
 
 Dieser universelle Hochwasser- und Temperaturdetektor kann mit Strom versorgt werden
 durch Batterie oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
@@ -41,7 +41,7 @@ Notstromversorgung.
 
 Dank seines Temperatursensors können Sie die Temperatur von steuern
 dein Boden. Es ist wasserdicht, im Hochwasser schwimmt es auf der Oberfläche von
-Wasser.
+l'eau.
 
 Es hat auch einen Sirenenalarm, der im Falle von ertönen kann
 Problem. Sie können den Trockenkontaktausgang an ein System anschließen
@@ -134,11 +134,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
@@ -163,7 +163,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -191,7 +191,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
@@ -317,7 +317,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

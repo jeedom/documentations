@@ -48,21 +48,21 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 Ahora necesita poner los enlaces de su documentación en el archivo de información.json de tu plugin para eso es necesario : 
 
 - ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- ajouter #language#/Cambios pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/Cambios"
+- ajouter #language#/Cambios pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
-> **Nota**
+> **Note**
 >
-> Comprenderá cuándo el usuario solaquítará ver su documento de jeedom o el mercado reemplazará automáticamente # idioma # con el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, entonces automáticamente volverá al francés)
+> Comprenderá cuándo el usuario solicitará ver su documento de jeedom o el mercado reemplazará automáticamente # idioma # con el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, entonces automáticamente volverá al francés)
 
 ### Gestión de la traducción
 
-Si su plugin está estructurado como el consejo anterior, entonces la administración de la traducción es muy simple de configurar además de ser automática, solo autorice al usuario github zoic21 a presionar / tirar en su repositorio y en el mercado en la página de edaquíón de su complemento en la pestaña github para marcar "Activar la generación de documentación y traducción". El robot funciona todos los días a las 12 del mediodía (más o menos 2 horas, dependiendo de la carga de trabajo) para recuperar la documentación francesa de su complemento y el registro de cambios (rama beta) lo empuja en Transiflex (sistema de traducción comunitario), recupere las notaquías traducción y empujarlo en su repositorio de github en las carpetas correctas.
+Si su plugin está estructurado como el consejo anterior, entonces la administración de la traducción es muy simple de configurar además de ser automática, solo autorice al usuario github zoic21 a presionar / tirar en su repositorio y en el mercado en la página de edición de su complemento en la pestaña github para marcar "Activar la generación de documentación y traducción". El robot funciona todos los días a las 12 del mediodía (más o menos 2 horas, dependiendo de la carga de trabajo) para recuperar la documentación francesa de su complemento y el registro de cambios (rama beta) lo empuja en Transiflex (sistema de traducción comunitario), recupere las noticias traducción y empujarlo en su repositorio de github en las carpetas correctas.
 
 
-> **Importante**
+> **Important**
 >
 > Para que la parte de gestión de la traducción funcione automáticamente, su complemento debe estar alojado en Github
 
-> **Nota**
+> **Note**
 >
 > Tenga en cuenta que una vez que su archivo de información.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) agregará automáticamente su complemento.

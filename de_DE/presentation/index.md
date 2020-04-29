@@ -7,15 +7,15 @@ Jeedom besteht aus einem zentralen Teil (Kern genannt), der sich um die Grundfun
 
 ![Page Szenario](images/doc-presentation-scenario.png)
 
--   *Historisierung*
+-   *Historisation*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Anzeigen*
+-   *Affichage*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
--   *Interaktion*
+-   *Interaction*
 
 ![Page Interaktion](images/doc-presentation-interaction.png)
 
@@ -41,14 +41,14 @@ Diese Plugins können über Market abgerufen werden und ermöglichen es Ihnen, d
 
 Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt ...
 
-Prinzip
+Principe
 === 
 
 Jeedom hat die Besonderheit, ohne Abonnement und ohne Cloud zu sein, was es ermöglicht, die Funktion Ihrer Hausautomation zu gewährleisten, auch wenn Sie kein Internet mehr haben. Dies garantiert auch die Sicherheit Ihrer Daten (vermeidet das Risiko eines Massenhacks von Konten).
 
 Da das Projekt Open und Open Source ist, garantiert es dank der vielen beteiligten Entwickler auch eine hohe Entwicklungsrate.
 
-Links
+Liens
 ===
 
 Es wurden mehrere Video-Tutorials erstellt, um die wichtigen Funktionen von Jeedom zu zeigen, seine Verwendung zu erleichtern und den Benutzer mit der Software vertraut zu machen..

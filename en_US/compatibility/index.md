@@ -8,20 +8,20 @@ Hummboard            | Stable                  |
 Odroid C2               | Stable                  |                          
 SMART                   | Stable                  |                          
 RPI1                    | Stable                  |                          
-RPI2                    | Unoffhereal / Stable     |                          
-RPI3                    | Unoffhereal / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
+RPI2                    | Unofficial / Stable     |                          
+RPI3                    | Unofficial / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
 64 bit                 | Stable                  |                          
 32 bit                 | Unsupported            |                          
 Vmware                  | Stable                  | No support for VMware, only for Jeedom. ATTENTION VmWare 6.5 requires installation of a VMWare patch for Zwave support.         
 
-Pictures
+Images
 ======
 
 You can find all Jeedom images
 [here](https://images.jeedom.com/),
 then in the Pictures folder
 
-> **NOTE**
+> **Note**
 >
 > A netinstall image will install the
 > latest stable version of Jeedom, so this startup is a little more
@@ -45,10 +45,10 @@ after installing a linux distribution corresponding to your
 equipment : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian
 (Ordoid,…),…
 
-Software
+Logiciel
 ========
 
-> **IMPORTANT**
+> **Important**
 >
 > Jeedom only supports Debian Jessie (stable) and Stretch (stable).
 > Any other version (Wheezy…) or distribution (Ubuntu…) is not
@@ -64,7 +64,7 @@ Software
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Other
+Autre
 =====
 
 USB stick / Expansion module

@@ -4,7 +4,7 @@ Beschreibung
 Das Verfahren ermöglicht es Ihnen, eine Verbindung zu Ihrer Box in SFTP herzustellen, um
 die täglichen Backups, die von ihm erstellt wurden, wiederherzustellen.
 
-> **Spitze**
+> **Tip**
 >
 > Achtung, damit dieses Verfahren funktioniert, ist es notwendig, dass
 > Der SSH-Server der Box ist weiterhin funktionsfähig.
@@ -29,7 +29,7 @@ Informationen oben im Filezilla-Fenster :
 
 -   Login : Jeedom
 
--   Passwort : MJeedom96
+-   Passwort : Mjeedom96
 
 -   Hafen : 22
 

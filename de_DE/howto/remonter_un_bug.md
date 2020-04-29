@@ -5,14 +5,14 @@ In Jeedom gibt es verschiedene Möglichkeiten, Bedenken zu melden :
 - Setzen Sie die Besorgnis wieder auf die [Gemeinschaft](https://community.jeedom.com), Hier erhalten Sie normalerweise die schnellste Antwort
 - Melden Sie dem Jeedom-Team Bedenken : 
   - **Supportanfrage** (erfordert eine Service Pack-Leistung oder mehr oder auch wenn das Problem bei einem Plugin / kostenpflichtigen Dienst liegt), ist diese Anforderung **privat** und bringt Sie direkt in Kontakt mit dem Jeedom-Support-Team, das Ihren speziellen Fall analysiert
-  - **Fehlerbericht**, in diesem Fall ist die Anfrage **Öffentlichkeit** und wird in der Community veröffentlicht
-  - **Bitte um Verbesserung**, in diesem Fall ist die Anfrage **Öffentlichkeit** und wird in der Community veröffentlicht
+  - **Fehlerbericht**, in diesem Fall ist die Anfrage **publique** und wird in der Community veröffentlicht
+  - **Bitte um Verbesserung**, in diesem Fall ist die Anfrage **publique** und wird in der Community veröffentlicht
 
->**Notiz**
+>**NOTE**
 >
 >Bei einer Supportanfrage für ein Plugin eines Drittanbieters wird eine E-Mail an den Plugin-Entwickler gesendet
 
->**Wichtig**
+>**IMPORTANT**
 >
 >Denken Sie daran, Ihren Spam zu überwachen, da der Support ausschließlich per E-Mail erfolgt. Meistens reagiert der Support schnell (Verzögerung vor der Antwort durchschnittlich weniger als 72 Stunden, Vorsicht, je nach Problem kann es viel länger dauern)
 

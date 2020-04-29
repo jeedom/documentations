@@ -27,12 +27,12 @@ configurar así :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **Nota**
+> **Note**
 >
 > Recuerde seleccionar el archivo ISO que descargó
 > justo antes
 
-Solo tienes que hacer clic en Inaquío, luego poner la llave USB
+Solo tienes que hacer clic en Inicio, luego poner la llave USB
 en la máquina y arrancarlo.
 
 En una máquina virtual 

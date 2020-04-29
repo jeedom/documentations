@@ -62,7 +62,7 @@ Lock and unlock with the button, the TwistAssist function or
 using your smartphone. And with the auto-unlock function,
 Danalock lock automatically unlocks the door when you
 approach your house and lock it right after you are
-returns.
+rentré.
 
 **Long battery life**
 
@@ -174,11 +174,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > It is essential to include this module in secure mode..
 
@@ -201,7 +201,7 @@ SECURE (INCLUSION)"
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > We assume that you have installed the application on
 > your smartphone or iphone and created an account. If it is not already
@@ -229,7 +229,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -266,7 +266,7 @@ Here is the list of commands :
 \
 
 If you want to configure the module according to your
-installation, you have to go through the "Setup" button of the
+installation, you have to go through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \

@@ -24,10 +24,10 @@ Summary
 
 \
 
-The NodWe® remote-controlled socket can be controlled via a home automation system
+The NodOn® remote-controlled socket can be controlled via a home automation system
 Z-Wave® or Z-Wave Plus® compatible or directly via other
 Z-Wave® or Z-Wave Plus® controllers such as the Soft Remote,
-the wall switch or the Octan Remote NodWe®. German standard
+the wall switch or the Octan Remote NodOn®. German standard
 (Schuko) or French (Type E), the plug can be connected in 2
 sense, head up or head down. Associated with its fine design, these 2
 features allow easy integration without clogging up
@@ -104,11 +104,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > until the light turns red, according to its Documentation
@@ -120,7 +120,7 @@ inclusion refer to this
 
 \
 
-Wece included you should get this :
+Once included you should get this :
 
 \
 
@@ -132,8 +132,8 @@ Wece included you should get this :
 
 \
 
-Wece the module has been recognized, the commands associated with the module will be
-available.
+Once the module has been recognized, the commands associated with the module will be
+disponibles.
 
 \
 
@@ -167,7 +167,7 @@ the same icon.
 \
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom Zwave plugin.
 
 \
@@ -262,7 +262,7 @@ This module has 8 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should be found in groups 1 and 4 \
 

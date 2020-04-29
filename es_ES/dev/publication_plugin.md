@@ -36,4 +36,4 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
    - pro (es inútil en el 99% de los casos)
    - Establev3 (próximamente)
    
-   La sincronización se realiza automáticamente todos los días a las 12:10 (tenga en cuenta la cantidad de complementos y restricciones de llamadas después de que la actualización comience a las 12:10, pero tome varias diez horas). También puede inaquíar una sincronización manual de una rama desde el archivo de complemento
+   La sincronización se realiza automáticamente todos los días a las 12:10 (tenga en cuenta la cantidad de complementos y restricciones de llamadas después de que la actualización comience a las 12:10, pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo de complemento

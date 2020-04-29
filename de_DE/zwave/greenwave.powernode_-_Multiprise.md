@@ -142,11 +142,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss an der Steckdose vorhanden.
@@ -170,7 +170,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -320,7 +320,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe
-wesentlich.
+indispensable.
 
 \.
 
@@ -401,7 +401,7 @@ Hast du für einen CRON bezahlt?.
 \.
 
 Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein Stück schwarzes Klebeband
-oben.
+dessus.
 
 \.
 **@sarakha63**

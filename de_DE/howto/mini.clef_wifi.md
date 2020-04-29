@@ -9,14 +9,14 @@ Bitte beachten Sie, dass dieses Verfahren nur so funktioniert, wie es in der
 strenger Rahmen der zuvor angegebenen Umgebung (gleiches Modell, gleiches
 Jeedom Box, gleiche WiFi-Authentifizierung) . Natürlich kann das
 Arbeiten Sie auch für andere Komponenten (oder nicht), jedoch ohne
-Garantie.
+garantie.
 
-> **Wichtig**
+> **Important**
 >
 > Achtung, dieses Verfahren ist besonders bei mini + under nicht zu machen
 > Probleme, den Zugriff darauf zu verlieren und alles neu installieren zu müssen.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Dokument ist bei Bedenken auf eigenes Risiko anzuwenden
 > Das Jeedom-Team kann in keiner Weise zur Verantwortung gezogen werden.

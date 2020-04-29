@@ -13,7 +13,7 @@ funktional :
     sudo npm install -g knotenrot
 
 Um Nodejs zu bekommen, können Sie eines der jeedom Plugins installieren, die
-Last.
+charge.
 
 Automatischer Start von Nodered 
 ================================
@@ -27,20 +27,20 @@ Apache-Konfiguration
 ======================
 
 Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered zugegriffen werden kann
-Proxy.
+proxy.
 
     <Location /jeedom/nodered>
-    ProxyPass ws:// localhost:1880 / jeedom / nodered /
-    ProxyPass http:// localhost:1880 / jeedom / nodered /
-    #ProxyPassReverse ws:// localhost:1880 / jeedom / nodered /
-    #ProxyPassReverse http:// localhost:1880 / jeedom / nodered /
+    ProxyPass ws://localhost:1880 / jeedom / nodered /
+    ProxyPass http://localhost:1880 / jeedom / nodered /
+    #ProxyPassReverse ws://localhost:1880 / jeedom / nodered /
+    #ProxyPassReverse http://localhost:1880 / jeedom / nodered /
     </Location>
 
 Konfiguration von Nginx 
 ======================
 
 Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered zugegriffen werden kann
-Proxy.
+proxy.
 
     Ort / Jeedom / Nodered / {
       Proxy_pass http://127.0.0.1:1880;

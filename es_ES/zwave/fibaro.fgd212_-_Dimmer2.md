@@ -139,7 +139,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : FGD212 Dimmer 2
+-   Nombrebre : FGD212 Dimmer 2
 
 -   ID del fabricante : 271
 
@@ -156,11 +156,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel. Si el
@@ -173,7 +173,7 @@ inclusión refiérase a esto
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos viajes de ida y vuelta en el interruptor o
@@ -194,7 +194,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponible.
+disponibles.
 
 \
 
@@ -223,7 +223,7 @@ Aquí está la lista de comandos :
     módulo instantáneo
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -288,7 +288,7 @@ Bueno saber
 
 \
 
-> **Depositar**
+> **Caution**
 >
 > El parámetro más importante de la configuración es 20. Se
 > permite elegir el tipo de interruptor utilizado. Puntao predeterminado

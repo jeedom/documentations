@@ -17,7 +17,7 @@ Und geben Sie Ihren Lizenzschlüssel ein
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie dies nicht tun, ist Ihr ESXi möglicherweise nicht mehr vorhanden
 > Betrieb nach 60 Tagen
@@ -83,7 +83,7 @@ Klicken Sie auf Fertig stellen :
 ![vmware.tips12](images/vmware.tips12.PNG)
 
 Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf
-"Aktualisieren ").
+"Actualiser").
 
 VAAI Synology Plugin für die NFS-Montage hinzugefügt 
 ==============================================
@@ -174,12 +174,12 @@ Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Notiz**
+> **Note**
 >
 > Ersetzen Sie den Pfad und den Postleitzahlnamen entsprechend Ihrer
 > Konfiguration
 
-> **Wichtig**
+> **Important**
 >
 > Achten Sie darauf, den vollständigen Pfad zum Reißverschluss anzugeben, da dies sonst nicht der Fall ist
 > nicht funktionieren
@@ -246,13 +246,13 @@ Unter "Hostname" (auf Quellenebene) müssen Sie das gewünschte DNS eingeben
 (Zum Beispiel monesxi.mondsn.synology.ich) und in "Hostname" (auf der Ebene
 des Ziels) müssen Sie die IP des ESXi eingeben
 
-> **Notiz**
+> **Note**
 >
 > Sie können das Gleiche auch tun, um auf jeedom zuzugreifen, jedoch über
 > diesmal setze die jeedom IP (von der vm wenn du drin bist
 > virtualisiert) und Port 80
 
-> **Notiz**
+> **Note**
 >
 > Sobald Sie dies getan haben und Ihr DNS richtig zeigt
 > Auf dem NAS können Sie kostenlos ein gültiges SSL-Zertifikat erstellen
@@ -262,16 +262,16 @@ des Ziels) müssen Sie die IP des ESXi eingeben
 
 Um dann auf Ihr ESXi zuzugreifen, benötigen Sie nur Ihren Browser
 Gehen Sie zu Ihrem externen DNS oder Ihrer IP, indem Sie am Ende / ui hinzufügen, und das ist
-gut.
+bon.
 
-> **Wichtig**
+> **Important**
 >
 > Wenn Sie über den NAS-Reverse-Proxy gehen, befindet sich die Konsole im Web-Modus von
 > VMs funktionieren jedoch nicht (da sie über den Websocket übertragen werden)
 > Wenn Sie VMware Remote Console verwenden, sollte alles in Ordnung sein (dies
 > geht durch Port 902)
 
-> **Notiz**
+> **Note**
 >
 > Es gibt auch eine Vmware Watchlist App auf Android für
 > Zugriff auf ESXi sowie VM-Konsolen

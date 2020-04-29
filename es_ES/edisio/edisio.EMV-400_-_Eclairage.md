@@ -26,7 +26,7 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy
 práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
-> **Importante**
+> **Important**
 >
 > Neutral solo es necesario para el modo "Obturador""
 
@@ -87,21 +87,21 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : EMV-400
+-   Nombrebre : EMV-400
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Importante**
+> **Important**
 >
 > Por el contrario, los receptores Edisio deben crearse manualmente en
 > Jeedom.
@@ -116,7 +116,7 @@ Interruptor DIP y botón "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Nota**
+> **Note**
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
@@ -128,7 +128,7 @@ Interruptor DIP y botón "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Nota**
+> **Note**
 >
 > Al presionar R 3x se activa el modo remoto.
 
@@ -138,7 +138,7 @@ Diagrama de funciones
 A continuación, si su transmisor está configurado en "1 tecla" o "modo 2
 teclas ", así es como funciona el módulo:
 
-> **Nota**
+> **Note**
 >
 > Consulte la documentación del fabricante para poder
 > configura tu transmisor.
@@ -165,9 +165,9 @@ Modo "Iluminación""
 ===================
 
 El modo "Iluminación" le permite controlar 2 dispositivos eléctricos para
-distancia.
+distance.
 
-> **Importante**
+> **Important**
 >
 > Neutral no es necesario
 
@@ -176,12 +176,12 @@ Configuracion electrica y conexiones :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **Importante**
+> **Important**
 >
 > Para que el módulo esté en modo "Iluminación", el interruptor DIP 2 debe estar
 > en alto
 
-> **Importante**
+> **Important**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
@@ -197,7 +197,7 @@ Una vez que se crea su equipo, debe obtener esto :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Nota**
+> **Note**
 >
 > Recuerde activar su nuevo equipo.
 
@@ -226,7 +226,7 @@ Aquí está la lista de comandos :
 
 -   E : Este es el comando que te permite usar el modo remoto
 
-> **Importante**
+> **Important**
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
 > use otro transmisor, Jeedom no podrá actualizar el estado
@@ -255,7 +255,7 @@ Asociación del micromódulo con Jeedom
 Para que pueda interactuar con Jeedom, como si fuera un
 Transmisor Edisio.
 
-> **Nota**
+> **Note**
 >
 > Una de las grandes ventajas de Edisio es que un receptor puede tener
 > varios emisores asociados
@@ -342,7 +342,7 @@ ahora reemplaza el botón "R" en el receptor.
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
-> **Nota**
+> **Note**
 >
 > Puede comenzar de nuevo tantas veces como quiera asociar
 > de transmisores a receptor

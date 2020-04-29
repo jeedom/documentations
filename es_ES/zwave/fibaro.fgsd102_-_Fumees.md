@@ -30,12 +30,12 @@ LED RGB multicolor y una sirena integrada.. El gran formato de la
 la cuadrícula puede detectar la menor cantidad de humo
 obtener una reacción rápida. Por lo tanto, encontrará muy fácilmente su
 colocar en su hogar para preservar la seguridad del conjunto
-familia.
+famille.
 
 El detector de humo Fibaro FGSD-002 es un detector de alarma
 Humo autónomo (DAAF) compatible con la norma EN 14604:2005. bueno
 así de autónomo, también se está comunicando gracias a la tecnología Z-Wave
-Más.
+Plus.
 
 Algunos materiales se queman sin fumar. Por eso los ingenieros de
 Fibaro ha decidido incluir protección adicional en sus
@@ -123,7 +123,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Sensor de humo Fibaro FGSD-002
+-   Nombrebre : Sensor de humo Fibaro FGSD-002
 
 -   ID del fabricante : 271
 
@@ -140,11 +140,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón central de inclusión, de acuerdo con su documentación en papel.
@@ -168,7 +168,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -202,7 +202,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -330,7 +330,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

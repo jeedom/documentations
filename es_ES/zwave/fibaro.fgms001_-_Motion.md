@@ -28,7 +28,7 @@ El detector de movimiento Fibaro es un detector multifunción Z-Wave.
 Además de la detección de movimiento, este dispositivo mide la
 temperatura e intensidad de luz. Este detector también incluye un
 Acelerómetro incorporado para detectar cualquier intento de alterar el
-Dispositivo.
+dispositif.
 
 El detector de movimiento Fibaro funciona con batería y está diseñado
 para ser instalado rápida y fácilmente en cualquier
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombrebre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -125,11 +125,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -153,7 +153,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -183,7 +183,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -319,7 +319,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
 > fabrica. Es esencial despertarlo bien después de la inclusión.
@@ -374,7 +374,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

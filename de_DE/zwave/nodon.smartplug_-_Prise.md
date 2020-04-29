@@ -24,10 +24,10 @@ Zusammenfassung
 
 \.
 
-Die ferngesteuerte NodEin®-Buchse kann über ein Hausautomationssystem gesteuert werden
+Die ferngesteuerte NodOn®-Buchse kann über ein Hausautomationssystem gesteuert werden
 Z-Wave® oder Z-Wave Plus® kompatibel oder direkt über andere
 Z-Wave®- oder Z-Wave Plus®-Controller wie die Soft Remote,
-der Wandschalter oder der Octan Remote NodEin®. Deutscher Standard
+der Wandschalter oder der Octan Remote NodOn®. Deutscher Standard
 (Schuko) oder Französisch (Typ E), der Stecker kann in 2 angeschlossen werden
 spüren, Kopf hoch oder Kopf runter. Verbunden mit seinem feinen Design, diese 2
 Funktionen ermöglichen eine einfache Integration ohne Verstopfung
@@ -104,11 +104,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > bis das Licht laut Dokumentation rot wird
@@ -133,7 +133,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -262,7 +262,7 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in den Gruppen 1 und 4 gefunden werden
 

@@ -33,15 +33,15 @@ directly from the button on the micromodule.
 
 In addition, this micromodule is capable of transmitting consumption
 instantaneous (W) and cumulative (KWh) electrical power of the equipment
-attached to.
+rattaché.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this module into your network if you already have a network
-existing.
+existant.
 
 Each Z-Wave module functions as a wireless repeater with the
 other modules, to ensure full coverage of your
-dwelling.
+habitation.
 
 NOTE : This module requires neutral to operate.
 
@@ -130,11 +130,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper Documentation.
@@ -158,7 +158,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -286,7 +286,7 @@ Parameter details :
 \
 
 This module has 3 association groups, only the third is
-essential.
+indispensable.
 
 \
 
@@ -316,7 +316,7 @@ on this button available in the System tab.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > For status feedback to work in Jeedom, it is necessary to
 > force the equipment calibration (parameter 29 to "Yes") and the

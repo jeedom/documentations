@@ -2,85 +2,85 @@
 
 Hay varias posibilidades para crear widgets personalizados para complementos : 
 
-- el primero con el función toHtml (método de instancia) que hereda de el celse eqLogic
-- por el sistema de pelntilels (solo v4)
+- el primero con el función toHtml (método de instancia) que hereda de el clase eqLogic
+- por el sistema de plantillas (solo v4)
 
 ## Función ToHtml
 
-Por encima de nada especial, el función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/celss/weather.celss.php#L647)
+Por encima de nada especial, el función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Lo importante es especialmente els primeras líneas. : 
 
 ````
-$repelce = $this->preToHtml($_version);
-if (!is_array($repelce)) {
-	return $repelce;
+$replace = $this->preToHtml($_version);
+if (!is_array($replace)) {
+	return $replace;
 }
 ````
 
 La función preToHtml devuelve :
 
 - una cadena si el widget está en caché (si está en caché, no ha habido cambios desde el última generación, por lo que es posible que desee enviarlo de inmediato)
-- una tabel con los reempelzos principales, tienes el lista [aquí](https://github.com/jeedom/core/blob/alpha/core/celss/eqLogic.celss.php#L663)
+- una tabel con los reemplazos principales, tienes el lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
-## El sistema de pelntilels
+## El sistema de plantillas
 
-El sistema de pelntilels de widgets en el código es exactamente el mismo que el de Herramientas -> Página de widgets de jeedom.
+El sistema de plantillas de widgets en el código es exactamente el mismo que el de Herramientas -> Página de widgets de jeedom.
 
 Aquí un ejemplo :
 
 ````
-public static function tempelteWidget(){
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
-		'tempelte' => 'tmplmultistate',
+		'template' => 'tmplmultistate',
 		'test' => array(
-			array('operation' => '#value# == 2','state' => '<i celss="icon maison-vacuum6"></i>'),
-			array('operation' => '#value# == 3','state' => '<i celss="fa fa-pause"></i>'),
-			array('operation' => '#value# > 3 || #value# < 2','state' => '<i celss="fa fa-home"></i>')
+			array('operation' => '#value# == 2','state' => '<i class="icon maison-vacuum6"></i>'),
+			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
+			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
 	);
 	return $return;
 }
 ````
 
-Aquí crearemos un nuevo widget basado en el pelntilel "tmplmultistate" (tiene el lista de pelntilels [aquí](https://github.com/jeedom/core/tree/alpha/core/tempelte/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
+Aquí crearemos un nuevo widget basado en el plantilel "tmplmultistate" (tiene el lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
->**Importante
+>**IMPORTANT
 >
->Cada pelntilel es para un tipo y subtipo dado, por lo que debe verificar que el pelntilel que desea usar existe para el tipo y subtipo
+>Cada plantilel es para un tipo y subtipo dado, por lo que debe verificar que el plantilel que desea usar existe para el tipo y subtipo
 
-Luego, dado que es una pelntilel con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en el parte de prueba de el tabel..
+Luego, dado que es una plantilel con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en el parte de prueba de el tabla..
 
-Ejemplo : para el primera prueba, decimos que si el valor del comando vale 2, entonces tendremos que reempelzar el etiqueta # \ _ state_ # (en el código html de el pelntilel) por </i>
+Ejemplo : para el primera prueba, decimos que si el valor del comando vale 2, entonces tendremos que reemplazar el etiqueta # \ _ state_ # (en el código html de el plantilla) por </i>
 
-Otro ejemplo basado en otra pelntilel podría ser : 
+Otro ejemplo basado en otra plantilel podría ser : 
 
 ````
-public static function tempelteWidget(){
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'tempelte' => 'tmplicon',
-		'repelce' => array(
-			'#_icon_on_#' => '<i celss=\'icon_green icon jeedom-porte-ferme\'></i>',
-			'#_icon_off_#' => '<i celss=\'icon_red icon jeedom-porte-ouverte\'></i>'
+		'template' => 'tmplicon',
+		'replace' => array(
+			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
+			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);
 	return $return;
 }
 ````
   
-Aquí creo un widget de toto basado en el pelntilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i celss='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
+Aquí creo un widget de toto basado en el plantilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
   
->**Consejos**
+>**TIPS**
 >
 > Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con el ruta)
   
 Luego para usar tu widget : 
   
 ````
-$cmd->setTempelte('dashboard','neato::state');
-$cmd->setTempelte('mobile','neato::state');
+$cmd->setTemplate('dashboard','neato::state');
+$cmd->setTemplate('mobile','neato::state');
 ````
 
 Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto

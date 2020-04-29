@@ -69,14 +69,14 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Punta**
+> **Tip**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
 > la temperatura deseada.
@@ -104,7 +104,7 @@ Asociación del sensor con Jeedom
 La combinación del sensor de temperatura es muy sencilla.. Simplemente
 presione el botón "E", ubicado debajo del sensor. Este lo hará
 reconocido automáticamente. Colóquelo en un objeto, asígnele un nombre y
-Guardar.
+sauvegarder.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 

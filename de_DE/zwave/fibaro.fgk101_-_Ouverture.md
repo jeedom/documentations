@@ -7,7 +7,7 @@ Fibaro Öffnungsdetektor - FGK-101
 
 \.
 
-![Modul](images/fibaro.fgk101-DS18B20/Modul.jpg)
+![Modul](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \.
 
@@ -41,11 +41,11 @@ auch von einem kabelgebundenen Eingang, so dass es als verwendet werden kann
 Universalsender : lassen Sie seinen Magnetkontakt beiseite und
 Schließen Sie die Schraubeingänge an einen Detektor (normalerweise geschlossen) Ihres Geräts an
 Wahl wie Rauch-, Gas- oder Kohlenmonoxiddetektor,
-Usw..
+etc.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie diesen Detektor in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-vorhanden.
+existant.
 
 \.
 
@@ -118,11 +118,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -146,7 +146,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -174,7 +174,7 @@ Sie können diese Befehle nach Belieben ein- oder ausblenden.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
@@ -240,7 +240,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \.
 
@@ -257,7 +257,7 @@ Gut zu wissen
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und erfordert eine sehr
 > starke Nähe zum Controller, wenn enthalten
@@ -309,7 +309,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

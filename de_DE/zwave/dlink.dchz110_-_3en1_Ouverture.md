@@ -113,11 +113,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Installieren Sie das Modul nicht am Fenster / an der Tür, bevor Sie es haben
 > richtig konfiguriert, und achten Sie auf die Ausrichtung von
@@ -146,7 +146,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -177,7 +177,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Speichern Sie dann während einer ersten Aufnahme oder Änderung
 > Wecken Sie das Modul immer durch Drücken der Zuordnungstaste auf.
@@ -258,7 +258,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-wesentlich.
+indispensable.
 
 \.
 
@@ -318,7 +318,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

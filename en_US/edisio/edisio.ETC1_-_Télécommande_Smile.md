@@ -69,9 +69,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -142,7 +142,7 @@ Once your remote control is configured, you can with the
 Jeedom Scenario plugin, interact with your remote control on Jeedom
 and its equipment.
 
-> **NOTE**
+> **Note**
 >
 > The remote control with binary status feedback.
 

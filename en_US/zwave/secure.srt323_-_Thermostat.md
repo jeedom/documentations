@@ -131,11 +131,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, you must put switch 1 in
 > position ON then with the dial display L and press the dial,
@@ -147,7 +147,7 @@ inclusion refer to this
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > This module is finicky at inclusion. During a first inclusion
 > always wake up the module immediately after inclusion. To do this
@@ -173,7 +173,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -256,7 +256,7 @@ Good to know
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > This module is on battery. So it’s important to note that
 > change of setpoint will only be taken into account upon awakening. By
@@ -293,7 +293,7 @@ IMPORTANT note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

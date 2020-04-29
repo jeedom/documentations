@@ -30,12 +30,12 @@ Mehrfarbige RGB-LEDs und eine integrierte Sirene. Das große Format der
 Gitter kann so die kleinste Rauchmenge erkennen
 schnell reagieren. Es wird also sehr leicht seine finden
 Platzieren Sie es in Ihrem Haus, um die Sicherheit des Ganzen zu gewährleisten
-Familie.
+famille.
 
 Der Rauchmelder Fibaro FGSD-002 ist ein Alarmmelder
 Autonomer Rauch (DAAF) gemäß Norm EN 14604:2005. Gut
 So autonom kommuniziert es auch dank der Z-Wave-Technologie
-Mehr.
+Plus.
 
 Einige Materialien brennen ohne zu rauchen. Deshalb die Ingenieure bei
 Fibaro hat beschlossen, zusätzlichen Schutz in ihre aufzunehmen
@@ -140,11 +140,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf gemäß Papierdokumentation.
@@ -168,7 +168,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -202,7 +202,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
@@ -330,7 +330,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

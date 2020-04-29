@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRGB-101 RGBW
+-   Nombrebre : Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -123,11 +123,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -149,7 +149,7 @@ Una vez incluido, deberías obtener esto :
 ### Comandos 
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -194,7 +194,7 @@ Aquí está la lista de comandos :
     brillante
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -244,7 +244,7 @@ Uso de sensores de 0-10 V.
 
 \
 
-> **Depositar**
+> **Caution**
 >
 > Por ahora, la configuración predeterminada de jeedom no lo permite
 > no, pero se puede considerar una configuración específica.

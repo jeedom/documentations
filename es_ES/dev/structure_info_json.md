@@ -1,10 +1,10 @@
-**Documentación del archivo Info.JSON**
+**Documentación del archivo Info.json**
 
-Integrado desde la versión 3.0 de Jeedom, el archivo **Información.JSON** es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
+Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
 
 El archivo de Informaciónrmación.JSON se guarda en la carpeta / plugin_Información / de su complemento.
 
-Lista de variables en el archivo Información.JSON
+Lista de variables en el archivo Información.json
 
 Los campos marcados con * son campos obligatorios.
 
@@ -22,18 +22,18 @@ visualización                  | si el complemento utiliza un panel dedicado en
 Móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
 Cambios *              | Enlace HTML al registro de cambios.                                                                                              |
 Documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
-enlace -> vIdentificacióneo               | Enlace HTML a una presentación de vIdentificacióneo.                                                                                 |
+enlace -> video               | Enlace HTML a una presentación de video.                                                                                 |
 enlace -> foro               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
-Identificacióniomas                | Lista de Identificacióniomas disponibles para el complemento:francés, inglés, alemán, italiano, español, ruso, indonesio            |
-compatibilIdentificaciónad            | CompatibilIdentificaciónad de complementos: miniplus, inteligente, acoplador, rpi, bricolaje, Móvilapp.                                                   |
+idiomas                | Lista de Identificacióniomas disponibles para el complemento:francés, inglés, alemán, italiano, español, ruso, indonesio            |
+compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, acoplador, rpi, bricolaje, Móvilapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
-maxDependancyInstallTime | Tiempo máximo permitIdentificacióno para la instalación de dependencias, expresado en minutos..                                            |
+maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos..                                            |
 problema                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
-**Ejemplo** :
+**Exemple** :
 
-[Plugin-template file / plugin_Información / Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.JSON)
+[Plugin-template file / plugin_Información / Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 
@@ -55,7 +55,7 @@ Pasarela domótica  | protocolo de domótica|
 Programación         | programación             |
 Protocolo de domótica   | protocolo de automatización     |
 Salud                 | salud                  |
-SegurIdentificaciónad              | segurIdentificaciónad                |
+Seguridad              | seguridad                |
 Automatismo           | automatización          |
 
 

@@ -1,4 +1,4 @@
-| Nombre                     | Observación                | Enlace                     |
+| Nombrebre                     | Observación                | Enlace                     |
 |-------------------------|-------------------------|--------------------------|
 | Cámara web IP Android       |                         |                          |
 | Videoportero Alcatel   |                         |                          |
@@ -44,7 +44,7 @@
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **Nota**
+> **Note**
 >
 > Esta lista está elaborada gracias a los comentarios de los usuarios, el equipo
 > Por lo tanto, Jeedom no puede garantizar que todas las cámaras de esta lista

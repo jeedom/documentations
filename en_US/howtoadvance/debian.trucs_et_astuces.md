@@ -25,7 +25,7 @@ If yor are on VMware, yor can add additional tools
 Colorize the console 
 ====================
 
-If yor want yorr console (bash) to use colors :
+If yor want your console (bash) to use colors :
 
     rm -rf /root/.bashrc
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / bashrc -O /root/.bashrc
@@ -36,39 +36,39 @@ Allow root login in SSH
 
 Edit the file / etc / ssh / sshd \ _config and change :
 
-    PermitRootLogin withort-password
+    PermitRootLogin without-password
 
 By :
 
     PermitRootLogin yes
 
-> **IMPORTANT**
+> **Important**
 >
 > Be sure to use a strong root password ! The use of
 > fail2ban is also recommended.
 
-Mornt a Samba share 
+Mount a Samba share 
 =======================
 
 Installation of the cifs package
 
     apt-get install -y cifs-utils
 
-Create the mornt point :
+Create the mount point :
 
     mkdir / mnt / my_share
 
-> **NOTE**
+> **Note**
 >
-> Yor have to adapt my share according to yorr needs
+> Yor have to adapt my share according to your needs
 
-Added mornt in / etc / fstab
+Added mount in / etc / fstab
 
     // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, user = TODO, password = TODO 0 0
 
-> **NOTE**
+> **Note**
 >
-> Yor must change the TODOs with yorr linux username and yorr
+> Yor must change the TODOs with your linux username and your
 > Password
 
 Transition from Jessie to Stretch 
@@ -78,7 +78,7 @@ For having tested the upgrade and the Stretch installation with restoration
 a backup, I confirm that the installation of Stretch by
 overwriting will save yor time.
 
--   **Method 1 : Stretch installation :** 1 to 2 horrs maximum, and
+-   **Method 1 : Stretch installation :** 1 to 2 hours maximum, and
     especially a clean operating system.
 
 -   **Method 2 : update from Jessie to Stretch :** half a day at
@@ -87,20 +87,20 @@ overwriting will save yor time.
 Method 1 : Installation of Stretch and backup restore 
 -----------------------------------------------------------------
 
-Before yor start, make a full backup via Jeedom of yorr
+Before yor start, make a full backup via Jeedom of your
 installation under Jessie, then export the backup to another
 storage medium.
 
 > **Tip**
 >
-> Download the backup other than throrgh the web interface (SSH, FTP,
-> SAMBA, others of yorr choice), because if yorr archive is large
+> Download the backup other than through the web interface (SSH, FTP,
+> SAMBA, others of your choice), because if your archive is large
 > it can easily get corrupted via HTTP download.
 > However, if it is less than 100MB, it is playable.
 
--   Install Debian Stretch on yorr box.
+-   Install Debian Stretch on your box.
 
--   Reconfigure yorr local network, check that yorr machine is
+-   Reconfigure your local network, check that your machine is
     operational and up to date.
 
 -   Install Jeedom by following the doc :
@@ -122,7 +122,7 @@ MYSQL, under Stretch :
     $ mysql -u root -p mysql
     Enter password:
     Welcome to the MariaDB monitor.  Commands end with; or \ g.
-    Yorr MariaDB connection id is 2
+    Your MariaDB connection id is 2
     Server version: 10.1.21-MariaDB-5 Debian 9.0
     Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
     Type 'help;' or '\ h' for help. Type '\ c' to clear the current input statement.
@@ -135,22 +135,22 @@ MYSQL, under Stretch :
 
 > **Tip**
 >
-> Replace 'monpass' with yorr MYSQL password used for the
-> root accornt under "Debian 8 - Jessie". I give root rights
+> Replace 'monpass' with your MYSQL password used for the
+> root account under "Debian 8 - Jessie". I give root rights
 > especially to manage my databases with 'PHPMYADMIN', but give them to
-> the MYSQL user 'jeedom' shorld suffice.
+> the MYSQL user 'jeedom' should suffice.
 
 > **Tip**
 >
 > Yor will find the password for the MYSQL jeedom user here :
 > Administration → Configuration → OS / DB → Database
 
-It's up to yor to adapt this command according to yorr configuration
-previors :
+It's up to yor to adapt this command according to your configuration
+previous :
 
     GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
 
-or
+ou
 
     GRANT ALL PRIVILEGES ON *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
 
@@ -161,7 +161,7 @@ or
 
 -   Launch the restoration via the Jeedom interface (Administration →
     Backups → Local Backups : Choose the right backup
-    and click **Restore** just below)
+    and click **Restaurer** just below)
 
 -   Wait during the restoration
 
@@ -170,7 +170,7 @@ or
 
 -   Restart the box : `reboot`
 
--   Connect to Jeedom with yorr old identifiers via
+-   Connect to Jeedom with your old identifiers via
     web interface
 
 -   Switch to each plugin to reinstall the dependencies (in particular
@@ -185,11 +185,11 @@ OS update in Jessie version.
     apt-get -y upgrade
     apt-get -y dist-upgrade
 
-Edit the / etc / apt / sorrces file.list and replace all
+Edit the / etc / apt / sources file.list and replace all
 Jessie by Stretch, with prior file backup, doing :
 
-    cp / etc / apt / sorrces.list /etc/apt/sorrces.list_backup
-    sed -i 's / jessie / stretch / g' /etc/apt/sorrces.list
+    cp / etc / apt / sources.list /etc/apt/sources.list_backup
+    sed -i 's / jessie / stretch / g' /etc/apt/sources.list
 
 OS update in Stretch version.
 
@@ -213,7 +213,7 @@ Removal of unnecessary libraries
     apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^lib`
     apt -y remove `aptitude -F% p search '~ o'`----
 
-NOTE : If when yor open yorr Jeedom page yor get a php code, activate it by running the following commands :
+NOTE : If when yor open your Jeedom page yor get a php code, activate it by running the following commands :
 
     a2enmod php7.0 
     systemctl restart apache2.service

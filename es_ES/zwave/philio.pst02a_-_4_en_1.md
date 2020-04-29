@@ -29,7 +29,7 @@ movimiento, detección de apertura, sensor de temperatura y detector
 brillo Consta de dos partes : un detector y un imán.
 Están diseñados para colocarse en una puerta o ventana con
 el imán fijado en la parte que se abre y el detector en la parte
-arreglado.
+fixe.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
 detector, que activará el detector que enviará una señal Z-Wave
@@ -41,7 +41,7 @@ alertas al detectar cambios en los niveles de radiación
 infrarrojo o puerta / ventana de apertura. Si una persona se muda
 el campo de visión del detector o abre una puerta / ventana, una señal
 se transmite la radio, que activa una alarma para disuadir
-intruso.
+intrus.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
@@ -150,11 +150,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -178,7 +178,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -211,7 +211,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -350,7 +350,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

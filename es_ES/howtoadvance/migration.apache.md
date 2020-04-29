@@ -20,13 +20,13 @@ Prerrequisitos
 
 -   Estar conectado a internet.
 
-> **Importante**
+> **Important**
 >
 > En caso de inquietud, el equipo de Jeedom no puede ser considerado responsable y
 > puede rechazar cualquier solicitud de soporte. El manejo es tuyo
 > riesgos y peligros.
 
-> **Importante**
+> **Important**
 >
 > Tenga en cuenta que algunos complementos no oficiales no son compatibles
 > Apache, averígualo mucho antes.
@@ -62,7 +62,7 @@ Instalación y configuración de Apache
     systemctl reiniciar apache2
     rm / var / www / html /index.html
 
-> **Nota**
+> **Note**
 >
 > Si durante la instalación el sistema te pregunta si quieres o
 > no mantener una versión modificada de un archivo, hacer : "Mantener el local
@@ -118,7 +118,7 @@ Reiniciar servicios
 Luego conéctese a su Jeedom y reactive el motor de tareas
 y los escenarios. También puedes revivir a los demonios..
 
-> **Importante**
+> **Important**
 >
 > Se recomienda después de la migración iniciar una actualización de
 > Jeedom (incluso si no te ofrece nada).

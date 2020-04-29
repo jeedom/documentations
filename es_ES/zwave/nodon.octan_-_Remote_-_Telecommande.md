@@ -28,12 +28,12 @@ El Octan Remote NodOn® le permite controlar cualquier receptor
 Compatible con Z-Wave® o Z-Wave Plus®, como la toma del control remoto
 NodOn® (modo de controlador principal - Independiente), o incluso disparador
 escenas / acciones a través de un sistema de automatización del hogar compatible (modo
-Puerta de enlace)
+Gateway)
 
 Su imán integrado permite su fijación en todas partes, desde el radiador hasta la puerta.
 refrigerador, a través de su soporte de pared. Entre control remoto
 y cambia, el control remoto Octan revoluciona el control de objetos
-domestico
+domestiques
 
 \
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Mediodía
 
--   Nombre : CRC-3-1-00 Octan Remote
+-   Nombrebre : CRC-3-1-00 Octan Remote
 
 -   ID del fabricante : 357
 
@@ -103,11 +103,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
@@ -132,7 +132,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -164,7 +164,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -231,7 +231,7 @@ Este módulo tiene 7 grupos de asociación..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -274,7 +274,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -17,7 +17,7 @@ And enter your license key
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **NOTE**
+> **Note**
 >
 > As a reminder, if you don't do this your ESXi may no longer be
 > operate after 60 days
@@ -83,7 +83,7 @@ Click on finish :
 ![vmware.tips12](images/vmware.tips12.PNG)
 
 And now your new datastore should appear (otherwise click on
-"Refresh ").
+"Actualiser").
 
 Added VAAI Synology plugin for NFS mounting 
 ==============================================
@@ -174,12 +174,12 @@ Then transfer the zip to one of your datastores and make :
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **NOTE**
+> **Note**
 >
 > Replace the path and the zip name according to your
 > Setup
 
-> **IMPORTANT**
+> **Important**
 >
 > Be careful to put the full path to the zip otherwise it won't
 > not working
@@ -246,13 +246,13 @@ In "Host name" (at source level) you must put the desired DNS
 (for example monesxi.mondsn.synology.me) and in "Hostname" (at the level
 of the destination) you must put the IP of the ESXi
 
-> **NOTE**
+> **Note**
 >
 > You can also do the same to access jeedom but by
 > this time putting the jeedom IP (from the vm if you are in
 > virtualized) and port 80
 
-> **NOTE**
+> **Note**
 >
 > Once you've done that and your DNS is pointing correctly
 > on the NAS you can generate a valid SSL certificate for free
@@ -262,16 +262,16 @@ of the destination) you must put the IP of the ESXi
 
 Then to access your ESXi you just need with your browser
 go to your external DNS or IP by adding / ui at the end and that's
-Well.
+bon.
 
-> **IMPORTANT**
+> **Important**
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
 > if you go through VMware Remote Console everything should be ok (this
 > goes through port 902)
 
-> **NOTE**
+> **Note**
 >
 > There is also a Vmware Watchlist app on Android for
 > have access to ESXi as well as VM consoles

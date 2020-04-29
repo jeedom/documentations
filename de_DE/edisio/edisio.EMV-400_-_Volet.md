@@ -15,7 +15,7 @@ bidirektionale oder elektrische Geräte. E.s ermöglicht die Kontrolle
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 steuerbar über Markenschalter und / oder Fernbedienungen
-E.disio, direkt aus Jeedom, aber auch von jedem
+Edisio, direkt aus Jeedom, aber auch von jedem
 Z-Wave-Sender in Ihrem Netzwerk.
 
 Jedes E.disio-Modul im Stromnetz mit der Möglichkeit von
@@ -24,9 +24,9 @@ Stellen Sie eine vollständige Abdeckung Ihres Hauses sicher.
 
 Schließlich kann jedes Modul im Remote-Modus verwendet werden, es ist sehr
 praktisch, weil es ermöglicht, einen Sender zuzuordnen, ohne auf den zugreifen zu müssen
-E.mpfänger.
+Empfänger.
 
-> **Wichtig**
+> **Important**
 >
 > Neutral ist nur für den "Shutter" -Modus erforderlich"
 
@@ -94,16 +94,16 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das E.disio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Wichtig**
+> **Important**
 >
-> Umgekehrt müssen E.disio-E.mpfänger manuell in erstellt werden
+> Umgekehrt müssen E.disio-Empfänger manuell in erstellt werden
 > Jeedom.
 
 DIP-Schalter und Taste "R." : 
@@ -116,7 +116,7 @@ DIP-Schalter und Taste "R." :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Aktivieren Sie niemals den Modus, um unnötige Redundanzen zu vermeiden
 > "Repeater "an allen E.mpfängern, maximal 5 E.mpfänger pro
@@ -128,7 +128,7 @@ DIP-Schalter und Taste "R." :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Durch Drücken von R 3x wird der Fernbedienungsmodus aktiviert.
 
@@ -138,7 +138,7 @@ Funktionsplan
 Weiter, wenn Ihr Sender im Modus "1 Taste" oder "2" konfiguriert ist
 Schlüssel ", so funktioniert das Modul:
 
-> **Notiz**
+> **Note**
 >
 > Informationen hierzu finden Sie in der Dokumentation des Herstellers
 > Konfigurieren Sie Ihren Sender.
@@ -151,7 +151,7 @@ Timer-Funktion
 Die Timer-Funktion schaltet die Relais am E.nde automatisch aus
 30 oder 60 Minuten.
 
-> **Notiz**
+> **Note**
 >
 > Diese Funktion wird nur im "Beleuchtungs" -Modus verwendet"
 
@@ -161,28 +161,28 @@ Der "Shutter" -Modus"
 Im "Shutter" -Modus können Sie am E.nde einen bidirektionalen Motor steuern
 elektronisches und mechanisches Distanzrennen.
 
-> **Wichtig**
+> **Important**
 >
 > Neutral ist erforderlich
 
-E.lektrische Konfiguration und Anschlüsse : 
+Elektrische Konfiguration und Anschlüsse : 
 --------------------------------------------
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **Wichtig**
+> **Important**
 >
 > Damit sich das Modul im "Shutter" -Modus befindet, muss sich der DIP-Schalter 2 in befinden
 > Niedrig
 
-> **Wichtig**
+> **Important**
 >
-> NIE.MALS UNTE.R SPANNUNG ANSCHLIE.SSE.N
+> NIEMALS UNTER SPANNUNG ANSCHLIESSEN
 
-E.rstellung des Moduls in Jeedom 
+Erstellung des Moduls in Jeedom 
 ------------------------------
 
-Um ein E.disio-E.mpfängermodul mit Jeedom zu verknüpfen, müssen Sie es erstellen
+Um ein E.disio-Empfängermodul mit Jeedom zu verknüpfen, müssen Sie es erstellen
 Ausrüstung manuell.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -191,12 +191,12 @@ Sobald Ihre Ausrüstung erstellt ist, sollten Sie diese erhalten :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Denken Sie daran, Ihre neue Ausrüstung zu aktivieren.
 
 Wählen Sie in der Liste der Geräte rechts "Mikromodul-Verschluss" aus
-rollen" :
+roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
@@ -220,7 +220,7 @@ Hier ist die Liste der Befehle :
 
 -   E. : Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
 
-> **Wichtig**
+> **Important**
 >
 > Die STATUSrückmeldung wird von Jeedom simuliert. Deshalb, wenn Sie
 > Wenn Sie einen anderen Sender verwenden, kann Jeedom den STATUS nicht aktualisieren
@@ -247,9 +247,9 @@ Assoziation des Mikromoduls mit Jeedom
 ===================================
 
 Damit du mit Jeedom interagieren kannst, als wäre es ein
-E.disio Sender.
+Edisio Sender.
 
-> **Notiz**
+> **Note**
 >
 > E.iner der großen Vorteile von E.disio ist, dass ein E.mpfänger haben kann
 > mehrere assoziierte E.mittenten
@@ -283,9 +283,9 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am E.mpfänger, um
         Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
-> **Notiz**
+> **Note**
 >
-> E.s ist nicht erforderlich, den Befehl "STOP" zuzuordnen
+> E.s ist nicht erforderlich, den Befehl "Stop" zuzuordnen
 > automatisch.
 
 Remote-Methode 
@@ -294,28 +294,28 @@ Remote-Methode
 Wir haben zu Beginn dieser Dokumentation darüber gesprochen, im Fall von
 Module bereits in Zwischendecken oder sogar Dachböden eingebettet. Das hier
 Methode ermöglicht das Hinzufügen eines neuen Senders ohne Zugriff auf das "R" des
-E.mpfänger.
+Empfänger.
 
 -   Verknüpfen Sie die Schaltfläche "R." :
 
     -   Drücken Sie 3x auf "R" am E.mpfänger, dreifacher Piepton (kurz)
         in Wiederholung) zeigt den aktiven Programmiermodus an.
 
-    -   Drücken Sie innerhalb von 10 Sekunden "Test" auf dem Befehl "E." in
+    -   Drücken Sie innerhalb von 10 Sekunden "Test" auf dem Befehl "E" in
         Jeedom, ein kontinuierlicher Piepton signalisiert die Assoziation mit Jeedom.
 
-    -   Drücken Sie innerhalb von 10 Sekunden erneut "E." am E.mpfänger, um
+    -   Drücken Sie innerhalb von 10 Sekunden erneut "E" am E.mpfänger, um
         Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
-E.s ist geschafft, dein Jeedom ist jetzt verbunden und sein Befehl "E.."
-E.rsetzt jetzt die Taste "R" am E.mpfänger.
+Es ist geschafft, dein Jeedom ist jetzt verbunden und sein Befehl "E."
+Ersetzt jetzt die Taste "R" am E.mpfänger.
 
 -   Verknüpfen Sie einen neuen Sender mit einem E.mpfänger, dem Jeedom bereits zugeordnet ist
     :
 
     -   Ausfahrt 1 :
 
-        -   Drücken Sie 1x auf "Test" den Befehl "E." in Jeedom, einfach
+        -   Drücken Sie 1x auf "Test" den Befehl "E" in Jeedom, einfach
             E.in Piepton (kurz in der Wiederholung) signalisiert die Programmierung von
             Ausgang 1 aktiviert.
 
@@ -324,12 +324,12 @@ E.rsetzt jetzt die Taste "R" am E.mpfänger.
             die Assoziation von Ausgang 1.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E." in Jeedom, um die Zuordnung, den Piepton zu bestätigen
+            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
     -   Ausfahrt 2 :
 
-        -   Drücken Sie 2x auf "Test" des Befehls "E." in Jeedom,
+        -   Drücken Sie 2x auf "Test" des Befehls "E" in Jeedom,
             Doppelter Piepton (kurz in der Wiederholung) signalisiert die
             Programmierung von Ausgang 2 aktiviert.
 
@@ -338,10 +338,10 @@ E.rsetzt jetzt die Taste "R" am E.mpfänger.
             die Assoziation von Ausgang 2.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E." in Jeedom, um die Zuordnung, den Piepton zu bestätigen
+            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
-> **Notiz**
+> **Note**
 >
 > Sie können so oft neu starten, wie Sie zuordnen möchten
 > vom Sender zum E.mpfänger

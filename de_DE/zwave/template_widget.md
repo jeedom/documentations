@@ -40,7 +40,7 @@ Befehle werden automatisch ausgeführt, sobald das Modul von Jeedom erkannt wurd
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Es ist vorzuziehen, vor einer Aufnahme einen Ausschluss zu machen. Für
 > Führen Sie den Ausschluss durch, nichts Kompliziertes, klicken Sie einfach

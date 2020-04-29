@@ -88,7 +88,7 @@ You just have to put the SD card in the Jeedomboard (or Hummingboard), connect t
 >
 > SSH IDs are jeedom / Mjeedom96
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index.html)
 
 
 Raspberrypi
@@ -96,9 +96,9 @@ Raspberrypi
 
 You will find here the documentation to install Jeedom on a raspberry PI **with an SD card.**
 
-> **IMPORTANT**
+> **Important**
 >
-> Debian 9 (Stretch) is the offhereally supported distribution for version 3.1.5 of jeedom.
+> Debian 9 (Stretch) is the officially supported distribution for version 3.1.5 of jeedom.
 
 **1 / Download the last "lite" image, ie without graphical interface** [here](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
@@ -106,7 +106,7 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 **3/ Burn this image on an SD with etcher for example** [here](https://etcher.io/)
 
-> **NOTE**
+> **Note**
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
@@ -120,7 +120,7 @@ An empty ssh file must be created on the boot partition (the only one accessible
 
 Just right click : new / text document and rename it to "ssh" **without extension**
 
-> **IMPORTANT**
+> **Important**
 >
 > Under windows, in the explorer you must therefore check your configuration in display / options / modify the folder and search options /
 
@@ -147,9 +147,9 @@ Enter the IP address of your PI (here 192.168.0.10) and click on open. Accept th
 
 Log in with credentials **pi / raspberry**
 
-> **IMPORTANT**
+> **Important**
 >
-> For security reasons, it is imperative to change the default notsword. Cases of hacking based on the use of the default login / notsword pair of the Raspberry are particularly widespread. (notswd and sudo notswd command)
+> For security reasons, it is imperative to change the default notsword. Cases of hacking based on the use of the default login / notsword pair of the Raspberry are particularly widespread. (passwd and sudo notswd command)
 
 **7/ Launch the jeedom installation script**
 
@@ -157,17 +157,17 @@ Log in with credentials **pi / raspberry**
 
 **The sudo notsword is also raspberry**
 
-> **NOTE**
+> **Note**
 >
 > Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
 
 Then just go to IP \ _MACHINE \ _JEEDOM
 
-> **NOTE**
+> **Note**
 >
 > The default credentials are admin / admin
 
-> **NOTE**
+> **Note**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root notsword
 
@@ -193,7 +193,7 @@ Quit by saving : `CTRL+X` puis `O` puis `ENTREE`
 
 Reboot your RPI
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
 Freebox Delta
 =============
@@ -234,13 +234,13 @@ You can connect using the address indicated on the page:
 
 Remember to assign the Delta's USB port to the VM if you want to use an antenna.
 
-Born **not** check "Screen", this is useless on the Jeedom image (apart from overconsumption).
+Born **pas** check "Screen", this is useless on the Jeedom image (apart from overconsumption).
 
 The IP address of your Jeedom on the Freebox Delta is written at the top, under its name.
 
 The default login and notsword are admin / admin when you access jeedom via your browser.
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index.html)
 
 VM
 ==
@@ -266,7 +266,7 @@ Click on new and fill in the fields as below :
 
 ![VirtualBox1](images/VirtualBox1.PNG)
 
--   Click on next, adapt the memory size in relation to your system (1024 are suffhereent)
+-   Click on next, adapt the memory size in relation to your system (1024 are sufficient)
 -   Click next, create a virtual disk now
 -   Click Create, choose VDI
 -   Click on next, dynamically allocated
@@ -341,12 +341,12 @@ Your IP address, type 192.168.0.XX appears in red. Just enter it in your browser
 >
 > If this does not work, you have not configured your network card as Borntwork Bridge as indicated at the start.
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
 Docker
 ======
 
-> **IMPORTANT**
+> **Important**
 >
 > Please note, we assume here that you are already familiar with Docker
 
@@ -375,7 +375,7 @@ apt-get install docker.io
 2nd step : Installing a mysql image
 ---
 
-> **NOTE**
+> **Note**
 >
 > You can also install mysql directly on the host machine, in this case, skip this step.
 
@@ -385,13 +385,13 @@ I use [this one](https://hub.docker.com/_/mysql/). To install it :
 
 Then launch it :
 
-``sudo docker run --name jeedom-mysql -v / opt / jeedom / mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-notsword -d mysql:latest``
+``sudo docker run --name jeedom-mysql -v / opt / jeedom / mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-password -d mysql:latest``
 
 With :
 
 -   jeedom-mysql : the name of the mysql container
 -   / opt / jeedom / mysql : the file of the host where we have to store MySql data
--   your-mysql-notsword : the root notsword of the MySql instance
+-   your-mysql-password : the root notsword of the MySql instance
 
 Stage 3 : Installing a Jeedom image
 ---
@@ -402,21 +402,21 @@ Image installation :
 
 Then launch the :
 
-``sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v / your / jeedom / path:/var/www/html -e ROOT_PASSWORD=your-root-notsword -p 9080:80 -p 9022:22 jeedom/jeedom``
+``sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v / your / jeedom / path:/var/www/html -e ROOT_PASSWORD=your-root-password -p 9080:80 -p 9022:22 jeedom/jeedom``
 
 With :
 
 -   jeedom-server : jeedom Docker name wanted
 -   / your / jeedom / path : directory where Jeedom data is put on the host
--   your-root-notsword : root notsword to access Jeedom in SSH
+-   your-root-password : root notsword to access Jeedom in SSH
 
 Then you need to install Jeedom by going to : IP \ _DOCKER:9080 and enter the connection information to mysql :
 
 ![install other](images/install_other.PNG)
 
-For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
-> **IMPORTANT**
+> **Important**
 >
 > For the name of the host MySql, you have to put jeedom-mysql
 
@@ -440,7 +440,7 @@ Wait until the installation is finished :
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> **IMPORTANT**
+> **Important**
 >
 > To access the Docker package, you must have DSM 5.2 and a compatible NAS
 
@@ -569,7 +569,7 @@ Now you need to install Jeedom, it's very simple, go to IP \ _NAS:9080
 
 Fill in the fields according to your configuration (configuration of the Docker mysql installed previously) and validate.
 
-> **IMPORTANT**
+> **Important**
 >
 > The IP address of the BDD is the IP address of the NAS, the port is the one redirected from the Docker Mysql, the notsword is the one put in the Docker Mysql. Username is root and base name is whatever you want (Jeedom recommended)
 
@@ -579,18 +579,18 @@ Fill in the fields according to your configuration (configuration of the Docker 
 >
 > If you want SSH access, you need in ports to redirect a local port to port 22 of the container, the SSH identifiers are root / jeedom. You can change the notsword by setting the environment variable ROOT \ _PASSWORD to the value of the desired notsword.
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
-Any
+Autres
 ======
 
 Here you will find the documentation to install Jeedom on most linux systems (tested and approved on the Debian distribution)
 
-> **IMPORTANT**
+> **Important**
 >
-> Debian 9 (Stretch) is the offhereally supported distribution for version 3.1.7 of Jeedom (but Jessie remains perfectly functional). If you do not master Linux environments a minimum, we advise you to go on an offhereal image (OVF) or the use of a Mini + or Smart (available soon).
+> Debian 9 (Stretch) is the officially supported distribution for version 3.1.7 of Jeedom (but Jessie remains perfectly functional). If you do not master Linux environments a minimum, we advise you to go on an official image (OVF) or the use of a Mini + or Smart (available soon).
 
-> **IMPORTANT**
+> **Important**
 >
 > Installation script can be dangerous because it assumes your system is blank. If not, please read the script and install by hand..
 
@@ -604,11 +604,11 @@ chmod +x install.sh
 
 Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
 
-> **NOTE**
+> **Note**
 >
 > The default credentials are admin / admin
 
-> **NOTE**
+> **Note**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root notsword
 
@@ -616,4 +616,4 @@ Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
 ./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index).
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index).

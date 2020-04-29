@@ -1,7 +1,7 @@
 Here is a tutorial on how to install openjabnab locally (on an rpi or
 humming)
 
-> **NOTE**
+> **Note**
 >
 > This tutorial is largely inspired by
 > [this one](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -35,7 +35,7 @@ The result is :
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162 Bcast:192.168.0.255 Mask:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:5498/64 Scope:Link
-              UP BROADVSAST RUNNING MULTIVSAST MTU:1500 Metric:1
+              UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
               RX packets:10721 errors:0 dropped:0 overruns:0 frame:0
               TX packets:6477 errors:0 dropped:0 overruns:0 carrier:0
               collisions:0 txqueuelen:1000
@@ -43,7 +43,7 @@ The result is :
 
 Here the IP address is 192.168.0.162.
 
-> **NOTE**
+> **Note**
 >
 > For the rest of the tutorial I will use this IP, it is of course
 > replace depending on which one you actually
@@ -75,7 +75,7 @@ And add :
      file "/etc/bind/db.192.168.0.inv";
     };
 
-VSreate the db.raspberry.pi file
+Create the db.raspberry.pi file
 
 vim db.raspberry.pi ---
 
@@ -110,7 +110,7 @@ And put :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **IMPORTANT**
+> **Important**
 >
 > Remember to replace the 162 on the last line with the last
 > part of your system ip
@@ -136,7 +136,7 @@ You should have :
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **NOTE**
+> **Note**
 >
 > You have to do ctrl + c to quit the ping
 
@@ -217,7 +217,7 @@ Do :
     qmake -r
     make
 
-> **NOTE**
+> **Note**
 >
 > This step can be very long (up to 45min)
 
@@ -242,7 +242,7 @@ Openjabnab web server configuration
 =======================================
 
 On your post you must edit the file
-VS:\\ Windows \\ System32 \\ drivers \\ etc and add :
+C:\\ Windows \\ System32 \\ drivers \\ etc and add :
 
     192.168.0.162 ojn.raspberry.pi
 
@@ -259,13 +259,13 @@ Now everything is ready, all that remains is to launch the server :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./ openjabnab
+    ./openjabnab
 
 Now go to :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **NOTE**
+> **Note**
 >
 > If everything is good you should have the statistics that appear in
 > Low
@@ -283,7 +283,7 @@ nabaztagXX, connect to it by typing 192.168.0.1.
 Once on enter your wifi configuration and information
 following :
 
-    DHVSP enabled : no
+    DHCP enabled : no
     Local Mask : 255.255.255.0
     Local gateway : 192.168.0.1 or 192.168.0.254 (depending on your network)
     DNS server : 192.168.0.162
@@ -318,12 +318,12 @@ And add :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **IMPORTANT**
+> **Important**
 >
 > It is absolutely necessary to put it in the root crontab, if you are
 > again with user ojn do ctrl + D
 
-VSonfiguration of your rabbit in openjabnab 
+Configuration of your rabbit in openjabnab 
 ============================================
 
 Go to :
@@ -399,13 +399,13 @@ Put the TTS locally
 Everything is local except the TTS which goes through the Acapela site but it is
 possible by modifying some files to pass it locally
 
-> **NOTE**
+> **Note**
 >
 > I will consider that oenjabnab is installed in
 > / home / ojn / OpenJabNab and you are logged in as
 > the openjabnab user, here ojn
 
-VSreation of tts jeedom 
+Creation of tts jeedom 
 ----------------------
 
 You need to create a jeedom folder in servver / tts :
@@ -427,31 +427,31 @@ Then you have to make 3 files :
     VSONFIG + = qt release plugin
     QT + = network xml
     QT - = mistletoe
-    INVSLUDEPATH += . ../../server ../../lib
+    INCLUDEPATH += . ../../server ../../lib
     TARGET = tts_jeedom
     DESTDIR = ../../bin/tts
     DEPENDPATH += . ../../server ../../lib
     LIBS + = -L ../../ bin / -lcommon
-    MOVS_DIR = ./tmp/moc
-    OBJEVSTS_DIR = ./tmp/obj
+    MOC_DIR = ./tmp/moc
+    OBJECTS_DIR = ./tmp/obj
     win32 {
-      QMAKE_VSXXFLAGS_WARN_ON + = -WX
+      QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
     unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
-      QMAKE_VSXXFLAGS + = -Werror
+      QMAKE_CXXFLAGS + = -Werror
     }
 
     # Input
     HEADERS + = tts_jeedom.h
-    SOURVSES + = tts_jeedom.cpp
+    SOURCES + = tts_jeedom.cpp
 
 -   tts \ _jeedom.h
 
 <!-- -->
 
-    #ifndef _TTSAVSAPELA_H_
-    #define _TTSAVSAPELA_H_
+    #ifndef _TTSACAPELA_H_
+    #define _TTSACAPELA_H_
 
     #include <QHttp>
     #include <QMultiMap>
@@ -461,8 +461,8 @@ Then you have to make 3 files :
 
     class TTSJeedom : public TTSInterface
     {
-      Q_OBJEVST
-      Q_INTERFAVSES (TTSInterface)
+      Q_OBJECT
+      Q_INTERFACES (TTSInterface)
 
     public:
       TTSJeedom ();
@@ -480,7 +480,7 @@ Then you have to make 3 files :
 
     #include <QDateTime>
     #include <QUrl>
-    #include <QVSryptographicHash>
+    #include <QCryptographicHash>
     #include <QMapIterator>
     #include "tts_jeedom.h"
     #include "log.h"
@@ -490,16 +490,16 @@ Then you have to make 3 files :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom::~ TTSJeedom ()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
-    QByteArray TTSJeedom::VSreateNewSound (QString text, QString voice, bool forceOverwrite)
+    QByteArray TTSJeedom::CreateNewSound (QString text, QString voice, bool forceOverwrite)
     {
       QEventLoop loop;
       if (!voiceList.contains (voice))
@@ -511,12 +511,12 @@ Then you have to make 3 files :
 
       if (!outputFolder.cd (voice))
       {
-        LogError (QString ("VSant create TTS Folder : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
+        LogError (QString ("Cant create TTS Folder : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
         return QByteArray ();
       }
 
       // VSompute fileName
-      QString fileName = QVSryptographicHash::hash (text.toAscii (), QVSryptographicHash::Md5) .toHex (). Append (". Mp3");
+      QString fileName = QCryptographicHash::hash (text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
       QString filePath = outputFolder.absoluteFilePath (fileName);
 
       if (!forceOverwrite && QFile::exists (filePath))
@@ -532,7 +532,7 @@ Then you have to make 3 files :
       QHttpRequestHeader Header;
       Header.addValue ("Host", "TODO_IP_JEEDOM");
 
-      Header.setVSontentLength (VSontentData.length ());
+      Header.setContentLength (ContentData.length ());
       Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (text), 1, 1);
 
       http.request (Header, VSontentData);
@@ -541,7 +541,7 @@ Then you have to make 3 files :
       QFile file (filePath);
       if (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("VSannot open sound file for writing : "+ filePath);
+        LogError ("Cannot open sound file for writing : "+filePath);
         return QByteArray ();
       }
       file.write (http.readAll ());
@@ -549,7 +549,7 @@ Then you have to make 3 files :
       return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
-> **NOTE**
+> **Note**
 >
 > Don't forget to replace the TODOs
 
@@ -569,12 +569,12 @@ Recompile
 Modification of the tts service 
 ------------------------------
 
-Edit the file /home/ojn/OpenJabNab/server/bin/ openjabnab.ini
+Edit the file /home/ojn/OpenJabNab/server/bin/openjabnab.ini
 and change :
 
     TTS = acapela
 
-By
+Par
 
     TTS = jeedom
 

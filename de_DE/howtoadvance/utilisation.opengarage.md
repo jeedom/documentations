@@ -28,7 +28,7 @@ Die Adresse für die Relaisaktivierung lautet :
 
     http://addropengarage/cc?dkey=xxxx&click=1
 
-dkey ist der Schlüssel zur API, standardmäßig ist es openTür
+dkey ist der Schlüssel zur API, standardmäßig ist es opendoor
 
 Weitere Infos 
 ============

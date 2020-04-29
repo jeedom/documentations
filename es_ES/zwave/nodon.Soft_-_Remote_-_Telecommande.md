@@ -97,11 +97,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (+ y 0 lleno) hasta que la luz se vuelva rosa
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -161,7 +161,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -226,7 +226,7 @@ Este módulo tiene 7 grupos de asociación..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -269,7 +269,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

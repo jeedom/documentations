@@ -48,9 +48,9 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
 - ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- ajouter #language#/Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/Changelog"
+- ajouter #language#/Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
-> **NOTE**
+> **Note**
 >
 > You will understand when the user will ask to see your jeedom doc or the market will automatically replace # language # with the user's language to point to the correct language (if your documentation is not available in the language of the user then automatically it will return to French)
 
@@ -59,10 +59,10 @@ Now you need to put the links of your documentation in the info file.json of you
 If your plugin is structured as advice above then the translation management is very simple to set up in addition to being automatic, just authorize the user github zoic21 to push / pull on your repository and in the market on the edition page of your plugin in the github tab to check "Activate the generation of documentation and translation". The robot goes every day at 12 noon (more or less 2 hours depending on the workload) to retrieve the French documentation of your plugin and the Changelog (beta branch) push it on transiflex (community translation system), retrieve the news translation and push it on your github repository in the right folders.
 
 
-> **IMPORTANT**
+> **Important**
 >
 > For the translation management part to work automatically, your plugin must be hosted on Github
 
-> **NOTE**
+> **Note**
 >
 > NOTE that once your info file.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) will automatically add your plugin.

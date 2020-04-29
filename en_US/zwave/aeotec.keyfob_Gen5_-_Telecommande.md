@@ -122,11 +122,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper Documentation.
@@ -150,7 +150,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -186,7 +186,7 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -228,7 +228,7 @@ Parameter details :
 \
 
 This module has two association groups, the first is the only one
-essential.
+indispensable.
 
 \
 
@@ -287,7 +287,7 @@ IMPORTANT note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -1,6 +1,6 @@
 **Info.JSON file Documentation**
 
-Integrated since version 3.0 from Jeedom, the file **Info.JSON** is mandatory for the proper functioning of plugins, and their proper deployment on the Jeedom Market.
+Integrated since version 3.0 from Jeedom, the file **info.json** is mandatory for the proper functioning of plugins, and their proper deployment on the Jeedom Market.
 
 The Info file.JSON is saved in the / plugin_Info / folder of your plugin.
 
@@ -22,7 +22,7 @@ display                  | if the plugin uses a dedicated panel on the desktop, 
 Mobile                   | If the plugin uses a dedicated panel on the Jeedom webApp, this is the name of the main file for this panel.   |
 Changelog *              | Html link to Changelog.                                                                                              |
 Documentation *          | Html link to plugin Documentation.                                                                                |
-link -> vIdeo               | Html link to a vIdeo presentation.                                                                                 |
+link -> video               | Html link to a video presentation.                                                                                 |
 link -> forum               | Html link to the forum on the official subject of the plugin.                                                                  |
 languages                | List of languages available for the plugin:french, english, german, italian, spanish, russian, indonesian            |
 compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, Mobileapp.                                                   |
@@ -31,9 +31,9 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
 issue                    | URL to the bugtracker if external (if not filled then you will receive an email)
 
-**Example** :
+**Exemple** :
 
-[Plugin-template file / plugin_Info / Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.JSON)
+[Plugin-template file / plugin_Info / Info.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 

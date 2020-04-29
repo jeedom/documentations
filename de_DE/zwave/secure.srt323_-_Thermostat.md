@@ -131,11 +131,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, müssen Sie Schalter 1 einschalten
 > Stellen Sie dann mit der Wählscheibe L auf ON und drücken Sie die Wählscheibe,
@@ -147,7 +147,7 @@ Aufnahme beziehen sich darauf
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Modul ist bei der Aufnahme schwierig. Während einer ersten Aufnahme
 > Wecken Sie das Modul immer sofort nach der Aufnahme auf. Um dies zu tun
@@ -173,7 +173,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -256,7 +256,7 @@ Gut zu wissen
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Modul ist batteriebetrieben. Es ist also wichtig, das zu beachten
 > Eine Änderung des Sollwerts wird erst beim Aufwachen berücksichtigt. Von
@@ -293,7 +293,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

@@ -8,20 +8,20 @@ Colibrí            | Estable                  |
 Odroid C2               | Estable                  |                          
 INTELIGENTE                   | Estable                  |                          
 RPI1                    | Estable                  |                          
-RPI2                    | No ofaquíal / estable     |                          
-RPI3                    | No ofaquíal / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI2                    | No oficial / estable     |                          
+RPI3                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom. ATENCIÓN VmWare 6.5 requiere la instalación de un parche VMWare para el soporte de Zwave.         
 
-Imágenes
+Images
 ======
 
 Puedes encontrar todas las imágenes de Jeedom
 [aquí](https://images.jeedom.com/),
 luego en la carpeta Imágenes
 
-> **Nota**
+> **Note**
 >
 > Una imagen netinstall instalará el
 > última versión estable de Jeedom, por lo que esta startup es un poco más
@@ -40,15 +40,15 @@ luego en la carpeta Imágenes
 
 Todas las demás imágenes descargables anteriormente ya no son
 mantenido, es mejor pasar por la instalación manual de Jeedom
-[Doctor](https://github.com/jeedom/documentation/blob/master/installation/es_ES/other.asciidoc)
+[Doctortor](https://github.com/jeedom/documentation/blob/master/installation/es_ES/other.asciidoc)
 después de instalar una distribución de Linux correspondiente a su
 material : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian
 (Ordoide, ...), ...
 
-Software
+Logiciel
 ========
 
-> **Importante**
+> **Important**
 >
 > Jeedom solo es compatible con Debian Jessie (estable) y Stretch (estable).
 > Cualquier otra versión (Wheezy ...) o distribución (Ubuntu ...) no es
@@ -64,7 +64,7 @@ Software
 | Mysql 5.7               | Beta                    |                          |
 | MariaBD                 | Estable                  |                          |
 
-Otro
+Autre
 =====
 
 Memoria USB / Módulo de expansión

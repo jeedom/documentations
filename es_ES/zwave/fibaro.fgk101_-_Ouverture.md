@@ -7,7 +7,7 @@ Detector de apertura Fibaro - FGK-101
 
 \
 
-![Modulo](images/fibaro.fgk101-DS18B20/Modulo.jpg)
+![Modulo](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -41,11 +41,11 @@ también desde una entrada cableada, por lo que se puede usar como
 transmisor universal : dejar de lado su contacto magnético, y
 conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de su
 elección como detector de humo, gas o monóxido de carbono,
-Etcétera.
+etc.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, Etcétera.) para
 integre este detector en su red si ya tiene una red
-existente.
+existant.
 
 \
 
@@ -101,7 +101,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
+-   Nombrebre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
 -   ID del fabricante : 271
 
@@ -118,11 +118,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -146,7 +146,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -174,7 +174,7 @@ Puede ocultar o mostrar estos comandos como desee.
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -257,7 +257,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo es muy meticuloso al despertar y requiere un muy
 > fuerte proximidad al controlador cuando está incluido
@@ -309,7 +309,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

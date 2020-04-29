@@ -36,7 +36,7 @@ Sus características principales son :
 -   La capacidad de enviar una señal continua arriba / abajo sin
     límite de tiempo.
 
-Atención: este módulo no envía su estado al controlador de onda z cuando
+Attention: este módulo no envía su estado al controlador de onda z cuando
 el usuario presiona los botones directamente. Tienes que hacer un
 'Actualizar 'en su posición para actualizar o ajustar la Encuesta (ver
 más lejos).
@@ -117,11 +117,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner el módulo en modo de inclusión, presione tres veces
 > en el ascenso o descenso. La exclusión se realiza de la misma manera..
@@ -141,11 +141,11 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
-![Comandos](images/duwi.05436/4-Comandos.PNG)
+![Comandos](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -216,7 +216,7 @@ Detalles del parámetro :
 -   0 : Tiempo de funcionamiento :
 
 Estos son los tiempos de subida y bajada. Deberías encontrar tu
-aprendiendo.
+apprentissage.
 
 La codificación se realiza mediante dos pares de bytes. : el primero para la escalada
 y el segundo para el descenso.
@@ -230,13 +230,13 @@ decimal : 18 años para ascenso y descenso.
 
 Anotar : forzar un valor a cero para este parámetro implicará que el
 el módulo activará el ascenso o descenso sin límite de tiempo. Habrá que
-luego envíe un 'Detener' para interrumpir.
+luego envíe un 'Stop' para interrumpir.
 
 -   1 : Funcionalidad de parada : Habilitado o deshabilitado :
 
 Se usa para indicar si presionar en la dirección opuesta durante un
 el desplazamiento detiene el obturador o lo devuelve inmediatamente en la dirección
-opuesto.
+opposé.
 
 \
 
@@ -249,7 +249,7 @@ encuentra tu controlador Z-Wave.
 
 \
 
-![Groupe](images/duwi.05436/6-Grupos.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \
 
@@ -279,7 +279,7 @@ Bueno saber
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Punta**
+> **Tip**
 >
 > El widget "Store \ _2 \ _IMG" utilizado en el comando de información "Estado". Este
 > el widget es bueno porque muestra estados 'parcialmente abiertos''.

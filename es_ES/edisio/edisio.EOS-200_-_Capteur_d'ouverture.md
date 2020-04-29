@@ -72,9 +72,9 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -94,7 +94,7 @@ Por defecto, el sensor está configurado en NO (normalmente abierto)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Nota**
+> **Note**
 >
 > Por lo tanto, tendrá que configurar su sensor, si desea tener un
 > widget con una puerta cerrada cuando está cerrada.
@@ -114,7 +114,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Punta**
+> **Tip**
 >
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.

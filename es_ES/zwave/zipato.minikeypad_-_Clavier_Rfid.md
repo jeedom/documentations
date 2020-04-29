@@ -101,7 +101,7 @@ Datos del módulo
 
 -   Hacer : Zipato
 
--   Nombre : Mini teclado Zipato RFID
+-   Nombrebre : Mini teclado Zipato RFID
 
 -   ID del fabricante : 151
 
@@ -118,11 +118,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, solo presione dos
 > segundos en la pestaña de metal (el LED rojo en el panel frontal
@@ -148,7 +148,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -177,7 +177,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -233,7 +233,7 @@ Este módulo tiene dos grupos de asociación..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 1.
@@ -274,7 +274,7 @@ Esto le permite agregar códigos. Verás una mesa allí..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Recuerde activar el módulo después de agregar un código o insignia.
 
@@ -344,7 +344,7 @@ Faq.
 
 Este módulo se activa presionando el botón de manipulación y
 relajante También puede despertarse presionando Inicio, luego 1 y luego
-Entrar.
+Enter.
 
 \
 
@@ -358,7 +358,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un

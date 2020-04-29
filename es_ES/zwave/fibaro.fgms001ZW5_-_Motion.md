@@ -28,7 +28,7 @@ El detector de movimiento Fibaro es un detector multifunción Z-Wave.
 Además de la detección de movimiento, este dispositivo mide la
 temperatura e intensidad de luz. Este detector también incluye un
 Acelerómetro incorporado para detectar cualquier intento de alterar el
-Dispositivo.
+dispositif.
 
 El detector de movimiento Fibaro funciona con batería y está diseñado
 para ser instalado rápida y fácilmente en cualquier
@@ -125,11 +125,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -188,7 +188,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -310,7 +310,7 @@ Detalles del parámetro :
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo tiene cinco grupos de asociación, agregue el
 > controlador en 1, 4 y 5 y retire el 3.
@@ -343,7 +343,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
 > fabrica. Es esencial despertarlo bien después de la inclusión.
@@ -398,7 +398,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

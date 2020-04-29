@@ -1,7 +1,7 @@
 Hier ist ein Tutorial, wie man openjabnab lokal installiert (auf einem RPI oder
-Summen)
+humming)
 
-> **Notiz**
+> **Note**
 >
 > Dieses Tutorial ist weitgehend inspiriert von
 > [dieser hier](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -35,7 +35,7 @@ Das Ergebnis ist :
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162 Bcast:192.168.0.255 Maske:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:5498/64 Geltungsbereich:Link
-              UP BROADC.AST RUNNING MULTIC.AST MTU:1500 metrisch:1
+              UP BROADCAST RUNNING MULTICAST MTU:1500 metrisch:1
               RX-Pakete:10721 Fehler:0 fiel:0 Überläufe:0 Frame:0
               TX-Pakete:6477 Fehler:0 fiel:0 Überläufe:0 Träger:0
               Kollisionen:0 txqueuelen:1000
@@ -43,7 +43,7 @@ Das Ergebnis ist :
 
 Hier lautet die IP-Adresse 192.168.0.162.
 
-> **Notiz**
+> **Note**
 >
 > Für den Rest des Tutorials werde ich diese IP verwenden, das ist es natürlich
 > Ersetzen Sie je nachdem, welche Sie tatsächlich
@@ -110,7 +110,7 @@ Und setzen :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, die 162 in der letzten Zeile durch die letzte zu ersetzen
 > Teil Ihres Systems IP
@@ -136,9 +136,9 @@ Das solltest du haben :
     4 Pakete gesendet, 4 empfangen, 0% Paketverlust, Zeit 3000ms
     rtt min / avg / max / mdev = 0,059 / 0,065 / 0,069 / 0.010 ms
 
-> **Notiz**
+> **Note**
 >
-> Sie müssen Strg + C. drücken, um den Ping zu beenden
+> Sie müssen Strg + C.. drücken, um den Ping zu beenden
 
 Aus Sicherheitsgründen werden wir auch die Auflösung in / etc / hosts hinzufügen :
 
@@ -217,7 +217,7 @@ Tun :
     qmachen -r
     machen
 
-> **Notiz**
+> **Note**
 >
 > Dieser Schritt kann sehr lang sein (bis zu 45 Minuten)
 
@@ -232,7 +232,7 @@ Tun :
 Und ändern Sie die folgenden Zeilen :
 
     StandAloneAuthBypass = true
-    AllowAneinnymousRegistration = true
+    AllowAnonymousRegistration = true
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
@@ -242,7 +242,7 @@ Openjabnab-Webserverkonfiguration
 =======================================
 
 In Ihrem Beitrag müssen Sie die Datei bearbeiten
-C.:\\ Windows \\ System32 \\ Treiber \\ usw. und hinzufügen :
+C:\\ Windows \\ System32 \\ Treiber \\ usw. und hinzufügen :
 
     192.168.0.162 ojn.raspberry.pi
 
@@ -259,13 +259,13 @@ Jetzt ist alles fertig, alles was bleibt ist, den Server zu starten :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./ openjabnab
+    ./openjabnab
 
 Jetzt geh zu :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Notiz**
+> **Note**
 >
 > Wenn alles in Ordnung ist, sollten Sie die Statistiken haben, die in angezeigt werden
 > Niedrig
@@ -275,7 +275,7 @@ Kaninchenkonfiguration
 
 Um das Kaninchen zu konfigurieren, ist es ganz einfach, Sie müssen es herausziehen
 Schließen Sie es dann wieder an und drücken Sie die Taste. Er muss
-neinrmalerweise hellblau.
+normalerweise hellblau.
 
 Dann sollten Sie mit Ihrem PC. ein neues WLAN-Netzwerk haben
 nabaztagXX, stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
@@ -283,7 +283,7 @@ nabaztagXX, stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
 Geben Sie einmal Ihre WLAN-Konfiguration und Informationen ein
 folgenden :
 
-    DHC.P aktiviert : nein
+    DHCP aktiviert : nein
     Lokale Maske : 255.255.255.0
     Lokales Gateway : 192.168.0.1 oder 192.168.0.254 (abhängig von Ihrem Netzwerk)
     DNS-Server : 192.168.0.162
@@ -318,7 +318,7 @@ Und hinzufügen :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Wichtig**
+> **Important**
 >
 > Es ist absolut neintwendig, es in die Wurzel crontab zu legen, wenn Sie sind
 > wieder mit Benutzer ojn do ctrl + D.
@@ -399,7 +399,7 @@ Setzen Sie das TTS lokal ein
 Alles ist lokal, außer dem TTS, das durch die Acapela-Site geht, aber es ist
 möglich, indem einige Dateien so geändert werden, dass sie lokal übergeben werden
 
-> **Notiz**
+> **Note**
 >
 > Ich werde in Betracht ziehen, dass Oenjabnab in installiert ist
 > / home / ojn / OpenJabNab und Sie sind als angemeldet
@@ -427,19 +427,19 @@ Dann müssen Sie 3 Dateien erstellen :
     C.ONFIG + = qt Release Plugin
     QT + = Netzwerk-XML
     QT - = Mistel
-    INC.LUDEPATH += . ../../server ../../lib
+    INCLUDEPATH += . ../../server ../../lib
     ZIEL = tts_jeedom
     DESTDIR = ../../bin/tts
     DEPENDPATH += . ../../server ../../lib
     LIBS + = -L ../../ bin / -lcommon
-    MOC._DIR = ./tmp/moc
-    OBJEC.TS_DIR = ./tmp/obj
+    MOC_DIR = ./tmp/moc
+    OBJECTS_DIR = ./tmp/obj
     win32 {
-      QMAKE_C.XXFLAGS_WARN_ON + = -WX
+      QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
     Unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
-      QMAKE_C.XXFLAGS + = -Fehler
+      QMAKE_CXXFLAGS + = -Fehler
     }
 
     # Eingabe
@@ -450,8 +450,8 @@ Dann müssen Sie 3 Dateien erstellen :
 
 <!-- -->
 
-    #ifndef _TTSAC.APELA_H_
-    #definiere _TTSAC.APELA_H_
+    #ifndef _TTSACAPELA_H_
+    #definiere _TTSACAPELA_H_
 
     #einschließen <QHttp>
     #einschließen <QMultiMap>
@@ -461,8 +461,8 @@ Dann müssen Sie 3 Dateien erstellen :
 
     Klasse TTSJeedom : öffentliches TTSInterface
     {
-      Q_OBJEC.T
-      Q_INTERFAC.ES (TTSInterface)
+      Q_OBJECT
+      Q_INTERFACES (TTSInterface)
 
     Öffentlichkeit:
       TTSJeedom ();;
@@ -480,7 +480,7 @@ Dann müssen Sie 3 Dateien erstellen :
 
     #einschließen <QDateTime>
     #einschließen <QUrl>
-    #einschließen <QC.ryptographicHash>
+    #einschließen <QCryptographicHash>
     #einschließen <QMapIterator>
     #include "tts_jeedom.h"
     #include "log.h."
@@ -490,16 +490,16 @@ Dann müssen Sie 3 Dateien erstellen :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");;
     }
 
-    TTSJeedom::~ TTSJeedom ()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
-    QByteArray TTSJeedom::C.reateNewSound (QString-Text, QString-Stimme, bool forceOverwrite)
+    QByteArray TTSJeedom::CreateNewSound (QString-Text, QString-Stimme, bool forceOverwrite)
     {
       QEventLoop-Schleife;;
       if (!voiceList.contains (Stimme))
@@ -516,7 +516,7 @@ Dann müssen Sie 3 Dateien erstellen :
       }
 
       // Dateiname berechnen
-      QString fileName = QC.ryptographicHash::Hash (Text.toAscii (), QC.ryptographicHash::Md5) .toHex (). Append (". Mp3");;
+      QString fileName = QCryptographicHash::Hash (Text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");;
       QString filePath = outputFolder.absoluteFilePath (Dateiname);;
 
       if (!forceOverwrite && QFile::existiert (filePath))
@@ -532,7 +532,7 @@ Dann müssen Sie 3 Dateien erstellen :
       QHttpRequestHeader Header;;
       Header.addValue ("Host", "TODO_IP_JEEDOM");;
 
-      Header.setC.ontentLength (C.ontentData.length ());;
+      Header.setContentLength (ContentData.length ());;
       Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (Text), 1, 1);;
 
       http.request (Header, C.ontentData);;
@@ -541,7 +541,7 @@ Dann müssen Sie 3 Dateien erstellen :
       QFile-Datei (filePath);;
       if (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("Sounddatei kann nicht zum Schreiben geöffnet werden : "+ filePath);;
+        LogError ("Sounddatei kann nicht zum Schreiben geöffnet werden : "+filePath);;
         return QByteArray ();;
       }
       file.write (http.readAll ());;
@@ -549,7 +549,7 @@ Dann müssen Sie 3 Dateien erstellen :
       return ttsHTTPUrl.arg (voice, fileName) .toAscii ();;
     }
 
-> **Notiz**
+> **Note**
 >
 > Vergessen Sie nicht, die TODOs zu ersetzen
 
@@ -569,12 +569,12 @@ Neu kompilieren
 Änderung des tts-Dienstes 
 ------------------------------
 
-Bearbeiten Sie die Datei /home/ojn/OpenJabNab/server/bin/ openjabnab.ini
+Bearbeiten Sie die Datei /home/ojn/OpenJabNab/server/bin/openjabnab.ini
 und ändern :
 
     TTS = Acapela
 
-Von
+Par
 
     TTS = Jeedom
 

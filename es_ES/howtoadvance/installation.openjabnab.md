@@ -1,7 +1,7 @@
 Aquí hay un tutorial sobre cómo instalar openjabnab localmente (en un rpi o
-tarareando)
+humming)
 
-> **Nota**
+> **Note**
 >
 > Este tutorial está inspirado en gran medida por
 > [este](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -34,7 +34,7 @@ El resultado es :
 
     eth0 Enlace encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162 Bcast:192.168.0.255 máscara:255.255.255.0
-              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Enlace
+              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
               Paquetes TX:6477 errores:0 caído:0 desbordamientos:0 transportista:0
@@ -43,7 +43,7 @@ El resultado es :
 
 Aquí la dirección IP es 192.168.0.162.
 
-> **Nota**
+> **Note**
 >
 > Pora el resto del tutorial usaré esta IP, por supuesto es
 > reemplazar dependiendo de cuál realmente
@@ -110,7 +110,7 @@ Y poner :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Importante**
+> **Important**
 >
 > Recuerde reemplazar el 162 en la última línea con el último
 > parte de su sistema ip
@@ -136,7 +136,7 @@ Deberías tener :
     4 paquetes transmitidos, 4 recibidos, 0% de pérdida de paquetes, tiempo 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **Nota**
+> **Note**
 >
 > Tienes que hacer ctrl + c para salir del ping
 
@@ -176,11 +176,11 @@ Y añadir :
             DocumentRoot / home / ojn / OpenJabNab / http-wrapper /
             ServerName ojn.raspberry.pi
              <Directory />
-                     Opciones de FollowSymEnlaces
+                     Opciones de FollowSymLinks
                     AllowOverride None
              </Directory>
              <Directory /home/ojn/OpenJabNab/http-wrapper/>
-                     Opciones de índice de FollowSymEnlaces MultiViews
+                     Opciones de índice de FollowSymLinks MultiViews
                      Permitir anular todo
                     Orden permitir, negar
                      permitir de todos
@@ -198,7 +198,7 @@ Luego debe autorizar el directorio del servidor openjabnab, hacer :
 Y añadir :
 
     <Directory /home/ojn/>
-            Opciones de índice FollowSymEnlaces
+            Opciones de índice FollowSymLinks
             AllowOverride None
             Requerir todo otorgado
     </Directory>
@@ -217,7 +217,7 @@ Hacer :
     qhacer -r
     hacer
 
-> **Nota**
+> **Note**
 >
 > Este paso puede ser muy largo (hasta 45 minutos)
 
@@ -259,13 +259,13 @@ Ahora todo está listo, todo lo que queda es iniciar el servidor :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./ openjabnab
+    ./openjabnab
 
 Ahora ve a :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Nota**
+> **Note**
 >
 > Si todo está bien, debería tener las estadísticas que aparecen en
 > Bajo
@@ -273,7 +273,7 @@ Ahora ve a :
 Configuración de conejo 
 ======================
 
-Pora configurar el conejo es Bajotante simple, debes desenchufarlo
+Para configurar el conejo es Bajotante simple, debes desenchufarlo
 luego vuelva a conectarlo, quédese presionando su botón. Debe
 normalmente azul claro.
 
@@ -318,7 +318,7 @@ Y añadir :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Importante**
+> **Important**
 >
 > Es absolutamente necesario ponerlo en el crontab raíz, si está
 > de nuevo con el usuario ojn do ctrl + D
@@ -399,7 +399,7 @@ Poner el TTS localmente
 Todo es local excepto el TTS que pasa por el sitio de Acapela pero es
 posible modificando algunos archivos para pasarlos localmente
 
-> **Nota**
+> **Note**
 >
 > Consideraré que oenjabnab está instalado en
 > / home / ojn / OpenJabNab y estás conectado como
@@ -490,12 +490,12 @@ Entonces tienes que hacer 3 archivos :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom::~ TTSJeedom ()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
@@ -539,9 +539,9 @@ Entonces tienes que hacer 3 archivos :
       loop.exec ();
 
       Archivo QFile (filePath);
-      si (!file.open (QIODevice::Escribir solo))
+      si (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("No se puede abrir el archivo de sonido para escribir : "+ filePath);
+        LogError ("No se puede abrir el archivo de sonido para escribir : "+filePath);
         devolver QByteArray ();
       }
       file.write (http.readAll ());
@@ -549,7 +549,7 @@ Entonces tienes que hacer 3 archivos :
       volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
     }
 
-> **Nota**
+> **Note**
 >
 > No olvides reemplazar los TODOs
 
@@ -569,12 +569,12 @@ Recompilar
 Modificación del servicio tts 
 ------------------------------
 
-Edite el archivo /home/ojn/OpenJabNab/server/bin/ openjabnab.ini
+Edite el archivo /home/ojn/OpenJabNab/server/bin/openjabnab.ini
 y cambiar :
 
     TTS = acapela
 
-Por
+Par
 
     TTS = libertad
 

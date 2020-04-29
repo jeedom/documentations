@@ -17,7 +17,7 @@
 
 
 
-> **NOTE**
+> **Note**
 >
 > This list is based on user feedback, the Jeedom team does not
 > can therefore guarantee that all the modules in this list are 100%

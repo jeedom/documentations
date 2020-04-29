@@ -5,7 +5,7 @@ Jeedom auf einer VM (VMware ESXi). In der Tat, wenn Sie es nicht weitergeben
 Im GSM-Modus wird nur der Schlüssel nicht in der Liste von angezeigt
 USB-Geräte, die Sie an die VM übergeben können.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Tutorial wurde unter Windows 10 durchgeführt
 
@@ -15,7 +15,7 @@ Treiberinstallation
 Sobald der Schlüssel mit einem Windows 10-PC verbunden ist, müssen Sie einen haben
 neues CD-ROM-Laufwerk. Sie müssen darauf doppelklicken und das installieren
 vorgeschlagene Software (es gibt nichts zu ändern, einfach alles zu tun
-lang).
+long).
 
 ![gsmonly](images/gsmonly.PNG)
 
@@ -46,13 +46,13 @@ COM-Anschluss an Sie, siehe Schritt oben) :
 ![gsmonly3](images/gsmonly3.PNG)
 
 Ein schwarzes Fenster wird angezeigt (gelegentlich kann ein
-Meldung "boot ...", das ist normal, es bedeutund, dass es dir gut geht
+Meldung "boot ...", das ist normal, es bedeutet, dass es dir gut geht
 mit dem GSM-Schlüssel verbunden). In diesem Fenster müssen Sie eingeben und dann drücken
 auf die "Enter" -Taste" :
 
     AT ^ u2diag = 0
 
-> **Wichtig**
+> **Important**
 >
 > Seien Sie vorsichtig, wenn Sie den Text eingeben, bei dem Sie nichts sehen
 > Der Bildschirm ist normal, der Text wird weiterhin berücksichtigt.
@@ -60,4 +60,4 @@ auf die "Enter" -Taste" :
 Normalerweise müssen Sie im Gegenzug ein OK haben.
 
 Damit ist es fertig. Ihr Schlüssel befindund sich nur im GSM-Modus und Sie
-kann es jundzt über VMware verwenden.
+kann es jetzt über VMware verwenden.

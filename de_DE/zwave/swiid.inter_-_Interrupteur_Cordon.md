@@ -46,7 +46,7 @@ auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
 In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
 Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
-Entfernung.
+distance.
 
 \.
 
@@ -131,11 +131,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > auf der Rückseite gemäß der Papierdokumentation
@@ -159,7 +159,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -181,7 +181,7 @@ Hier ist die Liste der Befehle :
 \.
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \.
 
@@ -242,7 +242,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
 > mindestens mit Gruppe 2 verbunden sein.

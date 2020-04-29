@@ -29,7 +29,7 @@ information at the top of the Filezilla window :
 
 -   Login : Jeedom
 
--   Password : MJeedom96
+-   Password : Mjeedom96
 
 -   Harbor : 22
 

@@ -5,7 +5,7 @@ Jeedom on a VM (VMware ESXi). Indeed if you do not pass it in
 GSM mode only the key will not appear in the list of
 USB devices that you can pass to the VM.
 
-> **IMPORTANT**
+> **Important**
 >
 > This tutorial was done on a Windows 10
 
@@ -22,7 +22,7 @@ long).
 COM port recovery 
 ========================
 
-Then you have to randrieve the communication port number. Go to
+Then you have to retrieve the communication port number. Go to
 the "Start" menu and search for "Device Manager", launch
 this one then unfold the part "Ports (COM and LPT)", you should have
 an item containing "HUAWEI", you just have to remember the number of the
@@ -52,12 +52,12 @@ on the "Enter" key" :
 
     AT ^ u2diag = 0
 
-> **IMPORTANT**
+> **Important**
 >
 > Be careful when you type the text you will not see anything at
 > the screen is normal, the text is still taken into account.
 
-Normally in randurn you must have an OK.
+Normally in return you must have an OK.
 
 That's it finished. Your key is in GSM mode only and you
 can use it through VMware now.

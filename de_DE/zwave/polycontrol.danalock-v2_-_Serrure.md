@@ -62,7 +62,7 @@ Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
 mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
 Das Danalock-Schloss entriegelt automatisch die Tür, wenn Sie
 nähere dich deinem Haus und schließe es gleich ab, nachdem du es bist
-zurückgegeben.
+rentré.
 
 **Lange Akkulaufzeit**
 
@@ -174,11 +174,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
 
@@ -201,7 +201,7 @@ SICHER (INKLUSION)"
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wir gehen davon aus, dass Sie die Anwendung installiert haben
 > Ihr Smartphone oder iPhone und erstellt ein Konto. Wenn es nicht schon ist
@@ -229,7 +229,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -256,7 +256,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Warnung**
+> **Warning**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -353,7 +353,7 @@ Gut zu wissen
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -362,7 +362,7 @@ Gut zu wissen
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul gibt seinen Status zurück, wenn Sie das Schloss von Hand bedienen
 > Der Status wird aktualisiert. \.

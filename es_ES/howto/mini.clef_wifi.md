@@ -9,14 +9,14 @@ Tenga en cuenta que este procedimiento solo funciona como está en el
 Marco estricto del entorno indicado anteriormente (mismo modelo, mismo
 Jeedom box, misma autenticación WiFi) . Por supuesto que esto puede
 También funciona para otros componentes (o no) pero sin ningún
-garantía.
+garantie.
 
-> **Importante**
+> **Important**
 >
 > Atención, este procedimiento es especialmente para no hacer en mini + bajo
 > problemas para perder el acceso y tener que reinstalar todo.
 
-> **Importante**
+> **Important**
 >
 > Este documento debe aplicarse bajo su propio riesgo en caso de inquietudes
 > el equipo de Jeedom no puede ser considerado responsable.

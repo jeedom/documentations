@@ -14,14 +14,14 @@ RPI3                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razbe
 32 Bit                 | Wird nicht unterstützt            |                          
 VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom. ACHTUNG VmWare 6.5 erfordert die Installation eines VMWare-Patches für die Zwave-Unterstützung.         
 
-Bilder
+Images
 ======
 
 Sie finden alle Jeedom-Bilder
 [hier](https://images.jeedom.com/),
 dann im Ordner Bilder
 
-> **Notiz**
+> **Note**
 >
 > Ein Netinstall-Image installiert das
 > neueste stabile Version von Jeedom, also ist dieses Startup ein bisschen mehr
@@ -45,10 +45,10 @@ nach der Installation einer Linux-Distribution entsprechend Ihrer
 Material : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian
 (Ordoid,…),…
 
-Software
+Logiciel
 ========
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom unterstützt nur Debian Jessie (stabil) und Stretch (stabil).
 > Eine andere Version (Wheezy…) oder Distribution (Ubuntu…) ist dies nicht
@@ -64,7 +64,7 @@ Software
 | MySQL 5.7               | Beta                    |                          |
 | MariaBD                 | Stabil                  |                          |
 
-Andere
+Autre
 =====
 
 USB-Stick / Erweiterungsmodul

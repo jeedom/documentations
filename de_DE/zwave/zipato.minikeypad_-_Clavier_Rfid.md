@@ -118,11 +118,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie einfach zwei
 > Sekunden auf der Metalllasche (die rote LED auf der Vorderseite
@@ -148,7 +148,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -177,7 +177,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
@@ -233,7 +233,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
 > mindestens mit Gruppe 1 verbunden sein.
@@ -274,7 +274,7 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
@@ -344,7 +344,7 @@ Faq.
 
 Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
 entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
-Geben Sie ein.
+Enter.
 
 \.
 
@@ -358,7 +358,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufwachens, nach a

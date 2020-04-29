@@ -7,15 +7,15 @@ Jeedom se compone de una parte central (llamada núcleo) que se encarga de las f
 
 ![Page Escenario](images/doc-presentation-scenario.png)
 
--   *Historización*
+-   *Historisation*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Visualización*
+-   *Affichage*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
--   *Interacción*
+-   *Interaction*
 
 ![Page Interacción](images/doc-presentation-interaction.png)
 
@@ -41,14 +41,14 @@ Estos complementos se pueden recuperar a través de Market y le permiten ampliar
 
 Jeedom permite que cualquier complemento chatee con otro de forma estandarizada. Esto permite, por ejemplo, usar el termostato o los complementos de alarma con cualquier protocolo de automatización del hogar o incluso un complemento IP u objeto de comunicación ...
 
-Principio
+Principe
 === 
 
 Jeedom tiene la particularidad de estar sin suscripción y sin nube, lo que permite garantizar el funcionamiento de su domótica incluso si ya no tiene internet. Esto también garantiza la seguridad de sus datos (evita los riesgos de hackeo masivo de cuentas).
 
 Al ser un proyecto abierto y de código abierto, esto también le garantiza una alta tasa de desarrollo gracias a los muchos desarrolladores que participan.
 
-Enlaces
+Liens
 ===
 
 Se han realizado varios tutoriales en video para mostrar las características importantes de Jeedom, facilitar su uso y familiarizar al usuario con el software..

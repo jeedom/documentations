@@ -51,7 +51,7 @@ el boxeo de domótica ya no será posible.
 El tomacorriente controlado por PowerNode también tiene un indicador de estado
 brillante que proporciona información diferente según su color :
 enchufes de encendido o apagado, alcance de radio limitado, modo de inclusión y
-Exclusión.
+exclusion.
 
 El módulo de enchufe PowerNode está equipado con protección contra
 sobrecorrientes para proteger el dispositivo conectado. El zócalo PowerNode
@@ -143,11 +143,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente bajo el zócalo.
@@ -171,7 +171,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 

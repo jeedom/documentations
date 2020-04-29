@@ -2,12 +2,12 @@ Wir werden hier sehen, wie eine Installation mit Jeedom im Modus migriert wird
 Sklave eines Jeedom mit dem Jeedom Link Plugin". Slave-Modus
 Jeedom wird beim Übergang von Jeedom zu Version 3 aufgegeben.0 ist es
 erforderlich, um vor der Migration in den neuen Modus von fortzufahren
-Funktionieren.
+fonctionnement.
 
 Vorbereitung vor der Migration 
 ===========================
 
-> **Warnung**
+> **Warning**
 >
 > Es ist wichtig, dass Sie die gesamte Dokumentation vorher lesen
 > Beginnen Sie mit der Migration. Wichtige Informationen über
@@ -18,17 +18,17 @@ Vorbereitung vor der Migration
 > Verstehe keinen Punkt, zögere nicht, Fragen zu stellen
 > Forum vor dem Start des Verfahrens !
 
-> **Wichtig**
+> **Important**
 >
 > Achten Sie darauf, dass Sie keine Geräte einschleifen
 > Konfigurieren des Jeedom Link Plugins". Zum Beispiel machen Sie keine
 > Equipment-X in einem Jeedom1, das in einem Jeedom2 aufsteigt, steigt dann auf
 > wieder in Jeedom1. Es könnte deine Jeedoms fallen lassen !
 
-> **Notiz**
+> **Note**
 >
 > Zum besseren Lesen und Verstehen dieses Tutorials finden Sie hier die
-> verwendunde Begriffe :\.
+> verwendete Begriffe :\.
 > \.
 > - **Jeedom Ziel** : Server (dein ehemaliger Jeedom Master) wer
 > Zentralisieren Sie die Ausrüstung der **Jeedom (s) Quelle (n)**\.
@@ -38,13 +38,13 @@ Vorbereitung vor der Migration
 > das bringt deine Ausrüstung wieder auf die **Jeedom Ziel**.\.
 > \.
 > - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** sind nicht mehr
-> Nachrichten. Die neue Synchronisationsbundriebsart
+> Nachrichten. Die neue Synchronisationsbetriebsart
 > der Ausrüstung zwischen mehreren Jeedoms kann bidirektional sein. A.
-> Jeedom Server kann jundzt sein **Quelle** und **Ziel** während
+> Jeedom Server kann jetzt sein **Source** und **Cible** während
 > Der alte Modus erlaubte nur den Aufstieg von Geräten
-> **der Sklave** zu **der Meister**. Mit dem neuen Modus ist es auch
+> **l'Esclave** zu **der Meister**. Mit dem neuen Modus ist es auch
 > möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom
-> Quelle**. Kommunikation zwischen Jeedoms kann jundzt auch
+> Quelle**. Kommunikation zwischen Jeedoms kann jetzt auch
 > aus der Ferne über das Internund (Jeedom DNS oder andere) erfolgen. \.
 > \.
 
@@ -56,10 +56,10 @@ Konfigurationsaktualisierungen und Überprüfung
 -   Aktualisieren Sie die **Jeedom Meister** auf die neueste Version (auch wenn
     Es wird Ihnen kein Update angeboten.).
 
--   Plugins von aktualisieren **Jeedom Meister** bis zum lundzten
+-   Plugins von aktualisieren **Jeedom Meister** bis zum letzten
     verfügbare Versionen.
 
--   Überprüfen Sie auf der Seite Health die interne Nundzwerkkonfiguration des
+-   Überprüfen Sie auf der Seite Health die interne Netzwerkkonfiguration des
     **Jeedom Meister** ist OK (und extern, wenn Ihr **Jeedoms Quellen**
     wird entfernt sein).
 
@@ -72,11 +72,11 @@ erforderlich, um die folgenden Informationen abzurufen :
 ### Zwave Plugin 
 
 -   Auf der Gesundheitsseite des Zwave-Plugins auf der **Jeedom Meister**, Wählen
-    Ihre **Sklave** aus dem Dropdown-Menü und machen Sie einen Screenshot,
+    Ihre **Esclave** aus dem Dropdown-Menü und machen Sie einen Screenshot,
     Dies, um eine Liste der Geräte zu haben, die kommt
     davon.
 
--   Hinweis für jedes Gerät, das von kommt **der Sklave** : das Objekt
+-   Hinweis für jedes Gerät, das von kommt **l'Esclave** : das Objekt
     Eltern, Name, ID (Knoten), Modell.
 
 -   Zwcfg-Datei wiederherstellen : *Plugins ⇒ Verwaltung von Plugins ⇒
@@ -85,10 +85,10 @@ erforderlich, um die folgenden Informationen abzurufen :
 
 ### RFXcom Plugin 
 
--   Hinweis für jedes Gerät, das von kommt **der Sklave** : das Objekt
+-   Hinweis für jedes Gerät, das von kommt **l'Esclave** : das Objekt
     Eltern, Name, ID (logisch), Typ, Modell.
 
-> **Notiz**
+> **Note**
 >
 > Ein nicht erschöpfendes Informationsblatt, das Sie für die Migration beachten sollten
 > ist verfügbar [hier](images/MemoMigration.xls)
@@ -109,10 +109,10 @@ Vorbeugende Backups
 Migration 
 =========
 
-> **Notiz**
+> **Note**
 >
 > Löschen Sie keine alten Geräte aus
-> **der Sklave** auf **der Meister**.
+> **l'Esclave** auf **der Meister**.
 
 Installieren und aktivieren Sie das Plugin "Jeedom Link" auf der **Jeedom Ziel** (ehemaliger Meister). 
 -------------------------------------------------------------------------------------
@@ -124,7 +124,7 @@ Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
 Installation von **Jeedom Quelle** : 
 -----------------------------------
 
-> **Notiz**
+> **Note**
 >
 > wenn Sie einen zusätzlichen Raspberry Pi und eine andere Karte haben
 > SD können Sie ein Protokoll nach dem anderen durch migrieren
@@ -132,12 +132,12 @@ Installation von **Jeedom Quelle** :
 > Berühre deine **Jeedom Sklave** vorhanden. Durch offensichtliche Bewegung
 > als mögliche Controller von einem zum anderen.
 
-> **Warnung**
+> **Warning**
 >
 > Wenn Sie Ihr vorhandenes RaspberryPi verwenden, stellen Sie bitte sicher
 > das Sicherungskapitel dieser Dokumentation befolgt haben.
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie den vorhandenen Raspberry Pi verwenden, der derzeit ein
 > **Jeedom Sklave**, Wir empfehlen Ihnen, eine Karte zu verwenden
@@ -145,14 +145,14 @@ Installation von **Jeedom Quelle** :
 > bei Bedarf einfach.
 
 -   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (Lund it be
-    in deine sundzen **Jeedom Sklave** vorhanden oder für eine
+    in deine setzen **Jeedom Sklave** vorhanden oder für eine
     neuer Raspberry Pi), indem Sie der [Dokumentation
     d'installation](https://doc.jeedom.com/de_DE/installation/doc-installation.html).
 
 -   Aktualisieren Sie die **Jeedom Quelle** auf die neueste Version (auch wenn
     Es wird Ihnen kein Update angeboten.).
 
--   Überprüfen Sie auf der Seite Health die interne Nundzwerkkonfiguration (und
+-   Überprüfen Sie auf der Seite Health die interne Netzwerkkonfiguration (und
     extern, falls erforderlich) **Jeedom Quelle** ist ok.
 
 Konfiguration der Jeedom-Quelle 
@@ -161,10 +161,10 @@ Konfiguration der Jeedom-Quelle
 -   Ändern Sie das Passwort des Administrators oder / und konfigurieren Sie a
     neuer Benutzer.
 
--   Konfigurieren Sie Ihr Jeedom Markund-Konto (* Konfiguration ⇒ Updates
+-   Konfigurieren Sie Ihr Jeedom Market-Konto (* Konfiguration ⇒ Updates
     und Dateien ⇒ Registerkarte "Markt" *). Klicken Sie auf Test nach
     gespeichert, um die Eingabe Ihrer Kennungen zu überprüfen
-    Jeedom Markund).
+    Jeedom Market).
 
 -   Installation und Aktivierung des Plugins "Jeedom Link" auf dem neuen
     **Jeedom Quelle**.
@@ -184,21 +184,21 @@ Konfiguration der Ausrüstung auf dem **Jeedom Quelle**
 
 Senden von Geräten auf dem **Jeedom Quelle**
 in Richtung **Jeedom Ziel** über das Plugin "Jeedom Link" ist es notwendig
-dass es auf Ihrem neuen bereits bundriebsbereit ist **Jeedom
-Quelle**.
+dass es auf Ihrem neuen bereits betriebsbereit ist **Jeedom
+Source**.
 
-> **Notiz**
+> **Note**
 >
 > Denken Sie daran, die Befehlsprotokollierung zu deaktivieren
 > Informationen zu jedem Gerät auf der **Jeedom Quelle** so
 > um die SD-Karte davon zu speichern (Historisierung wird auf dem durchgeführt
 > **Jeedom Ziel**).
 
-> **Notiz**
+> **Note**
 >
 > Sie können das Gerät auch schrittweise zuweisen
 > Objekte auf dem neu erstellt **Jeedom Quelle** so dass sie später sind
-> automatisch das richtige Objekt auf die sundzen **Jeedom Ziel** während
+> automatisch das richtige Objekt auf die setzen **Jeedom Ziel** während
 > die Deklaration im Plugin "Jeedom Link". Bei doppeltem Namen
 > mit Ausrüstung, die bereits in den Objekten der **Jeedom Ziel**,
 > Das Plugin fügt dem Namen des Geräts "remote XXXX" hinzu.
@@ -209,7 +209,7 @@ Quelle**.
     mit Ihrem Controller verbunden. (Sie werden in Erinnerung behalten
     davon)
 
--   Ersundzen Sie die Datei * Zwcfg* : *Plugins ⇒ Verwaltung von Plugins ⇒
+-   Ersetzen Sie die Datei * Zwcfg* : *Plugins ⇒ Verwaltung von Plugins ⇒
     Z-Welle *. Klicken Sie auf die rote Schaltfläche * Zwcfg * und fügen Sie den Inhalt der ein
     zuvor auf Ihrem Computer erstellte Textdatei. * Speichern
     die Änderungen*.
@@ -219,7 +219,7 @@ Quelle**.
 
 ### RFXcom Plugin : 
 
-#### Sonden, Sensoren, Dundektoren,… : 
+#### Sonden, Sensoren, Detektoren,… : 
 
 -   Schalten Sie das Plugin in den Einschlussmodus.
 
@@ -233,7 +233,7 @@ Quelle**.
 
 -   Neue Ausrüstung hinzufügen.
 
--   Definieren Sie Name, ID, übergeordnundes Objekt, Gerätundyp und
+-   Definieren Sie Name, ID, übergeordnetes Objekt, Gerätetyp und
     Modell mit Ihrem Migrationsprotokoll.
 
 -   Wiederholen Sie dies für alle Ihre Geräte dieses Typs.
@@ -244,7 +244,7 @@ Konfiguration des "Jeedom Link Plugins""
 Das "Jeedom Link" Plugin ist auf dem installiert **Jeedom Quelle** wird die erlauben
 Ausrüstung auf der **Jeedom Ziel** (Dein alter Meister).
 
-> **Notiz**
+> **Note**
 >
 > Zur besseren Lektüre und zum besseren Verständnis dieses Tutorials :\.
 > \.
@@ -286,7 +286,7 @@ oder nicht die Ausrüstung, ihre Steuerungen, ... oder ändern Sie die Kategorie
 
 ![jeelink.migration7](images/jeelink.migration7.png)
 
-Auf der Registerkarte * Bestellungen * greifen Sie auf alle Paramunder der
+Auf der Registerkarte * Bestellungen * greifen Sie auf alle Parameter der
 Gerätesteuerung :
 
 ![jeelink.migration8](images/jeelink.migration8.png)
@@ -294,10 +294,10 @@ Gerätesteuerung :
 Historische Erholung 
 ----------------------------
 
-> **Notiz**
+> **Note**
 >
 > Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jede Bestellung
-> alte Geräteinfo **Sklave** was wir erholen wollen
+> alte Geräteinfo **Esclave** was wir erholen wollen
 > die Geschichte.
 
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
@@ -314,18 +314,18 @@ Historische Erholung
 Ersatz alter Slave-Geräte in Szenarien / virtuell /… 
 ----------------------------------------------------------------------------
 
-> **Notiz**
+> **Note**
 >
 > Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jede Bestellung
-> Info / Aktion von Altgeräten **Sklave** was wir wollen
-> Vorkommen in Szenarien ersundzen / virtuell /….
+> Info / Aktion von Altgeräten **Esclave** was wir wollen
+> Vorkommen in Szenarien ersetzen / virtuell /….
 
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
     rechts *).
 
 -   Gehen Sie zur Registerkarte * Informationen*.
 
--   Klicken Sie auf die Schaltfläche * Ersundzen Sie diesen Befehl durch den Befehl*.
+-   Klicken Sie auf die Schaltfläche * Ersetzen Sie diesen Befehl durch den Befehl*.
 
 -   Finden Sie die entsprechende Bestellung für das neue JeeLink-Gerät
     Korrespondent und validieren.
@@ -333,10 +333,10 @@ Ersatz alter Slave-Geräte in Szenarien / virtuell /…
 Abrufen erweiterter Anzeigekonfigurationen für Befehle 
 ------------------------------------------------------------------
 
-> **Notiz**
+> **Note**
 >
 > Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jede Bestellung
-> Info / Aktion von Altgeräten **Sklave** was wir wollen
+> Info / Aktion von Altgeräten **Esclave** was wir wollen
 > Erweiterte Anzeigeeinstellungen abrufen.
 
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
@@ -350,30 +350,30 @@ Abrufen erweiterter Anzeigekonfigurationen für Befehle
 Kopie der erweiterten Befehlskonfigurationen 
 -------------------------------------------------
 
-> **Notiz**
+> **Note**
 >
 > Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jede Bestellung
-> Info / Aktion von Altgeräten **Sklave** was wir wollen
+> Info / Aktion von Altgeräten **Esclave** was wir wollen
 > Rufen Sie die erweiterte Konfiguration ab.
 
 -   Keine einfache Lösung auf dieser Ebene, Sie müssen zwei haben
     Öffnen Sie Tabs / Fenster in Ihrem Browser.
 
--   Offene Bestellungen für Altgeräte **Sklave** in a
-    Registerkarte (Jeedom Targund).
+-   Offene Bestellungen für Altgeräte **Esclave** in a
+    Registerkarte (Jeedom Target).
 
 -   Öffnen Sie die Steuerelemente für jeeLink-Geräte auf der anderen Registerkarte
     (Jeedom Ziel).
 
--   Und kopieren Sie die gewünschten Paramunder von Hand.
+-   Und kopieren Sie die gewünschten Parameter von Hand.
 
-> **Notiz**
+> **Note**
 >
 > Um zu vermeiden, dass dieselbe Bestellung mehrmals wiederholt wird, wird die
 > Operationen 2.6 → 2.9 kann nacheinander auf demselben ausgeführt werden
 > bestellen, bevor Sie mit dem nächsten fortfahren.
 
-> **Warnung**
+> **Warning**
 >
 > Interaktionen auf dem **Jeedom Ziel** kann nicht gestartund werden
 > durch Ausrüstung von a **Jeedom Quelle** übertragen über die
@@ -382,7 +382,7 @@ Kopie der erweiterten Befehlskonfigurationen
 Haushalt auf der **Jeedom Ziel** 
 ==============================
 
-> **Notiz**
+> **Note**
 >
 > Nachdem Sie mit Sicherheit bestätigt haben, dass Ihr
 > Ausrüstung / Szenarien / Interaktionen / virtuell /…. Arbeit
@@ -397,6 +397,6 @@ Haushalt auf der **Jeedom Ziel**
 -   Benennen Sie im Plugin "Jeedom Link" das Gerät um
     könnte einen Namen haben, der mit "remote" endund XXXX".
 
--   Löschen Sie auf der Seite Jeedom Nundwork die alte **Jeedom Sklave**.
+-   Löschen Sie auf der Seite Jeedom Network die alte **Jeedom Sklave**.
 
 

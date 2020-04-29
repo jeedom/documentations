@@ -19,7 +19,7 @@ La mejor manera de estar callado es usar ambos : Hacer un
 haga una copia de seguridad de la tarjeta microSD de vez en cuando y programe un
 copia de seguridad regular de Jeedom.
 
-> **Punta**
+> **Tip**
 >
 > El procedimiento de restauración de la tarjeta microSD puede ser útil para
 > restaurar un Jeedom predeterminado de la Imagenn proporcionada por
@@ -40,30 +40,30 @@ Preparaciones
 -----------
 
 Estas copias de seguridad / restauraciones se realizan desde otro
-computadora para hacer una "Imagenn limpia" de la tarjeta SD. Toma en
+computadora para hacer una "imagen limpia" de la tarjeta SD. Toma en
 primero pare el mini +. Para hacer esto, ponga Jeedom en modo
 experto en el menú de usuario en la parte superior derecha.
 
-![save restore06](Imagens/save-restore06.jpg)
+![save restore06](images/save-restore06.jpg)
 
 Y haga clic en Apagar
 
-![save restore07](Imagens/save-restore07.jpg)
+![save restore07](images/save-restore07.jpg)
 
 Luego retire la tarjeta microSD del mini + y conéctela a
 su computadora a través de un adaptador / lector de tarjetas / ...
 
-![save restore08](Imagens/save-restore08.jpg)
+![save restore08](images/save-restore08.jpg)
 
 Ventanas 
 ------------
 
 Tendrá que comenzar descargando software de terceros, por ejemplo :
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskImagenr/)
+[Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
 
-1.  **Salvaguardia**
+1.  **Sauvegarde**
 
-    -   Inaquíe el software y verifique que la siguiente carta
+    -   Inicie el software y verifique que la siguiente carta
         *El dispositivo * coincide con el de su tarjeta / lector
         tarjeta.
 
@@ -71,11 +71,11 @@ Tendrá que comenzar descargando software de terceros, por ejemplo :
         desea crear y dónde se guardará.
 
     -   Finalmente, haga clic en el botón * Leer * para crear la Imagenn..
-        Imagen::Imagens / save-restore09.jpg \ [align = "center" \]
+        Imagen::images / save-restore09.jpg \ [align = "center" \]
 
-2.  **Catering**
+2.  **Restauration**
 
-    -   Inaquíe el software y verifique que la siguiente carta
+    -   Inicie el software y verifique que la siguiente carta
         *El dispositivo * coincide con el de su tarjeta / lector
         tarjeta.
 
@@ -85,7 +85,7 @@ Tendrá que comenzar descargando software de terceros, por ejemplo :
     -   Finalmente, haga clic en el botón * Escribir * para restaurar esto
         Imagenn en tarjeta microSD.
 
-![save restore10](Imagens/save-restore10.jpg)
+![save restore10](images/save-restore10.jpg)
 
 Bajo MacOSX 
 -----------
@@ -93,9 +93,9 @@ Bajo MacOSX
 Para facilitar su tarea, puede descargar el software
 [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
-![save restore11](Imagens/save-restore11.jpg)
+![save restore11](images/save-restore11.jpg)
 
-1.  **Salvaguardia**
+1.  **Sauvegarde**
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
         *Pi-Crust *, y haga clic en * Crear copia de seguridad * para crear un
@@ -105,15 +105,15 @@ Para facilitar su tarea, puede descargar el software
 
         -   Para encontrar el disco correspondiente a la tarjeta, abra
             una terminal e ingrese el comando : `diskutil list`
-            Imagen::Imagens / save-restore12.jpg \ [align = "center" \]
+            Imagen::images / save-restore12.jpg \ [align = "center" \]
 
         -   Comience a crear la Imagenn ingresando el comando :
             `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`
-            *Observación: En este ejemplo, el nombre del disco de la tarjeta
+            *Remarque: En este ejemplo, el nombre del disco de la tarjeta
             es `/ dev / disk1`, así que ingrese el comando
             Salvaguardia \`/dev/disk1\`*
 
-2.  **Catering**
+2.  **Restauration**
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
         *Pi-Crust *, coloque la ruta al archivo de Imagenn para restaurar
@@ -127,7 +127,7 @@ Para facilitar su tarea, puede descargar el software
             un terminal e ingrese el mismo comando que para el
             Salvaguardia : `diskutil list`
 
-        -   Desmonta las partaquíones de la tarjeta escribiendo el comando :
+        -   Desmonta las particiones de la tarjeta escribiendo el comando :
             `sudo diskutil unmountDisk /dev/disk1`
 
         -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando
@@ -140,7 +140,7 @@ Para facilitar su tarea, puede descargar el software
 Bajo Linux 
 ----------
 
-1.  **Salvaguardia**
+1.  **Sauvegarde**
 
     -   Para encontrar el disco correspondiente a la tarjeta, abra un
         terminal e ingrese el comando : `sudo fdisk -l | grep Dis`
@@ -153,20 +153,20 @@ Bajo Linux
         ```
 
     -   Comience a crear la Imagenn ingresando el comando :
-        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Observación: Dans
+        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Remarque: Dans
         En este ejemplo, el nombre del disco de la tarjeta es / dev / sdc.*
 
-2.  **Catering**
+2.  **Restauration**
 
     -   Para encontrar el disco correspondiente a la tarjeta, abra un
         terminal e ingrese el comando : `sudo fdisk -l | grep Dis`
 
-    -   Desmonta las partaquíones de la tarjeta escribiendo el comando (en
-        reemplazando la X con los números de partaquíón) :
+    -   Desmonta las particiones de la tarjeta escribiendo el comando (en
+        reemplazando la X con los números de partición) :
         `sudo umount /dev/sdcX`
 
     -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando :
-        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Observación: Dans
+        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Remarque: Dans
         En este ejemplo, el nombre del disco de la tarjeta es / dev / sdc.*
 
 

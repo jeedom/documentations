@@ -25,19 +25,19 @@ Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
     -   Eine Himbeere + Box 50 €
     -   Ein Aeon Gen Schlüssel 5 € 60
     -   Eine Micro-SD-Karte 7 €
-    -   Ein USB-Tu es nichttzteil 8 €
+    -   Ein USB-Netzteil 8 €
 
 Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
-> **Spitze**
+> **Tip**
 >
 > Es ist möglich, eine Rfxcom-Antenne oder einen enOcean-Schlüssel hinzuzufügen oder zu ändern.
 
-> **Spitze**
+> **Tip**
 >
 > Jeedom ist eine Software, die Open Source ist und bleiben wird. Ihre Verwendung ist völlig kostenlos und hängt nicht von einer Cloud oder einem Abonnement ab. Einige Plugins, die die Kapazität von Jeedom oder dessen Verwendung erhöhen, können jedoch kostenpflichtig sein **und benötigen möglicherweise eine Internetverbindung**. Sie finden die Liste der Plugins [hier](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
-> **Spitze**
+> **Tip**
 >
 > Service Pack ? Quézako ? Sie können sehen [hier](https://blog.jeedom.fr/?p=1215) die Vorteile von Service Packs.
 
@@ -52,7 +52,7 @@ Hier finden Sie eine schrittweise Dokumentation zum Installieren oder Wiederhers
 Jeedom mini +
 ===========
 
-> **Spitze**
+> **Tip**
 >
 > Der Name des Jeedom-Bildes kann sich von dem der in dieser Dokumentation vorgenommenen Aufnahmen unterscheiden
 
@@ -71,7 +71,7 @@ Du musst gehen [hier](https://images.jeedom.com/jeeboard/),Stellen Sie dann im O
 Stufe 3 : Das Jeedom-Bild dekomprimieren
 ---
 
-Entpacken Sie das Jeedom-Image (wenn Sie nichts zum Entpacken haben, können Sie es installieren [Winrar](http://www.clubic.com/telecharger-fiche9632-Winrar.html)) müssen Sie erhalten :
+Entpacken Sie das Jeedom-Image (wenn Sie nichts zum Entpacken haben, können Sie es installieren [Winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)) müssen Sie erhalten :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -84,19 +84,19 @@ Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, 
 
 Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Tu es nichttzwerk und die Stromversorgung verbinden, Ihr Jeedom startet (5 Minuten) und Sie sollten es im Tu es nichttzwerk sehen.
 
-> **Spitze**
+> **Tip**
 >
 > SSH-IDs sind jeedom / Mjeedom96
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index.html)
 
 
-Himbeerpi
+Raspberrypi
 ===========
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**
 
-> **Wichtig**
+> **Important**
 >
 > Debian 9 (Stretch) ist die offiziell unterstützte Distribution für Version 3.1.5 der Freiheit.
 
@@ -106,13 +106,13 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 **3 / Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD** [hier](https://etcher.io/)
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt)..
 
 **4 / Aktivieren Sie den SSH-Zugriff**
 
-> **Warnung**
+> **Warning**
 >
 > Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Also musst du es aktivieren.
 
@@ -120,7 +120,7 @@ Auf der Boot-Partition muss eine leere SSH-Datei erstellt werden (die einzige, a
 
 Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne es in "ssh" um" **ohne Verlängerung**
 
-> **Wichtig**
+> **Important**
 >
 > Unter Windows müssen Sie daher im Explorer Ihre Konfiguration in Anzeige / Optionen / Ordner ändern und Suchoptionen ändern /
 
@@ -147,7 +147,7 @@ Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf Ö
 
 Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
-> **Wichtig**
+> **Important**
 >
 > Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares der Himbeere basieren. (Befehl nichtswd und sudo nichtswd)
 
@@ -157,17 +157,17 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
 
-> **Notiz**
+> **Note**
 >
 > Abhängig von Ihrer Internetgeschwindigkeit kann die Installation 45 bis 90 Minuten dauern. Sie dürfen den Vorgang nicht vor dem Ende unterbrechen. Andernfalls müssen Sie den gesamten Vorgang wiederholen.
 
 Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
-> **Notiz**
+> **Note**
 >
 > Die Standardanmeldeinformationen sind admin / admin
 
-> **Notiz**
+> **Note**
 >
 > Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
 
@@ -193,7 +193,7 @@ Beenden Sie durch Speichern : `CTRL+X` puis `O` puis `ENTREE`
 
 Starten Sie Ihr RPI neu
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
 Freebox Delta
 =============
@@ -234,13 +234,13 @@ Sie können eine Verbindung über die auf der Seite angegebene Adresse herstelle
 
 Denken Sie daran, der VM den USB-Anschluss des Delta zuzuweisen, wenn Sie eine Antenne verwenden möchten.
 
-Tu es nicht **nicht** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum)..
+Tu es nicht **pas** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum)..
 
 Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 
 Das Standard-Login und Passwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index.html)
+Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index.html)
 
 VM
 ==
@@ -337,16 +337,16 @@ ip -s -c -h a
 
 Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. Geben Sie es einfach in Ihren Browser ein.
 
-> **Warnung**
+> **Warning**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Tu es nichttzwerkkarte nicht wie zu Beginn angegeben als Tu es nichttzwerkbrücke konfiguriert.
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
 Docker
 ======
 
-> **Wichtig**
+> **Important**
 >
 > Bitte beachten Sie, dass wir hier davon ausgehen, dass Sie mit Docker bereits vertraut sind
 
@@ -375,7 +375,7 @@ apt-get install docker.io
 Stufe 2 : Installieren eines MySQL-Images
 ---
 
-> **Notiz**
+> **Note**
 >
 > Sie können MySQL auch direkt auf dem Host-Computer installieren. In diesem Fall überspringen Sie diesen Schritt.
 
@@ -414,13 +414,13 @@ Dann müssen Sie Jeedom installieren, indem Sie zu gehen : IP \ _DOCKER:9080 und
 
 ![install other](images/install_other.PNG)
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
-> **Wichtig**
+> **Important**
 >
 > Für den Namen des Hosts MySql müssen Sie jeedom-mysql eingeben
 
-Synologie
+Synology
 ========
 
 Hier finden Sie Schritt für Schritt die Dokumentation zur Installation von Jeedom auf einer Synologie (DSM 5).2 Minimum).
@@ -440,7 +440,7 @@ Warten Sie, bis die Installation abgeschlossen ist :
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> **Wichtig**
+> **Important**
 >
 > Um auf das Docker-Paket zugreifen zu können, benötigen Sie DSM 5.2 und ein kompatibles NAS
 
@@ -556,7 +556,7 @@ Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und 
 > - SSH_PORT : ermöglicht das Ändern des Standardports (22) für das Abhören von ssh
 > - MODE_HOST : zeigt an, dass sich das Tu es nichttzwerk im Host-Modus befindet
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Für bestimmte Plugins muss das Tu es nichttzwerk gesendet werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Tu es nichttzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendete Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und setzen Sie die Variable MODE_HOST auf 1
 
@@ -569,28 +569,28 @@ Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP \ _N
 
 Füllen Sie die Felder entsprechend Ihrer Konfiguration aus (Konfiguration der zuvor installierten Docker-MySQL) und validieren Sie sie.
 
-> **Wichtig**
+> **Important**
 >
 > Die IP-Adresse des BDD ist die IP-Adresse des NAS, der Port ist der vom Docker Mysql umgeleitete, das Kennwort ist das im Docker Mysql eingegebene. Benutzername ist root und Basisname ist was immer Sie wollen (Jeedom empfohlen)
 
 ![install synology 30](images/install_synology_30.PNG)
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie SSH-Zugriff wünschen, müssen Sie in Ports einen lokalen Port zu Port 22 des Containers umleiten. Die SSH-Kennungen sind root / jeedom. Sie können das Kennwort ändern, indem Sie die Umgebungsvariable ROOT \ _PASSWORD auf den Wert des gewünschten Kennworts setzen.
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index)
+Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
-Andere
+Autres
 ======
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf den meisten Linux-Systemen (getestet und genehmigt in der Debian-Distribution).
 
-> **Wichtig**
+> **Important**
 >
 > Debian 9 (Stretch) ist die offiziell unterstützte Distribution für Version 3.1.7 von Jeedom (aber Jessie bleibt perfekt funktionsfähig). Wenn Sie Linux-Umgebungen nicht mindestens beherrschen, empfehlen wir Ihnen, ein offizielles Image (OVF) oder die Verwendung eines Mini + oder Smart (in Kürze verfügbar) zu verwenden..
 
-> **Wichtig**
+> **Important**
 >
 > Das Installationsskript kann gefährlich sein, da davon ausgegangen wird, dass Ihr System leer ist. Wenn nicht, lesen Sie bitte das Skript und installieren Sie es von Hand..
 
@@ -604,11 +604,11 @@ chmod +x install.sh
 
 Gehen Sie dann einfach von Ihrem Internetbrowser zu IP \ _MACHINE \ _JEEDOM.
 
-> **Notiz**
+> **Note**
 >
 > Die Standardanmeldeinformationen sind admin / admin
 
-> **Notiz**
+> **Note**
 >
 > Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
 
@@ -616,4 +616,4 @@ Gehen Sie dann einfach von Ihrem Internetbrowser zu IP \ _MACHINE \ _JEEDOM.
 ./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-nicht/index).
+Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index).
