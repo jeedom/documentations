@@ -26,7 +26,7 @@ Resumen
 
 La sonda SES303 permite la medición de la temperatura ambiente interior.
 así como la humedad. Está alimentado por 2 pilas AA y está certificado
-. Además de su función principal, es posible
+Z-Wave Plus. Además de su función principal, es posible
 conecte varias sondas seguras externas al módulo, es decir:
 
 -   Un sensor de temperatura externo NTC (SES001)
@@ -74,7 +74,7 @@ Características técnicas
 
 -   Rango de medición de temperatura: ± 0.5 ° C para 0 ° C a 40 ° C
 
--   Chip 
+-   Chip Z-Wave Plus
 
 -   Frecuencia : 868.42 Mhz
 
@@ -82,9 +82,9 @@ Características técnicas
 
 -   Alcance : hasta 100 m en campo libre
 
--   Indice de PROTECCION : 
+-   Indice de PROTECCION : IP30
 
--   Dimensiones : 
+-   Dimensiones : 86 x 85 x 30 mm
 
 \
 

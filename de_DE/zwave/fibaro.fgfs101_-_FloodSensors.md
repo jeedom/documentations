@@ -1,4 +1,4 @@
-Fibaro  "Hochwassersensor" 
+Fibaro FGFS-101 "Hochwassersensor" 
 ==============================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Der -Sensor ist kompakt und verfügt über eine Vielzahl von
+Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
 Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
 Flood Fibaro warnt Sie vor einer drohenden Flut oder einem Anstieg
 oder schneller Temperaturabfall.
@@ -46,7 +46,7 @@ Wasser.
 Es hat auch einen Sirenenalarm, der im Falle von ertönen kann
 Problem. Sie können den Trockenkontaktausgang an ein System anschließen
 vorhandener Alarm. Eine Front-LED zur Überprüfung des Status der
-.
+FGFS-101.
 
 Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
 stellt die korrekte Funktion des Sensors während seiner Installation sicher.
@@ -81,13 +81,13 @@ Technische Daten
 
 -   Das Modul kann extern mit Strom versorgt werden : 12 - 24 VDC
 
--   Batterietyp : 
+-   Batterietyp : CR123A
 
 -   Akkulaufzeit : 2 Jahre
 
 -   Verbrauch an externer Stromversorgung : 0,4 W.
 
--   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :
+-   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
 
 -   Maximale am Ausgang unterstützte Spannung : 40 V (AC oder DC)
 
@@ -113,7 +113,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
 -   Modell : Hochwassersensor FGFS101
 
@@ -180,7 +180,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--    : Dies ist der befehl. Es signalisiert die Öffnung
+-   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
     des Falles
 
 -   Batterie : Es ist der Batteriebefehl
@@ -329,7 +329,7 @@ Wichtiger Hinweis
 Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro-Dokumentation :
-<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
+<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \.
 

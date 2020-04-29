@@ -4,14 +4,14 @@ help set up your Jeedom.
 > **Tip**
 >
 > This guide is not intended to replace the complete documentation
-> disponible sur le site Jeedom [here](https://jeedom.fr/doc).
+> available on the Jeedom website [here](https://jeedom.fr/doc).
 
 Registration on the market 
 =========================
 
 The first thing to do is to create an account on the Market for
 be able to register your Jeedom on this one, click
-[here](https://www.jeedom.com/market) pour commencer
+[here](https://www.jeedom.com/market) to begin
 
 ![premier market](images/premier-market.png)
 
@@ -45,7 +45,7 @@ containing a code for your Service pack.
 > nothing to do, it is automatically assigned to you.
 
 Once the code is retrieved in the mail, you just need to go to the
-[Jeedom Market](https://market.jeedom.fr) et de vous identifier.
+[Jeedom Market](https://market.jeedom.fr) and identify yourself.
 
 Then go to your profile page:
 
@@ -179,7 +179,7 @@ your Jeedom account, for that click on Administration → Users
 (top right):
 
 Once on it you just have to choose the line with the user
-**admin** and click on **To change the password**:
+**admin** and click on **To change the password** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -265,7 +265,7 @@ You then find :
 - how to use the plugin, 
 - additional information like the author, the link to the forum discussion regarding this plugin, the date of the last update, etc..
 
-Pour plus d'informations sur les plugins click [here](https://jeedom.github.io/core/en_US/plugin).
+For more information on plugins click [here](https://jeedom.github.io/core/en_US/plugin).
 
 Support 
 =======
@@ -277,7 +277,7 @@ help and ask your questions.
 Jeedom documentation 
 --------------------------
 
-Vous trouverez une documentation complète [here](https://jeedom.fr / doc):
+You will find a complete documentation [here](https://jeedom.fr/doc) :
 
 This consists of several categories:
 
@@ -288,7 +288,7 @@ This consists of several categories:
 
 -   Setup : Everything about installing Jeedom,
 
--    : Tutorials to progress in various fields,
+-   Howto : Tutorials to progress in various fields,
 
 -   Plugins : The documentation of the different offhereal plugins from
     Jeedom,
@@ -306,7 +306,7 @@ page to find pages based on a specific word.
 The forum 
 --------
 
-Vous le trouverez [here](https://jeedom.com / forum) .
+You will find it [here](https://jeedom.com/forum) .
 
 The forum is very active and contains a lot of information. If you
 have a question, feel free to ask it. You will have an answer in

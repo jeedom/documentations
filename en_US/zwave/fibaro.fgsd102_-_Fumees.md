@@ -1,4 +1,4 @@
-" 
+Fibaro FGSD-002 "Smoke Sensor 2" 
 ================================
 
 \
@@ -33,7 +33,7 @@ place in your home to preserve the security of the whole
 family.
 
 The Fibaro FGSD-002 smoke detector is an Alarm Detector
-Autonomous Smoke (DAAF) compliant with standard :2005. Good
+Autonomous Smoke (DAAF) compliant with standard EN 14604:2005. Good
 that autonomous, it is also communicating thanks to Z-Wave technology
 More.
 
@@ -71,7 +71,7 @@ Functions
 
 -   Integrated Z-Wave network coverage tester
 
--   Complies with standard :2005
+-   Complies with standard EN 14604:2005
 
 -   Z-Wave More compatible
 
@@ -95,11 +95,11 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--    : 65 x 28 mm (diameter x height)
+-   Dimensions : 65 x 28 mm (diameter x height)
 
 -   Operating temperature : 0-55 ° C
 
--   Operating humidity : 
+-   Operating humidity : 0% - 93%
 
 -   Temperature measurement range : -20 to 100 ° C
 
@@ -112,7 +112,7 @@ Technical characteristics
 
 -   Standards : EMC 2004/108 / EC and R & TTE 199/5 / WE
 
--    : :2005
+-   Certifications : EN 14604:2005
 
 \
 
@@ -121,9 +121,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Fibar Group
 
--   Name : 
+-   Name : Fibaro Smoke Sensor FGSD-002
 
 -   Manufacturer ID : 271
 
@@ -234,7 +234,7 @@ Parameter details :
 
 \
 
--    : this is the module wake-up interval (value
+-   Wakeup : this is the module wake-up interval (value
     recommended 21600)
 
 -   1: adjusts the sensitivity of smoke detection
@@ -302,7 +302,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

@@ -2,39 +2,39 @@ Ziel
 ========
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem
-Himbeere PI 3 **ohne -Karte.**
+Himbeere PI 3 **ohne microSD-Karte.**
 
 PI3 bietet in der Tat die Möglichkeit, direkt auf einem zu booten
-USB-Gerät und befreien Sie sich daher manchmal von der -Karte
+USB-Gerät und befreien Sie sich daher manchmal von der microSD-Karte
 Probleme erzeugen (Korruption).
 
 **Der Installationsvorgang ist streng identisch mit dem auf a
--Karte, aber stellen Sie sicher, dass Sie Firmware haben
+microSD-Karte, aber stellen Sie sicher, dass Sie Firmware haben
 Tag.**
 
 Öffnen Sie dazu eine SSH-Verbindung. (wenn du nicht weißt wie,
-Beobachten Sie die Installation auf  :
+Beobachten Sie die Installation auf microSD :
 [Hier](https://doc.jeedom.com/de_DE/installation/index.html)
 )
 
-     | :
+    vcgencmd otp_dump | grep 17:
 
 Du musst zurück :
 
-    17:
+    17:3020000a
 
 In diesem Fall ist Ihr PI3 ordnungsgemäß zum Booten konfiguriert
 USB. Wenn es nichts findet, startet es normal auf einer Karte
-.
+microSD.
 
 Wenn die Rückgabe anders ist, müssen Sie nur aktualisieren
 Tag.
 
-    
+    sudo apt-get update; sudo apt-get install rpi-update
 
 dann
 
-    
+    sudo rpi-update
 
 Starten Sie dann PI3 neu
 
@@ -88,21 +88,21 @@ Mögliche Anpassungen
 -   **Ändern Sie den Swap-Call-Wert.**
 
 Standardmäßig ruft das System den Swap auf, wenn weniger als 40% von vorhanden sind
-.
+Ram.
 
 -   Öffnen Sie die Datei, um diese Einstellung zu ändern :
 
 <!-- -->
 
-    
+    sudo nano /etc/sysctl.conf
 
 -   Fügen Sie diese Zeile hinzu, um Pi3 zu bitten, nur den Swap zu verwenden
     wenn 10% des verfügbaren Speichers vorhanden sind (100 MB
-     verfügbar) :
+    Ram verfügbar) :
 
 <!-- -->
 
-    
+    vm.swappiness = 10
 
 -   Dann neu starten :
 
@@ -111,13 +111,13 @@ Standardmäßig ruft das System den Swap auf, wenn weniger als 40% von vorhanden
     sudo neu starten
 
 -   **Deaktivieren Sie das integrierte Bluetooth, da es nicht mit der Karte kompatibel ist
-    **
+    GPIO zwave.me**
 
     -   Öffnen Sie die betreffende Datei :
 
 <!-- -->
 
-    
+    sudo nano /boot/config.txt
 
 -   Zeile hinzufügen :
 

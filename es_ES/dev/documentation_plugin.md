@@ -6,7 +6,7 @@ Veremos en esta documentación cómo hacer la documentación de su complemento.
 
 ## Principio
 
-El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (voir le détail [ici](https://doc.jeedom.com / en_FR / dev / structure_info_json)) en el campo de documentación.
+El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
 
 Tenga en cuenta que también tiene un campo de registro de cambios que debería funcionar de la misma manera que el campo de documentación.
 
@@ -14,7 +14,7 @@ Tenga en cuenta que también tiene un campo de registro de cambios que debería 
 
 Como se ve arriba, solo tiene que indicar en el archivo de información.json el enlace http (s) a su documentación, por lo tanto, es libre en la presentación, el host o incluso el modo : 
 
-- 
+- un blog
 - un servidor web simple
 - github (único método que veremos aquí)
 
@@ -26,11 +26,11 @@ La forma más fácil para su documentación es usar el sistema de páginas githu
 
 Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el markedown aquí.
 
-On ne va pas vous decrire la syntaxe complete du markdown, d'autre site le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+No le describiremos la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Ubicación
 
-Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossier et d'y copier les fichiers et repertoire du dossier docs dans le plugin template (voir [ici](https://github.com / jeedom / plugin-template / tree / master / docs))
+Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
 Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para modificar). En esta carpeta te recomendamos que hagas 2 archivos : 
 
@@ -52,11 +52,11 @@ Ahora necesita poner los enlaces de su documentación en el archivo de informaci
 
 > **Nota**
 >
-> Comprenderá cuándo el usuario solicitará ver su documento de jeedom o el mercado reemplazará automáticamente # idioma # con el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, entonces automáticamente volverá al francés)
+> Comprenderá cuándo el usuario solaquítará ver su documento de jeedom o el mercado reemplazará automáticamente # idioma # con el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, entonces automáticamente volverá al francés)
 
 ### Gestión de la traducción
 
-Si su plugin está estructurado como el consejo anterior, entonces la administración de la traducción es muy simple de configurar además de ser automática, solo autorice al usuario github zoic21 a presionar / tirar en su repositorio y en el mercado en la página de edición de su complemento en la pestaña github para marcar "Activar la generación de documentación y traducción". El robot funciona todos los días a las 12 del mediodía (más o menos 2 horas, dependiendo de la carga de trabajo) para recuperar la documentación francesa de su complemento y el registro de cambios (rama beta) lo empuja en Transiflex (sistema de traducción comunitario), recupere las noticias traducción y empujarlo en su repositorio de github en las carpetas correctas.
+Si su plugin está estructurado como el consejo anterior, entonces la administración de la traducción es muy simple de configurar además de ser automática, solo autorice al usuario github zoic21 a presionar / tirar en su repositorio y en el mercado en la página de edaquíón de su complemento en la pestaña github para marcar "Activar la generación de documentación y traducción". El robot funciona todos los días a las 12 del mediodía (más o menos 2 horas, dependiendo de la carga de trabajo) para recuperar la documentación francesa de su complemento y el registro de cambios (rama beta) lo empuja en Transiflex (sistema de traducción comunitario), recupere las notaquías traducción y empujarlo en su repositorio de github en las carpetas correctas.
 
 
 > **Importante**

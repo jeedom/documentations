@@ -67,7 +67,7 @@ Leiten Sie die Ports Ihres BO umX
 ===============================
 
 Geben Sie im Browser 192.168.1.1 ein. Klicken Sie auf Einstellungen
-
+Freebox
 
 ![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)
 

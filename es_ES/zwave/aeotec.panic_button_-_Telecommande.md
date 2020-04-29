@@ -1,4 +1,4 @@
-Botón de pánico  
+Botón de pánico Aeotec 
 ===================
 
 \
@@ -78,7 +78,7 @@ Características técnicas
 -   Duración de la batería : 2 a 3 meses para 10 a 20 usos
     por día
 
--   Frecuencia: 868.
+-   Frecuencia: 868.42 MHz
 
 -   Distancia de transmisión : 30m en interiores
 
@@ -91,7 +91,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Aeotec
 
 -   Nombre : Botón de pánico
 
@@ -204,7 +204,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene un solo grupo de asociación. El es
-.
+indispensable.
 
 \
 

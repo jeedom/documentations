@@ -11,7 +11,7 @@ Dieses Tutorial präsentiert Ihnen :
 -   Aktualisieren Sie Ihre Gabel
 
 Damit Sie zu Jeedom beitragen können, müssen Sie
-Änderungen vorschlagen (PR : .
+Änderungen vorschlagen (PR : Pull Request).
 
 Erstellen Sie ein GitHub-Konto 
 ===========================
@@ -126,7 +126,7 @@ Senden Sie eine Änderung
 
 Die **begehen** oben betrifft nur die Gabelung des Projekts in
 dein GitHub-Speicherplatz. Änderungen am ursprünglichen Projekt einreichen,
-Sie müssen eine PR ( durchführen.
+Sie müssen eine PR (Pull Request) durchführen.
 
 1. Wir klicken auf die Registerkarte Pull Request
 

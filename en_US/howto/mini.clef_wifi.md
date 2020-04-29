@@ -26,12 +26,12 @@ Verification that the WiFi key is well recognized
 
 Just enter the following command in SSH :
 
-     | 
+    sudo lsusb | grep Edimax
 
 If the key is recognized correctly, the message below should appear
 :
 
-    : :7811 Edimax Technology Co., Ltd EW-7811A 802.]
+    Bus 001 Device 004: ID 7392:7811 Edimax Technology Co., Ltd EW-7811A 802.11n Wireless Adapter [Realtek RTL8188CUS]
 
 The identifiers of the Bus and the Device may be different at
 you, depending on the USB port to which you connected your key.
@@ -43,7 +43,7 @@ The Edimax WiFi key has the advantage of having a driver already integrated in
 your Mini and just check it by entering the command
 next in SSH :
 
-     | 
+    sudo lsmod | grep 8192cu
 
 If the command returns a value, everything is OK. for example
 at home I get it back :
@@ -59,16 +59,16 @@ next order :
 
 Here is the content of the operational file with me :
 
-    
-    
-    
-    #
+    auto lo
+    iface lo inet loopback
+    iface eth0 inet dhcp
+    #wlan
     #=============
-    
-    
-    
-    pre-up wpa_supplicant -Dwext -i 0 -c / etc / wpa_supplicant.
-    
+    auto wlan0
+    allow-hotplug wlan0
+    iface wlan0 inet dhcp
+    pre-up wpa_supplicant -Dwext -i wlan0 -c / etc / wpa_supplicant.conf -B
+    iface default inet dhcp
 
 Editing of the file "/etc/wpa\_supplicant.conf" 
 ==============================================
@@ -77,7 +77,7 @@ Now you just have to enter your WiFi settings (name of
 your SSID and WPA key). This is done by editing the file
 /etc/wpa\_supplicant.conf with the command :
 
-    
+    sudo nano /etc/wpa_supplicant.conf
 
 Here is my operational file at home :
 
@@ -93,7 +93,7 @@ Here is my operational file at home :
             pairwise = CCMP
             group = CCMP
             key_mgmt = WPA-PSK
-            # 
+            # choose one of the following
             psk = "TA_CLE_WIFI"
      }
      ----
@@ -109,6 +109,6 @@ Here is my operational file at home :
 
     Once the files are completed, it only remains to start the WiFi connection, by typing the following command :
 
-
+sudo ifup wlan0
 
     Normally, your WiFi should be operational on your Mini.

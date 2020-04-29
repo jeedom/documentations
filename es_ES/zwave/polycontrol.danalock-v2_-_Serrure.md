@@ -1,4 +1,4 @@
- 
+Danalock V2 BTZE 
 ================
 
 \
@@ -25,7 +25,7 @@ Resumen
  
 
 **Asegure su hogar con la cerradura electrónica Z-Wave de
- !**
+Poly-Control !**
 
 No más llaves, use su teléfono inteligente para bloquear y
 abre tu puerta ! Danalock es una nueva solución que
@@ -56,7 +56,7 @@ Instale la aplicación Danalock en su teléfono en solo unos pocos
 segundos Un asistente lo guiará a través de la instalación y
 la calibración de tu Danalock.
 
-**Fácil de usar**
+ **Fácil de usar**
 
 Bloquear y desbloquear con el botón, la función TwistAssist o
 usando su teléfono inteligente. Y con la función de desbloqueo automático,
@@ -138,7 +138,7 @@ Características técnicas
 
 -   Suministro : 4 baterías CR123 3V
 
--   Versiones : 
+-   Versiones : V2
 
 -   Material : Aluminio anodizado sólido
 
@@ -146,7 +146,7 @@ Características técnicas
 
 -   Dimensiones : 79 mm x 49 mm (diámetro x altura)
 
--   Peso : 
+-   Peso : 363g
 
 \
 
@@ -155,11 +155,11 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Poly-Control
 
--   Nombre : 
+-   Nombre : Danalock V2 BTZE
 
--   ID del fabricante : 
+-   ID del fabricante : 010e
 
 -   Puntao de producto : 1
 
@@ -314,7 +314,7 @@ Detalles del parámetro :
     a este valor, el dispositivo informará al usuario con una señal
     sonido después de bloquear o desbloquear.
 
--   9 : 
+-   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
     girará la manija automáticamente cuando
     operarlo manualmente.
 

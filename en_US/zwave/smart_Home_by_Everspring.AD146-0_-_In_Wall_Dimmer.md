@@ -1,4 +1,4 @@
- 
+SmartHome by Everspring In Wall Dimmer - AD146-0 
 ================================================
 
 \
@@ -81,17 +81,17 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 
+-   Food : 230 V, 50 Hz
 
--   Consumption : 
+-   Consumption : 0.5W
 
 -   Maximum power :
 
--   Resistive load : 
+-   Resistive load : 300W
 
--   Incandescent bulb : 
+-   Incandescent bulb : 300W
 
--   Compact fluorescent bulb : 
+-   Compact fluorescent bulb : 200W
 
 -   Frequency : 868.42 Mhz
 
@@ -99,7 +99,7 @@ Technical characteristics
 
 -   Viewing: LED on the button
 
--    : 
+-   Dimensions : 42mm x 43mm x 16mm
 
 \
 
@@ -108,9 +108,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : SmartHome by Everspring
 
--   Name : 
+-   Name : In Wall Dimmer
 
 -   Manufacturer ID : 96
 
@@ -264,7 +264,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

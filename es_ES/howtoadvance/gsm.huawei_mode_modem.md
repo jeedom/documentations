@@ -1,5 +1,5 @@
 En el 90% de los casos no es necesario forzar las teclas GSM en modo
-Solo GSM (en lugar de GSM + cdrom + lector de tarjetas), el único caso
+Solo GSM (en lugar de GSM + cdrom + lector de tarjyas), el único caso
 donde es obligatorio esto es si desea utilizar la clave en un
 Jeedom en una VM (VMware ESXi). De hecho, si no lo pasas
 Modo GSM solo la clave no aparecerá en la lista de
@@ -34,7 +34,7 @@ Descarga de masilla
 =======================
 
 Luego descarga masilla
-[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) y
 inaquíar el archivo descargado
 
 Configuración de masilla y cambio al modo GSM solamente 

@@ -1,4 +1,4 @@
-Nicken Smart Plug -  
+Nicken Smart Plug - Smartplug 
 ====================================
 
 \.
@@ -51,7 +51,7 @@ Funktionen
 
 -   Verbesserte Funkreichweite
 
--   Maximale Stromstärke: 
+-   Maximale Stromstärke: 16A
 
 \.
 
@@ -65,10 +65,10 @@ Technische Daten
 -   Maximale Leistung : 3000 W kontinuierlich / 3500 W zyklisch
     (Widerstandslast) Eigenverbrauch : &lt;1W
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    
+    Plus® SDK 06.51.01
 
 -   Geltungsbereich: 40 m innen / 80 m außen
 
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Nicken
 
--   Name : 
+-   Name : Smartplug
 
 -   Hersteller ID : 357
 
@@ -196,7 +196,7 @@ Parameterdetails :
 
 -   2 : Mit dieser Einstellung können Sie die Berichtsberichte von konfigurieren
     Stromausfall / Rückgabe sowie die zugehörigen Gruppen (Gruppen
-    . Es sind mehrere Kombinationen möglich (siehe
+    4, 5, 6, 7, 8). Es sind mehrere Kombinationen möglich (siehe
     Papierdokumentation oder Hilfe Blase in Jeedom). Er ist
     empfohlen, diesen Parameter auf 1 zu setzen.
 

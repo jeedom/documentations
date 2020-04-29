@@ -29,7 +29,7 @@ Functions
 
 -   Detects openings / closings
 
--   
+-   Ultra compact
 
 -   Easy and free installation
 
@@ -52,20 +52,20 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C + 45 ° C
 
--   Range in free field : 
+-   Range in free field : 100M
 
--    : 
+-   Dimensions : 25x79x19mm
 
--   Degree of protection : 
+-   Degree of protection : IP20
 
 -   Use : Indoors
 
 Module data 
 =================
 
--   Mark : 
+-   Mark : Edisio Smart Home
 
--   Name : 
+-   Name : EOS-200
 
 General configuration 
 ======================

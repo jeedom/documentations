@@ -54,18 +54,18 @@ Características técnicas
 
 -   Rango en campo libre : 100 millones
 
--   Dimensiones : 
+-   Dimensiones : 25x79x19mm
 
--   Grado de protección : 
+-   Grado de protección : IP20
 
 -   Uso : En el interior
 
 Datos del módulo 
 =================
 
--   Hacer : 
+-   Hacer : Edisio Smart Home
 
--   Nombre : 
+-   Nombre : EOS-200
 
 Configuración general 
 ======================

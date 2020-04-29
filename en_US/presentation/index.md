@@ -31,7 +31,7 @@ Around this core are plugins that can be of all kinds :
 -   IP protocol (KNX, xPL…),
 -   communicating object (Nest, Netatmo…),
 -   high level (alarm, thermostat ...),
--   ,
+-   interface (widget),
 -   organization (calendar, Google calendar),
 -   development (script).
 

@@ -1,4 +1,4 @@
- 
+Everspring Dimmer Miniplug - AD147-6 
 ====================================
 
 \
@@ -68,12 +68,12 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.6W
 
 -   Potencia máxima : Carga resistiva : 250W, bombilla incandescente
-    : 250W, bombilla led (no regulable) : 
+    : 250W, bombilla led (no regulable) : 6W
 
 -   Frecuencia : 868.42 Mhz
 
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Visualización: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -90,7 +90,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Everspring
 
 -   Nombre : Dimmer Miniplug
 

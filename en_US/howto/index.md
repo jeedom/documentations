@@ -1,14 +1,14 @@
 # Summary
 
-- [Manually update Jeedom](/ documentations / fr_FR / howto / jeedom.mise_a_jour_manuel)
-- [Skip jeedom or a plugin in beta](/ documentation / en_FR / howto / passer_en_beta)
-- [Raspberrypi 3](/ documentations / fr_FR / howto / raspberrypi3)
-- [Factory reset of a smart](/ documentation / en_FR / howto / recovery_mode_jeedom_smart)
-- [Reset your Jeedom password in case of loss](/ documentations / fr_FR / howto / reset.password)
-- [How to make a backup](/ documentation / en_FR / howto / backup.comment_faire)
-- [How to restore a backup](/ documentation / en_FR / howto / backup.comment_recuperer)
+- [Manually update Jeedom](/documentations/en_US/howto/jeedom.mise_a_jour_manuel)
+- [Go jeedom or plugin in beta](/documentations/en_US/howto/passer_en_beta)
+- [Raspberrypi 3](/documentations/en_US/howto/raspberrypi3)
+- [Factory refurbishment of a smart](/documentations/en_US/howto/recovery_mode_jeedom_smart)
+- [Reset your Jeedom password in case of loss](/documentations/en_US/howto/reset.password)
+- [How to backup](/documentations/en_US/howto/sauvegarde.comment_faire)
+- [How to restore a backup](/documentations/en_US/howto/sauvegarde.comment_recuperer)
 
-## 
+## Archive
 
-- [WiFi key on mini](/ documentation / fr_FR / howto / mini.clef_wifi)
-- [Mini start guide](/ documentation / en_FR / howto / mini.demarrage)
+- [WiFi key on mini](/documentations/en_US/howto/mini.clef_wifi)
+- [Quick start guide](/documentations/en_US/howto/mini.demarrage)

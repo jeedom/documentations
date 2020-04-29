@@ -28,7 +28,7 @@ Nota: recuerde reservar (localmente) una copia de seguridad de configuración de
 
 
 
-1- téléchargez l'archive que nous fournissons  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Tenga cuidado de verificar que el archivo tenga el nombre backupJeedom.tar.gz para hacer trabajos de restauración.
+1- descarga el archivo que proporcionamos  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Tenga cuidado de verificar que el archivo tenga el nombre backupJeedom.tar.gz para hacer trabajos de restauración.
 
 2- copie este archivo sin modificarlo o descomprimirlo, en una llave USB en blanco formateada en FAT32
 

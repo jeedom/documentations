@@ -4,14 +4,14 @@ ayuda a configurar tu Jeedom.
 > **Punta**
 >
 > Esta guía no pretende reemplazar la documentación completa
-> disponible sur le site Jeedom [aquí](https://jeedom.fr/doc).
+> disponible en el sitio web de Jeedom [aquí](https://jeedom.fr/doc).
 
 Registro en el mercado 
 =========================
 
 Lo primero que debe hacer es crear una cuenta en el mercado para
 poder registrar su Jeedom en este, haga clic
-[aquí](https://www.jeedom.com/market) pour commencer
+[aquí](https://www.jeedom.com/market) para empezar
 
 ![premier market](images/premier-market.png)
 
@@ -45,7 +45,7 @@ que contiene un código para su paquete de servaquío.
 > nada que hacer, se te asigna automáticamente.
 
 Una vez que se recupera el código en el correo, solo necesita ir al
-[Mercado de la libertad](https://market.jeedom.fr) et de vous identifier.
+[Mercado de la libertad](https://market.jeedom.fr) e identificarte.
 
 Luego ve a tu página de perfil:
 
@@ -179,7 +179,7 @@ su cuenta Jeedom, para eso haga clic en Administración → Usuarios
 (arriba a la derecha):
 
 Una vez en él, solo tiene que elegir la línea con el usuario
-**Administración** y haga clic en **Cambiar contraseña**:
+**Administración** y haga clic en **Cambiar contraseña** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -245,7 +245,7 @@ para instalar.
 >
 > Tenga en cuenta que algunos son ofaquíales y otros no. En caso de preocupación
 > con un complemento no ofaquíal, el equipo de Jeedom no puede ser retenido
-> .
+> responsable.
 
 ![premier plugin3](images/premier-plugin3.png)
 
@@ -265,7 +265,7 @@ Entonces encuentras :
 - cómo usar el complemento, 
 - información adaquíonal como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-Pour plus d'informations sur les plugins haga clic [aquí](https://jeedom.github.io/core/es_ES/plugin).
+Para obtener más información sobre complementos, haga clic en [aquí](https://jeedom.github.io/core/es_ES/plugin).
 
 Apoyo 
 =======
@@ -277,7 +277,7 @@ ayuda y haz tus preguntas.
 Documentación de Jeedom 
 --------------------------
 
-Vous trouverez une documentation complète [aquí](https://jeedom.fr / doc):
+Encontrará una documentación completa. [aquí](https://jeedom.fr/doc) :
 
 Este consta de varias categorías:
 
@@ -288,7 +288,7 @@ Este consta de varias categorías:
 
 -   Instalación : Todo sobre la instalación de Jeedom,
 
--    : Tutoriales para progresar en varios campos.,
+-   Howto : Tutoriales para progresar en varios campos.,
 
 -   Plugins : La documentación de los diferentes complementos ofaquíales de
     Jeedom,
@@ -306,7 +306,7 @@ página para encontrar páginas basadas en una palabra específica.
 El foro 
 --------
 
-Vous le trouverez [aquí](https://jeedom.com / forum) .
+Lo encontraras [aquí](https://jeedom.com/forum) .
 
 El foro es muy activo y contiene mucha información.. Si usted
 tiene una pregunta, siéntase libre de preguntar. Tendrás una respuesta en

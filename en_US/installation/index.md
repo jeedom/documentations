@@ -35,14 +35,11 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. 
->[here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
+> Jeedom is software that is and will remain open source, its use is completely free and does not depend on a cloud or a subscription. However, some plugins that increase the capacity of Jeedom or its use may be chargeable **and may need an internet connection**. You can find the list of plugins [here](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 > **Tip**
 >
-> Service pack ? What is it ? 
->[here](https://blog.jeedom.fr/?
->.
+> Service pack ? What is it ? You can see [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
 
 Jeedom Smart
@@ -62,19 +59,19 @@ Jeedom mini +
 Step 1 : Etcher installation
 ---
 
-Vous devez télécharger le logicel Etcher [here](https://etcher.io/) then install it on your pc
+You must download Etcher software [here](https://etcher.io/) then install it on your pc
 
 2nd step : Jeedom image recovery
 ---
 
-Vous devez aller [here](https://images.jeedom.com/jeeboard/), then in the Images folder recover the jeedom-jeeboard - \*. rar image
+You have to go [here](https://images.jeedom.com/jeeboard/),then in the Images folder recover the jeedom-jeeboard - \*. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 
 Stage 3 : Decompressing the Jeedom image
 ---
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), you must obtain :
+Unzip the Jeedom image (if you have nothing to unzip it you can install [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), you must obtain :
 
 ![install humming 2](images/install_humming_2.PNG)
 
@@ -91,7 +88,7 @@ You just have to put the SD card in the Jeedomboard (or Hummingboard), connect t
 >
 > SSH IDs are jeedom / Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 
 Raspberrypi
@@ -140,11 +137,11 @@ Identify your Pi on the network
 You need to know the IP address of your PI. Many solutions :
 
 -   Consult the DHCP configuration in your router
--   Utilisez un scanner de port type "angyipscanner" [here](http://angryip.org/download/#windows)
+-   Use an angyipscanner type port scanner" [here](http://angryip.org/download/#windows)
 
 Establish connection
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
+Then use for example putty to establish your connection [Here](http://www.putty.org/)
 
 Enter the IP address of your PI (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
 
@@ -196,7 +193,7 @@ Quit by saving : `CTRL+X` puis `O` puis `ENTREE`
 
 Reboot your RPI
 
-Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Freebox Delta
 =============
@@ -243,7 +240,7 @@ The IP address of your Jeedom on the Freebox Delta is written at the top, under 
 
 The default login and notsword are admin / admin when you access jeedom via your browser.
 
-Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index.html)
 
 VM
 ==
@@ -253,14 +250,14 @@ If you want to discover Jeedom without risk, you can also virtualize it on your 
 Step 1 : Download and install VMware Player
 ---
 
-Vous devez télécharger le logicel Virtual Box [ICI](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
+You must download the Virtual Box software [Here](http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe)
 
 2nd step : Downloading a Debian strecht image - netinstall
 ---
 
-Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
+Download a minimalist debian 9 Stretch image [Here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-netinst.iso)
 
-Téléchargez le pack d'extensions, et installez-le. [ICI](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
+Download the extension pack, and install it. [Here](http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack)
 
 Stage 3 : Configuring the VM environment
 ---
@@ -344,7 +341,7 @@ Your IP address, type 192.168.0.XX appears in red. Just enter it in your browser
 >
 > If this does not work, you have not configured your network card as Borntwork Bridge as indicated at the start.
 
-Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Docker
 ======
@@ -382,7 +379,7 @@ apt-get install docker.io
 >
 > You can also install mysql directly on the host machine, in this case, skip this step.
 
-J'utilise [celle-ci](https://hub.docker.com/_/mysql/). To install it :
+I use [this one](https://hub.docker.com/_/mysql/). To install it :
 
 ``docker pull mysql:latest``
 
@@ -417,7 +414,7 @@ Then you need to install Jeedom by going to : IP \ _DOCKER:9080 and enter the co
 
 ![install other](images/install_other.PNG)
 
-Pour la suite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 > **IMPORTANT**
 >
@@ -582,7 +579,7 @@ Fill in the fields according to your configuration (configuration of the Docker 
 >
 > If you want SSH access, you need in ports to redirect a local port to port 22 of the container, the SSH identifiers are root / jeedom. You can change the notsword by setting the environment variable ROOT \ _PASSWORD to the value of the desired notsword.
 
-Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index)
 
 Any
 ======
@@ -619,4 +616,4 @@ Then simply go to IP \ _MACHINE \ _JEEDOM from your Internet browser.
 ./install.sh -w /var/www/html -z -m Jeedom
 ````
 
-Ensuite, vous pouvez suivre la documentation [Premier not avec Jeedom](https://doc.jeedom.com/en_US/premiers-not/index).
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-not/index).

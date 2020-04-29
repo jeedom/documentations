@@ -3,13 +3,13 @@ Hardware
 
 Hardware | Zustand | Bemerkungen
 --- | --- | ---
-             | Stabil                  |
+Jeedomboard             | Stabil                  |
 Brummbrett            | Stabil                  |
-               | Stabil                  |                          
+Odroid C2               | Stabil                  |                          
 SMART                   | Stabil                  |                          
-                    | Stabil                  |                          
-                    | Inoffiziell / stabil     |                          
-                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
+RPI1                    | Stabil                  |                          
+RPI2                    | Inoffiziell / stabil     |                          
+RPI3                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
 64 Bit                 | Stabil                  |                          
 32 Bit                 | Wird nicht unterstützt            |                          
 VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom. ACHTUNG VmWare 6.5 erfordert die Installation eines VMWare-Patches für die Zwave-Unterstützung.         
@@ -31,16 +31,16 @@ dann im Ordner Bilder
 
 | Bilder         | Hardware       | Zustand           | SSH-Zugang      | Bemerkungen      |
 |----------------|----------------|----------------|----------------|----------------|
-|     |  und | Beta           | root / Mjeedom96 |                |
-|      | Brummbrett   |                |                |                |
-|     |  und | Stabil         | root / Mjeedom96 |                |
+| Jeedomboard    | Jeedomboard und | Beta           | root / Mjeedom96 |                |
+| netinstall     | Brummbrett   |                |                |                |
+| Jeedomboard    | Jeedomboard und | Stabil         | root / Mjeedom96 |                |
 |                | Brummbrett   |                |                |                |
-| ker         |                | Beta           | root / Mjeedom96 |                |
+| Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
 Alle anderen zuvor herunterladbaren Bilder sind nicht mehr vorhanden
 gewartet, ist es besser, die manuelle Installation von Jeedom durchzugehen
-[](https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc)
+[Doc](https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc)
 nach der Installation einer Linux-Distribution entsprechend Ihrer
 Material : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian
 (Ordoid,…),…
@@ -57,12 +57,12 @@ Software
 
 | Name                     | Zustand                    | Bemerkungen                |
 |-------------------------|-------------------------|--------------------------|
-| .5 oder weniger        | Wird nicht unterstützt            |                          |
-| .6                 | Stabil                  |                          |
-| .X                 | Stabil                  |                          |
+| PHP 5.5 oder weniger        | Wird nicht unterstützt            |                          |
+| PHP 5.6                 | Stabil                  |                          |
+| PHP 7.X                 | Stabil                  |                          |
 | MySQL 5.5 / 5.6           | Stabil                  |                          |
 | MySQL 5.7               | Beta                    |                          |
-|                  | Stabil                  |                          |
+| MariaBD                 | Stabil                  |                          |
 
 Andere
 =====
@@ -77,7 +77,7 @@ ENOCEAN-Controller :
 
 RFXCOM-Schnittstelle :
 
--   
+-   RFXtrx433 USB
 -   RFXtrx433E USB (empfohlen)
 
 EDISIO-Gateway :
@@ -92,19 +92,19 @@ GSM-Dongle :
 
 -   HUAWEI E220 (empfohlen)
 -   Alcatel One Touch X220L
--   .
+-   HSDPA 7.2MBPS 3G Wireless
 
 Z-Wave-Controller :
 
 -   SIGMA DESIGNS Z-Wave Plus USB-Controller
--   .ME - Z-Wave Plus UZB1 Mini-USB-Controller
+-   Z-WAVE.ME - Z-Wave Plus UZB1 Mini-USB-Controller
 -   AEON LABS Z-Wellen-Controller Aeon Labs Z-Stick S2
 -   AEON LABS - Z-Wave Plus Z-Stick GEN5 USB-Controller (empfohlen)
 
 
 ZigBee-Controller :
 
-- [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
+- [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
 
 Zwave Module
 -------------
@@ -143,7 +143,7 @@ Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
 -   Jeedom SMART (alles ist vorinstalliert, Sie müssen nichts tun)
 
--    (bestes Leistungs- / Preisverhältnis)
+-   Odroid C2 (bestes Leistungs- / Preisverhältnis)
 
 -   Intel Nuc gen6 (extreme Leistung, siehe Tutorial-Kategorie
     für die Auswahl in den verschiedenen Modellen und die Installation)

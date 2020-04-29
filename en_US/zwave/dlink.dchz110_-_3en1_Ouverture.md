@@ -1,4 +1,4 @@
- DCH-Z110 - "3 in 1 Opening" 
+D-Link DCH-Z110 - "3 in 1 Opening" 
 ====================================
 
 \
@@ -91,12 +91,12 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : D-Link
 
 -   Model : DCH-Z110 Door and window opening detector
     mydlink ™ Home
 
--   Maker : 
+-   Maker : FIBARO System
 
 -   Manufacturer ID : 264 \ [0x0108 \]
 
@@ -283,7 +283,7 @@ Alternative visual
 
 \
 
- 
+Wakeup 
 ------
 
 \

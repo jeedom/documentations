@@ -1,7 +1,7 @@
 # Resumen
 
-- [Estructura info.json](/ documentations / fr_FR / dev / structure_info_json)
-- [Icono de complemento](/ documentations / fr_FR / dev / Icone_de_plugin)
-- [Documentación del complemento](/ documentations / fr_FR / dev / documentation_plugin)
-- [Complemento de publicación](/ documentations / fr_FR / dev / publishing_plugin)
-- [Complemento widget](/ documentations / fr_FR / dev / widget_plugin)
+- [Estructura Info.json](/documentations/es_ES/dev/structure_info_json)
+- [Icono de complemento](/documentations/es_ES/dev/Icone_de_plugin)
+- [Documentación del complemento](/documentations/es_ES/dev/documentation_plugin)
+- [Publicación de complementos](/documentations/es_ES/dev/publication_plugin)
+- [Widget de complemento](/documentations/es_ES/dev/widget_plugin)

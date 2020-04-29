@@ -1,4 +1,4 @@
- 
+Aeotec Keyfob Gen5 
 ==================
 
 \
@@ -38,7 +38,7 @@ management of short and long presses. This remote control can also be
 well used as primary or secondary controller.
 
 And because the Keyfob Gen5 key fob is part of the
-Gen5 range from , it surpasses all that existed before.
+Gen5 range from Aeotec, it surpasses all that existed before.
 It uses the latest Z-Wave 500 series chip, providing an increase
 50% radio range and 250% faster communication speed
 fast compared to previous Z-Wave products.
@@ -88,13 +88,13 @@ Technical characteristics
 
 -   Battery life : 1 year
 
--   Frequency: 868.
+-   Frequency: 868.42 MHz
 
 -   Transmission distance : 100m in open field
 
 -   Operating temperature : -10 ° C to 50 ° C
 
--    : 55 x 30 x 13mm (L x W x H)
+-   Dimensions : 55 x 30 x 13mm (L x W x H)
 
 \
 
@@ -103,9 +103,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Aeotec
 
--   Name : 
+-   Name : ZW088 Key Fob Gen5
 
 -   Manufacturer ID : 134
 
@@ -257,7 +257,7 @@ To use this module as a remote control, proceed as follows :
 -   5 : Change the operating mode of the remote control while remaining
     press the two buttons on the back for 3 seconds.
 
- 
+Wakeup 
 ------
 
 \

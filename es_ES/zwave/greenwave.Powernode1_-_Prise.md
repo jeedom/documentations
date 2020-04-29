@@ -93,21 +93,21 @@ Características técnicas
 
 -   Suministro : 250 V CA, 50 Hz
 
--   Corriente de carga máxima : 
+-   Corriente de carga máxima : 10A
 
--   Máxima potencia de carga : 
+-   Máxima potencia de carga : 2400W (@ 240V)
 
 -   Consumo en espera : 0.4 W
 
--   Precisión de medición : 
+-   Precisión de medición : ± 0.1W
 
--   Protección contra sobrecorriente : Fusible interno 
+-   Protección contra sobrecorriente : Fusible interno 10A
 
 -   Tipo de enchufe : DIN49440 / EEC 7/7 (Schuko)
 
--   Radio Frecuencia Z-Wave : 
+-   Radio Frecuencia Z-Wave : 868.42MHz
 
--   Rango máximo de onda Z : 
+-   Rango máximo de onda Z : 30m
 
 -   Temperatura de funcionamiento : 0 ° C a + 25 ° C
 
@@ -115,7 +115,7 @@ Características técnicas
 
 -   Humedad máxima : 5% a 90%
 
--   Clase de IP (tolerancia a la humedad) : 
+-   Clase de IP (tolerancia a la humedad) : IP20
 
 \
 
@@ -247,7 +247,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es
-.
+indispensable.
 
 \
 
@@ -275,7 +275,7 @@ encuestas para aumentar el consumo.
 
 Puede restablecer su medidor de consumo haciendo clic en
 en este botón disponible en la pestaña Sistema. Hay que elegir
-.
+PressButton.
 
 \
 

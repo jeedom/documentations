@@ -8,14 +8,14 @@ Sobald die Verbindung hergestellt ist, müssen Sie die Kennungen aus der Datenba
 Daten :
 
 ``` {.bash}
-
+cat /var/www/html/core/config/common.config.php
 ```
 
 Hier finden Sie das Passwort für den Zugriff auf die Datenbank
 Jeedom, dann musst du tun :
 
 ``` {.bash}
-
+mysql -ujeedom -p
 ```
 
 Dort fragt er Sie nach dem oben abgerufenen Passwort (dem Passwort

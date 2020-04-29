@@ -76,12 +76,12 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.5W
 
 -   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
-    : Bombilla fluorescente compacta de 1200 vatios : 
+    : Bombilla fluorescente compacta de 1200 vatios : 320W
 
 -   Frecuencia : 868.42 Mhz
 

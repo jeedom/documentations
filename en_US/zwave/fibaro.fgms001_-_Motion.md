@@ -1,4 +1,4 @@
- 
+Fibaro Motion Sensor - FGMS-001 
 ===============================
 
 \
@@ -86,18 +86,18 @@ Technical characteristics
 
 -   Measurement accuracy : 0.5 ° C
 
--   Brightness measurement range : X
+-   Brightness measurement range : 0-32000 LUX
 
 -   Frequency : 868.42 Mhz
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   : 4.4 cm in diameter
+-   Dimensions: 4.4 cm in diameter
 
 -   Operating temperature : 0-40 ° C
 
--    : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    
+-   Certifications : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+    II
 
 \
 
@@ -106,7 +106,7 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Fibar Group
 
 -   Name : Fibaro FGMS-001 \ [Motion Sensor \]
 
@@ -219,7 +219,7 @@ Parameter details :
 
 \
 
--    : this is the module's wake-up interval (value
+-   Wakeup : this is the module's wake-up interval (value
     7200 recommended)
 
 -   1: adjusts the sensitivity of the presence sensor
@@ -337,7 +337,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

@@ -41,26 +41,26 @@ Technische Daten
 
 -   Versorgung : 3VDC (Lithiumbatterie ER14250)
 
--   Frequenz : 
+-   Frequenz : 868,3 MHz
 
 -   Betriebstemperatur : 0 ° C + 45 ° C.
 
--   Reichweite im freien Feld : 
+-   Reichweite im freien Feld : 100M
 
--   Erfassungsbereich : 
+-   Erfassungsbereich : 6M
 
--   Abmessungen : 
+-   Abmessungen : 25x79x19mm
 
--   Schutzart : 
+-   Schutzart : IP20
 
 -   Verwendung : Drinnen
 
 Moduldaten 
 =================
 
--   Machen Sie : 
+-   Machen Sie : Edisio Smart Home
 
--   Name : 
+-   Name : EMS-200
 
 Allgemeine Konfiguration 
 ======================

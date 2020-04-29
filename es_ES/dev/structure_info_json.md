@@ -31,7 +31,7 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Tiempo máximo permitIdentificacióno para la instalación de dependencias, expresado en minutos..                                            |
 problema                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
-**Ejemplo**:
+**Ejemplo** :
 
 [Plugin-template file / plugin_Información / Información.JSON](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/Información.JSON)
 
@@ -68,7 +68,7 @@ Automatismo           | automatización          |
   
 
 
- 
+  
 
     
 

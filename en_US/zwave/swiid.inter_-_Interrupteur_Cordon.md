@@ -1,4 +1,4 @@
- Switch -  
+Swiid Switch - Swiidinter 
 ===============================
 
 \
@@ -24,28 +24,28 @@ Summary
 
 \
 
- is the first cord switch in the environment
- home automation that is small and discreet enough to be
+SwiidInter is the first cord switch in the environment
+Z-Wave home automation that is small and discreet enough to be
 comparable to an ordinary cord switch.
 
 It can be used both manually like any
 ordinary and remote cord switch via controller
-.
+Z-Wave.
 
-The  switch also offers association possibilities
+The SwiidInter switch also offers association possibilities
 and this two-way. Thus, it can be operated automatically by a
-other  device on the same network, such as the
+other Z-Wave device on the same network, such as the
 presence detector triggered. Conversely with support
 short or with a long press it can control two separate groups of
- devices associated with it : for example every
+Z-Wave devices associated with it : for example every
 other lights in the room where your switch is located
-.
+SwiidInter.
 
-The  switch is installed exactly like a switch
+The SwiidInter switch is installed exactly like a switch
 on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
-integrate into a  "network", this network can be as simple
-only one remote control that controls your  switch to
+integrate into a Z-Wave "network", this network can be as simple
+only one remote control that controls your SwiidInter switch to
 Range.
 
 \
@@ -56,7 +56,7 @@ Functions
 \
 
 -   Cord switch usable both manually
-    (short press) and by remote radio ()
+    (short press) and by remote radio (Z-Wave)
 
 -   Use as a replacement for a standard cord switch
     a bedside, table or desk lamp
@@ -64,9 +64,9 @@ Functions
 -   We / Off function
 
 -   Activation of a home automation scenario on long press
-    ( association)
+    (Z-Wave association)
 
--    comparable to an ordinary cord switch
+-   Dimensions comparable to an ordinary cord switch
 
 -   Installs like an ordinary cord switch
 
@@ -79,31 +79,31 @@ Technical characteristics
 
 \
 
--   Type of module :  receiver
+-   Type of module : Z-Wave receiver
 
 -   Color : black
 
--   Food: 
+-   Food: 230V ± 10% - 50Hz
 
--   Max power : 
+-   Max power : 660W
 
 -   Consumption : &lt; 0,08W
 
--   Protection sign: 
+-   Protection sign: IP20
 
--   Radio protocol: 
+-   Radio protocol: Z-Wave® (SDK 4.55)
 
 -   Radio frequency : 868.42 MHz (EU)
 
--   . : Up to 30m indoors (depends on materials)
+-   Dist. transmission: Up to 30m indoors (depends on materials)
 
--   . operation : 0 - 40 ° C
+-   Temp. operation : 0 - 40 ° C
 
 -   On / off display : Blue LEDs
 
--    : 
+-   Dimensions : 84 x 32 x 29 mm
 
--   EU standards : :
+-   EU standards : EN 61058-2-1:2011 EN 55015
 
 \
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Swiid
 
--   Name : 
+-   Name : Swiidinter
 
 -   Manufacturer ID : 358
 
@@ -273,7 +273,7 @@ Good to know
 
 \
 
- 
+Wake up 
 -------
 
 \

@@ -93,7 +93,7 @@ Technische Daten
 
 -   Versorgung : 250 V AC, 50 Hz
 
--   Maximaler Ladestrom : 
+-   Maximaler Ladestrom : 10A
 
 -   Maximale Lastleistung : 2400 W (bei 240 V)
 
@@ -101,13 +101,13 @@ Technische Daten
 
 -   Messgenauigkeit : ± 0,1 W.
 
--   Überstromschutz :  interne Sicherung
+-   Überstromschutz : 10A interne Sicherung
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
 -   Z-Wave-Radiofrequenz : 868,42 MHz
 
--   Maximale Reichweite Z-Wave : 
+-   Maximale Reichweite Z-Wave : 30m
 
 -   Betriebstemperatur : 0 ° C bis + 25 ° C.
 
@@ -115,7 +115,7 @@ Technische Daten
 
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
 
--   IP-Klasse (Feuchtigkeitstoleranz) : 
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
 \.
 

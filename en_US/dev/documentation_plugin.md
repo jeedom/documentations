@@ -1,12 +1,12 @@
 # How to do the documentation of a plugin
 
-## 
+## Introduction
 
 We will see in this documentation how to do the documentation of your plugin.
 
 ## Principle
 
-The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (voir le détail [ici](https://doc.jeedom.com / en_FR / dev / structure_info_json)) in the documentation field.
+The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com/en_US/dev/structure_info_json) ) in the documentation field.
 
 NOTE that you also have a Changelog field which should work in the same way as the documentation field.
 
@@ -26,11 +26,11 @@ The easiest way for your documentation is to use the github page system which ha
 
 Github asciidoc and markedown (md) support for pages, we will only see markedown here.
 
-On ne va pas vous decrire la syntaxe complete du markdown, d'autre site le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+We will not describe the complete markdown syntax to you, other sites already do this very well, [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Location
 
-Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossier et d'y copier les fichiers et repertoire du dossier docs dans le plugin template (voir [ici](https://github.com / jeedom / plugin-template / tree / master / docs))
+We recommend in your plugin (hosted on github) to make a folder and copy the files and directory from the docs folder into the template plugin (see [here](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
 Once done you will have in the docs folder a folder fr_FR (the only one to modify). In this folder we advise you to make 2 files : 
 

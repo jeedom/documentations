@@ -1,6 +1,6 @@
 Veremos aquí cómo migrar una instalación con Jeedom en modo
 esclavo de un Jeedom con el complemento Jeedom Link". Modo esclavo
-Jeedom siendo abandonado en la transición de Jeedom a la Haciaión 3.0 es
+Jeedom siendo abandonado en la transaquíón de Jeedom a la Haciaión 3.0 es
 necesario proceder antes de la migración al nuevo modo de
 funcionando.
 
@@ -10,7 +10,7 @@ Preparación antes de la migración
 > **Advertencia**
 >
 > Es importante leer toda esta documentación antes
-> iniciarse en la migración. Información importante sobre
+> inaquíarse en la migración. Información importante sobre
 > requisitos de actualización, respaldo y recuperación
 > de información son esenciales para la comprensión adecuada de
 > la operación a realizar. Abstenerse de leer esta documentación puede
@@ -38,7 +38,7 @@ Preparación antes de la migración
 > lo que vuelve a poner su equipo en el **Jeedom Targy**.\
 > \
 > - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no son
-> noticias. El nuevo modo operativo de sincronización
+> notaquías. El nuevo modo operativo de sincronización
 > El equipamiento entre varios Jeedoms puede ser bidireccional. Un
 > Jeedom Server puede ser ahora **Fuente** y **Targy** entonces que
 > el modo antiguo solo permitía el sobregimiento de equipos
@@ -91,7 +91,7 @@ necesario para recuperar la siguiente información :
 > **Nota**
 >
 > Una hoja de información no exhaustiva a tener en cuenta para la migración
-> está disponible [aquí](images / MemoMigración.xls)
+> está disponible [aquí](images/MemoMigración.xls)
 
 Copias de seguridad preventivas 
 -----------------------
@@ -126,7 +126,7 @@ Instalación de **Fuente de la libertad** :
 
 > **Nota**
 >
-> si tienes una Raspberry Pi adicional y otra tarjya
+> si tienes una Raspberry Pi adaquíonal y otra tarjya
 > SD, puede migrar un protocolo tras otro al
 > instalando un nuevo **Fuente de la libertad** en paralelo sin tener que
 > toca tu **Jeedom Slave** existente. Obviamente moviéndose

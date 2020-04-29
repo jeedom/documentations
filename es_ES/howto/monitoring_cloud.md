@@ -64,13 +64,13 @@ Entonces puede ver en la sección de salud de Jeedom si está activo. Se tarda a
 
 >**Importante**
 >
-> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn::::507915066327:punto final /"
+> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:punto final /"
 
 ## Es compatible con todo ?
 
 - Inteligente (probado)
 - Debian x64 Stretch (probado)
-- 
+- Debian x64 Jessie
 - RPI
 
 # Preguntas frecuentes

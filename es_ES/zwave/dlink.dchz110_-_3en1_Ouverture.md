@@ -1,4 +1,4 @@
- DCH-Z110 - "Apertura 3 en 1" 
+D-Link DCH-Z110 - "Apertura 3 en 1" 
 ====================================
 
 \
@@ -91,7 +91,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : D-Link
 
 -   Modelo : Detector de apertura de puertas y ventanas DCH-Z110
     mydlink ™ Inicio
@@ -258,7 +258,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación, solo el primero es
-.
+indispensable.
 
 \
 

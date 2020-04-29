@@ -88,7 +88,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 
+-   Abmessungen: 76 x 17 x 19 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -99,7 +99,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Fibar Group
 
 -   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 

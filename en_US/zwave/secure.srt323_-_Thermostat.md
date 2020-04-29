@@ -1,4 +1,4 @@
-" 
+Secure SRT 323 "Thermostat" 
 ===========================
 
 \
@@ -99,11 +99,11 @@ Technical characteristics
 
 -   Scope : up to 50 m in open field
 
--   Protection sign : 
+-   Protection sign : IP30
 
 -   Operating temperature : 0 ° C to 40 ° C
 
--    : 86 x 86 x 36.25 mm
+-   Dimensions : 86 x 86 x 36.25 mm
 
 \
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Horstmann
 
--   Name : 
+-   Name : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Manufacturer ID : 89
 
@@ -266,7 +266,7 @@ Good to know
 
 \
 
- 
+Wakeup 
 ------
 
 \

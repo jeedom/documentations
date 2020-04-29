@@ -1,10 +1,10 @@
-**Info.-DateIdentifikationokumentation**
+**Info.json-DateIdentifikationokumentation**
 
-Integriert seit Version 3.0 von Jeedom, der Datei **Info.** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
+Integriert seit Version 3.0 von Jeedom, der Datei **Info.json** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
 
-Die Info-Datei. wird im Ordner / plugin_Info / Ihres Plugins gespeichert.
+Die Info-Datei.json wird im Ordner / plugin_Info / Ihres Plugins gespeichert.
 
-Liste der Variablen in der Datei Info.
+Liste der Variablen in der Datei Info.json
 
 Mit * gekennzeichnete Felder sind Pflichtfelder.
 
@@ -26,31 +26,31 @@ Link -> VIdentifikationeo               | HTML-Link zu einer VIdentifikationeopr
 Link -> Forum               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
 Sprachen                | Liste der für das Plugin verfügbaren Sprachen:Französisch, Englisch, Deutsch, Italienisch, Spanisch, Russisch, Indonesisch            |
 Kompatibilität            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp.                                                   |
-            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
- | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
+hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+maxDependancyInstallTime | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
 Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgefüllt, erhalten Sie eine E-Mail)
 
-**Beispiel**:
+**Beispiel** :
 
-[Plugin-Vorlagendatei / plugin_Info / Info.](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.)
+[Plugin-Vorlagendatei / plugin_Info / Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
 
 
 
 
 **KATEGORIE-NOMENKLATUR**
 
-Jeedom Markt         | Info.               |
+Jeedom Markt         | Info.json               |
 --------------------- | ----------------------- |
 Kommunikation         | Kommunikation           |
 Komfort               | Wellness                |
-               | Energie                  |
+Energie               | Energie                  |
 Wetter                 | Wetter                 |
 Überwachung            | Überwachung              |
 Multimedia            | Multimedia              |
 Natur                | Natur                  |
 Verbundene Objekte      | Gerätekommunikation     |
-          |             |
+Organisation          | Organisation            |
 Hausautomations-Gateway  | Hausautomationsprotokoll|
 Programmierung         | Programmierung             |
 Hausautomationsprotokoll   | Automatisierungsprotokoll     |
@@ -68,7 +68,7 @@ Automatismus           | Automatisierung          |
   
 
 
- 
+  
 
     
 

@@ -31,7 +31,7 @@ dispositivos de forma remota a través del navegador web o teléfono inteligente
 Tecnología Z-Wave, la regleta PowerNode es compatible con
 la mayoría de las cajas de domótica en el mercado, como Fibaro Home Center 2, eedomus
 o Zipabox. Equipado con 6 puertos, puede controlar de forma independiente 6
-diferentes aparatos eléctricos con una potencia total de .
+diferentes aparatos eléctricos con una potencia total de 10A.
 
 La regleta de alimentación PowerNode recopila datos de consumo
 de energía de los dispositivos conectados y los transmite a la caja de automatización del hogar.
@@ -92,21 +92,21 @@ Características técnicas
 
 -   Suministro : 250 V CA, 50 Hz
 
--   Corriente de carga máxima : 
+-   Corriente de carga máxima : 10A
 
--   Máxima potencia de carga : 
+-   Máxima potencia de carga : 2400W (@ 240V)
 
 -   Consumo en espera : 0.4 W
 
--   Precisión de medición : 
+-   Precisión de medición : ± 0.1W
 
--   Protección contra sobrecorriente : Fusible interno 
+-   Protección contra sobrecorriente : Fusible interno 10A
 
 -   Tipo de enchufe : DIN49440 / EEC 7/7 (Schuko)
 
--   Radio Frecuencia Z-Wave : 
+-   Radio Frecuencia Z-Wave : 868.42MHz
 
--   Rango máximo de onda Z : 
+-   Rango máximo de onda Z : 30m
 
 -   Temperatura de funcionamiento : 0 ° C a + 25 ° C
 
@@ -114,7 +114,7 @@ Características técnicas
 
 -   Humedad máxima : 5% a 90%
 
--   Clase de IP (tolerancia a la humedad) : 
+-   Clase de IP (tolerancia a la humedad) : IP20
 
 \
 
@@ -195,12 +195,12 @@ Aquí está la lista de comandos :
 
 -   En-1 : Este es el comando que activa el socket 1
 
--    : Es el comando que apaga el socket 1
+-   Off-1 : Es el comando que apaga el socket 1
 
 -   Poder-1 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 1
 
--    : Es el comando que informa el consumo total de
+-   Conso-1 : Es el comando que informa el consumo total de
     toma 1
 
 -   Estado-2 : Es el comando que permite conocer el estado de la
@@ -208,12 +208,12 @@ Aquí está la lista de comandos :
 
 -   En-2 : Es el comando que enciende el socket 2
 
--    : Es el comando que apaga el socket 2
+-   Off-2 : Es el comando que apaga el socket 2
 
 -   Poder-2 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 2
 
--    : Es el comando que informa el consumo total de
+-   Conso-2 : Es el comando que informa el consumo total de
     toma 2
 
 -   Estado-3 : Es el comando que permite conocer el estado de la
@@ -221,12 +221,12 @@ Aquí está la lista de comandos :
 
 -   En-3 : Este es el comando que activa el socket 3
 
--    : Es el comando que apaga el socket 3
+-   Off-3 : Es el comando que apaga el socket 3
 
 -   Poder-3 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 3
 
--    : Es el comando que informa el consumo total de
+-   Conso-3 : Es el comando que informa el consumo total de
     toma 3
 
 -   Estado-4 : Es el comando que permite conocer el estado de la
@@ -234,12 +234,12 @@ Aquí está la lista de comandos :
 
 -   En-4 : Es el comando que enciende el socket 4
 
--    : Es el comando que apaga el socket 4
+-   Off-4 : Es el comando que apaga el socket 4
 
 -   Poder-4 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 4
 
--    : Es el comando que informa el consumo total de
+-   Conso-4 : Es el comando que informa el consumo total de
     toma 4
 
 -   Estado-5 : Es el comando que permite conocer el estado de la
@@ -247,12 +247,12 @@ Aquí está la lista de comandos :
 
 -   En-5 : Es el comando que enciende el socket 5
 
--    : Es el comando que apaga el socket 5
+-   Off-5 : Es el comando que apaga el socket 5
 
 -   Poder-5 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 5
 
--    : Es el comando que informa el consumo total de
+-   Conso-5 : Es el comando que informa el consumo total de
     toma 5
 
 -   Estado-6 : Es el comando que permite conocer el estado de la
@@ -260,12 +260,12 @@ Aquí está la lista de comandos :
 
 -   En-6 : Es el comando que enciende el socket 6
 
--    : Es el comando que apaga el zócalo 6
+-   Off-6 : Es el comando que apaga el zócalo 6
 
 -   Poder-6 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 6
 
--    : Es el comando que informa el consumo total de
+-   Conso-6 : Es el comando que informa el consumo total de
     toma 6
 
 \
@@ -320,7 +320,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene cuatro grupos de asociación, solo el primer grupo es
-.
+indispensable.
 
 \
 

@@ -9,7 +9,7 @@ Shellinabox-Installation
 
 Hier ist der Befehl zum Starten, um Shellinabox zu installieren :
 
-    
+    sudo apt-get -y shellinabox
 
 Apache Reverse Proxy 
 ====================
@@ -24,7 +24,7 @@ und starten Sie dann Apache neu
     Erlaube von allen
     </Location>
 
- 
+Reverse Proxy Nginx 
 ===================
 
 Sie müssen eine Datei in /etc/nginx/sites-enabled/shellinabox.conf erstellen
@@ -33,7 +33,7 @@ mit dem Inhalt unten und starten Sie dann Nginx neu
     Ort / Jeedom / Shellinabox / {
     proxy_pass http://127.0.0.1:4200;
     proxy_set_header Host $ host;
-    
-    
-    
+    proxy_buffering off;
+    tcp_nodelay on;
+    access_log off;
     }

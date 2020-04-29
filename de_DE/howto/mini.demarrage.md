@@ -61,7 +61,7 @@ Jeedom-Schnittstelle auf dem Jeedom-Markt.
 Vergessen Sie auch nicht, dass Sie 2 Gutscheine haben
 (per E-Mail gesendet), sodass Sie 2 kostenpflichtige Plugins installieren können
 kostenlos (RFXCOM und Alarm). Um es zu verwenden, müssen Sie eine erstellen
-Konto auf dem Jeedom Market, siehe Dokumentation : 
+Konto auf dem Jeedom Market, siehe Dokumentation : [Doc
 Market](https://doc.jeedom.com/de_DE/premiers-pas/index).
 
 In der E-Mail, die Sie erhalten haben, wird auch die Servicenummer angezeigt
@@ -79,8 +79,8 @@ Melden Sie sich an, um die Einrichtung und Verwendung zu starten.
 Um Jeedom weiter zu erforschen und zu nutzen, haben Sie
 vollständige Dokumentation : [Dokumentation
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
-les tutoriels vidéos : [Tutos vidéos](https://doc.jeedom.com/de_DE/presentation/index#tocAnchor-1-3).
+Video-Tutorials : [Video-Tutorials](https://doc.jeedom.com/de_DE/presentation/index#tocAnchor-1-3).
 Zögern Sie nicht, für andere ins Jeedom Forum zu gehen
-question : [Forum Jeedom](https://www.jeedom.com/forum/).
+Frage : [Jeedom Forum](https://www.jeedom.com/forum/).
 
 Vielen Dank und gute Entdeckung der Heimautomation mit Jeedom.

@@ -1,4 +1,4 @@
-Controlador de puerta de garaje  
+Controlador de puerta de garaje Aeotec 
 ====================================
 
 \
@@ -51,7 +51,7 @@ Funciones
 
 -   Alertas audibles y visuales de apertura / cierre.
 
--   Volumenn de alarma ajustable ( máx.)
+-   Volumenn de alarma ajustable (105 dB máx.)
 
 -   Puerto USB para cargar sus propios sonidos MP3.
 
@@ -82,11 +82,11 @@ Características técnicas
 -   Suministro : Actuador : Sensor de 5 V CC (adaptador incluido) : Pila
     Litio 3V 800mA CR2
 
--   Consumo en espera : 
+-   Consumo en espera : 1W
 
--   Consumo de alarma : 
+-   Consumo de alarma : 2W
 
--   Volumenn máximo : 
+-   Volumenn máximo : 105 dB
 
 -   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320 Kbps
 
@@ -96,9 +96,9 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -20 ° C a 50 ° C
 
--   Humedad de funcionamiento : 
+-   Humedad de funcionamiento : 80%
 
--   Certificaciones: 
+-   Certificaciones: FCC, UL, CE, ROHS
 
 \
 
@@ -107,7 +107,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Aeotec
 
 -   Nombre : Controlador de puerta de garaje (ZW062)
 
@@ -224,7 +224,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación.. El primer "Lifeline" es
-.
+indispensable.
 
 \
 

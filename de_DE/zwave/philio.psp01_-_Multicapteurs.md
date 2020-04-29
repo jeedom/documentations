@@ -1,4 +1,4 @@
- 
+Philio PSP01 
 ============
 
 \.
@@ -88,7 +88,7 @@ Technische Daten
 
 -   Akkulaufzeit : 2 Jahre
 
--   Frequenz : 868.
+-   Frequenz : 868.42 MHz
 
 -   Übertragungsentfernung : 30m drinnen
 
@@ -100,17 +100,17 @@ Technische Daten
 
 -   PIR-Erfassungsbereich : 8 bis 10 m
 
--   Abmessungen : 
+-   Abmessungen : 28 x 96 x 23 mm
 
--   Gewicht : 
+-   Gewicht : 39g
 
 -   Betriebstemperatur : -10 bis 40 ° C.
 
 -   Betriebsfeuchtigkeit : 85% rF max
 
--   CE-Norm : 
+-   CE-Norm : EN300 220-1
 
--   Z-Wave-Zertifizierung : 
+-   Z-Wave-Zertifizierung : ZC08-13050003
 
 \.
 
@@ -119,9 +119,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Philio Technology Corporation
 
--   Name : 
+-   Name : Philio PSP01
 
 -   Hersteller ID : 316
 
@@ -188,7 +188,7 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--    : Dies ist der befehl (er wird ausgelöst in
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
 -   Batterie : Es ist der Batteriebefehl
@@ -312,7 +312,7 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Lassen Sie die -Taste los und drücken Sie sie erneut
+-   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
 \.
 
@@ -321,7 +321,7 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der -Taste aktiviert.
+Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
 \.
 

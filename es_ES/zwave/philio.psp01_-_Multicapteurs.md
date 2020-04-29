@@ -1,4 +1,4 @@
- 
+Philio PSP01 
 ============
 
 \
@@ -88,7 +88,7 @@ Características técnicas
 
 -   Duración de la batería : 2 años
 
--   Frecuencia : 868.
+-   Frecuencia : 868.42 MHz
 
 -   Distancia de transmisión : 30m en interiores
 
@@ -100,17 +100,17 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones : 
+-   Dimensiones : 28 x 96 x 23 mm
 
--   Peso : 
+-   Peso : 39g
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
 -   Humedad de funcionamiento : 85% HR máx.
 
--   Norma CE : 
+-   Norma CE : EN300 220-1
 
--   Certificación Z-Wave : 
+-   Certificación Z-Wave : ZC08-13050003
 
 \
 
@@ -119,9 +119,9 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Philio Technology Corporation
 
--   Nombre : 
+-   Nombre : Philio PSP01
 
 -   ID del fabricante : 316
 
@@ -269,7 +269,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación, solo el primero es
-.
+indispensable.
 
 \
 

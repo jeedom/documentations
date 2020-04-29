@@ -1,16 +1,16 @@
 Wir werden hier sehen, wie eine Installation mit Jeedom im Modus migriert wird
 Sklave eines Jeedom mit dem Jeedom Link Plugin". Slave-Modus
 Jeedom wird beim Übergang von Jeedom zu Version 3 aufgegeben.0 ist es
-erforderlich, um vor der  in den neuen Modus von fortzufahren
+erforderlich, um vor der Migration in den neuen Modus von fortzufahren
 Funktionieren.
 
-Vorbereitung vor der  
+Vorbereitung vor der Migration 
 ===========================
 
 > **Warnung**
 >
 > Es ist wichtig, dass Sie die gesamte Dokumentation vorher lesen
-> Beginnen Sie mit der . Wichtige Informationen über
+> Beginnen Sie mit der Migration. Wichtige Informationen über
 > Aktualisierungs-, Sicherungs- und Wiederherstellungsanforderungen
 > von Informationen sind wesentlich für das richtige Verständnis von
 > die auszuführende Operation. Das Lesen dieser Dokumentation kann unterlassen werden
@@ -34,7 +34,7 @@ Vorbereitung vor der
 > Zentralisieren Sie die Ausrüstung der **Jeedom (s) Quelle (n)**\.
 > Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.\.
 > \.
-> - **** : Server (Ihre ehemaligen Jeedom Slave (s))
+> - **Jeedom Quelle** : Server (Ihre ehemaligen Jeedom Slave (s))
 > das bringt deine Ausrüstung wieder auf die **Jeedom Ziel**.\.
 > \.
 > - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** sind nicht mehr
@@ -90,8 +90,8 @@ erforderlich, um die folgenden Informationen abzurufen :
 
 > **Notiz**
 >
-> Ein nicht erschöpfendes Informationsblatt, das Sie für die  beachten sollten
-> ist verfügbar [hier](images / Memo.xls)
+> Ein nicht erschöpfendes Informationsblatt, das Sie für die Migration beachten sollten
+> ist verfügbar [hier](images/MemoMigration.xls)
 
 Vorbeugende Backups 
 -----------------------
@@ -106,7 +106,7 @@ Vorbeugende Backups
     von dir **Jeedom Meister** und dein **Jeedom Slave (s)**
     und stellen Sie sie auf Ihrem PC / NAS wieder her….
 
- 
+Migration 
 =========
 
 > **Notiz**
@@ -121,14 +121,14 @@ Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
-Installation von **** : 
+Installation von **Jeedom Quelle** : 
 -----------------------------------
 
 > **Notiz**
 >
 > wenn Sie einen zusätzlichen Raspberry Pi und eine andere Karte haben
 > SD können Sie ein Protokoll nach dem anderen durch migrieren
-> ein neues installieren **** parallel ohne zu müssen
+> ein neues installieren **Jeedom Quelle** parallel ohne zu müssen
 > Berühre deine **Jeedom Sklave** vorhanden. Durch offensichtliche Bewegung
 > als mögliche Controller von einem zum anderen.
 
@@ -149,11 +149,11 @@ Installation von **** :
     neuer Raspberry Pi), indem Sie der [Dokumentation
     d'installation](https://doc.jeedom.com/de_DE/installation/doc-installation.html).
 
--   Aktualisieren Sie die **** auf die neueste Version (auch wenn
+-   Aktualisieren Sie die **Jeedom Quelle** auf die neueste Version (auch wenn
     Es wird Ihnen kein Update angeboten.).
 
 -   Überprüfen Sie auf der Seite Health die interne Nundzwerkkonfiguration (und
-    extern, falls erforderlich) **** ist ok.
+    extern, falls erforderlich) **Jeedom Quelle** ist ok.
 
 Konfiguration der Jeedom-Quelle 
 ------------------------------
@@ -164,10 +164,10 @@ Konfiguration der Jeedom-Quelle
 -   Konfigurieren Sie Ihr Jeedom Markund-Konto (* Konfiguration ⇒ Updates
     und Dateien ⇒ Registerkarte "Markt" *). Klicken Sie auf Test nach
     gespeichert, um die Eingabe Ihrer Kennungen zu überprüfen
-    .
+    Jeedom Markund).
 
 -   Installation und Aktivierung des Plugins "Jeedom Link" auf dem neuen
-    ****.
+    **Jeedom Quelle**.
 
 ![jeelink.migration2](images/jeelink.migration2.png)
 
@@ -177,12 +177,12 @@ Konfiguration der Jeedom-Quelle
 
 -   Erstellen Sie den Baum der Objekte neu (nur diejenigen, die dies tun werden
     nützlich sein) von **Jeedom Ziel** (Alter Meister) auf Ihrem neuen
-    **** (Ehemaliger Sklave).
+    **Jeedom Quelle** (Ehemaliger Sklave).
 
-Konfiguration der Ausrüstung auf dem **** 
+Konfiguration der Ausrüstung auf dem **Jeedom Quelle** 
 ------------------------------------------------------
 
-Senden von Geräten auf dem ****
+Senden von Geräten auf dem **Jeedom Quelle**
 in Richtung **Jeedom Ziel** über das Plugin "Jeedom Link" ist es notwendig
 dass es auf Ihrem neuen bereits bundriebsbereit ist **Jeedom
 Quelle**.
@@ -190,14 +190,14 @@ Quelle**.
 > **Notiz**
 >
 > Denken Sie daran, die Befehlsprotokollierung zu deaktivieren
-> Informationen zu jedem Gerät auf der **** so
+> Informationen zu jedem Gerät auf der **Jeedom Quelle** so
 > um die SD-Karte davon zu speichern (Historisierung wird auf dem durchgeführt
 > **Jeedom Ziel**).
 
 > **Notiz**
 >
 > Sie können das Gerät auch schrittweise zuweisen
-> Objekte auf dem neu erstellt **** so dass sie später sind
+> Objekte auf dem neu erstellt **Jeedom Quelle** so dass sie später sind
 > automatisch das richtige Objekt auf die sundzen **Jeedom Ziel** während
 > die Deklaration im Plugin "Jeedom Link". Bei doppeltem Namen
 > mit Ausrüstung, die bereits in den Objekten der **Jeedom Ziel**,
@@ -215,7 +215,7 @@ Quelle**.
     die Änderungen*.
 
 -   Benennen Sie Ihre Module um und platzieren Sie sie in den gewünschten Objekten in Ihnen
-    Hilfe bei Ihrem sprotokoll.
+    Hilfe bei Ihrem Migrationsprotokoll.
 
 ### RFXcom Plugin : 
 
@@ -227,21 +227,21 @@ Quelle**.
     dieser Typ.
 
 -   Benennen Sie Ihre Ausrüstung um und platzieren Sie sie in den gewünschten Objekten von
-    Hilfe bei Ihrem sprotokoll.
+    Hilfe bei Ihrem Migrationsprotokoll.
 
 #### Aktoren, Steckdosen,…. : 
 
 -   Neue Ausrüstung hinzufügen.
 
 -   Definieren Sie Name, ID, übergeordnundes Objekt, Gerätundyp und
-    Modell mit Ihrem sprotokoll.
+    Modell mit Ihrem Migrationsprotokoll.
 
 -   Wiederholen Sie dies für alle Ihre Geräte dieses Typs.
 
 Konfiguration des "Jeedom Link Plugins"" 
 -------------------------------------
 
-Das "Jeedom Link" Plugin ist auf dem installiert **** wird die erlauben
+Das "Jeedom Link" Plugin ist auf dem installiert **Jeedom Quelle** wird die erlauben
 Ausrüstung auf der **Jeedom Ziel** (Dein alter Meister).
 
 > **Notiz**
@@ -250,9 +250,9 @@ Ausrüstung auf der **Jeedom Ziel** (Dein alter Meister).
 > \.
 > Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.\.
 > \.
-> Die Screenshots auf weißem Hintergrund entsprechen ****.\.
+> Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Quelle**.\.
 
-Auf dem ****,
+Auf dem **Jeedom Quelle**,
 [Projektierungs](https://doc.jeedom.com/de_DE/plugins/jeelink/jeelink)
 das "Jeedom Link" Plugin durch Angabe :
 
@@ -376,7 +376,7 @@ Kopie der erweiterten Befehlskonfigurationen
 > **Warnung**
 >
 > Interaktionen auf dem **Jeedom Ziel** kann nicht gestartund werden
-> durch Ausrüstung von a **** übertragen über die
+> durch Ausrüstung von a **Jeedom Quelle** übertragen über die
 > Jeedom Link Plugin".
 
 Haushalt auf der **Jeedom Ziel** 

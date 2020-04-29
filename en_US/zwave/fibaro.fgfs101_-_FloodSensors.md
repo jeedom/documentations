@@ -1,4 +1,4 @@
-" 
+Fibaro FGFS-101 "Flood Sensor" 
 ==============================
 
 \
@@ -24,7 +24,7 @@ Summary
 
 \
 
-The  sensor is compact and has a wide variety of
+The FGFS-101 sensor is compact and has a wide variety of
 functions. With its advanced technology and precision, the sensor
 Flood Fibaro alerts you to a threatening flood, or an increase
 or rapid temperature drop.
@@ -46,7 +46,7 @@ the water.
 It also has a siren alarm which can sound in the event of
 problem. You can connect the dry contact output to a system
 existing alarm. A front LED to check the status of the
-.
+FGFS-101.
 
 This sensor incorporates a Z-Wave network range tester, which lets you
 ensures the correct functioning of the sensor during its installation.
@@ -81,13 +81,13 @@ Technical characteristics
 
 -   Module can be powered externally : 12 - 24 VDC
 
--   Battery type : 
+-   Battery type : CR123A
 
 -   Battery life : 2 years
 
 -   Consumption on external power supply : 0.4W
 
--   Maximum current supported at output (ALARM NC, TAMP NC) :
+-   Maximum current supported at output (ALARM NC, TAMP NC) :25mA
 
 -   Maximum voltage supported at output : 40V (AC or DC)
 
@@ -95,7 +95,7 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--    : 72 x 28 mm (diameter x height)
+-   Dimensions : 72 x 28 mm (diameter x height)
 
 -   Operating temperature : 0-40 ° C (-20 ° C to 70 ° C if
     external power supply)
@@ -113,11 +113,11 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Fibar Group
 
--   Model : 
+-   Model : FGFS101 Flood Sensor
 
--   Maker : 
+-   Maker : FIBARO System
 
 -   Manufacturer ID : 271
 
@@ -223,7 +223,7 @@ Parameter details :
 
 \
 
--    : this is the module wake-up interval (value
+-   Wakeup : this is the module wake-up interval (value
     recommended 21600)
 
 -   1 \. Alarm cancellation delay after detection of a flood :
@@ -289,7 +289,7 @@ The wiring for an external power supply. \
 
 \
 
- 
+Wakeup 
 ------
 
 \
@@ -329,7 +329,7 @@ IMPORTANT note
 Usage detail :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro Documentation :
-<http://www.fibaro.com/manuals/en/-Flood-Sensor/-Flood-Sensor-en-2.1-2.3.pdf>
+<http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \
 

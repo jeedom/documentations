@@ -6,7 +6,7 @@ Quellenwiederherstellung
 
 Sie finden die neueste Debian-Version in netinstall (Größe)
 minimal, aber Internet für die Installation benötigen)
-[hier](https://www.debian.org/CD/netinst) (il faut prendre l'image en
+[hier](https://www.debian.org/CD/netinst) (Sie müssen das Bild aufnehmen
 amd64) oder direkt klicken
 [hier](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 um die ISO herunterzuladen.
@@ -22,7 +22,7 @@ Sie müssen entweder die ISO auf eine CD brennen und die CD in das Gerät einleg
 Erstellen Sie einen bootfähigen USB-Stick.
 
 Für den bootfähigen USB-Stick rufus herunterladen
-[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le
+[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), starten und
 so konfigurieren :
 
 ![debian.installation](images/debian.installation.PNG)
@@ -168,7 +168,7 @@ Optimierungen :
 Fügen Sie vim und sudo hinzu 
 -------------------
 
-    
+    sudo apt-get install -y vim sudo
 
 Fügen Sie fail2ban hinzu 
 ----------------
@@ -178,7 +178,7 @@ Bei zu vielen Verbindungsfehlern wird der Zugriff blockiert
 die betreffende IP (daher nicht an alle, nur an den Angreifer) a
 einige Zeit.
 
-    
+    sudo apt-get install -y fail2ban
 
 Fügen Sie die Open VMware Tools hinzu 
 -----------------------------
@@ -187,7 +187,7 @@ Fügen Sie die Open VMware Tools hinzu
 installiert und bringen Sie die Optimierungen dieses gehosteten Betriebssystems
 auf einem ESXi-Hypervisor.
 
-    
+    sudo apt-get install -y open-vm-tools
 
 Sie müssen Jeedom nur installieren, indem Sie folgen
 [diese](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)

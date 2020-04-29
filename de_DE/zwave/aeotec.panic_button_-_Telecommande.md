@@ -1,4 +1,4 @@
- Panikknopf 
+Aeotec Panikknopf 
 ===================
 
 \.
@@ -78,7 +78,7 @@ Technische Daten
 -   Akkulaufzeit : 2 bis 3 Monate für 10 bis 20 Anwendungen
     pro Tag
 
--   Frequenz: 868.
+-   Frequenz: 868.42 MHz
 
 -   Übertragungsentfernung : 30m drinnen
 
@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : 
+-   Machen Sie : Aeotec
 
 -   Name : Panikknopf
 

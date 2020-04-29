@@ -1,4 +1,4 @@
- Miniplug Uno / Apagado - AN180-6 
+Everspring Miniplug Uno / Apagado - AN180-6 
 ====================================
 
 \
@@ -27,7 +27,7 @@ Resumen
 El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
 apagar las luces y el equipo eléctrico de su
 casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
-Carga hasta 1500W (resistencia), 800W (incandescente),  (motor,
+Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
 fluorescente, Led).
 
 El Mini Uno / Apagado Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
@@ -69,13 +69,13 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 
+-   Suministro : 230 V, 50 Hz
 
--   El consumo : 
+-   El consumo : 0.6W
 
 -   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
-    : 800W, bombilla fluorescente compacta : , bombilla led (no regulable) :
-    
+    : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
+    200W
 
 -   Frecuencia : 868.42 Mhz
 
@@ -83,7 +83,7 @@ Características técnicas
 
 -   Visualización: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -92,7 +92,7 @@ Datos del módulo
 
 \
 
--   Hacer : 
+-   Hacer : Everspring
 
 -   Nombre : Miniplug encendido / apagado
 

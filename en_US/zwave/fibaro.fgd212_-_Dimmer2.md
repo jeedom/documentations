@@ -1,4 +1,4 @@
- 
+Fibaro Dimmer2 - FGD-212 
 ========================
 
 \
@@ -101,9 +101,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 
+-   Food : 230V +/- 10%, 50Hz
 
--   Consumption : 
+-   Consumption : 1.3W
 
 -   Wiring : neutral not required
 
@@ -117,11 +117,11 @@ Technical characteristics
 
 -   Frequency : 868.42 Mhz
 
--   Signal strength : 
+-   Signal strength : 1mW
 
 -   Transmission distance : 50m free field, 30m indoors
 
--    : 42..
+-   Dimensions : 42.5 x 38.25 x 20.3mm
 
 -   Operating temperature : 0-35 ° C
 
@@ -137,9 +137,9 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Fibar Group
 
--   Name : 
+-   Name : FGD212 Dimmer 2
 
 -   Manufacturer ID : 271
 
@@ -310,7 +310,7 @@ switch you can press your switch multiple times
 
 \
 
- 
+Wakeup 
 ------
 
 \
