@@ -20,13 +20,13 @@ Prerequisites
 
 -   Being connected to the internet.
 
-> **IMPORTANT**
+> **Important**
 >
 > In case of concerns, the Jeedom team cannot be held responsible and
 > may refuse any support request. Handling is yours
 > risks and dangers.
 
-> **IMPORTANT**
+> **Important**
 >
 > Please note that some unofficial plugins are not compatible
 > Apache, find out well before.
@@ -62,7 +62,7 @@ Installation and configuration of Apache
     systemctl restart apache2
     rm / var / www / html /index.html
 
-> **NOTE**
+> **Note**
 >
 > If during installation the system asks you if you want or
 > not keep a modified version of a file, do : "Keep the local
@@ -118,7 +118,7 @@ Restarting services
 Then connect to your Jeedom and reactivate the task engine
 and the scenarios. You can also revive the demons.
 
-> **IMPORTANT**
+> **Important**
 >
 > It is recommended after migration to launch an update of
 > Jeedom (even if it doesn't offer you anything).

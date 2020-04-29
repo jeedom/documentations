@@ -25,7 +25,7 @@ this page:
 ![premier market3](images/premier-market3.png)
 
 Here is your Market account is created, for more details on the market
-click
+cliquez
 [here](https://www.jeedom.fr/doc/documentation/core/en_US/doc-core-market.html)
 
 Adding your Service pack code 
@@ -34,12 +34,12 @@ Adding your Service pack code
 If you bought a Jeedom box then you should have received an email
 containing a code for your Service pack.
 
-> **IMPORTANT**
+> **Important**
 >
 > It is important to fill it in because this code gives you access to
 > certain plugins for free, as well as exclusive services.
 
-> **IMPORTANT**
+> **Important**
 >
 > If you buy a Service pack from the Jeedom Market you don't have
 > nothing to do, it is automatically assigned to you.
@@ -65,7 +65,7 @@ Market click
 
 > **Tip**
 >
-> If you bought an offhereal Jeedom box, the service number
+> If you bought an official Jeedom box, the service number
 > pack should have been emailed to you. If you have not received anything, thank you
 > to contact the store where you bought your box.
 
@@ -91,7 +91,7 @@ netinstallation type image, it will be rather 30min) and go
 > Attention, you must be on the same network as the Jeedom box for
 > this method works.
 
-> **IMPORTANT**
+> **Important**
 >
 > Depending on your ADSL box this functionality may not work.
 > If so, nothing serious, just log in to
@@ -130,7 +130,7 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Below, click on the tab **Market**
 
--   Check the box **Activate**
+-   Check the box **activer**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -166,7 +166,7 @@ on the "Management" line to do "Restart" and your URL will appear at
 HTTP status level, you can of course customize it from
 the Market profile page
 
-> **IMPORTANT**
+> **Important**
 >
 > If you have just linked your Jeedom to your Market account, you must
 > wait 24 to 48 hours before you can use the DNS service
@@ -239,12 +239,12 @@ Then just click on Market:
 ![premier plugin2](images/premier-plugin2.png)
 
 You will then have the list of all possible plugins
-to install.
+d'installer.
 
-> **IMPORTANT**
+> **Important**
 >
-> Please note, some are offhereal and others are not. In case of concern
-> with an unoffhereal plugin, the Jeedom team cannot be held to
+> Please note, some are official and others are not. In case of concern
+> with an unofficial plugin, the Jeedom team cannot be held to
 > responsible.
 
 ![premier plugin3](images/premier-plugin3.png)
@@ -290,7 +290,7 @@ This consists of several categories:
 
 -   Howto : Tutorials to progress in various fields,
 
--   Plugins : The documentation of the different offhereal plugins from
+-   Plugins : The documentation of the different official plugins from
     Jeedom,
 
 -   others : various pages on the different protocols used
@@ -300,7 +300,7 @@ This consists of several categories:
 You will also find below the list of documentation for
 third party plugins.
 
-Feel free to use the function **Search** top right of
+Feel free to use the function **rechercher** top right of
 page to find pages based on a specific word.
 
 The forum 
@@ -319,7 +319,7 @@ Jeedom company.
 Support requests (or tickets) 
 ------------------------------------
 
-> **IMPORTANT**
+> **Important**
 >
 > Please note, any support request must have
 > an account on the Market.

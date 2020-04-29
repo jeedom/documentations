@@ -26,7 +26,7 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy
 práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
-> **Importante**
+> **Important**
 >
 > Neutral solo es necesario para el modo "Obturador""
 
@@ -94,14 +94,14 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Importante**
+> **Important**
 >
 > Por el contrario, los receptores Edisio deben crearse manualmente en
 > Jeedom.
@@ -116,7 +116,7 @@ Interruptor DIP y botón "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Nota**
+> **Note**
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
@@ -128,7 +128,7 @@ Interruptor DIP y botón "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Nota**
+> **Note**
 >
 > Al presionar R 3x se activa el modo remoto.
 
@@ -138,7 +138,7 @@ Diagrama de funciones
 A continuación, si su transmisor está configurado en "1 tecla" o "modo 2
 teclas ", así es como funciona el módulo:
 
-> **Nota**
+> **Note**
 >
 > Consulte la documentación del fabricante para poder
 > configura tu transmisor.
@@ -151,7 +151,7 @@ Función de temporizador
 La función de temporizador apaga automáticamente los relés al final
 30 o 60 minutos.
 
-> **Nota**
+> **Note**
 >
 > Esta función solo se utiliza en el modo "Iluminación""
 
@@ -161,7 +161,7 @@ El modo "Obturador""
 El modo "Obturador" le permite controlar un motor bidireccional al final de
 carreras de distancia electrónicas y mecánicas.
 
-> **Importante**
+> **Important**
 >
 > Neutral es requerido
 
@@ -170,12 +170,12 @@ Configuracion electrica y conexiones :
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **Importante**
+> **Important**
 >
 > Para que el módulo esté en modo "Obturador", el interruptor DIP 2 debe estar en
 > Bajo
 
-> **Importante**
+> **Important**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
@@ -191,12 +191,12 @@ Una vez que se crea su equipo, debe obtener esto :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Nota**
+> **Note**
 >
 > Recuerde activar su nuevo equipo.
 
 En la lista de equipos, a la derecha, seleccione "Obturador de micro módulo
-rodando" :
+roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
@@ -220,7 +220,7 @@ Aquí está la lista de comandos :
 
 -   E : Este es el comando que te permite usar el modo remoto
 
-> **Importante**
+> **Important**
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
 > use otro transmisor, Jeedom no podrá actualizar el estado
@@ -249,7 +249,7 @@ Asociación del micromódulo con Jeedom
 Para que pueda interactuar con Jeedom, como si fuera un
 Transmisor Edisio.
 
-> **Nota**
+> **Note**
 >
 > Una de las grandes ventajas de Edisio es que un receptor puede tener
 > varios emisores asociados
@@ -283,9 +283,9 @@ Cada salida debe estar asociada con un comando Jeedom:
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
         confirmar la asociación, el pitido se detiene.
 
-> **Nota**
+> **Note**
 >
-> No hay necesidad de asociar el comando "Detener", ya está hecho
+> No hay necesidad de asociar el comando "Stop", ya está hecho
 > automáticamente.
 
 Método remoto 
@@ -341,7 +341,7 @@ ahora reemplaza el botón "R" en el receptor.
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
-> **Nota**
+> **Note**
 >
 > Puede comenzar de nuevo tantas veces como quiera asociar
 > de transmisores a receptor

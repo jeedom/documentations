@@ -33,15 +33,15 @@ desde el botón en el micromódulo.
 
 Además, este micromódulo es capaz de transmitir el consumo.
 potencia eléctrica instantánea (W) y acumulativa (KWh) del equipo
-adjunto.
+rattaché.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este módulo en su red si ya tiene una red
-existente.
+existant.
 
 Cada módulo Z-Wave funciona como un repetidor inalámbrico con el
 otros módulos, para garantizar una cobertura total de su
-vivienda.
+habitation.
 
 Nota : Este módulo requiere neutral para operar.
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGR-222
+-   Nombrebre : Fibaro FGR-222
 
 -   ID del fabricante : 271
 
@@ -130,11 +130,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -158,7 +158,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -312,11 +312,11 @@ en este botón disponible en la pestaña Sistema.
 
 \
 
-### Importante 
+### Importantee 
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para que los comentarios de estado funcionen en Jeedom, es necesario
 > forzar la calibración del equipo (parámetro 29 a "Sí") y la

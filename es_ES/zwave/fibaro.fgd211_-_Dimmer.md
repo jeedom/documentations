@@ -38,7 +38,7 @@ carga conectada y está protegida contra sobretensión.
 
 Para bombillas fluorescentes que no admiten variación, el
 El módulo actúa automáticamente como un módulo de conmutación (ON / OFF
-unicamente).
+uniquement).
 
 Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un
 interruptor existente, o tres cables con fuente de alimentación convencional de
@@ -118,7 +118,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombrebre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -135,11 +135,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -150,7 +150,7 @@ inclusión refiérase a esto
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos de ida y vuelta en el interruptor o muchos
@@ -171,7 +171,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -194,7 +194,7 @@ Aquí está la lista de comandos :
     Iluminación
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -301,7 +301,7 @@ Bueno saber
 
 \
 
-> **Depositar**
+> **Caution**
 >
 > El parámetro más importante de la configuración es 14. Es
 > permite elegir el tipo de interruptor utilizado. Puntao predeterminado

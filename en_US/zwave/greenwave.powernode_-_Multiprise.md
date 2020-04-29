@@ -142,11 +142,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present on the socket.
@@ -170,7 +170,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -280,7 +280,7 @@ in one button.
 \
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
@@ -320,7 +320,7 @@ Parameter details :
 \
 
 This module has four association groups, only the 1st group is
-essential.
+indispensable.
 
 \
 
@@ -401,7 +401,7 @@ Did you pay for a CRON.
 \
 
 No. The module does not allow it. Put a piece of black tape
-above.
+dessus.
 
 \
 **@sarakha63**

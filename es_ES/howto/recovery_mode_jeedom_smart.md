@@ -46,7 +46,7 @@ Nota: recuerde reservar (localmente) una copia de seguridad de configuración de
 
 9- reconecta con el inicio de sesión : Administraciónistrador y contraseña : Administración
 
-> **Importante**
+> **Important**
 >
 >
 > Atención ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si tiene una copia de seguridad de su configuración de Jeedom, solo necesita restaurarla después.

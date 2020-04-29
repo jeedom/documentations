@@ -51,7 +51,7 @@ Heimautomationsboxen ist nicht mehr möglich.
 Die PowerNode-gesteuerte Steckdose verfügt auch über eine Statusanzeige
 hell, was je nach Farbe unterschiedliche Informationen liefert :
 Steckdosen ein oder aus, begrenzte Funkreichweite, Einschlussmodus und
-Ausschluss.
+exclusion.
 
 Das PowerNode-Steckermodul ist mit einem Schutz gegen ausgestattet
 Überströme zum Schutz des angeschlossenen Geräts. Die PowerNode-Buchse wird
@@ -143,11 +143,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss unter der Steckdose vorhanden.
@@ -171,7 +171,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -247,7 +247,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat vier Zuordnungsgruppen, nur die 3. Gruppe
-wesentlich.
+indispensable.
 
 \.
 
@@ -275,7 +275,7 @@ Umfragen zur Steigerung des Verbrauchs.
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
-Drücken Sie die Taste.
+PressButton.
 
 \.
 

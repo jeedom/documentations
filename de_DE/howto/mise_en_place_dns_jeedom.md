@@ -4,7 +4,7 @@
 
 Richten Sie Jeedom DNS so ein, dass Sie extern über eine HTTPS-URL auf Ihr Jeedom zugreifen können
 
-> **Wichtig**
+> **IMPORTANT**
 >
 >Das Jeedom-DNS fungiert als Reverse-Proxy, sodass nur in https auf Ihr Jeedom zugegriffen werden kann. Daher ist es nicht möglich, mit dem Jeedom-DNS remote auf Ihr Jeedom in SSH zuzugreifen
 
@@ -18,7 +18,7 @@ Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung z
 
 Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar machen und keine Portöffnung durchführen müssen.
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router muss die Firewall-Stufe gesenkt werden, für die Delta Freeboxes muss die Kindersicherung deaktiviert sein.
 
@@ -40,7 +40,7 @@ Sobald der Marktstatus bei "Verbindung möglich" ist, gehen Sie zu Ihrem Jeedom,
 
 Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Sie können diese URL ändern, indem Sie zu Ihrer Marktprofilseite und dann zu meinen Jeedoms gehen. Bitte beachten Sie, dass jede Änderung 24 Stunden dauert, bevor sie wirksam wird
 

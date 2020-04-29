@@ -113,11 +113,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste 1 Mal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -141,7 +141,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -168,7 +168,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Warnung**
+> **Warning**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -256,7 +256,7 @@ Gut zu wissen
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -265,7 +265,7 @@ Gut zu wissen
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul gibt seinen Status nicht zurück, wenn Sie die Sperre am
 > Andererseits bleibt der Zustand derselbe. \.

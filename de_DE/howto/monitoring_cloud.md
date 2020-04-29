@@ -39,7 +39,7 @@ Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die
 - Fügen Sie eine SMS-Benachrichtigung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist).
 - Hinzufügen einer Benachrichtigung per Benachrichtigung (erfordert die mobile App) 
 
-> **Teleg**
+> **Telegram**
 >
 > Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegmausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
 
@@ -54,17 +54,17 @@ Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen
 
 Dann können Sie im Gesundheitsbereich von Jeedom sehen, ob es aktiv ist. Nach der Synchronisierung mit dem Markt dauert der Start ungefähr 10 Minuten (klicken Sie auf die Schaltfläche Test)..
 
->**Wichtig**
+>**IMPORTANT**
 >
 >Während der ersten Aktivierung oder Reaktivierung erhalten Sie möglicherweise eine E-Mail / ein Telegm / eine Slack / SMS, in der Sie darüber informiert werden, dass Ihr Jeedom nicht verfügbar ist. Es ist normal, dass das betreffende Jeedom die Überwachungsdienste aktiviert..
 
->**Wichtig**
+>**IMPORTANT**
 >
 > Sobald der Dienst aktiviert ist, überwacht er alle mit Ihrem Konto verbundenen Jeedom
 
->**Wichtig**
+>**IMPORTANT**
 >
-> Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:Endpunkt /"
+> Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 
 ## Es ist mit allem kompatibel ?
 

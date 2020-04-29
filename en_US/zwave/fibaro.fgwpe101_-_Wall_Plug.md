@@ -104,11 +104,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper Documentation.
@@ -119,7 +119,7 @@ inclusion refer to this
 
 \
 
-Wece included you should get this :
+Once included you should get this :
 
 \
 
@@ -131,8 +131,8 @@ Wece included you should get this :
 
 \
 
-Wece the module has been recognized, the commands associated with the module will be
-available.
+Once the module has been recognized, the commands associated with the module will be
+disponibles.
 
 \
 
@@ -249,7 +249,7 @@ Parameter details :
 \
 
 This module has 3 association groups, only the third is
-essential.
+indispensable.
 
 \
 

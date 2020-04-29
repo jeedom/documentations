@@ -31,7 +31,7 @@ click on **Create an account**
 ![tuto.github1](images/tuto.github1.png)
 
 So you arrive on a 2nd page as below and you do not change
-nothing, you click **Keep on going**
+nothing, you click **Continue**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -151,7 +151,7 @@ you must perform a PR (Pull Request)
 
 It is important to clearly explain the changes submitted so that the
 original project developer (s) understand and can validate your
-Request.
+demande.
 
 1. We click on the three small dots
 

@@ -1,7 +1,7 @@
 Bienvenido a esta documentación de primeros pasos, este será
 ayuda a configurar tu Jeedom.
 
-> **Punta**
+> **Tip**
 >
 > Esta guía no pretende reemplazar la documentación completa
 > disponible en el sitio web de Jeedom [aquí](https://jeedom.fr/doc).
@@ -25,23 +25,23 @@ esta página:
 ![premier market3](images/premier-market3.png)
 
 Aquí está su cuenta Mercado creada, para más detalles sobre el mercado
-haga clic
+cliquez
 [aquí](https://www.jeedom.fr/doc/documentation/core/es_ES/doc-core-market.html)
 
-Agregar su código de paquete de servaquío 
+Agregar su código de paquete de servicio 
 ================================
 
 Si compró una caja Jeedom, entonces debería haber recibido un correo electrónico
-que contiene un código para su paquete de servaquío.
+que contiene un código para su paquete de servicio.
 
-> **Importante**
+> **Important**
 >
 > Es importante completarlo porque este código le da acceso a
-> ciertos complementos de forma gratuita, así como servaquíos exclusivos.
+> ciertos complementos de forma gratuita, así como servicios exclusivos.
 
-> **Importante**
+> **Important**
 >
-> Si compra un paquete de servaquío en el mercado Jeedom, no tiene
+> Si compra un paquete de servicio en el mercado Jeedom, no tiene
 > nada que hacer, se te asigna automáticamente.
 
 Una vez que se recupera el código en el correo, solo necesita ir al
@@ -55,17 +55,17 @@ Luego haga clic en la pestaña "Mis Jeedoms""
 
 ![premier servicepack2](images/premier-servicepack2.png)
 
-Ingrese su número de paquete de servaquío y valide:
+Ingrese su número de paquete de servicio y valide:
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Aquí está su paquete de servaquío registrado. Para más detalles sobre el
+Aquí está su paquete de servicio registrado. Para más detalles sobre el
 Clic de mercado
 [aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/market.asciidoc)
 
-> **Punta**
+> **Tip**
 >
-> Si compró una caja ofaquíal de Jeedom, el número de servaquío
+> Si compró una caja oficial de Jeedom, el número de servicio
 > el paquete debería haberte enviado por correo electrónico. Si no has recibido nada, gracias
 > ponerse en contacto con la tienda donde compró su caja.
 
@@ -86,15 +86,15 @@ la caja, espere unos 10 minutos (tenga cuidado si usa un
 imagen del tipo de instalación neta, será más bien 30 minutos) y listo
 [aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
 
-> **Punta**
+> **Tip**
 >
 > Atención, debe estar en la misma red que el cuadro Jeedom para
 > este método funciona.
 
-> **Importante**
+> **Important**
 >
 > Dependiendo de su cuadro ADSL, esta funcionalidad puede no funcionar.
-> Si es así, nada serio, solo inaquíe sesión en
+> Si es así, nada serio, solo inicie sesión en
 > su caja ADSL y encuentre la IP de la libertad en ella. Este paso
 > no hace más que darle la IP local de su Jeedom.
 > No es entonces cuando agrega su Jeedom a su cuenta
@@ -114,7 +114,7 @@ Primera conexión
 ------------------
 
 Cualquiera que sea el método utilizado, llegarás a la página de
-inaquíar sesión Por defecto, el nombre de usuario y la contraseña son "Administración".
+iniciar sesión Por defecto, el nombre de usuario y la contraseña son "admin".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
@@ -128,9 +128,9 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
 
 -   Click en la pestaña **Actualizaciones**
 
--   A continuación, haga clic en la pestaña **Mercado**
+-   A continuación, haga clic en la pestaña **Market**
 
--   Marca la casilla **Activar**
+-   Marca la casilla **activer**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -144,7 +144,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
 -   No olvides guardar !
 
 Para más detalles sobre la página de configuración, haga clic en
-[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/Administraciónistration.asciidoc)
+[aquí](https://github.com/jeedom/core/blob/stable/doc/es_ES/administration.asciidoc)
 .
 
 Obtener mi URL de acceso directo 
@@ -162,14 +162,14 @@ Luego vaya a la sección "Configuración de red""
 ![premier dns2](images/premier-dns2.png)
 
 Una vez aquí, solo necesita activar "Usar Jeedom DNS" y luego
-en la línea "Administración" para hacer "Reinaquíar" y su URL aparecerá en
+en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en
 Nivel de estado HTTP, por supuesto, puede personalizarlo desde
 la página de perfil del mercado
 
-> **Importante**
+> **Important**
 >
 > Si acaba de vincular su Jeedom a su cuenta de Mercado, debe
-> espere de 24 a 48 horas antes de poder usar el servaquío DNS
+> espere de 24 a 48 horas antes de poder usar el servicio DNS
 
 Cambiar la contraseña predeterminada de Jeedom 
 ============================================
@@ -179,7 +179,7 @@ su cuenta Jeedom, para eso haga clic en Administración → Usuarios
 (arriba a la derecha):
 
 Una vez en él, solo tiene que elegir la línea con el usuario
-**Administración** y haga clic en **Cambiar contraseña** :
+**admin** y haga clic en **Cambiar contraseña** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
@@ -201,7 +201,7 @@ que es un objeto.
 En Jeedom, puede ser cualquier cosa, pero es
 recomendado hacerlo de acuerdo a tus partes.
 
-> **Punta**
+> **Tip**
 >
 > Es posible definir relaciones entre objetos, ejemplo:
 > la sala de estar pertenece al objeto de la planta baja que pertenece
@@ -239,12 +239,12 @@ Luego solo haga clic en Mercado:
 ![premier plugin2](images/premier-plugin2.png)
 
 Luego tendrá la lista de todos los complementos posibles
-para instalar.
+d'installer.
 
-> **Importante**
+> **Important**
 >
-> Tenga en cuenta que algunos son ofaquíales y otros no. En caso de preocupación
-> con un complemento no ofaquíal, el equipo de Jeedom no puede ser retenido
+> Tenga en cuenta que algunos son oficiales y otros no. En caso de preocupación
+> con un complemento no oficial, el equipo de Jeedom no puede ser retenido
 > responsable.
 
 ![premier plugin3](images/premier-plugin3.png)
@@ -263,7 +263,7 @@ Entonces encuentras :
 - compatibilidad con diferentes plataformas, 
 - opiniones de usuarios, 
 - cómo usar el complemento, 
-- información adaquíonal como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
+- información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
 Para obtener más información sobre complementos, haga clic en [aquí](https://jeedom.github.io/core/es_ES/plugin).
 
@@ -290,7 +290,7 @@ Este consta de varias categorías:
 
 -   Howto : Tutoriales para progresar en varios campos.,
 
--   Plugins : La documentación de los diferentes complementos ofaquíales de
+-   Plugins : La documentación de los diferentes complementos oficiales de
     Jeedom,
 
 -   los otros : Varias páginas sobre los diferentes protocolos utilizados
@@ -300,7 +300,7 @@ Este consta de varias categorías:
 También encontrará a continuación la lista de documentación para
 complementos de terceros.
 
-Siéntase libre de usar la función **Buscar** arriba a la derecha de
+Siéntase libre de usar la función **rechercher** arriba a la derecha de
 página para encontrar páginas basadas en una palabra específica.
 
 El foro 
@@ -316,22 +316,22 @@ Empresa Jeedom.
 
 ![premier support3](images/premier-support3.png)
 
-Solaquítudes de soporte (o tickets) 
+Solicitudes de soporte (o tickets) 
 ------------------------------------
 
-> **Importante**
+> **Important**
 >
-> Tenga en cuenta que cualquier solaquítud de soporte debe tener
+> Tenga en cuenta que cualquier solicitud de soporte debe tener
 > una cuenta en el mercado.
 
 Si no ha encontrado una solución a su problema, último
-recurso, puede solaquítar apoyo del equipo de Jeedom.
-Esta solaquítud pasa por un ticket. Es posible abrir uno de
+recurso, puede solicitar apoyo del equipo de Jeedom.
+Esta solicitud pasa por un ticket. Es posible abrir uno de
 muchas maneras:
 
 -   Directamente de Jeedom (método recomendado): donde sea que tu
     estar en Jeedom, hay un signo de exclamación en la esquina superior derecha
-    que le permite solaquítar soporte :
+    que le permite solicitar soporte :
 
 ![premier support4](images/premier-support4.png)
 
@@ -341,22 +341,22 @@ muchas maneras:
     -   ya sea con el signo de exclamación en la esquina superior derecha,
 
     -   ya sea yendo a su perfil (luego haga clic en el botón
-        "Abrir una solaquítud de soporte ").
+        "Abrir una solicitud de soporte ").
 
 ![premier support5](images/premier-support5.png)
 
 Todos los intercambios posteriores serán por correo electrónico..
 
-> **Punta**
+> **Tip**
 >
 > Si, al abrir un ticket, obtiene un error que indica
 > que has alcanzado tu cuota es que estás limitado a uno
-> cantidad de solaquítudes de soporte por mes, dependiendo de su
-> Servaquío pack.
+> cantidad de solicitudes de soporte por mes, dependiendo de su
+> Servicio pack.
 
-Los diferentes paquetes de servaquío son : \* Comunidad (gratis): 2
+Los diferentes paquetes de servicio son : \* Comunidad (gratis): 2
 tickets / mes (solo en complementos pagos) \* Power: 10 entradas / mes
 \* Pro: 100 entradas / mes
 
-Puede encontrar el detalle de los paquetes de servaquío.
+Puede encontrar el detalle de los paquetes de servicio.
 [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)

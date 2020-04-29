@@ -36,7 +36,7 @@
 | 54703          | Movimiento      |                |                |                |
 | DI.O por Chacon | Mando a distancia 3 | AC             |                |                |
 | 54760          | Canales         |                |                |                |
-| DI.O por Chacon | Control remoto   | AC             |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-Canales-Blanche-%28gamme-DI-O%29.htm)      |
+| DI.O por Chacon | Control remoto   | AC             |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O por Chacon | Salida          | AC             |                |                |
 | 54746          | al aire libre     |                |                |                |
 | DI-O por Chacon | Detector      | AC             |                |                |
@@ -74,7 +74,7 @@
 | TFA 30.3139 SENSOR DE RADIO    | Temperatura    |                |                |                |
 | WD18           | Detector de agua     | X10            |                |                |
 
-> **Nota**
+> **Note**
 >
 > Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no
 > por lo tanto, puede garantizar que todos los módulos de esta lista sean 100%

@@ -104,11 +104,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -132,7 +132,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -249,7 +249,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \.
 
@@ -272,7 +272,7 @@ Gut zu wissen
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
-Drücken Sie die Taste.
+PressButton.
 
 \.
 

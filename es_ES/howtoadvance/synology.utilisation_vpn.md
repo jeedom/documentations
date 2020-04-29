@@ -56,7 +56,7 @@ Desmarque todas las casillas bajo PPTP Open VPN y L2TP
 Marque solo la casilla en frente del usuario que desea
 permitir usar VPN .
 
-> **Punta**
+> **Tip**
 >
 > Es recomendable crear un usuario solo para la VPN
 > y sin ningún otro derecho / autorización que hacer con la VPN.
@@ -85,7 +85,7 @@ Agregar una redirección
 
 Ingrese los parámetros de la siguiente manera.
 
-> **Punta**
+> **Tip**
 >
 > El ID de destino es lo único que depende de su instalación,
 > debe poner la IP de su Synology NAS

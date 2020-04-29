@@ -123,11 +123,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -149,7 +149,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 ### Befehle 
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -194,7 +194,7 @@ Hier ist die Liste der Befehle :
     hell
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \.
 
@@ -229,7 +229,7 @@ ins Französische übersetzt werden.
 ### Gruppen 
 
 Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist
-wesentlich.
+indispensable.
 
 \.
 
@@ -244,7 +244,7 @@ Verwendung von 0-10V Sensoren.
 
 \.
 
-> **Kaution**
+> **Caution**
 >
 > Die Standardkonfiguration von jeedom erlaubt dies derzeit nicht
 > nicht, aber eine bestimmte Konfiguration kann berücksichtigt werden.

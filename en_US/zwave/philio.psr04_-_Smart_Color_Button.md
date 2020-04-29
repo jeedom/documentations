@@ -7,7 +7,7 @@ Philio Smart Color Button
 
 \
 
-![Module](images/philio.psr04/Module.jpg)
+![Module](images/philio.psr04/module.jpg)
 
 \
 
@@ -133,11 +133,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this Module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
@@ -162,7 +162,7 @@ Once included you should get this :
 \
 
 Once the Module has been recognized, the commands associated with the Module will be
-available.
+disponibles.
 
 \
 
@@ -186,7 +186,7 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the Module just after
 > inclusion.
@@ -289,7 +289,7 @@ IMPORTANT note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the Module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

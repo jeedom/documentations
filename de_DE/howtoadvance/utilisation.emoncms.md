@@ -16,7 +16,7 @@ Senden Sie einen Wert von Jeedom an EmonCMS
 
 Um einen Wert von Jeedom an EmonCMS zu senden, ist dies die einfachste Lösung
 da es nativ verfügbar ist, ist die Push-URL von a zu verwenden
-Informationen
+information
 
 In Jeedom können Sie auf die erweiterten Einstellungen zugreifen, indem Sie auf klicken
 Zahnrad rechts.
@@ -27,7 +27,7 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://serveur/emoncms/input/post.json?json = {Macht:\#Wert\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {Macht:#Wert#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}&apikey=xxx)
 
 Mit Parametern :
 
@@ -51,7 +51,7 @@ Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten
     der Wert regelmäßig oder über Szenario zum Beispiel und normal
     nicht nützlich, da die Daten ihre Quelle in jeedom \ _setting haben
 
-        https://serveur/emoncms/feed/Wert.json?Identifikation=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
 
 -   Die zweite Möglichkeit ist die Verwendung des emoncms Event Plugins
     unter bestimmten Bedingungen eine Aktion auslösen. Diese Methode
@@ -98,8 +98,8 @@ Special Conf brauchen ein klassisches Repertoire
            index index.php;
             try_files = $ uri $ uri / @missing;
 
-       Ort ~ [^ /] \.PHP (/|$) {
-               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
+       Ort ~ [^ /] \.php(/|$) {
+               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

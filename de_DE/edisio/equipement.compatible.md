@@ -17,7 +17,7 @@
 
 
 
-> **Notiz**
+> **Note**
 >
 > Diese Liste basiert auf Benutzer-Feedback, das Jeedom-Team nicht
 > kann daher garantieren, dass alle Module in dieser Liste 100% sind

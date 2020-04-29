@@ -1,4 +1,4 @@
-Objyivo 
+Objetivo 
 ========
 
 El propósito de este artículo es guiarte en el uso de Android
@@ -12,18 +12,18 @@ Instalación
 Prerrequisitos 
 -------------
 
-Naturalmente, necesita un dispositivo Android (tablya, teléfono, PC con
+Naturalmente, necesita un dispositivo Android (tableta, teléfono, PC con
 micrófono y altavoces) e instalar
-[Tasker](https://play.google.com/store/apps/dyails?id=ny.dinglisch.android.taskerm&hl=fr)
-y
-[AutoVoice](https://play.google.com/store/apps/dyails?id=com.joaomgcd.autovoice&hl=fr).
+[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr)
+et
+[AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr).
 Este último le permite crear sus propios comandos de voz para Google Now
 para automatizar tareas usando la voz.
 
 Anotar : AutoVoice es solo el componente para hablar con Jeedom pero no
 no permitir que Jeedom responda. Para que él haga eso, no necesita el
 Complemento Tasker. También podemos usar este ejemplo reemplazando el
-Reconocimiento de voz de AutoVoice por yiquya NFC, geolocalización,
+Reconocimiento de voz de AutoVoice por yiqueta NFC, geolocalización,
 un SMS recibido ...
 
 El principio 
@@ -38,7 +38,7 @@ será para declarar el regreso de Jeedom.
 Creación de perfil 
 ==================
 
-Agregamos un nuevo perfil con un **Estado** como un disparador.
+Agregamos un nuevo perfil con un **état** como un disparador.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -50,12 +50,12 @@ En tipo de complemento, seleccionamos **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-En el submenú **AutoVoice**, Seleccionamos **Reconocido**.
+En el submenú **AutoVoice**, Seleccionamos **Recognized**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
-Puede guardar la configuración predyerminada, a menos que desee
-especificar palabras clave u otros parámyros.
+Puede guardar la configuración predeterminada, a menos que desee
+especificar palabras clave u otros parámetros.
 
 ![android.autovoice5](images/android.autovoice5.png)
 
@@ -71,7 +71,7 @@ ejemplo, podría llamarse "API de Jeedom".
 ![android.autovoice6](images/android.autovoice6.png)
 
 La tarea finalmente agrupará 2 acciones : **Llamada API** y **di el
-Regreso**.
+retour**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -97,7 +97,7 @@ reemplazado por la devolución de Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Agregar una acción de tipo **Decir**. Para hacer esto, filtre las acciones por
+Agregar una acción de tipo **Dire**. Para hacer esto, filtre las acciones por
 poniendo "decir" en la lupa.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -111,16 +111,16 @@ llamado y tendrá la respuesta configurada en las interacciones que
 será hablado por su teléfono. No olvide configurar el
 Jeedom interacciones y puedes preguntarle lo que quieras
 querer Desde "cuál es la temperatura en la sala de estar" hasta "encender la luz
-sala de estar".
+salon".
 
-> **Punta**
+> **Tip**
 >
 > Si no funciona desde el principio, a menudo es porque AutoVoice
 > no está activo. Para ese lanzamiento, haga clic en Google Now
 > Integración y en la primera opción en la parte superior y autorizar
 > AutoVoice.
 
-> **Punta**
+> **Tip**
 >
 > Por defecto, AutoVoice deshabilita la búsqueda de Google Now, es
 > posible cancelar este comportamiento, para eso en Tasker haga clic en

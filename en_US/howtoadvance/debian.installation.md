@@ -27,7 +27,7 @@ configure like this :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **NOTE**
+> **Note**
 >
 > Remember to select the ISO file that you downloaded
 > just before

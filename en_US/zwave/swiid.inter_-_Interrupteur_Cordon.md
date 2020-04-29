@@ -46,7 +46,7 @@ on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
 integrate into a Z-Wave "network", this network can be as simple
 only one remote control that controls your SwiidInter switch to
-Range.
+distance.
 
 \
 
@@ -131,11 +131,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > on the back, in accordance with its paper Documentation
@@ -159,7 +159,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -181,7 +181,7 @@ Here is the list of commands :
 \
 
 Note that on the dashboard all the information is found on the same
-Icon
+icone
 
 \
 
@@ -190,7 +190,7 @@ Icon
 \
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
@@ -242,7 +242,7 @@ This module has two association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > For optimum operation of your module. Jeedom must
 > be associated at least with group 2.

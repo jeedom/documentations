@@ -10,7 +10,7 @@ generating problems (corruption).
 
 **The installation procedure is strictly identical to that on a
 microSD card, but make sure you have firmware
-Day.**
+jour.**
 
 To do this, open an SSH connection. (if you don't know how,
 watch the installation on microSD :
@@ -28,11 +28,11 @@ USB. If it finds nothing, it will start normally on a card
 microSD.
 
 If the return is different, you just need to update
-Day.
+jour.
 
     sudo apt-get update; sudo apt-get install rpi-update
 
-then
+puis
 
     sudo rpi-update
 
@@ -40,7 +40,7 @@ Then restart PI3
 
     sudo reboot
 
-> **IMPORTANT**
+> **Important**
 >
 > To avoid power issues, choose an mSATA SSD
 > low consumption.
@@ -56,7 +56,7 @@ Possible adjustments
 
 **The following remarks must then be taken into account :**
 
-> **IMPORTANT**
+> **Important**
 >
 > The following changes are the result of problems encountered by
 > the users. You must adapt them to your case. The support

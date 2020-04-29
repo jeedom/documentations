@@ -10,7 +10,7 @@ generando problemas (corrupción).
 
 **El procedimiento de instalación es estrictamente idéntico al de un
 tarjeta microSD, pero asegúrese de tener firmware
-Día.**
+jour.**
 
 Para hacer esto, abra una conexión SSH. (si no sabes cómo,
 mira la instalación en microSD :
@@ -28,11 +28,11 @@ USB Si no encuentra nada, comenzará normalmente en una tarjeta
 microSD.
 
 Si la devolución es diferente, solo necesita actualizar
-Día.
+jour.
 
     sudo apt-get update; sudo apt-get install rpi-update
 
-después
+puis
 
     sudo rpi-update
 
@@ -40,12 +40,12 @@ Luego reinicie PI3
 
     reinicio de sudo
 
-> **Importante**
+> **Important**
 >
 > Para evitar problemas de alimentación, elija un SSD mSATA
 > bajo consumo.
 
-> **Punta**
+> **Tip**
 >
 > Ahora puede instalar Jeedom siguiendo exactamente lo mismo
 > procedimiento con una tarjeta SD.
@@ -56,7 +56,7 @@ Posibles ajustes
 
 **Deben tenerse en cuenta las siguientes observaciones. :**
 
-> **Importante**
+> **Important**
 >
 > Los siguientes cambios son el resultado de problemas encontrados por
 > los usuarios. Debes adaptarlos a tu caso. El apoyo
@@ -88,7 +88,7 @@ Posibles ajustes
 -   **Cambiar el valor de la llamada de intercambio.**
 
 Por defecto, el sistema llama al intercambio cuando hay menos del 40% de
-Carnero.
+Ram.
 
 -   Abra el archivo para cambiar esta configuración. :
 

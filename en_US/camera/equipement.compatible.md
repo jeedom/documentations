@@ -44,7 +44,7 @@
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **NOTE**
+> **Note**
 >
 > This list is drawn up thanks to user feedback, the team
 > Jeedom cannot therefore guarantee that all the cameras on this list

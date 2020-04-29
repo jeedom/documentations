@@ -9,7 +9,7 @@ Aquí hay algunos paquetes útiles para instalar en blanco. :
 -   **vim** : Es un editor de texto de línea de comando, puedes
     también reemplazarlo con nano o muchos otros.
 
--   **herramientas de red** : colección de programas para administrar la red
+-   **net-tools** : colección de programas para administrar la red
 
 -   **dos2unix** : herramienta de conversión de texto
 
@@ -42,7 +42,7 @@ Por :
 
     PermitRootLogin yes
 
-> **Importante**
+> **Important**
 >
 > Asegúrese de usar una contraseña de root segura ! El uso de
 > fail2ban también se recomienda.
@@ -58,7 +58,7 @@ Crea el punto de montaje :
 
     mkdir / mnt / my_share
 
-> **Nota**
+> **Note**
 >
 > Tienes que adaptar mi parte de acuerdo a tus necesidades
 
@@ -66,7 +66,7 @@ Montaje agregado en / etc / fstab
 
     // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, usuario = TODO, contraseña = TODO 0 0
 
-> **Nota**
+> **Note**
 >
 > Debe cambiar los TODO con su nombre de usuario de Linux y su
 > Contraseña
@@ -91,7 +91,7 @@ Antes de comenzar, haga una copia de seguridad completa a través de Jeedom de s
 instalación bajo Jessie, luego exportar la copia de seguridad a otro
 medio de almacenamiento.
 
-> **Punta**
+> **Tip**
 >
 > Descargue la copia de seguridad que no sea a través de la interfaz web (SSH, FTP,
 > SAMBA, otros de su elección), porque si su archivo es grande
@@ -133,14 +133,14 @@ MYSQL, bajo Estiramiento :
     MariaDB [mysql]> salir;
     Adios
 
-> **Punta**
+> **Tip**
 >
 > Reemplace 'monpass' con su contraseña MYSQL utilizada para
 > cuenta raíz bajo "Debian 8 - Jessie". Doy derechos de root
 > especialmente para administrar mis bases de datos con 'PHPMYADMIN', pero darles a
 > el usuario MYSQL 'jeedom' debería ser suficiente.
 
-> **Punta**
+> **Tip**
 >
 > Encontrará la contraseña para el usuario de MYSQL jeedom aquí :
 > Administración → Configuración → OS / DB → Base de datos
@@ -150,7 +150,7 @@ anterior :
 
     OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
 
-o
+ou
 
     OTORGA TODOS LOS PRIVILEGIOS EN *.* TO jeedom @ 'localhost' IDENTIFICADO POR 'monpass';
 
@@ -161,7 +161,7 @@ o
 
 -   Inicie la restauración a través de la interfaz Jeedom (Administración →
     Copias de seguridad → Copias de seguridad locales : Elija la copia de seguridad correcta
-    y haga clic **Restaurar** justo debajo)
+    y haga clic **Restaurer** justo debajo)
 
 -   Esperar durante la restauración
 
@@ -185,11 +185,11 @@ Actualización del sistema operativo en la versión Jessie.
     actualización de apt-get -y
     apt-get -y dist-upgrade
 
-Edite el archivo / etc / apt / sorces.enumerar y reemplazar todo
+Edite el archivo / etc / apt / sources.enumerar y reemplazar todo
 Jessie by Stretch, con copia de seguridad de archivos previa, haciendo :
 
-    cp / etc / apt / sorces.list /etc/apt/sorces.list_backup
-    sed -i 's / jessie / stretch / g' /etc/apt/sorces.list
+    cp / etc / apt / sources.list /etc/apt/sources.list_backup
+    sed -i 's / jessie / stretch / g' /etc/apt/sources.list
 
 Actualización del sistema operativo en la versión Stretch.
 

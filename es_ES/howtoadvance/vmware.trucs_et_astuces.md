@@ -17,7 +17,7 @@ E ingrese su clave de licencia
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Nota**
+> **Note**
 >
 > Como recordatorio, si no lo hace, es posible que su ESXi ya no sea
 > operar después de 60 días
@@ -33,7 +33,7 @@ copias de seguridad de la máquina en Synology
 Configuración de Synology 
 -------------------------
 
-Tienes que ir al panel de control y luego "Servaquíos de
+Tienes que ir al panel de control y luego "Servicios de
 archivos "y marque la casilla" Habilitar NFS" :
 
 ![vmware.tips4](images/vmware.tips4.PNG)
@@ -83,7 +83,7 @@ Haga clic en finalizar :
 ![vmware.tips12](images/vmware.tips12.PNG)
 
 Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en
-"Actualizar ").
+"Actualiser").
 
 Complemento VAAI Synology agregado para montaje NFS 
 ==============================================
@@ -98,8 +98,8 @@ almacenamiento :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-La instalación es bastante simple, primero debes activar el servaquío
-ESXi SSH (en la interfaz web, vaya a la acción ⇒ servaquíos
+La instalación es bastante simple, primero debes activar el servicio
+ESXi SSH (en la interfaz web, vaya a la acción ⇒ servicios
 ⇒ Active Secure Shell), luego conéctese en SSH arriba (el
 los identificadores son los mismos que para acceder a la interfaz). Entonces el
 solo lo haces :
@@ -110,7 +110,7 @@ Usted debe tener :
 
 ![vmware.tips14](images/vmware.tips14.PNG)
 
-Luego debe reinaquíar el ESXi, para verificar que está bien, debe
+Luego debe reiniciar el ESXi, para verificar que está bien, debe
 luego regrese con el cliente grueso a configuración → almacenamiento :
 
 ![vmware.tips15](images/vmware.tips15.PNG)
@@ -147,9 +147,9 @@ luego haga clic en el enlace "Descargar vSphere Client para Windows" :
 ![vmware.createvm](images/vmware.createvm.PNG)
 
 Una vez descargado solo tienes que comenzar la instalación (paso
-voluntariamente en esta parte porque es sufaquíente para validar todo).
+voluntariamente en esta parte porque es suficiente para validar todo).
 
-Luego, inaquíe VMware vSphere Client, debería tener :
+Luego, inicie VMware vSphere Client, debería tener :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -163,7 +163,7 @@ Actualización de ESXi
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
 yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (Él
-probablemente tendrá que inaquíar sesión con su cuenta de VMware). En la
+probablemente tendrá que iniciar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después
 descargar el parche deseado (generalmente el último). El número de compilación (el
@@ -174,12 +174,12 @@ Luego transfiere el zip a una de tus tiendas de datos y crea :
 
     Actualización de vib del software esxcli -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Nota**
+> **Note**
 >
 > Reemplace la ruta y el nombre postal de acuerdo con su
 > Configuración
 
-> **Importante**
+> **Important**
 >
 > Tenga cuidado de poner el camino completo al zip, de lo contrario no
 > no funciona
@@ -205,12 +205,12 @@ Y en el cuadro "Servidor NTP" tienes que poner : 0.debian.pool.n,
 
 ![vmware.tips17](images/vmware.tips17.PNG)
 
-Luego, en Acciones → Servaquío NTP → Estrategia, haga clic en "Inaquíar y
+Luego, en Acciones → Servicio NTP → Estrategia, haga clic en "Iniciar y
 parar con el anfitrión" :
 
 ![vmware.tips18](images/vmware.tips18.PNG)
 
-Aún en Acciones → Servaquío NTP, haga clic en "Inaquíar"
+Aún en Acciones → Servicio NTP, haga clic en "Iniciar"
 
 Este es tu ESXi ya debería tomarse el tiempo solo.
 
@@ -246,13 +246,13 @@ En "Nombre de host" (en el nivel de origen) debe poner el DNS deseado
 (por ejemplo, monesxi.mondsn.synology.yo) y en "Nombre de host" (en el nivel
 del destino) debe poner la IP del ESXi
 
-> **Nota**
+> **Note**
 >
 > También puede hacer lo mismo para acceder a jeedom pero por
 > esta vez poniendo la IP de la libertad (desde el vm si estás en
 > virtualizado) y el puerto 80
 
-> **Nota**
+> **Note**
 >
 > Una vez que hayas hecho eso y tu DNS esté apuntando correctamente
 > en el NAS puede generar un certificado SSL válido de forma gratuita
@@ -262,16 +262,16 @@ del destino) debe poner la IP del ESXi
 
 Luego para acceder a su ESXi solo necesita con su navegador
 vaya a su DNS o IP externo agregando / ui al final y eso es
-bueno.
+bon.
 
-> **Importante**
+> **Important**
 >
 > Si utiliza el proxy inverso de NAS, la consola en modo web de
 > Sin embargo, las máquinas virtuales no funcionan (porque pasa por websocket)
 > si pasa por VMware Remote Console, todo debería estar bien (esto
 > pasa por el puerto 902)
 
-> **Nota**
+> **Note**
 >
 > También hay una aplicación Vmware Watchlist en Android para
 > tener acceso a ESXi y a las consolas VM

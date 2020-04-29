@@ -6,17 +6,17 @@ to talk to Jeedom. We will use the Jeedom interactions engine which
 allows requests to be made and Jeedom to respond to them (and also, if we
 wish, activate different scenarios or elements).
 
-Sandup 
+Setup 
 ============
 
 Prerequisites 
 -------------
 
-Naturally, you need an Android device (tabland, phone, PC with
+Naturally, you need an Android device (tablet, phone, PC with
 microphone and speakers) and install
-[Tasker](https://play.google.com/store/apps/dandails?id=nand.dinglisch.android.taskerm&hl=fr)
-and
-[AutoVoice](https://play.google.com/store/apps/dandails?id=com.joaomgcd.autovoice&hl=fr).
+[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr)
+et
+[AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr).
 The latter allows you to create your own voice commands for Google Now
 to automate tasks using voice.
 
@@ -33,12 +33,12 @@ We will use a Tasker profile on state. This will be a
 AutoVoice voice recognition. Then in task, we will ask
 Tasker to execute 2 actions. The first will be to call Jeedom and him
 transmit the text result of the voice recognition. The second
-will be to state the randurn of Jeedom.
+will be to state the return of Jeedom.
 
 Profile creation 
 ==================
 
-We add a new profile with a **State** as a trigger.
+We add a new profile with a **état** as a trigger.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -55,7 +55,7 @@ In the submenu **AutoVoice**, We select **Recognized**.
 ![android.autovoice4](images/android.autovoice4.png)
 
 You can save the default configuration, unless you want to
-specify keywords or other paramanders.
+specify keywords or other parameters.
 
 ![android.autovoice5](images/android.autovoice5.png)
 
@@ -71,11 +71,11 @@ example, it could be called "Jeedom API".
 ![android.autovoice6](images/android.autovoice6.png)
 
 The task will finally group 2 actions : **API call** and **say the
-Randurn**.
+retour**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
-First we will add a type action **Nandwork**.
+First we will add a type action **Network**.
 
 ![android.autovoice8](images/android.autovoice8.png)
 
@@ -93,11 +93,11 @@ enter :
 
 Do not forgand to put your API key in place of the chain
 `votreclef`. Il faut bien laisser `%avcommonfilter` à la fin, ce sera
-replaced by the randurn of Autovoice.
+replaced by the return of Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Add a type action **Say**. To do this, filter the actions by
+Add a type action **Dire**. To do this, filter the actions by
 putting "say" at the magnifying glass.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -111,7 +111,7 @@ called and you will have the answer configured in the interactions which
 will be spoken by your phone. Do not forgand to configure the
 Jeedom interactions and you can ask him whatever you
 want. From "what is the temperature in the living room" to "turn on the light
-living room".
+salon".
 
 > **Tip**
 >

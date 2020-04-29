@@ -156,11 +156,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper Documentation. If the
@@ -181,7 +181,7 @@ inclusion refer to this
 
 \
 
-Wece included you should get this :
+Once included you should get this :
 
 \
 
@@ -193,8 +193,8 @@ Wece included you should get this :
 
 \
 
-Wece the module has been recognized, the commands associated with the modules will be
-available.
+Once the module has been recognized, the commands associated with the modules will be
+disponibles.
 
 \
 
@@ -223,7 +223,7 @@ Here is the list of commands :
     module instant
 
 Note that on the dashboard all the information is found on the same
-Icon
+icone
 
 \
 
@@ -232,7 +232,7 @@ Icon
 \
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
@@ -271,7 +271,7 @@ ON GOING REDACTION
 \
 
 This module has five association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -288,7 +288,7 @@ Good to know
 
 \
 
-> **Bail**
+> **Caution**
 >
 > The most important parameter of the configuration is 20. It
 > allows to choose the type of switch used. Default type

@@ -62,7 +62,7 @@ Bloquear y desbloquear con el botón, la función TwistAssist o
 usando su teléfono inteligente. Y con la función de desbloqueo automático,
 La cerradura Danalock abre automáticamente la puerta cuando
 acércate a tu casa y ciérrala justo después de
-regresado.
+rentré.
 
 **Batería de larga duración**
 
@@ -174,11 +174,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Es esencial incluir este módulo en modo seguro..
 
@@ -201,7 +201,7 @@ SEGURO (INCLUSIÓN)"
 
 \
 
-> **Importante**
+> **Important**
 >
 > Suponemos que ha instalado la aplicación en
 > su teléfono inteligente o iphone y creó una cuenta. Si aún no lo es
@@ -229,7 +229,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -256,7 +256,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Advertencia**
+> **Warning**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -353,7 +353,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -362,7 +362,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo devuelve su estado si opera el bloqueo con la mano
 > El estado se actualizará. \

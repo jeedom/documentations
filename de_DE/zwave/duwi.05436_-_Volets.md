@@ -36,7 +36,7 @@ Seine Hauptmerkmale sind :
 -   Die Fähigkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
     Zeitlimit.
 
-Achtung: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
+Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
 Der Benutzer drückt die Tasten direkt. Du musst eine machen
 'Aktualisieren Sie die Position, um die Umfrage zu aktualisieren, oder passen Sie sie an (siehe
 weiter).
@@ -117,11 +117,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie dreimal, um das Modul in den Einschlussmodus zu versetzen
 > beim Auf- oder Abstieg. Der Ausschluss erfolgt auf die gleiche Weise.
@@ -141,11 +141,11 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
-![Befehle](images/duwi.05436/4-Befehle.PNG)
+![Befehle](images/duwi.05436/4-Commandes.PNG)
 
 \.
 
@@ -216,7 +216,7 @@ Parameterdetails :
 -   0 : Laufzeit :
 
 Dies sind die Anstiegs- und Abfallzeiten. Sie sollten Ihre finden
-Lernen.
+apprentissage.
 
 Die Codierung erfolgt durch zwei Bytepaare : der erste für den Aufstieg
 und der zweite für den Abstieg.
@@ -230,13 +230,13 @@ dezimal : 18s für Auf- und Abstieg.
 
 Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet dies, dass die
 Das Modul schaltet den Auf- oder Abstieg ohne zeitliche Begrenzung ein. Es wird dauern
-Senden Sie dann einen 'STOP', um zu unterbrechen.
+Senden Sie dann einen 'Stop', um zu unterbrechen.
 
 -   1 : STOP-Funktionalität : Aktiviert oder deaktiviert :
 
 Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung gedrückt wird
 Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück
-Gegenteil.
+opposé.
 
 \.
 
@@ -249,7 +249,7 @@ Finden Sie Ihren Z-Wave-Controller.
 
 \.
 
-![Groupe](images/duwi.05436/6-Gruppen.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \.
 
@@ -279,7 +279,7 @@ Gut zu wissen
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Spitze**
+> **Tip**
 >
 > Das Widget "Store \ _2 \ _IMG", das im Infobefehl "Status" verwendet wird. Das hier
 > Widget ist schön, weil es "teilweise geöffnete" Zustände anzeigt'.

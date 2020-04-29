@@ -1,6 +1,6 @@
-**Info.json-DateIdentifikationokumentation**
+**Info.json-Dateidokumentation**
 
-Integriert seit Version 3.0 von Jeedom, der Datei **Info.json** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
+Integriert seit Version 3.0 von Jeedom, der Datei **info.json** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
 
 Die Info-Datei.json wird im Ordner / plugin_Info / Ihres Plugins gespeichert.
 
@@ -22,7 +22,7 @@ Anzeige                  | Wenn das Plugin ein dediziertes Panel auf dem Desktop
 Handy                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Webanwendung verwendet, ist dies der Name der Hauptdatei für dieses Panel.   |
 Änderungsprotokoll *              | HTML-Link zu Changelog.                                                                                              |
 Dokumentation *          | HTML-Link zur Plugin-Dokumentation.                                                                                |
-Link -> VIdentifikationeo               | HTML-Link zu einer VIdentifikationeopräsentation.                                                                                 |
+Link -> Video               | HTML-Link zu einer Videopräsentation.                                                                                 |
 Link -> Forum               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
 Sprachen                | Liste der für das Plugin verfügbaren Sprachen:Französisch, Englisch, Deutsch, Italienisch, Spanisch, Russisch, Indonesisch            |
 Kompatibilität            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp.                                                   |
@@ -31,9 +31,9 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
 Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgefüllt, erhalten Sie eine E-Mail)
 
-**Beispiel** :
+**Exemple** :
 
-[Plugin-Vorlagendatei / plugin_Info / Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/Info.json)
+[Plugin-Vorlagendatei / plugin_Info / Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 

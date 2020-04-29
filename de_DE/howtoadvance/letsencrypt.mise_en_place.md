@@ -31,7 +31,7 @@ Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen. !
 Aktivierung des virtualHost- und SSL-Moduls 
 ------------------------------------------
 
-> **Notiz**
+> **Note**
 >
 > Schließen Sie SSH an der Jeedom-Box an.
 
@@ -39,7 +39,7 @@ Aktivierung des virtualHost- und SSL-Moduls
     a2ensite default-ssl.conf
     apache2 Neustartdienst
 
-> **Notiz**
+> **Note**
 >
 > Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
 > in HTTPS ist von außen nicht erreichbar.
@@ -50,7 +50,7 @@ Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
 durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
 werden vom Skript in Apache hinzugefügt.
 
-> **Notiz**
+> **Note**
 >
 > Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
 > Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
@@ -159,11 +159,11 @@ Schritte zu folgen :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Wichtig**
+> **Important**
 >
 > Passen Sie den Pfad unbedingt an das Skript an.
 
-> **Spitze**
+> **Tip**
 >
 > Um die Planung 0 5 \* \* 1 zu verstehen, siehe hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :

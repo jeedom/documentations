@@ -69,9 +69,9 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -142,7 +142,7 @@ Una vez que su control remoto está configurado, puede hacerlo con
 Plugin Jeedom Scenario, interactúa con tu control remoto en Jeedom
 y su equipamiento.
 
-> **Nota**
+> **Note**
 >
 > El control remoto con retroalimentación de estado binario..
 

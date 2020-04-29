@@ -28,7 +28,7 @@ La dirección para la activación del relé es :
 
     http://addropengarage/cc?dkey=xxxx&click=1
 
-dkey es la clave de la API, por defecto es openpuerta
+dkey es la clave de la API, por defecto es opendoor
 
 Mas información 
 ============

@@ -46,7 +46,7 @@ Hinweis: Denken Sie daran, eine Jeedom-Konfigurationssicherung (lokal) beiseite 
 
 9- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin
 
-> **Wichtig**
+> **Important**
 >
 >
 > Achtung ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Wenn Sie eine Sicherungskopie Ihrer Jeedom-Konfiguration haben, müssen Sie diese erst anschließend wiederherstellen.

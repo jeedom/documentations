@@ -1,7 +1,7 @@
 Willkommen zu dieser Dokumentation der ersten Schritte, diese wird
 Hilf mit, dein Jeedom einzurichten.
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Handbuch ersetzt nicht die vollständige Dokumentation
 > verfügbar auf der Jeedom-Website [hier](https://jeedom.fr/doc).
@@ -25,7 +25,7 @@ diese Seite:
 ![premier market3](images/premier-market3.png)
 
 Hier wird Ihr Marktkonto erstellt, um weitere Informationen zum Markt zu erhalten
-Klicken Sie auf
+cliquez
 [hier](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
 
 Hinzufügen Ihres Service Pack-Codes 
@@ -34,12 +34,12 @@ Hinzufügen Ihres Service Pack-Codes
 Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail erhalten haben
 mit einem Code für Ihr Service Pack.
 
-> **Wichtig**
+> **Important**
 >
 > Es ist wichtig, es auszufüllen, da Sie mit diesem Code Zugriff haben
 > bestimmte Plugins kostenlos sowie exklusive Dienste.
 
-> **Wichtig**
+> **Important**
 >
 > Wenn Sie ein Service Pack auf dem Jeedom Markt kaufen, haben Sie es nicht
 > nichts zu tun, es wird Ihnen automatisch zugewiesen.
@@ -63,7 +63,7 @@ Hier ist Ihr Service Pack registriert. Weitere Details zum
 Marktklick
 [hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie eine offizielle Jeedom-Box gekauft haben, die Servicenummer
 > Pack sollte per E-Mail an Sie gesendet worden sein. Wenn Sie nichts erhalten haben, danke
@@ -86,12 +86,12 @@ Warten Sie in der Box etwa 10 Minuten (seien Sie vorsichtig, wenn Sie eine verwe
 Bild vom Typ Netzinstallation, es wird eher 30 Minuten dauern) und los geht's
 [hier](https://www.jeedom.com/market/index.php?v=d&p=find)
 
-> **Spitze**
+> **Tip**
 >
 > Achtung, Sie müssen sich im selben Netzwerk befinden wie die Jeedom-Box für
 > Diese Methode funktioniert.
 
-> **Wichtig**
+> **Important**
 >
 > Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht.
 > Wenn ja, nichts Ernstes, melden Sie sich einfach bei an
@@ -128,9 +128,9 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Klicken Sie auf die Registerkarte **Updates**
 
--   Klicken Sie unten auf die Registerkarte **Markt**
+-   Klicken Sie unten auf die Registerkarte **Market**
 
--   Aktivieren Sie das Kontrollkästchen **Aktivieren**
+-   Aktivieren Sie das Kontrollkästchen **activer**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -166,7 +166,7 @@ Klicken Sie in der Zeile "Verwaltung" auf "Neustart", und Ihre URL wird unter an
 Auf HTTP-Statusebene können Sie diese natürlich anpassen
 die Marktprofilseite
 
-> **Wichtig**
+> **Important**
 >
 > Wenn Sie gerade Ihr Jeedom mit Ihrem Marktkonto verknüpft haben, müssen Sie dies tun
 > Warten Sie 24 bis 48 Stunden, bevor Sie den DNS-Dienst verwenden können
@@ -201,7 +201,7 @@ Was ist ein Objekt?.
 In Jeedom kann es alles und jedes sein, aber es ist
 empfohlen, es entsprechend Ihren Teilen zu tun.
 
-> **Spitze**
+> **Tip**
 >
 > Es ist beispielsweise möglich, Beziehungen zwischen Objekten zu definieren:
 > Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst gehört
@@ -232,16 +232,16 @@ Installiere mein erstes Plugin
 Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt einige
 Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein.
 Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Verwalten
-Plugins.
+plugins.
 
 Dann klicken Sie einfach auf Markt:
 
 ![premier plugin2](images/premier-plugin2.png)
 
 Sie haben dann die Liste aller möglichen Plugins
-zu installieren.
+d'installer.
 
-> **Wichtig**
+> **Important**
 >
 > Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle einer Besorgnis
 > Mit einem inoffiziellen Plugin kann das Jeedom-Team nicht festgehalten werden
@@ -300,7 +300,7 @@ Dies besteht aus mehreren Kategorien:
 Nachfolgend finden Sie auch die Liste der Dokumentationen für
 Plugins von Drittanbietern.
 
-Fühlen Sie sich frei, die Funktion zu nutzen **Suchen nach** oben rechts von
+Fühlen Sie sich frei, die Funktion zu nutzen **rechercher** oben rechts von
 Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
 
 Das Forum 
@@ -316,10 +316,10 @@ Jeedom Firma.
 
 ![premier support3](images/premier-support3.png)
 
-Unterstützunganfragen (oder Tickets) 
+Supportanfragen (oder Tickets) 
 ------------------------------------
 
-> **Wichtig**
+> **Important**
 >
 > Bitte beachten Sie, dass jede Unterstützunganfrage vorliegen muss
 > ein Konto auf dem Markt.
@@ -341,13 +341,13 @@ viele Möglichkeiten:
     -   entweder mit dem Ausrufezeichen oben rechts,
 
     -   Gehen Sie entweder zu Ihrem Profil (und klicken Sie dann auf die Schaltfläche
-        "Unterstützunganfrage öffnen ").
+        "Supportanfrage öffnen ").
 
 ![premier support5](images/premier-support5.png)
 
 Alle weiteren Austausche erfolgen per E-Mail.
 
-> **Spitze**
+> **Tip**
 >
 > Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird
 > Wenn Sie Ihr Kontingent erreicht haben, sind Sie auf eines beschränkt

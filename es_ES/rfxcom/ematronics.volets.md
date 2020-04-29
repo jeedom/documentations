@@ -37,7 +37,7 @@ su control remoto Ematronic.
 Buscar ID de control remoto 
 -------------------------------------
 
-Observación: Los controles remotos de Ematronic siempre comienzan con : 09 19 03
+Remarque: Los controles remotos de Ematronic siempre comienzan con : 09 19 03
 entonces el área que nos interesa comienza desde "Mensaje de prueba" : 09 19 03.
 
 Identificar : Id1 e Id2 y agregue el siguiente hexadecimal : en mi ejemplo
@@ -58,7 +58,7 @@ Vaya a Complementos, Protocolo de inicio, RFXcom.
 ![image10](images/volet.ematronic/image10.png)
 
 Haga clic en "Agregar" e ingrese un nombre para su control remoto
-virtual.
+virtuelle.
 
 ![image00](images/volet.ematronic/image00.png)
 

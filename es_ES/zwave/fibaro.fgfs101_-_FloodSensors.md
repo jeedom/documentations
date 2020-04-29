@@ -32,7 +32,7 @@ o caída rápida de temperatura.
 Está equipado con un sensor de inclinación que envía una alerta
 inmediatamente a la red Z-Wave si el detector es movido o robado
 (retroalimenta al controlador Z-Wave la inclinación o
-movimiento).
+mouvement).
 
 Este detector universal de inundación y temperatura puede ser alimentado
 por batería o por una fuente de alimentación externa de 12 o 24 VCC. Cuando es
@@ -41,7 +41,7 @@ poder de emergencia.
 
 Gracias a su sensor de temperatura puedes controlar la temperatura de
 tu suelo. Es resistente al agua, en caso de inundación flota sobre la superficie de
-agua.
+l'eau.
 
 También tiene una alarma de sirena que puede sonar en caso de
 problema. Puede conectar la salida de contacto seco a un sistema
@@ -134,11 +134,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión central, TMP identificado, de acuerdo con su documentación
@@ -163,7 +163,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -191,7 +191,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -317,7 +317,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

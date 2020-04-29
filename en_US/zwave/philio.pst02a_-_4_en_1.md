@@ -29,7 +29,7 @@ movement, opening detection, temperature sensor and detector
 brightness. It consists of two parts : a detector and a magnet.
 They are designed to be placed on a door or window with
 the magnet fixedd on the part which opens and the detector on the part
-fixed.
+fixe.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
@@ -41,7 +41,7 @@ alerts when detecting changes in radiation levels
 infrared or door / window opening. If a person moves in
 the detector's field of vision or opens a door / window, a signal
 radio is transmitted, which triggers an alarm to deter
-intruder.
+intrus.
 
 The detector can also be used in combination with a
 Z-Wave controller for home automation uses, by detecting both
@@ -150,11 +150,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper Documentation.
@@ -178,7 +178,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -211,7 +211,7 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -299,7 +299,7 @@ Parameter details :
 \
 
 This module has two association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -350,7 +350,7 @@ IMPORTANT note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

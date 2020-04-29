@@ -131,11 +131,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, debe poner el interruptor 1 en
 > posición ON y luego con la pantalla del dial L y presione el dial,
@@ -147,7 +147,7 @@ inclusión refiérase a esto
 
 \
 
-> **Importante**
+> **Important**
 >
 > Este módulo es meticuloso en la inclusión. Durante una primera inclusión
 > siempre active el módulo inmediatamente después de la inclusión. Para hacer esto
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -256,7 +256,7 @@ Bueno saber
 
 \
 
-> **Importante**
+> **Important**
 >
 > Este módulo está en batería. Por eso es importante tener en cuenta que
 > El cambio del punto de ajuste solo se tendrá en cuenta al despertar. Por
@@ -293,7 +293,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

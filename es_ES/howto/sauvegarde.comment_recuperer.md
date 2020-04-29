@@ -4,7 +4,7 @@ Descripción
 El procedimiento le permitirá conectarse a su caja en SFTP para
 para ir y recuperar las copias de seguridad diarias realizadas por él.
 
-> **Punta**
+> **Tip**
 >
 > Atención, para que este procedimiento funcione, es necesario que
 > el servidor SSH de la caja sigue funcionando.
@@ -29,7 +29,7 @@ información en la parte superior de la ventana de Filezilla :
 
 -   Identificador : Jeedom
 
--   Contraseña : MJeedom96
+-   Contraseña : Mjeedom96
 
 -   Puerto : 22
 

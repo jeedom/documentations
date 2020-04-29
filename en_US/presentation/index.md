@@ -7,11 +7,11 @@ Jeedom is made up of a central part (called core) which takes care of the basic 
 
 ![Page Scenario](images/doc-presentation-scenario.png)
 
--   *Historization*
+-   *Historisation*
 
 ![Page Historique](images/doc-presentation-historique.png)
 
--   *Viewing*
+-   *Affichage*
 
 ![Page Dashboard](images/doc-presentation-affichage.png)
 
@@ -41,14 +41,14 @@ These plugins can be retrieved via Market and allow you to extend the possibilit
 
 Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object ...
 
-Principle
+Principe
 === 
 
 Jeedom has the particularity of being without subscription and without cloud, which makes it possible to guarantee the functioning of your home automation even if you no longer have internet. This also guarantees the security of your data (avoids the risks of mass hacking of accounts).
 
 The project being open and open source this also guarantees it a high rate of development thanks to the many developers who participate.
 
-Links
+Liens
 ===
 
 Several video tutorials have been made to show the important features of Jeedom, facilitate its use and familiarize the user with the software..

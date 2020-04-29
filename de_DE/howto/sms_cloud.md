@@ -6,7 +6,7 @@ Es handelt sich um einen kostenpflichtigen Jeedom SAS-Dienst, mit dem Sie von Ih
 
 Ein einfaches Beispiel ist : Im Falle einer Alarmauslösung erhalte ich einen Anruf mit einer Stimme, die beispielsweise die Zone angibt, in der der Alarm ausgelöst wird. Wir können das gleiche mit einer SMS machen.
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Dieser Dienst wird über das Internet angeboten. Wenn Sie kein Internet mehr haben, funktioniert er nicht mehr
 

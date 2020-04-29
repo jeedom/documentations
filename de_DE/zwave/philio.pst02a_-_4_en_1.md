@@ -29,7 +29,7 @@ Bewegung, Öffnungserkennung, Temperatursensor und Detektor
 Helligkeit. Es besteht aus zwei Teilen : ein Detektor und ein Magnet.
 Sie sind so konzipiert, dass sie an einer Tür oder einem Fenster mit angebracht werden können
 Der Magnet ist an dem sich öffnenden Teil und der Detektor an dem Teil befestigt
-behoben.
+fixe.
 
 Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
 Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
@@ -41,7 +41,7 @@ Warnungen beim Erkennen von Änderungen der Strahlungswerte
 Infrarot- oder Tür- / Fensteröffnung. Wenn eine Person einzieht
 das Sichtfeld des Detektors oder öffnet eine Tür / ein Fenster, ein Signal
 Radio wird gesendet, was einen Alarm auslöst, um abzuschrecken
-Eindringling.
+intrus.
 
 Der Detektor kann auch in Kombination mit a verwendet werden
 Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
@@ -150,11 +150,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -178,7 +178,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -211,7 +211,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
@@ -299,7 +299,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-wesentlich.
+indispensable.
 
 \.
 
@@ -350,7 +350,7 @@ Wichtiger Hinweis
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

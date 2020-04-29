@@ -26,7 +26,7 @@ Finally, each module can be used in remote mode, it's very
 practical because it allows to associate a transmitter without having to access the
 receiver.
 
-> **IMPORTANT**
+> **Important**
 >
 > Neutral is only necessary for "Shutter" mode"
 
@@ -94,14 +94,14 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
 
-> **IMPORTANT**
+> **Important**
 >
 > Conversely, Edisio receivers must be created manually in
 > Jeedom.
@@ -116,7 +116,7 @@ DIP Switch and button "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **NOTE**
+> **Note**
 >
 > To avoid unnecessary redundancies, never activate the mode
 > "Repeater "on all receivers, maximum 5 receivers per
@@ -128,7 +128,7 @@ DIP Switch and button "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Pressing R 3x activates the remote mode.
 
@@ -138,7 +138,7 @@ Function diagram
 Next if your transmitter is configured in "1 key" or "2 mode
 keys ", this is how the module works:
 
-> **NOTE**
+> **Note**
 >
 > Refer to the manufacturer's Documentation in order to be able to
 > configure your transmitter.
@@ -151,7 +151,7 @@ Timer function
 The timer function automatically switches off the relays at the end
 30 or 60 minutes.
 
-> **NOTE**
+> **Note**
 >
 > This function is only used in "Lighting" mode"
 
@@ -161,7 +161,7 @@ The "Shutter" mode"
 The "Shutter" mode allows you to control a bidirectional motor at the end of
 electronic and mechanical distance racing.
 
-> **IMPORTANT**
+> **Important**
 >
 > Neutral is required
 
@@ -170,12 +170,12 @@ Electrical configuration and connections :
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **IMPORTANT**
+> **Important**
 >
 > In order for the module to be in "Shutter" mode, the DIP Switch 2 must be in
 > Low
 
-> **IMPORTANT**
+> **Important**
 >
 > NEVER CONNECT UNDER VOLTAGE
 
@@ -191,12 +191,12 @@ Once your equipment is created, you should get this :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Remember to activate your new equipment.
 
 In the list of equipment, on the right, select "Micro-module shutter
-rolling" :
+roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
@@ -220,7 +220,7 @@ Here is the list of commands :
 
 -   E : This is the command that allows you to use the remote mode
 
-> **IMPORTANT**
+> **Important**
 >
 > STATUS feedback is simulated by Jeedom. Therefore, if you
 > use another transmitter, Jeedom will not be able to update the status
@@ -249,7 +249,7 @@ Association of the micromodule with Jeedom
 So that you can interact with Jeedom, as if it were a
 Edisio transmitter.
 
-> **NOTE**
+> **Note**
 >
 > One of the big advantages of Edisio is that a receiver can have
 > several associated issuers
@@ -283,9 +283,9 @@ Each output must be associated with a Jeedom command:
     -   Within 10 sec, press "R" again on the receiver, to
         confirm the association, the beep stops.
 
-> **NOTE**
+> **Note**
 >
-> There is no need to associate the "STOP" command, it is done
+> There is no need to associate the "Stop" command, it is done
 > automatically.
 
 Remote method 
@@ -341,7 +341,7 @@ now replaces the "R" button on the receiver.
             command "E" in Jeedom, to validate the association, the beep
             sound stops.
 
-> **NOTE**
+> **Note**
 >
 > You can start again as many times as you want to associate
 > from transmitters to receiver

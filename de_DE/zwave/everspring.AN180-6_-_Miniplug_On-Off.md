@@ -111,11 +111,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
 > Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
@@ -141,7 +141,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -215,7 +215,7 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in Gruppe 1 landen
 
@@ -246,7 +246,7 @@ Faq.
 \.
 
 Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
-Sekunden.
+secondes.
 
 \.
 

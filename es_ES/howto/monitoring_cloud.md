@@ -54,17 +54,17 @@ Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (a
 
 Entonces puede ver en la sección de salud de Jeedom si está activo. Se tarda aproximadamente 10 minutos en iniciarse después de la sincronización con el mercado (haga clic en el botón de prueba).
 
->**Importante**
+>**IMPORTANT**
 >
 >Durante la primera activación o reactivación, es posible que reciba un correo electrónico / telegrama / slack / sms diciéndole que su Jeedom no está disponible. Es normal, es hora de que el Jeedom en cuestión active los servicios de monitoreo..
 
->**Importante**
+>**IMPORTANT**
 >
 > Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta
 
->**Importante**
+>**IMPORTANT**
 >
-> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:punto final /"
+> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 
 ## Es compatible con todo ?
 

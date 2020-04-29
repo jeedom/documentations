@@ -30,7 +30,7 @@ comparable a un interruptor de cable ordinario.
 
 Se puede usar tanto manualmente como cualquier
 interruptor de cable ordinario y remoto a través del controlador
-Onda Z.
+Z-Wave.
 
 El interruptor SwiidInter también ofrece posibilidades de asociación.
 y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
@@ -46,7 +46,7 @@ en cordón ordinario : así que es una instalación rápida y fácil que
 no requiere herramientas especializadas. Luego debe configurarse para
 integrarse en una "red" Onda Z, esta red puede ser tan simple
 solo un control remoto que controla su interruptor SwiidInter a
-distancia.
+distance.
 
 \
 
@@ -56,7 +56,7 @@ Funciones
 \
 
 -   Interruptor de cable utilizable tanto manualmente
-    (pulsación corta) y por radio remota (Onda Z)
+    (pulsación corta) y por radio remota (Z-Wave)
 
 -   Úselo como reemplazo de un interruptor de cable estándar
     una lámpara de mesilla de noche, mesa o escritorio
@@ -89,7 +89,7 @@ Características técnicas
 
 -   El consumo : &lt; 0,08W
 
--   Indice de PROTECCIUno: IP20
+-   Indice de PROTECCION: IP20
 
 -   Protocolo de radio: Onda Z® (SDK 4.55)
 
@@ -131,11 +131,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > en la parte posterior, de acuerdo con su documentación en papel
@@ -159,7 +159,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -181,7 +181,7 @@ Aquí está la lista de comandos :
 \
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -242,7 +242,7 @@ Este módulo tiene dos grupos de asociación..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 2.

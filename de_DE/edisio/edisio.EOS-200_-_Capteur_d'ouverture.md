@@ -72,9 +72,9 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
@@ -94,7 +94,7 @@ Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert.
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Sie müssen daher Ihren Sensor konfigurieren, wenn Sie einen haben möchten
 > Widget mit geschlossener Tür, wenn sie geschlossen ist.
@@ -114,7 +114,7 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Spitze**
+> **Tip**
 >
 > Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
 > Ihre Ausrüstung in einem Objekt.

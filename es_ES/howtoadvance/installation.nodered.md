@@ -13,7 +13,7 @@ funcional :
     sudo npm install -g nodo-rojo
 
 Para obtener Nodejs, puede instalar uno de los complementos jeedom que
-Carga.
+charge.
 
 Inicio automático de Nodered 
 ================================
@@ -30,10 +30,10 @@ Aquí hay un ejemplo de un archivo para acceder a Nodered mediante un reverso
 proxy.
 
     <Location /jeedom/nodered>
-    ProxyPass ws:// localhost:1880 / libertad / nodado /
-    ProxyPass http:// localhost:1880 / libertad / nodado /
-    #ProxyPassReverse ws:// localhost:1880 / libertad / nodado /
-    #ProxyPassReverse http:// localhost:1880 / libertad / nodado /
+    ProxyPass ws://localhost:1880 / libertad / nodado /
+    ProxyPass http://localhost:1880 / libertad / nodado /
+    #ProxyPassReverse ws://localhost:1880 / libertad / nodado /
+    #ProxyPassReverse http://localhost:1880 / libertad / nodado /
     </Location>
 
 Configuración de Nginx 

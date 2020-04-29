@@ -33,15 +33,15 @@ direkt von der Taste am Mikromodul.
 
 Darüber hinaus kann dieses Mikromodul den Verbrauch übertragen
 Momentane (W) und kumulative (KWh) elektrische Leistung des Geräts
-beigefügt.
+rattaché.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie dieses Modul in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-vorhanden.
+existant.
 
 Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
-Wohnung.
+habitation.
 
 Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
@@ -130,11 +130,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -158,7 +158,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -286,7 +286,7 @@ Parameterdetails :
 \.
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \.
 
@@ -316,7 +316,7 @@ auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Damit Status-Feedback in Jeedom funktioniert, ist dies erforderlich
 > Erzwingen Sie die Gerätekalibrierung (Parameter 29 auf "Ja") und die

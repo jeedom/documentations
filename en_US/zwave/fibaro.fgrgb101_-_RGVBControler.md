@@ -123,11 +123,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper Documentation.
@@ -138,7 +138,7 @@ inclusion refer to this
 
 \
 
-Wece included you should get this :
+Once included you should get this :
 
 \
 
@@ -148,8 +148,8 @@ Wece included you should get this :
 
 ### Commands 
 
-Wece the module has been recognized, the commands associated with the module will be
-available.
+Once the module has been recognized, the commands associated with the module will be
+disponibles.
 
 \
 
@@ -194,14 +194,14 @@ Here is the list of commands :
     bright
 
 Note that on the dashboard all the information is found on the same
-Icon
+icone
 
 \
 
 ### Setup of the module 
 
 You can configure the module according to your
-installation. This requires going through the "Setup" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
@@ -229,7 +229,7 @@ being translated into french.
 ### Groups 
 
 This module has five association groups, only the fifth is
-essential.
+indispensable.
 
 \
 
@@ -244,7 +244,7 @@ Use of 0-10V sensors.
 
 \
 
-> **Bail**
+> **Caution**
 >
 > For now, the default configuration of jeedom does not allow it
 > not, but a specific configuration can be considered.

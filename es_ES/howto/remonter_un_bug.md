@@ -5,14 +5,14 @@ Hay varias formas en Jeedom para informar una inquietud :
 - poner la preocupación de nuevo en el [comunidad](https://community.jeedom.com), aquí suele ser donde obtendrá la respuesta más rápida
 - informar una inquietud al equipo de Jeedom : 
   - **Solicitud de soporte** (requiere un paquete de servicio de energía o más o incluso si la preocupación está en un complemento / servicio pago), esta solicitud es **privado** y lo pondrá directamente en contacto con el equipo de soporte de Jeedom que analiza su caso particular
-  - **Informe de error**, en este caso la solicitud es **publico** y será publicado en la comunidad
-  - **Solicitud mejora**, en este caso la solicitud es **publico** y será publicado en la comunidad
+  - **Informe de error**, en este caso la solicitud es **publique** y será publicado en la comunidad
+  - **Solicitud mejora**, en este caso la solicitud es **publique** y será publicado en la comunidad
 
->**Nota**
+>**NOTE**
 >
 >En el caso de una solicitud de soporte en un complemento de terceros, se envía un correo electrónico al desarrollador del complemento
 
->**Importante**
+>**IMPORTANT**
 >
 >El soporte se realiza exclusivamente por correo electrónico, recuerde controlar su correo no deseado. Muy a menudo, el soporte responde rápidamente (demora antes de la respuesta en promedio de menos de 72 horas, tenga cuidado dependiendo del problema, puede ser mucho más largo)
 

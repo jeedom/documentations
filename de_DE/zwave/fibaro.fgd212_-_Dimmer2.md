@@ -156,11 +156,11 @@ Konfiguration
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \.
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation. Wenn die
@@ -173,7 +173,7 @@ Aufnahme beziehen sich darauf
 
 \.
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
 > durch viele Rundfahrten auf dem Schalter oder
@@ -194,7 +194,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 \.
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \.
 
@@ -223,7 +223,7 @@ Hier ist die Liste der Befehle :
     Modul sofort
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \.
 
@@ -271,7 +271,7 @@ ENTWURF SEIN
 \.
 
 Dieses Modul hat fünf Zuordnungsgruppen, nur die erste ist
-wesentlich.
+indispensable.
 
 \.
 
@@ -288,7 +288,7 @@ Gut zu wissen
 
 \.
 
-> **Kaution**
+> **Caution**
 >
 > Der wichtigste Parameter der Konfiguration ist 20. Es
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp

@@ -11,7 +11,7 @@ Resumen
 
 Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo,
 el sensor de movimiento detecta una presencia, el cambio de estado es
-instantáneo.
+instantané.
 
 Gracias a su amplio ángulo de visión y su alcance, permite asegurar
 un gran perímetro. El indicador LED integrado señala cualquier cambio
@@ -60,21 +60,21 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : EMS-200
+-   Nombrebre : EMS-200
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Punta**
+> **Tip**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
 > la temperatura deseada.
@@ -115,7 +115,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Punta**
+> **Tip**
 >
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.

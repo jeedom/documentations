@@ -26,13 +26,13 @@ Vaya a IP \ _ESXI / ui con su navegador de Internet, debe tener :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 
-> **Nota**
+> **Note**
 >
 > Si no tienes nada te aconsejo que instales
 > interfaz web, toda la información
 > [aquí]((https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 
-Ingrese sus credenciales de inaquío de sesión en ESXI :
+Ingrese sus credenciales de inicio de sesión en ESXI :
 
 ![vmware.createvm4]((images/vmware.createvm4.PNG)
 
@@ -40,7 +40,7 @@ Como puede ver, la interfaz es bastante agradable y le permite
 hacer muchas cosas, no entraré en detalles pero tú
 puede ya desde esta pantalla :
 
--   detener / reinaquíar el ESXi
+-   detener / reiniciar el ESXi
 
 -   ver uso de recursos ((CPU, memoria y disco)
 
@@ -51,7 +51,7 @@ puede ya desde esta pantalla :
 
 -   un botón de acción que le permite cambiar al modo de mantenimiento
     ((útil si tiene un clúster ESXi, de lo contrario no lo hará
-    nunca servir), habilitar / deshabilitar el servaquío SSH ((se usa
+    nunca servir), habilitar / deshabilitar el servicio SSH ((se usa
     en el tutorial de configuración de respaldo)
 
 Envío de instalación ISO 
@@ -116,7 +116,7 @@ duro, cpu, memoria ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
 
-> **Nota**
+> **Note**
 >
 > Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta
 > sin embargo, no es realmente posible reducir el tamaño
@@ -138,7 +138,7 @@ Entonces haz lo siguiente :
 ![vmware.createvm12]((images/vmware.createvm12.PNG)
 
 Luego tiene un resumen de su configuración, haga clic en
-"Terminar" :
+"Terminer" :
 
 ![vmware.createvm13]((images/vmware.createvm13.PNG)
 
@@ -156,12 +156,12 @@ Debe tener una página de este tipo, haga clic en el botón de reproducción :
 
 ![vmware.createvm16]((images/vmware.createvm16.PNG)
 
-Su máquina se inaquíará y podrá instalar
+Su máquina se iniciará y podrá instalar
 su sistema operativo :
 
 ![vmware.createvm17]((images/vmware.createvm17.PNG)
 
-> **Importante**
+> **Important**
 >
 > Una vez que su máquina esté instalada, DEBE instalar
 > Herramientas de VMware ((esto permite que VMware tenga información sobre su VM
@@ -174,7 +174,7 @@ Para el resto de la instalación, los invito a leer esto.
 Montar dispositivos USB en la VM 
 =======================================
 
-> **Nota**
+> **Note**
 >
 > Si no tiene las siguientes opciones, es necesario actualizar
 > el cliente de host integrado ESXi, toda la información
@@ -185,7 +185,7 @@ de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM
 conectado y tuve que conectarlos a mi máquina virtual Jeedom para poder
 úsalo.
 
-> **Nota**
+> **Note**
 >
 > Para Zwave, RFXcom, edisio y enOcean no hay problema, para
 > Claves GSM debe seguir esto
@@ -201,7 +201,7 @@ Haga clic en "Agregar otro dispositivo" y luego en el controlador USB :
 
 ![vmware.createvm26]((images/vmware.createvm26.PNG)
 
-> **Nota**
+> **Note**
 >
 > El siguiente paso debe repetirse para cada dispositivo USB que
 > quieres conectarte
@@ -216,7 +216,7 @@ Elija su dispositivo USB de la lista desplegable :
 ![vmware.createvm28]((images/vmware.createvm28.PNG)
 
 Y ahora su dispositivo está conectado a su VM. A cada
-reinaquíar se volverá a conectar automáticamente a la máquina virtual y si
+reiniciar se volverá a conectar automáticamente a la máquina virtual y si
 desconectar / conectar físicamente, luego se volverá a conectar a
 tu VM En otras palabras, el uso ahora es totalmente
 transparente.

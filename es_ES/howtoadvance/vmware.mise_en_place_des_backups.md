@@ -19,7 +19,7 @@ disponible ya sea instalando un vib o desde la versión
 6.0 actualización 2. Como recordatorio, para acceder a esta interfaz solo
 ir a IP \ _ESXI / ui
 
-> **Nota**
+> **Note**
 >
 > Para este tutorial usaré la interfaz web de ESXi que es
 > disponible ya sea instalando un vib o desde
@@ -34,7 +34,7 @@ Debemos recuperar esto
 y transferirlo al ESXi (en el mismo almacén de datos que el que va
 bienvenidos respaldos por ejemplo).
 
-> **Nota**
+> **Note**
 >
 > En el resto de este tutorial considero que has puesto el Guión
 > ghettoVCB.sh en / vmfs / volume / Backup / ghettoVCB.sh. Depende de usted adaptarse
@@ -54,7 +54,7 @@ su ESXi y usar sus credenciales
 Creación de archivo de configuración 
 ====================================
 
-> **Nota**
+> **Note**
 >
 > Para el resto de este tutorial, considero que su almacén de datos de
 > la copia de seguridad tiene ruta / vmfs / volume / Backup, tenga cuidado de cambiar si
@@ -97,13 +97,13 @@ Los parámetros que debe adaptar son :
 
 -   **VM \ _BACKUP \ _ROTATION \ _COUNT** ⇒ número de copias de seguridad por VM para mantener
 
-> **Nota**
+> **Note**
 >
 > Puedes consultar
 > [aquí](https://communities.vmware.com/docs/DOC-8760) la documentación
 > completo de ghettoVCB con una descripción de cada parámetro
 
-> **Importante**
+> **Important**
 >
 > Tenga cuidado de poner / final para el parámetro
 > VM \ _BACKUP \ _VOLUME de lo contrario, el Guión tendrá un error
@@ -111,7 +111,7 @@ Los parámetros que debe adaptar son :
 Prueba de respaldo 
 ==============
 
-Aquí vamos a lanzar una primera copia de seguridad inaquíal de todas las máquinas virtuales para
+Aquí vamos a lanzar una primera copia de seguridad inicial de todas las máquinas virtuales para
 ver si todo está bien. A partir de entonces lo programaremos automáticamente.
 Regrese al ESXi en SSH (vuelva a conectar si es necesario) y haga :
 
@@ -126,7 +126,7 @@ que contiene 4 archivos :
 
 -   \* - plano.vmdk ⇒ el disco virtual de su máquina
 
--   \*.vmdk ⇒ el deGuiónor del disco
+-   \*.vmdk ⇒ el descriptor del disco
 
 -   \*.vmx ⇒ el archivo que contiene la configuración de su máquina
 
@@ -140,7 +140,7 @@ Aquí hay otra posibilidad para la línea de comando :
 
     / vmfs / volume / Backup / ghettoVCB.sh -d dryrun -a -g / vmfs / volume / Backup / ghettoVCB.conf
 
--   Inaquíar en modo de depuración :
+-   Iniciar en modo de depuración :
 
 <!-- -->
 
@@ -156,7 +156,7 @@ Lanzamiento automático de respaldo
 =================================
 
 Debe agregar la línea de comando al crontab pero en VMware el
-crontab es un poco especial y se sobrescribe especialmente en cada inaquío. Para
+crontab es un poco especial y se sobrescribe especialmente en cada inicio. Para
 evite esto, por lo que debe agregar un pequeño Guión que actualizará el
 crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
@@ -169,12 +169,12 @@ Y antes de "salir 0" agregue las siguientes líneas :
     / bin / echo "0 0 1 * * / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
     / usr / lib / vmware / busybox / bin / busybox crond
 
-> **Nota**
+> **Note**
 >
-> Aquí solaquíto una copia de seguridad cada 1 de cada mes, puede cambiar
+> Aquí solicito una copia de seguridad cada 1 de cada mes, puede cambiar
 > esto modificando : 0 0 1 \* \*
 
-> **Nota**
+> **Note**
 >
 > Aquí hago una copia de seguridad de todas las máquinas virtuales, puede adaptar esto
 > reemplazando -a con -m ma \ _vm, tenga cuidado si quiere poner
@@ -183,13 +183,13 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "y coloca uno por VM para hacer una copia de seguridad
 
-> **Importante**
+> **Important**
 >
 > No olvide adaptar la ruta al archivo de configuración de
 > ghettoVCB según su configuración :
 > / vmfs / volume / Backup / ghettoVCB.conf
 
-Ultimo paso: debe reinaquíar su ESXi para que se tome el cron
+Ultimo paso: debe reiniciar su ESXi para que se tome el cron
 en cuenta, puede ver el resultado haciendo (siempre en SSH) :
 
     cat / var / spool / cron / crontabs / root

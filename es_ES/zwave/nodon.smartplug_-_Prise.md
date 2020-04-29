@@ -24,10 +24,10 @@ Resumen
 
 \
 
-El enchufe con control remoto NodUno® se puede controlar a través de un sistema de automatización del hogar
+El enchufe con control remoto NodOn® se puede controlar a través de un sistema de automatización del hogar
 Compatible con Z-Wave® o Z-Wave Plus® o directamente a través de otro
 Controladores Z-Wave® o Z-Wave Plus® como el control remoto suave,
-el interruptor de pared o el Octan Remote NodUno®. Norma alemana
+el interruptor de pared o el Octan Remote NodOn®. Norma alemana
 (Schuko) o francés (Tipo E), el enchufe se puede conectar en 2
 sentido, cabeza arriba o cabeza abajo. Asociado con su fino diseño, estos 2
 Las características permiten una fácil integración sin obstrucción
@@ -87,7 +87,7 @@ Datos del módulo
 
 -   Hacer : Mediodía
 
--   Nombre : Smartplug
+-   Nombrebre : Smartplug
 
 -   ID del fabricante : 357
 
@@ -104,11 +104,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > hasta que la luz se vuelva roja, de acuerdo con su documentación
@@ -133,7 +133,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -262,7 +262,7 @@ Este módulo tiene 8 grupos de asociación..
 
 \
 
-> **Importante**
+> **Important**
 >
 > Como mínimo, Jeedom debe encontrarse en los grupos 1 y 4 \
 
