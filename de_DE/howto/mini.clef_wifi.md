@@ -50,7 +50,8 @@ zu Hause bekomme ich es zurück :
 
     8192cu 550797 0
 
-==Bearbeiten der Datei "/ etc / Netzwerk / interfaces""
+Bearbeiten der Datei "/ etc / Netzwerk / interfaces""
+==============================================
 
 Sie müssen zuerst die Datei "/ etc / Netzwerk / interfaces" mit dem bearbeiten
 nächste Bestellung :
