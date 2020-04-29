@@ -50,7 +50,8 @@ chez moi, j’obtiens en retour cela :
 
     8192cu                550797  0
 
-==Édition du fichier "/etc/network/interfaces"
+Édition du fichier "/etc/network/interfaces"
+==============================================
 
 Il vous faut d’abord éditer le fichier "/etc/network/interfaces" avec la
 commande suivante :
