@@ -13,7 +13,7 @@ To start, you have to determine a name and an Id (which must not exist)
 Name : Poop Life
 Id : vdm
 
-Download the template plugin to have the [basedd](https://github.com/jeedom/plugin-template/archive/master.zip)
+Download the template plugin to have the [based](https://github.com/jeedom/plugin-template/archive/master.zip)
 
 Unzip the file . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rparty , core , desktop…
 
@@ -23,7 +23,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 
 1 / Open the plugin_info / info file.json and edit the.
 
-```
+`` ''
 {
 	"id" : "vdm",
 	"name" : "Poop Life",
@@ -37,7 +37,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 	"language" : "",
 	"compatibility" : ""	
 }
-```
+`` ''
 
 Copy paste the code above.
 
@@ -55,93 +55,93 @@ Changelog, Documentation, language, compatibility null for the moment. I will co
 
 Remplacer
 
-```
+`` ''
 class template extends eqLogic {
-```
+`` ''
 
 par
 
 
-```
+`` ''
 class vdm extends eqLogic {
-```
+`` ''
 
 et
 
-```
+`` ''
 class templateCmd extends cmd
-```
+`` ''
 
 par
 
-```
+`` ''
 class vdmCmd extends cmd
-```
+`` ''
 
 - Rename the core / php / template.inc file.php to core / php / vdm.inc.php
 - Rename the desktop / php / template file.php to desktop / php / vdm.php and open it
 
 Remplacer
 
-```
+`` ''
 $plugin = plugin::byId('template');
-```
+`` ''
 
 By 
 
-```
+`` ''
 $plugin = plugin::byId(‘vdm');
-```
+`` ''
 
-```
+`` ''
 {{Add a template}}
-```
+`` ''
 
 By 
 
-```
+`` ''
 {{Add equipment}}
-```
+`` ''
 
-```
+`` ''
 <legend>{{Mes templates}}</legend>
-```
+`` ''
 
 Par
 
-```
+`` ''
 <legend>{{Mes équipement}}</legend>
-```
+`` ''
 
-```
+`` ''
 {{Equipment name template}}
-```
+`` ''
 
 Par
 
-```
+`` ''
 {{Name of equipment }} 
-```
+`` ''
 
-```
+`` ''
 {{template byam 1}}
-```
+`` ''
 
 Par
 
-```
+`` ''
 {{Settings}}
-```
+`` ''
 
-```
+`` ''
 <?php include_file('desktop', 'template', 'js', 'template');?>
-```
+`` ''
 
 Par
 
-```
+`` ''
 <?php include_file('desktop', vdm, 'js', vdm);?>
-```
+`` ''
 
 Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.template ',' js');?>
 
@@ -153,7 +153,7 @@ Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.te
 
 And rename the functions as follows
 
-```
+`` ''
 function vdm_install () {
     
 }
@@ -166,7 +166,7 @@ function vdm_update () {
 function vdm_remove () {
     
 }
-```
+`` ''
 
 Here the plugin is ready but there remains the customization and the icon to update : [Documentation](https://doc.jeedom.com/en_US/dev/Icone_de_plugin)
 
@@ -188,37 +188,37 @@ it's not right because the color of the most does not match the color of the ico
 
 I open the desktop / php / desktop file.php to fix.
 
-```
+`` ''
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></i>
         <br>
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</span>
       </div>
-```
+`` ''
 
 I replace
 
-```
+`` ''
 color:#94ca02;"
-```
+`` ''
 
 by 
 
-```
+`` ''
 color:#00A9EC;"
-```
+`` ''
 
 We also notice that the texts are not aligned so we correct the style of the configuration (top property)
 
-```
+`` ''
 <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
-```
+`` ''
 
 by 
 
-```
+`` ''
 <span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
-```
+`` ''
 
 ![image](images/tutorial_vdm_desktop2.png)
 
@@ -240,7 +240,7 @@ Open the core / class / vdm.class file.php and look for the postSave () function
 
 We create the 2 orders
 
-```
+`` ''
 public function postSave () {
 	$info = $this->getCmd(null, 'story');
 	if (!is_object ($ info)) {
@@ -264,7 +264,7 @@ public function postSave () {
 	$refresh->setSubType('other');
 	$refresh->save();        
 }
-```
+`` ''
 
 -Créer un autre équipement « vdm2 » en cliquant sur le +. In the commands tab, the commands appeared. Activate it and make it visible. Choose a byent object and see what it looks like on the dashboard.
 
@@ -276,7 +276,7 @@ In the commands tab, you should see.
 
 Open desktop / php / vdm.php to find the html code of this table.
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 <table Id="table_cmd" class="table table-bordered table-condensed">
     <thead>
@@ -287,11 +287,11 @@ Open desktop / php / vdm.php to find the html code of this table.
     <tbody>
     </tbody>
 </table>
-```
+`` ''
 
 At the time of display, it is the desktop / js / vdm script.js which is called and launches the addCmdToTable function.
 
-```
+`` ''
 function addCmdToTable (_cmd) {
     if (!issand (_cmd)) {
         var _cmd = {configuration: {}};
@@ -323,7 +323,7 @@ function addCmdToTable (_cmd) {
     }
     jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
 }
-```
+`` ''
 
 This is done automatically. 
 
@@ -331,22 +331,22 @@ I want to add the Display and log options for each order.
 
 I edit the html code of the table in the desktop file.php by adding a column ..
 
-```
+`` ''
 <th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>
-```
+`` ''
 
 Then edit desktop.js, find
 
-```
+`` ''
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </td> ';
     tr + = ' <td> ';
     if (is_numeric (_cmd.id)) {
-```
+`` ''
 
 We add the desired information.
 
-```
+`` ''
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </td> ';
     tr + = ' <td> ';
@@ -355,19 +355,19 @@ We add the desired information.
    tr + = ' </td> ';		
     tr + = ' <td> ';
     if (is_numeric (_cmd.id)) {
-```
+`` ''
 
 I leave the button to create an order but I want it to be on the left. 
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
-```
+`` ''
 
 I change the class pull-right to pull-left
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
-```
+`` ''
 
 Here is the rendering.The configuration options (Display and log) are present. 
 
@@ -380,7 +380,7 @@ Here it remains to recover a random vdm and to use the commands.
 
 To randomly retrieve a vdm.
 
-```
+`` ''
 $url = "http://www.viedemerde.fr/aleatoire";
 $data = file_get_contents($url);
 @$dom = new DOMDocument();
@@ -390,11 +390,11 @@ libxml_use_internal_errors (true);
 $xpath = new DOMXPath($dom);
 $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
 return $ divs [0] -> nodeValue;
-```
+`` ''
 
 Open the core / class / vdm.class file.php and for the class vdm which inherits From egLogic methods, I create a function randomVdm
 
-```
+`` ''
 	public function randomVdm () {
 		$url = "http://www.viedemerde.fr/aleatoire";
 		$data = file_get_contents($url);
@@ -406,46 +406,46 @@ Open the core / class / vdm.class file.php and for the class vdm which inherits 
 		$divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
 		return $ divs [0] -> nodeValue;
 	}
-```	
+`` ''	
 
 Now we will update the info command (story) with this information by launching the action command (refresh). 
 Still in core / class / vdm.class.php for the class vdmCmd we will use the execute method 
 
-```
+`` ''
 public function execute ($ _ options = array ()) {
 		
         
  }
-```
+`` ''
 
 C'est here qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». The class vdmCmd inherited all the methods of the class cmd (Core jeedom)
 
 On vérifie le logicalId de la commande lancée and si « refresh » on lance les actions
 
-```
+`` ''
 switch ($ this-> getLogicalId ()) {				
 	case 'refresh': // LogicalId of the refresh command that we created in the Postsave method of the vdm class . 
 	// code to refresh my order
 	break;
 }
-```
+`` ''
 
 Now it remains to launch the randomVdm () function . To do this, we retrieve the eqLogic (equipment) From the launch command and we launch the function
 
-```
+`` ''
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
 $info = $eqlogic-> randomVdm() ; //Lance la fonction and stocke le résultat dans la variable $info
-```
+`` ''
 
 On mand à jour la commande « story » avec la variable $info. We will use the checkAndUpdateCmd method of the eqlogic class
 
-```
+`` ''
 $eqlogic->checkAndUpdateCmd('story', $info);
-```
+`` ''
 
 Which gives in the end
 
-```
+`` ''
     public function execute ($ _ options = array ()) {
 		$eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
 		switch ($ this-> getLogicalId ()) {// check the logicalId of the command 			
@@ -455,7 +455,7 @@ Which gives in the end
 				break;
 		}
     }
-```
+`` ''
 
 Now go to a created device and launch the Refresh command. Puis la commande « Histoire » qui doit être à jour.
 
@@ -486,63 +486,63 @@ Considering the plugin we will update every hour (let's be crazy). So we will us
 
 We will therefore open the vdm.class file.php and search 
 
-```
+`` ''
     /*
      * Function automatically performed every hour by Jeedom
       public static function CronHourly () {
 
       }
      */
-```
+`` ''
 
 Uncomment the code
 
-```
+`` ''
       public static function CronHourly () {
 
       }
-```
+`` ''
 
 Our function is operational
 
 Now you have to recover all the equipment From our plugin,
 
-```
+`` ''
 self::byType ('vdm') // array containing all the plugin equipment 
-```
+`` ''
 
 and sort them 1 by 1
 
-```
+`` ''
 foreach (self::byType ('vdm') as $ vdm) {
 }
-```
+`` ''
 
 Before doing anything we check that the equipment is active
 
-```
+`` ''
 if ($ vdm-> getIsEnable () == 1) {
 }
-```
+`` ''
 
 Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
-```
+`` ''
 $cmd = $vdm->getCmd(null, 'refresh');
-```
+`` ''
 
 If it does not exist we continue the loop (foreach) otherwise we execute it
 
-```
+`` ''
 if (!is_object ($ cmd)) {
 continue;
 }
 $cmd->execCmd();
-```	
+`` ''	
 
 Which gives in the end
 
-```
+`` ''
       public static function CronHourly () {
 		  foreach (self::byType ('vdm') as $ vdm) {// browse all equipment in the vdm plugin
 			  if ($ vdm-> getIsEnable () == 1) {// check that the equipment is active
@@ -554,7 +554,7 @@ Which gives in the end
 			  }
 		  }
       }
-```
+`` ''
 
 Pour tester, dans jeedom , aller dans configuration/moteur de tâches and lancer le cron de class « plugin » fonction « CronHourly »
 Information is updated.
@@ -567,14 +567,14 @@ For the creation of the commands we used the postSave () method. We will use the
 
 The easiest way since there is only one command and it is created in postSave
 
-```
+`` ''
     public function postUpdate () {
 		$cmd = $this->getCmd(null, 'refresh'); // On recherche la commande refresh de l'équipement
 		if (is_object ($ cmd)) {// it exists and we launch the command
 			 $cmd->execCmd();
 		}
     }
-```    
+`` ''    
 
 You have to test, it works?
 
@@ -582,15 +582,15 @@ But here is an alternative that may prove more useful in more complex cases
 
 In the postUpdate () function, we launch the CronHourly () function with the device Id
 
-```
+`` ''
     public function postUpdate () {
 		self::CronHourly ($ this-> getId ()); // launch the CronHourly function with the eqLogic Id
     }
-``` 
+`` '' 
 
 But in this case we change the CronHourly () function
 
-```
+`` ''
 	public static function CronHourly ($ _ eqLogic_Id = null) {
 		if ($ _eqLogic_Id == null) {// The function has no arguments so we are looking for all the plugin equipment
 			$eqLogics = self::byType('vdm', true);
@@ -608,7 +608,7 @@ But in this case we change the CronHourly () function
 			}
 		}
 	}
-```	
+`` ''	
 
 Then you can change the Frequency of the cron according to the importance of your information to recover.
 
@@ -646,7 +646,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 For that I open the file vdm.class.php , fonction postSave() and j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
-```
+`` ''
 		$info = $this->getCmd(null, 'story');
 		if (!is_object ($ info)) {
 			$info = new vdmCmd();
@@ -658,7 +658,7 @@ For that I open the file vdm.class.php , fonction postSave() and j'ajoute le tem
 		$info->setTemplate('dashboard','tile');//template pour le dashboard
 		$info->setSubType('string');
 		$info->save();
-```
+`` ''
 
 Refresh the dasboard.
 
@@ -668,19 +668,19 @@ We will therefore change the width of the widgand (equipment => eqLogic) using t
 
 To do this, simply add
 
-```
+`` ''
 $this->setDisplay("width","800px");
-```
+`` ''
 
 Yes, but !! Because there is a but. Try adding this in the postsave () or postUpdate () function and it doesn't take into account the change. Why ? Well, read the doc of the template plugin ==> HERE
 
 Now that you have read correctly, you know that you must use the preSave () method 
 
-```
+`` ''
     public function preSave () {
 		$this->setDisplay("width","800px");
     }
-```
+`` ''
 
 Register equipment and refresh the dashboard.
 
@@ -693,31 +693,31 @@ Register equipment and refresh the dashboard.
 
 For the moment, we therefore use 3 classes of the core of jeedom : EqLogic, cmd, cron . Go for info, We add a 4th with the class plugin in the vdm file.php that you open and leave open because we are going to edit it . 
 
-```
+`` ''
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
-```
+`` ''
 
 You have to understand that everything is done to make our job easier. 
 
 For a byameter / option internal to the plugin, we will use one of the methods of the class eqLogic of the core : setConfiguration () by adding the desired byameters. For example :
 
-```
+`` ''
 $this->setConfiguration("type","mon_type"); // si on veut  définir un byamètre type de valeur mon_type. Comme on a défini la largeur du widgand via la méthode setDisplay()
-```
+`` ''
 
 To leave the choice to the user, we return to the desktop file.php that you left open because you follow this TP literally :D
 
 Search 
 
-```
+`` ''
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
-```
+`` ''
 
 And replace with
 
-```
+`` ''
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //IMPORTANT de laisser la classe eqLogicAttr 
-```
+`` ''
 
 Save and go to a plugin device that you have already created by following this lab (Refresh if necessary). 
 
@@ -730,33 +730,33 @@ Perfect the setting is saved.
 
 It's simple, no? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . He does all the work
 
-```
+`` ''
 <?php include_file ('core', 'plugin.template ',' js');?>//Chargement du fichier core/js/plugin.template.js (en bytant de la racine du site)
-```
+`` ''
 
 If you take a closer look at the desktop file.php ago
 
-```
+`` ''
                     <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getId() ;
-```        
+`` ''        
 
-```
+`` ''
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name of equipment}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
-```
+`` ''
 
 Etc…
 
 If you have understood all of this well, we will be able to move on. But first we will change in the desktop.php file 
 
-```
+`` ''
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
-```
+`` ''
 
 By 
 
-```
+`` ''
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
-```
+`` ''
 
 IMPORTANT : The text in braces corresponds to the text that will be translated if you push the plugin on the market
 
@@ -770,18 +770,18 @@ On pourrait le laisser taper dans l'input « Type de vdm » : random or spicy or
 
 If you have followed everything, you should have in the file desktop.php
 
-```
+`` ''
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
         </div>
     </div>
-``` 
+`` '' 
 
 Which we will replace with
 
-```
+`` ''
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
         <div class="col-sm-3">
@@ -792,7 +792,7 @@ Which we will replace with
             </select>
         </div>
     </div>
-```
+`` ''
 
 Ici le byamètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
@@ -801,18 +801,18 @@ Now we will take into account our byameter in the randomVdm () function in the v
 
 Chercher
 
-```
+`` ''
 $url = "http://www.viedemerde.fr/aleatoire";
-```
+`` ''
 
 And replace with
 
-```
+`` ''
 	$type = $this->getConfiguration("type ");
 		if ($ type == "") {// if the byameter is empty or does not exist
 			$type = "aleatoire"; //on prends le type aleatoire
 		}		
 		$url = "http://www.viedemerde.fr/" .$type  ;
-```	
+`` ''	
 
 Now change the value of the select on a device, save and go to the dashboard to see what it gives.
