@@ -1,8 +1,8 @@
 {
     ".\/index.md": {
         "Documentation Jeedom": "Jeedom Dokumentation",
-        "Bienvenu sur le site de documentation Jeedom": "Willkommen auf der Jeedom-Dokumentationsseite",
-        "Vous trouverez ici toute la documentation relative a jeedom": "Hier finden Sie alle Unterlagen zu Jeedom"
+        "Bienvenue sur le site de documentation Jeedom": "Willkommen auf der Jeedom-Dokumentationsseite",
+        "Vous trouverez ici toute la documentation relative a la solution domotique Jeedom": "Hier finden Sie alle Dokumentationen zur Jeedom-Hausautomationslösung"
     },
     ".\/legal_notice.md": {
         "Mentions légales": "Rechtliche Hinweise",

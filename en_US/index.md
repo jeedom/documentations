@@ -1,5 +1,7 @@
 # Jeedom documentation
 
-Welcome to the Jeedom documentation site. You will find here all the documentation related to jeedom.
+Welcome to the Jeedom documentation site. Here you will find all the documentation relating to the Jeedom home automation solution.
 
-<div id="div_searchBar"></div>
+![Présentation](../img/img_home.png)
+
+  <!-- <div id="div_searchBar"></div> -->

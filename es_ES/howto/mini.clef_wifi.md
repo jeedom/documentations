@@ -50,7 +50,8 @@ en casa lo recupero :
 
     8192cu 550797 0
 
-==Edición del archivo "/ etc / red / interfaces"
+Edición del archivo "/ etc / red / interfaces"
+==============================================
 
 Primero debe editar el archivo "/ etc / red / interfaces" con el
 orden siguiente :

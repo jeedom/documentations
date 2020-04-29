@@ -11,7 +11,7 @@
 
 > ****
 >
-> . :?v=d&p=profils#services)
+> . Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > ****
 >
@@ -101,7 +101,7 @@
 
 ## 
 
-:."
+Allez [ici](https://console.actions.google."
 
 ![gsh](../images/gsh7.png)
 
@@ -170,7 +170,7 @@
 
 ![gsh](../images/gsh20.png)
 
-:." :
+Il faut maintenant configuré la clef API homegraph, pour cela allez [ici](https://console.developers.google." :
 
 ![gsh](../images/gsh21.png)
 
@@ -200,7 +200,7 @@
 
 "
 
-:.. :.".
+Derniere étape à faire donner l'id projet à Jeedom pour la gestion de la connexion, allez [ici](https://console.actions.google.. Recuperez l'url de la forme "https://console.actions.google.".
 
 " :
 
@@ -218,7 +218,7 @@
 
 
 
-* :..
+* aller [ici](https://console.developers.google..
 * 
   * 
   *  : 
@@ -293,7 +293,7 @@
 
 > ****
 >
-> . :.. 
+> . Attention en mode standalone si vous avez une erreur (type "Requested entity was not found") essayez de réactiver le test de l'application ([ici](https://console.actions.google.. 
 
 
 
@@ -314,7 +314,7 @@
 
 >** ?**
 >
->:?
+>Les commandes vocales (ainsi que les retours) sont gérés uniquement pas Google, voila la [documentation](https://support.google.com/googlehome/answer/7073578?
 
 >**.**
 >
@@ -331,7 +331,7 @@
 >****
 >
 >. .  :
-> :. . .
+> allez sur la page suivante [ici](https://console.cloud.google.com/cloud-resource-manager). . .
 > 
 
 

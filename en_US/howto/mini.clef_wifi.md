@@ -50,7 +50,8 @@ at home I get it back :
 
     8192cu 550797 0
 
-==Editing the file "/ etc / network / interfaces"
+Editing the file "/ etc / network / interfaces"
+==============================================
 
 You must first edit the "/ etc / network / interfaces" file with the
 next order :

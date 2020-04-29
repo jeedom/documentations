@@ -179,7 +179,7 @@ Luego solo vaya a IP\_MACHINE\_JEEDOM
 
 Si usa su Raspberry for Jeedom sin una pantalla conectada, se recomienda llevar la RAM mínima en la parte de video.
 
-Solo inicia sesión **SSH** y modificar el archivo de configuración : `sudo nano / boot / config.txt`
+Solo inicia sesión **SSH** y modificar el archivo de configuración : ``sudo nano /boot/config.txt``
 
 Agregar **y O** Descomentar (quitando el #) **y O** Edita las lineas :
 
@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Salir guardando : `CTRL + X` luego` O` luego` ENTER`
+Salir guardando : ``CTRL+X`` después ``O`` después ``ENTER``
 
 Reinicia tu RPI
 

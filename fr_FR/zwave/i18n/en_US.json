@@ -1262,7 +1262,6 @@
         "Tip]": "Tip]"
     },
     "zwave\/equipement.compatible.md": {
-        "jpg\" width=\"60\" \/": "jpg \"width =\" 60 \"\/",
         "RaZberry Controller": "RaZberry Controller",
         "Contrôleur": "Controller",
         "RaZberry Controller ZWave+": "RaZberry Controller ZWave +",
@@ -1690,12 +1689,6 @@
         "Key Fob (DSA22)": "Key Fob (DSA22)",
         "Remplacé dans les boutiques par le keyfob Gen5": "Replaced in shops by the Gen5 keyfob",
         "Z-Stick Lite (DSA07203)": "Z-Stick Lite (DSA07203)",
-        "1_usb adapter": "1_usb adapter",
-        "1_usb stick": "1_usb stick",
-        "1_ZME_UZB1 USB Stick": "1_ZME_UZB1 USB Stick",
-        "3_usb stick": "3_usb stick",
-        "1_RaZberry Controller ZWavePlus": "1_RaZberry Controller ZWavePlus",
-        "3_RaZberry Controller": "3_RaZberry Controller",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional.",
         " zwaveme": " zwaveme",
         "zwaveme ": "zwaveme ",
