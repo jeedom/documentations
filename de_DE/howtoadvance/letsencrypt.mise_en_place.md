@@ -57,7 +57,7 @@ werden vom Skript in Apache hinzugefügt.
 > Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
 > Erneuerung :
-> /etc/apache2/sites-available/000-default-le-ssl.conf\`
+> /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
@@ -82,7 +82,7 @@ zwei HTTPS-Konfigurationszeilen in der Nginx-Konfiguration :
     vi / etc / nginx / sites-enabled / default
 
 Fügen Sie die folgenden Zeilen zwischen den Zeilen `server {` und ein
-`root /usr/share/nginx/www ;` :
+`root / usr / share / nginx / www;` :
 
     höre 80;
 

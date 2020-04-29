@@ -104,14 +104,14 @@ Para facilitar su tarea, puede descargar el software
     -   En comando de shell :
 
         -   Para encontrar el disco correspondiente a la tarjeta, abra
-            una terminal e ingrese el comando : `diskutil list`
+            una terminal e ingrese el comando : `lista de diskutil`
             Imagen::images / save-restore12.jpg \ [align = "center" \]
 
         -   Comience a crear la Imagenn ingresando el comando :
-            `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`
+            `sudo dd if = / dev / disk1 of = ~ / Desktop / Backup_Jeedom.img bs = 1m`
             *Remarque: En este ejemplo, el nombre del disco de la tarjeta
             es `/ dev / disk1`, así que ingrese el comando
-            Salvaguardia \`/dev/disk1\`*
+            copia de seguridad \ `/ dev / disk1 \`*
 
 2.  **Restauration**
 
@@ -125,17 +125,17 @@ Para facilitar su tarea, puede descargar el software
 
         -   Para encontrar el disco correspondiente a la tarjeta, abra
             un terminal e ingrese el mismo comando que para el
-            Salvaguardia : `diskutil list`
+            Salvaguardia : `lista de diskutil`
 
         -   Desmonta las particiones de la tarjeta escribiendo el comando :
-            `sudo diskutil unmountDisk /dev/disk1`
+            `sudo diskutil unmountDisk / dev / disk1`
 
         -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando
             :
-            `sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`
+            `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img de = / dev / disk1`
             *Observación : En este ejemplo, el nombre del disco de la tarjeta
             es `/ dev / disk1`, así que ingrese el comando
-            Salvaguardia \`/dev/disk1\`*
+            copia de seguridad \ `/ dev / disk1 \`*
 
 Bajo Linux 
 ----------
@@ -145,15 +145,15 @@ Bajo Linux
     -   Para encontrar el disco correspondiente a la tarjeta, abra un
         terminal e ingrese el comando : `sudo fdisk -l | grep Dis`
 
-        ``` {.bash}
+        `` `{.bash}
         $ sudo fdisk -l | grep Dis
         Disco / dev / sda: 320.1 GB, 320072933376 bytes
         Disco / dev / sdb: 16.0 GB, 16012804096 bytes
         Disco / dev / sdc: 8.0 GB, 8006402048 bytes
-        ```
+        `` ''
 
     -   Comience a crear la Imagenn ingresando el comando :
-        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Remarque: Dans
+        `sudo dd if = / dev / sdc of = Backup_Jeedom.img bs = 1m` * Nota: DENTRO
         En este ejemplo, el nombre del disco de la tarjeta es / dev / sdc.*
 
 2.  **Restauration**
@@ -163,10 +163,10 @@ Bajo Linux
 
     -   Desmonta las particiones de la tarjeta escribiendo el comando (en
         reemplazando la X con los números de partición) :
-        `sudo umount /dev/sdcX`
+        `sudo umount / dev / sdcX`
 
     -   Restaure la Imagenn en la tarjeta microSD escribiendo el comando :
-        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Remarque: Dans
+        `sudo dd if = Backup_Jeedom.img of = / dev / sdc bs = 1m` * Nota: DENTRO
         En este ejemplo, el nombre del disco de la tarjeta es / dev / sdc.*
 
 

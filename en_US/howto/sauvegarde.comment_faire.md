@@ -108,10 +108,10 @@ To make your task easier, you can download the software
             Picture::images / save-restore12.jpg \ [align = "center" \]
 
         -   Start creating the Picture by entering the command :
-            `sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`
+            `sudo dd if = / dev / disk1 of = ~ / Desktop / Backup_Jeedom.img bs = 1m`
             *Remarque: In this example, the name of the card disk
             is `/ dev / disk1`, so enter in the command
-            Safeguard \`/dev/disk1\`*
+            backup \ `/ dev / disk1 \`*
 
 2.  **Restauration**
 
@@ -128,14 +128,14 @@ To make your task easier, you can download the software
             Safeguard : `diskutil list`
 
         -   Unmount the partitions of the card by typing the command :
-            `sudo diskutil unmountDisk /dev/disk1`
+            `sudo diskutil unmountDisk / dev / disk1`
 
         -   Restore the Picture on the microSD card by typing the command
             :
-            `sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`
+            `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img of = / dev / disk1`
             *Note : In this example, the name of the card disk
             is `/ dev / disk1`, so enter in the command
-            Safeguard \`/dev/disk1\`*
+            backup \ `/ dev / disk1 \`*
 
 Under Linux 
 ----------
@@ -145,15 +145,15 @@ Under Linux
     -   In order to find the disk corresponding to the card, open a
         terminal and enter the command : `sudo fdisk -l | grep Dis`
 
-        ``` {.bash}
+        `` `{.bash}
         $ sudo fdisk -l | grep Dis
         Disk / dev / sda: 320.1 GB, 320072933376 bytes
         Disk / dev / sdb: 16.0 GB, 16012804096 bytes
         Disk / dev / sdc: 8.0 GB, 8006402048 bytes
-        ```
+        `` ''
 
     -   Start creating the Picture by entering the command :
-        `sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m` *Remarque: Dans
+        `sudo dd if = / dev / sdc of = Backup_Jeedom.img bs = 1m` * Note: IN
         this example, the name of the card disk is / dev / sdc.*
 
 2.  **Restauration**
@@ -163,10 +163,10 @@ Under Linux
 
     -   Unmount the partitions of the card by typing the command (in
         replacing the X with the partition numbers) :
-        `sudo umount /dev/sdcX`
+        `sudo umount / dev / sdcX`
 
     -   Restore the Picture on the microSD card by typing the command :
-        `sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m` *Remarque: Dans
+        `sudo dd if = Backup_Jeedom.img of = / dev / sdc bs = 1m` * Note: IN
         this example, the name of the card disk is / dev / sdc.*
 
 

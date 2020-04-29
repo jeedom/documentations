@@ -154,10 +154,10 @@ ou
 
     GRANT ALL PRIVILEGES ON *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
 
--   Copiez votre sauvegarde dans le dossier `/var/www/html/backup`
+-   Copy your backup to the `/ var / www / html / backup` folder
 
 -   Give the rights to www-data :
-    `chown -R www-data: /var/www/html/backup/*`
+    `chown -R www-data: / var / www / html / backup / * `
 
 -   Launch the restoration via the Jeedom interface (Administration →
     Backups → Local Backups : Choose the right backup
@@ -166,7 +166,7 @@ ou
 -   Wait during the restoration
 
 -   Restore rights to www-data on all Jeedom :
-    `chown -R www-data: /var/www/html/`
+    `chown -R www-data: / var / www / html / `
 
 -   Restart the box : `reboot`
 
@@ -210,7 +210,7 @@ Jeedom update
 
 Removal of unnecessary libraries
 
-    apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^lib`
+    apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y remove `aptitude -F% p search '~ o'`----
 
 NOTE : If when yor open your Jeedom page yor get a php code, activate it by running the following commands :

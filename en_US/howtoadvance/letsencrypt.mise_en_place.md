@@ -57,7 +57,7 @@ are added by the script in Apache.
 > Command **a2dissite default-ssl.conf** Remember to report the code by
 > default below in the virtualHost created by the script
 > renewal :
-> /etc/apache2/sites-available/000-default-le-ssl.conf\`
+> /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
@@ -82,7 +82,7 @@ two HTTPS configuration lines in the nginx configuration :
     vi / etc / nginx / sites-enabled / default
 
 Add the following lines, between the lines `server {` and
-`root /usr/share/nginx/www ;` :
+`root / usr / share / nginx / www;` :
 
     listen 80;
 

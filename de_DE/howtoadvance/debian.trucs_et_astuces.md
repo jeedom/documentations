@@ -154,10 +154,10 @@ ou
 
     Gewähren Sie alle Privilegien auf *.* TO jeedom @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
 
--   Copiez votre sauvegarde dans le dossier `/var/www/html/backup`
+-   Kopieren Sie Ihr Backup in den Ordner `/ var / www / html / backup`
 
 -   Geben Sie die Rechte an www-Daten :
-    `chown -R www-data: /var/www/html/backup/*`
+    `chown -R www-Daten: / var / www / html / backup / * `
 
 -   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration →
     Backups → Lokale Backups : Wählen Sie das richtige Backup
@@ -166,9 +166,9 @@ ou
 -   Warten Sie während der Wiederherstellung
 
 -   Stellen Sie die Rechte an www-Daten auf allen Jeedom wieder her :
-    `chown -R www-data: /var/www/html/`
+    `chown -R www-Daten: / var / www / html / `
 
--   Starten Sie die Box neu : `reboot`
+-   Starten Sie die Box neu : `Neustart`
 
 -   Stellen Sie mit Ihren alten Kennungen über eine Verbindung zu Jeedom her
     Webinterface
@@ -210,7 +210,7 @@ Jeedom Update
 
 Entfernen unnötiger Bibliotheken
 
-    apt -y entferne `aptitude -F% p search '~ o' | grep -E -v ^lib`
+    apt -y entferne `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y entferne `aptitude -F% p search '~ o'`----
 
 Notiz : Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :

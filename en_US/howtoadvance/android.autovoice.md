@@ -89,10 +89,10 @@ enter :
 -   Serveur:Port : `https://mondomain.tld`
 
 -   Path :
-    `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`
+    `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
 Do not forgand to put your API key in place of the chain
-`votreclef`. Il faut bien laisser `%avcommonfilter` à la fin, ce sera
+`yourkey`. You must leave `% avcommonfilter` at the end, it will be
 replaced by the return of Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)

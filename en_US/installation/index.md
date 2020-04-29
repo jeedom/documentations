@@ -153,7 +153,7 @@ Log in with credentials **pi / raspberry**
 
 **7/ Launch the jeedom installation script**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **The sudo notsword is also raspberry**
 
@@ -179,7 +179,7 @@ Then just go to IP \ _MACHINE \ _JEEDOM
 
 If you use your Raspberry for Jeedom without a screen connected, it is recommended to carry the minimum RAM at the video part.
 
-Just log in **SSH** and modify the config file : `sudo nano /boot/config.txt`
+Just log in **SSH** and modify the config file : `sudo nano / boot / config.txt`
 
 Add **and or** De-comment (by removing the #) **and or** Edit the lines :
 
@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Quit by saving : `CTRL+X` puis `O` puis `ENTREE`
+Quit by saving : `CTRL + X` then` O` then `ENTER`
 
 Reboot your RPI
 

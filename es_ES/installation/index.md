@@ -153,7 +153,7 @@ Inicie sesión con credenciales **pi / frambuesa**
 
 **7 / Inicie el script de instalación de jeedom**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **La contraseña de sudo también es frambuesa**
 
@@ -179,7 +179,7 @@ Luego solo vaya a IP \ _MACHINE \ _JEEDOM
 
 Si usa su Raspberry for Jeedom sin una pantalla conectada, se recomienda llevar la RAM mínima en la parte de video.
 
-Solo inicia sesión **SSH** y modificar el archivo de configuración : `sudo nano /boot/config.txt`
+Solo inicia sesión **SSH** y modificar el archivo de configuración : `sudo nano / boot / config.txt`
 
 Agregar **y O** Descomentar (quitando el #) **y O** Edita las lineas :
 
@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Salir guardando : `CTRL+X` puis `O` puis `ENTREE`
+Salir guardando : `CTRL + X` luego` O` luego` ENTER`
 
 Reinicia tu RPI
 

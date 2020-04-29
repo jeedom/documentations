@@ -23,7 +23,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 
 1 /. Öffnen Sie die D.atei plugin_info /. info.json und bearbeiten Sie die.
 
-```
+`` ''
 {
 	"id" : "vdm",
 	"name" : "Kacke das Leben",
@@ -37,7 +37,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 	"language" : "",
 	"compatibility" : ""	
 }
-```
+`` ''
 
 Kopieren Sie den obigen Code und fügen Sie ihn ein.
 
@@ -55,93 +55,93 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
 Remplacer
 
-```
+`` ''
 Klassenvorlage erweitert eqLogic {
-```
+`` ''
 
 par
 
 
-```
+`` ''
 Klasse vdm erweitert eqLogic {
-```
+`` ''
 
 et
 
-```
+`` ''
 Klasse templateCmd erweitert cmd
-```
+`` ''
 
 par
 
-```
+`` ''
 Klasse vdmCmd erweitert cmd
-```
+`` ''
 
 - Benennen Sie die D.atei core /. php /. template.inc um.php to core /. php /. vdm.inc.php
 - Benennen Sie die D.esktop- /. PHP- /. Vorlagendatei um.PHP zu D.esktop /. PHP /. VDM.PHP und öffne es
 
 Remplacer
 
-```
+`` ''
 $plugin = plugin::byId('template');;
-```
+`` ''
 
 Von 
 
-```
+`` ''
 $plugin = plugin::byId(‘vdm');;
-```
+`` ''
 
-```
+`` ''
 {{Fügen Sie eine Vorlage hinzu}}
-```
+`` ''
 
 Von 
 
-```
+`` ''
 {{Ausrüstung hinzufügen}}
-```
+`` ''
 
-```
+`` ''
 <legend>{{Mes templates}}</.legend>
-```
+`` ''
 
 Par
 
-```
+`` ''
 <legend>{{Mes équipement}}</.legend>
-```
+`` ''
 
-```
+`` ''
 {{GeräteName Vorlage}}
-```
+`` ''
 
 Par
 
-```
+`` ''
 {{Name der Ausrüstung }} 
-```
+`` ''
 
-```
+`` ''
 {{Vorlage Vonameter 1}}
-```
+`` ''
 
 Par
 
-```
+`` ''
 {{Einstellungen}}
-```
+`` ''
 
-```
+`` ''
 <?php include_file('desktop', 'template', 'js', 'template');;?>
-```
+`` ''
 
 Par
 
-```
+`` ''
 <?php include_file('desktop', vdm, 'js', vdm);;?>
-```
+`` ''
 
 Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.Vorlage ',' js ');;?>
 
@@ -153,7 +153,7 @@ Et rien d'autre , ne pas changer la ligne <?php include_file ('core', 'plugin.Vo
 
 Und benennen Sie die Funktionen wie folgt um
 
-```
+`` ''
 Funktion vdm_install () {
     
 }
@@ -166,7 +166,7 @@ Funktion vdm_update () {
 Funktion vdm_remove () {
     
 }
-```
+`` ''
 
 Hier ist das Plugin fertig, aber es bleibt die Anpassung und das zu aktualisierende Symbol : [D.okumentation](https:/./.doc.jeedom.com/.fr_FR/.dev/.Icone_de_plugin)
 
@@ -188,37 +188,37 @@ Es ist nicht richtig, weil die Farbe der meisten nicht mit der Farbe des Symbols
 
 Ich öffne die D.esktop /. PHP /. D.esktop-Datei.PHP zu beheben.
 
-```
+`` ''
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center;; background-Farbe : #ffffff;; height : 120px;;margin-bottom : 10px;;padding : 5px;;border-radius: 2px;;width : 160px;;margin-left : 10px;;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;;color:#94ca02;;"></.i>
         <br>
         <span style="font-size : 1.1em;;position:relative;; top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#94ca02">{{Ajouter}}</.span>
       </.div>
-```
+`` ''
 
 Ich ersetze
 
-```
+`` ''
 color:#94ca02;;"
-```
+`` ''
 
 Von 
 
-```
+`` ''
 color:#00A9EC;;"
-```
+`` ''
 
 Wir stellen auch fest, dass die Texte nicht ausgerichtund sind, sodass wir den Stil der Konfiguration korrigieren (Eigenschaft top).
 
-```
+`` ''
 <span style="font-size : 1.1em;;position:relative;; top : 15px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#767676">{{Configuration}}</.span>
-```
+`` ''
 
 Von 
 
-```
+`` ''
 <span style="font-size : 1.1em;;position:relative;;top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#767676">{{Configuration}}</.span>
-```
+`` ''
 
 ![image](images/.tutorial_vdm_desktop2.png)
 
@@ -240,7 +240,7 @@ Derzeit werden weder auf der Befehlsregisterkarte s noch im Widgund Befehle ange
 
 Wir erstellen die 2 Bestellungen
 
-```
+`` ''
 öffentliche Funktion postSave () {
 	$info = $this->getCmd(null, 'story');;
 	if (!is_object ($ info)) {
@@ -264,7 +264,7 @@ Wir erstellen die 2 Bestellungen
 	$refresh->setSubType('other');;
 	$refresh->save();;        
 }
-```
+`` ''
 
 -Créer un autre équipement « vdm2 » en cliquant sur le +. Auf der Registerkarte Befehle wurden die Befehle angezeigt. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein übergeordnetes Objekt aus und sehen Sie, wie es im D.ashboard aussieht.
 
@@ -276,7 +276,7 @@ Auf der Registerkarte Befehle sollten Sie sehen.
 
 Öffnen Sie desktop /. php /. vdm.PHP, um den HTML-Code dieser Tabelle zu finden.
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
 <table Identifikationentifikation="table_cmd" class="table table-bordered table-condensed">
     <thead>
@@ -287,11 +287,11 @@ Auf der Registerkarte Befehle sollten Sie sehen.
     <tbody>
     </.tbody>
 </.table>
-```
+`` ''
 
 Zum Zeitpunkt der Anzeige ist dies das D.esktop /. js /. vdm-Skript.js, das aufgerufen wird und die Funktion addCmdToTable startet.
 
-```
+`` ''
 Funktion addCmdToTable (_cmd) {
     if (!issund (_cmd)) {
         var _cmd = {Konfiguration: {}};;
@@ -323,7 +323,7 @@ Funktion addCmdToTable (_cmd) {
     }
     jeedom.cmd.changeType ($ (&#39;;# table_cmd tbody tr:last &#39;;), init (_cmd.subType));;
 }
-```
+`` ''
 
 Dies erfolgt automatisch. 
 
@@ -331,22 +331,22 @@ Ich möchte die Anzeige- und Protokolloptionen für jede Bestellung hinzufügen.
 
 Ich bearbeite den HTML-Code der Tabelle in der D.esktop-Datei.PHP durch Hinzufügen einer Spalte ..
 
-```
+`` ''
 <th>{{Nom}}</.th><th>{{Type}}</.th><th>{{Configuration}}</.th><th>{{Action}}</.th>
-```
+`` ''
 
 Bearbeiten Sie dann den D.esktop.js, finde
 
-```
+`` ''
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
     if (is_numeric (_cmd.id)) {
-```
+`` ''
 
 Wir fügen die gewünschten Informationen hinzu.
 
-```
+`` ''
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
@@ -355,19 +355,19 @@ Wir fügen die gewünschten Informationen hinzu.
    tr + = ' </.td> ';;		
     tr + = ' <td> ';;
     if (is_numeric (_cmd.id)) {
-```
+`` ''
 
 Ich lasse die Schaltfläche, um eine Bestellung zu erstellen, aber ich möchte, dass sie links ist. 
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
-```
+`` ''
 
 Ich ändere die Klasse Pull-Right in Pull-Left
 
-```
+`` ''
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
-```
+`` ''
 
 Hier ist das Rendering.Die Konfigurationsoptionen (Anzeige und Protokoll) sind vorhanden. 
 
@@ -380,7 +380,7 @@ Hier bleibt es, einen zufälligen vdm wiederherzustellen und die Befehle zu verw
 
 Um zufällig einen vdm abzurufen.
 
-```
+`` ''
 $url = "http:/./.www.viedemerde.fr/.aleatoire";;
 $data = file_get_contents($url);;
 @$dom = new D.OMDocument();;
@@ -390,11 +390,11 @@ libxml_use_internal_errors (true);;
 $xpath = new D.OMXPath($dom);;
 $divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');;
 return $ divs [0] -> nodeValue;;
-```
+`` ''
 
 Öffnen Sie die D.atei core /. class /. vdm.class.php und für die Klasse vdm, die von egLogic-Methoden erbt, erstelle ich eine Funktion randomVdm
 
-```
+`` ''
 	öffentliche Funktion randomVdm () {
 		$url = "http:/./.www.viedemerde.fr/.aleatoire";;
 		$data = file_get_contents($url);;
@@ -406,46 +406,46 @@ return $ divs [0] -> nodeValue;;
 		$divs = $xpath->query('/./.article[@class="art-panel col-xs-12"]/./.div[@class="panel-content"]/./.p/./.a');;
 		return $ divs [0] -> nodeValue;;
 	}
-```	
+`` ''	
 
 Jetzt aktualisieren wir den Info-Befehl (Story) mit diesen Informationen, indem wir den Aktionsbefehl (Aktualisieren) starten.. 
 Immer noch in core /. class /. vdm.class.PHP für die Klasse vdmCmd verwenden wir die Methode execute 
 
-```
+`` ''
 öffentliche Funktion ausführen ($ _ options = array ()) {
 		
         
  }
-```
+`` ''
 
 C'est hier qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». D.ie Klasse vdmCmd hat alle Methoden der Klasse cmd (Core jeedom) geerbt.
 
 On vérifie le logicalIdentifikation de la commande lancée und si « refresh » on lance les actions
 
-```
+`` ''
 switch ($ this-> getLogicalIdentifikation ()) {				
 	Fall 'aktualisieren': /./. LogicalIdentifikation des Aktualisierungsbefehls, den wir in der Postsave-Methode der vdm-Klasse erstellt haben . 
 	/./. Code zum Aktualisieren meiner Bestellung
 	break;;
 }
-```
+`` ''
 
 Jetzt muss noch die Funktion randomVdm () gestartund werden . D.azu rufen wir die eqLogic (Ausrüstung) aus dem Startbefehl ab und starten die Funktion
 
-```
+`` ''
 $eqlogic = $this->getEqLogic();; /./. Récupération de l'eqlogic
 $info = $eqlogic-> randomVdm() ;; /./.Lance la fonction und stocke le résultat dans la variable $info
-```
+`` ''
 
 On mund à jour la commande « story » avec la variable $info. Wir werden die checkAndUpdateCmd-Methode der eqlogic-Klasse verwenden
 
-```
+`` ''
 $eqlogic->checkAndUpdateCmd('story', $info);;
-```
+`` ''
 
 Was am Ende gibt
 
-```
+`` ''
     öffentliche Funktion ausführen ($ _ options = array ()) {
 		$eqlogic = $this->getEqLogic();; /./.récupère l'éqlogic de la commande $this
 		switch ($ this-> getLogicalIdentifikation ()) {/./. überprüfe die logische ID. des Befehls 			
@@ -455,7 +455,7 @@ Was am Ende gibt
 				break;;
 		}
     }
-```
+`` ''
 
 Gehen Sie nun zu einem erstellten Gerät und starten Sie den Befehl Aktualisieren. Puis la commande « Histoire » qui doit être à jour.
 
@@ -486,63 +486,63 @@ In Anbetracht des Plugins werden wir jede Stunde aktualisieren (lasst uns verrü
 
 Wir werden daher die D.atei vdm.class öffnen.PHP und Suche 
 
-```
+`` ''
     /.*
      * Funktion wird automatisch stündlich von Jeedom ausgeführt
       öffentliche statische Funktion CronHourly () {
 
       }
      */.
-```
+`` ''
 
 Kommentieren Sie den Code aus
 
-```
+`` ''
       öffentliche statische Funktion CronHourly () {
 
       }
-```
+`` ''
 
 Unsere Funktion ist betriebsbereit
 
 Jetzt müssen Sie alle Geräte von unserem Plugin wiederherstellen,
 
-```
+`` ''
 self::byType ('vdm') /./. Array, das alle Plugin-Geräte enthält 
-```
+`` ''
 
 und sortiere sie 1 nach 1
 
-```
+`` ''
 foreach (selbst::byType ('vdm') als $ vdm) {
 }
-```
+`` ''
 
 Bevor wir undwas unternehmen, überprüfen wir, ob das Gerät aktiv ist
 
-```
+`` ''
 if ($ vdm-> getIsEnable () == 1) {
 }
-```
+`` ''
 
 Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
-```
+`` ''
 $cmd = $vdm->getCmd(null, 'refresh');;
-```
+`` ''
 
 Wenn es nicht existiert, setzen wir die Schleife (foreach) fort, andernfalls führen wir sie aus
 
-```
+`` ''
 if (!is_object ($ cmd)) {
 continue;;
 }
 $cmd->execCmd();;
-```	
+`` ''	
 
 Was am Ende gibt
 
-```
+`` ''
       öffentliche statische Funktion CronHourly () {
 		  foreach (selbst::byType ('vdm') als $ vdm) {/./. Alle Geräte im vdm-Plugin durchsuchen
 			  if ($ vdm-> getIsEnable () == 1) {/./. überprüfe, ob das Gerät aktiv ist
@@ -554,7 +554,7 @@ Was am Ende gibt
 			  }
 		  }
       }
-```
+`` ''
 
 Pour tester, dans jeedom , aller dans configuration/.moteur de tâches und lancer le cron de class « plugin » fonction « CronHourly »
 Informationen werden aktualisiert.
@@ -567,14 +567,14 @@ Für die Erstellung der Befehle haben wir die postSave () -Methode verwendet. Wi
 
 Der einfachste Weg, da es nur einen Befehl gibt und dieser in postSave erstellt wird
 
-```
+`` ''
     öffentliche Funktion postUpdate () {
 		$cmd = $this->getCmd(null, 'refresh');; /./. On recherche la commande refresh de l'équipement
 		if (is_object ($ cmd)) {/./. es existiert und wir starten den Befehl
 			 $cmd->execCmd();;
 		}
     }
-```    
+`` ''    
 
 Sie müssen testen, es funktioniert?
 
@@ -582,15 +582,15 @@ Hier ist jedoch eine Alternative, die sich in komplexeren Fällen als nützliche
 
 In der Funktion postUpdate () starten wir die Funktion CronHourly () mit der Geräte-ID
 
-```
+`` ''
     öffentliche Funktion postUpdate () {
 		self::CronHourly ($ this-> getIdentifikation ());; /./. Startund die CronHourly-Funktion mit der eqLogic-ID
     }
-``` 
+`` '' 
 
 In diesem Fall ändern wir jedoch die Funktion CronHourly ()
 
-```
+`` ''
 	öffentliche statische Funktion CronHourly ($ _ eqLogic_Identifikation = null) {
 		if ($ _eqLogic_Identifikation == null) {/./. D.ie Funktion hat kein Argument, daher suchen wir nach allen Geräten im Plugin
 			$eqLogics = selbst::byType('vdm', true);;
@@ -608,7 +608,7 @@ In diesem Fall ändern wir jedoch die Funktion CronHourly ()
 			}
 		}
 	}
-```	
+`` ''	
 
 Anschließend können Sie die Häufigkeit des Cron entsprechend der Wichtigkeit der Wiederherstellung Ihrer Informationen ändern.
 
@@ -646,7 +646,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 Dafür öffne ich die D.atei vdm.class.php , fonction postSave() und j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
-```
+`` ''
 		$info = $this->getCmd(null, 'story');;
 		if (!is_object ($ info)) {
 			$info = new vdmCmd();;
@@ -658,7 +658,7 @@ Dafür öffne ich die D.atei vdm.class.php , fonction postSave() und j'ajoute le
 		$info->setTemplate('dashboard','tile');;/./.template pour le dashboard
 		$info->setSubType('string');;
 		$info->save();;
-```
+`` ''
 
 Aktualisieren Sie das D.asboard.
 
@@ -668,19 +668,19 @@ Wir werden daher die Breite des Widgets (Ausrüstung => eqLogic) mit der von der
 
 Fügen Sie dazu einfach hinzu
 
-```
+`` ''
 $this->setDisplay("width","800px");;
-```
+`` ''
 
 Ja aber !! Weil es ein aber gibt. Versuchen Sie, dies in der Funktion postsave () oder postUpdate () hinzuzufügen, ohne die Änderung zu berücksichtigen. Warum ? Lesen Sie das D.okument des Vorlagen-Plugins ==> HIER
 
 Nachdem Sie richtig gelesen haben, wissen Sie, dass Sie die preSave () -Methode verwenden müssen 
 
-```
+`` ''
     öffentliche Funktion preSave () {
 		$this->setDisplay("width","800px");;
     }
-```
+`` ''
 
 Registrieren Sie Geräte und aktualisieren Sie das D.ashboard.
 
@@ -693,31 +693,31 @@ Registrieren Sie Geräte und aktualisieren Sie das D.ashboard.
 
 Im Moment verwenden wir daher 3 Klassen des Kerns der Freiheit : EqLogic, cmd, cron . Gehen Sie für Informationen, Wir fügen ein 4. mit dem Klassen-Plugin in der vdm-Datei.PHP, dass Sie öffnen und offen lassen, weil wir es bearbeiten werden . 
 
-```
+`` ''
 $plugin = plugin::byId('vdm');; /./. appelle la classe plugin du core
-```
+`` ''
 
 Sie müssen verstehen, dass alles getan wird, um unsere Arbeit zu erleichtern. 
 
 Für einen Vonameter /. eine Option innerhalb des Plugins verwenden wir eine der Methoden der Klasse eqLogic des Kerns : setConfiguration () durch Hinzufügen der gewünschten Vonameter. Zum Beispiel :
 
-```
+`` ''
 $this->setConfiguration("type","mon_type");; /./. si on veut  définir un Vonamètre type de valeur mon_type. Comme on a défini la largeur du widgund via la méthode setDisplay()
-```
+`` ''
 
 Um die Auswahl dem Benutzer zu überlassen, kehren wir zur D.esktop-Datei zurück.PHP, die Sie offen gelassen haben, weil Sie diesem TP buchstäblich folgen :D
 
 Suchen 
 
-```
+`` ''
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/.>
-```
+`` ''
 
 Und ersetzen durch
 
-```
+`` ''
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/.> /./.Wichtig de laisser la classe eqLogicAttr 
-```
+`` ''
 
 Speichern Sie und gehen Sie zu einem Plugin-Gerät, das Sie bereits erstellt haben, indem Sie dieser Übung folgen (ggf. aktualisieren).. 
 
@@ -730,33 +730,33 @@ Perfekt ist die Einstellung gespeichert.
 
 Es ist einfach, nein? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . Er macht die ganze Arbeit
 
-```
+`` ''
 <?php include_file ('core', 'plugin.Vorlage ',' js ');;?>/./.Chargement du fichier core/.js/.plugin.template.js (en Vontant de la racine du site)
-```
+`` ''
 
 Wenn Sie sich die D.esktop-Datei genauer ansehen.PHP vor
 
-```
+`` ''
                     <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;;" /.> /./. retourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getId() ;;
-```        
+`` ''        
 
-```
+`` ''
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name der Ausrüstung}}"/.>/./. retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;;
-```
+`` ''
 
 Etc…
 
 Wenn Sie das alles gut verstanden haben, können wir weitermachen. Aber zuerst werden wir die D.atei desktop.php ändern 
 
-```
+`` ''
 <label class="col-sm-3 control-label">{{Paramètre}}</.label>
-```
+`` ''
 
 Von 
 
-```
+`` ''
 <label class="col-sm-3 control-label">{{Type de vdm}}</.label>
-```
+`` ''
 
 Wichtig : D.er Text in geschweiften Klammern entspricht dem Text, der übersetzt wird, wenn Sie das Plugin auf den Markt bringen
 
@@ -770,18 +770,18 @@ On pourrait le laisser taper dans l'input « Type de vdm » : zufällig oder sch
 
 Wenn Sie alles befolgt haben, sollten Sie in der D.atei desktop.php haben
 
-```
+`` ''
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</.label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/.>
         </.div>
     </.div>
-``` 
+`` '' 
 
 Was wir ersetzen werden
 
-```
+`` ''
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</.label>
         <div class="col-sm-3">
@@ -792,7 +792,7 @@ Was wir ersetzen werden
             </.select>
         </.div>
     </.div>
-```
+`` ''
 
 Ici le Vonamètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
@@ -801,18 +801,18 @@ Jetzt werden wir unseren Vonameter in der Funktion randomVdm () in der D.atei vd
 
 Chercher
 
-```
+`` ''
 $url = "http:/./.www.viedemerde.fr/.aleatoire";;
-```
+`` ''
 
 Und ersetzen durch
 
-```
+`` ''
 	$type = $this->getConfiguration("type ");;
 		if ($ type == "") {/./. wenn der Vonameter leer ist oder nicht existiert
 			$type = "aleatoire";; /./.on prends le type aleatoire
 		}		
 		$url = "http:/./.www.viedemerde.fr/." .$type  ;;
-```	
+`` ''	
 
 Ändern Sie nun den Wert der Auswahl auf einem Gerät, speichern Sie und gehen Sie zum D.ashboard, um zu sehen, was es gibt.

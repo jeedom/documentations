@@ -153,7 +153,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 **7 / Starten Sie das Jeedom-Installationsskript**
 
-    wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | Sudo Bash
+``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
 
@@ -179,7 +179,7 @@ Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
 Wenn Sie Ihre Raspberry for Jeedom ohne angeschlossenen Bildschirm verwenden, wird empfohlen, den minimalen Arbeitsspeicher im Videoteil mitzuführen.
 
-Einfach einloggen **SSH** und ändern Sie die Konfigurationsdatei : `sudo nano /boot/config.txt`
+Einfach einloggen **SSH** und ändern Sie die Konfigurationsdatei : `sudo nano / boot / config.txt`
 
 Hinzufügen **und / oder** Kommentar entfernen (durch Entfernen des #) **und / oder** Bearbeiten Sie die Zeilen :
 
@@ -189,7 +189,7 @@ disable_l2cache=0
 gpu_freq=250
 ````
 
-Beenden Sie durch Speichern : `CTRL+X` puis `O` puis `ENTREE`
+Beenden Sie durch Speichern : `STRG + X` dann` O` dann` ENTER`
 
 Starten Sie Ihr RPI neu
 
