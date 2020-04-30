@@ -351,7 +351,7 @@ function getUrlVars(_key) {
       }
     }
   }
-  if (isset(_key)) {
+  if (!_key) {
     return false;
   }
   vars.length = nbVars;
