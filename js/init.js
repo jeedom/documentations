@@ -266,7 +266,7 @@ $(function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
     if(url.indexOf('/core/') != -1 && url.indexOf(getCookie('jeedomVersion')) == -1){
-      window.location.href = window.location.href.replace('3.3',getCookie('jeedomVersion')).replace('4.0',getCookie('jeedomVersion')).replace('4.1',getCookie('jeedomVersion'))
+      window.location.href = url.replace('3.3',getCookie('jeedomVersion')).replace('4.0',getCookie('jeedomVersion')).replace('4.1',getCookie('jeedomVersion'))
       return;
     }
     window.location.reload();
