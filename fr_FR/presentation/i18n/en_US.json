@@ -1,7 +1,7 @@
 {
     "presentation\/index.md": {
         "Présentation": "Presentation",
-        "Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans le cloud)": "Jeedom is an open-source and * cloudless * home automation solution (without server in the cloud)",
+        "Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans le cloud)": "Jeedom is an open-source and *cloudless* home automation solution (without server in the cloud)",
         "Il fonctionne sans abonnement, ce qui permet de garantir le fonctionnement de votre domotique sans internet, ainsi que la sécurité de vos données": "It works without subscription, which guarantees the functioning of your home automation without internet, as well as the security of your data.",
         "Il est également extrêmement ouvert, multi-protocoles, personnalisable, et fortement évolutif": "It is also extremely open, multi-protocol, customizable, and highly scalable",
         "Jeedom propose un noyau, le Core, embarquant la structure et les fonctions centrales": "Jeedom offers a core, the Core, embedding the structure and the central functions",

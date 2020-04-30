@@ -1,6 +1,6 @@
 # Presentation
 
-Jeedom is an open-source and * cloudless * home automation solution (without server in the cloud). It works without subscription, which guarantees the functioning of your home automation without internet, as well as the security of your data.. It is also extremely open, multi-protocol, customizable, and highly scalable.
+Jeedom is an open-source and *cloudless* home automation solution (without server in the cloud). It works without subscription, which guarantees the functioning of your home automation without internet, as well as the security of your data.. It is also extremely open, multi-protocol, customizable, and highly scalable.
 
 Jeedom offers a core, the Core, embedding the structure and the central functions.
 
