@@ -346,12 +346,12 @@ function getUrlVars(_key) {
       hash = hashes[i].split('=');
       nbVars++;
       vars[hash[0]] = hash[1];
-      if (isset(_key) && _key == hash[0]) {
+      if (_key && _key == hash[0]) {
         return hash[1];
       }
     }
   }
-  if (isset(_key)) {
+  if (!_key) {
     return false;
   }
   vars.length = nbVars;
