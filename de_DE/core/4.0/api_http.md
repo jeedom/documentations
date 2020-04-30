@@ -19,7 +19,7 @@ URLs.
 >
 > Für all diese Dokumentationen entspricht \ #API \ _KEY \ # Ihrem Schlüssel
 > API, spezifisch für Ihre Installation. Um es zu finden, müssen Sie zu gehen
-> das Menü &quot;Allgemein&quot; → Registerkarte &quot;Konfiguration&quot; → &quot;Allgemein&quot;.
+> das Menü "Allgemein" → Registerkarte "Konfiguration" → "Allgemein"".
 
 Szenario 
 ========
@@ -31,11 +31,11 @@ Hier ist die URLs =
     Seite des betreffenden Szenarios unter &quot;Extras&quot; → &quot;Szenarien&quot;, sobald die
     ausgewähltes Szenario neben dem Namen der Registerkarte &quot;Allgemein&quot;. andere
     Weg, um es zu finden : Klicken Sie unter &quot;Extras&quot; → &quot;Szenarien&quot; auf
-    &quot;Übersicht&quot;.
+    "Übersicht".
 
 -   **Aktion** : entspricht der Aktion, die Sie anwenden möchten. die
-    verfügbare Bestellungen sind : &quot;Start&quot;, &quot;Stopp&quot;, &quot;Deaktivieren&quot; und
-    &quot;aktivieren&quot; zum Starten, Stoppen, Deaktivieren oder
+    verfügbare Bestellungen sind : "start "," stop "," disable "und
+    "aktivieren "um zu starten, zu stoppen, zu deaktivieren oder
     Aktivieren Sie das Szenario.
 
 -   **Tags** \ [Optional \] : Wenn die Aktion &quot;Start&quot; ist, können Sie überspringen
@@ -47,7 +47,7 @@ Info / Aktionsbefehl
 ====================
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=cmd&Identifikation=\#ID\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=cmd&Identifikation=#ID#)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=cmd&Identifikation=\#ID\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=cmd&Identifikation=#ID#)
 
 -   **Identifikation** : entspricht der ID dessen, was Sie fahren möchten oder von welchem
     Sie möchten Informationen erhalten
@@ -74,14 +74,14 @@ Interaktion
 ===========
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=interact&Abfrage=\#QUERY\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=interact&Abfrage=#QUERY#)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=interact&Abfrage=\#QUERY\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=interact&Abfrage=#QUERY#)
 
 -   **Abfrage** : Frage an Jeedom zu stellen
 
 -   **utf8** \ [Optional \] : teilt Jeedom mit, ob die Abfrage codiert werden soll
     in utf8 bevor Sie versuchen zu antworten
 
--   **emptyReply** \ [Optional \] : 0 für Jeedom, um zu antworten, auch wenn es
+-   **leer Antworten** \ [Optional \] : 0 für Jeedom, um zu antworten, auch wenn es
     habe nicht verstanden, 1 sonst
 
 -   **Profil** \ [Optional \] : BenutzerName der Person
@@ -94,7 +94,7 @@ Nachricht
 =======
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=Nachricht&Kategorie=\#CATEGORY\#&Nachricht=\#MESSAGE\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=Nachricht&Kategorie=#CATEGORY#&Nachricht=#MESSAGE#)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=Nachricht&Kategorie=\#CATEGORY\#&Nachricht=\#MESSAGE\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=Nachricht&Kategorie=#CATEGORY#&Nachricht=#MESSAGE#)
 
 -   **Kategorie** : Nachrichtenkategorie, die dem Nachrichtenzentrum hinzugefügt werden soll
 
@@ -106,7 +106,7 @@ Objekt
 =====
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=object](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=object)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=object](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=object)
 
 Gibt in json die Liste aller Jeedom-Objekte zurück
 
@@ -114,16 +114,16 @@ Ausrüstung
 ==========
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=eqLogic&Objekt \ _Identifikation=\#OBJECT\_ID\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=eqLogic&object_Identifikation=#OBJECT_ID#)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=eqLogic&Objekt \ _Identifikation=\#OBJECT\_ID\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=eqLogic&object_Identifikation=#OBJECT_ID#)
 
 -   **Objekt \ _Identifikation** : ID des Objekts, von dem wir abrufen möchten
     Komfort
 
-bestellen 
+Bestellen 
 ========
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=command&eqLogic \ _Identifikation=\#EQLOGIC\_ID\#](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=command&eqLogic_Identifikation=#EQLOGIC_ID#)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=command&eqLogic \ _Identifikation=\#EQLOGIC\_ID\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=command&eqLogic_Identifikation=#EQLOGIC_ID#)
 
 -   **eqLogic \ _Identifikation** : ID der Ausrüstung, von der wir wiederherstellen möchten
     Befehle
@@ -132,7 +132,7 @@ Vollständige Daten
 =========
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=fullData](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=fullData)
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=fullData](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=fullData)
 
 Gibt alle Objekte, Geräte, Befehle (und deren Wert, falls dies der Fall ist) zurück
 sind infos) in json
@@ -141,7 +141,7 @@ Variable
 ========
 
 Hier ist die URLs =
-[http://\#IP\_JEEDOM\#/jeedom/core/api/jeeApi.php?apikey=\#APIKEY\#&type=variable&Name=\#NAME\#&Wert=](http://#IP_JEEDOM#/jeedom/core/api/jeeApi.php?apikey=#APIKEY#&type=variable&Name=#NAME#&Wert=)*VALUE*
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=variable&Name=\#NAME\#&Wert=](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=variable&Name=#NAME#&Wert=)*VALUE*
 
 -   **Name** : Name der Variablen, deren Wert gewünscht wird (Lesen von
     der Wert)

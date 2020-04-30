@@ -7,7 +7,7 @@ Véritable cerveau de la domotique, les scénarios permettent d’interagir avec
 
 ## Gestion
 
-Vous y trouverez la liste des scénarios de votre Jeedom, ainsi que des fonctions pour les gérer au mieux :
+Vous y trouverez la liste des scénarios de votre Jeedom, ainsi que des fonctionnalités pour les gérer au mieux :
 
 - **Ajouter** : Permet de créer un scénario. La procédure est décrite dans le chapitre suivant.
 - **Désactiver scénarios** : Permet de désactiver tous les scénarios. Rarement utilisé et en connaissance de cause, puisqu'aucun scénario ne s’exécutera plus.
@@ -63,12 +63,12 @@ Avant cela, en haut de page, on retrouve certaines fonctions utiles pour gérer 
 Dans l’onglet **Général**, on retrouve les paramètres principaux du scénario :
 
 - **Nom du scénario** : Le nom de votre scénario.
-- **Nom à afficher** : Le nom utilisé pour son affichage. Facultatif, si il n'est pas renseigné, c'est le nom qui est utilisé.
+- **Nom à afficher** : Le nom utilisé pour son affichage. Facultatif, si il n'est pas renseigné, c'est le nom du scénario qui est utilisé.
 - **Groupe** : Permet d’organiser les scénarios, en les classant dans des groupes (visibles sur la page des scénarios et dans leurs menus contextuels).
-- **Actif** : Permet d’activer le scénario. Si non actif, il ne sera pas exécuté par Jeedom, quelque soit mode de déclenchement.
+- **Actif** : Permet d’activer le scénario. Si non actif, il ne sera pas exécuté par Jeedom, quel que soit le mode de déclenchement.
 - **Visible** : Permet de rendre visible le scénario (Dashboard).
 - **Objet parent** : Affectation à un objet parent. Il sera alors visible ou non selon ce parent.
-- **Timeout en secondes (0 = illimité)** : La durée d’exécution maximale autorisée pour ce scénario. Au delà de ce temps, il est coupé et ne s’exécute plus.
+- **Timeout en secondes (0 = illimité)** : La durée d’exécution maximale autorisée pour ce scénario. Au delà de ce temps, l'exécution du scénario est interrompue.
 - **Multi lancement** : Cochez cette case si vous souhaitez que le scénario puisse être lancé plusieurs fois en même temps.
 - **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable.
 - **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les log du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
@@ -84,14 +84,14 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 
 > **Tip Mode programmé**
 >
-> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuté un scénario toutes les 20 minutes avec  `*/20 * * * * `, ou à 5h du matin pour régler une multitude de chose pour la journée avec `0 5 * * *`. Le ? à droite d'une programmation vous permet de réglé celle-ci sans être un spécialiste de la syntaxe Cron.
+> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuté un scénario toutes les 20 minutes avec  `*/20 * * * * `, ou à 5h du matin pour régler une multitude de choses pour la journée avec `0 5 * * *`. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron.
 
 ### Onglet Scénario
 
 C’est ici que vous allez construire votre scénario. Après la création du scénario, son contenu est vide, il ne fera donc ... rien. Il faut commencer par **ajouter un bloc**, avec le bouton situé à droite. Une fois un bloc créé, vous pourrez y ajouter un autre **bloc** ou une **action**.
 
 Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dans le scénario, l'ajout d'un bloc se fait après le champ dans lequel se situe le curseur de la souris.
-*Par exemple, si vous avez une dizaine de bloc, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après se bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
+*Par exemple, si vous avez une dizaine de blocs, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après se bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
 
 > **Tip**
 >
@@ -193,7 +193,6 @@ Le bloc Code permet d’exécuter du code php. Il est donc très puissant mais n
 #### Bloc Commentaire
 
 Le Bloc commentaire agît différemment quand il est masqué. Ses boutons sur la gauche disparaissent ainsi que le titre du bloc, et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.
-
 Ceci permet d'utiliser ce bloc comme séparation purement visuel au sein du scénario.
 
 ### Les Actions
@@ -209,7 +208,7 @@ Les actions ajoutées dans les blocs ont plusieurs options :
 
 > **Tip**
 >
-> Suivant la commande sélectionnée, on peut voir apparaître différents champs supplémentaires s’afficher.
+> Suivant la commande sélectionnée, on peut voir d'afficher différents champs supplémentaires.
 
 ## Les substitutions possibles
 
@@ -256,19 +255,19 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
 > Pour avoir les zéros initiaux à l’affichage, il faut utiliser la fonction Date(). Voir [ici](http://php.net/manual/fr/function.date.php).
 
 - #seconde# : Seconde courante (sans les zéros initiaux, ex : 6 pour 08:07:06).
-- #heure# : Heure courante au format 24h (sans les zéros initiaux). Ex : 8 pour 08:07:06 ou 17 pour 17:15.
-- #heure12# : Heure courante au format 12h (sans les zéros initiaux). Ex : 8 pour 08:07:06.
+- #hour# : Heure courante au format 24h (sans les zéros initiaux). Ex : 8 pour 08:07:06 ou 17 pour 17:15.
+- #hour12# : Heure courante au format 12h (sans les zéros initiaux). Ex : 8 pour 08:07:06.
 - #minute# : Minute courante (sans les zéros initiaux). Ex : 7 pour 08:07:06.
-- #jour# : Jour courant (sans les zéros initiaux). Ex : 6 pour 06/07/2017.
-- #mois# : Mois courant (sans les zéros initiaux). Ex : 7 pour 06/07/2017.
-- #annee# : Année courante.
+- #day# : Jour courant (sans les zéros initiaux). Ex : 6 pour 06/07/2017.
+- #month# : Mois courant (sans les zéros initiaux). Ex : 7 pour 06/07/2017.
+- #year# : Année courante.
 - #time# : Heure et minute courante. Ex : 1715 pour 17h15.
 - #timestamp# : Nombre de secondes depuis le 1er janvier 1970.
 - #date# : Jour et mois. Attention, le premier nombre est le mois. Ex : 1215 pour le 15 décembre.
-- #semaine# : Numéro de la semaine.
-- #sjour# : Nom du jour de la semaine. Ex : Samedi.
-- #njour# : Numéro du jour de 0 (dimanche) à 6 (samedi).
-- #smois# : Nom du mois. Ex : Janvier.
+- #week# : Numéro de la semaine.
+- #sday# : Nom du jour de la semaine. Ex : Samedi.
+- #nday# : Numéro du jour de 0 (dimanche) à 6 (samedi).
+- #smonth# : Nom du mois. Ex : Janvier.
 - #IP# : IP interne de Jeedom.
 - #hostname# : Nom de la machine Jeedom.
 - #trigger# (deprecié, mieux vaut utiliser trigger()) : Peut être le nom de la commande qui a déclenché le scénario :
@@ -373,11 +372,11 @@ Voici des exemples pratiques pour comprendre les valeurs retournées par ces dif
 |--------------------------------------|--------------------------------------|
 | average(prise,période)             | Renvoie la moyenne des 0 et 1 (peut  |
 |                                      | être influencée par le polling)      |
-| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie la moyenne de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
+| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie la moyenne de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
 | min(prise,période)                 | Renvoie 0 : la prise a bien été éteinte dans la période              |
-| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le minimum de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
+| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le minimum de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
 | max(prise,période)                 | Renvoie 1 : la prise a bien été allumée dans la période              |
-| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le maximum de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
+| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le maximum de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
 | duration(prise,1,période)          | Renvoie 60 : la prise était allumée (à 1) pendant 60 minutes dans la période                              |
 | durationBetween(\#[Salon][Prise][Etat]\#,0,Last Monday,Now)   | Renvoie la durée en minutes pendant laquelle la prise était éteinte depuis lundi dernier.                |
 | statistics(prise,count,période)    | Renvoie 8 : il y a eu 8 remontées d’état dans la période               |
@@ -403,11 +402,13 @@ Voici des exemples pratiques pour comprendre les valeurs retournées par ces dif
 
 ### Les fonctions mathématiques
 
-Une boîte à outils de fonctions génériques peut également servir à effectuer des conversions ou des calculs :
+Une boîte à outils de fonctions génériques peut également servir à effectuer des conversions
+
+ou des calculs :
 
 - `rand(1,10)` : Donne un nombre aléatoire de 1 à 10.
 - `randText(texte1;texte2;texte…​..)` : Permet de retourner un des textes aléatoirement (séparer les texte par un ; ). Il n’y a pas de limite dans le nombre de texte.
-- `randomColor(min,max)` : Donne une couleur aléatoire compris entre 2 bornes ( 0 => rouge, 50 => vert, 100 => bleu).
+- `randomColor(min,max)` : Donne une couleur aléatoire comprise entre 2 bornes ( 0 => rouge, 50 => vert, 100 => bleu).
 - `trigger(commande)` : Permet de connaître le déclencheur du scénario ou de savoir si c’est bien la commande passée en paramètre qui a déclenché le scénario.
 - `triggerValue(commande)` : Permet de connaître la valeur du déclencheur du scénario.
 - `round(valeur,[decimal])` : Donne un arrondi au-dessus, [decimal] nombre de décimales après la virgule.
@@ -416,7 +417,7 @@ Une boîte à outils de fonctions génériques peut également servir à effectu
 - `avg(commande1,commande2…​.commandeN) `: Renvoie la moyenne des valeurs.
 - `time_op(time,value)` : Permet de faire des opérations sur le temps, avec time=temps (ex : 1530) et value=valeur à ajouter ou à soustraire en minutes.
 - `time_between(time,start,end)` : Permet de tester si un temps est entre deux valeurs avec `time=temps` (ex : 1530), `start=temps`, `end=temps`. Les valeurs start et end peuvent être à cheval sur minuit.
-- `time_diff(date1,date1[,format])` : Permet de connaître la différence entre 2 dates (les dates doivent être au format AAAA/MM/JJ HH:MM:SS). Par défaut (si vous ne mettez rien pour format), la méthode retourne le nombre total de jours. Vous pouvez lui demander en secondes (s), minutes (m), heures (h). Exemple en secondes `time_diff(2018-02-02 14:55:00,2018-02-25 14:55:00,s)`
+- `time_diff(date1,date2[,format, round])` : Permet de connaître la différence entre deux dates (les dates doivent être au format AAAA/MM/JJ HH:MM:SS). Par défaut, la méthode retourne la différence en jour(s). Vous pouvez lui demander en secondes (s), minutes (m), heures (h). Exemple en secondes `time_diff(2019-02-02 14:55:00,2019-02-25 14:55:00,s)`. La différence est retournée en absolu, sauf si vous spécifiez `f` (sf, mf, hf, df). Vous pouvez aussi utiliser `dhms` qui retournera pas exemple `7j 2h 5min 46s`. Le paramètre round, optionnel, arrondi à x chiffres après la virgule (2 par défaut). Ex: `time_diff(2020-02-21 20:55:28,2020-02-28 23:01:14,df, 4)`.
 - `formatTime(time)` : Permet de formater le retour d’une chaine `#time#`.
 - `floor(time/60)` : Permet de convertir des secondes en minutes, ou des minutes en heures (floor(time/3600) pour des secondes en heures).
 - `convertDuration(secondes)` : Permet de convertir des secondes en j/h/mn/s.
@@ -463,7 +464,7 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
 - **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
 - **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
-- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne marchera pas. Il faut du HTTP ou HTTPS signé.
+- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé.
 - **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A du scénario.
 - **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
 - **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).
@@ -496,7 +497,7 @@ Etant donné que d’un Jeedom à l’autre ou d’une installation à une autre
 
 > **IMPORTANT**
 >
-> L'ajout de fonction PHP est réservé aux utilisateurs avancés. La moindre erreur peut être fatal pour votre Jeedom.
+> L'ajout de fonction PHP est réservé aux utilisateurs avancés. La moindre erreur peut être fatale pour votre Jeedom.
 
 #### Mise en place
 
@@ -504,8 +505,8 @@ Aller dans la configuration de Jeedom, puis OS/DB et lancer l'éditeur de fichie
 
 Allez dans le dossier data puis php et cliquez sur le fichier user.function.class.php.
 
-C'est dans cette class que vous pouvez ajouter vos fonctions, vous y trouverez un exemple de fonction basique.
+C'est dans cette *classe* que vous pouvez ajouter vos fonctions, vous y trouverez un exemple de fonction basique.
 
 > **IMPORTANT**
 >
-> Si vous avez un soucis vous pouvez toujours revenir au fichier d'origine en copiant le contenu de user.function.class.sample.php dans user.function.class.php
+> Si vous avez un souci, vous pouvez toujours revenir au fichier d'origine en copiant le contenu de user.function.class.sample.php dans user.function.class.php
