@@ -152,7 +152,7 @@ var docMenu = [
   
 ]
 
-if(getUrlVars('theme') !== false){
+if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
   setCookie('theme',getUrlVars('theme'),7)
 }
 
