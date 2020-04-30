@@ -1,5 +1,4 @@
-Présentation
-===
+# Présentation
 
 Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans le cloud). Il fonctionne sans abonnement, ce qui permet de garantir le fonctionnement de votre domotique sans internet, ainsi que la sécurité de vos données. Il est également extrêmement ouvert, multi-protocoles, personnalisable, et fortement évolutif.
 
@@ -9,7 +8,7 @@ Différents (plugins)[https://market.jeedom.com] peuvent alors proposer de nouve
 
 Le Core comprend notamment:
 
-- L'accès au Dashboard ou à la Synthèse.
+## L'accès au Dashboard ou à la Synthèse.
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
@@ -17,31 +16,28 @@ Le Core comprend notamment:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
-- Un moteur de scénario particulièrement complet.
+## L'historisation des informations.
 
-Les scénarios sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.
-
-![Page Scénario](images/doc-presentation-scenario.jpg)
-
-- L'historisation des informations.
-
-Toutes les informations sont historisables, et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.
+*Toutes les informations sont historisables, et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
-- Un moteur d'interactions.
+## Un moteur de scénario particulièrement complet.
+
+*Les scénarios sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
+
+![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Un moteur d'interactions.
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-- La gestion des mise à jours (Core et Plugins) et des sauvegardes.
+## La gestion des mise à jours (Core et Plugins) et des sauvegardes (locales, externes, cloud).
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
-![Page Sauvegarde](images/doc-presentation-sauvegarde.jpg)
 
-
-Market
-===
+# Market
 
 Autour de ce noyau viennent se greffer des plugins, qui peuvent être de toutes sortes :
 
@@ -61,8 +57,7 @@ Jeedom permet à n’importe quel plugin de discuter avec un autre sur une base 
 
 
 
-Liens
-===
+# Liens
 
 Plusieurs tutoriels vidéo ont été réalisés afin de montrer les fonctionnalités importantes de Jeedom, faciliter son utilisation et familiariser l’utilisateur avec le logiciel.
 
