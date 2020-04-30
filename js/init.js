@@ -161,9 +161,21 @@ setTheme();
 $('#ul_menu').empty();
 var html = '';
 var lang = 'fr_FR' ;
-if(getCookie('lang') != ''){
+if(window.location.href.indexOf('fr_FR') != -1){
+  lang = 'fr_FR'
+}else if(window.location.href.indexOf('en_US') != -1){
+  lang = 'en_US'
+}else if(window.location.href.indexOf('es_ES') != -1){
+  lang = 'es_ES'
+}else if(window.location.href.indexOf('de_DE') != -1){
+  lang = 'de_DE'
+}else if(getCookie('lang') != ''){
   lang = getCookie('lang');
 }
+if(getCookie('lang') != lang){
+  setCookie('lang',lang,7)
+}
+
 $('#meta-lang').attr('content',lang)
 var jeedomVersion = '3.3'
 if(window.location.href.indexOf('3.3') != -1){
@@ -180,10 +192,6 @@ if(getCookie('jeedomVersion') != jeedomVersion){
 }
 if($('#sel_jeedomVersion').val() != jeedomVersion){
   $('#sel_jeedomVersion').val(jeedomVersion);
-}
-if(window.location.href.indexOf(lang) == -1){
-  var url = window.location.href.replace('fr_FR',lang).replace('en_US',lang).replace('es_ES',lang).replace('de_DE',lang);
-  window.location.href = url;
 }
 $('#sel_lang').val(lang);
 for(var i in docMenu){
