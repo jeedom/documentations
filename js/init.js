@@ -149,7 +149,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/documentations/#LANG#/legal_notice"
   }
-
+  
 ]
 
 setTheme();
@@ -231,7 +231,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-
+  
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -246,31 +246,32 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-
+  
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-
+  
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-
+  
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
     if(url.indexOf('/core/') != -1 && url.indexOf(getCookie('jeedomVersion')) == -1){
       window.location.href = window.location.href.replace('3.3',getCookie('jeedomVersion')).replace('4.0',getCookie('jeedomVersion')).replace('4.1',getCookie('jeedomVersion'))
+      return;
     }
     window.location.reload();
   })
-
+  
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   $('#div_content a:not([href=""]):not([href="#"])').attr('target','_blank');
@@ -355,3 +356,4 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
+  
