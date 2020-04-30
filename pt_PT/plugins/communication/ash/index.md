@@ -6,7 +6,7 @@
 
 > ****
 >
-> . :?v=d&p=profils#services)
+> . Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > ****
 >
@@ -24,7 +24,7 @@
 
 ## 
 
-:.
+Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.
 
 > ****
 >
@@ -43,7 +43,7 @@
 
 > ****
 >
-> . . :.
+> . . Vous pouvez voir [ici](https://jeedom.github.
 
 .
 

@@ -1,3 +1,7 @@
+# 30/04/2020
+
+- Correction d'un bug sur la synchronisation des équipements
+
 # 29/04/2020
 
 - Correction de bugs

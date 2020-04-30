@@ -1,7 +1,11 @@
-# 
+# 29/04/2020
 
 - Correcciones de errores
-- 
+
+# 28/04/2020
+
+- Correcciones de errores
+- Optimización miscelánea
 
 # 23/01/2020
 

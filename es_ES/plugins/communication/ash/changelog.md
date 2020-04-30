@@ -1,3 +1,5 @@
+# 
+
 - 
 - Soporte de obturador mejorado
 - Interfaz mejorada

@@ -6,7 +6,7 @@ It can operate through a cloud service provided by Jeedom.
 
 > **Important**
 >
-> The plugin requires a subscription to voice services. You can manage your subscription [here] (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> The plugin requires a subscription to voice services. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > **Important**
 >
@@ -24,7 +24,7 @@ After installing the plugin, you just need to go to the configuration part of th
 
 ## Alexa configuration
 
-Once the service is active, you must on the Alexa application or on the [website] (https://alexa.amazon.fr/spa/index.html) go to the skill part and search for the Jeedom skill then activate it, there it will ask you for identifiers you must put those from the market (be careful to put your market identifiers and not those of your Jeedom)
+Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.html) go to the skill part and search for the Jeedom skill then activate it, there it will ask you for identifiers you must put those from the market (be careful to put your market identifiers and not those of your Jeedom)
 
 > **Important**
 >
@@ -43,7 +43,7 @@ On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment sect
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here] (https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) explanations on generic credits
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. Vous pouvez voir [ici](https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) explanations on generic credits
 
 You can also create scenes in the scene tab, with input and output actions.
 

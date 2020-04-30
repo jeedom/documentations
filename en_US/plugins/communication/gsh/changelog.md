@@ -1,7 +1,11 @@
-# 
+# 04/29/2020
 
 - Bugfix
-- 
+
+# 04/28/2020
+
+- Bugfix
+- Miscellaneous optimization
 
 # 01/23/2020
 

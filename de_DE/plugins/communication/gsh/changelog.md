@@ -1,7 +1,11 @@
-# 
+# 29.04.2020
 
 - Fehlerbehebungen
-- 
+
+# 28.04.2020
+
+- Fehlerbehebungen
+- Sonstige Optimierung
 
 # 23.01.2020
 

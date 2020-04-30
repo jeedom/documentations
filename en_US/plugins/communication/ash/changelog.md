@@ -1,7 +1,9 @@
-- 
+# 
+
+- Fixed a problem with lighting the lamps
 - Improved shutter support
 - Improved interface
-- 
+- Modes are now handled
 
 # 01/23/2020
 

@@ -11,7 +11,7 @@ It can work in 2 ways :
 
 > **Important**
 >
-> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). You can manage your subscription [here](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > **Important**
 >
@@ -23,11 +23,11 @@ It can work in 2 ways :
 
 # Cloud mode
 
-> **Important**
+> **IMPORTANT**
 >
 > It is important to do the following steps in the order listed !!!
 
-> **Important**
+> **IMPORTANT**
 >
 > If you have an error message telling you that your user password or not is not correct you must :
 > - check that Amazon Alexa is active in the market
@@ -70,25 +70,25 @@ In plugin -> communication -> Google Smarthome you can configure your different 
 >- Link Jeedom Smarthome in Google Home
 
 
-> **Important**
+> **IMPORTANT**
 >
 >Any modification to the configuration of the equipment sent to Google Home (addition of equipment, deletion of equipment, change of a generic order type) necessarily requires going to Plugin -> Communication -> Googme Smarthome then save
 
 # Standalone mode
 
-> **Important**
+> **IMPORTANT**
 >
 > If you have used cloud mode you should not do this part !!! Go directly to the chapter "Plugin configuration"
 
-> **Important**
+> **IMPORTANT**
 >
 > Standalone mode is a "scam" because it makes you create an application at Google in development mode which allows synchronization only for 3 days after activation of test mode. So when adding or modifying equipment, reactivate the test mode every 3 days to be able to synchronize. Attention we are talking about a modification of the configuration if you do not add or modify equipment there is nothing to do the application will work without time limit
 
-> **Important**
+> **IMPORTANT**
 >
 > Since the application is a dev application on the Google side, they can cut it, delete it or change the rules at any time.. In this case Jeedom cannot be held responsible in the event of a malfunction..
 
-> **Important**
+> **IMPORTANT**
 >
 > For the application (s) to work, it is essential that your jeedom is in https with a valid certificate (if you have a service pack, DNS access is there for that)
 
@@ -101,7 +101,7 @@ There are therefore 2 applications listed on Google : one for the Google Smartho
 
 ## Google Smarthome app
 
-Allez [ici](https://console.actions.google.com) then click on "Add / import project"
+Come on [here](https://console.actions.google.com) then click on "Add / import project"
 
 ![gsh](../images/gsh7.png)
 
@@ -170,7 +170,7 @@ Write "Toto" then do "Save" :
 
 ![gsh](../images/gsh20.png)
 
-Il faut maintenant configuré la clef API homegraph, pour cela allez [ici](https://console.developers.google.com / apis / dashboard), then right click on "Library" :
+Now configure the homegraph API key, for that go [here](https://console.developers.google.com/apis/dashboard), then right click on "Library" :
 
 ![gsh](../images/gsh21.png)
 
@@ -200,7 +200,7 @@ Click on "Create identifiers" then on "API key" :
 
 Copy the API key generated and paste it on the Google Smarthome plugin management page in "Google API Homegraph"
 
-Derniere étape à faire donner l'id projet à Jeedom pour la gestion de la connexion, allez [ici](https://console.actions.google.com) then click on your project. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", the project id is between project / and / overview, in the example here it is" myproject-31023 ", copy this id on the management page the Google Smarthome plugin in "Smarthome Project ID".
+Last step to give Jeedom the project id to manage the connection, go [here](https://console.actions.google.com) then click on your project. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", the project id is between project / and / overview, in the example here it is" myproject-31023 ", copy this id on the management page the Google Smarthome plugin in "Smarthome Project ID".
 
 Here you can now click on the left on "Action" :
 
@@ -218,7 +218,7 @@ JWT allows you to automatically report any change in the status of an item of eq
 
 To make the configuration you need
 
-* aller [ici](https://console.developers.google.com / iam-admin / serviceaccounts), if Google asks you to choose the project (the one created just above).
+* go [here](https://console.developers.google.com/iam-admin/serviceaccounts), if Google asks you to choose the project (the one created just above).
 * Click on create a service account
   * Give it a name (you can put whatever you want, avoid)
   * Recover the generated email just below to copy it into the configuration of the plugin on Jeedom (fields : Customer Mail (JWT))
@@ -235,7 +235,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 
 ![gsh](../images/gsh2.png)
 
-> **Important**
+> **IMPORTANT**
 >
 > The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.
 
@@ -264,7 +264,7 @@ On equipment you can configure :
 
 The types of equipment are important this allows Google to react according to the sentences you say.
 
-> **Important**
+> **IMPORTANT**
 >
 > Jeedom support for "beta" types not yet documented at Google so that may or may not work depending on updates at google
 
@@ -293,7 +293,7 @@ You can also create scenes in the scene tab, with input and output actions.
 
 > **NOTE**
 >
-> When saving Jeedom will automatically request synchronization with Google. Attention en mode standalone si vous avez une erreur (type "Requested entity was not found") essayez de réactiver le test de l'application ([ici](https://console.actions.google.com)) then click again on the connection button on the page the plugin configuration page. Also check the configuration (especially the oauth part) of your google application (sometimes the fields are cleared by Google)
+> When saving Jeedom will automatically request synchronization with Google. Attention in standalone mode if you have an error (type "Requested entity was not found") try to reactivate the test of the application ([here](https://console.actions.google.com)) then click again on the connection button on the page the plugin configuration page. Also check the configuration (especially the oauth part) of your google application (sometimes the fields are cleared by Google)
 
 All you have to do is assign the equipment to the rooms in the Google Home app
 
@@ -314,7 +314,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**What are the possible orders ?**
 >
->Les commandes vocales (ainsi que les retours) sont gérés uniquement pas Google, voila la [documentation](https://support.google.com/googlehome/answer/7073578?hl = fr)
+>Voice commands (as well as returns) are managed only by Google, here is the [Documentation](https://support.google.com/googlehome/answer/7073578?hl=fr)
 
 >**The assistant asks me to assign the parts but I don't know what the equipment corresponds to.**
 >
@@ -331,7 +331,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >**I get the error message "Cant find resource 404" when saving**
 >
 >So no worries everything is saved, it's just automatic synchronization that is not done. To make it say "Synchronize my devices" to your assistant. To try to correct this concern :
-> allez sur la page suivante [ici](https://console.cloud.google.com/cloud-resource-manager). On this page you will see the list of all projects even those invisible on the google actions page. Delete all unused projects.
+> go to the next page [here](https://console.cloud.google.com/cloud-resource-manager). On this page you will see the list of all projects even those invisible on the google actions page. Delete all unused projects.
 > Then redo the tutorial from the step configure the API Homegraph key (activation, generation of key, then dissociate jeedom from your google account and redo the link)
 
 

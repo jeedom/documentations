@@ -1,3 +1,7 @@
+# 30/04/2020
+
+- Correction d'un soucis sur la commande descente des volets
+
 # 28/04/2020
 
 - Correction d'un soucis sur l'allumage des lampes

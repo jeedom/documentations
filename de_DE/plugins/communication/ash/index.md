@@ -6,7 +6,7 @@ Es kann über einen Cloud-Dienst von Jeedom betrieben werden.
 
 > **Wichtig**
 >
-> Das Plugin erfordert ein Abonnement für Sprachdienste. Sie können Ihr Abonnement [hier] verwalten (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Das Plugin erfordert ein Abonnement für Sprachdienste. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > **Wichtig**
 >
@@ -24,7 +24,7 @@ Nach der Installation des Plugins müssen Sie nur zum Konfigurationsteil des Plu
 
 ## Alexa Konfiguration
 
-Sobald der Dienst aktiv ist, müssen Sie in der Alexa-Anwendung oder auf der [Website] (https://alexa.amazon.fr/spa/index.html) Gehen Sie zum Skill-Teil und suchen Sie nach dem Jeedom-Skill. Aktivieren Sie ihn dann. Dort werden Sie nach Kennungen gefragt, die Sie vom Markt nehmen müssen (achten Sie darauf, dass Sie Ihre Marktkennungen und nicht die Ihrer Jeedom-Kennungen eingeben).
+Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.html) Gehen Sie zum Skill-Teil und suchen Sie nach dem Jeedom-Skill. Aktivieren Sie ihn dann. Dort werden Sie nach Kennungen gefragt, die Sie vom Markt nehmen müssen (achten Sie darauf, dass Sie Ihre Marktkennungen und nicht die Ihrer Jeedom-Kennungen eingeben).
 
 > **Wichtig**
 >
@@ -43,7 +43,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie i
 
 > **Wichtig**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können [hier] sehen (https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) Erklärungen zu generischen Credits
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Vous pouvez voir [ici](https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) Erklärungen zu generischen Credits
 
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
 

@@ -9,25 +9,25 @@ Es kann auf zwei Arten funktionieren :
 - Standalone : Sie erstellen die Anwendungen im Entwicklungsmodus auf der Google-Seite und verbinden dann Ihr Jeedom mit dem Google-Dienst
 - Wolke : über einen Wolke-Service von Jeedom
 
-> **Wichtig**
+> **Important**
 >
-> Für den Wolke-Modus ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins).. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Für den Wolke-Modus ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins).. Sie können Ihr Abonnement verwalten [hier](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-> **Wichtig**
+> **Important**
 >
 > Welchen Modus Sie auch verwenden, Sie MÜSSEN ABSOLUT auf Ihr Jeedom in HTTPS zugreifen können (das Plugin funktioniert nicht in HTTP).
 
-> **Wichtig**
+> **Important**
 >
 > Das Plugin unterstützt keine Geräte mit Doppelfunktionen (2 Ausgänge als bestimmtes zwave Fibaro-Modul). Sie müssen unbedingt 2 virtuelle durchlaufen, um es aufzuschlüsseln.
 
 # Wolke-Modus
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Es ist wichtig, die folgenden Schritte in der angegebenen Reihenfolge auszuführen !!!
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass Ihr Benutzerkennwort nicht korrekt ist oder nicht, müssen Sie dies tun :
 > - Überprüfen Sie, ob Amazon Alexa auf dem Markt aktiv ist
@@ -60,7 +60,7 @@ Füllen Sie es in Ihre Marktkennungen aus (nun, diese Märkte, nicht die Ihres J
 
 Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen Geräte konfigurieren (siehe Kapitel Konfiguration des Plugins).
 
->**Notiz**
+>**NOTE**
 >
 >Um vom Standalone-Modus in den Wolke-Modus zu wechseln, müssen Sie :
 >- Im Plugin in die Wolke gehen und dann speichern
@@ -70,25 +70,25 @@ Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen
 >- Verknüpfen Sie Jeedom Smarthome in Google Home
 
 
-> **Wichtig**
+> **IMPORTANT**
 >
 >Für jede Änderung der Konfiguration der an Google Home gesendeten Geräte (Hinzufügen von Geräten, Löschen von Geräten, Ändern eines generischen Auftragstyps) muss dann unbedingt Plugin -> Kommunikation -> Googme Smarthome aufgerufen werden speichern
 
 # Standalone-Modus
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Wenn Sie den Wolke-Modus verwendet haben, sollten Sie diesen Teil nicht ausführen !!! Gehen Sie direkt zum Kapitel "Plugin-Konfiguration"
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Der Standalone-Modus ist ein "Betrug", da Sie bei Google im Entwicklungsmodus eine Anwendung erstellen, die die Synchronisierung nur für 3 Tage nach Aktivierung des Testmodus ermöglicht. Wenn Sie also Geräte hinzufügen oder ändern, aktivieren Sie den Testmodus alle 3 Tage erneut, um eine Synchronisierung durchführen zu können. Achtung, wir sprechen von einer Änderung der Konfiguration, wenn Sie keine Geräte hinzufügen oder ändern. Es gibt nichts zu tun. Die Anwendung funktioniert ohne zeitliche Begrenzung
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Da es sich bei der Anwendung um eine Entwickleranwendung auf der Google-Seite handelt, können sie diese jederzeit ausschneiden, löschen oder die Regeln ändern.. In diesem Fall kann Jeedom im Falle einer Fehlfunktion nicht zur Verantwortung gezogen werden..
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Damit die Anwendung (en) funktionieren, ist es wichtig, dass sich Ihre Jeedom in https mit einem gültigen Zertifikat befindet (wenn Sie ein Service Pack haben, ist dafür ein DNS-Zugriff vorhanden).
 
@@ -101,7 +101,7 @@ Es sind daher 2 Anwendungen bei Google gelistet : eine für den Google Smarthome
 
 ## Google Smarthome App
 
-Allez [ici](https://console.actions.google.com) und dann auf "Projekt hinzufügen / importieren" klicken"
+Komm schon [hier](https://console.actions.google.com) Klicken Sie dann auf "Projekt hinzufügen / importieren""
 
 ![gsh](../images/gsh7.png)
 
@@ -154,7 +154,7 @@ Füllen Sie dann die 4 Felder gemäß der Plugin-Konfigurationsseite aus und kli
 
 ![gsh](../images/gsh18.png)
 
-> **Notiz**
+> **NOTE**
 >
 > Die Felder sind :
 > - Client-ID zuerst
@@ -170,11 +170,11 @@ Schreiben Sie "Toto" und dann "Speichern"" :
 
 ![gsh](../images/gsh20.png)
 
-Il faut maintenant configuré la clef API homegraph, pour cela allez [ici](https://console.developers.google.com / apis / dashboard), dann klicken Sie mit der rechten Maustaste auf "Bibliothek" :
+Konfigurieren Sie nun den Homegraph-API-Schlüssel [hier](https://console.developers.google.com/apis/dashboard), Klicken Sie dann mit der rechten Maustaste auf "Bibliothek" :
 
 ![gsh](../images/gsh21.png)
 
-> **Notiz**
+> **NOTE**
 >
 > Wenn Sie kein Projekt haben, müssen Sie eines erstellen
 
@@ -200,7 +200,7 @@ Klicken Sie auf "Kennungen erstellen" und dann auf "API-Schlüssel"" :
 
 Kopieren Sie den generierten API-Schlüssel und fügen Sie ihn auf der Verwaltungsseite des Google Smarthome-Plugins in "Google API Homegraph" ein"
 
-Derniere étape à faire donner l'id projet à Jeedom pour la gestion de la connexion, allez [ici](https://console.actions.google.com) dann klicken Sie auf Ihr Projekt. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / summary ", die Projekt-ID befindet sich zwischen project / und / summary. Im Beispiel hier ist es" myproject-31023 ". Kopieren Sie diese ID auf die Verwaltungsseite das Google Smarthome-Plugin in "Smarthome Project ID".
+Der letzte Schritt, um Jeedom die Projekt-ID zum Verwalten der Verbindung zu geben, ist [hier](https://console.actions.google.com) Klicken Sie dann auf Ihr Projekt. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / summary ", die Projekt-ID befindet sich zwischen project / und / summary. Im Beispiel hier ist es" myproject-31023 ". Kopieren Sie diese ID auf die Verwaltungsseite das Google Smarthome-Plugin in "Smarthome Project ID".
 
 Hier können Sie jetzt links auf "Aktion" klicken" :
 
@@ -210,7 +210,7 @@ Dann auf Test :
 
 ![gsh](../images/gsh28.png)
 
-Dann brauchen Sie auf einem Smartphone **Androide** (darf nicht auf einem iPhone funktionieren) Verbinden Sie sich mit Ihrem Jeedom über **die externe URL** davon. Gehen Sie dann zur Heimanwendung, dann "Konfigurieren oder Hinzufügen", dann "Gerät konfigurieren" und klicken Sie schließlich auf "Funktioniert mit Google" und fügen Sie Ihren oben erstellten Dienst hinzu (er beginnt mit [Test]).
+Dann brauchen Sie auf einem Smartphone **android** (darf nicht auf einem iPhone funktionieren) Verbinden Sie sich mit Ihrem Jeedom über **die externe URL** davon. Gehen Sie dann zur Heimanwendung, dann "Konfigurieren oder Hinzufügen", dann "Gerät konfigurieren" und klicken Sie schließlich auf "Funktioniert mit Google" und fügen Sie Ihren oben erstellten Dienst hinzu (er beginnt mit [Test]).
 
 ## JWT-Konfiguration
 
@@ -218,7 +218,7 @@ Mit JWT können Sie jede Änderung des STATUS eines an Google gesendeten Geräts
 
 Um die Konfiguration vorzunehmen, die Sie benötigen
 
-* aller [ici](https://console.developers.google.com / iam-admin / serviceaccounts), wenn Google Sie auffordert, das Projekt auszuwählen (das oben erstellte).
+* geh [hier](https://console.developers.google.com/iam-admin/serviceaccounts), wenn Google Sie auffordert, das Projekt auszuwählen (das oben erstellte).
 * Klicken Sie auf Dienstkonto erstellen
   * Geben Sie ihm einen Namen (Sie können setzen, was Sie wollen, vermeiden)
   * Stellen Sie die generierte E-Mail direkt unten wieder her, um sie in die Konfiguration des Plugins auf Jeedom (Felder) zu kopieren : Kundenpost (JWT))
@@ -235,11 +235,11 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Google Smarthome und w�
 
 ![gsh](../images/gsh2.png)
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren.
 
-> **Notiz**
+> **NOTE**
 >
 > Für den Typ "Kamera" müssen Sie die URL des Streams unbedingt konfigurieren (wir haben nur das RTSP getestet), damit es funktioniert.
 > Beachten Sie, dass sich die Kameraunterstützung derzeit in der Beta-Phase befindet und viele Ressourcen verbraucht
@@ -264,9 +264,9 @@ Auf Geräten können Sie konfigurieren :
 
 Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen angegebenen Sätzen reagieren kann.
 
-> **Wichtig**
+> **IMPORTANT**
 >
-> Jeedom-Unterstützung für "Beta" -Typn, die noch nicht bei Google dokumentiert sind, sodass dies je nach Updates bei Google möglicherweise funktioniert oder nicht
+> Jeedom-Unterstützung für "Beta" -Typen, die noch nicht bei Google dokumentiert sind, sodass dies je nach Updates bei Google möglicherweise funktioniert oder nicht
 
 * Licht : unterstützt das Ein- und Ausschalten, Farbwechsel und Dimmen....
 * Thermostat : Unterstützung von Sollwertänderungen und Modi (in begrenztem Umfang werden nur bestimmte Modusnamen von Google autorisiert. Achten Sie auf die erweiterte Konfiguration.)
@@ -287,13 +287,13 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 ![gsh](../images/gsh3.png)
 
-> **Notiz**
+> **NOTE**
 >
 > Um ein Szenario zu starten, sagen Sie einfach "Name des Szenarios aktivieren" oder "Name des Szenarios deaktivieren".#
 
-> **Notiz**
+> **NOTE**
 >
-> Beim Speichern fordert Jeedom automatisch eine Synchronisierung mit Google an. Attention en mode standalone si vous avez une erreur (type "Requested entity was not found") essayez de réactiver le test de l'application ([ici](https://console.actions.google.com)) Klicken Sie dann erneut auf die Verbindungsschaltfläche auf der Seite der Plugin-Konfigurationsseite. Überprüfen Sie auch die Konfiguration (insbesondere den oauth-Teil) Ihrer Google-Anwendung (manchmal werden die Felder von Google gelöscht).
+> Beim Speichern fordert Jeedom automatisch eine Synchronisierung mit Google an. Achtung im Standalone-Modus Wenn Sie einen Fehler haben (Typ "Angeforderte Entität wurde nicht gefunden"), versuchen Sie, den Test der Anwendung erneut zu aktivieren ([hier](https://console.actions.google.com)) Klicken Sie dann erneut auf die Verbindungsschaltfläche auf der Seite der Plugin-Konfigurationsseite. Überprüfen Sie auch die Konfiguration (insbesondere den oauth-Teil) Ihrer Google-Anwendung (manchmal werden die Felder von Google gelöscht).
 
 Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
@@ -314,7 +314,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
 >**Was sind die möglichen Bestellungen ?**
 >
->Les commandes vocales (ainsi que les retours) sont gérés uniquement pas Google, voila la [documentation](https://support.google.com/googlehome/answer/7073578?hl = fr)
+>Sprachbefehle (sowie Rückgaben) werden nur von Google verwaltet [Dokumentation](https://support.google.com/googlehome/answer/7073578?hl=fr)
 
 >**Der Assistent bittet mich, die Teile zuzuweisen, aber ich weiß nicht, was die Ausrüstung entspricht.**
 >
@@ -331,7 +331,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Beim Speichern wird die Fehlermeldung "Ressource 404 kann nicht gefunden werden" angezeigt**
 >
 >Keine Sorge, alles wird gespeichert, es wird nur die automatische Synchronisierung nicht durchgeführt. Damit Ihr Assistent "Meine Geräte synchronisieren" anzeigt. Um zu versuchen, dieses Problem zu beheben :
-> allez sur la page suivante [ici](https://console.cloud.google.com/cloud-resource-manager). Auf dieser Seite sehen Sie die Liste aller Projekte, auch der unsichtbaren auf der Google-Aktionsseite. Löschen Sie alle nicht verwendeten Projekte.
+> gehe zur nächsten Seite [hier](https://console.cloud.google.com/cloud-resource-manager). Auf dieser Seite sehen Sie die Liste geh Projekte, auch der unsichtbaren auf der Google-Aktionsseite. Löschen Sie alle nicht verwendeten Projekte.
 > Wiederholen Sie dann das Tutorial aus dem Schritt Konfigurieren des API-Schlüssels Homegraph (Aktivierung, Generierung des Schlüssels, dann trennen Sie die Freiheit von Ihrem Google-Konto und wiederholen Sie den Link).
 
 
