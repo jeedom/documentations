@@ -1,15 +1,14 @@
-Presentación 
-===
+# Presentación 
 
 Jeedom es una solución de automatización del hogar de código abierto y * sin nubes * (sin servidor en la nube). Funciona sin suscripción, lo que garantiza el funcionamiento de su domótica sin internet, así como la seguridad de sus datos.. También es extremadamente abierto, multiprotocolo, personalizable y altamente escalable.
 
 Jeedom ofrece un núcleo, el núcleo, que incorpora la estructura y las funciones centrales..
 
-Différents (plugins)[https://market.jeedom.com] puede proponer nuevas funciones.
+Diferentes [plugins](https://market.jeedom.com) puede proponer nuevas funciones.
 
 El núcleo incluye:
 
-- Acceso al Tablero o la Síntesis.
+## Panel de control / Resumen
 
 *El equipo, incluidos los actuadores o sensores, está organizado por objetos.. Los objetos pueden, por ejemplo, representar partes físicas*.
 
@@ -17,31 +16,32 @@ El núcleo incluye:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
-- Un motor de escenario particularmente completo.
+## Histórico
 
-Los escenarios se construyen con diferentes bloques.. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades..
-
-![Page Scénario](images/doc-presentation-scenario.jpg)
-
-- La historización de la información..
-
-Toda la información es historizable y accesible en Análisis → Historial o desde los mosaicos del Tablero.
+*Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
-- Un motor de interacción.
+## Escenarios
+
+*Los escenarios le permiten automatizar todo o parte de su equipo. Están construidos con diferentes bloques.. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades..*
+
+![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Interacciones
+
+*El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz..*
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-- Gestión de actualizaciones (Core y Plugins) y copias de seguridad..
+## Centro de actualizaciones
+
+*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos.. Otras funciones de administración de extensiones están disponibles (eliminar, reinstalar, verificar, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
-![Page Sauvegarde](images/doc-presentation-sauvegarde.jpg)
 
-
-Market
-===
+# Mercado
 
 Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 
@@ -61,8 +61,7 @@ Jeedom permite que cualquier complemento chatee con otro de forma estandarizada.
 
 
 
-Liens
-===
+# Enlaces
 
 Se han realizado varios tutoriales en video para mostrar las características importantes de Jeedom, facilitar su uso y familiarizar al usuario con el software..
 

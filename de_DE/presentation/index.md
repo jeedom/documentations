@@ -1,15 +1,14 @@
-Präsentation
-===
+# Präsentation
 
 Jeedom ist eine Open Source und * Cloudless * Hausautomationslösung (ohne Server in der Cloud). Es funktioniert ohne Abonnement, was das Funktionieren Ihrer Hausautomation ohne Internet sowie die Sicherheit Ihrer Daten garantiert.. Es ist außerdem extrem offen, multiprotokollierbar, anpassbar und hoch skalierbar.
 
 Jeedom bietet einen Kern, den Kern, der die Struktur und die zentralen Funktionen einbettet.
 
-Différents (plugins)[https://market.jeedom.com] kann dann neue Funktionen vorschlagen.
+Anders [Plugins](https://market.jeedom.com) kann dann neue Funktionen vorschlagen.
 
 Der Kern enthält:
 
-- Zugriff auf das Dashboard oder die Synthese.
+## Dashboard / Zusammenfassung
 
 *Geräte, einschließlich Aktuatoren oder Sensoren, sind nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
 
@@ -17,31 +16,32 @@ Der Kern enthält:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
-- Eine besonders vollständige Szenario-Engine.
+## Historisch
 
-Die Szenarien werden mit verschiedenen Blöcken erstellt. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.
-
-![Page Scénario](images/doc-presentation-scenario.jpg)
-
-- Die Historisierung von Informationen.
-
-Alle Informationen sind historisierbar und können unter Analyse → Verlauf oder über die Dashboard-Kacheln abgerufen werden.
+*Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
-- Eine Interaktionsmaschine.
+## Szenarien
+
+*Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
+
+![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Interaktion
+
+*Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-- Verwaltung von Updates (Core und Plugins) und Backups.
+## Update Center
+
+*Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
-![Page Sauvegarde](images/doc-presentation-sauvegarde.jpg)
 
-
-Market
-===
+# Markt
 
 Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
@@ -61,8 +61,7 @@ Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten.
 
 
 
-Liens
-===
+# Links
 
 Es wurden mehrere Video-Tutorials erstellt, um die wichtigen Funktionen von Jeedom zu zeigen, seine Verwendung zu erleichtern und den Benutzer mit der Software vertraut zu machen..
 
