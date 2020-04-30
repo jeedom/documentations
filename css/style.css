@@ -167,7 +167,16 @@ h1,h2,h3,h4,h5 {
   #div_content h2 {
     font-size: 21px !important;
   }
+  img.pluginLogo {
+    width: 64px !important;
+  }
 }
+@media only screen and (max-width: 560px) {
+  img.pluginLogo {
+    width: 32px !important;
+  }
+}
+
 #ul_menu{
   white-space:nowrap;
 }
