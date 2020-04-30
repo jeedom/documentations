@@ -4,11 +4,11 @@ Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans 
 
 Jeedom propose un noyau, le Core, embarquant la structure et les fonctions centrales.
 
-Différents (plugins)[https://market.jeedom.com] peuvent alors proposer de nouvelles fonctions.
+Différents [plugins](https://market.jeedom.com) peuvent alors proposer de nouvelles fonctions.
 
 Le Core comprend notamment:
 
-## L'accès au Dashboard ou à la Synthèse.
+## Dashboard / Synthèse
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
@@ -16,23 +16,27 @@ Le Core comprend notamment:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
-## L'historisation des informations.
+## Historiques
 
-*Toutes les informations sont historisables, et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
+*Toutes les informations sont historisables (courbe de température, consommation, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
-## Un moteur de scénario particulièrement complet.
+## Scénarios
 
-*Les scénarios sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
+*Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
-## Un moteur d'interactions.
+## Interactions
+
+*Le système d’interaction dans Jeedom permet de réaliser des actions à partir de commandes textes ou vocales.*
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-## La gestion des mise à jours (Core et Plugins) et des sauvegardes (locales, externes, cloud).
+## Centre de Mise à jour
+
+*Le centre de mise à jour permet de mettre à jour toutes les fonctionnalités de Jeedom, incluant le logiciel de base (core) et ses plugins. D’autres fonctions de gestion des extensions sont disponibles (supprimer, réinstaller, vérifier, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
