@@ -152,6 +152,10 @@ var docMenu = [
   
 ]
 
+if(getUrlVars('theme') !== false){
+  setCookie('theme',getUrlVars('theme'),7)
+}
+
 setTheme();
 
 $('#ul_menu').empty();
@@ -332,6 +336,26 @@ function setLeftMenu(){
       }
     }
   })
+}
+
+function getUrlVars(_key) {
+  var vars = [], hash, nbVars = 0;
+  var hashes = window.location.search.replace('?','').split('&');
+  for (var i = 0; i < hashes.length; i++) {
+    if (hashes[i] !== "" && hashes[i] !== "?") {
+      hash = hashes[i].split('=');
+      nbVars++;
+      vars[hash[0]] = hash[1];
+      if (isset(_key) && _key == hash[0]) {
+        return hash[1];
+      }
+    }
+  }
+  if (isset(_key)) {
+    return false;
+  }
+  vars.length = nbVars;
+  return vars;
 }
 
 if($('#div_searchBar')){
