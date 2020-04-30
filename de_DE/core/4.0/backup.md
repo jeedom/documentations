@@ -4,7 +4,7 @@ von verschiedenen Orten.
 Konfiguration 
 =============
 
-Zugänglich von **Einstellungen → System → Backups**Diese Seite ermöglicht die
+Zugänglich von **Einstellungen → System → Backups**, Diese Seite ermöglicht die
 Verwaltung von Backups, Wiederherstellungen.
 
 Links finden Sie die Parameter und Aktionsschaltflächen. Auf dem
@@ -87,32 +87,10 @@ oder Wiederherstellung), wenn Sie eine gestartet haben.
 -   **Backup wiederherstellen** : Startet die Wiederherstellung der Sicherung
     Samba oben ausgewählt.
 
-> **Spitze**
+> **Wichtig**
 >
-> Je nachdem, was aktiviert wird, auf der Seite
-> Administration → Konfiguration → Registerkarte Updates sehen Sie
-> mehr oder weniger Abschnitte.
+>  !!! 
 
-> **Spitze**
->
-> Bei der Neuinstallation von Jeedom und dem Abonnement von
-> Backup in die Markt Cloud, müssen Sie Ihr Konto ausfüllen
-> Vermarkten Sie auf Ihrem neuen Jeedom (Administration → Konfiguration → Registerkarte
-> Updates) kommen Sie dann hierher, um mit der Wiederherstellung zu beginnen.
-
-> **Spitze**
->
-> Bei Problemen ist es möglich, eine Online-Sicherung von zu erstellen
-> bestellen : `sudo php /usr/share/nginx/www/jeedom/install/backup.php`
-> oder `sudo php / var / www / html / install / backup.PHP` abhängig von Ihrem System.
-
-> **Spitze**
->
-> Es ist auch möglich, eine Online-Sicherung von wiederherzustellen
-> Befehle (standardmäßig stellt Jeedom die letzte Sicherung wieder her
-> im Sicherungsverzeichnis vorhanden) :
-> `sudo php /usr/share/nginx/www/jeedom/install/restore.php` oder
-> `sudo php /var/www/html/install/restore.php`.
 
 Was ist gespeichert ? 
 ==============================
@@ -129,7 +107,7 @@ Behalten Sie den gleichen Controller bei, um die Zwave-Module zu finden.
 > **Notiz**
 >
 > Das System, auf dem Jeedom installiert ist, wird nicht gesichert. wenn
-> Sie haben die Parameter dieses Systems geändert (insbesondere über SSH).
+> Sie haben die Parameter dieses Systems geändert (insbesondere über SSH).,
 > Es liegt an Ihnen, einen Weg zu finden, um sie bei Problemen wiederherzustellen.
 
 Cloud-Backup 
@@ -146,7 +124,7 @@ Abonnement (für 1, 3, 6 oder 12 Monate).
 > **Spitze**
 >
 > Sie können den Namen der Sicherungsdateien von anpassen
-> der Registerkarte **Meine Jeedoms**Vermeiden Sie jedoch die Zeichen
+> der Registerkarte **Meine Jeedoms**, Vermeiden Sie jedoch die Zeichen
 > exotisch.
 
 Häufigkeit der automatischen Sicherungen 

@@ -1,15 +1,15 @@
 # Historical
 **Analysis → History**
 
-Important part in software : the historization part, a true memory of it. It is possible in Jeedom to log any information type command (binary or digital). This will allow you, for example, to log a temperature, consumption or door opening curve, etc.
+IMPORTANT part in software : the historization part, a true memory of it. It is possible in Jeedom to log any information type command (binary or digital). This will allow you, for example, to log a temperature, consumption or door opening curve, etc.
 
 ### Principle
 
 Here is described the principle of historicization of Jeedom. You only need to understand this if you are having historization issues or want to change the historization settings.. Default settings are fine in most cases.
 
-### archiving
+### Archiving
 
-Data archiving allows Jeedom to reduce the amount of data stored in memory. This allows not to use too much space and does not slow down the system. Indeed, if you keep all the measurements, this makes all the more points to display and therefore can considerably lengthen the times to render a graph. If there are too many points, it may even cause the graph display to crash.
+Data archiving allows Jeedom to reduce the amount of data stored in memory. This allows not to use too much space and does not slow down the system. Indeed, if you keep all the measurements, this makes all the more points to display and therefore it can considerably lengthen the times to render a graph. If there are too many points, it may even cause the graph display to crash.
 
 Archiving is a task that starts at night and compacts the data recovered during the day. By default Jeedom retrieves all older data of 2 hours and makes 1 hour packets of it (either an average, a minimum or a maximum depending on the settings). So here we have two parameters, one for packet size and another for knowing when to do it (by default, these are 1 hour packets with data that are more than 2 hours old).
 
@@ -26,7 +26,7 @@ Archiving is a task that starts at night and compacts the data recovered during 
 There are several ways to access the history :
 
 - By clicking on the desired command in a widget,
-- By going to the history page which allows you to superimpose different curves and to combine styles (area, curve, bar),
+- By going to the history page which allows to superimpose different curves and to combine styles (area, curve, bar),
 - On mobile while remaining pressed on the widget in question,
 - By putting a graph area in a view (see below).
 
@@ -36,11 +36,11 @@ If you display a graph by the history page, you have access to several display o
 
 We find at the top right the display period (here on the last week because, by default I want it to be only one week - see 2 paragraphs above), then come the parameters of the curve (these parameters are kept from one display to another, so you only have to configure them once).
 
-- **Staircase** : Displays the curve as a staircase or a continuous display.
+- **Escalier** : Displays the curve as a staircase or a continuous display.
 - **Variation** : Displays the difference in value from the previous point.
-- **Line** : Displays the graph as lines.
-- **Area** : Displays the graph as an area.
-- **Column**\* : Displays the graph as bars.
+- **Ligne** : Displays the graph as lines.
+- **Aire** : Displays the graph as an area.
+- **Colonne**\* : Displays the graph as bars.
 
 > **Tip**
 >
@@ -55,11 +55,11 @@ We find at the top right the display period (here on the last week because, by d
 You can also display the graphs on the views (we will see here the configuration options and not how to do it, for that you have to go to the documentation of the views or designs in function). Here are the options :
 
 Once a data is activated, you can choose :
-- **Color** : The color of the curve.
+- **Couleur** : The color of the curve.
 - **Type** : The type of graph (area, row or column).
-- **Ladder** : Since you can put several curves (data) on the same graph, it is possible to distinguish the scales (right or left).
-- **Staircase** : Displays the curve as a staircase or a continuous display.
-- **Stack** : Used to stack the values of the curves (see below for the result).
+- **Echelle** : Since you can put several curves (data) on the same graph, it is possible to distinguish the scales (right or left).
+- **Escalier** : Displays the curve as a staircase or a continuous display.
+- **Empiler** : Used to stack the values of the curves (see below for the result).
 - **Variation** : Displays the difference in value from the previous point.
 
 ### Option on the history page
@@ -68,7 +68,7 @@ The history page gives access to some additional options
 
 #### Calculated history
 
-Allows you to display a curve according to a calculation on several commands (you can do almost everything, + - / \ * absolute value… see PHP documentation for certain functions).
+Allows you to display a curve according to a calculation on several commands (you can do almost everything, + - / \* absolute value… see PHP documentation for certain functions).
 Ex :
 abs (* \ [Garden \] \ [Hygrometry \] \ [Temperature \] * - * \ [Living space \] \ [Hygrometry \] \ [Temperature \] *)
 
@@ -82,7 +82,7 @@ You also have access to a management of calculation formulas which allows you to
 
 In front of each data that can be displayed, you will find two icons :
 
-- **Trash can** : Allows you to delete the recorded data; when clicking, Jeedom asks whether to delete the data before a certain date or all the data.
+- **Poubelle** : Allows you to delete the recorded data; when clicking, Jeedom asks whether to delete the data before a certain date or all the data.
 - **Arrow** : Enables CSV export of historical data.
 
 ### Inconsistent value removal
@@ -95,8 +95,8 @@ The timeline displays certain events in your home automation in chronological fo
 
 To see them, you must first activate the tracking on the timeline of the desired commands or scenarios, then these events occur.
 
-- **Scenario** : Either directly on the scenario page, or on the scenario summary page to do it &quot;en masse&quot;.
-- **Ordered** : Either in the advanced configuration of the command, or in the configuration of the history to do it in &quot;mass&quot;.
+- **Scenario** : Either directly on the scenario page, or on the scenario summary page to do it in bulk".
+- **Commande** : Either in the advanced configuration of the command, or in the configuration of the history to do it in "mass".
 
 The * Main * timeline always contains all the events. However, you can filter the timeline by * folder*. At each place where you activate the timeline, you will have a field to enter the name of a folder, existing or not.
 You can then filter the timeline by this folder by selecting it to the left of the * Refresh button.*.
@@ -117,7 +117,9 @@ Once you have activated tracking in the timeline of the commands and scenarios y
 
 ### Viewing
 
-The timeline displays a table of recorded events in three columns:
+The timeline displays the recorded events, staggered day by day vertically.
+
+For each event, you have:
 
 - The date and time of the event,
 - The type of event: An info or action command, or a scenario, with the command plugin for commands.
@@ -126,3 +128,4 @@ The timeline displays a table of recorded events in three columns:
 - A command type event displays an icon on the right to open the command configuration.
 - A scenario type event displays two icons on the right to go to the scenario, or open the scenario log.
 
+At the top right, you can select a timeline folder. This must be created before and must contain events.

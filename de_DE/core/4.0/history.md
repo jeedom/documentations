@@ -35,12 +35,12 @@ wann es zu tun ist (standardmäßig sind dies Pakete
 > **Spitze**
 >
 > Wenn Sie gut gefolgt sind, sollten Sie eine hohe Präzision auf dem haben
-> Nur die letzten 2 Stunden. Wenn ich mich jedoch um 17 Uhr anmelde,
-> Ich habe eine Klarstellung zu den letzten 17 Stunden. warum ? In der Tat
+> Nur die letzten 2 Stunden. Doch wenn ich mich um 17 Uhr anmelde.,
+> Ich habe eine Klarstellung zu den letzten 17 Stunden. Warum ? In der Tat,
 > um unnötigen Ressourcenverbrauch zu vermeiden, ist die Aufgabe, die macht
 > Die Archivierung erfolgt nur einmal am Tag, abends.
 
-> **wichtig**
+> **Wichtig**
 >
 > Dieses Archivierungsprinzip gilt natürlich nur für Bestellungen von
 > digitaler Typ; Bei Befehlen vom Typ Binär behält Jeedom nicht bei
@@ -79,7 +79,7 @@ nur einmal konfigurieren).
 
 -   **Bereich** : Zeigt das Diagramm als Fläche an.
 
--   **Spalte**\* : Zeigt das Diagramm als Balken an.
+-   **Spalte**\.* : Zeigt das Diagramm als Balken an.
 
 Grafik zu Ansichten und Designs 
 =====================================
@@ -117,10 +117,10 @@ Berechnete Geschichte
 ------------------
 
 Ermöglicht die Anzeige einer Kurve gemäß einer Berechnung für mehrere
-Befehl (Sie können fast alles tun, + - / \ * absoluter Wert ... siehe
-PHP-Dokumentation für bestimmte Funktionen). ex :
-abs (* \ [Garten \] \ [Hygrometrie \] \ [Temperatur \] * - * \ [Raum von
-Das Leben \] \ [Luftfeuchtigkeit \] \ [Temperatur \] *)
+Befehl (Sie können fast alles tun, + - / \. * absoluter Wert ... siehe
+PHP-Dokumentation für bestimmte Funktionen). Ex :
+abs (* \. [Garten \.] \. [Hygrometrie \.] \. [Temperatur \.] * - * \. [Raum von
+Das Leben \.] \. [Luftfeuchtigkeit \.] \. [Temperatur \.] *)
 
 Sie haben auch Zugriff auf eine Verwaltung von Berechnungsformeln, die es Ihnen ermöglicht
 Speichern Sie sie zur einfacheren Anzeige
@@ -139,7 +139,7 @@ Vor allen Daten, die grafisch dargestellt werden können, befinden sich zwei Sym
     Jeedom fragt, ob die Daten vor a gelöscht werden müssen
     bestimmtes Datum oder alle Daten.
 
--   **Pfeil** : Ermöglicht einen CSV-export historischer Daten.
+-   **Pfeil** : Ermöglicht einen CSV-Export historischer Daten.
 
 Inkonsistente Wertentfernung 
 =================================
@@ -151,36 +151,36 @@ Frage, indem Sie direkt in der Grafik darauf klicken; von
 Darüber hinaus können Sie das zulässige Minimum und Maximum festlegen
 Vermeiden Sie zukünftige Probleme.
 
-Timeline 
+Zeitleiste 
 ========
 
 In der Zeitleiste werden bestimmte Ereignisse in Ihrer Hausautomation im Formular angezeigt
 chronologisch.
 
-Um sie zu sehen, müssen Sie zuerst das Tracking auf der Timeline von aktivieren
+Um sie zu sehen, müssen Sie zuerst das Tracking auf der Zeitleiste von aktivieren
 gewünschte Befehle oder Szenarien :
 
 -   **Szenario** : entweder direkt auf der Szenarioseite oder auf der
-    Szenario-Zusammenfassungsseite, um es &quot;en masse&quot; zu tun
+    Szenario-Übersichtsseite, um dies in "Masse" zu tun"
 
--   **bestellen** : entweder in der erweiterten Konfiguration des Befehls,
-    entweder in der Konfiguration der Geschichte, um es in &quot;Masse&quot; zu tun
+-   **Bestellen** : entweder in der erweiterten Konfiguration des Befehls,
+    entweder in der Konfiguration der Geschichte, um es in "Masse" zu tun"
 
 > **Spitze**
 >
 > Sie haben Zugriff auf die Zusammenfassungsfenster der Szenarien oder der
 > Konfiguration des Verlaufs direkt von der Seite
-> Timeline.
+> Zeitleiste.
 
 Sobald Sie die Nachverfolgung in der Bestellzeitleiste aktiviert haben und
-gewünschten Szenarien können Sie sie auf der Timeline sehen.
+gewünschten Szenarien können Sie sie auf der Zeitleiste sehen.
 
-> **wichtig**
+> **Wichtig**
 >
 > Sie müssen auf neue Ereignisse warten, nachdem Sie das Tracking aktiviert haben
-> auf der Timeline, bevor sie angezeigt werden.
+> auf der Zeitleiste, bevor sie angezeigt werden.
 
-Die Karten auf der Timeline werden angezeigt :
+Die Karten auf der Zeitleiste werden angezeigt :
 
 -   **Aktionsbefehl** : Im roten Hintergrund können Sie ein Symbol auf der rechten Seite anzeigen
     Zeigen Sie das erweiterte Konfigurationsfenster des Befehls an

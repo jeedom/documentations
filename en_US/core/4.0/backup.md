@@ -1,7 +1,7 @@
 Jeedom offers the possibility of being saved and restored from or from
 from different locations.
 
-Configuration 
+D'actualité 
 =============
 
 Accessible from **Settings → System → Backups**, this page allows the
@@ -11,10 +11,10 @@ You will find, on the left, the parameters and action buttons. On the
 right, this is the real-time status of the current action (backup
 or restoration), if you have launched one.
 
-**backups** 
+**Backups** 
 ---------------
 
--   **backups** : Allows you to start a backup manually and
+-   **Backups** : Allows you to start a backup manually and
     immediately (useful if you want to make a critical change.
     This will allow you to go back). You also have a
     button to start a backup without sending the archive to the
@@ -79,7 +79,7 @@ or restoration), if you have launched one.
 
 -   **Sending backups** : Instructs Jeedom to send the
     backups on the samba share configured here
-    Administration → Configuration → Updates tab.
+    Administration → D'actualité → Updates tab.
 
 -   **Available backups** : List of backups
     samba available.
@@ -87,32 +87,10 @@ or restoration), if you have launched one.
 -   **Restore backup** : Starts restoring the backup
     samba selected above.
 
-> **Tip**
+> **Important**
 >
-> Depending on what will be activated, in the page
-> Administration → Configuration → Updates tab, you can see
-> more or less sections.
+>  !!! 
 
-> **Tip**
->
-> When reinstalling Jeedom and having taken the subscription of
-> backup to the Market cloud, you must fill in your account
-> Market on your new Jeedom (Administration → Configuration → Tab
-> Updates) then come here to start the restoration.
-
-> **Tip**
->
-> It is possible, in case of problems, to make an online backup of
-> ordered : `sudo php /usr/share/nginx/www/jeedom/install/backup.php`
-> or `sudo php / var / www / html / install / backup.php` depending on your system.
-
-> **Tip**
->
-> It is also possible to restore an online backup of
-> commands (by default, Jeedom restores the most recent backup
-> present in the backup directory) :
-> `sudo php /usr/share/nginx/www/jeedom/install/restore.php` or
-> `sudo php /var/www/html/install/restore.php`.
 
 What is saved ? 
 ==============================
@@ -126,7 +104,7 @@ different because it is not possible to save the inclusions.
 These are directly included in the controller, so you have to
 keep the same controller to find its Zwave modules.
 
-> **Note**
+> **NOTE**
 >
 > The system on which Jeedom is installed is not backed up. Yes
 > you have modified parameters of this system (notably via SSH),

@@ -1,4 +1,4 @@
-# users
+# Users
 **Settings → System → Users**
 
 This page allows you to define the list of users authorized to connect to Jeedom, as well as their administrator rights..
@@ -11,19 +11,19 @@ On the page you have three buttons :
 
 ## Users list
 
-- **username** : User ID.
-- **Active** : Allows you to deactivate the account without deleting it.
+- **Username** : User ID.
+- **Actif** : Allows you to deactivate the account without deleting it.
 - **Local** : Allows the connection of the user only if he is on the local network of Jeedom.
-- **Profile** : Allows you to choose the user profile :
-    - **Administrator** : The user obtains all rights (editing / consultation) on Jeedom.
-    - **User** : User can see Dashboard, views, designs, etc.. and act on equipment / controls. However, he will not have access to the configuration of the controls / equipment nor to the configuration of Jeedom.
+- **Profil** : Allows you to choose the user profile :
+    - **Administrateur** : The user obtains all rights (editing / consultation) on Jeedom.
+    - **Utilisateur** : User can see Dashboard, views, designs, etc.. and act on equipment / controls. However, he will not have access to the configuration of the controls / equipment nor to the configuration of Jeedom.
     - **Limited user** : The user only sees the authorized equipment (configurable with the &quot;Rights&quot; button).
 - **API key** : Personal API key of the user.
 - **Double authentication** : Indicates whether double authentication is active (OK) or not (NOK).
 - **Date of last connection** : Date of last user login. Please note, this is the actual connection date, so if you save your computer, the connection date is not updated each time you return.
-- **Rights** : Modify user rights.
+- **Droits** : Modify user rights.
 - **Password** : Allows you to change the user&#39;s password.
-- **Remove** : Remove user.
+- **Supprimer** : Remove user.
 - **Regenerate API key** : Regenerate user API key.
 - **Manage rights** : Allows you to manage user rights finely (note that the profile must be &quot;limited user&quot;).
 
@@ -36,8 +36,8 @@ When clicking on &quot;Rights&quot; a window appears allowing you to manage user
 > The profile must be limited otherwise no restrictions put here will be taken into account.
 
 You get a table which allows, for each device and each scenario, to define the rights of the user. :
-- **No** : the user does not see the equipment / scenario.
-- **visualization** : the user sees the equipment / scenario but cannot act on it.
+- **Aucun** : the user does not see the equipment / scenario.
+- **Visualisation** : the user sees the equipment / scenario but cannot act on it.
 - **Visualization and execution** : the user sees the equipment / scenario and can act on it (light a lamp, launch the scenario, etc.).
 
 ## Active session (s)

@@ -19,11 +19,11 @@ Die Konfiguration der Anzeige des Objekts erfolgt in **Werkzeuge → Objekte** :
 - Sein Hintergrundbild.
 - Elemente seiner Zusammenfassungen.
 
-> **Spitze**
+> **Tip**
 >
 > Die Anzeigereihenfolge der Objekte entspricht der * Zusammenfassung der Hausautomation *, die Sie neu anordnen können (Analyse → Zusammenfassung der Hausautomation)..
 
-> **Notiz**
+> **Note**
 >
 > Wenn ein Objekt keine Zusammenfassung definiert hat, wird oben rechts eine Schaltfläche angezeigt, über die Sie auf die Konfiguration / Zusammenfassungen des Objekts zugreifen können..
 
@@ -32,12 +32,10 @@ Die Konfiguration der Anzeige des Objekts erfolgt in **Werkzeuge → Objekte** :
 Für jedes Objekt können Sie klicken :
 - Auf dem Bild, um die Ausrüstungsseite dieses Objekts zu öffnen (auch über das Menü * Home → Dashboard → Objekt * zugänglich).
 - Auf einem Zusammenfassungselement, um die Elemente dieses Objekts dieses Typs anzuzeigen.
-- Klicken Sie auf das Symbol unten links im Objekt, um die Konfiguration dieses Objekts zu öffnen (nur auf dem Desktop verfügbar)..
+- Klicken Sie auf das Symbol unten links im Objekt, um die Konfiguration dieses Objekts zu öffnen (nur in Desktop verfügbar)..
 
-> **Spitze**
+> **Tip**
 >
 > Strg Klicken oder Mitte Klicken Sie auf das Objekt oder ein Zusammenfassungselement öffnet eine weitere Registerkarte Ihres Browsers.
 
-Wenn Sie in der Zusammenfassung auf ein Objekt klicken, werden die beiden Schaltflächen links in der Suchleiste durch eine Schaltfläche ersetzt, mit der Sie zur Zusammenfassung zurückkehren können.
-
-Außerdem werden untergeordnete Objekte nicht angezeigt.
+Wenn Sie in der Zusammenfassung auf ein Objekt klicken, werden die beiden Schaltflächen links in der Suchleiste durch eine Schaltfläche ersetzt, mit der Sie zur Zusammenfassung zurückkehren können. Außerdem werden untergeordnete Objekte nicht angezeigt.
