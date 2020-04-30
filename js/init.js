@@ -16,11 +16,11 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR : "Utiliser Jeedom",
-    en_US : "Use Jeedom",
-    es_ES : "Use Jeedom",
-    de_DE : "Benutze Jeedom",
-    pt_PT : "",
+    fr_FR : "Installer Jeedom",
+    en_US : "Install Jeedom",
+    es_ES : "Instalar Jeedom",
+    de_DE : "Installeer Jeedom",
+    pt_PT : "Instale o Jeedom",
     submenu : [
       {link : "/documentations/#LANG#/installation/index",fr_FR : "Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       {link : "/documentations/#LANG#/compatibility/index",fr_FR : "Compatibilité matériel et logiciel",en_US:"Compatibilité hardware and software",es_ES:"Compatibilidad de hardware y software.",de_DE:"Hardware- und Softwarekompatibilität",pt_PT:""},
@@ -149,7 +149,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/documentations/#LANG#/legal_notice"
   }
-  
+
 ]
 
 setTheme();
@@ -231,7 +231,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -246,22 +246,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -270,7 +270,7 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   $('#div_content a:not([href=""]):not([href="#"])').attr('target','_blank');
@@ -355,4 +355,3 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
-  

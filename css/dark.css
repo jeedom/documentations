@@ -11,7 +11,9 @@ body.dark #logo-container:before {
 body.dark #logo-container img {
   display: none;
 }
-
+#navTopLeft a {
+  color: white !important;
+}
 body {
   background-color: #eee;
 }
@@ -25,7 +27,7 @@ body.dark #slide-out {
   color: #ebebeb !important;
 }
 body.dark a {
-  color: #ebebeb;
+  color: #7cc2e3;
   background-color: #202123 !important;
   opacity: 0.65;
 }
@@ -37,6 +39,9 @@ body.dark a:focus {
 }
 body.dark nav {
   background-color: #26A69A;
+}
+body.dark .caret > path:first-child {
+  fill: #ebebeb;
 }
 #logo-container {
   opacity: 1;

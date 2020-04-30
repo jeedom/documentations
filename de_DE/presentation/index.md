@@ -1,55 +1,67 @@
-Präsentation
-===
+# Präsentation
 
-Jeedom besteht aus einem zentralen Teil (Kern genannt), der sich um die Grundfunktionen kümmert.
+Jeedom ist eine Open Source und * Cloudless * Hausautomationslösung (ohne Server in der Cloud). Es funktioniert ohne Abonnement, was das Funktionieren Ihrer Hausautomation ohne Internet sowie die Sicherheit Ihrer Daten garantiert.. Es ist außerdem extrem offen, multiprotokollierbar, anpassbar und hoch skalierbar.
 
--   *Szenario*
+Jeedom bietet einen Kern, den Kern, der die Struktur und die zentralen Funktionen einbettet.
 
-![Page Szenario](images/doc-presentation-scenario.png)
+Anders [Plugins](https://market.jeedom.com) kann dann neue Funktionen vorschlagen.
 
--   *Historisation*
+Der Kern enthält:
 
-![Page Historique](images/doc-presentation-historique.png)
+## Dashboard / Zusammenfassung
 
--   *Affichage*
+*Geräte, einschließlich Aktuatoren oder Sensoren, sind nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
 
-![Page Dashboard](images/doc-presentation-affichage.png)
+![Synthèse](images/doc-presentation-synthese.jpg)
 
--   *Interaction*
+![Dashboard](images/doc-presentation-dashboard.jpg)
 
-![Page Interaktion](images/doc-presentation-interaction.png)
+## Historisch
 
--   *Aktualisieren und sichern*
+*Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
-![Page Mise à jour](images/doc-presentation-maj.png)
+![Page Historique](images/doc-presentation-historique.jpg)
 
-![Page Sauvegarde](images/doc-presentation-sauvegarde.png)
+## Szenarien
+
+*Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
+
+![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Interaktion
+
+*Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
+
+![Page Interaction](images/doc-presentation-interaction.jpg)
+
+## Update Center
+
+*Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).*
+
+![Page Sauvegarde](images/doc-presentation-update.jpg)
+
+
+# Markt
 
 Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
 -   Hausautomationsprotokoll (Z-Wave, RFXcom, EnOcean…),
 -   IP-Protokoll (KNX, xPL…),
--   kommunizierendes Objekt (Nest, Netatmo…),
--   hoher Pegel (Alarm, Thermostat ...),
+-   Kommunizierendes Objekt (Nest, Netatmo…),
+-   Hoher Pegel (Alarm, Thermostat ...),
 -   Schnittstelle (Widget),
 -   Organisation (Kalender, Google Kalender),
 -   Entwicklung (Skript).
 
-Diese Plugins können über Market abgerufen werden und ermöglichen es Ihnen, die Möglichkeiten von Jeedom zu erweitern.
+Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, die Möglichkeiten von Jeedom zu erweitern.
 
-![Page Market](images/doc-presentation-market.png)
+![Page Markt](images/doc-presentation-market.jpg)
 
 Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt ...
 
-Principe
-=== 
 
-Jeedom hat die Besonderheit, ohne Abonnement und ohne Cloud zu sein, was es ermöglicht, die Funktion Ihrer Hausautomation zu gewährleisten, auch wenn Sie kein Internet mehr haben. Dies garantiert auch die Sicherheit Ihrer Daten (vermeidet das Risiko eines Massenhacks von Konten).
 
-Da das Projekt Open und Open Source ist, garantiert es dank der vielen beteiligten Entwickler auch eine hohe Entwicklungsrate.
-
-Liens
-===
+# Links
 
 Es wurden mehrere Video-Tutorials erstellt, um die wichtigen Funktionen von Jeedom zu zeigen, seine Verwendung zu erleichtern und den Benutzer mit der Software vertraut zu machen..
 
@@ -58,29 +70,16 @@ Seit der Realisierung dieser Tutorials konnte sich die Jeedom-Oberfläche jedoch
 Hier ist die Liste der verfügbaren Tutorials :
 
 -   [Jeedom Tutorial 1 : Erster Start](https://www.youtube.com/watch?v=UTECRBGEUtI)
-
 -   [Jeedom 2 Tutorial : Erste Schritte mit Jeedom (Objekt, Markt, Plugin, Modul)](https://www.youtube.com/watch?v=2LU1neNvbus)
-
 -   [Jeedom 3 Tutorial : Jeedom, Widgets, Mails und Szenarien](https://www.youtube.com/watch?v=OJn33XbpiH8)
-
 -   [Jeedom 4 Tutorial : Jeedom, Verwenden des Agenda-Plugins](https://www.youtube.com/watch?v=EBuvIabg3Cc)
-
 -   [Jeedom 5 Tutorial : Skripte in Jeedom mit dem Skript-Plugin](https://www.youtube.com/watch?v=FRbQILAogX0)
-
 -   [Jeedom 6 Tutorial : Szenarien in Jeedom mit dem Wetter-Plugin](https://www.youtube.com/watch?v=w0ErP3wyEoA)
-
 -   [Jeedom 7 Tutorial : Präsentation des Energy Plugins](https://www.youtube.com/watch?v=DZfA_DxqbNs)
-
 -   [Jeedom 8 Tutorial : Entdeckung des Planmodus](https://www.youtube.com/watch?v=2IkXF6CBCAE)
-
 -   [Jeedom 9 Tutorial : DataTransfert Plugin, Auto Backups und Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
-
 -   [Jeedom 10 Tutorial : Lass Jeedom sprechen (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
-
 -   [Jeedom 11 Tutorial : Erkennungsfenster einer Standardinstallation](https://www.youtube.com/watch?v=hW1d1FvkmSs)
-
 -   [Jeedom 12 Tutorial : Entdeckung des Thermostat-Plugins](https://www.youtube.com/watch?v=T21gqp1SQK0)
-
 -   [Jeedom 13 Tutorial : Entdeckung des Alarm-Plugins](https://www.youtube.com/watch?v=JjnWeU614gc)
-
--   [Jeedom Tutorial 14 : Entdeckung von Interaktionen](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+-   [Jeedom Tutorial 14 : Entdeckung von Interaktionen](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q)

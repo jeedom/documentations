@@ -1,55 +1,67 @@
-Presentation
-===
+# Presentation
 
-Jeedom is made up of a central part (called core) which takes care of the basic functions.
+Jeedom is an open-source and * cloudless * home automation solution (without server in the cloud). It works without subscription, which guarantees the functioning of your home automation without internet, as well as the security of your data.. It is also extremely open, multi-protocol, customizable, and highly scalable.
 
--   *Scenario*
+Jeedom offers a core, the Core, embedding the structure and the central functions.
 
-![Page Scenario](images/doc-presentation-scenario.png)
+Different [Plugins](https://market.jeedom.com) can then propose new functions.
 
--   *Historisation*
+The Core includes:
 
-![Page Historique](images/doc-presentation-historique.png)
+## Dashboard / Summary
 
--   *Affichage*
+*Equipment, including actuators or sensors, is organized by objects. Objects can, for example, represent physical parts*.
 
-![Page Dashboard](images/doc-presentation-affichage.png)
+![Synthèse](images/doc-presentation-synthese.jpg)
 
--   *Interaction*
+![Dashboard](images/doc-presentation-dashboard.jpg)
 
-![Page Interaction](images/doc-presentation-interaction.png)
+## Historical
 
--   *Update and backup*
+*All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 
-![Page Mise à jour](images/doc-presentation-maj.png)
+![Page Historique](images/doc-presentation-historique.jpg)
 
-![Page Sauvegarde](images/doc-presentation-sauvegarde.png)
+## Scenarios
 
-Around this core are plugins that can be of all kinds :
+*Scenarios allow you to automate all or part of your equipment. They are built with different blocks. Conditional blocks (If Then, Otherwise), actions, programming (IN x minutes or A hhmm), loop, comment, or php code. All blocks are nestable into each other, offering endless possibilities.*
 
--   home automation protocol (Z-Wave, RFXcom, EnOcean…),
+![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Interactions
+
+*The interaction system in Jeedom allows you to perform actions from text or voice commands.*
+
+![Page Interaction](images/doc-presentation-interaction.jpg)
+
+## Update center
+
+*The update center allows you to update all of Jeedom's functionality, including the core software and its Plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
+
+![Page Sauvegarde](images/doc-presentation-update.jpg)
+
+
+# Market
+
+Around this core are Plugins, which can be of all kinds :
+
+-   Home automation protocol (Z-Wave, RFXcom, EnOcean…),
 -   IP protocol (KNX, xPL…),
--   communicating object (Nest, Netatmo…),
--   high level (alarm, thermostat ...),
--   interface (widget),
--   organization (calendar, Google calendar),
--   development (script).
+-   Communicating object (Nest, Netatmo…),
+-   High level (alarm, thermostat ...),
+-   Interface (widget),
+-   Organization (calendar, Google calendar),
+-   Development (script).
 
-These plugins can be retrieved via Market and allow you to extend the possibilities of Jeedom.
+These Plugins can be installed from the Market and allow you to extend the possibilities of Jeedom.
 
-![Page Market](images/doc-presentation-market.png)
+![Page Market](images/doc-presentation-market.jpg)
 
-Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object ...
+Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm Plugins with any home automation protocol or even an IP plugin or communicating object ...
 
-Principe
-=== 
 
-Jeedom has the particularity of being without subscription and without cloud, which makes it possible to guarantee the functioning of your home automation even if you no longer have internet. This also guarantees the security of your data (avoids the risks of mass hacking of accounts).
 
-The project being open and open source this also guarantees it a high rate of development thanks to the many developers who participate.
-
-Liens
-===
+# Links
 
 Several video tutorials have been made to show the important features of Jeedom, facilitate its use and familiarize the user with the software..
 
@@ -58,29 +70,16 @@ However since the realization of these tutorials, the Jeedom interface has been 
 Here is the list of available tutorials :
 
 -   [Jeedom tutorial 1 : First start](https://www.youtube.com/watch?v=UTECRBGEUtI)
-
 -   [Jeedom 2 tutorial : Getting started with Jeedom (Object, Market, Plugin, Module)](https://www.youtube.com/watch?v=2LU1neNvbus)
-
 -   [Jeedom 3 tutorial : Jeedom, Widgets, Mails and Scenarios](https://www.youtube.com/watch?v=OJn33XbpiH8)
-
 -   [Jeedom 4 tutorial : Jeedom, Using the Agenda plugin](https://www.youtube.com/watch?v=EBuvIabg3Cc)
-
 -   [Jeedom 5 tutorial : Scripts in Jeedom using the Script plugin](https://www.youtube.com/watch?v=FRbQILAogX0)
-
 -   [Jeedom 6 tutorial : Scenarios in Jeedom with the Weather plugin](https://www.youtube.com/watch?v=w0ErP3wyEoA)
-
 -   [Jeedom 7 tutorial : Presentation of the Energy plugin](https://www.youtube.com/watch?v=DZfA_DxqbNs)
-
 -   [Jeedom 8 tutorial : Discovery of Plan Mode](https://www.youtube.com/watch?v=2IkXF6CBCAE)
-
 -   [Jeedom 9 tutorial : DataTransfert plugin, Auto Backups and Dropbox](https://www.youtube.com/watch?v=wLOfJygFc8k)
-
 -   [Jeedom 10 tutorial : Make Jeedom talk (Android)](https://www.youtube.com/watch?v=3Pc3VJFWHo4)
-
 -   [Jeedom 11 tutorial : Discovery window of a standard installation](https://www.youtube.com/watch?v=hW1d1FvkmSs)
-
 -   [Jeedom 12 tutorial : Discovery of the Thermostat plugin](https://www.youtube.com/watch?v=T21gqp1SQK0)
-
 -   [Jeedom 13 tutorial : Discovery of the Alarm plugin](https://www.youtube.com/watch?v=JjnWeU614gc)
-
--   [Jeedom tutorial 14 : Discovery of Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q) 
+-   [Jeedom tutorial 14 : Discovery of Interactions](https://www.youtube.com/watch?v=Z8SHo_Xwk0Q)

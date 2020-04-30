@@ -1,19 +1,19 @@
- 
+Greenmomit 
 ==========
 
 ![Palazzetti icon](../images/Palazzetti_icon.png)
 
-
+\
 
 Descripción 
 -----------
 
-[description.asciidoc](description.asciidoc)
+[descripción.asciidoc](descripción.asciidoc)
 
 Instalación 
 ------------
 
-[installation.asciidoc](installation.asciidoc)
+[instalación.asciidoc](instalación.asciidoc)
 
 Configuración 
 -------------

@@ -1,6 +1,13 @@
 .navbar-fixed {
   z-index: 1000;
 }
+#navTopLeft {
+  background: url("../img/background5.jpg") !important;
+  background-size: cover !important;
+}
+#navTopLeft a {
+  background-color: transparent !important;
+}
 #slide-out {
   top: 65px;
   height: calc(100% - 65px);
@@ -30,6 +37,10 @@ body,
 }
 .sidenav {
   width: 280px !important;
+}
+
+#div_summary {
+  font-size: 13px;
 }
 
 #ul_menu li,
@@ -146,6 +157,17 @@ h1,h2,h3,h4,h5 {
   background-color: #95C12B;
 }
 
+#div_content h2 {
+  font-size: 24px !important;
+}
+@media only screen and (max-width: 992px) {
+  #div_content h1 {
+    font-size: 28px !important;
+  }
+  #div_content h2 {
+    font-size: 21px !important;
+  }
+}
 #ul_menu{
   white-space:nowrap;
 }

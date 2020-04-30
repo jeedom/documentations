@@ -1,4 +1,7 @@
 
+# Autre
+
+
 >**IMPORTANT**
 
 >Seul les plugins officiel on leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
