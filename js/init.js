@@ -78,7 +78,8 @@ var docMenu = [
     de_DE : "Konfigurationshandbuch",
     pt_PT : "",
     submenu:[
-      {link:"/#LANG#/core/#VERSION#/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
+      {version : ['3.3'],link:"/#LANG#/core/#VERSION#/administration",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
+      {version : ['4.0','4.1'],link:"/#LANG#/core/#VERSION#/administration",fr_FR:"Configuration",en_US:"",es_ES:"",de_DE:"",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/backup",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/update",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Mise à jour",pt_PT:""},
       {link:"",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
