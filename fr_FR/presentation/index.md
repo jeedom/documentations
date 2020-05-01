@@ -21,7 +21,7 @@ Le Core comprend notamment:
 
 *Jeedom propose un moteur de création de Widgets pour les tuiles des équipements. Vous pouvez ainsi créer vos propres Widgets, en plus des Widgets de base. La création de Widgets est aussi possible directement à partir de code, pour les utilisateurs avancés.*
 
-![Widgets](images/doc-presentation-widgets)
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Historiques
 
