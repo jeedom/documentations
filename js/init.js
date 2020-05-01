@@ -293,12 +293,12 @@ $(function(){
 
 function setTheme(){
   if(getCookie('theme') == 'dark'){
-    $('body').addClass('dark')
+    $('html').addClass('dark')
     if($('#sel_theme').val() != 'dark'){
       $('#sel_theme').val('dark');
     }
   }else{
-    $('body').removeClass('dark')
+    $('html').removeClass('dark')
   }
 }
 

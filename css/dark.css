@@ -3,7 +3,7 @@ Theme Core 2019 @Jeedom
 colors Dark
 */
 
-body.dark {
+html.dark {
   --lineheight : 1.42em;
   /* keet it as rem even when zero!!*/
   --border-radius: 0rem;
@@ -75,15 +75,23 @@ body.dark {
   --shd-color: rgba(15, 15, 15, 0.55);
 }
 
-body.dark #logo-container:before {
+html.dark #logo-container:before {
   content: '';
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: cover !important;
   background-repeat: no-repeat;
   background-image: url('/img/logo_dark.png')  !important;
 }
-body.dark #logo-container img {
+html.dark #logo-container img {
   display: none;
+}
+html.dark,
+html.dark,
+html.dark .sidenav,
+html.dark #div_summary,
+html.dark #div_content {
+  scrollbar-color: var(--btn-default-color) transparent !important;
+  scrollbar-width: thin;
 }
