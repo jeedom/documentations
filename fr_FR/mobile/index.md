@@ -1,3 +1,3 @@
-# Eteindre/Redémarrer
+# Version mobile
 
 (en cours)
