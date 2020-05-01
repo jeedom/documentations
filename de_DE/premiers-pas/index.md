@@ -1,17 +1,11 @@
-Willkommen zu dieser Dokumentation der ersten Schritte, diese wird
-Hilf mit, dein Jeedom einzurichten.
+# Erster Schritt
 
-> **Tip**
->
-> Dieses Handbuch ersetzt nicht die vollständige Dokumentation
-> verfügbar auf der Jeedom-Website [hier](https://jeedom.fr/doc).
+Willkommen zu dieser Dokumentation des ersten Schritts, die Ihnen hilft, Ihr Jeedom in Betrieb zu nehmen.
 
-Registrierung am Markt 
-=========================
 
-Als erstes müssen Sie ein Konto auf dem Markt für erstellen
-Klicken Sie hier, um Ihr Jeedom zu registrieren
-[hier](https://www.jeedom.com/market) um zu beginnen
+## Registrierung am Markt
+
+Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/) um zu beginnen.
 
 ![premier market](images/premier-market.png)
 
@@ -19,33 +13,25 @@ Klicken Sie oben rechts auf die Schaltfläche "Registrieren":
 
 ![premier market2](images/premier-market2.png)
 
-Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie werden dann rüberkommen
-diese Seite:
+Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie werden dann auf diese Seite stoßen:
 
 ![premier market3](images/premier-market3.png)
 
-Hier wird Ihr Marktkonto erstellt, um weitere Informationen zum Markt zu erhalten
-cliquez
-[hier](https://www.jeedom.fr/doc/documentation/core/de_DE/doc-core-market.html)
+Hier wird Ihr Marktkonto erstellt.
 
-Hinzufügen Ihres Service Pack-Codes 
-================================
+## Hinzufügen Ihres Service Pack-Codes
 
-Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail erhalten haben
-mit einem Code für Ihr Service Pack.
+Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail mit einem Code für Ihr Service Pack erhalten haben.
 
 > **Important**
 >
-> Es ist wichtig, es auszufüllen, da Sie mit diesem Code Zugriff haben
-> bestimmte Plugins kostenlos sowie exklusive Dienste.
+> Es ist wichtig, es auszufüllen, da Sie mit diesem Code kostenlos auf bestimmte Plugins sowie auf exklusive Dienste zugreifen können.
 
 > **Important**
 >
-> Wenn Sie ein Service Pack auf dem Jeedom Markt kaufen, haben Sie es nicht
-> nichts zu tun, es wird Ihnen automatisch zugewiesen.
+> Wenn Sie ein Service Pack auf dem Jeedom Markt kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
-Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen
-[Jeedom Markt](https://market.jeedom.fr) und identifiziere dich.
+Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
 
 Dann gehen Sie zu Ihrer Profilseite:
 
@@ -59,72 +45,49 @@ Geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie:
 
 ![premier servicepack3](images/premier-servicepack3.png)
 
-Hier ist Ihr Service Pack registriert. Weitere Details zum
-Marktklick
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/market.asciidoc)
+Hier ist Ihr Service Pack registriert.
 
 > **Tip**
 >
-> Wenn Sie eine offizielle Jeedom-Box gekauft haben, die Servicenummer
-> Pack sollte per E-Mail an Sie gesendet worden sein. Wenn Sie nichts erhalten haben, danke
-> um das Geschäft zu kontaktieren, in dem Sie Ihre Box gekauft haben.
+> Wenn Sie eine offizielle Jeedom-Box gekauft haben, sollte die Service Pack-Nummer per E-Mail an Sie gesendet worden sein. Wenn Sie nichts erhalten haben, wenden Sie sich bitte an das Geschäft, in dem Sie Ihre Box gekauft haben.
 
-Finden Sie Ihr Jeedom im Netzwerk 
-==================================
+## Finden Sie Ihr Jeedom im Netzwerk
 
-Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist,
-Hier erfahren Sie, wie Sie eine Verbindung herstellen.
+Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist, erfahren Sie hier, wie Sie eine Verbindung herstellen.
 
-Finde Jeedom 
---------------
+### Finde Jeedom
 
-### Durch den Markt 
+#### Durch den Markt
 
-Einfachste Lösung (funktioniert aber in 100% der Fälle nicht in
-Abhängig von der Konfiguration Ihres Internetzugangs müssen Sie starten
-Warten Sie in der Box etwa 10 Minuten (seien Sie vorsichtig, wenn Sie eine verwenden
-Bild vom Typ Netzinstallation, es wird eher 30 Minuten dauern) und los geht's
-[hier](https://www.jeedom.com/market/index.php?v=d&p=find)
+Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig von der Konfiguration Ihres Internetzugangs). Sie müssen die Box starten und etwa 10 Minuten warten (seien Sie vorsichtig, wenn Sie ein Image vom Typ Netzinstallation verwenden, es dauert eher 30 Minuten). und geh [hier](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Tip**
 >
-> Achtung, Sie müssen sich im selben Netzwerk befinden wie die Jeedom-Box für
-> Diese Methode funktioniert.
+> Bitte beachten Sie, dass Sie sich im selben Netzwerk wie die Jeedom-Box befinden müssen, damit diese Methode funktioniert..
 
 > **Important**
 >
-> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht.
-> Wenn ja, nichts Ernstes, melden Sie sich einfach bei an
-> Ihre ADSL-Box und finden Sie die jeedom IP darin. Dieser Schritt
-> tut nichts anderes, als Ihnen die lokale IP Ihres Jeedom zu geben.
-> Es ist dann nicht so, dass Sie Ihr Jeedom Ihrem Konto hinzufügen
-> Markt ist fertig.
+> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht. Wenn ja, nichts Ernstes, müssen Sie nur eine Verbindung zu Ihrer ADSL-Box herstellen und die Jeedom-IP darin finden. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Dies ist nicht der Fall, wenn das Hinzufügen Ihres Jeedom zu Ihrem Marktkonto abgeschlossen ist.
 
-### Durch Ihre Internetbox 
+#### Durch Ihre Internetbox
 
--   Gehen Sie zur Administrationsoberfläche Ihrer Internetbox und
-    Suchen Sie Jeedom in Ihren Netzwerkgeräten.
+-   Gehen Sie zur Administrationsoberfläche Ihrer Internetbox und suchen Sie in Ihren Netzwerkgeräten nach Jeedom.
 
 -   Holen Sie sich seine IP.
 
--   Geben Sie diese IP in Ihren Internetbrowser ein. Du solltest sein
-    auf der Jeedom-Schnittstelle.
+-   Geben Sie diese IP in Ihren Internetbrowser ein. Sie sollten sich auf der Jeedom-Oberfläche befinden.
 
-Erste Verbindung 
-------------------
+## Erste Verbindung
 
-Welche Methode auch immer verwendet wird, Sie gelangen dann auf die Seite von
-Login. Standardmäßig lauten Login und Passwort "admin"".
+Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldeseite. Standardmäßig lauten Login und Passwort "admin"".
 
 ![premier jeedomfinder6](images/premier-jeedomfinder6.png)
 
-Verknüpfe mein Jeedom mit meinem Marktkonto 
-===================================
+## Verknüpfe mein Jeedom mit meinem Marktkonto
 
 Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
--   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen
-    Administration → Konfiguration
+-   Sobald Sie mit Ihrem Jeedom verbunden sind, müssen Sie zu Administration → Konfiguration gehen
 
 -   Klicken Sie auf die Registerkarte **Updates**
 
@@ -134,78 +97,54 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
--   Füllen Sie auch die Felder "Benutzername" und "Passwort" aus."
-    basierend auf Ihren Kennungen (Marktkennungen und nicht
-    Jeedom)
+-   Füllen Sie auch die Felder "Benutzername" und "Passwort" entsprechend Ihren Kennungen aus (Marktkennungen und nicht Jeedom).
 
--   Sie können testen, um die Verbindung zu überprüfen
-    ist richtig gemacht.
+-   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
 
 -   Vergiss nicht zu sparen !
 
-Für weitere Details auf der Konfigurationsseite klicken Sie auf
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/administration.asciidoc)
+Weitere Informationen auf der Konfigurationsseite finden Sie unter * Konfigurationshandbuch -> Administration*.
 .
 
-Holen Sie sich meine direkte Zugriffs-URL 
-==============================
+## Holen Sie sich meine direkte Zugriffs-URL
 
-Wenn Sie ein Service Pack haben, erhalten Sie von Jeedom eine URL
-Direkter Zugriff auf Ihr Jeedom, ohne die Ports öffnen zu müssen
-deine Box oder andere.
+Wenn Sie ein Service Pack haben, bietet Jeedom Ihnen eine direkte Zugriffs-URL zu Ihrem Jeedom, ohne die Ports an Ihrer Box oder einer anderen öffnen zu müssen.
 
-Um es zu konfigurieren, gehen Sie einfach zu
-Allgemein → Administration → Konfiguration
+Um es zu konfigurieren, gehen Sie einfach zu Allgemein → Administration → Konfiguration
 
 Gehen Sie dann zum Abschnitt "Netzwerkkonfiguration""
 
 ![premier dns2](images/premier-dns2.png)
 
-Sobald Sie hier sind, müssen Sie nur noch "Use Jeedom DNS" aktivieren
-Klicken Sie in der Zeile "Verwaltung" auf "Neustart", und Ihre URL wird unter angezeigt
-Auf HTTP-Statusebene können Sie diese natürlich anpassen
-die Marktprofilseite
+Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann in der Zeile "Verwaltung" "Neustart" ausführen. Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Profilseite anpassen vom Markt
 
 > **Important**
 >
-> Wenn Sie gerade Ihr Jeedom mit Ihrem Marktkonto verknüpft haben, müssen Sie dies tun
-> Warten Sie 24 bis 48 Stunden, bevor Sie den DNS-Dienst verwenden können
+> Wenn Sie gerade Ihr Jeedom mit Ihrem Markt-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst nutzen können.
 
-Ändern Sie das Standardkennwort von Jeedom 
-============================================
+## Ändern Sie das Standardkennwort von Jeedom
 
-Einer der wichtigen Schritte ist das Ändern des Standardkennworts von
-Klicken Sie in Ihrem Jeedom-Konto auf Administration → Benutzer
-(oben rechts):
+Einer der wichtigen Schritte besteht darin, das Standardkennwort Ihres Jeedom-Kontos zu ändern. Klicken Sie dazu auf Administration → Benutzer (oben rechts).:
 
-Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen
-**admin** und klicken Sie auf **Passwort ändern** :
+Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen **admin** und klicken Sie auf **Passwort ändern** :
 
 ![premier changeuser2](images/premier-changeuser2.png)
 
-In einem Fenster werden Sie nach dem Passwort gefragt. Achten Sie auf die
-Denken Sie daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen :
+In einem Fenster werden Sie nach dem Passwort gefragt. Denken Sie daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen :
 
 ![premier changeuser3](images/premier-changeuser3.png)
 
-Hier haben Sie das Passwort für das Administratorkonto geändert, um mehr zu erfahren
-Informationen auf dieser Seite klicken
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/user.asciidoc).
+Hier haben Sie das Passwort des Administratorkontos geändert.
 
-Erstelle mein erstes Objekt 
-=======================
+## Erstelle mein erstes Objekt
 
-Sie werden Ihr erstes Objekt erstellen, aber zuerst müssen Sie wissen, was
-Was ist ein Objekt?.
+Sie werden Ihr erstes Objekt erstellen, aber zuerst müssen Sie wissen, was ein Objekt ist.
 
-In Jeedom kann es alles und jedes sein, aber es ist
-empfohlen, es entsprechend Ihren Teilen zu tun.
+In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend Ihren Räumen zu tun.
 
 > **Tip**
 >
-> Es ist beispielsweise möglich, Beziehungen zwischen Objekten zu definieren:
-> Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst gehört
-> zum Hausobjekt.
+> Es ist beispielsweise möglich, Beziehungen zwischen Objekten zu definieren: Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
 
 Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
@@ -223,29 +162,21 @@ Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
 ![premier objet4](images/premier-objet4.png)
 
-Für weitere Informationen zu diesem Teil klicken Sie auf
-[hier](https://github.com/jeedom/core/blob/stable/doc/de_DE/object.asciidoc)
+Weitere Informationen zu diesem Teil finden Sie unter * Benutzerhandbuch -> Objekt*.
 
-Installiere mein erstes Plugin 
-============================
+## Installiere mein erstes Plugin
 
-Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt einige
-Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein.
-Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Verwalten
-plugins.
+Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein. Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Plugins-Verwaltung.
 
 Dann klicken Sie einfach auf Markt:
 
 ![premier plugin2](images/premier-plugin2.png)
 
-Sie haben dann die Liste aller möglichen Plugins
-d'installer.
+Sie haben dann die Liste aller Plugins, die installiert werden können.
 
 > **Important**
 >
-> Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle einer Besorgnis
-> Mit einem inoffiziellen Plugin kann das Jeedom-Team nicht festgehalten werden
-> verantwortlich.
+> Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle eines Problems mit einem inoffiziellen Plugin kann das Jeedom-Team nicht verantwortlich gemacht werden.
 
 ![premier plugin3](images/premier-plugin3.png)
 
@@ -253,95 +184,51 @@ Durch Klicken auf ein Plugin erhalten Sie dessen Datei:
 
 ![premier plugin4](images/premier-plugin4.png)
 
-Sie finden dann : 
+Sie finden dann :
 
-- Schaltflächen zum Installieren des Plugins : Die stabile Version wird dringend empfohlen, 
-- eine Schaltfläche zum Entfernen des Plugins, 
-- eine kurze Beschreibung, 
-- ein Link zur Plugin-Dokumentation, 
-- ein Link zum Changelog (die letzten vorgenommenen Änderungen), 
-- Kompatibilität mit verschiedenen Plattformen, 
-- Nutzerbewertungen, 
-- wie man das Plugin benutzt, 
-- zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
+- Schaltflächen zum Installieren des Plugins : Die stabile Version wird dringend empfohlen,
+- Eine Schaltfläche zum Entfernen des Plugins,
+- Eine kurze Beschreibung,
+- Ein Link zur Plugin-Dokumentation,
+- Ein Link zum Changelog (die letzten vorgenommenen Änderungen),
+- Kompatibilität mit verschiedenen Plattformen,
+- Nutzerbewertungen,
+- Wie man das Plugin benutzt,
+- Zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
 Für weitere Informationen zu Plugins klicken Sie auf [hier](https://jeedom.github.io/core/de_DE/plugin).
 
-Unterstützung 
-=======
+# Unterstützung
+
 
 Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.
-Es gibt jedoch viele Möglichkeiten, die Sie finden können
-Hilfe und stellen Sie Ihre Fragen.
+Es gibt jedoch viele Möglichkeiten, Hilfe zu finden und Ihre Fragen zu stellen..
 
-Jeedom Dokumentation 
---------------------------
+## Das Forum
 
-Sie finden eine vollständige Dokumentation [hier](https://jeedom.fr/doc) :
+Sie werden es finden [hier](https://community.jeedom.com/).
 
-Dies besteht aus mehreren Kategorien:
-
--   Kern : ein Teil für das "Herz" von Jeedom,
-
--   Erste Schritte : Ein Abschnitt (wo Sie gerade sind) für
-    erste Dinge zu wissen,
-
--   Installation : Alles über die Installation von Jeedom,
-
--   Howto : Tutorials zum Fortschritt in verschiedenen Bereichen,
-
--   Plugins : Die Dokumentation der verschiedenen offiziellen Plugins aus
-    Jeedom,
-
--   die anderen : verschiedene Seiten zu den verschiedenen verwendeten Protokollen
-    in Jeedom, die Darstellung von Jeedom, Listen von
-    Kompatibilität usw..
-
-Nachfolgend finden Sie auch die Liste der Dokumentationen für
-Plugins von Drittanbietern.
-
-Fühlen Sie sich frei, die Funktion zu nutzen **rechercher** oben rechts von
-Seite, um Seiten zu finden, die auf einem bestimmten Wort basieren.
-
-Das Forum 
---------
-
-Sie werden es finden [hier](https://jeedom.com/forum) .
-
-Das Forum ist sehr aktiv und enthält viele Informationen. Wenn du
-Haben Sie eine Frage, zögern Sie nicht, sie zu stellen. Sie werden eine Antwort in haben
-weniger als eine Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum ist
-unterhalten von der Jeedom-Gemeinschaft, bestehend aus Freiwilligen, und nicht von der
-Jeedom Firma.
+Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird..
 
 ![premier support3](images/premier-support3.png)
 
-Supportanfragen (oder Tickets) 
-------------------------------------
+## Unterstützunganfragen (oder Tickets)
 
 > **Important**
 >
-> Bitte beachten Sie, dass jede Unterstützunganfrage vorliegen muss
-> ein Konto auf dem Markt.
+> Bitte beachten Sie, dass alle Unterstützunganfragen ein Konto auf dem Markt haben müssen.
 
-Wenn Sie keine Lösung für Ihr Problem gefunden haben, zuletzt
-Rückgriff können Sie Unterstützung vom Jeedom-Team anfordern.
-Diese Anfrage geht durch ein Ticket. Es ist möglich, eine von zu öffnen
-viele Möglichkeiten:
+Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten.. Diese Anfrage geht durch ein Ticket. Es gibt verschiedene Möglichkeiten, eine zu öffnen.:
 
--   Direkt von Jeedom (empfohlene Methode): wo immer du bist
-    In Jeedom befindet sich oben rechts ein Ausrufezeichen
-    Hier können Sie Unterstützung anfordern :
+-   Direkt von Jeedom (empfohlene Methode): Wo immer Sie sich in Jeedom befinden, befindet sich oben rechts ein Ausrufezeichen, mit dem Sie Unterstützung anfordern können :
 
 ![premier support4](images/premier-support4.png)
 
--   Wenn Sie aus irgendeinem Grund keinen Zugriff auf Ihre haben
-    Jeedom, Sie können jederzeit ein Ticket vom Markt öffnen :
+-   Wenn Sie aus irgendeinem Grund keinen Zugang zu Ihrem Jeedom haben, können Sie jederzeit ein Ticket vom Markt öffnen :
 
     -   entweder mit dem Ausrufezeichen oben rechts,
 
-    -   Gehen Sie entweder zu Ihrem Profil (und klicken Sie dann auf die Schaltfläche
-        "Supportanfrage öffnen ").
+    -   entweder indem Sie zu Ihrem Profil gehen (dann auf die Schaltfläche "Supportanfrage öffnen" klicken).
 
 ![premier support5](images/premier-support5.png)
 
@@ -349,14 +236,11 @@ Alle weiteren Austausche erfolgen per E-Mail.
 
 > **Tip**
 >
-> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird
-> Wenn Sie Ihr Kontingent erreicht haben, sind Sie auf eines beschränkt
-> Anzahl der Unterstützunganfragen pro Monat, abhängig von Ihrer
-> Service Pack.
+> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, bedeutet dies, dass Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Unterstützunganfragen pro Monat beschränkt sind.
 
-Die verschiedenen Service Packs sind : \* Community (kostenlos): 2
-Tickets / Monat (nur für kostenpflichtige Plugins) \* Power: 10 Tickets / Monat
-\* Pro: 100 Tickets / Monat
+Die verschiedenen Service Packs sind :
+- Community (kostenlos): 2 Tickets / Monat (nur für kostenpflichtige Plugins)
+- Macht: 10 Tickets / Monat
+- Pro: 100 Tickets / Monat
 
-Sie finden die Details der Service Packs
-[hier](https://www.jeedom.com/site/fr/soft.html#obtenir)
+Sie finden die Details der Service Packs [hier](https://www.jeedom.com/site/fr/soft.html#obtenir)

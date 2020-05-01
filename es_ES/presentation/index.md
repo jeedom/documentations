@@ -16,6 +16,13 @@ El núcleo incluye:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
+
+## Creación de widgets
+
+*Jeedom ofrece un motor de creación de widgets para mosaicos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos.. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
+
+![Dashboard](images/doc-presentation-widgets)
+
 ## Histórico
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*

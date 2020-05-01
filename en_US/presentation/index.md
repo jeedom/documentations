@@ -16,6 +16,13 @@ The Core includes:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
+
+## Widget creation
+
+*Jeedom offers a Widget creation engine for equipment tiles. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
+
+![Dashboard](images/doc-presentation-widgets)
+
 ## Historical
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*

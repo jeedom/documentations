@@ -16,6 +16,13 @@ Der Kern enthält:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
+
+## Widget-Erstellung
+
+*Jeedom bietet eine Widget-Erstellungs-Engine für Gerätekacheln. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
+
+![Dashboard](images/doc-presentation-widgets)
+
 ## Historisch
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
