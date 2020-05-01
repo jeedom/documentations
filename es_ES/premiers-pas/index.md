@@ -5,19 +5,16 @@ Bienvenido a la documentación de este primer paso, le ayudará a poner su Jeedo
 
 ## Registro en el mercado
 
-Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él, haga clic en [aquí](https://market.jeedom.com/) para empezar.
+Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aquí](https://market.jeedom.com/).
 
-![premier market](images/premier-market.png)
+Haga clic en el botón "Registrarse" en la esquina superior izquierda:
 
-Haga clic en el botón "Registrarse" en la esquina superior derecha:
+![S'enregistrer sur le Mercado](images/FirstStep_market1.jpg)
 
-![premier market2](images/premier-market2.png)
+Rellene los diferentes campos y valide. Entonces deberías estar en tu cuenta de Mercado:
 
-Rellene los diferentes campos y valide. Entonces te encontrarás con esta página:
+![Mercado](images/FirstStep_market2.jpg)
 
-![premier market3](images/premier-market3.png)
-
-Aquí está su cuenta Mercado creada.
 
 ## Agregar su código de paquete de servicio
 
@@ -35,17 +32,9 @@ Una vez que se recupera el código en el correo, solo necesita ir al [Mercado de
 
 Luego ve a tu página de perfil:
 
-![premier servicepack](images/premier-servicepack.png)
+![Profil Mercado](images/FirstStep_market_sp1.jpg)
 
-Luego haga clic en la pestaña "Mis Jeedoms""
-
-![premier servicepack2](images/premier-servicepack2.png)
-
-Ingrese su número de paquete de servicio y valide:
-
-![premier servicepack3](images/premier-servicepack3.png)
-
-Aquí está su paquete de servicio registrado.
+Luego haga clic en la pestaña "Mis servicios" e ingrese su número de paquete de servicio y valide.
 
 > **Tip**
 >
@@ -81,7 +70,7 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 
 Cualquiera que sea el método utilizado, llegarás a la página de inicio de sesión. Por defecto, el nombre de usuario y la contraseña son "admin".
 
-![premier jeedomfinder6](images/premier-jeedomfinder6.png)
+![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
 ## Enlace mi Jeedom a mi cuenta de mercado
 
@@ -110,11 +99,11 @@ Para obtener más detalles sobre la página de configuración, consulte * Manual
 
 Si tiene un Service Pack, Jeedom le proporciona una URL de acceso directo a su Jeedom sin tener que abrir los puertos en su caja u otro.
 
-Para configurarlo, simplemente vaya a General → Administración → Configuración
+Para configurarlo, simplemente vaya a Configuración → Sistema → Configuración
 
-Luego vaya a la sección "Configuración de red""
+Luego ve a la parte de "Redes""
 
-![premier dns2](images/premier-dns2.png)
+![Réseaux](images/FirstStep_dns.jpg)
 
 Una vez aquí, solo necesita activar "Usar Jeedom DNS", luego en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarlo desde la página de perfil del mercado
 
@@ -124,17 +113,14 @@ Una vez aquí, solo necesita activar "Usar Jeedom DNS", luego en la línea "Admi
 
 ## Cambiar la contraseña predeterminada de Jeedom
 
-Uno de los pasos importantes es cambiar la contraseña predeterminada de su cuenta Jeedom, para esto haga clic en Administración → Usuarios (arriba a la derecha):
+Uno de los pasos importantes es cambiar la contraseña predeterminada de su cuenta Jeedom, para eso haga clic en Configuración → Sistema → Usuarios:
 
-Una vez en él, solo tiene que elegir la línea con el usuario **admin** y haga clic en **Cambiar contraseña** :
+Una vez en él, solo tiene que elegir la línea con el usuario **admin** y haga clic en **Contraseña** :
 
-![premier changeuser2](images/premier-changeuser2.png)
+![Contraseña](images/FirstStep_boxPassword.jpg)
 
-Una ventana le pedirá la contraseña. Tenga cuidado de recordarlo, de lo contrario ya no podrá acceder a su Jeedom :
 
-![premier changeuser3](images/premier-changeuser3.png)
-
-Aquí has cambiado la contraseña de la cuenta de Administraciónistrador.
+Una ventana le pedirá la contraseña. Tenga cuidado de recordarlo bien, o ya no podrá acceder a su Jeedom.
 
 ## Crear mi primer objeto
 
@@ -144,23 +130,17 @@ En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus
 
 > **Tip**
 >
-> Es posible definir relaciones entre objetos, ejemplo: la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
+> Es posible definir relaciones entre objetos.. Ejemplo: la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
 
 Nada podría ser más simple para crear un objeto :
 
 -   Vaya a Herramientas → Objetos
 
--   Haga clic en el botón Agregar.:
+-   Haga clic en el botón Agregar
 
-![premier objet2](images/premier-objet2.png)
+-   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
--   Jeedom te preguntará el nombre:
-
-![premier objet3](images/premier-objet3.png)
-
--   Validar. Este es tu primer objeto creado :
-
-![premier objet4](images/premier-objet4.png)
+![Objet](images/FirstStep_object.jpg)
 
 Para obtener más información sobre esta parte, consulte * Manual del usuario -> Objeto*.
 
@@ -170,19 +150,17 @@ Un complemento permite agregar funcionalidad a Jeedom. Hay cientos. Muchos son g
 
 Luego solo haga clic en Mercado:
 
-![premier plugin2](images/premier-plugin2.png)
-
 Luego tendrá la lista de todos los complementos que se pueden instalar.
 
 > **Important**
 >
 > Tenga en cuenta que algunos son oficiales y otros no. En el caso de un problema con un complemento no oficial, el equipo de Jeedom no se hace responsable.
 
-![premier plugin3](images/premier-plugin3.png)
+![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
 Al hacer clic en un complemento obtienes su archivo:
 
-![premier plugin4](images/premier-plugin4.png)
+![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
 Entonces encuentras :
 
@@ -196,7 +174,7 @@ Entonces encuentras :
 - Cómo usar el complemento,
 - Información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-Para obtener más información sobre complementos, haga clic en [aquí](https://jeedom.github.io/core/es_ES/plugin).
+Para obtener más información sobre complementos, * Manual del usuario -> Complemento*.
 
 # Apoyo
 
@@ -210,7 +188,6 @@ Lo encontraras [aquí](https://community.jeedom.com/).
 
 El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, no dude en preguntarla.. Tendrás una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom..
 
-![premier support3](images/premier-support3.png)
 
 ## Solicitudes de soporte (o tickets)
 
@@ -220,17 +197,15 @@ El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, 
 
 Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom.. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno.:
 
--   Directamente de Jeedom (método recomendado): donde quiera que se encuentre en Jeedom, hay un signo de exclamación en la esquina superior derecha que le permite solicitar asistencia :
-
-![premier support4](images/premier-support4.png)
+-   Directamente de Jeedom (método recomendado): Menú de configuración → Solicitud de soporte.
 
 -   Si por alguna razón no tiene acceso a su Jeedom, siempre puede abrir un boleto del Mercado :
 
-    -   ya sea con el signo de exclamación en la esquina superior derecha,
+    -   O haciendo clic en su nombre y luego en * Solicitud de soporte*,
 
-    -   ya sea yendo a su perfil (luego haga clic en el botón "Abrir una solicitud de soporte").
+    -   ya sea yendo a tu perfil, luego en la sección **Tickets**, use el botón "Abrir una solicitud de soporte".
 
-![premier support5](images/premier-support5.png)
+![Demande de support](images/FirstStep_support.jpg)
 
 Todos los intercambios posteriores serán por correo electrónico..
 

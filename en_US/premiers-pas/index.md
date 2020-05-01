@@ -5,19 +5,16 @@ Welcome to this first step documentation, it will help you to put your Jeedom in
 
 ## Registration on the market
 
-The first thing to do is to create an account on the Market to be able to register your Jeedom on it, click [here](https://market.jeedom.com/) to begin.
+The first thing to do is to create an account on the Market to be able to register your Jeedom on it. Click [here](https://market.jeedom.com/).
 
-![premier market](images/premier-market.png)
+Click on the "Register" button at the top left:
 
-Click on the "Register" button at the top right:
+![S'enregistrer sur le Market](images/FirstStep_market1.jpg)
 
-![premier market2](images/premier-market2.png)
+Fill in the different fields and validate. You should then be in your Market account:
 
-Fill in the different fields and validate. You will then come across this page:
+![Market](images/FirstStep_market2.jpg)
 
-![premier market3](images/premier-market3.png)
-
-Here is your Market account is created.
 
 ## Adding your service pack code
 
@@ -35,17 +32,9 @@ Once the code is retrieved in the mail, you just need to go to the [Jeedom Marke
 
 Then go to your profile page:
 
-![premier servicepack](images/premier-servicepack.png)
+![Profil Market](images/FirstStep_market_sp1.jpg)
 
-Then click on the "My Jeedoms" tab"
-
-![premier servicepack2](images/premier-servicepack2.png)
-
-Enter your service pack number and validate:
-
-![premier servicepack3](images/premier-servicepack3.png)
-
-Here is your service pack is registered.
+Then click on the "My services" tab, and enter your service pack number and validate.
 
 > **Tip**
 >
@@ -81,7 +70,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 
 Whichever method is used, you will then arrive on the Login page. By default the login and password are "admin".
 
-![premier jeedomfinder6](images/premier-jeedomfinder6.png)
+![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
 ## Link my Jeedom to my market account
 
@@ -110,11 +99,11 @@ For more details on the configuration page, see * Configuration manual -> Admini
 
 If you have a Service Pack, Jeedom provides you with a direct access URL to your Jeedom without having to open the ports on your box or other.
 
-To configure it, simply go to General → Administration → Configuration
+To configure it, simply go to Settings → System → Configuration
 
-Then go to the "Network configuration" section"
+Then go to the "Networks" part"
 
-![premier dns2](images/premier-dns2.png)
+![Réseaux](images/FirstStep_dns.jpg)
 
 Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market
 
@@ -124,17 +113,14 @@ Once here, you just need to activate "Use Jeedom DNS" then on the "Management" l
 
 ## Change Jeedom's default password
 
-One of the important steps is to change the default password of your Jeedom account, for this click on Administration → Users (top right):
+One of the important steps is to change the default password of your Jeedom account, for that click on Settings → System → Users:
 
-Once on it you just have to choose the line with the user **admin** and click on **To change the password** :
+Once on it you just have to choose the line with the user **admin** and click on **Password** :
 
-![premier changeuser2](images/premier-changeuser2.png)
+![Password](images/FirstStep_boxPassword.jpg)
 
-A window will ask you for the password. Be careful to remember it, otherwise you will no longer be able to access your Jeedom :
 
-![premier changeuser3](images/premier-changeuser3.png)
-
-Here you have changed the password of the admin account.
+A window will ask you for the password. Be careful to remember it well, or you will no longer be able to access your Jeedom.
 
 ## Create my first object
 
@@ -144,23 +130,17 @@ In Jeedom, it can be anything and everything, but it is recommended to do it acc
 
 > **Tip**
 >
-> It is possible to define relationships between objects, example: the living room belongs to the ground floor object which itself belongs to the house object.
+> It is possible to define relationships between objects. Example: the living room belongs to the ground floor object which itself belongs to the house object.
 
 Nothing could be simpler to create an object :
 
 -   Go to Tools → Objects
 
--   Click on the add button:
+-   Click on the Add button
 
-![premier objet2](images/premier-objet2.png)
+-   Jeedom will ask you the name of it. Validate. This is your first object created :
 
--   Jeedom will ask you the name of it:
-
-![premier objet3](images/premier-objet3.png)
-
--   Validate. This is your first object created :
-
-![premier objet4](images/premier-objet4.png)
+![Objet](images/FirstStep_object.jpg)
 
 For more information on this part, see * User manual -> Object*.
 
@@ -170,19 +150,17 @@ A plugin allows to add functionality to Jeedom. There are hundreds. Many are fre
 
 Then just click on Market:
 
-![premier plugin2](images/premier-plugin2.png)
-
 You will then have the list of all plugins that can be installed.
 
 > **Important**
 >
 > Please note, some are official and others are not. In the event of a problem with an unofficial plugin, the Jeedom team cannot be held responsible.
 
-![premier plugin3](images/premier-plugin3.png)
+![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
 By clicking on a plugin you get its file:
 
-![premier plugin4](images/premier-plugin4.png)
+![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
 You then find :
 
@@ -196,7 +174,7 @@ You then find :
 - How to use the plugin,
 - Additional information like the author, the link to the forum discussion regarding this plugin, the date of the last update, etc..
 
-For more information on plugins click [here](https://jeedom.github.io/core/en_US/plugin).
+For more information on plugins, * User manual -> Plugin*.
 
 # Support
 
@@ -210,7 +188,6 @@ You will find it [here](https://community.jeedom.com/).
 
 The forum is very active and contains a lot of information. If you have a question, don't hesitate to ask it. You will have an answer in less than an hour (on average). Please note, the forum is maintained by the Jeedom community, made up of volunteers, and not by the Jeedom company..
 
-![premier support3](images/premier-support3.png)
 
 ## Support requests (or tickets)
 
@@ -220,17 +197,15 @@ The forum is very active and contains a lot of information. If you have a questi
 
 If you have not found a solution to your problem, as a last resort, you can request support from the Jeedom team.. This request goes through a ticket. There are several ways to open one.:
 
--   Directly from Jeedom (recommended method): wherever you are in Jeedom, there is an exclamation mark at the top right which allows you to request support :
-
-![premier support4](images/premier-support4.png)
+-   Directly from Jeedom (recommended method): Settings menu → Support request.
 
 -   If for some reason you do not have access to your Jeedom, you can always open a ticket from the Market :
 
-    -   either with the exclamation mark at the top right,
+    -   Either by clicking on your name then on * Support request*,
 
-    -   either by going to your profile (then click on the "Open a support request" button).
+    -   either by going to your profile, then in the section **Tickets**, use the button "Open a support request".
 
-![premier support5](images/premier-support5.png)
+![Demande de support](images/FirstStep_support.jpg)
 
 All further exchanges will be by email.
 

@@ -5,19 +5,16 @@ Willkommen zu dieser Dokumentation des ersten Schritts, die Ihnen hilft, Ihr Jee
 
 ## Registrierung am Markt
 
-Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/) um zu beginnen.
+Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/).
 
-![premier market](images/premier-market.png)
+Klicken Sie oben links auf die Schaltfläche "Registrieren":
 
-Klicken Sie oben rechts auf die Schaltfläche "Registrieren":
+![S'enregistrer sur le Markt](images/FirstStep_market1.jpg)
 
-![premier market2](images/premier-market2.png)
+Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie sollten sich dann in Ihrem Marktkonto befinden:
 
-Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie werden dann auf diese Seite stoßen:
+![Markt](images/FirstStep_market2.jpg)
 
-![premier market3](images/premier-market3.png)
-
-Hier wird Ihr Marktkonto erstellt.
 
 ## Hinzufügen Ihres Service Pack-Codes
 
@@ -35,17 +32,9 @@ Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeed
 
 Dann gehen Sie zu Ihrer Profilseite:
 
-![premier servicepack](images/premier-servicepack.png)
+![Profil Markt](images/FirstStep_market_sp1.jpg)
 
-Klicken Sie dann auf die Registerkarte "Meine Jeedoms""
-
-![premier servicepack2](images/premier-servicepack2.png)
-
-Geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie:
-
-![premier servicepack3](images/premier-servicepack3.png)
-
-Hier ist Ihr Service Pack registriert.
+Klicken Sie dann auf die Registerkarte "Meine Dienste", geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie.
 
 > **Tip**
 >
@@ -81,7 +70,7 @@ Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig 
 
 Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldeseite. Standardmäßig lauten Login und Passwort "admin"".
 
-![premier jeedomfinder6](images/premier-jeedomfinder6.png)
+![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
 ## Verknüpfe mein Jeedom mit meinem Marktkonto
 
@@ -110,11 +99,11 @@ Weitere Informationen auf der Konfigurationsseite finden Sie unter * Konfigurati
 
 Wenn Sie ein Service Pack haben, bietet Jeedom Ihnen eine direkte Zugriffs-URL zu Ihrem Jeedom, ohne die Ports an Ihrer Box oder einer anderen öffnen zu müssen.
 
-Um es zu konfigurieren, gehen Sie einfach zu Allgemein → Administration → Konfiguration
+Um es zu konfigurieren, gehen Sie einfach zu Einstellungen → System → Konfiguration
 
-Gehen Sie dann zum Abschnitt "Netzwerkkonfiguration""
+Gehen Sie dann zum Teil "Netzwerke""
 
-![premier dns2](images/premier-dns2.png)
+![Réseaux](images/FirstStep_dns.jpg)
 
 Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann in der Zeile "Verwaltung" "Neustart" ausführen. Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Profilseite anpassen vom Markt
 
@@ -124,17 +113,14 @@ Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann
 
 ## Ändern Sie das Standardkennwort von Jeedom
 
-Einer der wichtigen Schritte besteht darin, das Standardkennwort Ihres Jeedom-Kontos zu ändern. Klicken Sie dazu auf Administration → Benutzer (oben rechts).:
+Einer der wichtigen Schritte besteht darin, das Standardkennwort Ihres Jeedom-Kontos zu ändern. Klicken Sie dazu auf Einstellungen → System → Benutzer:
 
-Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen **admin** und klicken Sie auf **Passwort ändern** :
+Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswählen **admin** und klicken Sie auf **Passwort** :
 
-![premier changeuser2](images/premier-changeuser2.png)
+![Passwort](images/FirstStep_boxPassword.jpg)
 
-In einem Fenster werden Sie nach dem Passwort gefragt. Denken Sie daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen :
 
-![premier changeuser3](images/premier-changeuser3.png)
-
-Hier haben Sie das Passwort des Administratorkontos geändert.
+In einem Fenster werden Sie nach dem Passwort gefragt. Denken Sie gut daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen.
 
 ## Erstelle mein erstes Objekt
 
@@ -144,23 +130,17 @@ In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend 
 
 > **Tip**
 >
-> Es ist beispielsweise möglich, Beziehungen zwischen Objekten zu definieren: Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
+> Es ist möglich, Beziehungen zwischen Objekten zu definieren. Beispiel: Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
 
 Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
 -   Gehen Sie zu Extras → Objekte
 
--   Klicken Sie auf die Schaltfläche Hinzufügen:
+-   Klicken Sie auf die Schaltfläche Hinzufügen
 
-![premier objet2](images/premier-objet2.png)
+-   Jeedom wird dich nach dem Namen fragen. Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
--   Jeedom wird dich nach dem Namen fragen:
-
-![premier objet3](images/premier-objet3.png)
-
--   Validieren. Dies ist Ihr erstes erstelltes Objekt :
-
-![premier objet4](images/premier-objet4.png)
+![Objet](images/FirstStep_object.jpg)
 
 Weitere Informationen zu diesem Teil finden Sie unter * Benutzerhandbuch -> Objekt*.
 
@@ -170,19 +150,17 @@ Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt Hundert
 
 Dann klicken Sie einfach auf Markt:
 
-![premier plugin2](images/premier-plugin2.png)
-
 Sie haben dann die Liste aller Plugins, die installiert werden können.
 
 > **Important**
 >
 > Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle eines Problems mit einem inoffiziellen Plugin kann das Jeedom-Team nicht verantwortlich gemacht werden.
 
-![premier plugin3](images/premier-plugin3.png)
+![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
 Durch Klicken auf ein Plugin erhalten Sie dessen Datei:
 
-![premier plugin4](images/premier-plugin4.png)
+![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
 Sie finden dann :
 
@@ -196,7 +174,7 @@ Sie finden dann :
 - Wie man das Plugin benutzt,
 - Zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
-Für weitere Informationen zu Plugins klicken Sie auf [hier](https://jeedom.github.io/core/de_DE/plugin).
+Weitere Informationen zu Plugins finden Sie im * Benutzerhandbuch -> Plugin*.
 
 # Unterstützung
 
@@ -210,7 +188,6 @@ Sie werden es finden [hier](https://community.jeedom.com/).
 
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird..
 
-![premier support3](images/premier-support3.png)
 
 ## Unterstützunganfragen (oder Tickets)
 
@@ -220,17 +197,15 @@ Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage h
 
 Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten.. Diese Anfrage geht durch ein Ticket. Es gibt verschiedene Möglichkeiten, eine zu öffnen.:
 
--   Direkt von Jeedom (empfohlene Methode): Wo immer Sie sich in Jeedom befinden, befindet sich oben rechts ein Ausrufezeichen, mit dem Sie Unterstützung anfordern können :
-
-![premier support4](images/premier-support4.png)
+-   Direkt von Jeedom (empfohlene Methode): Einstellungsmenü → Unterstützunganfrage.
 
 -   Wenn Sie aus irgendeinem Grund keinen Zugang zu Ihrem Jeedom haben, können Sie jederzeit ein Ticket vom Markt öffnen :
 
-    -   entweder mit dem Ausrufezeichen oben rechts,
+    -   Klicken Sie entweder auf Ihren Namen und dann auf * Unterstützunganfrage*,
 
-    -   entweder indem Sie zu Ihrem Profil gehen (dann auf die Schaltfläche "Supportanfrage öffnen" klicken).
+    -   entweder indem Sie zu Ihrem Profil gehen, dann in den Abschnitt **Tickets**, Verwenden Sie die Schaltfläche "Supportanfrage öffnen".
 
-![premier support5](images/premier-support5.png)
+![Demande de support](images/FirstStep_support.jpg)
 
 Alle weiteren Austausche erfolgen per E-Mail.
 
