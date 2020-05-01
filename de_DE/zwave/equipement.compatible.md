@@ -1,5 +1,6 @@
 
 # aeotec
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|aeotec|RanAlter Extender (DSD37)|Repeater|Modul ohne Funktionalität, außer zur Weitergabe von Netzwerkinformationen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
@@ -87,6 +88,7 @@
 |<img src="../../de_DE/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|aeotec|Einbautürsensor Gen5 (ZW089)|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 
 # aeotec
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|aeotec|NanoMote Quad (ZWA003)|Fernbedienung|||
@@ -100,6 +102,7 @@
 |<img src="../../de_DE/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|aeotec|LED-Lampe 6 mehrfarbig (ZWA002)|Ampoule|||
 
 # Assa Abloy
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/297.1.0_yrl220.doorlock.jpg" width="60" />|Assa Abloy|Yale Touchscreen-Hebel (YRL220)|Serrure|Aufnahme in den sicheren Modus||
@@ -111,6 +114,7 @@
 |<img src="../../de_DE/zwave/images/297.7151.37424_doorlock.jpg" width="60" />|Assa Abloy|Yale Keyless Connected Smart Lock (YSL)|Serrure|Aufnahme in den sicheren Modus||
 
 # benext
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||benext|Eingebauter Dimmer|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html)|
@@ -128,12 +132,14 @@
 |<img src="../../de_DE/zwave/images/138.7.257_minikeypad.jpg" width="60" />|benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
 # chromagisch
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||chromagic|HSP02|Multicapteurs|Dieses Modul wird derzeit unter der Marke Everspring verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
 ||chromagic|HSM02|Ouverture|Dieses Modul wird derzeit unter der Marke Everspring verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 
 # Danfoss
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/2.100.1_ra.plus-w.radiator.thermostat.jpg" width="60" />|danfoss|RA Plus-W Kühlerthermostat|Thermostat|||
@@ -146,6 +152,7 @@
 |<img src="../../de_DE/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|danfoss|Living Connect Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
 
 # Devolo
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/373.1.17_mt02646.metering.plug.jpg" width="60" />|devolo|Dosierstecker (MT02646)|Prise|||
@@ -160,6 +167,7 @@
 |<img src="../../de_DE/zwave/images/373.8196.1188_mt02651.smoke.jpg" width="60" />|devolo|Rauchmelder MT02651|Rauch|||
 
 # dlink
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/264.2.13_dchz120.3in1.sensor.jpg" width="60" />|dlink|DCH-Z120|Präsenz|||
@@ -167,6 +175,7 @@
 |<img src="../../de_DE/zwave/images/264.4.10_dchz510.siren.jpg" width="60" />|dlink|DCH-Z510|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html)|
 
 # Kuppel
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/543.3.131_motion-sensor.jpg" width="60" />|dome|Bewegungsmelder|Multicapteurs|||
@@ -179,11 +188,13 @@
 |<img src="../../de_DE/zwave/images/543.3.513_door.window.sensor.pro.jpg" width="60" />|dome|Tür- / Fenstersensor Pro|Ouverture|||
 
 # domitech
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/526.19522.12596_ze27eu.jpg" width="60" />|domitech|Smart LED Retrofit Kit ZE27EU|Interrupteur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3226-domitech-ampoule-led-dimmable-z-wave-zbulb-869166000060.html)|
 
 # domux
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|domux|Bewegungssensor (DX1MS-Z)|Multicapteurs|||
@@ -197,6 +208,7 @@
 |<img src="../../de_DE/zwave/images/540.360.360_dx1dsz_door_sensor.jpg" width="60" />|domux|Türsensor (DX1DS-Z)|Ouverture|||
 
 # duwi
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/100.1.0_zw.edan.300.flush.mounted.dimmer.jpg" width="60" />|duwi|ZW EDAN 300 Dimmer|Interrupteur|Es ist erforderlich, die AbfraAlter zu aktivieren, um den Status wiederherzustellen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/749-duwi-interrupteur-variateur-everlux-z-wave-4008297054337.html)|
@@ -209,16 +221,19 @@
 |<img src="../../de_DE/zwave/images/100.8193.0_zw.es.1000.flush.mounted.switch.jpg" width="60" />|duwi|ZW_ES_1000 Wandstecker |Interrupteur|Es ist erforderlich, die AbfraAlter zu aktivieren, um den Status wiederherzustellen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html)|
 
 # ecolink
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/330.1.2_door.window.sensor.jpg" width="60" />|ecolink|Tür- / Fenstersensor|Ouverture|||
 
 # elektronische Lösungen
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/51.21072.12338_dbmz.jpg" width="60" />|electronicsolutions|DBMZ Motorsteuerung|Volets|||
 
 # eurotronic
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/328.1.1_eur_stellaz.jpg" width="60" />|eurotronic|Thermostatventil Z-Wave StellaZ|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2361-eurotronic-vanne-thermostatique-z-wave-stellaz.html)|
@@ -228,6 +243,7 @@
 |<img src="../../de_DE/zwave/images/328.3.3_eur.spiritz.wall.radiator.thermostat.jpg" width="60" />|eurotronic|Thermostatventil Spiritz|Thermostat|||
 
 # Everspring
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/96.1.1_hsp02.motion.detector.jpg" width="60" />|everspring|HSP02 Bewegungsmelder|Multicapteurs||[Kaufen](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
@@ -259,11 +275,13 @@
 |<img src="../../de_DE/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|everspring|TSE03 Türklingel|Carillon|||
 
 # entwickeln
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/275.21079.13619_LSM-15.jpg" width="60" />|evolve|LSM-15|Micromodule|||
 
 # Fakro
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/133.2.1_zws12.jpg" width="60" />|fakro|||||
@@ -273,6 +291,7 @@
 |<img src="../../de_DE/zwave/images/133.3.2_zws230.jpg" width="60" />|fakro|Kettenantrieb ZWS230 230VAC|Volets|Erfordert die Aufnahme in den sicheren Modus|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2362-fakro-moteur-pour-fenetre-de-toit-z-wave-zws230-5900988500378.html)|
 
 # Fibaro
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
@@ -370,11 +389,13 @@
 |<img src="../../de_DE/zwave/images/271.7937.4096_fgwof011.walli.outlet.type.f.jpg" width="60" />|fibaro|FGWOF-011 Walli Outlet Typ F.|Prise|||
 
 # firstalert
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/312.1.2_zcombo.jpg" width="60" />|firstalert|ZCombo Rauch- und Kohlenmonoxidmelder|Rauch|||
 
 # Fortrezz
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/132.1105.273_mimolite.jpg" width="60" />|fortrezz|MIMOlite|Compteur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html)|
@@ -389,6 +410,7 @@
 |<img src="../../de_DE/zwave/images/132.833.517_ssa3.jpg" width="60" />|fortrezz|SSA-03|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 
 # Alter
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/99.18756.12337_12724.dimmer.jpg" width="60" />|ge|12724 3-Wege-Dimmer|Micromodule|||
@@ -397,23 +419,27 @@
 |<img src="../../de_DE/zwave/images/99.18770.12338_relay.jpg" width="60" />|ge|12722 Ein / Aus-Relaisschalter|Micromodule|||
 
 # Gig
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/152.25857.12_ct101.thermostat.iris.jpg" width="60" />|gig|CT101 Iris-Thermostat|Thermostat|||
 
 # gr-smarthome
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/338.3.1298_gr.auto_valve.jpg" width="60" />|gr-smarthome|1/4 Umdrehungsventil (GR-105N)|Vanne|||
 |<img src="../../de_DE/zwave/images/338.514.1297_gr.auto_valve.jpg" width="60" />|gr-smarthome|1/4 Umdrehungsventil (GR-105)|Vanne||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html)|
 
 # Grünwelle
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/153.2.2_powernode.1.port.jpg" width="60" />|greenwave|Powernode 1|Prise||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2857-greenwave-module-prise-z-wave-powernode-schuko-8886464000235.html)|
 |<img src="../../de_DE/zwave/images/153.3.4_powernode.6.port.jpg" width="60" />|greenwave|Powernode 6-Buchsen|Multiprise|Lesen Sie die Dokumentation zur automatischen Verbrauchsmeldung|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html)|
 
 # hank
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|hank|Smart Plug (HKZW-SO05)|Prise|||
@@ -427,6 +453,7 @@
 |<img src="../../de_DE/zwave/images/520.513.9_scene-controller-1.jpg" width="60" />|hank|Szenensteuerung 1|Tragbarer Controller|||
 
 # heiman
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/608.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|heiman|Bewegungssensor (HS1MS-Z)|Multicapteurs|||
@@ -440,18 +467,21 @@
 |<img src="../../de_DE/zwave/images/608.360.360_dx1dsz_door_sensor.jpg" width="60" />|heiman|Türsensor (HS1DS-Z)|Ouverture|||
 
 # Heltun
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/836.3.1_he-zw-therm-fl2.jpg" width="60" />|heltun|Heltun HEZWTHERM-FL2|Chauffage|||
 |<img src="../../de_DE/zwave/images/836.3.3_heltun-switcher-5ch.jpg" width="60" />|heltun|Heltun Switvher 5 Channel|Interrupteur|||
 
 # Homeseer
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/30.2.1_hsm100.ez.motion.3in1.jpg" width="60" />|homeseer|EZMotion 3in1|Multicapteurs|||
 |<img src="../../de_DE/zwave/images/30.2.2_hsm100.ez.motion.3in1.jpg" width="60" />|homeseer|EZMotion + 3in1|Multicapteurs|||
 
 # horstmann
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|horstmann|HRT4-ZW Sender|Thermostat|Modul unter dem Markennamen Secure SRT321 erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
@@ -464,28 +494,33 @@
 |<img src="../../de_DE/zwave/images/89.4.1_scsc17.jpg" width="60" />|horstmann|SCS317, 7 TaAlter programmierbarer Raumthermostat|Thermostat|Modul unter der Marke Secure verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html)|
 
 # inovelli
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||inovelli|||||
 ||inovelli|||||
 
 # Kaipule
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/532.2.1_im20.door.window.sensor.jpg" width="60" />|kaipule|IM20 Magnetkontakt|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3871-kaipule-detecteur-d-ouverture-portefenetre-z-wave.html)|
 |<img src="../../de_DE/zwave/images/532.3.2_pir.celing.sensor.jpg" width="60" />|kaipule|PIR-Sensor|Präsenz|||
 
 # kwikset
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/144.1.1_smartcode912.jpg" width="60" />|kwikset|Elektronischer Riegel-Smartcode|Serrure|||
 
 # linear
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/335.18260.12344_lb60z1.jpg" width="60" />|linear|Dimmbare LED-Glühbirne (LB60Z-1)|Ampoule|||
 
 # mco
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/351.12546.513_mco.home.mh-s311.simple.jpg" width="60" />|mco|MH-S311 Einfach|Interrupteur|Entspricht MH-S411|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html)|
@@ -508,6 +543,7 @@
 |<img src="../../de_DE/zwave/images/351.8458.4866_mh.p210.dimmer.jpg" width="60" />|mco|MH-P210 Mini-Energiedimmer|Micromodule|Verkauft unter dem Markennamen Zipato|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
 
 # neocoolcam
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/600.3.131_nas-pd01z.jpg" width="60" />|neocoolcam|PIR-Sensor|Multicapteurs|||
@@ -521,6 +557,7 @@
 |<img src="../../de_DE/zwave/images/600.512.4135_nas.wr01ze.power.plug.jpg" width="60" />|neocoolcam|Smart Power Plug NAS-WR01ZE|Prise|||
 
 # Nicken
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/357.1.1_smartplug.nodon.jpg" width="60" />|nodon|Smartplug|Prise||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2892-nodon-prise-intelligente-z-wave-type-schuko-3700313920206.html)|
@@ -530,6 +567,7 @@
 |<img src="../../de_DE/zwave/images/357.2.3_nodon.cws.3.1.01.wall.switch.jpg" width="60" />|nodon|Wandschalter|Interrupteur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 
 # northq
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/150.1.1_nq-92021.power.reader.jpg" width="60" />|northq|Power Reader|Compteur|Aktivieren Sie die manuelle Aktualisierung des Energiewerts nach 5 Minuten, um die Berichte zu erhalten|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1538-northq-compteur-optique-de-consommation-z-wave-adaptateur-ac-dc-5707162002242.html)|
@@ -537,11 +575,13 @@
 |<img src="../../de_DE/zwave/images/150.16.1_nq-9121.gaz.meter.jpg" width="60" />|northq|Gaszähler NQ-9121|Compteur|Aktivieren Sie die manuelle Aktualisierung des Gaswerts nach 5 Minuten, um die Berichte zu erhalten|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html)|
 
 # oomi
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/362.2.130_zw130_wallmote.quad.jpg" width="60" />|oomi|WallMote Quad (ZW130)|Fernbedienung|||
 
 # Philio
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/316.1.15_pan03.jpg" width="60" />|philio|PAN03-Schaltermodul mit Messgerät 3 KW X1|Micromodule|Auch unter der Marke Zipato erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html)|
@@ -565,6 +605,7 @@
 |<img src="../../de_DE/zwave/images/316.9.34_psr04.smart.color.button.jpg" width="60" />|philio|PSR04 Smart Color Button|Interrupteur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html)|
 
 # Polycontrol
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/270.1.1_polylock.jpg" width="60" />|polycontrol|Polylock|Serrure|Aufnahme in den sicheren Modus|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1752-poly-control-serrure-motorisee-poly-lock-z-wave.html)|
@@ -573,6 +614,7 @@
 |<img src="../../de_DE/zwave/images/270.9.1_danalock.v3.jpg" width="60" />|polycontrol|Danalock V3 BTZE|Serrure|Aufnahme in den sicheren Modus|[Kaufen](http://www.domadoo.fr/fr/peripheriques/4197-danalock-serrure-connectee-bluetooth-et-z-wave-danalock-v3-5712560000462.html)|
 
 # popp
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/340.256.1024_zweather.jpg" width="60" />|popp|Z-Wetter Wind- und Wettersensor|Multicapteurs||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
@@ -590,6 +632,7 @@
 |<img src="../../de_DE/zwave/images/340.5.2_universal.keypad.jpg" width="60" />|popp|Universelle Tastatur|Clavier|||
 
 # Qees
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||qees|Turtle Dimmer|Variateur|||
@@ -597,6 +640,7 @@
 |<img src="../../de_DE/zwave/images/149.12547.1_reto.plug-in.switch.plus.jpg" width="60" />|qees|Reto-Plug-In-Schalter|Interrupteur|||
 
 # qubino
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/345.1.1_zmnhda2.dimmer.jpg" width="60" />|qubino|ZMNHDA2 Dimmer|Micromodule|Ersetzt durch den ZMNHDDx Dimmer||
@@ -625,6 +669,7 @@
 |<img src="../../de_DE/zwave/images/345.7.84_zmnhxdx.3.phase.smart.meter.jpg" width="60" />|qubino|ZMNHXDx 3 PhaseSmart-Messgerät|Rail-din|Das Modul muss im sicheren Modus enthalten sein, um die zusätzlichen Relais steuern zu können||
 
 # remotec
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/21076.1.34064_zrc-90.jpg" width="60" />|remotec|ZRC-90|Tragbarer Controller|||
@@ -632,23 +677,27 @@
 |<img src="../../de_DE/zwave/images/21076.257.33936_zxt-600.jpg" width="60" />|remotec|ZXT-600|Thermostat|||
 
 # schlage
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/151.24881.17665_mini.keypad.rfid.jpg" width="60" />|schlage|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen Alterht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../de_DE/zwave/images/151.26947.17665_on_wall_power_socket.jpg" width="60" />|schlage|Steckdose an der Wand|Prise|Dieses Modul wird derzeit unter der Marke TapHome verkauft.||
 
 # empfindlich
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/410.3.10_strips-confort.jpg" width="60" />|sensative|Komfortstreifen|Multicapteur|||
 |<img src="../../de_DE/zwave/images/410.3.3_strips.jpg" width="60" />|sensative|Strips|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3200-sensative-capteur-d-ouverture-extra-fin-strips-z-wave-7330985122972.html)|
 
 # Sigma
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/0.1.1_usb adapter.jpg" width="60" />|sigma|Z-Wave Plus USB-Controller|Controller||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3171-sigma-designs-controleur-z-wave-plus-usb.html)|
 
 # smarthome von Everspring
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/96.3.2_ad.146.in.wall.dimmer.jpg" width="60" />|smarthome von Everspring|AD146-0 Laufwerk|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html)|
@@ -656,6 +705,7 @@
 |<img src="../../de_DE/zwave/images/96.4.8_an.179.in.wall.on.off.jpg" width="60" />|smarthome von Everspring|AN179-0 Ein / Aus|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html)|
 
 # Steinel
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/625.1.6771_xled.home2.jpg" width="60" />|steinel|XHome2 LED|Multicapteurs|||
@@ -664,22 +714,26 @@
 |<img src="../../de_DE/zwave/images/625.2.6770_is140-2.jpg" width="60" />|steinel|RS LED D2|Multicapteurs|||
 
 # stelpro
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/569.1.1_STZW402.plus.electronic.thermostat.jpg" width="60" />|stelpro|STZW402 + Elektronischer Thermostat|Thermostat|||
 
 # swiid
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/358.256.256_swiid.inter.jpg" width="60" />|swiid|SwiidInter|Interrupteur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2675-swiid-interrupteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html)|
 |<img src="../../de_DE/zwave/images/358.8199.1798_swiid.swiidplug.jpg" width="60" />|swiid|SwiidPlug|Prise||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html)|
 
 # Thermofloor
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/411.1.1_thermostat.jpg" width="60" />|thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
 
 # Vision Sicherheit
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/265.4097.257_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
@@ -717,11 +771,13 @@
 |<img src="../../de_DE/zwave/images/265.8223.7968_zd2301.multisensor.4in1.jpg" width="60" />|Vision Sicherheit|ZD2301 Multisensor 4in1|Ouverture|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-en-1-3858890732153.html)|
 
 # Vitrum
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||vitrum|ZWE060 6 Tasten|Interrupteur|||
 
 # wenzhou
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/280.1.1_tz88.smart.energy.plug.jpg" width="60" />|wenzhou|TZ88|Prise|Auch unter der Marke TkbHome erhältlich||
@@ -736,6 +792,7 @@
 |<img src="../../de_DE/zwave/images/280.785.772_tz74.double.switch.jpg" width="60" />|wenzhou|TZ74 Doppelte Ladung|Micromodule|||
 
 # widom
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/329.18.260_ubs.switch.jpg" width="60" />|widom|USB Einmalladung|Micromodule|||
@@ -744,6 +801,7 @@
 |<img src="../../de_DE/zwave/images/329.4628.772_wpms.energy.driven.switch.jpg" width="60" />|widom|WPMS Energy Driven Switch|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3688-widom-micromodule-z-wave-commutateur-avec-mesure-d-energie.html)|
 
 # zipato
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/305.1.18_pan04-eu.wallSwitch.jpg" width="60" />|zipato|PAN04 In Wandschaltermodul mit Messgerät 2X1.5KW|Micromodule|Auch unter der Marke Philio erhältlich|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
@@ -766,6 +824,7 @@
 |<img src="../../de_DE/zwave/images/305.8223.7968_zd2301.multisensor.4in1.jpg" width="60" />|zipato|ZD2301 Multisensor 4in1|Ouverture|Wird auch unter der Marke Vision verkauft.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-en-1-3858890732153.html)|
 
 # zwaveme
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/277.1.105_key.fob_1.jpg" width="60" />|zwaveme|KFOB|Fernbedienung|||
@@ -794,6 +853,7 @@
 |<img src="../../de_DE/zwave/images/277.513.3_binary.sensor.jpg" width="60" />|zwaveme|Binärsensor|Multicapteurs|||
 
 # zwaveme
+
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/327.1024.1_RaZberry Controller ZWavePlus.jpg" width="60" />|zwaveme|RaZberry Controller ZWave +|Controller||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
