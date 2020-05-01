@@ -16,6 +16,13 @@ Le Core comprend notamment:
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
+
+## Création de widgets
+
+*Jeedom propose un moteur de création de Widgets pour les tuiles des équipements. Vous pouvez ainsi créer vos propres Widgets, en plus des Widgets de base. La création de Widgets est aussi possible directement à partir de code, pour les utilisateurs avancés.*
+
+![Dashboard](images/doc-presentation-widgets)
+
 ## Historiques
 
 *Toutes les informations sont historisables (courbe de température, consommation, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
