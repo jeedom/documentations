@@ -287,7 +287,6 @@ $(function(){
 
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
-  $('#div_content a:not([href=""]):not([href="#"])').attr('target','_blank');
   cookiesPolicyBar();
   setLeftMenu();
 });
