@@ -5,19 +5,16 @@ Bienvenue dans cette documentation de premiers pas, celle-ci va vous aider à me
 
 ## Inscription sur le market
 
-La première chose à faire est de se créer un compte sur le Market pour pouvoir enregistrer votre Jeedom sur celui-ci, cliquez [ici](https://market.jeedom.com/) pour commencer.
+La première chose à faire est de se créer un compte sur le Market pour pouvoir enregistrer votre Jeedom sur celui-ci. Cliquez [ici](https://market.jeedom.com/).
 
-![premier market](images/premier-market.png)
+Cliquez sur le bouton "S’enregistrer" en haut à gauche:
 
-Cliquez sur le bouton "S’enregistrer" en haut à droite :
+![S'enregistrer sur le Market](images/FirstStep_market1.jpg)
 
-![premier market2](images/premier-market2.png)
+Remplissez les différents champs et validez. Vous devriez alors être sur votre compte Market :
 
-Remplissez les différents champs et validez. Vous tomberez ensuite sur cette page :
+![Market](images/FirstStep_market2.jpg)
 
-![premier market3](images/premier-market3.png)
-
-Voila votre compte Market est créé.
 
 ## Ajout de votre code service pack
 
@@ -35,17 +32,9 @@ Une fois le code recupéré dans le mail il vous suffit d’aller sur le [market
 
 Puis allez sur votre page de profil :
 
-![premier servicepack](images/premier-servicepack.png)
+![Profil Market](images/FirstStep_market_sp1.jpg)
 
-Puis cliquez sur l’onglet "Mes Jeedoms"
-
-![premier servicepack2](images/premier-servicepack2.png)
-
-Renseignez votre numéro de service pack et validez :
-
-![premier servicepack3](images/premier-servicepack3.png)
-
-Voilà votre service pack est enregistré.
+Puis cliquez sur l’onglet "Mes services", et renseignez votre numéro de service pack et validez.
 
 > **Tip**
 >
@@ -81,7 +70,7 @@ Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la 
 
 Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de Login. Par défaut le login et le mot de passe sont "admin".
 
-![premier jeedomfinder6](images/premier-jeedomfinder6.png)
+![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
 ## Lier mon Jeedom à mon compte market
 
@@ -110,11 +99,11 @@ Pour plus de détails sur la page de configuration, voir *Manuel de configuratio
 
 Si vous avez un Service Pack, Jeedom vous met à disposition une URL d’accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur votre box ou autre.
 
-Pour la configurer il vous suffit d’aller dans Général → Administration → Configuration
+Pour la configurer il vous suffit d’aller dans Réglages → Système → Configuration
 
-Puis d’aller sur la partie "Configuration réseaux"
+Puis d’aller sur la partie "Réseaux"
 
-![premier dns2](images/premier-dns2.png)
+![Réseaux](images/FirstStep_dns.jpg)
 
 Une fois ici, il vous suffit d’activer "Utiliser les DNS Jeedom" puis sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de la page profil du Market
 
@@ -124,17 +113,14 @@ Une fois ici, il vous suffit d’activer "Utiliser les DNS Jeedom" puis sur la l
 
 ## Changer le mot de passe par défaut de Jeedom
 
-Une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs (en haut à droite) :
+Une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Réglages → Système → Utilisateurs :
 
-Une fois dessus vous avez juste à choisir la ligne avec l’utilisateur **admin** et à cliquer sur **changer le mot de passe** :
+Une fois dessus vous avez juste à choisir la ligne avec l’utilisateur **admin** et à cliquer sur **Mot de passe** :
 
-![premier changeuser2](images/premier-changeuser2.png)
+![Mot de passe](images/FirstStep_boxPassword.jpg)
 
-Une fenêtre va vous demander le mot de passe. Attention à bien le retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
-![premier changeuser3](images/premier-changeuser3.png)
-
-Voilà, vous avez changé le mot de passe du compte admin.
+Une fenêtre va vous demander le mot de passe. Attention à bien le retenir, ou vous ne pourrez plus accéder à votre Jeedom.
 
 ## Créer mon premier objet
 
@@ -144,23 +130,17 @@ Dans Jeedom, cela peut être tout et n’importe quoi, mais il est recommandé d
 
 > **Tip**
 >
-> Il est possible de définir des relations entre les objets, exemple : le salon appartient à l’objet rez-de-chaussée qui appartient lui-même à l’objet maison.
+> Il est possible de définir des relations entre les objets. Exemple : le salon appartient à l’objet rez-de-chaussée qui appartient lui-même à l’objet maison.
 
 Pour créer un objet, rien de plus simple :
 
 -   Allez sur Outils → Objets
 
--   Cliquez sur le bouton ajouter :
+-   Cliquez sur le bouton ajouter
 
-![premier objet2](images/premier-objet2.png)
+-   Jeedom va vous demander le nom de celui-ci. Validez. Voilà votre premier objet créé :
 
--   Jeedom va vous demander le nom de celui-ci :
-
-![premier objet3](images/premier-objet3.png)
-
--   Validez. Voilà votre premier objet créé :
-
-![premier objet4](images/premier-objet4.png)
+![Objet](images/FirstStep_object.jpg)
 
 Pour plus d’informations sur cette partie, voir *Manuel d'utilisation -> Objet*.
 
@@ -170,19 +150,17 @@ Un plugin permet d’ajouter des fonctionnalités à Jeedom. Il en existe des ce
 
 Il vous suffit ensuite de cliquer sur Market :
 
-![premier plugin2](images/premier-plugin2.png)
-
-Vous allez ensuite avoir la liste de tous les plugins qu’il est possible d’installer.
+Vous allez alors avoir la liste de tous les plugins qu’il est possible d’installer.
 
 > **Important**
 >
 > Attention, certains sont officiels et d’autres non. En cas de souci avec un plugin non officiel, l’équipe Jeedom ne pourra être tenue pour responsable.
 
-![premier plugin3](images/premier-plugin3.png)
+![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
 En cliquant sur un plugin vous obtenez sa fiche :
 
-![premier plugin4](images/premier-plugin4.png)
+![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
 Vous retrouvez alors :
 
@@ -196,7 +174,7 @@ Vous retrouvez alors :
 - La façon d’utiliser le plugin,
 - Des informations complémentaires comme l’auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
 
-Pour plus d’informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
+Pour plus d’informations sur les plugins, *Manuel d'utilisation -> Plugin*.
 
 # Support
 
@@ -210,7 +188,6 @@ Vous le trouverez [ici](https://community.jeedom.com/).
 
 Le forum est très actif et contient énormément d’informations. Si vous avez une question, n’hésitez pas à la poser. Vous aurez une réponse en moins d’une heure (en moyenne). Attention cependant, le forum est maintenu par la communauté Jeedom, composée de bénévoles, et non par la société Jeedom.
 
-![premier support3](images/premier-support3.png)
 
 ## Les demandes de support (ou tickets)
 
@@ -220,17 +197,15 @@ Le forum est très actif et contient énormément d’informations. Si vous avez
 
 Si vous n’avez pas trouvé de solution à votre problème, en dernier recours, vous pouvez faire une demande de support à l’équipe Jeedom. Cette demande passe par un ticket. Il est possible d’en ouvrir un de plusieurs façons :
 
--   Directement à partir de Jeedom (méthode conseillée) : où que vous soyez dans Jeedom, il y a un point d’exclamation en haut à droite qui permet de faire une demande de support :
-
-![premier support4](images/premier-support4.png)
+-   Directement à partir de Jeedom (méthode conseillée) : Menu Réglages → Demande de support.
 
 -   Si pour une raison ou pour une autre vous n’avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
 
-    -   soit avec le point d’exclamation en haut à droite,
+    -   Soit en cliquant sur votre nom puis sur *Demande de support*,
 
-    -   soit en allant sur votre profil (cliquez ensuite sur le bouton "Ouvrir une demande de support").
+    -   soit en allant sur votre profil, puis dans la partie **Tickets**, utilisez le bouton "Ouvrir une demande de support".
 
-![premier support5](images/premier-support5.png)
+![Demande de support](images/FirstStep_support.jpg)
 
 Toute la suite des échanges se fera par mail.
 
