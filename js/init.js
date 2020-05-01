@@ -61,14 +61,14 @@ var docMenu = [
       {link : "/#LANG#/core/#VERSION#/history",fr_FR : "Historique",en_US:"History",es_ES:"Historia",de_DE:"Historique",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/report",fr_FR : "Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/health",fr_FR : "Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/object",fr_FR : "Objet",en_US:"Object",es_ES:"Asunto",de_DE:"Betreff",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/scenario",fr_FR : "Scénario",en_US:"Scenario",es_ES:"Escenario",de_DE:"Szenario",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/object",fr_FR : "Objets",en_US:"Objects",es_ES:"Asuntos",de_DE:"Betreff",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/scenario",fr_FR : "Scénarios",en_US:"Scenarios",es_ES:"Escenarios",de_DE:"Szenario",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/interact",fr_FR : "Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {version : ['4.0','4.1'],link : "/#LANG#/core/#VERSION#/widgets",fr_FR : "Widget",en_US:"Widget",es_ES:"Widget",de_DE:"Widget",pt_PT:""},
+      {version : ['4.0','4.1'],link : "/#LANG#/core/#VERSION#/widgets",fr_FR : "Widgets",en_US:"Widgets",es_ES:"Widgets",de_DE:"Widgets",pt_PT:""},
       {link : "",fr_FR : "Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/plugin",fr_FR : "Plugin",en_US:"Plugin",es_ES:"Plugin",de_DE:"Plugin",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/plugin",fr_FR : "Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/faq",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
   },{
@@ -85,9 +85,9 @@ var docMenu = [
       {link:"/#LANG#/core/#VERSION#/cron",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/custom",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/user",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
-      {link:"#",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart",es_ES:"Apagar / reiniciar",de_DE:"Herunterfahren / Neustart",pt_PT:""},
+      {link:"/#LANG#/startstop/index",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart",es_ES:"Apagar / reiniciar",de_DE:"Herunterfahren / Neustart",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/profils",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""},
-      {link:"#",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""}
+      {link:"/#LANG#/mobile/index",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""}
     ]
   },{
     divider : true
@@ -149,7 +149,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/#LANG#/legal_notice"
   }
-  
+
 ]
 
 if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
@@ -243,7 +243,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -258,22 +258,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -283,7 +283,7 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   $('#div_content a:not([href=""]):not([href="#"])').attr('target','_blank');
@@ -388,4 +388,3 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
-  
