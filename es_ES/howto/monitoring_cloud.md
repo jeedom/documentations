@@ -12,22 +12,7 @@ Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres. :
 
 ## Lo que se está monitoreando
 
-La lista de lo que se monitorea evoluciona para tratar de ser lo más reactivo / proactivo posible, en los controles básicos que tiene : 
-
-- Sistema disponible
-- Servidor web (apache2) iniciado
-- Base de datos (mysql) iniciada
-- Carga de la CPU
-- Carga de memoria
-- Carga SWAP
-- Entrada / salida de disco
-- Espacio disco libre
-
-También se le advierte cuando se reinicia su Jeedom.
-
-# Historial
-
-En el mercado desde su página de perfil, luego, al hacer clic en la información en la pestaña de seguimiento de servicios de mi parte del servicio, tiene todos los datos actuales conocidos en su libertad y puede hacer clic en el gráfico para ver el historial durante las últimas 24 horas (nosotros no guarde más datos que las últimas 24 horas)
+Jeedom envía regularmente la información de la página de salud a nuestro servicio de monitoreo, que la analiza y le alerta si tiene alguna inquietud.. Además, si su casilla no envía información durante más de 15 minutos, nuestro servicio de monitoreo le advierte que hay un problema.
 
 ## Como me avisan
 
@@ -48,15 +33,9 @@ De forma predeterminada, se le notifica por un correo electrónico en su correo 
 El procedimiento es bastante simple, tienes que : 
 
 - tiene crédito de monitoreo en la nube (puede comprarlo en un lote de 1 mes, por lo que puede tomar 2 meses y luego detener 6 meses y luego reanudarlo)
-- tener libertad 3.2.9 min
+- tener libertad 3.3.44 min
 
 Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "probar" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
-
-Entonces puede ver en la sección de salud de Jeedom si está activo. Se tarda aproximadamente 10 minutos en iniciarse después de la sincronización con el mercado (haga clic en el botón de prueba).
-
->**IMPORTANT**
->
->Durante la primera activación o reactivación, es posible que reciba un correo electrónico / telegrama / slack / sms diciéndole que su Jeedom no está disponible. Es normal, es hora de que el Jeedom en cuestión active los servicios de monitoreo..
 
 >**IMPORTANT**
 >
@@ -72,9 +51,3 @@ Entonces puede ver en la sección de salud de Jeedom si está activo. Se tarda a
 - Debian x64 Stretch (probado)
 - Debian x64 Jessie
 - RPI
-
-# Preguntas frecuentes
-
->**Recibo un mensaje cada 10 minutos que me dice que Jeedom se ha reiniciado cuando no es cierto.**
->
->Esto sucede si tiene varios cuadros Jeedom, incluidos 2 (o más) con la misma clave de instalación (página Configuración -> Sistema -> Configuración). En este caso, el mercado solo ve una caja, el sistema de monitoreo también excepto que una vez en 2 cambia el tiempo desde que las máquinas comenzaron (una caja de golpe 1, una caja de golpe 2), de ahí el alertas. Para corregirlo es suficiente en uno de los jeedoms en la página donde está la clave de instalación para hacer "Restablecer"

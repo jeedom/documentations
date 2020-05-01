@@ -12,22 +12,7 @@ Depending on the number of months taken, you will have the right to free months 
 
 ## What is being monitored
 
-The list of what is monitored evolves to try to be as reactive / proactive as possible, in the basic controls you have : 
-
-- System available
-- Web server (apache2) started
-- Database (mysql) started
-- CPU load
-- Memory load
-- SWAP load
-- Disc input / output
-- Free disk space
-
-You are also warned when your Jeedom restarts.
-
-# History
-
-On the market from your profile page then by clicking on information in the tab my service part service monitoring you have all the current data known on your jeedom and you can by clicking on graph see the history over the last 24h (we do not keep more data than the last 24 hours)
+Jeedom regularly sends the information on the health page to our monitoring service, which analyzes it and alerts you if you have any concerns.. In addition if your box does not send information for more than 15 min our monitoring service warns you that there is a problem.
 
 ## How am i warned
 
@@ -48,15 +33,9 @@ By default you are notified by an email on your email configured in your profile
 The procedure is quite simple, you have to : 
 
 - have cloud monitoring credit (you can buy it in a 1 month batch, so you can take 2 months then stop 6 months and then resume after)
-- have jeedom 3.2.9 min
+- have jeedom 3.3.44 min
 
 After adding cloud monitoring credit, you must either wait a few hours (around 24 hours), or in Jeedom, on the configuration section then update click on the "test" button for connection to the market (this forces Jeedom to recover market information and therefore the fact that the cloud monitoring service is active).
-
-Then you can see in the health section of Jeedom if it is active. It takes approximately 10min for it to launch following synchronization with the market (click on the test button).
-
->**IMPORTANT**
->
->During the first activation or reactivation it is possible that you receive an email / telegram / slack / sms telling you that your Jeedom is not available. It's normal, it's time for the Jeedom in question to activate the monitoring services..
 
 >**IMPORTANT**
 >
@@ -72,9 +51,3 @@ Then you can see in the health section of Jeedom if it is active. It takes appro
 - Debian x64 Stretch (tested)
 - Debian x64 Jessie
 - RPI
-
-# Faq
-
->**I receive every 10 minutes a message telling me that jeedom has restarted when it is not true**
->
->This happens if you have several Jeedom boxes including 2 (or more) with the same installation key (Settings page -> System -> Configuration). In this case the market sees only one box, the monitoring system also except that once in 2 the time since which the machines started changes (one hit box 1, one hit box 2), hence the alerts. To correct it is enough in one of the jeedoms on the page where there is the installation key to do "Reset"
