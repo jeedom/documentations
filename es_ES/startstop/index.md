@@ -1,3 +1,3 @@
-# Versión móvil
+# Apagar / reiniciar
 
 (en curso)
