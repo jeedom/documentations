@@ -21,7 +21,7 @@ Der Kern enthält:
 
 *Jeedom bietet eine Widget-Erstellungs-Engine für Gerätekacheln. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
 
-![Dashboard](images/doc-presentation-widgets)
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Historisch
 

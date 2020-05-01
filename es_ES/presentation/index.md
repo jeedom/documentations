@@ -21,7 +21,7 @@ El núcleo incluye:
 
 *Jeedom ofrece un motor de creación de widgets para mosaicos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos.. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
 
-![Dashboard](images/doc-presentation-widgets)
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Histórico
 
