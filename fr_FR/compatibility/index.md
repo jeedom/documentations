@@ -102,38 +102,32 @@ Contrôleur Zigbee :
 Modules Zwave
 -------------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible)
 
 Modules EnOcean
 ---------------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible)
 
 Modules Edisio
 --------------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible)
 
 Modules RFXcom
 --------------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
 
 Caméras
 -------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible)
 
 Bluetooth
 -------
 
-Vous trouverez la liste
-[ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible)
 
 Plateforme matérielle recommandée
 ---------------------------------
