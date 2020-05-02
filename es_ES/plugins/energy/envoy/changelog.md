@@ -1,3 +1,0 @@
-# 
-
-- Lanzamiento inicial
