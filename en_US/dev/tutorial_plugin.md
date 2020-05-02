@@ -70,23 +70,23 @@ Changelog, Documentation, language, compatibility null for the moment. I will co
 
     By ``$ plugin = plugin::byId(‘vdm');``
 
-- Replace ````{{Ajouter un template}}````
+- Replace ``{% raw%} {{Add template}} {% endraw%}``
 
-    By ````{{Ajouter un équipement}}````
+    By ``{% raw%} {{Add equipment}} {% endraw%}``
 
 - Replace `` <legend> {{My templates}} </legend> ````
 
     By`` <legend> {{My equipment}} </legend> ````
 
-- Replace ````{{Name de l'équipement template}}````
+- Replace ``{% raw%} {{Name of template equipment}} {% endraw%}``
 
-    By````{{Name de l'équipement }}````
+    By ``{% raw%} {{Name of equipment}} {% endraw%}``
 
-- Replace ````{{template byam 1}}````
+- Replace ``{% raw%} {{template byam 1}} {% endraw%}``
 
-    By ````{{Paramètres}}````
+    By ``{% raw%} {{Parameters}} {% endraw%}``
 
-- Replace ``<?php include_file ('desktop', 'template', 'js', 'template');?>``
+- Remplacer ``<?php include_file ('desktop', 'template', 'js', 'template');?>``
 
     By ``<?php include_file ('desktop', vdm, 'js', vdm);?>``
 
@@ -136,11 +136,13 @@ it's not right because the color of the most does not match the color of the ico
 I open the file ``desktop / php / desktop.php`` to correct.
 
 ```` ''
+{% raw%}
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></i>
         <br>
-        <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</span>
+        <span style="font-size : 1.1st; position:relative; top : 23px; word-break: break-all; white-space: pre-wrap; word-wrap: break-word; color:#94ca02">{{Ajouter}}</span>
       </div>
+{% endraw%}
 ```` ''
 
 I replace ``color:#94ca02; "`` by ``color:#00A9EC; "``
@@ -148,13 +150,13 @@ I replace ``color:#94ca02; "`` by ``color:#00A9EC; "``
 We also notice that the texts are not aligned so we correct the style of the configuration (top property)
 
 ```` ''
-<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
+{<html> % raw%} : 1.1st; position:relative; top : 15px; word-break: break-all; white-space: pre-wrap; word-wrap: break-word; color:#767676 "> {{Configuration}} {% endraw%}
 ```` ''
 
 par
 
 ```` ''
-<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
+{<html> % raw%} : 1.1st; position:relative; top : 23px; word-break: break-all; white-space: pre-wrap; word-wrap: break-word; color:#767676 "> {{Configuration}} {% endraw%}
 ```` ''
 
 ![image](images/tutorial_vdm_desktop2.png)
@@ -214,7 +216,8 @@ In the commands tab, you should see.
 Open desktop / php / vdm.php to find the html code of this table.
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
+{% raw%}
+<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px; "> <i class="fa fa-plus-circle"></i> {{Orders}} </a><br/><br/>
 <table Id="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
@@ -224,11 +227,13 @@ Open desktop / php / vdm.php to find the html code of this table.
     <tbody>
     </tbody>
 </table>
+{% endraw%}
 ```` ''
 
 At the time of display, it is the desktop / js / vdm script.js which is called and launches the addCmdToTable function.
 
 ```` ''
+{% raw%}
 function addCmdToTable (_cmd) {
     if (!isset (_cmd)) {
         var _cmd = {configuration: {}};
@@ -260,6 +265,7 @@ function addCmdToTable (_cmd) {
     }
     jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
 }
+{% endraw%}
 ```` ''
 
 This is done automatically.
@@ -269,7 +275,7 @@ I want to add the Display and log options for each order.
 I edit the html code of the table in the desktop file.php by adding a column ..
 
 ```` ''
-<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>
+{% raw%} <th> {{Last name}} </th><th> {{Type}} </th><th> {{Configuration}} </th><th> {{Action}} </th> {% endraw%}
 ```` ''
 
 Then edit desktop.js, find
@@ -284,6 +290,7 @@ Then edit desktop.js, find
 We add the desired information.
 
 ```` ''
+{% raw%}
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </td> ';
     tr + = ' <td> ';
@@ -292,18 +299,19 @@ We add the desired information.
    tr + = ' </td> ';
     tr + = ' <td> ';
     if (is_numeric (_cmd.id)) {
+{% endraw%}
 ```` ''
 
 I leave the button to create an order but I want it to be on the left.
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
+{<html> % raw%}:5px; "> <i class="fa fa-plus-circle"></i> {{Orders}} </a><br/><br/>{% endraw%}
 ```` ''
 
 I change the class pull-right to pull-left
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
+{<html> % raw%}:5px; "> <i class="fa fa-plus-circle"></i> {{Orders}} </a><br/><br/>{% endraw%}
 ```` ''
 
 Here is the rendering.The configuration options (Display and log) are present.
@@ -678,7 +686,9 @@ If you take a closer look at the desktop file.php ago
 ```` ''
 
 ```` ''
+{% raw%}
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+{% endraw%}
 ```` ''
 
 Etc…
@@ -686,13 +696,17 @@ Etc…
 If you have understood all of this well, we will be able to move on. But first we will change in the desktop.php file
 
 ```` ''
+{% raw%}
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
+{% endraw%}
 ```` ''
 
 Par
 
 ```` ''
+{% raw%}
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
+{% endraw%}
 ```` ''
 
 IMPORTANT : The text in braces corresponds to the text that will be translated if you push the plugin on the market
@@ -708,17 +722,20 @@ On pourrait le laisser taper dans l'input « Type de vdm » : random or spicy or
 If you have followed everything, you should have in the file desktop.php
 
 ```` ''
+{% raw%}
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
         </div>
     </div>
+{% endraw%}
 ```` ''
 
 Which we will replace with
 
 ```` ''
+{% raw%}
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
         <div class="col-sm-3">
@@ -729,6 +746,7 @@ Which we will replace with
             </select>
         </div>
     </div>
+{% endraw%}
 ```` ''
 
 Ici le byamètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.

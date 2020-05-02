@@ -70,23 +70,23 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
     Mit ``$ plugin = plugin::byId(‘vdm');;``
 
-- Ersetzen ````{{Ajouter un template}}````
+- Ersetzen Sie ``{% raw%} {{Vorlage hinzufügen}} {% endraw%}``
 
-    Von ````{{Ajouter un équipement}}````
+    Mit ``{% raw%} {{Ausrüstung hinzufügen}} {% endraw%}``
 
 - Ersetzen Sie `` <legend> {{Meine Vorlagen}} </.legend> ````
 
     Von`` <legend> {{Meine Ausrüstung}} </.legend> ````
 
-- Ersetzen ````{{Name de l'équipement template}}````
+- Ersetzen Sie ``{% raw%} {{Name der Vorlagenausrüstung}} {% endraw%}``
 
-    Von````{{Name de l'équipement }}````
+    Mit ``{% raw%} {{Name der Ausrüstung}} {% endraw%}``
 
-- Ersetzen ````{{template Vonam 1}}````
+- Ersetzen Sie ``{% raw%} {{template Vonam 1}} {% endraw%}``
 
-    Von ````{{Paramètres}}````
+    Mit ``{% raw%} {{Parameters}} {% endraw%}``
 
-- Ersetzen ``<?php include_file ('desktop', 'template', 'js', 'template');;?>``
+- Remplacer ``<?php include_file ('desktop', 'template', 'js', 'template');;?>``
 
     Von ``<?php include_file ('desktop', vdm, 'js', vdm);;?>``
 
@@ -136,11 +136,13 @@ Es ist nicht richtig, weil die Farbe der meisten nicht mit der Farbe des Symbols
 Ich öffne die D.atei ``desktop /. php /. desktop.php`` zu korrigieren.
 
 ```` ''
+{% raw%}
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center;; background-color : #ffffff;; height : 120px;;margin-bottom : 10px;;padding : 5px;;border-radius: 2px;;width : 160px;;margin-left : 10px;;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;;color:#94ca02;;"></.i>
         <br>
-        <span style="font-size : 1.1em;;position:relative;; top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#94ca02">{{Ajouter}}</.span>
+        <span style="font-size : 1.1. Position:relativ;; oben : 23px;; Wortumbruch: Break-All, Leerraum: Pre-Wrap;; Word-Wrap: Break-Word, Farbe:#94ca02">{{Ajouter}}</.span>
       </.div>
+{% endraw%}
 ```` ''
 
 Ich ersetze ``Farbe:#94ca02;; "`` nach ``Farbe:#00A9EC;; "``
@@ -148,13 +150,13 @@ Ich ersetze ``Farbe:#94ca02;; "`` nach ``Farbe:#00A9EC;; "``
 Wir stellen auch fest, dass die Texte nicht ausgerichtet sind, sodass wir den Stil der Konfiguration korrigieren (Eigenschaft top).
 
 ```` ''
-<span style="font-size : 1.1em;;position:relative;; top : 15px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#767676">{{Configuration}}</.span>
+{<html> % raw%} : 1.1. Position:relativ;; oben : 15px;; Wortumbruch: Break-All, Leerraum: Pre-Wrap;; Word-Wrap: Break-Word, Farbe:#767676 "> {{Konfiguration}} {% endraw%}
 ```` ''
 
 par
 
 ```` ''
-<span style="font-size : 1.1em;;position:relative;;top : 23px;;word-break: break-all;;white-space: pre-wrap;;word-wrap: break-word;;color:#767676">{{Configuration}}</.span>
+{<html> % raw%} : 1.1. Position:relativ;; oben : 23px;; Wortumbruch: Break-All, Leerraum: Pre-Wrap;; Word-Wrap: Break-Word, Farbe:#767676 "> {{Konfiguration}} {% endraw%}
 ```` ''
 
 ![image](images/.tutorial_vdm_desktop2.png)
@@ -214,8 +216,9 @@ Auf der Registerkarte Befehle sollten Sie sehen.
 Öffnen Sie desktop /. php /. vdm.PHP, um den HTML-Code dieser Tabelle zu finden.
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
-<table Identifikationentifikation="table_cmd" class="table table-bordered table-condensed">
+{% raw%}
+<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;; "> <i class="fa fa-plus-circle"></.i> {{Bestellungen}} </.a><br/.><br/.>
+<table Identifikation="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
             <th>{{Nom}}</.th><th>{{Type}}</.th><th>{{Action}}</.th>
@@ -224,11 +227,13 @@ Auf der Registerkarte Befehle sollten Sie sehen.
     <tbody>
     </.tbody>
 </.table>
+{% endraw%}
 ```` ''
 
 Zum Zeitpunkt der Anzeige ist dies das D.esktop /. js /. vdm-Skript.js, das aufgerufen wird und die Funktion addCmdToTable startet.
 
 ```` ''
+{% raw%}
 Funktion addCmdToTable (_cmd) {
     if (!isset (_cmd)) {
         var _cmd = {Konfiguration: {}};;
@@ -260,6 +265,7 @@ Funktion addCmdToTable (_cmd) {
     }
     jeedom.cmd.changeType ($ (&#39;;# table_cmd tbody tr:last &#39;;), init (_cmd.subType));;
 }
+{% endraw%}
 ```` ''
 
 Dies erfolgt automatisch.
@@ -269,7 +275,7 @@ Ich möchte die Anzeige- und Protokolloptionen für jede Bestellung hinzufügen.
 Ich bearbeite den HTML-Code der Tabelle in der D.esktop-Datei.PHP durch Hinzufügen einer Spalte ..
 
 ```` ''
-<th>{{Nom}}</.th><th>{{Type}}</.th><th>{{Configuration}}</.th><th>{{Action}}</.th>
+{% raw%} <th> {{Name}} </.th><th> {{Typ}} </.th><th> {{Konfiguration}} </.th><th> {{Aktion}} </.th> {% endraw%}
 ```` ''
 
 Bearbeiten Sie dann den D.esktop.js, finde
@@ -284,6 +290,7 @@ Bearbeiten Sie dann den D.esktop.js, finde
 Wir fügen die gewünschten Informationen hinzu.
 
 ```` ''
+{% raw%}
     <html> tr + = &#39;;.Subtyp) + &#39;;">&#39;;;;
     tr + = ' </.td> ';;
     tr + = ' <td> ';;
@@ -292,18 +299,19 @@ Wir fügen die gewünschten Informationen hinzu.
    tr + = ' </.td> ';;
     tr + = ' <td> ';;
     if (is_numeric (_cmd.id)) {
+{% endraw%}
 ```` ''
 
 Ich lasse die Schaltfläche, um eine Bestellung zu erstellen, aber ich möchte, dass sie links ist.
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
+{<html> % raw%}:5px;; "> <i class="fa fa-plus-circle"></.i> {{Bestellungen}} </.a><br/.><br/.>{% endraw%}
 ```` ''
 
 Ich ändere die Klasse Pull-Right in Pull-Left
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;;"><i class="fa fa-plus-circle"></.i> {{Commandes}}</.a><br/.><br/.>
+{<html> % raw%}:5px;; "> <i class="fa fa-plus-circle"></.i> {{Bestellungen}} </.a><br/.><br/.>{% endraw%}
 ```` ''
 
 Hier ist das Rendering.Die Konfigurationsoptionen (Anzeige und Protokoll) sind vorhanden.
@@ -678,7 +686,9 @@ Wenn Sie sich die D.esktop-Datei genauer ansehen.PHP vor
 ```` ''
 
 ```` ''
+{% raw%}
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"/.>/./. retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;;
+{% endraw%}
 ```` ''
 
 Etc…
@@ -686,13 +696,17 @@ Etc…
 Wenn Sie das alles gut verstanden haben, können wir weitermachen. Aber zuerst werden wir die D.atei desktop.php ändern
 
 ```` ''
+{% raw%}
 <label class="col-sm-3 control-label">{{Paramètre}}</.label>
+{% endraw%}
 ```` ''
 
 Par
 
 ```` ''
+{% raw%}
 <label class="col-sm-3 control-label">{{Type de vdm}}</.label>
+{% endraw%}
 ```` ''
 
 Wichtig : D.er Text in geschweiften Klammern entspricht dem Text, der übersetzt wird, wenn Sie das Plugin auf den Markt bringen
@@ -708,17 +722,20 @@ On pourrait le laisser taper dans l'input « Type de vdm » : zufällig oder sch
 Wenn Sie alles befolgt haben, sollten Sie in der D.atei desktop.php haben
 
 ```` ''
+{% raw%}
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</.label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/.>
         </.div>
     </.div>
+{% endraw%}
 ```` ''
 
 Was wir ersetzen werden
 
 ```` ''
+{% raw%}
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</.label>
         <div class="col-sm-3">
@@ -729,6 +746,7 @@ Was wir ersetzen werden
             </.select>
         </.div>
     </.div>
+{% endraw%}
 ```` ''
 
 Ici le Vonamètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.

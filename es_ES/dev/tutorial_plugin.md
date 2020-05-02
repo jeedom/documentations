@@ -10,7 +10,7 @@ No reemplaza el [documentación oficial](https:/ // /jeedom.github.io/ /plugin-t
 
 # Crear la base del complemento
 
-Para comenzar, debe determinar un nombre y una Identificaciónentificaciónentificación (que no debe existir)
+Para comenzar, debe determinar un nombre y una Identificaciónentificación (que no debe existir)
 
 Nombre : Vida de caca
 Identificación : vdm
@@ -43,11 +43,11 @@ Renommer le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 
 Copia y pega el código de arriba.
 
-Cambié la Identificaciónentificaciónentificación (vdm), el nombre, agregué una descripción, el autor y la categoría.
+Cambié la Identificaciónentificación (vdm), el nombre, agregué una descripción, el autor y la categoría.
 
 exigir : versión mínima de jeedom pora tener acceso al complemento en el mercado.
 
-Registro de cambios, documentación, Identificaciónentificaciónioma, compatibilidad nula por el momento. Volveré a esto más tarde.
+Registro de cambios, documentación, Identificaciónioma, compatibilidad nula por el momento. Volveré a esto más tarde.
 
 2 / / Cambiaremos el nombre de los archivos necesarios pora que Jeedom reconozca el complemento
 
@@ -70,23 +70,23 @@ Registro de cambios, documentación, Identificaciónentificaciónioma, compatibi
 
     Por ``$ plugin = plugin::byId(‘vdm');``
 
-- Reemplazar ````{{Ajouter un template}}````
+- Reemplace ``{% raw%} {{Agregar plantilla}} {% endraw%}``
 
-    Por ````{{Ajouter un équipement}}````
+    Por ``{% raw%} {{Agregar equipo}} {% endraw%}``
 
 - Reemplazar `` <legend> {{Mis plantillas}} </ /legend> ````
 
     Por`` <legend> {{Mi equipo}} </ /legend> ````
 
-- Reemplazar ````{{Nombre de l'équipement template}}````
+- Reemplace ``{% raw%} {{Nombre del equipo de plantilla}} {% endraw%}``
 
-    Por````{{Nombre de l'équipement }}````
+    Por ``{% raw%} {{Nombre del equipo}} {% endraw%}``
 
-- Reemplazar ````{{template poram 1}}````
+- Reemplace ``{% raw%} {{template poram 1}} {% endraw%}``
 
-    Por ````{{Paramètres}}````
+    Por ``{% raw%} {{Parámetros}} {% endraw%}``
 
-- Reemplazar ``<?php include_file ('escritorio', 'plantilla', 'js', 'plantilla');?>``
+- Remplacer ``<?php include_file ('escritorio', 'plantilla', 'js', 'plantilla');?>``
 
     Por ``<?php include_file ('escritorio', vdm, 'js', vdm);?>``
 
@@ -136,11 +136,13 @@ no está bien porque el color de la mayoría no coincide con el color del icono.
 Abro el archivo ``escritorio / / php / / escritorio.php`` pora corregir.
 
 ```` ''
+{% crudo%}
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></ /i>
         <br>
-        <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</ /span>
+        <span style="font-size : 1.1er; puesto:pariente arriba : 23px; salto de palabra: break-all; espacio en blanco: pre-wrap; word-wrap: palabra de interrupción; color:#94ca02">{{Ajouter}}</ /span>
       </ /div>
+{% endraw%}
 ```` ''
 
 Reemplazo ``color:#94ca02; "`` por ``color:#00A9EC; "
@@ -148,13 +150,13 @@ Reemplazo ``color:#94ca02; "`` por ``color:#00A9EC; "
 También notamos que los textos no están alineados, por lo que corregimos el estilo de la configuración (propiedad superior)
 
 ```` ''
-<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</ /span>
+{<html> % raw%} : 1.1er; puesto:pariente arriba : 15px; salto de palabra: break-all; espacio en blanco: pre-wrap; word-wrap: palabra de interrupción; color:#767676 "> {{Configuración}} {% endraw%}
 ```` ''
 
 par
 
 ```` ''
-<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</ /span>
+{<html> % raw%} : 1.1er; puesto:pariente : 23px; salto de palabra: break-all; espacio en blanco: pre-wrap; word-wrap: palabra de interrupción; color:#767676 "> {{Configuración}} {% endraw%}
 ```` ''
 
 ![image](images/ /tutorial_vdm_desktop2.png)
@@ -214,8 +216,9 @@ En la pestaña de comandos, deberías ver.
 Abra el escritorio / / php / / vdm.php pora encontrar el código html de esta tabla.
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
-<table Identificaciónentificación="table_cmd" class="table table-bordered table-condensed">
+{% crudo%}
+<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px; "> <i class="fa fa-plus-circle"></ /i> {{Pedidos}} </ /a><br/ /><br/ />
+<table Identificación="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
             <th>{{Nom}}</ /th><th>{{Type}}</ /th><th>{{Action}}</ /th>
@@ -224,11 +227,13 @@ Abra el escritorio / / php / / vdm.php pora encontrar el código html de esta ta
     <tbody>
     </ /tbody>
 </ /table>
+{% endraw%}
 ```` ''
 
 En el momento de la visualización, es el script de escritorio / / js / / vdm.js que se llama y lanza la función addCmdToTable.
 
 ```` ''
+{% crudo%}
 función addCmdToTable (_cmd) {
     si (!isset (_cmd)) {
         var _cmd = {configuración: {}};
@@ -260,6 +265,7 @@ función addCmdToTable (_cmd) {
     }
     jeedom.cmd.changeType ($ (&#39;# table_cmd tbody tr:last &#39;), init (_cmd.subType));
 }
+{% endraw%}
 ```` ''
 
 Esto se hace automáticamente.
@@ -269,7 +275,7 @@ Quiero agregar las opciones de visualización y registro pora cada pedido.
 Edito el código html de la tabla en el archivo de escritorio.php agregando una columna ..
 
 ```` ''
-<th>{{Nom}}</ /th><th>{{Type}}</ /th><th>{{Configuration}}</ /th><th>{{Action}}</ /th>
+{% raw%} <th> {{Apellido}} </ /th><th> {{Tipo}} </ /th><th> {{Configuración}} </ /th><th> {{Acción}} </ /th> {% endraw%}
 ```` ''
 
 Luego edite el escritorio.js, encuentra
@@ -284,6 +290,7 @@ Luego edite el escritorio.js, encuentra
 Agregamos la información deseada.
 
 ```` ''
+{% crudo%}
     <html> tr + = &#39;.subType) + &#39;">&#39;;
     tr + = ' </ /td> ';
     tr + = ' <td> ';
@@ -292,18 +299,19 @@ Agregamos la información deseada.
    tr + = ' </ /td> ';
     tr + = ' <td> ';
     si (es_numeric (_cmd.id)) {
+{% endraw%}
 ```` ''
 
 Dejo el botón pora crear un pedido, pero quiero que esté a la izquierda..
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
+{<html> % raw%}:5px; "> <i class="fa fa-plus-circle"></ /i> {{Pedidos}} </ /a><br/ /><br/ />{% endraw%}
 ```` ''
 
 Cambio la clase pull-right a pull-left
 
 ```` ''
-<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></ /i> {{Commandes}}</ /a><br/ /><br/ />
+{<html> % raw%}:5px; "> <i class="fa fa-plus-circle"></ /i> {{Pedidos}} </ /a><br/ /><br/ />{% endraw%}
 ```` ''
 
 Aquí está la representación.Las opciones de configuración (pantalla y registro) están presentes.
@@ -517,7 +525,7 @@ Tienes que probar, funciona?
 
 Pero aquí hay una alternativa que puede resultar más útil en casos más complejos.
 
-En la función postUpdate (), iniciamos la función CronHourly () con la Identificaciónentificaciónentificación del dispositivo
+En la función postUpdate (), iniciamos la función CronHourly () con la Identificaciónentificación del dispositivo
 
 ```` ''
     función pública postUpdate () {
@@ -678,7 +686,9 @@ Si observa de cerca el archivo de escritorio.Hace php
 ```` ''
 
 ```` ''
+{% crudo%}
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nombre de l'équipement}}"/ />/ // / retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+{% endraw%}
 ```` ''
 
 Etc…
@@ -686,13 +696,17 @@ Etc…
 Si ha entendido todo esto bien, podremos seguir adelante. Pero primero cambiaremos en el archivo desktop.php
 
 ```` ''
+{% crudo%}
 <label class="col-sm-3 control-label">{{Paramètre}}</ /label>
+{% endraw%}
 ```` ''
 
 Par
 
 ```` ''
+{% crudo%}
 <label class="col-sm-3 control-label">{{Type de vdm}}</ /label>
+{% endraw%}
 ```` ''
 
 Importante : El texto entre llaves corresponde al texto que se traducirá si empuja el complemento en el mercado
@@ -708,17 +722,20 @@ On pourrait le laisser taper dans l'input « Type de vdm » : al azar o picante 
 Si has seguido todo, deberías tenerlo en el archivo desktop.php
 
 ```` ''
+{% crudo%}
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</ /label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/ />
         </ /div>
     </ /div>
+{% endraw%}
 ```` ''
 
 Que reemplazaremos con
 
 ```` ''
+{% crudo%}
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</ /label>
         <div class="col-sm-3">
@@ -729,6 +746,7 @@ Que reemplazaremos con
             </ /select>
         </ /div>
     </ /div>
+{% endraw%}
 ```` ''
 
 Ici le poramètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
