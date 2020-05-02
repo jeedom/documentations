@@ -17,9 +17,7 @@ Vmware                  | Stable                  | Pas de support pour VMware, 
 Images
 ======
 
-Vous pouvez retrouver toutes les images Jeedom
-[ici](https://images.jeedom.com/),
-puis dans le dossier Images
+Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/),puis dans le dossier Images
 
 > **Note**
 >
@@ -38,12 +36,7 @@ puis dans le dossier Images
 | Docker         |                | Beta           | root/Mjeedom96 |                |
 
 
-Toutes les autres images téléchargeables précédemment ne sont plus
-maintenues, il vaut mieux passer par l’installation manuelle de Jeedom
-[Doc](https://github.com/jeedom/documentation/blob/master/installation/fr_FR/other.asciidoc)
-après avoir installé une distribution linux correspondant à votre
-matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian
-(Ordoid,…​), …​
+Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l’installation manuelle de Jeedom [Doc](https://doc.jeedom.com/fr_FR/installation/index) après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…​)
 
 Logiciel
 ========
@@ -135,6 +128,12 @@ Caméras
 
 Vous trouverez la liste
 [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible)
+
+Bluetooth
+-------
+
+Vous trouverez la liste
+[ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible)
 
 Plateforme matérielle recommandée
 ---------------------------------
