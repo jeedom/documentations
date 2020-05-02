@@ -39,7 +39,6 @@ Toutes les autres images téléchargeables précédemment ne sont plus maintenue
 >
 > Jeedom ne supporte que Debian Jessie (non recommandé),Stretch (non recommandé) et Buster (stable). Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n’est pas supportée par Jeedom.
 
-
 | Nom                     | Etat                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
