@@ -48,24 +48,18 @@ Toutes les autres images téléchargeables précédemment ne sont plus maintenue
 | Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
 
-# Zwave
 
-Contrôleur Z-WAVE :
+# Bluetooth
 
--   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
--   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
--   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
--   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible) des modules Bluetooth compatibles Jeedom
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom
+# Caméras
 
-# Zigbee
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible) des caméras compatibles Jeedom
 
-Contrôleur Zigbee :
+# Edisio
 
-- [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
-
-Vous trouverez la liste [ici](https://phoscon.de/en/conbee/compatible) des modules Zigbee compatibles Jeedom
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom
 
 # EnOcean
 
@@ -85,20 +79,27 @@ Contrôleur RFXcom :
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible) des modules Rfxcom compatibles Jeedom
 
-# Caméras
-
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible) des caméras compatibles Jeedom
-
-# Bluetooth
-
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible) des modules Bluetooth compatibles Jeedom
-
-# GSM
+# SMS (GSM)
 
 -   HUAWEI E220 (Recommandé)
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 
-# Edisio
+# Zigbee
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom
+Contrôleur Zigbee :
+
+- [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
+
+Vous trouverez la liste [ici](https://phoscon.de/en/conbee/compatible) des modules Zigbee compatibles Jeedom
+
+# Zwave
+
+Contrôleur Z-WAVE :
+
+-   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
+-   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
+-   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
+-   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
+
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom
