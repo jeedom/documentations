@@ -70,21 +70,21 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
     Par `$plugin = plugin::byId(‘vdm’);`
 
-- Remplacer `{{Ajouter un template}}`
+- Remplacer ``{{Ajouter un template}}``
 
-    Par `{{Ajouter un équipement}}`
+    Par ``{{Ajouter un équipement}}``
 
 - Remplacer `<legend>{{Mes templates}}</legend>`
 
     Par`<legend>{{Mes équipement}}</legend>`
 
-- Remplacer `{{Nom de l'équipement template}}`
+- Remplacer ``{{Nom de l'équipement template}}``
 
-    Par`{{Nom de l'équipement }} `
+    Par``{{Nom de l'équipement }}``
 
-- Remplacer `{{template param 1}}`
+- Remplacer ``{{template param 1}}``
 
-    Par `{{Paramètres}}`
+    Par ``{{Paramètres}}``
 
 - Remplacer `<?php include_file('desktop', 'template', 'js', 'template');?>`
 
