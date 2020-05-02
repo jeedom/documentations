@@ -1,3 +1,0 @@
-# Eteindre/Redémarrer
-
-(en cours)
