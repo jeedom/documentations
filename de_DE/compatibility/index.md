@@ -1,5 +1,4 @@
-Hardware
-========
+# Hardware
 
 Hardware | Zustand | Bemerkungen
 --- | --- | ---
@@ -12,22 +11,11 @@ RPI2                    | Inoffiziell / stabil     |
 RPI3                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
 64 Bit                 | Stabil                  |                          
 32 Bit                 | Wird nicht unterstützt            |                          
-VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom. ACHTUNG VmWare 6.5 erfordert die Installation eines VMWare-Patches für die Zwave-Unterstützung.         
+VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom.
 
-Images
-======
+#  Bilder
 
-Sie finden alle Jeedom-Bilder
-[hier](https://images.jeedom.com/),
-dann im Ordner Bilder
-
-> **Note**
->
-> Ein Netinstall-Image installiert das
-> neueste stabile Version von Jeedom, also ist dieses Startup ein bisschen mehr
-> lang und erfordert Internetzugang. Du kannst folgen
-> den Fortschritt davon, indem Sie mit Ihrem auf die IP Ihres Jeedom gehen
-> Browser
+Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/),dann im Ordner Bilder
 
 | Bilder         | Hardware       | Zustand           | SSH-Zugang      | Bemerkungen      |
 |----------------|----------------|----------------|----------------|----------------|
@@ -38,21 +26,13 @@ dann im Ordner Bilder
 | Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
-Alle anderen zuvor herunterladbaren Bilder sind nicht mehr vorhanden
-gewartet, ist es besser, die manuelle Installation von Jeedom durchzugehen
-[Doc](https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc)
-nach der Installation einer Linux-Distribution entsprechend Ihrer
-Material : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian
-(Ordoid,…),…
+Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [Doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution, die Ihrer Hardware entspricht : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
 
-Logiciel
-========
+#  Software
 
 > **Important**
 >
-> Jeedom unterstützt nur Debian Jessie (stabil) und Stretch (stabil).
-> Eine andere Version (Wheezy…) oder Distribution (Ubuntu…) ist dies nicht
-> unterstützt von Jeedom.
+> Jeedom unterstützt nur Debian Jessie (nicht empfohlen), Stretch (nicht empfohlen) und Buster (stabil). Jede andere Version (Wheezy…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
 
 
 | Name                     | Zustand                    | Bemerkungen                |
@@ -61,14 +41,12 @@ Logiciel
 | PHP 5.6                 | Stabil                  |                          |
 | PHP 7.X                 | Stabil                  |                          |
 | MySQL 5.5 / 5.6           | Stabil                  |                          |
-| MySQL 5.7               | Beta                    |                          |
+| MySQL 5.7               | Stabil                    |                          |
 | MariaBD                 | Stabil                  |                          |
 
-Autre
-=====
+#  Andere
 
-USB-Stick / Erweiterungsmodul
----------------------------
+## USB-Stick / Erweiterungsmodul
 
 ENOCEAN-Controller :
 
@@ -106,44 +84,34 @@ ZigBee-Controller :
 
 - [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
 
-Zwave Module
--------------
+## Zwave Module
 
-Sie finden die Liste
-[hier](https://doc.jeedom.com/de_DE/zwave/equipement.compatible)
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/zwave/equipement.compatible)
 
-EnOcean-Module
----------------
+## EnOcean-Module
 
-Sie finden die Liste
-[hier](https://doc.jeedom.com/de_DE/enocean/equipement.compatible)
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/enocean/equipement.compatible)
 
-Edisio-Module
---------------
+## Edisio-Module
 
-Sie finden die Liste
-[hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible)
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible)
 
-RFXcom-Module
---------------
+## RFXcom-Module
 
-Sie finden die Liste
-[hier](https://doc.jeedom.com/de_DE/rfxcom/equipement.compatible)
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/rfxcom/equipement.compatible)
 
-Kameras
--------
+## Kameras
 
-Sie finden die Liste
-[hier](https://doc.jeedom.com/de_DE/camera/equipement.compatible)
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/camera/equipement.compatible)
 
-Empfohlene Hardwareplattform
----------------------------------
+## Bluetooth
+
+Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/blea/equipement.compatible)
+
+# Empfohlene Hardwareplattform
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
 -   Jeedom SMART (alles ist vorinstalliert, Sie müssen nichts tun)
-
 -   Odroid C2 (bestes Leistungs- / Preisverhältnis)
-
--   Intel Nuc gen6 (extreme Leistung, siehe Tutorial-Kategorie
-    für die Auswahl in den verschiedenen Modellen und die Installation)
+-   Intel Nuc gen (extreme Leistung, siehe Tutorial-Kategorie für die Auswahl in verschiedenen Modellen und Installation)
