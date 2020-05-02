@@ -2,15 +2,15 @@
 
 Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser sur votre PC, voici la démarche à suivre. Vous ne prenez aucun risque dans une VM, l’intégrité de votre Pc est protégé :
 
-## Etape 1 : Téléchargement et installation de VMware Player
+## Téléchargement et installation de VMware Player
 
 Vous devez télécharger le logicel Virtual Box [ICI](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
-## Etape 2 : Téléchargement d’une image Debian strecht - netinstall
+## Téléchargement d’une image Debian strecht - netinstall
 
 Téléchargez une image minimaliste debian 9 Stretch [Ici](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
 
-## Etape 3 : Configuration de l’environnement de la VM
+## Configuration de l’environnement de la VM
 
 Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 
@@ -23,7 +23,7 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 -   Cliquez sur suivant, Choisissez une taille pour l’espace (4Go suffisent)
 -   Cliquez sur créer
 
-## Etape 4 : Lancement de la VM
+## Lancement de la VM
 
 -   Cliquez sur configuration
 -   Sélectionnez stockage
@@ -37,7 +37,7 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 
 -   Cliquez sur OK \*Cliquez sur démarrer
 
-## Etape 5 : Installation de debian 9
+## Installation de debian 9
 
 C’est du classique…​
 
@@ -49,7 +49,7 @@ C’est du classique…​
 ![VirtualBox5](images/VirtualBox5.PNG)
 -   Pour Grub, pas d’inquiétude, le secteur de démarrage est celui de la VM, pas celui de votre PC. Aucun risque de casser quoi que ce soit.
 
-## Etape 6 : Installation de jeedom
+## Installation de jeedom
 
 -   Lancez votre VM
 -   Identifiez-vous avec l’utilisateur et le mot de passe choisis pendant l’installation
@@ -68,7 +68,7 @@ chmod +x install.sh
 
 -   et laissez faire…​
 
-## Etape 7 : Lancement de jeedom
+## Lancement de jeedom
 
 -   Pour connaitre l’adresse Ip Lan de la VM
 

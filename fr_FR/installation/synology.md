@@ -2,7 +2,7 @@
 
 Vous trouverez ici la documentation pas à pas pour installer Jeedom sur un Synology (DSM 5.2 minimum).
 
-## Etape 1 : Installation de Docker
+## Installation de Docker
 
 Allez sur le centre des paquets :
 
@@ -20,7 +20,7 @@ Attendez jusqu’à ce que l’installation soit finie :
 >
 > Pour avoir accès au paquet Docker, il faut absolument avoir DSM 5.2 et un NAS compatible
 
-## Etape 2 : Récupération et installation des images Jeedom
+## Récupération et installation des images Jeedom
 
 Lancez l’application Docker :
 

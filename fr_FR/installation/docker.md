@@ -6,7 +6,7 @@
 
 Pour découvrir Jeedom, vous pouvez aussi le faire tourner dans un conteneur Docker :
 
-## Etape 1 : Installation de docker
+## Installation de docker
 
 Docker est maintenant disponible sur toutes les distributions récentes.
 Pour l’installer sur une distribution
@@ -25,7 +25,7 @@ apt-get install docker
 apt-get install docker.io
 ````
 
-## Etape 2 : Installation d’une image Jeedom
+## Installation d’une image Jeedom
 
 Installation de l’image :
 

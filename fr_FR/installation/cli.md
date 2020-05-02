@@ -4,7 +4,7 @@ Vous trouverez ici la documentation pour installer Jeedom sur la plupart des sys
 
 > **Important**
 >
-> Debian 9 (Stretch) est la distribution officiellement supportée pour la version 3.1.7 de Jeedom (mais Jessie reste parfaitement fonctionnelle). Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l’utilisation d’une Mini+ ou Smart (disponible prochainement).
+> Debian 10 (Buster) est la distribution officiellement supportée pour la version 3.1.7 de Jeedom (mais Jessie/stretch reste parfaitement fonctionnelle). Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de partir une Smart.
 
 > **Important**
 >
