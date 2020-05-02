@@ -391,8 +391,6 @@
         "Ce plugin permet de contrôler vos multiprises Mpower": "This plugin allows you to control your Mpower multiple sockets",
         "Plugin pour controller la multiprise Extel": "Plugin to control the Extel power strip",
         "Plugin pour le superviseur ewattch": "Plugin for the ewattch supervisor",
-        "Enphase Envoy": "Enphase Envoy",
-        "Plugin pour remonter les informations photovoltaïques des passerelles Envoy": "Plugin to collect photovoltaic information from Envoy gateways",
         "Permet de faire un calcul estimatif du DPE": "Allows you to make an estimated calculation of the DPE",
         "Plugin pour le comptage de l'énergie (gaz, électricité et eau)": "Plugin for energy metering (gas, electricity and water)",
         "Plugin pour gérer sa consommation énergétique": "Plugin to manage your energy consumption",
