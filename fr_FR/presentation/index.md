@@ -1,12 +1,26 @@
 # Présentation
 
-Jeedom est une solution domotique Open-Source et *cloudless* (sans serveur dans le cloud). Il fonctionne sans abonnement, ce qui permet de garantir le fonctionnement de votre domotique sans internet, ainsi que la sécurité de vos données. Il est également extrêmement ouvert, multi-protocoles, personnalisable, et fortement évolutif.
+Jeedom est un logiciel Open-Source gratuit qui peut s'installer sur n'importe quel système Linux. Il est basé sur un coeur avec de multiples fonctionnalités : gestion de scénarios simple et avancée, interaction avec l'installation domotique de manière textuelle et sonore, visualisation d'historique et génération de courbes et graphiques, mise en relation de tous les équipements et objets connectés, personnalisation de l'interface...
 
-Jeedom propose un noyau, le Core, embarquant la structure et les fonctions centrales.
+Jeedom ne nécessite pas l'accès à des serveurs extérieurs pour fonctionner. Toute votre installation se gère en local et vous êtes donc les seuls à y avoir accès pour vous garantir une confidentialité complète.
+
+Grâce à sa flexibilité et aux nombreux paramètres de personnalisation, chaque utilisateur peut créer sa propre domotique Jeedom. A l'aide des widgets, des vues et des design, vous avez une totale liberté pour imaginer votre propre interface si vous le souhaitez.
+
+Jeedom permet de nombreuses possibilités dont :
+
+- Gérer la sécurité des biens et des personnes,
+- Automatiser le chauffage pour un meilleur confort et des économies d'énergie,
+- Visualiser et gérer la consommation énergétique, pour anticiper une dépense et réduire les consommations,
+- Communiquer par la voix, des SMS, des mails ou des applications mobiles,
+- Gérer tous les automatismes de la maison, volets, portail, lumières, etc.,
+- Gérer ses périphériques multimédia audio et vidéo, et ses objets connectés.
+
+
+Jeedom repose sur le Core (le noyau), embarquant la structure et les fonctions centrales.
 
 Différents [plugins](https://market.jeedom.com) peuvent alors proposer de nouvelles fonctions.
 
-Le Core comprend notamment:
+Le Core comprend entre autres :
 
 ## Dashboard / Synthèse
 
