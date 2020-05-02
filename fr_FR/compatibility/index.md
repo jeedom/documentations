@@ -26,7 +26,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 | Docker         |                | Beta           | root/Mjeedom96 |                |
 
 
-Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l’installation manuelle de Jeedom [Doc](https://doc.jeedom.com/fr_FR/installation/index) après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…​)
+Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l’installation manuelle de Jeedom [doc](https://doc.jeedom.com/fr_FR/installation/index) après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…​)
 
 #  Logiciel
 
