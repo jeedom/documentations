@@ -1,4 +1,4 @@
-# Hardware
+# Matériels
 
 Hardware | Etat | Remarques
 --- | --- | ---
@@ -13,14 +13,19 @@ RPI3                    | Non officiel/Stable     | Attention si vous utilisez u
 32 bits                 | Non supporté            |                          
 Vmware                  | Stable                  | Pas de support pour VMware, seulement pour Jeedom.
 
+L’équipe jeedom vous recommande (en fonction de votre budget) :
+
+- Jeedom Smart (tout est préinstallé, vous n’avez rien à faire)
+- Odroid C2 (meilleur rapport performance/prix)
+- Intel Nuc gen (des performances extrêmes, voir la catégorie tuto pour le choix dans les differents modèles et l’installation)
+- RPI4
+
 #  Images
 
 Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 | Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | jeedomboard et | Beta           | root/Mjeedom96 |                |
-| netinstall     | hummingboard   |                |                |                |
 | Jeedomboard    | jeedomboard et | Stable         | root/Mjeedom96 |                |
 |                | hummingboard   |                |                |                |
 | Docker         |                | Beta           | root/Mjeedom96 |                |
@@ -44,33 +49,7 @@ Toutes les autres images téléchargeables précédemment ne sont plus maintenue
 | Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
 
-#  Autre
-
-## Clef USB/Module d’extension
-
-Contrôleur ENOCEAN :
-
--   Clef USB EnOcean USB300
--   Clef USB EnOcean USB310 (Recommandé)
-
-Interface RFXCOM :
-
--   RFXtrx433 USB
--   RFXtrx433E USB (Recommandé)
-
-Passerelle EDISIO :
-
--   Dongle Edisio (Recommandé)
-
-Indicateur Led :
-
--   blink(1) mk2 (Recommandé)
-
-Dongle GSM :
-
--   HUAWEI E220 (Recommandé)
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G Wireless
+# Zwave
 
 Contrôleur Z-WAVE :
 
@@ -79,39 +58,48 @@ Contrôleur Z-WAVE :
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
 
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom
+
+# Zigbee
 
 Contrôleur Zigbee :
 
 - [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
 
-## Modules Zwave
+Vous trouverez la liste [ici](https://phoscon.de/en/conbee/compatible) des modules Zigbee compatibles Jeedom
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible)
+# EnOcean
 
-## Modules EnOcean
+Contrôleur EnOcean :
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible)
+-   Clef USB EnOcean USB300
+-   Clef USB EnOcean USB310 (Recommandé)
 
-## Modules Edisio
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible) des modules EnOcean compatibles Jeedom
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible)
+# RFXcom
 
-## Modules RFXcom
+Contrôleur RFXcom :
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
+-   RFXtrx433 USB
+-   RFXtrx433E USB (Recommandé)
 
-## Caméras
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible) des modules Rfxcom compatibles Jeedom
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible)
+# Caméras
 
-## Bluetooth
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible) des caméras compatibles Jeedom
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible)
+# Bluetooth
 
-# Plateforme matérielle recommandée
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible) des modules Bluetooth compatibles Jeedom
 
-L’équipe jeedom vous recommande (en fonction de votre budget) :
+# GSM
 
--   Jeedom Smart (tout est préinstallé, vous n’avez rien à faire)
--   Odroid C2 (meilleur rapport performance/prix)
--   Intel Nuc gen (des performances extrêmes, voir la catégorie tuto pour le choix dans les differents modèles et l’installation)
+-   HUAWEI E220 (Recommandé)
+-   Alcatel one touch X220L
+-   HSDPA 7.2MBPS 3G Wireless
+
+# Edisio
+
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom
