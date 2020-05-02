@@ -70,23 +70,23 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
     Mit ``$ plugin = plugin::byId(‘vdm');;``
 
-- Ersetzen Sie ``{{Vorlage hinzufügen}}``
+- Ersetzen ````{{Ajouter un template}}````
 
-    Mit ``{{Ausrüstung hinzufügen}}``
+    Von ````{{Ajouter un équipement}}````
 
 - Ersetzen Sie `` <legend> {{Meine Vorlagen}} </.legend> ````
 
     Von`` <legend> {{Meine Ausrüstung}} </.legend> ````
 
-- Ersetzen Sie ``{{Name der Vorlagenausrüstung}}``
+- Ersetzen ````{{Name de l'équipement template}}````
 
-    Mit ``{{Name der Ausrüstung}}``
+    Von````{{Name de l'équipement }}````
 
-- Ersetzen Sie ``{{template Vonam 1}}``
+- Ersetzen ````{{template Vonam 1}}````
 
-    Mit ``{{Einstellungen}}``
+    Von ````{{Paramètres}}````
 
-- Remplacer ``<?php include_file ('desktop', 'template', 'js', 'template');;?>``
+- Ersetzen ``<?php include_file ('desktop', 'template', 'js', 'template');;?>``
 
     Von ``<?php include_file ('desktop', vdm, 'js', vdm);;?>``
 

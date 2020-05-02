@@ -138,6 +138,7 @@ var docMenu = [
       {link:"/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
       {link:"/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
       {link:"/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
+      {link:"/dev/phpdoc/#VERSION#",fr_FR:"PhpDoc",en_US:"PhpDoc",es_ES:"PhpDoc",de_DE:"PhpDoc",pt_PT:"PhpDoc"},
     ]
   },{
     divider : true
@@ -149,7 +150,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/#LANG#/legal_notice"
   }
-
+  
 ]
 
 if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
@@ -243,7 +244,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-
+  
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -258,22 +259,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-
+  
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-
+  
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-
+  
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -283,7 +284,7 @@ $(function(){
     }
     window.location.reload();
   })
-
+  
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -387,3 +388,4 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
+  

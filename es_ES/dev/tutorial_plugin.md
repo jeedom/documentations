@@ -70,23 +70,23 @@ Registro de cambios, documentación, Identificaciónentificaciónioma, compatibi
 
     Por ``$ plugin = plugin::byId(‘vdm');``
 
-- Reemplace ``{{Agregar plantilla}}``
+- Reemplazar ````{{Ajouter un template}}````
 
-    Por ``{{Agregar equipo}}``
+    Por ````{{Ajouter un équipement}}````
 
 - Reemplazar `` <legend> {{Mis plantillas}} </ /legend> ````
 
     Por`` <legend> {{Mi equipo}} </ /legend> ````
 
-- Reemplace ``{{Nombre del equipo de plantilla}}``
+- Reemplazar ````{{Nombre de l'équipement template}}````
 
-    Por ``{{Nombre del equipo}}``
+    Por````{{Nombre de l'équipement }}````
 
-- Reemplazar ``{{template poram 1}}``
+- Reemplazar ````{{template poram 1}}````
 
-    Por ``{{Configuración}}``
+    Por ````{{Paramètres}}````
 
-- Remplacer ``<?php include_file ('escritorio', 'plantilla', 'js', 'plantilla');?>``
+- Reemplazar ``<?php include_file ('escritorio', 'plantilla', 'js', 'plantilla');?>``
 
     Por ``<?php include_file ('escritorio', vdm, 'js', vdm);?>``
 

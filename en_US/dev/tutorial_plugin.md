@@ -15,7 +15,7 @@ To start, you have to determine a name and an Id (which must not exist)
 Name : Poop Life
 Id : vdm
 
-Download the template plugin to have the [based](https://github.com/jeedom/plugin-template/archive/master.zip)
+Download the template plugin to have the [basedd](https://github.com/jeedom/plugin-template/archive/master.zip)
 
 Unzip the file . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rparty , core , desktop…
 
@@ -70,23 +70,23 @@ Changelog, Documentation, language, compatibility null for the moment. I will co
 
     By ``$ plugin = plugin::byId(‘vdm');``
 
-- Replace ``{{Add template}}``
+- Replace ````{{Ajouter un template}}````
 
-    By ``{{Add equipment}}``
+    By ````{{Ajouter un équipement}}````
 
 - Replace `` <legend> {{My templates}} </legend> ````
 
     By`` <legend> {{My equipment}} </legend> ````
 
-- Replace ``{{Name of template equipment}}``
+- Replace ````{{Name de l'équipement template}}````
 
-    By ``{{Name of equipment}}``
+    By````{{Name de l'équipement }}````
 
-- Replace ``{{template byam 1}}``
+- Replace ````{{template byam 1}}````
 
-    By ``{{Settings}}``
+    By ````{{Paramètres}}````
 
-- Remplacer ``<?php include_file ('desktop', 'template', 'js', 'template');?>``
+- Replace ``<?php include_file ('desktop', 'template', 'js', 'template');?>``
 
     By ``<?php include_file ('desktop', vdm, 'js', vdm);?>``
 
