@@ -80,7 +80,7 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
 - Remplacer ``{% raw %}{{Nom de l'équipement template}}{% endraw %}``
 
-    Par`{% raw %}{{Nom de l'équipement }}{% endraw %}``
+    Par ``{% raw %}{{Nom de l'équipement }}{% endraw %}``
 
 - Remplacer ``{% raw %}{{template param 1}}{% endraw %}``
 
