@@ -144,5 +144,5 @@ L’équipe jeedom vous recommande (en fonction de votre budget) :
 
 -   Odroid C2 (meilleur rapport performance/prix)
 
--   Intel Nuc gen6 (des performances extrêmes, voir la catégorie tuto
+-   Intel Nuc gen (des performances extrêmes, voir la catégorie tuto
     pour le choix dans les differents modèles et l’installation)
