@@ -15,7 +15,7 @@ Vmware                  | Stable                  | Pas de support pour VMware, 
 
 #  Images
 
-Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/),puis dans le dossier Images
+Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 | Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
