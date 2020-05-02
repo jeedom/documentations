@@ -10,21 +10,18 @@ Jeedom se puede instalar en diferentes tipos de hardware :
 También puede comprar una caja preparada con Jeedom preinstalado que también contiene un paquete de servicio (más soporte y servicios) y complementos ofrecidos :
 
 -   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
-
 -   [Jeedom Smart Z-Wave + y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
-
 -   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
-
 -   [Jeedom Smart EnOcean y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
 Aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
 
 1. Raspberry pi 4 :
 
-    -   Un raspberry+caja \~ 50 €
-    -   Una llave USB Aeon Gen 5 \~ 60 €
-    -   Una tarjeta micro SD \~ 7 €
-    -   Una fuente de alimentación USB \~ 8 €
+-   Un raspberry+caja \~ 50 €
+-   Una llave USB Aeon Gen 5 \~ 60 €
+-   Una tarjeta micro SD \~ 7 €
+-   Una fuente de alimentación USB \~ 8 €
 
 Un total de 125 € para una caja de automatización del hogar de código abierto con control completo sobre su instalación.
 
@@ -44,7 +41,7 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 Quiero instalar Jeedom :
 
-- sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/howto/recovery_mode_jeedom_smart)
+- sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart)
 - sobre una [mini +](https://doc.jeedom.com/es_ES/installation/mini)
 - sobre una [Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi)
 - sobre una [Freebox Delta](https://doc.jeedom.com/es_ES/installation/freeboxdelta)

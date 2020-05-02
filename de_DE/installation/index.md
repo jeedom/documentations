@@ -10,21 +10,18 @@ Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 Sie können auch eine vorgefertigte Box mit vorinstalliertem Jeedom kaufen, die auch ein Service Pack (mehr Support und Services) und angebotene Plugins enthält :
 
 -   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
-
 -   [Jeedom Smart Z-Wave + und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
-
 -   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
-
 -   [Jeedom Smart EnOcean und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
 Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
 
 1. Himbeer pi 4 :
 
-    -   Eine Himbeere + Box 50 €
-    -   Ein Aeon Gen Schlüssel 5 € 60
-    -   Eine Micro-SD-Karte 7 €
-    -   Ein USB-Netzteil 8 €
+-   Eine Himbeere + Box 50 €
+-   Ein Aeon Gen Schlüssel 5 € 60
+-   Eine Micro-SD-Karte 7 €
+-   Ein USB-Netzteil 8 €
 
 Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
@@ -44,7 +41,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 Ich möchte Jeedom installieren :
 
-- auf einem [SMART](https://doc.jeedom.com/de_DE/howto/recovery_mode_jeedom_smart)
+- auf einem [SMART](https://doc.jeedom.com/de_DE/installation/smart)
 - auf einem [mini +](https://doc.jeedom.com/de_DE/installation/mini)
 - auf einem [Himbeer-Pi](https://doc.jeedom.com/de_DE/installation/rpi)
 - auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)

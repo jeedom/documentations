@@ -3,7 +3,7 @@
 - [Manually update Jeedom](/en_US/howto/jeedom.mise_a_jour_manuel)
 - [Go jeedom or plugin in beta](/en_US/howto/passer_en_beta)
 - [Raspberrypi 3](/en_US/howto/raspberrypi3)
-- [Factory refurbishment of a smart](/en_US/howto/recovery_mode_jeedom_smart)
+- [Factory refurbishment of a smart](/en_US/installation/smart)
 - [Reset your Jeedom password in case of loss](/en_US/howto/reset.password)
 - [How to backup](/en_US/howto/sauvegarde.comment_faire)
 - [How to restore a backup](/en_US/howto/sauvegarde.comment_recuperer)
