@@ -68,7 +68,7 @@ var docMenu = [
       {link : "",icon:"fas fa-sticky-note",fr_FR : "Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",icon:"fas fa-check",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR : "Plugins Officiels",en_US:"Official Plugins",es_ES:"Plugins Oficiales",de_DE:"Offizielle Plugins",pt_PT:"Plugins oficiais"},
+      {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR : "Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:"Plugins"},
       {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/faq",icon:"fas fa-question-circle",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
@@ -92,11 +92,11 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR : "Plugins",
-    en_US : "Plugins",
-    es_ES : "Plugins",
-    de_DE : "Plugins",
-    pt_PT : "Plugins",
+    fr_FR : "Plugins Officiels",
+    en_US : "Official Plugins",
+    es_ES : "Plugins Oficiales",
+    de_DE : "Offizielle Plugins",
+    pt_PT : "Plugins oficiais",
     submenu:[
       {link:"/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"",pt_PT:""},
       {link:"/#LANG#/plugins/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol",es_ES:"Protocolo de domótica",de_DE:"Hausautomationsprotokoll",pt_PT:""},
