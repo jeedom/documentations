@@ -41,7 +41,7 @@ Toutes les autres images téléchargeables précédemment ne sont plus maintenue
 | PHP 5.6                 | Stable                  |                          |
 | PHP 7.X                 | Stable                  |                          |
 | Mysql 5.5/5.6           | Stable                  |                          |
-| Mysql 5.7               | Stable                    |                          |
+| Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
 
 #  Autre
