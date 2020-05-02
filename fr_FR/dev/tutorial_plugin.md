@@ -1,8 +1,10 @@
+# Développer sur Jeedom
+
 > **IMPORTANT**
 >
-> Ce tutorial a été écris par ZygOm4t1k que nous remercions vivement. Vous pouvez retrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
+> Ce tutorial a été écris par ZygOm4t1k que nous remercions vivement. Vous pouvez retrouver l'original [ici](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
 
-Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
+Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr (Le plugin sera évolutif).
 
 Il ne remplace en aucun cas la [documentation officielle](https://jeedom.github.io/plugin-template/fr_FR/)
 
@@ -35,7 +37,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l’id) du plugin
 	"changelog" : "",
 	"documentation" : "",
 	"language" : "",
-	"compatibility" : ""	
+	"compatibility" : ""
 }
 ```
 
@@ -49,122 +51,67 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
 2/ Nous allons renommer les fichiers nécessaires pour que le plugin soit reconnu par Jeedom
 
--	Renommer le fichier core/ajax/template.ajax.php en vdm.ajax.php
+-   Renommer le fichier `core/ajax/template.ajax.php` en `vdm.ajax.php`
 
--	Renommer le fichier core/class/template.class.php en vdm.class.php et ouvrez le pour l’éditer. 
+-   Renommer le fichier `core/class/template.class.php` en `vdm.class.php` et ouvrez le pour l’éditer.
 
-Remplacer
+- Remplacer `class template extends eqLogic {`
 
-```
-class template extends eqLogic {
-```
+    par `class vdm extends eqLogic {`
 
-par
+- et `class templateCmd extends cmd`
 
-
-```
-class vdm extends eqLogic {
-```
-
-et
-
-```
-class templateCmd extends cmd
-```
-
-par
-
-```
-class vdmCmd extends cmd
-```
+    par `class vdmCmd extends cmd`
 
 - Renommer le fichier core/php/template.inc.php en core/php/vdm.inc.php
-- Renommer le fichier desktop/php/template.php en desktop /php/vdm.php et ouvrez le
+- Renommer le fichier desktop/php/template.php en desktop /php/vdm.php et ouvrez le.
 
-Remplacer
+- Remplacer `$plugin = plugin::byId('template');`
 
-```
-$plugin = plugin::byId('template');
-```
+    Par `$plugin = plugin::byId(‘vdm’);`
 
-Par 
+- Remplacer `{{Ajouter un template}}`
 
-```
-$plugin = plugin::byId(‘vdm’);
-```
+    Par `{{Ajouter un équipement}}`
 
-```
-{{Ajouter un template}}
-```
+- Remplacer `<legend>{{Mes templates}}</legend>`
 
-Par 
+    Par`<legend>{{Mes équipement}}</legend>`
 
-```
-{{Ajouter un équipement}}
-```
+- Remplacer `{{Nom de l'équipement template}}`
 
-```
-<legend>{{Mes templates}}</legend>
-```
+    Par`{{Nom de l'équipement }} `
 
-Par
+- Remplacer `{{template param 1}}`
 
-```
-<legend>{{Mes équipement}}</legend>
-```
+    Par `{{Paramètres}}`
 
-```
-{{Nom de l'équipement template}}
-```
+- Remplacer `<?php include_file('desktop', 'template', 'js', 'template');?>`
 
-Par
+    Par `<?php include_file('desktop', vdm, 'js', vdm);?>`
 
-```
-{{Nom de l'équipement }} 
-```
+Et rien d’autre , ne pas changer la ligne `<?php include_file('core', 'plugin.template', 'js');?>`
 
-```
-{{template param 1}}
-```
+-Renommer le fichier `desktop/modal/modal.template.php` en `desktop/modal/modal.vdm.php`
 
-Par
+-Renommer le fichier `desktop/js/template.js` en `desktop/js/ vdm.js`
 
-```
-{{Paramètres}}
-```
-
-```
-<?php include_file('desktop', 'template', 'js', 'template');?>
-```
-
-Par
-
-```
-<?php include_file('desktop', vdm, 'js', vdm);?>
-```
-
-Et rien d’autre , ne pas changer la ligne <?php include_file('core', 'plugin.template', 'js');?>
-
--Renommer le fichier desktop/modal/modal.template.php en desktop/modal/modal.vdm.php
-
--Renommer le fichier desktop/js/template.js en desktop/js/ vdm.js
-
-- Ouvrir le fichier plugin_info/install.php
+- Ouvrir le fichier `plugin_info/install.php`
 
 Et renommer les fonctions comme suit
 
 ```
 function vdm_install() {
-    
+
 }
 
 function vdm_update() {
-    
+
 }
 
 
 function vdm_remove() {
-    
+
 }
 ```
 
@@ -172,7 +119,7 @@ Voilà le plugin est prêt mais il reste la customisation et l’icône à mettr
 
 Ajouter l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 
-dans mon cas 
+dans mon cas
 
 ![image](images/tutorial_vdm_icon.png)
 
@@ -186,7 +133,7 @@ On l'active et ensuite plugins/Monitoring/Vie de Merde
 
 ça ne va pas car la couleur du plus ne correspond pas à la couleur de l'icône.
 
-J'ouvre le fichier desktop/php/desktop.php pour corriger.
+J'ouvre le fichier `desktop/php/desktop.php` pour corriger.
 
 ```
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
@@ -196,17 +143,7 @@ J'ouvre le fichier desktop/php/desktop.php pour corriger.
       </div>
 ```
 
-Je remplace
-
-```
-color:#94ca02;"
-```
-
-par 
-
-```
-color:#00A9EC;"
-```
+Je remplace `color:#94ca02;"` par `color:#00A9EC;"`
 
 On remarque aussi que les textes ne sont pas alignés donc on rectifie le style de la configuration (propriété top)
 
@@ -214,7 +151,7 @@ On remarque aussi que les textes ne sont pas alignés donc on rectifie le style 
 <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
 ```
 
-par 
+par
 
 ```
 <span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
@@ -226,13 +163,13 @@ Voilà la base est prête. Vous devriez avoir le plugin d'actif mais pour le mom
 
 # Les commandes
 
-Le but du plugin sera de récupérer une vdm aléatoire et l’afficher sur le dashboard. 
+Le but du plugin sera de récupérer une vdm aléatoire et l’afficher sur le dashboard.
 
 Il faut donc créer une commande de type info pour stocker cette information. Elle sera de sous-type « String » car c’est une chaîne de caractère.
 
 Pour l’exemple nous allons ajouter une commande qui rafraîchit l’information. Ce sera donc une commande de type action et sous-type other
 
--Créer un équipement « vdm1 » en cliquant sur le +. Activer le et rendez le visible. Choisissez un objet et l’équipement doit apparaitre sur le dashboard( selon l’objet). 
+-Créer un équipement « vdm1 » en cliquant sur le +. Activer le et rendez le visible. Choisissez un objet et l’équipement doit apparaitre sur le dashboard( selon l’objet).
 
 A ce moment, il n’y a pas de commandes qui apparaissent dans l’onglet commande s, ni sur le widget.
 
@@ -251,8 +188,8 @@ public function postSave() {
 	$info->setEqLogic_id($this->getId());
 	$info->setType('info');
 	$info->setSubType('string');
-	$info->save();	
-	
+	$info->save();
+
 	$refresh = $this->getCmd(null, 'refresh');
 	if (!is_object($refresh)) {
 		$refresh = new vdmCmd();
@@ -262,7 +199,7 @@ public function postSave() {
 	$refresh->setLogicalId('refresh');
 	$refresh->setType('action');
 	$refresh->setSubType('other');
-	$refresh->save();        
+	$refresh->save();
 }
 ```
 
@@ -325,7 +262,7 @@ function addCmdToTable(_cmd) {
 }
 ```
 
-Cela se fait automatiquement. 
+Cela se fait automatiquement.
 
 Je souhaite ajouter les options Affichage et historiser pour chaque commande.
 
@@ -352,12 +289,12 @@ On ajoute les informations souhaitées.
     tr += '<td>';
     tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
    tr += '<span><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" /> {{Affichage}}<br/></span>';
-   tr += '</td>';		
+   tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
 ```
 
-Je laisse le bouton pour créer une commande mais je souhaite qu’il soit à gauche. 
+Je laisse le bouton pour créer une commande mais je souhaite qu’il soit à gauche.
 
 ```
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
@@ -369,7 +306,7 @@ Je change la class pull-right en pull-left
 <a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 ```
 
-Voici le rendu.Les options de configuration (Affichage et historiser) sont bien présentes. 
+Voici le rendu.Les options de configuration (Affichage et historiser) sont bien présentes.
 
 ![image](images/tutorial_vdm_cmd2.png)
 
@@ -406,15 +343,15 @@ Ouvrir le fichier core/class/vdm.class.php et pour la class vdm qui hérite des 
 		$divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
 		return $divs[0]->nodeValue ;
 	}
-```	
+```
 
-Maintenant on va updater la commande info(story) avec cette information en lançant la commande action(refresh). 
-Toujours dans core/class/vdm.class.php pour la class vdmCmd on va utiliser la méthode execute 
+Maintenant on va updater la commande info(story) avec cette information en lançant la commande action(refresh).
+Toujours dans core/class/vdm.class.php pour la class vdmCmd on va utiliser la méthode execute
 
 ```
 public function execute($_options = array()) {
-		
-        
+
+
  }
 ```
 
@@ -423,8 +360,8 @@ C’est ici qu’on va définir ce qu’il va se passer quand on lance la comman
 On vérifie le logicalId de la commande lancée et si « refresh » on lance les actions
 
 ```
-switch ($this->getLogicalId()) {				
-	case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm . 
+switch ($this->getLogicalId()) {
+	case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
 	// code pour rafraîchir ma commande
 	break;
 }
@@ -448,10 +385,10 @@ Ce qui donne au final
 ```
     public function execute($_options = array()) {
 		$eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
-		switch ($this->getLogicalId()) {	//vérifie le logicalid de la commande 			
-			case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm . 
+		switch ($this->getLogicalId()) {	//vérifie le logicalid de la commande
+			case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
 				$info = $eqlogic->randomVdm(); 	//On lance la fonction randomVdm() pour récupérer une vdm et on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); // on met à jour la commande avec le LogicalId "story"  de l'eqlogic 
+				$eqlogic->checkAndUpdateCmd('story', $info); // on met à jour la commande avec le LogicalId "story"  de l'eqlogic
 				break;
 		}
     }
@@ -461,19 +398,19 @@ Maintenant aller dans un équipement créé et lancer la commande Rafraichir. Pu
 
 Sur le Dashboard, les informations apparaissent. Cliquez sur l’icône refresh pour changer l’information
 
-On va définir ensuite la taille du widget et le customiser un peu 
+On va définir ensuite la taille du widget et le customiser un peu
 
 Puis automatiser le refresh.
 
 # Update des informations (cron)
 
-Le plugin est fonctionnel mais pour l’instant il ne fait pas grand-chose. Si vous cliquer sur la commande « refresh » , la commande « story » se met à jour mais sinon rien. 
+Le plugin est fonctionnel mais pour l’instant il ne fait pas grand-chose. Si vous cliquer sur la commande « refresh » , la commande « story » se met à jour mais sinon rien.
 
 A noter que pour la commande je la nomme par logicalId. Et c’est important. Avoir un logicalId unique par équipement (eqLogic) simplifie les choses.
 
 On va voir maintenant comment mettre à jour la commande en utilisant les fonctions natives du core : Les crons
 
-Il y en a plusieurs : 
+Il y en a plusieurs :
 
 - cron : rafraichissement toutes les minutes
 - cron5 : rafraichissement toutes les 5 minutes
@@ -484,7 +421,7 @@ Il y en a plusieurs :
 
 Vu le plugin on va effectuer une mise à jour toutes les heures (soyons fous). On va donc utiliser la fonction cronHourly().
 
-On va donc ouvrir le fichier vdm.class.php et chercher 
+On va donc ouvrir le fichier vdm.class.php et chercher
 
 ```
     /*
@@ -508,7 +445,7 @@ Notre fonction est opérationnelle
 Maintenant il faut récupérer tous les équipements de notre plugin,
 
 ```
-self::byType('vdm') //array contenant tous les équipements du plugin 
+self::byType('vdm') //array contenant tous les équipements du plugin
 ```
 
 et les trier 1 par 1
@@ -538,7 +475,7 @@ if (!is_object($cmd)) {
 continue;
 }
 $cmd->execCmd();
-```	
+```
 
 Ce qui donne au final
 
@@ -574,7 +511,7 @@ La manière la plus simple vu qu’il n’y a qu’une commande et qu’elle est
 			 $cmd->execCmd();
 		}
     }
-```    
+```
 
 Il faut tester, ça fonctionne?
 
@@ -586,7 +523,7 @@ Dans la fonction postUpdate() , on lance la function cronHourly() avec l'id de l
     public function postUpdate() {
 		self::cronHourly($this->getId());// lance la fonction cronHourly avec l’id de l’eqLogic
     }
-``` 
+```
 
 Mais dans ce cas on change la fonction cronHourly()
 
@@ -596,8 +533,8 @@ Mais dans ce cas on change la fonction cronHourly()
 			$eqLogics = self::byType('vdm', true);
 		} else {// La fonction a l’argument id(unique) d’un équipement(eqLogic)
 			$eqLogics = array(self::byId($_eqLogic_id));
-		}		  
-	
+		}
+
 		foreach ($eqLogics as $vdm) {
 			if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est acitf
 				$cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
@@ -608,7 +545,7 @@ Mais dans ce cas on change la fonction cronHourly()
 			}
 		}
 	}
-```	
+```
 
 Après vous pouvez changer la fréquence du cron selon l'importance de vos informations à récupérer.
 
@@ -674,7 +611,7 @@ $this->setDisplay("width","800px");
 
 Oui , mais !! Car il y a un mais. Essayez d’ajouter ça dans la fonction postsave() ou postUpdate() et ça ne prends pas en compte le changement. Pourquoi ? Ben faut lire la doc du plugin template ==>ICI
 
-Maintenant que vous avez bien lu vous savez qu’Il faut utiliser la méthode preSave() 
+Maintenant que vous avez bien lu vous savez qu’Il faut utiliser la méthode preSave()
 
 ```
     public function preSave() {
@@ -691,13 +628,13 @@ Enregistrer un équipement et rafraîchissez le dashboard.
 >
 >C’est un chapitre important et il faut le comprendre avant de passer à la suite.
 
-Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez et laissez ouvert car on va l’éditer . 
+Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez et laissez ouvert car on va l’éditer .
 
 ```
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ```
 
-Il faut comprendre que tout est fait pour nous faciliter la tâche. 
+Il faut comprendre que tout est fait pour nous faciliter la tâche.
 
 Pour un paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : setConfiguration() en y ajoutant les paramètres que l’on souhaite. Par exemple :
 
@@ -707,7 +644,7 @@ $this->setConfiguration("type","mon_type"); // si on veut  définir un paramètr
 
 Pour laisser le choix à l’utilisateur , on retourne sur le fichier desktop.php que vous avez laissé ouvert car vous suivez ce TP au pied de la lettre :D
 
-Chercher 
+Chercher
 
 ```
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
@@ -716,10 +653,10 @@ Chercher
 Et remplacer par
 
 ```
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr 
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr
 ```
 
-Enregistrer et aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin). 
+Enregistrer et aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin).
 
 Dans le champs « Paramètre» d’un équipement, taper « aleatoire » et sauvegarder.
 
@@ -738,7 +675,7 @@ Si vous regardez de plus près le fichier desktop.php il y a
 
 ```
                     <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l’id(unique) de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getId() ;
-```        
+```
 
 ```
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement}}"/>// retourne le nom de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getName() ;
@@ -746,13 +683,13 @@ Si vous regardez de plus près le fichier desktop.php il y a
 
 Etc…
 
-Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avant on va changer dans le fichier desktop.php 
+Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avant on va changer dans le fichier desktop.php
 
 ```
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
 ```
 
-Par 
+Par
 
 ```
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
@@ -777,7 +714,7 @@ Si vous avez tout suivi ,vous devriez avoir dans le fichier desktop.php
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
         </div>
     </div>
-``` 
+```
 
 Qu’on va remplacer par
 
@@ -811,8 +748,8 @@ Et remplacer par
 	$type = $this->getConfiguration("type ");
 		if($type == "") { //si le paramètre est vide ou n’existe pas
 			$type = "aleatoire"; //on prends le type aleatoire
-		}		
+		}
 		$url = "http://www.viedemerde.fr/" .$type  ;
-```	
+```
 
 Maintenant changer la valeur du select sur un équipement,sauvegarder et aller sur le dashboard pour voir ce que cela donne.
