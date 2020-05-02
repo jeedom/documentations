@@ -50,7 +50,7 @@ Logiciel
 
 > **Important**
 >
-> Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable).
+> Jeedom ne supporte que Debian Jessie (non recommandé),Stretch (non recommandé) et Buster (stable).
 > Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n’est pas
 > supportée par Jeedom.
 
@@ -61,7 +61,7 @@ Logiciel
 | PHP 5.6                 | Stable                  |                          |
 | PHP 7.X                 | Stable                  |                          |
 | Mysql 5.5/5.6           | Stable                  |                          |
-| Mysql 5.7               | Beta                    |                          |
+| Mysql 5.7               | Stable                    |                          |
 | MariaBD                 | Stable                  |                          |
 
 Autre
