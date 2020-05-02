@@ -67,7 +67,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection?
+-   Autoprotection
 
 -   Low battery indication
 
@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food? : 1 CR123A 3V battery
+-   Food : 1 CR123A 3V battery
 
 -   Battery life : 2 years
 
@@ -100,9 +100,9 @@ Technical characteristics
 
 -   PIR detection range : 8 to 10m
 
--   Dimensions? : 28 x 96 x 23 mm
+-   Dimensions : 28 x 96 x 23 mm
 
--   Weight? : 39g?
+-   Weight : 39g
 
 -   Operating temperature : -10 to 40 ° C
 
@@ -119,7 +119,7 @@ Module data
 
 \
 
--   Mark? : Philio Technology Corporation
+-   Mark : Philio Technology Corporation
 
 -   Name : Philio PSP01
 
@@ -145,7 +145,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation?.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -181,14 +181,14 @@ Here is the list of commands :
 -   Presence : it is the command which will detect a presence detection
 
 -   Opening : it is the command which will raise a detection
-    opening?
+    d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage? : this is the sabotage command (it is triggered in
+-   Sabotage : this is the sabotage command (it is triggered in
     tearing out)
 
 -   Drums : it's the battery command
@@ -198,14 +198,14 @@ Here is the list of commands :
 All the modules of the range having the same ids, it's up to you to display those
 corresponding to your module.
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 
@@ -245,10 +245,10 @@ Parameter details :
     group 2
 
 -   5: operating mode (not recommended to change it : report to
-    on the manufacturer's Documentation?)
+    on the manufacturer's documentation)
 
 -   6: multi-sensor operating mode (not recommended to change it
-    : refer to the manufacturer's Documentation?)
+    : refer to the manufacturer's documentation)
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2

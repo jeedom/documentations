@@ -1,4 +1,4 @@
-Nodon Smart Plug - Smartplug? 
+Nodon Smart Plug - Smartplug 
 ====================================
 
 \
@@ -44,14 +44,14 @@ Functions
 
 -   Line current loss detection
 
--   Ergonomic?: Possibility of plugging the head up / head plug
-    Low?
+-   Ergonomique: Possibility of plugging the head up / head plug
+    bas
 
 -   Intelligent alarm management
 
 -   Improved radio range
 
--   Maximum amperage: 16A?
+-   Maximum amperage: 16A
 
 \
 
@@ -65,14 +65,14 @@ Technical characteristics
 -   Maximum power : 3000W continuous / 3500W cyclic
     (Resistive load) Intrinsic consumption : &lt;1W
 
--   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m?
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.01
 
 -   Scope: 40m indoor / 80m outdoor
 
--   Dimensions?: 104 \* 51 \* 36mm?
+-   Dimensions: 104\*51\*36mm
 
 -   2 years warranty
 
@@ -85,9 +85,9 @@ Module data
 
 \
 
--   Mark : Nodon?
+-   Mark : Nodon
 
--   Name : Smartplug?
+-   Name : Smartplug
 
 -   Manufacturer ID : 357
 
@@ -111,8 +111,8 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> until the light turns red, according to its Documentation?
-> paper?.
+> until the light turns red, according to its documentation
+> paper.
 
 \
 
@@ -145,12 +145,12 @@ Here is the list of commands :
 
 \
 
--   State? : It is the command which allows to know the status of the
-    socket (We / Off?)
+-   State : It is the command which allows to know the status of the
+    socket (We / Off)
 
--   We? : This is the command that turns on the outlet
+-   We : This is the command that turns on the outlet
 
--   Off? : It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
 -   Status : Used to find out whether the outlet is powered or not
     (Power failure / disconnection detection)
@@ -162,7 +162,7 @@ the same icon.
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 

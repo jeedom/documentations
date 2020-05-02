@@ -34,7 +34,7 @@ Descarga de masilla
 =======================
 
 Luego descarga masilla
-[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) y?
+[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
 iniciar el archivo descargado
 
 Configuración de masilla y cambio al modo GSM solamente 

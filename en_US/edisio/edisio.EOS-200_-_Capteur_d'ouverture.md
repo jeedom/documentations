@@ -52,20 +52,20 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C + 45 ° C
 
--   Range in free field : 100M?
+-   Range in free field : 100M
 
--   Dimensions? : 25x79x19mm
+-   Dimensions : 25x79x19mm
 
--   Degree of protection : IP20?
+-   Degree of protection : IP20
 
--   Use? : Indoors
+-   Use : Indoors
 
 Module data 
 =================
 
--   Mark? : Edisio Smart Home
+-   Mark : Edisio Smart Home
 
--   Name? : EOS-200?
+-   Name : EOS-200
 
 General configuration 
 ======================
@@ -132,7 +132,7 @@ Here is the list of commands :
 -   Door : It is the command which indicates whether the door is open or
     closed
 
--   Drums? : Indicates the battery status
+-   Drums : Indicates the battery status
 
 Information 
 ------------
@@ -144,10 +144,10 @@ available :
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication? : Indicates the last communication recorded between
+-   Communication : Indicates the last communication recorded between
     Jeedom and the module
 
--   Drums? : Indicates the battery status of the battery modules
+-   Drums : Indicates the battery status of the battery modules
 
 -   STATUS : Returns the status of the module
 

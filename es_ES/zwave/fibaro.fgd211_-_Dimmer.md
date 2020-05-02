@@ -82,30 +82,30 @@ Características técnicas
 
 \
 
--   Punta?o de módulo : Receptor Z-Wave
+-   Tipo de módulo : Receptor Z-Wave
 
--   Suministro? : 230V, 50 Hz
+-   Suministro : 230V, 50 Hz
 
 -   Cableado : neutral no requerido
 
 -   Carga máxima : 25-500W (carga resistiva) o 1.5A (carga inductiva)
 
--   Punta?o de lámpara compatible (regulable) : Incandescente, Fluocompacto,
+-   Tipo de lámpara compatible (regulable) : Incandescente, Fluocompacto,
     Halógeno (230VAC y 12VDC con transformador electrónico), LED
 
--   Punta?o de lámpara compatible (no regulable) : Fluorescente compacta, LED
+-   Tipo de lámpara compatible (no regulable) : Fluorescente compacta, LED
 
--   Fusible? : 2.5A?
+-   Fusible : 2.5A
 
 -   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones?: 15 x 42 x 36 mm
+-   Dimensions: 15 x 42 x 36 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Temperatura límite : 105 ° C?
+-   Temperatura límite : 105°C
 
 -   Normas : EN 55015 y EN 60669-2-1
 
@@ -118,11 +118,11 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre?bre : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
--   Punta?o de producto : 256
+-   Tipo de producto : 256
 
 -   ID del producto : 4106
 
@@ -186,9 +186,9 @@ Aquí está la lista de comandos :
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno? : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz.
 
--   Apagado? : Es el comando que apaga la luz.
+-   Apagado : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
@@ -279,7 +279,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 
@@ -304,7 +304,7 @@ Bueno saber
 > **Caution**
 >
 > El parámetro más importante de la configuración es 14. Es
-> permite elegir el tipo de interruptor utilizado. Punta?o predeterminado
+> permite elegir el tipo de interruptor utilizado. Tipo predeterminado
 > se establece en monoestable.
 
 \

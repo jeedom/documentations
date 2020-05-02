@@ -71,19 +71,19 @@ Technische Daten
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0,6 W.?
+-   Verbrauch : 0.6W
 
 -   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
-    : 800W, Kompaktleuchtstofflampe : 200W?, LED-Lampe (nicht dimmbar) :
-    200W?
+    : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
+    200W
 
 -   Frequenz : 868,42 MHz
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen?: LED auf der Taste
+-   Affichage: LED auf der Taste
 
--   Abmessungen? : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm?
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
 \.
 
@@ -92,7 +92,7 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Everspring?
+-   Machen Sie : Everspring
 
 -   Name : Ministecker ein / aus
 
@@ -136,7 +136,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -158,7 +158,7 @@ Hier ist die Liste der Befehle :
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus? : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 \.
 

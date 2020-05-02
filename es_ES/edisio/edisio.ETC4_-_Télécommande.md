@@ -36,7 +36,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro? : 3VDC (batería de litio CR2430)
+-   Suministro : 3VDC (batería de litio CR2430)
 
 -   Canales : 4
 
@@ -44,16 +44,16 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 ° C + 50 ° C
 
--   Dimensiones? : 52x28x12mm
+-   Dimensiones : 52x28x12mm
 
--   Grado de protección : IP40?
+-   Grado de protección : IP40
 
 Datos del módulo 
 =================
 
 -   Hacer : Edisio Smart Home
 
--   Nombre? : ETC4?
+-   Nombre : ETC4
 
 Configuración general 
 ======================
@@ -134,15 +134,15 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   bt01? : Es el comando que te permite interactuar con el botón 1
+-   bt01 : Es el comando que te permite interactuar con el botón 1
 
--   bt02? : Es el comando que permite interactuar con el botón 2
+-   bt02 : Es el comando que permite interactuar con el botón 2
 
--   bt03? : Es el comando que permite interactuar con el botón 3
+-   bt03 : Es el comando que permite interactuar con el botón 3
 
--   bt04? : Es el comando que te permite interactuar con el botón 4
+-   bt04 : Es el comando que te permite interactuar con el botón 4
 
--   Batería? : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería.
 
 Información 
 ------------
@@ -154,12 +154,12 @@ disponible :
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
--   Comunicación? : Indica la última comunicación registrada entre
+-   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería? : Indica el estado de la batería para los módulos de batería.
+-   Batería : Indica el estado de la batería para los módulos de batería.
 
--   Estado? : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo.
 
 Uso 
 -----------

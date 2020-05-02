@@ -69,7 +69,7 @@ Functions
 Technical characteristics 
 ---------------------------
 
--   Food? : 12 V or 24 V DC
+-   Food : 12 V or 24 V DC
 
 -   Maximum output power :
 
@@ -85,17 +85,17 @@ Technical characteristics
 
 -   PWM modulation frequency : 244 Hz
 
--   Consumption? : 0.3W?
+-   Consumption : 0,3W
 
 -   Radio protocol : Z-Wave at 868.4 MHz (EU)
 
--   Z-Wave transmit power : 1mW?
+-   Z-Wave transmit power : 1mW
 
 -   Operating temperature : 0 - 40 C
 
 -   For installation in boxes : Ø≥50 mm
 
--   Dimensions? : 42 x 37 x 17 mm
+-   Dimensions : 42 x 37 x 17 mm
 
 -   European standards : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -106,7 +106,7 @@ Technical characteristics
 Module data 
 -----------------
 
--   Mark? : Fibar Group
+-   Mark : Fibar Group
 
 -   Name : Fibaro FGRGB-101 RGBW
 
@@ -130,7 +130,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation?.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -162,20 +162,20 @@ disponibles.
 Here is the list of commands :
 
 -   Color : It is the command which allows to set the color code to
-    Pin up?
+    afficher
 
 -   Fireplace : It is the command that simulates an atmosphere of
     Fireplace
 
--   Thunderstorm? : This is the command that simulates a Storm atmosphere
+-   Thunderstorm : This is the command that simulates a Storm atmosphere
 
--   Dawn? : This is the command that simulates an Aude atmosphere
+-   Dawn : This is the command that simulates an Aude atmosphere
     (progressive sunrise)
 
--   Fading? : This is the command that simulates the entire
+-   Fading : This is the command that simulates the entire
     color spectrum
 
--   RBB? : This is the command that simulates a cop atmosphere
+-   RBB : This is the command that simulates a cop atmosphere
 
 -   White cold : This is the command that simulates having a
     cool white color, if the color strip allows it. (this
@@ -188,17 +188,17 @@ Here is the list of commands :
 -   We : This is the command that turns on the strip on the
     last color chooses before
 
--   Off? : This is the command that turns off the banner
+-   Off : This is the command that turns off the banner
 
--   Intensity? : It is the command which allows to adjust the intensity
-    bright?
+-   Intensity : It is the command which allows to adjust the intensity
+    lumineuse
 
 Note that on the dashboard all the information is found on the same
 icone
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the

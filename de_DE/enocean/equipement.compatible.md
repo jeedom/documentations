@@ -224,7 +224,7 @@
 |<img src="../../de_DE/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Fenstergriff Sécusignal Atlanta Aluminium|Griff|Auswahl des richtigen Profils nach der Aufnahme|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1062-hoppe-poignee-fenetre-secusignal-atlanta-alu-4012789023428.html)|
 |<img src="../../de_DE/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Fenstergriff Sécusignal Atlanta White|Griff|Auswahl des richtigen Profils nach der Aufnahme|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1063-hoppe-poignee-fenetre-secusignal-atlanta-blanc-4012789104158.html)|
 
-# Empfänger?
+# Recepteur
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

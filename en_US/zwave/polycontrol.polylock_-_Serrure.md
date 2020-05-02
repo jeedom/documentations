@@ -44,7 +44,7 @@ Poly-Control can also work with other Z-Wave scenes, where
 the lights come on, and the alarm system is deactivated when
 unlocked via your remote control.
 
-The Poly-Control? system can be used in an environment
+The Poly-Control system can be used in an environment
 domestic or work. The Poly-Lock is powered by
 battery, and has been tested to operate for 1 year, without
 battery replacement.
@@ -61,7 +61,7 @@ Functions
 -   Fits most doors
 
 -   Can be integrated into Z-Wave scenes, for example for a system
-    alarm?
+    d'alarme
 
 -   Suitable for home or business use
 
@@ -83,9 +83,9 @@ Technical characteristics
 -   Scope : up to 100 m outdoors, up to 30 m in
     buildings
 
--   Dimensions? : 120 x 52 x 60 mm (L x W x H)
+-   Dimensions : 120 x 52 x 60 mm (L x W x H)
 
--   Weight? : 370g?
+-   Weight : 370g
 
 \
 
@@ -94,9 +94,9 @@ Module data
 
 \
 
--   Mark : Poly-Control?
+-   Mark : Poly-Control
 
--   Name : PolyLock?
+-   Name : Polylock
 
 -   Manufacturer ID : 270
 
@@ -120,7 +120,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 1 time
-> inclusion button, according to its paper Documentation?.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -160,11 +160,11 @@ Here is the list of commands :
 
 -   To close : it is the command which makes it possible to close the lock
 
--   Drums? : it's the battery command
+-   Drums : it's the battery command
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
@@ -217,7 +217,7 @@ Parameter details :
 
 \
 
-### Groups? 
+### Groups 
 
 \
 

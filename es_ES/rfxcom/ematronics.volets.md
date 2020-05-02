@@ -23,13 +23,13 @@ Activar, "Iniciar en modo de depuración"
 Espere a que se abra la ventana, luego presione el botón Abrir
 su control remoto Ematronic.
 
-    MainThread - rfxcmd:2765 - DEPURACIÓN - Mensaje de prueba: 09 19 03 01 1F? 84 B9 01 01 60
+    MainThread - rfxcmd:2765 - DEPURACIÓN - Mensaje de prueba: 09 19 03 01 1F 84 B9 01 01 60
     MainThread - rfxcmd:2805 - DEPURACIÓN - Mensaje OK
     MainThread - rfxcmd:328 - DEPURACIÓN - Verificado OK
     MainThread - rfxcmd:334 - DEPURACIÓN - Tipo de paquete: 19
     MainThread - rfxcmd:338 - DEPURACIÓN - Subtipo: 03
     MainThread - rfxcmd:342 - DEPURACIÓN - SeqNbr: 01
-    MainThread - rfxcmd:346 - DEPURACIÓN - Id1: 1F?
+    MainThread - rfxcmd:346 - DEPURACIÓN - Id1: 1F
     MainThread - rfxcmd:350 - DEPURACIÓN - Id2: 84
     MainThread - rfxcmd:359 - DEPURACIÓN - Verifique la longitud correcta del paquete
     MainThread - rfxcmd:556 - DEPURACIÓN - Guardar paquete en log_msgfile
@@ -41,9 +41,9 @@ Remarque: Los controles remotos de Ematronic siempre comienzan con : 09 19 03
 entonces el área que nos interesa comienza desde "Mensaje de prueba" : 09 19 03.
 
 Identificar : Id1 e Id2 y agregue el siguiente hexadecimal : en mi ejemplo
-Id1 = 1F? e Id2 = 84. así que debes ubicarlos en la línea "Prueba
+Id1 = 1F e Id2 = 84. así que debes ubicarlos en la línea "Prueba
 mensaje "y extraer Id3, aquí Id3 = B9, nuestro control remoto tiene
-como ID ⇒ 1F?84B9.
+como ID ⇒ 1F84B9.
 
 Detenga el modo de depuración con el botón "Detener / reiniciar el demonio" 
 -----------------------------------------------------------------

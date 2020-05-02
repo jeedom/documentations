@@ -25,7 +25,7 @@ Summary
 \
 
 The Soft Remote NodOn® can directly control any device
-Z-Wave® or Z-Wave Plus® compatible? such as the NodOn® smart plug.
+Z-Wave® or Z-Wave Plus® compatible such as the NodOn® smart plug.
 
 It can also trigger scenes via a home automation system
 compatible.
@@ -37,7 +37,7 @@ Functions
 
 \
 
--   Control any Z-Wave compatible? device
+-   Control any Z-Wave compatible device
 
 -   Impact and splash resistant
 
@@ -60,9 +60,9 @@ Technical characteristics
 
 -   Impact and splash resistant
 
--   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m?
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 
--   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible?
+-   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.06
 
 -   Scope : 40m indoors / 80m outdoors
@@ -78,9 +78,9 @@ Module data
 
 \
 
--   Mark : Nodon?
+-   Mark : Nodon
 
--   Name? : CRC-3-6-0x Soft Remote
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Manufacturer ID : 357
 
@@ -105,7 +105,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press the two
 > button (+ and 0 full) until the light turns pink then
-> press the + button, in accordance with its paper Documentation?.
+> press the + button, in accordance with its paper Documentation.
 
 \
 
@@ -138,13 +138,13 @@ Here is the list of commands :
 
 \
 
--   Buttons? : it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Buttons?        | Support          | Long press     | Relaxation    | Double support   |
+| Buttons        | Support          | Long press     | Relaxation    | Double support   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| full)?**       |                |                |                |                |
+| plein)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -157,14 +157,14 @@ Here is the list of commands :
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 
@@ -191,13 +191,13 @@ Parameter details :
 
 \
 
--   1-2? : Allows you to choose the profile of the buttons when used in
+-   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
 -   3 : IMPORTANT parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7? : Choose the button operating mode (in case
+-   4-7 : Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED

@@ -31,9 +31,9 @@ La url de empuje es de la forma :
 
 Con parámetros :
 
--   Identificación : la Identificación?entificación del feed que se encuentra en emoncms
+-   Identificación : la identificación del feed que se encuentra en emoncms
 
--   apikey? : La clave de API de lectura y escritura para emoncms
+-   apikey : La clave de API de lectura y escritura para emoncms
 
 -   valor : debe dejar * valor * para que Jeedom envíe el
     valor de la información

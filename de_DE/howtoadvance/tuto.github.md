@@ -75,7 +75,7 @@ genau hier : Kern / Klasse /
     das Repository, in dem ich mich befinde (Kern, siehe Small 1)
 
 3. Wir haben also unsere * history.class-Datei.php * - Wir klicken auf die
-    Datei?
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 

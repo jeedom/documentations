@@ -23,13 +23,13 @@ Activate, "Launch in debug mode"
 Wait for the window to open, then press the Open button on
 your Ematronic remote control.
 
-    MainThread - rfxcmd:2765 - DEBUG - Test message: 09 19 03 01 1F? 84 B9 01 01 60
+    MainThread - rfxcmd:2765 - DEBUG - Test message: 09 19 03 01 1F 84 B9 01 01 60
     MainThread - rfxcmd:2805 - DEBUG - Message OK
     MainThread - rfxcmd:328 - DEBUG - Verified OK
     MainThread - rfxcmd:334 - DEBUG - PacketType: 19
     MainThread - rfxcmd:338 - DEBUG - SubType: 03
     MainThread - rfxcmd:342 - DEBUG - SeqNbr: 01
-    MainThread - rfxcmd:346 - DEBUG - Id1: 1F?
+    MainThread - rfxcmd:346 - DEBUG - Id1: 1F
     MainThread - rfxcmd:350 - DEBUG - Id2: 84
     MainThread - rfxcmd:359 - DEBUG - Verify correct packet length
     MainThread - rfxcmd:556 - DEBUG - Save packet to log_msgfile
@@ -41,9 +41,9 @@ Remarque: Ematronic remote controls always start with : 09 19 03
 so the area that interests us starts from "Test message" : 09 19 03.
 
 Spot : Id1 and Id2 and add the following hexadecimal : in my example
-Id1 = 1F? and Id2 = 84. so you should locate them in the line, "Test
+Id1 = 1F and Id2 = 84. so you should locate them in the line, "Test
 message "and extract Id3, here Id3 = B9, Our remote control has
-as ID ⇒ 1F?84B9.
+as ID ⇒ 1F84B9.
 
 Stop Debug Mode by the button "Stop / Restart the daemon" 
 -----------------------------------------------------------------

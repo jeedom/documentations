@@ -69,7 +69,7 @@ Funciones
 Características técnicas 
 ---------------------------
 
--   Suministro? : 12 V o 24 V CC
+-   Suministro : 12 V o 24 V CC
 
 -   Máxima potencia de salida :
 
@@ -85,11 +85,11 @@ Características técnicas
 
 -   Frecuencia de modulación PWM : 244 Hz
 
--   El consumo? : 0.3W?
+-   El consumo : 0,3W
 
--   Protocolo de radio : Uno?da Z a 868,4 MHz (UE)
+-   Protocolo de radio : Onda Z a 868,4 MHz (UE)
 
--   Potencia de transmisión Z-Wave : 1mW?
+-   Potencia de transmisión Z-Wave : 1mW
 
 -   Temperatura de funcionamiento : 0 - 40 C
 
@@ -106,9 +106,9 @@ Características técnicas
 Datos del módulo 
 -----------------
 
--   Hacer? : Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre?bre : Fibaro FGRGB-101 RGBW
+-   Nombre : Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -162,20 +162,20 @@ disponibles.
 Aquí está la lista de comandos :
 
 -   Color : Es el comando que permite configurar el código de color para
-    Mostrar?
+    afficher
 
 -   Chimenea : Es el comando que simula una atmósfera de
     Chimenea
 
--   Tormenta? : Este es el comando que simula una atmósfera de tormenta
+-   Tormenta : Este es el comando que simula una atmósfera de tormenta
 
--   Alba? : Este es el comando que simula una atmósfera de Aude.
+-   Alba : Este es el comando que simula una atmósfera de Aude.
     (amanecer progresivo)
 
 -   Desvanecimiento : Este es el comando que simula todo
     espectro de color
 
--   RBB? : Este es el comando que simula una atmósfera de policía.
+-   RBB : Este es el comando que simula una atmósfera de policía.
 
 -   Blanco frio : Este es el comando que simula tener un
     color blanco frío, si la tira de color lo permite. (este
@@ -190,8 +190,8 @@ Aquí está la lista de comandos :
 
 -   Apagado : Este es el comando que apaga el banner
 
--   Intensidad? : Es el comando que permite ajustar la intensidad.
-    brillante?
+-   Intensidad : Es el comando que permite ajustar la intensidad.
+    lumineuse
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone

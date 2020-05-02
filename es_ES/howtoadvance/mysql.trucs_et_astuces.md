@@ -9,7 +9,7 @@ Edite el archivo /etc/mysql/mysql.conf.d/mysqld.cnf y agregar :
     [mysqld]
     performance_schema = OFF
 
-Optimizando MySQL? 
+Optimizando MySQL 
 ===============
 
 > **Important**
@@ -17,7 +17,7 @@ Optimizando MySQL?
 > Este método es bajo su propio riesgo.. En caso de preocupaciones
 > el apoyo solo será posible.
 
--   Detenga el demonio MySQL? y elimine los archivos de registro :
+-   Detenga el demonio MySQL y elimine los archivos de registro :
 
 <!-- -->
 
@@ -42,7 +42,7 @@ Optimizando MySQL?
     echo "innodb_flush_log_at_trx_commit = 2" >> /etc/mysql/conf.d/jeedom_my.cnf
     echo "innodb_log_file_size = 32M" >> /etc/mysql/conf.d/jeedom_my.cnf
 
--   Relanzar MySQL? :
+-   Relanzar MySQL :
 
 <!-- -->
 

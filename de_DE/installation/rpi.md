@@ -18,13 +18,13 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 >
 > Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt)..
 
-## Aktivieren Sie den SSH?-Zugriff
+## Aktivieren Sie den SSH-Zugriff
 
 > **Warning**
 >
-> Aus Sicherheitsgründen ist der SSH?-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Also musst du es aktivieren.
+> Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Also musst du es aktivieren.
 
-Auf der Boot-Partition muss eine leere SSH?-Datei erstellt werden (die einzige, auf die unter Windows zugegriffen werden kann)..
+Auf der Boot-Partition muss eine leere SSH-Datei erstellt werden (die einzige, auf die unter Windows zugegriffen werden kann)..
 
 Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne es in "ssh" um" **ohne Verlängerung**
 
@@ -38,7 +38,7 @@ Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne
 
 Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
 
-## Verbinden Sie sich in SSH?
+## Verbinden Sie sich in SSH
 
 Identifizieren Sie Ihren Pi im Netzwerk
 

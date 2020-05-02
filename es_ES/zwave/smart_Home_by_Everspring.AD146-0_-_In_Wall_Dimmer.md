@@ -81,25 +81,25 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro? : 230 V, 50 Hz
+-   Suministro : 230 V, 50 Hz
 
--   El consumo : 0.5W?
+-   El consumo : 0.5W
 
 -   Potencia máxima :
 
--   Carga resistiva : 300W?
+-   Carga resistiva : 300W
 
--   Bombilla incandescente : 300W?
+-   Bombilla incandescente : 300W
 
--   Bombilla fluorescente compacta : 200W?
+-   Bombilla fluorescente compacta : 200W
 
 -   Frecuencia : 868.42 Mhz
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización?: LED en el botón
+-   Affichage: LED en el botón
 
--   Dimensiones? : 42 mm x 43 mm x 16 mm
+-   Dimensiones : 42 mm x 43 mm x 16 mm
 
 \
 
@@ -110,7 +110,7 @@ Datos del módulo
 
 -   Hacer : Smarthome por everspring
 
--   Nombre? : En pared dimmer
+-   Nombre : En pared dimmer
 
 -   ID del fabricante : 96
 
@@ -169,7 +169,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Intensidad? : Este es el comando utilizado para ajustar la intensidad de la
+-   Intensidad : Este es el comando utilizado para ajustar la intensidad de la
     Iluminación
 
 -   Uno : Es el control que enciende la luz.

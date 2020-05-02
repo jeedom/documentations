@@ -1,16 +1,16 @@
 Warum ? 
 ==========
 
--   Apache wird mit Jeedom? allmählich zur Norm
+-   Apache wird mit Jeedom allmählich zur Norm
 
 -   Ermöglicht Ihnen die neuesten Sicherheitsupdates unter
     Zugriff auf Dateien (dank .htaccess) bei Updates von
-    Jeedom?
+    Jeedom
 
 -   Korrigiert einige Zugangs- und Stabilitätsprobleme (insbesondere für diese
     die viele Kameras haben)
 
--   Verbessert die Gesamtleistung von Jeedom?.
+-   Verbessert die Gesamtleistung von Jeedom.
 
 Voraussetzungen 
 =========
@@ -22,7 +22,7 @@ Voraussetzungen
 
 > **Important**
 >
-> Bei Bedenken kann das Jeedom?-Team nicht zur Verantwortung gezogen werden und
+> Bei Bedenken kann das Jeedom-Team nicht zur Verantwortung gezogen werden und
 > kann jede Supportanfrage ablehnen. Die Handhabung liegt bei Ihnen
 > Risiken und Gefahren.
 
@@ -34,10 +34,10 @@ Voraussetzungen
 Wie es geht 
 =============
 
-Deaktivierung von Jeedom?- und Nginx-Diensten 
+Deaktivierung von Jeedom- und Nginx-Diensten 
 ------------------------------------------
 
-In Jeedom? müssen Sie dann mit einem Daemon zu jedem Plugin gehen
+In Jeedom müssen Sie dann mit einem Daemon zu jedem Plugin gehen
 Deaktivieren Sie die automatische Verwaltung des Dämons und schneiden Sie ihn ab. Du musst
 Deaktivieren Sie dann in der Task-Engine alle Aufgaben (es gibt eine
 allgemeine Deaktivierungsschaltfläche) und in den Szenarien alle deaktivieren
@@ -82,7 +82,7 @@ Zugriffstest
 
     systemctl starte mysql
 
-Sie sollten jetzt über dieselbe URL auf Jeedom? zugreifen können
+Sie sollten jetzt über dieselbe URL auf Jeedom zugreifen können
 als zuvor. Wenn es gut ist, können Sie fortfahren, sonst ist es nicht wesentlich
 NICHT WEITER.
 
@@ -93,7 +93,7 @@ MAKE :
 
     crontab -e
 
-Aktualisieren Sie dann den Pfad zu Jeedom? und ersetzen Sie ihn :
+Aktualisieren Sie dann den Pfad zu Jeedom und ersetzen Sie ihn :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / usr / share / nginx / www / jeedom / core / php / jeeCron.php '>> / dev / null 2> & 1
 
@@ -115,10 +115,10 @@ Dienste neu starten
     systemctl aktiviere apache2
     systemctl start cron
 
-Stellen Sie dann eine Verbindung zu Ihrem Jeedom? her und aktivieren Sie die Task-Engine erneut
+Stellen Sie dann eine Verbindung zu Ihrem Jeedom her und aktivieren Sie die Task-Engine erneut
 und die Szenarien. Sie können auch die Dämonen wiederbeleben.
 
 > **Important**
 >
 > Es wird empfohlen, nach der Migration ein Update von zu starten
-> Jeedom? (auch wenn es dir nichts bietet).
+> Jeedom (auch wenn es dir nichts bietet).

@@ -81,25 +81,25 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food? : 230 V, 50 Hz
+-   Food : 230 V, 50 Hz
 
--   Consumption : 0.5W?
+-   Consumption : 0.5W
 
 -   Maximum power :
 
--   Resistive load : 300W?
+-   Resistive load : 300W
 
--   Incandescent bulb : 300W?
+-   Incandescent bulb : 300W
 
--   Compact fluorescent bulb : 200W?
+-   Compact fluorescent bulb : 200W
 
 -   Frequency : 868.42 Mhz
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing?: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions? : 42mm x 43mm x 16mm
+-   Dimensions : 42mm x 43mm x 16mm
 
 \
 
@@ -110,7 +110,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Name? : In Wall Dimmer
+-   Name : In Wall Dimmer
 
 -   Manufacturer ID : 96
 
@@ -134,7 +134,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation?. It's important to
+> button, according to its paper Documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -169,12 +169,12 @@ Here is the list of commands :
 
 \
 
--   Intensity? : This is the command used to adjust the intensity of the
+-   Intensity : This is the command used to adjust the intensity of the
     Light
 
 -   We : It is the control that turns on the light
 
--   Off? : It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
     Light
@@ -186,7 +186,7 @@ found on the same icon.
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 

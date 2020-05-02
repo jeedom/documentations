@@ -39,7 +39,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food? : 3VDC (CR2032 Lithium Battery)
+-   Food : 3VDC (CR2032 Lithium Battery)
 
 -   Canals : 1
 
@@ -49,18 +49,18 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C + 50 ° C
 
--   Dimensions? : 65x18mm
+-   Dimensions : 65x18mm
 
--   Degree of protection : IP64?
+-   Degree of protection : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Module data 
 =================
 
--   Mark? : Edisio Smart Home
+-   Mark : Edisio Smart Home
 
--   Name? : ETC1?
+-   Name : ETC1
 
 -   Reference : P01 / Y01 / L01
 
@@ -114,9 +114,9 @@ associated with the module :
 
 Here is the list of commands :
 
--   bt01? : It is the command that allows you to interact with button 1
+-   bt01 : It is the command that allows you to interact with button 1
 
--   Drums? : Indicates the battery status
+-   Drums : Indicates the battery status
 
 Information 
 ------------
@@ -128,12 +128,12 @@ available :
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication? : Indicates the last communication recorded between
+-   Communication : Indicates the last communication recorded between
     Jeedom and the micro-module
 
--   Drums? : Indicates the battery status of the battery modules
+-   Drums : Indicates the battery status of the battery modules
 
--   STATUS? : Returns the status of the module
+-   STATUS : Returns the status of the module
 
 Use 
 -----------

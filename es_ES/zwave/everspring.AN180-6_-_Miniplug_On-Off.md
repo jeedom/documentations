@@ -1,4 +1,4 @@
-Everspring Miniplug Uno / Apagado? - AN180-6 
+Everspring Miniplug Uno / Apagado - AN180-6 
 ====================================
 
 \
@@ -27,10 +27,10 @@ Resumen
 El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
 apagar las luces y el equipo eléctrico de su
 casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
-Carga hasta 1500W (resistencia), 800W (incandescente), 200W? (motor,
+Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
 fluorescente, Led).
 
-El Mini Uno / Apagado? Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
+El Mini Uno / Apagado Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
 para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
 ser controlado por un control remoto, software de PC o cualquier
 Controlador Z-Wave para su red.
@@ -71,19 +71,19 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 0.6W?
+-   El consumo : 0.6W
 
 -   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
-    : 800W, bombilla fluorescente compacta : 200W?, bombilla led (no regulable) :
-    200W?
+    : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
+    200W
 
 -   Frecuencia : 868.42 Mhz
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización?: LED en el botón
+-   Affichage: LED en el botón
 
--   Dimensiones? : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm?
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -92,9 +92,9 @@ Datos del módulo
 
 \
 
--   Hacer? : Everspring?
+-   Hacer : Everspring
 
--   Nombre?bre : Miniplug encendido / apagado
+-   Nombre : Miniplug encendido / apagado
 
 -   ID del fabricante : 96
 
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos? 
+### Comandos 
 
 \
 
@@ -158,7 +158,7 @@ Aquí está la lista de comandos :
 
 -   Uno : Este es el comando que enciende la salida
 
--   Apagado? : Es el comando que hace posible extinguir la captura.
+-   Apagado : Es el comando que hace posible extinguir la captura.
 
 \
 

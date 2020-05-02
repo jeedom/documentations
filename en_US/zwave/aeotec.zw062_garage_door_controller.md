@@ -79,12 +79,12 @@ Technical characteristics
 
 -   Type of module : Z-Wave + 500 series receiver and transmitter
 
--   Food? : Actuator? : 5 VDC (adapter supplied) Sensor : Battery?
+-   Food : Actuator : 5 VDC (adapter supplied) Sensor : Pile
     Lithium 3V 800mA CR2
 
--   Standby consumption : 1W?
+-   Standby consumption : 1W
 
--   Alarm consumption : 2W?
+-   Alarm consumption : 2W
 
 -   Maximum volume : 105 dB
 
@@ -98,7 +98,7 @@ Technical characteristics
 
 -   Operating humidity : 80%
 
--   Certifications?: FCC, UL, CE, ROHS
+-   Certifications: FCC, UL, CE, ROHS
 
 \
 
@@ -107,9 +107,9 @@ Module data
 
 \
 
--   Mark? : Aeotec?
+-   Mark : Aeotec
 
--   Name? : Garage Door Controller (ZW062)
+-   Name : Garage Door Controller (ZW062)
 
 -   Manufacturer ID : 134
 
@@ -133,7 +133,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> Z-Wave, in accordance with its paper Documentation?.
+> Z-Wave, in accordance with its paper Documentation.
 
 \
 
@@ -168,13 +168,13 @@ Here is the list of commands :
 
 -   Open / Close : Open, close or stop the garage door.
 
--   Position? : Current garage door position.
+-   Position : Current garage door position.
 
--   Volume? : Current speaker volume.
+-   Volume : Current speaker volume.
 
 -   Temperature : Zone temperature, no automatic ascent.
 
--   Sabotage? : Text sabotage status.
+-   Sabotage : Text sabotage status.
 
 \
 

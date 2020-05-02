@@ -9,7 +9,7 @@ distance sensor to check the presence of the car.
 Reading of OpenGarage states 
 ===============================
 
-In order to recover the status of the relay and the dist?ance sensor, the url to
+In order to recover the status of the relay and the distance sensor, the url to
 use is :
 
     http://addropengarage/jc
@@ -17,9 +17,9 @@ use is :
 The result is a json. So use type equipment
 Script and info command of type json
 
-For the state of the relay the name of the property of the json : door?
+For the state of the relay the name of the property of the json : door
 
-For the dist?ance sensor : dist?
+For the distance sensor : dist
 
 Action on OpenGarage 
 ========================

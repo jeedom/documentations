@@ -38,7 +38,7 @@ Then launch the :
 With :
 
 -   ``jeedom-server`` : jeedom Docker name wanted
--   ``/opt/jeedom/www`` and? ``/opt/jeedom/mysql`` : directory where Jeedom data is put on the host
+-   ``/opt/jeedom/www`` and ``/opt/jeedom/mysql`` : directory where Jeedom data is put on the host
 -   ``your-root-password`` : root password to access Jeedom in SSH
 
 Then you need to install Jeedom by going to : IP\_DOCKER:9080

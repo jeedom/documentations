@@ -1,6 +1,6 @@
 Nodered is a tool written in Nodejs to manage IoT oriented flows or
 Automation. It offers a graphical interface for editing flows. The
-tuto describes its installation, a reverse proxy? configuration and a
+tuto describes its installation, a reverse proxy configuration and a
 service start
 
 Installation of Nodered 
@@ -43,16 +43,16 @@ Here is an example of a file to access Nodered via a reverse
 proxy.
 
     location / jeedom / nodered / {
-      proxy?_pass http://127.0.0.1:1880;
-      proxy?_set_header Host $ host;
-      proxy?_buffering off;
+      proxy_pass http://127.0.0.1:1880;
+      proxy_set_header Host $ host;
+      proxy_buffering off;
       tcp_nodelay on;
       access_log off;
-      proxy?_http_version 1.1;
-      proxy?_set_header Upgrade $ http_upgrade;
-      proxy?_set_header Connection 'Upgrade';
-      proxy?_redirect off;
-      proxy?_read_timeout 6000;
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $ http_upgrade;
+      proxy_set_header Connection 'Upgrade';
+      proxy_redirect off;
+      proxy_read_timeout 6000;
     }
 
 Existing modules for Nodered 

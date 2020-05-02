@@ -24,14 +24,14 @@ Summary
 
 \
 
-The GreenWave? PowerNode power strip is a smart device that
+The GreenWave PowerNode power strip is a smart device that
 connects to your home appliances and electronics for you
 allow you to monitor and control the electrical consumption of your
 devices remotely via web browser or smartphone. Using
 Z-Wave technology, the PowerNode power strip is compatible with the
 most home automation boxes on the market such as Fibaro Home Center 2, eedomus
 or Zipabox. Equipped with 6 ports, it can independently control 6
-different electrical appliances with a total power of 10A?.
+different electrical appliances with a total power of 10A.
 
 PowerNode power strip collects consumption data
 of energy from connected devices and transmits them to the home automation box.
@@ -49,7 +49,7 @@ avoid accidentally switching it off, but control from the box
 home automation will no longer be possible.
 
 The PowerNode power strip also has a light status indicator
-which gives different information depending on its color : Taken?
+which gives different information depending on its color : prises
 on or off, limited radio range, inclusion and exclusion mode.
 
 The PowerNode power strip is equipped with protection against
@@ -90,9 +90,9 @@ Technical characteristics
 
 \
 
--   Food? : 250V AC, 50Hz
+-   Food : 250V AC, 50Hz
 
--   Maximum charge current : 10A?
+-   Maximum charge current : 10A
 
 -   Maximum load power : 2400W (@ 240V)
 
@@ -100,13 +100,13 @@ Technical characteristics
 
 -   Measurement accuracy : ± 0.1W
 
--   Overcurrent protection : 10A? internal fuse
+-   Overcurrent protection : 10A internal fuse
 
 -   Plug type : DIN49440 / EEC 7/7 (Schuko)
 
--   Z-Wave Radio Frequency : 868.42MHz?
+-   Z-Wave Radio Frequency : 868.42MHz
 
--   Maximum range Z-Wave : 30m?
+-   Maximum range Z-Wave : 30m
 
 -   Operating temperature : 0 ° C to + 25 ° C
 
@@ -114,7 +114,7 @@ Technical characteristics
 
 -   Maximum humidity : 5% to 90%
 
--   IP class (Humidity tolerance) : IP20?
+-   IP class (Humidity tolerance) : IP20
 
 \
 
@@ -123,9 +123,9 @@ Module data
 
 \
 
--   Mark : GreenWave?
+-   Mark : GreenWave
 
--   Name? : GreenWave? \ [6 x sockets \]
+-   Name : GreenWave \ [6 x sockets \]
 
 -   Manufacturer ID : 153
 
@@ -165,7 +165,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -193,79 +193,79 @@ Here is the list of commands :
 -   State-1 : It is the command which allows to know the status of the
     take 1
 
--   On-1? : This is the command that turns on socket 1
+-   On-1 : This is the command that turns on socket 1
 
--   Off-1? : It is the command which switches off socket 1
+-   Off-1 : It is the command which switches off socket 1
 
 -   Power-1 : This is the command that brings up the instantaneous power
     taken from intake 1
 
--   Conso-1? : It is the command which reports the total consumption of the
+-   Conso-1 : It is the command which reports the total consumption of the
     take 1
 
--   State-2? : It is the command which allows to know the status of the
+-   State-2 : It is the command which allows to know the status of the
     taken 2
 
--   On-2? : It is the command which turns on socket 2
+-   On-2 : It is the command which turns on socket 2
 
--   Off-2? : It is the command which switches off socket 2
+-   Off-2 : It is the command which switches off socket 2
 
 -   Power-2 : This is the command that brings up the instantaneous power
     taken from intake 2
 
--   Conso-2? : It is the command which reports the total consumption of the
+-   Conso-2 : It is the command which reports the total consumption of the
     taken 2
 
 -   State-3 : It is the command which allows to know the status of the
     take 3
 
--   On-3? : This is the command that turns on socket 3
+-   On-3 : This is the command that turns on socket 3
 
--   Off-3? : It is the command which switches off socket 3
+-   Off-3 : It is the command which switches off socket 3
 
 -   Power-3 : This is the command that brings up the instantaneous power
     taken from intake 3
 
--   Conso-3? : It is the command which reports the total consumption of the
+-   Conso-3 : It is the command which reports the total consumption of the
     take 3
 
--   State-4? : It is the command which allows to know the status of the
+-   State-4 : It is the command which allows to know the status of the
     take 4
 
--   On-4? : It is the command which turns on socket 4
+-   On-4 : It is the command which turns on socket 4
 
--   Off-4? : It is the command which switches off socket 4
+-   Off-4 : It is the command which switches off socket 4
 
--   Power 4? : This is the command that brings up the instantaneous power
+-   Power 4 : This is the command that brings up the instantaneous power
     taken from intake 4
 
--   Conso-4? : It is the command which reports the total consumption of the
+-   Conso-4 : It is the command which reports the total consumption of the
     take 4
 
--   State-5? : It is the command which allows to know the status of the
+-   State-5 : It is the command which allows to know the status of the
     take 5
 
--   On-5? : It is the command which turns on socket 5
+-   On-5 : It is the command which turns on socket 5
 
--   Off-5? : It is the command which switches off socket 5
+-   Off-5 : It is the command which switches off socket 5
 
--   Power-5? : This is the command that brings up the instantaneous power
+-   Power-5 : This is the command that brings up the instantaneous power
     taken from intake 5
 
--   Conso-5? : It is the command which reports the total consumption of the
+-   Conso-5 : It is the command which reports the total consumption of the
     take 5
 
 -   State-6 : It is the command which allows to know the status of the
     take 6
 
--   On-6? : It is the command which turns on socket 6
+-   On-6 : It is the command which turns on socket 6
 
--   Off-6? : It is the command which switches off socket 6
+-   Off-6 : It is the command which switches off socket 6
 
--   Power-6? : This is the command that brings up the instantaneous power
+-   Power-6 : This is the command that brings up the instantaneous power
     taken from intake 6
 
--   Conso-6? : It is the command which reports the total consumption of the
+-   Conso-6 : It is the command which reports the total consumption of the
     take 6
 
 \
@@ -275,7 +275,7 @@ in one button.
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
@@ -315,7 +315,7 @@ Parameter details :
 
 \
 
-### Groups? 
+### Groups 
 
 \
 
@@ -368,7 +368,7 @@ of 6 takes.
 
 \
 
-### Reset? 
+### Reset 
 
 \
 

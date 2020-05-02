@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Dieser Batterie??betriebene und Z-Wave-kompatible Detektor verfügt über einen Sensor
+Dieser batteriebetriebene und Z-Wave-kompatible Detektor verfügt über einen Sensor
 Reed, ein Näherungsschalter mit Magnetbetrieb, der
 erkennt das Öffnen einer Tür oder eines Fensters, wenn die
 Zwei Elemente sind entfernt.
@@ -58,7 +58,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Erkennung schwacher Batterie?
+-   Erkennung schwacher Batterie
 
 -   Manipulationsschutz
 
@@ -80,15 +80,15 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Farbe? : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
+-   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
 
--   Versorgung? : ER14250 (1 / 2AA) 3,6-V-Batterie
+-   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen?: 76 x 17 x 19 mm
+-   Dimensions: 76 x 17 x 19 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
@@ -99,7 +99,7 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Fibar Group
+-   Machen Sie : Fibar Group
 
 -   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 
@@ -159,10 +159,10 @@ Hier ist die Liste der Befehle :
 \.
 
 -   Zustand : Es ist der Befehl, der den offenen oder geschlossenen Zustand des
-    Modul?
+    module
 
--   Batterie? : es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
-    Batterie??
+-   Batterie : es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
+    batterie
 
 \.
 
@@ -177,7 +177,7 @@ Sie können diese Befehle nach Belieben ein- oder ausblenden.
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -235,7 +235,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 
@@ -299,7 +299,7 @@ Aufnahme am nächsten zu Ihrer Box.
 
 \.
 
-Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

@@ -36,9 +36,9 @@ welcome backups for example).
 
 > **Note**
 >
-> In the rest of this tutorial I consider that you have put the script?
-> ghettoVCB?.sh in / vmfs / volumes / Backup / ghettoVCB?.sh. It's up to you to adapt
-> depending on your configuration the commands / script?s provided.
+> In the rest of this tutorial I consider that you have put the script
+> ghettoVCB.sh in / vmfs / volumes / Backup / ghettoVCB.sh. It's up to you to adapt
+> depending on your configuration the commands / scripts provided.
 
 Connection in ssh 
 ================
@@ -60,7 +60,7 @@ Configuration file creation
 > backup has path / vmfs / volumes / Backup, be careful to change if
 > this is not the case with you
 
-On the backup datastore you must create a ghettoVCB? file.conf who
+On the backup datastore you must create a ghettoVCB file.conf who
 contains :
 
     VM_BACKUP_VOLUME = / vmfs / volumes / Backup /
@@ -86,7 +86,7 @@ contains :
     EMAIL_SERVER_PORT = 25
     EMAIL_DELAY_INTERVAL = 1
     EMAIL_TO=auroa@primp-industries.com
-    EMAIL_FROM = root @ ghettoVCB?
+    EMAIL_FROM = root @ ghettoVCB
     WORKDIR_DEBUG = 0
     VM_SHUTDOWN_ORDER=
     VM_STARTUP_ORDER=
@@ -101,12 +101,12 @@ The parameters that you must adapt are :
 >
 > You can consult
 > [here](https://communities.vmware.com/docs/DOC-8760) the documentation
-> complete of ghettoVCB? with a description of each parameter
+> complete of ghettoVCB with a description of each parameter
 
 > **Important**
 >
 > Be careful to put the / final for the parameter
-> VM\_BACKUP\_VOLUME otherwise the script? will be in error
+> VM\_BACKUP\_VOLUME otherwise the script will be in error
 
 Backup test 
 ==============
@@ -115,7 +115,7 @@ Here we are going to launch a first initial backup of all the VMs for
 see if everything is ok. Thereafter we will schedule it automatically.
 Return to the ESXi in SSH (reconnect if necessary) and do :
 
-    / vmfs / volumes / Backup / ghettoVCB?.sh -a -g / vmfs / volumes / Backup / ghettoVCB?.conf
+    / vmfs / volumes / Backup / ghettoVCB.sh -a -g / vmfs / volumes / Backup / ghettoVCB.conf
 
 This will launch a backup of all your VMs (and can therefore take a lot
 time). At the end you should have on your backup datastore a
@@ -124,13 +124,13 @@ containing 4 files :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \* - flat?.vmdk ⇒ the virtual disk of your machine
+-   \* - flat.vmdk ⇒ the virtual disk of your machine
 
 -   \*.vmdk ⇒ the descriptor of the disc
 
 -   \*.vmx ⇒ the file containing the configuration of your machine
 
--   STATUS?.ok ⇒ indicates that the backup is ok
+-   STATUS.ok ⇒ indicates that the backup is ok
 
 Here is another possibility for the command line :
 
@@ -138,26 +138,26 @@ Here is another possibility for the command line :
 
 <!-- -->
 
-    / vmfs / volumes / Backup / ghettoVCB?.sh -d dryrun -a -g / vmfs / volumes / Backup / ghettoVCB?.conf
+    / vmfs / volumes / Backup / ghettoVCB.sh -d dryrun -a -g / vmfs / volumes / Backup / ghettoVCB.conf
 
 -   Launch in debug mode :
 
 <!-- -->
 
-    / vmfs / volumes / Backup / ghettoVCB?.sh -d debug -a -g / vmfs / volumes / Backup / ghettoVCB?.conf
+    / vmfs / volumes / Backup / ghettoVCB.sh -d debug -a -g / vmfs / volumes / Backup / ghettoVCB.conf
 
 -   Backup only the VM "toto"
 
 <!-- -->
 
-    / vmfs / volumes / Backup / ghettoVCB?.sh -m toto -a -g / vmfs / volumes / Backup / ghettoVCB?.conf
+    / vmfs / volumes / Backup / ghettoVCB.sh -m toto -a -g / vmfs / volumes / Backup / ghettoVCB.conf
 
 Automatic backup launch 
 =================================
 
 You must add the command line to the crontab but under VMware the
 crontab is a bit special and especially overwritten at each start. For
-avoid this so you have to add a little script? that will update the
+avoid this so you have to add a little script that will update the
 crontab at boot (don't worry it's pretty simple and fast), in
 SSH on the ESXi do :
 
@@ -166,7 +166,7 @@ SSH on the ESXi do :
 And before "exit 0" add the following lines :
 
     / bin / kill $ (cat /var/run/crond.pid)
-    / bin / echo "0 0 1 * * / vmfs / volumes / Backup / ghettoVCB?.sh -a -g / vmfs / volumes / Backup / ghettoVCB?.conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
+    / bin / echo "0 0 1 * * / vmfs / volumes / Backup / ghettoVCB.sh -a -g / vmfs / volumes / Backup / ghettoVCB.conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
     / usr / lib / vmware / busybox / bin / busybox crond
 
 > **Note**
@@ -179,15 +179,15 @@ And before "exit 0" add the following lines :
 > Here I make a backup of all the VMs, you can adapt this by
 > replacing the -a with -m ma\_vm, be careful if you want to put
 > several VMs you must duplicate the line "/ bin / echo" 0 0 1 \* \*
-> / vmfs / volumes / Backup / ghettoVCB?.sh -a -g
-> / vmfs / volumes / Backup / ghettoVCB?.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
+> / vmfs / volumes / Backup / ghettoVCB.sh -a -g
+> / vmfs / volumes / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "and put one per VM to backup
 
 > **Important**
 >
 > Do not forget to adapt the path to the configuration file of
-> ghettoVCB? according to your configuration :
-> / vmfs / volumes / Backup / ghettoVCB?.conf
+> ghettoVCB according to your configuration :
+> / vmfs / volumes / Backup / ghettoVCB.conf
 
 Last step: you must restart your ESXi for the cron to be taken
 in account, you can see the result by doing (always in SSH) :
@@ -196,4 +196,4 @@ in account, you can see the result by doing (always in SSH) :
 
 Here you must have a line :
 
-    0 0 1 * * / vmfs / volumes / Backup / ghettoVCB?.sh -a -g / vmfs / volumes / Backup / ghettoVCB?.conf> / dev / null 2> & 1
+    0 0 1 * * / vmfs / volumes / Backup / ghettoVCB.sh -a -g / vmfs / volumes / Backup / ghettoVCB.conf> / dev / null 2> & 1

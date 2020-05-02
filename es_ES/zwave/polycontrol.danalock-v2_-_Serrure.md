@@ -1,4 +1,4 @@
-Danalock V2? BTZE 
+Danalock V2 BTZE 
 ================
 
 \
@@ -136,17 +136,17 @@ Características técnicas
 
 \
 
--   Suministro? : 4 baterías CR123 3V
+-   Suministro : 4 baterías CR123 3V
 
--   Versiones? : V2?
+-   Versiones : V2
 
 -   Material : Aluminio anodizado sólido
 
--   Comunicación? : Bluetooth y Z-Wave
+-   Comunicación : Bluetooth y Z-Wave
 
 -   Dimensiones : 79 mm x 49 mm (diámetro x altura)
 
--   Peso? : 363g?
+-   Peso : 363g
 
 \
 
@@ -155,13 +155,13 @@ Datos del módulo
 
 \
 
--   Hacer? : Poly-Control?
+-   Hacer : Poly-Control
 
--   Nombre? : Danalock V2? BTZE
+-   Nombre : Danalock V2 BTZE
 
--   ID del fabricante : 010e?
+-   ID del fabricante : 010e
 
--   Punta?o de producto : 1
+-   Tipo de producto : 1
 
 -   ID del producto : 1
 
@@ -224,7 +224,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos? 
+### Comandos 
 
 \
 
@@ -241,7 +241,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado? : es el comando que subirá la última acción
+-   Estado : es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
 
 -   Abrir : es el comando que abre la cerradura
@@ -290,7 +290,7 @@ Detalles del parámetro :
 
 -   1 : Dirección 0-1 : 0 = el motor gira en sentido horario
     bloqueado, 1 = el motor va en sentido antihorario cuando
-    bloqueado?
+    verrouillé
 
 -   2 : Velocidad 1 = más lenta, 2 = lenta, 3 = Normal, 4 = Rápida, 5 = la
     más rápido
@@ -307,7 +307,7 @@ Detalles del parámetro :
 -   6 : Desactivar o activar la señal de bloqueo o
     desbloqueo (0 = Desactivar, 1 = Activar)
 
--   7 : Punta?o de batería : Configure el tipo de batería que
+-   7 : Tipo de batería : Configure el tipo de batería que
     alimenta el dispositivo.
 
 -   8 : Alarma de la batería : Cuando el nivel de la batería es más bajo

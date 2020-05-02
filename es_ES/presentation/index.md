@@ -37,7 +37,7 @@ The Core incluye entre otros :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Histórico?
+## Historiques
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
@@ -49,7 +49,7 @@ The Core incluye entre otros :
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
-## Interacciones?
+## Interactions
 
 *El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz..*
 
@@ -62,7 +62,7 @@ The Core incluye entre otros :
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Mercado?
+# Market
 
 Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 
@@ -74,9 +74,9 @@ Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 -   Organización (calendario, calendario de Google),
 -   Desarrollo (guión).
 
-Estos complementos se pueden instalar desde Mercado? y le permiten ampliar las posibilidades de Jeedom.
+Estos complementos se pueden instalar desde Mercado y le permiten ampliar las posibilidades de Jeedom.
 
-![Page Mercado?](images/doc-presentation-market.jpg)
+![Page Mercado](images/doc-presentation-market.jpg)
 
 Jeedom permite que cualquier complemento chatee con otro de forma estandarizada. Esto permite, por ejemplo, usar el termostato o los complementos de alarma con cualquier protocolo de automatización del hogar o incluso un complemento IP u objeto de comunicación ...
 

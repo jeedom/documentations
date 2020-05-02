@@ -37,7 +37,7 @@ Der Kern umfasst unter anderem :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Historisch?
+## Historiques
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
@@ -49,7 +49,7 @@ Der Kern umfasst unter anderem :
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
-## Interaktion?
+## Interactions
 
 *Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
@@ -62,7 +62,7 @@ Der Kern umfasst unter anderem :
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Markt?
+# Market
 
 Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
@@ -76,7 +76,7 @@ Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
 Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, die Möglichkeiten von Jeedom zu erweitern.
 
-![Page Markt?](images/doc-presentation-market.jpg)
+![Page Markt](images/doc-presentation-market.jpg)
 
 Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt ...
 

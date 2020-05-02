@@ -70,7 +70,7 @@ Características técnicas
 
 \
 
--   Tipo?: Portátil / montaje en pared
+-   Type: Portátil / montaje en pared
 
 -   Rango de medición de temperatura: ± 0.5 ° C para 0 ° C a 40 ° C
 
@@ -78,13 +78,13 @@ Características técnicas
 
 -   Frecuencia : 868.42 Mhz
 
--   Suministro?: 2 pilas AA (LR6)
+-   Alimentation: 2 pilas AA (LR6)
 
 -   Alcance : hasta 100 m en campo libre
 
--   Indice de PROTECCION : IP30?
+-   Indice de PROTECCION : IP30
 
--   Dimensiones? : 86 x 85 x 30 mm
+-   Dimensiones : 86 x 85 x 30 mm
 
 \
 
@@ -93,9 +93,9 @@ Datos del módulo
 
 \
 
--   Hacer : Horstmann?
+-   Hacer : Horstmann
 
--   Nombre? : Sensor de temperatura SES 302
+-   Nombre : Sensor de temperatura SES 302
 
 -   ID del fabricante : 89
 
@@ -154,7 +154,7 @@ Aquí está la lista de comandos :
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Batería? : es el comando de la batería
+-   Batería : es el comando de la batería
 
 Varias temperaturas no visibles también están disponible y serán
 útil si ha conectado sondas externas
@@ -168,7 +168,7 @@ Varias temperaturas no visibles también están disponible y serán
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 
@@ -206,7 +206,7 @@ sondas externas posiblemente conectadas
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

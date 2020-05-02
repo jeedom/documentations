@@ -17,11 +17,11 @@ MySQL optimieren
 > Diese Methode erfolgt auf eigenes Risiko. Im Falle von Sorgen
 > Support wird nur möglich sein.
 
--   Stoppen Sie den MySQL?-Daemon und löschen Sie die Protokolldateien :
+-   Stoppen Sie den MySQL-Daemon und löschen Sie die Protokolldateien :
 
 <!-- -->
 
-    MySQL? Stop Service
+    MySQL Stop Service
     rm / var / lib / mysql / ib_logfile*
 
 -   Dann mach es :
@@ -42,8 +42,8 @@ MySQL optimieren
     echo "innodb_flush_log_at_trx_commit = 2" >> /etc/mysql/conf.d/jeedom_my.cnf
     echo "innodb_log_file_size = 32M" >> /etc/mysql/conf.d/jeedom_my.cnf
 
--   Starten Sie MySQL? neu :
+-   Starten Sie MySQL neu :
 
 <!-- -->
 
-    MySQL? starten Service
+    MySQL starten Service

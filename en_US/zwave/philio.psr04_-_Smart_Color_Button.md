@@ -3,7 +3,7 @@ Philio Smart Color Button
 
 \
 
--   **The Module?**
+-   **The module**
 
 \
 
@@ -29,7 +29,7 @@ can use it to turn on, off or dim the lighting, adjust
 the position of your shutters, adjust the temperature of the thermostat or
 use it as a timer.
 
-Once included in your Z-Wave network, the Philio? PSR04 switch
+Once included in your Z-Wave network, the Philio PSR04 switch
 must be associated with the device (s) you wish to control.
 It can only operate by direct association with
 devices, and cannot launch scenes created in your controller
@@ -64,7 +64,7 @@ Functions
 
 -   Integrated timer function
 
--   Waterproof?
+-   Etanche
 
 -   Adapts to any decoration style
 
@@ -90,18 +90,18 @@ Technical characteristics
 -   Food : Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
 
--   Standby consumption : 18µA?
+-   Standby consumption : 18µA
 
--   Consumption in operation : 45mA?
+-   Consumption in operation : 45mA
 
 -   Frequency : 868.42 MHz
 
 -   Transmission distance : 100m outdoors, 40m indoors
 
--   Dimensions? :
+-   Dimensions :
 
 Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
-mm (diameter x thickness) Support? + Button : 71.16 x 17.22 mm (diameter
+mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
 x thickness) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
@@ -114,9 +114,9 @@ Module data
 
 \
 
--   Mark? : Philio?
+-   Mark : Philio
 
--   Name? : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Manufacturer ID : 316
 
@@ -139,9 +139,9 @@ inclusion refer to this
 
 > **Important**
 >
-> To put this Module? in inclusion mode, put it in position
+> To put this Module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
-> paper Documentation?.
+> paper Documentation.
 
 \
 
@@ -161,7 +161,7 @@ Once included you should get this :
 
 \
 
-Once the Module? has been recognized, the commands associated with the Module? will be
+Once the Module has been recognized, the commands associated with the Module will be
 disponibles.
 
 \
@@ -177,23 +177,23 @@ Here is the list of commands :
 -   State : it is the command which will move the button position from 0 to
     100%
 
--   Drums? : this is the command that reports the battery status of the
-    Module?
+-   Drums : this is the command that reports the battery status of the
+    module
 
 \
 
-### Setup? of the Module? 
+### Setup of the Module 
 
 \
 
 > **Important**
 >
-> During a first inclusion always wake up the Module? just after
-> inclusion?.
+> During a first inclusion always wake up the Module just after
+> inclusion.
 
 \
 
-Then if you want to configure the Module? according to
+Then if you want to configure the Module according to
 of your installation, you have to go through the button
 "Setup "of Jeedom's OpenZwave plugin.
 
@@ -222,7 +222,7 @@ Parameter details :
 
 -   10 : battery ascent time interval
 
--   25 : allows to define if the Module? sends its position
+-   25 : allows to define if the Module sends its position
     automatically after rotation (1s delay) or if it is necessary to press
     on the button to validate the sending
 
@@ -235,7 +235,7 @@ Parameter details :
 
 \
 
-This Module? has two association groups, the first is the only one
+This Module has two association groups, the first is the only one
 essential. The second allows to go up the position to Jeedom
 
 \
@@ -251,12 +251,12 @@ Good to know
 
 ### Specificities 
 
-To use this Module? as a remote control, proceed as follows :
+To use this Module as a remote control, proceed as follows :
 
 -   Add the controller in group 2
 
-Indeed this type of Module? is not made to interact directly
-with a box but directly with other Module?s. However in
+Indeed this type of Module is not made to interact directly
+with a box but directly with other modules. However in
 adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
@@ -266,9 +266,9 @@ Wakeup
 
 \
 
-To wake up this Module? there is only one way :
+To wake up this Module there is only one way :
 
--   put the Module? in the low position and press the button
+-   put the Module in the low position and press the button
 
 \
 
@@ -279,8 +279,8 @@ Faq.
 
 \
 
-This Module? is a battery Module?, the new configuration will not be
-take into account that if you wake up the Module?.
+This Module is a battery module, the new configuration will not be
+take into account that if you wake up the Module.
 
 \
 
@@ -291,7 +291,7 @@ IMPORTANT note
 
 > **Important**
 >
-> You have to wake up the Module? : after its inclusion, after a change
+> You have to wake up the Module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 

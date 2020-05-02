@@ -2,7 +2,7 @@
 
 Jeedom can be used on Mobile in two ways.
 
-## WebApp?
+## WebApp
 
 Jeedom adopts a specific version on mobile and tablet. You access it from the same address, in a browser on Mobile (Firefox, Chrome, Safari, etc.).
 
@@ -10,20 +10,20 @@ This adapted version is also simplified, for display and performance reasons.
 
 ![Web App](images/webApp.png)
 
-- Equipments? : Access the dashboard by object. You can also view the Summary.
-- Messages? : View message center.
+- Equipments : Access the dashboard by object. You can also view the Summary.
+- Messages : View message center.
 - View : Access your Views.
-- Designs? : Access your Design or 3D Design. (The display of a Design is full screen, click with three fingers to return to the home page).
+- Designs : Access your Design or 3D Design. (The display of a Design is full screen, click with three fingers to return to the home page).
 - Scenario : Display of the tiles of your scenarios, by group, with the possibility of activating / deactivating, stopping / starting. By clicking on the title of the script, you will access its log.
-- Analysis? : Access the Timeline, Logs, Equipment Analysis, Crons, Demons and Health.
-- Other? : Switch between the main and alternative themes, access the Desktop version, Force the update, access the documentation, about, or log out.
-- Plugins? : Some plugins may have a dedicated WebApp? display. They will be available here.
+- Analysis : Access the Timeline, Logs, Equipment Analysis, Crons, Demons and Health.
+- Other : Switch between the main and alternative themes, access the Desktop version, Force the update, access the documentation, about, or log out.
+- Plugins : Some plugins may have a dedicated WebApp display. They will be available here.
 
-> TIPS?
+> Tips
 >
-> The home page of the WebApp? can be configured on your Jeedom in Settings → Preferences.
+> The home page of the WebApp can be configured on your Jeedom in Settings → Preferences.
 
-The WebApp? has a mainly advisory role. You can of course interact with your equipment as in Desktop, but you will not be able, for example, to edit a scenario, modify an equipment, access the configuration of Jeedom.
+The WebApp has a mainly advisory role. You can of course interact with your equipment as in Desktop, but you will not be able, for example, to edit a scenario, modify an equipment, access the configuration of Jeedom.
 
 ## Jeedom app
 

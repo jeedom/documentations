@@ -63,7 +63,7 @@ Functions
 -   Integrates the Z-Wave 500 series chip
 
 -   250% faster communication compared to Z-Wave devices
-    Standard?
+    standard
 
 -   Automatic load detection
 
@@ -103,7 +103,7 @@ Technical characteristics
 
 -   Food : 230V +/- 10%, 50Hz
 
--   Consumption? : 1.3W?
+-   Consumption : 1.3W
 
 -   Wiring : neutral not required
 
@@ -117,18 +117,18 @@ Technical characteristics
 
 -   Frequency : 868.42 Mhz
 
--   Signal strength : 1mW?
+-   Signal strength : 1mW
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions? : 42.5 x 38.25 x 20.3mm
+-   Dimensions : 42.5 x 38.25 x 20.3mm
 
 -   Operating temperature : 0-35 ° C
 
--   Limit temperature : 105 ° C?
+-   Limit temperature : 105°C
 
--   Standards? : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5 / EC?
+-   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
+    1999/5/EC
 
 \
 
@@ -163,7 +163,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation?. If the
+> inclusion button, according to its paper Documentation. If the
 > module is not already included, it will be included
 > automatically when powered up.
 
@@ -209,14 +209,14 @@ Here is the list of commands :
 -   Intensity : This is the command that allows you to adjust the intensity of the
     Light
 
--   We? : It is the control that turns on the light
+-   We : It is the control that turns on the light
 
--   Off? : It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
     Light
 
--   Consumption? : It is the command which allows to go up the
+-   Consumption : It is the command which allows to go up the
     module consumption
 
 -   Power : It is the command which allows to raise the power
@@ -227,7 +227,7 @@ icone
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
@@ -266,7 +266,7 @@ ON GOING REDACTION
 
 \
 
-### Groups? 
+### Groups 
 
 \
 

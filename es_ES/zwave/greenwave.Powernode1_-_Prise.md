@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El módulo de enchufe PowerNode de Greenwave? es un dispositivo inteligente que
+El módulo de enchufe PowerNode de Greenwave es un dispositivo inteligente que
 se conecta a uno de sus electrodomésticos y dispositivos electrónicos para
 le permite monitorear y controlar el consumo de energía a
 distancia a través del navegador web o teléfono inteligente.
@@ -91,9 +91,9 @@ Características técnicas
 
 \
 
--   Suministro? : 250 V CA, 50 Hz
+-   Suministro : 250 V CA, 50 Hz
 
--   Corriente de carga máxima : 10A?
+-   Corriente de carga máxima : 10A
 
 -   Máxima potencia de carga : 2400W (@ 240V)
 
@@ -101,13 +101,13 @@ Características técnicas
 
 -   Precisión de medición : ± 0.1W
 
--   Protección contra sobrecorriente : Fusible interno 10A?
+-   Protección contra sobrecorriente : Fusible interno 10A
 
 -   Tipo de enchufe : DIN49440 / EEC 7/7 (Schuko)
 
--   Radio Frecuencia Z-Wave : 868.42MHz?
+-   Radio Frecuencia Z-Wave : 868.42MHz
 
--   Rango máximo de onda Z : 30m?
+-   Rango máximo de onda Z : 30m
 
 -   Temperatura de funcionamiento : 0 ° C a + 25 ° C
 
@@ -115,7 +115,7 @@ Características técnicas
 
 -   Humedad máxima : 5% a 90%
 
--   Clase de IP (tolerancia a la humedad) : IP20?
+-   Clase de IP (tolerancia a la humedad) : IP20
 
 \
 
@@ -124,9 +124,9 @@ Datos del módulo
 
 \
 
--   Hacer : Greenwave?
+-   Hacer : GreenWave
 
--   Nombre? : Greenwave? \ [1 x enchufe \]
+-   Nombre : Greenwave \ [1 x enchufe \]
 
 -   ID del fabricante : 153
 
@@ -166,7 +166,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos? 
+### Comandos 
 
 \
 
@@ -183,17 +183,17 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado? : Es el comando que permite conocer el estado de la
-    Salida?
+-   Estado : Es el comando que permite conocer el estado de la
+    prise
 
--   Uno? : Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
--   Apagado? : Es el comando que hace posible extinguir la captura.
+-   Apagado : Es el comando que hace posible extinguir la captura.
 
 -   Potencia : Es el control que trae el poder instantáneo
     consumido
 
--   El consumo? : Es el orden que informa el consumo total.
+-   El consumo : Es el orden que informa el consumo total.
 
 \
 
@@ -242,7 +242,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 
@@ -265,7 +265,7 @@ encuestas para aumentar el consumo.
 
 \
 
-### Restablecer? 
+### Restablecer 
 
 \
 

@@ -43,16 +43,16 @@ Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered 
 proxy.
 
     Ort / Jeedom / Nodered / {
-      Proxy?_pass http://127.0.0.1:1880;
-      Proxy?_set_header Host $ host;
-      Proxy?_buffering off;
+      proxy_pass http://127.0.0.1:1880;
+      proxy_set_header Host $ host;
+      proxy_buffering off;
       tcp_nodelay on;
       access_log off;
-      Proxy?_http_version 1.1;
-      Proxy?_set_header Upgrade $ http_upgrade;
-      Proxy?_set_header Verbindung 'Upgrade';
-      Proxy?_redirect off;
-      Proxy?_read_timeout 6000;
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $ http_upgrade;
+      proxy_set_header Verbindung 'Upgrade';
+      proxy_redirect off;
+      proxy_read_timeout 6000;
     }
 
 Bestehende Module für Nodered 

@@ -27,11 +27,11 @@ Informationen oben im Filezilla-Fenster :
 
 -   Host : Jeedom IP-Adresse (sftp:// wird automatisch hinzugefügt)
 
--   Login? : Jeedom?
+-   Login : jeedom
 
--   Passwort : Mjeedom96?
+-   Passwort : Mjeedom96
 
--   Hafen? : 22
+-   Hafen : 22
 
 Klicken Sie dann auf "Schnellverbindung""
 

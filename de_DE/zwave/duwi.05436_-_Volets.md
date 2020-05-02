@@ -80,7 +80,7 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Abmessungen? : 52 x 52 x 31 mm
+-   Abmessungen : 52 x 52 x 31 mm
 
 -   Temperaturbereich : 0 ° C / + 40 ° C.
 
@@ -93,7 +93,7 @@ Moduldaten
 
 -   Machen Sie : Popp / Duwi
 
--   Name? : ZW ESJ Blind Control
+-   Name : ZW ESJ Blind Control
 
 -   Hersteller ID : 100
 
@@ -136,7 +136,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -153,13 +153,13 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand? : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
+-   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
 
--   Geh runter? : Befehl, vollständig abzusteigen
+-   Geh runter : Befehl, vollständig abzusteigen
 
 -   Geh hoch : Befehl, vollständig zu mounten
 
--   STOP? : Sofortiger Bewegungsstopp
+-   STOP : Sofortiger Bewegungsstopp
 
 -   Aktualisieren : Aktualisieren Sie den aktuellen Status des Moduls
 
@@ -224,7 +224,7 @@ und der zweite für den Abstieg.
 Die Werte werden im Modul hexadezimal codiert und zurückgesetzt
 Dezimal in der Jeedom-Anzeige.
 
-Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212?. Entweder 0x12
+Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12
 für den Aufstieg und 0x12 für den Abstieg. Oder wieder reingebracht
 dezimal : 18s für Auf- und Abstieg.
 
@@ -232,7 +232,7 @@ Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet di
 Das Modul schaltet den Auf- oder Abstieg ohne zeitliche Begrenzung ein. Es wird dauern
 Senden Sie dann einen 'Stop', um zu unterbrechen.
 
--   1 : STOP?-Funktionalität : Aktiviert oder deaktiviert :
+-   1 : Stop-Funktionalität : Aktiviert oder deaktiviert :
 
 Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung gedrückt wird
 Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück

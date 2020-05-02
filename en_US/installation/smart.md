@@ -31,7 +31,7 @@ Necessary material : a USB key (minimum 8GB).
 - restart the Smart
 - wait about 30min, box not accessible **DO NOT DISCONNECT**
 - find your Smart on the network
-- reconnect with the login : admin? and password : admin?
+- reconnect with the login : admin and password : admin
 
 > **Important**
 >

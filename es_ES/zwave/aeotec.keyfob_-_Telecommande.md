@@ -1,4 +1,4 @@
-Llavero Aeotec? 
+Llavero Aeotec 
 =============
 
 \
@@ -67,7 +67,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro? : 1 batería de litio 3V CR2450
+-   Suministro : 1 batería de litio 3V CR2450
 
 -   Duración de la batería : 1 año
 
@@ -86,9 +86,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec?
+-   Hacer : Aeotec
 
--   Nombre?bre : Llavero
+-   Nombre : Llavero
 
 -   ID del fabricante : 134
 
@@ -145,7 +145,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones? : es el comando que empujará el botón hacia arriba
+-   Botones : es el comando que empujará el botón hacia arriba
 
 1 : Botón 1 pulsación corta
 
@@ -172,7 +172,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 

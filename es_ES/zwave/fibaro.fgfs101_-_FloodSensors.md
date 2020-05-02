@@ -1,4 +1,4 @@
-Fibaro FGFS-101? "Sensor de inundación" 
+Fibaro FGFS-101 "Sensor de inundación" 
 ==============================
 
 \
@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El sensor FGFS-101? es compacto y tiene una amplia variedad de
+El sensor FGFS-101 es compacto y tiene una amplia variedad de
 funciones Con su avanzada tecnología y precisión, el sensor
 Inundación Fibaro lo alerta de una inundación amenazante o un aumento
 o caída rápida de temperatura.
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Duración de la batería : 2 años
 
--   Consumo en fuente de alimentación externa : 0.4W?
+-   Consumo en fuente de alimentación externa : 0,4W
 
 -   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
 
@@ -117,7 +117,7 @@ Datos del módulo
 
 -   Modelo : Sensor de inundación FGFS101
 
--   Fabricante? : Sistema FIBARO
+-   Fabricante : Sistema FIBARO
 
 -   ID del fabricante : 271
 
@@ -175,12 +175,12 @@ Aquí está la lista de comandos :
 
 \
 
--   Fuga? : este es el comando de alerta del módulo (para la presencia
+-   Fuga : este es el comando de alerta del módulo (para la presencia
     agua, inundaciones ...)
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Sabotaje? : este es el comando de sabotaje. Señala la apertura
+-   Sabotaje : este es el comando de sabotaje. Señala la apertura
     del caso
 
 -   Batería : es el comando de la batería
@@ -194,7 +194,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 
@@ -240,7 +240,7 @@ Detalles del parámetro :
 -   10 \. Tiempo de transferencia entre dos lecturas de temperatura. : 1 a 65,535 s
     (300 por defecto). Tenga cuidado de no poner un valor de arrastre también
     muy juntos bajo pena de ver la batería del módulo derretirse
-    velocidad? ! (Se recomienda 1800)
+    velocidad ! (Se recomienda 1800)
 
 -   12 \. Diferencia de temperatura entre dos informes. : de 1 a 1000 (50 por defecto
     = 0.5 °). De acuerdo con el parámetro 10, también es posible
@@ -264,7 +264,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

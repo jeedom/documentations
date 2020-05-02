@@ -67,7 +67,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung? : 1 Lithium 3V CR2450 Batterie
+-   Versorgung : 1 Lithium 3V CR2450 Batterie
 
 -   Akkulaufzeit : 1 Jahr
 
@@ -86,7 +86,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec?
+-   Machen Sie : Aeotec
 
 -   Name : Schlüsselanhänger
 
@@ -145,7 +145,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten? : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -172,7 +172,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 

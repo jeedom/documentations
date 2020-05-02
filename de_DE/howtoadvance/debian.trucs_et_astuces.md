@@ -15,7 +15,7 @@ Hier sind einige nützliche Pakete, um eine leere Installation durchzuführen :
 
 <!-- -->
 
-    apt-get install -y vim? fail2ban Netzwerkzeuge? dos2unix
+    apt-get install -y vim fail2ban Netzwerkzeuge dos2unix
 
 Wenn Sie mit VMware arbeiten, können Sie zusätzliche Tools hinzufügen
 :
@@ -131,7 +131,7 @@ MYSQL unter Stretch :
     MariaDB [MySQL]> GEWÄHRLEISTUNG FÜR ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
     Abfrage OK, 0 Zeilen betroffen (0.00 Sek.)
     MariaDB [MySQL]> exit;
-    Tschüss?
+    Bye
 
 > **Tip**
 >
@@ -168,7 +168,7 @@ ou
 -   Stellen Sie die Rechte an www-Daten auf allen Jeedom wieder her :
     `chown -R www-Daten: / var / www / html / `
 
--   Starten Sie die Box neu : `Neustart`?
+-   Starten Sie die Box neu : `reboot`
 
 -   Stellen Sie mit Ihren alten Kennungen über eine Verbindung zu Jeedom her
     Webinterface

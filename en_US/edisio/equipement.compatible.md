@@ -1,4 +1,4 @@
-| Name                     | NOTE??                | Link                     |
+| Name                     | NOTE                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module for Luminaire     |                         | [Buy](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
 | DIO2 - Module for Roller Shutter     |                         | [Buy](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
@@ -21,4 +21,4 @@
 >
 > This list is based on user feedback, the Jeedom team does not
 > can therefore guarantee that all the modules in this list are 100%
-> functional?
+> fonctionels

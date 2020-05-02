@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall We? Off? - AN179-0 
+SmartHome by Everspring In Wall We Off - AN179-0 
 ================================================
 
 \
@@ -78,18 +78,18 @@ Technical characteristics
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 0.5W?
+-   Consumption : 0.5W
 
 -   Maximum power : Resistive load : 2500W Incandescent bulb
-    : 1200W Compact Fluorescent Bulb : 320W?
+    : 1200W Compact Fluorescent Bulb : 320W
 
 -   Frequency : 868.42 Mhz
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing?: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions? : 42mm x 43mm x 16mm
+-   Dimensions : 42mm x 43mm x 16mm
 
 \
 
@@ -100,7 +100,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Name? : In Wall We? Off?
+-   Name : In Wall We Off
 
 -   Manufacturer ID : 96
 
@@ -124,7 +124,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation?. It's important to
+> button, according to its paper Documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -142,7 +142,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -159,11 +159,11 @@ Here is the list of commands :
 
 \
 
--   We? : It is the control that turns on the light
+-   We : It is the control that turns on the light
 
--   Off? : It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
--   State? : It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     Light
 
 \
@@ -173,7 +173,7 @@ the same icon.
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 

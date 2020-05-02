@@ -38,7 +38,7 @@ management of short and long presses. This remote control can also be
 well used as primary or secondary controller.
 
 And because the Keyfob Gen5 key fob is part of the
-Gen5 range from Aeotec?, it surpasses all that existed before.
+Gen5 range from Aeotec, it surpasses all that existed before.
 It uses the latest Z-Wave 500 series chip, providing an increase
 50% radio range and 250% faster communication speed
 fast compared to previous Z-Wave products.
@@ -69,7 +69,7 @@ Functions
 -   Integrates the Z-Wave 500 series chip
 
 -   250% faster communication compared to Z-Wave devices
-    Standard?
+    standard
 
 -   Optimization of the antenna, range 100 meters
 
@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food? : 1 Lithium 3V CR2450 battery
+-   Food : 1 Lithium 3V CR2450 battery
 
 -   Battery life : 1 year
 
@@ -94,7 +94,7 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C to 50 ° C
 
--   Dimensions? : 55 x 30 x 13mm (L x W x H)
+-   Dimensions : 55 x 30 x 13mm (L x W x H)
 
 \
 
@@ -103,7 +103,7 @@ Module data
 
 \
 
--   Mark : Aeotec?
+-   Mark : Aeotec
 
 -   Name : ZW088 Key Fob Gen5
 
@@ -129,7 +129,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> LEARN, in accordance with its paper Documentation?.
+> LEARN, in accordance with its paper Documentation.
 
 \
 
@@ -162,7 +162,7 @@ Here is the list of commands :
 
 \
 
--   Buttons? : it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 1 : Button 1 short press
 
@@ -182,14 +182,14 @@ Here is the list of commands :
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 
@@ -223,7 +223,7 @@ Parameter details :
 
 \
 
-### Groups? 
+### Groups 
 
 \
 

@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 The preToHtml function returns :
 
-- a string if the widget is cached (if it is cached, there has been no change since the the?st generation, so you might want to send it right away)
+- a string if the widget is cached (if it is cached, there has been no change since the last generation, so you might want to send it right away)
 - a table with the main replaces, you have the list [here](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## The template system
@@ -70,7 +70,7 @@ public static function templateWidget(){
 }
 ````
   
-Here I create a toto? widget based on the "tmplicon" template in info type and in binary type. When it is 1 then the icon will be <i class='icon_green icon jeedom-porte-ferme'></i> and when it takes 0 it will be </i>
+Here I create a toto widget based on the "tmplicon" template in info type and in binary type. When it is 1 then the icon will be <i class='icon_green icon jeedom-porte-ferme'></i> and when it takes 0 it will be </i>
   
 >**TIPS**
 >

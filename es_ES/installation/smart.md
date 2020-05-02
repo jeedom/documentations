@@ -31,7 +31,7 @@ Material requerido : una llave USB (mínimo 8GB).
 - reiniciar el Smart
 - espere unos 30 minutos, caja no accesible **NO DESCONECTE**
 - encuentra tu Smart en la red
-- reconectarse con el inicio de sesión : Administración?istrador y contraseña : Administración?
+- reconectarse con el inicio de sesión : administrador y contraseña : admin
 
 > **Important**
 >

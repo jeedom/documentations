@@ -49,7 +49,7 @@ Das sind 4 Referenzen :
 SSD 
 ---
 
-Sie müssen eine SSD? und einen Speicher hinzufügen. SSD? Level ich dir
+Sie müssen eine SSD und einen Speicher hinzufügen. SSD Level ich dir
 empfehlen 240 GB oder mehr, es sei denn, Sie nehmen das Modell mit einem
 Standort 2.5 Zoll (wodurch Sie zusätzliche Festplatte setzen können)
 oder um ein Synology NAS zu haben, um die iSCSI-LUN zu erstellen. Vergiss nicht
@@ -61,19 +61,19 @@ Diese 40 GB für VMware selbst füllen sich schnell.
 > VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist dies schwierig
 > um den verfügbaren Platz zu erweitern
 
--   [LDLC SSD? M.2 2280 F6 PLUS 120
+-   [LDLC SSD M.2 2280 F6 PLUS 120
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung SSD? 850 EVO 120 GB
+-   [Samsung SSD 850 EVO 120 GB
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC SSD? M.2 2280 F6 PLUS 240
+-   [LDLC SSD M.2 2280 F6 PLUS 240
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung SSD? 850 EVO 250 GB
+-   [Samsung SSD 850 EVO 250 GB
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC SSD? M.2 2280 F6 PLUS 480
+-   [LDLC SSD M.2 2280 F6 PLUS 480
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Speicher 
@@ -119,7 +119,7 @@ Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
 
 -   Warten Sie, bis die E-Mail die Registrierung bestätigt hat
 
--   zurück?
+-   retourner
     [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     und melden Sie sich an (möglicherweise werden Sie aufgefordert, das zu akzeptieren
     Bedingungen müssen Sie validieren)
@@ -161,7 +161,7 @@ Dies sind die 3 Komponenten für meinen NUC :
 
 -   Intel NUC NUC6I5SYH
 
--   Samsung SSD? 850 EVO 250 Go M.2
+-   Samsung SSD 850 EVO 250 Go M.2
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 x 8 GB) 2400 MHz CL16
 
@@ -186,7 +186,7 @@ der NUC:
 
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
-Die installierte SSD? (links), die Endschraube zum Blockieren ist a
+Die installierte SSD (links), die Endschraube zum Blockieren ist a
 schwer zurückzustellen, zum Glück machen wir das nur einmal
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
@@ -213,7 +213,7 @@ allein :
 > Ich habe vergessen, die Lizenzvalidierung zu erfassen
 > stimme einfach zu, den Anweisungen zu folgen
 
-Wählen Sie hier die der SSD? entsprechende Festplatte aus (Sie können
+Wählen Sie hier die der SSD entsprechende Festplatte aus (Sie können
 entweder nach Name oder nach Größe identifizieren)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)

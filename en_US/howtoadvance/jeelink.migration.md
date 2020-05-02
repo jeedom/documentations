@@ -1,6 +1,6 @@
-We will see here how to migrate an installation with Jeedom? in mode
-slave to a Jeedom? with the Jeedom? Link plugin". Slave mode
-Jeedom being abandoned at the transition from Jeedom? to to?ion 3.0 it is
+We will see here how to migrate an installation with Jeedom in mode
+slave to a Jeedom with the Jeedom Link plugin". Slave mode
+Jeedom being abandoned at the transition from Jeedom to version 3.0 it is
 necessary to proceed before migration to the new mode of
 fonctionnement.
 
@@ -21,30 +21,30 @@ Preparation before migration
 > **Important**
 >
 > Be careful not to loop equipment in
-> configuring the Jeedom? Link plugin". For example do not make a
-> Equipment-X in a Jeedom?1 which goes up in a Jeedom?2 then goes up
-> again in Jeedom?1. It could drop your Jeedom?s !
+> configuring the Jeedom Link plugin". For example do not make a
+> Equipment-X in a Jeedom1 which goes up in a Jeedom2 then goes up
+> again in Jeedom1. It could drop your Jeedoms !
 
 > **Note**
 >
 > For a better reading and understanding of this tutorial, here are the
 > terms used :\
 > \
-> - **Jeedom Target** : Server (your former Jeedom? Master) who
-> centralize the equipment of the **Jeedom (s) Source? (s)**\
+> - **Jeedom Target** : Server (your former Jeedom Master) who
+> centralize the equipment of the **Jeedom (s) Source (s)**\
 > The screenshots on a black background correspond to the **Jeedom Target**.\
 > \
-> - **Jeedom Source?** : Server (your former Jeedom? Slave (s))
+> - **Jeedom Source** : Server (your former Jeedom Slave (s))
 > which puts your equipment back on the **Jeedom Target**.\
 > \
-> - The notions of **Jeedom Master** and? **Jeedom Slave** are not anymore
-> news?. The new synchronization operating mode
-> of equipment between several Jeedom?s can be bidirectional. A
-> Jeedom? server can be now **Source** and? **Cible** while
+> - The notions of **Jeedom Master** and **Jeedom Slave** are not anymore
+> news. The new synchronization operating mode
+> of equipment between several Jeedoms can be bidirectional. A
+> Jeedom server can be now **Source** and **Cible** while
 > the old mode only allowed the rise of equipment
 > **l'Esclave** to **the master**. With the new mode it is also
 > possible to have multiple **Jeedom Targets** for the same **Jeedom
-> Source?**. Communication between Jeedom?s can now also
+> Source**. Communication between Jeedoms can now also
 > be done remotely via the internand (Jeedom DNS or other). \
 > \
 
@@ -53,14 +53,14 @@ Preparation before migration
 Configuration Updates and Verification 
 ------------------------------------------------
 
--   Update the **Jeedom Master** to the latest to?ion (even if
+-   Update the **Jeedom Master** to the latest version (even if
     no update is offered to you).
 
 -   Update plugins of **Jeedom Master** to the last
-    available to?ions.
+    available versions.
 
 -   Check in the Health page that the internal network configuration of the
-    **Jeedom Master** is OK (And external if your **Jeedoms Source?s**
+    **Jeedom Master** is OK (And external if your **Jeedoms Sources**
     will be distant).
 
 Gathering useful information 
@@ -71,12 +71,12 @@ necessary to retrieve the following information :
 
 ### Zwave plugin 
 
--   In the health page of the Zwave plugin on the **Jeedom Master**, Select?
+-   In the health page of the Zwave plugin on the **Jeedom Master**, choisir
     your **Esclave** from the drop down menu and make a screenshot,
     this in order to have a list of the equipment that comes
     of it.
 
--   NOTE for each piece of equipment coming from **l'Esclave** : the object?
+-   NOTE for each piece of equipment coming from **l'Esclave** : l'objet
     parent, name, ID (Node), model.
 
 -   Recover Zwcfg file : *Plugins ⇒ Management of Plugins ⇒
@@ -85,7 +85,7 @@ necessary to retrieve the following information :
 
 ### RFXcom plugin 
 
--   NOTE for each piece of equipment coming from **l'Esclave** : the object?
+-   NOTE for each piece of equipment coming from **l'Esclave** : l'objet
     parent, name, ID (Logical), Type, Model.
 
 > **Note**
@@ -97,7 +97,7 @@ Preventive backups
 -----------------------
 
 -   Make a backup
-    Jeedom?](https://doc.jeedom.com/en_US/core/doc-core-backup.html)
+    Jeedom](https://doc.jeedom.com/en_US/core/doc-core-backup.html)
     of your **Jeedom Master** and your **Jeedom Slave (s)**
     and recover it (s) on your PC / NAS….
 
@@ -112,7 +112,7 @@ Migration
 > **Note**
 >
 > Do not delete old equipment from
-> **l'Esclave** sure? **the master**.
+> **l'Esclave** sure **the master**.
 
 Install and activate the "Jeedom Link" plugin on the **Jeedom Target** (former Master). 
 -------------------------------------------------------------------------------------
@@ -121,15 +121,15 @@ On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
-Installation of **Jeedom Source?** : 
+Installation of **Jeedom Source** : 
 -----------------------------------
 
 > **Note**
 >
 > if you have an additional Raspberry Pi and another card
 > SD, you can migrate one protocol after another by
-> installing a new **Jeedom Source?** in parallel without having to
-> touch your **Jeedom Slave** existing?. By obviously moving
+> installing a new **Jeedom Source** in parallel without having to
+> touch your **Jeedom Slave** existing. By obviously moving
 > as the possible controllers from one to the other.
 
 > **Warning**
@@ -144,30 +144,30 @@ Installation of **Jeedom Source?** :
 > New SD / microSD. This will allow you to backtrack
 > easily if needed.
 
--   Install a new Jeedom? on a new SD card (Land it be
+-   Install a new Jeedom on a new SD card (Land it be
     to put in your **Jeedom Slave** existing or for a
     new Raspberry Pi) by following the [documentation
     d'installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
 
--   Update the **Jeedom Source?** to the latest to?ion (even if
+-   Update the **Jeedom Source** to the latest version (even if
     no update is offered to you).
 
 -   Check in the Health page that the internal network configuration (and
-    external if necessary) **Jeedom Source?** is OK.
+    external if necessary) **Jeedom Source** is OK.
 
-Jeedom Source? Configuration 
+Jeedom Source Configuration 
 ------------------------------
 
 -   Change the password of the admin user or / and configure a
     New user.
 
--   Configure your Jeedom? Markand account (* Configuration ⇒ Updates
+-   Configure your Jeedom Markand account (* Configuration ⇒ Updates
     and files ⇒ "Market" tab *). Click on test after
     saved, to validate the entry of your identifiers
-    Jeedom? Market).
+    Jeedom Market).
 
 -   Installation and activation of the "Jeedom Link" plugin on the new
-    **Jeedom Source?**.
+    **Jeedom Source**.
 
 ![jeelink.migration2](images/jeelink.migration2.png)
 
@@ -177,12 +177,12 @@ Jeedom Source? Configuration
 
 -   Recreate the tree of objects (just the ones that will
     be useful) of **Jeedom Target** (Old Master) on your new
-    **Jeedom Source?** (Former Slave).
+    **Jeedom Source** (Former Slave).
 
-Configuration of equipment on the **Jeedom Source?** 
+Configuration of equipment on the **Jeedom Source** 
 ------------------------------------------------------
 
-To send equipment present on the **Jeedom Source?**
+To send equipment present on the **Jeedom Source**
 to the **Jeedom Target** via the "Jeedom Link" plugin, it is necessary
 that it is already operational on your new **Jeedom
 Source**.
@@ -190,16 +190,16 @@ Source**.
 > **Note**
 >
 > Remember to deactivate command logging
-> info of each piece of equipment on the **Jeedom Source?** to?
+> info of each piece of equipment on the **Jeedom Source** afin
 > to save the SD card of it (Historization will be done on the
 > **Jeedom Target**).
 
 > **Note**
 >
 > You can also gradually assign the equipment to
-> objects recreated on the **Jeedom Source?** so that they are later
+> objects recreated on the **Jeedom Source** so that they are later
 > automatically put in the correct object on the **Jeedom Target** during
-> the declaration in the Jeedom? Link plugin". In case of duplicate name
+> the declaration in the Jeedom Link plugin". In case of duplicate name
 > with equipment already present in the objects of the **Jeedom Target**,
 > the plugin will add "remote XXXX" to the name of the equipment.
 
@@ -241,7 +241,7 @@ Source**.
 Configuration of the "Jeedom Link plugin" 
 -------------------------------------
 
-The "Jeedom Link" plugin installed on the **Jeedom Source?** will allow the
+The "Jeedom Link" plugin installed on the **Jeedom Source** will allow the
 equipment on the **Jeedom Target** (Your old Master).
 
 > **Note**
@@ -250,9 +250,9 @@ equipment on the **Jeedom Target** (Your old Master).
 > \
 > The screenshots on a black background correspond to the **Jeedom Target**.\
 > \
-> The screenshots on a white background correspond to **Jeedom Source?**.\
+> The screenshots on a white background correspond to **Jeedom Source**.\
 
-On the **Jeedom Source?**,
+On the **Jeedom Source**,
 [Configuring](https://doc.jeedom.com/en_US/plugins/jeelink/jeelink)
 the "Jeedom Link" plugin by specifying :
 
@@ -276,12 +276,12 @@ to add :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-After refreshing the page * My JeeLinks * of **Jeedom Target**, You?
+After refreshing the page * My JeeLinks * of **Jeedom Target**, vous
 must note the automatic creation of the equipment :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
 
-Like all Jeedom? equipment, you can activate / deactivate and display
+Like all Jeedom equipment, you can activate / deactivate and display
 or not the equipment, its controls,… or change the category :
 
 ![jeelink.migration7](images/jeelink.migration7.png)
@@ -298,10 +298,10 @@ Historical recovery
 >
 > To do on **Jeedom Target** (Former Master) for each order
 > old equipment info **Esclave** which we want to recover
-> the history?.
+> the history.
 
 -   Go to the configuration of the command (* Toothed wheel at
-    right*)?.
+    right*).
 
 -   Go to the tab * Advanced Configuration*.
 
@@ -321,7 +321,7 @@ Replacement of old slave equipment in Scenarios / virtual /…
 > replace occurrences in scenarios / virtual /….
 
 -   Go to the configuration of the command (* Toothed wheel at
-    right*)?.
+    right*).
 
 -   Go to the * Information tab*.
 
@@ -340,7 +340,7 @@ Retrieving advanced display configurations for commands
 > retrieve advanced display settings.
 
 -   Go to the configuration of the command (* Toothed wheel at
-    right*)?.
+    right*).
 
 -   Click on the button * apply to*.
 
@@ -376,8 +376,8 @@ Copy of advanced command configurations
 > **Warning**
 >
 > Interactions on the **Jeedom Target** cannot be launched
-> through equipment of a **Jeedom Source?** transferred via the
-> Jeedom? Link plugin".
+> through equipment of a **Jeedom Source** transferred via the
+> Jeedom Link plugin".
 
 Household on the **Jeedom Target** 
 ==============================
@@ -397,6 +397,6 @@ Household on the **Jeedom Target**
 -   In the "Jeedom Link" plugin, rename the equipment that
     could have a name ending with "remote XXXX".
 
--   In the Jeedom? Network page, delete the old one **Jeedom Slave**.
+-   In the Jeedom Network page, delete the old one **Jeedom Slave**.
 
 

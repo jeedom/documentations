@@ -73,7 +73,7 @@ Funciones
 
 -   Cumple con la norma EN 14604:2005
 
--   Compatible con Z-Wave Más?
+-   Compatible con Z-Wave Plus
 
 -   Instalación muy simple: simplemente instálela en un lugar
     o existe riesgo de incendio
@@ -110,9 +110,9 @@ Características técnicas
 
 -   Precisión de medición : 0.5 ° C (en un rango de 0 a 55 ° C)
 
--   Normas? : EMC 2004/108 / EC y R & TTE 199/5 / WE
+-   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
--   Certificaciones? : EN 14604:2005
+-   Certificaciones : EN 14604:2005
 
 \
 
@@ -123,7 +123,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre?bre : Sensor de humo Fibaro FGSD-002
+-   Nombre : Sensor de humo Fibaro FGSD-002
 
 -   ID del fabricante : 271
 
@@ -194,7 +194,7 @@ Aquí está la lista de comandos :
 -   Alerta de calor : es el control el que generará una alerta de calor
     (no confiable todavía)
 
--   Batería? : es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -205,7 +205,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 
@@ -240,7 +240,7 @@ Detalles del parámetro :
 -   1: ajusta la sensibilidad de la detección de humo
 
 -   2: le permite elegir qué notificaciones se enviarán a Jeedom
-    (consejo : todas)?
+    (consejo : toutes)
 
 -   3: le permite elegir qué notificaciones irán acompañadas de un
     indicación visual
@@ -250,11 +250,11 @@ Detalles del parámetro :
     el módulo sonará)
 
 -   10: no cambie esta configuración a menos que sepa lo que
-    hacer?
+    faites
 
--   11: ídem?
+-   11: idem
 
--   12: ídem?
+-   12: idem
 
 -   13: permite notificar a otros módulos zwave (para desactivar a menos que
     sabes por qué lo activas)
@@ -272,7 +272,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

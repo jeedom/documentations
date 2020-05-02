@@ -71,7 +71,7 @@ Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen :
         Sie möchten erstellen und wo es gespeichert wird.
 
     -   Klicken Sie abschließend auf die Schaltfläche * Lesen *, um das Bild zu erstellen.
-        Bild?::images / save-restore09.jpg \ [align = "center" \]
+        image::images / save-restore09.jpg \ [align = "center" \]
 
 2.  **Restauration**
 
@@ -97,7 +97,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
 1.  **Sauvegarde**
 
-    -   Mit ApplePi-Baker? : Wählen Sie die richtige Karte aus der Liste
+    -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust * und klicken Sie auf * Backup erstellen *, um ein zu erstellen
         Bilddatei Ihrer microSD-Karte.
 
@@ -105,7 +105,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
         -   Öffnen Sie, um die der Karte entsprechende Festplatte zu finden
             ein Terminal und geben Sie den Befehl ein : `diskutil list`
-            Bild?::images / save-restore12.jpg \ [align = "center" \]
+            image::images / save-restore12.jpg \ [align = "center" \]
 
         -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben :
             `sudo dd if = / dev / disk1 von = ~ / Desktop / Backup_Jeedom.img bs = 1m`
@@ -115,7 +115,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
 2.  **Restauration**
 
-    -   Mit ApplePi-Baker? : Wählen Sie die richtige Karte aus der Liste
+    -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust *, geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
         im Feld * IMG-Datei * des Abschnitts * Pi-Ingredients * und
         Klicken Sie auf * Backup wiederherstellen *, um das Image auf dem wiederherzustellen
@@ -125,7 +125,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
         -   Öffnen Sie, um die der Karte entsprechende Festplatte zu finden
             ein Terminal und geben Sie den gleichen Befehl wie für die
-            Schutz? : `diskutil list`
+            Schutz : `diskutil list`
 
         -   Hängen Sie die Partitionen der Karte aus, indem Sie den Befehl eingeben :
             `sudo diskutil unmountDisk / dev / disk1`
@@ -153,7 +153,7 @@ Unter Linux
         `` ''
 
     -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben :
-        `sudo dd if = / dev / sdc von = Backup_Jeedom.img bs = 1m` * Hinweis: IN?
+        `sudo dd if = / dev / sdc von = Backup_Jeedom.img bs = 1m` * Hinweis: Dans
         In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
 2.  **Restauration**
@@ -166,7 +166,7 @@ Unter Linux
         `sudo umount / dev / sdcX`
 
     -   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben :
-        `sudo dd if = Backup_Jeedom.img von = / dev / sdc bs = 1m` * Hinweis: IN?
+        `sudo dd if = Backup_Jeedom.img von = / dev / sdc bs = 1m` * Hinweis: Dans
         In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
 

@@ -1,4 +1,4 @@
-Everspring Miniplug We / Off? - AN180-6 
+Everspring Miniplug We / Off - AN180-6 
 ====================================
 
 \
@@ -24,13 +24,13 @@ Summary
 
 \
 
-The Mini We / Off? Plug is designed to control ignition and
+The Mini We / Off Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
 House. With a voltage of 220 - 240 V, this Plug can support a
-load up to 1500W (resistance), 800W (incandescent), 200W? (motor,
+load up to 1500W (resistance), 800W (incandescent), 200W (motor,
 fluorescent, Led).
 
-The Mini We / Off? Plug is a Z-Wave ™ compatible device which is intended
+The Mini We / Off Plug is a Z-Wave ™ compatible device which is intended
 to work with all Z-Wave ™ compatible networks. She can
 be controlled by a remote control, PC software, or any
 Z-Wave controller for your network.
@@ -71,19 +71,19 @@ Technical characteristics
 
 -   Food : 230 V, 50 Hz
 
--   Consumption : 0.6W?
+-   Consumption : 0.6W
 
 -   Maximum power : Resistive load : 1500W, Incandescent bulb
-    : 800W, Compact fluorescent bulb : 200W?, Led bulb (not dimmable) :
-    200W?
+    : 800W, Compact fluorescent bulb : 200W, Led bulb (not dimmable) :
+    200W
 
 -   Frequency : 868.42 Mhz
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing?: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions? : Length (plug included) : 74mm Diameter : 52mm?
+-   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
 \
 
@@ -92,9 +92,9 @@ Module data
 
 \
 
--   Mark? : Everspring?
+-   Mark : Everspring
 
--   Name : Miniplug We / Off?
+-   Name : Miniplug We / Off
 
 -   Manufacturer ID : 96
 
@@ -118,7 +118,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation?. It's important to
+> button, according to its paper Documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -154,11 +154,11 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    socket (We / Off?)
+    socket (We / Off)
 
 -   We : This is the command that turns on the outlet
 
--   Off? : It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
 \
 

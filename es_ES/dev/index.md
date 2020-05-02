@@ -1,4 +1,4 @@
-# Resumen?
+# Sommaire
 
 - [Estructura Info.json](/es_ES/dev/structure_info_json)
 - [Icono de complemento](/es_ES/dev/Icone_de_plugin)

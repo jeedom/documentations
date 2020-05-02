@@ -46,7 +46,7 @@ Funktionen
 
 -   Mikrochip-Steuerung.
 
--   Ausführungselement: Relais?.
+-   Ausführungselement: Relais.
 
 -   Messung der Wirkleistung von Strom und elektrischer Energie
     des Empfängers.
@@ -64,17 +64,17 @@ Technische Daten
 
 -   Stromverbrauch : bis zu 0,8W
 
--   Maximale Belastung : 2,5 kW?
+-   Maximale Belastung : 2.5kW
 
 -   Frequenz : 868,42 MHz EU
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen?: 17 x 42 x 37 mm
+-   Dimensions: 17 x 42 x 37 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
--   Temperatur begrenzen : 105 ° C.?
+-   Temperatur begrenzen : 105°C
 
 -   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
@@ -85,7 +85,7 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Fibar Group
+-   Machen Sie : Fibar Group
 
 -   Name : Wandstecker FGWPE-101
 
@@ -144,14 +144,14 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand? : Es ist der Befehl, mit dem der Status des
-    Steckdose?
+-   Zustand : Es ist der Befehl, mit dem der Status des
+    prise
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht? : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Macht : Dies ist der Befehl, der die momentane Leistung erhöht
     verbraucht
 
 -   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
@@ -199,7 +199,7 @@ Parameterdetails :
 -   1: ermöglicht das Blockieren des Moduls in immer EIN
 
 -   16: Ermöglicht es Ihnen, sich den letzten Zustand im Falle eines Stromausfalls zu merken
-    Strom?
+    courant
 
 -   34: Mit dieser Option können Sie die Art des Alarms im Zwave-Netzwerk auswählen
     muss reagieren
@@ -222,7 +222,7 @@ Parameterdetails :
     einer Variation
 
 -   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in der
-    Werte?
+    valeurs
 
 -   50: Mindestwert von Parameter 52
 
@@ -244,7 +244,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 

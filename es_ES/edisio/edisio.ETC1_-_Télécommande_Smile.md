@@ -39,7 +39,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro? : 3VDC (batería de litio CR2032)
+-   Suministro : 3VDC (batería de litio CR2032)
 
 -   Canales : 1
 
@@ -51,16 +51,16 @@ Características técnicas
 
 -   Dimensiones : 65x18mm
 
--   Grado de protección : IP64?
+-   Grado de protección : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Datos del módulo 
 =================
 
--   Hacer? : Edisio Smart Home
+-   Hacer : Edisio Smart Home
 
--   Nombre? : ETC1?
+-   Nombre : ETC1
 
 -   Referencia : P01 / Y01 / L01
 
@@ -114,9 +114,9 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   bt01? : Es el comando que te permite interactuar con el botón 1
+-   bt01 : Es el comando que te permite interactuar con el botón 1
 
--   Batería? : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería.
 
 Información 
 ------------
@@ -128,12 +128,12 @@ disponible :
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
--   Comunicación? : Indica la última comunicación registrada entre
+-   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería? : Indica el estado de la batería de los módulos de batería.
+-   Batería : Indica el estado de la batería de los módulos de batería.
 
--   Estado? : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo.
 
 Uso 
 -----------

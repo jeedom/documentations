@@ -1,4 +1,4 @@
-Danalock V2? BTZE 
+Danalock V2 BTZE 
 ================
 
 \
@@ -136,17 +136,17 @@ Technical characteristics
 
 \
 
--   Food? : 4 CR123 3V batteries
+-   Food : 4 CR123 3V batteries
 
--   Versions? : V2?
+-   Versions : V2
 
 -   Material : Solid anodized aluminum
 
--   Communication? : Bluetooth and Z-Wave
+-   Communication : Bluetooth and Z-Wave
 
--   Dimensions? : 79 mm x 49 mm (diameter x height)
+-   Dimensions : 79 mm x 49 mm (diameter x height)
 
--   Weight? : 363g?
+-   Weight : 363g
 
 \
 
@@ -155,11 +155,11 @@ Module data
 
 \
 
--   Mark? : Poly-Control?
+-   Mark : Poly-Control
 
--   Name? : Danalock V2? BTZE
+-   Name : Danalock V2 BTZE
 
--   Manufacturer ID : 010e?
+-   Manufacturer ID : 010e
 
 -   Product Type : 1
 
@@ -224,7 +224,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -241,7 +241,7 @@ Here is the list of commands :
 
 \
 
--   Status? : it is the command which will go up the last action
+-   Status : it is the command which will go up the last action
     executed (open / close)
 
 -   Open : it is the command which opens the lock
@@ -252,7 +252,7 @@ Here is the list of commands :
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
@@ -290,7 +290,7 @@ Parameter details :
 
 -   1 : Direction 0-1 : 0 = Motor goes clockwise
     locked, 1 = Motor goes counterclockwise when
-    Locked?
+    verrouillé
 
 -   2 : Speed 1 = slowest, 2 = slow, 3 = Normal, 4 = Fast, 5 = the
     faster

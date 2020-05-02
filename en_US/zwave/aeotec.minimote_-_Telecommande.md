@@ -1,4 +1,4 @@
-Aeotec Minimote? 
+Aeotec Minimote 
 ===============
 
 \
@@ -63,17 +63,17 @@ Technical characteristics
 
 -   Type of module : Z-Wave controller
 
--   Color? : White?
+-   Color : Blanc
 
 -   Food : internal rechargeable battery via USB
 
--   Viewing?: Blue and red LED
+-   Affichage: Blue and red LED
 
--   Frequency : 868.42MHz?
+-   Frequency : 868,42MHz
 
 -   Scope : up to 30 m
 
--   Dimensions? : 0.8cm x 3.3cm x 9.3cm
+-   Dimensions : 0.8cm x 3.3cm x 9.3cm
 
 -   Operating temperature : -35 to +85 ° C
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : Aeotec?
+-   Mark : Aeotec
 
--   Name? : Minimote?
+-   Name : Minimote
 
 -   Manufacturer ID : 134
 
@@ -110,7 +110,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> LEARN, in accordance with its paper Documentation?.
+> LEARN, in accordance with its paper Documentation.
 
 \
 
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -143,7 +143,7 @@ Here is the list of commands :
 
 \
 
--   Buttons? : it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 1 : Button 1 short press
 
@@ -170,7 +170,7 @@ Here is the list of commands :
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 

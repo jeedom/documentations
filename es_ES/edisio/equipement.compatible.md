@@ -1,4 +1,4 @@
-| Nombre?bre                     | Observación?                | Enlace                     |
+| Nombre                     | Observación                | Enlace                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Módulo para luminaria     |                         | [Comprar](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
 | DIO2 - Módulo para persiana enrollable     |                         | [Comprar](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
@@ -21,4 +21,4 @@
 >
 > Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no
 > por lo tanto, puede garantizar que todos los módulos de esta lista sean 100%
-> funcional?
+> fonctionels

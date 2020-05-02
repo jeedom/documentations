@@ -50,13 +50,13 @@ zu Hause bekomme ich es zurück :
 
     8192cu 550797 0
 
-Bearbeiten der Datei "/ etc / Netzwerk? / interfaces""
+Bearbeiten der Datei "/ etc / Netzwerk / interfaces""
 ==============================================
 
-Sie müssen zuerst die Datei "/ etc / Netzwerk? / interfaces" mit dem bearbeiten
+Sie müssen zuerst die Datei "/ etc / Netzwerk / interfaces" mit dem bearbeiten
 nächste Bestellung :
 
-    sudo nano / etc / Netzwerk? / interfaces
+    sudo nano / etc / Netzwerk / interfaces
 
 Hier ist der Inhalt der Betriebsdatei bei mir :
 
@@ -65,10 +65,10 @@ Hier ist der Inhalt der Betriebsdatei bei mir :
     iface eth0 inet dhcp
     #wlan
     #=============
-    auto wlan?0
-    allow-hotplug wlan?0
-    iface wlan?0 inet dhcp
-    Pre-Up wpa_supplicant -Dwext -i wlan?0 -c / etc / wpa_supplicant.conf -B
+    auto wlan0
+    allow-hotplug wlan0
+    iface wlan0 inet dhcp
+    Pre-Up wpa_supplicant -Dwext -i wlan0 -c / etc / wpa_supplicant.conf -B
     iface default inet dhcp
 
 Bearbeiten der Datei "/etc/wpa\_supplicant.conf" 
@@ -86,10 +86,10 @@ Hier ist meine Betriebsakte zu Hause :
     update_config = 1
     eapol_version = 1
     ap_scan = 2
-    Netzwerk?={
+    network={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            Modus = 0?
+            mode=0
             proto = WPA2
             paarweise = CCMP
             Gruppe = CCMP
@@ -110,6 +110,6 @@ Hier ist meine Betriebsakte zu Hause :
 
     Sobald die Dateien fertig sind, muss nur noch die WiFi-Verbindung durch Eingabe des folgenden Befehls gestartet werden :
 
-sudo ifup wlan?0
+sudo ifup wlan0
 
     Normalerweise sollte Ihr WLAN auf Ihrem Mini betriebsbereit sein.

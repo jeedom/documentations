@@ -1,4 +1,4 @@
-Danalock V2? BTZE 
+Danalock V2 BTZE 
 ================
 
 \.
@@ -41,8 +41,8 @@ kann sie von außen benutzen. Die Installation ist schnell und einfach
 unabhängig von der Art der Tür durchzuführen. Die entsprechende Anwendung
 ist kompatibel für iPhone 4S, Android 4.4 und Smartphone. Der Danalock tut es
 Keine externe Stromquelle erforderlich. Essen
-wird mit Batterie?n mit einer Lebensdauer von zwei Jahren durchgeführt. Sie
-Empfangen Sie ein akustisches Signal für den Fall, dass der Batterie?ladezustand steigt
+wird mit Batterien mit einer Lebensdauer von zwei Jahren durchgeführt. Sie
+Empfangen Sie ein akustisches Signal für den Fall, dass der Batterieladezustand steigt
 ist zu schwach.
 
 **Einfach einzurichten**
@@ -69,7 +69,7 @@ rentré.
 Das Danalock hat eine durchschnittliche Akkulaufzeit von bis zu einem Jahr
 benötigt keine externe Stromversorgung. Bitte beachten Sie diese Verwendung
 einer Z-Wave-Hausautomationssteuerung oder -box kann die Lebensdauer von verkürzen
-die Batterie?. Der Batterie?status ist in der App gut sichtbar.
+die Batterie. Der Batteriestatus ist in der App gut sichtbar.
 Wenn der Akku 30, 20, 15 und 10 Prozent erreicht, wird eine Benachrichtigung angezeigt
 wird per SMS und E-Mail gesendet.
 
@@ -124,7 +124,7 @@ Funktionen
 
 -   Einfach zu installieren
 
--   Batterie?betrieb
+-   Batteriebetrieb
 
 -   Kompatibel mit iOS (iPhone 4s oder höher), aber
     auch Android (ab 4.4).
@@ -136,17 +136,17 @@ Technische Daten
 
 \.
 
--   Versorgung? : 4 CR123 3V Batterie?n
+-   Versorgung : 4 CR123 3V Batterien
 
--   Versionen? : V2?
+-   Versionen : V2
 
 -   Material : Massives eloxiertes Aluminium
 
--   Kommunikation? : Bluetooth und Z-Wave
+-   Kommunikation : Bluetooth und Z-Wave
 
 -   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
 
--   Gewicht? : 363 g?
+-   Gewicht : 363g
 
 \.
 
@@ -155,11 +155,11 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Poly-Control?
+-   Machen Sie : Poly-Control
 
--   Name? : Danalock V2? BTZE
+-   Name : Danalock V2 BTZE
 
--   Hersteller ID : 010e?
+-   Hersteller ID : 010e
 
 -   Produkttyp : 1
 
@@ -224,7 +224,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -241,14 +241,14 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Status? : Es ist der Befehl, der die letzte Aktion ausführt
+-   Status : Es ist der Befehl, der die letzte Aktion ausführt
     ausgeführt (öffnen / schließen)
 
 -   Öffnen : Es ist der Befehl, der das Schloss öffnet
 
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 
--   Batterie? : Es ist der Batterie?befehl
+-   Batterie : Es ist der Batteriebefehl
 
 \.
 
@@ -290,7 +290,7 @@ Parameterdetails :
 
 -   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
     gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
-    gesperrt?
+    verrouillé
 
 -   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
     schneller
@@ -307,10 +307,10 @@ Parameterdetails :
 -   6 : Sperrsignal deaktivieren oder aktivieren oder
     Entsperren (0 = Deaktivieren, 1 = Aktivieren.)
 
--   7 : Batterie?typ : Stellen Sie den Batterie?typ ein
+-   7 : Batterietyp : Stellen Sie den Batterietyp ein
     versorgt das Gerät mit Strom.
 
--   8 : Batterie?alarm : Wenn der Akkuladestand niedriger ist
+-   8 : Batteriealarm : Wenn der Akkuladestand niedriger ist
     Bei diesem Wert informiert das Gerät den Benutzer mit einem Signal
     Ton nach dem Verriegeln oder Entriegeln.
 

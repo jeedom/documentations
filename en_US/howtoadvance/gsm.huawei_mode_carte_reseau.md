@@ -17,9 +17,9 @@ then add this :
 
 > TargetProductList=“14db,14dc”
 
-> HuaweiNewMode = 1?
+> HuaweiNewMode=1
 
-> NoDriverLoading = 1?
+> NoDriverLoading=1
 
 Then save by pressing Ctrl + x
 

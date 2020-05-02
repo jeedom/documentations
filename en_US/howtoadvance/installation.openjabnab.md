@@ -16,7 +16,7 @@ Once the system installed in SSH done :
     apt-get install ssh
     apt-get install apache2 php5 php5-mysql libapache2-mod-php5
     a2enmod rewrite
-    apt-get install make?
+    apt-get install make
     apt-get install build-essential
     apt-get install libqt4-dev --fix-missing
     apt-get install qt4-dev-tools
@@ -28,17 +28,17 @@ Network configuration
 
 Then you have to recover the IP address of the system :
 
-    ifconfig?
+    ifconfig
 
 The result is :
 
-    eth0 Link? encap:Ethernet HWaddr d0:63:b4:00:54:98
+    eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162 Bcast:192.168.0.255 Mask:255.255.255.0
-              inet6 addr: fe80?::d263:b4ff:fe00:5498/64 Scope:Link
+              inet6 addr: fe80::d263:b4ff:fe00:5498/64 Scope:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
               RX packets:10721 errors:0 dropped:0 overruns:0 frame:0
               TX packets:6477 errors:0 dropped:0 overruns:0 carrier:0
-              collisions?:0 txqueuelen:1000
+              collisions:0 txqueuelen:1000
               RX bytes:2032942 (1.9 MiB) TX bytes:1230703 (1.1 MiB)
 
 Here the IP address is 192.168.0.162.
@@ -48,7 +48,7 @@ Here the IP address is 192.168.0.162.
 > For the rest of the tutorial I will use this IP, it is of course
 > replace depending on which one you actually
 
-Then edit the fi?le /etc/resolv.conf
+Then edit the file /etc/resolv.conf
 
     vim /etc/resolv.conf
 
@@ -59,7 +59,7 @@ And add :
 DNS configuration 
 ====================
 
-Edit the fi?le /etc/bind/named.conf.local
+Edit the file /etc/bind/named.conf.local
 
     cd / etc / bind /
     vim named.conf.local
@@ -68,14 +68,14 @@ And add :
 
     "raspberry.pi" area"{
      master type;
-     fi?le "/etc/bind/db.raspberry.pi";
+     file "/etc/bind/db.raspberry.pi";
     };
     zone "0.168.192.in-addr.arpa"{
      master type;
-     fi?le "/etc/bind/db.192.168.0.inv";
+     file "/etc/bind/db.192.168.0.inv";
     };
 
-Create the db.raspberry.pi fi?le
+Create the db.raspberry.pi file
 
 vim db.raspberry.pi ---
 
@@ -87,13 +87,13 @@ And put in it :
      604800; Refresh
      86400; Retry
      2419200; Expired
-     604800); Negative VS?ache TTL
+     604800); Negative Cache TTL
     ;
     @ IN NS ojn.raspberry.pi.
     ojn IN A 192.168.0.162
     192.168.0.162 IN A 192.168.0.162
 
-Then create this db.192.168.0.inv fi?le
+Then create this db.192.168.0.inv file
 
     vim db.192.168.0.inv
 
@@ -105,7 +105,7 @@ And put :
      604800; Refresh
      86400; Retry
      2419200; Expired
-     604800); Negative VS?ache TTL
+     604800); Negative Cache TTL
     ;
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
@@ -121,24 +121,24 @@ Launch DNS :
 
 Test if it's good :
 
-    pi?ng ojn.raspberry.pi
+    ping ojn.raspberry.pi
 
 You should have :
 
-    root @ cubox-i:/ home / ojn # pi?ng ojn.raspberry.pi
+    root @ cubox-i:/ home / ojn # ping ojn.raspberry.pi
     PING ojn.raspberry.ft (192.168.0.162) 56 (84) bytes of data.
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 1 ttl = 64 time = 0.069 ms
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 time = 0.067 ms
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 time = 0.059 ms
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 time = 0.068 ms
-    ^ VS??
-    --- ojn.raspberry.pi pi?ng statistics ---
+    ^C
+    --- ojn.raspberry.pi ping statistics ---
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
 > **Note**
 >
-> You have to do ctrl + c to quit the pi?ng
+> You have to do ctrl + c to quit the ping
 
 For security we will also add the resolution in / etc / hosts, do :
 
@@ -151,7 +151,7 @@ And add :
 Openjabnab recovery 
 =========================
 
-We will fi?rst create the user :
+We will first create the user :
 
     adduser ojn
     cd / home / ojn
@@ -215,7 +215,7 @@ Do :
     su ojn
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    make?
+    make
 
 > **Note**
 >
@@ -241,7 +241,7 @@ And replace all * my.domain.com * by * ojn.raspberry.pi*
 Openjabnab web server configuration 
 =======================================
 
-On your post you must edit the fi?le
+On your post you must edit the file
 C:\\ Windows \\ System32 \\ drivers \\ etc and add :
 
     192.168.0.162 ojn.raspberry.pi
@@ -268,7 +268,7 @@ Now go to :
 > **Note**
 >
 > If everything is good you should have the statistics that appear in
-> Low?
+> bas
 
 Rabbit configuration 
 ======================
@@ -283,7 +283,7 @@ nabaztagXX, connect to it by typing 192.168.0.1.
 Once on enter your wifi configuration and information
 following :
 
-    DHCP enabled : no?
+    DHCP enabled : no
     Local Mask : 255.255.255.0
     Local gateway : 192.168.0.1 or 192.168.0.254 (depending on your network)
     DNS server : 192.168.0.162
@@ -291,7 +291,7 @@ following :
 Openjabnab server monitoring and auto start 
 ====================================================
 
-As you will no?tice if you log off the server
+As you will notice if you log off the server
 openjabnab stops. So you have to add a little script to
 monitor the server and start it automatically. Do :
 
@@ -301,14 +301,14 @@ monitor the server and start it automatically. Do :
 And add in :
 
     if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0]; then
-        su ojn; cd / home / ojn / OpenJabNab / server / bin; no?hup ./ openjabnab >> / dev / null 2> & 1 &
-    fi?
+        su ojn; cd / home / ojn / OpenJabNab / server / bin; nohup ./ openjabnab >> / dev / null 2> & 1 &
+    fi
 
 Then do :
 
     chmod + x checkojn.sh
 
-We must no?w add the script at startup and a verification
+We must now add the script at startup and a verification
 every 15 min for example :
 
     crontab -e
@@ -334,7 +334,7 @@ You must have :
 
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
-You must no?w create an account by clicking on create a
+You must now create an account by clicking on create a
 User :
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
@@ -347,28 +347,28 @@ Once connected go to server :
 
 ![installation.openjabnab4](images/installation.openjabnab4.PNG)
 
-Then go down to fi?nd the list of connected rabbits and recover
+Then go down to find the list of connected rabbits and recover
 his mac address :
 
 ![installation.openjabnab5](images/installation.openjabnab5.PNG)
 
-Then go to account and fi?ll in the name and mac address fi?eld of the
+Then go to account and fill in the name and mac address field of the
 rabbit then validate :
 
 ![installation.openjabnab6](images/installation.openjabnab6.PNG)
 
-You will no?w fi?nd your rabbit on the rabbit page, click on it
+You will now find your rabbit on the rabbit page, click on it
 to open its configuration :
 
 ![installation.openjabnab7](images/installation.openjabnab7.PNG)
 
-Now you need to activate the purple API and pass it in public?,
-it is also here that you will fi?nd the purple api key which will serve you
+Now you need to activate the purple API and pass it in public,
+it is also here that you will find the purple api key which will serve you
 for Jeedom :
 
 ![installation.openjabnab8](images/installation.openjabnab8.PNG)
 
-Below you fi?nd the list of plugins, don't forget to add them
+Below you find the list of plugins, don't forget to add them
 activate (TTS type or ear control) :
 
 ![installation.openjabnab9](images/installation.openjabnab9.PNG)
@@ -376,9 +376,9 @@ activate (TTS type or ear control) :
 Jeedom configuration 
 =======================
 
-The configuration in Jeedom is quite simple, you must fi?rst of all
+The configuration in Jeedom is quite simple, you must first of all
 connect in SSH to Jeedom (if you have a Jeedom box the identifiers
-are in the installation doc). Then edit the / etc / hosts fi?le
+are in the installation doc). Then edit the / etc / hosts file
 
     vim / etc / hosts
 
@@ -391,13 +391,13 @@ the configuration to put:
 
 ![installation.openjabnab10](images/installation.openjabnab10.PNG)
 
-Now your rabbit no?w has its own local burrow !!!!!
+Now your rabbit now has its own local burrow !!!!!
 
 Put the TTS locally 
 ======================
 
 Everything is local except the TTS which goes through the Acapela site but it is
-possible by modifying some fi?les to pass it locally
+possible by modifying some files to pass it locally
 
 > **Note**
 >
@@ -412,7 +412,7 @@ You need to create a jeedom folder in servver / tts :
 
     mkdir / home / ojn / OpenJabNab / server / tts / jeedom
 
-Then you have to make? 3 fi?les :
+Then you have to make 3 files :
 
 -   jeedom.pro
 
@@ -423,8 +423,8 @@ Then you have to make? 3 fi?les :
     ######################################################################
 
     TEMPLATE = lib
-    VS?ONFIG - = debug
-    VS?ONFIG + = qt release plugin
+    CONFIG - = debug
+    CONFIG + = qt release plugin
     QT + = network xml
     QT - = mistletoe
     INCLUDEPATH += . ../../server ../../lib
@@ -434,15 +434,15 @@ Then you have to make? 3 fi?les :
     LIBS + = -L ../../ bin / -lcommon
     MOC_DIR = ./tmp/moc
     OBJECTS_DIR = ./tmp/obj
-    win32? {
+    win32 {
       QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
-    unix? {
+    unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
       QMAKE_CXXFLAGS + = -Werror
     }
 
-    # Input?
+    # Input
     HEADERS + = tts_jeedom.h
     SOURCES + = tts_jeedom.cpp
 
@@ -459,17 +459,17 @@ Then you have to make? 3 fi?les :
     #include <QThread>
     #include "ttsinterface.h"
 
-    class TTSJeedom? : public? TTSInterface
+    class TTSJeedom : public TTSInterface
     {
       Q_OBJECT
       Q_INTERFACES (TTSInterface)
 
-    public?:
-      TTSJeedom? ();?
-      virtual ~ TTSJeedom? ();
-      QByteArray VS?reateNewSound (QString, QString, bool);
+    public:
+      TTSJeedom();
+      virtual ~ TTSJeedom ();
+      QByteArray CreateNewSound (QString, QString, bool);
 
-    private?:
+    private:
     };
 
     #endif
@@ -488,46 +488,46 @@ Then you have to make? 3 fi?les :
     #include <QNetworkRequest>
     #include <QNetworkAccessManager>
 
-    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom?)
+    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom?::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom?::~TTSJeedom()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
-    QByteArray TTSJeedom?::CreateNewSound (QString text, QString voice, bool forceOverwrite)
+    QByteArray TTSJeedom::CreateNewSound (QString text, QString voice, bool forceOverwrite)
     {
       QEventLoop loop;
-      if (?!voiceList.contains (voice))
+      if(!voiceList.contains (voice))
         voice = "fr";
-      // VS?heck (and create if needed) output folder
+      // Check (and create if needed) output folder
       QDir outputFolder = ttsFolder;
-      if (?!outputFolder.exists (voice))
+      if(!outputFolder.exists (voice))
         outputFolder.mkdir (voice);
 
-      if (?!outputFolder.cd (voice))
+      if(!outputFolder.cd (voice))
       {
         LogError (QString ("Cant create TTS Folder : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
         return QByteArray ();
       }
 
-      // VS?ompute fi?leName
-      QString fi?leName = QCryptographicHash::hash (text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
-      QString fi?lePath = outputFolder.absoluteFilePath (fileName);
+      // Compute fileName
+      QString fileName = QCryptographicHash::hash (text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
+      QString filePath = outputFolder.absoluteFilePath (fileName);
 
-      if (?!forceOverwrite && QFile::exists (filePath))
-        return ttsHTTPUrl.arg (voice, fi?leName) .toAscii ();
+      if(!forceOverwrite && QFile::exists (filePath))
+        return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
 
       // Fetch MP3
       QHttp http ("TODO_IP_JEEDOM");
-      QObject?::connect (& http, SIGNAL (done (bool)), & loop, SLOT (quit ()));
+      QObject::connect (& http, SIGNAL (done (bool)), & loop, SLOT (quit ()));
 
-      QByteArray VS?ontentData;
-      VS?ontentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (text);
+      QByteArray ContentData;
+      ContentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (text);
 
       QHttpRequestHeader Header;
       Header.addValue ("Host", "TODO_IP_JEEDOM");
@@ -535,25 +535,25 @@ Then you have to make? 3 fi?les :
       Header.setContentLength (ContentData.length ());
       Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (text), 1, 1);
 
-      http.request (Header, VS?ontentData);
+      http.request (Header, ContentData);
       loop.exec ();
 
-      QFile fi?le (filePath);
+      QFile file (filePath);
       if (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("Cannot open sound fi?le for writing : "+filePath);
+        LogError ("Cannot open sound file for writing : "+filePath);
         return QByteArray ();
       }
-      fi?le.write (http.readAll ());
-      fi?le.close ();
-      return ttsHTTPUrl.arg (voice, fi?leName) .toAscii ();
+      file.write (http.readAll ());
+      file.close ();
+      return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
 > **Note**
 >
 > Don't forget to replace the TODOs
 
-Then activate the tts jeedom by modifying the fi?le
+Then activate the tts jeedom by modifying the file
 /home/ojn/OpenJabNab/server/tts/tts.pro by adding jeedom to SUBDIRS :
 
     TEMPLATE = subdirs
@@ -564,12 +564,12 @@ Recompile
 
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    make?
+    make
 
 Modification of the tts service 
 ------------------------------
 
-Edit the fi?le /home/ojn/OpenJabNab/server/bin/openjabnab.ini
+Edit the file /home/ojn/OpenJabNab/server/bin/openjabnab.ini
 and change :
 
     TTS = acapela

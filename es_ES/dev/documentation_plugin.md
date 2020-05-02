@@ -1,10 +1,10 @@
 # Cómo hacer la documentación de un complemento
 
-## Introduccion?
+## Introduction
 
 Veremos en esta documentación cómo hacer la documentación de su complemento.
 
-## Principio?
+## Principe
 
 El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
 
@@ -18,24 +18,24 @@ Como se ve arriba, solo tiene que indicar en el archivo de información.json el 
 - un servidor web simple
 - github (único método que veremos aquí)
 
-## Github?
+## Github
 
 La forma más fácil para su documentación es usar el sistema de páginas github que tiene la ventaja de ser muy fácil de usar..
 
 ### Lenguaje de documentación
 
-Soporte de asciidoc y markedown (md) de Github? para páginas, solo veremos el markedown aquí.
+Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el markedown aquí.
 
 No le describiremos la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Ubicación?
+### Emplacement
 
 Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
 Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para modificar). En esta carpeta te recomendamos que hagas 2 archivos : 
 
-- Cambios?.md => tu registro de cambios
-- índice?.md => su documentación
+- Cambios.md => tu registro de cambios
+- índice.md => su documentación
 
 ### Publicación
 
@@ -61,7 +61,7 @@ Si su plugin está estructurado como el consejo anterior, entonces la administra
 
 > **Important**
 >
-> Para que la parte de gestión de la traducción funcione automáticamente, su complemento debe estar alojado en Github?
+> Para que la parte de gestión de la traducción funcione automáticamente, su complemento debe estar alojado en Github
 
 > **Note**
 >

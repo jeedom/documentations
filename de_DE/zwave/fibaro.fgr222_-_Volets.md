@@ -55,7 +55,7 @@ Funktionen
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 
 -   Kompatibel mit BSO und Jalousie mit Positionierung von
-    Lamellen?
+    lamelles
 
 -   Wird hinter einem vorhandenen Switch installiert
 
@@ -65,7 +65,7 @@ Funktionen
 
 -   Messung des momentanen und kumulativen Verbrauchs
 
--   Drahtloses Auf?date mit der Fibaro Home Center 2-Box
+-   Drahtloses Update mit der Fibaro Home Center 2-Box
 
 -   Testfunktion für die Z-Wave-Netzabdeckung
 
@@ -88,21 +88,21 @@ Technische Daten
 
 -   Verkabelung : 3 Draht, Neutralleiter erforderlich
 
--   Maximale Belastung : 1000W?
+-   Maximale Belastung : 1000W
 
 -   Frequenz : 868,42 MHz
 
--   Signalstärke : 1mW?
+-   Signalstärke : 1mW
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen?: 17 x 42 x 37 mm
+-   Dimensions: 17 x 42 x 37 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
--   Temperatur begrenzen : 105 ° C.?
+-   Temperatur begrenzen : 105°C
 
--   Standards? : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
+-   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
 
 \.
 
@@ -111,7 +111,7 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Fibar Group
+-   Machen Sie : Fibar Group
 
 -   Name : Fibaro FGR-222
 
@@ -153,7 +153,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -172,35 +172,35 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand? : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
+-   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
 
 -   Positionierung : Es ist der Befehl, der es ermöglicht, das zu definieren
     Öffnungsprozentsatz
 
--   Auf? : Mit diesem Befehl können Sie den Verschluss vollständig öffnen
+-   Auf : Mit diesem Befehl können Sie den Verschluss vollständig öffnen
 
--   Runter? : Es ist der Befehl, der den Verschluss vollständig schließt
+-   Runter : Es ist der Befehl, der den Verschluss vollständig schließt
 
 -   Aktualisieren : Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
     des Verschlusses
 
 -   Macht : Befehl, der den Verbrauch des Moduls zulässt
 
--   Verbrauch? : Kontrolle, um die Leistung zu kennen
+-   Verbrauch : Kontrolle, um die Leistung zu kennen
     Sofort vom Modul verwendet
 
--   STOP? : Steuerung, um die Bewegung des Verschlusses zu stoppen
+-   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
 
--   STOP? BSO : Befehl zum Stoppen der Bewegung (im Modus
+-   STOP BSO : Befehl zum Stoppen der Bewegung (im Modus
     verstellbare Lamelle)
 
--   Kippen? : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
+-   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
--   Nicht? : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
-    Kippen?
+-   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
+    Incliner
 
 \.
 
@@ -258,7 +258,7 @@ Parameterdetails :
 
 -   18: Motorsicherheitsleistung
 
--   22: NA?
+-   22: NA
 
 -   29: ermöglicht die Kalibrierung der Klappe
 
@@ -299,7 +299,7 @@ Gut zu wissen
 
 \.
 
-### Zurücksetzen? 
+### Zurücksetzen 
 
 \.
 

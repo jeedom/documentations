@@ -1,16 +1,16 @@
 Por qué ? 
 ==========
 
--   Apache se convertirá gradualmente en la norma con Jeedom?
+-   Apache se convertirá gradualmente en la norma con Jeedom
 
 -   Le permite tener las últimas actualizaciones de seguridad en
     acceso a archivos (gracias a .htaccess) durante las actualizaciones de
-    Jeedom?
+    Jeedom
 
 -   Corrige algunos problemas de acceso y estabilidad (especialmente para aquellos
     que tienen muchas cámaras)
 
--   Mejora el rendimiento general de Jeedom?.
+-   Mejora el rendimiento general de Jeedom.
 
 Prerrequisitos 
 =========
@@ -22,7 +22,7 @@ Prerrequisitos
 
 > **Important**
 >
-> En caso de inquietud, el equipo de Jeedom? no puede ser considerado responsable y
+> En caso de inquietud, el equipo de Jeedom no puede ser considerado responsable y
 > puede rechazar cualquier solicitud de soporte. El manejo es tuyo
 > riesgos y peligros.
 
@@ -34,10 +34,10 @@ Prerrequisitos
 Como hacer 
 =============
 
-Desactivación de los servicios Jeedom? y nginx 
+Desactivación de los servicios Jeedom y nginx 
 ------------------------------------------
 
-En Jeedom?, debes ir a cada plugin con un demonio, luego
+En Jeedom, debes ir a cada plugin con un demonio, luego
 desactivar la gestión automática del demonio y cortarlo. Hay que
 luego, en el motor de tareas, desactive todas las tareas (hay un
 botón de desactivación general) y en los escenarios desactivar todos
@@ -68,7 +68,7 @@ Instalación y configuración de Apache
 > no mantener una versión modificada de un archivo, hacer : "Mantener el local
 > versión instalada actualmente".
 
-Copia de Jeedom? 
+Copia de Jeedom 
 ---------------
 
     cp -R / usr / share / nginx / www / jeedom / * / var / www / html /
@@ -82,7 +82,7 @@ Prueba de acceso
 
     systemctl iniciar mysql
 
-Ahora debería poder acceder a Jeedom? desde la misma URL
+Ahora debería poder acceder a Jeedom desde la misma URL
 que antes Si es bueno, puede continuar. OTRO NO ES ESENCIAL
 NO CONTINUAR.
 
@@ -93,7 +93,7 @@ HACER :
 
     crontab -e
 
-Luego actualice la ruta a Jeedom?, reemplace :
+Luego actualice la ruta a Jeedom, reemplace :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / usr / share / nginx / www / jeedom / core / php / jeeCron.php '>> / dev / null 2> & 1
 
@@ -115,10 +115,10 @@ Reiniciar servicios
     systemctl habilita apache2
     systemctl start cron
 
-Luego conéctese a su Jeedom? y reactive el motor de tareas
+Luego conéctese a su Jeedom y reactive el motor de tareas
 y los escenarios. También puedes revivir a los demonios..
 
 > **Important**
 >
 > Se recomienda después de la migración iniciar una actualización de
-> Jeedom? (incluso si no te ofrece nada).
+> Jeedom (incluso si no te ofrece nada).

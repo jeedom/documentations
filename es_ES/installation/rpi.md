@@ -18,11 +18,11 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 >
 > Si usa Etcher para grabar su imagen, el paso de descompresión es inútil (el formato Zip se reconoce directamente en la selección del archivo de imagen).
 
-## Habilitar acceso SSH?
+## Habilitar acceso SSH
 
 > **Warning**
 >
-> Por razones de seguridad, el acceso SSH? ya no está habilitado de forma predeterminada en esta distribución. Entonces tienes que activarlo.
+> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. Entonces tienes que activarlo.
 
 Se debe crear un archivo ssh vacío en la partición de arranque (el único accesible bajo Windows).
 
@@ -38,7 +38,7 @@ Solo haz clic derecho : documento nuevo / de texto y cámbiele el nombre a "ssh"
 
 Inserte su tarjeta SD, conecte el cable de red, conecte la alimentación.
 
-## Conectarse en SSH?
+## Conectarse en SSH
 
 Identifica tu Pi en la red
 

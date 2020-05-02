@@ -11,10 +11,10 @@ installation is not currently offered natively in Jeedom)
 EmonCMS can be installed next to Jeedom or elsewhere. You can
 even use the emoncms.org instance
 
-Send a value? from Jeedom to EmonCMS 
+Send a value from Jeedom to EmonCMS 
 =========================================
 
-To send a value? from Jeedom to EmonCMS, the simplest solution
+To send a value from Jeedom to EmonCMS, the simplest solution
 since it is available natively is to use the Push URL of a
 information
 
@@ -33,12 +33,12 @@ With parameters :
 
 -   Id : the feed Id found on emoncms
 
--   apikey? : the api key of read & write for emoncms
+-   apikey : the api key of read & write for emoncms
 
--   value? : you must leave * value? * for Jeedom to send the
-    value? of info
+-   value : you must leave * value * for Jeedom to send the
+    value of info
 
--   power? : to modify for
+-   power : to modify for
 
 Notification to Jeedom or recovery from Jeedom 
 ======================================================
@@ -48,7 +48,7 @@ To take a data from emoncms in Jeedom, there are two possibilities
 
 -   The first is to create an info via the script plugin in Jeedom
     and use the API URL of the feed. This method requires recovering
-    the value? regularly or via scenario for example and normally
+    the value regularly or via scenario for example and normally
     not useful because the data has its source in jeedom\_setting
 
         https://serveur/emoncms/feed/value.json?id=1&apikey=xxx

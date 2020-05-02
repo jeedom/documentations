@@ -16,7 +16,7 @@ Una vez que el sistema instalado en SSH haya terminado :
     apt-get install ssh
     apt-get install apache2 php5 php5-mysql libapache2-mod-php5
     reescritura de a2enmod
-    apt-get install hacer?
+    apt-get install make
     apt-get install build-essential
     apt-get install libqt4-dev --fix-missing
     apt-get install qt4-dev-tools
@@ -28,24 +28,24 @@ Configuración de red
 
 Luego debe recuperar la dirección IP del sistema :
 
-    ifconfig?
+    ifconfig
 
 El resultado es :
 
     eth0 Enlace encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162 Bcast:192.168.0.255 máscara:255.255.255.0
-              inet6 addr: fe80?::d263:b4ff:fe00:Alcance 5498/64:Link
+              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
               Paquetes TX:6477 errores:0 caído:0 desbordamientos:0 transportista:0
-              colisiones?:0 txqueuelen:1000
+              collisions:0 txqueuelen:1000
               Bytes RX:2032942 (1.9 MiB) bytes TX:1230703 (1.1 MiB)
 
 Aquí la dirección IP es 192.168.0.162.
 
 > **Note**
 >
-> Por?a el resto del tutorial usaré esta IP, por supuesto es
+> Para el resto del tutorial usaré esta IP, por supuesto es
 > reemplazar dependiendo de cuál realmente
 
 Luego edite el archivo /etc/resolv.conf
@@ -54,7 +54,7 @@ Luego edite el archivo /etc/resolv.conf
 
 Y añadir :
 
-    servidor de no?mbres 192.168.0.162
+    servidor de nombres 192.168.0.162
 
 Configuración DNS 
 ====================
@@ -87,7 +87,7 @@ Y poner en ello :
      604800; Actualizar
      86400; Reintentar
      2419200; Expira
-     604800); C?aché negativo TTL
+     604800); Caché negativo TTL
     ;
     @ IN NS ojn.raspberry.pi.
     ojn EN A 192.168.0.162
@@ -105,7 +105,7 @@ Y poner :
      604800; Actualizar
      86400; Reintentar
      2419200; Expira
-     604800); C?aché negativo TTL
+     604800); Caché negativo TTL
     ;
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
@@ -121,24 +121,24 @@ Lanzar DNS :
 
 Prueba si es bueno :
 
-    pi?ng ojn.raspberry.pi
+    ping ojn.raspberry.pi
 
 Deberías tener :
 
-    root @ cubox-i:/ home / ojn # pi?ng ojn.raspberry.pi
+    root @ cubox-i:/ home / ojn # ping ojn.raspberry.pi
     PING ojn.raspberry.ft (192.168.0.162) 56 (84) bytes de datos.
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 1 ttl = 64 tiempo = 0.069 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 tiempo = 0.067 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 tiempo = 0.059 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 tiempo = 0.068 ms
-    ^ C??
-    --- ojn.raspberry.estadísticas de pi?ng pi? ---
+    ^C
+    --- ojn.raspberry.estadísticas de ping pi ---
     4 paquetes transmitidos, 4 recibidos, 0% de pérdida de paquetes, tiempo 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
 > **Note**
 >
-> Tienes que hacer ctrl + c para salir del pi?ng
+> Tienes que hacer ctrl + c para salir del ping
 
 Por seguridad también agregaremos la resolución en / etc / hosts, do :
 
@@ -215,7 +215,7 @@ Hacer :
     su ojn
     cd / home / ojn / OpenJabNab / server
     qhacer -r
-    hacer?
+    make
 
 > **Note**
 >
@@ -241,7 +241,7 @@ Y reemplace todos * mi.dominio.com * por * ojn.raspberry.pi*
 Configuración del servidor web Openjabnab 
 =======================================
 
-En tu publico?ación debes editar el archivo
+En tu publicación debes editar el archivo
 C:\\ Windows \\ System32 \\ drivers \\ etc y agregue :
 
     192.168.0.162 ojn.raspberry.pi
@@ -268,12 +268,12 @@ Ahora ve a :
 > **Note**
 >
 > Si todo está bien, debería tener las estadísticas que aparecen en
-> Bajo?
+> bas
 
 Configuración de conejo 
 ======================
 
-Para configurar el conejo es Bajo?tante simple, debes desenchufarlo
+Para configurar el conejo es bastante simple, debes desenchufarlo
 luego vuelva a conectarlo, quédese presionando su botón. Debe
 normalmente azul claro.
 
@@ -283,7 +283,7 @@ nabaztagXX, conéctese escribiendo 192.168.0.1.
 Una vez encendido, ingrese su configuración e información wifi
 siguiendo :
 
-    DHCP habilitado : no?
+    DHCP habilitado : no
     Máscara local : 255.255.255.0
     Puerta de enlace local : 192.168.0.1 o 192.168.0.254 (dependiendo de su red)
     Servidor DNS : 192.168.0.162
@@ -291,7 +291,7 @@ siguiendo :
 Supervisión del servidor Openjabnab e inicio automático 
 ====================================================
 
-Como no?tará si cierra la sesión del servidor
+Como notará si cierra la sesión del servidor
 Openjabnab se detiene. Entonces tienes que agregar un pequeño script a
 supervisar el servidor e iniciarlo automáticamente. Hacer :
 
@@ -301,8 +301,8 @@ supervisar el servidor e iniciarlo automáticamente. Hacer :
 Y agrega :
 
     if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0]; entonces
-        su ojn; cd / home / ojn / OpenJabNab / server / bin; no?hup ./ openjabnab >> / dev / null 2> & 1 &
-    fi?
+        su ojn; cd / home / ojn / OpenJabNab / server / bin; nohup ./ openjabnab >> / dev / null 2> & 1 &
+    fi
 
 Entonces haz :
 
@@ -352,7 +352,7 @@ su dirección mac :
 
 ![installation.openjabnab5](images/installation.openjabnab5.PNG)
 
-Luego vaya a la cuenta y complete el no?mbre y el campo de dirección mac del
+Luego vaya a la cuenta y complete el nombre y el campo de dirección mac del
 conejo luego validar :
 
 ![installation.openjabnab6](images/installation.openjabnab6.PNG)
@@ -368,7 +368,7 @@ para Jeedom :
 
 ![installation.openjabnab8](images/installation.openjabnab8.PNG)
 
-A continuación encontrará la lista de complementos, no? olvide agregarlos
+A continuación encontrará la lista de complementos, no olvide agregarlos
 activar (tipo TTS o control del oído) :
 
 ![installation.openjabnab9](images/installation.openjabnab9.PNG)
@@ -376,7 +376,7 @@ activar (tipo TTS o control del oído) :
 Configuración de Jeedom 
 =======================
 
-La configuración en Jeedom es Bajo?tante simple, primero debes
+La configuración en Jeedom es bastante simple, primero debes
 conéctese en SSH a Jeedom (si tiene un cuadro de Jeedom los identificadores
 están en el documento de instalación). Luego edite el archivo / etc / hosts
 
@@ -401,7 +401,7 @@ posible modificando algunos archivos para pasarlos localmente
 
 > **Note**
 >
-> C?onsideraré que oenjabnab está instalado en
+> Consideraré que oenjabnab está instalado en
 > / home / ojn / OpenJabNab y estás conectado como
 > el usuario de openjabnab, aquí ojn
 
@@ -423,8 +423,8 @@ Entonces tienes que hacer 3 archivos :
     ######################################################################
 
     PLANTILLA = lib
-    C?ONFIG - = depuración
-    C?ONFIG + + qt lanzamiento del complemento
+    CONFIG - = depuración
+    CONFIG + + qt lanzamiento del complemento
     QT + = red xml
     QT - = muérdago
     INCLUDEPATH += . ../../server ../../lib
@@ -434,15 +434,15 @@ Entonces tienes que hacer 3 archivos :
     LIBS + = -L ../../ bin / -lcommon
     MOC_DIR = ./tmp/moc
     OBJECTS_DIR = ./tmp/obj
-    win32? {
+    win32 {
       QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
-    unix? {
+    unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
       QMAKE_CXXFLAGS + = -Werror
     }
 
-    # De entrada?
+    # Input
     HEADERS + = tts_jeedom.h
     FUENTES + = tts_jeedom.cpp
 
@@ -459,17 +459,17 @@ Entonces tienes que hacer 3 archivos :
     #incluir <QThread>
     #incluye "ttsinterface.h"
 
-    clase TTSJeedom? : Public TTSInterface
+    clase TTSJeedom : Public TTSInterface
     {
       Q_OBJECT
       Q_INTERFACES (TTSInterface)
 
-    publico?:
-      TTSJeedom? ();?
-      virtual ~ TTSJeedom? ();
-      QByteArray C?reateNewSound (QString, QString, bool);
+    public:
+      TTSJeedom();
+      virtual ~ TTSJeedom ();
+      QByteArray CreateNewSound (QString, QString, bool);
 
-    privado?:
+    private:
     };
 
     #endif
@@ -488,46 +488,46 @@ Entonces tienes que hacer 3 archivos :
     #incluir <QNetworkRequest>
     #incluir <QNetworkAccessManager>
 
-    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom?)
+    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom?::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom?::~TTSJeedom()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
-    QByteArray TTSJeedom?::CreateNewSound (texto QString, voz QString, bool forceOverwrite)
+    QByteArray TTSJeedom::CreateNewSound (texto QString, voz QString, bool forceOverwrite)
     {
       QEventLoop loop;
-      si (?!voiceList.contains (voz))
+      if(!voiceList.contains (voz))
         voz = "fr";
       // Verifique (y cree si es necesario) la carpeta de salida
       QDir outputFolder = ttsFolder;
-      si (?!outputFolder.exists (voz))
+      if(!outputFolder.exists (voz))
         outputFolder.mkdir (voz);
 
-      si (?!outputFolder.cd (voz))
+      if(!outputFolder.cd (voz))
       {
         LogError (QString ("No se puede crear la carpeta TTS : % 1 "). Arg (ttsFolder.absoluteFilePath (voz)));
         devolver QByteArray ();
       }
 
-      // C?ompute fi?leName
-      QString fi?leName = QCryptographicHash::hash (texto.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
-      QString fi?lePath = outputFolder.absoluteFilePath (fileName);
+      // Compute fileName
+      QString fileName = QCryptographicHash::hash (texto.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
+      QString filePath = outputFolder.absoluteFilePath (fileName);
 
-      si (?!forceOverwrite && QFile::existe (filePath))
-        volver ttsHTTPUrl.arg (voz, no?mbre de archivo) .toAscii ();
+      if(!forceOverwrite && QFile::existe (filePath))
+        volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
 
       // Recuperar MP3
       QHttp http ("TODO_IP_JEEDOM");
-      QObject?::connect (& http, SIGNAL (hecho (bool)), & loop, SLOT (quit ()));
+      QObject::connect (& http, SIGNAL (hecho (bool)), & loop, SLOT (quit ()));
 
-      QByteArray C?ontentData;
-      C?ontentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (texto);
+      QByteArray ContentData;
+      ContentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (texto);
 
       QHttpRequestHeader Header;
       Header.addValue ("Host", "TODO_IP_JEEDOM");
@@ -535,7 +535,7 @@ Entonces tienes que hacer 3 archivos :
       Header.setContentLength (ContentData.length ());
       Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (texto), 1, 1);
 
-      http.request (Encabezado, C?ontentData);
+      http.request (Encabezado, ContentData);
       loop.exec ();
 
       Archivo QFile (filePath);
@@ -544,9 +544,9 @@ Entonces tienes que hacer 3 archivos :
         LogError ("No se puede abrir el archivo de sonido para escribir : "+filePath);
         devolver QByteArray ();
       }
-      fi?le.write (http.readAll ());
-      fi?le.close ();
-      volver ttsHTTPUrl.arg (voz, no?mbre de archivo) .toAscii ();
+      file.write (http.readAll ());
+      file.close ();
+      volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
     }
 
 > **Note**
@@ -564,7 +564,7 @@ Recompilar
 
     cd / home / ojn / OpenJabNab / server
     qhacer -r
-    hacer?
+    make
 
 Modificación del servicio tts 
 ------------------------------

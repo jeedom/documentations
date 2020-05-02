@@ -67,9 +67,9 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz?
+-   Autoprotection
 
--   Anzeige für niedrigen Batterie?stand
+-   Anzeige für niedrigen Batteriestand
 
 -   Klein, diskret und ästhetisch
 
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung? : 1 CR123A 3V Batterie?
+-   Versorgung : 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -100,9 +100,9 @@ Technische Daten
 
 -   PIR-Erfassungsbereich : 8 bis 10 m
 
--   Abmessungen? : 28 x 96 x 23 mm
+-   Abmessungen : 28 x 96 x 23 mm
 
--   Gewicht? : 39g?
+-   Gewicht : 39g
 
 -   Betriebstemperatur : -10 bis 40 ° C.
 
@@ -119,7 +119,7 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Philio Technology Corporation
+-   Machen Sie : Philio Technology Corporation
 
 -   Name : Philio PSP01
 
@@ -181,17 +181,17 @@ Hier ist die Liste der Befehle :
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
 -   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung?
+    d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage? : Dies ist der Sabotage?befehl (er wird ausgelöst in
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
--   Batterie? : Es ist der Batterie?befehl
+-   Batterie : Es ist der Batteriebefehl
 
 \.
 
@@ -205,7 +205,7 @@ entsprechend Ihrem Modul.
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -253,7 +253,7 @@ Parameterdetails :
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
 
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterie?berichten definieren (einer
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
     Einheit = 30 Minuten)
 
 -   12: wird verwendet, um die Dauer zwischen zwei Helligkeitsberichten zu definieren
@@ -312,7 +312,7 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Lassen Sie die Sabotage?-Taste los und drücken Sie sie erneut
+-   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
 \.
 
@@ -321,7 +321,7 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der Sabotage?-Taste aktiviert.
+Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
 \.
 
@@ -329,7 +329,7 @@ Aktivieren Sie das Kontrollkästchen "Ereignis bei Änderung"".
 
 \.
 
-Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

@@ -29,7 +29,7 @@ kann es verwenden, um die Beleuchtung ein-, auszuschalten oder zu dimmen, anzupa
 die Position Ihrer Fensterläden, stellen Sie die Temperatur des Thermostats ein oder
 Verwenden Sie es als Timer.
 
-Sobald der Philio? PSR04-Switch in Ihrem Z-Wave-Netzwerk enthalten ist
+Sobald der Philio PSR04-Switch in Ihrem Z-Wave-Netzwerk enthalten ist
 muss den Geräten zugeordnet sein, die Sie steuern möchten.
 Es kann nur in direkter Verbindung mit betrieben werden
 Geräte und kann keine in Ihrem Controller erstellten Szenen starten
@@ -64,7 +64,7 @@ Funktionen
 
 -   Integrierte Timerfunktion
 
--   Wasserdicht?
+-   Etanche
 
 -   Passt sich jedem Dekorationsstil an
 
@@ -87,12 +87,12 @@ Technische Daten
 
 \.
 
--   Versorgung : Lithium Polymer 3 Batterie?.7 V, 220 mA v
-    die Batterie? : 6 Monate für 2 Stunden aufladen
+-   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v
+    die Batterie : 6 Monate für 2 Stunden aufladen
 
--   Standby-Verbrauch : 18 uA?
+-   Standby-Verbrauch : 18µA
 
--   Verbrauch in Betrieb : 45mA?
+-   Verbrauch in Betrieb : 45mA
 
 -   Frequenz : 868.42 MHz
 
@@ -114,9 +114,9 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Philio?
+-   Machen Sie : Philio
 
--   Name? : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Hersteller ID : 316
 
@@ -177,8 +177,8 @@ Hier ist die Liste der Befehle :
 -   Zustand : Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
     100%
 
--   Batterie? : Dies ist der Befehl, der den Batterie?status des
-    Modul?
+-   Batterie : Dies ist der Befehl, der den Batteriestatus des
+    module
 
 \.
 
@@ -189,7 +189,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -220,7 +220,7 @@ Parameterdetails :
 
 -   2 : definiert das höchste Terminal (Position ganz rechts)
 
--   10 : Zeitintervall für den Batterie?aufstieg
+-   10 : Zeitintervall für den Batterieaufstieg
 
 -   25 : ermöglicht zu definieren, ob das Modul seine Position sendet
     automatisch nach Drehung (1s Verzögerung) oder wenn es notwendig ist zu drücken
@@ -279,7 +279,7 @@ Faq.
 
 \.
 
-Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird nicht sein
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie das Modul aufwecken.
 
 \.

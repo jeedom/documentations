@@ -70,7 +70,7 @@ Technical characteristics
 
 \
 
--   Type?: Portable / wall mount
+-   Type: Portable / wall mount
 
 -   Temperature measurement range: ± 0.5 ° C for 0 ° C to 40 ° C
 
@@ -78,13 +78,13 @@ Technical characteristics
 
 -   Frequency : 868.42 Mhz
 
--   Food?: 2x AA batteries (LR6)
+-   Alimentation: 2x AA batteries (LR6)
 
 -   Scope : up to 100 m in free field
 
--   Protection sign : IP30?
+-   Protection sign : IP30
 
--   Dimensions? : 86 x 85 x 30 mm
+-   Dimensions : 86 x 85 x 30 mm
 
 \
 
@@ -93,13 +93,13 @@ Module data
 
 \
 
--   Mark : Horstmann?
+-   Mark : Horstmann
 
--   Name? : SES 302 Temperature Sensor
+-   Name : SES 302 Temperature Sensor
 
 -   Manufacturer ID : 89
 
--   Product Type? : 13
+-   Product Type : 13
 
 -   Product ID : 2
 
@@ -119,7 +119,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 1 second on
-> the button on the back and release, according to its paper Documentation?.
+> the button on the back and release, according to its paper Documentation.
 
 \
 
@@ -154,21 +154,21 @@ Here is the list of commands :
 
 -   Temperature : it is the temperature measurement command
 
--   Drums? : it's the battery command
+-   Drums : it's the battery command
 
 Several non visible temperatures are also available and will be
 useful if you have connected external probes
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 
@@ -206,7 +206,7 @@ external probes possibly connected
 
 \
 
-### Groups? 
+### Groups 
 
 \
 

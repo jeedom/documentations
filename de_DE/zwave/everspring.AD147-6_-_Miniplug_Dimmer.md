@@ -68,20 +68,20 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung? : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0,6 W.?
+-   Verbrauch : 0.6W
 
 -   Maximale Leistung : Widerstandslast : 250W, Glühlampe
-    : 250W, LED-Lampe (nicht dimmbar) : 6W?
+    : 250W, LED-Lampe (nicht dimmbar) : 6W
 
 -   Frequenz : 868,42 MHz
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen?: LED auf der Taste
+-   Affichage: LED auf der Taste
 
--   Abmessungen? : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm?
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
 \.
 
@@ -90,9 +90,9 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Everspring?
+-   Machen Sie : Everspring
 
--   Name? : Miniplug Dimmer
+-   Name : Miniplug Dimmer
 
 -   Hersteller ID : 96
 
@@ -151,15 +151,15 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Intensität? : Dies ist der Befehl zum Einstellen der Intensität des
-    Steckdose?
+-   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
+    prise
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
-    Steckdose?
+    prise
 
 \.
 
@@ -207,7 +207,7 @@ Parameterdetails :
 -   4 : Mit diesem Parameter können Sie festlegen, ob die Steckdose in Betrieb sein soll
     Variation oder im Ein / Aus-Modus
 
-### Gruppen? 
+### Gruppen 
 
 \.
 

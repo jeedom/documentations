@@ -1,6 +1,6 @@
 # Monitoreo en la nube
 
-## Descripción?
+## Description
 
 El monitoreo en la nube es un servicio pago de Jeedom SAS que monitorea permanentemente tus Jeedoms o tus Jeedoms y te advierte en caso de problemas.
 
@@ -19,7 +19,7 @@ Jeedom envía regularmente la información de la página de salud a nuestro serv
 De forma predeterminada, se le notifica por un correo electrónico en su correo electrónico configurado en sus perfiles, pero puede hacerlo en la configuración de la supervisión en la nube (en la página de perfiles de su mercado) : 
 
 - Poner otra dirección de correo electrónico (solo una posible)
-- Agregar una alerta en Telegram?
+- Agregar una alerta en Telegram
 - Agregue una alerta en Slack (solo proporcione la dirección de Webhook)
 - Agregue una alerta de SMS (tenga en cuenta que esto requiere que tenga crédito de SMS en el mercado)
 - Agregar una alerta por notificación (requiere la aplicación móvil) 
@@ -50,4 +50,4 @@ Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (a
 - Inteligente (probado)
 - Debian x64 Stretch (probado)
 - Debian x64 Jessie
-- RPI?
+- RPI

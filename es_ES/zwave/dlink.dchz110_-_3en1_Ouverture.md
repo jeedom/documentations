@@ -60,7 +60,7 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotección?
+-   Autoprotection
 
 -   Indicación de batería baja
 
@@ -91,12 +91,12 @@ Datos del módulo
 
 \
 
--   Hacer : D-Link?
+-   Hacer : D-Link
 
 -   Modelo : Detector de apertura de puertas y ventanas DCH-Z110
     mydlink ™ Inicio
 
--   Fabricante? : Sistema FIBARO
+-   Fabricante : Sistema FIBARO
 
 -   ID del fabricante : 264 \ [0x0108 \]
 
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos? 
+### Comandos 
 
 \
 
@@ -158,18 +158,18 @@ Aquí está la lista de comandos :
 
 \
 
--   Apertura? : es el comando que generará una detección
-    abriendo?
+-   Apertura : es el comando que generará una detección
+    d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje? : Este es el comando de sabotaje (se activa en
+-   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería? : es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -246,14 +246,14 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    Reporte?
+    rapport
 
 -   22: valor en% de variación de brillo para disparar
     un informe. Valor recomendado : 10
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

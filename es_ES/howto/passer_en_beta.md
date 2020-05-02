@@ -7,7 +7,7 @@
 >
 > Las versiones beta a menudo son inestables y pueden causar
 > muchas preocupaciones, es importante no ponerlas en un sistema de
-> produccion?. EN CASO DE PREOCUPACIÓN, EL EQUIPO JEEDOM NO SERÁ Y NO PUEDE
+> produccion. EN CASO DE PREOCUPACIÓN, EL EQUIPO JEEDOM NO SERÁ Y NO PUEDE
 > NO SER RESPONSABLE.
 
 > **Note**
@@ -15,7 +15,7 @@
 > Esta documentación no se detalla deliberadamente para que
 > la operación no es fácil. De hecho, estar en beta requiere
 > habilidades informáticas, así como descifrado de registros o
-> Documentación?.
+> Documentación.
 
 Cambiar el núcleo a beta 
 ======================

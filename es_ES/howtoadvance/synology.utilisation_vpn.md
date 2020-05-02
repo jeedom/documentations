@@ -22,7 +22,7 @@ Elija la opción Habilitar servidor VPN L2TP / IPsec
 
 En Dirección IP dinámica, ingrese un número que corresponderá al sub
 red para asignar las IP de sus dispositivos en VPN en la red interna
-desde tu lugar. NB? : no elijas lo mismo que el
+desde tu lugar. NB : no elijas lo mismo que el
 subred predeterminada de su caja ex en libre la subred de
 máquinas es 192.168.1.0 así que en el ejemplo ponemos 2
 
@@ -30,7 +30,7 @@ Luego ingrese el número máximo de conexiones que desea permitir
 en el servidor VPN, entonces el número máximo de conexiones simultáneas
 para un usuario
 
-Finalmente ingrese una clave para compartir NB? : es una contraseña que él
+Finalmente ingrese una clave para compartir NB : es una contraseña que él
 tendrá que ingresar la configuración de VPN en el móvil o tableta.
 
 Luego aplique

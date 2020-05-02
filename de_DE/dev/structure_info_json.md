@@ -4,11 +4,11 @@ Integriert seit Version 3.0 von Jeedom, der Datei **info.json** ist für das ord
 
 Die Info-Datei.json wird im Ordner / plugin_Info / Ihres Plugins gespeichert.
 
-Liste der Variablen in der Datei Info?.json
+Liste der Variablen in der Datei Info.json
 
 Mit * gekennzeichnete Felder sind Pflichtfelder.
 
-Felder                   | Werte?                                                                                                                   |
+Felder                   | Werte                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identifikation *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
 Name *                   | Name des Plugins.                                                                                                            |
@@ -33,30 +33,30 @@ Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgef
 
 **Exemple** :
 
-[Plugin-Vorlagendatei / plugin_Info / Info?.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Plugin-Vorlagendatei / plugin_Info / Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 
 
 **KATEGORIE-NOMENKLATUR**
 
-Jeedom Markt         | Info?.json               |
+Jeedom Markt         | Info.json               |
 --------------------- | ----------------------- |
-Kommunikation         | Kommunikation?           |
-Komfort               | Wellness?                |
-Energie               | Energie?                  |
+Kommunikation         | Kommunikation           |
+Komfort               | Wellness                |
+Energie               | Energie                  |
 Wetter                 | Wetter                 |
 Überwachung            | Überwachung              |
 Multimedia            | Multimedia              |
-Natur                | Natur?                  |
+Natur                | Natur                  |
 Verbundene Objekte      | Gerätekommunikation     |
-Organisation          | Organisation?            |
+Organisation          | Organisation            |
 Hausautomations-Gateway  | Hausautomationsprotokoll|
 Programmierung         | Programmierung             |
 Hausautomationsprotokoll   | Automatisierungsprotokoll     |
 Gesundheit                 | Gesundheit                  |
-Sicherheit              | Sicherheit?                |
-Automatismus           | Automatisierung?          |
+Sicherheit              | Sicherheit                |
+Automatismus           | Automatisierung          |
 
 
    

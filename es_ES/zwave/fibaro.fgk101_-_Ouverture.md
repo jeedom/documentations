@@ -43,7 +43,7 @@ conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de s
 elección como detector de humo, gas o monóxido de carbono,
 etc.
 
-Se requiere un controlador Z-Wave (control remoto, dongle, Etcétera?.) para
+Se requiere un controlador Z-Wave (control remoto, dongle, Etcétera.) para
 integre este detector en su red si ya tiene una red
 existant.
 
@@ -78,17 +78,17 @@ Características técnicas
 
 \
 
--   Punta?o de módulo : Transmisor de onda Z
+-   Tipo de módulo : Transmisor de onda Z
 
--   Color? : Blanco (FGK-101/102/103/104/105/106/107 según el color)
+-   Color : Blanco (FGK-101/102/103/104/105/106/107 según el color)
 
--   Suministro? : Batería ER14250 (1 / 2AA) 3.6V
+-   Suministro : Batería ER14250 (1 / 2AA) 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones?: 76 x 17 x 19 mm
+-   Dimensions: 76 x 17 x 19 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -99,13 +99,13 @@ Datos del módulo
 
 \
 
--   Hacer? : Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre?bre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
+-   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
 -   ID del fabricante : 271
 
--   Punta?o de producto : 1792
+-   Tipo de producto : 1792
 
 -   ID del producto : 4096
 
@@ -159,10 +159,10 @@ Aquí está la lista de comandos :
 \
 
 -   Estado : es el comando que elevará el estado abierto o cerrado del
-    Modulo?
+    module
 
 -   Batería : es el comando que permite subir el estado del
-    batería?
+    batterie
 
 \
 
@@ -177,7 +177,7 @@ Puede ocultar o mostrar estos comandos como desee.
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 
@@ -235,7 +235,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

@@ -36,7 +36,7 @@ Aktivierung des virtualHost- und SSL-Moduls
 > Schließen Sie SSH an der Jeedom-Box an.
 
     a2enmod ssl
-    a2ensite default-ssl?.conf
+    a2ensite default-ssl.conf
     apache2 Neustartdienst
 
 > **Note**
@@ -54,7 +54,7 @@ werden vom Skript in Apache hinzugefügt.
 >
 > Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
 > Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
-> Befehl? **a2dissite default-ssl?.conf** Denken Sie daran, den Code bis zu melden
+> Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
 > Erneuerung :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
@@ -67,7 +67,7 @@ werden vom Skript in Apache hinzugefügt.
     </Directory>
     </VirtualHost>
 
-Konfiguration von Nginx? 
+Konfiguration von Nginx 
 ======================
 
 Dieser Befehl darf nur verwendet werden, wenn Sie einen Webserver haben
@@ -77,7 +77,7 @@ Nginx.
 
 Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
 sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen
-zwei HTTPS-Konfigurationszeilen in der Nginx?-Konfiguration :
+zwei HTTPS-Konfigurationszeilen in der Nginx-Konfiguration :
 
     vi / etc / nginx / sites-enabled / default
 
@@ -94,9 +94,9 @@ Fügen Sie die folgenden Zeilen zwischen den Zeilen `server {` und ein
 
     ssl_session_timeout 5m;
 
-Und schließlich starten Sie den Nginx?-Server neu.
+Und schließlich starten Sie den Nginx-Server neu.
 
-    Service Nginx? Neustart
+    Service Nginx Neustart
 
 Erneuerung 
 ==============
@@ -118,7 +118,7 @@ Schritte zu folgen :
 
 <!-- -->
 
-    apt-get install -y bc?
+    apt-get install -y bc
 
 -   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei).
     :
@@ -170,7 +170,7 @@ Schritte zu folgen :
 > <https://crontab.guru/#0_5_*_*_1>
 
 -   Speichern Sie die Datei und beenden Sie den Texteditor mit
-    Sichern? :
+    Sichern :
 
 <!-- -->
 

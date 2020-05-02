@@ -75,7 +75,7 @@ precisely here : core / class /
     the repository where I am (core, see Small 1)
 
 3. So we have our * history.class file.php * - We click on the
-    File?
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
@@ -116,7 +116,7 @@ So I delete the block then I replace it.
 Then on the lower part we find this : 1. We indicate a title
 explicit if possible 2. We enter a slightly more precise description
 (in my case, it would be too long, the link to the forum will be more
-speaking) 3. We make sure it is ticked like this 4. We commit? =
+speaking) 3. We make sure it is ticked like this 4. We commit =
 Submit the change
 
 ![tuto.github8](images/tuto.github8.png)

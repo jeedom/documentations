@@ -82,7 +82,7 @@ Technical characteristics
 
 -   Transmission distance : 30m indoors
 
--   Dimensions? : 55 x 30 x 11mm (L x W x H)
+-   Dimensions : 55 x 30 x 11mm (L x W x H)
 
 \
 
@@ -91,7 +91,7 @@ Module data
 
 \
 
--   Mark : Aeotec?
+-   Mark : Aeotec
 
 -   Name : Panic Button
 
@@ -117,7 +117,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> LEARN, in accordance with its paper Documentation?.
+> LEARN, in accordance with its paper Documentation.
 
 \
 
@@ -150,7 +150,7 @@ Here is the list of commands :
 
 \
 
--   Buttons? : it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 1 : Short press button
 
@@ -165,7 +165,7 @@ Here is the list of commands :
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 

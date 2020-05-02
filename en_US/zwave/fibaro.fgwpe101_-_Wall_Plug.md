@@ -27,7 +27,7 @@ Summary
 The Fibaro Wall Plug is a universal receiver-socket-transmitter under
 form of an adapter to plug into a wall outlet to the network
 electric, compatible with Z-Wave standard. It allows you to manage
-any device with a maximum power of 2.5kW?, while
+any device with a maximum power of 2.5kW, while
 integrating the functionality of measuring the active power of the current and
 energy consumption of devices. This module is equipped with a
 light ring with LEDs indicating its status and consumption
@@ -46,7 +46,7 @@ Functions
 
 -   Microchip control.
 
--   Execution element: Relay?.
+-   Execution element: Relay.
 
 -   Measurement of active power of current and electrical energy
     of the receiver.
@@ -64,17 +64,17 @@ Technical characteristics
 
 -   Power consumption : up to 0.8W
 
--   Max load : 2.5kW?
+-   Max load : 2.5kW
 
 -   Frequency : 868.42 Mhz EU
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions?: 17 x 42 x 37 mm
+-   Dimensions: 17 x 42 x 37 mm
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105 ° C?
+-   Limit temperature : 105°C
 
 -   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
@@ -85,7 +85,7 @@ Module data
 
 \
 
--   Mark? : Fibar Group
+-   Mark : Fibar Group
 
 -   Name : Wall Plug FGWPE-101
 
@@ -111,7 +111,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation?.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -144,14 +144,14 @@ Here is the list of commands :
 
 \
 
--   State? : It is the command which allows to know the status of the
-    Outlet?
+-   State : It is the command which allows to know the status of the
+    prise
 
 -   We : This is the command that turns on the outlet
 
--   Off? : It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
--   Power? : This is the command that brings up the instantaneous power
+-   Power : This is the command that brings up the instantaneous power
     consumed
 
 -   Consumption : It is the order which reports the total consumption
@@ -199,7 +199,7 @@ Parameter details :
 -   1: allows to block the module in always ON
 
 -   16: allows you to remember the last state in the event of a power cut
-    Current?
+    courant
 
 -   34: allows you to choose the type of alarm on the Zwave network
     must react
@@ -222,7 +222,7 @@ Parameter details :
     of a variation
 
 -   49: take into account the consumption of the module itself in the
-    Values?
+    valeurs
 
 -   50: minimum value used by param 52
 
@@ -244,7 +244,7 @@ Parameter details :
 
 \
 
-### Groups? 
+### Groups 
 
 \
 
@@ -262,7 +262,7 @@ Good to know
 
 \
 
-### Reset? 
+### Reset 
 
 \
 
@@ -298,7 +298,7 @@ Faq.
 
 \
 
-Read the Reset? section of this doc.
+Read the Reset section of this doc.
 
 \
 

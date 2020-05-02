@@ -1,4 +1,4 @@
-SmartHome von Everspring In Wall Ein? Aus - AN179-0 
+SmartHome von Everspring In Wall Ein Aus - AN179-0 
 ================================================
 
 \.
@@ -78,18 +78,18 @@ Technische Daten
 
 -   Versorgung : 230 V, 50 Hz
 
--   Verbrauch : 0,5 W.?
+-   Verbrauch : 0.5W
 
 -   Maximale Leistung : Widerstandslast : 2500W Glühlampe
-    : 1200W Kompaktleuchtstofflampe : 320W?
+    : 1200W Kompaktleuchtstofflampe : 320W
 
 -   Frequenz : 868,42 MHz
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen?: LED auf der Taste
+-   Affichage: LED auf der Taste
 
--   Abmessungen? : 42 mm x 43 mm x 16 mm
+-   Abmessungen : 42 mm x 43 mm x 16 mm
 
 \.
 
@@ -100,7 +100,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name? : In Wall Ein? Aus?
+-   Name : In Wall Ein Off
 
 -   Hersteller ID : 96
 
@@ -142,7 +142,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -159,11 +159,11 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Ein? : Es ist die Steuerung, die das Licht einschaltet
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand? : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 \.

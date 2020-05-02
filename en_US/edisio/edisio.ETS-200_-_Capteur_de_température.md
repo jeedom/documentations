@@ -45,24 +45,24 @@ Technical characteristics
 
 -   Food : 3VDC (Lithium Battery ER14250)
 
--   Autonomy? : Up to 3 years
+-   Autonomy : Up to 3 years
 
 -   Frequency : 868.3 MHz
 
 -   Operating temperature : 0 ° C + 45 ° C
 
--   Range in free field : 100M?
+-   Range in free field : 100M
 
--   Dimensions? : 25x79x19mm
+-   Dimensions : 25x79x19mm
 
--   Degree of protection : IP20?
+-   Degree of protection : IP20
 
 Module data 
 =================
 
--   Mark? : Edisio Smart Home
+-   Mark : Edisio Smart Home
 
--   Name? : ETS-200?
+-   Name : ETS-200
 
 General configuration 
 ======================
@@ -136,7 +136,7 @@ available :
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication? : Indicates the last communication recorded between
+-   Communication : Indicates the last communication recorded between
     Jeedom and the micro-module
 
 -   Drums : Indicates the battery status of the battery modules

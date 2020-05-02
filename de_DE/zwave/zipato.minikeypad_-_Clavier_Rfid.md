@@ -44,7 +44,7 @@ Funktionen
 
 \.
 
--   Code?- und RFID-Tastatur
+-   Code- und RFID-Tastatur
 
 -   Unterstützt die Z-Wave-Technologie
 
@@ -52,7 +52,7 @@ Funktionen
 
 -   Zugangskontrolle durch Lesen von RFID-Ausweisen
 
--   Zugangskontrolle über die Code?tastatur
+-   Zugangskontrolle über die Codetastatur
 
 -   Manipulationsschutz
 
@@ -70,7 +70,7 @@ Technische Daten
 
 -   Typ : Z-Wave-Slave
 
--   Versorgung : 2x AA 1,5V Batterie?n
+-   Versorgung : 2x AA 1,5V Batterien
 
 -   Frequenz : 868.42 MHz
 
@@ -78,7 +78,7 @@ Technische Daten
 
 -   RFID-Protokoll : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Summer? : 60 dBa in 10 cm Entfernung
+-   Summer : 60 dBa in 10 cm Entfernung
 
 -   Lagertemperatur : -5 ° C bis + 65 ° C.
 
@@ -90,7 +90,7 @@ Technische Daten
 
 -   Abmessungen : 62 x 62 x 20 mm
 
--   Zertifizierungen? : Sicherheit : UL EMC : FCC, CE RoHS
+-   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
 
 \.
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Zipato?
+-   Machen Sie : Zipato
 
--   Name : Zipato? Mini Keypad RFID
+-   Name : Zipato Mini Keypad RFID
 
 -   Hersteller ID : 151
 
@@ -143,7 +143,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -163,13 +163,13 @@ Hier ist die Liste der Befehle :
 -   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
     für zu Hause)
 
--   Sabotage? : Dies ist der Sabotage?befehl (er wird ausgelöst in
+-   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
--   Code? : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code? eingegeben wurde
+-   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
     ist nicht in einer der Erinnerungen
 
--   Batterie? : Es ist der Batterie?befehl
+-   Batterie : Es ist der Batteriebefehl
 
 \.
 
@@ -180,7 +180,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -212,7 +212,7 @@ Parameterdetails :
 -   2: Widerrufsfrist (nicht zu ändern)
 
 -   3: Rückkehr per Piepton : Ermöglicht das Aktivieren oder Nicht-Aktivieren einer Reihe von 8 Signaltönen
-    nach Erkennung eines Ausweises / Code?s
+    nach Erkennung eines Ausweises / Codes
 
 -   4: Anzahl der Pieptöne pro Sekunde (nicht ändern hat keine Auswirkung)
 
@@ -221,7 +221,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 
@@ -238,7 +238,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
 > mindestens mit Gruppe 1 verbunden sein.
 
-### Abzeichen / Code?s 
+### Abzeichen / Codes 
 
 \.
 
@@ -250,7 +250,7 @@ Auf der Ausrüstungsseite befindet sich eine Registerkarte Assistent.
 
 \.
 
-Auf diese Weise können Sie Code?s hinzufügen. Dort sehen Sie eine Tabelle.
+Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 \.
 
@@ -259,24 +259,24 @@ Auf diese Weise können Sie Code?s hinzufügen. Dort sehen Sie eine Tabelle.
 \.
 
 -   In dieser Tabelle können Sie die auf Ihrem Computer belegten Speicher anzeigen
-    Tastatur?
+    clavier
 
--   Um einen neuen Code? zu registrieren, klicken Sie auf die grüne Schaltfläche auf der
+-   Um einen neuen Code zu registrieren, klicken Sie auf die grüne Schaltfläche auf der
     gewünschter Speicher und folgen Sie den Schritten
 
--   Um einen Code? zu löschen, klicken Sie einfach auf die rote Schaltfläche.
+-   Um einen Code zu löschen, klicken Sie einfach auf die rote Schaltfläche.
 
--   Es ist unmöglich, denselben Code? / dasselbe Abzeichen in zwei Speichern zu speichern
+-   Es ist unmöglich, denselben Code / dasselbe Abzeichen in zwei Speichern zu speichern
     anders
 
 -   Es ist (aus Sicherheitsgründen) unmöglich, den Wert von a zu lesen
-    registrierter Code?
+    registrierter Code
 
 \.
 
 > **Important**
 >
-> Denken Sie daran, das Modul nach dem Hinzufügen eines Code?s oder Ausweises zu aktivieren.
+> Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
 \.
 
@@ -290,7 +290,7 @@ Anwendungsbeispiele
 \.
 
 Der Auslöser ist der Ereignisbefehl, tatsächlich ist dies der Fall
-wird nur aktualisiert, wenn ein gültiger Code? / Ausweis vorgelegt wurde. Wenn die
+wird nur aktualisiert, wenn ein gültiger Code / Ausweis vorgelegt wurde. Wenn die
 Wert ist 6 (home) Wir deaktivieren den Alarm (zum Beispiel) oder schalten den ein
 Mehrfachsteckdose, wir schalten das Licht je nach Helligkeit ein, die wir senden
 eine Benachrichtigung, um zu melden, dass jemand zurückgekehrt ist, starten wir eine
@@ -309,12 +309,12 @@ Gut zu wissen
 
 \.
 
-Die Tastatur liest Code?s / Ausweise auf zwei Arten :
+Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
 \.
 
 -   wenn Sie für die ersten 1 bis 2 nach Hause / weg drücken
-    Sekunden, wenn Sie anfangen, einen Code? einzugeben, wird dieser Code? gelesen
+    Sekunden, wenn Sie anfangen, einen Code einzugeben, wird dieser Code gelesen
 
 -   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, beginnt es
     Lesemodus für RFID-Ausweise (rotes Licht an). Zu dieser Zeit
@@ -331,7 +331,7 @@ Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
 \.
 
--   Drücken Sie die Sabotage?taste und lassen Sie sie nach 1 bis 2 Sekunden los
+-   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
 
 -   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 
@@ -342,13 +342,13 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der Sabotage?-Taste und aktiviert
+Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
 entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
 Enter.
 
 \.
 
-Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

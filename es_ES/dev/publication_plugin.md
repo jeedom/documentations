@@ -6,16 +6,16 @@
 - A la espera de la validación de la cuenta de mercado como desarrollador
 - Tenga su complemento en github (depósito privado o no)
 
-## Configuración?
+## Configuration
 
 Una vez conectado con su cuenta de desarrollador en el mercado, debe : 
 
 - haga clic en el mercado y luego agregue
 - complete la información en su complemento : 
   - Principal : 
-    - Precio?
+    - Prix
     - Id (el que está en el archivo info.json)
-    - Nombre?
+    - Nom
     - Categoría
     - Si es privado o no comenzar
   - Documentación y enlaces
@@ -23,7 +23,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - Las lenguas
     - hardware compatible
     - una nota sobre el uso si es necesario
-  - Github? : aquí es donde colocará la información entre el mercado y Github?
+  - Github : aquí es donde colocará la información entre el mercado y Github
     - el token (solo se pone si su complemento está en un depósito privado)
     - tu nombre de usuario github
     - el nombre del repositorio en github
@@ -31,9 +31,9 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     
    Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
    
-   - Beta?
-   - Estable?
+   - beta
+   - stable
    - pro (es inútil en el 99% de los casos)
-   - Estable?v3 (próximamente)
+   - stablev3 (próximamente)
    
    La sincronización se realiza automáticamente todos los días a las 12:10 (tenga en cuenta la cantidad de complementos y restricciones de llamadas después de que la actualización comience a las 12:10, pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo de complemento

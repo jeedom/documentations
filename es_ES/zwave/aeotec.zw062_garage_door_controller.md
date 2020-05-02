@@ -1,4 +1,4 @@
-Controlador de puerta de garaje Aeotec? 
+Controlador de puerta de garaje Aeotec 
 ====================================
 
 \
@@ -51,7 +51,7 @@ Funciones
 
 -   Alertas audibles y visuales de apertura / cierre.
 
--   Volumen?n de alarma ajustable (105 dB máx.)
+-   Volumen de alarma ajustable (105 dB máx.)
 
 -   Puerto USB para cargar sus propios sonidos MP3.
 
@@ -79,14 +79,14 @@ Características técnicas
 
 -   Tipo de módulo : Receptor y transmisor de la serie Z-Wave + 500
 
--   Suministro? : Actuador? : Sensor de 5 V CC (adaptador incluido) : Pila?
+-   Suministro : Actuador : Sensor de 5 V CC (adaptador incluido) : Pile
     Litio 3V 800mA CR2
 
--   Consumo en espera : 1W?
+-   Consumo en espera : 1W
 
--   Consumo de alarma : 2W?
+-   Consumo de alarma : 2W
 
--   Volumen?n máximo : 105 dB
+-   Volumen máximo : 105 dB
 
 -   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320 Kbps
 
@@ -98,7 +98,7 @@ Características técnicas
 
 -   Humedad de funcionamiento : 80%
 
--   Certificaciones?: FCC, UL, CE, ROHS
+-   Certifications: FCC, UL, CE, ROHS
 
 \
 
@@ -107,9 +107,9 @@ Datos del módulo
 
 \
 
--   Hacer? : Aeotec?
+-   Hacer : Aeotec
 
--   Nombre? : Controlador de puerta de garaje (ZW062)
+-   Nombre : Controlador de puerta de garaje (ZW062)
 
 -   ID del fabricante : 134
 
@@ -168,13 +168,13 @@ Aquí está la lista de comandos :
 
 -   Abrir / cerrar : Abrir, cerrar o detener la puerta del garaje..
 
--   Posición? : Posición actual de la puerta del garaje.
+-   Posición : Posición actual de la puerta del garaje.
 
--   Volumen?n : Volumen?n actual del altavoz.
+-   Volumen : Volumen actual del altavoz.
 
 -   Temperatura : Temperatura de zona, sin ascenso automático.
 
--   Sabotaje? : Estado de sabotaje de texto.
+-   Sabotaje : Estado de sabotaje de texto.
 
 \
 

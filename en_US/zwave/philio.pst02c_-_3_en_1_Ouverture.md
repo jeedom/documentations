@@ -68,7 +68,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection?
+-   Autoprotection
 
 -   Low battery indication
 
@@ -85,7 +85,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food? : 1 CR123A 3V battery
+-   Food : 1 CR123A 3V battery
 
 -   Battery life : 3 years (for 14 trips per day)
 
@@ -97,13 +97,13 @@ Technical characteristics
 
 -   Brightness sensor : 0 to 500 lux
 
--   Dimensions? :
+-   Dimensions :
 
 -   Detector : 28 x 96 x 23 mm
 
--   Magnet? : 10 x 50 x 12 mm
+-   Magnet : 10 x 50 x 12 mm
 
--   Weight : 52g?
+-   Weight : 52g
 
 -   Operating temperature : -10 to 40 ° C
 
@@ -122,7 +122,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name? : PST02-C Door / Window 3 in 1 sensor
+-   Name : PST02-C Door / Window 3 in 1 sensor
 
 -   Manufacturer ID : 316
 
@@ -146,7 +146,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation?.
+> inclusion button, according to its paper Documentation.
 
 \
 
@@ -179,13 +179,13 @@ Here is the list of commands :
 
 \
 
--   Opening? : it is the command which will raise a detection
-    opening?
+-   Opening : it is the command which will raise a detection
+    d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness? : it is the command which makes it possible to raise the brightness
+-   Brightness : it is the command which makes it possible to raise the brightness
 
 -   Drums : it's the battery command
 
@@ -198,7 +198,7 @@ Here is the list of commands :
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion?.
+> inclusion.
 
 \
 
@@ -237,13 +237,13 @@ Parameter details :
     group 2
 
 -   5: operating mode (see the
-    manufacturer Documentation?) Recommended value : 8
+    manufacturer documentation) Recommended value : 8
 
 -   6: multi-sensor operating mode (see the
-    manufacturer Documentation?) Recommended value : 4
+    manufacturer documentation) Recommended value : 4
 
 -   7: personalized multi-sensor operating mode (see
-    on the manufacturer's Documentation?) Recommended value : 20 (for
+    on the manufacturer's documentation) Recommended value : 20 (for
     have the functional opening)
 
 -   9: allows to define after how long the OFF signal will be
@@ -265,14 +265,14 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report?
+    rapport
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
 \
 
-### Groups? 
+### Groups 
 
 \
 

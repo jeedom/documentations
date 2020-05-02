@@ -1,6 +1,6 @@
 # Materiales
 
-Hardware | Estado? | Observaciones?
+Hardware | Estado | Remarques
 --- | --- | ---
 Jeedomboard             | Estable                  |
 Colibrí            | Estable                  |
@@ -15,64 +15,64 @@ VMware                  | Estable                  | No hay soporte para VMware,
 
 El equipo de jeedom lo recomienda (según su presupuesto) :
 
-- Jeedom INTELIGENTE? (todo está preinstalado, no tiene que hacer nada)
+- Jeedom INTELIGENTE (todo está preinstalado, no tiene que hacer nada)
 - Odroid C2 (mejor relación rendimiento / precio)
 - Intel Nuc gen (rendimiento extremo, consulte la categoría de tutoriales para la elección en diferentes modelos e instalación)
-- RPI4?
+- RPI4
 
-#  Imágenes?
+#  Images
 
 Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com/)
 
-| Imágenes         | Hardware?       | Estado?           | Acceso SSH      | Observaciones      |
+| Imágenes         | Hardware       | Estado           | Acceso SSH      | Observaciones      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard?    | Jeedomboard? y | Estable         | root / Mjeedom96 |                |
+| Jeedomboard    | Jeedomboard y | Estable         | root / Mjeedom96 |                |
 |                | colibrí   |                |                |                |
-| Estibador?         |                | Beta?           | root / Mjeedom96 |                |
+| Estibador         |                | Beta           | root / Mjeedom96 |                |
 
 
 Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [Doctor](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid, ...)
 
-#  Software?
+#  Logiciel
 
 > **Important**
 >
 > Jeedom solo es compatible con Debian Jessie (no recomendado), Stretch (no recomendado) y Buster (estable). Jeedom no admite ninguna otra versión (Wheezy ...) o distribución (Ubuntu ...)..
 
-| Nombre?bre                     | Estado?                    | Observaciones                |
+| Nombre                     | Estado                    | Observaciones                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 o menos        | No compatible            |                          |
 | PHP 5.6                 | Estable                  |                          |
 | PHP 7.X                 | Estable                  |                          |
 | Mysql 5.5 / 5.6           | Estable                  |                          |
 | Mysql 5.7               | Estable                  |                          |
-| MariaBD?                 | Estable                  |                          |
+| MariaBD                 | Estable                  |                          |
 
 
-# Bluetooth?
+# Bluetooth
 
-Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/blea/equipement.compatible) Módulos Bluetooth? compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/blea/equipement.compatible) Módulos Bluetooth compatibles con Jeedom
 
 # Cámaras
 
 Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/camera/equipement.compatible) Cámaras compatibles con Jeedom
 
-# Edisio?
+# Edisio
 
-Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/edisio/equipement.compatible) Módulos Edisio? compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/edisio/equipement.compatible) Módulos Edisio compatibles con Jeedom
 
-# EnOcean?
+# EnOcean
 
 Controlador ENOCEAN :
 
--   Llave USB EnOcean? USB300
--   Memoria USB EnOcean? USB310 (recomendada)
+-   Llave USB EnOcean USB300
+-   Memoria USB EnOcean USB310 (recomendada)
 
-Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) Módulos EnOcean? compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) Módulos EnOcean compatibles con Jeedom
 
-# RFXcom?
+# RFXcom
 
-Controlador RFXcom? :
+Controlador RFXcom :
 
 -   RFXtrx433 USB
 -   RFXtrx433E USB (recomendado)
@@ -85,20 +85,20 @@ Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/rfxcom/equipement.com
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G inalámbrico
 
-# Zigbee?
+# Zigbee
 
-Controlador Zigbee? :
+Controlador Zigbee :
 
 - [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
 
-Encontrarás la lista [aquí](https://phoscon.de/en/conbee/compatible) Módulos Zigbee? compatibles con Jeedom
+Encontrarás la lista [aquí](https://phoscon.de/en/conbee/compatible) Módulos Zigbee compatibles con Jeedom
 
-# Zwave?
+# Zwave
 
 Controlador Z-Wave :
 
 -   DISEÑOS SIGMA Controlador USB Z-Wave Plus
--   Onda Z?.ME - Mini controlador USB Z-Wave Plus UZB1
+-   Onda Z.ME - Mini controlador USB Z-Wave Plus UZB1
 -   Controlador AEON LABS Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Controlador USB Z-Wave Plus Z-Stick GEN5 (recomendado)
 

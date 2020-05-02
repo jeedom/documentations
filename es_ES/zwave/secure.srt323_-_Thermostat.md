@@ -87,7 +87,7 @@ Características técnicas
 
 -   Algoritmo TPI integrado
 
--   Relé?: 3 (1) A 230V CA
+-   Relai: 3 (1) A 230V CA
 
 -   Rango de temperatura ajustable: 5 ° C a 30 ° C
 
@@ -99,7 +99,7 @@ Características técnicas
 
 -   Alcance : hasta 50 m en campo abierto
 
--   Indice de PROTECCION : IP30?
+-   Indice de PROTECCION : IP30
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer : Horstmann?
+-   Hacer : Horstmann
 
--   Nombre? : SRT 323 Termostato ambiental electrónico y temperatura
+-   Nombre : SRT 323 Termostato ambiental electrónico y temperatura
 
 -   ID del fabricante : 89
 
@@ -168,7 +168,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos? 
+### Comandos 
 
 \
 
@@ -234,7 +234,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos? 
+### Grupos 
 
 \
 

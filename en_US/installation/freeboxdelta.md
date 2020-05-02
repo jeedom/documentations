@@ -17,7 +17,7 @@ Configure features. We recommend that you put 2 CPUs and the maximum in RAM.
 
 ![delta3](images/delta3.png)
 
-Configure user and not?sword, **they must be kept in memory they will be asked for during an SSH connection**:
+Configure user and password, **they must be kept in memory they will be asked for during an SSH connection**:
 ![delta4](images/delta4.png)
 
 ## Loading installation
@@ -36,6 +36,6 @@ Born **pas** check "Screen", this is useless on the Jeedom image (apart from ove
 
 The IP address of your Jeedom on the Freebox Delta is written at the top, under its name.
 
-The default login and not?sword are admin / admin when you access jeedom via your browser.
+The default login and password are admin / admin when you access jeedom via your browser.
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index.html)

@@ -15,7 +15,7 @@ Here are some useful packages to put on a blank installation :
 
 <!-- -->
 
-    apt-get install -y vim? fail2ban net-tools? dos2unix
+    apt-get install -y vim fail2ban net-tools dos2unix
 
 If yor are on VMware, yor can add additional tools
 :
@@ -131,7 +131,7 @@ MYSQL, under Stretch :
     MariaDB [mysql]> GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
     Query OK, 0 rows affected (0.00 sec)
     MariaDB [mysql]> exit;
-    Bye?
+    Bye
 
 > **Tip**
 >
@@ -168,7 +168,7 @@ ou
 -   Restore rights to www-data on all Jeedom :
     `chown -R www-data: / var / www / html / `
 
--   Restart the box : `reboot`?
+-   Restart the box : `reboot`
 
 -   Connect to Jeedom with your old identifiers via
     web interface

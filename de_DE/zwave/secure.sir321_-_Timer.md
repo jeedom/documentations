@@ -64,16 +64,16 @@ Technische Daten
 
 \.
 
--   Typ?: Elektronischer Timer
+-   Type: Elektronischer Timer
 
--   Relais?: 13 (3) A, 230 V AC, geeignet für Lasten bis
-    3kW?
+-   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis
+    3kW
 
--   Versorgung?: 230 V AC, 50 Hz
+-   Alimentation: 230 V AC, 50 Hz
 
 -   Abmessungen 85x85x44mm
 
--   Schutzindex : IP30?
+-   Schutzindex : IP30
 
 -   Betriebstemperatur: 0 ° C bis 35 ° C.
 
@@ -84,9 +84,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Horstmann?
+-   Machen Sie : Horstmann
 
--   Name? : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Hersteller ID : 89
 
@@ -126,7 +126,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -143,9 +143,9 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Ein? : Dies ist der Befehl zum Einschalten des Relais?
+-   Ein : Dies ist der Befehl zum Einschalten des Relais
 
--   Aus? : Es ist der Befehl, das Relais? auszuschalten
+-   Aus : Es ist der Befehl, das Relais auszuschalten
 
 -   Temperatur : Dies ist der Temperaturmessbefehl, wenn a
     externe Sonde ist vorhanden
@@ -190,7 +190,7 @@ Parameterdetails :
     Das Modul sendet es an Jeedom (in Schritten von 0).1 10- → 0,1)
 
 -   5: Hier können Sie eine Abschalttemperatur einstellen, über der
-    Das Modul schaltet das Relais? ab
+    Das Modul schaltet das Relais ab
 
 \.
 

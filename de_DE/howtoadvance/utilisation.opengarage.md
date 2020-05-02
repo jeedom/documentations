@@ -17,9 +17,9 @@ Verwendung ist :
 Das Ergebnis ist ein Json. Verwenden Sie also Geräte
 Skript- und Infobefehl vom Typ json
 
-Für den Status des Relais der Name der Eigenschaft des JSON : Tür?
+Für den Status des Relais der Name der Eigenschaft des JSON : door
 
-Für den Abstandssensor : dist?
+Für den Abstandssensor : dist
 
 Aktion auf OpenGarage 
 ========================

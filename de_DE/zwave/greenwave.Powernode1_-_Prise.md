@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Das PowerNode-Steckermodul von Grünwelle? ist ein intelligentes Gerät, das
+Das PowerNode-Steckermodul von Grünwelle ist ein intelligentes Gerät, das
 verbindet sich mit einem Ihrer Haushaltsgeräte und Elektronik zu
 Mit dieser Funktion können Sie den Stromverbrauch bei überwachen und steuern
 Entfernung über Webbrowser oder Smartphone.
@@ -91,9 +91,9 @@ Technische Daten
 
 \.
 
--   Versorgung? : 250 V AC, 50 Hz
+-   Versorgung : 250 V AC, 50 Hz
 
--   Maximaler Ladestrom : 10A?
+-   Maximaler Ladestrom : 10A
 
 -   Maximale Lastleistung : 2400 W (bei 240 V)
 
@@ -101,13 +101,13 @@ Technische Daten
 
 -   Messgenauigkeit : ± 0,1 W.
 
--   Überstromschutz : 10A? interne Sicherung
+-   Überstromschutz : 10A interne Sicherung
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868,42 MHz?
+-   Z-Wave-Radiofrequenz : 868.42MHz
 
--   Maximale Reichweite Z-Wave : 30m?
+-   Maximale Reichweite Z-Wave : 30m
 
 -   Betriebstemperatur : 0 ° C bis + 25 ° C.
 
@@ -115,7 +115,7 @@ Technische Daten
 
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
 
--   IP-Klasse (Feuchtigkeitstoleranz) : IP20?
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
 \.
 
@@ -124,9 +124,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Grünwelle?
+-   Machen Sie : GreenWave
 
--   Name? : Grünwelle? \ [1 x Stecker \]
+-   Name : Grünwelle \ [1 x Stecker \]
 
 -   Hersteller ID : 153
 
@@ -166,7 +166,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -183,17 +183,17 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand? : Es ist der Befehl, mit dem der Status des
-    Steckdose?
+-   Zustand : Es ist der Befehl, mit dem der Status des
+    prise
 
--   Ein? : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus? : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 -   Macht : Es ist die Steuerung, die die momentane Kraft erhöht
     verbraucht
 
--   Verbrauch? : Es ist die Bestellung, die den Gesamtverbrauch angibt
+-   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
 
 \.
 
@@ -242,7 +242,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 
@@ -265,7 +265,7 @@ Umfragen zur Steigerung des Verbrauchs.
 
 \.
 
-### Zurücksetzen? 
+### Zurücksetzen 
 
 \.
 

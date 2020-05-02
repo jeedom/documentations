@@ -3,7 +3,7 @@
 Jeedom can be installed on different hardware components :
 
 -   a Raspberry pi 2 or 3
--   Synology? NAS
+-   Synology NAS
 -   any Linux system based on Debian 9 (stretch)
 -   Freebox Delta
 
@@ -37,7 +37,7 @@ A total of € 125 for an open source home automation box with complete control 
 >
 > Service pack ? What is it ? You can see [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
-# Setup?
+# Installation
 
 I want to install Jeedom :
 
@@ -47,7 +47,7 @@ I want to install Jeedom :
 - on a [Freebox Delta](https://doc.jeedom.com/en_US/installation/freeboxdelta)
 - on a [command line](https://doc.jeedom.com/en_US/installation/cli)
 - on a [VM](https://doc.jeedom.com/en_US/installation/vm)
-- on a [Docker](https://doc.jeedom.com/en_US/installation/docker). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker? network mode
-- on a [Synology](https://doc.jeedom.com/en_US/installation/synology). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker? network mode
+- on a [Docker](https://doc.jeedom.com/en_US/installation/docker). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
+- on a [Synology](https://doc.jeedom.com/en_US/installation/synology). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
 
 Once installation do not forget to consult the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

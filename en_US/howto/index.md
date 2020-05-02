@@ -1,4 +1,4 @@
-# Summary?
+# Sommaire
 
 - [Manually update Jeedom](/en_US/howto/jeedom.mise_a_jour_manuel)
 - [Go jeedom or plugin in beta](/en_US/howto/passer_en_beta)
@@ -8,7 +8,7 @@
 - [How to backup](/en_US/howto/sauvegarde.comment_faire)
 - [How to restore a backup](/en_US/howto/sauvegarde.comment_recuperer)
 
-## Archive?
+## Archive
 
 - [WiFi key on mini](/en_US/howto/mini.clef_wifi)
 - [Quick start guide](/en_US/howto/mini.demarrage)

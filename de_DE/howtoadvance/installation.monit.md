@@ -25,10 +25,10 @@ Apache Aufsicht
         stop program = "/ etc / init.d / apache2 stop"
            Wenn Port 80 für 2 Zyklen ausgefallen ist, starten Sie ihn neu
 
-Nginx-Aufsicht (einschließlich Php-fpm?) 
+Nginx-Aufsicht (einschließlich Php-fpm) 
 =====================================
 
-    # Php-fpm?
+    # Php-fpm
     Überprüfen Sie den Prozess php5-fpm mit pidfile /var/run/php5-fpm.pid
        start program = "/ etc / init.d / php5-fpm start"
        stop program = "/ etc / init.d / php5-fpm stop"

@@ -66,7 +66,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Farbe? : Weiß?
+-   Farbe : Blanc
 
 -   Versorgung : 230 V, 50 Hz
 
@@ -78,9 +78,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 30 m
 
--   Abmessungen? : 86 x 86 x 43 mm
+-   Abmessungen : 86 x 86 x 43 mm
 
--   Anzeigen?: Blaue / rote LED
+-   Affichage: Blaue / rote LED
 
 \.
 
@@ -91,7 +91,7 @@ Moduldaten
 
 -   Machen Sie : MC HOME
 
--   Name? : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Hersteller ID : 351
 

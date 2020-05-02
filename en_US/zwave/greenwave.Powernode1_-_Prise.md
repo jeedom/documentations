@@ -78,7 +78,7 @@ Functions
 -   Possibility of assigning it a number and a color in order to
     differentiate between the different PowerNodes of the same installation
 
--   We? / Off? button directly on the socket
+-   We / Off button directly on the socket
 
 -   Overcurrent protection
 
@@ -91,9 +91,9 @@ Technical characteristics
 
 \
 
--   Food? : 250V AC, 50Hz
+-   Food : 250V AC, 50Hz
 
--   Maximum charge current : 10A?
+-   Maximum charge current : 10A
 
 -   Maximum load power : 2400W (@ 240V)
 
@@ -101,13 +101,13 @@ Technical characteristics
 
 -   Measurement accuracy : ± 0.1W
 
--   Overcurrent protection : 10A? internal fuse
+-   Overcurrent protection : 10A internal fuse
 
 -   Plug type : DIN49440 / EEC 7/7 (Schuko)
 
--   Z-Wave Radio Frequency : 868.42MHz?
+-   Z-Wave Radio Frequency : 868.42MHz
 
--   Maximum range Z-Wave : 30m?
+-   Maximum range Z-Wave : 30m
 
 -   Operating temperature : 0 ° C to + 25 ° C
 
@@ -115,7 +115,7 @@ Technical characteristics
 
 -   Maximum humidity : 5% to 90%
 
--   IP class (Humidity tolerance) : IP20?
+-   IP class (Humidity tolerance) : IP20
 
 \
 
@@ -124,9 +124,9 @@ Module data
 
 \
 
--   Mark : GreenWave?
+-   Mark : GreenWave
 
--   Name? : GreenWave? \ [1 x plug \]
+-   Name : GreenWave \ [1 x plug \]
 
 -   Manufacturer ID : 153
 
@@ -166,7 +166,7 @@ Once included you should get this :
 
 \
 
-### Commands? 
+### Commands 
 
 \
 
@@ -183,17 +183,17 @@ Here is the list of commands :
 
 \
 
--   State? : It is the command which allows to know the status of the
-    Outlet?
+-   State : It is the command which allows to know the status of the
+    prise
 
--   We? : This is the command that turns on the outlet
+-   We : This is the command that turns on the outlet
 
--   Off? : It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
 -   Power : It is the control which brings up the instantaneous power
     consumed
 
--   Consumption? : It is the order which reports the total consumption
+-   Consumption : It is the order which reports the total consumption
 
 \
 
@@ -202,7 +202,7 @@ in one button.
 
 \
 
-### Setup? of the module 
+### Setup of the module 
 
 \
 
@@ -242,7 +242,7 @@ Parameter details :
 
 \
 
-### Groups? 
+### Groups 
 
 \
 
@@ -265,7 +265,7 @@ polling to boost consumption.
 
 \
 
-### Reset? 
+### Reset 
 
 \
 

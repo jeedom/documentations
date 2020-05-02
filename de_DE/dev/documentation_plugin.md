@@ -1,10 +1,10 @@
 # So erstellen Sie die Dokumentation eines Plugins
 
-## Einführung?
+## Introduction
 
 In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation Ihres Plugins erstellen.
 
-## Prinzip?
+## Principe
 
 Das Prinzip ist sehr einfach. Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsfeld.
 
@@ -16,11 +16,11 @@ Wie oben zu sehen, müssen Sie nur in der Info-Datei angeben.Wenn Sie den Link h
 
 - ein Blog
 - ein einfacher Webserver
-- Github? (einzige Methode, die wir hier sehen werden)
+- Github (einzige Methode, die wir hier sehen werden)
 
-## Github?
+## Github
 
-Der einfachste Weg für Ihre Dokumentation ist die Verwendung des Github?-Seitensystems, das den Vorteil hat, dass es sehr einfach zu bedienen ist.
+Der einfachste Weg für Ihre Dokumentation ist die Verwendung des Github-Seitensystems, das den Vorteil hat, dass es sehr einfach zu bedienen ist.
 
 ### Dokumentationssprache
 
@@ -28,18 +28,18 @@ Github asciidoc und markierte (md) Unterstützung für Seiten, wir werden hier n
 
 Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites tun dies bereits sehr gut. [dieser hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Lage?
+### Emplacement
 
 Wir empfehlen, in Ihrem Plugin (auf github gehostet) einen Ordner zu erstellen und die Dateien und das Verzeichnis aus dem Ordner docs in das Vorlagen-Plugin zu kopieren (siehe [hier](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
 Sobald Sie fertig sind, haben Sie im Ordner docs einen Ordner fr_FR (der einzige, der geändert werden muss).. In diesem Ordner empfehlen wir Ihnen, 2 Dateien zu erstellen : 
 
-- Änderungsprotokoll?.md => dein Changelog
-- Index?.md => Ihre Dokumentation
+- Änderungsprotokoll.md => dein Changelog
+- Index.md => Ihre Dokumentation
 
 ### Hochladen
 
-Das Online-Gehen ist ganz einfach. Aktivieren Sie in Ihrem Github?-Repository "Einstellungen" und im Teil "GitHub-Seiten" diese Option im Ordner "Hauptzweig / Dokumente" (wie durch den Wortlaut nur der Dateien in der Datei angegeben) Ordner / Dokumente des Hauptzweigs Ihres Plugins sind online). 
+Das Online-Gehen ist ganz einfach. Aktivieren Sie in Ihrem Github-Repository "Einstellungen" und im Teil "GitHub-Seiten" diese Option im Ordner "Hauptzweig / Dokumente" (wie durch den Wortlaut nur der Dateien in der Datei angegeben) Ordner / Dokumente des Hauptzweigs Ihres Plugins sind online). 
 
 ![doc-github](images/tutoDoc.png)
 
@@ -56,12 +56,12 @@ Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json
 
 ### Übersetzungsmanagement
 
-Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmanagement nicht nur automatisch, sondern auch sehr einfach einzurichten. Autorisieren Sie einfach den Benutzer github zoic21, Ihr Repository zu pushen / zu ziehen und auf den Markt zu bringen Klicken Sie auf der Editionsseite Ihres Plugins auf der Registerkarte Github? auf "Aktivieren Sie die Generierung von Dokumentation und Übersetzung". Der Roboter fährt jeden Tag um 12 Uhr (mehr oder weniger 2 Stunden, abhängig von der Arbeitsbelastung), um die französische Dokumentation Ihres Plugins abzurufen, und das Changelog (Beta-Zweig) schiebt es auf Transiflex (Community-Übersetzungssystem), um die Nachrichten abzurufen Übersetzung und schieben Sie es auf Ihr Github?-Repository in den richtigen Ordnern.
+Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmanagement nicht nur automatisch, sondern auch sehr einfach einzurichten. Autorisieren Sie einfach den Benutzer github zoic21, Ihr Repository zu pushen / zu ziehen und auf den Markt zu bringen Klicken Sie auf der Editionsseite Ihres Plugins auf der Registerkarte Github auf "Aktivieren Sie die Generierung von Dokumentation und Übersetzung". Der Roboter fährt jeden Tag um 12 Uhr (mehr oder weniger 2 Stunden, abhängig von der Arbeitsbelastung), um die französische Dokumentation Ihres Plugins abzurufen, und das Changelog (Beta-Zweig) schiebt es auf Transiflex (Community-Übersetzungssystem), um die Nachrichten abzurufen Übersetzung und schieben Sie es auf Ihr Github-Repository in den richtigen Ordnern.
 
 
 > **Important**
 >
-> Damit der Übersetzungsverwaltungsteil automatisch funktioniert, muss Ihr Plugin auf Github? gehostet werden
+> Damit der Übersetzungsverwaltungsteil automatisch funktioniert, muss Ihr Plugin auf Github gehostet werden
 
 > **Note**
 >

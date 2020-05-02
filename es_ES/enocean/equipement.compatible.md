@@ -43,7 +43,7 @@
 ||A5-09|||||
 |<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|Sensor de calidad del aire CO2 E4000|Capteur|||
 |<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Sensor de humedad de temperatura de CO2|Capteur|||
-|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Temperatura de humedad de la sonda Insafe? + Carbon Co2|Capteur|||
+|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Temperatura de humedad de la sonda Insafe + Carbon Co2|Capteur|||
 |<img src="../../es_ES/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000|Capteur|||
 ||Nanosense|Sonda de partículas finas P4000|Capteur|||
 |<img src="../../es_ES/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000NG|Capteur|||
@@ -224,12 +224,12 @@
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta Aluminio|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1062-hoppe-poignee-fenetre-secusignal-atlanta-alu-4012789023428.html)|
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta White|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1063-hoppe-poignee-fenetre-secusignal-atlanta-blanc-4012789104158.html)|
 
-# Receptor?
+# Recepteur
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/recepteur_1_canal.jpg" width="60" />|Trio2sys|Receptor O2line de 1 canal|Micromodule|El módulo receptor solo no está incluido pero está emparejado||
-|<img src="../../es_ES/enocean/images/recepteur_1_canal.jpg" width="60" />|Vitec|Receptor Vitec? de 1 canal|Micromodule|El módulo receptor solo no está incluido pero está emparejado||
+|<img src="../../es_ES/enocean/images/recepteur_1_canal.jpg" width="60" />|Vitec|Receptor Vitec de 1 canal|Micromodule|El módulo receptor solo no está incluido pero está emparejado||
 |<img src="../../es_ES/enocean/images/recepteur_2_canaux.jpg" width="60" />|Trio2sys|O2line receptor de 2 canales|Micromodule|El módulo receptor solo no está incluido pero está emparejado||
 |<img src="../../es_ES/enocean/images/recepteur_dimmer.jpg" width="60" />|Eltako|Actuador de radio universal sin neutro - FUD61NP-230V|Micromodule|Active los comentarios de estado en el módulo de acuerdo con la documentación del fabricante. El módulo envía su estado 1 segundo después del final del cambio.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2424-eltako-actionneur-radio-variateur-rlc-encastrable-sans-neutre-4010312300183.html)|
 |<img src="../../es_ES/enocean/images/recepteur_dimmer.jpg" width="60" />|Eltako|Atenuador para balastos electrónicos de 1-10V|Ballast|Active los comentarios de estado en el módulo de acuerdo con la documentación del fabricante. El módulo envía su estado 1 segundo después del final del cambio.|[Comprar](http://www.domadoo.fr/fr/peripheriques/3208-eltako-variateur-pour-ballasts-electroniques-1-10v-4010312316283.html)|

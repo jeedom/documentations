@@ -66,7 +66,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Color? : White?
+-   Color : Blanc
 
 -   Food : 230 V, 50 Hz
 
@@ -78,9 +78,9 @@ Technical characteristics
 
 -   Scope : up to 30 m
 
--   Dimensions? : 86 x 86 x 43 mm
+-   Dimensions : 86 x 86 x 43 mm
 
--   Viewing?: Blue / red LED
+-   Affichage: Blue / red LED
 
 \
 
@@ -91,7 +91,7 @@ Module data
 
 -   Mark : MC HOME
 
--   Name? : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Manufacturer ID : 351
 
@@ -116,7 +116,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press only one
 > 2 buttons on the front panel for 3 sec, in accordance with its
-> paper Documentation?.
+> paper Documentation.
 
 Once included you should get this :
 
@@ -217,10 +217,10 @@ Faq.
 
 To exclude this model, put Openzwave in exclusion mode and press
 on one of the 2 buttons on the front panel for 3 sec, in accordance with its
-paper Documentation?.
+paper Documentation.
 
 To restore the factory settings, press only one of the 2 buttons
-on the front panel for 10 sec, in accordance with its paper Documentation?.
+on the front panel for 10 sec, in accordance with its paper Documentation.
 
 \
 

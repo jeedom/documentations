@@ -61,7 +61,7 @@ Funktionen
 
 -   Schnelle und einfache Installation
 
--   Bericht über niedrigen Batterie?stand
+-   Bericht über niedrigen Batteriestand
 
 \.
 
@@ -70,7 +70,7 @@ Technische Daten
 
 \.
 
--   Typ?: Tragbar / Wandhalterung
+-   Type: Tragbar / Wandhalterung
 
 -   Temperaturmessbereich: ± 0.5 ° C für 0 ° C bis 40 ° C.
 
@@ -78,13 +78,13 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Versorgung?: 2x AA-Batterien (LR6)
+-   Alimentation: 2x AA-Batterien (LR6)
 
 -   Geltungsbereich : bis zu 100 m im freien Feld
 
--   Schutzindex : IP30?
+-   Schutzindex : IP30
 
--   Abmessungen? : 86 x 85 x 30 mm
+-   Abmessungen : 86 x 85 x 30 mm
 
 \.
 
@@ -93,9 +93,9 @@ Moduldaten
 
 \.
 
--   Machen Sie? : Horstmann?
+-   Machen Sie : Horstmann
 
--   Name? : SES 303 Temperatur- und Feuchtigkeitssensor
+-   Name : SES 303 Temperatur- und Feuchtigkeitssensor
 
 -   Hersteller ID : 89
 
@@ -135,7 +135,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle? 
+### Befehle 
 
 \.
 
@@ -156,7 +156,7 @@ Hier ist die Liste der Befehle :
 
 -   Luftfeuchtigkeit : Es ist die Feuchtigkeitsmessung
 
--   Batterie? : Es ist der Batterie?befehl
+-   Batterie : Es ist der Batteriebefehl
 
 Einige nicht sichtbare Temperaturen sind ebenfalls verfügbar und werden es auch sein
 nützlich, wenn Sie externe Sonden angeschlossen haben
@@ -170,7 +170,7 @@ nützlich, wenn Sie externe Sonden angeschlossen haben
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -214,7 +214,7 @@ externe Sonden möglicherweise angeschlossen
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 
@@ -261,7 +261,7 @@ Dieses Modul wird durch einmaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

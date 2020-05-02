@@ -1,4 +1,4 @@
-Botón de pánico Aeotec? 
+Botón de pánico Aeotec 
 ===================
 
 \
@@ -91,9 +91,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec?
+-   Hacer : Aeotec
 
--   Nombre?bre : Botón de pánico
+-   Nombre : Botón de pánico
 
 -   ID del fabricante : 134
 
@@ -150,7 +150,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones? : es el comando que empujará el botón hacia arriba
+-   Botones : es el comando que empujará el botón hacia arriba
 
 1 : Presione brevemente el botón
 
@@ -165,7 +165,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión?.
+> inclusión.
 
 \
 

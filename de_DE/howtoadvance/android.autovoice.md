@@ -20,7 +20,7 @@ et
 Mit letzterem können Sie Ihre eigenen Sprachbefehle für Google Now erstellen
 Aufgaben mit Sprache zu automatisieren.
 
-Hinweis : AutoVoice? ist nur die Komponente für das Gespräch mit Jeedom, jedoch nicht
+Hinweis : AutoVoice ist nur die Komponente für das Gespräch mit Jeedom, jedoch nicht
 Erlaube Jeedom nicht zu antworten. Damit er das tun kann, brauchst du es nicht
 Tasker-Plugin. Wir können dieses Beispiel auch verwenden, indem wir das ersetzen
 AutoVoice-Spracherkennung durch NFC-Tag, Geolokalisierung,
@@ -29,7 +29,7 @@ eine SMS erhalten ...
 Das Prinzip 
 -----------
 
-Wir werden ein Tasker?-Profil für den Status verwenden. Dies wird ein
+Wir werden ein Tasker-Profil für den Status verwenden. Dies wird ein
 AutoVoice-Spracherkennung. Dann werden wir in der Aufgabe fragen
 Tasker, um 2 Aktionen auszuführen. Das erste wird sein, Jeedom und ihn anzurufen
 Übertragen Sie das Textergebnis der Spracherkennung. Der zweite
@@ -46,7 +46,7 @@ Wir wählen **Plugin** auf dem ersten Bildschirm.
 
 ![android.autovoice2](images/android.autovoice2.png)
 
-Im Plugin?-Typ wählen wir **AutoVoice**.
+Im Plugin-Typ wählen wir **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
@@ -88,7 +88,7 @@ eingeben :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Weg? :
+-   Weg :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interag & query =% avcommnofilter & utf8 = 1`
 
 Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette zu platzieren
@@ -106,7 +106,7 @@ Und wir geben "% HTTPD" in das Textfeld ein.
 
 ![android.autovoice12](images/android.autovoice12.png)
 
-Es ist vorbei. Bei der Texterkennung durch AutoVoice? wird Jeedom
+Es ist vorbei. Bei der Texterkennung durch AutoVoice wird Jeedom
 angerufen und Sie haben die Antwort in den Interaktionen konfiguriert, die
 wird von Ihrem Telefon gesprochen. Vergessen Sie nicht, das zu konfigurieren
 Jeedom Interaktionen und Sie können ihn fragen, was auch immer Sie
@@ -115,14 +115,14 @@ salon".
 
 > **Tip**
 >
-> Wenn es von Anfang an nicht funktioniert, liegt es oft an AutoVoice?
+> Wenn es von Anfang an nicht funktioniert, liegt es oft an AutoVoice
 > ist nicht aktiv. Klicken Sie dazu auf Google Now
 > Integration und auf die erste Wahl ganz oben und autorisieren
-> AutoVoice?.
+> AutoVoice.
 
 > **Tip**
 >
-> Standardmäßig deaktiviert AutoVoice? die Google Now-Suche
-> Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker? auf
+> Standardmäßig deaktiviert AutoVoice die Google Now-Suche
+> Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf
 > Ihr Profil dann "Edition" (kleiner Bleistift), dann "Advanced" (während
 > unten) und deaktivieren Sie "Google Now Search durchführen" (unten).

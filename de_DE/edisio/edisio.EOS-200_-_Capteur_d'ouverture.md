@@ -19,13 +19,13 @@ Alarm durch ein Szenario ausgelöst.
 
 Das Signal wird nur an die Trennung des Schallsensors gesendet
 magnetisches Element. Die integrierte LED-Anzeige signalisiert Änderungen
-Zustand. Niedriger Batterie?stand durch 3 akustische "Pieptöne" am
+Zustand. Niedriger Batteriestand durch 3 akustische "Pieptöne" am
 Empfänger
 
 Funktionen 
 =========
 
--   Drahtloser Magnetsensor mit Batterie?n
+-   Drahtloser Magnetsensor mit Batterien
 
 -   Erkennt Öffnungen / Verschlüsse
 
@@ -37,7 +37,7 @@ Funktionen
 
 -   Selbstschutz gegen Anheben
 
--   Informationen zum Batterie?stand
+-   Informationen zum Batteriestand
 
 -   Wandmontage mit Schrauben oder doppelseitigem Klebeband
 
@@ -52,20 +52,20 @@ Technische Daten
 
 -   Betriebstemperatur : 0 ° C + 45 ° C.
 
--   Reichweite im freien Feld : 100M?
+-   Reichweite im freien Feld : 100M
 
 -   Abmessungen : 25x79x19mm
 
--   Schutzart : IP20?
+-   Schutzart : IP20
 
--   Verwendung? : Drinnen
+-   Verwendung : Drinnen
 
 Moduldaten 
 =================
 
--   Machen Sie? : Edisio Smart Home
+-   Machen Sie : Edisio Smart Home
 
--   Name? : EOS-200?
+-   Name : EOS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -132,7 +132,7 @@ Hier ist die Liste der Befehle :
 -   Tür : Es ist der Befehl, der angibt, ob die Tür offen ist oder
     geschlossen
 
--   Batterie? : Zeigt den Batterie?status an
+-   Batterie : Zeigt den Batteriestatus an
 
 Information 
 ------------
@@ -147,7 +147,7 @@ verfügbar :
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul
 
--   Batterie? : Zeigt den Batterie?status der Batterie?module an
+-   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
 -   STATUS : Gibt den STATUS des Moduls zurück
 

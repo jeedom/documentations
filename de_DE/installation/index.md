@@ -23,7 +23,7 @@ Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
 -   Eine Micro-SD-Karte 7 €
 -   Ein USB-Netzteil 8 €
 
-Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation?.
+Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
 > **Tip**
 >
@@ -37,7 +37,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 >
 > Service Pack ? Quézako ? Sie können sehen [hier](https://blog.jeedom.fr/?p=1215) die Vorteile von Service Packs.
 
-# Installation?
+# Installation
 
 Ich möchte Jeedom installieren :
 
@@ -47,7 +47,7 @@ Ich möchte Jeedom installieren :
 - auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)
 - auf einem [Befehlszeile](https://doc.jeedom.com/de_DE/installation/cli)
 - auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
-- auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Hinweis: Wir empfehlen diesen Installation?smodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker?-Netzwerkmodus kompliziert ist
-- auf einem [Synologie](https://doc.jeedom.com/de_DE/installation/synology). Hinweis: Wir empfehlen diesen Installation?smodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker?-Netzwerkmodus kompliziert ist
+- auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Hinweis: Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
+- auf einem [Synologie](https://doc.jeedom.com/de_DE/installation/synology). Hinweis: Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
 
-Vergessen Sie nach der Installation? nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
+Vergessen Sie nach der Installation nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

@@ -18,11 +18,11 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
-## Enable SSH? access
+## Enable SSH access
 
 > **Warning**
 >
-> For security reasons, SSH? access is no longer enabled by default on this distribution. So you have to activate it.
+> For security reasons, SSH access is no longer enabled by default on this distribution. So you have to activate it.
 
 An empty ssh file must be created on the boot partition (the only one accessible under windows).
 
@@ -38,7 +38,7 @@ Just right click : new / text document and rename it to "ssh" **without extensio
 
 Insert your SD card, connect the network cable, connect the power.
 
-## Connect in SSH?
+## Connect in SSH
 
 Identify your Pi on the network
 

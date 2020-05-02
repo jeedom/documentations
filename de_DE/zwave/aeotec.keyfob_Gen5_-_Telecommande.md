@@ -38,7 +38,7 @@ Management von kurzen und langen Pressen. Diese Fernbedienung kann auch sein
 gut als primärer oder sekundärer Controller verwendet.
 
 Und weil der Keyfob Gen5 Key Fob Teil des ist
-Die Gen5-Reihe von Aeotec? übertrifft alles, was vorher existierte.
+Die Gen5-Reihe von Aeotec übertrifft alles, was vorher existierte.
 Es verwendet den neuesten Chip der Z-Wave 500-Serie und sorgt so für eine Steigerung
 50% Funkreichweite und 250% schnellere Kommunikationsgeschwindigkeit
 schnell im Vergleich zu früheren Z-Wave-Produkten.
@@ -69,7 +69,7 @@ Funktionen
 -   Integriert den Chip der Z-Wave 500-Serie
 
 -   250% schnellere Kommunikation im Vergleich zu Z-Wave-Geräten
-    Standard?
+    standard
 
 -   Optimierung der Antenne, Reichweite 100 Meter
 
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung? : 1 Lithium 3V CR2450 Batterie
+-   Versorgung : 1 Lithium 3V CR2450 Batterie
 
 -   Akkulaufzeit : 1 Jahr
 
@@ -103,7 +103,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec?
+-   Machen Sie : Aeotec
 
 -   Name : ZW088 Schlüsselanhänger Gen5
 
@@ -162,7 +162,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten? : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -189,7 +189,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung?.
+> Einbeziehung.
 
 \.
 
@@ -223,7 +223,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen? 
+### Gruppen 
 
 \.
 

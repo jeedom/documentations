@@ -7,7 +7,7 @@
 >
 > Beta-Versionen sind oft instabil und können dazu führen
 > Bei vielen Bedenken ist es wichtig, sie nicht auf ein System von zu setzen
-> Produktion?. Im Falle der Besorgnis wird das JEEDOM-Team nicht sein und kann es nicht
+> Produktion. Im Falle der Besorgnis wird das JEEDOM-Team nicht sein und kann es nicht
 > NICHT VERANTWORTLICH GEHALTEN.
 
 > **Note**
@@ -15,7 +15,7 @@
 > Diese Dokumentation ist bewusst nicht detailliert, so dass
 > Die Bedienung ist nicht einfach. In der Tat erfordert es, in der Beta zu sein
 > Computerkenntnisse sowie Protokollentschlüsselung oder
-> Dokumentation?.
+> Dokumentation.
 
 Schalten Sie den Kern auf Beta 
 ======================
