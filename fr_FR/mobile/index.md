@@ -32,6 +32,6 @@ L'application mobile Jeedom (compatible IOS/Android) permet le pilotage de votre
 [![AppStore](images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
 
 
-![Jeedom App](images/screen322x572-1.jpg =250x) ![Jeedom App](images/screen322x572-2.jpg =250x) ![Jeedom App](images/screen322x572-3.jpg =250x) ![Jeedom App](images/screen322x572-4.jpg =250x) ![Jeedom App](images/screen322x572-5.jpg =250x)
+![Jeedom App](images/screen322x572-1.jpg) ![Jeedom App](images/screen322x572-2.jpg) ![Jeedom App](images/screen322x572-3.jpg) ![Jeedom App](images/screen322x572-4.jpg) ![Jeedom App](images/screen322x572-5.jpg)
 
 

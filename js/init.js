@@ -69,6 +69,7 @@ var docMenu = [
       {link : "",icon:"fas fa-check",fr_FR : "Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR : "Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR : "Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:""},
+      {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/faq",icon:"fas fa-question-circle",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
   },{
@@ -86,9 +87,7 @@ var docMenu = [
       {link:"/#LANG#/core/#VERSION#/cron",icon:"fas fa-tasks",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/custom",icon:"fas fa-pencil-alt",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/user",icon:"fas fa-users",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
-      {link:"/#LANG#/startstop/index",icon:"fas fa-power-off",fr_FR:"Eteindre/Redémarrer",en_US:"Shutdown / Restart",es_ES:"Apagar / reiniciar",de_DE:"Herunterfahren / Neustart",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/profils",icon:"fas fa-briefcase",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""},
-      {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""}
+      {link:"/#LANG#/core/#VERSION#/profils",icon:"fas fa-briefcase",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""}
     ]
   },{
     divider : true

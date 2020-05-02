@@ -1,12 +1,26 @@
 # Präsentation
 
-Jeedom ist eine Open Source und * Cloudless * Hausautomationslösung (ohne Server in der Cloud). Es funktioniert ohne Abonnement, was das Funktionieren Ihrer Hausautomation ohne Internet sowie die Sicherheit Ihrer Daten garantiert.. Es ist außerdem extrem offen, multiprotokollierbar, anpassbar und hoch skalierbar.
+Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Herzen mit mehreren Funktionen : Einfaches und erweitertes Szenariomanagement, Interaktion mit der Installation der Hausautomation in Text und Ton, Visualisierung des Verlaufs und Generierung von Kurven und Grafiken, Verknüpfung aller angeschlossenen Geräte und Objekte, Anpassung der Benutzeroberfläche...
 
-Jeedom bietet einen Kern, den Kern, der die Struktur und die zentralen Funktionen einbettet.
+Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten..
+
+Dank seiner Flexibilität und zahlreichen Anpassungsparametern kann jeder Benutzer seine eigene Jeedom-Hausautomation erstellen. Mit Widgets, Ansichten und Designs können Sie sich auf Wunsch Ihre eigene Benutzeroberfläche vorstellen.
+
+Jeedom bietet viele Möglichkeiten einschließlich :
+
+- Verwalten Sie die Sicherheit von Waren und Personen,
+- Automatisieren Sie die Heizung für besseren Komfort und Energieeinsparungen,
+- Visualisieren und verwalten Sie den Energieverbrauch, um Ausgaben zu antizipieren und den Verbrauch zu senken,
+- Kommunizieren Sie per Sprache, SMS, E-Mail oder mobilen Anwendungen,
+- Verwalten Sie alle Automatisierungen im Haus, Fensterläden, Tore, Lichter usw..,
+- Verwalten Sie Audio- und Video-Multimedia-Geräte sowie verbundene Objekte.
+
+
+Jeedom basiert auf dem Kern und bettet die Struktur und die zentralen Funktionen ein.
 
 Anders [Plugins](https://market.jeedom.com) kann dann neue Funktionen vorschlagen.
 
-Der Kern enthält:
+Der Kern umfasst unter anderem :
 
 ## Dashboard / Zusammenfassung
 

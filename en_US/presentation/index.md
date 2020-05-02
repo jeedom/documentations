@@ -1,12 +1,26 @@
 # Presentation
 
-Jeedom is an open-source and *cloudless* home automation solution (without server in the cloud). It works without subscription, which guarantees the functioning of your home automation without internet, as well as the security of your data.. It is also extremely open, multi-protocol, customizable, and highly scalable.
+Jeedom is free open-source software that can be installed on any Linux system. It is based on a heart with multiple functionalities : simple and advanced scenario management, interaction with the home automation installation in text and sound, visualization of history and generation of curves and graphs, linking of all equipment and connected objects, customization of the interface...
 
-Jeedom offers a core, the Core, embedding the structure and the central functions.
+Jeedom does not require access to external servers to operate. Your entire installation is managed locally and you are therefore the only ones who have access to it to guarantee complete confidentiality..
+
+Thanks to its flexibility and numerous customization parameters, each user can create their own Jeedom home automation. Using widgets, views and designs, you have complete freedom to imagine your own interface if you wish.
+
+Jeedom allows many possibilities including :
+
+- Manage the security of goods and people,
+- Automate heating for better comfort and energy savings,
+- Visualize and manage energy consumption, to anticipate expenditure and reduce consumption,
+- Communicate by voice, SMS, emails or mobile applications,
+- Manage all the automations in the house, shutters, gate, lights, etc..,
+- Manage audio and video multimedia devices, and connected objects.
+
+
+Jeedom is based on the Core, embedding the structure and central functions.
 
 Different [Plugins](https://market.jeedom.com) can then propose new functions.
 
-The Core includes:
+The Core includes among others :
 
 ## Dashboard / Summary
 
