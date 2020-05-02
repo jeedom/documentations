@@ -72,19 +72,19 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
 - Remplacer `{% raw %}{{Ajouter un template}}{% endraw %}`
 
-    Par `\{\{Ajouter un équipement\}\}`
+    Par `{% raw %}{{Ajouter un équipement}}{% endraw %}`
 
 - Remplacer `<legend>{{Mes templates}}</legend>`
 
     Par`<legend>{{Mes équipement}}</legend>`
 
-- Remplacer `\{\{Nom de l'équipement template\}\}`
+- Remplacer `{% raw %}{{Nom de l'équipement template}}{% endraw %}`
 
-    Par`\{\{Nom de l'équipement \}\}`
+    Par`{% raw %}{{Nom de l'équipement }}{% endraw %}`
 
-- Remplacer `\{\{template param 1\}\}`
+- Remplacer `{% raw %}{{template param 1}}{% endraw %}`
 
-    Par `\{\{Paramètres\}\}`
+    Par `{% raw %}{{Paramètres}}{% endraw %}`
 
 - Remplacer `<?php include_file('desktop', 'template', 'js', 'template');?>`
 
@@ -136,11 +136,13 @@ On l'active et ensuite plugins/Monitoring/Vie de Merde
 J'ouvre le fichier `desktop/php/desktop.php` pour corriger.
 
 ```
+{% raw %}
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></i>
         <br>
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</span>
       </div>
+{% endraw %}
 ```
 
 Je remplace `color:#94ca02;"` par `color:#00A9EC;"`
@@ -148,13 +150,13 @@ Je remplace `color:#94ca02;"` par `color:#00A9EC;"`
 On remarque aussi que les textes ne sont pas alignés donc on rectifie le style de la configuration (propriété top)
 
 ```
-<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
+{% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
 ```
 
 par
 
 ```
-<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>
+{% raw %}<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
 ```
 
 ![image](images/tutorial_vdm_desktop2.png)
@@ -214,6 +216,7 @@ Dans l’onglet commandes , vous devriez voir.
 Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 
 ```
+{% raw %}
 <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
 <table id="table_cmd" class="table table-bordered table-condensed">
     <thead>
@@ -224,11 +227,13 @@ Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
     <tbody>
     </tbody>
 </table>
+{% endraw %}
 ```
 
 Au moment de l’affichage , c’est le script desktop/js/vdm.js qui est appelé et lance la fonction addCmdToTable.
 
 ```
+{% raw %}
 function addCmdToTable(_cmd) {
     if (!isset(_cmd)) {
         var _cmd = {configuration: {}};
@@ -260,6 +265,7 @@ function addCmdToTable(_cmd) {
     }
     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
 }
+{% endraw %}
 ```
 
 Cela se fait automatiquement.
@@ -269,7 +275,7 @@ Je souhaite ajouter les options Affichage et historiser pour chaque commande.
 J’édite le code html du tableau dans le fichier desktop.php en ajoutant une colonne ..
 
 ```
-<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>
+{% raw %}<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>{% endraw %}
 ```
 
 Puis éditer desktop.js ,trouver
@@ -284,6 +290,7 @@ Puis éditer desktop.js ,trouver
 On ajoute les informations souhaitées.
 
 ```
+{% raw %}
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
     tr += '<td>';
@@ -292,18 +299,19 @@ On ajoute les informations souhaitées.
    tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
+{% endraw %}
 ```
 
 Je laisse le bouton pour créer une commande mais je souhaite qu’il soit à gauche.
 
 ```
-<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
+{% raw %}<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
 ```
 
 Je change la class pull-right en pull-left
 
 ```
-<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>
+{% raw %}<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
 ```
 
 Voici le rendu.Les options de configuration (Affichage et historiser) sont bien présentes.
@@ -678,7 +686,9 @@ Si vous regardez de plus près le fichier desktop.php il y a
 ```
 
 ```
+{% raw %}
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement}}"/>// retourne le nom de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getName() ;
+{% endraw %}
 ```
 
 Etc…
@@ -686,13 +696,17 @@ Etc…
 Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avant on va changer dans le fichier desktop.php
 
 ```
+{% raw %}
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
+{% endraw %}
 ```
 
 Par
 
 ```
+{% raw %}
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
+{% endraw %}
 ```
 
 Important : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le market
@@ -708,17 +722,20 @@ On pourrait le laisser taper dans l’input « Type de vdm » : aleatoire ou epi
 Si vous avez tout suivi ,vous devriez avoir dans le fichier desktop.php
 
 ```
+{% raw %}
        <div class="form-group">
         <label class="col-sm-3 control-label">{{Type de vdm}}</label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
         </div>
     </div>
+{% endraw %}
 ```
 
 Qu’on va remplacer par
 
 ```
+{% raw %}
     <div class="form-group">
         <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
         <div class="col-sm-3">
@@ -729,6 +746,7 @@ Qu’on va remplacer par
             </select>
         </div>
     </div>
+{% endraw %}
 ```
 
 Ici le paramètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
