@@ -1,4 +1,4 @@
-# Hardware
+# Materials
 
 Hardware | State | Remarks
 --- | --- | ---
@@ -13,14 +13,19 @@ RPI3                    | Unofficial / Stable     | Attention if you use a Razbe
 32 bit                 | Unsupported            |                          
 Vmware                  | Stable                  | No support for VMware, only for Jeedom.
 
+The jeedom team recommends you (depending on your budget) :
+
+- Jeedom SMART (everything is preinstalled, you don't have to do anything)
+- Odroid C2 (best performance / price ratio)
+- Intel Nuc gen (extreme performance, see the tutorial category for the choice in different models and installation)
+- RPI4
+
 #  Pictures
 
-You can find all Jeedom images [here](https://images.jeedom.com/),then in the Pictures folder
+You can find all Jeedom images [here](https://images.jeedom.com/)
 
 | Pictures         | Hardware       | State           | SSH access      | Remarks      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | jeedomboard and | Beta           | root / Mjeedom96 |                |
-| netinstall     | hummingboard   |                |                |                |
 | Jeedomboard    | jeedomboard and | Stable         | root / Mjeedom96 |                |
 |                | hummingboard   |                |                |                |
 | Docker         |                | Beta           | root / Mjeedom96 |                |
@@ -34,43 +39,61 @@ All other previously downloadable images are no longer maintained, it is better 
 >
 > Jeedom only supports Debian Jessie (not recommended), Stretch (not recommended) and Buster (stable). Any other version (Wheezy…) or distribution (Ubuntu…) is not supported by Jeedom.
 
-
 | Name                     | State                    | Remarks                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 or less        | Unsupported            |                          |
 | PHP 5.6                 | Stable                  |                          |
 | PHP 7.X                 | Stable                  |                          |
 | Mysql 5.5 / 5.6           | Stable                  |                          |
-| Mysql 5.7               | Stable                    |                          |
+| Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
 
-#  Other
 
-## USB stick / Expansion module
+# Bluetooth
+
+You will find the list [here](https://doc.jeedom.com/en_US/blea/equipement.compatible) Jeedom compatible Bluetooth modules
+
+# Cameras
+
+You will find the list [here](https://doc.jeedom.com/en_US/camera/equipement.compatible) Jeedom compatible cameras
+
+# Edisio
+
+You will find the list [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible) Jeedom compatible Edisio modules
+
+# EnOcean
 
 ENOCEAN controller :
 
 -   EnOcean USB300 USB key
 -   EnOcean USB310 USB stick (Recommended)
 
-RFXCOM interface :
+You will find the list [here](https://doc.jeedom.com/en_US/enocean/equipement.compatible) Jeedom compatible EnOcean modules
+
+# RFXcom
+
+RFXcom controller :
 
 -   RFXtrx433 USB
 -   RFXtrx433E USB (Recommended)
 
-EDISIO gateway :
+You will find the list [here](https://doc.jeedom.com/en_US/rfxcom/equipement.compatible) Jef-compatible Rfxcom modules
 
--   Edisio Dongle (Recommended)
-
-Led indicator :
-
--   blink (1) mk2 (Recommended)
-
-GSM dongle :
+# SMS (GSM)
 
 -   HUAWEI E220 (Recommended)
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
+
+# Zigbee
+
+Zigbee controller :
+
+- [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
+
+You will find the list [here](https://phoscon.de/en/conbee/compatible) Jeedom compatible Zigbee modules
+
+# Zwave
 
 Z-Wave controller :
 
@@ -79,39 +102,4 @@ Z-Wave controller :
 -   AEON LABS Z-Wave Controller Aeon Labs Z-Stick S2
 -   AEON LABS - Z-Wave Plus Z-Stick GEN5 USB Controller (Recommended)
 
-
-Zigbee controller :
-
-- [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
-
-## Zwave modules
-
-You will find the list [here](https://doc.jeedom.com/en_US/zwave/equipement.compatible)
-
-## EnOcean modules
-
-You will find the list [here](https://doc.jeedom.com/en_US/enocean/equipement.compatible)
-
-## Edisio modules
-
-You will find the list [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible)
-
-## RFXcom modules
-
-You will find the list [here](https://doc.jeedom.com/en_US/rfxcom/equipement.compatible)
-
-## Cameras
-
-You will find the list [here](https://doc.jeedom.com/en_US/camera/equipement.compatible)
-
-## Bluetooth
-
-You will find the list [here](https://doc.jeedom.com/en_US/blea/equipement.compatible)
-
-# Recommended hardware platform
-
-The jeedom team recommends you (depending on your budget) :
-
--   Jeedom SMART (everything is preinstalled, you don't have to do anything)
--   Odroid C2 (best performance / price ratio)
--   Intel Nuc gen (extreme performance, see the tutorial category for the choice in different models and installation)
+You will find the list [here](https://doc.jeedom.com/en_US/zwave/equipement.compatible) Jeedom compatible Z-wave modules

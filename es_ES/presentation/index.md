@@ -1,12 +1,26 @@
 # Presentación 
 
-Jeedom es una solución de automatización del hogar de código abierto y * sin nubes * (sin servidor en la nube). Funciona sin suscripción, lo que garantiza el funcionamiento de su domótica sin internet, así como la seguridad de sus datos.. También es extremadamente abierto, multiprotocolo, personalizable y altamente escalable.
+Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades. : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz...
 
-Jeedom ofrece un núcleo, el núcleo, que incorpora la estructura y las funciones centrales..
+Jeedom no requiere acceso a servidores externos para operar. Toda su instalación se gestiona localmente y, por lo tanto, usted es el único que tiene acceso a ella para garantizar una total confidencialidad..
+
+Gracias a su flexibilidad y numerosos parámetros de personalización, cada usuario puede crear su propia automatización del hogar Jeedom. Usando widgets, vistas y diseños, tiene total libertad para imaginar su propia interfaz si lo desea.
+
+Jeedom permite muchas posibilidades, incluyendo :
+
+- Gestionar la seguridad de bienes y personas.,
+- Automatice la calefacción para una mayor comodidad y ahorro de energía.,
+- Visualice y gestione el consumo de energía, anticipe los gastos y reduzca el consumo.,
+- Comunícate por voz, SMS, correos electrónicos o aplicaciones móviles,
+- Gestiona todas las automatizaciones de la casa, persianas, portones, luces, etc..,
+- Administre dispositivos multimedia de audio y video y objetos conectados.
+
+
+Jeedom se basa en el núcleo, integrando la estructura y las funciones centrales.
 
 Diferentes [plugins](https://market.jeedom.com) puede proponer nuevas funciones.
 
-El núcleo incluye:
+The Core incluye entre otros :
 
 ## Panel de control / Resumen
 
