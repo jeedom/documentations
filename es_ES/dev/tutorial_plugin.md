@@ -70,21 +70,21 @@ Registro de cambios, documentación, idioma, compatibilidad nula por el momento.
 
     Por ``$plugin = plugin::byId(‘vdm');``
 
-- Reemplazar ``{% raw %}{{Ajouter un template}}{% endraw %}``
+- Reemplazar ``{% raw %}{{Agregar una plantilla}}{% endraw %}``
 
-    Por ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
+    Por ``{% raw %}{{Agregar equipo}}{% endraw %}``
 
 - Reemplazar ``<legend>{{Mes templates}}</legend>``
 
     Por` <legend> {{Mi equipo}} </legend> ``
 
-- Reemplazar ``{% raw %}{{Nombre de l'équipement template}}{% endraw %}``
+- Reemplazar ``{% raw %}{{Plantilla de nombre de equipo}}{% endraw %}``
 
-    Por ``{% raw %}{{Nombre de l'équipement }}{% endraw %}``
+    Por ``{% raw %}{{Nombre del equipo }}{% endraw %}``
 
-- Reemplazar ``{% raw %}{{template poram 1}}{% endraw %}``
+- Reemplazar ``{% raw %}{{plantilla poram 1}}{% endraw %}``
 
-    Por ``{% raw %}{{Paramètres}}{% endraw %}``
+    Por ``{% raw %}{{Configuraciones}}{% endraw %}``
 
 - Reemplazar ``<?php include_file('desktop', 'template', 'js', 'template');?>``
 
@@ -687,7 +687,7 @@ Si observa de cerca el archivo de escritorio.Hace php
 
 ````
 {% raw %}
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nombre de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nombre del equipo}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
 {% endraw %}
 ````
 

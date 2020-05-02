@@ -70,21 +70,21 @@ Changelog, Documentation, language, compatibility null for the moment. I will co
 
     By ``$plugin = plugin::byId(‘vdm');``
 
-- Replace ``{% raw %}{{Ajouter un template}}{% Indraw %}``
+- Replace ``{% raw %}{{Add a template}}{% Indraw %}``
 
-    By ``{% raw %}{{Ajouter un équipement}}{% Indraw %}``
+    By ``{% raw %}{{Add equipment}}{% Indraw %}``
 
 - Replace ``<legend>{{Mes templates}}</legend>``
 
     By` <legend> {{My equipment}} </legend> ``
 
-- Replace ``{% raw %}{{Name de l'équipement template}}{% Indraw %}``
+- Replace ``{% raw %}{{Equipment name template}}{% Indraw %}``
 
-    By ``{% raw %}{{Name de l'équipement }}{% Indraw %}``
+    By ``{% raw %}{{Name of equipment }}{% Indraw %}``
 
 - Replace ``{% raw %}{{template byam 1}}{% Indraw %}``
 
-    By ``{% raw %}{{Paramètres}}{% Indraw %}``
+    By ``{% raw %}{{Settings}}{% Indraw %}``
 
 - Replace ``<?php include_file('desktop', 'template', 'js', 'template');?>``
 
@@ -161,7 +161,7 @@ par
 
 ![image](images/tutorial_vdm_desktop2.png)
 
-Here is the based is ready. You should have the assand plugin but at the moment it does nothing.
+Here is the basedd is ready. You should have the assand plugin but at the moment it does nothing.
 
 # The orders
 
@@ -687,7 +687,7 @@ If you take a closer look at the desktop file.php ago
 
 ````
 {% raw %}
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name of equipment}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
 {% Indraw %}
 ````
 

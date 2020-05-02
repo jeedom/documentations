@@ -55,7 +55,7 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
 -   D.atei umbenennIn ``core/class/template.class.php`` In ``vdm.class.php`` und öffnIn Sie es, um es zu bearbeiten.
 
-- ErsetzIn ``class template extends eqLogic {``
+- ErsetzIn Sie ``class template extends eqLogic {``
 
     Von ``class vdm extends eqLogic {``
 
@@ -66,29 +66,29 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 - BenennIn Sie die D.atei core / php / template.inc um.php to core / php / vdm.inc.php
 - BenennIn Sie die D.esktop- / PHP- / Vorlagendatei um.PHP zu D.esktop / PHP / VDM.PHP und öffne es.
 
-- ErsetzIn ``$plugin = plugin::byId('template');``
+- ErsetzIn Sie ``$plugin = plugin::byId('template');``
 
-    Von ``$plugin = plugin::byId(‘vdm');``
+    Mit ``$plugin = plugin::byId(‘vdm');``
 
-- ErsetzIn ``{% raw %}{{Ajouter un template}}{% Indraw %}``
+- ErsetzIn Sie ``{% raw %}{{FügIn Sie eine Vorlage hinzu}}{% Indraw %}``
 
-    Von ``{% raw %}{{Ajouter un équipement}}{% Indraw %}``
+    Mit ``{% raw %}{{Ausrüstung hinzufügen}}{% Indraw %}``
 
-- ErsetzIn ``<legend>{{Mes templates}}</legend>``
+- ErsetzIn Sie ``<legend>{{Mes templates}}</legend>``
 
     Von` <legend> {{Meine Ausrüstung}} </legend> ``
 
-- ErsetzIn ``{% raw %}{{Name de l'équipement template}}{% Indraw %}``
+- ErsetzIn Sie ``{% raw %}{{Gerätename Vorlage}}{% Indraw %}``
 
-    Von ``{% raw %}{{Name de l'équipement }}{% Indraw %}``
+    Mit ``{% raw %}{{Name der Ausrüstung }}{% Indraw %}``
 
-- ErsetzIn ``{% raw %}{{template Vonam 1}}{% Indraw %}``
+- ErsetzIn Sie ``{% raw %}{{Vorlage Vonameter 1}}{% Indraw %}``
 
-    Von ``{% raw %}{{Paramètres}}{% Indraw %}``
+    Mit ``{% raw %}{{Einstellungen}}{% Indraw %}``
 
-- ErsetzIn ``<?php include_file('desktop', 'template', 'js', 'template');?>``
+- ErsetzIn Sie ``<?php include_file('desktop', 'template', 'js', 'template');?>``
 
-    Von ``<?php include_file('desktop', vdm, 'js', vdm);?>``
+    Mit ``<?php include_file('desktop', vdm, 'js', vdm);?>``
 
 Und sonst nichts, ändern Sie nicht die Linie ``<?php include_file('core', 'plugin.template', 'js');?>``
 
@@ -687,7 +687,7 @@ Wenn Sie sich die D.esktop-Datei genauer ansehen.PHP vor
 
 ````
 {% raw %}
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name der Ausrüstung}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
 {% Indraw %}
 ````
 
