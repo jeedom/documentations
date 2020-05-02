@@ -23,7 +23,7 @@ Matériel necessaire : une clé USB (minimum 8Go).
 >
 >Pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom
 
-- téléchargez l’archive que nous fournissons  : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Attention de bien vérifier que le fichier à pour nom backupJeedom.tar.gz pour que la restauration marche.
+- téléchargez l’archive que nous fournissons : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Attention de bien vérifier que le fichier à pour nom backupJeedom.tar.gz pour que la restauration marche.
 - copiez cette archive sans la modifier ni la dézipper, sur une clé USB formatée en FAT32 et vierge
 - arrêtez votre Smart proprement par Jeedom
 - débranchez là
