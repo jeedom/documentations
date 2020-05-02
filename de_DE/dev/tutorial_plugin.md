@@ -70,21 +70,21 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
     Von ``$plugin = plugin::byId(‘vdm');``
 
-- ErsetzIn ``{% raw %}{{Ajouter un template}}{% endraw %}``
+- ErsetzIn ``{% raw %}{{Ajouter un template}}{% Indraw %}``
 
-    Von ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
+    Von ``{% raw %}{{Ajouter un équipement}}{% Indraw %}``
 
 - ErsetzIn ``<legend>{{Mes templates}}</legend>``
 
     Von` <legend> {{Meine Ausrüstung}} </legend> ``
 
-- ErsetzIn ``{% raw %}{{Name de l'équipement template}}{% endraw %}``
+- ErsetzIn ``{% raw %}{{Name de l'équipement template}}{% Indraw %}``
 
-    Von ``{% raw %}{{Name de l'équipement }}{% endraw %}``
+    Von ``{% raw %}{{Name de l'équipement }}{% Indraw %}``
 
-- ErsetzIn ``{% raw %}{{template Vonam 1}}{% endraw %}``
+- ErsetzIn ``{% raw %}{{template Vonam 1}}{% Indraw %}``
 
-    Von ``{% raw %}{{Paramètres}}{% endraw %}``
+    Von ``{% raw %}{{Paramètres}}{% Indraw %}``
 
 - ErsetzIn ``<?php include_file('desktop', 'template', 'js', 'template');?>``
 
@@ -142,7 +142,7 @@ Ich öffne die D.atei ``desktop/php/desktop.php`` zu korrigieren.
         <br>
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02">{{Ajouter}}</span>
       </div>
-{% endraw %}
+{% Indraw %}
 ````
 
 Ich ersetze ``color:#94ca02;"`` Von ``color:#00A9EC;"``
@@ -150,13 +150,13 @@ Ich ersetze ``color:#94ca02;"`` Von ``color:#00A9EC;"``
 Wir stellIn auch fest, dass die Texte nicht ausgerichtund sind, sodass wir dIn Stil der Konfiguration korrigierIn (Eigenschaft top).
 
 ````
-{% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
+{% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% Indraw %}
 ````
 
 par
 
 ````
-{% raw %}<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
+{% raw %}<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% Indraw %}
 ````
 
 ![image](images/tutorial_vdm_desktop2.png)
@@ -227,7 +227,7 @@ Auf der Registerkarte Befehle solltIn Sie sehen.
     <tbody>
     </tbody>
 </table>
-{% endraw %}
+{% Indraw %}
 ````
 
 Zum Zeitpunkt der Anzeige ist dies das D.esktop / js / vdm-Skript.js, das aufgerufIn wird und die Funktion addCmdToTable startet.
@@ -265,7 +265,7 @@ function addCmdToTable(_cmd) {
     }
     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
 }
-{% endraw %}
+{% Indraw %}
 ````
 
 Dies erfolgt automatisch.
@@ -275,7 +275,7 @@ Ich möchte die Anzeige- und ProtokolloptionIn für jede Bestellung hinzufügen.
 Ich bearbeite dIn HTML-Code der Tabelle in der D.esktop-Datei.PHP durch HinzufügIn einer Spalte ..
 
 ````
-{% raw %}<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>{% endraw %}
+{% raw %}<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>{% Indraw %}
 ````
 
 BearbeitIn Sie dann dIn D.esktop.js, finde
@@ -299,19 +299,19 @@ Wir fügIn die gewünschtIn InformationIn hinzu.
    tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
-{% endraw %}
+{% Indraw %}
 ````
 
 Ich lasse die Schaltfläche, um eine Bestellung zu erstellen, aber ich möchte, dass sie links ist.
 
 ````
-{% raw %}<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
+{% raw %}<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% Indraw %}
 ````
 
 Ich ändere die Klasse Pull-Right in Pull-Left
 
 ````
-{% raw %}<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
+{% raw %}<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% Indraw %}
 ````
 
 Hier ist das Rendering.Die KonfigurationsoptionIn (Anzeige und Protokoll) sind vorhanden.
@@ -688,7 +688,7 @@ Wenn Sie sich die D.esktop-Datei genauer ansehen.PHP vor
 ````
 {% raw %}
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
-{% endraw %}
+{% Indraw %}
 ````
 
 Etc…
@@ -698,7 +698,7 @@ Wenn Sie das alles gut verstandIn haben, könnIn wir weitermachen. Aber zuerst w
 ````
 {% raw %}
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
-{% endraw %}
+{% Indraw %}
 ````
 
 Par
@@ -706,7 +706,7 @@ Par
 ````
 {% raw %}
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
-{% endraw %}
+{% Indraw %}
 ````
 
 Wichtig : D.er Text in geschweiftIn Klammern Intspricht dem Text, der übersetzt wird, wenn Sie das Plugin auf dIn Markt bringen
@@ -729,7 +729,7 @@ Wenn Sie alles befolgt haben, solltIn Sie in der D.atei desktop.php haben
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
         </div>
     </div>
-{% endraw %}
+{% Indraw %}
 ````
 
 Was wir ersetzIn werden
@@ -746,7 +746,7 @@ Was wir ersetzIn werden
             </select>
         </div>
     </div>
-{% endraw %}
+{% Indraw %}
 ````
 
 Ici le Vonamètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
