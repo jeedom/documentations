@@ -70,7 +70,7 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
     Par `$plugin = plugin::byId(‘vdm’);`
 
-- Remplacer `\{\{Ajouter un template\}\}`
+- Remplacer `{% raw %}{{Ajouter un template}}{% endraw %}`
 
     Par `\{\{Ajouter un équipement\}\}`
 
