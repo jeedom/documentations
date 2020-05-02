@@ -59,7 +59,7 @@ Technical characteristics
 
 \
 
--   Food : CR2032 battery - Autonomy 1,5 - 2 years
+-   Food? : CR2032 battery - Autonomy 1,5 - 2 years
 
 -   4 buttons
 
@@ -68,12 +68,12 @@ Technical characteristics
 
 -   Integrated magnet for fixing to metal surface
 
--   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
+-   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m?
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.01 Scope: 40m indoor / 80m outdoor
 
--   Dimensions : 80 \* 80 \* 15mm
+-   Dimensions? : 80 \* 80 \* 15mm?
 
 -   2 years warranty
 
@@ -84,7 +84,7 @@ Module data
 
 \
 
--   Mark : Nodon
+-   Mark : Nodon?
 
 -   Name : CRC-3-1-00 Octan Remote
 
@@ -111,7 +111,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press the two
 > button (1 and 2) until the light turns pink then press
-> button 1, according to its paper Documentation.
+> button 1, according to its paper Documentation?.
 
 \
 
@@ -167,7 +167,7 @@ Here is the list of commands :
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+> inclusion?.
 
 \
 
@@ -194,18 +194,18 @@ Parameter details :
 
 \
 
--   1-2 : Allows you to choose the button profiles when used in
+-   1-2? : Allows you to choose the button profiles when used in
     central (not necessary for use in Jeedom)
 
 -   3 : IMPORTANT parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7 : Choose the button operating mode (in case
+-   4-7? : Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groups 
+### Groups? 
 
 \
 

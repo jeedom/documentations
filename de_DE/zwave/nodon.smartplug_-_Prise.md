@@ -1,4 +1,4 @@
-Nicken Smart Plug - Smartplug 
+Nicken Smart Plug - Smartplug? 
 ====================================
 
 \.
@@ -44,14 +44,14 @@ Funktionen
 
 -   Netzstromverlusterkennung
 
--   Ergonomisch: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
-    Niedrig
+-   Ergonomisch?: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
+    Niedrig?
 
 -   Intelligentes Alarmmanagement
 
 -   Verbesserte Funkreichweite
 
--   Maximale Stromstärke: 16A
+-   Maximale Stromstärke: 16A?
 
 \.
 
@@ -65,14 +65,14 @@ Technische Daten
 -   Maximale Leistung : 3000 W kontinuierlich / 3500 W zyklisch
     (Widerstandslast) Eigenverbrauch : &lt;1W
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m?
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.01
 
 -   Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen: 104 \* 51 \* 36 mm
+-   Abmessungen?: 104 \* 51 \* 36 mm?
 
 -   2 Jahre Garantie
 
@@ -85,9 +85,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nicken
+-   Machen Sie : Nicken?
 
--   Name : Smartplug
+-   Name : Smartplug?
 
 -   Hersteller ID : 357
 
@@ -112,7 +112,7 @@ Aufnahme beziehen sich darauf
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > bis das Licht laut Dokumentation rot wird
-> Papier.
+> Papier?.
 
 \.
 
@@ -145,12 +145,12 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand? : Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein? : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus? : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 -   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht
     (Stromausfall / Unterbrechungserkennung)
@@ -208,7 +208,7 @@ Parameterdetails :
 
 -   Parameter 5 bis 20 : Über die Konfigurationsparameter \# 5 bis
     \# 20, es ist möglich, bis zu 8 verschiedene Alarme zu konfigurieren.
-    Um Ihre Alarme richtig zu konfigurieren, das Einline-Formular:
+    Um Ihre Alarme richtig zu konfigurieren, das Ein?line-Formular:
     www.nodon.fr/support/asp3/alarm wird Sie führen
 
 ### Gruppen 

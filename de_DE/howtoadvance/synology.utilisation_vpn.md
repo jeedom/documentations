@@ -22,7 +22,7 @@ Wählen Sie die Option L2TP / IPsec-VPN-Server aktivieren
 
 Geben Sie unter Dynamische IP-Adresse eine Nummer ein, die dem Sub entspricht
 Netzwerk zum Zuweisen der IPs Ihrer Geräte in VPN im internen Netzwerk
-von deinem Platz. NB : Wählen Sie nicht das Gleiche wie das
+von deinem Platz. NB? : Wählen Sie nicht das Gleiche wie das
 Standard-Subnetz Ihrer Box ex kostenlos das Subnetz von
 Maschinen ist 192.168.1.0 also setzen wir im Beispiel 2
 

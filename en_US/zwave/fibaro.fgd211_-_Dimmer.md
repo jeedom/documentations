@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50 Hz
+-   Food? : 230V, 50 Hz
 
 -   Wiring : neutral not required
 
@@ -95,17 +95,17 @@ Technical characteristics
 
 -   Compatible lamp type (not dimmable) : Compact fluorescent, LED
 
--   Fuse : 2.5A
+-   Fuse : 2.5A?
 
 -   Frequency : 868.42 Mhz
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 15 x 42 x 36 mm
+-   Dimensions?: 15 x 42 x 36 mm
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105 ° C
+-   Limit temperature : 105 ° C?
 
 -   Standards : EN 55015 and EN 60669-2-1
 
@@ -142,7 +142,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper Documentation?.
 
 \
 
@@ -186,9 +186,9 @@ Here is the list of commands :
 -   Intensity : This is the command that allows you to adjust the intensity of the
     Light
 
--   We : It is the control that turns on the light
+-   We? : It is the control that turns on the light
 
--   Off : It is the command that turns off the light
+-   Off? : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
     Light
@@ -279,7 +279,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups? 
 
 \
 

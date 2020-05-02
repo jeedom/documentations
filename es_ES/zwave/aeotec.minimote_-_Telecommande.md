@@ -1,4 +1,4 @@
-Aeotec Minimote 
+Aeotec Minimote? 
 ===============
 
 \
@@ -63,13 +63,13 @@ Características técnicas
 
 -   Tipo de módulo : Controlador Z-Wave
 
--   Color : Blanco, Blanca
+-   Color? : Blanco, Blanca?
 
 -   Suministro : batería interna recargable a través de USB
 
--   Visualización: LED azul y rojo
+-   Visualización?: LED azul y rojo
 
--   Frecuencia : 868.42MHz
+-   Frecuencia : 868.42MHz?
 
 -   Alcance : hasta 30 m
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer : Aeotec?
 
--   Nombre : Minimote
+-   Nombre? : Minimote?
 
 -   ID del fabricante : 134
 
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -143,7 +143,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones : es el comando que empujará el botón hacia arriba
+-   Botones? : es el comando que empujará el botón hacia arriba
 
 1 : Botón 1 pulsación corta
 
@@ -170,7 +170,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 

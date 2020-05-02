@@ -1,4 +1,4 @@
-Fibaro FGFS-101 "Hochwassersensor" 
+Fibaro FGFS-101? "Hochwassersensor" 
 ==============================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
+Der FGFS-101?-Sensor ist kompakt und verfügt über eine Vielzahl von
 Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
 Flood Fibaro warnt Sie vor einer drohenden Flut oder einem Anstieg
 oder schneller Temperaturabfall.
@@ -35,8 +35,8 @@ sofort zum Z-Wave-Netzwerk, wenn der Detektor bewegt oder gestohlen wird
 mouvement).
 
 Dieser universelle Hochwasser- und Temperaturdetektor kann mit Strom versorgt werden
-durch Batterie oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
-An eine externe Stromquelle angeschlossen, dient die Batterie als Quelle
+durch Batterie? oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
+An eine externe Stromquelle angeschlossen, dient die Batterie? als Quelle
 Notstromversorgung.
 
 Dank seines Temperatursensors können Sie die Temperatur von steuern
@@ -81,11 +81,11 @@ Technische Daten
 
 -   Das Modul kann extern mit Strom versorgt werden : 12 - 24 VDC
 
--   Batterietyp : CR123A
+-   Batterie?typ : CR123A
 
 -   Akkulaufzeit : 2 Jahre
 
--   Verbrauch an externer Stromversorgung : 0,4 W.
+-   Verbrauch an externer Stromversorgung : 0,4 W.?
 
 -   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
 
@@ -117,7 +117,7 @@ Moduldaten
 
 -   Modell : Hochwassersensor FGFS101
 
--   Hersteller : FIBARO-System
+-   Hersteller? : FIBARO-System
 
 -   Hersteller ID : 271
 
@@ -175,15 +175,15 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
+-   Leck? : Dies ist der Modulalarmbefehl (für die Anwesenheit
     Wasser, Überschwemmungen ...)
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-   Sabotage? : Dies ist der Sabotage?befehl. Es signalisiert die Öffnung
     des Falles
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -194,7 +194,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -239,8 +239,8 @@ Parameterdetails :
 
 -   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : 1 bis 65.535 s
     (Standardmäßig 300). Achten Sie darauf, keinen Übertragswert zu setzen
-    nahe beieinander unter der Strafe, dass die Batterie des Moduls überhaupt schmilzt
-    Geschwindigkeit ! (1800 wird empfohlen)
+    nahe beieinander unter der Strafe, dass die Batterie? des Moduls überhaupt schmilzt
+    Geschwindigkeit? ! (1800 wird empfohlen)
 
 -   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (standardmäßig 50
     = 0,5 °). Gemäß Parameter 10 ist dies auch möglich
@@ -264,7 +264,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 
@@ -307,7 +307,7 @@ Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-Dieses Modul ist standardmäßig ein Batteriemodul, das neue
+Dieses Modul ist standardmäßig ein Batterie?modul, das neue
 Die Konfiguration wird beim nächsten Aufwecken berücksichtigt.
 
 \.

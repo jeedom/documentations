@@ -37,7 +37,7 @@ The Core includes among others :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Historical
+## Historical?
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 
@@ -49,7 +49,7 @@ The Core includes among others :
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
-## Interactions
+## Interactions?
 
 *The interaction system in Jeedom allows you to perform actions from text or voice commands.*
 
@@ -57,14 +57,14 @@ The Core includes among others :
 
 ## Update center
 
-*The update center allows you to update all of Jeedom's functionality, including the core software and its Plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
+*The update center allows you to update all of Jeedom's functionality, including the core software and its Plugins?. Other extension management functions are available (delete, reinstall, check, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Market
+# Market?
 
-Around this core are Plugins, which can be of all kinds :
+Around this core are Plugins?, which can be of all kinds :
 
 -   Home automation protocol (Z-Wave, RFXcom, EnOcean…),
 -   IP protocol (KNX, xPL…),
@@ -74,9 +74,9 @@ Around this core are Plugins, which can be of all kinds :
 -   Organization (calendar, Google calendar),
 -   Development (script).
 
-These Plugins can be installed from the Market and allow you to extend the possibilities of Jeedom.
+These Plugins can be installed from the Market? and allow you to extend the possibilities of Jeedom.
 
-![Page Market](images/doc-presentation-market.jpg)
+![Page Market?](images/doc-presentation-market.jpg)
 
 Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm Plugins with any home automation protocol or even an IP plugin or communicating object ...
 

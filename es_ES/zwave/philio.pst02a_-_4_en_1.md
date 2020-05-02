@@ -75,7 +75,7 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotección
+-   Autoprotección?
 
 -   Indicación de batería baja
 
@@ -108,13 +108,13 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones :
+-   Dimensiones? :
 
 -   Detector : 28 x 96 x 23 mm
 
 -   Imán : 10 x 50 x 12 mm
 
--   Peso : 52g
+-   Peso? : 52g?
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
@@ -133,7 +133,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Nombre : PST02-A Multisensor 4 en 1
+-   Nombre? : PST02-A Multisensor 4 en 1
 
 -   ID del fabricante : 316
 
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -192,8 +192,8 @@ Aquí está la lista de comandos :
 
 -   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura : es el comando que generará una detección
-    abriendo
+-   Apertura? : es el comando que generará una detección
+    abriendo?
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
@@ -203,7 +203,7 @@ Aquí está la lista de comandos :
 -   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería : es el comando de la batería
+-   Batería? : es el comando de la batería
 
 \
 
@@ -214,7 +214,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 
@@ -287,14 +287,14 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    Reporte
+    Reporte?
 
 -   22: valor en% de variación de brillo para activar un
     Informar valor recomendado : 10
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 

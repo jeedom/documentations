@@ -1,16 +1,16 @@
 Why ? 
 ==========
 
--   Apache will gradually become the norm with Jeedom
+-   Apache will gradually become the norm with Jeedom?
 
 -   Allows you to have the latest security updates at
     access to files (thanks to .htaccess) during updates of
-    Jeedom
+    Jeedom?
 
 -   Corrects some access and stability concerns (especially for those
     who have a lot of cameras)
 
--   Improves overall performance of Jeedom.
+-   Improves overall performance of Jeedom?.
 
 Prerequisites 
 =========
@@ -22,7 +22,7 @@ Prerequisites
 
 > **Important**
 >
-> In case of concerns, the Jeedom team cannot be held responsible and
+> In case of concerns, the Jeedom? team cannot be held responsible and
 > may refuse any support request. Handling is yours
 > risks and dangers.
 
@@ -34,10 +34,10 @@ Prerequisites
 How to do 
 =============
 
-Deactivation of Jeedom and nginx services 
+Deactivation of Jeedom? and nginx services 
 ------------------------------------------
 
-In Jeedom, you have to go to each plugin with a daemon, then
+In Jeedom?, you have to go to each plugin with a daemon, then
 deactivate the automatic management of the daemon and cut it. It is necessary
 then, in the task engine, deactivate all tasks (there is a
 general deactivation button) and in the scenarios deactivate all
@@ -82,7 +82,7 @@ Access test
 
     systemctl start mysql
 
-You should now be able to access Jeedom from the same URL
+You should now be able to access Jeedom? from the same URL
 than before. If it is good you can continue ELSE IT IS NOT ESSENTIAL
 NOT CONTINUE.
 
@@ -93,7 +93,7 @@ MAKE :
 
     crontab -e
 
-Then update the path to Jeedom, replace :
+Then update the path to Jeedom?, replace :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / usr / share / nginx / www / jeedom / core / php / jeeCron.php '>> / dev / null 2> & 1
 
@@ -115,10 +115,10 @@ Restarting services
     systemctl enable apache2
     systemctl start cron
 
-Then connect to your Jeedom and reactivate the task engine
+Then connect to your Jeedom? and reactivate the task engine
 and the scenarios. You can also revive the demons.
 
 > **Important**
 >
 > It is recommended after migration to launch an update of
-> Jeedom (even if it doesn't offer you anything).
+> Jeedom? (even if it doesn't offer you anything).

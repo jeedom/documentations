@@ -13,7 +13,7 @@ Prerrequisitos
 > **Important**
 >
 > Recuerde hacer y exportar una copia de seguridad antes de cualquier actualización
-> manual.
+> manual?.
 
 Descargar y descomprimir 
 ===============================

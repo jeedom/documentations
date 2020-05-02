@@ -45,7 +45,7 @@ can already from this screen :
 -   see resource usage ((CPU, memory and disk)
 
 -   have information about your system ((operating time,
-    VMware version, bios version, datastore display)
+    VMware version, bios version, datastore? display)
 
 -   button to create a VM ((we will use it right after)
 
@@ -60,13 +60,13 @@ Sending installation ISO
 After downloading your installation iso
 (([here]((http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 for example for debian 8.5 in netinstall), you need to put it on
-your datastore.
+your datastore?.
 
-For that click on datastore :
+For that click on datastore? :
 
 ![vmware.createvm18]((images/vmware.createvm18.PNG)
 
-Select your datastore ((usually it's called datastore1) :
+Select your datastore? ((usually it's called datastore?1) :
 
 ![vmware.createvm19]((images/vmware.createvm19.PNG)
 
@@ -107,7 +107,7 @@ operating ((here we will install a Debian) :
 
 ![vmware.createvm7]((images/vmware.createvm7.PNG)
 
-Indicate the target datastore :
+Indicate the target datastore? :
 
 ![vmware.createvm8]((images/vmware.createvm8.PNG)
 

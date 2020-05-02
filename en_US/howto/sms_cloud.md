@@ -1,6 +1,6 @@
 # SMS / Cloud calls
 
-## Description
+## Description?
 
 It is a paid Jeedom SAS service which allows you to send SMS and make calls (with message read by a robot) from your Jeedom.
 

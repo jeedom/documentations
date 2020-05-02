@@ -75,7 +75,7 @@ precisamente aqui : núcleo / clase /
     el repositorio donde estoy (núcleo, ver Pequeño 1)
 
 3. Entonces tenemos nuestro archivo * history.class.php * - Hacemos clic en el
-    Expediente
+    Expediente?
 
 ![tuto.github5](images/tuto.github5.png)
 

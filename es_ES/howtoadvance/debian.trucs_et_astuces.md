@@ -15,7 +15,7 @@ Aquí hay algunos paquetes útiles para instalar en blanco. :
 
 <!-- -->
 
-    apt-get install -y vim fail2ban herramientas de red dos2unix
+    apt-get install -y vim? fail2ban herramientas de red? dos2unix
 
 Si está en VMware, puede agregar herramientas adicionales
 :
@@ -131,7 +131,7 @@ MYSQL, bajo Estiramiento :
     MariaDB [mysql]> OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
     Consulta OK, 0 filas afectadas (0.00 segundos)
     MariaDB [mysql]> salir;
-    Adios
+    Adios?
 
 > **Tip**
 >
@@ -168,7 +168,7 @@ ou
 -   Restaurar los derechos de www-data en todos los Jeedom :
     `chown -R www-data: / var / www / html / `
 
--   Reinicia la caja : reiniciar
+-   Reinicia la caja : reiniciar?
 
 -   Conéctese a Jeedom con sus antiguos identificadores a través de
     interfaz web

@@ -37,7 +37,7 @@ Funciones
 Características técnicas 
 ===========================
 
--   Puntao de módulo : Transmisor Edisio
+-   Punta?o de módulo : Transmisor Edisio
 
 -   Suministro : 3VDC (batería de litio ER14250)
 
@@ -45,22 +45,22 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100 millones
+-   Rango en campo libre : 100 millones?
 
--   Rango de detección : Los 6M
+-   Rango de detección : Los 6M?
 
--   Dimensiones : 25x79x19mm
+-   Dimensiones? : 25x79x19mm
 
--   Grado de protección : IP20
+-   Grado de protección : IP20?
 
--   Uso : En el interior
+-   Uso? : En el interior
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer? : Edisio Smart Home
 
--   Nombrebre : EMS-200
+-   Nombre?bre : EMS-200?
 
 Configuración general 
 ======================

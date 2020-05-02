@@ -44,7 +44,7 @@ Poly-Control kann auch mit anderen Z-Wave-Szenen verwendet werden
 Die Lichter gehen an und die Alarmanlage wird deaktiviert, wenn
 über Ihre Fernbedienung entsperrt.
 
-Das Poly-Control-System kann in einer Umgebung verwendet werden
+Das Poly-Control?-System kann in einer Umgebung verwendet werden
 häuslich oder beruflich. Das Poly-Lock wird mit Strom versorgt
 Batterie, und wurde getestet, um für 1 Jahr ohne zu arbeiten
 Batteriewechsel.
@@ -61,7 +61,7 @@ Funktionen
 -   Passend für die meisten Türen
 
 -   Kann beispielsweise für ein System in Z-Wave-Szenen integriert werden
-    Alarm
+    Alarm?
 
 -   Geeignet für den privaten oder geschäftlichen Gebrauch
 
@@ -83,9 +83,9 @@ Technische Daten
 -   Geltungsbereich : bis zu 100 m im Freien, bis zu 30 m in
     Gebäude
 
--   Abmessungen : 120 x 52 x 60 mm (L x B x H)
+-   Abmessungen? : 120 x 52 x 60 mm (L x B x H)
 
--   Gewicht : 370 g
+-   Gewicht? : 370 g?
 
 \.
 
@@ -94,9 +94,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Poly-Control
+-   Machen Sie : Poly-Control?
 
--   Name : PolyLock
+-   Name : PolyLock?
 
 -   Hersteller ID : 270
 
@@ -136,7 +136,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Befehle? 
 
 \.
 
@@ -160,7 +160,7 @@ Hier ist die Liste der Befehle :
 
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -217,7 +217,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 

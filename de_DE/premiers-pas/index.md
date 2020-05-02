@@ -109,7 +109,7 @@ Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann
 
 > **Important**
 >
-> Wenn Sie gerade Ihr Jeedom mit Ihrem Markt-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst nutzen können.
+> Wenn Sie gerade Ihr Jeedom mit Ihrem Markt?-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst nutzen können.
 
 ## Ändern Sie das Standardkennwort von Jeedom
 
@@ -130,7 +130,7 @@ In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend 
 
 > **Tip**
 >
-> Es ist möglich, Beziehungen zwischen Objekten zu definieren. Beispiel: Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
+> Es ist möglich, Beziehungen zwischen Objekten zu definieren. Beispiel?: Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
 
 Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
@@ -176,7 +176,7 @@ Sie finden dann :
 
 Weitere Informationen zu Plugins finden Sie im * Benutzerhandbuch -> Plugin*.
 
-# Unterstützung
+# Unterstützung?
 
 
 Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.
@@ -189,19 +189,19 @@ Sie werden es finden [hier](https://community.jeedom.com/).
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird..
 
 
-## Unterstützunganfragen (oder Tickets)
+## Unterstützung?anfragen (oder Tickets?)
 
 > **Important**
 >
-> Bitte beachten Sie, dass alle Unterstützunganfragen ein Konto auf dem Markt haben müssen.
+> Bitte beachten Sie, dass alle Unterstützung?anfragen ein Konto auf dem Markt haben müssen.
 
 Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten.. Diese Anfrage geht durch ein Ticket. Es gibt verschiedene Möglichkeiten, eine zu öffnen.:
 
--   Direkt von Jeedom (empfohlene Methode): Einstellungsmenü → Unterstützunganfrage.
+-   Direkt von Jeedom (empfohlene Methode): Einstellungsmenü → Unterstützung?anfrage.
 
 -   Wenn Sie aus irgendeinem Grund keinen Zugang zu Ihrem Jeedom haben, können Sie jederzeit ein Ticket vom Markt öffnen :
 
-    -   Klicken Sie entweder auf Ihren Namen und dann auf * Unterstützunganfrage*,
+    -   Klicken Sie entweder auf Ihren Namen und dann auf * Unterstützung?anfrage*,
 
     -   entweder indem Sie zu Ihrem Profil gehen, dann in den Abschnitt **Tickets**, Verwenden Sie die Schaltfläche "Supportanfrage öffnen".
 
@@ -211,11 +211,11 @@ Alle weiteren Austausche erfolgen per E-Mail.
 
 > **Tip**
 >
-> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, bedeutet dies, dass Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Unterstützunganfragen pro Monat beschränkt sind.
+> Wenn beim Öffnen eines Tickets? eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, bedeutet dies, dass Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Unterstützung?anfragen pro Monat beschränkt sind.
 
 Die verschiedenen Service Packs sind :
-- Community (kostenlos): 2 Tickets / Monat (nur für kostenpflichtige Plugins)
-- Macht: 10 Tickets / Monat
-- Pro: 100 Tickets / Monat
+- Community (kostenlos): 2 Tickets? / Monat (nur für kostenpflichtige Plugins)
+- Macht?: 10 Tickets? / Monat
+- Pro?: 100 Tickets? / Monat
 
 Sie finden die Details der Service Packs [hier](https://www.jeedom.com/site/fr/soft.html#obtenir)

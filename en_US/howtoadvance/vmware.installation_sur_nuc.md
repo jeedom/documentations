@@ -1,5 +1,5 @@
 Here is a tutorial to install VMware on an Intel NUC (gen6). We
-will see theter how to add Jeedom on it
+will see the?ter how to add Jeedom on it
 
 Equipment 
 ===========
@@ -49,7 +49,7 @@ That makes 4 references :
 SSD 
 ---
 
-You have to add an SSD and memory. SSD level I you
+You have to add an SSD? and memory. SSD? level I you
 recommend 240GB or more, unless you take the model with a
 location 2.5 inches (which allows you to put additional hard drive)
 or to have a Synology NAS to make the iSCSI LUN. Do not forget
@@ -61,19 +61,19 @@ this 40GB for VMware itself it fills up quickly.
 > VMware does not support adding USB disk, so it is difficult
 > to extend the available space
 
--   [LDLC SSD M.2 2280 F6 PLUS 120
+-   [LDLC SSD? M.2 2280 F6 PLUS 120
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung SSD 850 EVO 120 GB
+-   [Samsung SSD? 850 EVO 120 GB
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
--   [LDLC SSD M.2 2280 F6 PLUS 240
+-   [LDLC SSD? M.2 2280 F6 PLUS 240
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung SSD 850 EVO 250 GB
+-   [Samsung SSD? 850 EVO 250 GB
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
--   [LDLC SSD M.2 2280 F6 PLUS 480
+-   [LDLC SSD? M.2 2280 F6 PLUS 480
     GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 Memory 
@@ -98,7 +98,7 @@ bars, this improves performance) :
 Installation preparation 
 =============================
 
-Before theunching the installation itself, we will first have to
+Before the?unching the installation itself, we will first have to
 recover VMware and put it on a USB key.
 
 VMware Download 
@@ -119,7 +119,7 @@ It's the hardest actually I think, to simplify your life you have to
 
 -   wait for the email to validate the registration
 
--   return
+-   return?
     [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     and log in (you may be asked to accept the
     conditions, you must validate)
@@ -161,7 +161,7 @@ These are the 3 components for my NUC :
 
 -   Intel NUC NUC6I5SYH
 
--   Samsung SSD 850 EVO 250 Go M.2
+-   Samsung SSD? 850 EVO 250 Go M.2
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
@@ -186,7 +186,7 @@ the NUC:
 
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
-The SSD installed (on the left), the end screw to block it is a
+The SSD? installed (on the left), the end screw to block it is a
 hard to put back, fortunately we only do that once
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
@@ -213,7 +213,7 @@ alone :
 > I forgot to capture the license validation, it
 > just agree to follow the instructions
 
-Here select the disk corresponding to the SSD (you can
+Here select the disk corresponding to the SSD? (you can
 identify either by name or by size)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
@@ -223,7 +223,7 @@ Select "French" :
 ![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
 
 Put a password, at the beginning I advise you to put a simple thing
-like "oooo" (we'll change it theter) :
+like "oooo" (we'll change it the?ter) :
 
 ![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
 

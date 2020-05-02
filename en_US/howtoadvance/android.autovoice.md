@@ -20,7 +20,7 @@ et
 The latter allows you to create your own voice commands for Google Now
 to automate tasks using voice.
 
-To note : AutoVoice is only the component for talking to Jeedom but does not
+To note : AutoVoice? is only the component for talking to Jeedom but does not
 not allow Jeedom to respond. In order for him to do that, you don't need the
 Tasker plugin. We can also use this example by replacing the
 AutoVoice voice recognition by NFC tag, geolocation,
@@ -29,7 +29,7 @@ an SMS received…
 The principle 
 -----------
 
-We will use a Tasker profile on state. This will be a
+We will use a Tasker? profile on state. This will be a
 AutoVoice voice recognition. Then in task, we will ask
 Tasker to execute 2 actions. The first will be to call Jeedom and him
 transmit the text result of the voice recognition. The second
@@ -88,7 +88,7 @@ enter :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Path :
+-   Path? :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
 Do not forgand to put your API key in place of the chain
@@ -106,7 +106,7 @@ And we enter `% HTTPD` in the text field.
 
 ![android.autovoice12](images/android.autovoice12.png)
 
-It's finish. On text recognition by AutoVoice, Jeedom will be
+It's finish. On text recognition by AutoVoice?, Jeedom will be
 called and you will have the answer configured in the interactions which
 will be spoken by your phone. Do not forgand to configure the
 Jeedom interactions and you can ask him whatever you
@@ -115,14 +115,14 @@ salon".
 
 > **Tip**
 >
-> If it doesn't work right from the start, it's often because AutoVoice
+> If it doesn't work right from the start, it's often because AutoVoice?
 > is not active. For that launch it, click on Google Now
 > Integration and on the first choice at the very top and authorize
-> AutoVoice.
+> AutoVoice?.
 
 > **Tip**
 >
-> By default, AutoVoice disables Google Now search, it is
-> possible to cancel this behavior, for that in Tasker click on
+> By default, AutoVoice? disables Google Now search, it is
+> possible to cancel this behavior, for that in Tasker? click on
 > your profile then "edition" (small pencil), then "advanced" (while
 > bottom), and uncheck "Do Google Now Search" (bottom).

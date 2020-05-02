@@ -1,4 +1,4 @@
-Botón de color inteligente Philio 
+Botón de color inteligente Philio? 
 =========================
 
 \
@@ -29,7 +29,7 @@ puede usarlo para encender, apagar o atenuar la iluminación, ajustar
 la posición de sus persianas, ajuste la temperatura del termostato o
 úsalo como temporizador.
 
-Una vez incluido en su red Z-Wave, el conmutador Philio PSR04
+Una vez incluido en su red Z-Wave, el conmutador Philio? PSR04
 debe estar asociado con los dispositivos que desea controlar.
 Solo puede operar por asociación directa con
 dispositivos, y no puede iniciar escenas creadas en su controlador
@@ -64,7 +64,7 @@ Funciones
 
 -   Función de temporizador integrado
 
--   A prueba de agua
+-   A prueba de agua?
 
 -   Se adapta a cualquier estilo de decoración.
 
@@ -90,9 +90,9 @@ Características técnicas
 -   Suministro : Batería de polímero de litio 3.7V, 220mA v
     la batería : 6 meses por 2 horas de carga
 
--   Consumo en espera : 18µA
+-   Consumo en espera : 18µA?
 
--   Consumo en funcionamiento : 45mA
+-   Consumo en funcionamiento : 45mA?
 
 -   Frecuencia : 868.42 MHz
 
@@ -114,9 +114,9 @@ Datos del módulo
 
 \
 
--   Hacer : Philio
+-   Hacer? : Philio?
 
--   Nombre : Botón de color inteligente PSR04
+-   Nombre? : Botón de color inteligente PSR04
 
 -   ID del fabricante : 316
 
@@ -177,8 +177,8 @@ Aquí está la lista de comandos :
 -   Estado : es el comando que moverá la posición del botón de 0 a
     100%
 
--   Batería : Este es el comando que informa el estado de la batería del
-    Modulo
+-   Batería? : Este es el comando que informa el estado de la batería del
+    Modulo?
 
 \
 
@@ -189,7 +189,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 

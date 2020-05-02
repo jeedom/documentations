@@ -69,7 +69,7 @@ Funktionen
 Technische Daten 
 ---------------------------
 
--   Versorgung : 12 V oder 24 V DC
+-   Versorgung? : 12 V oder 24 V DC
 
 -   Maximale Ausgangsleistung :
 
@@ -85,11 +85,11 @@ Technische Daten
 
 -   PWM-Modulationsfrequenz : 244 Hz
 
--   Verbrauch : 0,3 W.
+-   Verbrauch? : 0,3 W.?
 
 -   Funkprotokoll : Z-Wave bei 868,4 MHz (EU)
 
--   Z-Wave Sendeleistung : 1mW
+-   Z-Wave Sendeleistung : 1mW?
 
 -   Betriebstemperatur : 0 - 40 C.
 
@@ -106,7 +106,7 @@ Technische Daten
 Moduldaten 
 -----------------
 
--   Machen Sie : Fibar Group
+-   Machen Sie? : Fibar Group
 
 -   Name : Fibaro FGRGB-101 RGBW
 
@@ -162,20 +162,20 @@ disponibles.
 Hier ist die Liste der Befehle :
 
 -   Farbe : Mit diesem Befehl können Sie den Farbcode auf einstellen
-    Anzeige
+    Anzeige?
 
 -   Schornstein : Es ist der Befehl, der eine Atmosphäre von simuliert
     Schornstein
 
--   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
+-   Gewitter? : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
 
--   Morgendämmerung : Dies ist der Befehl, der eine Aude-Atmosphäre simuliert
+-   Morgendämmerung? : Dies ist der Befehl, der eine Aude-Atmosphäre simuliert
     (progressiver Sonnenaufgang)
 
 -   Verblassen : Dies ist der Befehl, der das gesamte simuliert
     Farbspektrum
 
--   RBB : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
+-   RBB? : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
 
 -   Kaltes Weiß : Dies ist der Befehl, der simuliert, dass a
     kühle weiße Farbe, wenn der Farbstreifen es erlaubt. (das
@@ -190,8 +190,8 @@ Hier ist die Liste der Befehle :
 
 -   Aus : Dies ist der Befehl, der das Banner ausschaltet
 
--   Intensität : Mit diesem Befehl können Sie die Intensität einstellen
-    hell
+-   Intensität? : Mit diesem Befehl können Sie die Intensität einstellen
+    hell?
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 icone

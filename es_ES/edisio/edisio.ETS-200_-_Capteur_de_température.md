@@ -39,30 +39,30 @@ Funciones
 Características técnicas 
 ===========================
 
--   Puntao de módulo : Transmisor Edisio
+-   Punta?o de módulo : Transmisor Edisio
 
 -   Uso : En el interior
 
 -   Suministro : 3VDC (batería de litio ER14250)
 
--   Autonomía : Hasta 3 años
+-   Autonomía? : Hasta 3 años
 
 -   Frecuencia : 868.3 MHz
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100 millones
+-   Rango en campo libre : 100 millones?
 
--   Dimensiones : 25x79x19mm
+-   Dimensiones? : 25x79x19mm
 
--   Grado de protección : IP20
+-   Grado de protección : IP20?
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer? : Edisio Smart Home
 
--   Nombre : ETS-200
+-   Nombre? : ETS-200?
 
 Configuración general 
 ======================

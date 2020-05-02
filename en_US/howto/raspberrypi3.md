@@ -2,10 +2,10 @@ Goal
 ========
 
 Here you will find the documentation to install Jeedom on a
-raspberry PI 3 **without microSD card.**
+raspberry PI 3 **without microSD? card.**
 
 PI3 indeed offers the possibility of booting directly on a
-USB device and therefore free yourself from the microSD card sometimes
+USB device and therefore free yourself from the microSD? card sometimes
 generating problems (corruption).
 
 **The installation procedure is strictly identical to that on a
@@ -13,7 +13,7 @@ microSD card, but make sure you have firmware
 jour.**
 
 To do this, open an SSH connection. (if you don't know how,
-watch the installation on microSD :
+watch the installation on microSD? :
 [Here](https://doc.jeedom.com/en_US/installation/index.html)
 )
 
@@ -98,7 +98,7 @@ Ram.
 
 -   Add this line, to ask Pi3 to use the swap only
     when there is 10% of available memory (100 MB of
-    Ram available) :
+    Ram? available) :
 
 <!-- -->
 

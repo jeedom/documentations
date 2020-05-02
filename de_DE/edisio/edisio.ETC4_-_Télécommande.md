@@ -36,7 +36,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung : 3VDC (Lithiumbatterie CR2430)
+-   Versorgung? : 3VDC (Lithiumbatterie CR2430)
 
 -   Kanäle : 4
 
@@ -44,16 +44,16 @@ Technische Daten
 
 -   Betriebstemperatur : -10 ° C + 50 ° C.
 
--   Abmessungen : 52 x 28 x 12 mm
+-   Abmessungen? : 52 x 28 x 12 mm
 
--   Schutzart : IP40
+-   Schutzart : IP40?
 
 Moduldaten 
 =================
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : ETC4
+-   Name? : ETC4?
 
 Allgemeine Konfiguration 
 ======================
@@ -134,15 +134,15 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
+-   bt01? : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
--   bt02 : Es ist der Befehl, der die Interaktion mit Schaltfläche 2 ermöglicht
+-   bt02? : Es ist der Befehl, der die Interaktion mit Schaltfläche 2 ermöglicht
 
--   bt03 : Es ist der Befehl, der die Interaktion mit der Schaltfläche 3 ermöglicht
+-   bt03? : Es ist der Befehl, der die Interaktion mit der Schaltfläche 3 ermöglicht
 
--   bt04 : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
+-   bt04? : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
 
--   Batterie : Zeigt den Batteriestatus an
+-   Batterie? : Zeigt den Batterie?status an
 
 Information 
 ------------
@@ -154,12 +154,12 @@ verfügbar :
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation? : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie : Zeigt den Batteriestatus für Batteriemodule an
+-   Batterie? : Zeigt den Batterie?status für Batterie?module an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS? : Gibt den STATUS? des Moduls zurück
 
 Verwendung 
 -----------

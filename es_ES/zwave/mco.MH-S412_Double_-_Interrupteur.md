@@ -66,7 +66,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : Blanco, Blanca
+-   Color? : Blanco, Blanca?
 
 -   Suministro : 230 V, 50 Hz
 
@@ -78,9 +78,9 @@ Características técnicas
 
 -   Alcance : hasta 30 m
 
--   Dimensiones : 86 x 86 x 43 mm
+-   Dimensiones? : 86 x 86 x 43 mm
 
--   Visualización: LED azul / rojo
+-   Visualización?: LED azul / rojo
 
 \
 
@@ -91,7 +91,7 @@ Datos del módulo
 
 -   Hacer : MC HOME
 
--   Nombre : MH-S412 doble
+-   Nombre? : MH-S412 doble
 
 -   ID del fabricante : 351
 

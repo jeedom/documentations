@@ -24,7 +24,7 @@ Summary
 
 \
 
-Control your security system with this mini Zipato wall keypad
+Control your security system with this mini Zipato? wall keypad
 !
 
 With this Z-Wave compatible RFID keyboard, you will be able to activate or
@@ -44,7 +44,7 @@ Functions
 
 \
 
--   CODED and RFID keypad
+-   CODED? and RFID keypad
 
 -   Supports Z-Wave technology
 
@@ -68,7 +68,7 @@ Technical characteristics
 
 \
 
--   Type : Z-Wave slave
+-   Type? : Z-Wave slave
 
 -   Food : 2x AA 1.5V batteries
 
@@ -78,7 +78,7 @@ Technical characteristics
 
 -   RFID protocol : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Buzzer : 60dBa at 10 cm distance
+-   Buzzer? : 60dBa at 10 cm distance
 
 -   Storage temperature : -5 ° C to + 65 ° C
 
@@ -88,9 +88,9 @@ Technical characteristics
 
 -   Operating humidity : 30% to 80%
 
--   Dimensions : 62 x 62 x 20 mm
+-   Dimensions? : 62 x 62 x 20 mm
 
--   Certifications : Security : UL EMC : FCC, CE RoHS
+-   Certifications? : Security : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,13 +99,13 @@ Module data
 
 \
 
--   Mark : Zipato
+-   Mark? : Zipato?
 
--   Name : Zipato Mini Keypad RFID
+-   Name : Zipato? Mini Keypad RFID
 
 -   Manufacturer ID : 151
 
--   Product Type : 24881
+-   Product Type? : 24881
 
 -   Product ID : 17665
 
@@ -143,7 +143,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -163,10 +163,10 @@ Here is the list of commands :
 -   ACTION : it is the command which will go up the home / away (5 for away 6
     for home)
 
--   Sabotage : this is the sabotage command (it is triggered in
+-   Sabotage? : this is the sabotage command (it is triggered in
     tearing out)
 
--   CODED : displays the badge or keypad code when the code entered
+-   CODED? : displays the badge or keypad code when the code entered
     is not in one of the memories
 
 -   Drums : it's the battery command
@@ -180,7 +180,7 @@ Here is the list of commands :
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+> inclusion?.
 
 \
 
@@ -221,7 +221,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups? 
 
 \
 
@@ -259,7 +259,7 @@ This allows you to add codes. You will see a table there.
 \
 
 -   This table allows you to view the memories occupied on your
-    keyboard
+    keyboard?
 
 -   To register a new code click on the green button on the
     desired memory and follow the steps
@@ -333,7 +333,7 @@ To wake up this module there are two ways to proceed :
 
 -   press the tamper button then release after 1 to 2 seconds
 
--   press Home, a random number and Enter
+-   press Home, a random number and Enter?
 
 \
 

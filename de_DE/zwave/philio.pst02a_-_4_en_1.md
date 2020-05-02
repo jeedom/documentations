@@ -75,9 +75,9 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz
+-   Selbstschutz?
 
--   Anzeige für niedrigen Batteriestand
+-   Anzeige für niedrigen Batterie?stand
 
 -   Klein, diskret und ästhetisch
 
@@ -92,7 +92,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 CR123A 3V Batterie
+-   Versorgung : 1 CR123A 3V Batterie?
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -108,13 +108,13 @@ Technische Daten
 
 -   PIR-Erfassungsbereich : 8 bis 10 m
 
--   Abmessungen :
+-   Abmessungen? :
 
 -   Detektor : 28 x 96 x 23 mm
 
 -   Magnet : 10 x 50 x 12 mm
 
--   Gewicht : 52 g
+-   Gewicht? : 52 g?
 
 -   Betriebstemperatur : -10 bis 40 ° C.
 
@@ -133,7 +133,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Name : PST02-A 4-in-1-Multisensor
+-   Name? : PST02-A 4-in-1-Multisensor
 
 -   Hersteller ID : 316
 
@@ -173,7 +173,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Befehle? 
 
 \.
 
@@ -192,18 +192,18 @@ Hier ist die Liste der Befehle :
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung
+-   Öffnung? : Es ist der Befehl, der eine Erkennung auslöst
+    Öffnung?
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-   Sabotage? : Dies ist der Sabotage?befehl (er wird ausgelöst in
     herausreißen)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -214,7 +214,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -271,7 +271,7 @@ Parameterdetails :
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
 
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterie?berichten definieren (einer
     Einheit = Parameter 20)
 
 -   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
@@ -287,14 +287,14 @@ Parameterdetails :
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
-    Bericht
+    Bericht?
 
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
     Empfohlenen Wert melden : 10
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 
@@ -327,7 +327,7 @@ Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
+-   Lassen Sie die Sabotage?-Taste los und drücken Sie sie erneut
 
 \.
 
@@ -336,11 +336,11 @@ Faq.
 
 \.
 
-Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
+Dieses Modul wird durch Drücken der Sabotage?-Taste aktiviert.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

@@ -22,7 +22,7 @@ Choose the option Enable L2TP / IPsec VPN server
 
 In Dynamic IP Address, enter a number that will correspond to the sub
 network for assigning the IPs of your devices in VPN on the internal network
-from your place. NB : do not choose the same thing as the
+from your place. NB? : do not choose the same thing as the
 default subnet of your box ex at free the subnet of
 machines is 192.168.1.0 so in the example we put 2
 
@@ -30,7 +30,7 @@ Then enter the maximum number of connections you want to allow
 on the VPN server, then the maximum number of simultaneous connections
 for a user
 
-Finally enter a sharing key NB : it is a password that he
+Finally enter a sharing key NB? : it is a password that he
 will have to enter the VPN configuration on the mobile or tablet.
 
 Then apply

@@ -162,7 +162,7 @@ ESXi update
 =====================
 
 The procedure is quite easy, you must first recover the patch
-going [here](https://my.vmware.com/group/vmware/patch#search) (he
+going [here](https://my.vmware.com/group/vmware/patch#search) (he?
 you will probably have to log in with your Vmware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
 face leave the latest version of Vmware and do "Search". Then
@@ -177,7 +177,7 @@ Then transfer the zip to one of your datastores and make :
 > **Note**
 >
 > Replace the path and the zip name according to your
-> Setup
+> Setup?
 
 > **Important**
 >
@@ -257,7 +257,7 @@ of the destination) you must put the IP of the ESXi
 > Once you've done that and your DNS is pointing correctly
 > on the NAS you can generate a valid SSL certificate for free
 > with Let's encrypt, by going to Secrity ⇒ certificate and doing
-> Add. Then don't forget to click on configure to
+> Add?. Then don't forget to click on configure to
 > assign it to your reverse proxy
 
 Then to access your ESXi you just need with your browser

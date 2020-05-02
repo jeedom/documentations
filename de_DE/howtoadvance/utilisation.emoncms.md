@@ -33,7 +33,7 @@ Mit Parametern :
 
 -   Identifikation : Die auf Emoncms gefundene Feed-ID
 
--   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
+-   apikey? : der API-Schlüssel zum Lesen und Schreiben für Emoncms
 
 -   Wert : Sie müssen * Wert * für Jeedom hinterlassen, um die zu senden
     Wert der Info

@@ -57,7 +57,7 @@ Funktionen
 
 -   Z-Wave Rauchmelder
 
--   Batteriebetrieben
+-   Batterie?betrieben
 
 -   Einstellbare Sensorempfindlichkeit (3 Stufen)
 
@@ -73,7 +73,7 @@ Funktionen
 
 -   Entspricht der Norm EN 14604:2005
 
--   Z-Wave Mehr kompatibel
+-   Z-Wave Mehr? kompatibel
 
 -   Sehr einfache Installation - installieren Sie es einfach an einem Ort
     oder es besteht Brandgefahr
@@ -110,9 +110,9 @@ Technische Daten
 
 -   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 55 ° C)
 
--   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
+-   Standards? : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
--   Zertifizierungen : EN 14604:2005
+-   Zertifizierungen? : EN 14604:2005
 
 \.
 
@@ -185,7 +185,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-   Sabotage? : Dies ist der Sabotage?befehl. Es signalisiert die Öffnung
     des Falles
 
 -   Testalarm : Es ist der Befehl, der die Tatsache aufzeigt, dass das Modul
@@ -194,7 +194,7 @@ Hier ist die Liste der Befehle :
 -   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst
     (noch nicht zuverlässig)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -205,7 +205,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -240,7 +240,7 @@ Parameterdetails :
 -   1: Passt die Empfindlichkeit der Raucherkennung an
 
 -   2: Hier können Sie auswählen, welche Benachrichtigungen an Jeedom gesendet werden sollen
-    (Rat : alle)
+    (Rat : alle)?
 
 -   3: Hier können Sie auswählen, welche Benachrichtigungen von einem begleitet werden sollen
     visuelle Anzeige
@@ -250,11 +250,11 @@ Parameterdetails :
     das Modul klingelt)
 
 -   10: Ändern Sie diese Einstellung nur, wenn Sie wissen, was Sie tun
-    tun
+    tun?
 
--   11: idem
+-   11: idem?
 
--   12: idem
+-   12: idem?
 
 -   13: ermöglicht das Benachrichtigen anderer zwave-Module (zum Deaktivieren, es sei denn
     Sie wissen, warum Sie es aktivieren)
@@ -272,7 +272,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 
@@ -320,7 +320,7 @@ Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

@@ -24,7 +24,7 @@ Resumen
 
 \
 
-Controle su sistema de seguridad con este mini teclado de pared Zipato
+Controle su sistema de seguridad con este mini teclado de pared Zipato?
 !
 
 Con este teclado RFID compatible con Z-Wave, podrá activar o
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Protocolo RFID : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Zumbador : 60dBa a 10 cm de distancia
+-   Zumbador? : 60dBa a 10 cm de distancia
 
 -   Temperatura de almacenamiento : -5 ° C a + 65 ° C
 
@@ -90,7 +90,7 @@ Características técnicas
 
 -   Dimensiones : 62 x 62 x 20 mm
 
--   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
+-   Certificaciones? : Seguridad : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,9 +99,9 @@ Datos del módulo
 
 \
 
--   Hacer : Zipato
+-   Hacer? : Zipato?
 
--   Nombrebre : Mini teclado Zipato RFID
+-   Nombre?bre : Mini teclado Zipato? RFID
 
 -   ID del fabricante : 151
 
@@ -143,7 +143,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -163,10 +163,10 @@ Aquí está la lista de comandos :
 -   Acción : es el comando que subirá a casa / fuera (5 para fuera 6
     para el hogar)
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
+-   Sabotaje? : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   CODIGO : muestra la insignia o el código del teclado cuando se ingresa el código
+-   CODIGO? : muestra la insignia o el código del teclado cuando se ingresa el código
     no está en uno de los recuerdos
 
 -   Batería : es el comando de la batería
@@ -180,7 +180,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 
@@ -221,7 +221,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 
@@ -259,7 +259,7 @@ Esto le permite agregar códigos. Verás una mesa allí..
 \
 
 -   Esta tabla le permite ver los recuerdos ocupados en su
-    teclado
+    teclado?
 
 -   Para registrar un nuevo código, haga clic en el botón verde en el
     memoria deseada y siga los pasos

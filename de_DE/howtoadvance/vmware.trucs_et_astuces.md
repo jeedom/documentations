@@ -149,7 +149,7 @@ Klicken Sie dann auf den Link "vSphere Client für Windows herunterladen"" :
 Einmal heruntergeladen, müssen Sie nur die Installation starten (ich passiere
 freiwillig in diesem Teil, weil es ausreicht, alles zu validieren).
 
-Starten Sie dann VMware vSphere Client, den Sie haben sollten :
+Starten Sie dann VMware? vSphere Client, den Sie haben sollten :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -162,10 +162,10 @@ ESXi-Update
 =====================
 
 Das Verfahren ist recht einfach, Sie müssen zuerst den Patch wiederherstellen
-gehen [hier](https://my.vmware.com/group/vmware/patch#search) (er
-Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden.. Auf dem
+gehen [hier](https://my.vmware.com/group/vmware/patch#search) (er?
+Sie müssen sich wahrscheinlich mit Ihrem VMware?-Konto anmelden.. Auf dem
 In der Liste "Produkt auswählen" geben Sie "ESXi (eingebettet und installierbar)" ein
-Verlassen Sie die neueste Version von VMware und führen Sie "Suchen" durch. Dann
+Verlassen Sie die neueste Version von VMware? und führen Sie "Suchen" durch. Dann
 Laden Sie den gewünschten Patch herunter (normalerweise den letzten).. Die Build-Nummer (die
 Die erste Ausgabe, die nicht mit KB beginnt, gibt Ihnen die Version der
 Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
@@ -177,7 +177,7 @@ Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
 > **Note**
 >
 > Ersetzen Sie den Pfad und den Postleitzahlnamen entsprechend Ihrer
-> Konfiguration
+> Konfiguration?
 
 > **Important**
 >
@@ -257,7 +257,7 @@ des Ziels) müssen Sie die IP des ESXi eingeben
 > Sobald Sie dies getan haben und Ihr DNS richtig zeigt
 > Auf dem NAS können Sie kostenlos ein gültiges SSL-Zertifikat erstellen
 > mit Lassen Sie uns verschlüsseln, indem Sie zu Secrity ⇒ Zertifikat gehen und dies tun
-> Hinzufügen. Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
+> Hinzufügen?. Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
 > Weisen Sie es Ihrem Reverse-Proxy zu
 
 Um dann auf Ihr ESXi zuzugreifen, benötigen Sie nur Ihren Browser
@@ -268,7 +268,7 @@ bon.
 >
 > Wenn Sie über den NAS-Reverse-Proxy gehen, befindet sich die Konsole im Web-Modus von
 > VMs funktionieren jedoch nicht (da sie über den Websocket übertragen werden)
-> Wenn Sie VMware Remote Console verwenden, sollte alles in Ordnung sein (dies
+> Wenn Sie VMware? Remote Console verwenden, sollte alles in Ordnung sein (dies
 > geht durch Port 902)
 
 > **Note**
@@ -279,7 +279,7 @@ bon.
 SSL-Zertifikat 
 ==============
 
-Es ist möglich, VMware-Zertifikate direkt in zu importieren
+Es ist möglich, VMware?-Zertifikate direkt in zu importieren
 Ihr PC hat den Alarm nicht mehr.
 
 Damit ist es notwendig :

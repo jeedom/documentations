@@ -2,23 +2,23 @@
 
 ![module](images/emv.400/module.jpg)
 
--   **The Jeedom visual**
+-   **The Jeedom? visual**
 
 ![vue default](images/emv.400/vue_default.jpg)
 
 Summary 
 ======
 
-The EMV-400 micromodule will allow you to manage an engine
+The E?MV-400? micromodule will allow you to manage an engine
 bidirectional or electrical equipment. It allows control
 2 Start / STOP outputs or an Open / STOP / Close shutter.
 
 In addition, interaction with other protocols is possible, it is
 controllable by brand switches and / or remote controls
-Edisio, directly from Jeedom, but also by any
+Edisio, directly from Jeedom?, but also by any
 Z-Wave transmitter in your network.
 
-Each Edisio module on the electrical network, with the possibility of
+Each E?disio module on the electrical network, with the possibility of
 work as a wireless repeater with the other modules, so
 ensure total coverage of your home.
 
@@ -55,14 +55,14 @@ Functions
 
 -   Small, discreet and aesthetic
 
--   Ease of use and Setup
+-   E?ase of use and Setup?
 
 Technical characteristics 
 ===========================
 
--   Type of module: Edisio receiver
+-   Type of module: E?disio receiver
 
--   Food: 230VAC, 50Hz
+-   Food?: 230VAC, 50Hz
 
 -   Wiring: 4 wires, 2 for controls and 2 for power
 
@@ -72,39 +72,39 @@ Technical characteristics
 
 -   Maximum power: 2A per output
 
--   Resistive load: 460W
+-   Resistive load: 460W?
 
--   Other expenses: 100W
+-   Other expenses: 100W?
 
 -   Operating temperature: -10 ° C + 45 ° C
 
--   Dimensions: 48x46x26mm
+-   Dimensions?: 48x46x26mm
 
--   Degree of protection: IP20
+-   Degree of protection: IP20?
 
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark? : E?disio Smart Home
 
--   Name : EMV-400
+-   Name? : E?MV-400?
 
 General configuration 
 ======================
 
-To configure the Edisio plugin and associate a module with Jeedom,
+To configure the E?disio plugin and associate a module with Jeedom?,
 refer to this
 [Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
-> To have Jeedom automatically create your transmitter modules, remember
+> To have Jeedom? automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
 
 > **Important**
 >
-> Conversely, Edisio receivers must be created manually in
-> Jeedom.
+> Conversely, E?disio receivers must be created manually in
+> Jeedom?.
 
 DIP Switch and button "R" : 
 --------------------------
@@ -120,7 +120,7 @@ DIP Switch and button "R" :
 >
 > To avoid unnecessary redundancies, never activate the mode
 > "Repeater "on all receivers, maximum 5 receivers per
-> Setup.
+> Setup?.
 
 -   The button "R", will allow to associate a transmitter to the receiver,
     activate or deactivate the timer function and activate the mode
@@ -173,16 +173,16 @@ Electrical configuration and connections :
 > **Important**
 >
 > In order for the module to be in "Shutter" mode, the DIP Switch 2 must be in
-> Low
+> Low?
 
 > **Important**
 >
 > NEVER CONNECT UNDER VOLTAGE
 
-Creation of the module in Jeedom 
+Creation of the module in Jeedom? 
 ------------------------------
 
-To associate an Edisio receiver module with Jeedom, you must create
+To associate an E?disio receiver module with Jeedom?, you must create
 equipment manually.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -218,46 +218,46 @@ Here is the list of commands :
 
 -   Go down : This is the command that closes the shutter
 
--   E : This is the command that allows you to use the remote mode
+-   E? : This is the command that allows you to use the remote mode
 
 > **Important**
 >
-> STATUS feedback is simulated by Jeedom. Therefore, if you
-> use another transmitter, Jeedom will not be able to update the status
+> STATUS? feedback is simulated by Jeedom?. Therefore, if you
+> use another transmitter, Jeedom? will not be able to update the status
 > of the receiver.
 
 Information 
 ------------
 
-Once your equipment is associated with Jeedom, various information will be
+Once your equipment is associated with Jeedom?, various information will be
 available :
 
 ![Commands](images/emv.400/infos_moteur.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
-    Jeedom and the micro-module
+-   Communication? : Indicates the last communication recorded between
+    Jeedom? and the micro-module
 
 -   Drums : Indicates the battery status for battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS? : Returns the status of the module
 
-Association of the micromodule with Jeedom 
+Association of the micromodule with Jeedom? 
 ===================================
 
-So that you can interact with Jeedom, as if it were a
+So that you can interact with Jeedom?, as if it were a
 Edisio transmitter.
 
 > **Note**
 >
-> One of the big advantages of Edisio is that a receiver can have
+> One of the big advantages of E?disio is that a receiver can have
 > several associated issuers
 
 Standard method 
 ----------------
 
-Each output must be associated with a Jeedom command:
+Each output must be associated with a Jeedom? command:
 
 -   Associate output 1 :
 
@@ -265,8 +265,8 @@ Each output must be associated with a Jeedom command:
         in repetition) signals the programming of output 1 activated.
 
     -   Within 10 seconds, press "Test" on the "Open" command"
-        in Jeedom, a continuous beep signals the association of
-        exit 1 at Jeedom.
+        in Jeedom?, a continuous beep signals the association of
+        exit 1 at Jeedom?.
 
     -   Within 10 sec, press "R" again on the receiver, to
         confirm the association, the beep stops.
@@ -277,8 +277,8 @@ Each output must be associated with a Jeedom command:
         in repetition) signals the programming of output 2 activated.
 
     -   Within 10 seconds, press "Test" on the "Close" command"
-        in Jeedom, a continuous beep signals the association of
-        exit 2 at Jeedom.
+        in Jeedom?, a continuous beep signals the association of
+        exit 2 at Jeedom?.
 
     -   Within 10 sec, press "R" again on the receiver, to
         confirm the association, the beep stops.
@@ -286,12 +286,12 @@ Each output must be associated with a Jeedom command:
 > **Note**
 >
 > There is no need to associate the "Stop" command, it is done
-> automatically.
+> automatically?.
 
 Remote method 
 ----------------
 
-We talked about it at the beginning of this Documentation, in the case of
+We talked about it at the beginning of this Documentation?, in the case of
 modules already embedded in false ceilings or even attics. This
 method allows the addition of a new transmitter without accessing the "R" of the
 receiver.
@@ -302,20 +302,20 @@ receiver.
         in repetition) indicates the active programming mode.
 
     -   Within 10 seconds, press "Test" on the "E" command in
-        Jeedom, a continuous beep signals the association with Jeedom.
+        Jeedom?, a continuous beep signals the association with Jeedom?.
 
     -   Within 10 sec, press "E" again on the receiver, to
         confirm the association, the beep stops.
 
-It's done, your Jeedom is now associated and its command "E"
+It's done, your Jeedom? is now associated and its command "E"
 now replaces the "R" button on the receiver.
 
--   Associate a new transmitter with a receiver with Jeedom already associated
+-   Associate a new transmitter with a receiver with Jeedom? already associated
     :
 
-    -   Exit 1 :
+    -   E?xit 1 :
 
-        -   Press 1x on "Test" the command "E" in Jeedom, simple
+        -   Press 1x on "Test" the command "E" in Jeedom?, simple
             beep (short in repetition) signals the programming of
             output 1 activated.
 
@@ -324,12 +324,12 @@ now replaces the "R" button on the receiver.
             the association of exit 1.
 
         -   Within 10 seconds, press "Test" again on the
-            command "E" in Jeedom, to validate the association, the beep
+            command "E" in Jeedom?, to validate the association, the beep
             sound stops.
 
-    -   Exit 2 :
+    -   E?xit 2 :
 
-        -   Press 2x on "Test" of the command "E" in Jeedom,
+        -   Press 2x on "Test" of the command "E" in Jeedom?,
             double beep (short in repetition) signals the
             programming of output 2 activated.
 
@@ -338,7 +338,7 @@ now replaces the "R" button on the receiver.
             the association of exit 2.
 
         -   Within 10 seconds, press "Test" again on the
-            command "E" in Jeedom, to validate the association, the beep
+            command "E" in Jeedom?, to validate the association, the beep
             sound stops.
 
 > **Note**
@@ -360,10 +360,10 @@ How to clear receiver memory ?
 
 How to control the receiver via a Z-Wave transmitter?
 
-:   With the Jeedom Scenario plugin.
+:   With the Jeedom? Scenario plugin.
 
 How can i have the same visual ?
 
-:   With the Jeedom Widgets plugin.
+:   With the Jeedom? Widgets plugin.
 
 **@Jamsta**

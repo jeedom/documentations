@@ -1,4 +1,4 @@
-Swiid Switch - SwiidInter 
+Swiid Switch - Swiid?Inter? 
 ===============================
 
 \
@@ -32,20 +32,20 @@ It can be used both manually like any
 ordinary and remote cord switch via controller
 Z-Wave.
 
-The SwiidInter switch also offers association possibilities
+The Swiid?Inter? switch also offers association possibilities
 and this two-way. Thus, it can be operated automatically by a
-other Z-WAVE device on the same network, such as the
+other Z-WAVE? device on the same network, such as the
 presence detector triggered. Conversely with support
 short or with a long press it can control two separate groups of
 Z-WAVE devices associated with it : for example every
 other lights in the room where your switch is located
 SwiidInter.
 
-The SwiidInter switch is installed exactly like a switch
+The Swiid?Inter? switch is installed exactly like a switch
 on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
-integrate into a Z-WAVE "network", this network can be as simple
-only one remote control that controls your SwiidInter switch to
+integrate into a Z-WAVE? "network", this network can be as simple
+only one remote control that controls your Swiid?Inter? switch to
 distance.
 
 \
@@ -66,7 +66,7 @@ Functions
 -   Activation of a home automation scenario on long press
     (Z-WAVE association)
 
--   Dimensions comparable to an ordinary cord switch
+-   Dimensions? comparable to an ordinary cord switch
 
 -   Installs like an ordinary cord switch
 
@@ -79,29 +79,29 @@ Technical characteristics
 
 \
 
--   Type of module : Z-WAVE receiver
+-   Type of module : Z-WAVE? receiver
 
--   Color : black
+-   Color : black?
 
--   Food: 230V ± 10% - 50Hz
+-   Food?: 230V ± 10% - 50Hz
 
--   Max power : 660W
+-   Max power : 660W?
 
--   Consumption : &lt; 0,08W
+-   Consumption? : &lt; 0,08W
 
--   Protection sign: IP20
+-   Protection sign: IP20?
 
--   Radio protocol: Z-WAVE® (SDK 4.55)
+-   Radio protocol: Z-WAVE?® (SDK 4.55)
 
 -   Radio frequency : 868.42 MHz (EU)
 
--   Dist. transmission: Up to 30m indoors (depends on materials)
+-   Dist?. transmission?: Up to 30m indoors (depends on materials)
 
--   Temp. operation : 0 - 40 ° C
+-   Temp?. operation : 0 - 40 ° C
 
 -   On / off display : Blue LEDs
 
--   Dimensions : 84 x 32 x 29 mm
+-   Dimensions? : 84 x 32 x 29 mm
 
 -   EU standards : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : Swiid
+-   Mark : Swiid?
 
--   Name : SwiidInter
+-   Name? : Swiid?Inter??
 
 -   Manufacturer ID : 358
 
@@ -138,7 +138,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> on the back, in accordance with its paper Documentation
+> on the back, in accordance with its paper Documentation?
 
 \
 
@@ -154,7 +154,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -217,12 +217,12 @@ swiidinter to another module (long press)
 
 \
 
--   Inactive : will have no effect on other lights
+-   Inactive? : will have no effect on other lights
 
 -   Only Off : will be effective only to turn off others
     Lights
 
--   We WeLY : will be effective only to turn on the others
+-   We We?LY : will be effective only to turn on the others
     Lights
 
 -   We and Off (fully) : will be effective to turn on and off the

@@ -1,6 +1,6 @@
 # SMS / Cloud-Anrufe
 
-## Beschreibung
+## Beschreibung?
 
 Es handelt sich um einen kostenpflichtigen Jeedom SAS-Dienst, mit dem Sie von Ihrem Jeedom aus SMS senden und Anrufe (mit von einem Roboter gelesenen Nachrichten) tätigen können.
 

@@ -5,13 +5,13 @@ Welcome to this first step documentation, it will help you to put your Jeedom in
 
 ## Registration on the market
 
-The first thing to do is to create an account on the Market to be able to register your Jeedom on it. Click [here](https://market.jeedom.com/).
+The first thing to do is to create an account on the Market? to be able to register your Jeedom on it. Click [here](https://market.jeedom.com/).
 
 Click on the "Register" button at the top left:
 
-![S'enregistrer sur le Market](images/FirstStep_market1.jpg)
+![S'enregistrer sur le Market?](images/FirstStep_market1.jpg)
 
-Fill in the different fields and validate. You should then be in your Market account:
+Fill in the different fields and validate. You should then be in your Market? account:
 
 ![Market](images/FirstStep_market2.jpg)
 
@@ -26,13 +26,13 @@ If you bought a Jeedom box then you should have received an email containing a c
 
 > **Important**
 >
-> If you buy a service pack from the Jeedom Market you have nothing to do, it is automatically assigned to you.
+> If you buy a service pack from the Jeedom Market? you have nothing to do, it is automatically assigned to you.
 
-Once the code is retrieved in the mail, you just need to go to the [Jeedom Market](https://market.jeedom.com/) and identify yourself.
+Once the code is retrieved in the mail, you just need to go to the [Jeedom Market?](https://market.jeedom.com/) and identify yourself.
 
 Then go to your profile page:
 
-![Profil Market](images/FirstStep_market_sp1.jpg)
+![Profil Market?](images/FirstStep_market_sp1.jpg)
 
 Then click on the "My services" tab, and enter your service pack number and validate.
 
@@ -60,7 +60,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 
 #### By your internet box
 
--   Go to the administration interface of your internet box and look for Jeedom in your network devices.
+-   Go to the admin?istration interface of your internet box and look for Jeedom in your network devices.
 
 -   Get his IP.
 
@@ -74,7 +74,7 @@ Whichever method is used, you will then arrive on the Login page. By default the
 
 ## Link my Jeedom to my market account
 
-We will see here how to link your Jeedom to your Market account.
+We will see here how to link your Jeedom to your Market? account.
 
 -   Once connected to your jeedom, you must go to Administration → Configuration
 
@@ -105,11 +105,11 @@ Then go to the "Networks" part"
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market
+Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market?
 
 > **Important**
 >
-> If you have just linked your Jeedom to your Market account, you must wait 24 to 48 hours before being able to use the DNS service.
+> If you have just linked your Jeedom to your Market? account, you must wait 24 to 48 hours before being able to use the DNS service.
 
 ## Change Jeedom's default password
 
@@ -130,7 +130,7 @@ In Jeedom, it can be anything and everything, but it is recommended to do it acc
 
 > **Tip**
 >
-> It is possible to define relationships between objects. Example: the living room belongs to the ground floor object which itself belongs to the house object.
+> It is possible to define relationships between objects. Example?: the living room belongs to the ground floor object which itself belongs to the house object.
 
 Nothing could be simpler to create an object :
 
@@ -148,7 +148,7 @@ For more information on this part, see * User manual -> Object*.
 
 A plugin allows to add functionality to Jeedom. There are hundreds. Many are free, others may be chargeable. To access the plugins page go to Plugins → Plugins management.
 
-Then just click on Market:
+Then just click on Market?:
 
 You will then have the list of all plugins that can be installed.
 
@@ -176,7 +176,7 @@ You then find :
 
 For more information on plugins, * User manual -> Plugin*.
 
-# Support
+# Support?
 
 
 Jeedom tackles very wide fields and evolving from day to day.
@@ -189,19 +189,19 @@ You will find it [here](https://community.jeedom.com/).
 The forum is very active and contains a lot of information. If you have a question, don't hesitate to ask it. You will have an answer in less than an hour (on average). Please note, the forum is maintained by the Jeedom community, made up of volunteers, and not by the Jeedom company..
 
 
-## Support requests (or tickets)
+## Support? requests (or tickets)
 
 > **Important**
 >
-> Please note, all support requests must have an account on the Market.
+> Please note, all support requests must have an account on the Market?.
 
 If you have not found a solution to your problem, as a last resort, you can request support from the Jeedom team.. This request goes through a ticket. There are several ways to open one.:
 
--   Directly from Jeedom (recommended method): Settings menu → Support request.
+-   Directly from Jeedom (recommended method): Settings menu → Support? request.
 
--   If for some reason you do not have access to your Jeedom, you can always open a ticket from the Market :
+-   If for some reason you do not have access to your Jeedom, you can always open a ticket from the Market? :
 
-    -   Either by clicking on your name then on * Support request*,
+    -   Either by clicking on your name then on * Support? request*,
 
     -   either by going to your profile, then in the section **Tickets**, use the button "Open a support request".
 
@@ -215,7 +215,7 @@ All further exchanges will be by email.
 
 The different service packs are :
 - Community (free): 2 tickets / month (on paid plugins only)
-- Power: 10 tickets / month
-- Pro: 100 tickets / month
+- Power?: 10 tickets / month
+- Pro?: 100 tickets / month
 
 You can find the detail of the service packs [here](https://www.jeedom.com/site/fr/soft.html#obtenir)

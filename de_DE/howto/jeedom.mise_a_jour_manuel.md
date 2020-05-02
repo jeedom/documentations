@@ -13,7 +13,7 @@ Voraussetzungen
 > **Important**
 >
 > Denken Sie daran, vor jedem Update ein Backup zu erstellen und zu exportieren
-> Handbuch.
+> Handbuch?.
 
 Herunterladen und entpacken 
 ===============================

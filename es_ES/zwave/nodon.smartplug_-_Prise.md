@@ -1,4 +1,4 @@
-Enchufe inteligente Mediodía - Smartplug 
+Enchufe inteligente Mediodía? - Smartplug? 
 ====================================
 
 \
@@ -44,14 +44,14 @@ Funciones
 
 -   Detección de pérdida de corriente de línea
 
--   Ergonómico: Posibilidad de enchufar la cabeza arriba / enchufe de la cabeza
-    Bajo
+-   Ergonómico?: Posibilidad de enchufar la cabeza arriba / enchufe de la cabeza
+    Bajo?
 
 -   Gestión inteligente de alarmas
 
 -   Alcance de radio mejorado
 
--   Amperaje máximo: 16A
+-   Amperaje máximo: 16A?
 
 \
 
@@ -65,14 +65,14 @@ Características técnicas
 -   Potencia máxima : 3000W continuo / 3500W cíclico
     (Carga resistiva) Consumo intrínseco : &lt;1W
 
--   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m?
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.01
 
 -   Alcance: 40m interior / 80m exterior
 
--   Dimensiones: 104 \* 51 \* 36 mm
+-   Dimensiones?: 104 \* 51 \* 36 mm?
 
 -   2 años de garantia
 
@@ -85,9 +85,9 @@ Datos del módulo
 
 \
 
--   Hacer : Mediodía
+-   Hacer : Mediodía?
 
--   Nombrebre : Smartplug
+-   Nombre?bre : Smartplug?
 
 -   ID del fabricante : 357
 
@@ -112,7 +112,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > hasta que la luz se vuelva roja, de acuerdo con su documentación
-> papel.
+> papel?.
 
 \
 
@@ -145,12 +145,12 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Es el comando que permite conocer el estado de la
+-   Estado? : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
 
--   Uno : Este es el comando que enciende la salida
+-   Uno? : Este es el comando que enciende la salida
 
--   Apagado : Es el comando que hace posible extinguir la captura.
+-   Apagado? : Es el comando que hace posible extinguir la captura.
 
 -   Estado : Se usa para averiguar si la toma de corriente está alimentada o no
     (Detección de falla de energía / desconexión)

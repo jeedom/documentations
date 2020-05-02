@@ -67,7 +67,7 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotección
+-   Autoprotección?
 
 -   Indicación de batería baja
 
@@ -82,9 +82,9 @@ Características técnicas
 
 \
 
--   Puntao de módulo : Transmisor de onda Z
+-   Punta?o de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería CR123A 3V
+-   Suministro? : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -100,9 +100,9 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones : 28 x 96 x 23 mm
+-   Dimensiones? : 28 x 96 x 23 mm
 
--   Peso : 39g
+-   Peso? : 39g?
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
@@ -119,13 +119,13 @@ Datos del módulo
 
 \
 
--   Hacer : Philio Technology Corporation
+-   Hacer? : Philio Technology Corporation
 
--   Nombrebre : Philio PSP01
+-   Nombre?bre : Philio PSP01
 
 -   ID del fabricante : 316
 
--   Puntao de producto : 2
+-   Punta?o de producto : 2
 
 -   ID del producto : 2
 
@@ -181,14 +181,14 @@ Aquí está la lista de comandos :
 -   Presencia : es el comando que detectará una detección de presencia
 
 -   Apertura : es el comando que generará una detección
-    abriendo
+    abriendo?
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
+-   Sabotaje? : Este es el comando de sabotaje (se activa en
     arrancando)
 
 -   Batería : es el comando de la batería
@@ -205,7 +205,7 @@ correspondiente a su módulo.
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 

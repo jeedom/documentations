@@ -87,7 +87,7 @@ Technische Daten
 
 -   Integrierter TPI-Algorithmus
 
--   Relais: 3 (1) A 230V AC
+-   Relais?: 3 (1) A 230V AC
 
 -   Einstellbarer Temperaturbereich: 5 ° C bis 30 ° C.
 
@@ -99,7 +99,7 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 50 m auf freiem Feld
 
--   Schutzindex : IP30
+-   Schutzindex : IP30?
 
 -   Betriebstemperatur : 0 ° C bis 40 ° C.
 
@@ -112,9 +112,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Horstmann
+-   Machen Sie : Horstmann?
 
--   Name : SRT 323 Elektronischer Raumthermostat und Temperatur
+-   Name? : SRT 323 Elektronischer Raumthermostat und Temperatur
 
 -   Hersteller ID : 89
 
@@ -168,7 +168,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Befehle? 
 
 \.
 
@@ -194,7 +194,7 @@ Hier ist die Liste der Befehle :
 -   Heizzustand : es ist der Befehl, der es ermöglicht zu wissen, ob die
     Thermostat ist im Heizmodus oder nicht
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -234,7 +234,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 
@@ -283,7 +283,7 @@ Faq.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

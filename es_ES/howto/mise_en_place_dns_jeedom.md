@@ -1,22 +1,22 @@
-# Implementación de Jeedom DNS
+# Implementación de Jeedom? DNS
 
-## Objetivo
+## Objetivo?
 
-Configure Jeedom DNS para que tenga acceso a su Jeedom externamente a través de una URL HTTPS
+Configure Jeedom? DNS para que tenga acceso a su Jeedom? externamente a través de una URL HTTPS
 
 > **IMPORTANT**
 >
->El Jeedom DNS actúa como un proxy inverso, por lo que solo le da acceso a su Jeedom en https, por lo tanto, no será posible acceder a su jeedom en SSH de forma remota con el Jeedom DNS
+>El Jeedom? DNS actúa como un proxy inverso, por lo que solo le da acceso a su Jeedom? en https, por lo tanto, no será posible acceder a su jeedom en SSH de forma remota con el Jeedom? DNS
 
 ## Requisitos previos
 
-Para tener acceso a Jeedom DNS es absolutamente necesario tener un paquete de servicio de energía o más.
+Para tener acceso a Jeedom? DNS es absolutamente necesario tener un paquete de servicio de energía o más.
 
-## Principio
+## Principio?
 
-El principio de DNS de Jeedom es muy simple, su Jeedom se conectará a uno de nuestros servidores VPN (conexión cifrada). Entonces este servidor en cuestión con nosotros hace "proxy inverso" durante la solicitud : toma su solicitud para conectarse a su libertad y se la transfiere.
+El principio de DNS de Jeedom? es muy simple, su Jeedom? se conectará a uno de nuestros servidores VPN (conexión cifrada). Entonces este servidor en cuestión con nosotros hace "proxy inverso" durante la solicitud : toma su solicitud para conectarse a su libertad y se la transfiere.
 
-Este principio tiene la ventaja de no exponer su Jeedom en Internet, no hay apertura de puerto para hacer.
+Este principio tiene la ventaja de no exponer su Jeedom? en Internet, no hay apertura de puerto para hacer.
 
 > **IMPORTANT**
 >
@@ -26,39 +26,39 @@ Actualmente tenemos 6 servidores DNS distribuidos en 2 máquinas físicas difere
 
 ## Configurar
 
-### Jeedom
+### Jeedom?
 
-Ahí es muy simple, debe conectar su Jeedom al mercado (consulte la documentación del primer paso). 
+Ahí es muy simple, debe conectar su Jeedom? al mercado (consulte la documentación del primer paso). 
 
-### Mercado
+### Mercado?
 
-Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = perfiles) y finalmente en la pestaña "Mis Jeedoms".
+Une fois votre Jeedom? lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = perfiles) y finalmente en la pestaña "Mis Jeedom?s".
 
-### Regreso a Jeedom
+### Regreso a Jeedom?
 
-Una vez que el estado del mercado en "Conexión posible", vaya a su Jeedom, en la administración de la misma vaya a la pestaña Redes y marque "Usar Jeedom DNS" y luego guarde.
+Una vez que el estado del mercado en "Conexión posible", vaya a su Jeedom?, en la administración de la misma vaya a la pestaña Redes y marque "Usar Jeedom? DNS" y luego guarde.
 
-Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom
+Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom?
 
 > **IMPORTANT**
 >
-> Puede cambiar esta URL yendo a la página de perfiles de su mercado y luego a mis Jeedoms. Tenga en cuenta que cualquier cambio demora 24 horas antes de ser efectivo
+> Puede cambiar esta URL yendo a la página de perfiles de su mercado y luego a mis Jeedom?s. Tenga en cuenta que cualquier cambio demora 24 horas antes de ser efectivo
 
-Aquí está su Jeedom accesible desde el exterior en https
+Aquí está su Jeedom? accesible desde el exterior en https
 
-## Preguntas frecuentes
+## Preguntas frecuentes?
 
 > **¿Hay necesidad de abrir puertos en mi caja?**
 >
-> No, no hay necesidad de abrir un puerto desde su caja de internet a su Jeedom. La conexión está en la dirección Jeedom -> VPN, por lo que es una conexión saliente (en los puertos 1194,1195,1996 y 1997) y no una conexión entrante.
+> No, no hay necesidad de abrir un puerto desde su caja de internet a su Jeedom?. La conexión está en la dirección Jeedom? -> VPN, por lo que es una conexión saliente (en los puertos 1194,1195,1996 y 1997) y no una conexión entrante.
 
-> **¿Por qué Jeedom DNS protege mi acceso?**
+> **¿Por qué Jeedom? DNS protege mi acceso?**
 >
-> Jeedom DNS le permite configurar algo muy importante, el acceso HTTPS, esto garantiza que la conexión entre su navegador y su Jeedom esté encriptada, además el certificado es válido, nadie podrá suplantar su Jeedom. Finalmente, la conexión VPN en su Jeedom y nuestros servidores también está encriptada.
+> Jeedom? DNS le permite configurar algo muy importante, el acceso HTTPS, esto garantiza que la conexión entre su navegador y su Jeedom? esté encriptada, además el certificado es válido, nadie podrá suplantar su Jeedom?. Finalmente, la conexión VPN en su Jeedom? y nuestros servidores también está encriptada.
 
-> **Cambié el puerto de escucha interno de mi Jeedom y el Jeedom DNS ya no funciona**
+> **Cambié el puerto de escucha interno de mi Jeedom? y el Jeedom? DNS ya no funciona**
 >
-> De hecho, el Jeedom DNS solo funciona si su Jeedom está escuchando en el puerto local 80 (todos los demás puertos están cerrados en la interfaz VPN cuando se conecta). Esto no plantea problemas de seguridad porque la VPN crea un túnel encriptado, por lo que incluso si el flujo está libre en el puerto 80, está encriptado en el túnel VPN.
+> De hecho, el Jeedom? DNS solo funciona si su Jeedom? está escuchando en el puerto local 80 (todos los demás puertos están cerrados en la interfaz VPN cuando se conecta). Esto no plantea problemas de seguridad porque la VPN crea un túnel encriptado, por lo que incluso si el flujo está libre en el puerto 80, está encriptado en el túnel VPN.
 
 > **No tengo la página de inicio de sesión pero no puedo iniciar sesión**
 >

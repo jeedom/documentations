@@ -39,7 +39,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung : 3VDC (CR2032 Lithiumbatterie)
+-   Versorgung? : 3VDC (CR2032 Lithiumbatterie)
 
 -   Kanäle : 1
 
@@ -51,16 +51,16 @@ Technische Daten
 
 -   Abmessungen : 65 x 18 mm
 
--   Schutzart : IP64
+-   Schutzart : IP64?
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie? : Edisio Smart Home
 
--   Name : ETC1
+-   Name? : ETC1?
 
 -   Referenz : P01 / Y01 / L01
 
@@ -86,7 +86,7 @@ So funktioniert die Fernbedienung :
 Batteriewechsel 
 -----------------------
 
-Gehen Sie wie folgt vor, um die Batterie Ihrer Fernbedienung auszutauschen
+Gehen Sie wie folgt vor, um die Batterie? Ihrer Fernbedienung auszutauschen
 :
 
 ![etc1.remplacement pile](images/etc1/etc1.remplacement-pile.jpg)
@@ -114,9 +114,9 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
+-   bt01? : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
--   Batterie : Zeigt den Batteriestatus an
+-   Batterie? : Zeigt den Batterie?status an
 
 Information 
 ------------
@@ -128,12 +128,12 @@ verfügbar :
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation? : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie : Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie? : Zeigt den Batterie?status der Batterie?module an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS? : Gibt den STATUS? des Moduls zurück
 
 Verwendung 
 -----------
@@ -144,6 +144,6 @@ und seine Ausrüstung.
 
 > **Note**
 >
-> Die Fernbedienung mit binärer STATUSrückmeldung.
+> Die Fernbedienung mit binärer STATUS?rückmeldung.
 
 **@Jamsta**

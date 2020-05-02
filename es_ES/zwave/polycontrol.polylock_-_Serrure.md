@@ -44,7 +44,7 @@ Poly-Control también puede funcionar con otras escenas de Z-Wave, donde
 las luces se encienden y el sistema de alarma se desactiva cuando
 desbloqueado a través de su control remoto.
 
-El sistema Poly-Control se puede utilizar en un entorno.
+El sistema Poly-Control? se puede utilizar en un entorno.
 doméstica o laboral. El Poly-Lock funciona con
 batería, y ha sido probado para funcionar durante 1 año, sin
 reemplazo de la batería.
@@ -61,7 +61,7 @@ Funciones
 -   Se adapta a la mayoría de las puertas
 
 -   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema
-    alarma
+    alarma?
 
 -   Adecuado para uso doméstico o comercial.
 
@@ -83,9 +83,9 @@ Características técnicas
 -   Alcance : hasta 100 m en exteriores, hasta 30 m en
     edificios
 
--   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
+-   Dimensiones? : 120 x 52 x 60 mm (largo x ancho x alto)
 
--   Peso : 370g
+-   Peso? : 370g?
 
 \
 
@@ -94,13 +94,13 @@ Datos del módulo
 
 \
 
--   Hacer : Poly-Control
+-   Hacer : Poly-Control?
 
--   Nombrebre : PolyLock
+-   Nombre?bre : PolyLock?
 
 -   ID del fabricante : 270
 
--   Puntao de producto : 1
+-   Punta?o de producto : 1
 
 -   ID del producto : 1
 
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -160,7 +160,7 @@ Aquí está la lista de comandos :
 
 -   Cerca : es el comando que hace posible cerrar la cerradura
 
--   Batería : es el comando de la batería
+-   Batería? : es el comando de la batería
 
 \
 
@@ -217,7 +217,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 

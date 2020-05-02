@@ -25,10 +25,10 @@ Apache supervision
         stop program = "/ etc / init.d / apache2 stop"
            if failed port 80 for 2 cycles then restart
 
-Nginx supervision (including Php-fpm) 
+Nginx supervision (including Php-fpm?) 
 =====================================
 
-    # Php-fpm
+    # Php-fpm?
     check process php5-fpm with pidfile /var/run/php5-fpm.pid
        start program = "/ etc / init.d / php5-fpm start"
        stop program = "/ etc / init.d / php5-fpm stop"

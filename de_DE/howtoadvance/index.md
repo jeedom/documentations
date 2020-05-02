@@ -1,23 +1,23 @@
-# Zusammenfassung
+# Zusammenfassung?
 
 - [Huawei GSM-Netzwerkmodus](/de_DE/howtoadvance/gsm.huawei_mode_carte_reseau)
 - [Huawei GSM Modem Modus](/de_DE/howtoadvance/gsm.huawei_mode_modem)
 - [Mariadb / Mysql Spitze und Spitze](/de_DE/howtoadvance/mysql.trucs_et_astuces)
 - [Github](/de_DE/howto/tuto.github)
 
-## Debian
+## Debian?
 
 - [Installation](/de_DE/howtoadvance/debian.installation)
 - [Tipps und Tricks](/de_DE/howtoadvance/debian.trucs_et_astuces)
 
-## VMware
+## VMware?
 
 - [Erstellen Sie eine VM](/de_DE/howtoadvance/vmware.creer_une_vm)
 - [Installation auf NUC](/de_DE/howtoadvance/vmware.installation_sur_nuc)
 - [Sichern / Wiederherstellen](/de_DE/howtoadvance/vmware.mise_en_place_des_backups)
 - [Tipp und Tipp](/de_DE/howtoadvance/vmware.trucs_et_astuces)
 
-## Archiv
+## Archiv?
 
 - [Android Autovoice](/de_DE/howtoadvance/android.autovoice)
 - [Monit installieren](/de_DE/howtoadvance/installation.monit)

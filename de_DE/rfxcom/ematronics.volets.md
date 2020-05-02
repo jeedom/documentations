@@ -23,13 +23,13 @@ Aktivieren Sie "Im Debug-Modus starten""
 Warten Sie, bis sich das Fenster öffnet, und drücken Sie dann die Taste Öffnen
 Ihre Ematronic-Fernbedienung.
 
-    MainThread - rfxcmd:2765 - DEBUG - Testnachricht: 09 19 03 01 1F 84 B9 01 01 60
+    MainThread - rfxcmd:2765 - DEBUG - Testnachricht: 09 19 03 01 1F? 84 B9 01 01 60
     MainThread - rfxcmd:2805 - DEBUG - Meldung OK
     MainThread - rfxcmd:328 - DEBUG - Verifiziert OK
     MainThread - rfxcmd:334 - DEBUG - PacketType: 19
     MainThread - rfxcmd:338 - DEBUG - SubType: 03
     MainThread - rfxcmd:342 - DEBUG - SeqNbr: 01
-    MainThread - rfxcmd:346 - DEBUG - Id1: 1F
+    MainThread - rfxcmd:346 - DEBUG - Id1: 1F?
     MainThread - rfxcmd:350 - DEBUG - Id2: 84
     MainThread - rfxcmd:359 - DEBUG - Überprüfen Sie die korrekte Paketlänge
     MainThread - rfxcmd:556 - DEBUG - Paket in log_msgfile speichern
@@ -41,9 +41,9 @@ Remarque: Ematronic-Fernbedienungen beginnen immer mit : 09 19 03
 Der Bereich, der uns interessiert, beginnt also mit "Testnachricht"" : 09 19 03.
 
 Spot : Id1 und Id2 und fügen Sie das folgende Hexadezimal hinzu : in meinem Beispiel
-Id1 = 1F und Id2 = 84. Sie sollten sie also in der Zeile "Test
+Id1 = 1F? und Id2 = 84. Sie sollten sie also in der Zeile "Test
 message "und extrahiere Id3, hier Id3 = B9, Unsere Fernbedienung hat
-als ID ⇒ 1F84B9.
+als ID ⇒ 1F?84B9.
 
 Stoppen Sie den Debug-Modus mit der Schaltfläche "Stop / Restart the Daemon"" 
 -----------------------------------------------------------------
@@ -79,7 +79,7 @@ Hier ist Ihre Fernbedienung fertig, sie sollte so aussehen :
 
 ![image05](images/volet.ematronic/image05.png)
 
-Verknüpfen Sie Ihre virtuell JeeDom-Fernbedienung mit Ihrer Ematronic-Engine: 
+Verknüpfen Sie Ihre virtuell? JeeDom-Fernbedienung mit Ihrer Ematronic-Engine: 
 ======================================================================
 
 Motor zurückgesetzt: 
@@ -101,7 +101,7 @@ Motor zurückgesetzt:
 
 -   Der Motor piept dreimal.
 
-Zuordnung der virtuelln JeeDom-Fernbedienung zum Ematronic-Motor: 
+Zuordnung der virtuell?n JeeDom-Fernbedienung zum Ematronic-Motor: 
 ====================================================================
 
 -   Den Motor elektrisch abklemmen.
@@ -115,7 +115,7 @@ Zuordnung der virtuelln JeeDom-Fernbedienung zum Ematronic-Motor:
 
 -   Der Motor piept 5 Mal.
 
--   Drücken Sie den Befehl "Mount" auf der virtuelln Fernbedienung von
+-   Drücken Sie den Befehl "Mount" auf der virtuell?n Fernbedienung von
     JeeDom. Bild::images / shutter.ematronic / image09.png \ [\]
 
 -   Die Engine piept dreimal, um anzuzeigen, dass Ihr JeeDoom zugeordnet ist

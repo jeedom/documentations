@@ -31,7 +31,7 @@ Geräte aus der Ferne über Webbrowser oder Smartphone. Verwenden von
 Mit der Z-Wave-Technologie ist die PowerNode-Steckdosenleiste kompatibel mit der
 Die meisten Hausautomationsboxen auf dem Markt wie Fibaro Home Center 2, eedomus
 oder Zipabox. Ausgestattet mit 6 Ports kann es 6 unabhängig steuern
-verschiedene Elektrogeräte mit einer Gesamtleistung von 10A.
+verschiedene Elektrogeräte mit einer Gesamtleistung von 10A?.
 
 Die PowerNode-Steckdosenleiste erfasst Verbrauchsdaten
 von Energie von angeschlossenen Geräten und überträgt sie an die Hausautomationsbox.
@@ -49,7 +49,7 @@ Vermeiden Sie ein versehentliches Ausschalten, sondern steuern Sie von der Box a
 Hausautomation wird nicht mehr möglich sein.
 
 Die PowerNode-Steckdosenleiste verfügt außerdem über eine Leuchtstatusanzeige
-Dies gibt je nach Farbe unterschiedliche Informationen : genommen
+Dies gibt je nach Farbe unterschiedliche Informationen : genommen?
 Ein oder Aus, begrenzte Funkreichweite, Einschluss- und Ausschlussmodus.
 
 Die PowerNode-Steckdosenleiste ist mit einem Schutz gegen ausgestattet
@@ -90,9 +90,9 @@ Technische Daten
 
 \.
 
--   Versorgung : 250 V AC, 50 Hz
+-   Versorgung? : 250 V AC, 50 Hz
 
--   Maximaler Ladestrom : 10A
+-   Maximaler Ladestrom : 10A?
 
 -   Maximale Lastleistung : 2400 W (bei 240 V)
 
@@ -100,13 +100,13 @@ Technische Daten
 
 -   Messgenauigkeit : ± 0,1 W.
 
--   Überstromschutz : 10A interne Sicherung
+-   Überstromschutz : 10A? interne Sicherung
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868,42 MHz
+-   Z-Wave-Radiofrequenz : 868,42 MHz?
 
--   Maximale Reichweite Z-Wave : 30m
+-   Maximale Reichweite Z-Wave : 30m?
 
 -   Betriebstemperatur : 0 ° C bis + 25 ° C.
 
@@ -114,7 +114,7 @@ Technische Daten
 
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
 
--   IP-Klasse (Feuchtigkeitstoleranz) : IP20
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20?
 
 \.
 
@@ -123,9 +123,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Grünwelle
+-   Machen Sie : Grünwelle?
 
--   Name : Grünwelle \ [6 x Sockets \]
+-   Name? : Grünwelle \ [6 x Sockets \]
 
 -   Hersteller ID : 153
 
@@ -165,7 +165,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Befehle? 
 
 \.
 
@@ -193,79 +193,79 @@ Hier ist die Liste der Befehle :
 -   Zustand-1 : Es ist der Befehl, mit dem der Status des
     nimm 1
 
--   On-1 : Dies ist der Befehl, der Socket 1 einschaltet
+-   On-1? : Dies ist der Befehl, der Socket 1 einschaltet
 
 -   Aus-1 : Es ist der Befehl, der Socket 1 ausschaltet
 
 -   Power-1 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 1
 
--   Conso-1 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-1? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 1
 
--   Zustand-2 : Es ist der Befehl, mit dem der Status des
+-   Zustand-2? : Es ist der Befehl, mit dem der Status des
     nimm 2
 
--   On-2 : Es ist der Befehl, der Socket 2 einschaltet
+-   On-2? : Es ist der Befehl, der Socket 2 einschaltet
 
 -   Aus-2 : Es ist der Befehl, der Sockel 2 ausschaltet
 
 -   Power-2 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 2
 
--   Conso-2 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-2? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 2
 
 -   Zustand-3 : Es ist der Befehl, mit dem der Status des
     nimm 3
 
--   On-3 : Dies ist der Befehl, der Socket 3 einschaltet
+-   On-3? : Dies ist der Befehl, der Socket 3 einschaltet
 
 -   Aus-3 : Es ist der Befehl, der Socket 3 ausschaltet
 
 -   Power-3 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 3
 
--   Conso-3 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-3? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 3
 
--   Zustand-4 : Es ist der Befehl, mit dem der Status des
+-   Zustand-4? : Es ist der Befehl, mit dem der Status des
     nimm 4
 
--   On-4 : Es ist der Befehl, der Socket 4 einschaltet
+-   On-4? : Es ist der Befehl, der Socket 4 einschaltet
 
 -   Aus-4 : Es ist der Befehl, der Socket 4 ausschaltet
 
--   Power-4 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-4? : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 4
 
--   Conso-4 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-4? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 4
 
--   Zustand-5 : Es ist der Befehl, mit dem der Status des
+-   Zustand-5? : Es ist der Befehl, mit dem der Status des
     nimm 5
 
--   On-5 : Es ist der Befehl, der Socket 5 einschaltet
+-   On-5? : Es ist der Befehl, der Socket 5 einschaltet
 
 -   Aus-5 : Es ist der Befehl, der Socket 5 ausschaltet
 
--   Power-5 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-5? : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 5
 
--   Conso-5 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-5? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 5
 
 -   Zustand-6 : Es ist der Befehl, mit dem der Status des
     nimm 6
 
--   On-6 : Es ist der Befehl, der Socket 6 einschaltet
+-   On-6? : Es ist der Befehl, der Socket 6 einschaltet
 
--   Aus-6 : Es ist der Befehl, der Socket 6 ausschaltet
+-   Aus-6? : Es ist der Befehl, der Socket 6 ausschaltet
 
--   Power-6 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-6? : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 6
 
--   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-6? : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 6
 
 \.
@@ -315,7 +315,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 

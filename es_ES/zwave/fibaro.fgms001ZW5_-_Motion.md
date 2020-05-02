@@ -76,15 +76,15 @@ Características técnicas
 
 \
 
--   Puntao de módulo : Transmisor Z-Wave +
+-   Punta?o de módulo : Transmisor Z-Wave +
 
 -   Suministro : Batería CR123A 3,6VDC
 
--   Altura recomendada para la instalación : 2.4m
+-   Altura recomendada para la instalación : 2.4m?
 
 -   Rango de temperatura medido : -20 ° C a 100 ° C
 
--   Precisión de medición : 0.5 ° C
+-   Precisión de medición : 0.5 ° C?
 
 -   Rango de medición de brillo : 0-32000 LUX
 
@@ -92,12 +92,12 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 4.4 cm de diámetro
+-   Dimensiones?: 4.4 cm de diámetro
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    II
+-   Certificaciones? : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+    II?
 
 \
 
@@ -108,11 +108,11 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGMS-001-ZW5 \ [Sensor de movimiento \]
+-   Nombre? : Fibaro FGMS-001-ZW5 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
--   Puntao de producto : 2048
+-   Punta?o de producto : 2048
 
 -   ID del producto : 4097
 
@@ -174,10 +174,10 @@ Aquí está la lista de comandos :
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sísmica : es el comando que permite aumentar la intensidad
-    Sísmica
+-   Sísmica? : es el comando que permite aumentar la intensidad
+    Sísmica?
 
--   Sabotaje : este es el comando de sabotaje (se activa en caso de que
+-   Sabotaje? : este es el comando de sabotaje (se activa en caso de que
     vibración)
 
 -   Batería : es el comando de la batería
@@ -191,7 +191,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 
@@ -247,9 +247,9 @@ Detalles del parámetro :
 -   12: cambiar solo si sabes por qué lo estás haciendo
     (asociación con un módulo por ejemplo)
 
--   14: ídem
+-   14: ídem?
 
--   16: ídem
+-   16: ídem?
 
 -   20: sensibilidad del sensor giroscópico (valor recomendado 15)
 
@@ -298,7 +298,7 @@ Detalles del parámetro :
     (vinculado al parámetro 81)
 
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de
-    Sabotaje
+    Sabotaje?
 
 \
 
@@ -346,10 +346,10 @@ Bueno saber
 > **Tip**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
-> fabrica. Es esencial despertarlo bien después de la inclusión.
+> fabrica?. Es esencial despertarlo bien después de la inclusión.
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
-> Cuenta.
+> Cuenta?.
 
 \
 

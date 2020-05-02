@@ -11,7 +11,7 @@ Once the service has been purchased, it is necessary in jeedom :
 >
 >It is possible to see the jeedom backup files directly from your profile page on the market, tab my services then configuration at the level of the cloud backup service
 
-## Faq
+## Faq?
 
 > **Error Specification mandate value for attribute defer on line 19, column 146**
 >

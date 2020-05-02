@@ -68,7 +68,7 @@ Características técnicas
 
 \
 
--   Puntao de módulo : Receptor / actuador Z-Wave
+-   Punta?o de módulo : Receptor / actuador Z-Wave
 
 -   230V, 50Hz fuente de alimentación
 
@@ -76,11 +76,11 @@ Características técnicas
 
 -   Carga máxima : 1800W (resistivo), 460VA (inductivo)
 
--   Fusible : T8AH
+-   Fusible? : T8AH
 
 -   Frecuencia : 868.42 Mhz
 
--   Dimensiones : 52 x 52 x 31 mm
+-   Dimensiones? : 52 x 52 x 31 mm
 
 -   Rango de temperatura : 0 ° C / + 40 ° C
 
@@ -93,11 +93,11 @@ Datos del módulo
 
 -   Hacer : Popp / Duwi
 
--   Nombre : Control de persianas ZW ESJ
+-   Nombre? : Control de persianas ZW ESJ
 
 -   ID del fabricante : 100
 
--   Puntao de producto : 16385
+-   Punta?o de producto : 16385
 
 -   ID del producto : 0
 
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -153,13 +153,13 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Esta es la posición actual del obturador, en porcentaje de 0 a 99
+-   Estado? : Esta es la posición actual del obturador, en porcentaje de 0 a 99
 
--   Bajar : comando para descender por completo
+-   Bajar? : comando para descender por completo
 
 -   Subir : comando para montar completamente
 
--   Detener : parada inmediata del movimiento
+-   Detener? : parada inmediata del movimiento
 
 -   Refrescar : actualizar el estado actual del módulo
 
@@ -224,7 +224,7 @@ y el segundo para el descenso.
 Los valores se codifican en hexadecimal en el módulo y se restablecen
 decimal en la pantalla Jeedom.
 
-Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. O 0x12
+Por ejemplo : para 4626, esto da en hexadecimal : 0x1212?. O 0x12
 para ascenso y 0x12 para descenso. O, traído de nuevo en
 decimal : 18 años para ascenso y descenso.
 

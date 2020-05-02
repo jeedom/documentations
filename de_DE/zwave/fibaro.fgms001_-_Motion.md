@@ -63,7 +63,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Erkennung schwacher Batterie
+-   Erkennung schwacher Batterie?
 
 -   Sehr kleine, reduzierte Abmessungen
 
@@ -78,13 +78,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : CR123A 3,6VDC Batterie
+-   Versorgung : CR123A 3,6VDC Batterie?
 
--   Empfohlene Höhe für die Installation : 2,4 m
+-   Empfohlene Höhe für die Installation : 2,4 m?
 
 -   Gemessener Temperaturbereich : -20 ° C bis 100 ° C.
 
--   Messgenauigkeit : 0,5 ° C.
+-   Messgenauigkeit : 0,5 ° C.?
 
 -   Helligkeitsmessbereich : 0-32000 LUX
 
@@ -92,12 +92,12 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 4,4 cm Durchmesser
+-   Abmessungen?: 4,4 cm Durchmesser
 
 -   Betriebstemperatur : 0-40 ° C.
 
 -   Zertifizierungen : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
-    II
+    II?
 
 \.
 
@@ -106,7 +106,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Fibar Group
+-   Machen Sie? : Fibar Group
 
 -   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 
@@ -172,10 +172,10 @@ Hier ist die Liste der Befehle :
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
+-   Sabotage? : Dies ist der Sabotage?befehl (er wird für den Fall ausgelöst
     Vibration)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -186,7 +186,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -242,16 +242,16 @@ Parameterdetails :
 -   12: nur zu ändern, wenn Sie wissen, warum Sie es tun
     (Zuordnung zum Beispiel zu einem Modul)
 
--   14: idem
+-   14: idem?
 
--   16: idem
+-   16: idem?
 
 -   20: Empfindlichkeit des Kreiselsensors (empfohlener Wert 15)
 
 -   22: Zeit, nach der der Sensor das Signal "mehr als
-    Sabotage "(empfohlener Wert 30)
+    Sabotage? "(empfohlener Wert 30)
 
--   24: Hier erfahren Sie, wie die Sabotage gemeldet wird (WICHTIG :
+-   24: Hier erfahren Sie, wie die Sabotage? gemeldet wird (WICHTIG :
     empfohlener Wert : Manipulationssensor an SensorAlarm benachrichtigt
     Befehlsklasse / Stornierung wird nach der in definierten Zeit benachrichtigt
     Parameter 22)
@@ -293,7 +293,7 @@ Parameterdetails :
     (verknüpft mit Parameter 81)
 
 -   89: Ermöglicht es der LED, bei blau / weiß / rot zu blinken
-    Sabotage
+    Sabotage?
 
 \.
 
@@ -322,10 +322,10 @@ Gut zu wissen
 > **Tip**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und sehr schlecht konfiguriert
-> Fabrik. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
+> Fabrik?. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
 > (mehrmals sind besser als eins), um es nach Ihren Wünschen zu konfigurieren
 > wünscht, und es gut aufzuwecken, damit die Konfiguration berücksichtigt wird
-> Konto.
+> Konto?.
 
 \.
 
@@ -364,7 +364,7 @@ näher an Ihrer Box und heben Sie sie mehrmals auf.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
 \.

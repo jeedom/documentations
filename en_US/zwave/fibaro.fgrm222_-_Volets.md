@@ -55,11 +55,11 @@ Functions
 -   Control your blinds or roller shutters remotely
 
 -   Compatible with BSO and Venetian blind with positioning of
-    slats
+    slats?
 
 -   Installs behind an existing switch
 
--   Up / down and positioning function
+-   Up? / down and positioning function
 
 -   Compatible with motors with mechanical or electronic stop
 
@@ -82,25 +82,25 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50 Hz
+-   Food? : 230V, 50 Hz
 
 -   Power consumption : &lt; 0,8W
 
 -   Wiring : 3 wire, neutral required
 
--   Max load : 1000W
+-   Max load : 1000W?
 
 -   Frequency : 868.42 Mhz
 
--   Signal strength : 1mW
+-   Signal strength : 1mW?
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 17 x 42 x 37 mm
+-   Dimensions?: 17 x 42 x 37 mm
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105 ° C
+-   Limit temperature : 105 ° C?
 
 -   Standards : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
@@ -137,7 +137,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper Documentation?.
 
 \
 
@@ -175,32 +175,32 @@ Here is the list of commands :
 -   State : It is the command which allows to know the position of
     your shutter
 
--   Positioning : It is the command which makes it possible to define the
+-   Positioning? : It is the command which makes it possible to define the
     opening percentage
 
--   Up : This is the command that allows you to fully open the shutter
+-   Up? : This is the command that allows you to fully open the shutter
 
--   Down : It is the command that completely closes the shutter
+-   Down? : It is the command that completely closes the shutter
 
 -   Refresh : It is the command which allows to ask again the position
     of the shutter
 
 -   Power : Command allowing to have the consumption of the module
 
--   Consumption : Control allowing to know the power
+-   Consumption? : Control allowing to know the power
     instant used by the module
 
--   STOP : Control to stop the movement of the shutter
+-   STOP? : Control to stop the movement of the shutter
 
--   STOP BSO : Command to stop the movement (in mode
+-   STOP? BSO : Command to stop the movement (in mode
     adjustable slat)
 
--   Tilt : Allows you to tilt the slats (adjustable slat mode)
+-   Tilt? : Allows you to tilt the slats (adjustable slat mode)
 
 -   Decline : Allows to decline the slats (adjustable slat mode)
 
 -   Not : Used to define the step for pressing Decline or
-    Tilt
+    Tilt?
 
 \
 
@@ -258,7 +258,7 @@ Parameter details :
 
 -   18: engine safety power
 
--   22: N / A
+-   22: N / A?
 
 -   29: allows to calibrate the flap
 
@@ -281,7 +281,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups? 
 
 \
 
@@ -299,7 +299,7 @@ Good to know
 
 \
 
-### Reset 
+### Reset? 
 
 \
 
@@ -347,7 +347,7 @@ Faq.
 
 \
 
-Read the Reset section of this doc.
+Read the Reset? section of this doc.
 
 \
 

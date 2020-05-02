@@ -44,7 +44,7 @@ Funciones
 Características técnicas 
 ===========================
 
--   Puntao de módulo : Transmisor Edisio
+-   Punta?o de módulo : Transmisor Edisio
 
 -   Suministro : 3VDC (batería de litio ER14250)
 
@@ -52,20 +52,20 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100 millones
+-   Rango en campo libre : 100 millones?
 
 -   Dimensiones : 25x79x19mm
 
--   Grado de protección : IP20
+-   Grado de protección : IP20?
 
--   Uso : En el interior
+-   Uso? : En el interior
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer? : Edisio Smart Home
 
--   Nombre : EOS-200
+-   Nombre? : EOS-200?
 
 Configuración general 
 ======================
@@ -132,7 +132,7 @@ Aquí está la lista de comandos :
 -   Puerta : Es el comando que indica si la puerta está abierta o
     cerrado
 
--   Batería : Indica el estado de la batería.
+-   Batería? : Indica el estado de la batería.
 
 Información 
 ------------
@@ -147,7 +147,7 @@ disponible :
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el módulo
 
--   Batería : Indica el estado de la batería de los módulos de batería.
+-   Batería? : Indica el estado de la batería de los módulos de batería.
 
 -   Estado : Devuelve el estado del módulo.
 

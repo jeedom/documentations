@@ -31,7 +31,7 @@ Erforderliches Material : ein USB-Stick (mindestens 8 GB).
 - Starten Sie den Smart neu
 - Warten Sie ca. 30 Minuten, Box nicht zugänglich **NICHT TRENNEN**
 - Finden Sie Ihren Smart im Netzwerk
-- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin
+- Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin?
 
 > **Important**
 >

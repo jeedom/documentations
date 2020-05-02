@@ -2,10 +2,10 @@ Ziel
 ========
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem
-Himbeere PI 3 **ohne microSD-Karte.**
+Himbeere PI 3 **ohne microSD?-Karte.**
 
 PI3 bietet in der Tat die Möglichkeit, direkt auf einem zu booten
-USB-Gerät und befreien Sie sich daher manchmal von der microSD-Karte
+USB-Gerät und befreien Sie sich daher manchmal von der microSD?-Karte
 Probleme erzeugen (Korruption).
 
 **Der Installationsvorgang ist streng identisch mit dem auf a
@@ -13,7 +13,7 @@ microSD-Karte, aber stellen Sie sicher, dass Sie Firmware haben
 jour.**
 
 Öffnen Sie dazu eine SSH-Verbindung. (wenn du nicht weißt wie,
-Beobachten Sie die Installation auf microSD :
+Beobachten Sie die Installation auf microSD? :
 [Hier](https://doc.jeedom.com/de_DE/installation/index.html)
 )
 
@@ -98,7 +98,7 @@ Ram.
 
 -   Fügen Sie diese Zeile hinzu, um Pi3 zu bitten, nur den Swap zu verwenden
     wenn 10% des verfügbaren Speichers vorhanden sind (100 MB
-    Ram verfügbar) :
+    Ram? verfügbar) :
 
 <!-- -->
 

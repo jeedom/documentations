@@ -60,7 +60,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection
+-   Self-protection?
 
 -   Low battery indication
 
@@ -91,12 +91,12 @@ Module data
 
 \
 
--   Mark : D-Link
+-   Mark : D-Link?
 
 -   Model : DCH-Z110 Door and window opening detector
     mydlink ™ Home
 
--   Maker : FIBARO System
+-   Maker? : FIBARO System
 
 -   Manufacturer ID : 264 \ [0x0108 \]
 
@@ -124,7 +124,7 @@ inclusion refer to this
 > the magnet during tests on a flat surface and during installation.
 > (Use shims if necessary) To put this module in mode
 > inclusion it is necessary to press 3 times on the association button in 1.5
-> second, according to its Documentation. (constant red flashing
+> second, according to its Documentation?. (constant red flashing
 > in association mode)
 
 \
@@ -141,7 +141,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -158,18 +158,18 @@ Here is the list of commands :
 
 \
 
--   Opening : it is the command which will raise a detection
-    opening
+-   Opening? : it is the command which will raise a detection
+    opening?
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in
+-   Sabotage? : this is the sabotage command (it is triggered in
     tearing out)
 
--   Drums : it's the battery command
+-   Drums? : it's the battery command
 
 \
 
@@ -218,13 +218,13 @@ Parameter details :
     group 2
 
 -   5: operating mode (see the
-    manufacturer Documentation)
+    manufacturer Documentation?)
 
 -   6: multi-sensor operating mode (see the
-    manufacturer Documentation). Recommended value : 7
+    manufacturer Documentation?). Recommended value : 7
 
 -   7: personalized multi-sensor operating mode (see
-    on the manufacturer's Documentation). Recommended value : 20 (for
+    on the manufacturer's Documentation?). Recommended value : 20 (for
     have functional opening)
 
 -   9: allows to define after how long the OFF signal will be
@@ -246,14 +246,14 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report
+    Report?
 
 -   22: value in% of variation of brightness to trigger
     a report. Recommended value : 10
 
 \
 
-### Groups 
+### Groups? 
 
 \
 

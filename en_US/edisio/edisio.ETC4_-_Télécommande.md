@@ -36,7 +36,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (CR2430 Lithium Battery)
+-   Food? : 3VDC (CR2430 Lithium Battery)
 
 -   Canals : 4
 
@@ -44,16 +44,16 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C + 50 ° C
 
--   Dimensions : 52x28x12mm
+-   Dimensions? : 52x28x12mm
 
--   Degree of protection : IP40
+-   Degree of protection : IP40?
 
 Module data 
 =================
 
 -   Mark : Edisio Smart Home
 
--   Name : ETC4
+-   Name? : ETC4?
 
 General configuration 
 ======================
@@ -134,15 +134,15 @@ associated with the module :
 
 Here is the list of commands :
 
--   bt01 : It is the command that allows you to interact with button 1
+-   bt01? : It is the command that allows you to interact with button 1
 
--   bt02 : It is the command which allows to interact with button 2
+-   bt02? : It is the command which allows to interact with button 2
 
--   bt03 : It is the command which allows to interact with the button 3
+-   bt03? : It is the command which allows to interact with the button 3
 
--   bt04 : It is the command that allows you to interact with button 4
+-   bt04? : It is the command that allows you to interact with button 4
 
--   Drums : Indicates the battery status
+-   Drums? : Indicates the battery status
 
 Information 
 ------------
@@ -154,12 +154,12 @@ available :
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
+-   Communication? : Indicates the last communication recorded between
     Jeedom and the micro-module
 
--   Drums : Indicates the battery status for battery modules
+-   Drums? : Indicates the battery status for battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS? : Returns the status of the module
 
 Use 
 -----------

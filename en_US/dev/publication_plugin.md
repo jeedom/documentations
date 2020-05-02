@@ -6,16 +6,16 @@
 - Waiting for validation of the market account as a developer
 - Have your plugin on github (private deposit or not)
 
-## Setup
+## Setup?
 
 Once connected with your dev account on the market you must : 
 
 - click on market then add
 - fill in the information on your plugin : 
   - Main : 
-    - Price
+    - Price?
     - Id (the one in the info.json file)
-    - Name
+    - Name?
     - Category
     - Whether it is private or not to start
   - Documentation and links
@@ -23,7 +23,7 @@ Once connected with your dev account on the market you must :
     - languages
     - compatible hardware
     - a note on use if necessary
-  - Github : this is where you will put the information between the market and Github
+  - Github? : this is where you will put the information between the market and Github?
     - the token (only put if your plugin is on a private deposit)
     - your github username
     - the name of the repository on github
@@ -31,9 +31,9 @@ Once connected with your dev account on the market you must :
     
    Once saved by returning to the github tab you will have 3-4 fields to indicate the branches : 
    
-   - Beta
-   - Stable
+   - Beta?
+   - Stable?
    - pro (is useless in 99% of cases)
-   - Stablev3 (coming soon)
+   - Stable?v3 (coming soon)
    
    Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m. but take several ten hours). You can also start a manual synchronization of a branch from the plugin file

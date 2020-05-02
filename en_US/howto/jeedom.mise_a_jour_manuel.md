@@ -13,7 +13,7 @@ Prerequisites
 > **Important**
 >
 > Remember to make and export a backup before any update
-> manual.
+> manual?.
 
 Download and unzip 
 ===============================

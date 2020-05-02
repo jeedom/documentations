@@ -1,4 +1,4 @@
-Interruptor Swiid - SwiidInter 
+Interruptor Swiid? - Swiid?Inter? 
 ===============================
 
 \
@@ -25,27 +25,27 @@ Resumen
 \
 
 SwiidInter es el primer interruptor de cable del entorno
-Domótica Onda Z que es lo suficientemente pequeña y discreta como para ser
+Domótica Onda Z? que es lo suficientemente pequeña y discreta como para ser
 comparable a un interruptor de cable ordinario.
 
 Se puede usar tanto manualmente como cualquier
 interruptor de cable ordinario y remoto a través del controlador
 Z-Wave.
 
-El interruptor SwiidInter también ofrece posibilidades de asociación.
+El interruptor Swiid?Inter? también ofrece posibilidades de asociación.
 y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
-otro dispositivo Onda Z en la misma red, como el
+otro dispositivo Onda Z? en la misma red, como el
 detector de presencia activado. Por el contrario con apoyo
 corto o con una pulsación larga puede controlar dos grupos separados de
-Dispositivos Onda Z asociados a él : por ejemplo cada
+Dispositivos Onda Z? asociados a él : por ejemplo cada
 otras luces en la habitación donde se encuentra su interruptor
 SwiidInter.
 
-El interruptor SwiidInter se instala exactamente como un interruptor
+El interruptor Swiid?Inter? se instala exactamente como un interruptor
 en cordón ordinario : así que es una instalación rápida y fácil que
 no requiere herramientas especializadas. Luego debe configurarse para
-integrarse en una "red" Onda Z, esta red puede ser tan simple
-solo un control remoto que controla su interruptor SwiidInter a
+integrarse en una "red" Onda Z?, esta red puede ser tan simple
+solo un control remoto que controla su interruptor Swiid?Inter? a
 distance.
 
 \
@@ -61,10 +61,10 @@ Funciones
 -   Úselo como reemplazo de un interruptor de cable estándar
     una lámpara de mesilla de noche, mesa o escritorio
 
--   Función Uno / Apagado
+-   Función Uno / Apagado?
 
 -   Activación de un escenario de domótica en pulsación larga
-    (Asociación Onda Z)
+    (Asociación Onda Z?)
 
 -   Dimensiones comparables a un interruptor de cable ordinario
 
@@ -79,29 +79,29 @@ Características técnicas
 
 \
 
--   Tipo de módulo : Receptor Onda Z
+-   Tipo de módulo : Receptor Onda Z?
 
--   Color : negro
+-   Color : negro?
 
--   Suministro: 230V ± 10% - 50Hz
+-   Suministro?: 230V ± 10% - 50Hz
 
--   Potencia máxima : 660W
+-   Potencia máxima : 660W?
 
--   El consumo : &lt; 0,08W
+-   El consumo? : &lt; 0,08W
 
--   Indice de PROTECCION: IP20
+-   Indice de PROTECCION: IP20?
 
--   Protocolo de radio: Onda Z® (SDK 4.55)
+-   Protocolo de radio: Onda Z?® (SDK 4.55)
 
 -   Radiofrecuencia : 868,42 MHz (UE)
 
--   Dist. transmisión: Hasta 30 m en interiores (depende de los materiales)
+-   Dist?. transmisión?: Hasta 30 m en interiores (depende de los materiales)
 
--   Temp. funcionando : 0 - 40 ° C
+-   Temp?. funcionando : 0 - 40 ° C
 
 -   Pantalla de encendido / apagado : LEDs azules
 
--   Dimensiones : 84 x 32 x 29 mm
+-   Dimensiones? : 84 x 32 x 29 mm
 
 -   Normas de la UE : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer : Swiid
+-   Hacer : Swiid?
 
--   Nombre : SwiidInter
+-   Nombre? : Swiid?Inter??
 
 -   ID del fabricante : 358
 
@@ -154,7 +154,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -217,7 +217,7 @@ swiidinter a otro módulo (pulsación larga)
 
 \
 
--   Inactivo : no tendrá efecto en otras luces
+-   Inactivo? : no tendrá efecto en otras luces
 
 -   Solo apagado : será efectivo solo para apagar a otros
     luces

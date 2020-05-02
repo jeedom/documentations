@@ -63,7 +63,7 @@ Funktionen
 -   Integriert den Chip der Z-Wave 500-Serie
 
 -   250% schnellere Kommunikation im Vergleich zu Z-Wave-Geräten
-    Standard
+    Standard?
 
 -   Automatische Lasterkennung
 
@@ -103,7 +103,7 @@ Technische Daten
 
 -   Versorgung : 230 V +/- 10%, 50 Hz
 
--   Verbrauch : 1,3W
+-   Verbrauch? : 1,3W?
 
 -   Verkabelung : Neutral nicht erforderlich
 
@@ -117,7 +117,7 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Signalstärke : 1mW
+-   Signalstärke : 1mW?
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
@@ -125,10 +125,10 @@ Technische Daten
 
 -   Betriebstemperatur : 0-35 ° C.
 
--   Temperatur begrenzen : 105 ° C.
+-   Temperatur begrenzen : 105 ° C.?
 
--   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
-    1999/5 / EG
+-   Standards? : RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
+    1999/5 / EG?
 
 \.
 
@@ -209,14 +209,14 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein? : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus? : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
--   Verbrauch : Es ist der Befehl, der es erlaubt, die
+-   Verbrauch? : Es ist der Befehl, der es erlaubt, die
     Modulverbrauch
 
 -   Macht : Es ist der Befehl, mit dem die Leistung erhöht werden kann
@@ -266,7 +266,7 @@ ENTWURF SEIN
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 

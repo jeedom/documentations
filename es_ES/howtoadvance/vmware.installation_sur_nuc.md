@@ -13,7 +13,7 @@ virtualización basada en VMware.
 
 Actualmente hay 2 NUC de 6ta generación (las otras funcionan
 también para VMware pero requiere controladores adicionales en el
-Núcleo de VMware):
+Núcleo de VMware)?:
 
 -   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 hilos - Caché 3 MB -
     TDP 15W)
@@ -49,7 +49,7 @@ Eso hace 4 referencias :
 SSD 
 ---
 
-Tienes que agregar un SSD y memoria. SSD nivel I usted
+Tienes que agregar un SSD? y memoria. SSD? nivel I usted
 recomienda 240 GB o más, a menos que tome el modelo con un
 ubicación 2.5 pulgadas (que le permite poner un disco duro adicional)
 o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
@@ -64,13 +64,13 @@ este 40GB para VMware se llena rápidamente.
 -   [SSD LDLC M.2 2280 F6 PLUS 120
     GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
 
--   [Samsung SSD 850 EVO 120 GB
+-   [Samsung SSD? 850 EVO 120 GB
     M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
 
 -   [SSD LDLC M.2 2280 F6 PLUS 240
     GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
 
--   [Samsung SSD 850 EVO 250 GB
+-   [Samsung SSD? 850 EVO 250 GB
     M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
 
 -   [SSD LDLC M.2 2280 F6 PLUS 480
@@ -119,7 +119,7 @@ Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 
 -   espera el correo electrónico para validar el registro
 
--   volver
+-   volver?
     [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     e inicie sesión (se le puede pedir que acepte el
     condiciones, debe validar)
@@ -161,7 +161,7 @@ Estos son los 3 componentes para mi NUC :
 
 -   Intel NUC NUC6I5SYH
 
--   Samsung SSD 850 EVO 250 Go M.2
+-   Samsung SSD? 850 EVO 250 Go M.2
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
@@ -186,7 +186,7 @@ el NUC:
 
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
-El SSD instalado (a el izquierda), el tornillo final para bloquearlo es un
+El SSD? instalado (a el izquierda), el tornillo final para bloquearlo es un
 difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
@@ -211,9 +211,9 @@ solo :
 > **Note**
 >
 > Olvidé capturar el validación de el licencia,
-> solo acepta seguir els instrucciones
+> solo acepta seguir el?s instrucciones
 
-Aquí seleccione el disco correspondiente a el SSD (puede
+Aquí seleccione el disco correspondiente a el SSD? (puede
 identificar ya sea por nombre o por tamaño)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)

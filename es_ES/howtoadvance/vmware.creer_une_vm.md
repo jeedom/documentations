@@ -66,7 +66,7 @@ Para ese clic en el almacén de datos :
 
 ![vmware.createvm18]((images/vmware.createvm18.PNG)
 
-Seleccione su almacén de datos ((generalmente se llama almacén de datos1) :
+Seleccione su almacén de datos ((generalmente se llama almacén de datos?1) :
 
 ![vmware.createvm19]((images/vmware.createvm19.PNG)
 

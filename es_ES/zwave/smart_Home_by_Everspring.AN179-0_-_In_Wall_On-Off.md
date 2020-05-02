@@ -78,18 +78,18 @@ Características técnicas
 
 -   Suministro : 230 V, 50 Hz
 
--   El consumo : 0.5W
+-   El consumo : 0.5W?
 
 -   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
-    : Bombilla fluorescente compacta de 1200 vatios : 320W
+    : Bombilla fluorescente compacta de 1200 vatios : 320W?
 
 -   Frecuencia : 868.42 Mhz
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: LED en el botón
+-   Visualización?: LED en el botón
 
--   Dimensiones : 42 mm x 43 mm x 16 mm
+-   Dimensiones? : 42 mm x 43 mm x 16 mm
 
 \
 
@@ -100,7 +100,7 @@ Datos del módulo
 
 -   Hacer : Smarthome por everspring
 
--   Nombre : En pared encendido apagado
+-   Nombre? : En pared encendido apagado
 
 -   ID del fabricante : 96
 
@@ -142,7 +142,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos? 
 
 \
 
@@ -159,11 +159,11 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : Es el control que enciende la luz.
+-   Uno? : Es el control que enciende la luz.
 
 -   Apagado : Es el comando que apaga la luz.
 
--   Estado : Es el comando que permite conocer el estado de la
+-   Estado? : Es el comando que permite conocer el estado de la
     Iluminación
 
 \

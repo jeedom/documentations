@@ -79,12 +79,12 @@ Technische Daten
 
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
--   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Stapel
+-   Versorgung? : Aktuator? : 5 VDC (Adapter mitgeliefert) Sensor : Stapel?
     Lithium 3V 800mA CR2
 
--   Standby-Verbrauch : 1W
+-   Standby-Verbrauch : 1W?
 
--   Alarmverbrauch : 2W
+-   Alarmverbrauch : 2W?
 
 -   Maximale Lautstärke : 105 dB
 
@@ -98,7 +98,7 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 80%
 
--   Zertifizierungen: FCC, UL, CE, ROHS
+-   Zertifizierungen?: FCC, UL, CE, ROHS
 
 \.
 
@@ -107,9 +107,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie? : Aeotec?
 
--   Name : Garagentorsteuerung (ZW062)
+-   Name? : Garagentorsteuerung (ZW062)
 
 -   Hersteller ID : 134
 
@@ -168,13 +168,13 @@ Hier ist die Liste der Befehle :
 
 -   Öffnen / Schließen : Öffnen, schließen oder stoppen Sie das Garagentor.
 
--   Position : Aktuelle Garagentorposition.
+-   Position? : Aktuelle Garagentorposition.
 
 -   Lautstärke : Aktuelle Lautsprecherlautstärke.
 
 -   Temperatur : Zonentemperatur, kein automatischer Aufstieg.
 
--   Sabotage : Textsabotagestatus.
+-   Sabotage? : Textsabotagestatus.
 
 \.
 
@@ -210,7 +210,7 @@ Parameterdetails :
 -   34: Ermöglicht das Starten der Kalibrierung der Öffnungszeit von
     die Tür.
 
--   41: Ermöglicht das Zurücksetzen des Sabotagestatus durch Auswahl von "Entlasten"
+-   41: Ermöglicht das Zurücksetzen des Sabotage?status durch Auswahl von "Entlasten"
     der Alarmzustand"
 
 -   80: auf Hagel

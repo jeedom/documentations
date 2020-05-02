@@ -59,7 +59,7 @@ Technische Daten
 
 \.
 
--   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung? : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -68,12 +68,12 @@ Technische Daten
 
 -   Integrierter Magnet zur Befestigung an der Metalloberfläche
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m?
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.01 Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen : 80 \* 80 \* 15mm
+-   Abmessungen : 80 \* 80 \* 15mm?
 
 -   2 Jahre Garantie
 
@@ -84,7 +84,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nicken
+-   Machen Sie : Nicken?
 
 -   Name : CRC-3-1-00 Octan Remote
 
@@ -167,7 +167,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -194,18 +194,18 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
+-   1-2? : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-   4-7? : Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Gruppen 
+### Gruppen? 
 
 \.
 

@@ -32,7 +32,7 @@ Funktionen
 
 -   Wandmontage durch Schrauben oder doppelseitig
 
--   Informationen zum Batteriestand
+-   Informationen zum Batterie?stand
 
 Technische Daten 
 ===========================
@@ -45,22 +45,22 @@ Technische Daten
 
 -   Betriebstemperatur : 0 ° C + 45 ° C.
 
--   Reichweite im freien Feld : 100M
+-   Reichweite im freien Feld : 100M?
 
--   Erfassungsbereich : 6M
+-   Erfassungsbereich : 6M?
 
--   Abmessungen : 25x79x19mm
+-   Abmessungen? : 25x79x19mm
 
--   Schutzart : IP20
+-   Schutzart : IP20?
 
--   Verwendung : Drinnen
+-   Verwendung? : Drinnen
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie? : Edisio Smart Home
 
--   Name : EMS-200
+-   Name : EMS-200?
 
 Allgemeine Konfiguration 
 ======================
@@ -133,7 +133,7 @@ Hier ist die Liste der Befehle :
 -   Präsenz : Es ist der Befehl, der angibt, ob eine Präsenz vorliegt
     erkannt
 
--   Batterie : Zeigt den Batteriestatus an
+-   Batterie? : Zeigt den Batterie?status an
 
 Information 
 ------------
@@ -148,7 +148,7 @@ verfügbar :
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul
 
--   Batterie : Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie? : Zeigt den Batterie?status der Batterie?module an
 
 -   STATUS : Gibt den STATUS des Moduls zurück
 

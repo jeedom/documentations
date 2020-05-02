@@ -11,20 +11,20 @@ Vaya a / www / cgi-bin / y edite el archivo tts.inc, agregue un
 función (ejemplo para Jeedom) :
 
     función jeedomTTS {
-       TTS = $ 1
+       TTS = $ 1?
        MD5FILE = $ (echo "$ TTS" | md5sum | cortar -d '' -f 1)
        eval $ (echo "curl -A '$ {UA}' -o $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 'http://TODO/core/api/tts.php?apikey = TODO & text = $ {TTS} '") >> / dev / null 2 >> / dev / null
        echo $ (echo "$ RAW_TTS" | UrlDecode)> $ CNF_DATADIR / Tmp / $ {MD5FILE} .txt
        si ["$ 5" != "1 "]; entonces
             Registro "[TTS]" "Reproducción de sonido $ {MD5FILE} .mp3"
             PlaySound $ CNF_DATADIR / Tmp / $ {MD5FILE} .mp3
-        fi
+        fi?
         si ["$ NOCACHE" == "1"]; entonces
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 >> / dev / null 2 >> / dev / null
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.txt >> / dev / null 2 >> / dev / null
-         otro
+         otro?
             Registro "[TTS]" "Almacenamiento de sonido $ {MD5FILE}.mp3 a caché"
-         fi
+         fi?
        echo $ {MD5FILE}
     }
 
@@ -39,7 +39,7 @@ En el "cuadro \ $ TTS\_ENGINE in" para tener :
                  2) MP3_ID = $ (VioletTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
                  3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
                  *) MP3_ID = $ (AcapelaTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE $ MUTE) ;;
-    esac
+    esac?
 
 Uso 
 ===========

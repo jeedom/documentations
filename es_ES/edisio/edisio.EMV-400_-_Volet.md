@@ -2,23 +2,23 @@
 
 ![module](images/emv.400/module.jpg)
 
--   **El visual de Jeedom**
+-   **El visual de Jeedom?**
 
 ![vue default](images/emv.400/vue_default.jpg)
 
 Resumen 
 ======
 
-El micromódulo EMV-400 le permitirá administrar un motor
+El micromódulo E?MV-400? le permitirá administrar un motor
 equipos bidireccionales o eléctricos. Permite el control
 2 salidas Start / Detener o un obturador Open / Detener / Close.
 
 Además, la interacción con otros protocolos es posible, es
 controlable por interruptores de marca y / o controles remotos
-Edisio, directamente de Jeedom, pero también por cualquier
+Edisio, directamente de Jeedom?, pero también por cualquier
 Transmisor Z-Wave en su red.
 
-Cada módulo Edisio en la red eléctrica, con la posibilidad de
+Cada módulo E?disio en la red eléctrica, con la posibilidad de
 funciona como un repetidor inalámbrico con los otros módulos, por lo que
 Asegure la cobertura total de su hogar.
 
@@ -38,7 +38,7 @@ Funciones
 -   Se instala en una caja empotrada de 55 mm o directamente en
     las cajas de apertura
 
--   Modo de uso: Encendido / Apagado, Abrir / Parar / Cerrar
+-   Modo de uso: E?ncendido / Apagado, Abrir / Parar / Cerrar
 
 -   Compatible con finales de carrera electrónicos y
     mecánico
@@ -60,9 +60,9 @@ Funciones
 Características técnicas 
 ===========================
 
--   Tipo de módulo: Receptor Edisio
+-   Tipo de módulo: Receptor E?disio
 
--   Suministro: 230VAC, 50Hz
+-   Suministro?: 230VAC, 50Hz
 
 -   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
@@ -72,46 +72,46 @@ Características técnicas
 
 -   Potencia máxima: 2A por salida
 
--   Carga resistiva: 460W
+-   Carga resistiva: 460W?
 
--   Otros cargos: 100W
+-   Otros cargos: 100W?
 
 -   Temperatura de funcionamiento: -10 ° C + 45 ° C
 
--   Dimensiones: 48x46x26mm
+-   Dimensiones?: 48x46x26mm
 
--   Grado de protección: IP20
+-   Grado de protección: IP20?
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer? : E?disio Smart Home
 
--   Nombre : EMV-400
+-   Nombre? : E?MV-400?
 
 Configuración general 
 ======================
 
-Para configurar el complemento Edisio y asociar un módulo con Jeedom,
+Para configurar el complemento E?disio y asociar un módulo con Jeedom?,
 referirse a esto
 [Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
-> Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
+> Para que Jeedom? cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
 > **Important**
 >
-> Por el contrario, los receptores Edisio deben crearse manualmente en
-> Jeedom.
+> Por el contrario, los receptores E?disio deben crearse manualmente en
+> Jeedom?.
 
 Interruptor DIP y botón "R" : 
 --------------------------
 
 ![bouton association](images/emv.400/bouton_association.jpg)
 
--   El interruptor DIP le permitirá ajustar los parámetros.
+-   E?l interruptor DIP le permitirá ajustar los parámetros.
     (Modo repetidor / obturador / iluminación / temporizador) del módulo:
 
 ![dip switch](images/emv.400/dip_switch.jpg)
@@ -120,9 +120,9 @@ Interruptor DIP y botón "R" :
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
-> Instalación.
+> Instalación?.
 
--   El botón "R", permitirá asociar un transmisor al receptor,
+-   E?l botón "R", permitirá asociar un transmisor al receptor,
     activar o desactivar la función del temporizador y activar el modo
     deportado :
 
@@ -153,7 +153,7 @@ La función de temporizador apaga automáticamente los relés al final
 
 > **Note**
 >
-> Esta función solo se utiliza en el modo "Iluminación""
+> E?sta función solo se utiliza en el modo "Iluminación""
 
 El modo "Obturador"" 
 ===============
@@ -173,16 +173,16 @@ Configuracion electrica y conexiones :
 > **Important**
 >
 > Para que el módulo esté en modo "Obturador", el interruptor DIP 2 debe estar en
-> Bajo
+> Bajo?
 
 > **Important**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
-Creación del módulo en Jeedom. 
+Creación del módulo en Jeedom?. 
 ------------------------------
 
-Para asociar un módulo receptor Edisio con Jeedom, debe crear
+Para asociar un módulo receptor E?disio con Jeedom?, debe crear
 equipo de forma manual.
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
@@ -210,54 +210,54 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Estado : Este es el comando que simula el retorno del estado.
+-   E?stado : E?ste es el comando que simula el retorno del estado.
 
--   Subir : Este es el comando que abre el obturador
+-   Subir : E?ste es el comando que abre el obturador
 
--   Detener : Es el comando que hace posible detener el movimiento del obturador.
+-   Detener : E?s el comando que hace posible detener el movimiento del obturador.
 
--   Bajar : Este es el comando que cierra el obturador.
+-   Bajar : E?ste es el comando que cierra el obturador.
 
--   E : Este es el comando que te permite usar el modo remoto
+-   E? : E?ste es el comando que te permite usar el modo remoto
 
 > **Important**
 >
-> La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
-> use otro transmisor, Jeedom no podrá actualizar el estado
+> La retroalimentación de estado es simulada por Jeedom?. Por lo tanto si
+> use otro transmisor, Jeedom? no podrá actualizar el estado
 > del receptor.
 
 Información 
 ------------
 
-Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
+Una vez que su equipo esté asociado con Jeedom?, se le dará diversa información
 disponible :
 
 ![Comandos](images/emv.400/infos_moteur.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
--   Comunicación : Indica la última comunicación registrada entre
-    Jeedom y el micro módulo
+-   Comunicación? : Indica la última comunicación registrada entre
+    Jeedom? y el micro módulo
 
 -   Batería : Indica el estado de la batería para los módulos de batería.
 
--   Estado : Devuelve el estado del módulo.
+-   E?stado? : Devuelve el estado del módulo.
 
-Asociación del micromódulo con Jeedom 
+Asociación del micromódulo con Jeedom? 
 ===================================
 
-Para que pueda interactuar con Jeedom, como si fuera un
-Transmisor Edisio.
+Para que pueda interactuar con Jeedom?, como si fuera un
+Transmisor E?disio.
 
 > **Note**
 >
-> Una de las grandes ventajas de Edisio es que un receptor puede tener
+> Una de las grandes ventajas de E?disio es que un receptor puede tener
 > varios emisores asociados
 
 Método estándar 
 ----------------
 
-Cada salida debe estar asociada con un comando Jeedom:
+Cada salida debe estar asociada con un comando Jeedom?:
 
 -   Salida asociada 1 :
 
@@ -265,8 +265,8 @@ Cada salida debe estar asociada con un comando Jeedom:
         en repetición) señala la programación de la salida 1 activada.
 
     -   Dentro de 10 segundos, presione "Prueba" en el comando "Abrir""
-        en Jeedom, un pitido continuo señala la asociación de
-        salida 1 en Jeedom.
+        en Jeedom?, un pitido continuo señala la asociación de
+        salida 1 en Jeedom?.
 
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
         confirmar la asociación, el pitido se detiene.
@@ -277,8 +277,8 @@ Cada salida debe estar asociada con un comando Jeedom:
         en repetición) señala la programación de la salida 2 activada.
 
     -   Dentro de 10 segundos, presione "Prueba" en el comando "Cerrar""
-        en Jeedom, un pitido continuo señala la asociación de
-        salida 2 en Jeedom.
+        en Jeedom?, un pitido continuo señala la asociación de
+        salida 2 en Jeedom?.
 
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
         confirmar la asociación, el pitido se detiene.
@@ -286,13 +286,13 @@ Cada salida debe estar asociada con un comando Jeedom:
 > **Note**
 >
 > No hay necesidad de asociar el comando "Stop", ya está hecho
-> automáticamente.
+> automáticamente?.
 
 Método remoto 
 ----------------
 
 Hablamos de ello al comienzo de esta documentación, en el caso de
-módulos ya incrustados en falsos techos o incluso áticos. Este
+módulos ya incrustados en falsos techos o incluso áticos. E?ste
 El método permite la adición de un nuevo transmisor sin acceder a la "R" del
 receptor.
 
@@ -302,20 +302,20 @@ receptor.
         en repetición) indica el modo de programación activa.
 
     -   Dentro de 10 segundos, presione "Prueba" en el comando "E" en
-        Jeedom, un pitido continuo señala la asociación con Jeedom.
+        Jeedom?, un pitido continuo señala la asociación con Jeedom?.
 
     -   Dentro de 10 segundos, presione "E" nuevamente en el receptor, para
         confirmar la asociación, el pitido se detiene.
 
-Ya está hecho, su Jeedom ahora está asociado y su comando "E"
+Ya está hecho, su Jeedom? ahora está asociado y su comando "E"
 ahora reemplaza el botón "R" en el receptor.
 
--   Asociar un nuevo transmisor con un receptor con Jeedom ya asociado
+-   Asociar un nuevo transmisor con un receptor con Jeedom? ya asociado
     :
 
     -   Salida 1 :
 
-        -   Presione 1x en "Probar" el comando "E" en Jeedom, simple
+        -   Presione 1x en "Probar" el comando "E" en Jeedom?, simple
             pitido (breve en repetición) señala la programación de
             salida 1 activada.
 
@@ -324,12 +324,12 @@ ahora reemplaza el botón "R" en el receptor.
             la asociación de salida 1.
 
         -   Dentro de 10 segundos, presione "Probar" nuevamente en el
-            comando "E" en Jeedom, para validar la asociación, el pitido
+            comando "E" en Jeedom?, para validar la asociación, el pitido
             el sonido se detiene.
 
     -   Salida 2 :
 
-        -   Presione 2x en "Prueba" del comando "E" en Jeedom,
+        -   Presione 2x en "Prueba" del comando "E" en Jeedom?,
             doble pitido (breve en repetición) señala el
             programación de la salida 2 activada.
 
@@ -338,7 +338,7 @@ ahora reemplaza el botón "R" en el receptor.
             la asociación de la salida 2.
 
         -   Dentro de 10 segundos, presione "Probar" nuevamente en el
-            comando "E" en Jeedom, para validar la asociación, el pitido
+            comando "E" en Jeedom?, para validar la asociación, el pitido
             el sonido se detiene.
 
 > **Note**
@@ -360,10 +360,10 @@ Cómo borrar la memoria del receptor ?
 
 Cómo controlar el receptor a través de un transmisor Z-Wave?
 
-:   Con el complemento Jeedom Scenario.
+:   Con el complemento Jeedom? Scenario.
 
 ¿Cómo puedo tener el mismo visual? ?
 
-:   Con el complemento Jeedom Widgets.
+:   Con el complemento Jeedom? Widgets.
 
 **@Jamsta**

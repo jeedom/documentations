@@ -27,7 +27,7 @@ Resumen
 El Fibaro Wall Plug es un receptor-zócalo-transmisor universal bajo
 forma de un adaptador para enchufar a una toma de corriente a la red
 eléctrico, compatible con el estándar Z-Wave. Te permite gestionar
-cualquier dispositivo con una potencia máxima de 2.5kW, mientras
+cualquier dispositivo con una potencia máxima de 2.5kW?, mientras
 integrando la funcionalidad de medir la potencia activa de la corriente y
 consumo de energía de dispositivos. Este módulo está equipado con un
 anillo de luz con LEDs que indican su estado y consumo
@@ -46,7 +46,7 @@ Funciones
 
 -   Control de microchip.
 
--   Elemento de ejecución: Relé.
+-   Elemento de ejecución: Relé?.
 
 -   Medida de potencia activa de corriente y energía eléctrica.
     del receptor.
@@ -64,17 +64,17 @@ Características técnicas
 
 -   El consumo de energía : hasta 0.8W
 
--   Carga máxima : 2.5kW
+-   Carga máxima : 2.5kW?
 
 -   Frecuencia : 868.42 Mhz UE
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 17 x 42 x 37 mm
+-   Dimensiones?: 17 x 42 x 37 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Temperatura límite : 105 ° C
+-   Temperatura límite : 105 ° C?
 
 -   Normas : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
@@ -85,9 +85,9 @@ Datos del módulo
 
 \
 
--   Hacer : Grupo Fibar
+-   Hacer? : Grupo Fibar
 
--   Nombrebre : Enchufe de pared FGWPE-101
+-   Nombre?bre : Enchufe de pared FGWPE-101
 
 -   ID del fabricante : 271
 
@@ -144,14 +144,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Es el comando que permite conocer el estado de la
-    Salida
+-   Estado? : Es el comando que permite conocer el estado de la
+    Salida?
 
 -   Uno : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
--   Potencia : Este es el comando que trae el poder instantáneo
+-   Potencia? : Este es el comando que trae el poder instantáneo
     consumido
 
 -   El consumo : Es el orden que informa el consumo total.
@@ -199,7 +199,7 @@ Detalles del parámetro :
 -   1: permite bloquear el módulo siempre en ON
 
 -   16: le permite recordar el último estado en caso de corte de energía
-    Actual
+    Actual?
 
 -   34: le permite elegir el tipo de alarma en la red Zwave
     debe reaccionar
@@ -222,7 +222,7 @@ Detalles del parámetro :
     de una variación
 
 -   49: tener en cuenta el consumo del propio módulo en el
-    Valores
+    Valores?
 
 -   50: valor mínimo utilizado por el parámetro 52
 
@@ -244,7 +244,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 

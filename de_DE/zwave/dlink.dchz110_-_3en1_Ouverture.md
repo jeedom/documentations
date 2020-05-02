@@ -60,9 +60,9 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz
+-   Selbstschutz?
 
--   Anzeige für niedrigen Batteriestand
+-   Anzeige für niedrigen Batterie?stand
 
 -   Klein, diskret und ästhetisch
 
@@ -91,12 +91,12 @@ Moduldaten
 
 \.
 
--   Machen Sie : D-Link
+-   Machen Sie : D-Link?
 
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home
 
--   Hersteller : FIBARO-System
+-   Hersteller? : FIBARO-System
 
 -   Hersteller ID : 264 \ [0x0108 \]
 
@@ -141,7 +141,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Befehle? 
 
 \.
 
@@ -158,18 +158,18 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung
+-   Öffnung? : Es ist der Befehl, der eine Erkennung auslöst
+    Öffnung?
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-   Sabotage? : Dies ist der Sabotage?befehl (er wird ausgelöst in
     herausreißen)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie? : Es ist der Batterie?befehl
 
 \.
 
@@ -230,7 +230,7 @@ Parameterdetails :
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
 
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterie?berichten definieren (einer
     Einheit = Parameter 20)
 
 -   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
@@ -246,14 +246,14 @@ Parameterdetails :
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
-    Bericht
+    Bericht?
 
 -   22: Wert in% der auszulösenden Helligkeitsänderung
     ein Bericht. Empfohlener Wert : 10
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 
@@ -306,7 +306,7 @@ Dieses Modul wird durch Drücken der Zuordnungstaste aktiviert.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt. (Zuordnungstaste für
 Kraft, daher das Interesse, das Modul nicht vor seiner zu installieren
 gute Konfiguration)

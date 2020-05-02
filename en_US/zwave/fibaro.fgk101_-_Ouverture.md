@@ -3,7 +3,7 @@ Fibaro Opening detector - FGK-101
 
 \
 
--   **The Module**
+-   **The Module?**
 
 \
 
@@ -43,7 +43,7 @@ connect its screw inputs to any detector (normally closed) of your
 choice such as smoke, gas or carbon monoxide detector,
 etc.
 
-A Z-Wave controller (remote control, dongle, Etc..) is required in order to
+A Z-Wave controller (remote control, dongle, Etc.?.) is required in order to
 integrate this detector into your network if you already have a network
 existant.
 
@@ -80,15 +80,15 @@ Technical characteristics
 
 -   Type of Module : Z-Wave transmitter
 
--   Color : White (FGK-101/102/103/104/105/106/107 depending on color)
+-   Color? : White (FGK-101/102/103/104/105/106/107 depending on color)
 
--   Food : ER14250 (1 / 2AA) 3.6V battery
+-   Food? : ER14250 (1 / 2AA) 3.6V battery
 
 -   Frequency : 868.42 Mhz
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 76 x 17 x 19 mm
+-   Dimensions?: 76 x 17 x 19 mm
 
 -   Operating temperature : 0-40 ° C
 
@@ -99,7 +99,7 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark? : Fibar Group
 
 -   Name : Fibaro FGK-101 with temperature probe (DS18B20)
 
@@ -125,7 +125,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this Module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper Documentation?.
 
 \
 
@@ -159,10 +159,10 @@ Here is the list of commands :
 \
 
 -   State : it is the command which will raise the open or closed state of the
-    Module
+    Module?
 
 -   Drums : it is the command which allows to go up the state of the
-    drums
+    drums?
 
 \
 
@@ -170,14 +170,14 @@ You can hide or show these commands as you wish.
 
 \
 
-### Setup of the Module 
+### Setup? of the Module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the Module just after
-> inclusion.
+> inclusion?.
 
 \
 
@@ -206,7 +206,7 @@ Parameter details :
 
 \
 
--   Wakeup : this is the Module's wake-up interval (value
+-   Wakeup? : this is the Module?'s wake-up interval (value
     7200 recommended)
 
 -   1: sets the delay for canceling the IN input alarm
@@ -226,7 +226,7 @@ Parameter details :
     and association group 1
 
 -   12: allows to adjust the sensitivity to temperature change (if
-    a 1 wire probe is connected to the Module)
+    a 1 wire probe is connected to the Module?)
 
 -   13: allows to set the sending in broadcast mode of the signals of
     temperature and tamper
@@ -235,7 +235,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups? 
 
 \
 
@@ -299,7 +299,7 @@ inclusion closest to your box.
 
 \
 
-This Module is a battery Module, the new configuration will be
+This Module is a battery Module?, the new configuration will be
 taken into account at the next wakeup.
 
 \

@@ -1,4 +1,4 @@
-Mando a distancia Mediodía - Octan 
+Mando a distancia Mediodía? - Octan 
 ==========================
 
 \
@@ -59,7 +59,7 @@ Características técnicas
 
 \
 
--   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro? : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
@@ -68,12 +68,12 @@ Características técnicas
 
 -   Imán integrado para fijación a superficie metálica.
 
--   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m?
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.01 Alcance: 40m interior / 80m exterior
 
--   Dimensiones : 80 \* 80 \* 15 mm
+-   Dimensiones : 80 \* 80 \* 15 mm?
 
 -   2 años de garantia
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer : Mediodía
+-   Hacer : Mediodía?
 
--   Nombrebre : CRC-3-1-00 Octan Remote
+-   Nombre?bre : CRC-3-1-00 Octan Remote
 
 -   ID del fabricante : 357
 
@@ -167,7 +167,7 @@ Aquí está la lista de comandos :
 > **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+> inclusión?.
 
 \
 
@@ -194,18 +194,18 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir los perfiles de botón cuando se usa en
+-   1-2? : Le permite elegir los perfiles de botón cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+-   4-7? : Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Grupos 
+### Grupos? 
 
 \
 

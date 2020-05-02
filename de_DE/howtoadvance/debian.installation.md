@@ -1,11 +1,11 @@
 Wir werden hier sehen, wie man einen Debian installiert, sowie
-als VM oder in direkter Installation auf einem physischen Computer
+als VM oder in direkter Installation? auf einem physischen Computer
 
 Quellenwiederherstellung 
 ========================
 
 Sie finden die neueste Debian-Version in netinstall (Größe)
-minimal, aber Internet für die Installation benötigen)
+minimal, aber Internet für die Installation? benötigen)
 [hier](https://www.debian.org/CD/netinst) (Sie müssen das Bild aufnehmen
 amd64) oder direkt klicken
 [hier](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
@@ -47,7 +47,7 @@ für weitere Details.
 Installation 
 ============
 
-Drücken Sie die Eingabetaste, um die Installation zu starten :
+Drücken Sie die Eingabetaste, um die Installation? zu starten :
 
 ![debian.installation1](images/debian.installation1.PNG)
 
@@ -162,7 +162,7 @@ Systemmodifikationen (nützlich besonders für Jeedom).
 Optimierung für Jeedom 
 ========================
 
-Um die Installation von Jeedom vorzubereiten, können Sie einige tun
+Um die Installation? von Jeedom vorzubereiten, können Sie einige tun
 Optimierungen :
 
 Fügen Sie vim und sudo hinzu 

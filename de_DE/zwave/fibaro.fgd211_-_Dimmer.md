@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung? : 230 V, 50 Hz
 
 -   Verkabelung : Neutral nicht erforderlich
 
@@ -95,17 +95,17 @@ Technische Daten
 
 -   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
--   Sicherung : 2.5A
+-   Sicherung : 2.5A?
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 15 x 42 x 36 mm
+-   Abmessungen?: 15 x 42 x 36 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
--   Temperatur begrenzen : 105 ° C.
+-   Temperatur begrenzen : 105 ° C.?
 
 -   Standards : EN 55015 und EN 60669-2-1
 
@@ -186,9 +186,9 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein? : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus? : Es ist der Befehl, der das Licht ausschaltet
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
@@ -279,7 +279,7 @@ Parameterdetails :
 
 \.
 
-### Gruppen 
+### Gruppen? 
 
 \.
 

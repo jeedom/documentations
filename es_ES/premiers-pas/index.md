@@ -11,7 +11,7 @@ Haga clic en el botón "Registrarse" en la esquina superior izquierda:
 
 ![S'enregistrer sur le Mercado](images/FirstStep_market1.jpg)
 
-Rellene los diferentes campos y valide. Entonces deberías estar en tu cuenta de Mercado:
+Rellene los diferentes campos y valide. Entonces deberías estar en tu cuenta de Mercado?:
 
 ![Mercado](images/FirstStep_market2.jpg)
 
@@ -26,7 +26,7 @@ Si compró una caja Jeedom, entonces debería haber recibido un correo electrón
 
 > **Important**
 >
-> Si compra un paquete de servicio en Jeedom Mercado, no tiene nada que hacer, se le asigna automáticamente.
+> Si compra un paquete de servicio en Jeedom Mercado?, no tiene nada que hacer, se le asigna automáticamente.
 
 Una vez que se recupera el código en el correo, solo necesita ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
 
@@ -60,7 +60,7 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 
 #### Por su caja de internet
 
--   Vaya a la interfaz de Administraciónistración de su caja de internet y busque Jeedom en sus dispositivos de red..
+-   Vaya a la interfaz de Administración?istración de su caja de internet y busque Jeedom en sus dispositivos de red..
 
 -   Consigue su IP.
 
@@ -74,7 +74,7 @@ Cualquiera que sea el método utilizado, llegarás a la página de inicio de ses
 
 ## Enlace mi Jeedom a mi cuenta de mercado
 
-Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
+Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado?.
 
 -   Una vez conectado a su libertad, debe ir a Administración → Configuración
 
@@ -109,7 +109,7 @@ Una vez aquí, solo necesita activar "Usar Jeedom DNS", luego en la línea "Admi
 
 > **Important**
 >
-> Si acaba de vincular su Jeedom a su cuenta de Mercado, debe esperar de 24 a 48 horas antes de poder utilizar el servicio DNS.
+> Si acaba de vincular su Jeedom a su cuenta de Mercado?, debe esperar de 24 a 48 horas antes de poder utilizar el servicio DNS.
 
 ## Cambiar la contraseña predeterminada de Jeedom
 
@@ -130,7 +130,7 @@ En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus
 
 > **Tip**
 >
-> Es posible definir relaciones entre objetos.. Ejemplo: la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
+> Es posible definir relaciones entre objetos.. Ejemplo?: la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
 
 Nada podría ser más simple para crear un objeto :
 
@@ -148,7 +148,7 @@ Para obtener más información sobre esta parte, consulte * Manual del usuario -
 
 Un complemento permite agregar funcionalidad a Jeedom. Hay cientos. Muchos son gratuitos, otros pueden ser de pago. Para acceder a la página de complementos, vaya a Complementos → Gestión de complementos.
 
-Luego solo haga clic en Mercado:
+Luego solo haga clic en Mercado?:
 
 Luego tendrá la lista de todos los complementos que se pueden instalar.
 
@@ -176,7 +176,7 @@ Entonces encuentras :
 
 Para obtener más información sobre complementos, * Manual del usuario -> Complemento*.
 
-# Apoyo
+# Apoyo?
 
 
 Jeedom aborda campos muy amplios y evoluciona día a día..
@@ -193,7 +193,7 @@ El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, 
 
 > **Important**
 >
-> Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Mercado.
+> Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Mercado?.
 
 Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom.. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno.:
 
@@ -215,7 +215,7 @@ Todos los intercambios posteriores serán por correo electrónico..
 
 Los diferentes paquetes de servicio son :
 - Comunidad (gratis): 2 tickets / mes (solo en complementos pagos)
-- Poder: 10 entradas / mes
-- Pro: 100 entradas / mes
+- Poder?: 10 entradas / mes
+- Pro?: 100 entradas / mes
 
 Puede encontrar el detalle de los paquetes de servicio. [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)

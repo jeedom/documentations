@@ -81,25 +81,25 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung? : 230 V, 50 Hz
 
--   Verbrauch : 0,5 W.
+-   Verbrauch : 0,5 W.?
 
 -   Maximale Leistung :
 
--   Widerstandslast : 300W
+-   Widerstandslast : 300W?
 
--   Glühbirne : 300W
+-   Glühbirne : 300W?
 
--   Kompaktleuchtstofflampe : 200W
+-   Kompaktleuchtstofflampe : 200W?
 
 -   Frequenz : 868,42 MHz
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED auf der Taste
+-   Anzeigen?: LED auf der Taste
 
--   Abmessungen : 42 mm x 43 mm x 16 mm
+-   Abmessungen? : 42 mm x 43 mm x 16 mm
 
 \.
 
@@ -110,7 +110,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : Im Wanddimmer
+-   Name? : Im Wanddimmer
 
 -   Hersteller ID : 96
 
@@ -169,7 +169,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
+-   Intensität? : Dies ist der Befehl zum Einstellen der Intensität des
     Licht
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet

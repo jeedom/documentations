@@ -28,7 +28,7 @@ The ZIP-PSM02-EU detector offers 4 different functions : detection of
 movement, opening detection, temperature sensor and detector
 brightness. It consists of two parts : a detector and a magnet.
 They are designed to be placed on a door or window with
-the magnet fixedd on the part which opens and the detector on the part
+the magnet fixed?d on the part which opens and the detector on the part
 fixe.
 
 Opening the door or window will keep the magnet away from
@@ -75,7 +75,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection
+-   Self-protection?
 
 -   Low battery indication
 
@@ -108,13 +108,13 @@ Technical characteristics
 
 -   PIR detection range : 8 to 10m
 
--   Dimensions :
+-   Dimensions? :
 
 -   Detector : 28 x 96 x 23 mm
 
 -   Magnet : 10 x 50 x 12 mm
 
--   Weight : 52g
+-   Weight? : 52g?
 
 -   Operating temperature : -10 to 40 ° C
 
@@ -133,7 +133,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name : PST02-A 4 in 1 Multi-Sensor
+-   Name? : PST02-A 4 in 1 Multi-Sensor
 
 -   Manufacturer ID : 316
 
@@ -157,7 +157,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper Documentation?.
 
 \
 
@@ -173,7 +173,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -192,29 +192,29 @@ Here is the list of commands :
 
 -   Presence : it is the command which will detect a presence detection
 
--   Opening : it is the command which will raise a detection
-    opening
+-   Opening? : it is the command which will raise a detection
+    opening?
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in
+-   Sabotage? : this is the sabotage command (it is triggered in
     tearing out)
 
--   Drums : it's the battery command
+-   Drums? : it's the battery command
 
 \
 
-### Setup of the module 
+### Setup? of the module 
 
 \
 
 > **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+> inclusion?.
 
 \
 
@@ -256,13 +256,13 @@ Parameter details :
     group 2
 
 -   5: operating mode (see the
-    manufacturer Documentation) Recommended value : 8
+    manufacturer Documentation?) Recommended value : 8
 
 -   6: multi-sensor operating mode (see the
-    manufacturer Documentation) Recommended value : 4
+    manufacturer Documentation?) Recommended value : 4
 
 -   7: personalized multi-sensor operating mode (see
-    on the manufacturer's Documentation) Recommended value : 6 (for
+    on the manufacturer's Documentation?) Recommended value : 6 (for
     have a return to OFF of the presence)
 
 -   8: allows to define the duration in steps of 8 seconds of redetection
@@ -287,14 +287,14 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report
+    Report?
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
 \
 
-### Groups 
+### Groups? 
 
 \
 

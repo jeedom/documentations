@@ -1,6 +1,6 @@
 # Cloud-Überwachung
 
-## Beschreibung
+## Beschreibung?
 
 Cloud Monitoring ist ein kostenpflichtiger Jeedom SAS-Dienst, der Ihre Jeedoms oder Jeedoms permanent überwacht und Sie bei Problemen warnt.
 
@@ -19,14 +19,14 @@ Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren
 Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Konfiguration der Cloud-Überwachung (auf Ihrer Marktprofilseite) tun. : 
 
 - Geben Sie eine andere E-Mail-Adresse ein (nur eine möglich)
-- Fügen Sie eine Warnung zum Telegm hinzu
+- Fügen Sie eine Warnung zum Teleg?m hinzu
 - Fügen Sie eine Warnung zu Slack hinzu (geben Sie einfach die Adresse von Webhook an)
 - Fügen Sie eine SMS-Benachrichtigung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist).
 - Hinzufügen einer Benachrichtigung per Benachrichtigung (erfordert die mobile App) 
 
 > **Telegram**
 >
-> Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegmausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
+> Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Teleg?mausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
 
 ## Wie man es aktiviert
 
@@ -50,4 +50,4 @@ Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen
 - Smart (getestet)
 - Debian x64 Stretch (getestet)
 - Debian x64 Jessie
-- RPI
+- RPI?

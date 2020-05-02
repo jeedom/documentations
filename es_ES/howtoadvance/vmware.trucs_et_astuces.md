@@ -149,7 +149,7 @@ luego haga clic en el enlace "Descargar vSphere Client para Windows" :
 Una vez descargado solo tienes que comenzar la instalación (paso
 voluntariamente en esta parte porque es suficiente para validar todo).
 
-Luego, inicie VMware vSphere Client, debería tener :
+Luego, inicie VMware? vSphere Client, debería tener :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -162,10 +162,10 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (Él
-probablemente tendrá que iniciar sesión con su cuenta de VMware). En la
+yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (Él?
+probablemente tendrá que iniciar sesión con su cuenta de VMware?). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
-Deje la última versión de VMware y haga "Buscar". Después
+Deje la última versión de VMware? y haga "Buscar". Después
 descargar el parche deseado (generalmente el último). El número de compilación (el
 primer problema, no el que comienza con KB) le da la versión del
 parche que puedes comparar con tu número de compilación.
@@ -177,7 +177,7 @@ Luego transfiere el zip a una de tus tiendas de datos y crea :
 > **Note**
 >
 > Reemplace la ruta y el nombre postal de acuerdo con su
-> Configuración
+> Configuración?
 
 > **Important**
 >
@@ -257,7 +257,7 @@ del destino) debe poner la IP del ESXi
 > Una vez que hayas hecho eso y tu DNS esté apuntando correctamente
 > en el NAS puede generar un certificado SSL válido de forma gratuita
 > con Encriptemos, yendo a Secrity ⇒ certificado y haciendo
-> Añadir. Entonces no olvides hacer clic en configurar para
+> Añadir?. Entonces no olvides hacer clic en configurar para
 > asignarlo a su proxy inverso
 
 Luego para acceder a su ESXi solo necesita con su navegador
@@ -268,7 +268,7 @@ bon.
 >
 > Si utiliza el proxy inverso de NAS, la consola en modo web de
 > Sin embargo, las máquinas virtuales no funcionan (porque pasa por websocket)
-> si pasa por VMware Remote Console, todo debería estar bien (esto
+> si pasa por VMware? Remote Console, todo debería estar bien (esto
 > pasa por el puerto 902)
 
 > **Note**

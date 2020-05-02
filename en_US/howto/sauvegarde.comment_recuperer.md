@@ -27,11 +27,11 @@ information at the top of the Filezilla window :
 
 -   Hostname : Jeedom IP address (sftp:// is added automatically)
 
--   Login : Jeedom
+-   Login? : Jeedom?
 
--   Password : Mjeedom96
+-   Password : Mjeedom96?
 
--   Harbor : 22
+-   Harbor? : 22
 
 Then click on "Quick Connection"
 

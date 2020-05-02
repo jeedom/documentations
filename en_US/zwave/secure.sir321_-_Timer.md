@@ -28,7 +28,7 @@ The SIR321 digital timer is a simple switch to
 push button that remembers turning off your devices for you
 electric. Big energy savings are possible by adding
 this simple device on any high power electrical device,
-with loads up to 3kW (resistive).
+with loads up to 3kW? (resistive).
 
 These units are perfect for use on panels
 heaters, immersion heaters, towel warmers and oil coolers. The
@@ -64,16 +64,16 @@ Technical characteristics
 
 \
 
--   Type: Electronic timer
+-   Type?: Electronic timer
 
--   Relay: 13 (3) A, 230V AC, suitable for loads up to
-    3kW
+-   Relay?: 13 (3) A, 230V AC, suitable for loads up to
+    3kW?
 
--   Food: 230V AC, 50Hz
+-   Food?: 230V AC, 50Hz
 
 -   Dimensions 85x85x44mm
 
--   Protection sign : IP30
+-   Protection sign : IP30?
 
 -   Operating temperature: 0 ° C to 35 ° C
 
@@ -84,13 +84,13 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark : Horstmann?
 
--   Name : SIR 321 RF Countdown Timer
+-   Name? : SIR 321 RF Countdown Timer
 
 -   Manufacturer ID : 89
 
--   Product Type : 1/2 (depending on whether it is included with a probe
+-   Product Type? : 1/2 (depending on whether it is included with a probe
     or not)
 
 \
@@ -110,7 +110,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 1 second on
 > the button (until rapid flashing) and release, in accordance with
-> paper Documentation.
+> paper Documentation?.
 
 \
 
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -143,9 +143,9 @@ Here is the list of commands :
 
 \
 
--   We : this is the command to turn on the relay
+-   We? : this is the command to turn on the relay
 
--   Off : it is the command to switch off the relay
+-   Off? : it is the command to switch off the relay
 
 -   Temperature : this is the temperature measurement command if a
     external probe is present
@@ -179,7 +179,7 @@ Parameter details :
 \
 
 -   1: Allows you to activate or not the fail safe timer function (refer to
-    module Documentation)
+    module Documentation?)
 
 -   2: Adjusts the temperature unit
 

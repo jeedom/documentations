@@ -91,7 +91,7 @@ Moduldaten
 
 \.
 
--   Machen Sie : Aeotec
+-   Machen Sie : Aeotec?
 
 -   Name : Panikknopf
 
@@ -150,7 +150,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten? : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Kurze Taste drücken
 
@@ -165,7 +165,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 

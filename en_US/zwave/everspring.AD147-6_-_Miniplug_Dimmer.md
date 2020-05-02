@@ -68,20 +68,20 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food? : 230 V, 50 Hz
 
--   Consumption : 0.6W
+-   Consumption : 0.6W?
 
 -   Maximum power : Resistive load : 250W, Incandescent bulb
-    : 250W, Led bulb (not dimmable) : 6W
+    : 250W, Led bulb (not dimmable) : 6W?
 
 -   Frequency : 868.42 Mhz
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED on the button
+-   Viewing?: LED on the button
 
--   Dimensions : Length (plug included) : 74mm Diameter : 52mm
+-   Dimensions? : Length (plug included) : 74mm Diameter : 52mm?
 
 \
 
@@ -90,9 +90,9 @@ Module data
 
 \
 
--   Mark : Everspring
+-   Mark? : Everspring?
 
--   Name : Miniplug Dimmer
+-   Name? : Miniplug Dimmer
 
 -   Manufacturer ID : 96
 
@@ -116,7 +116,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation. It's important to
+> button, according to its paper Documentation?. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -151,15 +151,15 @@ Here is the list of commands :
 
 \
 
--   Intensity : This is the command used to adjust the intensity of the
-    Outlet
+-   Intensity? : This is the command used to adjust the intensity of the
+    Outlet?
 
 -   We : This is the command that turns on the outlet
 
--   Off : It is the command which makes it possible to extinguish the catch
+-   Off? : It is the command which makes it possible to extinguish the catch
 
 -   State : It is the command which allows to know the status of the
-    Outlet
+    Outlet?
 
 \
 
@@ -168,7 +168,7 @@ found on the same icon.
 
 \
 
-### Setup of the module 
+### Setup? of the module 
 
 \
 
@@ -207,7 +207,7 @@ Parameter details :
 -   4 : This parameter allows you to define whether the outlet will operate in
     variation or in on / off mode
 
-### Groups 
+### Groups? 
 
 \
 

@@ -50,13 +50,13 @@ en casa lo recupero :
 
     8192cu 550797 0
 
-Edición del archivo "/ etc / red / interfaces"
+Edición del archivo "/ etc / red? / interfaces"
 ==============================================
 
-Primero debe editar el archivo "/ etc / red / interfaces" con el
+Primero debe editar el archivo "/ etc / red? / interfaces" con el
 orden siguiente :
 
-    sudo nano / etc / red / interfaces
+    sudo nano / etc / red? / interfaces
 
 Aquí está el contenido del archivo operativo conmigo :
 
@@ -65,10 +65,10 @@ Aquí está el contenido del archivo operativo conmigo :
     iface eth0 inet dhcp
     #wlan
     #=============
-    auto wlan0
-    allow-hotplug wlan0
-    iface wlan0 inet dhcp
-    pre-up wpa_supplicant -Dwext -i wlan0 -c / etc / wpa_supplicant.conf -B
+    auto wlan?0
+    allow-hotplug wlan?0
+    iface wlan?0 inet dhcp
+    pre-up wpa_supplicant -Dwext -i wlan?0 -c / etc / wpa_supplicant.conf -B
     iface default inet dhcp
 
 Edición del archivo "/etc/wpa\_supplicant.conf" 
@@ -86,10 +86,10 @@ Aquí está mi archivo operativo en casa :
     update_config = 1
     eapol_version = 1
     ap_scan = 2
-    red={
+    red?={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            modo = 0
+            modo = 0?
             proto = WPA2
             pairwise = CCMP
             grupo = CCMP
@@ -110,6 +110,6 @@ Aquí está mi archivo operativo en casa :
 
     Una vez que se completan los archivos, solo queda iniciar la conexión WiFi, escribiendo el siguiente comando :
 
-sudo ifup wlan0
+sudo ifup wlan?0
 
     Normalmente, su WiFi debería estar operativo en su Mini.

@@ -13,7 +13,7 @@ generation :
 To request a certificate, you must have a name of
 domain for which it will be generated.
 
-Apache configuration 
+Apache conf?iguration 
 ======================
 
 In order for the letsEncrypt process to complete successfully, it is
@@ -36,7 +36,7 @@ Activation of virtualHost and SSL module
 > Connect in SSH on the Jeedom box.
 
     a2enmod ssl
-    a2ensite default-ssl.conf
+    a2ensite default-ssl?.conf
     apache2 restart service
 
 > **Note**
@@ -54,7 +54,7 @@ are added by the script in Apache.
 >
 > If you use the automatic renewal method below,
 > you can disable virtualHost **default-ssl.conf** with the
-> Command **a2dissite default-ssl.conf** Remember to report the code by
+> Command? **a2dissite default-ssl?.conf** Remember to report the code by
 > default below in the virtualHost created by the script
 > renewal :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
@@ -67,7 +67,7 @@ are added by the script in Apache.
     </Directory>
     </VirtualHost>
 
-Configuration of Nginx 
+Configuration of Nginx? 
 ======================
 
 This command is only to be used if you have a web server
@@ -77,7 +77,7 @@ Nginx.
 
 You must replace the email and domain parameters with your values,
 as well as the path to the root of the server. You must add the
-two HTTPS configuration lines in the nginx configuration :
+two HTTPS conf?iguration lines in the nginx conf?iguration :
 
     vi / etc / nginx / sites-enabled / default
 
@@ -94,7 +94,7 @@ Add the following lines, between the lines `server {` and
 
     ssl_session_timeout 5m;
 
-And finally restart the Nginx server.
+And finally restart the Nginx? server.
 
     service nginx restart
 
@@ -118,7 +118,7 @@ steps to follow :
 
 <!-- -->
 
-    apt-get install -y bc
+    apt-get install -y bc?
 
 -   Create a file to write the script (its location is free)
     :
@@ -170,7 +170,7 @@ steps to follow :
 > <https://crontab.guru/#0_5_*_*_1>
 
 -   Save the file then exit the text editor by
-    backing up :
+    backing up? :
 
 <!-- -->
 

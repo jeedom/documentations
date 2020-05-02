@@ -34,7 +34,7 @@ Funktionen
 
 -   Wandmontage durch Schrauben oder doppelseitig
 
--   Informationen zum Batteriestand
+-   Informationen zum Batterie?stand
 
 Technische Daten 
 ===========================
@@ -45,24 +45,24 @@ Technische Daten
 
 -   Versorgung : 3VDC (Lithiumbatterie ER14250)
 
--   Autonomie : Bis zu 3 Jahre
+-   Autonomie? : Bis zu 3 Jahre
 
 -   Frequenz : 868,3 MHz
 
 -   Betriebstemperatur : 0 ° C + 45 ° C.
 
--   Reichweite im freien Feld : 100M
+-   Reichweite im freien Feld : 100M?
 
--   Abmessungen : 25x79x19mm
+-   Abmessungen? : 25x79x19mm
 
--   Schutzart : IP20
+-   Schutzart : IP20?
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie? : Edisio Smart Home
 
--   Name : ETS-200
+-   Name? : ETS-200?
 
 Allgemeine Konfiguration 
 ======================
@@ -124,7 +124,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Befehl, der die gelesene Temperatur anzeigt
 
--   Batterie : Zeigt den Batteriestatus an
+-   Batterie? : Zeigt den Batterie?status an
 
 Information 
 ------------
@@ -139,7 +139,7 @@ verfügbar :
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie : Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie? : Zeigt den Batterie?status der Batterie?module an
 
 -   STATUS : Gibt den STATUS des Moduls zurück
 

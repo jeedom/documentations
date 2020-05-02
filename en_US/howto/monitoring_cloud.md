@@ -1,6 +1,6 @@
 # Cloud monitoring
 
-## Description
+## Description?
 
 Cloud monitoring is a paid Jeedom SAS service which permanently monitors your Jeedoms or your Jeedoms and warns you in case of problems.
 
@@ -19,7 +19,7 @@ Jeedom regularly sends the information on the health page to our monitoring serv
 By default you are notified by an email on your email configured in your profiles but you can in the configuration of cloud monitoring (on your market profiles page) : 
 
 - Put another email address (only one possible)
-- Add an alert on Teleg
+- Add an alert on Teleg?
 - Add an alert on Slack (just give the address of Webhook)
 - Add an SMS alert (note that this requires that you have SMS credit on the market)
 - Add an alert by Notification (requires the mobile app) 
@@ -50,4 +50,4 @@ After adding cloud monitoring credit, you must either wait a few hours (around 2
 - Smart (tested)
 - Debian x64 Stretch (tested)
 - Debian x64 Jessie
-- RPI
+- RPI?

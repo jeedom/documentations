@@ -2,18 +2,18 @@ Objetivo
 ========
 
 Aquí encontrará la documentación para instalar Jeedom en un
-frambuesa PI 3 **sin tarjeta microSD.**
+frambuesa PI 3 **sin tarjeta microSD?.**
 
 PI3 de hecho ofrece la posibilidad de arrancar directamente en un
-Dispositivo USB y, por lo tanto, libérese de la tarjeta microSD a veces
+Dispositivo USB y, por lo tanto, libérese de la tarjeta microSD? a veces
 generando problemas (corrupción).
 
 **El procedimiento de instalación es estrictamente idéntico al de un
-tarjeta microSD, pero asegúrese de tener firmware
+tarjeta microSD?, pero asegúrese de tener firmware
 jour.**
 
 Para hacer esto, abra una conexión SSH. (si no sabes cómo,
-mira la instalación en microSD :
+mira la instalación en microSD? :
 [Aquí](https://doc.jeedom.com/es_ES/installation/index.html)
 )
 

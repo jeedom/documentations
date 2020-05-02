@@ -52,7 +52,7 @@ Technische Daten
 
 \.
 
--   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung : CR2032 Batterie? - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -60,7 +60,7 @@ Technische Daten
 
 -   Schlag- und spritzwassergeschützt
 
--   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
+-   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m?
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.06
@@ -78,9 +78,9 @@ Moduldaten
 
 \.
 
--   Machen Sie : Nicken
+-   Machen Sie : Nicken?
 
--   Name : CRC-3-6-0x Soft Remote
+-   Name? : CRC-3-6-0x Soft Remote
 
 -   Hersteller ID : 357
 
@@ -138,13 +138,13 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten? : Es ist der Befehl, der den Knopf nach oben drückt
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
+| Tasten?        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| voll)**       |                |                |                |                |
+| voll)?**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -153,7 +153,7 @@ Hier ist die Liste der Befehle :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
+-   Batterie? : Es ist der Befehl, der den Füllstand der Batterie?n erhöht
 
 \.
 
@@ -164,7 +164,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Einbeziehung?.
 
 \.
 
@@ -191,13 +191,13 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+-   1-2? : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-   4-7? : Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
@@ -259,7 +259,7 @@ Faq.
 
 \.
 
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
+Dieses Modul ist ein Batterie?modul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
 \.

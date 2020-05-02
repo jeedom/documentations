@@ -34,7 +34,7 @@ Kitt herunterladen
 =======================
 
 Dann Kitt herunterladen
-[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) und
+[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) und?
 Starten Sie die heruntergeladene Datei
 
 Kittkonfiguration und nur in den GSM-Modus wechseln 

@@ -55,7 +55,7 @@ Funciones
 -   Controle sus persianas o persianas de forma remota
 
 -   Compatible con BSO y persiana veneciana con posicionamiento de
-    listones
+    listones?
 
 -   Se instala detrás de un interruptor existente
 
@@ -82,25 +82,25 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50 Hz
+-   Suministro? : 230V, 50 Hz
 
 -   El consumo de energía : &lt; 0,8W
 
 -   Cableado : 3 hilos, neutro requerido
 
--   Carga máxima : 1000W
+-   Carga máxima : 1000W?
 
 -   Frecuencia : 868.42 Mhz
 
--   Fuerza de la señal : 1mW
+-   Fuerza de la señal : 1mW?
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 17 x 42 x 37 mm
+-   Dimensiones?: 17 x 42 x 37 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Temperatura límite : 105 ° C
+-   Temperatura límite : 105 ° C?
 
 -   Normas : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombrebre : Fibaro FGRM-222
+-   Nombre?bre : Fibaro FGRM-222
 
 -   ID del fabricante : 271
 
@@ -175,7 +175,7 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer la posición de
     tu obturador
 
--   Posicionamiento : Es el comando que hace posible definir el
+-   Posicionamiento? : Es el comando que hace posible definir el
     porcentaje de apertura
 
 -   Arriba : Este es el comando que le permite abrir completamente el obturador
@@ -187,7 +187,7 @@ Aquí está la lista de comandos :
 
 -   Potencia : Comando que permite tener el consumo del módulo
 
--   El consumo : Control que permite conocer el poder
+-   El consumo? : Control que permite conocer el poder
     Instantáneo utilizado por el módulo
 
 -   Detener : Control para detener el movimiento del obturador.
@@ -195,12 +195,12 @@ Aquí está la lista de comandos :
 -   DETENER BSO : Comando para detener el movimiento (en modo
     listón ajustable)
 
--   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
+-   Inclinación? : Le permite inclinar las lamas (modo de lamas ajustable)
 
 -   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 
 -   No : Se usa para definir el paso para presionar Rechazar o
-    Inclinación
+    Inclinación?
 
 \
 
@@ -258,7 +258,7 @@ Detalles del parámetro :
 
 -   18: potencia de seguridad del motor
 
--   22: NA
+-   22: NA?
 
 -   29: permite calibrar la aleta
 
@@ -281,7 +281,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 
@@ -312,7 +312,7 @@ en este botón disponible en la pestaña Sistema.
 
 \
 
-### Importantee 
+### Importante?e 
 
 \
 

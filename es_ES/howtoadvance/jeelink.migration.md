@@ -1,6 +1,6 @@
-Veremos aquí cómo migrar una instalación con Jeedom en modo
-esclavo de un Jeedom con el complemento Jeedom Link". Modo esclavo
-Jeedom siendo abandonado en la transición de Jeedom a la Haciaión 3.0 es
+Veremos aquí cómo migrar una instalación con Jeedom? en modo
+esclavo de un Jeedom? con el complemento Jeedom? Link". Modo esclavo
+Jeedom siendo abandonado en la transición de Jeedom? a la Hacia?ión 3.0 es
 necesario proceder antes de la migración al nuevo modo de
 fonctionnement.
 
@@ -21,30 +21,30 @@ Preparación antes de la migración
 > **Important**
 >
 > Tenga cuidado de no enrollar el equipo
-> configurar el complemento Jeedom Link". Por ejemplo, no hagas un
-> Equipment-X en un Jeedom1 que sube en un Jeedom2 y luego sube
-> de nuevo en Jeedom1. Podría dejar caer tus Jeedoms !
+> configurar el complemento Jeedom? Link". Por ejemplo, no hagas un
+> Equipment-X en un Jeedom?1 que sube en un Jeedom?2 y luego sube
+> de nuevo en Jeedom?1. Podría dejar caer tus Jeedom?s !
 
 > **Note**
 >
 > Para una mejor lectura y comprensión de este tutorial, aquí están los
 > términos utilizados :\
 > \
-> - **Jeedom Target** : Servidor (tu antiguo Jeedom Master) que
+> - **Jeedom Target** : Servidor (tu antiguo Jeedom? Master) que
 > centralizar el equipamiento de la **Jeedom (s) Fuente (s)**\
 > Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.\
 > \
-> - **Fuente de la libertad** : Servidor (su ex esclavo (s) Jeedom)
+> - **Fuente de la libertad** : Servidor (su ex esclavo (s) Jeedom?)
 > lo que vuelve a poner su equipo en el **Jeedom Target**.\
 > \
-> - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no son
-> noticias. El nuevo modo operativo de sincronización
-> El equipamiento entre varios Jeedoms puede ser bidireccional. Un
-> Jeedom Server puede ser ahora **Source** y **Cible** entonces que
-> el modo antiguo solo permitía el sobregimiento de equipos
+> - Las nociones de **Jeedom Master** y? **Jeedom Slave** ya no son
+> noticias?. El nuevo modo operativo de sincronización
+> El equipamiento entre varios Jeedom?s puede ser bidireccional. Un
+> Jeedom? Server puede ser ahora **Source** y? **Cible** entonces que
+> el modo antiguo solo permitía el sobre?gimiento de equipos
 > **l'Esclave** Hacia **el maestro**. Con el nuevo modo también es
 > posible tener múltiples **Jeedom Targets** por lo mismo **Jeedom
-> Fuente**. La comunicación entre Jeedoms ahora también puede
+> Fuente?**. La comunicación entre Jeedom?s ahora también puede
 > hacerse de forma remota a través de Interny (Jeedom DNS u otro).
 > \
 
@@ -53,14 +53,14 @@ Preparación antes de la migración
 Actualizaciones de configuración y verificación 
 ------------------------------------------------
 
--   Actualiza el **Jeedom Master** a la última Haciaión (incluso si
+-   Actualiza el **Jeedom Master** a la última Hacia?ión (incluso si
     no se le ofrece ninguna actualización).
 
 -   Actualizar complementos de **Jeedom Master** hasta el final
-    Haciaiones disponibles.
+    Hacia?iones disponibles.
 
 -   Compruebe en la página de Salud que la configuración de red interna del
-    **Jeedom Master** está bien (y externo si su **Fuentes de Jeedoms**
+    **Jeedom Master** está bien (y externo si su **Fuentes de Jeedom?s**
     será distante).
 
 Recopilando información útil 
@@ -71,12 +71,12 @@ necesario para recuperar la siguiente información :
 
 ### Complemento Zwave 
 
--   En la página de salud del complemento Zwave en el **Jeedom Master**, Elegir
+-   En la página de salud del complemento Zwave en el **Jeedom Master**, Elegir?
     suyo **Esclave** desde el menú desplegable y hacer una captura de pantalla,
     esto para tener una lista del equipo que viene
     de este.
 
--   Nota para cada equipo proveniente de **l'Esclave** : el objeto
+-   Nota para cada equipo proveniente de **l'Esclave** : el objeto?
     padre, nombre, ID (nodo), modelo.
 
 -   Recuperar archivo Zwcfg : *Complementos ⇒ Gestión de complementos ⇒
@@ -85,7 +85,7 @@ necesario para recuperar la siguiente información :
 
 ### Complemento RFXcom 
 
--   Nota para cada equipo proveniente de **l'Esclave** : el objeto
+-   Nota para cada equipo proveniente de **l'Esclave** : el objeto?
     padre, nombre, ID (lógico), tipo, modelo.
 
 > **Note**
@@ -97,7 +97,7 @@ Copias de seguridad preventivas
 -----------------------
 
 -   Hacer una copia de seguridad
-    Jeedom](https://doc.jeedom.com/es_ES/core/doc-core-backup.html)
+    Jeedom?](https://doc.jeedom.com/es_ES/core/doc-core-backup.html)
     de su **Jeedom Master** y tu **Jeedom Slave (s)**
     y recuperarlo (s) en su PC / NAS ....
 
@@ -112,7 +112,7 @@ Migración
 > **Note**
 >
 > No elimine equipos viejos de
-> **l'Esclave** sobre **el maestro**.
+> **l'Esclave** sobre? **el maestro**.
 
 Instale y active el complemento "Jeedom Link" en el **Jeedom Target** (ex maestro). 
 -------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ Instalación de **Fuente de la libertad** :
 > si tienes una Raspberry Pi adicional y otra tarjeta
 > SD, puede migrar un protocolo tras otro al
 > instalando un nuevo **Fuente de la libertad** en paralelo sin tener que
-> toca tu **Jeedom Slave** existente. Obviamente moviéndose
+> toca tu **Jeedom Slave** existente?. Obviamente moviéndose
 > como los posibles controladores de uno a otro.
 
 > **Warning**
@@ -144,24 +144,24 @@ Instalación de **Fuente de la libertad** :
 > Nueva SD / microSD. Esto te permitirá retroceder
 > fácilmente si es necesario.
 
--   Instale un nuevo Jeedom en una nueva tarjeta SD (Ly it be
+-   Instale un nuevo Jeedom? en una nueva tarjeta SD (Ly it be
     poner en tu **Jeedom Slave** existente o para un
     nueva Raspberry Pi) siguiendo la [documentación
     d'installation](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
 
--   Actualiza el **Fuente de la libertad** a la última Haciaión (incluso si
+-   Actualiza el **Fuente de la libertad** a la última Hacia?ión (incluso si
     no se le ofrece ninguna actualización).
 
 -   Verifique en la página de Salud que la configuración de la red interna (y
     externo si es necesario) **Fuente de la libertad** esta bien.
 
-Configuración de fuente de Jeedom 
+Configuración de fuente de Jeedom? 
 ------------------------------
 
 -   Cambie la contraseña del usuario administrador o / y configure un
     nuevo usuario.
 
--   Configure su cuenta de Jeedom Marky (* Configuración ⇒ Actualizaciones
+-   Configure su cuenta de Jeedom? Marky (* Configuración ⇒ Actualizaciones
     y archivos ⇒ pestaña "Mercado" *). Haga clic en prueba después
     guardado, para validar la entrada de sus identificadores
     Mercado de la libertad).
@@ -190,7 +190,7 @@ Source**.
 > **Note**
 >
 > Recuerde desactivar el registro de comandos
-> información de cada equipo en el **Fuente de la libertad** entonces
+> información de cada equipo en el **Fuente de la libertad** entonces?
 > para guardar la tarjeta SD (la historización se realizará en el
 > **Jeedom Target**).
 
@@ -276,12 +276,12 @@ para agregar :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-Después de actualizar la página * My JeeLinks * de **Jeedom Target**, Vosotras
+Después de actualizar la página * My JeeLinks * de **Jeedom Target**, Vosotras?
 debe tener en cuenta la creación automática del equipo :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
 
-Como todos los equipos Jeedom, puede activar / desactivar y mostrar
+Como todos los equipos Jeedom?, puede activar / desactivar y mostrar
 o no el equipo, sus controles, ... o cambiar la categoría :
 
 ![jeelink.migration7](images/jeelink.migration7.png)
@@ -298,10 +298,10 @@ Recuperación histórica
 >
 > Para hacer en **Jeedom Target** (Ex maestro) para cada pedido
 > información del equipo antiguo **Esclave** que queremos recuperar
-> la historia.
+> la historia?.
 
 -   Vaya a la configuración del comando (* Rueda dentada en
-    derecha*).
+    derecha*)?.
 
 -   Vaya a la pestaña * Configuración avanzada*.
 
@@ -321,7 +321,7 @@ Reemplazo de equipos esclavos antiguos en escenarios / virtuales / ...
 > reemplazar ocurrencias en escenarios / virtuales / ....
 
 -   Vaya a la configuración del comando (* Rueda dentada en
-    derecha*).
+    derecha*)?.
 
 -   Vaya a la pestaña * Información*.
 
@@ -340,7 +340,7 @@ Recuperando configuraciones de pantalla avanzadas para comandos
 > recuperar configuraciones avanzadas de pantalla.
 
 -   Vaya a la configuración del comando (* Rueda dentada en
-    derecha*).
+    derecha*)?.
 
 -   Haga clic en el botón * aplicar a*.
 
@@ -377,7 +377,7 @@ Copia de configuraciones de comando avanzadas
 >
 > Interacciones en el **Jeedom Target** no se puede lanzar
 > a través del equipo de un **Fuente de la libertad** transferido a través de
-> Complemento Jeedom Link".
+> Complemento Jeedom? Link".
 
 Hogar en el **Jeedom Target** 
 ==============================
@@ -397,6 +397,6 @@ Hogar en el **Jeedom Target**
 -   En el complemento "Jeedom Link", cambie el nombre del equipo que
     podría tener un nombre que termine con "remoto XXXX".
 
--   En la página de Jeedom Network, elimine la anterior. **Jeedom Slave**.
+-   En la página de Jeedom? Network, elimine la anterior. **Jeedom Slave**.
 
 

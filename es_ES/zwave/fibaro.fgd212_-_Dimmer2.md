@@ -63,7 +63,7 @@ Funciones
 -   Integra el chip de la serie Z-Wave 500
 
 -   Comunicación 250% más rápida en comparación con los dispositivos Z-Wave
-    Estándar
+    Estándar?
 
 -   Detección automática de carga
 
@@ -99,25 +99,25 @@ Características técnicas
 
 \
 
--   Puntao de módulo : Receptor Z-Wave
+-   Punta?o de módulo : Receptor Z-Wave
 
 -   Suministro : 230V +/- 10%, 50Hz
 
--   El consumo : 1.3W
+-   El consumo? : 1.3W?
 
 -   Cableado : neutral no requerido
 
 -   Carga máxima : 50-250W (carga resistiva) o 0.25-1.1A
     (carga inductiva)
 
--   Puntao de lámpara compatible (regulable) : Incandescente, Fluocompacto,
+-   Punta?o de lámpara compatible (regulable) : Incandescente, Fluocompacto,
     Halógeno (230VAC y 12VDC con transformador electrónico), LED
 
--   Puntao de lámpara compatible (no regulable) : Fluorescente compacta, LED
+-   Punta?o de lámpara compatible (no regulable) : Fluorescente compacta, LED
 
 -   Frecuencia : 868.42 Mhz
 
--   Fuerza de la señal : 1mW
+-   Fuerza de la señal : 1mW?
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
@@ -125,10 +125,10 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0-35 ° C
 
--   Temperatura límite : 105 ° C
+-   Temperatura límite : 105 ° C?
 
--   Normas : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5 / CE
+-   Normas? : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
+    1999/5 / CE?
 
 \
 
@@ -139,11 +139,11 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombrebre : FGD212 Dimmer 2
+-   Nombre?bre : FGD212 Dimmer 2
 
 -   ID del fabricante : 271
 
--   Puntao de producto : 258
+-   Punta?o de producto : 258
 
 -   ID del producto : 4096
 
@@ -209,14 +209,14 @@ Aquí está la lista de comandos :
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno : Es el control que enciende la luz.
+-   Uno? : Es el control que enciende la luz.
 
--   Apagado : Es el comando que apaga la luz.
+-   Apagado? : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
 
--   El consumo : Es el comando que permite subir el
+-   El consumo? : Es el comando que permite subir el
     consumo de módulo
 
 -   Potencia : Es el comando que permite elevar el poder.
@@ -266,7 +266,7 @@ Ser redactado
 
 \
 
-### Grupos 
+### Grupos? 
 
 \
 
@@ -291,7 +291,7 @@ Bueno saber
 > **Caution**
 >
 > El parámetro más importante de la configuración es 20. Se
-> permite elegir el tipo de interruptor utilizado. Puntao predeterminado
+> permite elegir el tipo de interruptor utilizado. Punta?o predeterminado
 > se establece en monoestable.
 
 \

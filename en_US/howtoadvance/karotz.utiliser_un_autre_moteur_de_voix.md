@@ -1,34 +1,34 @@
 Connect to Telnet 
 ======================
 
-You must first connect to telnet (port 23) on openkarotz,
+You must fi?rst connect to telnet (port 23) on openkarotz,
 the identifier being kartoz
 
 Adding a voice engine 
 =========================
 
-Go to / www / cgi-bin / and edit the tts file.inc, add a
+Go to / www / cgi-bin / and edit the tts fi?le.inc, add a
 function (example for Jeedom) :
 
     jeedomTTS function {
-       TTS = $ 1
+       TTS = $ 1?
        MD5FILE = $ (echo "$ TTS" | md5sum | cut -d '' -f 1)
        eval $ (echo "curl -A '$ {UA}' -o $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 'http://TODO/core/api/tts.php?apikey = TODO & text = $ {TTS} '") >> / dev / null 2 >> / dev / null
        echo $ (echo "$ RAW_TTS" | UrlDecode)> $ CNF_DATADIR / Tmp / $ {MD5FILE} .txt
        if ["$ 5" != "1 "]; then
             Log "[TTS]" "Playing sound $ {MD5FILE} .mp3"
             PlaySound $ CNF_DATADIR / Tmp / $ {MD5FILE} .mp3
-        fi
+        fi?
         if ["$ NOCACHE" == "1"]; then
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 >> / dev / null 2 >> / dev / null
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.txt >> / dev / null 2 >> / dev / null
-         else
+         else?
             Log "[TTS]" "Storing sound $ {MD5FILE}.mp3 to cache"
-         fi
+         fi?
        echo $ {MD5FILE}
     }
 
-Then edit the tts file and add :
+Then edit the tts fi?le and add :
 
     3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
 
@@ -39,7 +39,7 @@ In the "box \ $ TTS\_ENGINE in" to have :
                  2) MP3_ID = $ (VioletTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
                  3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
                  *) MP3_ID = $ (AcapelaTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE $ MUTE) ;;
-    esac
+    esac?
 
 Use 
 ===========

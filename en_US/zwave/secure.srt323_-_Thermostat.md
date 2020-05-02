@@ -87,7 +87,7 @@ Technical characteristics
 
 -   Integrated TPI algorithm
 
--   Relay: 3 (1) A 230V AC
+-   Relay?: 3 (1) A 230V AC
 
 -   Adjustable temperature range: 5 ° C to 30 ° C
 
@@ -99,11 +99,11 @@ Technical characteristics
 
 -   Scope : up to 50 m in open field
 
--   Protection sign : IP30
+-   Protection sign : IP30?
 
 -   Operating temperature : 0 ° C to 40 ° C
 
--   Dimensions : 86 x 86 x 36.25 mm
+-   Dimensions? : 86 x 86 x 36.25 mm
 
 \
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark : Horstmann?
 
--   Name : SRT 323 Electronic Room Thermostat and Temperature
+-   Name? : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Manufacturer ID : 89
 
@@ -139,7 +139,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, you must put switch 1 in
 > position ON then with the dial display L and press the dial,
-> according to its paper Documentation.
+> according to its paper Documentation?.
 
 \
 
@@ -168,7 +168,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands? 
 
 \
 
@@ -198,7 +198,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Setup? of the module 
 
 \
 
@@ -234,7 +234,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups? 
 
 \
 

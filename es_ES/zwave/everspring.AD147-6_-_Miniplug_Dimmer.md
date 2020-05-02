@@ -68,20 +68,20 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230 V, 50 Hz
+-   Suministro? : 230 V, 50 Hz
 
--   El consumo : 0.6W
+-   El consumo : 0.6W?
 
 -   Potencia máxima : Carga resistiva : 250W, bombilla incandescente
-    : 250W, bombilla led (no regulable) : 6W
+    : 250W, bombilla led (no regulable) : 6W?
 
 -   Frecuencia : 868.42 Mhz
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: LED en el botón
+-   Visualización?: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
+-   Dimensiones? : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm?
 
 \
 
@@ -90,9 +90,9 @@ Datos del módulo
 
 \
 
--   Hacer : Everspring
+-   Hacer? : Everspring?
 
--   Nombre : Dimmer Miniplug
+-   Nombre? : Dimmer Miniplug
 
 -   ID del fabricante : 96
 
@@ -151,15 +151,15 @@ Aquí está la lista de comandos :
 
 \
 
--   Intensidad : Este es el comando utilizado para ajustar la intensidad de la
-    Salida
+-   Intensidad? : Este es el comando utilizado para ajustar la intensidad de la
+    Salida?
 
 -   Uno : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
 -   Estado : Es el comando que permite conocer el estado de la
-    Salida
+    Salida?
 
 \
 
@@ -207,7 +207,7 @@ Detalles del parámetro :
 -   4 : Este parámetro le permite definir si la salida funcionará en
     variación o en modo encendido / apagado
 
-### Grupos 
+### Grupos? 
 
 \
 
