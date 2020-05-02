@@ -1,5 +1,4 @@
-Hardware
-========
+# Hardware
 
 Hardware | Etat | Remarques
 --- | --- | ---
@@ -14,18 +13,9 @@ RPI3                    | Non officiel/Stable     | Attention si vous utilisez u
 32 bits                 | Non supporté            |                          
 Vmware                  | Stable                  | Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 nécessite l’installation d’un correctif VMWare pour le support des Zwave.         
 
-Images
-======
+#  Images
 
 Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/),puis dans le dossier Images
-
-> **Note**
->
-> Une image netinstall va lors du premier démarrage installer la
-> dernière version stable de Jeedom, ce démarrage est donc un peu plus
-> long et nécessite d’avoir accès à internet. Vous pouvez suivre
-> l’avancement de celui-ci en allant sur l’IP de votre Jeedom avec votre
-> navigateur
 
 | Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
@@ -38,14 +28,11 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l’installation manuelle de Jeedom [Doc](https://doc.jeedom.com/fr_FR/installation/index) après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…​)
 
-Logiciel
-========
+#  Logiciel
 
 > **Important**
 >
-> Jeedom ne supporte que Debian Jessie (non recommandé),Stretch (non recommandé) et Buster (stable).
-> Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n’est pas
-> supportée par Jeedom.
+> Jeedom ne supporte que Debian Jessie (non recommandé),Stretch (non recommandé) et Buster (stable). Toute autre version (Wheezy…​) ou distribution (Ubuntu…​) n’est pas supportée par Jeedom.
 
 
 | Nom                     | Etat                    | Remarques                |
@@ -57,11 +44,9 @@ Logiciel
 | Mysql 5.7               | Stable                    |                          |
 | MariaBD                 | Stable                  |                          |
 
-Autre
-=====
+#  Autre
 
-Clef USB/Module d’extension
----------------------------
+## Clef USB/Module d’extension
 
 Contrôleur ENOCEAN :
 
@@ -99,44 +84,34 @@ Contrôleur Zigbee :
 
 - [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
 
-Modules Zwave
--------------
+## Modules Zwave
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible)
 
-Modules EnOcean
----------------
+## Modules EnOcean
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible)
 
-Modules Edisio
---------------
+## Modules Edisio
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible)
 
-Modules RFXcom
---------------
+## Modules RFXcom
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
 
-Caméras
--------
+## Caméras
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible)
 
-Bluetooth
--------
+## Bluetooth
 
 Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible)
 
-Plateforme matérielle recommandée
----------------------------------
+# Plateforme matérielle recommandée
 
 L’équipe jeedom vous recommande (en fonction de votre budget) :
 
 -   Jeedom Smart (tout est préinstallé, vous n’avez rien à faire)
-
 -   Odroid C2 (meilleur rapport performance/prix)
-
--   Intel Nuc gen (des performances extrêmes, voir la catégorie tuto
-    pour le choix dans les differents modèles et l’installation)
+-   Intel Nuc gen (des performances extrêmes, voir la catégorie tuto pour le choix dans les differents modèles et l’installation)
