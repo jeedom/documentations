@@ -485,7 +485,6 @@
         "``": "``",
         "Par ``": "By ``",
         "Ajouter un équipement": "Add equipment",
-        "Par`<legend>{{Mes équipement}}<\/legend>``": "Par` <legend> {{My equipment}} <\/legend> ``",
         "Nom de l'équipement template": "Equipment name template",
         "Nom de l'équipement": "Name of equipment",
         "template param 1": "template param 1",
