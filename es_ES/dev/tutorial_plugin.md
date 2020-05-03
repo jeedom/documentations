@@ -74,9 +74,9 @@ Registro de cambios, documentación, idioma, compatibilidad nula por el momento.
 
     Por ``{% raw %}{{Agregar equipo}}{% endraw %}``
 
-- Reemplazar ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}``
+- Reemplazar {% raw %}`` <legend> {{Mis plantillas}} </legend> ``{% endraw %}
 
-    Por ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
+    Por {% raw %}`` <legend> {{Mi equipo}} </legend> ``{% endraw %}
 
 - Reemplazar ``{% raw %}{{Plantilla de nombre de equipo}}{% endraw %}``
 

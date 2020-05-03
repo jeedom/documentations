@@ -74,9 +74,9 @@ erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt z
 
     Mit ``{% raw %}{{Ausrüstung hinzufügen}}{% endraw %}``
 
-- ErsetzIn Sie ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}``
+- ErsetzIn {% raw %}`` <legend> {{Meine Vorlagen}} </legend> ``{% endraw %}
 
-    Mit ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
+    Von {% raw %}`` <legend> {{Meine Ausrüstung}} </legend> ``{% endraw %}
 
 - ErsetzIn Sie ``{% raw %}{{Gerätename Vorlage}}{% endraw %}``
 

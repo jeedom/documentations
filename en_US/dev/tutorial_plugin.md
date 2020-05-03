@@ -74,9 +74,9 @@ Changelog, documentation, language, compatibility null for the moment. I will co
 
     By ``{% raw %}{{Add equipment}}{% endraw %}``
 
-- Replace ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}``
+- Replace {% raw %}`` <legend> {{My templates}} </legend> ``{% endraw %}
 
-    By ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
+    By {% raw %}`` <legend> {{My equipment}} </legend> ``{% endraw %}
 
 - Replace ``{% raw %}{{Equipment name template}}{% endraw %}``
 

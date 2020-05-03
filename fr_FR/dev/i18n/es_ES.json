@@ -485,6 +485,8 @@
         "``": "``",
         "Par ``": "Por ``",
         "Ajouter un équipement": "Agregar equipo",
+        "`<legend>{{Mes templates}}<\/legend>`": "`` <legend> {{Mis plantillas}} <\/legend> ``",
+        "`<legend>{{Mes équipement}}<\/legend>`": "`` <legend> {{Mi equipo}} <\/legend> ``",
         "Nom de l'équipement template": "Plantilla de nombre de equipo",
         "Nom de l'équipement": "Nombre del equipo",
         "template param 1": "plantilla param 1",

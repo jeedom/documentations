@@ -86,11 +86,6 @@
 |<img src="../../fr_FR/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Range Extender (DSD37)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau|[Acheter](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../fr_FR/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Siren Gen5 (ZW080)|Sirène||[Acheter](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../fr_FR/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture||[Acheter](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-
-# Aeotec
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Télécommande|||
 |<img src="../../fr_FR/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Télécommande|||
 |<img src="../../fr_FR/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
@@ -851,11 +846,6 @@
 |<img src="../../fr_FR/zwave/images/277.513.1_itemp.temperature.sensor.jpg" width="60" />|Zwaveme|Itemp Temperature Sensor|Multicapteurs|||
 |<img src="../../fr_FR/zwave/images/277.513.2_thermostat.jpg" width="60" />|Zwaveme|Z-Wave thermostat|Thermostat|||
 |<img src="../../fr_FR/zwave/images/277.513.3_binary.sensor.jpg" width="60" />|Zwaveme|Binary Sensor|Multicapteurs|||
-
-# Zwaveme
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/327.1024.1_RaZberry Controller ZWavePlus.jpg" width="60" />|Zwaveme|RaZberry Controller ZWave+|Contrôleur||[Acheter](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
 |<img src="../../fr_FR/zwave/images/327.2.3_RaZberry Controller.jpg" width="60" />|Zwaveme|RaZberry Controller|Contrôleur|||
 
