@@ -291,29 +291,30 @@ blockquote {
 
 #div_content h1 {
   font-size : 42px !important;
-  font-weight: bold !important;
 }
 #div_content h2 {
   font-size : 36px !important;
-  font-weight: bold !important;
 }
 #div_content h3 {
   font-size : 32px !important;
   padding-left: 18px;
-  font-weight: bold !important;
 }
 #div_content h4 {
-  font-size : 28px !important;
+  font-size : 27px !important;
   padding-left: 30px;
+  font-weight: 300 !important;
 }
 #div_content h5 {
   font-size : 22px !important;
   padding-left: 35px;
+  font-weight: 300 !important;
 }
 #div_content h1,h2,h3,h4,h5 {
   color : var(--logo-primary-color) !important;
 }
-
+#div_content small {
+  font-size: 85%;
+}
 
 @media only screen and (max-width: 992px) {
   #div_content h1 {
