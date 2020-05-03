@@ -27,17 +27,17 @@ Renommer le dossier « plugin-template-master » en « vdm » (l’id) du plugin
 
 ````
 {
-	"id" : "vdm",
-	"name" : "Vie de Merde",
-	"description" : "Plugin pour récupérer les dernières vdm",
-	"licence" : "AGPL",
-	"author" : "Zyg0m4t1k",
-	"require" : "3.2",
-	"category" : "monitoring",
-	"changelog" : "",
-	"documentation" : "",
-	"language" : "",
-	"compatibility" : ""
+    "id" : "vdm",
+    "name" : "Vie de Merde",
+    "description" : "Plugin pour récupérer les dernières vdm",
+    "licence" : "AGPL",
+    "author" : "Zyg0m4t1k",
+    "require" : "3.2",
+    "category" : "monitoring",
+    "changelog" : "",
+    "documentation" : "",
+    "language" : "",
+    "compatibility" : ""
 }
 ````
 
@@ -74,9 +74,9 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
     Par ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
 
-- Remplacer ``<legend>{{Mes templates}}</legend>``
+- Remplacer ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}``
 
-    Par`<legend>{{Mes équipement}}</legend>``
+    Par ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
 
 - Remplacer ``{% raw %}{{Nom de l'équipement template}}{% endraw %}``
 
@@ -181,27 +181,27 @@ On crée les 2 commandes
 
 ````
 public function postSave() {
-	$info = $this->getCmd(null, 'story');
-	if (!is_object($info)) {
-		$info = new vdmCmd();
-		$info->setName(__('Histoire', __FILE__));
-	}
-	$info->setLogicalId('story');
-	$info->setEqLogic_id($this->getId());
-	$info->setType('info');
-	$info->setSubType('string');
-	$info->save();
+    $info = $this->getCmd(null, 'story');
+    if (!is_object($info)) {
+        $info = new vdmCmd();
+        $info->setName(__('Histoire', __FILE__));
+    }
+    $info->setLogicalId('story');
+    $info->setEqLogic_id($this->getId());
+    $info->setType('info');
+    $info->setSubType('string');
+    $info->save();
 
-	$refresh = $this->getCmd(null, 'refresh');
-	if (!is_object($refresh)) {
-		$refresh = new vdmCmd();
-		$refresh->setName(__('Rafraichir', __FILE__));
-	}
-	$refresh->setEqLogic_id($this->getId());
-	$refresh->setLogicalId('refresh');
-	$refresh->setType('action');
-	$refresh->setSubType('other');
-	$refresh->save();
+    $refresh = $this->getCmd(null, 'refresh');
+    if (!is_object($refresh)) {
+        $refresh = new vdmCmd();
+        $refresh->setName(__('Rafraichir', __FILE__));
+    }
+    $refresh->setEqLogic_id($this->getId());
+    $refresh->setLogicalId('refresh');
+    $refresh->setType('action');
+    $refresh->setSubType('other');
+    $refresh->save();
 }
 ````
 
@@ -340,17 +340,17 @@ return $divs[0]->nodeValue ;
 Ouvrir le fichier core/class/vdm.class.php et pour la class vdm qui hérite des méthodes egLogic, je crée une fonction randomVdm
 
 ````
-	public function randomVdm() {
-		$url = "http://www.viedemerde.fr/aleatoire";
-		$data = file_get_contents($url);
-		@$dom = new DOMDocument();
-		libxml_use_internal_errors(true);
-		$dom->loadHTML($data);
-		libxml_use_internal_errors(false);
-		$xpath = new DOMXPath($dom);
-		$divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
-		return $divs[0]->nodeValue ;
-	}
+    public function randomVdm() {
+        $url = "http://www.viedemerde.fr/aleatoire";
+        $data = file_get_contents($url);
+        @$dom = new DOMDocument();
+        libxml_use_internal_errors(true);
+        $dom->loadHTML($data);
+        libxml_use_internal_errors(false);
+        $xpath = new DOMXPath($dom);
+        $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
+        return $divs[0]->nodeValue ;
+    }
 ````
 
 Maintenant on va updater la commande info(story) avec cette information en lançant la commande action(refresh).
@@ -369,9 +369,9 @@ On vérifie le logicalId de la commande lancée et si « refresh » on lance les
 
 ````
 switch ($this->getLogicalId()) {
-	case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
-	// code pour rafraîchir ma commande
-	break;
+    case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
+    // code pour rafraîchir ma commande
+    break;
 }
 ````
 
@@ -392,13 +392,13 @@ Ce qui donne au final
 
 ````
     public function execute($_options = array()) {
-		$eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
-		switch ($this->getLogicalId()) {	//vérifie le logicalid de la commande
-			case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
-				$info = $eqlogic->randomVdm(); 	//On lance la fonction randomVdm() pour récupérer une vdm et on la stocke dans la variable $info
-				$eqlogic->checkAndUpdateCmd('story', $info); // on met à jour la commande avec le LogicalId "story"  de l'eqlogic
-				break;
-		}
+        $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
+        switch ($this->getLogicalId()) {    //vérifie le logicalid de la commande
+            case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
+                $info = $eqlogic->randomVdm();  //On lance la fonction randomVdm() pour récupérer une vdm et on la stocke dans la variable $info
+                $eqlogic->checkAndUpdateCmd('story', $info); // on met à jour la commande avec le LogicalId "story"  de l'eqlogic
+                break;
+        }
     }
 ````
 
@@ -489,15 +489,15 @@ Ce qui donne au final
 
 ````
       public static function cronHourly () {
-		  foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
-			  if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
-				  $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
-				  if (!is_object($cmd)) {//Si la commande n'existe pas
-				  	continue; //continue la boucle
-				  }
-				  $cmd->execCmd(); // la commande existe on la lance
-			  }
-		  }
+          foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
+              if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
+                  $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
+                  if (!is_object($cmd)) {//Si la commande n'existe pas
+                    continue; //continue la boucle
+                  }
+                  $cmd->execCmd(); // la commande existe on la lance
+              }
+          }
       }
 ````
 
@@ -514,10 +514,10 @@ La manière la plus simple vu qu’il n’y a qu’une commande et qu’elle est
 
 ````
     public function postUpdate() {
-		$cmd = $this->getCmd(null, 'refresh'); // On recherche la commande refresh de l’équipement
-		if (is_object($cmd)) { //elle existe et on lance la commande
-			 $cmd->execCmd();
-		}
+        $cmd = $this->getCmd(null, 'refresh'); // On recherche la commande refresh de l’équipement
+        if (is_object($cmd)) { //elle existe et on lance la commande
+             $cmd->execCmd();
+        }
     }
 ````
 
@@ -529,30 +529,30 @@ Dans la fonction postUpdate() , on lance la function cronHourly() avec l'id de l
 
 ````
     public function postUpdate() {
-		self::cronHourly($this->getId());// lance la fonction cronHourly avec l’id de l’eqLogic
+        self::cronHourly($this->getId());// lance la fonction cronHourly avec l’id de l’eqLogic
     }
 ````
 
 Mais dans ce cas on change la fonction cronHourly()
 
 ````
-	public static function cronHourly($_eqLogic_id = null) {
-		if ($_eqLogic_id == null) { // La fonction n’a pas d’argument donc on recherche tous les équipements du plugin
-			$eqLogics = self::byType('vdm', true);
-		} else {// La fonction a l’argument id(unique) d’un équipement(eqLogic)
-			$eqLogics = array(self::byId($_eqLogic_id));
-		}
+    public static function cronHourly($_eqLogic_id = null) {
+        if ($_eqLogic_id == null) { // La fonction n’a pas d’argument donc on recherche tous les équipements du plugin
+            $eqLogics = self::byType('vdm', true);
+        } else {// La fonction a l’argument id(unique) d’un équipement(eqLogic)
+            $eqLogics = array(self::byId($_eqLogic_id));
+        }
 
-		foreach ($eqLogics as $vdm) {
-			if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est acitf
-				$cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
-				if (!is_object($cmd)) {//Si la commande n'existe pas
-				  continue; //continue la boucle
-				}
-				$cmd->execCmd(); // la commande existe on la lance
-			}
-		}
-	}
+        foreach ($eqLogics as $vdm) {
+            if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est acitf
+                $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
+                if (!is_object($cmd)) {//Si la commande n'existe pas
+                  continue; //continue la boucle
+                }
+                $cmd->execCmd(); // la commande existe on la lance
+            }
+        }
+    }
 ````
 
 Après vous pouvez changer la fréquence du cron selon l'importance de vos informations à récupérer.
@@ -592,17 +592,17 @@ J’applique le template « cmd.info.string.tile.html » à ma commande.
 Pour cela j’ouvre le fichier vdm.class.php , fonction postSave() et j’ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
 ````
-		$info = $this->getCmd(null, 'story');
-		if (!is_object($info)) {
-			$info = new vdmCmd();
-			$info->setName(__('Histoire', __FILE__));
-		}
-		$info->setLogicalId('story');
-		$info->setEqLogic_id($this->getId());
-		$info->setType('info');
-		$info->setTemplate('dashboard','tile');//template pour le dashboard
-		$info->setSubType('string');
-		$info->save();
+        $info = $this->getCmd(null, 'story');
+        if (!is_object($info)) {
+            $info = new vdmCmd();
+            $info->setName(__('Histoire', __FILE__));
+        }
+        $info->setLogicalId('story');
+        $info->setEqLogic_id($this->getId());
+        $info->setType('info');
+        $info->setTemplate('dashboard','tile');//template pour le dashboard
+        $info->setSubType('string');
+        $info->save();
 ````
 
 Rafraîchir le dasboard.
@@ -623,7 +623,7 @@ Maintenant que vous avez bien lu vous savez qu’Il faut utiliser la méthode pr
 
 ````
     public function preSave() {
-		$this->setDisplay("width","800px");
+        $this->setDisplay("width","800px");
     }
 ````
 
@@ -763,11 +763,11 @@ $url = "http://www.viedemerde.fr/aleatoire";
 Et remplacer par
 
 ````
-	$type = $this->getConfiguration("type ");
-		if($type == "") { //si le paramètre est vide ou n’existe pas
-			$type = "aleatoire"; //on prends le type aleatoire
-		}
-		$url = "http://www.viedemerde.fr/" .$type  ;
+    $type = $this->getConfiguration("type ");
+        if($type == "") { //si le paramètre est vide ou n’existe pas
+            $type = "aleatoire"; //on prends le type aleatoire
+        }
+        $url = "http://www.viedemerde.fr/" .$type  ;
 ````
 
 Maintenant changer la valeur du select sur un équipement,sauvegarder et aller sur le dashboard pour voir ce que cela donne.
