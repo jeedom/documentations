@@ -74,9 +74,9 @@ Changelog, documentation, language , compatibility nuls pour le moment. J’y re
 
     Par ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
 
-- Remplacer ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}``
+- Remplacer {% raw %}`<legend>{{Mes templates}}</legend>`{% endraw %}
 
-    Par ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
+    Par {% raw %}`<legend>{{Mes équipement}}</legend>`{% endraw %}
 
 - Remplacer ``{% raw %}{{Nom de l'équipement template}}{% endraw %}``
 
