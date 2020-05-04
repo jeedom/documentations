@@ -11,7 +11,7 @@ var docMenu = [
     en_US : "Concept",
     es_ES : "Concepto",
     de_DE : "Konzept",
-    pt_PT : "Conceito"
+    pt_PT : "Conceito",
     link : "/#LANG#/concept/"
   },{
     fr_FR:'Assistance et bug',
