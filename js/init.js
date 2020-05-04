@@ -337,7 +337,7 @@ function cookiesPolicyBar(){
 
 function setLeftMenu(){
   var url = window.location.href;
-  if(url.indexOf('design3d') != 1){
+  if(url.indexOf('design3d') != -1){
     $('#ul_menu a').each(function(){
       if($(this).attr('href') && $(this).attr('href').indexOf('design3d') != -1){
         $(this).closest('li').addClass('menu_active');
