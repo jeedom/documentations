@@ -41,13 +41,13 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 Je veux installer Jeedom :
 
-- sur une [smart](https://doc.jeedom.com/fr_FR/installation/smart)
-- sur une [mini+](https://doc.jeedom.com/fr_FR/installation/mini)
-- sur une [Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
-- sur une [Freebox Delta](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
-- sur une [ligne de commande](https://doc.jeedom.com/fr_FR/installation/cli)
-- sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
-- sur une [Docker](https://doc.jeedom.com/fr_FR/installation/docker). Note nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certain équipements compliqué a cause du mode de réseaux de Docker
-- sur une [Synology](https://doc.jeedom.com/fr_FR/installation/synology). Note nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certain équipements compliqué a cause du mode de réseaux de Docker
+- Sur une [smart](https://doc.jeedom.com/fr_FR/installation/smart)
+- Sur une [mini+](https://doc.jeedom.com/fr_FR/installation/mini)
+- Sur un [Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
+- Sur une [Freebox Delta](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
+- En [ligne de commande](https://doc.jeedom.com/fr_FR/installation/cli)
+- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
+- Sur un [Docker](https://doc.jeedom.com/fr_FR/installation/docker). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certain équipements compliqué a cause du mode de réseaux de Docker
+- Sur un [NAS Synology](https://doc.jeedom.com/fr_FR/installation/synology). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certain équipements compliqué a cause du mode de réseaux de Docker
 
 Une fois l'installation faites n'oubliez de consulter la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
