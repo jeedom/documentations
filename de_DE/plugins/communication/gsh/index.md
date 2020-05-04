@@ -1,4 +1,4 @@
-# Beschreibung
+# Description
 
 Dieses Plugin ermöglicht es Ihnen :
 
@@ -7,11 +7,11 @@ Dieses Plugin ermöglicht es Ihnen :
 Es kann auf zwei Arten funktionieren :
 
 - Standalone : Sie erstellen die Anwendungen im Entwicklungsmodus auf der Google-Seite und verbinden dann Ihr Jeedom mit dem Google-Dienst
-- Wolke : über einen Wolke-Service von Jeedom
+- Wolke : über einen Cloud-Service von Jeedom
 
 > **Important**
 >
-> Für den Wolke-Modus ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins).. Sie können Ihr Abonnement verwalten [hier](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Für den Cloud-Modus ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins).. Sie können Ihr Abonnement verwalten [hier](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
 > **Important**
 >
@@ -21,7 +21,7 @@ Es kann auf zwei Arten funktionieren :
 >
 > Das Plugin unterstützt keine Geräte mit Doppelfunktionen (2 Ausgänge als bestimmtes zwave Fibaro-Modul). Sie müssen unbedingt 2 virtuelle durchlaufen, um es aufzuschlüsseln.
 
-# Wolke-Modus
+# Cloud-Modus
 
 > **IMPORTANT**
 >
@@ -34,7 +34,7 @@ Es kann auf zwei Arten funktionieren :
 > - Wenn dies der Fall ist, achten Sie auf Ihre Anmeldeinformationen (Aufmerksamkeit, die Sie in Groß- / Kleinschreibung beachten müssen) ?
 > - Wenn dies der Fall ist, ändern Sie Ihr Passwort auf dem Markt und haben Sie es bei der Konfiguration des Sprachassistenten-Dienstes (Registerkarte Marktprofile Seite Meine Dienste) gespeichert
 
-Nach der Installation des Plugins müssen Sie nur noch zur Konfiguration des Plugins gehen, den Wolke-Modus auswählen und dann auf "Senden" klicken (dadurch werden die Verbindungsinformationen an die Plugin-API auf dem Markt gesendet).
+Nach der Installation des Plugins müssen Sie nur noch zur Konfiguration des Plugins gehen, den Cloud-Modus auswählen und dann auf "Senden" klicken (dadurch werden die Verbindungsinformationen an die Plugin-API auf dem Markt gesendet).
 
 Dann müssen Sie in Jeedom in Communication / Google Smarthome auf Speichern klicken, um Ihre Erstkonfiguration zu senden. Sie benötigen mindestens ein Gerät in OK (andernfalls tritt beim Verbinden von Google Home <-> Jeedom ein Fehler auf).
 
@@ -62,7 +62,7 @@ Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen
 
 >**NOTE**
 >
->Um vom Standalone-Modus in den Wolke-Modus zu wechseln, müssen Sie :
+>Um vom Standalone-Modus in den Cloud-Modus zu wechseln, müssen Sie :
 >- Im Plugin in die Wolke gehen und dann speichern
 >- 24h warten
 >- In der Google-Startanwendung müssen Sie testmarthome (Ihre eigenständige Anwendung) trennen.
@@ -78,7 +78,7 @@ Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen
 
 > **IMPORTANT**
 >
-> Wenn Sie den Wolke-Modus verwendet haben, sollten Sie diesen Teil nicht ausführen !!! Gehen Sie direkt zum Kapitel "Plugin-Konfiguration"
+> Wenn Sie den Cloud-Modus verwendet haben, sollten Sie diesen Teil nicht ausführen !!! Gehen Sie direkt zum Kapitel "Plugin-Konfiguration"
 
 > **IMPORTANT**
 >
@@ -214,7 +214,7 @@ Dann brauchen Sie auf einem Smartphone **android** (darf nicht auf einem iPhone 
 
 ## JWT-Konfiguration
 
-Mit JWT können Sie jede Änderung des STATUS eines an Google gesendeten Geräts automatisch melden. Auf diese Weise können Sie den STATUS schneller abrufen, wenn Sie ihn von Google Home oder der Google Home-App anfordern.. Die Konfiguration ist nicht obligatorisch. Wenn Sie jedoch das Kontrollkästchen "Zurück zum STATUS" aktivieren, müssen Sie dies unbedingt tun, damit es funktioniert.
+Mit JWT können Sie jede Änderung des STATUS eines an Google gesendeten Geräts automatisch melden. Auf diese Weise können Sie den STATUS schneller abrufen, wenn Sie ihn von Google Home oder der Google Home-App anfordern.. Die Konfiguration ist nicht obligatorisch. Wenn Sie jedoch das Kontrollkästchen "Zurück zum Status" aktivieren, müssen Sie dies unbedingt tun, damit es funktioniert.
 
 Um die Konfiguration vorzunehmen, die Sie benötigen
 
@@ -244,23 +244,23 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Google Smarthome und w�
 > Für den Typ "Kamera" müssen Sie die URL des Streams unbedingt konfigurieren (wir haben nur das RTSP getestet), damit es funktioniert.
 > Beachten Sie, dass sich die Kameraunterstützung derzeit in der Beta-Phase befindet und viele Ressourcen verbraucht
 
-## Gerät
+## Equipement
 
 Auf Geräten können Sie konfigurieren :
 
 * Optionen :
   * Senden : Senden Sie das Gerät an Google Home, damit es es steuern kann (bitte beachten Sie, dass die Konfiguration der generischen Credits in Ordnung ist).
-  * Erhöhen Sie den Staat : Senden Sie Informationen zu STATUSänderungen direkt an Google (dies vermeidet, dass Google Home bei einer Informationsanfrage Jeedom in Frage stellt).. Siehe Abschnitt "JWT-Konfiguration"
+  * Erhöhen Sie den Staat : Senden Sie Informationen zu Statusänderungen direkt an Google (dies vermeidet, dass Google Home bei einer Informationsanfrage Jeedom in Frage stellt).. Siehe Abschnitt "JWT-Konfiguration"
   * Herausforderung [Keine, Code] : Wenn Sie sich im Codemodus befinden, werden Sie von Google für jede Aktion auf dem Gerät nach einem Code (der unten angegebene) gefragt
 * STATUS : Gibt an, ob die Übertragung in Ordnung ist. Wenn es sich um NOK handelt, stammt es vom generischen Typ. Wenn Sie auf NOK klicken, können Sie die Informationen über den benötigten generischen Typ erhalten
 * Typ : gibt die Art der Ausrüstung an
 * Spitzname : Gerätename, wenn leer, wird der Gerätename verwendet
 * Aktion :
   * Ermöglicht die erweiterte Konfiguration von Geräten für Google Home (abhängig vom verwendeten Typ)
-  * Erweiterte Konfiguration von Geräten, ermöglicht den Zugriff auf die erweiterte Konfiguration von Befehlen und damit das Ändern generischer Typn
+  * Erweiterte Konfiguration von Geräten, ermöglicht den Zugriff auf die erweiterte Konfiguration von Befehlen und damit das Ändern generischer Typen
   * Ermöglicht den direkten Zugriff auf die Gerätekonfigurationsseite
 
-### Typ
+### Type
 
 Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen angegebenen Sätzen reagieren kann.
 
@@ -297,9 +297,9 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
-# Faq
+# FAQ
 
->**Ich kann die Zuordnung im Wolke-Modus nicht herstellen ?**
+>**Ich kann die Zuordnung im Cloud-Modus nicht herstellen ?**
 >
 > Wir müssen das überprüfen :
 > - Sie sind in https in Ordnung (wenn Sie ein Service Pack haben, verwenden Sie jeeodm DNS, diese sind standardmäßig sicher)
@@ -335,7 +335,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 > Wiederholen Sie dann das Tutorial aus dem Schritt Konfigurieren des API-Schlüssels Homegraph (Aktivierung, Generierung des Schlüssels, dann trennen Sie die Freiheit von Ihrem Google-Konto und wiederholen Sie den Link).
 
 
->**Sie haben einen Verbindungsfehler oder können den Parameter nicht aktualisieren. Überprüfen Sie Ihre Verbindung im Wolke-Modus**
+>**Sie haben einen Verbindungsfehler oder können den Parameter nicht aktualisieren. Überprüfen Sie Ihre Verbindung im Cloud-Modus**
 >
 >In jeedom ist es im Plugin erforderlich, Geräte hinzuzufügen, die Zuordnung von Jeedom Smarthome in der Google Home-Anwendung zu speichern und zu wiederholen
 

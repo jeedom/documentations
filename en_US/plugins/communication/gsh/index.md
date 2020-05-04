@@ -244,7 +244,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 > For the "camera" type you must absolutely configure the URL of the stream (we tested only the RTSP) so that it works.
 > Note that camera support is currently in beta and consumes a lot of resources
 
-## Device
+## Equipement
 
 On equipment you can configure :
 
@@ -297,7 +297,7 @@ You can also create scenes in the scene tab, with input and output actions.
 
 All you have to do is assign the equipment to the rooms in the Google Home app
 
-# Faq
+# FAQ
 
 >**I can't make the association in cloud mode ?**
 >

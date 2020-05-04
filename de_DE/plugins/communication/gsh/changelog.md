@@ -1,3 +1,7 @@
+# 30.04.2020
+
+- Behebung eines Fehlers bei der Gerätesynchronisation
+
 # 29.04.2020
 
 - Fehlerbehebungen

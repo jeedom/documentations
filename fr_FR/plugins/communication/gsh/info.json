@@ -1,13 +1,13 @@
 {
-	"id" : "gsh",
-	"name" : "Google Smarthome",
-	"description" : "Plugin pour piloter Jeedom avec un Google Home. IMPORTANT : la configuration de ce plugin n'est pas click and play il faut absolument lire la documentation avant de l'acheter !!!!!",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.2.1",
-	"category" : "communication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"changelog" : "https://jeedom.github.io/plugin-gsh/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-gsh/#language#/"
+    "id": "gsh",
+    "name": "Google Smarthome",
+    "description": "Plugin pour piloter Jeedom avec un Google Home. IMPORTANT : la configuration de ce plugin n'est pas click and play il faut absolument lire la documentation avant de l'acheter !!!!!",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.2.1",
+    "category": "communication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gsh\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gsh\/"
 }

@@ -1,3 +1,7 @@
+# 30/04/2020
+
+- Correção de um erro na sincronização do equipamento
+
 # 29/04/2020
 
 - Correções de bugs
@@ -47,7 +51,7 @@
 - Correções de bugs
 - Adicionar tipo
 - Possibilidade de obter informações sobre o tipo genérico necessário ao clicar no rótulo NOK
-- IMPORTANTEE : a partir de 01/06/2019, os serviços de voz se tornam cobráveis, você pode ver seu status na sua página de perfil no mercado, guia meus serviços
+- IMPORTANTE : a partir de 01/06/2019, os serviços de voz se tornam cobráveis, você pode ver seu status na sua página de perfil no mercado, guia meus serviços
 
 # 13/05/2019
 
@@ -56,7 +60,7 @@
 # 09/09/2019
 
 - Inversão da inversão dos painéis (para concordar com o google)
-- correções de bugs
+- Correções de bugs
 - suporte para novos tipos de equipamentos
 - várias melhorias
 
