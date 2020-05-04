@@ -1,4 +1,4 @@
-# Descripción
+# Description
 
 Este complemento te permite :
 
@@ -244,7 +244,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la se
 > Para el tipo de "cámara" debe configurar absolutamente la URL de la transmisión (probamos solo el RTSP) para que funcione.
 > Tenga en cuenta que el soporte de la cámara está actualmente en versión beta y consume muchos recursos
 
-## Dispositivos
+## Equipement
 
 En el equipo puede configurar :
 
@@ -260,7 +260,7 @@ En el equipo puede configurar :
   * Configuración avanzada de equipos, permite el acceso a la configuración avanzada de comandos y, por lo tanto, a modificar tipos genéricos.
   * Le permite ir directamente a la página de configuración del equipo.
 
-### Tipo
+### Type
 
 Los tipos de equipos son importantes, esto le permite a Google reaccionar de acuerdo con las oraciones que dices.
 
@@ -297,7 +297,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 
 Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplicación Google Home
 
-# Preguntas frecuentes
+# FAQ
 
 >**No puedo hacer la asociación en modo nube ?**
 >

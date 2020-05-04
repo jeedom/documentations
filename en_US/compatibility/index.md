@@ -9,6 +9,7 @@ SMART                   | Stable                  |
 RPI1                    | Stable                  |                          
 RPI2                    | Unofficial / Stable     |                          
 RPI3                    | Unofficial / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
+RPI4                    | Unofficial / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
 64 bit                 | Stable                  |                          
 32 bit                 | Unsupported            |                          
 Vmware                  | Stable                  | No support for VMware, only for Jeedom.

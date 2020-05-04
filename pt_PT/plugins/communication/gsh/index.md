@@ -1,4 +1,4 @@
-# Descrição
+# Description
 
 Este plugin permite que você :
 
@@ -244,7 +244,7 @@ No seu Jeedom, vá para Plugin -> Comunicação -> Google Smarthome e, na seçã
 > Para o tipo "camera", você deve configurar absolutamente o URL do fluxo (testamos apenas o RTSP) para que funcione.
 > Observe que o suporte à câmera está atualmente na versão beta e consome muitos recursos
 
-## Equipamento
+## Equipement
 
 No equipamento você pode configurar :
 
@@ -260,7 +260,7 @@ No equipamento você pode configurar :
   * Configuração avançada de equipamentos, permite acesso à configuração avançada de comandos e, portanto, à modificação de tipos genéricos
   * Permite ir diretamente para a página de configuração do equipamento
 
-### Tipo
+### Type
 
 Os tipos de equipamento são importantes, permitindo que o Google reaja de acordo com as frases que você diz.
 
@@ -297,7 +297,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo Google Home
 
-# Faq
+# FAQ
 
 >**Não consigo fazer a associação no modo nuvem ?**
 >

@@ -11,7 +11,7 @@ Il peut fonctionner suivant 2 manières :
 
 > **Important**
 >
-> Le mode cloud necessite un abonnement aux services vocaux (3 mois offert lors de l'achat du plugin). Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Le mode cloud necessite un abonnement aux services vocaux (3 mois offert lors de l'achat du plugin). Vous pouvez gérer votre abonnement [ici](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >

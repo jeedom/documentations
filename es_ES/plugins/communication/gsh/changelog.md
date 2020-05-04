@@ -1,3 +1,7 @@
+# 30/04/2020
+
+- Corrección de un error en la sincronización del equipo.
+
 # 29/04/2020
 
 - Correcciones de errores

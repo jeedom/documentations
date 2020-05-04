@@ -4,7 +4,7 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf den meisten Li
 
 > **Important**
 >
-> Debian 10 (Buster) ist die offiziell unterstützte Distribution für Version 3.1.7 von Jeedom (aber Jessie / Stretch bleibt perfekt funktionsfähig). Wenn Sie nicht über Mindestkenntnisse in Linux-Umgebungen verfügen, empfehlen wir Ihnen, mit einem Smart zu beginnen.
+> Debian 10 (Buster) ist die offiziell unterstützte Distribution für Version 3.1.7 von Jeedom (aber Stretch bleibt perfekt funktionsfähig). Wenn Sie nicht über Mindestkenntnisse in Linux-Umgebungen verfügen, empfehlen wir Ihnen, mit einem Smart zu beginnen.
 
 > **Important**
 >

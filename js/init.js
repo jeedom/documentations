@@ -7,6 +7,13 @@ var docMenu = [
     pt_PT : "Introdução",
     link : "/#LANG#/presentation/index"
   },{
+    fr_FR : "Concept",
+    en_US : "Concept",
+    es_ES : "Concepto",
+    de_DE : "Konzept",
+    pt_PT : "Conceito",
+    link : "/#LANG#/concept/"
+  },{
     fr_FR:'Assistance et bug',
     en_US : 'Assistance and bug',
     es_ES : "Asistencia y error",
@@ -24,8 +31,7 @@ var docMenu = [
     submenu : [
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       {link : "/#LANG#/compatibility/",fr_FR:"Compatibilité matériel et logiciel",en_US:"Compatibilité hardware and software",es_ES:"Compatibilidad de hardware y software.",de_DE:"Hardware und Softwarekompatibilität",pt_PT:""},
-      {link : "/#LANG#/premiers-pas/",fr_FR:"Premiers pas",en_US:"First step",es_ES:"Empezando",de_DE:"Erste Schritte",pt_PT:""},
-      {link : "/#LANG#/concept/",fr_FR:"Concept",en_US:"Concept",es_ES:"Concepto",de_DE:"Konzept",pt_PT:"Conceito"},
+      {link : "/#LANG#/premiers-pas/",fr_FR:"Premiers pas",en_US:"First step",es_ES:"Empezando",de_DE:"Erste Schritte",pt_PT:""}
     ]
   },{
     fr_FR : "Services",
@@ -152,7 +158,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/#LANG#/legal_notice"
   }
-  
+
 ]
 
 if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
@@ -246,7 +252,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -261,22 +267,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -286,7 +292,7 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -402,4 +408,3 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
-  
