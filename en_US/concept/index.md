@@ -44,6 +44,10 @@ These objects can represent parts of the house (Living room, Bedroom, Workshop).
 
 To interact with our home automation, you need commands ! These are of two types :
 
+> Note
+>
+> Rest assured, orders are normally created automatically ! These explanations are for a better understanding.
+
 - * Info commands* :
 These commands store informatiWe from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc..
 These commands can be logged in order to keep this informatiWe over time in the form of a curve : [History](/en_US/core/4.1/history)
@@ -78,6 +82,6 @@ Whatever your device, it will be created in the form of equipment, from a [Plugi
 
 This device will have its own * info * or * actiWe commands*. These commands will be displayed as a Widget, in its parent object.
 
-You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start to organize your home automatiWe by knowing where to relave.
+You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automatiWe knowing where to look..
 
 

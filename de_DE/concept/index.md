@@ -44,6 +44,10 @@ Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Wer
 
 Für die InteraktiEin mit unserer HausautomatiEin benötigen Sie Befehle ! Es gibt zwei Arten :
 
+> Note
+>
+> Seien Sie versichert, Bestellungen werden normalerweise automatisch erstellt ! Diese Erklärungen dienen dem besseren Verständnis.
+
 - * Info Befehle* :
 Diese Befehle speichern Informationen vEin Sensoren. Zum Beispiel die Temperatur einer Sonde, eine Bewegung eines Anwesenheitssensors usw..
 Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/de_DE/core/4.1/history)
@@ -78,6 +82,6 @@ Unabhängig vEin Ihrem Gerät wird es in Form vEin Geräten erstellt, aus a [Plu
 
 Dieses Gerät verfügt über eigene * info * - oder * Aktionsbefehle*. Diese Befehle werden als Widgund im übergeordneten Objekt angezeigt.
 
-Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte vEin Jeedom verstanden haben und somit in der Lage sein, Ihre HausautomatiEin zu organisieren, indem Sie wissen, wo Sie nacharbeiten müssen.
+Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte vEin Jeedom verstanden haben und somit in der Lage sein, Ihre HausautomatiEin zu organisieren und zu wissen, wo Sie suchen müssen..
 
 
