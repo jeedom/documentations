@@ -3,7 +3,7 @@
 Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 
 -   ein Himbeer-Pi 2 oder 3
--   Synologie NAS
+-   Synology NAS
 -   jedes Linux-System basierend auf Debian 9 (Stretch)
 -   Freebox Delta
 
@@ -41,13 +41,13 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 Ich möchte Jeedom installieren :
 
-- auf einem [SMART](https://doc.jeedom.com/de_DE/installation/smart)
-- auf einem [mini +](https://doc.jeedom.com/de_DE/installation/mini)
-- auf einem [Himbeer-Pi](https://doc.jeedom.com/de_DE/installation/rpi)
-- auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)
-- auf einem [Befehlszeile](https://doc.jeedom.com/de_DE/installation/cli)
-- auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
-- auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Hinweis: Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
-- auf einem [Synologie](https://doc.jeedom.com/de_DE/installation/synology). Hinweis: Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
+- Auf einem [SMART](https://doc.jeedom.com/de_DE/installation/smart)
+- Auf einem [mini +](https://doc.jeedom.com/de_DE/installation/mini)
+- Auf einem [Himbeer-Pi](https://doc.jeedom.com/de_DE/installation/rpi)
+- Auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)
+- In [Befehlszeile](https://doc.jeedom.com/de_DE/installation/cli)
+- Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
+- Auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
+- Auf einem [NAS-Synologie](https://doc.jeedom.com/de_DE/installation/synology). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
 
 Vergessen Sie nach der Installation nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

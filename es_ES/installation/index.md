@@ -41,13 +41,13 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 Quiero instalar Jeedom :
 
-- sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart)
-- sobre una [mini +](https://doc.jeedom.com/es_ES/installation/mini)
-- sobre una [Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi)
-- sobre una [Freebox Delta](https://doc.jeedom.com/es_ES/installation/freeboxdelta)
-- sobre una [línea de comando](https://doc.jeedom.com/es_ES/installation/cli)
-- sobre una [VM](https://doc.jeedom.com/es_ES/installation/vm)
-- sobre una [Estibador](https://doc.jeedom.com/es_ES/installation/docker). Tenga en cuenta que no recomendamos este modo de instalación que hace que el uso de ciertos equipos sea complicado debido al modo de red Docker
-- sobre una [Synology](https://doc.jeedom.com/es_ES/installation/synology). Tenga en cuenta que no recomendamos este modo de instalación que hace que el uso de ciertos equipos sea complicado debido al modo de red Docker
+- Sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart)
+- Sobre una [mini +](https://doc.jeedom.com/es_ES/installation/mini)
+- Sobre un [Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi)
+- Sobre una [Freebox Delta](https://doc.jeedom.com/es_ES/installation/freeboxdelta)
+- En [línea de comando](https://doc.jeedom.com/es_ES/installation/cli)
+- Sobre una [VM](https://doc.jeedom.com/es_ES/installation/vm)
+- Sobre un [Estibador](https://doc.jeedom.com/es_ES/installation/docker). Nota : No recomendamos este modo de instalación que hace que el uso de ciertos equipos sea complicado debido al modo de red Estibador.
+- Sobre un [NAS Synology](https://doc.jeedom.com/es_ES/installation/synology). Nota : No recomendamos este modo de instalación que hace que el uso de ciertos equipos sea complicado debido al modo de red Estibador.
 
 Una vez instalada no olvides consultar la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)

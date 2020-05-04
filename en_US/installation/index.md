@@ -41,13 +41,13 @@ A total of € 125 for an open source home automation box with complete control 
 
 I want to install Jeedom :
 
-- on a [SMART](https://doc.jeedom.com/en_US/installation/smart)
-- on a [mini +](https://doc.jeedom.com/en_US/installation/mini)
-- on a [Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
-- on a [Freebox Delta](https://doc.jeedom.com/en_US/installation/freeboxdelta)
-- on a [command line](https://doc.jeedom.com/en_US/installation/cli)
-- on a [VM](https://doc.jeedom.com/en_US/installation/vm)
-- on a [Docker](https://doc.jeedom.com/en_US/installation/docker). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
-- on a [Synology](https://doc.jeedom.com/en_US/installation/synology). Note we do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
+- On a [SMART](https://doc.jeedom.com/en_US/installation/smart)
+- On a [mini +](https://doc.jeedom.com/en_US/installation/mini)
+- On a [Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
+- On a [Freebox Delta](https://doc.jeedom.com/en_US/installation/freeboxdelta)
+- In [command line](https://doc.jeedom.com/en_US/installation/cli)
+- On a [VM](https://doc.jeedom.com/en_US/installation/vm)
+- On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode.
+- On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode.
 
 Once installation do not forget to consult the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
