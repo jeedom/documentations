@@ -44,6 +44,10 @@ Ces objets peuvent représenter des pièces de l'habitation (Salon, Chambre, Ate
 
 Pour interagir avec notre domotique, il faut des commandes ! Celles-ci sont de deux types :
 
+> Note
+>
+> Rassurez vous, les commandes sont normalement crées automatiquement ! Ces explications sont pour une meilleure compréhension.
+
 - Les commandes *info* :
 Ces commandes stockent des informations, issues de capteurs. Par exemple, la température d'une sonde, un mouvement d'un capteur de présence, etc.
 Ces commandes peuvent être historisées afin de conserver ces informations dans le temps sous forme de courbe : [Historique](/fr_FR/core/4.1/history)
@@ -78,6 +82,6 @@ Quelques soit votre périphérique, il seront donc crée sous forme d'un équipe
 
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widget, dans son objet parent.
 
-Vous verrez ensuite que chaque Objet, Equipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regader.
+Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder.
 
 
