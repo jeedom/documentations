@@ -19,7 +19,7 @@ var docMenu = [
     fr_FR : "Installer Jeedom",
     en_US : "Install Jeedom",
     es_ES : "Instalar Jeedom",
-    de_DE : "Installeer Jeedom",
+    de_DE : "Installieren Jeedom",
     pt_PT : "Instale o Jeedom",
     submenu : [
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
@@ -53,14 +53,14 @@ var docMenu = [
       {link : "/#LANG#/core/#VERSION#/changelog",icon:"fas fa-clipboard-list",fr_FR:"Changelog",en_US:"Changelog",es_ES:"Changelog",de_DE:"Changelog",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/dashboard",icon:"fas fa-tachometer-alt",fr_FR:"Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
       {version : ['4.1'],link : "/#LANG#/core/#VERSION#/overview",icon:"fab fa-hubspot",fr_FR:"Synthèse",en_US:"Synthesis",es_ES:"Síntesis",de_DE:"Synthese",pt_PT:"Síntese"},
-      {link : "/#LANG#/core/#VERSION#/view",icon:"far fa-image",fr_FR:"Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Vues",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/view",icon:"far fa-image",fr_FR:"Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Ansichten ",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/design",icon:"fas fa-paint-brush",fr_FR:"Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/design3d",icon:"fas fa-cubes",fr_FR:"Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/log",icon:"far fa-file",fr_FR:"Logs",en_US:"Logs",es_ES:"Logs",de_DE:"",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/log",icon:"far fa-file",fr_FR:"Logs",en_US:"Logs",es_ES:"Logs",de_DE:"Logs",pt_PT:""},
       {link : "",icon:"fas fa-tachometer-alt",fr_FR:"Temps reel",en_US:"Real time",es_ES:"Tiempo real",de_DE:"Echtzeit",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/eqAnalyse",icon:"fas fa-battery-full",fr_FR:"Analyse équipements",en_US:"Equipments Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/display",icon:"fas fa-th",fr_FR:"Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/history",icon:"fas fa-chart-line",fr_FR:"Historique",en_US:"History",es_ES:"Historia",de_DE:"Historique",pt_PT:""},
+      {link : "/#LANG#/core/#VERSION#/history",icon:"fas fa-chart-line",fr_FR:"Historique",en_US:"History",es_ES:"Historia",de_DE:"Historisierung",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/report",icon:"far fa-newspaper",fr_FR:"Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/health",icon:"fas fa-medkit",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/object",icon:"far fa-object-group",fr_FR:"Objets",en_US:"Objects",es_ES:"Asuntos",de_DE:"Betreff",pt_PT:""},
@@ -85,7 +85,7 @@ var docMenu = [
       {version : ['4.0','4.1'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Configuration",en_US:"Configuration",es_ES:"Configuracion",de_DE:"Konfiguration",pt_PT:"Configuração"},
       {link:"/#LANG#/core/#VERSION#/backup",icon:"fas fa-save",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
       {link:"",icon:"fas fa-save",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/update",icon:"fas fa-sync-alt",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Mise à jour",pt_PT:""},
+      {link:"/#LANG#/core/#VERSION#/update",icon:"fas fa-sync-alt",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Update",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/cron",icon:"fas fa-tasks",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/custom",icon:"fas fa-pencil-alt",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/user",icon:"fas fa-users",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
@@ -100,7 +100,7 @@ var docMenu = [
     de_DE : "Offizielle Plugins",
     pt_PT : "Plugins oficiais",
     submenu:[
-      {link:"/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"",pt_PT:""},
+      {link:"/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"Sicherheit",pt_PT:""},
       {link:"/#LANG#/plugins/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol",es_ES:"Protocolo de domótica",de_DE:"Hausautomationsprotokoll",pt_PT:""},
       {link:"/#LANG#/plugins/home%20automation%20protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway",es_ES:"Pasarela domótica",de_DE:"Hausautomations-Gateway",pt_PT:""},
       {link:"/#LANG#/plugins/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming",es_ES:"Programmation",de_DE:"Programmierung",pt_PT:""},
@@ -111,7 +111,7 @@ var docMenu = [
       {link:"/#LANG#/plugins/multimedia/",icon:"fas fa-sliders-h",fr_FR:"Multimédia",en_US:"Multimedia",es_ES:"Multimédia",de_DE:"Multimedia",pt_PT:""},
       {link:"/#LANG#/plugins/wellness/",icon:"fas fa-user",fr_FR:"Confort",en_US:"Wellness",es_ES:"Confort",de_DE:"Komfort",pt_PT:""},
       {link:"/#LANG#/plugins/monitoring/",icon:"fas fa-tachometer-alt",fr_FR:"Monitoring",en_US:"Monitoring",es_ES:"Monitoreo",de_DE:"Überwachung",pt_PT:""},
-      {link:"/#LANG#/plugins/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Santé",pt_PT:""},
+      {link:"/#LANG#/plugins/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
       {link:"/#LANG#/plugins/nature/",icon:"fab fa-pagelines",fr_FR:"Nature",en_US:"Nature",es_ES:"Nature",de_DE:"Natur",pt_PT:""},
       {link:"/#LANG#/plugins/automatisation/",icon:"fas fa-magic",fr_FR:"Automatisme",en_US:"Automation",es_ES:"Automatisme",de_DE:"Automatisierung",pt_PT:""},
       {link:"/#LANG#/plugins/energy/",icon:"fas fa-bolt",fr_FR:"Energie",en_US:"Energy",es_ES:"Energía",de_DE:"Energie",pt_PT:""},
@@ -152,7 +152,7 @@ var docMenu = [
     pt_PT : "Rechtliche Hinweise",
     link : "/#LANG#/legal_notice"
   }
-
+  
 ]
 
 if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
@@ -246,7 +246,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-
+  
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -261,22 +261,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-
+  
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-
+  
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-
+  
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -286,7 +286,7 @@ $(function(){
     }
     window.location.reload();
   })
-
+  
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -337,6 +337,18 @@ function cookiesPolicyBar(){
 
 function setLeftMenu(){
   var url = window.location.href;
+  if(url.indexOf('design3d') != 1){
+    $('#ul_menu a').each(function(){
+      if($(this).attr('href') && $(this).attr('href').indexOf('design3d') != -1){
+        $(this).closest('li').addClass('menu_active');
+        if($(this).closest('li').closest('ul').closest('li')){
+          $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click();
+          return false;
+        }
+      }
+    })
+    return;
+  }
   $('#ul_menu a').each(function(){
     if($(this).attr('href') && url.indexOf($(this).attr('href')) != -1){
       $(this).closest('li').addClass('menu_active');
@@ -390,3 +402,4 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
+  
