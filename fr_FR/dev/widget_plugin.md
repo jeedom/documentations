@@ -11,12 +11,12 @@ La dessus rien de spécial la fonction toHtml doit retourner le widget en html, 
 
 L'important est surtout les 1er lignes :
 
-```php
+````
 $replace = $this->preToHtml($_version);
 if (!is_array($replace)) {
 	return $replace;
 }
-```
+````
 
 La fonction preToHtml renvoi :
 
@@ -29,7 +29,7 @@ Le systeme de template de widget dans la code est en faite exactement le meme qu
 
 Voici un exemple :
 
-```php
+````
 public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
@@ -42,7 +42,7 @@ public static function templateWidget(){
 	);
 	return $return;
 }
-```
+````
 
 Ici on va creer un nouveau widget basé sur le template "tmplmultistate" (vous avez la liste des templates [ici](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) c'est ceux avec tmpl dans leur nom), pour une commande de type info et sous type string.
 
