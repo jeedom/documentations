@@ -112,6 +112,11 @@ body #div_content{
   background-color: var(--bg-modal-color) !important;
 }
 
+.select-wrapper input.select-dropdown {
+  height: 28px !important;
+  line-height: 20px !important;
+}
+
 .collapsible-header,
 body i {
   color: var(--link-color) !important;
