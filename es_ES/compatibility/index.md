@@ -9,6 +9,7 @@ INTELIGENTE                   | Estable                  |
 RPI1                    | Estable                  |                          
 RPI2                    | No oficial / estable     |                          
 RPI3                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI4                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom.
