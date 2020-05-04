@@ -11,12 +11,12 @@ Por encima de nada especial, el función toHtml debe devolver el widget en html,
 
 Lo importante es especialmente las primeras líneas. :
 
-`` ''php
+````
 $replace = $this->preToHtml($_version);
-si (!is_array ($ Reemplazar)) {
-	return $ replace;
+if (!is_array($replace)) {
+	return $replace;
 }
-`` ''
+````
 
 La función preToHtml devuelve :
 
@@ -29,20 +29,20 @@ El sistema de plantillas de widgets en el código es exactamente el mismo que el
 
 Aquí un ejemplo :
 
-`` ''php
-public static function templateWidget (){
+````
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
-		'plantilel '=>' tmplmultistate',
-		'prueba '=> matriz (
-			array ('operación' => '# valor # == 2', 'estado' => ' <i class="icon maison-vacuum6"></i> '),
-			array ('operación' => '# valor # == 3', 'estado' => ' <i class="fa fa-pause"></i> '),
-			array ('operación' => '# valor #> 3 || #valor # <2 ',' estado '=>' <i class="fa fa-home"></i> ')
+		'template' => 'tmplmultistate',
+		'test' => array(
+			array('operation' => '#value# == 2','state' => '<i class="icon maison-vacuum6"></i>'),
+			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
+			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
 	);
-	return $ return;
+	return $return;
 }
-`` ''
+````
 
 Aquí crearemos un nuevo widget basado en el plantilel "tmplmultistate" (tiene el lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
@@ -56,8 +56,8 @@ Ejemplo : para el primera prueba, decimos que si el valor del comando vale 2, en
 
 Otro ejemplo basado en otra plantilel podría ser :
 
-`` ''`
-public static function templateWidget (){
+````
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
 		'template' => 'tmplicon',
@@ -66,9 +66,9 @@ public static function templateWidget (){
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);
-	return $ return;
+	return $return;
 }
-`` ''`
+````
 
 Aquí creo un widget de toto basado en el plantilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
 
@@ -78,10 +78,10 @@ Aquí creo un widget de toto basado en el plantilel "tmplicon" en tipo de inform
 
 Luego para usar tu widget :
 
-`` ''`
+````
 $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
-`` ''`
+````
 
 Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
 
