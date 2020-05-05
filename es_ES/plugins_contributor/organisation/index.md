@@ -1,9 +1,9 @@
 
 >**IMPORTANT**
 
->Seuls les plugins de contributeur ont leur documentation ici. Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom. Une fois sur le plugin en question, cliquez sur documentation.
->Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=organisation) tous les plugins officiels de cette catégorie
+>Solo los complementos de contribuyentes tienen su documentación aquí. Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
+>Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=organisation) todos los complementos oficiales en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="ssaTask/ssaTask_icon.png" class="pluginLogo" width="100" />|ssaTask||[Documentation](https://stephdocs.github.io/jeedomTask/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3112)|
+|<img src="ssaTask/ssaTask_icon.png" class="pluginLogo" width="100" />|ssaTask||[Documentación](https://stephdocs.github.io/jeedomTask/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3112)|

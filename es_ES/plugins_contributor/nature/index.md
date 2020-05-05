@@ -4,10 +4,10 @@
 
 >**IMPORTANT**
 
->Seuls les plugins de contributeur ont leur documentation ici. Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom. Une fois sur le plugin en question, cliquez sur documentation.
->Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) tous les plugins officiels de cette catégorie
+>Solo los complementos de contribuyentes tienen su documentación aquí. Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
+>Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) todos los complementos oficiales en esta categoría
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="MiFlora/MiFlora_icon.png" class="pluginLogo" width="100" />|MiFlora|Ce plugin permet de gèrer les Xiaomi plants ou Mi Flora ainsi que les Parrots. Il nécéssite une connection bluetooth vers les objets.|[Documentation](https://NextDom.github.io/plugin-MiFlora/#language#) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2686)|
-|<img src="arrosage/arrosage_icon.png" class="pluginLogo" width="100" />|Arrosage|Plugin pour la gestion d'arrosage multizone|[Documentation](https://jeedom.github.io/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2353)|
+|<img src="MiFlora/MiFlora_icon.png" class="pluginLogo" width="100" />|MiFlora|Este complemento le permite administrar plantas Xiaomi o Mi Flora, así como loros. Il nécéssite une connection bluetooth vers les objets.|[Documentación](https://NextDom.github.io/plugin-MiFlora/#language#) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2686)|
+|<img src="arrosage/arrosage_icon.png" class="pluginLogo" width="100" />|Arrosage|Complemento para la gestión del riego multizona|[Documentación](https://jeedom.github.io/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2353)|
