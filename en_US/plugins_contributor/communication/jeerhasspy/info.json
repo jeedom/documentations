@@ -1,0 +1,19 @@
+{
+	"id" : "jeerhasspy",
+	"name" : "jeeRhasspy",
+	"description" : "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom.",
+	"licence" : "AGPL",
+	"author" : "KiboOst",
+	"require" : "3.3",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/changelog.html",
+	"documentation" : "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/",
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],
+	"link" : {
+		"forum": ""
+	}
+}

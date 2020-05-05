@@ -1,5 +1,5 @@
 ---
-layout: Standard
+layout: default
 lang: fr_FR
 title: Jeedom | Wetter veröffentlichen Plugin
 ---

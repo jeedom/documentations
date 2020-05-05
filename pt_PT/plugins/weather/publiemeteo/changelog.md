@@ -1,5 +1,5 @@
 ---
-layout: padrão
+layout: default
 lang: fr_FR
 title: Jeedom | Plugin de publicação do tempo
 ---

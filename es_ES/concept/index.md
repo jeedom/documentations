@@ -44,6 +44,10 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 Para interactuar cUno nuestra automatización del hogar, necesita comandos ! Estos sUno de dos tipos. :
 
+> Note
+>
+> Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones sUno para una mejor comprensión..
+
 - * Comandos de información* :
 Estos comandos almacenan información de los sensores.. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc..
 Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
@@ -76,8 +80,8 @@ Estos comandos están agrupados en un mosaico correspondiente a su equipo.. Y es
 
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios * info * o * comandos de acción*. Estos comandos se mostrarán como un widget, en su objeto principal.
+Este dispositivo tendrá sus propios * info * o * comandos de acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
-Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar la automatización de su hogar sabiendo dónde relacionarse.
+Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar..
 
 
