@@ -4,10 +4,8 @@
 
 >**IMPORTANT**
 
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt vom Jeedom-Markt abrufen und dann einmal auf das betreffende Plugin klicken, indem Sie auf Dokumentation klicken
-
-
-Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=health) Alle Plugins (offiziell oder nicht) in dieser Kategorie
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Markt einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
+>Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=health) Alle offiziellen Plugins in dieser Kategorie
 
 | | | | |
 |--- | --- | --- | ---|
