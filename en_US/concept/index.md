@@ -80,7 +80,7 @@ These commands are grouped in a tile corresponding to your equipment. And this t
 
 Whatever your device, it will be created in the form of equipment, from a [Plugin](/en_US/core/4.1/plugin).
 
-This device will have its own * info * or * actiWe commands*. These commands will be displayed as a Widget, in its parent object.
+This device will have its own * info * or * actiWe commands*. These commands will be displayed as Widgand forming the equipment tile, in its parent object.
 
 You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automatiWe knowing where to look..
 

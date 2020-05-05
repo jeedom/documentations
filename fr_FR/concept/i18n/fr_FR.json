@@ -24,7 +24,7 @@
         "Sur un": "Sur un",
         "Design 3D": "Design 3D",
         "Version Mobile": "Version Mobile",
-        "Ceux-ci sont consultable dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile": "Ceux-ci sont consultable dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile",
+        "Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile": "Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile",
         "Les Objets": "Les Objets",
         "Objets": "Objets",
         "Afin d'organiser vos périphériques, vous pouvez créer des": "Afin d'organiser vos périphériques, vous pouvez créer des",
@@ -87,9 +87,9 @@
         "Et cette tuile sera donc affichée sur le Dashboard dans l'Objet que vous aurez choisi": "Et cette tuile sera donc affichée sur le Dashboard dans l'Objet que vous aurez choisi",
         "Conclusion": "Conclusion",
         "Plugin": "Plugin",
-        "Quelques soit votre périphérique, il seront donc crée sous forme d'un équipements, à partir d'un": "Quelques soit votre périphérique, il seront donc crée sous forme d'un équipements, à partir d'un",
+        "Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un": "Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un",
         "Ce périphérique comportera ses propres commandes *info* ou *action": "Ce périphérique comportera ses propres commandes *info* ou *action",
-        "Ces commandes seront affichées sous forme de Widget, dans son objet parent": "Ces commandes seront affichées sous forme de Widget, dans son objet parent",
+        "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'quipement, dans son objet parent": "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'quipement, dans son objet parent",
         "Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage": "Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage",
         "Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder": "Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder"
     }

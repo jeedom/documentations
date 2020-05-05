@@ -80,7 +80,7 @@ Estos comandos están agrupados en un mosaico correspondiente a su equipo.. Y es
 
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios * info * o * comandos de acción*. Estos comandos se mostrarán como un widget, en su objeto principal.
+Este dispositivo tendrá sus propios * info * o * comandos de acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar..
 

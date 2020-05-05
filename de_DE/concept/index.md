@@ -80,7 +80,7 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 Unabhängig vEin Ihrem Gerät wird es in Form vEin Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
 
-Dieses Gerät verfügt über eigene * info * - oder * Aktionsbefehle*. Diese Befehle werden als Widgund im übergeordneten Objekt angezeigt.
+Dieses Gerät verfügt über eigene * info * - oder * Aktionsbefehle*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte vEin Jeedom verstanden haben und somit in der Lage sein, Ihre HausautomatiEin zu organisieren und zu wissen, wo Sie suchen müssen..
 
