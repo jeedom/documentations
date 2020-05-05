@@ -67,7 +67,7 @@ Technical characteristics
 
 -   Scope : 40m indoors / 80m outdoors
 
--   Dimensions 56 \* 56 \* 20mm
+-   Dimensions 56 \*56 \*20mm
 
 -   2 years warranty
 

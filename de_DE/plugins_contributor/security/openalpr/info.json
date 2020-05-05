@@ -1,0 +1,16 @@
+{
+	"id" : "openalpr",
+	"name" : "OpenALPR",
+	"description" : "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "2.4",
+	"category" : "security",
+	"display" : "panel",
+	"mobile" : "panel",
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/openalpr/#language#",
+	"changelog" : "https://mika-nt28.github.io/Documentations/openalpr/#language#/changelog"
+}

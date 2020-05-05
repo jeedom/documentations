@@ -92,7 +92,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
 
 -   No olvides guardar !
 
-Para obtener más detalles sobre la página de configuración, consulte * Manual de configuración -> Administración*.
+Para obtener más detalles sobre la página de configuración, consulte *Manual de configuración -> Administración*.
 .
 
 ## Obtener mi URL de acceso directo
@@ -142,7 +142,7 @@ Nada podría ser más simple para crear un objeto :
 
 ![Objet](images/FirstStep_object.jpg)
 
-Para obtener más información sobre esta parte, consulte * Manual del usuario -> Objeto*.
+Para obtener más información sobre esta parte, vea *Manual de usuario -> Objeto*.
 
 ## Instalar mi primer complemento
 
@@ -174,7 +174,7 @@ Entonces encuentras :
 - Cómo usar el complemento,
 - Información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
-Para obtener más información sobre complementos, * Manual del usuario -> Complemento*.
+Para más información sobre complementos, *Manual de usuario -> Complemento*.
 
 # Support
 
@@ -201,11 +201,11 @@ Si no ha encontrado una solución a su problema, como último recurso, puede sol
 
 -   Si por alguna razón no tiene acceso a su Jeedom, siempre puede abrir un boleto del Mercado :
 
-    -   O haciendo clic en su nombre y luego en * Solicitud de soporte*,
+    -   O haciendo clic en su nombre y luego en *Solicitud de soporte*,
 
     -   ya sea yendo a tu perfil, luego en la sección **Tickets**, use el botón "Abrir una solicitud de soporte".
 
-![Demande de support](images/FirstStep_support.jpg)
+![Solicitud de soporte](images/FirstStep_support.jpg)
 
 Todos los intercambios posteriores serán por correo electrónico..
 

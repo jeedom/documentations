@@ -1,0 +1,14 @@
+{
+	"id" : "Nut_free",
+	"name" : "Nut_free",
+	"description" : "Plugin de UPS free",
+	"licence" : "AGPL",
+	"author" : "SFY",
+	"require" : "3.0",
+	"category" : "monitoring",
+	"hasDependency" : true,
+	"language" : ["fr_FR"],
+	"changelog" : "https://megastorage.github.io/Nut_Free/fr_FR/changelog.html",
+	"documentation": "https://megastorage.github.io/Nut_Free",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

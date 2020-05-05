@@ -178,7 +178,7 @@ Und vor "exit 0" fügen Sie die folgenden Zeilen hinzu :
 >
 > Hier mache ich ein Backup aller VMs, Sie können dies anpassen, indem Sie
 > Ersetzen Sie -a durch -m ma\._vm. Seien Sie vorsichtig, wenn Sie setzen möchten
-> Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \.* \. duplizieren*
+> Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \. duplizieren* \.*
 > / vmfs / volume / Backup / ghettoVCB.sh -a -g
 > / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "und legen Sie eine pro VM für die Sicherung ab

@@ -57,9 +57,9 @@ werden vom Skript in Apache hinzugefügt.
 > Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
 > Erneuerung :
-> /etc/apache2/sites-available/000-default-le-ssl.conf \ `
+> /etc/apache2/sites-available/000-default-le-ssl.conf \. `
 
-    <FilesMatch "\.(cgi|shtml|phtml|php)$">
+    <FilesMatch "\..(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
     </FilesMatch>
     <Directory /usr/lib/cgi-bin>
@@ -165,7 +165,7 @@ Schritte zu folgen :
 
 > **Tip**
 >
-> Um die Planung 0 5 \* \* 1 zu verstehen, siehe hier und
+> Um die Planung zu verstehen 0 5 \.* \.* 1, schauen Sie hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 

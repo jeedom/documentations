@@ -48,13 +48,13 @@ Para interactuar cUno nuestra automatización del hogar, necesita comandos ! Est
 >
 > Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones sUno para una mejor comprensión..
 
-- * Comandos de información* :
+- Las órdenes *info* :
 Estos comandos almacenan información de los sensores.. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc..
 Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
 
 Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz..
 
-- * Comandos de acción* :
+- Las órdenes *action* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos **on** y **off** de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
 Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones **on** y **off**, generalmente relacionado cUno la información **Etat**.
@@ -80,7 +80,7 @@ Estos comandos están agrupados en un mosaico correspondiente a su equipo.. Y es
 
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios * info * o * comandos de acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
+Este dispositivo tendrá sus propios comandos. *info* o *action*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar..
 

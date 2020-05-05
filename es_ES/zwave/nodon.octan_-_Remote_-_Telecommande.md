@@ -73,7 +73,7 @@ Características técnicas
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.01 Alcance: 40m interior / 80m exterior
 
--   Dimensiones : 80\*80\*15mm
+-   Dimensiones : 80 \*80 \*15mm
 
 -   2 años de garantia
 

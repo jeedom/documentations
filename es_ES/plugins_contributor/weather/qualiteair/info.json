@@ -1,0 +1,8 @@
+{
+	"id" : "qualiteair",
+	"name" : "Indices Qualité de l'Air",
+	"licence" : "AGPL",
+	"author" : "Thomas Guenneguez",
+	"require" : "1.150.0",
+	"category" : "weather"
+}

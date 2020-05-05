@@ -80,7 +80,7 @@ erforderlich, um die folgenden Informationen abzurufen :
     Eltern, Name, ID (Knoten), Modell.
 
 -   Zwcfg-Datei wiederherstellen : *Plugins ⇒ Verwaltung von Plugins ⇒
-    Z-Welle *. Klicken Sie auf die rote Schaltfläche * Zwcfg * und kopieren Sie den Inhalt
+    Z-wave*. Klicken Sie auf die rote Schaltfläche *Zwcfg * und Inhalt kopieren
     in einer Textdatei auf Ihrem Computer.
 
 ### RFXcom Plugin 
@@ -209,8 +209,8 @@ Source**.
     mit Ihrem Controller verbunden. (Sie werden in Erinnerung behalten
     davon)
 
--   Ersetzen Sie die Datei * Zwcfg* : *Plugins ⇒ Verwaltung von Plugins ⇒
-    Z-Welle *. Klicken Sie auf die rote Schaltfläche * Zwcfg * und fügen Sie den Inhalt der ein
+-   Datei ersetzen *Zwcfg* : *Plugins ⇒ Verwaltung von Plugins ⇒
+    Z-wave*. Klicken Sie auf die rote Schaltfläche *Zwcfg * und füge den Inhalt von ein
     zuvor auf Ihrem Computer erstellte Textdatei. * Speichern
     die Änderungen*.
 
@@ -266,17 +266,17 @@ Und speichern Sie die Konfiguration.
 
 ![jeelink.migration3](images/jeelink.migration3.png)
 
-Fügen Sie auf der Registerkarte * Zuordnung * die gewünschte Ausrüstung hinzu
+In der Registerkarte *Affectation*, Fügen Sie die gewünschte Ausrüstung hinzu
 geh rauf zum **Jeedom Ziel**.
 
 ![jeelink.migration4](images/jeelink.migration4.png)
 
-Klicken Sie auf * Ausrüstung hinzufügen * Objekt und Ausrüstung auswählen
+Klicken Sie auf *Ausrüstung hinzufügen* Objekt und Ausrüstung auswählen
 hinzufügen :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-Nach dem Aktualisieren der Seite * My JeeLinks * von **Jeedom Ziel**, vous
+Nach dem Aktualisieren der Seite *Meine Jeelinks* die **Jeedom Ziel**, vous
 muss die automatische Erstellung der Ausrüstung beachten :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -286,7 +286,7 @@ oder nicht die Ausrüstung, ihre Steuerungen, ... oder ändern Sie die Kategorie
 
 ![jeelink.migration7](images/jeelink.migration7.png)
 
-Auf der Registerkarte * Bestellungen * greifen Sie auf alle Parameter der
+In der Registerkarte *Commandes*, Sie greifen auf alle Parameter des
 Gerätesteuerung :
 
 ![jeelink.migration8](images/jeelink.migration8.png)
@@ -303,7 +303,7 @@ Historische Erholung
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
     rechts *).
 
--   Gehen Sie zur Registerkarte * Erweiterte Konfiguration*.
+-   Gehen Sie zur Registerkarte *Erweiterte Konfiguration*.
 
 -   Klicken Sie auf die Schaltfläche * Kopieren Sie den Verlauf dieser Bestellung nach a
     andere Reihenfolge*.
@@ -323,9 +323,9 @@ Ersatz alter Slave-Geräte in Szenarien / virtuell /…
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
     rechts *).
 
--   Gehen Sie zur Registerkarte * Informationen*.
+-   Gehen Sie zur Registerkarte *Informations*.
 
--   Klicken Sie auf die Schaltfläche * Ersetzen Sie diesen Befehl durch den Befehl*.
+-   Klicken Sie auf die Schaltfläche *Diesen Befehl durch den Befehl ersetzen*.
 
 -   Finden Sie die entsprechende Bestellung für das neue JeeLink-Gerät
     Korrespondent und validieren.
@@ -342,7 +342,7 @@ Abrufen erweiterter Anzeigekonfigurationen für Befehle
 -   Gehen Sie zur Konfiguration des Befehls (* Zahnrad bei
     rechts *).
 
--   Klicken Sie auf die Schaltfläche * anwenden auf*.
+-   Klicken Sie auf die Schaltfläche *Übernehmen*.
 
 -   Suchen Sie den entsprechenden Befehl für den neuen und wählen Sie ihn aus
     entsprechende JeeLink-Ausrüstung und validieren.
@@ -386,13 +386,13 @@ Haushalt auf der **Jeedom Ziel**
 >
 > Nachdem Sie mit Sicherheit bestätigt haben, dass Ihr
 > Ausrüstung / Szenarien / Interaktionen / virtuell /…. Arbeit
-> richtig mit dem neuen jeelink system kannst du das machen
+> richtig mit dem neuen jeelink system kannst die das machen
 > Haushalt.
 
 -   Entfernen Sie restliche Ausrüstung von der alten **Jeedom Sklave**.
 
 -   Deaktivieren und entfernen Sie Plugins, die für Sie nicht mehr nützlich sind
-    (Die, die du nur auf dem Slave hattest).
+    (Die, die die nur auf dem Slave hattest).
 
 -   Benennen Sie im Plugin "Jeedom Link" das Gerät um
     könnte einen Namen haben, der mit "remote" endund XXXX".

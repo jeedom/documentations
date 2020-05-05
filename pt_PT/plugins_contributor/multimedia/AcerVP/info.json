@@ -1,0 +1,18 @@
+{
+	"id" : "AcerVP",
+	"name" : "Acer Video Projecteur",
+	"description" : "Plugin pour piloter les videoprojecteurs Acer",
+	"licence" : "AGPL",
+	"author" : "c.ansel",
+	"require" : "3.0",
+	"version" : "1.01",
+	"category" : "multimedia",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://github.com/Cricri67/Jeedom-AcerVP/blob/master/docs/#language#/changelog.md",
+	"documentation" : "https://github.com/Cricri67/Jeedom-AcerVP/blob/master/docs/#language#/index.md",
+	"language" : ["fr_FR","en_US","sp_SP"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}
+

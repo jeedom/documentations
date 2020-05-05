@@ -1,0 +1,21 @@
+{
+	"id" : "heta",
+	"name" : "Heta",
+	"description" : "Plugin pilotage des poëles à pellet Heta équipé du boitier WiRCU",
+	"licence" : "AGPL",
+	"author" : "edeweerdt",
+	"require" : "3.0",
+	"version" : "1.0",
+	"category" : "wellness",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://edeweerdt.github.io/jeedom_heta/#language#/changelog.md",
+	"documentation" : "https://edeweerdt.github.io/jeedom_heta/#language#/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

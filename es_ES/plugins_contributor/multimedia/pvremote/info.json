@@ -1,0 +1,12 @@
+{
+	"id" : "pushbullet",
+	"name" : "PushBullet",
+	"description" : "Plugin pour utiliser PushBullet",
+	"licence" : "AGPL",
+	"author" : "Stéphane Cazeaux",
+	"require" : "3.0",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0
+}

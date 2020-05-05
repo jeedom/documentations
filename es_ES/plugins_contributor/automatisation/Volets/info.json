@@ -1,0 +1,13 @@
+{
+	"id" : "Volets",
+	"name" : "Gestion de Volets",
+	"description" : "Ce plugin gère l'ouverture et la fermeture de nos volets",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "4.0.9",
+	"category" : "automatisation",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"hasOwnDeamon" : true,
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/Volets/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/Volets/#language#/changelog"
+}

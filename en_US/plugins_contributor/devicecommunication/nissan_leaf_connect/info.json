@@ -1,0 +1,9 @@
+{
+    "id": "nissan_leaf_connect",
+    "name": "Nissan Leaf Connect",
+    "licence": "AGPL",
+    "author": "cedric2",
+    "require": "3.0",
+    "category": "devicecommunication",
+    "hasDependency": "1"
+}

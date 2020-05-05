@@ -1,0 +1,13 @@
+{
+	"id" : "ChauffeEau",
+	"name" : "Gestion du Chauffe Eau",
+	"description" : "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et / ou de l'heure disponibilité de l'eau chaude",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "automatisation",
+	"hasOwnDeamon" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/ChauffeEau/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/ChauffeEau/#language#/changelog"
+}

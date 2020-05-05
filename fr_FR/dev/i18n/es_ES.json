@@ -210,6 +210,7 @@
         "Sans accents": "Sin acentos",
         "Identifiant unique du plugin sur le Market Jeedom": "Identificador único del complemento en el mercado de Jeedom",
         "Documentation fichier info.json": "Documentación del archivo Info.json",
+        "info.json": "info.json",
         "Intégré depuis la version 3": "Integrado desde la versión 3",
         "0 de Jeedom, le fichier": "0 de Jeedom, el archivo",
         "est obligatoire pour le bon fonctionnement des plugins, et leur bon déploiement sur le Market Jeedom": "es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom",

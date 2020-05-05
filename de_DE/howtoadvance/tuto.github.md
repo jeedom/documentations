@@ -65,7 +65,7 @@ Bearbeiten einer oder mehrerer Dateien
 ---------------------------------------
 
 In meinem Fall möchte ich daher eine Änderung an der Datei vornehmen
-*history.class.php * Diese Datei befindet sich im Kern von jeedom und mehr
+*history.class.php* Diese Datei befindet sich im Kern von Jeedom und mehr
 genau hier : Kern / Klasse /
 
 1. Wir sind also auf meiner Einzahlung (TaGGoU91 / Kern), die als angegeben ist
@@ -74,7 +74,7 @@ genau hier : Kern / Klasse /
 2. Also gehen wir zu / core / class (der erste Kern ist fett gedruckt, es ist
     das Repository, in dem ich mich befinde (Kern, siehe Small 1)
 
-3. Wir haben also unsere * history.class-Datei.php * - Wir klicken auf die
+3. Wir haben also unsere Akte *history.class.php* - Wir klicken auf die
     fichier
 
 ![tuto.github5](images/tuto.github5.png)

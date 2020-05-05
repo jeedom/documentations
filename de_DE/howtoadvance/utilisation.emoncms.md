@@ -35,7 +35,7 @@ Mit Parametern :
 
 -   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
 
--   Wert : Sie müssen * Wert * für Jeedom hinterlassen, um die zu senden
+-   Wert : wir müssen gehen *value* für Jeedom, um die zu senden
     Wert der Info
 
 -   Macht : zu ändern für

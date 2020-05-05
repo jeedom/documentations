@@ -1,0 +1,14 @@
+{
+	"id" : "ssaOrvibo",
+	"name" : "Orvibo AllOne",
+	"description" : "Orvibo AllOne SSA",
+	"licence" : "AGPL",
+	"author" : "Stephane SAUTRON",
+	"require" : "3.0",
+	"category" : "Objets connectés",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://stephdocs.github.io/jeedomOrvibo/#changelog",
+	"documentation" : "https://stephdocs.github.io/jeedomOrvibo/"
+}

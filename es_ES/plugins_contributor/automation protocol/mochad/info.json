@@ -1,0 +1,13 @@
+{
+	"id" : "mochad",
+	"name" : "Mochad - X10",
+	"description" : "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"category" : "automation protocol",
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/mochad/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/mochad/#language#/changelog"
+}

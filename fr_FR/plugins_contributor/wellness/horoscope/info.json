@@ -1,0 +1,8 @@
+{
+"id" : "horoscope",
+"name" : "horoscope",
+"licence" : "AGPL",
+"author" : "Anakin",
+"require" : "3.0",
+"category" : "wellness"
+}

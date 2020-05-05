@@ -1,20 +1,20 @@
-# Beschreibung
+# Description
 
 Dieses Plugin ermöglicht es, die Verbindung zwischen Ihrem Jeedom und Alexa herzustellen
 
 Es kann über einen Cloud-Dienst von Jeedom betrieben werden.
 
-> **Wichtig**
+> **Important**
 >
-> Das Plugin erfordert ein Abonnement für Sprachdienste. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Das Plugin erfordert ein Abonnement für Sprachdienste. Sie können Ihr Abonnement verwalten [hier](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-> **Wichtig**
+> **Important**
 >
 > Das Plugin unterstützt keine Geräte mit Doppelfunktionen (2 Ausgänge als bestimmtes zwave Fibaro-Modul). Sie müssen unbedingt 2 virtuelle durchlaufen, um es aufzuschlüsseln.
 
 # Herstellen der Verbindung zu Alexa
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Es ist wichtig, die folgenden Schritte in der angegebenen Reihenfolge auszuführen !!!
 
@@ -24,16 +24,16 @@ Nach der Installation des Plugins müssen Sie nur zum Konfigurationsteil des Plu
 
 ## Alexa Konfiguration
 
-Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.html) Gehen Sie zum Skill-Teil und suchen Sie nach dem Jeedom-Skill. Aktivieren Sie ihn dann. Dort werden Sie nach Kennungen gefragt, die Sie vom Markt nehmen müssen (achten Sie darauf, dass Sie Ihre Marktkennungen und nicht die Ihrer Jeedom-Kennungen eingeben).
+Sobald der Dienst aktiv ist, müssen Sie auf der Alexa-App oder auf der [Website](https://alexa.amazon.fr/spa/index.html) Gehen Sie zum Skill-Teil und suchen Sie nach der Jeedom-Skill. Aktivieren Sie sie dann. Dort werden Sie nach Kennungen gefragt, die Sie vom Markt nehmen müssen (achten Sie darauf, dass Sie Ihre Marktkennungen und nicht die Ihrer Jeedom-Kennungen eingeben).
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass Ihr Benutzerkennwort nicht korrekt ist oder nicht, müssen Sie dies tun :
 > - Überprüfen Sie, ob Amazon Alexa auf dem Markt aktiv ist
 > - Wenn dies der Fall ist, achten Sie auf Ihre Anmeldeinformationen (Aufmerksamkeit, die Sie in Groß- / Kleinschreibung beachten müssen) ?
 > - Wenn dies der Fall ist, ändern Sie Ihr Passwort auf dem Markt und haben Sie es bei der Konfiguration des Sprachassistenten-Dienstes (Registerkarte Marktprofile Seite Meine Dienste) gespeichert
 
-> **Wichtig**
+> **IMPORTANT**
 >
 >Jede Änderung der Konfiguration der an Alexa übertragenen Geräte (Hinzufügen von Geräten, Löschen von Geräten, Ändern eines generischen Auftragstyps) erfordert zwangsläufig das Aufrufen von Plugin -> Kommunikation -> Alexa und anschließendes Speichern und in der Alexa-Anwendung, um eine Entdeckung zu wiederholen
 
@@ -41,17 +41,17 @@ Une fois le service bien actif il faut sur l'application Alexa ou sur le [site w
 
 Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie im Gerätebereich das Gerät aus, das an Alexa übertragen werden soll, sowie den Gerätetyp.
 
-> **Wichtig**
+> **IMPORTANT**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Vous pouvez voir [ici](https://jeedom.github.io / plugin-mobile / fr_FR / # tocAnchor-1-6) Erklärungen zu generischen Credits
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) Erklärungen zu generischen Generika
 
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Wenn Sie keine Geräte senden (kein OK in der Geräteliste des Alexa-Plugins), betrachtet Amazon dies als Fehler und verwendet die letzte bekannte Konfiguration. Wenn Sie also alles vergessen und keine Geräte senden, übernimmt amazon die letzte bekannte Konfiguration und lässt daher alles wieder erscheinen.
 
-# Faq
+# FAQ
 
 >**Ich habe gelesen, dass das Plugin ein Abonnement erfordern würde, warum ?**
 >

@@ -65,7 +65,7 @@ Editar uno o más archivos
 ---------------------------------------
 
 En mi caso, por lo tanto, quiero insertar una modificación en el archivo
-*history.class.php * Este archivo se encuentra en el núcleo de jeedom y más
+*history.class.php* Este archivo se encuentra en el núcleo de Jeedom y más.
 precisamente aqui : núcleo / clase /
 
 1. Así que estamos en mi depósito (TaGGoU91 / core) que se indica como
@@ -74,7 +74,7 @@ precisamente aqui : núcleo / clase /
 2. Entonces vamos a / core / class (el primer núcleo está en negrita, es
     el repositorio donde estoy (núcleo, ver Pequeño 1)
 
-3. Entonces tenemos nuestro archivo * history.class.php * - Hacemos clic en el
+3. Entonces tenemos nuestro archivo *history.class.php* - Hacemos clic en el
     fichier
 
 ![tuto.github5](images/tuto.github5.png)

@@ -1,0 +1,14 @@
+{
+  "id" : "gardenasmartsystem",
+  "name": "Gardena Smart System",
+  "licence": "GPL",
+  "author": "Xavier Lecourtier",
+  "require": "3.0",
+  "category": "devicecommunication",
+  "version": "1.0",
+  "hasDependency": false,
+  "hasOwnDaemon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog" : "https://xlec.github.io/jeedom-gardenasmartsystem/#language#/changelog.html",
+  "documentation" : "https://xlec.github.io/jeedom-gardenasmartsystem/#language#/"
+}

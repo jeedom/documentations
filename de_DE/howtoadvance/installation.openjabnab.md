@@ -236,7 +236,7 @@ Und ändern Sie die folgenden Zeilen :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-Und ersetzen Sie alle * my.domain.com * von * ojn.raspberry.pi*
+Und alle ersetzen *my.domain.com* Von *ojn.raspberry.pi*
 
 Openjabnab-Webserverkonfiguration 
 =======================================

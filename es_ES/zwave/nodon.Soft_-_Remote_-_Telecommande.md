@@ -67,7 +67,7 @@ Características técnicas
 
 -   Alcance : 40m en interiores / 80m en exteriores
 
--   Dimensiones 56 \* 56 \* 20 mm
+-   Dimensiones 56 \*56 \*20mm
 
 -   2 años de garantia
 

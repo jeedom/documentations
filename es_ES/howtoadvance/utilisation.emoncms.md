@@ -35,7 +35,7 @@ Con parámetros :
 
 -   apikey : La clave de API de lectura y escritura para emoncms
 
--   valor : debe dejar * valor * para que Jeedom envíe el
+-   valor : debemos irnos *value* para que Jeedom envíe el
     valor de la información
 
 -   poder : modificar para

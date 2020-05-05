@@ -236,7 +236,7 @@ Y cambia las siguientes líneas :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-Y reemplace todos * mi.dominio.com * por * ojn.raspberry.pi*
+Y reemplazar todo *my.domain.com* por *ojn.raspberry.pi*
 
 Configuración del servidor web Openjabnab 
 =======================================

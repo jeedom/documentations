@@ -1,0 +1,11 @@
+{
+	"id" : "bbox_sagemcom",
+	"name" : "BBox Sagemcom",
+	"description" : "Plugin pour monitorer la BBox de Sagemcom",
+	"licence" : "AGPL",
+	"author" : "Gurvan PORHIEL",
+	"require" : "2.4",
+	"category" : "monitoring",
+  	"changelog" : "https://alucard29.github.io/bbox_sagemcom/#language#/changelog",
+	"documentation" : "https://alucard29.github.io/bbox_sagemcom/#language#/"
+}

@@ -92,7 +92,7 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Don&#39;t forget to save !
 
-For more details on the configuration page, see * Configuration manual -> Administration*.
+For more details on the configuration page, see *Configuration manual -> Administration*.
 .
 
 ## Get my direct access URL
@@ -142,7 +142,7 @@ Nothing could be simpler to create an object :
 
 ![Objet](images/FirstStep_object.jpg)
 
-For more information on this part, see * User manual -> Object*.
+For more information on this part, see *User manual -> Object*.
 
 ## Install my first plugin
 
@@ -174,7 +174,7 @@ You then find :
 - How to use the plugin,
 - Additional information like the author, the link to the forum discussion regarding this plugin, the date of the last update, etc..
 
-For more information on plugins, * User manual -> Plugin*.
+For more information on plugins, *User manual -> Plugin*.
 
 # Support
 
@@ -201,11 +201,11 @@ If you have not found a solution to your problem, as a last resort, you can requ
 
 -   If for some reason you do not have access to your Jeedom, you can always open a ticket from the Market :
 
-    -   Either by clicking on your name then on * Support request*,
+    -   Either by clicking on your name and then on *Support request*,
 
     -   either by going to your profile, then in the section **Tickets**, use the button "Open a support request".
 
-![Demande de support](images/FirstStep_support.jpg)
+![Support request](images/FirstStep_support.jpg)
 
 All further exchanges will be by email.
 

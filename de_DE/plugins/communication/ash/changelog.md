@@ -1,9 +1,13 @@
-# 
+# 30.04.2020
 
-- 
+- Behebung eines Problems mit der Verschlussabstiegssteuerung
+
+# 28.04.2020
+
+- Ein Problem mit dem Anzünden der Lampen wurde behoben
 - Verbesserte Verschlussunterstützung
 - Verbesserte Oberfläche
-- 
+- Unterstützung für Modeausrüstung
 
 # 23.01.2020
 

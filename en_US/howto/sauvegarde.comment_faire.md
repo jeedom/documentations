@@ -15,7 +15,7 @@ to be a full backup of the system as well as of Jeedom and its
 data. However, it must be done by switching off Jeedom and
 plugging the microSD card into another computer.
 
-The best way to be quiet is to use both : Do a
+The best way to be quiand is to use both : Do a
 back up the microSD card from time to time and program a
 regular backup of Jeedom.
 
@@ -64,25 +64,25 @@ You will have to start by downloading third-party software for example :
 1.  **Sauvegarde**
 
     -   Launch the software and check that the letter below
-        *Device * matches that of your card / reader
+        *Device* matches that of your card / reader
         Map.
 
-    -   In the * Image File * field, enter the name of the Picture file that
+    -   In the field *Image File*, indicate the name of the Picture file that
         you want to create as well as where it will be saved.
 
-    -   Finally click on the button * Read *, in order to create the Picture.
+    -   Finally click on the button *Read*, in order to create the Picture.
         image::images / save-restore09.jpg \ [align = "center" \]
 
 2.  **Restauration**
 
     -   Launch the software and check that the letter below
-        *Device * matches that of your card / reader
+        *Device* matches that of your card / reader
         Map.
 
-    -   In the * Image File * field, search for the Picture file that
+    -   In the field *Image File*, go gand the Picture file that
         you want to restore.
 
-    -   Finally click on the * Write * button, in order to restore this
+    -   Finally click on the button *Write*, in order to restore this
         Picture on microSD card.
 
 ![save restore10](images/save-restore10.jpg)
@@ -98,7 +98,7 @@ To make your task easier, you can download the software
 1.  **Sauvegarde**
 
     -   With ApplePi-Baker : Select the correct card from the list
-        *Pi-Crust *, and click on * Create Backup * to create a
+        *Pi-Crust*, and click *Create backup* in order to create a
         Picture file of your microSD card.
 
     -   In shell command :
@@ -116,9 +116,9 @@ To make your task easier, you can download the software
 2.  **Restauration**
 
     -   With ApplePi-Baker : Select the correct card from the list
-        *Pi-Crust *, put the path to the Picture file to restore
-        in the * IMG file * field of the * Pi-Ingredients * section, and
-        click on * Restore Backup * to restore the Picture on the
+        *Pi-Crust*, put the path to the Picture file to restore
+        in the field *IMG file* of the section *Pi-Ingredients*, et
+        Click on *Restore Backup* in order to restore the Picture on the
         microSD card.
 
     -   In shell command :

@@ -1,0 +1,14 @@
+{
+	"id" : "heatzy",
+	"name" : "Heatzy",
+	"description" : "Plugin permettant de gérer les modules connectés Heatzy",
+	"licence" : "AGPL",
+	"author" : "l3fl0",
+	"require" : "3.1.7",
+	"category" : "devicecommunication",
+	"changelog" : "https://l3flo.github.io/jeedom-heatzy/#language#/changelog",
+	"documentation" : "https://l3flo.github.io/jeedom-heatzy/#language#/",
+	"include" : {"type" : "php" , "file" : "heatzy.inc" },
+  	"hasDependency" : false,
+	"hasOwnDeamon" : false
+}

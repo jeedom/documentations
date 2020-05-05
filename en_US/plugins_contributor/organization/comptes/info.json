@@ -1,0 +1,16 @@
+{
+	"id" : "comptes",
+	"name" : "Comptes",
+	"licence" : "AGPL",
+	"author" : "Koleos",
+	"require" : "3.2",
+	"category" : "organization",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false, 
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://koleos6.github.io/comptes/#language#/changelog", 
+	"documentation" : "https://koleos6.github.io/comptes/#language#/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

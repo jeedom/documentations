@@ -64,25 +64,25 @@ Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen :
 1.  **Sauvegarde**
 
     -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben
-        *Gerät * entspricht dem Ihrer Karte / Ihres Lesegeräts
+        *Device* entspricht der Ihrer Karte / Ihres Lesegeräts
         Karte.
 
-    -   Geben Sie im Feld * Bilddatei * den Namen der Bilddatei ein, die
+    -   Auf dem Feld *Bilddatei*, Geben Sie den Namen der Bilddatei an, die
         Sie möchten erstellen und wo es gespeichert wird.
 
-    -   Klicken Sie abschließend auf die Schaltfläche * Lesen *, um das Bild zu erstellen.
+    -   Klicken Sie abschließend auf die Schaltfläche *Read*, um das Bild zu erstellen.
         image::images / save-restore09.jpg \ [align = "center" \]
 
 2.  **Restauration**
 
     -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben
-        *Gerät * entspricht dem Ihrer Karte / Ihres Lesegeräts
+        *Device* entspricht der Ihrer Karte / Ihres Lesegeräts
         Karte.
 
-    -   Suchen Sie im Feld * Bilddatei * nach der Bilddatei, die
+    -   Auf dem Feld *Bilddatei*, Holen Sie sich die Bilddatei, die
         Sie möchten wiederherstellen.
 
-    -   Klicken Sie abschließend auf die Schaltfläche * Schreiben *, um dies wiederherzustellen
+    -   Klicken Sie abschließend auf die Schaltfläche *Write*, um dies wiederherzustellen
         Bild auf microSD-Karte.
 
 ![save restore10](images/save-restore10.jpg)
@@ -98,7 +98,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 1.  **Sauvegarde**
 
     -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
-        *Pi-Crust * und klicken Sie auf * Backup erstellen *, um ein zu erstellen
+        *Pi-Crust*, und klicken Sie auf *Backup erstellen* um eine zu erstellen
         Bilddatei Ihrer microSD-Karte.
 
     -   Im Shell-Befehl :
@@ -116,9 +116,9 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 2.  **Restauration**
 
     -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
-        *Pi-Crust *, geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
-        im Feld * IMG-Datei * des Abschnitts * Pi-Ingredients * und
-        Klicken Sie auf * Backup wiederherstellen *, um das Image auf dem wiederherzustellen
+        *Pi-Crust*, Geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
+        auf dem Feld *IMG-Datei* des Abschnitts *Pi-Ingredients*, et
+        Klicken Sie auf *Backup wiederherstellen* um das Bild auf dem wiederherzustellen
         microSD-Karte.
 
     -   Im Shell-Befehl :
@@ -154,7 +154,7 @@ Unter Linux
 
     -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben :
         `sudo dd if = / dev / sdc von = Backup_Jeedom.img bs = 1m` * Hinweis: Dans
-        In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
+        In diesem Beispiel lautund der Name der Festplatte / dev / sdc.*
 
 2.  **Restauration**
 
@@ -167,6 +167,6 @@ Unter Linux
 
     -   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben :
         `sudo dd if = Backup_Jeedom.img von = / dev / sdc bs = 1m` * Hinweis: Dans
-        In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
+        In diesem Beispiel lautund der Name der Festplatte / dev / sdc.*
 
 

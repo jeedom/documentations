@@ -1,0 +1,9 @@
+{
+	"id" : "jeebike",
+	"name" : "Jeebike",
+	"description" : "Plugin donnant le nombre de Velib dispo pour une station",
+	"licence" : "AGPL",
+	"author" : "frederic34",
+	"require" : "2.3",
+	"category" : "travel"
+}

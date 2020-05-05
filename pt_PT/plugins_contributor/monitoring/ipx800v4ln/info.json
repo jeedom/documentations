@@ -1,0 +1,20 @@
+{
+	"id" : "ipx800v4ln",
+	"name" : "ipx800v4 client",
+	"description" : "Plugin de récupération d'informations d'un ipx800v4",
+	"licence" : "AGPL",
+	"author" : "linuxnico",
+	"require" : "3.2",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://linuxnico.github.io/pluginIPX800V4/#language#/changelog",
+	"documentation" : "https://linuxnico.github.io/pluginIPX800V4/#language#/",
+	"link" : {
+		"forum":"https://linuxnico.github.io/pluginIPX800V4/#language#/",
+		"video" : "https://linuxnico.github.io/pluginIPX800V4/#language#/"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

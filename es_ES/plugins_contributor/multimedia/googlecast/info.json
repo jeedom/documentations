@@ -1,0 +1,18 @@
+{
+	"id" : "googlecast",
+	"name" : "Google Cast",
+	"description" : "Plugin de gestion des équipements compatibles Google Cast",
+	"licence" : "AGPL",
+	"author" : "guirem",
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"maxDependancyInstallTime" : 20,
+	"version" : "2.15",
+	"require" : "3.0",
+    "category" : "multimedia",
+    "changelog" : "https://github.com/guirem/plugin-googlecast/blob/develop/docs/fr_FR/changelog.md",
+    "documentation" : "https://github.com/guirem/plugin-googlecast/blob/develop/docs/fr_FR/index.md",
+	"forum_link" : "https://community.jeedom.com/t/plugin-tiers-sujet-principal-google-cast/12632",
+	"languages" : "french, english, spanish",
+	"compatibility" : "miniplus, smart, docker, rpi, diy, mobileapp"
+}

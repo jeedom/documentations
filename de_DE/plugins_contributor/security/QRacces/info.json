@@ -1,0 +1,15 @@
+{
+	"id" : "QRacces",
+	"name" : "Acces par QR code",
+	"description" : "Gerer les acces de votre maison par QR code.",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "security",
+	"display" : "panel",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/QRacces/#language#",
+	"changelog" : "https://mika-nt28.github.io/Documentations/QRacces/#language#/changelog"
+}

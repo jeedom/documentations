@@ -1,0 +1,27 @@
+
+# Sécurité
+
+
+>**IMPORTANT**
+
+>Seuls les plugins de contributeur ont leur documentation ici. Vous pouvez consulter les documentations des plugins officiel directement depuis le market jeedom puis une fois sur le plugin en question en cliquant sur documentation
+
+
+Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) tous les plugins (officiel ou non) de cette categorie
+
+| | | | |
+|--- | --- | --- | ---|
+|<img src="Diagral_eOne/Diagral_eOne_icon.png" class="pluginLogo" width="100" />|Diagral eOne|Plugin pour gérer les alarmes Diagral eOne|[Documentation](https://mguyard.github.io/Jeedom-Diagral_eOne/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3820)|
+|<img src="QRacces/QRacces_icon.png" class="pluginLogo" width="100" />|Acces par QR code|Gerer les acces de votre maison par QR code.|[Documentation](http://mika-nt28.github.io/Documentations/QRacces/#language#) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3758)|
+|<img src="alarme_IMA/alarme_IMA_icon.png" class="pluginLogo" width="100" />|Alarme IMA|Gestion de l'alarme IMA téléassistance|[Documentation](https://lplancke.github.io/jeedom_alarme_IMA/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3184)|
+|<img src="blink_camera/blink_camera_icon.png" class="pluginLogo" width="100" />|Blink Camera|Plugin for Blink Camera|[Documentation](https://d9-197.github.io/blink_camera/#language#) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3776)|
+|<img src="digicode/digicode_icon.png" class="pluginLogo" width="100" />|Digicode Plugin||[Documentation](https://jmz84.github.io/plugin-digicode/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3436)|
+|<img src="domonial/domonial_icon.png" class="pluginLogo" width="100" />|Domonial|Plugin pour recevoir les notifications d'une alarme Domonial|[Documentation](https://apages2.github.io/pluginjeedom-domonial/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2857)|
+|<img src="ftpd/ftpd_icon.png" class="pluginLogo" width="100" />|Ftpd|Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de creer un serveur ftp qui notifiera jeedom lorsqu'un fichier est déposé. Très utile pour les cameras IP qui peuvent sur détection de mouvement envoyer un fichier par ftp.|[Documentation](https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2843)|
+|<img src="gds3710/gds3710_icon.png" class="pluginLogo" width="100" />|GDS 3710|Plugin permetant l'intégration du portier GrandStream GDS3710|[Documentation](https://ripleyxlr8.github.io/jeedom-plugin-gds3710/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3487)|
+|<img src="georide/georide_icon.png" class="pluginLogo" width="100" />|GeoRide|{{Plugin afin d'utiliser l'api ouvert de GeoRide}}|[Documentation](https://github.com/ImoucheG/GeoRide-Jeedom-Source) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3714)|
+|<img src="motion/motion_icon.png" class="pluginLogo" width="100" />|Motion|Plugin permettant de configurer et d'utiliser le logiciel Motion. Celui-ci permet de streamer nos webcams et de faire de la détection de mouvement sur nos caméras|[Documentation](https://mika-nt28.github.io/Documentations/motion/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1542)|
+|<img src="multiRequests/multiRequests_icon.png" class="pluginLogo" width="100" />|Multi Requests|Plugin pour gérer des équipements virtuels|[Documentation](https://github.com/KiwiHC16/multi-requests/tree/beta/docs) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3441)|
+|<img src="openalpr/openalpr_icon.png" class="pluginLogo" width="100" />|OpenALPR|Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera|[Documentation](https://mika-nt28.github.io/Documentations/openalpr/#language#) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1613)|
+|<img src="phone_detection/phone_detection_icon.png" class="pluginLogo" width="100" />|Détection de téléphone (Bluetooth)|Ping à intervals réguliers un téléphone pour en déterminer sa présence|[Documentation](https://github.com/sebmafate/phone_detection) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3852)|
+|<img src="protexiom/protexiom_icon.png" class="pluginLogo" width="100" />|Somfy alarme||[Documentation](https://fdp1nm.github.io/plugin-protexiom/#language#/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=510)|

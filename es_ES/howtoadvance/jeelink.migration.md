@@ -80,7 +80,7 @@ necesario para recuperar la siguiente información :
     padre, nombre, ID (nodo), modelo.
 
 -   Recuperar archivo Zwcfg : *Complementos ⇒ Gestión de complementos ⇒
-    Onda Z *. Haga clic en el botón rojo * Zwcfg * y copie el contenido
+    Z-wave*. Haga clic en el botón rojo. *Zwcfg * y copiar contenido
     en un archivo de texto en su computadora.
 
 ### Complemento RFXcom 
@@ -209,8 +209,8 @@ Source**.
     asociado con su controlador. (Se guardan en la memoria
     de este)
 
--   Reemplace el archivo * Zwcfg* : *Complementos ⇒ Gestión de complementos ⇒
-    Onda Z *. Haga clic en el botón rojo * Zwcfg * y pegue el contenido del
+-   Reemplazar archivo *Zwcfg* : *Complementos ⇒ Gestión de complementos ⇒
+    Z-wave*. Haga clic en el botón rojo. *Zwcfg * y pegue el contenido de
     archivo de texto creado previamente en su computadora. * Guardar
     los cambios*.
 
@@ -266,17 +266,17 @@ Y guarda la configuración.
 
 ![jeelink.migration3](images/jeelink.migration3.png)
 
-En la pestaña * Asignación *, agregue el equipo que desee
+En la pestaña *Affectation*, agrega el equipo que quieras
 subir a la **Jeedom Target**.
 
 ![jeelink.migration4](images/jeelink.migration4.png)
 
-Haga clic en * Agregar equipo * Seleccionar objeto y equipo
+Haga clic en *Agregar equipo* Seleccionar objeto y equipo
 para agregar :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-Después de actualizar la página * My JeeLinks * de **Jeedom Target**, vous
+Después de actualizar la página *Mis enlaces* del **Jeedom Target**, vous
 debe tener en cuenta la creación automática del equipo :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -286,7 +286,7 @@ o no el equipo, sus controles, ... o cambiar la categoría :
 
 ![jeelink.migration7](images/jeelink.migration7.png)
 
-En la pestaña * Pedidos *, accede a todos los parámetros de
+En la pestaña *Commandes*, accede a todos los parámetros de la
 controles de equipo :
 
 ![jeelink.migration8](images/jeelink.migration8.png)
@@ -303,7 +303,7 @@ Recuperación histórica
 -   Vaya a la configuración del comando (* Rueda dentada en
     derecha*).
 
--   Vaya a la pestaña * Configuración avanzada*.
+-   Ir a la pestaña *Configuración avanzada*.
 
 -   Haga clic en el botón * Copiar el historial de este pedido a un
     otro orden*.
@@ -323,9 +323,9 @@ Reemplazo de equipos esclavos antiguos en escenarios / virtuales / ...
 -   Vaya a la configuración del comando (* Rueda dentada en
     derecha*).
 
--   Vaya a la pestaña * Información*.
+-   Ir a la pestaña *Informations*.
 
--   Haga clic en el botón * Reemplace este comando con el comando*.
+-   Haga clic en el botón *Reemplazar este comando por el comando*.
 
 -   Encuentre el pedido correspondiente para el nuevo equipo JeeLink
     corresponsal y validar.
@@ -342,7 +342,7 @@ Recuperando configuraciones de pantalla avanzadas para comandos
 -   Vaya a la configuración del comando (* Rueda dentada en
     derecha*).
 
--   Haga clic en el botón * aplicar a*.
+-   Haga clic en el botón *Aplicar*.
 
 -   Busque y seleccione el comando correspondiente para el nuevo
     equipo JeeLink correspondiente y validar.

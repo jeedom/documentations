@@ -64,25 +64,25 @@ Tendrá que comenzar descargando software de terceros, por ejemplo :
 1.  **Sauvegarde**
 
     -   Inicie el software y verifique que la siguiente carta
-        *El dispositivo * coincide con el de su tarjeta / lector
+        *Device* coincide con el de su tarjeta / lector
         tarjeta.
 
-    -   En el campo * Archivo de imagen *, ingrese el nombre del archivo de imagen que
+    -   En el campo *Archivo de imagen*, indicar el nombre del archivo de imagen que
         desea crear y dónde se guardará.
 
-    -   Finalmente, haga clic en el botón * Leer * para crear la imagen..
+    -   Finalmente haz clic en el botón *Read*, para crear la imagen.
         image::images / save-restore09.jpg \ [align = "center" \]
 
 2.  **Restauration**
 
     -   Inicie el software y verifique que la siguiente carta
-        *El dispositivo * coincide con el de su tarjeta / lector
+        *Device* coincide con el de su tarjeta / lector
         tarjeta.
 
-    -   En el campo * Archivo de imagen *, busque el archivo de imagen que
+    -   En el campo *Archivo de imagen*, ve a buscar el archivo de imagen que
         quieres restaurar.
 
-    -   Finalmente, haga clic en el botón * Escribir * para restaurar esto
+    -   Finalmente haz clic en el botón *Write*, para restaurar esto
         imagen en tarjeta microSD.
 
 ![save restore10](images/save-restore10.jpg)
@@ -98,7 +98,7 @@ Para facilitar su tarea, puede descargar el software
 1.  **Sauvegarde**
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
-        *Pi-Crust *, y haga clic en * Crear copia de seguridad * para crear un
+        *Pi-Crust*, y haga clic *Crear copia de seguridad* para crear un
         archivo de imagen de su tarjeta microSD.
 
     -   En comando de shell :
@@ -116,9 +116,9 @@ Para facilitar su tarea, puede descargar el software
 2.  **Restauration**
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
-        *Pi-Crust *, coloque la ruta al archivo de imagen para restaurar
-        en el campo * archivo IMG * de la sección * Ingredientes Pi *, y
-        haga clic en * Restaurar copia de seguridad * para restaurar la imagen en el
+        *Pi-Crust*, poner la ruta al archivo de imagen para restaurar
+        en el campo *Archivo IMG* de la sección *Pi-Ingredients*, et
+        Haga clic en *Restaurar copia de seguridad* para restaurar la imagen en el
         tarjeta microSD.
 
     -   En comando de shell :

@@ -48,13 +48,13 @@ Für die InteraktiEin mit unserer HausautomatiEin benötigen Sie Befehle ! Es gi
 >
 > Seien Sie versichert, Bestellungen werden normalerweise automatisch erstellt ! Diese Erklärungen dienen dem besseren Verständnis.
 
-- * Info Befehle* :
+- Bestellungen *info* :
 Diese Befehle speichern Informationen vEin Sensoren. Zum Beispiel die Temperatur einer Sonde, eine Bewegung eines Anwesenheitssensors usw..
 Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/de_DE/core/4.1/history)
 
 Diese Befehle können auch zum Auslösen verwendund werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den vEin Ihren Sensoren gemeldeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
-- * Aktionsbefehle* :
+- Bestellungen *action* :
 Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle **on** und **off** Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
 
 Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen **on** und **off**, in der Regel im Zusammenhang mit Informationen **Etat**.
@@ -80,7 +80,7 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 Unabhängig vEin Ihrem Gerät wird es in Form vEin Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
 
-Dieses Gerät verfügt über eigene * info * - oder * Aktionsbefehle*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
+Dieses Gerät verfügt über eigene Befehle *info* oder *action*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte vEin Jeedom verstanden haben und somit in der Lage sein, Ihre HausautomatiEin zu organisieren und zu wissen, wo Sie suchen müssen..
 

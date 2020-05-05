@@ -1,0 +1,20 @@
+{
+	"id" : "airZone",
+	"name" : "airZone",
+	"description" : "Plugin airZone pour la création de plugin",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.3",
+	"category" : "automation protocol",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://bernidouille.github.io/airZone/fr_FR/changelog.md",
+	"documentation" : "https://bernidouille.github.io/airZone/fr_FR/index.md",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

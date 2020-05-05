@@ -1,0 +1,20 @@
+{
+	"id" : "gotify",
+	"name" : "Gotify",
+	"description" : "Plugin permettant la connection à un serveur Gotify. Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message. Plus d'info sur https://gotify.net/",
+	"licence" : "AGPL",
+	"author" : "Mips",
+	"require" : "3.3.24",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mips2648.github.io/jeedom-plugins-docs/gotify/#language#/changelog",
+	"documentation" : "https://mips2648.github.io/jeedom-plugins-docs/gotify/#language#/",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-gotify",
+		"video" : ""
+	},
+	"language" : ["fr_FR", "en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

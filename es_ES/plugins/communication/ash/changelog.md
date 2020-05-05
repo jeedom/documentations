@@ -1,9 +1,13 @@
-# 
+# 30/04/2020
 
-- 
+- Corrección de un problema con el control de descenso del obturador
+
+# 28/04/2020
+
+- Se solucionó un problema al encender las lámparas.
 - Soporte de obturador mejorado
 - Interfaz mejorada
-- 
+- Soporte para equipos de moda.
 
 # 23/01/2020
 

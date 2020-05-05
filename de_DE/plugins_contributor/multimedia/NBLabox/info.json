@@ -1,0 +1,11 @@
+{
+"id" : "NBLabox",
+"name" : "NB LaBox",
+"licence" : "BSD",
+"author" : "-",
+"require" : "2.2",
+"category" : "multimedia",
+"hasDependency" : false,
+"hasOwnDeamon" : false,
+"maxDependancyInstallTime" : 45
+}

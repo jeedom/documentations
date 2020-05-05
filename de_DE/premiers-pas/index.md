@@ -92,7 +92,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Vergiss nicht zu sparen !
 
-Weitere Informationen auf der Konfigurationsseite finden Sie unter * Konfigurationshandbuch -> Administration*.
+Weitere Informationen finden Sie auf der Konfigurationsseite unter *Konfigurationshandbuch -> Administration*.
 .
 
 ## Holen Sie sich meine direkte Zugriffs-URL
@@ -142,7 +142,7 @@ Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
 ![Objet](images/FirstStep_object.jpg)
 
-Weitere Informationen zu diesem Teil finden Sie unter * Benutzerhandbuch -> Objekt*.
+Weitere Informationen zu diesem Teil finden Sie unter *Benutzerhandbuch -> Objekt*.
 
 ## Installiere mein erstes Plugin
 
@@ -174,7 +174,7 @@ Sie finden dann :
 - Wie man das Plugin benutzt,
 - Zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
-Weitere Informationen zu Plugins finden Sie im * Benutzerhandbuch -> Plugin*.
+Weitere Informationen zu Plugins, *Benutzerhandbuch -> Plugin*.
 
 # Support
 
@@ -201,11 +201,11 @@ Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, könn
 
 -   Wenn Sie aus irgendeinem Grund keinen Zugang zu Ihrem Jeedom haben, können Sie jederzeit ein Ticket vom Markt öffnen :
 
-    -   Klicken Sie entweder auf Ihren Namen und dann auf * Supportanfrage*,
+    -   Klicken Sie entweder auf Ihren Namen und dann auf *Supportanfrage*,
 
     -   entweder indem Sie zu Ihrem Profil gehen, dann in den Abschnitt **Tickets**, Verwenden Sie die Schaltfläche "Supportanfrage öffnen".
 
-![Demande de support](images/FirstStep_support.jpg)
+![Unterstützunganfrage](images/FirstStep_support.jpg)
 
 Alle weiteren Austausche erfolgen per E-Mail.
 

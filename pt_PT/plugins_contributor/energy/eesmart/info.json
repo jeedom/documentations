@@ -1,0 +1,16 @@
+{
+	"id" : "eesmart",
+	"name" : "eeSmart",
+	"description" : "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy.",
+	"licence" : "AGPL",
+	"author" : "Caelion",
+	"require" : "3.3.39",
+	"category" : "energy",
+	"changelog" : "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/#language#/changelog",
+	"documentation" : "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","it_IT","sp_SP","ru_RU","id_ID"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0
+}

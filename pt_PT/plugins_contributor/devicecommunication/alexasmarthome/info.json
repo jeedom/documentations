@@ -1,0 +1,19 @@
+{
+	"id" : "alexasmarthome",
+	"name" : "Alexa - SmartHome",
+	"description" : "Interface smartHome pour Alexa-API",
+	"licence" : "AGPL",
+	"author" : "Sigalou",
+	"require" : "3.3.24",
+	"version": "0.0.1",
+	"changelog" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/93-alexa-amazon-smarthome-changelog",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-alexasmarthome",
+	"documentation" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/92-alexa-amazon-smarthome-documentation-2",
+	"category" : "devicecommunication",
+  "hasDependency" : 0,
+  "hasOwnDeamon" : 0,
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
+	"maxDependancyInstallTime" : 0
+}
+

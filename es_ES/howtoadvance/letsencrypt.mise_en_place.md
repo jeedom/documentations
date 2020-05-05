@@ -88,11 +88,11 @@ Agregue las siguientes líneas, entre las líneas `server {` y
 
     escuchar 443 ssl;
 
-    ssl_certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
+    ssl_ _certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
 
-    ssl_certificate_key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
+    ssl_ _certificate_ _key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
 
-    ssl_session_timeout 5m;
+    ssl_ _session_ _timeout 5m;
 
 Y finalmente reinicie el servidor Nginx.
 
@@ -165,9 +165,9 @@ pasos a seguir :
 
 > **Tip**
 >
-> Para comprender la planificación 0 5 \* \* 1, consulte aquí y
+> Para entender la planificación 0 5 \* \* 1, mira aquí y
 > ajústelo a sus necesidades si es necesario :
-> <https://crontab.guru/#0_5_*_*_1>
+> <https://crontab.guru/#0_ _5_ _*_ _*_ _1>
 
 -   Guarde el archivo y luego salga del editor de texto
     copia de seguridad :

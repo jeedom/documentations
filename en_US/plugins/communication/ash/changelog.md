@@ -1,4 +1,8 @@
-# 
+# 04/30/2020
+
+- Correction of a problem with the shutter descent control
+
+# 04/28/2020
 
 - Fixed a problem with lighting the lamps
 - Improved shutter support

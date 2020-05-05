@@ -1,0 +1,15 @@
+{
+	"id" : "musiccast",
+	"name" : "MusicCast controller",
+	"description" : "Plugin de controle de Yamaha MusicCast",
+	"licence" : "AGPL",
+	"author" : "Damien SUROT",
+	"require" : "3.0",
+	"category" : "multimedia",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"display" : "panel",
+	"mobile" : "panel",
+	"changelog" : "https://granddam.github.io/plugin-musiccast/#language#/changelog",
+	"documentation" : "https://granddam.github.io/plugin-musiccast/#language#/index"
+}

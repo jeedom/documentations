@@ -80,7 +80,7 @@ necessary to retrieve the following information :
     parent, name, ID (Node), model.
 
 -   Recover Zwcfg file : *Plugins ⇒ Management of Plugins ⇒
-    Z-wave *. Click on the red button * Zwcfg * and copy the content
+    Z-wave*. Click on the red button *Zwcfg * and copy content
     in a text file on your computer.
 
 ### RFXcom plugin 
@@ -209,8 +209,8 @@ Source**.
     associated with your controller. (They are kept in memory
     of it)
 
--   Replace the file * Zwcfg* : *Plugins ⇒ Management of Plugins ⇒
-    Z-wave *. Click on the red button * Zwcfg * and paste the content of the
+-   Replace file *Zwcfg* : *Plugins ⇒ Management of Plugins ⇒
+    Z-wave*. Click on the red button *Zwcfg * and paste the content of
     text file previously created on your computer. *Save
     changes*.
 
@@ -266,17 +266,17 @@ And save the configuration.
 
 ![jeelink.migration3](images/jeelink.migration3.png)
 
-In the * Assignment * tab, add the equipment you want
+In the tab *Affectation*, add the equipment you want
 go up to the **Jeedom Target**.
 
 ![jeelink.migration4](images/jeelink.migration4.png)
 
-Click on * Add equipment * Select object and equipment
+Click on *Add equipment* Select object and equipment
 to add :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-After refreshing the page * My JeeLinks * of **Jeedom Target**, vous
+After refreshing the page *My jeelinks* from **Jeedom Target**, vous
 must note the automatic creation of the equipment :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -286,7 +286,7 @@ or not the equipment, its controls,… or change the category :
 
 ![jeelink.migration7](images/jeelink.migration7.png)
 
-In the * Orders * tab, you access all the parameters of the
+In the tab *Commandes*, you access all the parameters of the
 equipment controls :
 
 ![jeelink.migration8](images/jeelink.migration8.png)
@@ -303,7 +303,7 @@ Historical recovery
 -   Go to the configuration of the command (* Toothed wheel at
     right*).
 
--   Go to the tab * Advanced Configuration*.
+-   Go to the tab *Advanced configuration*.
 
 -   Click on the button * Copy the history of this order to a
     other order*.
@@ -323,9 +323,9 @@ Replacement of old slave equipment in Scenarios / virtual /…
 -   Go to the configuration of the command (* Toothed wheel at
     right*).
 
--   Go to the * Information tab*.
+-   Go to the tab *Informations*.
 
--   Click on the button * Replace this command with the command*.
+-   Click on the button *Replace this command by the command*.
 
 -   Find the corresponding order for the new JeeLink equipment
     correspondent and validate.
@@ -342,7 +342,7 @@ Retrieving advanced display configurations for commands
 -   Go to the configuration of the command (* Toothed wheel at
     right*).
 
--   Click on the button * apply to*.
+-   Click on the button *Apply to*.
 
 -   Find and select the corresponding command for the new
     corresponding JeeLink equipment and validate.

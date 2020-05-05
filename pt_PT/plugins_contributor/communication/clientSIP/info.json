@@ -1,0 +1,14 @@
+{
+	"id" : "clientSIP",
+	"name" : "Client SIP",
+   	"description" : "Connecter Jeedom a votre reseau SIP",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "communication",
+	"hasDependency" : true,
+ 	"hasOwnDeamon" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/clientSIP/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/clientSIP/#language#/changelog"
+}

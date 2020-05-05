@@ -1,0 +1,19 @@
+{
+	"id" : "alexadeezer",
+	"name" : "Alexa - Deezer",
+	"description" : "Interface Deezer",
+	"licence" : "AGPL",
+	"author" : "Sigalou",
+	"require" : "3.3.24",
+	"version": "0.0.1",
+	"changelog" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/65-alexa-api-changelog",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-alexadeezer",
+	"documentation" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/98-alexa-deezer-documentation",
+	"category" : "multimedia",
+  "hasDependency" : 0,
+  "hasOwnDeamon" : 0,
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
+	"maxDependancyInstallTime" : 0
+}
+

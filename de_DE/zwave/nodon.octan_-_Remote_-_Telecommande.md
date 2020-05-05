@@ -73,7 +73,7 @@ Technische Daten
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.01 Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen : 80\*80\*15mm
+-   Abmessungen : 80 \*80 \*15mm
 
 -   2 Jahre Garantie
 

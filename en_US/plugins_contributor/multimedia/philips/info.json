@@ -1,0 +1,12 @@
+{
+  "id" : "philips",
+  "name" : "philips",
+  "description" : "Plugin pour le pilotage des TV philips",
+  "licence" : "GPL",
+  "author" : "sbarre35",
+  "require": "3.0",
+  "hasDependency": true,
+  "category" : "multimedia",
+  "changelog" : "https://barre35.github.io/jeedom-plugin-philips/#language#/changelog",
+  "documentation" : "https://barre35.github.io/jeedom-plugin-philips/#language#/index"
+}

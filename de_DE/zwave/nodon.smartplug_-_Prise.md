@@ -72,7 +72,7 @@ Technische Daten
 
 -   Geltungsbereich: 40 m innen / 80 m außen
 
--   Dimensions: 104\*51\*36mm
+-   Dimensions: 104 \*51 \*36mm
 
 -   2 Jahre Garantie
 

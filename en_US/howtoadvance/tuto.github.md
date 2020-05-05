@@ -65,7 +65,7 @@ Editing one or more files
 ---------------------------------------
 
 In my case, I therefore want to push a modification on the file
-*history.class.php * This file is located in the core of jeedom and more
+*history.class.php* This file is located in the core of jeedom and more
 precisely here : core / class /
 
 1. So we are on my deposit (TaGGoU91 / core) which is indicated as
@@ -74,7 +74,7 @@ precisely here : core / class /
 2. So we go to / core / class (the first core is in bold, it's
     the repository where I am (core, see Small 1)
 
-3. So we have our * history.class file.php * - We click on the
+3. So we have our file *history.class.php* - We click on the
     fichier
 
 ![tuto.github5](images/tuto.github5.png)

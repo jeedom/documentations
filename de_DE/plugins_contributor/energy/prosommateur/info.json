@@ -1,0 +1,14 @@
+{
+	"id" : "prosommateur",
+	"name" : "Production Energie",
+	"description" : "L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aider en contrôlant les activations",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.3.32",
+	"category" : "energy",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/prosommateur/#language#",
+	"changelog" : "https://mika-nt28.github.io/Documentations/prosommateur/#language#/changelog",
+	"hasOwnDeamon" : true,
+	"display" : "panel"
+}

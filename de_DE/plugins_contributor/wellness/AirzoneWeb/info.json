@@ -1,0 +1,20 @@
+{
+	"id" : "AirzoneWeb",
+	"name" : "Airzone",
+	"description" : "Plugin pour l'integration des interfaces AirzoneWeb",
+	"licence" : "AGPL",
+	"author" : "Domotica Davinci",
+	"require" : "3.3",
+	"category" : "wellness",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"pluginVersion" : "1.1.1",
+	"changelog" : "https://github.com/domoticadavinci/Airzone_Web_plugin/commits/master",
+	"documentation" : "http://www.domoticadavinci.com/desarrollo-de-plugins/airzone-web-plugin-para-jeedom/",
+	"link" : {
+		"forum":"https://"
+	},
+	"language" : ["es_ES"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

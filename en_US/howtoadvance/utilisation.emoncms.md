@@ -35,7 +35,7 @@ With parameters :
 
 -   apikey : the api key of read & write for emoncms
 
--   value : you must leave * value * for Jeedom to send the
+-   value : we must leave *value* for Jeedom to send the
     value of info
 
 -   power : to modify for
