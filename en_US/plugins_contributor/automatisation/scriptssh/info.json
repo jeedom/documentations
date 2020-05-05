@@ -1,0 +1,14 @@
+{
+	"id" : "enphase",
+	"name" : "Enphase",
+	"description" : "Permet de se connecter à une passerelle Enphase",
+	"licence" : "AGPL",
+	"author" : "kahowane",
+	"require" : "3.0",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://github.com/kahowane/jeedom_enphase/commits/master",
+	"documentation" : "https://kahowane.github.io/jeedom_enphase"
+}

@@ -1,0 +1,20 @@
+{
+	"id" : "sequencing",
+	"name" : "Séquencement d'actions",
+	"description" : "Plugin pour gérer des actions séquencées",
+	"licence" : "AGPL",
+	"author" : "Agp42",
+	"require" : "3.2",
+	"category" : "automatisation",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://agp42.github.io/sequencing/#language#/changelog",
+	"documentation" : "https://agp42.github.io/sequencing/#language#/",
+	"link" : {
+    "forum":"",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy", "v4"]
+}

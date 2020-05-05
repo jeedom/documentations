@@ -1,0 +1,13 @@
+{
+	"id" : "speedtest",
+	"name" : "Speedtest",
+	"description" : "Plugin permettant de contrôler sa connexion internet",
+	"licence" : "AGPL",
+	"author" : "zyg0m4t1k",
+	"require" : "4.0",
+	"category" : "monitoring",
+	"hasDependency" : true,
+	"changelog" : "https://zyg0m4t1k.github.io/speedtest/#language#/changelog",
+	"documentation" : "https://zyg0m4t1k.github.io/speedtest/#language#/",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

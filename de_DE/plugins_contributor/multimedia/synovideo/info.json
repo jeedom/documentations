@@ -1,0 +1,17 @@
+{
+	"id" : "synovideo",
+	"name" : "Syno Video Station",
+    "version" : "10",
+	"description" : "Plugin pour Synology Video Station",
+	"licence" : "AGPL",
+	"author" : "nexus79000",
+	"require" : "3.3.25",
+	"category" : "multimedia",
+    "changelog" : "https://nexus79000.github.io/synovideo/#language#/changelog",
+	"documentation" : "https://nexus79000.github.io/synovideo/#language#/",
+    "language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"],
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"display":"panel"
+}

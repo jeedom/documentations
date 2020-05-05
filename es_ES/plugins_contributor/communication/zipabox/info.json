@@ -1,0 +1,11 @@
+{
+	"id" : "xee",
+	"name" : "Xee",
+	"description" : "Plugin pour Xee",
+	"licence" : "AGPL",
+	"author" : "Ludovic SARAKHA",
+	"require" : "2.3",
+	"category" : "travel",
+	"installation" : "Vérifiez bien que vous avez correctement configuré la partie Générale -> Administration -> Configuration puis reseaux, en effet il faut lors de l'association de Jeedom au compte Xee que votre Jeedom soit accessible de l'exterieur (ensuite cela n'est plus nécessaire)"
+	
+}

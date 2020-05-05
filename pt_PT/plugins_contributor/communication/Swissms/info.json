@@ -1,0 +1,12 @@
+{
+	"id" : "Swissms",
+	"name" : "Swiss SMS",
+	"licence" : "AGPL",
+	"author" : "zyg0m4t1k",
+	"require" : "3.3.24",
+	"category" : "communication",
+	"changelog" : "https://zyg0m4t1k.github.io/Swissms/#language#/changelog",
+	"documentation" : "https://zyg0m4t1k.github.io/Swissms/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]	
+}

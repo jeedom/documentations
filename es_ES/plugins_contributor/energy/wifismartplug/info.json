@@ -1,0 +1,11 @@
+{
+    "id": "wifismartplug",
+    "name" : "Wifi Smartplug",
+    "description" : "Plugin pour controller les équipements smartplug wifi TpLink",
+    "licence" : "AGPL",
+    "author" : "bobeponge14",
+    "require" : "2.4",
+    "category" : "energy"
+ 
+
+}

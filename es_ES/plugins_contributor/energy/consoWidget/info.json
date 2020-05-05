@@ -1,0 +1,18 @@
+{
+	"id" : "consoWidget",
+	"name" : "Suivi Conso Widget",
+	"version": "0.5",
+	"licence" : "AGPL",
+	"author" : "Thibaut Trarbach",
+	"require" : "3.2",
+	"category" : "energy",
+	"hasDependency" : 0,
+	"hasOwnDeamon" : 0,
+	"changelog" : "https://trmaud.github.io/SuiviConsoWidget/changelog",
+	"documentation" : "https://trmaud.github.io/SuiviConsoWidget/",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

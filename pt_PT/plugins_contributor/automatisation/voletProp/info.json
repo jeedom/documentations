@@ -1,0 +1,13 @@
+{
+	"id" : "voletProp",
+	"name" : "Volet proportionel",
+	"description" : "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "2.4",
+	"category" : "automatisation",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"hasOwnDeamon" : true,
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/voletProp/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/voletProp/#language#/changelog"
+}

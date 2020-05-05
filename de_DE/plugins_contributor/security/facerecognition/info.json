@@ -1,0 +1,16 @@
+{
+	"id" : "facerecognition",
+	"name" : "Reconnaissance facial",
+	"description" : "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre.Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "security",
+	"display" : "panel",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"maxDependancyInstallTime" : 14400,
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/facerecognition/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/facerecognition/#language#/changelog"
+}

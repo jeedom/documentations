@@ -1,0 +1,13 @@
+{
+	"id" : "sonybravia",
+	"name" : "Sony Bravia",
+	"description" : "Contrôle et monitoring des TV Sony bravia",
+	"licence" : "AGPL",
+	"author" : "Cédric GUINE",
+	"require" : "3.0",
+	"category" : "multimedia",
+	"hasDependency" : true,
+	"hasOwnDeamon" : 1,
+	"maxDependancyInstallTime" : 45,
+	"documentation" : "https://github.com/ticed35/jeedom-sony-bravia/blob/release/doc/fr_FR/index.asciidoc"
+}

@@ -47,12 +47,12 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
-- ajouter #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- ajouter #language#/Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
+- Add #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
+- Add #language#/ Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
 > **Note**
 >
-> You will understand when the user will ask to see your jeedom doc or the market will automatically replace # language # with the user's language to point to the correct language (if your documentation is not available in the language of the user then automatically it will return to French)
+> You will understand when the user will ask to see your jeedom doc or the market will automatically replace #language# by the user's language to point to the correct language (if your documentation is not available in the user's language then this will automatically return to French)
 
 ### Translation management
 

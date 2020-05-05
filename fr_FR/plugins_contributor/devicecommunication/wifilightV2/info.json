@@ -1,0 +1,20 @@
+{
+	"id" : "wifilightV2",
+	"name" : "wifilightV2",
+    "installation" : "Le plugin ne nécessite pas d'installation.",
+	"licence" : "AGPL",
+	"author" : "Bernard Caron",
+	"require" : "3.0",
+	"category" : "devicecommunication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	},
+	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}
+
+

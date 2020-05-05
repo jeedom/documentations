@@ -117,7 +117,7 @@ Para facilitar su tarea, puede descargar el software
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
         *Pi-Crust*, poner la ruta al archivo de imagen para restaurar
-        en el campo *Archivo IMG* de la sección *Pi-Ingredients*, et
+        En el campo *Archivo IMG* de la sección *Pi-Ingredients*, et
         Haga clic en *Restaurar copia de seguridad* para restaurar la imagen en el
         tarjeta microSD.
 

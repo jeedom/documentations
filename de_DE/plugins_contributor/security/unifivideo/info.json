@@ -1,0 +1,14 @@
+{
+	"id" : "ssaThermostat",
+	"name" : "Thermostat",
+	"description" : "Thermostat SSA",
+	"licence" : "AGPL",
+	"author" : "Stephane SAUTRON",
+	"require" : "3.0",
+	"category" : "Thermostat",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://stephdocs.github.io/jeedomThermostat/#changelog",
+	"documentation" : "https://stephdocs.github.io/jeedomThermostat/"
+}

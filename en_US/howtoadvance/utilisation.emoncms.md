@@ -27,7 +27,7 @@ we want to fill
 
 The url of push is of the form :
 
-[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
 
 With parameters :
 

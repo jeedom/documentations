@@ -27,7 +27,7 @@ queremos llenar
 
 La url de empuje es de la forma :
 
-[https://serveur/emoncms/input/post.json?json = {poder:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {poder:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {poder:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {poder:#value#}& apikey = xxx)
 
 Con parámetros :
 

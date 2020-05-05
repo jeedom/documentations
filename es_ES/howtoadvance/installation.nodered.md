@@ -77,13 +77,13 @@ node-red-node-snmp -g \# Weather sudo npm install
 node-red-node-Forecastio -g sudo npm install
 node-red-node-openweathermap -g sudo npm install
 node-red-node-weather-underground -g \# General GPIO sudo npm install
-node-red-contrib-gpio -g \# Electirc Imp sudo npm install imp-io -g \#
+nodo-rojo-contrib-gpio -g \# Electirc Imp sudo npm install imp-io -g \#
 Spark Core sudo npm install spark-io -g \# Arduino / Firmata sudo npm
 instalar firmata -g \# Pushover sudo npm instalar node-red-node-pushover
--g \# Notificar a mi Android sudo npm install node-red-node-nma -g \#
+-g \# Notify My Android sudo npm install node-red-node-nma -g \#
 Pushbullet sudo npm install node-red-node-pushbullet -g \# Prowl sudo
 npm install node-red-node-prowl -g \# XMPP sudo npm install
-nodo-rojo-nodo-xmpp -g \# IRC sudo npm instalar nodo-rojo-nodo-irc -g \#
+nodo-rojo-nodo-xmpp -g \# IRC sudo npm install node-red-node-irc -g \#
 Slack sudo npm install node-red-contrib-slack -g \# Pusher sudo npm
 install node-red-node-pusher -g \# Almacenamiento sudo npm install
 node-red-node-dropbox -g sudo npm install node-red-node-flickr -g sudo
@@ -96,23 +96,23 @@ node-red-contrib-eibd -g \# OpenZwave sudo npm install
 node-red-contrib-openzwave -g \# RFXcom sudo npm install
 node-red-contrib-rfxcom -g \# OWFS sudo npm install
 node-red-contrib-owfs -g \# Nest sudo npm install node-red-contrib-nest
--g \# Hue sudo npm install node-red-contrib-hue -g \# Spark-Core sudo
+-g \# Hue sudo npm install node-red-contrib-hue -g \# Sudo Spark-Core
 npm install node-red-contrib-sparkcore -g \# Wemo sudo npm install
 node-red-node-wemo -g \# Zibase sudo npm install node-red-contrib-zibase
 -g \# SensorTag sudo npm install node-red-node-sensortag -g \#
 Blinkstick sudo npm install node-red-node-blinkstick -g \# Blink1 sudo
 npm install node-red-node-blink1 -g \# Tellstick * sudo npm install
-node-red-contrib-tellstick -g \# PiTFT \#sudo npm install
-node-red-contrib-pitft-touch -g \# Pibrella \#sudo npm install
-nodo-rojo-nodo-pibrella -g \#sudo apt-get -y instalar python-rpi.gpio \#
-PiBord \#sudo npm install node-red-node-ledborg -g \# Sensors \#sudo npm
+nodo-rojo-contrib-tellstick -g \# PiTFT \#sudo npm install
+nodo-rojo-contrib-pitft-touch -g \# Pibrella \#sudo npm install
+nodo-nodo-rojo-pibrella -g \#sudo apt-get -y install python-rpi.gpio \#
+PiBord \#sudo npm install node-red-node-ledborg -g \# Sensores \#sudo npm
 instalar node-red-contrib-bmp085 -g \#sudo npm install
 node-red-contrib-ds18b20-sensor -g \#sudo npm install
-node-red-contrib-dht-sensor -g \# GPIO \# HummingBoard \#sudo npm
+nodo-red-contrib-dht-sensor -g \# GPIO \# HummingBoard \#sudo npm
 instalar nodo-nodo-rojo-hbgpio -g \#sudo cp
 nodo\_módulos / nodo-nodo-rojo-hbgpio / gpiohb / usr / local / bin / \#sudo chmod
 4755 / usr / lcoal / bin / gpiohb \# Raspberry Pi \#sudo npm install raspi-io
--g \# * BeagleBone Black \#sudo npm install beaglebone-io -g \#
-Galileo / Edison \#sudo npm install galileo-io -g \# Blend Micro \#sudo
+-g \#* BeagleBone Black \#sudo npm install beaglebone-io -g \#
+Galileo / Edison \#sudo npm install galileo-io -g \# Mezcla Micro \#sudo
 npm install blend-micro-io -g \# LightBlue Bean \#sudo npm install
 bean-io -g

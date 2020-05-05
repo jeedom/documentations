@@ -1,0 +1,13 @@
+{
+	"id" : "ssaTask",
+	"name" : "ssaTask",
+	"licence" : "AGPL",
+	"author" : "Stephane SAUTRON",
+	"require" : "3.0",
+	"category" : "organisation",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://stephdocs.github.io/jeedomTask/#changelog",
+	"documentation" : "https://stephdocs.github.io/jeedomTask/"
+}

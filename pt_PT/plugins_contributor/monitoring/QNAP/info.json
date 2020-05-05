@@ -1,0 +1,12 @@
+{
+	"id" : "QNAP",
+	"name" : "QNAP",
+	"description" : "Plugin pour la supervision de NAS QNAP",
+	"licence" : "AGPL",
+	"author" : "Tux1c0",
+	"require" : "3.3",
+	"category" : "monitoring",
+	"hasDependency" : true,
+	"changelog" : "https://tux1c0.github.io/plugin-qnap/#language#/",
+	"documentation" : "https://tux1c0.github.io/plugin-qnap/#language#/"
+}

@@ -1,0 +1,14 @@
+{
+	"id" : "traccar",
+	"name" : "Traccar",
+	"description" : "Ce plugin permet d'interfacer un serveur Traccar avec le plugin Geoloc de Jeedom",
+	"licence" : "AGPL",
+	"author" : "Damien alias Dough <dough29@gmail.com>",
+	"require" : "3.1",
+	"category" : "organization",
+	"hasDependency" : 0,
+	"hasOwnDeamon" : 0,
+	"language" : ["fr_FR"],
+	"changelog" : "http://dough29.github.io/Jeedom-Traccar/fr_FR/changelog",
+	"documentation" : "http://dough29.github.io/Jeedom-Traccar/fr_FR/"
+}

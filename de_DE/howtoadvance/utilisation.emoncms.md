@@ -27,7 +27,7 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}&apikey=xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\.#value\.#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
 
 Mit Parametern :
 
@@ -49,7 +49,7 @@ Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten
 -   Die erste besteht darin, Informationen über das Skript-Plugin in Jeedom zu erstellen
     und verwenden Sie die API-URL des Feeds. Diese Methode erfordert eine Wiederherstellung
     der Wert regelmäßig oder über Szenario zum Beispiel und normal
-    nicht nützlich, da die Daten ihre Quelle in jeedom\_setting haben
+    nicht nützlich, da die Daten ihre Quelle in jeedom\._setting haben
 
         https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
 
@@ -98,8 +98,8 @@ Special Conf brauchen ein klassisches Repertoire
            index index.php;
             try_files = $ uri $ uri / @missing;
 
-       Ort ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
+       Ort ~ [^ /] \..php(/|$) {
+               fastcgi_split_path_info ^ (. +?\..php)(/.*)$;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

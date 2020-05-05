@@ -1,0 +1,21 @@
+{
+	"id" : "unifi",
+	"name" : "Ubiquiti Unifi",
+	"description" : "Ubiquiti Unifi - Connexion à un controleur\nListe des Devices\nListe des Clients + bloquer et débloquer",
+	"usage" : "Si votre équipement est dans votre controleur Unifi mais ne semble pas supporté (à part VOIP) contactez moi je l'ajouterai.",
+	"licence" : "AGPL",
+	"author" : "Nebz",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"require" : "3.3.24",
+	"category" : "monitoring",
+	"issue" : "https://github.com/NebzHB/plugin-unifi/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/#language#/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/#language#/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-unifi"
+	},
+	"languages" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

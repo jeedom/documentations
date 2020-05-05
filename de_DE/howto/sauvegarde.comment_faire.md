@@ -117,7 +117,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
     -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust*, Geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
-        auf dem Feld *IMG-Datei* des Abschnitts *Pi-Ingredients*, et
+        Auf dem Feld *IMG-Datei* des Abschnitts *Pi-Ingredients*, et
         Klicken Sie auf *Backup wiederherstellen* um das Bild auf dem wiederherzustellen
         microSD-Karte.
 

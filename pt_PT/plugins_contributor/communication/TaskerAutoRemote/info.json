@@ -1,0 +1,19 @@
+{
+	"id" : "TaskerAutoRemote",
+	"name" : "TaskerAutoRemote",
+	"description" : "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote",
+	"licence" : "AGPL",
+	"author" : "AgP42",
+	"require" : "3.2",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://agp42.github.io/Jeedom-TaskerAutoremote/#language#/changelog",
+	"documentation" : "https://agp42.github.io/Jeedom-TaskerAutoremote/#language#",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-tiers-sujet-principal-plugin-taskerautoremote/4058"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

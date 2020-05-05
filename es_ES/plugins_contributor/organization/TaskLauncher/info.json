@@ -1,0 +1,11 @@
+{
+	"id" : "TaskLauncher",
+	"name" : "Task Launcher",
+	"licence" : "AGPL",
+	"author" : "zyg0m4t1k",
+	"require" : "3.3.24",
+	"category" : "organization",
+	"mobile" : "task",
+	"changelog" : "https://zyg0m4t1k.github.io/TaskLauncher/#language#/changelog",
+	"documentation" : "https://zyg0m4t1k.github.io/TaskLauncher/#language#/"
+}

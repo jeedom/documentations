@@ -52,7 +52,7 @@ Here we will create a new widget based on the "tmplmultistate" template (you hav
 
 Then since it is a template with several states you have to define the icons according to the state. It is done in the test part of the table.
 
-Example : for the first test we say if the value of the command is worth 2 then we will have to replace the tag #\_ state_ # (in the html code of the template) by </i>
+Example : for the first test we say if the value of the command is worth 2 then we will have to replace the tag #\_state_# (in the html code of the template) by </i>
 
 Another example based on another template could be :
 

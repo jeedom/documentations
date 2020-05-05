@@ -117,7 +117,7 @@ To make your task easier, you can download the software
 
     -   With ApplePi-Baker : Select the correct card from the list
         *Pi-Crust*, put the path to the Picture file to restore
-        in the field *IMG file* of the section *Pi-Ingredients*, et
+        In the field *IMG file* of the section *Pi-Ingredients*, et
         Click on *Restore Backup* in order to restore the Picture on the
         microSD card.
 

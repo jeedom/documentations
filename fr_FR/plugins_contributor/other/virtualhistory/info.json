@@ -1,0 +1,8 @@
+{
+	"id" : "vigilancemeteo",
+	"name" : "Vigilance Météo",
+	"licence" : "AGPL",
+	"author" : "lunarok",
+	"require" : "2.4",
+	"category" : "weather"
+}

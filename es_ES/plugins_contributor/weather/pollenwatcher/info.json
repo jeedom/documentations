@@ -1,0 +1,11 @@
+{
+	"id" : "pollenwatcher",
+	"name" : "Surveillance Pollens",
+	"licence" : "AGPL",
+	"author" : "Gr3g0rY",
+	"require" : "3.2",
+	"category" : "weather",
+	"hasDependency" : 0,
+	"hasOwnDeamon" : 0
+}
+
