@@ -1,4 +1,4 @@
-Mando a distancia Mediodía - Octan 
+Mando a distancia Nodon - Octan 
 ==========================
 
 \

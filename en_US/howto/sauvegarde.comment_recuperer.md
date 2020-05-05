@@ -46,7 +46,7 @@ Jeedom backup directory.
 -   Apache Server (Jeedom Smart Box) : / var / www / html / backup
 
 -   Nginx Server (Jeedom Mini + Box) :
-    / usr / share / nginx / www / Jeedom / backup
+    / usr / share / nginx / www / jeedom / backup
 
 The path is displayed in the remote site section.
 

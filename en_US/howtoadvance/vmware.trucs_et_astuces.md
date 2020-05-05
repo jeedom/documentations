@@ -30,7 +30,7 @@ VMware. This allows for example to put virtual machines on the
 Synology (which may have more space than the ESXi) or send the
 machine backups on Synology
 
-Synology Setup 
+Synology configuration 
 -------------------------
 
 You have to go to the control panel then "Services de
@@ -56,7 +56,7 @@ We must then recover the share path (here / volume2 / Backup) :
 
 Here it is finished on the Synology side, we will now switch to the ESXi side
 
-ESXi Setup 
+ESXi configuration 
 -----------------------
 
 Go to "Storage" :
@@ -93,7 +93,7 @@ NFS mounts (for an explanation, see
 [here](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 To see if you have it, you have to connect with the thick client
-(I did not find the info on the web client) and go to Setup →
+(I did not find the info on the web client) and go to configuration →
 storage :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
@@ -111,7 +111,7 @@ You must have :
 ![vmware.tips14](images/vmware.tips14.PNG)
 
 You must then restart the ESXi, to verify that it is ok you must
-then return with the thick client to Setup → storage :
+then return with the thick client to configuration → storage :
 
 ![vmware.tips15](images/vmware.tips15.PNG)
 
@@ -149,7 +149,7 @@ then click on the link "Download vSphere Client for Windows" :
 Once downloaded you just have to start the installation (I pass
 voluntarily on this part because it is enough to validate everything).
 
-Then launch Vmware vSphere Client, you should have :
+Then launch VMware vSphere Client, you should have :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -163,9 +163,9 @@ ESXi update
 
 The procedure is quite easy, you must first recover the patch
 going [here](https://my.vmware.com/group/vmware/patch#search) (il
-you will probably have to log in with your Vmware account). On the
+you will probably have to log in with your VMware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
-face leave the latest version of Vmware and do "Search". Then
+face leave the latest version of VMware and do "Search". Then
 download the desired patch (usually the last one). The build number (the
 first issue not the one starting with KB) gives you the version of the
 patch that you can compare with your build number.
@@ -190,7 +190,7 @@ be careful this can be downgrade) by doing :
 
     esxcli software vib install -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-NTP Setup 
+NTP configuration 
 ====================
 
 By default the ESXi does not use NTP so that it is not at
@@ -268,7 +268,7 @@ bon.
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
-> if you go through Vmware Remote Console everything should be ok (this
+> if you go through VMware Remote Console everything should be ok (this
 > goes through port 902)
 
 > **Note**

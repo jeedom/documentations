@@ -78,7 +78,7 @@ Functions
 -   Possibility of assigning it a number and a color in order to
     differentiate between the different PowerNodes of the same installation
 
--   We / Off button directly on the socket
+-   On / Off button directly on the socket
 
 -   Overcurrent protection
 
@@ -202,7 +202,7 @@ in one button.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

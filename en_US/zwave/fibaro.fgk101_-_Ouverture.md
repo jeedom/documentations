@@ -43,7 +43,7 @@ connect its screw inputs to any detector (normally closed) of your
 choice such as smoke, gas or carbon monoxide detector,
 etc.
 
-A Z-Wave controller (remote control, dongle, Etc..) is required in order to
+A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
 existant.
 
@@ -78,7 +78,7 @@ Technical characteristics
 
 \
 
--   Type of Module : Z-Wave transmitter
+-   Type of module : Z-Wave transmitter
 
 -   Color : White (FGK-101/102/103/104/105/106/107 depending on color)
 
@@ -124,8 +124,8 @@ inclusion refer to this
 
 > **Important**
 >
-> To put this Module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> To put this module in inclusion mode, press the button 3 times
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -145,7 +145,7 @@ Once included you should get this :
 
 \
 
-Once the Module has been recognized, the commands associated with the Module will be
+Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
 \
@@ -170,20 +170,20 @@ You can hide or show these commands as you wish.
 
 \
 
-### Setup of the Module 
+### Configuration of the module 
 
 \
 
 > **Important**
 >
-> During a first inclusion always wake up the Module just after
+> During a first inclusion always wake up the module just after
 > inclusion.
 
 \
 
-Then if you want to configure the Module according to
+Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -239,7 +239,7 @@ Parameter details :
 
 \
 
-This Module has three association groups, only the third is
+This module has three association groups, only the third is
 indispensable.
 
 \
@@ -259,7 +259,7 @@ Good to know
 
 > **Tip**
 >
-> This Module is very finicky on wakeup and requires a very
+> This module is very finicky on wakeup and requires a very
 > strong proximity to the controller when included
 
 \
@@ -277,7 +277,7 @@ Wakeup
 
 \
 
-To wake up this Module there is only one way :
+To wake up this module there is only one way :
 
 -   press the inclusion button 3/4 times. It may be necessary
     to do it several times in a row (2 or 3)
@@ -289,29 +289,29 @@ Faq.
 
 \
 
-This Module wakes up by pressing 3 times on one of the tamper buttons. But
+This module wakes up by pressing 3 times on one of the tamper buttons. But
 the other tamper button must be pressed.
 
 \
 
-This Module has a very low range. It is advisable to do
+This module has a very low range. It is advisable to do
 inclusion closest to your box.
 
 \
 
-This Module is a battery module, the new configuration will be
+This module is a battery module, the new configuration will be
 taken into account at the next wakeup.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \
 
 > **Important**
 >
-> You have to wake up the Module : after its inclusion, after a change
+> You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 

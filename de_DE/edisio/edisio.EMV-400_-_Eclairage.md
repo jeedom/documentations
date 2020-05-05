@@ -229,7 +229,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Die Statusrückmeldung wird von Jeedom simuliert. Deshalb, wenn Sie
-> Wenn Sie einen anderen Sender verwenden, kann Jeedom den STATUS nicht aktualisieren
+> Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
 Information 
@@ -247,7 +247,7 @@ verfügbar :
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================

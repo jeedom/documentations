@@ -1,4 +1,4 @@
-| Name                     | NOTE                | Link                     |
+| Name                     | Note                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | Android IP webcam       |                         |                          |
 | Alcatel video door entry unit   |                         |                          |

@@ -238,7 +238,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos \
+    segundos. \
 
 ### Visual alternativo 
 

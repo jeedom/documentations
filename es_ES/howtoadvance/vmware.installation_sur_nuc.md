@@ -7,7 +7,7 @@ El material
 Intel NUC 
 ---------
 
-Intel NUC es una PC pequeña, no el más potente, pero muy económica
+Intel NUC es una PC pequeña, no la más potente, pero muy económica
 energía y pequeñas dimensiones. Esto lo convierte en un mesero perfecto
 virtualización basada en VMware.
 
@@ -79,7 +79,7 @@ este 40GB para VMware se llena rápidamente.
 Memoria 
 -------
 
-Atención a el memoria es absolutamente necesario DDR4 en So-DIMM 260
+Atención a la memoria es absolutamente necesario DDR4 en So-DIMM 260
 pines, necesitas al menos 4 GB para VMware, pero por experiencia te digo
 aconsejar al menos 8 GB (personalmente incluso monté hasta 16 GB,
 NUC admite un máximo de 32 GB). Allí, no se recomienda memoria, el
@@ -95,10 +95,10 @@ barras, esto mejora el rendimiento) :
 -   [Crucial SO-DIMM DDR4 32 GB (2 x 16 GB) 2133 MHz CL15 DR
     X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
-Preparación de el instalación 
+Preparación de la instalación 
 =============================
 
-Antes de iniciar el instalación en sí, primero tendremos que
+Antes de iniciar la instalación en sí, primero tendremos que
 recuperar VMware y ponerlo en una llave USB.
 
 Descarga de VMware 
@@ -106,7 +106,7 @@ Descarga de VMware
 
 > **Important**
 >
-> Si pones vmware 6.5, hay un problema con el nueva administración
+> Si pones vmware 6.5, hay un problema con la nueva administración
 > USB y llaves Zwave, para que esto funcione debes aplicar esto
 > [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Atención, esta manipulación ya no se debe hacer en vmware 6.7
 
@@ -145,7 +145,7 @@ Ahí es mucho más simple solo tienes que hacer clic
 [el](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Entonces necesitas
 lanzar el .exe
 
-Creación de el llave USB de arranque 
+Creación de la llave USB de arranque 
 --------------------------------
 
 Aquí también es fácil, así es como configurar rufus :
@@ -171,7 +171,7 @@ La caja NUC :
 
 ![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
 
-Apertura de elel :
+Apertura de ella :
 
 ![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
 
@@ -186,7 +186,7 @@ el NUC:
 
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
-El SSD instalado (a el izquierda), el tornillo final para bloquearlo es un
+El SSD instalado (a la izquierda), el tornillo final para bloquearlo es un
 difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
@@ -196,24 +196,24 @@ Instalación de memoria (derecha) :
 ![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
 Y ahí estás, puedes cerrar (a menos que, por supuesto, hayas tomado un
-SSD 2.5 pulgadas que se deben insertar en el cubierta en este caso).
+SSD 2.5 pulgadas que se deben insertar en la cubierta en este caso).
 
 Instalación de VMware 
 ======================
 
-Ahí es muy simple, solo coloque el llave USB en uno de los puertos
-NUC USB, conecte una pantalel al puerto HDMI, un teclado y
-comida Enciende el NUC, el instalación comenzará
+Ahí es muy simple, solo coloque la llave USB en uno de los puertos
+NUC USB, conecte una pantalla al puerto HDMI, un teclado y
+comida Enciende el NUC, la instalación comenzará
 solo :
 
 ![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
 
 > **Note**
 >
-> Olvidé capturar el validación de el licencia,
+> Olvidé capturar la validación de la licencia,
 > solo acepta seguir las instrucciones
 
-Aquí seleccione el disco correspondiente a el SSD (puede
+Aquí seleccione el disco correspondiente a la SSD (puede
 identificar ya sea por nombre o por tamaño)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
@@ -232,7 +232,7 @@ Confirme presionando F11 :
 ![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
 
 La instalación tomará entre 10 y 20 minutos, luego deberá quitar
-el llave USB y espere a que se reinicie el sistema
+la llave USB y espere a que se reinicie el sistema
 
 ![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
 
@@ -245,7 +245,7 @@ más que jugar con !!!
 
 Por lo demás aquí hay un
 [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html)
-para el creación de tu primera VM. Y encontrarás
+para la creación de tu primera VM. Y encontrarás
 [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 Un tutorial de consejos y trucos (por ejemplo, para poner su licencia
 VMware)

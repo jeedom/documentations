@@ -4,7 +4,7 @@
 
 >**IMPORTANT**
 
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Markt einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=communication) Alle offiziellen Plugins in dieser Kategorie
 
 | | | | |
@@ -28,7 +28,7 @@
 |<img src="philipsHue/philipsHue_icon.png" class="pluginLogo" width="100" />|Philips Hue|Plugin zur Steuerung von Philips Hue-Lampen.<br/>Verfügbare Funktionen:<br/>- Ein / Aus<br/>- Luminosité<br/>- Transition<br/>- Groupe<br/>- Couleur<br/>- Alarmmodus<br/>- Regenbogenmodus<br/><br/>Achtung : Es gibt eine leichte bekannte Farbverschiebung zwischen dem Wahlschalter und der Farbe der Glühbirne. Es scheint, dass das Farbraster der Glühbirnen einen Versatz hat|[Dokumentation](philipsHue/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=190)|
 |<img src="phonemarket/phonemarket_icon.png" class="pluginLogo" width="100" />|Telefonmarkt|Plugin, um den Markt als SMS-Gateway zu nutzen und Anrufe zu tätigen|[Dokumentation](phonemarket/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1694)|
 |<img src="sarah/sarah_icon.png" class="pluginLogo" width="100" />|Sarah|Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)|[Dokumentation](sarah/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=17)|
-|<img src="slack/slack_icon.png" class="pluginLogo" width="100" />|Slack|Plugin, um Jeedom mit Schlaff zu verbinden|[Dokumentation](slack/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1689)|
+|<img src="slack/slack_icon.png" class="pluginLogo" width="100" />|Slack|Plugin, um Jeedom mit Slack zu verbinden|[Dokumentation](slack/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1689)|
 |<img src="sms/sms_icon.png" class="pluginLogo" width="100" />|SMS|Plugin zum Hinzufügen der Verwaltung (Senden / Empfangen) von SMS zu Jeedom.Mit diesem Plugin können Sie per SMS benachrichtigt werden, über die Interaction Engine eine Frage stellen oder eine Aktion per SMS auslösen.(Benötigt einen 3G-Schlüssel und eine SIM-Karte).|[Dokumentation](sms/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=16)|
 |<img src="wifip/wifip_icon.png" class="pluginLogo" width="100" />|Wifip|Plugin, um das WLAN Ihrer Box zu verwalten und die IP zu reparieren|[Dokumentation](wifip/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2286)|
 |<img src="wifipower/wifipower_icon.png" class="pluginLogo" width="100" />|Wifipower|Plugin für die Verwaltung von Wifipower-Geräten|[Dokumentation](wifipower/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1046)|

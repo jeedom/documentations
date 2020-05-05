@@ -24,7 +24,7 @@ Resumen
 
 \
 
-La regleta de alimentación Greenwave PowerNode es un dispositivo inteligente que
+La regleta de alimentación GreenWave PowerNode es un dispositivo inteligente que
 se conecta a sus electrodomésticos y productos electrónicos para usted
 le permite monitorear y controlar el consumo eléctrico de su
 dispositivos de forma remota a través del navegador web o teléfono inteligente. Utilizando
@@ -125,7 +125,7 @@ Datos del módulo
 
 -   Hacer : GreenWave
 
--   Nombre : Greenwave \ [6 x tomas \]
+-   Nombre : GreenWave \ [6 x tomas \]
 
 -   ID del fabricante : 153
 

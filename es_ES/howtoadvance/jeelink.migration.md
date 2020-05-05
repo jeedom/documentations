@@ -45,7 +45,7 @@ Preparación antes de la migración
 > **l'Esclave** Hacia **el maestro**. Con el nuevo modo también es
 > posible tener múltiples **Jeedom Targets** por lo mismo **Jeedom
 > Source**. La comunicación entre Jeedoms ahora también puede
-> hacerse de forma remota a través de Interny (Jeedom DNS u otro).
+> hacerse de forma remota a través de Internet (Jeedom DNS u otro).
 > \
 
 ![jeelink.migration9](images/jeelink.migration9.png)
@@ -144,7 +144,7 @@ Instalación de **Fuente de la libertad** :
 > Nueva SD / microSD. Esto te permitirá retroceder
 > fácilmente si es necesario.
 
--   Instale un nuevo Jeedom en una nueva tarjeta SD (Ly it be
+-   Instale un nuevo Jeedom en una nueva tarjeta SD (Let it be
     poner en tu **Jeedom Slave** existente o para un
     nueva Raspberry Pi) siguiendo la [documentación
     d'installation](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
@@ -161,7 +161,7 @@ Configuración de fuente de Jeedom
 -   Cambie la contraseña del usuario administrador o / y configure un
     nuevo usuario.
 
--   Configure su cuenta de Jeedom Marky (* Configuración ⇒ Actualizaciones
+-   Configure su cuenta de Jeedom Market (* Configuración ⇒ Actualizaciones
     y archivos ⇒ pestaña "Mercado" *). Haga clic en prueba después
     guardado, para validar la entrada de sus identificadores
     Mercado de la libertad).

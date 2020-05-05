@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Das PowerNode-Steckermodul von Grünwelle ist ein intelligentes Gerät, das
+Das PowerNode-Steckermodul von GreenWave ist ein intelligentes Gerät, das
 verbindet sich mit einem Ihrer Haushaltsgeräte und Elektronik zu
 Mit dieser Funktion können Sie den Stromverbrauch bei überwachen und steuern
 Entfernung über Webbrowser oder Smartphone.
@@ -126,7 +126,7 @@ Moduldaten
 
 -   Machen Sie : GreenWave
 
--   Name : Grünwelle \ [1 x Stecker \]
+-   Name : GreenWave \ [1 x Stecker \]
 
 -   Hersteller ID : 153
 

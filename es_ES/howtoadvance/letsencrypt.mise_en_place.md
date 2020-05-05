@@ -44,7 +44,7 @@ Activación del módulo virtualHost y SSL
 > LetsEncrypt no emitirá ningún certificado mientras su sitio
 > en HTTPS no será accesible desde el exterior.
 
-    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.dominio com -d.com
+    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d domaine.com
 
 Necesita reemplazar la configuración <email@domaine.com> y domaine.com
 por tus valores. Normalmente los parámetros para agregar el protocolo HTTPS
@@ -73,7 +73,7 @@ Configuración de Nginx
 Este comando solo se debe usar si tiene un servidor web
 Nginx.
 
-    ./ letsencrypt-auto certonly - correo electrónico correo electrónico @ dominio.dominio com -d.com -a webroot --webroot-path / usr / share / nginx / www /
+    ./ letsencrypt-auto certonly - correo electrónico correo electrónico @ dominio.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
 
 Debe reemplazar los parámetros de correo electrónico y dominio con sus valores,
 así como la ruta a la raíz del servidor. Debes agregar el
@@ -88,11 +88,11 @@ Agregue las siguientes líneas, entre las líneas `server {` y
 
     escuchar 443 ssl;
 
-    ssl_ _certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
+    ssl_certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
 
-    ssl_ _certificate_ _key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
+    ssl_certificate_key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
 
-    ssl_ _session_ _timeout 5m;
+    ssl_session_timeout 5m;
 
 Y finalmente reinicie el servidor Nginx.
 
@@ -167,7 +167,7 @@ pasos a seguir :
 >
 > Para entender la planificación 0 5 \* \* 1, mira aquí y
 > ajústelo a sus necesidades si es necesario :
-> <https://crontab.guru/#0_ _5_ _*_ _*_ _1>
+> <https://crontab.guru/#0_ _5_ _*_ _*_1>
 
 -   Guarde el archivo y luego salga del editor de texto
     copia de seguridad :

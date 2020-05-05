@@ -3,10 +3,10 @@ Useful packages
 
 Here are some useful packages to put on a blank installation :
 
--   **fail2ban** : Allows yor to ban IPs who try to connect
+-   **fail2ban** : Allows you to ban IPs who try to connect
     machine.
 
--   **vim** : It's a command line text editor, yor can
+-   **vim** : It's a command line text editor, you can
     also replace it with nano or many others.
 
 -   **net-tools** : collection of programs to manage the network
@@ -17,7 +17,7 @@ Here are some useful packages to put on a blank installation :
 
     apt-get install -y vim fail2ban net-tools dos2unix
 
-If yor are on VMware, yor can add additional tools
+If you are on VMware, you can add additional tools
 :
 
     apt-get install -y open-vm-tools
@@ -25,7 +25,7 @@ If yor are on VMware, yor can add additional tools
 Colorize the console 
 ====================
 
-If yor want your console (bash) to use colors :
+If you want your console (bash) to use colors :
 
     rm -rf /root/.bashrc
     wget https://raw.githubusercontent.com / jeedom / core / stable / install / bashrc -O /root/.bashrc
@@ -60,7 +60,7 @@ Create the mount point :
 
 > **Note**
 >
-> Yor have to adapt my share according to your needs
+> You have to adapt my share according to your needs
 
 Added mount in / etc / fstab
 
@@ -68,7 +68,7 @@ Added mount in / etc / fstab
 
 > **Note**
 >
-> Yor must change the TODOs with your linux username and your
+> You must change the TODOs with your linux username and your
 > Password
 
 Transition from Jessie to Stretch 
@@ -76,7 +76,7 @@ Transition from Jessie to Stretch
 
 For having tested the upgrade and the Stretch installation with restoration
 a backup, I confirm that the installation of Stretch by
-overwriting will save yor time.
+overwriting will save you time.
 
 -   **Method 1 : Stretch installation :** 1 to 2 hours maximum, and
     especially a clean operating system.
@@ -87,7 +87,7 @@ overwriting will save yor time.
 Method 1 : Installation of Stretch and backup restore 
 -----------------------------------------------------------------
 
-Before yor start, make a full backup via Jeedom of your
+Before you start, make a full backup via Jeedom of your
 installation under Jessie, then export the backup to another
 storage medium.
 
@@ -107,7 +107,7 @@ storage medium.
     <https://github.com/jeedom/documentation/blob/master/installation/en_US/other.asciidoc>
 
 \ [ATTENTION \] MariaDB no longer allows access to the 'root' profile, which
-can block the restoration of a database that yor have
+can block the restoration of a database that you have
 changed the name (like me) so we don't immediately restore the
 backup. If the user 'jeedom' does not have the correct permissions, the
 restoration will fail.
@@ -142,10 +142,10 @@ MYSQL, under Stretch :
 
 > **Tip**
 >
-> Yor will find the password for the MYSQL jeedom user here :
+> You will find the password for the MYSQL jeedom user here :
 > Administration → Configuration → OS / DB → Database
 
-It's up to yor to adapt this command according to your configuration
+It's up to you to adapt this command according to your configuration
 previous :
 
     GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
@@ -213,7 +213,7 @@ Removal of unnecessary libraries
     apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y remove `aptitude -F% p search '~ o'`----
 
-NOTE : If when yor open your Jeedom page yor get a php code, activate it by running the following commands :
+NOTE : If when you open your Jeedom page you get a php code, activate it by running the following commands :
 
     a2enmod php7.0 
     systemctl restart apache2.service

@@ -105,7 +105,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press the two
 > button (+ and 0 full) until the light turns pink then
-> press the + button, in accordance with its paper Documentation.
+> press the + button, in accordance with its paper documentation.
 
 \
 
@@ -157,7 +157,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -170,7 +170,7 @@ Here is the list of commands :
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -194,7 +194,7 @@ Parameter details :
 -   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
--   3 : IMPORTANT parameter to say if the switch should work
+-   3 : Important parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
 -   4-7 : Choose the button operating mode (in case
@@ -264,7 +264,7 @@ take into account that if you wake up the remote control.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

@@ -26,7 +26,7 @@ Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail mit einem Code f
 
 > **Important**
 >
-> Wenn Sie ein Service Pack auf dem Jeedom Markt kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
+> Wenn Sie ein Service Pack auf dem Jeedom Market kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
 Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
 
@@ -205,7 +205,7 @@ Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, könn
 
     -   entweder indem Sie zu Ihrem Profil gehen, dann in den Abschnitt **Tickets**, Verwenden Sie die Schaltfläche "Supportanfrage öffnen".
 
-![Unterstützunganfrage](images/FirstStep_support.jpg)
+![Supportanfrage](images/FirstStep_support.jpg)
 
 Alle weiteren Austausche erfolgen per E-Mail.
 

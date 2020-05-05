@@ -11,7 +11,7 @@ Zusammenfassung
 
 Mit dem Mikromodul EMV-400 können Sie einen Motor verwalten
 bidirektionale oder elektrische Geräte. Es ermöglicht die Kontrolle
-2 Start / Stopp-Ausgänge oder ein Open / STOP / Close-Verschluss.
+2 Start / Stopp-Ausgänge oder ein Open / Stop / Close-Verschluss.
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 steuerbar über Markenschalter und / oder Fernbedienungen
@@ -210,7 +210,7 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Dies ist der Befehl, der die Rückkehr des STATUS simuliert
+-   Zustand : Dies ist der Befehl, der die Rückkehr des Status simuliert
 
 -   Geh hoch : Dies ist der Befehl, der den Verschluss öffnet
 
@@ -223,7 +223,7 @@ Hier ist die Liste der Befehle :
 > **Important**
 >
 > Die Statusrückmeldung wird von Jeedom simuliert. Deshalb, wenn Sie
-> Wenn Sie einen anderen Sender verwenden, kann Jeedom den STATUS nicht aktualisieren
+> Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
 Information 
@@ -241,7 +241,7 @@ verfügbar :
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================

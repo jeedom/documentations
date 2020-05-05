@@ -16,7 +16,7 @@ VMware                  | Stabil                  | Keine Unterstützung für VM
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
-- Jeedom SMART (alles ist vorinstalliert, Sie müssen nichts tun)
+- Jeedom Smart (alles ist vorinstalliert, Sie müssen nichts tun)
 - Odroid C2 (bestes Leistungs- / Preisverhältnis)
 - Intel Nuc gen (extreme Leistung, siehe Tutorial-Kategorie für die Auswahl in verschiedenen Modellen und Installation)
 - RPI4

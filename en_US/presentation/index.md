@@ -57,7 +57,7 @@ The Core includes among others :
 
 ## Update center
 
-*The update center allows you to update all of Jeedom's functionality, including the core software and its Plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
+*The update center allows you to update all of Jeedom's functionality, including the core software and its plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
@@ -74,9 +74,9 @@ Around this core are plugins, which can be of all kinds :
 -   Organization (calendar, Google calendar),
 -   Development (script).
 
-These Plugins can be installed from the Market and allow you to extend the possibilities of Jeedom.
+These plugins can be installed from the Market and allow you to extend the possibilities of Jeedom.
 
 ![Page Market](images/doc-presentation-market.jpg)
 
-Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm Plugins with any home automation protocol or even an IP plugin or communicating object ...
+Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object ...
 

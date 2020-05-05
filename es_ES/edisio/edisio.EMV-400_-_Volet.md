@@ -11,7 +11,7 @@ Resumen
 
 El micromódulo EMV-400 le permitirá administrar un motor
 equipos bidireccionales o eléctricos. Permite el control
-2 salidas Start / Detener o un obturador Open / Detener / Close.
+2 salidas Start / Stop o un obturador Open / Stop / Close.
 
 Además, la interacción con otros protocolos es posible, es
 controlable por interruptores de marca y / o controles remotos

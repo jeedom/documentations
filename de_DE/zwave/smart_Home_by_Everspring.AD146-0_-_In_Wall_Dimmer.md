@@ -1,4 +1,4 @@
-SmartHome von Everspring Im Wanddimmer - AD146-0 
+SmartHome von Everspring In Wall Dimmer - AD146-0 
 ================================================
 
 \.

@@ -46,7 +46,7 @@ Jeedom Backup-Verzeichnis.
 -   Apache Server (Jeedom Smart Box) : / var / www / html / backup
 
 -   Nginx Server (Jeedom Mini + Box) :
-    / usr / share / nginx / www / Jeedom / backup
+    / usr / share / nginx / www / jeedom / backup
 
 Der Pfad wird im Abschnitt "Remote-Standort" angezeigt.
 

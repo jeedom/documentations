@@ -10,7 +10,7 @@ Preparation before migration
 > **Warning**
 >
 > It is important to read all of this documentation before
-> gand started in migration. IMPORTANT information about
+> get started in migration. Important information about
 > update, backup and recovery requirements
 > of information are essential for the proper understanding of
 > the operation to be carried out. Refraining from reading this documentation may
@@ -45,7 +45,7 @@ Preparation before migration
 > **l'Esclave** to **the master**. With the new mode it is also
 > possible to have multiple **Jeedom Targets** for the same **Jeedom
 > Source**. Communication between Jeedoms can now also
-> be done remotely via the internand (Jeedom DNS or other). \
+> be done remotely via the internet (Jeedom DNS or other). \
 > \
 
 ![jeelink.migration9](images/jeelink.migration9.png)
@@ -76,7 +76,7 @@ necessary to retrieve the following information :
     this in order to have a list of the equipment that comes
     of it.
 
--   NOTE for each piece of equipment coming from **l'Esclave** : l'objet
+-   Note for each piece of equipment coming from **l'Esclave** : l'objet
     parent, name, ID (Node), model.
 
 -   Recover Zwcfg file : *Plugins ⇒ Management of Plugins ⇒
@@ -85,12 +85,12 @@ necessary to retrieve the following information :
 
 ### RFXcom plugin 
 
--   NOTE for each piece of equipment coming from **l'Esclave** : l'objet
+-   Note for each piece of equipment coming from **l'Esclave** : l'objet
     parent, name, ID (Logical), Type, Model.
 
 > **Note**
 >
-> A non-exhaustive sheand of information to note for migration
+> A non-exhaustive sheet of information to note for migration
 > is available [here](images/MemoMigration.xls)
 
 Preventive backups 
@@ -144,7 +144,7 @@ Installation of **Jeedom Source** :
 > New SD / microSD. This will allow you to backtrack
 > easily if needed.
 
--   Install a new Jeedom on a new SD card (Land it be
+-   Install a new Jeedom on a new SD card (Let it be
     to put in your **Jeedom Slave** existing or for a
     new Raspberry Pi) by following the [documentation
     d'installation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
@@ -161,7 +161,7 @@ Jeedom Source Configuration
 -   Change the password of the admin user or / and configure a
     New user.
 
--   Configure your Jeedom Markand account (* Configuration ⇒ Updates
+-   Configure your Jeedom Market account (* Configuration ⇒ Updates
     and files ⇒ "Market" tab *). Click on test after
     saved, to validate the entry of your identifiers
     Jeedom Market).
@@ -199,7 +199,7 @@ Source**.
 > You can also gradually assign the equipment to
 > objects recreated on the **Jeedom Source** so that they are later
 > automatically put in the correct object on the **Jeedom Target** during
-> the declaration in the Jeedom Link plugin". In case of duplicate name
+> the declaration in the plugin "Jeedom Link". In case of duplicate name
 > with equipment already present in the objects of the **Jeedom Target**,
 > the plugin will add "remote XXXX" to the name of the equipment.
 

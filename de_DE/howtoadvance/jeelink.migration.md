@@ -45,7 +45,7 @@ Vorbereitung vor der Migration
 > **l'Esclave** zu **der Meister**. Mit dem neuen Modus ist es auch
 > möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom
 > Source**. Kommunikation zwischen Jeedoms kann jetzt auch
-> aus der Ferne über das Internund (Jeedom DNS oder andere) erfolgen. \.
+> aus der Ferne über das Internet (Jeedom DNS oder andere) erfolgen. \
 > \.
 
 ![jeelink.migration9](images/jeelink.migration9.png)
@@ -144,7 +144,7 @@ Installation von **Jeedom Source** :
 > Neue SD / microSD. Auf diese Weise können Sie zurückverfolgen
 > bei Bedarf einfach.
 
--   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (Lund it be
+-   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (Let it be
     in deine setzen **Jeedom Sklave** vorhanden oder für eine
     neuer Raspberry Pi), indem Sie der [Dokumentation
     d'installation](https://doc.jeedom.com/de_DE/installation/doc-installation.html).
@@ -375,7 +375,7 @@ Kopie der erweiterten Befehlskonfigurationen
 
 > **Warning**
 >
-> Interaktionen auf dem **Jeedom Ziel** kann nicht gestartund werden
+> Interaktionen auf dem **Jeedom Ziel** kann nicht gestartet werden
 > durch Ausrüstung von a **Jeedom Source** übertragen über die
 > Jeedom Link Plugin".
 
@@ -386,16 +386,16 @@ Haushalt auf der **Jeedom Ziel**
 >
 > Nachdem Sie mit Sicherheit bestätigt haben, dass Ihr
 > Ausrüstung / Szenarien / Interaktionen / virtuell /…. Arbeit
-> richtig mit dem neuen jeelink system kannst die das machen
+> richtig mit dem neuen jeelink system kannst du das machen
 > Haushalt.
 
 -   Entfernen Sie restliche Ausrüstung von der alten **Jeedom Sklave**.
 
 -   Deaktivieren und entfernen Sie Plugins, die für Sie nicht mehr nützlich sind
-    (Die, die die nur auf dem Slave hattest).
+    (Die, die du nur auf dem Slave hattest).
 
 -   Benennen Sie im Plugin "Jeedom Link" das Gerät um
-    könnte einen Namen haben, der mit "remote" endund XXXX".
+    könnte einen Namen haben, der mit "remote" endet XXXX".
 
 -   Löschen Sie auf der Seite Jeedom Network die alte **Jeedom Sklave**.
 

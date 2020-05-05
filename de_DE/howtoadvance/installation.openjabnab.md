@@ -33,7 +33,7 @@ Dann müssen Sie die IP-Adresse des Systems wiederherstellen :
 Das Ergebnis ist :
 
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
-              inet addr:192.168.0.162 Bcast:192.168.0.255 Maske:255.255.255.0
+              inet addr:192.168.0.162  Bcast:192.168.0.255 Maske:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:5498/64 Geltungsbereich:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 metrisch:1
               RX-Pakete:10721 Fehler:0 fiel:0 Überläufe:0 Frame:0
@@ -67,12 +67,12 @@ Bearbeiten Sie die Datei /etc/bind/named.conf.local
 Und hinzufügen :
 
     Bereich "raspberry.pi""{
-     Mastertyp;;
-     Datei "/etc/bind/db.raspberry.pi";;
+     Mastertyp;
+     Datei "/etc/bind/db.raspberry.pi";
     };;
     Zone "0.168.192.in-addr.arpa"{
-     Mastertyp;;
-     Datei "/etc/bind/db.192.168.0.inv";;
+     Mastertyp;
+     Datei "/etc/bind/db.192.168.0.inv";
     };;
 
 Erstellen Sie die Datei db.raspberry.pi
@@ -83,11 +83,11 @@ Und steck es ein :
 
     $TTL 604800
     @ IN SOA ojn.raspberry.pi. root.raspberry.pi. (
-     1;; Seriennummer
-     604800;; Aktualisieren
-     86400;; Wiederholen Sie den Vorgang
-     2419200;; Läuft ab
-     604800);; Negative Cache-TTL
+     1; Seriennummer
+     604800; Aktualisieren
+     86400; Wiederholen Sie den Vorgang
+     2419200; Läuft ab
+     604800); Negative Cache-TTL
     ;;
     @ IN NS ojn.raspberry.pi.
     ojn IN A 192.168.0.162
@@ -101,11 +101,11 @@ Und setzen :
 
     $TTL 604800
     @ IN SOA ojn.raspberry.pi. root.localhost. (
-     2;; Seriennummer
-     604800;; Aktualisieren
-     86400;; Wiederholen Sie den Vorgang
-     2419200;; Läuft ab
-     604800);; Negative Cache-TTL
+     2; Seriennummer
+     604800; Aktualisieren
+     86400; Wiederholen Sie den Vorgang
+     2419200; Läuft ab
+     604800); Negative Cache-TTL
     ;;
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
@@ -132,13 +132,13 @@ Das solltest du haben :
     64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 time = 0.059 ms
     64 Bytes von ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 time = 0.068 ms
     ^C
-    --- ojn.raspberry.pi ping-Statistiken ---
+    --- ojn.raspberry.pi ping statistics ---
     4 Pakete gesendet, 4 empfangen, 0% Paketverlust, Zeit 3000ms
     rtt min / avg / max / mdev = 0,059 / 0,065 / 0,069 / 0.010 ms
 
 > **Note**
 >
-> Sie müssen Strg + C. drücken, um den Ping zu beenden
+> Sie müssen Strg + C drücken, um den Ping zu beenden
 
 Aus Sicherheitsgründen werden wir auch die Auflösung in / etc / hosts hinzufügen :
 
@@ -214,7 +214,7 @@ Tun :
 
     su ojn
     cd / home / ojn / OpenJabNab / server
-    qmachen -r
+    qmake -r
     make
 
 > **Note**
@@ -277,7 +277,7 @@ Um das Kaninchen zu konfigurieren, ist es ganz einfach, Sie müssen es herauszie
 Schließen Sie es dann wieder an und drücken Sie die Taste. Er muss
 normalerweise hellblau.
 
-Dann sollten Sie mit Ihrem PC. ein neues WLAN-Netzwerk haben
+Dann sollten Sie mit Ihrem PC ein neues WLAN-Netzwerk haben
 nabaztagXX, stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
 
 Geben Sie einmal Ihre WLAN-Konfiguration und Informationen ein
@@ -300,8 +300,8 @@ openjabnab bleibt stehen. Sie müssen also ein kleines Skript hinzufügen
 
 Und hinzufügen :
 
-    if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0];; dann
-        su ojn;; cd / home / ojn / OpenJabNab / server / bin;; nohup ./ openjabnab >> / dev / null 2> & 1 &
+    if [$ (ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0]; dann
+        su ojn; cd / home / ojn / OpenJabNab / server / bin; nohup ./ openjabnab >> / dev / null 2> & 1 &
     fi
 
 Dann mach es :
@@ -419,7 +419,7 @@ Dann müssen Sie 3 Dateien erstellen :
 <!-- -->
 
     ######################################################################
-    # Automatisch generiert von qmachen (2.01a) Sa Jan.. 19 19:10:01 2008
+    # Automatisch generiert von qmake (2.01a) Sa Jan.. 19 19:10:01 2008
     ######################################################################
 
     TEMPLATE = lib
@@ -466,8 +466,8 @@ Dann müssen Sie 3 Dateien erstellen :
 
     public:
       TTSJeedom();;
-      virtual ~ TTSJeedom ();;
-      QByteArray CreateNewSound (QString, QString, bool);;
+      virtual ~ TTSJeedom ();
+      QByteArray CreateNewSound (QString, QString, bool);
 
     private:
     };;
@@ -492,7 +492,7 @@ Dann müssen Sie 3 Dateien erstellen :
 
     TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
-      voiceList.insert ("fr", "fr");;
+      voiceList.insert ("fr", "fr");
     }
 
     TTSJeedom::~TTSJeedom()
@@ -501,52 +501,52 @@ Dann müssen Sie 3 Dateien erstellen :
 
     QByteArray TTSJeedom::CreateNewSound (QString-Text, QString-Stimme, bool forceOverwrite)
     {
-      QEventLoop-Schleife;;
+      QEventLoop-Schleife;
       if(!voiceList.contains (Stimme))
-        Stimme = "fr";;
+        Stimme = "fr";
       // Ausgabeordner prüfen (und ggf. erstellen)
-      QDir outputFolder = ttsFolder;;
+      QDir outputFolder = ttsFolder;
       if(!outputFolder.exists (voice))
-        outputFolder.mkdir (Stimme);;
+        outputFolder.mkdir (Stimme);
 
       if(!outputFolder.cd (Stimme))
       {
-        LogError (QString ("TTS-Ordner kann nicht erstellt werden : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));;
-        return QByteArray ();;
+        LogError (QString ("TTS-Ordner kann nicht erstellt werden : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
+        return QByteArray ();
       }
 
       // Dateiname berechnen
-      QString fileName = QCryptographicHash::Hash (Text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");;
-      QString filePath = outputFolder.absoluteFilePath (Dateiname);;
+      QString fileName = QCryptographicHash::Hash (Text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
+      QString filePath = outputFolder.absoluteFilePath (Dateiname);
 
       if(!forceOverwrite && QFile::existiert (filePath))
-        return ttsHTTPUrl.arg (voice, fileName) .toAscii ();;
+        return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
 
       // MP3 holen
-      QHttp http ("TODO_IP_JEEDOM");;
-      QObject::connect (& http, SIGNAL (erledigt (bool)), & loop, SLOT (quit ()));;
+      QHttp http ("TODO_IP_JEEDOM");
+      QObject::connect (& http, SIGNAL (erledigt (bool)), & loop, SLOT (quit ()));
 
-      QByteArray ContentData;;
-      ContentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (Text);;
+      QByteArray ContentData;
+      ContentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (Text);
 
-      QHttpRequestHeader Header;;
-      Header.addValue ("Host", "TODO_IP_JEEDOM");;
+      QHttpRequestHeader Header;
+      Header.addValue ("Host", "TODO_IP_JEEDOM");
 
-      Header.setContentLength (ContentData.length ());;
-      Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (Text), 1, 1);;
+      Header.setContentLength (ContentData.length ());
+      Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (Text), 1, 1);
 
-      http.request (Header, ContentData);;
-      loop.exec ();;
+      http.request (Header, ContentData);
+      loop.exec ();
 
-      QFile-Datei (filePath);;
+      QFile-Datei (filePath);
       if (!file.open (QIODevice::WriteOnly))
       {
         LogError ("Sounddatei kann nicht zum Schreiben geöffnet werden : "+filePath);;
-        return QByteArray ();;
+        return QByteArray ();
       }
-      file.write (http.readAll ());;
-      file.close ();;
-      return ttsHTTPUrl.arg (voice, fileName) .toAscii ();;
+      file.write (http.readAll ());
+      file.close ();
+      return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
 > **Note**
@@ -563,7 +563,7 @@ Neu kompilieren
 -------------
 
     cd / home / ojn / OpenJabNab / server
-    qmachen -r
+    qmake -r
     make
 
 Änderung des tts-Dienstes 

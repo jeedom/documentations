@@ -13,7 +13,7 @@
 ## Vmware
 
 - [Create a VM](/en_US/howtoadvance/vmware.creer_une_vm)
-- [Setup on NUC](/en_US/howtoadvance/vmware.installation_sur_nuc)
+- [Installation on NUC](/en_US/howtoadvance/vmware.installation_sur_nuc)
 - [Backup / restore](/en_US/howtoadvance/vmware.mise_en_place_des_backups)
 - [Tips and tricks](/en_US/howtoadvance/vmware.trucs_et_astuces)
 

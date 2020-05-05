@@ -163,7 +163,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation. If the
+> inclusion button, according to its paper documentation. If the
 > module is not already included, it will be included
 > automatically when powered up.
 
@@ -227,7 +227,7 @@ icone
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

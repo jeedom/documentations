@@ -580,10 +580,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/316.1.15_pan03.jpg" width="60" />|Philio|PAN03 Switch Module with meter 3 KW X1|Micromodule|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html)|
-|<img src="../../en_US/zwave/images/316.1.18_pan04-1.double.relay.switch.jpg" width="60" />|Philio|PAN04 In Wall switch Module with meter 2X1.5KW|Micromodule|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../en_US/zwave/images/316.1.18_pan04-1.double.relay.switch.jpg" width="60" />|Philio|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
 |<img src="../../en_US/zwave/images/316.1.21_pan08-1.in.wall.roller.shutter.jpg" width="60" />|Philio|PAN08-1 In Wall Roller Shutter Controller|Volets|||
-|<img src="../../en_US/zwave/images/316.1.3_pan04-1.double.relay.switch.jpg" width="60" />|Philio|PAN04 In Wall switch Module with meter 2X1.5KW|Micromodule|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
-|<img src="../../en_US/zwave/images/316.1.4_pan06.in.wall.dual.relay.1.way.jpg" width="60" />|Philio|PAN06 In Wall switch Module 2X1.5KW|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html)|
+|<img src="../../en_US/zwave/images/316.1.3_pan04-1.double.relay.switch.jpg" width="60" />|Philio|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../en_US/zwave/images/316.1.4_pan06.in.wall.dual.relay.1.way.jpg" width="60" />|Philio|PAN06 In Wall Switch Module 2X1.5KW|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html)|
 |<img src="../../en_US/zwave/images/316.1.6_pan08-1.in.wall.roller.shutter.jpg" width="60" />|Philio|PAN08-1 In Wall Roller Shutter Controller|Volets|||
 |<img src="../../en_US/zwave/images/316.2.12_pst02-a.4.in.1.jpg" width="60" />|Philio|PST02-A 4in1 Multi-Sensor|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
 |<img src="../../en_US/zwave/images/316.2.13_pst02-b.pirmotion.3.in.1.jpg" width="60" />|Philio|PST02-B PIR / Motion 3in1 Sensor|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html)|
@@ -660,7 +660,7 @@
 |<img src="../../en_US/zwave/images/345.5.82_zmnhkdx.heatcool.thermostat.jpg" width="60" />|Qubino|ZMNHKDx Heat and Cool Thermostat Z-Wave +|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2948-qubino-micromodule-thermostat-chaud-froid-encastrable-z-wave-zmnhka2.html)|
 |<img src="../../en_US/zwave/images/345.5.83_zmnhldx.pwm.thermostat.jpg" width="60" />|Qubino|ZMNHLDx PWM Z-Wave + Thermostat|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2949-qubino-micromodule-thermostat-pwm-encastrable-z-wave-zmnhld1.html)|
 |<img src="../../en_US/zwave/images/345.7.82_zmnhtdx.smart.meter.jpg" width="60" />|Qubino|ZMNHTDx Smart meter|Rail-din|The module must be included in secure mode to be able to control the relays|[Buy](http://www.domadoo.fr/fr/peripheriques/3251-qubino-module-rail-din-compteur-d-energie-z-wave-3830062070362.html)|
-|<img src="../../en_US/zwave/images/345.7.83_zmnhzdx.weather.station.jpg" width="60" />|Qubino|ZMNHZDx Weather station Z-Wave +|Weather station||[Buy](http://www.domadoo.fr/fr/peripheriques/3443-qubino-station-meteo-z-wave-zmnhzd1-3830062070560.html)|
+|<img src="../../en_US/zwave/images/345.7.83_zmnhzdx.weather.station.jpg" width="60" />|Qubino|ZMNHZDx Weather Station Z-Wave +|Weather station||[Buy](http://www.domadoo.fr/fr/peripheriques/3443-qubino-station-meteo-z-wave-zmnhzd1-3830062070560.html)|
 |<img src="../../en_US/zwave/images/345.7.84_zmnhxdx.3.phase.smart.meter.jpg" width="60" />|Qubino|ZMNHXDx 3 PhaseSmart meter|Rail-din|The module must be included in secure mode to be able to control the additional relays||
 
 # Remotec
@@ -799,7 +799,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/305.1.18_pan04-eu.wallSwitch.jpg" width="60" />|Zipato|PAN04 In Wall switch Module with meter 2X1.5KW|Micromodule|Also sold under the Philio brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../en_US/zwave/images/305.1.18_pan04-eu.wallSwitch.jpg" width="60" />|Zipato|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Also sold under the Philio brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
 |<img src="../../en_US/zwave/images/305.1.21_pan08-1.in.wall.roller.shutter.jpg" width="60" />|Zipato|PAN08-1 In Wall Roller Shutter Controller|Volets|||
 |<img src="../../en_US/zwave/images/305.2.12_psm02-eu.4.in.1.jpg" width="60" />|Zipato|PSM02 4in1 Multi-Sensor|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
 |<img src="../../en_US/zwave/images/305.2.2_rgbw_bulb.jpg" width="60" />|Zipato|Bulb RGBW|Ampoule||[Buy](http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html)|

@@ -119,7 +119,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 1 second on
-> the button on the back and release, according to its paper Documentation.
+> the button on the back and release, according to its paper documentation.
 
 \
 
@@ -161,7 +161,7 @@ useful if you have connected external probes
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -174,7 +174,7 @@ useful if you have connected external probes
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -258,7 +258,7 @@ taken into account at the next wake up.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El módulo de enchufe PowerNode de Greenwave es un dispositivo inteligente que
+El módulo de enchufe PowerNode de GreenWave es un dispositivo inteligente que
 se conecta a uno de sus electrodomésticos y dispositivos electrónicos para
 le permite monitorear y controlar el consumo de energía a
 distancia a través del navegador web o teléfono inteligente.
@@ -126,7 +126,7 @@ Datos del módulo
 
 -   Hacer : GreenWave
 
--   Nombre : Greenwave \ [1 x enchufe \]
+-   Nombre : GreenWave \ [1 x enchufe \]
 
 -   ID del fabricante : 153
 

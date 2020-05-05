@@ -4,7 +4,7 @@
 
 >**IMPORTANT**
 
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Markt einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=wellness) Alle offiziellen Plugins in dieser Kategorie
 
 | | | | |
@@ -18,4 +18,4 @@
 |<img src="smartercoffee/smartercoffee_icon.png" class="pluginLogo" width="100" />|Intelligenter Kaffee|Plugin zur Verwaltung der intelligenteren Kaffeemaschine|[Dokumentation](smartercoffee/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2285)|
 |<img src="swimo/swimo_icon.png" class="pluginLogo" width="100" />|Swimo|Ermöglicht die Steuerung eines Swimo-Pool-Controllers|[Dokumentation](swimo/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3747)|
 |<img src="thermostat/thermostat_icon.png" class="pluginLogo" width="100" />|Thermostat|Mit diesem sehr leistungsstarken und sehr vollständigen Plugin können Sie die Temperatur Ihrer Unterkunft genau steuern, unabhängig davon, ob Sie sie heizen oder kühlen möchten.. Das Plugin lernt im Laufe der Zeit, wie Sie am besten Energie sparen und gleichzeitig den optimalen Komfort in Ihrem Zuhause gewährleisten können.|[Dokumentation](thermostat/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=77)|
-|<img src="thinkingCleaner/thinkingCleaner_icon.png" class="pluginLogo" width="100" />|Reiniger denken|Plugin zum Bestellen von Roombas über das Reiniger denken-Modul|[Dokumentation](thinkingCleaner/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1712)|
+|<img src="thinkingCleaner/thinkingCleaner_icon.png" class="pluginLogo" width="100" />|Reiniger denken|Plugin zum Bestellen von Roombas über das Thinking Cleaner-Modul|[Dokumentation](thinkingCleaner/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1712)|

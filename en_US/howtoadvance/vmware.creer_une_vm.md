@@ -3,15 +3,15 @@ We will see here how to create a VM under VMware.
 Before there is an important thing to know about VMware, there are 2
 way of the manager :
 
--   the web interface ((present by default in 6.0 update 2, or by
+-   the web interface (present by default in 6.0 update 2, or by
     through a vib for the other versions), we access it by
     IP\_ESXI / ui
 
--   the heavy and historical client of VMware ((vSphere client)
+-   the heavy and historical client of VMware (vSphere client)
 
 Here I will mainly use the web interface because I think it's
 the future of VMware which increasingly abandons the thick client
-((by the way all the new features since the 5.1 cannot be used
+(by the way all the new features since the 5.1 cannot be used
 with the heavy customer).
 
 Also note that the web interface is still being implemented
@@ -42,16 +42,16 @@ can already from this screen :
 
 -   stop / restart the ESXi
 
--   see resource usage ((CPU, memory and disk)
+-   see resource usage (CPU, memory and disk)
 
--   have information about your system ((operating time,
+-   have information about your system (operating time,
     VMware version, bios version, datastore display)
 
--   button to create a VM ((we will use it right after)
+-   button to create a VM (we will use it right after)
 
 -   an action button which allows you to switch to maintenance mode
-    ((useful if you have an ESXi cluster otherwise you will not
-    never serve), enable / disable SSH service ((is used
+    (useful if you have an ESXi cluster otherwise you will not
+    never serve), enable / disable SSH service (is used
     in the backup configuration tutorial)
 
 Sending installation ISO 
@@ -66,7 +66,7 @@ For that click on datastore :
 
 ![vmware.createvm18]((images/vmware.createvm18.PNG)
 
-Select your datastore ((usually it's called datastore1) :
+Select your datastore (usually it's called datastore1) :
 
 ![vmware.createvm19]((images/vmware.createvm19.PNG)
 
@@ -74,7 +74,7 @@ Click on "Database browser" :
 
 ![vmware.createvm20]((images/vmware.createvm20.PNG)
 
-Click on "Download" ((the first) :
+Click on "Download" (the first) :
 
 ![vmware.createvm21]((images/vmware.createvm21.PNG)
 
@@ -103,7 +103,7 @@ Click on next :
 ![vmware.createvm6]((images/vmware.createvm6.PNG)
 
 Then give a name to your machine and specify its system
-operating ((here we will install a Debian) :
+operating (here we will install a Debian) :
 
 ![vmware.createvm7]((images/vmware.createvm7.PNG)
 
@@ -111,7 +111,7 @@ Indicate the target datastore :
 
 ![vmware.createvm8]((images/vmware.createvm8.PNG)
 
-Here you will be able to configure the parameters of your machine ((disk
+Here you will be able to configure the parameters of your machine (disk
 hard, cpu, memory ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
@@ -120,7 +120,7 @@ hard, cpu, memory ...) :
 >
 > All these parameters can be modified afterwards without worries, note
 > however it is not really possible to reduce the size
-> a hard drive, you can increase it ((but you have to know how to manage it
+> a hard drive, you can increase it (but you have to know how to manage it
 > OS level next) but not reduce it.
 
 In the CD / DVD drive, select "ISO file bank of
@@ -128,7 +128,7 @@ Data" :
 
 ![vmware.createvm10]((images/vmware.createvm10.PNG)
 
-Then select the location where your ISO is stored ((see
+Then select the location where your ISO is stored (see
 previous chapter) and validate :
 
 ![vmware.createvm11]((images/vmware.createvm11.PNG)
@@ -147,7 +147,7 @@ A message at the top will tell you that it's good, then click on
 
 ![vmware.createvm14]((images/vmware.createvm14.PNG)
 
-You should see your virtual machine ((if not click
+You should see your virtual machine (if not click
 on "Refresh") click on it :
 
 ![vmware.createvm15]((images/vmware.createvm15.PNG)
@@ -164,7 +164,7 @@ your OS :
 > **Important**
 >
 > Once your machine is installed you MUST install the
-> VMware tools ((this allows VMware to have information about your VM
+> VMware tools (this allows VMware to have information about your VM
 > and turn it off properly). Under debian just do
 > "sudo apt-get -y install open-vm-tools".
 

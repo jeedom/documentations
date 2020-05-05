@@ -98,7 +98,7 @@ Ram.
 
 -   Agregue esta línea, para pedirle a Pi3 que use solo el intercambio
     cuando hay un 10% de memoria disponible (100 MB de
-    Carnero disponible) :
+    Ram disponible) :
 
 <!-- -->
 

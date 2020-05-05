@@ -6,7 +6,7 @@
 
 Aquí hay un breve tutorial para explicar cómo crear un complemento. Para el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde.es (El complemento será escalable).
 
-No reemplaza el [documentación oficial](https://jeedom.github.io/plugin-template/es_ES/)
+No reemplaza el [Documentación officielle](https://jeedom.github.io/plugin-template/es_ES/)
 
 # Crear la base del complemento
 
@@ -127,7 +127,7 @@ Ahora podemos copiar la carpeta vdm en la carpeta del complemento Jeedom e ir a 
 
 ![image](images/tutorial_vdm_plugin.png)
 
-Lo activamos y luego complementos / Monitoreo / Vida de caca
+Lo activamos y luego complementos / Monitoreo / Vie de Merde
 
 ![image](images/tutorial_vdm_desktop1.png)
 
@@ -207,7 +207,7 @@ public function postSave() {
 
 -Créer un autre équipement « vdm2 » en cliquant sur le +. En la pestaña de comandos, aparecieron los comandos. Actívalo y hazlo visible. Elija un objeto principal y vea cómo se ve en el tablero.
 
--Enregistrer le premier équipement « vdm1 » pour créer les commandes. Vea el renderizado en el widgy también.
+-Enregistrer le premier équipement « vdm1 » pour créer les commandes. Vea el renderizado en el widget también.
 
 En la pestaña de comandos, deberías ver.
 
@@ -406,7 +406,7 @@ Ahora ve a un dispositivo creado y ejecuta el comando Actualizar. Puis la comman
 
 En el Tablero, aparece información. Haga clic en el icono de actualización para cambiar la información.
 
-Luego definiremos el tamaño del widgy y lo personalizaremos un poco
+Luego definiremos el tamaño del widget y lo personalizaremos un poco
 
 Luego automatiza la actualización.
 
@@ -414,7 +414,7 @@ Luego automatiza la actualización.
 
 El complemento es funcional pero por el momento no hace mucho. Si vous cliquer sur la commande « refresh » , la commande « story » se my à jour mais sinon rien.
 
-Tenga en cuenta que para el orden lo nombro por logicalId. Y es importante. Tener un Identificación. Lógico único por dispositivo (eqLogic) simplifica las cosas.
+Tenga en cuenta que para el orden lo nombro por logicalId. Y es importante. Tener un Id. Lógico único por dispositivo (eqLogic) simplifica las cosas.
 
 Ahora veremos cómo actualizar el comando usando las funciones nativas del núcleo : Crons
 
@@ -427,7 +427,7 @@ Hay varios :
 - CronHourly : eh ... cada hora
 - CronDaily : bien 1 / día
 
-Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función CronHourly ().
+Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función cronHourly ().
 
 Por lo tanto, abriremos el archivo vdm.class.PHP y búsqueda
 
@@ -525,7 +525,7 @@ Tienes que probar, funciona?
 
 Pero aquí hay una alternativa que puede resultar más útil en casos más complejos.
 
-En la función postUpdate (), iniciamos la función CronHourly () con la identificación del dispositivo
+En la función postUpdate (), iniciamos la función cronHourly () con la identificación del dispositivo
 
 ````
     public function postUpdate() {
@@ -533,7 +533,7 @@ En la función postUpdate (), iniciamos la función CronHourly () con la identif
     }
 ````
 
-Pero en este caso cambiamos la función CronHourly ()
+Pero en este caso cambiamos la función cronHourly ()
 
 ````
     public static function cronHourly($_eqLogic_id = null) {
@@ -569,15 +569,15 @@ Me tomaré el tiempo para agregar cómo configurar un cron personalizado de acue
 
 # El widget
 
-El widgy no es una tarea fácil, pero por ahora nos quedaremos en el widgy predeterminado.
+El widget no es una tarea fácil, pero por ahora nos quedaremos en el widget predeterminado.
 
-Si no ha tocado nada, el equipo está activado y visible, el widgy ocupa todo el ancho de la pantalla. Entonces lo cambiaremos.
+Si no ha tocado nada, el equipo está activado y visible, el widget ocupa todo el ancho de la pantalla. Entonces lo cambiaremos.
 
 La commande qui apparaît est la commande «story» de type info , sous-type string
 
 Mi placer es levantarme por la mañana es leer un vdm al despertar. Me permite ver que hay algo peor que yo. :D
 
-Pero no tengo mis lentes y actualmente el renderizado en el widgy no me permite leerlo ...
+Pero no tengo mis lentes y actualmente el renderizado en el widget no me permite leerlo ...
 
 Donc on va changer le style en affectant un template à la commande « story»
 
@@ -607,9 +607,9 @@ Para eso abro el archivo vdm.class.php , fonction postSave() y j'ajoute le templ
 
 Actualizar el tablero.
 
-Es mejor, pero el widgy siempre toma el ancho del tablero. Entonces corregiremos. Por défaut la largeur du widgy de l'équipement(eqLogic) y la hauteur sont à « auto ».
+Es mejor, pero el widget siempre toma el ancho del tablero. Entonces corregiremos. Por défaut la largeur du widgy de l'équipement(eqLogic) y la hauteur sont à « auto ».
 
-Por lo tanto, cambiaremos el ancho del widgy (equipment => eqLogic) usando el método setDisplay () heredado de la clase eqLogic .Dejamos la altura en auto.
+Por lo tanto, cambiaremos el ancho del widget (equipment => eqLogic) usando el método setDisplay () heredado de la clase eqLogic .Dejamos la altura en auto.
 
 Para hacer esto, simplemente agregue
 

@@ -60,9 +60,9 @@
 | Oregón         | Temperatura    | Oregón         |                | [Comprar](http://my-domotique.com/store/index.php?id_product=48&controller=product&id_lang=2)      |
 | Oregón         | Temperatura    | Oregón         |                |                |
 | THGN132N       | Humedad       |                |                |                |
-| Oregón WGR800  | Anemómetro     | Oregón         |                |                |
-| Oregón PCR800  | Pluviómetro    | Oregón         |                |                |
-| UV Oregón      | Sensor UV       | Oregón         |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
+| Oregon WGR800  | Anemómetro     | Oregón         |                |                |
+| Oregon PCR800  | Pluviómetro    | Oregón         |                |                |
+| UV Oregon      | Sensor UV       | Oregón         |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/2129-oregon-scientific-sonde-uv-uvn800-pour-station-pro.html)   |
 | OWL CM119      | Abrazadera actual + pantalla          | Oregón         |                |                |
 | OWL Micro + CM180     | Abrazadera actual + pantalla         | Oregón         |                |                |
 | OWL TSE200-001 | Transmisor para pinza de corriente (ref TSE000-001 o TSE000-002)  | Oregón         |                |                |

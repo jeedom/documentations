@@ -1,4 +1,4 @@
-Control remoto Mediodía - Control remoto suave 
+Control remoto Nodon - Control remoto suave 
 ================================
 
 \

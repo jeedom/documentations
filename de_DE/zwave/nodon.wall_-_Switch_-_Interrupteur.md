@@ -1,4 +1,4 @@
-Nicken Switch - Wandschalter 
+Nodon Switch - Wandschalter 
 ================================
 
 \.

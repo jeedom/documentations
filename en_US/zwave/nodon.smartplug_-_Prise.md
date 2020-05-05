@@ -146,7 +146,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    socket (We / Off)
+    socket (On / Off)
 
 -   We : This is the command that turns on the outlet
 
@@ -162,7 +162,7 @@ the same icon.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -197,7 +197,7 @@ Parameter details :
 -   2 : This setting allows you to configure the reporting reports of
     power cut / return, as well as the associated groups (Groups
     4, 5, 6, 7, 8). Several combinations are possible (refer to
-    paper Documentation or help bubble in jeedom). It is
+    paper documentation or help bubble in jeedom). It is
     recommended to set this parameter to 1.
 
 -   3 : This parameter enables groups 2 and 3 to be activated or deactivated.

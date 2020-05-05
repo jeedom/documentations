@@ -44,7 +44,7 @@ Activation of virtualHost and SSL module
 > No certificate will be issued by LetsEncrypt as long as your site
 > in HTTPS will not be reachable from the outside.
 
-    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d domain.com
+    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d domaine.com
 
 You need to replace the settings <email@domaine.com> and domaine.com
 by your values. Normally the parameters for adding the HTTPS protocol
@@ -73,7 +73,7 @@ Configuration of Nginx
 This command is only to be used if you have a web server
 Nginx.
 
-    ./ letsencrypt-auto certonly - email email @ domain.com -d domain.com -a webroot --webroot-path / usr / share / nginx / www /
+    ./ letsencrypt-auto certonly - email email @ domain.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
 
 You must replace the email and domain parameters with your values,
 as well as the path to the root of the server. You must add the

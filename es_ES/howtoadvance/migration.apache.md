@@ -60,7 +60,7 @@ Instalación y configuración de Apache
     rm /etc/apache2/conf-available/other-vhosts-access-log.conf
     rm /etc/apache2/conf-enabled/other-vhosts-access-log.conf
     systemctl reiniciar apache2
-    rm / var / www / html /index.html
+    rm /var/www/html/index.html
 
 > **Note**
 >
@@ -73,7 +73,7 @@ Copia de Jeedom
 
     cp -R / usr / share / nginx / www / jeedom / * / var / www / html /
     cp -R /usr/share/nginx/www/jeedom/.[^.]* / var / www / html /
-    rm / var / www / html /log/nginx.error
+    rm /var/www/html/log/nginx.error
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
 

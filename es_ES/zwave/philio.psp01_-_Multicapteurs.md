@@ -325,7 +325,7 @@ Este módulo se activa presionando su botón de manipulación.
 
 \
 
-Hacer la casilla "Evento en cambio".
+Marque la casilla "Evento en cambio".
 
 \
 

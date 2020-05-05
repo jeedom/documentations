@@ -74,7 +74,7 @@ Cualquiera que sea el método utilizado, llegarás a la página de inicio de ses
 
 ## Enlace mi Jeedom a mi cuenta de mercado
 
-Veremos aquí cómo vincular su Jeedom a su cuenta de Mercado.
+Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
 -   Una vez conectado a su libertad, debe ir a Administración → Configuración
 
@@ -193,7 +193,7 @@ El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, 
 
 > **Important**
 >
-> Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Mercado.
+> Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Market.
 
 Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom.. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno.:
 

@@ -8,7 +8,7 @@ We will see in this documentation how to do the documentation of your plugin.
 
 The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com/en_US/dev/structure_info_json) ) in the documentation field.
 
-NOTE that you also have a Changelog field which should work in the same way as the documentation field.
+Note that you also have a changelog field which should work in the same way as the documentation field.
 
 ## How to do ?
 
@@ -48,7 +48,7 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
 - Add #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- Add #language#/ Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
+- Add #language#/ changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
 > **Note**
 >
@@ -56,7 +56,7 @@ Now you need to put the links of your documentation in the info file.json of you
 
 ### Translation management
 
-If your plugin is structured as advice above then the translation management is very simple to set up in addition to being automatic, just authorize the user github zoic21 to push / pull on your repository and in the market on the edition page of your plugin in the github tab to check "Activate the generation of documentation and translation". The robot goes every day at 12 noon (more or less 2 hours depending on the workload) to retrieve the French documentation of your plugin and the Changelog (beta branch) push it on transiflex (community translation system), retrieve the news translation and push it on your github repository in the right folders.
+If your plugin is structured as advice above then the translation management is very simple to set up in addition to being automatic, just authorize the user github zoic21 to push / pull on your repository and in the market on the edition page of your plugin in the github tab to check "Activate the generation of documentation and translation". The robot goes every day at 12 noon (more or less 2 hours depending on the workload) to retrieve the French documentation of your plugin and the changelog (beta branch) push it on transiflex (community translation system), retrieve the news translation and push it on your github repository in the right folders.
 
 
 > **Important**
@@ -65,4 +65,4 @@ If your plugin is structured as advice above then the translation management is 
 
 > **Note**
 >
-> NOTE that once your info file.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) will automatically add your plugin.
+> Note that once your info file.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) will automatically add your plugin.

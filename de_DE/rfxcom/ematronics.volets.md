@@ -79,7 +79,7 @@ Hier ist Ihre Fernbedienung fertig, sie sollte so aussehen :
 
 ![image05](images/volet.ematronic/image05.png)
 
-Verknüpfen Sie Ihre virtuell JeeDom-Fernbedienung mit Ihrer Ematronic-Engine: 
+Verknüpfen Sie Ihre virtuelle JeeDom-Fernbedienung mit Ihrer Ematronic-Engine: 
 ======================================================================
 
 Motor zurückgesetzt: 

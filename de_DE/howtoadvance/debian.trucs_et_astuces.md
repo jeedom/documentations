@@ -15,7 +15,7 @@ Hier sind einige nützliche Pakete, um eine leere Installation durchzuführen :
 
 <!-- -->
 
-    apt-get install -y vim fail2ban Netzwerkzeuge dos2unix
+    apt-get install -y vim fail2ban net-tools dos2unix
 
 Wenn Sie mit VMware arbeiten, können Sie zusätzliche Tools hinzufügen
 :
@@ -128,9 +128,9 @@ MYSQL unter Stretch :
     Geben Sie 'help' ein. oder '\ h' um Hilfe. Geben Sie '\ c' ein, um die aktuelle Eingabeanweisung zu löschen.
 
     MariaDB [MySQL]>
-    MariaDB [MySQL]> GEWÄHRLEISTUNG FÜR ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+    MariaDB [mysql]> GEWÄHRLEISTUNG FÜR ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
     Abfrage OK, 0 Zeilen betroffen (0.00 Sek.)
-    MariaDB [MySQL]> exit;
+    MariaDB [mysql]> exit;
     Bye
 
 > **Tip**

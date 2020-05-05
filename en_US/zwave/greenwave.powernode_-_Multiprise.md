@@ -275,7 +275,7 @@ in one button.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

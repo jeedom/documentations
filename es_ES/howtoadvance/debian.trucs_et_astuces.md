@@ -15,7 +15,7 @@ Aquí hay algunos paquetes útiles para instalar en blanco. :
 
 <!-- -->
 
-    apt-get install -y vim fail2ban herramientas de red dos2unix
+    apt-get install -y vim fail2ban net-tools dos2unix
 
 Si está en VMware, puede agregar herramientas adicionales
 :

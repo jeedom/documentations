@@ -32,8 +32,8 @@ Luego debe recuperar la dirección IP del sistema :
 
 El resultado es :
 
-    eth0 Enlace encap:Ethernet HWaddr d0:63:b4:00:54:98
-              inet addr:192.168.0.162 Bcast:192.168.0.255 máscara:255.255.255.0
+    eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
+              inet addr:192.168.0.162  Bcast:192.168.0.255 máscara:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
@@ -132,7 +132,7 @@ Deberías tener :
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 tiempo = 0.059 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 tiempo = 0.068 ms
     ^C
-    --- ojn.raspberry.estadísticas de ping pi ---
+    --- ojn.raspberry.pi ping statistics ---
     4 paquetes transmitidos, 4 recibidos, 0% de pérdida de paquetes, tiempo 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
@@ -214,7 +214,7 @@ Hacer :
 
     su ojn
     cd / home / ojn / OpenJabNab / server
-    qhacer -r
+    qmake -r
     make
 
 > **Note**
@@ -419,7 +419,7 @@ Entonces tienes que hacer 3 archivos :
 <!-- -->
 
     ######################################################################
-    # Generado automáticamente por qhacer (2.01a) sáb ene. 19 19:10:01 2008
+    # Generado automáticamente por qmake (2.01a) sáb ene. 19 19:10:01 2008
     ######################################################################
 
     PLANTILLA = lib
@@ -563,7 +563,7 @@ Recompilar
 -------------
 
     cd / home / ojn / OpenJabNab / server
-    qhacer -r
+    qmake -r
     make
 
 Modificación del servicio tts 

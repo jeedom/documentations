@@ -2,12 +2,12 @@
 
 Hay varias posibilidades para crear widgets personalizados para complementos :
 
-- el primero con el función toHtml (método de instancia) que hereda de el clase eqLogic
+- el primero con la función toHtml (método de instancia) que hereda de la clase eqLogic
 - por el sistema de plantillas (solo v4)
 
 ## Función ToHtml
 
-Por encima de nada especial, el función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Por encima de nada especial, la función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Lo importante es especialmente las primeras líneas. :
 
@@ -20,8 +20,8 @@ if (!is_array($replace)) {
 
 La función preToHtml devuelve :
 
-- una cadena si el widget está en caché (si está en caché, no ha habido cambios desde el última generación, por lo que es posible que desee enviarlo de inmediato)
-- una tabel con los reemplazos principales, tienes el lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- una cadena si el widget está en caché (si está en caché, no ha habido cambios desde la última generación, por lo que es posible que desee enviarlo de inmediato)
+- una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## El sistema de plantillas
 
@@ -44,17 +44,17 @@ public static function templateWidget(){
 }
 ````
 
-Aquí crearemos un nuevo widget basado en el plantilel "tmplmultistate" (tiene el lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
+Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
 > **IMPORTANT**
 >
-> Cada plantilel es para un tipo y subtipo dado, por lo que debe verificar que el plantilel que desea usar existe para el tipo y subtipo
+> Cada plantilla es para un tipo y subtipo dado, por lo que debe verificar que la plantilla que desea usar existe para el tipo y subtipo
 
-Luego, dado que es una plantilel con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en el parte de prueba de el tabla..
+Luego, dado que es una plantilla con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en la parte de prueba de la tabla..
 
-Ejemplo : para el primera prueba decimos que si el valor del comando vale 2, entonces tendremos que reemplazar el etiqueta #\_state_# (en el código html de el plantilla) por </i>
+Ejemplo : para la primera prueba decimos que si el valor del comando vale 2, entonces tendremos que reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por </i>
 
-Otro ejemplo basado en otra plantilel podría ser :
+Otro ejemplo basado en otra plantilla podría ser :
 
 ````
 public static function templateWidget(){
@@ -70,11 +70,11 @@ public static function templateWidget(){
 }
 ````
 
-Aquí creo un widget de toto basado en el plantilel "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
+Aquí creo un widget de toto basado en la plantilla "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
 
 >**TIPS**
 >
-> Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con el ruta)
+> Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con la ruta)
 
 Luego para usar tu widget :
 

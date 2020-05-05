@@ -2,9 +2,9 @@
 
 Integriert seit Version 3.0 von Jeedom, der Datei **info.json** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
 
-Die Info-Datei.json wird im Ordner / plugin_Info / Ihres Plugins gespeichert.
+Die Info-Datei.json wird im Ordner / plugin_info / Ihres Plugins gespeichert.
 
-Liste der Variablen in der Datei Info.json
+Liste der Variablen in der Datei info.json
 
 Mit * gekennzeichnete Felder sind Pflichtfelder.
 
@@ -33,7 +33,7 @@ Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgef
 
 **Exemple** :
 
-[Plugin-Vorlagendatei / plugin_Info / Info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Plugin-Vorlagendatei / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 

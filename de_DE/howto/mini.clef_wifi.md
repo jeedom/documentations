@@ -50,13 +50,13 @@ zu Hause bekomme ich es zurück :
 
     8192cu 550797 0
 
-Bearbeiten der Datei "/ etc / Netzwerk / interfaces""
+Bearbeiten der Datei "/ etc / network / interfaces""
 ==============================================
 
-Sie müssen zuerst die Datei "/ etc / Netzwerk / interfaces" mit dem bearbeiten
+Sie müssen zuerst die Datei "/ etc / network / interfaces" mit dem bearbeiten
 nächste Bestellung :
 
-    sudo nano / etc / Netzwerk / interfaces
+    sudo nano / etc / network / interfaces
 
 Hier ist der Inhalt der Betriebsdatei bei mir :
 

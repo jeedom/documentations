@@ -132,7 +132,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -177,14 +177,14 @@ Here is the list of commands :
 -   Seismic : it is the command which allows to increase the intensity
     sismique
 
--   Sabotage : this is the Sabotage command (it is triggered in case
+-   Sabotage : this is the sabotage command (it is triggered in case
     vibration)
 
 -   Drums : it's the battery command
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -197,7 +197,7 @@ Here is the list of commands :
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -254,9 +254,9 @@ Parameter details :
 -   20: sensitivity of the gyro sensor (recommended value 15)
 
 -   22: time after which the sensor will send the signal "more than
-    Sabotage "(recommended value 30)
+    sabotage "(recommended value 30)
 
--   24: lets you tell how the Sabotage is notified (IMPORTANT :
+-   24: lets you tell how the sabotage is notified (IMPORTANT :
     recommended value : Tamper sensor notified to SensorAlarm
     command class / Cancellation is notified after the time defined in
     parameter 22)
@@ -322,13 +322,13 @@ The names of the groups in the Z-Wave + version are as follows:
 
 -   2 : Motion, motion sensor.
 
--   3 : Tamper, Sabotage alert.
+-   3 : Tamper, sabotage alert.
 
 -   4 : Motion BC, motion sensor. This group aims to ensure
     backward compatibility with controllers that do not support
     the Z-Wave + protocol.
 
--   5 : Tamper BC, Sabotage alert. The purpose of this group is to
+-   5 : Tamper BC, sabotage alert. The purpose of this group is to
     backward compatibility with controllers that do not support
     Z-Wave + protocol.
 
@@ -393,7 +393,7 @@ taken into account at the next wakeup.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

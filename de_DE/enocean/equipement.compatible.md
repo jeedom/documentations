@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|
 ||A5-04|||||
 |<img src="../../de_DE/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Feuchtigkeits- und Temperatur-Funksonde für die Innenmontage|Temperatur|||
-|<img src="../../de_DE/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Unsicher + Pilot Feuchtigkeits- und Temperaturfühler|Temperatur|||
+|<img src="../../de_DE/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe + Pilot Feuchtigkeits- und Temperaturfühler|Temperatur|||
 |<img src="../../de_DE/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Feuchtigkeits- und Temperatur-Funksonde für die Außenmontage - FAFT60|Temperatur||[Kaufen](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
 
 # A5-06
@@ -43,7 +43,7 @@
 ||A5-09|||||
 |<img src="../../de_DE/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|CO2-Luftqualitätssensor E4000|Capteur|||
 |<img src="../../de_DE/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|CO2-Temperatur-Feuchtigkeitssensor|Capteur|||
-|<img src="../../de_DE/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Unsicher + Carbon Co2 Probe Luftfeuchtigkeitstemperatur|Capteur|||
+|<img src="../../de_DE/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Insafe + Carbon Co2 Probe Luftfeuchtigkeitstemperatur|Capteur|||
 |<img src="../../de_DE/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Luftqualitätssensor E4000|Capteur|||
 ||Nanosense|P4000 Feinpartikelsonde|Capteur|||
 |<img src="../../de_DE/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Luftqualitätssensor E4000NG|Capteur|||

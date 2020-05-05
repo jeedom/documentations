@@ -12,7 +12,7 @@
 
 > **Note**
 >
-> This Documentation is deliberately not detailed so that
+> This documentation is deliberately not detailed so that
 > the operation is not easy. Indeed, being in beta requires
 > computer skills as well as log decryption or
 > Documentation.

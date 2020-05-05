@@ -110,7 +110,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 1 second on
 > the button (until rapid flashing) and release, in accordance with
-> paper Documentation.
+> paper documentation.
 
 \
 
@@ -152,12 +152,12 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
 If you want to configure the module you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 

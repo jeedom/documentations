@@ -1,4 +1,4 @@
-Everspring Miniplug Uno / Apagado - AN180-6 
+Everspring Miniplug On / Off - AN180-6 
 ====================================
 
 \
@@ -30,7 +30,7 @@ casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
 Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
 fluorescente, Led).
 
-El Mini Uno / Apagado Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
+El Mini On / Off Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
 para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
 ser controlado por un control remoto, software de PC o cualquier
 Controlador Z-Wave para su red.
@@ -229,7 +229,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos \
+    segundos. \
 
 Despertador 
 ------

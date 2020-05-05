@@ -73,7 +73,7 @@ Funktionen
 
 -   Entspricht der Norm EN 14604:2005
 
--   Z-Wave Mehr kompatibel
+-   Z-Wave Plus kompatibel
 
 -   Sehr einfache Installation - installieren Sie es einfach an einem Ort
     oder es besteht Brandgefahr

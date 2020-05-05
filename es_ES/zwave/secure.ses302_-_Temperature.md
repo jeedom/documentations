@@ -156,7 +156,7 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-Varias temperaturas no visibles también están disponible y serán
+Varias temperaturas no visibles también están disponibles y serán
 útil si ha conectado sondas externas
 
 \

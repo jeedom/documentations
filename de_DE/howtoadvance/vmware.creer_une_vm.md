@@ -3,15 +3,15 @@ Wir werden hier sehen, wie Sie eine VM unter VMware erstellen.
 Bevor es etwas Wichtiges über VMware gibt, gibt es zwei
 Weg des Managers :
 
--   die Weboberfläche ((standardmäßig in 6 vorhanden.0 Update 2 oder von
+-   die Weboberfläche (standardmäßig in 6 vorhanden.0 Update 2 oder von
     über eine Vib für die anderen Versionen) greifen wir über zu
     IP\_ESXI / ui
 
--   der schwere und historische Client von VMware ((vSphere-Client)
+-   der schwere und historische Client von VMware (vSphere-Client)
 
 Hier werde ich hauptsächlich das Webinterface verwenden, weil ich denke, dass es das ist
 die Zukunft von VMware, die den Thick Client zunehmend aufgibt
-((übrigens alle neuen Funktionen seit dem 5.1 kann nicht verwendet werden
+(übrigens alle neuen Funktionen seit dem 5.1 kann nicht verwendet werden
 mit dem schweren Kunden).
 
 Beachten Sie auch, dass die Weboberfläche noch implementiert wird
@@ -42,16 +42,16 @@ kann schon von diesem Bildschirm :
 
 -   Stoppen Sie den ESXi / starten Sie ihn neu
 
--   siehe Ressourcennutzung ((CPU, Speicher und Festplatte)
+-   siehe Ressourcennutzung (CPU, Speicher und Festplatte)
 
--   Informationen über Ihr System haben ((Betriebszeit,
+-   Informationen über Ihr System haben (Betriebszeit,
     VMware-Version, BIOS-Version, Datenspeicheranzeige)
 
--   Schaltfläche zum Erstellen einer VM ((wir werden sie direkt danach verwenden)
+-   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
 
 -   Eine Aktionstaste, mit der Sie in den Wartungsmodus wechseln können
-    ((nützlich, wenn Sie einen ESXi-Cluster haben, sonst nicht
-    Niemals dienen), SSH-Dienst aktivieren / deaktivieren ((wird verwendet
+    (nützlich, wenn Sie einen ESXi-Cluster haben, sonst nicht
+    Niemals dienen), SSH-Dienst aktivieren / deaktivieren (wird verwendet
     im Backup-Konfigurations-Tutorial)
 
 Installations-ISO senden 
@@ -66,7 +66,7 @@ Klicken Sie dazu auf Datenspeicher :
 
 ![vmware.createvm18]((images/vmware.createvm18.PNG)
 
-Wählen Sie Ihren Datenspeicher aus ((normalerweise heißt er Datenspeicher1). :
+Wählen Sie Ihren Datenspeicher aus (normalerweise heißt er Datenspeicher1). :
 
 ![vmware.createvm19]((images/vmware.createvm19.PNG)
 
@@ -74,7 +74,7 @@ Klicken Sie auf "Datenbankbrowser" :
 
 ![vmware.createvm20]((images/vmware.createvm20.PNG)
 
-Klicken Sie auf "Download" ((der erste) :
+Klicken Sie auf "Download" (der erste) :
 
 ![vmware.createvm21]((images/vmware.createvm21.PNG)
 
@@ -103,7 +103,7 @@ Klicken Sie auf Weiter :
 ![vmware.createvm6]((images/vmware.createvm6.PNG)
 
 Geben Sie Ihrem Computer einen Namen und geben Sie dessen System an
-Betrieb ((hier installieren wir einen Debian) :
+Betrieb (hier installieren wir einen Debian) :
 
 ![vmware.createvm7]((images/vmware.createvm7.PNG)
 
@@ -111,7 +111,7 @@ Geben Sie den Zieldatenspeicher an :
 
 ![vmware.createvm8]((images/vmware.createvm8.PNG)
 
-Hier können Sie die Parameter Ihres Computers ((Festplatte) konfigurieren
+Hier können Sie die Parameter Ihres Computers (Festplatte) konfigurieren
 hart, CPU, Gedächtnis ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
@@ -120,7 +120,7 @@ hart, CPU, Gedächtnis ...) :
 >
 > Alle diese Parameter können anschließend ohne Bedenken geändert werden
 > Es ist jedoch nicht wirklich möglich, die Größe zu reduzieren
-> Eine Festplatte können Sie vergrößern ((aber Sie müssen wissen, wie man sie verwaltet
+> Eine Festplatte können Sie vergrößern (aber Sie müssen wissen, wie man sie verwaltet
 > Betriebssystemebene weiter), aber nicht reduzieren.
 
 Wählen Sie im CD / DVD-Laufwerk "ISO-Dateibank von
@@ -128,7 +128,7 @@ Daten" :
 
 ![vmware.createvm10]((images/vmware.createvm10.PNG)
 
-Wählen Sie dann den Speicherort Ihrer ISO aus ((siehe
+Wählen Sie dann den Speicherort Ihrer ISO aus (siehe
 vorheriges Kapitel) und validieren :
 
 ![vmware.createvm11]((images/vmware.createvm11.PNG)
@@ -147,7 +147,7 @@ Eine Nachricht oben zeigt an, dass es gut ist, und klicken Sie dann auf
 
 ![vmware.createvm14]((images/vmware.createvm14.PNG)
 
-Sie sollten Ihre virtuelle Maschine sehen ((wenn nicht klicken
+Sie sollten Ihre virtuelle Maschine sehen (wenn nicht klicken
 auf "Aktualisieren") klicken Sie darauf :
 
 ![vmware.createvm15]((images/vmware.createvm15.PNG)
@@ -164,7 +164,7 @@ Ihr Betriebssystem :
 > **Important**
 >
 > Sobald Ihr Computer installiert ist, MÜSSEN Sie den installieren
-> VMware-Tools ((Dadurch kann VMware Informationen zu Ihrer VM abrufen
+> VMware-Tools (Dadurch kann VMware Informationen zu Ihrer VM abrufen
 > und richtig ausschalten). Unter Debian einfach machen
 > "sudo apt-get -y installiere open-vm-tools".
 

@@ -1,4 +1,4 @@
-Swiid Switch - SwiidInter 
+Swiid Switch - Swiidinter 
 ===============================
 
 \.
@@ -44,7 +44,7 @@ SwiidInter.
 Der SwiidInter-Switch wird genau wie ein Switch installiert
 auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
-In ein Z-WAVE "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
+In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
 Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
 distance.
 
@@ -79,7 +79,7 @@ Technische Daten
 
 \.
 
--   Modultyp : Z-WAVE Empfänger
+-   Modultyp : Z-Wave Empfänger
 
 -   Farbe : noire
 
@@ -254,7 +254,7 @@ Verbinde dich mit einem anderen Licht
 
 \.
 
-Den SwiidInter mit einem anderen Licht verbinden und davon profitieren können
+Den Swiidinter mit einem anderen Licht verbinden und davon profitieren können
 Wenn Sie ein anderes Licht einschalten, fügen Sie es einfach der Gruppe hinzu
 der Assoziation 1 über den oben genannten Bildschirm.
 

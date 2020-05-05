@@ -1,4 +1,4 @@
-Interruptor Swiid - SwiidInter 
+Interruptor Swiid - Swiidinter 
 ===============================
 
 \
@@ -25,7 +25,7 @@ Resumen
 \
 
 SwiidInter es el primer interruptor de cable del entorno
-Domótica Onda Z que es lo suficientemente pequeña y discreta como para ser
+Domótica Z-Wave que es lo suficientemente pequeña y discreta como para ser
 comparable a un interruptor de cable ordinario.
 
 Se puede usar tanto manualmente como cualquier
@@ -34,10 +34,10 @@ Z-Wave.
 
 El interruptor SwiidInter también ofrece posibilidades de asociación.
 y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
-otro dispositivo Onda Z en la misma red, como el
+otro dispositivo Z-Wave en la misma red, como el
 detector de presencia activado. Por el contrario con apoyo
 corto o con una pulsación larga puede controlar dos grupos separados de
-Dispositivos Onda Z asociados a él : por ejemplo cada
+Dispositivos Z-Wave asociados a él : por ejemplo cada
 otras luces en la habitación donde se encuentra su interruptor
 SwiidInter.
 
@@ -61,7 +61,7 @@ Funciones
 -   Úselo como reemplazo de un interruptor de cable estándar
     una lámpara de mesilla de noche, mesa o escritorio
 
--   Función Uno / OFF
+-   Función ON / OFF
 
 -   Activación de un escenario de domótica en pulsación larga
     (Asociación Z-Wave)

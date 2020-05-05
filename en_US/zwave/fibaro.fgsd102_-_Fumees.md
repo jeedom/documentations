@@ -73,7 +73,7 @@ Functions
 
 -   Complies with standard EN 14604:2005
 
--   Z-Wave More compatible
+-   Z-Wave Plus compatible
 
 -   Very simple installation - just install it in one place
     or there is a risk of fire
@@ -147,7 +147,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> central inclusion button, according to its paper Documentation.
+> central inclusion button, according to its paper documentation.
 
 \
 
@@ -198,7 +198,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -211,7 +211,7 @@ Here is the list of commands :
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -325,7 +325,7 @@ taken into account at the next wakeup.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

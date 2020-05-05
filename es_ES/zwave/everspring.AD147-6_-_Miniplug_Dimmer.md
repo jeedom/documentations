@@ -1,4 +1,4 @@
-Everspring Dimmer Miniplug - AD147-6 
+Everspring Miniplug Dimmer - AD147-6 
 ====================================
 
 \
@@ -233,7 +233,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos \
+    segundos. \
 
 Despertador 
 ------

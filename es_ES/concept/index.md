@@ -2,7 +2,7 @@
 
 Aquí están los principales conceptos básicos de Jeedom. Esta documentación sigue siendo voluntariamente simple para ayudarlo a tomar el control de su domótica.
 
-Las posibilidades de Jeedom sUno casi infinitas, ya que puedes crear muchas cosas cUno unos pocos pythUno u otros scripts php, pero ese no es el punto aquí..
+Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas con unos pocos python u otros scripts php, pero ese no es el punto aquí..
 
 > Tip
 >
@@ -22,7 +22,7 @@ Puede ver estos dispositivos de varias maneras. :
 
 ![Synthese](images/concept-synthese.jpg)
 
-Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente cUno la aplicación web o aplicación móvil : [Versión móvil](/es_ES/mobile/index")
+Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente con la aplicación web o aplicación móvil : [Versión móvil](/es_ES/mobile/index")
 
 ## Los objetos
 
@@ -42,11 +42,11 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 ### Commandes
 
-Para interactuar cUno nuestra automatización del hogar, necesita comandos ! Estos sUno de dos tipos. :
+Para interactuar con nuestra automatización del hogar, necesita comandos ! Estos son de dos tipos. :
 
 > Note
 >
-> Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones sUno para una mejor comprensión..
+> Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones son para una mejor comprensión..
 
 - Las órdenes *info* :
 Estos comandos almacenan información de los sensores.. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc..
@@ -57,7 +57,7 @@ Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1
 - Las órdenes *action* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos **on** y **off** de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
-Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones **on** y **off**, generalmente relacionado cUno la información **Etat**.
+Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones **on** y **off**, generalmente relacionado con la información **Etat**.
 
 ![Comandos](images/concept-commands.jpg)
 
@@ -65,10 +65,10 @@ Estos dos tipos de comandos se adjuntan en forma de equipo.. Por lo tanto, el eq
 
 ### Équipement
 
-- Physiquement: Tengo un enchufe cUno un botón de encendido / apagado y un led de estado, en la sala de estar.
-- En Jeedom: Tengo equipo cUno dos acciones de encendido y apagado y una información de estado, en el objeto Sala de estar.
+- Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.
+- En Jeedom: Tengo equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salon.
 
-Estos equipos sUno creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su complemento Z-Waze, que creará un dispositivo cUno sus controles, que puede nombrar y vincular a un Objeto..
+Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su complemento Z-Waze, que creará un dispositivo con sus controles, que puede nombrar y vincular a un Objeto..
 
 En términos de visualización, cada pedido se muestra utilizando un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
 

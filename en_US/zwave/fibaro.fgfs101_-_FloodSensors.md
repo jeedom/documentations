@@ -187,7 +187,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -200,7 +200,7 @@ Here is the list of commands :
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -312,7 +312,7 @@ configuration will be taken into account at the next wakeup.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \
@@ -328,7 +328,7 @@ IMPORTANT note
 \
 Usage detail :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
-Fibaro Documentation :
+Fibaro documentation :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
 \

@@ -111,7 +111,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -163,13 +163,13 @@ in one button.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 

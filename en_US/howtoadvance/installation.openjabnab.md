@@ -33,7 +33,7 @@ Then you have to recover the IP address of the system :
 The result is :
 
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
-              inet addr:192.168.0.162 Bcast:192.168.0.255 Mask:255.255.255.0
+              inet addr:192.168.0.162  Bcast:192.168.0.255 Mask:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:5498/64 Scope:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
               RX packets:10721 errors:0 dropped:0 overruns:0 frame:0
@@ -277,7 +277,7 @@ To configure the rabbit it's quite simple, you must unplug it
 then reconnect it, stay press its button. He must
 normally light blue.
 
-Then with your PVS you should have a new wifi network
+Then with your PC you should have a new wifi network
 nabaztagXX, connect to it by typing 192.168.0.1.
 
 Once on enter your wifi configuration and information

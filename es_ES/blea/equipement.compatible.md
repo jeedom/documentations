@@ -157,13 +157,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale|Scale|Gestión completa del perfil||
-|<img src="../../es_ES/blea/images/miscale.jpg" width="60" />|Xiaomi|MiEscala 2019|Scale|Gestión completa del perfil||
+|<img src="../../es_ES/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale 2019|Scale|Gestión completa del perfil||
 
 # Miscale2
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiEscala V2|Scale|Gestión completa del perfil||
+|<img src="../../es_ES/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiScale V2|Scale|Gestión completa del perfil||
 
 # Myfox
 
@@ -199,7 +199,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/parrotpot.jpg" width="60" />|Parrot|Loro Pot|Capteurs|Sensores de planta||
+|<img src="../../es_ES/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Capteurs|Sensores de planta||
 
 # Playbulb
 

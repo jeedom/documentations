@@ -50,13 +50,13 @@ en casa lo recupero :
 
     8192cu 550797 0
 
-Edición del archivo "/ etc / red / interfaces"
+Edición del archivo "/ etc / network / interfaces"
 ==============================================
 
-Primero debe editar el archivo "/ etc / red / interfaces" con el
+Primero debe editar el archivo "/ etc / network / interfaces" con el
 orden siguiente :
 
-    sudo nano / etc / red / interfaces
+    sudo nano / etc / network / interfaces
 
 Aquí está el contenido del archivo operativo conmigo :
 

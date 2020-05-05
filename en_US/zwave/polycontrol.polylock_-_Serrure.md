@@ -120,7 +120,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 1 time
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -164,7 +164,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

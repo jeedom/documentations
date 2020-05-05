@@ -37,7 +37,7 @@ bienvenidos respaldos por ejemplo).
 > **Note**
 >
 > En el resto de este tutorial considero que has puesto el script
-> ghettoVCB.sh en / vmfs / volume / Backup / ghettoVCB.sh. Depende de usted adaptarse
+> ghettoVCB.sh en /vmfs/volumes/Backup/ghettoVCB.sh. Depende de usted adaptarse
 > dependiendo de su configuración, los comandos / scripts provistos.
 
 Conexión en ssh 
@@ -106,7 +106,7 @@ Los parámetros que debe adaptar son :
 > **Important**
 >
 > Tenga cuidado de poner / final para el parámetro
-> VM\_BACKUP\_VOLUME de lo contrario, el Guión tendrá un error
+> VM\_BACKUP\_VOLUME de lo contrario, el script tendrá un error
 
 Prueba de respaldo 
 ==============
@@ -115,7 +115,7 @@ Aquí vamos a lanzar una primera copia de seguridad inicial de todas las máquin
 ver si todo está bien. A partir de entonces lo programaremos automáticamente.
 Regrese al ESXi en SSH (vuelva a conectar si es necesario) y haga :
 
-    / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
 Esto lanzará una copia de seguridad de todas sus máquinas virtuales (y, por lo tanto, puede tomar mucho
 de tiempo). Al final, debe tener en su almacén de datos de respaldo un
@@ -138,26 +138,26 @@ Aquí hay otra posibilidad para la línea de comando :
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -d dryrun -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    /vmfs/volumes/Backup/ghettoVCB.sh -d dryrun -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
 -   Iniciar en modo de depuración :
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -d debug -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    /vmfs/volumes/Backup/ghettoVCB.sh -d debug -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
 -   Copia de seguridad solo de la VM "toto"
 
 <!-- -->
 
-    / vmfs / volume / Backup / ghettoVCB.sh -m toto -a -g / vmfs / volume / Backup / ghettoVCB.conf
+    /vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
 Lanzamiento automático de respaldo 
 =================================
 
 Debe agregar la línea de comando al crontab pero en VMware el
 crontab es un poco especial y se sobrescribe especialmente en cada inicio. Para
-evite esto, por lo que debe agregar un pequeño Guión que actualizará el
+evite esto, por lo que debe agregar un pequeño script que actualizará el
 crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
 
@@ -166,7 +166,7 @@ SSH en el ESXi do :
 Y antes de "salir 0" agregue las siguientes líneas :
 
     / bin / kill $ (cat /var/run/crond.pid)
-    / bin / echo "0 0 1 * * / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf> / dev / null 2> & 1 ">> / var / spool / cron / crontabs / root
+    / bin / echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     / usr / lib / vmware / busybox / bin / busybox crond
 
 > **Note**
@@ -180,14 +180,14 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > reemplazando -a con -m ma\_vm, tenga cuidado si quiere poner
 > varias máquinas virtuales debe duplicar la línea "/ bin / echo" 0 0 1 \* \*
 > / vmfs / volume / Backup / ghettoVCB.sh -a -g
-> / vmfs / volume / Backup / ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
+> /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "y coloca uno por VM para hacer una copia de seguridad
 
 > **Important**
 >
 > No olvide adaptar la ruta al archivo de configuración de
 > ghettoVCB según su configuración :
-> / vmfs / volume / Backup / ghettoVCB.conf
+> /vmfs/volumes/Backup/ghettoVCB.conf
 
 Ultimo paso: debe reiniciar su ESXi para que se tome el cron
 en cuenta, puede ver el resultado haciendo (siempre en SSH) :
@@ -196,4 +196,4 @@ en cuenta, puede ver el resultado haciendo (siempre en SSH) :
 
 Aquí debes tener una línea :
 
-    0 0 1 * * / vmfs / volume / Backup / ghettoVCB.sh -a -g / vmfs / volume / Backup / ghettoVCB.conf> / dev / null 2> & 1
+    0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1

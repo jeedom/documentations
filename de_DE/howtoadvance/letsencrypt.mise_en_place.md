@@ -44,7 +44,7 @@ Aktivierung des virtualHost- und SSL-Moduls
 > Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
 > in HTTPS ist von außen nicht erreichbar.
 
-    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d Domain.com
+    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d domaine.com
 
 Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
 durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
@@ -57,7 +57,7 @@ werden vom Skript in Apache hinzugefügt.
 > Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
 > Erneuerung :
-> /etc/apache2/sites-available/000-default-le-ssl.conf \. `
+> /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
     <FilesMatch "\..(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
@@ -73,7 +73,7 @@ Konfiguration von Nginx
 Dieser Befehl darf nur verwendet werden, wenn Sie einen Webserver haben
 Nginx.
 
-    ./ letsencrypt-auto certonly - E-Mail email @ domain.com -d Domain.com -a webroot --webroot-path / usr / share / nginx / www /
+    ./ letsencrypt-auto certonly - E-Mail email @ domain.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
 
 Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
 sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen
@@ -165,7 +165,7 @@ Schritte zu folgen :
 
 > **Tip**
 >
-> Um die Planung zu verstehen 0 5 \.* \.* 1, schauen Sie hier und
+> Um die Planung zu verstehen 0 5 \* \.* 1, schauen Sie hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 

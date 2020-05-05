@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Die Grünwelle PowerNode-Steckdosenleiste ist ein intelligentes Gerät, das
+Die GreenWave PowerNode-Steckdosenleiste ist ein intelligentes Gerät, das
 verbindet sich mit Ihren Haushaltsgeräten und Elektronik für Sie
 Mit dieser Funktion können Sie den Stromverbrauch Ihres Geräts überwachen und steuern
 Geräte aus der Ferne über Webbrowser oder Smartphone. Verwenden von
@@ -125,7 +125,7 @@ Moduldaten
 
 -   Machen Sie : GreenWave
 
--   Name : Grünwelle \ [6 x Sockets \]
+-   Name : GreenWave \ [6 x Sockets \]
 
 -   Hersteller ID : 153
 
@@ -377,7 +377,7 @@ von 6 nimmt.
 \.
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
-auf dieser Schaltfläche auf der Registerkarte System verfügbar. (Es erfolgt ein Zurücksetzen von
+auf dieser Schaltfläche auf der Registerkarte System verfügbar. (Es erfolgt ein Reset von
 genommen). Wählen Sie PressButton.
 
 \.

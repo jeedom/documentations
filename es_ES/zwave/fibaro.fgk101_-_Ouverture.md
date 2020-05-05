@@ -43,7 +43,7 @@ conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de s
 elección como detector de humo, gas o monóxido de carbono,
 etc.
 
-Se requiere un controlador Z-Wave (control remoto, dongle, Etcétera.) para
+Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este detector en su red si ya tiene una red
 existant.
 

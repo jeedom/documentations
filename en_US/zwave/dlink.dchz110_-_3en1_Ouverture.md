@@ -124,7 +124,7 @@ inclusion refer to this
 > the magnet during tests on a flat surface and during installation.
 > (Use shims if necessary) To put this module in mode
 > inclusion it is necessary to press 3 times on the association button in 1.5
-> second, according to its Documentation. (constant red flashing
+> second, according to its documentation. (constant red flashing
 > in association mode)
 
 \
@@ -173,7 +173,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -187,7 +187,7 @@ Here is the list of commands :
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -313,7 +313,7 @@ good configuration)
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

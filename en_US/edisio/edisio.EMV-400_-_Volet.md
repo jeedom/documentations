@@ -11,7 +11,7 @@ Summary
 
 The EMV-400 micromodule will allow you to manage an engine
 bidirectional or electrical equipment. It allows control
-2 Start / STOP outputs or an Open / STOP / Close shutter.
+2 Start / Stop outputs or an Open / Stop / Close shutter.
 
 In addition, interaction with other protocols is possible, it is
 controllable by brand switches and / or remote controls
@@ -38,7 +38,7 @@ Functions
 -   Installs in a 55mm flush-mounted box or directly in
     the opening boxes
 
--   Mode of use: On / Off, Open / STOP / Close
+-   Mode of use: On / Off, Open / Stop / Close
 
 -   Compatible with electronic limit switches and
     mechanical
@@ -140,7 +140,7 @@ keys ", this is how the module works:
 
 > **Note**
 >
-> Refer to the manufacturer's Documentation in order to be able to
+> Refer to the manufacturer's documentation in order to be able to
 > configure your transmitter.
 
 ![diagramme](images/emv.400/diagramme.jpg)
@@ -222,7 +222,7 @@ Here is the list of commands :
 
 > **Important**
 >
-> STATUS feedback is simulated by Jeedom. Therefore, if you
+> Status feedback is simulated by Jeedom. Therefore, if you
 > use another transmitter, Jeedom will not be able to update the status
 > of the receiver.
 

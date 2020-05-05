@@ -112,7 +112,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> LEARN, in accordance with its paper Documentation.
+> LEARN, in accordance with its paper documentation.
 
 \
 
@@ -165,7 +165,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -178,7 +178,7 @@ Here is the list of commands :
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -267,7 +267,7 @@ take into account that if you wake up the remote control.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

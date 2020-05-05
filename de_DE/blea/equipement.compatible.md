@@ -157,13 +157,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale|Scale|Vollständige Profilverwaltung||
-|<img src="../../de_DE/blea/images/miscale.jpg" width="60" />|Xiaomi|MiSkala 2019|Scale|Vollständige Profilverwaltung||
+|<img src="../../de_DE/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale 2019|Scale|Vollständige Profilverwaltung||
 
 # Miscale2
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiSkala V2|Scale|Vollständige Profilverwaltung||
+|<img src="../../de_DE/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiScale V2|Scale|Vollständige Profilverwaltung||
 
 # Myfox
 

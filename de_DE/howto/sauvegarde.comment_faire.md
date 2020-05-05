@@ -154,7 +154,7 @@ Unter Linux
 
     -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben :
         `sudo dd if = / dev / sdc von = Backup_Jeedom.img bs = 1m` * Hinweis: Dans
-        In diesem Beispiel lautund der Name der Festplatte / dev / sdc.*
+        In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
 2.  **Restauration**
 
@@ -167,6 +167,6 @@ Unter Linux
 
     -   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben :
         `sudo dd if = Backup_Jeedom.img von = / dev / sdc bs = 1m` * Hinweis: Dans
-        In diesem Beispiel lautund der Name der Festplatte / dev / sdc.*
+        In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
 

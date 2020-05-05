@@ -1,4 +1,4 @@
-SmartHome by Everspring In Wall We Off - AN179-0 
+SmartHome by Everspring In Wall On Off - AN179-0 
 ================================================
 
 \
@@ -100,7 +100,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Name : In Wall We Off
+-   Name : In Wall On Off
 
 -   Manufacturer ID : 96
 
@@ -124,7 +124,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation. It's important to
+> button, according to its paper documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -173,7 +173,7 @@ the same icon.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

@@ -1,4 +1,4 @@
-Everspring Miniplug We / Off - AN180-6 
+Everspring Miniplug On / Off - AN180-6 
 ====================================
 
 \
@@ -24,13 +24,13 @@ Summary
 
 \
 
-The Mini We / Off Plug is designed to control ignition and
+The Mini On / Off Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
 House. With a voltage of 220 - 240 V, this Plug can support a
 load up to 1500W (resistance), 800W (incandescent), 200W (motor,
 fluorescent, Led).
 
-The Mini We / Off Plug is a Z-Wave ™ compatible device which is intended
+The Mini On / Off Plug is a Z-Wave ™ compatible device which is intended
 to work with all Z-Wave ™ compatible networks. She can
 be controlled by a remote control, PC software, or any
 Z-Wave controller for your network.
@@ -94,7 +94,7 @@ Module data
 
 -   Mark : Everspring
 
--   Name : Miniplug We / Off
+-   Name : Miniplug On / Off
 
 -   Manufacturer ID : 96
 
@@ -118,7 +118,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation. It's important to
+> button, according to its paper documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -154,7 +154,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    socket (We / Off)
+    socket (On / Off)
 
 -   We : This is the command that turns on the outlet
 
@@ -167,7 +167,7 @@ the same icon.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

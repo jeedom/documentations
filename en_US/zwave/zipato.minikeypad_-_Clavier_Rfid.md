@@ -44,7 +44,7 @@ Functions
 
 \
 
--   CODED and RFID keypad
+-   Code and RFID keypad
 
 -   Supports Z-Wave technology
 
@@ -173,7 +173,7 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -186,7 +186,7 @@ Here is the list of commands :
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -353,7 +353,7 @@ taken into account at the next wake up.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

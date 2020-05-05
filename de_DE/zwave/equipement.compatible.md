@@ -193,7 +193,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Domux|Bewegungssensor (DX1MS-Z)|Multicapteurs|||
-|<img src="../../de_DE/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux|Smart Rauchsensor (DX1SA-Z)|Rauch|||
+|<img src="../../de_DE/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux|Smart Smoke Sensor (DX1SA-Z)|Rauch|||
 |<img src="../../de_DE/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Domux|Gassensor (DX1CG-Z)|Gaz|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas||
 |<img src="../../de_DE/zwave/images/540.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Domux|Hochwassersensor (DX1WL-Z)|Fuite|||
 |<img src="../../de_DE/zwave/images/540.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Domux|CO-Sensor (DX1CA-Z)|CO|||
@@ -452,7 +452,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/608.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Heiman|Bewegungssensor (HS1MS-Z)|Multicapteurs|||
-|<img src="../../de_DE/zwave/images/608.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Heiman|Smart Rauchsensor (HS1SA-Z)|Rauch|||
+|<img src="../../de_DE/zwave/images/608.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Heiman|Smart Smoke Sensor (HS1SA-Z)|Rauch|||
 |<img src="../../de_DE/zwave/images/608.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Heiman|Gassensor (HS1CG-Z)|Gaz|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas||
 |<img src="../../de_DE/zwave/images/608.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Heiman|Hochwassersensor (HS1WL-Z)|Fuite|||
 |<img src="../../de_DE/zwave/images/608.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Heiman|CO-Sensor (HS1CA-Z)|CO|||
@@ -731,9 +731,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/images/265.4097.257_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
-|<img src="../../de_DE/zwave/images/265.4097.260_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
-|<img src="../../de_DE/zwave/images/265.4097.261_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB-Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/images/265.4097.257_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/images/265.4097.260_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB Stick ZU 1401|Controller|||
+|<img src="../../de_DE/zwave/images/265.4097.261_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision Sicherheit|USB Stick ZU 1401|Controller|||
 |<img src="../../de_DE/zwave/images/265.8193.257_zd2102.us.doorwindow.sensor.jpg" width="60" />|Vision Sicherheit|ZD2102|Ouverture|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
 |<img src="../../de_DE/zwave/images/265.8193.258_zd2102.au.doorwindow.sensor.jpg" width="60" />|Vision Sicherheit|ZD2102|Ouverture|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
 |<img src="../../de_DE/zwave/images/265.8193.260_zd2102.jp.doorwindow.sensor.jpg" width="60" />|Vision Sicherheit|ZD2102|Ouverture|Auch unter der Marke Zipato erhältlich.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
@@ -809,7 +809,7 @@
 |<img src="../../de_DE/zwave/images/305.3.4226_nas-ds01z.jpg" width="60" />|Zipato|Türsensor|Ouverture|||
 |<img src="../../de_DE/zwave/images/305.3.4227_nas-pd01z.jpg" width="60" />|Zipato|PIR-Sensor|Multicapteurs||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4160-zipato-capteur-de-mouvement-pir-z-wave-3858890733341.html)|
 |<img src="../../de_DE/zwave/images/305.3.4233_nas-pd01zt.jpg" width="60" />|Zipato|PIR-Sensor|Multicapteurs|||
-|<img src="../../de_DE/zwave/images/305.32770.4096_hs1saz_smoke_sensor.jpg" width="60" />|Zipato|Smart Rauchsensor (HS1SA-Z)|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
+|<img src="../../de_DE/zwave/images/305.32770.4096_hs1saz_smoke_sensor.jpg" width="60" />|Zipato|Smart Smoke Sensor (HS1SA-Z)|Rauch||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
 |<img src="../../de_DE/zwave/images/305.32771.4096_hs1cgz_gaz_sensor.jpg" width="60" />|Zipato|Gassensor (HS1CG-Z)|Gaz|Keine Warnung an den Controller. Geräusche bei Erkennung von brennbarem Gas|[Kaufen](http://www.domadoo.fr/fr/peripheriques/4153-zipato-capteur-de-gaz-z-wave-3858890733587.html)|
 |<img src="../../de_DE/zwave/images/305.32772.4096_hs1wlz_flood_sensor.jpg" width="60" />|Zipato|Hochwassersensor (HS1WL-Z)|Fuite||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4159-zipato-capteur-d-inondation-z-wave--3858890733624.html)|
 |<img src="../../de_DE/zwave/images/305.32773.4096_hs1caz_co_sensor.jpg" width="60" />|Zipato|CO-Sensor (HS1CA-Z)|CO||[Kaufen](http://www.domadoo.fr/fr/peripheriques/4151-zipato-capteur-de-monoxyde-de-carbone-z-wave-3858890733563.html)|

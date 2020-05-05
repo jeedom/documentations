@@ -1,4 +1,4 @@
-| Name            | Type           | Protocol      | NOTE       | Link           |
+| Name            | Type           | Protocol      | Note       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Weather Channel  | Rubicson / Alecto              |                |                |
 | Atlantic's     | Detector      | Meiantech      |                |                |

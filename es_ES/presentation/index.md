@@ -74,7 +74,7 @@ Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 -   Organización (calendario, calendario de Google),
 -   Desarrollo (guión).
 
-Estos complementos se pueden instalar desde Mercado y le permiten ampliar las posibilidades de Jeedom.
+Estos complementos se pueden instalar desde Market y le permiten ampliar las posibilidades de Jeedom.
 
 ![Page Mercado](images/doc-presentation-market.jpg)
 

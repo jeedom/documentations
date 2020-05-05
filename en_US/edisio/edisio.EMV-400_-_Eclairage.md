@@ -38,14 +38,14 @@ Functions
 -   Installs in a 55mm flush-mounted box or directly in
     the opening boxes
 
--   Mode of use: We / Off, Open / Stop / Close
+-   Mode of use: On / Off, Open / Stop / Close
 
 -   Compatible with electronic limit switches and
     mechanical
 
 -   Remote mode
 
--   Timer function: We / Off mode: 30min or 60min
+-   Timer function: On / Off mode: 30min or 60min
 
 -   Signal replica (repeater)
 
@@ -140,7 +140,7 @@ keys ", this is how the module works:
 
 > **Note**
 >
-> Refer to the manufacturer's Documentation in order to be able to
+> Refer to the manufacturer's documentation in order to be able to
 > configure your transmitter.
 
 ![diagramme](images/emv.400/diagramme.jpg)
@@ -228,7 +228,7 @@ Here is the list of commands :
 
 > **Important**
 >
-> STATUS feedback is simulated by Jeedom. Therefore, if you
+> Status feedback is simulated by Jeedom. Therefore, if you
 > use another transmitter, Jeedom will not be able to update the status
 > of the receiver.
 
@@ -292,7 +292,7 @@ Each output must be associated with a Jeedom command:
 Remote method 
 ----------------
 
-We talked about it at the beginning of this Documentation. In the case of
+We talked about it at the beginning of this documentation. In the case of
 modules already built in, in false ceilings or even attics.
 This method allows the addition of a new transmitter without accessing the "R" of the
 receiver.

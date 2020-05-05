@@ -133,7 +133,7 @@ verfügbar :
 
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Verwendung 
 -----------

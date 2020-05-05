@@ -16,7 +16,7 @@ Vmware                  | Stable                  | No support for VMware, only 
 
 The jeedom team recommends you (depending on your budget) :
 
-- Jeedom SMART (everything is preinstalled, you don't have to do anything)
+- Jeedom Smart (everything is preinstalled, you don't have to do anything)
 - Odroid C2 (best performance / price ratio)
 - Intel Nuc gen (extreme performance, see the tutorial category for the choice in different models and installation)
 - RPI4

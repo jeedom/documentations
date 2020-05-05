@@ -116,7 +116,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
-> button, according to its paper Documentation. It's important to
+> button, according to its paper documentation. It's important to
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
@@ -168,7 +168,7 @@ found on the same icon.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

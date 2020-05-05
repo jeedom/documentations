@@ -31,7 +31,7 @@ The url of push is of the form :
 
 With parameters :
 
--   Id : the feed Id found on emoncms
+-   Id : the feed id found on emoncms
 
 -   apikey : the api key of read & write for emoncms
 

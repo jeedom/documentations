@@ -116,7 +116,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press only one
 > 2 buttons on the front panel for 3 sec, in accordance with its
-> paper Documentation.
+> paper documentation.
 
 Once included you should get this :
 
@@ -141,7 +141,7 @@ disponibles.
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -217,10 +217,10 @@ Faq.
 
 To exclude this model, put Openzwave in exclusion mode and press
 on one of the 2 buttons on the front panel for 3 sec, in accordance with its
-paper Documentation.
+paper documentation.
 
 To restore the factory settings, press only one of the 2 buttons
-on the front panel for 10 sec, in accordance with its paper Documentation.
+on the front panel for 10 sec, in accordance with its paper documentation.
 
 \
 

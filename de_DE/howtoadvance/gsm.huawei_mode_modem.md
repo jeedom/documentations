@@ -24,7 +24,7 @@ COM-Port-Wiederherstellung
 
 Dann müssen Sie die Kommunikationsportnummer abrufen. Weiter
 Starten Sie das Menü "Start" und suchen Sie nach "Geräte-Manager"
-Dieser entfaltund dann den Teil "Ports (COM und LPT)", den Sie haben sollten
+Dieser entfaltet dann den Teil "Ports (COM und LPT)", den Sie haben sollten
 Bei einem Artikel mit "HUAWEI" muss man sich nur die Nummer des merken
 COM-Anschluss :
 
@@ -59,5 +59,5 @@ auf die "Enter" -Taste" :
 
 Normalerweise müssen Sie im Gegenzug ein OK haben.
 
-Damit ist es fertig. Ihr Schlüssel befindund sich nur im GSM-Modus und Sie
+Damit ist es fertig. Ihr Schlüssel befindet sich nur im GSM-Modus und Sie
 kann es jetzt über VMware verwenden.

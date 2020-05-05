@@ -1,4 +1,4 @@
-Swiid Switch - SwiidInter 
+Swiid Switch - Swiidinter 
 ===============================
 
 \
@@ -25,7 +25,7 @@ Summary
 \
 
 SwiidInter is the first cord switch in the environment
-Z-WAVE home automation that is small and discreet enough to be
+Z-Wave home automation that is small and discreet enough to be
 comparable to an ordinary cord switch.
 
 It can be used both manually like any
@@ -34,17 +34,17 @@ Z-Wave.
 
 The SwiidInter switch also offers association possibilities
 and this two-way. Thus, it can be operated automatically by a
-other Z-WAVE device on the same network, such as the
+other Z-Wave device on the same network, such as the
 presence detector triggered. Conversely with support
 short or with a long press it can control two separate groups of
-Z-WAVE devices associated with it : for example every
+Z-Wave devices associated with it : for example every
 other lights in the room where your switch is located
 SwiidInter.
 
 The SwiidInter switch is installed exactly like a switch
 on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
-integrate into a Z-WAVE "network", this network can be as simple
+integrate into a Z-Wave "network", this network can be as simple
 only one remote control that controls your SwiidInter switch to
 distance.
 
@@ -61,10 +61,10 @@ Functions
 -   Use as a replacement for a standard cord switch
     a bedside, table or desk lamp
 
--   We / Off function
+-   ON / OFF function
 
 -   Activation of a home automation scenario on long press
-    (Z-WAVE association)
+    (Z-Wave association)
 
 -   Dimensions comparable to an ordinary cord switch
 
@@ -79,7 +79,7 @@ Technical characteristics
 
 \
 
--   Type of module : Z-WAVE receiver
+-   Type of module : Z-Wave receiver
 
 -   Color : noire
 
@@ -185,7 +185,7 @@ icone
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -219,13 +219,13 @@ swiidinter to another module (long press)
 
 -   Inactive : will have no effect on other lights
 
--   Only Off : will be effective only to turn off others
+-   Only OFF : will be effective only to turn off others
     Lights
 
--   We ONLY : will be effective only to turn on the others
+-   ON ONLY : will be effective only to turn on the others
     Lights
 
--   We and Off (fully) : will be effective to turn on and off the
+-   ON and OFF (fully) : will be effective to turn on and off the
     other lights
 
 \

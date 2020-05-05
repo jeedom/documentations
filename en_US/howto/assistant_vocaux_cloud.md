@@ -11,6 +11,6 @@ It can be used with
 
 This service is chargeable and can be subscribed on the Jeedom Market, in the page [My services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-You will find in the respective Documentation of the plugins their differences.
+You will find in the respective documentation of the plugins their differences.
 
-Then once the subscription is subscribed it is necessary to configure by following the Documentation of the plugin
+Then once the subscription is subscribed it is necessary to configure by following the documentation of the plugin

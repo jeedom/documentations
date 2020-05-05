@@ -79,7 +79,7 @@ First we will add a type action **Network**.
 
 ![android.autovoice8](images/android.autovoice8.png)
 
-Then we select **Gand HTTP**.
+Then we select **Get HTTP**.
 
 ![android.autovoice9](images/android.autovoice9.png)
 
@@ -91,7 +91,7 @@ enter :
 -   Path :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
-Do not forgand to put your API key in place of the chain
+Do not forget to put your API key in place of the chain
 `yourkey`. You must leave `% avcommonfilter` at the end, it will be
 replaced by the return of Autovoice.
 
@@ -108,7 +108,7 @@ And we enter `% HTTPD` in the text field.
 
 It's finish. On text recognition by AutoVoice, Jeedom will be
 called and you will have the answer configured in the interactions which
-will be spoken by your phone. Do not forgand to configure the
+will be spoken by your phone. Do not forget to configure the
 Jeedom interactions and you can ask him whatever you
 want. From "what is the temperature in the living room" to "turn on the light
 salon".

@@ -66,7 +66,7 @@ Die Aufgabe
 ========
 
 Wir fügen ein **neue Aufgabe** zum neu erstellten Profil. Von
-Beispielsweise könnte es als "Jeedom API" bezeichnund werden".
+Beispielsweise könnte es als "Jeedom API" bezeichnet werden".
 
 ![android.autovoice6](images/android.autovoice6.png)
 

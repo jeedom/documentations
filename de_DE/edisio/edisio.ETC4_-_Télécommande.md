@@ -72,7 +72,7 @@ Mode
 
 Steuern und zentralisieren Sie Ihre Ein / Aus-Lichter und Dimmer,
 Öffnung, Motoren, auf derselben Taste oder auf 2 separaten Tasten. Die
-e-Trendy-Fernbedienungen verfügen über zwei Betriebsarten: MODUS 1 und MODUS 2
+e-Trendy-Fernbedienungen verfügen über zwei Betriebsarten: MODE 1 und MODE 2
 :
 
 -   MODUS 1 : 1-Tasten-Steuerung : Ein / Aus, Öffnen / Schließen,
@@ -159,7 +159,7 @@ verfügbar :
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS : Gibt den STATUS des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Verwendung 
 -----------

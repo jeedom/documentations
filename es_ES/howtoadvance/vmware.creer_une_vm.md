@@ -3,15 +3,15 @@ Veremos aquí cómo crear una VM en VMware.
 Antes de que haya algo importante que saber sobre VMware, hay 2
 camino del gerente :
 
--   la interfaz web ((presente por defecto en 6.0 actualización 2, o por
+-   la interfaz web (presente por defecto en 6.0 actualización 2, o por
     a través de un vib para las otras versiones), accedemos a él por
     IP\_ESXI / ui
 
--   El cliente pesado e histórico de VMware ((cliente vSphere)
+-   El cliente pesado e histórico de VMware (cliente vSphere)
 
 Aquí utilizaré principalmente la interfaz web porque creo que es
 El futuro de VMware que abandona cada vez más al cliente grueso
-((por cierto todas las nuevas características desde los 5.1 no se puede usar
+(por cierto todas las nuevas características desde los 5.1 no se puede usar
 con el cliente pesado).
 
 También tenga en cuenta que la interfaz web todavía se está implementando
@@ -42,16 +42,16 @@ puede ya desde esta pantalla :
 
 -   detener / reiniciar el ESXi
 
--   ver uso de recursos ((CPU, memoria y disco)
+-   ver uso de recursos (CPU, memoria y disco)
 
--   tener información sobre su sistema ((tiempo de operación,
+-   tener información sobre su sistema (tiempo de operación,
     Versión de VMware, versión de BIOS, visualización del almacén de datos)
 
--   botón para crear una VM ((la usaremos justo después)
+-   botón para crear una VM (la usaremos justo después)
 
 -   un botón de acción que le permite cambiar al modo de mantenimiento
-    ((útil si tiene un clúster ESXi, de lo contrario no lo hará
-    nunca servir), habilitar / deshabilitar el servicio SSH ((se usa
+    (útil si tiene un clúster ESXi, de lo contrario no lo hará
+    nunca servir), habilitar / deshabilitar el servicio SSH (se usa
     en el tutorial de configuración de respaldo)
 
 Envío de instalación ISO 
@@ -66,7 +66,7 @@ Para ese clic en el almacén de datos :
 
 ![vmware.createvm18]((images/vmware.createvm18.PNG)
 
-Seleccione su almacén de datos ((generalmente se llama datastore1) :
+Seleccione su almacén de datos (generalmente se llama datastore1) :
 
 ![vmware.createvm19]((images/vmware.createvm19.PNG)
 
@@ -74,7 +74,7 @@ Haga clic en "Navegador de base de datos" :
 
 ![vmware.createvm20]((images/vmware.createvm20.PNG)
 
-Haga clic en "Descargar" ((el primero) :
+Haga clic en "Descargar" (el primero) :
 
 ![vmware.createvm21]((images/vmware.createvm21.PNG)
 
@@ -103,7 +103,7 @@ Haga clic en siguiente :
 ![vmware.createvm6]((images/vmware.createvm6.PNG)
 
 Luego asigne un nombre a su máquina y especifique su sistema
-en funcionamiento ((aquí instalaremos un Debian) :
+en funcionamiento (aquí instalaremos un Debian) :
 
 ![vmware.createvm7]((images/vmware.createvm7.PNG)
 
@@ -111,7 +111,7 @@ Indique el almacén de datos de destino :
 
 ![vmware.createvm8]((images/vmware.createvm8.PNG)
 
-Aquí podrá configurar los parámetros de su máquina ((disco
+Aquí podrá configurar los parámetros de su máquina (disco
 duro, cpu, memoria ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
@@ -120,7 +120,7 @@ duro, cpu, memoria ...) :
 >
 > Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta
 > sin embargo, no es realmente posible reducir el tamaño
-> un disco duro, puede aumentarlo ((pero debe saber cómo administrarlo
+> un disco duro, puede aumentarlo (pero debe saber cómo administrarlo
 > Nivel del sistema operativo siguiente) pero no lo reduce.
 
 En la unidad de CD / DVD, seleccione "Banco de archivos ISO de
@@ -128,7 +128,7 @@ Datos" :
 
 ![vmware.createvm10]((images/vmware.createvm10.PNG)
 
-Luego seleccione la ubicación donde se almacena su ISO ((consulte
+Luego seleccione la ubicación donde se almacena su ISO (consulte
 capítulo anterior) y validar :
 
 ![vmware.createvm11]((images/vmware.createvm11.PNG)
@@ -147,7 +147,7 @@ Un mensaje en la parte superior le dirá que está bien, luego haga clic en
 
 ![vmware.createvm14]((images/vmware.createvm14.PNG)
 
-Debería ver su máquina virtual ((si no, haga clic en
+Debería ver su máquina virtual (si no, haga clic en
 en "Actualizar") haga clic en él :
 
 ![vmware.createvm15]((images/vmware.createvm15.PNG)
@@ -164,7 +164,7 @@ su sistema operativo :
 > **Important**
 >
 > Una vez que su máquina esté instalada, DEBE instalar
-> Herramientas de VMware ((esto permite que VMware tenga información sobre su VM
+> Herramientas de VMware (esto permite que VMware tenga información sobre su VM
 > y apágalo correctamente). Bajo debian solo haz
 > "sudo apt-get -y install open-vm-tools".
 

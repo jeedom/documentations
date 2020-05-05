@@ -186,13 +186,13 @@ Repeat the operation in the other direction.
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 

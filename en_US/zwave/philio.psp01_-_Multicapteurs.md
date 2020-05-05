@@ -145,7 +145,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -198,7 +198,7 @@ Here is the list of commands :
 All the modules of the range having the same ids, it's up to you to display those
 corresponding to your module.
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
@@ -211,7 +211,7 @@ corresponding to your module.
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -334,7 +334,7 @@ taken into account at the next wakeup.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

@@ -1,4 +1,4 @@
-SmartHome von Everspring In Wall Ein Aus - AN179-0 
+SmartHome von Everspring In Wall On Off - AN179-0 
 ================================================
 
 \.
@@ -100,7 +100,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : In Wall Ein Off
+-   Name : In Wall On Off
 
 -   Hersteller ID : 96
 

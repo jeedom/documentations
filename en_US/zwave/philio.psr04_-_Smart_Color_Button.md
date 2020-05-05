@@ -139,9 +139,9 @@ inclusion refer to this
 
 > **Important**
 >
-> To put this Module in inclusion mode, put it in position
+> To put this module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
-> paper Documentation.
+> paper documentation.
 
 \
 
@@ -161,7 +161,7 @@ Once included you should get this :
 
 \
 
-Once the Module has been recognized, the commands associated with the Module will be
+Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
 \
@@ -182,20 +182,20 @@ Here is the list of commands :
 
 \
 
-### Setup of the Module 
+### Configuration of the module 
 
 \
 
 > **Important**
 >
-> During a first inclusion always wake up the Module just after
+> During a first inclusion always wake up the module just after
 > inclusion.
 
 \
 
-Then if you want to configure the Module according to
+Then if you want to configure the module according to
 of your installation, you have to go through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -222,7 +222,7 @@ Parameter details :
 
 -   10 : battery ascent time interval
 
--   25 : allows to define if the Module sends its position
+-   25 : allows to define if the module sends its position
     automatically after rotation (1s delay) or if it is necessary to press
     on the button to validate the sending
 
@@ -235,7 +235,7 @@ Parameter details :
 
 \
 
-This Module has two association groups, the first is the only one
+This module has two association groups, the first is the only one
 essential. The second allows to go up the position to Jeedom
 
 \
@@ -251,11 +251,11 @@ Good to know
 
 ### Specificities 
 
-To use this Module as a remote control, proceed as follows :
+To use this module as a remote control, proceed as follows :
 
 -   Add the controller in group 2
 
-Indeed this type of Module is not made to interact directly
+Indeed this type of module is not made to interact directly
 with a box but directly with other modules. However in
 adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
@@ -266,9 +266,9 @@ Wakeup
 
 \
 
-To wake up this Module there is only one way :
+To wake up this module there is only one way :
 
--   put the Module in the low position and press the button
+-   put the module in the low position and press the button
 
 \
 
@@ -279,19 +279,19 @@ Faq.
 
 \
 
-This Module is a battery module, the new configuration will not be
-take into account that if you wake up the Module.
+This module is a battery module, the new configuration will not be
+take into account that if you wake up the module.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \
 
 > **Important**
 >
-> You have to wake up the Module : after its inclusion, after a change
+> You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 

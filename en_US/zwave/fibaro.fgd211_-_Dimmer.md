@@ -142,7 +142,7 @@ inclusion refer to this
 > **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
-> inclusion button, according to its paper Documentation.
+> inclusion button, according to its paper documentation.
 
 \
 
@@ -198,7 +198,7 @@ icone
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 

@@ -11,7 +11,7 @@ amd64) or click directly
 [here](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 to download the ISO.
 
-Setup launch 
+Installation launch 
 ===========================
 
 On a physical machine 

@@ -139,7 +139,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, you must put switch 1 in
 > position ON then with the dial display L and press the dial,
-> according to its paper Documentation.
+> according to its paper documentation.
 
 \
 
@@ -198,13 +198,13 @@ Here is the list of commands :
 
 \
 
-### Setup of the module 
+### Configuration of the module 
 
 \
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
-"Setup "of Jeedom's OpenZwave plugin.
+"Configuration "of Jeedom's OpenZwave plugin.
 
 \
 
@@ -288,7 +288,7 @@ taken into account at the next wake up.
 
 \
 
-IMPORTANT note 
+Important note 
 ---------------
 
 \

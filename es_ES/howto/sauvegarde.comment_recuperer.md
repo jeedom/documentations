@@ -46,7 +46,7 @@ Directorio de copia de seguridad de Jeedom.
 -   Servidor Apache (Jeedom Smart Box) : / var / www / html / backup
 
 -   Servidor Nginx (Jeedom Mini + Box) :
-    / usr / share / nginx / www / Jeedom / backup
+    / usr / share / nginx / www / jeedom / backup
 
 La ruta se muestra en la sección del sitio remoto.
 
