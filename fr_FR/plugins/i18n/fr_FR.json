@@ -217,6 +217,8 @@
         "Plugin pour controller la multiprise Extel": "Plugin pour controller la multiprise Extel",
         "Ewattch": "Ewattch",
         "Plugin pour le superviseur ewattch": "Plugin pour le superviseur ewattch",
+        "Enphase Envoy": "Enphase Envoy",
+        "Plugin pour remonter les informations photovoltaïques des passerelles Envoy": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
         "Permet de faire un calcul estimatif du DPE": "Permet de faire un calcul estimatif du DPE",
         "Comptage": "Comptage",
         "Plugin pour le comptage de l'énergie (gaz, électricité et eau)": "Plugin pour le comptage de l'énergie (gaz, électricité et eau)",
