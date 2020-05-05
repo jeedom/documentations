@@ -1,10 +1,10 @@
 ---
-layout: padrão
+layout: default
 lang: fr_FR
 title: Jeedom | Plugin de publicação do tempo
 ---
 
-# Descrição
+# Description
 
 O plug-in Weather Publish possibilita fornecer a outros sites informações sobre o clima para sua automação residencial.
 Dependendo do site em que os dados serão integrados, determinadas informações não serão apresentadas.
@@ -15,7 +15,7 @@ Dependendo do site em que os dados serão integrados, determinadas informações
 >- <a href="http://www.awekas.at">http://www.awekas.at</a>
 >- <a href="http://ma.station-meteo.com">http://ma.station-meteo.com</a>
 
-# Configuração
+# Configuration
 
 Para configurá-lo, basta selecionar os comandos que contêm os indicadores.
 
@@ -54,7 +54,7 @@ Uma vez conectado, preencha o formulário de registro. Em seguida, no menu de da
 >- Tipo de importação, escolha awekas.txt
 >- Os dados serão recuperados automaticamente regularmente pelo site
 
-# Faq
+# FAQ
 
 - Com que frequência os dados são atualizados ?
 >Os dados são atualizados constantemente. Portanto, depende de quantas vezes o site é atualizado.

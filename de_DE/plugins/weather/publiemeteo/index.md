@@ -1,10 +1,10 @@
 ---
-layout: Standard
+layout: default
 lang: fr_FR
 title: Jeedom | Wetter veröffentlichen Plugin
 ---
 
-# Beschreibung
+# Description
 
 Mit dem Weather Publish-Plugin können Sie anderen Websites Wetterinformationen für Ihre Heimautomation bereitstellen.
 Abhängig von der Site, in die die Daten integriert werden, werden bestimmte Informationen nicht angezeigt.
@@ -15,7 +15,7 @@ Es ist kompatibel mit :
 >- <a href="http://www.awekas.at">http://www.awekas.at</a>
 >- <a href="http://ma.station-meteo.com">http://ma.station-meteo.com</a>
 
-# Konfiguration
+# Configuration
 
 Um es zu konfigurieren, wählen Sie einfach die Befehle aus, die die Indikatoren enthalten.
 
@@ -54,7 +54,7 @@ Sobald die Verbindung hergestellt ist, füllen Sie das Registrierungsformular au
 >- Importtyp, wählen Sie awekas.txt
 >- Die Daten werden regelmäßig regelmäßig von der Site abgerufen
 
-# Faq
+# FAQ
 
 - Wie oft werden die Daten aktualisiert? ?
 >Die Daten werden ständig aktualisiert. Es kommt also darauf an, wie oft die Site aktualisiert wird.

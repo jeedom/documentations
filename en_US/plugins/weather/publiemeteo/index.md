@@ -15,7 +15,7 @@ It is compatible with :
 >- <a href="http://www.awekas.at">http://www.awekas.at</a>
 >- <a href="http://ma.station-meteo.com">http://ma.station-meteo.com</a>
 
-# Setup
+# Configuration
 
 To configure it, simply select the commands containing the indicators.
 
