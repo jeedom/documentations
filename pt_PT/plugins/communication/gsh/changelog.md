@@ -1,3 +1,7 @@
+# 05/04/2020
+
+- Optimisations
+
 # 30/04/2020
 
 - Correção de um erro na sincronização do equipamento

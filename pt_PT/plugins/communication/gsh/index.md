@@ -11,7 +11,7 @@ Pode funcionar de 2 maneiras :
 
 > **Important**
 >
-> O modo de nuvem requer uma assinatura dos serviços de voz (3 meses grátis na compra do plug-in). Você pode gerenciar sua assinatura [aqui](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> O modo de nuvem requer uma assinatura dos serviços de voz (3 meses grátis na compra do plug-in). Você pode gerenciar sua assinatura [aqui](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >

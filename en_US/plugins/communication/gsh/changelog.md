@@ -1,3 +1,7 @@
+# 05/04/2020
+
+- Optimisations
+
 # 04/30/2020
 
 - Correction of a bug on equipment synchronization

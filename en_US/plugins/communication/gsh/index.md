@@ -11,7 +11,7 @@ It can work in 2 ways :
 
 > **Important**
 >
-> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). You can manage your subscription [here](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >
