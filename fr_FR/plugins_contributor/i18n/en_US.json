@@ -111,11 +111,17 @@
         "Market]": "Market]"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin to retrieve the data that the ERL D2L module from eeemart sends to the monitoring.consopy server",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
+        " eeSmart.": " eeSmart.",
+        " eeSmart?": " eeSmart?",
+        "eeSmart ": "eeSmart ",
+        "[eeSmart": "[eeSmart",
+        "eeSmart]": "eeSmart]",
         " Energie.": " Energy.",
         " Energie?": " Energy?",
         "Energie ": "Energy ",
@@ -130,7 +136,17 @@
         " ici?": " here?",
         "ici ": "here ",
         "[ici": "[here",
-        "ici]": "here]"
+        "ici]": "here]",
+        " Documentation.": " Documentation.",
+        " Documentation?": " Documentation?",
+        "Documentation ": "Documentation ",
+        "[Documentation": "[Documentation",
+        "Documentation]": "Documentation]",
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        "[Market": "[Market",
+        "Market]": "Market]"
     },
     "plugins_contributor\/health\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
@@ -268,11 +284,17 @@
         "ici]": "here]"
     },
     "plugins_contributor\/organization\/index.md": {
+        "Plugin pour ajouter un programmateur à une commande": "Plugin to add a programmer to an order",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
+        " Programmateur.": " Programmer.",
+        " Programmateur?": " Programmer?",
+        "Programmateur ": "Programmer ",
+        "[Programmateur": "[Programmer",
+        "Programmateur]": "Programmer]",
         " Organisation.": " Organization.",
         " Organisation?": " Organization?",
         "Organisation ": "Organization ",
@@ -287,7 +309,17 @@
         " ici?": " here?",
         "ici ": "here ",
         "[ici": "[here",
-        "ici]": "here]"
+        "ici]": "here]",
+        " Documentation.": " Documentation.",
+        " Documentation?": " Documentation?",
+        "Documentation ": "Documentation ",
+        "[Documentation": "[Documentation",
+        "Documentation]": "Documentation]",
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        "[Market": "[Market",
+        "Market]": "Market]"
     },
     "plugins_contributor\/other\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",

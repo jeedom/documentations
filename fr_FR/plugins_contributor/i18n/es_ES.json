@@ -111,11 +111,17 @@
         "Market]": "Mercado]"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Complemento para recuperar los datos que el módulo ERL D2L de eeemart envía al servidor de tracking.consopy",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " eeSmart.": " eeSmart.",
+        " eeSmart?": " eeSmart?",
+        "eeSmart ": "eeSmart ",
+        "[eeSmart": "[eeSmart",
+        "eeSmart]": "eeSmart]",
         " Energie.": " Energía.",
         " Energie?": " Energía?",
         "Energie ": "Energía ",
@@ -130,7 +136,17 @@
         " ici?": " aquí?",
         "ici ": "aquí ",
         "[ici": "[aquí",
-        "ici]": "aquí]"
+        "ici]": "aquí]",
+        " Documentation.": " Documentación.",
+        " Documentation?": " Documentación?",
+        "Documentation ": "Documentación ",
+        "[Documentation": "[Documentación",
+        "Documentation]": "Documentación]",
+        " Market.": " Mercado.",
+        " Market?": " Mercado?",
+        "Market ": "Mercado ",
+        "[Market": "[Mercado",
+        "Market]": "Mercado]"
     },
     "plugins_contributor\/health\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
@@ -268,11 +284,17 @@
         "ici]": "aquí]"
     },
     "plugins_contributor\/organization\/index.md": {
+        "Plugin pour ajouter un programmateur à une commande": "Complemento para agregar un programador a un pedido",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " Programmateur.": " Programador.",
+        " Programmateur?": " Programador?",
+        "Programmateur ": "Programador ",
+        "[Programmateur": "[Programador",
+        "Programmateur]": "Programador]",
         " Organisation.": " Organización.",
         " Organisation?": " Organización?",
         "Organisation ": "Organización ",
@@ -287,7 +309,17 @@
         " ici?": " aquí?",
         "ici ": "aquí ",
         "[ici": "[aquí",
-        "ici]": "aquí]"
+        "ici]": "aquí]",
+        " Documentation.": " Documentación.",
+        " Documentation?": " Documentación?",
+        "Documentation ": "Documentación ",
+        "[Documentation": "[Documentación",
+        "Documentation]": "Documentación]",
+        " Market.": " Mercado.",
+        " Market?": " Mercado?",
+        "Market ": "Mercado ",
+        "[Market": "[Mercado",
+        "Market]": "Mercado]"
     },
     "plugins_contributor\/other\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
