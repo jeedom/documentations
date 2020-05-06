@@ -1,4 +1,4 @@
 Configuration 
 =============
 
-![wifipower icon](../images/wifipower_icon.png)
+![wifipower icon](./wifipower_icon.png)

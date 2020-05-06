@@ -1,7 +1,7 @@
 Greenmomit 
 ==========
 
-![Palazzetti icon](../images/Palazzetti_icon.png)
+![Palazzetti icon](./Palazzetti_icon.png)
 
  \
 

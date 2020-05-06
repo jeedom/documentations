@@ -8,7 +8,7 @@ Configuration du plugin
 Après avoir installé le plugin, il vous suffit de l’activer. Ce plugin
 n’a aucune configuration particulière :
 
-![mail1](../images/mail1.PNG)
+![mail1](./mail1.PNG)
 
 Configuration des équipements 
 ===
@@ -16,16 +16,16 @@ Configuration des équipements
 La configuration des équipements Mail est accessible à partir du menu
 plugin :
 
-![mail2](../images/mail2.PNG)
+![mail2](./mail2.PNG)
 
 Voilà à quoi ressemble la page du plugin Mail (ici avec déjà 1 mail,
 vous pouvez en mettre autant que vous voulez avec le bouton "Ajouter") :
 
-![mail3](../images/mail3.PNG)
+![mail3](./mail3.PNG)
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![mail4](../images/mail4.PNG)
+![mail4](./mail4.PNG)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
@@ -63,7 +63,7 @@ pourront, s’ils le souhaitent, paramétrer eux-mêmes ces options.
 L’onglet configuration SMTP permet de renseigner les informations du
 serveur d’email que vous voulez utilisé.
 
-![mail screenshot3](../images/mail_screenshot3.jpg)
+![mail screenshot3](./mail_screenshot3.jpg)
 
 Voici quelques exemples pour les principaux fournisseurs de services
 email :
@@ -105,7 +105,7 @@ A partir de l’onglet "Commandes", vous pouvez ajouter des commandes qui
 correspondent aux adresses email auxquelles vous souhaitez pouvoir
 envoyer des emails avec Jeedom :
 
-![mail screenshot4](../images/mail_screenshot4.jpg)
+![mail screenshot4](./mail_screenshot4.jpg)
 
 -   **nom** : nom de la commande
 
@@ -127,7 +127,7 @@ exemple.
 Dans un scénario, une fois sélectionné dans une action, il faudra saisir
 le titre et le message.
 
-![mail5](../images/mail5.jpg)
+![mail5](./mail5.jpg)
 
 > **Important**
 >

@@ -7,7 +7,7 @@ Configuration du plugin
 Après téléchargement du plugin, il suffit juste de l’activer et ensuite
 de cliquer sur "Installer/Mettre à jour"
 
-![nut](../images/nut.PNG)
+![nut](./nut.PNG)
 
 Configuration des équipements 
 =============================
@@ -15,12 +15,12 @@ Configuration des équipements
 La configuration des équipements NUT est accessible à partir du menu
 plugin :
 
-![nut2](../images/nut2.PNG)
+![nut2](./nut2.PNG)
 
 Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
 équipement) :
 
-![nut3](../images/nut3.PNG)
+![nut3](./nut3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![nut4](../images/nut4.PNG)
+![nut4](./nut4.PNG)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 

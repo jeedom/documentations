@@ -54,7 +54,7 @@ activé, le rafraichissement est quasi instantané.
 
 Pour activer le push, il faut cliquer sur
 
-![bouton config push](../images/bouton_config_push.jpg)
+![bouton config push](./bouton_config_push.jpg)
 
 Ensuite aller en bas et cliquer sur Appliquer.
 
@@ -93,8 +93,8 @@ cette commande".
 Quelques copies d’écran 
 =======================
 
-![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)
+![ipx800 screenshot1](./ipx800_screenshot1.jpg)
 
-![ipx800 screenshot2](../images/ipx800_screenshot2.jpg)
+![ipx800 screenshot2](./ipx800_screenshot2.jpg)
 
-![ipx800 screenshot3](../images/ipx800_screenshot3.jpg)
+![ipx800 screenshot3](./ipx800_screenshot3.jpg)

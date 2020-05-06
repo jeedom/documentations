@@ -1,7 +1,7 @@
 Délestage 
 =========
 
-![delestage](../images/delestage_screenshot1.png)
+![delestage](./delestage_screenshot1.png)
 
 Description 
 ===========
@@ -31,7 +31,7 @@ Ainsi le délestage interviendra en priorité sur les pièces dont l’écart
 est le plus faible. La gène pour les occupants sera ainsi moins
 importante.
 
-![intelligent](../images/smart.png)
+![intelligent](./smart.png)
 
 Délestage hiérarchique 
 ----------------------
@@ -41,7 +41,7 @@ L’actionneur 1 sera délesté en priorité puis le 2, 3…
 
 Les actionneurs seront réenclenchés dans l’ordre inverse du délestage
 
-![hierarchique](../images/hierarchique.png)
+![hierarchique](./hierarchique.png)
 
 ### Délestage cascadocyclique 
 
@@ -49,7 +49,7 @@ Le délestage s’effectue en mode rotatif sur les actionneurs définis pour
 le mode cyclique puis si la puissance est toujours supérieure au seuil,
 en mode hiérarchisé sur les autres.
 
-![cascadocyclique](../images/cascadocyclique.png)
+![cascadocyclique](./cascadocyclique.png)
 
 Configuration 
 =============
@@ -69,7 +69,7 @@ Voici les paramètres à configurer sur le plugin :
 
 -   Seuil en Watts : Seuil à partir duquel le déléstage se déclenchera
 
-![configuration générale](../images/configuration_generale.png)
+![configuration générale](./configuration_generale.png)
 
 ### Actions supplémentaires 
 
@@ -79,7 +79,7 @@ actions de délestage.
 Il est, par exemple, possible d’envoyer un sms pour prévenir du début et
 de la fin du délestage.
 
-![Actions complémentaires](../images/actions_complementaires.png)
+![Actions complémentaires](./actions_complementaires.png)
 
 ### Configuration avancée 
 
@@ -94,7 +94,7 @@ Les paramètres suivants peuvent être réglés:
 -   Délai minimum entre les relevés en s (10s par défaut) : délai
     nécessaire entre 2 relevés
 
-![Configuration avancée](../images/configuration_avancee.png)
+![Configuration avancée](./configuration_avancee.png)
 
 FAQ 
 ===

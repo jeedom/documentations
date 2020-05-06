@@ -10,7 +10,7 @@ Configuration du plugin
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
 il n’y a aucune configuration à ce niveau.
 
-![clink1](../images/clink1.PNG)
+![clink1](./clink1.PNG)
 
 Configuration des équipements 
 =============================
@@ -18,12 +18,12 @@ Configuration des équipements
 La configuration des équipements Clink est accessible à partir du menu
 Plugins :
 
-![clink2](../images/clink2.PNG)
+![clink2](./clink2.PNG)
 
 Voilà à quoi ressemble la page du plugin Clink (ici avec déjà 1
 équipement) :
 
-![clink3](../images/clink3.PNG)
+![clink3](./clink3.PNG)
 
 > **Tip**
 >
@@ -33,7 +33,7 @@ Voilà à quoi ressemble la page du plugin Clink (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![clink4](../images/clink4.PNG)
+![clink4](./clink4.PNG)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 

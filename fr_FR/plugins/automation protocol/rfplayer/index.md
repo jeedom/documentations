@@ -5,14 +5,14 @@ Configuration du plugin RFPlayer
 
 Après installation du plugin, il vous suffit de l’activer :
 
-![gestion](../images/gestion.png)
+![gestion](./gestion.png)
 
 **Configuration**
 
 Pour configurer le plugin, vous devez simplement mettre en auto, ou
 alors choisir le RFPlayer.
 
-![port](../images/port.png)
+![port](./port.png)
 
 Ajouter un Module 
 =================
@@ -27,7 +27,7 @@ Pour les modules Oregon il suffit tout simplement de cliquer sur "Mode
 Inclusion", puis soit d’attendre son retour d’état (10sec), soit enlever
 et remettre la pile.
 
-![oregon](../images/oregon.png)
+![oregon](./oregon.png)
 
 Le changement de piles change l’ID du produit. Il faut donc, lors du
 changement de piles, ajouter un nouveau module, puis cliquer sur
@@ -35,7 +35,7 @@ changement de piles, ajouter un nouveau module, puis cliquer sur
 action sur le nouveau module et choisir le nom du module approprié
 (l’ancien nom du module dont les piles viennent d’être remplacées).
 
-![pile](../images/pile.png)
+![pile](./pile.png)
 
 -   RTS Somfy \*
 
@@ -65,7 +65,7 @@ Module manquant
 Il se peut que le module soit manquant. Dans ce cas, il faut nous
 envoyer un petit fichier. Voici la marche à suivre :
 
-![manquant](../images/manquant.png)
+![manquant](./manquant.png)
 
 il suffit de copier le texte situé tout en bas de la page "Aide à
 l’integration"

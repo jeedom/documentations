@@ -8,7 +8,7 @@ Configuration du plugin
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
 il n’y a aucune configuration à ce niveau.
 
-![hyperion](../images/hyperion.PNG)
+![hyperion](./hyperion.PNG)
 
 Configuration des équipements 
 =============================
@@ -16,12 +16,12 @@ Configuration des équipements
 La configuration des équipements Ambilight est accessible à partir du
 menu Plugins :
 
-![hyperion2](../images/hyperion2.PNG)
+![hyperion2](./hyperion2.PNG)
 
 Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 équipement) :
 
-![hyperion3](../images/hyperion3.PNG)
+![hyperion3](./hyperion3.PNG)
 
 > **Tip**
 >
@@ -31,7 +31,7 @@ Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![hyperion4](../images/hyperion4.PNG)
+![hyperion4](./hyperion4.PNG)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 

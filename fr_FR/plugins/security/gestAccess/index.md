@@ -17,10 +17,10 @@ Ce plugin est utilisé pour une gestion avancée d'un système d'accès, à l'ai
 Après instalation de votre plugin, vous devez l'activer.
 >Si vous utiliser KNX, dans le groupe **Configuration** renseignez les champs.
 
-![activation](../images/activation.jpg)
+![activation](./activation.jpg)
 
 Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Sécurité** → **gestion access**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
-![gestionAcces](../images/path.jpg)
+![gestionAcces](./path.jpg)
 
 ### Présentation
 
@@ -29,11 +29,11 @@ Dans l'affichage par défaut du plugin, vous avez la possibilité d'ajouter un b
 En dessous, différents onglets permettent de retrouver facilement chacun des éléments.
 La barre de recherche aidera à faire le tri dans chaque catégorie pour retrouver plus facilement un élément.
 
-![gestionAcces](../images/base.jpg)
+![gestionAcces](./base.jpg)
 
 Sur le **Dashbord** un historique des 20 derniers évènements est disponible.
 
-![gestionAcces](../images/dashbord.jpg)
+![gestionAcces](./dashbord.jpg)
 </br>
 ## Création et gestion des portes<a id="readers"></a>
 ----
@@ -42,29 +42,29 @@ Sur le **Dashbord** un historique des 20 derniers évènements est disponible.
 **Ajouter** pour créer une porte.
 Le champ vous permet de définir le nom de la porte.
 
-![gestionAcces](../images/nameEqu.jpg)
+![gestionAcces](./nameEqu.jpg)
 
 Dans la liste *type*, sélectionnez **Porte / Lecteur**.
 
-![gestionAcces](../images/selEqu.jpg)
+![gestionAcces](./selEqu.jpg)
 
 #### Configuration de la porte
 
 **Configuration équipement** permet de configurer la porte.
 
-![gestionAcces](../images/confReader.jpg)
+![gestionAcces](./confReader.jpg)
 
 #### Droits équipement
 **Droits équipement** sert à affecter des plages horaires particulières à la porte pendant lesquels les usagers n'auront pas besoin de leurs badges pour passer.
 
-![gestionAcces](../images/rightReader.jpg)
+![gestionAcces](./rightReader.jpg)
 
 **Ajouter des droits** permet de sélectionner une plage horaire déjà exitstante pour l'attribuer à votre porte.
 >Tous les utilisateurs reliés à la plage horraire sélectionnée pourrons passer par cette porte pendant les horaires parametrés sur celle-ci.
 
-![gestionAcces](../images/scheduleReader.jpg)
+![gestionAcces](./scheduleReader.jpg)
 
-![gestionAcces](../images/rightReader0.jpg)
+![gestionAcces](./rightReader0.jpg)
 
 Le bouton **-** permet d'enlever la plage horaire.
 
@@ -76,17 +76,17 @@ Le bouton **-** permet d'enlever la plage horaire.
 **Ajouter** sert à créer un utilisateur.
 Le champ vous permet de définir le nom de l'utilisateur.
 
-![gestionAcces](../images/nameEqu.jpg)
+![gestionAcces](./nameEqu.jpg)
 
 Dans la liste *type*, indiquez **Utilisateur**.
 
-![gestionAcces](../images/selUser.jpg)
+![gestionAcces](./selUser.jpg)
 
 #### Configuration de l'utilisateur
 
 **Configuration utilisateur** est utilisé pour configurer. 
 
-![gestionAcces](../images/confUser.jpg)
+![gestionAcces](./confUser.jpg)
 
 Plusieurs champs sont personnalisables.
 Vous pouvez ainsi indiquer :
@@ -107,7 +107,7 @@ Le bouton **Copier** prend la valeur du **Nom de l'utilisateur**, du **Prénom d
 
 Le bouton **Envoyer** permet de transmettre la photo de profil que vous souhaitez pour votre utilisateur.
 
-![gestionAccess](../images/imgUser.jpg)
+![gestionAccess](./imgUser.jpg)
 
 Le bouton **Télecharger** télecharge la photo de l'utilisateur. 
 Le fichier sera nommé selon les valeurs indiquées dans les champs **Nom de l'utilisateur** et **Prénom de l'utilisateur** (séparés par un tiret).
@@ -116,21 +116,21 @@ Le fichier sera nommé selon les valeurs indiquées dans les champs **Nom de l'u
  **Configuration des groupes** sert à affecter votre utilisateur à un groupe.
 >Cochez une case pour sélectionner le groupe correspondant.
 
-![gestionAccess](../images/confGUser.jpg)
+![gestionAccess](./confGUser.jpg)
 
 #### Droits utilisateur
 L'onglet **Droits utilisateur** sert à affecter des droits particuliers à l'utilisateur.
 
-![gestionAccess](../images/rightUser.jpg)
+![gestionAccess](./rightUser.jpg)
 
 **Ajouter des droits**, permet de sélectionner une porte et une plage horaire qui seront affectées à l'utilisateur sélectionné. 
 Deux options sont disponible **Refuser** et **Accepter** pour l'action.
 
-![gestionAccess](../images/addRightUser.jpg)
+![gestionAccess](./addRightUser.jpg)
 
 Les nouveaux droits affectés sont visibles dans l'onglet **Droits utilisateur**. Le bouton **-** permet d'enlever les droits.
 
-![gestionAccess](../images/rightUser0.jpg)
+![gestionAccess](./rightUser0.jpg)
 
 ## Création et gestion des groupes<a id="group"></a>
 ---
@@ -138,11 +138,11 @@ Les nouveaux droits affectés sont visibles dans l'onglet **Droits utilisateur**
 Utilisez le bouton **Ajouter** pour créer un groupe.
 Le champ vous permet de définir le nom du groupe.
 
-![gestionAccess](../images/nameEqu.jpg)
+![gestionAccess](./nameEqu.jpg)
 
 Dans la liste type, sélectionnez **Groupe**.
 
-![gestionAccess](../images/selGroup.jpg)
+![gestionAccess](./selGroup.jpg)
 
 #### Droits d'un groupe
 L'onglet **Droits groupe** sert à affecter des droits particuliers à votre groupe.
@@ -150,11 +150,11 @@ L'onglet **Droits groupe** sert à affecter des droits particuliers à votre gro
 **Ajouter des droits**, vous permet de sélectionner une porte et une plage horaire qui seront affectées au groupe sélectionné.
 Deux options sont disponible **Refuser** et **Accepter** pour l'action.
 
-![gestionAccess](../images/addRightGroup.jpg)
+![gestionAccess](./addRightGroup.jpg)
 
 Dans l'onglet **Droits groupe** les nouveaux droits affectés seront visibles. Le bouton **-** permet d'enlever les droits.
 
-![gestionAccess](../images/rightGroup.jpg)
+![gestionAccess](./rightGroup.jpg)
 
 ## Création et gestion des plages horaires<a id="timelapse"></a>
 ---
@@ -162,16 +162,16 @@ Dans l'onglet **Droits groupe** les nouveaux droits affectés seront visibles. L
 Utilisez le bouton **Ajouter** pour créer une plage horaire.
 Le champ vous permet de définir le nom de la plage horaire.
 
-![gestionAccess](../images/nameEqu.jpg)
+![gestionAccess](./nameEqu.jpg)
 
 Dans la liste type, sélectionnez **Plage Horaire**.
 
-![gestionAccess](../images/selTimelapse.jpg)
+![gestionAccess](./selTimelapse.jpg)
 
 #### Configuration de la plage horaire
 L'onglet **Configuration plage horaire** permet de configurer une nouvelle plage horaire. 
 
-![gestionAccess](../images/confTimelapse.jpg)
+![gestionAccess](./confTimelapse.jpg)
 
 >**Conseils :** 
 > - Pour configurer une plage horaire, faites un clic gauche sur les cases qui vous intéresses en fonction du jour et de l'heure. 
@@ -187,20 +187,20 @@ Une case passe en bleu lorsqu'elle est active.
 
 **Etape importante :** pour accéder à cette partie, il est important d'effectuer un réglage en amont. Allez dans **Plugins** → **Gestion des plugins**, dans **Mes plugins**, cliquez sur **Gestion d'accès**.
 
-![gestionAccess](../images/gestPlug.jpg)
+![gestionAccess](./gestPlug.jpg)
 
 Dans la partie **Panel** cocher **Afficher le panneau desktop** puis cliquez sur **Sauvegarder**.
 
-![gestionAccess](../images/confPlug.jpg)
+![gestionAccess](./confPlug.jpg)
 
 Une fois le changement effectué, une nouvelle section dans le menu **Accueil** est disponible.
 Toutefois, si jamais elle ne s'affiche pas, veillez à bien actualiser votre page.
 
-![gestionAccess](../images/newPlug.jpg)
+![gestionAccess](./newPlug.jpg)
 
 **Accueil** → **gestion access** pour accéder à la recherche avancées. La vue par défaut affiche les 20 derniers évenements enregistrés.
 
-![gestionAccess](../images/search.jpg)
+![gestionAccess](./search.jpg)
 
 La partie de gauche permet de déterminer les critères de la recherche.
 

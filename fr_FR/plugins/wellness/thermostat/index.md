@@ -102,7 +102,7 @@ scénarios ou en le combinant avec d’autres plugins (agenda,
 virtuel,présence,…​), il va se fondre en douceur dans votre installation
 domotique. Voilà ce que l’on obtient sur le dashboard :
 
-![Aspect sur le dashboard](../images/thermostat.png)
+![Aspect sur le dashboard](./thermostat.png)
 
 Le verrou présent sur le widget permet de bloquer le thermostat dans une
 consigne donnée, suite à un imprévu : congés, invités,…​.
@@ -116,7 +116,7 @@ configuration en déroulant le menu Plugins/Bien-être et sélectionnez
 Thermostat. Cliquez sur le bouton *Ajouter* situé en haut à gauche et
 renseignez le nom souhaité pour votre thermostat.
 
-![Configuration générale](../images/thermostat_config_générale.png)
+![Configuration générale](./thermostat_config_générale.png)
 
 Dans un premier temps, nous allons renseigner les paramètres généraux du
 thermostat. On les trouve en haut à gauche, section général et il faut
@@ -126,7 +126,7 @@ thermostat, informations habituelles pour tout utilisateur de jeedom.
 Le choix de l’algorithme du thermostat
 --------------------------------------
 
-![Choix de l'algorithme](../images/thermostat31.png)
+![Choix de l'algorithme](./thermostat31.png)
 
 En évidence sur cette image le Moteur de fonctionnement du thermostat.
 Il y a 2 algorithmes possibles pour la régulation de température.
@@ -136,7 +136,7 @@ chauffage se produit dès que la température est inférieure à la consigne
 moins l’hystérésis et il s’éteint dès que la température dépasse la
 consigne plus l’hystérésis.
 
-![Principe du mode hystérésis](../images/PrincipeHysteresis.png)
+![Principe du mode hystérésis](./PrincipeHysteresis.png)
 
 Par exemple, si on règle l’hystérésis à 1°C et que la valeur de consigne
 vaut 19°C, alors le chauffage s’active lorsque la température passe en
@@ -158,7 +158,7 @@ température mesurée par le capteur. L’algorithme va également calculer
 le temps de chauffe (ou de climatisation) sur un cycle en fonction de
 l’inertie et de l’isolation de la pièce.
 
-![Principe du mode temporel](../images/PrincipeTemporel.png)
+![Principe du mode temporel](./PrincipeTemporel.png)
 
 Enfin, plus le temps de cycle sera grand, plus la régulation sera lente.
 A l’inverse, un temps trop faible provoquera des commutations fréquentes
@@ -179,7 +179,7 @@ Puis vous indiquez sa plage d’utilisation : les températures minimale et
 maximale vont définir les valeurs possibles de consigne accessibles sur
 le widget.
 
-![Configuration du fonctionnement](../images/configFonctionnement.png)
+![Configuration du fonctionnement](./configFonctionnement.png)
 
 Ensuite, il faut préciser les commandes qui permettent de mesurer la
 température et de piloter le chauffage ou la climatisation. Notez que le
@@ -187,7 +187,7 @@ moteur temporel a besoin de connaître la température extérieure. Si vous
 ne disposez pas d’un capteur extérieur, celle-ci peut être fournie par
 le plugin météo.
 
-![Sélection des sondes](../images/selectionsondes.png)
+![Sélection des sondes](./selectionsondes.png)
 
 > **Tip**
 >
@@ -203,7 +203,7 @@ actions, ce qui donne la possibilité à notre thermostat de piloter
 différents équipements (cas d’un fonctionnement par zone par exemple ou
 contrôle d’un autre thermostat)
 
-![Actions sur les appareils](../images/actionssurappareil.png)
+![Actions sur les appareils](./actionssurappareil.png)
 
 Les actions sont celles qui permettent de chauffer, de refroidir
 (climatisation), d’arrêter la commande. Une action complémentaire peut
@@ -229,7 +229,7 @@ Il n’est pas visible sur le dashboard, car c’est un scénario qui
 programme tous les équipements en *vacances* et ainsi positionner le
 thermostat sur ce mode.
 
-![Définition des modes](../images/Definitionmodes.png)
+![Définition des modes](./Definitionmodes.png)
 
 Pour définir un mode, procédez comme suit :
 
@@ -264,7 +264,7 @@ supplémentaires sont réglables ici, ce sont les durées d’ouverture et de
 fermeture de la fenêtre qui vont provoquer l’interruption et la reprise
 du fonctionnement du thermostat.
 
-![Configuration des ouvertures](../images/configouvertures.png)
+![Configuration des ouvertures](./configouvertures.png)
 
 Pour configurer le fonctionnement à l’ouverture de la fenêtre :
 
@@ -313,7 +313,7 @@ notification permet d’être prévenu et d’intervenir manuellement.
 > sonde est situé dans l’onglet *Avancée*. Il s’agit du
 > `délai max entre 2 relevés de température`.
 
-![Défaillance des sondes](../images/defaillancesonde.png)
+![Défaillance des sondes](./defaillancesonde.png)
 
 Pour définir une action de défaillance :
 
@@ -347,7 +347,7 @@ Sur cette image, l’action de défaillance envoie l’ordre de passage en
 mode ECO du radiateur par le fil pilote, puis envoie un message par le
 plugin pushbullet.
 
-![Défaillance du chauffage](../images/defaillancechauffage.png)
+![Défaillance du chauffage](./defaillancechauffage.png)
 
 Pour définir une action de défaillance :
 
@@ -373,7 +373,7 @@ plupart des cas de figure, il est possible d’ajuster les coefficients
 pour une configuration optimisée à votre installation.
 
 ![Configuration avancée du
-thermostat](../images/configurationavancee.png)
+thermostat](./configurationavancee.png)
 
 Les coefficients sont les suivants :
 
@@ -461,14 +461,14 @@ Général) pour les paramétrer. Elles seront également utilisables dans
 les scénarios.
 
 ![Liste des commandes dans le résumé
-domotique](../images/thermostatlistecommandes.png)
+domotique](./thermostatlistecommandes.png)
 
 Toutes les commandes ne sont pas accessibles en programmation, certaines
 sont des informations d’état renvoyées par le plugin. Dans les
 scénarios, on trouve :
 
 ![Liste des commandes dans les
-scénarios](../images/thermostatcommandesscenario.png)
+scénarios](./thermostatcommandesscenario.png)
 
 -   **Les modes** : il est possible de faire les changements de mode, en
     exécutant directement les commandes (ici, Confort, Confort matin,
@@ -532,19 +532,19 @@ le week-end de 8h à 22h. Le reste du temps, le chauffage bascule en mode
 
 On crée donc le scénario ***Chauffage confort***, en mode programmé :
 
-![Scénario programmé](../images/thermostat11.png)
+![Scénario programmé](./thermostat11.png)
 
 et le code :
 
-![Scenario mode confort](../images/scenarioconfort.png)
+![Scenario mode confort](./scenarioconfort.png)
 
 Sur le même principe, le scénario "Chauffage Eco" :
 
-![Scénario programmé en mode Eco](../images/thermostat13.png)
+![Scénario programmé en mode Eco](./thermostat13.png)
 
 et son code :
 
-![Scénario en mode Eco](../images/scenarioeco.png)
+![Scénario en mode Eco](./scenarioeco.png)
 
 Notez que dans les scénarios, le pilotage du thermostat est complet
 puisqu’on peut agir sur le mode de fonctionnement (chauffage ou
@@ -581,22 +581,22 @@ Jours fériés. Tous ces événements, ont comme action de début la
 sélection du mode **Confort** du thermostat et comme action de fin le
 mode **Eco** :
 
-![Actions de l'agenda](../images/agendaactions.png)
+![Actions de l'agenda](./agendaactions.png)
 
 Pour la programmation de l’évènement Soir :
 
-![Programmation de l'évènement](../images/agendaprogrammation.png)
+![Programmation de l'évènement](./agendaprogrammation.png)
 
 Il suffit de réitérer pour chaque évènement pour obtenir cet agenda
 mensuel coloré :
 
-![affichage mensuel de l'agenda](../images/agendamensuel.png)
+![affichage mensuel de l'agenda](./agendamensuel.png)
 
 En revenant dans la configuration du thermostat, on peut accéder aux
 évènements de l’agenda directement depuis l’onglet programmation :
 
 ![onglet programmation du
-thermostat](../images/thermostatongletprogrammation.png)
+thermostat](./thermostatongletprogrammation.png)
 
 Visualisation du fonctionnement du thermostat
 ---------------------------------------------
@@ -605,7 +605,7 @@ Une fois le thermostat configuré, il est important de vérifier son
 efficacité.
 
 ![Menu de visualisation des
-thermostats](../images/menuaccueilthermostats.png)
+thermostats](./menuaccueilthermostats.png)
 
 Dans le menu `Accueil`, on trouve le sous-menu `Thermostat`. La fenêtre
 qui s’affiche lorsqu’on sélectionne ce menu est découpée en trois zones
@@ -621,12 +621,12 @@ qui s’affiche lorsqu’on sélectionne ce menu est découpée en trois zones
     intérieure et état du chauffage.
 
 ![cumul du temps de chauffe du
-thermostat](../images/graphecumultempsdechauffe.png)
+thermostat](./graphecumultempsdechauffe.png)
 
 *Graphe du cumul du temps de chauffe*
 
 ![graphe des courbes du
-thermostat](../images/graphecourbesthermostat.png)
+thermostat](./graphecourbesthermostat.png)
 
 *Graphe des courbes du thermostat*
 

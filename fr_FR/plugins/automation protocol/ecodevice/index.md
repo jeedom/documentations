@@ -10,11 +10,11 @@ Données visibles sur le Dashboard :
 
 -   '''les compteurs de Téléinformation '''
 
-![ecodevice screenshot2](../images/ecodevice_screenshot2.jpg)
+![ecodevice screenshot2](./ecodevice_screenshot2.jpg)
 
 -   '''les compteurs d’impulsions'''
 
-![ecodevice screenshot3](../images/ecodevice_screenshot3.jpg)
+![ecodevice screenshot3](./ecodevice_screenshot3.jpg)
 
 Fréquence de rafraichissement 
 -----------------------------
@@ -59,7 +59,7 @@ Puis définir :
 
 -   '''Mot de passe'''
 
-![ecodevice screenshot1](../images/ecodevice_screenshot1.jpg)
+![ecodevice screenshot1](./ecodevice_screenshot1.jpg)
 
 Vous retrouverez l’ensemble des élements de la carte dans le menu à
 gauche en clickant sur l’icone de celle-ci.
@@ -67,12 +67,12 @@ gauche en clickant sur l’icone de celle-ci.
 Voici la page de configuration de compteur. Tant que le type de compteur
 n’est pas defini, les commandes ne sont pas crées.
 
-![ecodevice screenshot4](../images/ecodevice_screenshot4.jpg)
+![ecodevice screenshot4](./ecodevice_screenshot4.jpg)
 
 Voici la page de configuration d’une entrée téléinformation. Tant que le
 type de contrat n’est pas defini, les commandes ne sont pas crées.
 
-![ecodevice screenshot5](../images/ecodevice_screenshot5.jpg)
+![ecodevice screenshot5](./ecodevice_screenshot5.jpg)
 
 Installation/Paramétrage 
 ========================
@@ -83,7 +83,7 @@ FAQ
 ===
 
 Il faut dans le menu gauche cliquer sur l’icône suivant pour y avoir
-accès : ![la](../images/acces_sous_indicateur.jpg)
+accès : ![la](./acces_sous_indicateur.jpg)
 
 Par défaut c’est toutes les minutes. Il est possible de configurer
 manuellement du push sur l’ecodevice. Pour les débits, consommations

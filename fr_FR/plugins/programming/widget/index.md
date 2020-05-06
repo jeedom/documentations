@@ -36,18 +36,18 @@ Installation du plugin Widget
 Comme pour tout plugin, le plugin Widget s’installe depuis l’interface
 Jeedom, menu "Général"⇒"Plugins"
 
-![capture001](../images/capture001.png)
+![capture001](./capture001.png)
 
 Cliquer sur l’icône verte pour accéder directement au Market. Dans cette
 fenêtre cliquer sur "Officiel" et dans le champ de recherche mettre
 "Widget".
 
-![capture002](../images/capture002.png)
+![capture002](./capture002.png)
 
 Cliquer sur l’icône du plugin. Cela ouvre la fiche du plugin dans
 laquelle se trouvent plusieurs informations.
 
-![capture003](../images/capture003.png)
+![capture003](./capture003.png)
 
 Cliquer sur le bouton "Installer stable". Une fois installé, Jeedom vous
 demande si vous souhaitez aller à la page de configuration du plugin.
@@ -65,14 +65,14 @@ Présentation et fonction de base du Plugin Widget
 Afin de se rendre dans le plugin Widget, il faut aller dans le menu
 "Plugins"⇒"Programmation"⇒"Widget".
 
-![capture005](../images/capture005.png)
+![capture005](./capture005.png)
 
 On se trouve donc sur la page principale du plugin. Ce dernier dispose
 par défaut d’un éventail de widgets dès son installation Il est possible
 d’en télécharger d’autres via le market ou de créer ses propres widgets
 (voir plus bas).
 
-![capture006](../images/capture006.png)
+![capture006](./capture006.png)
 
 En cliquant sur l’un des widgets de la liste du menu de droite ou de
 gauche vous allez ouvrir la page de configuration du widget, dans
@@ -80,7 +80,7 @@ laquelle vous pouvez modifier, voir un aperçu du widget (si Jeedom
 trouve une commande compatible) et tout un tas d’infos de configuration
 comme le code source du widget
 
-![capture007](../images/capture007.png)
+![capture007](./capture007.png)
 
 > **Warning**
 >
@@ -102,18 +102,18 @@ Voici quelques exemples :
 Pour les modules Z-Wave, "Plugins"⇒"Protocole domotique"⇒"Z-wave", puis
 choisir le module de la commande que vous souhaitez modifier.
 
-![capture024](../images/capture024.png)
+![capture024](./capture024.png)
 
 Sur la page de configuration du module, se rendre sur la commande et
 cliquer sur les roues crantées. Dans la nouvelle fenêtre, se rendre dans
 l’onglet "Affichage avancé"
 
-![capture025](../images/capture025.png)
+![capture025](./capture025.png)
 
 Vous pouvez ici modifier le widget appliqué pour les ordinateurs et
 mobiles avec les listes déroulantes dédiées.
 
-![capture014](../images/capture014.png)
+![capture014](./capture014.png)
 
 > **Note**
 >
@@ -128,18 +128,18 @@ fenêtre qui liste toutes les commandes compatibles avec le type du
 widget. Vous pouvez donc simplement appliquer ou retirer le widget à de
 nombreuses commandes en une seule fois.
 
-![capture008](../images/capture008.png)
+![capture008](./capture008.png)
 
 Il suffit de cocher les commandes sur lesquelles vous souhaiter
 appliquer le widget
 
 ### Divers exemples pour une même commande 
 
-![Widget : badge-transparent](../images/capture009.png)
+![Widget : badge-transparent](./capture009.png)
 
-![Widget : badge](../images/capture010.png)
+![Widget : badge](./capture010.png)
 
-![Widget : ConsoIMG](../images/capture011.png)
+![Widget : ConsoIMG](./capture011.png)
 
 Options de personnalisation des widgets 
 ---------------------------------------
@@ -152,17 +152,17 @@ s’affichera différemment d’une commande à l’autre.
 On peut accéder à ces options de 2 façons. Soit par l’arbre Domotique
 qui se trouve dans le menu "Général" ⇒ "Résumé Domotique"
 
-![capture012](../images/capture012.png)
+![capture012](./capture012.png)
 
 Sur cette page vous trouvez tous vos éléments domotiques, les objets,
 les modules, les commandes. Cliquez sur la petite roue crantée pour
 accèder à la page de configuration.
 
-![capture013](../images/capture013.png)
+![capture013](./capture013.png)
 
 Soit depuis la page de configuration des modules.
 
-![capture015](../images/capture015.png)
+![capture015](./capture015.png)
 
 ### Ajouter une option personnalisée 
 
@@ -175,13 +175,13 @@ avant/après le widget s’il y a plusieurs commandes dans un module
 optionnels Widget appliqués (la liste disponible se trouve sur le forum
 ou Wiki, un système de doc est à l’étude)
 
-![capture014](../images/capture014.png)
+![capture014](./capture014.png)
 
 ![exemple 1 de valeur pour afficher un compteur
-spécifique](../images/capture016.png)
+spécifique](./capture016.png)
 
 ![exemple 2 de valeur pour afficher un autre
-compteur](../images/capture017.png)
+compteur](./capture017.png)
 
 > **Note**
 >
@@ -218,14 +218,14 @@ dans le plugin : menu "Plugins"⇒"Programmation"⇒"Widget". A partir de
 cette page, cliquer sur le bouton "Mode création facile" en haut à
 gauche.
 
-![capture026](../images/capture026.png)
+![capture026](./capture026.png)
 
 Sur la nouvelle page, vous pouvez dans la partie de droite, visualiser
 les icônes de base Jeedom, les images que vous avez importées et les
 packs importés. Sur la partie de gauche, en premier un bouton pour
 importer des packs ou images, puis 3 boutons pour la création de widget.
 
-![capture027](../images/capture027.png)
+![capture027](./capture027.png)
 
 -   Widget On/Off ⇒ Destiné aux commandes bouton pour les on/off
 
@@ -245,7 +245,7 @@ configuration assistée. Il faut donner un nom au widget (nom unique), le
 type d’interface, si le widget est destiné au PC (Dashboard) ou mobile,
 puis la bibliothèque à utiliser (Jeedom, Image perso ou packs).
 
-![capture028](../images/capture028.png)
+![capture028](./capture028.png)
 
 Puis il vous faut choisir l’icône pour l’Etat 0 et 1, ainsi que la
 taille de l’icône (valeur en "EM" = % de la taille d’origine de la
@@ -283,7 +283,7 @@ bouton "Ajouter un widget"
 Depuis la page principale du plugin, cliquer sur "Ajouter un Widget".
 Jeedom vous demande quelques infos sur le futur widget.
 
-![capture029](../images/capture029.png)
+![capture029](./capture029.png)
 
 -   Le nom doit être un nom unique. Vérifiez donc que ce nom n’existe
     pas déjà.
@@ -332,7 +332,7 @@ page principale de la configuration/modification du Widget. A partir de
 là, le widget est créé dans Jeedom mais ne contient pour le moment pas
 de code pour l’affichage de la commande.
 
-![capture030](../images/capture030.png)
+![capture030](./capture030.png)
 
 #### Modification d’un widget 
 
@@ -693,7 +693,7 @@ voici donc la liste et leur détail :
 
         A utiliser dans l'attribut "class" de la div principale
 
-![Exemple de retour de valeur](../images/capture031.png)
+![Exemple de retour de valeur](./capture031.png)
 
 ### Les class CSS Jeedom 
 

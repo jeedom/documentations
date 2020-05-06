@@ -14,7 +14,7 @@ et synchroniser ses chaînes. Ainsi il sera possible d’avoir un widget en
 
 1 partie chaînes
 
-![roku screenshot1](../images/roku_screenshot1.png)
+![roku screenshot1](./roku_screenshot1.png)
 
 Configuration 
 -------------
@@ -29,7 +29,7 @@ l’activer comme tout plugin Jeedom.
 Suite à cela il vous faudra le créer, cliquer sur "Scanner
 automtiquement" :
 
-![roku screenshot2](../images/roku_screenshot2.png)
+![roku screenshot2](./roku_screenshot2.png)
 
 Il se peut que cela ne fonctionne pas à chaque fois, vous pouvez
 retenter 2 ou 3 fois. Si malgré tout le roku n’est pas détecté, aucun
@@ -38,18 +38,18 @@ souci vous pourrez le rajouter manuellement avec son adresse IP.
 Rendez vous dans le menu Plugins/Multimedia, vous y trouverez le plugin
 Roku :
 
-![configuration1](../images/configuration1.png)
+![configuration1](./configuration1.png)
 
 Ensuite vous arriverez sur la page qui listera vos rokus
 
-![roku screenshot2](../images/roku_screenshot2.png)
+![roku screenshot2](./roku_screenshot2.png)
 
 Cliquez sur le bouton Ajouter si vous voulez rajouter un Roku
 manuellement
 
 Sur cette page vous trouverez trois sections :
 
-![roku screenshot5](../images/roku_screenshot5.png)
+![roku screenshot5](./roku_screenshot5.png)
 
 i.  Général
 
@@ -79,9 +79,9 @@ Toutes ces commandes sont disponibles via scénarios et via le dashboard
 
 ### Le widget : 
 
-![roku screenshot1](../images/roku_screenshot1.png) ![roku
-screenshot3](../images/roku_screenshot3.png) ![roku
-screenshot4](../images/roku_screenshot4.png)
+![roku screenshot1](./roku_screenshot1.png) ![roku
+screenshot3](./roku_screenshot3.png) ![roku
+screenshot4](./roku_screenshot4.png)
 
 Le widget se décompose en trois parties :
 

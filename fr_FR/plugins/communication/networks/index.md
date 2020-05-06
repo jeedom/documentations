@@ -7,7 +7,7 @@ Configuration du plugin
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
 il n’y a aucune configuration à ce niveau.
 
-![networks](../images/networks.PNG)
+![networks](./networks.PNG)
 
 Configuration des équipements 
 =============================
@@ -15,12 +15,12 @@ Configuration des équipements
 La configuration des équipements Networks est accessible à partir du
 menu plugin :
 
-![networks2](../images/networks2.PNG)
+![networks2](./networks2.PNG)
 
 Voilà à quoi ressemble la page du plugin Networks (ici avec déjà 1
 équipement) :
 
-![networks3](../images/networks3.PNG)
+![networks3](./networks3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ Voilà à quoi ressemble la page du plugin Networks (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![networks4](../images/networks4.PNG)
+![networks4](./networks4.PNG)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
@@ -91,11 +91,11 @@ Widgets
 
 Exemple de widget (sans le wake-on-lan) en vue desktop :
 
-![networks5](../images/networks5.PNG)
+![networks5](./networks5.PNG)
 
 Et en vue mobile :
 
-![networks6](../images/networks6.PNG)
+![networks6](./networks6.PNG)
 
 Changelog détaillé :
 <https://jeedom.github.io/plugin-networks/fr_FR/changelog>

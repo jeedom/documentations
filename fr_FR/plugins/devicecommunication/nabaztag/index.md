@@ -9,11 +9,11 @@ Configuration des équipements
 Une fois le plugin installé et activé à partir du Market, on accède à la
 page du plugin Nabaztag par :
 
-![nabaztag1](../images/nabaztag1.png)
+![nabaztag1](./nabaztag1.png)
 
 Vous retrouvez ici tous vos équipements Nabaztag :
 
-![nabaztag2](../images/nabaztag2.png)
+![nabaztag2](./nabaztag2.png)
 
 > **Tip**
 >
@@ -23,7 +23,7 @@ Vous retrouvez ici tous vos équipements Nabaztag :
 
 Une fois un équipement sélectionné vous obtenez :
 
-![nabaztag3](../images/nabaztag3.png)
+![nabaztag3](./nabaztag3.png)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
@@ -95,15 +95,15 @@ Récupérer l’adresse max et le token
 Allez sur le site [openjabnab](http://openjabnab.fr/ojn_admin/index.php)
 puis connectez-vous à votre compte :
 
-![nabaztag4](../images/nabaztag4.png)
+![nabaztag4](./nabaztag4.png)
 
 Cliquez sur lapin :
 
-![nabaztag5](../images/nabaztag5.png)
+![nabaztag5](./nabaztag5.png)
 
 Puis cliquez sur API :
 
-![nabaztag6](../images/nabaztag6.png)
+![nabaztag6](./nabaztag6.png)
 
 Ici activez l’api violet et public et récupérez l’addresse mac ainsi que
 la clef api violet pour la mettre dans la configuration de votre lapin
@@ -114,7 +114,7 @@ Widget
 
 Voici le widget obtenu après création de l’équipement :
 
-![nabaztag7](../images/nabaztag7.png)
+![nabaztag7](./nabaztag7.png)
 
 Changelog détaillé :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

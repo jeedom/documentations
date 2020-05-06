@@ -12,7 +12,7 @@ Principe de fonctionnement
 Le plugin *Jeedom Link* (aussi appelé jeelink) permet la remontée d’un
 ou plusieurs équipement(s) d’un Jeedom sur un autre.
 
-![jeelink1](../images/jeelink1.png)
+![jeelink1](./jeelink1.png)
 
 > **Important**
 >
@@ -72,7 +72,7 @@ Pour ajouter un **Jeedom Cible**, il suffit de donner :
     le retour d’informations, du **Jeedom Source** vers le **Jeedom
     Cible**). Et sauvegarder la configuration.
 
-![jeelink2](../images/jeelink2.png)
+![jeelink2](./jeelink2.png)
 
 > **Important**
 >
@@ -92,12 +92,12 @@ sur le **Jeedom Cible**.
 Dans l’onglet *Affectation*, ajouter les équipements que vous désirez
 remonter vers le **Jeedom Cible**.
 
-![jeelink3](../images/jeelink3.png)
+![jeelink3](./jeelink3.png)
 
 Cliquer sur *Ajouter un équipement* Sélectionner l’objet et l’équipement
 à ajouter :
 
-![jeelink5](../images/jeelink5.png)
+![jeelink5](./jeelink5.png)
 
 > **Tip**
 >
@@ -116,18 +116,18 @@ Les équipements "Mes jeelinks"
 Après avoir rafraîchi la page *Mes JeeLinks* du **Jeedom Cible**, vous
 devez constater la création automatique de l’équipement :
 
-![jeelink4](../images/jeelink4.png)
+![jeelink4](./jeelink4.png)
 
 Comme tout équipement Jeedom, vous pouvez activer/désactiver et afficher
 ou non l’équipement, ses commandes,…​ ou changer la catégorie. Mais
 aussi
 
-![jeelink6](../images/jeelink6.png)
+![jeelink6](./jeelink6.png)
 
 Dans l’onglet *Commandes*, vous accédez à tous les paramètres des
 commandes de l’équipement :
 
-![jeelink7](../images/jeelink7.png)
+![jeelink7](./jeelink7.png)
 
 Modification du Jeedom Source d’un JeeLink 
 ==========================================
@@ -149,7 +149,7 @@ Migration ancien mode Esclave
 =============================
 
 Un tutoriel est disponible,
-[ici](https://doc.jeedom.com/fr_FR/howto/jeelink.migration.html)
+[ici](https://jeedom.github.io/documentation/howto/fr_FR/jeelink.migration.html)
 précisant la procédure à suivre pour effectuer la migration d’un Jeedom
 Esclave vers le nouveau mode de fonctionnement Jeedom Link.
 

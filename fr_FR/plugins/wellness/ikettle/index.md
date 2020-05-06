@@ -42,7 +42,7 @@ Widget
 
 Ce plugin dispose d'un widget sépcifique, cela veut dire qu'il ne peut pas être changé.
 
-![ikettle](../images/ikettle_screenshot.jpg)
+![ikettle](./ikettle_screenshot.jpg)
 
 On y retrouve la température mesurée, le niveau d'eau (arbitraire ne marche pas bien), la présence ou non de la bouillloire sur son socle, les différentes actions ainsi que le statut.
 

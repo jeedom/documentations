@@ -9,7 +9,7 @@ son Harmony Hub.
 
  \
 
-![harmonyhub icon](../images/harmonyhub_icon.png)
+![harmonyhub icon](./harmonyhub_icon.png)
 
  \
 
@@ -31,7 +31,7 @@ Suite à cela il vous faudra lancer l’installation des dépendances :
 
  \
 
-![dep harmony](../images/dep_harmony.jpg)
+![dep harmony](./dep_harmony.jpg)
 
  \
 
@@ -41,7 +41,7 @@ ou dispositif) :
 
  \
 
-![conf harmony](../images/conf_harmony.jpg)
+![conf harmony](./conf_harmony.jpg)
 
  \
 
@@ -59,7 +59,7 @@ menu plugin:
 
  \
 
-![menu harmony](../images/menu_harmony.jpg)
+![menu harmony](./menu_harmony.jpg)
 
  \
 
@@ -67,7 +67,7 @@ Ensuite cliquez sur le bouton "+" pour rajouter un équipement :
 
  \
 
-![harmonyhub screenshot2](../images/harmonyhub_screenshot2.jpg)
+![harmonyhub screenshot2](./harmonyhub_screenshot2.jpg)
 
  \
 
@@ -75,7 +75,7 @@ Vous arriverez sur cette page :
 
  \
 
-![harmonyhub screenshot3](../images/harmonyhub_screenshot3.jpg)
+![harmonyhub screenshot3](./harmonyhub_screenshot3.jpg)
 
  \
 
@@ -95,7 +95,7 @@ automatiquement la liste des commandes correspondantes.
 
  \
 
-![harmonyhub screenshot4](../images/harmonyhub_screenshot4.jpg)
+![harmonyhub screenshot4](./harmonyhub_screenshot4.jpg)
 
  \
 
@@ -108,8 +108,8 @@ proposer vous créer votre simili télécommande.
 
  \
 
-![harmonyhub screenshot5](../images/harmonyhub_screenshot5.jpg)
-![harmonyhub screenshot6](../images/harmonyhub_screenshot6.jpg)
+![harmonyhub screenshot5](./harmonyhub_screenshot5.jpg)
+![harmonyhub screenshot6](./harmonyhub_screenshot6.jpg)
 
  \
 

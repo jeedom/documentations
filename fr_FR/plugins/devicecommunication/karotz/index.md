@@ -146,11 +146,11 @@ Les informations/actions
 Informations/actions sur le dashboard : 
 ---------------------------------------
 
-![widget](../images/widget.jpg)
+![widget](./widget.jpg)
 
 -   A : Permet d’accéder à la page de choix du son
 
-![karotz screenshot5](../images/karotz_screenshot5.jpg)
+![karotz screenshot5](./karotz_screenshot5.jpg)
 
 -   B : Bouton Rafraîchir pour redemander les valeurs d’état et de
     couleur
@@ -158,7 +158,7 @@ Informations/actions sur le dashboard :
 -   C : Zone de contrôle des oreilles (aléatoire, remise à
     zéro, personnalisé)
 
-![karotz screenshot7](../images/karotz_screenshot7.jpg)
+![karotz screenshot7](./karotz_screenshot7.jpg)
 
 -   D : Zone actions (horloge/humeur)
 
@@ -166,7 +166,7 @@ Informations/actions sur le dashboard :
 
 -   F : Zone leds (activer clignotement/désactiver)
 
-![karotz screenshot6](../images/karotz_screenshot6.jpg)
+![karotz screenshot6](./karotz_screenshot6.jpg)
 
 -   G : Slider de contrôle de la vitesse de clignotement
 

@@ -7,9 +7,9 @@ Description
 Ce plugin permet de controller et d’avoir toutes les infos de son ou ses
 Nimbus.
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg) ![nimbus
-screenshot2](../images/nimbus_screenshot2.jpg) ![nimbus
-screenshot3](../images/nimbus_screenshot3.jpg)
+![nimbus screenshot1](./nimbus_screenshot1.jpg) ![nimbus
+screenshot2](./nimbus_screenshot2.jpg) ![nimbus
+screenshot3](./nimbus_screenshot3.jpg)
 
 Configuration 
 -------------
@@ -26,7 +26,7 @@ Suite à cela il vous faudra renseigner vos identifiants (compte wink +
 api):
 
 
-![config plugin](../images/config_plugin.jpg)
+![config plugin](./config_plugin.jpg)
 
 
 
@@ -37,14 +37,14 @@ Vous arriverez sur la page qui listera vos équipements (vous pouvez
 avoir plusieurs nimbus) et qui vous permettra d’en créer
 
 
-![nimbus screenshot4](../images/nimbus_screenshot4.jpg)
+![nimbus screenshot4](./nimbus_screenshot4.jpg)
 
 
 **Cliquez sur le bouton Ajouter :**
 
 Vous arriverez ensuite sur la page de configuration de votre nimbus :
 
-![config nimbus](../images/config_nimbus.jpg)
+![config nimbus](./config_nimbus.jpg)
 
 Sur cette page vous trouverez plusieurs sections :
 
@@ -73,11 +73,11 @@ sur le dashboard. Vous pouvez choisir parmis plusieurs fonds. Vous
 pouvez aussi choisir la couleur de l’aiguille et la couleur du texte.
 
 
-![nimbus screenshot6](../images/nimbus_screenshot6.jpg)
+![nimbus screenshot6](./nimbus_screenshot6.jpg)
 
 -   **Informations**
 
-![infonimb](../images/infonimb.jpg)
+![infonimb](./infonimb.jpg)
 
 
 Cette section se remplira d’elle même à la sauvegarde de votre
@@ -140,7 +140,7 @@ Les informations
 
 ### Informations sur le dashboard : 
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg)
+![nimbus screenshot1](./nimbus_screenshot1.jpg)
 
 Le widget est divisé en 4 cadrans représentant les 4 cadrans de votre
 nimbus.
@@ -152,7 +152,7 @@ nimbus.
     cliquable pour arriver à cet écran :
 
 
-![nimbus screenshot5](../images/nimbus_screenshot5.jpg)
+![nimbus screenshot5](./nimbus_screenshot5.jpg)
 
 
 Cet écran permet de changer manuellement le texte, la position de
@@ -168,7 +168,7 @@ Les actions
 
 Plusieurs actions sont accessibles via scénario :
 
-![commandes](../images/commandes.jpg)
+![commandes](./commandes.jpg)
 
 L’action Démo est independante et lance la démo technique.
 
@@ -203,13 +203,13 @@ phrase :**
     caractères il sera coupé si la phrase fait plus de 4 mots elle
     sera coupée)
 
-![Scenario](../images/Scenario.jpg)
+![Scenario](./Scenario.jpg)
 
 
-![Scenario2](../images/Scenario2.jpg)
+![Scenario2](./Scenario2.jpg)
 
 
-![Scenario3](../images/Scenario3.jpg)
+![Scenario3](./Scenario3.jpg)
 
 
 **COMMENT PUIS JE FAIRE AFFICHER DE MANIERE PERMANENTE DES INFOS DE MA
@@ -218,7 +218,7 @@ DOMOTIQUE**
 Si vous voulez afficher de manière continue une info de votre domotique.
 Faites un scénario programmé toutes les 5 minutes (par exemple).
 
-![Scenario4](../images/Scenario4.jpg)
+![Scenario4](./Scenario4.jpg)
 
 Sur cette exemple il vous suffit de remplacer ce qui est entre crochet
 par vos commandes. Et toutes les 5 minutes vos écrans seront mis à jour
