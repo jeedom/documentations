@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="elmtouch/elmtouch_icon.png" class="pluginLogo" width="100" />|ELM Touch|Plugin para regulación de caldera de gas Elm Leblanc con termostato conectado ELM Touch|[Documentación](https://jmvedrine.github.io/jeedom-elmtouch/es_ES/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3281)|
 |<img src="qivivo/qivivo_icon.png" class="pluginLogo" width="100" />|Qivivo|Integración del termostato Qivivo|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/qivivo/es_ES/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3551)|

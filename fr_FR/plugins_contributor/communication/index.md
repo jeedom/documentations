@@ -10,3 +10,4 @@
 | | | | |
 |--- | --- | --- | ---|
 |<img src="jeerhasspy/jeerhasspy_icon.png" class="pluginLogo" width="100" />|jeeRhasspy|Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom.|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3869)|
+|<img src="livebox/livebox_icon.png" class="pluginLogo" width="100" />|Livebox|Plugin pour Livebox 2, play, 4|[Documentation](https://jmvedrine.github.io/plugin-livebox/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1076)|

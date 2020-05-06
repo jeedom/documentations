@@ -40,12 +40,18 @@
         "ici]": "aquí]"
     },
     "plugins_contributor\/communication\/index.md": {
+        "Plugin pour Livebox 2, play, 4": "Plugin para Livebox 2, play, 4",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Complemento para admitir el asistente de voz Rhasspy en Jeedom",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " Livebox.": " Livebox.",
+        " Livebox?": " Livebox?",
+        "Livebox ": "Livebox ",
+        "[Livebox": "[Livebox",
+        "Livebox]": "Livebox]",
         " jeeRhasspy.": " jeeRhasspy.",
         " jeeRhasspy?": " jeeRhasspy?",
         "jeeRhasspy ": "jeeRhasspy ",
@@ -78,6 +84,12 @@
         "Market]": "Mercado]"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "Sure PetCare": "Sure PetCare",
+        "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plug-in para objetos conectados a animales Sure Petcare para animales (Sureflap)",
+        "K Roomba": "K Roomba",
+        "Plugin pour contrôler les aspirateurs Roomba": "Complemento para controlar las aspiradoras Roomba",
+        "Home Connect": "Home Connect",
+        "Plugin permettant de récupérer les informations des appareils électroménagers compatibles": "Complemento para recuperar información de electrodomésticos compatibles",
         "Objets connectés": "Objetos conectados",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
@@ -432,6 +444,8 @@
     },
     "plugins_contributor\/wellness\/index.md": {
         "Intégration du Thermostat Qivivo": "Integración del termostato Qivivo",
+        "ELM Touch": "ELM Touch",
+        "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin para regulación de caldera de gas Elm Leblanc con termostato conectado ELM Touch",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
