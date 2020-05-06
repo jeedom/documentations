@@ -34,6 +34,7 @@
         "Market": "Market"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "wifilightV2": "wifilightV2",
         "Objets connectés": "Objets connectés",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -41,7 +42,9 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     },
     "plugins_contributor\/energy\/index.md": {
         "Energie": "Energie",
