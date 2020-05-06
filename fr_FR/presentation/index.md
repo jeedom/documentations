@@ -31,12 +31,6 @@ Le Core comprend entre autres :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Création de widgets
-
-*Jeedom propose un moteur de création de Widgets pour les tuiles des équipements. Vous pouvez ainsi créer vos propres Widgets, en plus des Widgets de base. La création de Widgets est aussi possible directement à partir de code, pour les utilisateurs avancés.*
-
-![Widgets](images/doc-presentation-widgets.jpg)
-
 ## Historiques
 
 *Toutes les informations sont historisables (courbe de température, consommation, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
@@ -48,6 +42,12 @@ Le Core comprend entre autres :
 *Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Création de widgets
+
+*Jeedom propose un moteur de création de Widgets pour les commandes des équipements. Vous pouvez ainsi créer vos propres Widgets, en plus des Widgets de base. La création de Widgets est aussi possible directement à partir de code, pour les utilisateurs avancés.*
+
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
