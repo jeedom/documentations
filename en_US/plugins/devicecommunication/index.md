@@ -7,6 +7,7 @@
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=devicecommunication) all official plugins in this category
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="blink1/blink1_icon.png" class="pluginLogo" width="100" />|Blink(1)|Plugin used to control a blink key (1)|[Documentation](blink1/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1244)|

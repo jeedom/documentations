@@ -7,6 +7,7 @@
 >Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de los otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) todos los complementos oficiales en esta categoría
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="beagle/beagle_icon.png" class="pluginLogo" width="100" />|Odace SFSP|Complemento que agrega soporte para la gama Odace SFSP (inalámbrica sin batería) Schneider a Jeedom. Permite obtener la información de los interruptores (persianas / escenas / individuales / dobles). Permite controlar los actuadores (obturador / dcl). También te permite usar escenas y grupos.|[Documentación](beagle/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3917)|

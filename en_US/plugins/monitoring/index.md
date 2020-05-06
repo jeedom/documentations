@@ -7,6 +7,7 @@
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) all official plugins in this category
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="monitoring2/monitoring2_icon.png" class="pluginLogo" width="100" />|Monitoring|Local and remote monitoring plugin by SSH|[Documentation](monitoring2/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)|

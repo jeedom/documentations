@@ -7,6 +7,7 @@
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=weather) all official plugins in this category
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="netatmoWeather/netatmoWeather_icon.png" class="pluginLogo" width="100" />|Netatmo Station|Plugin for meteorological information from Netatmo weather stations|[Documentation](netatmoWeather/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=133)|

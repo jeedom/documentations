@@ -289,7 +289,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 > **NOTE**
 >
-> Para iniciar um cenário, basta dizer "Ativar # nome do cenário #" ou "Desativar # nome do cenário"#
+> Para iniciar um cenário, basta dizer "Ativo #nom du scénario#" ou "Desativar #nom du scénario#
 
 > **NOTE**
 >
@@ -346,3 +346,7 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 >**Ao adicionar equipamento, tenho NOK**
 >
 >Basta clicar no NOK, uma janela informará o tipo genérico a ser usado nos controles do equipamento para que funcione
+
+>**Os demônios / dependências estão em NOK**
+>
+>Não importa se não deve ser cuidado, pois não é usado em nenhum caso para o funcionamento do plugin no momento (é útil apenas passarmos na validação do Google)

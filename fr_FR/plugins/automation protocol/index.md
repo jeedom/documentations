@@ -7,6 +7,7 @@
 >Seuls les plugins officiels ont leur documentation ici. Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom. Une fois sur le plugin en question, cliquez sur documentation.
 >Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) tous les plugins officiels de cette catégorie
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="beagle/beagle_icon.png" class="pluginLogo" width="100" />|Odace SFSP|Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets/ scènes / simple / double). Il permet de contrôler les actionneurs (volet/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes.|[Documentation](beagle/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3917)|

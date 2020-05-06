@@ -7,6 +7,7 @@
 >Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de los otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=energy) todos los complementos oficiales en esta categoría
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="delestage/delestage_icon.png" class="pluginLogo" width="100" />|Deslastre de carga|Complemento para gestionar el desprendimiento de carga|[Documentación](delestage/index.md) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2616)|

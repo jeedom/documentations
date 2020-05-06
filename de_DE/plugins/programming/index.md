@@ -7,6 +7,7 @@
 >Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=programming) Alle offiziellen Plugins in dieser Kategorie
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="clink/clink_icon.png" class="pluginLogo" width="100" />|Klicken Sie auf den Link|Link- und Schnittstellenverwaltungs-Plugin|[Dokumentation](clink/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1867)|

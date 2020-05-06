@@ -63,7 +63,7 @@ Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen
 >**NOTE**
 >
 >Um vom Standalone-Modus in den Cloud-Modus zu wechseln, müssen Sie :
->- Im Plugin in die Wolke gehen und dann speichern
+>- Im Plugin in die Cloud gehen und dann speichern
 >- 24h warten
 >- In der Google-Startanwendung müssen Sie testmarthome (Ihre eigenständige Anwendung) trennen.
 >- Klicken Sie in Communication / Google Smarthome auf Speichern, um Ihre Erstkonfiguration zu senden
@@ -214,7 +214,7 @@ Dann brauchen Sie auf einem Smartphone **android** (darf nicht auf einem iPhone 
 
 ## JWT-Konfiguration
 
-Mit JWT können Sie jede Änderung des STATUS eines an Google gesendeten Geräts automatisch melden. Auf diese Weise können Sie den STATUS schneller abrufen, wenn Sie ihn von Google Home oder der Google Home-App anfordern.. Die Konfiguration ist nicht obligatorisch. Wenn Sie jedoch das Kontrollkästchen "Zurück zum Status" aktivieren, müssen Sie dies unbedingt tun, damit es funktioniert.
+Mit JWT können Sie jede Änderung des Status eines an Google gesendeten Geräts automatisch melden. Auf diese Weise können Sie den Status schneller abrufen, wenn Sie ihn von Google Home oder der Google Home-App anfordern.. Die Konfiguration ist nicht obligatorisch. Wenn Sie jedoch das Kontrollkästchen "Zurück zum Status" aktivieren, müssen Sie dies unbedingt tun, damit es funktioniert.
 
 Um die Konfiguration vorzunehmen, die Sie benötigen
 
@@ -274,8 +274,8 @@ Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen 
 * Kamera : In der Beta kann der Stream auf einem Android-Fernseher im lokalen Netzwerk angezeigt werden
 * Speichern : ermöglicht das Öffnen / Schließen eines Rollos (Sie können die Richtung in der erweiterten Konfiguration umkehren)
 * Klappe : öffnet / schließt einen Verschluss (Sie können die Richtung in der erweiterten Konfiguration umkehren)
-* [Beta-Fenster] : unterstützt normalerweise den offenen / geschlossenen STATUS eines Fensters (zur Information nur, wenn ich die Frage auf Englisch stelle, dass es funktioniert)
-* Tür [Beta] : unterstützt normalerweise den offenen / geschlossenen STATUS einer Tür (zur Information nur, wenn ich die Frage auf Englisch stelle, dass sie funktioniert)
+* [Beta-Fenster] : unterstützt normalerweise den offenen / geschlossenen Status eines Fensters (zur Information nur, wenn ich die Frage auf Englisch stelle, dass es funktioniert)
+* Tür [Beta] : unterstützt normalerweise den offenen / geschlossenen Status einer Tür (zur Information nur, wenn ich die Frage auf Englisch stelle, dass sie funktioniert)
 * Alarm [Beta] : Ermöglicht das Aktivieren / Deaktivieren des Alarms (achten Sie darauf, dass Sie den Begriff Waffe / Deaktivieren verwenden, damit Google die Aktion ausführt).
 * Sperre [Beta] : Geräte schließen / öffnen
 * TV [Beta] : Mit dieser Option können Sie die Lautstärke und die Kanäle ändern
@@ -289,7 +289,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 > **NOTE**
 >
-> Um ein Szenario zu starten, sagen Sie einfach "Name des Szenarios aktivieren" oder "Name des Szenarios deaktivieren".#
+> Um ein Szenario zu starten, sagen Sie einfach "Aktiv #nom du scénario#" oder "Deaktivieren #nom du scénario#
 
 > **NOTE**
 >
@@ -331,7 +331,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Beim Speichern wird die Fehlermeldung "Ressource 404 kann nicht gefunden werden" angezeigt**
 >
 >Keine Sorge, alles wird gespeichert, es wird nur die automatische Synchronisierung nicht durchgeführt. Damit Ihr Assistent "Meine Geräte synchronisieren" anzeigt. Um zu versuchen, dieses Problem zu beheben :
-> gehe zur nächsten Seite [hier](https://console.cloud.google.com/cloud-resource-manager). Auf dieser Seite sehen Sie die Liste geh Projekte, auch der unsichtbaren auf der Google-Aktionsseite. Löschen Sie alle nicht verwendeten Projekte.
+> gehe zur nächsten Seite [hier](https://console.cloud.google.com/cloud-resource-manager). Auf dieser Seite sehen Sie die Liste aller Projekte, auch der unsichtbaren auf der Google-Aktionsseite. Löschen Sie alle nicht verwendeten Projekte.
 > Wiederholen Sie dann das Tutorial aus dem Schritt Konfigurieren des API-Schlüssels Homegraph (Aktivierung, Generierung des Schlüssels, dann trennen Sie die Freiheit von Ihrem Google-Konto und wiederholen Sie den Link).
 
 
@@ -346,3 +346,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Beim Hinzufügen von Geräten habe ich NOK**
 >
 >Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert
+
+>**Die Dämonen / Abhängigkeiten sind in NOK**
+>
+>Es spielt keine Rolle, dass nicht darauf geachtet werden sollte, dass es momentan auf keinen Fall für die Funktion des Plugins verwendet wird (es ist nützlich, nur die Google-Validierung zu bestehen).

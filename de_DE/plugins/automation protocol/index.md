@@ -7,6 +7,7 @@
 >Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) Alle offiziellen Plugins in dieser Kategorie
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="beagle/beagle_icon.png" class="pluginLogo" width="100" />|Odace SFSP|Plugin zur Unterstützung der Odace SFSP-Reihe (drahtlos ohne Akku) Schneider to Jeedom. Es ermöglicht die Information der Schalter (Fensterläden / Szenen / Einzel / Doppel). Es ermöglicht die Steuerung der Aktuatoren (Verschluss / dcl). Außerdem können Sie Szenen und Gruppen verwenden.|[Dokumentation](beagle/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3917)|

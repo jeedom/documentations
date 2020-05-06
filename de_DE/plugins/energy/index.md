@@ -7,6 +7,7 @@
 >Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=energy) Alle offiziellen Plugins in dieser Kategorie
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="delestage/delestage_icon.png" class="pluginLogo" width="100" />|Lastabwurf|Plugin zur Verwaltung des Lastabwurfs|[Dokumentation](delestage/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2616)|

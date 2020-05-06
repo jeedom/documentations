@@ -7,6 +7,7 @@
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) all official plugins in this category
 
+
 | | | | |
 |--- | --- | --- | ---|
 |<img src="beagle/beagle_icon.png" class="pluginLogo" width="100" />|Odace SFSP|Plugin adding support for the Odace SFSP range (wireless without battery) Schneider to Jeedom. It allows to obtain the information of the switches (shutters / scenes / single / double). It allows to control the actuators (shutter / dcl). It also allows you to use scenes and groups.|[Documentation](beagle/index.md) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3917)|
