@@ -141,6 +141,23 @@
         "[ici": "[aquí",
         "ici]": "aquí]"
     },
+    "plugins_contributor\/i18n\/index.md": {
+        "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
+        "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
+        "Vous pouvez voir": "Podéis ver",
+        "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " IMPORTANT.": " Importante.",
+        " IMPORTANT?": " Importante?",
+        "IMPORTANT ": "Importante ",
+        "[IMPORTANT": "[Importante",
+        "IMPORTANT]": "Importante]",
+        " ici.": " aquí.",
+        " ici?": " aquí?",
+        "ici ": "aquí ",
+        "[ici": "[aquí",
+        "ici]": "aquí]"
+    },
     "plugins_contributor\/monitoring\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
