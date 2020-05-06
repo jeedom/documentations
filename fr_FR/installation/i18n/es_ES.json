@@ -2,8 +2,8 @@
     "installation\/cli.md": {
         "Installation en ligne de commande": "Instalación de línea de comando",
         "Vous trouverez ici la documentation pour installer Jeedom sur la plupart des systèmes linux (testée et approuvée sur la distribution Debian)": "Aquí encontrará la documentación para instalar Jeedom en la mayoría de los sistemas Linux (probado y aprobado en la distribución Debian)",
-        "Debian 10 (Buster) est la distribution officiellement supportée pour la version 3.1": "Debian 10 (Buster) es la distribución oficialmente compatible para la versión 3.1",
-        "7 de Jeedom (mais Stretch reste parfaitement fonctionnelle)": "7 de Jeedom (pero Stretch sigue siendo perfectamente funcional)",
+        "Debian 10 (Buster) est la distribution officiellement supportée pour la version 3.3": "Debian 10 (Buster) es la distribución oficialmente compatible para la versión 3.3",
+        "ou plus de Jeedom (mais Stretch reste parfaitement fonctionnelle)": "o más Jeedom (pero Stretch sigue siendo perfectamente funcional)",
         "Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de partir une Smart": "Si no tiene un comando mínimo de entornos Linux, le recomendamos que comience con un Smart",
         "Le script d'installation peut être dangereux, car il part du principe que votre système est vierge": "La secuencia de comandos de instalación puede ser peligrosa porque supone que su sistema está en blanco",
         "Si ce n'est pas le cas merci de lire le script et de faire une installation à la main": "De lo contrario, lea el guión e instálelo a mano.",
