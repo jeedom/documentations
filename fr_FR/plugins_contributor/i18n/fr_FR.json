@@ -20,6 +20,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/communication\/index.md": {
+        "jeeRhasspy": "jeeRhasspy",
+        "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom",
         "Communication": "Communication",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -27,7 +29,9 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "Objets connectés": "Objets connectés",
@@ -79,6 +83,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "JeeLog": "JeeLog",
+        "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log",
         "Monitoring": "Monitoring",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -86,7 +92,9 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimédia",
@@ -129,6 +137,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/programming\/index.md": {
+        "JeeXplorer": "JeeXplorer",
+        "Explorateur \/ éditeur de fichiers pour Jeedom": "Explorateur \/ éditeur de fichiers pour Jeedom",
         "Programmation": "Programmation",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -136,7 +146,9 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     },
     "plugins_contributor\/security\/index.md": {
         "Sécurité": "Sécurité",
@@ -149,6 +161,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/weather\/index.md": {
+        "Rosée - Givre - Tendance": "Rosée - Givre - Tendance",
+        "Plugin permetant de calculer": "Plugin permetant de calculer",
         "Météo": "Météo",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -156,9 +170,14 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "Qivivo": "Qivivo",
+        "Intégration du Thermostat Qivivo": "Intégration du Thermostat Qivivo",
         "Confort": "Confort",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -166,6 +185,8 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     }
 }

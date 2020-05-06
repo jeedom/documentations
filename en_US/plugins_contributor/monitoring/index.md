@@ -7,3 +7,6 @@
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) all official plugins in this category
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Activity logging plugin for equipment, scenarios, and log files|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeelog/en_US/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)|

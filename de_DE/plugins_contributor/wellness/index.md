@@ -7,3 +7,6 @@
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=wellness) Alle offiziellen Plugins in dieser Kategorie
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="qivivo/qivivo_icon.png" class="pluginLogo" width="100" />|Qivivo|Integration des Qivivo Thermostats|[Dokumentation](https://kiboost.github.io/jeedom_docs/plugins/qivivo/de_DE/) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3551)|

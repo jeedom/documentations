@@ -7,3 +7,6 @@
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=monitoring) todos los complementos oficiales en esta categoría
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Complemento de registro de actividades para equipos, escenarios y archivos de registro|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/jeelog/es_ES/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)|

@@ -1,0 +1,19 @@
+{
+	"id" : "jeelog",
+	"name" : "JeeLog",
+	"description" : "Plugin de journalisation d’activité pour les équipements, scénarios, et fichiers log",
+	"licence" : "AGPL",
+	"author" : "KiboOst",
+	"require" : "4.0",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/changelog.html",
+	"documentation" : "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/",
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],
+	"link" : {
+		"forum": "https://www.jeedom.com/forum/viewtopic.php?f=144&t=35997"
+	}
+}

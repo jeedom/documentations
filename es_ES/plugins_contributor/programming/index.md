@@ -7,3 +7,6 @@
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=programming) todos los complementos oficiales en esta categoría
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="jeexplorer/jeexplorer_icon.png" class="pluginLogo" width="100" />|JeeXplorer|Jeedom Explorer / Editor de archivos|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/jeexplorer/es_ES/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3690)|
