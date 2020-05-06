@@ -31,12 +31,6 @@ The Core includes among others :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Widget creation
-
-*Jeedom offers a Widget creation engine for equipment tiles. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
-
-![Widgets](images/doc-presentation-widgets.jpg)
-
 ## Historiques
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
@@ -48,6 +42,12 @@ The Core includes among others :
 *Scenarios allow you to automate all or part of your equipment. They are built with different blocks. Conditional blocks (If Then, Otherwise), actions, programming (IN x minutes or A hhmm), loop, comment, or php code. All blocks are nestable into each other, offering endless possibilities.*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Widget creation
+
+*Jeedom offers a Widget creation engine for equipment orders. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
+
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Interactions
 

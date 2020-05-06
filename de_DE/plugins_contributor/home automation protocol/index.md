@@ -7,6 +7,3 @@
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) Alle offiziellen Plugins in dieser Kategorie
 
 
-| | | | |
-|--- | --- | --- | ---|
-|<img src="MerossIOT/MerossIOT_icon.png" class="pluginLogo" width="100" />|Meross IOT|Plugin zur Steuerung von MEROSS-Geräten|[Dokumentation](https://Jeremie-C.github.io/plugin-MerossIOT/de_DE/index) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3855)|

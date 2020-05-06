@@ -31,12 +31,6 @@ The Core incluye entre otros :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Creación de widgets
-
-*Jeedom ofrece un motor de creación de widgets para mosaicos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos.. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
-
-![Widgets](images/doc-presentation-widgets.jpg)
-
 ## Historiques
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
@@ -48,6 +42,12 @@ The Core incluye entre otros :
 *Los escenarios le permiten automatizar todo o parte de su equipo. Están construidos con diferentes bloques.. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades..*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Creación de widgets
+
+*Jeedom ofrece un motor de creación de widgets para pedidos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos.. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
+
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Interactions
 

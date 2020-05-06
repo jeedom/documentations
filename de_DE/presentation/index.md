@@ -31,12 +31,6 @@ Der Kern umfasst unter anderem :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Widget-Erstellung
-
-*Jeedom bietet eine Widget-Erstellungs-Engine für Gerätekacheln. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
-
-![Widgets](images/doc-presentation-widgets.jpg)
-
 ## Historiques
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
@@ -48,6 +42,12 @@ Der Kern umfasst unter anderem :
 *Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
+
+## Widget-Erstellung
+
+*Jeedom bietet eine Widget-Erstellungs-Engine für Ausrüstungsbestellungen. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
+
+![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
