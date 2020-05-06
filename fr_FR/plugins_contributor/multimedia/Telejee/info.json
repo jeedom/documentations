@@ -1,8 +1,0 @@
-{
-	"id" : "telegram",
-	"name" : "Telegram",
-	"licence" : "AGPL",
-	"author" : "lunarok",
-	"require" : "3.0",
-	"category" : "communication"
-}

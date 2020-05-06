@@ -1,9 +1,0 @@
-{
-	"id" : "ping",
-	"name" : "Ping",
-	"licence" : "AGPL",
-	"author" : "Thomas Guenneguez",
-	"require" : "1.124.0",
-	"category" : "communication",
-	"installation" : "<ul><li>Pour les commandes pings :\nAjouter la ligne :\n      www-data ALL=NOPASSWD: /bin/ping\nDefaults:www-data !syslog<br></li><li>Pour les commandes arp :\nsudo apt-get install arp-scan\nsudo visudo -s\nAjouter la ligne :\n      www-data ALL=NOPASSWD: /usr/bin/arp-scan\nDefaults:www-data !syslog</li></ul>"
-}
