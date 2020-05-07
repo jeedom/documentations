@@ -80,7 +80,7 @@ Ces commandes sont regroupées dans une tuile correspondant à votre équipement
 
 Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
 
-Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'quipement, dans son objet parent.
+Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
 Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder.
 
