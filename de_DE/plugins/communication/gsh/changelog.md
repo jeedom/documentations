@@ -1,3 +1,7 @@
+# 05/07/2020
+
+- Verbesserte Installation von Nebengebäuden
+
 # 05/04/2020
 
 - Optimisations

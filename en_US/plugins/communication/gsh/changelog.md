@@ -1,3 +1,7 @@
+# 05/07/2020
+
+- Improved installation of outbuildings
+
 # 05/04/2020
 
 - Optimisations
