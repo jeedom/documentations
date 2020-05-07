@@ -10,6 +10,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/automatisation\/index.md": {
+        "Séquencement d'actions": "Séquencement d'actions",
+        "Plugin pour gérer des actions séquencées": "Plugin pour gérer des actions séquencées",
         "Automatisme": "Automatisme",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -17,13 +19,17 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Market": "Market"
     },
     "plugins_contributor\/communication\/index.md": {
         "Livebox": "Livebox",
         "Plugin pour Livebox 2, play, 4": "Plugin pour Livebox 2, play, 4",
         "jeeRhasspy": "jeeRhasspy",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom",
+        "TaskerAutoRemote": "TaskerAutoRemote",
+        "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote": "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote",
         "Communication": "Communication",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -36,7 +42,9 @@
         "Market": "Market"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
         "wifilightV2": "wifilightV2",
+        "Pilote de nombreux périphériques wifi": "Pilote de nombreux périphériques wifi",
         "Sure PetCare": "Sure PetCare",
         "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)",
         "K Roomba": "K Roomba",
@@ -54,9 +62,12 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "lampes, leds, prises de marques diverses": "lampes, leds, prises de marques diverses"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Suivi CO2": "Suivi CO2",
+        "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
         "eeSmart": "eeSmart",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy",
         "Energie": "Energie",
@@ -199,6 +210,8 @@
     "plugins_contributor\/wellness\/index.md": {
         "Qivivo": "Qivivo",
         "Intégration du Thermostat Qivivo": "Intégration du Thermostat Qivivo",
+        "Gestion Humidité": "Gestion Humidité",
+        "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air",
         "ELM Touch": "ELM Touch",
         "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch",
         "Confort": "Confort",

@@ -1,0 +1,20 @@
+{
+	"id" : "humidity",
+	"name" : "Gestion Humidité",
+	"description" : "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air",
+	"licence" : "AGPL",
+	"author" : "AgP42",
+	"require" : "3.2",
+	"category" : "wellness",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://agp42.github.io/humidity/#language#/changelog",
+	"documentation" : "https://agp42.github.io/humidity/#language#/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

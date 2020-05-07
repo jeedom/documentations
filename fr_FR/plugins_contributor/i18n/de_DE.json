@@ -18,6 +18,8 @@
         "ici]": "hier]"
     },
     "plugins_contributor\/automatisation\/index.md": {
+        "Séquencement d'actions": "Reihenfolge der Aktionen",
+        "Plugin pour gérer des actions séquencées": "Plugin zum Verwalten von sequenzierten Aktionen",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
@@ -37,11 +39,22 @@
         " ici?": " hier?",
         "ici ": "hier ",
         "[ici": "[hier",
-        "ici]": "hier]"
+        "ici]": "hier]",
+        " Documentation.": " Dokumentation.",
+        " Documentation?": " Dokumentation?",
+        "Documentation ": "Dokumentation ",
+        "[Documentation": "[Dokumentation",
+        "Documentation]": "Dokumentation]",
+        " Market.": " Markt.",
+        " Market?": " Markt?",
+        "Market ": "Markt ",
+        "[Market": "[Markt",
+        "Market]": "Markt]"
     },
     "plugins_contributor\/communication\/index.md": {
         "Plugin pour Livebox 2, play, 4": "Plugin für Livebox 2, spielen, 4",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin zur Unterstützung des Rhasspy-Sprachassistenten in Jeedom",
+        "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote": "Plugin zum Senden von Nachrichten und Benachrichtigungen an jedes Android-Gerät über AutoRemote",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
@@ -57,6 +70,11 @@
         "jeeRhasspy ": "jeeRhasspy ",
         "[jeeRhasspy": "[jeeRhasspy",
         "jeeRhasspy]": "jeeRhasspy]",
+        " TaskerAutoRemote.": " TaskerAutoRemote.",
+        " TaskerAutoRemote?": " TaskerAutoRemote?",
+        "TaskerAutoRemote ": "TaskerAutoRemote ",
+        "[TaskerAutoRemote": "[TaskerAutoRemote",
+        "TaskerAutoRemote]": "TaskerAutoRemote]",
         " Communication.": " Kommunikation.",
         " Communication?": " Kommunikation?",
         "Communication ": "Kommunikation ",
@@ -84,6 +102,8 @@
         "Market]": "Markt]"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
+        "Pilote de nombreux périphériques wifi": "Treiber vieler WLAN-Geräte",
         "Sure PetCare": "Sicher PetCare",
         "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plug-In für Sure Petcare verbundene Objekte für Tiere (Sureflap)",
         "K Roomba": "K Roomba",
@@ -98,6 +118,7 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
         "Vous pouvez voir": "Sie können sehen",
         "tous les plugins officiels de cette catégorie": "Alle offiziellen Plugins in dieser Kategorie",
+        "lampes, leds, prises de marques diverses": "Lampen, LEDs, Steckdosen verschiedener Marken",
         " wifilightV2.": " wifilightV2.",
         " wifilightV2?": " wifilightV2?",
         "wifilightV2 ": "wifilightV2 ",
@@ -125,6 +146,8 @@
         "Market]": "Markt]"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Suivi CO2": "CO2-Überwachung",
+        "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin zur Überwachung der CO2-Emissionen in Verbindung mit Strom, Gas, Heizöl oder anderem Verbrauch",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin zum Abrufen der Daten, die das ERL D2L-Modul von eeemart an den Monitoring.consopy-Server sendet",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
@@ -446,6 +469,8 @@
     },
     "plugins_contributor\/wellness\/index.md": {
         "Intégration du Thermostat Qivivo": "Integration des Qivivo Thermostats",
+        "Gestion Humidité": "Feuchtigkeitsmanagement",
+        "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin für das Feuchtigkeitsmanagement dank Luftbefeuchter oder Luftentfeuchter",
         "ELM Touch": "ELM Touch",
         "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin für die Regelung des Gaskessels von Elm Leblanc mit angeschlossenem Thermostat ELM Touch",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",

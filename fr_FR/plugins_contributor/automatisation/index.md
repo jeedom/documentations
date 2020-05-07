@@ -7,3 +7,6 @@
 >Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) tous les plugins officiels de cette catégorie
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="sequencing/sequencing_icon.png" class="pluginLogo" width="100" />|Séquencement d'actions|Plugin pour gérer des actions séquencées|[Documentation](https://agp42.github.io/sequencing/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3982)|

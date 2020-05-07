@@ -10,3 +10,4 @@
 | | | | |
 |--- | --- | --- | ---|
 |<img src="eesmart/eesmart_icon.png" class="pluginLogo" width="100" />|eeSmart|Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy.|[Documentation](https://caelion.github.io/jeedom-plugins-documentation/eeSmart/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3933)|
+|<img src="suiviCO2/suiviCO2_icon.png" class="pluginLogo" width="100" />|Suivi CO2|Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre|[Documentation](https://agp42.github.io/suiviCO2/fr_FR) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3929)|
