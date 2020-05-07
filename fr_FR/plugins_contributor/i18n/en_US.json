@@ -90,6 +90,8 @@
         "Plugin pour contrôler les aspirateurs Roomba": "Plugin to control Roomba vacuum cleaners",
         "Home Connect": "Home Connect",
         "Plugin permettant de récupérer les informations des appareils électroménagers compatibles": "Plugin to retrieve information from compatible household appliances",
+        "Bosch Indego": "Bosch Indego",
+        "Plugin pour les robots de tonte Bosch Indego": "Plugin for Bosch Indego robotic lawnmowers",
         "Objets connectés": "Connected objects",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",

@@ -91,7 +91,7 @@
         "Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un": "Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un",
         "Ce périphérique comportera ses propres commandes": "Ce périphérique comportera ses propres commandes",
         "ou": "ou",
-        "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'quipement, dans son objet parent": "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'quipement, dans son objet parent",
+        "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent": "Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent",
         "Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage": "Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage",
         "Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder": "Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder"
     }
