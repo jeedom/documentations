@@ -49,6 +49,7 @@
 - Configuration : L'onglet *Informations* est maintenant dans l'onglet *Général*.
 - Configuration : L'onglet *Commandes* est maintenant dans l'onglet *Equipements*.
 - Fenêtre de configuration avancée d'équipement : Changement dynamique de la configuration tableau.
+- Equipements : Nouvelle catégorie *Ouvrant*.
 - Fenêtre A propos : Ajout de raccourcis vers le Changelog et la FAQ.<br/><br/>
 - WebApp : Intégration de la nouvelle page Synthèse.
 - WebApp : Page scénarios, un clic sur le titre du scénario affiche le log de celui-ci.
@@ -61,7 +62,8 @@
 - Documentation : Adaptations en adéquation avec la v4 et v4.1.
 - Documentation : Nouvelle page *Raccourcis clavier / souris* comprenant un récapitulatif de tous les raccourcis dans Jeedom. Accessible depuis la doc du Dashboard ou la FAQ.
 - Corrections de bugs et optimisations.
-- Lib: Update HighStock v7.1.2 vers v8.0.4.
+- Lib : Update HighStock v7.1.2 vers v8.0.4.
+- Lib : Update jQuery v3.4.1 vers v3.5.1.
 
 
 ### 4.0.53
