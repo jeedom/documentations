@@ -85,14 +85,14 @@ die Batterie. .
 ,
 . 
 
+intelligent und die gesamte Kommunikation ist stark verschlüsselt - niemand
+Ich kann mich nicht in dein Haus hacken.
 
-.
+**Diskret, langlebig und dänisch**
 
-****
-
-
-
-. .
+Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit
+Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
+Bluetooth und Z-Wave. Ein diskretes dänisches Design für die Ewigkeit.
 \.
 
 Funktionen 
@@ -102,32 +102,32 @@ Funktionen
 
 -   Steuern Sie Ihre Haustür aus der Ferne
 
--   
+-   Verbundenes Schloss
 
--   
+-   1 Zylinder anpassbar an verschiedene Längen geliefert
 
--   
+-   5 physische Schlüssel dienen zum Öffnen der Tür von außen
 
--   
+-   Verbindung über Bluetooth Smart und Z-Wave
 
--   ,
-    
+-   Integration in kompatible Z-Wave-Controller (eedomus,
+    Vera,…)
 
--   
+-   Aktivitätsverlauf
 
--   
+-   Verschiedene Einstellmöglichkeiten zum Schließen und Öffnen
 
--    : 
-    
+-   Zugriffsfreigabe : Geben Sie Ihrer Putzfrau oder einem Freund Zugang
+    für eine begrenzte Zeit
 
--   
+-   Automatische Kalibrierung
 
 -   Einfach zu installieren
 
--   
+-   Batteriebetrieb
 
--   
-    .
+-   Kompatibel mit iOS (iPhone 4s oder höher), aber
+    auch Android (ab 4.4).
 
 \.
 
@@ -136,15 +136,15 @@ Technische Daten
 
 \.
 
--   Essen : 
+-   Essen : 4 CR123 3V Batterien
 
--    : V2
+-   Versionen : V2
 
--    : 
+-   Material : Massives eloxiertes Aluminium
 
--    : 
+-   Kommunikation : Bluetooth und Z-Wave
 
--   Abmessungen : 
+-   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
 
 -   Gewicht : 363g
 
@@ -180,32 +180,32 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> ..
+> Es ist wichtig, dieses Modul in den sicheren Modus zu integrieren..
 
 \.
 
-
- : 
-"
+So versetzen Sie das Z-Wave-Plugin (openzwave) im Einschlussmodus in Jeedom
+sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
+und klicken Sie auf das Symbol "Zwave Network"
 
 ![inclusion securise jeedom
-
+1](images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
 \.
 
- : "
-"
+Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜGEN
+SICHER (INKLUSION)"
 
 ![inclusion securise jeedom
-
+2](images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
 
 \.
 
 > **Important**
 >
-> 
-> . 
-> .
+> Wir gehen davon aus, dass Sie die Anwendung installiert haben
+> Ihr Smartphone oder iPhone und erstellt ein Konto. Wenn es nicht schon ist
+> Fertig können Sie auf diese Seite verweisen.
 
 ![inclusion](images/polycontrol.danalock/inclusion.jpg)
 
@@ -213,8 +213,8 @@ Aufnahme beziehen sich darauf
 
 ![inclusion2](images/polycontrol.danalock/inclusion2.jpg)
 
-
-".
+Klicken Sie in der Anwendung auf "Smart Home", dann auf "Z-Wave" und schließlich
+auf "CONNECT".
 
 Einmal enthalten, sollten Sie dies erhalten :
 
@@ -288,17 +288,17 @@ Parameterdetails :
 
 \.
 
--   1 :  : 
-    
+-   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
+    gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
     verrouillé
 
--   2 : 
-    
+-   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
+    schneller
 
--   3 : 
-    
+-   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Modus
+    volle Ausbildung (Normal)
 
--   4 : 
+-   4 : Anzahl der Umdrehungen (1 = 10 Grad, 9 = 90 Grad usw.)
 
 -   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Moment
     Das Schloss wurde entsperrt, um es automatisch zu schließen

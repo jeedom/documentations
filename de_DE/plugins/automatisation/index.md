@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Verschlussmanagement|Plugin zum Verwalten des Öffnens / Schließens der Fensterläden entsprechend der Sonne|[Dokumentation](sunshutter/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|||[Dokumentation](sunshutter/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|

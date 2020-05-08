@@ -290,10 +290,10 @@ Wakeup
 
 To wake up this module there is only one way :
 
--   Release the association button and press it again
+-   
 
--   Lower the wake-up interval in the module configuration / system
-    (in seconds)
+-   
+    
 
 \
 
@@ -302,14 +302,14 @@ Faq.
 
 \
 
-This module wakes up by pressing its association button.
+.
 
 \
 
 This module is a battery module, the new configuration will be
-taken into account at the next wakeup. (association button for
-force, hence the interest of not installing the module before its
-good configuration)
+taken into account at the next wakeup. 
+
+
 
 \
 

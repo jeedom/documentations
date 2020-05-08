@@ -154,7 +154,7 @@ Hier ist die Liste der Befehle :
 \.
 
 -   Staat : Es ist der Befehl, mit dem der Status des
-    Steckdose (Ein / Aus)
+    
 
 -   Wir : Dies ist der Befehl, der die Steckdose einschaltet
 
@@ -163,7 +163,7 @@ Hier ist die Liste der Befehle :
 \.
 
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
-das gleiche Symbol.
+.
 
 \.
 

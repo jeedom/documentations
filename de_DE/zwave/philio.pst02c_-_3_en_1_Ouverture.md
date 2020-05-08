@@ -87,7 +87,7 @@ Technische Daten
 
 -   Essen : 1 CR123A 3V Batterie
 
--   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
+-   Akkulaufzeit : 
 
 -   Frequenz : 868.42 MHz
 
@@ -122,7 +122,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Nachname : PST02-C Tür / Fenster 3 in 1 Sensor
+-   Nachname : 
 
 -   Hersteller ID : 316
 

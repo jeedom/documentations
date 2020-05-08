@@ -370,33 +370,33 @@ Copia de configuraciones de comando avanzadas
 > **Note**
 >
 > Para evitar repetir el mismo orden varias veces, el
-> operaciones 2.6 → 2.9 se pueden realizar consecutivamente en el mismo
-> orden antes de proceder al siguiente.
+> .
+> .
 
 > **Warning**
 >
-> Interacciones en el **Jeedom Target** no se puede lanzar
-> a través del equipo de un **Fuente de la libertad** transferido a través de
-> Complemento Jeedom Link".
+>  **Jeedom Target** 
+>  **Fuente de la libertad** 
+> ".
 
-Hogar en el **Jeedom Target** 
+ **Jeedom Target** 
 ==============================
 
 > **Note**
 >
-> Después de confirmar con certeza que su
-> equipos / escenarios / interacciones / virtuales / ... trabajar
-> correctamente con el nuevo sistema jeelink puede proceder a
-> hogar.
+> 
+> 
+> 
+> .
 
--   Eliminar el equipo residual de la antigua **Jeedom Slave**.
+-    **Jeedom Slave**.
 
--   Deshabilita y elimina los complementos que ya no te son útiles
-    (Los que solo tenías equipo en el Esclavo).
+-   
+    .
 
--   En el complemento "Jeedom Link", cambie el nombre del equipo que
-    podría tener un nombre que termine con "remoto XXXX".
+-   
+     XXXX".
 
--   En la página de Jeedom Network, elimine la anterior. **Jeedom Slave**.
+-    **Jeedom Slave**.
 
 

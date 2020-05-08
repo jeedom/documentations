@@ -151,17 +151,17 @@ Timer function
 The timer function automatically switches off the relays at the end
 30 or 60 minutes.
 
--    : 
-    
+-   Activate : Press 4x "R" on the receiver, confirmation by a simple
+    continuous beep
 
--   : 
-    .
+-   Deactivate: Press 5x "R" on the receiver, confirmation by 3 simple
+    audible beeps.
 
--   : 
+-   30 minute timer: DIP Switch 3 above
 
--   : 
+-   60-minute timer: DIP Switch 3 below
 
-" 
+"Lighting" mode" 
 ===================
 
 The "Lighting" mode allows you to control 2 electrical devices to

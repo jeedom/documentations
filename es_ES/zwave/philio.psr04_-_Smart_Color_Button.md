@@ -70,13 +70,13 @@ Las funciones
 
 -   Batería recargable
 
--   Muy bajo consumo de energía.
+-   
 
--   Batería de larga duración (6 meses por carga)
+-   
 
--   Soporte magnético
+-   
 
--   LED de indicación RGBW
+-   
 
 -   Fácil de instalar
 
@@ -87,25 +87,25 @@ Características técnicas
 
 \
 
--   Comida : Batería de polímero de litio 3.7V, 220mA v
-    la batería : 6 meses por 2 horas de carga
+-   Comida : .
+    la batería : 
 
 -   Consumo en espera : 18µA
 
--   Consumo en funcionamiento : 45mA
+-    : 45mA
 
 -   Frecuencia : 868.42 MHz
 
--   Distancia de transmisión : 100m en exteriores, 40m en interiores
+-   Distancia de transmisión : 
 
 -   Dimensiones :
 
-Apoyo : Botón de 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
-mm (diámetro x grosor) Soporte + Botón : 71,16 x 17,22 mm (diámetro
-x espesor) \* Certificaciones :
+ :  : 
+ : 
+ :
 
-EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
-FCC Parte 15 B, FCC Parte 15 C
+
+
 
 \
 
@@ -139,8 +139,8 @@ inclusión refiérase a esto
 
 > **Important**
 >
-> Para poner este módulo en modo de inclusión, colóquelo en posición
-> bajo (inclusión) y presione el botón de acuerdo con su
+> 
+> 
 > documentación en papel.
 
 \
@@ -174,10 +174,10 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : es el comando que moverá la posición del botón de 0 a
-    100%
+-   Estado : 
+    
 
--   Batería : Este es el comando que informa el estado de la batería del
+-   Batería : 
     module
 
 \
@@ -216,18 +216,18 @@ Detalles del parámetro :
 
 \
 
--   1: define el límite más bajo (posición completamente a la izquierda)
+-   1: 
 
--   2 : define el terminal más alto (posición completamente a la derecha)
+-   2 : 
 
--   10 : intervalo de tiempo de ascenso de la batería
+-   10 : 
 
--   25 : permite definir si el módulo envía su posición
-    automáticamente después de la rotación (1s de retraso) o si es necesario presionar
-    en el botón para validar el envío
+-   25 : 
+    
+    
 
--   26 : activa el envío de escena o no al presionar el botón central
-    (parámetro no tomado en cuenta en Jeedom)
+-   26 : 
+    
 
 \
 
@@ -236,7 +236,7 @@ Detalles del parámetro :
 \
 
 Este módulo tiene dos grupos de asociación, el primero es el único.
-indispensable. El segundo permite subir la posición a Jeedom
+
 
 \
 
@@ -253,13 +253,13 @@ Bueno saber
 
 Para usar este módulo como control remoto, proceda de la siguiente manera :
 
--   Agregue el controlador al grupo 2
+-   
 
-De hecho, este tipo de módulo no está hecho para interactuar directamente
-con una caja pero directamente con otros módulos. Sin embargo en
-agregando Jeedom al grupo 2, esto permite recibir la posición del
-botón y, por lo tanto, úselo para controlar un escenario (establezca un
-volumen por ejemplo)
+
+. 
+
+
+
 
 Despertador 
 ------
@@ -268,7 +268,7 @@ Despertador
 
 Para activar este módulo, solo hay una forma :
 
--   coloque el módulo en la posición baja y presione el botón
+-   
 
 \
 
@@ -280,7 +280,7 @@ Faq.
 \
 
 Este módulo es un módulo de batería, la nueva configuración no será
-tenga en cuenta que si despierta el módulo.
+.
 
 \
 
