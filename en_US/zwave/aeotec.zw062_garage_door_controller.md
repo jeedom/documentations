@@ -47,7 +47,7 @@ Functions
 
 -   Local door control via integrated button.
 
--   Sends opening / closing alerts to the Z-Wave controller.
+-   Sends open / close alerts to the Z-Wave controller.
 
 -   Audible and visual opening / closing alerts.
 
@@ -88,7 +88,7 @@ Technical characteristics
 
 -   Maximum volume : 105 dB
 
--   Supported audio formats : mp3 and WMV at 320Kbps frequency
+-   Supported audio formats : mp3 and WMV at the frequency of 320Kbps
 
 -   Frequency : 868.42 Mhz
 
@@ -109,7 +109,7 @@ Module data
 
 -   Mark : Aeotec
 
--   Last name : Garage Door Controller (ZW062)
+-   Name : Garage Door Controller (ZW062)
 
 -   Manufacturer ID : 134
 
@@ -119,21 +119,21 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **Important**
 >
 > To put this module in inclusion mode, press the button
-> Z-Wave, according to its paper documentation.
+> Z-Wave, in accordance with its paper documentation.
 
 \
 
@@ -149,7 +149,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -158,7 +158,7 @@ disponibles.
 
 \
 
-![Orders](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Commands](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 \
 
@@ -188,7 +188,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -261,7 +261,7 @@ The calibration is completed
 
 Sabotage reset:
 
--   1 : The sensor must be properly fixed.
+-   1 : The sensor must be properly attached.
 
 -   2 : Activate parameter 41 on "Relieve the alarm state".
 

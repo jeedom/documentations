@@ -40,7 +40,7 @@ traditionell. Drehen Sie den Knopf nach rechts, um die zu erhöhen
 Licht und nach links, um es zu verringern.
 
 Außerdem können Sie diesen Schalter leicht bewegen und positionieren
-an Ort und Stelle Ihrer Wahl dank seiner magnetischen Unterstützung. Seine Konzeption
+am Ort Ihrer Wahl dank seiner magnetischen Unterstützung. Seine Konzeption
 wasserdicht ermöglicht die Installation an Orten mit hoher Luftfeuchtigkeit wie z
 Badezimmer.
 
@@ -87,7 +87,7 @@ Technische Daten
 
 \.
 
--   Essen : Lithium-Polymer-Batterie 3.7 V, 220 mA v
+-   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v
     die Batterie : 6 Monate für 2 Stunden aufladen
 
 -   Standby-Verbrauch : 18µA
@@ -101,7 +101,7 @@ Technische Daten
 -   Abmessungen :
 
 Unterstützung : 71,16 x 10,94 mm (Durchmesser x Dicke) Taste : 59,99 x 14,89
-mm (Durchmesser x Dicke) Unterstützung + Knopf : 71,16 x 17,22 mm (Durchmesser
+mm (Durchmesser x Dicke) Unterstützung + Taste : 71,16 x 17,22 mm (Durchmesser
 x Dicke) \* Zertifizierungen :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
@@ -116,7 +116,7 @@ Moduldaten
 
 -   Machen Sie : Philio
 
--   Nachname : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Hersteller ID : 316
 
@@ -157,16 +157,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/philio.psr04/commandes.jpg)
+![Befehle](images/philio.psr04/commandes.jpg)
 
 \.
 
@@ -174,7 +174,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Dies ist der Befehl, mit dem die Position der Schaltfläche von 0 nach verschoben wird
+-   Zustand : Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
     100%
 
 -   Batterie : Dies ist der Befehl, der den Batteriestatus des
@@ -216,7 +216,7 @@ Parameterdetails :
 
 \.
 
--   1: definiert die unterste Grenze (Position ganz links)
+-   1: definiert die unterste Grenze (Position vollständig links)
 
 -   2 : definiert das höchste Terminal (Position ganz rechts)
 
@@ -253,7 +253,7 @@ Gut zu wissen
 
 Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
--   Fügen Sie den Controller zu Gruppe 2 hinzu
+-   Fügen Sie den Controller in Gruppe 2 hinzu
 
 In der Tat ist diese Art von Modul nicht dafür ausgelegt, direkt zu interagieren
 mit einer Box aber direkt mit anderen Modulen. Jedoch in

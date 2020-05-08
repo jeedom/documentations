@@ -43,7 +43,7 @@ Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
 habitation.
 
-Hinweis : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
+Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
 \.
 
@@ -82,7 +82,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Essen : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Stromverbrauch : &lt; 0,8W
 
@@ -113,7 +113,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Nachname : Fibaro FGRM-222
+-   Name : Fibaro FGRM-222
 
 -   Hersteller ID : 271
 
@@ -153,18 +153,18 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/fibaro.fgrm222/commandes.jpg)
+![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
-![Bestellungen](images/fibaro.fgrm222/commandes2.jpg)
+![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
 \.
 
@@ -172,7 +172,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
+-   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
 
 -   Positionierung : Es ist der Befehl, der es ermöglicht, das zu definieren
@@ -185,9 +185,9 @@ Hier ist die Liste der Befehle :
 -   Aktualisieren : Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
     des Verschlusses
 
--   Macht : Befehl, der den Modulverbrauch zulässt
+-   Macht : Befehl, der den Verbrauch des Moduls zulässt
 
--   Verbrauch : Leistungssteuerung
+-   Verbrauch : Kontrolle, um die Leistung zu kennen
     Sofort vom Modul verwendet
 
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
@@ -197,9 +197,9 @@ Hier ist die Liste der Befehle :
 
 -   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 
--   Ablehnen : Dient zum Ablehnen der Lamellen (einstellbarer Lamellenmodus)
+-   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
--   Nein : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
+-   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
     Incliner
 
 \.

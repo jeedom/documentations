@@ -1,4 +1,4 @@
- 
+Philio Smart Color Button 
 =========================
 
 \
@@ -7,7 +7,7 @@
 
 \
 
-![module](images/philio.psr04/module.jpg)
+![Module](images/philio.psr04/module.jpg)
 
 \
 
@@ -24,30 +24,30 @@ Summary
 
 \
 
+This unique design switch offers several functions. You
+can use it to turn on, off or dim the lighting, adjust
+the position of your shutters, adjust the temperature of the thermostat or
+use it as a timer.
 
+Once included in your Z-Wave network, the Philio PSR04 switch
+must be associated with the device (s) you wish to control.
+It can only operate by direct association with
+devices, and cannot launch scenes created in your controller
+Z-Wave home automation.
 
+Used as a drive, it has the same behavior as a drive
+traditional. Turn the knob to the right to increase the
+light, and to the left to decrease it.
 
-.
+In addition, you can easily move and position this switch
+at the location of your choice thanks to its magnetic support. Its conception
+waterproof allows it to be installed in a place with high humidity such as
+bathroom.
 
-
-.
-
-
-.
-
-
-
-.
-
-
-. 
-
-.
-
-
+It uses the latest Z-Wave 500 series chip, providing an increase
 50% radio range and 250% faster communication speed
-
-.
+fast compared to previous Z-Wave products, as well as a plus
+low energy consumption allowing greater autonomy.
 
 \
 
@@ -56,19 +56,19 @@ Functions
 
 \
 
--   
+-   Multifunction switch
 
--   
+-   Z-Wave + technology
 
--   
+-   ON / OFF and dimming function (lighting or shutters)
 
--   
+-   Integrated timer function
 
 -   Etanche
 
--   
+-   Adapts to any decoration style
 
--   
+-   Rechargeable battery
 
 -   Very low energy consumption
 
@@ -87,7 +87,7 @@ Technical characteristics
 
 \
 
--   Food : Lithium Polymer Battery 3.7V, 220mA v
+-   Food : Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
 
 -   Standby consumption : 18µA
@@ -116,7 +116,7 @@ Module data
 
 -   Mark : Philio
 
--   Last name : PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Manufacturer ID : 316
 
@@ -126,14 +126,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -157,7 +157,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -166,7 +166,7 @@ disponibles.
 
 \
 
-![Orders](images/philio.psr04/commandes.jpg)
+![Commands](images/philio.psr04/commandes.jpg)
 
 \
 
@@ -174,7 +174,7 @@ Here is the list of commands :
 
 \
 
--   State : it is the command which will move the position of the button from 0 to
+-   State : it is the command which will move the button position from 0 to
     100%
 
 -   Drums : this is the command that reports the battery status of the
@@ -199,7 +199,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -226,7 +226,7 @@ Parameter details :
     automatically after rotation (1s delay) or if it is necessary to press
     on the button to validate the sending
 
--   26 : activates the sending of scene or not on pressing the central button
+-   26 : activates the sending of scene or not on pressing of the central button
     (parameter not taken into account in Jeedom)
 
 \
@@ -253,11 +253,11 @@ Good to know
 
 To use this module as a remote control, proceed as follows :
 
--   Add the controller to group 2
+-   Add the controller in group 2
 
 Indeed this type of module is not made to interact directly
 with a box but directly with other modules. However in
-adding Jeedom to group 2, this allows to receive the position of
+adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
 

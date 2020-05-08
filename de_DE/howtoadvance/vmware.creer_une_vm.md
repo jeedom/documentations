@@ -1,22 +1,22 @@
 Wir werden hier sehen, wie Sie eine VM unter VMware erstellen.
 
-Bevor Sie etwas Wichtiges über VMware wissen müssen, gibt es zwei
+Bevor es etwas Wichtiges über VMware gibt, gibt es zwei
 Weg des Managers :
 
 -   die Weboberfläche (standardmäßig in 6 vorhanden.0 Update 2 oder von
-    über eine Vib für die anderen Versionen) wird von zugegriffen
+    über eine Vib für die anderen Versionen) greifen wir über zu
     IP\_ESXI / ui
 
 -   der schwere und historische Client von VMware (vSphere-Client)
 
 Hier werde ich hauptsächlich das Webinterface verwenden, weil ich denke, dass es das ist
 die Zukunft von VMware, die den Thick Client zunehmend aufgibt
-(übrigens alle Nachrichten seit dem 5 ...1 kann nicht verwendet werden
+(übrigens alle neuen Funktionen seit dem 5.1 kann nicht verwendet werden
 mit dem schweren Kunden).
 
 Beachten Sie auch, dass die Weboberfläche noch implementiert wird
 Bei VMware werden Sie wahrscheinlich auf einige Fehler stoßen oder
-Verlangsamung mit nur ein wenig Aktualisierung der Seite und das
+Verlangsamung mit nur ein wenig Auffrischung der Seite und das
 Blätter ohne Sorgen.
 
 Verbindung zum Webinterface 
@@ -28,7 +28,7 @@ Gehen Sie mit Ihrem Internetbrowser zu IP\_ESXI / ui :
 
 > **Note**
 >
-> Wenn Sie nichts haben, rate ich Ihnen, zu installieren
+> Wenn Sie nichts haben, rate ich Ihnen zu installieren
 > Webinterface, alle Informationen
 > [hier]((https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
 
@@ -49,7 +49,7 @@ kann schon von diesem Bildschirm :
 
 -   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
 
--   Eine Aktionstaste, mit der Sie auch in den Wartungsmodus wechseln können
+-   Eine Aktionstaste, mit der Sie in den Wartungsmodus wechseln können
     (nützlich, wenn Sie einen ESXi-Cluster haben, sonst nicht
     Niemals dienen), SSH-Dienst aktivieren / deaktivieren (wird verwendet
     im Backup-Konfigurations-Tutorial)
@@ -57,7 +57,7 @@ kann schon von diesem Bildschirm :
 Installations-ISO senden 
 =============================
 
-Nach dem Herunterladen Ihrer Installation ISO
+Nach dem Herunterladen Ihrer Installation iso
 (([hier]((http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 zum Beispiel für debian 8.5 in netinstall) müssen Sie es anziehen
 Ihr Datenspeicher.
@@ -102,7 +102,7 @@ Klicken Sie auf Weiter :
 
 ![vmware.createvm6]((images/vmware.createvm6.PNG)
 
-Geben Sie dann Ihrem Computer einen Namen und geben Sie dessen System an
+Geben Sie Ihrem Computer einen Namen und geben Sie dessen System an
 Betrieb (hier installieren wir einen Debian) :
 
 ![vmware.createvm7]((images/vmware.createvm7.PNG)
@@ -120,7 +120,7 @@ hart, CPU, Gedächtnis ...) :
 >
 > Alle diese Parameter können anschließend ohne Bedenken geändert werden
 > Es ist jedoch nicht wirklich möglich, die Größe zu reduzieren
-> von einer Festplatte können wir sie erhöhen (aber Sie müssen wissen, wie man sie verwaltet
+> Eine Festplatte können Sie vergrößern (aber Sie müssen wissen, wie man sie verwaltet
 > Betriebssystemebene weiter), aber nicht reduzieren.
 
 Wählen Sie im CD / DVD-Laufwerk "ISO-Dateibank von
@@ -182,7 +182,7 @@ Mounten Sie USB-Geräte in der VM
 
 Es ist ein ziemlich seltener Bedarf, aber ich musste ihn für Jeedom verwenden
 in der Tat habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcean und GSM
-von eingesteckt und ich musste sie mit meiner Jeedom VM verbinden, um in der Lage zu sein
+verbunden und ich musste sie mit meiner Jeedom VM verbinden, um in der Lage zu sein
 benutze es.
 
 > **Note**

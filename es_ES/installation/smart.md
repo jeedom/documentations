@@ -1,10 +1,10 @@
 # Restauración al modo de fábrica de un Jeedom Smart
 
-## Presentación
+## Presentación 
 
-El Jeedom Smart está equipado con un disco Emmc, lo que garantiza una mayor confiabilidad que una tarjeta SD, pero este disco no es directamente accesible.
+El Jeedom Smart está equipado con un disco Emmc, lo que garantiza una mayor confiabilidad que una tarjeta SD, pero este disco no es accesible directamente.
 
-El modo de recuperación USB incluye el sistema, el sistema operativo y también la aplicación Jeedom.
+El modo de recuperación USB incluye tanto el sistema, el sistema operativo y también la aplicación Jeedom.
 
 Permite :
 
@@ -24,7 +24,7 @@ Material requerido : una llave USB (mínimo 8GB).
 >Recuerde reservar (localmente) una copia de seguridad de configuración de Jeedom
 
 - descarga el archivo que proporcionamos : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Tenga cuidado de verificar que el archivo tenga el nombre backupJeedom.tar.gz para hacer trabajos de restauración.
-- copie este archivo sin modificarlo o descomprimirlo, en una memoria USB en blanco formateada en FAT32
+- copie este archivo sin modificarlo o descomprimirlo, en una llave USB en blanco formateada en FAT32
 - apague su Smart correctamente por Jeedom
 - desenchufar allí
 - inserta tu memoria USB

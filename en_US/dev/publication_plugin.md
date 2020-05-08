@@ -1,6 +1,6 @@
 # How to publish the plugin on the market
 
-## Pre-requisites
+## Prerequisites
 
 - Register as a dev, see [here](https://www.jeedom.com/site/fr/dev.html)
 - Waiting for validation of the market account as a developer
@@ -12,7 +12,7 @@ Once connected with your dev account on the market you must :
 
 - click on market then add
 - fill in the information on your plugin : 
-  - General : 
+  - Main : 
     - Prix
     - Id (the one in the info.json file)
     - Nom

@@ -19,7 +19,7 @@ And enter your license key
 
 > **Note**
 >
-> As a reminder, if you do not do this your ESXi may no longer be
+> As a reminder, if you don't do this your ESXi may no longer be
 > operate after 60 days
 
 Mount an NFS datastore with Synology 
@@ -68,7 +68,7 @@ Then click on "New database" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 There you select "Mount an NFS database" then do
-following :
+next :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -85,7 +85,7 @@ Click on finish :
 And now your new datastore should appear (otherwise click on
 "Actualiser").
 
-Addition of VAAI Synology plugin for NFS mounting 
+Added VAAI Synology plugin for NFS mounting 
 ==============================================
 
 Adding this plugin enables hardware acceleration on
@@ -100,7 +100,7 @@ storage :
 
 The installation is quite simple, first you have to activate the service
 ESXi SSH (on the web interface, go to action ⇒ services
-⇒ Activate Secure Shell), then connect via SSH on it (the
+⇒ Activate Secure Shell), then connect in SSH above (the
 identifiers are the same as to access the interface). Then he
 you just do :
 
@@ -176,7 +176,7 @@ Then transfer the zip to one of your datastores and make :
 
 > **Note**
 >
-> Replace the path and the name of the zip according to your
+> Replace the path and the zip name according to your
 > configuration
 
 > **Important**
@@ -194,13 +194,13 @@ NTP configuration
 ====================
 
 By default the ESXi does not use NTP so that it is not at
-the time and that the VMs are not on time, to correct it is very
+the time and the VMs are not on time, to correct it is very
 simple. From the web version, go to Manage → System →
 Date and time, there you click on "Change settings" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
 
-And in the box "NTP server" you have to put : 0.debian.pool.n,
+And in the "NTP server" box you have to put : 0.debian.pool.n,
 1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov
 
 ![vmware.tips17](images/vmware.tips17.PNG)
@@ -212,7 +212,7 @@ stop with host" :
 
 Still in Actions → NTP Service click on "Start"
 
-This is your ESXi should take the time alone now.
+This is your ESXi should take the time alone by now.
 
 External access to the ESXi 
 ========================
@@ -234,7 +234,7 @@ can do (be careful to follow) :
 -   open port 902 to ESXi 902
 
 Then on the NAS in the control panel then portal
-application and reverse proxy (please note DSM 6 is essential) :
+application and reverse proxy (beware DSM 6 is essential) :
 
 ![vmware.tips19](images/vmware.tips19.PNG)
 
@@ -256,8 +256,8 @@ of the destination) you must put the IP of the ESXi
 >
 > Once you've done that and your DNS is pointing correctly
 > on the NAS you can generate a valid SSL certificate for free
-> with Let's encrypt, by going to Sécruité ⇒ certificate and doing
-> add. Then don't forget to click on configure to
+> with Let's encrypt, by going to Secrity ⇒ certificate and doing
+> Add. Then don't forget to click on configure to
 > assign it to your reverse proxy
 
 Then to access your ESXi you just need with your browser

@@ -31,7 +31,7 @@ dispositivos de forma remota a través del navegador web o teléfono inteligente
 Tecnología Z-Wave, la regleta PowerNode es compatible con
 la mayoría de las cajas de domótica en el mercado, como Fibaro Home Center 2, eedomus
 o Zipabox. Equipado con 6 puertos, puede controlar de forma independiente 6
-diferentes dispositivos eléctricos con una potencia total de 10A.
+diferentes aparatos eléctricos con una potencia total de 10A.
 
 La regleta de alimentación PowerNode recopila datos de consumo
 de energía de los dispositivos conectados y los transmite a la caja de automatización del hogar.
@@ -40,16 +40,16 @@ conectado Esta regleta también le permite activar o desactivar
 dispositivos de forma remota a través de un navegador web o teléfono inteligente o
 establecer un horario para activar o desactivar automáticamente su
 dispositivos en tiempos preestablecidos. Una pequeña rueda al costado del
-el zócalo múltiple le permite elegir un color que representará la parte
+Multi-socket le permite elegir un color que representará la parte a
 que se ve afectada la regleta. Por ejemplo "azul para el dormitorio
 ". Este consejo le permitirá diferenciar sus diferentes
-Regleta de alimentación PowerNode. También puede configurar este dial en un
+Regleta de alimentación PowerNode. También puede configurar este dial en
 candado Esta función le permite bloquear la regleta de alimentación
 evite apagarlo accidentalmente, pero controle desde la caja
 la domótica ya no será posible.
 
-La regleta de alimentación PowerNode también tiene un indicador de estado de luz
-que proporciona información diferente según su color : prises
+La regleta de alimentación PowerNode también tiene un indicador luminoso de estado
+que da información diferente dependiendo de su color : prises
 encendido o apagado, alcance de radio limitado, modo de inclusión y exclusión.
 
 La regleta de alimentación PowerNode está equipada con protección contra
@@ -59,11 +59,11 @@ defectuoso o cortocircuito. Protección adicional es
 asegurado por el fusible interno ubicado en la regleta.
 
 Esta regleta es ideal para controlar dispositivos multimedia en
-un gabinete de televisión o para controlar equipos informáticos ubicados
+un gabinete de TV o para controlar equipos informáticos ubicados
 en una oficina y así evitar tener que usar 6 enchufes Z-Wave
 individual. \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -90,7 +90,7 @@ Características técnicas
 
 \
 
--   Comida : 250 V CA, 50 Hz
+-   Suministro : 250 V CA, 50 Hz
 
 -   Corriente de carga máxima : 10A
 
@@ -125,7 +125,7 @@ Datos del módulo
 
 -   Hacer : GreenWave
 
--   Apellido : GreenWave \ [6 x tomas \]
+-   Nombre : GreenWave \ [6 x tomas \]
 
 -   ID del fabricante : 153
 
@@ -135,21 +135,21 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
 > **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
-> inclusión en el zócalo.
+> inclusión presente en el zócalo.
 
 \
 
@@ -165,7 +165,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -174,15 +174,15 @@ disponibles.
 
 \
 
-![Órdenes](images/greenwave.powernode/commandes.jpg)
+![Comandos](images/greenwave.powernode/commandes.jpg)
 
-![Órdenes](images/greenwave.powernode/commandes2.jpg)
+![Comandos](images/greenwave.powernode/commandes2.jpg)
 
-![Órdenes](images/greenwave.powernode/commandes3.jpg)
+![Comandos](images/greenwave.powernode/commandes3.jpg)
 
-![Órdenes](images/greenwave.powernode/commandes4.jpg)
+![Comandos](images/greenwave.powernode/commandes4.jpg)
 
-![Órdenes](images/greenwave.powernode/commandes5.jpg)
+![Comandos](images/greenwave.powernode/commandes5.jpg)
 
 \
 
@@ -200,20 +200,20 @@ Aquí está la lista de comandos :
 -   Poder-1 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 1
 
--   Conso-1 : Es el orden que informa el consumo total de
+-   Conso-1 : Es el comando que informa el consumo total de
     toma 1
 
 -   Estado-2 : Es el comando que permite conocer el estado de la
     toma 2
 
--   En-2 : Este es el comando que activa el socket 2
+-   En-2 : Es el comando que enciende el socket 2
 
 -   Off-2 : Es el comando que apaga el socket 2
 
 -   Poder-2 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 2
 
--   Conso-2 : Es el orden que informa el consumo total de
+-   Conso-2 : Es el comando que informa el consumo total de
     toma 2
 
 -   Estado-3 : Es el comando que permite conocer el estado de la
@@ -226,20 +226,20 @@ Aquí está la lista de comandos :
 -   Poder-3 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 3
 
--   Conso-3 : Es el orden que informa el consumo total de
+-   Conso-3 : Es el comando que informa el consumo total de
     toma 3
 
 -   Estado-4 : Es el comando que permite conocer el estado de la
     toma 4
 
--   En-4 : Este es el comando que activa el socket 4
+-   En-4 : Es el comando que enciende el socket 4
 
 -   Off-4 : Es el comando que apaga el socket 4
 
 -   Poder-4 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 4
 
--   Conso-4 : Es el orden que informa el consumo total de
+-   Conso-4 : Es el comando que informa el consumo total de
     toma 4
 
 -   Estado-5 : Es el comando que permite conocer el estado de la
@@ -252,7 +252,7 @@ Aquí está la lista de comandos :
 -   Poder-5 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 5
 
--   Conso-5 : Es el orden que informa el consumo total de
+-   Conso-5 : Es el comando que informa el consumo total de
     toma 5
 
 -   Estado-6 : Es el comando que permite conocer el estado de la
@@ -265,7 +265,7 @@ Aquí está la lista de comandos :
 -   Poder-6 : Este es el comando que trae el poder instantáneo
     tomado de la ingesta 6
 
--   Conso-6 : Es el orden que informa el consumo total de
+-   Conso-6 : Es el comando que informa el consumo total de
     toma 6
 
 \
@@ -280,12 +280,12 @@ en un botón.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -347,7 +347,7 @@ encuestas para aumentar el consumo.
 \
 
 Solo es necesario activarlo para el comando Power de cada
-tomado. Esto tendrá el efecto de elevar los dos (consumo y potencia)
+tomado. Esto tendrá el efecto de aumentar los dos (consumo y potencia)
 
 \
 
@@ -387,7 +387,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 

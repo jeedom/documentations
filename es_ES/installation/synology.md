@@ -78,13 +78,13 @@ Marque "Ejecutar este contenedor cuando el asistente haya terminado" y luego hag
 
 > **Configuración de configuración avanzada**
 >
-> Hay 3 parámetros de configuración opcionales, estos parámetros deben pasarse como una variable ambiental
+> Hay 3 parámetros de configuración opcionales, estos parámetros deben pasarse como una variable de entorno
 > - APACHE_PORT : permite cambiar el puerto predeterminado (80) para escuchar el servidor web
 > - MODE_HOST : indica que la red está en modo host
 
 > **IMPORTANT**
 >
-> Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predeterminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
+> Cierto complemento necesita tener la transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predeterminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
 
 Ahora necesita instalar Jeedom, es muy simple, vaya a IP\_NAS:9080
 

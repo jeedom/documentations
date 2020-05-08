@@ -31,7 +31,7 @@ Dieses einfache Gerät an jedem elektrischen Hochleistungsgerät,
 mit Lasten bis 3 kW (ohmsch).
 
 Diese Geräte eignen sich perfekt für die Verwendung auf Paneelen
-Heizungen, Tauchsieder, Handtuchwärmer und Ölheizungen. Die
+Heizungen, Tauchsieder, Handtuchwärmer und Ölkühler. Die
 Boost reicht von 30 bis 120 Minuten.
 
 SIR 321 unterstützt externe Temperatursensoren SES001,
@@ -86,7 +86,7 @@ Moduldaten
 
 -   Machen Sie : Horstmann
 
--   Nachname : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Hersteller ID : 89
 
@@ -126,16 +126,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/secure.sir321/commandes.jpg)
+![Befehle](images/secure.sir321/commandes.jpg)
 
 \.
 
@@ -143,7 +143,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Wir : Dies ist der Befehl zum Einschalten des Relais
+-   Ein : Dies ist der Befehl zum Einschalten des Relais
 
 -   Aus : Es ist der Befehl, das Relais auszuschalten
 
@@ -178,7 +178,7 @@ Parameterdetails :
 
 \.
 
--   1: Aktiviert oder deaktiviert die ausfallsichere Timerfunktion (siehe
+-   1: Ermöglicht das Aktivieren oder Nicht-Aktivieren der ausfallsicheren Timer-Funktion (siehe
     Moduldokumentation)
 
 -   2: Stellt die Temperatureinheit ein

@@ -52,7 +52,7 @@ Technische Daten
 
 \.
 
--   Essen : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -80,7 +80,7 @@ Moduldaten
 
 -   Machen Sie : Nodon
 
--   Nachname : CRC-3-6-0x Soft Remote
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Hersteller ID : 357
 
@@ -121,16 +121,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/nodon.softremote/commandes.png)
+![Befehle](images/nodon.softremote/commandes.png)
 
 \.
 
@@ -138,10 +138,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Knöpfe        | Unterstützung          | Lang drücken     | Entspannung    | Doppelte Unterstützung   |
+| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -191,7 +191,7 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl des Schaltflächenprofils bei Verwendung in
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
@@ -221,7 +221,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 -   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
     entsprechende Schaltfläche entsprechend MONO-Profil
 
--   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von gesteuert
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
     entsprechende Schaltflächen entsprechend DUO-Profil
 
 \.
@@ -240,7 +240,7 @@ Gut zu wissen
 \.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
-    1 oder 2 Mal nach der Aufnahme aufwachen. Und überprüfen Sie die
+    1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
     Assoziationsgruppe.
 
 \.

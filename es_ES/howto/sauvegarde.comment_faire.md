@@ -24,14 +24,14 @@ copia de seguridad regular de Jeedom.
 > El procedimiento de restauración de la tarjeta microSD puede ser útil para
 > restaurar un Jeedom predeterminado de la imagen proporcionada por
 > el equipo ve
-> [aqui](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
+> [aquí](https://www.jeedom.fr/doc/documentation/installation/es_ES/doc-installation.html).
 
-Copia de seguridad / Restauración de Jeedom 
+Jeedom Backup / Restore 
 =================================
 
 La documentación ya está presente para explicar la página.
 Administración → Copias de seguridad. Lo encontraras
-[aqui](https://jeedom.github.io/core/es_ES/backup).
+[aquí](https://jeedom.github.io/core/es_ES/backup).
 
 Copia de seguridad / Restaurar tarjeta microSD 
 ===========================================
@@ -42,7 +42,7 @@ Preparaciones
 Estas copias de seguridad / restauraciones se realizan desde otro
 computadora para hacer una "imagen limpia" de la tarjeta SD. Toma en
 primero pare el mini +. Para hacer esto, ponga Jeedom en modo
-experto en el menú de usuario en la esquina superior derecha.
+experto en el menú de usuario en la parte superior derecha.
 
 ![save restore06](images/save-restore06.jpg)
 
@@ -117,15 +117,15 @@ Para facilitar su tarea, puede descargar el software
 
     -   Con Apple Pi-Baker : Seleccione la tarjeta correcta de la lista
         *Pi-Crust*, poner la ruta al archivo de imagen para restaurar
-        en el campo *Archivo IMG* de la sección *Pi-Ingredients*, et
-        haga clic en *Restaurar copia de seguridad* para restaurar la imagen en el
+        En el campo *Archivo IMG* de la sección *Pi-Ingredients*, et
+        Haga clic en *Restaurar copia de seguridad* para restaurar la imagen en el
         tarjeta microSD.
 
     -   En comando de shell :
 
         -   Para encontrar el disco correspondiente a la tarjeta, abra
             un terminal e ingrese el mismo comando que para el
-            copia de seguridad : `lista de diskutil`
+            Salvaguardia : `lista de diskutil`
 
         -   Desmonta las particiones de la tarjeta escribiendo el comando :
             `sudo diskutil unmountDisk / dev / disk1`
@@ -133,7 +133,7 @@ Para facilitar su tarea, puede descargar el software
         -   Restaure la imagen en la tarjeta microSD escribiendo el comando
             :
             `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img de = / dev / disk1`
-            *Nota : En este ejemplo, el nombre del disco de la tarjeta
+            *Observación : En este ejemplo, el nombre del disco de la tarjeta
             es `/ dev / disk1`, así que ingrese el comando
             copia de seguridad \ `/ dev / disk1 \`*
 

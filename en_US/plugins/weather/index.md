@@ -1,5 +1,5 @@
 
-# Weather forecast
+# Weather
 
 
 >**IMPORTANT**

@@ -78,13 +78,13 @@ Check "Run this container when the wizard has finished" then click on "Apply".
 
 > **Advanced configuration setting**
 >
-> There are 3 optional configuration parameters, these parameters must be passed as an environmental variable
+> There are 3 optional configuration parameters, these parameters must be passed as an environment variable
 > - APACHE_PORT : allows to change the default port (80) for listening to the web server
 > - MODE_HOST : indicates that the network is in host mode
 
 > **IMPORTANT**
 >
-> Certain plugin you need to have network broadcast (Xioami plugin type), for that you MUST ABSOLUTELY switch to network in host mode (only possible during creation), change the default listening port of the web server and ssh by unused ports (type 9080 for the web server and 9022 for the ssh), and set the variable MODE_HOST to 1
+> Certain plugin you need to have the network broadcast (Xioami plugin type), for that you must ABSOLUTELY switch to the network in host mode (only possible during creation), change the default listening port of the web server and ssh by unused ports (type 9080 for the web server and 9022 for the ssh), and set the variable MODE_HOST to 1
 
 Now you need to install Jeedom, it's very simple, go to IP\_NAS:9080
 

@@ -1,4 +1,4 @@
-Aquí veremos cómo actualizar manualmente
+Veremos aquí cómo actualizar manualmente en
 Jeedom, a través de la consola SSH.
 
 Prerrequisitos 

@@ -20,7 +20,7 @@ Activar, "Iniciar en modo de depuración"
 
 ![image03](images/volet.ematronic/image03.png)
 
-Espere a que se abra la ventana, luego presione la tecla Abrir.
+Espere a que se abra la ventana, luego presione el botón Abrir
 su control remoto Ematronic.
 
     MainThread - rfxcmd:2765 - DEPURACIÓN - Mensaje de prueba: 09 19 03 01 1F 84 B9 01 01 60
@@ -85,10 +85,10 @@ Asocia tu control remoto virtual JeeDom con tu motor Ematronic:
 Reinicio del motor: 
 ---------------------------
 
--   Desconecte eléctricamente el motor..
+-   Desconectar eléctricamente el motor..
 
 -   En el control remoto original, deje el botón "Arriba" presionado 3 o 4
-    segundos, el LED se vuelve rojo fijo.
+    segundos, el LED se vuelve rojo sólido.
 
 -   Conectar eléctricamente el motor.
 
@@ -104,10 +104,10 @@ Reinicio del motor:
 Asociación del control remoto virtual JeeDom con el motor Ematronic: 
 ====================================================================
 
--   Desconecte eléctricamente el motor..
+-   Desconectar eléctricamente el motor..
 
 -   En el control remoto original, deje el botón "Arriba" Presione 3 o 4
-    segundos, el LED se vuelve rojo fijo.
+    segundos, el LED se vuelve rojo sólido.
 
 -   Conectar eléctricamente el motor.
 
@@ -118,7 +118,7 @@ Asociación del control remoto virtual JeeDom con el motor Ematronic:
 -   Presione el comando "Montar" en el control remoto virtual de
     JeeDom. foto::images / shutter.ematronic / image09.png \ [\]
 
--   El motor emitirá 3 pitidos para anunciar que su JeeDoom está asociado.
+-   El motor emitirá un pitido 3 veces para anunciar que su JeeDoom está asociado
     !!
 
 

@@ -1,7 +1,7 @@
 > **Important**
 >
 > Das Aktivieren von Beta-Plugins ist sehr, sehr riskant und Sie
-> **VERBOTEN ALLEN ZUGRIFF AUF DIE UNTERSTÜTZUNG**. 
+> **VERBOTEN JEDEN ZUGRIFF AUF DIE UNTERSTÜTZUNG**. 
 
 > **Important**
 >
@@ -23,14 +23,14 @@ Schalten Sie den Kern auf Beta
 > **Important**
 >
 > Ein Beta-Update kann Ihre Jeedom und vollständig brechen
-> mach es nicht behebbar. Im Falle von Sorgen haben Sie KEINE UNTERSTÜTZUNG
+> mach es nicht behebbar. Im Falle von Bedenken haben Sie KEINE UNTERSTÜTZUNG
 > muss für sich selbst sorgen.
 
 Beta-Plugins 
 ==========================
 
 Gehen Sie dazu zum Jeedom-Markt und dann zu Ihrem
-Profil, Party **Mein Profil**, Aktivieren Sie das Kontrollkästchen, um Zugriff zu haben
+Profil, Party **Mein Profil**, Aktivieren Sie das Kontrollkästchen, um darauf zuzugreifen
 Beta-Plugins.
 
 Dann sollten Sie in Ihrem Jeedom auf den Plugin-Dateien

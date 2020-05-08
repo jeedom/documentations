@@ -41,14 +41,14 @@ y sistemas de vigilancia y / o seguridad.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
 
 -   Detector de movimiento inalámbrico
 
--   Detecta movimiento utilizando un sensor infrarrojo pasivo.
+-   Detecta movimiento usando un sensor infrarrojo pasivo
 
 -   Medida de temperatura
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Z-Wave +
 
--   Comida : Batería CR123A 3,6VDC
+-   Suministro : Batería CR123A 3,6VDC
 
 -   Altura recomendada para la instalación : 2,4m
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Apellido : Fibaro FGMS-001-ZW5 \ [Sensor de movimiento \]
+-   Nombre : Fibaro FGMS-001-ZW5 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -118,14 +118,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -149,7 +149,7 @@ lista desplegable debe obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -159,7 +159,7 @@ estará disponible.
 
 \
 
-![Órdenes](images/fibaro.fgms001zw5/commandes.jpg)
+![Comandos](images/fibaro.fgms001zw5/commandes.jpg)
 
 \
 
@@ -170,7 +170,7 @@ Aquí está la lista de comandos :
 -   Presencia : es el comando que detectará una detección de presencia
 
 -   Temperatura : es el comando que permite subir el
-    temperatura
+    Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -201,7 +201,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -241,7 +241,7 @@ Detalles del parámetro :
 -   8: activa el modo noche / día o ambos (valor
     recomendado : siempre activo)
 
--   9: ajusta el umbral para cambiar al modo nocturno (útil si
+-   9: le permite ajustar el umbral para cambiar al modo nocturno (útil si
     ha cambiado el parámetro 8)
 
 -   12: cambiar solo si sabes por qué lo estás haciendo
@@ -263,13 +263,13 @@ Detalles del parámetro :
 
 -   26: cambiar solo si sabes por qué lo estás haciendo
 
--   40: digamos cuánto se debe cambiar el valor de
+-   40: digamos cuánto es el valor de
     brillo a enviar (valor recomendado 50)
 
 -   42: permite dar una duración mínima entre dos envíos sucesivos
     incluso si el brillo no ha cambiado (valor recomendado 3600)
 
--   60: digamos cuánto se debe cambiar el valor de
+-   60: digamos cuánto es el valor de
     temperatura a enviar (valor recomendado 2 o 0.2 grados)
 
 -   62: permite dar la frecuencia de las mediciones de temperatura
@@ -328,7 +328,7 @@ Los nombres de los grupos en la versión Z-Wave + son los siguientes:
     compatibilidad hacia atrás con controladores que no son compatibles
     el protocolo Z-Wave +.
 
--   5 : Sabotaje BC, alerta de sabotaje. El propósito de este grupo es asegurar
+-   5 : Sabotaje BC, alerta de sabotaje. El propósito de este grupo es
     compatibilidad hacia atrás con controladores que no son compatibles
     Protocolo Z-Wave +.
 
@@ -345,11 +345,11 @@ Bueno saber
 
 > **Tip**
 >
-> Este módulo es muy meticuloso al despertar y está muy mal configurado
+> Este módulo es muy complicado al despertar y está muy mal configurado
 > fabrica. Es esencial despertarlo bien después de la inclusión.
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
-> cuenta.
+> Cuenta.
 
 \
 
@@ -369,7 +369,7 @@ Despertador
 Para activar este módulo, solo hay una forma :
 
 -   presione el botón de inclusión 3 veces (la luz se enciende
-    en azul). Incluso si se enciende la luz, puede ser necesario
+    en azul). Incluso si la luz se enciende, puede ser necesario
     hazlo varias veces seguidas (2 o 3)
 
 \
@@ -384,7 +384,7 @@ Este módulo se activa presionando 3 veces en su botón de inclusión.
 \
 
 Este módulo es muy meticuloso.. Es recomendable incluir
-más cerca de tu caja y recógela varias veces.
+más cerca de tu caja y repetirla varias veces.
 
 \
 

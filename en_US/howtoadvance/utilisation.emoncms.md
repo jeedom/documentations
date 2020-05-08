@@ -31,7 +31,7 @@ The url of push is of the form :
 
 With parameters :
 
--   id : the feed id found on emoncms
+-   Id : the feed id found on emoncms
 
 -   apikey : the api key of read & write for emoncms
 
@@ -43,7 +43,7 @@ With parameters :
 Notification to Jeedom or recovery from Jeedom 
 ======================================================
 
-To take a data of emoncms in Jeedom, there are two possibilities
+To take a data from emoncms in Jeedom, there are two possibilities
 :
 
 -   The first is to create an info via the script plugin in Jeedom

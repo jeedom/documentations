@@ -11,7 +11,7 @@ Resumen
 
 El micromódulo EMV-400 le permitirá administrar un motor
 equipos bidireccionales o eléctricos. Permite el control
-2 salidas de encendido / apagado o un obturador de apertura / parada / cierre.
+2 salidas Start / Stop o un obturador Open / Stop / Close.
 
 Además, la interacción con otros protocolos es posible, es
 controlable por interruptores de marca y / o controles remotos
@@ -30,7 +30,7 @@ receptor.
 >
 > Neutral solo es necesario para el modo "Obturador""
 
-Las funciones 
+Funciones 
 =========
 
 -   2 salidas de relé suministradas
@@ -64,7 +64,7 @@ Características técnicas
 
 -   Alimentation: 230VAC, 50Hz
 
--   Cableado: 4 hilos, 2 para controles y 2 para alimentación
+-   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
 -   Frecuencia: 868.3 MHz
 
@@ -87,14 +87,14 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Apellido : EMV-400
+-   Nombre : EMV-400
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -106,7 +106,7 @@ referirse a esto
 > Por el contrario, los receptores Edisio deben crearse manualmente en
 > Jeedom.
 
-Interruptor DIP y botón "R"" : 
+Interruptor DIP y botón "R" : 
 --------------------------
 
 ![bouton association](images/emv.400/bouton_association.jpg)
@@ -120,7 +120,7 @@ Interruptor DIP y botón "R"" :
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
-> instalación.
+> Instalación.
 
 -   El botón "R", permitirá asociar un transmisor al receptor,
     activar o desactivar la función del temporizador y activar el modo
@@ -155,11 +155,11 @@ La función de temporizador apaga automáticamente los relés al final
     pitido continuo
 
 -   Desactivar: Presione 5x "R" en el receptor, confirmación por 3 simples
-    pitidos audibles.
+    pitido.
 
 -   Temporizador de 30 minutos: Interruptor DIP 3 arriba
 
--   Temporizador de 60 minutos: Interruptor DIP 3 a continuación
+-   Temporizador de 60 minutos: Interruptor DIP 3 abajo
 
 Modo "Iluminación"" 
 ===================
@@ -202,23 +202,23 @@ Una vez que se crea su equipo, debe obtener esto :
 > Recuerde activar su nuevo equipo.
 
 En la lista de equipos, a la derecha, seleccione "Micro-módulo
-luz" :
+Iluminación" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Órdenes 
+Comandos 
 ---------
 
 Una vez que guarde su equipo, debe recibir los pedidos
 asociado con el módulo :
 
-![Órdenes](images/emv.400/commande_eclairage.jpg)
+![Comandos](images/emv.400/commande_eclairage.jpg)
 
 Aquí está la lista de comandos :
 
--   Nosotros : Es el comando que activa el relé 1
+-   Uno : Es el comando que activa el relé 1
 
--   Apagado : Es el comando que hace posible desactivar el relé 1
+-   Apagado : Es el comando que permite desactivar el relé 1
 
 -   Nosotros 2 : Es el comando que activa el relé 2
 
@@ -232,13 +232,13 @@ Aquí está la lista de comandos :
 > use otro transmisor, Jeedom no podrá actualizar el estado
 > del receptor.
 
-Informacion 
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Órdenes](images/emv.400/infos_eclairage.jpg)
+![Comandos](images/emv.400/infos_eclairage.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
@@ -275,7 +275,7 @@ Cada salida debe estar asociada con un comando Jeedom:
         salida 1 en Jeedom.
 
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
-        validar la asociación, el pitido se detiene.
+        confirmar la asociación, el pitido se detiene.
 
 -   Salida asociada 2 :
 
@@ -287,26 +287,26 @@ Cada salida debe estar asociada con un comando Jeedom:
         salida 2 en Jeedom.
 
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
-        validar la asociación, el pitido se detiene.
+        confirmar la asociación, el pitido se detiene.
 
 Método remoto 
 ----------------
 
-Hablamos de eso al comienzo de esta documentación. En el caso de
-módulos ya integrados en falsos techos o incluso áticos.
+Hablamos sobre esto al comienzo de esta documentación. En el caso de
+módulos ya integrados, en falsos techos o incluso áticos.
 Este método permite agregar un nuevo transmisor sin acceder a la "R" del
 receptor.
 
 -   Asociar el botón "R" :
 
-    -   Presione 3x en "R" en el receptor, triple pitido (corto
+    -   Presione 3x en "R" en el receptor, pitido triple (corto
         en repetición) indica el modo de programación activa.
 
     -   Dentro de 10 segundos, presione "Prueba" en el comando "E" en
         Jeedom, un pitido continuo señala la asociación con Jeedom.
 
     -   Dentro de 10 segundos, presione "E" nuevamente en el receptor, para
-        validar la asociación, el pitido se detiene.
+        confirmar la asociación, el pitido se detiene.
 
 Ya está hecho, su Jeedom ahora está asociado y su comando "E"
 ahora reemplaza el botón "R" en el receptor.
@@ -324,21 +324,21 @@ ahora reemplaza el botón "R" en el receptor.
             transmisor para asociar, un pitido continuo señala
             la asociación de salida 1.
 
-        -   Dentro de 10 segundos, presione "Prueba" nuevamente en el
+        -   Dentro de 10 segundos, presione "Probar" nuevamente en el
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
     -   Salida 2 :
 
         -   Presione 2x en "Prueba" del comando "E" en Jeedom,
-            doble pitido (corto en repetición) señala el
+            doble pitido (breve en repetición) señala el
             programación de la salida 2 activada.
 
         -   Dentro de 10 segundos, presione una de las teclas "C" en el nuevo
             transmisor para asociar, un pitido continuo señala
             la asociación de la salida 2.
 
-        -   Dentro de 10 segundos, presione "Prueba" nuevamente en el
+        -   Dentro de 10 segundos, presione "Probar" nuevamente en el
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
@@ -350,7 +350,7 @@ ahora reemplaza el botón "R" en el receptor.
 Visual alternativo 
 =================
 
-![Órdenes](images/emv.400/vue_alt_eclairage.jpg)
+![Comandos](images/emv.400/vue_alt_eclairage.jpg)
 
 Faq. 
 ======

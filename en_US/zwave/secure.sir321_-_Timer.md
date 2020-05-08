@@ -31,7 +31,7 @@ this simple device on any high power electrical device,
 with loads up to 3kW (resistive).
 
 These units are perfect for use on panels
-heaters, immersion heaters, towel warmers and oil heaters. The
+heaters, immersion heaters, towel warmers and oil coolers. The
 boost ranges from 30 to 120 minutes.
 
 SIR 321 supports SES001 external temperature sensors,
@@ -86,7 +86,7 @@ Module data
 
 -   Mark : Horstmann
 
--   Last name : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Manufacturer ID : 89
 
@@ -95,14 +95,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Orders](images/secure.sir321/commandes.jpg)
+![Commands](images/secure.sir321/commandes.jpg)
 
 \
 
@@ -161,7 +161,7 @@ If you want to configure the module you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -178,7 +178,7 @@ Parameter details :
 
 \
 
--   1: Enables or disables the fail safe timer function (refer to
+-   1: Allows you to activate or not the fail safe timer function (refer to
     module documentation)
 
 -   2: Adjusts the temperature unit

@@ -39,7 +39,7 @@ quien usó su placa.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -70,7 +70,7 @@ Características técnicas
 
 -   Tipo : Esclavo Z-Wave
 
--   Comida : 2 pilas AA 1.5V
+-   Suministro : 2 pilas AA 1.5V
 
 -   Frecuencia : 868.42 MHz
 
@@ -101,7 +101,7 @@ Datos del módulo
 
 -   Hacer : Zipato
 
--   Apellido : Mini teclado Zipato RFID
+-   Nombre : Mini teclado Zipato RFID
 
 -   ID del fabricante : 151
 
@@ -111,14 +111,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -143,7 +143,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -166,7 +166,7 @@ Aquí está la lista de comandos :
 -   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Código : muestra la insignia o el código del teclado cuando se ingresa el código
+-   CODIGO : muestra la insignia o el código del teclado cuando se ingresa el código
     no está en uno de los recuerdos
 
 -   Batería : es el comando de la batería
@@ -291,8 +291,8 @@ Ejemplos de uso
 
 El disparador es el comando de evento, de hecho, este es
 actualizado solo cuando se ha presentado un código / insignia válido. Si la
-el valor es 6 (inicio) desactivamos la alarma (por ejemplo) o activamos el
-enchufe múltiple, encendemos la luz dependiendo del brillo, enviamos
+el valor es 6 (inicio) desactivamos la alarma (por ejemplo), o activamos el
+Enchufe múltiple, encendemos la luz dependiendo del brillo, enviamos
 una notificación para informar que alguien ha regresado, lanzamos un
 síntesis de voz para hacer un informe meteorológico, por ejemplo. De lo contrario (necesariamente
 5) activamos la alarma, cortamos la regleta, enviamos un

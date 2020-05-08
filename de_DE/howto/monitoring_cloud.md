@@ -16,7 +16,7 @@ Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren
 
 ## Wie werde ich gewarnt?
 
-Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Cloud-Überwachungskonfiguration (auf Ihrer Marktprofilseite) tun. : 
+Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Konfiguration der Cloud-Überwachung (auf Ihrer Marktprofilseite) tun. : 
 
 - Geben Sie eine andere E-Mail-Adresse ein (nur eine möglich)
 - Fügen Sie eine Warnung zum Telegramm hinzu
@@ -26,16 +26,16 @@ Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die
 
 > **Telegram**
 >
-> Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegrammausrüstung gehen, dann die erweiterte Konfiguration des gewünschten Empfängerbefehls und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
+> Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegrammausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
 
-## So aktivieren Sie es
+## Wie man es aktiviert
 
 Das Verfahren ist recht einfach, das muss man : 
 
-- Haben Sie ein Guthaben für die Cloud-Überwachung (Sie können es in einem 1-Monats-Stapel kaufen, also können Sie 2 Monate dauern und dann für 6 Monate anhalten und danach wieder aufnehmen)
+- Haben Sie ein Guthaben für die Cloud-Überwachung (Sie können es in einem 1-Monats-Stapel kaufen, also können Sie 2 Monate dauern, dann 6 Monate anhalten und danach fortfahren)
 - habe Freiheit 3.3.44 min
 
-Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsabschnitt warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).
+Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsbereich warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).
 
 >**IMPORTANT**
 >

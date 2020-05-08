@@ -1,6 +1,6 @@
 # Wiederherstellung des Werksmodus eines Jeedom Smart
 
-## Einführung
+## Präsentation
 
 Der Jeedom Smart ist mit einer Emmc-Disc ausgestattet, die eine bessere Zuverlässigkeit als eine SD-Karte garantiert. Diese Disc ist jedoch nicht direkt zugänglich.
 
@@ -35,6 +35,6 @@ Erforderliches Material : ein USB-Stick (mindestens 8 GB).
 
 > **Important**
 >
-> Sei vorsichtig ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Wenn Sie eine Sicherungskopie Ihrer Jeedom-Konfiguration haben, müssen Sie diese erst anschließend wiederherstellen.
+> Achtung ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Wenn Sie eine Sicherungskopie Ihrer Jeedom-Konfiguration haben, müssen Sie diese erst anschließend wiederherstellen.
 
 Dieser Wiederherstellungsmodus ist nur mit Jeedom Smart kompatibel.

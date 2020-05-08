@@ -32,7 +32,7 @@ Sie können daher die angeschlossene Lampe aktivieren und variieren
 Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
 direkt von der Taste am Mikromodul. Er ist
 Kompatibel mit jeder Art von Lampe, die Variationen unterstützt
-(Glühlampe, Fluo-Compact, LED,…). Das Fibaro-Dimmer-Modul
+(Glühlampe, Fluo-Compact, LED,…). Das Fibaro-Dimmermodul
 ist ein Konzentrat der Technologie, es erkennt automatisch die Art von
 angeschlossene Last und ist gegen Überspannung geschützt.
 
@@ -84,16 +84,16 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Essen : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
--   Verkabelung : Neutral nicht notwendig
+-   Verkabelung : Neutral nicht erforderlich
 
 -   Maximale Belastung : 25-500W (ohmsche Last) oder 1.5A (induktive Last)
 
 -   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
     Halogen (230VAC und 12VDC mit elektronischem Transformator), LED
 
--    : 
+-   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
 -   Sicherung : 2.5A
 
@@ -101,13 +101,13 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Dimensions: 
+-   Dimensions: 15 x 42 x 36 mm
 
 -   Betriebstemperatur : 0-40 ° C.
 
 -   Temperatur begrenzen : 105°C
 
--   Standards : 
+-   Standards : EN 55015 und EN 60669-2-1
 
 \.
 
@@ -118,7 +118,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Nachname : Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -153,8 +153,8 @@ Aufnahme beziehen sich darauf
 > **Tip**
 >
 > Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
-> 
-> .
+> durch viele hin und her auf dem Schalter oder viele
+> Drücken Sie, wenn Sie einen Druckknopfschalter haben.
 
 \.
 
@@ -166,16 +166,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/fibaro.fgd211/commandes.jpg)
+![Befehle](images/fibaro.fgd211/commandes.jpg)
 
 \.
 
@@ -186,11 +186,11 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Wir : Es ist die Steuerung, die das Licht einschaltet
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
@@ -203,7 +203,7 @@ icone
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.
@@ -229,53 +229,53 @@ Parameterdetails :
 
 \.
 
--   1:  : 
-    
+-   1: ALL ON / ALL OFF-Funktionen : wird nur verwendet, wenn Sie die zugeordnet haben
+    REA-211 zu einem anderen Modul
 
--   6: 
-    
+-   6: Nehmen wir an, wie Informationen an die Gruppe gesendet werden
+    Verein 1
 
--   7: 
-    
+-   7: ermöglicht es, den Status des zugeordneten Moduls vorher zu überprüfen oder nicht
+    eine Bestellung senden
 
--   8: 
+-   8: ermöglicht die Definition des Prozentsatzes der Variation (auto)
 
--   9: 
+-   9: Dauer der Variation zwischen den beiden Extremen (manuell)
 
--   10: 
+-   10: Dauer der Variation zwischen den beiden Extremen (auto)
 
--   11: 
+-   11: ermöglicht die Definition des Prozentsatzes der Abweichung (manuell)
 
--   12: 
+-   12: ermöglicht die Definition der maximal autorisierten Ebene
 
--   13: 
+-   13: ermöglicht das Definieren der autorisierten Mindeststufe
 
--   14:  : 
-    
+-   14: WICHTIGE EINSTELLUNG : ermöglicht die Wahl zwischen Schalter
+    BISTABLE oder MONOSTABLE (Druckknopf)
 
--   15: 
-    
+-   15: Aktiviert die Option, mit der die Helligkeit auf das Maximum eingestellt werden kann
+    bei doppelter Presse (oder zurück auf bistabil)
 
--   16: 
+-   16: Option zum Aktivieren der Speicherung des letzten Status
 
--   17: 
-    
+-   17: Hier können Sie zwischen dem Hin- und Her-Modus und wählen
+    Fernbedienungsschalter
 
--   18: 
-    
+-   18: Ermöglicht die Synchronisierung des Variationsgrads mit anderen
+    zugehörige Laufwerke
 
--   19: 
-    
+-   19: Betriebsart des bistabilen Schalters (Rückwärtsfahrt)
+    oder nicht)
 
--   20: 
-    
+-   20: Ermöglicht die Einstellung des Mindestpegels für LEDS-Lampen
+    zum Beispiel dimmbar
 
--   30: 
-    
+-   30: ermöglicht die Definition der Betriebsart des Moduls bei
+    Empfang eines Rundfunkalarmsignals
 
--   39: 
+-   39: Alarmdauer definiert in Parameter 30
 
--   41: 
+-   41: Ermöglicht das Aktivieren oder Nicht-Aktivieren der Szenenaktivierungsfunktion
 
 \.
 
@@ -303,7 +303,7 @@ Gut zu wissen
 
 > **Caution**
 >
-> 
+> Der wichtigste Parameter der Konfiguration ist 14. Es
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
 > ist auf monostabil eingestellt.
 
@@ -311,7 +311,7 @@ Gut zu wissen
 
 Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
 Schalter Sie können Ihren Schalter mehrmals drücken
-
+(oder bei einem bistabilen Schalter hin und her gehen)
 
 \.
 

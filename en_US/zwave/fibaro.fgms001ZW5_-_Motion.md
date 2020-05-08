@@ -108,7 +108,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Fibaro FGMS-001-ZW5 \ [Motion Sensor \]
+-   Name : Fibaro FGMS-001-ZW5 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -118,14 +118,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -149,7 +149,7 @@ drop-down list you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -159,7 +159,7 @@ will be available.
 
 \
 
-![Orders](images/fibaro.fgms001zw5/commandes.jpg)
+![Commands](images/fibaro.fgms001zw5/commandes.jpg)
 
 \
 
@@ -170,7 +170,7 @@ Here is the list of commands :
 -   Presence : it is the command which will detect a presence detection
 
 -   Temperature : it is the command which allows to go up the
-    temperature
+    Temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -201,7 +201,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -241,7 +241,7 @@ Parameter details :
 -   8: activates night / day mode or both (value
     recommended : always active)
 
--   9: adjusts the threshold for switching to night mode (useful if you
+-   9: allows you to adjust the threshold for switching to night mode (useful if you
     have changed parameter 8)
 
 -   12: to change only if you know why you are doing it
@@ -263,13 +263,13 @@ Parameter details :
 
 -   26: to change only if you know why you are doing it
 
--   40: lets say how much should be changed the value of
+-   40: lets say how much the value of
     brightness to be sent (recommended value 50)
 
 -   42: allows to give a minimum duration between two successive sendings
     even if the brightness has not changed (recommended value 3600)
 
--   60: lets say how much should be changed the value of
+-   60: lets say how much the value of
     temperature to be sent (recommended value 2 or 0.2 degrees)
 
 -   62: allows to give the frequency of temperature measurements
@@ -328,7 +328,7 @@ The names of the groups in the Z-Wave + version are as follows:
     backward compatibility with controllers that do not support
     the Z-Wave + protocol.
 
--   5 : Tamper BC, sabotage alert. The purpose of this group is to ensure
+-   5 : Tamper BC, sabotage alert. The purpose of this group is to
     backward compatibility with controllers that do not support
     Z-Wave + protocol.
 
@@ -349,7 +349,7 @@ Good to know
 > factory. It is essential to wake it up well after inclusion
 > (several times are better than one), to configure it according to your
 > wishes, and to wake it up well so that the config is taken into account
-> account.
+> Account.
 
 \
 
@@ -384,7 +384,7 @@ This module wakes up by pressing 3 times on its inclusion button.
 \
 
 This module is very finicky. It is advisable to include
-closer to your box and pick it up several times.
+closer to your box and to repeat it several times.
 
 \
 

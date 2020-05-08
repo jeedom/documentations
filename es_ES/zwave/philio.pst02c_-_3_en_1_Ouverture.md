@@ -1,4 +1,4 @@
- 
+Philio PST02 C - Apertura 3 en 1 
 =================================
 
 \
@@ -24,15 +24,15 @@ Resumen
 
 \
 
- : detección
+El detector ZIP-PSM01 ofrece 3 funciones diferentes. : detección
 apertura, sensor de temperatura y detector de luz. El se
 consta de dos partes : un detector y un imán. Estan disenados
 para ser colocado en una puerta o ventana con el imán fijado en el
 parte de apertura y el detector en la parte fija.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
-detector, que activará el detector que enviará una señal de onda Z
-alarma, si el sistema está armado (esta señal puede ser explotada por un
+detector, que activará el detector que enviará una señal Z-Wave
+alarma, si el sistema está armado (esta señal puede ser utilizada por un
 sirena o por una caja de automatización del hogar, por ejemplo). El sensor también puede
 ser utilizado para el control automático de iluminación, dependiendo del
 nivel de brillo. Por ejemplo, el sensor enviará una señal a
@@ -49,7 +49,7 @@ existant.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Comida : 1 batería CR123A 3V
+-   Suministro : 1 batería CR123A 3V
 
 -   Duración de la batería : 3 años (para 14 viajes por día)
 
@@ -122,7 +122,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Apellido : PST02-C Sensor de puerta / ventana 3 en 1
+-   Nombre : PST02-C Sensor de puerta / ventana 3 en 1
 
 -   ID del fabricante : 316
 
@@ -132,14 +132,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -162,7 +162,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -171,7 +171,7 @@ disponibles.
 
 \
 
-![Órdenes](images/philio.pst02c/commandes.jpg)
+![Comandos](images/philio.pst02c/commandes.jpg)
 
 \
 
@@ -183,7 +183,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    temperatura
+    Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -208,7 +208,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -252,13 +252,13 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automática
+-   11: le permite definir la duración entre dos informes de apertura automáticos
     (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos automáticos
+-   12: le permite definir la duración entre dos auto
     brillo (una unidad = parámetro 20) Valor recomendado : 3
 
--   13: le permite definir la duración entre dos automáticos
+-   13: le permite definir la duración entre dos auto
     temperatura (una unidad = parámetro 20) Valor recomendado : 2
 
 -   20: duración de un intervalo para los parámetros 10 a 13 Valor

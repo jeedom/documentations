@@ -33,7 +33,7 @@ or RGB + white or even to connect analog probes using
 
 -   4 dimmer outputs (PWM) to control :
 
--   \* or 1 channel of RGB + White LED (RGBW) 12 / 24V
+-   \* i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
 
 -   \* or 4 channels of white LEDs 12 / 24V
 
@@ -52,7 +52,7 @@ or RGB + white or even to connect analog probes using
 Functions 
 ---------
 
--   Control low voltage 12 / 24V lights (halogen or LED)
+-   Order low voltage lights 12 / 24V (halogen or LED)
 
 -   Installs behind an existing switch
 
@@ -108,7 +108,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Fibaro FGRGB-101 RGBW
+-   Name : Fibaro FGRGB-101 RGBW
 
 -   Manufacturer ID : 271
 
@@ -118,12 +118,12 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -146,16 +146,16 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
 \
 
-![Orders](images/fibaro.fgrgb101/commande_1.png)
+![Commands](images/fibaro.fgrgb101/commande_1.png)
 
-![Orders](images/fibaro.fgrgb101/commande_2.png)
+![Commands](images/fibaro.fgrgb101/commande_2.png)
 
 \
 
@@ -164,12 +164,12 @@ Here is the list of commands :
 -   Color : It is the command which allows to set the color code to
     afficher
 
--   Fireplace : It is the command which simulates an atmosphere of
-    fireplace
+-   Fireplace : It is the command that simulates an atmosphere of
+    Fireplace
 
 -   Thunderstorm : This is the command that simulates a Storm atmosphere
 
--   Dawn : It is the command which simulates an Aude atmosphere
+-   Dawn : This is the command that simulates an Aude atmosphere
     (progressive sunrise)
 
 -   Fading : This is the command that simulates the entire
@@ -201,12 +201,12 @@ icone
 ### Configuration of the module 
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

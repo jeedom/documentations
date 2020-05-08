@@ -1,28 +1,28 @@
-| Apellido            | Tipo           | Protocolo      | Nota       | Enlace           |
+| Nombre            | Tipo           | Protocolo      | Observación       | Enlace           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Estación meteorológica  | Rubicson / Alecto              |                |                |
-| Atlantic'S     | Detector      | Meiantech      |                |                |
+| Del Atlántico     | Detector      | Meiantech      |                |                |
 | MD-210R        | abriendo    |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| DT-335R DMT    | movimiento      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| MC-335R DMT    | movimiento      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| 7380R DMT      | movimiento      |                |                |                |
-| Del Atlántico     | Mando a distancia con llave de 1 botón   | Meiantech      |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
+| DT-335R DMT    | Movimiento      |                |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
+| MC-335R DMT    | Movimiento      |                |                |                |
+| Del Atlántico     | Detector   | Meiantech      |                |                |
+| 7380R DMT      | Movimiento      |                |                |                |
+| Del Atlántico     | Mando a distancia de 1 botón   | Meiantech      |                |                |
 | Blyss 567434   | Detector de humo  |                |                |                |
 | Blyss 582866   | Interruptor   |                |                |                |
 | Blyss 582849   | Operador de puerta de garaje |                |                |                |
-| Blyss 528852   | Actuador de actuadores con gatos  |                |                |                |
+| Blyss 528852   | Actuador de actuadores con cilindros  |                |                |                |
 | Blyss 582867   | Interruptor ON / OFF + paquete de micro módulos         |                |                |                |
 | Chacon 34131   | Detector de humo  | AC             |                |                |
 | Chacon 54595   | Paquete de 3 enchufes Chacon + control remoto de 3 canales + 1 grupo     | AC             |                |                |
-| Chacon 54795   | Pack de 3 primeros enchufes Chacon DI.O + control remoto de 3 canales      | AC             |                |                |
+| Chacon 54795   | Pack de 3 enchufes Chacon DI.O primeros + control remoto de 3 canales      | AC             |                |                |
 | Chacon 54501   | Interruptor   | AC             |                |                |
 | Chacon 54514   | Dimmer      | AC             |                |                |
 | Chacon 54761   | Control remoto de 16 canales    | AC             |                |                |
 | Chacon 54730   | Timbre       | AC             |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-e nfichable.html)              |
-| Chacon 54758   | Micro-módulo ON / OFF 200W   | AC             | Solo encendido / apagado        |                |
+| Chacon 54758   | ON / OFF 200W micro-módulo   | AC             | Solo encendido / apagado        |                |
 | Chacon 54660   | Pack 3 enchufes + control remoto 2000W  | AC             |                |                |
 | Chacon 54524   | Micro-módulo   | AC             | Encendido / apagado         |                |
 | 300W           | 300W dimmer |                | solamente      |                |
@@ -33,9 +33,9 @@
 | DI.O por Chacon | Detector      | AC             |                |                |
 | 54583          | crepúsculo  |                |                |                |
 | DI-O por Chacon | Detector   | AC             |                |                |
-| 54703          | movimiento      |                |                |                |
+| 54703          | Movimiento      |                |                |                |
 | DI.O por Chacon | Mando a distancia 3 | AC             |                |                |
-| 54760          | canales         |                |                |                |
+| 54760          | Canales         |                |                |                |
 | DI.O por Chacon | Control remoto   | AC             |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O por Chacon | Salida          | AC             |                |                |
 | 54746          | al aire libre     |                |                |                |
@@ -47,7 +47,7 @@
 | 54798          |                |                |                |                |
 | DI-O por Chacon | Micro-módulo   | AC             |                | [Comprar](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
 | DS18           | Detector      |                |                | [Comprar](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
-| KDI FER-1000W  | Salida          | Ejemplo de código para encender el zócalo 07100102500D01 60             |                |                |
+| KDI FER-1000W  | Salida          | Código ex para encender el zócalo 07100102500D01 60             |                |                |
 | KDI FECT-100   | Control remoto   |                |                |                |
 | Homewizad      | Temperatura    |                |                |                |
 | HW-TX320       | Humedad con display      |                |                |                |

@@ -4,7 +4,7 @@ Instalación del complemento Z-wave
 \
 
 Si aún no tiene uno, deberá instalar el complemento
-Z-Wave, no te preocupes, solo toma unos segundos. Para esto
+Z-Wave, no te preocupes, solo lleva unos segundos. Para esto
 faire, il suffit de se rendre dans le menu « Général », puis « Plugins »
 
 \
@@ -23,7 +23,7 @@ Enfin, cliquez sur le bouton « Market » situé en haut à gauche.
 
 Una vez en el mercado, en la barra de búsqueda en la parte superior derecha,
 escriba la palabra Z-wave y confirme con la tecla enter. Selecciona el
-plugin e instalarlo. Luego, solo actívelo haciendo clic en
+plugin e instalarlo. Luego, solo actívalo haciendo clic en
 le bouton « activer » qui apparait.
 
 \

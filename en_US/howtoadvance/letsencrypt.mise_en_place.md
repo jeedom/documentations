@@ -37,7 +37,7 @@ Activation of virtualHost and SSL module
 
     a2enmod ssl
     a2ensite default-ssl.conf
-    service apache2 restart
+    apache2 restart service
 
 > **Note**
 >
@@ -52,9 +52,9 @@ are added by the script in Apache.
 
 > **Note**
 >
-> If you are using the automatic renewal method below,
-> you can turn off virtualHost **default-ssl.conf** with the
-> ordered **a2dissite default-ssl.conf** Remember to report the code by
+> If you use the automatic renewal method below,
+> you can disable virtualHost **default-ssl.conf** with the
+> Command **a2dissite default-ssl.conf** Remember to report the code by
 > default below in the virtualHost created by the script
 > renewal :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
@@ -105,7 +105,7 @@ Renewal is done with the order :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-You will receive an email automatically upon the expiration of the
+You will receive an email automatically when the deadline expires.
 certificate that will remind you to launch this command.
 
 Automatic method 
@@ -129,7 +129,7 @@ steps to follow :
 
 -   Enter the lines below in the file created previously.
     Copy / paste works via putty. This script checks
-    the certificate expires and renews it automatically if the
+    the certificate expires and automatically renews it if the
     expiration date is within 30 days. You must replace the
     domain setting.com by your value :
 

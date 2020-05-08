@@ -33,7 +33,7 @@ intensidad usando el interruptor existente, un transmisor Z-Wave o
 directamente desde el botón en el micromódulo.
 
 El nuevo disco Fibaro FGD-212 está equipado con un
-detección inteligente de fuentes de luz que facilita
+detección inteligente de fuente de luz que facilita
 configuración y garantiza una alta compatibilidad del dispositivo. Él
 tiene autoprotección contra sobrecarga y la función de
 inicio suave. En el caso de fuentes de luz no regulables.,
@@ -42,12 +42,12 @@ solo es posible la función ON / OFF (en conexión de 3 hilos).
 Es compatible con todos los tipos de lámparas que admiten variaciones o
 no Además de la función de variación, este micromódulo también puede
 medir el consumo eléctrico de la carga conectada. Los valores
-de consumo instantáneo (en W) y consumo eléctrico total
+consumo instantáneo (en W) y consumo eléctrico total
 (en kWh) se puede ver.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -71,20 +71,20 @@ Las funciones
 
 -   Compatible con todos los controladores Z-Wave y Z-Wave +
 
--   Potencia activa y función de medición de energía
+-   Poder activo y función de medición de energía
 
 -   Funciona con diferentes tipos de interruptores de botón,
     rockero, de tres vías, etc..
 
 -   Función de arranque suave
 
--   Indicador LED para el estado de inclusión, calibración y
+-   LED para indicación del estado de inclusión, calibración y
     Niveles de MENÚ
 
 -   Probador de rango Z-Wave integrado
 
 -   Detecta automáticamente fallas de cableado, alta temperatura,
-    bombilla fundida, sobretensión y sobrecarga
+    bombilla fundida, sobretensiones y sobrecargas
 
 -   Opciones de configuración avanzada
 
@@ -101,11 +101,11 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Comida : 230V +/- 10%, 50Hz
+-   Suministro : 230V +/- 10%, 50Hz
 
 -   El consumo : 1.3W
 
--   Cableado : neutral no necesario
+-   Cableado : neutral no requerido
 
 -   Carga máxima : 50-250W (carga resistiva) o 0.25-1.1A
     (carga inductiva)
@@ -139,7 +139,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Apellido : FGD212 Dimmer 2
+-   Nombre : FGD212 Dimmer 2
 
 -   ID del fabricante : 271
 
@@ -149,14 +149,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -189,7 +189,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -198,7 +198,7 @@ disponibles.
 
 \
 
-![Órdenes](images/fibaro.fgd212/commandes.jpg)
+![Comandos](images/fibaro.fgd212/commandes.jpg)
 
 \
 
@@ -207,14 +207,14 @@ Aquí está la lista de comandos :
 \
 
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
-    luz
+    Iluminación
 
--   Nosotros : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz.
 
 -   Apagado : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
-    luz
+    Iluminación
 
 -   El consumo : Es el comando que permite subir el
     consumo de módulo
@@ -232,12 +232,12 @@ icone
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -315,7 +315,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 

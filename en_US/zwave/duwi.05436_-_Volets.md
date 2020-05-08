@@ -33,7 +33,7 @@ Its main features are :
     or the descent. So it is possible to order both
     directions with any type of voltage, even a neutral.
 
--   The possibility of sending a continuous up / down signal without
+-   The ability to send a continuous up / down signal without
     time limit.
 
 Attention: this module does not send its status to the z-wave controller when
@@ -93,7 +93,7 @@ Module data
 
 -   Mark : Popp / Duwi
 
--   Last name : ZW ESJ Blind Control
+-   Name : ZW ESJ Blind Control
 
 -   Manufacturer ID : 100
 
@@ -103,21 +103,21 @@ Module data
 
 \
 
-Sign in 
+Connection 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Orders](images/duwi.05436/4-Commandes.PNG)
+![Commands](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -159,7 +159,7 @@ Here is the list of commands :
 
 -   Ascend : command to mount completely
 
--   Stop : immediate movement stop
+-   STOP : immediate movement stop
 
 -   Refresh : refresh the current state of the module
 
@@ -196,7 +196,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -225,7 +225,7 @@ The values are coded in hexadecimal in the module and reset
 decimal in Jeedom display.
 
 For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
-for the ascent and 0x12 for the descent. Or, brought back again in
+for ascent and 0x12 for descent. Or, brought back again in
 decimal : 18s for ascent and descent.
 
 To note : forcing a value to zero for this parameter will imply that the

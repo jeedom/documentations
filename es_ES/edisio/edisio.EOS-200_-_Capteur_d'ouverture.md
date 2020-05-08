@@ -9,7 +9,7 @@
 Resumen 
 ======
 
-Colocado en una puerta, ventana, puerta de garaje, cajón, toda apertura, este
+Colocado en una puerta, ventana, puerta de garaje, cajón, todas las aberturas, esto
 sensor compacto y discreto le permitirá conocer el estado
 apertura o cierre de este último.
 
@@ -22,7 +22,7 @@ elemento magnético. El indicador LED integrado señala cualquier cambio
 estado Nivel de batería bajo indicado por 3 "pitidos" audibles en el
 receptor
 
-Las funciones 
+Funciones 
 =========
 
 -   Sensor magnético inalámbrico alimentado por baterías
@@ -39,20 +39,20 @@ Las funciones
 
 -   Información de nivel de batería
 
--   Montaje en la pared con tornillos o cinta de doble cara.
+-   Montaje en pared con tornillos o cinta de doble cara.
 
 Características técnicas 
 ===========================
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Comida : 3VDC (batería de litio ER14250)
+-   Suministro : 3VDC (batería de litio ER14250)
 
 -   Frecuencia : 868.3 MHz
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Alcance en campo libre : 100M
+-   Rango en campo libre : 100M
 
 -   Dimensiones : 25x79x19mm
 
@@ -65,14 +65,14 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Apellido : EOS-200
+-   Nombre : EOS-200
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -83,11 +83,11 @@ Botón "E""
 ----------
 
 Encontrará debajo del botón "E", que es el botón de asociación del
-sensor de temperatura.
+Sensor de temperatura.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Configuracion 
+Configuración 
 -------------
 
 Por defecto, el sensor está configurado en NO (normalmente abierto)
@@ -96,7 +96,7 @@ Por defecto, el sensor está configurado en NO (normalmente abierto)
 
 > **Note**
 >
-> Por lo tanto, deberá configurar su sensor, si desea tener un
+> Por lo tanto, tendrá que configurar su sensor, si desea tener un
 > widget con una puerta cerrada cuando está cerrada.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
@@ -119,13 +119,13 @@ Una vez que su equipo está emparejado, debe obtener esto :
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.
 
-Órdenes 
+Comandos 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos.
 asociado con el módulo :
 
-![Órdenes](images/eos200/eos200.commandes.jpg)
+![Comandos](images/eos200/eos200.commandes.jpg)
 
 Aquí está la lista de comandos :
 
@@ -134,13 +134,13 @@ Aquí está la lista de comandos :
 
 -   Batería : Indica el estado de la batería.
 
-Informacion 
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Órdenes](images/eos200/eos200.informations.jpg)
+![Comandos](images/eos200/eos200.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 

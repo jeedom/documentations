@@ -1,106 +1,106 @@
 Nicht wirklich ein Howto hier, sondern eher eine Sammlung von Tipps und Tricks
 VMware
 
- 
+Fügen Sie Ihre Lizenz hinzu 
 ==================
 
-
-"" :
+Sobald die Verbindung über die Weboberfläche (IP\_ESXI / ui) hergestellt ist, müssen Sie zu gehen
+"Verwalten" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
-"
+Klicken Sie dann auf "Lizenzierung" und klicken Sie auf "Lizenz zuweisen""
 
 ![vmware.tips2](images/vmware.tips2.PNG)
 
-
+Und geben Sie Ihren Lizenzschlüssel ein
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
 > **Note**
 >
-> 
-> 
+> Wenn Sie dies nicht tun, ist Ihr ESXi möglicherweise nicht mehr vorhanden
+> Betrieb nach 60 Tagen
 
- 
+Mounten Sie einen NFS-Datenspeicher mit Synology 
 ========================================
 
+Wir werden hier sehen, wie eine NFS-Freigabe ab einer Synology bereitgestellt wird
+VMware. Dies ermöglicht beispielsweise das Platzieren virtueller Maschinen auf dem
+Synology (die möglicherweise mehr Speicherplatz als das ESXi hat) oder senden Sie die
+Maschinensicherungen in Synology
 
-
-
-
-
- 
+Synologiekonfiguration 
 -------------------------
 
-
-" :
+Sie müssen zum Control Panel gehen und dann "Services de
+Dateien "und aktivieren Sie das Kontrollkästchen" NFS aktivieren "" :
 
 ![vmware.tips4](images/vmware.tips4.PNG)
 
-
-
-
- :
+Klicken Sie dann auf "Freigegebener Ordner" und wählen Sie den Ordner aus
+Teilen (hier Backup), klicken Sie auf Ändern, dann auf "NFS-Autorisierung" und
+endlich auf erstellen (hier habe ich schon eine, deine liste sollte sein
+leer) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
-
-" :
+Dann geben Sie die IP Ihres ESXi ein und geben "Squash" ein
+"Ordnen Sie alle Benutzer dem Administrator zu und validieren Sie sie :
 
 ![vmware.tips6](images/vmware.tips6.PNG)
 
- :
+Wir müssen dann den Freigabepfad wiederherstellen (hier / volume2 / Backup) :
 
 ![vmware.tips7](images/vmware.tips7.PNG)
 
+Hier ist es auf der Synology-Seite fertig, wir werden jetzt auf die ESXi-Seite wechseln
 
-
- 
+ESXi-Konfiguration 
 -----------------------
 
-" :
+Gehen Sie zu "Speicher" :
 
 ![vmware.tips8](images/vmware.tips8.PNG)
 
-" :
+Klicken Sie dann auf "Neue Datenbank" :
 
 ![vmware.tips9](images/vmware.tips9.PNG)
 
-
- :
+Dort wählen Sie "NFS-Datenbank bereitstellen" und tun dies dann
+folgende :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
-
-
- :
+Geben Sie den Namen des zu erstellenden Datenspeichers ein (vermeiden Sie Leerzeichen und
+Sonderzeichen), geben Sie die IP unserer Synology ein und geben Sie den Pfad ein
+Teilen (siehe oben) und schließlich validieren :
 
 ![vmware.tips11](images/vmware.tips11.PNG)
 
- :
+Klicken Sie auf Fertig stellen :
 
 ![vmware.tips12](images/vmware.tips12.PNG)
 
-
+Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf
 "Actualiser").
 
- 
+VAAI Synology Plugin für die NFS-Montage hinzugefügt 
 ==============================================
 
-
-
+Durch Hinzufügen dieses Plugins wird die Hardwarebeschleunigung aktiviert
+NFS-Halterungen (eine Erklärung finden Sie unter
 [hier](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
-
-
- :
+Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden
+(Ich habe die Informationen auf dem Webclient nicht gefunden) und gehe zu Konfiguration →
+Lagerung :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-
-
-⇒ Aktivieren Sie Secure Shell) und stellen Sie dann eine Verbindung über SSH her (die
+Die Installation ist recht einfach, zuerst müssen Sie den Dienst aktivieren
+ESXi SSH (Gehen Sie auf der Weboberfläche zu Aktion ⇒ Dienste
+⇒ Aktivieren Sie Secure Shell) und stellen Sie dann eine Verbindung in SSH oben her (die
 Bezeichner sind die gleichen wie für den Zugriff auf die Schnittstelle.. Dann er
 du tust es einfach :
 
@@ -149,7 +149,7 @@ Klicken Sie dann auf den Link "vSphere Client für Windows herunterladen"" :
 Einmal heruntergeladen, müssen Sie nur die Installation starten (ich passiere
 freiwillig in diesem Teil, weil es ausreicht, alles zu validieren).
 
-Starten Sie dann den VMware vSphere-Client, den Sie haben sollten :
+Starten Sie dann VMware vSphere Client, den Sie haben sollten :
 
 ![vmware.createvm1](images/vmware.createvm1.PNG)
 
@@ -164,7 +164,7 @@ ESXi-Update
 Das Verfahren ist recht einfach, Sie müssen zuerst den Patch wiederherstellen
 gehen [hier](https://my.vmware.com/group/vmware/patch#search) (il
 Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden.. Auf dem
-In der Liste "Produkt auswählen" wird "ESXi (eingebettet und installierbar)" eingefügt
+In der Liste "Produkt auswählen" geben Sie "ESXi (eingebettet und installierbar)" ein
 Verlassen Sie die neueste Version von VMware und führen Sie "Suchen" durch. Dann
 Laden Sie den gewünschten Patch herunter (normalerweise den letzten).. Die Build-Nummer (die
 Die erste Ausgabe, die nicht mit KB beginnt, gibt Ihnen die Version der
@@ -176,7 +176,7 @@ Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
 
 > **Note**
 >
-> Ersetzen Sie den Pfad und den Namen der Postleitzahl entsprechend Ihrer
+> Ersetzen Sie den Pfad und den Postleitzahlnamen entsprechend Ihrer
 > configuration
 
 > **Important**
@@ -194,7 +194,7 @@ NTP-Konfiguration
 ====================
 
 Standardmäßig verwendet das ESXi kein NTP, sodass es nicht aktiviert ist
-Die Zeit und dass die VMs nicht pünktlich sind, ist sehr zu korrigieren
+Die Zeit und die VMs sind nicht pünktlich, um es zu korrigieren ist sehr
 einfach. Gehen Sie in der Webversion zu Verwalten → System →
 Datum und Uhrzeit, dort klicken Sie auf "Einstellungen ändern" :
 
@@ -234,7 +234,7 @@ kann tun (seien Sie vorsichtig zu folgen) :
 -   Öffnen Sie den Port 902 zum ESXi 902
 
 Dann auf dem NAS im Control Panel dann Portal
-Anwendung und Reverse Proxy (bitte beachten Sie, dass DSM 6 unerlässlich ist) :
+Anwendung und Reverse Proxy (Vorsicht, DSM 6 ist wichtig) :
 
 ![vmware.tips19](images/vmware.tips19.PNG)
 
@@ -242,7 +242,7 @@ Klicken Sie auf Erstellen und setzen :
 
 ![vmware.tips20](images/vmware.tips20.PNG)
 
-Unter "Hostname" (auf Quellenebene) müssen Sie den gewünschten DNS eingeben
+Unter "Hostname" (auf Quellenebene) müssen Sie das gewünschte DNS eingeben
 (Zum Beispiel monesxi.mondsn.synology.ich) und in "Hostname" (auf der Ebene
 des Ziels) müssen Sie die IP des ESXi eingeben
 
@@ -256,8 +256,8 @@ des Ziels) müssen Sie die IP des ESXi eingeben
 >
 > Sobald Sie dies getan haben und Ihr DNS richtig zeigt
 > Auf dem NAS können Sie kostenlos ein gültiges SSL-Zertifikat erstellen
-> mit Lassen Sie uns verschlüsseln, indem Sie zum Sécruité ⇒ -Zertifikat gehen und dies tun
-> hinzufügen. Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
+> mit Lassen Sie uns verschlüsseln, indem Sie zu Secrity ⇒ Zertifikat gehen und dies tun
+> Hinzufügen. Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
 > Weisen Sie es Ihrem Reverse-Proxy zu
 
 Um dann auf Ihr ESXi zuzugreifen, benötigen Sie nur Ihren Browser
@@ -293,7 +293,7 @@ Damit ist es notwendig :
 
     Hostname des esxcli-Systems gesetzt --host = esxi1
 
--   Konfigurieren Sie den FQDN :
+-   Konfigurieren Sie die fqdn :
 
 <!-- -->
 

@@ -1,4 +1,4 @@
-Nodon Smart Plug - Smartplug 
+Enchufe inteligente Nodon - Smartplug 
 ====================================
 
 \
@@ -29,22 +29,22 @@ Compatible con Z-Wave® o Z-Wave Plus® o directamente a través de otro
 Controladores Z-Wave® o Z-Wave Plus® como el control remoto suave,
 el interruptor de pared o el Octan Remote NodOn®. Norma alemana
 (Schuko) o francés (Tipo E), el enchufe se puede conectar en 2
-sentido, cabeza arriba o cabeza abajo. Asociado con su diseño fino, estos 2
+sentido, cabeza arriba o cabeza abajo. Asociado con su fino diseño, estos 2
 Las características permiten una fácil integración sin obstrucción
 barriles vecinos en una regleta. Aprendiendo a tomar con sonido
-el controlador solo toma unos segundos. Un botón local permite
+el controlador requiere solo unos segundos. Un botón local permite
 enciende o apaga el enchufe directamente.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
 
--   Detección de pérdida de corriente de red
+-   Detección de pérdida de corriente de línea
 
--   Ergonomique: Posibilidad de conectar la toma de cabeza / cabeza
+-   Ergonomique: Posibilidad de enchufar la cabeza arriba / enchufe de la cabeza
     bas
 
 -   Gestión inteligente de alarmas
@@ -60,7 +60,7 @@ Características técnicas
 
 \
 
--   Comida : 230V AC +/- 10% - 50Hz
+-   Suministro : 230V AC +/- 10% - 50Hz
 
 -   Potencia máxima : 3000W continuo / 3500W cíclico
     (Carga resistiva) Consumo intrínseco : &lt;1W
@@ -74,7 +74,7 @@ Características técnicas
 
 -   Dimensions: 104 \*51 \*36mm
 
--   Garantía de 2 años
+-   2 años de garantia
 
 -   Tipo de la UE
 
@@ -87,7 +87,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Apellido : Smartplug
+-   Nombre : Smartplug
 
 -   ID del fabricante : 357
 
@@ -97,14 +97,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -128,7 +128,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -137,7 +137,7 @@ disponibles.
 
 \
 
-![Órdenes](images/nodon.smartplug/commandes.jpg)
+![Comandos](images/nodon.smartplug/commandes.jpg)
 
 \
 
@@ -148,11 +148,11 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
 
--   Nosotros : Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
--   Estado : Se usa para averiguar si el tomacorriente está alimentado o no
+-   Estado : Se usa para averiguar si la toma de corriente está alimentada o no
     (Detección de falla de energía / desconexión)
 
 \
@@ -167,12 +167,12 @@ el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom Zwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -194,7 +194,7 @@ Detalles del parámetro :
 -   1 : Este parámetro define el estado (ON / OFF) del Smart Plug después de un
     falla de energía o después de la conexión
 
--   2 : Esta configuración le permite configurar los informes de noti ﬁ cación de
+-   2 : Esta configuración le permite configurar los informes de informes de
     corte de energía / retorno, así como los grupos asociados (Grupos
     4, 5, 6, 7, 8). Son posibles varias combinaciones (consulte
     documentación en papel o burbuja de ayuda en libertad). El es
@@ -203,7 +203,7 @@ Detalles del parámetro :
 -   3 : Este parámetro permite activar o desactivar los grupos 2 y 3..
 
 -   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart
-    Enchufe activado). Cuando la configuración está habilitada, no es
+    Enchufe activado). Cuando la configuración está habilitada, no está
     posible apagar el Smart Plug (local o radio)
 
 -   Parámetros 5 a 20 : A través de los parámetros de configuración \# 5 para
@@ -251,10 +251,10 @@ Este módulo tiene 8 grupos de asociación..
     detecta una falla de energía, activa los dispositivos asociados.
 
 -   Grupo 6 - Desactivación por falla de energía cuando el Smart
-    El enchufe detecta fallas de energía, desactiva dispositivos
+    El enchufe detecta una falla de energía, desactiva los dispositivos
     asociados
 
--   Grupo 7: activación en el retorno actual cuando el Smart Plug
+-   Grupo 7 - Activación en el retorno actual cuando el Smart Plug
     detecta un retorno de corriente, activa los dispositivos asociados.
 
 -   Grupo 8 - Desactivación en el retorno actual cuando el Smart Plug
@@ -277,7 +277,7 @@ Bueno saber
 
 -   No tiene sentido divertirse conectando / desconectando el enchufe
     observar la alarma. Esto solo funcionará unas 3 veces. En
-    más allá del enchufe debe permanecer encendido durante un tiempo para recargarse
+    más allá del zócalo debe permanecer encendido durante un tiempo para recargarse
     la batería interna.
 
 \
@@ -287,7 +287,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 
@@ -298,7 +298,7 @@ Faq.
 
 No debería tener la opción de descargar widgets automáticos
 activado. Puede recuperar los widgets móviles y del tablero en el
-mercado : alarma.
+Mercado : alarma.
 
 \
 

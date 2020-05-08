@@ -36,7 +36,7 @@ incandescent, 700 Watts of motor, or 320 Watts (8 x 40 Watts) of
 fluorescent charge.
 
 The Micromodule Mural ON / OFF is a Z-Wave ™ compatible device which is
-intended to work with all Z-Wave ™ compatible networks. he
+designed to work with all Z-Wave ™ compatible networks. he
 can be controlled by remote control, PC software, or any
 which Z-Wave controller in your network.
 
@@ -100,7 +100,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Last name : In Wall On Off
+-   Name : In Wall On Off
 
 -   Manufacturer ID : 96
 
@@ -110,14 +110,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -125,7 +125,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
-> note that this module goes directly into inclusion when
+> note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
 \
@@ -142,7 +142,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -151,7 +151,7 @@ disponibles.
 
 \
 
-![Orders](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Commands](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
 \
 
@@ -164,7 +164,7 @@ Here is the list of commands :
 -   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
-    light
+    Light
 
 \
 
@@ -178,12 +178,12 @@ the same icon.
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

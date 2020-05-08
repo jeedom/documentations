@@ -1,4 +1,4 @@
-| Nachname                     | Hinweis                | Link                     |
+| Name                     | Bemerkung                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | Android IP Webcam       |                         |                          |
 | Alcatel Videotür-Eingangseinheit   |                         |                          |

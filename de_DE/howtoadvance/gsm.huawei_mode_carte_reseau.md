@@ -1,5 +1,5 @@
 Um den Huawei E3372-Schlüssel im Netzwerkkartenmodus zu verwenden, muss der Betriebsmodus des Schlüssels geändert werden.
-Standardmäßig ist es im Modem-Modus konfiguriert, um mit dem SMS-Plugin kompatibel zu sein..
+Standardmäßig ist dies im Modem-Modus konfiguriert, um mit dem SMS-Plugin kompatibel zu sein..
 
 1. Löschen der Standardkonfiguration 
 =============================================

@@ -43,7 +43,7 @@ Technical characteristics
 
 -   Use : Indoors
 
--   Food : 3VDC (Lithium battery ER14250)
+-   Food : 3VDC (Lithium Battery ER14250)
 
 -   Autonomy : Up to 3 years
 
@@ -62,14 +62,14 @@ Module data
 
 -   Mark : Edisio Smart Home
 
--   Last name : ETS-200
+-   Name : ETS-200
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
@@ -79,17 +79,17 @@ refer to this
 > **Tip**
 >
 > Placement is recommended at a height of 150 cm and near
-> the desired felt temperature.
+> the desired temperature.
 
 "E" button" 
 ----------
 
 You will find below the button "E" which is the button of association of the
-temperature sensor.
+Temperature sensor.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
-Temperature delta setting 
+Setting the temperature delta 
 -------------------------------
 
 By default, the temperature delta is programmed at 1 ° C (+/- 10%) in order to
@@ -112,13 +112,13 @@ Once, your associated equipment, you should get this :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Orders 
+Commands 
 ---------
 
 Once your equipment is created, you should get the orders
 associated with the module :
 
-![Orders](images/ets200/ets200.commandes.jpg)
+![Commands](images/ets200/ets200.commandes.jpg)
 
 Here is the list of commands :
 
@@ -132,7 +132,7 @@ Information
 Once your equipment is associated with Jeedom, various information will be
 available :
 
-![Orders](images/ets200/ets200.informations.jpg)
+![Commands](images/ets200/ets200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
@@ -141,6 +141,6 @@ available :
 
 -   Drums : Indicates the battery status of the battery modules
 
--   Status : Returns the status of the module
+-   STATUS : Returns the status of the module
 
 **@Jamsta**

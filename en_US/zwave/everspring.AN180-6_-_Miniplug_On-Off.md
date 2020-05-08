@@ -33,7 +33,7 @@ fluorescent, Led).
 The Mini On / Off Plug is a Z-Wave ™ compatible device which is intended
 to work with all Z-Wave ™ compatible networks. She can
 be controlled by a remote control, PC software, or any
-Z-Wave controller in your network.
+Z-Wave controller for your network.
 
 \
 
@@ -94,7 +94,7 @@ Module data
 
 -   Mark : Everspring
 
--   Last name : Miniplug On / Off
+-   Name : Miniplug On / Off
 
 -   Manufacturer ID : 96
 
@@ -104,14 +104,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -119,7 +119,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
-> note that this module goes directly into inclusion when
+> note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
 \
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Orders](images/everspring.AN180-6/commandes.jpg)
+![Commands](images/everspring.AN180-6/commandes.jpg)
 
 \
 
@@ -154,7 +154,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    socket (On / off)
+    socket (On / Off)
 
 -   We : This is the command that turns on the outlet
 
@@ -172,12 +172,12 @@ the same icon.
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

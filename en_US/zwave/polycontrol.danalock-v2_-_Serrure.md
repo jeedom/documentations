@@ -35,13 +35,13 @@ tablet or smartphone. You will thus control the access of your guests or
 of workers and can effectively monitor your interior.
 Different settings will allow you to control access to your
 House. Danalock has an Autolock function allowing
-automatic entry door lock. Ideal when you don't have
+automatic door lock. Ideal when you don't
 not hands free, for example. In addition, 5 keys are provided. You
 can use them from outside. Installation is quick and easy
 to be carried out regardless of the type of door. The corresponding application
 is compatible for iPhone 4S, Android 4.4 and Smartphone. The Danalock does
 no external power source required. Food
-takes place using batteries with a two-year lifespan. You
+is carried out using batteries with a two-year lifespan. You
 receive an audible signal in case the battery charge level
 is too weak.
 
@@ -68,7 +68,7 @@ rentré.
 
 The Danalock has an average battery life of up to one year, and
 does not require external power. Please be advised that use
-of a Z-Wave home automation controller or box can reduce the lifespan of
+of a Z-Wave home automation controller or box can reduce the service life of
 battery. The battery status is easily visible in the App.
 When the battery reaches 30, 20, 15 and 10 percent, a notification
 is sent by SMS and email.
@@ -80,7 +80,7 @@ family quick and easy access with their Smartphones. To your wife
 cleaning or your guests, time-limited or recurring access and
 receive notifications when your lock is in use and by whom.
 
-**Full house control**
+**Full control of the house**
 
 Develop control of your smart home with a Danalock,
 the perfect initiator for all your home orders. Danalock
@@ -88,7 +88,7 @@ works seamlessly with other home devices
 intelligent, and all communication is highly encrypted - nobody
 can't hack their way into your house.
 
-**Discreet, durable and Danish**
+**Discreet, sustainable and Danish**
 
 Danalock combines the elegance and minimalism of Scandinavian design - with
 solid anodized aluminum bezel and advanced technologies
@@ -157,7 +157,7 @@ Module data
 
 -   Mark : Poly-Control
 
--   Last name : Danalock V2 BTZE
+-   Name : Danalock V2 BTZE
 
 -   Manufacturer ID : 010e
 
@@ -167,14 +167,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -224,7 +224,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -233,7 +233,7 @@ disponibles.
 
 \
 
-![Orders](images/polycontrol.danalock/commandes.jpg)
+![Commands](images/polycontrol.danalock/commandes.jpg)
 
 \
 
@@ -244,7 +244,7 @@ Here is the list of commands :
 -   Status : it is the command which will go up the last action
     executed (open / close)
 
--   To open : it is the command that opens the lock
+-   Open : it is the command which opens the lock
 
 -   To close : it is the command which makes it possible to close the lock
 
@@ -271,7 +271,7 @@ Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -307,7 +307,7 @@ Parameter details :
 -   6 : Deactivate or activate the lock signal or
     unlocking (0 = Deactivate, 1 = Activate.)
 
--   7 : Battery Type : Set the type of battery that
+-   7 : Battery type : Set the type of battery that
     powers the device.
 
 -   8 : Battery alarm : When the battery level is lower

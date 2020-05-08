@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Die ferngesteuerte NodOn®-Steckdose kann über ein Hausautomationssystem gesteuert werden
+Die ferngesteuerte NodOn®-Buchse kann über ein Hausautomationssystem gesteuert werden
 Z-Wave® oder Z-Wave Plus® kompatibel oder direkt über andere
 Z-Wave®- oder Z-Wave Plus®-Controller wie die Soft Remote,
 der Wandschalter oder der Octan Remote NodOn®. Deutscher Standard
@@ -32,7 +32,7 @@ der Wandschalter oder der Octan Remote NodOn®. Deutscher Standard
 spüren, Kopf hoch oder Kopf runter. Verbunden mit seinem feinen Design, diese 2
 Funktionen ermöglichen eine einfache Integration ohne Verstopfung
 benachbarte Fässer auf einer Steckdosenleiste. Lernen mit Ton zu nehmen
-Die Steuerung dauert nur wenige Sekunden. Eine lokale Schaltfläche ermöglicht
+Die Steuerung benötigt nur wenige Sekunden. Eine lokale Schaltfläche ermöglicht
 Schalten Sie den Stecker direkt ein oder aus.
 
 \.
@@ -42,9 +42,9 @@ Funktionen
 
 \.
 
--   Erkennung von Netzstromverlust
+-   Netzstromverlusterkennung
 
--   Ergonomique: Möglichkeit zum Anschließen der Head-Up / Head-Up-Buchse
+-   Ergonomique: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
     bas
 
 -   Intelligentes Alarmmanagement
@@ -60,7 +60,7 @@ Technische Daten
 
 \.
 
--   Essen : 230 V AC +/- 10% - 50 Hz
+-   Versorgung : 230 V AC +/- 10% - 50 Hz
 
 -   Maximale Leistung : 3000 W kontinuierlich / 3500 W zyklisch
     (Widerstandslast) Eigenverbrauch : &lt;1W
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Nodon
 
--   Nachname : Smartplug
+-   Name : Smartplug
 
 -   Hersteller ID : 357
 
@@ -110,7 +110,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > bis das Licht laut Dokumentation rot wird
 > Papier.
 
@@ -128,16 +128,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/nodon.smartplug/commandes.jpg)
+![Befehle](images/nodon.smartplug/commandes.jpg)
 
 \.
 
@@ -145,10 +145,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Wir : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
@@ -167,7 +167,7 @@ das gleiche Symbol.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom Zwave Plugin.
 
 \.
@@ -194,7 +194,7 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Status (EIN / AUS) des Smart Plug nach a
     Stromausfall oder nach dem Anschluss
 
--   2 : Mit dieser Einstellung können Sie die Benachrichtigungsberichte von konfigurieren
+-   2 : Mit dieser Einstellung können Sie die Berichtsberichte von konfigurieren
     Stromausfall / Rückgabe sowie die zugehörigen Gruppen (Gruppen
     4, 5, 6, 7, 8). Es sind mehrere Kombinationen möglich (siehe
     Papierdokumentation oder Hilfe Blase in Jeedom). Er ist
@@ -251,7 +251,7 @@ Dieses Modul hat 8 Zuordnungsgruppen.
     Erkennt ein Stromausfall, aktiviert es die zugehörigen Geräte.
 
 -   Gruppe 6 - Deaktivierung bei Stromausfall Wenn der Smart
-    Stecker erkennt Stromausfall, deaktiviert Geräte
+    Stecker erkennt einen Stromausfall, deaktiviert Geräte
     Mitarbeiter
 
 -   Gruppe 7 - Aktivierung bei aktueller Rückgabe beim Smart Plug
@@ -275,7 +275,7 @@ Gut zu wissen
 
 \.
 
--   Es macht keinen Sinn, Spaß daran zu haben, den Stecker ein- oder auszustecken
+-   Es macht keinen Sinn, Spaß daran zu haben, den Stecker zu stecken oder zu ziehen
     Beobachten Sie den Alarm. Dies funktioniert nur etwa dreimal. Bei
     jenseits der Steckdose muss zum Aufladen eine Weile mit Strom versorgt bleiben
     die interne Batterie.

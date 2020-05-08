@@ -14,7 +14,7 @@ President: ENOXA SAS
 
 Our customer service can be reached by email at contact@jeedom.com
 
-## Host
+## HOST
 
 Jeedom website hosting.com is provided by :
 

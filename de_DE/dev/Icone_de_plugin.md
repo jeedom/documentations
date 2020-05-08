@@ -12,7 +12,7 @@ Es muss im Ordner / plugin-info / gespeichert werden
 
 Diese Datei ist erforderlich.
 
-Wir danken Ihnen im Voraus, dass Sie nicht denselben Farbcode wie die Symbole der offiziellen Jeedom-Plugins verwenden..
+Vielen Dank im Voraus, dass Sie nicht denselben Farbcode wie die Symbole der offiziellen Jeedom-Plugins verwenden..
 
 Für 2020 wird jetzt empfohlen, den Namen nicht mehr unter das Bild zu setzen (achten Sie trotzdem darauf, die Größe des Modells beizubehalten!).
 

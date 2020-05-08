@@ -6,11 +6,11 @@ The possibilities of Jeedom are almost endless, since you can create a lot of th
 
 > Tip
 >
-> The links below point to Core v4.1. Once on the documentation page (User manual or configuration) you can change version in the menu at the top left to switch to the version corresponding to the Core you want.
+> The links below point to the Core v4.1. Once on the documentation page (User manual or configuration) you can change version in the menu at the top left to switch to the version corresponding to the Core you want.
 
 ## Affichage
 
-Jeedom allows to interface a very large number of peripherals together, whether these are based on the Z-Wave, Enocean, Zigbee protocols etc., on APIs thanks to plugins, or directly in the form of scripts. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
+Jeedom allows to interface a very large number of devices together, whether these are based on the Z-Wave, Enocean, Zigbee protocols, etc., on APIs using plugins, or directly in the form of scripts.. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
 
 You can view these devices in several ways :
 
@@ -34,7 +34,7 @@ These objects can represent parts of the house (Living room, Bedroom, Workshop).
 
 > Tips
 >
-> In **Settings → Preferences** you can define on which object you wish to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
+> IN **Settings → Preferences** you can define on which object you wish to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -50,31 +50,31 @@ To interact with our home automation, you need commands ! These are of two types
 
 - The orders *info* :
 These commands store information from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc..
-These commands can be logged in order to keep this information over time in the form of a curve : [Historical](/en_US/core/4.1/history)
+These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.1/history)
 
-These commands can also be used to trigger [scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
+These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
 - The orders *action* :
 These commands allow you to control your actuators. For example, commands **on** and **off** of a controlled outlet will allow you to turn it on and off.
 
 Action commands are usually linked to info commands. Here our take has two actions **on** and **off**, usually related to information **Etat**.
 
-![Orders](images/concept-commands.jpg)
+![Commands](images/concept-commands.jpg)
 
-These two types of controls are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
+These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
 
 ### Équipement
 
 - Physiquement: I have a socket with an on / off button and a status led, in the living room.
 - In Jeedom: I have equipment with two on and off actions and a status info, in the Salon object.
 
-These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create equipment with its controls, which you can name and link to an Object..
+These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create a device with its controls, which you can name and link to an Object..
 
-In terms of display, each order is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widgets](/en_US/core/4.1/widgets).
+In terms of display, each order is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.1/widgets).
 
 These commands are grouped in a tile corresponding to your equipment. And this tile will be displayed on the Dashboard in the Object you have chosen.
 
-![Orders](images/concept-equipment.jpg)
+![Commands](images/concept-equipment.jpg)
 
 ## Conclusion
 

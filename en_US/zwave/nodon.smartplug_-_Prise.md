@@ -32,7 +32,7 @@ the wall switch or the Octan Remote NodOn®. German standard
 sense, head up or head down. Associated with its fine design, these 2
 features allow easy integration without clogging up
 neighboring barrels on a power strip. Learning to take with sound
-controller only takes a few seconds. A local button allows
+controller requires only a few seconds. A local button allows
 turn the plug on or off directly.
 
 \
@@ -42,9 +42,9 @@ Functions
 
 \
 
--   Detection of mains current loss
+-   Line current loss detection
 
--   Ergonomique: Possibility to connect the head-up / head-up socket
+-   Ergonomique: Possibility of plugging the head up / head plug
     bas
 
 -   Intelligent alarm management
@@ -87,7 +87,7 @@ Module data
 
 -   Mark : Nodon
 
--   Last name : Smartplug
+-   Name : Smartplug
 
 -   Manufacturer ID : 357
 
@@ -97,14 +97,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -128,7 +128,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -137,7 +137,7 @@ disponibles.
 
 \
 
-![Orders](images/nodon.smartplug/commandes.jpg)
+![Commands](images/nodon.smartplug/commandes.jpg)
 
 \
 
@@ -167,12 +167,12 @@ the same icon.
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom Zwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -194,7 +194,7 @@ Parameter details :
 -   1 : This parameter defines the state (ON / OFF) of the Smart Plug after a
     power failure or after connection
 
--   2 : This setting allows you to configure the noti ﬁ cation reports of
+-   2 : This setting allows you to configure the reporting reports of
     power cut / return, as well as the associated groups (Groups
     4, 5, 6, 7, 8). Several combinations are possible (refer to
     paper documentation or help bubble in jeedom). It is
@@ -251,7 +251,7 @@ This module has 8 association groups.
     detects a power failure, it activates the associated devices.
 
 -   Group 6 - Deactivation on power failure When the Smart
-    Plug detects power failure, disables devices
+    Plug detects a power failure, it deactivates devices
     associates
 
 -   Group 7 - Activation on current return When the Smart Plug
@@ -298,7 +298,7 @@ Faq.
 
 You should not have the option to download auto widgets
 activated. You can retrieve the mobile and dashboard widgets on the
-market : alarm\_back.
+Market : alarm\_back.
 
 \
 

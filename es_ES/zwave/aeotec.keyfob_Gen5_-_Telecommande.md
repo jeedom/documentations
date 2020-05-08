@@ -28,7 +28,7 @@ El control remoto del llavero Aeon Labs con un diseño moderno y agradable
 tiene 4 botones para controlar todo tipo de dispositivos
 Z-Wave como lámparas, persianas, etc..
 
-Con sus dimensiones muy pequeñas, puede ponerlo fácilmente
+Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
 en tu bolsillo. Fácil de usar y elegante, está equipado con un
 anillo para adjuntarlo a las teclas, lo que lo hace disponible para
 al salir de casa o al regresar a casa.
@@ -38,14 +38,14 @@ gestión de prensas cortas y largas. Este control remoto también puede ser
 bien utilizado como controlador primario o secundario.
 
 Y porque el llavero Keyfob Gen5 es parte del
-Gama genética de Aeotec, supera todo lo que existía antes.
+Gama Gen5 de Aeotec, supera todo lo que existía antes.
 Utiliza el último chip de la serie Z-Wave 500, proporcionando un aumento
 50% de alcance de radio y 250% de velocidad de comunicación más rápida
 rápido en comparación con los productos Z-Wave anteriores.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Comida : 1 batería de litio 3V CR2450
+-   Suministro : 1 batería de litio 3V CR2450
 
 -   Duración de la batería : 1 año
 
@@ -105,7 +105,7 @@ Datos del módulo
 
 -   Hacer : Aeotec
 
--   Apellido : Llavero ZW088 Gen5
+-   Nombre : Llavero ZW088 Gen5
 
 -   ID del fabricante : 134
 
@@ -115,14 +115,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -145,7 +145,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -154,7 +154,7 @@ disponibles.
 
 \
 
-![Órdenes](images/aeotec.keyfob-gen5/commandes.jpg)
+![Comandos](images/aeotec.keyfob-gen5/commandes.jpg)
 
 \
 
@@ -168,7 +168,7 @@ Aquí está la lista de comandos :
 
 2 : Botón 1 pulsación larga
 
-3 : Botón 2 pulsaciones cortas
+3 : Botón 2 presiones cortas
 
 4 : Botón 2 prensas largas
 
@@ -199,7 +199,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -273,7 +273,7 @@ Faq.
 
 \
 
-Este módulo se activa presionando y manteniendo presionado el botón LEARN durante 3 segundos.
+Este módulo se activa presionando el botón APRENDIZAJE durante 3 segundos.
 
 \
 

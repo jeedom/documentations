@@ -5,7 +5,7 @@ Con respecto al intercambio de datos entre Jeedom y EmonCMS (en
 de una forma u otra), encontrará en esta documentación los medios
 para implementarlo.
 
-También está disponible una breve nota para instalar emoncms (esto
+También hay disponible una breve nota para instalar emoncms (esto
 la instalación no se ofrece actualmente de forma nativa en Jeedom)
 
 EmonCMS se puede instalar junto a Jeedom o en otro lugar. Usted puede
@@ -31,9 +31,9 @@ La url de empuje es de la forma :
 
 Con parámetros :
 
--   id : la identificación del feed que se encuentra en emoncms
+-   Identificación : la identificación del feed que se encuentra en emoncms
 
--   apikey : la clave de la API de lectura y escritura para emoncms
+-   apikey : La clave de API de lectura y escritura para emoncms
 
 -   valor : debemos irnos *value* para que Jeedom envíe el
     valor de la información
@@ -56,7 +56,7 @@ Para tomar datos de emoncms en Jeedom, hay dos posibilidades
 -   La segunda posibilidad es usar el complemento Evento emoncms
     para desencadenar una acción en ciertas condiciones. Este metodo
     podría ser útil si tenemos datos calculados o
-    recuperado directamente por emoncms (por ejemplo, OpenBEM) con
+    recuperado directamente por emoncms (por ejemplo OpenBEM) con
     la ventaja de notificar solo cuando sea necesario, sin embargo, el complemento
     el evento no le permite presionar y tendrá que pasar por MQTT
     para conexión Jeedom

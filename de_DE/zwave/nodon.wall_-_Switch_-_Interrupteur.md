@@ -26,7 +26,7 @@ Zusammenfassung
 
 Der NodOn® Wandschalter kann jeden direkt steuern
 Z-Wave®- oder Z-Wave Plus®-kompatibles Gerät wie Stecker
-NodOn® smart oder sogar Szenen über eine Zentrale auslösen
+NodOn® Smart oder Triggerszenen über eine Zentrale
 kompatible Hausautomation.
 
 Der Schalter verfügt über eine Montageplatte zur einfachen Montage
@@ -58,7 +58,7 @@ Technische Daten
 
 \.
 
--   Essen : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -96,7 +96,7 @@ Moduldaten
 
 -   Machen Sie : Nodon
 
--   Nachname : CWS-3-1-01 Wandschalter
+-   Name : CWS-3-1-01 Wandschalter
 
 -   Hersteller ID : 357
 
@@ -137,7 +137,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
@@ -146,7 +146,7 @@ disponibles.
 
 \.
 
-![Bestellungen](images/nodon.wallswitch/commandes.jpg)
+![Befehle](images/nodon.wallswitch/commandes.jpg)
 
 \.
 
@@ -154,10 +154,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Knöpfe        | Unterstützung          | Lang drücken     | Entspannung    | Doppelte Unterstützung   |
+| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -204,7 +204,7 @@ Parameterdetails :
 
 \.
 
--   1-2 : Ermöglicht die Auswahl des Schaltflächenprofils bei Verwendung in
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
@@ -255,7 +255,7 @@ Gut zu wissen
 \.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
-    1 oder 2 Mal nach der Aufnahme aufwachen. Und überprüfen Sie die
+    1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
     Assoziationsgruppe.
 
 \.

@@ -36,7 +36,7 @@ Sobald das Plugin aktiviert ist, haben Sie Zugriff auf seine Konfiguration. Wenn
 Verwenden Sie eine offizielle Jeedom-Box (Mini, Mini +). Bitte nicht berühren
 Konfiguration können Sie jedoch einen Namen in das Feld eingeben
 « Serveur Z-wave nom » (ici Jeebox), même chose si vous êtes sur une
-DIY Installation, aber ohne Remote-Modus. Ansonsten ist die
+DIY-Installation, jedoch ohne Remote-Modus. Ansonsten ist die
 Die Konfiguration muss an Ihre Installationsart angepasst werden
 (Remote-Modus, Openzwave usw.)
 

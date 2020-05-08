@@ -1,5 +1,5 @@
 In order to use the Huawei E3372 key in network card mode, it is necessary to change the operating mode of the key.
-By default, it is configured in Modem mode in order to be compatible with the SMS plugin..
+By default, this is configured in Modem mode in order to be compatible with the SMS plugin..
 
 1.Deleting the default configuration 
 =============================================

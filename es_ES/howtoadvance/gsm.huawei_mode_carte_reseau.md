@@ -1,5 +1,5 @@
-Para utilizar la clave Huawei E3372 en modo de tarjeta de red, es necesario cambiar el modo operativo de la clave.
-Por defecto, está configurado en modo Módem para ser compatible con el complemento de SMS..
+Para usar la clave Huawei E3372 en modo de tarjeta de red, es necesario cambiar el modo operativo de la clave.
+Por defecto, esto está configurado en modo Módem para ser compatible con el complemento de SMS..
 
 1.Eliminar la configuración predeterminada 
 =============================================

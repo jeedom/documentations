@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|
 ||A5-04|||||
 |<img src="../../en_US/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Humidity and temperature radio probe for indoor mounting|Temperature|||
-|<img src="../../en_US/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe + Pilot Humidity and temperature sensor|Temperature|||
+|<img src="../../en_US/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe + Pilot Humidity and temperature probe|Temperature|||
 |<img src="../../en_US/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Humidity and temperature radio probe for outdoor mounting - FAFT60|Temperature||[Buy](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
 
 # A5-06
@@ -43,7 +43,7 @@
 ||A5-09|||||
 |<img src="../../en_US/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|CO2 air quality sensor E4000|Capteur|||
 |<img src="../../en_US/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Co2 Temperature Humidity sensor|Capteur|||
-|<img src="../../en_US/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Insafe + Carbon Co2 Sensor Temperature Humidity|Capteur|||
+|<img src="../../en_US/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Insafe + Carbon Co2 Probe Humidity Temperature|Capteur|||
 |<img src="../../en_US/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Air quality sensor E4000|Capteur|||
 ||Nanosense|P4000 fine particle probe|Capteur|||
 |<img src="../../en_US/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Air quality sensor E4000NG|Capteur|||
@@ -67,7 +67,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/a5-12-00.jpg" width="60" />|Avidsen|Current clamp module|Compteur|||
 |<img src="../../en_US/enocean/images/a5-12-01.jpg" width="60" />|Eltako|65A energy metering module|Compteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2837-eltako-module-de-comptage-d-energie-65a-4010312311059.html)|
-|<img src="../../en_US/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Energy meter module 16A|Compteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2836-eltako-module-de-comptage-d-energie-16a-4010312303184.html)|
+|<img src="../../en_US/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Energy metering module 16A|Compteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2836-eltako-module-de-comptage-d-energie-16a-4010312303184.html)|
 |<img src="../../en_US/enocean/images/a5-12-01.jpg" width="60" />|Avidsen|Teleinfo module|Compteur|||
 |<img src="../../en_US/enocean/images/a5-12-10.jpg" width="60" />|Ewattch|SQUID EnOcean electrical sub-counter - 12 inputs|Compteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2859-ewattch-squid-sous-compteur-electrique-enocean-12-entrees-3770002148045.html)|
 
@@ -100,13 +100,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/enocean/images/d2-01-01.jpg" width="60" />|Avidsen|Boiler module|Contacteur|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
-|<img src="../../en_US/enocean/images/d2-01-08.jpg" width="60" />|Flextron|ALADIN Pro intermediate socket|Prise|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
-|<img src="../../en_US/enocean/images/d2-01-09.jpg" width="60" />|UbiWizz|EnOcean Smart Plug|Prise|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2667-ubiwizz-smart-plug-enocean-schuko.html)|
-|<img src="../../en_US/enocean/images/d2-01-0a.jpg" width="60" />|Nodon|EnOcean Smart Plug|Prise|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2631-nodon-prise-intelligente-enocean-type-eu-3700313920008.html)|
-|<img src="../../en_US/enocean/images/d2-01-0b.jpg" width="60" />|Nodon|Smart plug + metering|Prise|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html)|
-|<img src="../../en_US/enocean/images/d2-01-0c.jpg" width="60" />|Avidsen|Pilot Wire Module|Pilot wire|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
-|<img src="../../en_US/enocean/images/d2-01-0e.jpg" width="60" />|Nodon|Micro Smart Plug|Prise|Make sure that the plug comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/4309-nodon-micro-smart-plug-enocean-prise-fr-3700313921401.html)|
+|<img src="../../en_US/enocean/images/d2-01-01.jpg" width="60" />|Avidsen|Boiler module|Contacteur|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
+|<img src="../../en_US/enocean/images/d2-01-08.jpg" width="60" />|Flextron|ALADIN Pro intermediate socket|Prise|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
+|<img src="../../en_US/enocean/images/d2-01-09.jpg" width="60" />|UbiWizz|EnOcean Smart Plug|Prise|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2667-ubiwizz-smart-plug-enocean-schuko.html)|
+|<img src="../../en_US/enocean/images/d2-01-0a.jpg" width="60" />|Nodon|EnOcean Smart Plug|Prise|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2631-nodon-prise-intelligente-enocean-type-eu-3700313920008.html)|
+|<img src="../../en_US/enocean/images/d2-01-0b.jpg" width="60" />|Nodon|Smart plug + metering|Prise|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html)|
+|<img src="../../en_US/enocean/images/d2-01-0c.jpg" width="60" />|Avidsen|Pilot Wire Module|Pilot wire|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before||
+|<img src="../../en_US/enocean/images/d2-01-0e.jpg" width="60" />|Nodon|Micro Smart Plug|Prise|Make sure that the take comes out of the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/4309-nodon-micro-smart-plug-enocean-prise-fr-3700313921401.html)|
 |<img src="../../en_US/enocean/images/d2-01-0f.jpg" width="60" />|Nodon|EnOcean single switch micromodule|Micromodule|Make sure that the micromodule leaves the learn after inclusion. Otherwise proceed to an exclusion before||
 |<img src="../../en_US/enocean/images/d2-01-0f.jpg" width="60" />|Avidsen|EnOcean single switch micromodule|Micromodule|Make sure that the micromodule leaves the learn after inclusion. Otherwise proceed to an exclusion before||
 |<img src="../../en_US/enocean/images/d2-01-12.jpg" width="60" />|Nodon|EnOcean double switch micromodule|Micromodule|Make sure that the micromodule leaves the learn after inclusion. Otherwise proceed to an exclusion before|[Buy](http://www.domadoo.fr/fr/peripheriques/3341-nodon-micromodule-commutateur-double-enocean-3700313920374.html)|
@@ -184,7 +184,7 @@
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote white|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Z-Wave plus wall switch - Cozi White|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|EnOcean wall switch - Cozi Gray|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Infrared / EnOcean converter with USB port for Harmony Logitech remote control - FIW-USB|Infrarouge|Create as many devices as family of buttons available in the module documentation (for each family an inclusion is necessary)|[Buy](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Infrared / EnOcean converter with USB port for Harmony Logitech remote control - FIW-USB|Infrarouge|Create as many devices as family of buttons available in module documentation (each family must include)|[Buy](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|||||
 |<img src="../../en_US/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Door / window contact with lever - white - FTKE-RW|Ouverture|Choosing the right profile after inclusion|[Buy](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote blue tech|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
@@ -195,7 +195,7 @@
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote white|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Z-Wave plus wall switch - Cozi White|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|EnOcean wall switch - Cozi Gray|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Eltako|Infrared / EnOcean converter with USB port for Harmony Logitech remote control - FIW-USB|Infrarouge|Create as many devices as family of buttons available in the module documentation (for each family an inclusion is necessary)|[Buy](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Eltako|Infrared / EnOcean converter with USB port for Harmony Logitech remote control - FIW-USB|Infrarouge|Create as many devices as family of buttons available in module documentation (each family must include)|[Buy](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.smoke.jpg" width="60" />|Eltako|EnOcean optical smoke detector - FRW-WS|Smoke|Choosing the right profile after inclusion|[Buy](http://www.domadoo.fr/fr/peripheriques/2835-eltako-detecteur-de-fumee-optique-enocean-4010312312308.html)|
 
 # F6-03

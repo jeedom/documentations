@@ -1,18 +1,18 @@
 # Instalación en una VM
 
-Si desea descubrir Jeedom sin riesgo, también puede virtualizarlo en su PC, este es el procedimiento a seguir. No corres riesgos en una VM, la integridad de tu PC está protegida :
+Si desea descubrir Jeedom sin riesgo, también puede virtualizarlo en su PC, este es el procedimiento a seguir. No se arriesga en una máquina virtual, la integridad de su PC está protegida :
 
 ## Descargue e instale VMware Player
 
-Debes descargar el software Virtual Box [AQUÍ](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Debes descargar el software Virtual Box [Aquí](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
 ## Descargar una imagen de Strecht de Debian - netinstall
 
-Descargue una imagen minimalista de Debian 9 Stretch [Aqui](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
+Descargue una imagen minimalista de Debian 9 Stretch [Aquí](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
 
 ## Configurar el entorno VM
 
-Haga clic en nuevo y complete los campos de la siguiente manera :
+Haga clic en nuevo y complete los campos a continuación :
 
 ![VirtualBox1](images/VirtualBox1.PNG)
 
@@ -44,7 +44,7 @@ Es clásico ...
 ![VirtualBox4](images/VirtualBox4.PNG)
 
 -   Elija instalación gráfica
--   Instale el debian preferiblemente sin interfaz gráfica porque inútil. El nombre de usuario no importa. En la mayoría de las pantallas, solo necesita validar la opción predeterminada. Puedes dejar campos vacíos, no está bloqueando.
+-   Instale el debian preferiblemente sin interfaz gráfica porque inútil. El nombre de usuario no importa. En la mayoría de las pantallas, solo tiene que validar la opción predeterminada. Puedes dejar campos vacíos, no está bloqueando.
 -   Para la selección de software :
 ![VirtualBox5](images/VirtualBox5.PNG)
 -   Para Grub, no se preocupe, el sector de arranque es el de la VM, no el de su PC. No hay riesgo de romper nada..

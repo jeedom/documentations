@@ -55,7 +55,7 @@ exclusion.
 
 Das PowerNode-Steckermodul ist mit einem Schutz gegen ausgestattet
 Überströme zum Schutz des angeschlossenen Geräts. Die PowerNode-Buchse wird
-deaktiviert bei defektem Gerät oder
+bei defektem Gerät deaktiviert oder
 Kurzschluss. Zusätzlichen Schutz bietet die Sicherung
 intern befindet sich in der Steckdose.
 
@@ -91,7 +91,7 @@ Technische Daten
 
 \.
 
--   Essen : 250 V AC, 50 Hz
+-   Versorgung : 250 V AC, 50 Hz
 
 -   Maximaler Ladestrom : 10A
 
@@ -126,7 +126,7 @@ Moduldaten
 
 -   Machen Sie : GreenWave
 
--   Nachname : GreenWave \ [1 x Stecker \]
+-   Name : GreenWave \ [1 x Stecker \]
 
 -   Hersteller ID : 153
 
@@ -149,7 +149,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss unter der Steckdose vorhanden.
 
 \.
@@ -166,16 +166,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/greenwave.Powernode1/commandes.jpg)
+![Befehle](images/greenwave.Powernode1/commandes.jpg)
 
 \.
 
@@ -183,14 +183,14 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     prise
 
--   Wir : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht : Es ist die Steuerung, die die momentane Leistung erhöht
+-   Macht : Es ist die Steuerung, die die momentane Kraft erhöht
     verbraucht
 
 -   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
@@ -207,7 +207,7 @@ in einer Taste.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.

@@ -6,7 +6,7 @@ service start
 Installation of Nodered 
 =======================
 
-Here are the commands to launch to install nodered by having a nodejs
+Here are the commands to launch to install nodered with a nodejs
 functional :
 
     sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential

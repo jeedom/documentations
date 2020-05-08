@@ -1,5 +1,5 @@
-OpenGarage is a DIY object but also available mounted on
-which is used in the garage.
+OpenGarage is a DIY type object but also available mounted on
+used in the garage.
 
 It offers the activation of a relay (to open the garage) and a
 distance sensor to check the presence of the car.
@@ -15,7 +15,7 @@ use is :
     http://addropengarage/jc
 
 The result is a json. So use type equipment
-Script and an info command of type json
+Script and info command of type json
 
 For the state of the relay the name of the property of the json : door
 

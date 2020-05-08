@@ -1,19 +1,19 @@
-| Last name            | Type           | Protocol      | Note       | Link           |
+| Name            | Type           | Protocol      | Note       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Weather Channel  | Rubicson / Alecto              |                |                |
-| Atlantic'S     | Detector      | Meiantech      |                |                |
+| Atlantic's     | Detector      | Meiantech      |                |                |
 | MD-210R        | opening    |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| DT-335R DMT    | movement      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| MC-335R DMT    | movement      |                |                |                |
-| Atlantic'S     | Detector   | Meiantech      |                |                |
-| 7380R DMT      | movement      |                |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
+| DT-335R DMT    | Movement      |                |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
+| MC-335R DMT    | Movement      |                |                |                |
+| Atlantic's     | Detector   | Meiantech      |                |                |
+| 7380R DMT      | Movement      |                |                |                |
 | Atlantic's     | 1-button key fob remote control   | Meiantech      |                |                |
 | Blyss 567434   | Smoke detector  |                |                |                |
 | Blyss 582866   | Light switch   |                |                |                |
 | Blyss 582849   | Garage door operator |                |                |                |
-| Blyss 528852   | Actuator of actuators with jacks  |                |                |                |
+| Blyss 528852   | Actuator of actuators with cylinders  |                |                |                |
 | Blyss 582867   | ON / OFF switch + micro-module pack         |                |                |                |
 | Chacon 34131   | Smoke detector  | AC             |                |                |
 | Chacon 54595   | Pack of 3 Chacon sockets + 3-channel remote control + 1 group     | AC             |                |                |
@@ -33,7 +33,7 @@
 | DI.O by Chacon | Detector      | AC             |                |                |
 | 54583          | twilight  |                |                |                |
 | DI-O by Chacon | Detector   | AC             |                |                |
-| 54703          | movement      |                |                |                |
+| 54703          | Movement      |                |                |                |
 | DI.O by Chacon | Remote control 3 | AC             |                |                |
 | 54760          | canals         |                |                |                |
 | DI.O by Chacon | Remote control   | AC             |                | [Buy](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
@@ -47,7 +47,7 @@
 | 54798          |                |                |                |                |
 | DI-O by Chacon | Micro-module   | AC             |                | [Buy](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
 | DS18           | Detector      |                |                | [Buy](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
-| KDI FER-1000W  | Outlet          | Ex of code to switch on the socket 07100102500D01 60             |                |                |
+| KDI FER-1000W  | Outlet          | Ex code to switch on the socket 07100102500D01 60             |                |                |
 | KDI FECT-100   | Remote control   |                |                |                |
 | Homewizad      | Temperature    |                |                |                |
 | HW-TX320       | Humidity with display      |                |                |                |

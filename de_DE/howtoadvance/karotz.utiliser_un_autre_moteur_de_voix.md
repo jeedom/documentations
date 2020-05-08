@@ -32,7 +32,7 @@ Bearbeiten Sie dann die tts-Datei und fügen Sie sie hinzu :
 
     3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
 
-Im Feld "\ $ TTS\_ENGINE in" zu haben :
+In der "Box \ $ TTS\_ENGINE in" zu haben :
 
      Feld $ TTS_ENGINE in
                  1) MP3_ID = $ (GoogleTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
@@ -41,7 +41,7 @@ Im Feld "\ $ TTS\_ENGINE in" zu haben :
                  *) MP3_ID = $ (AcapelaTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE $ MUTE) ;;
     esac
 
-Verwenden Sie 
+Verwendung 
 ===========
 
 Sie müssen nur die URL mit der Zahnradnummer anrufen (hier 3). :

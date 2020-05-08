@@ -46,7 +46,7 @@ COM port to you, see step above) :
 ![gsmonly3](images/gsmonly3.PNG)
 
 A black window will appear (there may occasionally be a
-message "boot…", this is normal, it means that you are well
+message "boot ...", this is normal, it means that you are well
 connected to the GSM key). In this window you have to type then press
 on the "Enter" key" :
 

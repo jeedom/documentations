@@ -9,10 +9,10 @@
 Zusammenfassung 
 ======
 
-Die 4-Kanal e-Trendy Mini-Fernbedienung ist einfach, robust und elegant,
+Die 4-Kanal-Mini-Fernbedienung e-Trendy ist einfach, robust und elegant,
 es wurde geschaffen, um zu gefallen. Es lässt sich leicht an Empfänger anschließen und
 kann Ihre Ein / Aus und dimmbaren Lichter, Motorisierungen steuern,
-Jalousien, Rollläden, Tore, Garagentore. Es hat zwei Modi von
+Jalousien, Fensterläden, Tore, Garagentore. Es hat zwei Modi von
 programmation.
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
@@ -36,7 +36,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Essen : 3VDC (Lithiumbatterie CR2430)
+-   Versorgung : 3VDC (Lithiumbatterie CR2430)
 
 -   Kanäle : 4
 
@@ -53,7 +53,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Nachname : ETC4
+-   Name : ETC4
 
 Allgemeine Konfiguration 
 ======================
@@ -99,7 +99,7 @@ Modus wechseln
 
     -   Halten Sie die Taste "C4" gedrückt"
 
-    -   Drücken Sie einmal die Taste "C1" und halten Sie die Taste gedrückt
+    -   Drücken Sie die Taste "C1" 1x und halten Sie die Taste gedrückt
         "C4 "blinkt die LED 1 Mal
 
 ![mode1](images/etc4/mode1.jpg)
@@ -117,51 +117,51 @@ Assoziation der Fernbedienung mit Jeedom
 =======================================
 
 Die Zuordnung eines Edisio-Senders ist einfach und
-automatisch. Drücken Sie einfach jede Taste
+automatisch. Sie müssen nur jede Taste drücken
 möchte in deinem Jeedom haben.
 
-Sobald Ihre zugehörige Ausrüstung, sollten Sie diese erhalten :
+Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Bestellungen 
+Befehle 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Bestellungen](images/etc4/commandes.jpg)
+![Befehle](images/etc4/commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
 -   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
--   bt02 : Mit diesem Befehl können Sie mit Schaltfläche 2 interagieren
+-   bt02 : Es ist der Befehl, der die Interaktion mit Schaltfläche 2 ermöglicht
 
 -   bt03 : Es ist der Befehl, der die Interaktion mit der Schaltfläche 3 ermöglicht
 
--   bt04 : Es ist der Befehl, der die Interaktion mit der Schaltfläche 4 ermöglicht
+-   bt04 : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
 
 -   Batterie : Zeigt den Batteriestatus an
 
-Informationen 
+Information 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Bestellungen](images/etc4/infos.jpg)
+![Befehle](images/etc4/infos.jpg)
 
--   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   Status : Gibt den Status des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
-Verwenden Sie 
+Verwendung 
 -----------
 
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der
@@ -176,7 +176,7 @@ Faq.
 
 So löschen Sie die Zuordnung eines Schlüssels zu einem Empfänger ?
 
-:   Drücken Sie 5 Sekunden lang auf das "R" des Empfängers, ein einfacher Piepton signalisiert
+:   Drücken Sie 5 Sekunden auf das "R" des Empfängers, ein einfacher Piepton signalisiert
     Deprogrammiermodus aktiviert. Drücken Sie zum Löschen die Taste "C".
     Wiederholen Sie diesen Vorgang für alle zu löschenden Tasten.
 

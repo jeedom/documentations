@@ -9,5 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="fitbit/fitbit_icon.png" class="pluginLogo" width="100" />|Fitbit||[Dokumentation](fitbit/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1018)|
-|<img src="sevenhugs/sevenhugs_icon.png" class="pluginLogo" width="100" />|SevenHugs||[Dokumentation](sevenhugs/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2492)|
+|<img src="fitbit/fitbit_icon.png" class="pluginLogo" width="100" />|Fitbit|Plugbit für Fitbit|[Dokumentation](fitbit/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1018)|
+|<img src="sevenhugs/sevenhugs_icon.png" class="pluginLogo" width="100" />|SevenHugs|SevenHugs Plugin|[Dokumentation](sevenhugs/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2492)|

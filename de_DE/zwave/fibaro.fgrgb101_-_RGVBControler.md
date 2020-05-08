@@ -33,7 +33,7 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   4 Dimmerausgänge (PWM) zur Steuerung :
 
--   \* oder 1 Kanal RGB + weiße LED (RGBW) 12 / 24V
+-   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 
 -   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
 
@@ -52,7 +52,7 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 Funktionen 
 ---------
 
--   12 / 24V-Niederspannungsleuchten (Halogen oder LED) steuern
+-   Bestellen Sie Niederspannungslichter 12 / 24V (Halogen oder LED)
 
 -   Wird hinter einem vorhandenen Switch installiert
 
@@ -69,7 +69,7 @@ Funktionen
 Technische Daten 
 ---------------------------
 
--   Essen : 12 V oder 24 V DC
+-   Versorgung : 12 V oder 24 V DC
 
 -   Maximale Ausgangsleistung :
 
@@ -108,7 +108,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Nachname : Fibaro FGRGB-101 RGBW
+-   Name : Fibaro FGRGB-101 RGBW
 
 -   Hersteller ID : 271
 
@@ -146,30 +146,30 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/fibaro.fgrgb101/commande_1.png)
+![Befehle](images/fibaro.fgrgb101/commande_1.png)
 
-![Bestellungen](images/fibaro.fgrgb101/commande_2.png)
+![Befehle](images/fibaro.fgrgb101/commande_2.png)
 
 \.
 
 Hier ist die Liste der Befehle :
 
--   Farbe: : Mit diesem Befehl können Sie den Farbcode auf einstellen
+-   Farbe : Mit diesem Befehl können Sie den Farbcode auf einstellen
     afficher
 
 -   Schornstein : Es ist der Befehl, der eine Atmosphäre von simuliert
-    Kamin
+    Schornstein
 
 -   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
 
--   Morgendämmerung : Es ist der Befehl, der eine Aude-Atmosphäre simuliert
+-   Morgendämmerung : Dies ist der Befehl, der eine Aude-Atmosphäre simuliert
     (progressiver Sonnenaufgang)
 
 -   Verblassen : Dies ist der Befehl, der das gesamte simuliert
@@ -185,7 +185,7 @@ Hier ist die Liste der Befehle :
     warmweiße Farbe, wenn der Farbstreifen dies zulässt. (das
     Befehl ist standardmäßig nicht sichtbar)
 
--   Wir : Dies ist der Befehl, der den Streifen auf dem Bildschirm einschaltet
+-   Ein : Dies ist der Befehl, der den Streifen auf dem Bildschirm einschaltet
     letzte Farbe wählt vor
 
 -   Aus : Dies ist der Befehl, der das Banner ausschaltet
@@ -201,7 +201,7 @@ icone
 ### Konfiguration des Moduls 
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.

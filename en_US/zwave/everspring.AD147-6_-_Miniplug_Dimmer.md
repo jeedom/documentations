@@ -31,7 +31,7 @@ only with bulbs. With a voltage of 220 - 240 V, this
 Dimmer socket can support a load from 6 W to 250 W.
 
 The Mini Dimmer Plug is a Z-Wave ™ compatible device that is
-intended to work with all Z-Wave ™ compatible networks. She
+designed to work with all Z-Wave ™ compatible networks. She
 can be controlled by a remote control, PC software, or any
 which Z-Wave controller in your network.
 
@@ -92,7 +92,7 @@ Module data
 
 -   Mark : Everspring
 
--   Last name : Miniplug Dimmer
+-   Name : Miniplug Dimmer
 
 -   Manufacturer ID : 96
 
@@ -102,14 +102,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -117,7 +117,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
-> note that this module goes directly into inclusion when
+> note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
 \
@@ -134,7 +134,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -143,7 +143,7 @@ disponibles.
 
 \
 
-![Orders](images/everspring.AD147-6/commandes.jpg)
+![Commands](images/everspring.AD147-6/commandes.jpg)
 
 \
 
@@ -163,7 +163,7 @@ Here is the list of commands :
 
 \
 
-Note that on the dashboard, the Status, ON / OFF, Intensity info is
+Note that on the dashboard, the status information, ON / OFF, intensity is
 found on the same icon.
 
 \
@@ -173,12 +173,12 @@ found on the same icon.
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

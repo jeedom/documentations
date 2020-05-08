@@ -37,7 +37,7 @@ mouvement).
 Este detector universal de inundación y temperatura puede ser alimentado
 por batería o por una fuente de alimentación externa de 12 o 24 VCC. Cuando es
 conectada a una fuente de alimentación externa, la batería sirve como fuente
-energía de emergencia.
+poder de emergencia.
 
 Gracias a su sensor de temperatura puedes controlar la temperatura de
 tu suelo. Es resistente al agua, en caso de inundación flota sobre la superficie de
@@ -49,11 +49,11 @@ alarma existente. Un LED frontal para verificar el estado del
 FGFS-101.
 
 Este sensor incorpora un probador de rango de red Z-Wave, que le permite
-asegura el correcto funcionamiento del sensor durante la instalación.
+asegura el correcto funcionamiento del sensor durante su instalación.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -79,7 +79,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   El módulo puede ser alimentado externamente : 12 - 24 VDC
+-   El módulo puede ser alimentado externamente : 12-24 VDC
 
 -   Tipo de batería : CR123A
 
@@ -91,7 +91,7 @@ Características técnicas
 
 -   Tensión máxima soportada en la salida : 40V (CA o CC)
 
--   Frecuencia : 868,42 MHz
+-   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
@@ -127,14 +127,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -158,7 +158,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -167,7 +167,7 @@ disponibles.
 
 \
 
-![Órdenes](images/fibaro.fgfs101/commandes.jpg)
+![Comandos](images/fibaro.fgfs101/commandes.jpg)
 
 \
 
@@ -204,7 +204,7 @@ dependiendo de su instalación. Esto requiere pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -233,12 +233,12 @@ Detalles del parámetro :
 -   2 \. Elección del tipo de alarma.. Valor :
 
         0 : Alarma audible y visual desactivada
-        1 : Alarma audible desactivada y alarma visual activada
+        1 : Alarma sonora desactivada y alarma visual activada
         2 : Alarma sonora activada y alarma visual desactivada
         3 : Alarma audible y visual activada.
 
 -   10 \. Tiempo de transferencia entre dos lecturas de temperatura. : 1 a 65,535 s
-    (300 por defecto). Tenga cuidado de no poner un valor de acarreo también
+    (300 por defecto). Tenga cuidado de no poner un valor de arrastre también
     muy juntos bajo pena de ver la batería del módulo derretirse
     velocidad ! (Se recomienda 1800)
 
@@ -248,7 +248,7 @@ Detalles del parámetro :
     estos últimos.
 
 -   50 \. Configurar la alarma de baja temperatura : de -10000 a + 10000
-    (1500 por defecto = 15 ° C) Activa una alarma cuando el
+    (1500 por defecto = 15 ° C) Se utiliza para activar una alarma cuando el
     la temperatura cae por debajo de cierto umbral.
 
 -   51.Configurar la alarma de alta temperatura : de -10000 a + 10000
@@ -280,10 +280,10 @@ asociado al menos con los grupos 1, 4 y 5:
 Bueno saber 
 ------------
 
-Alimentado desde el exterior, este módulo puede actuar como repetidor
+Alimentado desde el exterior, este módulo puede usarse como repetidor
 Onda Z (información no confirmada actualmente)
 
-Cableado para alimentación externa. \
+El cableado para una fuente de alimentación externa. \
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 

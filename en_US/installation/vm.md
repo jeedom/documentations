@@ -4,7 +4,7 @@ If you want to discover Jeedom without risk, you can also virtualize it on your 
 
 ## Download and install VMware Player
 
-You must download the Virtual Box software [HERE](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+You must download the Virtual Box software [Here](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
 ## Downloading a Debian strecht image - netinstall
 
@@ -19,7 +19,7 @@ Click on new and fill in the fields as below :
 -   Click on next, adapt the memory size in relation to your system (1024 are sufficient)
 -   Click next, create a virtual disk now
 -   Click Create, choose VDI
--   Click next, dynamically allocated
+-   Click on next, dynamically allocated
 -   Click on next, Choose a size for the space (4GB is enough)
 -   Click on create
 
@@ -44,7 +44,7 @@ It's classic…
 ![VirtualBox4](images/VirtualBox4.PNG)
 
 -   Choose Graphical install
--   Install the debian preferably without graphical interface because useless. Username doesn't matter. In most screens, you just need to validate the default choice. You can leave empty fields, it is not blocking.
+-   Install the debian preferably without graphical interface because useless. Username doesn't matter. In most screens, you just have to validate the default choice. You can leave empty fields, it is not blocking.
 -   For software selection :
 ![VirtualBox5](images/VirtualBox5.PNG)
 -   For Grub, do not worry, the boot sector is that of the VM, not that of your PC. No risk of breaking anything.

@@ -1,6 +1,6 @@
 It is important to have backups of your VMs and it is a point not to
 especially not neglect, not to mention hardware failures you can
-one day needing to go back to a backup following a bad
+one day needing to return to a backup following a bad
 manipulation or a problem following an update. Be careful here we
 is talking about the complete image of VMs, it's not just an application backup,
 it will therefore have a fairly large size.
@@ -152,13 +152,13 @@ Here is another possibility for the command line :
 
     /vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
-Automatic launch of backups 
+Automatic backup launch 
 =================================
 
 You must add the command line to the crontab but under VMware the
-crontab is a bit special and mostly overwritten at each start. For
+crontab is a bit special and especially overwritten at each start. For
 avoid this so you have to add a little script that will update the
-crontab at boot (don't worry it's pretty simple and fast),
+crontab at boot (don't worry it's pretty simple and fast), in
 SSH on the ESXi do :
 
     vi /etc/rc.local.d/local.sh

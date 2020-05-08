@@ -101,7 +101,7 @@ Module data
 
 -   Mark : Zipato
 
--   Last name : Zipato Mini Keypad RFID
+-   Name : Zipato Mini Keypad RFID
 
 -   Manufacturer ID : 151
 
@@ -111,14 +111,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -143,7 +143,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -160,13 +160,13 @@ Here is the list of commands :
 
 \
 
--   Action : it is the command which will go up the home / away (5 for away 6
+-   ACTION : it is the command which will go up the home / away (5 for away 6
     for home)
 
 -   Sabotage : this is the sabotage command (it is triggered in
     tearing out)
 
--   Coded : displays the badge or keypad code when the code entered
+-   CODED : displays the badge or keypad code when the code entered
     is not in one of the memories
 
 -   Drums : it's the battery command

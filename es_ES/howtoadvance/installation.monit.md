@@ -1,7 +1,7 @@
 Monit es un servicio de supervisión de servicio. El cuida
 compruebe que todavía se ha iniciado un servicio.
 
-Para esto indicamos los criterios de evaluación y las acciones para
+Para ello indicamos los criterios de evaluación y las acciones para
 prendre.
 
 Instalación de Monit 
@@ -60,4 +60,4 @@ Supervisión APCupsd
     compruebe el proceso apcupsd con pidfile /var/run/apcupsd.pid
        programa de inicio = "/ etc / init.d / apcupsd start"
        detener programa = "/ etc / init.d / apcupsd stop"
-          si falla el puerto 3551 por 2 ciclos, entonces alerta
+          si falla el puerto 3551 durante 2 ciclos, entonces alerta

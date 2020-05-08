@@ -7,7 +7,7 @@ Detector de apertura Fibaro - FGK-101
 
 \
 
-![módulo](images/fibaro.fgk101-DS18B20/module.jpg)
+![Modulo](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -24,23 +24,23 @@ Resumen
 
 \
 
-Este detector compatible con batería y compatible con Z-Wave tiene un sensor
+Este detector compatible con baterías y compatible con Z-Wave tiene un sensor
 Reed, un interruptor de proximidad con funcionamiento magnético, que
 detecta la apertura de una puerta o ventana cuando el
 dos elementos son distantes.
 
 El dispositivo consta de una parte con un imán (la parte
-móvil), fijo en la puerta o ventana, así como en la unidad
+móvil), conectado a la puerta o ventana, así como a la unidad
 principal colocado en la parte fija de la ventana / puerta con
 tornillo o adhesivo. Cuando las dos partes ya no son opuestas, un
 La señal de radio Z-Wave se envía automáticamente.
 
 Además, este detector tiene una entrada analógica que permite
 conecte una sonda de temperatura DS18B20 de 1 cable. Este detector tiene
-también desde una entrada cableada, por lo que puede usarse como
+también desde una entrada cableada, por lo que se puede usar como
 transmisor universal : dejar de lado su contacto magnético, y
 conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de su
-elección como un detector de humo, gas o monóxido de carbono,
+elección como detector de humo, gas o monóxido de carbono,
 etc.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
@@ -49,7 +49,7 @@ existant.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -80,9 +80,9 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Color: : Blanco (FGK-101/102/103/104/105/106/107 según el color)
+-   Color : Blanco (FGK-101/102/103/104/105/106/107 según el color)
 
--   Comida : Batería ER14250 (1 / 2AA) 3.6V
+-   Suministro : Batería ER14250 (1 / 2AA) 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
@@ -101,7 +101,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Apellido : Fibaro FGK-101 con sonda de temperatura (DS18B20)
+-   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
 -   ID del fabricante : 271
 
@@ -111,14 +111,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -150,7 +150,7 @@ disponibles.
 
 \
 
-![Órdenes](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Comandos](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
 \
 
@@ -161,7 +161,7 @@ Aquí está la lista de comandos :
 -   Estado : es el comando que elevará el estado abierto o cerrado del
     module
 
--   Batería : Es el comando que permite devolver el estado de
+-   Batería : es el comando que permite subir el estado del
     batterie
 
 \
@@ -187,7 +187,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -215,7 +215,7 @@ Detalles del parámetro :
 -   2: permite elegir si el led azul debería parpadear al abrir y
     cerrando tu puerta por ejemplo
 
--   3: se utiliza para definir el tipo de contacto conectado al bloque de terminales (IN)
+-   3: se usa para definir el tipo de contacto conectado al bloque de terminales (IN)
 
 -   5: no se recomienda cambiar esta configuración a menos que sepa por qué
     (define el tipo de señal enviada al grupo de asociación 1)
@@ -228,7 +228,7 @@ Detalles del parámetro :
 -   12: permite ajustar la sensibilidad al cambio de temperatura (si
     una sonda de 1 cable está conectada al módulo)
 
--   13: le permite configurar el modo de transmisión de envío de
+-   13: permite configurar el envío en modo broadcast de las señales de
     temperatura y sabotaje
 
 -   14: activa la función de activación de escena
@@ -259,7 +259,7 @@ Bueno saber
 
 > **Tip**
 >
-> Este módulo es muy complicado al despertar y requiere un muy
+> Este módulo es muy meticuloso al despertar y requiere un muy
 > fuerte proximidad al controlador cuando está incluido
 
 \
@@ -289,7 +289,7 @@ Faq.
 
 \
 
-Este módulo se activa presionando uno de los botones de sabotaje 3 veces. Pero
+Este módulo se activa presionando 3 veces en uno de los botones de manipulación. Pero
 el otro botón de sabotaje debe ser presionado.
 
 \

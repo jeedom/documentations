@@ -26,17 +26,17 @@ Resumen
 
 El interruptor de pared NodOn® puede controlar directamente cualquier
 Dispositivo compatible con Z-Wave® o Z-Wave Plus®, como un enchufe
-NodOn® inteligente o incluso disparar escenas a través de una central
+NodOn® smart o disparar escenas a través de una central
 domótica compatible.
 
-El interruptor tiene una placa de montaje para facilitar el montaje.
+El interruptor tiene una placa de montaje para un fácil montaje.
 en la casa: usando los tornillos de una olla empotrada, por
 atornillar a la pared, o simplemente pegándolo con adhesivos
 doble cara en la parte posterior del plato.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -58,7 +58,7 @@ Características técnicas
 
 \
 
--   Comida : Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
@@ -75,7 +75,7 @@ Características técnicas
 
 -   Dimensiones : 80 \*80 \*15mm
 
--   Garantía de 2 años
+-   2 años de garantia
 
 -   EN 60950-1:2006 + A11:2009 + A1:2010 + A12:2011 + A2:2013
 
@@ -96,7 +96,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Apellido : CWS-3-1-01 Interruptor de pared
+-   Nombre : CWS-3-1-01 Interruptor de pared
 
 -   ID del fabricante : 357
 
@@ -106,14 +106,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -137,7 +137,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -146,7 +146,7 @@ disponibles.
 
 \
 
-![Órdenes](images/nodon.wallswitch/commandes.jpg)
+![Comandos](images/nodon.wallswitch/commandes.jpg)
 
 \
 
@@ -157,7 +157,7 @@ Aquí está la lista de comandos :
 -   Botones : es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones        | Apoyo          | Pulsación larga     | Relajación    | Doble apoyo   |
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -187,7 +187,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -204,7 +204,7 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir el perfil del botón cuando se usa en
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
@@ -265,7 +265,7 @@ Despertador
 
 \
 
-Para activar este módulo, solo presione uno de estos botones
+Para activar este módulo, simplemente presione uno de estos botones
 
 \
 

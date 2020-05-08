@@ -13,11 +13,11 @@ Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo,
 el sensor de movimiento detecta una presencia, el cambio de estado es
 instantané.
 
-Gracias a su amplio ángulo de visión y a su alcance, permite asegurar
+Gracias a su amplio ángulo de visión y su alcance, permite asegurar
 un gran perímetro. El indicador LED integrado señala cualquier cambio
 estado.
 
-Las funciones 
+Funciones 
 =========
 
 -   Detecta movimiento, incluso en completa oscuridad.
@@ -39,13 +39,13 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Comida : 3VDC (batería de litio ER14250)
+-   Suministro : 3VDC (batería de litio ER14250)
 
 -   Frecuencia : 868.3 MHz
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Alcance en campo libre : 100M
+-   Rango en campo libre : 100M
 
 -   Rango de detección : 6M
 
@@ -60,14 +60,14 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Apellido : EMS-200
+-   Nombre : EMS-200
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -77,7 +77,7 @@ referirse a esto
 > **Tip**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
-> la temperatura deseada del fieltro.
+> la temperatura deseada.
 
 Botón "E"" 
 ----------
@@ -120,13 +120,13 @@ Una vez que su equipo está emparejado, debe obtener esto :
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.
 
-Órdenes 
+Comandos 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos.
 asociado con el módulo :
 
-![Órdenes](images/ems200/ems200.commande.jpg)
+![Comandos](images/ems200/ems200.commande.jpg)
 
 Aquí está la lista de comandos :
 
@@ -135,13 +135,13 @@ Aquí está la lista de comandos :
 
 -   Batería : Indica el estado de la batería.
 
-Informacion 
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Órdenes](images/ems200/ems200.informations.jpg)
+![Comandos](images/ems200/ems200.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 

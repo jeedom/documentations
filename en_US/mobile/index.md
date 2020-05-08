@@ -6,18 +6,18 @@ Jeedom can be used on Mobile in two ways.
 
 Jeedom adopts a specific version on mobile and tablet. You access it from the same address, in a browser on Mobile (Firefox, Chrome, Safari, etc.).
 
-This adapted version is also simplified, for the sake of display and performance.
+This adapted version is also simplified, for display and performance reasons.
 
 ![Web App](images/webApp.png)
 
-- Equipment : Access the dashboard by object. You can also view the Summary.
-- Posts : View message center.
-- Views : Access your Views.
-- Designs : Access your Design or 3D Design. (The display of a Design is full screen, click with three fingers to return to the home).
+- Equipments : Access the dashboard by object. You can also view the Summary.
+- Messages : View message center.
+- View : Access your Views.
+- Designs : Access your Design or 3D Design. (The display of a Design is full screen, click with three fingers to return to the home page).
 - Scenario : Display of the tiles of your scenarios, by group, with the possibility of activating / deactivating, stopping / starting. By clicking on the title of the script, you will access its log.
 - Analysis : Access the Timeline, Logs, Equipment Analysis, Crons, Demons and Health.
-- Other : Switch between the main and alternative themes, access the Desktop version, Force the update, access the documentation, about, or disconnect.
-- Plugins : Some plugins may have a dedicated WebApp display. They will be accessible here.
+- Other : Switch between the main and alternative themes, access the Desktop version, Force the update, access the documentation, about, or log out.
+- Plugins : Some plugins may have a dedicated WebApp display. They will be available here.
 
 > Tips
 >

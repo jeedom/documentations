@@ -32,14 +32,14 @@ an einer Tür oder einem Fenster mit dem Magneten an der Tür anbringen
 
 Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
 Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
-Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a ausgenutzt werden
+Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
 Sirene oder von einer Hausautomationsbox zum Beispiel). Der Sensor kann auch
 für die automatische Lichtsteuerung verwendet werden, abhängig von der
 Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
 Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
 und der Raum ist dunkel.
 
-Der Detektor erhöht auch die Helligkeit und Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
 im Falle einer wesentlichen Änderung und jedes Mal das Öffnen / Schließen
 erkannt wird.
 
@@ -56,7 +56,7 @@ Funktionen
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
 
--   Übernimmt zur Unterstützung den aktuellen Z-Wave 400series-Chip
+-   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
     Mehrkanalbetrieb und mehr Datendurchsatz
     hoch (9,6 / 40 / 100kbps)
 
@@ -85,7 +85,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Essen : 1 CR123A 3V Batterie
+-   Versorgung : 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
 
@@ -122,7 +122,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Nachname : PST02-C Tür / Fenster 3 in 1 Sensor
+-   Name : PST02-C Tür / Fenster 3 in 1 Sensor
 
 -   Hersteller ID : 316
 
@@ -162,16 +162,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/philio.pst02c/commandes.jpg)
+![Befehle](images/philio.pst02c/commandes.jpg)
 
 \.
 
@@ -179,7 +179,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Öffnen : Es ist der Befehl, der eine Erkennung auslöst
+-   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
     d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
@@ -244,7 +244,7 @@ Parameterdetails :
 
 -   7: personalisierte Multisensor-Betriebsart (siehe
     auf der Dokumentation des Herstellers) Empfohlener Wert : 20 (für
-    
+    die funktionale Öffnung haben)
 
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
@@ -255,10 +255,10 @@ Parameterdetails :
 -   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
     (eine Einheit = Parameter 20)
 
--   12: Hier können Sie die Dauer zwischen zwei automatischen definieren
+-   12: Hier können Sie die Dauer zwischen zwei Auto definieren
     Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
 
--   13: Hier können Sie die Dauer zwischen zwei automatischen definieren
+-   13: Hier können Sie die Dauer zwischen zwei Auto definieren
     Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
 
 -   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
@@ -276,7 +276,7 @@ Parameterdetails :
 
 \.
 
-Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
 indispensable.
 
 \.

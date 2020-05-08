@@ -53,7 +53,7 @@ bright which gives different information depending on its color :
 sockets on or off, limited radio range, inclusion mode and
 exclusion.
 
-The PowerNode plug module is equipped with a protection against
+The PowerNode plug module is equipped with protection against
 overcurrents to protect the connected device. The PowerNode socket will
 deactivated in the event of a faulty device or
 short circuit. Additional protection is provided by the fuse
@@ -126,7 +126,7 @@ Module data
 
 -   Mark : GreenWave
 
--   Last name : GreenWave \ [1 x plug \]
+-   Name : GreenWave \ [1 x plug \]
 
 -   Manufacturer ID : 153
 
@@ -136,14 +136,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -166,7 +166,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -175,7 +175,7 @@ disponibles.
 
 \
 
-![Orders](images/greenwave.Powernode1/commandes.jpg)
+![Commands](images/greenwave.Powernode1/commandes.jpg)
 
 \
 
@@ -207,12 +207,12 @@ in one button.
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

@@ -19,7 +19,7 @@ Apache-Konfiguration
 Damit der Let'sEncrypt-Prozess erfolgreich abgeschlossen werden kann, ist dies der Fall
 notwendig, um die drei folgenden Schritte vorher auszuführen :
 
-Achtung, es ist notwendig, Port 80 am Router (ISP) zu öffnen. ! 
+Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen. ! 
 
 -   Aktivieren Sie das Apache-SSL-Modul der Jeedom-Box.
 
@@ -37,7 +37,7 @@ Aktivierung des virtualHost- und SSL-Moduls
 
     a2enmod ssl
     a2ensite default-ssl.conf
-    Service Apache2 Neustart
+    apache2 Neustartdienst
 
 > **Note**
 >
@@ -76,7 +76,7 @@ Nginx.
     ./ letsencrypt-auto certonly - E-Mail email @ domain.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
 
 Sie müssen die E-Mail- und Domain-Parameter durch Ihre Werte ersetzen,
-sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen die hinzufügen
+sowie den Pfad zum Stammverzeichnis des Servers. Sie müssen das hinzufügen
 zwei HTTPS-Konfigurationszeilen in der Nginx-Konfiguration :
 
     vi / etc / nginx / sites-enabled / default
@@ -105,7 +105,7 @@ Die Verlängerung erfolgt mit der Bestellung :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-Nach Ablauf der Frist erhalten Sie automatisch eine E-Mail
+Sie erhalten automatisch eine E-Mail, wenn die Frist abgelaufen ist.
 Zertifikat, das Sie daran erinnert, diesen Befehl zu starten.
 
 Automatische Methode 
@@ -131,7 +131,7 @@ Schritte zu folgen :
     Kopieren / Einfügen funktioniert über Kitt. Dieses Skript prüft
     Das Zertifikat läuft ab und erneuert es automatisch, wenn das
     Das Ablaufdatum liegt innerhalb von 30 Tagen. Sie müssen die ersetzen
-    Domain-Einstellung.com nach Ihrem Wert :
+    Domäneneinstellung.com nach Ihrem Wert :
 
 <!-- -->
 

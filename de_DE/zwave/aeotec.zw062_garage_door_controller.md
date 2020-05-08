@@ -47,7 +47,7 @@ Funktionen
 
 -   Lokale Türsteuerung über integrierte Taste.
 
--   Sendet Öffnungs- / Schließwarnungen an den Z-Wave-Controller.
+-   Sendet Warnungen zum Öffnen / Schließen an den Z-Wave-Controller.
 
 -   Akustische und visuelle Warnungen zum Öffnen / Schließen.
 
@@ -79,7 +79,7 @@ Technische Daten
 
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
--   Essen : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Pile
+-   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Pile
     Lithium 3V 800mA CR2
 
 -   Standby-Verbrauch : 1W
@@ -88,7 +88,7 @@ Technische Daten
 
 -   Maximale Lautstärke : 105 dB
 
--   Unterstützte Audioformate : MP3 und WMV mit einer Frequenz von 320 Kbit / s
+-   Unterstützte Audioformate : mp3 und WMV mit einer Frequenz von 320Kbps
 
 -   Frequenz : 868,42 MHz
 
@@ -109,7 +109,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Nachname : Garagentorsteuerung (ZW062)
+-   Name : Garagentorsteuerung (ZW062)
 
 -   Hersteller ID : 134
 
@@ -132,7 +132,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Z-Wave gemäß seiner Papierdokumentation.
 
 \.
@@ -149,16 +149,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Befehle](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 \.
 
@@ -261,7 +261,7 @@ Die Kalibrierung ist abgeschlossen
 
 Sabotage zurückgesetzt:
 
--   1 : Der Sensor muss ordnungsgemäß befestigt sein.
+-   1 : Der Sensor muss ordnungsgemäß angebracht sein.
 
 -   2 : Aktivieren Sie Parameter 41 unter "Alarmzustand entlasten"".
 

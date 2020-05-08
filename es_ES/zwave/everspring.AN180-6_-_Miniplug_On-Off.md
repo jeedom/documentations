@@ -1,4 +1,4 @@
- 
+Everspring Miniplug On / Off - AN180-6 
 ====================================
 
 \
@@ -24,20 +24,20 @@ Resumen
 
 \
 
+El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
+apagar las luces y el equipo eléctrico de su
+casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
+Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
+fluorescente, Led).
 
-
-
-,
-.
-
-
-. 
-
-.
+El Mini On / Off Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
+para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
+ser controlado por un control remoto, software de PC o cualquier
+Controlador Z-Wave para su red.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -47,16 +47,16 @@ Las funciones
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y
     la carga a la orden
 
--   
-    
+-   Función ON / OFF para controlar lámparas o dispositivos (no
+    variación)
 
--   
+-   Control de carga local mediante botón integrado.
 
 -   Tecnología Z-Wave Plus
 
--   
+-   Dimensiones reducidas para pasar casi desapercibidas
 
--   
+-   LED de estado en el botón integrado
 
 -   Función repetidora Z-Wave
 
@@ -69,12 +69,12 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Comida : 230 V, 50 Hz
+-   Suministro : 230 V, 50 Hz
 
 -   El consumo : 0.6W
 
--   Potencia máxima : Carga resistiva : 
-    :  :  :
+-   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
+    : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
     200W
 
 -   Frecuencia : 868.42 Mhz
@@ -83,7 +83,7 @@ Características técnicas
 
 -   Affichage: LED en el botón
 
--   Dimensiones :  :  : 52mm
+-   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
 \
 
@@ -94,7 +94,7 @@ Datos del módulo
 
 -   Hacer : Everspring
 
--   Apellido : Miniplug encendido / apagado
+-   Nombre : Miniplug encendido / apagado
 
 -   ID del fabricante : 96
 
@@ -104,14 +104,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -119,7 +119,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
-> tenga en cuenta que este módulo entra directamente en la inclusión cuando
+> tenga en cuenta que este módulo va directamente a la inclusión cuando
 > no pertenece a ninguna red y está alimentado
 
 \
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Órdenes](images/everspring.AN180-6/commandes.jpg)
+![Comandos](images/everspring.AN180-6/commandes.jpg)
 
 \
 
@@ -156,7 +156,7 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
 
--   Nosotros : Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
@@ -172,12 +172,12 @@ el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -236,7 +236,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 

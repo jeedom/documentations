@@ -6,7 +6,7 @@ to go and recover the daily backups made by it.
 
 > **Tip**
 >
-> Attention, for this procedure to work, it is necessary that
+> Attention, in order for this procedure to work, it is necessary that
 > the box's SSH server is still functional.
 
 Installation of Filezilla 
@@ -25,9 +25,9 @@ information at the top of the Filezilla window :
 
 ![restore filezilla01](images/restore-filezilla01.jpg)
 
--   Host : Jeedom IP address (sftp:// is added automatically)
+-   Hostname : Jeedom IP address (sftp:// is added automatically)
 
--   Username : jeedom
+-   Login : jeedom
 
 -   Password : Mjeedom96
 

@@ -49,7 +49,7 @@ Funktionen
 
 -   Unterstützungszuordnungsbefehle (Gruppe 1 und Gruppe 2)
 
--   Steuerung der beiden Lasten vor Ort
+-   Kontrolle der beiden Ladungen vor Ort
 
 -   Status-LED
 
@@ -66,9 +66,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Farbe: : Blanc
+-   Farbe : Blanc
 
--   Essen : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Verkabelung : 3 Draht, Neutralleiter erforderlich
 
@@ -91,7 +91,7 @@ Moduldaten
 
 -   Machen Sie : MC HOME
 
--   Nachname : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Hersteller ID : 351
 
@@ -126,16 +126,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/mco.mhs412/commandes.jpg)
+![Befehle](images/mco.mhs412/commandes.jpg)
 
 \.
 
@@ -216,7 +216,7 @@ Faq.
 \.
 
 Um dieses Modell auszuschließen, versetzen Sie Openzwave in den Ausschlussmodus und drücken Sie
-auf nur einer der 2 Tasten auf der Frontplatte für 3 Sekunden entsprechend seiner
+auf einer der 2 Tasten auf der Frontplatte für 3 Sekunden entsprechend seiner
 Papierdokumentation.
 
 Drücken Sie nur eine der beiden Tasten, um die Werkseinstellungen wiederherzustellen

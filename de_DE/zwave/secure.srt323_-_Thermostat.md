@@ -30,13 +30,13 @@ im Raum. Dieser Thermostat enthält ein Steuerrelais
 aufladen. Es ist daher nicht erforderlich, einen Stellantrieb in der Nähe zu installieren
 des Kessels.
 
-Durch Überprüfen der Solltemperatur mit der tatsächlichen Temperatur
+Durch Überprüfen der eingestellten Temperatur mit der tatsächlichen Temperatur
 gemessen, beschließt der Thermostat, den Kessel zu aktivieren. Was ist mehr
 Der Thermostat enthält einen TPI-Algorithmus (Time-Proportional Integral),
 Dies ermöglicht eine genauere Optimierung und Einstellung der Temperatur
 Ihrer Umgebung.
 
-Thermostat kann Sollwert von einem anderen empfangen
+Der Thermostat kann die Solltemperatur von einem anderen empfangen
 Z-Wave-Controller und kann auch als verwendet werden
 Temperatur. Der Thermostat selbst hat aber keinen eingebauten Timer
 Führen Sie Z-Wave-Befehle und lokale Befehle aus.
@@ -44,13 +44,13 @@ Führen Sie Z-Wave-Befehle und lokale Befehle aus.
 Es kann als direkter Ersatz für Thermostate verwendet werden
 vorhanden, ohne dass Verkabelungsänderungen vorgenommen werden müssen. Der Algorithmus
 TPI optimiert das Ein- und Ausschalten des Kessels
-um die eingestellte Temperatur am besten aufrechtzuerhalten, ohne
+um die eingestellte Temperatur bestmöglich aufrechtzuerhalten, ohne
 "Überschwingen "davon. Es wurde gezeigt, dass TPI-Controller
 kann erhebliche Energieeinsparungen im Vergleich zu bieten
 traditionelle Heizungsregler.
 
 Der SRT323 ist ein idealer Partner für die Verwendung mit einem Gateway
-Hausautomation, mit der Sie Ihr Hausautomationssystem fernsteuern können
+Hausautomation, mit der Sie Ihr System fernsteuern können
 Heizung. Sie müssen sich keine Sorgen mehr machen, nach Hause zu gehen
 ein kaltes Haus, solange Sie ein Smartphone, Tablet oder
 PC zur Hand und mit dem Internet verbunden.
@@ -91,7 +91,7 @@ Technische Daten
 
 -   Einstellbarer Temperaturbereich: 5 ° C bis 30 ° C.
 
--   Essen : 2x AAA-Batterien (LR3)
+-   Versorgung : 2x AAA-Batterien (LR3)
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -114,7 +114,7 @@ Moduldaten
 
 -   Machen Sie : Horstmann
 
--   Nachname : SRT 323 Elektronischer Raumthermostat und Temperatur
+-   Name : SRT 323 Elektronischer Raumthermostat und Temperatur
 
 -   Hersteller ID : 89
 
@@ -138,7 +138,7 @@ Aufnahme beziehen sich darauf
 > **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, müssen Sie Schalter 1 einschalten
-> Positionieren Sie dann mit der Wählscheibe L und drücken Sie die Wählscheibe,
+> Stellen Sie dann mit der Wählscheibe L auf ON und drücken Sie die Wählscheibe,
 > gemäß seiner Papierdokumentation.
 
 \.
@@ -168,16 +168,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/secure.srt323/commandes.jpg)
+![Befehle](images/secure.srt323/commandes.jpg)
 
 \.
 
@@ -189,7 +189,7 @@ Hier ist die Liste der Befehle :
 
 -   Staat : Es ist der Befehl, der die aktuelle Anweisung gibt
 
--   Anleitung : Mit diesem Befehl kann der Sollwert eingestellt werden
+-   Anleitung : Es ist der Befehl, mit dem der Sollwert eingestellt werden kann
 
 -   Heizzustand : es ist der Befehl, der es ermöglicht zu wissen, ob die
     Thermostat ist im Heizmodus oder nicht
@@ -230,7 +230,7 @@ Parameterdetails :
 -   2: ermöglicht die Auswahl der Temperatureinheit
 
 -   3: ermöglicht die Definition des Temperaturschwankungsniveaus für
-    Das Modul geht wieder hoch (in Einheiten von 0,1 ° C).
+    das Modul sichern (in Einheiten von 0,1 ° C)
 
 \.
 
@@ -271,7 +271,7 @@ Aufwachen
 
 \.
 
-Um dieses Modul aufzuwecken, stellen Sie den Schalter 1 auf ON und
+Um dieses Modul aufzuwecken, müssen Sie den Schalter 1 auf ON stellen und
 Wählen Sie mit dem Rad n und drücken Sie das Rad.
 
 \.

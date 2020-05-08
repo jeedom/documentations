@@ -33,7 +33,7 @@ fluoreszierend, LED).
 Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät
 für die Arbeit mit allen Z-Wave ™ -kompatiblen Netzwerken. Sie kann
 von einer Fernbedienung, einer PC-Software oder einer anderen gesteuert werden
-Z-Wave-Controller in Ihrem Netzwerk.
+Z-Wave-Controller für Ihr Netzwerk.
 
 \.
 
@@ -69,7 +69,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Essen : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Verbrauch : 0.6W
 
@@ -94,7 +94,7 @@ Moduldaten
 
 -   Machen Sie : Everspring
 
--   Nachname : Ministecker ein / aus
+-   Name : Ministecker ein / aus
 
 -   Hersteller ID : 96
 
@@ -136,7 +136,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
@@ -145,7 +145,7 @@ disponibles.
 
 \.
 
-![Bestellungen](images/everspring.AN180-6/commandes.jpg)
+![Befehle](images/everspring.AN180-6/commandes.jpg)
 
 \.
 
@@ -153,10 +153,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Wir : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
@@ -172,7 +172,7 @@ das gleiche Symbol.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.
@@ -194,7 +194,7 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
+-   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
 
 -   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an

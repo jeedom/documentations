@@ -30,13 +30,13 @@ in the room. This thermostat incorporates a control relay
 dump. There is therefore no need to install an actuator near
 of the boiler.
 
-By checking the setpoint temperature with the actual temperature
+By checking the set temperature with the actual temperature
 measured, the thermostat decides to activate the boiler. What's more
 thermostat incorporates a TPI (time-proportional integral) algorithm,
 allowing a more accurate optimization and adjustment of the temperature
 of your environment.
 
-Thermostat can receive setpoint from another
+Thermostat can receive setpoint temperature from another
 Z-Wave controller, and can also be used as a
 temperature. The thermostat itself does not have a built-in timer but
 execute Z-Wave commands and local commands.
@@ -44,13 +44,13 @@ execute Z-Wave commands and local commands.
 It can be used as a direct replacement for thermostats
 existing, without having to make any wiring changes. The algorithm
 TPI will optimize the switching on and off of the boiler
-to best maintain the set temperature, without
+in order to best maintain the set temperature, without
 "overshoot "of it. It has been shown that TPI controllers
 can provide considerable energy savings compared to
 traditional heating controllers.
 
 The SRT323 is an ideal partner for use with a gateway
-home automation, allowing you to remotely control your home automation system
+home automation, allowing you to remotely control your system
 heater. You will no longer have to worry about going home in
 a cold house, as long as you have a smartphone, tablet or
 PC at hand and connected to the internet.
@@ -114,7 +114,7 @@ Module data
 
 -   Mark : Horstmann
 
--   Last name : SRT 323 Electronic Room Thermostat and Temperature
+-   Name : SRT 323 Electronic Room Thermostat and Temperature
 
 -   Manufacturer ID : 89
 
@@ -124,14 +124,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -168,7 +168,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -177,7 +177,7 @@ disponibles.
 
 \
 
-![Orders](images/secure.srt323/commandes.jpg)
+![Commands](images/secure.srt323/commandes.jpg)
 
 \
 
@@ -189,7 +189,7 @@ Here is the list of commands :
 
 -   State : it is the command which gives the current instruction
 
--   Instructions : it is the command which allows to set the setpoint
+-   Instructions : it is the command which makes it possible to adjust the setpoint
 
 -   Heating State : it is the command which makes it possible to know if the
     thermostat is in heating mode or not
@@ -208,7 +208,7 @@ depending on your installation. This requires going through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -230,7 +230,7 @@ Parameter details :
 -   2: allows to choose the temperature unit
 
 -   3: allows to define the temperature variation level for
-    the module goes back up (in units of 0.1 ° C)
+    the module back up (in units of 0.1 ° C)
 
 \
 
@@ -271,7 +271,7 @@ Wakeup
 
 \
 
-To wake up this module, put switch 1 in the ON position and
+To wake up this module you must put switch 1 in the ON position and
 with the wheel choose n and press the wheel.
 
 \

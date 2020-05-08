@@ -43,7 +43,7 @@ Befehle werden automatisch ausgeführt, sobald das Modul von Jeedom erkannt wurd
 > **Tip**
 >
 > Es ist vorzuziehen, vor einer Aufnahme einen Ausschluss zu machen. Für
-> Führen Sie den Ausschluss aus, nichts zu kompliziert, klicken Sie einfach
+> Führen Sie den Ausschluss durch, nichts Kompliziertes, klicken Sie einfach
 > sur « Mode exclusion » et d'exclure le module, un message apparaitra
 > Bestätigung des Ausschlusses des Moduls.
 

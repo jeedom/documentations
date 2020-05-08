@@ -10,13 +10,13 @@ Richten Sie Jeedom DNS so ein, dass Sie extern über eine HTTPS-URL auf Ihr Jeed
 
 ## Voraussetzungen
 
-Um auf Jeedom DNS zugreifen zu können, müssen Sie über eine Service Pack-Leistung oder mehr verfügen.
+Um auf Jeedom DNS zugreifen zu können, ist ein Service Pack oder mehr erforderlich.
 
 ## Principe
 
-Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung zu einem unserer VPN-Server her (verschlüsselte Verbindung).. Dann macht dieser fragliche Server bei uns während der Anfrage "Reverse Proxy" : Es nimmt Ihre Anfrage entgegen, um sich mit Ihrem Jeedom zu verbinden, und überträgt sie darauf.
+Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung zu einem unserer VPN-Server her (verschlüsselte Verbindung).. Dann macht dieser fragliche Server bei uns während der Anfrage "Reverse Proxy" : Es nimmt Ihre Anfrage, sich mit Ihrem Jeedom zu verbinden, und überträgt sie an dieses.
 
-Dieses Prinzip hat den Vorteil, dass Ihr Jeedom nicht im Internet verfügbar gemacht wird und keine Portöffnung erforderlich ist.
+Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar machen und keine Portöffnung durchführen müssen.
 
 > **IMPORTANT**
 >
@@ -28,23 +28,23 @@ Wir haben derzeit 6 DNS-Server, die auf 2 verschiedenen physischen Computern mit
 
 ### Jeedom
 
-Dort ist es super einfach, Sie müssen Ihr Jeedom mit dem Markt verbinden (siehe Dokumentation im ersten Schritt). 
+Dort ist es super einfach, Sie müssen Ihr Jeedom mit dem Markt verbinden (siehe Dokumentation erster Schritt). 
 
 ### Market
 
-Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = Profile) und schließlich auf der Registerkarte "Meine Jeedoms"".
+Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = Profile) und schließlich auf der Registerkarte "Meine Jeedoms".
 
 ### Kehre zu Jeedom zurück
 
 Sobald der Marktstatus bei "Verbindung möglich" ist, gehen Sie zu Ihrem Jeedom, gehen Sie in der Verwaltung zur Registerkarte "Netzwerke" und aktivieren Sie "Jeedom DNS verwenden" und speichern Sie.
 
-Jeedom startet den DNS und gibt Ihnen Ihre Jeedom-Zugriffs-URL
+Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
 
 > **IMPORTANT**
 >
-> Sie können diese URL ändern, indem Sie zu Ihrer Marktprofilseite und dann zu meinen Jeedoms gehen. Achtung, jede Änderung dauert 24 Stunden, bevor sie wirksam wird
+> Sie können diese URL ändern, indem Sie zu Ihrer Marktprofilseite und dann zu meinen Jeedoms gehen. Bitte beachten Sie, dass jede Änderung 24 Stunden dauert, bevor sie wirksam wird
 
-Dies ist Ihr Jeedom ist von außen in https zugänglich
+Hier ist Ihr Jeedom von außen in https zugänglich
 
 ## FAQ
 
@@ -54,11 +54,11 @@ Dies ist Ihr Jeedom ist von außen in https zugänglich
 
 > **Warum Jeedom DNS meinen Zugriff darauf schützt**
 >
-> Mit Jeedom DNS können Sie einen sehr wichtigen HTTPS-Zugriff einrichten. Es garantiert, dass die Verbindung zwischen Ihrem Browser und Ihrem Jeedom verschlüsselt ist. Außerdem ist das gültige Zertifikat niemand in der Lage, sich als Ihr Jeedom auszugeben. Schließlich wird auch die VPN-Verbindung in Ihrem Jeedom und unseren Servern verschlüsselt.
+> Mit Jeedom DNS können Sie einen sehr wichtigen HTTPS-Zugriff einrichten. Dies garantiert, dass die Verbindung zwischen Ihrem Browser und Ihrem Jeedom verschlüsselt ist. Außerdem ist das gültige Zertifikat niemand in der Lage, sich als Ihr Jeedom auszugeben. Schließlich wird auch die VPN-Verbindung in Ihrem Jeedom und unseren Servern verschlüsselt.
 
 > **Ich habe den internen Listening-Port meines Jeedom geändert und der Jeedom-DNS funktioniert nicht mehr**
 >
-> In der Tat funktioniert das Jeedom DNS nur, wenn Ihr Jeedom den lokalen Port 80 überwacht (alle anderen Ports auf der VPN-Schnittstelle sind beim Herstellen einer Verbindung geschlossen).. Dies wirft keine Sicherheitsbedenken auf, da das VPN einen verschlüsselten Tunnel erstellt. Selbst wenn sich der Datenfluss auf Port 80 befindet, wird er im VPN-Tunnel verschlüsselt.
+> In der Tat funktioniert der Jeedom DNS nur, wenn Ihr Jeedom den lokalen Port 80 überwacht (alle anderen Ports auf der VPN-Schnittstelle sind beim Herstellen einer Verbindung geschlossen).. Dies wirft keine Sicherheitsbedenken auf, da das VPN einen verschlüsselten Tunnel erstellt. Selbst wenn der Fluss an Port 80 frei ist, wird er im VPN-Tunnel verschlüsselt.
 
 > **Ich habe keine Anmeldeseite, kann mich aber nicht anmelden**
 >

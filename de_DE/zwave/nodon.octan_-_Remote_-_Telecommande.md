@@ -26,7 +26,7 @@ Zusammenfassung
 
 Mit der Octan Remote NodOn® können Sie jeden Empfänger steuern
 Z-Wave®- oder Z-Wave Plus®-kompatibel wie die Fernbedienungsbuchse
-NodOn® (Hauptcontroller - Standalone-Modus) oder sogar auslösen
+NodOn® (Hauptcontrollermodus - Standalone) oder sogar Trigger
 Szenen / Aktionen über ein kompatibles Hausautomationssystem (Modus
 Gateway)
 
@@ -59,7 +59,7 @@ Technische Daten
 
 \.
 
--   Essen : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -86,7 +86,7 @@ Moduldaten
 
 -   Machen Sie : Nodon
 
--   Nachname : CRC-3-1-00 Octan Remote
+-   Name : CRC-3-1-00 Octan Remote
 
 -   Hersteller ID : 357
 
@@ -127,16 +127,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/nodon.octan/commandes.jpg)
+![Befehle](images/nodon.octan/commandes.jpg)
 
 \.
 
@@ -144,10 +144,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Knöpfe        | Unterstützung          | Lang drücken     | Entspannung    | Doppelte Unterstützung   |
+| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +

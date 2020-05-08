@@ -1,4 +1,4 @@
-SmartHome de Everspring en atenuador de pared - AD146-0 
+SmartHome de Everspring en dimmer de pared - AD146-0 
 ================================================
 
 \
@@ -32,7 +32,7 @@ compatible con bombillas. A un voltaje de 230V, este módulo puede
 admite hasta 300 vatios en carga resistiva o incandescente, o 200
 Vatios de carga fluorescente.
 
-Se puede usar en modo de 2 hilos (sin neutro), reemplazando un
+Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un
 interruptor existente, o tres cables con fuente de alimentación convencional de
 módulo (Fase + Neutro).
 
@@ -43,7 +43,7 @@ qué controlador Z-Wave en su red.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -52,7 +52,7 @@ Las funciones
 
 -   Se instala detrás de un interruptor existente
 
--   Función ON / OFF y variación
+-   ON / OFF y función de variación
 
 -   Bajo consumo de energía
 
@@ -66,7 +66,7 @@ Las funciones
 
 -   Usar en modo de 2 hilos (no es necesario neutral)
 
--   Compatible con bombillas LED regulables
+-   Compatible con bombillas Led regulables
 
 -   Botón para incluir / excluir / asociar el módulo
 
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Comida : 230 V, 50 Hz
+-   Suministro : 230 V, 50 Hz
 
 -   El consumo : 0.5W
 
@@ -108,9 +108,9 @@ Datos del módulo
 
 \
 
--   Hacer : SmartHome por Everspring
+-   Hacer : Smarthome por everspring
 
--   Apellido : En pared dimmer
+-   Nombre : En pared dimmer
 
 -   ID del fabricante : 96
 
@@ -120,14 +120,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -135,7 +135,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
-> tenga en cuenta que este módulo entra directamente en la inclusión cuando
+> tenga en cuenta que este módulo va directamente a la inclusión cuando
 > no pertenece a ninguna red y está alimentado
 
 \
@@ -152,7 +152,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -161,7 +161,7 @@ disponibles.
 
 \
 
-![Órdenes](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Comandos](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
 \
 
@@ -170,18 +170,18 @@ Aquí está la lista de comandos :
 \
 
 -   Intensidad : Este es el comando utilizado para ajustar la intensidad de la
-    luz
+    Iluminación
 
--   Nosotros : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz.
 
 -   Apagado : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
-    luz
+    Iluminación
 
 \
 
-Tenga en cuenta que en el tablero, el estado, ON / OFF, información de intensidad
+Tenga en cuenta que en el tablero, la información de estado, ON / OFF, intensidad es
 encontrado en el mismo icono.
 
 \
@@ -191,12 +191,12 @@ encontrado en el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

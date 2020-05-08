@@ -15,7 +15,7 @@ Preparation before migration
 > of information are essential for the proper understanding of
 > the operation to be carried out. Refraining from reading this documentation may
 > lead to destructive operations on your installation. If you
-> don't understand a point, feel free to ask about the
+> do not understand a point, do not hesitate to ask questions about the
 > forum before starting the procedure !
 
 > **Important**
@@ -41,8 +41,8 @@ Preparation before migration
 > news. The new synchronization operating mode
 > of equipment between several Jeedoms can be bidirectional. A
 > Jeedom server can be now **Source** and **Cible** while
-> the old mode only allowed the ascent of equipment from
-> **l'Esclave** towards **the master**. With the new mode it is also
+> the old mode only allowed the rise of equipment
+> **l'Esclave** to **the master**. With the new mode it is also
 > possible to have multiple **Jeedom Targets** for the same **Jeedom
 > Source**. Communication between Jeedoms can now also
 > be done remotely via the internet (Jeedom DNS or other). \
@@ -66,7 +66,7 @@ Configuration Updates and Verification
 Gathering useful information 
 -------------------------------------
 
-Depending on the plugins installed on your **Jeedom Slave**, he is
+Depending on the plugins installed on your **Jeedom Slave**, It is
 necessary to retrieve the following information :
 
 ### Zwave plugin 
@@ -79,7 +79,7 @@ necessary to retrieve the following information :
 -   Note for each piece of equipment coming from **l'Esclave** : l'objet
     parent, name, ID (Node), model.
 
--   Recover the Zwcfg file : *Plugins ⇒ Management of Plugins ⇒
+-   Recover Zwcfg file : *Plugins ⇒ Management of Plugins ⇒
     Z-wave*. Click on the red button *Zwcfg * and copy content
     in a text file on your computer.
 
@@ -117,7 +117,7 @@ Migration
 Install and activate the "Jeedom Link" plugin on the **Jeedom Target** (former Master). 
 -------------------------------------------------------------------------------------
 
-On your **Jeedom Target**, *Plugins ⇒ Plugins management* :
+On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 
 ![jeelink.migration1](images/jeelink.migration1.png)
 
@@ -172,7 +172,7 @@ Jeedom Source Configuration
 ![jeelink.migration2](images/jeelink.migration2.png)
 
 -   Installation and activation of plugins you want to use.
-    (It is advisable to do them one by one, checking carefully each time
+    (It is advisable to do them one by one, checking each time
     once dependencies and possible demons are OK).
 
 -   Recreate the tree of objects (just the ones that will
@@ -199,7 +199,7 @@ Source**.
 > You can also gradually assign the equipment to
 > objects recreated on the **Jeedom Source** so that they are later
 > automatically put in the correct object on the **Jeedom Target** during
-> the declaration in the Jeedom Link plugin". In case of duplicate name
+> the declaration in the plugin "Jeedom Link". In case of duplicate name
 > with equipment already present in the objects of the **Jeedom Target**,
 > the plugin will add "remote XXXX" to the name of the equipment.
 
@@ -217,13 +217,13 @@ Source**.
 -   Rename your modules and place them in the desired objects within you
     helping with your migration memo.
 
-### Rfxcom plugin : 
+### RFXcom plugin : 
 
 #### Probes, sensors, detectors,… : 
 
 -   Switch the plugin to inclusion mode.
 
--   Repeat inclusion until you have all of your equipment
+-   Repeat the inclusion until you have all your equipment
     this guy.
 
 -   Rename your equipment and place it in the desired objects by
@@ -250,10 +250,10 @@ equipment on the **Jeedom Target** (Your old Master).
 > \
 > The screenshots on a black background correspond to the **Jeedom Target**.\
 > \
-> The screenshots on a white background correspond to the **Jeedom Source**.\
+> The screenshots on a white background correspond to **Jeedom Source**.\
 
 On the **Jeedom Source**,
-[configure](https://doc.jeedom.com/en_US/plugins/jeelink/jeelink)
+[Configuring](https://doc.jeedom.com/en_US/plugins/jeelink/jeelink)
 the "Jeedom Link" plugin by specifying :
 
 -   The name of **Jeedom Target**.
@@ -276,7 +276,7 @@ to add :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-After refreshing the page *My JeeLinks* of **Jeedom Target**, vous
+After refreshing the page *My jeelinks* from **Jeedom Target**, vous
 must note the automatic creation of the equipment :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -303,7 +303,7 @@ Historical recovery
 -   Go to the configuration of the command (* Toothed wheel at
     right*).
 
--   Go to the tab *Advanced Configuration*.
+-   Go to the tab *Advanced configuration*.
 
 -   Click on the button * Copy the history of this order to a
     other order*.
@@ -325,12 +325,12 @@ Replacement of old slave equipment in Scenarios / virtual /…
 
 -   Go to the tab *Informations*.
 
--   Click on the button *Replace this command with the command*.
+-   Click on the button *Replace this command by the command*.
 
 -   Find the corresponding order for the new JeeLink equipment
     correspondent and validate.
 
-Retrieving advanced display configuration of commands 
+Retrieving advanced display configurations for commands 
 ------------------------------------------------------------------
 
 > **Note**
@@ -342,7 +342,7 @@ Retrieving advanced display configuration of commands
 -   Go to the configuration of the command (* Toothed wheel at
     right*).
 
--   Click on the button *to apply to*.
+-   Click on the button *Apply to*.
 
 -   Find and select the corresponding command for the new
     corresponding JeeLink equipment and validate.
@@ -354,7 +354,7 @@ Copy of advanced command configurations
 >
 > To do on **Jeedom Target** (Former Master) for each order
 > info / action of old equipment **Esclave** which we want
-> retrieve advanced configuration.
+> retrieve the advanced configuration.
 
 -   No easy solution at this level, you will have to have two
     open tabs / windows on your browser.
@@ -386,7 +386,7 @@ Household on the **Jeedom Target**
 >
 > After confirming with certainty that your
 > equipment / scenarios / interactions / virtual /…. work
-> correctly with the new jeelink system you can proceed to
+> correctly with the new jeelink system you can do the
 > housework.
 
 -   Remove residual equipment from the old **Jeedom Slave**.

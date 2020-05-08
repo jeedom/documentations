@@ -48,7 +48,7 @@ red existente.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Comida : 1 batería CR123A 3V
+-   Suministro : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -121,7 +121,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Apellido : Philio PSP01
+-   Nombre : Philio PSP01
 
 -   ID del fabricante : 316
 
@@ -131,14 +131,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -161,7 +161,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -170,7 +170,7 @@ disponibles.
 
 \
 
-![Órdenes](images/philio.psp01/commandes.jpg)
+![Comandos](images/philio.psp01/commandes.jpg)
 
 \
 
@@ -184,7 +184,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    temperatura
+    Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -195,7 +195,7 @@ Aquí está la lista de comandos :
 
 \
 
-Todos los módulos de la gama tienen los mismos identificadores, depende de usted mostrarlos
+Todos los módulos de la gama tienen los mismos identificadores, debe mostrarlos
 correspondiente a su módulo.
 
 ### Configuracion del modulo 
@@ -215,7 +215,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -259,7 +259,7 @@ Detalles del parámetro :
 -   12: se usa para definir la duración entre dos informes de brillo
     (una unidad = 30 minutos)
 
--   13: le permite definir el tiempo entre dos informes de temperatura
+-   13: permite definir el tiempo entre dos informes de temperatura
     (una unidad = 30 minutos)
 
 \
@@ -291,8 +291,8 @@ Bueno saber
 > Este módulo tiene una particularidad, no tener un informe basado en el
 > variaciones, pero solo con el tiempo, envía toda su información a
 > cada detección. También envía la señal varias veces.
-> detección de presencia como resultado. Por lo tanto, es aconsejable marcar el
-> Cuadro "Evento en cambio" en presencia si usa esto
+> detección de presencia después. Por lo tanto, es aconsejable marcar el
+> Cuadro "Evento en cambio" en la presencia si usa esto
 > comando en desencadenador de escenario.
 
 \

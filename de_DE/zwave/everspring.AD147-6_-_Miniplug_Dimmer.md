@@ -31,7 +31,7 @@ nur mit Glühbirnen. Mit einer Spannung von 220 - 240 V ist dies
 Die Dimmerbuchse kann eine Last von 6 W bis 250 W aufnehmen.
 
 Der Mini Dimmer Plug ist ein Z-Wave ™ -kompatibles Gerät
-soll mit allen Z-Wave ™ -kompatiblen Netzwerken funktionieren. Sie
+Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Sie
 kann über eine Fernbedienung, eine PC-Software oder eine andere gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
@@ -68,7 +68,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Essen : 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Verbrauch : 0.6W
 
@@ -92,7 +92,7 @@ Moduldaten
 
 -   Machen Sie : Everspring
 
--   Nachname : Miniplug Dimmer
+-   Name : Miniplug Dimmer
 
 -   Hersteller ID : 96
 
@@ -134,16 +134,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/everspring.AD147-6/commandes.jpg)
+![Befehle](images/everspring.AD147-6/commandes.jpg)
 
 \.
 
@@ -154,11 +154,11 @@ Hier ist die Liste der Befehle :
 -   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
     prise
 
--   Wir : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     prise
 
 \.
@@ -173,7 +173,7 @@ auf dem gleichen Symbol gefunden.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.
@@ -195,7 +195,7 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
+-   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
 
 -   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an

@@ -33,7 +33,7 @@ fixe.
 
 Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
 Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
-Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a ausgenutzt werden
+Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
 Sirene oder von einer Hausautomationsbox zum Beispiel). Dieser Detektor kann sein
 wird für Sicherheit oder Automatisierung verwendet. Wenn der Detektor
 ist mit Sicherheitsgeräten verbunden, dient als Auslöser
@@ -45,12 +45,12 @@ intrus.
 
 Der Detektor kann auch in Kombination mit a verwendet werden
 Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
-Änderungen der Infrarotstrahlung (Anwesenheit) oder
+Änderungen der Infrarotstrahlung (Vorhandensein) oder
 Tür- / Fensteröffnung und Änderungen in der Höhe von
 Helligkeit. Somit kann man während einer Erkennung eine Beleuchtung auslösen
 Türbewegung oder Öffnung im Dunkeln.
 
-Der Detektor erhöht auch die Helligkeit und Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
 signifikante Änderung, und wann immer eine Bewegung oder
 Öffnen / Schließen werden erkannt. Eine Z-Wave-Steuerung (Fernbedienung),
 Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
@@ -63,7 +63,7 @@ Funktionen
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
 
--   Übernimmt zur Unterstützung den aktuellen Z-Wave 400series-Chip
+-   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
     Mehrkanalbetrieb und mehr Datendurchsatz
     hoch (9,6 / 40 / 100kbps)
 
@@ -92,7 +92,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Essen : 1 CR123A 3V Batterie
+-   Versorgung : 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -133,7 +133,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Nachname : PST02-A 4-in-1-Multisensor
+-   Name : PST02-A 4-in-1-Multisensor
 
 -   Hersteller ID : 316
 
@@ -173,16 +173,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/philio.pst02a/commandes.jpg)
+![Befehle](images/philio.pst02a/commandes.jpg)
 
 \.
 
@@ -192,7 +192,7 @@ Hier ist die Liste der Befehle :
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
--   Öffnen : Es ist der Befehl, der eine Erkennung auslöst
+-   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
     d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
@@ -263,7 +263,7 @@ Parameterdetails :
 
 -   7: personalisierte Multisensor-Betriebsart (siehe
     auf der Dokumentation des Herstellers) Empfohlener Wert : 6 (für
-    eine Rückkehr von der Anwesenheit zu AUS haben)
+    eine Rückkehr zu AUS der Anwesenheit haben)
 
 -   8: Ermöglicht die Definition der Dauer in Schritten von 8 Sekunden für die erneute Erkennung
     der Bewegung
@@ -277,10 +277,10 @@ Parameterdetails :
 -   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
     (eine Einheit = Parameter 20)
 
--   12: Hier können Sie die Dauer zwischen zwei automatischen definieren
+-   12: Hier können Sie die Dauer zwischen zwei Auto definieren
     Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
 
--   13: Hier können Sie die Dauer zwischen zwei automatischen definieren
+-   13: Hier können Sie die Dauer zwischen zwei Auto definieren
     Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
 
 -   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
@@ -298,7 +298,7 @@ Parameterdetails :
 
 \.
 
-Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
 indispensable.
 
 \.

@@ -31,8 +31,8 @@ para ser colocado en una puerta o ventana con el imán fijado en el
 parte de apertura y el detector en la parte fija.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
-detector, que activará el detector que enviará una señal de onda Z
-alarma, si el sistema está armado (esta señal puede ser explotada por un
+detector, que activará el detector que enviará una señal Z-Wave
+alarma, si el sistema está armado (esta señal puede ser utilizada por un
 sirena o por una caja de automatización del hogar, por ejemplo). El sensor también puede
 ser utilizado para el control automático de iluminación, dependiendo del
 nivel de brillo. Por ejemplo, el sensor enviará una señal a
@@ -47,7 +47,7 @@ ya una red existente.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -106,14 +106,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -123,8 +123,8 @@ inclusión refiérase a esto
 > configurado correctamente y preste atención a la alineación de
 > el imán durante las pruebas en una superficie plana y durante la instalación.
 > (Use cuñas si es necesario) Para poner este módulo en modo
-> inclusión es necesario presionar 3 veces el botón de asociación en 1.5
-> segundo, de acuerdo con su documentación. (parpadeo rojo constante
+> inclusión es necesario presionar 3 veces en el botón de asociación en 1.5
+> segundo, según su documentación. (parpadeo rojo constante
 > en modo asociación)
 
 \
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -150,7 +150,7 @@ disponibles.
 
 \
 
-![Órdenes](images/dlink.dchz110/commandes.jpg)
+![Comandos](images/dlink.dchz110/commandes.jpg)
 
 \
 
@@ -162,7 +162,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    temperatura
+    Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -191,7 +191,7 @@ dependiendo de su instalación. Esto requiere pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -233,13 +233,13 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automática
+-   11: le permite definir la duración entre dos informes de apertura automáticos
     (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos automáticos
+-   12: le permite definir la duración entre dos auto
     brillo (una unidad = parámetro 20). Valor recomendado : 6
 
--   13: le permite definir la duración entre dos automáticos
+-   13: le permite definir la duración entre dos auto
     temperatura (una unidad = parámetro 20). Valor recomendado : 2
 
 -   20: duración de un intervalo para los parámetros 10 a 13. Valor

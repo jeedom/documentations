@@ -40,7 +40,7 @@ Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
 Änderungen in der Helligkeit. Also können wir a auslösen
 Beleuchtung, wenn Bewegung im Dunkeln erkannt wird.
 
-Der Detektor erhöht auch die Helligkeit und Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
 signifikante Änderung, und jedes Mal, wenn eine Bewegung ist
 erkannt. Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich
 um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits einen haben
@@ -55,7 +55,7 @@ Funktionen
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
 
--   Übernimmt zur Unterstützung den aktuellen Z-Wave 400series-Chip
+-   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
     Mehrkanalbetrieb und mehr Datendurchsatz
     hoch (9,6 / 40 / 100kbps)
 
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Essen : 1 CR123A 3V Batterie
+-   Versorgung : 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -121,7 +121,7 @@ Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 
--   Nachname : Philio PSP01
+-   Name : Philio PSP01
 
 -   Hersteller ID : 316
 
@@ -161,16 +161,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/philio.psp01/commandes.jpg)
+![Befehle](images/philio.psp01/commandes.jpg)
 
 \.
 
@@ -180,7 +180,7 @@ Hier ist die Liste der Befehle :
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
--   Öffnen : Es ist der Befehl, der eine Erkennung auslöst
+-   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
     d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
@@ -259,7 +259,7 @@ Parameterdetails :
 -   12: wird verwendet, um die Dauer zwischen zwei Helligkeitsberichten zu definieren
     (eine Einheit = 30 Minuten)
 
--   13: Mit dieser Option können Sie die Zeit zwischen zwei Temperaturberichten definieren
+-   13: Ermöglicht die Definition der Zeit zwischen zwei Temperaturberichten
     (eine Einheit = 30 Minuten)
 
 \.
@@ -268,7 +268,7 @@ Parameterdetails :
 
 \.
 
-Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
 indispensable.
 
 \.
@@ -291,8 +291,8 @@ Gut zu wissen
 > Dieses Modul hat eine Besonderheit und keinen Bericht, der auf dem basiert
 > Variationen, aber nur im Laufe der Zeit, sendet es alle seine Informationen an
 > jede Erkennung. Es sendet das Signal auch mehrmals
-> Anwesenheitserkennung als Ergebnis. Es ist daher ratsam, das Häkchen zu setzen
-> Feld "Ereignis bei Änderung" bei Anwesenheit, wenn Sie dies verwenden
+> Anwesenheitserkennung folgt. Es ist daher ratsam, das Häkchen zu setzen
+> Feld "Ereignis bei Änderung" auf der Anwesenheit, wenn Sie dies verwenden
 > Befehl im Szenario-Trigger.
 
 \.
@@ -325,7 +325,7 @@ Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
 \.
 
-Aktivieren Sie das Kontrollkästchen "Ereignis bei Änderung".
+Aktivieren Sie das Kontrollkästchen "Ereignis bei Änderung"".
 
 \.
 

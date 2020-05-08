@@ -33,7 +33,7 @@ Seine Hauptmerkmale sind :
     oder der Abstieg. So ist es möglich, beide zu bestellen
     Richtungen mit jeder Art von Spannung, auch ein Neutralleiter.
 
--   Die Möglichkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
+-   Die Fähigkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
     Zeitlimit.
 
 Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
@@ -93,7 +93,7 @@ Moduldaten
 
 -   Machen Sie : Popp / Duwi
 
--   Nachname : ZW ESJ Blind Control
+-   Name : ZW ESJ Blind Control
 
 -   Hersteller ID : 100
 
@@ -103,7 +103,7 @@ Moduldaten
 
 \.
 
-Anmelden 
+Einloggen 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
@@ -136,16 +136,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/duwi.05436/4-Commandes.PNG)
+![Befehle](images/duwi.05436/4-Commandes.PNG)
 
 \.
 
@@ -153,17 +153,17 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
+-   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
 
 -   Geh runter : Befehl, vollständig abzusteigen
 
 -   Geh hoch : Befehl, vollständig zu mounten
 
--   Hör auf : Sofortiger Bewegungsstopp
+-   STOP : Sofortiger Bewegungsstopp
 
 -   Aktualisieren : Aktualisieren Sie den aktuellen Status des Moduls
 
--   Level : Schieberegler zum Positionieren einer Teilöffnung
+-   Ebene : Schieberegler zum Positionieren einer Teilöffnung
 
 \.
 
@@ -179,7 +179,7 @@ Drücken Sie mindestens 2 Sekunden auf beiden Tasten (nach oben und unten).
 gleichzeitig. Die LED sollte grün blinken.
 
 Halten Sie dann die Abwärts- oder Aufwärts-Taste gedrückt,
-bis zum Erreichen der gewünschten Position. Wenn Sie den Knopf loslassen, wird der
+bis zum Erreichen der gewünschten Position. Wenn Sie die Taste loslassen, wird die
 Die LED leuchtet einige Sekunden lang grün. Die Zeit wird gespeichert.
 
 Wiederholen Sie den Vorgang in die andere Richtung.

@@ -1,5 +1,5 @@
 Aquí hay un tutorial para instalar VMware en un Intel NUC (gen6). Nosotros
-ver cómo agregar Jeedom en él
+luego veremos cómo agregar Jeedom en él
 
 El material 
 ===========
@@ -7,8 +7,8 @@ El material
 Intel NUC 
 ---------
 
-Intel NUC es una PC pequeña, no la más poderosa, pero muy económica
-energía y pequeñas dimensiones. Eso lo convierte en un mesero perfecto
+Intel NUC es una PC pequeña, no la más potente, pero muy económica
+energía y pequeñas dimensiones. Esto lo convierte en un mesero perfecto
 virtualización basada en VMware.
 
 Actualmente hay 2 NUC de 6ta generación (las otras funcionan
@@ -23,9 +23,9 @@ Núcleo de VMware):
 
 El i5 es significativamente más potente porque tiene un poco más de memoria caché
 y especialmente un modo turbo que le permite subir mucho más alto en
-frecuencia.
+Frecuencia.
 
-A esto se agregan 2 tipos de casos :
+Además, hay 2 tipos de casos :
 
 -   Una carcasa delgada que solo puede contener un disco tipo M2
 
@@ -51,7 +51,7 @@ SSD
 
 Tienes que agregar un SSD y memoria. SSD nivel I usted
 recomienda 240 GB o más, a menos que tome el modelo con un
-ubicación 2.5 pulgadas (que le permite poner más disco duro)
+ubicación 2.5 pulgadas (que le permite poner un disco duro adicional)
 o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
 que una VM básica (sin almacenamiento) tiene entre 20 y 40 GB, agregue a
 este 40GB para VMware se llena rápidamente.
@@ -110,26 +110,26 @@ Descarga de VMware
 > USB y llaves Zwave, para que esto funcione debes aplicar esto
 > [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Atención, esta manipulación ya no se debe hacer en vmware 6.7
 
-Es lo más difícil, creo, para simplificar tu vida tienes que
+Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 :
 
 -   seguir
-    [aqui](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     y registrarse
 
 -   espera el correo electrónico para validar el registro
 
 -   retourner
-    [aqui](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     e inicie sesión (se le puede pedir que acepte el
     condiciones, debe validar)
 
 -   entonces ve
-    [ahi](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
+    [el](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
     y agregue a su cuenta "imagen ESXi ISO (Incluye VMware Tools)"
 
 -   finalmente regreso
-    [aqui](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
+    [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     y allí debe tener en "Paquetes Downlaod", un "paquete ESXi
     Imagen ISO (incluye VMware Tools) "que necesita descargar
 
@@ -171,11 +171,11 @@ La caja NUC :
 
 ![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
 
-Abriéndolo :
+Apertura de ella :
 
 ![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
 
-Componentes sacados de su caja :
+Componentes fuera de su caja :
 
 ![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
 
@@ -187,7 +187,7 @@ el NUC:
 ![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
 
 El SSD instalado (a la izquierda), el tornillo final para bloquearlo es un
-difícil de volver a poner, afortunadamente solo hacemos eso una vez
+difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
 ![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
 
@@ -195,7 +195,7 @@ Instalación de memoria (derecha) :
 
 ![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
-Y ahí estás, puedes cerrarlo de nuevo (a menos que, por supuesto, hayas tomado un
+Y ahí estás, puedes cerrar (a menos que, por supuesto, hayas tomado un
 SSD 2.5 pulgadas que se deben insertar en la cubierta en este caso).
 
 Instalación de VMware 
@@ -214,7 +214,7 @@ solo :
 > solo acepta seguir las instrucciones
 
 Aquí seleccione el disco correspondiente a la SSD (puede
-identificar ya sea por nombre o tamaño)
+identificar ya sea por nombre o por tamaño)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
 
@@ -232,7 +232,7 @@ Confirme presionando F11 :
 ![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
 
 La instalación tomará entre 10 y 20 minutos, luego deberá quitar
-la llave USB y espere el sistema de reinicio
+la llave USB y espere a que se reinicie el sistema
 
 ![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
 
@@ -244,8 +244,8 @@ Aquí está instalado VMware (además es bueno, te da su IP) ,
 más que jugar con !!!
 
 Por lo demás aquí hay un
-[tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html)
+[Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html)
 para la creación de tu primera VM. Y encontrarás
-[aqui](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+[aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 Un tutorial de consejos y trucos (por ejemplo, para poner su licencia
 VMware)

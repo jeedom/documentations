@@ -1,7 +1,7 @@
 Instalación de Letsencrypt 
 ===========================
 
-Aquí están los comandos para iniciar la instalación de letsencrypt antes de
+Estos son los comandos para iniciar la instalación de letsencrypt antes de
 generación :
 
     apt-get install -y git
@@ -28,7 +28,7 @@ Atención, es necesario abrir el puerto 80 en el enrutador (ISP) !
 -   Configure un puerto Reenvío de solicitudes HTTPS en su Box
     Internet para redirigirlos a su Jeedom Box.
 
-Activación de virtualHost y módulo SSL 
+Activación del módulo virtualHost y SSL 
 ------------------------------------------
 
 > **Note**
@@ -37,7 +37,7 @@ Activación de virtualHost y módulo SSL
 
     a2enmod ssl
     a2ensite default-ssl.conf
-    servicio apache2 reiniciar
+    servicio de reinicio apache2
 
 > **Note**
 >
@@ -52,9 +52,9 @@ son agregados por el script en Apache.
 
 > **Note**
 >
-> Si está utilizando el método de renovación automática a continuación,
-> puedes apagar virtualHost **default-ssl.conf** con el
-> comando **a2dissite default-ssl.conf** Recuerde informar el código por
+> Si usa el método de renovación automática a continuación,
+> puedes deshabilitar virtualHost **default-ssl.conf** con el
+> Comando **a2dissite default-ssl.conf** Recuerde informar el código por
 > predeterminado a continuación en el VirtualHost creado por el script
 > renovación :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
@@ -105,7 +105,7 @@ La renovación se realiza con el pedido. :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-Recibirá un correo electrónico automáticamente cuando expire el
+Recibirá un correo electrónico automáticamente cuando expire el plazo.
 certificado que le recordará que inicie este comando.
 
 Método automático 

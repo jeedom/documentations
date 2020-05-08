@@ -34,7 +34,7 @@ famille.
 
 The Fibaro FGSD-002 smoke detector is an Alarm Detector
 Autonomous Smoke (DAAF) compliant with standard EN 14604:2005. Good
-that autonomous, it is also communicating thanks to the Z-Wave technology
+that autonomous, it is also communicating thanks to Z-Wave technology
 Plus.
 
 Some materials burn without smoking. This is why the engineers at
@@ -43,7 +43,7 @@ smoke detector in the form of a temperature sensor. If the
 not enough smoke to sound the alarm,
 the device will still be able to detect a threat by detecting
 a rapid change in temperature caused by fire. A change
-rapid temperature rise or up to 54 ° C is sufficient
+rapid temperature rise or increase to 54 ° C is sufficient
 for the smoke sensor to detect a threat and report it to
 inhabitants of the house. Only this type of smoke sensor offers
 high efficiency, regardless of what burns.
@@ -123,7 +123,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Fibaro Smoke Sensor FGSD-002
+-   Name : Fibaro Smoke Sensor FGSD-002
 
 -   Manufacturer ID : 271
 
@@ -133,14 +133,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -163,7 +163,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -172,7 +172,7 @@ disponibles.
 
 \
 
-![Orders](images/fibaro.fgsd102/commandes.jpg)
+![Commands](images/fibaro.fgsd102/commandes.jpg)
 
 \
 
@@ -188,7 +188,7 @@ Here is the list of commands :
 -   Sabotage : this is the sabotage command. It signals the opening
     of the case
 
--   Test alert : it is the command which will reassemble the fact that the module
+-   Test alert : it is the command which will bring up the fact that the module
     is in test mode
 
 -   Heat alert : it is the control which will raise a heat alert
@@ -215,7 +215,7 @@ depending on your installation. This requires going through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -239,7 +239,7 @@ Parameter details :
 
 -   1: adjusts the sensitivity of smoke detection
 
--   2: allows to choose which notifications will be sent to Jeedom
+-   2: allows you to choose which notifications will be sent to Jeedom
     (advice : toutes)
 
 -   3: allows you to choose which notifications will be accompanied by a

@@ -30,4 +30,4 @@
 - [Migración Apache](/es_ES/howtoadvance/migration.apache)
 - [Uso de Synology de VPN](/es_ES/howtoadvance/synology.utilisation_vpn)
 - [Usando emoncms](/es_ES/howtoadvance/utilisation.emoncms)
-- [Use opengarage](/es_ES/howtoadvance/utilisation.opengarage)
+- [Usar opengarage](/es_ES/howtoadvance/utilisation.opengarage)

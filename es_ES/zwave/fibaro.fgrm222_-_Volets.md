@@ -47,7 +47,7 @@ Nota : Este módulo requiere neutral para operar.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -82,7 +82,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Comida : 230V, 50 Hz
+-   Suministro : 230V, 50 Hz
 
 -   El consumo de energía : &lt; 0,8W
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Apellido : Fibaro FGRM-222
+-   Nombre : Fibaro FGRM-222
 
 -   ID del fabricante : 271
 
@@ -123,14 +123,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -153,7 +153,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -162,9 +162,9 @@ disponibles.
 
 \
 
-![Órdenes](images/fibaro.fgrm222/commandes.jpg)
+![Comandos](images/fibaro.fgrm222/commandes.jpg)
 
-![Órdenes](images/fibaro.fgrm222/commandes2.jpg)
+![Comandos](images/fibaro.fgrm222/commandes2.jpg)
 
 \
 
@@ -182,24 +182,24 @@ Aquí está la lista de comandos :
 
 -   Abajo : Es el comando que cierra completamente el obturador.
 
--   Actualizar : Es el comando que permite volver a preguntar la posición.
+-   Refrescar : Es el comando que permite volver a preguntar la posición.
     de la persiana
 
 -   Potencia : Comando que permite tener el consumo del módulo
 
--   El consumo : Control de potencia
-    instantánea utilizada por el módulo
+-   El consumo : Control que permite conocer el poder
+    Instantáneo utilizado por el módulo
 
--   Parar : Control para detener el movimiento del obturador.
+-   Detener : Control para detener el movimiento del obturador.
 
 -   DETENER BSO : Comando para detener el movimiento (en modo
     listón ajustable)
 
 -   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
 
--   Declinar : Se usa para rechazar las lamas (modo de lamas ajustable)
+-   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 
--   No : Se utiliza para definir el paso para presionar Rechazar o
+-   No : Se usa para definir el paso para presionar Rechazar o
     Incliner
 
 \
@@ -214,7 +214,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -338,7 +338,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 

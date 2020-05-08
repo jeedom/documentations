@@ -33,17 +33,17 @@ Sus características principales son :
     o el descenso. Entonces es posible ordenar ambos
     direcciones con cualquier tipo de voltaje, incluso neutral.
 
--   La posibilidad de enviar una señal continua arriba / abajo sin
+-   La capacidad de enviar una señal continua arriba / abajo sin
     límite de tiempo.
 
-Attention: este módulo no envía su estado al controlador z-wave cuando
+Attention: este módulo no envía su estado al controlador de onda z cuando
 el usuario presiona los botones directamente. Tienes que hacer un
 'Actualizar 'en su posición para actualizar o ajustar la Encuesta (ver
 más lejos).
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -93,7 +93,7 @@ Datos del módulo
 
 -   Hacer : Popp / Duwi
 
--   Apellido : Control de persianas ZW ESJ
+-   Nombre : Control de persianas ZW ESJ
 
 -   ID del fabricante : 100
 
@@ -103,21 +103,21 @@ Datos del módulo
 
 \
 
-Iniciar sesión 
+Conexión 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Órdenes](images/duwi.05436/4-Commandes.PNG)
+![Comandos](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -159,9 +159,9 @@ Aquí está la lista de comandos :
 
 -   Subir : comando para montar completamente
 
--   Para : parada inmediata del movimiento
+-   Detener : parada inmediata del movimiento
 
--   Actualizar : actualizar el estado actual del módulo
+-   Refrescar : actualizar el estado actual del módulo
 
 -   Nivel : control deslizante para colocar una abertura parcial
 
@@ -196,7 +196,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -222,10 +222,10 @@ La codificación se realiza mediante dos pares de bytes. : el primero para la es
 y el segundo para el descenso.
 
 Los valores se codifican en hexadecimal en el módulo y se restablecen
-decimal en la pantalla de Jeedom.
+decimal en la pantalla Jeedom.
 
 Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. O 0x12
-para el ascenso y 0x12 para el descenso. O, traído de nuevo en
+para ascenso y 0x12 para descenso. O, traído de nuevo en
 decimal : 18 años para ascenso y descenso.
 
 Anotar : forzar un valor a cero para este parámetro implicará que el
@@ -258,15 +258,15 @@ Bueno saber
 
 \
 
--   Como se especificó al principio, el módulo no informa cambios en
+-   Como se especificó al principio, el módulo no informa los cambios en
     posiciones hechas por el usuario presionando directamente
-    en el interruptor. Para tener un retorno de estado, es necesario :
+    en el interruptor. Para tener un retorno del estado, es necesario :
 
-        o bien configure una encuesta a los 5 minutos en la configuración, valores de pestaña'
+        o bien configurar una encuesta a los 5 minutos en la configuración, valores de pestaña'
 
 ![Groupe](images/duwi.05436/7-Poll.PNG)
 
-    o cree un escenario que inicie el comando 'Actualizar' cada x minutos (al menos 1 minuto)
+    o bien cree un escenario que inicie el comando 'Actualizar' cada x minutos (al menos 1 minuto)
 
 -   Establecer una operación sin límite de tiempo puede resultar ser
     útil para los comandos de VMC

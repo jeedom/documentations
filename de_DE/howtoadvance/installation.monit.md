@@ -60,4 +60,4 @@ APCupsd Aufsicht
     Überprüfen Sie den Prozess apcupsd mit pidfile /var/run/apcupsd.pid
        start program = "/ etc / init.d / apcupsd starten"
        stop program = "/ etc / init.d / apcupsd stop"
-          Wenn Port 3551 für 2 Zyklen ausgefallen ist, wird eine Warnung ausgegeben
+          Wenn Port 3551 für 2 Zyklen ausgefallen ist, dann Alarm

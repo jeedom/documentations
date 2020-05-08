@@ -27,72 +27,72 @@ Zusammenfassung
 **Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
 Poly-Control !**
 
+Keine Schlüssel mehr, verwenden Sie Ihr Smartphone zum Sperren und
+Schließ deine Tür auf ! Danalock ist eine neue Lösung, die
+wird Ihr Interieur zuverlässig und intelligent sichern.
+Ohne Schlüssel können Sie Ihr Schloss mit Ihrem öffnen
+Tablet oder Smartphone. Sie kontrollieren somit den Zugang Ihrer Gäste oder
+von Arbeitern und kann Ihr Interieur effektiv überwachen.
+Mit verschiedenen Einstellungen können Sie den Zugriff auf Ihre steuern
+Haus. Danalock verfügt über eine Autolock-Funktion
+automatische Türverriegelung. Ideal, wenn Sie es nicht tun
+Zum Beispiel keine Hände frei. Zusätzlich werden 5 Schlüssel bereitgestellt. Sie
+kann sie von außen benutzen. Die Installation ist schnell und einfach
+unabhängig von der Art der Tür durchzuführen. Die entsprechende Anwendung
+ist kompatibel für iPhone 4S, Android 4.4 und Smartphone. Der Danalock tut es
+Keine externe Stromquelle erforderlich. Essen
+wird mit Batterien mit einer Lebensdauer von zwei Jahren durchgeführt. Sie
+Empfangen Sie ein akustisches Signal für den Fall, dass der Batterieladezustand steigt
+ist zu schwach.
 
- ! 
-.
+**Einfach einzurichten**
 
-. 
-.
+Das Danalock ist ein intelligentes Schloss, das fast montiert werden kann
+Alle Türen in Minuten.
 
+**Einfach zu installieren**
 
-. 
-. 
-. 
-. 
-.. 
+Installieren Sie die Danalock-App in wenigen Schritten auf Ihrem Telefon
+Sekunden. Ein Assistent führt Sie dann durch die Installation und
+die Kalibrierung Ihres Danalock.
 
+ **Einfach zu bedienen**
 
-
-.
-
-****
-
-
-.
-
-****
-
-
-
-.
-
- ****
-
-
-. ,
-
-
+Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
+mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
+Das Danalock-Schloss entriegelt automatisch die Tür, wenn Sie
+nähere dich deinem Haus und schließe es gleich ab, nachdem du es bist
 rentré.
 
-****
+**Lange Akkulaufzeit**
 
+Das Danalock hat eine durchschnittliche Akkulaufzeit von bis zu einem Jahr
+benötigt keine externe Stromversorgung. Bitte beachten Sie diese Verwendung
+einer Z-Wave-Hausautomationssteuerung oder -box kann die Lebensdauer von verkürzen
+die Batterie. Der Batteriestatus ist in der App gut sichtbar.
+Wenn der Akku 30, 20, 15 und 10 Prozent erreicht, wird eine Benachrichtigung angezeigt
+wird per SMS und E-Mail gesendet.
 
-. 
+**Eingeschränkter oder dauerhafter Zugang**
 
-die Batterie. .
+Nie mehr die Schlüssel unter der Fußmatte verstecken. Gib dein
+Familie schnellen und einfachen Zugang mit ihren Smartphones. Zu deiner Frau
+Reinigung oder Ihre Gäste, zeitlich begrenzter oder wiederkehrender Zugang und
+Sie erhalten Benachrichtigungen, wenn und von wem Ihr Schloss verwendet wird.
 
-.
+**Volle Kontrolle über das Haus**
 
-****
+Entwickeln Sie mit einem Danalock die Kontrolle über Ihr Smart Home,
+Der perfekte Initiator für alle Ihre Hausbestellungen. Danalock
+funktioniert nahtlos mit anderen Heimgeräten
+intelligent und die gesamte Kommunikation ist stark verschlüsselt - niemand
+Ich kann mich nicht in dein Haus hacken.
 
-. 
-. 
+**Diskret, nachhaltig und dänisch**
 
-.
-
-****
-
-,
-. 
-
-
-.
-
-****
-
-
-
-. .
+Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit
+Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
+Bluetooth und Z-Wave. Ein diskretes dänisches Design für die Ewigkeit.
 \.
 
 Funktionen 
@@ -100,34 +100,34 @@ Funktionen
 
 \.
 
--   Steuern Sie Ihre Haustür aus der Ferne
+-   Steuern Sie Ihre Haustür fern
 
--   
+-   Verbundenes Schloss
 
--   
+-   1 Zylinder anpassbar an verschiedene Längen geliefert
 
--   
+-   5 physische Schlüssel dienen zum Öffnen der Tür von außen
 
--   
+-   Verbindung über Bluetooth Smart und Z-Wave
 
--   ,
-    
+-   Integration in kompatible Z-Wave-Controller (eedomus,
+    Vera,…)
 
--   
+-   Aktivitätsverlauf
 
--   
+-   Verschiedene Einstellmöglichkeiten zum Schließen und Öffnen
 
--    : 
-    
+-   Zugriffsfreigabe : Geben Sie Ihrer Putzfrau oder einem Freund Zugang
+    für eine begrenzte Zeit
 
--   
+-   Automatische Kalibrierung
 
 -   Einfach zu installieren
 
--   
+-   Batteriebetrieb
 
--   
-    .
+-   Kompatibel mit iOS (iPhone 4s oder höher), aber
+    auch Android (ab 4.4).
 
 \.
 
@@ -136,15 +136,15 @@ Technische Daten
 
 \.
 
--   Essen : 
+-   Versorgung : 4 CR123 3V Batterien
 
--    : V2
+-   Versionen : V2
 
--    : 
+-   Material : Massives eloxiertes Aluminium
 
--    : 
+-   Kommunikation : Bluetooth und Z-Wave
 
--   Abmessungen : 
+-   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
 
 -   Gewicht : 363g
 
@@ -157,7 +157,7 @@ Moduldaten
 
 -   Machen Sie : Poly-Control
 
--   Nachname : Danalock V2 BTZE
+-   Name : Danalock V2 BTZE
 
 -   Hersteller ID : 010e
 
@@ -180,32 +180,32 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> ..
+> Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
 
 \.
 
-
- : 
-"
+So versetzen Sie das Z-Wave-Plugin (openzwave) im Einschlussmodus in Jeedom
+sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
+und klicken Sie auf das Symbol "Zwave Network"
 
 ![inclusion securise jeedom
-
+1](images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
 \.
 
- : "
-"
+Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜGEN
+SICHER (INKLUSION)"
 
 ![inclusion securise jeedom
-
+2](images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
 
 \.
 
 > **Important**
 >
-> 
-> . 
-> .
+> Wir gehen davon aus, dass Sie die Anwendung installiert haben
+> Ihr Smartphone oder iPhone und erstellt ein Konto. Wenn es nicht schon ist
+> Fertig können Sie auf diese Seite verweisen.
 
 ![inclusion](images/polycontrol.danalock/inclusion.jpg)
 
@@ -213,8 +213,8 @@ Aufnahme beziehen sich darauf
 
 ![inclusion2](images/polycontrol.danalock/inclusion2.jpg)
 
-
-".
+Klicken Sie in der Anwendung auf "Smart Home", dann auf "Z-Wave" und schließlich
+auf "CONNECT".
 
 Einmal enthalten, sollten Sie dies erhalten :
 
@@ -224,16 +224,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/polycontrol.danalock/commandes.jpg)
+![Befehle](images/polycontrol.danalock/commandes.jpg)
 
 \.
 
@@ -288,17 +288,17 @@ Parameterdetails :
 
 \.
 
--   1 :  : 
-    
+-   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
+    gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
     verrouillé
 
--   2 : 
-    
+-   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
+    schneller
 
--   3 : 
-    
+-   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Modus
+    volle Ausbildung (Normal)
 
--   4 : 
+-   4 : Anzahl der Umdrehungen (1 = 10 Grad, 9 = 90 Grad usw.)
 
 -   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Moment
     Das Schloss wurde entsperrt, um es automatisch zu schließen

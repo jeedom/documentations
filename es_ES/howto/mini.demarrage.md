@@ -26,7 +26,7 @@ La caja Jeedom Mini + que recibió debe contener :
 ![mini.demarrage01](images/mini.demarrage01.png)
 
 Antes de poder usarlo, debe enchufar su caja Jeedom Mini +
-en su red local (en enrutador, conmutador o caja de internet ...), y
+en su red local (en enrutador, conmutador o caja de internet, etc.), y
 en el sector.
 
 ![mini.demarrage02](images/mini.demarrage02.png)
@@ -51,17 +51,17 @@ Complementos de widgets y scripts.
 
 ![mini.demarrage07](images/mini.demarrage07.png)
 
-Plugin de clima.
+El plugin meteorológico.
 
 ![mini.demarrage08](images/mini.demarrage08.png)
 
-Encontrará muchos otros complementos directamente a través de
+Todavía encontrará muchos otros complementos directamente a través de
 Interfaz Jeedom en el mercado Jeedom.
 
 Además, no olvides que tienes 2 cupones
 (enviado por correo electrónico), lo que le permite instalar 2 complementos pagos
 gratis (RFXCOM y alarma). Para usarlo debes crear un
-cuenta en el mercado de Jeedom, vea la documentación : [Doc
+cuenta en el mercado Jeedom, vea la documentación : [Doc
 Market](https://doc.jeedom.com/es_ES/premiers-pas/index).
 
 En el correo electrónico que recibió, también aparece el número de Servicio
@@ -74,13 +74,13 @@ diferentes servicios correspondientes a su Service Pack.
 Ahora puedes seguir la documentación : [Comenzando con
 Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
 Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y
-conectarse a él para comenzar a configurarlo y usarlo.
+inicie sesión para comenzar a configurarlo y usarlo.
 
 Para seguir explorando y usar Jeedom, tienes
 documentación completa : [Documentación
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
 video tutoriales : [Video tutoriales](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
-No dudes en ir al Foro Jeedom por cualquier otro
-pregunta : [Foro de Jeedom](https://www.jeedom.com/forum/).
+No dudes en ir al Foro de Jeedom por cualquier otro
+Pregunta : [Foro de Jeedom](https://www.jeedom.com/forum/).
 
-Gracias, y buen descubrimiento de domótica con Jeedom.
+Gracias y buen descubrimiento de la automatización del hogar con Jeedom..

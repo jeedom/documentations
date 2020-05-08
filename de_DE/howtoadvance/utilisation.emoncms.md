@@ -31,7 +31,7 @@ Die URL von Push hat die Form :
 
 Mit Parametern :
 
--   id : Die auf Emoncms gefundene Feed-ID
+-   Identifikation : Die auf Emoncms gefundene Feed-ID
 
 -   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
 
@@ -43,13 +43,13 @@ Mit Parametern :
 Benachrichtigung an Jeedom oder Wiederherstellung von Jeedom 
 ======================================================
 
-Um Daten von Emoncms in Jeedom aufzunehmen, gibt es zwei Möglichkeiten
+Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten
 :
 
 -   Die erste besteht darin, Informationen über das Skript-Plugin in Jeedom zu erstellen
     und verwenden Sie die API-URL des Feeds. Diese Methode erfordert eine Wiederherstellung
     der Wert regelmäßig oder über Szenario zum Beispiel und normal
-    Nicht nützlich, da die Daten ihre Quelle in jeedom\_setting haben
+    nicht nützlich, da die Daten ihre Quelle in jeedom\_setting haben
 
         https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
 
@@ -111,5 +111,5 @@ Special Conf brauchen ein klassisches Repertoire
     }
 
     location @missing {
-            schreibe ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
+            schreibe um ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
     }

@@ -4,14 +4,14 @@ Antes de que haya algo importante que saber sobre VMware, hay 2
 camino del gerente :
 
 -   la interfaz web (presente por defecto en 6.0 actualización 2, o por
-    a través de un vib para las otras versiones), se accede por
+    a través de un vib para las otras versiones), accedemos a él por
     IP\_ESXI / ui
 
 -   El cliente pesado e histórico de VMware (cliente vSphere)
 
 Aquí utilizaré principalmente la interfaz web porque creo que es
-El futuro de VMware que cada vez más abandona al cliente pesado
-(por cierto todas las noticias desde el 5.1 no se puede usar
+El futuro de VMware que abandona cada vez más al cliente grueso
+(por cierto todas las nuevas características desde los 5.1 no se puede usar
 con el cliente pesado).
 
 También tenga en cuenta que la interfaz web todavía se está implementando
@@ -30,7 +30,7 @@ Vaya a IP\_ESXI / ui con su navegador de Internet, debe tener :
 >
 > Si no tienes nada te aconsejo que instales
 > interfaz web, toda la información
-> [aqui]((https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [aquí]((https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Ingrese sus credenciales de inicio de sesión en ESXI :
 
@@ -49,7 +49,7 @@ puede ya desde esta pantalla :
 
 -   botón para crear una VM (la usaremos justo después)
 
--   un botón de acción que también le permite ingresar al modo de mantenimiento
+-   un botón de acción que le permite cambiar al modo de mantenimiento
     (útil si tiene un clúster ESXi, de lo contrario no lo hará
     nunca servir), habilitar / deshabilitar el servicio SSH (se usa
     en el tutorial de configuración de respaldo)
@@ -57,8 +57,8 @@ puede ya desde esta pantalla :
 Envío de instalación ISO 
 =============================
 
-Después de descargar su instalación ISO
-(([aqui]((http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
+Después de descargar su instalación iso
+(([aquí]((http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 por ejemplo para debian 8.5 en netinstall), debes ponerte
 tu almacén de datos.
 
@@ -119,12 +119,12 @@ duro, cpu, memoria ...) :
 > **Note**
 >
 > Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta
-> Sin embargo, no es realmente posible reducir el tamaño
-> de un disco duro, podemos aumentarlo (pero hay que saber cómo administrarlo
+> sin embargo, no es realmente posible reducir el tamaño
+> un disco duro, puede aumentarlo (pero debe saber cómo administrarlo
 > Nivel del sistema operativo siguiente) pero no lo reduce.
 
 En la unidad de CD / DVD, seleccione "Banco de archivos ISO de
-datos" :
+Datos" :
 
 ![vmware.createvm10]((images/vmware.createvm10.PNG)
 
@@ -142,7 +142,7 @@ Luego tiene un resumen de su configuración, haga clic en
 
 ![vmware.createvm13]((images/vmware.createvm13.PNG)
 
-Un mensaje en la parte superior le dirá que es bueno, luego haga clic en
+Un mensaje en la parte superior le dirá que está bien, luego haga clic en
 "Máquinas virtuales" :
 
 ![vmware.createvm14]((images/vmware.createvm14.PNG)
@@ -169,7 +169,7 @@ su sistema operativo :
 > "sudo apt-get -y install open-vm-tools".
 
 Para el resto de la instalación, los invito a leer esto.
-[tutorial]((https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
+[Tutorial]((https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
 
 Montar dispositivos USB en la VM 
 =======================================
@@ -178,18 +178,18 @@ Montar dispositivos USB en la VM
 >
 > Si no tiene las siguientes opciones, es necesario actualizar
 > el cliente de host integrado ESXi, toda la información
-> [aqui]((https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+> [aquí]((https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
 
 Es una necesidad bastante rara, pero tuve que usarla para Jeedom, en
 de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM
-de enchufado y tuve que conectarlos a mi máquina virtual Jeedom para poder
+conectado y tuve que conectarlos a mi máquina virtual Jeedom para poder
 úsalo.
 
 > **Note**
 >
 > Para Zwave, RFXcom, edisio y enOcean no hay problema, para
 > Claves GSM debe seguir esto
-> [tutorial]((https://doc.jeedom.com/es_ES/howto/doc-howto-gsm.huawei_mode_modem.html)
+> [Tutorial]((https://doc.jeedom.com/es_ES/howto/doc-howto-gsm.huawei_mode_modem.html)
 > antes de forzar la clave en modo módem solo de lo contrario no es
 > no se ve correctamente en el ESXi.
 

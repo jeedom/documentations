@@ -3,9 +3,9 @@
 Hardware | Estado | Remarques
 --- | --- | ---
 Jeedomboard             | Estable                  |
-Hummboard            | Estable                  |
+Colibrí            | Estable                  |
 Odroid C2               | Estable                  |                          
-Inteligente                   | Estable                  |                          
+INTELIGENTE                   | Estable                  |                          
 RPI1                    | Estable                  |                          
 RPI2                    | No oficial / estable     |                          
 RPI3                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
@@ -14,25 +14,25 @@ RPI4                    | No oficial / estable     | Atención si usas un wifi /
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom.
 
-El equipo de jeedom te recomienda (dependiendo de tu presupuesto) :
+El equipo de jeedom lo recomienda (según su presupuesto) :
 
 - Jeedom Smart (todo está preinstalado, no tiene que hacer nada)
 - Odroid C2 (mejor relación rendimiento / precio)
-- Intel Nuc gen (rendimiento extremo, consulte la categoría de tutoriales para la elección en los diferentes modelos e instalación)
+- Intel Nuc gen (rendimiento extremo, consulte la categoría de tutoriales para la elección en diferentes modelos e instalación)
 - RPI4
 
 #  Images
 
-Puedes encontrar todas las imágenes de Jeedom [aqui](https://images.jeedom.com/)
+Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com/)
 
 | Imágenes         | Hardware       | Estado           | Acceso SSH      | Observaciones      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | Jeedomboard y | Estable         | root / Mjeedom96 |                |
 |                | colibrí   |                |                |                |
-| Docker         |                | Beta           | root / Mjeedom96 |                |
+| Estibador         |                | Beta           | root / Mjeedom96 |                |
 
 
-Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [doc](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid, ...)
+Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [Doctor](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid, ...)
 
 #  Logiciel
 
@@ -40,7 +40,7 @@ Todas las demás imágenes descargables anteriormente ya no se mantienen, es mej
 >
 > Jeedom solo es compatible con Debian Jessie (no recomendado), Stretch (no recomendado) y Buster (estable). Jeedom no admite ninguna otra versión (Wheezy ...) o distribución (Ubuntu ...)..
 
-| Apellido                     | Estado                    | Observaciones                |
+| Nombre                     | Estado                    | Observaciones                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 o menos        | No compatible            |                          |
 | PHP 5.6                 | Estable                  |                          |
@@ -52,24 +52,24 @@ Todas las demás imágenes descargables anteriormente ya no se mantienen, es mej
 
 # Bluetooth
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/blea/equipement.compatible) Módulos Bluetooth compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/blea/equipement.compatible) Módulos Bluetooth compatibles con Jeedom
 
 # Cámaras
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/camera/equipement.compatible) Cámaras compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/camera/equipement.compatible) Cámaras compatibles con Jeedom
 
 # Edisio
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/edisio/equipement.compatible) Módulos Edisio compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/edisio/equipement.compatible) Módulos Edisio compatibles con Jeedom
 
 # EnOcean
 
-Controlador EnOcean :
+Controlador ENOCEAN :
 
 -   Llave USB EnOcean USB300
--   Llave USB EnOcean USB310 (recomendada)
+-   Memoria USB EnOcean USB310 (recomendada)
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) Módulos EnOcean compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) Módulos EnOcean compatibles con Jeedom
 
 # RFXcom
 
@@ -78,7 +78,7 @@ Controlador RFXcom :
 -   RFXtrx433 USB
 -   RFXtrx433E USB (recomendado)
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/rfxcom/equipement.compatible) Módulos Rfxcom compatibles con Jef
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/rfxcom/equipement.compatible) Módulos Rfxcom compatibles con Jef
 
 # SMS (GSM)
 
@@ -92,15 +92,15 @@ Controlador Zigbee :
 
 - [Phoscon Conbee I / II](http://bit.ly/2n4VyWc)
 
-Encontrarás la lista [aqui](https://phoscon.de/en/conbee/compatible) Módulos Zigbee compatibles con Jeedom
+Encontrarás la lista [aquí](https://phoscon.de/en/conbee/compatible) Módulos Zigbee compatibles con Jeedom
 
 # Zwave
 
-Controlador Z-WAVE :
+Controlador Z-Wave :
 
 -   DISEÑOS SIGMA Controlador USB Z-Wave Plus
--   Z-WAVE.ME - Mini controlador USB Z-Wave Plus UZB1
+-   Onda Z.ME - Mini controlador USB Z-Wave Plus UZB1
 -   Controlador AEON LABS Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Controlador USB Z-Wave Plus Z-Stick GEN5 (recomendado)
 
-Encontrarás la lista [aqui](https://doc.jeedom.com/es_ES/zwave/equipement.compatible) Módulos de onda Z compatibles con Jeedom
+Encontrarás la lista [aquí](https://doc.jeedom.com/es_ES/zwave/equipement.compatible) Módulos de onda Z compatibles con Jeedom

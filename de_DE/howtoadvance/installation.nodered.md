@@ -26,7 +26,7 @@ automatisch gestartet, wenn die Box startet. Ein Beispiel hier :
 Apache-Konfiguration 
 ======================
 
-Hier ist ein Beispiel für eine Datei, über die über eine Umkehrung auf Nodered zugegriffen werden kann
+Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered zugegriffen werden kann
 proxy.
 
     <Location /jeedom/nodered>
@@ -39,7 +39,7 @@ proxy.
 Konfiguration von Nginx 
 ======================
 
-Hier ist ein Beispiel für eine Datei, über die über eine Umkehrung auf Nodered zugegriffen werden kann
+Hier ist ein Beispiel für eine Datei, mit der über eine Umkehrung auf Nodered zugegriffen werden kann
 proxy.
 
     Ort / Jeedom / Nodered / {
@@ -66,7 +66,7 @@ Avahi / Hello-Erkennungsmodul
 sudo npm installiere Node-Red-Node-Discovery -g \# Google-Modul sudo npm
 installiere node-red-node-google -g \# sonnenereignismodul sudo npm install
 node-red-contrib-sunevents -g \# Json-Pfad sudo npm install
-Node-Red-Contrib-Jsonpath -g \# Geofence-Modul, prüfen Sie, ob die Lokalisierung erfolgt
+Knoten-Rot-Contrib-Jsonpath -g \# Geofence-Modul, überprüfen Sie, ob die Lokalisierung erfolgt
 ist in der Zone sudo npm install node-red-node-geofence -g \# geohas, decodiere
 Breitengrad Längengrad vom String sudo npm install node-red-node-geohash -g
 \# Foursquare, Empfehlung zum Standort sudo npm install
@@ -76,7 +76,7 @@ Node-Red-Contrib-Advanced-Ping -g sudo npm installiere Node-Red-Node-Ping -g
 node-red-node-snmp -g \# Wetter sudo npm installieren
 Node-Red-Node-Forecastio -g sudo npm installieren
 node-red-node-openweathermap -g sudo npm installieren
-Node-Red-Node-Weather-Underground -g \# Allgemeine GPIO sudo npm-Installation
+Node-Red-Node-Weather-Underground -g \# Allgemeine GPIO-Sudo-Npm-Installation
 node-red-contrib-gpio -g \# Electirc Imp sudo npm installieren imp-io -g \#
 Spark Core sudo npm installiere spark-io -g \# Arduino / Firmata sudo npm
 installiere firmata -g \# Pushover sudo npm installiere node-red-node-pushover
@@ -97,7 +97,7 @@ node-red-contrib-openzwave -g \# RFXcom sudo npm installieren
 node-red-contrib-rfxcom -g \# OWFS sudo npm installieren
 Node-Red-Contrib-Owfs -g \# Nest sudo npm installiere Node-Red-Contrib-Nest
 -g \# Hue sudo npm installieren node-red-contrib-hue -g \# Spark-Core Sudo
-npm install knoten-rot-beitrag-sparkcore -g \# Wemo sudo npm installieren
+npm install node-red-contrib-sparkcore -g \# Wemo sudo npm install
 node-red-node-wemo -g \# Zibase sudo npm installiere node-red-contrib-zibase
 -g \# SensorTag sudo npm installieren node-red-node-sensortag -g \#
 Blinkstick sudo npm installiere node-red-node-blinkstick -g \# Blink1 sudo

@@ -1,4 +1,4 @@
-# Mobile Version
+# Mobil Version
 
 Jeedom kann auf zwei Arten auf Mobilgeräten verwendet werden.
 
@@ -6,18 +6,18 @@ Jeedom kann auf zwei Arten auf Mobilgeräten verwendet werden.
 
 Jeedom verwendet eine bestimmte Version für Handys und Tablets. Sie greifen über dieselbe Adresse in einem Browser auf Mobilgeräten (Firefox, Chrome, Safari usw.) darauf zu..
 
-Diese angepasste Version wird aus Gründen der Anzeige und Leistung ebenfalls vereinfacht.
+Diese angepasste Version wird aus Anzeige- und Leistungsgründen ebenfalls vereinfacht.
 
 ![Web App](images/webApp.png)
 
-- Ausrüstung : Greifen Sie nach Objekt auf das Dashboard zu. Sie können auch die Zusammenfassung anzeigen.
-- Beiträge : Nachrichtenzentrum anzeigen.
+- Geräte : Greifen Sie nach Objekt auf das Dashboard zu. Sie können auch die Zusammenfassung anzeigen.
+- Nachricht : Nachrichtenzentrum anzeigen.
 - Ansichten : Greifen Sie auf Ihre Ansichten zu.
-- Designs : Greifen Sie auf Ihr Design oder 3D-Design zu. (Die Anzeige eines Designs erfolgt im Vollbildmodus. Klicken Sie mit drei Fingern, um zur Startseite zurückzukehren.).
+- Design : Greifen Sie auf Ihr Design oder 3D-Design zu. (Die Anzeige eines Designs erfolgt im Vollbildmodus. Klicken Sie mit drei Fingern, um zur Startseite zurückzukehren.).
 - Szenario : Anzeige der Kacheln Ihrer Szenarien nach Gruppen mit der Möglichkeit zum Aktivieren / Deaktivieren, Stoppen / Starten. Durch Klicken auf den Titel des Skripts greifen Sie auf dessen Protokoll zu.
 - Analyse : Greifen Sie auf die Zeitleiste, Protokolle, Geräteanalyse, Cron, Dämonen und Gesundheit zu.
-- Andere : Wechseln Sie zwischen dem Haupt- und dem Alternativthema, greifen Sie auf die Desktop-Version zu, erzwingen Sie das Update, greifen Sie auf die Dokumentation zu oder trennen Sie die Verbindung.
-- Plugins : Einige Plugins verfügen möglicherweise über eine dedizierte WebApp-Anzeige. Sie werden hier zugänglich sein.
+- Andere : Wechseln Sie zwischen dem Haupt- und dem alternativen Thema, greifen Sie auf die Desktop-Version zu, erzwingen Sie das Update, greifen Sie auf die Dokumentation zu, über oder melden Sie sich ab.
+- Plugins : Einige Plugins verfügen möglicherweise über eine dedizierte WebApp-Anzeige. Sie werden hier verfügbar sein.
 
 > Tips
 >

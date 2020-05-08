@@ -25,11 +25,11 @@ Resumen
 \
 
 El módulo de enchufe PowerNode de GreenWave es un dispositivo inteligente que
-se conecta a uno de sus electrodomésticos y productos electrónicos para
+se conecta a uno de sus electrodomésticos y dispositivos electrónicos para
 le permite monitorear y controlar el consumo de energía a
 distancia a través del navegador web o teléfono inteligente.
 
-Usando la tecnología Z-Wave, la salida controlada por PowerNode es
+Usando la tecnología Z-Wave, el tomacorriente controlado por PowerNode es
 compatible con la mayoría de las cajas de domótica del mercado, como Fibaro
 Home Center 2, eedomus o Zipabox.
 
@@ -41,7 +41,7 @@ un calendario para activar o desactivar automáticamente su dispositivo
 en tiempos predefinidos.
 
 Una pequeña rueda en el costado del zócalo le permite elegir un color.
-que representará la habitación a la que está asignado. Por ejemplo "
+que representará la sala a la que está asignado. Por ejemplo "
 azul para el dormitorio ". Este consejo le permitirá diferenciar su
 diferentes enchufes PowerNode y múltiples enchufes. También podemos ajustar
 esta rueda en un candado. Esta función le permite bloquear el
@@ -53,7 +53,7 @@ brillante que proporciona información diferente según su color :
 enchufes de encendido o apagado, alcance de radio limitado, modo de inclusión y
 exclusion.
 
-El módulo de enchufe PowerNode está equipado con una protección contra
+El módulo de enchufe PowerNode está equipado con protección contra
 sobrecorrientes para proteger el dispositivo conectado. El zócalo PowerNode
 desactivado en caso de un dispositivo defectuoso o
 cortocircuito. El fusible proporciona protección adicional
@@ -61,7 +61,7 @@ interno ubicado en el zócalo.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -71,7 +71,7 @@ Las funciones
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y
     la carga a la orden
 
--   Permite monitorear el consumo del dispositivo conectado
+-   Permite el monitoreo del consumo del dispositivo conectado
 
 -   Función ON / OFF
 
@@ -91,7 +91,7 @@ Características técnicas
 
 \
 
--   Comida : 250 V CA, 50 Hz
+-   Suministro : 250 V CA, 50 Hz
 
 -   Corriente de carga máxima : 10A
 
@@ -126,7 +126,7 @@ Datos del módulo
 
 -   Hacer : GreenWave
 
--   Apellido : GreenWave \ [1 x enchufe \]
+-   Nombre : GreenWave \ [1 x enchufe \]
 
 -   ID del fabricante : 153
 
@@ -136,14 +136,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -166,7 +166,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -175,7 +175,7 @@ disponibles.
 
 \
 
-![Órdenes](images/greenwave.Powernode1/commandes.jpg)
+![Comandos](images/greenwave.Powernode1/commandes.jpg)
 
 \
 
@@ -186,7 +186,7 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer el estado de la
     prise
 
--   Nosotros : Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
@@ -207,12 +207,12 @@ en un botón.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -288,7 +288,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 
@@ -297,7 +297,7 @@ Faq.
 
 \
 
-¿Has asociado el grupo 3 del módulo con Jeedom ?
+¿Has asociado el grupo 3 del módulo con Jeedom? ?
 
 \
 

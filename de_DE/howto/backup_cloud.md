@@ -3,8 +3,8 @@
 Sobald der Dienst gekauft wurde, ist es in jeedom notwendig : 
 
 - Gehen Sie zur Verwaltung und dann in die Registerkarte "Update / Market" und füllen Sie
-  - [Backup Cloud] Name : Name des Ordners oder erstellen Sie die Backups von jeedom (wenn Sie ein jeedom haben, setzen Sie einfach jeedom, andernfalls legen Sie einen Ordner von jeedom ab)
-  - [Backup Cloud] Passwort : Backup-Verschlüsselungskennwort. Seien Sie vorsichtig, wenn Sie es verlieren. Backups gehen verloren. Es ist unmöglich, das Passwort wiederherzustellen
+  - [Backup Cloud] Name : Name des Ordners oder legen Sie die Backups von jeedom ab (wenn Sie ein jeedom haben, setzen Sie einfach jeedom, andernfalls legen Sie einen Ordner von jeedom ab)
+  - [Backup Cloud] Passwort : Backup-Verschlüsselungskennwort. Seien Sie vorsichtig, wenn Sie es verlieren, gehen die Backups verloren. Es ist unmöglich, das Passwort wiederherzustellen
 - Aktivieren Sie in der Sicherungsverwaltung das Kontrollkästchen "Sicherungen senden" auf der Ebene "Marktsicherungen""
 
 >**NOTE**

@@ -45,7 +45,7 @@ existing switch, or three wires with conventional power supply from
 module (Phase + Neutral).
 
 For lamps with very low consumption (LED lamp by
-example), you can use the load (bypass) FGB-001 which allows
+example), you can use the FGB-001 load (bypass) which allows
 correct operation of the module. A Z-Wave controller (remote control,
 dongle…) is necessary in order to integrate this detector into your network
 if you already have an existing network. Each Z-Wave module works
@@ -86,7 +86,7 @@ Technical characteristics
 
 -   Food : 230V, 50 Hz
 
--   Wiring : neutral not necessary
+-   Wiring : neutral not required
 
 -   Max load : 25-500W (resistive load) or 1.5A (inductive load)
 
@@ -118,7 +118,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Fibaro FGMS-001 \ [Motion Sensor \]
+-   Name : Fibaro FGMS-001 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -128,14 +128,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -166,7 +166,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -175,7 +175,7 @@ disponibles.
 
 \
 
-![Orders](images/fibaro.fgd211/commandes.jpg)
+![Commands](images/fibaro.fgd211/commandes.jpg)
 
 \
 
@@ -184,14 +184,14 @@ Here is the list of commands :
 \
 
 -   Intensity : This is the command that allows you to adjust the intensity of the
-    light
+    Light
 
 -   We : It is the control that turns on the light
 
 -   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
-    light
+    Light
 
 Note that on the dashboard all the information is found on the same
 icone
@@ -203,12 +203,12 @@ icone
 \
 
 You can configure the module according to your
-installation. To do this, go to the "Configuration" button of the
+installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -229,7 +229,7 @@ Parameter details :
 
 \
 
--   1: ALL ON / ALL OFF functions : used that if you have associated the
+-   1: ALL ON / ALL OFF functions : used only if you have associated the
     FGD-211 to another module
 
 -   6: lets say how information is sent to the group
@@ -253,7 +253,7 @@ Parameter details :
 -   14: IMPORTANT ADJUSTMENT : allows to choose between switch
     BISTABLE or MONOSTABLE (push button)
 
--   15: activates the option allowing to set the maximum brightness
+-   15: activates the option allowing to set the brightness to the maximum
     on double press (or go back on bistable)
 
 -   16: option to activate the memorization of the last state
@@ -261,7 +261,7 @@ Parameter details :
 -   17: allows you to choose between back and forth mode and
     remote control switch
 
--   18: allows you to synchronize the level of variation with others
+-   18: allows to synchronize the level of variation to others
     associated drives
 
 -   19: operating mode of the bistable switch (reversing

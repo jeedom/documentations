@@ -4,7 +4,7 @@
 
 El monitoreo en la nube es un servicio pago de Jeedom SAS que monitorea permanentemente tus Jeedoms o tus Jeedoms y te advierte en caso de problemas.
 
-Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres : 
+Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres. : 
 
 - 12 meses : 1 mes gratis
 - 24 meses : 4 meses gratis
@@ -16,7 +16,7 @@ Jeedom envía regularmente la información de la página de salud a nuestro serv
 
 ## Como me avisan
 
-De manera predeterminada, se le notifica por un correo electrónico en su correo electrónico configurado en sus perfiles, pero puede hacerlo en la configuración de monitoreo en la nube (en la página de perfiles de su mercado) : 
+De forma predeterminada, se le notifica por un correo electrónico en su correo electrónico configurado en sus perfiles, pero puede hacerlo en la configuración de la supervisión en la nube (en la página de perfiles de su mercado) : 
 
 - Poner otra dirección de correo electrónico (solo una posible)
 - Agregar una alerta en Telegram
@@ -32,10 +32,10 @@ De manera predeterminada, se le notifica por un correo electrónico en su correo
 
 El procedimiento es bastante simple, tienes que : 
 
-- tiene crédito de monitoreo en la nube (puede comprarlo en lotes de 1 mes, por lo que puede tomar 2 meses y luego detener 6 meses y luego reanudarlo)
+- tiene crédito de monitoreo en la nube (puede comprarlo en un lote de 1 mes, por lo que puede tomar 2 meses y luego detener 6 meses y luego reanudarlo)
 - tener libertad 3.3.44 min
 
-Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "prueba" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
+Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "probar" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
 
 >**IMPORTANT**
 >

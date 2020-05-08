@@ -7,7 +7,7 @@ Botón de color inteligente Philio
 
 \
 
-![módulo](images/philio.psr04/module.jpg)
+![Modulo](images/philio.psr04/module.jpg)
 
 \
 
@@ -35,7 +35,7 @@ Solo puede operar por asociación directa con
 dispositivos, y no puede iniciar escenas creadas en su controlador
 Automatización del hogar Z-Wave.
 
-Utilizado como una unidad, tiene el mismo comportamiento que una unidad
+Utilizado como unidad, tiene el mismo comportamiento que una unidad
 tradicional Gire la perilla hacia la derecha para aumentar el
 luz, y a la izquierda para disminuirlo.
 
@@ -51,7 +51,7 @@ bajo consumo de energía que permite una mayor autonomía.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -87,7 +87,7 @@ Características técnicas
 
 \
 
--   Comida : Batería de polímero de litio 3.7V, 220mA v
+-   Suministro : Batería de polímero de litio 3.7V, 220mA v
     la batería : 6 meses por 2 horas de carga
 
 -   Consumo en espera : 18µA
@@ -100,7 +100,7 @@ Características técnicas
 
 -   Dimensiones :
 
-Apoyo : Botón de 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
+Apoyo : Botón 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
 mm (diámetro x grosor) Soporte + Botón : 71,16 x 17,22 mm (diámetro
 x espesor) \* Certificaciones :
 
@@ -116,7 +116,7 @@ Datos del módulo
 
 -   Hacer : Philio
 
--   Apellido : Botón de color inteligente PSR04
+-   Nombre : Botón de color inteligente PSR04
 
 -   ID del fabricante : 316
 
@@ -126,14 +126,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -157,7 +157,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -166,7 +166,7 @@ disponibles.
 
 \
 
-![Órdenes](images/philio.psr04/commandes.jpg)
+![Comandos](images/philio.psr04/commandes.jpg)
 
 \
 
@@ -199,7 +199,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -253,12 +253,12 @@ Bueno saber
 
 Para usar este módulo como control remoto, proceda de la siguiente manera :
 
--   Agregue el controlador al grupo 2
+-   Agregue el controlador en el grupo 2
 
 De hecho, este tipo de módulo no está hecho para interactuar directamente
 con una caja pero directamente con otros módulos. Sin embargo en
 agregando Jeedom al grupo 2, esto permite recibir la posición del
-botón y, por lo tanto, úselo para controlar un escenario (establezca un
+botón y, por tanto, úselo para controlar un escenario (establezca un
 volumen por ejemplo)
 
 Despertador 

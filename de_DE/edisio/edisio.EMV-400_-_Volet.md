@@ -11,7 +11,7 @@ Zusammenfassung
 
 Mit dem Mikromodul EMV-400 können Sie einen Motor verwalten
 bidirektionale oder elektrische Geräte. Es ermöglicht die Kontrolle
-2 Ein / Aus-Ausgänge oder ein Verschluss zum Öffnen / Stoppen / Schließen.
+2 Start / Stopp-Ausgänge oder ein Open / Stop / Close-Verschluss.
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 steuerbar über Markenschalter und / oder Fernbedienungen
@@ -64,7 +64,7 @@ Technische Daten
 
 -   Alimentation: 230 VAC, 50 Hz
 
--   Verkabelung: 4-Draht, 2 für die Steuerung und 2 für die Stromversorgung
+-   Verkabelung: 4 Drähte, 2 für die Steuerung und 2 für die Stromversorgung
 
 -   Frequenz: 868,3 MHz
 
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Nachname : EMV-400
+-   Name : EMV-400
 
 Allgemeine Konfiguration 
 ======================
@@ -106,7 +106,7 @@ beziehen sich darauf
 > Umgekehrt müssen Edisio-Empfänger manuell in erstellt werden
 > Jeedom.
 
-DIP-Schalter und "R" -Taste" : 
+DIP-Schalter und Taste "R." : 
 --------------------------
 
 ![bouton association](images/emv.400/bouton_association.jpg)
@@ -195,26 +195,26 @@ Sobald Ihre Ausrüstung erstellt ist, sollten Sie diese erhalten :
 >
 > Denken Sie daran, Ihre neue Ausrüstung zu aktivieren.
 
-Wählen Sie in der Geräteliste rechts "Mikromodul-Verschluss"
+Wählen Sie in der Liste der Geräte rechts "Mikromodul-Verschluss" aus
 roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-Bestellungen 
+Befehle 
 ---------
 
 Sobald Ihre Ausrüstung gespeichert ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Bestellungen](images/emv.400/commande.jpg)
+![Befehle](images/emv.400/commande.jpg)
 
 Hier ist die Liste der Befehle :
 
--   Staat : Es ist der Befehl, der die Rückkehr des Status simuliert
+-   Zustand : Dies ist der Befehl, der die Rückkehr des Status simuliert
 
 -   Geh hoch : Dies ist der Befehl, der den Verschluss öffnet
 
--   Hör auf : Es ist der Befehl, der es ermöglicht, die Bewegung des Verschlusses zu stoppen
+-   STOP : Es ist der Befehl, der es ermöglicht, die Bewegung des Verschlusses zu stoppen
 
 -   Geh runter : Dies ist der Befehl, der den Verschluss schließt
 
@@ -226,22 +226,22 @@ Hier ist die Liste der Befehle :
 > Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
-Informationen 
+Information 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Bestellungen](images/emv.400/infos_moteur.jpg)
+![Befehle](images/emv.400/infos_moteur.jpg)
 
--   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   Status : Gibt den Status des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================
@@ -269,11 +269,11 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
         Ausfahrt 1 bei Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am Empfänger, um
-        Überprüfen Sie die Zuordnung, der Piepton stoppt.
+        Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
 -   Ausgabe 2 zuordnen :
 
-    -   Drücken Sie zweimal auf das "R" des Empfängers, doppelter Piepton (kurz)
+    -   Drücken Sie 2x auf das "R" des Empfängers, doppelter Piepton (kurz)
         in Wiederholung) signalisiert die Programmierung von Ausgang 2 aktiviert.
 
     -   Drücken Sie innerhalb von 10 Sekunden im Befehl "Schließen" auf "Test""
@@ -281,7 +281,7 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
         Ausfahrt 2 bei Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am Empfänger, um
-        Überprüfen Sie die Zuordnung, der Piepton stoppt.
+        Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
 > **Note**
 >
@@ -305,7 +305,7 @@ Empfänger.
         Jeedom, ein kontinuierlicher Piepton signalisiert die Assoziation mit Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "E" am Empfänger, um
-        Überprüfen Sie die Zuordnung, der Piepton stoppt.
+        Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
 Es ist geschafft, dein Jeedom ist jetzt verbunden und sein Befehl "E."
 Ersetzt jetzt die Taste "R" am Empfänger.
@@ -324,7 +324,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             die Assoziation von Ausgang 1.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E" in Jeedom, um die Zuordnung zu bestätigen, den Piepton
+            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
     -   Ausfahrt 2 :
@@ -338,7 +338,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             die Assoziation von Ausgang 2.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E" in Jeedom, um die Zuordnung zu bestätigen, den Piepton
+            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
 > **Note**

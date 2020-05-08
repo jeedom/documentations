@@ -6,9 +6,9 @@ Fuente de recuperación
 
 Puede encontrar la última versión de Debian en netinstall (tamaño
 mínimo pero necesita internet para la instalación)
-[aqui](https://www.debian.org/CD/netinst) (tienes que tomar la imagen en
+[aquí](https://www.debian.org/CD/netinst) (tienes que tomar la imagen en
 amd64) o haga clic directamente
-[aqui](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
+[aquí](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
 para descargar el ISO.
 
 Lanzamiento de la instalación 
@@ -17,12 +17,12 @@ Lanzamiento de la instalación
 En una maquina fisica 
 ------------------------
 
-Debe grabar el ISO en un CD y poner el CD en la máquina
+Debes grabar el ISO en un CD y poner el CD en la máquina
 (pero hoy en día los reproductores de CD son cada vez más raros) más o menos
 crear una llave USB de arranque.
 
 Para la llave USB de arranque, descargue rufus
-[ahi](http://rufus.akeo.ie/downloads/rufus-2.9.exe), lanzamiento y
+[el](http://rufus.akeo.ie/downloads/rufus-2.9.exe), lanzamiento y
 configurar así :
 
 ![debian.installation](images/debian.installation.PNG)
@@ -41,7 +41,7 @@ En una máquina virtual
 El manejo es bastante simple, creas una nueva máquina
 virtual, se conecta, coloca un reproductor de CD virtual que apunta
 a la ISO (recuerde conectarlo) y enciende la máquina. Ver
-[aqui](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html)
+[aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html)
 para más detalles.
 
 Instalación 
@@ -51,7 +51,7 @@ Presione enter para comenzar la instalación :
 
 ![debian.installation1](images/debian.installation1.PNG)
 
-Elija "francés" y confirme con la tecla Intro
+Elija "Francés" y confirme con la tecla Intro
 
 ![debian.installation2](images/debian.installation2.PNG)
 
@@ -59,7 +59,7 @@ Aquí tienes que elegir "francés"
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-Lo mismo :
+ídem :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
@@ -103,7 +103,7 @@ Confirme presionando enter :
 
 ![debian.installation13](images/debian.installation13.PNG)
 
-Lo mismo :
+ídem :
 
 ![debian.installation14](images/debian.installation14.PNG)
 
@@ -127,7 +127,7 @@ Confirme presionando enter :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-Lo mismo :
+ídem :
 
 ![debian.installation20](images/debian.installation20.PNG)
 
@@ -136,7 +136,7 @@ Y de nuevo (sí, validamos mucho en una instalación de Debian) :
 ![debian.installation21](images/debian.installation21.PNG)
 
 Ahora más complicado, debe anular la selección de "entorno de
-Escritorio Debian "presionando la tecla espacio y seleccionando" servidor
+Escritorio de Debian "presionando la tecla de espacio y seleccionando" servidor
 SSH "presionando la barra espaciadora (mover con las flechas en el
 teclado), luego confirme presionando enter :
 
@@ -163,7 +163,7 @@ Optimización para Jeedom
 ========================
 
 Para preparar la instalación de Jeedom puedes hacer algunos
-optimizaciones :
+Optimizaciones :
 
 Añadir vim y sudo 
 -------------------
@@ -174,7 +174,7 @@ Añadir fail2ban
 ----------------
 
 Fail2ban es un software que le permite asegurar el acceso a su Debian,
-en caso de demasiados fallos de conexión, bloquea el acceso a
+en caso de demasiadas fallas de conexión, bloquea el acceso a
 la IP en cuestión (por lo tanto, no para todos, solo para el atacante) a
 algun tiempo.
 
@@ -190,4 +190,4 @@ en un hipervisor ESXi.
     sudo apt-get install -y open-vm-tools
 
 Solo tienes que instalar Jeedom siguiendo
-[esto](https://doc.jeedom.com/es_ES/installation/index#tocAnchor-1-27)
+[este](https://doc.jeedom.com/es_ES/installation/index#tocAnchor-1-27)

@@ -25,7 +25,7 @@ Summary
 \
 
 The FGR-222 micromodule will allow you to manage the motorizations of
-shutter with electronic stop, Venetian blinds or doors
+shutter with electronic stop, Venetian blinds or the doors of
 garage thanks to the Z-Wave protocol while keeping your switch
 existing. You will therefore be able to activate the connected motor by
 using the existing switch, a Z-Wave transmitter or directly
@@ -43,7 +43,7 @@ Each Z-Wave module functions as a wireless repeater with the
 other modules, to ensure full coverage of your
 habitation.
 
-Note : This module requires neutral to operate.
+NOTE : This module requires neutral to operate.
 
 \
 
@@ -113,7 +113,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Fibaro FGR-222
+-   Name : Fibaro FGR-222
 
 -   Manufacturer ID : 271
 
@@ -123,14 +123,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -153,7 +153,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -162,9 +162,9 @@ disponibles.
 
 \
 
-![Orders](images/fibaro.fgrm222/commandes.jpg)
+![Commands](images/fibaro.fgrm222/commandes.jpg)
 
-![Orders](images/fibaro.fgrm222/commandes2.jpg)
+![Commands](images/fibaro.fgrm222/commandes2.jpg)
 
 \
 
@@ -185,9 +185,9 @@ Here is the list of commands :
 -   Refresh : It is the command which allows to ask again the position
     of the shutter
 
--   Power : Command allowing to have the module consumption
+-   Power : Command allowing to have the consumption of the module
 
--   Consumption : Power control
+-   Consumption : Control allowing to know the power
     instant used by the module
 
 -   STOP : Control to stop the movement of the shutter
@@ -197,7 +197,7 @@ Here is the list of commands :
 
 -   Tilt : Allows you to tilt the slats (adjustable slat mode)
 
--   Decline : Used to decline the slats (adjustable slat mode)
+-   Decline : Allows to decline the slats (adjustable slat mode)
 
 -   Not : Used to define the step for pressing Decline or
     Incliner
@@ -214,7 +214,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -244,7 +244,7 @@ Parameter details :
 
 -   3: type of reports (classic or fibar)
 
--   10: operating mode (Venetian blind, shutter etc…)
+-   10: operating mode (Venetian blind, shutter, etc.)
 
 -   12: duration of a full turn (in Venetian blind mode)
 
@@ -312,7 +312,7 @@ on this button available in the System tab.
 
 \
 
-### Important 
+### IMPORTANT 
 
 \
 

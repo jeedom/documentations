@@ -1,6 +1,6 @@
 Es importante tener copias de seguridad de sus máquinas virtuales y es un punto para no
 especialmente no descuidar, sin mencionar fallas de hardware que pueda
-un día necesita volver a una copia de seguridad después de un mal
+un día necesitando volver a una copia de seguridad después de un mal
 manipulación o un problema después de una actualización. Ten cuidado aquí nosotros
 está hablando de la imagen completa de las máquinas virtuales, no es solo una copia de seguridad de la aplicación,
 por lo tanto tendrá un tamaño bastante grande.
@@ -14,14 +14,14 @@ absolutamente 2 almacenes de datos. Para esto tienes varias opciones :
     necesita agregar un sistema de archivos de red a VMware para que vea
     este como un almacén de datos
 
-Para este tutorial utilizaré la interfaz web de ESXi que es
+Para este tutorial usaré la interfaz web de ESXi que es
 disponible ya sea instalando un vib o desde la versión
 6.0 actualización 2. Como recordatorio, para acceder a esta interfaz solo
 ir a IP\_ESXI / ui
 
 > **Note**
 >
-> Para este tutorial utilizaré la interfaz web de ESXi que es
+> Para este tutorial usaré la interfaz web de ESXi que es
 > disponible ya sea instalando un vib o desde
 > versión 6.0 actualización 2. Para recordatorios para acceder a esta interfaz,
 > solo ve a IP\_ESXI / ui
@@ -30,9 +30,9 @@ Instalación de GhettoVCB
 =========================
 
 Debemos recuperar esto
-[guion](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
+[Guión](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
 y transferirlo al ESXi (en el mismo almacén de datos que el que va
-bienvenido copias de seguridad, por ejemplo).
+bienvenidos respaldos por ejemplo).
 
 > **Note**
 >
@@ -100,13 +100,13 @@ Los parámetros que debe adaptar son :
 > **Note**
 >
 > Puedes consultar
-> [aqui](https://communities.vmware.com/docs/DOC-8760) la documentación
+> [aquí](https://communities.vmware.com/docs/DOC-8760) la documentación
 > completo de ghettoVCB con una descripción de cada parámetro
 
 > **Important**
 >
 > Tenga cuidado de poner / final para el parámetro
-> VM\_BACKUP\_VOLUME de lo contrario el script tendrá un error
+> VM\_BACKUP\_VOLUME de lo contrario, el script tendrá un error
 
 Prueba de respaldo 
 ==============
@@ -130,7 +130,7 @@ que contiene 4 archivos :
 
 -   \*.vmx ⇒ el archivo que contiene la configuración de su máquina
 
--   ESTADO.ok ⇒ indica que la copia de seguridad está bien
+-   Estado.ok ⇒ indica que la copia de seguridad está bien
 
 Aquí hay otra posibilidad para la línea de comando :
 
@@ -152,13 +152,13 @@ Aquí hay otra posibilidad para la línea de comando :
 
     /vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf
 
-Lanzamiento automático de copias de seguridad. 
+Lanzamiento automático de respaldo 
 =================================
 
 Debe agregar la línea de comando al crontab pero en VMware el
-crontab es un poco especial y se sobrescribe principalmente en cada inicio. Para
+crontab es un poco especial y se sobrescribe especialmente en cada inicio. Para
 evite esto, por lo que debe agregar un pequeño script que actualizará el
-crontab en el arranque (no te preocupes, es bastante simple y rápido),
+crontab en el arranque (no te preocupes, es bastante simple y rápido), en
 SSH en el ESXi do :
 
     vi /etc/rc.local.d/local.sh

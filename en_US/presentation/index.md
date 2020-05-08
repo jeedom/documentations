@@ -1,6 +1,6 @@
 # Presentation
 
-Jeedom is free open-source software that can be installed on any Linux system. It is based on a heart with multiple functionalities : simple and advanced scenario management, interaction with the home automation installation in text and sound, visualization of history and generation of curves and graphics, linking of all connected equipment and objects, customization of the interface...
+Jeedom is free open-source software that can be installed on any Linux system. It is based on a heart with multiple functionalities : simple and advanced scenario management, interaction with the home automation installation in text and sound, visualization of history and generation of curves and graphs, linking of all equipment and connected objects, customization of the interface...
 
 Jeedom does not require access to external servers to operate. Your entire installation is managed locally and you are therefore the only ones who have access to it to guarantee complete confidentiality..
 
@@ -13,12 +13,12 @@ Jeedom allows many possibilities including :
 - Visualize and manage energy consumption, to anticipate expenditure and reduce consumption,
 - Communicate by voice, SMS, emails or mobile applications,
 - Manage all the automations in the house, shutters, gate, lights, etc..,
-- Manage audio and video multimedia devices and connected objects.
+- Manage audio and video multimedia devices, and connected objects.
 
 
-Jeedom is based on the Core, embedding the core structure and functions.
+Jeedom is based on the Core, embedding the structure and central functions.
 
-Different [plugins](https://market.jeedom.com) can then propose new functions.
+Different [Plugins](https://market.jeedom.com) can then propose new functions.
 
 The Core includes among others :
 
@@ -55,9 +55,9 @@ The Core includes among others :
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-## Update Center
+## Update center
 
-*The update center allows you to update all of Jeedom's functionalities, including the core software and its plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
+*The update center allows you to update all of Jeedom's functionality, including the core software and its plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 

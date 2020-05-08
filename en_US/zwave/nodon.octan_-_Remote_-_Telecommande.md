@@ -26,7 +26,7 @@ Summary
 
 The Octan Remote NodOn® allows you to control any receiver
 Z-Wave® or Z-Wave Plus® compatible such as the remote control socket
-NodOn® (Main Controller - Standalone mode), or even trigger
+NodOn® (Main Controller mode - Standalone), or even trigger
 scenes / actions via a compatible home automation system (mode
 Gateway)
 
@@ -63,7 +63,7 @@ Technical characteristics
 
 -   4 buttons
 
--   Wall support fixed with double-sided adhesive (included) or screws
+-   Wall support fixed by double-sided adhesive (included) or screws
     (not included)
 
 -   Integrated magnet for fixing to metal surface
@@ -86,7 +86,7 @@ Module data
 
 -   Mark : Nodon
 
--   Last name : CRC-3-1-00 Octan Remote
+-   Name : CRC-3-1-00 Octan Remote
 
 -   Manufacturer ID : 357
 
@@ -96,14 +96,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -127,7 +127,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -136,7 +136,7 @@ disponibles.
 
 \
 
-![Orders](images/nodon.octan/commandes.jpg)
+![Commands](images/nodon.octan/commandes.jpg)
 
 \
 
@@ -177,7 +177,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

@@ -36,16 +36,16 @@ compatible con cualquier tipo de variación de soporte de lámpara
 es un concentrado de tecnología, detecta automáticamente el tipo de
 carga conectada y está protegida contra sobretensión.
 
-Para las bombillas fluorescentes que no admiten variación, el
+Para bombillas fluorescentes que no admiten variación, el
 El módulo actúa automáticamente como un módulo de conmutación (ON / OFF
 uniquement).
 
-Se puede usar en modo de 2 hilos (sin neutro), reemplazando un
+Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un
 interruptor existente, o tres cables con fuente de alimentación convencional de
 módulo (Fase + Neutro).
 
 Para lámparas de muy bajo consumo (lámpara LED de
-ejemplo), puede usar la carga (bypass) FGB-001 que permite
+ejemplo), puede usar la carga FGB-001 (bypass) que permite
 correcto funcionamiento del módulo. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
 si ya tienes una red existente. Cada módulo Z-Wave funciona
@@ -54,7 +54,7 @@ cobertura total de su hogar.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -84,9 +84,9 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Comida : 230V, 50 Hz
+-   Suministro : 230V, 50 Hz
 
--   Cableado : neutral no necesario
+-   Cableado : neutral no requerido
 
 -   Carga máxima : 25-500W (carga resistiva) o 1.5A (carga inductiva)
 
@@ -118,7 +118,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Apellido : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -128,14 +128,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -166,7 +166,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -175,7 +175,7 @@ disponibles.
 
 \
 
-![Órdenes](images/fibaro.fgd211/commandes.jpg)
+![Comandos](images/fibaro.fgd211/commandes.jpg)
 
 \
 
@@ -184,14 +184,14 @@ Aquí está la lista de comandos :
 \
 
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
-    luz
+    Iluminación
 
--   Nosotros : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz.
 
 -   Apagado : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
-    luz
+    Iluminación
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
@@ -203,12 +203,12 @@ icone
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Para hacer esto, vaya al botón "Configuración" del
+instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -229,7 +229,7 @@ Detalles del parámetro :
 
 \
 
--   1: TODAS las funciones ON / ALL OFF : usado eso si has asociado el
+-   1: TODAS las funciones ON / ALL OFF : utilizado solo si ha asociado el
     FGD-211 a otro módulo
 
 -   6: digamos cómo se envía la información al grupo
@@ -253,7 +253,7 @@ Detalles del parámetro :
 -   14: AJUSTE IMPORTANTE : permite elegir entre cambiar
     BISTABLE o MONOSTABLE (pulsador)
 
--   15: activa la opción que permite establecer el brillo máximo
+-   15: activa la opción que permite establecer el brillo al máximo
     en doble pulsación (o volver a biestable)
 
 -   16: opción para activar la memorización del último estado
@@ -328,7 +328,7 @@ Despertador
 
 \
 
-No hay noción de despertar en este módulo.
+No hay noción de activación en este módulo.
 
 \
 

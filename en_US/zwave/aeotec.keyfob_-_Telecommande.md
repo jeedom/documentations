@@ -88,7 +88,7 @@ Module data
 
 -   Mark : Aeotec
 
--   Last name : Key Fob
+-   Name : Key Fob
 
 -   Manufacturer ID : 134
 
@@ -98,14 +98,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -128,7 +128,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -137,7 +137,7 @@ disponibles.
 
 \
 
-![Orders](images/aeotec.keyfob/commandes.jpg)
+![Commands](images/aeotec.keyfob/commandes.jpg)
 
 \
 
@@ -182,7 +182,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -233,7 +233,7 @@ To use this module as a remote control, proceed as follows :
 
 -   2 : Wake up the remote control
 
--   3 : Change parameter 250 to true (do this even if
+-   3 : Change parameter 250 to true (do so even if
     already appears true)
 
 -   4 : Wake up the remote control and make sure the change has been

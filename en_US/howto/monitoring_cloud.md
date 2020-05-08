@@ -16,7 +16,7 @@ Jeedom regularly sends the information on the health page to our monitoring serv
 
 ## How am i warned
 
-By default you are notified by an email on your email configured in your profiles but you can in the cloud monitoring configuration (on your market profiles page) : 
+By default you are notified by an email on your email configured in your profiles but you can in the configuration of cloud monitoring (on your market profiles page) : 
 
 - Put another email address (only one possible)
 - Add an alert on Telegram
@@ -32,7 +32,7 @@ By default you are notified by an email on your email configured in your profile
 
 The procedure is quite simple, you have to : 
 
-- have cloud monitoring credit (you can buy it in 1 month lots, so you can take 2 months then stop 6 months and then resume after)
+- have cloud monitoring credit (you can buy it in a 1 month batch, so you can take 2 months then stop 6 months and then resume after)
 - have jeedom 3.3.44 min
 
 After adding cloud monitoring credit, you must either wait a few hours (around 24 hours), or in Jeedom, on the configuration section then update click on the "test" button for connection to the market (this forces Jeedom to recover market information and therefore the fact that the cloud monitoring service is active).
@@ -43,7 +43,7 @@ After adding cloud monitoring credit, you must either wait a few hours (around 2
 
 >**IMPORTANT**
 >
-> For notifications, simply collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint/"
+> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 
 ## It is compatible with everything ?
 

@@ -27,12 +27,12 @@ Resumen
 El Soft Remote NodOn® puede controlar directamente cualquier dispositivo
 Compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn®.
 
-También puede activar escenas a través de un sistema de automatización del hogar.
+También puede desencadenar escenas a través de un sistema de automatización del hogar.
 compatible.
 
 \
 
-Las funciones 
+Funciones 
 ---------
 
 \
@@ -52,11 +52,11 @@ Características técnicas
 
 \
 
--   Comida : Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
--   Imán integrado para la fijación a la superficie metálica
+-   Imán integrado para fijación a superficie metálica.
 
 -   Resistente a golpes y salpicaduras.
 
@@ -69,7 +69,7 @@ Características técnicas
 
 -   Dimensiones 56 \*56 \*20mm
 
--   Garantía de 2 años
+-   2 años de garantia
 
 \
 
@@ -80,7 +80,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Apellido : CRC-3-6-0x Control remoto suave
+-   Nombre : CRC-3-6-0x Control remoto suave
 
 -   ID del fabricante : 357
 
@@ -90,21 +90,21 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
 > **Important**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
-> botón (+ y 0 lleno) hasta que la luz se vuelva rosa y luego
+> botón (+ y 0 lleno) hasta que la luz se vuelva rosa
 > presione el botón +, de acuerdo con su documentación en papel.
 
 \
@@ -121,7 +121,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -130,7 +130,7 @@ disponibles.
 
 \
 
-![Órdenes](images/nodon.softremote/commandes.png)
+![Comandos](images/nodon.softremote/commandes.png)
 
 \
 
@@ -141,7 +141,7 @@ Aquí está la lista de comandos :
 -   Botones : es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones        | Apoyo          | Pulsación larga     | Relajación    | Doble apoyo   |
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
@@ -174,7 +174,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -191,7 +191,7 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir el perfil del botón cuando se usa en
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar

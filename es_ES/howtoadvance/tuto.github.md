@@ -1,92 +1,92 @@
- :
+Este tutorial te presenta :
 
--   
+-   Crea una cuenta de GitHub
 
--   
+-   Jeedom Core Fork o Documentación
 
--   
+-   Editar uno o más archivos
 
--   
+-   Enviar un cambio
 
--   
+-   Actualizando tu tenedor
 
+Para permitirle contribuir a Jeedom, deberá
+proponer cambios (PR : Solicitud de extracción).
 
- : .
-
- 
+Crea una cuenta de GitHub 
 ===========================
 
-,
+Discutiremos en este tutorial cómo crear una cuenta de GitHub,
+para poder informar errores (problema en el lenguaje GitHub), incluso
+incluso proponer correcciones (Pull Request o PR en lenguaje github)
+para todo el proyecto Jeedom, incluidos sus complementos gratuitos o el
+documentación o cualquier otro proyecto github que
+quisiera participar.
 
-
-
-
-.
-
-Se rendre sur <https://github..
-
-
- ****
+Se rendre sur <https://github.com> y haga clic en el botón Registrarse.
+Por lo tanto, debe estar en una página como la siguiente y
+por lo tanto, debe ingresar un apodo, un correo electrónico y una contraseña y luego
+haga clic en **Crear una cuenta**
 
 ![tuto.github1](images/tuto.github1.png)
 
-
- **Continue**
+Entonces llega a la segunda página como se muestra a continuación y no cambia
+nada, haces clic **Continue**
 
 ![tuto.github2](images/tuto.github2.png)
 
-
-
-
-. 
-.
+Está registrado y en la página de configuración de opciones de su
+cuenta Te aconsejo que compruebes la dirección de correo electrónico para que puedas
+recupere su cuenta si olvida su contraseña, por ejemplo, pero
+también para poder enviar cambios. Os dejo
+descubra también las otras opciones si tiene curiosidad.
 
 ![tuto.github3](images/tuto.github3.png)
 
- 
+Jeedom Core Fork o Documentación 
 ==========================================
 
-****
+**Tenedor - Por qué - Cómo**
 
+Fork está copiando un proyecto en su espacio github, para que pueda
+modificar el código y los archivos de documentación y luego enviar
+una solicitud de extracción para el proyecto original, que luego será estudiado por el
+desarrollador (s) de dicho proyecto
 
-
-
-
-
-
-
+Ahora que tiene una cuenta de Github y ha iniciado sesión
+con tu dirección de correo electrónico verificada, si vas aquí
 <https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
-
-.
+a la derecha hay un botón de horquilla que le permite copiarlo en su
+espacio github.
 
 ![tuto.github4](images/tuto.github4.png)
 
- 
+Editar uno o más archivos 
 ---------------------------------------
 
+En mi caso, por lo tanto, quiero insertar una modificación en el archivo
+*history.class.php* Este archivo se encuentra en el núcleo de Jeedom y más.
+precisamente aqui : núcleo / clase /
 
-** 
- : 
+1. Así que estamos en mi depósito (TaGGoU91 / core) que se indica como
+    ser un tenedor de Jeedom / core
 
+2. Entonces vamos a / core / class (el primer núcleo está en negrita, es
+    el repositorio donde estoy (núcleo, ver Pequeño 1)
 
-    
-
-
-    
-
- ** - 
+3. Entonces tenemos nuestro archivo *history.class.php* - Hacemos clic en el
     fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
+1. Entonces estamos en nuestro archivo
 
-
-
+2. Haga clic en el lápiz para ingresar la modificación.
 
 ![tuto.github6](images/tuto.github6.png)
 
-
-
+Para buscar el archivo, colóquese en el bloque
+texto del archivo que acabamos de abrir en modo edición con el lápiz y
 hacemos un "Ctrl + F" para activar la búsqueda. Te pegas o
 especifique el texto que está buscando (un elemento significativo y un
 solo línea, no un bloque completo a la vez). Confirme con "Enter" para
@@ -99,7 +99,7 @@ comenzar la búsqueda.
 > en mi caso, en Google Chrome, no sabe cómo hacer la investigación
 > en código o documentación directamente.
 
-1. El campo de búsqueda, sí, es bastante delgado como información, el
+1. El campo de investigación, sí, es bastante escaso como la información, el
     la línea copiada es mucho más grande;).
 
 ![tuto.github7](images/tuto.github7.png)
@@ -121,12 +121,12 @@ Envía el cambio
 
 ![tuto.github8](images/tuto.github8.png)
 
- 
+Enviar un cambio 
 --------------------------
 
 El **commit** hecho arriba solo se refiere a la bifurcación del proyecto en
 tu espacio GitHub. Para enviar cambios al proyecto original,
-tienes que hacer un PR (Solicitud de extracción)
+debe realizar una PR (solicitud de extracción)
 
 1. Hacemos clic en la pestaña Solicitud de extracción
 
@@ -166,7 +166,7 @@ demande.
 
 **Se acabó.** Tienes que esperar hasta que tu RP sea validado.
 
-NB: Solo los usuarios que presionan directamente a Jeedom que
+NB: Solo usuarios que presionan directamente a Jeedom que
 puede validar el PR.
 
 Para asegurarse de que su cambio esté en la lista, usted
@@ -179,7 +179,7 @@ la nuestra
 
 ![tuto.github13](images/tuto.github13.png)
 
- 
+Actualizando tu tenedor 
 ============================
 
 Para completar

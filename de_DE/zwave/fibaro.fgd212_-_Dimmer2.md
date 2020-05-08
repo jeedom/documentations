@@ -1,4 +1,4 @@
- 
+Fibaro Dimmer2 - REA-212 
 ========================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-
+Mit dem Dimmermodul FGD-212 können Sie a steuern
 Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
 Behalten Sie Ihren vorhandenen Schalter.
 
@@ -32,18 +32,18 @@ Sie können daher die angeschlossene Lampe aktivieren und variieren
 Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
 direkt von der Taste am Mikromodul.
 
+Das neue Fibaro FGD-212-Laufwerk ist mit einem ausgestattet
+intelligente Lichtquellenerkennung, die erleichtert
+Konfiguration und sorgt für hohe Kompatibilität des Gerätes. Er
+hat Selbstschutz gegen Überlastung und die Funktion von
+sanfter Start. Bei nicht dimmbaren Lichtquellen,
+nur die EIN / AUS-Funktion ist möglich (bei 3-Draht-Verbindung).
 
-
-
-
-. ,
-.
-
-
-
-. 
-
-.
+Es ist kompatibel mit allen Arten von Lampen, die Variationen oder unterstützen
+nein Neben der Variationsfunktion kann dieses Mikromodul auch
+Messen Sie den Stromverbrauch der angeschlossenen Last. Die Werte
+Momentanverbrauch (in W) und Gesamtstromverbrauch
+(in kWh) kann angezeigt werden.
 
 \.
 
@@ -62,31 +62,31 @@ Funktionen
 
 -   Integriert den Chip der Z-Wave 500-Serie
 
--   
+-   250% schnellere Kommunikation im Vergleich zu Z-Wave-Geräten
     standard
 
 -   Automatische Lasterkennung
 
 -   Geschützt gegen Überlastung
 
--   
+-   Kompatibel mit allen Z-Wave- und Z-Wave + -Controllern
 
--   
+-   Wirkleistung und Energiemessfunktion
 
--   ,
-    .
+-   Funktioniert mit verschiedenen Arten von Drucktastenschaltern,
+    Rocker, Dreiwege usw..
 
--   
+-   Softstart-Funktion
 
--   
-    
+-   LED zur Anzeige des Einschlussstatus, der Kalibrierung und
+    MENÜ-Ebenen
 
--   
+-   Integrierter Z-Wave-Bereichstester
 
--   ,
-    
+-   Erkennt automatisch Verdrahtungsfehler, hohe Temperatur,
+    Glühbirne, Überspannungen und Überlastungen durchgebrannt
 
--   
+-   Erweiterte Konfigurationsoptionen
 
 -   Klein, diskret und ästhetisch
 
@@ -101,19 +101,19 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Essen : 
+-   Versorgung : 230 V +/- 10%, 50 Hz
 
 -   Verbrauch : 1.3W
 
--   Verkabelung : Neutral nicht notwendig
+-   Verkabelung : Neutral nicht erforderlich
 
--   Maximale Belastung : 
-    
+-   Maximale Belastung : 50-250 W (ohmsche Last) oder 0,25-1,1A
+    (induktive Last)
 
 -   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
     Halogen (230VAC und 12VDC mit elektronischem Transformator), LED
 
--    : 
+-   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
 -   Frequenz : 868,42 MHz
 
@@ -121,13 +121,13 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 42..
+-   Abmessungen : 42.5 x 38.25 x 20,3 mm
 
--   Betriebstemperatur : 
+-   Betriebstemperatur : 0-35 ° C.
 
 -   Temperatur begrenzen : 105°C
 
--   Standards : 
+-   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
     1999/5/EC
 
 \.
@@ -139,7 +139,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Nachname : 
+-   Name : REA-Dimmer 2
 
 -   Hersteller ID : 271
 
@@ -189,7 +189,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
@@ -198,7 +198,7 @@ disponibles.
 
 \.
 
-![Bestellungen](images/fibaro.fgd212/commandes.jpg)
+![Befehle](images/fibaro.fgd212/commandes.jpg)
 
 \.
 
@@ -209,11 +209,11 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Wir : Es ist die Steuerung, die das Licht einschaltet
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 -   Verbrauch : Es ist der Befehl, der es erlaubt, die
@@ -232,7 +232,7 @@ icone
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.

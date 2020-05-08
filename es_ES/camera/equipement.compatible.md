@@ -1,6 +1,6 @@
-| Apellido                     | Nota                | Enlace                     |
+| Nombre                     | Observación                | Enlace                     |
 |-------------------------|-------------------------|--------------------------|
-| Cámara web de Android IP       |                         |                          |
+| Cámara web IP Android       |                         |                          |
 | Videoportero Alcatel   |                         |                          |
 | Eje 207W               |                         |                          |
 | Bluestork               | Todos los modelos (validados en BS-IPCAM / TP, BS-IPCAM-W, BS-CAM-IND) |                          |

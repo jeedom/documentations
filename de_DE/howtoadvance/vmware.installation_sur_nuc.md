@@ -1,5 +1,5 @@
 Hier ist ein Tutorial zum Installieren von VMware auf einem Intel NUC (Gen6). Wir
-Sehen Sie, wie Sie Jeedom hinzufügen
+Ich werde später sehen, wie man Jeedom hinzufügt
 
 Das Material 
 ===========
@@ -8,7 +8,7 @@ Intel NUC
 ---------
 
 Der Intel NUC ist ein kleiner PC, nicht der leistungsstärkste, aber sehr sparsam
-Energie und kleine Dimensionen. Das macht es zu einem perfekten kleinen Kellner
+Energie und kleine Dimensionen. Dies macht es zu einem perfekten kleinen Kellner
 Virtualisierung basierend auf VMware.
 
 Derzeit gibt es 2 NUCs der 6. Generation (die anderen arbeiten
@@ -25,7 +25,7 @@ Der i5 ist deutlich leistungsfähiger, da er etwas mehr Cache-Speicher hat
 und vor allem ein Turbomodus, der es ihm ermöglicht, viel höher zu klettern
 Frequenz.
 
-Hinzu kommen 2 Arten von Fällen :
+Darüber hinaus gibt es zwei Arten von Fällen :
 
 -   Ein dünnes Gehäuse, das nur eine M2-Disc enthalten kann
 
@@ -51,7 +51,7 @@ SSD
 
 Sie müssen eine SSD und einen Speicher hinzufügen. SSD Level ich dir
 empfehlen 240 GB oder mehr, es sei denn, Sie nehmen das Modell mit einem
-Standort 2.5 Zoll (wodurch Sie mehr Festplatte setzen können)
+Standort 2.5 Zoll (wodurch Sie zusätzliche Festplatte setzen können)
 oder um ein Synology NAS zu haben, um die iSCSI-LUN zu erstellen. Vergiss nicht
 Fügen Sie hinzu, dass eine Basis-VM (kein Speicher) zwischen 20 und 40 GB groß ist
 Diese 40 GB für VMware selbst füllen sich schnell.
@@ -81,9 +81,9 @@ Speicher
 
 Achtung für den Speicher ist DDR4 in So-DIMM 260 unbedingt erforderlich
 Pins, Sie benötigen mindestens 4 GB für VMware, aber aus Erfahrung sage ich Ihnen
-Empfehlen Sie mindestens 8 GB (persönlich habe ich sogar bis zu 16 GB montiert,
+raten Sie mindestens 8 GB (persönlich habe ich sogar bis zu 16 GB montiert,
 NUC unterstützt maximal 32 GB). Dort wird kein Speicher empfohlen, der
-billiger geht sehr gut (Vorsicht, ich nehme immer 2er-Packs
+billiger läuft sehr gut (Vorsicht, ich nehme immer 2er-Packs
 Balken, dies verbessert die Leistung) :
 
 -   [Entscheidender SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR
@@ -125,8 +125,8 @@ Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
     Bedingungen müssen Sie validieren)
 
 -   dann geh
-    [dort](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
-    und fügen Sie Ihrem Konto "ESXi ISO-Image (einschließlich VMware Tools) hinzu"
+    [die](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2)
+    und fügen Sie Ihrem Konto "ESXi ISO-Image (einschließlich VMware Tools) hinzu""
 
 -   endlich zurück
     [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
@@ -171,16 +171,16 @@ Die NUC-Box :
 
 ![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
 
-Öffne es :
+Eröffnung davon :
 
 ![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
 
-Komponenten aus der Verpackung genommen :
+Komponenten aus der Box :
 
 ![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
 
 Öffnen Sie den NUC, dort ist es sehr einfach, stellen Sie ihn auf den Kopf, schrauben Sie ihn ab
-Die 4 Schrauben unter den Füßen (sie kommen nicht vollständig heraus, es ist normal, dass es
+Die 4 Schrauben unter den Füßen (sie kommen nicht vollständig heraus, es ist normal, dass
 Lösen Sie sie einfach) und ziehen Sie dann leicht an den Schrauben, um sie zu öffnen
 der NUC:
 
@@ -195,7 +195,7 @@ Speicherinstallation (rechts) :
 
 ![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
-Und da sind Sie, Sie können es wieder schließen (es sei denn, Sie haben natürlich eine genommen
+Und da bist du, du kannst schließen (es sei denn natürlich du hast eine genommen
 SSD 2.5 Zoll, die in diesem Fall in die Abdeckung eingesetzt werden müssen).
 
 VMware-Installation 
@@ -214,7 +214,7 @@ allein :
 > stimme einfach zu, den Anweisungen zu folgen
 
 Wählen Sie hier die der SSD entsprechende Festplatte aus (Sie können
-entweder mit Namen oder Größe identifizieren)
+entweder nach Name oder nach Größe identifizieren)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
 
@@ -222,7 +222,7 @@ Wählen Sie "Französisch" :
 
 ![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
 
-Geben Sie ein Passwort ein, am Anfang rate ich Ihnen, eine einfache Sache zu schreiben
+Geben Sie ein Passwort ein, am Anfang rate ich Ihnen, eine einfache Sache zu setzen
 wie "oooo" (wir werden es später ändern) :
 
 ![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
@@ -232,20 +232,20 @@ Bestätigen Sie mit F11 :
 ![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
 
 Die Installation dauert 10 bis 20 Minuten, dann müssen Sie sie entfernen
-
+den USB-Stick und warten Sie auf den Neustart des Systems
 
 ![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
 
- :
+Sobald der Neustart abgeschlossen ist, sollten Sie haben :
 
 ![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
 
- ,
- !!!
+Hier wird VMware installiert (außerdem ist es schön, dass Sie die IP erhalten). ,
+mehr als nur spielen !!!
 
-
+Für den Rest ist hier ein
 [Tutorial](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html)
-
+für die Erstellung Ihrer ersten VM. Und du wirst finden
 [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html)
-
+Ein Tutorial mit Tipps und Tricks (zum Beispiel, um Ihre Lizenz zu platzieren
 VMware)

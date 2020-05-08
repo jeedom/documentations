@@ -33,7 +33,7 @@ gewöhnlicher und entfernter Kabelschalter über Controller
 Z-Wave.
 
 Der SwiidInter-Schalter bietet auch Zuordnungsmöglichkeiten
-und das in beide Richtungen. Somit kann es automatisch von a aktiviert werden
+und das in beide Richtungen. Somit kann es automatisch von a bedient werden
 andere Z-Wave-Geräte im selben Netzwerk, z
 Präsenzmelder ausgelöst. Umgekehrt mit Unterstützung
 kurz oder mit einem langen Druck kann es zwei separate Gruppen von steuern
@@ -42,9 +42,9 @@ andere Lichter in dem Raum, in dem sich Ihr Schalter befindet
 SwiidInter.
 
 Der SwiidInter-Switch wird genau wie ein Switch installiert
-an gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
+auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
-In ein Z-Wave "Netzwerk" zu integrieren, kann dieses Netzwerk so einfach sein
+In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
 Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
 distance.
 
@@ -58,7 +58,7 @@ Funktionen
 -   Kabelschalter beide manuell verwendbar
     (kurzes Drücken) und per Fernfunk (Z-Wave)
 
--   Verwenden Sie anstelle eines Standard-Kabelschalters
+-   Verwendung als Ersatz für einen Standard-Kabelschalter
     eine Nachttisch-, Tisch- oder Schreibtischlampe
 
 -   EIN / AUS-Funktion
@@ -81,7 +81,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Farbe: : noire
+-   Farbe : noire
 
 -   Alimentation: 230 V ± 10% - 50 Hz
 
@@ -114,7 +114,7 @@ Moduldaten
 
 -   Machen Sie : Swiid
 
--   Nachname : Swiidinter
+-   Name : Swiidinter
 
 -   Hersteller ID : 358
 
@@ -137,7 +137,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
+> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > auf der Rückseite gemäß der Papierdokumentation
 
 \.
@@ -154,16 +154,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Bestellungen 
+### Befehle 
 
 \.
 
-Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
+Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
 \.
 
-![Bestellungen](images/swiid.inter/commandes.jpg)
+![Befehle](images/swiid.inter/commandes.jpg)
 
 \.
 
@@ -171,12 +171,12 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Staat : Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
--   EIN : Es ist die Steuerung, die das Licht einschaltet
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   AUS : Es ist der Befehl, der das Licht ausschaltet
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
 \.
 
@@ -190,7 +190,7 @@ icone
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
+Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
 \.
@@ -288,7 +288,7 @@ Faq.
 \.
 
 Haben Sie die beiden Module kombiniert und das Teil richtig konfiguriert?
-spezifisch.
+Spezifisch.
 
 \.
 

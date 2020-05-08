@@ -10,13 +10,13 @@ Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas
 
 ## Affichage
 
-Jeedom permite interconectar una gran cantidad de periféricos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en API gracias a complementos, o directamente en forma de scripts.. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una visión general de los dispositivos compatibles.
+Jeedom le permite interconectar una gran cantidad de dispositivos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en las API que usan complementos o directamente en forma de scripts.. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
 
 Puede ver estos dispositivos de varias maneras. :
 
-- Sobre [Tablero de instrumentos](/es_ES/core/4.1/dashboard)
+- Sobre [Salpicadero](/es_ES/core/4.1/dashboard)
 - En la [Síntesis](/es_ES/core/4.1/overview) (v4.1)
-- Sobre una [Ver](/es_ES/core/4.1/view)
+- Sobre una [Vista](/es_ES/core/4.1/view)
 - Sobre un [Diseño](/es_ES/core/4.1/design)
 - Sobre un [Diseño 3D](/es_ES/core/4.1/design3d)
 
@@ -34,9 +34,9 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 > Tips
 >
-> Dentro **Configuración → Preferencias** puede definir en qué objeto desea llegar al Tablero. [Preferencias](/es_ES/core/4.1/profils)
+> DENTRO **Configuración → Preferencias** puede definir en qué objeto desea llegar al Tablero. [Preferencias](/es_ES/core/4.1/profils)
 
-![Tablero de instrumentos](images/concept-dashboard.jpg)
+![Salpicadero](images/concept-dashboard.jpg)
 
 ## Equipamiento y sus controles
 
@@ -49,38 +49,38 @@ Para interactuar con nuestra automatización del hogar, necesita comandos ! Esto
 > Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones son para una mejor comprensión..
 
 - Las órdenes *info* :
-Estos comandos almacenan información de los sensores.. Por ejemplo, la temperatura de una sonda, un movimiento de un sensor de presencia, etc..
-Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historia](/es_ES/core/4.1/history)
+Estos comandos almacenan información de los sensores.. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc..
+Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
 
-Estos comandos también se pueden usar para activar [escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz..
+Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz..
 
 - Las órdenes *action* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos **on** y **off** de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
 Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones **on** y **off**, generalmente relacionado con la información **Etat**.
 
-![Órdenes](images/concept-commands.jpg)
+![Comandos](images/concept-commands.jpg)
 
-Estos dos tipos de controles están unidos en forma de equipo.. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un objeto como padre, lo que le permitirá mostrarlo donde desee.
+Estos dos tipos de comandos se adjuntan en forma de equipo.. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
 ### Équipement
 
-- Physiquement: Tengo un enchufe con un botón de encendido / apagado y un LED de estado, en la sala de estar.
+- Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.
 - En Jeedom: Tengo equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salon.
 
 Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su complemento Z-Waze, que creará un dispositivo con sus controles, que puede nombrar y vincular a un Objeto..
 
-En términos de visualización, cada orden se muestra utilizando un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Widgets](/es_ES/core/4.1/widgets).
+En términos de visualización, cada pedido se muestra utilizando un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
 
 Estos comandos están agrupados en un mosaico correspondiente a su equipo.. Y este mosaico se mostrará en el Tablero en el Objeto que haya elegido.
 
-![Órdenes](images/concept-equipment.jpg)
+![Comandos](images/concept-equipment.jpg)
 
 ## Conclusion
 
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios comandos. *info* donde *action*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
+Este dispositivo tendrá sus propios comandos. *info* o *action*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar..
 

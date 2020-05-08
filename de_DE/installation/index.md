@@ -7,7 +7,7 @@ Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 -   jedes Linux-System basierend auf Debian 9 (Stretch)
 -   Freebox Delta
 
-Sie können auch eine fertige Box mit vorinstalliertem Jeedom kaufen, die auch ein Service Pack (mehr Support und Services) und angebotene Plugins enthält :
+Sie können auch eine vorgefertigte Box mit vorinstalliertem Jeedom kaufen, die auch ein Service Pack (mehr Support und Services) und angebotene Plugins enthält :
 
 -   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 -   [Jeedom Smart Z-Wave + und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
@@ -41,13 +41,13 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 Ich möchte Jeedom installieren :
 
-- Auf einem [klug](https://doc.jeedom.com/de_DE/installation/smart)
+- Auf einem [SMART](https://doc.jeedom.com/de_DE/installation/smart)
 - Auf einem [mini +](https://doc.jeedom.com/de_DE/installation/mini)
 - Auf einem [Himbeer-Pi](https://doc.jeedom.com/de_DE/installation/rpi)
 - Auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)
 - In [Befehlszeile](https://doc.jeedom.com/de_DE/installation/cli)
 - Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
-- Auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Hinweis : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
-- Auf einem [NAS-Synologie](https://doc.jeedom.com/de_DE/installation/synology). Hinweis : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
+- Auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
+- Auf einem [NAS-Synologie](https://doc.jeedom.com/de_DE/installation/synology). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist.
 
-Vergessen Sie nach der Installation nicht, die Dokumentation zu konsultieren [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
+Vergessen Sie nach der Installation nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

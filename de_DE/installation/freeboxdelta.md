@@ -2,13 +2,13 @@
 
 Die Installation auf Freebox Delta Jeedom ist über das VM-System möglich.
 
-## Delta-Verbindung
+## Verbindung zum Delta
 
 Sie müssen zur Konfigurationsoberfläche Ihrer Freebox Delta gehen. Klicken Sie dann auf VMs.
 
 ![delta1](images/delta1.png)
 
-## Konfigurieren Sie die verschiedenen Optionen
+## Stellen Sie die verschiedenen Optionen ein
 
 Klicken Sie auf "VM hinzufügen""
 ![delta2](images/delta2.png)
@@ -36,6 +36,6 @@ Tu es nicht **pas** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild un
 
 Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 
-Das Standard-Login und -Kennwort lautet admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
+Die Standardanmeldung und das Standardkennwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index.html)

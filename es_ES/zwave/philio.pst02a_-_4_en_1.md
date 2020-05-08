@@ -24,44 +24,44 @@ Resumen
 
 \
 
- : detección de
-
- : un detector y un imán.
-
-
+El detector ZIP-PSM02-EU ofrece 4 funciones diferentes. : detección de
+movimiento, detección de apertura, sensor de temperatura y detector
+brillo Consta de dos partes : un detector y un imán.
+Están diseñados para colocarse en una puerta o ventana con
+el imán fijado en la parte que se abre y el detector en la parte
 fixe.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
-detector, que activará el detector que enviará una señal de onda Z
-alarma, si el sistema está armado (esta señal puede ser explotada por un
-sirena o por una caja de automatización del hogar, por ejemplo). 
-. 
-
-
-. 
-
-
+detector, que activará el detector que enviará una señal Z-Wave
+alarma, si el sistema está armado (esta señal puede ser utilizada por un
+sirena o por una caja de automatización del hogar, por ejemplo). Este detector puede ser
+utilizado para seguridad o automatización. Cuando el detector
+está asociado con dispositivos de seguridad, sirve como disparador
+alertas al detectar cambios en los niveles de radiación
+infrarrojo o puerta / ventana de apertura. Si una persona se muda
+el campo de visión del detector o abre una puerta / ventana, una señal
+se transmite la radio, que activa una alarma para disuadir
 intrus.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
-
-
-
-.
+cambios en los niveles de radiación infrarroja (presencia) o
+apertura de puerta / ventana y cambios en el nivel de
+brillo Por lo tanto, uno puede activar una iluminación durante una detección
+movimiento de puerta o apertura en la oscuridad.
 
 El detector también aumentará el brillo y la temperatura, es decir.
-
-. Un controlador Z-Wave (control remoto,
+cambio significativo, y siempre que un movimiento o
+se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
+si ya tienes una red existente. \
 
-
-Las funciones 
+Funciones 
 ---------
 
 \
 
--   : 
+-   Detector 4 en 1: movimiento, apertura, temperatura, luz
 
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir
     operaciones multicanal y más rendimiento de datos
@@ -92,7 +92,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Comida : 1 batería CR123A 3V
+-   Suministro : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -133,7 +133,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Apellido : 
+-   Nombre : PST02-A Multisensor 4 en 1
 
 -   ID del fabricante : 316
 
@@ -143,14 +143,14 @@ Datos del módulo
 
 \
 
-Configuracion 
+Configuración 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Órdenes 
+### Comandos 
 
 \
 
@@ -182,7 +182,7 @@ disponibles.
 
 \
 
-![Órdenes](images/philio.pst02a/commandes.jpg)
+![Comandos](images/philio.pst02a/commandes.jpg)
 
 \
 
@@ -196,7 +196,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    temperatura
+    Temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -224,7 +224,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -262,11 +262,11 @@ Detalles del parámetro :
     documentación del fabricante) Valor recomendado : 4
 
 -   7: modo de funcionamiento multisensor personalizado (ver
-    en la documentación del fabricante) Valor recomendado : 
-    
+    en la documentación del fabricante) Valor recomendado : 6 (para
+    tener un regreso a OFF de la presencia)
 
--   8: 
-    
+-   8: permite definir la duración en pasos de 8 segundos de redetección
+    de movimiento
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2
@@ -274,13 +274,13 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automática
+-   11: le permite definir la duración entre dos informes de apertura automáticos
     (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos automáticos
+-   12: le permite definir la duración entre dos auto
     brillo (una unidad = parámetro 20) Valor recomendado : 3
 
--   13: le permite definir la duración entre dos automáticos
+-   13: le permite definir la duración entre dos auto
     temperatura (una unidad = parámetro 20) Valor recomendado : 2
 
 -   20: duración de un intervalo para los parámetros 10 a 13 Valor

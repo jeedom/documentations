@@ -20,7 +20,7 @@ es compacto y discreto.
 
 El indicador LED integrado señala cualquier cambio de estado.
 
-Las funciones 
+Funciones 
 =========
 
 -   Sensor inalámbrico de temperatura alimentado por batería
@@ -43,7 +43,7 @@ Características técnicas
 
 -   Uso : En el interior
 
--   Comida : 3VDC (batería de litio ER14250)
+-   Suministro : 3VDC (batería de litio ER14250)
 
 -   Autonomía : Hasta 3 años
 
@@ -51,7 +51,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Alcance en campo libre : 100M
+-   Rango en campo libre : 100M
 
 -   Dimensiones : 25x79x19mm
 
@@ -62,14 +62,14 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Apellido : ETS-200
+-   Nombre : ETS-200
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -79,17 +79,17 @@ referirse a esto
 > **Tip**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
-> la temperatura deseada del fieltro.
+> la temperatura deseada.
 
 Botón "E"" 
 ----------
 
 Encontrará debajo del botón "E", que es el botón de asociación del
-sensor de temperatura.
+Sensor de temperatura.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
-Ajuste delta de temperatura 
+Ajuste de la temperatura delta 
 -------------------------------
 
 Por defecto, la temperatura delta se programa a 1 ° C (+/- 10%) para
@@ -112,13 +112,13 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Órdenes 
+Comandos 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos.
 asociado con el módulo :
 
-![Órdenes](images/ets200/ets200.commandes.jpg)
+![Comandos](images/ets200/ets200.commandes.jpg)
 
 Aquí está la lista de comandos :
 
@@ -126,13 +126,13 @@ Aquí está la lista de comandos :
 
 -   Batería : Indica el estado de la batería.
 
-Informacion 
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Órdenes](images/ets200/ets200.informations.jpg)
+![Comandos](images/ets200/ets200.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 

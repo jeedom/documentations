@@ -24,12 +24,12 @@ Kopieren / Einfügen. Sie müssen unter Putty mit der rechten Maustaste klicken,
 
 `` `{.bash}
 benutze Jeedom;
-IN Benutzer-SET ERSETZEN `login` = 'adminTmp', password = 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81fd75'
+IN Benutzer-SET ERSETZEN `login` = 'adminTmp', password = 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81fc
 `` ''
 
 Los geht's. Sie können die Verbindung zu Ihrem Jeedom mit dem trennen / wieder herstellen
 adminTmp / admin-IDs, mit denen Sie das Kennwort ändern können
-wechselt auch von anderen Konten.
+Übergeben Sie auch andere Konten.
 
 >**IMPORTANT**
 >

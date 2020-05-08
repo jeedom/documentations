@@ -32,7 +32,7 @@ integrating the functionality of measuring the active power of the current and
 energy consumption of devices. This module is equipped with a
 light ring with LEDs indicating its status and consumption
 of energy from any connected device. The Fibaro Wall Plug can be
-controlled by a button on its casing or from any
+controlled by a button on its housing or from any
 Z-Wave standard compatible controller
 
 \
@@ -46,7 +46,7 @@ Functions
 
 -   Microchip control.
 
--   Execution element: relay.
+-   Execution element: Relay.
 
 -   Measurement of active power of current and electrical energy
     of the receiver.
@@ -87,7 +87,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Last name : Wall Plug FGWPE-101
+-   Name : Wall Plug FGWPE-101
 
 -   Manufacturer ID : 271
 
@@ -97,14 +97,14 @@ Module data
 
 \
 
-Configuration 
+Setup 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -127,7 +127,7 @@ Once included you should get this :
 
 \
 
-### Orders 
+### Commands 
 
 \
 
@@ -136,7 +136,7 @@ disponibles.
 
 \
 
-![Orders](images/fibaro.fgwpe101/commandes.jpg)
+![Commands](images/fibaro.fgwpe101/commandes.jpg)
 
 \
 
@@ -173,7 +173,7 @@ of your installation, you have to go through the button
 
 \
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -196,7 +196,7 @@ Parameter details :
 
 \
 
--   1: allows to block the module always ON
+-   1: allows to block the module in always ON
 
 -   16: allows you to remember the last state in the event of a power cut
     courant
@@ -233,7 +233,7 @@ Parameter details :
 
 -   60: power beyond which the plug will flash purple
 
--   61: color when the plug is on
+-   61: color when plug is on
 
 -   62: color when plug is off
 

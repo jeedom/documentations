@@ -5,7 +5,7 @@ Agrega tu licencia
 ==================
 
 Una vez conectado en la interfaz web (IP\_ESXI / ui) debe ir a
-"Administrar" :
+"Gestionar" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
@@ -19,7 +19,7 @@ E ingrese su clave de licencia
 
 > **Note**
 >
-> Como recordatorio, si no hace esto, es posible que su ESXi ya no sea
+> Como recordatorio, si no lo hace, es posible que su ESXi ya no sea
 > operar después de 60 días
 
 Montar un almacén de datos NFS con Synology 
@@ -67,13 +67,13 @@ Luego haga clic en "Nueva base de datos" :
 
 ![vmware.tips9](images/vmware.tips9.PNG)
 
-Allí selecciona "Montar una base de datos NFS" y luego hacer
+Allí selecciona "Montar una base de datos NFS" y luego
 Próximo :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
 Ingrese el nombre del almacén de datos para crear (tenga cuidado de evitar espacios y
-caracteres especiales), coloque la IP de nuestra Synology y ponga la ruta
+caracteres especiales), coloque la IP de nuestra Synology y coloque la ruta
 compartir (ver arriba) y finalmente validar :
 
 ![vmware.tips11](images/vmware.tips11.PNG)
@@ -85,12 +85,12 @@ Haga clic en finalizar :
 Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en
 "Actualiser").
 
-Adición del complemento VAAI Synology para montaje NFS 
+Complemento VAAI Synology agregado para montaje NFS 
 ==============================================
 
 Agregar este complemento habilita la aceleración de hardware en
 Montajes NFS (para una explicación, vea
-[aqui](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
+[aquí](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
 Para ver si lo tiene, debe conectarse con el cliente grueso
 (No encontré la información en el cliente web) y vaya a configuración →
@@ -100,7 +100,7 @@ almacenamiento :
 
 La instalación es bastante simple, primero debes activar el servicio
 ESXi SSH (en la interfaz web, vaya a la acción ⇒ servicios
-⇒ Active Secure Shell), luego conéctese a través de SSH (el
+⇒ Active Secure Shell), luego conéctese en SSH arriba (el
 los identificadores son los mismos que para acceder a la interfaz). Entonces el
 solo lo haces :
 
@@ -124,7 +124,7 @@ predeterminado en la versión 6.0 actualización 2, pero en la versión 1.0 es
 Se recomienda encarecidamente actualizarlo.
 
 Encontrarás toda la información
-[aqui](https://labs.vmware.com/flings/esxi-embedded-host-client)
+[aquí](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 Para ver si tiene la interfaz web, simplemente vaya con
 su navegador en IP\_ESXI / ui si no tiene nada que necesita
@@ -146,7 +146,7 @@ luego haga clic en el enlace "Descargar vSphere Client para Windows" :
 
 ![vmware.createvm](images/vmware.createvm.PNG)
 
-Una vez descargado solo tienes que iniciar la instalación (paso
+Una vez descargado solo tienes que comenzar la instalación (paso
 voluntariamente en esta parte porque es suficiente para validar todo).
 
 Luego, inicie VMware vSphere Client, debería tener :
@@ -162,7 +162,7 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-yendo [aqui](https://my.vmware.com/group/vmware/patch#search) (il
+yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (il
 probablemente tendrá que iniciar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después
@@ -176,7 +176,7 @@ Luego transfiere el zip a una de tus tiendas de datos y crea :
 
 > **Note**
 >
-> Reemplace la ruta y el nombre del zip de acuerdo a su
+> Reemplace la ruta y el nombre postal de acuerdo con su
 > configuration
 
 > **Important**
@@ -194,13 +194,13 @@ Configuración NTP
 ====================
 
 Por defecto, ESXi no utiliza NTP, por lo que no está en
-el tiempo y que las máquinas virtuales no están a tiempo, corregirlo es muy
+el tiempo y las máquinas virtuales no están a tiempo, corregirlo es muy
 sencillo. Desde la versión web, vaya a Administrar → Sistema →
-Fecha y hora, haz clic en "Cambiar configuración" :
+Fecha y hora, haga clic en "Cambiar configuración" :
 
 ![vmware.tips16](images/vmware.tips16.PNG)
 
-Y en el cuadro "servidor NTP" tienes que poner : 0.debian.pool.n,
+Y en el cuadro "Servidor NTP" tienes que poner : 0.debian.pool.n,
 1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov
 
 ![vmware.tips17](images/vmware.tips17.PNG)
@@ -212,7 +212,7 @@ parar con el anfitrión" :
 
 Aún en Acciones → Servicio NTP, haga clic en "Iniciar"
 
-Este es tu ESXi debería tomarse el tiempo solo ahora.
+Este es tu ESXi ya debería tomarse el tiempo solo.
 
 Acceso externo a ESXi 
 ========================
@@ -223,7 +223,7 @@ Para acceder al ESXi desde el exterior, necesita :
 
 -   abra el puerto 902 a ESXi 902
 
-Y eso es todo. Un pequeño consejo si tiene un Synology NAS que
+Y eso es todo. Pequeño consejo si tiene un Synology NAS que
 puede hacer (tenga cuidado de seguir) :
 
 -   abra 443 a 5001 en Synology NAS
@@ -234,7 +234,7 @@ puede hacer (tenga cuidado de seguir) :
 -   abra el puerto 902 a ESXi 902
 
 Luego en el NAS en el panel de control y luego en el portal
-aplicación y proxy inverso (tenga en cuenta que DSM 6 es esencial) :
+aplicación y proxy inverso (cuidado con DSM 6 es esencial) :
 
 ![vmware.tips19](images/vmware.tips19.PNG)
 
@@ -256,8 +256,8 @@ del destino) debe poner la IP del ESXi
 >
 > Una vez que hayas hecho eso y tu DNS esté apuntando correctamente
 > en el NAS puede generar un certificado SSL válido de forma gratuita
-> con Encriptemos, yendo a Sécruité ⇒ certificado y haciendo
-> agregar. Entonces no olvides hacer clic en configurar para
+> con Encriptemos, yendo a Secrity ⇒ certificado y haciendo
+> Añadir. Entonces no olvides hacer clic en configurar para
 > asignarlo a su proxy inverso
 
 Luego para acceder a su ESXi solo necesita con su navegador

@@ -27,7 +27,7 @@ Informationen oben im Filezilla-Fenster :
 
 -   Host : Jeedom IP-Adresse (sftp:// wird automatisch hinzugefügt)
 
--   Benutzername : jeedom
+-   Login : jeedom
 
 -   Passwort : Mjeedom96
 

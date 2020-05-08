@@ -42,8 +42,8 @@ los comandos se realizan automáticamente una vez que Jeedom reconoce el módulo
 
 > **Tip**
 >
-> Es mejor hacer una exclusión antes de una inclusión. Para
-> No excluya nada muy complicado, simplemente haga clic en
+> Es preferible hacer una exclusión antes de una inclusión. Para
+> No excluya nada complicado, solo haga clic en
 > « Mode exclusion » et d'exclure le module, un message apparaitra vous
 > confirmando la exclusión del módulo.
 

@@ -22,7 +22,7 @@ Sie müssen entweder die ISO auf eine CD brennen und die CD in das Gerät einleg
 Erstellen Sie einen bootfähigen USB-Stick.
 
 Für den bootfähigen USB-Stick rufus herunterladen
-[dort](http://rufus.akeo.ie/downloads/rufus-2.9.exe), starten und
+[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), starten und
 so konfigurieren :
 
 ![debian.installation](images/debian.installation.PNG)
@@ -59,7 +59,7 @@ Hier muss man "Französisch" wählen
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-Gleiches :
+Idem :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
@@ -103,7 +103,7 @@ Bestätigen Sie mit der Eingabetaste :
 
 ![debian.installation13](images/debian.installation13.PNG)
 
-Gleiches :
+Idem :
 
 ![debian.installation14](images/debian.installation14.PNG)
 
@@ -127,7 +127,7 @@ Bestätigen Sie mit der Eingabetaste :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-Gleiches :
+Idem :
 
 ![debian.installation20](images/debian.installation20.PNG)
 
@@ -190,4 +190,4 @@ auf einem ESXi-Hypervisor.
     sudo apt-get install -y open-vm-tools
 
 Sie müssen Jeedom nur installieren, indem Sie folgen
-[das](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)
+[diese](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)
