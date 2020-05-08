@@ -262,11 +262,11 @@ Parameterdetails :
     Herstellerdokumentation) Empfohlener Wert : 4
 
 -   7: personalisierte Multisensor-Betriebsart (siehe
-    auf der Dokumentation des Herstellers) Empfohlener Wert : 
-    
+    auf der Dokumentation des Herstellers) Empfohlener Wert : 6 (für
+    eine Rückkehr von der Anwesenheit zu AUS haben)
 
--   8: 
-    
+-   8: Ermöglicht die Definition der Dauer in Schritten von 8 Sekunden für die erneute Erkennung
+    der Bewegung
 
 -   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
     wird an Module gesendet, die der Gruppe 2 zugeordnet sind
@@ -278,19 +278,19 @@ Parameterdetails :
     (eine Einheit = Parameter 20)
 
 -   12: Hier können Sie die Dauer zwischen zwei automatischen definieren
-     : 3
+    Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
 
 -   13: Hier können Sie die Dauer zwischen zwei automatischen definieren
-     : 2
+    Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
 
--   20: 
+-   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
     rapport
 
--   22: 
-     : 10
+-   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
+    Empfohlenen Wert melden : 10
 
 \.
 

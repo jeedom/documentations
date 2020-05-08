@@ -195,8 +195,8 @@ Aquí está la lista de comandos :
 
 \
 
-
-.
+Todos los módulos de la gama tienen los mismos identificadores, depende de usted mostrarlos
+correspondiente a su módulo.
 
 ### Configuracion del modulo 
 
@@ -244,23 +244,23 @@ Detalles del parámetro :
     la señal definida en el parámetro 2 se enviará a los módulos asociados con el
     grupo 2
 
--   5:  : 
+-   5: modo de funcionamiento (no se recomienda cambiarlo : referir
     en la documentación del fabricante)
 
--   6: 
-    : 
+-   6: modo de funcionamiento multisensor (no se recomienda cambiarlo
+    : consulte la documentación del fabricante)
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2
 
 -   10: le permite definir la duración entre dos informes de batería (uno
-    
+    unidad = 30 minutos)
 
--   12: 
-    
+-   12: se usa para definir la duración entre dos informes de brillo
+    (una unidad = 30 minutos)
 
--   13: 
-    
+-   13: le permite definir el tiempo entre dos informes de temperatura
+    (una unidad = 30 minutos)
 
 \
 
@@ -288,12 +288,12 @@ Bueno saber
 
 > **Tip**
 >
-> 
-> 
-> . 
-> . 
-> 
-> .
+> Este módulo tiene una particularidad, no tener un informe basado en el
+> variaciones, pero solo con el tiempo, envía toda su información a
+> cada detección. También envía la señal varias veces.
+> detección de presencia como resultado. Por lo tanto, es aconsejable marcar el
+> Cuadro "Evento en cambio" en presencia si usa esto
+> comando en desencadenador de escenario.
 
 \
 
@@ -325,7 +325,7 @@ Este módulo se activa presionando su botón de manipulación.
 
 \
 
-".
+Marque la casilla "Evento en cambio".
 
 \
 

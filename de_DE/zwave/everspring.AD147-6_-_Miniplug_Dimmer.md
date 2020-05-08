@@ -163,8 +163,8 @@ Hier ist die Liste der Befehle :
 
 \.
 
-
-.
+Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
+auf dem gleichen Symbol gefunden.
 
 \.
 
@@ -198,14 +198,14 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
     empfohlen, diesen Wert zu ändern.
 
--   2 : 
+-   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
     Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : 
-    .
+-   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
+    (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
--   4 : 
-    
+-   4 : Mit diesem Parameter können Sie festlegen, ob die Steckdose in Betrieb sein soll
+    Variation oder im Ein / Aus-Modus
 
 ### Gruppen 
 

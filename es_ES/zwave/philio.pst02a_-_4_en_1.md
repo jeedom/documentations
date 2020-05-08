@@ -1,4 +1,4 @@
- 
+Philio PST02 A - 4 en 1 
 =======================
 
 \
@@ -24,44 +24,44 @@ Resumen
 
 \
 
-El detector ZIP-PSM02-EU ofrece 4 funciones diferentes. : detección de
-movimiento, detección de apertura, sensor de temperatura y detector
-brillo Consta de dos partes : un detector y un imán.
-Están diseñados para colocarse en una puerta o ventana con
-el imán fijado en la parte que se abre y el detector en la parte
+ : detección de
+
+ : un detector y un imán.
+
+
 fixe.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
 detector, que activará el detector que enviará una señal de onda Z
 alarma, si el sistema está armado (esta señal puede ser explotada por un
-sirena o por una caja de automatización del hogar, por ejemplo). Este detector puede ser
-utilizado para seguridad o automatización. Cuando el detector
-está asociado con dispositivos de seguridad, sirve como disparador
-alertas al detectar cambios en los niveles de radiación
-infrarrojo o puerta / ventana de apertura. Si una persona se muda
-el campo de visión del detector o abre una puerta / ventana, una señal
-se transmite la radio, que activa una alarma para disuadir
+sirena o por una caja de automatización del hogar, por ejemplo). 
+. 
+
+
+. 
+
+
 intrus.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
-cambios en los niveles de radiación infrarroja (presencia) o
-apertura de puerta / ventana y cambios en el nivel de
-brillo Por lo tanto, se puede activar una iluminación durante una detección
-movimiento de puerta o apertura en la oscuridad.
+
+
+
+.
 
 El detector también aumentará el brillo y la temperatura, es decir.
-cambio significativo, y cada vez que un movimiento o
-se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
+
+. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
-si ya tienes una red existente. \
+
 
 Las funciones 
 ---------
 
 \
 
--   Detector 4 en 1: movimiento, apertura, temperatura, luz
+-   : 
 
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir
     operaciones multicanal y más rendimiento de datos
@@ -133,7 +133,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Apellido : PST02-A Multisensor 4 en 1
+-   Apellido : 
 
 -   ID del fabricante : 316
 
@@ -262,11 +262,11 @@ Detalles del parámetro :
     documentación del fabricante) Valor recomendado : 4
 
 -   7: modo de funcionamiento multisensor personalizado (ver
-    en la documentación del fabricante) Valor recomendado : 6 (para
-    tener un regreso a OFF de la presencia)
+    en la documentación del fabricante) Valor recomendado : 
+    
 
--   8: permite definir la duración en pasos de 8 segundos de redetección
-    de movimiento
+-   8: 
+    
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2

@@ -1,4 +1,4 @@
-Everspring Miniplug On / Off - AN180-6 
+ 
 ====================================
 
 \
@@ -24,16 +24,16 @@ Resumen
 
 \
 
-El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
-apagar las luces y el equipo eléctrico de su
-casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
-Carga de hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
-fluorescente, Led).
 
-El Mini On / Off Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
-para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
-ser controlado por un control remoto, software de PC o cualquier
-Controlador Z-Wave en su red.
+
+
+,
+.
+
+
+. 
+
+.
 
 \
 
@@ -47,16 +47,16 @@ Las funciones
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y
     la carga a la orden
 
--   Función ON / OFF para controlar lámparas o dispositivos (no
-    variación)
+-   
+    
 
--   Control de carga local mediante botón integrado.
+-   
 
 -   Tecnología Z-Wave Plus
 
--   Dimensiones reducidas para pasar casi desapercibidas
+-   
 
--   LED de estado en el botón integrado
+-   
 
 -   Función repetidora Z-Wave
 
@@ -73,8 +73,8 @@ Características técnicas
 
 -   El consumo : 0.6W
 
--   Potencia máxima : Carga resistiva : 1500W, bombilla incandescente
-    : 800W, bombilla fluorescente compacta : 200W, bombilla led (no regulable) :
+-   Potencia máxima : Carga resistiva : 
+    :  :  :
     200W
 
 -   Frecuencia : 868.42 Mhz
@@ -83,7 +83,7 @@ Características técnicas
 
 -   Affichage: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
+-   Dimensiones :  :  : 52mm
 
 \
 

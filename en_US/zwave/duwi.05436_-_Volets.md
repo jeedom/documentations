@@ -1,4 +1,4 @@
-" 
+DUWI 05436 "Roller shutter" 
 ==========================
 
 \
@@ -24,22 +24,22 @@ Summary
 
 \
 
+The DUWI 05436 roller shutter module is used to control shutters
+rolling in two directions.
 
-.
+Its main features are :
 
- :
+-   The possibility of using a 'Common' on which to switch the climb
+    or the descent. So it is possible to order both
+    directions with any type of voltage, even a neutral.
 
--   
-    . 
-    .
+-   The possibility of sending a continuous up / down signal without
+    time limit.
 
--   
-    .
-
-Attention: 
-. 
-'
-.
+Attention: this module does not send its status to the z-wave controller when
+the user presses the buttons directly. You have to make a
+'Refresh 'on its position to update, or adjust the Poll (see
+further).
 
 \
 
@@ -48,18 +48,18 @@ Functions
 
 \
 
--   
+-   Down up
 
--   
+-   A common wire which will be switched on ascent or descent
 
--   
+-   Requires neutral to operate
 
--   
+-   Fuse protection
 
--   
-    
+-   Rise and fall times adjustable by setting or by
+    module learning
 
--   
+-   The switch is supplied with the module, not interchangeable
 
 \
 
@@ -68,21 +68,21 @@ Technical characteristics
 
 \
 
--   Type of module : 
+-   Type of module : Z-Wave receiver / actuator
 
--   
+-   230V, 50Hz power supply
 
--   
+-   Neutral required
 
--    : 
+-   Max load : 1800W (resistive), 460VA (inductive)
 
--   Fuse : 
+-   Fuse : T8AH
 
 -   Frequency : 868.42 Mhz
 
--   Dimensions : 
+-   Dimensions : 52 x 52 x 31mm
 
--    : 
+-   Temperature range : 0 ° C / + 40 ° C
 
 \
 
@@ -91,19 +91,19 @@ Module data
 
 \
 
--   Mark : 
+-   Mark : Popp / Duwi
 
--   Last name : 
+-   Last name : ZW ESJ Blind Control
 
 -   Manufacturer ID : 100
 
--    : 16385
+-   Product type : 16385
 
 -   Product ID : 0
 
 \
 
- 
+Sign in 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
@@ -123,8 +123,8 @@ inclusion refer to this
 
 > **Important**
 >
-> 
-> . .
+> To put the module in inclusion mode, press three times
+> on the ascent or descent. Exclusion is done the same way.
 
 \
 
@@ -153,36 +153,36 @@ Here is the list of commands :
 
 \
 
--   State : 
+-   State : this is the current position of the shutter, in percentage from 0 to 99
 
--    : 
+-   Go down : command to descend completely
 
--    : 
+-   Ascend : command to mount completely
 
--    : 
+-   Stop : immediate movement stop
 
--   Refresh : 
+-   Refresh : refresh the current state of the module
 
--    : 
+-   Level : slider to position a partial opening
 
 \
 
-####  : 
+#### Setting the rise and fall times : 
 
+The switch must be removed to access the two buttons
+"ascent "and" descent".
 
-"".
+Position the flap at the very top if you want to adjust the
+descent, and vice versa.
 
+Press at least 2s on both buttons (up and down)
+simultaneously. The LED should start to flash green.
 
-.
+Then press and hold the down or up button,
+until reaching the desired position. When you let go of the button, the
+LED lights up solid green for a few seconds. Time is memorized.
 
-
-.
-
-,
-. 
-. .
-
-.
+Repeat the operation in the other direction.
 
 \
 
@@ -213,29 +213,29 @@ Parameter details :
 
 \
 
--   0 :  :
+-   0 : Running Time :
 
-. 
+These are the rise and fall times. You should find your
 apprentissage.
 
- : 
-.
+Coding is done by two pairs of bytes : the first for the climb
+and the second for the descent.
 
+The values are coded in hexadecimal in the module and reset
+decimal in Jeedom display.
 
-.
+For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
+for the ascent and 0x12 for the descent. Or, brought back again in
+decimal : 18s for ascent and descent.
 
-For example :  : . 
-. 
- : .
+To note : forcing a value to zero for this parameter will imply that the
+module will switch on ascent or descent without time limit. It will take
+then send a 'Stop' to interrupt.
 
- : 
-. 
-.
+-   1 : Stop-functionnality : Enabled or Disabled :
 
--   1 :  :  :
-
-
-
+Used to indicate whether pressing in the opposite direction during a
+displacement stops the shutter or immediately returns it in the direction
 opposé.
 
 \
@@ -244,8 +244,8 @@ opposé.
 
 \
 
-
-.
+This module has only one association group in which must be
+find your Z-Wave controller.
 
 \
 
@@ -258,18 +258,18 @@ Good to know
 
 \
 
--   
-    
-    on the switch.  :
+-   As specified at the beginning, the module does not report changes in
+    positions made by the user by pressing directly
+    on the switch. To have a return of state, it is thus necessary :
 
-        '
+        o either configure a poll at 5 minutes in the configuration, tab 'values'
 
 ![Groupe](images/duwi.05436/7-Poll.PNG)
 
-    
+    o either create a scenario which launches the 'Refresh' command every x minutes (at least 1 minute)
 
--   
-    
+-   Setting an operation without time limit may prove to be
+    useful for VMC commands
 
 \
 
@@ -281,7 +281,7 @@ Good to know
 
 > **Tip**
 >
-> 
-> '.
+> The "Store\_2\_IMG" Widget used on the "Status" info command. This
+> widget is nice because it shows 'partially open' states'.
 
 **@Theduck38**

@@ -419,134 +419,134 @@ You must have :
 <!-- -->
 
     ######################################################################
-    # .. 19 19:10:01 2008
+    # .. :10:
     ######################################################################
 
-    TEMPLATE = lib
-    CONFIG - = debug
-    CONFIG + = qt release plugin
-    QT + = network xml
-    QT - = mistletoe
-    INCLUDEPATH += . ../../server ../../lib
-    TARGET = tts_jeedom
-    DESTDIR = ../../bin/tts
-    DEPENDPATH += . ../../server ../../lib
-    LIBS + = -L ../../ bin / -lcommon
-    MOC_DIR = ./tmp/moc
-    OBJECTS_DIR = ./tmp/obj
-    win32 {
-      QMAKE_CXXFLAGS_WARN_ON + = -WX
+    
+    
+    
+    
+    
+    = . ..
+    
+    
+    = . ..
+    
+    
+    
+     {
+      X
     }
-    unix {
-      QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
-      QMAKE_CXXFLAGS + = -Werror
+     {
+      '
+      
     }
 
     # Input
-    HEADERS + = tts_jeedom.h
-    SOURCES + = tts_jeedom.cpp
+    
+    
 
--   tts\_jeedom.h
+-   
 
 <!-- -->
 
-    #ifndef _TTSACAPELA_H_
-    #define _TTSACAPELA_H_
+    #
+    #
 
-    #include <QHttp>
-    #include <QMultiMap>
-    #include <QTextStream>
-    #include <QThread>
-    #include "ttsinterface.h"
+    #>
+    #>
+    #>
+    #>
+    #"
 
-    class TTSJeedom : public TTSInterface
+     : 
     {
-      Q_OBJECT
-      Q_INTERFACES (TTSInterface)
+      
+      
 
     public:
       TTSJeedom()
-      virtual ~ TTSJeedom ();
-      QByteArray CreateNewSound (QString, QString, bool);
+      
+      
 
     private:
     }
 
     #endif
 
--   tts\_jeedom.cpp
+-   
 
 <!-- -->
 
-    #include <QDateTime>
-    #include <QUrl>
-    #include <QCryptographicHash>
-    #include <QMapIterator>
-    #include "tts_jeedom.h"
-    #include "log.h"
-    #include <QNetworkReply>
-    #include <QNetworkRequest>
-    #include <QNetworkAccessManager>
+    #>
+    #>
+    #>
+    #>
+    #"
+    #"
+    #>
+    #>
+    #>
 
-    Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
+    
 
-    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():
     {
-      voiceList.insert ("fr", "fr");
+      
     }
 
     TTSJeedom::~TTSJeedom()
     {
     }
 
-    QByteArray TTSJeedom::CreateNewSound (QString text, QString voice, bool forceOverwrite)
+    ::
     {
-      QEventLoop loop;
-      if(!voiceList.contains (voice))
-        voice = "fr";
-      // Check (and create if needed) output folder
-      QDir outputFolder = ttsFolder;
-      if(!outputFolder.exists (voice))
-        outputFolder.mkdir (voice);
+      
+      if(!
+        
+      
+      
+      if(!
+        
 
-      if(!outputFolder.cd (voice))
+      if(!
       {
-        LogError (QString ("Cant create TTS Folder : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
-        return QByteArray ();
+         : 
+        
       }
 
-      // Compute fileName
-      QString fileName = QCryptographicHash::hash (text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
-      QString filePath = outputFolder.absoluteFilePath (fileName);
+      
+      ::.::
+      
 
-      if(!forceOverwrite && QFile::exists (filePath))
-        return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
+      if(!::
+        .
 
-      // Fetch MP3
-      QHttp http ("TODO_IP_JEEDOM");
-      QObject::connect (& http, SIGNAL (done (bool)), & loop, SLOT (quit ()));
+      
+      
+      QObject::
 
-      QByteArray ContentData;
-      ContentData + = "apikey = TODO_API_JEEDOM & text =" + QUrl::toPercentEncoding (text);
+      
+      ::
 
-      QHttpRequestHeader Header;
-      Header.addValue ("Host", "TODO_IP_JEEDOM");
+      
+      
 
-      Header.setContentLength (ContentData.length ());
-      Header.setRequest ("GET", "/core/api/tts.php?apikey = TODO_API_JEEDOM & text = "+ QUrl::toPercentEncoding (text), 1, 1);
+      
+      ?::
 
-      http.request (Header, ContentData);
-      loop.exec ();
+      
+      
 
-      QFile file (filePath);
-      if (!file.open (QIODevice::WriteOnly))
+      
+      !::WriteOnly))
       {
         LogError ("Cannot open sound file for writing : "+filePath)
-        return QByteArray ();
+        
       }
       file.write (http.readAll ());
       file.close ();
-      return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
+      .
     }
 
 > **Note**

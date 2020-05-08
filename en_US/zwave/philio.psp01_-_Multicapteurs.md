@@ -1,4 +1,4 @@
-Philio PSP01 
+ 
 ============
 
 \
@@ -24,27 +24,27 @@ Summary
 
 \
 
-The PSP01 detector offers 3 different functions : detection of
-movement, temperature sensor and light detector.
+ : detection of
+.
 
-This detector can be used for security or for
-automation. When the detector is associated with
-security, it serves as a trigger for alerts by detecting
-changes in infrared radiation levels. If a person
-moves in the detector's field of vision, a radio signal is
-transmitted, which triggers an alarm to deter intruders.
+
+
+
+. 
+
+.
 
 The detector can also be used in combination with a
 Z-Wave controller for home automation uses, by detecting both
-changes in infrared radiation levels (presence) and
-changes in the brightness level. So we can trigger a
-lighting when motion is detected in the dark.
+
+. 
+.
 
 The detector will also raise the brightness and temperature, i.e.
-significant change, and each time a movement is
-detected. A Z-Wave controller (remote control, dongle, etc.) is required
-in order to integrate this detector into your network if you already have a
-existing network.
+
+
+
+.
 
 \
 
@@ -53,7 +53,7 @@ Functions
 
 \
 
--   3 in 1 detector: movement, temperature, light
+-   3 in 1 detector: 
 
 -   Adopts the recent Z-Wave 400series chip to support
     multichannel operations and more data throughput
@@ -121,7 +121,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Last name : Philio PSP01
+-   Last name : 
 
 -   Manufacturer ID : 316
 
@@ -195,8 +195,8 @@ Here is the list of commands :
 
 \
 
-All the modules of the range having the same ids, it's up to you to display those
-corresponding to your module.
+
+.
 
 ### Configuration of the module 
 
@@ -244,23 +244,23 @@ Parameter details :
     signal defined in parameter 2 will be sent to the modules associated with the
     group 2
 
--   5: operating mode (not recommended to change it : report to
+-   5:  : 
     on the manufacturer's documentation)
 
--   6: multi-sensor operating mode (not recommended to change it
-    : refer to the manufacturer's documentation)
+-   6: 
+    : 
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2
 
 -   10: allows you to define the duration between two battery reports (one
-    unit = 30 minutes)
+    
 
--   12: used to define the duration between two brightness reports
-    (one unit = 30 minutes)
+-   12: 
+    
 
--   13: allows you to define the time between two temperature reports
-    (one unit = 30 minutes)
+-   13: 
+    
 
 \
 
@@ -288,12 +288,12 @@ Good to know
 
 > **Tip**
 >
-> This module has a particularity, not having a report based on the
-> variations but only over time, it sends all of its info to
-> each detection. It also sends the signal several times
-> presence detection as a result. It is therefore advisable to tick the
-> "Event on change" box on presence if you use this
-> command in scenario trigger.
+> 
+> 
+> . 
+> . 
+> 
+> .
 
 \
 
@@ -325,7 +325,7 @@ This module wakes up by pressing its tamper button.
 
 \
 
-Check the box "Event on change".
+".
 
 \
 

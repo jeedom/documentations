@@ -1,4 +1,4 @@
- 
+Philio PST02 C - 3 in 1 Öffnung 
 =================================
 
 \.
@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
- : Erkennung
+Der ZIP-PSM01-Detektor bietet 3 verschiedene Funktionen : Erkennung
 Öffnung, Temperatursensor und Lichtdetektor. Es ist
 besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie sind entworfen
 an einer Tür oder einem Fenster mit dem Magneten an der Tür anbringen
@@ -256,19 +256,19 @@ Parameterdetails :
     (eine Einheit = Parameter 20)
 
 -   12: Hier können Sie die Dauer zwischen zwei automatischen definieren
-     : 3
+    Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
 
 -   13: Hier können Sie die Dauer zwischen zwei automatischen definieren
-     : 2
+    Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
 
--   20: 
+-   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
     rapport
 
--   22: 
-     : 10
+-   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
+    Empfohlenen Wert melden : 10
 
 \.
 

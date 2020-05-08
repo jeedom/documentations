@@ -1,4 +1,4 @@
- 
+Nodon Switch - Wall Switch 
 ================================
 
 \
@@ -24,15 +24,15 @@ Summary
 
 \
 
+The NodOn® wall switch can directly control any
+Z-Wave® or Z-Wave Plus® compatible device such as plug
+NodOn® smart or even trigger scenes via a central
+compatible home automation.
 
-
-
-.
-
-
-: 
-
-.
+The switch has a mounting plate for easy mounting
+in the House: using the screws of a recessed pot, by
+screwing to the wall, or simply by sticking it with adhesives
+double-sided on the back of the plate.
 
 \
 

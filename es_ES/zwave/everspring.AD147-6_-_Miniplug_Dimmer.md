@@ -1,4 +1,4 @@
-Everspring Miniplug Dimmer - AD147-6 
+ 
 ====================================
 
 \
@@ -24,15 +24,15 @@ Resumen
 
 \
 
-El Mini Dimmer Plug está diseñado para controlar el encendido y
-apagar las luces y el equipo eléctrico de su
-casa También permite una función de atenuación que es compatible
-solo con bombillas. Con un voltaje de 220 - 240 V, esto
-El zócalo del atenuador puede soportar una carga de 6 W a 250 W.
 
-El Mini Dimmer Plug es un dispositivo compatible con Z-Wave ™ que es
-diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Ella
-puede ser controlado por control remoto, software de PC o cualquier
+
+
+. 
+.
+
+
+
+
 qué controlador Z-Wave en su red.
 
 \
@@ -42,20 +42,20 @@ Las funciones
 
 \
 
--   Controla una lámpara de forma remota
+-   
 
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y
     la carga a la orden
 
--   Función ON / OFF y Dimmer para controlar lámparas
+-   
 
--   Control de carga local mediante botón integrado.
+-   
 
 -   Tecnología Z-Wave Plus
 
--   Dimensiones reducidas para pasar casi desapercibidas
+-   
 
--   LED de estado en el botón integrado
+-   
 
 -   Función repetidora Z-Wave
 
@@ -72,8 +72,8 @@ Características técnicas
 
 -   El consumo : 0.6W
 
--   Potencia máxima : Carga resistiva : 250W, bombilla incandescente
-    : 250W, bombilla led (no regulable) : 6W
+-   Potencia máxima : Carga resistiva : 
+    :  : 6W
 
 -   Frecuencia : 868.42 Mhz
 
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Affichage: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
+-   Dimensiones :  :  : 52mm
 
 \
 
@@ -163,8 +163,8 @@ Aquí está la lista de comandos :
 
 \
 
-Tenga en cuenta que en el tablero, el estado, ON / OFF, información de intensidad es
-encontrado en el mismo icono.
+
+.
 
 \
 
@@ -204,8 +204,8 @@ Detalles del parámetro :
 -   3 : Este parámetro se usa para definir si el socket reanudará su estado
     (ON u OFF) después de una recuperación de energía.
 
--   4 : Este parámetro le permite definir si la salida funcionará en
-    variación o en modo encendido / apagado
+-   4 : 
+    
 
 ### Grupos 
 

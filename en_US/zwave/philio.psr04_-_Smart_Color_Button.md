@@ -1,4 +1,4 @@
-Philio Smart Color Button 
+ 
 =========================
 
 \
@@ -24,30 +24,30 @@ Summary
 
 \
 
-This unique design switch offers several functions. You
-can use it to turn on, off or dim the lighting, adjust
-the position of your shutters, adjust the temperature of the thermostat or
-use it as a timer.
 
-Once included in your Z-Wave network, the Philio PSR04 switch
-must be associated with the device (s) you wish to control.
-It can only operate by direct association with
-devices, and cannot launch scenes created in your controller
-Z-Wave home automation.
 
-Used as a drive, it has the same behavior as a drive
-traditional. Turn the knob to the right to increase the
-light, and to the left to decrease it.
 
-In addition, you can easily move and position this switch
-at the place of your choice thanks to its magnetic support. Its conception
-waterproof allows it to be installed in a place with high humidity such as
-bathroom.
+.
 
-It uses the latest Z-Wave 500 series chip, providing an increase
+
+.
+
+
+.
+
+
+
+.
+
+
+. 
+
+.
+
+
 50% radio range and 250% faster communication speed
-fast compared to previous Z-Wave products, as well as a plus
-low energy consumption allowing greater autonomy.
+
+.
 
 \
 
@@ -56,19 +56,19 @@ Functions
 
 \
 
--   Multifunction switch
+-   
 
--   Z-Wave + technology
+-   
 
--   ON / OFF and dimming function (lighting or shutters)
+-   
 
--   Integrated timer function
+-   
 
 -   Etanche
 
--   Adapts to any style of decoration
+-   
 
--   Rechargeable battery
+-   
 
 -   Very low energy consumption
 
