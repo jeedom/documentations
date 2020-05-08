@@ -415,7 +415,6 @@ function getUrlVars(_key) {
 
 $('#li_search').on('click', function(event) {
   var divContent = $('#div_content')
-  var resultContainer = $('#searchResultContainer')
   var html = '<div>'
   html += '<input id="inputSearch" type="text">'
   html += '<button id="buttonSearch" type="button">Search</button>'
@@ -423,6 +422,7 @@ $('#li_search').on('click', function(event) {
   html += '<div id="searchResultContainer"></div>'
   html += '</div>'
   divContent.empty().append(html)
+  var resultContainer = $('#searchResultContainer')
 
   var searchDataPath = 'https://doc.jeedom.com/fr_FR/i18n/fr_FR.json'
   var searchData = false
@@ -436,6 +436,13 @@ $('#li_search').on('click', function(event) {
     seachFor(search)
   })
 
+  $('#inputSearch').on('keypress', function(event) {
+    if (event.which === 13) {
+      var search = $('#inputSearch').val()
+      seachFor(search)
+    }
+  })
+
   function seachFor(_search='') {
     resultContainer.empty()
     if (!searchData) return
@@ -443,14 +450,11 @@ $('#li_search').on('click', function(event) {
     console.log(_search)
     var result = false
     for (page in searchData) {
-      //console.log(page)
       for (item in searchData[page]) {
-        //console.log(searchData[page][item])
         if(searchData[page][item].toLowerCase().includes(_search.toLowerCase())) {
           console.log('______FOUND: ' + page)
-          result = '<div class="searchResult>'
-          result += '<span>'+item+'</span>'
-          result += '<span>'+page+'</span>'
+          result = '<div class="searchResult">'
+          result += '<a href="'+page+'">'+searchData[page][item]+'</a>'
           result += '</div>'
           resultContainer.append(result)
         }
