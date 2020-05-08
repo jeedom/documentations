@@ -200,11 +200,11 @@ input,
 }
 #ul_menu li.small {
   font-style: italic;
-  font-size: 16px;
+  font-size: 16px !important;
   line-height: 14px !important;
   text-align: center;
   padding: 3px 8px;
-  margin: 5px 12px;
+  margin: 25px 12px;
 }
 
 .divider {
