@@ -415,6 +415,7 @@ function getUrlVars(_key) {
 
 $('#li_search').on('click', function(event) {
   var divContent = $('#div_content')
+  var resultContainer = $('#searchResultContainer')
   var html = '<div>'
   html += '<input id="inputSearch" type="text">'
   html += '<button id="buttonSearch" type="button">Search</button>'
@@ -426,6 +427,7 @@ $('#li_search').on('click', function(event) {
   var searchData = false
   $.getJSON(searchDataPath, function(data) {
     searchData = data
+    console.log(searchData)
   })
 
   $('#buttonSearch').on('click', function(event) {
@@ -434,16 +436,22 @@ $('#li_search').on('click', function(event) {
   })
 
   function seachFor(_search='') {
+    resultContainer.empty()
     if (!searchData) return
     if (_search == '') return
     console.log(_search)
-    console.log(searchData)
+    var result = false
     for (page in searchData) {
       //console.log(page)
       for (item in searchData[page]) {
         //console.log(searchData[page][item])
         if(searchData[page][item].toLowerCase().includes(_search.toLowerCase())) {
           console.log('______FOUND: ' + page)
+          result = '<div class="searchResult>'
+          result += '<span>'+item+'</span>'
+          result += '<span>'+page+'</span>'
+          result += '</div>'
+          resultContainer.append(result)
         }
       }
     }

@@ -114,6 +114,18 @@ body #div_content{
   line-height: 20px;
   padding-top: 24px;
 }
+#buttonSearch {
+  border: none;
+  padding: 5px 15px;
+  background: var(--logo-primary-color);
+}
+#inputSearch {
+  border-bottom:  1px dashed var(--logo-primary-color) !important;
+  border-bottom-color: var(--logo-primary-color) !important;
+}
+#inputSearch:focus {
+  box-shadow: none !important;
+}
 .sidenav {
   width: 280px !important;
   background-color: var(--bg-modal-color) !important;
