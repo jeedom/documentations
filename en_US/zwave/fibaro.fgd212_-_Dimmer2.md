@@ -42,7 +42,7 @@ only the ON / OFF function is possible (in 3-wire connection).
 It is compatible with all types of lamps supporting variation or
 no. In addition to the variation function, this micromodule can also
 measure the electrical consumption of the connected load. Values
-instantaneous consumption (in W) and total electrical consumption
+of instantaneous consumption (in W) and total electrical consumption
 (in kWh) can be viewed.
 
 \
@@ -78,13 +78,13 @@ Functions
 
 -   Soft-start function
 
--   LED for indication of inclusion status, calibration and
+-   LED indicator for inclusion status, calibration and
     MENU levels
 
 -   Integrated Z-Wave range tester
 
 -   Automatically detects wiring faults, high temperature,
-    burnt out bulb, overvoltages and overloads
+    burnt out bulb, overvoltage and overload
 
 -   Advanced configuration options
 
@@ -105,7 +105,7 @@ Technical characteristics
 
 -   Consumption : 1.3W
 
--   Wiring : neutral not required
+-   Wiring : neutral not necessary
 
 -   Max load : 50-250W (resistive load) or 0.25-1.1A
     (inductive load)
@@ -139,7 +139,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Name : FGD212 Dimmer 2
+-   Last name : FGD212 Dimmer 2
 
 -   Manufacturer ID : 271
 
@@ -149,14 +149,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -189,7 +189,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -198,7 +198,7 @@ disponibles.
 
 \
 
-![Commands](images/fibaro.fgd212/commandes.jpg)
+![Orders](images/fibaro.fgd212/commandes.jpg)
 
 \
 
@@ -207,14 +207,14 @@ Here is the list of commands :
 \
 
 -   Intensity : This is the command that allows you to adjust the intensity of the
-    Light
+    light
 
 -   We : It is the control that turns on the light
 
 -   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
-    Light
+    light
 
 -   Consumption : It is the command which allows to go up the
     module consumption
@@ -232,12 +232,12 @@ icone
 \
 
 You can configure the module according to your
-installation. This requires going through the "Configuration" button of the
+installation. To do this, go to the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -298,7 +298,7 @@ Good to know
 
 If you want to exclude / include the module without dismantling your
 switch you can press your switch multiple times
-(or go back and forth in the event of a bistable switch)
+(or go back and forth in case of a bistable switch)
 
 \
 

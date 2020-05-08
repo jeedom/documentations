@@ -5,7 +5,7 @@ The first thing to do is to connect in SSH to Jeedom (with a
 kitty or putty software).
 
 Once connected, you must retrieve the identifiers from the database
-Data :
+data :
 
 `` `{.bash}
 cat /var/www/html/core/config/common.config.php
@@ -24,16 +24,16 @@ copy paste. You have to "right-click" under Putty to "paste") :
 
 `` `{.bash}
 use jeedom;
-REPLACE INTO user SET `login` = 'adminTmp', password = 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6dcdc'
+REPLACE INTO user SET `login` = 'adminTmp', password = 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81fd75dcdc' '
 `` ''
 
 Here. You can disconnect / reconnect to your Jeedom with the
 adminTmp / admin identifiers which will allow you to modify the password
-pass other accounts also.
+switches from other accounts also.
 
 >**IMPORTANT**
 >
->Remember once your access is recovered to delete the user adminTmp, leaving it could be a potential
+>Remember once your access is recovered to delete the adminTmp user, leaving it could be a potential
 security breach for which you are solely responsible.
 
 >**IMPORTANT**

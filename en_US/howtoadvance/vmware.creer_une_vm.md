@@ -4,14 +4,14 @@ Before there is an important thing to know about VMware, there are 2
 way of the manager :
 
 -   the web interface (present by default in 6.0 update 2, or by
-    through a vib for the other versions), we access it by
+    through a vib for the other versions), it is accessed by
     IP\_ESXI / ui
 
 -   the heavy and historical client of VMware (vSphere client)
 
 Here I will mainly use the web interface because I think it's
 the future of VMware which increasingly abandons the thick client
-(by the way all the new features since the 5.1 cannot be used
+(by the way all the news since the 5th.1 cannot be used
 with the heavy customer).
 
 Also note that the web interface is still being implemented
@@ -49,7 +49,7 @@ can already from this screen :
 
 -   button to create a VM (we will use it right after)
 
--   an action button which allows you to switch to maintenance mode
+-   an action button which also allows you to enter maintenance mode
     (useful if you have an ESXi cluster otherwise you will not
     never serve), enable / disable SSH service (is used
     in the backup configuration tutorial)
@@ -57,7 +57,7 @@ can already from this screen :
 Sending installation ISO 
 =============================
 
-After downloading your installation iso
+After downloading your installation ISO
 (([here]((http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso)
 for example for debian 8.5 in netinstall), you need to put it on
 your datastore.
@@ -120,11 +120,11 @@ hard, cpu, memory ...) :
 >
 > All these parameters can be modified afterwards without worries, note
 > however it is not really possible to reduce the size
-> a hard drive, you can increase it (but you have to know how to manage it
+> of a hard drive, we can increase it (but you have to know how to manage it
 > OS level next) but not reduce it.
 
 In the CD / DVD drive, select "ISO file bank of
-Data" :
+data" :
 
 ![vmware.createvm10]((images/vmware.createvm10.PNG)
 
@@ -169,7 +169,7 @@ your OS :
 > "sudo apt-get -y install open-vm-tools".
 
 For the rest of the installation I invite you to read this
-[Tutorial]((https://doc.jeedom.com/en_US/howto/doc-howto-debian.installation.html#_installation)
+[tutorial]((https://doc.jeedom.com/en_US/howto/doc-howto-debian.installation.html#_installation)
 
 Mount USB devices in the VM 
 =======================================
@@ -182,14 +182,14 @@ Mount USB devices in the VM
 
 It's a fairly rare need, but I had to use it for Jeedom, in
 indeed I have on my ESXi the keys Zwave, RFXcom, edisio, enOcean and GSM
-connected and I had to connect them to my Jeedom VM to be able to
+of plugged in and I had to connect them to my Jeedom VM to be able to
 use it.
 
 > **Note**
 >
 > For Zwave, RFXcom, edisio and enOcean there is no problem, for
 > GSM keys you must follow this
-> [Tutorial]((https://doc.jeedom.com/en_US/howto/doc-howto-gsm.huawei_mode_modem.html)
+> [tutorial]((https://doc.jeedom.com/en_US/howto/doc-howto-gsm.huawei_mode_modem.html)
 > before to force the key in modem mode only otherwise it is not
 > not seen correctly on the ESXi.
 

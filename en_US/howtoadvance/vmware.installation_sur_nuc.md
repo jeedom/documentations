@@ -1,5 +1,5 @@
 Here is a tutorial to install VMware on an Intel NUC (gen6). We
-will see later how to add Jeedom on it
+see how to add Jeedom on it
 
 Equipment 
 ===========
@@ -8,7 +8,7 @@ Intel NUC
 ---------
 
 The Intel NUC is a small PC, not the most powerful, but very economical
-energy and small dimensions. This makes it a perfect little waiter
+energy and small dimensions. That makes it a perfect little waiter
 virtualization based on VMware.
 
 There are currently 2 6th generation NUCs (the others work
@@ -23,11 +23,11 @@ VMware kernel):
 
 The i5 is significantly more powerful because it has a little more cache memory
 and especially a turbo mode which allows it to climb much higher in
-Frequency.
+frequency.
 
-In addition, there are 2 types of case :
+To this is added 2 types of case :
 
--   A thin case that can only contain one type M2 disc
+-   A thin case that can only contain one M2 type disc
 
 -   A thicker case that can contain an M2 type disc and a
     disc 2.5 inch
@@ -51,7 +51,7 @@ SSD
 
 You have to add an SSD and memory. SSD level I you
 recommend 240GB or more, unless you take the model with a
-location 2.5 inches (which allows you to put additional hard drive)
+location 2.5 inches (which allows you to put more hard drive)
 or to have a Synology NAS to make the iSCSI LUN. Do not forget
 that a basic VM (no storage) is between 20 to 40GB, add to
 this 40GB for VMware itself it fills up quickly.
@@ -83,7 +83,7 @@ Attention for the memory it is absolutely necessary DDR4 in So-DIMM 260
 pins, you need at least 4GB for VMware, but from experience I tell you
 advise at least 8GB (personally I even mounted up to 16GB,
 NUC supports maximum 32GB). There, no memory recommended, the
-cheaper is going very well (be careful I always take packs of 2
+cheaper goes very well (beware I always take packs of 2
 bars, this improves performance) :
 
 -   [Crucial SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR
@@ -171,11 +171,11 @@ The NUC box :
 
 ![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
 
-Opening of it :
+Opening it :
 
 ![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
 
-Components out of their box :
+Components taken out of their box :
 
 ![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
 
@@ -195,7 +195,7 @@ Memory installation (right) :
 
 ![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
 
-And there you are, you can close (unless of course you have taken a
+And there you are, you can close it again (unless of course you have taken a
 SSD 2.5 inches which must be inserted in the cover in this case).
 
 VMware installation 
@@ -214,7 +214,7 @@ alone :
 > just agree to follow the instructions
 
 Here select the disk corresponding to the SSD (you can
-identify either by name or by size)
+identify either by name or size)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
 
@@ -244,7 +244,7 @@ Here VMware is installed (in addition it is nice it gives you its IP) ,
 more than playing with !!!
 
 For the rest here is a
-[Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html)
+[tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html)
 for the creation of your first VM. And you will find
 [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
 a tutorial of tips and tricks (for example to put your license

@@ -4,15 +4,15 @@
 >
 > This tutorial was written by ZygOm4t1k whom we warmly thank. You can find the original [here](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
 
-Here is a short tutorial to explain how to create a plugin. For the example we will create a plugin which returns a sentence from the viedemerde site.en (The plugin will be scalable).
+Here is a short tutorial to explain how to create a plugin. For the example we will create a plugin which returns a sentence from the viedemerde site.en (The plugin will be upgradeable).
 
-It does not replace the [Documentation officielle](https://jeedom.github.io/plugin-template/en_US/)
+It does not replace the [documentation officielle](https://jeedom.github.io/plugin-template/en_US/)
 
 # Create the plugin base
 
-To start, you have to determine a name and an id (which must not exist)
+To start you have to determine a name and an id (which must not exist)
 
-Name : Poop Life
+Last name : Poop Life
 Id : vdm
 
 Download the template plugin to have the [based](https://github.com/jeedom/plugin-template/archive/master.zip)
@@ -21,7 +21,7 @@ Unzip the file . Vous obtiendrez un dossier « plugin-template-master » contena
 
 Let's go.
 
-Renommer le dossier « plugin-template-master » In « vdm » (l'id) du plugin.
+Renommer le dossier « plugin-template-master » in « vdm » (l'id) du plugin.
 
 1 / Open the plugin_info / info file.json and edit the.
 
@@ -51,9 +51,9 @@ Changelog, documentation, language, compatibility null for the moment. I will co
 
 2 / We will rename the files necessary for the plugin to be recognized by Jeedom
 
--   Rename file ``core/ajax/template.ajax.php`` In ``vdm.ajax.php``
+-   Rename file ``core/ajax/template.ajax.php`` in ``vdm.ajax.php``
 
--   Rename file ``core/class/template.class.php`` In ``vdm.class.php`` and open it to edit it.
+-   Rename file ``core/class/template.class.php`` in ``vdm.class.php`` and open it to edit it.
 
 - Replace ``class template extends eqLogic {``
 
@@ -92,9 +92,9 @@ Changelog, documentation, language, compatibility null for the moment. I will co
 
 And nothing else, don't change the line ``<?php include_file('core', 'plugin.template', 'js');?>``
 
--Rename file ``desktop/modal/modal.template.php`` In ``desktop/modal/modal.vdm.php``
+-Rename file ``desktop/modal/modal.template.php`` in ``desktop/modal/modal.vdm.php``
 
--Rename file ``desktop/js/template.js`` In ``desktop/js/ vdm.js``
+-Rename file ``desktop/js/template.js`` in ``desktop/js/ vdm.js``
 
 - Open file ``plugin_info/install.php``
 
@@ -115,7 +115,7 @@ function vdm_remove() {
 }
 ````
 
-Here the plugin is ready but there remains the customization and the icon to update : [Documentation](https://doc.jeedom.com/en_US/dev/Icone_de_plugin)
+Here the plugin is ready but there remains the customization and the icon to update : [documentation](https://doc.jeedom.com/en_US/dev/Icone_de_plugin)
 
 Add the icon in the plugin_info folder under the name vdm_icon.png
 
@@ -147,7 +147,7 @@ I open the file ``desktop/php/desktop.php`` to correct.
 
 I replace ``color:#94ca02;"`` by ``color:#00A9EC;"``
 
-We also notice that the texts are not aligned so we correct the style of the configuration (top property)
+We also note that the texts are not aligned so we correct the style of the configuration (top property)
 
 ````
 {% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
@@ -161,19 +161,19 @@ par
 
 ![image](images/tutorial_vdm_desktop2.png)
 
-Here is the base is ready. You should have the asset plugin but at the moment it does nothing.
+Here the base is ready. You should have the active plugin but at the moment it does nothing.
 
 # The orders
 
-The purpose of the plugin will be to retrieve a random vdm and display it on the dashboard.
+The goal of the plugin will be to recover a random vdm and display it on the dashboard.
 
 You must therefore create an info type command to store this information. Elle sera de sous-type « String » car c'est une chaîne de caractère.
 
 For the example we will add a command which refreshes the information. It will therefore be an action type command and other subtype.
 
--Créer un équipement « vdm1 » In cliquant sur le +. Activate it and make it visible. Choose an object and the equipment must appear on the dashboard (depending on the object).
+-Créer un équipement « vdm1 » in cliquant sur le +. Activate it and make it visible. Choose an object and the equipment must appear on the dashboard (depending on the object).
 
-At this time, there are no commands that appear in the s command tab, nor on the widget.
+At this time, there are no commands that appear in the command s tab, nor on the widget.
 
 Open the core / class / vdm.class file.php and look for the postSave () function (Read the template plugin doc if not already done)
 
@@ -205,7 +205,7 @@ public function postSave() {
 }
 ````
 
--Créer un autre équipement « vdm2 » In cliquant sur le +. In the commands tab, the commands appeared. Activate it and make it visible. Choose a parent object and see what it looks like on the dashboard.
+-Créer un autre équipement « vdm2 » in cliquant sur le +. In the commands tab, the commands appeared. Activate it and make it visible. Choose a parent object and see how it looks on the dashboard.
 
 -Enregistrer le premier équipement « vdm1 » pour créer les commandes. See the rendering on the widget too.
 
@@ -278,7 +278,7 @@ I edit the html code of the table in the desktop file.php by adding a column ..
 {% raw %}<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>{% endraw %}
 ````
 
-Then edit desktop.js, find
+Then edit desktop.js find
 
 ````
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
@@ -375,7 +375,7 @@ switch ($this->getLogicalId()) {
 }
 ````
 
-Now it remains to launch the randomVdm () function . To do this, we retrieve the eqLogic (equipment) from the launch command and we launch the function
+Now it remains to launch the randomVdm () function . For this, we retrieve the eqLogic (equipment) from the launch command and we launch the function
 
 ````
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
@@ -421,15 +421,15 @@ We will now see how to update the command using the native functions of the core
 There are several of them :
 
 - cron : refresh every minute
-- Cron5 : refresh every 5 minutes
-- Cron15 : refresh every 15 minutes
-- Cron30 : refresh every 30 minutes
-- CronHourly : uh .. every hour
-- CronDaily : well 1 / day
+- cron5 : refresh every 5 minutes
+- cron15 : refresh every 15 minutes
+- cron30 : refresh every 30 minutes
+- cronHourly : uh .. every hour
+- cronDaily : well 1 / day
 
-Considering the plugin we will update every hour (let's be crazy). So we will use the cronHourly () function.
+Considering the plugin we will update every hour (let's be crazy). We will therefore use the cronHourly () function.
 
-We will therefore open the vdm.class file.php and search
+So we will open the vdm.class file.php and search
 
 ````
     /*
@@ -450,7 +450,7 @@ Uncomment the code
 
 Our function is operational
 
-Now you have to recover all the equipment from our plugin,
+Now we have to recover all the equipment from our plugin,
 
 ````
 self::byType('vdm') //array contenant tous les équipements du plugin
@@ -488,7 +488,7 @@ $cmd->execCmd();
 Which gives in the end
 
 ````
-      public static function CronHourly () {
+      public static function cronHourly () {
           foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
               if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
                   $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
@@ -501,16 +501,16 @@ Which gives in the end
       }
 ````
 
-Pour tester, dans jeedom , aller dans configuration/moteur de tâches and lancer le cron de class « plugin » fonction « CronHourly »
+Pour tester, dans jeedom , aller dans configuration/moteur de tâches and lancer le cron de class « plugin » fonction « cronHourly »
 Information is updated.
 
 It's good but it doesn't suit me. A la création de l'équipement, la commande « story » ne se mand pas à jour.
 
 So we improve the code.
 
-For the creation of the commands we used the postSave () method. We will use the postUpdate () method to update the information.
+For the creation of commands we used the postSave () method. We will use the postUpdate () method to update the information.
 
-The easiest way since there is only one command and it is created in postSave
+The simplest way since there is only one command and it is created in postSave
 
 ````
     public function postUpdate() {
@@ -529,7 +529,7 @@ In the postUpdate () function, we launch the cronHourly () function with the dev
 
 ````
     public function postUpdate() {
-        self::cronHourly($this->getId());// lance la fonction CronHourly avec l'id de l'eqLogic
+        self::cronHourly($this->getId());// lance la fonction cronHourly avec l'id de l'eqLogic
     }
 ````
 
@@ -555,11 +555,11 @@ But in this case we change the cronHourly () function
     }
 ````
 
-Then you can change the frequency of the cron according to the importance of your information to recover.
+Then you can change the cron frequency according to the importance of your information to recover.
 
 I can only invite you to take the time to go to this page to learn more ==> [here](https://jeedom.github.io/documentation/phpdoc/index.html)
 
-And even better to go to the core github ==> [Here](https://github.com/jeedom/core/tree/alpha/core/class)
+And even better to go to the core github ==> [HERE](https://github.com/jeedom/core/tree/alpha/core/class)
 
 Put your nose in to master even more .
 
@@ -569,7 +569,7 @@ I will take the time to add how to set up a custom cron according to the equipme
 
 # The widget
 
-The widget is not an easy task but we will stay on the default widget for now.
+No big deal the widget but we will stay on the default widget for now.
 
 If you have not touched anything, equipment activated and visible, the widget takes up the full width of the screen. So we will change it.
 
@@ -579,17 +579,17 @@ My pleasure is to get up in the morning is to read a vdm on waking. It allows me
 
 But I don't have my glasses and currently the rendering on the widget does not allow me to read it…
 
-Donc on va changer le style In affectant un template à la commande « story»
+Donc on va changer le style in affectant un template à la commande « story»
 
 Nothing's easier.
 
-I will see ==> [Here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+I will see ==> [HERE](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
 
 I'm looking for a template for cmd.info.string (our command is of type info subtype string) .Not difficult there are only two (default or tile)
 
 J'applique le template « cmd.info.string.tile.html » à ma commande.
 
-For that I open the file vdm.class.php , fonction postSave() and j'ajoute le template « tile » pour la commande « story » In appliquant la méthode setTemplate()
+For that I open the file vdm.class.php , fonction postSave() and j'ajoute le template « tile » pour la commande « story » in appliquant la méthode setTemplate()
 
 ````
         $info = $this->getCmd(null, 'story');
@@ -619,7 +619,7 @@ $this->setDisplay("width","800px");
 
 Yes, but !! Because there is a but. Try adding this in the postsave () or postUpdate () function and it doesn't take into account the change. Why ? Well, read the doc of the template plugin ==> HERE
 
-Now that you have read correctly, you know that you must use the preSave () method
+Now that you have read correctly, you know that you must use the preSave () method.
 
 ````
     public function preSave() {
@@ -636,13 +636,13 @@ Register equipment and refresh the dashboard.
 >
 >This is an important chapter and you have to understand it before moving on.
 
-For the moment, we therefore use 3 classes of the core of jeedom : EqLogic, cmd, cron . Go for info, We add a 4th with the class plugin in the vdm file.php that you open and leave open because we are going to edit it .
+For the moment, we therefore use 3 classes of the core of jeedom : EqLogic, cmd, cron . Go for info, We add a 4th with the class plugin in the vdm file.php that you open and leave open because we're going to edit it .
 
 ````
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ````
 
-You have to understand that everything is done to make our job easier.
+You have to understand that everything is done to make our task easier.
 
 For a parameter / option internal to the plugin, we will use one of the methods of the class eqLogic of the core : setConfiguration () by adding the desired parameters. For example :
 
@@ -661,7 +661,7 @@ Chercher
 And replace with
 
 ````
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //IMPORTANT de laisser la classe eqLogicAttr
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr
 ````
 
 Save and go to a plugin device that you have already created by following this lab (Refresh if necessary).
@@ -676,7 +676,7 @@ Perfect the setting is saved.
 It's simple, no? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . He does all the work
 
 ````
-<?php include_file('core', 'plugin.template', 'js');?>//Chargement du fichier core/js/plugin.template.js (In partant de la racine du site)
+<?php include_file('core', 'plugin.template', 'js');?>//Chargement du fichier core/js/plugin.template.js (in partant de la racine du site)
 ````
 
 If you take a closer look at the desktop file.php ago
@@ -693,7 +693,7 @@ If you take a closer look at the desktop file.php ago
 
 Etc…
 
-If you have understood all of this well, we will be able to move on. But first we will change in the desktop.php file
+If you have assimilated all this well we will be able to move on. But first we will change in the desktop.php file
 
 ````
 {% raw %}
@@ -709,13 +709,13 @@ Par
 {% endraw %}
 ````
 
-IMPORTANT : The text in braces corresponds to the text that will be translated if you push the plugin on the market
+Important : The text in braces corresponds to the text that will be translated if you push the plugin on the market
 
 For the rest, we will evolve the plugin by choosing a type of vdm (random or spicy or tops) that we want as well as a personalized cron for each piece of equipment.
 
 # Use of options / parameters
 
-To go further and understand the previous chapter, we will leave it to the user to choose a type of vdm (random or spicy or tops)
+To go further and fully understand the previous chapter, we will leave it to the user to choose a type of vdm (random or spicy or tops)
 
 On pourrait le laisser taper dans l'input « Type de vdm » : random or spicy or tops but we will do otherwise by letting it choose via a select tag
 

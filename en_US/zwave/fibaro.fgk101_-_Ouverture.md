@@ -7,7 +7,7 @@ Fibaro Opening detector - FGK-101
 
 \
 
-![Module](images/fibaro.fgk101-DS18B20/module.jpg)
+![module](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -30,7 +30,7 @@ detects the opening of a door or window when the
 two elements are distant.
 
 The device consists of a part with a magnet (the part
-mobile), attached to the door or window, as well as the unit
+mobile), fixed on the door or window, as well as the unit
 main positioned on the fixed part of the window / door with
 screw or adhesive. When the two parts are no longer opposite, a
 Z-Wave radio signal is automatically sent.
@@ -40,7 +40,7 @@ connect a 1-Wire DS18B20 temperature probe. This detector has
 also from a wired input, so it can be used as a
 universal transmitter : leave aside its magnetic contact, and
 connect its screw inputs to any detector (normally closed) of your
-choice such as smoke, gas or carbon monoxide detector,
+choice such as a smoke, gas or carbon monoxide detector,
 etc.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
@@ -101,7 +101,7 @@ Module data
 
 -   Mark : Fibar Group
 
--   Name : Fibaro FGK-101 with temperature probe (DS18B20)
+-   Last name : Fibaro FGK-101 with temperature probe (DS18B20)
 
 -   Manufacturer ID : 271
 
@@ -111,14 +111,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -141,7 +141,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -150,7 +150,7 @@ disponibles.
 
 \
 
-![Commands](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Orders](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
 \
 
@@ -187,7 +187,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -228,7 +228,7 @@ Parameter details :
 -   12: allows to adjust the sensitivity to temperature change (if
     a 1 wire probe is connected to the module)
 
--   13: allows to set the sending in broadcast mode of the signals of
+-   13: allows you to set the broadcast mode sending of
     temperature and tamper
 
 -   14: activates the scene activation feature
@@ -289,7 +289,7 @@ Faq.
 
 \
 
-This module wakes up by pressing 3 times on one of the tamper buttons. But
+This module wakes up by pressing one of the tamper buttons 3 times. But
 the other tamper button must be pressed.
 
 \

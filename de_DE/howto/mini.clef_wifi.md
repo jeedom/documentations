@@ -40,13 +40,13 @@ Sie, abhängig vom USB-Anschluss, an den Sie Ihren Schlüssel angeschlossen habe
 ====================================
 
 Der Edimax WiFi-Schlüssel hat den Vorteil, dass bereits ein Treiber integriert ist
-Ihr Mini und überprüfen Sie es einfach durch Eingabe des Befehls
+Ihr Mini und überprüfen Sie es einfach, indem Sie den Befehl eingeben
 als nächstes in SSH :
 
     sudo lsmod | grep 8192cu
 
-Wenn der Befehl einen Wert zurückgibt, ist alles in Ordnung. Zum Beispiel
-zu Hause bekomme ich es zurück :
+Wenn der Befehl einen Wert zurückgibt, bedeutet dies, dass alles in Ordnung ist. Zum Beispiel
+Zu Hause verstehe ich das :
 
     8192cu 550797 0
 
@@ -108,7 +108,7 @@ Hier ist meine Betriebsakte zu Hause :
 
     == WiFi-Aktivierung
 
-    Sobald die Dateien fertig sind, muss nur noch die WiFi-Verbindung durch Eingabe des folgenden Befehls gestartet werden :
+    Sobald die Dateien fertig sind, müssen Sie nur noch die WLAN-Verbindung starten, indem Sie den folgenden Befehl eingeben :
 
 sudo ifup wlan0
 

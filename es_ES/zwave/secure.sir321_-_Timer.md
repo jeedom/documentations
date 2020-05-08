@@ -31,7 +31,7 @@ este dispositivo simple en cualquier dispositivo eléctrico de alta potencia,
 con cargas de hasta 3kW (resistivas).
 
 Estas unidades son perfectas para usar en paneles
-calentadores, calentadores de inmersión, calentadores de toallas y enfriadores de aceite. El
+calentadores, calentadores de inmersión, calentadores de toallas y calentadores de aceite. El
 el impulso varía de 30 a 120 minutos.
 
 SIR 321 admite sensores de temperatura externos SES001,
@@ -39,19 +39,19 @@ SES002 y SES003.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
 
--   Booster para calentador de inmersión, radiador de panel, toallero calentado,
+-   Booster para calentador de inmersión, radiador de panel, radiador toallero,
     radiador de baño de aceite
 
 -   Temporizador de caldera
 
 -   Ventilación forzada en salas de conferencias.
 
--   Medición de la temperatura del suelo radiante (con sensores opcionales)
+-   Medición de temperatura de suelo radiante (con sensores opcionales)
 
 -   Simple de usar y confiable
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Horstmann
 
--   Nombre : Temporizador de cuenta regresiva RF SIR 321
+-   Apellido : Temporizador de cuenta regresiva RF SIR 321
 
 -   ID del fabricante : 89
 
@@ -95,14 +95,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Comandos](images/secure.sir321/commandes.jpg)
+![Órdenes](images/secure.sir321/commandes.jpg)
 
 \
 
@@ -143,7 +143,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : este es el comando para encender el relé
+-   Nosotros : este es el comando para encender el relé
 
 -   Apagado : es el comando para apagar el relé
 
@@ -161,7 +161,7 @@ Si desea configurar el módulo, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -178,7 +178,7 @@ Detalles del parámetro :
 
 \
 
--   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte
+-   1: Activa o desactiva la función de temporizador de seguridad (consulte
     documentación del módulo)
 
 -   2: Ajusta la unidad de temperatura.

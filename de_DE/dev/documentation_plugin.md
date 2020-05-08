@@ -12,7 +12,7 @@ Beachten Sie, dass Sie auch ein Änderungsprotokollfeld haben, das genauso funkt
 
 ## Wie es geht ?
 
-Wie oben zu sehen, müssen Sie nur in der Info-Datei angeben.Wenn Sie den Link http (s) zu Ihrer Dokumentation verwenden, können Sie die Präsentation, den Host oder sogar den Modus frei nutzen : 
+Wie oben zu sehen, müssen Sie nur in der Info-Datei angeben.Wenn Sie den Link http (s) zu Ihrer Dokumentation verwenden, sind Sie für die Präsentation, den Host oder sogar den Modus frei : 
 
 - ein Blog
 - ein einfacher Webserver
@@ -34,7 +34,7 @@ Wir empfehlen, in Ihrem Plugin (auf github gehostet) einen Ordner zu erstellen u
 
 Sobald Sie fertig sind, haben Sie im Ordner docs einen Ordner fr_FR (der einzige, der geändert werden muss).. In diesem Ordner empfehlen wir Ihnen, 2 Dateien zu erstellen : 
 
-- Änderungsprotokoll.md => dein Changelog
+- Changelog.md => dein Changelog
 - Index.md => Ihre Dokumentation
 
 ### Hochladen
@@ -47,8 +47,8 @@ Github va ensuite vous fournir un lien de type "https:/./.jeedom.github.io / plu
 
 Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json deines Plugins dafür ist es notwendig : 
 
-- Hinzufügen #language#/. pour le lien vers la documentation, cela donne donc sur notre exemple "https:/./.jeedom.github.io/.plugin-template/.#language#/."
-- Hinzufügen #language#/ Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https:/./.jeedom.github.io/.plugin-template/.#language#/.changelog"
+- hinzufügen #language#/. pour le lien vers la documentation, cela donne donc sur notre exemple "https:/./.jeedom.github.io/.plugin-template/.#language#/."
+- hinzufügen #language#/ Changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https:/./.jeedom.github.io/.plugin-template/.#language#/.changelog"
 
 > **Note**
 >
@@ -56,7 +56,7 @@ Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json
 
 ### Übersetzungsmanagement
 
-Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmanagement nicht nur automatisch, sondern auch sehr einfach einzurichten. Autorisieren Sie einfach den Benutzer github zoic21, Ihr Repository zu pushen / zu ziehen und auf den Markt zu bringen Klicken Sie auf der Editionsseite Ihres Plugins auf der Registerkarte Github auf "Aktivieren Sie die Generierung von Dokumentation und Übersetzung". Der Roboter fährt jeden Tag um 12 Uhr (mehr oder weniger 2 Stunden, abhängig von der Arbeitsbelastung), um die französische Dokumentation Ihres Plugins abzurufen, und das Changelog (Beta-Zweig) schiebt es auf Transiflex (Community-Übersetzungssystem), um die Nachrichten abzurufen Übersetzung und schieben Sie es auf Ihr Github-Repository in den richtigen Ordnern.
+Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmanagement nicht nur automatisch, sondern auch sehr einfach einzurichten. Autorisieren Sie einfach den Benutzer github zoic21, um auf Ihrem Repository und auf dem Markt zu pushen / ziehen Klicken Sie auf der Editionsseite Ihres Plugins auf der Registerkarte Github auf "Aktivieren Sie die Generierung von Dokumentation und Übersetzung". Der Roboter fährt jeden Tag um 12 Uhr (mehr oder weniger 2 Stunden, abhängig von der Arbeitsbelastung), um die französische Dokumentation Ihres Plugins abzurufen, und das Changelog (Beta-Zweig) schiebt es auf Transiflex (Community-Übersetzungssystem), um die Nachrichten abzurufen Übersetzung und schieben Sie es auf Ihr Github-Repository in den richtigen Ordnern.
 
 
 > **Important**
@@ -65,4 +65,4 @@ Wenn Ihr Plugin wie oben beschrieben strukturiert ist, ist das Übersetzungsmana
 
 > **Note**
 >
-> Beachten Sie, dass einmal Ihre Info-Datei.json renseigné et pousser en version stable le site de documentation Jeedom (https:/./.doc.jeedom.com) fügt automatisch Ihr Plugin hinzu.
+> Beachten Sie, dass einmal Ihre Info-Datei.json renseigné et pousser en version stable le site de documentation Jeedom (https:/./.doc.jeedom.com) fügt Ihr Plugin automatisch hinzu.

@@ -51,7 +51,7 @@ reemplazo de la batería.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -76,7 +76,7 @@ Características técnicas
 
 \
 
--   Suministro : Batería de cloruro de litio de 3.6V
+-   Comida : Batería de cloruro de litio de 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
@@ -96,7 +96,7 @@ Datos del módulo
 
 -   Hacer : Poly-Control
 
--   Nombre : Polylock
+-   Apellido : Polylock
 
 -   ID del fabricante : 270
 
@@ -106,20 +106,20 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
 > **Important**
 >
-> Para poner este módulo en modo de inclusión, presione el botón 1 vez
+> Para poner este módulo en modo de inclusión, presione el botón una vez
 > botón de inclusión, de acuerdo con su documentación en papel.
 
 \
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Comandos](images/polycontrol.polylock/commandes.jpg)
+![Órdenes](images/polycontrol.polylock/commandes.jpg)
 
 \
 
@@ -158,7 +158,7 @@ Aquí está la lista de comandos :
 
 -   Abrir : es el comando que abre la cerradura
 
--   Cerca : es el comando que hace posible cerrar la cerradura
+-   Cerrar : es el comando que hace posible cerrar la cerradura
 
 -   Batería : es el comando de la batería
 
@@ -183,7 +183,7 @@ Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -241,7 +241,7 @@ Ejemplos de uso
 El disparador es el comando de evento de un teclado zipato
 (puede ser cualquier otra cosa). Si el valor es 6 (inicio) en
 cierra la puerta. Acabamos de regresar para poder cerrar
-la puerta de la llave. De lo contrario (necesariamente 5) la puerta se abre con una llave y 2 minutos
+la puerta de la llave. De lo contrario (necesariamente 5) abrimos la puerta con una llave y 2 minutos
 después de cerrarlo. De hecho, queremos salir, la puerta se abre y
 se cerrará poco después.
 
@@ -278,7 +278,7 @@ Bueno saber
 
 \
 
-Despertar 
+Despertarse 
 -------
 
 \

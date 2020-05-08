@@ -25,7 +25,7 @@ Zusammenfassung
 \.
 
 Mit dem Mikromodul FGR-222 können Sie die Motorisierungen von verwalten
-Verschluss mit elektronischem Anschlag, Jalousien oder den Türen von
+Verschluss mit elektronischem Anschlag, Jalousien oder Türen
 Garage dank des Z-Wave-Protokolls, während Sie Ihren Schalter behalten
 vorhanden. Sie können daher den angeschlossenen Motor über aktivieren
 mit dem vorhandenen Schalter, einem Z-Wave-Sender oder direkt
@@ -43,7 +43,7 @@ Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
 habitation.
 
-Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
+Hinweis : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
 \.
 
@@ -82,7 +82,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Stromverbrauch : &lt; 0,8W
 
@@ -113,7 +113,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Fibaro FGR-222
+-   Nachname : Fibaro FGR-222
 
 -   Hersteller ID : 271
 
@@ -153,18 +153,18 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgrm222/commandes.jpg)
+![Bestellungen](images/fibaro.fgrm222/commandes.jpg)
 
-![Befehle](images/fibaro.fgrm222/commandes2.jpg)
+![Bestellungen](images/fibaro.fgrm222/commandes2.jpg)
 
 \.
 
@@ -172,7 +172,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
+-   Staat : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
 
 -   Positionierung : Es ist der Befehl, der es ermöglicht, das zu definieren
@@ -185,9 +185,9 @@ Hier ist die Liste der Befehle :
 -   Aktualisieren : Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
     des Verschlusses
 
--   Macht : Befehl, der den Verbrauch des Moduls zulässt
+-   Macht : Befehl, der den Modulverbrauch zulässt
 
--   Verbrauch : Kontrolle, um die Leistung zu kennen
+-   Verbrauch : Leistungssteuerung
     Sofort vom Modul verwendet
 
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
@@ -197,9 +197,9 @@ Hier ist die Liste der Befehle :
 
 -   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 
--   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
+-   Ablehnen : Dient zum Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
--   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
+-   Nein : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
     Incliner
 
 \.

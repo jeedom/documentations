@@ -35,7 +35,7 @@ iluminación o un electrodoméstico.
 El interruptor también está equipado con un indicador LED que indica su
 estado \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -49,7 +49,7 @@ Funciones
 
 -   Soporta comandos de asociación (Grupo 1 y Grupo 2)
 
--   Control local de los dos cargos.
+-   Control local de las dos cargas.
 
 -   LED de estado
 
@@ -66,9 +66,9 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : Blanc
+-   Color: : Blanc
 
--   Suministro : 230 V, 50 Hz
+-   Comida : 230 V, 50 Hz
 
 -   Cableado : 3 hilos, neutro requerido
 
@@ -91,7 +91,7 @@ Datos del módulo
 
 -   Hacer : MC HOME
 
--   Nombre : MH-S412 doble
+-   Apellido : MH-S412 doble
 
 -   ID del fabricante : 351
 
@@ -101,14 +101,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Comandos](images/mco.mhs412/commandes.jpg)
+![Órdenes](images/mco.mhs412/commandes.jpg)
 
 \
 
@@ -145,7 +145,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -162,7 +162,7 @@ Detalles del parámetro :
 
 \
 
--   1: Estado de ahorro antes de falla de energía : habilitar (permite encontrar
+-   1: Ahorro de estado antes de falla de energía : habilitar (permite encontrar
     el último estado de los interruptores justo antes del corte de energía)
     desechable (los interruptores estarán en estado APAGADO en el retorno de red)
 
@@ -206,7 +206,7 @@ Despertador
 
 Este módulo está conectado a la red eléctrica (220v), el despertador es instantáneo
 y por lo tanto no requiere ninguna acción particular al cambiar
-Configuraciones
+configuraciones
 
 \
 
@@ -216,7 +216,7 @@ Faq.
 \
 
 Para excluir este modelo, ponga Openzwave en modo de exclusión y presione
-en uno de los 2 botones del panel frontal durante 3 segundos, de acuerdo con su
+en solo uno de los 2 botones del panel frontal durante 3 segundos, de acuerdo con su
 documentación en papel.
 
 Para restaurar la configuración de fábrica, presione solo uno de los 2 botones

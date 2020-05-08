@@ -1,4 +1,4 @@
-Philio PST02 A - 4 en 1 
+ 
 =======================
 
 \
@@ -32,8 +32,8 @@ el imán fijado en la parte que se abre y el detector en la parte
 fixe.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
-detector, que activará el detector que enviará una señal Z-Wave
-alarma, si el sistema está armado (esta señal puede ser utilizada por un
+detector, que activará el detector que enviará una señal de onda Z
+alarma, si el sistema está armado (esta señal puede ser explotada por un
 sirena o por una caja de automatización del hogar, por ejemplo). Este detector puede ser
 utilizado para seguridad o automatización. Cuando el detector
 está asociado con dispositivos de seguridad, sirve como disparador
@@ -47,16 +47,16 @@ El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
 cambios en los niveles de radiación infrarroja (presencia) o
 apertura de puerta / ventana y cambios en el nivel de
-brillo Por lo tanto, uno puede activar una iluminación durante una detección
+brillo Por lo tanto, se puede activar una iluminación durante una detección
 movimiento de puerta o apertura en la oscuridad.
 
 El detector también aumentará el brillo y la temperatura, es decir.
-cambio significativo, y siempre que un movimiento o
+cambio significativo, y cada vez que un movimiento o
 se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
 si ya tienes una red existente. \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -92,7 +92,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería CR123A 3V
+-   Comida : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -133,7 +133,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Nombre : PST02-A Multisensor 4 en 1
+-   Apellido : PST02-A Multisensor 4 en 1
 
 -   ID del fabricante : 316
 
@@ -143,14 +143,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -182,7 +182,7 @@ disponibles.
 
 \
 
-![Comandos](images/philio.pst02a/commandes.jpg)
+![Órdenes](images/philio.pst02a/commandes.jpg)
 
 \
 
@@ -196,7 +196,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    Temperatura
+    temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -224,7 +224,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -274,13 +274,13 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automáticos
+-   11: le permite definir la duración entre dos informes de apertura automática
     (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos auto
+-   12: le permite definir la duración entre dos automáticos
     brillo (una unidad = parámetro 20) Valor recomendado : 3
 
--   13: le permite definir la duración entre dos auto
+-   13: le permite definir la duración entre dos automáticos
     temperatura (una unidad = parámetro 20) Valor recomendado : 2
 
 -   20: duración de un intervalo para los parámetros 10 a 13 Valor

@@ -36,9 +36,9 @@ Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
 vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
 Modul (Phase + Neutral).
 
-Das Wall Dimmer Module ist ein Z-Wave ™ -kompatibles Gerät
-Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
-kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
+Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät
+soll mit allen Z-Wave ™ -kompatiblen Netzwerken funktionieren. Er
+kann per Fernbedienung, PC-Software oder einer anderen Steuerung gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
@@ -52,7 +52,7 @@ Funktionen
 
 -   Wird hinter einem vorhandenen Switch installiert
 
--   EIN / AUS und Variationsfunktion
+-   EIN / AUS-Funktion und Variation
 
 -   Geringer Energieverbrauch
 
@@ -66,7 +66,7 @@ Funktionen
 
 -   Verwendung im 2-Draht-Modus (Neutralleiter nicht erforderlich)
 
--   Kompatibel mit dimmbaren LED-Lampen
+-   Kompatibel mit LED-Dimmlampen
 
 -   Schaltfläche zum Einschließen / Ausschließen / Zuordnen des Moduls
 
@@ -81,7 +81,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Verbrauch : 0.5W
 
@@ -110,7 +110,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : Im Wanddimmer
+-   Nachname : Im Wanddimmer
 
 -   Hersteller ID : 96
 
@@ -152,16 +152,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Bestellungen](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
 \.
 
@@ -172,16 +172,16 @@ Hier ist die Liste der Befehle :
 -   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Wir : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     Licht
 
 \.
 
-Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
+Beachten Sie, dass auf dem Dashboard die Informationen zu Status, EIN / AUS und Intensität angezeigt werden
 auf dem gleichen Symbol gefunden.
 
 \.
@@ -191,7 +191,7 @@ auf dem gleichen Symbol gefunden.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.
@@ -213,7 +213,7 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+-   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
     empfohlen, diesen Wert zu ändern.
 
 -   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an

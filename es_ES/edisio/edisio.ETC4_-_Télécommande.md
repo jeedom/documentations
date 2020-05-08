@@ -19,7 +19,7 @@ Además, la interacción con otros protocolos es posible, puede
 interactuar con los receptores de la marca Edisio, con Jeedom, pero
 también por cualquier receptor Z-Wave en su red.
 
-Funciones 
+Las funciones 
 =========
 
 -   Modo de uso : Encendido / Apagado, Abrir / Parar / Cerrar, Atenuador,
@@ -36,7 +36,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro : 3VDC (batería de litio CR2430)
+-   Comida : 3VDC (batería de litio CR2430)
 
 -   Canales : 4
 
@@ -53,14 +53,14 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : ETC4
+-   Apellido : ETC4
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -99,7 +99,7 @@ Cambiar modo
 
     -   Mantenga presionada la tecla "C4"
 
-    -   Presione la tecla "C1" 1x, manteniendo presionada la tecla
+    -   Presione la tecla "C1" una vez, manteniendo presionada la tecla
         "C4 ", el LED parpadeará 1 vez
 
 ![mode1](images/etc4/mode1.jpg)
@@ -117,40 +117,40 @@ Asociación del control remoto con Jeedom
 =======================================
 
 La asociación de un transmisor Edisio es simple y
-automáticamente Solo tienes que presionar cada tecla
+automáticamente Simplemente presione cada tecla
 deseo tener en tu Jeedom.
 
 Una vez, su equipo asociado, debería obtener esto :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Comandos 
+Órdenes 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos.
 asociado con el módulo :
 
-![Comandos](images/etc4/commandes.jpg)
+![Órdenes](images/etc4/commandes.jpg)
 
 Aquí está la lista de comandos :
 
 -   bt01 : Es el comando que te permite interactuar con el botón 1
 
--   bt02 : Es el comando que permite interactuar con el botón 2
+-   bt02 : Es el comando que te permite interactuar con el botón 2
 
 -   bt03 : Es el comando que permite interactuar con el botón 3
 
--   bt04 : Es el comando que te permite interactuar con el botón 4
+-   bt04 : Es el comando que permite interactuar con el botón 4
 
 -   Batería : Indica el estado de la batería.
 
-Información 
+Informacion 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Comandos](images/etc4/infos.jpg)
+![Órdenes](images/etc4/infos.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
@@ -178,6 +178,6 @@ Cómo eliminar la asociación de una clave con un receptor ?
 
 :   Presione 5 segundos en la "R" del receptor, una señal sonora simple
     modo de desprogramación activado. Presione la tecla "C" para eliminar.
-    Repita esta operación para borrar todas las teclas..
+    Repita esta operación para borrar todas las teclas.
 
 **@Jamsta**

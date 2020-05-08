@@ -25,7 +25,7 @@ Zusammenfassung
 \.
 
 SmartHome Europe von Everspring Marke ON / OFF Wandmikromodul,
-dient zum Ein- und Ausschalten der Beleuchtung und
+dient zur Steuerung der Beleuchtung ein und aus und
 Elektrogeräte in Ihrem Haus. Zwei Sätze trockener Kontakte
 erlauben den Anschluss von zwei Schaltern.
 
@@ -36,8 +36,8 @@ Glühlampe, 700 Watt Motor oder 320 Watt (8 x 40 Watt) von
 fluoreszierende Ladung.
 
 Das Micromodule Mural ON / OFF ist ein Z-Wave ™ -kompatibles Gerät
-Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
-kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
+soll mit allen Z-Wave ™ -kompatiblen Netzwerken funktionieren. Er
+kann per Fernbedienung, PC-Software oder einer anderen Steuerung gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \.
@@ -76,7 +76,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Verbrauch : 0.5W
 
@@ -100,7 +100,7 @@ Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 
--   Name : In Wall On Off
+-   Nachname : In Wall On Off
 
 -   Hersteller ID : 96
 
@@ -142,16 +142,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Bestellungen](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
 \.
 
@@ -159,11 +159,11 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Wir : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     Licht
 
 \.
@@ -178,7 +178,7 @@ das gleiche Symbol.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.
@@ -200,7 +200,7 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+-   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
     empfohlen, diesen Wert zu ändern.
 
 -   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an

@@ -26,7 +26,7 @@ The easiest way for your documentation is to use the github page system which ha
 
 Github asciidoc and markedown (md) support for pages, we will only see markedown here.
 
-We will not describe the complete markdown syntax to you, other sites already do this very well, [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+We are not going to describe the complete markdown syntax to you, other sites already do this very well, [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
@@ -34,8 +34,8 @@ We recommend in your plugin (hosted on github) to make a folder and copy the fil
 
 Once done you will have in the docs folder a folder fr_FR (the only one to modify). In this folder we advise you to make 2 files : 
 
-- Changelog.md => your changelog
-- Index.md => your documentation
+- changelog.md => your changelog
+- index.md => your documentation
 
 ### On-line
 
@@ -47,8 +47,8 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
-- Add #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- Add #language#/ changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
+- add #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
+- add #language#/ changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
 
 > **Note**
 >

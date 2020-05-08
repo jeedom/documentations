@@ -1,6 +1,6 @@
 Dieses Tutorial präsentiert Ihnen :
 
--   Erstellen Sie ein GitHub-Konto
+-   Erstellung eines GitHub-Kontos
 
 -   Jeedom Core Fork oder Dokumentation
 
@@ -13,18 +13,18 @@ Dieses Tutorial präsentiert Ihnen :
 Damit Sie zu Jeedom beitragen können, müssen Sie
 Änderungen vorschlagen (PR : Pull Request).
 
-Erstellen Sie ein GitHub-Konto 
+Erstellung eines GitHub-Kontos 
 ===========================
 
 In diesem Tutorial wird erläutert, wie Sie ein GitHub-Konto erstellen,
-um sogar Fehler melden zu können (Problem in der GitHub-Sprache)
+um Fehler melden zu können (Problem in der GitHub-Sprache) oder sogar
 sogar Korrekturen vorschlagen (Pull Request oder PR in Github-Sprache)
 für das gesamte Jeedom-Projekt, einschließlich seiner kostenlosen Plugins oder der
 Dokumentation oder ein anderes Github-Projekt, das Sie
 möchte teilnehmen.
 
 Se rendre sur <https://github.com> und klicken Sie auf die Schaltfläche Anmelden.
-Sie sollten sich also auf einer Seite befinden, die wie die folgende und aussieht
+Sie sollten sich also auf einer Seite wie der folgenden und befinden
 muss daher einen Spitznamen, eine E-Mail und ein Passwort eingeben und dann
 Klicken Sie auf **Erstellen Sie ein Konto**
 
@@ -46,10 +46,10 @@ Entdecken Sie auch die anderen Optionen, wenn Sie neugierig sind.
 Jeedom Core Fork oder Dokumentation 
 ==========================================
 
-**Gabel - Warum - Wie**
+**Gabel - warum - wie**
 
 Fork kopiert ein Projekt in Ihren Github-Bereich, damit Sie es können
-Ändern Sie den Code und die Dokumentationsdateien und senden Sie sie ab
+Ändern Sie den Code und die Dokumentationsdateien und senden Sie sie dann ab
 eine Pull-Anfrage zum Originalprojekt, die dann von der
 Entwickler des Projekts
 
@@ -99,15 +99,15 @@ Starten Sie die Suche.
 > In meinem Fall weiß Google Chrome nicht, wie die Recherche durchgeführt werden soll
 > in Code oder Dokumentation direkt.
 
-1. Das Forschungsfeld, ja es ist ziemlich dünn wie Information, das
+1. Das Suchfeld, ja es ist ziemlich dünn wie Information, das
     kopierte Zeile ist viel größer;).
 
 ![tuto.github7](images/tuto.github7.png)
 
-1. In gelb ist dies das Ergebnis von Untersuchungen
+1. In gelb ist dies das Ergebnis der Forschung
 
 2. In blau, was ich gerade ausgewählt habe und was ich will
-    ändern / durch meinen Code ersetzen. Meine Änderung
+    Ändern / Ersetzen durch meinen Code. Meine Änderung
 
 ![tuto.github14](images/tuto.github14.png)
 
@@ -126,7 +126,7 @@ Senden Sie eine Änderung
 
 Die **commit** oben betrifft nur die Gabelung des Projekts in
 dein GitHub-Speicherplatz. Änderungen am ursprünglichen Projekt einreichen,
-Sie müssen eine PR (Pull Request) durchführen.
+Sie müssen eine PR (Pull Request) machen
 
 1. Wir klicken auf die Registerkarte Pull Request
 
@@ -169,7 +169,7 @@ demande.
 NB: Nur Benutzer mit einem Push rechts auf Jeedom wer
 kann die PR validieren.
 
-Um sicherzustellen, dass Ihre Änderung aufgelistet ist, müssen Sie
+Um sicherzustellen, dass Ihre Änderung aufgeführt ist, müssen Sie
 kann auf Pull Requests klicken
 
 ![tuto.github12](images/tuto.github12.png)

@@ -9,9 +9,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Luces|Compatible con tecnología Awox Mesh.||
-|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Luces|Compatible con tecnología Awox Mesh.||
-|<img src="../../es_ES/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Control remoto|Luces|Compatible con tecnología Awox Mesh. Debe activar el modo bluetooth para usar los comandos.||
+|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Luces|Compatible con la tecnología Awox Mesh.||
+|<img src="../../es_ES/blea/images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Luces|Compatible con la tecnología Awox Mesh.||
+|<img src="../../es_ES/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Control remoto|Luces|Compatible con la tecnología Awox Mesh. Debes activar el modo bluetooth para usar los comandos.||
 
 # Beagle
 
@@ -88,17 +88,17 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible dentro de los 20 segundos (esto se confirma al detener el parpadeo) y solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible en 20 segundos (esto se confirma al detener el parpadeo) y esto solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible en 20 segundos (esto se confirma al detener el parpadeo) y esto solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible en 20 segundos (esto se confirma al detener el parpadeo) y esto solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible en 20 segundos (esto se confirma al detener el parpadeo) y esto solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Atención para que el botón funcione, verifique mantener la conexión, desde ese momento la conexión se mantiene y el botón ya no es visible desde otras antenas. La conexión se realiza tan pronto como el botón es visible en 20 segundos (esto se confirma al detener el parpadeo) y esto solo en la antena elegida en la transmisión (en este caso, obviamente es necesario elegir lo mismo en recepción y transmisión)||
 
 # Jinlin
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Iluminación|Solo por presencia (el resto vendrá)||
+|<img src="../../es_ES/blea/images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Luz|Solo por presencia (el resto vendrá)||
 
 # Kst1
 
@@ -125,7 +125,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 analógico|Contacteurs|2 analógico||
+|<img src="../../es_ES/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 analógico|Contacteurs|2 analógicos||
 |<img src="../../es_ES/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactores|Contacteurs|4 contactores||
 |<img src="../../es_ES/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Contacto de voz|Contacteurs|Contactor de voz||
 
@@ -139,12 +139,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
-|<img src="../../es_ES/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
-|<img src="../../es_ES/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
+|<img src="../../es_ES/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Según firmwares puede que ya no funcione. Atención si el brazalete está conectado a su teléfono inteligente, es más visible en bluetooth||
+|<img src="../../es_ES/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Según firmwares puede que ya no funcione. Atención si el brazalete está conectado a su teléfono inteligente, es más visible en bluetooth||
+|<img src="../../es_ES/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Según firmwares puede que ya no funcione. Atención si el brazalete está conectado a su teléfono inteligente, es más visible en bluetooth||
 |<img src="../../es_ES/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Solo presencia por el momento||
 |<img src="../../es_ES/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Solo presencia por el momento||
-|<img src="../../es_ES/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (con color led)|Santé|Según firmwares puede que ya no funcione. Atención si la pulsera está conectada a su teléfono inteligente, es más visible en bluetooth||
+|<img src="../../es_ES/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (con color led)|Santé|Según firmwares puede que ya no funcione. Atención si el brazalete está conectado a su teléfono inteligente, es más visible en bluetooth||
 
 # Miflora
 
@@ -229,7 +229,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Se recomienda utilizar la opción de mantener la conexión. Obligatorio experimentar experimentalmente con acceso directo al color.||
+|<img src="../../es_ES/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Se recomienda utilizar la opción de mantener la conexión. Obligatorio experimentar experimentalmente con acceso al color directo||
 
 # Ticatag
 

@@ -33,7 +33,7 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   4 salidas de dimmer (PWM) para controlar :
 
--   \* es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
+-   \* o 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 
 -   \* o 4 canales de LED blancos 12 / 24V
 
@@ -43,16 +43,16 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   Requiere fuente de alimentación separada de 12 / 24V.
 
--   Medida de consumo global o instantánea o acumulativa.
+-   Medición del consumo global, instantáneo o acumulativo..
 
 -   Función de repetidor (enrutador) para extender la red Z-Wave.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
--   Ordene luces de bajo voltaje 12 / 24V (halógeno o LED)
+-   Controle luces de bajo voltaje de 12 / 24V (halógenas o LED)
 
 -   Se instala detrás de un interruptor existente
 
@@ -69,7 +69,7 @@ Funciones
 Características técnicas 
 ---------------------------
 
--   Suministro : 12 V o 24 V CC
+-   Comida : 12 V o 24 V CC
 
 -   Máxima potencia de salida :
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGRGB-101 RGBW
+-   Apellido : Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -118,12 +118,12 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -146,30 +146,30 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
 \
 
-![Comandos](images/fibaro.fgrgb101/commande_1.png)
+![Órdenes](images/fibaro.fgrgb101/commande_1.png)
 
-![Comandos](images/fibaro.fgrgb101/commande_2.png)
+![Órdenes](images/fibaro.fgrgb101/commande_2.png)
 
 \
 
 Aquí está la lista de comandos :
 
--   Color : Es el comando que permite configurar el código de color para
+-   Color: : Es el comando que permite configurar el código de color para
     afficher
 
 -   Chimenea : Es el comando que simula una atmósfera de
-    Chimenea
+    chimenea
 
 -   Tormenta : Este es el comando que simula una atmósfera de tormenta
 
--   Alba : Este es el comando que simula una atmósfera de Aude.
+-   Alba : Es el comando que simula una atmósfera de Aude.
     (amanecer progresivo)
 
 -   Desvanecimiento : Este es el comando que simula todo
@@ -185,7 +185,7 @@ Aquí está la lista de comandos :
     color blanco cálido, si la tira de colores lo permite. (este
     el comando no es visible por defecto)
 
--   Uno : Este es el comando que activa la tira en el
+-   Nosotros : Este es el comando que activa la tira en el
     último color elige antes
 
 -   Apagado : Este es el comando que apaga el banner
@@ -201,12 +201,12 @@ icone
 ### Configuracion del modulo 
 
 Puede configurar el módulo de acuerdo con su
-instalación Esto requiere pasar por el botón "Configuración" del
+instalación Para hacer esto, vaya al botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -260,7 +260,7 @@ Uso de sensores de 0-10 V.
 Despertador 
 ------
 
-No hay noción de activación en este módulo.
+No hay noción de despertar en este módulo.
 
 \
 

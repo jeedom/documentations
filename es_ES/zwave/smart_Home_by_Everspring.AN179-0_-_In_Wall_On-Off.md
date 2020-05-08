@@ -42,7 +42,7 @@ qué controlador Z-Wave en su red.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -76,12 +76,12 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230 V, 50 Hz
+-   Comida : 230 V, 50 Hz
 
 -   El consumo : 0.5W
 
 -   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
-    : Bombilla fluorescente compacta de 1200 vatios : 320W
+    : Bombilla fluorescente compacta de 1200W : 320W
 
 -   Frecuencia : 868.42 Mhz
 
@@ -98,9 +98,9 @@ Datos del módulo
 
 \
 
--   Hacer : Smarthome por everspring
+-   Hacer : SmartHome por Everspring
 
--   Nombre : En pared encendido apagado
+-   Apellido : En pared encendido apagado
 
 -   ID del fabricante : 96
 
@@ -110,14 +110,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -125,7 +125,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
-> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> tenga en cuenta que este módulo entra directamente en la inclusión cuando
 > no pertenece a ninguna red y está alimentado
 
 \
@@ -142,7 +142,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -151,7 +151,7 @@ disponibles.
 
 \
 
-![Comandos](images/smarthomebyeverspring.AN179-0/commandes.jpg)
+![Órdenes](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
 \
 
@@ -159,12 +159,12 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : Es el control que enciende la luz.
+-   Nosotros : Es el control que enciende la luz.
 
 -   Apagado : Es el comando que apaga la luz.
 
 -   Estado : Es el comando que permite conocer el estado de la
-    Iluminación
+    luz
 
 \
 
@@ -178,12 +178,12 @@ el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Esto requiere pasar por el botón "Configuración" del
+instalación Para hacer esto, vaya al botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -248,7 +248,7 @@ Bueno saber
 
 \
 
-Despertar 
+Despertarse 
 -------
 
 \

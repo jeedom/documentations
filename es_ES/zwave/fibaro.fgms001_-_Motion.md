@@ -41,14 +41,14 @@ y sistemas de vigilancia y / o seguridad.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
 
 -   Detector de movimiento inalámbrico
 
--   Detecta movimiento usando un sensor infrarrojo pasivo
+-   Detecta movimiento utilizando un sensor infrarrojo pasivo.
 
 -   Medida de temperatura
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : Batería CR123A 3,6VDC
+-   Comida : Batería CR123A 3,6VDC
 
 -   Altura recomendada para la instalación : 2,4m
 
@@ -108,7 +108,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Apellido : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -118,14 +118,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -148,7 +148,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -157,7 +157,7 @@ disponibles.
 
 \
 
-![Comandos](images/fibaro.fgms001/commandes.jpg)
+![Órdenes](images/fibaro.fgms001/commandes.jpg)
 
 \
 
@@ -168,7 +168,7 @@ Aquí está la lista de comandos :
 -   Presencia : es el comando que detectará una detección de presencia
 
 -   Temperatura : es el comando que permite subir el
-    Temperatura
+    temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -196,7 +196,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -236,7 +236,7 @@ Detalles del parámetro :
 -   8: activa el modo noche / día o ambos (valor
     recomendado : siempre activo)
 
--   9: le permite ajustar el umbral para cambiar al modo nocturno (útil si
+-   9: ajusta el umbral para cambiar al modo nocturno (útil si
     ha cambiado el parámetro 8)
 
 -   12: cambiar solo si sabes por qué lo estás haciendo
@@ -258,13 +258,13 @@ Detalles del parámetro :
 
 -   26: cambiar solo si sabes por qué lo estás haciendo
 
--   40: digamos cuánto es el valor de
+-   40: digamos cuánto se debe cambiar el valor de
     brillo a enviar (valor recomendado 50)
 
 -   42: permite dar una duración mínima entre dos envíos sucesivos
     incluso si el brillo no ha cambiado (valor recomendado 3600)
 
--   60: digamos cuánto es el valor de
+-   60: digamos cuánto se debe cambiar el valor de
     temperatura a enviar (valor recomendado 2 o 0.2 grados)
 
 -   62: da la frecuencia de las mediciones de temperatura (valor
@@ -321,11 +321,11 @@ Bueno saber
 
 > **Tip**
 >
-> Este módulo es muy complicado al despertar y está muy mal configurado
+> Este módulo es muy meticuloso al despertar y está muy mal configurado
 > fabrica. Es esencial despertarlo bien después de la inclusión.
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
-> Cuenta.
+> cuenta.
 
 \
 
@@ -345,7 +345,7 @@ Despertador
 Para activar este módulo, solo hay una forma :
 
 -   presione el botón de inclusión 3 veces (la luz se enciende
-    en azul). Incluso si la luz se enciende, puede ser necesario
+    en azul). Incluso si se enciende la luz, puede ser necesario
     hazlo varias veces seguidas (2 o 3)
 
 \

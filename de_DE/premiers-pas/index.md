@@ -5,7 +5,7 @@ Willkommen zu dieser Dokumentation des ersten Schritts, die Ihnen hilft, Ihr Jee
 
 ## Registrierung am Markt
 
-Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/).
+Als erstes müssen Sie ein Konto auf dem Markt erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/).
 
 Klicken Sie oben links auf die Schaltfläche "Registrieren":
 
@@ -26,9 +26,9 @@ Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail mit einem Code f
 
 > **Important**
 >
-> Wenn Sie ein Service Pack auf dem Jeedom Market kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
+> Wenn Sie ein Service Pack auf dem Jeedom Market kaufen, müssen Sie nichts tun, es wird Ihnen automatisch zugewiesen.
 
-Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
+Sobald der Code in der E-Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
 
 Dann gehen Sie zu Ihrer Profilseite:
 
@@ -42,7 +42,7 @@ Klicken Sie dann auf die Registerkarte "Meine Dienste", geben Sie Ihre Service P
 
 ## Finden Sie Ihr Jeedom im Netzwerk
 
-Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist, erfahren Sie hier, wie Sie eine Verbindung herstellen.
+Sobald Jeedom elektrisch angeschlossen und mit Ihrem lokalen Netzwerk verbunden ist, erfahren Sie hier, wie Sie eine Verbindung herstellen.
 
 ### Finde Jeedom
 
@@ -56,7 +56,7 @@ Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig 
 
 > **Important**
 >
-> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht. Wenn ja, nichts Ernstes, müssen Sie nur eine Verbindung zu Ihrer ADSL-Box herstellen und die Jeedom-IP darin finden. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Dies ist nicht der Fall, wenn das Hinzufügen Ihres Jeedom zu Ihrem Marktkonto abgeschlossen ist.
+> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht. Wenn ja, nichts Ernstes, stellen Sie einfach eine Verbindung zu Ihrer ADSL-Box her und finden Sie die jeedom IP darin. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Zu diesem Zeitpunkt erfolgt die Hinzufügung Ihres Jeedom zu Ihrem Marktkonto noch nicht.
 
 #### Durch Ihre Internetbox
 
@@ -74,7 +74,7 @@ Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldese
 
 ## Verknüpfe mein Jeedom mit meinem Marktkonto
 
-Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
+Hier erfahren Sie, wie Sie Ihr Jeedom mit Ihrem Market-Konto verknüpfen.
 
 -   Sobald Sie mit Ihrem Jeedom verbunden sind, müssen Sie zu Administration → Konfiguration gehen
 
@@ -86,7 +86,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
--   Füllen Sie auch die Felder "Benutzername" und "Passwort" entsprechend Ihren Kennungen aus (Marktkennungen und nicht Jeedom).
+-   Füllen Sie auch die Felder "Benutzername" und "Passwort" basierend auf Ihren Kennungen aus (Marktkennungen und nicht Jeedom).
 
 -   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
 
@@ -146,7 +146,7 @@ Weitere Informationen zu diesem Teil finden Sie unter *Benutzerhandbuch -> Objek
 
 ## Installiere mein erstes Plugin
 
-Ein Plugin ermöglicht das Hinzufügen von Funktionen zu Jeedom. Es gibt Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein. Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Plugins-Verwaltung.
+Mit einem Plugin können Sie Jeedom Funktionen hinzufügen. Es gibt Hunderte. Viele sind kostenlos, andere können kostenpflichtig sein. Um auf die Plugins-Seite zuzugreifen, gehen Sie zu Plugins → Plugins-Verwaltung.
 
 Dann klicken Sie einfach auf Markt:
 
@@ -165,13 +165,13 @@ Durch Klicken auf ein Plugin erhalten Sie dessen Datei:
 Sie finden dann :
 
 - Schaltflächen zum Installieren des Plugins : Die stabile Version wird dringend empfohlen,
-- Eine Schaltfläche zum Entfernen des Plugins,
+- Eine Schaltfläche zum Löschen des Plugins,
 - Eine kurze Beschreibung,
 - Ein Link zur Plugin-Dokumentation,
 - Ein Link zum Changelog (die letzten vorgenommenen Änderungen),
 - Kompatibilität mit verschiedenen Plattformen,
 - Nutzerbewertungen,
-- Wie man das Plugin benutzt,
+- Wie benutzt man das Plugin?,
 - Zusätzliche Informationen wie der Autor, der Link zur Forumsdiskussion zu diesem Plugin, das Datum des letzten Updates usw..
 
 Weitere Informationen zu Plugins, *Benutzerhandbuch -> Plugin*.
@@ -195,7 +195,7 @@ Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage h
 >
 > Bitte beachten Sie, dass alle Supportanfragen ein Konto auf dem Markt haben müssen.
 
-Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten.. Diese Anfrage geht durch ein Ticket. Es gibt verschiedene Möglichkeiten, eine zu öffnen.:
+Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten.. Diese Anfrage geht durch ein Ticket. Sie können eine auf verschiedene Arten öffnen:
 
 -   Direkt von Jeedom (empfohlene Methode): Einstellungsmenü → Supportanfrage.
 

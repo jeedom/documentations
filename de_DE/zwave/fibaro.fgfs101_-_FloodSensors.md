@@ -48,8 +48,8 @@ Problem. Sie können den Trockenkontaktausgang an ein System anschließen
 vorhandener Alarm. Eine Front-LED zur Überprüfung des Status der
 FGFS-101.
 
-Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
-stellt die korrekte Funktion des Sensors während seiner Installation sicher.
+Dieser Sensor enthält einen Z-Wave-Netzwerk-Entfernungsmesser, mit dem Sie
+sorgt für den korrekten Betrieb des Sensors während der Installation.
 
 \.
 
@@ -117,7 +117,7 @@ Moduldaten
 
 -   Modell : Hochwassersensor FGFS101
 
--   Hersteller : FIBARO-System
+-   Hersteller : FIBARO System
 
 -   Hersteller ID : 271
 
@@ -158,16 +158,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgfs101/commandes.jpg)
+![Bestellungen](images/fibaro.fgfs101/commandes.jpg)
 
 \.
 
@@ -175,7 +175,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
+-   Leck : Dies ist der Modulalarmbefehl (für das Vorhandensein
     Wasser, Überschwemmungen ...)
 
 -   Temperatur : Es ist der Temperaturmessbefehl
@@ -235,11 +235,11 @@ Parameterdetails :
         0 : Akustischer und optischer Alarm deaktiviert
         1 : Akustischer Alarm deaktiviert und visueller Alarm aktiviert
         2 : Akustischer Alarm ein und visueller Alarm aus
-        3 : Akustischer und visueller Alarm aktiviert.
+        3 : Akustischer und optischer Alarm aktiviert.
 
 -   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : 1 bis 65.535 s
-    (Standardmäßig 300). Achten Sie darauf, keinen Übertragswert zu setzen
-    nahe beieinander unter der Strafe, dass die Batterie des Moduls überhaupt schmilzt
+    (Standardmäßig 300). Achten Sie darauf, keinen Carry-Wert zu setzen
+    nahe beieinander, wenn die Batterie des Moduls überhaupt schmilzt
     Geschwindigkeit ! (1800 wird empfohlen)
 
 -   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (standardmäßig 50
@@ -248,7 +248,7 @@ Parameterdetails :
     diese letzten.
 
 -   50 \. Einstellen des Niedertemperaturalarms : von -10000 bis + 10000
-    (Standardmäßig 1500 = 15 ° C) Wird verwendet, um einen Alarm auszulösen, wenn die
+    (Standardmäßig 1500 = 15 ° C) Löst einen Alarm aus, wenn die
     Temperatur fällt unter einen bestimmten Schwellenwert.
 
 -   51.Hochtemperaturalarm einstellen : von -10000 bis + 10000
@@ -280,10 +280,10 @@ zumindest mit den Gruppen 1, 4 und 5 verbunden:
 Gut zu wissen 
 ------------
 
-Dieses von außen betriebene Modul kann als Repeater verwendet werden
+Dieses von außen betriebene Modul kann als Repeater fungieren
 Z-Welle (Informationen derzeit nicht bestätigt)
 
-Die Verkabelung für eine externe Stromversorgung. \.
+Verkabelung für externe Stromversorgung. \.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 

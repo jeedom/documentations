@@ -10,18 +10,18 @@ Los campos marcados con * son campos obligatorios.
 
 Campos                   | Valores                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-Identificación *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
+id *                     | Identificador único del complemento en el mercado Jeedom. Debe comenzar con una carta. Sin acentos.                             |
 nombre *                   | Nombre del complemento.                                                                                                            |
-Descripción *            | Descripción del complemento, tal como aparecerá en el Mercado Jeedom Mínimo 80 caracteres. (`<br/>`para el salto de línea.)                                  |                                                                                     |
-uso                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
-Licencia *                | Tipo de licencia.                                                                                                          |
+descripción *            | Descripción del complemento, tal como aparecerá en el Mercado Jeedom Mínimo 80 caracteres. (`<br/>`para el salto de línea.)                                  |                                                                                     |
+uso                    | Información adicional a la documentación sobre el uso del complemento..                                                    |
+licencia *                | Tipo de licencia.                                                                                                          |
 autor *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
 exigir *                | Versión mínima de Jeedom.                                                                                                |
-categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación.** |
-visualización                  | si el complemento utiliza un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
-Móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
-Cambios *              | Enlace HTML al registro de cambios.                                                                                              |
-Documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
+categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es imprescindible respetar la nomenclatura de la tabla a continuación.** |
+exhibir                  | si el complemento usa un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
+móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
+registro de cambios *              | Enlace HTML al registro de cambios.                                                                                              |
+documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
 enlace -> video               | Enlace HTML a una presentación de video.                                                                                 |
 enlace -> foro               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
 idiomas                | Lista de idiomas disponibles para el complemento:francés, inglés, alemán, italiano, español, ruso, indonesio            |
@@ -40,23 +40,23 @@ problema                    | URL al rastreador de errores si es externo (si no 
 
 **CATEGORÍA NOMENCLATURA**
 
-Mercado de la libertad         | Información.JSON               |
+Mercado de la libertad         | informacion.json               |
 --------------------- | ----------------------- |
-Comunicación         | Comunicación           |
-Confort               | bienestar                |
+Comunicación         | comunicacion           |
+Comodidad               | bienestar                |
 Energía               | energía                  |
-Tiempo                 | clima                 |
-Monitoreo            | Monitoreo              |
-Multimedia            | Multimedia              |
-Naturaleza                | Naturaleza                  |
+Pronóstico del tiempo                 | clima                 |
+Monitoreo            | monitoreo              |
+Multimedia            | multimedia              |
+La naturaleza                | naturaleza                  |
 Objetos conectados      | dispositivo de comunicación     |
-Organización          | organización            |
+Organizacion          | organización            |
 Pasarela domótica  | protocolo de domótica|
-Programación         | programación             |
+Programacion         | programacion             |
 Protocolo de domótica   | protocolo de automatización     |
 Salud                 | salud                  |
 Seguridad              | seguridad                |
-Automatismo           | automatización          |
+Automatización           | automatización          |
 
 
    

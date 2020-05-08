@@ -18,11 +18,11 @@ Go back to the main menu and select VPN Server
 
 When the window opens, go to L2TP / IPSEC
 
-Choose the option Enable L2TP / IPsec VPN server
+Choose the Enable L2TP / IPsec VPN server option
 
 In Dynamic IP Address, enter a number that will correspond to the sub
 network for assigning the IPs of your devices in VPN on the internal network
-from your place. NB : do not choose the same thing as the
+from your place. NB : you should not choose the same thing as the
 default subnet of your box ex at free the subnet of
 machines is 192.168.1.0 so in the example we put 2
 
@@ -31,7 +31,7 @@ on the VPN server, then the maximum number of simultaneous connections
 for a user
 
 Finally enter a sharing key NB : it is a password that he
-will have to enter the VPN configuration on the mobile or tablet.
+will need to enter the VPN configuration on the mobile or tablet.
 
 Then apply
 
@@ -66,7 +66,7 @@ allow to use VPN .
 Redirect the ports of your BOX 
 ===============================
 
-In the browser enter 192.168.1.1. Click on settings
+In the browser enter 192.168.1.1. Click on settings of the
 Freebox
 
 ![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)

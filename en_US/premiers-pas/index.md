@@ -26,9 +26,9 @@ If you bought a Jeedom box then you should have received an email containing a c
 
 > **Important**
 >
-> If you buy a service pack from the Jeedom Market you have nothing to do, it is automatically assigned to you.
+> If you buy a service pack from the Jeedom Market you don't have to do anything, it is automatically assigned to you.
 
-Once the code is retrieved in the mail, you just need to go to the [Jeedom Market](https://market.jeedom.com/) and identify yourself.
+Once the code is retrieved in the email, you just need to go to the [Jeedom market](https://market.jeedom.com/) and identify you.
 
 Then go to your profile page:
 
@@ -48,7 +48,7 @@ Once Jeedom is electrically connected and connected to your local network, here 
 
 #### Through the market
 
-The simplest solution (but does not work in 100% of cases depending on the configuration of your internet access), you must start the box, wait about 10 minutes (be careful if you use a netinstallation type image, it will be rather 30min) and go [here](https://www.jeedom.com/market/index.php?v=d&p=find)
+The simplest solution (but does not work in 100% of cases depending on the configuration of your internet access), you have to start the box, wait about 10 minutes (be careful if you use a netinstallation type image, it will be rather 30min) and go [here](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Tip**
 >
@@ -56,7 +56,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 
 > **Important**
 >
-> Depending on your ADSL box this functionality may not work. If so, nothing serious, you just need to connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. This is not when adding your Jeedom to your market account is done.
+> Depending on your ADSL box this functionality may not work. If so, nothing serious, just connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. It is not at this time that the addition of your Jeedom to your market account is done.
 
 #### By your internet box
 
@@ -68,7 +68,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 
 ## First connection
 
-Whichever method is used, you will then arrive on the Login page. By default the login and password are "admin".
+Whichever method is used, you then arrive on the Login page. By default the login and password are "admin".
 
 ![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
@@ -86,18 +86,18 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
--   Also fill in the "Username" and "Password" fields according to your identifiers (Market identifiers and not Jeedom)
+-   Also fill in the "Username" and "Password" fields based on your identifiers (Market identifiers and not Jeedom)
 
 -   You can test to verify that the connection is made correctly.
 
--   Don&#39;t forget to save !
+-   Don't forget to save !
 
 For more details on the configuration page, see *Configuration manual -> Administration*.
 .
 
 ## Get my direct access URL
 
-If you have a Service Pack, Jeedom provides you with a direct access URL to your Jeedom without having to open the ports on your box or other.
+If you have a service pack, Jeedom provides you with a direct access URL to your Jeedom without having to open the ports on your box or other.
 
 To configure it, simply go to Settings → System → Configuration
 
@@ -136,7 +136,7 @@ Nothing could be simpler to create an object :
 
 -   Go to Tools → Objects
 
--   Click on the Add button
+-   Click on the add button
 
 -   Jeedom will ask you the name of it. Validate. This is your first object created :
 
@@ -146,7 +146,7 @@ For more information on this part, see *User manual -> Object*.
 
 ## Install my first plugin
 
-A plugin allows to add functionality to Jeedom. There are hundreds. Many are free, others may be chargeable. To access the plugins page go to Plugins → Plugins management.
+A plugin allows you to add functionality to Jeedom. There are hundreds. Many are free, others may be chargeable. To access the plugins page go to Plugins → Plugins management.
 
 Then just click on Market:
 
@@ -165,7 +165,7 @@ By clicking on a plugin you get its file:
 You then find :
 
 - Buttons to install the plugin : the stable version is highly recommended,
-- A button to remove the plugin,
+- A button to delete the plugin,
 - A brief description,
 - A link to the plugin documentation,
 - A link to the changelog (the last modifications made),
@@ -195,7 +195,7 @@ The forum is very active and contains a lot of information. If you have a questi
 >
 > Please note, all support requests must have an account on the Market.
 
-If you have not found a solution to your problem, as a last resort, you can request support from the Jeedom team.. This request goes through a ticket. There are several ways to open one.:
+If you have not found a solution to your problem, as a last resort, you can request support from the Jeedom team.. This request goes through a ticket. You can open one in several ways:
 
 -   Directly from Jeedom (recommended method): Settings menu → Support request.
 

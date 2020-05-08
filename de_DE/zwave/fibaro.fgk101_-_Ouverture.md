@@ -1,4 +1,4 @@
-Fibaro Öffnungsdetektor - FGK-101 
+Fibaro-Öffnungsdetektor - FGK-101 
 ======================================
 
 \.
@@ -31,16 +31,16 @@ Zwei Elemente sind entfernt.
 
 Das Gerät besteht aus einem Teil mit einem Magneten (dem Teil
 mobil), an der Tür oder am Fenster sowie am Gerät befestigt
-Hauptposition am festen Teil des Fensters / der Tür mit
+Haupt auf dem festen Teil des Fensters / der Tür mit positioniert
 Schraube oder Kleber. Wenn sich die beiden Teile nicht mehr gegenüberliegen, a
 Das Z-Wave-Funksignal wird automatisch gesendet.
 
 Zusätzlich verfügt dieser Detektor über einen analogen Eingang
 Schließen Sie einen 1-Draht-Temperaturfühler DS18B20 an. Dieser Detektor hat
 auch von einem kabelgebundenen Eingang, so dass es als verwendet werden kann
-Universalsender : lassen Sie seinen Magnetkontakt beiseite und
+Universalsender : lassen Sie seinen magnetischen Kontakt beiseite, und
 Schließen Sie die Schraubeingänge an einen Detektor (normalerweise geschlossen) Ihres Geräts an
-Wahl wie Rauch-, Gas- oder Kohlenmonoxiddetektor,
+Wahl wie ein Rauch-, Gas- oder Kohlenmonoxid-Detektor,
 etc.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
@@ -54,7 +54,7 @@ Funktionen
 
 \.
 
--   Detektor öffnen
+-   Öffnungsdetektor
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
@@ -80,9 +80,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
+-   Farbe: : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
 
--   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
+-   Essen : ER14250 (1 / 2AA) 3,6-V-Batterie
 
 -   Frequenz : 868,42 MHz
 
@@ -101,7 +101,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
+-   Nachname : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 
 -   Hersteller ID : 271
 
@@ -141,16 +141,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgk101-DS18B20/commandes.jpg)
+![Bestellungen](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
 \.
 
@@ -158,7 +158,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : Es ist der Befehl, der den offenen oder geschlossenen Zustand des
+-   Staat : Es ist der Befehl, der den offenen oder geschlossenen Zustand des
     module
 
 -   Batterie : es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
@@ -209,7 +209,7 @@ Parameterdetails :
 -   Aufwachen : Dies ist das Aufweckintervall des Moduls (Wert
     7200 empfohlen)
 
--   1: Legt die Verzögerung für das Aufheben des IN-Eingangsalarms fest
+-   1: Legt die Verzögerung für die Löschung des IN-Eingangsalarms fest
     (trockener Kontakt)
 
 -   2: ermöglicht die Auswahl, ob die blaue LED beim Öffnen blinken soll und
@@ -218,7 +218,7 @@ Parameterdetails :
 -   3: wird verwendet, um den Kontakttyp zu definieren, der an die Klemmenleiste (IN) angeschlossen ist.
 
 -   5: Es wird nicht empfohlen, diese Einstellung zu ändern, es sei denn, Sie wissen warum
-    (Definiert die Art des an die Assoziationsgruppe 1 gesendeten Signals.)
+    (Definiert die Art des an die Zuordnungsgruppe 1 gesendeten Signals.)
 
 -   7: Wert an Assoziationsgruppe 1 gesendet
 
@@ -228,7 +228,7 @@ Parameterdetails :
 -   12: ermöglicht die Einstellung der Empfindlichkeit gegenüber Temperaturänderungen (wenn
     eine 1-Draht-Sonde ist an das Modul angeschlossen)
 
--   13: ermöglicht es, das Senden der Signale von im Broadcast-Modus einzustellen
+-   13: Mit dieser Option können Sie den Sendemodus für das Senden von einstellen
     Temperatur und Manipulation
 
 -   14: Aktiviert die Szenenaktivierungsfunktion

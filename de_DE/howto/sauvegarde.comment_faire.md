@@ -6,11 +6,11 @@ Vor- und Nachteile.
 
 Es ist möglich, über die Schnittstelle zu speichern
 Jeedom. Dies betrifft nur die Jeedom-Software und ihre Daten.
-Es hat den Vorteil, heiß gemacht zu werden und die Datei von
+Es hat den Vorteil, heiß gemacht werden zu können und die Datei von
 Backup kann auf andere Medien exportiert werden.
 
 Es ist auch möglich, ein Backup zu erstellen, indem Sie ein Image erstellen
-microSD-Karten-Disc (Mini und Mini +). Dieser Weg hat den Vorteil
+microSD-Karte (Mini und Mini +). Dieser Weg hat den Vorteil
 eine vollständige Sicherung des Systems sowie von Jeedom und seiner
 Daten. Dies muss jedoch durch Ausschalten von Jeedom und erfolgen
 Einstecken der microSD-Karte in einen anderen Computer.
@@ -26,7 +26,7 @@ regelmäßige Sicherung von Jeedom.
 > das Team sehen
 > [hier](https://www.jeedom.fr/doc/documentation/installation/de_DE/doc-installation.html).
 
-Jeedom Backup / Restore 
+Sicherung / Wiederherstellung von Jeedom 
 =================================
 
 Zur Erläuterung der Seite ist bereits eine Dokumentation vorhanden
@@ -103,7 +103,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
     -   Im Shell-Befehl :
 
-        -   Öffnen Sie, um die der Karte entsprechende Festplatte zu finden
+        -   Öffnen Sie die Festplatte, um die der Karte entsprechende Festplatte zu finden
             ein Terminal und geben Sie den Befehl ein : `diskutil list`
             image::images / save-restore12.jpg \ [align = "center" \]
 
@@ -117,15 +117,15 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
 
     -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste
         *Pi-Crust*, Geben Sie den Pfad zur wiederherzustellenden Image-Datei ein
-        Auf dem Feld *IMG-Datei* des Abschnitts *Pi-Ingredients*, et
+        auf dem Feld *IMG-Datei* des Abschnitts *Pi-Ingredients*, et
         Klicken Sie auf *Backup wiederherstellen* um das Bild auf dem wiederherzustellen
         microSD-Karte.
 
     -   Im Shell-Befehl :
 
-        -   Öffnen Sie, um die der Karte entsprechende Festplatte zu finden
+        -   Öffnen Sie die Festplatte, um die der Karte entsprechende Festplatte zu finden
             ein Terminal und geben Sie den gleichen Befehl wie für die
-            Schutz : `diskutil list`
+            Backup : `diskutil list`
 
         -   Hängen Sie die Partitionen der Karte aus, indem Sie den Befehl eingeben :
             `sudo diskutil unmountDisk / dev / disk1`
@@ -133,7 +133,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen
         -   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben
             :
             `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img von = / dev / disk1`
-            *Bemerkung : In diesem Beispiel der Name der Karte
+            *Hinweis : In diesem Beispiel der Name der Karte
             ist `/ dev / disk1`, also geben Sie den Befehl ein
             backup \ `/ dev / disk1 \`*
 

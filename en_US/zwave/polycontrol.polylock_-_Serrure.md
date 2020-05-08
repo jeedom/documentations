@@ -96,7 +96,7 @@ Module data
 
 -   Mark : Poly-Control
 
--   Name : Polylock
+-   Last name : Polylock
 
 -   Manufacturer ID : 270
 
@@ -106,20 +106,20 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
 > **Important**
 >
-> To put this module in inclusion mode, press the button 1 time
+> To put this module in inclusion mode, press the button once
 > inclusion button, according to its paper documentation.
 
 \
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Commands](images/polycontrol.polylock/commandes.jpg)
+![Orders](images/polycontrol.polylock/commandes.jpg)
 
 \
 
@@ -156,7 +156,7 @@ Here is the list of commands :
 -   Status : it is the command which will go up the last action
     executed (open / close)
 
--   Open : it is the command which opens the lock
+-   To open : it is the command that opens the lock
 
 -   To close : it is the command which makes it possible to close the lock
 
@@ -183,7 +183,7 @@ Jeedom OpenZwave plugin.
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -241,7 +241,7 @@ Examples of use
 The trigger is the event command of a zipato keyboard
 (it can be anything else). If the value is 6 (home) on
 lock the door. We have just returned so we can close
-the key door. Otherwise (necessarily 5) the door is opened with a key and 2 minutes
+the key door. Otherwise (necessarily 5) we open the door with a key and 2 minutes
 after we close it. Indeed, we want to go out, the door opens and
 will close soon after.
 

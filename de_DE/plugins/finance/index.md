@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio|Plugin zum Senden und Empfangen von Informationen aus Ihrem Pokfolio|[Dokumentation](porkfolio/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|
+|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio||[Dokumentation](porkfolio/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|

@@ -25,10 +25,10 @@ Resumen
 \
 
 El micromódulo FGR-222 le permitirá gestionar las motorizaciones de
-persiana con tope electrónico, persianas venecianas o las puertas de
+persiana con tope electrónico, persianas o puertas venecianas
 garaje gracias al protocolo Z-Wave manteniendo su interruptor
 existente. Por lo tanto, podrá activar el motor conectado
-usando el interruptor existente, un transmisor Z-Wave o directamente
+utilizando el interruptor existente, un transmisor Z-Wave o directamente
 desde el botón en el micromódulo.
 
 Además, este micromódulo es capaz de transmitir el consumo.
@@ -47,7 +47,7 @@ Nota : Este módulo requiere neutral para operar.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -82,7 +82,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50 Hz
+-   Comida : 230V, 50 Hz
 
 -   El consumo de energía : &lt; 0,8W
 
@@ -113,7 +113,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Fibaro FGR-222
+-   Apellido : Fibaro FGR-222
 
 -   ID del fabricante : 271
 
@@ -123,14 +123,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -153,7 +153,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -162,9 +162,9 @@ disponibles.
 
 \
 
-![Comandos](images/fibaro.fgrm222/commandes.jpg)
+![Órdenes](images/fibaro.fgrm222/commandes.jpg)
 
-![Comandos](images/fibaro.fgrm222/commandes2.jpg)
+![Órdenes](images/fibaro.fgrm222/commandes2.jpg)
 
 \
 
@@ -182,24 +182,24 @@ Aquí está la lista de comandos :
 
 -   Abajo : Es el comando que cierra completamente el obturador.
 
--   Refrescar : Es el comando que permite volver a preguntar la posición.
+-   Actualizar : Es el comando que permite volver a preguntar la posición.
     de la persiana
 
 -   Potencia : Comando que permite tener el consumo del módulo
 
--   El consumo : Control que permite conocer el poder
-    Instantáneo utilizado por el módulo
+-   El consumo : Control de potencia
+    instantánea utilizada por el módulo
 
--   Detener : Control para detener el movimiento del obturador.
+-   Parar : Control para detener el movimiento del obturador.
 
 -   DETENER BSO : Comando para detener el movimiento (en modo
     listón ajustable)
 
 -   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
 
--   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
+-   Declinar : Se usa para rechazar las lamas (modo de lamas ajustable)
 
--   No : Se usa para definir el paso para presionar Rechazar o
+-   No : Se utiliza para definir el paso para presionar Rechazar o
     Incliner
 
 \
@@ -214,7 +214,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -338,7 +338,7 @@ Despertador
 
 \
 
-No hay noción de activación en este módulo.
+No hay noción de despertar en este módulo.
 
 \
 

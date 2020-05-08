@@ -45,8 +45,8 @@ siguiente en SSH :
 
     sudo lsmod | grep 8192cu
 
-Si el comando devuelve un valor, todo está bien. Por ejemplo
-en casa lo recupero :
+Si el comando devuelve un valor, significa que todo está bien. Por ejemplo
+de vuelta a casa lo entiendo :
 
     8192cu 550797 0
 
@@ -74,7 +74,7 @@ Aquí está el contenido del archivo operativo conmigo :
 Edición del archivo "/etc/wpa\_supplicant.conf" 
 ==============================================
 
-Ahora solo tiene que ingresar su configuración WiFi (nombre de
+Ahora solo tiene que insertar su configuración WiFi (nombre de
 su SSID y clave WPA). Esto se hace editando el archivo
 /etc/wpa\_supplicant.conf con el comando :
 
@@ -104,7 +104,7 @@ Aquí está mi archivo operativo en casa :
     * NOM_DE_TON_RESEAU_SSID por el nombre de su propia red, manteniendo las comillas ("")
     * TA_CLE_WIFI por el nombre de su propia red, manteniendo las comillas ("")
 
-    También llamo su atención para que su clave WiFi aparezca clara en el archivo. Si desea más seguridad, puede cifrar su clave de antemano mediante el comando "sudo wpa_passphrase" y luego insertar su clave cifrada (sin poner las comillas en este caso).
+    También llamo su atención sobre que su clave WiFi aparecerá clara en el archivo. Si desea más seguridad, puede cifrar su clave de antemano mediante el comando "sudo wpa_passphrase" y luego insertar su clave cifrada (sin poner las comillas en este caso).
 
     == Activación WiFi
 

@@ -43,14 +43,14 @@ detector de humo en forma de sensor de temperatura. Si la
 no hay suficiente humo para hacer sonar la alarma,
 el dispositivo aún podrá detectar una amenaza al detectar
 Un cambio rápido de temperatura causado por un incendio.. Cambio
-El aumento o aumento rápido de la temperatura a 54 ° C es suficiente
+El aumento rápido de temperatura o hasta 54 ° C es suficiente
 para que el sensor de humo detecte una amenaza y la informe a
 habitantes de la casa. Solo este tipo de sensor de humo ofrece
 alta eficiencia, independientemente de lo que se queme.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -87,11 +87,11 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : Batería de litio CR123A de 3V
+-   Comida : Batería de litio CR123A de 3V
 
 -   Duración de la batería : 3 años
 
--   Frecuencia : 868.42 Mhz
+-   Frecuencia : 868,42 MHz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
@@ -123,7 +123,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Sensor de humo Fibaro FGSD-002
+-   Apellido : Sensor de humo Fibaro FGSD-002
 
 -   ID del fabricante : 271
 
@@ -133,21 +133,21 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
 > **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
-> botón central de inclusión, de acuerdo con su documentación en papel.
+> botón central de inclusión, según su documentación en papel.
 
 \
 
@@ -163,7 +163,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -172,7 +172,7 @@ disponibles.
 
 \
 
-![Comandos](images/fibaro.fgsd102/commandes.jpg)
+![Órdenes](images/fibaro.fgsd102/commandes.jpg)
 
 \
 
@@ -188,10 +188,10 @@ Aquí está la lista de comandos :
 -   Sabotaje : este es el comando de sabotaje. Señala la apertura
     del caso
 
--   Alerta de prueba : Es el comando el que mostrará el hecho de que el módulo
+-   Alerta de prueba : Es el comando que volverá a ensamblar el hecho de que el módulo
     está en modo de prueba
 
--   Alerta de calor : es el control el que generará una alerta de calor
+-   Alerta de calor : es el control que generará una alerta de calor
     (no confiable todavía)
 
 -   Batería : es el comando de la batería
@@ -215,7 +215,7 @@ dependiendo de su instalación. Esto requiere pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -239,7 +239,7 @@ Detalles del parámetro :
 
 -   1: ajusta la sensibilidad de la detección de humo
 
--   2: le permite elegir qué notificaciones se enviarán a Jeedom
+-   2: permite elegir qué notificaciones se enviarán a Jeedom
     (consejo : toutes)
 
 -   3: le permite elegir qué notificaciones irán acompañadas de un

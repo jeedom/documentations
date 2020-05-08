@@ -37,7 +37,7 @@ existing switch, or three wires with conventional power supply from
 module (Phase + Neutral).
 
 The Wall Dimmer Module is a Z-Wave ™ compatible device which is
-designed to work with all Z-Wave ™ compatible networks. he
+intended to work with all Z-Wave ™ compatible networks. he
 can be controlled by remote control, PC software, or any
 which Z-Wave controller in your network.
 
@@ -66,7 +66,7 @@ Functions
 
 -   Use in 2-wire mode (neutral not necessary)
 
--   Compatible with Led Dimmable bulbs
+-   Compatible with LED Dimmable bulbs
 
 -   Button to include / exclude / associate the module
 
@@ -110,7 +110,7 @@ Module data
 
 -   Mark : SmartHome by Everspring
 
--   Name : In Wall Dimmer
+-   Last name : In Wall Dimmer
 
 -   Manufacturer ID : 96
 
@@ -120,14 +120,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -135,7 +135,7 @@ inclusion refer to this
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
-> note that this module goes directly to inclusion when
+> note that this module goes directly into inclusion when
 > does not belong to any network and is powered
 
 \
@@ -152,7 +152,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -161,7 +161,7 @@ disponibles.
 
 \
 
-![Commands](images/smarthomebyeverspring.AD146-0/commandes.jpg)
+![Orders](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
 \
 
@@ -170,18 +170,18 @@ Here is the list of commands :
 \
 
 -   Intensity : This is the command used to adjust the intensity of the
-    Light
+    light
 
 -   We : It is the control that turns on the light
 
 -   Off : It is the command that turns off the light
 
 -   State : It is the command which allows to know the status of the
-    Light
+    light
 
 \
 
-Note that on the dashboard, the status information, ON / OFF, intensity is
+Note that on the dashboard, the State, ON / OFF, intensity information
 found on the same icon.
 
 \
@@ -191,12 +191,12 @@ found on the same icon.
 \
 
 You can configure the module according to your
-installation. This requires going through the "Configuration" button of the
+installation. To do this, go to the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

@@ -24,7 +24,7 @@ Summary
 
 \
 
-This keychain remote control with a modern and pleasant design has a
+This keyfob remote control with a modern and pleasant design has a
 button to control all types of Z-Wave devices such as
 lamps, blinds, etc..
 
@@ -93,7 +93,7 @@ Module data
 
 -   Mark : Aeotec
 
--   Name : Panic Button
+-   Last name : Panic Button
 
 -   Manufacturer ID : 134
 
@@ -103,14 +103,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -133,7 +133,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -142,7 +142,7 @@ disponibles.
 
 \
 
-![Commands](images/aeotec.panicbutton/commandes.jpg)
+![Orders](images/aeotec.panicbutton/commandes.jpg)
 
 \
 
@@ -175,7 +175,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -225,8 +225,8 @@ To use this module as a remote control, proceed as follows :
 
 -   2 : Wake up the remote control
 
--   3 : Change parameter 250 to true (do so even if
-    already appears to be true)
+-   3 : Change parameter 250 to true (do this even if
+    already appears true)
 
 -   4 : Wake up the remote control and make sure the change has been
     taken into account
@@ -250,7 +250,7 @@ Faq.
 
 \
 
-This module wakes up by pressing the LEARN button for 3 seconds.
+This module wakes up by pressing and holding the LEARN button for 3 seconds.
 
 \
 

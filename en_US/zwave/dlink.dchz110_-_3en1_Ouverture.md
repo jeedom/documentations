@@ -32,14 +32,14 @@ opening part and the detector on the fixed part.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
-alarm, if the system is armed (this signal can be used by a
+alarm, if the system is armed (this signal can be exploited by a
 siren or by a home automation box for example). The sensor can also
 be used for automatic lighting control, depending on the
 brightness level. For example, the sensor will send a signal to
 Z-Wave switch to turn on the light when the door opens
 and the room is dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and temperature, i.e.
 in the event of a significant change, and each time the opening / closing
 is detected. A Z-Wave controller (remote control, dongle…?) Is
 necessary in order to integrate this detector into your network if you have
@@ -106,14 +106,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -123,7 +123,7 @@ inclusion refer to this
 > correctly configured, and pay attention to the alignment of
 > the magnet during tests on a flat surface and during installation.
 > (Use shims if necessary) To put this module in mode
-> inclusion it is necessary to press 3 times on the association button in 1.5
+> inclusion it is necessary to press 3 times the association button in 1.5
 > second, according to its documentation. (constant red flashing
 > in association mode)
 
@@ -141,7 +141,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -150,7 +150,7 @@ disponibles.
 
 \
 
-![Commands](images/dlink.dchz110/commandes.jpg)
+![Orders](images/dlink.dchz110/commandes.jpg)
 
 \
 
@@ -162,7 +162,7 @@ Here is the list of commands :
     d'ouverture
 
 -   Temperature : it is the command which allows to go up the
-    Temperature
+    temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -191,7 +191,7 @@ depending on your installation. This requires going through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -236,10 +236,10 @@ Parameter details :
 -   11: allows you to define the duration between two self-opening reports
     (one unit = parameter 20)
 
--   12: allows you to define the duration between two auto
+-   12: allows you to define the duration between two automatic
     brightness (one unit = parameter 20). Recommended value : 6
 
--   13: allows you to define the duration between two auto
+-   13: allows you to define the duration between two automatic
     temperature (one unit = parameter 20). Recommended value : 2
 
 -   20: duration of an interval for parameters 10 to 13. Value
@@ -248,7 +248,7 @@ Parameter details :
 -   21: temperature variation value in ° F to trigger a
     rapport
 
--   22: value in% of variation of brightness to trigger
+-   22: value in% of brightness variation to trigger
     a report. Recommended value : 10
 
 \
@@ -290,10 +290,10 @@ Wakeup
 
 To wake up this module there is only one way :
 
--   Release the association button and press it again
+-   
 
--   Lower the wake-up interval in the module configuration / system
-    (in seconds)
+-   
+    
 
 \
 
@@ -302,14 +302,14 @@ Faq.
 
 \
 
-This module wakes up by pressing its association button.
+.
 
 \
 
 This module is a battery module, the new configuration will be
-taken into account at the next wakeup. (association button for
-force, hence the interest of not installing the module before its
-good configuration)
+taken into account at the next wakeup. 
+
+
 
 \
 

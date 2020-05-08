@@ -22,7 +22,7 @@ Wählen Sie die Option L2TP / IPsec-VPN-Server aktivieren
 
 Geben Sie unter Dynamische IP-Adresse eine Nummer ein, die dem Sub entspricht
 Netzwerk zum Zuweisen der IPs Ihrer Geräte in VPN im internen Netzwerk
-von deinem Platz. NB : Wählen Sie nicht das Gleiche wie das
+von deinem Platz. NB : Sie sollten nicht das Gleiche wie das wählen
 Standard-Subnetz Ihrer Box ex kostenlos das Subnetz von
 Maschinen ist 192.168.1.0 also setzen wir im Beispiel 2
 
@@ -33,7 +33,7 @@ für einen Benutzer
 Geben Sie abschließend einen Freigabeschlüssel ein : Es ist ein Passwort, das er
 muss die VPN-Konfiguration auf dem Handy oder Tablet eingeben.
 
-Dann bewerben Sie sich
+Dann bewerben
 
 ![synology.utilisation vpn3](images/synology.utilisation_vpn3.png)
 
@@ -66,7 +66,7 @@ erlauben, VPN zu verwenden .
 Leiten Sie die Ports Ihres BO umX 
 ===============================
 
-Geben Sie im Browser 192.168.1.1 ein. Klicken Sie auf Einstellungen
+Geben Sie im Browser 192.168.1.1 ein. Klicken Sie auf Einstellungen von
 Freebox
 
 ![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)
@@ -119,7 +119,7 @@ Klicken Sie oben rechts auf das +
 
 ![synology.utilisation vpn15](images/synology.utilisation_vpn15.png)
 
-Geben Sie dem VPN-Zugriff einen Namen, geben Sie ihn als Typ L2TP / IPSec PSK ein und geben Sie ihn ein
+Geben Sie dem VPN-Zugang einen Namen, geben Sie ihn als Typ L2TP / IPSec PSK ein und geben Sie ihn ein
 die öffentliche Adresse Ihrer Internetbox (oder einen DNS-Namen, falls Sie einen haben
 a) und geben Sie den freigegebenen Schlüssel ein, der im Abschnitt Konfigurieren eines eingegeben wurde
 VPN-Server :

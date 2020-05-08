@@ -30,11 +30,11 @@ Puerto COM :
 
 ![gsmonly2](images/gsmonly2.PNG)
 
-Descarga de masilla 
+Masilla Descargar 
 =======================
 
 Luego descarga masilla
-[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[aqui](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
 iniciar el archivo descargado
 
 Configuración de masilla y cambio al modo GSM solamente 
@@ -57,7 +57,7 @@ en la tecla "Enter"" :
 > Tenga cuidado cuando escriba el texto, no verá nada en
 > la pantalla es normal, el texto aún se tiene en cuenta.
 
-Normalmente a cambio debes tener un OK.
+Normalmente a cambio debe tener un OK.
 
 Eso es todo terminado. Su clave está solo en modo GSM y usted
 puede usarlo a través de VMware ahora.

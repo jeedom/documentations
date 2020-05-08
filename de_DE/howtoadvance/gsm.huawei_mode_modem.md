@@ -1,13 +1,13 @@
 In 90% der Fälle ist es nicht erforderlich, die GSM-Tasten in den Modus zu zwingen
 Nur GSM (anstelle von GSM + CD-ROM + Kartenleser), der einzige Fall
-Dies ist obligatorisch, wenn Sie den Schlüssel in a verwenden möchten
+Wenn dies obligatorisch ist, müssen Sie den Schlüssel in a verwenden
 Jeedom auf einer VM (VMware ESXi). In der Tat, wenn Sie es nicht weitergeben
 Im GSM-Modus wird nur der Schlüssel nicht in der Liste von angezeigt
 USB-Geräte, die Sie an die VM übergeben können.
 
 > **Important**
 >
-> Dieses Tutorial wurde unter Windows 10 durchgeführt
+> Dieses Tutorial wurde unter Windows 10 erstellt
 
 Treiberinstallation 
 ========================

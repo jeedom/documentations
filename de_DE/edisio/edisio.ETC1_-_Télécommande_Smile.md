@@ -12,12 +12,12 @@ Zusammenfassung
 ======
 
 Les Fernbedienungs “Smile” ont un canal, elles sont idéales pour la table
-Bett, Bad und vor allem für Kinder, weil diese sind
+Bett, Bad und vor allem für Kinder, weil sie sind
 sehr robust dank des verwendeten Materials. Sehr einfach und gleichzeitig
 “fun” elles ont pour but d'être pratiques dans l'habitat. Sie existieren
 in drei verschiedenen Farben.
 
-Sie können problemlos an verschiedene Empfänger angeschlossen werden und können daher
+Sie lassen sich problemlos an verschiedene Empfänger anschließen und können daher
 steuern Sie die Ein / Aus-Lichter, variable Lichter,
 Fensterläden, Tore, Garagentore. Erhältlich in 3 Farben.
 
@@ -39,7 +39,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung : 3VDC (CR2032 Lithiumbatterie)
+-   Essen : 3VDC (Lithiumbatterie CR2032)
 
 -   Kanäle : 1
 
@@ -60,7 +60,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : ETC1
+-   Nachname : ETC1
 
 -   Referenz : P01 / Y01 / L01
 
@@ -98,19 +98,19 @@ Die Zuordnung eines Edisio-Senders ist einfach und
 automatisch. Drücken Sie einfach die Taste auf Ihrem
 Fernbedienung.
 
-![Befehle](images/etc1/etc1.touche-c.jpg)
+![Bestellungen](images/etc1/etc1.touche-c.jpg)
 
-Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
+Sobald Ihre zugehörige Ausrüstung, sollten Sie diese erhalten :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Befehle 
+Bestellungen 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Befehle](images/etc1/etc1.commandes.jpg)
+![Bestellungen](images/etc1/etc1.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
@@ -118,24 +118,24 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
+Informationen 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Befehle](images/etc1/etc1.informations.jpg)
+![Bestellungen](images/etc1/etc1.informations.jpg)
 
--   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
-Verwendung 
+Verwenden Sie 
 -----------
 
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der

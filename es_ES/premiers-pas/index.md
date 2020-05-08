@@ -1,11 +1,11 @@
 # Primer paso
 
-Bienvenido a la documentación de este primer paso, le ayudará a poner su Jeedom en servicio..
+Bienvenido a la documentación de este primer paso, te ayudará a poner tu Jeedom en servicio.
 
 
 ## Registro en el mercado
 
-Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aquí](https://market.jeedom.com/).
+Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aqui](https://market.jeedom.com/).
 
 Haga clic en el botón "Registrarse" en la esquina superior izquierda:
 
@@ -26,9 +26,9 @@ Si compró una caja Jeedom, entonces debería haber recibido un correo electrón
 
 > **Important**
 >
-> Si compra un paquete de servicio en Jeedom Market, no tiene nada que hacer, se le asigna automáticamente.
+> Si compra un paquete de servicio en Jeedom Market, no tiene que hacer nada, se le asigna automáticamente.
 
-Una vez que se recupera el código en el correo, solo necesita ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
+Una vez que se recupera el código en el correo electrónico, solo necesita ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
 
 Luego ve a tu página de perfil:
 
@@ -42,13 +42,13 @@ Luego haga clic en la pestaña "Mis servicios" e ingrese su número de paquete d
 
 ## Encuentra tu Jeedom en la red
 
-Una vez que Jeedom esté conectado eléctricamente y conectado a su red local, aquí le mostramos cómo conectarse a él..
+Una vez que Jeedom esté enchufado y conectado eléctricamente a su red local, aquí le mostramos cómo conectarse a él..
 
 ### Encontrar Jeedom
 
 #### A través del mercado
 
-La solución más simple (pero no funciona en el 100% de los casos dependiendo de la configuración de su acceso a Internet), debe iniciar el cuadro, esperar unos 10 minutos (tenga cuidado si usa una imagen de tipo de instalación neta, será más de 30 minutos) e ir [aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
+La solución más simple (pero no funciona en el 100% de los casos, dependiendo de la configuración de su acceso a Internet), debe iniciar el cuadro, esperar unos 10 minutos (tenga cuidado si usa una imagen de tipo de instalación, será más bien 30 minutos) e ir [aqui](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Tip**
 >
@@ -56,11 +56,11 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 
 > **Important**
 >
-> Dependiendo de su cuadro ADSL, esta funcionalidad puede no funcionar. Si es así, nada serio, solo necesita conectarse a su caja ADSL y encontrar la IP de libertad en ella. Este paso no hace más que darle la IP local de su Jeedom. Esto no ocurre cuando se agrega su Jeedom a su cuenta de mercado.
+> Dependiendo de su cuadro ADSL, esta funcionalidad puede no funcionar. Si es así, nada serio, solo conéctese a su caja ADSL y encuentre la IP de libertad en ella. Este paso no hace más que darle la IP local de su Jeedom. No es en este momento que se realiza la adición de su Jeedom a su cuenta de mercado.
 
 #### Por su caja de internet
 
--   Vaya a la interfaz de administración de su caja de internet y busque Jeedom en sus dispositivos de red..
+-   Vaya a la interfaz de administración de su caja de Internet y busque Jeedom en sus dispositivos de red..
 
 -   Consigue su IP.
 
@@ -68,7 +68,7 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 
 ## Primera conexión
 
-Cualquiera que sea el método utilizado, llegarás a la página de inicio de sesión. Por defecto, el nombre de usuario y la contraseña son "admin".
+Cualquiera que sea el método utilizado, entonces llega a la página de inicio de sesión. Por defecto, el nombre de usuario y la contraseña son "admin".
 
 ![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
@@ -86,9 +86,9 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
--   También complete los campos "Nombre de usuario" y "Contraseña" de acuerdo con sus identificadores (identificadores de mercado y no Jeedom)
+-   También complete los campos "Nombre de usuario" y "Contraseña" en función de sus identificadores (identificadores de mercado y no Jeedom)
 
--   Puede probar para verificar que la conexión se realizó correctamente.
+-   Puede probar para verificar que la conexión se haya realizado correctamente.
 
 -   No olvides guardar !
 
@@ -97,7 +97,7 @@ Para obtener más detalles sobre la página de configuración, consulte *Manual 
 
 ## Obtener mi URL de acceso directo
 
-Si tiene un Service Pack, Jeedom le proporciona una URL de acceso directo a su Jeedom sin tener que abrir los puertos en su caja u otro.
+Si tiene un paquete de servicio, Jeedom le proporciona una URL de acceso directo a su Jeedom sin tener que abrir los puertos en su caja u otro.
 
 Para configurarlo, simplemente vaya a Configuración → Sistema → Configuración
 
@@ -105,11 +105,11 @@ Luego ve a la parte de "Redes""
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Una vez aquí, solo necesita activar "Usar Jeedom DNS", luego en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarlo desde la página de perfil del mercado
+Una vez aquí, solo necesita activar "Usar Jeedom DNS" y luego en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarlo desde la página de perfil del mercado
 
 > **Important**
 >
-> Si acaba de vincular su Jeedom a su cuenta de Market, debe esperar de 24 a 48 horas antes de poder utilizar el servicio DNS.
+> Si acaba de vincular su Jeedom a su cuenta Market, debe esperar de 24 a 48 horas antes de poder usar el servicio DNS.
 
 ## Cambiar la contraseña predeterminada de Jeedom
 
@@ -130,13 +130,13 @@ En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus
 
 > **Tip**
 >
-> Es posible definir relaciones entre objetos.. Exemple : la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
+> Es posible definir relaciones entre objetos.. Exemple : la sala de estar pertenece al objeto de la planta baja que también pertenece al objeto de la casa.
 
 Nada podría ser más simple para crear un objeto :
 
 -   Vaya a Herramientas → Objetos
 
--   Haga clic en el botón Agregar
+-   Haga clic en el botón Agregar.
 
 -   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
@@ -146,7 +146,7 @@ Para obtener más información sobre esta parte, vea *Manual de usuario -> Objet
 
 ## Instalar mi primer complemento
 
-Un complemento permite agregar funcionalidad a Jeedom. Hay cientos. Muchos son gratuitos, otros pueden ser de pago. Para acceder a la página de complementos, vaya a Complementos → Gestión de complementos.
+Un complemento le permite agregar funcionalidad a Jeedom. Hay cientos. Muchos son gratuitos, otros pueden ser de pago. Para acceder a la página de complementos, vaya a Complementos → Gestión de complementos.
 
 Luego solo haga clic en Market:
 
@@ -169,8 +169,8 @@ Entonces encuentras :
 - Una breve descripcion,
 - Un enlace a la documentación del complemento,
 - Un enlace al registro de cambios (las últimas modificaciones realizadas),
-- Compatibilidad con diferentes plataformas,
-- Opiniones de usuarios,
+- Compatibilidad con diferentes plataformas.,
+- Comentarios de usuarios,
 - Cómo usar el complemento,
 - Información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc..
 
@@ -184,7 +184,7 @@ Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas..
 
 ## El foro
 
-Lo encontraras [aquí](https://community.jeedom.com/).
+Lo encontraras [aqui](https://community.jeedom.com/).
 
 El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, no dude en preguntarla.. Tendrás una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom..
 
@@ -195,7 +195,7 @@ El foro es muy activo y contiene mucha información.. Si tiene alguna pregunta, 
 >
 > Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Market.
 
-Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom.. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno.:
+Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom.. Esta solicitud pasa por un ticket. Puedes abrir uno de varias maneras:
 
 -   Directamente de Jeedom (método recomendado): Menú de configuración → Solicitud de soporte.
 
@@ -218,4 +218,4 @@ Los diferentes paquetes de servicio son :
 - Power : 10 entradas / mes
 - Pro : 100 entradas / mes
 
-Puede encontrar el detalle de los paquetes de servicio. [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)
+Puedes encontrar el detalle de los service packs [aqui](https://www.jeedom.com/site/fr/soft.html#obtenir)

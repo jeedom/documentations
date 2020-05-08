@@ -11,7 +11,7 @@ Zusammenfassung
 
 Mit dem Mikromodul EMV-400 können Sie einen Motor verwalten
 bidirektionale oder elektrische Geräte. Es ermöglicht die Kontrolle
-2 Start / Stopp-Ausgänge oder ein Open / Stop / Close-Verschluss.
+2 Ein / Aus-Ausgänge oder ein Verschluss zum Öffnen / Stoppen / Schließen.
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 steuerbar über Markenschalter und / oder Fernbedienungen
@@ -64,7 +64,7 @@ Technische Daten
 
 -   Alimentation: 230 VAC, 50 Hz
 
--   Verkabelung: 4 Drähte, 2 für die Steuerung und 2 für die Stromversorgung
+-   Verkabelung: 4-Draht, 2 für die Steuerung und 2 für die Stromversorgung
 
 -   Frequenz: 868,3 MHz
 
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : EMV-400
+-   Nachname : EMV-400
 
 Allgemeine Konfiguration 
 ======================
@@ -106,7 +106,7 @@ beziehen sich darauf
 > Umgekehrt müssen Edisio-Empfänger manuell in erstellt werden
 > Jeedom.
 
-DIP-Schalter und Taste "R." : 
+DIP-Schalter und "R" -Taste" : 
 --------------------------
 
 ![bouton association](images/emv.400/bouton_association.jpg)
@@ -154,12 +154,12 @@ Die Timer-Funktion schaltet die Relais am Ende automatisch aus
 -   Aktivieren : Drücken Sie 4x "R" am Empfänger, Bestätigung mit einem einfachen
     kontinuierlicher Piepton
 
--   Deactivate: Drücken Sie 5x "R" am Empfänger, Bestätigung durch 3 einfach
-    Piepton.
+-   Deaktivieren: Drücken Sie 5x "R" am Empfänger, Bestätigung durch 3 einfach
+    hörbare Pieptöne.
 
 -   30 Minuten Timer: DIP-Schalter 3 oben
 
--   60-Minuten-Timer: DIP-Schalter 3 nach unten
+-   60-Minuten-Timer: DIP-Schalter 3 unten
 
 "Beleuchtungs" -Modus" 
 ===================
@@ -206,17 +206,17 @@ Licht" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Befehle 
+Bestellungen 
 ---------
 
 Sobald Ihre Ausrüstung gespeichert ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Befehle](images/emv.400/commande_eclairage.jpg)
+![Bestellungen](images/emv.400/commande_eclairage.jpg)
 
 Hier ist die Liste der Befehle :
 
--   Ein : Es ist der Befehl, der Relais 1 aktiviert
+-   Wir : Es ist der Befehl, der Relais 1 aktiviert
 
 -   Aus : Es ist der Befehl, der es ermöglicht, Relais 1 zu deaktivieren
 
@@ -232,22 +232,22 @@ Hier ist die Liste der Befehle :
 > Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
-Information 
+Informationen 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Befehle](images/emv.400/infos_eclairage.jpg)
+![Bestellungen](images/emv.400/infos_eclairage.jpg)
 
--   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================
@@ -275,11 +275,11 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
         Ausfahrt 1 bei Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am Empfänger, um
-        Bestätigen Sie die Zuordnung, der Piepton stoppt.
+        Überprüfen Sie die Zuordnung, der Piepton stoppt.
 
 -   Ausgabe 2 zuordnen :
 
-    -   Drücken Sie 2x auf das "R" des Empfängers, doppelter Piepton (kurz)
+    -   Drücken Sie zweimal auf das "R" des Empfängers, doppelter Piepton (kurz)
         in Wiederholung) signalisiert die Programmierung von Ausgang 2 aktiviert.
 
     -   Drücken Sie innerhalb von 10 Sekunden im Befehl "Schließen" auf "Test""
@@ -287,13 +287,13 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
         Ausfahrt 2 bei Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am Empfänger, um
-        Bestätigen Sie die Zuordnung, der Piepton stoppt.
+        Überprüfen Sie die Zuordnung, der Piepton stoppt.
 
 Remote-Methode 
 ----------------
 
 Wir haben zu Beginn dieser Dokumentation darüber gesprochen. Im Fall von
-Module bereits eingebaut, in Zwischendecken oder sogar Dachböden.
+Module bereits in Zwischendecken oder sogar Dachböden eingebaut.
 Diese Methode ermöglicht das Hinzufügen eines neuen Senders ohne Zugriff auf das "R" des
 Empfänger.
 
@@ -306,7 +306,7 @@ Empfänger.
         Jeedom, ein kontinuierlicher Piepton signalisiert die Assoziation mit Jeedom.
 
     -   Drücken Sie innerhalb von 10 Sekunden erneut "E" am Empfänger, um
-        Bestätigen Sie die Zuordnung, der Piepton stoppt.
+        Überprüfen Sie die Zuordnung, der Piepton stoppt.
 
 Es ist geschafft, dein Jeedom ist jetzt verbunden und sein Befehl "E."
 Ersetzt jetzt die Taste "R" am Empfänger.
@@ -325,7 +325,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             die Assoziation von Ausgang 1.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
+            Befehl "E" in Jeedom, um die Zuordnung zu bestätigen, den Piepton
             Der Ton hört auf.
 
     -   Ausfahrt 2 :
@@ -339,7 +339,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             die Assoziation von Ausgang 2.
 
         -   Drücken Sie innerhalb von 10 Sekunden erneut "Test" auf dem
-            Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
+            Befehl "E" in Jeedom, um die Zuordnung zu bestätigen, den Piepton
             Der Ton hört auf.
 
 > **Note**
@@ -350,7 +350,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
 Alternative visuelle 
 =================
 
-![Befehle](images/emv.400/vue_alt_eclairage.jpg)
+![Bestellungen](images/emv.400/vue_alt_eclairage.jpg)
 
 Faq. 
 ======

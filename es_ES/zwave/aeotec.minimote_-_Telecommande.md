@@ -25,7 +25,7 @@ Resumen
 \
 
 Este mini controlador Aeon Labs es compatible con una amplia variedad de
-Módulos Z-Wave como interruptores, atenuadores,
+Módulos Z-Wave como interruptores, atenuadores, detectores
 movimiento, interruptores para persianas ... Para que pueda ordenar en
 distancia tus luces, dispositivos o persianas. Con esto
 control remoto, también puede incluir / excluir
@@ -35,7 +35,7 @@ configurar la red Z-Wave.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -46,7 +46,7 @@ Funciones
 
 -   8 llaves : 4 para escenas, 4 para configuraciones de red
 
--   Inicio / parada y funciones de atenuación
+-   Funciones de inicio / parada y atenuación
 
 -   Función ALL ON / ALL OFF
 
@@ -63,9 +63,9 @@ Características técnicas
 
 -   Tipo de módulo : Controlador Z-Wave
 
--   Color : Blanc
+-   Color: : Blanc
 
--   Suministro : batería interna recargable a través de USB
+-   Comida : batería interna recargable a través de USB
 
 -   Affichage: LED azul y rojo
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Aeotec
 
--   Nombre : Minimote
+-   Apellido : Minimote
 
 -   ID del fabricante : 134
 
@@ -96,14 +96,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Comandos](images/aeotec.minimote/commandes.jpg)
+![Órdenes](images/aeotec.minimote/commandes.jpg)
 
 \
 
@@ -149,7 +149,7 @@ Aquí está la lista de comandos :
 
 2 : Botón 1 pulsación larga
 
-3 : Botón 2 presiones cortas
+3 : Botón 2 pulsaciones cortas
 
 4 : Botón 2 prensas largas
 
@@ -180,7 +180,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -197,13 +197,13 @@ Detalles del parámetro :
 
 \
 
--   241: Botón 1 modo de funcionamiento (salir por defecto)
+-   241: botón 1 modo de funcionamiento (salir por defecto)
 
 -   242: botón 2 modo de funcionamiento (dejar por defecto)
 
--   243: Botón 3 modo de funcionamiento (salir por defecto)
+-   243: Botón 3 modo de funcionamiento (dejar por defecto)
 
--   244: botón 4 modo de funcionamiento (dejar por defecto)
+-   244: botón 4 modo de funcionamiento (salir por defecto)
 
 -   250: modo de funcionamiento del control remoto (dejar absolutamente
     Escena para control remoto)

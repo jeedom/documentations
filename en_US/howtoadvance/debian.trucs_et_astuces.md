@@ -60,18 +60,18 @@ Create the mount point :
 
 > **Note**
 >
-> You have to adapt my share according to your needs
+> You have to adapt my\_partage according to your needs
 
 Added mount in / etc / fstab
 
-    // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, user = TODO, password = TODO 0 0
+    // IP_SERVER_SAMBA / mon_partage / mnt / mon_partage cifs uid = 0, rw, user = TODO, password = TODO 0 0
 
 > **Note**
 >
 > You must change the TODOs with your linux username and your
-> Password
+> password
 
-Transition from Jessie to Stretch 
+Switch from Jessie to Stretch 
 ===========================
 
 For having tested the upgrade and the Stretch installation with restoration
@@ -84,7 +84,7 @@ overwriting will save you time.
 -   **Method 2 : update from Jessie to Stretch :** half a day at
     wipe bugs.
 
-Method 1 : Installation of Stretch and backup restore 
+Method 1 : Stretch installation and backup restore 
 -----------------------------------------------------------------
 
 Before you start, make a full backup via Jeedom of your
@@ -107,7 +107,7 @@ storage medium.
     <https://github.com/jeedom/documentation/blob/master/installation/en_US/other.asciidoc>
 
 \ [ATTENTION \] MariaDB no longer allows access to the 'root' profile, which
-can block the restoration of a database that you have
+can block the restoration of a database which you would have
 changed the name (like me) so we don't immediately restore the
 backup. If the user 'jeedom' does not have the correct permissions, the
 restoration will fail.
@@ -138,15 +138,15 @@ MYSQL, under Stretch :
 > Replace 'monpass' with your MYSQL password used for the
 > root account under "Debian 8 - Jessie". I give root rights
 > especially to manage my databases with 'PHPMYADMIN', but give them to
-> the MYSQL user 'jeedom' should suffice.
+> the MYSQL user 'jeedom' must suffice.
 
 > **Tip**
 >
-> You will find the password for the MYSQL jeedom user here :
+> You can find the password for the MYSQL jeedom user here :
 > Administration → Configuration → OS / DB → Database
 
 It's up to you to adapt this command according to your configuration
-previous :
+former :
 
     GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
 
@@ -213,7 +213,7 @@ Removal of unnecessary libraries
     apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y remove `aptitude -F% p search '~ o'`----
 
-NOTE : If when you open your Jeedom page you get a php code, activate it by running the following commands :
+Note : If when you open your Jeedom page you get a php code, activate it by running the following commands :
 
     a2enmod php7.0 
     systemctl restart apache2.service

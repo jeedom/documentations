@@ -39,10 +39,10 @@ hat Selbstschutz gegen Überlastung und die Funktion von
 sanfter Start. Bei nicht dimmbaren Lichtquellen,
 nur die EIN / AUS-Funktion ist möglich (bei 3-Draht-Verbindung).
 
-Es ist kompatibel mit allen Arten von Lampen, die Variationen oder unterstützen
+Es ist kompatibel mit allen Arten von Lampen, die Variationen unterstützen oder
 nein Neben der Variationsfunktion kann dieses Mikromodul auch
 Messen Sie den Stromverbrauch der angeschlossenen Last. Die Werte
-Momentanverbrauch (in W) und Gesamtstromverbrauch
+des momentanen Verbrauchs (in W) und des gesamten elektrischen Verbrauchs
 (in kWh) kann angezeigt werden.
 
 \.
@@ -78,13 +78,13 @@ Funktionen
 
 -   Softstart-Funktion
 
--   LED zur Anzeige des Einschlussstatus, der Kalibrierung und
+-   LED-Anzeige für Einschlussstatus, Kalibrierung und
     MENÜ-Ebenen
 
--   Integrierter Z-Wave-Bereichstester
+-   Integrierter Z-Wave-Entfernungsmesser
 
 -   Erkennt automatisch Verdrahtungsfehler, hohe Temperatur,
-    Glühbirne, Überspannungen und Überlastungen durchgebrannt
+    Glühbirne, Überspannung und Überlastung durchgebrannt
 
 -   Erweiterte Konfigurationsoptionen
 
@@ -101,13 +101,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V +/- 10%, 50 Hz
+-   Essen : 230 V +/- 10%, 50 Hz
 
 -   Verbrauch : 1.3W
 
--   Verkabelung : Neutral nicht erforderlich
+-   Verkabelung : Neutral nicht notwendig
 
--   Maximale Belastung : 50-250 W (ohmsche Last) oder 0,25-1,1A
+-   Maximale Belastung : 50-250 W (ohmsche Last) oder 0,25-1,1 A.
     (induktive Last)
 
 -   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
@@ -139,7 +139,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : REA-Dimmer 2
+-   Nachname : REA-Dimmer 2
 
 -   Hersteller ID : 271
 
@@ -189,7 +189,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
@@ -198,7 +198,7 @@ disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgd212/commandes.jpg)
+![Bestellungen](images/fibaro.fgd212/commandes.jpg)
 
 \.
 
@@ -209,11 +209,11 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Wir : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     Licht
 
 -   Verbrauch : Es ist der Befehl, der es erlaubt, die
@@ -232,7 +232,7 @@ icone
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.

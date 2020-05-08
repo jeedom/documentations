@@ -32,14 +32,14 @@ opening part and the detector on the fixed part.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
-alarm, if the system is armed (this signal can be used by a
+alarm, if the system is armed (this signal can be exploited by a
 siren or by a home automation box for example). The sensor can also
 be used for automatic lighting control, depending on the
 brightness level. For example, the sensor will send a signal to
 Z-Wave switch to turn on the light when the door opens
 and the room is dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and temperature, i.e.
 in the event of a significant change, and each time the opening / closing
 is detected.
 
@@ -122,7 +122,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name : PST02-C Door / Window 3 in 1 sensor
+-   Last name : PST02-C Door / Window 3 in 1 sensor
 
 -   Manufacturer ID : 316
 
@@ -132,14 +132,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -162,7 +162,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -171,7 +171,7 @@ disponibles.
 
 \
 
-![Commands](images/philio.pst02c/commandes.jpg)
+![Orders](images/philio.pst02c/commandes.jpg)
 
 \
 
@@ -183,7 +183,7 @@ Here is the list of commands :
     d'ouverture
 
 -   Temperature : it is the command which allows to go up the
-    Temperature
+    temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -208,7 +208,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -255,10 +255,10 @@ Parameter details :
 -   11: allows you to define the duration between two self-opening reports
     (one unit = parameter 20)
 
--   12: allows you to define the duration between two auto
+-   12: allows you to define the duration between two automatic
     brightness (one unit = parameter 20) Recommended value : 3
 
--   13: allows you to define the duration between two auto
+-   13: allows you to define the duration between two automatic
     temperature (one unit = parameter 20) Recommended value : 2
 
 -   20: duration of an interval for parameters 10 to 13 Value

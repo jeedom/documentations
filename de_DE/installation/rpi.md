@@ -45,7 +45,7 @@ Identifizieren Sie Ihren Pi im Netzwerk
 Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
 
 -   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
--   Verwenden Sie einen Port-Scanner vom Typ Angyipscanner" [hier](http://angryip.org/download/#windows)
+-   Verwenden Sie einen Angyipscanner-Port-Scanner" [hier](http://angryip.org/download/#windows)
 
 Verbindung herstellen
 
@@ -57,7 +57,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 > **Important**
 >
-> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares der Himbeere basieren. (Befehl passwd und sudo passwd)
+> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares von Raspberry basieren. (Befehl passwd und sudo passwd)
 
 ## Starten Sie das Installationsskript jeedom
 

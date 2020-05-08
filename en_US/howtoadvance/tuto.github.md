@@ -1,6 +1,6 @@
 This tutorial presents you :
 
--   Create a GitHub account
+-   Creation of a GitHub account
 
 -   Jeedom Core Fork or Documentation
 
@@ -11,20 +11,20 @@ This tutorial presents you :
 -   Updating your fork
 
 To allow you to contribute to Jeedom, you will need to
-propose changes (PR : Pull Request).
+suggest changes (PR : Pull Request).
 
-Create a GitHub account 
+Creation of a GitHub account 
 ===========================
 
 We will discuss in this tutorial how to create a GitHub account,
-in order to be able to report bugs (issue in GitHub language), even
+in order to be able to report bugs (issue in the GitHub language), or even
 even propose corrections (Pull Request or PR in github language)
 for the entire Jeedom project, including its free plugins or the
 documentation, or any other github project you
 would like to participate.
 
 Se rendre sur <https://github.com> and click on the sign up button.
-So you should be on a page looking like the one below and
+So you should be on a page like the one below and
 must therefore enter a nickname, an email and a password and then
 click on **Create an account**
 
@@ -96,10 +96,10 @@ start a reseach.
 >
 > If you do not click in the window containing the text or the code
 > you are looking for, the browser search will open and
-> in my case, on Google chrome, it can't do the research
+> in my case, on Google chrome, it does not know how to do the research
 > in code or documentation directly.
 
-1. The research field, yes it is quite thin as information, the
+1. The search field, yes it is quite thin as information, the
     copied line is much larger;).
 
 ![tuto.github7](images/tuto.github7.png)
@@ -126,7 +126,7 @@ Submit a change
 
 The **commit** done above only concerns the fork of the project in
 your GitHub space. To submit changes to the original project,
-you must perform a PR (Pull Request)
+you have to do a PR (Pull Request)
 
 1. We click on the Pull Request tab
 

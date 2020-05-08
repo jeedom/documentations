@@ -43,7 +43,7 @@ commands is done automatically once the module recognized by Jeedom.
 > **Tip**
 >
 > It is preferable to make an exclusion before an inclusion. For
-> perform the exclusion, nothing complicated, just click
+> perform the exclusion, nothing too complicated, just click
 > sur « Mode exclusion » et d'exclure le module, un message apparaitra
 > confirming the exclusion of the module.
 

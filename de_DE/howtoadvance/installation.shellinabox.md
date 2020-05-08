@@ -27,7 +27,7 @@ und starten Sie dann Apache neu
 Reverse Proxy Nginx 
 ===================
 
-Sie müssen eine Datei in /etc/nginx/sites-enabled/shellinabox.conf erstellen
+Eine Datei muss in /etc/nginx/sites-enabled/shellinabox.conf erstellt werden
 mit dem Inhalt unten und starten Sie dann Nginx neu
 
     Ort / Jeedom / Shellinabox / {

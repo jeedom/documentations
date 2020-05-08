@@ -9,7 +9,7 @@ USB-Gerät und befreien Sie sich daher manchmal von der microSD-Karte
 Probleme erzeugen (Korruption).
 
 **Der Installationsvorgang ist streng identisch mit dem auf a
-microSD-Karte, aber stellen Sie sicher, dass Sie Firmware haben
+microSD-Karte, aber stellen Sie sicher, dass Sie eine Firmware haben
 jour.**
 
 Öffnen Sie dazu eine SSH-Verbindung. (wenn du nicht weißt wie,
@@ -54,12 +54,12 @@ Starten Sie dann PI3 neu
 Mögliche Anpassungen 
 =====================
 
-**Die folgenden Bemerkungen müssen dann berücksichtigt werden :**
+**Berücksichtigen Sie dann die folgenden Anmerkungen :**
 
 > **Important**
 >
 > Die folgenden Änderungen sind das Ergebnis von Problemen, auf die gestoßen ist
-> die Benutzer. Sie müssen sie an Ihren Fall anpassen. Unterstützung
+> die Benutzer. Sie müssen sie an Ihren Fall anpassen. Die Unterstützung
 > Jeedom greift nicht bei Problemen im Zusammenhang mit Ihrer Konfiguration ein.
 
 -   **Wenn Sie auf Swap-Probleme stoßen, sollten Sie diese ändern.**
@@ -97,7 +97,7 @@ Ram.
     sudo nano /etc/sysctl.conf
 
 -   Fügen Sie diese Zeile hinzu, um Pi3 zu bitten, nur den Swap zu verwenden
-    wenn 10% des verfügbaren Speichers vorhanden sind (100 MB
+    wenn 10% des verfügbaren Speichers vorhanden sind (100 MB)
     Ram verfügbar) :
 
 <!-- -->

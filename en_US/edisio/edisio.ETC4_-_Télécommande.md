@@ -53,14 +53,14 @@ Module data
 
 -   Mark : Edisio Smart Home
 
--   Name : ETC4
+-   Last name : ETC4
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
@@ -99,7 +99,7 @@ Change mode
 
     -   Press and hold the "C4 key"
 
-    -   Press the "C1" key 1x, still holding the key
+    -   Press the "C1" key once, still holding the key
         "C4 ", the LED will flash 1 time
 
 ![mode1](images/etc4/mode1.jpg)
@@ -117,30 +117,30 @@ Association of the remote control with Jeedom
 =======================================
 
 The association of an Edisio transmitter is simple and
-automatically. You just have to press each key you
+automatically. Just press each key you
 wish to have in your Jeedom.
 
 Once, your associated equipment, you should get this :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Commands 
+Orders 
 ---------
 
 Once your equipment is created, you should get the orders
 associated with the module :
 
-![Commands](images/etc4/commandes.jpg)
+![Orders](images/etc4/commandes.jpg)
 
 Here is the list of commands :
 
 -   bt01 : It is the command that allows you to interact with button 1
 
--   bt02 : It is the command which allows to interact with button 2
+-   bt02 : It is the command that allows you to interact with button 2
 
 -   bt03 : It is the command which allows to interact with the button 3
 
--   bt04 : It is the command that allows you to interact with button 4
+-   bt04 : It is the command which allows to interact with the button 4
 
 -   Drums : Indicates the battery status
 
@@ -150,7 +150,7 @@ Information
 Once your equipment is associated with Jeedom, various information will be
 available :
 
-![Commands](images/etc4/infos.jpg)
+![Orders](images/etc4/infos.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
@@ -159,7 +159,7 @@ available :
 
 -   Drums : Indicates the battery status for battery modules
 
--   STATUS : Returns the status of the module
+-   Status : Returns the status of the module
 
 Use 
 -----------
@@ -176,7 +176,7 @@ Faq.
 
 How to delete the association of a key with a receiver ?
 
-:   Press 5 seconds on the "R" of the receiver, a simple beep signals
+:   Press 5 sec on the "R" of the receiver, a simple beep signals
     deprogramming mode activated. Press the "C" key to delete.
     Repeat this operation for all the keys to be erased.
 

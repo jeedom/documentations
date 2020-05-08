@@ -11,7 +11,7 @@ Summary
 
 The EMV-400 micromodule will allow you to manage an engine
 bidirectional or electrical equipment. It allows control
-2 Start / Stop outputs or an Open / Stop / Close shutter.
+2 On / Off outputs or an Open / Stop / Close shutter.
 
 In addition, interaction with other protocols is possible, it is
 controllable by brand switches and / or remote controls
@@ -64,7 +64,7 @@ Technical characteristics
 
 -   Alimentation: 230VAC, 50Hz
 
--   Wiring: 4 wires, 2 for controls and 2 for power
+-   Wiring: 4-wire, 2 for controls and 2 for power
 
 -   Frequency: 868.3 MHz
 
@@ -87,14 +87,14 @@ Module data
 
 -   Mark : Edisio Smart Home
 
--   Name : EMV-400
+-   Last name : EMV-400
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
@@ -106,7 +106,7 @@ refer to this
 > Conversely, Edisio receivers must be created manually in
 > Jeedom.
 
-DIP Switch and button "R" : 
+DIP Switch and "R" button" : 
 --------------------------
 
 ![bouton association](images/emv.400/bouton_association.jpg)
@@ -120,7 +120,7 @@ DIP Switch and button "R" :
 >
 > To avoid unnecessary redundancies, never activate the mode
 > "Repeater "on all receivers, maximum 5 receivers per
-> Setup.
+> installation.
 
 -   The button "R", will allow to associate a transmitter to the receiver,
     activate or deactivate the timer function and activate the mode
@@ -195,26 +195,26 @@ Once your equipment is created, you should get this :
 >
 > Remember to activate your new equipment.
 
-In the list of equipment, on the right, select "Micro-module shutter
+In the equipment list, on the right, select "Micro-module shutter
 roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-Commands 
+Orders 
 ---------
 
 Once your equipment is saved, you should get the orders
 associated with the module :
 
-![Commands](images/emv.400/commande.jpg)
+![Orders](images/emv.400/commande.jpg)
 
 Here is the list of commands :
 
--   State : This is the command that simulates the return of status
+-   State : It is the command which simulates the return of status
 
 -   Ascend : This is the command that opens the shutter
 
--   STOP : It is the command which makes it possible to stop the movement of the shutter
+-   Stop : It is the command which makes it possible to stop the movement of the shutter
 
 -   Go down : This is the command that closes the shutter
 
@@ -232,7 +232,7 @@ Information
 Once your equipment is associated with Jeedom, various information will be
 available :
 
-![Commands](images/emv.400/infos_moteur.jpg)
+![Orders](images/emv.400/infos_moteur.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
@@ -241,7 +241,7 @@ available :
 
 -   Drums : Indicates the battery status for battery modules
 
--   STATUS : Returns the status of the module
+-   Status : Returns the status of the module
 
 Association of the micromodule with Jeedom 
 ===================================
@@ -269,11 +269,11 @@ Each output must be associated with a Jeedom command:
         exit 1 at Jeedom.
 
     -   Within 10 sec, press "R" again on the receiver, to
-        confirm the association, the beep stops.
+        validate the association, the beep stops.
 
 -   Associate output 2 :
 
-    -   Press 2x on the "R" of the receiver, double beep sound (short
+    -   Press 2x on the "R" of the receiver, double beep (short
         in repetition) signals the programming of output 2 activated.
 
     -   Within 10 seconds, press "Test" on the "Close" command"
@@ -281,7 +281,7 @@ Each output must be associated with a Jeedom command:
         exit 2 at Jeedom.
 
     -   Within 10 sec, press "R" again on the receiver, to
-        confirm the association, the beep stops.
+        validate the association, the beep stops.
 
 > **Note**
 >
@@ -291,7 +291,7 @@ Each output must be associated with a Jeedom command:
 Remote method 
 ----------------
 
-We talked about it at the beginning of this documentation, in the case of
+We talked about this at the beginning of this documentation, in the case of
 modules already embedded in false ceilings or even attics. This
 method allows the addition of a new transmitter without accessing the "R" of the
 receiver.
@@ -305,7 +305,7 @@ receiver.
         Jeedom, a continuous beep signals the association with Jeedom.
 
     -   Within 10 sec, press "E" again on the receiver, to
-        confirm the association, the beep stops.
+        validate the association, the beep stops.
 
 It's done, your Jeedom is now associated and its command "E"
 now replaces the "R" button on the receiver.
@@ -329,7 +329,7 @@ now replaces the "R" button on the receiver.
 
     -   Exit 2 :
 
-        -   Press 2x on "Test" of the command "E" in Jeedom,
+        -   Press 2x on "Test" of the "E" command in Jeedom,
             double beep (short in repetition) signals the
             programming of output 2 activated.
 

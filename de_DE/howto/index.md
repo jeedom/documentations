@@ -1,7 +1,7 @@
 # Sommaire
 
 - [Jeedom manuell aktualisieren](/de_DE/howto/jeedom.mise_a_jour_manuel)
-- [Gehen Sie jeedom oder Plugin in der Beta](/de_DE/howto/passer_en_beta)
+- [Go jeedom oder ein Plugin in der Beta](/de_DE/howto/passer_en_beta)
 - [Himbeerpi 3](/de_DE/howto/raspberrypi3)
 - [Fabriksanierung eines smart](/de_DE/installation/smart)
 - [Setzen Sie Ihr Jeedom-Passwort bei Verlust zurück](/de_DE/howto/reset.password)

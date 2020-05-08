@@ -48,7 +48,7 @@ red existente.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería CR123A 3V
+-   Comida : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -121,7 +121,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Nombre : Philio PSP01
+-   Apellido : Philio PSP01
 
 -   ID del fabricante : 316
 
@@ -131,14 +131,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -161,7 +161,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -170,7 +170,7 @@ disponibles.
 
 \
 
-![Comandos](images/philio.psp01/commandes.jpg)
+![Órdenes](images/philio.psp01/commandes.jpg)
 
 \
 
@@ -184,7 +184,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    Temperatura
+    temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -195,8 +195,8 @@ Aquí está la lista de comandos :
 
 \
 
-Todos los módulos de la gama tienen los mismos identificadores, debe mostrarlos
-correspondiente a su módulo.
+
+.
 
 ### Configuracion del modulo 
 
@@ -215,7 +215,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -244,23 +244,23 @@ Detalles del parámetro :
     la señal definida en el parámetro 2 se enviará a los módulos asociados con el
     grupo 2
 
--   5: modo de funcionamiento (no se recomienda cambiarlo : referir
+-   5:  : 
     en la documentación del fabricante)
 
--   6: modo de funcionamiento multisensor (no se recomienda cambiarlo
-    : consulte la documentación del fabricante)
+-   6: 
+    : 
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2
 
 -   10: le permite definir la duración entre dos informes de batería (uno
-    unidad = 30 minutos)
+    
 
--   12: se usa para definir la duración entre dos informes de brillo
-    (una unidad = 30 minutos)
+-   12: 
+    
 
--   13: permite definir el tiempo entre dos informes de temperatura
-    (una unidad = 30 minutos)
+-   13: 
+    
 
 \
 
@@ -288,12 +288,12 @@ Bueno saber
 
 > **Tip**
 >
-> Este módulo tiene una particularidad, no tener un informe basado en el
-> variaciones, pero solo con el tiempo, envía toda su información a
-> cada detección. También envía la señal varias veces.
-> detección de presencia después. Por lo tanto, es aconsejable marcar el
-> Cuadro "Evento en cambio" en la presencia si usa esto
-> comando en desencadenador de escenario.
+> 
+> 
+> . 
+> . 
+> 
+> .
 
 \
 
@@ -325,7 +325,7 @@ Este módulo se activa presionando su botón de manipulación.
 
 \
 
-Marque la casilla "Evento en cambio".
+".
 
 \
 

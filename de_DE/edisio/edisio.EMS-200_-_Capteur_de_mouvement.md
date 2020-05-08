@@ -39,7 +39,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
+-   Essen : 3VDC (Lithiumbatterie ER14250)
 
 -   Frequenz : 868,3 MHz
 
@@ -53,14 +53,14 @@ Technische Daten
 
 -   Schutzart : IP20
 
--   Verwendung : Drinnen
+-   Verwenden Sie : Drinnen
 
 Moduldaten 
 =================
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : EMS-200
+-   Nachname : EMS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -77,7 +77,7 @@ beziehen sich darauf
 > **Tip**
 >
 > Die Platzierung wird in einer Höhe von 150 cm und in der Nähe empfohlen
-> die gewünschte Temperatur.
+> die gewünschte Filztemperatur.
 
 "E" -Taste" 
 ----------
@@ -120,13 +120,13 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 > Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
 > Ihre Ausrüstung in einem Objekt.
 
-Befehle 
+Bestellungen 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Befehle](images/ems200/ems200.commande.jpg)
+![Bestellungen](images/ems200/ems200.commande.jpg)
 
 Hier ist die Liste der Befehle :
 
@@ -135,22 +135,22 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
+Informationen 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Befehle](images/ems200/ems200.informations.jpg)
+![Bestellungen](images/ems200/ems200.informations.jpg)
 
--   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul
 
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
 Alternative visuelle 
 =================

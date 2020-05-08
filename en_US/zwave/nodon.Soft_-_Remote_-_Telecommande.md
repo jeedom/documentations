@@ -80,7 +80,7 @@ Module data
 
 -   Mark : Nodon
 
--   Name : CRC-3-6-0x Soft Remote
+-   Last name : CRC-3-6-0x Soft Remote
 
 -   Manufacturer ID : 357
 
@@ -90,14 +90,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -121,7 +121,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -130,7 +130,7 @@ disponibles.
 
 \
 
-![Commands](images/nodon.softremote/commandes.png)
+![Orders](images/nodon.softremote/commandes.png)
 
 \
 
@@ -174,7 +174,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -191,7 +191,7 @@ Parameter details :
 
 \
 
--   1-2 : Allows you to choose the profile of the buttons when used in
+-   1-2 : Allows you to choose the button profile when used in
     central (not necessary for use in Jeedom)
 
 -   3 : Important parameter to say if the switch should work
@@ -221,7 +221,7 @@ This module has 7 association groups.
 -   Group 2 to 5 - The devices in these groups are controlled by the
     corresponding button according to MONO profile
 
--   Group 6 to 7 - The devices in these groups are controlled by the
+-   Group 6 to 7 - The devices in these groups are controlled by
     corresponding buttons according to DUO profile
 
 \

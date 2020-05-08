@@ -7,7 +7,7 @@
 
 ## Debian
 
-- [Setup](/en_US/howtoadvance/debian.installation)
+- [Installation](/en_US/howtoadvance/debian.installation)
 - [Tips and tricks](/en_US/howtoadvance/debian.trucs_et_astuces)
 
 ## Vmware

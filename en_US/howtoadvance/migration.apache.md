@@ -24,7 +24,7 @@ Prerequisites
 >
 > In case of concerns, the Jeedom team cannot be held responsible and
 > may refuse any support request. Handling is yours
-> risks and dangers.
+> risks and perils.
 
 > **Important**
 >
@@ -72,7 +72,7 @@ Jeedom copy
 ---------------
 
     cp -R / usr / share / nginx / www / jeedom / * / var / www / html /
-    cp -R /usr/share/nginx/www/jeedom/.{.]* / var / www / html /
+    cp -R /usr/share/nginx/www/jeedom/..]* / var / www / html /
     rm /var/www/html/log/nginx.error
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
@@ -89,7 +89,7 @@ NOT CONTINUE.
 Crontab update 
 -------------------------
 
-MAKE :
+To do :
 
     crontab -e
 

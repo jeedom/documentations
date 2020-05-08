@@ -27,17 +27,17 @@ Resumen
 El mini enchufe de encendido / apagado está diseñado para controlar el encendido y
 apagar las luces y el equipo eléctrico de su
 casa Con un voltaje de 220 - 240 V, este enchufe puede soportar un
-Carga hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
+Carga de hasta 1500W (resistencia), 800W (incandescente), 200W (motor,
 fluorescente, Led).
 
 El Mini On / Off Plug es un dispositivo compatible con Z-Wave ™ que está diseñado
 para trabajar con todas las redes compatibles con Z-Wave ™. Ella puede
 ser controlado por un control remoto, software de PC o cualquier
-Controlador Z-Wave para su red.
+Controlador Z-Wave en su red.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -69,7 +69,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230 V, 50 Hz
+-   Comida : 230 V, 50 Hz
 
 -   El consumo : 0.6W
 
@@ -94,7 +94,7 @@ Datos del módulo
 
 -   Hacer : Everspring
 
--   Nombre : Miniplug encendido / apagado
+-   Apellido : Miniplug encendido / apagado
 
 -   ID del fabricante : 96
 
@@ -104,14 +104,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -119,7 +119,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
-> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> tenga en cuenta que este módulo entra directamente en la inclusión cuando
 > no pertenece a ninguna red y está alimentado
 
 \
@@ -136,7 +136,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -145,7 +145,7 @@ disponibles.
 
 \
 
-![Comandos](images/everspring.AN180-6/commandes.jpg)
+![Órdenes](images/everspring.AN180-6/commandes.jpg)
 
 \
 
@@ -156,7 +156,7 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
 
--   Uno : Este es el comando que enciende la salida
+-   Nosotros : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
@@ -172,12 +172,12 @@ el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Esto requiere pasar por el botón "Configuración" del
+instalación Para hacer esto, vaya al botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -236,7 +236,7 @@ Despertador
 
 \
 
-No hay noción de activación en este módulo.
+No hay noción de despertar en este módulo.
 
 \
 

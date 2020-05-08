@@ -67,7 +67,7 @@ Log in with credentials **pi / raspberry**
 
 > **Note**
 >
-> Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
+> Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you must repeat the entire procedure.
 
 Then just go to IP\_MACHINE\_JEEDOM
 

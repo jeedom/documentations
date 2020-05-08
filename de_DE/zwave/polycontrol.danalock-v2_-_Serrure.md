@@ -27,68 +27,68 @@ Zusammenfassung
 **Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
 Poly-Control !**
 
-Keine Schlüssel mehr, verwenden Sie Ihr Smartphone zum Sperren und
-Schließ deine Tür auf ! Danalock ist eine neue Lösung, die
-wird Ihr Interieur zuverlässig und intelligent sichern.
-Ohne Schlüssel können Sie Ihr Schloss mit Ihrem öffnen
-Tablet oder Smartphone. Sie kontrollieren somit den Zugang Ihrer Gäste oder
-von Arbeitern und kann Ihr Interieur effektiv überwachen.
-Mit verschiedenen Einstellungen können Sie den Zugriff auf Ihre steuern
-Haus. Danalock verfügt über eine Autolock-Funktion
-automatische Türverriegelung. Ideal, wenn Sie es nicht tun
-Zum Beispiel keine Hände frei. Zusätzlich werden 5 Schlüssel bereitgestellt. Sie
-kann sie von außen benutzen. Die Installation ist schnell und einfach
-unabhängig von der Art der Tür durchzuführen. Die entsprechende Anwendung
-ist kompatibel für iPhone 4S, Android 4.4 und Smartphone. Der Danalock tut es
-Keine externe Stromquelle erforderlich. Essen
-wird mit Batterien mit einer Lebensdauer von zwei Jahren durchgeführt. Sie
-Empfangen Sie ein akustisches Signal für den Fall, dass der Batterieladezustand steigt
-ist zu schwach.
 
-**Einfach einzurichten**
+ ! 
+.
 
-Das Danalock ist ein intelligentes Schloss, das fast montiert werden kann
-Alle Türen in Minuten.
+. 
+.
 
-**Einfach zu installieren**
 
-Installieren Sie die Danalock-App in wenigen Schritten auf Ihrem Telefon
-Sekunden. Ein Assistent führt Sie dann durch die Installation und
-die Kalibrierung Ihres Danalock.
+. 
+. 
+. 
+. 
+.. 
 
- **Einfach zu bedienen**
 
-Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
-mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
-Das Danalock-Schloss entriegelt automatisch die Tür, wenn Sie
-nähere dich deinem Haus und schließe es gleich ab, nachdem du es bist
+
+.
+
+****
+
+
+.
+
+****
+
+
+
+.
+
+ ****
+
+
+. ,
+
+
 rentré.
 
-**Lange Akkulaufzeit**
+****
 
-Das Danalock hat eine durchschnittliche Akkulaufzeit von bis zu einem Jahr
-benötigt keine externe Stromversorgung. Bitte beachten Sie diese Verwendung
-einer Z-Wave-Hausautomationssteuerung oder -box kann die Lebensdauer von verkürzen
-die Batterie. Der Batteriestatus ist in der App gut sichtbar.
-Wenn der Akku 30, 20, 15 und 10 Prozent erreicht, wird eine Benachrichtigung angezeigt
-wird per SMS und E-Mail gesendet.
 
-**Eingeschränkter oder dauerhafter Zugang**
+. 
 
-Nie mehr die Schlüssel unter der Fußmatte verstecken. Gib dein
-Familie schnellen und einfachen Zugang mit ihren Smartphones. Zu deiner Frau
-Reinigung oder Ihre Gäste, zeitlich begrenzter oder wiederkehrender Zugang und
-Sie erhalten Benachrichtigungen, wenn und von wem Ihr Schloss verwendet wird.
+die Batterie. .
 
-**Volle Kontrolle über das Haus**
+.
 
-Entwickeln Sie mit einem Danalock die Kontrolle über Ihr Smart Home,
-Der perfekte Initiator für alle Ihre Hausbestellungen. Danalock
-funktioniert nahtlos mit anderen Heimgeräten
+****
+
+. 
+. 
+
+.
+
+****
+
+,
+. 
+
 intelligent und die gesamte Kommunikation ist stark verschlüsselt - niemand
 Ich kann mich nicht in dein Haus hacken.
 
-**Diskret, nachhaltig und dänisch**
+**Diskret, langlebig und dänisch**
 
 Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit
 Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
@@ -100,7 +100,7 @@ Funktionen
 
 \.
 
--   Steuern Sie Ihre Haustür fern
+-   Steuern Sie Ihre Haustür aus der Ferne
 
 -   Verbundenes Schloss
 
@@ -136,7 +136,7 @@ Technische Daten
 
 \.
 
--   Versorgung : 4 CR123 3V Batterien
+-   Essen : 4 CR123 3V Batterien
 
 -   Versionen : V2
 
@@ -157,7 +157,7 @@ Moduldaten
 
 -   Machen Sie : Poly-Control
 
--   Name : Danalock V2 BTZE
+-   Nachname : Danalock V2 BTZE
 
 -   Hersteller ID : 010e
 
@@ -180,7 +180,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
+> Es ist wichtig, dieses Modul in den sicheren Modus zu integrieren..
 
 \.
 
@@ -224,16 +224,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/polycontrol.danalock/commandes.jpg)
+![Bestellungen](images/polycontrol.danalock/commandes.jpg)
 
 \.
 

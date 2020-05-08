@@ -1,6 +1,6 @@
 Este tutorial te presenta :
 
--   Crea una cuenta de GitHub
+-   Creación de una cuenta de GitHub
 
 -   Jeedom Core Fork o Documentación
 
@@ -11,20 +11,20 @@ Este tutorial te presenta :
 -   Actualizando tu tenedor
 
 Para permitirle contribuir a Jeedom, deberá
-proponer cambios (PR : Solicitud de extracción).
+sugerir cambios (PR : Solicitud de extracción).
 
-Crea una cuenta de GitHub 
+Creación de una cuenta de GitHub 
 ===========================
 
 Discutiremos en este tutorial cómo crear una cuenta de GitHub,
-para poder informar errores (problema en el lenguaje GitHub), incluso
+para poder informar errores (problema en el lenguaje GitHub), o incluso
 incluso proponer correcciones (Pull Request o PR en lenguaje github)
 para todo el proyecto Jeedom, incluidos sus complementos gratuitos o el
-documentación o cualquier otro proyecto github que
+documentación, o cualquier otro proyecto github que
 quisiera participar.
 
 Se rendre sur <https://github.com> y haga clic en el botón Registrarse.
-Por lo tanto, debe estar en una página como la siguiente y
+Entonces deberías estar en una página como la siguiente y
 por lo tanto, debe ingresar un apodo, un correo electrónico y una contraseña y luego
 haga clic en **Crear una cuenta**
 
@@ -50,13 +50,13 @@ Jeedom Core Fork o Documentación
 
 Fork está copiando un proyecto en su espacio github, para que pueda
 modificar el código y los archivos de documentación y luego enviar
-una solicitud de extracción para el proyecto original, que luego será estudiado por el
+una solicitud de extracción al proyecto original, que luego será estudiada por el
 desarrollador (s) de dicho proyecto
 
 Ahora que tiene una cuenta de Github y ha iniciado sesión
 con tu dirección de correo electrónico verificada, si vas aquí
 <https://github.com/jeedom/core> vous êtes sur le projet jeedom, à
-a la derecha hay un botón de horquilla que le permite copiarlo en su
+a la derecha hay un botón de horquilla que te permite copiarlo en tu
 espacio github.
 
 ![tuto.github4](images/tuto.github4.png)
@@ -99,7 +99,7 @@ comenzar la búsqueda.
 > en mi caso, en Google Chrome, no sabe cómo hacer la investigación
 > en código o documentación directamente.
 
-1. El campo de investigación, sí, es bastante escaso como la información, el
+1. El campo de búsqueda, sí, es bastante delgado como información, el
     la línea copiada es mucho más grande;).
 
 ![tuto.github7](images/tuto.github7.png)
@@ -126,7 +126,7 @@ Enviar un cambio
 
 El **commit** hecho arriba solo se refiere a la bifurcación del proyecto en
 tu espacio GitHub. Para enviar cambios al proyecto original,
-debe realizar una PR (solicitud de extracción)
+tienes que hacer un PR (Solicitud de extracción)
 
 1. Hacemos clic en la pestaña Solicitud de extracción
 
@@ -166,7 +166,7 @@ demande.
 
 **Se acabó.** Tienes que esperar hasta que tu RP sea validado.
 
-NB: Solo usuarios que presionan directamente a Jeedom que
+NB: Solo los usuarios que presionan directamente a Jeedom que
 puede validar el PR.
 
 Para asegurarse de que su cambio esté en la lista, usted

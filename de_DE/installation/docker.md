@@ -2,7 +2,7 @@
 
 > **Important**
 >
-> Bitte beachten Sie, dass wir hier davon ausgehen, dass Sie mit Docker bereits vertraut sind
+> Bitte beachten Sie, dass wir hier davon ausgehen, dass Sie bereits mit Docker vertraut sind
 
 Um Jeedom zu entdecken, können Sie es auch in einem Docker-Container drehen :
 

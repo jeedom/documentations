@@ -4,27 +4,27 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|Aeotec|Range Extender (DSD37)|Repeater|Module without functionality except for relaying network information|[Buy](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
-|<img src="../../en_US/zwave/images/134.1.1_dsa07203.z-stick.lite.jpg" width="60" />|Aeotec|Z-Stick Lite (DSA07203)|Controller|||
-|<img src="../../en_US/zwave/images/134.1.22_dsA22_key.fob.jpg" width="60" />|Aeotec|Key Fob (DSA22)|Remote control|Replaced in shops by the Gen5 keyfob|[Buy](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
-|<img src="../../en_US/zwave/images/134.1.38_dsa38_panic.button.jpg" width="60" />|Aeotec|Panic Button (DSA38)|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html)|
-|<img src="../../en_US/zwave/images/134.1.3_dsa03202_minimote.jpg" width="60" />|Aeotec|Minimote (DSA03202)|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html)|
-|<img src="../../en_US/zwave/images/134.1.88_zw088.key.fob.gen5.jpg" width="60" />|Aeotec|Key Fob Gen5 (ZW088)|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
-|<img src="../../en_US/zwave/images/134.1.90_zw090.z-stick-gen5.jpg" width="60" />|Aeotec|Z-Stick Gen5 (ZW090)|Controller||[Buy](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html)|
-|<img src="../../en_US/zwave/images/134.1.92_zw092.z-stick.lite.gen5.jpg" width="60" />|Aeotec|Z-Stick Lite Gen5 (ZW092)|Controller|||
+|<img src="../../en_US/zwave/images/134.1.1_dsa07203.z-stick.lite.jpg" width="60" />|Aeotec|Z-Stick Lite (DSA07203)||||
+|<img src="../../en_US/zwave/images/134.1.22_dsA22_key.fob.jpg" width="60" />|Aeotec|Key Fob (DSA22)||Replaced in shops by the Gen5 keyfob|[Buy](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
+|<img src="../../en_US/zwave/images/134.1.38_dsa38_panic.button.jpg" width="60" />|Aeotec|Panic Button (DSA38)|||[Buy](http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html)|
+|<img src="../../en_US/zwave/images/134.1.3_dsa03202_minimote.jpg" width="60" />|Aeotec|Minimote (DSA03202)|||[Buy](http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html)|
+|<img src="../../en_US/zwave/images/134.1.88_zw088.key.fob.gen5.jpg" width="60" />|Aeotec|Key Fob Gen5 (ZW088)|||[Buy](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
+|<img src="../../en_US/zwave/images/134.1.90_zw090.z-stick-gen5.jpg" width="60" />|Aeotec|Z-Stick Gen5 (ZW090)|||[Buy](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html)|
+|<img src="../../en_US/zwave/images/134.1.92_zw092.z-stick.lite.gen5.jpg" width="60" />|Aeotec|Z-Stick Lite Gen5 (ZW092)||||
 |<img src="../../en_US/zwave/images/134.2.100_zw100_6in1.multisensor.jpg" width="60" />|Aeotec|MultiSensor 6 (ZW100)|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html)|
 |<img src="../../en_US/zwave/images/134.2.112_zw112_door.window.sensor6.jpg" width="60" />|Aeotec|Door / Window Sensor 6 (ZW112)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html)|
 |<img src="../../en_US/zwave/images/134.2.120_zw120_door.window.sensor.gen5.jpg" width="60" />|Aeotec|Door / Window Sensor Gen5 (ZW120)|Ouverture|||
 |<img src="../../en_US/zwave/images/134.2.122_zw122_water.sensor6.jpg" width="60" />|Aeotec|Water Sensor 6 (ZW122)|Fuite|||
-|<img src="../../en_US/zwave/images/134.2.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec|WallMote Duo (ZW129)|Remote control|||
-|<img src="../../en_US/zwave/images/134.2.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)|Remote control|||
-|<img src="../../en_US/zwave/images/134.2.1_dsa02203.z-stick-s2.jpg" width="60" />|Aeotec|Z-Stick S2 (DSA02203)|Controller|||
+|<img src="../../en_US/zwave/images/134.2.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec|WallMote Duo (ZW129)||||
+|<img src="../../en_US/zwave/images/134.2.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)||||
+|<img src="../../en_US/zwave/images/134.2.1_dsa02203.z-stick-s2.jpg" width="60" />|Aeotec|Z-Stick S2 (DSA02203)||||
 |<img src="../../en_US/zwave/images/134.2.28_dsb28_hem.g2.jpg" width="60" />|Aeotec|Home Energy Meter 2nd Edition (DSB28)|Consommation||[Buy](http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html)|
 |<img src="../../en_US/zwave/images/134.2.29_dsb29_door.window.sensor.jpg" width="60" />|Aeotec|Door / Window Sensor 2nd Edition (DSB29)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
 |<img src="../../en_US/zwave/images/134.2.45_dsb45_water.sensor.jpg" width="60" />|Aeotec|Water Sensor (DSB45)|Fuite|Parameter 121 must be forced to 4113|[Buy](http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html)|
 |<img src="../../en_US/zwave/images/134.2.4_dsb04100_door.window.sensor.jpg" width="60" />|Aeotec|Door / Window Sensor (DSB04100)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html)|
 |<img src="../../en_US/zwave/images/134.2.54_dsb54_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor (DSB54)|Ouverture|||
-|<img src="../../en_US/zwave/images/134.2.5_dsb05_multi.sensor.jpg" width="60" />|Aeotec|MultiSensor (DSB05) |Multicapteurs|Attention this module can raise bad data, it is necessary to pay attention to the configuration. Replaced in store by its Gen5 equivalent|[Buy](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
-|<img src="../../en_US/zwave/images/134.2.74_zw074_multi-sensor.gen5.jpg" width="60" />|Aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention this module can raise bad data, it is necessary to pay attention to the configuration|[Buy](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
+|<img src="../../en_US/zwave/images/134.2.5_dsb05_multi.sensor.jpg" width="60" />|Aeotec|MultiSensor (DSB05) |Multicapteurs|Attention this module can report bad data, you must pay attention to the configuration. Replaced in store by its Gen5 equivalent|[Buy](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
+|<img src="../../en_US/zwave/images/134.2.74_zw074_multi-sensor.gen5.jpg" width="60" />|Aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention this module can report bad data, you must pay attention to the configuration|[Buy](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
 |<img src="../../en_US/zwave/images/134.2.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 |<img src="../../en_US/zwave/images/134.2.95_zw095_hem_gen5.jpg" width="60" />|Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
 ||Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
@@ -32,13 +32,13 @@
 ||Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
 |<img src="../../en_US/zwave/images/134.2.97_zw097_dry.contact.sensor.gen5.jpg" width="60" />|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture|||
 |<img src="../../en_US/zwave/images/134.2.9_dsb09104_hem_2.jpg" width="60" />|Aeotec|Home Energy Meter (DSB09104)|Consommation|Replaced by the Home Energy Meter 2G (DSB28)||
-|<img src="../../en_US/zwave/images/134.257.90_zw090.z-stick-gen5.jpg" width="60" />|Aeotec|Z-Stick Gen5 (ZW090)|Controller||[Buy](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html)|
+|<img src="../../en_US/zwave/images/134.257.90_zw090.z-stick-gen5.jpg" width="60" />|Aeotec|Z-Stick Gen5 (ZW090)|||[Buy](http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html)|
 |<img src="../../en_US/zwave/images/134.258.100_zw100_6in1.multisensor.jpg" width="60" />|Aeotec|MultiSensor 6 (ZW100)|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html)|
 |<img src="../../en_US/zwave/images/134.258.112_zw112_door.window.sensor6.jpg" width="60" />|Aeotec|Door / Window Sensor 6 (ZW112)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html)|
 |<img src="../../en_US/zwave/images/134.258.120_zw120_door.window.sensor.gen5.jpg" width="60" />|Aeotec|Door / Window Sensor Gen5 (ZW120)|Ouverture|||
 |<img src="../../en_US/zwave/images/134.258.122_zw122_water.sensor6.jpg" width="60" />|Aeotec|Water Sensor 6 (ZW122)|Fuite|||
-|<img src="../../en_US/zwave/images/134.258.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec|WallMote Duo (ZW129)|Remote control|Partially compatible: Works in direct association only ||
-|<img src="../../en_US/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)|Remote control|Partially compatible: Works in direct association only ||
+|<img src="../../en_US/zwave/images/134.258.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec|WallMote Duo (ZW129)||Partially compatible: Works in direct association only ||
+|<img src="../../en_US/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)||Partially compatible: Works in direct association only ||
 |<img src="../../en_US/zwave/images/134.258.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 ||Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
 ||Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation|||
@@ -86,8 +86,8 @@
 |<img src="../../en_US/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Range Extender (DSD37)|Repeater|Module without functionality except for relaying network information|[Buy](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../en_US/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Siren Gen5 (ZW080)|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../en_US/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-|<img src="../../en_US/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Remote control|||
-|<img src="../../en_US/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Remote control|||
+|<img src="../../en_US/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)||||
+|<img src="../../en_US/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)||||
 |<img src="../../en_US/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
 |<img src="../../en_US/zwave/images/881.2.7_zwa008.door7.jpg" width="60" />|Aeotec|Door / Window Sensor 7 (ZWA008)|Ouverture|||
 |<img src="../../en_US/zwave/images/881.3.162_zw162_doorbell6.jpg" width="60" />|Aeotec|Doorbell 6 (ZW162)|Mermaid|||
@@ -113,16 +113,16 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||Benext|Built In Dimmer|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html)|
-|<img src="../../en_US/zwave/images/138.20.257_panic.button.jpg" width="60" />|Benext|Panic Button|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2349-benext-telecommande-bouton-d-urgence-z-wave-0632181493731.html)|
-|<img src="../../en_US/zwave/images/138.21.257_panic.watch.jpg" width="60" />|Benext|Panic Watch|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html)|
-|<img src="../../en_US/zwave/images/138.23.256_scene.controller.jpg" width="60" />|Benext|Scene Controller 7 buttons|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html)|
+|<img src="../../en_US/zwave/images/138.20.257_panic.button.jpg" width="60" />|Benext|Panic Button|||[Buy](http://www.domadoo.fr/fr/peripheriques/2349-benext-telecommande-bouton-d-urgence-z-wave-0632181493731.html)|
+|<img src="../../en_US/zwave/images/138.21.257_panic.watch.jpg" width="60" />|Benext|Panic Watch|||[Buy](http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html)|
+|<img src="../../en_US/zwave/images/138.23.256_scene.controller.jpg" width="60" />|Benext|Scene Controller 7 buttons|||[Buy](http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html)|
 |<img src="../../en_US/zwave/images/138.24.256_plug.in.dimmer.jpg" width="60" />|Benext|Plug In Dimmer|Prise||[Buy](http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html)|
 |<img src="../../en_US/zwave/images/138.3.256_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext|MoLite Sensor|Multicapteurs|||
 |<img src="../../en_US/zwave/images/138.3.257_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext|MoLite Sensor|Multicapteurs|||
 |<img src="../../en_US/zwave/images/138.33.1_heating.control.jpg" width="60" />|Benext|Heating Control|Micromodule|||
 |<img src="../../en_US/zwave/images/138.33.256_heating.control.jpg" width="60" />|Benext|Heating Control|Micromodule|||
-|<img src="../../en_US/zwave/images/138.4.256_door.sensor.jpg" width="60" />|Benext|Door Sensor|Ouverture|||
-|<img src="../../en_US/zwave/images/138.4.257_door.sensor.jpg" width="60" />|Benext|Door Sensor|Ouverture|||
+|<img src="../../en_US/zwave/images/138.4.256_door.sensor.jpg" width="60" />|Benext|Door sensor|Ouverture|||
+|<img src="../../en_US/zwave/images/138.4.257_door.sensor.jpg" width="60" />|Benext|Door sensor|Ouverture|||
 |<img src="../../en_US/zwave/images/138.7.256_minikeypad.jpg" width="60" />|Benext|Mini Keypad RFID|RFID keyboard|The badge used does not go back. This module is currently sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../en_US/zwave/images/138.7.257_minikeypad.jpg" width="60" />|Benext|Mini Keypad RFID|RFID keyboard|The badge used does not go back. This module is currently sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
@@ -130,8 +130,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Chromagic|HSP02|Multicapteurs|This module is currently sold under the brand Everspring|[Buy](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
-||Chromagic|HSM02|Ouverture|This module is currently sold under the brand Everspring|[Buy](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
+||Chromagic|HSP02|Multicapteurs|This module is currently sold under the Everspring brand|[Buy](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
+||Chromagic|HSM02|Ouverture|This module is currently sold under the Everspring brand|[Buy](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 
 # Danfoss
 
@@ -156,10 +156,10 @@
 |<img src="../../en_US/zwave/images/373.2.14_mt02648.contact.door.jpg" width="60" />|Devolo|Door / Window Contact MT02648|Ouverture|||
 |<img src="../../en_US/zwave/images/373.2.32_mt02755.humidity.jpg" width="60" />|Devolo|Flood Sensor MT02756|Multisensor|||
 |<img src="../../en_US/zwave/images/373.2.33_mt02756.flood.jpg" width="60" />|Devolo|Flood Sensor MT02756|Fuite|||
-|<img src="../../en_US/zwave/images/373.256.257_mt2652.scene_switch.jpg" width="60" />|Devolo|Scene Switch MT 2652|Remote control|||
-|<img src="../../en_US/zwave/images/373.256.258_mt2653.keyfob.jpg" width="60" />|Devolo|Keyfob (MT2653)|Remote control|||
+|<img src="../../en_US/zwave/images/373.256.257_mt2652.scene_switch.jpg" width="60" />|Devolo|Scene Switch MT 2652||||
+|<img src="../../en_US/zwave/images/373.256.258_mt2653.keyfob.jpg" width="60" />|Devolo|Keyfob (MT2653)||||
 |<img src="../../en_US/zwave/images/373.4.10_mt02758.siren.jpg" width="60" />|Devolo|Siren MT02758|Mermaid|||
-|<img src="../../en_US/zwave/images/373.8196.1188_mt02651.smoke.jpg" width="60" />|Devolo|Smoke Detector MT02651|Smoke|||
+|<img src="../../en_US/zwave/images/373.8196.1188_mt02651.smoke.jpg" width="60" />|Devolo|Smoke Detector MT02651||||
 
 # Dlink
 
@@ -193,7 +193,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Domux|Motion Sensor (DX1MS-Z)|Multicapteurs|||
-|<img src="../../en_US/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux|Smart Smoke Sensor (DX1SA-Z)|Smoke|||
+|<img src="../../en_US/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux|Smart Smoke Sensor (DX1SA-Z)||||
 |<img src="../../en_US/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Domux|Gas Sensor (DX1CG-Z)|Gaz|No alerting to the controller. Sounds on detection of combustible gas||
 |<img src="../../en_US/zwave/images/540.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Domux|Flood Sensor (DX1WL-Z)|Fuite|||
 |<img src="../../en_US/zwave/images/540.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Domux|CO Sensor (DX1CA-Z)|CO|||
@@ -209,8 +209,8 @@
 |<img src="../../en_US/zwave/images/100.1.0_zw.edan.300.flush.mounted.dimmer.jpg" width="60" />|Duwi|ZW EDAN 300 Dimmer|Interrupteur|It is necessary to activate the polling to have a recovery of state|[Buy](http://www.domadoo.fr/fr/peripheriques/749-duwi-interrupteur-variateur-everlux-z-wave-4008297054337.html)|
 |<img src="../../en_US/zwave/images/100.12289.0_zw.zs.3500.plugin.switch.jpg" width="60" />|Duwi|ZW ZS 3500 Plugin Switch|Prise|It is necessary to activate the polling to have a recovery of state|[Buy](http://www.domadoo.fr/fr/peripheriques/752-duwi-module-prise-on-off-z-wave-pour-l-exterieur-4008297054382.html)|
 |<img src="../../en_US/zwave/images/100.16385.0_zw.esj.blind.control.jpg" width="60" />|Duwi|ZW ESJ Duwi Blind Control|Volets|||
-|<img src="../../en_US/zwave/images/100.20481.0_zwfb.jpg" width="60" />|Duwi|Wireless remote control 10-channel|Remote control|Replaced by Z-WAVE.ME RC2|[Buy](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
-|<img src="../../en_US/zwave/images/100.20482.0_wireless.flush.mounted.switch.jpg" width="60" />|Duwi|Wireless Flush Mounted Switch (5443)|Remote control|||
+|<img src="../../en_US/zwave/images/100.20481.0_zwfb.jpg" width="60" />|Duwi|Wireless remote control 10-channel||Replaced by Z-WAVE.ME RC2|[Buy](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
+|<img src="../../en_US/zwave/images/100.20482.0_wireless.flush.mounted.switch.jpg" width="60" />|Duwi|Wireless Flush Mounted Switch (5443)||||
 |<img src="../../en_US/zwave/images/100.4096.9_05458.dimmer.jpg" width="60" />|Duwi|DURO 2000 Dimmer 05458|Interrupteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2307-z-waveme-interrupteur-variateur-z-wave-avance-finition-duro-2000-0019962003509.html)|
 ||Duwi|Duro 2000 dimmer switch|Interrupteur|It is necessary to activate the polling to have a recovery of state|[Buy](http://www.domadoo.fr/fr/peripheriques/758-duwi-interrupteur-variateur-duro-2000-z-wave-4008297054580.html)|
 |<img src="../../en_US/zwave/images/100.8193.0_zw.es.1000.flush.mounted.switch.jpg" width="60" />|Duwi|ZW_ES_1000 Wall Plug |Interrupteur|It is necessary to activate the polling to have a recovery of state|[Buy](http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html)|
@@ -249,7 +249,7 @@
 |<img src="../../en_US/zwave/images/96.11.1_st812.flood.detector.jpg" width="60" />|Everspring|ST812|Fuite||[Buy](http://www.domadoo.fr/fr/peripheriques/860-everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html)|
 |<img src="../../en_US/zwave/images/96.12.1_se812.siren.jpg" width="60" />|Everspring|SE812|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/845-everspring-sirene-z-wave-se812-3700946500189.html)|
 |<img src="../../en_US/zwave/images/96.12.3_se813.indoor.voice.siren.jpg" width="60" />|Everspring|Indoor voice Siren SE813|Mermaid|||
-|<img src="../../en_US/zwave/images/96.13.1_sf812.smoke.alarm.jpg" width="60" />|Everspring|SF812|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html)|
+|<img src="../../en_US/zwave/images/96.13.1_sf812.smoke.alarm.jpg" width="60" />|Everspring|SF812|||[Buy](http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html)|
 |<img src="../../en_US/zwave/images/96.16.1_hac01.in-wall.remote.jpg" width="60" />|Everspring|HAC01|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/837-everspring-micromodule-emetteur-z-wave-hac01-3700946500110.html)|
 |<img src="../../en_US/zwave/images/96.17.1_han01.in-wall.remote.jpg" width="60" />|Everspring|HAN01|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/2497-everspring-micromodule-commutateur-z-wave-han01-3700946500042.html)|
 |<img src="../../en_US/zwave/images/96.17.2_han02.in-wall.remote.jpg" width="60" />|Everspring|HAN02|Micromodule|||
@@ -341,17 +341,17 @@
 |<img src="../../en_US/zwave/images/271.2817.4098_fgfs101zw5.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 ZW5 Flood Sensor|Fuite||[Buy](http://www.domadoo.fr/fr/peripheriques/3582-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528357.html)|
 |<img src="../../en_US/zwave/images/271.2817.4099_fgfs101zw5.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 ZW5 Flood Sensor|Fuite||[Buy](http://www.domadoo.fr/fr/peripheriques/3582-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528357.html)|
 |<img src="../../en_US/zwave/images/271.2817.8194_fgfs101zw5.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 ZW5 Flood Sensor|Fuite||[Buy](http://www.domadoo.fr/fr/peripheriques/3582-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528357.html)|
-|<img src="../../en_US/zwave/images/271.3072.4096_fgss101.smoke.sensor.jpg" width="60" />|Fibaro|FGSS-001 Smoke Sensor|Smoke|Replaced by its equivalent to the standards FGSD-002|[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
-|<img src="../../en_US/zwave/images/271.3074.4098_fgsd002.smoke.sensor.jpg" width="60" />|Fibaro|FGSD-002 Smoke Sensor CE|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
-|<img src="../../en_US/zwave/images/271.3074.4099_fgsd002.smoke.sensor.jpg" width="60" />|Fibaro|FGSD-002 Smoke Sensor CE|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
+|<img src="../../en_US/zwave/images/271.3072.4096_fgss101.smoke.sensor.jpg" width="60" />|Fibaro|FGSS-001 Smoke Sensor||Replaced by its equivalent to the standards FGSD-002|[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
+|<img src="../../en_US/zwave/images/271.3074.4098_fgsd002.smoke.sensor.jpg" width="60" />|Fibaro|FGSD-002 Smoke Sensor CE|||[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
+|<img src="../../en_US/zwave/images/271.3074.4099_fgsd002.smoke.sensor.jpg" width="60" />|Fibaro|FGSD-002 Smoke Sensor CE|||[Buy](http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html)|
 |<img src="../../en_US/zwave/images/271.3329.4096_fggc001.swipe.jpg" width="60" />|Fibaro|FGGC-001 Swipe|Gesture controller||[Buy](http://www.domadoo.fr/fr/peripheriques/3423-fibaro-controleur-gestuel-z-wave-swipe-blanc-fggc-001-5902020528821.html)|
 |<img src="../../en_US/zwave/images/271.3329.8192_fggc001.swipe.jpg" width="60" />|Fibaro|FGGC-001 Swipe|Gesture controller||[Buy](http://www.domadoo.fr/fr/peripheriques/3423-fibaro-controleur-gestuel-z-wave-swipe-blanc-fggc-001-5902020528821.html)|
-|<img src="../../en_US/zwave/images/271.3841.4096_fgpb101.button.jpg" width="60" />|Fibaro|FGPB101 Button|Controller|Partially compatible: Works in direct association only|[Buy](http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html)|
-|<img src="../../en_US/zwave/images/271.3841.8192_fgpb101.button.jpg" width="60" />|Fibaro|FGPB101 Button|Controller||[Buy](http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html)|
-|<img src="../../en_US/zwave/images/271.4097.4096_fgkf601.keyfob.jpg" width="60" />|Fibaro|FGKF-601 Keyfob|Remote control|Remote control in non-functional scene mode, however works in combination with other modules|[Buy](http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html)|
-|<img src="../../en_US/zwave/images/271.4097.8192_fgkf601.keyfob.jpg" width="60" />|Fibaro|FGKF-601 Keyfob|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html)|
-|<img src="../../en_US/zwave/images/271.4609.4096_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor|Smoke|||
-|<img src="../../en_US/zwave/images/271.4609.4097_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor|Smoke|||
+|<img src="../../en_US/zwave/images/271.3841.4096_fgpb101.button.jpg" width="60" />|Fibaro|FGPB101 Button||Partially compatible: Works in direct association only|[Buy](http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html)|
+|<img src="../../en_US/zwave/images/271.3841.8192_fgpb101.button.jpg" width="60" />|Fibaro|FGPB101 Button|||[Buy](http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html)|
+|<img src="../../en_US/zwave/images/271.4097.4096_fgkf601.keyfob.jpg" width="60" />|Fibaro|FGKF-601 Keyfob||Remote control in non-functional scene mode, however works in combination with other modules|[Buy](http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html)|
+|<img src="../../en_US/zwave/images/271.4097.8192_fgkf601.keyfob.jpg" width="60" />|Fibaro|FGKF-601 Keyfob|||[Buy](http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html)|
+|<img src="../../en_US/zwave/images/271.4609.4096_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor||||
+|<img src="../../en_US/zwave/images/271.4609.4097_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor||||
 |<img src="../../en_US/zwave/images/271.4865.4096_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 HEAT CONTROLLER|Thermostat|||
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
@@ -366,7 +366,7 @@
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
-||Fibaro|FGS-222 Double charge|Micromodule|Replaces the FGS-221|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
+||Fibaro|FGS-222 Double charge|Micromodule|Replaces FGS-221|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 |<img src="../../en_US/zwave/images/271.515.4096_fgs223.double.switch.jpg" width="60" />|Fibaro|FGS-223 Double load|Micromodule|Manual refresh is required on instance 1 (Switch S2) for power recovery and S2 status. Scene notifications are not sent back, they require CC Central Scene support.|[Buy](http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html)|
 ||Fibaro|FGS-223 Double load|Micromodule|Manual refresh is required on instance 1 (Switch S2) for power recovery and S2 status. Scene notifications are not sent back, they require CC Central Scene support.|[Buy](http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html)|
 |<img src="../../en_US/zwave/images/271.6145.4096_fgwpg111.uk.wall.plug.jpg" width="60" />|Fibaro|FGWPGE UK Wall Plug Gen5|Prise|||
@@ -387,7 +387,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/312.1.2_zcombo.jpg" width="60" />|Firstalert|ZCombo Smoke and Carbon Monoxide Detector|Smoke|||
+|<img src="../../en_US/zwave/images/312.1.2_zcombo.jpg" width="60" />|Firstalert|ZCombo Smoke and Carbon Monoxide Detector||||
 
 # Fortrezz
 
@@ -431,7 +431,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/153.2.2_powernode.1.port.jpg" width="60" />|Greenwave|Powernode 1|Prise||[Buy](http://www.domadoo.fr/fr/peripheriques/2857-greenwave-module-prise-z-wave-powernode-schuko-8886464000235.html)|
-|<img src="../../en_US/zwave/images/153.3.4_powernode.6.port.jpg" width="60" />|Greenwave|Powernode 6 sockets|Multiprise|Read the documentation for the automatic reporting of consumption|[Buy](http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html)|
+|<img src="../../en_US/zwave/images/153.3.4_powernode.6.port.jpg" width="60" />|Greenwave|Powernode 6 sockets|Multiprise|Read the documentation carefully for the automatic reporting of consumption|[Buy](http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html)|
 
 # Hank
 
@@ -452,7 +452,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/608.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Heiman|Motion Sensor (HS1MS-Z)|Multicapteurs|||
-|<img src="../../en_US/zwave/images/608.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Heiman|Smart Smoke Sensor (HS1SA-Z)|Smoke|||
+|<img src="../../en_US/zwave/images/608.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Heiman|Smart Smoke Sensor (HS1SA-Z)||||
 |<img src="../../en_US/zwave/images/608.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Heiman|Gas Sensor (HS1CG-Z)|Gaz|No alerting to the controller. Sounds on detection of combustible gas||
 |<img src="../../en_US/zwave/images/608.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Heiman|Flood Sensor (HS1WL-Z)|Fuite|||
 |<img src="../../en_US/zwave/images/608.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Heiman|CO Sensor (HS1CA-Z)|CO|||
@@ -479,7 +479,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|Horstmann|HRT4-ZW Transmitter|Thermostat|Module sold under the brand name Secure SRT321|[Buy](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
+|<img src="../../en_US/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|Horstmann|HRT4-ZW Transmitter|Thermostat|Module sold under the Secure SRT321 brand|[Buy](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
 |<img src="../../en_US/zwave/images/89.1.4_srt323.jpg" width="60" />|Horstmann|SRT 323 Electronic Room Thermostat and Temperature|Thermostat|Module sold under the Secure SRT323 brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
 |<img src="../../en_US/zwave/images/89.13.2_ses302.jpg" width="60" />|Horstmann|SES 302 Temperature Sensor|Temperature|Module sold under the Secure brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
 |<img src="../../en_US/zwave/images/89.13.3_ses303.jpg" width="60" />|Horstmann|SES 303 Temperature and Humidity Sensor|Multicapteurs|Module sold under the Secure brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html)|
@@ -535,7 +535,7 @@
 |<img src="../../en_US/zwave/images/351.2049.20738_mco.home.mh8-fc.thermostat.jpg" width="60" />|Mco|MH8-FC-EU thermostat|Thermostat||[Buy](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../en_US/zwave/images/351.2050.12546_mco.home.mh8-fc4.thermostat.jpg" width="60" />|Mco|MH8-FC4-EU thermostat|Thermostat||[Buy](http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html)|
 |<img src="../../en_US/zwave/images/351.2309.513_c02.monitor.jpg" width="60" />|Mco|CO2 Monitor (MH9-CO2-WD)|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html)|
-|<img src="../../en_US/zwave/images/351.8458.4866_mh.p210.dimmer.jpg" width="60" />|Mco|MH-P210 Mini Energy Dimmer|Micromodule|Sold under the brand name Zipato|[Buy](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
+|<img src="../../en_US/zwave/images/351.8458.4866_mh.p210.dimmer.jpg" width="60" />|Mco|MH-P210 Mini Energy Dimmer|Micromodule|Sold under the brand Zipato|[Buy](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
 
 # Neocoolcam
 
@@ -557,8 +557,8 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/357.1.1_smartplug.nodon.jpg" width="60" />|Nodon|Smartplug|Prise||[Buy](http://www.domadoo.fr/fr/peripheriques/2892-nodon-prise-intelligente-z-wave-type-schuko-3700313920206.html)|
 |<img src="../../en_US/zwave/images/357.1.3_micro.smartplug.nodon.jpg" width="60" />|Nodon|MicroSmartplug|Prise|||
-|<img src="../../en_US/zwave/images/357.2.1_nodon.crc.3.1.00.octan.remote.jpg" width="60" />|Nodon|Octan Remote|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html)|
-|<img src="../../en_US/zwave/images/357.2.2_nodon.cr.3.6.04.soft.remote.jpg" width="60" />|Nodon|Soft Remote|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2979-nodon-soft-remote-z-wave-plus-wasabi-3700313920336.html)|
+|<img src="../../en_US/zwave/images/357.2.1_nodon.crc.3.1.00.octan.remote.jpg" width="60" />|Nodon|Octan Remote|||[Buy](http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html)|
+|<img src="../../en_US/zwave/images/357.2.2_nodon.cr.3.6.04.soft.remote.jpg" width="60" />|Nodon|Soft Remote|||[Buy](http://www.domadoo.fr/fr/peripheriques/2979-nodon-soft-remote-z-wave-plus-wasabi-3700313920336.html)|
 |<img src="../../en_US/zwave/images/357.2.3_nodon.cws.3.1.01.wall.switch.jpg" width="60" />|Nodon|Wall switch|Interrupteur||[Buy](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 
 # Northq
@@ -573,7 +573,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/362.2.130_zw130_wallmote.quad.jpg" width="60" />|Oomi|WallMote Quad (ZW130)|Remote control|||
+|<img src="../../en_US/zwave/images/362.2.130_zw130_wallmote.quad.jpg" width="60" />|Oomi|WallMote Quad (ZW130)||||
 
 # Philio
 
@@ -589,7 +589,7 @@
 |<img src="../../en_US/zwave/images/316.2.13_pst02-b.pirmotion.3.in.1.jpg" width="60" />|Philio|PST02-B PIR / Motion 3in1 Sensor|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html)|
 |<img src="../../en_US/zwave/images/316.2.14_pst02-c.doorwindow.3.in.1.jpg" width="60" />|Philio|PST02-C Door / Window 3in1 sensor|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2606-zipato-detecteur-z-wave-3-en-1-ouverture-luminosite-temperature-3858890730371.html)|
 |<img src="../../en_US/zwave/images/316.2.2_psm02-1.slim.multi-sensor.jpg" width="60" />|Philio|PSP01 / PSM02|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
-|<img src="../../en_US/zwave/images/316.2.30_phpsg01.smoke.detector.jpg" width="60" />|Philio|PH-PSG01 Smoke Sensor|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/3149-zipato-capteur-de-fumee-z-wave--3858890733051.html)|
+|<img src="../../en_US/zwave/images/316.2.30_phpsg01.smoke.detector.jpg" width="60" />|Philio|PH-PSG01 Smoke Sensor|||[Buy](http://www.domadoo.fr/fr/peripheriques/3149-zipato-capteur-de-fumee-z-wave--3858890733051.html)|
 |<img src="../../en_US/zwave/images/316.2.31_phpat02a.flood.3in1.jpg" width="60" />|Philio|PAT02-C Flood Sensor|Multicapteurs|Also sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html)|
 |<img src="../../en_US/zwave/images/316.2.32_phpat02b.multisensor.2in1.jpg" width="60" />|Philio|PAT02-B 2in1 Multi Sensor|Multicapteurs|The first humidity value may take some time to rise. Also sold under the Zipato brand||
 |<img src="../../en_US/zwave/images/316.2.80_psp05.motionsensor.jpg" width="60" />|Philio|PSP05 B, C & D version|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/4108-philio-detecteur-de-mouvement-exterieur-z-wave-4713698573508.html)|
@@ -612,17 +612,17 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/340.256.1024_zweather.jpg" width="60" />|Popp|Z-Weather Wind and Weather Sensor|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
-|<img src="../../en_US/zwave/images/340.256.257_009303_wall_controller.jpg" width="60" />|Popp|009303 Z-Wave Plus Battery Wall Controller|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html)|
-|<img src="../../en_US/zwave/images/340.256.259_key.fob.jpg" width="60" />|Popp|KFOB-C|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html)|
-|<img src="../../en_US/zwave/images/340.256.513_popp.smoke.sensor.jpg" width="60" />|Popp|Smoke Detector and Siren|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html)|
+|<img src="../../en_US/zwave/images/340.256.1024_zweather.jpg" width="60" />|Popp||Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
+|<img src="../../en_US/zwave/images/340.256.257_009303_wall_controller.jpg" width="60" />|Popp|009303 Z-Wave Plus Battery Wall Controller|||[Buy](http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html)|
+|<img src="../../en_US/zwave/images/340.256.259_key.fob.jpg" width="60" />|Popp|KFOB-C|||[Buy](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html)|
+|<img src="../../en_US/zwave/images/340.256.513_popp.smoke.sensor.jpg" width="60" />|Popp|Smoke Detector and Siren|||[Buy](http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html)|
 |<img src="../../en_US/zwave/images/340.3.10_700397.wall.plug.ip44.jpg" width="60" />|Popp|700397 Wall Plug Switch Outdoor Schuko (IP44) |Prise|||
 |<img src="../../en_US/zwave/images/340.3.1_009105.wall.plug.switch.jpg" width="60" />|Popp|009105 Wall Plug Switch Schuko (IP44)|Prise||[Buy](http://www.domadoo.fr/fr/peripheriques/3070-popp-z-wave-plugin-switch-ip44-outdoor-use.html)|
 |<img src="../../en_US/zwave/images/340.3.4098_700793.power.plug.jpg" width="60" />|Popp|700793 Smart Plug|Prise|||
 |<img src="../../en_US/zwave/images/340.4.17_rainsensor.jpg" width="60" />|Popp|Rain gauge|Rain gauge||[Buy](http://www.domadoo.fr/fr/peripheriques/4094-popp-pluviometre-z-wave-z-rain-4251295700168.html)|
 |<img src="../../en_US/zwave/images/340.4.2_popp.solar.siren.jpg" width="60" />|Popp|Solar Powered Outdoor Siren|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/3180-popp-sirene-exterieure-solaire-z-wave-0019962005107.html)|
 |<img src="../../en_US/zwave/images/340.4.3_co_detector.jpg" width="60" />|Popp|POPE004407 CO Detector|CO||[Buy](http://www.domadoo.fr/fr/peripheriques/3852-popp-detecteur-de-monoxyde-de-carbone-z-wave-0019962004407.html)|
-|<img src="../../en_US/zwave/images/340.4.4_popp.smoke.sensor.jpg" width="60" />|Popp|10-Year Smoke Detector (009402)|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/3636-popp-detecteur-de-fumee-z-wave-avec-autonomie-10-ans-0019962009402.html)|
+|<img src="../../en_US/zwave/images/340.4.4_popp.smoke.sensor.jpg" width="60" />|Popp|10-Year Smoke Detector (009402)|||[Buy](http://www.domadoo.fr/fr/peripheriques/3636-popp-detecteur-de-fumee-z-wave-avec-autonomie-10-ans-0019962009402.html)|
 |<img src="../../en_US/zwave/images/340.5.1_strike.lock.control.jpg" width="60" />|Popp|Strike Lock Control|Gache|||
 |<img src="../../en_US/zwave/images/340.5.2_universal.keypad.jpg" width="60" />|Popp|Universal Keypad|Clavier|||
 
@@ -689,7 +689,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/0.1.1_usb adapter.jpg" width="60" />|Sigma|Z-Wave Plus USB Controller|Controller||[Buy](http://www.domadoo.fr/fr/peripheriques/3171-sigma-designs-controleur-z-wave-plus-usb.html)|
+|<img src="../../en_US/zwave/images/0.1.1_usb adapter.jpg" width="60" />|Sigma|Z-Wave Plus USB Controller|||[Buy](http://www.domadoo.fr/fr/peripheriques/3171-sigma-designs-controleur-z-wave-plus-usb.html)|
 
 # Smarthome by everspring
 
@@ -705,7 +705,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/625.1.6771_xled.home2.jpg" width="60" />|Steinel|XHome2 LED|Multicapteurs|||
 |<img src="../../en_US/zwave/images/625.1.6772_rs.led2.d2.jpg" width="60" />|Steinel|RS LED D2|Multicapteurs|||
-|<img src="../../en_US/zwave/images/625.1.6773_l810.led.ihf.jpg" width="60" />|Steinel|L 810 iHF LED|Multicapteurs|||
+|<img src="../../en_US/zwave/images/625.1.6773_l810.led.ihf.jpg" width="60" />|Steinel|L 810 LED iHF|Multicapteurs|||
 |<img src="../../en_US/zwave/images/625.2.6770_is140-2.jpg" width="60" />|Steinel|RS LED D2|Multicapteurs|||
 
 # Stelpro
@@ -731,9 +731,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/265.4097.257_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401|Controller|||
-|<img src="../../en_US/zwave/images/265.4097.260_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401|Controller|||
-|<img src="../../en_US/zwave/images/265.4097.261_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401|Controller|||
+|<img src="../../en_US/zwave/images/265.4097.257_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401||||
+|<img src="../../en_US/zwave/images/265.4097.260_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401||||
+|<img src="../../en_US/zwave/images/265.4097.261_zu1401.z-wave.usb.stick.jpg" width="60" />|Vision security|USB Stick ZU 1401||||
 |<img src="../../en_US/zwave/images/265.8193.257_zd2102.us.doorwindow.sensor.jpg" width="60" />|Vision security|ZD2102|Ouverture|Also sold under the Zipato brand.|[Buy](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
 |<img src="../../en_US/zwave/images/265.8193.258_zd2102.au.doorwindow.sensor.jpg" width="60" />|Vision security|ZD2102|Ouverture|Also sold under the Zipato brand.|[Buy](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
 |<img src="../../en_US/zwave/images/265.8193.260_zd2102.jp.doorwindow.sensor.jpg" width="60" />|Vision security|ZD2102|Ouverture|Also sold under the Zipato brand.|[Buy](http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html)|
@@ -749,7 +749,7 @@
 |<img src="../../en_US/zwave/images/265.8195.774_zs5101.shock.and.vibration.sensor.jpg" width="60" />|Vision security|ZS5101|Vibration||[Buy](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html)|
 |<img src="../../en_US/zwave/images/265.8195.774_zs51015.shock.and.vibration.sensor.jpg" width="60" />|Vision security|ZS5101 ZWave + shock detector|Vibration||[Buy](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave-0019962005503.html)|
 |<img src="../../en_US/zwave/images/265.8195.775_zs51015.shock.and.vibration.sensor.jpg" width="60" />|Vision security|ZS5101 ZWave + shock detector|Vibration||[Buy](http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave-0019962005503.html)|
-|<img src="../../en_US/zwave/images/265.8196.1027_zs6101.smoke.detector.jpg" width="60" />|Vision security|ZS6101 Smoke Detector |Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/2158-vision-security-detecteur-de-fumee-z-wave-0696859123443.html)|
+|<img src="../../en_US/zwave/images/265.8196.1027_zs6101.smoke.detector.jpg" width="60" />|Vision security|ZS6101 Smoke Detector |||[Buy](http://www.domadoo.fr/fr/peripheriques/2158-vision-security-detecteur-de-fumee-z-wave-0696859123443.html)|
 |<img src="../../en_US/zwave/images/265.8197.1283_zm1601.battery.operated.siren.jpg" width="60" />|Vision security|ZM1601|Mermaid|Replaced by the ZM1601EU5||
 |<img src="../../en_US/zwave/images/265.8197.1285_zm1601.battery.operated.siren.jpg" width="60" />|Vision security|ZM1601|Mermaid|Replaced by the ZM1601EU5||
 |<img src="../../en_US/zwave/images/265.8197.1288_zm1601eu5.battery.operated.siren.jpg" width="60" />|Vision security|ZM1601EU5|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie-0019962005404.html)|
@@ -780,8 +780,8 @@
 |<img src="../../en_US/zwave/images/280.2056.2056_tz65d.dual.wall.dimmer.jpg" width="60" />|Wenzhou|TZ65D|Interrupteur|Also sold under the brand TkbHome. Right button works in association only.|[Buy](http://www.domadoo.fr/fr/peripheriques/2056-tkb-home-tz65d-interrupteur-variateur-double-z-wave-blanc-6959174465006.html)|
 |<img src="../../en_US/zwave/images/280.257.259_tz68e.wall.plug.jpg" width="60" />|Wenzhou|TZ68e|Prise|Also sold under the brand TkbHome||
 |<img src="../../en_US/zwave/images/280.258.4128_tz66d.double.switch.jpg" width="60" />|Wenzhou|TZ66D|Interrupteur|Also sold under the brand TkbHome. Right button works in association only.|[Buy](http://www.domadoo.fr/fr/peripheriques/2058-tkb-home-tz66d-interrupteur-double-z-wave-blanc-6959174466010.html)|
-|<img src="../../en_US/zwave/images/280.3.3_tz56.double.switch.jpg" width="60" />|Wenzhou|TZ56|Interrupteur|The second button is only used in direct association||
-|<img src="../../en_US/zwave/images/280.3.4_tz55.double.switch.dimmer.jpg" width="60" />|Wenzhou|TZ55|Interrupteur|The second button is only used in direct association||
+|<img src="../../en_US/zwave/images/280.3.3_tz56.double.switch.jpg" width="60" />|Wenzhou|TZ56|Interrupteur|The second button is used only in direct association||
+|<img src="../../en_US/zwave/images/280.3.4_tz55.double.switch.dimmer.jpg" width="60" />|Wenzhou|TZ55|Interrupteur|The second button is used only in direct association||
 |<img src="../../en_US/zwave/images/280.514.1553_tz67.wall.plug.dimmer.jpg" width="60" />|Wenzhou|TZ67|Prise|Also sold under the brand TkbHome.||
 |<img src="../../en_US/zwave/images/280.785.515_tz57.double.switch.jpg" width="60" />|Wenzhou|TZ57|Interrupteur|||
 |<img src="../../en_US/zwave/images/280.785.772_tz74.double.switch.jpg" width="60" />|Wenzhou|TZ74 Double charge|Micromodule|||
@@ -799,7 +799,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/305.1.18_pan04-eu.wallSwitch.jpg" width="60" />|Zipato|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Also sold under the Philio brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
+|<img src="../../en_US/zwave/images/305.1.18_pan04-eu.wallSwitch.jpg" width="60" />|Zipato|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Also sold under the brand Philio|[Buy](http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html)|
 |<img src="../../en_US/zwave/images/305.1.21_pan08-1.in.wall.roller.shutter.jpg" width="60" />|Zipato|PAN08-1 In Wall Roller Shutter Controller|Volets|||
 |<img src="../../en_US/zwave/images/305.2.12_psm02-eu.4.in.1.jpg" width="60" />|Zipato|PSM02 4in1 Multi-Sensor|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html)|
 |<img src="../../en_US/zwave/images/305.2.2_rgbw_bulb.jpg" width="60" />|Zipato|Bulb RGBW|Ampoule||[Buy](http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html)|
@@ -809,7 +809,7 @@
 |<img src="../../en_US/zwave/images/305.3.4226_nas-ds01z.jpg" width="60" />|Zipato|Door Sensor|Ouverture|||
 |<img src="../../en_US/zwave/images/305.3.4227_nas-pd01z.jpg" width="60" />|Zipato|PIR Sensor|Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/4160-zipato-capteur-de-mouvement-pir-z-wave-3858890733341.html)|
 |<img src="../../en_US/zwave/images/305.3.4233_nas-pd01zt.jpg" width="60" />|Zipato|PIR Sensor|Multicapteurs|||
-|<img src="../../en_US/zwave/images/305.32770.4096_hs1saz_smoke_sensor.jpg" width="60" />|Zipato|Smart Smoke Sensor (HS1SA-Z)|Smoke||[Buy](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
+|<img src="../../en_US/zwave/images/305.32770.4096_hs1saz_smoke_sensor.jpg" width="60" />|Zipato|Smart Smoke Sensor (HS1SA-Z)|||[Buy](http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html)|
 |<img src="../../en_US/zwave/images/305.32771.4096_hs1cgz_gaz_sensor.jpg" width="60" />|Zipato|Gas Sensor (HS1CG-Z)|Gaz|No alerting to the controller. Sounds on detection of combustible gas|[Buy](http://www.domadoo.fr/fr/peripheriques/4153-zipato-capteur-de-gaz-z-wave-3858890733587.html)|
 |<img src="../../en_US/zwave/images/305.32772.4096_hs1wlz_flood_sensor.jpg" width="60" />|Zipato|Flood Sensor (HS1WL-Z)|Fuite||[Buy](http://www.domadoo.fr/fr/peripheriques/4159-zipato-capteur-d-inondation-z-wave--3858890733624.html)|
 |<img src="../../en_US/zwave/images/305.32773.4096_hs1caz_co_sensor.jpg" width="60" />|Zipato|CO Sensor (HS1CA-Z)|CO||[Buy](http://www.domadoo.fr/fr/peripheriques/4151-zipato-capteur-de-monoxyde-de-carbone-z-wave-3858890733563.html)|
@@ -822,32 +822,32 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/277.1.105_key.fob_1.jpg" width="60" />|Zwaveme|KFOB|Remote control|||
-||Zwaveme|004308 Smoke Detector|Smoke|Detected as the Zwave-me USB Stick. No wizard for settings.||
-|<img src="../../en_US/zwave/images/277.1.1_usb stick.jpg" width="60" />|Zwaveme|USB Stick|Controller|||
-|<img src="../../en_US/zwave/images/277.1024.1_ZME_UZB1 USB Stick.jpg" width="60" />|Zwaveme|ZME_UZB1 USB Stick|controleur||[Buy](http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-controleur-usb-z-wave-plus-0019962006500.html)|
-|<img src="../../en_US/zwave/images/277.2.3_usb stick.jpg" width="60" />|Zwaveme|USB Stick|Controller|||
-|<img src="../../en_US/zwave/images/277.256.1024_zweather.jpg" width="60" />|Zwaveme|Z-Weather Wind and Weather Sensor|Multicapteurs|Sold under the name POPP - Z-Wave weather station + Z-Weather|[Buy](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
-|<img src="../../en_US/zwave/images/277.256.1_kfob_4.jpg" width="60" />|Zwaveme|KFOB Key Chain Controller|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html)|
-|<img src="../../en_US/zwave/images/277.256.257_wall-s.jpg" width="60" />|Zwaveme|Secure Wall Controller|Remote control|||
-|<img src="../../en_US/zwave/images/277.256.258_kfob_s4.jpg" width="60" />|Zwaveme|KFOB Secure 4 Button Key Chain Controller|Remote control|||
-|<img src="../../en_US/zwave/images/277.256.259_popp_kfob_c.jpg" width="60" />|Zwaveme|Popp KFOB-C Remote Control|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html)|
-|<img src="../../en_US/zwave/images/277.256.4_zme_wcd2.double.paddle.wall.controller.jpg" width="60" />|Zwaveme|Double Paddle Wall Controller (ZME WCD2)|Telecommande|||
-|<img src="../../en_US/zwave/images/277.256.512_smoke.detector.jpg" width="60" />|Zwaveme|Smoke Sensor|Smoke|||
-|<img src="../../en_US/zwave/images/277.256.513_smoke.detector.jpg" width="60" />|Zwaveme|Smoke Sensor|Smoke|||
-|<img src="../../en_US/zwave/images/277.272.1_z-uno.jpg" width="60" />|Zwaveme|Z-Uno|Developer card|||
-|<img src="../../en_US/zwave/images/277.4096.1_zme_054313z.flush-mountable.switch.jpg" width="60" />|Zwaveme|ZME-054313 Flush mountable switch|Micromodule|||
-|<img src="../../en_US/zwave/images/277.4096.2_zme_06433.wall.flush-mountable.dimmer.jpg" width="60" />|Zwaveme|ZME 06433 Dimmer|Micromodule|||
-|<img src="../../en_US/zwave/images/277.4096.3_zme_06436.motor.control.jpg" width="60" />|Zwaveme|Micro Motor Controller (ZME06436)|Volets|||
-|<img src="../../en_US/zwave/images/277.4096.4_zme_064435.wall.controller.jpg" width="60" />|Zwaveme|Wall Controller (ZME064435)|Telecommande|||
-|<img src="../../en_US/zwave/images/277.4096.768_zme_rc2.jpg" width="60" />|Zwaveme|Remote Control 2|Remote control||[Buy](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
-|<img src="../../en_US/zwave/images/277.4352.2_plug-in.dimmer.jpg" width="60" />|Zwaveme|Dimmer plugin|Prise|||
-|<img src="../../en_US/zwave/images/277.512.1_itemp.temperature.sensor.jpg" width="60" />|Zwaveme|Itemp Temperature Sensor|Multicapteurs|||
-|<img src="../../en_US/zwave/images/277.513.1_itemp.temperature.sensor.jpg" width="60" />|Zwaveme|Itemp Temperature Sensor|Multicapteurs|||
-|<img src="../../en_US/zwave/images/277.513.2_thermostat.jpg" width="60" />|Zwaveme|Z-Wave thermostat|Thermostat|||
-|<img src="../../en_US/zwave/images/277.513.3_binary.sensor.jpg" width="60" />|Zwaveme|Binary Sensor|Multicapteurs|||
-|<img src="../../en_US/zwave/images/327.1024.1_RaZberry Controller ZWavePlus.jpg" width="60" />|Zwaveme|RaZberry Controller ZWave +|Controller||[Buy](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
-|<img src="../../en_US/zwave/images/327.2.3_RaZberry Controller.jpg" width="60" />|Zwaveme|RaZberry Controller|Controller|||
+|<img src="../../en_US/zwave/images/277.1.105_key.fob_1.jpg" width="60" />|Zwaveme|KFOB||||
+||Zwaveme|||. .||
+|<img src="../../en_US/zwave/images/277.1.1_usb stick.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.1024.1_.jpg" width="60" />|Zwaveme||controleur||[Buy](http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-controleur-usb-z-wave-plus-0019962006500.html)|
+|<img src="../../en_US/zwave/images/277.2.3_usb stick.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.256.1024_zweather.jpg" width="60" />|Zwaveme||Multicapteurs||[Buy](http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html)|
+|<img src="../../en_US/zwave/images/277.256.1_kfob_4.jpg" width="60" />|Zwaveme||||[Buy](http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html)|
+|<img src="../../en_US/zwave/images/277.256.257_wall-s.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.256.258_kfob_s4.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.256.259_popp_kfob_c.jpg" width="60" />|Zwaveme||||[Buy](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html)|
+|<img src="../../en_US/zwave/images/277.256.4_zme_wcd2.double.paddle.wall.controller.jpg" width="60" />|Zwaveme||Telecommande|||
+|<img src="../../en_US/zwave/images/277.256.512_smoke.detector.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.256.513_smoke.detector.jpg" width="60" />|Zwaveme|||||
+|<img src="../../en_US/zwave/images/277.272.1_z-uno.jpg" width="60" />|Zwaveme|Z-Uno||||
+|<img src="../../en_US/zwave/images/277.4096.1_zme_054313z.flush-mountable.switch.jpg" width="60" />|Zwaveme||Micromodule|||
+|<img src="../../en_US/zwave/images/277.4096.2_zme_06433.wall.flush-mountable.dimmer.jpg" width="60" />|Zwaveme||Micromodule|||
+|<img src="../../en_US/zwave/images/277.4096.3_zme_06436.motor.control.jpg" width="60" />|Zwaveme||Volets|||
+|<img src="../../en_US/zwave/images/277.4096.4_zme_064435.wall.controller.jpg" width="60" />|Zwaveme||Telecommande|||
+|<img src="../../en_US/zwave/images/277.4096.768_zme_rc2.jpg" width="60" />|Zwaveme||||[Buy](http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html)|
+|<img src="../../en_US/zwave/images/277.4352.2_plug-in.dimmer.jpg" width="60" />|Zwaveme||Prise|||
+|<img src="../../en_US/zwave/images/277.512.1_itemp.temperature.sensor.jpg" width="60" />|Zwaveme||Multicapteurs|||
+|<img src="../../en_US/zwave/images/277.513.1_itemp.temperature.sensor.jpg" width="60" />|Zwaveme||Multicapteurs|||
+|<img src="../../en_US/zwave/images/277.513.2_thermostat.jpg" width="60" />|Zwaveme||Thermostat|||
+|<img src="../../en_US/zwave/images/277.513.3_binary.sensor.jpg" width="60" />|Zwaveme||Multicapteurs|||
+|<img src="../../en_US/zwave/images/327.1024.1_ ZWavePlus.jpg" width="60" />|Zwaveme||||[Buy](http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html)|
+|<img src="../../en_US/zwave/images/327.2.3_.jpg" width="60" />|Zwaveme|||||
 
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional.

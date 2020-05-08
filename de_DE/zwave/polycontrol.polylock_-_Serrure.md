@@ -46,7 +46,7 @@ Die Lichter gehen an und die Alarmanlage wird deaktiviert, wenn
 
 Das Poly-Control-System kann in einer Umgebung verwendet werden
 häuslich oder beruflich. Das Poly-Lock wird mit Strom versorgt
-Batterie, und wurde getestet, um für 1 Jahr ohne zu arbeiten
+Batterie und wurde für 1 Jahr ohne Betrieb getestet
 Batteriewechsel.
 
 \.
@@ -56,7 +56,7 @@ Funktionen
 
 \.
 
--   Steuern Sie Ihre Haustür fern
+-   Steuern Sie Ihre Haustür aus der Ferne
 
 -   Passend für die meisten Türen
 
@@ -76,7 +76,7 @@ Technische Daten
 
 \.
 
--   Versorgung : 3,6 V Lithium-Chlorid-Batterie
+-   Essen : 3,6 V Lithium-Chlorid-Batterie
 
 -   Frequenz : 868,42 MHz
 
@@ -96,7 +96,7 @@ Moduldaten
 
 -   Machen Sie : Poly-Control
 
--   Name : Polylock
+-   Nachname : Polylock
 
 -   Hersteller ID : 270
 
@@ -119,7 +119,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste 1 Mal
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste einmal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
 \.
@@ -136,16 +136,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/polycontrol.polylock/commandes.jpg)
+![Bestellungen](images/polycontrol.polylock/commandes.jpg)
 
 \.
 
@@ -210,7 +210,7 @@ Parameterdetails :
     schließen (0 bis 15 s)
 
 -   3: Dient zum Definieren der Drehzahl des Schlosses (0 bis 15),
-    15 ist das langsamste)
+    15 ist am langsamsten)
 
 -   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten
     (Drehmoment, Kraft, Leistung usw.)
@@ -241,7 +241,7 @@ Anwendungsbeispiele
 Der Auslöser ist der Ereignisbefehl einer Zipato-Tastatur
 (es kann alles andere sein). Wenn der Wert 6 (home) ist
 Schließ die Tür ab. Wir sind gerade zurückgekehrt, damit wir schließen können
-die Schlüsseltür. Andernfalls (unbedingt 5) wird die Tür mit einem Schlüssel und 2 Minuten geöffnet
+die Schlüsseltür. Ansonsten (unbedingt 5) öffnen wir die Tür mit einem Schlüssel und 2 Minuten
 nachdem wir es geschlossen haben. In der Tat wollen wir raus, die Tür öffnet sich und
 wird bald danach schließen.
 
@@ -268,7 +268,7 @@ Gut zu wissen
 > **Tip**
 >
 > Dieses Modul gibt seinen Status nicht zurück, wenn Sie die Sperre am
-> Andererseits bleibt der Zustand derselbe. \.
+> Andererseits wird der Zustand derselbe bleiben. \.
 
 ### Alternative visuelle 
 

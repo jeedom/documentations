@@ -49,7 +49,7 @@ existing alarm. A front LED to check the status of the
 FGFS-101.
 
 This sensor incorporates a Z-Wave network range tester, which lets you
-ensures the correct functioning of the sensor during its installation.
+ensures correct operation of the sensor during installation.
 
 \
 
@@ -81,7 +81,7 @@ Technical characteristics
 
 -   Module can be powered externally : 12 - 24 VDC
 
--   Battery type : CR123A
+-   Battery Type : CR123A
 
 -   Battery life : 2 years
 
@@ -127,14 +127,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -158,7 +158,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -167,7 +167,7 @@ disponibles.
 
 \
 
-![Commands](images/fibaro.fgfs101/commandes.jpg)
+![Orders](images/fibaro.fgfs101/commandes.jpg)
 
 \
 
@@ -204,7 +204,7 @@ depending on your installation. This requires going through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -238,7 +238,7 @@ Parameter details :
         3 : Audible and visual alarm activated.
 
 -   10 \. Transfer time between two temperature readings : 1 to 65,535 s
-    (300 by default). Be careful not to put a carry-over value too
+    (300 by default). Be careful not to put a carry value too
     close together under penalty of seeing the module battery melt at all
     speed ! (1800 is recommended)
 
@@ -248,7 +248,7 @@ Parameter details :
     these last.
 
 -   50 \. Setting the low temperature alarm : from -10000 to + 10000
-    (1500 by default = 15 ° C) Used to trigger an alarm when the
+    (1500 by default = 15 ° C) Triggers an alarm when the
     temperature drops below a certain threshold.
 
 -   51.Setting the high temperature alarm : from -10000 to + 10000
@@ -280,10 +280,10 @@ associated at least with groups 1, 4 and 5:
 Good to know 
 ------------
 
-Powered from the outside, this module can be used as a repeater
+Powered from the outside, this module can act as a repeater
 Z-wave (information not currently confirmed)
 
-The wiring for an external power supply. \
+Wiring for external power. \
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 

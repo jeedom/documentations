@@ -33,7 +33,7 @@ Deaktivieren Sie einfach Ihr Alarmsystem. Das "Zuhause" und
 Führen Sie Hausautomationsszenarien schnell aus. Neben der Verwendung der
 Ziffernblock, Sie können auch ein RFID-Abzeichen vor dem
 Tastatur zum Aktivieren / Deaktivieren des Systems. Die Tastatur überträgt auf Ihre
-Hausautomationssteuerung die Kennung des erkannten Ausweises. Sie
+Home Automation Controller die Kennung des erkannten Ausweises. Sie
 kann leicht Szenarien basierend auf der Person erstellen
 wer hat sein Abzeichen benutzt.
 
@@ -58,7 +58,7 @@ Funktionen
 
 -   LED-Anzeige zur Bestätigung jeder Aktion
 
--   Integrierter Summer zur akustischen Anzeige von Aktivierung / Deaktivierung
+-   Integrierter Summer zur akustischen Anzeige der Aktivierung / Deaktivierung
     der Alarm zum Beispiel
 
 \.
@@ -70,7 +70,7 @@ Technische Daten
 
 -   Typ : Z-Wave-Slave
 
--   Versorgung : 2x AA 1,5V Batterien
+-   Essen : 2x AA 1,5V Batterien
 
 -   Frequenz : 868.42 MHz
 
@@ -101,7 +101,7 @@ Moduldaten
 
 -   Machen Sie : Zipato
 
--   Name : Zipato Mini Keypad RFID
+-   Nachname : Zipato Mini Keypad RFID
 
 -   Hersteller ID : 151
 
@@ -143,11 +143,11 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
@@ -276,7 +276,7 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 > **Important**
 >
-> Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
+> Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Abzeichens zu aktivieren.
 
 \.
 
@@ -331,7 +331,7 @@ Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
 \.
 
--   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
+-   Drücken Sie die Sabotage-Taste und lassen Sie sie nach 1 bis 2 Sekunden los
 
 -   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 

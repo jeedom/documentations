@@ -25,7 +25,7 @@ Resumen
 \
 
 La sonda SES303 permite la medición de la temperatura ambiente interior.
-así como la humedad. Está alimentado por 2 pilas AA y está certificado
+así como la humedad. Está alimentado por 2 baterías AA y está certificado
 Z-Wave Plus. Además de su función principal, es posible
 conecte varias sondas seguras externas al módulo, es decir:
 
@@ -37,7 +37,7 @@ conecte varias sondas seguras externas al módulo, es decir:
 -   1 sensor de temperatura con cable para manguera o tanque (SES003)
     conectado por un cable de 4 m
 
-Estos módulos son ideales para la medición de temperatura en
+Estos módulos son perfectos para medir la temperatura en
 aplicaciones de control de calefacción central o cualquier otra
 aplicación similar. Su interfaz de usuario es simple, con un
 pulsador local y un LED indicador en el panel posterior. Nosotros
@@ -45,7 +45,7 @@ puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -95,7 +95,7 @@ Datos del módulo
 
 -   Hacer : Horstmann
 
--   Nombre : Sensor de temperatura y humedad SES 303
+-   Apellido : Sensor de temperatura y humedad SES 303
 
 -   ID del fabricante : 89
 
@@ -105,14 +105,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -135,7 +135,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -144,7 +144,7 @@ disponibles.
 
 \
 
-![Comandos](images/secure.ses303/commandes.jpg)
+![Órdenes](images/secure.ses303/commandes.jpg)
 
 \
 
@@ -180,7 +180,7 @@ dependiendo de su instalación. Esto requiere pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

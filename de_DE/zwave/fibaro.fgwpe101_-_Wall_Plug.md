@@ -60,7 +60,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Stromverbrauch : bis zu 0,8W
 
@@ -87,7 +87,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Wandstecker FGWPE-101
+-   Nachname : Wandstecker FGWPE-101
 
 -   Hersteller ID : 271
 
@@ -127,16 +127,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgwpe101/commandes.jpg)
+![Bestellungen](images/fibaro.fgwpe101/commandes.jpg)
 
 \.
 
@@ -144,10 +144,10 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     prise
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Wir : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
@@ -196,7 +196,7 @@ Parameterdetails :
 
 \.
 
--   1: ermöglicht das Blockieren des Moduls in immer EIN
+-   1: ermöglicht das Blockieren des Moduls immer EIN
 
 -   16: Ermöglicht es Ihnen, sich den letzten Zustand im Falle eines Stromausfalls zu merken
     courant
@@ -209,7 +209,7 @@ Parameterdetails :
 -   39: Legt die Dauer des Alarms fest
 
 -   40: definiert, wie stark die Leistung variieren muss
-    erhöhen (in%)
+    Anstieg (in%)
 
 -   42: wie im Standardmodus (bis zu 5 Mal pro Schritt definiert in
     Parameter 43)
@@ -233,7 +233,7 @@ Parameterdetails :
 
 -   60: Strom, ab dem der Stecker lila blinkt
 
--   61: Farbe, wenn der Stecker an ist
+-   61: Farbe, wenn der Stecker eingeschaltet ist
 
 -   62: Farbe bei ausgeschaltetem Stecker
 

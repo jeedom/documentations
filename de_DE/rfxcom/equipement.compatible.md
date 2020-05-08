@@ -1,4 +1,4 @@
-| Name            | Typ           | Protokolle      | Bemerkung       | Link           |
+| Nachname            | Typ           | Protokoll      | Hinweis       | Link           |
 |----------------|----------------|----------------|----------------|----------------|
 | Alteco WS-1700 | Wetterstation  | Rubicson / Alecto              |                |                |
 | Atlantik     | Detektor      | Meiantech      |                |                |
@@ -13,7 +13,7 @@
 | Blyss 567434   | Rauchmelder  |                |                |                |
 | Blyss 582866   | Wechseln   |                |                |                |
 | Blyss 582849   | Garagentorantrieb |                |                |                |
-| Blyss 528852   | Aktuator von Aktuatoren mit Zylindern  |                |                |                |
+| Blyss 528852   | Aktuator von Aktuatoren mit Buchsen  |                |                |                |
 | Blyss 582867   | EIN / AUS-Schalter + Mikromodulpaket         |                |                |                |
 | Chacon 34131   | Rauchmelder  | AC             |                |                |
 | Chacon 54595   | Packung mit 3 Chacon-Buchsen + 3-Kanal-Fernbedienung + 1 Gruppe     | AC             |                |                |
@@ -47,7 +47,7 @@
 | 54798          |                |                |                |                |
 | DI-O von Chacon | Mikromodul   | AC             |                | [Kaufen](http://www.domadoo.fr/fr/peripheriques/2999-chacon-micromodule-pour-prise-murale-3500w-5411478547907.html) |
 | DS18           | Detektor      |                |                | [Kaufen](http://www.planete-domotique.com/ds18-detecteur-de-porte-fenetre-sans-fil.html)          |
-| KDI FER-1000W  | Steckdose          | Ex-Code zum Einschalten der Steckdose 07100102500D01 60             |                |                |
+| KDI FER-1000W  | Steckdose          | Ex des Codes zum Einschalten der Buchse 07100102500D01 60             |                |                |
 | KDI FECT-100   | Fernbedienung   |                |                |                |
 | Homewizad      | Temperatur    |                |                |                |
 | HW-TX320       | Luftfeuchtigkeit mit Display      |                |                |                |

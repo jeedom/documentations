@@ -60,7 +60,7 @@ Erstellen Sie den Einhängepunkt :
 
 > **Note**
 >
-> Sie müssen meinen Anteil an Ihre Bedürfnisse anpassen
+> Sie müssen meine\_Partage an Ihre Bedürfnisse anpassen
 
 Mount in / etc / fstab hinzugefügt
 
@@ -71,7 +71,7 @@ Mount in / etc / fstab hinzugefügt
 > Sie müssen die TODOs mit Ihrem Linux-Benutzernamen und Ihrem ändern
 > Passwort
 
-Übergang von Jessie zu Stretch 
+Wechseln Sie von Jessie zu Stretch 
 ===========================
 
 Zum Testen des Upgrades und der Stretch-Installation mit Wiederherstellung
@@ -84,7 +84,7 @@ Durch das Überschreiben sparen Sie Zeit.
 -   **Methode 2 : Update von Jessie auf Stretch :** einen halben Tag um
     Wischen Sie Fehler ab.
 
-Methode 1 : Installation von Stretch und Backup Restore 
+Methode 1 : Stretch-Installation und Backup-Wiederherstellung 
 -----------------------------------------------------------------
 
 Bevor Sie beginnen, erstellen Sie eine vollständige Sicherung über Jeedom von Ihnen
@@ -107,9 +107,9 @@ Speichermedium.
     <https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc>
 
 \ [ACHTUNG \] MariaDB erlaubt keinen Zugriff mehr auf das 'root'-Profil, das
-kann die Wiederherstellung einer Datenbank blockieren, die Sie haben
+kann die Wiederherstellung einer Datenbank blockieren, die Sie haben würden
 hat den Namen geändert (wie ich), damit wir den nicht sofort wiederherstellen
-Backup. Wenn der Benutzer 'jeedom' nicht über die richtigen Berechtigungen verfügt, wird die
+Backup. Wenn der Benutzer 'jeedom' nicht über die richtigen Berechtigungen verfügt, wird der
 Wiederherstellung wird fehlschlagen.
 
 Referenz :
@@ -128,7 +128,7 @@ MYSQL unter Stretch :
     Geben Sie 'help' ein. oder '\ h' um Hilfe. Geben Sie '\ c' ein, um die aktuelle Eingabeanweisung zu löschen.
 
     MariaDB [MySQL]>
-    MariaDB [mysql]> GEWÄHRLEISTUNG FÜR ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+    MariaDB [mysql]> ERTEILEN SIE ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
     Abfrage OK, 0 Zeilen betroffen (0.00 Sek.)
     MariaDB [mysql]> exit;
     Bye
@@ -138,7 +138,7 @@ MYSQL unter Stretch :
 > Ersetzen Sie 'monpass' durch Ihr MYSQL-Passwort, das für das verwendet wird
 > Root-Account unter "Debian 8 - Jessie". Ich gebe Root-Rechte
 > vor allem, um meine Datenbanken mit 'PHPMYADMIN' zu verwalten, aber geben Sie sie an
-> Der MYSQL-Benutzer 'jeedom' sollte ausreichen.
+> Der MYSQL-Benutzer 'jeedom' muss ausreichen.
 
 > **Tip**
 >
@@ -146,13 +146,13 @@ MYSQL unter Stretch :
 > Administration → Konfiguration → OS / DB → Datenbank
 
 Es liegt an Ihnen, diesen Befehl entsprechend Ihrer Konfiguration anzupassen
-früher :
+vorherige :
 
-    Gewähren Sie alle Privilegien auf *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+    GEWÄHRLEISTEN SIE ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
 
 ou
 
-    Gewähren Sie alle Privilegien auf *.* TO jeedom @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+    GEWÄHRLEISTEN SIE ALLE PRIVILEGIEN *.* TO jeedom @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
 
 -   Kopieren Sie Ihr Backup in den Ordner `/ var / www / html / backup`
 
@@ -213,7 +213,7 @@ Entfernen unnötiger Bibliotheken
     apt -y entferne `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y entferne `aptitude -F% p search '~ o'`----
 
-Notiz : Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :
+Hinweis : Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :
 
     a2enmod php7.0 
     systemctl starte apache2.service neu

@@ -7,7 +7,7 @@ Warum ?
     Zugriff auf Dateien (dank .htaccess) bei Updates von
     Jeedom
 
--   Korrigiert einige Zugangs- und Stabilitätsprobleme (insbesondere für diese
+-   Korrigiert einige Zugriffs- und Stabilitätsprobleme (insbesondere bei diesen)
     die viele Kameras haben)
 
 -   Verbessert die Gesamtleistung von Jeedom.
@@ -54,9 +54,9 @@ Installation und Konfiguration von Apache
     apt-get -y install ntp ca-zertifikate entpacken curl sudo
     apt-get -y installiere apache2 php5 mysql-client mysql-server libapache2-mod-php5
     apt-get -y installiere php5-cli php5-common php5-curl php5-fpm php5-json php5-mysql php5-gd
-    wget https://raw.githubusercontent.com / jeedom / core / stabile / install / apache_security -O /etc/apache2/conf-available/security.conf
+    wget https://raw.githubusercontent.de / jeedom / core / stabile / install / apache_security -O /etc/apache2/conf-available/security.conf
     rm /etc/apache2/conf-enabled/security.conf
-    In -s / etc / apache2 / conf-available / security.conf / etc / apache2 / conf-enabled /
+    ln -s / etc / apache2 / conf-available / security.conf / etc / apache2 / conf-enabled /
     rm /etc/apache2/conf-available/other-vhosts-access-log.conf
     rm /etc/apache2/conf-enabled/other-vhosts-access-log.conf
     systemctl starte apache2 neu
@@ -89,7 +89,7 @@ NICHT WEITER.
 Crontab-Update 
 -------------------------
 
-MAKE :
+Machen Sie :
 
     crontab -e
 

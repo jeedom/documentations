@@ -10,17 +10,17 @@ Mit * gekennzeichnete Felder sind Pflichtfelder.
 
 Felder                   | Werte                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-Identifikation *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
+id *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
 Name *                   | Name des Plugins.                                                                                                            |
 Beschreibung *            | Beschreibung des Plugins, wie es auf dem Jeedom Market angezeigt wird Mindestens 80 Zeichen. (`<br/>`für den Zeilenumbruch.)                                  |                                                                                     |
 Nutzung                    | Zusätzliche Informationen zur Dokumentation zur Verwendung des Plugins.                                                    |
 Lizenz *                | Art der Lizenz.                                                                                                          |
 Autor *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |
 erfordern *                | Jeedom Mindestversion.                                                                                                |
-Kategorie *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Es ist wichtig, die Nomenklatur in der folgenden Tabelle zu beachten** |
+Kategorie *               | Klassifizierungskategorie des Plugins auf dem Jeedom Market. **Die Nomenklatur in der folgenden Tabelle muss unbedingt beachtet werden** |
 Anzeige                  | Wenn das Plugin ein dediziertes Panel auf dem Desktop verwendet, ist dies der Name der Hauptdatei dieses Panels.                    |
-Handy                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Webanwendung verwendet, ist dies der Name der Hauptdatei für dieses Panel.   |
-Änderungsprotokoll *              | HTML-Link zu Changelog.                                                                                              |
+mobil                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Webanwendung verwendet, ist dies der Name der Hauptdatei für dieses Panel.   |
+Changelog *              | HTML-Link zu Changelog.                                                                                              |
 Dokumentation *          | HTML-Link zur Plugin-Dokumentation.                                                                                |
 Link -> Video               | HTML-Link zu einer Videopräsentation.                                                                                 |
 Link -> Forum               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
@@ -40,12 +40,12 @@ Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgef
 
 **KATEGORIE-NOMENKLATUR**
 
-Jeedom Markt         | Info.json               |
+Jeedom Markt         | info.json               |
 --------------------- | ----------------------- |
 Kommunikation         | Kommunikation           |
 Komfort               | Wellness                |
 Energie               | Energie                  |
-Wetter                 | Wetter                 |
+Wettervorhersage                 | Wetter                 |
 Überwachung            | Überwachung              |
 Multimedia            | Multimedia              |
 Natur                | Natur                  |
@@ -56,7 +56,7 @@ Programmierung         | Programmierung             |
 Hausautomationsprotokoll   | Automatisierungsprotokoll     |
 Gesundheit                 | Gesundheit                  |
 Sicherheit              | Sicherheit                |
-Automatismus           | Automatisierung          |
+Automatisierung           | Automatisierung          |
 
 
    

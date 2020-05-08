@@ -1,5 +1,5 @@
 Zunächst einmal vielen Dank für den Kauf des Jeedom Mini +. Sie finden hier,
-Ausführliche Dokumentation zur Erläuterung der Inbetriebnahme
+ausführliche Dokumentation zur Inbetriebnahme
 Box, und entdecken Sie so die Heimautomation mit Jeedom.
 
 Die Jeedom Mini + Box, die Sie erhalten haben, muss enthalten :
@@ -26,7 +26,7 @@ Die Jeedom Mini + Box, die Sie erhalten haben, muss enthalten :
 ![mini.demarrage01](images/mini.demarrage01.png)
 
 Bevor Sie es verwenden können, müssen Sie Ihre Jeedom Mini + Box anschließen
-in Ihrem lokalen Netzwerk (auf Router, Switch oder Internet-Box usw.) und
+in Ihrem lokalen Netzwerk (auf Router, Switch oder Internet-Box…) und
 auf dem Sektor.
 
 ![mini.demarrage02](images/mini.demarrage02.png)
@@ -51,11 +51,11 @@ Widget- und Skript-Plugins.
 
 ![mini.demarrage07](images/mini.demarrage07.png)
 
-Das Wetter Plugin.
+Wetter Plugin.
 
 ![mini.demarrage08](images/mini.demarrage08.png)
 
-Sie finden noch viele andere Plugins direkt über
+Sie finden viele andere Plugins direkt über
 Jeedom-Schnittstelle auf dem Jeedom-Markt.
 
 Vergessen Sie auch nicht, dass Sie 2 Gutscheine haben
@@ -74,7 +74,7 @@ verschiedene Services, die Ihrem Service Pack entsprechen.
 Sie können jetzt der Dokumentation folgen : [Erste Schritte mit
 Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 So können Sie die IP-Adresse Ihres Jeedom Mini + und finden
-Melden Sie sich an, um die Einrichtung und Verwendung zu starten.
+Stellen Sie eine Verbindung her, um mit der Konfiguration und Verwendung zu beginnen.
 
 Um Jeedom weiter zu erforschen und zu nutzen, haben Sie
 vollständige Dokumentation : [Dokumentation

@@ -9,7 +9,7 @@
 Summary 
 ======
 
-Placed on a door, window, garage door, drawer, all openings, this
+Placed on a door, window, garage door, drawer, all opening, this
 compact and discreet sensor will allow you to know the state
 opening or closing of the latter.
 
@@ -46,7 +46,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium battery ER14250)
 
 -   Frequency : 868.3 MHz
 
@@ -65,14 +65,14 @@ Module data
 
 -   Mark : Edisio Smart Home
 
--   Name : EOS-200
+-   Last name : EOS-200
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
@@ -83,11 +83,11 @@ refer to this
 ----------
 
 You will find below the button "E" which is the button of association of the
-Temperature sensor.
+temperature sensor.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Setup 
+Configuration 
 -------------
 
 By default, the sensor is configured in NO (Normally Open)
@@ -96,8 +96,8 @@ By default, the sensor is configured in NO (Normally Open)
 
 > **Note**
 >
-> You will therefore have to configure your sensor, if you wish to have a
-> widget with a door closed when it is closed.
+> You will therefore need to configure your sensor, if you wish to have a
+> widget with a closed door when it is closed.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
 
@@ -119,13 +119,13 @@ Once your equipment is paired, you should get this :
 > So that the widget is present on the dashboard, remember to place
 > your equipment in an object.
 
-Commands 
+Orders 
 ---------
 
 Once your equipment is created, you should get the orders
 associated with the module :
 
-![Commands](images/eos200/eos200.commandes.jpg)
+![Orders](images/eos200/eos200.commandes.jpg)
 
 Here is the list of commands :
 
@@ -140,7 +140,7 @@ Information
 Once your equipment is associated with Jeedom, various information will be
 available :
 
-![Commands](images/eos200/eos200.informations.jpg)
+![Orders](images/eos200/eos200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
@@ -149,7 +149,7 @@ available :
 
 -   Drums : Indicates the battery status of the battery modules
 
--   STATUS : Returns the status of the module
+-   Status : Returns the status of the module
 
 Alternative visual 
 =================

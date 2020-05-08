@@ -25,9 +25,9 @@ información en la parte superior de la ventana de Filezilla :
 
 ![restore filezilla01](images/restore-filezilla01.jpg)
 
--   Host : Dirección IP de Jeedom (sftp:// se agrega automáticamente)
+-   Anfitrión : Dirección IP de Jeedom (sftp:// se agrega automáticamente)
 
--   Identificador : jeedom
+-   Nombre de usuario : jeedom
 
 -   Contraseña : Mjeedom96
 
@@ -55,7 +55,7 @@ La ruta se muestra en la sección del sitio remoto.
 Descarga de respaldo 
 ===============================
 
-En la lista de copias de seguridad, al hacer clic derecho, es posible
+En la lista de copias de seguridad, haciendo clic derecho, es posible
 para comenzar a descargar.
 
 ![restore filezilla03](images/restore-filezilla03.jpg)

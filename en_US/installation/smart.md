@@ -24,7 +24,7 @@ Necessary material : a USB key (minimum 8GB).
 >Remember to set aside (locally) a Jeedom configuration backup
 
 - download the archive we provide : [backupJeedom.tar.gz](https://images.jeedom.com/smart/backupJeedom.tar.gz). Be careful to verify that the file has the name backupJeedom.tar.gz to make restoration work.
-- copy this archive without modifying or unzipping it, on a blank USB key formatted in FAT32
+- copy this archive without modifying or unzipping it, on a blank USB stick formatted in FAT32
 - shutdown your Smart properly by Jeedom
 - unplug there
 - insert your USB stick
@@ -35,6 +35,6 @@ Necessary material : a USB key (minimum 8GB).
 
 > **Important**
 >
-> Be careful ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, you only need to restore it afterwards.
+> Warning ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, you only need to restore it afterwards.
 
 This Recovery Mode is only compatible with Jeedom Smart.

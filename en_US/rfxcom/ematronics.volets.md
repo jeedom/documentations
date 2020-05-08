@@ -20,7 +20,7 @@ Activate, "Launch in debug mode"
 
 ![image03](images/volet.ematronic/image03.png)
 
-Wait for the window to open, then press the Open button on
+Wait for the window to open, then press the Open key.
 your Ematronic remote control.
 
     MainThread - rfxcmd:2765 - DEBUG - Test message: 09 19 03 01 1F 84 B9 01 01 60
@@ -45,7 +45,7 @@ Id1 = 1F and Id2 = 84. so you should locate them in the line, "Test
 message "and extract Id3, here Id3 = B9, Our remote control has
 as ID ⇒ 1F84B9.
 
-Stop Debug Mode by the button "Stop / Restart the daemon" 
+Stop Debug Mode with the button "Stop / Restart the daemon" 
 -----------------------------------------------------------------
 
 ![image06](images/volet.ematronic/image06.png)
@@ -118,7 +118,7 @@ Association of the JeeDom virtual remote control with the Ematronic motor:
 -   Press the "Mount" command on the virtual remote control of
     JeeDom. picture::images / shutter.ematronic / image09.png \ [\]
 
--   The engine will beep 3 times to announce that your JeeDoom is associated
+-   The engine will beep 3 times, to announce that your JeeDoom is associated
     !!
 
 

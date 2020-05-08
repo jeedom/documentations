@@ -6,7 +6,7 @@ to talk to Jeedom. We will use the Jeedom interactions engine which
 allows requests to be made and Jeedom to respond to them (and also, if we
 wish, activate different scenarios or elements).
 
-Setup 
+Installation 
 ============
 
 Prerequisites 
@@ -21,7 +21,7 @@ The latter allows you to create your own voice commands for Google Now
 to automate tasks using voice.
 
 To note : AutoVoice is only the component for talking to Jeedom but does not
-not allow Jeedom to respond. In order for him to do that, you don't need the
+not allow Jeedom to respond. In order for him to do this, you don't need the
 Tasker plugin. We can also use this example by replacing the
 AutoVoice voice recognition by NFC tag, geolocation,
 an SMS received…
@@ -50,7 +50,7 @@ In plugin type, we select **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-In the submenu **AutoVoice**, We select **Recognized**.
+In the submenu **AutoVoice**, we select **Recognized**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 

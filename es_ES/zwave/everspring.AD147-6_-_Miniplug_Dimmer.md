@@ -32,12 +32,12 @@ El zócalo del atenuador puede soportar una carga de 6 W a 250 W.
 
 El Mini Dimmer Plug es un dispositivo compatible con Z-Wave ™ que es
 diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Ella
-puede ser controlado por un control remoto, software de PC o cualquier
+puede ser controlado por control remoto, software de PC o cualquier
 qué controlador Z-Wave en su red.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -68,7 +68,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230 V, 50 Hz
+-   Comida : 230 V, 50 Hz
 
 -   El consumo : 0.6W
 
@@ -92,7 +92,7 @@ Datos del módulo
 
 -   Hacer : Everspring
 
--   Nombre : Dimmer Miniplug
+-   Apellido : Dimmer Miniplug
 
 -   ID del fabricante : 96
 
@@ -102,14 +102,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -117,7 +117,7 @@ inclusión refiérase a esto
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
-> tenga en cuenta que este módulo va directamente a la inclusión cuando
+> tenga en cuenta que este módulo entra directamente en la inclusión cuando
 > no pertenece a ninguna red y está alimentado
 
 \
@@ -134,7 +134,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -143,7 +143,7 @@ disponibles.
 
 \
 
-![Comandos](images/everspring.AD147-6/commandes.jpg)
+![Órdenes](images/everspring.AD147-6/commandes.jpg)
 
 \
 
@@ -154,7 +154,7 @@ Aquí está la lista de comandos :
 -   Intensidad : Este es el comando utilizado para ajustar la intensidad de la
     prise
 
--   Uno : Este es el comando que enciende la salida
+-   Nosotros : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
@@ -163,7 +163,7 @@ Aquí está la lista de comandos :
 
 \
 
-Tenga en cuenta que en el tablero, la información de estado, ON / OFF, intensidad es
+Tenga en cuenta que en el tablero, el estado, ON / OFF, información de intensidad es
 encontrado en el mismo icono.
 
 \
@@ -173,12 +173,12 @@ encontrado en el mismo icono.
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Esto requiere pasar por el botón "Configuración" del
+instalación Para hacer esto, vaya al botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -240,7 +240,7 @@ Despertador
 
 \
 
-No hay noción de activación en este módulo.
+No hay noción de despertar en este módulo.
 
 \
 

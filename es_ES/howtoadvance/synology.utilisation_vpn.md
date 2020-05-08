@@ -1,37 +1,37 @@
-Instalar servidor VPN 
+ 
 ====================
 
-Desde un navegador web en una computadora conectada a la misma red que
-Synology
 
-Vaya a la interfaz DSM e inicie sesión con una cuenta de administrador y luego
-vaya al menú principal y seleccione Centro de paquetes
 
-Arriba a la izquierda en la ventana, haga una búsqueda con la palabra VPN.
-El servidor VPN debería aparecer, luego haga clic en instalar.
+
+
+
+
+.
+.
 
 ![synology.utilisation vpn1](images/synology.utilisation_vpn1.png)
 
-Regrese al menú principal y seleccione Servidor VPN
+
 
 ![synology.utilisation vpn2](images/synology.utilisation_vpn2.png)
 
-Cuando se abra la ventana, vaya a L2TP / IPSEC
 
-Elija la opción Habilitar servidor VPN L2TP / IPsec
 
-En Dirección IP dinámica, ingrese un número que corresponderá al sub
-red para asignar las IP de sus dispositivos en VPN en la red interna
-desde tu lugar. NB : no elijas lo mismo que el
-subred predeterminada de su caja ex en libre la subred de
-máquinas es 192.168.1.0 así que en el ejemplo ponemos 2
+
+
+
+
+. NB : 
+
+.0 así que en el ejemplo ponemos 2
 
 Luego ingrese el número máximo de conexiones que desea permitir
 en el servidor VPN, entonces el número máximo de conexiones simultáneas
 para un usuario
 
 Finalmente ingrese una clave para compartir NB : es una contraseña que él
-tendrá que ingresar la configuración de VPN en el móvil o tableta.
+deberá ingresar la configuración de VPN en el dispositivo móvil o tableta.
 
 Luego aplique
 
@@ -45,7 +45,7 @@ Caja de Internet a su NAS.
 Permitir a los usuarios usar el servicio VPN en el NAS 
 ===============================================================
 
-Regrese al menú principal y seleccione Servidor VPN
+
 
 ![synology.utilisation vpn2](images/synology.utilisation_vpn2.png)
 
@@ -66,7 +66,7 @@ permitir usar VPN .
 Redireccionar los puertos de su BOX 
 ===============================
 
-En el navegador ingrese 192.168.1.1. Haga clic en configuración
+En el navegador ingrese 192.168.1.1. Haga clic en la configuración de
 Freebox
 
 ![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)
@@ -88,7 +88,7 @@ Ingrese los parámetros de la siguiente manera.
 > **Tip**
 >
 > El ID de destino es lo único que depende de su instalación,
-> debe poner la IP de su Synology NAS
+> debe poner la IP de su NAS de Synology
 
 Guardar
 

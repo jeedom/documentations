@@ -4,7 +4,7 @@ Ziel
 Der Zweck dieses Artikels ist es, Sie bei der Verwendung von Android zu unterstützen
 mit Jeedom sprechen. Wir werden die Jeedom Interaktions-Engine verwenden, die
 ermöglicht es, Anfragen zu stellen und Jeedom darauf zu antworten (und auch, wenn wir
-wünschen, verschiedene Szenarien oder Elemente aktivieren).
+verschiedene Szenarien oder Elemente aktivieren).
 
 Installation 
 ============
@@ -21,7 +21,7 @@ Mit letzterem können Sie Ihre eigenen Sprachbefehle für Google Now erstellen
 Aufgaben mit Sprache zu automatisieren.
 
 Hinweis : AutoVoice ist nur die Komponente für das Gespräch mit Jeedom, jedoch nicht
-Erlaube Jeedom nicht zu antworten. Damit er das tun kann, brauchst du es nicht
+Erlaube Jeedom nicht zu antworten. Damit er das tun kann, brauchst du das nicht
 Tasker-Plugin. Wir können dieses Beispiel auch verwenden, indem wir das ersetzen
 AutoVoice-Spracherkennung durch NFC-Tag, Geolokalisierung,
 eine SMS erhalten ...
@@ -50,7 +50,7 @@ Im Plugin-Typ wählen wir **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-Im Untermenü **AutoVoice**, Wir wählen **Recognized**.
+Im Untermenü **AutoVoice**, wir wählen **Recognized**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
@@ -88,10 +88,10 @@ eingeben :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Weg :
+-   Pfad :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interag & query =% avcommnofilter & utf8 = 1`
 
-Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette zu platzieren
+Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette zu verwenden
 `yourkey`. Sie müssen `% avcommonfilter` am Ende verlassen, es wird sein
 ersetzt durch die Rückgabe von Autovoice.
 
@@ -125,4 +125,4 @@ salon".
 > Standardmäßig deaktiviert AutoVoice die Google Now-Suche
 > Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf
 > Ihr Profil dann "Edition" (kleiner Bleistift), dann "Advanced" (während
-> unten) und deaktivieren Sie "Google Now Search durchführen" (unten).
+> unten) und deaktivieren Sie "Jetzt Google-Suche durchführen" (unten).

@@ -88,11 +88,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and that only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and that only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and that only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and that only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and that only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and this only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and this only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and this only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and this only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Attention for the button to work, check keep the connection, from that moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by stopping the flashing) and this only on the antenna chosen in transmission (in this case it is obviously necessary to choose the same in reception and transmission)||
 
 # Jinlin
 
@@ -125,7 +125,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 Analog|Contacteurs|2 Analog||
+|<img src="../../en_US/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 Analog|Contacteurs|2 analog||
 |<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactors|Contacteurs|4 contactors||
 |<img src="../../en_US/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Voice Contact|Contacteurs|Voice Contactor||
 
@@ -229,7 +229,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|It is recommended to use the keep connection option. Mandatory to experimentally experiment with direct color access||
+|<img src="../../en_US/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|It is recommended to use the keep connection option. Mandatory to experiment experimentally with access to direct color||
 
 # Ticatag
 

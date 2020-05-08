@@ -8,7 +8,7 @@ Gehen Sie zum Paketcenter :
 
 ![install synology 1](images/install_synology_1.PNG)
 
-Klicken Sie auf alle und installieren Sie das Docker-Paket
+Klicken Sie auf Alle und installieren Sie das Docker-Paket
 
 ![install synology 2](images/install_synology_2.PNG)
 
@@ -84,7 +84,7 @@ Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und 
 
 > **IMPORTANT**
 >
-> Für bestimmte Plugins muss das Netzwerk gesendet werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Netzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendete Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und setzen Sie die Variable MODE_HOST auf 1
+> Für bestimmte Plugins ist eine Netzwerksendung erforderlich (Xioami-Plugin-Typ). Dazu müssen Sie im Host-Modus (nur während der Erstellung möglich) ABSOLUT in das Netzwerk wechseln und den Standard-Listening-Port des Webservers ändern ssh durch nicht verwendete Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und setzen Sie die Variable MODE_HOST auf 1
 
 Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP\_NAS:9080
 

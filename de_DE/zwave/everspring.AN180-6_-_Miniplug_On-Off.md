@@ -1,4 +1,4 @@
-Everspring Miniplug Ein / Aus - AN180-6 
+ 
 ====================================
 
 \.
@@ -24,16 +24,16 @@ Zusammenfassung
 
 \.
 
-Der Mini-Ein / Aus-Stecker dient zur Steuerung der Zündung und
-Ausschalten der Lichter und elektrischen Geräte Ihres
-Haus. Mit einer Spannung von 220 - 240 V kann dieser Stecker a
-Last bis 1500 W (Widerstand), 800 W (Glühlampe), 200 W (Motor),
-fluoreszierend, LED).
 
-Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät
-für die Arbeit mit allen Z-Wave ™ -kompatiblen Netzwerken. Sie kann
-von einer Fernbedienung, einer PC-Software oder einer anderen gesteuert werden
-Z-Wave-Controller für Ihr Netzwerk.
+Ausschalten der Lichter und elektrischen Geräte Ihres
+
+,
+.
+
+
+. 
+
+.
 
 \.
 
@@ -47,14 +47,14 @@ Funktionen
 -   Steckermodul direkt zwischen Steckdose und integriert
     die Ladung auf Bestellung
 
--   EIN / AUS-Funktion zur Steuerung von Lampen oder Geräten (nicht
-    Variation)
+-   
+    
 
 -   Lokale Ladesteuerung über integrierte Taste
 
 -   Z-Wave Plus-Technologie
 
--   Reduzierte Abmessungen bleiben fast unbemerkt
+-   
 
 -   Status-LED an der integrierten Taste
 
@@ -69,12 +69,12 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Verbrauch : 0.6W
 
--   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
-    : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
+-   Maximale Leistung : Widerstandslast : 
+    :  :  :
     200W
 
 -   Frequenz : 868,42 MHz
@@ -94,7 +94,7 @@ Moduldaten
 
 -   Machen Sie : Everspring
 
--   Name : Ministecker ein / aus
+-   Nachname : Ministecker ein / aus
 
 -   Hersteller ID : 96
 
@@ -136,7 +136,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
@@ -145,7 +145,7 @@ disponibles.
 
 \.
 
-![Befehle](images/everspring.AN180-6/commandes.jpg)
+![Bestellungen](images/everspring.AN180-6/commandes.jpg)
 
 \.
 
@@ -153,17 +153,17 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Steckdose (Ein / Aus)
+-   Staat : Es ist der Befehl, mit dem der Status des
+    
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Wir : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 \.
 
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
-das gleiche Symbol.
+.
 
 \.
 
@@ -172,7 +172,7 @@ das gleiche Symbol.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.
@@ -194,14 +194,14 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+-   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
     empfohlen, diesen Wert zu ändern.
 
--   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
+-   2 : 
     Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
-    (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
+-   3 : 
+    .
 
 ### Gruppen 
 

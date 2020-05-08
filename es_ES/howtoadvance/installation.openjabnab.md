@@ -26,7 +26,7 @@ Una vez que el sistema instalado en SSH haya terminado :
 Configuración de red 
 =======================
 
-Luego debe recuperar la dirección IP del sistema :
+Entonces necesita obtener la dirección IP del sistema :
 
     ifconfig
 
@@ -35,7 +35,7 @@ El resultado es :
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162  Bcast:192.168.0.255 máscara:255.255.255.0
               inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
-              UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
+              UP Broadcast Running MTU MULTICAST:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
               Paquetes TX:6477 errores:0 caído:0 desbordamientos:0 transportista:0
               collisions:0 txqueuelen:1000
@@ -90,7 +90,7 @@ Y poner en ello :
      604800); Caché negativo TTL
     ;
     @ IN NS ojn.raspberry.pi.
-    ojn EN A 192.168.0.162
+    ojn IN A 192.168.0.162
     192.168.0.162 EN A 192.168.0.162
 
 Luego cree este archivo db.192.168.0.inv
@@ -154,7 +154,7 @@ Recuperación de Openjabnab
 Primero crearemos el usuario :
 
     adduser ojn
-    cd / home / ojn
+    cd / inicio / ojn
 
 Luego clone openjabnab :
 
@@ -180,7 +180,7 @@ Y añadir :
                     AllowOverride None
              </Directory>
              <Directory /home/ojn/OpenJabNab/http-wrapper/>
-                     Opciones de índice de FollowSymLinks MultiViews
+                     Opciones de índice FollowSymLinks MultiViews
                      Permitir anular todo
                     Orden permitir, negar
                      permitir de todos
@@ -191,7 +191,7 @@ Luego active el sitio :
 
     a2ensite ojn
 
-Luego debe autorizar el directorio del servidor openjabnab, hacer :
+Luego autorice el directorio del servidor openjabnab, haga :
 
     vim /etc/apache2/apache2.conf
 
@@ -255,7 +255,7 @@ Validar todo
 Lanzamiento del servidor 
 ====================
 
-Ahora todo está listo, todo lo que queda es iniciar el servidor :
+Ahora todo está listo, todo lo que tienes que hacer es iniciar el servidor :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
@@ -295,7 +295,7 @@ Como notará si cierra la sesión del servidor
 Openjabnab se detiene. Entonces tienes que agregar un pequeño script a
 supervisar el servidor e iniciarlo automáticamente. Hacer :
 
-    cd / home / ojn
+    cd / inicio / ojn
     vim checkojn.sh
 
 Y agrega :
@@ -308,7 +308,7 @@ Entonces haz :
 
     chmod + x checkojn.sh
 
-Ahora debemos agregar el script al inicio y una verificación
+Ahora agregue el script al inicio y una verificación
 cada 15 min por ejemplo :
 
     crontab -e
@@ -335,7 +335,7 @@ Usted debe tener :
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
 Ahora debe crear una cuenta haciendo clic en crear un
-Usuario :
+usuario :
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
@@ -352,7 +352,7 @@ su dirección mac :
 
 ![installation.openjabnab5](images/installation.openjabnab5.PNG)
 
-Luego vaya a la cuenta y complete el nombre y el campo de dirección mac del
+Luego vaya a la cuenta y complete el campo de nombre y dirección MAC del
 conejo luego validar :
 
 ![installation.openjabnab6](images/installation.openjabnab6.PNG)
@@ -391,7 +391,7 @@ la configuración para poner:
 
 ![installation.openjabnab10](images/installation.openjabnab10.PNG)
 
-Aquí está tu conejo ahora tiene su propia madriguera local !!!!!
+Ahora tu conejo ahora tiene su propia madriguera local !!!!!
 
 Poner el TTS localmente 
 ======================
@@ -424,7 +424,7 @@ Entonces tienes que hacer 3 archivos :
 
     PLANTILLA = lib
     CONFIG - = depuración
-    CONFIG + + qt lanzamiento del complemento
+    CONFIG + = qt lanzamiento del complemento
     QT + = red xml
     QT - = muérdago
     INCLUDEPATH += . ../../server ../../lib

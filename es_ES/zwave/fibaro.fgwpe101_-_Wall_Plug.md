@@ -26,10 +26,10 @@ Resumen
 
 El Fibaro Wall Plug es un receptor-zócalo-transmisor universal bajo
 forma de un adaptador para enchufar a una toma de corriente a la red
-eléctrico, compatible con el estándar Z-Wave. Te permite gestionar
+eléctrico, compatible con el estándar Z-Wave. Te permite administrar
 cualquier dispositivo con una potencia máxima de 2.5kW, mientras
 integrando la funcionalidad de medir la potencia activa de la corriente y
-consumo de energía de dispositivos. Este módulo está equipado con un
+consumo energético de dispositivos. Este módulo está equipado con un
 anillo de luz con LEDs que indican su estado y consumo
 de energía de cualquier dispositivo conectado. El enchufe de pared Fibaro puede ser
 controlado por un botón en su carcasa o desde cualquier
@@ -37,7 +37,7 @@ Controlador compatible estándar Z-Wave
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -46,7 +46,7 @@ Funciones
 
 -   Control de microchip.
 
--   Elemento de ejecución: Relé.
+-   Elemento de ejecución: retransmitir.
 
 -   Medida de potencia activa de corriente y energía eléctrica.
     del receptor.
@@ -60,7 +60,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V, 50Hz
+-   Comida : 230V, 50Hz
 
 -   El consumo de energía : hasta 0.8W
 
@@ -87,7 +87,7 @@ Datos del módulo
 
 -   Hacer : Grupo Fibar
 
--   Nombre : Enchufe de pared FGWPE-101
+-   Apellido : Enchufe de pared FGWPE-101
 
 -   ID del fabricante : 271
 
@@ -97,14 +97,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -127,7 +127,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -136,7 +136,7 @@ disponibles.
 
 \
 
-![Comandos](images/fibaro.fgwpe101/commandes.jpg)
+![Órdenes](images/fibaro.fgwpe101/commandes.jpg)
 
 \
 
@@ -147,7 +147,7 @@ Aquí está la lista de comandos :
 -   Estado : Es el comando que permite conocer el estado de la
     prise
 
--   Uno : Este es el comando que enciende la salida
+-   Nosotros : Este es el comando que enciende la salida
 
 -   Apagado : Es el comando que hace posible extinguir la captura.
 
@@ -173,7 +173,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -196,7 +196,7 @@ Detalles del parámetro :
 
 \
 
--   1: permite bloquear el módulo siempre en ON
+-   1: permite bloquear el módulo siempre ENCENDIDO
 
 -   16: le permite recordar el último estado en caso de corte de energía
     courant
@@ -289,7 +289,7 @@ Despertador
 
 \
 
-No hay noción de activación en este módulo.
+No hay noción de despertar en este módulo.
 
 \
 

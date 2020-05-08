@@ -13,4 +13,4 @@ Dieser Service ist kostenpflichtig und kann auf dem Jeedom Market auf der Seite 
 
 Ihre Unterschiede finden Sie in der jeweiligen Dokumentation der Plugins.
 
-Sobald das Abonnement abonniert ist, muss die Konfiguration anhand der Dokumentation des Plugins erfolgen
+Sobald das Abonnement abonniert ist, müssen Sie es anhand der Plugin-Dokumentation konfigurieren

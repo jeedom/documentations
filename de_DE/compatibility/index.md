@@ -1,11 +1,11 @@
 # Materialien
 
-Hardware | Zustand | Remarques
+Hardware | Staat | Remarques
 --- | --- | ---
 Jeedomboard             | Stabil                  |
-Brummbrett            | Stabil                  |
+Hummboard            | Stabil                  |
 Odroid C2               | Stabil                  |                          
-SMART                   | Stabil                  |                          
+Smart                   | Stabil                  |                          
 RPI1                    | Stabil                  |                          
 RPI2                    | Inoffiziell / stabil     |                          
 RPI3                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
@@ -18,21 +18,21 @@ Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
 - Jeedom Smart (alles ist vorinstalliert, Sie müssen nichts tun)
 - Odroid C2 (bestes Leistungs- / Preisverhältnis)
-- Intel Nuc gen (extreme Leistung, siehe Tutorial-Kategorie für die Auswahl in verschiedenen Modellen und Installation)
+- Intel Nuc gen (extreme Leistung, siehe die Tutorial-Kategorie für die Auswahl in den verschiedenen Modellen und Installation)
 - RPI4
 
 #  Images
 
 Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 
-| Bilder         | Hardware       | Zustand           | SSH-Zugang      | Bemerkungen      |
+| Bilder         | Hardware       | Staat           | SSH-Zugang      | Bemerkungen      |
 |----------------|----------------|----------------|----------------|----------------|
 | Jeedomboard    | Jeedomboard und | Stabil         | root / Mjeedom96 |                |
 |                | Brummbrett   |                |                |                |
 | Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
-Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [Doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution, die Ihrer Hardware entspricht : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
+Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution entsprechend Ihrer Hardware : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
 
 #  Logiciel
 
@@ -40,7 +40,7 @@ Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist be
 >
 > Jeedom unterstützt nur Debian Jessie (nicht empfohlen), Stretch (nicht empfohlen) und Buster (stabil). Jede andere Version (Wheezy…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
 
-| Name                     | Zustand                    | Bemerkungen                |
+| Nachname                     | Staat                    | Bemerkungen                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 oder weniger        | Wird nicht unterstützt            |                          |
 | PHP 5.6                 | Stabil                  |                          |
@@ -64,7 +64,7 @@ Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compa
 
 # EnOcean
 
-ENOCEAN-Controller :
+EnOcean Controller :
 
 -   EnOcean USB300 USB-Stick
 -   EnOcean USB310 USB-Stick (empfohlen)
@@ -96,10 +96,10 @@ Sie finden die Liste [hier](https://phoscon.de/en/conbee/compatible) Jeedom-komp
 
 # Zwave
 
-Z-Wave-Controller :
+Z-WAVE-Controller :
 
 -   SIGMA DESIGNS Z-Wave Plus USB-Controller
--   Z-WAVE.ME - Z-Wave Plus UZB1 Mini-USB-Controller
+-   Z-WAVE.ME - Z-Wave Plus UZB1 USB-Mini-Controller
 -   AEON LABS Z-Wellen-Controller Aeon Labs Z-Stick S2
 -   AEON LABS - Z-Wave Plus Z-Stick GEN5 USB-Controller (empfohlen)
 

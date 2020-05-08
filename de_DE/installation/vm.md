@@ -4,7 +4,7 @@ Wenn Sie Jeedom ohne Risiko entdecken möchten, können Sie es auch auf Ihrem PC
 
 ## Laden Sie den VMware Player herunter und installieren Sie ihn
 
-Sie müssen die Virtual Box-Software herunterladen [Hier](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Sie müssen die Virtual Box-Software herunterladen [HIER](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
 ## Herunterladen eines Debian-Strecht-Images - netinstall
 

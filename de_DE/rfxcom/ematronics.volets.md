@@ -20,7 +20,7 @@ Aktivieren Sie "Im Debug-Modus starten""
 
 ![image03](images/volet.ematronic/image03.png)
 
-Warten Sie, bis sich das Fenster öffnet, und drücken Sie dann die Taste Öffnen
+Warten Sie, bis sich das Fenster öffnet, und drücken Sie dann die Taste Öffnen.
 Ihre Ematronic-Fernbedienung.
 
     MainThread - rfxcmd:2765 - DEBUG - Testnachricht: 09 19 03 01 1F 84 B9 01 01 60
@@ -45,7 +45,7 @@ Id1 = 1F und Id2 = 84. Sie sollten sie also in der Zeile "Test
 message "und extrahiere Id3, hier Id3 = B9, Unsere Fernbedienung hat
 als ID ⇒ 1F84B9.
 
-Stoppen Sie den Debug-Modus mit der Schaltfläche "Stop / Restart the Daemon"" 
+Beenden Sie den Debug-Modus mit der Schaltfläche "Stop / Restart the Daemon"" 
 -----------------------------------------------------------------
 
 ![image06](images/volet.ematronic/image06.png)

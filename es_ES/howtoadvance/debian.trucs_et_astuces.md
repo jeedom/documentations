@@ -60,18 +60,18 @@ Crea el punto de montaje :
 
 > **Note**
 >
-> Tienes que adaptar mi parte de acuerdo a tus necesidades
+> Tienes que adaptar mi\_parte según tus necesidades
 
 Montaje agregado en / etc / fstab
 
-    // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, usuario = TODO, contraseña = TODO 0 0
+    // IP_SERVER_SAMBA / mon_partage / mnt / mon_partage cifs uid = 0, rw, usuario = TODO, contraseña = TODO 0 0
 
 > **Note**
 >
 > Debe cambiar los TODO con su nombre de usuario de Linux y su
-> Contraseña
+> contraseña
 
-Transición de Jessie a Stretch 
+Cambiar de Jessie a Estirar 
 ===========================
 
 Por haber probado la actualización y la instalación de Stretch con restauración
@@ -84,7 +84,7 @@ sobrescribir le ahorrará tiempo.
 -   **Método 2 : actualización de Jessie a Stretch :** medio día a las
     limpiar errores.
 
-Método 1 : Instalación de Stretch y restauración de respaldo 
+Método 1 : Instalación elástica y restauración de copia de seguridad 
 -----------------------------------------------------------------
 
 Antes de comenzar, haga una copia de seguridad completa a través de Jeedom de su
@@ -96,7 +96,7 @@ medio de almacenamiento.
 > Descargue la copia de seguridad que no sea a través de la interfaz web (SSH, FTP,
 > SAMBA, otros de su elección), porque si su archivo es grande
 > se puede corromper fácilmente a través de la descarga HTTP.
-> Sin embargo, si es inferior a 100 MB, es jugable.
+> Sin embargo, si tiene menos de 100 MB, es jugable.
 
 -   Instale Debian Stretch en su caja.
 
@@ -107,8 +107,8 @@ medio de almacenamiento.
     <https://github.com/jeedom/documentation/blob/master/installation/es_ES/other.asciidoc>
 
 \ [ATENCIÓN \] MariaDB ya no permite el acceso al perfil 'raíz', que
-puede bloquear la restauración de una base de datos que tiene
-cambió el nombre (como yo) para que no restauremos inmediatamente
+puede bloquear la restauración de una base de datos que tendría
+cambió el nombre (como yo) para que no restauremos el
 copia de seguridad Si el usuario 'jeedom' no tiene los permisos correctos, el
 la restauración fallará.
 
@@ -138,11 +138,11 @@ MYSQL, bajo Estiramiento :
 > Reemplace 'monpass' con su contraseña MYSQL utilizada para
 > cuenta raíz bajo "Debian 8 - Jessie". Doy derechos de root
 > especialmente para administrar mis bases de datos con 'PHPMYADMIN', pero darles a
-> el usuario MYSQL 'jeedom' debería ser suficiente.
+> el usuario MYSQL 'jeedom' debe ser suficiente.
 
 > **Tip**
 >
-> Encontrará la contraseña para el usuario de MYSQL jeedom aquí :
+> Puede encontrar la contraseña para el usuario de MYSQL jeedom aquí :
 > Administración → Configuración → OS / DB → Base de datos
 
 Depende de usted adaptar este comando de acuerdo con su configuración

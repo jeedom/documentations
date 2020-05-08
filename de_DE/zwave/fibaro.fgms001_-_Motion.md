@@ -25,7 +25,7 @@ Zusammenfassung
 \.
 
 Der Fibaro-Bewegungsmelder ist ein Z-Wave-Multifunktionsdetektor.
-Neben der Bewegungserkennung misst dieses Gerät die
+Zusätzlich zur Bewegungserkennung misst dieses Gerät die
 Temperatur und Lichtintensität. Dieser Detektor enthält auch a
 eingebauter Beschleunigungsmesser, um jeden Versuch zu erkennen, die zu ändern
 dispositif.
@@ -78,7 +78,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : CR123A 3,6VDC Batterie
+-   Essen : CR123A 3,6VDC Batterie
 
 -   Empfohlene Höhe für die Installation : 2,4m
 
@@ -108,7 +108,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Nachname : Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -148,16 +148,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgms001/commandes.jpg)
+![Bestellungen](images/fibaro.fgms001/commandes.jpg)
 
 \.
 
@@ -236,7 +236,7 @@ Parameterdetails :
 -   8: Aktiviert den Nacht- / Tag-Modus oder beides (Wert
     empfohlen : immer aktiv)
 
--   9: Mit dieser Option können Sie den Schwellenwert für das Umschalten in den Nachtmodus anpassen (nützlich, wenn Sie dies tun
+-   9: Passt den Schwellenwert für das Umschalten in den Nachtmodus an (nützlich, wenn Sie
     Parameter 8 geändert haben)
 
 -   12: nur zu ändern, wenn Sie wissen, warum Sie es tun
@@ -258,13 +258,13 @@ Parameterdetails :
 
 -   26: nur zu ändern, wenn Sie wissen, warum Sie es tun
 
--   40: Sagen wir, wie viel der Wert von
+-   40: Nehmen wir an, um wie viel sollte der Wert von geändert werden
     zu sendende Helligkeit (empfohlener Wert 50)
 
 -   42: Ermöglicht die Angabe einer Mindestdauer zwischen zwei aufeinander folgenden Sendungen
     auch wenn sich die Helligkeit nicht geändert hat (empfohlener Wert 3600)
 
--   60: Sagen wir, wie viel der Wert von
+-   60: Nehmen wir an, um wie viel sollte der Wert von geändert werden
     zu sendende Temperatur (empfohlener Wert 2 oder 0.2 Grad)
 
 -   62: gibt die Häufigkeit der Temperaturmessungen an (Wert

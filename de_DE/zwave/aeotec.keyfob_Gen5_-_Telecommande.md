@@ -33,12 +33,12 @@ in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet
 klingeln, um es an Schlüsseln zu befestigen, wodurch es verfügbar wird
 beim Verlassen des Hauses oder bei der Rückkehr nach Hause.
 
-Mit jeder Taste können Sie dank der Funktion zwei Geräte oder Szenen steuern
+Mit jeder Taste können Sie dank der Taste zwei Geräte oder Szenen steuern
 Management von kurzen und langen Pressen. Diese Fernbedienung kann auch sein
 gut als primärer oder sekundärer Controller verwendet.
 
 Und weil der Keyfob Gen5 Key Fob Teil des ist
-Die Gen5-Reihe von Aeotec übertrifft alles, was vorher existierte.
+Die Genpalette von Aeotec übertrifft alles, was vorher existierte.
 Es verwendet den neuesten Chip der Z-Wave 500-Serie und sorgt so für eine Steigerung
 50% Funkreichweite und 250% schnellere Kommunikationsgeschwindigkeit
 schnell im Vergleich zu früheren Z-Wave-Produkten.
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 Lithium 3V CR2450 Batterie
+-   Essen : 1 Lithium 3V CR2450 Batterie
 
 -   Akkulaufzeit : 1 Jahr
 
@@ -105,7 +105,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : ZW088 Schlüsselanhänger Gen5
+-   Nachname : ZW088 Schlüsselanhänger Gen5
 
 -   Hersteller ID : 134
 
@@ -128,7 +128,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
 \.
@@ -145,16 +145,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/aeotec.keyfob-gen5/commandes.jpg)
+![Bestellungen](images/aeotec.keyfob-gen5/commandes.jpg)
 
 \.
 
@@ -162,7 +162,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -217,7 +217,7 @@ Parameterdetails :
 \.
 
 -   250: Betriebsart der Fernbedienung (absolut
-    Szene für Fernbedienung)
+    Szene zur Fernbedienung)
 
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
@@ -273,7 +273,7 @@ Faq.
 
 \.
 
-Dieses Modul wird aktiviert, indem die LEARN-Taste 3 Sekunden lang gedrückt wird.
+Dieses Modul wird aktiviert, indem Sie die LEARN-Taste 3 Sekunden lang gedrückt halten.
 
 \.
 

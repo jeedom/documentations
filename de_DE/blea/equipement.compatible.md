@@ -88,10 +88,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Schwarz|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
 |<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Weiß|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
 |<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Grün|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
 |<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Blau|Boutons|Achten Sie darauf, dass die Taste funktioniert. Überprüfen Sie, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen Empfang und Übertragung)||
 
 # Jinlin
@@ -125,11 +125,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 Analog|Contacteurs|2 Analog||
+|<img src="../../de_DE/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 Analog|Contacteurs|2 analog||
 |<img src="../../de_DE/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 Schütze|Contacteurs|4 Schütze||
 |<img src="../../de_DE/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Sprachkontakt|Contacteurs|Sprachschütz||
 
-# Meyerdom4contacts
+# Meyerdom4kontakte
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -205,7 +205,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Playbulb|Kugel|Lichter|Launische Reichweite, die eine etwas lange Bearbeitung von Aktionen rechtfertigen kann. Kann anstelle einer anderen Spielbirne erkannt werden, wenn dies im Dropdown-Menü geändert wird||
+||Playbulb|Kugel|Lichter|Launische Reichweite, die eine etwas lange Bearbeitung von Aktionen rechtfertigen kann. Kann anstelle einer anderen Playbulb erkannt werden, wenn dies im Dropdown-Menü geändert wird||
 
 # Ropot
 
@@ -229,7 +229,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Es wird empfohlen, die Option Verbindung beibehalten zu verwenden. Obligatorisch, um experimentell mit direktem Farbzugriff zu experimentieren||
+|<img src="../../de_DE/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Es wird empfohlen, die Option Verbindung beibehalten zu verwenden. Experimentell erforderlich, um experimentell mit dem Zugang zu direkter Farbe zu experimentieren||
 
 # Ticatag
 

@@ -32,14 +32,14 @@ an einer Tür oder einem Fenster mit dem Magneten an der Tür anbringen
 
 Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
 Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
-Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
+Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a ausgenutzt werden
 Sirene oder von einer Hausautomationsbox zum Beispiel). Der Sensor kann auch
 für die automatische Lichtsteuerung verwendet werden, abhängig von der
 Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
 Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
 und der Raum ist dunkel.
 
-Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und Temperatur, d.h.
 im Falle einer wesentlichen Änderung und jedes Mal das Öffnen / Schließen
 erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…?) Ist
 notwendig, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie haben
@@ -96,7 +96,7 @@ Moduldaten
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home
 
--   Hersteller : FIBARO-System
+-   Hersteller : FIBARO System
 
 -   Hersteller ID : 264 \ [0x0108 \]
 
@@ -123,7 +123,7 @@ Aufnahme beziehen sich darauf
 > richtig konfiguriert, und achten Sie auf die Ausrichtung von
 > der Magnet bei Tests auf einer ebenen Fläche und während der Installation.
 > (Verwenden Sie ggf. Unterlegscheiben.) Um dieses Modul in den Modus zu versetzen
-> Aufnahme ist es notwendig, dreimal auf die Assoziationstaste in 1.5 zu drücken
+> Inklusion ist es notwendig, dreimal die Zuordnungstaste in 1.5 zu drücken
 > zweitens gemäß seiner Dokumentation. (konstant rot blinkend
 > im Assoziationsmodus)
 
@@ -141,16 +141,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/dlink.dchz110/commandes.jpg)
+![Bestellungen](images/dlink.dchz110/commandes.jpg)
 
 \.
 
@@ -158,7 +158,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
+-   Öffnen : Es ist der Befehl, der eine Erkennung auslöst
     d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
@@ -236,10 +236,10 @@ Parameterdetails :
 -   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
     (eine Einheit = Parameter 20)
 
--   12: Hier können Sie die Dauer zwischen zwei Auto definieren
+-   12: Hier können Sie die Dauer zwischen zwei automatischen definieren
     Helligkeit (eine Einheit = Parameter 20). Empfohlener Wert : 6
 
--   13: Hier können Sie die Dauer zwischen zwei Auto definieren
+-   13: Hier können Sie die Dauer zwischen zwei automatischen definieren
     Temperatur (eine Einheit = Parameter 20). Empfohlener Wert : 2
 
 -   20: Dauer eines Intervalls für die Parameter 10 bis 13. Wert
@@ -248,7 +248,7 @@ Parameterdetails :
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
     rapport
 
--   22: Wert in% der auszulösenden Helligkeitsänderung
+-   22: Wert in% der auszulösenden Helligkeitsschwankung
     ein Bericht. Empfohlener Wert : 10
 
 \.
@@ -257,7 +257,7 @@ Parameterdetails :
 
 \.
 
-Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist
 indispensable.
 
 \.

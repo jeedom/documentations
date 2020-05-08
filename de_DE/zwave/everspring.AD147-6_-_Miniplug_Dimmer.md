@@ -31,7 +31,7 @@ nur mit Glühbirnen. Mit einer Spannung von 220 - 240 V ist dies
 Die Dimmerbuchse kann eine Last von 6 W bis 250 W aufnehmen.
 
 Der Mini Dimmer Plug ist ein Z-Wave ™ -kompatibles Gerät
-Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Sie
+soll mit allen Z-Wave ™ -kompatiblen Netzwerken funktionieren. Sie
 kann über eine Fernbedienung, eine PC-Software oder eine andere gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
@@ -68,7 +68,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
 -   Verbrauch : 0.6W
 
@@ -92,7 +92,7 @@ Moduldaten
 
 -   Machen Sie : Everspring
 
--   Name : Miniplug Dimmer
+-   Nachname : Miniplug Dimmer
 
 -   Hersteller ID : 96
 
@@ -134,16 +134,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/everspring.AD147-6/commandes.jpg)
+![Bestellungen](images/everspring.AD147-6/commandes.jpg)
 
 \.
 
@@ -154,17 +154,17 @@ Hier ist die Liste der Befehle :
 -   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
     prise
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Wir : Dies ist der Befehl, der die Steckdose einschaltet
 
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     prise
 
 \.
 
-Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
-auf dem gleichen Symbol gefunden.
+
+.
 
 \.
 
@@ -173,7 +173,7 @@ auf dem gleichen Symbol gefunden.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.
@@ -195,17 +195,17 @@ Parameterdetails :
 
 \.
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
+-   1 : Dieser Parameter definiert den Statuswertbefehl, ist es nicht
     empfohlen, diesen Wert zu ändern.
 
--   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
+-   2 : 
     Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
-    (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
+-   3 : 
+    .
 
--   4 : Mit diesem Parameter können Sie festlegen, ob die Steckdose in Betrieb sein soll
-    Variation oder im Ein / Aus-Modus
+-   4 : 
+    
 
 ### Gruppen 
 

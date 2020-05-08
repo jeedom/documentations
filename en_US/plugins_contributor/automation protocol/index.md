@@ -1,5 +1,5 @@
 
-# Domotic protocol
+# Home automation protocol
 
 
 >**IMPORTANT**

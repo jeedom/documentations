@@ -7,7 +7,7 @@
 >
 > Beta versions are often unstable and can cause
 > many concerns, it is important not to put them on a system of
-> production. IN CASE OF CONCERN, THE JEEDOM TEAM WILL NOT BE AND CANNOT
+> production. IN CASE OF CONCERN, THE JEEDOM TEAM WILL NOT BE AND WILL NOT BE ABLE TO
 > NOT BE HELD RESPONSIBLE.
 
 > **Note**
@@ -15,7 +15,7 @@
 > This documentation is deliberately not detailed so that
 > the operation is not easy. Indeed, being in beta requires
 > computer skills as well as log decryption or
-> Documentation.
+> documentation.
 
 Switch the core to beta 
 ======================
@@ -23,14 +23,14 @@ Switch the core to beta
 > **Important**
 >
 > A beta update can completely break your Jeedom and
-> make it unrecoverable. In case of concerns you will have NO SUPPORT, it
+> make it unrecoverable. In case of worries you will have NO SUPPORT, it
 > will have to fend for yourself.
 
 Beta plugins 
 ==========================
 
 To do this, go to the Jeedom Market, then to your
-profile, party **My profile**, check the box to access
+profile, party **My profile**, check the box to have access to
 beta plugins.
 
 Then, in your Jeedom, on the plugin files, you should

@@ -29,7 +29,7 @@ configure like this :
 
 > **Note**
 >
-> Remember to select the ISO file that you downloaded
+> Remember to select the ISO file you downloaded
 > just before
 
 You just have to click on start, then put the USB key
@@ -44,7 +44,7 @@ to the ISO (remember to connect it) and you start the machine. See
 [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html)
 for more details.
 
-Setup 
+Installation 
 ============
 
 Press enter to start the installation :
@@ -163,7 +163,7 @@ Optimization for Jeedom
 ========================
 
 To prepare the installation of Jeedom you can do some
-Optimizations :
+optimizations :
 
 Add vim and sudo 
 -------------------
@@ -173,7 +173,7 @@ Add vim and sudo
 Add fail2ban 
 ----------------
 
-Fail2ban is software that allows you to secure access to your debian,
+Fail2ban is a software that allows you to secure access to your debian,
 in the event of too many connection failures it blocks access to
 the IP in question (therefore not to everyone, only to the attacker) a
 time.

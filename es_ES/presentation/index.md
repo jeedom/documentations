@@ -1,6 +1,6 @@
-# Presentación 
+# Presentación
 
-Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades. : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz...
+Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades. : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, enlace de todos los equipos y objetos conectados, personalización de la interfaz...
 
 Jeedom no requiere acceso a servidores externos para operar. Toda su instalación se gestiona localmente y, por lo tanto, usted es el único que tiene acceso a ella para garantizar una total confidencialidad..
 
@@ -16,9 +16,9 @@ Jeedom permite muchas posibilidades, incluyendo :
 - Administre dispositivos multimedia de audio y video y objetos conectados.
 
 
-Jeedom se basa en el núcleo, integrando la estructura y las funciones centrales.
+Jeedom se basa en el núcleo, integrando la estructura y las funciones del núcleo.
 
-Diferentes [plugins](https://market.jeedom.com) puede proponer nuevas funciones.
+Diferentes [complementos](https://market.jeedom.com) puede proponer nuevas funciones.
 
 The Core incluye entre otros :
 
@@ -33,7 +33,7 @@ The Core incluye entre otros :
 
 ## Historiques
 
-*Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
+*Toda la información se puede guardar (curva de temperatura, consumo, apertura de puertas, etc.) y se puede acceder en Análisis → Historial o desde los mosaicos del Tablero.*
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
@@ -57,7 +57,7 @@ The Core incluye entre otros :
 
 ## Centro de actualizaciones
 
-*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos.. Otras funciones de administración de extensiones están disponibles (eliminar, reinstalar, verificar, etc.).*
+*El centro de actualizaciones le permite actualizar todas las funcionalidades de Jeedom, incluido el software principal y sus complementos.. Hay otras funciones de administración de extensiones disponibles (eliminar, reinstalar, verificar, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 

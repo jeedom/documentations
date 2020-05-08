@@ -1,5 +1,5 @@
 OpenGarage ist ein DIY-Objekt, das aber auch montiert erhältlich ist
-in der Garage verwendet.
+welches in der Garage verwendet wird.
 
 Es bietet die Aktivierung eines Relais (zum Öffnen der Garage) und eines
 Abstandssensor zur Überprüfung des Vorhandenseins des Fahrzeugs.
@@ -15,7 +15,7 @@ Verwendung ist :
     http://addropengarage/jc
 
 Das Ergebnis ist ein Json. Verwenden Sie also Geräte
-Skript- und Infobefehl vom Typ json
+Skript und ein Info-Befehl vom Typ json
 
 Für den Status des Relais der Name der Eigenschaft des JSON : door
 

@@ -18,10 +18,10 @@ micrófono y altavoces) e instalar
 et
 [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr).
 Este último le permite crear sus propios comandos de voz para Google Now
-para automatizar tareas usando la voz.
+automatizar tareas usando la voz.
 
 Anotar : AutoVoice es solo el componente para hablar con Jeedom pero no
-no permitir que Jeedom responda. Para que él haga eso, no necesita el
+no permitir que Jeedom responda. Para que él haga esto, no necesita el
 Complemento Tasker. También podemos usar este ejemplo reemplazando el
 Reconocimiento de voz de AutoVoice por etiqueta NFC, geolocalización,
 un SMS recibido ...
@@ -50,7 +50,7 @@ En tipo de complemento, seleccionamos **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-En el submenú **AutoVoice**, Seleccionamos **Recognized**.
+En el submenú **AutoVoice**, seleccionamos **Recognized**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
@@ -59,7 +59,7 @@ especificar palabras clave u otros parámetros.
 
 ![android.autovoice5](images/android.autovoice5.png)
 
-Podemos darle al perfil un nombre como "Interacciones de Jeedom" y el
+Podemos dar al perfil un nombre como "Interacciones de Jeedom" y el
 la copia de seguridad se realizará después de vincular con una tarea.
 
 La tarea 
@@ -88,7 +88,7 @@ Entrar :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Ruta :
+-   Camino :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
 No olvides poner tu clave API en lugar de la cadena
@@ -124,5 +124,5 @@ salon".
 >
 > Por defecto, AutoVoice deshabilita la búsqueda de Google Now, es
 > posible cancelar este comportamiento, para eso en Tasker haga clic en
-> su perfil luego "edición" (lápiz pequeño), luego "avanzado" (mientras
+> su perfil, luego "edición" (lápiz pequeño), luego "avanzado" (mientras
 > abajo) y desmarque "Buscar en Google Now" (abajo).

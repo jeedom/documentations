@@ -1,4 +1,4 @@
-Llavero Aeotec 
+Aeotec Keyfob 
 =============
 
 \
@@ -28,7 +28,7 @@ El control remoto del llavero Aeon Labs con un diseño moderno y agradable
 tiene 4 botones para controlar todo tipo de dispositivos
 Z-Wave como lámparas, persianas, etc.
 
-Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
+Con sus dimensiones muy pequeñas, puede ponerlo fácilmente
 en tu bolsillo. Fácil de usar y elegante, está equipado con un
 anillo para adjuntarlo a las teclas, lo que lo hace disponible para
 al salir de casa o al regresar a casa.
@@ -39,7 +39,7 @@ bien utilizado como controlador primario como secundario.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -67,7 +67,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería de litio 3V CR2450
+-   Comida : 1 batería de litio 3V CR2450
 
 -   Duración de la batería : 1 año
 
@@ -88,7 +88,7 @@ Datos del módulo
 
 -   Hacer : Aeotec
 
--   Nombre : Llavero
+-   Apellido : Llavero
 
 -   ID del fabricante : 134
 
@@ -98,14 +98,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -128,7 +128,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -137,7 +137,7 @@ disponibles.
 
 \
 
-![Comandos](images/aeotec.keyfob/commandes.jpg)
+![Órdenes](images/aeotec.keyfob/commandes.jpg)
 
 \
 
@@ -151,7 +151,7 @@ Aquí está la lista de comandos :
 
 2 : Botón 1 pulsación larga
 
-3 : Botón 2 presiones cortas
+3 : Botón 2 pulsaciones cortas
 
 4 : Botón 2 prensas largas
 
@@ -182,7 +182,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -233,7 +233,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 
 -   2 : Despierta el control remoto
 
--   3 : Cambie el parámetro 250 a verdadero (hágalo incluso si
+-   3 : Cambie el parámetro 250 a verdadero (haga esto incluso si
     ya parece cierto)
 
 -   4 : Active el control remoto y asegúrese de que el cambio haya sido

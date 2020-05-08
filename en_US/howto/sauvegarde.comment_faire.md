@@ -26,7 +26,7 @@ regular backup of Jeedom.
 > the team see
 > [here](https://www.jeedom.fr/doc/documentation/installation/en_US/doc-installation.html).
 
-Jeedom Backup / Restore 
+Backup / Restore of Jeedom 
 =================================
 
 Documentation is already present to explain the page
@@ -117,15 +117,15 @@ To make your task easier, you can download the software
 
     -   With ApplePi-Baker : Select the correct card from the list
         *Pi-Crust*, put the path to the image file to restore
-        In the field *IMG file* of the section *Pi-Ingredients*, et
-        Click on *Restore Backup* in order to restore the image on the
+        in the field *IMG file* of the section *Pi-Ingredients*, et
+        click on *Restore Backup* in order to restore the image on the
         microSD card.
 
     -   In shell command :
 
         -   In order to find the disk corresponding to the card, open
             a terminal and enter the same command as for the
-            Safeguard : `diskutil list`
+            backup : `diskutil list`
 
         -   Unmount the partitions of the card by typing the command :
             `sudo diskutil unmountDisk / dev / disk1`

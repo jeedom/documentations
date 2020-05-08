@@ -8,7 +8,7 @@ Aquí encontrará la documentación para instalar Jeedom en la mayoría de los s
 
 > **Important**
 >
-> La secuencia de comandos de instalación puede ser peligrosa porque supone que su sistema está en blanco. De lo contrario, lea el guión e instálelo a mano..
+> La secuencia de comandos de instalación puede ser peligrosa porque supone que su sistema está en blanco. De lo contrario, lea el script e instálelo a mano..
 
 Conéctese en SSH a su sistema y haga :
 

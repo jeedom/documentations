@@ -11,8 +11,8 @@
 Resumen 
 ======
 
-Les Control remotos “Smile” ont un canal, elles sont idéales pour la table
-mesita de noche, baño y especialmente para niños, porque estos son
+Les control remotos “Smile” ont un canal, elles sont idéales pour la table
+mesita de noche, baño y especialmente para niños, porque son
 muy robusto gracias al material utilizado. Ultra simple y al mismo tiempo
 “fun” elles ont pour but d'être pratiques dans l'habitat. Existen
 en tres colores diferentes.
@@ -25,10 +25,10 @@ Además, la interacción con otros protocolos es posible, puede
 interactuar con los receptores de la marca Edisio, con Jeedom, pero
 también por cualquier receptor Z-Wave en su red.
 
-Funciones 
+Las funciones 
 =========
 
--   Modo de uso : Iluminación, dimmer
+-   Modo de uso : Iluminación, atenuador
 
 -   Pequeño, discreto y estético.
 
@@ -39,13 +39,13 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro : 3VDC (batería de litio CR2032)
+-   Comida : 3VDC (batería de litio CR2032)
 
 -   Canales : 1
 
 -   Protocolo de radio : 868.3 MHz
 
--   Rango en campo libre : 100 millones
+-   Alcance en campo libre : 100 millones
 
 -   Temperatura de funcionamiento : -10 ° C + 50 ° C
 
@@ -60,7 +60,7 @@ Datos del módulo
 
 -   Hacer : Edisio Smart Home
 
--   Nombre : ETC1
+-   Apellido : ETC1
 
 -   Referencia : P01 / Y01 / L01
 
@@ -69,7 +69,7 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
 > **Important**
 >
@@ -96,21 +96,21 @@ Asociación del control remoto con Jeedom
 
 La asociación de un transmisor Edisio es simple y
 automáticamente Simplemente presione el botón en su
-Control remoto.
+control remoto.
 
-![Comandos](images/etc1/etc1.touche-c.jpg)
+![Órdenes](images/etc1/etc1.touche-c.jpg)
 
 Una vez, su equipo asociado, debería obtener esto :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Comandos 
+Órdenes 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos.
 asociado con el módulo :
 
-![Comandos](images/etc1/etc1.commandes.jpg)
+![Órdenes](images/etc1/etc1.commandes.jpg)
 
 Aquí está la lista de comandos :
 
@@ -118,13 +118,13 @@ Aquí está la lista de comandos :
 
 -   Batería : Indica el estado de la batería.
 
-Información 
+Informacion 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
 disponible :
 
-![Comandos](images/etc1/etc1.informations.jpg)
+![Órdenes](images/etc1/etc1.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo.
 
@@ -144,6 +144,6 @@ y su equipamiento.
 
 > **Note**
 >
-> El control remoto con retroalimentación de estado binario..
+> El control remoto con retroalimentación de estado binario.
 
 **@Jamsta**

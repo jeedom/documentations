@@ -15,7 +15,7 @@ Preparación antes de la migración
 > de información son esenciales para la comprensión adecuada de
 > la operación a realizar. Abstenerse de leer esta documentación puede
 > conducir a operaciones destructivas en su instalación. Si usted
-> no entiendo un punto, no dude en hacer preguntas sobre el
+> no entiendo un punto, no dude en preguntar sobre el
 > foro antes de comenzar el procedimiento !
 
 > **Important**
@@ -34,15 +34,15 @@ Preparación antes de la migración
 > centralizar el equipamiento de la **Jeedom (s) Fuente (s)**\
 > Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.\
 > \
-> - **Fuente de la libertad** : Servidor (su ex esclavo (s) Jeedom)
-> lo que vuelve a poner su equipo en el **Jeedom Target**.\
+> - **Fuente de la libertad** : Servidor (tu antiguo Jeedom Slave (s))
+> que vuelve a poner su equipo en el **Jeedom Target**.\
 > \
 > - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no son
 > noticias. El nuevo modo operativo de sincronización
 > El equipamiento entre varios Jeedoms puede ser bidireccional. Un
 > Jeedom Server puede ser ahora **Source** y **Cible** entonces que
-> el modo antiguo solo permitía el surgimiento de equipos
-> **l'Esclave** Hacia **el maestro**. Con el nuevo modo también es
+> el modo antiguo solo permitía el ascenso del equipo desde
+> **l'Esclave** hacia **el maestro**. Con el nuevo modo también es
 > posible tener múltiples **Jeedom Targets** por lo mismo **Jeedom
 > Source**. La comunicación entre Jeedoms ahora también puede
 > hacerse de forma remota a través de Internet (Jeedom DNS u otro).
@@ -66,20 +66,20 @@ Actualizaciones de configuración y verificación
 Recopilando información útil 
 -------------------------------------
 
-Dependiendo de los complementos instalados en su **Jeedom Slave**, El es
+Dependiendo de los complementos instalados en su **Jeedom Slave**, el es
 necesario para recuperar la siguiente información :
 
 ### Complemento Zwave 
 
 -   En la página de salud del complemento Zwave en el **Jeedom Master**, choisir
-    suyo **Esclave** desde el menú desplegable y hacer una captura de pantalla,
+    tu **Esclave** desde el menú desplegable y hacer una captura de pantalla,
     esto para tener una lista del equipo que viene
     de este.
 
 -   Nota para cada equipo proveniente de **l'Esclave** : l'objet
     padre, nombre, ID (nodo), modelo.
 
--   Recuperar archivo Zwcfg : *Complementos ⇒ Gestión de complementos ⇒
+-   Recupere el archivo Zwcfg : *Complementos ⇒ Gestión de complementos ⇒
     Z-wave*. Haga clic en el botón rojo. *Zwcfg * y copiar contenido
     en un archivo de texto en su computadora.
 
@@ -91,7 +91,7 @@ necesario para recuperar la siguiente información :
 > **Note**
 >
 > Una hoja de información no exhaustiva a tener en cuenta para la migración
-> está disponible [aquí](images/MemoMigration.xls)
+> está disponible [aqui](images/MemoMigration.xls)
 
 Copias de seguridad preventivas 
 -----------------------
@@ -172,7 +172,7 @@ Configuración de fuente de Jeedom
 ![jeelink.migration2](images/jeelink.migration2.png)
 
 -   Instalación y activación de complementos que desea usar.
-    (Es recomendable hacerlos uno por uno, verificando cada vez
+    (Es recomendable hacerlos uno por uno, verificando cuidadosamente cada vez
     una vez que las dependencias y los posibles demonios estén bien).
 
 -   Recrea el árbol de objetos (solo los que
@@ -190,7 +190,7 @@ Source**.
 > **Note**
 >
 > Recuerde desactivar el registro de comandos
-> información de cada equipo en el **Fuente de la libertad** afin
+> información de cada pieza de equipo en el **Fuente de la libertad** afin
 > para guardar la tarjeta SD (la historización se realizará en el
 > **Jeedom Target**).
 
@@ -199,8 +199,8 @@ Source**.
 > También puede asignar gradualmente el equipo a
 > objetos recreados en el **Fuente de la libertad** para que sean más tarde
 > poner automáticamente en el objeto correcto en el **Jeedom Target** Durante
-> la declaración en el complemento "Jeedom Link". En caso de nombre duplicado
-> con equipos ya presentes en los objetos del **Jeedom Target**,
+> la declaración en el complemento Jeedom Link". En caso de nombre duplicado
+> con equipos ya presentes en los objetos de la **Jeedom Target**,
 > el complemento agregará "XXXX remoto" al nombre del equipo.
 
 ### Complemento Zwave : 
@@ -217,7 +217,7 @@ Source**.
 -   Cambie el nombre de sus módulos y colóquelos en los objetos deseados dentro de usted
     ayudando con su memo de migración.
 
-### Complemento RFXcom : 
+### Complemento Rfxcom : 
 
 #### Sondas, sensores, detectores, ... : 
 
@@ -234,7 +234,7 @@ Source**.
 -   Agregar nuevo equipo.
 
 -   Definir nombre, ID, objeto principal, tipo de equipo y
-    modelo utilizando su memo de migración.
+    modelo usando su memo de migración.
 
 -   Repita para todos sus equipos de este tipo.
 
@@ -250,10 +250,10 @@ equipo en el **Jeedom Target** (Tu viejo maestro).
 > \
 > Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.\
 > \
-> Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.\
+> Las capturas de pantalla en un fondo blanco corresponden a la **Fuente de la libertad**.\
 
 Sobre **Fuente de la libertad**,
-[Configurar](https://doc.jeedom.com/es_ES/plugins/jeelink/jeelink)
+[configurar](https://doc.jeedom.com/es_ES/plugins/jeelink/jeelink)
 el complemento "Jeedom Link" especificando :
 
 -   El nombre de **Jeedom Target**.
@@ -276,7 +276,7 @@ para agregar :
 
 ![jeelink.migration5](images/jeelink.migration5.png)
 
-Después de actualizar la página *Mis enlaces* del **Jeedom Target**, vous
+Después de actualizar la página *My JeeLinks* de **Jeedom Target**, vous
 debe tener en cuenta la creación automática del equipo :
 
 ![jeelink.migration6](images/jeelink.migration6.png)
@@ -325,24 +325,24 @@ Reemplazo de equipos esclavos antiguos en escenarios / virtuales / ...
 
 -   Ir a la pestaña *Informations*.
 
--   Haga clic en el botón *Reemplazar este comando por el comando*.
+-   Haga clic en el botón *Reemplace este comando con el comando*.
 
 -   Encuentre el pedido correspondiente para el nuevo equipo JeeLink
     corresponsal y validar.
 
-Recuperando configuraciones de pantalla avanzadas para comandos 
+Recuperación de la configuración de visualización avanzada de comandos 
 ------------------------------------------------------------------
 
 > **Note**
 >
 > Para hacer en **Jeedom Target** (Ex maestro) para cada pedido
 > información / acción de equipos viejos **Esclave** que queremos
-> recuperar configuraciones avanzadas de pantalla.
+> recuperar configuraciones de pantalla avanzadas.
 
 -   Vaya a la configuración del comando (* Rueda dentada en
     derecha*).
 
--   Haga clic en el botón *Aplicar*.
+-   Haga clic en el botón *aplicar a*.
 
 -   Busque y seleccione el comando correspondiente para el nuevo
     equipo JeeLink correspondiente y validar.
@@ -386,7 +386,7 @@ Hogar en el **Jeedom Target**
 >
 > Después de confirmar con certeza que su
 > equipos / escenarios / interacciones / virtuales / ... trabajar
-> correctamente con el nuevo sistema jeelink puedes hacer el
+> correctamente con el nuevo sistema jeelink puede proceder a
 > hogar.
 
 -   Eliminar el equipo residual de la antigua **Jeedom Slave**.

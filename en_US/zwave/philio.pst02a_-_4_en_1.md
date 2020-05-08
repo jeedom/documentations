@@ -33,7 +33,7 @@ fixe.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
-alarm, if the system is armed (this signal can be used by a
+alarm, if the system is armed (this signal can be exploited by a
 siren or by a home automation box for example). This detector can be
 used for security or automation. When the detector
 is associated with security devices, it serves as a trigger
@@ -50,7 +50,7 @@ door / window opening and changes in the level of
 brightness. Thus, one can trigger a lighting during a detection
 door movement or opening in the dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and temperature, i.e.
 significant change, and whenever a movement or
 opening / closing are detected. A Z-Wave controller (remote control,
 dongle…) is necessary in order to integrate this detector into your network
@@ -133,7 +133,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name : PST02-A 4 in 1 Multi-Sensor
+-   Last name : PST02-A 4 in 1 Multi-Sensor
 
 -   Manufacturer ID : 316
 
@@ -143,14 +143,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -173,7 +173,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -182,7 +182,7 @@ disponibles.
 
 \
 
-![Commands](images/philio.pst02a/commandes.jpg)
+![Orders](images/philio.pst02a/commandes.jpg)
 
 \
 
@@ -196,7 +196,7 @@ Here is the list of commands :
     d'ouverture
 
 -   Temperature : it is the command which allows to go up the
-    Temperature
+    temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -224,7 +224,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -277,10 +277,10 @@ Parameter details :
 -   11: allows you to define the duration between two self-opening reports
     (one unit = parameter 20)
 
--   12: allows you to define the duration between two auto
+-   12: allows you to define the duration between two automatic
     brightness (one unit = parameter 20) Recommended value : 3
 
--   13: allows you to define the duration between two auto
+-   13: allows you to define the duration between two automatic
     temperature (one unit = parameter 20) Recommended value : 2
 
 -   20: duration of an interval for parameters 10 to 13 Value

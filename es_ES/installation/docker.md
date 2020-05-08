@@ -37,7 +37,7 @@ Luego inicie el :
 
 Con :
 
--   ``jeedom-server`` : Se busca el nombre de Jeedom Docker
+-   ``jeedom-server`` : jeedom nombre de Docker quería
 -   ``/opt/jeedom/www`` y ``/opt/jeedom/mysql`` : directorio donde los datos de Jeedom se colocan en el host
 -   ``your-root-password`` : contraseña de root para acceder a Jeedom en SSH
 

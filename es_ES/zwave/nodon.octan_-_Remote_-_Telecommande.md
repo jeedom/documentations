@@ -26,7 +26,7 @@ Resumen
 
 El Octan Remote NodOn® le permite controlar cualquier receptor
 Compatible con Z-Wave® o Z-Wave Plus®, como la toma del control remoto
-NodOn® (modo de controlador principal - Independiente), o incluso disparador
+NodOn® (controlador principal - modo independiente), o incluso disparador
 escenas / acciones a través de un sistema de automatización del hogar compatible (modo
 Gateway)
 
@@ -37,7 +37,7 @@ domestiques
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -59,14 +59,14 @@ Características técnicas
 
 \
 
--   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
+-   Comida : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
 -   Soporte de pared fijado con adhesivo de doble cara (incluido) o tornillos
     (no incluido)
 
--   Imán integrado para fijación a superficie metálica.
+-   Imán integrado para la fijación a la superficie metálica
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
 
@@ -75,7 +75,7 @@ Características técnicas
 
 -   Dimensiones : 80 \*80 \*15mm
 
--   2 años de garantia
+-   Garantía de 2 años
 
 \
 
@@ -86,7 +86,7 @@ Datos del módulo
 
 -   Hacer : Nodon
 
--   Nombre : CRC-3-1-00 Octan Remote
+-   Apellido : CRC-3-1-00 Octan Remote
 
 -   ID del fabricante : 357
 
@@ -96,14 +96,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -127,7 +127,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -136,7 +136,7 @@ disponibles.
 
 \
 
-![Comandos](images/nodon.octan/commandes.jpg)
+![Órdenes](images/nodon.octan/commandes.jpg)
 
 \
 
@@ -147,7 +147,7 @@ Aquí está la lista de comandos :
 -   Botones : es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
+| Botones        | Apoyo          | Pulsación larga     | Relajación    | Doble apoyo   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -177,7 +177,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

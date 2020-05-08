@@ -1,7 +1,7 @@
-| Name                     | Note                | Link                     |
+| Last name                     | Note                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module for Luminaire     |                         | [Buy](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
-| DIO2 - Module for Roller Shutter     |                         | [Buy](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
+| DIO2 - Roller Shutter Module     |                         | [Buy](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
 | Edisio - EMM-230 - Micromodule transmitter (230V) - 2 channels     |                         | [Buy](http://www.domadoo.fr/fr/peripheriques/2777-edisio-emetteur-8683-mhz-micromodule-230v-2-canaux-5420074900702.html)                     |
 | Edisio - ETS-200 - Temperature sensor     |                         | [Documentation](https://doc.jeedom.com/en_US/edisio/edisio.ETS-200_-_Capteur_de_température.html) [Buy](http://www.domadoo.fr/fr/peripheriques/2788-edisio-capteur-de-temperature-8683mhz-5420074900825.html)          |
 | Edisio - ETC1 - "Smile" transmitter - 1 channel        | All "Smiles" are compatible   | [Documentation](https://doc.jeedom.com/en_US/edisio/edisio.ETC1_-_Télécommande_Smile.html) [Buy](http://www.domadoo.fr/fr/peripheriques/2782-edisio-emetteur-8683-mhz-smile-bleu-1-canal-5420074900757.html)    |

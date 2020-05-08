@@ -39,7 +39,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium battery ER14250)
 
 -   Frequency : 868.3 MHz
 
@@ -60,14 +60,14 @@ Module data
 
 -   Mark : Edisio Smart Home
 
--   Name : EMS-200
+-   Last name : EMS-200
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
 > **Important**
 >
@@ -77,7 +77,7 @@ refer to this
 > **Tip**
 >
 > Placement is recommended at a height of 150 cm and near
-> the desired temperature.
+> the desired felt temperature.
 
 "E" button" 
 ----------
@@ -120,13 +120,13 @@ Once your equipment is paired, you should get this :
 > So that the widget is present on the dashboard, remember to place
 > your equipment in an object.
 
-Commands 
+Orders 
 ---------
 
 Once your equipment is created, you should get the orders
 associated with the module :
 
-![Commands](images/ems200/ems200.commande.jpg)
+![Orders](images/ems200/ems200.commande.jpg)
 
 Here is the list of commands :
 
@@ -141,7 +141,7 @@ Information
 Once your equipment is associated with Jeedom, various information will be
 available :
 
-![Commands](images/ems200/ems200.informations.jpg)
+![Orders](images/ems200/ems200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
@@ -150,7 +150,7 @@ available :
 
 -   Drums : Indicates the battery status of the battery modules
 
--   STATUS : Returns the status of the module
+-   Status : Returns the status of the module
 
 Alternative visual 
 =================

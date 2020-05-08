@@ -38,7 +38,7 @@ management of short and long presses. This remote control can also be
 well used as primary or secondary controller.
 
 And because the Keyfob Gen5 key fob is part of the
-Gen5 range from Aeotec, it surpasses all that existed before.
+Gene range from Aeotec, it surpasses all that existed before.
 It uses the latest Z-Wave 500 series chip, providing an increase
 50% radio range and 250% faster communication speed
 fast compared to previous Z-Wave products.
@@ -105,7 +105,7 @@ Module data
 
 -   Mark : Aeotec
 
--   Name : ZW088 Key Fob Gen5
+-   Last name : ZW088 Key Fob Gen5
 
 -   Manufacturer ID : 134
 
@@ -115,14 +115,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -145,7 +145,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -154,7 +154,7 @@ disponibles.
 
 \
 
-![Commands](images/aeotec.keyfob-gen5/commandes.jpg)
+![Orders](images/aeotec.keyfob-gen5/commandes.jpg)
 
 \
 
@@ -199,7 +199,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -273,7 +273,7 @@ Faq.
 
 \
 
-This module wakes up by pressing the LEARN button for 3 seconds.
+This module wakes up by pressing and holding the LEARN button for 3 seconds.
 
 \
 

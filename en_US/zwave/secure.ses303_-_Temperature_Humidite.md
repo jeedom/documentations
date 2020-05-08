@@ -37,7 +37,7 @@ wire various external SECURE probes to the module, i.e.:
 -   1 wired temperature sensor for hose or tank (SES003)
     connected by a 4m cable
 
-These modules are ideal for temperature measurement in
+These modules are perfect for temperature measurement in
 central heating control applications or any other
 similar application. Its user interface is simple, with a
 local push button and an indication LED on the rear panel. We
@@ -95,7 +95,7 @@ Module data
 
 -   Mark : Horstmann
 
--   Name : SES 303 Temperature and Humidity Sensor
+-   Last name : SES 303 Temperature and Humidity Sensor
 
 -   Manufacturer ID : 89
 
@@ -105,14 +105,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -135,7 +135,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -144,7 +144,7 @@ disponibles.
 
 \
 
-![Commands](images/secure.ses303/commandes.jpg)
+![Orders](images/secure.ses303/commandes.jpg)
 
 \
 
@@ -180,7 +180,7 @@ depending on your installation. This requires going through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

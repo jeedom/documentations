@@ -1,15 +1,15 @@
 # Copia de seguridad en la nube
 
-Una vez que se compra el servicio, debe estar en libertad : 
+Una vez que el servicio ha sido comprado, es necesario en libertad : 
 
-- vaya a la administración de la misma y luego en la pestaña "Actualización / Mercado" y complete
+- vaya a la administración del mismo y luego en la pestaña "Actualización / Mercado" y complete
   - Nombre [nube de respaldo] : nombre de la carpeta o poner las copias de seguridad de jeedom (si tiene un jeedom simplemente ponga jeedom, de lo contrario, coloque una carpeta por jeedom)
-  - [Copia de seguridad de la nube] Contraseña : contraseña de cifrado de respaldo. Tenga cuidado si lo pierde, las copias de seguridad se pierden, es imposible recuperar la contraseña
+  - [Nube de respaldo] Contraseña : contraseña de cifrado de respaldo. Tenga cuidado si lo pierde, se pierden las copias de seguridad, es imposible recuperar la contraseña
 - en la gestión de copias de seguridad, marque la casilla "Enviar copias de seguridad" en el nivel "Copias de seguridad del mercado""
 
 >**NOTE**
 >
->Es posible ver los archivos de copia de seguridad de Jeedom directamente desde su página de perfil en el mercado, tabular mis servicios y luego la configuración a nivel del servicio de copia de seguridad en la nube
+>Es posible ver los archivos de respaldo de Jeedom directamente desde su página de perfil en el mercado, tabular mis servicios y luego configurarlos en el nivel de servicio de respaldo en la nube
 
 ## FAQ
 

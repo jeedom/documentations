@@ -46,7 +46,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
+-   Essen : 3VDC (Lithiumbatterie ER14250)
 
 -   Frequenz : 868,3 MHz
 
@@ -58,14 +58,14 @@ Technische Daten
 
 -   Schutzart : IP20
 
--   Verwendung : Drinnen
+-   Verwenden Sie : Drinnen
 
 Moduldaten 
 =================
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : EOS-200
+-   Nachname : EOS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -97,7 +97,7 @@ Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert.
 > **Note**
 >
 > Sie müssen daher Ihren Sensor konfigurieren, wenn Sie einen haben möchten
-> Widget mit geschlossener Tür, wenn sie geschlossen ist.
+> Widget mit geschlossener Tür, wenn es geschlossen ist.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
 
@@ -119,13 +119,13 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 > Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
 > Ihre Ausrüstung in einem Objekt.
 
-Befehle 
+Bestellungen 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Befehle](images/eos200/eos200.commandes.jpg)
+![Bestellungen](images/eos200/eos200.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
@@ -134,22 +134,22 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
+Informationen 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Befehle](images/eos200/eos200.informations.jpg)
+![Bestellungen](images/eos200/eos200.informations.jpg)
 
--   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul
 
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
 Alternative visuelle 
 =================

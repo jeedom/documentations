@@ -24,7 +24,7 @@ Zusammenfassung
 
 \.
 
-Diese Schlüsselbundfernbedienung mit einem modernen und angenehmen Design hat eine
+Diese Schlüsselanhänger-Fernbedienung mit einem modernen und angenehmen Design hat eine
 Taste zur Steuerung aller Arten von Z-Wave-Geräten wie z
 Lampen, Jalousien usw..
 
@@ -73,7 +73,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 Lithium 3V CR2450 Batterie
+-   Essen : 1 Lithium 3V CR2450 Batterie
 
 -   Akkulaufzeit : 2 bis 3 Monate für 10 bis 20 Anwendungen
     pro Tag
@@ -93,7 +93,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : Panikknopf
+-   Nachname : Panikknopf
 
 -   Hersteller ID : 134
 
@@ -116,7 +116,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
 \.
@@ -133,16 +133,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/aeotec.panicbutton/commandes.jpg)
+![Bestellungen](images/aeotec.panicbutton/commandes.jpg)
 
 \.
 
@@ -150,7 +150,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Kurze Taste drücken
 
@@ -193,7 +193,7 @@ Parameterdetails :
 \.
 
 -   250: Betriebsart der Fernbedienung (absolut
-    Szene für Fernbedienung)
+    Szene zur Fernbedienung)
 
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
@@ -225,8 +225,8 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   2 : Wecken Sie die Fernbedienung auf
 
--   3 : Ändern Sie den Parameter 250 auf true (auch wenn
-    scheint schon wahr zu sein)
+-   3 : Ändern Sie den Parameter 250 auf true (tun Sie dies auch dann, wenn
+    erscheint schon wahr)
 
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung vorgenommen wurde
     berücksichtigt
@@ -250,7 +250,7 @@ Faq.
 
 \.
 
-Dieses Modul wird aktiviert, indem die LEARN-Taste 3 Sekunden lang gedrückt wird.
+Dieses Modul wird aktiviert, indem Sie die LEARN-Taste 3 Sekunden lang gedrückt halten.
 
 \.
 

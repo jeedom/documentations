@@ -26,7 +26,7 @@ Sobald das in SSH installierte System fertig ist :
 Netzwerkkonfiguration 
 =======================
 
-Dann müssen Sie die IP-Adresse des Systems wiederherstellen :
+Dann müssen Sie die IP-Adresse des Systems erhalten :
 
     ifconfig
 
@@ -165,7 +165,7 @@ Dann klone openjabnab :
 Webserverkonfiguration 
 ============================
 
-Tun :
+Tu es :
 
     cd / etc / apache2 / sites-available /
     vim ojn.conf
@@ -183,7 +183,7 @@ Und hinzufügen :
                      FollowSymLinks MultiViews Indexoptionen
                      AllowOverride all
                     Bestellung erlauben, verweigern
-                     Erlaube von allen
+                     von allen erlauben
              </Directory>
     </VirtualHost>
 
@@ -191,7 +191,7 @@ Aktivieren Sie dann die Site :
 
     a2ensite ojn
 
-Sie müssen dann das openjabnab-Serververzeichnis autorisieren :
+Autorisieren Sie dann das openjabnab-Serververzeichnis :
 
     vim /etc/apache2/apache2.conf
 
@@ -210,7 +210,7 @@ Dann starten wir Apache neu :
 Installation von openjabnab 
 =========================
 
-Tun :
+Tu es :
 
     su ojn
     cd / home / ojn / OpenJabNab / server
@@ -224,7 +224,7 @@ Tun :
 Openjabnab-Konfiguration 
 ==========================
 
-Tun :
+Tu es :
 
     cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
@@ -236,7 +236,7 @@ Und ändern Sie die folgenden Zeilen :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-Und alle ersetzen *my.domain.com* Von *ojn.raspberry.pi*
+Und alle ersetzen *my.domain.com* von *ojn.raspberry.pi*
 
 Openjabnab-Webserverkonfiguration 
 =======================================
@@ -250,7 +250,7 @@ Dann mach weiter :
 
     http://ojn.raspberry.pi/ojn_admin/install.php
 
-Alles validieren
+Validiere alles
 
 Serverstart 
 ====================
@@ -293,7 +293,7 @@ Openjabnab Server Überwachung und Autostart
 
 Wie Sie feststellen werden, wenn Sie sich vom Server abmelden
 openjabnab bleibt stehen. Sie müssen also ein kleines Skript hinzufügen
-Überwachen Sie den Server und starten Sie ihn automatisch. Tun :
+Überwachen Sie den Server und starten Sie ihn automatisch. Tu es :
 
     cd / home / ojn
     vim checkojn.sh
@@ -308,7 +308,7 @@ Dann mach es :
 
     chmod + x checkojn.sh
 
-Wir müssen jetzt das Skript beim Start und eine Überprüfung hinzufügen
+Fügen Sie nun das Skript beim Start und eine Überprüfung hinzu
 zum Beispiel alle 15 min :
 
     crontab -e
@@ -321,7 +321,7 @@ Und hinzufügen :
 > **Important**
 >
 > Es ist absolut notwendig, es in die Wurzel crontab zu legen, wenn Sie sind
-> wieder mit Benutzer ojn do ctrl + D.
+> wieder mit dem Benutzer ojn Strg + D tun
 
 Konfiguration Ihres Kaninchens in Openjabnab 
 ============================================
@@ -377,7 +377,7 @@ Jeedom Konfiguration
 =======================
 
 Die Konfiguration in Jeedom ist recht einfach, Sie müssen zunächst einmal
-Verbinden Sie in SSH mit Jeedom (wenn Sie eine Jeedom-Box haben, geben Sie die Kennungen an
+Verbinden Sie sich in SSH mit Jeedom (wenn Sie eine Jeedom-Box haben, geben Sie die Kennungen an
 sind im Installationsdokument). Bearbeiten Sie dann die Datei / etc / hosts
 
     vim / etc / hosts

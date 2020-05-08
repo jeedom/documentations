@@ -6,7 +6,7 @@ inicio del servicio
 Instalación de Nodered 
 =======================
 
-Aquí están los comandos para iniciar la instalación de nodered con un nodejs
+Estos son los comandos para iniciar la instalación con noder al tener un nodejs
 funcional :
 
     sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
@@ -26,7 +26,7 @@ se inicia automáticamente cuando comienza la caja. Un ejemplo aqui :
 Configuración de Apache 
 ======================
 
-Aquí hay un ejemplo de un archivo para acceder a Nodered mediante un reverso
+Aquí hay un ejemplo de un archivo para acceder a Nodered a través de un reverso
 proxy.
 
     <Location /jeedom/nodered>
@@ -39,7 +39,7 @@ proxy.
 Configuración de Nginx 
 ======================
 
-Aquí hay un ejemplo de un archivo para acceder a Nodered mediante un reverso
+Aquí hay un ejemplo de un archivo para acceder a Nodered a través de un reverso
 proxy.
 
     ubicación / libertad / noded / {

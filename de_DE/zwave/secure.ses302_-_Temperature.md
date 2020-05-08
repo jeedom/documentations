@@ -27,7 +27,7 @@ Zusammenfassung
 Die Sonde SES302 ermöglicht die Messung der Umgebungstemperatur
 Innenraum. Es wird mit 2 AA-Batterien betrieben und ist Z-Wave-zertifiziert
 Mehr. Zusätzlich zu seiner Hauptfunktion ist es möglich, zu verdrahten
-verschiedene sichere externe Sonden am Modul, d.h.:
+verschiedene externe SECURE-Sonden am Modul, d.h.:
 
 -   Ein externer NTC-Temperatursensor (SES001)
 
@@ -37,11 +37,11 @@ verschiedene sichere externe Sonden am Modul, d.h.:
 -   1 verdrahteter Temperatursensor für Schlauch oder Tank (SES003)
     durch ein 4m Kabel verbunden
 
-Diese Module sind ideal für die Temperaturmessung in
+Diese Module eignen sich perfekt zur Temperaturmessung in
 Zentralheizungssteuerungsanwendungen oder andere
 ähnliche Anwendung. Die Benutzeroberfläche ist einfach, mit einem
 lokaler Druckknopf und eine Anzeige-LED auf der Rückseite. Wir
-kann es leicht in ein Z-Wave-Netzwerk einschließen / ausschließen.
+kann es einfach in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
 \.
 
@@ -95,7 +95,7 @@ Moduldaten
 
 -   Machen Sie : Horstmann
 
--   Name : Temperatursensor SES 302
+-   Nachname : Temperatursensor SES 302
 
 -   Hersteller ID : 89
 
@@ -135,16 +135,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/secure.ses302/commandes.jpg)
+![Bestellungen](images/secure.ses302/commandes.jpg)
 
 \.
 

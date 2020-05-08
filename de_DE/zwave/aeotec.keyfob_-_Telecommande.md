@@ -33,7 +33,7 @@ in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet
 klingeln, um es an Schlüsseln zu befestigen, wodurch es verfügbar wird
 beim Verlassen des Hauses oder bei der Rückkehr nach Hause.
 
-Mit jeder Taste können Sie dank der Funktion zwei Geräte oder Szenen steuern
+Mit jeder Taste können Sie dank der Taste zwei Geräte oder Szenen steuern
 Management von kurzen und langen Pressen. Diese Fernbedienung kann auch sein
 gut als primärer als sekundärer Controller verwendet.
 
@@ -67,7 +67,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 Lithium 3V CR2450 Batterie
+-   Essen : 1 Lithium 3V CR2450 Batterie
 
 -   Akkulaufzeit : 1 Jahr
 
@@ -88,7 +88,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : Schlüsselanhänger
+-   Nachname : Schlüsselanhänger
 
 -   Hersteller ID : 134
 
@@ -111,7 +111,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
 \.
@@ -128,7 +128,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
@@ -137,7 +137,7 @@ disponibles.
 
 \.
 
-![Befehle](images/aeotec.keyfob/commandes.jpg)
+![Bestellungen](images/aeotec.keyfob/commandes.jpg)
 
 \.
 
@@ -145,7 +145,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -200,7 +200,7 @@ Parameterdetails :
 \.
 
 -   250: Betriebsart der Fernbedienung (absolut
-    Szene für Fernbedienung)
+    Szene zur Fernbedienung)
 
 Alle anderen Parameter sind nur bei direkter Zuordnung sinnvoll
 zwischen Fernbedienung und Modulen.
@@ -233,7 +233,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   2 : Wecken Sie die Fernbedienung auf
 
--   3 : Ändern Sie den Parameter 250 auf true (auch wenn
+-   3 : Ändern Sie den Parameter 250 auf true (tun Sie dies auch dann, wenn
     erscheint schon wahr)
 
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung vorgenommen wurde

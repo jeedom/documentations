@@ -33,10 +33,10 @@ interruptor de cable ordinario y remoto a través del controlador
 Z-Wave.
 
 El interruptor SwiidInter también ofrece posibilidades de asociación.
-y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
+y este bidireccional. Por lo tanto, puede ser activado automáticamente por un
 otro dispositivo Z-Wave en la misma red, como el
 detector de presencia activado. Por el contrario con apoyo
-corto o con una pulsación larga puede controlar dos grupos separados de
+corta o con una pulsación larga puede controlar dos grupos separados de
 Dispositivos Z-Wave asociados a él : por ejemplo cada
 otras luces en la habitación donde se encuentra su interruptor
 SwiidInter.
@@ -50,7 +50,7 @@ distance.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -58,7 +58,7 @@ Funciones
 -   Interruptor de cable utilizable tanto manualmente
     (pulsación corta) y por radio remota (Z-Wave)
 
--   Úselo como reemplazo de un interruptor de cable estándar
+-   Usar en lugar de un interruptor de cable estándar
     una lámpara de mesilla de noche, mesa o escritorio
 
 -   Función ON / OFF
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : noire
+-   Color: : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
@@ -114,7 +114,7 @@ Datos del módulo
 
 -   Hacer : Swiid
 
--   Nombre : Swiidinter
+-   Apellido : Swiidinter
 
 -   ID del fabricante : 358
 
@@ -124,14 +124,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -154,7 +154,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -163,7 +163,7 @@ disponibles.
 
 \
 
-![Comandos](images/swiid.inter/commandes.jpg)
+![Órdenes](images/swiid.inter/commandes.jpg)
 
 \
 
@@ -172,11 +172,11 @@ Aquí está la lista de comandos :
 \
 
 -   Estado : Es el comando que permite conocer el estado de la
-    Iluminación
+    luz
 
--   Uno : Es el control que enciende la luz.
+-   ON : Es el control que enciende la luz.
 
--   Apagado : Es el comando que apaga la luz.
+-   OFF : Es el comando que apaga la luz.
 
 \
 
@@ -190,12 +190,12 @@ icone
 \
 
 Puede configurar el módulo de acuerdo con su
-instalación Esto requiere pasar por el botón "Configuración" del
+instalación Para hacer esto, vaya al botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -273,7 +273,7 @@ Bueno saber
 
 \
 
-Despertar 
+Despertarse 
 -------
 
 \
@@ -288,7 +288,7 @@ Faq.
 \
 
 ¿Ha combinado los dos módulos y ha configurado la pieza correctamente?
-Especifico.
+específico.
 
 \
 

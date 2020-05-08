@@ -2,13 +2,13 @@
 
 Es posible instalar en Freebox Delta Jeedom a través del sistema VM.
 
-## Conexión al Delta
+## Conexión Delta
 
 Debe ir a la interfaz de configuración de su Freebox Delta. Luego haga clic en VM.
 
 ![delta1](images/delta1.png)
 
-## Establecer las diferentes opciones
+## Configura las diferentes opciones
 
 Haga clic en "Agregar una VM"
 ![delta2](images/delta2.png)
@@ -20,7 +20,7 @@ Configurar funciones. Recomendamos que coloque 2 CPU y el máximo en RAM.
 Configurar usuario y contraseña, **deben mantenerse en la memoria, se les pedirá durante una conexión SSH**:
 ![delta4](images/delta4.png)
 
-## Instalación en curso
+## Instalación en progreso
 
 Espera mientras la imagen se descarga
 ![delta5](images/delta5.png)

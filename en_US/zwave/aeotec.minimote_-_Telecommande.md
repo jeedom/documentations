@@ -25,7 +25,7 @@ Summary
 \
 
 This Aeon Labs mini controller is compatible with a wide variety of
-Z-Wave modules such as switches, dimmers,
+Z-Wave modules such as switches, dimmers, detectors
 movement, switches for blinds ... So you can order at
 distance your lights, devices or roller shutters. With this
 remote control, you can also include / exclude
@@ -86,7 +86,7 @@ Module data
 
 -   Mark : Aeotec
 
--   Name : Minimote
+-   Last name : Minimote
 
 -   Manufacturer ID : 134
 
@@ -96,14 +96,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Commands](images/aeotec.minimote/commandes.jpg)
+![Orders](images/aeotec.minimote/commandes.jpg)
 
 \
 
@@ -180,7 +180,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 

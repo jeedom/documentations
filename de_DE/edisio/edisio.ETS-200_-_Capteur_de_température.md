@@ -27,7 +27,7 @@ Funktionen
 
 -   Ultrakompakt
 
--   Signal wird während einer Zunahme oder Abnahme sofort übertragen
+-   Signal wird sofort während einer Zunahme oder Abnahme übertragen
     Temperatur
 
 -   Benutzerfreundlichkeit und Installation
@@ -41,9 +41,9 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Verwendung : Drinnen
+-   Verwenden Sie : Drinnen
 
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
+-   Essen : 3VDC (Lithiumbatterie ER14250)
 
 -   Autonomie : Bis zu 3 Jahre
 
@@ -62,7 +62,7 @@ Moduldaten
 
 -   Machen Sie : Edisio Smart Home
 
--   Name : ETS-200
+-   Nachname : ETS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -79,7 +79,7 @@ beziehen sich darauf
 > **Tip**
 >
 > Die Platzierung wird in einer Höhe von 150 cm und in der Nähe empfohlen
-> die gewünschte Temperatur.
+> die gewünschte Filztemperatur.
 
 "E" -Taste" 
 ----------
@@ -89,7 +89,7 @@ Temperatursensor.
 
 ![ets200.bouton e](images/ets200/ets200.bouton-e.jpg)
 
-Temperaturdelta einstellen 
+Temperatur-Delta-Einstellung 
 -------------------------------
 
 Standardmäßig ist das Temperaturdelta auf 1 ° C (+/- 10%) programmiert, um
@@ -108,17 +108,17 @@ sauvegarder.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
-Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
+Sobald Ihre zugehörige Ausrüstung, sollten Sie diese erhalten :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Befehle 
+Bestellungen 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
 mit dem Modul verbunden :
 
-![Befehle](images/ets200/ets200.commandes.jpg)
+![Bestellungen](images/ets200/ets200.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
@@ -126,21 +126,21 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
+Informationen 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
 verfügbar :
 
-![Befehle](images/ets200/ets200.informations.jpg)
+![Bestellungen](images/ets200/ets200.informations.jpg)
 
--   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
+-   Schöpfung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
 -   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
 **@Jamsta**

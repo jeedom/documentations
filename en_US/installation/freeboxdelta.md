@@ -2,13 +2,13 @@
 
 It is possible to install on Freebox Delta Jeedom via the VM system.
 
-## Connection to the Delta
+## Delta connection
 
 You must go to the configuration interface of your Freebox Delta. Then click on VMs.
 
 ![delta1](images/delta1.png)
 
-## Set the different options
+## Configure the different options
 
 Click on "Add a VM"
 ![delta2](images/delta2.png)

@@ -31,7 +31,7 @@ Geräte aus der Ferne über Webbrowser oder Smartphone. Verwenden von
 Mit der Z-Wave-Technologie ist die PowerNode-Steckdosenleiste kompatibel mit der
 Die meisten Hausautomationsboxen auf dem Markt wie Fibaro Home Center 2, eedomus
 oder Zipabox. Ausgestattet mit 6 Ports kann es 6 unabhängig steuern
-verschiedene Elektrogeräte mit einer Gesamtleistung von 10A.
+verschiedene elektrische Geräte mit einer Gesamtleistung von 10A.
 
 Die PowerNode-Steckdosenleiste erfasst Verbrauchsdaten
 von Energie von angeschlossenen Geräten und überträgt sie an die Hausautomationsbox.
@@ -40,7 +40,7 @@ verbunden. Mit dieser Steckdosenleiste können Sie auch aktivieren oder deaktivi
 Geräte aus der Ferne über einen Webbrowser oder ein Smartphone oder
 Legen Sie einen Zeitplan fest, um Ihre automatisch zu aktivieren oder zu deaktivieren
 Geräte zu voreingestellten Zeiten. Ein kleines Rad an der Seite des
-Mit Multi-Socket können Sie eine Farbe auswählen, die das Teil darstellt, für das
+Mit mehreren Sockeln können Sie eine Farbe auswählen, die das Teil darstellt, für das
 das ist die Steckdosenleiste betroffen. Zum Beispiel "blau für das Schlafzimmer
 ". Mit diesem Tipp können Sie Ihre verschiedenen unterscheiden
 PowerNode-Steckdosenleiste. Sie können dieses Einstellrad auch auf a stellen
@@ -59,7 +59,7 @@ defekt oder Kurzschluss. Zusätzlicher Schutz ist
 Dies wird durch die interne Sicherung in der Steckdosenleiste sichergestellt.
 
 Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in
-ein TV-Schrank oder zur Steuerung von Computergeräten
+ein Fernsehschrank oder zur Steuerung von Computergeräten
 in einem Büro und vermeiden Sie daher die Verwendung von 6 Z-Wave-Buchsen
 individuell. \.
 
@@ -90,7 +90,7 @@ Technische Daten
 
 \.
 
--   Versorgung : 250 V AC, 50 Hz
+-   Essen : 250 V AC, 50 Hz
 
 -   Maximaler Ladestrom : 10A
 
@@ -125,7 +125,7 @@ Moduldaten
 
 -   Machen Sie : GreenWave
 
--   Name : GreenWave \ [6 x Sockets \]
+-   Nachname : GreenWave \ [6 x Sockets \]
 
 -   Hersteller ID : 153
 
@@ -148,8 +148,8 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
-> Einschluss an der Steckdose vorhanden.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
+> Aufnahme in die Steckdose.
 
 \.
 
@@ -165,24 +165,24 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/greenwave.powernode/commandes.jpg)
+![Bestellungen](images/greenwave.powernode/commandes.jpg)
 
-![Befehle](images/greenwave.powernode/commandes2.jpg)
+![Bestellungen](images/greenwave.powernode/commandes2.jpg)
 
-![Befehle](images/greenwave.powernode/commandes3.jpg)
+![Bestellungen](images/greenwave.powernode/commandes3.jpg)
 
-![Befehle](images/greenwave.powernode/commandes4.jpg)
+![Bestellungen](images/greenwave.powernode/commandes4.jpg)
 
-![Befehle](images/greenwave.powernode/commandes5.jpg)
+![Bestellungen](images/greenwave.powernode/commandes5.jpg)
 
 \.
 
@@ -200,20 +200,20 @@ Hier ist die Liste der Befehle :
 -   Power-1 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 1
 
--   Conso-1 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-1 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 1
 
 -   Zustand-2 : Es ist der Befehl, mit dem der Status des
     nimm 2
 
--   On-2 : Es ist der Befehl, der Socket 2 einschaltet
+-   On-2 : Dies ist der Befehl, der Socket 2 einschaltet
 
--   Aus-2 : Es ist der Befehl, der Sockel 2 ausschaltet
+-   Aus-2 : Es ist der Befehl, der Socket 2 ausschaltet
 
 -   Power-2 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 2
 
--   Conso-2 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-2 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 2
 
 -   Zustand-3 : Es ist der Befehl, mit dem der Status des
@@ -226,20 +226,20 @@ Hier ist die Liste der Befehle :
 -   Power-3 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 3
 
--   Conso-3 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-3 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 3
 
 -   Zustand-4 : Es ist der Befehl, mit dem der Status des
     nimm 4
 
--   On-4 : Es ist der Befehl, der Socket 4 einschaltet
+-   On-4 : Dies ist der Befehl, der Socket 4 einschaltet
 
 -   Aus-4 : Es ist der Befehl, der Socket 4 ausschaltet
 
 -   Power-4 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 4
 
--   Conso-4 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-4 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 4
 
 -   Zustand-5 : Es ist der Befehl, mit dem der Status des
@@ -252,7 +252,7 @@ Hier ist die Liste der Befehle :
 -   Power-5 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 5
 
--   Conso-5 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-5 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 5
 
 -   Zustand-6 : Es ist der Befehl, mit dem der Status des
@@ -265,7 +265,7 @@ Hier ist die Liste der Befehle :
 -   Power-6 : Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 6
 
--   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-6 : Es ist die Bestellung, die den Gesamtverbrauch des
     nimm 6
 
 \.
@@ -280,7 +280,7 @@ in einer Taste.
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.

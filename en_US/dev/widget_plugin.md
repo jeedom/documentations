@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 The preToHtml function returns :
 
-- a string if the widget is cached (if it is cached, there has been no change since the last generation, so you might want to send it right away)
+- a string if the widget is cached (if it is cached, there has been no change since the last generation, so you might want to return it immediately)
 - a table with the main replaces, you have the list [here](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## The template system
@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Here we will create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it's those with tmpl in their name), for an info type command and under string type.
+Here we will create a new widget based on the template "tmplmultistate" (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it's those with tmpl in their name), for an info type command and under string type.
 
 > **IMPORTANT**
 >
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example it will be id_plugin::toto
+It's like a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example it will be id_plugin::toto
 
 

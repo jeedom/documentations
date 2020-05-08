@@ -35,7 +35,7 @@ tableta o teléfono inteligente. Así controlará el acceso de sus invitados o
 de trabajadores y puede monitorear efectivamente su interior.
 Diferentes configuraciones le permitirán controlar el acceso a su
 casa Danalock tiene una función de bloqueo automático que permite
-cerradura de puerta automática. Ideal cuando no
+cerradura de puerta de entrada automática. Ideal cuando no tienes
 no manos libres, por ejemplo. Además, se proporcionan 5 llaves. Vosotras
 puede usarlos desde afuera. La instalación es rápida y fácil.
 a realizar independientemente del tipo de puerta. La aplicación correspondiente
@@ -61,7 +61,7 @@ la calibración de tu Danalock.
 Bloquear y desbloquear con el botón, la función TwistAssist o
 usando su teléfono inteligente. Y con la función de desbloqueo automático,
 La cerradura Danalock abre automáticamente la puerta cuando
-acércate a tu casa y ciérrala justo después de
+acércate a tu casa y ciérrala justo después de que estés
 rentré.
 
 **Batería de larga duración**
@@ -76,11 +76,11 @@ se envía por SMS y correo electrónico.
 **Acceso limitado o permanente**
 
 No más esconder las llaves debajo del felpudo. Dale a tu
-Acceso familiar rápido y fácil con sus Smartphones. A tu esposa
+Acceso familiar rápido y fácil con sus teléfonos inteligentes. A tu esposa
 limpieza o sus invitados, acceso por tiempo limitado o recurrente y
 recibir notificaciones cuando su candado está en uso y por quién.
 
-**Control total de la casa.**
+**Control total de la casa**
 
 Desarrolle el control de su hogar inteligente con un Danalock,
 el iniciador perfecto para todos sus pedidos de casas. Danalock
@@ -88,14 +88,14 @@ funciona a la perfección con otros dispositivos domésticos
 inteligente, y toda la comunicación está altamente encriptada - nadie
 no pueden hackear su camino hacia su casa.
 
-**Discreto, sostenible y danés**
+**Discreto, duradero y danés**
 
 Danalock combina la elegancia y el minimalismo del diseño escandinavo, con
 bisel de aluminio anodizado sólido y tecnologías avanzadas
 Bluetooth y Z-Wave. Un diseño danés discreto construido para durar.
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -136,7 +136,7 @@ Características técnicas
 
 \
 
--   Suministro : 4 baterías CR123 3V
+-   Comida : 4 baterías CR123 3V
 
 -   Versiones : V2
 
@@ -157,7 +157,7 @@ Datos del módulo
 
 -   Hacer : Poly-Control
 
--   Nombre : Danalock V2 BTZE
+-   Apellido : Danalock V2 BTZE
 
 -   ID del fabricante : 010e
 
@@ -167,14 +167,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -185,7 +185,7 @@ inclusión refiérase a esto
 \
 
 Para poner el complemento Z-Wave (openzwave) en Jeedom en modo de inclusión
-seguro : simplemente vaya a la página de administración del módulo Z-wave
+seguro : solo ve a la página de administración del módulo Z-wave
 y haga clic en el icono "Red Zwave"
 
 ![inclusion securise jeedom
@@ -224,7 +224,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -233,7 +233,7 @@ disponibles.
 
 \
 
-![Comandos](images/polycontrol.danalock/commandes.jpg)
+![Órdenes](images/polycontrol.danalock/commandes.jpg)
 
 \
 
@@ -246,7 +246,7 @@ Aquí está la lista de comandos :
 
 -   Abrir : es el comando que abre la cerradura
 
--   Cerca : es el comando que hace posible cerrar la cerradura
+-   Cerrar : es el comando que hace posible cerrar la cerradura
 
 -   Batería : es el comando de la batería
 
@@ -271,7 +271,7 @@ Complemento Jeedom OpenZwave.
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -300,17 +300,17 @@ Detalles del parámetro :
 
 -   4 : Número de vueltas (1 = 10 grados, 9 = 90 grados, etc.)
 
--   5 : Bloqueo automático 0-60 ¿Cuántos segundos desde el momento?
+-   5 : Bloqueo automático 0-60 Cuántos segundos desde el momento
     la cerradura se ha desbloqueado para cerrar automáticamente
     de nuevo. Si 0, está deshabilitado.
 
 -   6 : Desactivar o activar la señal de bloqueo o
-    desbloqueo (0 = Desactivar, 1 = Activar)
+    Desbloqueo (0 = Desactivar, 1 = Activar)
 
 -   7 : Tipo de batería : Configure el tipo de batería que
     alimenta el dispositivo.
 
--   8 : Alarma de la batería : Cuando el nivel de la batería es más bajo
+-   8 : Alarma de batería : Cuando el nivel de la batería es más bajo
     a este valor, el dispositivo informará al usuario con una señal
     sonido después de bloquear o desbloquear.
 

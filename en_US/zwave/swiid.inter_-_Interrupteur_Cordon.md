@@ -33,7 +33,7 @@ ordinary and remote cord switch via controller
 Z-Wave.
 
 The SwiidInter switch also offers association possibilities
-and this two-way. Thus, it can be operated automatically by a
+and this two-way. Thus, it can be activated automatically by a
 other Z-Wave device on the same network, such as the
 presence detector triggered. Conversely with support
 short or with a long press it can control two separate groups of
@@ -58,7 +58,7 @@ Functions
 -   Cord switch usable both manually
     (short press) and by remote radio (Z-Wave)
 
--   Use as a replacement for a standard cord switch
+-   Use in place of a standard cord switch
     a bedside, table or desk lamp
 
 -   ON / OFF function
@@ -114,7 +114,7 @@ Module data
 
 -   Mark : Swiid
 
--   Name : Swiidinter
+-   Last name : Swiidinter
 
 -   Manufacturer ID : 358
 
@@ -124,14 +124,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -154,7 +154,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -163,7 +163,7 @@ disponibles.
 
 \
 
-![Commands](images/swiid.inter/commandes.jpg)
+![Orders](images/swiid.inter/commandes.jpg)
 
 \
 
@@ -172,11 +172,11 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    Light
+    light
 
--   We : It is the control that turns on the light
+-   WE : It is the control that turns on the light
 
--   Off : It is the command that turns off the light
+-   OFF : It is the command that turns off the light
 
 \
 
@@ -190,12 +190,12 @@ icone
 \
 
 You can configure the module according to your
-installation. This requires going through the "Configuration" button of the
+installation. To do this, go to the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -220,10 +220,10 @@ swiidinter to another module (long press)
 -   Inactive : will have no effect on other lights
 
 -   Only OFF : will be effective only to turn off others
-    Lights
+    lights
 
 -   ON ONLY : will be effective only to turn on the others
-    Lights
+    lights
 
 -   ON and OFF (fully) : will be effective to turn on and off the
     other lights
@@ -288,7 +288,7 @@ Faq.
 \
 
 Have you combined the two modules and have you configured the part correctly?
-Specific.
+specific.
 
 \
 

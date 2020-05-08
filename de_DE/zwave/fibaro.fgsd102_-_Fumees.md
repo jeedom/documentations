@@ -40,10 +40,10 @@ Plus.
 Einige Materialien brennen ohne zu rauchen. Deshalb die Ingenieure bei
 Fibaro hat beschlossen, zusätzlichen Schutz in ihre aufzunehmen
 Rauchmelder in Form eines Temperatursensors. Wenn die
-Nicht genug Rauch, um Alarm zu schlagen,
+nicht genug Rauch, um Alarm zu schlagen,
 Das Gerät kann weiterhin eine Bedrohung durch Erkennen erkennen
 eine schnelle Änderung der Temperatur durch Feuer verursacht. Eine Veränderung
-Ein schneller Temperaturanstieg oder -anstieg auf 54 ° C ist ausreichend
+Ein schneller Temperaturanstieg oder bis zu 54 ° C ist ausreichend
 damit der Rauchsensor eine Bedrohung erkennt und an meldet
 Bewohner des Hauses. Nur diese Art von Rauchsensor bietet
 hohe Effizienz, unabhängig davon, was brennt.
@@ -87,7 +87,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 3V CR123A Lithiumbatterie
+-   Essen : 3V CR123A Lithiumbatterie
 
 -   Akkulaufzeit : 3 Jahre
 
@@ -123,7 +123,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Fibaro Rauchsensor FGSD-002
+-   Nachname : Fibaro Rauchsensor FGSD-002
 
 -   Hersteller ID : 271
 
@@ -163,16 +163,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgsd102/commandes.jpg)
+![Bestellungen](images/fibaro.fgsd102/commandes.jpg)
 
 \.
 
@@ -188,7 +188,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
     des Falles
 
--   Testalarm : Es ist der Befehl, der die Tatsache aufzeigt, dass das Modul
+-   Testalarm : Es ist der Befehl, der die Tatsache wieder zusammensetzt, dass das Modul
     ist im Testmodus
 
 -   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst

@@ -8,11 +8,11 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 ## Descargue la última imagen "lite""
 
-[aquí](https://downloads.raspberrypi.org/raspbian_lite_latest)
+[aqui](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
 ## Grabe esta imagen en una SD con etcher, por ejemplo
 
-[aquí](https://etcher.io/)
+[aqui](https://etcher.io/)
 
 > **Note**
 >
@@ -45,11 +45,11 @@ Identifica tu Pi en la red
 Necesita saber la dirección IP de su PI. Varias soluciones :
 
 -   Consulte la configuración de DHCP en su enrutador
--   Utilice un escáner de puertos de tipo angyipscanner" [aquí](http://angryip.org/download/#windows)
+-   Utilice un escáner de puertos de tipo angyipscanner" [aqui](http://angryip.org/download/#windows)
 
 Establecer conexión
 
-Luego use, por ejemplo, masilla para establecer su conexión [Aquí](http://www.putty.org/)
+Luego use, por ejemplo, masilla para establecer su conexión [Aqui](http://www.putty.org/)
 
 Ingrese la dirección IP de su PI (aquí 192.168.0.10) y haga clic en abrir. Acepte el mensaje de seguridad predeterminado al iniciar sesión por primera vez.
 
@@ -57,7 +57,7 @@ Inicie sesión con credenciales **pi / frambuesa**
 
 > **Important**
 >
-> Por razones de seguridad, es imprescindible cambiar la contraseña predeterminada. Los casos de piratería basada en el uso del par de inicio de sesión / contraseña predeterminado de la Frambuesa están particularmente extendidos. (comando passwd y sudo passwd)
+> Por razones de seguridad, es imprescindible cambiar la contraseña predeterminada. Los casos de piratería informática basados en el uso del par predeterminado de inicio de sesión / contraseña de Raspberry están particularmente extendidos. (comando passwd y sudo passwd)
 
 ## Inicie el script de instalación de jeedom
 
@@ -67,7 +67,7 @@ Inicie sesión con credenciales **pi / frambuesa**
 
 > **Note**
 >
-> Dependiendo de su velocidad de internet, la instalación puede tomar de 45 a 90 minutos.. No debe interrumpir el proceso antes del final.. De lo contrario, tendrá que repetir todo el procedimiento..
+> Dependiendo de su velocidad de internet, la instalación puede tomar de 45 a 90 minutos.. No debe interrumpir el proceso antes del final.. De lo contrario, debe repetir todo el procedimiento..
 
 Luego solo vaya a IP\_MACHINE\_JEEDOM
 
@@ -83,7 +83,7 @@ Luego solo vaya a IP\_MACHINE\_JEEDOM
 ./install.sh -w /var/www/html -z
 ````
 
-## Optimizacion del sistema
+## Sistema de optimización
 
 Si usa su Raspberry for Jeedom sin una pantalla conectada, se recomienda llevar la RAM mínima en la parte de video.
 

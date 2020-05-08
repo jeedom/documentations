@@ -25,7 +25,7 @@ Zusammenfassung
 \.
 
 Dieser Aeon Labs Mini-Controller ist mit einer Vielzahl von kompatibel
-Z-Wave-Module wie Schalter, Dimmer,
+Z-Wave-Module wie Schalter, Dimmer, Detektoren
 Bewegung, Schalter für Jalousien ... So können Sie bei bestellen
 Entfernen Sie Ihre Lichter, Geräte oder Rollläden. Damit
 Fernbedienung können Sie auch ein- / ausschließen
@@ -63,9 +63,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave-Controller
 
--   Farbe : Blanc
+-   Farbe: : Blanc
 
--   Versorgung : interner Akku über USB
+-   Essen : interner Akku über USB
 
 -   Affichage: Blaue und rote LED
 
@@ -86,7 +86,7 @@ Moduldaten
 
 -   Machen Sie : Aeotec
 
--   Name : Minimote
+-   Nachname : Minimote
 
 -   Hersteller ID : 134
 
@@ -109,7 +109,7 @@ Aufnahme beziehen sich darauf
 
 > **Important**
 >
-> Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
 \.
@@ -126,16 +126,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/aeotec.minimote/commandes.jpg)
+![Bestellungen](images/aeotec.minimote/commandes.jpg)
 
 \.
 
@@ -143,7 +143,7 @@ Hier ist die Liste der Befehle :
 
 \.
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Knöpfe : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -206,7 +206,7 @@ Parameterdetails :
 -   244: Betriebsart Taste 4 (standardmäßig verlassen)
 
 -   250: Betriebsart der Fernbedienung (unbedingt verlassen
-    Szene für Fernbedienung)
+    Szene zur Fernbedienung)
 
 \.
 

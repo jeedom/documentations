@@ -1,4 +1,4 @@
-Fibaro Dimmer - REA-211 
+ 
 =======================
 
 \.
@@ -24,33 +24,33 @@ Zusammenfassung
 
 \.
 
-Mit dem Dimmermodul FGD-211 können Sie a steuern
+
 Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
 Behalten Sie Ihren vorhandenen Schalter.
 
 Sie können daher die angeschlossene Lampe aktivieren und variieren
 Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
 direkt von der Taste am Mikromodul. Er ist
-Kompatibel mit jeder Art von Lampe, die Variationen unterstützt
-(Glühlampe, Fluo-Compact, LED,…). Das Fibaro-Dimmermodul
-ist ein Konzentrat der Technologie, es erkennt automatisch die Art von
-angeschlossene Last und ist gegen Überspannung geschützt.
 
-Für Leuchtstofflampen, die keine Variation unterstützen, ist die
-Das Modul fungiert dann automatisch als Schaltmodul (EIN / AUS)
+. 
+
+.
+
+
+
 uniquement).
 
 Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
 vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
 Modul (Phase + Neutral).
 
-Für Lampen mit sehr geringem Verbrauch (LED-Lampe von
-Beispiel) können Sie die FGB-001-Last (Bypass) verwenden, die dies ermöglicht
-korrekter Betrieb des Moduls. Eine Z-Wave-Steuerung (Fernbedienung),
+
+
+. Eine Z-Wave-Steuerung (Fernbedienung),
 Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
-wenn Sie bereits ein vorhandenes Netzwerk haben. Jedes Z-Wave-Modul funktioniert
-als drahtloser Repeater mit den anderen Modulen zu gewährleisten
-Gesamtabdeckung Ihres Hauses.
+. 
+
+.
 
 \.
 
@@ -84,11 +84,11 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Essen : 230 V, 50 Hz
 
--   Verkabelung : Neutral nicht erforderlich
+-   Verkabelung : Neutral nicht notwendig
 
--   Maximale Belastung : 25-500W (ohmsche Last) oder 1.5A (induktive Last)
+-   Maximale Belastung : .
 
 -   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
     Halogen (230VAC und 12VDC mit elektronischem Transformator), LED
@@ -118,7 +118,7 @@ Moduldaten
 
 -   Machen Sie : Fibar Group
 
--   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Nachname : Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -166,16 +166,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \.
 
-### Befehle 
+### Bestellungen 
 
 \.
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
+Sobald das Modul erkannt wurde, lauten die dem Modul zugeordneten Befehle
 disponibles.
 
 \.
 
-![Befehle](images/fibaro.fgd211/commandes.jpg)
+![Bestellungen](images/fibaro.fgd211/commandes.jpg)
 
 \.
 
@@ -186,11 +186,11 @@ Hier ist die Liste der Befehle :
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Wir : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Staat : Es ist der Befehl, mit dem der Status des
     Licht
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
@@ -203,7 +203,7 @@ icone
 \.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
+Installation. Gehen Sie dazu auf die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
 \.
@@ -229,7 +229,7 @@ Parameterdetails :
 
 \.
 
--   1: ALL ON / ALL OFF-Funktionen : wird nur verwendet, wenn Sie die zugeordnet haben
+-   1: ALL ON / ALL OFF-Funktionen : verwendet, wenn Sie die zugeordnet haben
     REA-211 zu einem anderen Modul
 
 -   6: Nehmen wir an, wie Informationen an die Gruppe gesendet werden
@@ -253,7 +253,7 @@ Parameterdetails :
 -   14: WICHTIGE EINSTELLUNG : ermöglicht die Wahl zwischen Schalter
     BISTABLE oder MONOSTABLE (Druckknopf)
 
--   15: Aktiviert die Option, mit der die Helligkeit auf das Maximum eingestellt werden kann
+-   15: Aktiviert die Option zum Einstellen der maximalen Helligkeit
     bei doppelter Presse (oder zurück auf bistabil)
 
 -   16: Option zum Aktivieren der Speicherung des letzten Status
@@ -261,7 +261,7 @@ Parameterdetails :
 -   17: Hier können Sie zwischen dem Hin- und Her-Modus und wählen
     Fernbedienungsschalter
 
--   18: Ermöglicht die Synchronisierung des Variationsgrads mit anderen
+-   18: Mit dieser Option können Sie den Variationsgrad mit anderen synchronisieren
     zugehörige Laufwerke
 
 -   19: Betriebsart des bistabilen Schalters (Rückwärtsfahrt)

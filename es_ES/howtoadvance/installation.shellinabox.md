@@ -27,7 +27,7 @@ y luego reinicia Apache
 Proxy inverso Nginx 
 ===================
 
-Debe crear un archivo en /etc/nginx/sites-enabled/shellinabox.conf
+Se debe crear un archivo en /etc/nginx/sites-enabled/shellinabox.conf
 con el contenido a continuación y luego reinicie Nginx
 
     ubicación / jeedom / shellinabox / {

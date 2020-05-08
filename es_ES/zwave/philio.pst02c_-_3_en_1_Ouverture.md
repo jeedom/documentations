@@ -31,8 +31,8 @@ para ser colocado en una puerta o ventana con el imán fijado en el
 parte de apertura y el detector en la parte fija.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
-detector, que activará el detector que enviará una señal Z-Wave
-alarma, si el sistema está armado (esta señal puede ser utilizada por un
+detector, que activará el detector que enviará una señal de onda Z
+alarma, si el sistema está armado (esta señal puede ser explotada por un
 sirena o por una caja de automatización del hogar, por ejemplo). El sensor también puede
 ser utilizado para el control automático de iluminación, dependiendo del
 nivel de brillo. Por ejemplo, el sensor enviará una señal a
@@ -49,7 +49,7 @@ existant.
 
 \
 
-Funciones 
+Las funciones 
 ---------
 
 \
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería CR123A 3V
+-   Comida : 1 batería CR123A 3V
 
 -   Duración de la batería : 3 años (para 14 viajes por día)
 
@@ -122,7 +122,7 @@ Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 
--   Nombre : PST02-C Sensor de puerta / ventana 3 en 1
+-   Apellido : PST02-C Sensor de puerta / ventana 3 en 1
 
 -   ID del fabricante : 316
 
@@ -132,14 +132,14 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuracion 
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
@@ -162,7 +162,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Órdenes 
 
 \
 
@@ -171,7 +171,7 @@ disponibles.
 
 \
 
-![Comandos](images/philio.pst02c/commandes.jpg)
+![Órdenes](images/philio.pst02c/commandes.jpg)
 
 \
 
@@ -183,7 +183,7 @@ Aquí está la lista de comandos :
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
-    Temperatura
+    temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -208,7 +208,7 @@ de su instalación, debe pasar por el botón
 
 \
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuracion plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -252,13 +252,13 @@ Detalles del parámetro :
 -   10: le permite definir la duración entre dos informes de batería (uno
     unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automáticos
+-   11: le permite definir la duración entre dos informes de apertura automática
     (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos auto
+-   12: le permite definir la duración entre dos automáticos
     brillo (una unidad = parámetro 20) Valor recomendado : 3
 
--   13: le permite definir la duración entre dos auto
+-   13: le permite definir la duración entre dos automáticos
     temperatura (una unidad = parámetro 20) Valor recomendado : 2
 
 -   20: duración de un intervalo para los parámetros 10 a 13 Valor

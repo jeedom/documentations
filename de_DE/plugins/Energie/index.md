@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Palazzetti/Palazzetti_icon.png" class="pluginLogo" width="100" />|Palazzetti|Plugin Autor : Narsene.<br/>BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. <br/>Pelletofen-Steuerungs-Plugin der Marke Palazzetti über die Connection Box|[Dokumentation](Palazzetti/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|
+|<img src="Palazzetti/Palazzetti_icon.png" class="pluginLogo" width="100" />|Palazzetti|Plugin Autor : Narsene.<br/>BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. <br/>Pelletofen-Steuerungs-Plugin der Marke Palazzetti über die Anschlussbox|[Dokumentation](Palazzetti/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3104)|

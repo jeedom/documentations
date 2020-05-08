@@ -1,5 +1,5 @@
-OpenGarage es un objeto de tipo DIY pero también disponible montado en
-usado en el garaje.
+OpenGarage es un objeto de bricolaje pero también disponible montado en
+que se usa en el garaje.
 
 Ofrece la activación de un relé (para abrir el garaje) y un
 sensor de distancia para verificar la presencia del automóvil.
@@ -15,7 +15,7 @@ uso es :
     http://addropengarage/jc
 
 El resultado es un json.. Así que usa equipo tipo
-Script y comando de información de tipo json
+Script y un comando de información de tipo json
 
 Para el estado del relé, el nombre de la propiedad del json : door
 

@@ -40,7 +40,7 @@ changes in infrared radiation levels (presence) and
 changes in the brightness level. So we can trigger a
 lighting when motion is detected in the dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and temperature, i.e.
 significant change, and each time a movement is
 detected. A Z-Wave controller (remote control, dongle, etc.) is required
 in order to integrate this detector into your network if you already have a
@@ -121,7 +121,7 @@ Module data
 
 -   Mark : Philio Technology Corporation
 
--   Name : Philio PSP01
+-   Last name : Philio PSP01
 
 -   Manufacturer ID : 316
 
@@ -131,14 +131,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -161,7 +161,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -170,7 +170,7 @@ disponibles.
 
 \
 
-![Commands](images/philio.psp01/commandes.jpg)
+![Orders](images/philio.psp01/commandes.jpg)
 
 \
 
@@ -184,7 +184,7 @@ Here is the list of commands :
     d'ouverture
 
 -   Temperature : it is the command which allows to go up the
-    Temperature
+    temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -215,7 +215,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -259,7 +259,7 @@ Parameter details :
 -   12: used to define the duration between two brightness reports
     (one unit = 30 minutes)
 
--   13: allows to define the time between two temperature reports
+-   13: allows you to define the time between two temperature reports
     (one unit = 30 minutes)
 
 \
@@ -291,8 +291,8 @@ Good to know
 > This module has a particularity, not having a report based on the
 > variations but only over time, it sends all of its info to
 > each detection. It also sends the signal several times
-> presence detection following. It is therefore advisable to tick the
-> "Event on change" box on the presence if you use this
+> presence detection as a result. It is therefore advisable to tick the
+> "Event on change" box on presence if you use this
 > command in scenario trigger.
 
 \

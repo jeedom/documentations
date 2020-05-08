@@ -4,7 +4,7 @@
 >
 > The name of the Jeedom image may be different from that of the captures made in this documentation
 
-## Etcher installation
+## Installation of Etcher
 
 You must download Etcher software [here](https://etcher.io/) then install it on your pc
 
@@ -26,10 +26,10 @@ Unzip the Jeedom image (if you have nothing to unzip it you can install [winrar]
 
 Insert your SD card in your computer then launch the Etcher software, give it the path of the image, the path of the SD card and click on "Flash!". The software will burn the SD card and check the burning.
 
-You just have to put the SD card in the Jeedomboard (or Hummingboard), connect the network and the power supply, your Jeedom will start (5 min) and you should see it on the network.
+You just have to put the SD card in the Jeedomboard (or Hummingboard), to connect the network and the power supply, your Jeedom will start (5 min) and you should see it on the network.
 
 > **Tip**
 >
-> SSH IDs are jeedom / Mjeedom96
+> SSH identifiers are jeedom / Mjeedom96
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index.html)

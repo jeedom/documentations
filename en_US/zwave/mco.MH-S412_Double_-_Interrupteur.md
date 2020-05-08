@@ -49,7 +49,7 @@ Functions
 
 -   Support association commands (Group 1 and Group 2)
 
--   Control of the two charges locally
+-   Control of the two loads locally
 
 -   Status LED
 
@@ -91,7 +91,7 @@ Module data
 
 -   Mark : MC HOME
 
--   Name : MH-S412 Double
+-   Last name : MH-S412 Double
 
 -   Manufacturer ID : 351
 
@@ -101,14 +101,14 @@ Module data
 
 \
 
-Setup 
+Configuration 
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Orders 
 
 \
 
@@ -135,7 +135,7 @@ disponibles.
 
 \
 
-![Commands](images/mco.mhs412/commandes.jpg)
+![Orders](images/mco.mhs412/commandes.jpg)
 
 \
 
@@ -145,7 +145,7 @@ of your installation, you have to go through the button
 
 \
 
-![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 \
 
@@ -206,7 +206,7 @@ Wakeup
 
 This module being connected to the mains (220v), the alarm clock is instantaneous
 and therefore does not require any particular action when changing
-Settings
+settings
 
 \
 
@@ -216,11 +216,11 @@ Faq.
 \
 
 To exclude this model, put Openzwave in exclusion mode and press
-on one of the 2 buttons on the front panel for 3 sec, in accordance with its
+on only one of the 2 buttons on the front panel for 3 sec, in accordance with its
 paper documentation.
 
 To restore the factory settings, press only one of the 2 buttons
-on the front panel for 10 sec, in accordance with its paper documentation.
+on the front panel for 10 sec, according to its paper documentation.
 
 \
 
