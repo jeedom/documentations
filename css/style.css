@@ -106,6 +106,9 @@ body #div_content{
   scrollbar-color: var(--linkHover-color) transparent !important;
   scrollbar-width: thin;
 }
+button {
+  cursor: pointer;
+}
 
 #li_search i {
   cursor: pointer;

@@ -420,7 +420,8 @@ $('#li_search').on('click', function(event) {
   html += '<input id="inputSearch" type="text">'
   html += '<button id="buttonSearch" type="button">Search</button>'
   html += '<br><br>'
-  html += '<div id="searchResultContainer"'
+  html += '<div id="searchResultContainer"></div>'
+  html += '</div>'
   divContent.empty().append(html)
 
   var searchDataPath = 'https://doc.jeedom.com/fr_FR/i18n/fr_FR.json'
