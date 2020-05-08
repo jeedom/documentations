@@ -177,6 +177,9 @@ input,
   overflow: auto;
   height: calc(100% - 90px);
 }
+#ul_menu{
+  white-space: nowrap;
+}
 #ul_menu li,
 .sidenav li i {
   line-height: 32px !important;
@@ -196,7 +199,12 @@ input,
   color: var(--linkHoverLight-color) !important;
 }
 #ul_menu li.small {
-  line-height: 12px !important;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 14px !important;
+  text-align: center;
+  padding: 3px 8px;
+  margin: 5px 12px;
 }
 
 .divider {
@@ -359,10 +367,6 @@ blockquote {
   img.pluginLogo {
     width: 32px !important;
   }
-}
-
-#ul_menu{
-  white-space: nowrap;
 }
 
 pre{
