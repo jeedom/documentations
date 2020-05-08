@@ -412,25 +412,40 @@ function getUrlVars(_key) {
   return vars;
 }
 
-if($('#div_searchBar')){
-  var html = "<div>";
-  html += "<script>";
-  html += "(function() {";
-  html += "var cx = '007992890294536312136:75s0-jhumye';";
-  html += "var gcse = document.createElement('script');";
-  html += "gcse.type = 'text/javascript';";
-  html += "gcse.async = true;";
-  html += "gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;";
-  html += "var s = document.getElementsByTagName('script')[0];";
-  html += "s.parentNode.insertBefore(gcse, s);";
-  html += "})();";
-  html += "window.onload = function(){";
-  html += "$('#gsc-i-id1').removeAttr( 'style' );";
-  html += "$('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');";
-    html += "$('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');";
-    html += "};";
-    html += "</script>";
-    html += "<gcse:search></gcse:search>";
-    html += "</div>";
-    $('#div_searchBar').empty().append(html);
+
+$('#li_search').on('click', function(event) {
+  var divContent = $('#div_content')
+  var html = '<div>'
+  html += '<input id="inputSearch" type="text">'
+  html += '<button id="buttonSearch" type="button">Search</button>'
+  html += '<br><br>'
+  html += '<div id="searchResultContainer"'
+  divContent.empty().append(html)
+
+  var searchDataPath = 'https://doc.jeedom.com/fr_FR/i18n/fr_FR.json'
+  var searchData = false
+  $.getJSON(searchDataPath, function(data) {
+    searchData = data
+  })
+
+  $('#buttonSearch').on('click', function(event) {
+    var search = $('#inputSearch').val()
+    seachFor(search)
+  })
+
+  function seachFor(_search='') {
+    if (!searchData) return
+    if (_search == '') return
+    console.log(_search)
+    console.log(searchData)
+    for (page in searchData) {
+      //console.log(page)
+      for (item in searchData[page]) {
+        //console.log(searchData[page][item])
+        if(searchData[page][item].toLowerCase().includes(_search.toLowerCase())) {
+          console.log('______FOUND: ' + page)
+        }
+      }
+    }
   }
+})
