@@ -454,7 +454,7 @@ $('#li_search').on('click', function(event) {
         if(searchData[page][item].toLowerCase().includes(_search.toLowerCase())) {
           console.log('______FOUND: ' + page)
           result = '<div class="searchResult">'
-          result += '<a href="'+page+'">'+searchData[page][item]+'</a>'
+          result += '<a href="'+page.replace('.md', '')+'">'+searchData[page][item]+'</a>'
           result += '</div>'
           resultContainer.append(result)
         }

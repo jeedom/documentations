@@ -110,12 +110,17 @@ button {
   cursor: pointer;
 }
 
+
+/* search engine */
 #li_search i {
   cursor: pointer;
   font-size: 18px !important;
   height: 25px !important;
   line-height: 20px;
   padding-top: 24px;
+}
+#buttonSearch:hover {
+  opacity: .75;
 }
 #buttonSearch {
   border: none;
@@ -129,6 +134,17 @@ button {
 #inputSearch:focus {
   box-shadow: none !important;
 }
+#searchResultContainer .searchResult:before {
+  content: '\2713';
+  padding-right: 10px;
+}
+#searchResultContainer .searchResult {
+  margin-bottom: 10px;
+}
+
+
+
+
 .sidenav {
   width: 280px !important;
   background-color: var(--bg-modal-color) !important;
