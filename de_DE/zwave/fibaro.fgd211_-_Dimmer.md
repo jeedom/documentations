@@ -1,4 +1,4 @@
- 
+Fibaro Dimmer - REA-211 
 =======================
 
 \.
@@ -24,33 +24,33 @@ Zusammenfassung
 
 \.
 
-
+Mit dem Dimmermodul FGD-211 können Sie a steuern
 Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
 Behalten Sie Ihren vorhandenen Schalter.
 
 Sie können daher die angeschlossene Lampe aktivieren und variieren
 Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
 direkt von der Taste am Mikromodul. Er ist
+Kompatibel mit jeder Art von Lampe, die Variationen unterstützt
+(Glühlampe, Fluo-Compact, LED,…). Das Fibaro-Dimmer-Modul
+ist ein Konzentrat der Technologie, es erkennt automatisch die Art von
+angeschlossene Last und ist gegen Überspannung geschützt.
 
-. 
-
-.
-
-
-
+Für Leuchtstofflampen, die keine Variation unterstützen, ist die
+Das Modul fungiert dann automatisch als Schaltmodul (EIN / AUS)
 uniquement).
 
 Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
 vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
 Modul (Phase + Neutral).
 
-
-
-. Eine Z-Wave-Steuerung (Fernbedienung),
+Für Lampen mit sehr geringem Verbrauch (LED-Lampe von
+Beispiel) können Sie die FGB-001-Last (Bypass) verwenden, die dies ermöglicht
+korrekter Betrieb des Moduls. Eine Z-Wave-Steuerung (Fernbedienung),
 Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
-. 
-
-.
+wenn Sie bereits ein vorhandenes Netzwerk haben. Jedes Z-Wave-Modul funktioniert
+als drahtloser Repeater mit den anderen Modulen zu gewährleisten
+Gesamtabdeckung Ihres Hauses.
 
 \.
 
@@ -88,12 +88,12 @@ Technische Daten
 
 -   Verkabelung : Neutral nicht notwendig
 
--   Maximale Belastung : .
+-   Maximale Belastung : 25-500W (ohmsche Last) oder 1.5A (induktive Last)
 
 -   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
     Halogen (230VAC und 12VDC mit elektronischem Transformator), LED
 
--   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
+-    : 
 
 -   Sicherung : 2.5A
 
@@ -311,7 +311,7 @@ Gut zu wissen
 
 Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
 Schalter Sie können Ihren Schalter mehrmals drücken
-(oder bei einem bistabilen Schalter hin und her gehen)
+
 
 \.
 

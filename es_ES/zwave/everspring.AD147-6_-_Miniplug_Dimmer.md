@@ -25,7 +25,7 @@ Resumen
 \
 
 
-apagar las luces y el equipo eléctrico de su
+
 
 . 
 .
@@ -49,13 +49,13 @@ Las funciones
 
 -   
 
--   Control de carga local mediante botón integrado.
+-   
 
 -   Tecnología Z-Wave Plus
 
 -   
 
--   LED de estado en el botón integrado
+-   
 
 -   Función repetidora Z-Wave
 
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Affichage: LED en el botón
 
--   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
+-   Dimensiones :  :  : 52mm
 
 \
 
@@ -163,8 +163,8 @@ Aquí está la lista de comandos :
 
 \
 
-Tenga en cuenta que en el tablero, el estado, ON / OFF, información de intensidad es
-encontrado en el mismo icono.
+
+.
 
 \
 
@@ -204,8 +204,8 @@ Detalles del parámetro :
 -   3 : Este parámetro se usa para definir si el socket reanudará su estado
     (ON u OFF) después de una recuperación de energía.
 
--   4 : Este parámetro le permite definir si la salida funcionará en
-    variación o en modo encendido / apagado
+-   4 : 
+    
 
 ### Grupos 
 

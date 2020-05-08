@@ -3,7 +3,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|Aeotec||||[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../es_ES/zwave/images/134.0.0_dsd37_range.extender.repeater.jpg" width="60" />|Aeotec|Extensor de rango (DSD37)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red|[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../es_ES/zwave/images/134.1.1_dsa07203.z-stick.lite.jpg" width="60" />|Aeotec||Controlador|||
 |<img src="../../es_ES/zwave/images/134.1.22_dsA22_key.fob.jpg" width="60" />|Aeotec||Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html)|
 |<img src="../../es_ES/zwave/images/134.1.38_dsa38_panic.button.jpg" width="60" />|Aeotec||Control remoto||[](http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html)|
@@ -25,7 +25,7 @@
 |<img src="../../es_ES/zwave/images/134.2.54_dsb54_recessed.door.sensor.jpg" width="60" />|Aeotec||Ouverture|||
 |<img src="../../es_ES/zwave/images/134.2.5_dsb05_multi.sensor.jpg" width="60" />|Aeotec| |Multicapteurs|. |[](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
 |<img src="../../es_ES/zwave/images/134.2.74_zw074_multi-sensor.gen5.jpg" width="60" />|Aeotec||Multicapteurs||[](http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html)|
-|<img src="../../es_ES/zwave/images/134.2.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec||Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
+|<img src="../../es_ES/zwave/images/134.2.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Sensor de puerta empotrado Gen5 (ZW089)|Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 |<img src="../../es_ES/zwave/images/134.2.95_zw095_hem_gen5.jpg" width="60" />|Aeotec||Consommation|||
 ||Aeotec||Consommation|||
 ||Aeotec||Consommation|||
@@ -39,90 +39,90 @@
 |<img src="../../es_ES/zwave/images/134.258.122_zw122_water.sensor6.jpg" width="60" />|Aeotec||Fuite|||
 |<img src="../../es_ES/zwave/images/134.258.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec||Control remoto|Parcialmente compatible: Trabaja solo en asociación directa ||
 |<img src="../../es_ES/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)|Control remoto|Parcialmente compatible: Trabaja solo en asociación directa ||
-|<img src="../../es_ES/zwave/images/134.258.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec||Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
+|<img src="../../es_ES/zwave/images/134.258.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Sensor de puerta empotrado Gen5 (ZW089)|Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 ||Aeotec||Consommation|||
 ||Aeotec||Consommation|||
 ||Aeotec||Consommation|||
 |<img src="../../es_ES/zwave/images/134.258.97_zw097_dry.contact.sensor.gen5.jpg" width="60" />|Aeotec||Ouverture|||
 |<img src="../../es_ES/zwave/images/134.259.111_zw111.nano.dimmer.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.259.116_zw116.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.259.121_zw121_led_strip.jpg" width="60" />|Aeotec||RGBW|||
-|<img src="../../es_ES/zwave/images/134.259.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.259.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.259.62_zw62.garage.door.controller.jpg" width="60" />|Aeotec||Porte||[](http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html)|
-|<img src="../../es_ES/zwave/images/134.259.75_zw075_switch.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html)|
-|<img src="../../es_ES/zwave/images/134.259.78_zw078_heavy.duty.smart.switch.gen5.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html)|
-|<img src="../../es_ES/zwave/images/134.259.96_zw096_smart.switch.gen5.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
-|<img src="../../es_ES/zwave/images/134.259.98_zw098_rgbw_bulb.jpg" width="60" />|Aeotec||Ampoule||[](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
-|<img src="../../es_ES/zwave/images/134.259.99_zw099_smart.dimmer6.jpg" width="60" />|Aeotec||Prise|||
-|<img src="../../es_ES/zwave/images/134.260.117_zw117.range.extender.6.jpg" width="60" />|Aeotec|||||
-|<img src="../../es_ES/zwave/images/134.260.37_dsd37_range.extender.jpg" width="60" />|Aeotec||||[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
-|<img src="../../es_ES/zwave/images/134.260.80_zw080.siren.jpg" width="60" />|Aeotec||Sirena||[](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
+|<img src="../../es_ES/zwave/images/134.259.116_zw116.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW116)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.259.121_zw121_led_strip.jpg" width="60" />|Aeotec|Tira Led (ZW121)|RGBW|||
+|<img src="../../es_ES/zwave/images/134.259.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW132)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.259.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW140)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.259.62_zw62.garage.door.controller.jpg" width="60" />|Aeotec|Controlador de puerta de garaje Gen5 (ZW062)|Porte||[](http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html)|
+|<img src="../../es_ES/zwave/images/134.259.75_zw075_switch.jpg" width="60" />|Aeotec|Smart Switch Gen5 (ZW075)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html)|
+|<img src="../../es_ES/zwave/images/134.259.78_zw078_heavy.duty.smart.switch.gen5.jpg" width="60" />|Aeotec|Interruptor inteligente de servicio pesado Gen5 (ZW078)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html)|
+|<img src="../../es_ES/zwave/images/134.259.96_zw096_smart.switch.gen5.jpg" width="60" />|Aeotec|Interruptor inteligente 6 (ZW096)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
+|<img src="../../es_ES/zwave/images/134.259.98_zw098_rgbw_bulb.jpg" width="60" />|Aeotec|Bombilla LED (ZW098)|Ampoule||[](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
+|<img src="../../es_ES/zwave/images/134.259.99_zw099_smart.dimmer6.jpg" width="60" />|Aeotec|Dimmer inteligente 6 (ZW099)|Prise|||
+|<img src="../../es_ES/zwave/images/134.260.117_zw117.range.extender.6.jpg" width="60" />|Aeotec|Extensor de rango (ZW117)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red||
+|<img src="../../es_ES/zwave/images/134.260.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Extensor de rango (DSD37)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red|[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../es_ES/zwave/images/134.260.80_zw080.siren.jpg" width="60" />|Aeotec|Sirena Gen5 (ZW080)|Sirena||[](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../es_ES/zwave/images/134.3.10_dsc10_heavy.duty.smart.switch.jpg" width="60" />|Aeotec||Prise|||
 |<img src="../../es_ES/zwave/images/134.3.111_zw111.nano.dimmer.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.116_zw116.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.11_dsc11_smart.strip.jpg" width="60" />|Aeotec||Multiprise|||
-|<img src="../../es_ES/zwave/images/134.3.121_zw121_led_strip.jpg" width="60" />|Aeotec||RGBW|||
-|<img src="../../es_ES/zwave/images/134.3.12_dsc12103.micro.smart.energy.switch.jpg" width="60" />|Aeotec||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
-|<img src="../../es_ES/zwave/images/134.3.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.139_zw139.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
-|<img src="../../es_ES/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.14_dsc14104_blind.control.switch.jpg" width="60" />|Aeotec||Volets||[](http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html)|
-|<img src="../../es_ES/zwave/images/134.3.17_dsc17103_micro.double.switch_g2.jpg" width="60" />|Aeotec||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/285-aeon-labs-micromodule-commutateur-double-et-compteur-d-energie-1220000010949.html)|
-|<img src="../../es_ES/zwave/images/134.3.18_dsc18103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
-|<img src="../../es_ES/zwave/images/134.3.19_dsc19103_insert.dimmer.jpg" width="60" />|Aeotec||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
-|<img src="../../es_ES/zwave/images/134.3.26_dsc26103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.27_dsc27103_micro.dimmer.2nd.edition.jpg" width="60" />|Aeotec||Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.62_zw62.garage.door.controller.jpg" width="60" />|Aeotec||Porte||[](http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html)|
-|<img src="../../es_ES/zwave/images/134.3.6_dsc06106_smart.energy.switch.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html)|
-|<img src="../../es_ES/zwave/images/134.3.75_zw075_switch.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html)|
-|<img src="../../es_ES/zwave/images/134.3.78_zw078_heavy.duty.smart.switch.gen5.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html)|
-|<img src="../../es_ES/zwave/images/134.3.8_dsc08101_smart.energy.illuminator.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html)|
-|<img src="../../es_ES/zwave/images/134.3.96_zw096_smart.switch.gen5.jpg" width="60" />|Aeotec||Prise||[](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
-|<img src="../../es_ES/zwave/images/134.3.98_zw098_rgbw_bulb.jpg" width="60" />|Aeotec||Ampoule||[](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
-|<img src="../../es_ES/zwave/images/134.3.99_zw099_smart.dimmer6.jpg" width="60" />|Aeotec||Prise|||
-|<img src="../../es_ES/zwave/images/134.4.117_zw117.range.extender.6.jpg" width="60" />|Aeotec|||||
-|<img src="../../es_ES/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec||||[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
-|<img src="../../es_ES/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec||Sirena||[](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
-|<img src="../../es_ES/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec||Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-|<img src="../../es_ES/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec||Control remoto|||
-|<img src="../../es_ES/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec||Control remoto|||
-|<img src="../../es_ES/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/881.2.7_zwa008.door7.jpg" width="60" />|Aeotec||Ouverture|||
-|<img src="../../es_ES/zwave/images/881.3.162_zw162_doorbell6.jpg" width="60" />|Aeotec||Sirena|||
-|<img src="../../es_ES/zwave/images/881.3.175_zw175_switch.jpg" width="60" />|Aeotec||Prise|||
-|<img src="../../es_ES/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec||Prise|||
-|<img src="../../es_ES/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec||Ampoule|||
-|<img src="../../es_ES/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|Aeotec||Ampoule|||
+|<img src="../../es_ES/zwave/images/134.3.116_zw116.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW116)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.11_dsc11_smart.strip.jpg" width="60" />|Aeotec|Tira inteligente (DSC11)|Multiprise|||
+|<img src="../../es_ES/zwave/images/134.3.121_zw121_led_strip.jpg" width="60" />|Aeotec|Tira Led (ZW121)|RGBW|||
+|<img src="../../es_ES/zwave/images/134.3.12_dsc12103.micro.smart.energy.switch.jpg" width="60" />|Aeotec|Micro interruptor de energía inteligente (DSC12103)|Micromodule||[](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
+|<img src="../../es_ES/zwave/images/134.3.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW132)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.139_zw139.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW139)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec|Iluminador Micro Smart Energy (DSC13103)|Micromodule||[](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
+|<img src="../../es_ES/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW140)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.14_dsc14104_blind.control.switch.jpg" width="60" />|Aeotec|Controlador de micro motor (DSC14104)|Volets||[](http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html)|
+|<img src="../../es_ES/zwave/images/134.3.17_dsc17103_micro.double.switch_g2.jpg" width="60" />|Aeotec|Micro doble interruptor inteligente (DSC17103)|Micromodule|Prácticamente ya no se vende|[](http://www.domadoo.fr/fr/peripheriques/285-aeon-labs-micromodule-commutateur-double-et-compteur-d-energie-1220000010949.html)|
+|<img src="../../es_ES/zwave/images/134.3.18_dsc18103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec|Micro Smart Switch 2nd Edition (DSC18103)|Micromodule||[](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
+|<img src="../../es_ES/zwave/images/134.3.19_dsc19103_insert.dimmer.jpg" width="60" />|Aeotec|Micro Smart Dimmer 2nd Edition (DSC19103)|Micromodule||[](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
+|<img src="../../es_ES/zwave/images/134.3.26_dsc26103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec|Micro Switch 2nd Edition (DSC26103)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.27_dsc27103_micro.dimmer.2nd.edition.jpg" width="60" />|Aeotec|Micro Dimmer (DSC27103)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.62_zw62.garage.door.controller.jpg" width="60" />|Aeotec|Controlador de puerta de garaje Gen5 (ZW062)|Porte||[](http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html)|
+|<img src="../../es_ES/zwave/images/134.3.6_dsc06106_smart.energy.switch.jpg" width="60" />|Aeotec|Interruptor de energía inteligente (DSC06106)|Prise||[](http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html)|
+|<img src="../../es_ES/zwave/images/134.3.75_zw075_switch.jpg" width="60" />|Aeotec|Smart Switch Gen5 (ZW075)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html)|
+|<img src="../../es_ES/zwave/images/134.3.78_zw078_heavy.duty.smart.switch.gen5.jpg" width="60" />|Aeotec|Interruptor inteligente de servicio pesado Gen5 (ZW078)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html)|
+|<img src="../../es_ES/zwave/images/134.3.8_dsc08101_smart.energy.illuminator.jpg" width="60" />|Aeotec|Iluminador de energía inteligente (DSC08101)|Prise||[](http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html)|
+|<img src="../../es_ES/zwave/images/134.3.96_zw096_smart.switch.gen5.jpg" width="60" />|Aeotec|Interruptor inteligente 6 (ZW096)|Prise||[](http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html)|
+|<img src="../../es_ES/zwave/images/134.3.98_zw098_rgbw_bulb.jpg" width="60" />|Aeotec|Bombilla LED (ZW098)|Ampoule||[](http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html)|
+|<img src="../../es_ES/zwave/images/134.3.99_zw099_smart.dimmer6.jpg" width="60" />|Aeotec|Dimmer inteligente 6 (ZW099)|Prise|||
+|<img src="../../es_ES/zwave/images/134.4.117_zw117.range.extender.6.jpg" width="60" />|Aeotec|Extensor de rango (ZW117)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red||
+|<img src="../../es_ES/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Extensor de rango (DSD37)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red|[](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
+|<img src="../../es_ES/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Sirena Gen5 (ZW080)|Sirena||[](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
+|<img src="../../es_ES/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Sensor de puerta empotrado Gen5 (ZW089)|Ouverture||[](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
+|<img src="../../es_ES/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Control remoto|||
+|<img src="../../es_ES/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Control remoto|||
+|<img src="../../es_ES/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/881.2.7_zwa008.door7.jpg" width="60" />|Aeotec|Sensor de puerta / ventana 7 (ZWA008)|Ouverture|||
+|<img src="../../es_ES/zwave/images/881.3.162_zw162_doorbell6.jpg" width="60" />|Aeotec|Timbre 6 (ZW162)|Sirena|||
+|<img src="../../es_ES/zwave/images/881.3.175_zw175_switch.jpg" width="60" />|Aeotec|Interruptor inteligente 7 (ZW175)|Prise|||
+|<img src="../../es_ES/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec|Interruptor de temporizador Smart Boost (ZWA006)|Prise|||
+|<img src="../../es_ES/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec|Bombilla LED 6 Multi-Blanco (ZWA001)|Ampoule|||
+|<img src="../../es_ES/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|Aeotec|Bombilla LED 6 Multicolor (ZWA002)|Ampoule|||
 
-# 
+# Assa abloy
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/297.1.0_yrl220.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.2.0_yrd220.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.3.0_yrl210.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.4.0_yrd210.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.6.0_yrd240.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.7.0_ysl.doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
-|<img src="../../es_ES/zwave/images/297.7151.37424_doorlock.jpg" width="60" />|||Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.1.0_yrl220.doorlock.jpg" width="60" />|Assa abloy|Palanca de pantalla táctil de Yale (YRL220)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.2.0_yrd220.doorlock.jpg" width="60" />|Assa abloy|Cerrojo de pantalla táctil de Yale (YRD220)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.3.0_yrl210.doorlock.jpg" width="60" />|Assa abloy|Bloqueo de palanca de botón de Yale (YRL210)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.4.0_yrd210.doorlock.jpg" width="60" />|Assa abloy|Cerrojo de botón pulsador Yale (YRD210)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.6.0_yrd240.doorlock.jpg" width="60" />|Assa abloy|Cerrojo de pantalla táctil sin llave Yale Key (YRD240)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.7.0_ysl.doorlock.jpg" width="60" />|Assa abloy|Cerradura inteligente conectada sin llave Yale (YSL)|Serrure|Inclusión en modo seguro||
+|<img src="../../es_ES/zwave/images/297.7151.37424_doorlock.jpg" width="60" />|Assa abloy|Cerradura inteligente conectada sin llave Yale (YSL)|Serrure|Inclusión en modo seguro||
 
 # Benext
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Benext||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html)|
+||Benext|Dimmer incorporado|Micromodule||[](http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html)|
 |<img src="../../es_ES/zwave/images/138.20.257_panic.button.jpg" width="60" />|Benext|Botón de pánico|Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2349-benext-telecommande-bouton-d-urgence-z-wave-0632181493731.html)|
-|<img src="../../es_ES/zwave/images/138.21.257_panic.watch.jpg" width="60" />|Benext||Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html)|
-|<img src="../../es_ES/zwave/images/138.23.256_scene.controller.jpg" width="60" />|Benext||Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html)|
-|<img src="../../es_ES/zwave/images/138.24.256_plug.in.dimmer.jpg" width="60" />|Benext||Prise||[](http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html)|
-|<img src="../../es_ES/zwave/images/138.3.256_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/138.3.257_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/138.33.1_heating.control.jpg" width="60" />|Benext||Micromodule|||
-|<img src="../../es_ES/zwave/images/138.33.256_heating.control.jpg" width="60" />|Benext||Micromodule|||
-|<img src="../../es_ES/zwave/images/138.4.256_door.sensor.jpg" width="60" />|Benext||Ouverture|||
-|<img src="../../es_ES/zwave/images/138.4.257_door.sensor.jpg" width="60" />|Benext||Ouverture|||
+|<img src="../../es_ES/zwave/images/138.21.257_panic.watch.jpg" width="60" />|Benext|Reloj de pánico|Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html)|
+|<img src="../../es_ES/zwave/images/138.23.256_scene.controller.jpg" width="60" />|Benext|Controlador de escena 7 botones|Control remoto||[](http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html)|
+|<img src="../../es_ES/zwave/images/138.24.256_plug.in.dimmer.jpg" width="60" />|Benext|Dimmer enchufable|Prise||[](http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html)|
+|<img src="../../es_ES/zwave/images/138.3.256_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext|Sensor MoLite|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/138.3.257_zw-snmt-01.multi.sensor.jpg" width="60" />|Benext|Sensor MoLite|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/138.33.1_heating.control.jpg" width="60" />|Benext|Control de calentamiento|Micromodule|||
+|<img src="../../es_ES/zwave/images/138.33.256_heating.control.jpg" width="60" />|Benext|Control de calentamiento|Micromodule|||
+|<img src="../../es_ES/zwave/images/138.4.256_door.sensor.jpg" width="60" />|Benext|Sensor de puerta|Ouverture|||
+|<img src="../../es_ES/zwave/images/138.4.257_door.sensor.jpg" width="60" />|Benext|Sensor de puerta|Ouverture|||
 |<img src="../../es_ES/zwave/images/138.7.256_minikeypad.jpg" width="60" />|Benext|Mini teclado RFID|Teclado RFID|La insignia utilizada no vuelve. Este módulo se vende actualmente bajo la marca Zipato|[](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../es_ES/zwave/images/138.7.257_minikeypad.jpg" width="60" />|Benext|Mini teclado RFID|Teclado RFID|La insignia utilizada no vuelve. Este módulo se vende actualmente bajo la marca Zipato|[](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
@@ -130,36 +130,36 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Chromagic|HSP02|Multicapteurs||[](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
-||Chromagic|HSM02|Ouverture||[](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
+||Chromagic|HSP02|Multicapteurs|Este módulo se vende actualmente bajo la marca Everspring|[](http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html)|
+||Chromagic|HSM02|Ouverture|Este módulo se vende actualmente bajo la marca Everspring|[](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 
 # Danfoss
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/2.100.1_ra.plus-w.radiator.thermostat.jpg" width="60" />|Danfoss||Thermostat|||
-|<img src="../../es_ES/zwave/images/2.277.40976_pop.radiator.thermostat.jpg" width="60" />|Danfoss||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3683-popp-tete-thermostatique-sans-fil-z-wave-0019962010101.html)|
-|<img src="../../es_ES/zwave/images/2.3.32784_rs.room.sensor.jpg" width="60" />|Danfoss||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
-|<img src="../../es_ES/zwave/images/2.32771.32769_rs.room.sensor.jpg" width="60" />|Danfoss||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
-|<img src="../../es_ES/zwave/images/2.32773.1_living.connect.jpg" width="60" />|Danfoss||Thermostat|||
-|<img src="../../es_ES/zwave/images/2.5.373_thermostat.devolo.jpg" width="60" />|Danfoss||Thermostat|||
-|<img src="../../es_ES/zwave/images/2.5.3_thermostat.living.connect.jpg" width="60" />|Danfoss||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
-|<img src="../../es_ES/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|Danfoss||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
+|<img src="../../es_ES/zwave/images/2.100.1_ra.plus-w.radiator.thermostat.jpg" width="60" />|Danfoss|Termostato de radiador RA Plus-W|Thermostat|||
+|<img src="../../es_ES/zwave/images/2.277.40976_pop.radiator.thermostat.jpg" width="60" />|Danfoss|Popp Radiador Termostato|Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3683-popp-tete-thermostatique-sans-fil-z-wave-0019962010101.html)|
+|<img src="../../es_ES/zwave/images/2.3.32784_rs.room.sensor.jpg" width="60" />|Danfoss|Sensor de sala RS|Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
+|<img src="../../es_ES/zwave/images/2.32771.32769_rs.room.sensor.jpg" width="60" />|Danfoss|Sensor de sala RS|Thermostat||[](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
+|<img src="../../es_ES/zwave/images/2.32773.1_living.connect.jpg" width="60" />|Danfoss|Living Connect Radiador Termostato|Thermostat|||
+|<img src="../../es_ES/zwave/images/2.5.373_thermostat.devolo.jpg" width="60" />|Danfoss|Termostato de radiador Control Home de Devolo|Thermostat|||
+|<img src="../../es_ES/zwave/images/2.5.3_thermostat.living.connect.jpg" width="60" />|Danfoss|Living Connect Thermostat|Thermostat||[](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
+|<img src="../../es_ES/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|Danfoss|Living Connect Thermostat|Thermostat||[](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
 
 # Devolo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/373.1.17_mt02646.metering.plug.jpg" width="60" />|Devolo||Prise|||
-|<img src="../../es_ES/zwave/images/373.1.18_mt02792.metering.plug.jpg" width="60" />|Devolo||Prise|||
-|<img src="../../es_ES/zwave/images/373.2.13_mt02647.motion.sensor.jpg" width="60" />|Devolo||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/373.2.14_mt02648.contact.door.jpg" width="60" />|Devolo||Ouverture|||
-|<img src="../../es_ES/zwave/images/373.2.32_mt02755.humidity.jpg" width="60" />|Devolo||Multisensor|||
-|<img src="../../es_ES/zwave/images/373.2.33_mt02756.flood.jpg" width="60" />|Devolo||Fuite|||
-|<img src="../../es_ES/zwave/images/373.256.257_mt2652.scene_switch.jpg" width="60" />|Devolo||Control remoto|||
-|<img src="../../es_ES/zwave/images/373.256.258_mt2653.keyfob.jpg" width="60" />|Devolo||Control remoto|||
-|<img src="../../es_ES/zwave/images/373.4.10_mt02758.siren.jpg" width="60" />|Devolo||Sirena|||
-|<img src="../../es_ES/zwave/images/373.8196.1188_mt02651.smoke.jpg" width="60" />|Devolo||Humo|||
+|<img src="../../es_ES/zwave/images/373.1.17_mt02646.metering.plug.jpg" width="60" />|Devolo|Enchufe de medición (MT02646)|Prise|||
+|<img src="../../es_ES/zwave/images/373.1.18_mt02792.metering.plug.jpg" width="60" />|Devolo|Enchufe de medición inteligente (MT02792)|Prise|||
+|<img src="../../es_ES/zwave/images/373.2.13_mt02647.motion.sensor.jpg" width="60" />|Devolo|Sensor de movimiento MT02647|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/373.2.14_mt02648.contact.door.jpg" width="60" />|Devolo|Contacto de puerta / ventana MT02648|Ouverture|||
+|<img src="../../es_ES/zwave/images/373.2.32_mt02755.humidity.jpg" width="60" />|Devolo|Sensor de inundación MT02756|Multisensor|||
+|<img src="../../es_ES/zwave/images/373.2.33_mt02756.flood.jpg" width="60" />|Devolo|Sensor de inundación MT02756|Fuite|||
+|<img src="../../es_ES/zwave/images/373.256.257_mt2652.scene_switch.jpg" width="60" />|Devolo|Scene Switch MT 2652|Control remoto|||
+|<img src="../../es_ES/zwave/images/373.256.258_mt2653.keyfob.jpg" width="60" />|Devolo|Llavero (MT2653)|Control remoto|||
+|<img src="../../es_ES/zwave/images/373.4.10_mt02758.siren.jpg" width="60" />|Devolo|Sirena MT02758|Sirena|||
+|<img src="../../es_ES/zwave/images/373.8196.1188_mt02651.smoke.jpg" width="60" />|Devolo|Detector de humo MT02651|Humo|||
 
 # Dlink
 
@@ -173,34 +173,34 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/543.3.131_motion-sensor.jpg" width="60" />|Dome||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/543.3.133_leak.sensor.jpg" width="60" />|Dome||Fuite|||
+|<img src="../../es_ES/zwave/images/543.3.131_motion-sensor.jpg" width="60" />|Dome|Detector de movimiento|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/543.3.133_leak.sensor.jpg" width="60" />|Dome|Sensor de fugas|Fuite|||
 |<img src="../../es_ES/zwave/images/543.3.134_mouser.jpg" width="60" />|Dome|Mouser|Ouverture|||
-|<img src="../../es_ES/zwave/images/543.3.135_on_off_plug_in_switch.jpg" width="60" />|Dome||Prise|||
+|<img src="../../es_ES/zwave/images/543.3.135_on_off_plug_in_switch.jpg" width="60" />|Dome|Interruptor de encendido / apagado|Prise|||
 |<img src="../../es_ES/zwave/images/543.3.136_siren.jpg" width="60" />|Dome|Siren|Sirena|||
 |<img src="../../es_ES/zwave/images/543.3.257_door.window.sensor.jpg" width="60" />|Dome|Sensor de puerta / ventana|Ouverture|||
-|<img src="../../es_ES/zwave/images/543.3.2_water_valve.jpg" width="60" />|Dome||Valve|||
-|<img src="../../es_ES/zwave/images/543.3.513_door.window.sensor.pro.jpg" width="60" />|Dome||Ouverture|||
+|<img src="../../es_ES/zwave/images/543.3.2_water_valve.jpg" width="60" />|Dome|Válvula de cierre de agua|Valve|||
+|<img src="../../es_ES/zwave/images/543.3.513_door.window.sensor.pro.jpg" width="60" />|Dome|Sensor de puerta / ventana Pro|Ouverture|||
 
 # Domitech
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/526.19522.12596_ze27eu.jpg" width="60" />|Domitech||Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/3226-domitech-ampoule-led-dimmable-z-wave-zbulb-869166000060.html)|
+|<img src="../../es_ES/zwave/images/526.19522.12596_ze27eu.jpg" width="60" />|Domitech|Kit de actualización LED inteligente ZE27EU|Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/3226-domitech-ampoule-led-dimmable-z-wave-zbulb-869166000060.html)|
 
 # Domux
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Domux||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux||Humo|||
-|<img src="../../es_ES/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Domux||Gaz|Sin alertas al controlador. Sonidos al detectar gas combustible||
-|<img src="../../es_ES/zwave/images/540.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Domux||Fuite|||
-|<img src="../../es_ES/zwave/images/540.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Domux||CO|||
-|<img src="../../es_ES/zwave/images/540.32774.4096_dx2skz_wallplug.jpg" width="60" />|Domux||Prise|||
-|<img src="../../es_ES/zwave/images/540.32775.4096_dx1htz_2in1_sensor.jpg" width="60" />|Domux||Multicapteurs|||
-|<img src="../../es_ES/zwave/images/540.32776.4096_dx2skz_wallplug.jpg" width="60" />|Domux||Prise|||
-|<img src="../../es_ES/zwave/images/540.360.360_dx1dsz_door_sensor.jpg" width="60" />|Domux||Ouverture|||
+|<img src="../../es_ES/zwave/images/540.32769.4096_dx1msz_motion_sensor.jpg" width="60" />|Domux|Sensor de movimiento (DX1MS-Z)|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/540.32770.4096_dx1saz_smoke_sensor.jpg" width="60" />|Domux|Sensor de humo inteligente (DX1SA-Z)|Humo|||
+|<img src="../../es_ES/zwave/images/540.32771.4096_dx1cgz_gaz_sensor.jpg" width="60" />|Domux|Sensor de gas (DX1CG-Z)|Gaz|Sin alertas al controlador. Sonidos al detectar gas combustible||
+|<img src="../../es_ES/zwave/images/540.32772.4096_dx1wlz_flood_sensor.jpg" width="60" />|Domux|Sensor de inundación (DX1WL-Z)|Fuite|||
+|<img src="../../es_ES/zwave/images/540.32773.4096_dx1caz_co_sensor.jpg" width="60" />|Domux|Sensor de CO (DX1CA-Z)|CO|||
+|<img src="../../es_ES/zwave/images/540.32774.4096_dx2skz_wallplug.jpg" width="60" />|Domux|Enchufe de medición inteligente (DX2SK-Z)|Prise|||
+|<img src="../../es_ES/zwave/images/540.32775.4096_dx1htz_2in1_sensor.jpg" width="60" />|Domux|Sensor de temperatura y humedad (DX1HT-Z)|Multicapteurs|||
+|<img src="../../es_ES/zwave/images/540.32776.4096_dx2skz_wallplug.jpg" width="60" />|Domux|Enchufe inteligente (DX2SK-Z)|Prise|||
+|<img src="../../es_ES/zwave/images/540.360.360_dx1dsz_door_sensor.jpg" width="60" />|Domux|Sensor de puerta (DX1DS-Z)|Ouverture|||
 
 # Duwi
 

@@ -195,8 +195,8 @@ Here is the list of commands :
 
 \
 
-All the modules of the range having the same ids, it's up to you to display those
-corresponding to your module.
+
+.
 
 ### Configuration of the module 
 
@@ -244,23 +244,23 @@ Parameter details :
     signal defined in parameter 2 will be sent to the modules associated with the
     group 2
 
--   5: operating mode (not recommended to change it : report to
+-   5:  : 
     on the manufacturer's documentation)
 
--   6: multi-sensor operating mode (not recommended to change it
-    : refer to the manufacturer's documentation)
+-   6: 
+    : 
 
 -   9: allows to define after how long the OFF signal will be
     sent to modules associated with group 2
 
 -   10: allows you to define the duration between two battery reports (one
-    unit = 30 minutes)
+    
 
--   12: used to define the duration between two brightness reports
-    (one unit = 30 minutes)
+-   12: 
+    
 
--   13: allows you to define the time between two temperature reports
-    (one unit = 30 minutes)
+-   13: 
+    
 
 \
 
@@ -288,12 +288,12 @@ Good to know
 
 > **Tip**
 >
-> This module has a particularity, not having a report based on the
-> variations but only over time, it sends all of its info to
-> each detection. It also sends the signal several times
-> presence detection as a result. It is therefore advisable to tick the
-> "Event on change" box on presence if you use this
-> command in scenario trigger.
+> 
+> 
+> . 
+> . 
+> 
+> .
 
 \
 
@@ -325,7 +325,7 @@ This module wakes up by pressing its tamper button.
 
 \
 
-Check the box "Event on change".
+".
 
 \
 

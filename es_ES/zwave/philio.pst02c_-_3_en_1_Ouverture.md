@@ -1,4 +1,4 @@
-Philio PST02 C - Apertura 3 en 1 
+ 
 =================================
 
 \
@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El detector ZIP-PSM01 ofrece 3 funciones diferentes. : detección
+ : detección
 apertura, sensor de temperatura y detector de luz. El se
 consta de dos partes : un detector y un imán. Estan disenados
 para ser colocado en una puerta o ventana con el imán fijado en el

@@ -1,4 +1,4 @@
- 
+Philio PST02 A - 4 en 1 
 =======================
 
 \
@@ -262,11 +262,11 @@ Detalles del parámetro :
     documentación del fabricante) Valor recomendado : 4
 
 -   7: modo de funcionamiento multisensor personalizado (ver
-    en la documentación del fabricante) Valor recomendado : 6 (para
-    tener un regreso a OFF de la presencia)
+    en la documentación del fabricante) Valor recomendado : 
+    
 
--   8: permite definir la duración en pasos de 8 segundos de redetección
-    de movimiento
+-   8: 
+    
 
 -   9: permite definir después de cuánto tiempo será la señal OFF
     enviado a módulos asociados con el grupo 2

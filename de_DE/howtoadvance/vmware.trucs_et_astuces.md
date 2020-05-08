@@ -1,105 +1,105 @@
 Nicht wirklich ein Howto hier, sondern eher eine Sammlung von Tipps und Tricks
 VMware
 
-Fügen Sie Ihre Lizenz hinzu 
+ 
 ==================
 
-Sobald die Verbindung über die Weboberfläche (IP\_ESXI / ui) hergestellt ist, müssen Sie zu gehen
-"Verwalten" :
+
+"" :
 
 ![vmware.tips](images/vmware.tips.PNG)
 
-Klicken Sie dann auf "Lizenzierung" und klicken Sie auf "Lizenz zuweisen""
+"
 
 ![vmware.tips2](images/vmware.tips2.PNG)
 
-Und geben Sie Ihren Lizenzschlüssel ein
+
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
 > **Note**
 >
-> Wenn Sie dies nicht tun, ist Ihr ESXi möglicherweise nicht mehr vorhanden
-> Betrieb nach 60 Tagen
+> 
+> 
 
-Mounten Sie einen NFS-Datenspeicher mit Synology 
+ 
 ========================================
 
-Hier erfahren Sie, wie Sie eine NFS-Freigabe ab einer Synology bereitstellen
-VMware. Dies ermöglicht beispielsweise das Platzieren virtueller Maschinen auf dem
-Synology (die möglicherweise mehr Speicherplatz als das ESXi hat) oder senden Sie die
-Maschinensicherungen in Synology
 
-Synologiekonfiguration 
+
+
+
+
+ 
 -------------------------
 
-Sie müssen zum Control Panel gehen und dann "Services de
-Dateien "und aktivieren Sie das Kontrollkästchen" NFS aktivieren "" :
+
+" :
 
 ![vmware.tips4](images/vmware.tips4.PNG)
 
-Klicken Sie dann auf "Freigegebener Ordner" und wählen Sie den Ordner aus
-Teilen (hier Backup), klicken Sie auf Ändern, dann auf "NFS-Autorisierung" und
-endlich auf erstellen (hier habe ich schon eine, deine liste sollte sein
-leer) :
+
+
+
+ :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
-Dann geben Sie die IP Ihres ESXi ein und geben "Squash" ein
-"Ordnen Sie alle Benutzer dem Administrator zu "und überprüfen Sie sie :
+
+" :
 
 ![vmware.tips6](images/vmware.tips6.PNG)
 
-Wir müssen dann den Freigabepfad wiederherstellen (hier / volume2 / Backup) :
+ :
 
 ![vmware.tips7](images/vmware.tips7.PNG)
 
-Hier ist es auf der Synology-Seite fertig, wir werden jetzt auf die ESXi-Seite wechseln
 
-ESXi-Konfiguration 
+
+ 
 -----------------------
 
-Gehen Sie zu "Speicher" :
+" :
 
 ![vmware.tips8](images/vmware.tips8.PNG)
 
-Klicken Sie dann auf "Neue Datenbank" :
+" :
 
 ![vmware.tips9](images/vmware.tips9.PNG)
 
-Dort wählen Sie "NFS-Datenbank bereitstellen" und tun dies dann
-als nächstes :
+
+ :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
-Geben Sie den Namen des zu erstellenden Datenspeichers ein (vermeiden Sie Leerzeichen und
-Sonderzeichen), geben Sie die IP unserer Synology ein und geben Sie den Pfad ein
-Teilen (siehe oben) und schließlich validieren :
+
+
+ :
 
 ![vmware.tips11](images/vmware.tips11.PNG)
 
-Klicken Sie auf Fertig stellen :
+ :
 
 ![vmware.tips12](images/vmware.tips12.PNG)
 
-Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf
+
 "Actualiser").
 
-Hinzufügung des VAAI Synology Plugins für die NFS-Montage 
+ 
 ==============================================
 
-Durch Hinzufügen dieses Plugins wird die Hardwarebeschleunigung aktiviert
-NFS-Halterungen (eine Erklärung finden Sie unter
+
+
 [hier](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
-Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden
-(Ich habe die Informationen auf dem Webclient nicht gefunden) und gehe zu Konfiguration →
-Lagerung :
+
+
+ :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-Die Installation ist recht einfach, zuerst müssen Sie den Dienst aktivieren
-ESXi SSH (Gehen Sie auf der Weboberfläche zu Aktion ⇒ Dienste
+
+
 ⇒ Aktivieren Sie Secure Shell) und stellen Sie dann eine Verbindung über SSH her (die
 Bezeichner sind die gleichen wie für den Zugriff auf die Schnittstelle.. Dann er
 du tust es einfach :
