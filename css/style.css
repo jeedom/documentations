@@ -177,14 +177,16 @@ input,
   overflow: auto;
   height: calc(100% - 90px);
 }
-
 #ul_menu li,
 .sidenav li i {
   line-height: 32px !important;
+  white-space: normal;
+  word-break: break-word !important;
+  overflow-wrap: break-word;
 }
 #ul_menu li a,
 .sidenav li i {
-  height: 32px !important;
+  height: auto !important;
   line-height: 32px !important;
 }
 #ul_menu li.menu_active {
@@ -192,6 +194,9 @@ input,
 }
 #ul_menu li.menu_active > a {
   color: var(--linkHoverLight-color) !important;
+}
+#ul_menu li.small {
+  line-height: 12px !important;
 }
 
 .divider {

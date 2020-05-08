@@ -181,8 +181,9 @@ var docMenu = [
     de_DE : "Introduction",
     pt_PT : "Rechtliche Hinweise",
     link : "/#LANG#/legal_notice"
-  }
-  
+  },{
+    divider : true
+  },
 ]
 
 if(getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark'){
@@ -260,6 +261,7 @@ for(var i in docMenu){
     }
   }
 }
+html += '<li class="small"><small>Jeedom: Free, Opened, Cloudless, Multiprotocol solution since 2014</small></li>'
 $('#ul_menu').empty().html(html);
 
 function genText(_menu,_lang){
@@ -276,7 +278,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -291,22 +293,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -316,7 +318,7 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -432,4 +434,3 @@ if($('#div_searchBar')){
     html += "</div>";
     $('#div_searchBar').empty().append(html);
   }
-  
