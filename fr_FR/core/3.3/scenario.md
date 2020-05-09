@@ -739,11 +739,11 @@ par exemple l’appliquer sur un autre Jeedom ou le partager sur le
 Market. C’est aussi à partir de là que vous pouvez récupérer un scénario
 du Market.
 
-![scenario15](../images/scenario15.JPG)
+![scenario15](./images/scenario15.JPG)
 
 Vous verrez alors cette fenêtre :
 
-![scenario16](../images/scenario16.JPG)
+![scenario16](./images/scenario16.JPG)
 
 A partir de celle-ci, vous avez la possibilité :
 
@@ -759,7 +759,7 @@ A partir de celle-ci, vous avez la possibilité :
 
 Par un clic sur un template, vous obtenez :
 
-![scenario17](../images/scenario17.JPG)
+![scenario17](./images/scenario17.JPG)
 
 En haut, vous pouvez :
 
