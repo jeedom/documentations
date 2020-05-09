@@ -1,11 +1,17 @@
 {
     "plugins_contributor\/automation protocol\/index.md": {
+        "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU\/ Wemos": "Jeedouino plugin to manage Arduino card (s) (via Ethernet or USB), R.PI GPIOs, PiFace cards (piRack), RPI IO Plus 32e \/ s cards, MCP23017 (on RPI) or ESP8266 \/ NodeMCU \/ Wemos",
         "Protocole domotique": "Domotic protocol",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
+        " Jeedouino.": " Jeedouino.",
+        " Jeedouino?": " Jeedouino?",
+        "Jeedouino ": "Jeedouino ",
+        "[Jeedouino": "[Jeedouino",
+        "Jeedouino]": "Jeedouino]",
         " IMPORTANT.": " Important.",
         " IMPORTANT?": " Important?",
         "IMPORTANT ": "Important ",
@@ -15,7 +21,17 @@
         " ici?": " here?",
         "ici ": "here ",
         "[ici": "[here",
-        "ici]": "here]"
+        "ici]": "here]",
+        " Documentation.": " Documentation.",
+        " Documentation?": " Documentation?",
+        "Documentation ": "Documentation ",
+        "[Documentation": "[Documentation",
+        "Documentation]": "Documentation]",
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        "[Market": "[Market",
+        "Market]": "Market]"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Sequencing actions",

@@ -1,11 +1,17 @@
 {
     "plugins_contributor\/automation protocol\/index.md": {
+        "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU\/ Wemos": "Complemento Jeedouino para administrar tarjetas Arduino (a través de Ethernet o USB), GPI R.PI, tarjetas PiFace (piRack), tarjetas RPI IO Plus 32e \/ s, MCP23017 (en RPI) o ESP8266 \/ NodeMCU \/ Wemos",
         "Protocole domotique": "Protocolo de domótica",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " Jeedouino.": " Jeedouino.",
+        " Jeedouino?": " Jeedouino?",
+        "Jeedouino ": "Jeedouino ",
+        "[Jeedouino": "[Jeedouino",
+        "Jeedouino]": "Jeedouino]",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
@@ -15,7 +21,17 @@
         " ici?": " aquí?",
         "ici ": "aquí ",
         "[ici": "[aquí",
-        "ici]": "aquí]"
+        "ici]": "aquí]",
+        " Documentation.": " Documentación.",
+        " Documentation?": " Documentación?",
+        "Documentation ": "Documentación ",
+        "[Documentation": "[Documentación",
+        "Documentation]": "Documentación]",
+        " Market.": " Mercado.",
+        " Market?": " Mercado?",
+        "Market ": "Mercado ",
+        "[Market": "[Mercado",
+        "Market]": "Mercado]"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Acciones de secuencia",

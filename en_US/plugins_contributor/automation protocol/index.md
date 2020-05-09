@@ -7,3 +7,6 @@
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) all official plugins in this category
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="jeedouino/jeedouino_icon.png" class="pluginLogo" width="100" />|Jeedouino|Jeedouino plugin to manage Arduino card (s) (via Ethernet or USB), R.PI GPIOs, PiFace cards (piRack), RPI IO Plus 32e / s cards, MCP23017 (on RPI) or ESP8266 / NodeMCU / Wemos.|[Documentation](https://revlysj.github.io/jeedouino/en_US/index) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2064)|
