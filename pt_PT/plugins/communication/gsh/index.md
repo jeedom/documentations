@@ -1,352 +1,352 @@
 # Description
 
-Este plugin permite que você :
+Ce plugin permet de :
 
-- use a implementação nativa do Google para o gerenciamento de objetos conectados
+- utiliser l'implementation native de Google pour la gestion des objets connectés
 
-Pode funcionar de 2 maneiras :
+Il peut fonctionner suivant 2 manières :
 
-- Autônomo : você cria os aplicativos no modo dev no lado do Google e conecta seu Jeedom ao serviço do Google
-- Cloud : através de um serviço de nuvem fornecido pela Jeedom
-
-> **Important**
->
-> O modo de nuvem requer uma assinatura dos serviços de voz (3 meses grátis na compra do plug-in). Você pode gerenciar sua assinatura [aqui](https://market.jeedom.com/index.php?v=d&p=profils#services)
+- Standalone : vous créer les applications en mode dev coté Google puis connectez votre Jeedom au service Google
+- Cloud : en passant par un service cloud mis à disposition par Jeedom
 
 > **Important**
 >
-> Qualquer que seja o modo que você use, você DEVE ABSOLUTAMENTE ter seu Jeedom acessível em HTTPS (o plug-in não funciona em HTTP)
+> Le mode cloud necessite un abonnement aux services vocaux (3 mois offert lors de l'achat du plugin). Vous pouvez gérer votre abonnement [ici](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >
-> O plug-in não suporta equipamentos com funções duplas (2 saídas como determinado módulo Fibwire zwave). Você absolutamente tem que passar por 2 virtuais para quebrá-lo.
+> Quelque soit le mode utiliser il faut ABSOLUMENT que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP)
 
-# Modo de nuvem
+> **Important**
+>
+> Le plugin ne supporte pas les équipement avec des double fonction (2 sortie comme certain module zwave Fibaro). Il faut absolument passer par 2 virtuels pour le décomposer.
+
+# Mode cloud
 
 > **IMPORTANT**
 >
-> É importante executar as seguintes etapas na ordem listada !!!
+> Il est important de faire les étapes suivantes dans l'ordre indiqué !!!
 
 > **IMPORTANT**
 >
-> Se houver uma mensagem de erro informando que sua senha de usuário ou não está correta, você deve :
-> - verifique se o Amazon Alexa está ativo no mercado
-> - se for esse o caso, verifique suas credenciais (atenção: você deve respeitar maiúsculas / minúsculas) ?
-> - se for esse o caso, altere sua senha no mercado e na configuração do serviço de assistente de voz (guia página de perfis de mercado, meus serviços) salvou
+> Si vous avez un message d'erreur vous indiquants que votre mot de passe ou non d'utilisateur n'est pas bon il faut :
+> - vérifier qu'Amazon Alexa est bien en actif sur le market
+> - si c'est bien le cas, etês vous sur de vos identifiants (attention il faut respecter majuscule/minuscule) ?
+> - si c'est le cas changer votre mot de passe sur le market et sur la configuration du service d'assistant vocal (page profils du market onglet mes services) faire sauvegarder
 
-Depois de instalar o plug-in, basta acessar a configuração do plug-in, selecionar o modo Cloud e clicar em "Enviar" (isso enviará as informações de conexão à API do plug-in no mercado)
+Après l'installation du plugin, il vous suffit d'aller sur la configuration du plugin, de selectionner le mode Cloud puis de cliquer sur "Envoyer" (cela va envoyer les informations de connexion à l'api du plugin sur le market)
 
-Em Jeedom em Communication / Google Smarthome, você deve clicar em Salvar para enviar sua configuração inicial. Você precisa de pelo menos um dispositivo em OK (caso contrário, ao conectar a Página inicial do Google <-> Jeedom, ocorrerá um erro)
+Ensuite dans Jeedom dans Communication/Google Smarthome il faut cliquer sur sauvegarder pour envoyer votre configuration initial, il faut au moins un équipement en OK (sinon lors de la connexion Google Home <-> Jeedom vous aurez une erreur)
 
-Em seguida, no aplicativo inicial do Google, você deve ir para a primeira guia, clicar em Adicionar (o +) :
+Ensuite sur l'application Google home il faut aller dans le premiere onglet cliquer sur Ajouter (le +) :
 
 ![gsh](../images/gsh29.png)
 
-Em seguida, configure um dispositivo :
+Puis configurer un appareil :
 
 ![gsh](../images/gsh30.png)
 
-Em "Funciona com o Google" :
+Sur "Fonctionne avec Google" :
 
 ![gsh](../images/gsh31.png)
 
-Em seguida, na lista com o botão de pesquisa (lupa no canto superior direito), procure por "Jeedom Smarthome" e clique nele :
+Ensuite dans la liste avec le bouton rechercher (loupe en haut a droite), chercher "Jeedom Smarthome" et cliquez dessus :
 
 ![gsh](../images/gsh32.png)
 
-Preencha-o nos seus identificadores de mercado (bem, aqueles que não são do seu Jeedom).
+La renseignez vos identifiants market (et bien ceux market pas ceux de votre Jeedom).
 
 ![gsh](../images/gsh6.png)
 
-No plugin -> comunicação -> Google Smarthome, você pode configurar seus diferentes equipamentos (consulte o capítulo Configuração do plug-in)
+Dans plugin -> communication -> Google Smarthome vous pouvez configurer vos differents équipements (voir chapite Configuration du plugin)
 
 >**NOTE**
 >
->Para alternar do modo autônomo para o modo nuvem, você deve :
->- no plugin, vá para a nuvem e salve
->- aguarde 24h
->- no aplicativo inicial do Google, você deve dissociar o testingmarthome (seu aplicativo independente)
->- em Comunicação / Google Smarthome, clique em Salvar para enviar sua configuração inicial
->- Link Jeedom Smarthome na Página inicial do Google
+>Pour passer du mode standalone au mode cloud il faut :
+>- dans le plugin passer en cloud puis sauvegarder
+>- attendre 24h
+>- dans l'application Google home il faut dissocier testsmarthome (votre application standalone)
+>- dans Communication/Google Smarthome il faut cliquer sur sauvegarder pour envoyer votre configuration initial
+>- Lier Jeedom Smarthome dans Google Home
 
 
 > **IMPORTANT**
 >
->Qualquer modificação na configuração do equipamento enviado para a Página inicial do Google (adição de equipamento, exclusão de equipamento, alteração de um tipo de pedido genérico) requer necessariamente acessar Plugin -> Comunicação -> Googme Smarthome e, em seguida, salvar
+>Toute modification de configuration des équipements transmis à Google Home (ajout d'un équipement, suppression d'un équipement, changement d'un générique type d'une commande) nécessite forcement d'aller dans Plugin -> Communication -> Googme Smarthome puis de faire sauvegarder
 
-# Modo autônomo
-
-> **IMPORTANT**
->
-> Se você usou o modo nuvem, não deve fazer esta parte !!! Vá diretamente para o capítulo "Configuração do plug-in"
+# Mode standalone
 
 > **IMPORTANT**
 >
-> O modo autônomo é uma "farsa" porque faz com que você crie um aplicativo no Google no modo de desenvolvimento, que permite a sincronização apenas por 3 dias após a ativação do modo de teste. Portanto, ao adicionar ou modificar equipamentos, reative o modo de teste a cada 3 dias para poder sincronizar. Atenção, estamos falando de uma modificação da configuração, se você não adicionar ou modificar equipamentos, não há nada para fazer, o aplicativo funcionará sem limite de tempo
+> Si vous avez utilisé le mode cloud il ne faut surtout pas faire cette partie !!! Passer directement au chapitre "Configuration du plugin"
 
 > **IMPORTANT**
 >
-> Como o aplicativo é um aplicativo de desenvolvimento no lado do Google, eles podem cortá-lo, excluí-lo ou alterar as regras a qualquer momento.. Nesse caso, a Jeedom não pode ser responsabilizada em caso de mau funcionamento..
+> Le mode standalone est une "arnaque" car cela vous fait créer une application chez Google en mode développement qui ne permet la synchronisation que pendant 3 jours après activation du mode test. Il faut donc lors de l'ajout ou modification des équipements réactiver le mode test tous les 3 jours pour pouvoir faire une synchronisation. Attention on parle bien d'une modification de la configuration si vous n'ajoutez pas ou ne modifiez pas d'équipements il n'y a rien a faire l'application marchera sans limite de temps
 
 > **IMPORTANT**
 >
-> Para que os aplicativos funcionem, é essencial que o seu jeedom esteja em https com um certificado válido (se você tiver um service pack, o acesso ao DNS estará disponível para isso)
+> Etant donné que l'application est une application de dev coté Google ils peuvent à tout moment la couper, la supprimer ou changer les régles. Dans ce cas Jeedom ne pourra aucunement être tenu responsable en cas de mauvais fonctionnement.
 
-Como lembrete, o plug-in permite que você :
+> **IMPORTANT**
+>
+> Pour que la ou les applications marchent il faut absolument que votre jeedom soit en https avec un certificat valide (si vous avez un service pack l'accès DNS est la pour ca)
 
-- use a implementação nativa do Google para o gerenciamento de objetos conectados
-- use interações jeedom usando "Talk to ..."
+Pour rappel le plugin permet de :
 
-Existem, portanto, 2 aplicativos listados no Google : um para a parte do Google Smarthome e outro para a parte de interação (é claro que você pode fazer apenas um dos 2)
+- utiliser l'implementation native de Google pour la gestion des objets connectés
+- utiliser les interactions de jeedom en utilisant "Parler a ..."
 
-## Aplicativo Google Smarthome
+Il y a donc 2 applications coté Google : une pour la partie Google Smarthome et une pour la partie intéraction (vous pouvez bien sur n'en faire que une des 2)
 
-Venha [aqui](https://console.actions.google.com) depois clique em "Adicionar / importar projeto"
+## Application Google Smarthome
+
+Allez [ici](https://console.actions.google.com) puis cliquez sur "Add/import project"
 
 ![gsh](../images/gsh7.png)
 
-Dê um nome ao projeto, altere o idioma e a região padrão e valide :
+Donnez un nom au projet changez les langue et region par defaut et validez :
 
 ![gsh](../images/gsh8.png)
 
-Selecione "Controle doméstico" :
+Sélectionnez "Home control" :
 
 ![gsh](../images/gsh9.png)
 
-Clique em "Smarthome" :
+Cliquez sur "Smarthome" :
 
 ![gsh](../images/gsh10.png)
 
-Clique em "Dê um nome à sua ação do Smart Home" :
+Cliquez sur "Name your Smart Home action" :
 
 ![gsh](../images/gsh11.png)
 
-Coloque "teste de smarthome" e valide (botão Salvar no canto superior direito) :
+Mettez "test smarthome" et validez (bouton Save en haut a droite) :
 
 ![gsh](../images/gsh12.png)
 
-À esquerda, clique em "Ações" :
+Ensuite à gauche cliquez sur "Actions" :
 
 ![gsh](../images/gsh13.png)
 
-Então "Adicione sua primeira ação" :
+Puis "Add your first action" :
 
 ![gsh](../images/gsh14.png)
 
-Teremos que dar aqui o URL para chegar de Jeedom. Para simplificar, no Jeedom você precisa acessar a página de gerenciamento de plugins, escolher o modo "Independente" (e salvar de passagem), o URL é o chamado "URL de atendimento"
+Il va falloir donner ici l'url d'arriver de Jeedom. Pour l'avoir c'est très simple, il faut dans Jeedom aller sur la page de gestion du plugin, bien choisir le mode "Standalone" (et enregistrer au passage), l'url est celle qui s'appelle "Fulfillment URL"
 
 ![gsh](../images/gsh15.png)
 
-Em seguida, vá para "Vinculação de conta" (menu à esquerda) :
+Ensuite allez dans "Account linking" (menu de gauche) :
 
 ![gsh](../images/gsh13.png)
 
-Selecione "Não, só quero permitir a criação de contas no meu site" e faça "Avançar" :
+Selectionnez "No, I only want to allow account creation on my website" et faite "Next" :
 
 ![gsh](../images/gsh16.png)
 
 
-Selecione "OAuth", depois "Código de autorização" e faça "Avançar" :
+Selectionnez "OAuth" puis "Autorization code" et faite "Next" :
 
 ![gsh](../images/gsh17.png)
 
-Em seguida, preencha os 4 campos de acordo com a página de configuração do plug-in e clique em "Avançar" :
+Remplissez ensuite les 4 champs en fonction de la page de configuration du plugin, puis faite "Next" :
 
 ![gsh](../images/gsh18.png)
 
 > **NOTE**
 >
-> Os campos são :
-> - ID do cliente primeiro
-> - então o cliente secreto
-> - depois "URL de autorização" (tome cuidado com o da seção "Smarthome")
-> - depois "URL do token" (tome cuidado com o da seção "Smarthome")
+> Les champs sont :
+> - le client ID en premier
+> - puis le client secret
+> - puis "Authorization URL" (attention à bien prendre celle de la partie "Smarthome")
+> - puis "Token URL" (attention à bien prendre celle de la partie "Smarthome")
 
-Não há nada a fazer simplesmente "Next" :
+Il n'y a rien a faire la simplement "Next" :
 
 ![gsh](../images/gsh19.png)
 
-Escreva "Toto" e faça "Salvar" :
+Ecrivez "Toto" puis faite "Save" :
 
 ![gsh](../images/gsh20.png)
 
-Agora configure a chave da API do homegraph, para isso [aqui](https://console.developers.google.com/apis/dashboard), depois clique com o botão direito do mouse em "Biblioteca" :
+Il faut maintenant configuré la clef API homegraph, pour cela allez [ici](https://console.developers.google.com/apis/dashboard), puis à droite cliquez sur "Bibliothèque" :
 
 ![gsh](../images/gsh21.png)
 
 > **NOTE**
 >
-> Se você não tem um projeto, precisa criar um
+> Si vous n'avez pas de projet il vous faut en créer un
 
-E procure por "Homegraph" :
+Et cherchez "Homegraph" :
 
 ![gsh](../images/gsh22.png)
 
-Clique em homegraphapi, ative a API e clique em gerenciar :
+Cliquez sur homegraphapi puis activez l'api et cliquez sur gerer :
 
 ![gsh](../images/gsh23.png)
 
-Clique no identificador à esquerda :
+Cliquez sur identifiant à gauche :
 
 ![gsh](../images/gsh24.png)
 
-Em seguida, em "Identificadores de APIs e serviços" :
+Puis sur "Identifiants des API et services" :
 
 ![gsh](../images/gsh25.png)
 
-Clique em "Criar identificadores" e depois em "Chave da API" :
+Cliquez sur "Créer des identifiants" puis sur "Clé API" :
 
 ![gsh](../images/gsh26.png)
 
-Copie a chave da API gerada e cole-a na página de gerenciamento de plug-ins do Google Smarthome em "Google API Homegraph"
+Copiez la clef API générées et collez la sur la page de gestion du plugin Google Smarthome dans "Homegraph API Google"
 
-Última etapa para fornecer ao Jeedom o ID do projeto para gerenciar a conexão, vá [aqui](https://console.actions.google.com) depois clique no seu projeto. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", o ID do projeto está entre projeto / e / overview, no exemplo aqui é" myproject-31023 ", copie esse ID na página de gerenciamento o plug-in do Google Smarthome em "Smarthome Project ID".
+Derniere étape à faire donner l'id projet à Jeedom pour la gestion de la connexion, allez [ici](https://console.actions.google.com) puis cliquez sur votre projet. Recuperez l'url de la forme "https://console.actions.google.com/u/0/project/monprojet-31023/overview", l'id du projet est entre project/ et /overview, dans l'exemple ici c'est "monprojet-31023", copiez cet id sur la page de gestion du plugin Google Smarthome dans "ID du projet Smarthome".
 
-Aqui você pode clicar à esquerda em "Ação" :
+Voila vous pouvez maintenant cliquez à gauche sur "Action" :
 
 ![gsh](../images/gsh27.png)
 
-Então no teste :
+Puis sur test :
 
 ![gsh](../images/gsh28.png)
 
-Então você precisa em um smartphone **android** (não deve funcionar em um iphone) conecte-se ao seu Jeedom **o URL externo** disso. Em seguida, vá para o aplicativo inicial, "configure ou adicione", "configure um dispositivo" e, finalmente, clique em "Funciona com o Google" e adicione seu serviço criado acima (ele começa com [test])
+Il vous faut ensuite sur un smartphone **android** (obligatoirement ne marche pas sur un iphone) vous connecter a votre Jeedom par **l'url externe** de celui-ci. Il faut ensuite aller dans l'application home puis "configurer ou ajouter" puis "Configurer un appareil" et enfin cliquer sur "Fonctionne avec Google" et la ajouter votre service crée plus haut (il commence par [test])
 
-## Configuração JWT
+## Configuration jwt
 
-O JWT permite que você relate automaticamente qualquer alteração no status de um item de equipamento enviado ao Google, o que permite que você tenha o status mais rapidamente ao solicitá-lo no Google Home ou no aplicativo Google Home.. Não é obrigatório configurá-lo, no entanto, se você marcar a caixa "Voltar ao estado", é absolutamente necessário fazê-lo para que funcione.
+JWT permet de remonter automatiquement tout changement d'état d'un équipement transmis à Google, cela permet donc d'avoir plus rapidement l'état lors d'une demande à Google Home ou sur l'application Google Home. Il n'est pas obligatoire de le configurer par contre si vous cochez la case "Remonter l'état" il faut absolument l'avoir fait pour que ca marche.
 
-Para fazer a configuração, você precisa
+Pour faire la configuration il faut
 
-* vá [aqui](https://console.developers.google.com/iam-admin/serviceaccounts), se o Google solicitar que você escolha o projeto (o criado logo acima).
-* Clique em criar uma conta de serviço
-  * Dê um nome (você pode colocar o que quiser, evitar)
-  * Recupere o email gerado logo abaixo para copiá-lo na configuração do plugin no Jeedom (campos : Correio do cliente (JWT))
-  * Clique em criar
-  * Clique em continuar sem modificar nada
-  * Clique em "Criar uma chave"
-    * Deixe JSON e clique em OK
-  * Clique em OK
-  * Abra o arquivo baixado e copie a parte 'private_key' (começa com "----- BEGIN PRIVATE KEY -----", incluída e termina com "----- END PRIVATE KEY ----- \ n ", included without") na configuração do plugin no Jeedom (campos : Chave privada (JWT))
+* aller [ici](https://console.developers.google.com/iam-admin/serviceaccounts), si Google vous le demande il faut choisir le projet (celui créé juste au dessus).
+* Cliquer sur créer un compte de service
+  * Lui donner un nom (vous pouvez mettre ce que vous voulez, évitez )
+  * Récuperer le mail généré juste en dessous pour le copier dans la configuration du plugin sur Jeedom (champs : Mail client (JWT))
+  * Cliquez sur créer
+  * Cliquez sur continuer sans rien modifier
+  * Cliquez sur  "Créer une clé"
+    * Laissez JSON et cliquez sur OK
+  * Cliquez sur OK
+  * Ouvrez le fichier téléchargé et copier la partie 'private_key' (commence par "-----BEGIN PRIVATE KEY-----", inclus et fini par "-----END PRIVATE KEY-----\n", inclus sans les ") dans la configuration du plugin sur Jeedom (champs : Clef privé (JWT))
 
-# Configuração do plugin
+# Configuration du plugin
 
-No seu Jeedom, vá para Plugin -> Comunicação -> Google Smarthome e, na seção de equipamentos, selecione o equipamento a ser transmitido ao Google e o tipo de equipamento.
+Sur votre Jeedom, allez sur Plugin -> Communication -> Google Smarthome et dans la partie équipement sélectionnez les équipements à transmettre à Google ainsi que le type de l'équipement.
 
 ![gsh](../images/gsh2.png)
 
 > **IMPORTANT**
 >
-> O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente.
+> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement.
 
 > **NOTE**
 >
-> Para o tipo "camera", você deve configurar absolutamente o URL do fluxo (testamos apenas o RTSP) para que funcione.
-> Observe que o suporte à câmera está atualmente na versão beta e consome muitos recursos
+> Pour le type "caméra" vous devez absolument configurer l'URL du flux (nous avons testé seulement le RTSP) pour que cela marche.
+> A noter que le support des caméras est pour le moment en beta et consomme enormement de ressources
 
 ## Equipement
 
-No equipamento você pode configurar :
+Sur les équipements vous pouvez configurer :
 
-* Opções :
-  * Transmitir : envie o equipamento para a Página inicial do Google para que ele possa controlá-lo (observe que a configuração dos créditos genéricos está OK)
-  * Aumentar o estado : envie qualquer alteração de informações de estado diretamente ao Google (isso evita que, durante uma solicitação de informações, a Página inicial do Google questione Jeedom). Consulte a seção "Configuração JWT"
-  * Desafio [Nenhum, Código] : se estiver no modo de código, o Google solicitará um código (o indicado logo abaixo) para cada ação no equipamento
-* Estado : indica se a transmissão está correta, se é NOK, trata-se de um tipo genérico. Se você clicar em NOK, poderá obter as informações sobre o tipo genérico necessário
-* Tipo : indica o tipo de equipamento
-* Apelido : apelido do dispositivo, se vazio, o nome do dispositivo é usado
-* Ação :
-  * Permite a configuração avançada de equipamentos para a Página inicial do Google (depende do tipo usado)
-  * Configuração avançada de equipamentos, permite acesso à configuração avançada de comandos e, portanto, à modificação de tipos genéricos
-  * Permite ir diretamente para a página de configuração do equipamento
+* Options :
+  * Transmettre : envoi l'équipement au Google Home pour qu'il puisse le piloter (attention il faut que la configuration des génériques type soient OK)
+  * Remonter l'état : envoi toute informations de changement d'état à Google directement (cela évite que lors d'une demande d'information Google Home interroge Jeedom). Voir partie "Configuration JWT"
+  * Challenge [Aucun,Code] : si en mode code alors Google vous demandera un Code (celui indiqué juste en dessous) pour chaque action sur l'équipement
+* Status : indique si la transmission est OK, si c'est NOK alors cela vient des Générique type. Si vous clicquez sur NOK vous pouvez avoir les informations sur les type générique nécessaire
+* Type : indique le type d'équipements
+* Pseudo : pseudo de l'équipement, si vide alors c'est le nom de l'équipement qui est utilisé
+* Action :
+  * Permet la configuration avancé de l'équipement pour Google Home (dépend du type utilisé)
+  * Configuration avancée de l'équipements, permet d'accéder à la configuration avancée des commandes et donc de modifier les types générique
+  * Permet d'aller directement sur la page de configuration de l'équipement
 
 ### Type
 
-Os tipos de equipamento são importantes, permitindo que o Google reaja de acordo com as frases que você diz.
+Les types d'équipements sont important cela permet à Google de réagir en fonction des phrases que vous dite.
 
 > **IMPORTANT**
 >
-> Suporte Jeedom para tipos "beta" ainda não documentados no Google, para que possam ou não funcionar, dependendo das atualizações no Google
+> Jeedom support des types "beta" non encore documenté chez Google donc qui peuvent marcher ou non en fonction des mises à jour chez google
 
-* Luz : suporta ligar / desligar, mudança de cor, escurecimento....
-* Termostato : suporte à alteração do ponto de ajuste e aos modos (de maneira limitada, apenas determinados nomes de modo são autorizados pelo Google, tenha cuidado ao fazer a configuração avançada)
-* Tomada : on / off
-* Câmera : na versão beta, pode exibir o fluxo em uma TV Android na rede local
-* Loja : permite abrir / fechar uma persiana (você pode reverter a direção na configuração avançada)
-* Aba : abre / fecha um obturador (você pode reverter a direção na configuração avançada)
-* [Janela beta] : normalmente suporta o status aberto / fechado de uma janela (apenas para informações, se eu fizer a pergunta em inglês que funciona)
-* Porta [beta] : normalmente suporta o status de aberto / fechado de uma porta (para obter informações apenas se eu fizer a pergunta em inglês que funciona)
-* Alarme [beta] : permite que você arme / desarme o alarme (tenha cuidado, você deve usar o termo arma / desarmar para o Google executar a ação)
-* Bloquear [beta] : fechar / abrir equipamento
-* TV [beta] : permite alterar o volume e os canais
-* Grávida [beta] : permite alterar o volume e parar, pausar, próximo, anterior, retomar
+* Lumière : supporte l'allumage/l'arret, le changement de couleur, le dimming....
+* Thermostat : support le changement de consigne et les modes (de maniere limité seul certain nom de mode sont autorisé par Google, attention a bien faire la configuration avancée)
+* Prise : marche/arret
+* Caméra : en beta, peut afficher le flux sur une télé Android sur le réseaux local
+* Store : permet d'ouvrir/fermer un store (vous pouvez inverser le sens dans la configuration avancée)
+* Volet : permet d'ouvrir/fermer un volet (vous pouvez inverser le sens dans la configuration avancée)
+* Fenêtre [beta] : supporte normalement le status ouvert/fermé d'une fenetre (pour information il n'y a que si je pose la question en anglais que ca marche)
+* Porte [beta] : supporte normalement le status ouvert/fermé d'une porte (pour information il n'y a que si je pose la question en anglais que ca marche)
+* Alarme [beta] : permet d'armer/désarmer l'alarme (attention il faut employer le terme arme/désarme pour que Google fasse l'action)
+* Verrou [beta] : permet de fermer/ouvrir un équipement
+* TV [beta] : permet de changer le volume et les chaines
+* Enceinte [beta] : permet de changer le volume et de faire stop,pause,suivant,precedent,reprendre
 
-## Cenas
+## Scénario
 
-Você também pode criar cenas na guia cena, com ações de entrada e saída.
+Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'entrée et de sortie.
 
 ![gsh](../images/gsh3.png)
 
 > **NOTE**
 >
-> Para iniciar um cenário, basta dizer "Ativo #nom du scénario#" ou "Desativar #nom du scénario#
+> Pour lancer un scénario il suffit de dire "Active #nom du scénario#" ou "Désactive #nom du scénario#
 
 > **NOTE**
 >
-> Ao salvar o Jeedom, a sincronização será solicitada automaticamente com o Google. Atenção no modo independente, se você tiver um erro (tipo "A entidade solicitada não foi encontrada"), tente reativar o teste do aplicativo ([aqui](https://console.actions.google.com)) e clique novamente no botão de conexão na página de configuração do plugin. Verifique também a configuração (especialmente a parte oauth) do seu aplicativo do Google (às vezes os campos são limpos pelo Google)
+> Lors de la sauvegarde Jeedom va automatiquement demander une synchronisation avec Google. Attention en mode standalone si vous avez une erreur (type "Requested entity was not found") essayez de réactiver le test de l'application ([ici](https://console.actions.google.com)) puis de recliquez sur le bouton de connection sur la page la page de configuration du plugin. Vérifiez aussi la configuration (surtout la partie oauth) de votre application google (desfois les champs sont effacés par Google)
 
-Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo Google Home
+Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans l'application Google Home
 
 # FAQ
 
->**Não consigo fazer a associação no modo nuvem ?**
+>**Je n'arrive pas à faire l'association en mode cloud ?**
 >
-> Temos que verificar se :
-> - você está bem em https (se você tiver um service pack, use o DNS jeeodm, estes são seguros por padrão)
-> - você ativou o assistente do Google no mercado (página de perfis, guia meus serviços e configuração na seção assistente de voz)
-> - você se inscreveu na assinatura dos serviços de voz e ela ainda é válida (necessário a partir de 01/06/2019). Isso pode ser visto na sua página de perfis de mercado, guia meus serviços
-> - é necessário no plugin -> comunicação -> Google Smarthome selecione o equipamento "transmitir" e defina o tipo e, finalmente, salve
-> - use bem suas credenciais de mercado
+> Il faut verifier que :
+> - vous etes bien en https (si vous avez un service pack, utilisez les DNS jeeodm ceux-ci sont sécurisé par defaut)
+> - vous avez bien activé Google assistant sur le market (page profils, onglet mes services puis configuration dans la partie Assistant vocaux)
+> - vous avez bien souscrit à l'abonnement pour les services vocaux et que celui-ci est encore valide (necessaire à partir du 01/06/2019). Cela se voit sur votre page profils du market, onglet mes service
+> - il faut dans plugin -> communication -> Google Smarthome selectionner "transmettre" des équipements et bien mis le type et enfin sauvegarder
+> - bien utiliser vos identifiants market
 
->**Durante a associação, tenho um erro (mas não em um problema de senha / nome de usuário)**
+>**Lors de l'association j'ai une erreur (mais pas sur un soucis de mot de passe/nom d'utilisateur)**
 >
->Se você tiver um erro durante a associação com a Jeedom, provavelmente é porque você não adicionou / transmitiu equipamento antes de fazer a associação.. Para corrigir, vá para Plugins -> Comunicação -> Alexa e marque pelo menos um equipamento para transmitir e salvar (verifique se o equipamento está em OK, se estiver em NOK, clique no NOK para ver o porquê ou perguntar sobre tipo genérico em jeedom). Depois refaça a associação
+>Si vous avez une erreur lors de l'association avec Jeedom cela vient surement du faite que vous n'avez pas ajouté/transmis d'équipement avant de faire l'association. Pour corriger aller sur Plugins -> Communication -> Alexa puis coché au moins un équipement à transmettre et faite sauvegarder (vérifié que l'équipement est bien en OK, si il est en NOK cliquer sur le NOK pour voir pourquoi ou renseignez vous sur les générique type dans jeedom). Puis refaite l'association
 
->**Quais são os pedidos possíveis ?**
+>**Quelles sont les commandes possibles ?**
 >
->Os comandos de voz (assim como os retornos) são gerenciados apenas pelo Google. Aqui está o [Documentação](https://support.google.com/googlehome/answer/7073578?hl=fr)
+>Les commandes vocales (ainsi que les retours) sont gérés uniquement pas Google, voila la [documentation](https://support.google.com/googlehome/answer/7073578?hl=fr)
 
->**O assistente me pede para atribuir as peças, mas não sei a que corresponde o equipamento.**
+>**L'assistant me demande d'affecter les pieces mais je ne sais pas à quoi correspond l'équipement.**
 >
->Sim, o assistente não exibe o nome real do equipamento, apenas o apelido. Portanto, você deve sair do assistente e retornar à página inicial do controle inicial.. Ao clicar no equipamento, você terá esse nome e poderá atribuí-lo a uma sala
+>Oui l'assisant n'affiche pas le nom réel de l'équipement, juste le pseudo. Il faut donc quitter l'assistant et revenir sur la page d'acceuil du controle de la maison. La en cliquant sur l'équipement vous allez avoir son nom vous pourrez ensuite l'affecter à une piece
 
->**Por que você precisa atribuir peças a cada peça de equipamento ?**
+>**Pourquoi faut-il affecter des pièces à chaque équipement ?**
 >
->Como o Google não permite que você faça isso através da API, você deve fazê-lo manualmente.
+>Car Google ne permet pas de le faire par l'API vous devez donc absolument le faire manuellement.
 
->**Recebo a mensagem de erro "OpenSSL incapaz de assinar dados"**
+>**J'ai le message d'erreur "OpenSSL unable to sign data"**
 >
->Você deve marcar a caixa "Voltar ao status" sem fazer a configuração do JWT
+>Vous avez du cocher la case "Remonter l'état" sans faire la configuration JWT
 
->**Recebo a mensagem de erro "Não é possível encontrar o recurso 404" ao salvar**
+>**J'ai le message d'erreur "Cant find ressource 404" lors de la sauvegarde**
 >
->Portanto, não se preocupe, tudo será salvo, é apenas a sincronização automática que não é feita. Para dizer "Sincronizar meus dispositivos" com seu assistente. Para tentar corrigir essa preocupação :
-> vá para a próxima página [aqui](https://console.cloud.google.com/cloud-resource-manager). Nesta página, você verá a lista de todos os projetos, mesmo os invisíveis, na página de ações do Google. Excluir todos os projetos não utilizados.
-> Em seguida, refaça o tutorial da etapa configure a Homegraph da chave da API (ativação, geração da chave, desassocie o jeedom da sua conta do Google e refaça o link)
+>Alors pas de soucis tout est bien sauvé, c'est juste la synchronisation automatique qui n'est pas faites. Pour la faire dites "Synchroniser mes appareils" à votre assistant. Pour tenter de corriger ce soucis :
+> allez sur la page suivante [ici](https://console.cloud.google.com/cloud-resource-manager). Sur cette page vous verrez la liste de tous les projets même ceux invisibles sur la page google actions. Supprimer tous les projets inutilisés.
+> Puis refaites le tuto à partir de l'étape configurer la clef api Homegraph (activation, génération de clé, puis dissocier jeedom de votre compte google et refaites le lien)
 
 
->**Você tem um erro de link ou não foi possível atualizar o parâmetro, verifique sua conexão no modo nuvem**
+>**Vous avez un link error ou Impossible de mettre a jour le paramètre, vérifier votre connexion en mode cloud**
 >
->É necessário no jeedom, no plug-in, adicionar equipamento, salvar e refazer a associação do Jeedom Smarthome no aplicativo Google Home
+>Il faut dans jeedom, sur le plugin ajouter des équipements, sauvegarder et refaire l'association de Jeedom Smarthome dans l'application Google Home
 
->**Recebo o erro "Aparentemente, o Jeedom Smart Home não está disponível no momento." ou "Desculpe, não consigo me conectar ao Jeedom Smart Home."**
+>**J'ai l'erreur "Apparemment Jeedom Smart Home est indisponible pour le moment." ou "Pardon je ne peux pas établir la connexion avec Jeedom Smart Home."**
 >
->Tente desassociar / associar novamente o aplicativo smarthome do Google. Tenha cuidado ao aceitar o aplicativo oficial e não o [TEST] se você já usou o modo autônomo antes.
+>Essayez de dé-associé/ré-associé l'application Google smarthome. Attention à bien prendre l'application officiel et non une application [TEST] si vous avez utilisez le mode standalone avant.
 
->**Ao adicionar equipamento, tenho NOK**
+>**Lors de l'ajout des équipement j'ai des NOK**
 >
->Basta clicar no NOK, uma janela informará o tipo genérico a ser usado nos controles do equipamento para que funcione
+>Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche
 
->**Os demônios / dependências estão em NOK**
+>**Le demon/les dépendances sont en NOK**
 >
->Não importa se não deve ser cuidado, pois não é usado em nenhum caso para o funcionamento do plugin no momento (é útil apenas passarmos na validação do Google)
+>Ce n'est pas grave il ne faut pas s'en occupe ca ne sert en aucun cas au fonctionnement du plugin pour le moment (ca nous sert en faite juste pour passer la validation Google)
