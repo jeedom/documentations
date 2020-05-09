@@ -1,53 +1,50 @@
-# 09/05/2020
+- Added support for 0-10v extension
 
-- Ajout du support de l'extension 0-10v
-- optimisation
+# 12/30/2019
 
-# 30/12/2019
+- Thermostat bug fix
+- Correction of an error in the event url to give to the ipx800
 
-- Correction bug thermostat
-- Correciton d'une erreur dans l'url d'event à donner à l'ipx800
-
-# 18/09/2019
+# 09/18/2019
 
 - Optimisations
 
-# 14/08/2019
+# 08/14/2019
 
-- Correction de bug sur les templates
-- Compatible php 7.3
+- Bug fix on templates
+- Compatible with php 7.3
 
-# 13/06/2019
+# 06/13/2019
 
-- Ajout d'un systeme de sauvegarde automatique tout les jours des ipx800v4
-- Support PWM en mono-couleur uniquement
-- Suppression du redemarrage du démon a chaque changement sur les équipements (il faut maintenant lorsque vous modifiez un équipement relance le démon manuellement)
+- Addition of an automatic daily backup system for ipx800v4
+- PWM support in single color only
+- Suppression of the restarting of the daemon at each change on the equipments (it is necessary now when you modify an equipment relaunch the daemon manually)
 
-# 24/04/2018
+# 04/24/2018
 
--	Support des sondes THL 9 à 14
+-	Support for THL 9 to 14 probes
 
-# 19/03/2018
+# 03/19/2018
 
--   Correction des numéros pour les capteurs enOcean Analogique
+-   Number correction for enOcean Analog sensors
 
-# 05/03/2018
+# 03/05/2018
 
-- 	Ajout du X-dimmer (ne pas oublier sur la configuration du plugin de cocher G pour les demandes x-dimmer)
+- 	Addition of the X-dimmer (do not forget about the configuration of the check plugin G for x-dimmer requests)
 
-#  18/02/2018
+#  02/18/2018
 
--	Ajout d'option sur les demandes à l'ipx800 (possibilité de selectionne rle type de demande pour reduire la charge)
+-	Addition of option on the requests to the ipx800 (possibility of selecting the type of request to reduce the load)
 
--   Amélioration du support enOcean
+-   Improved enOcean support
 
--   Correction de bugs sur la récuperération des informations des
+-   Correction of bugs on the recovery of information from
     extensions
 
--   Ajout de l’extension VR
+-   Addition of VR extension
 
--   Optimisation de la synchronisation avec l’ipx800
+-   Optimization of synchronization with the ipx800
 
--   Support des modules THL
+-   Support for THL modules
 
--   Ajout d’un moteur de template pour la génération des commandes
+-   Addition of a template engine for order generation

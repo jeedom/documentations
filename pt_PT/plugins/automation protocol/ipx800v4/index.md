@@ -1,135 +1,135 @@
-Ce plugin permet de gérer un IPX 800 v4
+Este plug-in permite gerenciar um IPX 800 v4
 
-Configuration du plugin 
+Configuração do plugin 
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci et de cocher les cases qui vous concerne pour les demandes aux IPX800v4 (exemple cocher X-Dimmer si vous avez un X-dimmer). Vous pouvez aussi choisir la fréquence des demandes pour alleger la charge sur les ipx800v4
+Após o download do plug-in, basta ativá-lo e marcar as caixas que lhe interessam para solicitações de IPX800v4 (por exemplo, verifique o X-Dimmer se você tiver um X-dimmer). Você também pode escolher a frequência das solicitações para aliviar a carga no ipx800v4
 
 > **Important**
 >
-> Après chaque modidfication de la fréquence ou des demandes il faut relancer le demon pour que cela soit prise en compte
+> Após cada modificação da frequência ou dos pedidos, é necessário reiniciar o demônio para que isso seja levado em consideração.
 
 > **Important**
 >
-> Pour alleger la charge il est recommander de décocher les demandes de type ALL et de cocher juste les API qui vous concerne (vous trouverez le détails dans la documentation API des IPX800v4)
+> Para aliviar a carga, é recomendável desmarcar TODAS as solicitações de tipo e apenas verificar as APIs que lhe interessam (você encontrará detalhes na documentação da API para IPX800v4)
 
 > **Note**
 >
-> Vous pouvez voir sur cette page l’état du démon qui surveille l’IPX800
+> Você pode ver nesta página o status do daemon que monitora o IPX800
 
-Configuration des équipements 
+Configuração do equipamento 
 =============================
 
-La configuration des équipements IPX800 est accessible à partir du menu
-plugin puis protocole domotique :
+A configuração dos dispositivos IPX800 pode ser acessada no menu
+plugin, em seguida, protocolo de automação residencial :
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement IPX800** : nom de votre équipement IPX800,
+-   **Nome do equipamento IPX800** : nome do seu equipamento IPX800,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto pai** : indica o objeto pai ao qual pertence
+    o equipamento,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Activer** : torna seu equipamento ativo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible** : torna seu equipamento visível no painel,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Categoria** : categorias de equipamentos (pode pertencer a
+    várias categorias),
 
--   **IP** : L’ip de l’IPX800,
+-   **IP** : O ip IPX800,
 
--   **Clef API** : clef api de l’IPX800 (par default la clef API
-    est apikey)
+-   **Chave de API** : Chave da API IPX800 (por padrão, a chave da API
+    é apikey)
 
-Le plugin par defaut ne creer rien, ca sera à vous de le faire en
-fonction de votre configuration, mais vous serez guider.
+O plug-in padrão não cria nada, você deve fazer isso até
+dependendo da sua configuração, mas você será um guia.
 
-Commande 
+Ordem 
 ========
 
-Action 
+Ação 
 ------
 
-Vous avez 3 types d’action :
+Você tem 3 tipos de ação :
 
--   **On** : permet de mettre à 1 une sortie (ou entrée virtuelle), ou
-    d’affecter une valeur à une entrée analogique (ou compteur)
+-   **On** : permite definir uma saída (ou entrada virtual) para 1 ou
+    atribuir um valor a uma entrada analógica (ou contador)
 
--   **Off** : permet de mettre à 0 une sortie (ou entrée virtuelle)
+-   **Off** : permite definir uma saída (ou entrada virtual) para 0
 
--   **Bascule** : permet d’inverser l’état d’une sortie (ou
-    entrée virtuelle)
+-   **Bascule** : permite reverter o estado de uma saída (ou
+    entrada virtual)
 
-Vous avez 6 types d’actionneurs :
+Você tem 6 tipos de atuadores :
 
 -   **Relais**
 
--   **Sortie virtuelle**
+-   **Saída virtual**
 
--   **Entrée virtuelle**
+-   **Entrada virtual**
 
--   **Entrée analogique virtuelle**
+-   **Entrada analógica virtual**
 
 -   **Compteur**
 
--   **Fil pilote**
+-   **Fio piloto**
 
 > **Note**
 >
-> Certain type d’actionneur peuvent etre masqué en fonction du type
-> d’action
+> Certos tipos de atuadores podem ser ocultos, dependendo do tipo
+> d'action
 
-Ensuite en fonction du type d’action et de l’actionneur vous avez
-plusieurs paramètres qui peuvent être :
+Então, dependendo do tipo de ação e do atuador que você possui
+vários parâmetros que podem ser :
 
--   numéro du relai
+-   número do relé
 
--   numéro de la sortie virtuelle
+-   número de saída virtual
 
--   numéro de l’entrée virtuelle
+-   número da entrada virtual
 
--   numéro de l’entrée analogique et valeur à affecter (laisser vide si
-    vous voulez choisir avec le curseul)
+-   número de entrada analógica e valor a atribuir (deixe em branco se
+    você quer escolher com o cursor)
 
--   numéro du compteur et opération (ex +200 ou -100)
+-   número e operação do contador (ex +200 ou -100)
 
--   numéro du fil pilote ainsi que valeur de la commande (0 confort, 1 eco, 2 hors gel, 3 arrêt, 4 confort-1, 5 confort-2)
+-   número do fio piloto e valor do pedido (0 conforto, 1 eco, 2 sem gelo, 3 desligados, 4 conforto-1, 5 conforto-2)
 
-Info 
+Informações 
 ----
 
-Vous avez 11 types differents :
+Você tem 11 tipos diferentes :
 
 -   Relais
 
--   Entrée digital
+-   Entrada digital
 
--   Entrée virtuelle
+-   Entrada virtual
 
--   Sortie virtuelle
+-   Saída virtual
 
 -   Watchdog
 
 -   EnOcean
 
--   Entrée analogique
+-   Entrada analógica
 
--   Entrée analogique virtuelle
+-   Entrada analógica virtual
 
 -   Compteur
 
--   Volet roulant : option sous la forme 1-3 pour le volet 3 de
-    l’extension VR 1
+-   Persiana de enrolar : opção no formulário 1-3 para a parte 3 do
+    extensão VR 1
 
--   THL : sous la forme 1-TEMP pour la température du capteur 1, 3-HUM
-    pour l’humidité du capteur 3 ou 2-LUM pour la luminosité du capteur
+-   THL : na forma 1-TEMP para a temperatura do sensor 1, 3-HUM
+    para umidade do sensor 3 ou 2-LUM para brilho do sensor
     2
 
-Pour chaque type jeedom vous demandera le numéro de l’information voulue
+Para cada tipo, o jeedom solicitará o número da informação desejada
 
-Template 
+Modelo 
 ========
 
-Pour vous aider il y a un template qui permet de creer certain type de
-commande d’un seul coup et plus rapidement.
+Para ajudá-lo, existe um modelo que permite criar certos tipos de
+encomendar de uma só vez e mais rápido.

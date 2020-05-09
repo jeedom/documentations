@@ -1,122 +1,122 @@
-# 07/05/2020
+# 05/07/2020
 
-- Amélioration de l'installation des dependances
+- Instalação aprimorada de dependências
 
-# 04/05/2020
+# 05/04/2020
 
 - Optimisations
 
 # 30/04/2020
 
-- Correction d'un bug sur la synchronisation des équipements
+- Correção de um erro na sincronização do equipamento
 
 # 29/04/2020
 
-- Correction de bugs
+- Correções de bugs
 
 # 28/04/2020
 
-- Correction de bugs
-- Optimisation diverse
+- Correções de bugs
+- Otimização diversa
 
 # 23/01/2020
 
-- Amélioration du support des thermostats (possibilité de choisir n'importe quelle commande chauf/froid/off)
-- Support de la température de couleur
-- Préparation du support de la synchronisation sans cache
+- Suporte aprimorado para termostatos (possibilidade de escolher qualquer controle de aquecimento / frio / desligado)
+- Suporte de temperatura de cor
+- Preparando o Suporte à Sincronização Sem Cache
 
 # 11/12/2019
 
-- Amélioration du support des ventilateur (on/off maintenant seulement)
-- Ajout du support des hottes
-- Mise à jour de la doc
+- Suporte aprimorado para os fãs (somente on / off agora)
+- Adição de suporte de capô
+- Atualizando o documento
 
 # 15/10/2019
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Envio automático da configuração ao mercado durante a instalação
 
 # 26/08/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 23/08/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 08/06/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
-# 03/06/2019
+# 03/03/2019
 
-- Correction de bugs
-- Mise à jour de la doc
-- Ajout d'information sur le status de l'abonnement aux services vocaux
+- Correções de bugs
+- Atualizando o documento
+- Adição de informações sobre o status da assinatura aos serviços de voz
 
 # 31/05/2019
 
-- Mise à jour de la doc
-- Correction de bugs
-- Ajout de type
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Atualizando o documento
+- Correções de bugs
+- Adicionar tipo
+- Possibilidade de obter informações sobre o tipo genérico necessário ao clicar no rótulo NOK
+- IMPORTANTE : a partir de 01/06/2019, os serviços de voz se tornam cobráveis, você pode ver seu status na sua página de perfil no mercado, guia meus serviços
 
 # 13/05/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
-# 09/05/2019
+# 09/09/2019
 
-- Inversion de l'inversion des volets (pour s'accorder avec google)
-- correction de bugs
-- support de nouveau type d'équipements
-- améliorations diverse
+- Inversão da inversão dos painéis (para concordar com o google)
+- Correções de bugs
+- suporte para novos tipos de equipamentos
+- várias melhorias
 
 # 24/04/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 08/02/2019
 
-- Support des modes sur l'alarme coté Jeedom (ne marche pas encore coté Google...)
-- Ajout de l'inversion sur les volets et store
-- Ajout des TV (nécessite jeedom 3.3.x ou plus)
-- Ajout du control de volumes et commande media (stop,pause,lecture,suivant,précedent) pour le type enceinte (nécessite jeedom 3.3.x ou plus)
-- Correction d'un soucis de non désactivation de la transmission lors de la désactivation d'un équipement
+- Suporte de modos no alarme no lado Jeedom (ainda não está funcionando no lado do Google ...)
+- Inversão adicionada em persianas e persianas
+- Adicionando TVs (requer jeedom 3.3.x ou mais)
+- Adição de controle de volume e comando de mídia (parar, pausar, reproduzir, próximo, anterior) para o tipo de alto-falante (requer jeedom 3.3.x ou mais)
+- Correção de um problema de não desativação da transmissão ao desativar um equipamento
 
 
-# 07/01/2018
+# 01/07/2018
 
-- Mise à jour de la documentation
-- Ajout d'une option pour inverser l'ouverture/fermeture des volets
-- Ajout d'options pour le thermostat
-- Support du report state
-- Support d'une confirmation lors d'une action (attention le mode validation est bugué coté Google, le mode code marche)
-- Ajout des capteurs (ne marche pas encore, aucune doc coté Google)
-- Ajout des stores
-- Ajout des fenêtres (ne marche pas encore, aucune doc coté Google)
-- Ajout des portes (ne marche pas encore, aucune doc coté Google)
+- Atualização da documentação
+- Adicione uma opção para reverter a abertura / fechamento das persianas
+- Adição de opções para o termostato
+- Relatório de suporte ao estado
+- Suporte a uma confirmação durante uma ação (atenção: o modo de validação está com erros no lado do Google, o modo de código ambulante)
+- Adicionando sensores (ainda não está funcionando, nenhum documento listado no Google)
+- Adicionando blinds
+- Adicionando janelas (ainda não está funcionando, nenhum documento listado no Google)
+- Adicionando portas (ainda não está funcionando, nenhum documento listado no Google)
 
 # 25/11/2018
 
-- Mise à jour de la doc
+- Atualizando o documento
 
-# 04/10/2018
+# 10/04/2018
 
-- Support des volets (attention c'est non officiel coté Google)
+- Suporte para as persianas (observe que isso não é oficial no lado do Google)
 
 # 31/07/2018
 
-- Correction de bugs
+- Correções de bugs
 
 # 17/07/2018
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 10/07/2018
 
-- Correction de bugs
+- Correções de bugs
 
-# 06/07/2018
+# 06/06/2018
 
-- Correction de bugs
+- Correções de bugs
