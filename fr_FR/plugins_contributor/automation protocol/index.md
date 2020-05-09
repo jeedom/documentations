@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="jeedouino/jeedouino_icon.png" class="pluginLogo" width="100" />|Jeedouino|Plugin Jeedouino pour gérer une/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e/s, les MCP23017 (sur RPI) ou les ESP8266 / NodeMCU/ Wemos.|[Documentation](https://revlysj.github.io/jeedouino/fr_FR/index) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2064)|
+|<img src="jeedouino/jeedouino_icon.png" class="pluginLogo" width="100" />|Jeedouino|Plugin Jeedouino pour gérer une/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e/s, les MCP23017 (sur RPI) ou les ESP8266 / NodeMCU / Wemos.|[Documentation](https://revlysj.github.io/jeedouino/fr_FR/index) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2064)|
