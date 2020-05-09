@@ -111,40 +111,6 @@ button {
 }
 
 
-/* search engine */
-#li_search i {
-  cursor: pointer;
-  font-size: 18px !important;
-  height: 25px !important;
-  line-height: 20px;
-  padding-top: 24px;
-}
-#buttonSearch:hover {
-  opacity: .75;
-}
-#buttonSearch {
-  border: none;
-  padding: 5px 15px;
-  background: var(--logo-primary-color);
-}
-#inputSearch {
-  border-bottom:  1px dashed var(--logo-primary-color) !important;
-  border-bottom-color: var(--logo-primary-color) !important;
-}
-#inputSearch:focus {
-  box-shadow: none !important;
-}
-#searchResultContainer .searchResult:before {
-  content: '\2713';
-  padding-right: 10px;
-}
-#searchResultContainer .searchResult {
-  margin-bottom: 10px;
-}
-
-
-
-
 .sidenav {
   width: 280px !important;
   background-color: var(--bg-modal-color) !important;
