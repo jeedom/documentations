@@ -1,79 +1,79 @@
-# Jeedom V4 - Raccourcis clavier / souris
+# Jeedom V4 - Keyboard / mouse shortcuts
 
-## Général
+## Main
 
-A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
+When opening a page (Dashboard, Scenarios, etc.) the focus is on the search field. You can therefore directly type a search without further action.
 
-- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
-- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
-- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
-- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
+- Click on the clock (menu bar) : Open the Timeline.
+- Click on the name of the Jeedom (menu bar)  : Opens **Settings → System → Configuration**.
+- Click on ?  (toolbar)  : Opens help on the current page.
+- Escape on a research field : Empty the search field and cancel it.
 
 ## Dashboard
-En mode édition:
-	- Drag n Drop sur les tuiles pour les réarranger.
-	- Resize sur les bordures de tuile pour les redimensionner.
-	- Menu contextuel (Clic droit) sur les tuiles.
+In edit mode:
+	- Drag n Drop on tiles to rearrange them.
+	- Resize on tile borders to resize them.
+	- Contextual menu (Right click) on the tiles.
 
-- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
+- Ctrl Click on an info command : Opens all the history information of the tile in the history window.
 
-## Réglages / Système / Configuration
-- Ctrl S : Sauvegarder.
+## Settings / System / Configuration
+- Ctrl S : Save.
 
-## Réglages / Système / Sauvegardes
-- Ctrl S : Sauvegarder.
+## Settings / System / Backups
+- Ctrl S : Save.
 
-## Réglages / Système / Moteur de tâches
-- Ctrl S : Sauvegarder.
+## Settings / System / Task engine
+- Ctrl S : Save.
 
-## Réglages / Système / Utilisateurs
-- Ctrl S : Sauvegarder.
+## Settings / System / Users
+- Ctrl S : Save.
 
-## Réglages / Préférences
-- Ctrl S : Sauvegarder.
+## Settings / Preferences
+- Ctrl S : Save.
 
-## Outils / Interactions
-- Sur une interaction, Ctrl S : Sauvegarder.
-- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
+## Tools / Interactions
+- On an interaction, Ctrl S : Save.
+- On an interaction, Right click on a tab : Contextual menu to go directly to another interaction.
 
-## Outils / Objets
-- Sur un objet, Ctrl S : Sauvegarder.
-- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
+## Tools / Objects
+- On an object, Ctrl S : Save.
+- On an object, Right click on a tab : Contextual menu to go directly to another object.
 
-## Outils / Widgets
-- Sur un widget, Ctrl S : Sauvegarder.
-- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
+## Tools / Widgets
+- On a widget, Ctrl S : Save.
+- On a widget, Right click on a tab : Contextual menu to go directly to another widget.
 
-## Outils / Scénarios
-Sur un scénario :
-- Ctrl S : Sauvegarder.
-- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
-- Ctrl L : Affichage du log.
-- Ctrl Shift Z : Annuler.
-- Ctrl Shift Y : Refaire.
+## Tools / Scenarios
+On a scenario :
+- Ctrl S : Save.
+- Right click on a tab : Contextual menu to go directly to another scenario.
+- Ctrl L : Log display.
+- Ctrl Shift Z : Cancel.
+- Ctrl Shift Y : Remake.
 
-- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
-- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
-- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
-- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
-- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
+- Ctrl Click on Execute : Save and execute the scenario, then open the log.
+- Ctrl Click on icon * Copy this block* : Cut this block.
+- Ctrl Click on icon * Paste a block* : Replace this block.
+- Ctrl Click on icon * Delete this block* : Delete block without confirmation.
+- Ctrl Click on icon * Hide this block* : Hide or show all blocks.
 
-Dans un bloc Code :
-- Ctrl F : Rechercher dans le code.
-- Ctrl G : Occurrence suivante de la recherche.
+In a Code block :
+- Ctrl F : Search in the code.
+- Ctrl G : Next search occurrence.
 
-## Plugins / Gestion des plugins
-- Ctrl S sur une configuration de plugin : Sauvegarder.
+## Plugins / Plugins management
+- Ctrl S on a plugin configuration : Save.
 
-## Plugins / *plugin*
-- Sur un équipement, Ctrl S  : Sauvegarder.
-- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
+## Plugins / * plugin*
+- On a device, Ctrl S  : Save.
+- On a device, Right click on a tab : Contextual menu to go directly to another device.
 
-## Accueil / Vue
-- Ctrl S sur l'édition d'une vue : Sauvegarder.
+## Home / View
+- Ctrl S on editing a view : Save.
 
-## Accueil / Design
-- Ctrl S sur un design : Sauvegarder.
-- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
+## Home / Design
+- Ctrl S on a design : Save.
+- Ctrl Shift E on a design : Entering or leaving edit mode.
 
 

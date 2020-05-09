@@ -1,126 +1,126 @@
-La page Analyse d’équipements vous permet de voir de nombreuses infos
-relatives aux équipements de manière centralisée :
+A página Análise de equipamento permite que você veja muitas informações
+relacionados ao equipamento centralmente :
 
--   l’état de vos piles
+-   O estado das suas baterias
 
--   les modules en alertes
+-   Módulos em alerta
 
--   les actions définies
+-   Ações definidas
 
--   les alertes définies
+-   Alertas definidos
 
--   les commandes orphelines
+-   Ordens órfãs
 
-L’onglet Batteries 
+A guia Baterias 
 ==================
 
-Vous pouvez voir sur cet onglet la liste de vos modules sur batterie,
-leur niveau restant (la couleur de la tuile dépend de ce niveau), le
-type et le nombre de piles qu’il faut mettre dans le module, le type du
-module ainsi que la date à laquelle l’information du niveau de batterie
-a été mise à jour. Vous pouvez aussi voir si un seuil spécifique a été
-établi pour le module en particulier (représenté par une main)
+Você pode ver nesta guia a lista de seus módulos na bateria,
+o nível restante (a cor do ladrilho depende desse nível), a
+tipo e número de baterias a serem inseridas no módulo, o tipo de
+módulo, bem como a data em que as informações sobre o nível da bateria
+foi atualizado. Você também pode ver se um limite específico foi
+ambiente de trabalho para o módulo específico (representado por uma mão)
 
 > **Tip**
 >
-> Les seuils d’alerte/warning sur les niveaux des batteries sont
-> configurables de manière globale dans la configuration de Jeedom
-> (Administration → onglet Equipements), ou par équipement sur la page
-> de configuration avancée de ceux-ci dans l’onglet alertes.
+> Os limites de alerta / aviso nos níveis da bateria são
+> globalmente configurável na configuração Jeedom
+> (Guia Administração → Equipamento) ou por equipamento na página
+> configuração avançada destes na guia alertas.
 
-L’onglet Modules en alerte 
+Módulos na guia de alerta 
 ==========================
 
-Sur cet onglet vous verrez en temps réel les modules en alerte. Les
-alertes peuvent être de différents types :
+Nesta guia, você verá em tempo real os módulos em alerta. O
+alertas podem ser de diferentes tipos :
 
--   timeout (configuré dans l’onglet alertes définies)
+-   Tempo limite (configurado na guia de alertas definidos)
 
--   batterie en warning ou en danger
+-   Bateria em aviso ou em perigo
 
--   commande en warning ou danger (paramétrable dans les paramètres
-    avancées des commandes)
+-   comando em aviso ou perigo (configurável nos parâmetros
+    comandos avançados)
 
-D’autres types d’alertes pourront éventuellement se retrouver ici.
-Chaque alerte sera représentée par la couleur de la tuile (le niveau
-d’alerte) et un logo en haut à gauche (le type d’alerte)
-
-> **Tip**
->
-> Ici seront affichés tous les modules en alerte même ceux configurés en
-> "non visible". Il est toutefois intéressant de noter que si le module
-> est en "visible" l’alerte sera aussi visible sur le dashboard (dans
-> l’objet concerné)
-
-L’onglet Actions définies 
-=========================
-
-Cet onglet permet de visualiser les actions définies directement sur une
-commande. En effet, on peut en mettre sur différentes commandes et il
-peut être difficile de se rappeler de toutes. Cet onglet est là pour ça
-et synthétise plusieurs choses :
-
--   les actions sur état (que l’on retrouve dans les paramètres avancées
-    des commandes infos et permettant de réaliser une ou plusieurs
-    actions sur la valeur d’une commande - de manière immédiate ou après
-    un délai)
-
--   les confirmations d’actions (configurable au même endroit sur une
-    commande info et permettant de demander une confirmation pour
-    exécuter une action)
-
--   les confirmations avec code (même chose que précédemment mais avec
-    la saisie d’un code)
-
--   les actions pre et post (configurables toujours au même endroit sur
-    une commande action et permettant d’exécuter une ou plusieurs autres
-    actions avant ou après l’action en question)
+Outros tipos de alertas podem ser encontrados aqui.
+Cada alerta será representado pela cor do bloco (o nível
+alerta) e um logotipo no canto superior esquerdo (o tipo de alerta)
 
 > **Tip**
 >
-> Le tableau permet de voir de manière très textuelle les actions
-> définies. D’autres types d’actions définies pourront être rajoutées.
+> Aqui serão exibidos todos os módulos em alerta, mesmo aqueles configurados em
+> "Não visível". No entanto, é interessante notar que, se o módulo
+> é "visível", o alerta também será visível no painel (em
+> o objeto em questão)
 
-L’onglet Alertes définies 
+A guia Ações definidas 
 =========================
 
-Cet onglet permet de voir l’ensemble des alertes définies, vous y
-retrouverez dans un tableau les infos suivantes si elles existent :
+Essa guia permite visualizar as ações definidas diretamente em um
+comando De fato, podemos fazer pedidos diferentes e
+pode ser difícil lembrar tudo. Essa guia existe para isso
+e sintetiza várias coisas :
 
--   les alertes sur délai de communication
+-   ações no estado (encontradas em parâmetros avançados
+    comandos info e usados para executar um ou mais
+    ações sobre o valor de um pedido - imediatamente ou após
+    prazo)
 
--   les seuils spécifiques de batterie définis sur un équipement
+-   confirmações de ação (configuráveis no mesmo local em um
+    informações de comando e permitindo solicitar uma confirmação para
+    executar uma ação)
 
--   les différentes alertes danger et warning des commandes
+-   confirmações com código (o mesmo que acima, mas com
+    digitando um código)
 
-L’onglet Commandes orphelines 
+-   ações pré e pós (sempre configuráveis no mesmo local no
+    um comando de ação e permitindo executar um ou mais outros
+    ações antes ou depois da ação em questão)
+
+> **Tip**
+>
+> A tabela permite ver muito textualmente as ações
+> definido. Outros tipos de ações definidas podem ser adicionados.
+
+A guia Alertas definidos 
+=========================
+
+Essa guia permite que você veja todos os alertas definidos,
+encontre em uma tabela as seguintes informações, se existirem :
+
+-   Alertas de atraso de comunicação
+
+-   Os limites específicos da bateria definidos em um dispositivo
+
+-   Os vários alertas de perigo e comandos de aviso
+
+A guia Ordens Órfãs 
 =============================
 
-Cet onglet vous permet de voir en un coup d’oeil si vous avez des
-commandes orphelines utilisées au travers de Jeedom. Une commande
-orpheline est une commande utilisée quelque part mais qui n’existe plus.
-On retrouvera ici l’ensemble de ces commandes, comme par exemple :
+Essa guia permite ver rapidamente se você tem alguma
+comandos órfãos usados pelo Jeedom. Um pedido
+órfão é um comando usado em algum lugar, mas que não existe mais.
+Vamos encontrar aqui todos esses comandos, como por exemplo :
 
--   les commandes orphelines utilisée dans le corps d’un scenario
+-   Comandos órfãos usados no corpo de um cenário
 
--   celles utilisées en déclencheur d’un scénario
+-   aqueles usados para desencadear um cenário
 
-Et utilisées à plein d’autres endroits comme (non exhaustif) :
+E usado em muitos outros lugares como (não exaustivo) :
 
--   les interactions
+-   interações
 
--   les configurations de jeedom
+-   Configurações do Jeedom
 
--   en pre ou post action d’une commande
+-   Na ação anterior ou posterior a um pedido
 
--   en action sur état d’une commande
+-   Em ação no status do pedido
 
--   dans certains plugins
+-   Em alguns plugins
 
 > **Tip**
 >
-> Le tableau permet de voir de manière très textuelle les commandes
-> orphelines. Son but est de pouvoir identifier rapidement toutes les
-> commandes "orphelines" au travers de tout Jeedom et des plugins. Il se
-> peut que certaines zones ne soient pas analysées, le tableau se verra
-> être de plus en plus exhaustif avec le temps.
+> A tabela fornece uma visão muito textual dos comandos
+> órfãos. Seu objetivo é poder identificar rapidamente todos os
+> Comandos "órfãos" em todos os plugins Jeedom e. É
+> algumas áreas podem não ser analisadas, a tabela será
+> ser cada vez mais exaustivo ao longo do tempo.

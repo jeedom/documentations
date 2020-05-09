@@ -1,14 +1,14 @@
-# Centre de message
-**Barre de menu**
+# Centro de Mensagens
+**Barra de menus**
 
-Le centre des messages regroupe tous les messages importants que vous devez consulter. Il se trouve à gauche de l’heure, sur la droite de la barre de menu de Jeedom.
+O centro de mensagens reúne todas as mensagens importantes que você deve consultar. É à esquerda do tempo, à direita da barra de menus do Jeedom.
 
-Il n’est accessible que lorsqu’il y a des messages, en cliquant sur le nombre de messages.
+É acessível apenas quando houver mensagens, clicando no número de mensagens.
 
-Il est assez simple. Il vous montre la date et l’heure du message, le plugin qui l’a émis et le message en question. Vous pouvez, en appuyant sur le bouton au tout début de la ligne d’un message, supprimer le message en question (il reviendra si le problème est toujours d’actualité).
+É bem simples. Mostra a data e hora da mensagem, o plug-in que a enviou e a mensagem em questão. Você pode, pressionando o botão no início da linha de uma mensagem, excluir a mensagem em questão (ela retornará se o problema ainda estiver atual).
 
-En haut, on retrouve un sélecteur pour filtrer les messages sur un plugin particulier et tout à droite un bouton pour vider tous les messages.
+No topo, há um seletor para filtrar mensagens em um plug-in específico e, à direita, um botão para esvaziar todas as mensagens.
 
 > **Tip**
 >
-> Lorsque vous avez une erreur dans le centre des messages, essayez d’abord de supprimer le message puis voir si l’erreur revient avant de contacter le support. Il arrive que ce soit juste dû à un souci de connexion réseau.
+> Quando houver um erro no centro de mensagens, primeiro tente excluir a mensagem e verifique se o erro retorna antes de entrar em contato com o suporte.. Às vezes, é apenas devido a um problema de conexão de rede.

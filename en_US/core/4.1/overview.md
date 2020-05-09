@@ -1,46 +1,46 @@
-# Synthèse
-**Accueil → Synthèse**
+# Synthesis
+**Home → Summary**
 
-La page *Synthèse* vous propose une synthèse visuelle et rapide de vos objets et de leurs résumés.
+The page *Synthesis* offers you a quick and visual synthesis of your objects and their summaries.
 
-Vous pouvez la configurer comme page par défaut dans **Réglages → Préférences**, en desktop et/ou mobile.
+You can configure it as the default page in **Settings → Preferences**, in desktop and / or mobile.
 
 ## Affichage
 
-Sur chaque objet, son image de fond et ses résumés sont affichés :
+On each object, its background image and its summaries are displayed :
 
-En fonction du type de résumé (clé), visible dans **Réglages → Système → Configuration / Résumés** :
-- En haut à gauche : Le nom de l'objet.
-- En haut à droite : La température (*temperature*) et l'humidité (*humidity*).
-- Sous le titre : Alerte (*security*) et Mouvement (*motion*), colorés en vert ou en rouge suivant qu'il y a une ou des alertes / mouvement en cours.
-- En bas : Tous les autres résumés de l'objet.
+Depending on the type of summary (key), visible in **Settings → System → Configuration / Summaries** :
+- On the top corner left : The name of the object.
+- Top right : Temperature (*temperature*) and humidity (*humidity*).
+- Under the title : Alert (*security*) and Movement (*motion*), colored green or red depending on whether there are any alerts / movements in progress.
+- Below : All other subject summaries.
 
-La configuration de l'affichage de l'objet se fait dans **Outils → Objets** :
-- Son nom.
-- Si il est visible. Vous pouvez toutefois conserver un Objet visible y compris sur le Dashboard, mais cocher *Masquer sur la synthèse*.
-- Son image de fond.
-- Si l'image de fond doit être utilisée uniquement sur la page Synthèse ou aussi en fond une fois sur l'objet.
-- Les éléments de ses résumés, dans l'onglet *Résumé*.
+The configuration of the display of the object is done in **Tools → Objects** :
+- Her name.
+- If it is visible. You can, however, keep an Object visible even on the Dashboard, but tick *Hide on Synthesis*.
+- Its background image.
+- If the background image should only be used on the Summary page or also in the background once on the object.
+- The elements of his summaries, in the tab *Summary*.
 
 > **Tip**
 >
-> L'ordre d'affichage des objets est celui du *résumé domotique*, que vous pouvez réordonner (Analyse → Résumé domotique).
+> The display order of objects is that of *Domotic overview*, that you can reorder (Analysis → Home automation summary).
 
 > **Note**
 >
-> Si un objet n'a pas résumé défini, un bouton s'affiche en haut à droite pour accéder à la configuration / résumés de l'objet.
+> If an object has not defined a summary, a button is displayed at the top right to access the configuration / summaries of the object..
 
 ## Fonctions
 
-Pour chaque objet, vous pouvez cliquer :
-- Sur le titre de l'objet pour afficher le Dashboard de cet objet avec ses objets enfants (également accessible par le menu *Accueil → Dashboard → Objet*).
-- Sur l'image, pour ouvrir la page des équipements de cet objet seulement.
-- Sur un élément de résumé pour afficher les éléments de cet objet, de ce type.
+For each object, you can click :
+- On the title of the object to display the Dashboard of this object with its child objects (also accessible from the menu *Home → Dashboard → Object*).
+- On the image, to open the equipment page of this object only.
+- On a summary element to display the elements of this object, of this type.
 
 
 > **Tip**
 >
-> Ctrl Clic ou Clic Centre sur l'objet ou un élément de résumé ouvre un autre onglet de votre navigateur.
+> Ctrl Click or Center Click on the object or a summary element opens another tab of your browser.
 
-Quand vous cliquez sur un objet à partir de la synthèse, le bouton à gauche de la barre de recherche est remplacé par un bouton permettant de revenir à la synthèse.
+When you click on an object from the summary, the button on the left of the search bar is replaced by a button allowing to return to the summary.
 

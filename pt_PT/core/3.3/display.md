@@ -1,517 +1,517 @@
-Description 
+Descrição 
 ===========
 
-Cette page permet de rassembler sur une seule page les différents
-éléments configurés sur son Jeedom. Elle donne également l’accès à des
-fonctions d’organisation des équipements et des commandes, à leur
-configuration avancée ainsi qu’à des possibilités de configuration
-d’affichage.
+Esta página permite reunir em uma única página os diferentes
+elementos configurados em seu Jeedom. Também dá acesso a
+funções de organização de equipamentos e controles, a seu
+configuração avançada, bem como possibilidades de configuração
+d'affichage.
 
-Cette page est accessible par **Outils → Résumé domotique**.
+Esta página é acessível por **Ferramentas → Resumo da automação residencial**.
 
-Le haut de la page 
+O topo da página 
 ------------------
 
-Sur le haut de la page, on retrouve : \* **Nombre d’objets** : Nombre
-total d’objets configurés dans notre Jeedom, en comptant les éléments
-inactifs. \* **Nombre d’équipements** : Idem pour les équipements. \*
-**Nombre de commandes** : Idem pour les commandes. \* **Inactif** :
-Cochez cette case si vous voulez que les éléments inactifs soient bien
-affichés sur cette page. \* **Rechercher** : Permet de rechercher un
-élément particulier. Ce peut être le nom d’un équipement, d’une commande
-ou le nom du plugin par lequel a été créé l’équipement.
+No topo da página, encontramos : \* **Número de objetos** : Nombre
+total de objetos configurados em nosso Jeedom, contando os elementos
+inativo. \* **Número de equipamentos** : O mesmo vaO para o equipamento. \*
+**Número de pedidos** : Mesmo para pedidos. \* **Inactif** :
+Marque esta caixa se desejar que os itens inativos estejam bem
+exibido nesta página. \* **Rechercher** : Procure um
+elemento particular. Pode ser o nome de um equipamento, um pedido
+onde o nome do plugin pelo qual o equipamento foi criado.
 
-Vous avez aussi un bouton "Historique des suppressions" qui vous permettra d'afficher l'historique des commandes, équipements, objets, vue, design, deisgn 3d, scénario et utilisateur supprimés.
+Você também tem um botão "Histórico de exclusões", que permite exibir o histórico de pedidos, equipamentos, objetos, visualização, design, design 3d, cenário e usuário excluído.
 
-Les cadres objet 
+Quadros de objetos 
 ----------------
 
-En dessous on retrouve un cadre par objet. Dans chaque cadre, on trouve
-la liste des équipements (en bleu) qui ont pour parent cet objet. Le
-premier cadre **Aucun** représente les équipements qui n’ont pas de
-parent affecté. Pour chaque objet, à côté de son libellé, trois boutons
-sont disponibles. De gauche à droite :
+Abaixo há um quadro por objeto. Em cada quadro, encontramos
+a lista de equipamentos (em azul) que têm esse objeto como pai. O
+primeiro quadro **Aucun** representa equipamento que não possui
+pai afetado. Para cada objeto, próximo ao seu rótulo, três botões
+estão disponíveis. Da esquerda para a direita :
 
--   Le premier sert à ouvrir la page de configuration de l’objet dans un
-    nouvel onglet,
+-   O primeiro é usado para abrir a página de configuração do objeto em um
+    nova aba,
 
--   le deuxième apporte quelques informations sur l’objet,
+-   O segundo fornece algumas informações sobre o objeto,
 
--   le dernier permet d’afficher ou de masquer la liste des équipements
-    qui lui sont attribués.
-
-> **Tip**
->
-> La couleur de fond des cadres objets dépend de la couleur choisie dans
-> la configuration de l’objet.
+-   o último permite exibir onde ocultar a lista de equipamentos
+    atribuído a ele.
 
 > **Tip**
 >
-> En cliquant/déposant sur les équipements, vous pouvez changer leur
-> ordre ou même les affecter à un autre objet. C’est à partir de l’ordre
-> établi dans cette page que l’affichage du dashboard est calculé.
+> A cor de fundo dos quadros de objetos depende da cor escolhida em
+> configuração de objeto.
 
-Les équipements 
+> **Tip**
+>
+> Ao clicar / soltar no equipamento, você pode alterar sua
+> encomendar onde mesmo atribuí-los a outro objeto. É da ordem
+> estabelecido nesta página que a exibição do painel é calculada.
+
+Os equipamentos 
 ---------------
 
-Sur chaque équipement on retrouve :
+Em cada equipamento encontramos :
 
--   Une **case à cocher** pour sélectionner l’équipement (vous pouvez en
-    sélectionner plusieurs). Si au moins un équipement est sélectionné
-    vous avez des boutons d’action qui apparaissent en haut à gauche
-    pour **supprimer**, rendre **visible**/**invisible**,
-    **actif**/**inactif** les équipements sélectionnés.
+-   Um **caixa de seleção** para selecionar o equipamento (você pode
+    selecione vários). Se pelo menos um dispositivo estiver selecionado
+    você tem botões de ação que aparecem no canto superior esquerdo
+    PARA **supprimer**, devolver **visible**/**invisible**,
+    **actif**/**inactif** equipamento selecionado.
 
--   Le **nom** de l’équipement.
+-   O **nom** equipamento.
 
--   Le **type** d’équipement : Identifiant du plugin auquel
-    il appartient.
+-   O **type** equipamento : Identificador do plug-in ao qual
+    pertence.
 
--   **Inactif** (petite croix) : Signifie que l’équipement est inactif
-    (si elle n’y est pas, l’équipement est actif).
+-   **Inactif** (cruz pequena) : Significa que o equipamento está inativo
+    (se não estiver lá, o equipamento está ativo).
 
--   **Invisible** (oeil barré) : Signifie que l’équipement est invisible
-    (s’il n’y est pas, l’équipement est visible).
+-   **Invisible** (olho riscado) : Significa que o equipamento está invisível
+    (se não houver, o equipamento estará visível).
 
--   **Lien externe** (carré avec une flèche) : Permet d’ouvrir dans un
-    nouvel onglet la page de configuration de l’équipement.
+-   **Link externo** (quadrado com seta) : Permite abrir em um
+    nova aba a página de configuração do equipamento.
 
--   **Configuration avancée** (roue crantée) : permet d’ouvrir la
-    fenêtre de configuration avancée de l’équipement.
+-   **Configuração avançada** (roda dentada) : abre o
+    janela de configuração avançada de equipamentos.
 
--   **Liste des commandes** (la flèche) : permet de déplier la liste des
-    commandes (sur fond orange).
+-   **Lista de comandos** (seta) : permite expandir a lista de
+    comandos (em fundo laranja).
 
-Si vous dépliez la liste des commandes, chaque bloc orange correspond à
-une commande de votre équipement (un nouveau clic sur la petite flèche
-de l’équipement permet de les masquer).
+Se você expandir a lista de comandos, cada bloco laranja corresponderá a
+um pedido do seu equipamento (um novo clique na pequena seta
+equipamento pode escondê-los).
 
-Si vous double-cliquez sur la commande ou que vous cliquez sur la petite
-roue crantée cela fera apparaitre sa fenêtre de configuration.
+Se você clicar duas vezes no pedido onde clicar no pequeno
+roda dentada isso abrirá sua janela de configuração.
 
-Configuration avancée d’un équipement 
+Configuração avançada de equipamentos 
 =====================================
 
 > **Tip**
 >
-> Il est possible d’accéder (si le plugin le supporte) directement à
-> cette fenêtre à partir de la page de configuration de l’équipement en
-> cliquant sur le bouton configuration avancée
+> É possível acessar (se o plugin o suportar) diretamente para
+> nesta janela da página de configuração do equipamento em
+> clicando no botão de configuração avançada
 
-La fenêtre de **configuration avancée d’un équipement** permet de la
-modifier. En premier lieu, en haut à droite, quelques boutons
-disponibles :
+A janela de **Configuração avançada de equipamentos** permite que o
+modificar. Primeiro, no canto superior direito, alguns botões
+disponível :
 
--   **Liens** : Permet d’afficher les liens de l’équipement avec les
-    objets, commandes, scénarios, variables, interactions…​ sous forme
-    graphique (dans celui-ci, un double clic sur un élement vous amène à
-    sa configuration).
+-   **Liens** : Exibe os links do equipamento com o
+    objetos, comandos, cenários, variáveis, interações ... na forma
+    gráfico (neste, um clique duplo em um elemento leva você a
+    sua configuração).
 
--   **Log** : affiche les évènements de l’équipement en question.
+-   **Log** : exibe os eventos do equipamento em questão.
 
--   **Informations** : affiche les propriétés brutes de l’équipement.
+-   **Informations** : exibe as propriedades brutas do equipamento.
 
--   **Enregistrer** : Enregistre les modifications faites
-    sur l’équipement.
+-   **Enregistrer** : Salve as modificações feitas
+    no equipamento.
 
--   **Supprimer** : Supprime l’équipement.
+-   **Supprimer** : Remova o equipamento.
 
-Onglet Informations 
+Guia Informações 
 -------------------
 
-L’onglet **Informations** contient les informations générales de
-l’équipement ainsi que ses commandes :
+A guia **Informations** contém as informações gerais de
+o equipamento e seus controles :
 
--   **ID** : Identifiant unique dans la base de données de Jeedom.
+-   **ID** : Identificador exclusivo no banco de dados Jeedom.
 
--   **Nom** : Nom de l’équipement.
+-   **Nom** : Nome de equipamentos.
 
--   **ID logique** : Identifiant logique de l’équipement (peut
-    être vide).
+-   **ID lógico** : Identificador de equipamento lógico (pode
+    estar vazio).
 
--   **ID de l’objet** : Identifiant unique de l’objet parent (peut
-    être vide).
+-   **Object ID** : Identificador exclusivo do objeto pai (pode
+    estar vazio).
 
--   **Date de création** : Date de création de l’équipement.
+-   **Data de criação** : Data de criação do equipamento.
 
--   **Activer** : Cochez la case pour activer l’équipement (sans oublier
-    de sauvegarder).
+-   **Activer** : Marque a caixa para ativar o equipamento (não esqueça
+    salvar).
 
--   **Visible** : Cochez la case pour rendre visible l’équipement (sans
-    oublier de sauvegarder).
+-   **Visible** : Marque a caixa para tornar o equipamento visível (sem
+    esqueça de salvar).
 
--   **Type** : Identifiant du plugin par lequel il a été créé.
+-   **Type** : Identificador do plug-in pelo qual eO foi criado.
 
--   **Tentative échouée** : Nombre de tentatives de communications
-    consécutives avec l’équipement qui ont échoué.
+-   **Tentativa fracassada** : Número de tentativas de comunicação
+    consecutivo com falha do equipamento.
 
--   **Date de dernière communication** : Date de la dernière
-    communication de l’équipement.
+-   **Data da última chamada** : Data da última
+    comunicação de equipamentos.
 
--   **Dernière mise à jour** : Date de dernière communication
-    avec l’équipement.
+-   **Última atualização** : Data da última chamada
+    com equipamento.
 
--   **Tags** : tags de l'équipement, à séparer par des ','. Il permet sur le dashboard de faire des filtre personalisés
+-   **Tags** : etiquetas de equipamento, a serem separadas por ','. EO permite que o painel faça filtros personalizados
 
-En dessous vous retrouvez un tableau avec la liste des commandes de
-l’équipement avec, pour chacune, un lien vers leur configuration.
+Abaixo, você encontrará uma tabela com a lista de comandos para
+o equipamento com, para cada um, um link para sua configuração.
 
-Onglet Affichage 
+Guia Exibir 
 ----------------
 
-Dans l’onglet **Affichage**, vous allez pouvoir configurer certains
-comportements d’affichage de la tuile sur le dashboard, les vues, le
-design ainsi qu’en mobile.
+Na aba **Affichage**, você poderá configurar alguns
+exibir o comportamento do bloco no painel, as visualizações, o
+design, bem como móvel.
 
 ### Widget 
 
--   **Visible** : Cochez la case pour rendre visible l’équipement.
+-   **Visible** : Marque a caixa para tornar o equipamento visível.
 
--   **Afficher le nom** : Cochez la case pour afficher le nom de
-    l’équipement sur la tuile.
+-   **Mostrar nome** : Marque a caixa para exibir o nome de
+    equipamento na telha.
 
--   **Afficher le nom de l’objet** : Cochez la case pour afficher le nom
-    de l’objet parent de l’équipement, à côté de la tuile.
+-   **Do nome de exibição do objeto** : Marque a caixa para exibir o nome
+    do objeto pai do equipamento, próximo ao bloco.
 
--   **Couleur de fond** : Cochez la case pour garder la couleur de fond
-    par défaut (suivant la **catégorie** de votre équipement, voir
-    **Administration→Configuration→Couleurs**). Si vous décochez cette
-    case, vous pourrez choisir une autre couleur. Vous pourrez également
-    cocher une nouvelle case **Transparent** pour rendre le
-    fond transparent.
+-   **Cor de fundo** : Marque a caixa para manter a cor de fundo
+    por padrão (dependendo do **Categoria** do seu equipamento, consulte
+    **Administração → Configuração → Cores**) Se você desmarcar isso
+    caixa, você pode escolher outra cor. Você também pode
+    marque uma nova caixa **Transparent** fazer o
+    Fundo transparente.
 
--   **Opacité** : Opacité de la couleur de fond de la tuile.
+-   **Opacité** : Opacidade da cor de fundo do bloco.
 
--   **Couleur du texte** : Cochez la case pour garder la couleur du
-    texte par défaut.
+-   **Cor do texto** : Marque a caixa para manter a cor do
+    texto padrão.
 
--   **Bordures** : Cochez la case pour garder la bordure par défaut.
-    Sinon, il faut mettre du code CSS, propriété `border` (ex :
-    `3px blue dashed` pour une bordure pointillée de 3px en bleu).
+-   **Bordures** : Marque a caixa para manter a borda padrão.
+    Caso contrário, você deve colocar o código CSS, a propriedade `border` (ex :
+    `3px blue tracejado` para uma borda pontilhada de 3px em azul).
 
--   **Arrondi des bordures** (en px) : Cochez la case pour garder
-    l’arrondi par défaut. Sinon, il faut mettre du code CSS, propriété
-    `border-radius` (ex : `10px`)
+-   **Arestas arredondadas** (em px) : Marque a caixa para manter
+    o arredondamento padrão. Caso contrário, você deve colocar o código CSS, propriedade
+    "raio da borda" (ex : `10px`)
 
-### Paramètres optionnels sur la tuile 
+### Parâmetros opcionais na telha 
 
-En-dessous, on retrouve des paramètres optionnels d’affichage que l’on
-peut appliquer à l’équipement. Ces paramètres sont composés d’un nom et
-d’une valeur. Il suffit de cliquer sur **Ajouter** pour en appliquer un
-nouveau. Pour les équipements, seule la valeur **style** est pour le
-moment utilisée, elle permet d’insérer du code CSS sur l’équipement en
+Abaixo, encontramos parâmetros opcionais de exibição que
+pode aplicar-se ao equipamento. Esses parâmetros são compostos por um nome e
+vaO a pena. Basta clicar em **Ajouter** aplicar um
+novo. Para equipamentos, apenas o valor **style** é para o
+momento utilizado, permite inserir código CSS no equipamento em
 question.
 
 > **Tip**
 >
-> N’oubliez pas de sauvegarder après toute modification.
+> Não se esqueça de salvar após qualquer modificação.
 
-Onglet Disposition 
+Guia Layout 
 ------------------
 
-Cette partie vous permet de choisir entre la disposition standard des
-commandes (côte à côte dans le widget), ou en mode tableau. Il n’y a
-rien à régler en mode par défaut. Voici les options disponibles en mode
+Esta parte permite que você escolha entre o arranjo padrão de
+comandos (lado a lado no widget) onde no modo de tabela. Existe
+nada para definir no modo padrão. Aqui estão as opções disponíveis no modo
 **Tableau** :
 
--   **Nombre de lignes**
+-   **Número de linhas**
 
--   **Nombre de colonnes**
+-   **Número de Colunas**
 
--   **Centrer dans les cases** : Cochez la case pour centrer les
-    commandes dans les cases.
+-   **Centro nas caixas** : Marque a caixa para centralizar o
+    comandos nas caixas.
 
--   **Style générale des cases (CSS)** : Permet de définir le style
-    général en code CSS.
+-   **Estilo geral de caixas (CSS)** : Permite definir o estilo
+    geral no código CSS.
 
--   **Style du tableau (CSS)** : Permet de définir le style du
-    tableau uniquement.
+-   **Estilo mesa (CSS)** : Permite definir o estilo do
+    apenas mesa.
 
-En dessous pour chaque case, la **configuration détaillée** vous permet
-ceci :
+Abaixo para cada caixa, o **Configuração detalhada** permite que você
+isto :
 
--   **Texte de la case** : Ajouter un texte en plus de la commande (ou
-    tout seul, si il n’y a pas de commande dans la case).
+-   **Caixa de texto** : Adicione texto além do comando (ou
+    sozinho, se não houver pedido na caixa).
 
--   **Style de la case (CSS)** : Modifier le style CSS spécifique de la
-    case (attention celui-ci écrase et remplace le CSS général
-    des cases).
+-   **Caixa de estilo (CSS)** : Altere o estilo CSS específico do
+    caixa (cuidado, este substitui e substitui o CSS geral
+    caixas).
 
 > **Tip**
 >
-> Dans une case du tableau, si vous voulez mettre 2 commandes l’une en
-> dessous de l’autre, il ne faut pas oublier de rajouter un retour à la
-> ligne après la première dans la **configuration avancée** de celle-ci.
+> Em uma caixa na tabela, se você quiser colocar 2 comandos, um em
+> abaixo do outro, não se esqueça de adicionar um retorno ao
+> linha após a estréia no **Configuração avançada** disso.
 
-Onglet Alertes 
+Guia Alertas 
 --------------
 
-Cet onglet permet d’avoir les informations sur la batterie de
-l’équipement et de définir des alertes par rapport à celle-ci. Voici les
-types d’informations que l’on peut trouver :
+Esta guia fornece informações sobre a bateria do
+equipamento e definir alertas em relação a ele. Aqui estão os
+tipos de informações que podem ser encontradas :
 
--   **Type de pile**,
+-   **Tipo de bateria**,
 
--   **Dernière remontée de l’information**,
+-   **Comentários mais recentes**,
 
--   **Niveau restant**, (si bien sûr votre équipement fonctionne
-    sur pile).
+-   **Nível restante**, (se é claro que seu equipamento funciona
+    na bateria).
 
-Dessous, vous pourrez aussi définir les seuils spécifiques d’alerte de
-batterie pour cet équipement. Si vous laissez les cases vides, ceux sont
-les seuils par défaut qui seront appliqués.
+Abaixo, você também pode definir limites de alerta específicos para
+bateria para este equipamento. Se você deixar as caixas vazias, elas serão
+os limites padrão que serão aplicados.
 
-On peut également gérer le timeout, en minutes, de l’équipement. Par
-exemple, 30 indique à jeedom que si l’équipement n’a pas communiqué
-depuis 30 minutes, alors il faut le mettre en alerte.
+Você também pode gerenciar o tempo limite, em minutos, do equipamento. Por
+Por exemplo, 30 informa a jeedom que se o equipamento não tiver se comunicado
+por 30 minutos, então você deve colocá-lo em alerta.
 
 > **Tip**
 >
-> Les paramètres globaux sont dans **Administration→Configuration→Logs**
-> (ou **Equipements**)
+> Os parâmetros globais estão em **Administração → Configuração → Logs**
+> (onde **Equipements**)
 
-Onglet Commentaire 
+Guia de comentários 
 ------------------
 
-Permet d’écrire un commentaire à propos de l’équipement (date de
-changement de la pile, par exemple).
+Permite que você escreva um comentário sobre o equipamento (data de
+trocar a bateria, por exemplo).
 
-Configuration avancée d’une commande 
+Configuração avançada de um pedido 
 ====================================
 
-En premier lieu, en haut à droite, quelques boutons disponibles :
+Primeiro, no canto superior direito, alguns botões disponíveis :
 
--   **Tester** : Permet de tester la commande.
+-   **Tester** : Permite testar o comando.
 
--   **Liens** : Permet d’afficher les liens de l’équipement avec les
-    objets, commandes, scénarios, variables, interactions…​. sous
-    forme graphique.
+-   **Liens** : Exibe os links do equipamento com o
+    objetos, comandos, cenários, variáveis, interações…. sob
+    forma gráfica.
 
--   **Log** : Affiche les évènements de l’équipement en question.
+-   **Log** : Exibe os eventos do equipamento em questão.
 
--   **Informations** : Affiche les propriétés brutes de l’équipement.
+-   **Informations** : Exibe as propriedades brutas do equipamento.
 
--   Appliquer à\* : Permet d’appliquer la même configuration sur
-    plusieurs commandes.
+-   Aplicar a \* : Aplique a mesma configuração em
+    pedidos múltiplos.
 
--   **Enregistrer** : Enregistre les modifications faites sur
-    l’équipement
+-   **Enregistrer** : Salve as alterações feitas em
+    o equipamento
 
 > **Tip**
 >
-> Dans un graphique, un double clic sur un élément vous amène à sa
-> configuration.
+> Em um gráfico, um clique duplo em um elemento leva você ao seu
+> Configuração.
 
 > **Note**
 >
-> En fonction du type de commande, les informations/actions affichées
-> peuvent changer.
+> Dependendo do tipo de pedido, as informações / ações exibidas
+> pode mudar.
 
-Onglet Informations 
+Guia Informações 
 -------------------
 
-L’onglet **Informations** contient les informations générales sur la
-commande :
+A guia **Informations** contém informações gerais sobre o
+Ordem :
 
--   **ID** : Identifiant unique dans la base de données.
+-   **ID** : Identificador exclusivo no banco de dados.
 
--   **ID logique** : Identifiant logique de la commande (peut
-    être vide).
+-   **ID lógico** : Identificador lógico do comando (pode
+    estar vazio).
 
--   **Nom** : Nom de la commande.
+-   **Nom** : Nome do comando.
 
--   **Type** : Type de la commande (action ou info).
+-   **Type** : Tipo de pedido (ação onde informação).
 
--   **Sous-type** : Sous-type de la commande (binaire, numérique…​).
+-   **Sous-type** : Subtipo de comando (binário, digital etc.).
 
--   **URL directe** : Fournit l’URL pour accéder à cet équipement. (clic
-    droit, copier l’adresse du lien) L’URL lancera la commande pour une
-    **action** et retournera l’information pour une **info**.
+-   **URL direta** : Fornece o URL para acessar este equipamento. (clique
+    (copie o endereço do link) A URL iniciará o comando para um
+    **action** e retorne as informações para um **info**.
 
--   **Unité** : Unité de la commande.
+-   **Unité** : Unidade de controle.
 
--   **Commande déclenchant une mise à jour** : Donne l’identifiant d’une
-    autre commande qui, si cette autre commande change, va forcer la
-    mise à jour de la commande visualisée.
+-   **Comando provocando uma atualização** : Dá o identificador de um
+    outro comando que, se esse outro comando for alterado, forçará o
+    atualização da ordem exibida.
 
--   **Visible** : Cochez cette case pour que la commande soit visible.
+-   **Visible** : Marque esta caixa para tornar o comando visível.
 
--   **Suivre dans la timeline** : Cochez cette case pour que cette
-    commande soit visible dans la timeline quand elle est utilisée.
+-   **Siga na Timeline** : Marque esta caixa para ter esta
+    O comando é visível na linha do tempo quando é usado.
 
--   **Interdire dans les interactions automatique** : interdit les
-    interactions automatique sur cette commande
+-   **Proibir a interação automática em** : proíbe-os
+    interações automáticas neste comando
 
--   **Icône** : Permet de changer l’icône de la commande.
+-   **ícone** : Permite alterar o ícone do comando.
 
-Vous avez aussi trois autres boutons oranges en dessous :
+Você também tem três outros botões laranja embaixo :
 
--   **Cette commande remplace l’ID** : Permet de remplacer un ID de
-    commande par la commande en question. Utile si vous avez supprimé un
-    équipement dans Jeedom et que vous avez des scénarios qui utilisent
-    des commandes de celui-ci.
+-   **Este comando substitui o ID** : Substitua um ID de
+    ordem pela ordem em questão. Útil se você excluiu um
+    equipamento em Jeedom e você tem cenários que usam
+    comandos a partir dele.
 
--   **Cette commande remplace la commande** : Remplace une commande par
-    la commande courante.
+-   **Este comando substitui o comando** : Substitua um pedido por
+    o comando atual.
 
--   **Remplacer cette commande par la commande** : L’inverse, remplace
-    la commande par une autre commande.
+-   **Substituir esse comando pelo comando** : O reverso substitui
+    a ordem por outra ordem.
 
 > **Note**
 >
-> Ce genre d’action remplace les commandes partout dans Jeedom
-> (scénario, interaction, commande, équipement…​.)
+> Esse tipo de ação substitui comandos em todo o Jeedom
+> (cenário, interação, pedido, equipamento ...)
 
-En-dessous, vous retrouvez la liste des différents équipements,
-commandes, scénarios ou interactions qui utilisent cette commande. Un
-clic dessus permet d’aller directement sur leur configuration
+Abaixo, você encontrará a lista de diferentes equipamentos,
+comandos, cenários onde interações que usam este comando. Um
+clique neO para ir diretamente à sua configuração
 respective.
 
-Onglet Configuration 
+Guia Configuração 
 --------------------
 
-### Pour une commande de type info : 
+### Para um pedido de tipo de informação : 
 
--   **Calcul et arrondi**
+-   **Cálculo e arredondamento**
 
-    -   **Formule de calcul (\#value\# pour la valeur)** : Permet de
-        faire une opération sur la valeur de la commande avant le
-        traitement par Jeedom, exemple : `#value# - 0.2` pour retrancher
-        0.2 (offset sur un capteur de température).
+    -   **Fórmula de cálculo (\#value \# para o valor)** : Deixa
+        faça uma operação sobre o valor do pedido antes
+        Tratamento Jeedom, exemplo : `# valor # - 0.2` para entrincheirar
+        0,2 (deslocamento em um sensor de temperatura).
 
-    -   **Arrondi (chiffre après la virgule)** : Permet d’arrondir la
-        valeur de la commande (Exemple : mettre 2 pour tranformer
-        16.643345 en 16.64).
+    -   **Arredondamento (decimal)** : Permite arredondar o
+        valor do pedido (exemplo : colocar 2 para transformar
+        16,643345 em 16,64).
 
--   **Type générique** : Permet de configurer le type générique de la
-    commande (Jeedom essaie de le trouver par lui-même en mode auto).
-    Cette information est utilisée par l’application mobile.
+-   **Tipo genérico** : Permite configurar o tipo genérico do
+    comando (o Jeedom tenta encontrá-lo sozinho no modo automático).
+    Esta informação é usada pelo aplicativo móvel.
 
--   **Action sur la valeur, si** : Permet de faire des sortes de
-    mini scénarios. Vous pouvez, par exemple, dire que si la valeur vaut
-    plus de 50 pendant 3 minutes, alors il faut faire telle action. Cela
-    permet, par exemple, d’éteindre une lumière X minutes après que
-    celle-ci se soit allumée.
+-   **Ação em valor, se** : Vamos fazer tipos de
+    mini cenários. Você pode, por exemplo, dizer que se o valor vaO a pena
+    mais de 50 por 3 minutos, você deve executar uma ação dessas. Que
+    permite, por exemplo, apagar uma luz X minutos depois
+    está aceso.
 
 -   **Historique**
 
-    -   **Historiser** : Cochez la case pour que les valeurs de cette
-        commande soient historisées. (Voir **Analyse→Historique**)
+    -   **Historiser** : Marque a caixa para ter os valores para este
+        ordem ser gravada. (Veja **Análise → História**)
 
-    -   **Mode de lissage** : Mode de **lissage** ou d'**archivage**
-        permet de choisir la manière d’archiver la donnée. Par défaut,
-        c’est une **moyenne**. Il est aussi possible de choisir le
-        **maximum**, le **minimum**, ou **aucun**. **aucun** permet de
-        dire à Jeedom qu’il ne doit pas réaliser d’archivage sur cette
-        commande (aussi bien sur la première période des 5 mn qu’avec la
-        tâche d’archivage). Cette option est dangereuse car Jeedom
-        conserve tout : il va donc y avoir beaucoup plus de
-        données conservées.
+    -   **Suavização moda** : Modo de **lissage** onde d'**archivage**
+        permite escolher como arquivar os dados. Por padrão,
+        é um **moyenne**. Também é possível escolher o
+        **maximum**, O **minimum**, onde **aucun**. **aucun** deixa
+        diga ao Jeedom que eO não deve arquivar neste
+        ordem (durante o primeiro período de 5 minutos e com o
+        tarefa de arquivamento). Essa opção é perigosa porque o Jeedom
+        mantenha tudo : então haverá muito mais
+        dados armazenados.
 
-    -   **Purger l’historique si plus vieux de** : Permet de dire à
-        Jeedom de supprimer toutes les données plus vieilles qu’une
-        certaine période. Peut être pratique pour ne pas conserver de
-        données si ça n’est pas nécessaire et donc limiter la quantité
-        d’informations enregistrées par Jeedom.
+    -   **Limpar histórico se tiver mais de** : Vamos dizer para
+        Jeedom para excluir todos os dados anteriores a um
+        certo período. Pode ser útil para não manter
+        dados, se não for necessário e, portanto, limitar a quantidade
+        de informações registradas por Jeedom.
 
--   **Gestion des valeurs**
+-   **Gerenciando valores**
 
-    -   **Valeur interdite** : Si la commande prend une de ces valeurs,
-        Jeedom l’ignore avant de l’appliquer.
+    -   **Valor proibido** : Se o comando pegar um desses valores,
+        Jeedom o ignora antes de aplicá-lo.
 
-    -   **Valeur retour d’état** : Permet de faire revenir la commande à
-        cette valeur après un certain temps.
+    -   **Valor de feedback estado** : Retorna o comando para
+        esse valor depois de um tempo.
 
-    -   **Durée avant retour d’état (min)** : Temps avant le retour à la
-        valeur ci-dessus.
+    -   **Tempo para indicar realimentação (min)** : Tempo antes de voltar para
+        valor acima.
 
 -   **Autres**
 
-    -   **Gestion de la répétition des valeurs** : En automatique si la
-        commande remonte 2 fois la même valeur d’affilée, alors Jeedom
-        ne prendra pas en compte la 2eme remontée (évite de déclencher
-        plusieurs fois un scénario, sauf si la commande est de
-        type binaire). Vous pouvez forcer la répétition de la valeur ou
-        l’interdire complètement.
+    -   **Gestão de valores repetidos** : Em automático se o
+        comando sobe duas vezes o mesmo valor em uma linha e, em seguida, Jeedom
+        não levará em consideração a 2ª subida (evite desencadear
+        várias vezes em um cenário, a menos que o comando seja
+        tipo binário). Você pode forçar o valor a repetir ou
+        bani-lo completamente.
 
-    -   **Push URL** : Permet de rajouter une URL à appeler en cas de
-        mise à jour de la commande. Vous pouvez utiliser les tags
-        suivant : `#value#` pour la valeur de la commande, `#cmd_name#`
-        pour le nom de la commande, `#cmd_id#` pour l’identifiant unique
-        de la commande, `#humanname#` pour le nom complet de la commande
-        (ex : `#[Salle de bain][Hydrometrie][Humidité]#`), `#eq_name#` pour le nom de l'équipement
+    -   **URL impulso** : Permite adicionar um URL para chamar em caso de
+        atualização do pedido. Você pode usar tags
+        Seguinte : `# value #` para o valor do pedido, `# cmd_name #`
+        para o nome do comando, `# cmd_id #` para o identificador exclusivo
+        do comando, `# humanname #` para o nome completo do comando
+        (ex : `# [Banheiro] [Hidrometria] [Umidade] #`), `# eq_name #` para o nome do equipamento
 
-### Pour une commande action : 
+### Para um comando de ação : 
 
--   **Type générique** : Permet de configurer le type générique de la
-    commande (Jeedom essaie de le trouver par lui-même en mode auto).
-    Cette information est utilisée par l’application mobile.
+-   **Tipo genérico** : Permite configurar o tipo genérico do
+    comando (o Jeedom tenta encontrá-lo sozinho no modo automático).
+    Esta informação é usada pelo aplicativo móvel.
 
--   **Confirmer l’action** : Cochez cette case pour que Jeedom demande
-    une confirmation quand l’action est lancée à partir de l’interface
-    de cette commande.
+-   **Confirmar a ação** : Marque esta caixa para o Jeedom solicitar
+    confirmação quando a ação é iniciada a partir da interface
+    deste comando.
 
--   **Code d’accès** : Permet de définir un code que Jeedom demandera
-    quand l’action est lancée à partir de l’interface de cette commande.
+-   **Código de acesso** : Permite definir um código que o Jeedom solicitará
+    quando a ação é iniciada a partir da interface deste comando.
 
--   **Action avant exécution de la commande** : Permet d’ajouter des
-    commandes **avant** chaque exécution de la commande.
+-   **Ação antes de executar o comando** : Permite adicionar
+    Comandos **avant** cada execução da ordem.
 
--   **Action après execution de la commande** : Permet d’ajouter des
-    commandes **après** chaque exécution de la commande.
+-   **Ação após a execução da ordem** : Permite adicionar
+    Comandos **depois** cada execução da ordem.
 
-Onglet Alertes 
+Guia Alertas 
 --------------
 
-Permet de définir un niveau d’alerte (**warning** ou **danger**) en
-fonction de certaines conditions. Par exemple, si `value > 8` pendant 30
-minutes alors l’équipement peut passer en alerte **warning**.
+Permite definir um nível de alerta (**warning** onde **danger**) em
+dependendo de certas condições. Por exemplo, se `valor> 8` para 30
+minutos, então o equipamento pode ficar em alerta **warning**.
 
 > **Note**
 >
-> Sur la page **Administration→Configuration→Logs**, vous pouvez
-> configurer une commande de type message qui permettra à Jeedom de vous
-> prévenir si on atteint le seuil warning ou danger.
+> Na página **Administração → Configuração → Logs**, Você pode
+> configure um comando de tipo de mensagem que permitirá que o Jeedom o obtenha
+> avise se o limite de aviso onde perigo for atingido.
 
-Onglet Affichage 
+Guia Exibir 
 ----------------
 
-Dans cettre partie, vous allez pouvoir configurer certains comportements
-d’affichage du widget sur le dashboard, les vues, le design et en
+Nesta parte, você poderá configurar certos comportamentos
+exibição do Widget no painel, visualizações, design e
 mobile.
 
--   **Widget** : Permet de choisir le widget sur dekstop ou mobile (à
-    noter qu’il faut le plugin widget et que vous pouvez le faire aussi
-    à partir de celui-ci).
+-   **Widget** : Permite escolher o Widget no dekstop onde no celular (em
+    Observe que você precisa do plug-in do Widget e também pode fazer isso
+    dele).
 
--   **Visible** : Cochez pour rendre visible la commande.
+-   **Visible** : Marque para tornar o comando visível.
 
--   **Afficher le nom** : Cochez pour rendre visible le nom de la
-    commande, en fonction du contexte.
+-   **Mostrar nome** : Marque para fazer o nome do
+    comando, dependendo do contexto.
 
--   **Afficher le nom et l’icône** : Cochez pour rendre visible l’icône
-    en plus du nom de la commande.
+-   **Imprimir o nome eo ícone** : Marque para tornar o ícone visível
+    além do nome do comando.
 
--   **Retour à la ligne forcé avant le widget** : Cochez **avant le
-    widget** ou **après le widget** pour ajouter un retour à la ligne
-    avant ou après le widget (pour forcer par exemple un affichage en
-    colonne des différentes commandes de l’équipement au lieu de lignes
-    par défaut)
+-   **Envoltório forçado antes Widget** : Tick **antes
+    widget** onde **após o widget** para adicionar uma quebra de linha
+    antes onde depois do Widget (para forçar, por exemplo, uma exibição em
+    coluna de comandos de equipamentos diferentes em vez de linhas
+    por padrão)
 
-En-dessous, on retrouve des paramètres optionnels d’affichage que l’on
-peut passer au widget. Ces paramètres dépendent du widget en question,
-il faut donc regarder sa fiche sur le Market pour les connaître.
+Abaixo, encontramos parâmetros opcionais de exibição que
+pode mudar para o Widget. Esses parâmetros dependem do Widget em questão,
+então você tem que olhar para o cartão deO no mercado para conhecê-los.
 
 > **Tip**
 >
-> N’oubliez pas de sauvegarder après toute modification.
+> Não se esqueça de salvar após qualquer modificação.
 
-Onglet Code 
+Guia Código 
 -----------
 
-Permet de modifier le code du widget juste pour la commande courante.
+Permite modificar o código do Widget apenas para o comando atual.
 
 > **Note**
 >
-> Si vous voulez modifier le code n’oubliez pas de cocher la case
-> **Activer la personnalisation du widget**
+> Se você deseja modificar o código, não esqueça de marcar a caixa
+> **Ativar personalização do widget**

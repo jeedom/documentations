@@ -1,105 +1,105 @@
-# Jeedom V4 - Raccourcis clavier / souris
+# Jeedom V4 - Tastatur- / Mausverknüpfungen
 
-## Général
+## General
 
-A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
+Beim Öffnen einer Seite (Dashboard, Szenarien usw.) liegt der Fokus auf dem Suchfeld. Sie können daher ohne weitere Aktion direkt eine Suche eingeben.
 
-- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
-- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
-- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
-- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
+- Klicken Sie auf die Uhr (Menüleiste) : Öffnen Sie die Timeline.
+- Klicken Sie auf den Namen des Jeedom (Menüleiste)  : Öffnet **Einstellungen → System → Konfiguration**.
+- Klicken Sie auf ?  (Menüleiste)  : Öffnet die Hilfe auf der aktuellen Seite.
+- Flucht auf ein Forschungsfeld : Leeren Sie das Suchfeld und brechen Sie es ab.
 
 ## Dashboard
-En mode édition:
-	- Drag n Drop sur les tuiles pour les réarranger.
-	- Resize sur les bordures de tuile pour les redimensionner.
-	- Menu contextuel (Clic droit) sur les tuiles.
-	- Ctrl Clic sur une icône *expand* : Ajuste la hauteur des tuiles de l'objet non pas par rapport à la plus haute, mais par rapport à la moins haute.
+Im Bearbeitungsmodus:
+	- Ziehen Sie n Drop auf Kacheln, um sie neu anzuordnen.
+	- Ändern Sie die Größe der Kachelränder, um deren Größe zu ändern.
+	- Kontextmenü (Rechtsklick) auf den Kacheln.
+	- Strg Klicken Sie auf ein Symbol *expand* : Passt die Höhe der Objektkacheln nicht relativ zur höchsten, sondern relativ zur niedrigsten an.
 
-- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
+- Strg Klicken Sie auf einen Info-Befehl : Öffnet alle Verlaufsinformationen der Kachel im Verlaufsfenster.
 
-## Réglages / Système / Configuration
-- Ctrl S : Sauvegarder.
+## Einstellungen / System / Konfiguration
+- Strg S. : Speichern.
 
-## Réglages / Système / Sauvegardes
-- Ctrl S : Sauvegarder.
+## Einstellungen / System / Backups
+- Strg S. : Speichern.
 
-## Réglages / Système / Moteur de tâches
-- Ctrl S : Sauvegarder.
+## Einstellungen / System / Task-Engine
+- Strg S. : Speichern.
 
-## Réglages / Système / Utilisateurs
-- Ctrl S : Sauvegarder.
+## Einstellungen / System / Benutzer
+- Strg S. : Speichern.
 
-## Réglages / Préférences
-- Ctrl S : Sauvegarder.
+## Einstellungen / Einstellungen
+- Strg S. : Speichern.
 
-## Outils / Interactions
-- Sur une interaction, Ctrl S : Sauvegarder.
-- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
-- Ctrl Clic ou Clic Centre sur une interaction ou dans le menu contextuel : Ouvre l'interaction dans un nouvel onglet du navigateur.
+## Tools / Interaktionen
+- Bei einer Interaktion wird Strg S gedrückt : Speichern.
+- Klicken Sie bei einer Interaktion mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einer anderen Interaktion zu gelangen.
+- Strg Klicken oder Zentrieren Klicken Sie auf eine Interaktion oder im Kontextmenü : Öffnen Sie die Interaktion in einem neuen Browser-Tab.
 
-## Outils / Objets
-- Sur un objet, Ctrl S : Sauvegarder.
-- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
-- Ctrl Clic ou Clic Centre sur un objet ou dans le menu contextuel : Ouvre l'objet dans un nouvel onglet du navigateur.
+## Werkzeuge / Objekte
+- Auf einem Objekt wird Strg S gedrückt : Speichern.
+- Klicken Sie auf ein Objekt mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Objekt zu gelangen.
+- Strg Klicken oder Zentrieren Klicken Sie auf ein Objekt oder in das Kontextmenü : Öffnen Sie das Objekt in einem neuen Browser-Tab.
 
-## Outils / Widgets
-- Sur un widget, Ctrl S : Sauvegarder.
-- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
-- Ctrl Clic ou Clic Centre sur un widget ou dans le menu contextuel : Ouvre le widget dans un nouvel onglet du navigateur.
+## Tools / Widgets
+- In einem Widget wird Strg S gedrückt : Speichern.
+- Klicken Sie in einem Widget mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Widget zu gelangen.
+- Strg Klicken oder Klicken Sie in einem Widget oder im Kontextmenü auf Mitte : Öffnen Sie das Widget in einem neuen Browser-Tab.
 
-## Outils / Scénarios
-- Ctrl Clic ou Clic Centre sur un scénario ou dans le menu contextuel : Ouvre le scénario dans un nouvel onglet du navigateur.
+## Tools / Szenarien
+- Strg Klicken oder Mitte Klicken Sie auf ein Szenario oder in das Kontextmenü : Öffnen Sie das Szenario in einem neuen Browser-Tab.
 
-Sur un scénario :
-- Ctrl S : Sauvegarder.
-- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
-- Ctrl L : Affichage du log.
-- Ctrl Shift Z : Annuler.
-- Ctrl Shift Y : Refaire.
+In einem Szenario :
+- Strg S. : Speichern.
+- Klicken Sie mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Szenario zu gelangen.
+- Strg L. : Protokollanzeige.
+- Strg Shift Z. : Stornieren.
+- Strg Shift Y. : Remake.
 
-- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
-- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
-- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
-- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
-- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
+- Strg Klicken Sie auf Ausführen : Speichern Sie das Szenario, führen Sie es aus und öffnen Sie das Protokoll.
+- Strg Klicken Sie auf das Symbol *Kopieren Sie diesen Block* : Schneiden Sie diesen Block.
+- Strg Klicken Sie auf das Symbol *Fügen Sie einen Block ein* : Ersetzen Sie diesen Block.
+- Strg Klicken Sie auf das Symbol *Löschen Sie diesen Block* : Block ohne Bestätigung löschen.
+- Strg Klicken Sie auf das Symbol *Verstecke diesen Block* : Alle Blöcke ausblenden oder anzeigen.
 
-Dans un bloc Code :
-- Ctrl F : Rechercher dans le code.
-- Ctrl G : Occurrence suivante de la recherche.
+In einem Codeblock :
+- Strg F. : Suche im Code.
+- Strg G. : Nächstes Suchereignis.
 
-## Plugins / Gestion des plugins
-- Ctrl S sur une configuration de plugin : Sauvegarder.
-- Ctrl Clic ou Clic Centre sur un plugin : Ouvre la gestion du plugin dans un nouvel onglet du navigateur.
+## Plugins / Plugins-Verwaltung
+- Strg + S bei einer Plugin-Konfiguration : Speichern.
+- Strg Klicken oder Klicken Sie in einem Plugin auf Mitte : Öffnen Sie die Plugin-Verwaltung in einem neuen Browser-Tab.
 
 ## Plugins / *plugin*
-- Sur un équipement, Ctrl S  : Sauvegarder.
-- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
-- Ctrl Clic ou Clic Centre sur un équipement: Ouvre l'équipement du plugin dans un nouvel onglet du navigateur.
+- Auf einem Gerät wird Strg S gedrückt  : Speichern.
+- Klicken Sie auf einem Gerät mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Gerät zu gelangen.
+- Strg Klicken oder Mitte Klicken Sie auf ein Gerät: Öffnen Sie das Plugin-Gerät in einem neuen Browser-Tab.
 
-## Accueil / Vue
-- Ctrl S sur l'édition d'une vue : Sauvegarder.
+## Startseite / Ansicht
+- Strg + S beim Bearbeiten einer Ansicht : Speichern.
 
-## Accueil / Design
-- Ctrl S sur un design : Sauvegarder.
-- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
+## Zuhause / Design
+- Strg + S auf einem Design : Speichern.
+- Strg-Umschalttaste E für ein Design : Aktivieren oder Verlassen des Bearbeitungsmodus.
 
-## Analyse / Résumé domotique
-- Ctrl Clic sur icône *Ouvrir* (recherche) : Ouvre tous les objets et tous les équipements.
-- Ctrl Clic sur icône *Fermer* (recherche) : Ferme tous les objets et tous les équipements.
+## Analyse / Zusammenfassung der Hausautomation
+- Strg Klicken Sie auf das Symbol *Ouvrir* (Forschung) : Öffnen Sie alle Gegenstände und Geräte.
+- Strg Klicken Sie auf das Symbol *Fermer* (Forschung) : Schließt alle Objekte und Geräte.
 
-## Analyse / Historique
-Si plusieurs courbes sont affichées :
-- Ctrl Clic sur une légende : Afficher seulement cet historique.
-- Alt Clic sur une légende : Afficher tous les historiques.
+## Analyse / Geschichte
+Wenn mehrere Kurven angezeigt werden :
+- Strg Klicken Sie auf eine Legende : Nur diese Geschichte anzeigen.
+- Alt Klicken Sie auf eine Legende : Zeige die gesamte Geschichte.
 
-## Fenêtre Historique
-Si plusieurs courbes sont affichées :
-- Ctrl Clic sur une légende : Afficher seulement cet historique.
-- Alt Clic sur une légende : Afficher tous les historiques.
+## Verlaufsfenster
+Wenn mehrere Kurven angezeigt werden :
+- Strg Klicken Sie auf eine Legende : Nur diese Geschichte anzeigen.
+- Alt Klicken Sie auf eine Legende : Zeige die gesamte Geschichte.
 
-## Fenêtre Configuration de l’équipement
-- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.
+## Fenster Gerätekonfiguration
+- Strg Klicken Sie auf Speichern : Fenster speichern und schließen.
 
-## Fenêtre Configuration de commande
-- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.
+## Befehlskonfigurationsfenster
+- Strg Klicken Sie auf Speichern : Fenster speichern und schließen.

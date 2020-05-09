@@ -1,31 +1,31 @@
 # Logs
-**Analyse → Logs**
+**Análise → Logs**
 
-Les logs sont des fichiers de journaux, permettant de suivre ce qui se passe sur sa domotique. Dans la plupart des cas les logs ne serviront qu’à effectuer du debuggage et à résoudre des problèmes par l’équipe de support.
-
-> **Tip**
->
-> A l'ouverture de la page, le premier log disponible est affiché.
-
-La page de Logs est assez simple :
-Sur la gauche, une liste des logs disponibles, avec un champ de recherche pour filtrer le nom des logs.
-En haut à droite 5 boutons :
-
-- **Rechercher** : Permet de filtrer l’affichage du log actuel.
-- **Pause/Reprendre** : Permet de mettre en pause/reprendre la mise à jour en temps réel du log actuel.
-- **Télécharger** : Permet de télécharger le log actuel.
-- **Vider** : Permet de vider le log actuel.
-- **Supprimer** : Permet de supprimer le log actuel. Si Jeedom en a besoin il le recréera automatiquement.
-- **Supprimer tous les logs** : Supprime tous les logs présents.
+Toras são arquivos de log, permitindo que você siga o que está acontecendo em sua automação residencial. Na maioria dos casos, os logs serão usados apenas para depuração e solução de problemas pela equipe de suporte.
 
 > **Tip**
 >
-> A noter que le log http.error ne peut être supprimé. Il est essentiel si vous le supprimez (en ligne de commande par exemple) celui-ci ne se recréera pas tout seul, il faut redémarrer le système.
+> Quando a página é aberta, o primeiro log disponível é exibido.
 
-## Temps réel
+A página Toras é bastante simples :
+À esquerda, uma lista de logs disponíveis, com um campo de pesquisa para filtrar o nome dos logs.
+5 botões superior direito :
 
-Le log "Event" est un peu particulier. Tout d’abord pour qu’il fonctionne, il faut qu’il soit en niveau info ou debug, ensuite celui-ci recense tous les évènements ou actions qui se passent sur la domotique. Pour y accéder, il faut soit aller sur la page de log soit dans Analyse → Temps réel.
+- **Rechercher** : Permite filtrar a exibição do log atual.
+- **Pausar / retomar** : Pausar / retomar a atualização em tempo real do log atual.
+- **Baixar** : Faça o download do log atual.
+- **Vider** : Limpe o log atual.
+- **Supprimer** : Excluir o log atual. Se o Jeedom precisar, ele será recriado automaticamente.
+- **Excluir todos os logs** : Excluir todos os logs presentes.
 
-Une fois que vous avez cliqué dessus, vous obtenez une fenêtre qui se met à jour en temps réel et vous affiche tous les évènements de votre domotique.
+> **Tip**
+>
+> Observe que o log http.erro não pode ser excluído. É essencial que se você o excluir (na linha de comando, por exemplo), ele não será recriado, você deverá reiniciar o sistema.
 
-En haut à droite vous avez un champ recherche (ne marche que si vous n’êtes pas en pause) et un bouton pour mettre en pause (utile pour faire un copier/coller par exemple).
+## Tempo real
+
+O log "Evento" é um pouco especial. Primeiro, para que ele funcione, ele deve estar no nível de informações ou depuração, depois lista todos os eventos ou ações que acontecem na automação residencial. Para acessá-lo, você deve ir para a página de log ou em Análise → Tempo real.
+
+Depois de clicar nele, você obtém uma janela que é atualizada em tempo real e mostra todos os eventos da sua automação residencial.
+
+No canto superior direito, você tem um campo de pesquisa (funciona apenas se não estiver em pausa) e um botão para pausar (útil para copiar / colar, por exemplo).

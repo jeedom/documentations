@@ -1,93 +1,46 @@
-# Préférences
-**Réglages → Préférences**
+# Vorlieben
+**Einstellungen → Einstellungen**
 
-La page Préférences vous permet de configurer certains comportements de Jeedom spécifiques à l’utilisateur.
+Auf der Seite &quot;Einstellungen&quot; können Sie bestimmte benutzerspezifische Jeedom-Verhaltensweisen konfigurieren.
 
-## Onglet Préférences
+## Registerkarte &quot;Einstellungen&quot;
 
 ### Interface
 
-Définit certains comportements de l’interface
+Definiert bestimmte Schnittstellenverhalten
 
-- **Panneau des objets sur le Dashboard** : Affiche le panneau des objets (à gauche) sur le Dashboard, sans avoir à cliquer sur le bouton dédié.
-- **Page par défaut** : Page à afficher par défaut à afficher lors de la connexion en desktop ou mobile.
-- **Objet par défaut** : Objet à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
+- **Objektbedienfeld im Dashboard** : Zeigt das Objektfenster (links) im Dashboard an, ohne auf die entsprechende Schaltfläche klicken zu müssen.
+- **Standardseite** : Seite, die standardmäßig angezeigt wird, wenn eine Verbindung zum Desktop oder Handy hergestellt wird.
+- **Standardobjekt** : Objekt, das standardmäßig bei der Ankunft im Dashboard / Handy angezeigt wird.
 
-- **Vue par défaut** : Vue à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
-- **Déplier le panneau des vues** : Permet de rendre visible par défaut le menu des vues (à gauche) sur les vues.
+- **Standardansicht** : Ansicht, die standardmäßig bei der Ankunft im Dashboard / Handy angezeigt wird.
+- **Klappen Sie das Ansichtsfenster auf** : Wird verwendet, um das Ansichtsmenü (links) standardmäßig in den Ansichten sichtbar zu machen.
 
-- **Design par défaut** : Design à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
-- **Design Plein écran** : Affichage par défaut en plein écran lors de l’arrivée sur les designs.
+- **Standarddesign** : Design, das standardmäßig bei der Ankunft im Dashboard / Handy angezeigt wird.
+- **Vollbild-Design** : Standardanzeige im Vollbildmodus bei Ankunft bei Designs.
 
-- **Design 3D par défaut** : Design 3D à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
-- **Design 3D Plein écran** : Affichage par défaut en plein écran lors de l’arrivée sur les designs 3D.
+- **Standard-3D-Design** : 3D-Design wird standardmäßig angezeigt, wenn Sie auf dem Dashboard / Handy ankommen.
+- **Vollbild-3D-Design** : Standardanzeige im Vollbildmodus bei Ankunft in 3D-Designs.
 
 ### Notifications
 
-- **Commande de notification utilisateur** : Commande par défaut pour vous joindre (commande de type message).
+- **Benutzerbenachrichtigungsbefehl** : Standardbefehl, um Sie zu erreichen (Nachrichtentyp Befehl).
 
-## Onglet Sécurité
+## Registerkarte &quot;Sicherheit&quot;
 
-- **Authentification en 2 étapes** : permet de configurer l’authentification en 2 étapes (pour rappel, c’est un code changeant toutes les X secondes qui s’affiche sur une application mobile, type *google authentificator*). A noter que la double authentification ne sera demandée que pour les connexions externes Pour les connexions locaes,l le code ne sera donc pas demandé.
+- **2-stufige Authentifizierung** : Ermöglicht die Konfiguration der Authentifizierung in zwei Schritten (zur Erinnerung: Es handelt sich um einen Code, der sich alle X Sekunden ändert und in einer mobilen Anwendung angezeigt wird. Geben Sie * google authentificator * ein.). Beachten Sie, dass eine doppelte Authentifizierung nur für externe Verbindungen angefordert wird. Bei lokalen Verbindungen wird der Code daher nicht angefordert..
 
-  **Important** si lors de la configuration de la double authentification vous avez une erreur, il faut  vérifier que Jeedom (voir sur la page santé) et votre téléphone sont bien à la même heure (1 min de différence suffit pour que ça ne marche pas).
+  **Important** Wenn Sie während der Konfiguration der doppelten Authentifizierung einen Fehler haben, müssen Sie überprüfen, ob Jeedom (siehe auf der Gesundheitsseite) und Ihr Telefon gleichzeitig vorhanden sind (1 Minute Unterschied reicht aus, damit es nicht funktioniert)..
 
-- **Mot de passe** : Permet de changer votre mot de passe (ne pas oublier de le retaper en dessous).
+- **Passwort** : Ermöglicht das Ändern Ihres Passworts (vergessen Sie nicht, es unten erneut einzugeben).
 
-- **Hash de l’utilisateur** : Votre clef API d’utilisateur.
+- **Benutzer-Hash** : Ihr Benutzer-API-Schlüssel.
 
--   **Afficher les menus** : indique à Jeedom d’afficher le panneau
-    de gauche, lorsqu’il existe, pour rappel ce panneau est
-    disponible sur la plupart des pages des plugins, ainsi que la
-    page des scénarii, des interactions, des objets…​.
+### Aktive Sitzungen
 
--   **Page par défaut** : page par défaut à afficher lors de la
-    connexion en desktop/mobile
+Hier haben Sie die Liste Ihrer aktuell verbundenen Sitzungen, ihre ID, ihre IP sowie das Datum der letzten Kommunikation. Durch Klicken auf &quot;Trennen&quot; wird der Benutzer getrennt. Achtung, wenn es sich auf einem registrierten Gerät befindet, wird dadurch auch die Aufzeichnung gelöscht.
 
--   **Objet par défaut sur le dashboard** : objet à afficher par défaut
-    lors de l’arrivée sur le dashboard/mobile
+### Registriertes Gerät
 
--   **Vue par défaut** : vue à afficher par défaut lors de l’arrivée sur
-    le dashboard/mobile
-
--   **Design par défaut** : design à afficher par défaut lors de
-    l’arrivée sur le dashboard/mobile
-
-    -   **Plein écran** : affichage par défaut en plein écran lors de
-        l’arrivée sur les designs
-
--   **Dashboard**
-
-    -   **Déplier le panneau des scénarii** : permet de rendre visible
-        par défaut le menu des scénarii (à droite) sur le dashboard
-
-    -   **Déplier le panneau des objets** : permet de rendre visible par
-        défaut le menu des objets (à gauche) sur le dashboard
-
--   **Vue**
-
-    -   **Déplier le panneau des vues** : permet de rendre visible par
-        défaut le menu des vues (à gauche) sur les vues
-
-Sécurité
---------
-
--   **Authentification en 2 étapes** : permet de configurer
-    l’authentification en 2 étapes (pour rappel, c’est un code changeant
-    toutes les X secondes qui s’affiche sur une application mobile, type
-    google authentificator ou Microsoft Authenticator). A noter que la double authentification ne sera demandée que pour les connexions externe. Pour les connexion local le code ne sera donc pas demandé. Important si lors de la configuration de la double authentification vous avez une erreur vérifier que jeedom (voir sur la page santé) et votre téléphone sont bien à la même heure (1 min de différence suffit pour que ça ne marche pas)
-
--   **Mot de passe** : permet de changer votre mot de passe (ne pas
-    oublier de le retaper en dessous)
-
--   **Hash de l’utilisateur** : votre clef API d’utilisateur
-
-
-### Sessions actives
-
-Vous avez ici la liste de vos sessions actuellement connectées, leur ID, leur IP ainsi que la date de dernière communication. En cliquant sur "Déconnecter" cela déconnectera l’utilisateur. Attention si il est sur un périphérique enregistré cela supprimera également l’enregistrement.
-
-### Périphérique enregistrés
-
-Vous retrouvez ici la liste de tous les périphériques enregistrés (qui se connectent sans authentification) à votre Jeedom ainsi que la date de dernière utilisation.
-Vous pouvez ici supprimer l’enregistrement d’un périphérique. Attention cela ne le déconnecte pas mais empêchera juste sa reconnexion automatique.
+Hier finden Sie die Liste aller registrierten Geräte (die ohne Authentifizierung eine Verbindung herstellen) zu Ihrem Jeedom sowie das Datum der letzten Verwendung.
+Hier können Sie die Registrierung eines Geräts löschen. Achtung, es trennt es nicht, sondern verhindert nur die automatische Wiederverbindung.

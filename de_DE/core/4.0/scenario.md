@@ -1,512 +1,512 @@
-# Scénarios
-**Outils → Scénarios**
+# Szenarien
+**Werkzeuge → Szenarien**
 
 <small>[Raccourcis clavier/souris](shortcuts.md)</small>
 
-Véritable cerveau de la domotique, les scénarios permettent d’interagir avec le monde réel de manière *intelligente*.
+Die Szenarien sind ein echtes Gehirn der Hausautomation und ermöglichen eine intelligente Interaktion mit der realen Welt **.
 
 ## Gestion
 
-Vous y trouverez la liste des scénarios de votre Jeedom, ainsi que des fonctionnalités pour les gérer au mieux :
+Dort finden Sie die Liste der Szenarien Ihres Jeedom sowie Funktionen, um diese am besten zu verwalten :
 
-- **Ajouter** : Permet de créer un scénario. La procédure est décrite dans le chapitre suivant.
-- **Désactiver scénarios** : Permet de désactiver tous les scénarios. Rarement utilisé et en connaissance de cause, puisqu'aucun scénario ne s’exécutera plus.
-- **Vue d’ensemble** : Permet d’avoir une vue d’ensemble de tous les scénarios. Vous pouvez changer les valeurs **actif**, **visible**, **multi lancement**, **mode synchrone**, **Log** et **Timeline** (ces paramètres sont décrits dans le chapitre suivant). Vous pouvez également accéder aux logs de chaque scénario et les démarrer individuellement.
+- **Ajouter** : Erstellen Sie ein Szenario. Die Vorgehensweise wird im nächsten Kapitel beschrieben.
+- **Szenarien deaktivieren** : Deaktiviert alle Szenarien. Selten verwendund und wissentlich, da kein Szenario mehr ausgeführt wird.
+- **Übersicht** : Ermöglicht einen Überblick über alle Szenarien. Sie können die Werte ändern **actif**, **visible**, **Multi-Launch**, **synchroner Modus**, **Log** und **Timeline** (Diese Parameter werden im nächsten Kapitel beschrieben.). Sie können auch auf die Protokolle für jedes Szenario zugreifen und sie einzeln starten.
 
-## Mes scénarios
+## Meine Szenarien
 
-Vous trouverez dans cette partie la **liste des scénarios** que vous avez créés. Ils sont classés suivant leur **groupe**, éventuellement définis pour chacun d’eux. Chaque scénario est affiché avec son **nom** et son **objet parent**. Les **scénarios grisés** sont ceux qui sont désactivés.
+In diesem Abschnitt finden Sie die **Liste der Szenarien** dass du erstellt hast. Sie werden nach ihren klassifiziert **groupe**, möglicherweise für jeden von ihnen definiert. Jedes Szenario wird mit seinem angezeigt **nom** und seine **übergeordnetes Objekt**. Die **ausgegraute Szenarien** sind diejenigen, die deaktiviert sind.
 
 > **Tip**
 >
-> Vous pouvez ouvrir un scénario en faisant :
-> - Clic sur l'un d'entre eux.
-> - Ctrl Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
+> Sie können ein Szenario öffnen, indem Sie dies tun :
+> - Klicken Sie auf eine davon.
+> - Strg Clic oder Clic Center, um es in einem neuen Browser-Tab zu öffnen.
 
-Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des scénarios. La touche Echap annule la recherche.
-A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
-- La croix pour annuler la recherche.
-- Le dossier ouvert pour déplier tout les panneaux et afficher touts les scénarios.
-- Le dossier fermé pour replier tout les panneaux.
+Sie haben eine Suchmaschine, um die Anzeige von Szenarien zu filtern. Die Escape-Taste bricht die Suche ab.
+Rechts neben dem Suchfeld befinden sich dreich Schaltflächen, die an mehreren Stellen in Jeedom gefunden wurden:
+- Das Kreuz, um die Suche abzubrechen.
+- Der geöffnete Ordner zum Entfalten aller Bedienfelder und Anzeigen aller Szenarien.
+- Der geschlossene Ordner zum Falten aller Panels.
 
-Une fois sur la configuration d'un scénario, vous disposez d'un menu contextuel au Clic Droit sur les onglets du scénario. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement un autre scénario dans un nouvel onglet du navigateur.
+Sobald Sie ein Szenario konfiguriert haben, haben Sie ein Kontextmenü mit der rechten Maustaste auf die Registerkarten des Szenarios. Sie können auch ein Strg-Klick- oder Klick-Center verwenden, um ein anderes Szenario direkt in einer neuen Browser-Registerkarte zu öffnen.
 
-## Création | Édition d’un scénario
+## Schaffung | Szenario bearbeiten
 
-Après avoir cliqué sur **Ajouter**, vous devez choisir le nom de votre scénario. Vous êtes ensuite redirigé vers la page de ses paramètres généraux.
-Avant cela, en haut de page, on retrouve certaines fonctions utiles pour gérer ce scénario :
+Nach dem Klicken auf **Ajouter**, Sie müssen den Namen Ihres Szenarios auswählen. Sie werden dann zur Seite mit den allgemeinen Parametern weitergeleitet.
+Davor gibt es oben auf der Seite einige nützliche Funktionen zum Verwalten dieses Szenarios :
 
-- **ID** : A côté du mot **Général**, c’est l’identifiant du scénario.
-- **statut** : *Arrêté* ou *En cours*, il indique l'état actuel du scénario.
-- **Ajouter un bloc** : Permet d'ajouter un bloc du type souhaité au scénario (voir plus bas).
-- **Log** : Permet d’afficher les logs du scénario.
-- **Dupliquer** : Permet de copier le scénario pour en créer un nouveau avec un autre nom.
-- **Liens** : Permet de visualiser le graphique des éléments en lien avec le scénario.
-- **Edition texte** : Affiche une fenêtre permettant d'éditer le scénario sous forme de texte/json. Ne pas oublier de sauvegarder.
-- **Exporter** : Permet d’obtenir une version texte pur du scénario.
-- **Template** : Permet d’accéder aux templates et d’en appliquer un au scénario depuis le market. (expliqué en bas de page).
-- **Recherche** : Déplie un champ de recherche pour rechercher dans le scénario. Cette recherche déplie les bloc collapsés si nécessaire et les replie après la recherche.
-- **Exécuter** : Permet de lancer le scénario manuellement (indépendamment des déclencheurs). Sauvegarder au préalable pour prendre en compte les modifications.
-- **Supprimer** : Supprimer le scénario.
-- **Sauvegarder** : Sauvegarder les changements effectués.
+- **ID** : Neben dem Wort **General**, Dies ist die Szenariokennung.
+- **statut** : *Angehalten * oder * In Bearbeitung * zeigt den aktuellen Status des Szenarios an.
+- **Fügen Sie einen Block hinzu** : Ermöglicht das Hinzufügen eines Blocks des gewünschten Typs zum Szenario (siehe unten)..
+- **Log** : Zeigt die Szenarioprotokolle an.
+- **Dupliquer** : Kopieren Sie das Szenario, um ein neues mit einem anderen Namen zu erstellen.
+- **Liens** : Ermöglicht das Anzeigen des Diagramms der Elemente, die sich auf das Szenario beziehen.
+- **Textbearbeitung** : Zeigt ein Fenster an, in dem das Szenario in Form von Text / JSON bearbeitund werden kann. Vergiss nicht zu sparen.
+- **Exporter** : Ermöglicht es Ihnen, eine reine Textversion des Szenarios zu erhalten.
+- **Template** : Ermöglicht den Zugriff auf die Vorlagen und die Anwendung einer Vorlage auf das Szenario aus dem Markt. (am Ende der Seite erklärt).
+- **Recherche** : Entfaltund ein Suchfeld für die Suche im Szenario. Diese Suche entfaltund die reduzierten Blöcke beich Bedarf und faltund sie nach der Suche zurück.
+- **Ausführen** : Ermöglicht das manuelle Starten des Szenarios (unabhängig von den Auslösern). Speichern Sie vorher, um die Änderungen zu berücksichtigen.
+- **Supprimer** : Szenario löschen.
+- **Sauvegarder** : Speichern Sie die vorgenommenen Änderungen.
 
 > **Tips**
 >
-> Deux outils vous seront également précieux dans la mise en place de scénarios :
-    > - Les variables, visibles dans **Outils → Variables**
-    > - Le testeur d'expressions, accessible par **Outils → Testeur expression**
+> Zweich Tools sind für Sie auch beim Einrichten von Szenarien von unschätzbarem Wert :
+    > - Die Variablen, sichtbar in **Werkzeuge → Variablen**
+    > - Der Ausdruckstester, auf den über zugegriffen werden kann **Werkzeuge → Ausdruckstester**
 >
-> Un **Ctrl Clic sur le bouton exécuter** vous permet directement de sauvegarder, exécuter et afficher le log du scénario (si le niveau de log n'est pas sur Aucun).
+> Ein **Strg Klicken Sie auf die Schaltfläche Ausführen** Mit dieser Option können Sie das Szenarioprotokoll direkt speichern, ausführen und anzeigen (wenn die Protokollebene nicht Keine ist)..
 
-### Onglet Général
+### Registerkarte &quot;Allgemein&quot;
 
-Dans l’onglet **Général**, on retrouve les paramètres principaux du scénario :
+In der Registerkarte **General**, Wir finden die Hauptparameter des Szenarios :
 
-- **Nom du scénario** : Le nom de votre scénario.
-- **Nom à afficher** : Le nom utilisé pour son affichage. Facultatif, si il n'est pas renseigné, c'est le nom du scénario qui est utilisé.
-- **Groupe** : Permet d’organiser les scénarios, en les classant dans des groupes (visibles sur la page des scénarios et dans leurs menus contextuels).
-- **Actif** : Permet d’activer le scénario. Si non actif, il ne sera pas exécuté par Jeedom, quel que soit le mode de déclenchement.
-- **Visible** : Permet de rendre visible le scénario (Dashboard).
-- **Objet parent** : Affectation à un objet parent. Il sera alors visible ou non selon ce parent.
-- **Timeout en secondes (0 = illimité)** : La durée d’exécution maximale autorisée pour ce scénario. Au delà de ce temps, l'exécution du scénario est interrompue.
-- **Multi lancement** : Cochez cette case si vous souhaitez que le scénario puisse être lancé plusieurs fois en même temps.
-- **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable.
-- **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les log du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
-- **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir doc Historique).
-- **Icône** : Permet de choisir une icône pour le scénario en lieu et place de l’icône standard.
-- **Description** : Permet d’écrire un petit texte pour décrire votre scénario.
-- **Mode du scénario** : Le scénario peut être programmé, déclenché ou les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s) déclencheur(s) (15 déclencheurs maximum) et la/les programmation(s).
+- **Name des Szenarios** : Der Name Ihres Szenarios.
+- **Name, der angezeigt werden soll** : Der Name, der für die Anzeige verwendund wird. Wenn nicht abgeschlossen, wird optional der Name des Szenarios verwendet.
+- **Groupe** : Ermöglicht das Organisieren der Szenarien und deren Klassifizierung in Gruppen (sichtbar auf der Szenarioseite und in ihren Kontextmenüs)..
+- **Actif** : Aktivieren Sie das Szenario. Wenn nicht aktiv, wird es von Jeedom unabhängig vom Triggermodus nicht ausgeführt.
+- **Visible** : Ermöglicht es Ihnen, das Szenario sichtbar zu machen (Dashboard).
+- **übergeordnetes Objekt** : Zuordnung zu einem übergeordneten Objekt. Es wird dann entsprechend diesem Elternteil sichtbar sein oder nicht.
+- **Zeitüberschreitung in Sekunden (0 = unbegrenzt)** : Die maximal zulässige Ausführungszeit für dieses Szenario. Nach dieser Zeit wird die Ausführung des Szenarios unterbrochen.
+- **Multi-Launch** : Aktivieren Sie dieses Kontrollkästchen, wenn das Szenario mehrmals gleichzeitig gestartund werden soll.
+- **Synchroner Modus** : Starten Sie das Szenario im aktuellen Thread anstelle eines dedizierten Threads. Erhöht die Geschwindigkeit, mit der das Szenario gestartund wird, kann jedoch das System instabil machen.
+- **Log** : Der für das Szenario gewünschte Protokolltyp. Sie können das Protokoll des Szenarios ausschneiden oder im Gegenteil unter Analyse → Echtzeit anzeigen.
+- **Timeline** : Verfolgen Sie das Szenario in der Zeitleiste (siehe Verlaufsdokument)..
+- **Symbol** : Ermöglicht die Auswahl eines Symbols für das Szenario anstelle des Standardsymbols.
+- **Description** : Ermöglicht das Schreiben eines kleinen Textes zur Beschreibung Ihres Szenarios.
+- **Szenariomodus** : Das Szenario kann programmiert, ausgelöst oder beides sein. Sie haben dann die Wahl, die Auslöser (maximal 15 Auslöser) und die Programmierung (en) anzugeben..
 
 > **Tip**
 >
-> En mode déclenché, des conditions peuvent à présent être saisies. Par ex : `#[Garage][Open Garage][Ouverture]# == 1`
-> Attention : vous pouvez avoir au maximum 28 déclencheurs/programmations pour un scénario.
+> Bedingungen können jetzt im ausgelösten Modus eingegeben werden. Zum Beispiel : `# [Garage] [Garage öffnen] [Eröffnung] # == 1`
+> Aufmerksamkeit : Sie können maximal 28 Trigger / Programmierungen für ein Szenario haben.
 
-> **Tip Mode programmé**
+> **Tippmodus programmiert**
 >
-> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuté un scénario toutes les 20 minutes avec  `*/20 * * * * `, ou à 5h du matin pour régler une multitude de choses pour la journée avec `0 5 * * *`. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron.
+> Der geplante Modus verwendund die Syntax **Cron**. Sie können beispielsweise alle 20 Minuten ein Szenario mit `* / 20 * * * *` ausführen oder um 5 Uhr morgens mit `0 5 * * *` eine Vielzahl von Dingen für den Etikett erledigen. Die ? Rechts neben einem Programm können Sie es einstellen, ohne Spezialist für Cron-Syntax zu sein.
 
-### Onglet Scénario
+### Registerkarte &quot;Szenario&quot;
 
-C’est ici que vous allez construire votre scénario. Après la création du scénario, son contenu est vide, il ne fera donc ... rien. Il faut commencer par **ajouter un bloc**, avec le bouton situé à droite. Une fois un bloc créé, vous pourrez y ajouter un autre **bloc** ou une **action**.
+Hier erstellen Sie Ihr Szenario. Nach dem Erstellen des Szenarios ist sein Inhalt leer, sodass er ... nichts tut. Du musst mit anfangen **Fügen Sie einen Block hinzu**, mit dem Knopf rechts. Sobald ein Block erstellt wurde, können Sie einen weiteren hinzufügen **bloc** oder a **action**.
 
-Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dans le scénario, l'ajout d'un bloc se fait après le champ dans lequel se situe le curseur de la souris.
-*Par exemple, si vous avez une dizaine de blocs, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après se bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
+Um die Blöcke im Szenario einfacher zu gestalten und nicht ständig neu anordnen zu müssen, wird nach dem Feld, in dem sich der Mauszeiger befindet, ein Block hinzugefügt.
+*Wenn Sie beispielsweise zehn Blöcke haben und auf die IF-Bedingung des ersten Blocks klicken, wird der hinzugefügte Block nach dem Block auf derselben Ebene hinzugefügt. Wenn kein Feld aktiv ist, wird es am Ende des Szenarios hinzugefügt.*
 
 > **Tip**
 >
-> Dans les conditions et actions, il vaut mieux privilégier les guillemets simples (') au lieu des doubles (").
+> In Bedingungen und Aktionen ist es besser, einfache Anführungszeichen (&#39;) anstelle von doppelten (&quot;) zu bevorzugen..
 
 > **Tip**
 >
-> Un Ctrl Shift Z ou Ctrl Shift Y vous permet d'**annuler** ou de refaire une modification (ajout d'action, de bloc...).
+> Mit einer Strg-Umschalttaste Z oder einer Strg-Umschalttaste Y können Sie dies tun'**annuler** oder eine Änderung wiederholen (Hinzufügung von Aktion, Block ...).
 
-### Les blocs
+### Blöcke
 
-Voici les différents types de blocs disponibles :
+Hier sind die verschiedenen Arten von Blöcken verfügbar :
 
-- **Si/Alors/Sinon** : Permet de réaliser des actions sous condition(si ceci, alors cela).
-- **Action** : Permet de lancer des actions simples sans aucune condition.
-- **Boucle** : Permet de réaliser des actions de manière répétitive de 1 jusqu’à un nombre défini (ou même la valeur d’un capteur, ou un nombre aléatoire…​).
-- **Dans** : Permet de lancer une action dans X minute(s) (0 est une valeur possible). La particularité est que les actions sont lancées en arrière-plan, elles ne bloquent donc pas la suite du scénario. C’est donc un bloc non bloquant.
-- **A** : Permet de dire à Jeedom de lancer les actions du bloc à une heure donnée (sous la forme hhmm). Ce bloc est non bloquant. Ex : 0030 pour 00h30, ou 0146 pour 1h46 et 1050 pour 10h50.
-- **Code** : Permet d’écrire directement en code PHP (demande certaines connaissances et peut être risqué mais permet de n’avoir aucune contrainte).
-- **Commentaire** : Permet d’ajouter des commentaires à son scénario.
+- **If / Then / Oder** : Ermöglicht das Ausführen von bedingten Aktionen (wenn dies, dann das).
+- **Action** : Ermöglicht das Starten einfacher Aktionen ohne Bedingungen.
+- **Boucle** : Ermöglicht die wiederholte Ausführung von Aktionen von 1 bis zu einer definierten Zahl (oder sogar dem Wert eines Sensors oder einer Zufallszahl usw.).
+- **Dans** : Ermöglicht das Starten einer Aktion in X Minute (n) (0 ist ein möglicher Wert). Die Besonderheit ist, dass die Aktionen im Hintergrund gestartund werden, sodass sie den Rest des Szenarios nicht blockieren. Es ist also ein nicht blockierender Block.
+- **A** : Ermöglicht es Jeedom, die Aktionen des Blocks zu einem bestimmten Zeitpunkt zu starten (in der Form hhmm).. Dieser Block ist nicht blockierend. Ex : 0030 für 00:30 oder 0146 für 1h46 und 1050 für 10h50.
+- **Code** : Ermöglicht das direkte Schreiben in PHP-CODE (erfordert bestimmte Kenntnisse und kann riskant sein, ermöglicht Ihnen jedoch keine Einschränkungen).
+- **Commentaire** : Ermöglicht das Hinzufügen von Kommentaren zu Ihrem Szenario.
 
-Chaque bloc a ses options pour mieux les manipuler :
+Jeder Block hat seine Optionen, um besser damit umzugehen :
 
-- Sur la gauche :
-    - La flèche bidirectionnelle permet de déplacer un bloc ou une action pour les réordonner dans le scénario.
-    - L’œil permet de réduire un bloc (*collapse*) pour réduire son impact visuel. Ctrl Clic sur l’œil les réduis ou affiche tous.
-    - La case à cocher permet de désactiver complètement le bloc sans pour autant le supprimer. Il ne sera donc pas exécuté.
+- Links :
+    - Mit dem bidirektionalen Pfeil können Sie einen Block oder eine Aktion verschieben, um sie im Szenario neu anzuordnen.
+    - Das Auge reduziert einen Block (* Kollaps *), um seine visuelle Wirkung zu verringern. Strg Klicken Sie auf das Auge, um sie zu verkleinern oder alle anzuzeigen.
+    - Mit dem Kontrollkästchen können Sie den Block vollständig deaktivieren, ohne ihn zu löschen. Es wird daher nicht ausgeführt.
 
-- Sur la droite :
-    - L’icône Copier permet de copier le bloc pour en faire une copie ailleurs. Ctrl Clic sur l’icône coupe le bloc (copie puis suppression).
-    - L’icône Coller permet de coller une copie du bloc précédemment copié après le bloc sur lequel vous utilisez cette fonction.  Ctrl Clic sur l’icône remplace le bloc par le bloc copié.
-    - L'icône - permet de supprimer le bloc, avec une demande de confirmation. Ctrl Clic supprime le bloc sans confirmation.
+- Rechts :
+    - Mit dem Symbol Kopieren können Sie den Block kopieren, um eine Kopie an einer anderen Stelle zu erstellen. Strg Klicken Sie auf das Symbol, um den Block zu schneiden (kopieren und löschen).
+    - Mit dem Symbol Einfügen können Sie eine Kopie des Blocks einfügen, der zuvor nach dem Block kopiert wurde, für den Sie diese Funktion verwenden..  Strg Klicken Sie auf das Symbol, um den Block durch den kopierten Block zu ersetzen.
+    - Das Symbol - ermöglicht es Ihnen, den Block mit einer Bestätigungsanforderung zu löschen. Strg Klicken löscht den Block ohne Bestätigung.
 
-#### Blocs Si/Alors/Sinon | Boucle | Dans | A
+#### Wenn / Dann / Sonst blockiert | Schleife | In | A
 
-Pour les conditions, Jeedom essaye de faire en sorte qu’on puisse les écrire le plus possible en langage naturel tout en restant souple.
-> Il ne faut SURTOUT PAS utiliser des [ ] dans les tests de condition, seules les parenthèses () sont possibles.
+Für die Bedingungen versucht Jeedom, es möglich zu machen, sie so viel wie möglich in natürlicher Sprache zu schreiben und dabeich flexibel zu bleiben.
+> Verwenden Sie [] NICHT in Bedingungstests, nur Klammern () sind möglich.
 
-Trois boutons sont disponibles sur la droite de ce type de bloc pour sélectionner un élément à tester :
+Rechts neben diesem Blocktyp stehen dreich Schaltflächen zur Auswahl eines zu testenden Elements zur Verfügung :
 
-- **Rechercher une commande** : Permet de chercher une commande dans toutes celles disponibles dans Jeedom. Une fois la commande trouvée, Jeedom ouvre une fenêtre pour vous demander quel test vous souhaitez effectuer sur celle-ci. Si vous choisissez de **Ne rien mettre**, Jeedom ajoutera la commande sans comparaison. Vous pouvez également choisir **et** ou **ou** devant **Ensuite** pour enchaîner des tests sur différents équipements.
-- **Rechercher un scénario** : Permet de chercher un scénario à tester.
-- **Rechercher un équipement** : Idem pour un équipement.
+- **Finden Sie eine Bestellung** : Ermöglicht die Suche nach einer Bestellung in allen in Jeedom verfügbaren. Sobald die Bestellung gefunden wurde, öffnund Jeedom ein Fenster, in dem Sie gefragt werden, welchen Test Sie daran durchführen möchten. Wenn Sie möchten **Setzen Sie nichts**, Jeedom wird die Bestellung ohne Vergleich hinzufügen. Sie können auch wählen **et** oder **ou** Front **Ensuite** Kettenprüfungen an verschiedenen Geräten.
+- **Suchen Sie ein Szenario** : Ermöglicht die Suche nach einem zu testenden Szenario.
+- **Suche nach Ausrüstung** : Gleiches gilt für die Ausrüstung.
 
 > **Note**
 >
-> Sur les blocs de type Si/Alors/Sinon, des flèches circulaires situées à gauche du champ de condition permettent d’activer ou non la répétition des actions si l’évaluation de la condition donne le même résultat que lors de la précédente évaluation.
+> Beich Blöcken vom Typ If / Then / Andernfalls können kreisförmige Pfeile links neben dem Bedingungsfeld die Wiederholung von Aktionen aktivieren oder nicht, wenn die Auswertung der Bedingung das gleiche Ergebnis wie beich der vorherigen Auswertung ergibt.
 
 > **Tip**
 >
-> Il existe une liste de tags permettant d’avoir accès à des variables issues du scénario ou d’un autre, ou bien à l’heure, la date, un nombre aléatoire, … Voir plus loin les chapitres sur les commandes et les tags.
+> Es gibt eine Liste von Tags, die den Zugriff auf Variablen aus dem einen oder anderen Szenario oder nach Uhrzeit, Datum, Zufallszahl usw. ermöglichen. Siehe unten die Kapitel zu Befehlen und Tags.
 
-Une fois la condition renseignée, vous devez utiliser le bouton "ajouter", à gauche, afin d’ajouter un nouveau **bloc** ou une **action** dans le bloc actuel.
+Sobald die Bedingung erfüllt ist, müssen Sie die Schaltfläche &quot;Hinzufügen&quot; auf der linken Seite verwenden, um eine neue hinzuzufügen **bloc** oder a **action** im aktuellen Block.
 
 
-#### Bloc Code
+#### Blockcode
 
-Le bloc Code permet d’exécuter du code php. Il est donc très puissant mais nécessite une bonne connaissance du langage php.
+Mit dem Code-Block können Sie PHP-CODE ausführen. Es ist daher sehr mächtig, erfordert aber gute Kenntnisse der PHP-Sprache.
 
-##### Accès aux commandes (capteurs et actionneurs):
--  `cmd::byString($string);` : Retourne l’objet commande correspondant.
-    -   `$string`: Lien vers la commande voulue : `#[objet][equipement][commande]#` (ex : `#[Appartement][Alarme][Actif]#`)
--  `cmd::byId($id);` : Retourne l’objet commande correspondant.
-    -  `$id` : ID de la commande voulue.
--  `$cmd->execCmd($options = null);` : Exécute la commande et retourne le résultat.
-    - `$options` : Options pour l’exécution de la commande (peut être spécifique au plugin). Options de base (sous-type de la commande) :
-        -  message : `$option = array('title' => 'titre du message , 'message' => 'Mon message');`
-        -  color : `$option = array('color' => 'couleur en hexadécimal');`
-        -  slider : `$option = array('slider' => 'valeur voulue de 0 à 100');`
+##### Zugang zu Steuerungen (Sensoren und Aktoren):
+-  `cmd::byString ($ string); ` : Gibt das entsprechende Befehlsobjekt zurück.
+    -   `$string`: Link zur gewünschten Bestellung : `# [Objekt] [Bisusrüstung] [Befehl] #` (z : `# [Wohnung] [Bislarm] [Bisktiv] #`)
+-  `cmd::byId ($ id); ` : Gibt das entsprechende Befehlsobjekt zurück.
+    -  `$ id` : Bestellnummer.
+-  $ cmd-> execCmd ($ options = null); ` : Führen Sie den Befehl aus und geben Sie das Ergebnis zurück.
+    - `$ options` : Optionen für die Auftragsausführung (möglicherweise Plugin-spezifisch). Grundlegende Optionen (Befehlssubtyp) :
+        -  Nachricht : `$ option = array ('title' => 'Nachrichtentitel,' Nachricht '=>' Meine Nachricht ');`
+        -  Farbe : `$ option = array ('color' => 'Farbe in hexadecimal');`
+        -  Schieber : `$ option = array ('slider' => 'gewünschter Wert von 0 bis 100');`
 
-##### Accès aux log :
--  `log::add('filename','level','message');`
-    - filename : Nom du fichier de log.
-    - level : [debug], [info], [error], [event].
-    - message : Message à écrire dans les logs.
+##### Zugriff auf das Protokoll :
+-  `log::add ('Dateiname', 'Ebene', 'Nachricht'); `
+    - Dateiname : Name der Protokolldatei.
+    - Ebene : [Debug], [Info], [Fehler], [Ereignis].
+    - Nachricht : Nachricht zum Schreiben in die Protokolle.
 
-##### Accès aux scénario :
-- `$scenario->getName();` : Retourne le nom du scénario courant.
-- `$scenario->getGroup();` : Retourne le groupe du scénario.
-- `$scenario->getIsActive();` : Retourne l’état du scénario.
-- `$scenario->setIsActive($active);` : Permet d’activer ou non le scénario.
-    - `$active` : 1 actif , 0 non actif.
-- `$scenario->setOnGoing($onGoing);` : Permet de dire si le scénario est en cours ou non.
-    - `$onGoing => 1` : 1 en cours , 0 arrêté.
-- `$scenario->save();` : Sauvegarde les modifications.
-- `$scenario->setData($key, $value);` : Sauvegarde une donnée (variable).
-    - `$key` : clé de la valeur (int ou string).
-    - `$value` : valeur à stocker (int, string, array ou object).
-- `$scenario->getData($key);` : Récupère une donnée (variable).
-    - `$key => 1` : clé de la valeur (int ou string).
-- `$scenario->removeData($key);` : Supprime une donnée.
-- `$scenario->setLog($message);` : Écrit un message dans le log du scénario.
-- `$scenario->persistLog();` : Force l’écriture du log (sinon il est écrit seulement à la fin du scénario). Attention, ceci peut un peu ralentir le scénario.
-
-> **Tip**
->
-> Ajout d'une fonction recherche dans le bloc Code : Rechercher : Ctrl + F puis Enter, Résultat suivant : Ctrl + G, Résultat précédent : Ctrl + Shift + G
-
-#### Bloc Commentaire
-
-Le Bloc commentaire agît différemment quand il est masqué. Ses boutons sur la gauche disparaissent ainsi que le titre du bloc, et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.
-Ceci permet d'utiliser ce bloc comme séparation purement visuel au sein du scénario.
-
-### Les Actions
-
-Les actions ajoutées dans les blocs ont plusieurs options :
-
-- Une case **activée** pour que cette commande soit bien prise en compte dans le scénario.
-- Une case **parallèle** pour que cette commande se lance en parallèle (en même temps) des autres commandes également sélectionnées.
-- Une **double-flèche verticale** pour déplacer l’action. Il suffit de la glisser/déposer à partir de là.
-- Un bouton pour **supprimer** l’action.
-- Un bouton pour les actions spécifiques, avec à chaque fois la description (au survol) de cette action.
-- Un bouton pour rechercher une commande d’action.
+##### Zugriff auf das Szenario :
+- $ Szenario-> getName (); ` : Gibt den Namen des aktuellen Szenarios zurück.
+- $ Szenario-> getGroup (); ` : Gibt die Szenariogruppe zurück.
+- $ Szenario-> getIsActive (); ` : Gibt den Status des Szenarios zurück.
+- $ Szenario-> setIsActive ($ active); ` : Ermöglicht das Aktivieren oder Nicht-Aktivieren des Szenarios.
+    - `$ active` : 1 aktiv, 0 nicht aktiv.
+- `$ Szenario-> setOnGoing ($ onGoing);` : Sagen wir, ob das Szenario läuft oder nicht.
+    - `$ onGoing => 1` : 1 in Bearbeitung, 0 gestoppt.
+- `$ Szenario-> speichern ();` : Änderungen speichern.
+- $ szenario-> setData ($ key, $ value); ` : Daten speichern (Variable).
+    - `$ key` : Werteschlüssel (int oder string).
+    - `$ value` : zu speichernder Wert (int, string, array oder object).
+- `$ Szenario-> getData ($ Schlüssel);` : Daten abrufen (variabel).
+    - `$ key => 1` : Werteschlüssel (int oder string).
+- $ Szenario-> removeData ($ key); ` : Daten löschen.
+- $ szenario-> setLog ($ message); ` : Schreiben Sie eine Nachricht in das Szenario-Protokoll.
+- $ Szenario-> persistLog (); ` : Erzwingen Sie das Schreiben des Protokolls (andernfalls wird es nur am Ende des Szenarios geschrieben). Seien Sie vorsichtig, dies kann das Szenario etwas verlangsamen.
 
 > **Tip**
 >
-> Suivant la commande sélectionnée, on peut voir d'afficher différents champs supplémentaires.
+> Hinzufügen einer Suchfunktion im Codeblock : Suche : Strg + F dann Enter, Nächstes Ergebnis : Strg + G, Vorheriges Ergebnis : Strg + Umschalt + G.
 
-## Les substitutions possibles
+#### Kommentarblock
 
-### Les déclencheurs
+Der Kommentarblock verhält sich anders, wenn er ausgeblendund ist. Die Schaltflächen auf der linken Seite sowie der Titel des Blocks verschwinden und werden beim Schweben wieder angezeigt. Ebenso wird die erste Zeile des Kommentars fett gedruckt.
+Dadurch kann dieser Block als rein visuelle Trennung innerhalb des Szenarios verwendund werden.
 
-Il existe des déclencheurs spécifiques (autre que ceux fournis par les commandes) :
+### Aktionen
 
-- #start# : Déclenché au (re)démarrage de Jeedom.
-- #begin_backup# : Événement envoyé au début d’une sauvegarde.
-- #end_backup# : Événement envoyé à la fin d’une sauvegarde.
-- #begin_update# : Événement envoyé au début d’une mise à jour.
-- #end_update# : Événement envoyé à la fin d’une mise à jour.
-- #begin_restore# : Événement envoyé au début d’une restauration.
-- #end_restore# : Événement envoyé à la fin d’une restauration.
-- #user_connect# : Connexion d'un utilisateur
+Zu Blöcken hinzugefügte Aktionen haben mehrere Optionen :
 
-Vous pouvez aussi déclencher un scénario quand une variable est mise à jour en mettant : #variable(nom_variable)# ou en utilisant l’API HTTP décrite [ici](https://jeedom.github.io/core/fr_FR/api_http).
-
-### Opérateurs de comparaison et liens entre les conditions
-
-Vous pouvez utiliser n’importe lequel des symboles suivant pour les comparaisons dans les conditions :
-
-- == : Egal à.
-- \> : Strictement supérieur à.
-- \>= : Supérieur ou égal à.
-- < : Strictement inférieur à.
-- <= : Inférieur ou égal à.
-- != : Différent de, n’est pas égal à.
-- matches : Contient. Ex : `[Salle de bain][Hydrometrie][etat] matches "/humide/"`.
-- not ( …​ matches …​) : Ne contient pas. Ex :  `not([Salle de bain][Hydrometrie][etat] matches "/humide/")`.
-
-Vous pouvez combiner n’importe quelle comparaison avec les opérateurs suivants :
-
-- && / ET / et / AND / and : et,
-- \|| / OU / ou / OR / or : ou,
-- \|^ / XOR / xor : ou exclusif.
-
-### Les tags
-
-Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pouvez utiliser les tags suivants :
+- Eine Kiste **aktiviert** damit dieser Befehl im Szenario berücksichtigt wird.
+- Eine Kiste **parallel** so dass dieser Befehl parallel (gleichzeitig) mit den anderen ebenfalls ausgewählten Befehlen gestartund wird.
+- Ein **vertikaler Doppelpfeil** um die Aktion zu verschieben. Einfach von dort ziehen und ablegen.
+- Ein Knopf für **supprimer** die Aktion.
+- Eine Schaltfläche für bestimmte Aktionen, beich der jedes Mal die Beschreibung (beim Bewegen des Mauszeigers) dieser Aktion angezeigt wird.
+- Eine Schaltfläche zum Suchen nach einem Aktionsbefehl.
 
 > **Tip**
 >
-> Pour avoir les zéros initiaux à l’affichage, il faut utiliser la fonction Date(). Voir [ici](http://php.net/manual/fr/function.date.php).
+> Abhängig vom ausgewählten Befehl werden verschiedene zusätzliche Felder angezeigt.
 
-- #seconde# : Seconde courante (sans les zéros initiaux, ex : 6 pour 08:07:06).
-- #hour# : Heure courante au format 24h (sans les zéros initiaux). Ex : 8 pour 08:07:06 ou 17 pour 17:15.
-- #hour12# : Heure courante au format 12h (sans les zéros initiaux). Ex : 8 pour 08:07:06.
-- #minute# : Minute courante (sans les zéros initiaux). Ex : 7 pour 08:07:06.
-- #day# : Jour courant (sans les zéros initiaux). Ex : 6 pour 06/07/2017.
-- #month# : Mois courant (sans les zéros initiaux). Ex : 7 pour 06/07/2017.
-- #year# : Année courante.
-- #time# : Heure et minute courante. Ex : 1715 pour 17h15.
-- #timestamp# : Nombre de secondes depuis le 1er janvier 1970.
-- #date# : Jour et mois. Attention, le premier nombre est le mois. Ex : 1215 pour le 15 décembre.
-- #week# : Numéro de la semaine.
-- #sday# : Nom du jour de la semaine. Ex : Samedi.
-- #nday# : Numéro du jour de 0 (dimanche) à 6 (samedi).
-- #smonth# : Nom du mois. Ex : Janvier.
-- #IP# : IP interne de Jeedom.
-- #hostname# : Nom de la machine Jeedom.
-- #trigger# (deprecié, mieux vaut utiliser trigger()) : Peut être le nom de la commande qui a déclenché le scénario :
-    - 'api' si le lancement a été déclenché par l'API,
-    - 'schedule' si il a été lancé par une programmation,
-    - 'user' si il a été lancé manuellement,
-    - 'start' pour un lancement au démarrage de Jeedom.
-- #trigger_value# (deprecié, mieux vaut utiliser triggerValue()) : Pour la valeur de la commande ayant déclenché le scénario
+## Mögliche Substitutionen
 
-Vous avez aussi les tags suivants en plus si votre scénario a été déclenché par une interaction :
+### Auslöser
 
-- #query# : Interaction ayant déclenché le scénario.
-- #profil# : Profil de l’utilisateur ayant déclenché le scénario (peut être vide).
+Es gibt bestimmte Auslöser (außer denen, die durch Befehle bereitgestellt werden). :
+
+- #start# : Ausgelöst beim (Wieder-) Start von Jeedom.
+- #begin_backup# : Ereignis, das zu Beginn einer Sicherung gesendund wurde.
+- #end_backup# : Ereignis, das am Ende einer Sicherung gesendund wird.
+- #BEGIN_UPDATE# : Ereignis, das zu Beginn eines Updates gesendund wurde.
+- #END_UPDATE# : Ereignis, das am Ende eines Updates gesendund wurde.
+- #begin_restore# : Ereignis zu Beginn einer Restaurierung gesendet.
+- #end_restore# : Ereignis am Ende einer Restaurierung gesendet.
+- #user_connect# : Benutzer Login
+
+Sie können auch ein Szenario auslösen, wenn eine Variable durch Putten aktualisiert wird : #Variable (Variablenname) # oder unter Verwendung der beschriebenen HTTP-API [hier](https://jeedom.github.io/core/fr_FR/api_http).
+
+### Vergleichsoperatoren und Verknüpfungen zwischen Bedingungen
+
+Sie können eines der folgenden Symbole für Vergleiche unter Bedingungen verwenden :
+
+- == : Gleich.
+- \.> : Streng größer als.
+- \.>= : Größer als oder gleich.
+- < : Streng weniger als.
+- <= : Kleiner als oder gleich.
+- != : Anders als, ist nicht gleich.
+- Streichhölzer : Enthält. Ex : `[Badezimmer] [Hydrometrie] [Bedingung] entspricht" / wund / "`.
+- nicht (… passt…) : Enthält nicht. Ex :  `not ([Badezimmer] [Hydrometrie] [Zustand] stimmt mit" / wund / "überein)`.
+
+Sie können jeden Vergleich mit den folgenden Operatoren kombinieren :
+
+- &amp;&amp; / ET / und / AND / und : et,
+- \.|| / OR / oder / OR / oder : ou,
+- \.|^ / XOR / xor : oder exklusiv.
+
+### Tags
+
+Ein Etikett wird während der Ausführung des Szenarios durch seinen Wert ersetzt. Sie können die folgenden Tags verwenden :
+
+> **Tip**
+>
+> Verwenden Sie die Funktion Date (), um die führenden Nullen anzuzeigen. Siehe [hier](http://php.net/manual/fr/function.date.php).
+
+- #seconde# : Aktuelle Sekunde (ohne führende Nullen, z : 6 für 08:07:06).
+- #hour# : Aktuelle Zeit im 24h Format (ohne führende Nullen). Ex : 8 für 08:07:06 oder 17 für 17:15.
+- #hour12# : Aktuelle Zeit im 12-Stunden-Format (ohne führende Nullen). Ex : 8 für 08:07:06.
+- #minute# : Aktuelle Minute (ohne führende Nullen). Ex : 7 für 08:07:06.
+- #day# : Aktueller Etikett (ohne führende Nullen). Ex : 6 für 06/07/2017.
+- #month# : Aktueller Monat (ohne führende Nullen). Ex : 7 für 06/07/2017.
+- #year# : Laufendes Jahr.
+- #time# : Aktuelle Stunde und Minute. Ex : 1715 für 17.15 Uhr.
+- #timestamp# : Anzahl der Sekunden seit dem 1. Januar 1970.
+- #date# : Etikett und Monat. Achtung, die erste Zahl ist der Monat. Ex : 1215 für den 15. Dezember.
+- #week# : Wochennummer.
+- #sday# : Name des Wochentags. Ex : Samstag.
+- #nday# : Tagesnummer von 0 (Sonntag) bis 6 (Samstag).
+- #smonth# : Name des Monats. Ex : Januar.
+- #IP# : Jeedom&#39;s interne IP.
+- #hostname# : Name der Jeedom-Maschine.
+- #Trigger # (veraltet, besser Trigger () verwenden) : Möglicherweise der Name des Befehls, der das Szenario gestartund hat :
+    - 'apich &#39;, wenn der Start von der API ausgelöst wurde,
+    - 'Zeitplan &#39;, wenn es durch Programmierung gestartund wurde,
+    - 'Benutzer &#39;, wenn es manuell gestartund wurde,
+    - 'Start &#39;für einen Start, wenn Jeedom startet.
+- #trigger_value # (veraltet, besser triggerValue () zu verwenden) : Für den Wert des Befehls, der das Szenario ausgelöst hat
+
+Sie haben auch die folgenden zusätzlichen Tags, wenn Ihr Szenario durch eine Interaktion ausgelöst wurde :
+
+- #query# : Interaktion, die das Szenario ausgelöst hat.
+- #profil# : Profil des Benutzers, der das Szenario ausgelöst hat (kann leer sein).
 
 > **Important**
 >
-> Lorsqu’un scénario est déclenché par une interaction, celui-ci est forcément exécuté en mode rapide. Donc dans le thread de l'interaction et non dans un thread séparé.
+> Wenn ein Szenario durch eine Interaktion ausgelöst wird, wird es notwendigerweise im schnellen Modus ausgeführt. Also im Interaktionsthread und nicht in einem separaten Thread.
 
-### Les fonctions de calcul
+### Berechnungsfunktionen
 
-Plusieurs fonctions sont disponibles pour les équipements :
+Für das Gerät stehen verschiedene Funktionen zur Verfügung :
 
-- average(commande,période) et averageBetween(commande,start,end) : Donnent la moyenne de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- Durchschnitt (Reihenfolge, Zeitraum) und Durchschnitt zwischen (Reihenfolge, Start, Ende) : Geben Sie den Durchschnitt der Bestellung über den Zeitraum an=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- min(commande,période) et minBetween(commande,start,end) : Donnent le minimum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- min (Reihenfolge, Periode) und minBetween (Reihenfolge, Start, Ende) : Geben Sie die Mindestbestellmenge über den Zeitraum (Zeitraum) an=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- max(commande,période) et maxBetween(commande,start,end) : Donnent le maximum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- max (Reihenfolge, Periode) und maxBetween (Reihenfolge, Start, Ende) : Geben Sie das Maximum der Bestellung über den Zeitraum (Zeitraum) an=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- duration(commande, valeur, période) et durationbetween(commande,valeur,start,end) : Donnent la durée en minutes pendant laquelle l’équipement avait la valeur choisie sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- Dauer (Reihenfolge, Wert, Periode) und Dauer zwischen (Reihenfolge, Wert, Start, Ende) : Geben Sie die Dauer in Minuten an, während der das Gerät über den Zeitraum (Zeitraum) den gewählten Wert hatte=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- statistics(commande,calcul,période) et statisticsBetween(commande,calcul,start,end) : Donnent le résultat de différents calculs statistiques (sum, count, std, variance, avg, min, max) sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- Statistik (Reihenfolge, Berechnung, Zeitraum) und StatistikZwischen (Reihenfolge, Berechnung, Start, Ende) : Geben Sie das Ergebnis verschiedener statistischer Berechnungen (Summe, Anzahl, Standard, Varianz, Durchschnitt, Min, Max) über den Zeitraum (Zeitraum) an=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- tendance(commande,période,seuil) : Donne la tendance de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- Trend (Befehl, Zeitraum, threshold) : Gibt den Trend der Bestellung über den Zeitraum (Zeitraum) an=[Monat, Tag, Stunde, Minute] oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- stateDuration(commande) : Donne la durée en secondes depuis le dernier changement de valeur.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 : La commande n’est pas historisée.
+- stateDuration (Kontrolle) : Gibt die Dauer in Sekunden seit der letzten Wertänderung an.
+    -1 : Es gibt keine Geschichte oder keinen Wert in der Geschichte.
+    -2 : Die Bestellung wird nicht protokolliert.
 
-- lastChangeStateDuration(commande,valeur) : Donne la durée en secondes depuis le dernier changement d’état à la valeur passée en paramètre.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 La commande n’est pas historisée
+- lastChangeStateDuration (Sollwert) : Gibt die Dauer in Sekunden seit der letzten Zustandsänderung auf den im Parameter übergebenen Wert an.
+    -1 : Es gibt keine Geschichte oder keinen Wert in der Geschichte.
+    -2 Die Bestellung wird nicht protokolliert
 
-- lastStateDuration(commande,valeur) : Donne la durée en secondes pendant laquelle l’équipement a dernièrement eu la valeur choisie.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 : La commande n’est pas historisée.
+- lastStateDuration (Sollwert) : Gibt die Dauer in Sekunden an, in der das Gerät zuletzt den gewählten Wert hatte.
+    -1 : Es gibt keine Geschichte oder keinen Wert in der Geschichte.
+    -2 : Die Bestellung wird nicht protokolliert.
 
-- age(commande) : Donne l'age en secondes de la valeur de la commande (collecDate)
-    -1 : La commande n’existe pas ou elle n'est pas de type info.
+- Alter (Kontrolle) : Gibt das Alter des Befehlswerts in Sekunden an (collecDate)
+    -1 : Der Befehl existiert nicht oder ist nicht vom Typ info.
 
-- stateChanges(commande,[valeur], période) et stateChangesBetween(commande, [valeur], start, end) : Donnent le nombre de changements d’état (vers une certaine valeur si indiquée, ou au total sinon) sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- stateChanges (Befehl,[Wert], Punkt) und stateChangesBetween (Befehl, [Wert], Start, Ende) : Geben Sie die Anzahl der Statusänderungen (auf einen bestimmten Wert, falls angegeben, oder insgesamt, wenn nicht) über den Zeitraum (Zeitraum = [Monat, Tag, Stunde, Minute] oder [PHP-Ausdruck) an](http://php.net/manual/fr/datetime.formats.relative.php)) oder zwischen den 2 angeforderten Terminals (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- lastBetween(commande,start,end) : Donne la dernière valeur enregistrée pour l’équipement entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- lastBetween (command, Beginn, Ende) : Gibt den zuletzt für das Gerät zwischen den beiden angeforderten Terminals aufgezeichneten Wert an (in der Form Ymd H.:i:s oder [PHP-Expression](http://php.net/manual/fr/datetime.formats.relative.php)).
 
-- variable(mavariable,valeur par défaut) : Récupère la valeur d’une variable ou de la valeur souhaitée par défaut.
+- Variable (Variable, Standard) : Ruft standardmäßig den Wert einer Variablen oder den gewünschten Wert ab.
 
-- scenario(scenario) : Renvoie le statut du scénario.
-    1 : En cours,
-    0 : Arrêté,
-    -1 : Désactivé,
-    -2 : Le scénario n’existe pas,
-    -3 : L’état n’est pas cohérent.
-    Pour avoir le nom "humain" du scénario, vous pouvez utiliser le bouton dédié à droite de la recherche de scénario.
+- Szenario (Szenario) : Gibt den Status des Szenarios zurück.
+    1 : In Bearbeitung,
+    0 : Verhaftet,
+    -1 : Deaktiviert,
+    -2 : Das Szenario existiert nicht,
+    -3 : Zustand ist nicht konsistent.
+    Um den &quot;menschlichen&quot; Namen des Szenarios zu erhalten, können Sie die entsprechende Schaltfläche rechts neben der Szenariosuche verwenden.
 
-- lastScenarioExecution(scenario) : Donne la durée en secondes depuis le dernier lancement du scénario.
-    0 : Le scénario n'existe pas
+- lastScenarioExecution (Szenario) : Gibt die Dauer in Sekunden seit dem letzten Start des Szenarios an.
+    0 : Das Szenario existiert nicht
 
-- collectDate(cmd,[format]) : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)).
-    -1 : La commande est introuvable,
-    -2 : La commande n’est pas de type info.
+- collectDate (cmd,[Format]) : Gibt das Datum der letzten Daten für den im Parameter angegebenen Befehl zurück. Der zweite optionale Parameter ermöglicht die Angabe des Rückgabeformats (Details [hier]](http://php.net/manual/fr/function.date.php)).
+    -1 : Der Befehl konnte nicht gefunden werden,
+    -2 : Der Befehl ist nicht vom Typ info.
 
-- valueDate(cmd,[format]) : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)).
-    -1 : La commande est introuvable,
-    -2 : La commande n’est pas de type info.
+- valueDate (cmd,[Format]) : Gibt das Datum der letzten Daten für den im Parameter angegebenen Befehl zurück. Der zweite optionale Parameter ermöglicht die Angabe des Rückgabeformats (Details [hier]](http://php.net/manual/fr/function.date.php)).
+    -1 : Der Befehl konnte nicht gefunden werden,
+    -2 : Der Befehl ist nicht vom Typ info.
 
-- eqEnable(equipement) : Renvoie l’état de l’équipement.
-    -2 : L’équipement est introuvable,
-    1 : L’équipement est actif,
-    0 : L’équipement est inactif.
+- eqEnable (Ausrüstung) : Gibt den Status des Geräts zurück.
+    -2 : Das Gerät kann nicht gefunden werden,
+    1 : Ausrüstung ist aktiv,
+    0 : Das Gerät ist inaktiv.
 
-- value(cmd) : Renvoie la valeur d'une commande si elle n'est pas donnée automatiquement par Jeedom (cas lors du stockage du nom de la commande dans une variable)
+- Wert (cmd) : Gibt den Wert einer Bestellung zurück, wenn er nicht automatisch von Jeedom angegeben wird (Groß- und Kleinschreibung, wenn der Name der Bestellung in einer Variablen gespeichert wird).
 
-- tag(montag,[defaut]) : Permet de récupérer la valeur d’un tag ou la valeur par défaut si il n’existe pas.
+- Etikett (Montag [Standard]) : Wird verwendet, um den Wert eines Tags oder den Standardwert abzurufen, falls dieser nicht vorhanden ist.
 
-- name(type,commande) : Permet de récupérer le nom de la commande, de l’équipement ou de l’objet. Type : cmd, eqLogic ou object.
+- (Art, Kontrolle) : Wird verwendet, um den Namen der Bestellung, Ausrüstung oder des Objekts abzurufen. Typ : cmd, eqLogic oder Objekt.
 
-- lastCommunication(equipment,[format]) : Renvoie la date de la dernière communication pour l'équipement donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1 signifie que l’équipement est introuvable.
+- lastCommunication (Ausrüstung,[Format]) : Gibt das Datum der letzten Kommunikation für das als Parameter angegebene Gerät zurück. Mit dem zweiten optionalen Parameter können Sie das Rückgabeformat angeben (Details [hier]](http://php.net/manual/fr/function.date.php)). Eine Rückgabe von -1 bedeutet, dass das Gerät nicht gefunden werden kann.
 
-- color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur) : Renvoi une couleur calculé par rapport à valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit etre comprise entre valeur_min et valeur_max.
+- color_gradient (couleur_debut, couleur_fin, valuer_min, valeur_max, value) : Gibt eine Farbe zurück, die in Bezug auf den Wert im Bereich color_Start / color_end berechnund wurde. Der Wert muss zwischen min_value und max_value liegen.
 
-Les périodes et intervalles de ces fonctions peuvent également s'utiliser avec [des expressions PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par exemple :
+Die Perioden und Intervalle dieser Funktionen können auch mit verwendund werden [PHP-Ausdrücke](http://php.net/manual/fr/datetime.formats.relative.php) wie zum Beispiel :
 
-- Now : maintenant.
-- Today : 00:00 aujourd’hui (permet par exemple d’obtenir des résultats de la journée si entre 'Today' et 'Now').
-- Last Monday : lundi dernier à 00:00.
-- 5 days ago : il y a 5 jours.
-- Yesterday noon : hier midi.
-- Etc.
+- Jetzt : jetzt.
+- Heute : 00:00 heute (ermöglicht es beispielsweise, Ergebnisse für den Etikett zu erhalten, wenn zwischen &#39;Heute&#39; und &#39;Jetzt&#39;).
+- Letzten Montag : letzten Montag um 00:00.
+- Vor 5 Tagen : Vor 5 Tagen.
+- Gestern mittag : gestern mittag.
+- Usw..
 
-Voici des exemples pratiques pour comprendre les valeurs retournées par ces différentes fonctions :
+Hier finden Sie praktische Beispiele zum Verständnis der von diesen verschiedenen Funktionen zurückgegebenen Werte :
 
-| Prise ayant pour valeurs :           | 000 (pendant 10 minutes) 11 (pendant 1 heure) 000 (pendant 10 minutes)    |
+| Sockel mit Werten :           | 000 (für 10 Minuten) 11 (für 1 Stunde) 000 (für 10 Minuten)    |
 |--------------------------------------|--------------------------------------|
-| average(prise,période)             | Renvoie la moyenne des 0 et 1 (peut  |
-|                                      | être influencée par le polling)      |
-| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie la moyenne de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
-| min(prise,période)                 | Renvoie 0 : la prise a bien été éteinte dans la période              |
-| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le minimum de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
-| max(prise,période)                 | Renvoie 1 : la prise a bien été allumée dans la période              |
-| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le maximum de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
-| duration(prise,1,période)          | Renvoie 60 : la prise était allumée (à 1) pendant 60 minutes dans la période                              |
-| durationBetween(\#[Salon][Prise][Etat]\#,0,Last Monday,Now)   | Renvoie la durée en minutes pendant laquelle la prise était éteinte depuis lundi dernier.                |
-| statistics(prise,count,période)    | Renvoie 8 : il y a eu 8 remontées d’état dans la période               |
-| tendance(prise,période,0.1)        | Renvoie -1 : tendance à la baisse    |
-| stateDuration(prise)               | Renvoie 600 : la prise est dans son état actuel depuis 600 secondes (10 minutes)                             |
-| lastChangeStateDuration(prise,0)   | Renvoie 600 : la prise s’est éteinte (passage à 0) pour la dernière fois il y a 600 secondes (10 minutes)     |
-| lastChangeStateDuration(prise,1)   | Renvoie 4200 : la prise s’est allumée (passage à 1) pour la dernière fois il y a 4200 secondes (1h10)                               |
-| lastStateDuration(prise,0)         | Renvoie 600 : la prise est éteinte depuis 600 secondes (10 minutes)     |
-| lastStateDuration(prise,1)         | Renvoie 3600 : la prise a été allumée pour la dernière fois pendant 3600 secondes (1h)           |
-| stateChanges(prise,période)        | Renvoie 3 : la prise a changé 3 fois d’état pendant la période            |
-| stateChanges(prise,0,période)      | Renvoie 2 : la prise s’est éteinte (passage à 0) deux fois pendant la période                              |
-| stateChanges(prise,1,période)      | Renvoie 1 : la prise s’est allumée (passage à 1) une fois pendant la  période                              |
-| lastBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,Yesterday,Today) | Renvoie la dernière température enregistrée hier.                    |
-| variable(plop,10)                  | Renvoie la valeur de la variable plop ou 10 si elle est vide ou n’existe pas                         |
-| scenario(\#[Salle de bain][Lumière][Auto]\#) | Renvoie 1 en cours, 0 si arreté et -1 si desactivé, -2 si le scénario n’existe pas et -3 si l’état n’est pas cohérent                         |
-| lastScenarioExecution(\#[Salle de bain][Lumière][Auto]\#)   | Renvoie 300 si le scénario s’est lancé pour la dernière fois il y a 5 min                                  |
-| collectDate(\#[Salle de bain][Hydrometrie][Humidité]\#)     | Renvoie 2015-01-01 17:45:12          |
-| valueDate(\#[Salle de bain][Hydrometrie][Humidité]\#) | Renvoie 2015-01-01 17:50:12          |
-| eqEnable(\#[Aucun][Basilique]\#)       | Renvoie -2 si l’équipement est introuvable, 1 si l’équipement est actif et 0 s’il est inactif          |
-| tag(montag,toto)                   | Renvoie la valeur de "montag" si il existe sinon renvoie la valeur "toto"                               |
-| name(eqLogic,\#[Salle de bain][Hydrometrie][Humidité]\#)     | Renvoie Hydrometrie                  |
+| Durchschnitt (Mitnahmen, Periode)             | Gibt den Durchschnitt von 0 und 1 zurück (can  |
+|                                      | durch Umfragen beeinflusst werden)      |
+| Durchschnitt zwischen (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#, 2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt die durchschnittliche Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                       |
+| min (outlet, Periode)                 | Gibt 0 zurück : Der Stecker wurde während des Zeitraums gelöscht              |
+| minBetween (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#, 2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt die Mindestbestellmenge zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                       |
+| max (Entscheidung, Periode)                 | Rückgabe 1 : Der Stecker war in der Zeit gut beleuchtund              |
+| maxBetween (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#, 2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt das Maximum der Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                       |
+| Dauer (Stecker, 1 Periode)          | Gibt 60 zurück : Der Stecker war in diesem Zeitraum 60 Minuten lang eingeschaltund (beich 1)                              |
+| durationBetween (\.# [Salon] [Take] [State] \.#, 0, letzter Montag, jetzt)   | Gibt die Dauer in Minuten zurück, in der die Steckdose seit dem letzten Montag ausgeschaltund war.                |
+| Statistiken (Fang, Anzahl, Zeitraum)    | Rückgabe 8 : In diesem Zeitraum gab es 8 Eskalationen               |
+| Trend (Stecker, Periode 0.1)        | Gibt -1 zurück : Abwärtstrend    |
+| stateDuration (Stecker)               | Gibt 600 zurück : Der Stecker befindund sich seit 600 Sekunden (10 Minuten) in seinem aktuellen Zustand.                             |
+| lastChangeStateDuration (Fang, 0)   | Gibt 600 zurück : Die Steckdose ist vor 600 Sekunden (10 Minuten) zum letzten Mal ausgefallen (auf 0 geändert)     |
+| lastChangeStateDuration (Fang, 1)   | Gibt 4200 zurück : Die Steckdose wurde vor 4200 Sekunden (1h10) zum letzten Mal eingeschaltund (auf 1 umschalten).                               |
+| lastStateDuration (Fang, 0)         | Gibt 600 zurück : Die Steckdose war 600 Sekunden (10 Minuten) ausgeschaltet.     |
+| lastStateDuration (Fang, 1)         | Gibt 3600 zurück : Die Steckdose wurde zuletzt für 3600 Sekunden (1 Stunde) eingeschaltet.           |
+| stateChanges (Fang, Periode)        | Rückgabe 3 : Der Stecker hat während des Zeitraums dreimal den Zustand geändert            |
+| stateChanges (Fang, 0, Periode)      | Rückgabe 2 : Die Steckdose ist während des Zeitraums zweimal erloschen (auf 0)                              |
+| stateChanges (Fang, 1 Punkt)      | Rückgabe 1 : Der Stecker leuchtund während des Zeitraums einmal (auf 1 ändern)                              |
+| lastBetween (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#, gestern, heute) | Gibt die zuletzt gestern aufgezeichnete Temperatur zurück.                    |
+| Variable (Plopp, 10)                  | Gibt den Wert der Variablen plop oder 10 zurück, wenn sie leer ist oder nicht existiert                         |
+| Szenario (\.# [Badezimmer] [Licht] [Bisuto] \.#) | Gibt 1 in Bearbeitung zurück, 0, wenn gestoppt, und -1, wenn deaktiviert, -2, wenn das Szenario nicht existiert, und -3, wenn der Status nicht konsistent ist                         |
+| lastScenarioExecution (\.# [Badezimmer] [Licht] [Bisuto] \.#)   | Gibt 300 zurück, wenn das Szenario vor 5 Minuten zum letzten Mal gestartund wurde                                  |
+| collectDate (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#)     | Rückgabe 2015-01-01 17:45:12          |
+| valueDate (\.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#) | Rückgabe 2015-01-01 17:50:12          |
+| eqEnable (\.# [Nein] [Basilika] \.#)       | Gibt -2 zurück, wenn das Gerät nicht gefunden wird, 1, wenn das Gerät aktiv ist, und 0, wenn es inaktiv ist          |
+| Etikett (Montag toto)                   | Gibt den Wert von "montag" zurück, falls vorhanden, andernfalls wird der Wert "toto" zurückgegeben"                               |
+| Name (eqLogic, \.# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] \.#)     | Gibt Hydrometrie zurück                  |
 
 
-### Les fonctions mathématiques
+### Mathematische Funktionen
 
-Une boîte à outils de fonctions génériques peut également servir à effectuer des conversions
+Eine generische Funktions-Toolbox kann auch zum Durchführen von Konvertierungen verwendund werden
 
-ou des calculs :
+oder Berechnungen :
 
-- `rand(1,10)` : Donne un nombre aléatoire de 1 à 10.
-- `randText(texte1;texte2;texte…​..)` : Permet de retourner un des textes aléatoirement (séparer les texte par un ; ). Il n’y a pas de limite dans le nombre de texte.
-- `randomColor(min,max)` : Donne une couleur aléatoire comprise entre 2 bornes ( 0 => rouge, 50 => vert, 100 => bleu).
-- `trigger(commande)` : Permet de connaître le déclencheur du scénario ou de savoir si c’est bien la commande passée en paramètre qui a déclenché le scénario.
-- `triggerValue(commande)` : Permet de connaître la valeur du déclencheur du scénario.
-- `round(valeur,[decimal])` : Donne un arrondi au-dessus, [decimal] nombre de décimales après la virgule.
-- `odd(valeur)` : Permet de savoir si un nombre est impair ou non. Renvoie 1 si impair 0 sinon.
-- `median(commande1,commande2…​.commandeN)` : Renvoie la médiane des valeurs.
-- `avg(commande1,commande2…​.commandeN) `: Renvoie la moyenne des valeurs.
-- `time_op(time,value)` : Permet de faire des opérations sur le temps, avec time=temps (ex : 1530) et value=valeur à ajouter ou à soustraire en minutes.
-- `time_between(time,start,end)` : Permet de tester si un temps est entre deux valeurs avec `time=temps` (ex : 1530), `start=temps`, `end=temps`. Les valeurs start et end peuvent être à cheval sur minuit.
-- `time_diff(date1,date2[,format, round])` : Permet de connaître la différence entre deux dates (les dates doivent être au format AAAA/MM/JJ HH:MM:SS). Par défaut, la méthode retourne la différence en jour(s). Vous pouvez lui demander en secondes (s), minutes (m), heures (h). Exemple en secondes `time_diff(2019-02-02 14:55:00,2019-02-25 14:55:00,s)`. La différence est retournée en absolu, sauf si vous spécifiez `f` (sf, mf, hf, df). Vous pouvez aussi utiliser `dhms` qui retournera pas exemple `7j 2h 5min 46s`. Le paramètre round, optionnel, arrondi à x chiffres après la virgule (2 par défaut). Ex: `time_diff(2020-02-21 20:55:28,2020-02-28 23:01:14,df, 4)`.
-- `formatTime(time)` : Permet de formater le retour d’une chaine `#time#`.
-- `floor(time/60)` : Permet de convertir des secondes en minutes, ou des minutes en heures (floor(time/3600) pour des secondes en heures).
-- `convertDuration(secondes)` : Permet de convertir des secondes en j/h/mn/s.
+- Rand (1.10) : Geben Sie eine Zufallszahl von 1 bis 10 an.
+- `randText (text1; text2; text… ..)` : Ermöglicht es Ihnen, einen der Texte zufällig zurückzugeben (trennen Sie die Texte durch a;). Die Anzahl der Texte ist unbegrenzt.
+- `randomColor (min, max)` : Gibt eine zufällige Farbe zwischen 2 Grenzen (0 =&gt; rot, 50 =&gt; grün, 100 =&gt; blau).
+- `Trigger (Befehl)` : Ermöglicht es Ihnen, den Auslöser für das Szenario herauszufinden oder festzustellen, ob der als Parameter übergebene Befehl das Szenario ausgelöst hat.
+- `triggerValue (Befehl)` : Wird verwendet, um den Wert des Szenario-Triggers herauszufinden.
+- `round (Wert, [dezimal])` : Runden oben, [Dezimal] Anzahl der Dezimalstellen nach dem Dezimalpunkt.
+- `ungerade (Wert)` : Lässt Sie wissen, ob eine Zahl ungerade ist oder nicht. Gibt 1 zurück, wenn sonst ungerade 0.
+- `Median (Befehl1, Befehl2….BefehlN) ` : Gibt den Median der Werte zurück.
+- `avg (Befehl1, Befehl2….BefehlN) `: Gibt den Durchschnitt der Werte zurück.
+- `time_op (Zeit, Wert)` : Ermöglicht die pünktliche Ausführung von Operationen mit Zeit = Zeit (z : 1530) und Wert = Wert zum Addieren oder Subtrahieren in Minuten.
+- `time_between (Zeit, Start, Ende)` : Wird verwendet, um zu testen, ob eine Zeit zwischen zweich Werten mit &quot;Zeit = time&quot; liegt (z : 1530), "Start = Zeit", "Ende = Zeit". Start- und Endwerte können sich über Mitternacht erstrecken.
+- `time_diff (date1, date2 [, format, round])` : Wird verwendet, um den Unterschied zwischen zweich Daten zu ermitteln (die Daten müssen das Format JJJJ / MM / TT HH haben:MM:SS). Standardmäßig gibt die Methode die Differenz in Etikett (en) zurück.. Sie können es in Sekunden (s), Minuten (m), Stunden (h) fragen.. Beispiel in Sekunden `time_diff (2019-02-02 14:55:00.2019-02-25 14:55:00,s)`. Die Differenz wird in absoluten Zahlen zurückgegeben, es seich denn, Sie geben &quot;f&quot; an (sf, mf, hf, df).. Sie können auch `dhms` verwenden, das kein Beispiel` 7d 2h 5min 46s` zurückgibt. Der optionale runde Parameter wird nach dem Dezimalpunkt auf x Stellen gerundund (standardmäßig 2).. Ex: `time_diff (2020-02-21 20:55:28,2020-02-28 23:01:14, df, 4) `.
+- `formatTime (Zeit)` : Ermöglicht das Formatieren der Rückgabe einer Zeichenfolge "# Zeit #".
+- `Etage (Zeit / 60)` : Konvertiert Sekunden in Minuten oder Minuten in Stunden (Etage (Zeit / 3600) für Sekunden in Stunden).
+- `convertDuration (Sekunden)` : Konvertiert Sekunden in d / h / min / s.
 
-Et les exemples pratiques :
+Und praktische Beispiele :
 
 
-| Exemple de fonction                  | Résultat retourné                    |
+| Funktionsbeispiel                  | Zurückgegebenes Ergebnis                    |
 |--------------------------------------|--------------------------------------|
-| randText(il fait #[salon][oeil][température]#;La température est de #[salon][oeil][température]#;Actuellement on a #[salon][oeil][température]#) | la fonction retournera un de ces textes aléatoirement à chaque exécution.                           |
-| randomColor(40,60)                 | Retourne une couleur aléatoire  proche du vert.
-| trigger(#[Salle de bain][Hydrometrie][Humidité]#)   | 1 si c’est bien \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# qui a déclenché le scénario sinon 0  |
-| triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 si l’hydrométrie de \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# est de 80 %.                         |
-| round(#[Salle de bain][Hydrometrie][Humidité]# / 10) | Renvoie 9 si le pourcentage d’humidité et 85                     |
-| odd(3)                             | Renvoie 1                            |
-| median(15,25,20)                   | Renvoie 20
-| avg(10,15,18)                      | Renvoie 14.3                     |
-| time_op(#time#, -90)               | s’il est 16h50, renvoie : 1650 - 0130 = 1520                          |
-| formatTime(1650)                   | Renvoie 16h50                        |
-| floor(130/60)                      | Renvoie 2 (minutes si 130s, ou heures si 130m)                      |
-| convertDuration(3600)              | Renvoie 1h 0min 0s                      |
-| convertDuration(duration(#[Chauffage][Module chaudière][Etat]#,1, first day of this month)*60) | Renvoie le temps d'allumage en Jours/Heures/minutes du temps de passage à l'état 1 du module depuis le 1er jour du mois |
+| randText (es ist # [Wohnzimmer] [Bisuge] [Temperatur] #; Die Temperatur ist # [Wohnzimmer] [Bisuge] [Temperatur] #; Derzeit haben wir # [Wohnzimmer] [Bisuge] [Temperatur] #) | Die Funktion gibt beich jeder Ausführung zufällig einen dieser Texte zurück.                           |
+| randomColor (40,60)                 | Gibt eine zufällige Farbe nahe Grün zurück.
+| Auslöser (# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] #)   | 1 wenn es gut ist \.# \. [Badezimmer \.] \. [Hydrometrie \.] \. [Luftfeuchtigkeit \.] \.#, was das Szenario ansonsten gestartund hat 0  |
+| triggerValue (# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] #) | 80, wenn die Hydrometrie von \.# \. [Badezimmer \.] \. [Hydrometrie \.] \. [Luftfeuchtigkeit \.] \.# 80% beträgt.                         |
+| rund (# [Badezimmer] [Hydrometrie] [Luftfeuchtigkeit] # / 10) | Gibt 9 zurück, wenn der Feuchtigkeitsprozentsatz und 85                     |
+| ungerade (3)                             | Rückgabe 1                            |
+| Median (15,25,20)                   | Rückgabe 20
+| avg (10,15,18)                      | Rückgabe 14.3                     |
+| time_op (# Zeit #, -90)               | Wenn es 16:50 Uhr ist, kehren Sie zurück : 1 650-1 130 = 1520                          |
+| FormatZeit (1650)                   | Rückgabe 16:50 Uhr                        |
+| Stock (130/60)                      | Gibt 2 zurück (Minuten beich 130 s oder Stunden beich 130 m)                      |
+| convertDuration (3600)              | Gibt 1h 0min 0s zurück                      |
+| convertDuration (Dauer (# [Heizung] [Kesselmodul] [Zustand] #, 1, erster Etikett dieses Monats) * 60) | Gibt die Zündzeit in Tagen / Stunden / Minuten der Übergangszeit auf Zustand 1 des Moduls seit dem 1. Etikett des Monats zurück |
 
 
-### Les commandes spécifiques
+### Spezifische Bestellungen
 
-En plus des commandes domotiques, vous avez accès aux actions suivantes :
+Zusätzlich zu den Befehlen für die Hausautomation haben Sie Zugriff auf die folgenden Aktionen :
 
-- **Pause** (sleep) : Pause de x seconde(s).
-- **variable** (variable) : Création/modification d’une variable ou de la valeur d’une variable.
-- **Supprimer variable** (delete_variable) : Permet de supprimer une variable.
-- **Scénario** (scenario) : Permet de contrôler des scénarios. La partie tags permet d’envoyer des tags au scénario, ex : montag=2 (attention il ne faut utiliser que des lettre de a à z. Pas de majuscules, pas d’accents et pas de caractères spéciaux). On récupère le tag dans le scénario cible avec la fonction tag(montag). La commande "Remise à zéro des SI" permet de remettre à zéro le statut des "SI" (ce statut est utilisé pour la non répétition des actions d'un "SI" si on passe pour la 2ème fois consécutive dedans)
-- **Stop** (stop) : Arrête le scénario.
-- **Attendre** (wait) : Attend jusqu’à ce que la condition soit valide (maximum 2h), le timeout est en seconde(s).
-- **Aller au design** (gotodesign) : Change le design affiché sur tous les navigateurs par le design demandé.
-- **Ajouter un log** (log) : Permet de rajouter un message dans les logs.
-- **Créer un message** (message) : Permet d’ajouter un message dans le centre de messages.
-- **Activer/Désactiver Masquer/afficher un équipement** (equipement) : Permet de modifier les propriétés d’un équipement visible/invisible, actif/inactif.
-- **Faire une demande** (ask) : Permet d’indiquer à Jeedom qu’il faut poser une question à l’utilisateur. La réponse est stockée dans une variable, il suffit ensuite de tester sa valeur.
-    Pour le moment, seuls les plugins sms, slack, telegram et snips sont compatibles, ainsi que l'application mobile.
-    Attention, cette fonction est bloquante. Tant qu’il n’y a pas de réponse ou que le timeout n’est pas atteint, le scénario attend.
-- **Arrêter Jeedom** (jeedom_poweroff) : Demande à Jeedom de s’éteindre.
-- **Retourner un texte/une donnée** (scenario_return) : Retourne un texte ou une valeur pour une interaction par exemple.
-- **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
-- **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
-- **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
-- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé.
-- **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A du scénario.
-- **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
-- **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).
-- **Coloration des icônes du dashboard** (setColoredIcon) : permet d'activer ou non la coloration des icônes sur le dashboard.
+- **Pause** (Sleep) : Pause von x Sekunde (n).
+- **variable** (Variabel) : Erstellung / Änderung einer Variablen oder des Werts einer Variablen.
+- **Variable entfernen** (Delete_variable) : Ermöglicht das Löschen einer Variablen.
+- **Szenario** (Szenario) : Ermöglicht die Steuerung von Szenarien. Mit dem Tag-Teil können Sie Tags an das Szenario senden, z : montag = 2 (Vorsicht, verwenden Sie nur Buchstaben von a bis z. Keine Großbuchstaben, keine Akzente und keine Sonderzeichen). Wir stellen das Etikett im Zielszenario mit der Tag-Funktion (montag) wieder her.. Mit dem Befehl &quot;Auf SI zurücksetzen&quot; kann der Status von &quot;SI&quot; zurückgesetzt werden (dieser Status wird verwendet, um die Aktionen eines &quot;SI&quot; nicht zu wiederholen, wenn Sie ihn zum zweiten Mal in Folge übergeben).
+- **Stop** (Stop) : Stoppen Sie das Szenario.
+- **Attendre** (WAIT) : Warten Sie, bis die Bedingung gültig ist (maximal 2 Stunden). Die Zeitüberschreitung erfolgt in Sekunden.
+- **Gehe zum Design** (Gotodesign) : Ändern Sie das in allen Browsern angezeigte Design durch das angeforderte Design.
+- **Fügen Sie ein Protokoll hinzu** (Log) : Ermöglicht das Hinzufügen einer Nachricht zu den Protokollen.
+- **Nachricht erstellen** (Message) : Fügen Sie dem Nachrichtencenter eine Nachricht hinzu.
+- **Geräte ausblenden / deaktivieren** (Ausstattung) : Ermöglicht das Ändern der Eigenschaften von sichtbaren / unsichtbaren, aktiven / inaktiven Geräten.
+- **Stellen Sie eine Anfrage** (Ask) : Wird verwendet, um Jeedom anzuzeigen, dass dem Benutzer eine Frage gestellt werden soll. Die Antwort wird in einer Variablen gespeichert, dann müssen Sie nur noch ihren Wert testen.
+    Momentan sind nur SMS-, Slack-, Telegramm- und Snips-Plugins sowie die mobile Anwendung kompatibel.
+    Achtung, diese Funktion blockiert. Solange keine Antwort erfolgt oder das Zeitlimit nicht erreicht wird, wartund das Szenario.
+- **Stoppen Sie Jeedom** (Jeedom_poweroff) : Bitten Sie Jeedom, herunterzufahren.
+- **Geben Sie einen Text / Daten zurück** (Scenario_return) : Gibt beispielsweise einen Text oder einen Wert für eine Interaktion zurück.
+- **Symbol** (Symbol) : Ermöglicht das Ändern des Darstellungssymbols des Szenarios.
+- **Alerte** (Alert) : Zeigt eine kleine Warnmeldung in allen Browsern an, in denen eine Jeedom-Seite geöffnund ist. Sie können zusätzlich 4 Alarmstufen auswählen.
+- **Pop-up** (Popup) : Ermöglicht die Anzeige eines Popups, das in allen Browsern, in denen eine Jeedom-Seite geöffnund ist, unbedingt überprüft werden muss.
+- **Rapport** (Bericht) : Ermöglicht das Exportieren einer Ansicht im Format (PDF, PNG, JPEG oder SVG) und das Senden mit einem Befehl vom Typ Nachricht. Bitte beachten Sie, dass diese Funktionalität nicht funktioniert, wenn sich Ihr Internetzugang in nicht signiertem HTTPS befindet. Signiertes HTTP oder HTTPS ist erforderlich.
+- **Programmierten IN / A-Block löschen** (Remove_inat) : Ermöglicht das Löschen der Programmierung aller IN- und A-Blöcke des Szenarios.
+- **Ereignis** (Ereignis) : Ermöglicht das willkürliche Übertragen eines Werts in einen Befehl vom Typ Information.
+- **Tag** (Tag) : Ermöglicht das Hinzufügen / Ändern eines Tags (das Etikett ist nur während der aktuellen Ausführung des Szenarios vorhanden, im Gegensatz zu den Variablen, die das Ende des Szenarios überleben)..
+- **Färbung von Dashboard-Symbolen** (SetColoredIcon) : Mit dieser Option können Sie die Farbgebung von Symbolen im Dashboard aktivieren oder nicht.
 
-### Template de scénario
+### Szenariovorlage
 
-Cette fonctionnalité permet de transformer un scénario en template pour par exemple l’appliquer sur un autre Jeedom.
+Mit dieser Funktion können Sie ein Szenario in eine Vorlage umwandeln, um es beispielsweise auf ein anderes Jeedom anzuwenden.
 
-En cliquant sur le bouton **template** en haut de page, vous ouvrez la fenêtre de gestion des template.
+Durch Klicken auf die Schaltfläche **template** Oben auf der Seite öffnen Sie das Vorlagenverwaltungsfenster.
 
-A partir de celle-ci, vous avez la possibilité :
+Von dort haben Sie die Möglichkeit :
 
-- D’envoyer un template à Jeedom (fichier JSON préalablement récupéré).
-- De consulter la liste des scénarios disponibles sur le Market.
-- De créer un template à partir du scénario courant (n’oubliez pas de donner un nom).
-- De consulter les templates actuellement présents sur votre Jeedom.
+- Senden Sie eine Vorlage an Jeedom (zuvor wiederhergestellte JSON-Datei).
+- Konsultieren Sie die Liste der auf dem Markt verfügbaren Szenarien.
+- Erstellen Sie eine Vorlage aus dem aktuellen Szenario (vergessen Sie nicht, einen Namen anzugeben)..
+- Um die Vorlagen zu konsultieren, die derzeit auf Ihrem Jeedom vorhanden sind.
 
-En cliquant sur un template, vous pourrez :
+Durch Klicken auf eine Vorlage können Sie :
 
-- **Partager** : Partager le template sur le Market.
-- **Supprimer** : Supprimer le template.
-- **Télécharger** : Récupérer le template sous forme de fichier JSON pour le renvoyer sur un autre Jeedom par exemple.
+- **Partager** : Teilen Sie die Vorlage auf dem Markt.
+- **Supprimer** : Vorlage löschen.
+- **Download** : Holen Sie sich die Vorlage als JSON-Datei, um sie beispielsweise an ein anderes Jeedom zu senden.
 
-En-dessous, vous avez la partie pour appliquer votre template au scénario courant.
+Unten haben Sie den Teil, um Ihre Vorlage auf das aktuelle Szenario anzuwenden.
 
-Etant donné que d’un Jeedom à l’autre ou d’une installation à une autre, les commandes peuvent être différentes, Jeedom vous demande la correspondance des commandes entre celles présentes lors de la création du template et celles présentes chez vous. Il vous suffit de remplir la correspondance des commandes puis de faire appliquer.
+Da die Befehle von einem Jeedom zum anderen oder von einer Installation zur anderen unterschiedlich sein können, bittund Jeedom Sie um die Entsprechung der Befehle zwischen den beich der Erstellung der Vorlage vorhandenen und den zu Hause vorhandenen. Sie müssen nur die Korrespondenz der Bestellungen ausfüllen, um sich zu bewerben.
 
-### Ajout de fonction php
+### Hinzufügung der PHP-Funktion
 
 > **IMPORTANT**
 >
-> L'ajout de fonction PHP est réservé aux utilisateurs avancés. La moindre erreur peut être fatale pour votre Jeedom.
+> Das Hinzufügen der PHP-Funktion ist fortgeschrittenen Benutzern vorbehalten. Der kleinste Fehler kann für Ihr Jeedom fatal sein.
 
-#### Mise en place
+#### Einrichten
 
-Aller dans la configuration de Jeedom, puis OS/DB et lancer l'éditeur de fichier.
+Gehen Sie zur Jeedom-Konfiguration, dann zu OS / DB und starten Sie den Datei-Editor.
 
-Allez dans le dossier data puis php et cliquez sur le fichier user.function.class.php.
+Gehen Sie in den Datenordner und dann in PHP und klicken Sie auf die Dateich user.function.class.php.
 
-C'est dans cette *classe* que vous pouvez ajouter vos fonctions, vous y trouverez un exemple de fonction basique.
+In dieser * Klasse * können Sie Ihre Funktionen hinzufügen. Sie finden ein Beispiel für eine Grundfunktion.
 
 > **IMPORTANT**
 >
-> Si vous avez un souci, vous pouvez toujours revenir au fichier d'origine en copiant le contenu de user.function.class.sample.php dans user.function.class.php
+> Wenn Sie Bedenken haben, können Sie jederzeit zur Originaldateich zurückkehren, indem Sie den Inhalt von user.function.class.sample kopieren.PHP in user.function.class.php

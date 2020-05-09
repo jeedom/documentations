@@ -1,108 +1,108 @@
-La page Profil vous permet de configurer certains comportements de
-Jeedom spécifiques à l’utilisateur : page d’accueil, thème de la
-version desktop, de la version mobile, des graphiques…​ Elle permet
-aussi de changer votre mot de passe.
+A página Perfil permite configurar determinado comportamento de
+Jeedom específico do usuário : página inicial, tema do
+versão desktop, móvel, gráfica ... Permite
+também para mudar sua senha.
 
-Vous la retrouvez en haut à droite en cliquant sur le l’icône bonhomme
-puis Profil (suivi de votre identifiant).
+Você pode encontrá-lo no canto superior direito, clicando no ícone de boneco de neve
+então Perfil (seguido do seu nome de usuário).
 
-Thèmes 
+Temas 
 ======
 
-Le panneau thèmes vous permet de régler des paramètres d’interface :
+O painel de temas permite ajustar os parâmetros da interface :
 
--   **Desktop** : thème à utiliser en mode desktop, attention seul le
-    thème par défaut est officiellement supporté par Jeedom
+-   **Desktop** : tema a ser usado no modo área de trabalho, tenha cuidado apenas com o
+    O tema padrão é oficialmente suportado pelo Jeedom
 
--   **Mobile couleur** : permet de choisir la couleur de l’interface
-    (ici tout est supporté)
+-   **Cor móvel** : permite escolher a cor da interface
+    (aqui tudo é suportado)
 
--   **Graphique Desktop** : permet de définir le thème par défaut des
-    graphiques en mode desktop
+-   **Gráfica desktop** : permite definir o tema padrão para
+    gráficos no modo desktop
 
--   **Graphique Mobile** : permet de définir le thème par défaut des
-    graphiques en mode mobile
+-   **Gráficos móveis** : permite definir o tema padrão para
+    gráficos para celular
 
--   **Opacité par des widgets Dashboard** : permet de donner l’opacité
-    (entre 0 et 1) des widgets sur le dashboard
+-   **Widgets Opacity by Dashboard** : permite dar opacidade
+    (entre 0 e 1) widgets no painel
 
--   **Opacité par des widgets Design** : permet de donner l’opacité
-    (entre 0 et 1) des widgets sur les designs
+-   **Opacidade por widgets de Design** : permite dar opacidade
+    (entre 0 e 1) widgets em designs
 
--   **Opacité par des widgets Vue** : permet de donner l’opacité (entre
-    0 et 1) des widgets sur les vues
+-   **Widgets Opacity by View** : permite dar opacidade (entre
+    0 e 1) widgets nas visualizações
 
--   **Opacité par des widgets Mobile** : permet de donner l’opacité
-    (entre 0 et 1) des widgets en mobile
+-   **Opacidade por widgets para celular** : permite dar opacidade
+    (entre 0 e 1) widgets para celular
 
 Interface 
 ---------
 
-Vous permet de définir certains comportements de l’interface :
+Permite definir certos comportamentos de interface :
 
--   **Général**
+-   **Geral**
 
-    -   **Afficher les menus** : indique à Jeedom d’afficher le panneau
-        de gauche, lorsqu’il existe, pour rappel ce panneau est
-        disponible sur la page de certains plugins​.
+    -   **Menus de exibição** : diga ao Jeedom para exibir o painel
+        esquerda, quando existir, como lembrete, este painel é
+        disponível na página de alguns plugins.
 
--   **Page par défaut** : page par défaut à afficher lors de la
-    connexion en desktop/mobile
+-   **Página padrão** : página padrão a ser exibida quando
+    conexão desktop / móvel
 
--   **Objet par défaut sur le dashboard** : objet à afficher par défaut
-    lors de l’arrivée sur le dashboard/mobile
+-   **Painel padrão Assunto** : objeto de exibição padrão
+    na chegada no painel / móvel
 
--   **Vue par défaut** : vue à afficher par défaut lors de l’arrivée sur
-    le dashboard/mobile
+-   **Modo de exibição padrão** : para exibir por padrão ao chegar em
+    o painel / móvel
 
--   **Design par défaut** : design à afficher par défaut lors de
-    l’arrivée sur le dashboard/mobile
+-   **Projeto padrão** : design para exibir por padrão quando
+    a chegada no painel / celular
 
-    -   **Plein écran** : affichage par défaut en plein écran lors de
-        l’arrivée sur les designs
+    -   **Tela cheia** : exibição padrão em tela cheia quando
+        a chegada dos desenhos
         
 -   **Dashboard**
 
-    -   **Déplier le panneau des objets** : permet de rendre visible par
-        défaut le menu des objets (à gauche) sur le dashboard
+    -   **Desdobrar os objectos de painel** : permite tornar visível por
+        padronize o menu de objetos (à esquerda) no painel
 
 -   **Vue**
 
-    -   **Déplier le panneau des vues** : permet de rendre visible par
-        défaut le menu des vues (à gauche) sur les vues
+    -   **Desdobrar o painel de vista** : permite tornar visível por
+        menu de visualizações padrão (esquerda) nas visualizações
 
-Sécurité 
+Segurança 
 --------
 
--   **Authentification en 2 étapes** : permet de configurer
-    l’authentification en 2 étapes (pour rappel, c’est un code changeant
-    toutes les X secondes qui s’affiche sur une application mobile, type
-    google authentificator). A noter que la double authentification ne sera demandée que pour les connexions externes. Pour les connexions locales le code ne sera donc pas demandé.
+-   **Autenticação em duas etapas** : permite configurar
+    Autenticação em duas etapas (como lembrete, esse é um código alterado
+    exibido a cada X segundos em um aplicativo móvel, digite
+    google authentificator). Observe que a autenticação dupla só será solicitada para conexões externas. Para conexões locais, o código não será solicitado.
 
--   **Mot de passe** : permet de changer votre mot de passe (ne pas
-    oublier de le retaper en dessous)
+-   **Senha** : permite que você altere sua senha (não
+    esqueça de redigitá-lo abaixo)
 
--   **Hash de l’utilisateur** : votre clef API d’utilisateur
+-   **Hash Usuário** : Sua chave de API do usuário
 
-### Sessions actives 
+### Sessões ativas 
 
-Vous avez ici la liste de vos sessions actuellement connectées, leur ID,
-leur IP ainsi que la date de dernière communication. En cliquant sur
-"Déconnecter" cela déconnectera l’utilisateur. Attention si il est sur
-un péripherique enregistré cela supprimera également l’enregistrement.
+Aqui você tem a lista de suas sessões atualmente conectadas, o ID delas,
+seu IP e a data da última comunicação. Ao clicar em
+"Desconectar "isso desconectará o usuário. Atenção se estiver ligado
+um dispositivo registrado, isso também excluirá a gravação.
 
-### Péripheriques enregistrés 
+### Dispositivos registrados 
 
-Vous retrouvez ici la liste de tous les péripheriques enregistrés (qui se
-connectent sans authentification) à votre Jeedom ainsi que la date de
-dernière utilisation. Vous pouvez ici supprimer l’enregistrement d’un
-périphérique. Attention cela ne le déconnecte pas mais empêchera juste
-sa reconnection automatique.
+Aqui você encontra a lista de todos os dispositivos registrados (que são
+logon sem autenticação) ao seu Jeedom e à data de
+usado pela última vez. Aqui você pode excluir a gravação de um
+periférico. Atenção, ele não desconecta, mas apenas impede
+sua reconexão automática.
 
-Notifications 
+Notificações 
 -------------
 
--   **Commande de notification utilisateur** : Commande par défaut pour
-    vous joindre (commande de type message)
+-   **Comando de notificação do usuário** : Comando padrão para
+    se juntar a você (comando do tipo de mensagem)
 
 

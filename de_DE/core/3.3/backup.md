@@ -1,137 +1,137 @@
-Jeedom a la possibilité d’être sauvegardé et restauré depuis ou à partir
-de différents emplacements.
+Jeedom hat die Möglichkeit, von oder von gerettet und wiederhergestellt zu werden
+von verschiedenen Orten.
 
-Configuration 
+Konfiguration 
 =============
 
-Accessible depuis **Administration → Sauvegardes**, cette page permet la
-gestion des sauvegardes.
+Zugänglich von **Administration → Backups**, Diese Seite ermöglicht die
+Backup-Management.
 
-Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la
-droite, c’est le statut en temps réel de l’action en cours (sauvegarde
-ou restauration), si vous en avez lancé une.
+Links finden Sie die Parameter und Aktionsschaltflächen. Auf dem
+Richtig, dies ist der Echtzeitstatus der aktuellen Aktion (Sicherung)
+oder Wiederherstellung), wenn Sie eine gestartet haben.
 
 **Sauvegardes** 
 ---------------
 
--   **Sauvegardes** : Permet de lancer une sauvegarde manuellement et
-    immédiatement (utile si vous voulez faire un changement critique.
-    Cela vous permettra de revenir en arrière). Vous avez aussi un
-    bouton pour lancer une sauvegarde sans envoyer l’archive sur le
-    cloud (nécessite un abonnement voir plus bas). L’envoi d’une
-    sauvegarde sur le cloud peut prendre un certain temps. Cette option
-    permet donc d’éviter une perte de temps trop importante.
+-   **Sauvegardes** : Ermöglicht das manuelle Starten einer Sicherung und
+    sofort (nützlich, wenn Sie eine kritische Änderung vornehmen möchten.
+    Dies ermöglicht es Ihnen, zurück zu gehen). Sie haben auch eine
+    Schaltfläche, um eine Sicherung zu starten, ohne das Archiv an das zu senden
+    Cloud (erfordert Abonnement siehe unten). Senden eines
+    Cloud-Backup kann eine Weile dauern. Diese Option
+    So wird ein übermäßiger Zeitverlust vermieden.
 
--   **Emplacement des sauvegardes** : Indique le dossier dans lequel
-    Jeedom copie les sauvegardes. Il est recommandé de ne pas
-    le changer. Si vous êtes en chemin relatif, son origine est
-    l’endroit où Jeedom est installé.
+-   **Sicherungsspeicherort** : Gibt den Ordner an, in dem
+    Jeedom kopiert Backups. Es wird empfohlen, dies nicht zu tun
+    ändere es. Wenn Sie sich auf einem relativen Pfad befinden, ist sein Ursprung
+    wo Jeedom installiert ist.
 
--   **Nombre de jour(s) de mémorisation des sauvegardes** : Nombre de
-    jours de sauvegarde à garder. Une fois ce délai passé, les
-    sauvegardes seront supprimées. Attention de ne pas mettre un nombre
-    de jours trop élevé, sinon votre système de fichiers peut
-    être saturé.
+-   **Anzahl der Tage, an denen Backups gespeichert werden** : Anzahl der
+    Backup-Tage zu halten. Nach Ablauf dieser Frist wird die
+    Backups werden gelöscht. Achten Sie darauf, keine Nummer einzugeben
+    Tage zu hoch, sonst kann Ihr Dateisystem
+    gesättigt sein.
 
--   **Taille totale maximale des sauvegardes (Mo)** : Permet de limiter
-    la place prise par l’ensemble des sauvegardes dans le dossier
-    de sauvegarde. Si cette valeur est dépassée, Jeedom va supprimer les
-    sauvegardes les plus vieilles jusqu’à retomber en-dessous de la
-    taille maximale. Il gardera cependant au moins une sauvegarde.
+-   **Maximale Gesamtgröße der Sicherungen (MB)** : Ermöglicht das Begrenzen
+    Der Platz, den alle Sicherungen im Ordner einnehmen
+    Backup. Wenn dieser Wert überschritten wird, löscht Jeedom das
+    älteste Backups bis unter die
+    maximale Größe. Es wird jedoch mindestens eine Sicherung gespeichert.
 
-**Sauvegardes Locales** 
+**Lokale Backups** 
 -----------------------
 
--   **Sauvegardes disponibles** : Liste des sauvegardes disponibles.
+-   **Verfügbare Backups** : Liste der verfügbaren Backups.
 
--   **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde
-    sélectionnée au-dessus.
+-   **Backup wiederherstellen** : Startet die Wiederherstellung der Sicherung
+    oben ausgewählt.
 
--   **Supprimer la sauvegarde** : Supprime la sauvegarde sélectionnée
-    au-dessus, uniquement dans le dossier local.
+-   **Backup löschen** : Ausgewählte Sicherung löschen
+    oben nur im lokalen Ordner.
 
--   **Envoyer une sauvegarde** : Permet d’envoyer dans le dossier des
-    sauvegardes une archive se trouvant sur l’ordinateur que l’on
-    utilise actuellement (permet par exemple de restaurer une archive
-    précédemment récupérée sur un nouveau Jeedom ou une réinstallation).
+-   **Senden Sie ein Backup** : Ermöglicht das Senden an die
+    Speichern Sie ein Archiv auf dem Computer, den Sie
+    Wird derzeit verwendet (ermöglicht beispielsweise das Wiederherstellen eines Archivs
+    zuvor bei einem neuen Jeedom oder einer Neuinstallation wiederhergestellt).
 
--   **Télécharger la sauvegarde** : Permet de télécharger sur votre
-    ordinateur l’archive de la sauvegarde sélectionnée au-dessus.
+-   **Backup herunterladen** : Lass uns auf deine herunterladen
+    Computer das oben ausgewählte Backup-Archiv.
 
-**Sauvegardes Market** 
+**Marktsicherungen** 
 ----------------------
 
--   **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les
-    sauvegardes sur le cloud du Market, attention il faut avoir
-    pris l’abonnement.
+-   **Senden von Backups** : Weist Jeedom an, das zu senden
+    Backups in der Markt Cloud, Vorsicht, Sie müssen haben
+    habe das Abonnement bekommen.
 
--   **Envoyer une sauvegarde** : Permet d’envoyer sur le cloud une
-    archive de sauvegarde située sur votre ordinateur.
+-   **Senden Sie ein Backup** : Ermöglicht das Senden eines
+    Sicherungsarchiv auf Ihrem Computer.
 
--   **Sauvegardes disponibles** : Liste des sauvegardes
-    cloud disponibles.
+-   **Verfügbare Backups** : Liste der Backups
+    Cloud verfügbar.
 
--   **Restaurer la sauvegarde** : Lance la restauration d’une
-    sauvegarde cloud.
+-   **Backup wiederherstellen** : Startet die Wiederherstellung von a
+    Cloud-Backup.
 
-**Sauvegardes Samba** 
+**Samba-Backups** 
 ---------------------
 
--   **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les
-    sauvegardes sur le partage samba configuré ici
-    Administration→Configuration→Onglet Mises à jour.
+-   **Senden von Backups** : Weist Jeedom an, das zu senden
+    Backups auf der hier konfigurierten Samba-Freigabe
+    Administration → Konfiguration → Registerkarte Updates.
 
--   **Sauvegardes disponibles** : Liste des sauvegardes
-    samba disponibles.
+-   **Verfügbare Backups** : Liste der Backups
+    Samba verfügbar.
 
--   **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde
-    samba sélectionnée au-dessus.
+-   **Backup wiederherstellen** : Startet die Wiederherstellung der Sicherung
+    Samba oben ausgewählt.
 
 > **IMPORTANT**
 >
-> Les backups de jeedom doivent absolument tomber dans un dossier que pour lui !!! Il supprimera tous ce qui n'est pas un backup jeedom du dossier
+> Jeedom-Backups dürfen nur für ihn in einen Ordner fallen !!! Es wird alles, was kein Jeedom-Backup ist, aus dem Ordner gelöscht
 
 
-Qu’est-ce qui est sauvegardé ? 
+Was ist gespeichert ? 
 ==============================
 
-Lors d’une sauvegarde, Jeedom va sauvegarder tous ses fichiers et la
-base de données. Cela contient donc toute votre configuration
-(équipements, commandes, historiques, scénarios, design, etc.).
+Während einer Sicherung sichert Jeedom alle seine Dateien und die
+Datenbank. Dies enthält daher Ihre gesamte Konfiguration
+(Ausrüstung, Bestellungen, Geschichte, Szenarien, Design usw.).
 
-Au niveau des protocoles, seul le Z-Wave (OpenZwave) est un peu
-différent car il n’est pas possible de sauvegarder les inclusions.
-Celles-ci sont directement incluses dans le contrôleur, il faut donc
-garder le même contrôleur pour retrouver ses modules Zwave.
+In Bezug auf Protokolle ist nur die Z-Wave (OpenZwave) ein bisschen
+anders, weil es nicht möglich ist, die Einschlüsse zu speichern.
+Diese sind direkt im Controller enthalten, also müssen Sie
+Behalten Sie den gleichen Controller bei, um die Zwave-Module zu finden.
 
 > **Note**
 >
-> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si
-> vous avez modifié des paramètres de ce système (notamment via SSH),
-> c’est à vous de trouver un moyen de les récupérer en cas de soucis.
+> Das System, auf dem Jeedom installiert ist, wird nicht gesichert. wenn
+> Sie haben die Parameter dieses Systems geändert (insbesondere über SSH).,
+> Es liegt an Ihnen, einen Weg zu finden, um sie bei Problemen wiederherzustellen.
 
-Sauvegarde cloud 
+Cloud-Backup 
 ================
 
-La sauvegarde dans le cloud permet à Jeedom d’envoyer vos sauvegardes
-directement sur le Market. Cela vous permet de les restaurer facilement
-et d’être sûr de ne pas les perdre. Le Market conserve les 6 dernières
-sauvegardes. Pour vous abonner il suffit d’aller sur votre page
-**profil** sur le Market, puis, dans l’onglet **mes backups**. Vous
-pouvez, à partir de cette page, récupérer une sauvegarde ou acheter un
-abonnement (pour 1, 3, 6 ou 12 mois).
+Mit Cloud-Backups kann Jeedom Ihre Backups senden
+direkt auf dem Markt. Auf diese Weise können Sie sie einfach wiederherstellen
+und seien Sie sicher, sie nicht zu verlieren. Der Markt behält die letzten 6
+Backups. Um sich anzumelden, gehen Sie einfach auf Ihre Seite
+**profil** auf dem Markt, dann in der Registerkarte **meine Backups**. Vous
+kann auf dieser Seite ein Backup abrufen oder ein kaufen
+Abonnement (für 1, 3, 6 oder 12 Monate).
 
 > **Tip**
 >
-> Vous pouvez personnaliser le nom des fichiers de sauvegarde à partir
-> de l’onglet **Mes Jeedoms**, en évitant toutefois les caractères
-> exotiques.
+> Sie können den Namen der Sicherungsdateien von anpassen
+> der Registerkarte **Meine Jeedoms**, Vermeiden Sie jedoch die Zeichen
+> exotisch.
 
-Fréquence des sauvegardes automatiques 
+Häufigkeit der automatischen Sicherungen 
 ======================================
 
-Jeedom effectue une sauvegarde automatique tous les jours à la même
-heure. Il est possible de modifier celle-ci, à partir du "Moteur de
-tâches" (la tâche est nommée **Jeedom backup**), mais ce n’est pas
-recommandé. En effet, elle est calculée par rapport à la charge du
+Jeedom führt jeden Tag zur gleichen Zeit eine automatische Sicherung durch
+Stunde. Es ist möglich, dies über die &quot;Engine&quot; zu ändern
+Aufgaben &quot;(die Aufgabe heißt **Jeedom Backup**), aber es ist nicht
+empfohlen. In der Tat wird es in Bezug auf die Last der berechnet
 Market.

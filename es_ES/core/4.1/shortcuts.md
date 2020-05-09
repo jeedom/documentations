@@ -1,105 +1,105 @@
-# Jeedom V4 - Raccourcis clavier / souris
+# Jeedom V4 - Atajos de teclado / mouse
 
-## Général
+## General
 
-A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
+Al abrir una página (Panel, Escenarios, etc.) el foco está en el campo de búsqueda. Por lo tanto, puede escribir directamente una búsqueda sin más acciones.
 
-- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
-- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
-- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
-- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
+- Haga clic en el reloj (barra de menú) : Abre la línea de tiempo.
+- Haga clic en el nombre de Jeedom (barra de menú)  : Abre **Preferencias → Sistema → Configuración**.
+- Haga clic en ?  (barra de menú)  : Abre la ayuda en la página actual..
+- Escapar en un campo de investigación : Vaciar el campo de búsqueda y cancelarlo..
 
 ## Dashboard
-En mode édition:
-	- Drag n Drop sur les tuiles pour les réarranger.
-	- Resize sur les bordures de tuile pour les redimensionner.
-	- Menu contextuel (Clic droit) sur les tuiles.
-	- Ctrl Clic sur une icône *expand* : Ajuste la hauteur des tuiles de l'objet non pas par rapport à la plus haute, mais par rapport à la moins haute.
+En modo edición:
+	- Arrastra y suelta en los mosaicos para reorganizarlos.
+	- Cambiar el tamaño de los bordes del mosaico para cambiar su tamaño.
+	- Menú contextual (clic derecho) en los mosaicos.
+	- Ctrl Haga clic en un ícono *expand* : Ajusta la altura de los mosaicos del objeto no en relación con el más alto, sino en relación con el más bajo.
 
-- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
+- Ctrl Haga clic en un comando de información : Abre toda la información del historial del mosaico en la ventana del historial..
 
-## Réglages / Système / Configuration
-- Ctrl S : Sauvegarder.
+## Configuraciones / Sistema / Configuración
+- Ctrl S : Guardar.
 
-## Réglages / Système / Sauvegardes
-- Ctrl S : Sauvegarder.
+## Configuración / Sistema / Copias de seguridad
+- Ctrl S : Guardar.
 
-## Réglages / Système / Moteur de tâches
-- Ctrl S : Sauvegarder.
+## Configuración / Sistema / Motor de tareas
+- Ctrl S : Guardar.
 
-## Réglages / Système / Utilisateurs
-- Ctrl S : Sauvegarder.
+## Configuraciones / Sistema / Usuarios
+- Ctrl S : Guardar.
 
-## Réglages / Préférences
-- Ctrl S : Sauvegarder.
+## Configuraciones / Preferencias
+- Ctrl S : Guardar.
 
-## Outils / Interactions
-- Sur une interaction, Ctrl S : Sauvegarder.
-- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
-- Ctrl Clic ou Clic Centre sur une interaction ou dans le menu contextuel : Ouvre l'interaction dans un nouvel onglet du navigateur.
+## Herramientas / interacciones
+- En una interacción, Ctrl S : Guardar.
+- En una interacción, haga clic derecho en una pestaña : Menú contextual para ir directamente a otra interacción.
+- Ctrl Click o Center Click en una interacción o en el menú contextual : Abra la interacción en una nueva pestaña del navegador.
 
-## Outils / Objets
-- Sur un objet, Ctrl S : Sauvegarder.
-- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
-- Ctrl Clic ou Clic Centre sur un objet ou dans le menu contextuel : Ouvre l'objet dans un nouvel onglet du navigateur.
+## Herramientas / Objetos
+- En un objeto, Ctrl S : Guardar.
+- En un objeto, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro objeto..
+- Ctrl Click o Center Click en un objeto o en el menú contextual : Abra el objeto en una nueva pestaña del navegador.
 
-## Outils / Widgets
-- Sur un widget, Ctrl S : Sauvegarder.
-- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
-- Ctrl Clic ou Clic Centre sur un widget ou dans le menu contextuel : Ouvre le widget dans un nouvel onglet du navigateur.
+## Herramientas / widgets
+- En un widget, Ctrl S : Guardar.
+- En un widget, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro widget.
+- Ctrl Click o Click Center en un widget o en el menú contextual : Abra el widget en una nueva pestaña del navegador.
 
-## Outils / Scénarios
-- Ctrl Clic ou Clic Centre sur un scénario ou dans le menu contextuel : Ouvre le scénario dans un nouvel onglet du navigateur.
+## Herramientas / escenarios
+- Ctrl Click o Center Click en un escenario o en el menú contextual : Abra el escenario en una nueva pestaña del navegador.
 
-Sur un scénario :
-- Ctrl S : Sauvegarder.
-- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
-- Ctrl L : Affichage du log.
-- Ctrl Shift Z : Annuler.
-- Ctrl Shift Y : Refaire.
+En un escenario :
+- Ctrl S : Guardar.
+- Haga clic derecho en una pestaña : Menú contextual para ir directamente a otro escenario.
+- Ctrl L : Pantalla de registro.
+- Ctrl Shift Z : Anular.
+- Ctrl Shift Y : Nueva versión.
 
-- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
-- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
-- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
-- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
-- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
+- Ctrl Haga clic en Ejecutar : Guarde y ejecute el escenario, luego abra el registro.
+- Ctrl Haga clic en el icono *Copia este bloque* : Cortar este bloque.
+- Ctrl Haga clic en el icono *Pegar un bloque* : Reemplace este bloque.
+- Ctrl Haga clic en el icono *Eliminar este bloque* : Eliminar bloque sin confirmación.
+- Ctrl Haga clic en el icono *Ocultar este bloque* : Ocultar o mostrar todos los bloques.
 
-Dans un bloc Code :
-- Ctrl F : Rechercher dans le code.
-- Ctrl G : Occurrence suivante de la recherche.
+En un bloque de código :
+- Ctrl F : Busca en el código.
+- Ctrl G : Siguiente búsqueda.
 
-## Plugins / Gestion des plugins
-- Ctrl S sur une configuration de plugin : Sauvegarder.
-- Ctrl Clic ou Clic Centre sur un plugin : Ouvre la gestion du plugin dans un nouvel onglet du navigateur.
+## Complementos / Gestión de complementos
+- Ctrl S en una configuración de complemento : Guardar.
+- Ctrl Click o Click Center en un complemento : Abra la administración de complementos en una nueva pestaña del navegador.
 
-## Plugins / *plugin*
-- Sur un équipement, Ctrl S  : Sauvegarder.
-- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
-- Ctrl Clic ou Clic Centre sur un équipement: Ouvre l'équipement du plugin dans un nouvel onglet du navigateur.
+## Complementos / *plugin*
+- En un dispositivo, Ctrl S  : Guardar.
+- En un dispositivo, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro dispositivo.
+- Ctrl Click o Center Click en un dispositivo: Abra el equipo del complemento en una nueva pestaña del navegador.
 
-## Accueil / Vue
-- Ctrl S sur l'édition d'une vue : Sauvegarder.
+## Inicio / Ver
+- Ctrl S al editar una vista : Guardar.
 
-## Accueil / Design
-- Ctrl S sur un design : Sauvegarder.
-- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
+## Inicio / Diseño
+- Ctrl S en un diseño : Guardar.
+- Ctrl Shift E en un diseño : Entrar o salir del modo de edición.
 
-## Analyse / Résumé domotique
-- Ctrl Clic sur icône *Ouvrir* (recherche) : Ouvre tous les objets et tous les équipements.
-- Ctrl Clic sur icône *Fermer* (recherche) : Ferme tous les objets et tous les équipements.
+## Análisis / resumen de domótica
+- Ctrl Haga clic en el icono *Ouvrir* (investigación) : Abra todos los objetos y equipos..
+- Ctrl Haga clic en el icono *Fermer* (investigación) : Cierra todos los objetos y equipos..
 
-## Analyse / Historique
-Si plusieurs courbes sont affichées :
-- Ctrl Clic sur une légende : Afficher seulement cet historique.
-- Alt Clic sur une légende : Afficher tous les historiques.
+## Análisis / Historia
+Si se muestran varias curvas :
+- Ctrl Haga clic en una leyenda : Mostrar solo esta historia.
+- Alt Haga clic en una leyenda : Mostrar toda la historia.
 
-## Fenêtre Historique
-Si plusieurs courbes sont affichées :
-- Ctrl Clic sur une légende : Afficher seulement cet historique.
-- Alt Clic sur une légende : Afficher tous les historiques.
+## Ventana de historia
+Si se muestran varias curvas :
+- Ctrl Haga clic en una leyenda : Mostrar solo esta historia.
+- Alt Haga clic en una leyenda : Mostrar toda la historia.
 
-## Fenêtre Configuration de l’équipement
-- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.
+## Ventana de configuración del equipo
+- Ctrl Haga clic en Guardar : Guardar y cerrar ventana.
 
-## Fenêtre Configuration de commande
-- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.
+## Ventana de configuración de comandos
+- Ctrl Haga clic en Guardar : Guardar y cerrar ventana.

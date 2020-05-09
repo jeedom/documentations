@@ -1,79 +1,79 @@
-# Jeedom V4 - Raccourcis clavier / souris
+# Jeedom V4 - Atajos de teclado / mouse
 
-## Général
+## Principal
 
-A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
+Al abrir una página (Panel, Escenarios, etc.) el foco está en el campo de búsqueda. Por lo tanto, puede escribir directamente una búsqueda sin más acciones.
 
-- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
-- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
-- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
-- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
+- Haga clic en el reloj (barra de menú) : Abre la línea de tiempo.
+- Haga clic en el nombre de Jeedom (barra de menú)  : Abre **Preferencias → Sistema → Configuración**.
+- Haga clic en ?  (barra de menú)  : Abre la ayuda en la página actual..
+- Escapar en un campo de investigación : Vaciar el campo de búsqueda y cancelarlo..
 
 ## Dashboard
-En mode édition:
-	- Drag n Drop sur les tuiles pour les réarranger.
-	- Resize sur les bordures de tuile pour les redimensionner.
-	- Menu contextuel (Clic droit) sur les tuiles.
+En modo edición:
+	- Arrastra y suelta en los mosaicos para reorganizarlos.
+	- Cambiar el tamaño de los bordes del mosaico para cambiar su tamaño.
+	- Menú contextual (clic derecho) en los mosaicos.
 
-- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
+- Ctrl Haga clic en un comando de información : Abre toda la información del historial del mosaico en la ventana del historial..
 
-## Réglages / Système / Configuration
-- Ctrl S : Sauvegarder.
+## Configuraciones / Sistema / Configuración
+- Ctrl S : Guardar.
 
-## Réglages / Système / Sauvegardes
-- Ctrl S : Sauvegarder.
+## Configuración / Sistema / Copias de seguridad
+- Ctrl S : Guardar.
 
-## Réglages / Système / Moteur de tâches
-- Ctrl S : Sauvegarder.
+## Configuración / Sistema / Motor de tareas
+- Ctrl S : Guardar.
 
-## Réglages / Système / Utilisateurs
-- Ctrl S : Sauvegarder.
+## Configuraciones / Sistema / Usuarios
+- Ctrl S : Guardar.
 
-## Réglages / Préférences
-- Ctrl S : Sauvegarder.
+## Configuraciones / Preferencias
+- Ctrl S : Guardar.
 
-## Outils / Interactions
-- Sur une interaction, Ctrl S : Sauvegarder.
-- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
+## Herramientas / interacciones
+- En una interacción, Ctrl S : Guardar.
+- En una interacción, haga clic derecho en una pestaña : Menú contextual para ir directamente a otra interacción.
 
-## Outils / Objets
-- Sur un objet, Ctrl S : Sauvegarder.
-- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
+## Herramientas / Objetos
+- En un objeto, Ctrl S : Guardar.
+- En un objeto, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro objeto..
 
-## Outils / Widgets
-- Sur un widget, Ctrl S : Sauvegarder.
-- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
+## Herramientas / widgets
+- En un widget, Ctrl S : Guardar.
+- En un widget, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro widget.
 
-## Outils / Scénarios
-Sur un scénario :
-- Ctrl S : Sauvegarder.
-- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
-- Ctrl L : Affichage du log.
-- Ctrl Shift Z : Annuler.
-- Ctrl Shift Y : Refaire.
+## Herramientas / escenarios
+En un escenario :
+- Ctrl S : Guardar.
+- Haga clic derecho en una pestaña : Menú contextual para ir directamente a otro escenario.
+- Ctrl L : Pantalla de registro.
+- Ctrl Shift Z : Cancelar.
+- Ctrl Shift Y : Nueva versión.
 
-- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
-- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
-- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
-- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
-- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
+- Ctrl Haga clic en Ejecutar : Guarde y ejecute el escenario, luego abra el registro.
+- Ctrl Haga clic en el icono * Copie este bloque* : Cortar este bloque.
+- Ctrl Haga clic en el icono * Pegar un bloque* : Reemplace este bloque.
+- Ctrl Haga clic en el icono * Eliminar este bloque* : Eliminar bloque sin confirmación.
+- Ctrl Haga clic en el icono * Ocultar este bloque* : Ocultar o mostrar todos los bloques.
 
-Dans un bloc Code :
-- Ctrl F : Rechercher dans le code.
-- Ctrl G : Occurrence suivante de la recherche.
+En un bloque de código :
+- Ctrl F : Busca en el código.
+- Ctrl G : Siguiente búsqueda.
 
-## Plugins / Gestion des plugins
-- Ctrl S sur une configuration de plugin : Sauvegarder.
+## Complementos / Gestión de complementos
+- Ctrl S en una configuración de complemento : Guardar.
 
-## Plugins / *plugin*
-- Sur un équipement, Ctrl S  : Sauvegarder.
-- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
+## Complementos / * complemento*
+- En un dispositivo, Ctrl S  : Guardar.
+- En un dispositivo, haga clic derecho en una pestaña : Menú contextual para ir directamente a otro dispositivo.
 
-## Accueil / Vue
-- Ctrl S sur l'édition d'une vue : Sauvegarder.
+## Inicio / Ver
+- Ctrl S al editar una vista : Guardar.
 
-## Accueil / Design
-- Ctrl S sur un design : Sauvegarder.
-- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
+## Inicio / Diseño
+- Ctrl S en un diseño : Guardar.
+- Ctrl Shift E en un diseño : Entrar o salir del modo de edición.
 
 

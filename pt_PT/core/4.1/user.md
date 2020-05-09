@@ -1,57 +1,57 @@
 # Utilisateurs
-**Réglages → Système → Utilisateurs**
+**Configurações → Sistema → Usuários**
 
-Cette page permet de définir la liste des utilisateurs autorisés à se connecter à Jeedom, ainsi que leurs droits administrateur.
+Esta página permite definir a lista de usuários autorizados a se conectar ao Jeedom, bem como seus direitos de administrador..
 
-Sur la page vous avez trois boutons :
+Na página você tem três botões :
 
-- Ajouter un utilisateur.
-- Sauvegarder.
-- Ouvrir un accès au support.
+- Adicionar Usuário.
+- Salvar.
+- Acesso aberto ao suporte.
 
-## Liste des utilisateurs
+## Lista de usuários
 
-- **Nom d’utilisateur** : Identifiant de l’utilisateur.
-- **Actif** : Permet de désactiver le compte sans le supprimer.
-- **Local** : Autorise la connexion de l’utilisateur uniquement s’il est sur le réseau local de Jeedom.
-- **Profil** : Permet de choisir le profil de l’utilisateur :
-    - **Administrateur** : L’utilisateur obtient tous les droits (édition / consultation) sur Jeedom.
-    - **Utilisateur** : L’utilisateur peut voir le Dashboard, les vues, les designs, etc. et agir sur les équipements/commandes. En revanche, il n’aura pas accès à la configuration des commandes/équipements ni à la configuration de Jeedom.
-    - **Utilisateur limité** : L’utilisateur ne voit que les équipements autorisés (configurable avec le bouton "Droits").
-- **Clef API** : Clef API personnelle de l’utilisateur.
-- **Double authentification** : Indique si la double authentification est active (OK) ou non (NOK).
-- **Date de dernière connexion** : Date de la dernière connexion de l’utilisateur. Attention, ici c’est la date de connexion réelle, ainsi si vous enregistrez votre ordinateur, la date de connexion n’est pas mise à jour à chaque fois que vous y retournez.
-- **Droits** : Permet de modifier les droits de l'utilisateur.
-- **Mot de passe** : Permet de changer le mot de passe de l’utilisateur.
-- **Supprimer** : Permet de supprimer l’utilisateur.
-- **Régénérer clef API** : Régénère la clef API de l’utilisateur.
-- **Gérer les droits** : Permet de gérer finement les droits de l’utilisateur (attention le profil doit être en "utilisateur limité").
+- **Nome de Usuário** : ID do usuário.
+- **Actif** : Permite desativar a conta sem excluí-la.
+- **Local** : Permite a conexão do usuário apenas se ele estiver na rede local Jeedom.
+- **Profil** : Permite escolher o perfil do usuário :
+    - **Administrateur** : O usuário obtém todos os direitos (edição / consulta) no Jeedom.
+    - **Utilisateur** : O usuário pode ver Painel, visualizações, designs etc.. e atuar em equipamentos / controles. No entanto, ele não terá acesso à configuração dos controles / equipamentos nem à configuração do Jeedom.
+    - **Usuário limitado** : O usuário vê apenas o equipamento autorizado (configurável com o botão "Direitos").
+- **Chave de API** : Chave de API pessoal do usuário.
+- **Autenticação dupla** : Indica se a autenticação dupla está ativa (OK) ou não (NOK).
+- **Data da última conexão** : Data do último login do usuário. Observe que esta é a data real da conexão; portanto, se você salvar seu computador, a data da conexão não será atualizada sempre que você retornar.
+- **Droits** : Modificar direitos de usuário.
+- **Senha** : Permite alterar a senha do usuário.
+- **Supprimer** : Remover usuário.
+- **Regenerar chave de API** : Regenerar chave de API do usuário.
+- **Gerenciar direitos** : Permite gerenciar com precisão os direitos do usuário (observe que o perfil deve ser "usuário limitado").
 
-## Gestion des droits
+## Gerenciamento de direitos
 
-Lors du clic sur "Droits" une fenêtre apparaît et vous permet de gérer finement les droits de l’utilisateur. Le premier onglet affiche les différents équipements. Le deuxième présente les scénarios.
+Ao clicar em "Direitos", uma janela é exibida, permitindo que você gerencie os direitos do usuário com precisão. A primeira guia exibe os diferentes equipamentos. O segundo apresenta os cenários.
 
 > **Important**
 >
-> Le profil doit être en limité sinon aucune restriction mise ici ne sera prise en compte.
+> O perfil deve ser limitado, caso contrário, nenhuma restrição colocada aqui será levada em consideração.
 
-Vous obtenez un tableau qui permet, pour chaque équipement et chaque scénario, de définir les droits de l’utilisateur :
-- **Aucun** : l’utilisateur ne voit pas l’équipement/scénario.
-- **Visualisation** : l’utilisateur voit l’équipement/scénario mais ne peut pas agir dessus.
-- **Visualisation et exécution** : l’utilisateur voit l’équipement/scénario et peut agir dessus (allumer une lampe, lancer le scénario, etc).
+Você obtém uma tabela que permite, para cada dispositivo e cada cenário, definir os direitos do usuário. :
+- **Aucun** : o usuário não vê o equipamento / cenário.
+- **Visualisation** : o usuário vê o equipamento / cenário, mas não pode agir sobre ele.
+- **Visualização e execução** : o usuário vê o equipamento / cenário e pode agir sobre ele (acender uma lâmpada, iniciar o cenário etc.).
 
-## Session(s) active(s)
+## Sessão (s) ativa (s)
 
-Affiche les sessions de navigateur active sur votre Jeedom, avec les informations utilisateur, son IP et depuis quand. Vous pouvez déconnecter l'utilisateur à l'aide du bouton **Déconnecter**.
+Exibe as sessões do navegador ativas no seu Jeedom, com informações do usuário, seu IP e desde quando. Você pode desconectar o usuário usando o botão **Desligar**.
 
-## Périphérique(s) enregistré(s)
+## Dispositivo (s) registrado (s)
 
-Liste les périphériques (ordinateurs, mobiles etc) qui on enregistré leur authentification sur votre Jeedom.
-Vous pouvez voir quel utilisateur, son IP, à quelle date, et supprimer l'enregistrement de ce périphérique.
+Liste os periféricos (computadores, celulares etc.) que registraram sua autenticação no seu Jeedom.
+Você pode ver qual usuário, seu IP, quando e excluir o registro deste dispositivo.
 
 > **Note**
 >
-> Un même utilisateur peut avoir enregistré différents périphériques. Par exemple, son ordinateur de bureau, son ordinateur portable, son mobile, etc.
+> O mesmo usuário pode ter registrado dispositivos diferentes. Por exemplo, seu computador desktop, laptop, celular etc..
 
 
 

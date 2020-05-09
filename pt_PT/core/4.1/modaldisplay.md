@@ -1,9 +1,9 @@
 # ModalDisplay
 
-La page **ModalDisplay** est un simple container permettant de charger le contenu d'une fenêtre (*modal* ou *dialog*) en pleine page.
+A página **ModalDisplay** é um contêiner simples para carregar o conteúdo de uma janela (*modal* onde *dialog*) página inteira.
 
-Elle est notamment utilisée dans les cas suivants:
-- Menu Analyse : Ctrl Clic / Clic Centre sur *Temps réel*
-- Menu Outils : Ctrl Clic / Clic Centre sur *Notes*, *Testeur expression*, *Variables*
+É utilizado em particular nos seguintes casos:
+- Menu Análise : Ctrl Clique / Clique em Central no *Tempo real*
+- Menu Ferramentas : Ctrl Clique / Clique em Central no *Notes*, *Testador de expressão*, *Variables*
 
-> Avec un clic normal (clic gauche), ces menus ouvrent une fenêtre, affichant le contenu par dessus le reste de l'interface. Ici, le contenu de la fenêtre s'affiche dans cette page, chargée dans un nouvel onglet du navigateur, pour faciliter son utilisation quand l'utilisateur le souhaite.
+> Com um clique normal (clique esquerdo), esses menus abrem uma janela, exibindo o conteúdo no restante da interface. Aqui, o conteúdo da janela é exibido nesta página, carregado em uma nova guia do navegador, para facilitar seu uso quando o usuário desejar.

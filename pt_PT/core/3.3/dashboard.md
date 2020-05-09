@@ -1,84 +1,84 @@
-Une des pages principales de Jeedom affiche un compte-rendu de toute
-votre domotique. Ce compte-rendu (contrairement aux vues et design) est
-auto-généré par Jeedom.
+Uma das páginas principais do Jeedom exibe uma conta de todos
+sua automação residencial. Este relatório (diferente das visualizações e do design) é
+auto-gerado por Jeedom.
 
-Il est accessible en cliquant sur **Accueil → Dashboard**
-
-> **Tip**
->
-> Il est possible d’aller directement sur un objet de votre domotique.
-> Cela permet de n’avoir que les équipements qui vous intéressent et
-> donc de charger la page plus rapidement
-
--   Vous avez en haut à gauche une petite icône pour faire
-    afficher/masquer l’arbre des objets (celui-ci affiche aussi les
-    informations des résumés d’objet)
-
--   Au milieu, vous pouvez choisir de ne filtrer que sur certains types
-    d’équipements
-
--   A droite, un premier bouton pour passer en mode édition, pour par
-    exemple modifier l’ordre des widgets (à l’aide d’un cliqué déposé
-    sur le widget), vous pouvez aussi dans ce mode édition
-    redimensionner certains widgets et réorganiser l’ordre des commandes
-    à l’intérieur de celui-ci
-
--   Un deuxième bouton pour afficher/masquer les scénarios
-
--   En cliquant sur un résumé d’objet, vous filtrez pour n’afficher que
-    les équipements ayant pour parent cet objet et qui concernent ce
-    résumé d’objet.
-
--   Un clic sur une commande de type information permet d’afficher
-    l’historique de la commande (si elle est historisée)
+É acessível clicando em **Página inicial → Painel**
 
 > **Tip**
 >
-> Il est possible, à partir de votre profil, de configurer Jeedom pour
-> que l’arbre des objets et/ou les scénarios soient visibles par défaut
-> lorsque vous arrivez sur le Dashboard
+> É possível ir diretamente para um objeto em sua automação residencial.
+> Isso permite que você tenha apenas o equipamento que lhe interessa e
+> então carregue a página mais rapidamente
+
+-   Você tem no topo um pequeno ícone para fazer
+    mostrar / ocultar a árvore de objetos (isso também exibe o
+    informações de resumo do objeto)
+
+-   No meio, você pode optar por filtrar apenas determinados tipos
+    equipamento
+
+-   À direita, um primeiro botão para alternar para o modo de edição, para o par
+    exemplo, modifique a ordem dos widgets (usando um clique clicado
+    no widget), você também pode neste modo de edição
+    redimensionar alguns widgets e reorganizar a ordem dos comandos
+    dentro dele
+
+-   Um segundo botão para mostrar / ocultar os cenários
+
+-   Ao clicar no resumo de um objeto, você filtra para exibir apenas
+    equipamentos relacionados a esse objeto e relacionados a esse
+    resumo do assunto.
+
+-   Um clique em um comando de tipo de informação é exibido
+    o histórico de pedidos (se for histórico)
 
 > **Tip**
 >
-> En mobile un appui long sur une commande de type info permet
-> d’afficher un menu vous proposant soit d’afficher l’historique de la
-> commande, ou de mettre une alerte sur celle-ci pour que jeedom vous
-> prévienne (une seule fois) dès que la valeur passe un certain seuil
+> É possível, a partir do seu perfil, configurar o Jeedom para
+> a árvore de objetos e / ou os cenários são visíveis por padrão
+> quando você entra no painel
 
-Mode édition 
+> **Tip**
+>
+> No celular, pressionar longamente um comando de tipo de informação permite
+> exibir um menu oferecendo para exibir o histórico do
+> comando ou coloque um alerta para que você jeedom você
+> avisar (apenas uma vez) assim que o valor ultrapassar um certo limite
+
+Modo de edição 
 ============
 
-En mode édition, vous pouvez changer la taille des widgets et leur
-disposition sur le dashboard.
+No modo de edição, você pode alterar o tamanho dos widgets e suas
+layout no painel.
 
-Vous pouvez aussi éditer la disposition interne des commandes du widget
+Você também pode editar o layout interno dos controles do widget
 :
 
--   soit les réorganiser par glisser/déposer
+-   reorganizá-los arrastando e soltando
 
--   soit en faisant un clic droit sur le widget. Vous accédez alors à :
+-   Ou clicando com o botão direito do mouse no widget. Você então acessa :
 
-    -   **Configuration avancée** : permet d’accéder à la configuration
-        avancée de la commande
+    -   **Configuração avançada** : dá acesso à configuração
+        progresso do pedido
 
-    -   **Standard** : disposition par défaut, tout est en automatique
-        avec juste la possibilité de réorganiser l’ordre des commandes
+    -   **Standard** : layout padrão, tudo é automático
+        com apenas a capacidade de reorganizar a ordem dos pedidos
 
-    -   **Tableau** : permet de mettre les commandes dans un tableau :
-        les colonnes et les lignes s’ajoutent et se suppriment par clic
-        droit, ensuite il suffit de déplacer les commandes dans les
-        cases voulues. Vous pouvez mettre plusieurs commandes par case
+    -   **Tableau** : permite colocar os comandos em uma tabela :
+        colunas e linhas são adicionadas e removidas por clique
+        certo, basta mover os controles dentro
+        caixas desejadas. Você pode fazer vários pedidos por caixa
 
-    -   **Ajouter colonne** : ajoute une colonne au tableau (accessible
-        uniquement si vous êtes en disposition tableau)
+    -   **Adicionar coluna** : adicione uma coluna à tabela (acessível
+        somente se você estiver em um layout de tabela)
 
-    -   **Ajouter ligne** : ajoute une ligne au tableau (accessible
-        uniquement si vous êtes en disposition tableau)
+    -   **Adicionar linha** : adicione uma linha à tabela (acessível
+        somente se você estiver em um layout de tabela)
 
-    -   **Supprimer colonne** : supprime une colonne au tableau
-        (accessible uniquement si vous êtes en disposition tableau)
+    -   **Excluir coluna** : remova uma coluna da tabela
+        (acessível apenas se você tiver um layout de tabela)
 
-    -   **Supprimer ligne** : supprime une ligne au tableau (accessible
-        uniquement si vous êtes en disposition tableau)
+    -   **Eliminar linha** : excluir uma linha da tabela (acessível
+        somente se você estiver em um layout de tabela)
 
 

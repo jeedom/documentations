@@ -1,96 +1,96 @@
 # Objets
-**Outils → Objets**
+**Ferramentas → Objetos**
 
-Les **objets** permettent de définir l’arborescence de votre domotique.
+O **objets** permitem definir a estrutura em árvore da sua automação residencial.
 
-Tous les équipements que vous créez doivent appartenir à un objet et sont ainsi plus facilement repérables. On dit alors que l’objet est le **parent** de l’équipement.
+Todo o equipamento que você cria deve pertencer a um objeto e, portanto, é mais facilmente identificável. Dizemos então que o objeto é o **parent** equipamento.
 
-Pour laisser libre choix à la personnalisation, vous pouvez nommer ces objets comme vous le voulez. Usuellement, on y définira les différentes parties de sa maison, comme le nom des pièces (c’est d’ailleurs la configuration recommandée).
+Para dar livre escolha à personalização, você pode nomear esses objetos como desejar. Normalmente, definiremos as diferentes partes de sua casa, como os nomes dos quartos (a propósito, essa é a configuração recomendada).
 
 ## Gestion
 
-Deux options s’offrent à vous :
-- **Ajouter** : Permet de créer un nouvel objet.
-- **Vue d’ensemble** : Permet d’afficher la liste des objets créés ainsi que leur configuration.
+Você tem duas opções :
+- **Ajouter** : Crie um novo objeto.
+- **Visão global** : Exibe a lista de objetos criados e suas configurações.
 
-## Mes objets
+## Meus objetos
 
-Une fois que vous avez créé un objet, il apparaîtra dans cette partie.
-
-> **Tip**
->
-> Vous pouvez ouvrir un objet en faisant :
-> - Clic sur l'un d'entre eux.
-> - Ctrl Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
-
-Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des objets. La touche Echap annule la recherche.
-A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
-
-- La croix pour annuler la recherche.
-- Le dossier ouvert pour déplier tout les panneaux et afficher touts les objets.
-- Le dossier fermé pour replier tout les panneaux.
-
-Une fois sur la configuration d'un objet, vous disposez d'un menu contextuel au Clic Droit sur les onglets de l'objet. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement un autre objet dans un nouvel onglet du navigateur.
-
-## Onglet Objet
-
-En cliquant sur un objet, vous accédez à sa page de configuration. Quels que soient les changements effectués, n’oubliez pas de sauvegarder vos modifications.
-
-Voici donc les différentes caractéristiques pour configurer un objet :
-
-- **Nom de l’objet** : Le nom de votre objet.
-- **Père** : Indique le parent de l’objet courant, cela permet de définir une hiérarchie entre les objets. Par exemple : Le salon a pour parent l’appartement. Un objet ne peut avoir qu’un seul parent mais plusieurs objets peuvent avoir le même parent.
-- **Visible** : Cochez cette case pour rendre visible cet objet.
-- **Masquer sur le Dashboard** : Cochez cette case pour masquer l’objet sur le Dashboard. Il est tout de même conservé dans la liste, ce qui permet de l’afficher, mais uniquement de manière explicite.
-- **Masquer sur la synthèse'** : Cochez cette case pour masquer l’objet sur la synthèse'. Il est tout de même conservé dans la liste, ce qui permet de l’afficher, mais uniquement de manière explicite.
-- **Icône** : Permet de choisir une icône pour votre objet.
-- **Couleurs personnalisées** : Active la prise en compte des deux paramètres de couleurs optionnels.
-- **Couleur du tag** : Permet de choisir la couleur de l’objet et des équipements qui lui sont rattachés.
-- **Couleur du texte du tag** : Permet de choisir la couleur du texte de l’objet. Ce texte sera par dessus la **couleur du tag**. A vous de choisir une couleur pour rendre le texte lisible.
-- **Image** : Vous avez la possibilité de télécharger une image ou la supprimer. Au format jpeg cette image sera l'image de fond de l'objet quand vous l'afficherez sur le Dashboard. Elle sera aussi utilisée pour la vignette de la pièce sur la Synthèse.
-- **Seulement sur la synthèse** : Permet de mettre une image pour la Synthèse sans qu'elle soit utilisée comme image de fond.
+Depois de criar um objeto, ele aparecerá nesta parte.
 
 > **Tip**
 >
-> Vous pouvez modifier l’ordre d’affichage des objets dans le Dashboard. Dans la vue d'ensemble (ou par le Résumé Domotique), sélectionnez votre objet avec la souris avec un glisser/déposer pour lui donner une nouvelle place.
+> Você pode abrir um objeto fazendo :
+> - Clique em um deles.
+> - Ctrl Clic ou Clic Center para abri-lo em uma nova guia do navegador.
+
+Você tem um mecanismo de pesquisa para filtrar a exibição de objetos. A tecla Escape cancela a pesquisa.
+À direita do campo de pesquisa, três botões encontrados em vários lugares no Jeedom:
+
+- A cruz para cancelar a pesquisa.
+- A pasta aberta para desdobrar todos os painéis e exibir todos os objetos.
+- A pasta fechada para dobrar todos os painéis.
+
+Uma vez na configuração de um objeto, você tem um menu contextual com o botão direito do mouse nas guias do objeto. Você também pode usar um Ctrl Click ou Center Click para abrir diretamente outro objeto em uma nova guia do navegador..
+
+## Guia Objeto
+
+Ao clicar em um objeto, você acessa sua página de configuração. Quaisquer que sejam as alterações que você fizer, não se esqueça de salvar suas alterações.
+
+Aqui estão as diferentes características para configurar um objeto :
+
+- **Nome do objeto** : O nome do seu objeto.
+- **Pai** : Indica o pai do objeto atual, isso permite definir uma hierarquia entre os objetos. Por exemplo : A sala está relacionada ao apartamento. Um objeto pode ter apenas um pai, mas vários objetos podem ter o mesmo pai.
+- **Visible** : Marque esta caixa para tornar este objeto visível.
+- **Esconder o painel de instrumentos** : Marque esta caixa para ocultar o objeto no painel. Ele ainda é mantido na lista, o que permite que seja exibido, mas apenas explicitamente..
+- **Ocultar no resumo'** : Marque esta caixa para ocultar o objeto no resumo'. Ele ainda é mantido na lista, o que permite que seja exibido, mas apenas explicitamente..
+- **ícone** : Permite escolher um ícone para o seu objeto.
+- **Cores personalizadas** : Ativa a consideração dos dois parâmetros de cores opcionais.
+- **Cor tag** : Permite escolher a cor do objeto e o equipamento a ele conectado.
+- **Texto tag Cor** : Permite escolher a cor do texto do objeto. Este texto estará sobre o **Cor tag**. Você escolhe uma cor para tornar o texto legível.
+- **Image** : Você tem a opção de fazer upload de uma imagem ou excluí-la. No formato jpeg, essa imagem será a imagem de plano de fundo do objeto quando você a exibir no Painel. Também será usado para a miniatura da peça no Synthesis.
+- **Somente na síntese** : Permite colocar uma imagem para a síntese sem ser usada como imagem de fundo.
 
 > **Tip**
 >
-> Vous pouvez voir un graphique représentant tous les éléments de Jeedom rattachés à cet objet en cliquant sur le bouton **Liens**, en haut à droite.
+> Você pode alterar a ordem de exibição dos objetos no Painel. Na visão geral (ou no Resumo da automação residencial), selecione seu objeto com o mouse, arrastando e soltando, para dar um novo local.
 
 > **Tip**
 >
-> Quand un équipement est créé et qu’aucun parent n’a été défini, il aura comme parent : **Aucun**.
+> Você pode ver um gráfico representando todos os elementos do Jeedom anexados a esse objeto clicando no botão **Liens**, canto superior direito.
 
-## Onglet Résumé
+> **Tip**
+>
+> Quando um dispositivo é criado e nenhum pai foi definido, ele terá como pai : **Aucun**.
 
-Les résumés sont des informations globales, affectées à un objet, qui s’affichent notamment sur le Dashboard à côté du nom de ce dernier.
+## Guia Resumo
 
-### Tableau d’affichage
+Resumos são informações globais, atribuídas a um objeto, que são exibidas em particular no Painel ao lado de seu nome..
 
-Les colonnes représentent les résumés affectés à l’objet courant. Trois lignes vous sont proposées :
+### Quadro de avisos
 
-- **Remonter dans le résumé global** : Cochez la case si vous souhaitez que le résumé soit affiché dans la barre de menu de Jeedom.
-- **Masquer en desktop** : Cochez la case si vous ne souhaitez pas que le résumé s’affiche à côté du nom de l’objet sur le Dashboard.
-- **Masquer en mobile** : Cochez la case si vous ne souhaitez pas que le résumé s’affiche quand vous l’affichez depuis un mobile.
+As colunas representam os resumos atribuídos ao objeto atual. Três linhas são propostas para você :
+
+- **-Se no resumo geral** : Marque a caixa se desejar que o resumo seja exibido na barra de menus do Jeedom.
+- **Esconder no ambiente de trabalho** : Marque a caixa se não desejar que o resumo apareça ao lado do nome do objeto no Painel.
+- **Esconder móvel** : Marque a caixa se você não deseja que o resumo apareça ao vê-lo em um celular.
 
 ### Commandes
 
-Chaque onglet représente un type de résumé défini dans la configuration de Jeedom. Cliquez sur **Ajouter une commande** pour que celle-ci soit prise en compte dans le résumé. Vous avez le choix de sélectionner la commande de n’importe quel équipement de Jeedom, même s’il n’a pas pour parent cet objet.
+Cada guia representa um tipo de resumo definido na configuração do Jeedom. Clique em **Adicionar comando** para que seja levado em consideração no resumo. Você tem a opção de selecionar o comando de qualquer equipamento Jeedom, mesmo que ele não tenha esse objeto como pai..
 
 > **Tip**
 >
-> Si vous souhaitez ajouter un type de résumé ou pour configurer la méthode de calcul du résultat, l’unité, l’icône et le nom d’un résumé, vous devez aller dans la configuration générale de Jeedom : **Réglages → Système → Configuration : Onglet Résumés**.
+> Se você deseja adicionar um tipo de resumo ou configurar o método de cálculo do resultado, a unidade, o ícone e o nome de um resumo, deve-se acessar a configuração geral do Jeedom. : **Configurações → Sistema → Configuração : Guia Resumos**.
 
-## Vue d’ensemble
+## Visão global
 
-La vue d’ensemble vous permet de visualiser l’ensemble des objets dans Jeedom, ainsi que leur configuration :
+A visão geral permite visualizar todos os objetos no Jeedom, bem como suas configurações :
 
-- **ID** : ID de l’objet.
-- **Objet** : Nom de l’objet.
-- **Père** : Nom de l’objet parent.
-- **Visible** : Visibilité de l’objet.
-- **Masqué** : Indique si l’objet est masqué sur le Dashboard.
-- **Résumé Défini** : Indique le nombre de commandes par résumé. Ce qui est en bleu est pris en compte dans le résumé global.
-- **Résumé Dashboard Masqué** : Indique les résumés masqués sur le Dashboard.
-- **Résumé Mobile Masqué** : Indique les résumés masqués sur le mobile.
+- **ID** : Object ID.
+- **Objet** : Nome do objeto.
+- **Pai** : Nome do objeto pai.
+- **Visible** : Visibilidade do objeto.
+- **Masqué** : Indica se o objeto está oculto no painel.
+- **Resumo definido** : Indica o número de pedidos por resumo. O que está em azul é levado em consideração no resumo global.
+- **Resumo do painel oculto** : Indica resumos ocultos no painel.
+- **Resumo para celular oculto** : Mostrar resumos ocultos no celular.

@@ -1,80 +1,80 @@
 # Dashboard
-**Accueil → Dashboard**
+**Página inicial → Painel**
 
 <small>[Raccourcis clavier/souris](shortcuts.md)</small>
 
-Le dashboard  est une des pages principales de Jeedom, il affiche un compte-rendu de toute votre domotique.
-Ce compte-rendu (contrairement aux vues et designs) est auto-généré par Jeedom, et comprend l'ensemble des objets visibles et leurs équipements.
+O painel é uma das páginas principais do Jeedom, exibe um relatório de toda a sua automação residencial.
+Este relatório (diferente das visualizações e designs) é gerado automaticamente pela Jeedom e inclui todos os objetos visíveis e seus equipamentos.
 
 > **Tip**
 >
-> L'ordre d'affichage des objets sur le Dashboard est celui visible dans **Analyse → Résumé domotique**. Vous pouvez sur cette page modifier cet ordre par glisser - déposer.
+> A ordem de exibição dos objetos no Painel é visível em **Análise → Resumo da automação residencial**. Você pode modificar esta ordem nesta página arrastando e soltando.
 
-Pour qu'un équipement apparaisse sur le Dashboard, il doit :
-- Être actif.
-- Être visible.
-- Avoir comme objet parent un objet visible sur le Dashboard.
+Para que o equipamento apareça no painel, ele deve :
+- Seja ativo.
+- Seja visível.
+- Ter como objeto pai um objeto visível no Painel.
 
-A la première apparition de l'équipement sur le Dashboard, Jeedom essaye de dimensionner correctement sa tuile pour afficher l'ensemble des commandes et leurs widgets.
-Afin de conserver un Dashboard équilibré, vous pouvez passer en mode Édition avec le crayon en haut à droite de la barre de recherche, afin de redimensionner et/ou réordonner les tuiles des équipements.
+Na primeira aparição do equipamento no painel, o Jeedom tenta dimensionar corretamente seu bloco para exibir todos os comandos e seus widgets.
+Para manter um painel equilibrado, você pode alternar para o modo Editar com o lápis no canto superior direito da barra de pesquisa, para redimensionar e / ou reordenar os ladrilhos do equipamento.
 
-En passant la souris sur une commande, un repère de couleur apparaît en bas à gauche de la tuile:
-- Bleu pour une commande info. Si elle est historisée, un clic dessus ouvre la fenêtre d'historique.
-- Orange pour une commande action. Un clic déclenchera donc l'action.
+Movendo o mouse sobre um pedido, um marcador colorido aparece na parte inferior esquerda do bloco:
+- Azul para um pedido info. Se estiver logado, um clique nele abre a janela de log.
+- Laranja para um comando de ação. Um clique acionará a ação.
 
-De plus, vous pouvez cliquer sur le titre de la tuile (le nom de l'équipement) pour ouvrir directement la page de configuration de cet équipement.
-
-> **Tip**
->
-> Il est possible d’aller directement sur un seul objet de votre domotique, par le menu **Accueil → Dashboard → Nom de l'objet**.
-> Cela permet de n’avoir que les équipements qui vous intéressent, et de charger la page plus rapidement.
-
-- Vous avez en haut à gauche une petite icône pour faire afficher/masquer l’arbre des objets.
-- La deuxième icône à gauche permet de filtrer les équipements affichés en fonction de leur catégorie. Un clic centre permet de rapidement sélectionner une seule catégorie.
-- Au milieu, un champ de recherche permet de rechercher un équipement par son nom, sa catégorie, son plugin, un tag, etc.
-- A droite, un bouton permet de passer en mode édition, pour modifier l’ordre des tuiles (cliquer - déposer sur le widget), ou les redimensionner. Vous pouvez également réorganiser l’ordre des commandes dans une tuile.
-
-- En cliquant sur un résumé d’objet, vous filtrez pour n’afficher que les équipements ayant pour parent cet objet et qui concernent ce résumé d’objet.
-
-- Un clic sur une commande de type information permet d’afficher l’historique de la commande (si elle est historisée).
-- Un Ctrl+Clic sur une commande de type information permet d’afficher l’historique de toutes les commandes (historisées) de cette tuile.
-- Un clic sur l'information *time* d'une commande action permet d’afficher l’historique de la commande (si elle est historisée).
+Além disso, você pode clicar no título do ladrilho (o nome do equipamento) para abrir diretamente a página de configuração deste equipamento.
 
 > **Tip**
 >
-> Il est possible, à partir de votre profil, de configurer Jeedom pour que l’arbre des objets et/ou les scénarios soient visibles par défaut lorsque vous arrivez sur le Dashboard.
+> É possível ir diretamente para um único objeto na sua automação residencial, através do menu **Página inicial → Painel de controle → Nome do objeto**.
+> Isso permite que você tenha apenas o equipamento que lhe interessa e carregue a página mais rapidamente.
+
+- Você tem no topo um pequeno ícone para mostrar / ocultar a árvore de objetos.
+- O segundo ícone à esquerda permite filtrar o equipamento exibido de acordo com sua categoria. Um clique no centro permite selecionar rapidamente uma única categoria.
+- No meio, um campo de pesquisa permite pesquisar equipamentos por nome, categoria, plug-in, tag, etc..
+- À direita, um botão permite alternar para o modo de edição, modificar a ordem dos blocos (clicar e soltar no widget) ou redimensioná-los. Você também pode reorganizar a ordem dos pedidos em um bloco.
+
+- Ao clicar no resumo de um objeto, você filtra para exibir apenas o equipamento relacionado a esse objeto e relacionado a esse resumo.
+
+- Um clique em um pedido de tipo de informação exibe o histórico do pedido (se for histórico).
+- Um Ctrl + Clique em um comando de tipo de informação exibe o histórico de todos os comandos (históricos) desse bloco.
+- Um clique na informação *time* de um comando de ação exibe o histórico do comando (se for historizado).
 
 > **Tip**
 >
-> En mobile, un appui sur une commande de type info permet d’afficher un menu vous proposant soit d’afficher l’historique de la commande, ou de mettre une alerte sur celle-ci pour que Jeedom vous prévienne (une seule fois) dès que la valeur passe un certain seuil.
-
-
-## Mode édition
-
-En mode édition (*le crayon tout en haut à droite*), vous pouvez changer la taille des tuiles et leur disposition sur le Dashboard.
-
-Vous pouvez aussi éditer la disposition interne des commandes sur la tuile :
-
-- Soit les réorganiser par glisser - déposer.
-- Soit en faisant un clic droit sur le widget. Vous accédez alors à :
-    - **Configuration avancée** : permet d’accéder à la configuration avancée de la commande.
-    - **Standard** : disposition par défaut, tout est en automatique avec juste la possibilité de réorganiser l’ordre des commandes.
-    - **Tableau** : permet de mettre les commandes dans un tableau : les colonnes et les lignes s’ajoutent et se suppriment par clic droit, ensuite il suffit de déplacer les commandes dans les cases voulues. Vous pouvez mettre plusieurs commandes par case
-    - **Ajouter colonne** : ajoute une colonne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Ajouter ligne** : ajoute une ligne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Supprimer colonne** : supprime une colonne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Supprimer ligne** : supprime une ligne au tableau (accessible uniquement si vous êtes en disposition tableau)
-
-A droite de chaque objet, une icône permet de :
-
-- Clic : Toutes les tuiles de cet objet adopterons une hauteur égale à la tuile la plus haute.
-- Ctrl Clic : Toutes les tuiles de cet objet adopterons une hauteur égale à la tuile la moins haute.
-
-## Barre de menu de Jeedom
+> É possível, a partir do seu perfil, configurar o Jeedom para que a árvore de objetos e / ou os cenários fiquem visíveis por padrão quando você chegar ao Painel..
 
 > **Tip**
 >
-> - Clic sur l’horloge (barre de menu) : Ouvre la Timeline.
-> - Clic sur le nom du Jeedom (barre de menu) : Ouvre Réglages → Système → Configuration.
-> - Clic sur le ? (barre de menu) : Ouvre l’aide sur la page en cours.
-> - Echap sur un champ de recherche : Vide le champ et annule cette recherche .
+> No celular, pressionar um comando de tipo de informação exibe um menu que permite exibir o histórico do pedido ou colocar um alerta nele para que o Jeedom o avise (uma vez) assim que que o valor passa um certo limite.
+
+
+## Modo de edição
+
+No modo de edição (*o lápis no canto superior direito*), você pode alterar o tamanho dos blocos e sua organização no Painel.
+
+Você também pode editar o layout interno dos controles no bloco :
+
+- Reorganize-os arrastando e soltando.
+- Ou clicando com o botão direito do mouse no widget. Você então acessa :
+    - **Configuração avançada** : dá acesso à configuração avançada do comando.
+    - **Standard** : layout padrão, tudo é automático com apenas a possibilidade de reorganizar a ordem dos pedidos.
+    - **Tableau** : permite colocar os comandos em uma tabela : colunas e linhas são adicionadas e excluídas com o botão direito do mouse e, em seguida, basta mover os comandos nas caixas desejadas. Você pode fazer vários pedidos por caixa
+    - **Adicionar coluna** : adicione uma coluna à tabela (acessível apenas se você estiver no layout da tabela)
+    - **Adicionar linha** : adicione uma linha à tabela (acessível apenas se você estiver no layout da tabela)
+    - **Excluir coluna** : remover uma coluna da tabela (acessível apenas se você estiver no layout da tabela)
+    - **Eliminar linha** : exclua uma linha da tabela (acessível apenas se você estiver no layout da tabela)
+
+À direita de cada objeto, um ícone permite que você :
+
+- Clique em : Todas as peças deste objeto adotam uma altura igual à peça mais alta.
+- Ctrl Clique : Todas as peças deste objeto adotam uma altura igual à peça mais baixa.
+
+## Barra de menus do Jeedom
+
+> **Tip**
+>
+> - Clique no relógio (barra de menus) : Abra a linha do tempo.
+> - Clique no nome do Jeedom (barra de menus) : Abre Configurações → Sistema → Configuração.
+> - Clique em ? (barra de menus) : Abre a ajuda na página atual.
+> - Escape em um campo de pesquisa : Limpe o campo e cancele esta pesquisa .

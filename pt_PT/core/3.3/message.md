@@ -1,22 +1,22 @@
-Le centre des messages regroupe tous les messages importants que vous
-devez regarder. Il se trouve à côté de l’heure en haut à droite.
+O centro de mensagens agrupa todas as mensagens importantes que você
+deve assistir. É ao lado da hora no canto superior direito.
 
-Il n’est accessible que lorsqu’il y a des messages, en cliquant sur le
-nombre de messages.
+É acessível apenas quando houver mensagens, clicando no
+Número de posts.
 
-Il est assez simple. Il vous montre la date et l’heure du message, le
-plugin qui l’a émis et le message en question. Vous pouvez, en appuyant
-sur le bouton au tout début de la ligne d’un message, supprimer le
-message en question (il reviendra si le problème est toujours
-d’actualité).
+É bem simples. Ele mostra a data e hora da mensagem, o
+plugin que o emitiu e a mensagem em questão. Você pode, pressionando
+no botão no início de uma linha de mensagem, exclua o
+mensagem em questão (voltará se o problema ainda persistir
+d'actualité).
 
-En haut, on retrouve un sélecteur pour filtrer les messages sur un
-plugin particulier et tout à droite un bouton pour vider tous les
+Na parte superior, há um seletor para filtrar mensagens em um
+plugin particular e tudo bem um botão para esvaziar tudo
 messages.
 
 > **Tip**
 >
-> Lorsque vous avez une erreur dans le centre des messages, essayez
-> d’abord de supprimer le message puis voir si l’erreur revient avant de
-> contacter le support. Il arrive que ce soit juste dû à un souci de
-> connexion réseau.
+> Quando houver um erro no centro de mensagens, tente
+> primeiro exclua a mensagem e verifique se o erro retorna antes
+> entre em contato com o suporte. Pode ser apenas devido a uma preocupação por
+> conexão de rede.
