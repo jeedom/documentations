@@ -1,44 +1,44 @@
 # Rapport
-**Análise → Relatório**
+**Analyse → Rapport**
 
-Esta página permite que você veja todos os relatórios que foram gerados pela ação do relatório (consulte a documentação do cenário).
+Cette page permet de voir tous les rapports qui ont été générés par l'action report (voir documentation des scénarios).
 
 ## Principe
 
-Um relatório é uma captura de tela da interface Jeedom por vez t.
+Un rapport est une capture d'écran de l'interface de Jeedom à un instant t.
 
 > **Note**
 >
-> Essa captura é adaptada para não levar a barra de menus e outros elementos desnecessários a esse tipo de uso..
+> Cette capture est adaptée pour ne pas prendre la barre de menu et autres éléments inutiles sur ce type d'utilisation.
 
-Você pode fazer istão em vistas, designs, páginas do painel....
+Vous pouvez le faire sur des vues, designs, pages de panel....
 
-A geração é acionada a partir de um cenário com o comando report.
-Você pode optar por receber este relatório usando um comando de mensagem (email, telegrama etc.).
+La génération se déclenche à partir d'un scénario avec la commande report.
+Vous pouvez choisir de vous faire envoyer ce rapport à l'aide d'une commande message (mail, télégram, etc).
 
 ## Utilisation
 
-Seu utão é muito simples. Selecione à esquerda se quiser ver :
+Son utilisation est très simple. Sélectionnez sur la gauche si vous voulez voir :
 
-- Ver relatórios.
-- Relatórios de design.
-- Relatórios do painel de plug-ins.
-- Relatórios de equipamentos (para um resumo da bateria de cada módulo).
+- Les rapports des vues.
+- Les rapports des designs.
+- Les rapports des panels de plugins.
+- Les rapports sur les équipements (pour avoir un résumé de la batterie de chaque module).
 
-Em seguida, selecione o nome do relatório em questão. Você verá todas as datas dos relatórios disponíveis.
+Ensuite, sélectionnez le nom du rapport en question. Vous verrez alors toutes les dates des rapports disponibles.
 
 > **Important**
 >
-> A exclusão automática é feita por padrão para relatórios com mais de 30 dias. Você pode configurar esse atratão na configuração do Jeedom.
+> Une suppression automatique est faite par défaut pour les rapports vieux de plus de 30 jours. Vous pouvez configurer ce délai dans la configuration de Jeedom.
 
-Depois que o relatório é selecionado, você pode visualizá-lo, fazer o download ou excluí-lo.
+Une fois le rapport sélectionné, vous pouvez le voir apparaître, le télécharger ou le supprimer.
 
-Você também pode excluir todos os backups de um determinado relatório
+Vous pouvez aussi supprimer toutes les sauvegardes d'un rapport donné
 
 ## FAQ
 
-> Se você tiver um erro de detalhes :
-> *cutycapt: erro ao carregar bibliotecas compartilhadas: libEGL.so: não é possível abrir o arquivo de objeto compartilhado: Esse arquivo ou diretório não existe*
-> No ssh ou em Configurações → Sistema → Configuração : A administração do OS / DB / System não :
-> ``````sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so``````
-> ``````sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so``````
+> Si vous avez une erreur du type Détails :
+> *cutycapt: error while loading shared libraries: libEGL.so: cannot open shared object file: No such file or directory*
+> Il faut en ssh ou dans Réglages → Système → Configuration : OS/DB / Système administration faire :
+> ```sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so```
+> ```sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so```

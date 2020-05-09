@@ -1,11 +1,11 @@
-# Erweiterte Anpassung
-**Einstellungen → System → Erweiterte Anpassung**
+# Personnalisation Avancée
+**Réglages → Système → Personnalisation avancée**
 
-Auf dieser für Experten reservierten Seite können Sie Jeedom CSS- oder JS-Skripte hinzufügen, die auf jeder Seite ausgeführt werden.
+Cette page, réservée aux experts, permet d’ajouter à Jeedom des script CSS ou JS, qui seront exécutés sur chaque page.
 
-Sie können Ihre eigenen JS-Funktionen hinzufügen und CSS-Klassen hinzufügen oder ändern.
+Vous pouvez ainsi ajouter vos propres fonctions JS, et ajouter ou modifier des classes CSS.
 
-Die beiden Teile JS und CSS unterscheiden sich je nach Desktop- oder Mobilanzeige.
+Les deux parties, JS et CSS, sont différenciées selon l'affichage Desktop ou Mobile.
 
 ## Ressources
 
@@ -13,14 +13,14 @@ Die beiden Teile JS und CSS unterscheiden sich je nach Desktop- oder Mobilanzeig
 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[Tipps zum Anpassen der Benutzeroberfläche](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Interface/)
+[Astuces pour la personnalisation de l'interface](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Interface/)
 
-## Im Falle eines Problems
+## En cas de problème
 
-Das Injizieren von JS und / oder CSS kann dazu führen, dass Jeedom nicht mehr funktioniert.
+Injecter du JS et/ou du CSS peut rendre Jeedom inopérant.
 
-In diesem Fall zwei Lösungen:
+Dans ce cas, deux solutions:
 
-- Öffnen Sie einen Browser im Rettungsmodus : `IP / index.php?rescue=1`
-- Stellen Sie eine Verbindung in SSH her und löschen Sie die Anpassungsdateien : `desktop / custopn` und` mobile / custom`
+- Ouvrez un navigateur en mode rescue : `IP/index.php?rescue=1`
+- Se connecter en SSH et supprimer les fichiers de customisation : `desktop/custopn` et `mobile/custom`
 

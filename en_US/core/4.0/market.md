@@ -1,93 +1,93 @@
-# Jeedom Market
+# Market Jeedom
 
 
-Doc a bit special because it will only deal with your Market profile page.
-Available by going to your username then profile from the Market (a bit like on Jeedom).
+Doc un peu particulière car elle va traiter uniquement de votre page profil du Market.
+Disponible en allant sur votre nom d’utilisateur puis profil à partir du Market (un peu comme sur Jeedom).
 
-This is broken down into several parts :
+Celle-ci se décompose en plusieurs parties :
 
-## My profile
+## Mon profil
 
-This is where you will be able to adjust different parameters of your profile :
+C’est ici que vous allez pouvoir régler différents paramètres de votre profil :
 
 - **Profil**
-    - **Login** : Your login on the Market, it cannot be changed.
-    - **Nom** : Your name (this information is only useful to make emails more pleasant).
-    - **First name** : Your first name (this information is only useful to make emails more pleasant).
-    - **Username on the forum** : Your username on the forum.
-    - **Email** : Your email.
-    - **Langue** : Your language.
-    - **Password &amp;&amp; Confirm password** : Allows you to change your password.
+    - **Login** : Votre login sur le Market, il ne peut être changé.
+    - **Nom** : Votre nom (cette information n’est utile que pour rendre les emails plus sympa).
+    - **Prénom** : Votre prénom (cette information n’est utile que pour rendre les emails plus sympa).
+    - **Nom d’utilisateur sur le forum** : Votre pseudo sur le forum.
+    - **Email** : Votre email.
+    - **Langue** : Votre langue.
+    - **Mot de passe && Confirmer le mot de passe** : Permet de changer votre mot passe.
 
-For developers :
-- **Username on the forum** : Your username on the forum.
-- **Public email** : Your email to receive any communications from us.
-- **Paypal account** : Your Paypal account email (only used to pay developers).
+Pour les développeurs :
+- **Nom d’utilisateur sur le forum** : Votre pseudo sur le forum.
+- **Email public** : Votre email pour recevoir d'éventuelles communications de notre part.
+- **Compte paypal** : Votre email de compte Paypal (uniquement utilisé pour payer les développeurs).
 
-For the pros :
-- **Installer email account** : Your professional contact email.
-- **Support requests recipient** : know who will receive support emails (end customer, installer or both).
+Pour les pros :
+- **Compte email installateur** : Votre email de contact pro.
+- **Destinataire des demandes de support** : savoir qui recevra les emails de support (client final, installateur ou les deux).
     - **CGU**
-- **Utilisateur** : general conditions of use (be careful to read them well because they bind you).
-- **Developer** : terms of use for developers.
+- **Utilisateur** : conditions générales d’utilisation (attention à bien les lire car elles vous engage).
+- **Développeur** : conditions générales d’utilisation pour les développeurs.
     - **Tickets**
-- **Number of tickets** : Number of tickets for the current month and your limit.
-- **Support** : Button to send a support request (also accessible by the exclamation mark at the top right on the Market or on your Jeedom).
-    - **Access to betas**
-- **Enable access to beta plugins** : Enables access to betas plugins (note that this will prevent you from accessing the support).
-    - **Summary** Here you will find a summary of your different rights and services.
+- **Nombre de tickets** : Nombre de tickets pour le mois en cours ainsi que votre limite.
+- **Support** : Bouton pour envoyer une demande de support (accessible aussi par le point d’exclamation en haut à droite sur le Market ou sur votre Jeedom).
+    - **Accès aux betas**
+- **Activer l’accès aux plugins beta** : Permet d’activer l’accès aux plugins betas (attention cela vous interdira tout accès au support).
+    - **Résumé** Ici vous retrouverez un résumé de vos différents droits et services.
 
 > **Tip**
 >
-> Don&#39;t forget to save.
+> N’oubliez pas de sauvegarder.
 
-## My jeedoms
+## Mes Jeedoms
 
 - **Niveau**
-    - **Jeedom** : Your level of service pack.
-    - **Enter a service pack number** : Allows you to enter your service pack number (it can be found in the email sent by Jeedom during your order).
-- **Installation key**
-    - **Number of installation keys** : Displays the number of Jeedom installations currently linked to your account as well as the authorized limit.
+    - **Jeedom** : Votre niveau de service pack.
+    - **Entrer un numéro de service pack** : Permet d’entrer votre numéro de service pack (il se trouve dans le mail envoyé par Jeedom lors de votre commande).
+- **Clef d’installation**
+    - **Nombre de clefs d’installation** : Affiche le nombre d’installations Jeedom actuellement liées à votre compte ainsi que la limite autorisée.
 
 > **Tip**
 >
-> It is possible that the Market sometimes asks you to reset your installation keys, this is normal, just follow what is requested.
+> Il est possible que le Market vous demande parfois de remettre à zéro vos clefs d’installation, c’est normal, il suffit de suivre ce qui est demandé.
 
-- **My jeedoms** : This is where all your Jeedoms are listed
-    - **Nom** : The name you want to give to your Jeedom (can be found in the name of the backup if you have the cloud backup subscription).
-    - **Etat** : Allows to see the state of the Jeedom in question.
-    - **Local / remote IP** : IP or address of this Jeedom, configure in Jeedom, if you do not put anything it will be the last known IP.
-    - **DNS** : Allows you to customize the name of your Dns.
-    - **URL** : List the different Jeedom access URLs.
-    - **Dns server** : Tells you the Dns server to which you are attached.
-    - **Dns status** : Allows to see the status of the Dns.
-    - **Creation date** : Date of creation of this Jeedom on your Market account (as a reminder, this is done automatically when you link it to the Market).
-    - **Last update** : Jeedom&#39;s last communication with the Market.
-    - **Hardware** : Jeedom hardware name.
-    - **Version** : The version of Jeedom installed.
+- **Mes Jeedoms** : C’est ici que sont listés tous vos Jeedom
+    - **Nom** : Le nom que vous voulez donner à votre Jeedom (se retrouve dans le nom du backup si vous avez l’abonnement de sauvegarde cloud).
+    - **Etat** : Permet de voir l’état du Jeedom en question.
+    - **IP locale / distante** : IP ou adresse de ce Jeedom, se configure dans Jeedom, si vous ne mettez rien ça sera la dernière IP connue.
+    - **DNS** : Permet de personnaliser le nom de votre DNS.
+    - **URL** : Liste les différentes URL d’accès au Jeedom.
+    - **Serveur DNS** : Vous indique le serveur DNS auquel vous êtes rattachés.
+    - **Statut du DNS** : Permet de voir le statut du DNS.
+    - **Date de création** : Date de création de ce Jeedom sur votre compte Market (pour rappel cela se fait automatiquement lorsque vous le liez au Market).
+    - **Dernière mise à jour** : Dernière communication du Jeedom avec le Market.
+    - **Hardware** : Nom du hardware du Jeedom.
+    - **Version** : La version de Jeedom installée.
 
 > **Tip**
 >
-> Don&#39;t forget to save.
+> N’oubliez pas de sauvegarder.
 
-## My backups
+## Mes backups
 
-On this tab you can consult the backups present on the Market and download one. Below you have access to the link to buy 1,3,6 or 12 months of cloud backup subscription.
+Sur cette onglet vous pouvez consulter les backups présents sur le Market et en télécharger un. En dessous vous avez accès au lien pour acheter 1,3,6 ou 12 mois d’abonnement à la sauvegarde cloud.
 
-## My SMS / Calls
+## Mes SMS/Appels
 
-On this tab you can view your SMS / Calls balance (usable with the Phone market plugin). Below you have the different options to buy additional balance.
+Sur cette onglet vous pouvez consulter votre solde SMS/Appels (utilisable avec le plugin Phone market). En dessous vous avez les différentes options permettant d’acheter du solde supplémentaire.
 
-## My purchases / promotions / donations
+## Mes achats/promos/dons
 
-Here you find all your purchases and you can request the return of the invoice or receipt email.
+Ici vous retrouvez tous vos achats et vous pouvez demander le renvoi du mail de facture ou de reçu.
 
 > **Important**
 >
-> If you buy an official plugin you will receive an invoice. However for a third party plugin it is a receipt, for the invoice you have to ask the developer.
+> Si vous achetez un plugin officiel vous recevrez une facture. En revanche pour un plugin tiers c’est un reçu, pour la facture il faut la demander au développeur.
 
-You can also from this tab enter a promo code (a code for a plugin for example that the developer could send you) and make a donation.
+Vous pouvez aussi à partir de cet onglet entrer un code promo (un code pour un plugin par exemple que le développeur a pu vous transmettre) et faire un don.
 
-## My developments
+## Mes développements
 
-If you are a developer you will find here the list of all your sales over a period, the list of your payments as well as a summary of the number of downloads, the number of sales…
+Si vous êtes développeur vous retrouvez ici la liste de toutes vos ventes sur une période, la liste de vos versements ainsi qu’un résumé du nombre de téléchargements, du nombre de ventes…​

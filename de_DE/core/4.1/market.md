@@ -1,93 +1,93 @@
-# Jeedom Markt
+# Market Jeedom
 
 
-Doc etwas Besonderes, da es sich nur um Ihre Marktprofilseite handelt.
-Verfügbar, indem Sie zu Ihrem Benutzernamen und dann zu Ihrem Profil vom Markt gehen (ein bisschen wie bei Jeedom)..
+Doc un peu particulière car elle va traiter uniquement de votre page profil du Market.
+Disponible en allant sur votre nom d’utilisateur puis profil à partir du Market (un peu comme sur Jeedom).
 
-Dies ist in mehrere Teile gegliedert :
+Celle-ci se décompose en plusieurs parties :
 
-## Mein Profil
+## Mon profil
 
-Hier können Sie verschiedene Parameter Ihres Profils anpassen :
+C’est ici que vous allez pouvoir régler différents paramètres de votre profil :
 
 - **Profil**
-    - **Login** : Ihr Login auf dem Markt kann nicht geändert werden.
-    - **Nom** : Ihr Name (diese Informationen sind nur nützlich, um E-Mails angenehmer zu gestalten).
-    - **Vorname** : Ihr Vorname (diese Informationen sind nur nützlich, um E-Mails angenehmer zu gestalten).
-    - **Benutzername im Forum** : Dein Benutzername im Forum.
-    - **Email** : Ihre E-Mail.
-    - **Langue** : Deine Sprache.
-    - **Passwort &amp;&amp; Passwort bestätigen** : Ermöglicht das Ändern Ihres Passworts.
+    - **Login** : Votre login sur le Market, il ne peut être changé.
+    - **Nom** : Votre nom (cette information n’est utile que pour rendre les emails plus sympa).
+    - **Prénom** : Votre prénom (cette information n’est utile que pour rendre les emails plus sympa).
+    - **Nom d’utilisateur sur le forum** : Votre pseudo sur le forum.
+    - **Email** : Votre email.
+    - **Langue** : Votre langue.
+    - **Mot de passe && Confirmer le mot de passe** : Permet de changer votre mot passe.
 
-Für Entwickler :
-- **Benutzername im Forum** : Dein Benutzername im Forum.
-- **Öffentliche E-Mail** : Ihre E-Mail, um Mitteilungen von uns zu erhalten.
-- **Paypal-Konto** : Ihre Paypal-Konto-E-Mail-Adresse (wird nur zur Bezahlung von Entwicklern verwendet).
+Pour les développeurs :
+- **Nom d’utilisateur sur le forum** : Votre pseudo sur le forum.
+- **Email public** : Votre email pour recevoir d'éventuelles communications de notre part.
+- **Compte paypal** : Votre email de compte Paypal (uniquement utilisé pour payer les développeurs).
 
-Für die Profis :
-- **Installer-E-Mail-Konto** : Ihre professionelle Kontakt-E-Mail.
-- **Supportanfragen Empfänger** : wissen, wer Support-E-Mails erhält (Endkunde, Installateur oder beides).
+Pour les pros :
+- **Compte email installateur** : Votre email de contact pro.
+- **Destinataire des demandes de support** : savoir qui recevra les emails de support (client final, installateur ou les deux).
     - **CGU**
-- **Utilisateur** : Allgemeine Nutzungsbedingungen (lesen Sie sie sorgfältig durch, da sie Sie binden).
-- **Entwickler** : Nutzungsbedingungen für Entwickler.
+- **Utilisateur** : conditions générales d’utilisation (attention à bien les lire car elles vous engage).
+- **Développeur** : conditions générales d’utilisation pour les développeurs.
     - **Tickets**
-- **Anzahl der Tickets** : Anzahl der Tickets für den aktuellen Monat und Ihr Limit.
-- **Support** : Schaltfläche zum Senden einer Supportanfrage (auch über das Ausrufezeichen oben rechts auf dem Markt oder auf Ihrem Jeedom zugänglich).
-    - **Zugang zu Betas**
-- **Aktivieren Sie den Zugriff auf Beta-Plugins** : Aktiviert den Zugriff auf Betas-Plugins (beachten Sie, dass Sie dadurch nicht auf den Support zugreifen können)..
-    - **Zusammenfassung** Hier finden Sie eine Zusammenfassung Ihrer verschiedenen Rechte und Dienste.
+- **Nombre de tickets** : Nombre de tickets pour le mois en cours ainsi que votre limite.
+- **Support** : Bouton pour envoyer une demande de support (accessible aussi par le point d’exclamation en haut à droite sur le Market ou sur votre Jeedom).
+    - **Accès aux betas**
+- **Activer l’accès aux plugins beta** : Permet d’activer l’accès aux plugins betas (attention cela vous interdira tout accès au support).
+    - **Résumé** Ici vous retrouverez un résumé de vos différents droits et services.
 
 > **Tip**
 >
-> Vergiss nicht zu sparen.
+> N’oubliez pas de sauvegarder.
 
-## Meine Jeedoms
+## Mes Jeedoms
 
 - **Niveau**
-    - **Jeedom** : Ihr Service Pack.
-    - **Geben Sie eine Service Pack-Nummer ein** : Ermöglicht die Eingabe Ihrer Service Pack-Nummer (diese finden Sie in der E-Mail, die Jeedom während Ihrer Bestellung gesendet hat)..
-- **Installationsschlüssel**
-    - **Anzahl der Installationsschlüssel** : Zeigt die Anzahl der Jeedom-Installationen an, die derzeit mit Ihrem Konto verknüpft sind, sowie das autorisierte Limit.
+    - **Jeedom** : Votre niveau de service pack.
+    - **Entrer un numéro de service pack** : Permet d’entrer votre numéro de service pack (il se trouve dans le mail envoyé par Jeedom lors de votre commande).
+- **Clef d’installation**
+    - **Nombre de clefs d’installation** : Affiche le nombre d’installations Jeedom actuellement liées à votre compte ainsi que la limite autorisée.
 
 > **Tip**
 >
-> Es ist möglich, dass der Markt Sie manchmal auffordert, Ihre Installationsschlüssel zurückzusetzen. Dies ist normal. Befolgen Sie einfach die Anforderungen.
+> Il est possible que le Market vous demande parfois de remettre à zéro vos clefs d’installation, c’est normal, il suffit de suivre ce qui est demandé.
 
-- **Meine Jeedoms** : Hier sind alle Ihre Jeedoms aufgelistet
-    - **Nom** : Der Name, den Sie Ihrem Jeedom geben möchten (finden Sie im Namen des Backups, wenn Sie über ein Cloud-Backup-Abonnement verfügen)..
-    - **Etat** : Sehen wir uns den Zustand des fraglichen Jeedom an.
-    - **Lokale / Remote-IP** : IP oder Adresse dieses Jeedom, konfigurieren Sie in Jeedom. Wenn Sie nichts eingeben, ist dies die letzte bekannte IP.
-    - **DNS** : Ermöglicht das Anpassen des Namens Ihres DNS.
-    - **URL** : Listen Sie die verschiedenen Jeedom-Zugriffs-URLs auf.
-    - **DNS-Server** : Zeigt Ihnen den DNS-Server an, an den Sie angeschlossen sind.
-    - **DNS-Status** : Hier können Sie den Status des DNS anzeigen.
-    - **Erstellungsdatum** : Erstellungsdatum dieses Jeedom auf Ihrem Marktkonto (zur Erinnerung, dies erfolgt automatisch, wenn Sie es mit dem Markt verknüpfen).
-    - **Letztes Update** : Jeedom&#39;s letzte Kommunikation mit dem Markt.
-    - **Hardware** : Jeedom Hardware-Name.
-    - **Version** : Jeedom Version installiert.
+- **Mes Jeedoms** : C’est ici que sont listés tous vos Jeedom
+    - **Nom** : Le nom que vous voulez donner à votre Jeedom (se retrouve dans le nom du backup si vous avez l’abonnement de sauvegarde cloud).
+    - **Etat** : Permet de voir l’état du Jeedom en question.
+    - **IP locale / distante** : IP ou adresse de ce Jeedom, se configure dans Jeedom, si vous ne mettez rien ça sera la dernière IP connue.
+    - **DNS** : Permet de personnaliser le nom de votre DNS.
+    - **URL** : Liste les différentes URL d’accès au Jeedom.
+    - **Serveur DNS** : Vous indique le serveur DNS auquel vous êtes rattachés.
+    - **Statut du DNS** : Permet de voir le statut du DNS.
+    - **Date de création** : Date de création de ce Jeedom sur votre compte Market (pour rappel cela se fait automatiquement lorsque vous le liez au Market).
+    - **Dernière mise à jour** : Dernière communication du Jeedom avec le Market.
+    - **Hardware** : Nom du hardware du Jeedom.
+    - **Version** : La version de Jeedom installée.
 
 > **Tip**
 >
-> Vergiss nicht zu sparen.
+> N’oubliez pas de sauvegarder.
 
-## Meine Backups
+## Mes backups
 
-Auf dieser Registerkarte können Sie die auf dem Markt vorhandenen Backups einsehen und eines herunterladen. Unten haben Sie Zugriff auf den Link, um ein Cloud-Backup-Abonnement für 1,3,6 oder 12 Monate zu erwerben.
+Sur cette onglet vous pouvez consulter les backups présents sur le Market et en télécharger un. En dessous vous avez accès au lien pour acheter 1,3,6 ou 12 mois d’abonnement à la sauvegarde cloud.
 
-## Meine SMS / Anrufe
+## Mes SMS/Appels
 
-Auf dieser Registerkarte können Sie Ihren SMS- / Anrufsaldo anzeigen (verwendbar mit dem Telefonmarkt-Plugin).. Unten haben Sie die verschiedenen Möglichkeiten, um zusätzliches Guthaben zu kaufen.
+Sur cette onglet vous pouvez consulter votre solde SMS/Appels (utilisable avec le plugin Phone market). En dessous vous avez les différentes options permettant d’acheter du solde supplémentaire.
 
-## Meine Einkäufe / Aktionen / Spenden
+## Mes achats/promos/dons
 
-Hier finden Sie alle Ihre Einkäufe und können die Rücksendung der Rechnung oder Quittungs-E-Mail anfordern.
+Ici vous retrouvez tous vos achats et vous pouvez demander le renvoi du mail de facture ou de reçu.
 
 > **Important**
 >
-> Wenn Sie ein offizielles Plugin kaufen, erhalten Sie eine Rechnung. Für ein Plugin eines Drittanbieters handelt es sich jedoch um eine Quittung. Für die Rechnung müssen Sie den Entwickler fragen.
+> Si vous achetez un plugin officiel vous recevrez une facture. En revanche pour un plugin tiers c’est un reçu, pour la facture il faut la demander au développeur.
 
-Sie können auch über diese Registerkarte einen Promo-Code eingeben (einen Code für ein Plugin, den der Entwickler Ihnen beispielsweise senden könnte) und eine Spende tätigen.
+Vous pouvez aussi à partir de cet onglet entrer un code promo (un code pour un plugin par exemple que le développeur a pu vous transmettre) et faire un don.
 
-## Meine Entwicklungen
+## Mes développements
 
-Wenn Sie Entwickler sind, finden Sie hier die Liste aller Verkäufe über einen bestimmten Zeitraum, die Liste Ihrer Zahlungen sowie eine Zusammenfassung der Anzahl der Downloads, der Anzahl der Verkäufe…
+Si vous êtes développeur vous retrouvez ici la liste de toutes vos ventes sur une période, la liste de vos versements ainsi qu’un résumé du nombre de téléchargements, du nombre de ventes…​

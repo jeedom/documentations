@@ -1,49 +1,49 @@
-Viewing 
+Affichage 
 =========
 
-The Logs menu allows you to follow what is happening on your home automation. In the
-most cases the logs will only be used for debugging and
-solve problems by the support team.
+Le menu Logs permet de suivre ce qui se passe sur sa domotique. Dans la
+plupart des cas les logs ne serviront qu’à effectuer du debuggage et à
+résoudre des problèmes par l’équipe de support.
 
-To access it, go to Administration → Logs :
+Pour y accéder il faut aller dans Administration → Logs :
 
-The Logs page is quite simple, at the top left a drop-down list
-allowing the choice of the log to watch, at the top right you have 5
-buttons :
+La page de Logs est assez simple, en haut à gauche une liste déroulante
+permettant le choix du log à regarder, en haut à droite vous avez 5
+boutons :
 
--   **Rechercher** : allows to filter the log poster
+-   **Rechercher** : permet de filtrer l’affiche de log
 
--   **Pause / Resume** : allows you to pause / resume the setting
-    real time log update
+-   **Pause/Reprendre** : permet de mettre en pause/reprendre la mise à
+    jour en temps réel des logs
 
--   **Download** : allows to download the current log,
+-   **Télécharger** : permet de télécharger le log actuel,
 
--   **Vider** : allows to empty the current log,
+-   **Vider** : permet de vider le log actuel,
 
--   **Supprimer** : delete the current log, if Jeedom has any
-    need it will recreate it automatically,
+-   **Supprimer** : permet de supprimer le log actuel, si Jeedom en a
+    besoin il le recréera automatiquement,
 
--   **Delete all logs** : delete all logs present.
+-   **Supprimer tous les logs** : supprime tous les logs présents.
 
 > **Tip**
 >
-> Note that the http log.error cannot be deleted. It is essential
-> ! if you delete it (on the command line for example) it will not
-> not recreate itself, you have to restart the system.
+> A noter que le log http.error ne peut être supprimé. Il est essentiel
+> ! si vous le supprimez (en ligne de commande par exemple) celui-ci ne
+> se recréera pas tout seul, il faut redémarrer le système.
 
-The event log" 
+Le log "Event" 
 ==============
 
-The &quot;Event&quot; log is a bit special. First of all so that it
-works, it must be in info or debug level, then this one
-lists all the events or actions happening on home automation.
-To access it, you must either go to the log page or in Analysis
-→ Real time
+Le log "Event" est un peu particulier. Tout d’abord pour qu’il
+fonctionne, il faut qu’il soit en niveau info ou debug, ensuite celui-ci
+recense tous les évènements ou actions qui se passent sur la domotique.
+Pour y accéder, il faut soit aller sur la page de log soit dans Analyse
+→ Temps réel
 
-Once you have clicked on it, you will get a window
-updates in real time and displays all the events of your
+Une fois que vous avez cliqué dessus, vous obtenez une fenêtre qui se
+met à jour en temps réel et vous affiche tous les évènements de votre
 domotique.
 
-At the top right you have a search field (only works if you
-are not paused) and a button to pause (useful for
-copy / paste for example).
+En haut à droite vous avez un champ recherche (ne marche que si vous
+n’êtes pas en pause) et un bouton pour mettre en pause (utile pour faire
+un copier/coller par exemple).

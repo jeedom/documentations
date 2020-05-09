@@ -1,230 +1,230 @@
 # Design
-**Página inicial → Design**
+**Accueil → Design**
 
-Esta página permite configurar a exibição de toda a sua automação residencial de uma maneira muito fina.
-Leva tempo, mas seu único limite é a sua imaginação.
+Cette page permet de configurer l’affichage de toute votre domotique de manière très fine.
+Celle-ci demande du temps mais sa seule limite est votre imagination.
 
 > **Tip**
 >
-> É possível ir diretamente a um design graças ao submenu.
+> Il est possible d’aller directement sur un design grâce au sous-menu.
 
 > **Important**
 >
-> Todas as ações são executadas clicando com o botão direito do mouse nesta página, tenha cuidado em fazê-lo bem no design. Ao criar, você deve fazê-lo no meio da página (para ter certeza de estar no design).
+> Toutes les actions se font par un clic droit sur cette page, attention à bien le faire dans le design. Lors de la création, il faut donc le faire au milieu de la page (pour être sûr d’être sur le design).
 
-No menu (clique direito), encontramos as seguintes ações :
+Dans le menu (clic droit), nous retrouvons les actions suivantes :
 
-- **Designs** : Exibe a lista de seus designs e permite que você os acesse.
-- **Edition** : Mudar para o modo de edição.
-- **Tela cheia** : Permite usar a página da Web inteira, o que removerá o menu Jeedom da parte superior.
-- **Adicionar gráfico** : Adicionar um gráfico.
-- **Adicionar text / html** : Permite adicionar texto ou código html / JavaScript.
-- **Ajouter Scénario** : Adicionar um cenário.
-- **Adicionar link**
-    - **Rumo a vista** : Adicionar um link a uma visualização.
-    - **Para projetar** : Adicionar um link a outro design.
-- **Adicionar equipamento** : Adiciona equipamento.
-- **Adicionar comando** : Adicionar um pedido.
-- **Adicionar imagem / câmera** : Permite adicionar uma imagem ou um fluxo de uma câmera.
-- **Adicionar área** : Permite adicionar uma área transparente clicável que pode executar uma série de ações ao clicar (dependendo ou não do status de outro comando).
-- **Adicionar resumo** : Adiciona informações de um objeto ou resumo geral.
+- **Designs** : Affiche la liste de vos designs et permet d’y accéder.
+- **Edition** : Permet de passer en mode édition.
+- **Plein écran** : Permet d’utiliser toute la page Internet, ce qui enlèvera le menu de Jeedom du haut.
+- **Ajouter graphique** : Permet d’ajouter un graphique.
+- **Ajouter texte/html** : Permet d’ajouter du texte ou du code html/JavaScript.
+- **Ajouter scénario** : Permet d’ajouter un scénario.
+- **Ajouter lien**
+    - **Vers une vue** : Permet d’ajouter un lien vers une vue.
+    - **Vers un design** : Permet d’ajouter un lien vers un autre design.
+- **Ajouter équipement** : Permet d’ajouter un équipement.
+- **Ajouter commande** : Permet d’ajouter une commande.
+- **Ajouter image/caméra** : Permet d’ajouter une image ou le flux d’une caméra.
+- **Ajouter zone** : Permet d’ajouter une zone transparente cliquable qui pourra exécuter une série d’actions lors d’un clic (en fonction ou non de l’état d’une autre commande).
+- **Ajouter résumé** : Ajoute les informations d’un résumé d’objet ou général.
 - **Affichage**
-    - **Aucune** : Não exibe nenhuma grade.
-    - **10x10** : Exibe uma grade 10 por 10.
-    - **15x15** : Exibe uma grade de 15 por 15.
-    - **20x20** : Exibe uma grade de 20 por 20.
-    - **Magnetizar os elementos** : Adiciona magnetização entre os elementos para facilitar a aderência deles.
-    - **Alinhar à grade** : Adicione uma magnetização dos elementos à grade (atenção : dependendo do zoom do elemento, essa funcionalidade pode mais ou menos funcionar).
-    - **Ocultar destaque do item** : Ocultar realce em torno dos itens.
-- **Limpar projeto** : Remover desenho.
-- **Criar um design** : Permite adicionar um novo design.
-- **Projeto duplicado** : Duplica o design atual.
-- **Cenografia** : Acesso à configuração do design.
-- **Sauvegarder** : Salve o design (observe que também há backups automáticos durante determinadas ações).
+    - **Aucune** : N’affiche aucune grille.
+    - **10x10** : Affiche une grille de 10 par 10.
+    - **15x15** : Affiche une grille de 15 par 15.
+    - **20x20** : Affiche une grille de 20 par 20.
+    - **Aimanter les éléments** : Ajoute une aimantation entre les éléments pour permettre de les coller plus facilement.
+    - **Aimanter à la grille** : Ajoute une aimantation des éléments à la grille (attention : en fonction du zoom de l’élément cette fonctionnalité peut plus ou moins fonctionner).
+    - **Masquer la surbrillance des éléments** : Masque la surbrillance autour des éléments.
+- **Supprimer le design** : Supprime le design.
+- **Créer un design** : Permet d’ajouter un nouveau design.
+- **Dupliquer le design** : Duplique le design courant.
+- **Configurer le design** : Accès à la configuration du design.
+- **Sauvegarder** : Permet de sauvegarder le design (attention, il y a aussi des sauvegardes automatiques lors de certaines actions).
 
 > **Important**
 >
-> A configuração dos elementos de design é feita com um clique neles.
+> La configuration des éléments du design se fait par un clic sur ceux-ci.
 
-## Configuração do projeto
+## Configuration du design
 
-Encontrado aqui :
+On retrouve ici :
 
-- **Geral**
-    - **Nom** : O nome do seu design.
-    - **Position** : A posição do design no menu. Permite que você encomende os desenhos.
-    - **Fundo transparente** : Torna o plano de fundo transparente. Atenção, se a caixa estiver marcada, a cor do plano de fundo não será usada..
-    - **Cor de fundo** : Cor do plano de fundo do design.
-    - **Código de acesso* : Código de acesso ao seu design (se vazio, nenhum código é necessário).
-    - **ícone** : Um ícone para ele (aparece no menu de opções de design).
+- **Général**
+    - **Nom** : Le nom de votre design.
+    - **Position** : La position du design dans le menu. Permet d'ordonner les designs.
+    - **Fond transparent** : Rend le fond transparent. Attention si la case est cochée, la couleur de fond n’est pas utilisée.
+    - **Couleur de fond** : Couleur de fond du design.
+    - **Code d'accès* : Code d’accès à votre design (si vide, aucun code n’est demandé).
+    - **Icône** : Une icône pour celui-ci (apparaît dans le menu de choix de design).
     - **Image**
-        - **Envoyer** : Permite adicionar uma imagem de plano de fundo ao design.
-        - **Excluir imagem** : Excluir imagem.
+        - **Envoyer** : Permet d’ajouter une image de fond au design.
+        - **Supprimer l’image** : Permet de supprimer l’image.
 - **Tailles**
-    - **Tamanho (LxA)** : Permite definir o tamanho em pixels do seu design.
+    - **Taille (LxH)** : Permet de fixer la taille en pixels de votre design.
 
-## Configuração geral de elementos
+## Configuration générale des éléments
 
 > **Note**
 >
-> Dependendo do tipo de item, as opções podem mudar.
+> En fonction du type de l’élément, les options peuvent changer.
 
-### Configurações comuns de exibição
+### Paramètres d’affichage communs
 
-- **Profondeur** : Permite escolher o nível de profundidade
-- **Posição X (%)** : Coordenada horizontal do elemento.
-- **Posição Y (%)** : Coordenada vertical do elemento.
-- **Largura (px)** : Largura do elemento em pixels.
-- **Altura (px)** : Altura do elemento em pixels.
+- **Profondeur** : Permet de choisir le niveau de la profondeur
+- **Position X (%)** : Coordonnée horizontale de l'élément.
+- **Position Y (%)** : Coordonnée verticale de l'élément.
+- **Largeur (px)** : Largeur de l'élément en pixels.
+- **Hauteur (px)** : Hauteur de l'élément en pixels.
 
 ### Supprimer
 
-Remover item
+Permet de supprimer l’élément
 
 ### Dupliquer
 
-Permite duplicar o elemento
+Permet de dupliquer l’élément
 
 ### Verrouiller
 
-Permite bloquear o elemento para que ele não seja mais móvel ou redimensionável.
+Permet de verrouiller l’élément pour qu’il ne soit plus déplaçable ou redimensionnable.
 
 ## Graphique
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Período** : Permite escolher o período de exibição
-- **Mostrar legenda** : Exibe a legenda.
-- **Mostrar Navigator** : Exibe o navegador (segundo gráfico mais claro abaixo do primeiro).
-- **Ver a selecção tempo** : Exibe o seletor de período no canto superior esquerdo.
-- **Mostrar barra de rolagem** : Exibe a barra de rolagem.
-- **Fundo transparente** : Torna o plano de fundo transparente.
-- **Bordure** : Permite adicionar uma borda, tenha cuidado, a sintaxe é HTML (tenha cuidado, você deve usar a sintaxe CSS, por exemplo : 1px preto sólido).
+- **Période** : Permet de choisir la période d’affichage
+- **Afficher la légende** : Affiche la légende.
+- **Afficher le navigateur** : Affiche le navigateur (deuxième graph plus léger en dessous du premier).
+- **Afficher le sélecteur de période** : Affiche le sélecteur de période en haut à gauche.
+- **Afficher la barre de défilement** : Affiche la barre de défilement.
+- **Fond transparent** : Rend le fond transparent.
+- **Bordure** : Permet d’ajouter une bordure, attention la syntaxe est HTML (attention, il faut utiliser une syntaxe CSS, par exemple : solid 1px black).
 
-### Configuração avançada
+### Configuration avancée
 
-Permite escolher os comandos para grapher.
+Permet de choisir les commandes à grapher.
 
-## Texto / html
+## Text/html
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **ícone** : Ícone exibido na frente do nome do design.
-- **Cor de fundo** : permite alterar a cor do plano de fundo ou torná-la transparente; não se esqueça de alterar "Padrão" para NÃO.
-- **Cor do texto** : permite alterar a cor dos ícones e textos (tenha cuidado para definir Padrão como Não)..
-- **Arredonde os ângulos** : permite arredondar os ângulos (não esqueça de colocar%, ex 50%).
-- **Bordure** : permite adicionar uma borda, cuidado com a sintaxe é HTML (você deve usar a sintaxe CSS, por exemplo : 1px preto sólido).
-- **Tamanho da fonte** : permite alterar o tamanho da fonte (ex 50%, você deve colocar o sinal de%).
-- **Alinhamento de texto** : permite escolher o alinhamento do texto (esquerda / direita / centralizado).
-- **Gras** : texto em negrito.
-- **Texte** : Texto em código HTML que estará no elemento.
+- **Icône** : Icône affichée devant le nom du Design.
+- **Couleur de fond** : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Défaut" sur NON.
+- **Couleur du texte** : permet de changer la couleur des icônes et des textes (attention à bien passer Défaut sur Non)..
+- **Arrondir les angles** : permet d’arrondir les angles (ne pas oublier de mettre %, ex 50%).
+- **Bordure** : permet d’ajouter une bordure, attention la syntaxe est HTML (il faut utiliser une syntaxe CSS, par exemple : solid 1px black).
+- **Taille de la police** : permet de modifier la taille de la police (ex 50%, il faut bien mettre le signe %).
+- **Alignement du texte** : permet de choisir l’alignement du texte (gauche/droit/centré).
+- **Gras** : met le texte en gras.
+- **Texte** : Texte au code HTML qui sera dans l’élément.
 
 > **Important**
 >
-> Se você colocar o código HTML (especialmente o Javascript), verifique-o antes, pois pode ocorrer se houver algum erro ou substituir um componente Jeedom que trava completamente o design e ele só precisará excluí-lo diretamente no banco de dados.
+> Si vous mettez du code HTML (en particulier du Javascript), attention à bien le vérifier avant car vous pouvez si il y a une erreur dedans ou si il écrase un composant Jeedom planter complètement le design et il ne restera plus qu’à le supprimer directement en base de données.
 
-## Cenas
+## Scénario
 
-*Nenhuma configuração de exibição específica*
+*Aucun paramètre spécifique d’affichage*
 
 ## Lien
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Nom** : Nome do link (texto exibido).
-- **Lien** : Link para o design ou exibição em questão.
-- **Cor de fundo** : Permite alterar a cor do plano de fundo ou torná-la transparente; não se esqueça de alterar "Padrão" para NÃO.
-- **Cor do texto** : Permite alterar a cor dos ícones e textos (tenha cuidado para definir Padrão como Não).
-- **Arredonde os ângulos (não esqueça de colocar%, ex 50%)** : Permite arredondar os ângulos, não se esqueça de colocar o%.
-- **Fronteira (atenção sintaxe CSS, ex : 1px preto sólido)** : Permite adicionar uma borda, cuidado com a sintaxe é HTML.
-- **Tamanho da fonte (ex 50%, você deve colocar o sinal de%)** : Permite alterar o tamanho da fonte.
-- **Alinhamento de texto** : Permite escolher o alinhamento do texto (esquerda / direita / centralizado).
-- **Gras** : Texto em negrito.
+- **Nom** : Nom du lien (texte affiché).
+- **Lien** : Lien vers le design ou la vue en question.
+- **Couleur de fond** : Permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Défaut" sur NON.
+- **Couleur du texte** : Permet de changer la couleur des icônes et des textes (attention à bien passer Défaut sur Non).
+- **Arrondir les angles (ne pas oublier de mettre %, ex 50%)** : Permet d’arrondir les angles, ne pas oublier de mettre le %.
+- **Bordure (attention syntaxe CSS, ex : solid 1px black)** : Permet d’ajouter une bordure, attention la syntaxe est HTML.
+- **Taille de la police (ex 50%, il faut bien mettre le signe %)** : Permet de modifier la taille de la police.
+- **Alignement du texte** : Permet de choisir l’alignement du texte (gauche/droit/centré).
+- **Gras** : Met le texte en gras.
 
 ## Equipement
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Do nome de exibição do objeto** : Marque para exibir o nome do objeto pai do dispositivo.
-- **Ocultar nome** : Marque para ocultar o nome do equipamento.
-- **Cor de fundo** : Permite escolher uma cor de fundo personalizada, exibir o equipamento com um fundo transparente ou usar a cor padrão..
-- **Cor do texto** : Permite escolher uma cor de plano de fundo personalizada ou usar a cor padrão.
-- **Arrondis** : Valor em pixels do arredondamento dos ângulos do bloco do equipamento.
-- **Bordure** : Definição CSS de uma borda de bloco de equipamento. Ex : 1px preto sólido.
-- **Opacité** : Opacidade do ladrilho do equipamento, entre 0 e 1. Tenha cuidado : uma cor de fundo deve ser definida.
-- **CSS personalizado** : Regras CSS a serem aplicadas no equipamento.
-- **Aplicar css personalizado em** : Seletor de CSS no qual aplicar CSS personalizado.
+- **Afficher le nom de l'objet** : Cocher pour afficher le nom de l'objet parent de l'équipement.
+- **Masquer le nom** : Cocher pour masquer le nom de l'équipement.
+- **Couleur de fond** : Permet de choisir une couleur de fond personnalisée, ou d'afficher l'équipement avec un fond transparent, ou d'utiliser la couleur par défaut.
+- **Couleur du texte** : Permet de choisir une couleur de fond personnalisée, ou d'utiliser la couleur par défaut.
+- **Arrondis** : Valeur en pixels de l'arrondis des angles de la tuile de l'équipement.
+- **Bordure** : Définition CSS d'une bordure de la tuile de l'équipement. Ex : 1px solid black.
+- **Opacité** : Opacité de la tuile de l'équipement, entre 0 et 1. Attention : une couleur de fond doit être définie.
+- **CSS personnalisé** : Règles CSS à appliquer sur l'équipement.
+- **Appliquer le css personnalisé sur** : Sélecteur CSS sur lequel appliquer le CSS personnalisé.
 
 ### Commandes
 
-A lista de comandos presentes no equipamento permite que, para cada comando, você:
-- Ocultar nome do comando.
-- Ocultar comando.
-- Exibir o pedido com um plano de fundo transparente.
+La liste des commandes présentes sur l'équipement vous permet, pour chaque commande, de:
+- Masquer le nom de la commande.
+- Masquer la commande.
+- Afficher la commande avec une fond transparent.
 
-### Configuração avançada
+### Configuration avancée
 
-Exibe a janela de configuração avançada do equipamento (consulte a documentação **Resumo Automation**).
+Affiche la fenêtre de configuration avancée de l’équipement (voir documentation **Résumé domotique**).
 
 ## Commande
 
-*Nenhuma configuração de exibição específica*
+*Aucun paramètre spécifique d’affichage*
 
-### Configuração avançada
+### Configuration avancée
 
-Exibe a janela de configuração avançada do equipamento (consulte a documentação **Resumo Automation**).
+Affiche la fenêtre de configuration avancée de l’équipement (voir documentation **Résumé domotique**).
 
-## Imagem / Câmera
+## Image/Caméra
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Afficher** : Define o que você deseja exibir, imagem estática ou transmitir a partir de uma câmera.
-- **Image** : Permite enviar a imagem em questão (se você escolheu uma imagem).
-- **Câmera** : Câmera a ser exibida (se você escolher a câmera).
+- **Afficher** : Définit ce que vous voulez afficher, image fixe ou flux d’une caméra.
+- **Image** : Permet d’envoyer l’image en question (si vous avez choisi une image).
+- **Caméra** : Caméra à afficher (si vous avez choisi caméra).
 
 ## Zone
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Sala de jantar** : É aqui que você escolhe o tipo de área : Macro simples, macro binária ou Widget ao passar o mouse.
+- **Type de zone** : C’est ici que vous choisissez le type de la zone : Macro simple, Macro Binaire ou Widget au survol.
 
-### único macro
+### Macro simple
 
-Nesse modo, um clique na zona executa uma ou mais ações. Aqui você só precisa indicar a lista de ações a serem executadas ao clicar na área.
+Dans ce mode là, un clic sur la zone exécute une ou plusieurs actions. Il vous suffit ici d’indiquer la liste des actions à faire lors du clic sur la zone.
 
-### Macro binário
+### Macro binaire
 
-Nesse modo, o Jeedom executará as ações Ativar ou Desativar, dependendo do status do comando que você indicar.. Ex : se o comando vale 0, o Jeedom executará as ações On, caso contrário, executará as ações Off
+Dans ce mode, Jeedom va exécuter la ou les actions On ou Off en fonction de l’état de la commande que vous indiquez. Ex : si la commande vaut 0 alors Jeedom exécutera la ou les actions On sinon il exécutera la ou les actions Off
 
-- **Informação binária** : Comando que fornece o status para verificar para decidir qual ação executar (Ativado ou Desativado).
+- **Information binaire** : Commande donnant l’état à vérifier pour décider de l’action à faire (On ou Off).
 
-Você apenas tem que colocar as ações a fazer para o On e para o Off.
+Il vous suffit en dessous de mettre les actions à faire pour le On et pour le Off.
 
-### Viaduto widget
+### Widget au survol
 
-Nesse modo, ao passar o mouse ou clicar na área Jeedom, você exibirá o widget em questão.
+Dans ce mode, lors du survol ou du clic dans la zone Jeedom, vous afficherez le widget en question.
 
-- **Equipement** : Widget a ser exibido ao passar o mouse ou clicar em.
-- **Mostrar no viaduto** : Se marcado, exibe o widget em foco.
-- **Vista em um clique** : Se marcado, o widget será exibido no clique.
-- **Position** : Permite escolher onde o widget aparecerá (canto inferior direito padrão).
+- **Equipement** : Widget à afficher lors du survol ou du clic.
+- **Afficher au survol** : Si coché, affiche le widget au survol.
+- **Afficher sur un clic** : Si coché, alors le widget est affiché au clic.
+- **Position** : Permet de choisir l’emplacement d’apparition du widget (par défaut bas droite).
 
-## Sumário
+## Résumé
 
-### Configurações de exibição específicas
+### Paramètres d’affichage spécifiques
 
-- **Lien** : Permite que você indique o resumo a ser exibido (Geral para o global, caso contrário, indique o assunto).
-- **Cor de fundo** : Permite alterar a cor do plano de fundo ou torná-la transparente; não se esqueça de alterar "Padrão" para NÃO.
-- **Cor do texto** : Permite alterar a cor dos ícones e textos (tenha cuidado para definir Padrão como Não).
-- **Arredonde os ângulos (não esqueça de colocar%, ex 50%)** : Permite arredondar os ângulos, não se esqueça de colocar o%.
-- **Fronteira (atenção sintaxe CSS, ex : 1px preto sólido)** : Permite adicionar uma borda, cuidado com a sintaxe é HTML.
-- **Tamanho da fonte (ex 50%, você deve colocar o sinal de%)** : Permite alterar o tamanho da fonte.
-- **Gras** : Texto em negrito.
+- **Lien** : Permet d’indiquer le résumé à afficher (Général pour le global sinon indiquer l’objet).
+- **Couleur de fond** : Permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Défaut" sur NON.
+- **Couleur du texte** : Permet de changer la couleur des icônes et des textes (attention à bien passer Défaut sur Non).
+- **Arrondir les angles (ne pas oublier de mettre %, ex 50%)** : Permet d’arrondir les angles, ne pas oublier de mettre le %.
+- **Bordure (attention syntaxe CSS, ex : solid 1px black)** : Permet d’ajouter une bordure, attention la syntaxe est HTML.
+- **Taille de la police (ex 50%, il faut bien mettre le signe %)** : Permet de modifier la taille de la police.
+- **Gras** : Met le texte en gras.
 
 ## FAQ
 
->**Não consigo mais editar meu design**
->Se você colocou um widget ou uma imagem que ocupa quase todo o design, clique fora do widget ou imagem para acessar o menu clicando com o botão direito do mouse.
+>**Je n'arrive plus à éditer mon design**
+>Si vous avez mis un widget ou une image qui prend quasiment la totalité du design, il faut bien cliquer en dehors du widget ou de l'image pour avoir accès au menu par clic droit.
 
->**Excluir um design que não funciona mais**
->Na parte da administração e no OS / DB, faça "select * from planHeader", recupere o ID do design em questão e faça "delete from planHeader where id=#TODO#" e "excluir do plano em que planHeader_id=#todo#" substituindo bem #TODO# pelo ID do design encontrado anteriormente.
+>**Supprimer un design qui ne marche plus**
+>Dans la partie administration puis OS/DB, faire "select * from planHeader", récupérer l'id du design en question et faire un "delete from planHeader where id=#TODO#" et "delete from plan where planHeader_id=#todo#" en remplaçant bien #TODO# par l'id du design trouvé précédemment.

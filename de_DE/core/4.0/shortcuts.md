@@ -1,79 +1,79 @@
-# Jeedom V4 - Tastatur- / Mausverknüpfungen
+# Jeedom V4 - Raccourcis clavier / souris
 
-## Allgemein
+## Général
 
-Beim Öffnen einer Seite (Dashboard, Szenarien usw.) liegt der Fokus auf dem Suchfeld. Sie können daher ohne weitere Aktion direkt eine Suche eingeben.
+A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
 
-- Klicken Sie auf die Uhr (Menüleiste) : Öffnen Sie die Timeline.
-- Klicken Sie auf den Namen des Jeedom (Menüleiste)  : Öffnet **Einstellungen → System → Konfiguration**.
-- Klicken Sie auf ?  (Menüleiste)  : Öffnet die Hilfe auf der aktuellen Seite.
-- Flucht auf ein Forschungsfeld : Leeren Sie das Suchfeld und brechen Sie es ab.
+- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
+- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
+- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
+- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
 
 ## Dashboard
-Im Bearbeitungsmodus:
-	- Ziehen Sie n Drop auf Kacheln, um sie neu anzuordnen.
-	- Ändern Sie die Größe der Kachelränder, um deren Größe zu ändern.
-	- Kontextmenü (Rechtsklick) auf den Kacheln.
+En mode édition:
+	- Drag n Drop sur les tuiles pour les réarranger.
+	- Resize sur les bordures de tuile pour les redimensionner.
+	- Menu contextuel (Clic droit) sur les tuiles.
 
-- Strg Klicken Sie auf einen Info-Befehl : Öffnet alle Verlaufsinformationen der Kachel im Verlaufsfenster.
+- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
 
-## Einstellungen / System / Konfiguration
-- Strg S. : Speichern.
+## Réglages / Système / Configuration
+- Ctrl S : Sauvegarder.
 
-## Einstellungen / System / Backups
-- Strg S. : Speichern.
+## Réglages / Système / Sauvegardes
+- Ctrl S : Sauvegarder.
 
-## Einstellungen / System / Task-Engine
-- Strg S. : Speichern.
+## Réglages / Système / Moteur de tâches
+- Ctrl S : Sauvegarder.
 
-## Einstellungen / System / Benutzer
-- Strg S. : Speichern.
+## Réglages / Système / Utilisateurs
+- Ctrl S : Sauvegarder.
 
-## Einstellungen / Einstellungen
-- Strg S. : Speichern.
+## Réglages / Préférences
+- Ctrl S : Sauvegarder.
 
-## Tools / Interaktionen
-- Bei einer Interaktion wird Strg S gedrückt : Speichern.
-- Klicken Sie bei einer Interaktion mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einer anderen Interaktion zu gelangen.
+## Outils / Interactions
+- Sur une interaction, Ctrl S : Sauvegarder.
+- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
 
-## Werkzeuge / Objekte
-- Auf einem Objekt wird Strg S gedrückt : Speichern.
-- Klicken Sie auf ein Objekt mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Objekt zu gelangen.
+## Outils / Objets
+- Sur un objet, Ctrl S : Sauvegarder.
+- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
 
-## Tools / Widgets
-- In einem Widget wird Strg S gedrückt : Speichern.
-- Klicken Sie in einem Widget mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Widget zu gelangen.
+## Outils / Widgets
+- Sur un widget, Ctrl S : Sauvegarder.
+- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
 
-## Tools / Szenarien
-In einem Szenario :
-- Strg S. : Speichern.
-- Klicken Sie mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Szenario zu gelangen.
-- Strg L. : Protokollanzeige.
-- Strg Shift Z. : Abbrechen.
-- Strg Shift Y. : Remake.
+## Outils / Scénarios
+Sur un scénario :
+- Ctrl S : Sauvegarder.
+- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
+- Ctrl L : Affichage du log.
+- Ctrl Shift Z : Annuler.
+- Ctrl Shift Y : Refaire.
 
-- Strg Klicken Sie auf Ausführen : Speichern Sie das Szenario, führen Sie es aus und öffnen Sie das Protokoll.
-- Strg Klicken Sie auf das Symbol * Kopieren Sie diesen Block* : Schneiden Sie diesen Block.
-- Strg Klicken Sie auf das Symbol * Einfügen eines Blocks* : Ersetzen Sie diesen Block.
-- Strg Klicken Sie auf das Symbol * Löschen Sie diesen Block* : Block ohne Bestätigung löschen.
-- Strg Klicken Sie auf das Symbol * Diesen Block ausblenden* : Alle Blöcke ausblenden oder anzeigen.
+- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
+- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
+- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
+- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
+- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
 
-In einem Codeblock :
-- Strg F. : Suche im Code.
-- Strg G. : Nächstes Suchereignis.
+Dans un bloc Code :
+- Ctrl F : Rechercher dans le code.
+- Ctrl G : Occurrence suivante de la recherche.
 
-## Plugins / Plugins-Verwaltung
-- Strg + S bei einer Plugin-Konfiguration : Speichern.
+## Plugins / Gestion des plugins
+- Ctrl S sur une configuration de plugin : Sauvegarder.
 
-## Plugins / * Plugin*
-- Auf einem Gerät wird Strg S gedrückt  : Speichern.
-- Klicken Sie auf einem Gerät mit der rechten Maustaste auf eine Registerkarte : Kontextmenü, um direkt zu einem anderen Gerät zu gelangen.
+## Plugins / *plugin*
+- Sur un équipement, Ctrl S  : Sauvegarder.
+- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
 
-## Startseite / Ansicht
-- Strg + S beim Bearbeiten einer Ansicht : Speichern.
+## Accueil / Vue
+- Ctrl S sur l'édition d'une vue : Sauvegarder.
 
-## Zuhause / Design
-- Strg + S auf einem Design : Speichern.
-- Strg-Umschalttaste E für ein Design : Aktivieren oder Verlassen des Bearbeitungsmodus.
+## Accueil / Design
+- Ctrl S sur un design : Sauvegarder.
+- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
 
 

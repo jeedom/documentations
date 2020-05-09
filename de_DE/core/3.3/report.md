@@ -1,36 +1,36 @@
-Auf dieser Seite können Sie alle Berichte anzeigen, die durch die Berichtsaktion generiert wurden (siehe Szenariodokumentation)..
+Cette page permet de voir tous les rapports qui ont été généré par l'action report (voir documentation des scénarios).
 
-# Was ist ein Bericht? ?
+# Qu'est qu'un rapport ?
 
-Ein Bericht ist ein Screenshot der Jeedom-Benutzeroberfläche zu einem Zeitpunkt T (die Erfassung wird n angepasst, dass die Menüleiste und andere unnötige Elemente für diese Art der Verwendung nicht übernommen werden)..
+Un rapport est une capture d'écran de l'interface de Jeedom à un instant T (la capture est adaptée pour ne pas prendre la barre de menu et autre élément inutile sur ce type d'utilisation).
 
-Sie können dies für Ansichten, Design und Bedienfeldseite tun....
+Vous pouvez le faire sur des vues, design, page de panel....
 
-Es wird von einem Skript mit dem Befehl report ausgelöst. Sie können festlegen, dass dieser Bericht mit einem Nachrichtenbefehl (E-Mail, Telegramm usw.) an Sie gesendet wird.
+Elle se déclenche à partir d'un scénarion avec la commande report, vous pouvez choisir de vous faire envoyer ce rapport à l'aide d'une commande message (mail, télégram....)
 
 # Utilisation
 
-Die Verwendung ist sehr einfach, Sie wählen aus, wenn Sie sehen möchten :
+Son utilisation est très simple vous selectionnez si vous voulez voir :
 
--	Berichte anzeigen
--	Degins Berichte
--	Plugin-Panel-Berichte
-- Geräteberichte (für eine Zusammenfassung der Batterie für jedes Modul)
+-	les rapports des vues
+-	les rapports des degins
+-	les rapports des panels des plugins
+- les rapports sur les équipements (pour avoir un résumé de la batterie de chaque module)
 
-Anschließend wählen Sie den Namen des betreffenden Berichts aus und sehen alle Daten der Berichte im Speicher
+Ensuite vous selectionner le nom du rapport en question puis vous allez voir toutes les dates des rapports en mémoire
 
 > **Important**
 >
-> Das automatische Löschen erfolgt standardmäßig für Berichte, die länger als 30 Tage dauern (Sie können diesen Zeitraum in der Konfiguration von Jeedom konfigurieren).
+> Une suppression automatique est faite par défaut pour les rapports de plus de 30 jours (vous pouvez configurer ce délai dans la configuration de Jeedom)
 
-Sobald der Bericht ausgewählt ist, können Sie ihn sehen, erneut herunterladen oder löschen.
+Une fois le rapport selectionné vous pouvez le voir apparaitre, le retélécharger ou le supprimer.
 
-Sie können auch alle Sicherungen eines bestimmten Berichts löschen
+Vous pouvez aussi supprimer toute les sauvegardes d'un rapport donné
 
 # FAQ
 
-> **Wenn Sie einen Detailfehler haben : cutycapt: Fehler beim Laden von gemeinsam genutzten Bibliotheken: libEGL.so: freigegebene Objektdatei kann nicht geöffnet werden: Keine solche Datei oder Verzeichnis**
+> **Si vous avez une erreur du type Détails : cutycapt: error while loading shared libraries: libEGL.so: cannot open shared object file: No such file or directory**
 >
-> Dies ist in ssh oder in Administration -> Konfiguration -> OS / DB -> System -> Administration erforderlich :
+> Il faut en ssh ou dans Administration -> Configuration -> OS/DB -> Systeme -> Administration faire :
 >sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so
 >sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so

@@ -1,46 +1,46 @@
-# Synthese
-**Home → Zusammenfassung**
+# Synthèse
+**Accueil → Synthèse**
 
-Die Seite *Synthese* bietet Ihnen eine schnelle und visuelle Synthese Ihrer Objekte und ihrer Zusammenfassungen.
+La page *Synthèse* vous propose une synthèse visuelle et rapide de vos objets et de leurs résumés.
 
-Sie können es als Standardseite in konfigurieren **Einstellungen → Einstellungen**, auf dem Desktop und / oder auf dem Handy.
+Vous pouvez la configurer comme page par défaut dans **Réglages → Préférences**, en desktop et/ou mobile.
 
 ## Affichage
 
-Auf jedem Objekt werden sein Hintergrundbild und seine Zusammenfassungen angezeigt :
+Sur chaque objet, son image de fond et ses résumés sont affichés :
 
-Abhängig von der Art der Zusammenfassung (Schlüssel), sichtbar in **Einstellungen → System → Konfiguration / Zusammenfassungen** :
-- Oben links : Der Name des Objekts.
-- Oben rechts : Die Temperatur (*temperature*) und Luftfeuchtigkeit (*humidity*).
-- Unter dem Titel : Alarm (*security*) und Bewegung (*motion*), grün oder rot gefärbt, je nachdem, ob Warnungen / Bewegungen ausgeführt werden.
-- Unten : Alle anderen Fachzusammenfassungen.
+En fonction du type de résumé (clé), visible dans **Réglages → Système → Configuration / Résumés** :
+- En haut à gauche : Le nom de l'objet.
+- En haut à droite : La température (*temperature*) et l'humidité (*humidity*).
+- Sous le titre : Alerte (*security*) et Mouvement (*motion*), colorés en vert ou en rouge suivant qu'il y a une ou des alertes / mouvement en cours.
+- En bas : Tous les autres résumés de l'objet.
 
-Die Konfiguration der Anzeige des Objekts erfolgt in **Werkzeuge → Objekte** :
-- Sein Name.
-- Wenn es sichtbar ist. Sie können ein Objekt jedoch auch im Dashboard sichtbar lassen, aber ankreuzen *Zusammenfassung ausblenden*.
-- Sein Hintergrundbild.
-- Wenn das Hintergrundbild nur auf der Zusammenfassungsseite oder auch einmal im Hintergrund auf dem Objekt verwendet werden soll.
-- Die Elemente seiner Zusammenfassungen in der Registerkarte *Zusammenfassung*.
+La configuration de l'affichage de l'objet se fait dans **Outils → Objets** :
+- Son nom.
+- Si il est visible. Vous pouvez toutefois conserver un Objet visible y compris sur le Dashboard, mais cocher *Masquer sur la synthèse*.
+- Son image de fond.
+- Si l'image de fond doit être utilisée uniquement sur la page Synthèse ou aussi en fond une fois sur l'objet.
+- Les éléments de ses résumés, dans l'onglet *Résumé*.
 
 > **Tip**
 >
-> Die Anzeigereihenfolge von Objekten ist die von *Übersicht Haus-Automatisierung*, die Sie nachbestellen können (Analyse → Zusammenfassung der Hausautomation).
+> L'ordre d'affichage des objets est celui du *résumé domotique*, que vous pouvez réordonner (Analyse → Résumé domotique).
 
 > **Note**
 >
-> Wenn ein Objekt keine Zusammenfassung definiert hat, wird oben rechts eine Schaltfläche angezeigt, über die Sie auf die Konfiguration / Zusammenfassungen des Objekts zugreifen können..
+> Si un objet n'a pas résumé défini, un bouton s'affiche en haut à droite pour accéder à la configuration / résumés de l'objet.
 
 ## Fonctions
 
-Für jedes Objekt können Sie klicken :
-- Über den Titel des Objekts wird das Dashboard dieses Objekts mit seinen untergeordneten Objekten angezeigt (auch über das Menü zugänglich *Home → Dashboard → Objekt*).
-- Auf dem Bild nur die Ausrüstungsseite dieses Objekts öffnen.
-- Auf einem Zusammenfassungselement, um die Elemente dieses Objekts dieses Typs anzuzeigen.
+Pour chaque objet, vous pouvez cliquer :
+- Sur le titre de l'objet pour afficher le Dashboard de cet objet avec ses objets enfants (également accessible par le menu *Accueil → Dashboard → Objet*).
+- Sur l'image, pour ouvrir la page des équipements de cet objet seulement.
+- Sur un élément de résumé pour afficher les éléments de cet objet, de ce type.
 
 
 > **Tip**
 >
-> Strg Klicken oder Mitte Klicken Sie auf das Objekt oder ein Zusammenfassungselement öffnet eine weitere Registerkarte Ihres Browsers.
+> Ctrl Clic ou Clic Centre sur l'objet ou un élément de résumé ouvre un autre onglet de votre navigateur.
 
-Wenn Sie in der Zusammenfassung auf ein Objekt klicken, wird die Schaltfläche links in der Suchleiste durch eine Schaltfläche ersetzt, mit der Sie zur Zusammenfassung zurückkehren können.
+Quand vous cliquez sur un objet à partir de la synthèse, le bouton à gauche de la barre de recherche est remplacé par un bouton permettant de revenir à la synthèse.
 

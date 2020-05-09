@@ -1,46 +1,46 @@
-# Síntesis
-**Inicio → Resumen**
+# Synthèse
+**Accueil → Synthèse**
 
-La página *Síntesis* le ofrece una síntesis rápida y visual de sus objetos y sus resúmenes.
+La page *Synthèse* vous propose une synthèse visuelle et rapide de vos objets et de leurs résumés.
 
-Puede configurarlo como la página predeterminada en **Configuración → Preferencias**, en escritorio y / o móvil.
+Vous pouvez la configurer comme page par défaut dans **Réglages → Préférences**, en desktop et/ou mobile.
 
 ## Affichage
 
-En cada objeto, se muestran su imagen de fondo y sus resúmenes :
+Sur chaque objet, son image de fond et ses résumés sont affichés :
 
-Dependiendo del tipo de resumen (clave), visible en **Preferencias → Sistema → Configuración / Resúmenes** :
-- Arriba a la izquierda : El nombre del objeto..
-- Arriba a la derecha : La temperatura (*temperature*) y humedad (*humidity*).
-- Bajo el título : Alerta (*security*) y Movimiento (*motion*), de color verde o rojo dependiendo de si hay alertas / movimientos en progreso.
-- Abajo : Todos los otros resúmenes de materias.
+En fonction du type de résumé (clé), visible dans **Réglages → Système → Configuration / Résumés** :
+- En haut à gauche : Le nom de l'objet.
+- En haut à droite : La température (*temperature*) et l'humidité (*humidity*).
+- Sous le titre : Alerte (*security*) et Mouvement (*motion*), colorés en vert ou en rouge suivant qu'il y a une ou des alertes / mouvement en cours.
+- En bas : Tous les autres résumés de l'objet.
 
-La configuración de la visualización del objeto se realiza en **Herramientas → Objetos** :
-- Su nombre.
-- Si es visible. Sin embargo, puede mantener un Objeto visible incluso en el Tablero, pero marque *Ocultar en resumen*.
-- Su imagen de fondo.
-- Si la imagen de fondo solo debe usarse en la página Resumen o también en el fondo una vez en el objeto.
-- Los elementos de sus resúmenes, en la pestaña *Resumen*.
+La configuration de l'affichage de l'objet se fait dans **Outils → Objets** :
+- Son nom.
+- Si il est visible. Vous pouvez toutefois conserver un Objet visible y compris sur le Dashboard, mais cocher *Masquer sur la synthèse*.
+- Son image de fond.
+- Si l'image de fond doit être utilisée uniquement sur la page Synthèse ou aussi en fond une fois sur l'objet.
+- Les éléments de ses résumés, dans l'onglet *Résumé*.
 
 > **Tip**
 >
-> El orden de visualización de los objetos es el de *Resumen de domótica*, que puede reordenar (Análisis → Resumen de automatización del hogar).
+> L'ordre d'affichage des objets est celui du *résumé domotique*, que vous pouvez réordonner (Analyse → Résumé domotique).
 
 > **Note**
 >
-> Si un objeto no ha definido un resumen, se muestra un botón en la parte superior derecha para acceder a la configuración / resúmenes del objeto..
+> Si un objet n'a pas résumé défini, un bouton s'affiche en haut à droite pour accéder à la configuration / résumés de l'objet.
 
 ## Fonctions
 
-Para cada objeto, puede hacer clic :
-- En el título del objeto para mostrar el Panel de este objeto con sus objetos secundarios (también accesible desde el menú *Inicio → Panel de control → Objeto*).
-- En la imagen, para abrir la página del equipo de este objeto solamente.
-- En un elemento de resumen para mostrar los elementos de este objeto, de este tipo.
+Pour chaque objet, vous pouvez cliquer :
+- Sur le titre de l'objet pour afficher le Dashboard de cet objet avec ses objets enfants (également accessible par le menu *Accueil → Dashboard → Objet*).
+- Sur l'image, pour ouvrir la page des équipements de cet objet seulement.
+- Sur un élément de résumé pour afficher les éléments de cet objet, de ce type.
 
 
 > **Tip**
 >
-> Ctrl Click o Center Click en el objeto o un elemento de resumen abre otra pestaña de su navegador.
+> Ctrl Clic ou Clic Centre sur l'objet ou un élément de résumé ouvre un autre onglet de votre navigateur.
 
-Cuando hace clic en un objeto del resumen, el botón a la izquierda de la barra de búsqueda se reemplaza por un botón que permite volver al resumen.
+Quand vous cliquez sur un objet à partir de la synthèse, le bouton à gauche de la barre de recherche est remplacé par un bouton permettant de revenir à la synthèse.
 

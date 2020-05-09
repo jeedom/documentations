@@ -1,0 +1,15 @@
+{
+	"id" : "energy2",
+	"name" : "Comptage",
+	"description" : "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE.",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.2.14",
+	"category" : "energy",
+	"display" : "panel",
+	"mobile" : "panel",
+	"changelog" : "https://jeedom.github.io/plugin-energy2/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-energy2/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

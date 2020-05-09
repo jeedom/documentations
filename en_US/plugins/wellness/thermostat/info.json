@@ -1,0 +1,15 @@
+{
+	"id" : "thermostat",
+	"name" : "Thermostat",
+	"description" : "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement.",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.3",
+	"category" : "wellness",
+	"display" : "panel",
+	"mobile" : "panel",
+	"changelog" : "https://jeedom.github.io/plugin-thermostat/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-thermostat/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

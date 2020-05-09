@@ -1,193 +1,193 @@
-# Registro de cambios Jeedom V4.1
+# Changelog Jeedom V4.1
 
 ## 4.1.0
 
-- Síntesis : Agregar una nueva página **Inicio → Resumen** ofreciendo una síntesis visual global de las partes.
-- Investigación : Adición de un motor de búsqueda en **Herramientas → Buscar**.
-- Tablero de instrumentos : El modo de edición ahora inserta el mosaico movido.
-- Tablero de instrumentos : Ahora podemos hacer clic en el *time* widgets de acciones de tiempo para abrir la ventana del historial del comando de información vinculada.
-- Tablero de instrumentos : El tamaño del mosaico de un equipo nuevo se adapta a su contenido..
-- Tablero de instrumentos : Agregar un botón para filtrar los elementos mostrados por categoría.
-- Tablero de instrumentos : Ctrl Click en una información abre la ventana de historial con todos los comandos historizados del equipo visibles en el mosaico. Ctrl Haga clic en una leyenda para mostrar solo esta, Alt Haga clic para mostrarlas todas.
-- Tablero de instrumentos : Posibilidad de desenfocar imágenes de fondo (Configuración -> Interfaz).
-- Herramientas / widgets : La funcion *Aplicar en* muestra los comandos vinculados marcados, al desmarcar uno se aplicará el widget principal predeterminado a este comando.
-- Widgets : Posibilidad de agregar la clase CSS a un widget (consulte la documentación del widget).
-- Widgets : Agregar un widget principal *sliderVertical*.
-- Centro de actualizaciones : Las actualizaciones se verifican automáticamente cuando se abre la página si tiene 120 minutos de antigüedad.
-- Centro de actualizaciones : La barra de progreso ahora está en la pestaña *Core y plugins*, y el registro se abre por defecto en la pestaña *Informations*.
-- Centro de actualizaciones : Si abre otro navegador durante una actualización, la barra de progreso y el registro lo indican.
-- Centro de actualizaciones : Si la actualización finaliza correctamente, se muestra una ventana que solicita volver a cargar la página.
-- Actualizaciones principales : Implementación de un sistema para limpiar viejos archivos Core no utilizados.
-- Widgets / Objetos / Escenarios / Interacciones / Páginas de complementos :
-	- Ctrl Clic / Clic Center en un widget, objeto, escenarios, interacción, equipo de complemento : Se abre en una pestaña nueva.
-	- Ctrl Clic / Clic Center también disponible en sus menús contextuales (en las pestañas).
-- Nueva página ModalDisplay:
-	- Menú de análisis : Ctrl Click / Click Center en *Tiempo real* : Abra la ventana en una pestaña nueva, en pantalla completa.
-	- Menú de herramientas : Ctrl Click / Click Center en *Notes*, *Probador de expresión*, *Variables*, *Recherche* : Abra la ventana en una pestaña nueva, en pantalla completa.
-- Guión : Agregar un motor de búsqueda (a la izquierda del botón Ejecutar).
-- Guión : Adición de la función de edad (da la edad del valor del pedido).
-- Guión : *stateChanges()* ahora acepta el periodo *today* (desde la medianoche hasta ahora), *yesterday* y *day* (por 1 día).
-- Guión : Las funciones *estadísticas (), promedio (), máximo (), mínimo (), tendencia (), duración ()* : Bugfix durante el período *yesterday*, y acepta ahora *day* (por 1 día).
-- Guión : Posibilidad de desactivar el sistema de cotización automática (Configuración → Sistema → Configuración : Pedidos).
-- Guión : Viendo un *warning* si no se configura ningún activador.
-- Guión : Corrección de errores de seleccionar en el bloque copiar / pegar.
-- Guión : Copiar / pegar bloque entre diferentes escenarios.
-- Guión : Las funciones de deshacer / rehacer ahora están disponibles en forma de botones (al lado del botón de creación de bloque).
-- Ventana de variables de escenario : clasificación alfabética en la apertura.
-- Análisis / Historia : Ctrl Haga clic en una leyenda para mostrar solo este historial, Alt Haga clic para mostrarlos todos.
-- Análisis / Historia : Las opciones *agrupación, tipo, variación, escalera* están activos solo con una sola curva mostrada.
-- Análisis / Historia : Ahora podemos usar la opción *Aire* con la opción *Escalier*.
-- Ver : posibilidad de poner escenarios.
-- Historia : Integración de la línea de tiempo en DB por razones de confiabilidad.
-- Historia : Gestión de múltiples líneas de tiempo..
-- Historia : Revisión gráfica del cronograma.
-- Resumen de domótica : Equipos de complementos desactivados y sus controles ya no tienen los iconos a la derecha (configuración de equipos y configuración avanzada).
-- Resumen de domótica : Posibilidad de buscar en categorías de equipos.
-- Resumen de domótica : Posibilidad de mover varios equipos de un objeto a otro.
-- Resumen de domótica : Posibilidad de seleccionar todo el equipo de un objeto..
-- Motor de tareas : En la pestaña *Demonio*, los complementos deshabilitados ya no aparecen.
-- Configuracion : La pestaña *Informations* ahora está en la pestaña *Principal*.
-- Configuracion : La pestaña *Commandes* ahora está en la pestaña *Equipements*.
-- Ventana de configuración avanzada del equipo : Cambio dinámico de la configuración de la centralita.
-- Equipo : Nueva categoría *Ouvrant*.
-- Sobre ventana : Adición de accesos directos al registro de cambios y preguntas frecuentes.<br/><br/>
-- WebApp : Integración de la nueva página de resumen.
-- WebApp : Página de escenarios, un clic en el título del escenario muestra su registro.
-- WebApp : Ahora podemos seleccionar / copiar parte de un registro.
-- WebApp : En la búsqueda en un registro, agregue un botón x para cancelar la búsqueda.
-- WebApp : Persistencia del cambio de tema (8h).
-- WebApp : En un diseño, un clic con tres dedos vuelve a la página de inicio.
-- WebApp : Visualización de escenarios por grupo..
-- WebApp : Muchas correcciones de errores (UI, iOS vertical / horizontal, etc.).<br/><br/>
-- Documentación : Adaptaciones en línea con v4 y v4.1.
-- Documentación : Nueva página *Atajos de teclado / mouse* incluyendo un resumen de todos los atajos en Jeedom. Accesible desde el Dashboard doc o las preguntas frecuentes.
-- Corrección de errores y optimizaciones..
-- Lib : Actualizar HighStock v7.1.2 a v8.0.4.
-- Lib : Actualizar jQuery v3.4.1 a v3.5.1.
+- Synthèse : Ajout d'une nouvelle page **Accueil → Synthèse** proposant une synthèse visuelle globale des pièces.
+- Recherche : Ajout d'un moteur de recherche dans **Outils → Recherche**.
+- Dashboard : Mode Édition maintenant en insertion de la tuile déplacée.
+- Dashboard : On peut maintenant cliquer sur les *time* des widgets actions time pour ouvrir la fenêtre d'historique de la commande info liée.
+- Dashboard : La taille de la tuile d'un nouvel équipement s'adapte à son contenu.
+- Dashboard : Ajout d'un bouton pour filtrer les éléments affichés par catégorie.
+- Dashboard : Ctrl Clic sur une info ouvre la fenêtre d'historique avec toutes les commandes historisées de l'équipement visible sur la tuile. Ctrl Clic sur une légende pour afficher seulement celle-ci, Alt Clic pour les afficher toutes.
+- Dashboard : Possibilité de flouter les arrières plan des images de fond (Configuration -> Interface).
+- Outils / Widgets : La fonction *Appliquer sur* montre les commandes liées cochées, en décocher une appliquera le widget core par défaut sur cette commande.
+- Widgets : Possibilité d'ajouter des class css à un widget (voir documentation widget).
+- Widgets : Ajout d'un widget core *sliderVertical*.
+- Centre de mise à jour : La vérification des mises à jour se fait automatiquement à l'ouverture de la page si plus ancienne de 120 mins.
+- Centre de mise à jour : La barre de progression est maintenant sur l'onglet *Core et plugins*, et le log ouvert par défaut sur l'onglet *Informations*.
+- Centre de mise à jour : Si vous ouvrez un autre navigateur pendant une update, la barre de progression et le log le signalent.
+- Centre de mise à jour : Si l'update se finit correctement, affichage d'une fenêtre invitant à recharger la page.
+- Mises à jour du Core : Mise en place d'un système de nettoyage des anciens fichiers non utilisés du Core.
+- Pages Widgets / Objets / Scénarios / Interactions / Plugins :
+	- Ctrl Clic / Clic Centre sur un Widget, Objet, Scénarios, Interaction, équipement de plugin : Ouvre dans un nouvel onglet.
+	- Ctrl Clic / Clic Centre également disponible dans leurs menus contextuels (sur les onglets).
+- Nouvelle page ModalDisplay:
+	- Menu Analyse : Ctrl Clic / Clic Centre sur *Temps réel* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
+	- Menu Outils : Ctrl Clic / Clic Centre sur *Notes*, *Testeur expression*, *Variables*, *Recherche* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
+- Scénario : Ajout d'un moteur de recherche (à gauche du bouton Exécuter).
+- Scénario : Ajout de la fonction age (donne l'âge de la valeur de la commande).
+- Scénario : *stateChanges()* accepte maintenant la période *today* (de minuit à maintenant), *yesterday* et *day* (pour 1 day).
+- Scénario : Fonctions *statistics(), average(), max(), min(), tendance(), duration()* : Bugfix sur la période *yesterday*, et accepte maintenant *day* (pour 1 day).
+- Scénario : Possibilité de désactiver le système de quote automatique (Réglages → Système → Configuration : Commandes).
+- Scénario : Affichage d'un *warning* si aucun déclencheur n'est configuré.
+- Scénario : Bugfix des select sur les copier/coller de bloc.
+- Scénario : Copier/coller de bloc entre différents scénarios.
+- Scénario : Les fonctions undo/redo sont maintenant disponible sous forme de boutons (à coté du bouton de création de bloc).
+- Fenêtre des variables de scénarios : tri alphabétique à l'ouverture.
+- Analyse / Historique : Ctrl Clic sur une légende pour afficher seulement cet historique, Alt Clic pour les afficher tous.
+- Analyse / Historique : Les options *groupement, type, variation, escalier* sont actives seulement avec une seule courbe affichée.
+- Analyse / Historique : On peut maintenant utiliser l'option *Aire* avec l'option *Escalier*.
+- Vue : possibilité de mettre des scénarios.
+- Historique : Intégration de la Timeline en DB pour des raisons de fiabilité.
+- Historique : Gestion de Timelines multiples.
+- Historique : Refonte graphique de la timeline.
+- Résumé domotique : Les équipements de plugins désactivés et leurs commandes n'ont plus les icônes de droite (configuration de l'équipement et configuration avancée).
+- Résumé domotique : Possibilité de chercher sur les catégories d'équipements.
+- Résumé domotique : Possibilité de déplacer plusieurs équipements d'un objet dans un autre.
+- Résumé domotique : Possibilité de sélectionner tous les équipements d'un objet.
+- Moteur de tâches : Sur l'onglet *Démon*, les plugins désactivés n’apparaissent plus.
+- Configuration : L'onglet *Informations* est maintenant dans l'onglet *Général*.
+- Configuration : L'onglet *Commandes* est maintenant dans l'onglet *Equipements*.
+- Fenêtre de configuration avancée d'équipement : Changement dynamique de la configuration tableau.
+- Equipements : Nouvelle catégorie *Ouvrant*.
+- Fenêtre A propos : Ajout de raccourcis vers le Changelog et la FAQ.<br/><br/>
+- WebApp : Intégration de la nouvelle page Synthèse.
+- WebApp : Page scénarios, un clic sur le titre du scénario affiche le log de celui-ci.
+- WebApp : On peut maintenant sélectionner / copier une partie d'un log.
+- WebApp : Sur la recherche dans un log, ajout d'un bouton x pour annuler la recherche.
+- WebApp : Persistance de la bascule de thème (8h).
+- WebApp : Sur un design, un click avec trois doigts permet de revenir à l'accueil.
+- WebApp : Affichage des scénarios par groupe.
+- WebApp : Nombreux bug-fix (UI, portrait/landscape iOS, etc.).<br/><br/>
+- Documentation : Adaptations en adéquation avec la v4 et v4.1.
+- Documentation : Nouvelle page *Raccourcis clavier / souris* comprenant un récapitulatif de tous les raccourcis dans Jeedom. Accessible depuis la doc du Dashboard ou la FAQ.
+- Corrections de bugs et optimisations.
+- Lib : Update HighStock v7.1.2 vers v8.1.0.
+- Lib : Update jQuery v3.4.1 vers v3.5.1.
 
 
 ### 4.0.53
 
-- Corrección de errores.
+- Correction de bug.
 
 ### 4.0.52
 
-- Corrección de errores (la actualización debe hacerse absolutamente si está en 4.0.51).
+- Correction de bug (mise à jour à faire absolument si vous êtes en 4.0.51).
 
 ### 4.0.51
 
-- Correcciones de errores.
-- Optimización del futuro sistema DNS.
+- Correction de bugs.
+- Optimisation du futur système de DNS.
 
 ### 4.0.49
 
-- Posibilidad de elegir el motor Jeedom TTS y posibilidad de tener complementos que ofrecen un nuevo motor TTS.
-- Soporte mejorado para webview en la aplicación móvil.
-- Correcciones de errores.
-- Actualizando el documento.
+- Possibilité de choisir le moteur TTS de jeedom et possibilité d'avoir des plugins qui propose un nouveau moteur TTS.
+- Amélioration du support de la webview dans l'application mobile.
+- Correction de bugs.
+- Mise à jour de la doc.
 
 ### 4.0.47
 
-- Mejora del probador de expresión.
-- Actualización del repositorio en smart.
-- Correcciones de errores.
+- Amélioration du testeur d'expression.
+- Mise à jour du repository sur smart.
+- Correction de bugs.
 
 ### 4.0.44
 
-- Traducciones mejoradas.
-- Correcciones de errores.
-- Restauración de copia de seguridad en la nube mejorada.
-- La restauración en la nube ahora solo repatria la copia de seguridad local, dejando la opción de descargarla o restaurarla.
+- Amélioration des traductions.
+- Correction de bugs.
+- Amélioration de la restauration de backup cloud.
+- La restauration cloud ne rapatrie plus maintenant que le backup en local, laissant le choix de le télécharger ou de le restaurer.
 
 ### 4.0.43
 
-- Traducciones mejoradas.
-- Corrección de errores en plantillas de escenarios..
+- Amélioration des traductions.
+- Correction de bugs sur les templates de scénario.
 
 ## 4.0.0
-- Rediseño completo de temas (Core 2019 Light / Dark / Legacy).
-- Posibilidad de cambiar el tema automáticamente según la hora.
-- En dispositivos móviles, el tema puede cambiar según el brillo (requiere activación *sensor adicional genérico* en cromo, página de cromo://flags).<br/><br/>
-- Mejora y reorganización del menú principal..
-- Menú de complementos : La lista de categorías y complementos ahora está ordenada alfabéticamente.
-- Menú de herramientas : Adición de un botón para acceder al probador de expresión.
-- Menú de herramientas : Adición de un botón para acceder a las variables..<br/><br/>
-- Los campos de búsqueda ahora admiten acentos.
-- Los campos de búsqueda (Panel de control, escenarios, objetos, widgets, interacciones, complementos) ahora están activos cuando se abre la página, lo que le permite escribir una búsqueda directamente.
-- Agregue un botón X en los campos de búsqueda para cancelar la búsqueda..
-- Durante una búsqueda, la clave *echap* cancelar búsqueda.
-- Tablero de instrumentos : En el modo de edición, el campo de búsqueda y sus botones están deshabilitados y se arreglan.
-- Tablero de instrumentos : En el modo de edición, haga clic en un botón. *expand* a la derecha de los objetos cambia el tamaño de los mosaicos del objeto a la altura del más alto. Ctrl + clic los reduce a la altura del más bajo.
-- Tablero de instrumentos : La ejecución del comando en un mosaico ahora se señala mediante el botón *refresh*. Si no hay ninguno en el mosaico, aparecerá durante la ejecución.
-- Tablero de instrumentos : Los mosaicos indican un comando de información (historial, que abrirá la ventana Historial) o acción al pasar el mouse.
-- Tablero de instrumentos : La ventana de historial ahora le permite abrir este historial en Análisis / Historial.
-- Tablero de instrumentos : La ventana de historial conserva su posición / dimensiones cuando se vuelve a abrir otro historial.
-- Ventana de configuración de comandos: Ctrl + clic en &quot;Guardar&quot; cierra la ventana después.
-- Ventana de configuración del equipo: Ctrl + clic en &quot;Guardar&quot; cierra la ventana después.
-- Agregar información de uso al eliminar equipos.
-- Objetos : Opción agregada para usar colores personalizados.
-- Objetos : Agregar menú contextual en pestañas (cambio rápido de objeto).
-- Interacciones : Agregar menú contextual en pestañas (cambio rápido de interacción).
-- Complementos : Agregar menú contextual en pestañas (cambio rápido de equipo).
-- Complementos : En la página de administración de complementos, un punto naranja indica complementos no estables.
-- Mejoras de tabla con filtro y opción de clasificación.
-- Posibilidad de asignar un ícono a una interacción.
-- Cada página de Jeedom ahora tiene un título en el idioma de la interfaz (pestaña del navegador).
-- Prevención del autocompletado en el código de acceso de los campos'.
-- Gestión de funciones *Página anterior / Página siguiente* navegador.<br/><br/>
-- Widgets : Rediseño del sistema de widgets (menú Herramientas / Widgets).
-- Widgets : Posibilidad de reemplazar un widget con otro en todos los comandos que lo usan.
-- Widgets : Posibilidad de asignar un widget a múltiples comandos.
-- Widgets : Agregar widget numérico de información horizontal.
-- Widgets : Agregar un widget vertical numérico de información.
-- Widgets : Adición de una brújula de información numérica / widget de viento (gracias @thanaus).
-- Widgets : Agregar un widget de lluvia de información numérica (gracias @thanaus)
-- Widgets : Visualización del widget de obturador de información / acción proporcional al valor.<br/><br/>
-- Configuracion : Mejora y reorganización de pestañas.
-- Configuracion : Agregando muchos *tooltips* (Ayuda).
-- Configuracion : Agregar un motor de búsqueda.
-- Configuracion : Agregar un botón para vaciar el caché del widget (pestaña Caché).
-- Configuracion : Opción agregada para deshabilitar el caché del widget (pestaña Caché).
-- Configuracion : Capacidad para centrar el contenido de los mosaicos verticalmente (pestaña Interfaz).
-- Configuracion : Adición de un parámetro para la purga global de las historias (Comandos Tab).
-- Configuracion : Cambio de #message# A las #subject# en Configuración / Registros / Mensajes para evitar la duplicación del mensaje.
-- Configuracion : Posibilidad en los resúmenes de agregar una exclusión de los pedidos que no se han actualizado durante más de XX minutos (ejemplo para el cálculo de los promedios de temperatura si un sensor no ha elevado nada durante más de 30 minutos, se excluirá del cálculo )<br/><br/>
-- Guión : La coloración de los bloques ya no es aleatoria, sino por tipo de bloque..
-- Guión : Posibilidad mediante Ctrl + clic en el botón *ejecución* guárdelo, ejecútelo y muestre el registro (si el nivel de registro no está activado *Aucun*).
-- Guión : Confirmación de eliminación de bloque. Ctrl + clic para evitar la confirmación.
-- Guión : Adición de una función de búsqueda en los bloques de Código. Buscar : Ctrl + F luego Enter, Siguiente resultado : Ctrl + G, resultado anterior : Ctrl + Shift + G
-- Guión : Capacidad para condensar bloques.
-- Guión : La acción &#39;Agregar bloque&#39; cambia a la pestaña Escenario si es necesario.
-- Guión : Nuevas funciones de copiar / pegar en bloque. Ctrl + clic para cortar / reemplazar.
-- Guión : Ya no se agrega un nuevo bloque al final del escenario, sino después del bloque donde estaba antes de hacer clic, determinado por el último campo en el que hizo clic.
-- Guión : Implementación de un sistema Deshacer / Rehacer (Ctrl + Shift + Z / Ctrl + Shift + Y).
-- Guión : Eliminar escenario compartido.
-- Guión : Mejora de la ventana de gestión de plantillas de escenarios..<br/><br/>
-- Análisis / Equipamiento : Adición de un motor de búsqueda (pestaña Baterías, búsqueda de nombres y padres).
-- Análisis / Equipamiento : Ahora se puede hacer clic en el área de calendario / días del equipo para acceder directamente al cambio de batería (s).
-- Análisis / Equipamiento : Adición de un campo de búsqueda..<br/><br/>
-- Centro de actualizaciones : Advertencia en la pestaña &#39;Núcleo y complementos&#39; y / u &#39;Otros&#39; si hay una actualización disponible. Cambie a &#39;Otros&#39; si es necesario.
-- Centro de actualizaciones : diferenciación por versión (estable, beta, ...).
-- Centro de actualizaciones : adición de una barra de progreso durante la actualización.<br/><br/>
-- Resumen de domótica : El historial de eliminación ahora está disponible en una pestaña (Resumen - Historial).
-- Resumen de domótica : Revisión completa, posibilidad de ordenar objetos, equipos, pedidos.
-- Resumen de domótica : Adición de equipos e ID de pedidos, en pantalla y en búsqueda.
-- Resumen de domótica : Exportación CSV de objeto primario, id, equipo y su id, comando.
-- Resumen de domótica : Posibilidad de hacer visibles o no uno o más pedidos.<br/><br/>
-- Diseño : Capacidad para especificar el orden (posición) de *Designs* y *Diseños en 3D* (Editar, configurar diseño).
-- Diseño : Adición de un campo CSS personalizado en los elementos del *design*.
-- Diseño : Desplazamiento de las opciones de visualización en Diseño de la configuración avanzada, en los parámetros de visualización de la *Design*. Esto para simplificar la interfaz y permitir tener diferentes parámetros por *Design*.
-- Diseño : Mover y redimensionar componentes en *Design* tiene en cuenta su tamaño, con o sin magnetización.<br/><br/>
-- Reducción general (estilos CSS / en línea, refactorización, etc.) y mejoras de rendimiento.
-- Elimine Font Awesome 4 para mantener solo Font Awesome 5.
-- Actualización de Libs : jquery 3.4.1, CodeMiror 5.46.0, clasificador de tabla 2.31.1.
-- Numerosas correcciones de errores.
-- Agregar un sistema de configuración masiva (utilizado en la página Equipo para configurar la Alerta de comunicación en estos)
+- Refonte complète des thèmes (Core 2019 Light / Dark / Legacy).
+- Possibilité de changer de thème automatiquement en fonction de l'heure.
+- En mobile, le thème peut changer en fonction de la luminosité (Nécessite d'activer *generic extra sensor* dans chrome, page chrome://flags).<br/><br/>
+- Amélioration et réorganisation du menu principal.
+- Menu Plugins : La liste des catégories et des plugins est maintenant triée alphabétiquement.
+- Menu Outils : Ajout d'un bouton pour avoir accès au testeur d'expression.
+- Menu Outils : Ajout d'un bouton pour avoir accès aux variables.<br/><br/>
+- Les champs de recherche supportent maintenant les accents.
+- Les champs de recherche (Dashboard, scénarios, objets, widgets, interactions, plugins) sont maintenant actifs à l'ouverture de la page, permettant de taper directement une recherche.
+- Ajout d'un bouton X sur les champs de recherche pour annuler la recherche.
+- Lors d'une recherche, la touche *echap* annule la recherche.
+- Dashboard : En mode édition, le champ recherche et ses boutons sont désactivés et deviennent fixe.
+- Dashboard : En mode édition, un clic sur un bouton *expand* à droite des objets redimensionne les tuiles de l'objet à la hauteur de la plus haute. Ctrl+clic les réduit à la hauteur de la moins haute.
+- Dashboard : L’exécution de commande sur une tuile est maintenant signalée par le bouton *refresh*. Si il n'y en a pas sur la tuile, il apparaîtra le temps de l’exécution.
+- Dashboard : Les tuiles indiquent une commande info (historisée, qui ouvrira la fenêtre Historique) ou action au survol.
+- Dashboard : La fenêtre d'historique permet maintenant d'ouvrir cet historique dans Analyse/Historique.
+- Dashboard : La fenêtre d'historique conserve ses position/dimensions à la réouverture d'un autre historique.
+- Fenêtre Configuration de commande: Ctrl+clic sur "Enregistrer" ferme la fenêtre après.
+- Fenêtre Configuration de l'équipement: Ctrl+clic sur "Enregistrer" ferme la fenêtre après.
+- Ajout d'informations d'utilisation lors de la suppression d'un équipement.
+- Objets : Ajout d'une option pour utiliser des couleurs personnalisées.
+- Objets : Ajout d'un menu contextuel sur les onglets (changement rapide d'objet).
+- Interactions : Ajout d'un menu contextuel sur les onglets (changement rapide d'interaction).
+- Plugins : Ajout d'un menu contextuel sur les onglets (changement rapide d'équipement).
+- Plugins : Sur la page Gestion des plugins, un point orange signale les plugins en version non Stable.
+- Améliorations des tables avec option de filtre et tri.
+- Possibilité d'attribuer une icône à une interaction.
+- Chaque page de Jeedom a maintenant un titre dans la langue de l'interface (tab du navigateur).
+- Prévention de l'auto remplissage sur les champs 'Code d'accès'.
+- Gestion des fonctions *Page précédente / Page suivante* du navigateur.<br/><br/>
+- Widgets : Refonte du système de widgets (menu Outils / Widgets).
+- Widgets : Possibilité de remplacer un widget par un autre sur toutes les commandes l'utilisant.
+- Widgets : Possibilité d'affecter un widgets à plusieurs commandes.
+- Widgets : Ajout d'un widget info numeric horizontal.
+- Widgets : Ajout d'un widget info numeric vertical.
+- Widgets : Ajout d'un widget info numeric compass/wind (merci @thanaus).
+- Widgets : Ajout d'un widget info numeric rain (merci @thanaus)
+- Widgets : Affichage du widget info/action shutter proportionnel à la valeur.<br/><br/>
+- Configuration : Amélioration et réorganisation des onglets.
+- Configuration : Ajout de nombreux *tooltips* (aide).
+- Configuration : Ajout d'un moteur de recherche.
+- Configuration : Ajout d'un bouton pour vider le cache des widgets (onglet Cache).
+- Configuration : Ajout d'une option pour désactiver le cache des widgets (onglet Cache).
+- Configuration : Possibilité de centrer verticalement le contenu des tuiles (onglet Interface).
+- Configuration : Ajout d'un paramètre pour la purge globale des historiques (onglet Commandes).
+- Configuration : Changement de #message# à #subject# dans Configuration/Logs/Messages pour éviter la duplication du message.
+- Configuration : Possibilité dans les résumés d'ajouter une exclusion des commandes n'ayant pas étés mises à jour depuis plus de XX minutes (exemple pour le calcul des moyennes de température si un capteur n'a rien remonté depuis plus de 30min il sera exclus du calcul)<br/><br/>
+- Scénario : La colorisation des blocs n'est plus aléatoire, mais par type de bloc.
+- Scénario : Possibilité en faisant un Ctrl + clic sur le bouton *exécution* de le sauvegarder, le lancer, et afficher le log (si le niveau de log n'est pas sur *Aucun*).
+- Scénario : Confirmation de suppression d'un bloc. Ctrl + clic pour éviter la confirmation.
+- Scénario : Ajout d'une fonction recherche dans les bloc Code. Rechercher : Ctrl + F puis Enter, Résultat suivant : Ctrl + G, Résultat précédent : Ctrl + Shift + G
+- Scénario : Possibilité de condenser les blocs.
+- Scénario : L'action 'Ajouter bloc' bascule sur l'onglet Scénario si nécessaire.
+- Scénario : Nouvelles fonctions copier/coller de bloc. Ctrl+clic pour couper/remplacer.
+- Scénario : Un nouveau bloc n'est plus ajouté à la fin du scénario, mais après le bloc où vous étiez avant de cliquer, déterminé par le dernier champ dans lequel vous avez cliqué.
+- Scénario : Mise en place d'un système d'Undo/Redo (Ctrl+Shift+Z / Ctrl+Shift+Y).
+- Scénario : Suppression du partage de scénario.
+- Scénario : Amélioration de la fenêtre de gestion des templates de scénario.<br/><br/>
+- Analyse / Equipements : Ajout d'un moteur de recherche (onglet Batteries, recherche sur les noms et parents).
+- Analyse / Equipements : La zone calendrier/jours de l'équipement est maintenant cliquable pour accéder directement au changement de pile(s).
+- Analyse / Equipements : Ajout d'un champ de recherche.<br/><br/>
+- Centre de mise à jour : Warning sur l'onglet 'Core et plugins' et/ou 'Autres' si une update est disponible. Bascule sur 'Autres' si nécessaire.
+- Centre de mise à jour : différentiation par version (stable, beta, ...).
+- Centre de mise à jour : ajout d'une barre de progression pendant l'update.<br/><br/>
+- Résumé domotique : L'historique des suppressions est maintenant disponible dans un onglet (Résumé - Historique).
+- Résumé domotique : Refonte complète, possibilité d'ordonner les objets, équipements, commandes.
+- Résumé domotique : Ajout des IDs d'équipement et de commande, à l'affichage et dans la recherche.
+- Résumé domotique : Export CSV des objet parent,id,équipement et de leurs id,commande.
+- Résumé domotique : Possibilité de rendre visible ou non une ou des commandes.<br/><br/>
+- Design : Possibilité de spécifier l'ordre (position) des *Designs* et *Designs 3D* (Edition, Configurer le Design).
+- Design : Ajout d'un champs CSS personnalisé sur les éléments du *design*.
+- Design : Déplacement des options d'affichages en Design de la configuration avancée, dans les paramètres d'affichage depuis le *Design*. Ceci afin de simplifier l'interface, et de permettre d'avoir des paramètres différents par *Design*.
+- Design : Le déplacement et le redimensionnement des composants sur les *Design* tient compte de leur taille, avec ou sans aimantation.<br/><br/>
+- Allègement général (css / inline styles, refactoring, etc.) et améliorations des performances.
+- Suppression de Font Awesome 4 pour ne conserver que Font Awesome 5.
+- Mise à jour des libs : jquery 3.4.1 , CodeMiror 5.46.0, tablesorter 2.31.1.
+- Nombreuses corrections de bugs.
+- Ajout d'un système de configuration en masse (utilisé sur la page Equipement pour configurer l’Alerte Communication sur ceux-ci)
 
 >**IMPORTANT**
 >
->Si después de la actualización tiene un error en el Tablero, intente reiniciar su caja para que tenga en cuenta las nuevas adiciones de componentes.
+>Si après la mise à jour vous avez une erreur sur le Dashboard essayez de redémarrer votre box pour qu'elle prenne bien les nouveaux ajout de composants en compte.
 
 >**IMPORTANT**
 >
->El complemento de widgets no es compatible con esta versión de Jeedom y ya no será compatible (porque las funciones se han asumido internamente en el núcleo). Más información [aqui](https://www.Jeedom.com/blog/4368-les-widgets-en-v4).
+>Le plugin widget n'est pas compatible avec cette version de Jeedom et ne sera plus supporté (car les fonctionnalités ont été reprise en interne sur le core). Plus d'informations [ici](https://www.Jeedom.com/blog/4368-les-widgets-en-v4).

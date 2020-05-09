@@ -1,55 +1,55 @@
-# Mecanismo de tarefas
-**Configurações → Sistema → Mecanismo de Tarefas**
+# Moteur de tâches
+**Réglages → Système → Moteur de tâches**
 
-Esta página informa sobre todas as tarefas do aplicativo Jeedom em execução no servidor.
-Esta página deve ser usada com conhecimento ou a pedido de suporte técnico.
+Cette page informe de toutes les tâches applicatives Jeedom qui tournent sur le serveur.
+Cette page est à utiliser en connaissance de cause ou à la demande du support technique.
 
 > **Important**
 >
-> Em caso de uso indevido nesta página, qualquer solicitação de suporte poderá ser recusada.
+> En cas de mauvaise manipulation sur cette page, toute demande de support peut vous être refusée.
 
-## Guia Cron
+## Onglet Cron
 
-No canto superior direito, você tem :
+En haut, à droite, vous avez :
 
-- **Desativar o sistema cron** : um botão para desativar ou reativar todas as tarefas (se você desativá-las todas, nada funcionará no seu Jeedom).
-- **Legal** : Atualiza a tabela de tarefas.
-- **Ajouter** : Adicionar um trabalho cron manualmente.
-- **Sauvegarder** : Salve suas alterações.
+- **Désactiver le système cron** : un bouton pour désactiver ou réactiver toutes les tâches (si vous les désactivez toutes, plus rien ne sera fonctionnel sur votre Jeedom).
+- **Rafraîchir** : Rafraîchit la table des tâches.
+- **Ajouter** : Permet d'ajouter une tâche cron manuellement.
+- **Sauvegarder** : Sauvegarde vos modifications.
 
-Abaixo, você tem a tabela de todas as tarefas existentes (atenção, algumas tarefas podem iniciar subtarefas, portanto, é altamente recomendável nunca modificar as informações nesta página).
+En-dessous, vous avez le tableau de toutes les tâches existantes (attention, certaines tâches peuvent lancer des sous-tâches, il est donc vivement recommandé de ne jamais modifier d’informations sur cette page).
 
-Nesta tabela, encontramos :
+Dans ce tableau, on retrouve :
 
-- **\#** : ID da tarefa, útil para vincular um processo em execução ao que ele realmente faz.
-- **Actif** : Indica se a tarefa está ativa (pode ser iniciada pelo Jeedom) ou não.
-- **PID** : Indica o ID do processo atual.
-- **Demônio** : Se esta caixa for "sim", a tarefa deve sempre estar em andamento. Além disso, você encontra a frequência do daemon, é aconselhável nunca modificar esse valor e, especialmente, nunca diminuí-lo.
-- **Unique** : Se for "sim", a tarefa será iniciada uma vez e será excluída automaticamente.
-- **Classe** : Classe PHP chamada para executar a tarefa (pode estar vazia).
-- **Fonction** : Função PHP chamada na classe chamada (ou não, se a classe estiver vazia).
-- **Programmation** : Programação da tarefa no formato CRON.
-- **Timeout** : Tempo máximo de execução da tarefa. Se a tarefa for um daemon, ela será automaticamente interrompida e reiniciada no final do tempo limite.
-- **último lançamento** : Data do último lançamento da tarefa.
-- **Última duração** : Último tempo de execução da tarefa (um daemon sempre estará em 0s, não se preocupe, outras tarefas podem estar em 0s).
-- **Statut** : Status atual da tarefa (como lembrete, uma tarefa daemon é sempre "executada").
+- **\#** : ID de la tâche, utile pour faire le lien entre un processus qui tourne et ce qu’il fait vraiment.
+- **Actif** : Indique si la tâche est active (peut être lancée par Jeedom) ou non.
+- **PID** : Indique le process ID actuel.
+- **Démon** : Si cette case est à "oui" alors la tâche doit toujours être en cours. A côté, vous retrouvez la fréquence du démon, il est conseillé de ne jamais modifier cette valeur et surtout de ne jamais la diminuer.
+- **Unique** : Si c’est à "oui" alors la tâche se lancera une fois puis se supprimera.
+- **Classe** : Classe PHP appelée pour exécuter la tâche (peut être vide).
+- **Fonction** : Fonction PHP appelée dans la classe appelée (ou non si la classe est vide).
+- **Programmation** : Programmation de la tâche au format CRON.
+- **Timeout** : Durée maximale de fonctionnement de la tâche. Si la tâche est un démon alors elle sera automatiquement arrêtée et redémarrée à la fin du timeout.
+- **Dernier lancement** : Date de dernier lancement de la tâche.
+- **Dernière durée** : Dernière durée d’exécution de la tâche (un démon sera toujours à 0s, il ne faut pas s’inquiéter d’autres tâches peuvent être à 0s).
+- **Statut** : État actuel de la tâche (pour rappel, une tâche démon est toujours à "run").
 
 - **Action** :
-    - **Detalhes** : Veja o cron em detalhes (conforme armazenado na base).
-    - **Iniciar / Parar** : Iniciar ou parar a tarefa (dependendo do status).
-    - **Suppression** : Excluir tarefa.
+    - **Détails** : Voir le cron dans le détail (tel que stocké en base).
+    - **Démarrer / Arrêter** : Lancer ou arrêter la tâche (en fonction de son statut).
+    - **Suppression** : Permet de supprimer la tâche.
 
 
-## Guia Ouvinte
+## Onglet Listener
 
-Os ouvintes são apenas visíveis na leitura e permitem que você veja as funções chamadas em um evento (atualização de um comando ...).
+Les listeners sont juste visibles en lecture et permettent de voir les fonctions appelées sur un évènement (mise à jour d'une commande...).
 
-## Guia Demon
+## Onglet Démon
 
-Tabela de resumo dos demônios com seu estado, a data do último lançamento, bem como a possibilidade de
-- Iniciar / reiniciar um daemon.
-- Pare um daemon se o gerenciamento automático estiver desativado.
-- Ativar / desativar o gerenciamento automático de um daemon.
+Tableau de résumé des démons avec leur état, la date de dernier lancement ainsi que la possibilité de
+- Démarrer / Redémarrer un démon.
+- Arrêter un démon si la gestion automatique est désactiver.
+- Activer / désactiver la gestion automatique d'un démon.
 
 > Tip
-> Demônios de plugins desativados não aparecem nesta página.
+> Les démons des plugins désactivés n’apparaissent pas sur cette page.

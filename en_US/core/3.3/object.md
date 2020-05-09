@@ -1,146 +1,146 @@
-The **objets** allow you to define the tree structure of your home automation.
-All the equipment you create must belong to an object and
-will be more easily identifiable. We then say that the object
-is the **parent** equipment. Object management is accessible
-from the menu **Tools → Objects**.
+Les **objets** permettent de définir l’arborescence de votre domotique.
+Tous les équipements que vous créerez devront appartenir à un objet et
+pourront ainsi être plus facilement repérables. On dit alors que l’objet
+est le **parent** de l’équipement. La gestion des objets est accessible
+à partir du menu **Outils → Objets**.
 
-To give free choice to customization, you can name these
-objects as you want. Usually, we will define the different
-parts of his house, like the names of the rooms (this is
-recommended configuration).
+Pour laisser libre choix à la personnalisation, vous pouvez nommer ces
+objets comme vous le voulez. Usuellement, on y définira les différentes
+parties de sa maison, comme le nom des pièces (c’est d’ailleurs la
+configuration recommandée).
 
-Management 
+Gestion 
 =======
 
-You have two options :
+Deux options s’offrent à vous :
 
--   **Ajouter** : Create a new object.
+-   **Ajouter** : Permet de créer un nouvel objet.
 
--   **Overview** : Displays the list of created objects
-    as well as their configuration.
+-   **Vue d’ensemble** : Permet d’afficher la liste des objets créés
+    ainsi que leur configuration.
 
-My objects 
+Mes objets 
 ==========
 
-Once you have created an object, it will appear in this part.
+Une fois que vous avez créé un objet, il apparaîtra dans cette partie.
 
-Object tab 
+Onglet Objet 
 ------------
 
-By clicking on an object, you access its configuration page. What
-whatever the changes made, don&#39;t forget to save at the
+En cliquant sur un objet, vous accédez à sa page de configuration. Quels
+que soient les changements effectués, n’oubliez pas de sauvegarder à la
 fin.
 
-Here are the different characteristics to configure an object :
+Voici donc les différentes caractéristiques pour configurer un objet :
 
--   **Object name** : The name of your object.
+-   **Nom de l’objet** : Le nom de votre objet.
 
--   **Dad** : Indicates the relative of the current object, this allows
-    define a hierarchy between objects. For example : The living room has
-    to relative the apartment. An object can only have one parent
-    but several objects can have the same relative.
+-   **Père** : Indique le parent de l’objet courant, cela permet de
+    définir une hiérarchie entre les objets. Par exemple : Le salon a
+    pour parent l’appartement. Un objet ne peut avoir qu’un seul parent
+    mais plusieurs objets peuvent avoir le même parent.
 
--   **Visible** : Check this box to make this object visible.
+-   **Visible** : Cochez cette case pour rendre visible cet objet.
 
--   **Hide on the dashboard** : Check this box to hide
-    the object on the dashboard. It is still kept in the
-    list, which allows you to display it, but only
-    explicitly.
+-   **Masquer sur le dashboard** : Cochez cette case pour masquer
+    l’objet sur le dashboard. Il est tout de même conservé dans la
+    liste, ce qui permet de l’afficher, mais uniquement de
+    manière explicite.
 
--   **Icon** : Allows you to choose an icon for your object.
+-   **Icône** : Permet de choisir une icône pour votre objet.
 
--   **Tag color** : Allows you to choose the color of the object and
-    equipment attached to it.
+-   **Couleur du tag** : Permet de choisir la couleur de l’objet et des
+    équipements qui lui sont rattachés.
 
--   **Tag text color** : Allows you to choose the text color
-    of the object. This text will be over the **Tag color**. To you
-    to choose a color to make the text readable.
+-   **Couleur du texte du tag** : Permet de choisir la couleur du texte
+    de l’objet. Ce texte sera par dessus la **couleur du tag**. A vous
+    de choisir une couleur pour rendre le texte lisible.
 
--   **Summary text color** : Allows you to choose the color of
-    results of the object summary in the dashboard.
+-   **Couleur du texte du résumé** : Permet de choisir la couleur des
+    résultats du résumé de l’objet dans le dashboard.
 
--   **Size on the dashboard (1 to 12)** : Allows you to define the width
-    the display of this object in the dashboard. For example : if you
-    put `6` to two consecutive objects in the list, then it
-    will be side by side on the dashboard. If you put `3` to four
-    objects that follow each other, they will also be side by side.
-
-> **Tip**
->
-> You can change the display order of objects in the dashboard.
-> In the menu, on the left of your page, use the vertical arrows
-> drag and drop to give them a new place.
+-   **Taille sur le dashboard (1 à 12)** : Permet de définir la largeur
+    de l’affichage de cet objet dans le dashboard. Par exemple : si vous
+    mettez `6` à deux objets qui se suivent dans la liste, alors il
+    seront côte à côte sur le dashboard. Si vous mettez `3` à quatre
+    objets qui se suivent, ils seront également côte à côte.
 
 > **Tip**
 >
-> You can see a graph representing all the elements of Jeedom
-> attached to this object by clicking on the button **Liens**, up at
-> right.
+> Vous pouvez modifier l’ordre d’affichage des objets dans le dashboard.
+> Dans le menu, à gauche de votre page, utilisez les flèches verticales
+> en glisser/déposer pour leur donner une nouvelle place.
 
 > **Tip**
 >
-> When a device is created and no relative has been defined, it
-> will have as relative : **Aucun** .
+> Vous pouvez voir un graphique représentant tous les éléments de Jeedom
+> rattachés à cet objet en cliquant sur le bouton **Liens**, en haut à
+> droite.
 
-Summary tab 
+> **Tip**
+>
+> Quand un équipement est créé et qu’aucun parent n’a été défini, il
+> aura comme parent : **Aucun** .
+
+Onglet Résumé 
 -------------
 
-Summaries are global information, assigned to an object, which
-are displayed in particular on the dashboard next to the name of the latter.
+Les résumés sont des informations globales, affectées à un objet, qui
+s’affichent notamment sur le dashboard à côté du nom de ce dernier.
 
-### Bulletin board 
+### Tableau d’affichage 
 
-The columns represent the summaries assigned to the current object. Three
-lines are proposed to you :
+Les colonnes représentent les résumés affectés à l’objet courant. Trois
+lignes vous sont proposées :
 
--   **Go up in the global summary** : Check the box if you
-    want the summary to be displayed in the menu bar
-    from Jeedom.
+-   **Remonter dans le résumé global** : Cochez la case si vous
+    souhaitez que le résumé soit affiché dans la barre de menu
+    de Jeedom.
 
--   **Hide on desktop** : Check the box if you do not want
-    the summary is displayed next to the name of the object on the dashboard.
+-   **Masquer en desktop** : Cochez la case si vous ne souhaitez pas que
+    le résumé s’affiche à côté du nom de l’objet sur le dashboard.
 
--   **Hide on mobile** : Check the box if you do not want
-    the summary is displayed when you view it from a mobile.
+-   **Masquer en mobile** : Cochez la case si vous ne souhaitez pas que
+    le résumé s’affiche quand vous l’affichez depuis un mobile.
 
-### Orders 
+### Commandes 
 
-Each tab represents a type of summary defined in the configuration
-from Jeedom. Click on **Add an order** so that it is
-taken into account in the summary. You have the choice to select the
-order any Jeedom equipment, even if it is not for
-relative this object.
+Chaque onglet représente un type de résumé défini dans la configuration
+de Jeedom. Cliquez sur **Ajouter une commande** pour que celle-ci soit
+prise en compte dans le résumé. Vous avez le choix de sélectionner la
+commande de n’importe quel équipement de Jeedom, même s’il n’a pas pour
+parent cet objet.
 
 > **Tip**
 >
-> If you want to add a summary type or to configure the
-> method of calculating the result, the unit, the icon and the name of a summary,
-> you have to go to the general configuration of Jeedom :
-> **Administration → Configuration → Summaries tab**.
+> Si vous souhaitez ajouter un type de résumé ou pour configurer la
+> méthode de calcul du résultat, l’unité, l’icône et le nom d’un résumé,
+> vous devez aller dans la configuration générale de Jeedom :
+> **Administration → Configuration → Onglet Résumés**.
 
-Overview 
+Vue d’ensemble 
 ==============
 
-The overview allows you to view all the objects in
-Jeedom, as well as their configuration :
+La vue d’ensemble vous permet de visualiser l’ensemble des objets dans
+Jeedom, ainsi que leur configuration :
 
--   **ID** : Object Id.
+-   **ID** : ID de l’objet.
 
--   **Objet** : Object name.
+-   **Objet** : Nom de l’objet.
 
--   **Dad** : Name of relative object.
+-   **Père** : Nom de l’objet parent.
 
--   **Visible** : Object visibility.
+-   **Visible** : Visibilité de l’objet.
 
--   **Masqué** : Indicates if the object is hidden on the dashboard.
+-   **Masqué** : Indique si l’objet est masqué sur le dashboard.
 
--   **Summary Defined** : Indicates the number of orders per summary. This
-    which is in blue is taken into account in the global summary.
+-   **Résumé Défini** : Indique le nombre de commandes par résumé. Ce
+    qui est en bleu est pris en compte dans le résumé global.
 
--   **Hidden Dashboard Summary** : Show hidden summaries on
-    the dashboard.
+-   **Résumé Dashboard Masqué** : Indique les résumés masqués sur
+    le dashboard.
 
--   **Hidden Mobile Summary** : Show hidden summaries on
-    the cellphone.
+-   **Résumé Mobile Masqué** : Indique les résumés masqués sur
+    le mobile.
 
 

@@ -1,46 +1,46 @@
-# Preferências
-**Configurações → Preferências**
+# Préférences
+**Réglages → Préférences**
 
-A página Preferências permite configurar determinados comportamentos Jeedom específicos do usuário.
+La page Préférences vous permet de configurer certains comportements de Jeedom spécifiques à l’utilisateur.
 
-## Guia Preferências
+## Onglet Préférences
 
 ### Interface
 
-Define certos comportamentos da interface
+Définit certains comportements de l’interface
 
-- **Painel Objetos no Painel** : Exibe o painel de objetos (à esquerda) no Painel, sem precisar clicar no botão dedicado.
-- **Página padrão** : Página a ser exibida por padrão para exibição ao conectar-se a computadores ou dispositivos móveis.
-- **Objeto padrão** : Objeto a ser exibido por padrão na chegada ao Painel / dispositivo móvel.
+- **Panneau des objets sur le Dashboard** : Affiche le panneau des objets (à gauche) sur le Dashboard, sans avoir à cliquer sur le bouton dédié.
+- **Page par défaut** : Page à afficher par défaut à afficher lors de la connexion en desktop ou mobile.
+- **Objet par défaut** : Objet à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
 
-- **Modo de exibição padrão** : Exibir para exibir por padrão na chegada ao painel / dispositivo móvel.
-- **Desdobrar o painel de vista** : Usado para tornar o menu de visualização (à esquerda) visível nas visualizações por padrão.
+- **Vue par défaut** : Vue à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
+- **Déplier le panneau des vues** : Permet de rendre visible par défaut le menu des vues (à gauche) sur les vues.
 
-- **Projeto padrão** : Design a ser exibido por padrão na chegada ao Painel / dispositivo móvel.
-- **Design em tela cheia** : Exibição padrão em tela cheia na chegada dos projetos.
+- **Design par défaut** : Design à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
+- **Design Plein écran** : Affichage par défaut en plein écran lors de l’arrivée sur les designs.
 
-- **Design 3D padrão** : Design 3D a ser exibido por padrão ao chegar no Painel / dispositivo móvel.
-- **Design 3D em tela cheia** : Exibição padrão em tela cheia na chegada em projetos 3D.
+- **Design 3D par défaut** : Design 3D à afficher par défaut lors de l’arrivée sur le Dashboard / mobile.
+- **Design 3D Plein écran** : Affichage par défaut en plein écran lors de l’arrivée sur les designs 3D.
 
 ### Notifications
 
-- **Comando de notificação do usuário** : Comando padrão para alcançá-lo (comando do tipo de mensagem).
+- **Commande de notification utilisateur** : Commande par défaut pour vous joindre (commande de type message).
 
-## Guia Segurança
+## Onglet Sécurité
 
-- **Autenticação em duas etapas** : permite configurar a autenticação em 2 etapas (como lembrete, é um código que muda a cada X segundos que é exibido em um aplicativo móvel, digite *google authentificator*) Observe que a autenticação dupla só será solicitada para conexões externas.Para conexões locais, o código não será solicitado..
+- **Authentification en 2 étapes** : permet de configurer l’authentification en 2 étapes (pour rappel, c’est un code changeant toutes les X secondes qui s’affiche sur une application mobile, type *google authentificator*). A noter que la double authentification ne sera demandée que pour les connexions externes Pour les connexions locaes,l le code ne sera donc pas demandé.
 
-  **Important** se durante a configuração da autenticação dupla você tiver um erro, verifique se o Jeedom (veja na página de integridade) e seu telefone estão ao mesmo tempo (1 min de diferença é suficiente para que não funcione).
+  **Important** si lors de la configuration de la double authentification vous avez une erreur, il faut  vérifier que Jeedom (voir sur la page santé) et votre téléphone sont bien à la même heure (1 min de différence suffit pour que ça ne marche pas).
 
-- **Senha** : Permite alterar sua senha (não se esqueça de digitá-la novamente abaixo).
+- **Mot de passe** : Permet de changer votre mot de passe (ne pas oublier de le retaper en dessous).
 
-- **Hash Usuário** : Sua chave de API do usuário.
+- **Hash de l’utilisateur** : Votre clef API d’utilisateur.
 
-### Sessões ativas
+### Sessions actives
 
-Aqui você tem a lista de suas sessões atualmente conectadas, seu ID, seu IP e a data da última comunicação. Ao clicar em "Desconectar", isso desconectará o usuário. Atenção, se estiver em um dispositivo registrado, isso também excluirá a gravação.
+Vous avez ici la liste de vos sessions actuellement connectées, leur ID, leur IP ainsi que la date de dernière communication. En cliquant sur "Déconnecter" cela déconnectera l’utilisateur. Attention si il est sur un périphérique enregistré cela supprimera également l’enregistrement.
 
-### Dispositivo registrado
+### Périphérique enregistrés
 
-Aqui você encontra a lista de todos os dispositivos registrados (que se conectam sem autenticação) ao seu Jeedom, bem como a data do último uso.
-Aqui você pode excluir o registro de um dispositivo. Atenção, ele não o desconecta, mas apenas impede sua reconexão automática.
+Vous retrouvez ici la liste de tous les périphériques enregistrés (qui se connectent sans authentification) à votre Jeedom ainsi que la date de dernière utilisation.
+Vous pouvez ici supprimer l’enregistrement d’un périphérique. Attention cela ne le déconnecte pas mais empêchera juste sa reconnexion automatique.

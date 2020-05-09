@@ -1,49 +1,49 @@
-Viendo 
+Affichage 
 =========
 
-El menú Registros le permite seguir lo que está sucediendo en su domótica. En la
-En la mayoría de los casos, los registros solo se utilizarán para la depuración y
-resolver problemas por el equipo de soporte.
+Le menu Logs permet de suivre ce qui se passe sur sa domotique. Dans la
+plupart des cas les logs ne serviront qu’à effectuer du debuggage et à
+résoudre des problèmes par l’équipe de support.
 
-Para acceder, vaya a Administración → Registros :
+Pour y accéder il faut aller dans Administration → Logs :
 
-La página de registros es bastante simple, en la parte superior izquierda hay una lista desplegable
-permitiendo la elección del registro para ver, en la parte superior derecha tienes 5
-botones :
+La page de Logs est assez simple, en haut à gauche une liste déroulante
+permettant le choix du log à regarder, en haut à droite vous avez 5
+boutons :
 
--   **Rechercher** : permite filtrar el cartel de registro
+-   **Rechercher** : permet de filtrer l’affiche de log
 
--   **Pausa / Reanudar** : le permite pausar / reanudar la configuración
-    actualización de registro en tiempo real
+-   **Pause/Reprendre** : permet de mettre en pause/reprendre la mise à
+    jour en temps réel des logs
 
--   **Descargar** : permite descargar el registro actual,
+-   **Télécharger** : permet de télécharger le log actuel,
 
--   **Vider** : permite vaciar el registro actual,
+-   **Vider** : permet de vider le log actuel,
 
--   **Supprimer** : eliminar el registro actual, si Jeedom tiene alguna
-    necesitarlo lo recreará automáticamente,
+-   **Supprimer** : permet de supprimer le log actuel, si Jeedom en a
+    besoin il le recréera automatiquement,
 
--   **Eliminar todos los registros** : eliminar todos los registros presentes.
+-   **Supprimer tous les logs** : supprime tous les logs présents.
 
 > **Tip**
 >
-> Tenga en cuenta que el registro http.el error no se puede eliminar. Es esencial
-> ! si lo elimina (en la línea de comando, por ejemplo) no lo hará
-> no recrearse, debes reiniciar el sistema.
+> A noter que le log http.error ne peut être supprimé. Il est essentiel
+> ! si vous le supprimez (en ligne de commande par exemple) celui-ci ne
+> se recréera pas tout seul, il faut redémarrer le système.
 
-El registro de eventos" 
+Le log "Event" 
 ==============
 
-El registro &quot;Evento&quot; es un poco especial. En primer lugar para que
-funciona, debe estar en el nivel de información o depuración, entonces este
-enumera todos los eventos o acciones que ocurren en domótica.
-Para acceder a él, debe ir a la página de registro o en Análisis
-→ tiempo real
+Le log "Event" est un peu particulier. Tout d’abord pour qu’il
+fonctionne, il faut qu’il soit en niveau info ou debug, ensuite celui-ci
+recense tous les évènements ou actions qui se passent sur la domotique.
+Pour y accéder, il faut soit aller sur la page de log soit dans Analyse
+→ Temps réel
 
-Una vez que haya hecho clic en él, obtendrá una ventana
-se actualiza en tiempo real y muestra todos los eventos de su
+Une fois que vous avez cliqué dessus, vous obtenez une fenêtre qui se
+met à jour en temps réel et vous affiche tous les évènements de votre
 domotique.
 
-En la parte superior derecha tiene un campo de búsqueda (solo funciona si
-no están en pausa) y un botón para pausar (útil para
-copiar / pegar por ejemplo).
+En haut à droite vous avez un champ recherche (ne marche que si vous
+n’êtes pas en pause) et un bouton pour mettre en pause (utile pour faire
+un copier/coller par exemple).

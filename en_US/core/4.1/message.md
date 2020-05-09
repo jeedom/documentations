@@ -1,14 +1,14 @@
-# Message Center
-**Toolbar**
+# Centre de message
+**Barre de menu**
 
-The message center brings together all the important messages you should consult. It is to the left of the time, on the right of the Jeedom menu bar.
+Le centre des messages regroupe tous les messages importants que vous devez consulter. Il se trouve à gauche de l’heure, sur la droite de la barre de menu de Jeedom.
 
-It is only accessible when there are messages, by clicking on the number of messages.
+Il n’est accessible que lorsqu’il y a des messages, en cliquant sur le nombre de messages.
 
-It is quite simple. It shows you the date and time of the message, the plugin that sent it and the message in question. You can, by pressing the button at the very beginning of the line of a message, delete the message in question (it will come back if the problem is still current).
+Il est assez simple. Il vous montre la date et l’heure du message, le plugin qui l’a émis et le message en question. Vous pouvez, en appuyant sur le bouton au tout début de la ligne d’un message, supprimer le message en question (il reviendra si le problème est toujours d’actualité).
 
-At the top, there is a selector to filter messages on a particular plugin and on the far right a button to empty all messages.
+En haut, on retrouve un sélecteur pour filtrer les messages sur un plugin particulier et tout à droite un bouton pour vider tous les messages.
 
 > **Tip**
 >
-> When you have an error in the message center, first try to delete the message then see if the error returns before contacting support. Sometimes it is just due to a network connection problem.
+> Lorsque vous avez une erreur dans le centre des messages, essayez d’abord de supprimer le message puis voir si l’erreur revient avant de contacter le support. Il arrive que ce soit juste dû à un souci de connexion réseau.

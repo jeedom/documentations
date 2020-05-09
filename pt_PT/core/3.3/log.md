@@ -1,49 +1,49 @@
-Visualizando 
+Affichage 
 =========
 
-O menu Logs permite acompanhar o que está acontecendo na sua automação residencial. No
-Na maioria dos casos, os logs serão usados apenas para depuração e
-resolver problemas pela equipe de suporte.
+Le menu Logs permet de suivre ce qui se passe sur sa domotique. Dans la
+plupart des cas les logs ne serviront qu’à effectuer du debuggage et à
+résoudre des problèmes par l’équipe de support.
 
-Para acessá-lo, vá para Administração → Logs :
+Pour y accéder il faut aller dans Administration → Logs :
 
-A página Logs é bastante simples, no canto superior esquerdo uma lista suspensa
-permitindo a escolha do registro para assistir, no canto superior direito você tem 5
-botões :
+La page de Logs est assez simple, en haut à gauche une liste déroulante
+permettant le choix du log à regarder, en haut à droite vous avez 5
+boutons :
 
--   **Rechercher** : permite filtrar o pôster do log
+-   **Rechercher** : permet de filtrer l’affiche de log
 
--   **Pausar / retomar** : permite pausar / retomar a configuração
-    atualização de log em tempo real
+-   **Pause/Reprendre** : permet de mettre en pause/reprendre la mise à
+    jour en temps réel des logs
 
--   **Baixar** : Faça o download do log atual,
+-   **Télécharger** : permet de télécharger le log actuel,
 
--   **Vider** : Limpe o log atual,
+-   **Vider** : permet de vider le log actuel,
 
--   **Supprimer** : excluir o log atual, se o Jeedom tiver algum
-    precisa dele irá recriá-lo automaticamente,
+-   **Supprimer** : permet de supprimer le log actuel, si Jeedom en a
+    besoin il le recréera automatiquement,
 
--   **Excluir todos os logs** : Excluir todos os logs presentes.
+-   **Supprimer tous les logs** : supprime tous les logs présents.
 
 > **Tip**
 >
-> Observe que o log http.erro não pode ser excluído. É essencial
-> ! se você excluí-lo (na linha de comando, por exemplo), ele não
-> não se recrie, você deve reiniciar o sistema.
+> A noter que le log http.error ne peut être supprimé. Il est essentiel
+> ! si vous le supprimez (en ligne de commande par exemple) celui-ci ne
+> se recréera pas tout seul, il faut redémarrer le système.
 
-O log de eventos" 
+Le log "Event" 
 ==============
 
-O log "Evento" é um pouco especial. Antes de tudo, para que
-funciona, ele deve estar no nível de informações ou depuração, então este
-lista todos os eventos ou ações que acontecem na automação residencial.
-Para acessá-lo, você deve ir para a página de log ou no Analysis
-→ Tempo real
+Le log "Event" est un peu particulier. Tout d’abord pour qu’il
+fonctionne, il faut qu’il soit en niveau info ou debug, ensuite celui-ci
+recense tous les évènements ou actions qui se passent sur la domotique.
+Pour y accéder, il faut soit aller sur la page de log soit dans Analyse
+→ Temps réel
 
-Depois de clicar nele, você verá uma janela
-atualizações em tempo real e exibe todos os eventos do seu
+Une fois que vous avez cliqué dessus, vous obtenez une fenêtre qui se
+met à jour en temps réel et vous affiche tous les évènements de votre
 domotique.
 
-No canto superior direito, você tem um campo de pesquisa (só funciona se você
-pausadas) e um botão para pausar (útil para
-copiar / colar, por exemplo).
+En haut à droite vous avez un champ recherche (ne marche que si vous
+n’êtes pas en pause) et un bouton pour mettre en pause (utile pour faire
+un copier/coller par exemple).

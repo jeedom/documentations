@@ -1,77 +1,77 @@
-This is where we will be able to define the list of users
-allowed to connect to Jeedom, but also their rights
-d'administrateur
+C’est ici que l’on va pouvoir définir la liste des utilisateurs
+autorisés à se connecter à Jeedom, mais également leurs droits
+d’administrateur
 
-Accessible by Administration → Users.
+Accessible par Administration → Utilisateurs.
 
-At the top right you have a button to add a user, a
-to save and a button to open a support access.
+En haut à droite vous avez un bouton pour ajouter un utilisateur, un
+pour sauvegarder et un bouton pour ouvrir un accès au support.
 
-Below you have a table :
+En dessous vous avez un tableau :
 
--   **Username** : user id
+-   **Nom d’utilisateur** : l’identifiant de l’utilisateur
 
--   **Actif** : allows to deactivate the account
+-   **Actif** : permet de désactiver le compte
 
--   **Local only** : authorize user login
-    only if it is on the local Jeedom network
+-   **Local seulement** : autorise la connexion de l’utilisateur
+    uniquement s’il est sur le réseau local de Jeedom
 
--   **Profils** : allows to choose the user profile :
+-   **Profils** : permet de choisir le profil de l’utilisateur :
 
-    -   **Administrateur** : gets all rights on Jeedom
+    -   **Administrateur** : obtient tous les droits sur Jeedom
 
-    -   **Utilisateur** : can see the dashboard, views,
-        design, etc. and act on equipment / controls. On the other hand,
-        he will not have access to the configuration of controls / equipment
-        nor to the configuration of Jeedom.
+    -   **Utilisateur** : peut voir le dashboard, les vues, les
+        design, etc. et agir sur les équipements/commandes. En revanche,
+        il n’aura pas accès à la configuration des commandes/équipements
+        ni à la configuration de Jeedom.
 
-    -   **Limited user** : the user only sees the
-        authorized equipment (configurable with the &quot;Manage&quot; button
-        rights&quot;)
+    -   **Utilisateur limité** : l’utilisateur ne voit que les
+        équipements autorisés (configurable avec le bouton "Gérer
+        les droits")
 
--   **API key** : user&#39;s personal API key
+-   **Clef API** : clef API personnelle de l’utilisateur
 
--   **Double authentication** : indicates whether double authentication
-    is active (OK) or not (NOK)
+-   **Double authentification** : indique si la double authentification
+    est active (OK) ou non (NOK)
 
--   **Date of last connection** : date of the last connection of
-    the user at Jeedom. Please note, this is the connection date
-    actual, so if you save your computer, the date of
-    connection is not updated every time you return to it.
+-   **Date de dernière connexion** : date de la dernière connexion de
+    l’utilisateur à Jeedom. Attention, ici c’est la date de connexion
+    réelle, ainsi si vous enregistrez votre ordinateur, la date de
+    connexion n’est pas mise à jour à chaque fois que vous y retournez.
 
--   **To change the password** : allows to change the password from
-    l'utilisateur
+-   **Changer le mot de passe** : permet de changer le mot de passe de
+    l’utilisateur
 
--   **Supprimer** : delete user
+-   **Supprimer** : permet de supprimer l’utilisateur
 
--   **Regenerate API key** : regenerates the API key of the user
+-   **Regénerer clef API** : regénère la clef API de l’utilisateur
 
--   **Manage rights** : allows to finely manage the rights of
-    the user (attention the profiles must be in
-    "limited user ")
+-   **Gérer les droits** : permet de gérer finement les droits de
+    l’utilisateur (attention le profils doit être en
+    "utilisateur limité")
 
-Rights management 
+Gestion des droits 
 ==================
 
-When clicking on &quot;Manage rights&quot; a window appears allowing you
-finely manage user rights. The first tab displays
-the different equipment. The second presents the scenarios.
+Lors du clic sur "Gérer les droits" une fenêtre apparait et vous permet
+de gérer finement les droits de l’utilisateur. Le premier onglet affiche
+les différents équipements. Le deuxième présente les scénarios.
 
 > **Important**
 >
-> The profile must be limited otherwise no restrictions placed here
-> will be taken into account
+> Le profil doit être en limité sinon aucune restriction mise ici ne
+> sera prise en compte
 
-You get a table which allows, for each equipment and each
-scenario, define user rights :
+Vous obtenez un tableau qui permet, pour chaque équipement et chaque
+scénario, de définir les droits de l’utilisateur :
 
--   **Aucun** : the user does not see the equipment / scenario
+-   **Aucun** : l’utilisateur ne voit pas l’équipement/scénario
 
--   **Visualisation** : the user sees the equipment / scenario but does not
-    can&#39;t act on it
+-   **Visualisation** : l’utilisateur voit l’équipement/scénario mais ne
+    peut pas agir dessus
 
--   **Visualization and execution** : the user sees
-    the equipment / scenario and can act on it (light a lamp, throw
-    the scenario, etc.)
+-   **Visualisation et exécution** : l’utilisateur voit
+    l’équipement/scénario et peut agir dessus (allumer une lampe, lancer
+    le scénario, etc.)
 
 

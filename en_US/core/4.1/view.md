@@ -1,96 +1,96 @@
 # Vues
-**Home → View**
+**Accueil → Vue**
 
-Views allow you to create a custom view.
-It is not as powerful as the designs but it allows in a few minutes to have a more personalized display.
+Les vues permettent de créer un affichage personnalisé.
+Ce n’est pas aussi puissant que les designs mais cela permet en quelques minutes d’avoir un affichage plus personnalisé.
 
 > **Tip**
 >
-> You can choose the default view in your profile when clicking on the view menu.
+> Vous pouvez dans votre profil choisir la vue par défaut lors du clic sur le menu des vues.
 
 ## Principe
 
-We can also put widgets, graphs (which can be composed of several data) or table zones (which contain the command widgets).
+On peut mettre aussi bien des widgets, des graphiques (qui peuvent être composés de plusieurs données) ou des zones tableau (qui contiennent les widgets des commandes).
 
-On this page, there is a button at the top left to show or hide the list of views as well as the button to add one (Jeedom will ask for its name and send you to the edit page) :
-
-> **Tip**
->
-> You can modify this option in your profile so that the list of views is visible by default.
-
-## Adding / Editing a view
-
-The principle is quite simple : a view is made up of zones (you can put as many as you want). Each zone is of graphic, widget or table type, depending on the type you can put equipment, control or graphic widgets in it.
+Sur cette page, on retrouve un bouton en haut à gauche pour montrer ou masquer la liste des vues ainsi que le bouton pour en ajouter une (Jeedom vous demandera son nom et vous enverra sur la page d’édition) :
 
 > **Tip**
 >
-> You can move the order of the zones by dragging and dropping.
+> Vous pouvez dans votre profil modifier cette option pour que la liste des vues soit visible par défaut.
 
-- On the left of the page we find the list of views and an add button.
-- A button at the top right allows you to edit the current view.
-- In the center you have a button to rename a view, a button to add an area, a button to see the result, a button to save and a button to delete the view..
+## Ajout/Edition d’une vue
 
-After clicking on the add zone button, Jeedom will ask for its name and type.
-On each zone you have the following general options :
-
-- **Largeur** : Defines the width of the area (in desktop mode only).
-- **Editer** : Allows you to change the name of the zone.
-- **Supprimer** : Delete the zone.
-
-### Widget type area
-
-A widget type area allows you to add widgets :
-
-- **Add widget** : Add / edit widgets to display in the area.
+Le principe est assez simple : une vue est composée de zones (on peut en mettre autant que l’on veut). Chaque zone est de type graphique, widget ou tableau, en fonction du type vous pourrez mettre des widgets d’équipement, de commande ou des graphiques dans celle-ci.
 
 > **Tip**
 >
-> You can delete a widget directly by clicking on the trash can in front of it.
+> Il est possible de déplacer l’ordre des zones par glisser/déposer.
+
+- Sur la gauche de la page on retrouve la liste des vues ainsi qu’un bouton d’ajout.
+- Un bouton en haut à droite vous permet d’éditer la vue courante.
+- Au centre vous avez un bouton pour renommer une vue, un bouton d’ajout de zone, un bouton pour voir le résultat, un bouton pour sauvegarder et un bouton pour supprimer la vue.
+
+Après avoir cliqué sur le bouton d’ajout de zone, Jeedom vous demandera son nom et son type.
+Sur chaque zone vous avez les options générales suivantes :
+
+- **Largeur** : Définit la largeur de la zone (en mode desktop seulement).
+- **Editer** : Permet de changer le nom de la zone.
+- **Supprimer** : Permet de supprimer la zone.
+
+### Zone de type widget
+
+Une zone de type widget permet d’ajouter des widgets :
+
+- **Ajouter widget** : Permet d’ajouter/modifier des widgets à afficher dans la zone.
 
 > **Tip**
 >
-> You can change the order of widgets in the area by dragging and dropping.
-
-Once the add widget button is pressed, you get a window that will ask you for the widget to add
-
-### Graphic type area
-
-A graphics type area allows you to add graphics to your view, it has the following options :
-
-- **Period** : Allows you to choose the graphics display period (30 min, 1 day, 1 week, 1 month, 1 year or all).
-- **Add curve** : Add / edit graphics.
-
-When you press the &quot;Add curve&quot; button Jeedom displays the list of historical commands and you can choose the one (s) to add, once done you have access to the following options :
-
-- **Poubelle** : Remove command from chart.
-- **Nom** : Name of the command to draw.
-- **Couleur** : Color of the curve.
-- **Type** : Type of curve.
-- **Groupement** : Allows you to group data (maximum type per day).
-- **Echelle** : Scale (right or left) of the curve.
-- **Escalier** : Displays the staircase curve.
-- **Empiler** : Stacks the curve with the other type curves.
-- **Variation** : Only draw variations with the previous value.
+> Vous pouvez supprimer un widget directement en cliquant sur la poubelle devant celui-ci.
 
 > **Tip**
 >
-> You can change the order of the graphics in the area by dragging and dropping.
+> Il est possible de modifier l’ordre des widgets dans la zone par glisser/déposer.
 
-### Array type area
+Une fois le bouton d’ajout de widget pressé, vous obtenez une fenêtre qui vous demandera le widget à ajouter
 
-Here you have the buttons :
+### Zone de type graphique
 
-- **Add column** : Add a column to the table.
-- **Add line** : Add a row to the table.
+Une zone de type graphique permet d’ajouter des graphiques à votre vue, elle possède les options suivantes :
+
+- **Période** : Permet de choisir la période d’affichage des graphiques (30 min, 1 jour, 1 semaine, 1 mois, 1 année ou tout).
+- **Ajouter courbe** : Permet d’ajouter/modifier des graphiques.
+
+Quand vous pressez le bouton "Ajouter courbe" Jeedom affiche la liste des commandes historisées et vous pouvez choisir celle(s) à ajouter, une fois cela fait vous avez accès aux options suivantes :
+
+- **Poubelle** : Supprime la commande du graphique.
+- **Nom** : Nom de la commande à dessiner.
+- **Couleur** : Couleur de la courbe.
+- **Type** : Type de la courbe.
+- **Groupement** : Permet de grouper les données (type maximum par jour).
+- **Echelle** : Échelle (droite ou gauche) de la courbe.
+- **Escalier** : Affiche la courbe en escalier.
+- **Empiler** : Empile la courbe avec les autres courbes de type.
+- **Variation** : Dessine seulement les variations avec la valeur précédente.
+
+> **Tip**
+>
+> Il est possible de modifier l’ordre des graphiques dans la zone par glisser/déposer.
+
+### Zone de type tableau
+
+Vous avez ici les boutons :
+
+- **Ajouter colonne** : Permet d’ajouter une colonne au tableau.
+- **Ajouter ligne** : Permet d’ajouter une ligne au tableau.
 
 > **Note**
 >
-> It is possible to reorganize the rows by dragging and dropping but not the columns.
+> Il est possible de réorganiser les lignes par glisser/déposer mais pas les colonnes.
 
-Once you have added your rows / columns you can add information in the boxes :
+Une fois que vous avez ajouté vos lignes/colonnes vous pouvez ajouter des informations dans les cases :
 
-- **texte** : just text to write.
-- **html** : any html code (javascript possible but strongly discouraged).
-- **command widget** : the button on the right allows you to choose the command to display (note that this displays the widget for the command).
+- **texte** : juste du texte à écrire.
+- **html** : n’importe quel code html (javascript possible mais fortement déconseillé).
+- **widget de commande** : le bouton à droite vous permet de choisir la commande à afficher (attention cela affiche le widget de la commande).
 
 

@@ -1,105 +1,105 @@
-# Jeedom V4 - Keyboard / mouse shortcuts
+# Jeedom V4 - Raccourcis clavier / souris
 
-## General
+## Général
 
-When opening a page (Dashboard, Scenarios, etc.) the focus is on the search field. You can therefore directly type a search without further action.
+A l'ouverture d'une page (Dashboard, Scénarios, etc) le focus est sur le champ de recherche. Vous pouvez donc directement taper une recherche sans autre action.
 
-- Click on the clock (menu bar) : Open the Timeline.
-- Click on the name of the Jeedom (menu bar)  : Open **Settings → System → Configuration**.
-- Click on ?  (toolbar)  : Opens help on the current page.
-- Escape on a research field : Empty the search field and cancel it.
+- Clic sur l'horloge (barre de menu) : Ouvre la Timeline.
+- Clic sur le nom du Jeedom (barre de menu)  : Ouvre **Réglages → Système → Configuration**.
+- Clic sur le ?  (barre de menu)  : Ouvre l'aide sur le page en cours.
+- Echap sur un champ de recherche : Vide le champ de recherche et annule celle-ci.
 
 ## Dashboard
-In edit mode:
-	- Drag n Drop on tiles to rearrange them.
-	- Resize on tile borders to resize them.
-	- Contextual menu (Right click) on the tiles.
-	- Ctrl Click on an icon *expand* : Adjusts the height of the object tiles not relative to the highest, but relative to the lowest.
+En mode édition:
+	- Drag n Drop sur les tuiles pour les réarranger.
+	- Resize sur les bordures de tuile pour les redimensionner.
+	- Menu contextuel (Clic droit) sur les tuiles.
+	- Ctrl Clic sur une icône *expand* : Ajuste la hauteur des tuiles de l'objet non pas par rapport à la plus haute, mais par rapport à la moins haute.
 
-- Ctrl Click on an info command : Opens all the history information of the tile in the history window.
+- Ctrl Clic sur une commande info : Ouvre toutes les infos historisées de la tuile dans la fenêtre d'historique.
 
-## Settings / System / Configuration
-- Ctrl S : Save.
+## Réglages / Système / Configuration
+- Ctrl S : Sauvegarder.
 
-## Settings / System / Backups
-- Ctrl S : Save.
+## Réglages / Système / Sauvegardes
+- Ctrl S : Sauvegarder.
 
-## Settings / System / Task engine
-- Ctrl S : Save.
+## Réglages / Système / Moteur de tâches
+- Ctrl S : Sauvegarder.
 
-## Settings / System / Users
-- Ctrl S : Save.
+## Réglages / Système / Utilisateurs
+- Ctrl S : Sauvegarder.
 
-## Settings / Preferences
-- Ctrl S : Save.
+## Réglages / Préférences
+- Ctrl S : Sauvegarder.
 
-## Tools / Interactions
-- On an interaction, Ctrl S : Save.
-- On an interaction, Right click on a tab : Contextual menu to go directly to another interaction.
-- Ctrl Click or Center Click on an interaction or in the context menu : Open the interaction in a new browser tab.
+## Outils / Interactions
+- Sur une interaction, Ctrl S : Sauvegarder.
+- Sur une interaction, Clic droit sur un onglet : Menu contextuel pour aller directement sur une autre interaction.
+- Ctrl Clic ou Clic Centre sur une interaction ou dans le menu contextuel : Ouvre l'interaction dans un nouvel onglet du navigateur.
 
-## Tools / Objects
-- On an object, Ctrl S : Save.
-- On an object, Right click on a tab : Contextual menu to go directly to another object.
-- Ctrl Click or Center Click on an object or in the contextual menu : Open the object in a new browser tab.
+## Outils / Objets
+- Sur un objet, Ctrl S : Sauvegarder.
+- Sur un objet, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre objet.
+- Ctrl Clic ou Clic Centre sur un objet ou dans le menu contextuel : Ouvre l'objet dans un nouvel onglet du navigateur.
 
-## Tools / Widgets
-- On a widget, Ctrl S : Save.
-- On a widget, Right click on a tab : Contextual menu to go directly to another widget.
-- Ctrl Click or Click Center on a widget or in the context menu : Open the widget in a new browser tab.
+## Outils / Widgets
+- Sur un widget, Ctrl S : Sauvegarder.
+- Sur un widget, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre widget.
+- Ctrl Clic ou Clic Centre sur un widget ou dans le menu contextuel : Ouvre le widget dans un nouvel onglet du navigateur.
 
-## Tools / Scenarios
-- Ctrl Click or Center Click on a scenario or in the context menu : Open the scenario in a new browser tab.
+## Outils / Scénarios
+- Ctrl Clic ou Clic Centre sur un scénario ou dans le menu contextuel : Ouvre le scénario dans un nouvel onglet du navigateur.
 
-On a scenario :
-- Ctrl S : Save.
-- Right click on a tab : Contextual menu to go directly to another scenario.
-- Ctrl L : Log display.
-- Ctrl Shift Z : To cancel.
-- Ctrl Shift Y : Remake.
+Sur un scénario :
+- Ctrl S : Sauvegarder.
+- Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre scénario.
+- Ctrl L : Affichage du log.
+- Ctrl Shift Z : Annuler.
+- Ctrl Shift Y : Refaire.
 
-- Ctrl Click on Execute : Save and execute the scenario, then open the log.
-- Ctrl Click on icon *Copy this block* : Cut this block.
-- Ctrl Click on icon *Paste a block* : Replace this block.
-- Ctrl Click on icon *Delete this block* : Delete block without confirmation.
-- Ctrl Click on icon *Hide this block* : Hide or show all blocks.
+- Ctrl Clic sur Exécuter : Sauvegarde et exécute le scénario, puis ouvre le log.
+- Ctrl Clic sur icône *Copier ce bloc* : Couper ce bloc.
+- Ctrl Clic sur icône *Coller un bloc* : Remplacer ce bloc.
+- Ctrl Clic sur icône *Supprimer ce bloc* : Supprimer le bloc sans confirmation.
+- Ctrl Clic sur icône *Masquer ce bloc* : Masque ou affiche tout les blocs.
 
-In a Code block :
-- Ctrl F : Search in the code.
-- Ctrl G : Next search occurrence.
+Dans un bloc Code :
+- Ctrl F : Rechercher dans le code.
+- Ctrl G : Occurrence suivante de la recherche.
 
-## Plugins / Plugins management
-- Ctrl S on a plugin configuration : Save.
-- Ctrl Click or Click Center on a plugin : Open plugin management in a new browser tab.
+## Plugins / Gestion des plugins
+- Ctrl S sur une configuration de plugin : Sauvegarder.
+- Ctrl Clic ou Clic Centre sur un plugin : Ouvre la gestion du plugin dans un nouvel onglet du navigateur.
 
 ## Plugins / *plugin*
-- On a device, Ctrl S  : Save.
-- On a device, Right click on a tab : Contextual menu to go directly to another device.
-- Ctrl Click or Center Click on a device: Open the plugin equipment in a new browser tab.
+- Sur un équipement, Ctrl S  : Sauvegarder.
+- Sur un équipement, Clic droit sur un onglet : Menu contextuel pour aller directement sur un autre équipement.
+- Ctrl Clic ou Clic Centre sur un équipement: Ouvre l'équipement du plugin dans un nouvel onglet du navigateur.
 
-## Home / View
-- Ctrl S on editing a view : Save.
+## Accueil / Vue
+- Ctrl S sur l'édition d'une vue : Sauvegarder.
 
-## Home / Design
-- Ctrl S on a design : Save.
-- Ctrl Shift E on a design : Entering or leaving edit mode.
+## Accueil / Design
+- Ctrl S sur un design : Sauvegarder.
+- Ctrl Shift E sur un design : Passage ou sortie du mode édition.
 
-## Home automation analysis / summary
-- Ctrl Click on icon *Ouvrir* (research) : Open all objects and equipment.
-- Ctrl Click on icon *Fermer* (research) : Closes all objects and equipment.
+## Analyse / Résumé domotique
+- Ctrl Clic sur icône *Ouvrir* (recherche) : Ouvre tous les objets et tous les équipements.
+- Ctrl Clic sur icône *Fermer* (recherche) : Ferme tous les objets et tous les équipements.
 
-## Analysis / History
-If several curves are displayed :
-- Ctrl Click on a legend : Show only this history.
-- Alt Click on a legend : Show all history.
+## Analyse / Historique
+Si plusieurs courbes sont affichées :
+- Ctrl Clic sur une légende : Afficher seulement cet historique.
+- Alt Clic sur une légende : Afficher tous les historiques.
 
-## History window
-If several curves are displayed :
-- Ctrl Click on a legend : Show only this history.
-- Alt Click on a legend : Show all history.
+## Fenêtre Historique
+Si plusieurs courbes sont affichées :
+- Ctrl Clic sur une légende : Afficher seulement cet historique.
+- Alt Clic sur une légende : Afficher tous les historiques.
 
-## Equipment Configuration window
-- Ctrl Click on Save : Save and close window.
+## Fenêtre Configuration de l’équipement
+- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.
 
-## Command Configuration window
-- Ctrl Click on Save : Save and close window.
+## Fenêtre Configuration de commande
+- Ctrl Clic sur Sauvegarder : Sauvegarde et ferme la fenêtre.

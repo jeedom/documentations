@@ -1,135 +1,135 @@
-Beschreibung 
+Description 
 ===========
 
-Die **Update Center** ermöglicht es Ihnen, alle zu aktualisieren
-Jeedom-Funktionen, einschließlich Kernsoftware,
-Plugins, Widgets usw.. Andere Erweiterungsverwaltungsfunktionen
-verfügbar sind (löschen, neu installieren, prüfen usw.)
+Le **centre de mise à jour** permet de mettre à jour toutes les
+fonctionnalités de Jeedom, incluant le logiciel de base (core), les
+plugins, les widgets, etc. D’autres fonctions de gestion des extensions
+sont diponibles (supprimer, réinstaller, vérifier, etc)
 
-Die Update Center-Seite 
+La page du Centre de mise à jour 
 ================================
 
-Es ist über das Menü zugänglich **Administration → Aktualisierungscenter
+Elle est accessible par le menu **Administration → Centre de mise à
 jour**.
 
-Auf der linken Seite finden Sie alle Funktionen von
-Jeedom und auf der rechten Seite **Informations** wer beschreibt was er
-passiert, als Sie ein Update gestartet haben.
+Vous y trouverez, sur la gauche, l’ensemble des fonctionnalités de
+Jeedom et sur la droite une partie **Informations** qui décrit ce qu’il
+s’est passé, quand vous avez lancé une mise à jour.
 
-Funktionen oben auf der Seite. 
+Les fonctions du haut de la page. 
 ---------------------------------
 
-Am oberen Rand der Tabelle befinden sich die Steuertasten. Jeedom se
-Stellen Sie regelmäßig eine Verbindung zum Markt her, um festzustellen, ob Aktualisierungen vorliegen
-verfügbar sind (das Datum der letzten Prüfung ist oben angegeben
-links von der Tabelle). Wenn Sie eine manuelle Überprüfung durchführen möchten,
-Sie können die Taste "Nach Updates suchen" drücken".
+En haut du tableau, se trouvent les boutons de commande. Jeedom se
+connecte périodiquement avec le Market pour voir si des mises à jour
+sont disponibles (la date de dernière vérification est indiquée en haut
+à gauche du tableau). Si vous voulez réaliser une vérification manuelle,
+vous pouvez appuyer sur le bouton "Vérifier les mises à jour".
 
-Die Schaltfläche **Update** ermöglicht das Aktualisieren des Satzes von
-Jeedom. Sobald Sie darauf klicken, erhalten wir diese unterschiedlich
-Optionen :
+Le bouton **Mettre à jour** permet de mettre à jour l’ensemble de
+Jeedom. Une fois que vous avez cliqué dessus, on obtient ces différentes
+options :
 
--   **Vorher speichern** : Sichern Sie Jeedom vor
-    Führen Sie das Update durch.
+-   **Sauvegarder avant** : Effectue une sauvegarde de Jeedom avant
+    d’effectuer la mise à jour.
 
--   **Plugins aktualisieren** : Ermöglicht das Einfügen von Plugins in die
-    Update.
+-   **Mettre à jour les plugins** : Permet d’inclure les plugins dans la
+    mise à jour.
 
--   **Aktualisieren Sie den Kern** : Ermöglicht das Einfügen des Jeedom-Kernels in
-    das Update.
+-   **Mettre à jour le core** : Permet d’inclure le noyau de Jeedom dans
+    la mise à jour.
 
--   **Erzwungener Modus** : Update im erzwungenen Modus, d.h.
-    Selbst wenn ein Fehler auftritt, fährt Jeedom fort und wird nicht wiederhergestellt
-    das Backup.
+-   **Mode forcé** : Effectue la mise à jour en mode forcé, c’est-à-dire
+    que, même s’il y a une erreur, Jeedom continue et ne restaurera pas
+    la sauvegarde.
 
--   **Update zur erneuten Anwendung** : Ermöglicht es Ihnen, eine Wette erneut anzuwenden
-    auf dem neuesten Stand. (NB : Nicht alle Updates können erneut angewendet werden.)
+-   **Mise à jour à réappliquer** : Permet de réappliquer une mise
+    à jour. (NB : Toutes les mises à jour ne peuvent être réappliquées.)
 
 > **Important**
 >
-> Vor einem Update erstellt Jeedom standardmäßig ein Backup. in
-> Wenn beim Anwenden eines Updates ein Problem auftritt, wird Jeedom dies tun
-> Stellen Sie das zuvor erstellte Backup automatisch wieder her. Dieses Prinzip
-> gilt nur für Jeedom-Updates und nicht für Plugins.
+> Avant une mise à jour, par défaut, Jeedom va faire une sauvegarde. En
+> cas de souci lors de l’application d’une mise à jour, Jeedom va
+> automatiquement restaurer la sauvegarde faite juste avant. Ce principe
+> n’est valable que pour les mises à jour de Jeedom et non des plugins.
 
 > **Tip**
 >
-> Sie können ein Update von Jeedom erzwingen, auch wenn dies nicht der Fall ist
-> biete keine an.
+> Vous pouvez forcer une mise à jour de Jeedom, même si celui-ci ne vous
+> en propose pas.
 
-Die Aktualisierungstabelle 
+Le tableau des mises à jour 
 ---------------------------
 
-Die Tabelle besteht aus zwei Registerkarten :
+Le tableau se compose de deux onglets :
 
--   **Core und Plugins** : Enthält grundlegende Jeedom-Software und
-    Liste der installierten Plugins.
+-   **Core et Plugins** : Contient le logiciel de base de Jeedom et la
+    liste des plugins installés.
 
--   **Autre** : Enthält Widgets, Skripte usw..
+-   **Autre** : Contient les widgets, les scripts, etc.
 
-Sie finden folgende Informationen : \.* **Statut** : OK oder NOK.
-Ermöglicht den aktuellen Status des Plugins. \.* **Nom** : Du da
-Suchen Sie die Quelle des Elements, den Elementtyp und seinen Namen. \.*
-**Version** : Gibt die spezifische Version des Elements an. \.* **Options** :
-Aktivieren Sie dieses Kontrollkästchen, wenn dieses Element nicht aktualisiert werden soll.
-Tag während des allgemeinen Updates (Button **Update**).
+Vous y trouverez les informations suivants : \* **Statut** : OK ou NOK.
+Permet de connaître l’état actuel du plugin. \* **Nom** : Vous y
+trouverez la provenance de l’élément, le type d’élément et son nom. \*
+**Version** : Indique la version précise de l’élément. \* **Options** :
+Cochez cette case si vous ne souhaitez pas que cet élément soit mis à
+jour lors de la mise à jour générale (Bouton **Mettre à jour**).
 
 > **Tip**
 >
-> In der ersten Zeile ist für jede Tabelle der folgende Filter zulässig
-> den Status, Namen oder die Version der vorhandenen Elemente.
+> Pour chaque tableau, la première ligne permet de filter suivant
+> l’état, le nom ou la version des éléments présents.
 
-In jeder Zeile können Sie die folgenden Funktionen verwenden
-jedes Element :
+Sur chaque ligne, vous pouvez utiliser les fonctions suivants pour
+chaque élément :
 
--   **Wieder einstellen** : Neuansiedlung erzwingen.
+-   **Réinstaller** : Force la réinstallation.
 
--   **Supprimer** : Ermöglicht die Deinstallation.
+-   **Supprimer** : Permet de le désinstaller.
 
--   **überprüfen** : Fragen Sie die Quelle nach Updates ab, um herauszufinden, ob
-    Ein neues Update ist verfügbar.
+-   **Vérifier** : Interroge la source des mises à jour pour savoir si
+    une nouvelle mise à jour est disponible.
 
--   **Update** : Ermöglicht das Aktualisieren des Elements (falls vorhanden)
-    ein Update).
+-   **Mettre à jour** : Permet de mettre à jour l’élément (si celui-ci a
+    une mise à jour).
 
--   **Changelog** : Greifen Sie auf die Liste der Änderungen in der zu
-    Update.
+-   **Changelog** : Permet d’accéder à la liste des changements de la
+    mise à jour.
 
 > **Important**
 >
-> Wenn das Änderungsprotokoll leer ist, Sie aber noch ein Update haben
-> Update bedeutet, dass die Dokumentation aktualisiert wurde.
-> Es besteht daher keine Notwendigkeit, den Entwickler danach zu fragen
-> Änderungen, da es nicht unbedingt welche gibt. (Es ist oft eine Wette
-> Übersetzung der Dokumentation)
+> Si le changelog est vide mais que vous avez tout de même une mise à
+> jour, cela signifie que c’est la documentation qui a été mise à jour.
+> Il n’est donc pas nécessaire de demander au développeur les
+> changements, vu qu’il n’y en a pas forcément. (c’est souvent une mise
+> à jour de la traduction de la documentation)
 
 > **Tip**
 >
-> Beachten Sie, dass &quot;Kern : jeedom &quot;bedeutet&quot; das Aktualisieren der Software
-> Jeedom Basis".
+> A noter que "core : jeedom" signifie "la mise à jour du logiciel de
+> base Jeedom".
 
-Befehlszeilenaktualisierung 
+Mise à jour en ligne de commande 
 ================================
 
-Es ist möglich, Jeedom direkt in SSH zu aktualisieren.
-Sobald die Verbindung hergestellt ist, ist dies der auszuführende Befehl :
+Il est possible de faire une mise à jour de Jeedom directement en SSH.
+Une fois connecté, voilà la commande à effectuer :
 
     sudo php /var/www/html/install/update.php
 
-Die möglichen Parameter sind :
+Les paramètres possibles sont :
 
--   **`mode`** : `force`, um ein Update im erzwungenen Modus zu starten (nicht
-    ignoriert Fehler).
+-   **`mode`** : `force`, pour lancer une mise à jour en mode forcé (ne
+    tient pas compte des erreurs).
 
--   **`version`** : gefolgt von der Versionsnummer, um die erneut anzuwenden
-    Änderungen seit dieser Version.
+-   **`version`** : suivi du numéro de version, pour réappliquer les
+    changements depuis cette version.
 
-Hier ist ein Beispiel für die Syntax, mit der ein erzwungenes Update durchgeführt werden soll
-Änderungen seit 1.188 erneut anwenden.0 :
+Voici un exemple de syntaxe pour faire une mise à jour forcée en
+réappliquant les changements depuis la 1.188.0 :
 
-    sudo php / var / www / html / install / update.PHP-Modus = Force-Version = 1.188.0
+    sudo php  /var/www/html/install/update.php mode=force version=1.188.0
 
-Achtung, nach einem Update in der Kommandozeile ist es notwendig
-Wenden Sie die Rechte erneut auf den Jeedom-Ordner an :
+Attention, après une mise à jour en ligne de commande, il faut
+réappliquer les droits sur le dossier Jeedom :
 
-    chown -R www-Daten:www-data / var / www / html
+    chown -R www-data:www-data /var/www/html

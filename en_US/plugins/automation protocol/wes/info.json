@@ -1,0 +1,9 @@
+{
+	"id" : "wes",
+	"name" : "Wes",
+	"licence" : "AGPL",
+	"author" : "Jeedom Legacyz",
+	"require" : "2.0",
+	"category" : "automation protocol",
+	"hasOwnDeamon" : true
+}

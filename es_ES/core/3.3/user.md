@@ -1,77 +1,77 @@
-Aquí es donde podremos definir la lista de usuarios
-permitido conectarse a Jeedom, pero también sus derechos
-d'administrateur
+C’est ici que l’on va pouvoir définir la liste des utilisateurs
+autorisés à se connecter à Jeedom, mais également leurs droits
+d’administrateur
 
-Accesible por Administración → Usuarios.
+Accessible par Administration → Utilisateurs.
 
-En la parte superior derecha tiene un botón para agregar un usuario, un
-para guardar y un botón para abrir un acceso de soporte.
+En haut à droite vous avez un bouton pour ajouter un utilisateur, un
+pour sauvegarder et un bouton pour ouvrir un accès au support.
 
-Abajo tienes una mesa :
+En dessous vous avez un tableau :
 
--   **Nombre del usuario** : ID de usuario
+-   **Nom d’utilisateur** : l’identifiant de l’utilisateur
 
--   **Actif** : permite desactivar la cuenta
+-   **Actif** : permet de désactiver le compte
 
--   **Solo local** : autorizar inicio de sesión de usuario
-    solo si está en la red local de Jeedom
+-   **Local seulement** : autorise la connexion de l’utilisateur
+    uniquement s’il est sur le réseau local de Jeedom
 
--   **Profils** : permite elegir el perfil de usuario :
+-   **Profils** : permet de choisir le profil de l’utilisateur :
 
-    -   **Administrateur** : obtiene todos los derechos sobre Jeedom
+    -   **Administrateur** : obtient tous les droits sur Jeedom
 
-    -   **Utilisateur** : puede ver el tablero, las vistas,
-        diseño, etc.. y actuar sobre equipos / controles. En cambio,
-        no tendrá acceso a la configuración de controles / equipos
-        ni a la configuración de Jeedom.
+    -   **Utilisateur** : peut voir le dashboard, les vues, les
+        design, etc. et agir sur les équipements/commandes. En revanche,
+        il n’aura pas accès à la configuration des commandes/équipements
+        ni à la configuration de Jeedom.
 
-    -   **Usuario limitado** : el usuario solo ve el
-        equipo autorizado (configurable con el botón &quot;Administrar&quot;
-        los derechos&quot;)
+    -   **Utilisateur limité** : l’utilisateur ne voit que les
+        équipements autorisés (configurable avec le bouton "Gérer
+        les droits")
 
--   **Clave API** : clave de API personal del usuario
+-   **Clef API** : clef API personnelle de l’utilisateur
 
--   **Doble autenticación** : indica si la autenticación doble
-    está activo (OK) o no (NOK)
+-   **Double authentification** : indique si la double authentification
+    est active (OK) ou non (NOK)
 
--   **Fecha de la última conexión** : fecha de la última conexión de
-    el usuario en Jeedom. Tenga en cuenta que esta es la fecha de conexión
-    real, así que si guarda su computadora, la fecha de
-    la conexión no se actualiza cada vez que vuelve a ella.
+-   **Date de dernière connexion** : date de la dernière connexion de
+    l’utilisateur à Jeedom. Attention, ici c’est la date de connexion
+    réelle, ainsi si vous enregistrez votre ordinateur, la date de
+    connexion n’est pas mise à jour à chaque fois que vous y retournez.
 
--   **Cambiar contraseña** : permite cambiar la contraseña de
-    l'utilisateur
+-   **Changer le mot de passe** : permet de changer le mot de passe de
+    l’utilisateur
 
--   **Supprimer** : eliminar usuario
+-   **Supprimer** : permet de supprimer l’utilisateur
 
--   **Regenerar clave API** : regenera la clave API del usuario
+-   **Regénerer clef API** : regénère la clef API de l’utilisateur
 
--   **Administrar derechos** : permite gestionar con precisión los derechos de
-    el usuario (atención los perfiles deben estar en
-    "usuario limitado ")
+-   **Gérer les droits** : permet de gérer finement les droits de
+    l’utilisateur (attention le profils doit être en
+    "utilisateur limité")
 
-Gestión de derechos 
+Gestion des droits 
 ==================
 
-Al hacer clic en &quot;Administrar derechos&quot; aparece una ventana que le permite
-administrar con precisión los derechos de los usuarios. La primera pestaña muestra
-los diferentes equipos. El segundo presenta los escenarios..
+Lors du clic sur "Gérer les droits" une fenêtre apparait et vous permet
+de gérer finement les droits de l’utilisateur. Le premier onglet affiche
+les différents équipements. Le deuxième présente les scénarios.
 
 > **Important**
 >
-> El perfil debe ser limitado, de lo contrario no se aplicarán restricciones aquí
-> se tendrá en cuenta
+> Le profil doit être en limité sinon aucune restriction mise ici ne
+> sera prise en compte
 
-Obtiene una tabla que permite, para cada equipo y cada
-escenario, definir derechos de usuario :
+Vous obtenez un tableau qui permet, pour chaque équipement et chaque
+scénario, de définir les droits de l’utilisateur :
 
--   **Aucun** : el usuario no ve el equipo / escenario
+-   **Aucun** : l’utilisateur ne voit pas l’équipement/scénario
 
--   **Visualisation** : el usuario ve el equipo / escenario pero no ve
-    no puedo actuar en consecuencia
+-   **Visualisation** : l’utilisateur voit l’équipement/scénario mais ne
+    peut pas agir dessus
 
--   **Visualización y ejecución** : el usuario ve
-    El equipo / escenario y puede actuar sobre él (encender una lámpara, tirar
-    el escenario, etc.)
+-   **Visualisation et exécution** : l’utilisateur voit
+    l’équipement/scénario et peut agir dessus (allumer une lampe, lancer
+    le scénario, etc.)
 
 

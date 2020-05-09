@@ -1,422 +1,422 @@
-Das Interaktionssystem in Jeedom ermöglicht es, Aktionen auszuführen
-von Text- oder Sprachbefehlen.
+Le système d’interaction dans Jeedom permet de réaliser des actions à
+partir de commandes textes ou vocales.
 
-Diese Bestellungen erhalten Sie von :
+Ces commandes peuvent être obtenues par :
 
--   SMS : Senden Sie eine SMS, um Befehle (Aktion) zu starten, oder fragen Sie a
-    Frage (Info).
+-   SMS : envoyer un SMS pour lancer des commandes (action) ou poser une
+    question (info).
 
--   Katze : Telegramm, Slack usw..
+-   Chat : Telegram, Slack, etc.
 
--   Vokal : diktieren Sie eine Phrase mit Siri, Google Now, SARAH usw. für
-    Befehle starten (Aktion) oder eine Frage stellen (Info).
+-   Vocal : dicter une phrase avec Siri, Google Now, SARAH, etc. Pour
+    lancer des commandes (action) ou poser une question (info).
 
--   Http : Starten Sie eine HTTP-URL, die den Text enthält (z. Tasker, Slack)
-    Befehle starten (Aktion) oder eine Frage stellen (Info).
+-   HTTP : lancer une URL HTTP contenant le texte (ex. Tasker, Slack)
+    pour lancer des commandes (action) ou poser une question (info).
 
-Das Interesse an Interaktionen liegt in der vereinfachten Integration in
-andere Systeme wie Smartphone, Tablet, andere Hausautomationsbox usw..
+L’intérêt des interactions réside dans l’intégration simplifiée dans
+d’autres systèmes comme smartphone, tablette, autre box domotique, etc.
 
-Um auf die Interaktionsseite zuzugreifen, gehen Sie zu Extras →
-Wechselwirkungen :
+Pour accéder à la page d’interaction, il faut aller sur Outils →
+Interactions :
 
-Am oberen Rand der Seite befinden sich 3 Schaltflächen :
+En haut de page, on trouve 3 boutons :
 
--   **Ajouter** : Dadurch können neue Interaktionen erstellt werden.
+-   **Ajouter** : qui permet de créer de nouvelles interactions.
 
--   **Regenerat** : Dadurch werden alle Interaktionen wiederhergestellt (möglicherweise
+-   **Régénérer** : qui va recréer toutes les interactions (peut être
     très long &gt; 5mn).
 
--   **Tester** : das öffnund einen Dialog zum Schreiben und
-    teste einen Satz.
+-   **Tester** : qui permet d’ouvrir une boîte de dialogue pour écrire et
+    tester une phrase.
 
 > **Tip**
 >
-> Wenn Sie eine Interaktion haben, die die Sätze für die Lichter generiert
-> Zum Beispiel und Sie fügen ein neues Befehlsmodul von hinzu
-> Licht, müssen Sie entweder alle Interaktionen regenerieren, oder
-> Gehen Sie zu der betreffenden Interaktion und speichern Sie sie erneut für
-> Erstellen Sie die Sätze für dieses neue Modul.
+> Si vous avez une interaction qui génère les phrases pour les lumières
+> par exemple et que vous ajoutez un nouveau module de commande de
+> lumière, il vous faudra soit regénérer toutes les interactions, soit
+> aller dans l’interaction en question et la sauvegarder de nouveau pour
+> créer les phrases de ce nouveau module.
 
-Prinzip 
+Principe 
 ========
 
-Das Prinzip der Schöpfung ist recht einfach : Wir werden einen Satz definieren
-Generatormodell, mit dem Jeedom eines oder mehrere erstellen kann
-Hunderte anderer Sätze, die mögliche Kombinationen der sein werden
-Modell.
+Le principe de création est assez simple : on va définir une phrase
+modèle génératrice qui va permettre à Jeedom de créer une ou plusieurs
+centaines d’autres phrases qui seront des combinaisons possibles du
+modèle.
 
-Wir werden Antworten auf die gleiche Weise mit einem Modell definieren (dies ermöglicht
-Jeedom, um mehrere Antworten auf eine einzelne Frage zu haben).
+On va définir de la même façon des réponses avec un modèle (ça permet à
+Jeedom d’avoir plusieurs réponses pour une seule et même question).
 
-Wir können auch einen Befehl definieren, der ausgeführt werden soll, wenn zum Beispiel
-Die Interaktion ist nicht an eine Handlung gebunden, sondern an Informationen oder wenn wir
-möchte danach eine bestimmte Aktion ausführen (es ist auch
-möglich ein Szenario auszuführen, mehrere Befehle zu steuern…).
+On peut aussi définir une commande à exécuter si par exemple
+l’interaction n’est pas liée à une action mais une information ou si on
+souhaite réaliser une action particulière après celle-ci (il est aussi
+possible d’exécuter un scénario, de contrôler plusieurs commandes…​).
 
-Konfiguration 
+Configuration 
 =============
 
-Die Konfigurationsseite besteht aus mehreren Registerkarten und
-Tasten :
+La page de configuration est constituée de plusieurs onglets et de
+boutons :
 
--   **Phrases** : Zeigt die Anzahl der Sätze in der Interaktion an (ein Klick
-    oben zeigt sie dir)
+-   **Phrases** : Affiche le nombre de phrases de l’interaction (un clic
+    dessus vous les montre)
 
--   **Enregistrer** : zeichnund die aktuelle Interaktion auf
+-   **Enregistrer** : enregistre l’interaction courante
 
--   **Supprimer** : aktuelle Interaktion löschen
+-   **Supprimer** : supprime l’interaction courante
 
--   **Dupliquer** : Dupliziere die aktuelle Interaktion
+-   **Dupliquer** : duplique l’interaction courante
 
-General 
+Général 
 =======
 
--   **Nom** : Name der Interaktion (kann leer sein, der Name ersetzt den
-    Text in der Interaktionsliste anfordern).
+-   **Nom** : nom de l’interaction (peut être vide, le nom remplace le
+    texte de la demande dans la liste des interactions).
 
--   **Groupe** : Interaktionsgruppe, es hilft, sie zu organisieren
-    (kann leer sein, wird daher in der Gruppe &quot;keine&quot; sein).
+-   **Groupe** : groupe de l’interaction, cela permet de les organiser
+    (peut être vide, sera donc dans le groupe "aucun").
 
--   **Actif** : ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
+-   **Actif** : permet d’activer ou désactiver l’interaction.
 
--   **Demande** : der generierenvon Modellsatz (erforderlich).
+-   **Demande** : la phrase modèle génératrice (obligatoire).
 
--   **Synonyme** : ermöglicht das Definieren von Synonymen für Namen
-    Bestellungen.
+-   **Synonyme** : permet de définir des synonymes sur les noms
+    des commandes.
 
--   **Antwort** : die Antwort zu geben.
+-   **Réponse** : la réponse à fournir.
 
--   **Warten Sie, bevor Sie antworten.** : Fügen Sie eine Verzögerung von X Sekunden hinzu, bevor Sie die Antwort generieren. So können Sie beispielsweise auf die Rückkehr eines Lampenstatus warten, bevor Sie beantwortund werden.
+-   **Attendre avant de répondre (s)** : permet d'ajouter un délai de X secondes avant de générer la réponse. Ca permet par exemple d'attendre que le retour d'état d'une lampe se fasse avant de répondre.
 
--   **Binäre Konvertierung** : konvertiert Binärwerte in
-    Zum Beispiel öffnen / schließen (nur für Typbefehle
-    binäre Info).
+-   **Conversion binaire** : permet de convertir les valeurs binaires en
+    ouvert/fermé par exemple (uniquement pour les commandes de type
+    info binaire).
 
--   **Autorisierte Benutzer** : begrenzt die Interaktion auf bestimmte
-    Benutzer (Anmeldungen getrennt durch |).
+-   **Utilisateurs autorisés** : limite l’interaction à certains
+    utilisateurs (les logins séparés par des |).
 
-Filter 
+Filtres 
 =======
 
--   **Beschränken Sie sich auf die Eingabe von Befehlen** : erlaubt nur die zu verwenden
-    Arten von Aktionen, Informationen oder beivon Arten.
+-   **Limiter aux commandes de type** : permet de n’utiliser que les
+    types actions, infos ou les 2 types.
 
--   **Beschränken Sie sich auf Bestellungen mit Subtyp** : erlaubt zu begrenzen
-    Erzeugung zu einem oder mehreren Untertypen.
+-   **Limiter aux commandes ayant pour sous-type** : permet de limiter
+    la génération à un ou plusieurs sous-types.
 
--   **Beschränkung auf Bestellungen mit Einheit** : ermöglicht die Begrenzung der
-    Generation mit einer oder mehreren Einheiten (Jeedom erstellt die Liste
-    automatisch aus den in Ihren Bestellungen definierten Einheiten).
+-   **Limiter aux commandes ayant pour unité** : permet de limiter la
+    génération à une ou plusieurs unités (Jeedom crée la liste
+    automatiquement à partir des unités définies dans vos commandes).
 
--   **Beschränkung auf Bestellungen, die zum Objekt gehören** : erlaubt zu begrenzen
-    Generierung zu einem oder mehreren Objekten (Jeedom erstellt die Liste
-    automatisch aus den von Ihnen erstellten Objekten).
+-   **Limiter aux commandes appartenant à l’objet** : permet de limiter
+    la génération à un ou plusieurs objets (Jeedom crée la liste
+    automatiquement à partir des objets que vous avez créés).
 
--   **Beschränken Sie sich auf das Plugin** : begrenzt die Erzeugung auf einen oder mehrere
-    mehrere Plugins (Jeedom erstellt automatisch die Liste aus
-    Plugins installiert).
+-   **Limiter au plugin** : permet de limiter la génération à un ou
+    plusieurs plugins (Jeedom crée la liste automatiquement à partir des
+    plugins installés).
 
--   **Beschränkung auf Kategorie** : begrenzt die Erzeugung auf eins
-    oder mehr Kategorien.
+-   **Limiter à la catégorie** : permet de limiter la génération à une
+    ou plusieurs catégories.
 
--   **Beschränkung auf Ausrüstung** : begrenzt die Erzeugung auf eins
-    Einzelausrüstung / Modul (Jeedom erstellt die Liste automatisch unter
-    von den Geräten / Modulen, die Sie haben).
+-   **Limiter à l’équipement** : permet de limiter la génération à un
+    seul équipement/module (Jeedom crée la liste automatiquement à
+    partir des équipements/modules que vous avez).
 
-Aktion 
+Action 
 ======
 
-Verwenden Sie diese Option, wenn Sie einen oder mehrere bestimmte Befehle als Ziel festlegen möchten
-oder bestimmte Parameter übergeben.
+A utiliser si vous voulez cibler une ou plusieurs commandes spécifiques
+ou passer des paramètres particuliers.
 
-Beispiele 
+Exemples 
 ========
 
 > **Note**
 >
-> Die Screenshots können im Hinblick auf Entwicklungen unterschiedlich sein.
+> Les captures d’écran peuvent être différentes au vue des évolutions.
 
-Einfache Interaktion 
+Interaction simple 
 ------------------
 
-Der einfachste Weg, eine Interaktion einzurichten, besteht darin, sie zu verwenden
-Geben Sie ein starres Generatormodell ohne mögliche Abweichungen an. diese
-Die Methovon zielt sehr genau auf einen Befehl oder ein Szenario ab.
+La façon la plus simple de configurer une interaction, c’est de lui
+donner un modèle générateur rigide, sans variation possible. Cette
+méthode ciblera très précisément une commande ou un scénario.
 
-Im folgenden Beispiel sehen wir im Feld &quot;Request&quot; den Satz
-genau bereitzustellen, um Interaktion auszulösen. Hier, um das einzuschalten
-Wohnzimmer Deckenleuchte.
+Dans l’exemple qui suit, on peut voir dans le champ "Demande" la phrase
+exacte à fournir pour déclencher l’interaction. Ici, pour allumer le
+plafonnier du salon.
 
-![ichnteract004](../images/interact004.png)
+![interact004](../images/interact004.png)
 
-Wir können auf dieser Aufnahme die Konfiguration sehen, um eine zu haben
-Interaktion mit einer bestimmten Aktion verbunden. Diese Aktion ist in definiert
-der &quot;Aktion&quot; Teil der Seite.
+On peut voir, sur cette capture, la configuration pour avoir une
+interaction liée à une action spécifique. Cette action est définie dans
+la partie "Action" de la page.
 
-Wir können uns sehr gut vorstellen, dasselbe mit mehreren Aktionen zu tun
-Schalten Sie im folgenden Beispiel mehrere Lampen im Wohnzimmer ein :
+On peut très bien imaginer faire de même avec plusieurs actions pour
+allumer plusieurs lampes dans le salon comme l’exemple qui suit :
 
-![ichnteract005](../images/interact005.png)
+![interact005](../images/interact005.png)
 
-In den beiden obigen Beispielen ist der Modellsatz identisch, aber der
-Die resultierenden Aktionen ändern sich je nach Konfiguration
-Im &quot;Action&quot; Teil können wir daher schon mit einer einfachen Interaktion auf
-einzelner Satz stellen sich kombinierte Aktionen zwischen verschiedenen Befehlen und vor
-verschiedene Szenarien (wir können auch Szenarien im Spiel auslösen
-Interaktionsaktion).
+Dans les 2 exemples ci-dessus, la phrase modèle est identique mais les
+actions qui en découlent changent en fonction de ce qui est configuré
+dans la partie "Action", on peut donc déjà avec une interaction simple à
+phrase unique imaginer des actions combinées entre diverses commandes et
+divers scénarios (on peut aussi déclencher des scénarios dans la partie
+action des interactions).
 
 > **Tip**
 >
-> Um ein Szenario hinzuzufügen, erstellen Sie eine neue Aktion und schreiben Sie "Szenario""
-> Drücken Sie ohne Akzent die Tabulatortaste auf Ihrer Tastatur, um
-> Rufen Sie den Szenario-Selektor auf.
+> Pour ajouter un scénario, créer une nouvelle action, écrire "scenario"
+> sans accent, appuyer sur la touche tabulation de votre clavier pour
+> faire apparaitre le sélecteur de scénario.
 
-Interaktion mit mehreren Befehlen 
+Interaction multiple commandes 
 ------------------------------
 
-Hier werden wir all das Interesse und die ganze Kraft von sehen
-Interaktionen mit einem Modellsatz, den wir generieren können
-Sätze für eine ganze Gruppe von Befehlen.
+Nous allons ici voir tout l’intérêt et toute la puissance des
+interactions, avec une phrase modèle nous allons pouvoir générer des
+phrases pour tout un groupe de commandes.
 
-Wir werden das oben Gesagte fortsetzen und die Aktionen löschen, die
-wir hatten und anstelle des festen Satzes in "Anfrage",
-Wir werden die Tags verwenden **\#commande\#** und **\#equipement\#**.
-Jeedom ersetzt diese Tags durch den Namen der Befehle und den Namen von
-Ausrüstung (wir können sehen, wie wichtig es ist, Namen von zu haben
-konsequente Kontrolle / Ausrüstung).
+On va reprendre ce qui a été fait plus haut, supprimer les actions que
+l’on avait ajoutées, et à la place de la phrase fixe, dans "Demande",
+nous allons utiliser les tags **\#commande\#** et **\#equipement\#**.
+Jeedom va donc remplacer ces tags par le nom des commandes et le nom de
+l’équipement (on peut voir l’importance d’avoir des noms de
+commande/équipement cohérents).
 
-![ichnteract006](../images/interact006.png)
+![interact006](../images/interact006.png)
 
-Wir können hier also sehen, dass Jeedom 152 Sätze daraus generiert hat
-unser Modell. Sie sind jedoch nicht sehr gut gebaut und wir
-hat ein bisschen von allem.
+On peut donc constater ici que Jeedom a généré 152 phrases à partir de
+notre modèle. Toutefois, elles ne sont pas très bien construites et l’on
+a un peu de tout.
 
-Um Ordnung in all dem zu schaffen, werden wir die Filter (Teil) verwenden
-rechts von unserer Konfigurationsseite). In diesem Beispiel wollen wir
-Sätze generieren, um Lichter einzuschalten. So können wir das deaktivieren
-Befehlstyp info (wenn ich speichere, habe ich nur noch 95 Sätze übrig
-generiert), dann können wir in den Untertypen nur überprüft bleiben
-"Standard ", der der Aktionsschaltfläche entspricht (so bleiben nur 16 übrig
+Pour faire de l’ordre dans tout cela, on va utiliser les filtres (partie
+droite de notre page de configuration). Dans cet exemple, on veut
+générer des phrases pour allumer des lumières. On peut donc décocher le
+type de commande info (si je sauve, il ne me reste plus que 95 phrases
+générées), puis, dans les sous-types, on peut ne garder coché que
+"défaut" qui correspond au bouton d’action (ne reste donc plus que 16
 phrases).
 
-![ichnteract007](../images/interact007.png)
+![interact007](../images/interact007.png)
 
-Es ist besser, aber wir können es noch natürlicher machen. Wenn ich nehme
-Im generierten Beispiel &quot;Beich Eingabe&quot; wäre es schön, transformieren zu können
-Dieser Satz in "Eintrag einschalten" oder in "Eintrag einschalten"". Zu tun
-Jeedom hat unter dem Anforderungsfeld auch ein Feld, das dies tun wird
-Erlauben Sie uns, Bestellungen in unserem anders zu benennen
-&quot;generierte&quot; Sätze, hier ist es &quot;on&quot;, ich habe sogar &quot;on2&quot; in den Modulen
-welches 2 Ausgänge steuern kann.
+C’est mieux, mais on peut faire encore plus naturel. Si je prends
+l’exemple généré "On entrée", il serait bien de pouvoir transformer
+cette phrase en "allume l’entrée" ou en "allumer l’entrée". Pour faire
+cela, Jeedom dispose, sous le champ demande, d’un champ synonyme qui va
+nous permettre de nommer différemment le nom des commandes dans nos
+phrases "générées", ici c’est "on", j’ai même des "on2" dans les modules
+qui peuvent contrôler 2 sorties.
 
-In den Synonymen geben wir daher den Namen des Befehls und die (s) an.
-zu verwendenvon Synonym :
+Dans les synonymes, on va donc indiquer le nom de la commande et le(s)
+synonyme(s) à utiliser :
 
-![ichnteract008](../images/interact008.png)
+![interact008](../images/interact008.png)
 
-Wir können hier eine etwas neue Syntax für Synonym sehen. Ein Name
-kann mehrere Synonym haben, hier hat &quot;on&quot; als Synonym
-"einschalten "und" einschalten". Die Syntax lautund daher "* Name des Befehls*"
-***=*** "*Synonym 1*"***,*** "*Synonym 2 * "(Sie können so viele setzen
-Synonym wollen wir). Fügen Sie dann Synonym für ein anderes hinzu
-Befehlsname, fügen Sie einfach nach dem letzten Synonym einen Balken hinzu
-vertikal "*|*" Danach können Sie die erneut benennen
-Befehl, der Synonym wie für den ersten Teil usw. hat..
+On peut voir ici une syntaxe un peu nouvelle pour les synonymes. Un nom
+de commande peut avoir plusieurs synonymes, ici "on" a comme synonyme
+"allume" et "allumer". La syntaxe est donc "*nom de la commande*"
+***=*** "*synonyme 1*"***,*** "*synonyme 2*" (on peut mettre autant de
+synonyme que l’on veut). Puis, pour ajouter des synonymes pour un autre
+nom de commande, il suffit d’ajouter après le dernier synonyme une barre
+verticale "*|*" à la suite de laquel vous pouvez à nouveau nommer la
+commande qui va avoir des synonymes comme pour la première partie, etc.
 
-Es ist bereits besser, aber es fehlt immer noch für den Eingabebefehl "Ein""
-das &quot;l&quot; und für andere das &quot;das&quot; oder &quot;das&quot; oder &quot;a&quot; usw.. Wir könnten
-Es wäre eine Lösung, den Namen des Geräts zu ändern, um es hinzuzufügen,
-Andernfalls können wir Nachfrageschwankungen verwenden. Es besteht aus
-Listen Sie eine Reihe möglicher Wörter an einer Stelle im Satz Jeedom auf
-erzeugt Sätze mit diesen Variationen.
+C’est déjà mieux, mais il manque encore pour la commande "on" "entrée"
+le "l' " et pour d’autres le "la" ou "le" ou "un", etc. On pourrait
+modifier le nom de l’équipement pour l’ajouter, ce serait une solution,
+sinon on peut utiliser les variations dans la demande. Cela consiste à
+lister une série de mots possibles à un emplacement de la phrase, Jeedom
+va donc générer des phrases avec ces variations.
 
-![ichnteract009](../images/interact009.png)
+![interact009](../images/interact009.png)
 
-Wir haben jetzt etwas korrektere Sätze mit Sätzen, die
-sind nicht fair, für unser Beispiel "on" "Eintrag". so finden wir
-"Eingang einschalten "," Eingang einschalten "," Eingang einschalten "," Einschalten "
-der Eintrag &quot;etc.. Wir haben also alle möglichen Varianten mit dem, was wir haben
-hinzugefügt zwischen &quot;\ [\]&quot; und diesem für jedes Synonym, das generiert
-schnell viele Sätze (hier 168).
+On a maintenant des phrases un peu plus correctes avec des phrases qui
+ne sont pas justes, pour notre exemple "on" "entrée". on trouve donc
+"Allume entrée", "Allume un entrée", "Allume une entrée", "Allume
+l’entrée" etc. On a donc toutes les variantes possibles avec ce que l’on
+a ajouté entre les "\[ \]" et ceci pour chaque synonyme, ce qui génère
+rapidement beaucoup de phrases (ici 168).
 
-Um zu verfeinern und keine unwahrscheinlichen Dinge wie zu haben
-"Fernseher einschalten ", können wir Jeedom autorisieren, Anfragen zu löschen
-syntaktisch falsch. Es wird also gelöscht, was zu weit entfernt ist
-die tatsächliche Syntax eines Satzes. In unserem Fall gehen wir von 168
-130 Satzsätze.
+Afin d’affiner et de ne pas avoir des choses improbables telles que
+"allume l’télé", on peut autoriser Jeedom à supprimer les demandes
+syntaxiquement incorrectes. Il va donc supprimer ce qui est trop éloigné
+de la syntaxe réelle d’une phrase. Dans notre cas, on passe de 168
+phrases à 130 phrases.
 
-![ichnteract010](../images/interact010.png)
+![interact010](../images/interact010.png)
 
-Es wird daher wichtig, dass Sie Ihre Modellsätze gut und gut aufbauen
-Synonym sowie die Auswahl der richtigen Filter, um nicht zu generieren
-zu viele unnötige Sätze. Persönlich finvon ich es interessant zu haben
-Einige Inkonsistenzen des Stils &quot;ein Eintrag&quot;, denn wenn Sie zu Hause sind, haben Sie
-eine ausländische Person, die nicht richtig Französisch spricht,
-Interaktionen werden weiterhin funktionieren.
+Il devient donc important de bien construire ses phrases modèles et
+synonymes ainsi que de sélectionner les bons filtres pour ne pas générer
+trop de phrases inutiles. Personnellement, je trouve intéressant d’avoir
+quelques incohérences du style "un entrée" car si chez vous, vous avez
+une personne étrangère qui ne parle pas correctement le français, les
+interactions fonctionneront tout de même.
 
-Passen Sie die Antworten an 
+Personnaliser les réponses 
 --------------------------
 
-Bisher hatten wir als Antwort auf eine Interaktion eine einfache
-Satz, der nicht viel sagte, außer dass etwas passiert ist
-Vergangenheit. Die Idee wäre, dass Jeedom uns erzählt, was er ein bisschen mehr getan hat
-genau. Hier kommt das Antwortfeld ins Spiel.
-Möglichkeit, die Rücksendung basierend auf der ausgeführten Bestellung anzupassen.
+Jusqu’à présent, comme réponse à une interaction, nous avions une simple
+phrase qui n’indiquait pas grand chose à part que quelque chose s’est
+passé. L’idée serait que Jeedom nous indique ce qu’il a fait un peu plus
+précisément. C’est là qu’intervient le champ réponse dans lequel on va
+pouvoir personnaliser le retour en fonction de la commande exécutée.
 
-Dazu verwenden wir wieder das Jeedom Tag. Für unsere
-Lichter können wir einen Satz wie verwenden : Ich habe gut beleuchtet
-\#Ausrüstung \# (siehe Screenshot unten).
+Pour ce faire, nous allons à nouveau utiliser les Tag Jeedom. Pour nos
+lumières, on peut utiliser une phrase du style : J’ai bien allumé
+\#equipement\# (voir capture ci-dessous).
 
-![ichnteract011](../images/interact011.png)
+![interact011](../images/interact011.png)
 
-Sie können auch einen beliebigen Wert aus einem anderen Befehl wie hinzufügen
-Temperatur, Anzahl der Personen usw..
+On peut aussi ajouter n’importe quelle valeur d’une autre commande comme
+une température, un nombre de personnes, etc.
 
-![ichnteract012](../images/interact012.png)
+![interact012](../images/interact012.png)
 
-Binäre Konvertierung 
+Conversion binaire 
 ------------------
 
-Binäre Konvertierungen gelten für Bestellungen vom Typ Info, deren
-Subtyp ist binär (gibt nur 0 oder 1 zurück). Also musst du aktivieren
-die richtigen Filter, wie Sie im folgenden Screenshot sehen können
-(Für die Kategorien können wir alle überprüfen, für das Beispiel, das ich habe
-hielt das Licht).
+Les conversions binaires s’appliquent aux commandes de type info dont le
+sous-type est binaire (retourne 0 ou 1 uniquement). Il faut donc activer
+les bons filtres, comme on peut le voir sur la capture un peu plus bas
+(pour les catégories, on peut toutes les cocher, pour l’exemple je n’ai
+gardé que lumière).
 
-![ichnteract013](../images/interact013.png)
+![interact013](../images/interact013.png)
 
-Wie Sie hier sehen können, habe ich fast die gleiche Struktur beibehalten
-für die Nachfrage (es ist freiwillig, sich darauf zu konzentrieren
-Besonderheiten). Natürlich habe ich die Synonym angepasst, um einige zu haben
-kohärente Sache. Für die Antwort ist es jedoch **Imperativ** de
-Setzen Sie nur \#value \#, was die 0 oder 1 darstellt, zu der Jeedom gehen wird
-durch folgenvon binäre Konvertierung ersetzen.
+Comme on peut le voir ici, j’ai conservé quasiment la même structure
+pour la demande (c’est volontaire pour se concentrer sur les
+spécificités). Bien sûr, j’ai adapté les synonymes pour avoir quelque
+chose de cohérent. Par contre, pour la réponse, il est **impératif** de
+mettre uniquement \#valeur\# qui représente le 0 ou 1 que Jeedom va
+remplacer par la conversion binaire qui suit.
 
-Das Feld **Binäre Konvertierung** muss 2 Antworten enthalten : zuerst die
-Antwort, wenn der Wert des Befehls 0 ist, dann ein vertikaler Balken "|"
-Trennung und schließlich die Antwort, wenn der Befehl 1 wert ist. Hier die
-Antworten sind einfach nein und ja, aber wir könnten einen Satz setzen
-etwas länger.
+Le champ **conversion binaire** doit contenir 2 réponses : en premier la
+réponse si la valeur de la commande vaut 0, puis une barre verticale "|"
+de séparation et enfin la réponse si la commande vaut 1. Ici les
+réponses sont simplement non et oui mais on pourrait y mettre une phrase
+un peu plus longue.
 
 > **Warning**
 >
-> Tags funktionieren nicht in binären Konvertierungen.
+> Les tags ne fonctionnent pas dans les conversions binaires.
 
-Autorisierte Benutzer 
+Utilisateurs autorisés 
 ----------------------
 
-Im Feld &quot;Autorisierte Benutzer&quot; können Sie nur bestimmte autorisieren
-Personen, um den Befehl auszuführen, können Sie mehrere Profile setzen
-trenne sie mit a "|".
+Le champ "Utilisateurs autorisés" permet de n’autoriser que certaines
+personnes à exécuter la commande, vous pouvez mettre plusieurs profils
+en les séparant par un "|".
 
-Beispiel : personne1|personne2
+Exemple : personne1|personne2
 
-Man kann sich vorstellen, dass ein Alarm durch a aktiviert oder deaktiviert werden kann
-Kind oder ein Nachbar, der in Ihrer Abwesenheit kommen würde, um die Pflanzen zu gießen.
+On peut imaginer qu’une alarme peut être activée ou désactivée par un
+enfant ou un voisin qui viendrait arroser les plantes en votre absence.
 
-Regexp-Ausschluss 
+Regexp d’exclusion 
 ------------------
 
-Es ist möglich zu erstellen
+Il est possible de créer des
 [Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle)
-Ausschluss, wenn ein generierter Satz diesem Regexp entspricht, wird es sein
-gelöscht. Es geht darum, Fehlalarme entfernen zu können.
-einen von Jeedom erzeugten Satz zu sagen, der etwas aktiviert, was nicht
-entspricht nicht dem, was wir wollen oder was einen anderen stören würde
-Interaktion, die einen ähnlichen Satz haben würde.
+d’exclusion, si une phrase générée correspond à cette Regexp elle sera
+supprimée. L’intérêt c’est de pouvoir supprimer des faux positifs, c’est
+à dire une phrase générée par Jeedom qui active quelque chose qui ne
+correspond pas à ce que l’on veut ou qui viendrait parasiter une autre
+interaction qui aurait une phrase similaire.
 
-Wir haben 2 Stellen, an denen Sie einen Regexp anwenden können :
+On a 2 endroits pour appliquer une Regexp :
 
--   in der Interaktion auch im Feld "Regexp-Ausschluss"".
+-   dans l’interaction même dans le champ "Regexp d’exclusion".
 
--   Im Menü Administration → Konfiguration → Interaktionen → Feld &quot;Regexp&quot;
-    allgemeiner Ausschluss für Interaktionen".
+-   Dans le menu Administration→Configuration→Interactions→champ "Regexp
+    général d’exclusion pour les interactions".
 
-Für das Feld &quot;Allgemeiner Ausschluss-Regex für Interaktionen&quot; ist dies
-Regel wird auf alle Interaktionen angewendet, die erstellt werden oder
-danach wieder gespeichert. Wenn wir es auf alle anwenden wollen
-Bestehenvon Wechselwirkungen, Wechselwirkungen müssen regeneriert werden.
-Normalerweise wird es verwendet, um Sätze falsch zu löschen
-in den meisten erzeugten Wechselwirkungen gefunden.
+Pour le champ "Regex général d’exclusion pour les interactions", cette
+règle sera appliquée à toutes les interactions, qui seront créées ou
+sauvegardées de nouveau par la suite. Si on veut l’appliquer à toutes
+les interactions existantes, il faut régénérer les interactions.
+Généralement, on l’utilise pour effacer des phrases incorrectement
+formées se retrouvant dans la plupart des interactions générées.
 
-Für das Feld &quot;Regexp-Ausschluss&quot; auf der Konfigurationsseite von
-Beich jeder Interaktion können wir einen bestimmten Regexp einfügen, der funktioniert
-nur auf diese Interaktion. So können Sie löschen
-genauer für eine Interaktion. Es kann auch erlauben
-Löschen Sie eine Interaktion für einen bestimmten Befehl, für den
-will diese Gelegenheit nicht als Teil einer Generation von anbieten
-Mehrfachbestellungen.
+Pour le champ "Regexp d’exclusion" dans la page de configuration de
+chaque interaction, on peut mettre une Regexp spécifique qui va agir
+uniquement sur ladite interaction. Elle vous permet donc de supprimer
+plus précisément pour une interaction. Cela peut aussi permettre
+d’effacer une interaction pour une commande spécifique pour laquelle on
+ne veut pas offrir cette possibilité dans le cadre d’une génération de
+multiples commandes.
 
-Der folgenvon Screenshot zeigt die Interaktion ohne Regexp. In der
-linke Liste, ich filtere die Sätze, um Ihnen nur die zu zeigen
-Sätze, die gelöscht werden sollen. In Wirklichkeit werden 76 Sätze erzeugt
-mit der Konfiguration der Interaktion.
+La capture d’écran qui suit montre l’interaction sans le Regexp. Dans la
+liste de gauche, je filtre les phrases pour ne vous montrer que les
+phrases qui vont être supprimées. En réalité il y a 76 phrases générées
+avec la configuration de l’interaction.
 
-![ichnteract014](../images/interact014.png)
+![interact014](../images/interact014.png)
 
-Wie Sie auf dem folgenden Screenshot sehen können, habe ich eine hinzugefügt
-regexp simple, das in den generierten Sätzen nach dem Wort &quot;Julie&quot; sucht
-und löschen Sie sie. Wir können jedoch in der Liste links sehen, dass dort
-hat immer Sätze mit dem Wort &quot;julie&quot; in Ausdrücken
-regelmäßig ist Julie nicht gleich Julie, dies nennt man a
-Groß- und Kleinschreibung oder in gutem Französisch ist ein Großbuchstabe anders
-von einem winzigen. Wie wir im folgenden Screenshot sehen können, ist dies nicht der Fall
-Nur noch 71 Sätze, die 5 mit einer &quot;Julie&quot; wurden gelöscht.
+Comme vous pouvez le voir sur la capture suivante, j’ai ajouté une
+regexp simple qui va chercher le mot "Julie" dans les phrases générées
+et les supprimer. Toutefois, on peut voir dans la liste de gauche qu’il y
+a toujours des phrases avec le mot "julie", dans les expressions
+régulières, Julie n’est pas égale à julie, on appelle cela une
+sensibilité à la casse ou en bon français une majuscule est différente
+d’une minuscule. Comme on peut le voir dans la capture suivante, il ne
+reste plus que 71 phrases, les 5 avec un "Julie" ont été supprimées.
 
-Ein regulärer Ausdruck setzt sich wie folgt zusammen :
+Une expression régulière se compose comme suit :
 
--   Zuerst ein Trennzeichen, hier ist ein Schrägstrich &quot;/&quot; eingefügt
-    Beginn und Envon des Ausdrucks.
+-   En premier, un délimiteur, ici c’est une barre oblique "/" placée en
+    début et fin d’expression.
 
--   Der Punkt nach dem Schrägstrich steht für einen beliebigen
-    Zeichen, Leerzeichen oder Zahl.
+-   Le point qui suit la barre oblique représente n’importe quel
+    caractère, espace ou nombre.
 
--   Das &quot;\*&quot; zeigt an, dass es 0 oder mehr Male geben kann
-    der Charakter, der davor steht, hier ein Punkt, also in gutem Französisch
-    ein beliebiger Artikel.
+-   Le "\*" quant à lui indique qu’il peut y avoir 0 ou plusieurs fois
+    le caractère qui le précède, ici un point, donc en bon français
+    n’importe quel élément.
 
--   Dann Julie, nach dem gesucht werden muss (Wort oder anderes Diagramm)
-    Ausdruck), gefolgt von einem Punkt und einem Schrägstrich.
+-   Puis Julie, qui est le mot à rechercher (mot ou autre schéma
+    d’expression), suivi à nouveau d’un point puis barre oblique.
 
-Wenn wir diesen Ausdruck in einen Satz übersetzen, würvon dies &quot;suche das&quot; ergeben
-Wort Julie, dem alles vorausgeht und dem alles folgt
+Si on traduit cette expression en une phrase, cela donnerait "cherche le
+mot Julie qui est précédé par n’importe quoi et suivi de n’importe
 quoi".
 
-Es ist aber eine extrem einfache Version von regulären Ausdrücken
-schon sehr kompliziert zu verstehen. Ich brauchte eine Weile, um es zu begreifen
-die Operation. Als etwas komplexeres Beispiel ein regulärer Ausdruck für
-Überprüfen Sie eine URL :
+C’est une version extrêmement simple des expressions régulières mais
+déjà très compliquée à comprendre. Il m’a fallu un moment pour en saisir
+le fonctionnement. Comme exemple un peu plus complexe, une regexp pour
+vérifier une adresse URL :
 
-/\^(https?:\\ / \\/)?(\ [\\ da-z \\ .- \] +) \\. (\ [Az \\. \] {2,6}) (\ [\\ / w \\
-\\ .- \] \*) \ \\* /?\ $ /
+/\^(https?:\\/\\/)?(\[\\da-z\\.-\]+)\\.(\[a-z\\.\]{2,6})(\[\\/\\w
+\\.-\]\*)\*\\/?\$/
 
-Sobald Sie dies schreiben können, verstehen Sie die Ausdrücke
-regelmäßig.
+Une fois que vous pouvez écrire cela, vous avez compris les expressions
+régulières.
 
-![ichnteract015](../images/interact015.png)
+![interact015](../images/interact015.png)
 
-Um das Problem der Groß- und Kleinschreibung zu lösen, können wir hinzufügen
-unser Ausdruck eine Option, die es unabhängig von Groß- und Kleinschreibung macht, oder
-mit anderen Worten, beich denen ein Kleinbuchstabe einem Großbuchstaben entspricht;
-Dazu müssen wir einfach am Envon unseres Ausdrucks a hinzufügen
+Pour résoudre le problème de majuscule et minuscule, on peut ajouter à
+notre expression une option qui va la rendre insensible à la casse, ou
+autrement dit, qui considère une lettre minuscule égale à une majuscule;
+pour ce faire, on doit simplement ajouter à la fin de notre expression un
 "i".
 
-![ichnteract016](../images/interact016.png)
+![interact016](../images/interact016.png)
 
-Mit der Option &quot;i&quot; sehen wir, dass nur noch 55 übrig sind
-generierte Sätze und in der Liste links mit dem Julie-Filter für
-Suchen Sie nach den Sätzen, die dieses Wort enthalten. Wir sehen, dass es einige gibt
-viel mehr.
+Avec l’ajout de l’option "i" on constate qu’il ne reste plus que 55
+phrases générées et dans la liste de gauche avec le filtre julie pour
+rechercher les phrases qui contiennent ce mot, on constate qu’il y en a
+bien plus.
 
-Da dies ein äußerst komplexes Thema ist, wervon ich nicht weiter gehen
-Detail hier, es gibt genug Tutorials im Internet, um Ihnen zu helfen, und
-Vergiss nicht, dass Google auch dein Freund ist, denn ja, er ist mein Freund,
-Er hat mir beigebracht, Regexp zu verstehen und sogar zu programmieren. deshalb
-Wenn er mir geholfen hat, kann er Ihnen auch helfen, wenn Sie Gutes tun
+Comme c’est un sujet extrêmement complexe, je ne vais pas aller plus en
+détail ici, il y a suffisamment de tutos sur le net pour vous aider, et
+n’oubliez pas que Google est votre ami aussi car oui, c’est mon ami,
+c’est lui qui m’a appris à comprendre les Regexp et même à coder. Donc
+s’il m’a aidé, il peut aussi vous aider si vous y mettez de la bonne
 volonté.
 
-Nützliche Links :
+Liens utiles :
 
 -   <http://www.commentcamarche.net/contents/585-javascript-l-objet-regexp>
 
@@ -424,242 +424,242 @@ Nützliche Links :
 
 -   <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/les-expressions-regulieres-partie-1-2>
 
-Antwort bestehend aus mehreren Informationen 
+Réponse composée de plusieurs informations 
 ------------------------------------------
 
-Es ist auch möglich, mehrere Info-Befehle in einen zu setzen
-Antworten Sie beispielsweise, um eine Situationszusammenfassung zu erhalten.
+Il est aussi possible de mettre plusieurs commandes info dans une
+réponse, par exemple pour avoir un résumé de situation.
 
-![ichnteract021](../images/interact021.png)
+![interact021](../images/interact021.png)
 
-In diesem Beispiel sehen wir einen einfachen Satz, der a zurückgibt
-Antworte mit 3 verschiedenen Temperaturen, also können wir hier ein wenig setzen
-alles, was Sie wollen, um eine Reihe von Informationen in einem zu haben
-einmal.
+Dans cet exemple on voit une phrase simple qui va nous retourner une
+réponse avec 3 températures différentes, on peut donc ici mettre un peu
+tout ce que l’on veut afin d’avoir un ensemble d’informations en une
+seule fois.
 
-Ist jemand im Raum? ? 
+Y a-t-il quelqu’un dans la chambre ? 
 ------------------------------------
 
-### Basisversion 
+### Version basique 
 
--   Die Frage ist also: "Ist jemand im Raum?"
+-   La question est donc "y’a-t-il quelqu’un dans la chambre"
 
--   Die Antwort lautund &quot;Nein, es ist niemand im Raum&quot; oder &quot;Ja, es ist da&quot;
-    hat jemanden im Raum"
+-   La réponse sera "non il n’y a personne dans la chambre" ou "oui il y
+    a quelqu’un dans la chambre"
 
--   Der Befehl, der darauf reagiert, lautund &quot;\# \ [Chamber of
-    Julie \] \ [GSMF-001-2 \] \ [Presence \] \#"
+-   La commande qui répond à ça est "\#\[Chambre de
+    julie\]\[FGMS-001-2\]\[Présence\]\#"
 
-![ichnteract017](../images/interact017.png)
+![interact017](../images/interact017.png)
 
-Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die dies zulassen
-eine personalisierte Antwort zu haben. Wir könnten uns also vorstellen, zu ersetzen
-Die Beispielantwort lautund &quot;Nein, es ist niemand im Raum
-*julie*|Ja, da ist jemand in * Julies Zimmer*"
+Cette exemple cible précisément un équipement spécifique ce qui permet
+d’avoir une réponse personnalisée. On pourrait donc imaginer remplacer
+la réponse de l’exemple par "non il n’y a personne dans la chambre de
+*julie*|oui il y a quelqu’un dans la chambre de *julie*"
 
 ### Evolution 
 
--   Die Frage lautund also "\#order \# \ [ichn der |im \] \#Objekt \#"
+-   La question est donc "\#commande\# \[dans la |dans le\] \#objet\#"
 
--   Die Antwort lautund &quot;Nein, es ist niemand im Raum&quot; oder &quot;Ja, es ist da&quot;
-    jemand im Raum"
+-   La réponse sera "non il n’y a personne dans la pièce" ou "oui il y a
+    quelqu’un dans la pièce"
 
--   Es gibt keinen Befehl, der dies im Aktionsteil beantwortet
-    dass dies eine Interaktion mit mehreren Befehlen ist
+-   Il n’y a pas de commande qui réponde à ça dans la partie Action vu
+    que c’est une interaction Multiple commandes
 
--   Durch Hinzufügen eines regulären Ausdrucks können wir die Befehle bereinigen
-    dass wir nicht sehen wollen, nur die Sätze auf dem zu haben
-    Anwesenheitsbefehle".
+-   En ajoutant une expression régulière, on peut nettoyer les commandes
+    que l’on ne veut pas voir pour n’avoir que les phrases sur les
+    commandes "Présence".
 
-![ichnteract018](../images/interact018.png)
+![interact018](../images/interact018.png)
 
-Ohne den Regexp bekommen wir hier 11 Sätze, aber meine Interaktion ist zielgerichtet
-generiere Sätze nur, um zu fragen, ob jemand drin ist
-ein Raum, also brauche ich keinen Lampenzustand oder ähnliches
-genommen, die mit Regexp-Filterung aufgelöst werden kann. Zu machen
-Noch flexibler können Synonym hinzugefügt werden, in diesem Fall jedoch
-Vergessen Sie nicht, den regulären Ausdruck zu ändern.
+Sans le Regexp, on obtient ici 11 phrases, or mon interaction a pour but
+de générer des phrases uniquement pour demander s’il y a quelqu’un dans
+une pièce, donc je n’ai pas besoin d’état de lampe ou autre comme les
+prises, ce qui peut être résolu avec le filtrage regexp. Pour rendre
+encore plus flexible, on peut ajouter des synonymes, mais dans ce cas il
+ne faudra pas oublier de modifier la regexp.
 
-Kennen Sie die Temperatur / Luftfeuchtigkeit / Helligkeit 
+Connaître la température/humidité/luminosité 
 --------------------------------------------
 
-### Basisversion 
+### Version basique 
 
-Wir könnten den Satz hart schreiben, wie zum Beispiel &quot;Was ist das?&quot;
-Wohnzimmertemperatur &quot;, aber eine sollte für jeden Sensor durchgeführt werden
-von Temperatur, Helligkeit und Luftfeuchtigkeit. Mit dem Erzeugungssystem von
-Jeedom Satz, so können wir mit einer einzigen Interaktion erzeugen
-Sätze für alle Sensoren dieser 3 Messarten.
+On pourrait écrire la phrase en dur comme par exemple "quelle est la
+température du salon", mais il faudrait en faire une pour chaque capteur
+de température, luminosité et humidité. Avec le système de génération de
+phrase Jeedom, on peut donc avec une seule interaction générer les
+phrases pour tous les capteurs de ces 3 types de mesure.
 
-Hier ein allgemeines Beispiel, anhand dessen die Temperatur ermittelt wird,
-die Luftfeuchtigkeit, die Helligkeit der verschiedenen Räume (Objekt im Sinne von Jeedom).
+Ici un exemple générique qui sert à connaître la température,
+l’humidité, la luminosité des différentes pièces (objet au sens Jeedom).
 
-![ichnteract019](../images/interact019.png)
+![interact019](../images/interact019.png)
 
--   So können wir sehen, dass ein generischer generischer Satz &quot;Was ist das?&quot;
-    Wohnzimmertemperatur "oder" Wie hell ist das Schlafzimmer"
-    kann konvertiert werden zu : "was ist \ [the |l \\ &#39;\] \# Befehl \# Objekt"
-    (die Verwendung von \ [word1 | mot2 \] sagen wir diese Möglichkeit
-    oder diese, um alle möglichen Variationen des Satzes zu erzeugen
-    mit Wort1 oder Wort2). Beich der Erzeugung wird Jeedom alles erzeugen
-    mögliche Kombinationen von Sätzen mit allen Befehlen
-    vorhanden (abhängig von den Filtern) durch Ersetzen von \#order \# durch
-    den Namen des Befehls und \#Objekt \# durch den Namen des Objekts.
+-   On peut donc voir qu’une phrase générique type "Quelle est la
+    température du salon" ou "Quelle est la luminosité de la chambre"
+    peut être convertie en : "quelle est \[la |l\\'\]\#commande\# objet"
+    (l’utilisation de \[mot1 | mot2\] permet de dire cette possibilité
+    ou celle-là pour générer toutes les variantes possibles de la phrase
+    avec mot1 ou mot2). Lors de la génération Jeedom va générer toutes
+    les combinaisons possibles de phrases avec toutes les commandes
+    existantes (en fonction des filtres) en remplaçant \#commande\# par
+    le nom de la commande et \#objet\# par le nom de l’objet.
 
--   Die Antwort lautund "21 ° C" oder "200 Lux"". Einfach gesagt :
-    \#value \# \#unite \# (das Gerät muss in der Konfiguration abgeschlossen sein
-    von jeder Bestellung, für die wir eine haben wollen)
+-   La réponse sera de type "21 °C" ou "200 lux". Il suffit de mettre :
+    \#valeur\# \#unite\# (l’unité est à compléter dans la configuration
+    de chaque commande pour laquelle on veut en avoir une)
 
--   Dieses Beispiel generiert daher einen Satz für alle Befehle von
-    Geben Sie digitale Informationen mit einer Einheit ein, damit wir das Kontrollkästchen deaktivieren können
-    Einheiten im richtigen Filter sind auf den Typ beschränkt, der uns interessiert.
+-   Cette exemple génère donc une phrase pour toutes les commandes de
+    type info numérique qui ont une unité, on peut donc décocher des
+    unités dans le filtre de droite limité au type qui nous intéresse.
 
 ### Evolution 
 
-Wir können daher dem Befehlsnamen Synonym hinzufügen, um einige zu haben
-natürlicher, fügen Sie einen regulären Ausdruck hinzu, um die Befehle zu filtern, die
-haben nichts mit unserer Interaktion zu tun.
+On peut donc ajouter des synonymes au nom de commande pour avoir quelque
+chose de plus naturel, ajouter un regexp pour filtrer les commandes qui
+n’ont rien à voir avec notre interaction.
 
-Wenn Sie ein Synonym hinzufügen, können Sie Jeedom mitteilen, dass ein Befehl aufgerufen wurde
-"X" kann auch "Y" genannt werden und daher in unserem Satz, wenn wir "einschalten" haben
-y &quot;, Jeedom weiß, dass es x einschaltet. Diese Methovon ist sehr praktisch
-um Befehlsnamen umzubenennen, die beich Anzeige unter
-Der Bildschirm ist auf eine Weise geschrieben, die weder stimmlich noch natürlich ist
-in einem Satz geschrieben wie "ON". Ein so geschriebener Button ist
-völlig logisch, aber nicht im Kontext eines Satzes.
+Ajout de synonyme, permet de dire à Jeedom qu’une commande s’appellant
+"X" peut aussi s’appeler "Y" et donc dans notre phrase si on a "allume
+y", Jeedom sait que c’est allumer x. Cette méthode est très pratique
+pour renommer des noms de commande qui, quand elles sont affichées à
+l’écran, sont écrites d’une façon qui n’est pas naturelle vocalement ou
+dans une phrase écrite comme les "ON". Un bouton écrit comme cela est
+totalement logique mais pas dans le contexte d’une phrase.
 
-Wir können auch einen Regexp-Filter hinzufügen, um einige Befehle zu entfernen.
-Anhand des einfachen Beispiels sehen wir Sätze &quot;Batterie&quot; oder
-"Latenz ", die nichts mit unserer Interaktion zu tun haben
-Temperatur / Feuchte / Helligkeit.
+On peut aussi ajouter un filtre Regexp pour enlever quelques commandes.
+En reprenant l’exemple simple, on voit des phrases "batterie" ou encore
+"latence", qui n’ont rien à voir avec notre interaction
+température/humidité/luminosité.
 
-![ichnteract020](../images/interact020.png)
+![interact020](../images/interact020.png)
 
-Wir können also einen regulären Ausdruck sehen :
+On peut donc voir un regexp :
 
 **(batterie|latence|pression|vitesse|consommation)**
 
-Auf diese Weise können Sie alle Bestellungen löschen, für die eine dieser Bestellungen vorliegt
-Wörter in ihrem Satz
+Celui-ci permet de supprimer toutes les commandes qui ont l’un de ces
+mots dans leur phrase
 
 > **Note**
 >
-> Der reguläre Ausdruck hier ist eine vereinfachte Version zur einfachen Verwendung.
-> Wir können also entweder traditionelle Ausdrücke verwenden oder
-> Verwenden Sie die vereinfachten Ausdrücke wie in diesem Beispiel.
+> Le regexp ici est une version simplifiée pour une utilisation simple.
+> On peut donc soit utiliser les expressions traditionnelles, soit
+> utiliser les expressions simplifiées comme dans cet exemple.
 
-Steuern Sie einen Dimmer oder einen Thermostat (Schieberegler) 
+Piloter un dimmer ou un thermostat (slider) 
 -------------------------------------------
 
-### Basisversion 
+### Version basique 
 
-Es ist möglich, eine prozentuale Lampe (Dimmer) oder a zu steuern
-Thermostat mit Wechselwirkungen. Hier ist ein Beispiel zur Steuerung seiner
-Dimmer auf einer Lampe mit Wechselwirkungen :
+Il est possible de piloter une lampe en pourcentage (variateur) ou un
+thermostat avec les interactions. Voici un exemple pour piloter son
+variateur sur une lampe avec des interactions :
 
-![ichnteract022](../images/interact022.png)
+![interact022](../images/interact022.png)
 
-Wie wir sehen können, gibt es hier in der Anfrage das Tag **\#consigne\#** (on
-kann setzen was du willst) was in der Reihenfolge der enthalten ist
-Dimmer, um den gewünschten Wert anzuwenden. Dazu haben wir 3 Teile
-: \* Anfrage : in dem wir ein Tag erstellen, das den Wert darstellt
-welches an die Interaktion gesendund wird. \* Antwort : Wir verwenden das Tag für
-die Antwort, um sicherzustellen, dass Jeedom die Anfrage richtig verstanden hat.
-\* Aktion : Wir setzen eine Aktion auf die Lampe, die wir fahren und einfahren möchten
-den Wert, den wir unserer Tag * Einzahlung übergeben*.
+Comme on le voit, il y a ici dans la demande le tag **\#consigne\#** (on
+peut mettre ce que l’on veut) qui est repris dans la commande du
+variateur pour appliquer la valeur voulue. Pour ce faire, on a 3 parties
+: \* Demande : dans laquelle on crée un tag qui va représenter la valeur
+qui sera envoyée à l’interaction. \* Réponse : on réutilise le tag pour
+la réponse afin d’être sûr que Jeedom a correctement compris la demande.
+\* Action : on met une action sur la lampe que l’on veut piloter et dans
+la valeur on lui passe notre tag *consigne*.
 
 > **Note**
 >
-> Sie können jedes Tag verwenden, außer denjenigen, die bereits von verwendund werden
-> Jeedom, es können zum Beispiel mehrere fahren
-> Mehrfachbestellungen. Beachten Sie auch, dass alle Tags an übergeben werden
-> Szenarien, die durch die Interaktion gestartund wurden (jedoch das Szenario
-> entweder in &quot;Im Vordergrund ausführen&quot;).
+> On peut utiliser n’importe quel tag excepté ceux déjà utilisés par
+> Jeedom, il peut y en avoir plusieurs pour piloter par exemple
+> plusieurs commandes. A noter aussi que tous les tags sont passés aux
+> scénarios lancés par l’interaction (il faut toutefois que le scénario
+> soit en "Exécuter en avant plan").
 
 ### Evolution 
 
-Möglicherweise möchten wir alle Cursortypbefehle mit a steuern
-einzelne Interaktion. Mit dem folgenden Beispiel können wir bestellen
-mehrere Laufwerke mit einer einzigen Interaktion und generieren daher a
-Satz von Sätzen, um sie zu kontrollieren.
+On peut vouloir piloter toutes les commandes de type curseur avec une
+seule interaction. Avec l’exemple qui suit, on va donc pouvoir commander
+plusieurs variateurs avec une seule interaction et donc générer un
+ensemble de phrases pour les contrôler.
 
-![ichnteract033](../images/interact033.png)
+![interact033](../images/interact033.png)
 
-In dieser Interaktion haben wir keinen Befehl im Aktionsteil, wir
-Lassen Sie Jeedom aus Tags die Liste der Sätze generieren. Wir können
-siehe das Tag **\#slider\#**. Es ist unbedingt erforderlich, dieses Tag für zu verwenden
-Anweisungen in einer Interaktion mit mehreren Befehlen sind möglicherweise nicht vorhanden
-das letzte Wort des Satzes. Wir können auch im Beispiel sehen, dass wir
-kann in der Antwort ein Tag verwenden, das nicht Teil des ist
-Anfrage. Die meisten in den Szenarien verfügbaren Tags sind
-auch in Interaktionen verfügbar und kann daher verwendund werden
-in einer Antwort.
+Dans cette interaction, on n’a pas de commande dans la partie action, on
+laisse Jeedom générer à partir des tags la liste de phrases. On peut
+voir le tag **\#slider\#**. Il est impératif d’utiliser ce tag pour les
+consignes dans une interaction multiple commandes, il peut ne pas être
+le dernier mot de la phrase. On peut aussi voir dans l’exemple que l’on
+peut utiliser dans la réponse un tag qui ne fait pas partie de la
+demande. La majorité des tags disponibles dans les scénarios sont
+disponibles aussi dans les interactions et donc peuvent être utilisés
+dans une réponse.
 
-Ergebnis der Interaktion :
+Résultat de l’interaction :
 
-![ichnteract034](../images/interact034.png)
+![interact034](../images/interact034.png)
 
-Wir können sehen, dass das Tag **\#equipement\#** welches nicht verwendund wird
-in der Anfrage ist in der Antwort gut abgeschlossen.
+On peut constater que le tag **\#equipement\#** qui n’est pas utilisé
+dans la demande est bien complété dans la réponse.
 
-Steuern Sie die Farbe eines LED-Streifens 
+Piloter la couleur d’un bandeau de LED 
 --------------------------------------
 
-Es ist möglich, einen Farbbefehl über die Interaktionen in zu steuern
-Bitten Sie Jeedom zum Beispiel, einen blauen LED-Streifen anzuzünden.
-Dies ist die Interaktion zu tun :
+Il est possible de piloter une commande couleur par les interactions en
+demandant par exemple à Jeedom d’allumer un bandeau de led en bleu.
+Voilà l’interaction à faire :
 
-![ichnteract023](../images/interact023.png)
+![interact023](../images/interact023.png)
 
-Bis dahin nichts sehr kompliziertes, muss es aber konfiguriert haben
-Farben in Jeedom, damit es funktioniert; geh zum
-Menü → Konfiguration (oben rechts) dann im Abschnitt
-"Interaktionen konfigurieren" :
+Jusque là rien de bien compliqué, il faut en revanche avoir configuré
+les couleurs dans Jeedom pour que cela fonctionne; rendez-vous dans le
+menu → Configuration (en haut à droite) puis dans la partie
+"Configuration des interactions" :
 
-![ichnteract024](../images/interact024.png)
+![interact024](../images/interact024.png)
 
-Wie wir auf dem Screenshot sehen können, gibt es keine Farbe
-konfiguriert, fügen Sie also Farben mit dem &quot;+&quot; rechts hinzu. die
-Farbname, dies ist der Name, den Sie an die Interaktion übergeben werden,
-dann im rechten Teil (Spalte &quot;HTML-Code&quot;) durch Klicken auf die
-schwarze Farbe Sie können eine neue Farbe wählen.
+Comme on peut le voir sur la capture, il n’y a pas de couleur
+configurée, il faut donc ajouter des couleurs avec le "+" à droite. Le
+nom de la couleur, c’est le nom que vous allez passer à l’interaction,
+puis dans la partie de droite (colonne "Code HTML"), en cliquant sur la
+couleur noire on peut choisir une nouvelle couleur.
 
-![ichnteract025](../images/interact025.png)
+![interact025](../images/interact025.png)
 
-Wir können so viele hinzufügen, wie wir wollen, wir können einen Namen setzen
-Sie können sich also vorstellen, eine Farbe zuzuweisen
-der Name jedes Familienmitglieds.
+On peut en ajouter autant que bon nous semble, on peut mettre comme nom
+n’importe lequel, ainsi on pourrait imaginer attribuer une couleur pour
+le nom de chaque membre de la famille.
 
-Einmal konfiguriert, sagst du &quot;Light the tree green&quot;, Jeedom wird es tun
-Finden Sie eine Farbe in der Anfrage und wenden Sie sie auf die Bestellung an.
+Une fois configuré, vous dites "Allume le sapin en vert", Jeedom va
+rechercher dans la demande une couleur et l’appliquer à la commande.
 
-Verwendung in Verbindung mit einem Szenario 
+Utilisation couplée à un scénario 
 ---------------------------------
 
-### Basisversion 
+### Version basique 
 
-Es ist möglich, eine Interaktion mit einem Szenario zu koppeln, um
-Führen Sie etwas komplexere Aktionen aus als einfache
-Aktion oder Informationsanfrage.
+Il est possible de coupler une interaction à un scénario afin de
+réaliser des actions un peu plus complexes que l’exécution d’une simple
+action ou d’une demande d’information.
 
-![ichnteract026](../images/interact026.png)
+![interact026](../images/interact026.png)
 
-Dieses Beispiel ermöglicht es daher, das Szenario zu starten, das in der verknüpft ist
-Aktionsteil, wir können natürlich mehrere haben.
+Cette exemple permet donc de lancer le scénario qui est lié dans la
+partie action, on peut bien sûr en avoir plusieurs.
 
-Programmieren einer Aktion mit Interaktionen 
+Programmation d’une action avec les interactions 
 ------------------------------------------------
 
-Interaktionen machen insbesondere viele Dinge.
-Sie können eine Aktion dynamisch programmieren. Beispiel : "Setzen Sie die
-Erhitzen um 22 Uhr für 14:50 Uhr". Einfacher geht es nicht
-um die Tags \#time \# zu verwenden (wenn eine genaue Zeit definiert ist) oder
-\#Dauer \# (für in X-Zeit, Beispiel in 1 Stunde) :
+Les interactions permettent de faire beaucoup de choses en particulier.
+Vous pouvez programmer dynamiquement une action. Exemple : "Met le
+chauffage à 22 pour 14h50". Pour cela rien de plus simple, il suffit
+d’utiliser les tags \#time\# (si on définit une heure précise) ou
+\#duration\# (pour dans X temps, exemple dans 1 heure) :
 
-![ichnteract23](../images/interact23.JPG)
+![interact23](../images/interact23.JPG)
 
 > **Note**
 >
-> Sie werden in der Antwort das darin enthaltene Tag \#value \# bemerken
-> im Falle einer geplanten Interaktion die Programmierzeit
+> Vous remarquerez dans la réponse le tag \#value\# celui-ci contient
+> dans le cas d’une interaction programmée l’heure de programmation
 > effective

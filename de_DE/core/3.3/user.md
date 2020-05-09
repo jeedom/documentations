@@ -1,77 +1,77 @@
-Hier können wir die Liste der Benutzer definieren
-darf sich mit Jeedom verbinden, aber auch mit ihren Rechten
-d'administrateur
+C’est ici que l’on va pouvoir définir la liste des utilisateurs
+autorisés à se connecter à Jeedom, mais également leurs droits
+d’administrateur
 
-Zugänglich für Administration → Benutzer.
+Accessible par Administration → Utilisateurs.
 
-Oben rechts haben Sie eine Schaltfläche zum Hinzufügen eines Benutzers, a
-zum Speichern und eine Schaltfläche zum Öffnen eines Support-Zugriffs.
+En haut à droite vous avez un bouton pour ajouter un utilisateur, un
+pour sauvegarder et un bouton pour ouvrir un accès au support.
 
-Unten haben Sie eine Tabelle :
+En dessous vous avez un tableau :
 
--   **Benutzername** : Benutzer-ID
+-   **Nom d’utilisateur** : l’identifiant de l’utilisateur
 
--   **Actif** : ermöglicht das Deaktivieren des Kontos
+-   **Actif** : permet de désactiver le compte
 
--   **Nur lokal** : Benutzeranmeldung autorisieren
-    Nur wenn es sich im lokalen Jeedom-Netzwerk befindet
+-   **Local seulement** : autorise la connexion de l’utilisateur
+    uniquement s’il est sur le réseau local de Jeedom
 
--   **Profils** : ermöglicht die Auswahl des Benutzerprofils :
+-   **Profils** : permet de choisir le profil de l’utilisateur :
 
-    -   **Administrateur** : bekommt alle Rechte an Jeedom
+    -   **Administrateur** : obtient tous les droits sur Jeedom
 
-    -   **Utilisateur** : kann das Dashboard sehen, Ansichten,
-        Design usw.. und auf Geräte / Kontrollen einwirken. Allerdings,
-        Er hat keinen Zugriff auf die Konfiguration der Steuerungen / Geräte
-        noch auf die Konfiguration von Jeedom.
+    -   **Utilisateur** : peut voir le dashboard, les vues, les
+        design, etc. et agir sur les équipements/commandes. En revanche,
+        il n’aura pas accès à la configuration des commandes/équipements
+        ni à la configuration de Jeedom.
 
-    -   **Begrenzter Benutzer** : Der Benutzer sieht nur die
-        autorisierte Geräte (konfigurierbar mit der Schaltfläche &quot;Verwalten&quot;
-        Rechte &quot;)
+    -   **Utilisateur limité** : l’utilisateur ne voit que les
+        équipements autorisés (configurable avec le bouton "Gérer
+        les droits")
 
--   **API-Schlüssel** : persönlicher API-Schlüssel des Benutzers
+-   **Clef API** : clef API personnelle de l’utilisateur
 
--   **Doppelte Authentifizierung** : Gibt an, ob eine doppelte Authentifizierung vorliegt
-    ist aktiv (OK) oder nicht (NOK)
+-   **Double authentification** : indique si la double authentification
+    est active (OK) ou non (NOK)
 
--   **Datum der letzten Verbindung** : Datum der letzten Verbindung von
-    der Benutzer bei Jeedom. Bitte beachten Sie, dass dies das Verbindungsdatum ist
-    Ist also, wenn Sie Ihren Computer speichern, das Datum von
-    Die Verbindung wird nicht jedes Mal aktualisiert, wenn Sie zu ihr zurückkehren.
+-   **Date de dernière connexion** : date de la dernière connexion de
+    l’utilisateur à Jeedom. Attention, ici c’est la date de connexion
+    réelle, ainsi si vous enregistrez votre ordinateur, la date de
+    connexion n’est pas mise à jour à chaque fois que vous y retournez.
 
--   **Passwort ändern** : ermöglicht das Ändern des Passworts von
-    l'utilisateur
+-   **Changer le mot de passe** : permet de changer le mot de passe de
+    l’utilisateur
 
--   **Supprimer** : Benutzer löschen
+-   **Supprimer** : permet de supprimer l’utilisateur
 
--   **API-Schlüssel neu generieren** : regeneriert den API-Schlüssel des Benutzers
+-   **Regénerer clef API** : regénère la clef API de l’utilisateur
 
--   **Rechte verwalten** : ermöglicht es, die Rechte von fein zu verwalten
-    der Benutzer (Aufmerksamkeit, in der sich die Profile befinden müssen
-    "eingeschränkter Benutzer ")
+-   **Gérer les droits** : permet de gérer finement les droits de
+    l’utilisateur (attention le profils doit être en
+    "utilisateur limité")
 
-Rechteverwaltung 
+Gestion des droits 
 ==================
 
-Wenn Sie auf &quot;Rechte verwalten&quot; klicken, wird ein Fenster angezeigt, in dem Sie klicken können
-Benutzerrechte fein verwalten. Die erste Registerkarte wird angezeigt
-die verschiedenen Geräte. Der zweite zeigt die Szenarien.
+Lors du clic sur "Gérer les droits" une fenêtre apparait et vous permet
+de gérer finement les droits de l’utilisateur. Le premier onglet affiche
+les différents équipements. Le deuxième présente les scénarios.
 
 > **Important**
 >
-> Das Profil muss eingeschränkt werden, sonst werden hier keine Einschränkungen gesetzt
-> wird berücksichtigt
+> Le profil doit être en limité sinon aucune restriction mise ici ne
+> sera prise en compte
 
-Sie erhalten eine Tabelle, die für jede Ausrüstung und jede erlaubt
-Szenario definieren Benutzerrechte :
+Vous obtenez un tableau qui permet, pour chaque équipement et chaque
+scénario, de définir les droits de l’utilisateur :
 
--   **Aucun** : Der Benutzer sieht die Ausrüstung / das Szenario nicht
+-   **Aucun** : l’utilisateur ne voit pas l’équipement/scénario
 
--   **Visualisation** : Der Benutzer sieht die Ausrüstung / das Szenario, jedoch nicht
-    kann nicht darauf reagieren
+-   **Visualisation** : l’utilisateur voit l’équipement/scénario mais ne
+    peut pas agir dessus
 
--   **Visualisierung und Ausführung** : der Benutzer sieht
-    die Ausrüstung / das Szenario und kann darauf einwirken (eine Lampe anzünden, werfen
-    das Szenario usw.)
+-   **Visualisation et exécution** : l’utilisateur voit
+    l’équipement/scénario et peut agir dessus (allumer une lampe, lancer
+    le scénario, etc.)
 
 

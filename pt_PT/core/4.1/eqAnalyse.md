@@ -1,73 +1,73 @@
-# Análise de equipamentos
-**Análise → Equipamento**
+# Analyse équipements
+**Analyse → Equipements**
 
-A página Análise de equipamento permite visualizar muitas informações relacionadas ao equipamento de forma centralizada :
+La page Analyse d’équipements vous permet de voir de nombreuses infos relatives aux équipements de manière centralisée :
 
-- O estado das suas baterias
-- Módulos em alerta
-- Ações definidas
-- Alertas definidos
-- Ordens órfãs
+- L’état de vos piles
+- Les modules en alertes
+- Les actions définies
+- Les alertes définies
+- Les commandes orphelines
 
-## Guia Pilhas
+## Onglet Batteries
 
 
-Você pode ver nesta guia a lista dos módulos de bateria, o nível restante (a cor do ladrilho depende desse nível), o tipo e o número de baterias que devem ser colocadas no módulo, o tipo de módulo também que a data em que as informações sobre o nível da bateria foram atualizadas. Você também pode ver se um limite específico foi definido para o módulo específico (representado por uma mão)
-
-> **Tip**
->
-> Os limites de alerta / aviso nos níveis da bateria podem ser configurados globalmente na configuração do Jeedom (Configurações → Sistemas → Configuração : Equipamento) ou por equipamento na página de configuração avançada na guia alertas.
-
-## Módulos na guia de alerta
-
-Nesta guia, você verá em tempo real os módulos em alerta. Os alertas podem ser de diferentes tipos :
-
-- Tempo limite (configurado na guia de alertas definidos).
-- Bateria em aviso ou em perigo.
-- Comando de aviso ou perigo (configurável nos parâmetros avançados de comando).
-
-Outros tipos de alertas podem ser encontrados aqui.
-Cada alerta será representado pela cor do bloco (o nível de alerta) e um logotipo no canto superior esquerdo (o tipo de alerta).
+Vous pouvez voir sur cet onglet la liste de vos modules sur batterie, leur niveau restant (la couleur de la tuile dépend de ce niveau), le type et le nombre de piles qu’il faut mettre dans le module, le type du module ainsi que la date à laquelle l’information du niveau de batterie a été mise à jour. Vous pouvez aussi voir si un seuil spécifique a été établi pour le module en particulier (représenté par une main)
 
 > **Tip**
 >
-> Aqui serão exibidos todos os módulos em alerta, mesmo aqueles configurados em "não visível"". No entanto, é interessante notar que, se o módulo estiver "visível", o alerta também estará visível no painel (no objeto em questão).
+> Les seuils d’alerte/warning sur les niveaux des batteries sont configurables de manière globale dans la configuration de Jeedom (Réglages→Systèmes→Configuration : Equipements), ou par équipement sur la page de configuration avancée de ceux-ci dans l’onglet alertes.
 
-## Guia Ações definidas
+## Onglet Modules en alerte
 
-Essa guia permite visualizar as ações definidas diretamente em um pedido. De fato, podemos colocar comandos diferentes e pode ser difícil lembrar de tudo. Essa guia existe para isso e sintetiza várias coisas :
+Sur cet onglet vous verrez en temps réel les modules en alerte. Les alertes peuvent être de différents types :
 
-- Ações no status (encontradas nos parâmetros avançados dos comandos info e permitindo que uma ou mais ações sejam executadas no valor de um pedido - imediatamente ou após um atraso).
-- Confirmações de ações (configuráveis no mesmo local em um comando info e permitindo solicitar uma confirmação para executar uma ação).
-- Confirmações com código (o mesmo que acima, mas com a inserção de um código).
-- Ações pré e pós (sempre configuráveis no mesmo local em um comando de ação e permitindo executar uma ou mais outras ações antes ou depois da ação em questão).
+- Timeout (configuré dans l’onglet alertes définies).
+- Batterie en warning ou en danger.
+- Commande en warning ou danger (paramétrable dans les paramètres avancées des commandes).
 
-> **Tip**
->
-> A tabela fornece uma visão muito textual das ações definidas. Outros tipos de ações definidas podem ser adicionados.
-
-## Guia Alertas Definidos
-
-Essa guia permite ver todos os alertas definidos; você encontrará em uma tabela as seguintes informações, se existirem :
-
-- Alertas de atraso de comunicação.
-- Os limites específicos da bateria definidos em um dispositivo.
-- Os vários alertas de perigo e comandos de aviso.
-
-## Guia Pedidos Órfãos
-
-Essa guia permite ver rapidamente se você possui comandos órfãos usados pelo Jeedom. Um comando órfão é um comando usado em algum lugar, mas que não existe mais. Vamos encontrar aqui todos esses comandos, como por exemplo :
-
-- Comandos órfãos usados no corpo de um cenário.
-- aqueles usados para desencadear um cenário.
-
-E usado em muitos outros lugares como (não exaustivo) :
-- Interações.
-- Configurações do Jeedom.
-- Na ação anterior ou posterior a um pedido.
-- Em ação no status do pedido.
-- Em alguns plugins.
+D’autres types d’alertes pourront éventuellement se retrouver ici.
+Chaque alerte sera représentée par la couleur de la tuile (le niveau d’alerte) et un logo en haut à gauche (le type d’alerte).
 
 > **Tip**
 >
-> A tabela fornece uma visão muito textual dos comandos órfãos. Seu objetivo é ser capaz de identificar rapidamente todos os pedidos "órfãos" através de todos os plugins Jeedom e. Pode ser que algumas áreas não sejam analisadas; a tabela será cada vez mais exaustiva ao longo do tempo.
+> Ici seront affichés tous les modules en alerte même ceux configurés en "non visible". Il est toutefois intéressant de noter que si le module est en "visible" l’alerte sera aussi visible sur le dashboard (dans l’objet concerné).
+
+## Onglet Actions définies
+
+Cet onglet permet de visualiser les actions définies directement sur une commande. En effet, on peut en mettre sur différentes commandes et il peut être difficile de se rappeler de toutes. Cet onglet est là pour ça et synthétise plusieurs choses :
+
+- Les actions sur état (que l’on retrouve dans les paramètres avancées des commandes infos et permettant de réaliser une ou plusieurs actions sur la valeur d’une commande - de manière immédiate ou après un délai).
+- Les confirmations d’actions (configurable au même endroit sur une commande info et permettant de demander une confirmation pour exécuter une action).
+- Les confirmations avec code (même chose que précédemment mais avec la saisie d’un code).
+- Les actions pre et post (configurables toujours au même endroit sur une commande action et permettant d’exécuter une ou plusieurs autres actions avant ou après l’action en question).
+
+> **Tip**
+>
+> Le tableau permet de voir de manière très textuelle les actions définies. D’autres types d’actions définies pourront être rajoutées.
+
+## Onglet Alertes définies
+
+Cet onglet permet de voir l’ensemble des alertes définies, vous y retrouverez dans un tableau les infos suivantes si elles existent :
+
+- Les alertes sur délai de communication.
+- Les seuils spécifiques de batterie définis sur un équipement.
+- Les différentes alertes danger et warning des commandes.
+
+## Onglet Commandes orphelines
+
+Cet onglet vous permet de voir en un coup d’œil si vous avez des commandes orphelines utilisées au travers de Jeedom. Une commande orpheline est une commande utilisée quelque part mais qui n’existe plus. On retrouvera ici l’ensemble de ces commandes, comme par exemple :
+
+- Les commandes orphelines utilisée dans le corps d’un scenario.
+- celles utilisées en déclencheur d’un scénario.
+
+Et utilisées à plein d’autres endroits comme (non exhaustif) :
+- Les interactions.
+- Les configurations de Jeedom.
+- En pre ou post action d’une commande.
+- En action sur état d’une commande.
+- Dans certains plugins.
+
+> **Tip**
+>
+> Le tableau permet de voir de manière très textuelle les commandes orphelines. Son but est de pouvoir identifier rapidement toutes les commandes "orphelines" au travers de tout Jeedom et des plugins. Il se peut que certaines zones ne soient pas analysées, le tableau se verra être de plus en plus exhaustif avec le temps.

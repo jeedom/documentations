@@ -1,96 +1,96 @@
 # Vues
-**Home → Anzeigen**
+**Accueil → Vue**
 
-Mit Ansichten können Sie eine benutzerdefinierte Ansicht erstellen.
-Es ist nicht so leistungsstark wie die Designs, ermöglicht jedoch in wenigen Minuten eine individuellere Anzeige.
+Les vues permettent de créer un affichage personnalisé.
+Ce n’est pas aussi puissant que les designs mais cela permet en quelques minutes d’avoir un affichage plus personnalisé.
 
 > **Tip**
 >
-> Sie können die Standardansicht in Ihrem Profil auswählen, wenn Sie auf das Ansichtsmenü klicken.
+> Vous pouvez dans votre profil choisir la vue par défaut lors du clic sur le menu des vues.
 
 ## Principe
 
-Wir können auch Widgets, Diagramme (die aus mehreren Daten bestehen können) oder Tabellenzonen (die die Befehls-Widgets enthalten) einfügen..
+On peut mettre aussi bien des widgets, des graphiques (qui peuvent être composés de plusieurs données) ou des zones tableau (qui contiennent les widgets des commandes).
 
-Auf dieser Seite befindet sich oben links eine Schaltfläche zum Ein- oder Ausblenden der Liste der Ansichten sowie die Schaltfläche zum Hinzufügen einer Ansicht (Jeedom fragt nach dem Namen und sendet Sie zur Bearbeitungsseite). :
-
-> **Tip**
->
-> Sie können diese Option in Ihrem Profil so ändern, dass die Liste der Ansichten standardmäßig angezeigt wird.
-
-## Hinzufügen / Bearbeiten einer Ansicht
-
-Das Prinzip ist ganz einfach : Eine Ansicht besteht aus Zonen (Sie können so viele setzen, wie Sie möchten).. Jede Zone ist vom Typ Grafik, Widget oder Tabelle, je nachdem, welchen Typ Sie Geräte-, Steuerungs- oder Grafik-Widgets hinzufügen können.
+Sur cette page, on retrouve un bouton en haut à gauche pour montrer ou masquer la liste des vues ainsi que le bouton pour en ajouter une (Jeedom vous demandera son nom et vous enverra sur la page d’édition) :
 
 > **Tip**
 >
-> Sie können die Reihenfolge der Zonen durch Ziehen und Ablegen verschieben.
+> Vous pouvez dans votre profil modifier cette option pour que la liste des vues soit visible par défaut.
 
-- Links auf der Seite finden wir die Liste der Ansichten und eine Schaltfläche zum Hinzufügen.
-- Über eine Schaltfläche oben rechts können Sie die aktuelle Ansicht bearbeiten.
-- In der Mitte haben Sie eine Schaltfläche zum Umbenennen einer Ansicht, eine Schaltfläche zum Hinzufügen eines Bereichs, eine Schaltfläche zum Anzeigen des Ergebnisses, eine Schaltfläche zum Speichern und eine Schaltfläche zum Löschen der Ansicht..
+## Ajout/Edition d’une vue
 
-Nach dem Klicken auf die Schaltfläche Zone hinzufügen fragt Jeedom nach Name und Typ.
-In jeder Zone haben Sie die folgenden allgemeinen Optionen :
-
-- **Largeur** : Definiert die Breite des Bereichs (nur im Desktop-Modus).
-- **Editer** : Ermöglicht das Ändern des Namens der Zone.
-- **Supprimer** : Ermöglicht das Löschen der Zone.
-
-### Widget-Typ-Bereich
-
-In einem Widget-Typbereich können Sie Widgets hinzufügen :
-
-- **Widget hinzufügen** : Hinzufügen / Bearbeiten von Widgets zur Anzeige im Bereich.
+Le principe est assez simple : une vue est composée de zones (on peut en mettre autant que l’on veut). Chaque zone est de type graphique, widget ou tableau, en fonction du type vous pourrez mettre des widgets d’équipement, de commande ou des graphiques dans celle-ci.
 
 > **Tip**
 >
-> Sie können ein Widget direkt löschen, indem Sie auf den Papierkorb davor klicken.
+> Il est possible de déplacer l’ordre des zones par glisser/déposer.
+
+- Sur la gauche de la page on retrouve la liste des vues ainsi qu’un bouton d’ajout.
+- Un bouton en haut à droite vous permet d’éditer la vue courante.
+- Au centre vous avez un bouton pour renommer une vue, un bouton d’ajout de zone, un bouton pour voir le résultat, un bouton pour sauvegarder et un bouton pour supprimer la vue.
+
+Après avoir cliqué sur le bouton d’ajout de zone, Jeedom vous demandera son nom et son type.
+Sur chaque zone vous avez les options générales suivantes :
+
+- **Largeur** : Définit la largeur de la zone (en mode desktop seulement).
+- **Editer** : Permet de changer le nom de la zone.
+- **Supprimer** : Permet de supprimer la zone.
+
+### Zone de type widget
+
+Une zone de type widget permet d’ajouter des widgets :
+
+- **Ajouter widget** : Permet d’ajouter/modifier des widgets à afficher dans la zone.
 
 > **Tip**
 >
-> Sie können die Reihenfolge der Widgets im Bereich durch Ziehen und Ablegen ändern.
-
-Sobald die Schaltfläche Widget hinzufügen gedrückt wird, wird ein Fenster angezeigt, in dem Sie aufgefordert werden, das Widget hinzuzufügen
-
-### Grafiktypbereich
-
-In einem Grafikbereich können Sie Ihrer Ansicht Grafiken hinzufügen. Die folgenden Optionen stehen zur Verfügung :
-
-- **Zeit** : Hier können Sie den Anzeigezeitraum für Grafiken auswählen (30 Minuten, 1 Tag, 1 Woche, 1 Monat, 1 Jahr oder alle)..
-- **Kurve hinzufügen** : Ermöglicht das Hinzufügen / Ändern von Grafiken.
-
-Wenn Sie auf die Schaltfläche &quot;Kurve hinzufügen&quot; klicken, zeigt Jeedom die Liste der historischen Befehle an und Sie können die hinzuzufügenden Befehle auswählen. Sobald Sie fertig sind, haben Sie Zugriff auf die folgenden Optionen :
-
-- **Poubelle** : Befehl aus Diagramm entfernen.
-- **Nom** : Name des zu zeichnenden Befehls.
-- **Couleur** : Farbe der Kurve.
-- **Type** : Kurventyp.
-- **Groupement** : Ermöglicht das Gruppieren von Daten (maximaler Typ pro Tag).
-- **Echelle** : Skala (rechts oder links) der Kurve.
-- **Escalier** : Zeigt die gestufte Kurve an.
-- **Empiler** : Stapeln Sie die Kurve mit den anderen Kurventypen.
-- **Variation** : Zeichnen Sie nur Variationen mit dem vorherigen Wert.
+> Vous pouvez supprimer un widget directement en cliquant sur la poubelle devant celui-ci.
 
 > **Tip**
 >
-> Sie können die Reihenfolge der Grafiken im Bereich durch Ziehen und Ablegen ändern.
+> Il est possible de modifier l’ordre des widgets dans la zone par glisser/déposer.
 
-### Array-Typ-Bereich
+Une fois le bouton d’ajout de widget pressé, vous obtenez une fenêtre qui vous demandera le widget à ajouter
 
-Hier haben Sie die Schaltflächen :
+### Zone de type graphique
 
-- **Spalte hinzufügen** : Fügen Sie der Tabelle eine Spalte hinzu.
-- **Zeile hinzufügen** : Fügen Sie der Tabelle eine Zeile hinzu.
+Une zone de type graphique permet d’ajouter des graphiques à votre vue, elle possède les options suivantes :
+
+- **Période** : Permet de choisir la période d’affichage des graphiques (30 min, 1 jour, 1 semaine, 1 mois, 1 année ou tout).
+- **Ajouter courbe** : Permet d’ajouter/modifier des graphiques.
+
+Quand vous pressez le bouton "Ajouter courbe" Jeedom affiche la liste des commandes historisées et vous pouvez choisir celle(s) à ajouter, une fois cela fait vous avez accès aux options suivantes :
+
+- **Poubelle** : Supprime la commande du graphique.
+- **Nom** : Nom de la commande à dessiner.
+- **Couleur** : Couleur de la courbe.
+- **Type** : Type de la courbe.
+- **Groupement** : Permet de grouper les données (type maximum par jour).
+- **Echelle** : Échelle (droite ou gauche) de la courbe.
+- **Escalier** : Affiche la courbe en escalier.
+- **Empiler** : Empile la courbe avec les autres courbes de type.
+- **Variation** : Dessine seulement les variations avec la valeur précédente.
+
+> **Tip**
+>
+> Il est possible de modifier l’ordre des graphiques dans la zone par glisser/déposer.
+
+### Zone de type tableau
+
+Vous avez ici les boutons :
+
+- **Ajouter colonne** : Permet d’ajouter une colonne au tableau.
+- **Ajouter ligne** : Permet d’ajouter une ligne au tableau.
 
 > **Note**
 >
-> Es ist möglich, die Zeilen durch Ziehen und Ablegen neu zu organisieren, nicht jedoch die Spalten.
+> Il est possible de réorganiser les lignes par glisser/déposer mais pas les colonnes.
 
-Nachdem Sie Ihre Zeilen / Spalten hinzugefügt haben, können Sie Informationen in die Felder einfügen :
+Une fois que vous avez ajouté vos lignes/colonnes vous pouvez ajouter des informations dans les cases :
 
-- **texte** : Nur Text zum Schreiben.
-- **html** : jeder HTML-Code (Javascript möglich, aber dringend davon abgeraten).
-- **Befehls-Widget** : Über die Schaltfläche rechts können Sie den anzuzeigenden Befehl auswählen (beachten Sie, dass hier das Widget für den Befehl angezeigt wird)..
+- **texte** : juste du texte à écrire.
+- **html** : n’importe quel code html (javascript possible mais fortement déconseillé).
+- **widget de commande** : le bouton à droite vous permet de choisir la commande à afficher (attention cela affiche le widget de la commande).
 
 

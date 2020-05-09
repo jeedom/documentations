@@ -1,77 +1,77 @@
-Informa todas as tarefas de aplicativos Jeedom executadas no
-garçom. Este menu deve ser usado conscientemente ou no
-solicitar suporte técnico.
+Il informe de toutes les tâches applicatives Jeedom qui tournent sur le
+serveur. Ce menu est à utiliser en connaissance de cause, ou à la
+demande du support technique.
 
 > **Important**
 >
-> Em caso de manuseio incorreto nesta página, qualquer solicitação de
-> suporte pode ser negado você.
+> En cas de mauvaise manipulation sur cette page, toute demande de
+> support peut vous être refusée.
 
-Para acessá-lo, vá para **Administração → Mecanismo de Tarefas**
+Pour y accéder, il faut aller dans **Administration → Moteur de tâches**
 :
 
 # Cron
 
-No canto superior direito, você tem :
+En haut, à droite, vous avez :
 
--   **Desativar o sistema cron** : um botão para desativar ou
-    reative todas as tarefas (se você desabilitar todas, mais
-    nada funcionará no seu Jeedom)
+-   **Désactiver le système cron** : un bouton pour désactiver ou
+    réactiver toutes les tâches (si vous les désactivez toutes, plus
+    rien ne sera fonctionnel sur votre Jeedom)
 
--   **Legal** : um botão para atualizar a tabela de tarefas
+-   **Rafraîchir** : un bouton pour rafraîchir le tableau des tâches
 
--   **Ajouter** : um botão para adicionar um trabalho cron
+-   **Ajouter** : un bouton pour ajouter une tâche cron
 
--   **Enregistrer** : um botão para salvar suas alterações.
+-   **Enregistrer** : un bouton pour enregistrer vos modifications.
 
-Abaixo você tem a tabela de todas as tarefas existentes
-(tenha cuidado, algumas tarefas podem iniciar subtarefas, por isso é
-É altamente recomendável nunca modificar informações sobre este
-página). Nesta tabela, encontramos :
+En-dessous, vous avez le tableau de toutes les tâches existantes
+(attention, certaines tâches peuvent lancer des sous-tâches, il est donc
+vivement recommandé de ne jamais modifier d’informations sur cette
+page). Dans ce tableau, on retrouve :
 
--   **\#** : ID da tarefa, pode ser útil para vincular um
-    processo em execução e o que realmente faz
+-   **\#** : ID de la tâche, peut être utile pour faire le lien entre un
+    processus qui tourne et ce qu’il fait vraiment
 
--   **Action** : um botão para iniciar ou parar a tarefa em função
-    seu status e um botão para ver o cron em detalhes (conforme armazenado no banco de dados)
+-   **Action** : un bouton pour lancer ou arrêter la tâche en fonction
+    de son statut et un bouton pour voir le cron dans le détail (tel que stocké en base)
 
--   **Actif** : indica se a tarefa está ativa (pode ser iniciada
-    por Jeedom) ou não
+-   **Actif** : indique si la tâche est active (peut être lancée
+    par Jeedom) ou non
 
--   **PID** : Indica o ID do processo atual
+-   **PID** : indique le process ID actuel
 
--   **Demônio** : se esta caixa for "sim", a tarefa deve sempre
-    estar em progresso. Em seguida, você encontra a frequência do demônio, é
-    aconselhado a nunca tocar nesse valor e, especialmente, nunca
-    diminua
+-   **Démon** : si cette case est à "oui" alors la tâche doit toujours
+    être en cours. A côté, vous retrouvez la fréquence du démon, il est
+    conseillé de ne jamais toucher cette valeur et surtout de ne jamais
+    la diminuer
 
--   **Unique** : se for "sim", a tarefa será iniciada uma vez
-    então excluirá
+-   **Unique** : si c’est à "oui" alors la tâche se lancera une fois
+    puis se supprimera
 
--   **Classe** : Class PHP chamada para executar a tarefa (pode
-    estar vazio)
+-   **Classe** : classe PHP appelée pour exécuter la tâche (peut
+    être vide)
 
--   **Fonction** : Função PHP chamada na classe chamada (ou não
-    se a turma estiver vazia)
+-   **Fonction** : fonction PHP appelée dans la classe appelée (ou non
+    si la classe est vide)
 
--   **Programmation** : programando a tarefa no formato CRON
+-   **Programmation** : la programmation de la tâche au format CRON
 
--   **Timeout** : Tempo máximo de execução da tarefa. Se o
-    Se a tarefa for um demônio, ela será automaticamente interrompida e
-    reiniciado no final do tempo limite
+-   **Timeout** : durée maximale de fonctionnement de la tâche. Si la
+    tâche est un démon alors elle sera automatiquement arrêtée et
+    redémarrée à la fin du timeout
 
--   **último lançamento** : Data do último lançamento da tarefa
+-   **Dernier lancement** : date de dernier lancement de la tâche
 
--   **Última duração** : última vez para concluir a tarefa (um
-    demon sempre estará no zero, então não se preocupe com outras tarefas
-    pode ser 0s)
+-   **Dernière durée** : dernière durée pour accomplir la tâche (un
+    démon sera toujours à 0s, il ne faut pas s’inquiéter d’autres tâches
+    peuvent être à 0s)
 
--   **Statut** : status atual da tarefa (como lembrete, uma tarefa daemon
-    ainda está "executado")
+-   **Statut** : état actuel de la tâche (pour rappel, une tâche démon
+    est toujours à "run")
 
--   **Suppression** : Excluir tarefa
+-   **Suppression** : permet de supprimer la tâche
 
 
 # Listener
 
-Os ouvintes são apenas visíveis na leitura e permitem que você veja as funções chamadas em um evento (atualização de um comando ...)
+Les listeners sont juste visibles en lecture et permettent de voir les fonctions appelées sur un évenement (mise à jour d'une commande...)

@@ -1,194 +1,194 @@
-Parte importante no software : a parte da historização, real
-lembrança disso. É possível em Jeedom historiar qualquer
-qual comando do tipo de informação (binário ou digital). Que você
-permitirá, por exemplo, histórico de uma curva de temperatura,
-aberturas de consumo ou porta ...
+Partie importante dans un logiciel : la partie historisation, véritable
+mémoire de celui-ci. Il est possible dans Jeedom d’historiser n’importe
+quelle commande de type information (binaire ou numérique). Cela vous
+permettra donc par exemple d’historiser une courbe de température, de
+consommation ou les ouvertures d’une porte…​
 
-Princípio 
+Principe 
 ========
 
-Aqui é descrito o princípio de historicização de Jeedom. Não é
-É necessário entender que, se você tiver alguma dúvida
-ou deseja alterar as configurações de
-historização. As configurações padrão são adequadas para a maioria
+Ici est décrit le principe d’historisation de Jeedom. Il n’est
+nécessaire de le comprendre que si vous rencontrez des soucis
+d’historisation ou que vous voulez modifier les réglages de
+l’historisation. Les réglages par défaut conviennent dans la plupart des
 cas.
 
-Arquivamento 
+Archivage 
 ---------
 
-O arquivamento de dados permite que o Jeedom reduza a quantidade de dados
-mantido na memória. Isso permite não usar muito espaço e
-para não desacelerar o sistema. De fato, se você mantiver todo o
-medidas, isso mostra mais pontos a serem exibidos e, portanto, pode
-aumentar drasticamente os tempos para criar um gráfico. Caso
-muitos pontos, pode até travar
-exibição de gráfico.
+L’archivage de données permet à Jeedom de réduire la quantité de données
+conservées en mémoire. Cela permet de ne pas utiliser trop de place et
+de ne pas ralentir le système. En effet, si vous conservez toute les
+mesures, cela fait d’autant plus de points à afficher et donc peut
+considérablement allonger les temps pour rendre un graphique. En cas
+d’un nombre trop important de points, cela peut même faire planter
+l’affichage du graphique.
 
-O arquivamento é uma tarefa que começa à noite e compacta
-dados recuperados durante o dia. Por padrão, o Jeedom recupera tudo
-Dados 2h mais antigos e cria pacotes de 1h (um
-média, mínimo ou máximo, dependendo das configurações). Então nós temos
-aqui 2 parâmetros, um para o tamanho do pacote e outro para saber
-quando fazê-lo (por padrão, são pacotes
-1 hora com dados com mais de 2 horas de antiguidade).
+L’archivage est une tâche qui se lance dans la nuit et compacte les
+données récupérées dans la journée. Par défaut Jeedom récupère toutes
+les données plus vieilles de 2h et en fait des paquets de 1h (soit une
+moyenne, un minimum ou un maximum en fonction des réglages). On a donc
+ici 2 paramètres, un pour la taille des paquets et un autre pour savoir
+à partir de quand en faire (pour rappel par défaut ce sont des paquets
+de 1h avec des données qui ont plus de 2h d’ancienneté).
 
 > **Tip**
 >
-> Se você seguiu bem, deve ter uma alta precisão no
-> Apenas nas últimas 2 horas. No entanto, quando eu entro às 17h,
-> Eu tenho um esclarecimento nas últimas 17 horas. Porque ? De fato,
-> para evitar consumir recursos desnecessariamente, a tarefa que torna
-> o arquivamento ocorre apenas uma vez por dia, à noite.
+> Si vous avez bien suivi vous devriez avoir une haute précision sur les
+> 2 dernières heures seulement. Pourtant quand je me connecte à 17h,
+> j’ai une précision sur les 17 dernières heures. Pourquoi ? En fait,
+> pour éviter de consommer des ressources inutilement, la tâche qui fait
+> l’archivage ne se déroule qu’une fois par jour, le soir.
 
 > **Important**
 >
-> Obviamente, esse princípio de arquivamento se aplica apenas a pedidos de
-> tipo digital; nos comandos do tipo binário, o Jeedom não mantém
-> que as datas de mudança de estado.
+> Bien sûr, ce principe d’archivage ne s’applique qu’aux commandes de
+> type numérique ; sur les commandes de type binaire, Jeedom ne conserve
+> que les dates de changement d’état.
 
-Visualizando um Gráfico 
+Affichage d’un graphique 
 ========================
 
-Existem várias maneiras de acessar o histórico :
+Il existe plusieurs moyens d’accéder à l’historique :
 
--   Colocando uma área gráfica em uma visualização (veja abaixo),
+-   en mettant une zone graphe dans une vue (voir plus bas),
 
--   Clicando no comando desejado em um widget,
+-   en cliquant sur la commande voulue dans un widget,
 
--   indo para a página de histórico que permite sobrepor
-    diferentes curvas e combinar estilos (área, curva, barra)
+-   en allant dans la page historique qui permet de superposer
+    différentes courbes et de combiner les styles (aire, courbe, barre)
 
--   No celular, enquanto permanece pressionado no widget em questão
+-   en mobile en restant appuyé sur le widget en question
 
-Se você exibir um gráfico pela página histórica ou clicando em
-o widget, você tem acesso a várias opções de exibição :
+Si vous affichez un graphique par la page historique ou en cliquant sur
+le widget, vous avez accès à plusieurs options d’affichage :
 
-Encontramos no canto superior direito o período de exibição (aqui no último
-semana porque, por padrão, quero que seja apenas uma semana - veja
-2 parágrafos acima), então vêm os parâmetros da curva
-(esses parâmetros são mantidos de um monitor para outro; portanto, você
-do que configurá-los uma vez).
+On retrouve en haut à droite la période d’affichage (ici sur la dernière
+semaine car, par défaut je veux que ça soit seulement une semaine - voir
+2 paragraphes au-dessus), ensuite viennent les paramètres de la courbe
+(ces paramètres sont gardés d’un affichage à l’autre ; vous n’avez donc
+qu’a les configurer une fois).
 
--   **Escalier** : exibe a curva como um
-    escada ou exibição contínua.
+-   **Escalier** : permet d’afficher la courbe sous la forme d’un
+    escalier ou d’un affichage continu.
 
--   **Variation** : exibe a diferença no valor de
-    ponto anterior.
+-   **Variation** : affiche la différence de valeur par rapport au
+    point précédent.
 
--   **Ligne** : Exibe o gráfico como linhas.
+-   **Ligne** : affiche le graphique sous forme de lignes.
 
--   **Aire** : Exibe o gráfico como uma área.
+-   **Aire** : affiche le graphique sous forme d’une aire.
 
--   **Colonne**\* : Exibe o gráfico como barras.
+-   **Colonne**\* : affiche le graphique sous forme de barres.
 
-Gráfico em vistas e desenhos 
+Graphique sur les vues et les designs 
 =====================================
 
-Você também pode exibir os gráficos nas visualizações (veremos aqui
-as opções de configuração e não como fazê-lo, para fazer isso
-renderizar visualizações ou designs com base na documentação). Aqui está
-as opções :
+Vous pouvez aussi afficher les graphiques sur les vues (nous verrons ici
+les options de configuration et non comment faire, pour cela il faut se
+rendre sur la documention des vues ou des designs en fonction). Voici
+les options :
 
-Depois que os dados são ativados, você pode escolher :
+Une fois une donnée activée, vous pouvez choisir :
 
--   **Couleur** : A cor da curva.
+-   **Couleur** : la couleur de la courbe.
 
--   **Type** : O tipo de gráfico (área, linha ou coluna).
+-   **Type** : le type de graphique (aire, ligne ou colonne).
 
--   **Echelle** : já que você pode colocar várias curvas (dados)
-    no mesmo gráfico, é possível distinguir as escalas
-    (direita ou esquerda).
+-   **Echelle** : vu que vous pouvez mettre plusieurs courbes (données)
+    sur le même graphique, il est possible de distinguer les échelles
+    (droite ou gauche).
 
--   **Escalier** : exibe a curva como um
-    escada ou exibição contínua
+-   **Escalier** : permet d’afficher la courbe sous la forme d’un
+    escalier ou d’un affichage continu
 
--   **Empiler** : permite empilhar os valores das curvas (veja em
-    abaixo para o resultado).
+-   **Empiler** : permet d’empiler les valeurs des courbes (voir en
+    dessous pour le résultat).
 
--   **Variation** : exibe a diferença no valor de
-    ponto anterior.
+-   **Variation** : affiche la différence de valeur par rapport au
+    point précédent.
 
-Opção na página do histórico 
+Option sur la page d’historique 
 ===============================
 
-A página de histórico fornece acesso a algumas opções adicionais
+La page d’historique donne accès à quelques options supplémentaires
 
-História calculado 
+Historique calculé 
 ------------------
 
-Usado para exibir uma curva com base em um cálculo em vários
-comando (você pode praticamente fazer tudo, + - / \* valor absoluto ... veja
-Documentação do PHP para determinadas funções). Ex :
-abs (* \ [Jardim \] \ [Higrometria \] \ [Temperatura \] * - * \ [Espaço de
-vida \] \ [Higrometria \] \ [Temperatura \] *)
+Permet d’affiché une courbe en fonction d’un calcul sur plusieurs
+commande (vous pouvez à peu pret tout faire, +-/\* valeur absolue…​ voir
+documentation PHP pour certaine fonction). Ex :
+abs(*\[Jardin\]\[Hygrometrie\]\[Température\]* - *\[Espace de
+vie\]\[Hygrométrie\]\[Température\]*)
 
-Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite
-salve-os para facilitar a visualização
+Vous avez aussi accès à un gestion de formules de calcul qui vous permet
+de les sauvegarder pour les réafficher plus facilement
 
 > **Tip**
 >
-> Basta clicar no nome do objeto para desdobrar;
-> aparecem os comandos históricos que podem ser representados graficamente.
+> Il suffit de cliquer sur le nom de l’objet pour le déplier ;
+> apparaissent les commandes historisées qui peuvent être graphées.
 
-Histórico de pedidos 
+Historique de commande 
 ----------------------
 
-Na frente de cada dado que pode ser representado graficamente, você encontrará dois ícones :
+Devant chaque donnée pouvant être graphée, vous retrouvez deux icônes :
 
--   **Poubelle** : permite excluir os dados gravados; quando
-    clique, Jeedom pergunta se é necessário excluir os dados antes de um
-    determinada data ou todos os dados.
+-   **Poubelle** : permet de supprimer les données enregistrées ; lors
+    du clic, Jeedom demande s’il faut supprimer les données avant une
+    certaine date ou toutes les données.
 
--   **Arrow** : Permite a exportação CSV de dados históricos.
+-   **Flèche** : permet d’avoir un export CSV des données historisées.
 
-Remoção de valor inconsistente 
+Suppression de valeur incohérente 
 =================================
 
-Às vezes você pode ter valores inconsistentes no
-gráficos. Isso geralmente ocorre devido a uma preocupação com a interpretação do
-valor. É possível excluir ou alterar o valor do ponto pressionando
-pergunta, clicando diretamente no gráfico; de
-Além disso, você pode definir o mínimo e o máximo permitido para
-evitar problemas futuros.
+Parfois, il se peut que vous ayez des valeurs incohérentes sur les
+graphiques. Cela est souvent dû à un souci d’interprétation de la
+valeur. Il est possible de supprimer ou changer la valeur du point en
+question, en cliquant sur celui-ci directement sur le graphique ; de
+plus, vous pouvez régler le minimum et le maximum autorisés afin
+d’éviter des problèmes futurs.
 
-Cronograma 
+Timeline 
 ========
 
-A linha do tempo exibe certos eventos em sua automação residencial no formato
+La timeline affiche certains événements de votre domotique sous forme
 chronologique.
 
-Para vê-los, você deve primeiro ativar o rastreamento na linha do tempo de
-comandos ou cenários desejados :
+Pour les voir, il vous faut d’abord activer le suivi sur la timeline des
+commandes ou scénarios voulus :
 
--   **Scenario** : diretamente na página do cenário ou no
-    página de resumo do cenário para fazê-lo em "massa"
+-   **Scenario** : soit directement sur la page de scénario, soit sur la
+    page de résumé des scénarii pour le faire en "masse"
 
--   **Commande** : na configuração avançada do comando,
-    seja na configuração da história para fazê-lo em "massa"
+-   **Commande** : soit dans la configuration avancée de la commande,
+    soit dans la configuration de l’historique pour le faire en "masse"
 
 > **Tip**
 >
-> Você tem acesso às janelas de resumo dos cenários ou do
-> configuração do histórico diretamente da página
-> Cronograma.
+> Vous avez accès aux fenêtres de résumé des scénarii ou de la
+> configuration de l’historique directement à partir de la page de
+> timeline.
 
-Depois de ativar o rastreamento na linha do tempo do pedido e
-cenários desejados, você pode vê-los aparecer na linha do tempo.
+Une fois que vous avez activé le suivi dans la timeline des commandes et
+scénarii voulus, vous pourrez voir apparaître ceux-ci sur la timeline.
 
 > **Important**
 >
-> Você precisa aguardar novos eventos após ativar o rastreamento
-> na linha do tempo antes de vê-los aparecer.
+> Il faut attendre de nouveaux événements après avoir activé le suivi
+> sur la timeline avant de les voir apparaître.
 
-Os cartões na linha do tempo exibem :
+Les cartes sur la timeline affiche :
 
--   **Comando de ação** : em fundo vermelho, um ícone à direita permite
-    exibe a janela de configuração avançada do comando
+-   **Commande action** : en fond rouge, une icône à droite vous permet
+    d’afficher la fenêtre de configuration avancée de la commande
 
--   **Comando Info** : em fundo azul, um ícone à direita permite
-    exibe a janela de configuração avançada do comando
+-   **Commande info** : en fond bleu, une icône à droite vous permet
+    d’afficher la fenêtre de configuration avancée de la commande
 
--   **Cenas** : em fundo cinza, você tem 2 ícones : um para exibir
-    o log do cenário e um para ir para o cenário
+-   **Scénario** : en fond gris, vous avez 2 icônes : une pour afficher
+    le log du scénario et une pour aller sur le scénario
 
 

@@ -1,17 +1,17 @@
-# A personalização avançada
-**Configurações → Sistema → Personalização avançada**
+# Personnalisation Avancée
+**Réglages → Système → Personnalisation avancée**
 
-Esta página (reservada a especialistas) permite adicionar scripts CSS ou JS ao Jeedom, que serão executados em cada página.
+Cette page , (réservée aux experts), permet d’ajouter à Jeedom des script CSS ou JS, qui seront exécutés sur chaque page.
 
-Acessível por **Configurações → Sistema → Personalização avançada**
+Accessible par **Réglages → Système → Personnalisation avancée**
 
-Portanto, nesta página, você pode adicionar scripts JS e CSS executados em qualquer lugar do Jeedom, distinguindo a versão para desktop da versão para celular.
+Vous pouvez donc à partir de cette page ajouter des scripts JS et CSS exécutés partout dans Jeedom en distinguant la version desktop de la version mobile.
 
-Para pessoas não sofisticadas que desejam descobrir CSS :
+Pour les personnes non averties qui veulent découvrir les CSS :
 <http://css.mammouthland.net/premiers-pas-en-css.php>
 
 > **Important**
 >
-> Qualquer erro em um desses scripts pode tornar o Jeedom completamente inoperante. 
+> Toute erreur dans un des ces scripts peut rendre Jeedom totalement inopérant. 
 >
-> Para corrigir esse problema, você precisará se conectar ao SSH e excluir os arquivos de personalização para restaurar a operação normal do Jeedom.
+> Pour corriger ce problème, il faudra alors se connecter en SSH et supprimer les fichiers de customisation pour rétablir un fonctionnement normal de Jeedom.

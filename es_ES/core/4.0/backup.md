@@ -1,75 +1,75 @@
 # Sauvegardes
-**Configuración → Sistema → Copias de seguridad**
+**Réglages → Système → Sauvegardes**
 
-Jeedom ofrece la posibilidad de ser guardado y restaurado desde o desde diferentes ubicaciones.
-Esta página permite la gestión de copias de seguridad, restaura.
+Jeedom offre la possibilité d’être sauvegardé et restauré depuis ou à partir de différents emplacements.
+Cette page permet la gestion des sauvegardes, restaurations.
 
 
-Encontrará, a la izquierda, los parámetros y botones de acción. A la derecha está el estado en tiempo real de la acción en curso (copia de seguridad o restauración), si ha lanzado una..
+Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la droite, c’est le statut en temps réel de l’action en cours (sauvegarde ou restauration), si vous en avez lancé une.
 
 ## Sauvegardes
 
-- **Sauvegardes** : Le permite iniciar una copia de seguridad de forma manual e inmediata (útil si desea realizar un cambio crítico. Esto te permitirá volver). También tiene un botón para iniciar una copia de seguridad sin enviar el archivo a la nube (requiere una suscripción, ver más abajo). Enviar una copia de seguridad a la nube puede llevar un tiempo. Por lo tanto, esta opción evita la pérdida excesiva de tiempo..
+- **Sauvegardes** : Permet de lancer une sauvegarde manuellement et immédiatement (utile si vous voulez faire un changement critique. Cela vous permettra de revenir en arrière). Vous avez aussi un bouton pour lancer une sauvegarde sans envoyer l’archive sur le cloud (nécessite un abonnement voir plus bas). L’envoi d’une sauvegarde sur le cloud peut prendre un certain temps. Cette option permet donc d’éviter une perte de temps trop importante.
 
-- **Ubicación de respaldo** : Indica la carpeta en la que Jeedom copia las copias de seguridad.. Se recomienda no cambiarlo.. Si está en un camino relativo, su origen es donde está instalado Jeedom.
+- **Emplacement des sauvegardes** : Indique le dossier dans lequel Jeedom copie les sauvegardes. Il est recommandé de ne pas le changer. Si vous êtes en chemin relatif, son origine est l’endroit où Jeedom est installé.
 
-- **Número de días de almacenamiento de copias de seguridad.** : Número de días de respaldo para mantener. Una vez que este período haya pasado, las copias de seguridad se eliminarán. Tenga cuidado de no poner demasiados días, de lo contrario su sistema de archivos puede estar saturado.
+- **Nombre de jour(s) de mémorisation des sauvegardes** : Nombre de jours de sauvegarde à garder. Une fois ce délai passé, les sauvegardes seront supprimées. Attention de ne pas mettre un nombre de jours trop élevé, sinon votre système de fichiers peut être saturé.
 
-- **Tamaño total máximo de copias de seguridad (MB)** : Limita el espacio ocupado por todas las copias de seguridad en la carpeta de copias de seguridad. Si se excede este valor, Jeedom eliminará las copias de seguridad más antiguas hasta que caiga por debajo del tamaño máximo. Sin embargo, mantendrá al menos una copia de seguridad.
+- **Taille totale maximale des sauvegardes (Mo)** : Permet de limiter la place prise par l’ensemble des sauvegardes dans le dossier de sauvegarde. Si cette valeur est dépassée, Jeedom va supprimer les sauvegardes les plus vieilles jusqu’à retomber en-dessous de la taille maximale. Il gardera cependant au moins une sauvegarde.
 
-## Copias de seguridad locales
+## Sauvegardes Locales
 
-- **Copias de seguridad disponibles** : Lista de copias de seguridad disponibles.
+- **Sauvegardes disponibles** : Liste des sauvegardes disponibles.
 
-- **Restaurar copia de seguridad** : Inicia la restauración de la copia de seguridad seleccionada anteriormente..
+- **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde sélectionnée au-dessus.
 
-- **Eliminar copia de seguridad** : Elimine la copia de seguridad seleccionada anteriormente, solo en la carpeta local.
+- **Supprimer la sauvegarde** : Supprime la sauvegarde sélectionnée au-dessus, uniquement dans le dossier local.
 
-- **Enviar una copia de seguridad** : Le permite enviar un archivo ubicado en la computadora que está utilizando actualmente a la carpeta de copias de seguridad (por ejemplo, para restaurar un archivo recuperado previamente en un nuevo Jeedom o para reinstalarlo).
+- **Envoyer une sauvegarde** : Permet d’envoyer dans le dossier des sauvegardes une archive se trouvant sur l’ordinateur que l’on utilise actuellement (permet par exemple de restaurer une archive précédemment récupérée sur un nouveau Jeedom ou une réinstallation).
 
-- **Descargar copia de seguridad** : Descargue el archivo de la copia de seguridad seleccionada anteriormente en su computadora.
+- **Télécharger la sauvegarde** : Permet de télécharger sur votre ordinateur l’archive de la sauvegarde sélectionnée au-dessus.
 
-## Copias de seguridad del mercado
+## Sauvegardes Market
 
-- **Enviar copias de seguridad** : Dígale a Jeedom que envíe copias de seguridad a la nube de Market, tenga en cuenta que debe haberse suscrito.
+- **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les sauvegardes sur le cloud du Market, attention il faut avoir pris l’abonnement.
 
-- **Enviar una copia de seguridad** : Enviar un archivo de respaldo ubicado en su computadora a la nube.
+- **Envoyer une sauvegarde** : Permet d’envoyer sur le cloud une archive de sauvegarde située sur votre ordinateur.
 
-- **Copias de seguridad disponibles** : Lista de copias de seguridad disponibles en la nube.
+- **Sauvegardes disponibles** : Liste des sauvegardes cloud disponibles.
 
-- **Restaurar copia de seguridad** : Comienza a restaurar una copia de seguridad en la nube.
+- **Restaurer la sauvegarde** : Lance la restauration d’une sauvegarde cloud.
 
-## Copias de seguridad de Samba
+## Sauvegardes Samba
 
-- **Enviar copias de seguridad** : Le dice a Jeedom que envíe las copias de seguridad al recurso compartido de samba configurado aquí Configuración → Sistema → Configuración : Actualizaciones.
+- **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les sauvegardes sur le partage samba configuré ici Réglages → Système→Configuration : Mises à jour.
 
-- **Copias de seguridad disponibles** : Lista de copias de seguridad de samba disponibles.
+- **Sauvegardes disponibles** : Liste des sauvegardes samba disponibles.
 
-- **Restaurar copia de seguridad** : Comienza a restaurar la copia de seguridad de samba seleccionada anteriormente.
+- **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde samba sélectionnée au-dessus.
 
 > **IMPORTANT**
 >
-> Las copias de seguridad de Jeedom deben caer absolutamente en una carpeta solo para él !!! Eliminará todo lo que no sea una copia de seguridad de la carpeta
+> Les backups de jeedom doivent absolument tomber dans un dossier que pour lui !!! Il supprimera tous ce qui n'est pas un backup jeedom du dossier
 
 
-# Lo que se guarda ?
+# Qu’est-ce qui est sauvegardé ?
 
-Durante una copia de seguridad, Jeedom realizará una copia de seguridad de todos sus archivos y la base de datos. Esto, por lo tanto, contiene toda su configuración (equipo, controles, historial, escenarios, diseño, etc.).
+Lors d’une sauvegarde, Jeedom va sauvegarder tous ses fichiers et la base de données. Cela contient donc toute votre configuration (équipements, commandes, historiques, scénarios, design, etc.).
 
-A nivel de protocolo, solo la Z-Wave (OpenZwave) es un poco diferente porque no es posible guardar las inclusiones. Estos se incluyen directamente en el controlador, por lo que debe mantener el mismo controlador para encontrar sus módulos Zwave.
+Au niveau des protocoles, seul le Z-Wave (OpenZwave) est un peu différent car il n’est pas possible de sauvegarder les inclusions. Celles-ci sont directement incluses dans le contrôleur, il faut donc garder le même contrôleur pour retrouver ses modules Zwave.
 
 > **Note**
 >
-> El sistema en el que está instalado Jeedom no está respaldado. Si ha cambiado la configuración de este sistema (incluso a través de SSH), depende de usted encontrar una manera de recuperarlos si tiene alguna inquietud..
+> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si vous avez modifié des paramètres de ce système (notamment via SSH), c’est à vous de trouver un moyen de les récupérer en cas de soucis.
 
-# Copia de seguridad en la nube
+# Sauvegarde cloud
 
-La copia de seguridad en la nube le permite a Jeedom enviar sus copias de seguridad directamente al mercado. Esto le permite restaurarlos fácilmente y asegurarse de no perderlos.. The Market conserva las últimas 6 copias de seguridad. Para suscribirte solo ve a tu página **profil** en el mercado, luego en la pestaña **mis copias de seguridad**. Puede, desde esta página, recuperar una copia de seguridad o comprar una suscripción (durante 1, 3, 6 o 12 meses).
+La sauvegarde dans le cloud permet à Jeedom d’envoyer vos sauvegardes directement sur le Market. Cela vous permet de les restaurer facilement et d’être sûr de ne pas les perdre. Le Market conserve les 6 dernières sauvegardes. Pour vous abonner il suffit d’aller sur votre page **profil** sur le Market, puis, dans l’onglet **mes backups**. Vous pouvez, à partir de cette page, récupérer une sauvegarde ou acheter un abonnement (pour 1, 3, 6 ou 12 mois).
 
 > **Tip**
 >
-> Puede personalizar el nombre de los archivos de copia de seguridad desde la pestaña **Mis jeedoms**, evitando sin embargo los personajes exóticos.
+> Vous pouvez personnaliser le nom des fichiers de sauvegarde à partir de l’onglet **Mes Jeedoms**, en évitant toutefois les caractères exotiques.
 
-# Frecuencia de respaldos automáticos
+# Fréquence des sauvegardes automatiques
 
-Jeedom realiza una copia de seguridad automática todos los días a la misma hora. Es posible modificarlo, desde el &quot;Motor de tareas&quot; (la tarea se denomina **Jeedom backup**), pero no se recomienda. De hecho, se calcula en relación con la carga del mercado.
+Jeedom effectue une sauvegarde automatique tous les jours à la même heure. Il est possible de modifier celle-ci, à partir du "Moteur de tâches" (la tâche est nommée **Jeedom backup**), mais ce n’est pas recommandé. En effet, elle est calculée par rapport à la charge du Market.

@@ -1,31 +1,31 @@
 # Logs
-**Analysis → Logs**
+**Analyse → Logs**
 
-Logs are log files, allowing you to follow what is happening on your home automation. In most cases the logs will only be used for debugging and solving problems by the support team.
-
-> **Tip**
->
-> When the page opens, the first available log is displayed.
-
-The Logs page is quite simple :
-On the left, a list of available logs, with a search field to filter the name of the logs.
-Top right 5 buttons :
-
-- **Rechercher** : Allows you to filter the display of the current log.
-- **Pause / Resume** : Pause / resume real-time update of the current log.
-- **Download** : Allows to download the current log.
-- **Vider** : Allows to empty the current log.
-- **Supprimer** : Delete the current log. If Jeedom needs it it will recreate it automatically.
-- **Delete all logs** : Delete all logs present.
+Les logs sont des fichiers de journaux, permettant de suivre ce qui se passe sur sa domotique. Dans la plupart des cas les logs ne serviront qu’à effectuer du debuggage et à résoudre des problèmes par l’équipe de support.
 
 > **Tip**
 >
-> Note that the http log.error cannot be deleted. It is essential if you delete it (on the command line for example) it will not recreate itself, you must restart the system.
+> A l'ouverture de la page, le premier log disponible est affiché.
 
-## Real time
+La page de Logs est assez simple :
+Sur la gauche, une liste des logs disponibles, avec un champ de recherche pour filtrer le nom des logs.
+En haut à droite 5 boutons :
 
-The &quot;Event&quot; log is a bit special. First of all for it to work, it has to be in info or debug level, then it lists all the events or actions that happen on home automation. To access it, you must either go to the log page or in Analysis → Real time.
+- **Rechercher** : Permet de filtrer l’affichage du log actuel.
+- **Pause/Reprendre** : Permet de mettre en pause/reprendre la mise à jour en temps réel du log actuel.
+- **Télécharger** : Permet de télécharger le log actuel.
+- **Vider** : Permet de vider le log actuel.
+- **Supprimer** : Permet de supprimer le log actuel. Si Jeedom en a besoin il le recréera automatiquement.
+- **Supprimer tous les logs** : Supprime tous les logs présents.
 
-Once you click on it, you get a window that updates in real time and shows you all the events of your home automation.
+> **Tip**
+>
+> A noter que le log http.error ne peut être supprimé. Il est essentiel si vous le supprimez (en ligne de commande par exemple) celui-ci ne se recréera pas tout seul, il faut redémarrer le système.
 
-At the top right you have a search field (only works if you are not on pause) and a button to pause (useful for copying / pasting for example).
+## Temps réel
+
+Le log "Event" est un peu particulier. Tout d’abord pour qu’il fonctionne, il faut qu’il soit en niveau info ou debug, ensuite celui-ci recense tous les évènements ou actions qui se passent sur la domotique. Pour y accéder, il faut soit aller sur la page de log soit dans Analyse → Temps réel.
+
+Une fois que vous avez cliqué dessus, vous obtenez une fenêtre qui se met à jour en temps réel et vous affiche tous les évènements de votre domotique.
+
+En haut à droite vous avez un champ recherche (ne marche que si vous n’êtes pas en pause) et un bouton pour mettre en pause (utile pour faire un copier/coller par exemple).

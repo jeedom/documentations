@@ -1,25 +1,25 @@
 3.1.6 
 =====
 
-Please note this update has a bug in the update script.
-If you have this version you will have to launch the update twice.
-After that you are going to have an empty dashboard, it is normal it is the
-cache that has emptied it will take a few hours for the time it
-refill.
+Attention cette mise à jour a un bug au niveau du script de mise à jour.
+Si vous avez cette version il vous faudra lancer 2 fois la mise à jour.
+Après cela vous allez avoir un dashboard vide, c’est normal c’est le
+cache qui s’est vidé il faudra attendre quelques heures le temps qu’il
+se reremplisse.
 
 3.1 
 ===
 
--   Please note we have changed the steps of the widgets so this may have
-    an impact on the positioning of your widgets on designs / views and
+-   Attention nous avons changé les pas des widgets cela peut donc avoir
+    un impact sur le positionement de vos widget sur les designs/vues et
     dashboard
 
--   This update makes a design change mandatory
-    plugins (change recommended in 3.0). Some plugins
-    may therefore no longer be available in this version until
-    correction by the author.
+-   Cette mise à jour rends obligatoire un changement dans la conception
+    des plugins (changement recommandé en 3.0). Certains plugins
+    pourront donc ne plus être disponibles dans cette version jusqu’à
+    correction par l’auteur.
 
--   You can find the list of plugins in question here :
+-   Vous pouvez retrouver la liste des plugins en question ici :
     <https://www.jeedom.com/market/index.php?v=d&p=scoring>
 
 

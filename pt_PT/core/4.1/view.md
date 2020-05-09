@@ -1,96 +1,96 @@
 # Vues
-**Página inicial → Visualizar**
+**Accueil → Vue**
 
-As visualizações permitem criar uma visualização personalizada.
-Não é tão poderoso quanto os designs, mas permite em poucos minutos ter uma exibição mais personalizada.
+Les vues permettent de créer un affichage personnalisé.
+Ce n’est pas aussi puissant que les designs mais cela permet en quelques minutes d’avoir un affichage plus personnalisé.
 
 > **Tip**
 >
-> Você pode escolher a visualização padrão no seu perfil ao clicar no menu de visualização.
+> Vous pouvez dans votre profil choisir la vue par défaut lors du clic sur le menu des vues.
 
 ## Principe
 
-Também podemos colocar widgets, gráficos (que podem ser compostos por vários dados) ou zonas de tabela (que contêm os widgets de comando).
+On peut mettre aussi bien des widgets, des graphiques (qui peuvent être composés de plusieurs données) ou des zones tableau (qui contiennent les widgets des commandes).
 
-Nesta página, existe um botão no canto superior esquerdo para mostrar ou ocultar a lista de visualizações, bem como o botão para adicionar uma (o Jeedom solicitará seu nome e enviará para a página de edição) :
-
-> **Tip**
->
-> Você pode modificar esta opção no seu perfil para que a lista de visualizações fique visível por padrão.
-
-## Adicionando / Editando uma visualização
-
-O princípio é bastante simples : uma vista é composta de zonas (você pode colocar quantas quiser). Cada zona é do tipo gráfico, widget ou tabela, dependendo do tipo em que você pode colocar equipamentos, controle ou widgets gráficos.
+Sur cette page, on retrouve un bouton en haut à gauche pour montrer ou masquer la liste des vues ainsi que le bouton pour en ajouter une (Jeedom vous demandera son nom et vous enverra sur la page d’édition) :
 
 > **Tip**
 >
-> Você pode mover a ordem das zonas arrastando e soltando.
+> Vous pouvez dans votre profil modifier cette option pour que la liste des vues soit visible par défaut.
 
-- À esquerda da página, encontramos a lista de visualizações e um botão adicionar.
-- Um botão no canto superior direito permite editar a visualização atual.
-- No centro, você tem um botão para renomear uma vista, um botão para adicionar uma área, um botão para ver o resultado, um botão para salvar e um botão para excluir a vista..
+## Ajout/Edition d’une vue
 
-Depois de clicar no botão adicionar zona, o Jeedom solicitará seu nome e tipo.
-Em cada zona, você tem as seguintes opções gerais :
-
-- **Largeur** : Define a largura da área (apenas no modo de área de trabalho).
-- **Editer** : Permite alterar o nome da zona.
-- **Supprimer** : Excluir a zona.
-
-### Área do tipo de widget
-
-Uma área de tipo de widget permite adicionar widgets :
-
-- **Adicionar Widget** : Adicionar / editar widgets para exibir na área.
+Le principe est assez simple : une vue est composée de zones (on peut en mettre autant que l’on veut). Chaque zone est de type graphique, widget ou tableau, en fonction du type vous pourrez mettre des widgets d’équipement, de commande ou des graphiques dans celle-ci.
 
 > **Tip**
 >
-> Você pode excluir um widget diretamente clicando na lixeira em frente a ele.
+> Il est possible de déplacer l’ordre des zones par glisser/déposer.
+
+- Sur la gauche de la page on retrouve la liste des vues ainsi qu’un bouton d’ajout.
+- Un bouton en haut à droite vous permet d’éditer la vue courante.
+- Au centre vous avez un bouton pour renommer une vue, un bouton d’ajout de zone, un bouton pour voir le résultat, un bouton pour sauvegarder et un bouton pour supprimer la vue.
+
+Après avoir cliqué sur le bouton d’ajout de zone, Jeedom vous demandera son nom et son type.
+Sur chaque zone vous avez les options générales suivantes :
+
+- **Largeur** : Définit la largeur de la zone (en mode desktop seulement).
+- **Editer** : Permet de changer le nom de la zone.
+- **Supprimer** : Permet de supprimer la zone.
+
+### Zone de type widget
+
+Une zone de type widget permet d’ajouter des widgets :
+
+- **Ajouter widget** : Permet d’ajouter/modifier des widgets à afficher dans la zone.
 
 > **Tip**
 >
-> Você pode alterar a ordem dos widgets na área, arrastando e soltando.
-
-Depois que o botão Adicionar widget é pressionado, você obtém uma janela solicitando que o widget adicione
-
-### Área do tipo gráfico
-
-Uma área do tipo gráfico permite adicionar gráficos à sua visualização, e possui as seguintes opções :
-
-- **Período** : Permite escolher o período de exibição dos gráficos (30 min, 1 dia, 1 semana, 1 mês, 1 ano ou todos).
-- **Adicionar curva** : Adicionar / editar gráficos.
-
-Quando você pressiona o botão "Adicionar curva", o Jeedom exibe a lista de comandos históricos e você pode escolher os que deseja adicionar, uma vez concluído, você tem acesso às seguintes opções :
-
-- **Poubelle** : Remover comando do gráfico.
-- **Nom** : Nome do comando para desenhar.
-- **Couleur** : Cor da curva.
-- **Type** : Tipo de curva.
-- **Groupement** : Permite agrupar dados (tipo máximo por dia).
-- **Echelle** : Escala (direita ou esquerda) da curva.
-- **Escalier** : Exibe a curva da escada.
-- **Empiler** : Empilha a curva com as outras curvas de tipo.
-- **Variation** : Desenhar apenas variações com o valor anterior.
+> Vous pouvez supprimer un widget directement en cliquant sur la poubelle devant celui-ci.
 
 > **Tip**
 >
-> Você pode alterar a ordem dos gráficos na área, arrastando e soltando.
+> Il est possible de modifier l’ordre des widgets dans la zone par glisser/déposer.
 
-### Área do tipo matriz
+Une fois le bouton d’ajout de widget pressé, vous obtenez une fenêtre qui vous demandera le widget à ajouter
 
-Aqui você tem os botões :
+### Zone de type graphique
 
-- **Adicionar coluna** : Adicione uma coluna à tabela.
-- **Adicionar linha** : Adicione uma linha à tabela.
+Une zone de type graphique permet d’ajouter des graphiques à votre vue, elle possède les options suivantes :
+
+- **Période** : Permet de choisir la période d’affichage des graphiques (30 min, 1 jour, 1 semaine, 1 mois, 1 année ou tout).
+- **Ajouter courbe** : Permet d’ajouter/modifier des graphiques.
+
+Quand vous pressez le bouton "Ajouter courbe" Jeedom affiche la liste des commandes historisées et vous pouvez choisir celle(s) à ajouter, une fois cela fait vous avez accès aux options suivantes :
+
+- **Poubelle** : Supprime la commande du graphique.
+- **Nom** : Nom de la commande à dessiner.
+- **Couleur** : Couleur de la courbe.
+- **Type** : Type de la courbe.
+- **Groupement** : Permet de grouper les données (type maximum par jour).
+- **Echelle** : Échelle (droite ou gauche) de la courbe.
+- **Escalier** : Affiche la courbe en escalier.
+- **Empiler** : Empile la courbe avec les autres courbes de type.
+- **Variation** : Dessine seulement les variations avec la valeur précédente.
+
+> **Tip**
+>
+> Il est possible de modifier l’ordre des graphiques dans la zone par glisser/déposer.
+
+### Zone de type tableau
+
+Vous avez ici les boutons :
+
+- **Ajouter colonne** : Permet d’ajouter une colonne au tableau.
+- **Ajouter ligne** : Permet d’ajouter une ligne au tableau.
 
 > **Note**
 >
-> É possível reorganizar as linhas arrastando e soltando, mas não as colunas.
+> Il est possible de réorganiser les lignes par glisser/déposer mais pas les colonnes.
 
-Depois de adicionar suas linhas / colunas, você pode adicionar informações nas caixas :
+Une fois que vous avez ajouté vos lignes/colonnes vous pouvez ajouter des informations dans les cases :
 
-- **texte** : apenas texto para escrever.
-- **html** : qualquer código html (é possível javascript, mas é fortemente desencorajado).
-- **widget de comando** : o botão à direita permite escolher o comando a ser exibido (observe que isso exibe o widget para o comando).
+- **texte** : juste du texte à écrire.
+- **html** : n’importe quel code html (javascript possible mais fortement déconseillé).
+- **widget de commande** : le bouton à droite vous permet de choisir la commande à afficher (attention cela affiche le widget de la commande).
 
 

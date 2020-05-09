@@ -1,0 +1,17 @@
+{
+	"id" : "camera",
+	"name" : "Caméra",
+	"description" : "Plugin pour afficher les caméras IP.<br>/L'affichage vidéo de la caméra s'effectue par snapshot (capture) successives toutes les secondes.",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.2.12",
+	"category" : "security",
+	"display" : "panel",
+	"mobile" : "panel",
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"changelog" : "https://jeedom.github.io/plugin-camera/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-camera/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

@@ -1,9 +1,9 @@
-Here is documentation on API methods. 
+Voici une documentation sur les méthodes de l’API. 
 
-First here are the specifications (JSON RPC 2.0) :
+Tout d’abord voici les spécifications (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-Access to the API is via the url : *URL\_JEEDOM*/core/api/jeeApi.php
+L’accès à l’API se fait par l’url : *URL\_JEEDOM*/core/api/jeeApi.php
 
 Divers
 ======
@@ -11,332 +11,332 @@ Divers
 ping
 ----
 
-Return pong, test communication with Jeedom
+Retourne pong, permet de tester la communication avec Jeedom
 
 version
 -------
 
-Returns the version of Jeedom
+Retourne la version de Jeedom
 
 datetime
 --------
 
-Returns the Jeedom datetime in microseconds
+Retourne le datetime de Jeedom en microsecondes
 
-Config API
+API config
 ==========
 
 config::byKey
 -------------
 
-Returns a configuration value.
+Retourne une valeur de configuration.
 
-Settings :
+Paramètres :
 
--   string key : configuration value key to return
+-   string key : clef de la valeur de configuration à retourner
 
--   string plugin : (optional), configuration value plugin
+-   string plugin : (optionnel), plugin de la valeur de configuration
 
--   string default : (optional), value to return if the key does not exist
+-   string default : (optionnel), valeur à retourner si la clef n’existe pas
 
 config::save
 ------------
 
-Saves a configuration value
+Enregistre une valeur de configuration
 
-Settings :
+Paramètres :
 
--   string value : value to record
+-   string value : valeur à enregistrer
 
--   string key : configuration value key to save
+-   string key : clef de la valeur de configuration à enregistrer
 
--   string plugin : (optional), plugin of the configuration value to save
+-   string plugin : (optionnel), plugin de la valeur de configuration à enregistrer
 
-JSON Event API
+API JSON Event
 ==============
 
 event::changes
 --------------
 
-Returns the list of changes since the datetime passed in parameter (must be in microseconds). You will also have in the response the current datetime of Jeedom (to be reused for the next query)
+Retourne la liste des changements depuis le datetime passé en paramètre (doit être en microsecondes). Vous aurez aussi dans la réponse le datetime courant de Jeedom (à réutiliser pour l’interrogation suivante)
 
-Settings :
+Paramètres :
 
 -   int datetime
 
-JSON Plugin API
+API JSON Plugin
 ===============
 
 plugin::listPlugin
 ------------------
 
-Returns the list of all plugins
+Retourne la liste de tous les plugins
 
-Settings :
+Paramètres :
 
--   int activateOnly = 0 (only returns the list of activated plugins)
+-   int activateOnly = 0 (ne retourne que la liste des plugins activés)
 
--   int orderByCaterogy = 0 (returns the list of plugins sorted by category)
+-   int orderByCaterogy = 0 (retourne la liste des plugins triés par catégorie)
 
-Object JSON API
+API JSON Objet
 ==============
 
 jeeObject::all
 -----------
 
-Returns the list of all objects
+Retourne la liste de tous les objets
 
 jeeObject::full
 ------------
 
-Returns the list of all the objects, with for each object all its equipment and for each equipment all its commands as well as their states (for commands of type info)
+Retourne la liste de tous les objets, avec pour chaque objet tous ses équipements et pour chaque équipement toutes ses commandes ainsi que les états de celles-ci (pour les commandes de type info)
 
 jeeObject::fullById
 ----------------
 
-Returns an object with all its equipment and for each equipment all its commands and their states (for info type commands)
+Retourne un objet avec tous ses équipements et pour chaque équipement toutes ses commandes ainsi que les états de celles-ci (pour les commandes de type info)
 
-Settings :
+Paramètres :
 
 -   int id
 
 jeeObject::byId
 ------------
 
-Returns the specified object
+Retourne l’objet spécifié
 
-Settings:
+Paramètres:
 
 -   int id
 
 jeeObject::fullById
 ----------------
 
-Returns an object, its equipment and for each equipment all of its commands as well as the cell states (for info type commands)
+Retourne un objet, ses équipements et pour chaque équipement toutes ses commandes ainsi que les états de cellse-ci (pour les commandes de type info)
 
 jeeObject::save
 ------------
 
-Returns the specified object
+Retourne l’objet spécifié
 
-Settings:
+Paramètres:
 
--   int id (empty if it is a creation)
+-   int id (vide si c’est une création)
 
--   string name
+-   string name
 
 -   int father\_id = null
 
--   int isVisible = 0
+-   int isVisible = 0
 
--   int position
+-   int position
 
--   array configuration
+-   array configuration
 
--   array display
+-   array display
 
-JSON Summary API
+API JSON Summary
 ================
 
 summary::global
 ---------------
 
-Return the global summary for the key passed in parameter
+Retour le résumé global pour la clef passée en paramètre
 
-Settings:
+Paramètres:
 
--   string key : (optional), key of the desired summary, if empty then Jeedom sends you the summary for all the keys
+-   string key : (optionnel), clef du résumé voulu, si vide alors Jeedom vous renvoie le résumé pour toutes les clefs
 
 summary::byId
 -------------
 
-Returns the summary for the object id
+Retourne le résumé pour l’objet id
 
-Settings:
+Paramètres:
 
--   int id : object id
+-   int id : id de l’objet
 
--   string key : (optional), key of the desired summary, if empty then Jeedom sends you the summary for all the keys
+-   string key : (optionnel), clef du résumé voulu, si vide alors Jeedom vous renvoie le résumé pour toutes les clefs
 
-JSON EqLogic API
+API JSON EqLogic
 ================
 
 eqLogic::all
 ------------
 
-Returns the list of all equipment
+Retourne la liste de tous les équipements
 
 eqLogic::fullById
 -----------------
 
-Returns equipment and its commands as well as their states (for info type commands)
+Retourne un équipement et ses commandes ainsi que les états de celles-ci (pour les commandes de type info)
 
-Settings:
+Paramètres:
 
 -   int id
 
 eqLogic::byId
 -------------
 
-Returns the specified equipment
+Retourne l’équipement spécifié
 
-Settings:
+Paramètres:
 
 -   int id
 
 eqLogic::byType
 ---------------
 
-Returns all equipment belonging to the specified type (plugin)
+Retourne tous les équipements appartenant au type (plugin) spécifié
 
-Settings:
+Paramètres:
 
 -   string type
 
 eqLogic::byObjectId
 -------------------
 
-Returns all equipment belonging to the specified object
+Retourne tous les équipements appartenant à l’objet spécifié
 
-Settings:
+Paramètres:
 
 -   int object\_id
 
 eqLogic::byTypeAndId
 --------------------
 
-Returns an equipment table according to the parameters. 
+Renvoi un tableau d’équipement en fonction des paramètres. 
 
-The return will be of the form array (&#39;eqType1&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; ⇒
-array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; ⇒ array (….))….,id1 ⇒
-array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ array (….)), id2 ⇒ array (&#39; id&#39;⇒…, &#39;cmds&#39; ⇒
+Le retour sera de la forme array('eqType1' ⇒array( 'id'⇒…​,'cmds' ⇒
+array(…​.)),'eqType2' ⇒array( 'id'⇒…​,'cmds' ⇒ array(…​.))…​.,id1 ⇒
+array( 'id'⇒…​,'cmds' ⇒ array(…​.)),id2 ⇒ array( 'id'⇒…​,'cmds' ⇒
 array(…​.))..)
 
-Settings:
+Paramètres:
 
--   string \ [\] eqType = table of the types of equipment required
+-   string\[\] eqType = tableau des types d’équipements voulus
 
--   int \ [\] id = table of desired custom equipment IDs
+-   int\[\] id = tableau des ID d’équipements personnalisés voulus
 
 eqLogic::save
 -------------
 
-Returns the registered / created equipment
+Retourne l’équipement enregistré/créé
 
-Settings:
+Paramètres:
 
--   int id (empty if it is a creation)
+-   int id (vide si c’est une création)
 
--   string eqType\_name (type of script, virtual equipment, etc.)
+-   string eqType\_name (type de l’équipement script, virtuel…​)
 
--   string name
+-   string name
 
--   string logicalId = ''
+-   string logicalId = ''
 
--   int object\_id = null
+-   int object\_id = null
 
--   int eqReal\_id = null
+-   int eqReal\_id = null
 
--   int isVisible = 0
+-   int isVisible = 0
 
--   int isEnable = 0
+-   int isEnable = 0
 
--   array configuration
+-   array configuration
 
--   int timeout
+-   int timeout
 
--   array category
+-   array category
 
-JSON Cmd API
+API JSON Cmd
 ============
 
 cmd::all
 --------
 
-Returns the list of all commands
+Retourne la liste de toutes les commandes
 
 cmd::byId
 ---------
 
-Returns the specified command
+Retourne la commande spécifiée
 
-Settings:
+Paramètres:
 
 -   int id
 
 cmd::byEqLogicId
 ----------------
 
-Returns all orders belonging to the specified equipment
+Retourne toutes les commandes appartenant à l’équipement spécifié
 
-Settings:
+Paramètres:
 
 -   int eqLogic\_id
 
 cmd::execCmd
 ------------
 
-Execute the specified command
+Exécute la commande spécifiée
 
-Settings:
+Paramètres:
 
--   int id : command id or id array if you want to execute multiple commands at once
+-   int id : id d’une commande ou tableau d’id si vous voulez executer plusieurs commandes d’un coup
     
--   \ [options \] List of command options (depends on the type and subtype of the command)
+-   \[options\] Liste des options de la commande (dépend du type et du sous-type de la commande)
 
 cmd::getStatistique
 -------------------
 
-Returns statistics on the order (only works on info and historical orders)
+Retourne les statistiques sur la commande (ne marche que sur les commandes de type info et historisées)
 
-Settings:
+Paramètres:
 
 -   int id
 
--   string startTime : start date of statistics calculation
+-   string startTime : date de début de calcul des statistiques
 
--   string endTime : end date of statistics calculation
+-   string endTime : date de fin de calcul des statistiques
 
 cmd::getTendance
 ----------------
 
-Returns the trend on the order (only works on info and historical orders)
+Retourne la tendance sur la commande (ne marche que sur les commandes de type info et historisées)
 
-Settings:
+Paramètres:
 
 -   int id
 
--   string startTime : trend calculation start date
+-   string startTime : date de début de calcul de la tendance
 
--   string endTime : trend calculation end date
+-   string endTime : date de fin de calcul de la tendance
 
 cmd::getHistory
 ---------------
 
-Returns the order history (only works on info and historical orders)
+Retourne l’historique de la commande (ne marche que sur les commandes de type info et historisées)
 
-Settings:
+Paramètres:
 
 -   int id
 
--   string startTime : history start date
+-   string startTime : date de début de l’historique
 
--   string endTime : history end date
+-   string endTime : date de fin de l’historique
 
 cmd::save
 ---------
 
-Returns the specified object
+Retourne l’objet spécifié
 
-Settings:
+Paramètres:
 
--   int id (empty if it is a creation)
+-   int id (vide si c’est une création)
 
--   string name
+-   string name
 
--   string logicalId
+-   string logicalId
 
--   string eqType
+-   string eqType
 
 -   string order
 
@@ -348,7 +348,7 @@ Settings:
 
 -   int isHistorized = 0
 
--   string unit = ''
+-   string unite = ''
 
 -   array configuration
 
@@ -367,174 +367,174 @@ Settings:
 cmd::event
 -------------------
 
-Allows you to send a value to an order
+Permet d'envoyer une valeur à une commande
 
-Settings:
+Paramètres:
 
 -   int id
 
 -   string value : valeur
 
--   string datetime : (optional) value datetime
+-   string datetime : (optionnel) datetime de la valeur
 
-JSON Scenario API
+API JSON Scenario
 =================
 
 scenario::all
 -------------
 
-Returns the list of all scenarios
+Retourne la liste de tous les scénarios
 
 scenario::byId
 --------------
 
-Returns the specified scenario
+Retourne le scénario spécifié
 
-Settings:
+Paramètres:
 
 -   int id
 
 scenario::export
 ----------------
 
-Returns the export of the scenario as well as the *human name* from the script
+Retourne l’export du scénario ainsi que le *nom humain* du scénario
 
-Settings:
+Paramètres:
 
 -   int id
 
 scenario::import
 ----------------
 
-Allows you to import a scenario.
+Permet d’importer un scénario.
 
-Settings:
+Paramètres:
 
--   int id : id of the scenario in which to import (empty if creation)
+-   int id : id du scénario dans lequel importer (vide si création)
 
--   string humanName : *human name* of the scenario (empty if creation)
+-   string humanName : *nom humain* du scénario (vide si création)
 
--   array import : scenario (from the export scenario field::export)
+-   array import : scénario (issue du champ export de scenario::export)
 
 scenario::changeState
 ---------------------
 
-Changes the state of the specified scenario.
+Change l’état du scénario spécifié.
 
-Settings:
+Paramètres:
 
 -   int id
 
--   string state: \ [Run, stop, enable, disable \]
+-   string state : \[run,stop,enable,disable\]
 
-JSON Log API
+API JSON Log
 ============
 
 log::get
 --------
 
-Allows you to retrieve a log
+Permet de récupérer un log
 
-Settings:
+Paramètres:
 
--   string log : name of the log to retrieve 
+-   string log : nom du log à récupérer 
 
--   string start : line number on which to start reading
+-   string start : numéro de ligne sur laquelle commencer la lecture
 
--   string nbLine : number of lines to recover 
+-   string nbLine : nombre de lignes à récupérer 
 
 log::add
 --------
 
-Allows to write in a log
+Permet d'écrire dans un log
 
-Settings:
+Paramètres:
 
--   string log : name of the log to retrieve 
+-   string log : nom du log à récupérer 
 
--   string type : log type (debug, info, warning, error)
+-   string type : type de log (debug, info, warning, error)
 
--   string message : text message to write
+-   string message : message texte à écrire
 
--   string logicalId : logicalId of the generated message
+-   string logicalId : logicalId du message généré
 
 
 log::list
 ---------
 
-Get the Jeedom logs list
+Permet de récupérer la list des logs de Jeedom
 
-Settings:
+Paramètres:
 
--   string filter : (optional) filter on the name of the logs to retrieve 
+-   string filtre : (optionnel) filtre sur le nom des logs à récupérer 
 
 log::empty
 ----------
 
-Empty a log
+Permet de vider un log
 
-Settings:
+Paramètres:
 
--   string log : name of the log to empty
+-   string log : nom du log à vider
 
 log::remove
 -----------
 
-Allows you to delete a log
+Permet de supprimer un log
 
-Settings:
+Paramètres:
 
--   string log : log name to delete
+-   string log : nom du log a supprimer
 
-JSON datastore API (variable)
+API JSON datastore (variable)
 =============================
 
 datastore::byTypeLinkIdKey
 --------------------------
 
-Get the value of a variable stored in the datastore
+Récupère la valeur d’une variable stockée dans le datastore
 
-Settings:
+Paramètres:
 
--   string type : type of stored value (for scenarios it is scenario)
+-   string type : type de la valeur stockée (pour les scénarios c’est scenario)
     
--   id linkId : -1 for the global (value for the default scenarios, or the scenario id)
+-   id linkId : -1 pour le global (valeur pour les scénarios par défaut, ou l’id du scénario)
     
--   string key : value name
+-   string key : nom de la valeur
 
 datastore::save
 ---------------
 
-Stores the value of a variable in the datastore
+Enregistre la valeur d’une variable dans le datastore
 
-Settings:
+Paramètres:
 
--   string type : type of stored value (for scenarios
-    it&#39;s scenario)
+-   string type : type de la valeur stockée (pour les scénarios
+    c’est scenario)
 
--   id linkId : -1 for global (value for default scenarios,
-    or the scenario id)
+-   id linkId : -1 pour le global (valeur pour les scénarios par défaut,
+    ou l’id du scénario)
 
--   string key : value name
+-   string key : nom de la valeur
 
--   mixed value : value to record
+-   mixte value : valeur à enregistrer
 
-JSON Message API
+API JSON Message
 ================
 
 message::all
 ------------
 
-Returns the list of all messages
+Retourne la liste de tous les messages
 
 message::add
 --------
 
-Allows to write in a log
+Permet d'écrire dans un log
 
-Settings:
+Paramètres:
 
--   string type : log type (debug, info, warning, error)
+-   string type : type de log (debug, info, warning, error)
 
 -   string message : message
 
@@ -545,216 +545,216 @@ Settings:
 message::removeAll
 ------------------
 
-Delete all messages
+Supprime tous les messages
 
-JSON Interaction API
+API JSON Interaction
 ====================
 
 interact::tryToReply
 --------------------
 
-Try to match a request with an interaction, execute the action and respond accordingly
+Essaie de faire correspondre une demande avec une interaction, exécute l’action et répond en conséquence
 
-Settings:
+Paramètres:
 
--   query (request phrase)
+-   query (phrase de la demande)
 
--   int reply\_cmd = NULL : Command ID to use to respond,
-    if not specify then Jeedom returns the answer to you in the json
+-   int reply\_cmd = NULL : ID de la commande à utiliser pour répondre,
+    si non préciser alors Jeedom vous renvoie la réponse dans le json
 
 interactQuery::all
 ------------------
 
-Returns the complete list of all interactions
+Renvoi la liste complete de toute les interactions
 
-JSON System API
+API JSON System
 ===============
 
 jeedom::halt
 ------------
 
-Stop Jeedom
+Permet d’arrêter Jeedom
 
 jeedom::reboot
 --------------
 
-Restart Jeedom
+Permet de redémarrer Jeedom
 
 jeedom::isOk
 ------------
 
-Lets you know if the global state of Jeedom is OK
+Permet de savoir si l’état global de Jeedom est OK
 
 jeedom::update
 --------------
 
-Lets launch a Jeedom update
+Permet de lancer un update de Jeedom
 
 jeedom::backup
 --------------
 
-Allows you to launch a backup of Jeedom
+Permet de lancer un backup de Jeedom
 
 jeedom::getUsbMapping
 ---------------------
 
-List of USB ports and names of USB keys connected to it
+Liste des ports USB et des noms de clefs USB branchés dessus
 
-JSON Plugin API
+API JSON plugin
 ===============
 
 plugin::install
 ---------------
 
-Installation / Update of a given plugin
+Installation/Mise à jour d’un plugin donné
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::remove
 --------------
 
-Deletion of a given plugin
+Suppression d’un plugin donné
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::dependancyInfo
 ----------------------
 
-Returns information on the plugin dependency status
+Renvoi les informations sur le status des dépendances du plugin
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::dependancyInstall
 -------------------------
 
-Force installation of plugin dependencies
+Force l’installation des dépendances du plugin
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::deamonInfo
 ------------------
 
-Returns information about the status of the plugin daemon
+Renvoi les informations sur le status du démon du plugin
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::deamonStart
 -------------------
 
-Force the demon to start
+Force le démarrage du démon
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::deamonStop
 ------------------
 
-Force demon stop
+Force l’arret du démon
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
 plugin::deamonChangeAutoMode
 ----------------------------
 
-Change the management mode of the daemon
+Change le mode de gestion du démon
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
--   int mode : 1 for automatic, 0 for manual
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
+-   int mode : 1 pour automatique, 0 pour manuel
 
-JSON update API
+API JSON update
 ===============
 
 update::all
 -----------
 
-Back to the list of all installed components, their versions and associated information
+Retour la liste de tous les composants installés, leurs versions et les informations associées
 
 update::checkUpdate
 -------------------
 
-Allows you to check for updates
+Permet de vérifier les mises à jour
 
 update::update
 --------------
 
-Allows you to update Jeedom and all plugins
+Permet de mettre à jour Jeedom et tous les plugins
 
 update::doUpdate
 --------------
 
-Settings:
+Paramètres:
 
--   int plugin\_id (optional) : plugin id
--   string logicalId (optional) : plugin name (logical name)
+-   int plugin\_id (optionnel) : id du plugin
+-   string logicalId (optionnel) : nom du plugin (nom logique)
 
-JSON network API
+API JSON network
 ================
 
 network::restartDns
 -------------------
 
-Force the (re) start of the Jeedom DNS
+Force le (re)démarrage du DNS Jeedom
 
 network::stopDns
 ----------------
 
-Forces the DNS Jeedom to stop
+Force l’arret du DNS Jeedom
 
 network::dnsRun
 ---------------
 
-Return Jeedom DNS status
+Renvoi le status du DNS Jeedom
 
-JSON API Examples
+API JSON Exemples
 =================
 
-Here is an example of using the API. For the example below
-i use [this php class](https://github.com/jeedom/core/blob/release/core/class/jsonrpcClient.class.php)
-which simplifies the use of the API.
+Voici un exemple d’utilisation de l’API. Pour l’exemple ci-dessous
+j’utilise [cette classe php](https://github.com/jeedom/core/blob/release/core/class/jsonrpcClient.class.php)
+qui permet de simplifier l’utilisation de l’api.
 
-Retrieving the list of objects :
+Récupération de la liste des objets :
 
-`` `{.php}
+``` {.php}
 $jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
-if ($ jsonrpc-&gt; sendRequest ( &#39;jeeObject::all &#39;, array ())){
-    print_r ($ jsonrpc-&gt; getResult ());
+if($jsonrpc->sendRequest('jeeObject::all', array())){
+    print_r($jsonrpc->getResult());
 }else{
-    echo $ jsonrpc-&gt; getError ();
+    echo $jsonrpc->getError();
 }
-`` ''
+```
 
-Execution of an order (with the option of a title and a message)
+Exécution d’une commande (avec comme option un titre et un message)
 
-`` `{.php}
+``` {.php}
 $jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
-if ($ jsonrpc-&gt; sendRequest ( &#39;cmd::execCmd ', array (' id' => #cmd_id#, 'options' => array ('title' => 'Cuckoo', 'message' => 'It works')))){
-    echo &#39;OK&#39;;
+if($jsonrpc->sendRequest('cmd::execCmd', array('id' => #cmd_id#, 'options' => array('title' => 'Coucou', 'message' => 'Ca marche')))){
+    echo 'OK';
 }else{
-    echo $ jsonrpc-&gt; getError ();
+    echo $jsonrpc->getError();
 }
-`` ''
+```
 
-The API is of course usable with other languages (just a post on a page)
+L’API est bien sûr utilisable avec d’autres langages (simplement un post sur une page) 
