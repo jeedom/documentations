@@ -7,7 +7,7 @@ Description
 This plugin allows to control and have all the info of his or her
 Nimbus.
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg) ![nimbus
+![nimbus screenshot1](./images/nimbus_screenshot1.jpg) ![nimbus
 screenshot2] (../ images / nimbus_screenshot2.jpg) ![nimbus
 screenshot3] (../ images / nimbus_screenshot3.jpg)
 
@@ -26,7 +26,7 @@ After that you will need to enter your credentials (wink + account
 api):
 
 
-![config plugin](../images/config_plugin.jpg)
+![config plugin](./images/config_plugin.jpg)
 
 
 
@@ -37,14 +37,14 @@ You will arrive on the page which will list your equipment (you can
 have several nimbus) and which will allow you to create them
 
 
-![nimbus screenshot4](../images/nimbus_screenshot4.jpg)
+![nimbus screenshot4](./images/nimbus_screenshot4.jpg)
 
 
 **Click on the Add button :**
 
 You will then arrive on the configuration page of your nimbus :
 
-![config nimbus](../images/config_nimbus.jpg)
+![config nimbus](./images/config_nimbus.jpg)
 
 On this page you will find several sections :
 
@@ -73,11 +73,11 @@ on Dashboard. You can choose among several funds. You
 can also choose the color of the needle and the color of the text.
 
 
-![nimbus screenshot6](../images/nimbus_screenshot6.jpg)
+![nimbus screenshot6](./images/nimbus_screenshot6.jpg)
 
 -   **Information**
 
-![infonimb](../images/infonimb.jpg)
+![infonimb](./images/infonimb.jpg)
 
 
 This section will fill in itself when you save your
@@ -140,7 +140,7 @@ Information
 
 ### Information on the dashboard : 
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg)
+![nimbus screenshot1](./images/nimbus_screenshot1.jpg)
 
 The widget is divided into 4 dials representing the 4 dials of your
 nimbus.
@@ -152,7 +152,7 @@ nimbus.
     clickable to get to this screen :
 
 
-![nimbus screenshot5](../images/nimbus_screenshot5.jpg)
+![nimbus screenshot5](./images/nimbus_screenshot5.jpg)
 
 
 This screen allows you to manually change the text, the position of
@@ -168,7 +168,7 @@ The actions
 
 Several actions are accessible via scenario :
 
-![commandes](../images/commandes.jpg)
+![commandes](./images/commandes.jpg)
 
 The Demo action is independent and launches the technical demo.
 
@@ -203,13 +203,13 @@ Phrasing :**
     characters it will be cut if the sentence is more than 4 words
     will be cut)
 
-![Scenario](../images/Scenario.jpg)
+![Scenario](./images/Scenario.jpg)
 
 
-![Scenario2](../images/Scenario2.jpg)
+![Scenario2](./images/Scenario2.jpg)
 
 
-![Scenario3](../images/Scenario3.jpg)
+![Scenario3](./images/Scenario3.jpg)
 
 
 **HOW CAN I PERMANENTLY SHOW INFORMATION FROM MY
@@ -218,7 +218,7 @@ Automation**
 If you want to continuously display information from your home automation.
 Create a scheduled scenario every 5 minutes (for example).
 
-![Scenario4](../images/Scenario4.jpg)
+![Scenario4](./images/Scenario4.jpg)
 
 In this example you just have to replace what is between hook
 by your orders. And every 5 minutes your screens will be updated

@@ -29,31 +29,31 @@ Kunden_Schlüssel, der auf der Website <http://dev.netatmo.com> erzeugt wird.
 
 Klicken sie einmal auf Start :
 
-![netatmoWeather10](../images/netatmoWeather10.png)
+![netatmoWeather10](./images/netatmoWeather10.png)
 
 Anschließend auf "create an app"
 
-![netatmoWeather11](../images/netatmoWeather11.png)
+![netatmoWeather11](./images/netatmoWeather11.png)
 
 Melden Sie sich mit Ihrer E-Mail und Passwort an
 
-![netatmoWeather12](../images/netatmoWeather12.png)
+![netatmoWeather12](./images/netatmoWeather12.png)
 
 Füllen Sie die Felder "Name" und "Description" aus (was Sie hineinschreiben
 spielt keine Rolle) :
 
-![netatmoWeather13](../images/netatmoWeather13.png)
+![netatmoWeather13](./images/netatmoWeather13.png)
 
 Dann am Ende der Seite wählen Sie "I accept the terms of use" und
 klicken Sie auf "Create"
 
-![netatmoWeather14](../images/netatmoWeather14.png)
+![netatmoWeather14](./images/netatmoWeather14.png)
 
 Sie erhalten dann die Kunden_ID="Client-ID" und Kunden_Schlüssel="Secret
 Client" zurück. Kopieren Sie die diese dann im Konfigurations Teil des
 Jeedom Plugin hinein (siehe vorheriges Kapitel)
 
-![netatmoWeather15](../images/netatmoWeather15.png)
+![netatmoWeather15](./images/netatmoWeather15.png)
 
 Gerätekonfiguration
 =============================

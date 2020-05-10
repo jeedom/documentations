@@ -11,17 +11,17 @@ App" sur le site LaMetric :
 
 -   2\. Créer une "INDICATOR APP" :
 
-![lametric1](../images/lametric1.png)
+![lametric1](./images/lametric1.png)
 
 -   3\. Configurer une icone, un nom et sélectionner Push dans "Communication
     type" :
 
-![lametric2](../images/lametric2.png)
+![lametric2](./images/lametric2.png)
 
 -   4\. Donner un nom et une description à votre app et cocher "Private app"
     puis cliquer sur "Save" :
 
-![lametric3](../images/lametric3.png)
+![lametric3](./images/lametric3.png)
 
 -   5\. Publier l’application puis installer-la sur votre LaMetric grâce à
     l’application mobile.
@@ -29,12 +29,12 @@ App" sur le site LaMetric :
 Une fois l’application publiée, vous disposez des informations
 essentielles pour la configuration du plugin.
 
-![lametric4](../images/lametric4.png)
+![lametric4](./images/lametric4.png)
 
 Vous pouvez ensuite créer un nouvel équipement dans Jeedom et renseigner
 les champs demandés :
 
-![lametric5](../images/lametric5.png)
+![lametric5](./images/lametric5.png)
 
 Utilisation du plugin 
 =====================
@@ -58,4 +58,4 @@ les icônes et les textes par le caractère : **|**
 Voici par exemple un scénario envoyant 4 informations différentes en 1
 seul envoi :
 
-![lametric6](../images/lametric6.png)
+![lametric6](./images/lametric6.png)

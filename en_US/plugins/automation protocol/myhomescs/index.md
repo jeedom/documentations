@@ -18,14 +18,14 @@ port de socket interne : 55005 est le port par défaut utilisé par le
 daemon MyHomeSCS. Il vaut mieux éviter de le changer sans connaitre le
 fonctionnement du daemon.
 
-![myhomescs1](../images/myhomescs1.png)
+![myhomescs1](./images/myhomescs1.png)
 
 Une fois configuré, on accède à la page du plugin MyHomeSCS.
 
 A gauche, la liste des modules MyHomeSCS, et au centre les onglets
 Général, Information et Commandes.
 
-![myhomescs2](../images/myhomescs2.png)
+![myhomescs2](./images/myhomescs2.png)
 
 Le menu à gauche présente l’ensemble des modules MyHomeSCS détectés
 et/ou configurés sur son installation domotique. Pour l’instant le
@@ -40,7 +40,7 @@ Le bouton "Ajouter équipement" permet d’ajouter des équipements
 spécifiques MyHomeSCS, en générale pour des tests ou des commandes de
 type "Managements" ou "Spéciales".
 
-![myhomescs3](../images/myhomescs3.png)
+![myhomescs3](./images/myhomescs3.png)
 
 Lorsqu’on passe en mode Expert, on a accès à d’autres options : Type de
 commande, unit, type de communication, trame brute.
@@ -54,11 +54,11 @@ communication (Multicast, Unicast ou Broadcast). Le champ LogicalID ou
 commande brute permet de nommer l’info ou de renseigner la trame
 "brute".
 
-![myhomescs4](../images/myhomescs4.png)
+![myhomescs4](./images/myhomescs4.png)
 
 L’onglet Information précise le type de l’équipement.
 
-![myhomescs6](../images/myhomescs6.png)
+![myhomescs6](./images/myhomescs6.png)
 
 L’onglet général permet de choisir le nom de l’équipement, sa
 destination dans l’arborescence de sa domotique, la catégorie du module
@@ -66,7 +66,7 @@ destination dans l’arborescence de sa domotique, la catégorie du module
 module dans Jeedom, ou encore de rendre visible ou invisible le module
 dans l’interface.
 
-![myhomescs7](../images/myhomescs7.png)
+![myhomescs7](./images/myhomescs7.png)
 
 L’onglet Commandes détaille l’ensemble des commandes (certains éléments
 ne sont disponibles qu’en mode expert).
@@ -76,7 +76,7 @@ module dans le champ "Equipements". Les paramètres utiles sont
 Historiser, Afficher(la commande), Evènement (permet de forcer la
 demande d’info sur le module).
 
-![myhomescs8](../images/myhomescs8.png)
+![myhomescs8](./images/myhomescs8.png)
 
 Dans une prochaine version et avec l’aide de tous, on pourrait imaginer
 que les modules soient reconnus automatiquement

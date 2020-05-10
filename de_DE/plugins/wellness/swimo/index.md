@@ -11,18 +11,18 @@ puis de configurer quelques éléments :
 - le serial du swimo
 - L'apikey du swimo
 
-![swimo](../images/swimo1.png)
+![swimo](./images/swimo1.png)
 
 Configuration des équipements
 =============================
 
 La synchronisation des équipements permet de récupérer les sondes et les actionneurs configurés sur le Swimo.
 
-![swimo2](../images/swimo2.png)
+![swimo2](./images/swimo2.png)
 
 Une fois configuré dans un objet, vous obtiendrez vos éléments dans le dashboard :
 
-![swimo3](../images/swimo3.png)
+![swimo3](./images/swimo3.png)
 
 > **Note**
 >

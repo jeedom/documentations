@@ -8,7 +8,7 @@ Plugin Konfiguration
 Nachdem sie das Plugin installiert haben, aktivieren sie es einfach. Dieses
 Plugin hat keine besondere Konfiguration :
 
-![mail1](../images/mail1.PNG)
+![mail1](./images/mail1.PNG)
 
 Geräte Konfiguration
 ===
@@ -16,15 +16,15 @@ Geräte Konfiguration
 Die Konfiguration von Mail-Geräten ist über das Menü Plugin
 verfügbar :
 
-![mail2](../images/mail2.PNG)
+![mail2](./images/mail2.PNG)
 
 So sieht die Mail-Plugin-Seite aus (hier schon mit 1 Mail, Sie können mit der Schaltfläche "Hinzufügen" beliebig viele hinzufügen) :
 
-![mail3](../images/mail3.PNG)
+![mail3](./images/mail3.PNG)
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![mail4](../images/mail4.PNG)
+![mail4](./images/mail4.PNG)
 
 Sie finden hier die ganze Konfiguration von ihrem Gerät :
 
@@ -64,7 +64,7 @@ Wenn SMTP ausgewählt wurde, erscheint auf der Registerkarte die
 SMTP-Konfiguration. Sie können dann die Anmeldedaten des E-Mail-Servers
 eingeben, den Sie verwenden möchten.
 
-![mail screenshot3](../images/mail_screenshot3.jpg)
+![mail screenshot3](./images/mail_screenshot3.jpg)
 
 Hier sind einige Beispiele für die wichtigsten E-Mail-Diensteanbieter :
 
@@ -105,7 +105,7 @@ Auf der Registerkarte '"Befehle" können Sie Befehle hinzufügen, die den
 E-Mail-Adressen entsprechen, an die Sie E-Mails mit Jeedom senden
 möchten :
 
-![mail screenshot4](../images/mail_screenshot4.jpg)
+![mail screenshot4](./images/mail_screenshot4.jpg)
 
 -   **Name** : Name des Befehls
 
@@ -125,7 +125,7 @@ es beispielsweise bei der Erstellung von Szenarien zu verwenden.
 
 In einem Szenario müssen Sie nach der Auswahleiner Aktion den Titel und die Nachricht eingeben.
 
-![mail5](../images/mail5.jpg)
+![mail5](./images/mail5.jpg)
 
 > **Wichtig**
 >

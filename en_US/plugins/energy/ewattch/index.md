@@ -13,7 +13,7 @@ Plugin configuration
 Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
 accès à la configuration de base du plugin :
 
-![ewattch1](../images/ewattch1.PNG)
+![ewattch1](./images/ewattch1.PNG)
 
 Vous retrouvez ici la configuration de base :
 
@@ -28,12 +28,12 @@ Equipment configuration
 La configuration des équipements Ewattch est accessible à partir du menu
 Plugins :
 
-![ewattch2](../images/ewattch2.PNG)
+![ewattch2](./images/ewattch2.PNG)
 
 Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
 équipements) :
 
-![ewattch3](../images/ewattch3.PNG)
+![ewattch3](./images/ewattch3.PNG)
 
 > **Tip**
 >
@@ -43,7 +43,7 @@ Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
 
 Once you click on one of them, you get:
 
-![ewattch4](../images/ewattch4.PNG)
+![ewattch4](./images/ewattch4.PNG)
 
 You can find here the full configuration of your device :
 

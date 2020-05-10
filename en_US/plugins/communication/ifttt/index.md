@@ -5,7 +5,7 @@ This plugin allows to send an event to IFTTT
 After downloading the plugin you have to activate it, this one does not
 requires no other configuration.
 
-![ifttt7](../images/ifttt7.PNG)
+![ifttt7](./images/ifttt7.PNG)
 
 Equipment configuration
 =============================
@@ -13,12 +13,12 @@ Equipment configuration
 IFTTT device configuration is accessible from the menu
 plugins:
 
-![ifttt8](../images/ifttt8.PNG)
+![ifttt8](./images/ifttt8.PNG)
 
 That's what the IFTTT plugin page looks like (here with already 1
 device) :
 
-![ifttt9](../images/ifttt9.PNG)
+![ifttt9](./images/ifttt9.PNG)
 
 > **Tip**
 >
@@ -28,7 +28,7 @@ device) :
 
 Once you click on one of them, you get:
 
-![ifttt10](../images/ifttt10.PNG)
+![ifttt10](./images/ifttt10.PNG)
 
 You can find here the full configuration of your device :
 
@@ -67,34 +67,34 @@ Création d’un compte IFTTT
 Créez un compte sur IFTTT si ce n’est pas déjà fait, en allant sur
 [IFTTT](:https://ifttt.com) :
 
-![ifttt1](../images/ifttt1.png)
+![ifttt1](./images/ifttt1.png)
 
 Renseignez votre adresse mail puis votre nom d’utilisateur et faites
 créer :
 
-![ifttt2](../images/ifttt2.PNG)
+![ifttt2](./images/ifttt2.PNG)
 
 Un petit guide va vous expliquer les possibilités, une fois celui-ci
 terminé, cliquez en haut a droite sur search :
 
-![ifttt3](../images/ifttt3.PNG)
+![ifttt3](./images/ifttt3.PNG)
 
 Puis dans recherche tapez webhooks et cliquez sur webhooks :
 
-![ifttt4](../images/ifttt4.PNG)
+![ifttt4](./images/ifttt4.PNG)
 
 Puis sur connect :
 
-![ifttt5](../images/ifttt5.png)
+![ifttt5](./images/ifttt5.png)
 
 Et là il vous faut récupérer votre clef :
 
-![ifttt6](../images/ifttt6.png)
+![ifttt6](./images/ifttt6.png)
 
 Cette clef est à copier dans le champ "Clef" de votre équipement sous
 Jeedom
 
-![ifttt11](../images/ifttt11.PNG)
+![ifttt11](./images/ifttt11.PNG)
 
 Création de votre premier "Applet" 
 ==================================
@@ -102,44 +102,44 @@ Création de votre premier "Applet"
 Pour cela rien de plus simple, dans IFTTT cliquez sur "My applets" puis
 sur "New applet"
 
-![ifttt12](../images/ifttt12.png)
+![ifttt12](./images/ifttt12.png)
 
 Puis cliquez sur "New applet" :
 
-![ifttt13](../images/ifttt13.PNG)
+![ifttt13](./images/ifttt13.PNG)
 
 Click on the "this":
 
-![ifttt14](../images/ifttt14.png)
+![ifttt14](./images/ifttt14.png)
 
 Then search for "Webhooks" and click on it:
 
-![ifttt15](../images/ifttt15.png)
+![ifttt15](./images/ifttt15.png)
 
 Click on "Receive a web request"
 
-![ifttt16](../images/ifttt16.png)
+![ifttt16](./images/ifttt16.png)
 
 Donnez un nom à votre "event", attention celui-ci doit correspondre au
 nom de l’évènement dans la commande Jeedom, il faut donc bien le
 mémoriser, puis validez :
 
-![ifttt17](../images/ifttt17.png)
+![ifttt17](./images/ifttt17.png)
 
 Then click on that:
 
-![ifttt18](../images/ifttt18.png)
+![ifttt18](./images/ifttt18.png)
 
 Ensuite à vous de voir, pour l’exemple je vais faire un envoi de
 notification sur mon téléphone (il faut au préalable avoir installé
 l’application IFTTT dessus), je clique donc sur Notifications :
 
-![ifttt19](../images/ifttt19.png)
+![ifttt19](./images/ifttt19.png)
 
 Validez en cliquant sur "Send a notification" (peut changer en fonction
 des channels) :
 
-![ifttt20](../images/ifttt20.png)
+![ifttt20](./images/ifttt20.png)
 
 Ensuite il faut écrire le message de la notification, il existe ici des
 tags (ingredient) possible :
@@ -160,20 +160,20 @@ tags (ingredient) possible :
 Voilà ce que cela donne ici (je veux recevoir la notification de la
 méteo en cours chez moi), valider en cliquant sur "Create Action" :
 
-![ifttt21](../images/ifttt21.PNG)
+![ifttt21](./images/ifttt21.PNG)
 
 Donnez un nom a votre applet (recette) et validez en cliquant sur
 "Create action" :
 
-![ifttt22](../images/ifttt22.PNG)
+![ifttt22](./images/ifttt22.PNG)
 
 Voilà vous avez créer votre "applets" coté IFTTT :
 
-![ifttt23](../images/ifttt23.PNG)
+![ifttt23](./images/ifttt23.PNG)
 
 Il reste plus qu’a créer la commande coté Jeedom, c’est assez simple :
 
-![ifttt24](../images/ifttt24.PNG)
+![ifttt24](./images/ifttt24.PNG)
 
 Ici rien de particulier, il faut bien remettre le nom de l’évènement
 IFTTT dans Jeedom et ensuite mettre les valeurs à passer à IFTTT, ici
@@ -195,42 +195,42 @@ IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une
 information lorsque le téléphone pénètre dans une zone donnée. Première
 chose à faire, créer une nouvelle applet :
 
-![ifttt25](../images/ifttt25.png)
+![ifttt25](./images/ifttt25.png)
 
 Then click on "this":
 
-![ifttt26](../images/ifttt26.png)
+![ifttt26](./images/ifttt26.png)
 
 Select "Location":
 
-![ifttt27](../images/ifttt27.png)
+![ifttt27](./images/ifttt27.png)
 
 Choose your trigger (here I'm going to take when we enter in
 a zone) :
 
-![ifttt28](../images/ifttt28.png)
+![ifttt28](./images/ifttt28.png)
 
 Mark your zone then do "Create Trigger":
 
-![ifttt29](../images/ifttt29.png)
+![ifttt29](./images/ifttt29.png)
 
 Click on "that":
 
-![ifttt30](../images/ifttt30.png)
+![ifttt30](./images/ifttt30.png)
 
 Search for "Webhooks" and click on it:
 
-![ifttt31](../images/ifttt31.png)
+![ifttt31](./images/ifttt31.png)
 
 Click on "Make a web request":
 
-![ifttt32](../images/ifttt32.png)
+![ifttt32](./images/ifttt32.png)
 
 Coté Jeedom, sur votre équipement IFTTT, créer une commande de type
 info/autre (ou binaire si vous voulez juste savoir si vous êtês dans la
 zone), comme cela :
 
-![ifttt33](../images/ifttt33.PNG)
+![ifttt33](./images/ifttt33.PNG)
 
 -   Très important ici : récupérer l’id de la commande (ici 5369).
 
@@ -261,7 +261,7 @@ Pensez bien à remplacer :
 
 Voilà ce que cela donne :
 
-![ifttt34](../images/ifttt34.png)
+![ifttt34](./images/ifttt34.png)
 
 Pensez bien à mettre methode sur Get, puis cliquez sur "Create Action".
 

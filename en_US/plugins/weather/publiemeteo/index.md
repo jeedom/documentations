@@ -19,11 +19,11 @@ It is compatible with :
 
 To configure it, simply select the commands containing the indicators.
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot2.png)
 
 Otherwise the URLs for external sites are in the plugin page :
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot1.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot1.png)
 
 
 It will therefore be necessary to create a weather station at one of the supported sites.

@@ -9,11 +9,11 @@ Gerätekonfiguration
 Sobald das Plugin über den Markt installiert und aktiviert ist, greifen Sie auf das zu
 Nabaztag Plugin Seite von :
 
-![nabaztag1](../images/nabaztag1.png)
+![nabaztag1](./images/nabaztag1.png)
 
 Hier finden Sie alle Ihre Nabaztag-Geräte :
 
-![nabaztag2](../images/nabaztag2.png)
+![nabaztag2](./images/nabaztag2.png)
 
 > **Spitze**
 >
@@ -23,7 +23,7 @@ Hier finden Sie alle Ihre Nabaztag-Geräte :
 
 Sobald ein Gerät ausgewählt ist, erhalten Sie :
 
-![nabaztag3](../images/nabaztag3.png)
+![nabaztag3](./images/nabaztag3.png)
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
@@ -95,15 +95,15 @@ Maximale Adresse und Token abrufen
 Gehen Sie zur Website [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
 Melden Sie sich dann in Ihrem Konto an :
 
-![nabaztag4](../images/nabaztag4.png)
+![nabaztag4](./images/nabaztag4.png)
 
 Klicken Sie auf Kaninchen :
 
-![nabaztag5](../images/nabaztag5.png)
+![nabaztag5](./images/nabaztag5.png)
 
 Klicken Sie dann auf API :
 
-![nabaztag6](../images/nabaztag6.png)
+![nabaztag6](./images/nabaztag6.png)
 
 Aktivieren Sie hier die lila und öffentliche API und erhalten Sie die Mac-Adresse sowie
 den lila API-Schlüssel, um ihn in die Konfiguration Ihres Kaninchens zu integrieren
@@ -114,7 +114,7 @@ Widget
 
 Hier ist das Widget, das nach dem Erstellen der Ausrüstung erhalten wurde :
 
-![nabaztag7](../images/nabaztag7.png)
+![nabaztag7](./images/nabaztag7.png)
 
 Changelog detailliert :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

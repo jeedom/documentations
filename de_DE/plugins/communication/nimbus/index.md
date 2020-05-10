@@ -7,7 +7,7 @@ Beschreibung
 Dieses Plugin ermöglicht es, alle Informationen von ihm oder ihr zu steuern und zu haben
 Nimbus.
 
-![Nimbus screenshot1](../images/Nimbus_screenshot1.jpg) ![Nimbus
+![Nimbus screenshot1](./images/Nimbus_screenshot1.jpg) ![Nimbus
 Screenshot2] (../ images / Nimbus_screenshot2.jpg) ![Nimbus
 Screenshot3] (../ images / Nimbus_screenshot3.jpg)
 
@@ -26,7 +26,7 @@ Danach müssen Sie Ihre Anmeldeinformationen eingeben (Augenzwinkern + Konto
 api):
 
 
-![config plugin](../images/config_plugin.jpg)
+![config plugin](./images/config_plugin.jpg)
 
 
 
@@ -37,14 +37,14 @@ Sie gelangen auf die Seite, auf der Ihre Ausrüstung aufgelistet ist (Sie könne
 haben mehrere Nimbus) und mit denen Sie sie erstellen können
 
 
-![Nimbus screenshot4](../images/Nimbus_screenshot4.jpg)
+![Nimbus screenshot4](./images/Nimbus_screenshot4.jpg)
 
 
 **Klicken Sie auf die Schaltfläche Hinzufügen :**
 
 Sie gelangen dann auf die Konfigurationsseite Ihres Nimbus :
 
-![config Nimbus](../images/config_Nimbus.jpg)
+![config Nimbus](./images/config_Nimbus.jpg)
 
 Auf dieser Seite finden Sie mehrere Abschnitte :
 
@@ -73,11 +73,11 @@ auf dem Armaturenbrett. Sie können zwischen mehreren Fonds wählen. Sie
 Sie können auch die Farbe der Nadel und die Farbe des Textes auswählen.
 
 
-![Nimbus screenshot6](../images/Nimbus_screenshot6.jpg)
+![Nimbus screenshot6](./images/Nimbus_screenshot6.jpg)
 
 -   **Information**
 
-![infonimb](../images/infonimb.jpg)
+![infonimb](./images/infonimb.jpg)
 
 
 Dieser Abschnitt wird sich selbst ausfüllen, wenn Sie Ihre speichern
@@ -140,7 +140,7 @@ Informationen
 
 ### Informationen auf dem Dashboard : 
 
-![Nimbus screenshot1](../images/Nimbus_screenshot1.jpg)
+![Nimbus screenshot1](./images/Nimbus_screenshot1.jpg)
 
 Das Widget ist in 4 Wählscheiben unterteilt, die die 4 Wählscheiben von Ihnen darstellen
 Nimbus.
@@ -152,7 +152,7 @@ Nimbus.
     klickbar, um zu diesem Bildschirm zu gelangen :
 
 
-![Nimbus screenshot5](../images/Nimbus_screenshot5.jpg)
+![Nimbus screenshot5](./images/Nimbus_screenshot5.jpg)
 
 
 In diesem Bildschirm können Sie den Text und die Position von manuell ändern
@@ -168,7 +168,7 @@ Aktionen
 
 Über das Szenario sind mehrere Aktionen zugänglich :
 
-![commandes](../images/commandes.jpg)
+![commandes](./images/commandes.jpg)
 
 Die Demo-Aktion ist unabhängig und startet die technische Demo.
 
@@ -203,13 +203,13 @@ Satz :**
     Zeichen wird es geschnitten, wenn der Satz mehr als 4 Wörter enthält
     wird geschnitten)
 
-![Scenario](../images/Scenario.jpg)
+![Scenario](./images/Scenario.jpg)
 
 
-![Scenario2](../images/Scenario2.jpg)
+![Scenario2](./images/Scenario2.jpg)
 
 
-![Scenario3](../images/Scenario3.jpg)
+![Scenario3](./images/Scenario3.jpg)
 
 
 **WIE KANN ICH DAUERHAFT INFORMATIONEN VON MEINEN ZEIGEN?
@@ -218,7 +218,7 @@ Automatisierung**
 Wenn Sie kontinuierlich Informationen aus Ihrer Hausautomation anzeigen möchten.
 Erstellen Sie alle 5 Minuten ein geplantes Szenario (zum Beispiel)..
 
-![Scenario4](../images/Scenario4.jpg)
+![Scenario4](./images/Scenario4.jpg)
 
 In diesem Beispiel müssen Sie nur das ersetzen, was sich zwischen den Haken befindet
 durch Ihre Bestellungen. Und alle 5 Minuten werden Ihre Bildschirme aktualisiert

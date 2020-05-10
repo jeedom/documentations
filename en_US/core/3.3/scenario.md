@@ -739,11 +739,11 @@ for example apply it on another Jeedom or share it on the
 Market. It is also from there that yor can recover a scenario
 from the Market.
 
-![scenario15](../images/scenario15.JPG)
+![scenario15](./images/scenario15.JPG)
 
 Yor will then see this window :
 
-![scenario16](../images/scenario16.JPG)
+![scenario16](./images/scenario16.JPG)
 
 From there, yor have the possibility :
 
@@ -759,7 +759,7 @@ From there, yor have the possibility :
 
 By clicking on a template, yor gand :
 
-![scenario17](../images/scenario17.JPG)
+![scenario17](./images/scenario17.JPG)
 
 At the top yor can :
 

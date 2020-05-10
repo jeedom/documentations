@@ -7,7 +7,7 @@ Plugin Konfiguration
 Die Konfiguration ist sehr einfach, nach dem Herunterladen des Plugins ist es
 Sie aktivieren es einfach und das wars.
 
-![script1](../images/script1.PNG)
+![script1](./images/script1.PNG)
 
 Die einzige Option ist, wo jeedom die Standardskripte setzt, es
 wird empfohlen, es nicht zu berühren.
@@ -18,17 +18,17 @@ Gerätekonfiguration
 Die Konfiguration der Skriptausrüstung ist über das Menü zugänglich
 Plugin :
 
-![script2](../images/script2.PNG)
+![script2](./images/script2.PNG)
 
 So sieht die Skript-Plugin-Seite aus (hier mit bereits 1
 Ausrüstung) :
 
-![script3](../images/script3.PNG)
+![script3](./images/script3.PNG)
 
 Hier ist die Liste Ihrer Skripte. Sobald Sie klicken
 auf Ausrüstung bekommen Sie :
 
-![script4](../images/script4.PNG)
+![script4](./images/script4.PNG)
 
 > **Spitze**
 >
@@ -151,7 +151,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 > die Parameter davon Sonderzeichen. Die Charaktere
 > erlaubt sein : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
-![script5](../images/script5.PNG)
+![script5](./images/script5.PNG)
 
 Ermöglicht das Aufrufen einer URL oder das Abrufen der Rückgabe einer URL.
 
@@ -180,7 +180,7 @@ Ermöglicht das Aufrufen einer URL oder das Abrufen der Rückgabe einer URL.
 Die HTML-Auswahl 
 =============
 
-![script8](../images/script8.PNG)
+![script8](./images/script8.PNG)
 
 Analysieren Sie eine Webseite (HTML-Datei), um einen Wert abzurufen
 oben. Die Syntax ist dieselbe wie für jquery.
@@ -192,7 +192,7 @@ Frage.
 Die XML-Auswahl 
 ============
 
-![script6](../images/script6.PNG)
+![script6](./images/script6.PNG)
 
 Ermöglicht das Abrufen von XML und das gezielte Suchen nach einem Wert
 in.
@@ -209,7 +209,7 @@ Frage.
 Die JSON-Wahl 
 =============
 
-![script7](../images/script7.PNG)
+![script7](./images/script7.PNG)
 
 Ermöglicht die Wiederherstellung von json und die gezielte Suche nach a
 Wert in.
@@ -625,7 +625,7 @@ Dann müssen Sie den "Pfad" der letzten FML finden. Um dies zu tun,
 Sie müssen zur Site gehen und dann mit der rechten Maustaste auf das gewünschte Element klicken
 Inspizieren Sie den Artikel, wir bekommen :
 
-![script9](../images/script9.PNG)
+![script9](./images/script9.PNG)
 
 Hier ist es der komplexeste Teil, der eine kleine Analyse erfordert. hier
 Mein Text befindet sich in einem "a" -Tag, das sich in einem p-Typ-Element befindet
@@ -636,7 +636,7 @@ enthält. Also habe ich : "div.post.Artikel:erste p:zuerst a".
 
 Also bekommen wir :
 
-![script10](../images/script10.PNG)
+![script10](./images/script10.PNG)
 
 Für ein Echtzeit-Update ist es möglich, einen Cron zu platzieren
 Update.

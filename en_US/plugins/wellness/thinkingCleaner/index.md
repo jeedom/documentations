@@ -9,7 +9,7 @@ module Thinking Cleaner. Les fonctions disponibles sont : - Clean - Spot
 - Max - Dock - Stop - Find Me
 
 ![thinkingCleaner
-screenshot1](../images/thinkingCleaner_screenshot1.png)
+screenshot1](./images/thinkingCleaner_screenshot1.png)
 
 Configuration
 -------------

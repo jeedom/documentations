@@ -739,11 +739,11 @@ por ejemplo, aplícalo en otro Jeedom o compártelo en el
 Mercado. También es a partir de ahí que puedes recuperar un escenario
 del mercado.
 
-![scenario15](../images/scenario15.JPG)
+![scenario15](./images/scenario15.JPG)
 
 Entonces verás esta ventana :
 
-![scenario16](../images/scenario16.JPG)
+![scenario16](./images/scenario16.JPG)
 
 La partir de ahí, tienes la posibilidad :
 
@@ -759,7 +759,7 @@ La partir de ahí, tienes la posibilidad :
 
 Al hacer clic en una plantilla, obtienes :
 
-![scenario17](../images/scenario17.JPG)
+![scenario17](./images/scenario17.JPG)
 
 En la cima puedes :
 

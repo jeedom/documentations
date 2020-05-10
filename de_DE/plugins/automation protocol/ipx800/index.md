@@ -54,7 +54,7 @@ aktiviert, ist die Aktualisierung fast augenblicklich.
 
 Um den Push zu aktivieren, klicken Sie auf
 
-![bouton config push](../images/bouton_config_push.jpg)
+![bouton config push](./images/bouton_config_push.jpg)
 
 Gehen Sie dann nach unten und klicken Sie auf Übernehmen.
 
@@ -93,8 +93,8 @@ dieser Befehl".
 Einige Screenshots 
 =======================
 
-![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)
+![ipx800 screenshot1](./images/ipx800_screenshot1.jpg)
 
-![ipx800 screenshot2](../images/ipx800_screenshot2.jpg)
+![ipx800 screenshot2](./images/ipx800_screenshot2.jpg)
 
-![ipx800 screenshot3](../images/ipx800_screenshot3.jpg)
+![ipx800 screenshot3](./images/ipx800_screenshot3.jpg)

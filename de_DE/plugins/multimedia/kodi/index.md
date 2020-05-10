@@ -3,7 +3,7 @@ Description
 
 Ce plugin permet de commander et recevoir des informations depuis Kodi.
 
-![kodi screenshot1](../images/kodi_screenshot1.jpg)
+![kodi screenshot1](./images/kodi_screenshot1.jpg)
 
 Configuration 
 ===
@@ -21,20 +21,20 @@ Suite à cela il vous faudra créer votre équipement Kodi :
 Rendez vous dans le menu plugins/multimédia, vous y trouverez le plugin
 Kodi :
 
-![configuration1](../images/configuration1.jpg)
+![configuration1](./images/configuration1.jpg)
 
 Ensuite vous arriverez sur la page qui listera vos équipements (vous
 pouvez avoir plusieurs Kodi) et qui vous permettra également d’en créer
 
-![pageconfig3](../images/pageconfig3.jpg)
+![pageconfig3](./images/pageconfig3.jpg)
 
 Cliquez sur le bouton Ajouter un Kodi ou sur le bouton + :
 
-![config2](../images/config2.jpg)
+![config2](./images/config2.jpg)
 
 Vous arriverez ensuite sur la page de configuration de votre Kodi:
 
-![pageconfig1](../images/pageconfig1.jpg)
+![pageconfig1](./images/pageconfig1.jpg)
 
 Sur cette page vous trouverez plusieurs sections :
 
@@ -165,7 +165,7 @@ Pour pouvoir bénéficier de la remontée des différents status, il est
 nécessaire d’installer un addon sur Kodi. Vous pouvez télécharger cet
 addon dans la page général du plugin dans Jeedom
 
-![installplugin](../images/installplugin.jpg)
+![installplugin](./images/installplugin.jpg)
 
 Une fois le zip récupéré, il vous suffit de l’installer
 dans Kodi. Pour cela rendez vous dans Kodi, paramètres/addons/installer depuis un zip.
@@ -173,12 +173,12 @@ dans Kodi. Pour cela rendez vous dans Kodi, paramètres/addons/installer depuis 
 Après l'installation vous devriez retrouver l’addon dans les addons activés
 dans la partie service.
 
-![kodi screenshot7](../images/kodi_screenshot7.jpg)
+![kodi screenshot7](./images/kodi_screenshot7.jpg)
 
 Pour configurer l’addon cliquez sur configurer, vous arriverez sur cette
 page :
 
-![addondetail](../images/addondetail.jpg)
+![addondetail](./images/addondetail.jpg)
 
 Ici vous trouverez 3 paramètres important à configurer :
 
@@ -235,7 +235,7 @@ Détails Widget
 
 Voici quelques détails concernant le widget :
 
-![widget principal](../images/widget-principal.jpg)
+![widget principal](./images/widget-principal.jpg)
 
 -   A : indique un icone du type de média en cours
 
@@ -243,7 +243,7 @@ Voici quelques détails concernant le widget :
 
 -   C : permet de déplier la partie télécommande
 
-![kodi screenshot2](../images/kodi_screenshot2.jpg)
+![kodi screenshot2](./images/kodi_screenshot2.jpg)
 
 -   D : Partie 1 du titre en cours
 
@@ -254,17 +254,17 @@ Voici quelques détails concernant le widget :
 -   G : Permet d’activer le mode controle volume ou de revenir au mode
     playback
 
-![partievolume](../images/partievolume.jpg)
+![partievolume](./images/partievolume.jpg)
 
 -   H : permet de déplier la partie infos
 
 En mode série/film, vous trouverez année, résumé, genre
 
-![kodi screenshot3](../images/kodi_screenshot3.jpg)
+![kodi screenshot3](./images/kodi_screenshot3.jpg)
 
 En mode audio vous trouverez playlist, année, genre et infos playlist
 
-![kodi screenshot5](../images/kodi_screenshot5.jpg)
+![kodi screenshot5](./images/kodi_screenshot5.jpg)
 
 Dans les deux cas vous trouverez en bas les boutons permettant de lancer
 un scan audio/ vidéo ou de lancer un mix de soirée audio

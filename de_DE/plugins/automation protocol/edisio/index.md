@@ -15,7 +15,7 @@ est déjà configuré par défaut ; vous n’avez donc rien à faire de plus.
 Cependant vous pouvez modifier cette configuration. Voici le détail
 (certains paramètres peuvent n’être visibles qu’en mode expert) :
 
-![edisio1](../images/edisio1.JPG)
+![edisio1](./images/edisio1.JPG)
 
 -   **Dépendances** : cette partie vous donne le statut des dépendances,
     si elles ne sont pas OK vous pouvez soit les lancer à la main soit
@@ -73,12 +73,12 @@ Geräte Konfiguration
 La configuration des équipements edisio est accessible à partir du menu
 plugin :
 
-![edisio10](../images/edisio10.JPG)
+![edisio10](./images/edisio10.JPG)
 
 Voilà à quoi ressemble la page du plugin edisio (ici avec déjà 4
 équipements) :
 
-![edisio2](../images/edisio2.JPG)
+![edisio2](./images/edisio2.JPG)
 
 > **Tip**
 >
@@ -101,7 +101,7 @@ Vous retrouvez ici :
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![edisio3](../images/edisio3.JPG)
+![edisio3](./images/edisio3.JPG)
 
 Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 

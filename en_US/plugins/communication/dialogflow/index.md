@@ -24,7 +24,7 @@ In cloud mode (and only in cloud mode), there are synchronization delays during 
 
 Install the plugin and activate it. Then always on the plugin configuration page click on "Send" to send your configuration to the market.
 
-![dialogflow](../images/dialogflow1.png)
+![dialogflow](./images/dialogflow1.png)
 
 > **Important**
 >
@@ -46,15 +46,15 @@ On the market, you must activate "Google Smarthome" in the "My Services" tab the
 
 On a phone with Google Assistant, say "Speak with Jeedom", Google will tell you to link your Jeedom account and Google click on yes : 
 
-![dialogflow](../images/dialogflow2.png)
+![dialogflow](./images/dialogflow2.png)
 
 Indicate your market identifiers : 
 
-![dialogflow](../images/dialogflow3.png)
+![dialogflow](./images/dialogflow3.png)
 
 Google will tell you that the configuration is successfully created / updated : 
 
-![dialogflow](../images/dialogflow4.png)
+![dialogflow](./images/dialogflow4.png)
 
 Here, the link between your Jeedom and Google Home / Assistant is made.
 

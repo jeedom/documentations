@@ -22,7 +22,7 @@ messages automatiques à partir de Jeedom.
 After downloading the plugin, you just have to activate it,
 there is no configuration at this level.
 
-![phonemarket1](../images/phonemarket1.PNG)
+![phonemarket1](./images/phonemarket1.PNG)
 
 Equipment configuration
 =============================
@@ -30,12 +30,12 @@ Equipment configuration
 La configuration des équipements Phonemarket est accessible à partir du
 menu plugin :
 
-![phonemarket2](../images/phonemarket2.PNG)
+![phonemarket2](./images/phonemarket2.PNG)
 
 Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
 équipement) :
 
-![phonemarket3](../images/phonemarket3.PNG)
+![phonemarket3](./images/phonemarket3.PNG)
 
 > **Tip**
 >
@@ -45,7 +45,7 @@ Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
 
 Once you click on one of them, you get:
 
-![phonemarket4](../images/phonemarket4.PNG)
+![phonemarket4](./images/phonemarket4.PNG)
 
 You can find here the full configuration of your device :
 

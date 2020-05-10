@@ -7,7 +7,7 @@ configuración del plugin
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
 puis de configurer l’adresse IP du Wattcube Web.
 
-![wattlet](../images/wattlet.png)
+![wattlet](./images/wattlet.png)
 
 Configuración del dispositivo
 =============================
@@ -15,11 +15,11 @@ Configuración del dispositivo
 La synchronisation des équipements Wattlets est accessible à partir du
 menu Plugins :
 
-![wattlet2](../images/wattlet2.png)
+![wattlet2](./images/wattlet2.png)
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![wattlet3](../images/wattlet3.png)
+![wattlet3](./images/wattlet3.png)
 
 Aquí encontrará toda la configuración de su dispositivo:
 
@@ -68,4 +68,4 @@ forme :
 
 puis enregistrer.
 
-![wattlet5](../images/wattlet5.png)
+![wattlet5](./images/wattlet5.png)

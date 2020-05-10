@@ -9,18 +9,18 @@ Une fois le plugin koubachi installé, il faut le relier à votre compte
 Koubachi, pour cela aller sur votre compte Koubachi :
 [ici](https://labs.koubachi.com/login?locale=en) :
 
-![koubachi 2](../images/koubachi-2.JPG)
+![koubachi 2](./images/koubachi-2.JPG)
 
 Indiquez vos identifiants de connexion, et cliquez sur login, puis en
 bas de la page vous avez :
 
-![koubachi 3](../images/koubachi-3.JPG)
+![koubachi 3](./images/koubachi-3.JPG)
 
 Récupérez la valeur de "user\_credentials" et mettez la dans le champ
 "Nom d’utilisateur". Faites de même avec la valeur de "app\_key" dans le
 champ "Clef application" :
 
-![koubachi 4](../images/koubachi-4.JPG)
+![koubachi 4](./images/koubachi-4.JPG)
 
 Cliquez ensuite sur "Synchroniser mes équipements".
 
@@ -29,12 +29,12 @@ Equipment configuration
 
 Vous retrouvez ensuite la liste de vos plantes ici :
 
-![koubachi 1](../images/koubachi-1.JPG)
+![koubachi 1](./images/koubachi-1.JPG)
 
 Vous devriez voir ici la liste de vos plantes enregistrées dans Koubachi
 :
 
-![koubachi 5](../images/koubachi-5.JPG)
+![koubachi 5](./images/koubachi-5.JPG)
 
 > **Tip**
 >
@@ -44,7 +44,7 @@ Vous devriez voir ici la liste de vos plantes enregistrées dans Koubachi
 
 En cliquant sur l’une d’elle vous obtenez :
 
-![koubachi 6](../images/koubachi-6.JPG)
+![koubachi 6](./images/koubachi-6.JPG)
 
 -   Nom de la plante : le nom de votre plante
 
@@ -69,8 +69,8 @@ Widget
 
 Voici le résultat sur le dashboard :
 
-![koubachi 7](../images/koubachi-7.JPG)
+![koubachi 7](./images/koubachi-7.JPG)
 
 Et en mobile :
 
-![koubachi 8](../images/koubachi-8.JPG)
+![koubachi 8](./images/koubachi-8.JPG)

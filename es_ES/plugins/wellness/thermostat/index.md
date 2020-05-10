@@ -102,7 +102,7 @@ escenarios o combinándolo con otros complementos (agenda,
 presencia, ...), se integrará sin problemas en su instalación
 domótica Esto es lo que tenemos en el tablero :
 
-![Aspect sur le dashboard](../images/Termostato.png)
+![Aspect sur le dashboard](./images/Termostato.png)
 
 El bloqueo en el widget le permite bloquear el termostato en un
 instrucción dada después de un evento imprevisto : dejar, invitados, ....
@@ -116,7 +116,7 @@ configuración desplegando el menú Complementos / Bienestar y seleccione
 Termostato Haga clic en el botón * Agregar * en la esquina superior izquierda y
 ingrese el nombre deseado para su termostato.
 
-![Configuración générale](../images/Termostato_config_générale.png)
+![Configuración générale](./images/Termostato_config_générale.png)
 
 Primero, informaremos los parámetros generales de la
 termostato Se encuentran en la parte superior izquierda, sección general y es necesario
@@ -126,7 +126,7 @@ termostato, información habitual para cualquier usuario de jeedom.
 La elección del algoritmo de termostato
 --------------------------------------
 
-![Choix de l'algorithme](../images/Termostato31.png)
+![Choix de l'algorithme](./images/Termostato31.png)
 
 En esta imagen, se destaca el motor de operación del termostato..
 Hay 2 algoritmos posibles para la regulación de la temperatura..
@@ -136,7 +136,7 @@ el calentamiento ocurre tan pronto como la temperatura está por debajo del punt
 menos la histéresis y se apaga tan pronto como la temperatura excede el
 punto de ajuste más histéresis.
 
-![Principe du modo hystérésis](../images/PrincipeHysteresis.png)
+![Principe du modo hystérésis](./images/PrincipeHysteresis.png)
 
 Por ejemplo, si configura la histéresis a 1 ° C y el punto de ajuste
 es 19 ° C, luego el calentamiento se activa cuando la temperatura baja
@@ -158,7 +158,7 @@ temperatura medida por el sensor. El algoritmo también calculará
 el tiempo de calentamiento (o enfriamiento) en un ciclo dependiendo de
 inercia y aislamiento de la habitación.
 
-![Principe du modo temporal](../images/PrincipeTemporel.png)
+![Principe du modo temporal](./images/PrincipeTemporel.png)
 
 Finalmente, cuanto más largo sea el tiempo del ciclo, más lenta será la regulación.
 Por el contrario, un tiempo demasiado corto provocará cambios frecuentes
@@ -179,7 +179,7 @@ Luego indicas su rango de uso : temperaturas mínimas y
 máximo definirá los posibles valores de consigna accesibles en
 el widget.
 
-![Configuración du fonctionnement](../images/configFonctionnement.png)
+![Configuración du fonctionnement](./images/configFonctionnement.png)
 
 A continuación, especifique los comandos que miden el
 temperatura y control de la calefacción o aire acondicionado. Tenga en cuenta que el
@@ -187,7 +187,7 @@ tiempo motor necesita saber la temperatura exterior. Si usted
 no tiene un sensor externo, esto puede ser proporcionado por
 el plugin meteorológico.
 
-![Sélection des sondes](../images/selectionsondes.png)
+![Sélection des sondes](./images/selectionsondes.png)
 
 > **Punta**
 >
@@ -203,7 +203,7 @@ acciones, lo que le da a nuestro termostato la capacidad de controlar
 diferentes equipos (caso de operación por zona por ejemplo o
 control de otro termostato)
 
-![Actions sur les appareÉls](../images/actionssurappareÉl.png)
+![Actions sur les appareÉls](./images/actionssurappareÉl.png)
 
 Las acciones son aquellas que calientan, enfrían
 (aire acondicionado), pare el comando. Una acción complementaria puede
@@ -229,7 +229,7 @@ No es visible en el tablero, porque es un escenario que
 programar todo el equipo en * vacaciones * y así posicionar el
 termostato en este modo.
 
-![Définition des modos](../images/Definitionmodos.png)
+![Définition des modos](./images/Definitionmodos.png)
 
 Para definir un modo, proceda de la siguiente manera :
 
@@ -264,7 +264,7 @@ adicionales son ajustables aquí, estos son los horarios de apertura y
 cierre de la ventana que causará la interrupción y la reanudación
 como funciona el termostato.
 
-![Configuración des overtures](../images/configovertures.png)
+![Configuración des overtures](./images/configovertures.png)
 
 Para configurar la operación cuando se abre la ventana :
 
@@ -313,7 +313,7 @@ notificación permite ser advertido e intervenir manualmente.
 > la sonda se encuentra en la pestaña * Avanzado*. Este es el
 > `délai max entre 2 relevés de température`.
 
-![DéfaÉllance des sondes](../images/defaÉllancesonde.png)
+![DéfaÉllance des sondes](./images/defaÉllancesonde.png)
 
 Para definir una acción de falla :
 
@@ -347,7 +347,7 @@ En esta imagen, la acción de falla envía la orden para cambiar a
 Modo ECO del radiador por el cable pÉloto, luego envía un mensaje por el
 plugin pushbullet.
 
-![DéfaÉllance calefaccion](../images/defaÉllanceCalefacción.png)
+![DéfaÉllance calefaccion](./images/defaÉllanceCalefacción.png)
 
 Para definir una acción de falla :
 
@@ -532,19 +532,19 @@ fines de semana de 8 a.m. a 10 p.m.. El resto del tiempo, la calefacción cambia
 
 Entonces creamos el escenario ***Calefacción de confort***, en modo programado :
 
-![Scénario programmé](../images/Termostato11.png)
+![Scénario programmé](./images/Termostato11.png)
 
 y el código :
 
-![Scenario modo confort](../images/scenarioconfort.png)
+![Scenario modo confort](./images/scenarioconfort.png)
 
 Sobre el mismo principio, el escenario "Ecocalentamiento"" :
 
-![Scénario programmé en modo Eco](../images/Termostato13.png)
+![Scénario programmé en modo Eco](./images/Termostato13.png)
 
 y su código :
 
-![Scénario en modo Eco](../images/scenarioeco.png)
+![Scénario en modo Eco](./images/scenarioeco.png)
 
 Tenga en cuenta que en los escenarios, el control del termostato está completo
 ya que podemos actuar en el modo de funcionamiento (calefacción o
@@ -581,16 +581,16 @@ Días feriados. Todos estos eventos tienen como acción inicial el
 selección de modo **Confort** del termostato y como acción final el
 modo **Eco** :
 
-![Actions de l'agenda](../images/agendaactions.png)
+![Actions de l'agenda](./images/agendaactions.png)
 
 Para la programación del evento vespertino :
 
-![Programación de l'évènement](../images/agendaprogrammation.png)
+![Programación de l'évènement](./images/agendaprogrammation.png)
 
 Simplemente repita para cada evento para obtener esta agenda
 colorido mensual :
 
-![affichage mensuel de l'agenda](../images/agendamensuel.png)
+![affichage mensuel de l'agenda](./images/agendamensuel.png)
 
 Volviendo a la configuración del termostato, puede acceder a
 calendario de eventos directamente desde la pestaña de programación :

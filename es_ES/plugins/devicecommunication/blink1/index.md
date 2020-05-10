@@ -8,7 +8,7 @@ Configuration
 
 El plugin no requiere ninguna configuración, solo actívelo :
 
-![blink1](../images/blink1.png)
+![blink1](./images/blink1.png)
 
 Configuración del dispositivo
 =============================
@@ -16,17 +16,17 @@ Configuración del dispositivo
 La configuration des équipements blink(1) est accessible à partir du
 menu Plugins :
 
-![blink2](../images/blink2.png)
+![blink2](./images/blink2.png)
 
 Voilà à quoi ressemble la page du plugin blink(1) (ici avec déjà un
 équipement) :
 
-![blink3](../images/blink3.png)
+![blink3](./images/blink3.png)
 
 Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
 :
 
-![blink4](../images/blink4.png)
+![blink4](./images/blink4.png)
 
 > **Sugerencia**
 >
@@ -73,7 +73,7 @@ Ci-dessous vous retrouvez la liste des commandes :
 Mode "Local" 
 ============
 
-![blink5](../images/blink5.png)
+![blink5](./images/blink5.png)
 
 Mode à utiliser si le blink(1) est branché sur un des ports USB de
 Jeedom. Le seul paramètre dans ce mode est non obligatoire et permet de
@@ -83,7 +83,7 @@ branchés.
 Mode "Appels à l’API blink(1)" 
 ------------------------------
 
-![blink6](../images/blink6.png)
+![blink6](./images/blink6.png)
 
 Dans ce mode, Jeedom va directement appeler l’api de blink1control, il
 faut donc que Jeedom puisse joindre en direct le système sur lequel la
@@ -111,7 +111,7 @@ Configuration de l’application blink1control
 
 Une fois installée et lancée vous devez avoir :
 
-![blink7](../images/blink7.png)
+![blink7](./images/blink7.png)
 
 Cette application offre de très nombreuses possibilités. Rapidement on
 trouve en haut à gauche le statut de la clef (ici non branchée), en bas
@@ -124,14 +124,14 @@ faire apparaître le menu de configuration avancée et activer l’api
 server, en mettant bien serverHost sur any. Notez aussi le port pour le
 reporter dans la configuration de Jeedom.
 
-![blink8](../images/blink8.png)
+![blink8](./images/blink8.png)
 
 Validez et redémarrez blink1control pour qu’il le prenne en compte.
 
 Mode "Surveillance par URL" 
 ===========================
 
-![blink9](../images/blink9.png)
+![blink9](./images/blink9.png)
 
 Dans ce mode c’est l’application blink1control qui appelle toutes les X
 secondes cette URL qui va lui donner ses instructions.
@@ -157,7 +157,7 @@ laisser cochée.
 Mode "Les deux" 
 ===============
 
-![blink11](../images/blink11.png)
+![blink11](./images/blink11.png)
 
 Ce mode est une combinaison des 2 modes précédents, l’avantage c’est
 qu’il combine la vitesse de réaction du premier et la possibilité de le
@@ -168,7 +168,7 @@ l’API blink(1)" et le mode "Surveillance par URL".
 Mode "SSH" 
 ==========
 
-![blink12](../images/blink12.png)
+![blink12](./images/blink12.png)
 
 Ce mode doit être utilisé si vous avez mis le blink(1) sur une machine
 linux autre que celle où est installé Jeedom (Jeedom maître car le

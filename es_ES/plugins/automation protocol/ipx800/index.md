@@ -54,7 +54,7 @@ activado, la actualización es casi instantánea.
 
 Para activar el empuje, haga clic en
 
-![bouton config push](../images/bouton_config_push.jpg)
+![bouton config push](./images/bouton_config_push.jpg)
 
 Luego baja y haz clic en Aplicar.
 
@@ -93,8 +93,8 @@ este comando".
 Algunas capturas de pantalla 
 =======================
 
-![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)
+![ipx800 screenshot1](./images/ipx800_screenshot1.jpg)
 
-![ipx800 screenshot2](../images/ipx800_screenshot2.jpg)
+![ipx800 screenshot2](./images/ipx800_screenshot2.jpg)
 
-![ipx800 screenshot3](../images/ipx800_screenshot3.jpg)
+![ipx800 screenshot3](./images/ipx800_screenshot3.jpg)

@@ -24,7 +24,7 @@ En modo de nube (y solo en modo de nube), hay retrasos de sincronización durant
 
 Instala el complemento y actívalo. Luego, siempre en la página de configuración del complemento, haga clic en "Enviar" para enviar su configuración al mercado.
 
-![dialogflow](../images/dialogflow1.png)
+![dialogflow](./images/dialogflow1.png)
 
 > **Importantee**
 >
@@ -46,15 +46,15 @@ En el mercado, debe activar "Google Smarthome" en la pestaña "Mis servicios" y 
 
 En un teléfono con el Asistente de Google, di "Habla con Jeedom", Google te dirá que vincules tu cuenta de Jeedom y Google haga clic en sí : 
 
-![dialogflow](../images/dialogflow2.png)
+![dialogflow](./images/dialogflow2.png)
 
 Indique sus identificadores de mercado : 
 
-![dialogflow](../images/dialogflow3.png)
+![dialogflow](./images/dialogflow3.png)
 
 Google le dirá que la configuración se ha creado / actualizado correctamente : 
 
-![dialogflow](../images/dialogflow4.png)
+![dialogflow](./images/dialogflow4.png)
 
 Aquí, se realiza el enlace entre su Jeedom y Google Home / Assistant.
 

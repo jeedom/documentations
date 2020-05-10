@@ -9,11 +9,11 @@ Configuración del equipo
 Una vez que el complemento está instalado y activado desde Market, accede a
 Página del complemento Nabaztag por :
 
-![nabaztag1](../images/nabaztag1.png)
+![nabaztag1](./images/nabaztag1.png)
 
 Aquí encontrarás todos tus equipos Nabaztag :
 
-![nabaztag2](../images/nabaztag2.png)
+![nabaztag2](./images/nabaztag2.png)
 
 > **Punta**
 >
@@ -23,7 +23,7 @@ Aquí encontrarás todos tus equipos Nabaztag :
 
 Una vez que se selecciona un equipo, obtienes :
 
-![nabaztag3](../images/nabaztag3.png)
+![nabaztag3](./images/nabaztag3.png)
 
 Aquí encontrarás toda la configuración de tu equipo :
 
@@ -95,15 +95,15 @@ Recuperar dirección máxima y token
 Vaya al sitio web [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
 luego inicie sesión en su cuenta :
 
-![nabaztag4](../images/nabaztag4.png)
+![nabaztag4](./images/nabaztag4.png)
 
 Click en conejo :
 
-![nabaztag5](../images/nabaztag5.png)
+![nabaztag5](./images/nabaztag5.png)
 
 Luego haga clic en API :
 
-![nabaztag6](../images/nabaztag6.png)
+![nabaztag6](./images/nabaztag6.png)
 
 Aquí active la API púrpura y pública y obtenga la dirección mac, así como
 la clave API púrpura para ponerlo en la configuración de tu conejo
@@ -114,7 +114,7 @@ Reproductor
 
 Aquí está el widget obtenido después de la creación del equipo. :
 
-![nabaztag7](../images/nabaztag7.png)
+![nabaztag7](./images/nabaztag7.png)
 
 Registro de cambios detallado :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

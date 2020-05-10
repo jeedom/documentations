@@ -19,11 +19,11 @@ Es compatible con :
 
 Para configurarlo, simplemente seleccione los comandos que contienen los indicadores.
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot2.png)
 
 De lo contrario, las URL de los sitios externos se encuentran en la página del complemento. :
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot1.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot1.png)
 
 
 Por lo tanto, será necesario crear una estación meteorológica en uno de los sitios compatibles.

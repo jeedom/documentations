@@ -36,18 +36,18 @@ Installieren des WIdentifikationget-Plugins
 Wie bei jedem Plugin wird das WIdentifikationget-Plugin über die Benutzeroberfläche installiert
 Jeedom, Menü "Allgemein" ⇒ "Plugins"
 
-![capture001](../images/capture001.png)
+![capture001](./images/capture001.png)
 
 Klicken Sie auf das grüne Symbol, um direkt zum Markt zu gelangen. In diesem
 Fenster klicken Sie auf "Offiziell" und geben Sie in das Suchfeld ein
 "WIdentifikationget".
 
-![capture002](../images/capture002.png)
+![capture002](./images/capture002.png)
 
 Klicken Sie auf das Plugin-Symbol. Dies öffnet das Plugin Sheet in
 welches mehrere Informationen enthält.
 
-![capture003](../images/capture003.png)
+![capture003](./images/capture003.png)
 
 Klicken Sie auf die Schaltfläche "Stabil installieren"". Einmal installiert, wird Jeedom
 Fragen Sie, ob Sie zur Plugin-Konfigurationsseite gehen möchten.
@@ -65,14 +65,14 @@ Präsentation und Grundfunktion des WIdentifikationget Plugins
 Um zum WIdentifikationget-Plugin zu gelangen, gehen Sie zum Menü
 "Plugins "⇒" Programmierung "⇒" WIdentifikationget".
 
-![capture005](../images/capture005.png)
+![capture005](./images/capture005.png)
 
 Wir sind also auf der Haupt-Plugin-Seite. Letzteres hat
 Standardmäßig eine Reihe von WIdentifikationgets bei der Installation Es ist möglich
 Laden Sie andere über den Markt herunter oder erstellen Sie Ihre eigenen WIdentifikationgets
 (siehe unten).
 
-![capture006](../images/capture006.png)
+![capture006](./images/capture006.png)
 
 Durch Klicken auf eines der WIdentifikationgets in der Liste im rechten Menü oder
 Links öffnen Sie die WIdentifikationget-Konfigurationsseite in
@@ -80,7 +80,7 @@ Welche Sie ändern können, sehen Sie eine Vorschau des WIdentifikationgets (wen
 finden Sie einen kompatiblen Befehl) und viele Konfigurationsinformationen
 wie WIdentifikationget-Quellcode
 
-![capture007](../images/capture007.png)
+![capture007](./images/capture007.png)
 
 > **Warnung**
 >
@@ -102,18 +102,18 @@ Hier sind einige Beispiele :
 Für Z-Wave-Module dann "Plugins" ⇒ "Home Automation Protocol" ⇒ "Z-Wave"
 Wählen Sie das Bestellmodul aus, das Sie ändern möchten.
 
-![capture024](../images/capture024.png)
+![capture024](./images/capture024.png)
 
 Gehen Sie auf der Modulkonfigurationsseite zur Bestellung und
 Klicken Sie auf die gekerbten Räder. Gehen Sie im neuen Fenster zu
 Registerkarte "Erweiterte Ansicht""
 
-![capture025](../images/capture025.png)
+![capture025](./images/capture025.png)
 
 Hier können Sie das WIdentifikationget für Computer und ändern
 Handys mit speziellen Dropdown-Listen.
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 > **Notiz**
 >
@@ -128,18 +128,18 @@ Fenster, in dem alle Befehle aufgelistet sind, die mit dem Typ von kompatibel si
 WIdentifikationget. Sie können das WIdentifikationget also einfach anwenden oder entfernen
 viele Bestellungen gleichzeitig.
 
-![capture008](../images/capture008.png)
+![capture008](./images/capture008.png)
 
 Überprüfen Sie einfach die Bestellungen, auf die Sie wünschen
 WIdentifikationget anwenden
 
 ### Verschiedene Beispiele für die gleiche Reihenfolge 
 
-![WIdentifikationget : badge-transparent](../images/capture009.png)
+![WIdentifikationget : badge-transparent](./images/capture009.png)
 
-![WIdentifikationget : badge](../images/capture010.png)
+![WIdentifikationget : badge](./images/capture010.png)
 
-![WIdentifikationget : ConsoIMG](../images/capture011.png)
+![WIdentifikationget : ConsoIMG](./images/capture011.png)
 
 Anpassungsoptionen für WIdentifikationgets 
 ---------------------------------------
@@ -152,17 +152,17 @@ wird von Befehl zu Befehl unterschiedlich angezeigt.
 Es gibt zwei Möglichkeiten, auf diese Optionen zuzugreifen. Entweder durch den Baum der Hausautomation
 Diese finden Sie im Menü "Allgemein" ⇒ "Home Automation Summary""
 
-![capture012](../images/capture012.png)
+![capture012](./images/capture012.png)
 
 Auf dieser Seite finden Sie alle Ihre Hausautomationselemente, Objekte,
 Module, Befehle. Klicken Sie auf das kleine gekerbte Rad, um
 Rufen Sie die Konfigurationsseite auf.
 
-![capture013](../images/capture013.png)
+![capture013](./images/capture013.png)
 
 Entweder von der Modulkonfigurationsseite.
 
-![capture015](../images/capture015.png)
+![capture015](./images/capture015.png)
 
 ### Fügen Sie eine benutzerdefinierte Option hinzu 
 
@@ -175,7 +175,7 @@ vor / nach dem WIdentifikationget, wenn ein Modul mehrere Befehle enthält
 optionales WIdentifikationget angewendet (die verfügbare Liste befindet sich im Forum
 oder Wiki, ein Dokumentensystem wird derzeit untersucht)
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 ![exemple 1 de valeur pour afficher un compteur
 spezifisch] (../ images / capture016.png)
@@ -218,14 +218,14 @@ im Plugin : Menü "Plugins" ⇒ "Programmierung" ⇒ "WIdentifikationget". Ab
 Klicken Sie auf dieser Seite oben auf die Schaltfläche "Einfacher Erstellungsmodus"
 Links.
 
-![capture026](../images/capture026.png)
+![capture026](./images/capture026.png)
 
 Auf der neuen Seite können Sie im rechten Teil anzeigen
 Jeedom-Basissymbole, importierte Bilder und
 importierte Packungen. Auf der linken Seite zuerst eine Schaltfläche für
 Importieren Sie Pakete oder Bilder und dann 3 Schaltflächen für die Erstellung von WIdentifikationgets.
 
-![capture027](../images/capture027.png)
+![capture027](./images/capture027.png)
 
 -   Ein / Aus-WIdentifikationget ⇒ Für Schaltflächenbefehle zum Ein / Aus
 
@@ -245,7 +245,7 @@ unterstützte Konfiguration. Sie müssen dem WIdentifikationget einen Namen gebe
 Schnittstellentyp, wenn das WIdentifikationget für den PC (Dashboard) oder das Mobiltelefon bestimmt ist,
 dann die zu verwendende Bibliothek (Jeedom, persönliches Bild oder Packs).
 
-![capture028](../images/capture028.png)
+![capture028](./images/capture028.png)
 
 Dann müssen Sie das Symbol für Status 0 und 1 sowie das auswählen
 Symbolgröße (Wert in "EM" =% der Originalgröße des
@@ -283,7 +283,7 @@ Schaltfläche "WIdentifikationget hinzufügen""
 Klicken Sie auf der Haupt-Plugin-Seite auf "WIdentifikationget hinzufügen"".
 Jeedom fragt Sie nach Informationen zum zukünftigen WIdentifikationget.
 
-![capture029](../images/capture029.png)
+![capture029](./images/capture029.png)
 
 -   Name muss ein eindeutiger Name sein. Überprüfen Sie also, ob dieser Name nicht existiert
     nicht schon.
@@ -332,7 +332,7 @@ Hauptseite der WIdentifikationget-Konfiguration / Änderung. Ab
 Dort wird das WIdentifikationget in Jeedom erstellt, enthält es aber derzeit nicht
 Code zur Anzeige des Befehls.
 
-![capture030](../images/capture030.png)
+![capture030](./images/capture030.png)
 
 #### WIdentifikationget bearbeiten 
 
@@ -693,7 +693,7 @@ Also hier ist die Liste und ihre Details :
 
         Wird im Attribut "Klasse" des Hauptdiv. Verwendet
 
-![Exemple de retour de valeur](../images/capture031.png)
+![Exemple de retour de valeur](./images/capture031.png)
 
 ### Jeedom CSS Klassen 
 

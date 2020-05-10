@@ -24,31 +24,31 @@ client\_secret généré sur le site <http://dev.netatmo.com>.
 
 Une fois dessus cliquez sur start :
 
-![netatmoWelcome10](../images/netatmoWelcome10.png)
+![netatmoWelcome10](./images/netatmoWelcome10.png)
 
 Puis sur "create an app"
 
-![netatmoWelcome11](../images/netatmoWelcome11.png)
+![netatmoWelcome11](./images/netatmoWelcome11.png)
 
 Identifiez vous, avec votre mail et mot de passe
 
-![netatmoWelcome12](../images/netatmoWelcome12.png)
+![netatmoWelcome12](./images/netatmoWelcome12.png)
 
 Remplissez les champs "Name" et "Description" (peux importe ce que vous
 mettez ca n’a aucune importance) :
 
-![netatmoWelcome13](../images/netatmoWelcome13.png)
+![netatmoWelcome13](./images/netatmoWelcome13.png)
 
 Puis tout en bas de la page cochez la case "I accept the terms of use"
 puis cliquez sur "Create"
 
-![netatmoWelcome14](../images/netatmoWelcome14.png)
+![netatmoWelcome14](./images/netatmoWelcome14.png)
 
 Recuperer les informations "CLient id" et "Client secret" et copier les
 dans la partie configuration du plugin dans Jeedom (voir chapitre
 précedent)
 
-![netatmoWelcome15](../images/netatmoWelcome15.png)
+![netatmoWelcome15](./images/netatmoWelcome15.png)
 
 # Device configuration
 

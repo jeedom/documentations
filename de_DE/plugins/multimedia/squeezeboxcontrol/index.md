@@ -8,7 +8,7 @@ Ce plugin permet de contrôler tout votre environnement SqueezeBox
 
  \
 
-![squeezeboxcontrol icon](../images/squeezeboxcontrol_icon.png)
+![squeezeboxcontrol icon](./images/squeezeboxcontrol_icon.png)
 
  \
 
@@ -68,7 +68,7 @@ Cliquez sur paramètre :
 
  \
 
-![configlms1](../images/configlms1.jpg)
+![configlms1](./images/configlms1.jpg)
 
  \
 
@@ -77,7 +77,7 @@ fournit par Jeedom et appliquer:
 
  \
 
-![configlms2](../images/configlms2.jpg)
+![configlms2](./images/configlms2.jpg)
 
  \
 
@@ -102,7 +102,7 @@ La configuration du plugin Jeedom est plutôt simple.
 
  \
 
-![configjeedom1](../images/configjeedom1.jpg)
+![configjeedom1](./images/configjeedom1.jpg)
 
  \
 
@@ -124,7 +124,7 @@ PLugons/Multimédia/SqueezeBox Control:
 
  \
 
-![configjeedom2](../images/configjeedom2.jpg)
+![configjeedom2](./images/configjeedom2.jpg)
 
  \
 
@@ -132,7 +132,7 @@ Vous arriverez sur la page suivante :
 
  \
 
-![configjeedom3](../images/configjeedom3.jpg)
+![configjeedom3](./images/configjeedom3.jpg)
 
  \
 
@@ -147,7 +147,7 @@ aussi disponible ici :
 
  \
 
-![panel1](../images/panel1.jpg)
+![panel1](./images/panel1.jpg)
 
  \
 
@@ -156,7 +156,7 @@ LMS directement
 
  \
 
-![configlms](../images/configlms.jpg)
+![configlms](./images/configlms.jpg)
 
  \
 
@@ -164,7 +164,7 @@ LMS directement
 
  \
 
-![serveurlms](../images/serveurlms.jpg)
+![serveurlms](./images/serveurlms.jpg)
 
  \
 
@@ -177,7 +177,7 @@ celui-ci :
  \
 
 ![squeezeboxcontrol
-screenshot8](../images/squeezeboxcontrol_screenshot8.jpg)
+screenshot8](./images/squeezeboxcontrol_screenshot8.jpg)
 
  \
 
@@ -212,7 +212,7 @@ obtiendrez :
 
  \
 
-![dashboard](../images/dashboard.jpg)
+![dashboard](./images/dashboard.jpg)
 
  \
 
@@ -231,7 +231,7 @@ directement :
  \
 
 ![squeezeboxcontrol
-screenshot7](../images/squeezeboxcontrol_screenshot7.jpg)
+screenshot7](./images/squeezeboxcontrol_screenshot7.jpg)
 
  \
 
@@ -258,7 +258,7 @@ s’ouvre :
  \
 
 ![squeezeboxcontrol
-screenshot4](../images/squeezeboxcontrol_screenshot4.jpg)
+screenshot4](./images/squeezeboxcontrol_screenshot4.jpg)
 
  \
 
@@ -289,7 +289,7 @@ squeezeboxs :
 
  \
 
-![panel2](../images/panel2.jpg)
+![panel2](./images/panel2.jpg)
 
  \
 
@@ -475,11 +475,11 @@ l’annonce à faire:
 Pour cela il faut utiliser la fonction "Paramétrer TTS". Elle permet de
 définir le moteur et la voix avant de lancer la synthèse , exemples :
 
-![tts1](../images/tts1.jpg)
+![tts1](./images/tts1.jpg)
 
-![tts2](../images/tts2.jpg)
+![tts2](./images/tts2.jpg)
 
-![tts3](../images/tts3.jpg)
+![tts3](./images/tts3.jpg)
 
 Les options possibles pour le moteur sont (attention respectez les
 majuscules minuscules)
@@ -510,7 +510,7 @@ Exemple de scénario :
 
  \
 
-![scenar](../images/scenar.jpg)
+![scenar](./images/scenar.jpg)
 
  \
 

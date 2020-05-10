@@ -54,7 +54,7 @@ activated, refresh is almost instantaneous.
 
 To activate the push, click on
 
-![bouton config push](../images/bouton_config_push.jpg)
+![bouton config push](./images/bouton_config_push.jpg)
 
 Then go down and click on Apply.
 
@@ -93,8 +93,8 @@ this order".
 Some screenshots 
 =======================
 
-![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)
+![ipx800 screenshot1](./images/ipx800_screenshot1.jpg)
 
-![ipx800 screenshot2](../images/ipx800_screenshot2.jpg)
+![ipx800 screenshot2](./images/ipx800_screenshot2.jpg)
 
-![ipx800 screenshot3](../images/ipx800_screenshot3.jpg)
+![ipx800 screenshot3](./images/ipx800_screenshot3.jpg)

@@ -1,4 +1,4 @@
 Konfiguration
 =============
 
-![wifipower icon](../images/wifipower_icon.png)
+![wifipower icon](./images/wifipower_icon.png)

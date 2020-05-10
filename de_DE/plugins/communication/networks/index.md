@@ -7,7 +7,7 @@ Plugin Konfiguration
 Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren,
 Auf dieser Ebene gibt es keine Konfiguration.
 
-![networks](../images/networks.PNG)
+![networks](./images/networks.PNG)
 
 Gerätekonfiguration 
 =============================
@@ -15,12 +15,12 @@ Gerätekonfiguration
 
 Plugin-Menü :
 
-![networks2](../images/networks2.PNG)
+![networks2](./images/networks2.PNG)
 
 
 Ausrüstung) :
 
-![networks3](../images/networks3.PNG)
+![networks3](./images/networks3.PNG)
 
 > **Spitze**
 >
@@ -30,7 +30,7 @@ Ausrüstung) :
 
  :
 
-![networks4](../images/networks4.PNG)
+![networks4](./images/networks4.PNG)
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
@@ -91,11 +91,11 @@ Widgets
 
  :
 
-![networks5](../images/networks5.PNG)
+![networks5](./images/networks5.PNG)
 
  :
 
-![networks6](../images/networks6.PNG)
+![networks6](./images/networks6.PNG)
 
 Changelog detailliert :
 <https://github.com/jeedom/plugin-networks/commits/stable>

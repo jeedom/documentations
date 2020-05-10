@@ -93,13 +93,13 @@ Der einfachste Weg, eine Interaktion zu konfigurieren, besteht darin, ihr ein st
 
 Im folgenden Beispiel sehen wir im Feld &quot;Anfrage&quot; den genauen Satz, der zum Auslösen der Interaktion bereitgestellt werden soll. Hier, um die Wohnzimmer Deckenleuchte einzuschalten.
 
-![interact004](../images/interact004.png)
+![interact004](./images/interact004.png)
 
 In dieser Erfassung sehen wir die Konfiguration für eine Interaktion, die mit einer bestimmten Aktion verknüpft ist. Diese Aktion wird im Teil &quot;Aktion&quot; der Seite definiert.
 
 Wir können uns sehr gut vorstellen, dasselbe mit mehreren Aktionen zu tun, um mehrere Lampen im Wohnzimmer anzuzünden, wie im folgenden Beispiel :
 
-![interact005](../images/interact005.png)
+![interact005](./images/interact005.png)
 
 In den beiden obigen Beispielen ist der Modellsatz identisch, aber die daraus resultierenden Aktionen ändern sich entsprechend der Konfiguration im Teil &quot;Aktion&quot;. Daher können wir uns bereits mit einer einfachen Interaktion mit einem Satz Aktionen vorstellen, die zwischen diesen kombiniert werden verschiedene Befehle und verschiedene Szenarien (wir können auch Szenarien im Aktionsteil von Interaktionen auslösen).
 
@@ -113,31 +113,31 @@ Hier sehen wir das ganze Interesse und die ganze Kraft von Interaktionen. Mit ei
 
 Wir werden das oben Gesagte fortsetzen, die Aktionen löschen, die wir hinzugefügt haben, und anstelle des festen Satzes in &quot;Anfrage&quot; die Tags verwenden **\.#commande\.#** und **\.#equipement\.#**. Jeedom wird diese Tags daher durch den Namen der Befehle und den Namen des Geräts ersetzen (wir können sehen, wie wichtig es ist, konsistente Befehls- / Gerätenamen zu haben)..
 
-![interact006](../images/interact006.png)
+![interact006](./images/interact006.png)
 
 Wir können hier also sehen, dass Jeedom aus unserem Modell 152 Sätze generiert hat. Sie sind jedoch nicht sehr gut gebaut und wir haben von allem etwas.
 
 Um Ordnung zu schaffen, verwenden wir die Filter (rechter Teil unserer Konfigurationsseite).. In diesem Beispiel möchten wir Sätze generieren, um das Licht einzuschalten. Wir können daher die Art des Infobefehls deaktivieren (wenn ich speichere, habe ich nur noch 95 Sätze übrig), dann können wir in den Untertypen nur &quot;Standard&quot; aktivieren, das der Aktionsschaltfläche entspricht ( es bleiben nur 16 Sätze übrig).
 
-![interact007](../images/interact007.png)
+![interact007](./images/interact007.png)
 
 Es ist besser, aber wir können es noch natürlicher machen. Wenn ich das generierte Beispiel "Bei Eingabe" nehme, wäre es schön, diesen Satz in "Eintrag einschalten" oder "Eintrag einschalten" umwandeln zu können". Zu diesem Zweck hat Jeedom unter dem Anforderungsfeld ein Synonymfeld, mit dem wir den Namen der Befehle in unseren &quot;generierten&quot; Sätzen unterschiedlich benennen können. Hier ist es &quot;on&quot;, ich habe sogar &quot;on2&quot; &quot;in Modulen, die 2 Ausgänge steuern können.
 
 In Synonymen geben wir daher den Namen des Befehls und die zu verwendenden Synonyme an :
 
-![interact008](../images/interact008.png)
+![interact008](./images/interact008.png)
 
 Wir können hier eine etwas neue Syntax für Synonyme sehen. Ein Befehlsname kann mehrere Synonyme haben, hier hat "Ein" das Synonym "Einschalten" und "Einschalten"". Die Syntax lautet daher "*Name der Bestellung*" ***=*** "*Synonym 1*"***,*** "*Synonym 2*" (Wir können so viele Synonyme setzen, wie wir wollen). Um dann Synonyme für einen anderen Befehlsnamen hinzuzufügen, fügen Sie einfach einen vertikalen Balken nach dem letzten Synonym hinzu "*|*" Danach können Sie den Befehl erneut benennen, der Synonyme für den ersten Teil usw. enthält..
 
 Es ist schon besser, aber es fehlt immer noch für den Befehl &quot;on&quot; &quot;input&quot; das &quot;l&quot; und für andere das &quot;la&quot; oder &quot;le&quot; oder &quot;a&quot; usw.. Wir könnten den Namen des Geräts ändern, um es hinzuzufügen, es wäre eine Lösung, andernfalls könnten wir die Variationen in der Anfrage verwenden. Dies besteht aus der Auflistung einer Reihe möglicher Wörter an einer Stelle im Satz. Jeedom generiert daher Sätze mit diesen Variationen.
 
-![interact009](../images/interact009.png)
+![interact009](./images/interact009.png)
 
 Wir haben jetzt etwas korrektere Sätze mit Sätzen, die nicht korrekt sind, für unser Beispiel "on" "". so finden wir &quot;Eintrag einschalten&quot;, &quot;Eintrag einschalten&quot;, &quot;Eintrag einschalten&quot;, &quot;Eintrag einschalten&quot; usw.. Wir haben also alle möglichen Varianten mit dem, was wir zwischen &quot;\ [\]&quot; und diesem für jedes Synonym hinzugefügt haben, was schnell viele Sätze erzeugt (hier 168)..
 
 Um zu verfeinern und keine unwahrscheinlichen Dinge wie &quot;Schalten Sie den Fernseher ein&quot; zu haben, können wir Jeedom erlauben, syntaktisch falsche Anfragen zu löschen. Es wird daher gelöscht, was zu weit von der tatsächlichen Syntax eines Satzes entfernt ist. In unserem Fall gehen wir von 168 Sätzen auf 130 Sätze.
 
-![interact010](../images/interact010.png)
+![interact010](./images/interact010.png)
 
 Es ist daher wichtig, dass Sie Ihre Modellsätze und Synonyme gut erstellen und die richtigen Filter auswählen, um nicht zu viele unnötige Sätze zu generieren.. Persönlich finde ich es interessant, einige Inkonsistenzen des Stils &quot;ein Eintrag&quot; zu haben, denn wenn Sie zu Hause eine ausländische Person haben, die nicht richtig Französisch spricht, funktionieren die Interaktionen immer noch.
 
@@ -147,17 +147,17 @@ Bis jetzt hatten wir als Antwort auf eine Interaktion einen einfachen Satz, der 
 
 Dazu verwenden wir wieder das Jeedom Tag. Für unsere Lichter können wir eine Phrase des Stils verwenden : Ich habe \ eingeschaltet#equipement\.# (siehe Screenshot unten).
 
-![interact011](../images/interact011.png)
+![interact011](./images/interact011.png)
 
 Sie können auch einen beliebigen Wert aus einem anderen Befehl hinzufügen, z. B. Temperatur, Anzahl der Personen usw..
 
-![interact012](../images/interact012.png)
+![interact012](./images/interact012.png)
 
 ### Binäre Konvertierung
 
 Binäre Konvertierungen gelten für Befehle vom Typ info, deren Subtyp binär ist (gibt nur 0 oder 1 zurück).. Sie müssen also die richtigen Filter aktivieren, wie wir auf dem Screenshot etwas unten sehen können (für die Kategorien können wir alle überprüfen, für das Beispiel habe ich nur Licht gehalten)..
 
-![interact013](../images/interact013.png)
+![interact013](./images/interact013.png)
 
 Wie wir hier sehen können, habe ich fast die gleiche Struktur für die Anfrage beibehalten (es ist freiwillig, sich auf die Einzelheiten zu konzentrieren).. Natürlich habe ich die Synonyme angepasst, um etwas Kohärentes zu haben. Für die Antwort ist es jedoch **Imperativ** nur \ setzen#valeur\.# Dies stellt die 0 oder 1 dar, die Jeedom durch die folgende binäre Konvertierung ersetzen wird.
 
@@ -189,7 +189,7 @@ Für das Feld &quot;Regexp-Ausschluss&quot; auf der Konfigurationsseite jeder In
 
 Der folgende Screenshot zeigt die Interaktion ohne Regexp. In der Liste links filtere ich die Sätze, um nur die Sätze anzuzeigen, die gelöscht werden. In Wirklichkeit werden mit der Konfiguration der Interaktion 76 Sätze generiert.
 
-![interact014](../images/interact014.png)
+![interact014](./images/interact014.png)
 
 Wie Sie auf dem folgenden Screenshot sehen können, habe ich einen einfachen regulären Ausdruck hinzugefügt, der in den generierten Sätzen nach dem Wort &quot;Julie&quot; sucht und diese löscht. Wir können jedoch in der Liste auf der linken Seite sehen, dass es immer Sätze mit dem Wort &quot;julie&quot; gibt, in regulären Ausdrücken ist Julie nicht gleich julie, dies wird als Groß- / Kleinschreibung oder gut bezeichnet Französisch ein Großbuchstabe unterscheidet sich von einem Kleinbuchstaben. Wie wir im folgenden Screenshot sehen können, sind nur noch 71 Sätze übrig, die 5 mit einer &quot;Julie&quot; wurden gelöscht.
 
@@ -208,11 +208,11 @@ Es ist eine extrem einfache Version von regulären Ausdrücken, aber bereits seh
 
 Sobald Sie dies schreiben können, verstehen Sie die regulären Ausdrücke.
 
-![interact015](../images/interact015.png)
+![interact015](./images/interact015.png)
 
 Um das Problem der Groß- und Kleinschreibung zu lösen, können wir unserem Ausdruck eine Option hinzufügen, die die Groß- und Kleinschreibung nicht berücksichtigt, oder mit anderen Worten, bei der ein Kleinbuchstabe einem Großbuchstaben entspricht. Dazu müssen wir am Ende unseres Ausdrucks einfach ein "i" hinzufügen".
 
-![interact016](../images/interact016.png)
+![interact016](./images/interact016.png)
 
 Mit der Option &quot;i&quot; sehen wir, dass nur noch 55 Sätze übrig sind, und in der Liste links mit dem Julie-Filter, um die Sätze zu finden, die dieses Wort enthalten, sehen wir, dass es einige gibt viel mehr.
 
@@ -228,7 +228,7 @@ Nützliche Links :
 
 Es ist auch möglich, mehrere Info-Befehle in eine Antwort einzufügen, um beispielsweise eine Situationszusammenfassung zu erhalten.
 
-![interact021](../images/interact021.png)
+![interact021](./images/interact021.png)
 
 In diesem Beispiel sehen wir einen einfachen Satz, der eine Antwort mit 3 verschiedenen Temperaturen zurückgibt. Hier können wir also ein wenig setzen, was wir wollen, um eine Reihe von Informationen auf einmal zu haben.
 
@@ -240,7 +240,7 @@ In diesem Beispiel sehen wir einen einfachen Satz, der eine Antwort mit 3 versch
 - Die Antwort lautet "Nein, es ist niemand im Raum" oder "Ja, es ist jemand im Raum""
 - Der Befehl, der darauf reagiert, lautet "\#\.[Chambre de julie\.]\.[FGMS-001-2\.]\.[Présence\.]\.#"
 
-![interact017](../images/interact017.png)
+![interact017](./images/interact017.png)
 
 Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die eine personalisierte Antwort ermöglichen. Wir könnten uns also vorstellen, die Antwort des Beispiels durch "Nein, es ist niemand im Raum" zu ersetzen *julie*|Ja, da ist jemand im Raum *julie*"
 
@@ -251,7 +251,7 @@ Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die eine personalisiert
 - Es gibt keinen Befehl, der darauf im Aktionsteil reagiert, da es sich um eine Interaktion mit mehreren Befehlen handelt
 - Durch Hinzufügen eines regulären Ausdrucks können wir die Befehle bereinigen, die wir nicht sehen möchten, sodass wir nur die Sätze in den Befehlen "Präsenz" haben.".
 
-![interact018](../images/interact018.png)
+![interact018](./images/interact018.png)
 
 Ohne den Regexp erhalten wir hier 11 Sätze, aber meine Interaktion zielt darauf ab, Sätze zu generieren, nur um zu fragen, ob sich jemand in einem Raum befindet, sodass ich keinen Lampenstatus oder ähnliches benötige Steckdosen, die mit Regexp-Filterung aufgelöst werden können. Um es noch flexibler zu machen, können Sie Synonyme hinzufügen. In diesem Fall sollten Sie jedoch nicht vergessen, den regulären Ausdruck zu ändern.
 
@@ -263,7 +263,7 @@ Wir könnten den Satz hart schreiben, wie zum Beispiel &quot;Was ist die Tempera
 
 Hier ein allgemeines Beispiel, anhand dessen die Temperatur, Luftfeuchtigkeit und Helligkeit der verschiedenen Räume ermittelt werden (Objekt im Sinne von Jeedom).
 
-![interact019](../images/interact019.png)
+![interact019](./images/interact019.png)
 
 - So können wir sehen, dass ein allgemeiner Satz wie &quot;Was ist die Temperatur im Wohnzimmer&quot; oder &quot;Was ist die Helligkeit des Schlafzimmers&quot; in umgewandelt werden kann : "was ist \ [the |l \\ '\] \#commande\.# Objekt "(die Verwendung von \ [word1 | Mit word2 \] können Sie diese oder jene Möglichkeit sagen, um alle möglichen Varianten des Satzes mit word1 oder word2 zu generieren.. Beim Generieren generiert Jeedom alle möglichen Kombinationen von Sätzen mit allen vorhandenen Befehlen (abhängig von den Filtern), indem \ ersetzt wird#commande\.# mit dem Namen des Befehls und \#objet\.# durch den Namen des Objekts.
 - Die Antwort lautet "21 ° C" oder "200 Lux"". Einfach gesagt : \.#valeur\.# \.#unite\.# (Die Einheit muss in der Konfiguration jeder Bestellung ausgefüllt werden, für die wir eine haben möchten.)
@@ -277,7 +277,7 @@ Wenn wir ein Synonym hinzufügen, sagen wir zu Jeedom, dass ein Befehl mit dem N
 
 Wir können auch einen Regexp-Filter hinzufügen, um einige Befehle zu entfernen. Anhand des einfachen Beispiels sehen wir Sätze &quot;Batterie&quot; oder sogar &quot;Latenz&quot;, die nichts mit unserer Interaktionstemperatur / Luftfeuchtigkeit / Helligkeit zu tun haben.
 
-![interact020](../images/interact020.png)
+![interact020](./images/interact020.png)
 
 Wir können also einen regulären Ausdruck sehen :
 
@@ -295,7 +295,7 @@ Auf diese Weise können Sie alle Befehle löschen, deren Satz eines dieser Wört
 
 Es ist möglich, eine Lampe als Prozentsatz (Dimmer) oder einen Thermostat mit den Wechselwirkungen zu steuern. Hier ist ein Beispiel, um den Dimmer einer Lampe mit Wechselwirkungen zu steuern :
 
-![interact022](../images/interact022.png)
+![interact022](./images/interact022.png)
 
 Wie wir sehen können, gibt es hier in der Anfrage das Tag **\.#consigne\.#** (Sie können setzen, was Sie wollen), die in der Antriebssteuerung verwendet wird, um den gewünschten Wert anzuwenden. Dazu haben wir 3 Teile : \.* Anwendung : in dem wir ein Tag erstellen, das den Wert darstellt, der an die Interaktion gesendet wird. \.* Antwort : Wir verwenden das Tag für die Antwort erneut, um sicherzustellen, dass Jeedom die Anfrage richtig verstanden hat. \.* Aktion : Wir setzen eine Aktion auf die Lampe, die wir fahren möchten, und geben in dem Wert, den wir geben, unser Etikett an *consigne*.
 
@@ -307,13 +307,13 @@ Wie wir sehen können, gibt es hier in der Anfrage das Tag **\.#consigne\.#** (S
 
 Möglicherweise möchten wir alle Cursortypbefehle mit einer einzigen Interaktion steuern. Mit dem folgenden Beispiel können wir daher mehrere Laufwerke mit einer einzigen Interaktion steuern und daher eine Reihe von Sätzen generieren, um sie zu steuern..
 
-![interact033](../images/interact033.png)
+![interact033](./images/interact033.png)
 
 In dieser Interaktion haben wir keinen Befehl im Aktionsteil, wir lassen Jeedom aus Tags die Liste der Sätze generieren. Wir können das Tag sehen **\.#slider\.#**. Es ist unbedingt erforderlich, dieses Tag für Anweisungen in einem Mehrfachinteraktionsbefehl zu verwenden. Es ist möglicherweise nicht das letzte Wort des Satzes. In dem Beispiel sehen wir auch, dass wir in der Antwort ein Tag verwenden können, das nicht Teil der Anforderung ist. Die meisten in den Szenarien verfügbaren Tags sind auch in den Interaktionen verfügbar und können daher in einer Antwort verwendet werden.
 
 Ergebnis der Interaktion :
 
-![interact034](../images/interact034.png)
+![interact034](./images/interact034.png)
 
 Wir können sehen, dass das Tag **\.#equipement\.#** Was in der Anfrage nicht verwendet wird, ist in der Antwort gut abgeschlossen.
 
@@ -321,15 +321,15 @@ Wir können sehen, dass das Tag **\.#equipement\.#** Was in der Anfrage nicht ve
 
 Es ist möglich, einen Farbbefehl durch die Interaktionen zu steuern, indem Jeedom beispielsweise aufgefordert wird, einen blauen LED-Streifen zu beleuchten. Dies ist die Interaktion zu tun :
 
-![interact023](../images/interact023.png)
+![interact023](./images/interact023.png)
 
 Bisher nichts Kompliziertes, Sie müssen jedoch die Farben in Jeedom konfiguriert haben, damit es funktioniert. Gehen Sie zum Menü → Konfiguration (oben rechts) und dann im Abschnitt "Konfiguration von Interaktionen"" :
 
-![interact024](../images/interact024.png)
+![interact024](./images/interact024.png)
 
 Wie wir auf dem Screenshot sehen können, ist keine Farbe konfiguriert, daher müssen Sie Farben mit dem &quot;+&quot; rechts hinzufügen. Der Name der Farbe ist der Name, den Sie an die Interaktion übergeben. Im rechten Teil (Spalte &quot;HTML-Code&quot;) können Sie durch Klicken auf die schwarze Farbe eine neue Farbe auswählen.
 
-![interact025](../images/interact025.png)
+![interact025](./images/interact025.png)
 
 Wir können so viele hinzufügen, wie wir wollen, wir können jeden Namen wie jeden setzen, so dass wir uns vorstellen können, dem Namen jedes Familienmitglieds eine Farbe zuzuweisen.
 
@@ -340,7 +340,7 @@ Nach der Konfiguration sagen Sie &quot;Beleuchten Sie den Baum in Grün&quot;. J
 
 Es ist möglich, eine Interaktion mit einem Szenario zu koppeln, um etwas komplexere Aktionen auszuführen als die Ausführung einer einfachen Aktion oder eine Informationsanforderung..
 
-![interact026](../images/interact026.png)
+![interact026](./images/interact026.png)
 
 Dieses Beispiel ermöglicht es daher, das Szenario zu starten, das im Aktionsteil verknüpft ist. Wir können natürlich mehrere haben.
 
@@ -348,7 +348,7 @@ Dieses Beispiel ermöglicht es daher, das Szenario zu starten, das im Aktionstei
 
 Interaktionen machen insbesondere viele Dinge. Sie können eine Aktion dynamisch programmieren. Beispiel : "Schaltet die Heizung um 22 Uhr für 14.50 Uhr ein.". Nichts könnte einfacher sein, verwenden Sie einfach die Tags \#time\.# (wenn eine bestimmte Zeit definiert ist) oder \#duration\.# (für in X-Zeit, Beispiel in 1 Stunde) :
 
-![interact23](../images/interact23.JPG)
+![interact23](./images/interact23.JPG)
 
 > **Note**
 >

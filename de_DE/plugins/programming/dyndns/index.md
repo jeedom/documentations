@@ -7,7 +7,7 @@ Plugin-Konfiguration
 Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
 gibt es auf dieser Ebene keine Konfiguration.
 
-![dyndns](../images/dyndns.PNG)
+![dyndns](./images/dyndns.PNG)
 
 Gerätekonfiguration
 =============================
@@ -15,12 +15,12 @@ Gerätekonfiguration
 La configuration des équipements Dyndns est accessible à partir du menu
 plugin :
 
-![dyndns2](../images/dyndns2.PNG)
+![dyndns2](./images/dyndns2.PNG)
 
 Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
 équipement) :
 
-![dyndns3](../images/dyndns3.PNG)
+![dyndns3](./images/dyndns3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![dyndns4](../images/dyndns4.PNG)
+![dyndns4](./images/dyndns4.PNG)
 
 Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 

@@ -7,7 +7,7 @@ configuración del plugin
 Après téléchargement du plugin, il vous faut l’activer. Vous avez
 ensuite accès à la configuration de base du plugin :
 
-![energy1](../images/energy1.PNG)
+![energy1](./images/energy1.PNG)
 
 Vous retrouvez ici la configuration de base :
 
@@ -39,7 +39,7 @@ Vous retrouvez ici la configuration de base :
 
 Si vous êtes en heures pleines/heures creuses :
 
-![energy2](../images/energy2.PNG)
+![energy2](./images/energy2.PNG)
 
 Vous pouvez ici entrer le tarif en heures pleines et heures creuses
 ainsi que les heures de bascule (3 zones maximum).
@@ -58,12 +58,12 @@ Configuración del dispositivo
 La configuration des équipements "énergie" est accessible à partir du
 menu plugin :
 
-![energy3](../images/energy3.PNG)
+![energy3](./images/energy3.PNG)
 
 Voilà à quoi ressemble la page du plugin énergie (ici avec déjà 5
 équipements) :
 
-![energy4](../images/energy4.PNG)
+![energy4](./images/energy4.PNG)
 
 > **Sugerencia**
 >
@@ -73,7 +73,7 @@ Voilà à quoi ressemble la page du plugin énergie (ici avec déjà 5
 
 Une fois que vous cliquez sur l’un des équipements, vous obtenez :
 
-![energy5](../images/energy5.PNG)
+![energy5](./images/energy5.PNG)
 
 Aquí encontrará toda la configuración de su dispositivo:
 
@@ -133,7 +133,7 @@ droite permet d’en ajouter :
 Compteur d’eau ou de gaz 
 ========================
 
-![energy6](../images/energy6.PNG)
+![energy6](./images/energy6.PNG)
 
 Deux possibilités :
 
@@ -156,11 +156,11 @@ Panel
 Une fois vos différents équipements énergie configurés, vous avez un
 panel accessible à partir du menu accueil :
 
-![energy7](../images/energy7.PNG)
+![energy7](./images/energy7.PNG)
 
 Voilà le résultat :
 
-![energy8](../images/energy8.PNG)
+![energy8](./images/energy8.PNG)
 
 Ici vous pouvez choisir, la période d’affichage du panel, le groupement
 des données (jour ou mois) et le type d’énergie que vous voulez afficher
@@ -168,11 +168,11 @@ des données (jour ou mois) et le type d’énergie que vous voulez afficher
 
 Le panel est aussi accessible en mobile par Plugins → Energie :
 
-![energy9](../images/energy9.PNG)
+![energy9](./images/energy9.PNG)
 
 Une fois dessus vous obtenez :
 
-![energy10](../images/energy10.PNG)
+![energy10](./images/energy10.PNG)
 
 Preguntas frecuentes
 ===

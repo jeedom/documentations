@@ -7,10 +7,10 @@ Description
 Ce plugin permet de controller et d’avoir toutes les infos de sa
 tirelire Porkfolio.
 
-![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
-![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
-![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
-![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
+![porkfolio screenshot1](./images/porkfolio_screenshot1.jpg)
+![porkfolio screenshot10](./images/porkfolio_screenshot10.jpg)
+![porkfolio screenshot9](./images/porkfolio_screenshot9.jpg)
+![porkfolio screenshot8](./images/porkfolio_screenshot8.jpg)
 
 Configuration 
 -------------
@@ -25,7 +25,7 @@ l’activer comme tout plugin Jeedom.
 Suite à cela il vous faudra renseigner vos identifiants (compte wink +
 api):
 
-![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
+![porkfolio screenshot7](./images/porkfolio_screenshot7.jpg)
 
 Rendez vous dans le menu Plugins/Finances, vous y trouverez le plugin
 porkfolio :
@@ -33,13 +33,13 @@ porkfolio :
 Vous arriverez sur la page qui listera vos équipements (vous pouvez
 avoir plusieurs Porkfolio) et qui vous permettra d’en créer
 
-![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
+![porkfolio screenshot6](./images/porkfolio_screenshot6.jpg)
 
 Cliquez sur le bouton Ajouter :
 
 Vous arriverez ensuite sur la page de configuration de votre porkfolio:
 
-![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
+![porkfolio screenshot5](./images/porkfolio_screenshot5.jpg)
 
 Sur cette page vous trouverez plusieurs sections :
 
@@ -88,7 +88,7 @@ Les informations
 
 ### Informations sur le dashboard : 
 
-![dashboardinfo](../images/dashboardinfo.jpg)
+![dashboardinfo](./images/dashboardinfo.jpg)
 
 -   A : Tête du cochon qui peut changer d’humeur. En laissant la souris
     sur sa tête il vous dira quand il a bougé pour la dernière fois
@@ -116,21 +116,21 @@ Les actions
 
 Plusieurs actions sont accessibles sur le dashboard :
 
-![dashboardactions](../images/dashboardactions.jpg)
+![dashboardactions](./images/dashboardactions.jpg)
 
 -   A : En cliquant sur le billet vous pourrez déposer ou retirer une
     somme d’argent
 
-![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
+![porkfolio screenshot2](./images/porkfolio_screenshot2.jpg)
 
 -   B : En cliquant sur le drapeau vous pourrez modifier votre objectif
 
-![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
+![porkfolio screenshot3](./images/porkfolio_screenshot3.jpg)
 
 -   C : En cliquant sur le pinceau vous pourrez modifier la couleur du
     nez de votre porkfolio
 
-![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
+![porkfolio screenshot4](./images/porkfolio_screenshot4.jpg)
 
 …​
 

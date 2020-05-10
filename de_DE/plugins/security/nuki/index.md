@@ -10,7 +10,7 @@ puis de configurer les informations du bridge.
 Ces informations sont disponibles sur l’application mobile lors de la
 configuration du bridge.
 
-![nuki1](../images/nuki1.png)
+![nuki1](./images/nuki1.png)
 
 Il est ensuite nécessaire de cliquer sur le bouton "Configurer le
 bridge" afin d’indiquer au bridge l’adresse de Jeedom pour le retour
@@ -22,7 +22,7 @@ Gerätekonfiguration
 La synchronisation des serrures est accessible à partir du menu Plugins
 :
 
-![nuki2](../images/nuki2.png)
+![nuki2](./images/nuki2.png)
 
 > **Note**
 >

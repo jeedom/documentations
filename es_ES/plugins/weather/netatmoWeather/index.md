@@ -7,7 +7,7 @@ configuración del plugin
 Une fois le plugin installé, il vous faut renseigner vos informations de
 connexion Netatmo :
 
-![netatmoWeather2](../images/netatmoWeather2.png)
+![netatmoWeather2](./images/netatmoWeather2.png)
 
 -   **Client ID** : votre client ID (voir partie configuration)
 
@@ -29,31 +29,31 @@ client\_secret généré sur le site <http://dev.netatmo.com>.
 
 Une fois dessus cliquez sur start :
 
-![netatmoWeather10](../images/netatmoWeather10.png)
+![netatmoWeather10](./images/netatmoWeather10.png)
 
 Puis sur "create an app"
 
-![netatmoWeather11](../images/netatmoWeather11.png)
+![netatmoWeather11](./images/netatmoWeather11.png)
 
 Identifiez vous, avec votre mail et mot de passe
 
-![netatmoWeather12](../images/netatmoWeather12.png)
+![netatmoWeather12](./images/netatmoWeather12.png)
 
 Remplissez les champs "Name" et "Description" (peux importe ce que vous
 mettez ca n’a aucune importance) :
 
-![netatmoWeather13](../images/netatmoWeather13.png)
+![netatmoWeather13](./images/netatmoWeather13.png)
 
 Puis tout en bas de la page cochez la case "I accept the terms of use"
 puis cliquez sur "Create"
 
-![netatmoWeather14](../images/netatmoWeather14.png)
+![netatmoWeather14](./images/netatmoWeather14.png)
 
 Recuperer les informations "CLient id" et "Client secret" et copier les
 dans la partie configuration du plugin dans Jeedom (voir chapitre
 précedent)
 
-![netatmoWeather15](../images/netatmoWeather15.png)
+![netatmoWeather15](./images/netatmoWeather15.png)
 
 > **Important**
 >
@@ -66,12 +66,12 @@ Configuración del dispositivo
 La configuration des équipements Netatmo est accessible à partir du menu
 plugin :
 
-![netatmoWeather3](../images/netatmoWeather3.png)
+![netatmoWeather3](./images/netatmoWeather3.png)
 
 Voilà à quoi ressemble la page du plugin Netatmo (ici avec déjà 2
 équipement) :
 
-![netatmoWeather4](../images/netatmoWeather4.png)
+![netatmoWeather4](./images/netatmoWeather4.png)
 
 > **Tip**
 >
@@ -81,7 +81,7 @@ Voilà à quoi ressemble la page du plugin Netatmo (ici avec déjà 2
 
 Une fois que vous cliquez sur un équipement vous obtenez :
 
-![netatmoWeather5](../images/netatmoWeather5.png)
+![netatmoWeather5](./images/netatmoWeather5.png)
 
 Aquí encontrará toda la configuración de su dispositivo:
 
@@ -116,11 +116,11 @@ Widget
 
 Voici le widget standard pour une station sur le dashboard :
 
-![netatmoWeather6](../images/netatmoWeather6.png)
+![netatmoWeather6](./images/netatmoWeather6.png)
 
 Et en mobile :
 
-![netatmoWeather7](../images/netatmoWeather7.png)
+![netatmoWeather7](./images/netatmoWeather7.png)
 
 Preguntas frecuentes
 ===

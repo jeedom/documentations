@@ -23,7 +23,7 @@ Plugin-Konfiguration
 Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
 gibt es auf dieser Ebene keine Konfiguration.
 
-![phonemarket1](../images/phonemarket1.PNG)
+![phonemarket1](./images/phonemarket1.PNG)
 
 Gerätekonfiguration
 =============================
@@ -31,12 +31,12 @@ Gerätekonfiguration
 La configuration des équipements Phonemarket est accessible à partir du
 menu plugin :
 
-![phonemarket2](../images/phonemarket2.PNG)
+![phonemarket2](./images/phonemarket2.PNG)
 
 Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
 équipement) :
 
-![phonemarket3](../images/phonemarket3.PNG)
+![phonemarket3](./images/phonemarket3.PNG)
 
 > **Tip**
 >
@@ -46,7 +46,7 @@ Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![phonemarket4](../images/phonemarket4.PNG)
+![phonemarket4](./images/phonemarket4.PNG)
 
 Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 

@@ -102,7 +102,7 @@ Szenarien oder durch Kombination mit anderen Plugins (Agenda,
 Präsenz, ...), es fügt sich nahtlos in Ihre Installation ein
 Hausautomation. Das bekommen wir auf dem Dashboard :
 
-![Aspect sur le dashboard](../images/Thermostat.png)
+![Aspect sur le dashboard](./images/Thermostat.png)
 
 Mit der Sperre im Widget können Sie den Thermostat in einem sperren
 Anweisung nach einem unvorhergesehenen Ereignis : verlassen, Gäste, ....
@@ -116,7 +116,7 @@ Konfiguration durch Herunterziehen des Plugins / Well-Being-Menüs und Auswahl
 Thermostat. Klicken Sie oben links auf die Schaltfläche * Hinzufügen * und
 Geben Sie den gewünschten Namen für Ihren Thermostat ein.
 
-![Konfiguration générale](../images/Thermostat_config_générale.png)
+![Konfiguration générale](./images/Thermostat_config_générale.png)
 
 Zunächst werden wir die allgemeinen Parameter der
 Thermostat. Sie befinden sich oben links im allgemeinen Abschnitt und sind erforderlich
@@ -126,7 +126,7 @@ Thermostat, übliche Informationen für jeden Jeedom-Benutzer.
 Die Wahl des Thermostat-Algorithmus
 --------------------------------------
 
-![Choix de l'algorithme](../images/Thermostat31.png)
+![Choix de l'algorithme](./images/Thermostat31.png)
 
 In diesem Berd ist der Thermostatbetriebsmotor hervorgehoben..
 Es gibt 2 mögliche Algorithmen zur Temperaturregelung.
@@ -136,7 +136,7 @@ Die Erwärmung erfolgt, sobald die Temperatur unter dem Sollwert liegt
 abzüglich der Hysterese und schaltet sich aus, sobald die Temperatur die überschreitet
 Sollwert plus Hysterese.
 
-![Principe du Modus hystérésis](../images/PrincipeHysteresis.png)
+![Principe du Modus hystérésis](./images/PrincipeHysteresis.png)
 
 Zum Beispiel, wenn Sie die Hysterese auf 1 ° C und den Sollwert einstellen
 beträgt 19 ° C, dann wird die Heizung aktiviert, wenn die Temperatur sinkt
@@ -158,7 +158,7 @@ vom Sensor gemessene Temperatur. Der Algorithmus berechnet ebenfalls
 die Heiz- (oder Kühl-) Zeit in einem Zyklus abhängig von
 Trägheit und Raumdämmung.
 
-![Principe du Modus zeitlich](../images/PrincipeTemporel.png)
+![Principe du Modus zeitlich](./images/PrincipeTemporel.png)
 
 Schließlich ist die Regelung umso langsamer, je länger die Zykluszeit ist.
 Umgekehrt führt eine zu kurze Zeit zu häufigem Umschalten
@@ -179,7 +179,7 @@ Dann geben Sie den Einsatzbereich an : Mindesttemperaturen und
 Maximum definiert die möglichen Sollwerte, auf die zugegriffen werden kann
 das Widget.
 
-![Konfiguration du fonctionnement](../images/configFonctionnement.png)
+![Konfiguration du fonctionnement](./images/configFonctionnement.png)
 
 Geben Sie als Nächstes die Befehle an, mit denen das gemessen wird
 Temperatur und Steuerung der Heizung oder Klimaanlage. Beachten Sie, dass die
@@ -187,7 +187,7 @@ Zeitmotor muss die Außentemperatur kennen. Wenn du
 Haben Sie keinen externen Sensor, dies kann von bereitgestellt werden
 das Wetter Plugin.
 
-![Sélection des sondes](../images/selectionsondes.png)
+![Sélection des sondes](./images/selectionsondes.png)
 
 > **Spitze**
 >
@@ -203,7 +203,7 @@ Aktionen, die unserem Thermostat die Möglichkeit geben, zu steuern
 unterschiedliche Ausrüstung (z. B. Betriebsfall nach Zone oder
 Steuerung eines anderen Thermostats)
 
-![Actions sur les appareers](../images/actionssurappareer.png)
+![Actions sur les appareers](./images/actionssurappareer.png)
 
 Aktionen sind solche, die heizen, kühlen
 (Klimaanlage), stoppen Sie den Befehl. Eine ergänzende Aktion kann
@@ -229,7 +229,7 @@ Es ist im Dashboard nicht sichtbar, da es sich um ein Szenario handelt, das
 Programmieren Sie alle Geräte im * Urlaub * und positionieren Sie so die
 Thermostat in diesem Modus.
 
-![Définition des Moduss](../images/DefinitionModuss.png)
+![Définition des Moduss](./images/DefinitionModuss.png)
 
 Gehen Sie wie folgt vor, um einen Modus zu definieren :
 
@@ -264,7 +264,7 @@ zusätzlich sind hier einstellbar, dies sind die Öffnungszeiten und
 Schließen des Fensters, das die Unterbrechung und die Wiederaufnahme verursacht
 wie der Thermostat funktioniert.
 
-![Konfiguration des odervertures](../images/configodervertures.png)
+![Konfiguration des odervertures](./images/configodervertures.png)
 
 So konfigurieren Sie den Vorgang beim Öffnen des Fensters :
 
@@ -313,7 +313,7 @@ Benachrichtigung ermöglicht es, gewarnt zu werden und manuell einzugreifen.
 > Die Sonde befindet sich auf der Registerkarte * Erweitert*. Das ist der
 > `délai max entre 2 relevés de température`.
 
-![Défaerlance des sondes](../images/defaerlancesonde.png)
+![Défaerlance des sondes](./images/defaerlancesonde.png)
 
 So definieren Sie eine Fehleraktion :
 
@@ -347,7 +347,7 @@ In diesem Berd sendet die Fehleraktion den Befehl zum Wechseln
 ECO-Modus des Kühlers durch das Perotkabel, sendet dann eine Nachricht von der
 Pushbullet Plugin.
 
-![Défaerlance Heizung](../images/defaerlanceHeizung.png)
+![Défaerlance Heizung](./images/defaerlanceHeizung.png)
 
 So definieren Sie eine Fehleraktion :
 
@@ -532,19 +532,19 @@ Wochenenden von 8 bis 22 Uhr. Den Rest der Zeit schaltet die Heizung auf
 
 Also erstellen wir das Szenario ***Komfortheizung***, im programmierten Modus :
 
-![Scénario programmé](../images/Thermostat11.png)
+![Scénario programmé](./images/Thermostat11.png)
 
 und der Code :
 
-![Scenario Modus confort](../images/scenarioconfort.png)
+![Scenario Modus confort](./images/scenarioconfort.png)
 
 Nach dem gleichen Prinzip das Szenario "Öko-Heizung"" :
 
-![Scénario programmé en Modus Eco](../images/Thermostat13.png)
+![Scénario programmé en Modus Eco](./images/Thermostat13.png)
 
 und sein Code :
 
-![Scénario en Modus Eco](../images/scenarioeco.png)
+![Scénario en Modus Eco](./images/scenarioeco.png)
 
 Beachten Sie, dass in den Szenarien die Thermostatsteuerung abgeschlossen ist
 da können wir auf die betriebsart (heizung oder
@@ -581,16 +581,16 @@ Feiertage. Alle diese Ereignisse haben die Startaktion
 Modusauswahl **Komfort** des Thermostats und als Endaktion die
 Modus **Eco** :
 
-![Actions de l'agenda](../images/agendaactions.png)
+![Actions de l'agenda](./images/agendaactions.png)
 
 Für die Programmierung der Abendveranstaltung :
 
-![Programmierung de l'évènement](../images/agendaprogrammation.png)
+![Programmierung de l'évènement](./images/agendaprogrammation.png)
 
 Wiederholen Sie dies einfach für jede Veranstaltung, um diese Agenda zu erhalten
 bunt monatlich :
 
-![affichage mensuel de l'agenda](../images/agendamensuel.png)
+![affichage mensuel de l'agenda](./images/agendamensuel.png)
 
 Zurück zur Thermostatkonfiguration können Sie auf die zugreifen
 Kalenderereignisse direkt über die Registerkarte Programmierung :

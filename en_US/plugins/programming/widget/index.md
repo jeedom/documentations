@@ -36,18 +36,18 @@ Installing the WIdget plugin
 As with any plugin, the WIdget plugin is installed from the interface
 Jeedom, "General" menu ⇒ "Plugins"
 
-![capture001](../images/capture001.png)
+![capture001](./images/capture001.png)
 
 Click on the green icon to go directly to the Market. In this
 window click on "Official" and in the search field put
 "WIdget".
 
-![capture002](../images/capture002.png)
+![capture002](./images/capture002.png)
 
 Click on the plugin icon. This opens the plugin sheet in
 which contains several pieces of information.
 
-![capture003](../images/capture003.png)
+![capture003](./images/capture003.png)
 
 Click on the "Install stable" button". Once installed, Jeedom will
 ask if you want to go to the plugin configuration page.
@@ -65,14 +65,14 @@ Presentation and Lowic function of the WIdget Plugin
 In order to go to the WIdget plugin, go to the menu
 "Plugins "⇒" Programming "⇒" WIdget".
 
-![capture005](../images/capture005.png)
+![capture005](./images/capture005.png)
 
 So we are on the main plugin page. The latter has
 by default a range of WIdgets upon installation It is possible
 download others via the market or create your own WIdgets
 (see below).
 
-![capture006](../images/capture006.png)
+![capture006](./images/capture006.png)
 
 By clicking on one of the WIdgets in the list on the right menu or
 left you will open the WIdget configuration page, in
@@ -80,7 +80,7 @@ which you can modify, see a preview of the WIdget (if Jeedom
 find a compatible command) and lots of configuration info
 like WIdget source code
 
-![capture007](../images/capture007.png)
+![capture007](./images/capture007.png)
 
 > **Warning**
 >
@@ -102,18 +102,18 @@ Here are some examples :
 For Z-Wave modules, "Plugins" ⇒ "Home automation protocol" ⇒ "Z-wave", then
 choose the order module you wish to modify.
 
-![capture024](../images/capture024.png)
+![capture024](./images/capture024.png)
 
 On the module configuration page, go to the order and
 click on the notched wheels. In the new window, go to
 "Advanced View" tab"
 
-![capture025](../images/capture025.png)
+![capture025](./images/capture025.png)
 
 Here you can change the WIdget applied for computers and
 mobiles with dedicated drop-down lists.
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 > **NOTE**
 >
@@ -128,18 +128,18 @@ window which lists all the commands compatible with the type of
 WIdget. So you can simply apply or remove the WIdget from
 many orders at one time.
 
-![capture008](../images/capture008.png)
+![capture008](./images/capture008.png)
 
 Just check the orders on which you wish
 apply WIdget
 
 ### Various examples for the same order 
 
-![WIdget : badge-transparent](../images/capture009.png)
+![WIdget : badge-transparent](./images/capture009.png)
 
-![WIdget : badge](../images/capture010.png)
+![WIdget : badge](./images/capture010.png)
 
-![WIdget : ConsoIMG](../images/capture011.png)
+![WIdget : ConsoIMG](./images/capture011.png)
 
 WIdget customization options 
 ---------------------------------------
@@ -152,17 +152,17 @@ will display differently from one command to another.
 There are 2 ways to access these options. Either by the home automation tree
 which can be found in the "General" menu ⇒ "Home Automation Summary"
 
-![capture012](../images/capture012.png)
+![capture012](./images/capture012.png)
 
 On this page you find all your home automation elements, objects,
 modules, commands. Click on the small notched wheel to
 access the configuration page.
 
-![capture013](../images/capture013.png)
+![capture013](./images/capture013.png)
 
 Either from the module configuration page.
 
-![capture015](../images/capture015.png)
+![capture015](./images/capture015.png)
 
 ### Add a custom option 
 
@@ -175,7 +175,7 @@ before / after the WIdget if there are several commands in a module
 optional WIdget applied (the list available is on the forum
 or Wiki, a doc system is under study)
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 ![exemple 1 de valeur pour afficher un compteur
 specific] (../ images / capture016.png)
@@ -218,14 +218,14 @@ in the plugin : "Plugins" menu ⇒ "Programming" ⇒ "WIdget". From
 this page, click on the "Easy creation mode" button at the top
 Left.
 
-![capture026](../images/capture026.png)
+![capture026](./images/capture026.png)
 
 On the new page, you can in the right part, view
 Jeedom Lowic icons, images you imported, and
 imported packs. On the left sIde, first a button for
 import packs or images, then 3 buttons for WIdget creation.
 
-![capture027](../images/capture027.png)
+![capture027](./images/capture027.png)
 
 -   On / Off WIdget ⇒ Intended for button commands for on / off
 
@@ -245,7 +245,7 @@ assisted configuration. You have to give a name to the WIdget (unique name), the
 interface type, if the WIdget is for the PC (Dashboard) or mobile,
 then the library to use (Jeedom, Personal image or packs).
 
-![capture028](../images/capture028.png)
+![capture028](./images/capture028.png)
 
 Then you have to choose the icon for State 0 and 1, as well as the
 icon size (value in "EM" =% of the original size of the
@@ -283,7 +283,7 @@ WIdget plugin, choose the WIdget to modify or click on the
 From the main plugin page, click on "Add a WIdget".
 Jeedom asks you some info on the future WIdget.
 
-![capture029](../images/capture029.png)
+![capture029](./images/capture029.png)
 
 -   Name must be a unique name. Check that this name does not exist
     not already.
@@ -332,7 +332,7 @@ main page of WIdget configuration / modification. From
 there, the WIdget is created in Jeedom but does not currently contain
 code for displaying the command.
 
-![capture030](../images/capture030.png)
+![capture030](./images/capture030.png)
 
 #### Editing a WIdget 
 
@@ -693,7 +693,7 @@ so here is the list and their detail :
 
         To be used in the "class" attribute of the main div
 
-![Exemple de retour de valeur](../images/capture031.png)
+![Exemple de retour de valeur](./images/capture031.png)
 
 ### Jeedom CSS Classes 
 

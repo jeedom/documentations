@@ -40,23 +40,23 @@ Then in Jeedom in Communication / Google Smarthome you must click on save to sen
 
 Then on the Google home application you have to go to the first tab click on Add (the +) :
 
-![gsh](../images/gsh29.png)
+![gsh](./images/gsh29.png)
 
 Then configure a device :
 
-![gsh](../images/gsh30.png)
+![gsh](./images/gsh30.png)
 
 On "Works with Google" :
 
-![gsh](../images/gsh31.png)
+![gsh](./images/gsh31.png)
 
 Then in the list with the search button (magnifying glass at the top right), search for "Jeedom Smarthome" and click on it :
 
-![gsh](../images/gsh32.png)
+![gsh](./images/gsh32.png)
 
 Fill it in your market identifiers (well those market not those of your Jeedom).
 
-![gsh](../images/gsh6.png)
+![gsh](./images/gsh6.png)
 
 In plugin -> communication -> Google Smarthome you can configure your different equipment (see chapter Configuration of the plugin)
 
@@ -103,56 +103,56 @@ There are therefore 2 applications listed on Google : one for the Google Smartho
 
 Come on [here](https://console.actions.google.com) then click on "Add / import project"
 
-![gsh](../images/gsh7.png)
+![gsh](./images/gsh7.png)
 
 Give a name to the project change the default language and region and validate :
 
-![gsh](../images/gsh8.png)
+![gsh](./images/gsh8.png)
 
 Select "Home control" :
 
-![gsh](../images/gsh9.png)
+![gsh](./images/gsh9.png)
 
 Click on "Smarthome" :
 
-![gsh](../images/gsh10.png)
+![gsh](./images/gsh10.png)
 
 Click on "Name your Smart Home action" :
 
-![gsh](../images/gsh11.png)
+![gsh](./images/gsh11.png)
 
 Put "smarthome test" and validate (Save button at the top right) :
 
-![gsh](../images/gsh12.png)
+![gsh](./images/gsh12.png)
 
 Then on the left click on "Actions" :
 
-![gsh](../images/gsh13.png)
+![gsh](./images/gsh13.png)
 
 Then "Add your first action" :
 
-![gsh](../images/gsh14.png)
+![gsh](./images/gsh14.png)
 
 We will have to give here the url to arrive from Jeedom. To get it it's very simple, in Jeedom you have to go to the plugin management page, choose the "Standalone" mode (and save in passing), the url is the one called "Fulfillment URL"
 
-![gsh](../images/gsh15.png)
+![gsh](./images/gsh15.png)
 
 Then go to "Account linking" (left menu) :
 
-![gsh](../images/gsh13.png)
+![gsh](./images/gsh13.png)
 
 Select "No, I only want to allow account creation on my website" and do "Next" :
 
-![gsh](../images/gsh16.png)
+![gsh](./images/gsh16.png)
 
 
 Select "OAuth" then "Authorization code" and do "Next" :
 
-![gsh](../images/gsh17.png)
+![gsh](./images/gsh17.png)
 
 Then fill in the 4 fields according to the plugin configuration page, then click "Next" :
 
-![gsh](../images/gsh18.png)
+![gsh](./images/gsh18.png)
 
 > **NOTE**
 >
@@ -164,15 +164,15 @@ Then fill in the 4 fields according to the plugin configuration page, then click
 
 There is nothing to do simply "Next" :
 
-![gsh](../images/gsh19.png)
+![gsh](./images/gsh19.png)
 
 Write "Toto" then do "Save" :
 
-![gsh](../images/gsh20.png)
+![gsh](./images/gsh20.png)
 
 Now configure the homegraph API key, for that go [here](https://console.developers.google.com/apis/dashboard), then right click on "Library" :
 
-![gsh](../images/gsh21.png)
+![gsh](./images/gsh21.png)
 
 > **NOTE**
 >
@@ -180,23 +180,23 @@ Now configure the homegraph API key, for that go [here](https://console.develope
 
 And look for "Homegraph" :
 
-![gsh](../images/gsh22.png)
+![gsh](./images/gsh22.png)
 
 Click on homegraphapi then activate the API and click on manage :
 
-![gsh](../images/gsh23.png)
+![gsh](./images/gsh23.png)
 
 Click on identifier on the left :
 
-![gsh](../images/gsh24.png)
+![gsh](./images/gsh24.png)
 
 Then on "Identifiers of APIs and services" :
 
-![gsh](../images/gsh25.png)
+![gsh](./images/gsh25.png)
 
 Click on "Create identifiers" then on "API key" :
 
-![gsh](../images/gsh26.png)
+![gsh](./images/gsh26.png)
 
 Copy the API key generated and paste it on the Google Smarthome plugin management page in "Google API Homegraph"
 
@@ -204,11 +204,11 @@ Last step to give Jeedom the project id to manage the connection, go [here](http
 
 Here you can now click on the left on "Action" :
 
-![gsh](../images/gsh27.png)
+![gsh](./images/gsh27.png)
 
 Then on test :
 
-![gsh](../images/gsh28.png)
+![gsh](./images/gsh28.png)
 
 Then you need on a smartphone **android** (must not work on an iphone) connect to your Jeedom by **the external url** of it. Then go to the home application then "configure or add" then "Configure a device" and finally click on "Works with Google" and add your service created above (it starts with [test])
 
@@ -233,7 +233,7 @@ To make the configuration you need
 
 On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equipment section select the equipment to be transmitted to Google as well as the type of equipment.
 
-![gsh](../images/gsh2.png)
+![gsh](./images/gsh2.png)
 
 > **IMPORTANT**
 >
@@ -285,7 +285,7 @@ The types of equipment are important this allows Google to react according to th
 
 You can also create scenes in the scene tab, with input and output actions.
 
-![gsh](../images/gsh3.png)
+![gsh](./images/gsh3.png)
 
 > **NOTE**
 >

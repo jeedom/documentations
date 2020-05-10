@@ -24,31 +24,31 @@ client\_secret généré sur le site <http://dev.netatmo.com>.
 
 Klicken sie einmal auf Start :
 
-![netatmoWelcome10](../images/netatmoWelcome10.png)
+![netatmoWelcome10](./images/netatmoWelcome10.png)
 
 Anschließend auf "create an app"
 
-![netatmoWelcome11](../images/netatmoWelcome11.png)
+![netatmoWelcome11](./images/netatmoWelcome11.png)
 
 Melden Sie sich mit Ihrer E-Mail und Passwort an
 
-![netatmoWelcome12](../images/netatmoWelcome12.png)
+![netatmoWelcome12](./images/netatmoWelcome12.png)
 
 Füllen Sie die Felder "Name" und "Description" aus (was Sie hineinschreiben
 spielt keine Rolle) :
 
-![netatmoWelcome13](../images/netatmoWelcome13.png)
+![netatmoWelcome13](./images/netatmoWelcome13.png)
 
 Dann am Ende der Seite wählen Sie "I accept the terms of use" und
 klicken Sie auf "Create"
 
-![netatmoWelcome14](../images/netatmoWelcome14.png)
+![netatmoWelcome14](./images/netatmoWelcome14.png)
 
 Sie erhalten dann die Kunden_ID="Client-ID" und Kunden_Schlüssel="Secret
 Client" zurück. Kopieren Sie die diese dann im Konfigurations Teil des
 Jeedom Plugin hinein (siehe vorheriges Kapitel)
 
-![netatmoWelcome15](../images/netatmoWelcome15.png)
+![netatmoWelcome15](./images/netatmoWelcome15.png)
 
 # Configuration des équipements
 

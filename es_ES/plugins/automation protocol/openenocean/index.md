@@ -6,7 +6,7 @@ Descripción
 
 Ce plugin est un plugin permettant une compatibilité Enocean
 
-![openenocean icon](../images/openenocean_icon.png)
+![openenocean icon](./images/openenocean_icon.png)
 
 Configuración 
 -------------

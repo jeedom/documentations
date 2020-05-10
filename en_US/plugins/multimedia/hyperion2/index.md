@@ -7,7 +7,7 @@ d’effet
 After downloading the plugin, you just have to activate it,
 there is no configuration at this level.
 
-![hyperion](../images/hyperion.PNG)
+![hyperion](./images/hyperion.PNG)
 
 Equipment configuration
 =============================
@@ -15,12 +15,12 @@ Equipment configuration
 La configuration des équipements Ambilight est accessible à partir du
 menu Plugins :
 
-![hyperion2](../images/hyperion2.PNG)
+![hyperion2](./images/hyperion2.PNG)
 
 Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 équipement) :
 
-![hyperion3](../images/hyperion3.PNG)
+![hyperion3](./images/hyperion3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 
 Once you click on one of them, you get:
 
-![hyperion4](../images/hyperion4.PNG)
+![hyperion4](./images/hyperion4.PNG)
 
 You can find here the full configuration of your device :
 

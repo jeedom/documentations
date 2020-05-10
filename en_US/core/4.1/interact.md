@@ -93,13 +93,13 @@ The simplest way to configure an interaction is to give it a rigid generator mod
 
 In the following example, we can see in the &quot;Request&quot; field the exact sentence to provide to trigger the interaction. Here, to turn on the living room ceiling light.
 
-![interact004](../images/interact004.png)
+![interact004](./images/interact004.png)
 
 We can see, on this capture, the configuration to have an interaction linked to a specific action. This action is defined in the &quot;Action&quot; part of the page.
 
 We can very well imagine doing the same with several actions to light several lamps in the living room as the following example :
 
-![interact005](../images/interact005.png)
+![interact005](./images/interact005.png)
 
 In the 2 examples above, the model sentence is identical but the actions which result from it change according to what is configured in the &quot;Action&quot; part, so we can already with a simple interaction with a single sentence imagine actions combined between various commands and various scenarios (we can also trigger scenarios in the action part of interactions).
 
@@ -113,31 +113,31 @@ Here we will see all the interest and all the power of interactions, with a mode
 
 We will resume what was done above, delete the actions that we had added, and instead of the fixed sentence, in &quot;Request&quot;, we will use the tags **\#commande\#** and **\#equipement\#**. Jeedom will therefore replace these tags with the name of the commands and the name of the equipment (we can see the importance of having consistent command / equipment names).
 
-![interact006](../images/interact006.png)
+![interact006](./images/interact006.png)
 
 So we can see here that Jeedom generated 152 sentences from our model. However, they are not very well built and we have a bit of everything.
 
 To make order in all this, we will use the filters (right part of our configuration page). In this example, we want to generate sentences to turn on lights. So we can uncheck the info command type (if I save, I only have 95 sentences left), then, in the subtypes, we can only keep checked &quot;default&quot; which corresponds to the action button ( only 16 sentences remain).
 
-![interact007](../images/interact007.png)
+![interact007](./images/interact007.png)
 
 It&#39;s better, but we can make it even more natural. If I take the generated example "On entry", it would be nice to be able to transform this sentence into "turn on the entry" or "turn on the entry". To do this, Jeedom has, under the request field, a synonymous field which will allow us to name the name of the commands differently in our &quot;generated&quot; sentences, here it is &quot;on&quot;, I even have &quot;on2 &quot;in modules that can control 2 outputs.
 
 In synonyms, we will therefore indicate the name of the command and the synonym (s) to use :
 
-![interact008](../images/interact008.png)
+![interact008](./images/interact008.png)
 
 We can see here a somewhat new syntax for synonyms. A command name can have several synonyms, here "on" has the synonym "turn on" and "turn on". The syntax is therefore "*Name of the command*" ***=*** "*synonym 1*"***,*** "*synonym 2*" (we can put as many synonym as we want). Then, to add synonyms for another command name, just add a vertical bar after the last synonym "*|*" after which you can again name the command which will have synonyms as for the first part, etc..
 
 It&#39;s already better, but it still lacks for the command &quot;on&quot; &quot;input&quot; the &quot;l&quot; and for others the &quot;la&quot; or &quot;le&quot; or &quot;a&quot;, etc.. We could change the name of the equipment to add it, it would be a solution, otherwise we can use the variations in the request. This consists of listing a series of possible words at a location in the sentence, Jeedom will therefore generate sentences with these variations.
 
-![interact009](../images/interact009.png)
+![interact009](./images/interact009.png)
 
 We now have slightly more correct sentences with sentences that are not correct, for our example "on" "entry". so we find &quot;Turn on entry&quot;, &quot;Turn on an entry&quot;, &quot;Turn on an entry&quot;, &quot;Turn on the entry&quot; etc. So we have all the possible variants with what we added between the &quot;\ [\]&quot; and this for each synonym, which quickly generates a lot of sentences (here 168).
 
 In order to refine and not have improbable things like &quot;turn on the TV&quot;, we can allow Jeedom to delete syntactically incorrect requests. It will therefore delete what is too far from the actual syntax of a sentence. In our case, we go from 168 sentences to 130 sentences.
 
-![interact010](../images/interact010.png)
+![interact010](./images/interact010.png)
 
 It therefore becomes important to build your model sentences and synonyms well and to select the right filters so as not to generate too many unnecessary sentences.. Personally, I find it interesting to have some inconsistencies of the style &quot;an entry&quot; because if at home, you have a foreign person who does not speak French correctly, the interactions will still work.
 
@@ -147,17 +147,17 @@ Until now, as a response to an interaction, we had a simple sentence that didn&#
 
 To do this, we will again use the Jeedom Tag. For our lights, we can use a phrase of the style : I turned on \#equipement\# (see screenshot below).
 
-![interact011](../images/interact011.png)
+![interact011](./images/interact011.png)
 
 You can also add any value from another command such as temperature, number of people, etc..
 
-![interact012](../images/interact012.png)
+![interact012](./images/interact012.png)
 
 ### Binary conversion
 
 Binary conversions apply to commands of type info whose subtype is binary (returns 0 or 1 only). So you have to activate the right filters, as we can see on the screenshot a little lower (for the categories, we can check all of them, for the example I only kept light).
 
-![interact013](../images/interact013.png)
+![interact013](./images/interact013.png)
 
 As we can see here, I have kept almost the same structure for the request (it is voluntary to focus on the specifics). Of course, I adapted the synonyms to have something coherent. However, for the answer, it is **imperative** to put only \#valeur\# which represents the 0 or 1 that Jeedom will replace with the following binary conversion.
 
@@ -189,7 +189,7 @@ For the &quot;Regexp exclusion&quot; field in the configuration page of each int
 
 The following screenshot shows the interaction without the Regexp. In the list on the left, I filter the sentences to show you only the sentences that will be deleted. In reality there are 76 sentences generated with the configuration of the interaction.
 
-![interact014](../images/interact014.png)
+![interact014](./images/interact014.png)
 
 As you can see on the following screenshot, I added a simple regexp which will search for the word &quot;Julie&quot; in the generated sentences and delete them. However, we can see in the list on the left that there are always sentences with the word &quot;julie&quot;, in regular expressions, Julie is not equal to julie, this is called a case sensitivity or in good French a capital letter is different from a lowercase. As we can see in the following screenshot, there are only 71 sentences left, the 5 with a &quot;Julie&quot; have been deleted.
 
@@ -208,11 +208,11 @@ It&#39;s an extremely simple version of regular expressions but already very com
 
 Once you can write this, you understand the regular expressions.
 
-![interact015](../images/interact015.png)
+![interact015](./images/interact015.png)
 
 To solve the problem of upper and lower case, we can add to our expression an option which will make it case-insensitive, or in other words, which considers a lowercase letter equal to a capital letter; to do this, we simply have to add at the end of our expression an "i".
 
-![interact016](../images/interact016.png)
+![interact016](./images/interact016.png)
 
 With the addition of the option &quot;i&quot; we see that there are only 55 sentences left and in the list on the left with the julie filter to find the sentences that contain this word, we see that there are some Much more.
 
@@ -228,7 +228,7 @@ Useful links :
 
 It is also possible to put several info commands in a response, for example to have a situation summary.
 
-![interact021](../images/interact021.png)
+![interact021](./images/interact021.png)
 
 In this example we see a simple sentence that will return an answer with 3 different temperatures, so here we can put a little whatever we want in order to have a set of information at once.
 
@@ -240,7 +240,7 @@ In this example we see a simple sentence that will return an answer with 3 diffe
 - The answer will be "no there is no one in the room" or "yes there is someone in the room"
 - The command that responds to that is "\#\[Chambre de julie\]\[FGMS-001-2\]\[Présence\]\#"
 
-![interact017](../images/interact017.png)
+![interact017](./images/interact017.png)
 
 This example specifically targets specific equipment which allows for a personalized response. So we could imagine replacing the answer of the example with "no there is no one in the room *julie*|yes there is someone in the room *julie*"
 
@@ -251,7 +251,7 @@ This example specifically targets specific equipment which allows for a personal
 - There is no command that responds to that in the Action part since it is a Multiple commands interaction
 - By adding a regular expression, we can clean up the commands that we don&#39;t want to see so that we only have the sentences on the "Presence" commands.".
 
-![interact018](../images/interact018.png)
+![interact018](./images/interact018.png)
 
 Without the Regexp, we get here 11 sentences, but my interaction aims to generate sentences only to ask if there is someone in a room, so I do not need lamp status or other like outlets, which can be resolved with regexp filtering. To make it even more flexible, you can add synonyms, but in this case you should not forget to modify the regexp.
 
@@ -263,7 +263,7 @@ We could write the sentence in hard like for example &quot;what is the temperatu
 
 Here a generic example which is used to know the temperature, humidity, brightness of the different rooms (object in the Jeedom sense).
 
-![interact019](../images/interact019.png)
+![interact019](./images/interact019.png)
 
 - So we can see that a generic sentence like &quot;What is the temperature in the living room&quot; or &quot;What is the brightness of the bedroom&quot; can be converted into : "what is the |l \\ '\] \#commande\# object "(the use of \ [word1 | word2 \] allows you to say this possibility or that to generate all possible variants of the sentence with word1 or word2). When generating Jeedom will generate all possible combinations of sentences with all existing commands (depending on the filters) by replacing \#commande\# by the name of the command and \#objet\# by the name of the object.
 - The answer will be "21 ° C" or "200 lux". Just put : \#valeur\# \#unite\# (the unit must be completed in the configuration of each command for which we want to have one)
@@ -277,7 +277,7 @@ Adding a synonym, lets say to Jeedom that a command called &quot;X&quot; can als
 
 We can also add a Regexp filter to remove some commands. Using the simple example, we see sentences &quot;battery&quot; or even &quot;latency&quot;, which have nothing to do with our interaction temperature / humidity / brightness.
 
-![interact020](../images/interact020.png)
+![interact020](./images/interact020.png)
 
 So we can see a regexp :
 
@@ -295,7 +295,7 @@ This allows you to delete all commands that have one of these words in their sen
 
 It is possible to control a lamp as a percentage (dimmer) or a thermostat with the interactions. Here is an example to control its dimmer on a lamp with interactions :
 
-![interact022](../images/interact022.png)
+![interact022](./images/interact022.png)
 
 As we can see, there is here in the request the tag **\#consigne\#** (you can put what you want) which is used in the drive control to apply the desired value. To do this, we have 3 parts : \* Request : in which we create a tag that will represent the value that will be sent to the interaction. \* Reply : we reuse the tag for the response to be sure that Jeedom correctly understood the request. \* Action : we put an action on the lamp we want to drive and in the value we pass it our tag *consigne*.
 
@@ -307,13 +307,13 @@ As we can see, there is here in the request the tag **\#consigne\#** (you can pu
 
 We may want to control all cursor type commands with a single interaction. With the following example, we will therefore be able to control several drives with a single interaction and therefore generate a set of sentences to control them..
 
-![interact033](../images/interact033.png)
+![interact033](./images/interact033.png)
 
 In this interaction, we have no command in the action part, we let Jeedom generate from tags the list of sentences. We can see the tag **\#slider\#**. It is imperative to use this tag for instructions in a multiple interaction command, it may not be the last word of the sentence. We can also see in the example that we can use in the response a tag that is not part of the request. The majority of the tags available in the scenarios are also available in the interactions and therefore can be used in a response.
 
 Result of the interaction :
 
-![interact034](../images/interact034.png)
+![interact034](./images/interact034.png)
 
 We can see that the tag **\#equipement\#** which is not used in the request is well completed in the response.
 
@@ -321,15 +321,15 @@ We can see that the tag **\#equipement\#** which is not used in the request is w
 
 It is possible to control a color command by the interactions by asking Jeedom for example to light a blue LED strip. This is the interaction to do :
 
-![interact023](../images/interact023.png)
+![interact023](./images/interact023.png)
 
 So far nothing complicated, however, you must have configured the colors in Jeedom for it to work; go to the menu → Configuration (top right) then in the "Configuration of interactions" section" :
 
-![interact024](../images/interact024.png)
+![interact024](./images/interact024.png)
 
 As we can see on the screenshot, there is no color configured, so you have to add colors with the &quot;+&quot; on the right. The name of the color, it is the name that you will pass to the interaction, then in the right part (column &quot;HTML code&quot;), by clicking on the black color we can choose a new color.
 
-![interact025](../images/interact025.png)
+![interact025](./images/interact025.png)
 
 We can add as many as we want, we can put any name as any, so we could imagine assigning a color to the name of each member of the family.
 
@@ -340,7 +340,7 @@ Once configured, you say &quot;Light the tree green&quot;, Jeedom will search in
 
 It is possible to couple an interaction to a scenario in order to carry out actions a little more complex than the execution of a simple action or a request for information.
 
-![interact026](../images/interact026.png)
+![interact026](./images/interact026.png)
 
 This example therefore allows to launch the scenario which is linked in the action part, we can of course have several.
 
@@ -348,7 +348,7 @@ This example therefore allows to launch the scenario which is linked in the acti
 
 Interactions do a lot of things in particular. You can program an action dynamically. Example : "Turns on the heat at 22 for 2:50 p.m.". Nothing could be simpler, just use the tags \#time\# (if a specific time is defined) or \#duration\# (for in X time, example in 1 hour) :
 
-![interact23](../images/interact23.JPG)
+![interact23](./images/interact23.JPG)
 
 > **Note**
 >

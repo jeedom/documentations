@@ -7,7 +7,7 @@ Plugin-Konfiguration
 Après téléchargement du plugin, il suffit juste de l’activer et ensuite
 de cliquer sur "Installer/Mettre à jour"
 
-![nut](../images/nut.PNG)
+![nut](./images/nut.PNG)
 
 Gerätekonfiguration
 =============================
@@ -15,12 +15,12 @@ Gerätekonfiguration
 La configuration des équipements NUT est accessible à partir du menu
 plugin :
 
-![nut2](../images/nut2.PNG)
+![nut2](./images/nut2.PNG)
 
 Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
 équipement) :
 
-![nut3](../images/nut3.PNG)
+![nut3](./images/nut3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![nut4](../images/nut4.PNG)
+![nut4](./images/nut4.PNG)
 
 Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 

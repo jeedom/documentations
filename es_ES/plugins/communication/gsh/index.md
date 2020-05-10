@@ -40,23 +40,23 @@ Luego, en Jeedom in Communication / Google Smarthome debe hacer clic en Guardar 
 
 Luego, en la aplicación de inicio de Google, debe ir a la primera pestaña y hacer clic en Agregar (el +) :
 
-![gsh](../images/gsh29.png)
+![gsh](./images/gsh29.png)
 
 Luego configura un dispositivo :
 
-![gsh](../images/gsh30.png)
+![gsh](./images/gsh30.png)
 
 En "Funciona con Google" :
 
-![gsh](../images/gsh31.png)
+![gsh](./images/gsh31.png)
 
 Luego, en la lista con el botón de búsqueda (lupa en la parte superior derecha), busque "Jeedom Smarthome" y haga clic en él :
 
-![gsh](../images/gsh32.png)
+![gsh](./images/gsh32.png)
 
 Rellene sus identificadores de mercado (bueno, esos mercados no son los de su Jeedom).
 
-![gsh](../images/gsh6.png)
+![gsh](./images/gsh6.png)
 
 En el complemento -> comunicación -> Google Smarthome puede configurar sus diferentes equipos (consulte el capítulo Configuración del complemento)
 
@@ -103,56 +103,56 @@ Por lo tanto, hay 2 aplicaciones que figuran en Google : uno para la parte de Go
 
 Vamos [aquí](https://console.actions.google.com) luego haga clic en "Agregar / importar proyecto"
 
-![gsh](../images/gsh7.png)
+![gsh](./images/gsh7.png)
 
 Dé un nombre al proyecto, cambie el idioma y la región predeterminados y valide :
 
-![gsh](../images/gsh8.png)
+![gsh](./images/gsh8.png)
 
 Seleccione "Control de inicio" :
 
-![gsh](../images/gsh9.png)
+![gsh](./images/gsh9.png)
 
 Haga clic en "Smarthome" :
 
-![gsh](../images/gsh10.png)
+![gsh](./images/gsh10.png)
 
 Haga clic en "Nombra tu acción de Smart Home" :
 
-![gsh](../images/gsh11.png)
+![gsh](./images/gsh11.png)
 
 Ponga "prueba smarthome" y valide (botón Guardar en la esquina superior derecha) :
 
-![gsh](../images/gsh12.png)
+![gsh](./images/gsh12.png)
 
 Luego, a la izquierda, haga clic en "Acciones" :
 
-![gsh](../images/gsh13.png)
+![gsh](./images/gsh13.png)
 
 Luego "Agregue su primera acción" :
 
-![gsh](../images/gsh14.png)
+![gsh](./images/gsh14.png)
 
 Tendremos que dar aquí la url para llegar desde Jeedom. Para tenerlo es muy simple, en Jeedom tienes que ir a la página de administración de complementos, elegir el modo "Independiente" (y guardar de pasada), la URL es la llamada "URL de cumplimiento"
 
-![gsh](../images/gsh15.png)
+![gsh](./images/gsh15.png)
 
 Luego vaya a "Enlace de cuenta" (menú izquierdo) :
 
-![gsh](../images/gsh13.png)
+![gsh](./images/gsh13.png)
 
 Seleccione "No, solo quiero permitir la creación de cuentas en mi sitio web" y haga "Siguiente" :
 
-![gsh](../images/gsh16.png)
+![gsh](./images/gsh16.png)
 
 
 Seleccione "OAuth", luego "Código de autorización" y haga "Siguiente" :
 
-![gsh](../images/gsh17.png)
+![gsh](./images/gsh17.png)
 
 Luego complete los 4 campos de acuerdo con la página de configuración del complemento, luego haga clic en "Siguiente" :
 
-![gsh](../images/gsh18.png)
+![gsh](./images/gsh18.png)
 
 > **NOTE**
 >
@@ -164,15 +164,15 @@ Luego complete los 4 campos de acuerdo con la página de configuración del comp
 
 No hay nada que hacer simplemente "Siguiente" :
 
-![gsh](../images/gsh19.png)
+![gsh](./images/gsh19.png)
 
 Escribe "Toto" y luego haz "Guardar" :
 
-![gsh](../images/gsh20.png)
+![gsh](./images/gsh20.png)
 
 Ahora configure la clave API de homegraph, para eso vaya [aquí](https://console.developers.google.com/apis/dashboard), luego haga clic derecho en "Biblioteca" :
 
-![gsh](../images/gsh21.png)
+![gsh](./images/gsh21.png)
 
 > **NOTE**
 >
@@ -180,23 +180,23 @@ Ahora configure la clave API de homegraph, para eso vaya [aquí](https://console
 
 Y busque "Homegraph" :
 
-![gsh](../images/gsh22.png)
+![gsh](./images/gsh22.png)
 
 Haga clic en homegraphapi, luego active la API y haga clic en administrar :
 
-![gsh](../images/gsh23.png)
+![gsh](./images/gsh23.png)
 
 Haga clic en el identificador a la izquierda. :
 
-![gsh](../images/gsh24.png)
+![gsh](./images/gsh24.png)
 
 Luego en "Identificadores de API y servicios" :
 
-![gsh](../images/gsh25.png)
+![gsh](./images/gsh25.png)
 
 Haga clic en "Crear identificadores" y luego en "Clave API"" :
 
-![gsh](../images/gsh26.png)
+![gsh](./images/gsh26.png)
 
 Copie la clave API generada y péguela en la página de administración del complemento de Google Smarthome en "Google API Homegraph"
 
@@ -204,11 +204,11 @@ Copie la clave API generada y péguela en la página de administración del comp
 
 Aquí puede hacer clic a la izquierda en "Acción" :
 
-![gsh](../images/gsh27.png)
+![gsh](./images/gsh27.png)
 
 Luego en la prueba :
 
-![gsh](../images/gsh28.png)
+![gsh](./images/gsh28.png)
 
 Entonces lo necesitas en un teléfono inteligente **android** (no debe funcionar en un iphone) conéctese a su Jeedom por **la url externa** de este. Luego debe ir a la aplicación de inicio, luego "configurar o agregar", luego "Configurar un dispositivo" y finalmente hacer clic en "Funciona con Google" y agregarlo a su servicio creado anteriormente (comienza con [prueba])
 
@@ -233,7 +233,7 @@ Para hacer la configuración necesitas
 
 En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la sección de equipos seleccione el equipo que se transmitirá a Google, así como el tipo de equipo.
 
-![gsh](../images/gsh2.png)
+![gsh](./images/gsh2.png)
 
 > **IMPORTANT**
 >
@@ -285,7 +285,7 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 
 También puede crear escenas en la pestaña de escena, con acciones de entrada y salida..
 
-![gsh](../images/gsh3.png)
+![gsh](./images/gsh3.png)
 
 > **NOTE**
 >

@@ -102,7 +102,7 @@ scenarios or by combining it with other plugins (agenda,
 presence, ...), it whel blend smoothly into yorr installation
 Automation. This is what we get on the dashboard :
 
-![Aspect sur le dashboard](../images/Thermostat.png)
+![Aspect sur le dashboard](./images/Thermostat.png)
 
 The lock on the widget allows yor to lock the Thermostat in a
 instruction given following an unforeseen event : leave, guests,….
@@ -116,7 +116,7 @@ configuration by pulling down the Plugins / Well-being menu and select
 Thermostat. Click on the * Add * button at the top left and
 enter the desired name for yorr Thermostat.
 
-![Setup générale](../images/Thermostat_config_générale.png)
+![Setup générale](./images/Thermostat_config_générale.png)
 
 First, we whel inform the general parameters of the
 Thermostat. They are fornd at the top left, general section and it is necessary
@@ -126,7 +126,7 @@ Thermostat, usual information for any jeedom user.
 The choice of Thermostat algorithm
 --------------------------------------
 
-![Choix de l'algorithme](../images/Thermostat31.png)
+![Choix de l'algorithme](./images/Thermostat31.png)
 
 Highlighted in this image is the Thermostat operating motor..
 There are 2 possible algorithms for temperature regulation.
@@ -136,7 +136,7 @@ heating occurs as soon as the temperature is below the set point
 minus the hysteresis and it turns off as soon as the temperature exceeds the
 setpoint plus hysteresis.
 
-![Principe du fashion hystérésis](../images/PrincipeHysteresis.png)
+![Principe du fashion hystérésis](./images/PrincipeHysteresis.png)
 
 For example, if yor set the hysteresis to 1 ° C and the setpoint
 is 19 ° C, then heating is activated when the temperature drops
@@ -158,7 +158,7 @@ temperature measured by the sensor. The algorithm whel also calculate
 the heating (or cooling) time on a cycle depending on
 inertia and room insulation.
 
-![Principe du fashion temporal](../images/PrincipeTemporel.png)
+![Principe du fashion temporal](./images/PrincipeTemporel.png)
 
 Finally, the longer the cycle time, the slower the regulation.
 Conversely, too short a time whel cause frequent switching
@@ -179,7 +179,7 @@ Then yor indicate its range of use : minimum temperatures and
 maximum whel define the possible setpoint values accessible on
 the widget.
 
-![Setup du fonctionnement](../images/configFonctionnement.png)
+![Setup du fonctionnement](./images/configFonctionnement.png)
 
 Next, specify the commands that measure the
 temperature and control the heating or air conditioning. Note that the
@@ -187,7 +187,7 @@ time motor needs to know the ortside temperature. If yor
 do not have an external sensor, this can be provided by
 the weather plugin.
 
-![Sélection des sondes](../images/selectionsondes.png)
+![Sélection des sondes](./images/selectionsondes.png)
 
 > **Tip**
 >
@@ -203,7 +203,7 @@ actions, which gives orr Thermostat the abheity to control
 different equipment (case of operation by zone for example or
 control of another Thermostat)
 
-![Actions sur les apparehes](../images/actionssurapparehe.png)
+![Actions sur les apparehes](./images/actionssurapparehe.png)
 
 Actions are those that heat, cool
 (air conditioning), stop the command. A complementary action can
@@ -229,7 +229,7 @@ It is not visible on the dashboard, because it is a scenario that
 program all the equipment on * vacation * and thus position the
 Thermostat in this fashion.
 
-![Définition des fashions](../images/Definitionfashions.png)
+![Définition des fashions](./images/Definitionfashions.png)
 
 To define a fashion, proceed as follows :
 
@@ -264,7 +264,7 @@ additional are adjustable here, these are the opening times and
 closing of the window which whel cause the interruption and the resumption
 how the Thermostat works.
 
-![Setup des orvertures](../images/configorvertures.png)
+![Setup des orvertures](./images/configorvertures.png)
 
 To configure the operation when the window is opened :
 
@@ -313,7 +313,7 @@ notification allows to be warned and to intervene manually.
 > probe is located in the * Advanced tab*. It's abort
 > `délai max entre 2 relevés de température`.
 
-![Défahelance des sondes](../images/defahelancesonde.png)
+![Défahelance des sondes](./images/defahelancesonde.png)
 
 To define a faheure action :
 
@@ -347,7 +347,7 @@ In this image, the faheure action sends the order to switch to
 ECO fashion of the radiator by the pheot wire, then sends a message by the
 pushbullet plugin.
 
-![Défahelance heating](../images/defahelanceHeating.png)
+![Défahelance heating](./images/defahelanceHeating.png)
 
 To define a faheure action :
 
@@ -532,19 +532,19 @@ weekends from 8 a.m. to 10 p.m.. The rest of the time, the heating switches to
 
 So we create the scenario ***Comfort heating***, in programmed fashion :
 
-![Scénario programmé](../images/Thermostat11.png)
+![Scénario programmé](./images/Thermostat11.png)
 
 and the code :
 
-![Scenario fashion confort](../images/scenarioconfort.png)
+![Scenario fashion confort](./images/scenarioconfort.png)
 
 On the same principle, the "Eco Heating" scenario" :
 
-![Scénario programmé en fashion Eco](../images/Thermostat13.png)
+![Scénario programmé en fashion Eco](./images/Thermostat13.png)
 
 and its code :
 
-![Scénario en fashion Eco](../images/scenarioeco.png)
+![Scénario en fashion Eco](./images/scenarioeco.png)
 
 Note that in the scenarios, the Thermostat control is complete
 since we can act on the operating fashion (heating or
@@ -581,16 +581,16 @@ Holidays. All these events have as their starting action the
 fashion selection **Comfort** of the Thermostat and as an end action the
 fashion **Eco** :
 
-![Actions de l'agenda](../images/agendaactions.png)
+![Actions de l'agenda](./images/agendaactions.png)
 
 For the programming of the Evening event :
 
-![Programming de l'évènement](../images/agendaprogrammation.png)
+![Programming de l'évènement](./images/agendaprogrammation.png)
 
 Just repeat for each event to get this agenda
 colorful monthly :
 
-![affichage mensuel de l'agenda](../images/agendamensuel.png)
+![affichage mensuel de l'agenda](./images/agendamensuel.png)
 
 Returning to the Thermostat configuration, yor can access the
 calendar events directly from the programming tab :

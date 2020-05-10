@@ -29,31 +29,31 @@ client\_secret généré sur le site <http://dev.netatmo.com>.
 
 Une fois dessus cliquez sur start :
 
-![netatmoWeather10](../images/netatmoWeather10.png)
+![netatmoWeather10](./images/netatmoWeather10.png)
 
 Puis sur "create an app"
 
-![netatmoWeather11](../images/netatmoWeather11.png)
+![netatmoWeather11](./images/netatmoWeather11.png)
 
 Identifiez vous, avec votre mail et mot de passe
 
-![netatmoWeather12](../images/netatmoWeather12.png)
+![netatmoWeather12](./images/netatmoWeather12.png)
 
 Remplissez les champs "Name" et "Description" (peux importe ce que vous
 mettez ca n’a aucune importance) :
 
-![netatmoWeather13](../images/netatmoWeather13.png)
+![netatmoWeather13](./images/netatmoWeather13.png)
 
 Puis tout en bas de la page cochez la case "I accept the terms of use"
 puis cliquez sur "Create"
 
-![netatmoWeather14](../images/netatmoWeather14.png)
+![netatmoWeather14](./images/netatmoWeather14.png)
 
 Recuperer les informations "CLient id" et "Client secret" et copier les
 dans la partie configuration du plugin dans Jeedom (voir chapitre
 précedent)
 
-![netatmoWeather15](../images/netatmoWeather15.png)
+![netatmoWeather15](./images/netatmoWeather15.png)
 
 Configuración del dispositivo
 =============================

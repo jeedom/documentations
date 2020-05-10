@@ -20,7 +20,7 @@ cliquez sur **Activer**.
 Configurer le nom de Sarah (par défaut **Sarah**, mais vous pouvez
 mettre Jarvis ou Jeedom par exemple).
 
-![sarah1](../images/sarah1.PNG)
+![sarah1](./images/sarah1.PNG)
 
 Ensuite, cliquez sur l’un des boutons afin de télécharger le plugin
 **Jeedom** pour la version de S.A.R.A.H. que vous utilisez, v3 ou v4.
@@ -39,12 +39,12 @@ Geräte Konfiguration
 La configuration des équipements S.A.R.A.H. est accessible à partir du
 menu Plugins :
 
-![sarah2](../images/sarah2.PNG)
+![sarah2](./images/sarah2.PNG)
 
 Voilà à quoi ressemble la page du plugin S.A.R.A.H. (Ici, avec déjà 1
 équipement) :
 
-![sarah3](../images/sarah3.PNG)
+![sarah3](./images/sarah3.PNG)
 
 > **Tip**
 >
@@ -54,7 +54,7 @@ Voilà à quoi ressemble la page du plugin S.A.R.A.H. (Ici, avec déjà 1
 
 Sobald Sie eines davon anklicken, erhalten Sie :
 
-![sarah4](../images/sarah4.PNG)
+![sarah4](./images/sarah4.PNG)
 
 Vous retrouvez ici :
 
@@ -91,7 +91,7 @@ Chaque équipement de type S.A.R.A.H. crée aussi une commande :
     scénario, il suffira d’indiquer le nom de votre fichier audio
     à exécuter.
 
-![sarah5](../images/sarah5.PNG)
+![sarah5](./images/sarah5.PNG)
 
 -   **Mettre à jour la grammaire** : Qui permet par l’intermédiaire d’un
     scénario, de regénérer la grammaire XML à partir des
@@ -107,7 +107,7 @@ action "**Faire une Demande**".
 
 Voici un simple exemple d’utilisation :
 
-![sarah6](../images/sarah6.PNG)
+![sarah6](./images/sarah6.PNG)
 
 Quand vous aurez ajouté la commande action "**Faire une Demande**", vous
 allez voir apparaitre 5 champs à complèter :

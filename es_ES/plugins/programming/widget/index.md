@@ -36,18 +36,18 @@ Instalar el complemento Reproductor
 Al igual que con cualquier complemento, el complemento Reproductor se instala desde la interfaz
 Jeedom, menú "General" ⇒ "Complementos"
 
-![capture001](../images/capture001.png)
+![capture001](./images/capture001.png)
 
 Haga clic en el ícono verde para ir directamente al Mercado. En esta
 haga clic en la ventana "Oficial" y en el campo de búsqueda ponga
 "Reproductor".
 
-![capture002](../images/capture002.png)
+![capture002](./images/capture002.png)
 
 Haga clic en el ícono del complemento. Esto abre la hoja del complemento en
 que contiene varios datos.
 
-![capture003](../images/capture003.png)
+![capture003](./images/capture003.png)
 
 Haga clic en el botón "Instalar estable"". Una vez instalado, Jeedom
 pregunta si quieres ir a la página de configuración del complemento.
@@ -65,14 +65,14 @@ Presentación y función básica del complemento Reproductor
 Para ir al complemento Reproductor, vaya al menú
 "Complementos "⇒" Programación "⇒" Reproductor".
 
-![capture005](../images/capture005.png)
+![capture005](./images/capture005.png)
 
 Así que estamos en la página principal del complemento. Este último tiene
 Por defecto, una variedad de Reproductors después de la instalación Es posible
 descargue otros a través del mercado o cree sus propios Reproductors
 (ver abajo).
 
-![capture006](../images/capture006.png)
+![capture006](./images/capture006.png)
 
 Al hacer clic en uno de los Reproductors de la lista en el menú de la derecha o
 a la izquierda abrirá la página de configuración del Reproductor, en
@@ -80,7 +80,7 @@ que puede modificar, vea una vista previa del Reproductor (si Jeedom
 encontrar un comando compatible) y mucha información de configuración
 como el código fuente del Reproductor
 
-![capture007](../images/capture007.png)
+![capture007](./images/capture007.png)
 
 > **Advertencia**
 >
@@ -102,18 +102,18 @@ He aquí algunos ejemplos :
 Para los módulos Z-Wave, "Complementos" ⇒ "Protocolo de automatización del hogar" ⇒ "Z-wave", luego
 elija el módulo de pedIdentificacióno que desea modificar.
 
-![capture024](../images/capture024.png)
+![capture024](./images/capture024.png)
 
 En la página de configuración del módulo, vaya al pedIdentificacióno y
 haga clic en las ruedas con muescas. En la nueva ventana, vaya a
 Pestaña "Vista avanzada""
 
-![capture025](../images/capture025.png)
+![capture025](./images/capture025.png)
 
 Aquí puede cambiar el Reproductor aplicado para computadoras y
 móviles con listas desplegables dedicadas.
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 > **Nota**
 >
@@ -128,18 +128,18 @@ ventana que enumera todos los comandos compatibles con el tipo de
 Reproductor Por lo tanto, simplemente puede aplicar o eliminar el Reproductor de
 muchos pedIdentificaciónos a la vez.
 
-![capture008](../images/capture008.png)
+![capture008](./images/capture008.png)
 
 Solo verifique los pedIdentificaciónos en los que desea
 aplicar Reproductor
 
 ### Varios ejemplos para el mismo orden. 
 
-![Reproductor : badge-transparent](../images/capture009.png)
+![Reproductor : badge-transparent](./images/capture009.png)
 
-![Reproductor : badge](../images/capture010.png)
+![Reproductor : badge](./images/capture010.png)
 
-![Reproductor : ConsoIMG](../images/capture011.png)
+![Reproductor : ConsoIMG](./images/capture011.png)
 
 Opciones de personalización de Reproductors 
 ---------------------------------------
@@ -152,17 +152,17 @@ se mostrará de manera diferente de un comando a otro.
 Hay 2 formas de acceder a estas opciones.. Ya sea por el árbol de domótica
 que se puede encontrar en el menú "General" ⇒ "Resumen de automatización del hogar"
 
-![capture012](../images/capture012.png)
+![capture012](./images/capture012.png)
 
 En esta página encontrará todos sus elementos de domótica, objetos,
 módulos, comandos. Haga clic en la pequeña rueda dentada para
 acceder a la página de configuración.
 
-![capture013](../images/capture013.png)
+![capture013](./images/capture013.png)
 
 Ya sea desde la página de configuración del módulo.
 
-![capture015](../images/capture015.png)
+![capture015](./images/capture015.png)
 
 ### Agregar una opción personalizada 
 
@@ -175,7 +175,7 @@ antes / después del Reproductor si hay varios comandos en un módulo
 Reproductor opcional aplicado (la lista disponible está en el foro
 o Wiki, se está estudiando un sistema de documentación)
 
-![capture014](../images/capture014.png)
+![capture014](./images/capture014.png)
 
 ![exemple 1 de valeur pour afficher un compteur
 específico] (../ images / capture016.png)
@@ -218,14 +218,14 @@ en el complemento : Menú "Complementos" ⇒ "Programación" ⇒ "Reproductor". 
 esta página, haga clic en el botón "Modo de creación fácil" en la parte superior
 Izquierda.
 
-![capture026](../images/capture026.png)
+![capture026](./images/capture026.png)
 
 En la nueva página, puede en la parte derecha, ver
 Iconos básicos de Jeedom, imágenes que importó y
 paquetes importados. En el lado izquierdo, primero un botón para
 importar paquetes o imágenes, luego 3 botones para la creación de Reproductors.
 
-![capture027](../images/capture027.png)
+![capture027](./images/capture027.png)
 
 -   Activar / Desactivar Reproductor ⇒ Destinado a comandos de botón para activar / desactivar
 
@@ -245,7 +245,7 @@ configuración asistIdentificacióna. Tienes que dar un nombre al Reproductor (n
 tipo de interfaz, si el Reproductor es para PC (Tablero) o móvil,
 luego la biblioteca a usar (Jeedom, imagen personal o paquetes).
 
-![capture028](../images/capture028.png)
+![capture028](./images/capture028.png)
 
 Luego debe elegir el icono para los estados 0 y 1, así como el
 tamaño del icono (valor en "EM" =% del tamaño original de la
@@ -283,7 +283,7 @@ Botón "Agregar Reproductor""
 Desde la página principal del complemento, haga clic en "Agregar un Reproductor".
 Jeedom te pIdentificacióne información sobre el Reproductor futuro.
 
-![capture029](../images/capture029.png)
+![capture029](./images/capture029.png)
 
 -   El nombre debe ser un nombre único. Así que verifique que este nombre no exista
     ya no.
@@ -332,7 +332,7 @@ página principal de configuración / modificación de Reproductors. Desde
 allí, el Reproductor se crea en Jeedom pero actualmente no contiene
 código para mostrar el comando.
 
-![capture030](../images/capture030.png)
+![capture030](./images/capture030.png)
 
 #### Editar un Reproductor 
 
@@ -693,7 +693,7 @@ así que aquí está la lista y sus detalles :
 
         Para ser utilizado en el atributo "clase" del div principal
 
-![Exemple de retour de valeur](../images/capture031.png)
+![Exemple de retour de valeur](./images/capture031.png)
 
 ### Clases CSS de Jeedom 
 

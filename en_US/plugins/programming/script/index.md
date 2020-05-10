@@ -7,7 +7,7 @@ Plugin configuration
 The configuration is very simple, after downloading the Plugin, it
 you just activate it and that&#39;s it.
 
-![script1](../images/script1.PNG)
+![script1](./images/script1.PNG)
 
 The only option is where jeedom puts the default scripts, it
 is advised not to touch it.
@@ -18,17 +18,17 @@ Equipment configuration
 Configuration of Script equipment is accessible from the menu
 Plugin :
 
-![script2](../images/script2.PNG)
+![script2](./images/script2.PNG)
 
 This is what the Script Plugin page looks like (here with already 1
 equipment) :
 
-![script3](../images/script3.PNG)
+![script3](./images/script3.PNG)
 
 Here is the list of your Scripts. Once you click
 on equipment you get :
 
-![script4](../images/script4.PNG)
+![script4](./images/script4.PNG)
 
 > **Tip**
 >
@@ -151,7 +151,7 @@ Below you find the list of orders :
 > the parameters of it special characters. The characters
 > allowed being : numbers, letters (upper or lower case)
 
-![script5](../images/script5.PNG)
+![script5](./images/script5.PNG)
 
 Allows you to call a url or retrieve the return of a URL.
 
@@ -180,7 +180,7 @@ Allows you to call a url or retrieve the return of a URL.
 The HTML choice 
 =============
 
-![script8](../images/script8.PNG)
+![script8](./images/script8.PNG)
 
 Parse a web page (HTML file) to retrieve a value
 above. The syntax is the same as for jquery.
@@ -192,7 +192,7 @@ Question.
 The XML choice 
 ============
 
-![script6](../images/script6.PNG)
+![script6](./images/script6.PNG)
 
 Allows you to retrieve xml and specifically look for a value
 in.
@@ -209,7 +209,7 @@ Question.
 The JSON choice 
 =============
 
-![script7](../images/script7.PNG)
+![script7](./images/script7.PNG)
 
 Allows to recover json and to specifically seek a
 value in.
@@ -625,7 +625,7 @@ Then you have to find the "path" of the last FML. To do this,
 you have to go to the site then right click on the desired item then
 inspect the item, we get :
 
-![script9](../images/script9.PNG)
+![script9](./images/script9.PNG)
 
 Here it is the most complex part and which requires a little analysis. Here
 my text is in an "a" tag which is in a p-type element
@@ -636,7 +636,7 @@ contains. So I have : "div.post.article:first p:first a".
 
 So we get :
 
-![script10](../images/script10.PNG)
+![script10](./images/script10.PNG)
 
 For a real-time update, it is possible to put a cron
 update.

@@ -148,7 +148,7 @@ Im folgenden Beispiel sehen wir im Feld &quot;Request&quot; den Satz
 genau bereitzustellen, um Interaktion auszulösen. Hier, um das einzuschalten
 Wohnzimmer Deckenleuchte.
 
-![ichnteract004](../images/interact004.png)
+![ichnteract004](./images/interact004.png)
 
 Wir können auf dieser Aufnahme die Konfiguration sehen, um eine zu haben
 Interaktion mit einer bestimmten Aktion verbunden. Diese Aktion ist in definiert
@@ -157,7 +157,7 @@ der &quot;Aktion&quot; Teil der Seite.
 Wir können uns sehr gut vorstellen, dasselbe mit mehreren Aktionen zu tun
 Schalten Sie im folgenden Beispiel mehrere Lampen im Wohnzimmer ein :
 
-![ichnteract005](../images/interact005.png)
+![ichnteract005](./images/interact005.png)
 
 In den beiden obigen Beispielen ist der Modellsatz identisch, aber der
 Die resultierenden Aktionen ändern sich je nach Konfiguration
@@ -186,7 +186,7 @@ Jeedom ersetzt diese Tags durch den Namen der Befehle und den Namen von
 Ausrüstung (wir können sehen, wie wichtig es ist, Namen von zu haben
 konsequente Kontrolle / Ausrüstung).
 
-![ichnteract006](../images/interact006.png)
+![ichnteract006](./images/interact006.png)
 
 Wir können hier also sehen, dass Jeedom 152 Sätze daraus generiert hat
 unser Modell. Sie sind jedoch nicht sehr gut gebaut und wir
@@ -200,7 +200,7 @@ generiert), dann können wir in den Untertypen nur überprüft bleiben
 "Standard ", der der Aktionsschaltfläche entspricht (so bleiben nur 16 übrig
 phrases).
 
-![ichnteract007](../images/interact007.png)
+![ichnteract007](./images/interact007.png)
 
 Es ist besser, aber wir können es noch natürlicher machen. Wenn ich nehme
 Im generierten Beispiel &quot;Beich Eingabe&quot; wäre es schön, transformieren zu können
@@ -213,7 +213,7 @@ welches 2 Ausgänge steuern kann.
 In den Synonymen geben wir daher den Namen des Befehls und die (s) an.
 zu verwendenvon Synonym :
 
-![ichnteract008](../images/interact008.png)
+![ichnteract008](./images/interact008.png)
 
 Wir können hier eine etwas neue Syntax für Synonym sehen. Ein Name
 kann mehrere Synonym haben, hier hat &quot;on&quot; als Synonym
@@ -231,7 +231,7 @@ Andernfalls können wir Nachfrageschwankungen verwenden. Es besteht aus
 Listen Sie eine Reihe möglicher Wörter an einer Stelle im Satz Jeedom auf
 erzeugt Sätze mit diesen Variationen.
 
-![ichnteract009](../images/interact009.png)
+![ichnteract009](./images/interact009.png)
 
 Wir haben jetzt etwas korrektere Sätze mit Sätzen, die
 sind nicht fair, für unser Beispiel "on" "Eintrag". so finden wir
@@ -246,7 +246,7 @@ syntaktisch falsch. Es wird also gelöscht, was zu weit entfernt ist
 die tatsächliche Syntax eines Satzes. In unserem Fall gehen wir von 168
 130 Satzsätze.
 
-![ichnteract010](../images/interact010.png)
+![ichnteract010](./images/interact010.png)
 
 Es wird daher wichtig, dass Sie Ihre Modellsätze gut und gut aufbauen
 Synonym sowie die Auswahl der richtigen Filter, um nicht zu generieren
@@ -268,12 +268,12 @@ Dazu verwenden wir wieder das Jeedom Tag. Für unsere
 Lichter können wir einen Satz wie verwenden : Ich habe gut beleuchtet
 \#Ausrüstung \# (siehe Screenshot unten).
 
-![ichnteract011](../images/interact011.png)
+![ichnteract011](./images/interact011.png)
 
 Sie können auch einen beliebigen Wert aus einem anderen Befehl wie hinzufügen
 Temperatur, Anzahl der Personen usw..
 
-![ichnteract012](../images/interact012.png)
+![ichnteract012](./images/interact012.png)
 
 Binäre Konvertierung 
 ------------------
@@ -284,7 +284,7 @@ die richtigen Filter, wie Sie im folgenden Screenshot sehen können
 (Für die Kategorien können wir alle überprüfen, für das Beispiel, das ich habe
 hielt das Licht).
 
-![ichnteract013](../images/interact013.png)
+![ichnteract013](./images/interact013.png)
 
 Wie Sie hier sehen können, habe ich fast die gleiche Struktur beibehalten
 für die Nachfrage (es ist freiwillig, sich darauf zu konzentrieren
@@ -353,7 +353,7 @@ linke Liste, ich filtere die Sätze, um Ihnen nur die zu zeigen
 Sätze, die gelöscht werden sollen. In Wirklichkeit werden 76 Sätze erzeugt
 mit der Konfiguration der Interaktion.
 
-![ichnteract014](../images/interact014.png)
+![ichnteract014](./images/interact014.png)
 
 Wie Sie auf dem folgenden Screenshot sehen können, habe ich eine hinzugefügt
 regexp simple, das in den generierten Sätzen nach dem Wort &quot;Julie&quot; sucht
@@ -394,7 +394,7 @@ die Operation. Als etwas komplexeres Beispiel ein regulärer Ausdruck für
 Sobald Sie dies schreiben können, verstehen Sie die Ausdrücke
 regelmäßig.
 
-![ichnteract015](../images/interact015.png)
+![ichnteract015](./images/interact015.png)
 
 Um das Problem der Groß- und Kleinschreibung zu lösen, können wir hinzufügen
 unser Ausdruck eine Option, die es unabhängig von Groß- und Kleinschreibung macht, oder
@@ -402,7 +402,7 @@ mit anderen Worten, beich denen ein Kleinbuchstabe einem Großbuchstaben entspri
 Dazu müssen wir einfach am Envon unseres Ausdrucks a hinzufügen
 "i".
 
-![ichnteract016](../images/interact016.png)
+![ichnteract016](./images/interact016.png)
 
 Mit der Option &quot;i&quot; sehen wir, dass nur noch 55 übrig sind
 generierte Sätze und in der Liste links mit dem Julie-Filter für
@@ -430,7 +430,7 @@ Antwort bestehend aus mehreren Informationen
 Es ist auch möglich, mehrere Info-Befehle in einen zu setzen
 Antworten Sie beispielsweise, um eine Situationszusammenfassung zu erhalten.
 
-![ichnteract021](../images/interact021.png)
+![ichnteract021](./images/interact021.png)
 
 In diesem Beispiel sehen wir einen einfachen Satz, der a zurückgibt
 Antworte mit 3 verschiedenen Temperaturen, also können wir hier ein wenig setzen
@@ -450,7 +450,7 @@ Ist jemand im Raum? ?
 -   Der Befehl, der darauf reagiert, lautund &quot;\# \ [Chamber of
     Julie \] \ [GSMF-001-2 \] \ [Presence \] \#"
 
-![ichnteract017](../images/interact017.png)
+![ichnteract017](./images/interact017.png)
 
 Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die dies zulassen
 eine personalisierte Antwort zu haben. Wir könnten uns also vorstellen, zu ersetzen
@@ -471,7 +471,7 @@ Die Beispielantwort lautund &quot;Nein, es ist niemand im Raum
     dass wir nicht sehen wollen, nur die Sätze auf dem zu haben
     Anwesenheitsbefehle".
 
-![ichnteract018](../images/interact018.png)
+![ichnteract018](./images/interact018.png)
 
 Ohne den Regexp bekommen wir hier 11 Sätze, aber meine Interaktion ist zielgerichtet
 generiere Sätze nur, um zu fragen, ob jemand drin ist
@@ -494,7 +494,7 @@ Sätze für alle Sensoren dieser 3 Messarten.
 Hier ein allgemeines Beispiel, anhand dessen die Temperatur ermittelt wird,
 die Luftfeuchtigkeit, die Helligkeit der verschiedenen Räume (Objekt im Sinne von Jeedom).
 
-![ichnteract019](../images/interact019.png)
+![ichnteract019](./images/interact019.png)
 
 -   So können wir sehen, dass ein generischer generischer Satz &quot;Was ist das?&quot;
     Wohnzimmertemperatur "oder" Wie hell ist das Schlafzimmer"
@@ -533,7 +533,7 @@ Anhand des einfachen Beispiels sehen wir Sätze &quot;Batterie&quot; oder
 "Latenz ", die nichts mit unserer Interaktion zu tun haben
 Temperatur / Feuchte / Helligkeit.
 
-![ichnteract020](../images/interact020.png)
+![ichnteract020](./images/interact020.png)
 
 Wir können also einen regulären Ausdruck sehen :
 
@@ -557,7 +557,7 @@ Es ist möglich, eine prozentuale Lampe (Dimmer) oder a zu steuern
 Thermostat mit Wechselwirkungen. Hier ist ein Beispiel zur Steuerung seiner
 Dimmer auf einer Lampe mit Wechselwirkungen :
 
-![ichnteract022](../images/interact022.png)
+![ichnteract022](./images/interact022.png)
 
 Wie wir sehen können, gibt es hier in der Anfrage das Tag **\#consigne\#** (on
 kann setzen was du willst) was in der Reihenfolge der enthalten ist
@@ -583,7 +583,7 @@ einzelne Interaktion. Mit dem folgenden Beispiel können wir bestellen
 mehrere Laufwerke mit einer einzigen Interaktion und generieren daher a
 Satz von Sätzen, um sie zu kontrollieren.
 
-![ichnteract033](../images/interact033.png)
+![ichnteract033](./images/interact033.png)
 
 In dieser Interaktion haben wir keinen Befehl im Aktionsteil, wir
 Lassen Sie Jeedom aus Tags die Liste der Sätze generieren. Wir können
@@ -597,7 +597,7 @@ in einer Antwort.
 
 Ergebnis der Interaktion :
 
-![ichnteract034](../images/interact034.png)
+![ichnteract034](./images/interact034.png)
 
 Wir können sehen, dass das Tag **\#equipement\#** welches nicht verwendund wird
 in der Anfrage ist in der Antwort gut abgeschlossen.
@@ -609,14 +609,14 @@ Es ist möglich, einen Farbbefehl über die Interaktionen in zu steuern
 Bitten Sie Jeedom zum Beispiel, einen blauen LED-Streifen anzuzünden.
 Dies ist die Interaktion zu tun :
 
-![ichnteract023](../images/interact023.png)
+![ichnteract023](./images/interact023.png)
 
 Bis dahin nichts sehr kompliziertes, muss es aber konfiguriert haben
 Farben in Jeedom, damit es funktioniert; geh zum
 Menü → Konfiguration (oben rechts) dann im Abschnitt
 "Interaktionen konfigurieren" :
 
-![ichnteract024](../images/interact024.png)
+![ichnteract024](./images/interact024.png)
 
 Wie wir auf dem Screenshot sehen können, gibt es keine Farbe
 konfiguriert, fügen Sie also Farben mit dem &quot;+&quot; rechts hinzu. die
@@ -624,7 +624,7 @@ Farbname, dies ist der Name, den Sie an die Interaktion übergeben werden,
 dann im rechten Teil (Spalte &quot;HTML-Code&quot;) durch Klicken auf die
 schwarze Farbe Sie können eine neue Farbe wählen.
 
-![ichnteract025](../images/interact025.png)
+![ichnteract025](./images/interact025.png)
 
 Wir können so viele hinzufügen, wie wir wollen, wir können einen Namen setzen
 Sie können sich also vorstellen, eine Farbe zuzuweisen
@@ -642,7 +642,7 @@ Es ist möglich, eine Interaktion mit einem Szenario zu koppeln, um
 Führen Sie etwas komplexere Aktionen aus als einfache
 Aktion oder Informationsanfrage.
 
-![ichnteract026](../images/interact026.png)
+![ichnteract026](./images/interact026.png)
 
 Dieses Beispiel ermöglicht es daher, das Szenario zu starten, das in der verknüpft ist
 Aktionsteil, wir können natürlich mehrere haben.
@@ -656,7 +656,7 @@ Erhitzen um 22 Uhr für 14:50 Uhr". Einfacher geht es nicht
 um die Tags \#time \# zu verwenden (wenn eine genaue Zeit definiert ist) oder
 \#Dauer \# (für in X-Zeit, Beispiel in 1 Stunde) :
 
-![ichnteract23](../images/interact23.JPG)
+![ichnteract23](./images/interact23.JPG)
 
 > **Note**
 >

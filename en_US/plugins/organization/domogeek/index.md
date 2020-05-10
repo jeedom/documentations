@@ -6,14 +6,14 @@ Description
 
 Plugin to retrieve information from the DomoGeek site.
 
-![domogeek screenshot1](../images/domogeek_screenshot1.png)
+![domogeek screenshot1](./images/domogeek_screenshot1.png)
 
 Configuration 
 -------------
 
 Configuration is done in the Domogeek plugin.
 
-![domogeek1](../images/domogeek1.png)
+![domogeek1](./images/domogeek1.png)
 
 FAQ 
 ---

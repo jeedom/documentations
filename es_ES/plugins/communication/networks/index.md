@@ -7,7 +7,7 @@ Configuración del plugin
 Después de descargar el complemento, solo necesita activarlo,
 no hay configuración a este nivel.
 
-![networks](../images/networks.PNG)
+![networks](./images/networks.PNG)
 
 Configuración del equipo 
 =============================
@@ -15,12 +15,12 @@ Configuración del equipo
 
 menú de complementos :
 
-![networks2](../images/networks2.PNG)
+![networks2](./images/networks2.PNG)
 
 
 equipos) :
 
-![networks3](../images/networks3.PNG)
+![networks3](./images/networks3.PNG)
 
 > **Punta**
 >
@@ -30,7 +30,7 @@ equipos) :
 
  :
 
-![networks4](../images/networks4.PNG)
+![networks4](./images/networks4.PNG)
 
 Aquí encontrarás toda la configuración de tu equipo :
 
@@ -91,11 +91,11 @@ Reproductores
 
  :
 
-![networks5](../images/networks5.PNG)
+![networks5](./images/networks5.PNG)
 
  :
 
-![networks6](../images/networks6.PNG)
+![networks6](./images/networks6.PNG)
 
 Registro de cambios detallado :
 <https://github.com/jeedom/plugin-networks/commits/stable>

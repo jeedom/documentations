@@ -11,7 +11,7 @@ maison, peu importe où que vous soyez, à partir d´un smartphone, d´une
 tablette ou d´un ordinateur, tout en vous aidant à réduire votre facture
 d´énergie de 20 %.
 
-![greenmomit](../images/greenmomit.jpg)
+![greenmomit](./images/greenmomit.jpg)
 
 Alimenté sur secteur, le thermostat se connecte à la chaudière via un
 contact inverseur sans potentiel. Connecté au réseau WiFi de votre
@@ -150,24 +150,24 @@ Installer le plugin
 
 Procéder à l’installation du plugin
 
-![greenmomit Install 1](../images/greenmomit_Install_1.png)
+![greenmomit Install 1](./images/greenmomit_Install_1.png)
 
 Cliquer sur "Général", puis Plugins
 
-![greenmomit Install 2](../images/greenmomit_Install_2.png)
+![greenmomit Install 2](./images/greenmomit_Install_2.png)
 
 Cliquer sur l’icône "Market" pour accéder au contenu des plugins
 disponibles sur le Market Jeedom.
 
-![greenmomit Install 3](../images/greenmomit_Install_3.png)
+![greenmomit Install 3](./images/greenmomit_Install_3.png)
 
 Parcourir le market jusqu’à la catégorie "Confort" ou utiliser la zone
 de recherche avec le mot clé "Green Momit". Cliquer sur le plugin.
 
-![greenmomit Install 4](../images/greenmomit_Install_4.png)
+![greenmomit Install 4](./images/greenmomit_Install_4.png)
 
 Vous aurez la possibilité d’installer le plugin dans sa version ![commun
-1](../images/commun_1.png) stable ou ![commun 2](../images/commun_2.png)
+1](./images/commun_1.png) stable ou ![commun 2](./images/commun_2.png)
 Beta. La version stable est recommandée pour la majorité des
 utilisateurs.
 
@@ -182,7 +182,7 @@ Le site du constructeur (<http://greenmomit.com/>)
 Avant de configurer le plugin, vous devez valider que votre compte est
 fonctionnel sur le portail Green Momit. (<https://st.greenmomit.com/>)
 
-![greenmomit ST](../images/greenmomit_ST.png)
+![greenmomit ST](./images/greenmomit_ST.png)
 
 Et demander au support Green Momit
 
@@ -194,19 +194,19 @@ en envoyant un mail à (<support@greenmomit.es>) ou
 (<support@momit.zendesk.com>).
 
 
-![greenmomit Config Plugin](../images/greenmomit_Config_Plugin.png)
+![greenmomit Config Plugin](./images/greenmomit_Config_Plugin.png)
 
-![commun 1](../images/commun_1.png) Nom d’utilisateur : spécifier
+![commun 1](./images/commun_1.png) Nom d’utilisateur : spécifier
 l’adresse email utilisée pour accéder au site
 <https://st.greenmomit.com/>  
 
-![commun 2](../images/commun_2.png)
+![commun 2](./images/commun_2.png)
 
 Mot de passe : votre mot de passe associé 
-![commun 3](../images/commun_3.png) 
+![commun 3](./images/commun_3.png) 
 
 Identifiant unique api : reçu par mail suite à la sollicitation du support Green Momit  
-![commun 4](../images/commun_4.png) 
+![commun 4](./images/commun_4.png) 
 
 Code secret API : idem  Cliquer ensuite sur "Sauvegarder" et "Synchroniser vos équipements"
 
@@ -215,7 +215,7 @@ Paramétrage du plugin
 
 Procéder au paramétrage du plugin
 
-![greenmomit Config 1](../images/greenmomit_Config_1.png)
+![greenmomit Config 1](./images/greenmomit_Config_1.png)
 
 Cliquer sur "Plugins" ⇒ "Bien-être" ⇒ "Green Momit"
 
@@ -227,7 +227,7 @@ Votre thermostat est configuré, il ne vous reste plus qu’à :
 
 -   et le rendre visible.
 
-![greenmomit Config 3](../images/greenmomit_Config_3.png)
+![greenmomit Config 3](./images/greenmomit_Config_3.png)
 
 L’option : "Le contrôle du thermostat n’est pas fait par Jeedom", permet
 de laisser l’application Green Momit prioritaire sur Jeedom.
@@ -235,25 +235,25 @@ de laisser l’application Green Momit prioritaire sur Jeedom.
 Configuration du widget
 ---
 
-![greenmomit Widget 1](../images/greenmomit_Widget_1.png)Le widget du thermostat est déjà en place et disponible dans l’objet parent définit dans la configuration précédente.
+![greenmomit Widget 1](./images/greenmomit_Widget_1.png)Le widget du thermostat est déjà en place et disponible dans l’objet parent définit dans la configuration précédente.
 
-![greenmomit Widget 2](../images/greenmomit_Widget_2.png)
+![greenmomit Widget 2](./images/greenmomit_Widget_2.png)
 
-![commun 1](../images/commun_1.png)Température actuelle (sonde du thermostat). 
+![commun 1](./images/commun_1.png)Température actuelle (sonde du thermostat). 
 
-![commun 2](../images/commun_2.png)Hydrométrie actuelle (sonde du thermostat).
+![commun 2](./images/commun_2.png)Hydrométrie actuelle (sonde du thermostat).
 
-![commun 3](../images/commun_3.png)Eteint le thermostat si le thermostat détecte que c’est la nuit.
+![commun 3](./images/commun_3.png)Eteint le thermostat si le thermostat détecte que c’est la nuit.
 
-![commun 4](../images/commun_4.png)Le thermostat apprend tout seul vos habitudes.
+![commun 4](./images/commun_4.png)Le thermostat apprend tout seul vos habitudes.
 
-![commun 5](../images/commun_5.png)Le thermostat s’arrête automatiquement s’il ne détecte pas de présence.  
+![commun 5](./images/commun_5.png)Le thermostat s’arrête automatiquement s’il ne détecte pas de présence.  
 
-![commun 6](../images/commun_6.png)Mettre le thermostat en mode Manuel ou Automatique.  
+![commun 6](./images/commun_6.png)Mettre le thermostat en mode Manuel ou Automatique.  
 
-![commun 7](../images/commun_7.png)Etat du thermostat.  
+![commun 7](./images/commun_7.png)Etat du thermostat.  
 
-![commun 8](../images/commun_8.png)Consigne du thermostat. Modification de la consigne avec la roue.  
+![commun 8](./images/commun_8.png)Consigne du thermostat. Modification de la consigne avec la roue.  
 
-![commun 9](../images/commun_9.png)Rafraîchir l’état. En survolant, affichage de la dernière synchronisation. 
+![commun 9](./images/commun_9.png)Rafraîchir l’état. En survolant, affichage de la dernière synchronisation. 
 

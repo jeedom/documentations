@@ -6,7 +6,7 @@ Konfiguration
 
 Une fois le plugin Fitbit installé, allez sur :
 
-![fitbit 1](../images/fitbit-1.JPG)
+![fitbit 1](./images/fitbit-1.JPG)
 
 Création d’un équipement et association au compte Fitbit 
 --------------------------------------------------------
@@ -19,15 +19,15 @@ Création d’un équipement et association au compte Fitbit
 
 Cliquez sur ajouter une personne pour ajouter quelqu’un :
 
-![fitbit 2](../images/fitbit-2.JPG)
+![fitbit 2](./images/fitbit-2.JPG)
 
 Donnez un nom à cette personne (cet équipement) et validez :
 
-![fitbit 3](../images/fitbit-3.JPG)
+![fitbit 3](./images/fitbit-3.JPG)
 
 Vous devez ensuite avoir cette page :
 
-![fitbit 4](../images/fitbit-4.JPG)
+![fitbit 4](./images/fitbit-4.JPG)
 
 > **Important**
 >
@@ -100,7 +100,7 @@ ces étapes dans l’ordre) :
 Cliquez sur "Lier à un utilisateur" pour lier cet équipement à votre
 compte Fitbit :
 
-![fitbit 5](../images/fitbit-5.JPG)
+![fitbit 5](./images/fitbit-5.JPG)
 
 Indiquez vos identifiants de votre compte Fitbit, puis validez la
 demande d’autorisation :
@@ -109,7 +109,7 @@ Si vous obtenez une page blanche ou une erreur, c’est que votre
 configuration réseaux n’est pas bonne, sinon vous devez retomber sur
 cette page :
 
-![fitbit 6](../images/fitbit-6.JPG)
+![fitbit 6](./images/fitbit-6.JPG)
 
 Pour la subscription il faut en
 
@@ -118,7 +118,7 @@ Konfiguration
 
 Voici les détails de la configuration du plugin :
 
-![fitbit 6](../images/fitbit-6.JPG)
+![fitbit 6](./images/fitbit-6.JPG)
 
 -   Nom de la personne : nom de l’équipement Fitbit
 
@@ -146,4 +146,4 @@ Widget
 
 Voila le widget fitbit :
 
-![fitbit 7](../images/fitbit-7.JPG)
+![fitbit 7](./images/fitbit-7.JPG)

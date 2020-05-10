@@ -19,11 +19,11 @@ Es ist kompatibel mit :
 
 Um es zu konfigurieren, wählen Sie einfach die Befehle aus, die die Indikatoren enthalten.
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot2.png)
 
 Andernfalls befinden sich die URLs für externe Websites auf der Plugin-Seite :
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot1.png)
+![exemple vue d'ensemble](./images/publiemeteo_screenshot1.png)
 
 
 Es wird daher notwendig sein, an einem der unterstützten Standorte eine Wetterstation einzurichten.

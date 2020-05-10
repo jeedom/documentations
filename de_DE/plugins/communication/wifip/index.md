@@ -8,7 +8,7 @@ Ce plugin permet d’avoir les infos de trajet (traffic pris en compte)
 via Waze. Ce plugin peux ne plus marcher si Waze n’acceptes plus qu’on
 interroge son site
 
-![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
+![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
 Konfiguration
 -------------
@@ -25,20 +25,20 @@ Suite à cela il vous faudra créer votre ou vos trajets :
 Rendez vous dans le menu plugins/organisation, vous y trouverez le
 plugin Waze Duration :
 
-![configuration1](../images/configuration1.jpg)
+![configuration1](./images/configuration1.jpg)
 
 Ensuite vous arriverez sur la page qui listera vos équipements (vous
 pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
 
-![wazeintime screenshot2](../images/wazeintime_screenshot2.jpg)
+![wazeintime screenshot2](./images/wazeintime_screenshot2.jpg)
 
 Klicken sie auf die Schaltfläche "Route hinzufügen" oder "+" :
 
-![config2](../images/config2.jpg)
+![config2](./images/config2.jpg)
 
 Dann kommen Sie auf die Konfigurationsseite Ihrer Route :
 
-![wazeintime screenshot3](../images/wazeintime_screenshot3.jpg)
+![wazeintime screenshot3](./images/wazeintime_screenshot3.jpg)
 
 Auf dieser Seite finden sie drei Abschnitte :
 
@@ -62,7 +62,7 @@ point de départ et d’arrivée :
 
     i.  Tableau de Commandes
 
-![config3](../images/config3.jpg)
+![config3](./images/config3.jpg)
 
 -   Durée 1 : durée aller avec le trajet 1
 
@@ -86,7 +86,7 @@ All diese Befehle sind verfügbar über Szenarien und das Armaturenbrett
 
 ### Le widget : 
 
-![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
+![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
 -   Le bouton en haut à droite permet de rafraichir les infos.
 

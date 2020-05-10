@@ -24,7 +24,7 @@ Im Cloud-Modus (und nur im Cloud-Modus) treten bei den folgenden Aktionen Verzö
 
 Installieren Sie das Plugin und aktivieren Sie es. Klicken Sie dann immer auf der Plugin-Konfigurationsseite auf "Senden", um Ihre Konfiguration an den Markt zu senden.
 
-![dialogflow](../images/dialogflow1.png)
+![dialogflow](./images/dialogflow1.png)
 
 > **Wichtig**
 >
@@ -46,15 +46,15 @@ Auf dem Markt müssen Sie "Google Smarthome" auf der Registerkarte "Meine Dienst
 
 Wenn Sie auf einem Telefon mit Google Assistant "Mit Jeedom sprechen" sagen, werden Sie von Google aufgefordert, Ihr Jeedom-Konto zu verknüpfen, und Google klickt auf "Ja" : 
 
-![dialogflow](../images/dialogflow2.png)
+![dialogflow](./images/dialogflow2.png)
 
 Geben Sie Ihre Marktkennungen an : 
 
-![dialogflow](../images/dialogflow3.png)
+![dialogflow](./images/dialogflow3.png)
 
 Google teilt Ihnen mit, dass die Konfiguration erfolgreich erstellt / aktualisiert wurde : 
 
-![dialogflow](../images/dialogflow4.png)
+![dialogflow](./images/dialogflow4.png)
 
 Hier wird die Verbindung zwischen Ihrem Jeedom und Google Home / Assistant hergestellt.
 

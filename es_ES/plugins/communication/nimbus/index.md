@@ -7,7 +7,7 @@ Descripción
 Este complemento permite controlar y tener toda la información de su
 Nimbus.
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg) ![nimbus
+![nimbus screenshot1](./images/nimbus_screenshot1.jpg) ![nimbus
 screenshot2] (../ images / nimbus_screenshot2.jpg) ![nimbus
 screenshot3] (../ images / nimbus_screenshot3.jpg)
 
@@ -26,7 +26,7 @@ Después de eso, deberá ingresar sus credenciales (guiño + cuenta
 api):
 
 
-![config plugin](../images/config_plugin.jpg)
+![config plugin](./images/config_plugin.jpg)
 
 
 
@@ -37,14 +37,14 @@ Llegará a la página que enumerará su equipo (puede
 tener varios nimbos) y que te permitirán crearlos
 
 
-![nimbus screenshot4](../images/nimbus_screenshot4.jpg)
+![nimbus screenshot4](./images/nimbus_screenshot4.jpg)
 
 
 **Haga clic en el botón Agregar :**
 
 Luego llegará a la página de configuración de su nimbus :
 
-![config nimbus](../images/config_nimbus.jpg)
+![config nimbus](./images/config_nimbus.jpg)
 
 En esta página encontrarás varias secciones. :
 
@@ -73,11 +73,11 @@ en el tablero. Puedes elegir entre varios fondos. Vosotras
 También puede elegir el color de la aguja y el color del texto.
 
 
-![nimbus screenshot6](../images/nimbus_screenshot6.jpg)
+![nimbus screenshot6](./images/nimbus_screenshot6.jpg)
 
 -   **Información**
 
-![infonimb](../images/infonimb.jpg)
+![infonimb](./images/infonimb.jpg)
 
 
 Esta sección se completará cuando guarde su
@@ -140,7 +140,7 @@ Las informaciones
 
 ### Información en el tablero : 
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg)
+![nimbus screenshot1](./images/nimbus_screenshot1.jpg)
 
 El widget se divide en 4 diales que representan los 4 diales de su
 nimbus.
@@ -152,7 +152,7 @@ nimbus.
     se puede hacer clic para llegar a esta pantalla :
 
 
-![nimbus screenshot5](../images/nimbus_screenshot5.jpg)
+![nimbus screenshot5](./images/nimbus_screenshot5.jpg)
 
 
 Esta pantalla le permite cambiar manualmente el texto, la posición de
@@ -168,7 +168,7 @@ Las acciones
 
 Se puede acceder a varias acciones a través del escenario :
 
-![commandes](../images/commandes.jpg)
+![commandes](./images/commandes.jpg)
 
 La acción de demostración es independiente y lanza la demostración técnica..
 
@@ -203,13 +203,13 @@ Frase :**
     caracteres se cortarán si la oración tiene más de 4 palabras
     será cortado)
 
-![Scenario](../images/Scenario.jpg)
+![Scenario](./images/Scenario.jpg)
 
 
-![Scenario2](../images/Scenario2.jpg)
+![Scenario2](./images/Scenario2.jpg)
 
 
-![Scenario3](../images/Scenario3.jpg)
+![Scenario3](./images/Scenario3.jpg)
 
 
 **¿CÓMO PUEDO MOSTRAR PERMANENTEMENTE INFORMACIÓN DE MI
@@ -218,7 +218,7 @@ Automatización**
 Si desea mostrar continuamente información de su domótica.
 Cree un escenario programado cada 5 minutos (por ejemplo).
 
-![Scenario4](../images/Scenario4.jpg)
+![Scenario4](./images/Scenario4.jpg)
 
 En este ejemplo solo tienes que reemplazar lo que hay entre gancho
 por sus ordenes. Y cada 5 minutos tus pantallas se actualizarán

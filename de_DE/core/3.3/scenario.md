@@ -739,11 +739,11 @@ Wenden Sie es beispielsweise auf ein anderes Jeedom an oder teilen Sie es auf de
 Markt. Von dort aus können Sie auch ein Szenario wiederherstellen
 vom Markt.
 
-![scenario15](../images/scenario15.JPG)
+![scenario15](./images/scenario15.JPG)
 
 Sie sehen dann dieses Fenster :
 
-![scenario16](../images/scenario16.JPG)
+![scenario16](./images/scenario16.JPG)
 
 Von dort haben Sie die Möglichkeit :
 
@@ -759,7 +759,7 @@ Von dort haben Sie die Möglichkeit :
 
 Durch Klicken auf eine Vorlage erhalten Sie :
 
-![scenario17](../images/scenario17.JPG)
+![scenario17](./images/scenario17.JPG)
 
 Oben kannst du :
 

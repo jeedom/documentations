@@ -8,7 +8,7 @@ configuración del plugin
 Après téléchargement du plugin, il vous faut l’activer, celui-ci ne
 nécessite aucune autre configuration.
 
-![slack1](../images/slack1.PNG)
+![slack1](./images/slack1.PNG)
 
 Configuración del dispositivo
 =============================
@@ -16,12 +16,12 @@ Configuración del dispositivo
 La configuration des équipements Slack est accessible à partir du menu
 Plugins :
 
-![slack2](../images/slack2.PNG)
+![slack2](./images/slack2.PNG)
 
 Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 équipement) :
 
-![slack3](../images/slack3.PNG)
+![slack3](./images/slack3.PNG)
 
 > **Sugerencia**
 >
@@ -31,7 +31,7 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![slack4](../images/slack4.PNG)
+![slack4](./images/slack4.PNG)
 
 Aquí encontrará toda la configuración de su dispositivo:
 
@@ -85,14 +85,14 @@ Création d’un compte Slack
 Rien de plus il suffit d’aller [ici](:https://slack.com/), et de
 renseigner une adresse mail et un nom de domaine/companie, par exemple :
 
-![slack5](../images/slack5.PNG)
+![slack5](./images/slack5.PNG)
 
 Il ne vous reste plus qu’à valider, vous allez recevoir un mail, il faut
 cliquer sur le lien pour activer votre compte et c’est bon
 
 Ensuite vous arriverez sur votre Slack :
 
-![slack6](../images/slack6.PNG)
+![slack6](./images/slack6.PNG)
 
 À partir de la vous trouvez sur la gauche les canaux (channels) et les
 utilisateurs, au centre vous pouvez télécharger l’application Slack pour
@@ -105,23 +105,23 @@ Les wekhook permettent à Slack d’informer Jeedom de l’arrivée d’un
 message et d’attendre la réponse de Jeedom pour vous la retransmettre,
 pour ce faire il faut aller dans les paramètres :
 
-![slack7](../images/slack7.PNG)
+![slack7](./images/slack7.PNG)
 
 Il faut ensuite cliquer sur intégration :
 
-![slack8](../images/slack8.PNG)
+![slack8](./images/slack8.PNG)
 
 Tout en bas vous trouverez "Outgoing WebHooks" :
 
-![slack9](../images/slack9.PNG)
+![slack9](./images/slack9.PNG)
 
 Cliquez sur "Add" :
 
-![slack10](../images/slack10.PNG)
+![slack10](./images/slack10.PNG)
 
 Puis "Add Outgoing WebHooks Integration" :
 
-![slack11](../images/slack11.PNG)
+![slack11](./images/slack11.PNG)
 
 Vous retrouvez vers le bas de la page les différents paramètres :
 
@@ -146,7 +146,7 @@ Jeedom.
 
 Il faut ensuite cliquer sur "Save Settings" et c’est bon
 
-![slack12](../images/slack12.PNG)
+![slack12](./images/slack12.PNG)
 
 Voilà, vous pouvez parler à Jeedom au travers de Slack
 
@@ -170,25 +170,25 @@ un channel (canal) ou directement à une personne. Sans ces webhook
 Jeedom ne pourra pas prendre l’initiative de vous envoyer un message.
 Pour ce faire il faut aller dans les paramètres :
 
-![slack7](../images/slack7.PNG)
+![slack7](./images/slack7.PNG)
 
 Il faut ensuite cliquer sur intégration :
 
-![slack8](../images/slack8.PNG)
+![slack8](./images/slack8.PNG)
 
 Tout en bas vous trouverez "Incoming WebHooks" :
 
-![slack13](../images/slack13.PNG)
+![slack13](./images/slack13.PNG)
 
 Ensuite, il vous faut choisir un channel (canal) ou un utilisateur de
 destination par défaut (on peut après en spécifier un par commande dans
 Jeedom) :
 
-![slack14](../images/slack14.PNG)
+![slack14](./images/slack14.PNG)
 
 Cliquez ensuite sur "Add Incoming WebHooks Integration".
 
-![slack15](../images/slack15.PNG)
+![slack15](./images/slack15.PNG)
 
 En bas de la page vous retrouvez les informations du webhook, il vous
 suffit de récupérer la valeur du champ "Webhook URL" et la copier dans
@@ -210,7 +210,7 @@ fichiers sur Slack, et en particulier des captures des caméras par
 exemple. Tout d’abord il faut aller
 [ici](https://api.slack.com/custom-integrations/legacy-tokens), puis tout en bas aller sur :
 
-![slack17](../images/slack17.PNG)
+![slack17](./images/slack17.PNG)
 
 Ici en face de votre équipe, demander à Slack de générer le token, il va
 vous demander votre mot de passe puis vous renvoyer sur la même page,
@@ -229,7 +229,7 @@ C’est quoi le résultat ?
 Voilà un exemple de ce qu’il est possible de faire une fois le plugin
 correctement configuré et les interactions créées :
 
-![slack16](../images/slack16.PNG)
+![slack16](./images/slack16.PNG)
 
 > **Important**
 >

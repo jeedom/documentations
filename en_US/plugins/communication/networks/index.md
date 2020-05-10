@@ -7,7 +7,7 @@ Plugin configuration
 After downloading the plugin, you just need to activate it,
 there is no configuration at this level.
 
-![networks](../images/networks.PNG)
+![networks](./images/networks.PNG)
 
 Equipment configuration 
 =============================
@@ -15,12 +15,12 @@ Equipment configuration
 
 plugin menu :
 
-![networks2](../images/networks2.PNG)
+![networks2](./images/networks2.PNG)
 
 
 equipment) :
 
-![networks3](../images/networks3.PNG)
+![networks3](./images/networks3.PNG)
 
 > **Tip**
 >
@@ -30,7 +30,7 @@ equipment) :
 
  :
 
-![networks4](../images/networks4.PNG)
+![networks4](./images/networks4.PNG)
 
 Here you find all the configuration of your equipment :
 
@@ -91,11 +91,11 @@ Widget
 
  :
 
-![networks5](../images/networks5.PNG)
+![networks5](./images/networks5.PNG)
 
  :
 
-![networks6](../images/networks6.PNG)
+![networks6](./images/networks6.PNG)
 
 Changelog detailed :
 <https://github.com/jeedom/plugin-networks/commits/stable>

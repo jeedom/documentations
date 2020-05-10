@@ -7,7 +7,7 @@ Description
 
 Ce plugin est un plugin permettant de pouvoir recevoir les événements de certains périphériques bluetooth (tel que les NIU de chez Nodon)
 
-![blea icon](../images/blea_icon.png)
+![blea icon](./images/blea_icon.png)
 
 Configuracion
 
@@ -22,7 +22,7 @@ a.  Installation/Création
 
 - Suite à cela vous arriverez sur cette page :
 
-![gestion](../images/gestion.jpg)
+![gestion](./images/gestion.jpg)
 
 Sur cette page vous avez peu de choses à faire. Il est très vivement recommandé de lancer l’installation des dépendances (même si elles apparaissent OK). Puis à la fin de rafraichir la page.
 
@@ -40,7 +40,7 @@ Le plugin
 
 Rendez vous dans le menu Plugins &gt; Protocole Domotique pour retrouver le plugin.
 
-![blea screenshot1](../images/blea_screenshot1.jpg)
+![blea screenshot1](./images/blea_screenshot1.jpg)
 
 Sur cette page, vous pourrez voir les modules déjà inclus.
 
@@ -51,7 +51,7 @@ Sur la partie haute de cette page, vous avez plusieurs boutons.
 - Bouton Configuration : ce bouton permet d’ouvrir la fenêtre de configuration du plugin.
 - Bouton Santé : ce bouton permet d’avoir un aperçu Santé de tous vos modules.
 
-![blea screenshot2](../images/blea_screenshot2.jpg)
+![blea screenshot2](./images/blea_screenshot2.jpg)
 
 Equipement
 ==========
@@ -83,11 +83,11 @@ Les NIU s’incluent très facilement, mettez Jeedom en Inclusion puis appuyer s
 
 Une fois le NIU créé, vous obtiendrez ceci :
 
-![blea screenshot3](../images/blea_screenshot3.jpg)
+![blea screenshot3](./images/blea_screenshot3.jpg)
 
 Vous aurez ainsi 4 commandes :
 
-![blea commands niu](../images/blea_commands_niu.jpg)
+![blea commands niu](./images/blea_commands_niu.jpg)
 
 - BoutonId : donne une représentation numérique du type d’appui (idéal pour les scénarios)
   - 01 : simple appui

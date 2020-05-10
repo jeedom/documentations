@@ -7,7 +7,7 @@ Configuración del Plugin
 La configuración es muy simple, después de descochegar el complemento,
 simplemente lo activas y eso es todo.
 
-![script1](../images/script1.PNG)
+![script1](./images/script1.PNG)
 
 La única opción es donde jeedom pone los scripts predeterminados,
 se aconseja no tocochelo.
@@ -18,17 +18,17 @@ Configuración del equipo
 Se puede acceder a la configuración del equipo Guión desde el menú
 Plugin :
 
-![script2](../images/script2.PNG)
+![script2](./images/script2.PNG)
 
 Así es como se ve la página del complemento de Guión (aquí ya con 1
 equipos) :
 
-![script3](../images/script3.PNG)
+![script3](./images/script3.PNG)
 
 Aquí está la lista de sus guiones. Una vez que hagas clic
 en el equipo que obtienes :
 
-![script4](../images/script4.PNG)
+![script4](./images/script4.PNG)
 
 > **Punta**
 >
@@ -151,7 +151,7 @@ A continuación encontrará la lista de pedidos. :
 > los parámetros de sus cocheacteres especiales. Los cocheacteres
 > ser permitido : números, letras (mayúsculas o minúsculas)
 
-![script5](../images/script5.PNG)
+![script5](./images/script5.PNG)
 
 Le permite llamar a una url o recuperar el retorno de una URL.
 
@@ -180,7 +180,7 @@ Le permite llamar a una url o recuperar el retorno de una URL.
 La elección de HTML 
 =============
 
-![script8](../images/script8.PNG)
+![script8](./images/script8.PNG)
 
 Analiza una página web (archivo HTML) para recuperar un valor
 anteriormente. La sintaxis es la misma que para jquery.
@@ -192,7 +192,7 @@ Pregunta.
 La elección XML 
 ============
 
-![script6](../images/script6.PNG)
+![script6](./images/script6.PNG)
 
 Le permite recuperar xml y buscoche específicamente un valor
 en.
@@ -209,7 +209,7 @@ Pregunta.
 La elección de JSON 
 =============
 
-![script7](../images/script7.PNG)
+![script7](./images/script7.PNG)
 
 Permite recuperar json y buscoche específicamente un
 valor en.
@@ -625,7 +625,7 @@ Entonces tienes que encontrar el "camino" de la última FML. Para hacer esto,
 tienes que ir al sitio y luego hacer clic derecho en el elemento deseado y luego
 inspeccionar el artículo, obtenemos :
 
-![script9](../images/script9.PNG)
+![script9](./images/script9.PNG)
 
 Aquí es la parte más compleja y que requiere un pequeño análisis. aquí
 mi texto está en una etiqueta "a" que está en un elemento tipo p
@@ -636,7 +636,7 @@ contiene. Entonces tengo : "div.post.artículo:primero p:primero un".
 
 Entonces obtenemos :
 
-![script10](../images/script10.PNG)
+![script10](./images/script10.PNG)
 
 Para una actualización en tiempo real, es posible poner un cron
 actualizar.

@@ -8,7 +8,7 @@ configuración del plugin
 Después de descargar el plugin, sólo hay que activarlo,
 no hay ninguna configuración a este nivel.
 
-![hyperion](../images/hyperion.PNG)
+![hyperion](./images/hyperion.PNG)
 
 Configuración del dispositivo
 =============================
@@ -16,12 +16,12 @@ Configuración del dispositivo
 La configuration des équipements Ambilight est accessible à partir du
 menu Plugins :
 
-![hyperion2](../images/hyperion2.PNG)
+![hyperion2](./images/hyperion2.PNG)
 
 Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 équipement) :
 
-![hyperion3](../images/hyperion3.PNG)
+![hyperion3](./images/hyperion3.PNG)
 
 > **Tip**
 >
@@ -31,7 +31,7 @@ Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 
 Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
-![hyperion4](../images/hyperion4.PNG)
+![hyperion4](./images/hyperion4.PNG)
 
 Aquí encontrará toda la configuración de su dispositivo:
 

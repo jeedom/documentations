@@ -9,11 +9,11 @@ Equipment configuration
 Once the plugin is installed and activated from the Market, you access the
 Nabaztag plugin page by :
 
-![nabaztag1](../images/nabaztag1.png)
+![nabaztag1](./images/nabaztag1.png)
 
 Here you find all your Nabaztag equipment :
 
-![nabaztag2](../images/nabaztag2.png)
+![nabaztag2](./images/nabaztag2.png)
 
 > **Tip**
 >
@@ -23,7 +23,7 @@ Here you find all your Nabaztag equipment :
 
 Once an equipment is selected you get :
 
-![nabaztag3](../images/nabaztag3.png)
+![nabaztag3](./images/nabaztag3.png)
 
 Here you find all the configuration of your equipment :
 
@@ -95,15 +95,15 @@ Retrieve max address and token
 Go to the website [openjabnab] (http://openjabnab.fr/ojn_admin/index.php)
 then log into your account :
 
-![nabaztag4](../images/nabaztag4.png)
+![nabaztag4](./images/nabaztag4.png)
 
 Click on rabbit :
 
-![nabaztag5](../images/nabaztag5.png)
+![nabaztag5](./images/nabaztag5.png)
 
 Then click on API :
 
-![nabaztag6](../images/nabaztag6.png)
+![nabaztag6](./images/nabaztag6.png)
 
 Here activate the purple and public API and get the mac address as well as
 the purple API key to put it in the configuration of your rabbit
@@ -114,7 +114,7 @@ Widget
 
 Here is the widget obtained after creation of the equipment :
 
-![nabaztag7](../images/nabaztag7.png)
+![nabaztag7](./images/nabaztag7.png)
 
 Changelog detailed :
 <https://github.com/jeedom/plugin-nabaztag/commits/stable>

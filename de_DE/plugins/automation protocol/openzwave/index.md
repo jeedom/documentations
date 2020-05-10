@@ -66,7 +66,7 @@ Die Standorte der Module müssen so gewählt werden, dass die direkte
 Verbindungslinie nur eine sehr kurze Strecke durch das Material (einer
 Wand) führt, um die Dämpfung so weit wie möglich zu vermeiden.
 
-![introduction01](../images/introduction01.png)
+![introduction01](./images/introduction01.png)
 
 Metallteile des Gebäudes oder Möbel können elektromagnetische Wellen
 blockieren.
@@ -80,7 +80,7 @@ Kommunikationsflexibilität, selbst wenn keine direkte drahtlose Verbindung
 besteht oder wenn eine Verbindung aufgrund einer Änderung im Raum oder
 Gebäude vorübergehend nicht verfügbar ist.
 
-![introduction02](../images/introduction02.png)
+![introduction02](./images/introduction02.png)
 
 Der Controller **ID1** kann direkt mit den Knoten 2, 3 und 4 kommunizieren.
 Der Knoten 6 befindet sich außerhalb seiner Funkreichweite, jedoch
@@ -153,7 +153,7 @@ Configuration du plugin
 Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch
 aktivieren und konfigurieren.
 
-![configuration01](../images/configuration01.png)
+![configuration01](./images/configuration01.png)
 
 Sobald Sie aktiviert haben, sollte der Daemon starten. Das Plugin ist mit
 Standardwerten vorkonfiguriert ; Sie haben normalerweise nichts zu tun. Sie
@@ -164,12 +164,12 @@ Dépendances
 
 Dieser Teil erlaubt es, die Abhängigkeiten zu überprüfen und zu installieren,
 die für das korrekte Funktionieren des Zwave-Plugins erforderlich sind (lokal
-und remote, hier lokal) ![configuration02](../images/configuration02.png)
+und remote, hier lokal) ![configuration02](./images/configuration02.png)
 
 -   Der Status **OK** bestätigt, dass die Abhängigkeiten erfüllt sind.
 
 -   Wenn der Status **NOK** ist, müssen Sie die Abhängigkeiten über die 
-    Schaltfläche neu installieren ![configuration03](../images/configuration03.png)
+    Schaltfläche neu installieren ![configuration03](./images/configuration03.png)
 
 > **Tip**
 >
@@ -194,7 +194,7 @@ Démon
 
 Dieser Abschnitt ermöglicht den aktuellen Zustand des Dämonen zu
 überprüfen und die automatische Verwaltung von diesem zu konfigurieren.
-![configuration04](../images/configuration04.png) Der lokale Daemon und alle externen Dämonen werden mit ihren unterschiedlichen Informationen angezeigt.
+![configuration04](./images/configuration04.png) Der lokale Daemon und alle externen Dämonen werden mit ihren unterschiedlichen Informationen angezeigt.
 
 -   Der **Status** zeigt an, dass der Dämon gerade ausgeführt wird.
 
@@ -219,7 +219,7 @@ Log
 
 Dieser Abschnitt ermöglicht es, die Ebene des Protokolls zu wählen und dessen Inhalt durchzulesen.
 
-![configuration05](../images/configuration05.png)
+![configuration05](./images/configuration05.png)
 
 Wählen Sie die Ebene und speichern Sie dann, der Dämon wird dann mit den ausgewählten Instruktionen und Spuren neugestartet.
 
@@ -239,7 +239,7 @@ Configuration
 -------------
 
 Dieser Abschnitt ermöglicht die Konfiguration der allgemeinen Plugin Parameter
-![configuration06](../images/configuration06.png)
+![configuration06](./images/configuration06.png)
 
 -   **Allgemein** :
 
@@ -311,7 +311,7 @@ Sobald die Konfigurationen wiederhergestellt sind, wird es entsprechend den vorg
     >
     > Dans le doute, exclure et ré-inclure le module est recommandé.
 
-Vergessen Sie nicht, zu ![configuration08](../images/configuration08.png), wenn Sie eine Änderung vornehmen.
+Vergessen Sie nicht, zu ![configuration08](./images/configuration08.png), wenn Sie eine Änderung vornehmen.
 
 > **Important**
 >
@@ -329,7 +329,7 @@ Vergessen Sie nicht, zu ![configuration08](../images/configuration08.png), wenn 
 Paneau Mobile
 -------------
 
-![configuration09](../images/configuration09.png)
+![configuration09](./images/configuration09.png)
 
 Ermöglicht Ihnen, das mobile Panel bei der Verwendung anzuzeigen oder nicht
 die Anwendung auf einem Telefon.
@@ -340,12 +340,12 @@ Configuration des équipements
 La configuration des équipements Z-Wave est accessible à partir du menu
 plugin :
 
-![appliance01](../images/appliance01.png)
+![appliance01](./images/appliance01.png)
 
 Ci-dessous un exemple d’une page du plugin Z-Wave (présentée avec
 quelques équipements) :
 
-![appliance02](../images/appliance02.png)
+![appliance02](./images/appliance02.png)
 
 > **Tip**
 >
@@ -357,14 +357,14 @@ quelques équipements) :
 >
 > Les boutons sur la ligne tout en haut **Synchroniser**,
 > **Réseau-Zwave**et**Santé**, sont visibles seulement si vous êtes en
-> mode **Expert**. ![appliance03](../images/appliance03.png)
+> mode **Expert**. ![appliance03](./images/appliance03.png)
 
 Général
 -------
 
 Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
-![appliance04](../images/appliance04.png)
+![appliance04](./images/appliance04.png)
 
 -   **Nom de l’équipement** : nom de votre module Z-Wave.
 
@@ -406,7 +406,7 @@ Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 > **Important**
 >
 > La suppression d’un équipement n’engendre pas une exclusion du module
-> sur le contrôleur. ![appliance11](../images/appliance11.png) Un
+> sur le contrôleur. ![appliance11](./images/appliance11.png) Un
 > équipement supprimé qui est toujours rattaché à son contrôleur sera
 > automatiquement recréé suite à la synchronisation.
 
@@ -415,7 +415,7 @@ Commandes
 
 Ci-dessous vous retrouvez la liste des commandes :
 
-![appliance05](../images/appliance05.png)
+![appliance05](./images/appliance05.png)
 
 > **Tip**
 >
@@ -481,7 +481,7 @@ Ci-dessous vous retrouvez la liste des commandes :
 
 La **loupe**, disponible dans l’onglet général, permet de recréer
 l’ensemble des commandes pour le module en cours.
-![appliance13](../images/appliance13.png) Si aucune commande n’est
+![appliance13](./images/appliance13.png) Si aucune commande n’est
 présente ou si les commandes sont erronées la loupe devrait remédier à
 la situation.
 
@@ -496,7 +496,7 @@ Jeux de Commandes
 
 Certains modules possèdent plusieurs jeux de commandes préconfigurées
 
-![appliance06](../images/appliance06.png)
+![appliance06](./images/appliance06.png)
 
 Vous pouvez les sélectionner via les choix possibles, si le module le
 permet.
@@ -512,7 +512,7 @@ Documentation et Assistant
 Pour un certain nombre de modules, une aide spécifique pour la mise en
 place ainsi que des recommandations de paramètres sont disponibles.
 
-![appliance07](../images/appliance07.png)
+![appliance07](./images/appliance07.png)
 
 Le bouton **Documentation** permet d’accéder à la documentation
 spécifique du module pour Jeedom.
@@ -526,7 +526,7 @@ du module.
 Configuration recommandée
 -------------------------
 
-![appliance08](../images/appliance08.png)
+![appliance08](./images/appliance08.png)
 
 Permet d’appliquer un jeu de configuration recommandée par l’équipe
 Jeedom.
@@ -553,13 +553,13 @@ Pour appliquer le jeu de configuration recommandé, cliquer sur le bouton
 : **Configuration recommandée**, puis confirmer l’application des
 configurations recommandées.
 
-![appliance09](../images/appliance09.png)
+![appliance09](./images/appliance09.png)
 
 L’assistant active les différents éléments de configurations.
 
 Une confirmation du bon déroulement sera affichée sous forme de bandeau
 
-![appliance10](../images/appliance10.png)
+![appliance10](./images/appliance10.png)
 
 > **Important**
 >
@@ -571,7 +571,7 @@ La page de l’équipement vous informe si des éléments n’ont pas encore
 module pour le réveiller manuellement ou attendre le prochain cycle de
 réveil.
 
-![appliance11](../images/appliance11.png)
+![appliance11](./images/appliance11.png)
 
 > **Tip**
 >
@@ -584,7 +584,7 @@ Configuration des modules
 
 C’est ici que vous retrouverez toutes les informations sur votre module
 
-![node01](../images/node01.png)
+![node01](./images/node01.png)
 
 La fenêtre possède plusieurs onglets :
 
@@ -606,7 +606,7 @@ si le nœud est en attente d’information ou la liste des nœuds voisins.
 Valeurs
 -------
 
-![node02](../images/node02.png)
+![node02](./images/node02.png)
 
 Vous retrouvez ici toutes les commandes et états possibles sur votre
 module. Ils sont ordonnés par instance et classe de commande puis index.
@@ -633,7 +633,7 @@ Le « mapping » des commandes est entièrement basé sur ces informations.
 > rafraichissement. Abuser du rafraichissement manuel peut impacter
 > fortement les performances du réseau Z-Wave, utilisez seulement pour
 > les valeurs recommandées dans la documentation spécifique Jeedom.
-> ![node16](../images/node16.png) L’ensemble des valeurs (index) de
+> ![node16](./images/node16.png) L’ensemble des valeurs (index) de
 > l’instance d’une commande classe sera remonté, en activant le
 > rafraichissement manuel sur le plus petit index de l’instance de la
 > commande classe. Répéter pour chaque instance si nécessaire.
@@ -641,21 +641,21 @@ Le « mapping » des commandes est entièrement basé sur ces informations.
 Paramètres
 ----------
 
-![node03](../images/node03.png)
+![node03](./images/node03.png)
 
 Vous retrouvez ici toutes les possibilités de configuration des
 paramètres de votre module ainsi que la possibilité de copier la
 configuration d’un autre nœud déjà en place.
 
 Lorsqu’un paramètre est modifié, la ligne correspondante passe en jaune,
-![node04](../images/node04.png) le paramètre est en attente d’être
+![node04](./images/node04.png) le paramètre est en attente d’être
 appliqué.
 
 Si le module accepte le paramètre, la ligne redevient transparente.
 
 Si toutefois le module refuse la valeur, la ligne passera alors en rouge
 avec la valeur appliquée retournée par le module.
-![node05](../images/node05.png)
+![node05](./images/node05.png)
 
 A l’inclusion, un nouveau module est détecté avec les paramètres par
 défaut du constructeur. Sur certains modules, des fonctionnalités ne
@@ -674,7 +674,7 @@ afin de bien paramétrer vos nouveaux modules.
 > La commande **Reprendre de…​** vous permet reprendre la configuration
 > d’un autre module identique, sur le module en cours.
 
-![node06](../images/node06.png)
+![node06](./images/node06.png)
 
 > **Tip**
 >
@@ -682,7 +682,7 @@ afin de bien paramétrer vos nouveaux modules.
 > configuration actuelle du module sur un ou plusieurs modules
 > identiques.
 
-![node18](../images/node18.png)
+![node18](./images/node18.png)
 
 > **Tip**
 >
@@ -691,7 +691,7 @@ afin de bien paramétrer vos nouveaux modules.
 
 Si aucun fichier de configuration est définie pour le module, un
 assistant manuel vous permet d’appliquer des paramètres au module.
-![node17](../images/node17.png) Veillez vous référer à la documentation
+![node17](./images/node17.png) Veillez vous référer à la documentation
 du fabricant pour connaitre la définition de l’index, valeur et taille.
 
 Associations
@@ -700,7 +700,7 @@ Associations
 C’est ici que se retrouve la gestion des groupes d’association de votre
 module.
 
-![node07](../images/node07.png)
+![node07](./images/node07.png)
 
 Les modules Z-Wave peuvent contrôler d’autres modules Z-Wave, sans
 passer par le contrôleur ni Jeedom. La relation entre un module de
@@ -741,7 +741,7 @@ Basic.
 Pour connaitre avec quels autres modules le module en cours est associé,
 il suffit de cliquer sur le menu **Associé à quels modules**
 
-![node08](../images/node08.png)
+![node08](./images/node08.png)
 
 L’ensemble des modules utilisant le module en cours ainsi que le nom des
 groupes d’associations seront affichés.
@@ -752,7 +752,7 @@ certain module supporte une commande classe multi-instance associations.
 Lorsqu’un module supporte cette CC, il est possible de spécifier avec
 quelle instance on souhaite créer l’association
 
-![node09](../images/node09.png)
+![node09](./images/node09.png)
 
 > **Important**
 >
@@ -765,7 +765,7 @@ Systèmes
 
 Onglet regroupant les paramètres systèmes du module.
 
-![node10](../images/node10.png)
+![node10](./images/node10.png)
 
 > **Tip**
 >
@@ -775,7 +775,7 @@ Onglet regroupant les paramètres systèmes du module.
 > souhaitées du dispositif. Pour maximiser la durée de vie de vos
 > modules, adapter la valeur Wakeup Interval par exemple à 14400
 > secondes (4h), voir encore plus élevé selon les modules et leur usage.
-> ![node11](../images/node11.png)
+> ![node11](./images/node11.png)
 
 > **Tip**
 >
@@ -790,7 +790,7 @@ Actions
 
 Permet d’effectuer certaines actions sur le module.
 
-![node12](../images/node12.png)
+![node12](./images/node12.png)
 
 Certaines actions seront actives selon le type de module et ses
 possibilités ou encore selon l’état actuel du module comme par exemple
@@ -818,7 +818,7 @@ s’il est présumé mort par le contrôleur.
 > d’exécuter la **Régénération de la détection du noeud**, il est
 > possible de la lancer une fois pour tous les modules identiques.
 
-![node13](../images/node13.png)
+![node13](./images/node13.png)
 
 > **Tip**
 >
@@ -829,7 +829,7 @@ s’il est présumé mort par le contrôleur.
 > de redémarrer le réseau et peut prendre plusieurs minutes avant d’être
 > complétée.
 
-![node14](../images/node14.png)
+![node14](./images/node14.png)
 
 Une fois lancé, il est recommandé de fermer l’écran de configuration du
 module et de surveiller la suppression du module via l’écran de santé
@@ -844,7 +844,7 @@ Statistiques
 
 Cet onglet donne quelques statistiques de communication avec le nœud.
 
-![node15](../images/node15.png)
+![node15](./images/node15.png)
 
 Peut être intéressant en cas de modules qui sont présumés morts par le
 contrôleur "Dead".
@@ -863,7 +863,7 @@ avec les autres modules de ce réseau. Ce processus est appelé
 Ce processus est appelé **Exclusion**. Les deux processus sont initiés
 par le contrôleur principal du réseau Z-Wave.
 
-![addremove01](../images/addremove01.png)
+![addremove01](./images/addremove01.png)
 
 Ce bouton vous permet de passer en mode inclusion pour ajouter un module
 à votre réseau Z-Wave.
@@ -871,7 +871,7 @@ Ce bouton vous permet de passer en mode inclusion pour ajouter un module
 Vous pouvez choisir le mode d’inclusion après avoir cliqué le bouton
 **Inclusion**.
 
-![addremove02](../images/addremove02.png)
+![addremove02](./images/addremove02.png)
 
 Depuis l’apparition du Z-Wave+, il est possible de sécuriser les
 échanges entre le contrôleur et les noeuds. Il est donc recommandé de
@@ -887,7 +887,7 @@ sécurisés'. Un module 'non sécurisé' ne peut pas commander un module
 'sécurisé'. Un module 'sécurisé' pourra commander des modules 'non
 sécurisés' sous réserve que l’émetteur le supporte.
 
-![addremove03](../images/addremove03.png)
+![addremove03](./images/addremove03.png)
 
 Une fois l’assistant lancé, il faut en faire de même sur votre module
 (se référer à la documentation de celui-ci pour le passer en mode
@@ -940,14 +940,14 @@ Si vous re cliquez sur le bouton, vous sortez du mode inclusion.
 Mode exclusion
 --------------
 
-![addremove04](../images/addremove04.png)
+![addremove04](./images/addremove04.png)
 
 Ce bouton vous permet de passer en mode exclusion, cela pour retirer un
 module de votre réseau Z-Wave, il faut en faire de même avec votre
 module (se référer à la documentation de celui-ci pour le passer en mode
 exclusion).
 
-![addremove05](../images/addremove05.png)
+![addremove05](./images/addremove05.png)
 
 > **Tip**
 >
@@ -969,7 +969,7 @@ Si vous re cliquez sur le bouton, vous sortez du mode exclusion.
 Synchroniser
 ------------
 
-![addremove06](../images/addremove06.png)
+![addremove06](./images/addremove06.png)
 
 Bouton permettant de synchroniser les modules du réseau Z-Wave avec les
 équipements Jeedom. Les modules sont associés au contrôleur principal,
@@ -996,16 +996,16 @@ fonctionnel.
 > synchronisation permettra de remédier à cette situation.
 
 Le bouton Synchroniser n’est visible qu’en mode expert :
-![addremove07](../images/addremove07.png)
+![addremove07](./images/addremove07.png)
 
 Réseaux Z-Wave
 ==============
 
-![network01](../images/network01.png)
+![network01](./images/network01.png)
 
 Vous retrouvez ici des informations générales sur votre réseau Z-Wave.
 
-![network02](../images/network02.png)
+![network02](./images/network02.png)
 
 Résumé
 ------
@@ -1030,7 +1030,7 @@ d’éléments dans la file d’attente.
 
 **Etat**
 
-![network03](../images/network03.png)
+![network03](./images/network03.png)
 
 Un ensemble d’informations sur l’état actuel du réseau, à savoir :
 
@@ -1086,7 +1086,7 @@ Affiche diverses informations système.
 Actions
 -------
 
-![network05](../images/network05.png)
+![network05](./images/network05.png)
 
 Vous retrouvez ici toutes les actions possibles sur l’ensemble de votre
 réseau Z-Wave. Chaque action est accompagnée d’une description sommaire.
@@ -1111,7 +1111,7 @@ réseau Z-Wave. Chaque action est accompagnée d’une description sommaire.
 Statistiques
 ------------
 
-![network06](../images/network06.png)
+![network06](./images/network06.png)
 
 Vous retrouvez ici les statistiques générales sur l’ensemble de votre
 réseau Z-Wave.
@@ -1119,7 +1119,7 @@ réseau Z-Wave.
 Graphique du réseau
 -------------------
 
-![network07](../images/network07.png)
+![network07](./images/network07.png)
 
 Cet onglet vous donnera une représentation graphique des différents
 liens entre les nœuds.
@@ -1165,7 +1165,7 @@ informations, le contrôleur est capable de construire une table qui a
 toutes les informations sur les routes possibles de communication dans
 un réseau.
 
-![network08](../images/network08.png)
+![network08](./images/network08.png)
 
 Les lignes du tableau contiennent les nœuds de source et les colonnes
 contiennent les nœuds de destination. Se référer à la légende pour
@@ -1204,11 +1204,11 @@ Explication la légende des couleurs :
 Santé
 =====
 
-![health01](../images/health01.png)
+![health01](./images/health01.png)
 
 Cette fenêtre résume l’état de votre réseau Z-Wave :
 
-![health02](../images/health02.png)
+![health02](./images/health02.png)
 
 Vous avez ici :
 
@@ -1266,16 +1266,16 @@ Vous avez ici :
 
 Le nom du module peut-être suivit par une ou deux images:
 
-![health04](../images/health04.png) Modules supportant la
+![health04](./images/health04.png) Modules supportant la
 COMMAND\_CLASS\_ZWAVE\_PLUS\_INFO
 
-![health05](../images/health05.png) Modules supportant la
+![health05](./images/health05.png) Modules supportant la
 COMMAND\_CLASS\_SECURITY et securisé.
 
-![health06](../images/health06.png) Modules supportant la
+![health06](./images/health06.png) Modules supportant la
 COMMAND\_CLASS\_SECURITY et non sécurisé.
 
-![health07](../images/health07.png) Module FLiRS, routeurs esclaves
+![health07](./images/health07.png) Module FLiRS, routeurs esclaves
 (modules à piles) à écoute fréquente.
 
 > **Tip**
@@ -1319,7 +1319,7 @@ COMMAND\_CLASS\_SECURITY et non sécurisé.
 > rapidement possible. Voir la configuration des Messages dans l’écran
 > de Configuration de Jeedom.
 
-![health03](../images/health03.png)
+![health03](./images/health03.png)
 
 > **Tip**
 >
@@ -1428,7 +1428,7 @@ réseau. A partir de cet écran vous pourrez :
 
 -   Supprimer un backup
 
-![backup01](../images/backup01.png)
+![backup01](./images/backup01.png)
 
 Mettre à jour OpenZWave
 =======================
@@ -1437,7 +1437,7 @@ Suite à une mise à jour du plugin Z-Wave il est possible que Jeedom vous
 demande de mettre à jour les dépendances Z-Wave. Un NOK au niveau des
 dépendances sera affiché:
 
-![update01](../images/update01.png)
+![update01](./images/update01.png)
 
 > **Tip**
 >
@@ -1473,7 +1473,7 @@ Depannage et diagnostic
 Mon module n’est pas détecté ou ne remonte pas ses identifiants produit et type
 -------------------------------------------------------------------------------
 
-![troubleshooting01](../images/troubleshooting01.png)
+![troubleshooting01](./images/troubleshooting01.png)
 
 Lancer la Regénération de la détection du nœud depuis l’onglet Actions
 du module.
@@ -1485,7 +1485,7 @@ la détection de nœuds inconnues**depuis l’écran**Réseau ZWave** onglet
 Mon module est présumé mort par le controleur Dead
 --------------------------------------------------
 
-![troubleshooting02](../images/troubleshooting02.png)
+![troubleshooting02](./images/troubleshooting02.png)
 
 Si le module est toujours branché et joignable, suivre les solutions
 proposées dans l’écran du module.
@@ -1503,7 +1503,7 @@ conservé ainsi que ses commandes.
 Comment utiliser la commande SwitchAll
 --------------------------------------
 
-![troubleshooting03](../images/troubleshooting03.png)
+![troubleshooting03](./images/troubleshooting03.png)
 
 Elle est disponible via votre nœud contrôleur. Votre contrôleur devrait
 avoir les commandes Switch All On et Switch All Off.
@@ -1511,7 +1511,7 @@ avoir les commandes Switch All On et Switch All Off.
 Si votre contrôleur n’apparaît pas dans votre liste de module, lancez la
 synchronisation.
 
-![troubleshooting04](../images/troubleshooting04.png)
+![troubleshooting04](./images/troubleshooting04.png)
 
 La Commande Classe Switch All est en général supportée sur les
 interrupteurs et les variateurs. Son comportement est configurable sur
@@ -1536,7 +1536,7 @@ pilotez pas que des lumières.
 Mon module n a pas de commande Scene ou Bouton
 ----------------------------------------------
 
-![troubleshooting05](../images/troubleshooting05.png)
+![troubleshooting05](./images/troubleshooting05.png)
 
 Vous pouvez ajouter la commande dans l’écran de "mapping" des commandes.
 
@@ -1555,7 +1555,7 @@ d’une instance pour une commande classe spécifique.
 Il est possible de faire via une requête http ou de créer une commande
 dans l’écran de mapping d’un équipement.
 
-![troubleshooting06](../images/troubleshooting06.png)
+![troubleshooting06](./images/troubleshooting06.png)
 
 Il s’agit d’une commande **Action**choisir la**CC** souhaitée pour une
 **Instance**donnée avec la commande**data\[0\].ForceRefresh()**
@@ -1733,7 +1733,7 @@ nouveau module.
 Déplacez votre module à son emplacement définitif. Lancez la mise à jour
 de ses voisins et réveillez-le encore une fois.
 
-![troubleshooting07](../images/troubleshooting07.png)
+![troubleshooting07](./images/troubleshooting07.png)
 
 On constate qu’il voit un certain nombre de voisins mais que les
 voisins, eux, ne le voient pas.
@@ -1744,7 +1744,7 @@ réseau, afin de demander à tous les modules de retrouver leurs voisins.
 Cette action peut prendre 24 heures avant d’être terminée, vos modules
 sur pile effectueront l’action seulement à leur prochain réveil.
 
-![troubleshooting08](../images/troubleshooting08.png)
+![troubleshooting08](./images/troubleshooting08.png)
 
 L’option de soigner le réseau 2x par semaine permet de faire ce
 processus sans action de votre part, elle est utile lors de la mise en
