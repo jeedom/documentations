@@ -917,13 +917,12 @@
         "Nom": "Nom",
         "Remarque": "Remarque",
         "Lien": "Lien",
+        "Compatibilité des équipements Edisio": "Compatibilité des équipements Edisio",
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Documentation éclairage": "Documentation éclairage",
         "Documentation volet": "Documentation volet",
         "Note": "Note",
-        "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne": "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne",
-        "peut donc garantir que tous les modules de cette liste sont 100%": "peut donc garantir que tous les modules de cette liste sont 100%",
-        "fonctionels": "fonctionels"
+        "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels": "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels"
     }
 }

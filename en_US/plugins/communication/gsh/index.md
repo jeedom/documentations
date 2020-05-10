@@ -1,4 +1,4 @@
-# Description
+# Google Smarthome
 
 This plugin allows you to :
 

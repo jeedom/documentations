@@ -1,3 +1,11 @@
+>**IMPORTANT**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 31.03.2020
+
+- Aktualisierung der Dokumentation
+
 # 27.03.2020
 
 - Korrektur eines Sprachproblems

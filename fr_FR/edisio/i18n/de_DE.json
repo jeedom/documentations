@@ -1538,10 +1538,10 @@
         "Edisio - EMM-230 - Émetteur micromodule (230V) - 2 canaux": "Edisio - EMM-230 - Mikromodulsender (230 V) - 2 Kanäle",
         "DIO2 - Module pour Volet Roulant": "DIO2 - Modul für Rollladen",
         "DIO2 - Module pour Luminaire": "DIO2 - Modul für Leuchte",
+        "Compatibilité des équipements Edisio": "Kompatibilität von Edisio-Geräten",
         "Documentation éclairage": "Beleuchtungsdokumentation",
         "Documentation volet": "Komponentendokumentation",
-        "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne": "Diese Liste basiert auf Benutzer-Feedback, das Jeedom-Team nicht",
-        "peut donc garantir que tous les modules de cette liste sont 100%": "kann daher garantieren, dass alle Module in dieser Liste 100% sind",
+        "Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels": "Diese Liste basiert auf Benutzerfeedback. Das Jeedom-Team kann nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind",
         " Nom.": " Name.",
         " Nom?": " Name?",
         "Nom ": "Name ",
@@ -1571,11 +1571,6 @@
         " Note?": " Notiz?",
         "Note ": "Notiz ",
         "[Note": "[Notiz",
-        "Note]": "Notiz]",
-        " fonctionels.": " funktional.",
-        " fonctionels?": " funktional?",
-        "fonctionels ": "funktional ",
-        "[fonctionels": "[funktional",
-        "fonctionels]": "funktional]"
+        "Note]": "Notiz]"
     }
 }

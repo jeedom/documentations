@@ -1,3 +1,7 @@
+>**IMPORTANT**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+
 # 04/30/2020
 
 - Correction of a problem with the shutter descent control

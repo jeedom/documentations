@@ -1,3 +1,5 @@
+# Compatibility of Edisio equipment
+
 | Name                     | Note                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module for Luminaire     |                         | [Buy](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
@@ -19,6 +21,4 @@
 
 > **Note**
 >
-> This list is based on user feedback, the Jeedom team does not
-> can therefore guarantee that all the modules in this list are 100%
-> fonctionels
+> This list is based on user feedback, the Jeedom team cannot guarantee that all the modules in this list are 100% functional.

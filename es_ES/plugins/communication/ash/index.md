@@ -1,4 +1,4 @@
-# Description
+# Alexa Smarthome
 
 Este complemento permite hacer el enlace entre su Jeedom y Alexa
 
@@ -43,7 +43,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de e
 
 > **IMPORTANT**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar.. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar.. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/es_ES/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
 
 También puede crear escenas en la pestaña de escena, con acciones de entrada y salida..
 

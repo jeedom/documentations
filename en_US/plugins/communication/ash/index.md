@@ -1,4 +1,4 @@
-# Description
+# Alexa Smarthome
 
 This plugin makes it possible to make the link between your Jeedom and Alexa
 
@@ -43,7 +43,7 @@ On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment sect
 
 > **IMPORTANT**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) explanations on generic generics
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://jeedom.github.io/plugin-mobile/en_US/#tocAnchor-1-6) explanations on generic generics
 
 You can also create scenes in the scene tab, with input and output actions.
 

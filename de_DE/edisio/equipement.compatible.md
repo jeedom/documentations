@@ -1,3 +1,5 @@
+# Kompatibilität von Edisio-Geräten
+
 | Name                     | Bemerkung                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Modul für Leuchte     |                         | [Kaufen](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
@@ -19,6 +21,4 @@
 
 > **Note**
 >
-> Diese Liste basiert auf Benutzer-Feedback, das Jeedom-Team nicht
-> kann daher garantieren, dass alle Module in dieser Liste 100% sind
-> fonctionels
+> Diese Liste basiert auf Benutzerfeedback. Das Jeedom-Team kann nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind

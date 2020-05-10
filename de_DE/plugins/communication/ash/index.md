@@ -1,4 +1,4 @@
-# Description
+# Alexa Smarthome
 
 Dieses Plugin ermöglicht es, die Verbindung zwischen Ihrem Jeedom und Alexa herzustellen
 
@@ -43,7 +43,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie i
 
 > **IMPORTANT**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) Erklärungen zu generischen Generika
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://jeedom.github.io/plugin-mobile/de_DE/#tocAnchor-1-6) Erklärungen zu generischen Generika
 
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
 

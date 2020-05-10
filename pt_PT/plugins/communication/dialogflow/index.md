@@ -1,58 +1,58 @@
-# Présentation
+# Dialogflow
 
-Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une application native et les interactions
+O plug-in de fluxo de diálogo torna possível conectar o Jeedom ao Google Home / Assistant por um aplicativo nativo e interações
 
 > **NOTE**
 >
-> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bais de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions.
+> Há também o plug-in do Google Smarthome, que permite conectar o Jeedom ao Google Home / Assistant, mas desta vez para a integração do Google Smarthome, ele não usa interações..
 
 > **Important**
 >
-> Le plugin necessite un abonnement aux services vocaux. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> O plug-in requer uma assinatura para serviços de voz. Você pode gerenciar sua assinatura [aqui](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 # Configuration
 
-Installez le plugin et activez-le. Ensuite toujours sur la page de configuration du plugin cliquez sur "Envoyer" pour envoyer votre configuration au market.
+Instale o plugin e ative-o. Sempre na página de configuração do plug-in, clique em "Enviar" para enviar sua configuração ao mercado.
 
 ![dialogflow](../images/dialogflow1.png)
 
 > **IMPORTANT**
 >
-> Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
+> Você não precisa criar nenhum equipamento para este plugin. Basta seguir as instruções abaixo.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services".
+No mercado, você deve ativar o "Google Smarthome" na guia "Meus serviços"".
 
 > **IMPORTANT**
 >
-> L'url d'accès de votre jeedom doit absolument être en https
+> O URL de acesso da sua jeedom deve estar absolutamente em https
 
 > **NOTE**
 >
-> Vous ne pouvez connecter que un seul Jeedom à Google par compte market
+> Você pode conectar apenas um Jeedom ao Google por conta de mercado
 
-Sur un téléphone avec Google Assistant, dites "Parler avec Jeedom", Google va vous indiquer qu'il faut lier votre compte Jeedom et Google cliquez sur oui : 
+Em um telefone com o Assistente do Google, diga "Fale com o Jeedom", o Google solicitará que você vincule sua conta do Jeedom e o Google clique em Sim :
 
 ![dialogflow](../images/dialogflow2.png)
 
-Indiquez vos identifiants market : 
+Indique seus identificadores de mercado :
 
 ![dialogflow](../images/dialogflow3.png)
 
-Google va vous indiquer que la configuration est crée/mise à jour avec succès : 
+O Google informará que a configuração foi criada / atualizada com sucesso :
 
 ![dialogflow](../images/dialogflow4.png)
 
-Voilà, le lien entre votre Jeedom et Google Home/Assistant est fait.
+Aqui, o link entre o Jeedom e o Google Home / Assistant é feito.
 
-Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home/Assistant.
-Depuis votre Google Home/Assistant, dites simplement "Parler à Jeedom", "Demande à Jeedom" ou encore "Dis à Jeedom" pour démarrer l'interaction avec Jeedom et "Merci" quand vous avez terminé pour clore la conversation.
+Agora você pode conversar com seu Jeedom e usar todas as interações do seu Jeedom diretamente do seu Home / Assistente do Google.
+No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte ao Jeedom" ou até mesmo "Diga ao Jeedom" para iniciar a interação com o Jeedom e "Obrigado" quando terminar a conversa..
 
 # FAQ
 
->**J'ai l'erreur ESOCKETTIMEDOUT**
+>**Eu tenho o erro ESOCKETTIMEDOUT**
 >
->C'est que votre URL ou la clef API configurée sur le market n'est pas bonne. Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes.
+>A sua chave de URL ou API configurada no mercado não é boa. Também preste atenção ao tempo de resposta definido nas interações, o Google impõe um tempo de resposta antes do tempo limite de 4 segundos.
 
->**Erreur votre Jeedom n'a pas répondu correctement code ETIMEDOUT. Autre chose**
+>**Erro: seu Jeedom não respondeu corretamente o código ETIMEDOUT. Algo mais**
 >
->Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google). Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps.
+>Isso vem do seu Jeedom, que não respondeu dentro do prazo (imposto pelo Google). Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito..

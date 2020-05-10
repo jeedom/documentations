@@ -1,13 +1,27 @@
 {
-	"id" : "dialogflow",
-	"name" : "Dialog flow",
-	"description" : "Plugin permet de parler à Google Home/Assistant par le biais des interactions Jeedom",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "communication",
-	"documentation" : "https://jeedom.github.io/plugin-dialogflow/#language#/",
-	"changelog" : "https://jeedom.github.io/plugin-dialogflow/#language#/changelog",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]
+    "id": "dialogflow",
+    "name": "Dialog flow",
+    "description": "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/dialogflow\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/dialogflow\/changelog",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }
