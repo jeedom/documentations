@@ -1,12 +1,5 @@
-# 31/03/2020
-
 - Nettoyage et optimisation
 - Suppression du choix des moteurs
-- Compatibilité avec le plugin sons
-
->**IMPORTANT**
->
->Cette mise à jour ne laisse plus le choix dans le moteur de TTS
 
 
 # 23/04/2019

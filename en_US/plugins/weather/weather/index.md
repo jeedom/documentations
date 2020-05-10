@@ -1,17 +1,12 @@
 Configuration
 =============
 
-Le plugin Weather permet de récupérer les données météorologiques pour
-une ou plusieurs villes. Il permet entre autre d’avoir les informations
-de lever et coucher du soleil, de température, de prévision, de vent,
-etc. Les informations récupérées viennent du site internet
-openweathermap.
+The Weather plugin allows you to retrieve weather data for one or more cities. It allows among other things to retrieve the sunrise and sunset, temperature, forecast, wind, etc. The information retrieved comes from the OpenWeatherMap website.
 
 Configuration du plugin
 -----------------------
 
-Après avoir installé le plugin, il faut l’activer puis renseigner votre
-clef api/
+After installing the plugin, you have to activate it then fill in your API key.
 
 Pour obtenir votre clef api il faut aller
 [ici](https://home.openweathermap.org), créer un compte et ensuite il
@@ -20,24 +15,24 @@ configuration du Plugin.
 
 > **Important**
 >
-> Il faut attendre quelques heures ensuite le temps que la clef soit
-> active avant de pouvoir récupérer des informations
+> It is necessary to wait a few hours then the time that the key is
+> active before you can retrieve information
 
 Configuration des équipements
 -----------------------------
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
--   **Nom de l’équipement météo** : nom de votre équipement météo
+-   **Name of weather equipment**: name of your weather equipment
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : rend votre équipement visible sur le dashboard
+-   **Visible**: makes your equipment visible on the dashboard
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object** : means the parent object the equipment depend
+    equipment
 
--   **Ville** : Il faut mettre le nom de votre ville suivi du code pays,
+-   **City**: You must put the name of your city followed by the country code,
     ex : Paris,fr
 
 -   **Affichage complet en mobile** : permet d’afficher toutes les
@@ -48,7 +43,7 @@ possibilité d’historiser ou non les valeurs numériques. Le code (numéro)
 en fonction des conditions est disponible
 [ici](https://openweathermap.org/weather-conditions)
 
-Le rafraîchissement des données météo s’effectue toutes les 30 minutes.
+Refreshing weather data is done every 30 minutes.
 
 > **Tip**
 >

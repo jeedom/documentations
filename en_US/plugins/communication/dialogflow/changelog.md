@@ -1,61 +1,57 @@
-# 31/03/2020
+# 03/27/2020
 
-- Mise à jour de la documentation
+- Correction of a language problem
 
-# 27/03/2020
+# 01/11/2020
 
-- Correction d'un soucis de langue
+- Updating the doc
 
-# 11/01/2020
+# 10/15/2019
 
-- Mise a jour de la doc
+- Automatic sending of the configuration to the market during installation
 
-# 15/10/2019
+# 08/13/2019
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Documentation update
 
-# 13/08/2019
+# 08/03/2019
 
-- Mise à jour de la documentation
+- Bug fix
+- Deletion of secure mode following the deletion of the identifier on the google side
 
-# 03/08/2019
+# 06/16/2019
 
-- Correction de bug
-- Suppression du mode securisé suite à la supression de l'identifiant coté google
+- Bugfix
 
-# 16/06/2019
+# 06/03/2019
 
-- Correction de bugs
+- Adding subscription information to voice services
 
-# 03/06/20198
+# 05/31/2019
 
-- Ajout de l'information sur l'abonnement aux services vocaux
+- Important : from 01/06/2019 the voice services become chargeable, you can see your status on your profile page on the market, tab my services
 
-# 31/05/2019
+# 06/19/2018
 
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Documentation update
 
-# 19/06/2018
+# 05/07/2018
 
-- Mise à jour de la documentation
+- Documentation update to clarify google timeout
 
-# 07/05/2018
+# 03/25/2018
 
-- Mise à jour de la documentation pour préciser le timeout google
+- Correction of a bug on the connection test under firefox
 
-# 25/03/2018
+# 03/21/2018
 
-- Correction d'un bug sur le test de connexion sous firefox
+- Updating the doc
 
-# 21/03/2018
+# 02/22/2018
 
-- Mise à jour de la doc
+- Icon change
 
-# 22/02/2018
+# 02/20/2018
 
-- Changement de l'icone
-
-# 20/02/2018
-
-- Ajout d'un bouton pour envoyer la configuration automatiquement au market
-- Corrections de bugs
+- Add a button to automatically send the configuration to the market
+- Bug fixes

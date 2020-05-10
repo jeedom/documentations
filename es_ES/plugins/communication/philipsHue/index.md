@@ -6,26 +6,26 @@ Après téléchargement du plugin, il vous faudra renseigner l’adresse IP
 de votre pont hue, si ce n’est pas déja fait par le système de
 découverte automatique.
 
-# Configuration des équipements
+# Configuración de los dispositivos
 
 > **Note**
 >
 > Vous aurez toujours un équipement "Toutes les lampes" qui correspond
 > en faite au groupe 0 qui existe tout le temps
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Hue** : nom de votre équipement Hue,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    varias categorías),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
 En-dessous vous retrouvez la liste des commandes :
 
@@ -51,7 +51,7 @@ doivent absolument être faite à partir de l’application mobile
 vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant
 simple la configuration du plugin)
 
-# Tansition
+# Transición
 
 Commande un peu particulier qui doit être utilisée dans un scénario,
 elle permet de dire la transistion entre l’état actuel et la prochaine
@@ -62,24 +62,24 @@ minutes. Dans votre scénario vous avez donc juste à appeller la commande
 transition et en parametre mettre 180, ensuite appeller la commande
 couleur vers la couleur voulu.
 
-# Animation
+# Animación
 
 Les animations sont des enchainements de transition, actuellement il
 existe :
 
 -   sunrise : pour simuler un levé de soleil. Il peut prendre en
-    parametre :
+    parámetro : 
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+    -   duración : para establecer la duración, 720s por defecto, por ejemplo 5min
+        Tiene que poner: duración=300
 
 -   sunset : pour simuler un couché de soleil. Il peut prendre en
-    parametre :
+    parámetro : 
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+    -   duración : para establecer la duración, 720s por defecto, por ejemplo 5min
+        Tiene que poner: duración=300
 
-# Bouton télécommande
+# Botón de control remoto
 
 Voici la liste des code pour les boutons :
 

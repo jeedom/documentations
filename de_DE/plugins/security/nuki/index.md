@@ -1,7 +1,7 @@
 Ce plugin permet de piloter les serrures connectées Nuki à l’aide du
 bridge.
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
@@ -16,7 +16,7 @@ Il est ensuite nécessaire de cliquer sur le bouton "Configurer le
 bridge" afin d’indiquer au bridge l’adresse de Jeedom pour le retour
 d’information.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La synchronisation des serrures est accessible à partir du menu Plugins

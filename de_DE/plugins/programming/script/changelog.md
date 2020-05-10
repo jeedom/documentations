@@ -1,30 +1,30 @@
-# 31/03/2020
+# 30.03.2020
 
-- Correction de bugs
+- Fehlerbehebungen
 
-# 01/08/2019
+# 2019.01.08
 
-- Support de PHP 7.3
+- Unterstützung für PHP 7.3
 
-# 05/06/2018
+# 2018.05.06
 
-- Amélioration de la sécurité du répertoire ressources
+- Verbesserte Sicherheit des Ressourcenverzeichnisses
 
-# 25/05/2018
+# 2018.05.25
 
-- Amélioration de l'interface
-- Ajout d'un message si le json est invalide ou non décodable
-- Ajout d'un champs pour configurer les commandes de type select
+- Verbesserte Oberfläche
+- Hinzufügen einer Nachricht, wenn der JSON ungültig oder nicht decodierbar ist
+- Hinzufügen eines Feldes zum Konfigurieren von Befehlen für ausgewählte Typen
 
-# 25/04/2018
+# 25.04.2008
 
-- Mise à jour de la doc
-- La sauvegarde du script ne ferme plus la fenetre d'édition de celui-ci
+- Aktualisieren des Dokuments
+- Durch das Speichern des Skripts wird das Bearbeitungsfenster nicht mehr geschlossen
 
-# 30/03/2018
+# 2018.03.30
 
-- Correction de la perte de l'icone
+- Korrektur des Verlusts des Symbols
 
-# 13/03/2018
+# 2018.03.13
 
-- Correction de bugs sur le refresh automatique des commandes
+- Behebung von Fehlern bei der automatischen Aktualisierung von Bestellungen

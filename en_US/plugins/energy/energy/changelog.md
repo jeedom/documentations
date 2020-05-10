@@ -1,7 +1,3 @@
-# 01/01/2020
-
-- Amélioration de la gestion des équipements désactivés
-
 # 09/10/2019
 
 - Optimisation
@@ -19,6 +15,6 @@
 
 - Correction bug
 
-# 20/03/2018
+# 2018-03-20
 
 -  Correction d'un bug sur requete SQL

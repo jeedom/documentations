@@ -12,8 +12,6 @@ Configuration
 Le plugin MyHomeSCS permet de dialoguer avec l’ensemble des
 périphériques MyHomeSCS de Legrand via la gateway F454
 
-* ATTENTION : Afin d'utiliser le plugin, il est nécessaire de désactiver l'authentification de la passerelle MyHome et d'autoriser l'adresse IP de JEEDOM dans la liste blanche de la passerelle.
-
 Après l’avoir téléchargé sur le Market, il sera nécessaire de configurer
 l’ip et les ports utilise pour se connecter à la passerelle F454. Le
 port de socket interne : 55005 est le port par défaut utilisé par le
@@ -83,14 +81,8 @@ demande d’info sur le module).
 Dans une prochaine version et avec l’aide de tous, on pourrait imaginer
 que les modules soient reconnus automatiquement
 
-Liste des modules testés 
+Liste des modules connus 
 ------------------------
-
-- Volets roulants : F401
-- DALI : F429
-- Dimmer : F418
-- Switch 4x : F411
-- Détecteur de mouvements : 0 672 26
 
 Ajouter un Equipement 
 ---------------------

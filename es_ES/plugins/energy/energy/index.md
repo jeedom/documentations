@@ -1,7 +1,7 @@
 Ce plugin permet d’établir un bilan énergétique de son habitation en
 fournissant un panel donnant les postes de consommation
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin, il vous faut l’activer. Vous avez
@@ -52,7 +52,7 @@ ainsi que les heures de bascule (3 zones maximum).
 > 0.1 sinon de 0.05. Cela permet si vous avez l’information de la
 > tarification en cours de gérer tous les cas.
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements "énergie" est accessible à partir du
@@ -65,26 +65,26 @@ Voilà à quoi ressemble la page du plugin énergie (ici avec déjà 5
 
 ![energy4](../images/energy4.PNG)
 
-> **Tip**
+> **Sugerencia**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como en muchos lugares en Jeedom, coloque el mouse hacia la izquierda
+> permite abrir un menú de acceso rápido (puede
+>dejarlo siempre visible desde su perfil).
 
 Une fois que vous cliquez sur l’un des équipements, vous obtenez :
 
 ![energy5](../images/energy5.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement** : nom de votre équipement énergie
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: hace visible en el tablero de instrumentos
 
 -   **Type** : permet de choisir le type "d’énergie" (électricité, eau
     ou gaz)
@@ -174,7 +174,7 @@ Une fois dessus vous obtenez :
 
 ![energy10](../images/energy10.PNG)
 
-FAQ 
+Preguntas frecuentes
 ===
 
 Mes compteurs ne semblent pas être en temps réel.

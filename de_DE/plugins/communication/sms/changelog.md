@@ -1,7 +1,3 @@
-# 25/09/2019
-
-- Passage à l'interface jeedom v4
-
 # 11/08/2019
 
 - Support de PHP 7.3
@@ -13,7 +9,7 @@
 
 # 26/04/2018
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 25/04/2018
 

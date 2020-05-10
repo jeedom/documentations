@@ -1,8 +1,4 @@
-# 07/10/2019
-
 - Correction d'un bug lors de l'arret du démon
-- Correction de bugs
-- CETTE MAJ NECESSITE DE RECOMPILER LES DEPENDANCES (RELANCER)
 
 # 19-09-2019
 
@@ -502,7 +498,7 @@
 
     -   Modification du système d’association directe.
 
-    -   Mise à jour de la documentation
+    -   Updated documentation
 
     -   Possibilité de lancer la régénération de la détection du nœud
         pour l’ensemble des modules identiques (marque et modèle).

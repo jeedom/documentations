@@ -1,57 +1,57 @@
-Présentation
+Presentation
 ============
 
-Ce plugin permet de gérer les bornes tenda W301A.
+This plugin makes it possible to manage the tenda W301A terminals.
 
-Il permet d’activer le wifi et de le désactiver.
+It enables wifi and deactivates it.
 
-Installation/Paramétrage
+Installation / Setup
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer sur *''Plugins / Communication / borne tenda W301A*''
+We will now configure a device. To do so, click on * '' Plugins / Communication / terminal tenda W301A*''
 
-Puis cliquer sur le bouton en haut à gauche "*''Ajouter un équipement*''"
+Then click on the button at the top left "* '' Add equipment*''"
 
-Puis saisir le nom de l'équipement (ex. Borne 1)
+Then enter the name of the equipment (ex. Terminal 1)
 
-Puis définir :
+Then define :
 
--   *''Objet parent*''
+-   *''Parent object*''
 
--   *''Catégorie '*'(optionnelle)
+-   *''Category '*' (optional)
 
--   *''Activer '*'(à cocher, sinon l’équipement ne sera pas utilisable)
+-   *''Activate '*' (check, otherwise the equipment will not be usable)
 
--   *''Visible '*'(optionel si vous ne désirez pas le rendre visible sur le Dashboard)
+-   *''Visible '*' (optional if you do not want to make it visible on the Dashboard)
 
--   *''Adresse IP*''
+-   *''IP adress*''
 
 -   *''Compte*''
 
--   *''Mot de passe*''
+-   *''Password*''
 
 FAQ
 ===
 
-A quelle fréquence les données sont-elles mise à jour ?
+How often is the data updated ?
 -------------------------------------------------------
 
-Les données sont rafraichi toutes les minutes.
+Data is refreshed every minute.
 
-Ce plugin ne génère pas de log, comment en avoir ?
+This plugin does not generate a log, how to have it ?
 --------------------------------------------------
-Il est nécessaire au préalable d’activer temporairement le debug de Jeedom (menu Configuration ⇒ Configuration des logs & messages ⇒ Activer + Niveau de log = Debug).
+It is necessary to temporarily activate the Jeedom debug (Configuration menu ⇒ Configuration of logs & messages ⇒ Activate + Log level = Debug).
 
-Pourquoi le plugin est gratuit ?
+Why the plugin is free ?
 --------------------------------
 
-Ce plugin est gratuit pour que chacun puisse en profiter simplement. Si vous souhaitez tout de même faire un don au développeur du plugin, merci de me demander un lien par MP sur le forum.
+This plugin is free so that everyone can simply enjoy it. If you still want to donate to the plugin developer, please ask me for a link by MP on the forum.
 
-J'aimerai remonter des erreurs/modifications directement dans le code ?
+I would like to report errors / modifications directly in the code ?
 -----------------------------------------------------------------------
-C’est tout à fait possible via
-[github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+It is entirely possible via
+[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
-Ou trouver le changelog
+Where to find the changelog
 -----------------------
-[Ici](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Here](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)

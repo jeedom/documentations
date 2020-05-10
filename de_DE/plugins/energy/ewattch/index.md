@@ -1,13 +1,13 @@
 Ewattch 
 =======
 
-Description 
+Beschreibung 
 -----------
 
 Ce plugin permet d’établir et de récupérer les informations du
 superviseur Ewattch.
 
-Configuration du plugin 
+Plugin Konfiguration
 -----------------------
 
 Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
@@ -22,7 +22,7 @@ Vous retrouvez ici la configuration de base :
 -   **Synchroniser** : Permet de synchroniser la liste des équipements
     sur le superviseur avec Jeedom
 
-Configuration des équipements 
+Geräte Konfiguration
 -----------------------------
 
 La configuration des équipements Ewattch est accessible à partir du menu
@@ -41,22 +41,22 @@ Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
 -   **Visible** : le rend visible sur le dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
     plusieurs catégories),
 
 -   **ID** : ID logique de l’équipement dans le superviseur (il est
@@ -81,8 +81,8 @@ En dessous, vous retrouvez la configuration de l’équipement :
 
 -   min/max : bornes de la donnée (peuvent être vides),
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Die erweiterte Steuerung der Konfiguration (Methode der Protokollierung,
     widget…​),
 
 -   Tester : permet de tester la commande,

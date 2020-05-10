@@ -3,19 +3,19 @@ Greenmomit
 
 ![Palazzetti icon](../images/Palazzetti_icon.png)
 
- \
+\
 
 Description 
 -----------
 
 [description.asciidoc](description.asciidoc)
 
-Installation 
+Setup 
 ------------
 
 [installation.asciidoc](installation.asciidoc)
 
-Configuration 
+Setup 
 -------------
 
 [configuration.asciidoc](configuration.asciidoc)
@@ -25,7 +25,7 @@ FAQ
 
 [faq.asciidoc](faq.asciidoc)
 
-CHANGELOG 
+Changelog 
 ---------
 
 [changelog.asciidoc](changelog.asciidoc)

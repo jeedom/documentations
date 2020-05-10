@@ -1,51 +1,47 @@
-# 28/04/2020
+# 
 
-- Correction d'un soucis sur les évenements journée en cours à cheval sur 2 jours
+- 
 
-# 07/04/2020
+# 2019.08.13
 
-- Ajout des évenements sur la journée en cours
+- Unterstützung für PHP 7.3
 
-# 13/08/2019
+# 03/05/2019
 
-- Support de PHP 7.3
-
-# 05/03/2019
-
-- Correction de bugs
+- Fehlerbehebungen
 
 # 03/03/2019
 
-- Ajout d'une commande pour avoir la liste des événements du lendemain
-- Mise à jour d ela doc
+- Hinzufügen einer Bestellung, um die Liste der Ereignisse von morgen anzuzeigen
+- Aktualisierung von doc
 
-# 02/01/2019
+# 01/02/2019
 
-- Correction d'un bug sur les évènements sans titre
+- Korrektur eines Fehlers bei Ereignissen ohne Titel
 
-# 23/11/2018
+# 23.11.2008
 
-- Correction d'un bug sur les évènements sans titre
-- Amélioration de la récuperation des évènements
+- Korrektur eines Fehlers bei Ereignissen ohne Titel
+- Verbesserte Wiederherstellung von Ereignissen
 
-# 30/11/2018
+# 30.11.2008
 
-- Gestion des évenements récurrent
+- Management wiederkehrender Ereignisse
 
-# 28/11/2018
+# 28.11.2008
 
-- Mise à jour de la doc
+- Aktualisieren des Dokuments
 
-# 16/11/2018
+# 16.11.2008
 
-- Mise à jour de la doc
-- Ajout de message d'erreur lors de la connexion
+- Aktualisieren des Dokuments
+- Hinzufügen einer Fehlermeldung während der Verbindung
 
-# 02/11/2018
+# 11/02/2018
 
-- Correction de bug sur la gestion des évènements en cours
-- Support des évènements à la journée
+- Fehlerkorrektur bei der Verwaltung aktueller Ereignisse
+- Unterstützung für tägliche Veranstaltungen
 
-# 22/03/2018
+# 22.03.2008
 
-- Version initiale
+- Erstveröffentlichung

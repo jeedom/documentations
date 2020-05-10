@@ -27,7 +27,7 @@ une latence, évitant le décalage entre les sorties son
 HDMI/Jack/Bluetooth, parfait pour le mode soirée à la foi sur la
 terrasse avec les enceintes Bluetooth et dans la salle avec l’ampli !
 
-Configuration 
+Konfiguration
 =============
 
 Installation du plugin 
@@ -56,7 +56,7 @@ vérifier s’il y a des éventuelles erreurs
 
 ![image](index_html_1857092a331f01.png)
 
-Configuration du plugin 
+Plugin Konfiguration
 -----------------------
 
 De retour dans la configuration du plugin Pulseaudio, dans la section
@@ -66,7 +66,7 @@ De retour dans la configuration du plugin Pulseaudio, dans la section
 
 Enfin, sauvegardez les modifications.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 Pour accéder à la configuration des équipements PulseAudio, aller dans
@@ -89,7 +89,7 @@ Renseignez les différents champs :
 -   **Nom de l’enceinte Bluetooth** : le nom de votre équipement
 
 -   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+    Gerät gehört
 
 -   **Port clé Bluetooth** : sélection du port de votre émetteur
     Bluetooth utilisé pour ce profil
@@ -98,7 +98,7 @@ Renseignez les différents champs :
 
 -   **Commentaire** : perme d’ajouter un commentaire
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
 
 Cliquez sur l’assistant d’appairage :
 
@@ -146,7 +146,7 @@ Activez, puis Enregistrez l’équipement :
 
 ![image](index_html_b314d3c57bca2c32.png)
 
-FAQ 
+FAQ
 ===
 
 **Comment vérifier le status de mon service associé à mon enceinte ?.**

@@ -7,7 +7,7 @@ compatibles avec le module RFXCOM USB. Parmi ces périphériques on
 retrouve les marques suivantes : Oregon, LaCross, Chacon, X10, DI-O,
 Blyss, etc.
 
-Configuration du plugin
+Plugin configuration
 =======================
 
 Après installation du plugin, il vous suffit de l’activer et de mettre
@@ -105,14 +105,14 @@ commandes.
 -   **ID** : l’id de votre sonde (à ne modifier qu’en connaissance
     de cause)
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   **Category**: categories of equipment (it may belong to
     plusieurs catégories)
 
 -   **Ne pas vérifier la batterie** : indique à Jeedom de ne pas vous
@@ -192,7 +192,7 @@ commandes.
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
 -   supprimer (signe -) : permet de supprimer la commande
 

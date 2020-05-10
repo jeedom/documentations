@@ -1,7 +1,7 @@
 Waze in Time 
 ============
 
-Description 
+Description
 -----------
 
 Ce plugin permet d’avoir les infos de trajet (trafic pris en compte) via
@@ -10,12 +10,12 @@ interroge son site
 
 ![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
-Configuration 
+Configuration
 -------------
 
 ### Configuration du plugin: 
 
-a.  Installation/Création
+a. Installation/Creation
 
 Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
 l’activer comme tout plugin Jeedom.
@@ -100,7 +100,7 @@ Les infos sont rafraichies une fois toutes les 30 minutes. Vous pouvez
 les rafraîchir à la demande via scénario avec la commande rafraîchir, ou
 via le dash avec les doubles flêches
 
-Changelog 
+Changelog
 =========
 
 Changelog détaillé :

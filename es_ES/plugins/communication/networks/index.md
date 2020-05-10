@@ -1,101 +1,101 @@
-Ce plugin permet de faire un ping ou un wake-on-lan sur un équipement
-réseau.
 
-Configuration du plugin 
+Red.
+
+Configuración del plugin 
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el complemento, solo necesita activarlo,
+no hay configuración a este nivel.
 
 ![networks](../images/networks.PNG)
 
-Configuration des équipements 
+Configuración del equipo 
 =============================
 
-La configuration des équipements Networks est accessible à partir du
-menu plugin :
+
+menú de complementos :
 
 ![networks2](../images/networks2.PNG)
 
-Voilà à quoi ressemble la page du plugin Networks (ici avec déjà 1
-équipement) :
+
+equipos) :
 
 ![networks3](../images/networks3.PNG)
 
-> **Tip**
+> **Punta**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> 
+> 
+> .
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+ :
 
 ![networks4](../images/networks4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Networks** : nom de votre équipement Networks,
+-   **** : ,
 
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
+-   **Categoría** : ,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Activar** : activa su equipo,
 
--   **Visible** : rend votre équipement visible sur le Dashboard,
+-   **Visible** : hace que su equipo sea visible en el tablero,
 
--   **Adresse IP** : adresse IP sur laquelle faire le ping,
+-   **Dirección IP** : ,
 
--   **Adresse MAC (wol)** : adresse MAC pour le wake-on-lan,
+-   **** : ,
 
--   **Broadcast IP (wol)** : adresse IP de broadcast du réseau pour     envoyer le wake-on-lan,
+-   **** : ,
 
--   **Méthode de ping** : Choix de la méthode de ping : IP (normal), ARP (à privilégier pour les téléphone ou périphériques qui s'endorment), PORT (pour tester si un port est ouvert)
+-   **** :  : 
     
--   **TTL** : Time-to-live, les valeurs peuvent être : 
-    - 0 : même hôte
-    - 1 : même sous-réseaux
-    - 32 : même site
-    - 64 : même région
-    - 128 : même continent
-    - 256 : aucune limite
-Si vous avez une erreur de type 'Time to live exceeded' , il faut augmenter cette valeur. Si vide, alors le paramètre vaut 255. A noter que sur certaines configuration (Docker par exemple) le 255 n'est pas autorisé il faut donc diminuer cette valeur.
+-   **** :  : 
+    - 0 : 
+    - 1 : 
+    - 32 : 
+    - 64 : 
+    - 128 : 
+    - 256 : 
+. . .
 
--   **Port** : Port sur lequel faire le ping si vous êtes en mode ping sur un port (exemple : 8080 pour 192.168.0.12:8080),
+-   **Puerto** : 
 
--   **Auto-actualisation (cron)** : cron définissant la fréquence du ping,
+-   **Actualización automática (cron)** : .
 
-En-dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de pedidos. :
 
--   **Nom** : le nom affiché sur le Dashboard,
+-   **Nombre** : el nombre que se muestra en el tablero,
 
--   **Afficher** : permet d’afficher la donnée sur le Dashboard,
+-   **Mostrar** : permite mostrar los datos en el tablero,
 
--   **Tester** : permet de tester la commande.
+-   **Probar** : Se usa para probar el comando.
 
-> **Note**
+> **Nota**
 >
-> Jeedom va vérifier toutes les minutes (par défaut) le ping sur l’IP.
+> .
 
-> **Important**
+> **Importante**
 >
-> Si vous ne renseignez pas l’adresse MAC et broadcast alors vous
-> n’aurez pas de commande wake-on-lan.
+> 
+> .
 
-> **Note**
+> **Nota**
 >
-> L’adresse MAC doit être de la forme : 5E:FF:56:A2:AF:15
+>  : ::56:::15.
 
-Widgets 
+Reproductores 
 =======
 
-Exemple de widget (sans le wake-on-lan) en vue desktop :
+ :
 
 ![networks5](../images/networks5.PNG)
 
-Et en vue mobile :
+ :
 
 ![networks6](../images/networks6.PNG)
 
-Changelog détaillé :
-<https://jeedom.github.io/plugin-networks/fr_FR/changelog>
+Registro de cambios detallado :
+<https://github.com/jeedom/plugin-networks/commits/stable>

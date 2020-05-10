@@ -1,15 +1,15 @@
-# 09/05/2019
+# 05/09/2019
 
-- Correction de de bug (merci @Salvialf)
+- Bug correction (thanks @Salvialf)
 
-# 16/10/2018
+# 10/16/2018
 
-- Correction d'un bug sur l'option "Appliquer sur" lorsque les commandes sont invisibles
+- Correction of a bug on the "Apply on" option when the commands are invisible
 
-# 05/07/2018
+# 07/05/2018
 
-- Correction d'un bug sur les images
+- Correction of a bug on the images
 
-# 25/04/2018
+# 04/25/2018
 
-- Correction d'un soucis d'envoi de widget sur le market
+- Fixed a problem with sending a widget to the market

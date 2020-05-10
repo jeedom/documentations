@@ -3,7 +3,7 @@ Sonos Connect AMP et Sonos Playbar. Il va vous permettre de voir l’état
 du/des Sonos et d’effectuer des actions dessus (lecture, pause, suivant,
 précédent, volume, choix d’une playlist…​)
 
-# Configuration du plugin
+# Plugin configuration
 
 La configuration est très simple, après téléchargement du plugin, il
 vous suffit de l’activer et c’est tout. Le plugin va rechercher les
@@ -35,30 +35,30 @@ Sonos en donnant l’IP à Jeedom ou cliquer sur "Rechercher les
 > Les messages trop longs ne peuvent être transmis en TTS (la limite
 > dépend du fournisseur de TTS, en général environ 100 caractères)
 
-# Configuration des équipements
+# Equipment configuration
 
 La configuration des équipements Sonos est accessible à partir du menu
 Plugins puis multimedia
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement Sonos** : nom de votre équipement Sonos
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
+-   **Enable**: makes your equipment active
+-   **Visible**: makes it visible on the dashboard
 -   **Modèle** : le modèle de votre Sonos (à ne changer que si ce n’est
     pas le bon)
 -   **IP** : l’IP de votre Sonos, peut être utile si votre Sonos change
     d’IP ou si vous le remplacez
 
-En-dessous vous retrouvez la liste des commandes :
+Below you will find the list of commands:
 
--   **Nom** : nom de la commande
+-   **Name**: name of the command
 -   **Configuration avancée (petites roues crantées)** : permet
     d’afficher la configuration avancée de la commande (méthode
     d’historisation, widget…​)
--   **Tester** : permet de tester la commande
+-   **Test**: allows to test the command
 
 Comme commande vous retrouverez :
 
@@ -84,16 +84,16 @@ Comme commande vous retrouverez :
 -   **Aléatoire** : inverse le statut du mode aléatoire
 -   **Répéter statut** : indique si on est en mode répété ou non
 -   **Répéter** : inverse le statut du mode "répéter"
--   **Image** : lien vers l’image de l’album
--   **Album** : nom de l’album en cours de lecture
--   **Artiste** : nom de l’artiste en cours de lecture
--   **Piste** : nom de la piste en cours de lecture
+-   **Image**: link to the image of the album
+-   **Album**: name of the album being played
+-   **Artist**: name of artist currently playing
+-   **Track**: name of the track being played
 -   **Muet** : passe en muet
 -   **Précédent** : piste précédente
 -   **Suivant** : piste suivante
 -   **Lecture** : passer en lecture
--   **Pause** : mettre en pause
--   **Stop** : arrêter la lecture
+-   **Pause**: pause
+-   **Stop**: stop playing
 -   **Volume** : modifier le volume (de 0 à 100)
 -   **Volume statut** : niveau du volume
 -   **Statut** : statut (pause, lecture, transition…​)
@@ -166,6 +166,6 @@ Sonos. Disponible à partir du menu Accueil → Sonos Controller :
 
 # FAQ
 
-** Erreur "No devices in this collection" lors de la recherche d'équipement **
+**Erreur "No devices in this collection" lors de la recherche d'équipement**
 >
 > Cette erreur arrive si la decouverte automatique est bloquée (routeur qui bloque le boradcast par exemple). Ce n'est pas grave il vous faudra juste ajouter à la main vos sonos en précisant le model et l'IP.

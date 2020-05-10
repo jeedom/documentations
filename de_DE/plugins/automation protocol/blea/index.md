@@ -141,7 +141,7 @@ Si il n'y a pas eu d'erreur et que votre antenne est bien créée dans le plugin
 4) Si tout c'est bien déroulé, vous pouvez cliquer sur "Lancer le démon", après maximum une minute la date de dernière communication devrait se mettre à jour, cela veut dire que le démon communique correctement avec le plugin BLEA.
 5) Dernière étape optionnelle mais recommandée: activez la gestion automatique du démon en cliquant sur le bouton correspondant. Cela fera en sorte que le plugin tentera de relancer automatiquement le démon distant en cas de perte de connexion (pratique si votre pi distant a été temporairement débranché du secteur ou qu'il a été redémarré suite à des mises à jours).
 
-Changelog
+Änderungsprotokoll
 =========
 
 Changelog détaillé :

@@ -4,7 +4,7 @@
 
 # 03/06/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 14/05/2019
 
@@ -24,7 +24,7 @@
 
 # 04/04/2018
 
-- Correction de bugs
+- Corrección de errores
 
 # 22/03/2018
 

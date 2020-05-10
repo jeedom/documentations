@@ -1,6 +1,6 @@
 Ce plugin permet d’envoyer un évènement à IFTTT
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après téléchargement du plugin il vous faut l’activer, celui-ci ne
@@ -8,7 +8,7 @@ nécessite aucune autre configuration.
 
 ![ifttt7](../images/ifttt7.PNG)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements IFTTT est accessible à partir du menu
@@ -21,17 +21,23 @@ Voilà à quoi ressemble la page du plugin IFTTT (ici avec déjà 1
 
 ![ifttt9](../images/ifttt9.PNG)
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+> **Tip**
+>
+> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
+> permet de faire apparaître un menu d’accès rapide (vous pouvez à
+> partir de votre profil le laisser toujours visible)
+
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![ifttt10](../images/ifttt10.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement** : nom de votre équipement IFTTT
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren**: auf Ihre aktiven Geräte machen
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: macht es sichtbar auf dem Armaturenbrett
 
 -   **Clef** : clef IFTTT que vous trouverez dans la configuration du
     service Webhooks (qui remplace channel maker)
@@ -48,11 +54,11 @@ En dessous vous retrouvez la configuration des commandes :
     fonction du sous-type vous pouvez utiliser les tags : \#color\#,
     \#slider\#, \#message\# et \#title\#
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
 -   supprimer (signe -) : permet de supprimer la commande
 
@@ -267,7 +273,3 @@ voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
 >
 > Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne
 > sera pas prévenu lors de votre sortie de la zone
-
-> **NOTE**
->
-> Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https://ifttt.com/maker_webhooks) puis cliquer sur documentation

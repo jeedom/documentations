@@ -4,7 +4,7 @@ Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea
 Tradfri. Vous pourrez controller vos lumières et avoir un retour d’état
 temps réel.
 
-# Configuration
+# Configuración
 
 ## Configuration du plugin
 

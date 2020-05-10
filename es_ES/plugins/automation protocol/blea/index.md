@@ -9,11 +9,9 @@ Ce plugin est un plugin permettant de pouvoir recevoir les événements de certa
 
 ![blea icon](../images/blea_icon.png)
 
-Configuration
--------------
+Configuracion
 
-Configuration du plugin
-========================
+Configuracion del plugin
 
 a.  Installation/Création
 

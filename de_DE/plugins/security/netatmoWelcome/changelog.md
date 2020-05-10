@@ -1,6 +1,6 @@
 # 16/10/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 14/10/2019
 

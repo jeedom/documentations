@@ -1,94 +1,90 @@
-# 07/04/2020
-
-- Correction de bugs
-
 # 21/12/2019
 
-- Ajout d'option pour le seuil de cycle chaud afin de permetre la prise en compte de l'inertie
+- Adición de opción para el umbral del ciclo caliente para permitir tener en cuenta la inercia
 
 # 17/12/2019
 
-- Correction d'un soucis d'affichage
-- Ajout d'une option "Seuil de cycle ou le chauffage est considéré comme chaud"
+- Problemas de visualización solucionados
+- Adición de una opción "Umbral de ciclo o calefacción se considera caliente"
 
 # 16/12/2019
 
-- Correction de bug sur le mode off du thermostat
-- Ajout d'une option pour limiter la durée d'un second cycle à 100% du temps (permet de prendre en compte le faite que les radiateurs sont déjà chaud)
+- Corrección de errores en modo apagado del termostato
+- Adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta el hecho de que los radiadores ya están calientes)
 
 # 03/11/2019
 
-- Correction d'un bug sur les commandes orpheline
+- Corrección de un error en los comandos huérfanos.
 
 # 23/10/2019
 
-- Correction d'un bug sur le off
+- Corrección de un error en off
 
 # 23/10/2019
 
-- Correction de bugs
+- Correcciones de errores
 
-# 06/10/2019
+# 10/06/2019
 
-- Mise à jour de la FAQ sur les soucis de non affichage des actions/modes
+- Actualización de las preguntas frecuentes sobre las preocupaciones de la no visualización de acciones / modos
 
-# 01/10/2019
+# 10/01/2019
 
-- Correction de bugs
+- Correcciones de errores
 
 # 15/08/2019
 
-- Mise à jour de la doc
-- Support de php 7.3
+- Actualizando el documento
+- Soporte para php 7.3
 
-# 02/07/2019
+# 07/02/2019
 
-- Correction de bugs
+- Correcciones de errores
 
 # 30/04/2019
 
-- Amélioration de l'interface
+- Interfaz mejorada
 
 # 29/04/2019
 
-- Ajout d'une option "Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID". Merci @Pierrick
+- Adición de una opción "Limita los ciclos de encendido / apagado incesante (pellet, gas, fuel oil) y PID". Gracias @Pierrick
 
 # 11/03/2019
 
-- Possibilité d'ajouter un message d'alerte si le thermostat est suspendu depuis plus de XX minutes
-- Ajout en mode temporel d'un delta de consigne
-- Correction de bugs
+- Posibilidad de agregar un mensaje de alerta si el termostato ha estado suspendido por más de XX minutos
+- Agregar un punto de ajuste delta en modo de tiempo
+- Correcciones de errores
 
-# 04/01/2019
+# 01/04/2019
 
-- Correction d'un bug sur le smart start si l'agenda est désactivé après la planification
+- Corrección de un error en el inicio inteligente si el calendario se desactiva después de la planificación
 
 # 28/12/2018
 
-- Correction de bug sur le panel mobile
+- Corrección de errores en el panel móvil.
 
 # 27/11/2018
 
-- Correction de bug
+- Corrección de errores
 
 # 20/11/2018
 
-- Ajout d'un calcul de performance (kWh/DJU) si une commande de consommation est donnée au plugin
-- Correction d'un bug sur la gestion des alertes de défaillance des sondes de température
-- Ajout d'un champs pour une commande d'humidité (utile uniquement pour le plugin Google Smarthome)
+- Agregar un cálculo de rendimiento (kWh / DJU) si se da un comando de consumo al complemento
+- Corrección de un error en la gestión de alertas de falla del sensor de temperatura
+- Adición de un campo para un control de humedad (solo útil para el complemento Google Smarthome)
 
 # 01/07/2018
 
-- Correction d'un bug sur la suspension du thermostat lors de l'ouverture d'une fenetre
+- Corrección de un error en la suspensión del termostato al abrir una ventana
 
 # 06/06/2018
 
-- Correction de bug
+- Corrección de errores
 
 # 23/02/2018
 
-- Correction d'un warning dans le code
+- Corrección de una advertencia en el código.
 
 # 29/01/2018
 
-- Correction de bug sur les ouvertures/fermetures de fênetres
+- Corrección de errores en aperturas / cierres de ventanas

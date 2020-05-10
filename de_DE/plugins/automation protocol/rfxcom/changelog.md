@@ -18,7 +18,7 @@
 
 - Correction d'un bug si le niveau de log est sur aucun
 - Support du MCZ 3 fan
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 08/10/2018
 
@@ -36,7 +36,7 @@
 
 # 17/03/2018
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 28/02/2018
 

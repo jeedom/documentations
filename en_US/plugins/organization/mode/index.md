@@ -1,37 +1,36 @@
-Plugin permettant de gérer différents modes d’un
-appartement/maison/pièce, mais aussi des ambiances.
+Plugin to manage different modes of apartment / house / room but also atmospheres.
 
-Configuration du plugin
+Plugin configuration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just have to activate it,
+there is no configuration at this level.
 
 Configuration des équipements
 =============================
 
-La configuration des équipements mode est accessible à partir du menu
-plugin puis organisation :
+The configuration of the equipment mode is accessible from the menu
+plugin then organization:
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   **Name of the equipment Mode**: name of your equipment Mode,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object** : means the parent object the equipment depend
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible**: makes your equipment visible on the dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   **Category**: categories of equipment (it may belong to
+    several categories).
 
--   **Ajouter mode** : bouton permettant d’ajouter un nouveau mode
+-   **Add mode**: button to add a new mode
 
-En-dessous vous retrouvez la liste des modes, en cliquant dessus vous
-allez pouvoir choisir les actions à faire lors de l’entrée dans ce mode
-et lors de la sortie.
+Below you find the list of modes, by clicking on them
+you will be able to choose the actions to be done when entering this mode
+and at the exit.
 
 >**IMPORTANT**
 >

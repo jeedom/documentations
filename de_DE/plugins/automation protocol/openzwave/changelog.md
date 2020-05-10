@@ -1,8 +1,4 @@
-# 07/10/2019
-
 - Correction d'un bug lors de l'arret du démon
-- Correction de bugs
-- CETTE MAJ NECESSITE DE RECOMPILER LES DEPENDANCES (RELANCER)
 
 # 19-09-2019
 
@@ -69,7 +65,7 @@
 ===
 
 
--   New Features
+-   Neue Eigenschaften
 
     -   Possibilité de rafraichir les commandes d’un équipement sans
         supprimer les existantes.
@@ -91,7 +87,7 @@
 
     -   Récupération du dernier niveau des piles au démarrage du démon.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction de la migration de l’info Batterie.
 
@@ -131,16 +127,16 @@
 2017-06-20
 ===
 
--   New Features
+-   Neue Eigenschaften
 
-    -   N/A
+    -   keine Änderung
 
 -   Improvements/Enhancements
 
     -   Ajout l’ensemble des configurations de modules au
         nouveau format.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Ne pas tester si un nodeId existe lors de la suppression
         d’un association.
@@ -164,30 +160,30 @@
 2017-06-13
 ===
 
--   New Features
+-   Neue Eigenschaften
 
-    -   N/A
+    -   keine Änderung
 
 -   Improvements/Enhancements
 
     -   Ajout de configuration de module Fibaro US
 
--   Bug Fixes
+-   Fehlerbehebungen
 
-    -   N/A
+    -   keine Änderung
 
 2017-05-31
 ===
 
--   New Features
+-   Neue Eigenschaften
 
-    -   N/A
+    -   keine Änderung
 
 -   Improvements/Enhancements
 
-    -   N/A
+    -   keine Änderung
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction de l’assignation des valeurs au format RAW des codes
         pour lecteur RFid.
@@ -195,7 +191,7 @@
 2017-05-23
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Suppression du mode maître / esclave. Remplacé par le plugin
         jeedom link.
@@ -252,7 +248,7 @@
     -   Le niveau des piles est directement envoyé à l’écran de pile sur
         réception de rapport du niveau.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Rafraîchissement de l’ensemble des instances suite à un
         broadcast de la CC Switch ALL.
@@ -260,7 +256,7 @@
 2016-08-26
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Aucune
 
@@ -270,7 +266,7 @@
 
     -   Activer le mode d’inclusion en non-sécurisé par défaut.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Test des informations constructeur dans l’écran de santé ne
         remonte plus des NOK.
@@ -281,7 +277,7 @@
 2016-08-17
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Relance du demon si détection du contrôleur en timeout lors de
         l’initialisation du contrôleur.
@@ -294,7 +290,7 @@
 
     -   Refonte de l’écran équipements avec onglets.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Problème d’affichage de certains modules sur la table de routage
         et Graph réseau.
@@ -307,7 +303,7 @@
 2016-07-11
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Prise en charge de la restauration du dernier niveau connue sur
         les dimmer.
@@ -375,7 +371,7 @@
 
     -   Mise à jour de la documentation du plugin.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction de possible problèmes lors de la mise à jour des
         configurations de modules.
@@ -393,7 +389,7 @@
 2016-05-30
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Ajout d’une option pour activer/désactiver les contrôles
         sanitaires sur l’ensemble des modules.
@@ -438,7 +434,7 @@
     -   Correction de l’orthographe de la documentation, merci
         @Juan-Pedro aka: kiko.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction orthographe.
 
@@ -450,7 +446,7 @@
 2016-05-04
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Ajout d’option pour désactiver l’actualisation en arrière-plan
         des variateurs.
@@ -532,7 +528,7 @@
     -   Forcer une actualisation de l’état des interrupteurs et dimer
         suite à l’envoi d’une commande switch all.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction de la découverte des groupes d’associations.
 
@@ -551,7 +547,7 @@
 2016-03-01
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Ajout du bouton Configuration via l’écran de gestion
         des équipements.
@@ -577,7 +573,7 @@
 
     -   Mise à jour de la documentation.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Documentation Corrections orthographiques et grammaticales.
 
@@ -592,7 +588,7 @@
 
     -   Pas d’alerte de nœud mort si celui-ci est désactivé.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Correction fil pilote Fibaro retour d’état.
 
@@ -602,7 +598,7 @@
 2016.02.09
 ===
 
--   New Features
+-   Neue Eigenschaften
 
     -   Ajout du push notification en case de node\_event, permet la
         mise en place d’une cmd info en CC 0x20 pour récupérer des
@@ -672,7 +668,7 @@
 
     -   Amélioration des warning sur les thermostats sur piles.
 
--   Bug Fixes
+-   Fehlerbehebungen
 
     -   Température convertie en Celsius retourne l’unité C à la place
         de F.

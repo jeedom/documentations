@@ -1,13 +1,13 @@
 Ewattch 
 =======
 
-Description 
+Description
 -----------
 
 Ce plugin permet d’établir et de récupérer les informations du
 superviseur Ewattch.
 
-Configuration du plugin 
+Plugin configuration
 -----------------------
 
 Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
@@ -22,7 +22,7 @@ Vous retrouvez ici la configuration de base :
 -   **Synchroniser** : Permet de synchroniser la liste des équipements
     sur le superviseur avec Jeedom
 
-Configuration des équipements 
+Equipment configuration
 -----------------------------
 
 La configuration des équipements Ewattch est accessible à partir du menu
@@ -41,22 +41,22 @@ Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object** : means the parent object the equipment depend
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
--   **Visible** : le rend visible sur le dashboard,
+-   **Visible**: makes it visible on the dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   **Category**: categories of equipment (it may belong to
     plusieurs catégories),
 
 -   **ID** : ID logique de l’équipement dans le superviseur (il est
@@ -66,7 +66,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
 En dessous, vous retrouvez la configuration de l’équipement :
 
--   le nom affiché sur le dashboard,
+-   the name displayed on the dashboard,
 
 -   le sous-type,
 
@@ -82,7 +82,7 @@ En dessous, vous retrouvez la configuration de l’équipement :
 -   min/max : bornes de la donnée (peuvent être vides),
 
 -   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
+    the advanced configuration of the command (historization method,
     widget…​),
 
 -   Tester : permet de tester la commande,

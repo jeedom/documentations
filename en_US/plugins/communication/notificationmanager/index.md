@@ -1,27 +1,27 @@
-Ce plugin permet de gerer les notifications (reprise en case d'erreur, generation de texte...)
+This plugin allows to manage the notifications (recovery in case of error, generation of text ...)
 
-# Configuration du plugin
+# Plugin configuration
 
-Après téléchargement du plugin, il vous faudra simplement activer le
+After downloading the plugin, you will only have to activate the
 plugin
 
-# Configuration des équipements
+# Device configuration
 
-## Equipement
+## Device
 
-La configuration des équipements Notification Manager est accessible à partir du menu
-Plugins puis Communication
+The configuration of the Notification Manager devices is accessible from the menu
+Plugins then Communication
 
 Vous retrouverez ici la configuration de votre équipement :
 
-- Nom de l'équipement notifier : nom de l'équipement
-- Objet parent : son objet parent
-- Activer
+- Notify device name: name of the device
+- Parent object: its parent object
+- Enable
 - Visible
 
-## Commande
+## Command
 
-C'est ici que vous allez pouvoir ajouter des commandes de notifications. Une fois ajouter pour chaque commande vous allez pouvoir definir les commandes de type message a utiliser dans l'ordre des prioritées.
+This is where you will be able to add notifications commands. Once added for each command you will be able to define the message commands to be used in the order of precedence.
 
 Vous avez comme options :
 
@@ -32,34 +32,34 @@ Vous avez comme options :
 > Vous avez aussi un test par commande dans la notification
 
 
-**Exemple simple**
+**Simple example**
 
-Exemple vous pouvez mettre en premier une commande de type Slack puis une commande de type SMS. Si l'envoi par Slack ne marche pas alors il envera le message sur SMS
+Example you can put first a Slack command and then an SMS command. If sending by Slack does not work then it will send the message via SMS
 
-**Exemple plus complexe**
+**More complex example**
 
-Exemple vous pouvez mettre en premier une commande de type Slack et une commande SMS (dans la meme case séparé par des &&), puis mail. Lors de l'utilisation le plugin va d'abord envoyé le message sur Slack et SMS, si les deux ne marchent pas alors il enverra par mail
+Example you can put first a Slack command and an SMS command (in the same box separated by &&), then mail. When used the plugin will first send the message on Slack and SMS, if both do not work then it will send it by email
 
-# Génération de texte
+# Text generation
 
 Le plugin offre aussi une possibilité de generation de texte pour que les messages ne soit pas toujours les meme. Le systeme est le meme que pour les interactions :
-- [Coucou\|Salut] ca va ? => Donnera soit "Coucou ca va ?" ou  "Salut ca va ?"
+- [Hey\|Hi] how are you? => Will give either "Hey how are you?" or "Hi how are you?"
 
-# Texte conditionnel
+# Conditional text
 
-Vous pouvez aussi mettre du texte conditionnel sous la forme {(test) ? vrai : faux}.
+You can also put conditional text as {(test)? true : false}.
 
 > **IMPORTANT**
 >
-> Il faut absolument mettre le test (la condition) entre parenthèse
+> It is absolutely necessary to put the test (the condition) between brackets
 
 Voici un exemple pour la méteo du matin avec texte conditionnel et génération de texte :
 
-\[Bonjour\|Salut\|Coucou\] \[j'espères que tu as bien dormis ?\|bien dormis ?\|ça va ?\] . \[Aujourd'hui il fera\|Aujourd'hui le temps sera\|La météo annonce\] \#[Maison\]\[Météo\]\[Condition\]\# \[et la température sera de\|avec\] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \[oula il va faire froid\|oula il caille\]: } \#\[Maison\]\[Météo\]\[Température Max\]\# degrés.
+\[Hello\|Hi\|Hey\] \[I hope you slept well?\|Did you get a good night?\|How are you?\]. \[Today it will be\|Today the weather will be\|Weather forecast\]\#[House\]\[Weather\]\[Condition\]\#\[and the temperature will be\|\] {(\#\[House\]\[Weather\]\[Temperature Max\]\#<6)?\[gonna be cold\it is freezing outside\]:} \#\[House\]\[Weather\]\[Temperature Max\]\# degrees.
 
 FAQ
 ===
 
->**Le plugin gere t-il ask ?**
+> **Does the plugin handle ask feature?**
 >
->Oui le plugin gere le ask.
+> Yes the plugin handles ask feature.

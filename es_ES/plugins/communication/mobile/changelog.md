@@ -1,18 +1,18 @@
-Changelog 
+Cambios 
 =========
 
-# 31/03/2020
+# 
 
-- Correction d'un bug sur l'envoi de notification sur certain Jeedom
+- 
 
 # 19/02/2020
 
--fix http.error ligne 39 si téléphone non authentifié a la premiere connexion.
+-arreglar http.línea de error 39 si el teléfono no está autenticado en la primera conexión.
 
 # v1.3.0 
 
-- Notification ASK
-- Historique des notifications
-- Slider avec pourcentage
-- grosse modification de la synchronisation
-- suppression du push to refresh
+- Pedir notificación
+- Historial de notificaciones
+- Control deslizante con porcentaje
+- gran cambio en el tiempo
+- eliminación de empuje para actualizar

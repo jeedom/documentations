@@ -1,7 +1,7 @@
 Harmony Hub 
 ===========
 
-Description 
+Beschreibung 
 -----------
 
 Ce plugin permet de controller et de récupérer tous les dispositifs de
@@ -17,7 +17,7 @@ Ce plugin de récupérer vos activités et vos dispositifs. Et ensuite de
 pouvoir ajouter automatiquement toutes les commandes associées, pour
 pouvoir les controller via scénarios, virtuels, dashboard etc…​.
 
-Configuration 
+Konfiguration
 -------------
 
 ### Configuration du plugin Harmony Hub : 

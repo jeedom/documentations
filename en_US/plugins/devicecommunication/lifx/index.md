@@ -1,7 +1,7 @@
 Lifx 
 ====
 
-Description 
+Description
 -----------
 
 Plugin permettant d’interagir avec les ampoules Lifx (en Local)
@@ -34,8 +34,8 @@ Configuration : Scanner votre réseau
 Pour configurer le plugin, vous devez scanner votre réseau
 automatiquement via le plugin.
 
-Pour Ajouter des Lifx automatiquement : **Plugins** -→ **Objets
-communicants** -→ **Lifx** -→ **Scanner**
+Pour Ajouter des Lifx automatiquement : **Plugins**-→**Objets
+communicants**-→**Lifx**-→**Scanner**
 
 ![doc lifx 3](../images/doc_lifx_3.png)
 
@@ -62,11 +62,11 @@ Créer un nouveau mode Couleur
 Si une couleur que l’on applique avec l’application Lifx nous plaît, on
 peut facilement la récupérer dans le plugin Lifx.
 
-Il suffit pour cela de se rendre dans **Plugins** -→ **Objets
-communicants** -→ **Lifx** -→ puis choisir la lifx où on souhaite copier
+Il suffit pour cela de se rendre dans **Plugins**-→**Objets
+communicants**-→**Lifx** -→ puis choisir la lifx où on souhaite copier
 la couleur
 
-Puis après cliquez sur **tester** sur la commande **Créer un mode**
+Puis après cliquez sur **tester**sur la commande**Créer un mode**
 
 ![doc lifx 7](../images/doc_lifx_7.png)
 

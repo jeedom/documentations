@@ -1,16 +1,16 @@
-Description 
+Beschreibung
 ===========
 
 Plugin servant à piloter une clef blink(1).
 
-Configuration 
+Konfiguration
 =============
 
 Le plugin ne nécessite aucune configuration, il faut juste l’activer :
 
 ![blink1](../images/blink1.png)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements blink(1) est accessible à partir du
@@ -34,23 +34,23 @@ Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement blink(1)** : nom de votre équipement blink(1)
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren**: auf Ihre aktiven Geräte machen
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: macht es sichtbar auf dem Armaturenbrett
 
 -   **Mode** : le mode dans lequel vous voulez faire fonctionner
     votre blink(1) (voir plus bas pour la description)
 
 Ci-dessous vous retrouvez la liste des commandes :
 
--   le nom affiché sur le dashboard
+-   Der Name, der auf dem Armaturenbrett angezeigt wird
 
 -   le type et le sous-type
 
@@ -62,11 +62,11 @@ Ci-dessous vous retrouvez la liste des commandes :
 
 -   afficher : permet d’afficher la donnée sur le dashboard
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
 -   supprimer (signe -) : permet de supprimer la commande
 

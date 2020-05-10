@@ -6,11 +6,11 @@ Plugin servant à piloter une clef blink(1).
 Configuration 
 =============
 
-Le plugin ne nécessite aucune configuration, il faut juste l’activer :
+El plugin no requiere ninguna configuración, solo actívelo :
 
 ![blink1](../images/blink1.png)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements blink(1) est accessible à partir du
@@ -28,22 +28,22 @@ Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
 
 ![blink4](../images/blink4.png)
 
-> **Tip**
+> **Sugerencia**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como en muchos lugares en Jeedom, coloque el mouse hacia la izquierda
+> permite abrir un menú de acceso rápido (puede
+>dejarlo siempre visible desde su perfil).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement blink(1)** : nom de votre équipement blink(1)
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: hace visible en el tablero de instrumentos
 
 -   **Mode** : le mode dans lequel vous voulez faire fonctionner
     votre blink(1) (voir plus bas pour la description)
@@ -54,7 +54,7 @@ Ci-dessous vous retrouvez la liste des commandes :
 
 -   le type et le sous-type
 
--   la valeur : permet de donner la valeur de la commande en fonction
+-   el valor: permite dar el valor del comando de acuerdo.
     d’une autre commande, d’une clef (cas d’un interrupteur virtuel),
     d’un calcul…​.
 
@@ -66,7 +66,7 @@ Ci-dessous vous retrouvez la liste des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Prueba: prueba el comando
 
 -   supprimer (signe -) : permet de supprimer la commande
 

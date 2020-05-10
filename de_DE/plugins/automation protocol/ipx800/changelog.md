@@ -1,60 +1,56 @@
-# 2020-04-12
+# 2019.12.27
 
-- Correction de bug avec jeedom v4
+- Fehlerbehebung für das xmlstatus-Attribut
 
-# 27/12/2019
+# 10/11/2018
 
-- Correciton de bug sur l'attribut xmlstatus
+- Fehlerbehebungen bei Jeedom V4
 
-# 11/10/2018
+# 16.10.2008
 
-- Correction de bugs sur Jeedom V4
+- Fehler Fehlerkorrektur
 
-# 16/10/2018
+# Alte Entwicklungen
 
-- Correction de bug sur le push
-
-# Anciennes évolutions
-
--   Ajout de configuration push pour entrée analogique
--   Ajout d’une Clef API specifique au plugin
--   Modification pour compatibilité Jeedom V3
--   Plus de suivi de version
--   Correction du nombre d’entrée pour l’extention X800-2
--   Prise en compte des sondes CT100A et ORP Probe.
--   Continue la collecte lorsque une IPX est HS.
--   Trappe certains messages d’erreur.
--   Ajout du type LIGHT\_TOGGL pour les relais.
--   Définition template des relais boutons.
--   Modification être compatible avec le plugin mobile.
--   Mise a jour des entrées analogiques, même si la valeur ne change pas
-    pour les graphiques.
--   Compatibilité Jeedom 2.0.
--   Modification de cron pour plus d’autonomie.
--   Modification de l’extension du logo.
--   Compatibilité Imperihome.
--   Retrait de la suppression des équipements lors de la désactivation
-    du plugin.
--   Correction par rapport au nouveau core.
--   Correction des formules pour les pinces ampèremetriques.
--   Message de debug pour les receptions de push.
--   Prise en compte du port pour jeedom et de l’IP sans qu’il soit
-    nécessaire que ce soit renseigné au niveau globale.
--   Correction des fréquences d’impulsion par minute.
--   Message de debug pour les calculs d’impulsion/minute.
--   Supression de l’info `updatetime`.
--   Ajout des pinces 50A.
--   Ajout de Correction automatique par rapport au seuil Min et Max.
--   Ajout de lien vers les options d’affichage.
--   Correction de double cron.
--   Prise en charge des compteurs indépendament des boutons.
--   Ajout du nombre d’impulsions par minute.
--   Ajout d’une information status.
--   Redéclenchement jusqu’à 3 fois en cas d’indispo de l’IPX.
--   Prise en compte des extensions x800 et x400.
--   Correction pour la réception des push pour les entrées numériques.
--   Prise en compte des unitées pour les entrées analogiques.
--   Correction de la cron pour ne prendre que les changements d’état.
--   Possibilité de configurer le push que sur certaines entrées.
--   Ajout des formules pour les entrée analogiques.
+-   Hinzufügen einer Push-Konfiguration für den Analogeingang
+-   Hinzufügen eines bestimmten API-Schlüssels zum Plugin
+-   Änderung für Jeedom V3-Kompatibilität
+-   Keine Versionsverfolgung mehr
+-   Korrektur der Anzahl der Einträge für die Erweiterung X800-2
+-   Unter Berücksichtigung der Sonden CT100A und ORP Probe.
+-   Setzen Sie die Erfassung fort, wenn ein IPX HS ist.
+-   Fängt bestimmte Fehlermeldungen ab.
+-   Hinzufügen des Typs LIGHT \ _TOGGL für Relais.
+-   Definition der Tastenrelaisvorlage.
+-   Änderung, um mit dem mobilen Plugin kompatibel zu sein.
+-   Aktualisieren der analogen Eingänge, auch wenn sich der Wert nicht ändert
+    für Grafiken.
+-   Jeedom 2.0-Kompatibilität.
+-   Cron-Modifikation für mehr Autonomie.
+-   Änderung der Logoerweiterung.
+-   Kompatibilitäts-Imperihome.
+-   Entfernen des Entfernens von Geräten während der Deaktivierung
+    Plugin.
+-   Korrektur gegenüber dem neuen Kern.
+-   Korrektur von Formeln für Stromklemmen.
+-   Debug-Nachricht für Push-Empfänge.
+-   Berücksichtigt man den Port für Jeedom und die IP, ohne dass dies der Fall ist
+    muss global ausgefüllt werden.
+-   Korrektur der Pulsfrequenzen pro Minute.
+-   Debug-Meldung für Puls- / Minutenberechnungen.
+-   Supression de l'info `updatetime`.
+-   Hinzufügen von 50A-Klemmen.
+-   Hinzufügung einer automatischen Korrektur in Bezug auf die Min- und Max-Schwelle.
+-   Link zu Anzeigeoptionen hinzufügen.
+-   Doppelte Cron-Korrektur.
+-   Unterstützung für Zähler unabhängig von Schaltflächen.
+-   Addition der Anzahl der Impulse pro Minute.
+-   Statusinformationen hinzufügen.
+-   Bei IP-Nichtverfügbarkeit bis zu dreimal erneut auslösenX.
+-   Berücksichtigung der x800- und x400-Erweiterungen.
+-   Korrektur für den Empfang von Pushs für digitale Eingänge.
+-   Berücksichtigung der Einheiten für analoge Eingänge.
+-   Cron wurde behoben, um nur Statusänderungen vorzunehmen.
+-   Möglichkeit, den Push nur an bestimmten Eingängen zu konfigurieren.
+-   Fügen Sie Formeln für analoge Eingänge hinzu.
 -   Ajout `all on` et `all off`.

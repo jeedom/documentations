@@ -1,96 +1,96 @@
-Présentation 
+Presentation 
 ============
 
-Ce plugin permet de gérer les cartes IPX800 de GCE.
-Initialement, ce plugin a été créé pour connecter les IPX800 de GCE.
+This plugin allows you to manage GCE IPX800 cards.
+Initially, this plugin was created to connect GCE IPX800s.
 
-Données visibles sur le Dashboard : 
+Data visible on the Dashboard : 
 -----------------------------------
 
--   ''les entrées analogiques''
+-   ''analog inputs''
 
--   ''les entrées numeriques''
+-   ''digital inputs''
 
--   ''les relais''
+-   ''the relays''
 
--   ''les compteurs d’impulsions''
+-   ''pulse counters''
 
-Installation/Paramétrage 
+Installation / Setup 
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer
-sur ''Plugins / Protocole domotique / IPX800''
+We will now configure a device. To do so, click
+on '' Plugins / Home automation protocol / IPX800''
 
-Puis cliquer sur le bouton en haut à gauche ''Ajouter un équipement''
+Then click on the button at the top left '' Add equipment''
 
-Puis saisir le nom de l’équipement (ex. IPX 1).
+Then enter the name of the equipment (ex. IPX 1).
 
-Puis définir :
+Then define :
 
--   ''Objet parent''
+-   ''Parent object''
 
--   ''Catégorie'' (optionnelle)
+-   ''Category '' (optional)
 
--   ''Activer'' (à cocher, sinon l’équipement ne sera pas utilisable)
+-   ''Activate '' (check, otherwise the equipment will not be usable)
 
--   ''Visible'' (optionel si vous ne désirez pas le rendre visible sur
-    le Dashboard)
+-   ''Visible '' (optional if you don't want to make it visible on
+    the Dashboard)
 
--   ''Adresse IP''
+-   ''IP adress''
 
 -   ''Port''
 
--   ''Compte''
+-   ''Account''
 
--   ''Mot de passe''
+-   ''Password''
 
-Fréquence de rafraichissement 
+Refresh rate 
 -----------------------------
 
-Pour les entrées analogiques et les compteurs, les données sont
-récupérées par le plugin toutes les minutes. Il n’est pas possible
-d’avoir une fréquence plus élevée. Pour le reste, si le mode push est
-activé, le rafraichissement est quasi instantané.
+For analog inputs and counters, the data is
+retrieved by the plugin every minute. It is not possible
+to have a higher frequency. For the rest, if the push mode is
+activated, refresh is almost instantaneous.
 
-Pour activer le push, il faut cliquer sur
+To activate the push, click on
 
 ![bouton config push](../images/bouton_config_push.jpg)
 
-Ensuite aller en bas et cliquer sur Appliquer.
+Then go down and click on Apply.
 
-Comportement avec l’application mobile 
+Behavior with the mobile application 
 --------------------------------------
 
-Par defaut, voici le comportement :
+By default, here is the behavior :
 
--   ''L’ip800''
+-   ''The ip800''
 
-Les commandes sont toutes paramétrées.
+The commands are all configured.
 
--   ''les entrées analogiques''
+-   ''analog inputs''
 
-Les commandes sont toutes par defaut visible et le type dépend de la
-sonde choisi.
+The commands are all visible by default and the type depends on the
+chosen probe.
 
--   ''les entrées numeriques''
+-   ''digital inputs''
 
-Les commandes sont considérées comme des lumières.
+Orders are considered lights.
 
--   ''les relais''
+-   ''the relays''
 
-Les commandes sont considérées comme des lumières.
+Orders are considered lights.
 
--   ''les compteurs d’impulsions''
+-   ''pulse counters''
 
-Les commandes sont considérées comme des types génériques.
+Orders are considered generic types.
 
-Il faut noter que l’on retrouvera dans l’application les commandes à
-partir du moment où elles sont paramétrées, même si elles ne sont pas
-marquées comme visible. Pour les masquer, il faut choisir dans
-"Configuration commande" ⇒ "Type générique" ⇒ "Ne pas tenir compte de
-cette commande".
+It should be noted that we will find in the application the commands to
+from the moment they are configured, even if they are not
+marked as visible. To hide them, you must choose in
+"Command configuration "⇒" Generic type "⇒" Disregard
+this order".
 
-Quelques copies d’écran 
+Some screenshots 
 =======================
 
 ![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)

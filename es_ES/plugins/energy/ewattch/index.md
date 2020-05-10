@@ -45,19 +45,19 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement** : nom de votre équipement Ewattch,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
 -   **Visible** : le rend visible sur le dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    varias categorías),
 
 -   **ID** : ID logique de l’équipement dans le superviseur (il est
     recommandé de ne pas y toucher),
@@ -82,7 +82,7 @@ En dessous, vous retrouvez la configuration de l’équipement :
 -   min/max : bornes de la donnée (peuvent être vides),
 
 -   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
+    el control prolongado de la configuración (método de tala,
     widget…​),
 
 -   Tester : permet de tester la commande,

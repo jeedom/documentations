@@ -1,28 +1,28 @@
 Nimbus 
 ======
 
-Description 
+Descripción 
 -----------
 
-Ce plugin permet de controller et d’avoir toutes les infos de son ou ses
+Este complemento permite controlar y tener toda la información de su
 Nimbus.
 
 ![nimbus screenshot1](../images/nimbus_screenshot1.jpg) ![nimbus
-screenshot2](../images/nimbus_screenshot2.jpg) ![nimbus
-screenshot3](../images/nimbus_screenshot3.jpg)
+screenshot2] (../ images / nimbus_screenshot2.jpg) ![nimbus
+screenshot3] (../ images / nimbus_screenshot3.jpg)
 
-Configuration 
+Configuración 
 -------------
 
-### Configuration du plugin Jeedom : 
+### Configuración del complemento Jeedom : 
 
-a.  Installation/Création
+a. Instalación / Creación
 
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Para usar el complemento, debe descargar, instalar y
+activarlo como cualquier complemento de Jeedom.
 
-Suite à cela il vous faudra renseigner vos identifiants (compte wink +
+Después de eso, deberá ingresar sus credenciales (guiño + cuenta
 api):
 
 
@@ -30,178 +30,178 @@ api):
 
 
 
-Rendez vous dans le menu plugins/Communication, **vous y trouverez le
-plugin nimbus :**
+Vaya al menú de complementos / Comunicación, **encontrarás el
+complemento de nimbus :**
 
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs nimbus) et qui vous permettra d’en créer
+Llegará a la página que enumerará su equipo (puede
+tener varios nimbos) y que te permitirán crearlos
 
 
 ![nimbus screenshot4](../images/nimbus_screenshot4.jpg)
 
 
-**Cliquez sur le bouton Ajouter :**
+**Haga clic en el botón Agregar :**
 
-Vous arriverez ensuite sur la page de configuration de votre nimbus :
+Luego llegará a la página de configuración de su nimbus :
 
 ![config nimbus](../images/config_nimbus.jpg)
 
-Sur cette page vous trouverez plusieurs sections :
+En esta página encontrarás varias secciones. :
 
 
--   **Général**
+-   **Principal**
 
 
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équipement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
-visible sur le dashboard.
+En esta sección encontrará todas las configuraciones de jeedom. Un
+conoce el nombre de tu equipo, el objeto que deseas
+asócielo, la categoría (preferiblemente multimedia), si lo desea
+el equipo está activo o no, y finalmente si quieres que esté
+visible en el tablero.
 
--   **Configuration**
+-   **Configuración**
 
-Cette section est utile si et seulement si vous possédez plusieurs
-nimbus. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
-exemple). Vous pouvez laisser ce champ vide si vous possédez un seul
-nimbus ce qui sera surement votre cas.
+Esta sección es útil si y solo si tiene varias
+nimbo Deberá ingresar el número de equipo (1, 2 o 3 por
+ejemplo). Puede dejar este campo en blanco si solo tiene uno
+nimbus que seguramente será tu caso.
 
 
--   **Design**
+-   **Diseño**
 
-Cette section vous permettra de personaliser l’affichage de votre nimbus
-sur le dashboard. Vous pouvez choisir parmis plusieurs fonds. Vous
-pouvez aussi choisir la couleur de l’aiguille et la couleur du texte.
+Esta sección le permitirá personalizar la visualización de su nimbus
+en el tablero. Puedes elegir entre varios fondos. Vosotras
+También puede elegir el color de la aguja y el color del texto.
 
 
 ![nimbus screenshot6](../images/nimbus_screenshot6.jpg)
 
--   **Informations**
+-   **Información**
 
 ![infonimb](../images/infonimb.jpg)
 
 
-Cette section se remplira d’elle même à la sauvegarde de votre
-équipement. Vous y trouverez des informations realtives à votres nimbus
-(numéro de série, adresse mac, nom, id)
+Esta sección se completará cuando guarde su
+equipo Encontrará información real en su nimbus
+(número de serie, dirección mac, nombre, id)
 
--   **Commandes**
+-   **Comandos**
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+No tienes nada que hacer en esta sección.. Se crearán pedidos
+automáticamente.
 
--   Rafraichir: bouton permettant de rafraichir le widget si besoin
+-   Refrescar: botón para actualizar el widget si es necesario
 
--   Ecran 1 : Information affichée sur l’écran 1
+-   Pantalla 1 : Información mostrada en la pantalla 1
 
--   Ecran 2 : Information affichée sur l’écran 2
+-   Pantalla 2 : Información mostrada en la pantalla 2
 
--   Ecran 3 : Information affichée sur l’écran 3
+-   Pantalla 3 : Información mostrada en la pantalla 3
 
--   Ecran 4 : Information affichée sur l’écran 4
+-   Pantalla 4 : Información mostrada en la pantalla 4
 
--   Position 1 : Information concernant la position de l’aiguille de
-    l’écran 1
+-   Posición 1 : Información sobre la posición de la
+    pantalla 1
 
--   Position 2 : Information concernant la position de l’aiguille de
-    l’écran 2
+-   Posición 2 : Información sobre la posición de la
+    pantalla 2
 
--   Position 3 : Information concernant la position de l’aiguille de
-    l’écran 3
+-   Posición 3 : Información sobre la posición de la
+    pantalla 3
 
--   Position 4 : Information concernant la position de l’aiguille de
-    l’écran 4
+-   Posición 4 : Información sobre la posición de la
+    pantalla 4
 
--   Action Ecran 1 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 1
+-   Acción de pantalla 1 : Comando de acción que permite en un escenario de
+    elige la posición y / o el texto de la pantalla 1
 
--   Action Ecran 2 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 2
+-   Acción de pantalla 2 : Comando de acción que permite en un escenario de
+    elija la posición y / o el texto de la pantalla 2
 
--   Action Ecran 3 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 3
+-   Acción de pantalla 3 : Comando de acción que permite en un escenario de
+    elija la posición y / o el texto de la pantalla 3
 
--   Action Ecran 4 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 1
+-   Acción de pantalla 4 : Comando de acción que permite en un escenario de
+    elige la posición y / o el texto de la pantalla 1
 
--   Action Ecran Tous : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de tous les écrans
+-   Screen Action All : Comando de acción que permite en un escenario de
+    elija la posición y / o el texto de todas las pantallas
 
--   Action Ecran Phrase : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de tous les écrans (une phrase de
-    4 mots maximums splittés sur les 4 écrans)
+-   Acción de pantalla de frase : Comando de acción que permite en un escenario de
+    elija la posición y / o el texto de todas las pantallas (una oración de
+    Máximo 4 palabras divididas en las 4 pantallas)
 
--   Démo : Action permettant de lancer une démo technique sur votre
+-   Demo : Acción para lanzar una demostración técnica en su
     nimbus
 
-…​
+...
 
-Les informations 
+Las informaciones 
 ----------------
 
-### Informations sur le dashboard : 
+### Información en el tablero : 
 
 ![nimbus screenshot1](../images/nimbus_screenshot1.jpg)
 
-Le widget est divisé en 4 cadrans représentant les 4 cadrans de votre
+El widget se divide en 4 diales que representan los 4 diales de su
 nimbus.
 
--   L’aiguille indique la position de l’aiguille de l’écran
-    correspondant de votre nimbus
+-   La aguja indica la posición de la aguja de la pantalla.
+    corresponsal de tu nimbo
 
--   Le texte est le texte affiché sur votre nimbus. Ce texte est
-    cliquable pour arriver à cet écran :
+-   El texto es el texto que se muestra en tu nimbus. Este texto es
+    se puede hacer clic para llegar a esta pantalla :
 
 
 ![nimbus screenshot5](../images/nimbus_screenshot5.jpg)
 
 
-Cet écran permet de changer manuellement le texte, la position de
-l’aiguille ou les deux. Il permet de voir lorsque vous changez la valeur
-déjà affichée.
+Esta pantalla le permite cambiar manualmente el texto, la posición de
+la aguja o ambas. Te permite ver cuándo cambias el valor
+ya se muestra.
 
-…​
+...
 
-Les actions 
+Las acciones 
 -----------
 
-### Actions accessibles via scénario : 
+### Acciones accesibles a través del escenario : 
 
-Plusieurs actions sont accessibles via scénario :
+Se puede acceder a varias acciones a través del escenario :
 
 ![commandes](../images/commandes.jpg)
 
-L’action Démo est independante et lance la démo technique.
+La acción de demostración es independiente y lanza la demostración técnica..
 
-Toutes les autres actions marchent de la même façon sur le principe.
+Todas las demás acciones funcionan de la misma manera según el principio.
 
-**Il s’agit de commande message qui permette de passer deux paramètres:**
+**Este es un comando de mensaje que le permite pasar dos parámetros:**
 
--   Titre : un chiffre entre 0 et 360 correspondant à la position de
-    l’aiguille
+-   Título : un número entre 0 y 360 correspondiente a la posición de
+    la aguja
 
--   Message : le message à afficher
+-   Mensaje : el mensaje a mostrar
 
-**Les deux sont dissociables cela veut dire que vous pouvez :**
+**Los dos son separables, lo que significa que puedes :**
 
--   Envoyer qu’une position en laissant le champ message vide ou en
-    laissant *message*
+-   Envíe una posición dejando el campo de mensaje vacío o
+    dejando * mensaje*
 
--   Envoyer qu’un message en laissant le champ titre vide ou en laissant
-    *title*
+-   Enviar un mensaje dejando el campo de título en blanco o dejando
+    *titulo*
 
--   Envoyer une position et un message en renseignant les deux
+-   Envíe una posición y un mensaje completando ambos
 
-**Il existe une commande par écran, une commande tous, une commande
-phrase :**
+**Hay un pedido por pantalla, un pedido de todos, un pedido
+Frase :**
 
--   Ecran : permet d’agir sur l’écran correspondant
+-   Pantalla : permite actuar en la pantalla correspondiente
 
--   Tous : permet de faire la même chose sur tous les écrans
+-   Todos : hagamos lo mismo en todas las pantallas
 
--   Phrase : commande particulière qui découpera le message en 4 mots
-    qui seront affichés sur chacun des écrans (si un mot dépasse 8
-    caractères il sera coupé si la phrase fait plus de 4 mots elle
-    sera coupée)
+-   Frase : comando especial que dividirá el mensaje en 4 palabras
+    que se mostrará en cada pantalla (si una palabra excede 8
+    caracteres se cortarán si la oración tiene más de 4 palabras
+    será cortado)
 
 ![Scenario](../images/Scenario.jpg)
 
@@ -212,25 +212,25 @@ phrase :**
 ![Scenario3](../images/Scenario3.jpg)
 
 
-**COMMENT PUIS JE FAIRE AFFICHER DE MANIERE PERMANENTE DES INFOS DE MA
-DOMOTIQUE**
+**¿CÓMO PUEDO MOSTRAR PERMANENTEMENTE INFORMACIÓN DE MI
+Automatización**
 
-Si vous voulez afficher de manière continue une info de votre domotique.
-Faites un scénario programmé toutes les 5 minutes (par exemple).
+Si desea mostrar continuamente información de su domótica.
+Cree un escenario programado cada 5 minutos (por ejemplo).
 
 ![Scenario4](../images/Scenario4.jpg)
 
-Sur cette exemple il vous suffit de remplacer ce qui est entre crochet
-par vos commandes. Et toutes les 5 minutes vos écrans seront mis à jour
-avec les bonnes valeurs
+En este ejemplo solo tienes que reemplazar lo que hay entre gancho
+por sus ordenes. Y cada 5 minutos tus pantallas se actualizarán
+con los valores correctos
 
-…​
+...
 
-FAQ 
+Preguntas frecuentes 
 ---
 
-Le systeme recupère les informations toutes les heures. Vous pouvez
-cliquer sur la commande Rafraichir pour rafraichir manuellement.
+El sistema recupera información cada hora.. Usted puede
+haga clic en el comando Actualizar para actualizar manualmente.
 
-Assurez vous d’avoir créé le fichier de config en sauvant vos infos dans
-la config générale du plugin.
+Asegúrese de haber creado el archivo de configuración guardando su información en
+la configuración general del complemento.

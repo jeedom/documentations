@@ -1,97 +1,94 @@
-# 27/02/2019
+- Ability to deactivate node alerts that cannot be reached by device
 
-- Possibilité de désactiver les alertes de noeud injoignable par équipement
-- Mise à jour de la documentation et des traductions
+# 12/27/2019
 
-# 27/12/2019
+- Inversion of the widget for ikea stores to paste in the real state
 
-- Inversion du widget pour les store ikea pour coller à l'état réel
+# 12/26/2019
 
-# 26/12/2019
+- Correction of a bug on the firmware update
 
-- Correction d'un bug sur la mise à jour du firmware
+# 12/24/2019
 
-# 24/12/2019
+- Addition of Warning device and ZHAAlarm types
+- Ikea store support (beta)
+- Fixed issues with finding firmware for the key
 
-- Ajout des types Warning device et ZHAAlarm
-- Support des store ikea (beta)
-- Correction du soucis sur la recherche des firmwares pour la clef
+# 11/15/2019
 
-# 15/11/2019
+- Back to deconz 2.0.69 because the 70 has too many bugs you have to restart the local deconz installation
 
-- Retour arriere sur deconz 2.0.69 car la 70 à trop de bug il faut relancer l'installation deconz local
+# 11/14/2019
 
-# 14/11/2019
-
-- Correction d'un soucis sur l'installation de deconz
+- Fixed a problem with the installation of deconz
 
 # 08/11/2019
 
-- Mise à jour de la doc (ajout de la desactivation du serial sur RPI sinon le démon est instable)
-- Amélioration support vanne
+- Update of the doc (addition of the deactivation of the serial on RPI otherwise the daemon is unstable)
+- Valve support improvement
 
 # 03/11/2019
 
-- Support de l'installation sur RPI1
+- Installation support on RPI1
 
-# 27/10/2019
+# 10/27/2019
 
-- Correction de bugs
-- Support des vannes thermostatique
+- Bugfix
+- Thermostatic valve support
 
-# 14/10/2019
+# 10/14/2019
 
-- Possibilité de mettre à jour le firmware d'une clef Conbee 2 depuis jeedom
-- Lancement d'une synchronisation forcé au démarrage du démon
-- Correction d'un bug sur l'installation des dépendances
+- Possibility to update the firmware of a Conbee 2 key from jeedom
+- Launching a forced synchronization when the daemon starts
+- Correction of a bug on the installation of dependencies
 
-# 23/09/2019
+# 09/23/2019
 
-- Mise à jour de la doc
+- Updating the doc
 
-# 23/09/2019
+# 09/23/2019
 
-- Correction de bugs
-- Mise à jour de la doc
+- Bugfix
+- Updating the doc
 
 # 09/09/2019
 
-- Correction d'un bug sur le niveau de log de deconz en installation local
-- Mise à jour de la version local de deconz en 2.5.69 (attention pour l'avoir il faut dans la configuration du plugin relancer l'installation de Deconz et relancer le demon ensuite)
+- Correction of a bug on the log level of deconz in local installation
+- Update of the local version of deconz to 2.5.69 (be careful to have it in the plugin configuration restart the installation of Deconz and restart the demon then)
 
-# 28/08/2019
+# 08/28/2019
 
-- Mise à jour de la version local de deconz en 2.5.67 (attention pour l'avoir il faut dans la configuration du plugin relancer l'installation de Deconz)
+- Update of the local version of deconz to 2.5.67 (be careful to have it in the plugin configuration restart the installation of Deconz)
 
-# 13/08/2019
+# 08/13/2019
 
-- Amélioration du support du cube Xiaomi (merc @kaktusatomik)
-- Ajout de l'état du noeud dans le réseaux Zigbee
-- Analyse quotidien du réseaux avec signalement si il y a un soucis sur un module
+- Improved support for the Xiaomi cube (merc @kaktusatomik)
+- Addition of node status in Zigbee networks
+- Daily analysis of the networks with reporting if there is a problem on a module
 
-# 24/07/2019
+# 07/24/2019
 
-- Correction d'un bug sur la désactivation des équipements
+- Correction of a bug on deactivation of equipment
 
-# 22/07/2019
+# 07/22/2019
 
-- Possibilité de supprimer un noeud
-- Ajout d'un bouton de lien directement vers l'interface de deconz
-- Ajout du nom de l'équipement Jeedom dans le tableau listant les noeuds
-- Ajout de la température sur quelques modules xiaomi
-- Support des modules double relais
-- Amélioration du support des modules capteur et actionneurs
+- Ability to delete a node
+- Add a link button directly to the deconz interface
+- Adding the name of the Jeedom device in the table listing the nodes
+- Adding the temperature on some xiaomi modules
+- Support for double relay modules
+- Improved support for sensor and actuator modules
 
-Attention nous avons detecté des cas ou il y avait des duplication des commandes (si vous le rencontrez n'hesitez pas a contacter le support)
+Attention we detected cases where there were duplication of orders (if you meet it do not hesitate to contact support)
 
-# 08/07/2019
+# 07/08/2019
 
-- Support du module de detection de vibration Xiaomi
+- Support of the Xiaomi vibration detection module
 
 # 04/07/2019
 
-- Correction de bugs
+- Bugfix
 
-# 30/06/2019
+# 06/30/2019
 
-- Correction d'un bug sur l'installation des dépendances empechant le lancement du démon
+- Correction of a bug on the installation of dependencies preventing the launch of the daemon

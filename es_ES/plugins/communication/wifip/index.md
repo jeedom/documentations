@@ -1,46 +1,101 @@
-# Wifip
-Ce plugin est utilisé pour une gestion de votre réseau wifi.
+Waze in Time 
+============
 
-## Activation et présentation du plugin Wifip
-### Activation
-Après instalation de votre plugin, vous devez l'activer.
+Description 
+-----------
 
-![wifip](/../images/activation.png)
+Ce plugin permet d’avoir les infos de trajet (traffic pris en compte)
+via Waze. Ce plugin peux ne plus marcher si Waze n’acceptes plus qu’on
+interroge son site
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Communication** → **Wifip**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
-### Présentation
+Configuration 
+-------------
 
-Wifip est composé d'une vue principale et une vue sur vos objets
+### Configuration du plugin: 
 
-![wifip](/../images/bases.png)
+a.  Installation/Création
 
-Vous avez également la possibilité de consulter la santé de votre wifi.
+Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
+l’activer comme tout plugin Jeedom.
 
-## Votre équipement Wifip
+Suite à cela il vous faudra créer votre ou vos trajets :
 
-Dans la vue globale :
+Rendez vous dans le menu plugins/organisation, vous y trouverez le
+plugin Waze Duration :
 
-Partie général :
+![configuration1](../images/configuration1.jpg)
 
-* Nom de votre équipement
-* Parent de votre équipement
+Ensuite vous arriverez sur la page qui listera vos équipements (vous
+pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
 
-Partie Wifi :
+![wazeintime screenshot2](../images/wazeintime_screenshot2.jpg)
 
-* Case activer wifi
-* Différents réseaux wifi sélectionnables
-* Clé réseaux
+Cliquez sur le bouton Ajouter un Trajet ou sur le bouton + :
 
-Partie Informations :
+![config2](../images/config2.jpg)
 
-* Adresse MAC ethernet
-* Adresse Ip ethernet
-* Adresse MAC wifi
-* Adresse Ip wifi
+Vous arriverez ensuite sur la page de configuration de votre Trajet:
 
-![wifip](/../images/equipement.png)
+![wazeintime screenshot3](../images/wazeintime_screenshot3.jpg)
 
-Dans la vue commandes différentes commandes sont actives, pour chaque commandes les options suivantes sont disponibles : renommer, supprimer, historiser, configurer ou tester.
+Sur cette page vous trouverez trois sections :
 
-![wifip](/../images/commande.png)
+i.  Général
+
+Vous trouverez dans cette section toutes les configurations jeedom. A
+savoir le nom de votre équippement, l’objet auquel vous voulez
+l’associer, la catégorie, si vous voulez que l’équippement soit actif ou
+non , et enfin si vous voulez qu’il soit visible sur le dashboard.
+
+i.  Configuration
+
+Cette section est une des plus importantes elle permet de régler le
+point de départ et d’arrivée :
+
+-   Ces infos doivent être les latitudes et longitudes des positions
+
+-   Elles peuvent être retrouvées en utilisant le site fournis en
+    cliquant sur le lien de la page (il vous suffit de rentrer une
+    adresse et de cliquer sur obtenir les coordonnées GPS)
+
+    i.  Tableau de Commandes
+
+![config3](../images/config3.jpg)
+
+-   Durée 1 : durée aller avec le trajet 1
+
+-   Durée 2 : durée aller avec le trajet alternatif
+
+-   Trajet 1 : Trajet 1
+
+-   Trajet 2 : Trajet alternatif
+
+-   Durée retour 1 : durée retour avec le trajet 1
+
+-   Durée retour 2 : durée retour avec le trajet alternatif
+
+-   Trajet retour 1 : Trajet retour 1
+
+-   Trajet retour 2 : Trajet retour alternatif
+
+-   Rafraichir : Permet de rafraichir les infos
+
+Toutes ces commandes sont disponibles via scénarios et via le dashboard
+
+### Le widget : 
+
+![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
+
+-   Le bouton en haut à droite permet de rafraichir les infos.
+
+-   Toutes les infos sont visibles (pour les trajets, si le trajet est
+    long, il peut être tronquée mais la version complète est visible en
+    laissant la souris dessus)
+
+### Comment sont rafraichis les infos : 
+
+Les infos sont rafraichis une fois toutes les 30 minutes. Vous pouvez
+les rafraichir à la demande via scénario avec la commande rafraichir, ou
+via le dash avec les doubles flêches

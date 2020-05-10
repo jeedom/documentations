@@ -176,7 +176,7 @@ Informations/actions sur le dashboard :
 -   I : En cliquant sur le lapin, cela permet de le faire se coucher ou
     s’endormir
 
-FAQ 
+Preguntas frecuentes
 ===
 
 Quelle est la fréquence de rafraîchissement des infos

@@ -1,7 +1,3 @@
-# 22/01/2020
-
-- Amélioration des logs en cas de multiple alarme
-
 # 21/10/2019
 
 - Correction d'un bug lors de la création de l'équipement
@@ -12,65 +8,65 @@
 
 # 28/04/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 23/04/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 17/01/2019
 
-- Possibilité d'utiliser des variables ou calcul pour les délais de Maintient (s), Activation et Déclenchement
-- Mise à jour de la doc
+- Posibilidad de utilizar variables o cálculos para los períodos de mantenimiento(s), activación y disparo.
+- Actualización de la documentación
 
 # 18/07/2018
 
-- Mise à jour de la doc
-- Correction de bug sur le renommage des modes
-- Si l'alarme est déjà active l'armement ne la réactive pas
-- Ajout d'une option pour un déclenchement multi-zones (si une autre zone rentre en alerte alors l'alarme se déclenche)
-- Ajout d'action lors de la reprise de surveillance d'un capteur
-- Ajout du tag #zone#
-- Ajout d'un bouton pour dupliquer une alarme
+- Actualización de la documentación
+- Se corrigió el error al renombrar los modos
+- Si la alarma ya está activa, el armado no la reactiva
+- Se agregó una opción para un disparador multizona (si otra zona entra en alerta, se activa la alarma)
+- Se agregó la acción de reanudar la monitorización de un sensor
+- Agregar etiqueta # zona #
+- Agregar un botón para duplicar una alarma
 
 # 06/03/2018
 
-- Ajout de la gestion des commandes orphelines
-- Si des capteurs sont désactivés alors les actions d'activation ok ne sont plus déclenchées
-- Correction de bugs
-- Les détecteurs ayant des délais d'activation et étant toujours actif après ce délai ne déclenchent plus l'alarme, mais lancent une activation KO, avec surveillance de ce détecteur exclu jusqu'à un retour à la normale
+- Añadir gestión de órdenes huérfanas
+- Si los sensores están deshabilitados, las acciones de activación están desactivadas.
+- Corrección de errores
+- Los sensores con retrasos de activación que aún están activos después de este retraso ya no activan la alarma, sino que inician una activación de KO, con vigilancia de este detector excluido hasta que vuelva a la normalidad
 
 # 12/02/2018
 
-- Correction d'un bug sur le déplacement des actions dans déclenchement
+- Se corrigió un error al mover las acciones en el disparador
 
-- Possibilité d'ajouter un délai de maintient d'un déclencheur avant activation de l'alarme
+- Posibilidad de añadir una demora mantiene un disparador de activación de alarma antes
 
 # 01/12/2017
 
--   Correction d’un bug sur la désactivation des détecteurs
+-   Corregido un fallo sobre detectores incapacitantes
 
--   Gestion des secondes sur le delai d’activation (JEED-63)
+-   Gestión de los segundos en el retraso de activación (JEED-63)
 
--   Retour en arrière sur le non déclenchement des actions immédiates si
-    le délai d’activation est vide ou nul
+-   Vuelve a no activar acciones inmediatas si
+    el tiempo de activación está vacía o nula
 
--   Si lors de l’activation un capteur est en alerte et n’a pas de délai
-    d’activation alors l’alarme s’arme quand même en ignorant ce capteur
-    (à moins qu’il revienne au repos)
+-   Si al activar un sensor está alerta y no tiene tiempo
+    activación entonces la alarma se rearma incluso al ignorar este sensor
+    (a menos que regrese a descansar)
 
--   Ajout d’action de déclenchement globale (plus filtrée par zone, il
-    est conseillé d’utiliser celle-ci plutot que les actions de
-    déclenchement par zone)
+-   Adición de una acción global gatillo (área más filtrada,
+    es recomendable utilizarlo en lugar de acciones
+    activación por área)
 
--   Optimisation du code
+-   optimización de código
 
--   ATTENTION : l’alarme n’execute plus les actions immediates si il n’y
-    a pas de délai de déclenchement !!!!!! ⇒ Annulé
+-   ADVERTENCIA: la alarma ejecutar más acciones si hay immediates
+    sin retardo de disparo !!!!!! ⇒ Cancelar
 
--   Possibilité de filtrer la réalisation des actions par rapport au
-    mode de l’alarme
+-   Filtrar la realización de las acciones con respecto a la
+    modo de alarma
 
--   Ajout commande pause/reprise
+-   Adición de pausa comando / recuperación
 
--   Amélioration de l’interface de configuration
+-   interfaz de configuración mejorada

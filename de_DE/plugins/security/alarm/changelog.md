@@ -1,7 +1,3 @@
-# 22/01/2020
-
-- Amélioration des logs en cas de multiple alarme
-
 # 21/10/2019
 
 - Correction d'un bug lors de la création de l'équipement
@@ -12,20 +8,20 @@
 
 # 28/04/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 23/04/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 17/01/2019
 
 - Possibilité d'utiliser des variables ou calcul pour les délais de Maintient (s), Activation et Déclenchement
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 18/07/2018
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 - Correction de bug sur le renommage des modes
 - Si l'alarme est déjà active l'armement ne la réactive pas
 - Ajout d'une option pour un déclenchement multi-zones (si une autre zone rentre en alerte alors l'alarme se déclenche)
@@ -37,40 +33,40 @@
 
 - Ajout de la gestion des commandes orphelines
 - Si des capteurs sont désactivés alors les actions d'activation ok ne sont plus déclenchées
-- Correction de bugs
+- Fehlerbehebungen
 - Les détecteurs ayant des délais d'activation et étant toujours actif après ce délai ne déclenchent plus l'alarme, mais lancent une activation KO, avec surveillance de ce détecteur exclu jusqu'à un retour à la normale
 
 # 12/02/2018
 
-- Correction d'un bug sur le déplacement des actions dans déclenchement
+- Es wurde ein Fehler beim Verschieben von Aktionen beim Auslösen behoben
 
-- Possibilité d'ajouter un délai de maintient d'un déclencheur avant activation de l'alarme
+- Die Möglichkeit, eine Verzögerung hinzuzufügen, führt einen Alarmaktivierungsauslöser vor
 
-# 01/12/2017
+# 2017.01.12
 
--   Correction d’un bug sur la désactivation des détecteurs
+-   Fehler behoben, zum Deaktivieren von Detektoren
 
 -   Gestion des secondes sur le delai d’activation (JEED-63)
 
 -   Retour en arrière sur le non déclenchement des actions immédiates si
-    le délai d’activation est vide ou nul
+    die Aktivierungszeit ist leer oder null
 
--   Si lors de l’activation un capteur est en alerte et n’a pas de délai
+-   Wenn, wenn ein Sensor aktiviert ist ansprechbar und hat keine Zeit
     d’activation alors l’alarme s’arme quand même en ignorant ce capteur
     (à moins qu’il revienne au repos)
 
--   Ajout d’action de déclenchement globale (plus filtrée par zone, il
-    est conseillé d’utiliser celle-ci plutot que les actions de
-    déclenchement par zone)
+-   Hinzufügen globale Trigger-Aktion (mehr gefilterten Bereich,
+    ratsam ist es als Aktionen eher zu verwenden
+    Auslösung durch Fläche)
 
--   Optimisation du code
+-   Code-Optimierung
 
--   ATTENTION : l’alarme n’execute plus les actions immediates si il n’y
-    a pas de délai de déclenchement !!!!!! ⇒ Annulé
+-   ACHTUNG: Der Alarm mehr Aktien ausgeführt werden, wenn immediates
+    keine Triggerverzögerung !!!!!! ⇒ Abbrechen
 
--   Possibilité de filtrer la réalisation des actions par rapport au
-    mode de l’alarme
+-   Die Fähigkeit zu filtern, um die Maßnahmen in Bezug auf die Durchführung
+    Alarmmodus
 
--   Ajout commande pause/reprise
+-   Hinzufügen Pause Befehl / Erholung
 
--   Amélioration de l’interface de configuration
+-   Verbesserte Konfigurationsschnittstelle

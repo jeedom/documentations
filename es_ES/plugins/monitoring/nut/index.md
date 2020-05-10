@@ -1,7 +1,7 @@
 Ce plugin permet de récuperer les informations en provenance d’un
 serveur NUT (Network UPS Tools)
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin, il suffit juste de l’activer et ensuite
@@ -9,7 +9,7 @@ de cliquer sur "Installer/Mettre à jour"
 
 ![nut](../images/nut.PNG)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements NUT est accessible à partir du menu
@@ -32,16 +32,16 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![nut4](../images/nut4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Onduleur** : nom de votre équipement NUT,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
 -   **Catégorie** : catégorie de votre équipement NUT
 

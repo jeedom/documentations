@@ -1,6 +1,3 @@
-20-09-2019
-Adaptation V4
-
 07-06-2019
 Bugfix sur dépendances NOK alors que OK
 

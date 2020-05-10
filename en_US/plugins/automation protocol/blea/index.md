@@ -15,14 +15,14 @@ Configuration
 Configuration du plugin
 ========================
 
-a.  Installation/Création
+a. Installation/Creation
 
 > **Tip**
 >
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+> In order to use the plugin, you have to download it, install it and
+> activate it like any Jeedom plugin.
 
-- Suite à cela vous arriverez sur cette page :
+- After that you will arrive on this page:
 
 ![gestion](../images/gestion.jpg)
 
@@ -30,8 +30,8 @@ Sur cette page vous avez peu de choses à faire. Il est très vivement recommand
 
 > **Important**
 >
-> La chose la plus importante ici est de sélectionner votre Contrôleur
-> Bluetooth
+> The most important thing here is to select your Bluetooth 
+> controller
 
 L’autre option disponible sur cette page est : **Supprimer automatiquement les périphériques exclus**. Celle-ci permet de supprimer les équipements de Jeedom lorsqu’ils sont exclus.
 
@@ -44,12 +44,12 @@ Rendez vous dans le menu Plugins &gt; Protocole Domotique pour retrouver le plug
 
 ![blea screenshot1](../images/blea_screenshot1.jpg)
 
-Sur cette page, vous pourrez voir les modules déjà inclus.
+On this page you will see the modules already included.
 
-Sur la partie haute de cette page, vous avez plusieurs boutons.
+On the top part of this page, you have several buttons.
 
-- Bouton Inclusion : ce bouton permet de mettre Jeedom en Inclusion.
-- Bouton Exclusion : ce bouton permet de mettre Jeedom en Exclusion.
+- Inclusion button: this button allows to put Jeedom in Inclusion mode.
+- Exclusion button: this button allows to put Jeedom in Exclusion mode.
 - Bouton Configuration : ce bouton permet d’ouvrir la fenêtre de configuration du plugin.
 - Bouton Santé : ce bouton permet d’avoir un aperçu Santé de tous vos modules.
 
@@ -60,14 +60,14 @@ Equipement
 
 Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici sur la partie gauche :
 
-- Donner un nom au module.
-- L’activer/le rendre visible ou non.
-- Choisir son objet parent.
-- Lui attribuer une catégorie.
+- Give the module a name.
+- Activate / make it visible or not.
+- Choose his parent object.
+- Give it a category.
 - Definir un delai de surveillance de communication pour certains modules.
-- Mettre un commentaire.
+- Put a comment.
 
-Sur la partie droite vous trouverez :
+On the right side you will find:
 
 - Le profil de l’équipement (généralement auto détecté si le module le permet).
 - Choisir un modèle si pour ce profil plusieurs modèles sont disponibles.
@@ -108,7 +108,7 @@ D’autres modules peuvent être inclus du type beacon NUT, bracelet fitbit, etc
 Ils permettront une détection de présence avec une détection sur un
 créneau de 1 minute.
 
-Bien évidemment de nombreux autres modules seront rajoutés.
+Of course many other modules will be added.
 
 Configuration d'antennes distantes
 ================================

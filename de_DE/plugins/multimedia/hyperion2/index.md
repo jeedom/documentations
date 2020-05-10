@@ -2,15 +2,15 @@ Ce plugin permet la gestion d’un serveur hyperion (il faut que le
 serveur Json soit actif), avec la gestion des couleurs et le lancement
 d’effet
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
+gibt es auf dieser Ebene keine Konfiguration.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Ambilight est accessible à partir du
@@ -25,31 +25,31 @@ Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
+> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
+> immer sichtbar einstellen).  
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement Ambilight** : nom de votre équipement
     Ambilight,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
 
 -   **IP** : L’IP du serveur hyperion
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

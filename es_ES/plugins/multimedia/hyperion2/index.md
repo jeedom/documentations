@@ -2,15 +2,15 @@ Ce plugin permet la gestion d’un serveur hyperion (il faut que le
 serveur Json soit actif), avec la gestion des couleurs et le lancement
 d’effet
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el plugin, sólo hay que activarlo,
+no hay ninguna configuración a este nivel.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements Ambilight est accessible à partir du
@@ -33,23 +33,23 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Ambilight** : nom de votre équipement
     Ambilight,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
 -   **IP** : L’IP du serveur hyperion
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de ordenes :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

@@ -1,11 +1,11 @@
 Ce plugin permet de monitorer et exécuter quelques actions sur vos serveurs d'impression 3D.
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
 Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Octoprint est accessible à partir du menu
@@ -27,12 +27,12 @@ commandes.
 
 -   **Nom de l’équipement** : nom de votre équipement
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
 
 -   **Ip du serveur** : l'ip du serveur en question
 

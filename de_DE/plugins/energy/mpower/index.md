@@ -1,4 +1,4 @@
-Description 
+Beschreibung
 ===========
 
 Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet
@@ -9,31 +9,31 @@ Etat Puissance Consommation Courant Voltage et Facteur de puissance
 Les données sont rafraîchies toutes les 15 minutes et après une action
 depuis jeedom
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
+gibt es auf dieser Ebene keine Konfiguration.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
 Mpower
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   **Gerätename** Modus: Modus Namen Ihrer Ausrüstung,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
+    mehrere Kategorien).
 
 -   **Adresse IP** : addresse IP de la prise
 

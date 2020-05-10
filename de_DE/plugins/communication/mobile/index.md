@@ -1,69 +1,69 @@
-Plugin permettant d’utiliser l’application Mobile Jeedom.
+Plugin zur Verwendung der Jeedom Handy-Anwendung.
 
-L’application mobile Jeedom nécessite l’installation de ce plugin afin
-que la box puisse dialoguer avec l’application Mobile.
+Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, um
+Die Box kann mit der mobilen Anwendung kommunizieren.
 
-Configuration du plugin Mobile 
+Konfiguration des mobilen Plugins 
 ==============================
 
-Après installation du plugin, il vous suffit de l’activer :
+Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 
 ![mobile1](../images/mobile1.png)
 
-**Configuration**
+**Konfiguration**
 
-Pour configurer le plugin, vous devez ajouter les téléphones qui
-pourront accéder à Jeedom.
+Um das Plugin zu konfigurieren, müssen Sie die Telefone hinzufügen, die
+wird in der Lage sein, auf Jeedom zuzugreifen.
 
-Pour Ajouter un téléphone : **Plugins** → **Communication** → **App
-Mobile** → **Ajouter**
+So fügen Sie ein Telefon hinzu : **Plugins** → **Kommunikation** → **App
+Handy** → **Hinzufügen**
 
 ![mobile2](../images/mobile2.png)
 
-Voici les paramètres à renseigner :
+Hier sind die einzugebenden Parameter :
 
--   **Nom de l’équipement mobile** : Nom du téléphone
+-   **Name der mobilen Ausrüstung** : Telefonname
 
--   **Activer** : Activation de l’accès pour ce mobile
+-   **Aktivieren** : Aktivieren des Zugriffs für dieses Mobiltelefon
 
--   **Type de Mobile** : Sélection de l’OS du téléphone (iOS, Android)
+-   **Handyr Typ** : Auswahl des Telefonbetriebssystems (iOS, Android)
 
--   **Utilisateur** : Utilisateur associé à cet accès
+-   **Benutzer** : Benutzer, der diesem Zugriff zugeordnet ist
 
-> **Tip**
+> **Spitze**
 >
-> Le choix de l’utilisateur est important car il détermine les
-> équipements auxquels celui-ci aura accès en fonction de ses droits.
+> Die Wahl des Benutzers ist wichtig, da sie die bestimmt
+> Geräte, zu denen dieser gemäß seinen Rechten Zugang hat.
 
 ![mobile3](../images/mobile3.png)
 
-Après avoir sauvegardé, vous obtiendrez un QRCode permettant à
-l’application de se configurer toute seule.
+Nach dem Speichern erhalten Sie einen QRCode
+die Anwendung, um sich selbst zu konfigurieren.
 
-Configuration des plugins et commandes que reçoit l’app 
+Konfiguration der von der App empfangenen Plugins und Befehle 
 =======================================================
 
-Après l’initialisation du Plugin Mobile vous avez la possibilité de
-remanier les types génériques des commandes, des plugins et des pièces.
+Nach der Initialisierung des Handy Plugins haben Sie die Möglichkeit
+Überarbeiten Sie generische Arten von Steuerelementen, Plugins und Teilen.
 
 ![mobile10](../images/mobile10.png)
 
-En cliquant sur un plugin, vous pouvez l’autoriser ou non à dialoguer
-avec l’application mobile, et configurer chacun des types génériques
-associés à ses commandes.
+Durch Klicken auf ein Plugin können Sie es zum Chatten autorisieren oder nicht
+mit der mobilen App und konfigurieren Sie jeden der generischen Typen
+mit seinen Befehlen verbunden.
 
 ![mobile11](../images/mobile11.png)
 
-En cliquant sur une pièce, vous pouvez l’autoriser ou non à être
-présente dans l’application mobile, et configurer chacun des types
-génériques associés à ses commandes.
+Durch Klicken auf ein Teil können Sie es autorisieren oder nicht
+in der mobilen Anwendung vorhanden, und konfigurieren Sie jeden der Typen
+Generika im Zusammenhang mit seinen Bestellungen.
 
 ![mobile12](../images/mobile12.png)
 
-Configuration de l’application Mobile 
+Konfiguration der mobilen App 
 =====================================
 
-Vous trouverez les applications sur les stores mobiles :
+Sie finden die Anwendungen auf den mobilen Jalousien :
 
 **Android Google Play**
 
@@ -73,97 +73,97 @@ Vous trouverez les applications sur les stores mobiles :
 
 ![App Store FR](../images/App_Store_FR.png)
 
-Premier lancement de l’app 
+Erster Start der App 
 --------------------------
 
-Au 1er lancement de l’application Mobile, un tutorial vous sera proposé
-afin de vous accompagner dans la configuration de celle-ci.
+Beim ersten Start der mobilen Anwendung wird ein Tutorial angeboten
+um Sie bei der Konfiguration zu unterstützen.
 
-Après avoir téléchargée et installée votre application mobile Jeedom,
-lancez l’application sur votre smartphone.
+Nach dem Herunterladen und Installieren Ihrer Jeedom Handy App,
+Starten Sie die Anwendung auf Ihrem Smartphone.
 
-Vous arrivez alors dans un didacticiel de configuration que nous vous
-conseillons de suivre. Certaines étapes ont étés faites précédemment.
+Sie gelangen dann in ein Konfigurations-Tutorial, das wir
+raten zu folgen. Einige Schritte wurden zuvor ausgeführt.
 
-Vous aurez ensuite le choix entre une configuration manuelle ou
-automatique par QRcode. Si vous optez pour la configuration par QRcode,
-il suffit de flasher le QRcode présent sur le plugin App Mobile dans
-l’équipement smartphone créé précédemment. Dans ce cas, l’application va
-récupérer automatiquement toute la configuration de votre Jeedom et se
-connecter automatiquement. Lorsqu’il sera connecté chez vous en Wifi,
-l’application utilisera automatiquement l’adresse Jeedom ethernet
-interne à votre réseau. Lorsque vous serez connecté en 4G ou 3G, il
-utilisera votre adresse externe pour se connecter à votre Jeedom (par
-exemple via le service DNS Jeedom si vous l’utilisez). Si vous optez
-pour la configuration manuelle, dans ce cas il vous faudra entrer à la
-main les adresses IP interne et externe de votre Jeedom. Cette option
-est réservée à un public averti.
+Sie haben dann die Wahl zwischen einer manuellen Konfiguration oder
+automatisch per QRcode. Wenn Sie die Konfiguration per QRcode wählen,
+Flashen Sie einfach den QR-Code im Handy App-Plugin
+zuvor erstellte Smartphone-Geräte. In diesem Fall wird die Anwendung
+Rufen Sie automatisch die gesamte Konfiguration Ihres Jeedom und ab
+automatisch verbinden. Wenn es über WLAN mit Ihrem Zuhause verbunden ist,
+Die Anwendung verwendet automatisch die Jeedom-Ethernet-Adresse
+intern in Ihrem Netzwerk. Wenn Sie in 4G oder 3G verbunden sind, dort
+verwendet Ihre externe Adresse, um eine Verbindung zu Ihrem Jeedom herzustellen (von
+Beispiel über den Jeedom DNS-Dienst, wenn Sie ihn verwenden). Wenn Sie möchten
+Für die manuelle Konfiguration müssen Sie in diesem Fall die eingeben
+Geben Sie die internen und externen IP-Adressen Ihres Jeedom weiter. Diese Option
+ist einer informierten Öffentlichkeit vorbehalten.
 
-L’application va se synchroniser et vous arrivez sur sa page d’accueil
-(précédée par un mini guide de présentation).
+Die Anwendung wird synchronisiert und Sie gelangen auf die Startseite
+(vorangestellt von einem Mini-Präsentationsleitfaden).
 
-L’application mobile Jeedom est maintenant prête à fonctionner.
+Die mobile Jeedom-App ist jetzt betriebsbereit.
 
-Les Favoris 
+Favoriten 
 -----------
 
-Sur l’application vous pouvez avoir des Favoris (raccourcis de
-commandes, plugins, scénarios).
+In der Anwendung können Sie Favoriten (Verknüpfungen von
+Befehle, Plugins, Szenarien).
 
-Voici donc la marche à suivre pour en créer :
+Hier ist das Verfahren zum Erstellen :
 
-Cliquez sur un des + sur l’écran d’accueil de l’application :
+Klicken Sie auf einem der + auf dem Startbildschirm der Anwendung :
 
 ![mobile dashboard 1](../images/mobile_dashboard_1.PNG)
 
-Vous arriverez sur la page de sélection du type de raccourci :
+Sie gelangen auf die Auswahlseite für den Verknüpfungstyp :
 
 ![mobile dashboard 2](../images/mobile_dashboard_2.PNG)
 
-Par exemple, nous allons prendre Action, il nous propose donc des
-Pièces/Objets :
+Zum Beispiel werden wir Maßnahmen ergreifen, also bietet es uns
+Räume / Objekte :
 
 ![mobile dashboard 3](../images/mobile_dashboard_3.PNG)
 
-Il vous suffit alors de sélectionner l’action que vous souhaitez en
-raccourci :
+Sie müssen nur die gewünschte Aktion auswählen
+Verknüpfung :
 
 ![mobile dashboard 4](../images/mobile_dashboard_4.PNG)
 
-Il est ensuite possible de personnaliser la couleur de celle-ci (pour le
-moment trois couleurs sont proposées) :
+Es ist dann möglich, die Farbe anzupassen (für die
+drei Farben sind verfügbar) :
 
 ![mobile dashboard 5](../images/mobile_dashboard_5.PNG)
 
-Ainsi que les deux textes associés :
+Sowie die beiden dazugehörigen Texte :
 
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG) ![mobile
-dashboard 7](../images/mobile_dashboard_7.PNG)
+Dashboard 7] (../ images / mobile_dashboard_7.PNG)
 
-Voilà, vous avez maitenant un raccourci de votre commande (dans la
-version 1.1 il est prévu que les commandes On/Off apparaissent sur la
-même touche).
+Hier haben Sie jetzt eine Verknüpfung Ihrer Bestellung (in der
+Version 1.1 Es wird erwartet, dass Ein / Aus-Befehle auf dem angezeigt werden
+gleicher Schlüssel).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
-Comment bien configurer ses types génériques 
+So konfigurieren Sie generische Typen richtig 
 ============================================
 
-Les Génériques Types dans le plugin Mobile 
+Generische Typen im Handy Plugin 
 ------------------------------------------
 
-Mieux que des mots, voici un exemple des génériques types pour une
-lumière avec toutes ses commandes (voir aussi le tableau Lumière plus
-bas) :
+Besser als Worte, hier ist ein Beispiel für typische Generika für a
+Licht mit all seinen Bedienelementen (siehe auch Tabelle Light plus
+unten) :
 
 ![generic type in plugin](../images/generic_type_in_plugin.jpg)
 
-Tableaux des templates de l’application 
+Anwendungsvorlagentabellen 
 ---------------------------------------
 
-### Les Lumières #
+### Die Lichter #
 
-Image                           | type générique               | Partie Dev plugin            | Description          |
+Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![LIGHT](../images/LIGHT_1.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off` | `LIGHT_ON`<br/>`LIGHT_OFF`| présence de deux boutons "ON" et "Off" pas de retour d'état. |
 ![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off |
@@ -171,139 +171,139 @@ Image                           | type générique               | Partie Dev pl
 ![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`<br/>`Lumière Slider` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité |
 ![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`<br/>`Lumière Slider`<br/>`Lumière Couleur (info)`<br/>`Lumière Couleur (action)`<br/>`Lumière Mode` (optionnel, il sert à avoir des mode de lumière,par exemple arc-en-ciel sur les philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité. Dans le cercle la couleur de la lampe est présente et lors d'un cloc dans celui-ci vous pouvez changer la couleur et activer un mode |
 
-### Les Prises #
+### Die Steckdosen #
 
-Image                           | type générique               | Partie Dev plugin            | Description          |
+Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![ENERGY](../images/ENERGY_1.jpg) | `Prise Bouton On`<br/>`Prise Bouton Off`| `ENERGY_ON`<br/>`ENERGY_OFF`| présence de deux boutons "ON" et "Off" pas de retour d'état. |
 ![ENERGY](../images/ENERGY_2.jpg) | `Prise Bouton On`<br/>`Prise Bouton Off`<br/>`Prise Etat` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off |
 ![ENERGY](../images/ENERGY_3.jpg) | `Prise Bouton On`<br/>`Prise Bouton Off`<br/>`Prise Etat`<br/>`Prise Slider` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité |
 
-### Les Volets #
+### Die Fensterläden #
 
-Image                           | type générique               | Partie Dev plugin            | Description          |
+Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Volet Bouton Descendre`<br/>`Volet Bouton Stop`<br/>`Volet Etat`(optionnel) | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`(optionnel) | Présence de trois boutons "Monter", "Descendre", "Stop", retour d'état optionnel. |
-![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Volet Bouton Descendre`<br/>`Volet Bouton Stop`<br/>`Volet Etat`<br/>`Volet Bouton Slider` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Présence d'un slider, avec un bouton Monter/Descendre en Toggle (avec icône d'état) |
+![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Volet Bouton Descendre`<br/>`Volet Bouton Stop`<br/>`Volet Etat`(optionnel) | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`(optionnel) | Präsenz de trois boutons "Monter", "Descendre", "Stop", retour d'état optionnel. |
+![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Volet Bouton Descendre`<br/>`Volet Bouton Stop`<br/>`Volet Etat`<br/>`Volet Bouton Slider` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Präsenz d'un slider, avec un bouton Monter/Descendre en Toggle (avec icône d'état) |
 
-### Inondation #
+### Hochwasser #
 
-Image                           | type générique               | Partie Dev plugin            | Description          |
+Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`Température`(optionnel)<br/>`Humidité`(optionnel)<br/>`Sabotage`(optionnel)|`FLOOD`<br/>`TEMPERATURE`(optionnel)<br/>`HUMIDITY`(optionnel)<br/>`HUMIDITY`(optionnel) | Permet d'avoir son capteur d'inondation complet sur une seule ligne.
+![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`Temperatur`(optionnel)<br/>`Humidité`(optionnel)<br/>`Sabotage`(optionnel)|`FLOOD`<br/>`TEMPERATURE`(optionnel)<br/>`HUMIDITY`(optionnel)<br/>`HUMIDITY`(optionnel) | Permet d'avoir son capteur d'inondation complet sur une seule ligne.
 
-### Serrure #
+### Sperren #
 
-Image                         | type générique               | Partie Dev plugin            | Description          |
+Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LOCK](../images/LOCK.jpg)   | `Serrure Etat`<br/>`Serrure Bouton Ouvrir`<br/>`Serrure Bouton Fermer` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Retour d'état présent, le bouton de gauche permet de switcher entre on et off |
+![LOCK](../images/LOCK.jpg)   | `Sperren Etat`<br/>`Sperren Bouton Ouvrir`<br/>`Sperren Bouton Fermer` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Retour d'état présent, le bouton de gauche permet de switcher entre on et off |
 
-### Sirène #
+### Meerjungfrau #
 
-Image                         | type générique               | Partie Dev plugin            | Description          |
+Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SIREN](../images/SIREN.jpg)   | `Sirène Etat`<br/>`Sirène Bouton On`<br/>`Sirène Bouton Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Retour d'état présent, le bouton de gauche permet de switcher entre on et off |
+![SIREN](../images/SIREN.jpg)   | `Meerjungfrau Etat`<br/>`Meerjungfrau Bouton On`<br/>`Meerjungfrau Bouton Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Retour d'état présent, le bouton de gauche permet de switcher entre on et off |
 
-### Fumée #
+### Rauch #
 
-Image                           | type générique               | Partie Dev plugin            | Description          |
+Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](../images/SMOKE.jpg)   | `Fumée`<br/>`Température`(optionnel)|`SMOKE`<br/>`TEMPERATURE`(optionnel) | Permet d'avoir son capteur de fumée complet sur une seule ligne.
+![SMOKE](../images/SMOKE.jpg)   | `Rauch`<br/>`Temperatur`(optionnel)|`SMOKE`<br/>`TEMPERATURE`(optionnel) | Permet d'avoir son capteur de fumée complet sur une seule ligne.
 
-### Température #
+### Temperatur #
 
-Image                                       | type générique               | Partie Dev plugin            | Description          |
+Bild                                       | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![TEMPERATURE](../images/TEMPERATURE.jpg)   | `Température`<br/>`Humidité`(optionnel)|`TEMPERATURE`<br/>`HUMIDITY`(optionnel) | Voir Image.
+![TEMPERATURE](../images/TEMPERATURE.jpg)   | `Temperatur`<br/>`Humidité`(optionnel)|`TEMPERATURE`<br/>`HUMIDITY`(optionnel) | Voir Bild.
 
-### Présence #
+### Präsenz #
 
-Image                                 | type générique               | Partie Dev plugin            | Description          |
+Bild                                 | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](../images/PRESENCE.jpg)   | `Présence`<br/>`Température`(optionnel)<br/>`Luminosité`(optionnel)<br/>`Humidité`(optionnel)<br/>`UV`(optionnel)<br/>`Sabotage`(optionnel)|`PRESENCE`<br/>`TEMPERATURE`(optionnel)<br/>`BRIGHTNESS`(optionnel)<br/>`HUMIDITY`(optionnel)<br/>`UV`(optionnel)<br/>`SABOTAGE`(optionnel) | Voir image.
+![PRESENCE](../images/PRESENCE.jpg)   | `Präsenz`<br/>`Temperatur`(optionnel)<br/>`Luminosité`(optionnel)<br/>`Humidité`(optionnel)<br/>`UV`(optionnel)<br/>`Sabotage`(optionnel)|`PRESENCE`<br/>`TEMPERATURE`(optionnel)<br/>`BRIGHTNESS`(optionnel)<br/>`HUMIDITY`(optionnel)<br/>`UV`(optionnel)<br/>`SABOTAGE`(optionnel) | Voir image.
 
-### Ouvrant #
+### Öffnen #
 
-Image                                       | type générique               | Partie Dev plugin            | Description          |
+Bild                                       | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Température`(optionnel)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE`(optionnel) | Voir Image (à savoir que vous pouvez choisir entre fenêtre et porte).
+![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatur`(optionnel)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE`(optionnel) | Voir Bild (à savoir que vous pouvez choisir entre fenêtre et porte).
 
-### Fil pilote #
+### Pilotdraht #
 
-Image                               | type générique               | Partie Dev plugin            | Description          |
+Bild                               | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Chauffage fil pilote bouton OFF`<br/>`Chauffage fil pilote Etat`<br/>`Chauffage fil pilote bouton`(optionnel) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Les boutons ON/OFF et Etat permette de créer le bouton tout à gauche du template et les `chauffage fil pilote Bouton`sont là pour rajouter des boutons (5 max)
 
-LES JOKERS 
+DIE JOKERS 
 ----------
 
-### Générique Action #
+### Allgemeine Aktion #
 
-Image                             | type générique               | Partie Dev plugin            | Description          |
+Bild                             | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![ACTION](../images/ACTION.jpg)   | `Action Générique`           | `GENERIC_ACTION`             | Le bouton prend la forme du type de l'action. Par défaut c'est un toggle, si c'est un message alors vous avez une enveloppe, si slider vous avez un slider etc...
 
-### Générique Info #
+### Allgemeine Informationen #
 
-Image                         | type générique               | Partie Dev plugin            | Description          |
+Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![INFO](../images/INFO.jpg)   | `Information Générique`           | `GENERIC_INFO`             | Le bouton prend la forme du type de l'info.
 
 
-Troubleshooting 
+Fehlerbehebung 
 ===============
 
-Aide Mobile 
+Handy Hilfe 
 -----------
 
-**→ Je suis sur Android version de l’app (1.0.1 ou 1.0.0) je n’arrive
-pas à accéder à mes pièces ni même à la configuration de l’app.**
+**→ Ich bin auf Android-Version der App (1.0.1 oder 1,0.0) Ich kann nicht
+Kein Zugriff auf meine Zimmer oder gar auf die Konfiguration der App.**
 
-> **Caution**
+> **Kaution**
 >
-> Vous avez eu un popup vous avertissant d’un souci sur les paramètres
-> d’accessibilité, il vous suffit donc de vous rendre dans les
-> paramètres d’accessibilité de votre mobile et de décocher les
-> applications utilisant cette option. (Un correctif sera apporté
-> prochainement sur l’app)
+> Sie hatten ein Popup, das Sie vor Bedenken hinsichtlich der Parameter warnte
+> Zugänglichkeit, müssen Sie nur zum gehen
+> Eingabehilfeneinstellungen Ihres Mobiltelefons und deaktivieren Sie diese
+> Anwendungen, die diese Option verwenden. (Eine Korrektur wird vorgenommen
+> bald auf der App)
 
-**→ J’ai un message dans une des lignes de mes modules me disant qu’il
-manque un Type Générique !**
+**→ Ich habe eine Nachricht in einer der Zeilen meiner Module, die mir dies mitteilt
+Fehlen eines generischen Typs !**
 
-> **Tip**
+> **Spitze**
 >
-> En lisant ce message, il vous dit quel type générique manque pour
-> créer un template compatible. Il suffit juste de l’appliquer.
-> Reportez-vous à la [doc chapitre Type
-> Générique](https://www.jeedom.com/doc/documentation/plugins/mobile/fr_FR/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+> Wenn Sie diese Nachricht lesen, erfahren Sie, für welchen generischen Typ sie fehlt
+> Erstellen Sie eine kompatible Vorlage. Wenden Sie es einfach an.
+> Siehe [Dokument Kapitel Typ
+> Generisch] (https://www.jeedom.com/doc/documentation/plugins/mobile/fr_FR/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**→ J’ai un souci sur un des plugins dit complètement intégré (météo,
-thermostat, alarme, caméra) !**
+**→ Ich habe ein Problem mit einem der sogenannten voll integrierten Plugins (Wetter,
+Thermostat, Alarm, Kamera) !**
 
-> **Tip**
+> **Spitze**
 >
-> N’hésitez pas à accéder à votre module et de bien cliquer sur
-> sauvegarder à nouveau, cela permettra de ré-inclure les types
-> génériques associés au module.
+> Zögern Sie nicht, auf Ihr Modul zuzugreifen und auf zu klicken
+> Speichern Sie erneut, um die Typen wieder einzuschließen
+> Credits für das Modul.
 
-**→ Impossible de mettre une info sur l’accueil de l’app !**
+**→ Es ist unmöglich, Informationen zur Begrüßung der App zu veröffentlichen !**
 
-> **Tip**
+> **Spitze**
 >
-> Cela est normal, ça sera disponible sur la version 1.1.
+> Dies ist normal und wird in Version 1.1 verfügbar sein.
 
-**→ J’ai l’application qui prend enormement de memoire dans mon
-telephone !**
+**→ Ich habe die Anwendung, die viel Speicherplatz in meinem beansprucht
+Telefon !**
 
-> **Tip**
+> **Spitze**
 >
-> Il y avait un bug sur les versions 1.0.0 et 1.0.1 sur la partie
-> Camera. Le souci ne ce reproduira plus avec la 1.0.2, pour supprimer
-> le cache sans surprimer l’app, il suffit d’aller dans la configuration
-> de votre App Mobile et de cliquer sur "supprimer le cache".
+> In Version 1.0 ist ein Fehler aufgetreten.0 und 1,0.1 auf dem Spiel
+> Kamera. Das Problem wird mit 1.0 nicht wieder auftreten.2, zu löschen
+> Verstecke es, ohne die App zu überteuern. Gehe einfach zur Konfiguration
+> Klicken Sie in Ihrer mobilen App auf "Cache löschen"".
 
-**→ J'ai un souci de premiere synchronisation sur l'app ou de sql sur le plugin mobile !**
+**→ Ich habe Bedenken hinsichtlich der ersten Synchronisierung in der App oder von SQL im mobilen Plugin !**
 
-> **Tip**
+> **Spitze**
 >
-> il faut bien mettre des types génériques et autoriser le plugin a envoyer les generiques voir la doc un peux plus haut.
+> Sie müssen generische Typen eingeben und das Plugin zum Senden von Generika autorisieren. Sehen Sie sich das Dokument etwas höher an.

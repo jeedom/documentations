@@ -9,31 +9,31 @@ Etat Puissance Consommation Courant Voltage et Facteur de puissance
 Les données sont rafraîchies toutes les 15 minutes et après une action
 depuis jeedom
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el plugin, sólo hay que activarlo,
+no hay ninguna configuración a este nivel.
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
 Mpower
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   ** ** Nombre del dispositivo Modo: Modo nombre de su equipo,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    la mayoría de categorías).
 
 -   **Adresse IP** : addresse IP de la prise
 

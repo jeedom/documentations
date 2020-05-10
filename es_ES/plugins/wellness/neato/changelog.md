@@ -1,14 +1,10 @@
-# 06/01/2020
-
-- Amélioration du support des cartes
-
 # 30/12/2019
 
-- Mise à jour de la doc
+- Actualización de la documentación
 
 # 17/09/2019
 
-- Mise à jour de la doc
+- Actualización de la documentación
 
 # 23/08/2019
 
@@ -16,7 +12,7 @@
 
 # 14/01/2019
 
-- Correction de bugs
+- Corrección de errores
 - Ajout d'une alerte si la commande échoue
 
 # 11/09/2018

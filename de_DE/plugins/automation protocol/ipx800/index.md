@@ -1,96 +1,96 @@
-Présentation 
+Präsentation 
 ============
 
-Ce plugin permet de gérer les cartes IPX800 de GCE.
-Initialement, ce plugin a été créé pour connecter les IPX800 de GCE.
+Mit diesem Plugin können Sie GCE IPX800-Karten verwalten.
+Ursprünglich wurde dieses Plugin erstellt, um GCE IPX800s zu verbinden.
 
-Données visibles sur le Dashboard : 
+Im Dashboard sichtbare Daten : 
 -----------------------------------
 
--   ''les entrées analogiques''
+-   ''analoge Eingänge''
 
--   ''les entrées numeriques''
+-   ''digitale Eingänge''
 
--   ''les relais''
+-   ''die Relais''
 
--   ''les compteurs d’impulsions''
+-   ''Impulszähler''
 
-Installation/Paramétrage 
+Installation / Einrichtung 
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer
-sur ''Plugins / Protocole domotique / IPX800''
+Wir werden jetzt ein Gerät konfigurieren. Klicken Sie dazu auf
+on '' Plugins / Home Automation Protocol / IPX800''
 
-Puis cliquer sur le bouton en haut à gauche ''Ajouter un équipement''
+Klicken Sie dann oben links auf die Schaltfläche '' Ausrüstung hinzufügen''
 
-Puis saisir le nom de l’équipement (ex. IPX 1).
+Geben Sie dann den Namen des Geräts ein (z. IPX 1).
 
-Puis définir :
+Dann definieren :
 
--   ''Objet parent''
+-   ''Übergeordnetes Objekt''
 
--   ''Catégorie'' (optionnelle)
+-   ''Kategorie '' (optional)
 
--   ''Activer'' (à cocher, sinon l’équipement ne sera pas utilisable)
+-   ''Aktiviere '' (überprüfe, sonst kann das Gerät nicht verwendet werden)
 
--   ''Visible'' (optionel si vous ne désirez pas le rendre visible sur
-    le Dashboard)
+-   ''Sichtbar '' (optional, wenn Sie es nicht sichtbar machen möchten
+    das Dashboard)
 
--   ''Adresse IP''
+-   ''IP-Adresse''
 
--   ''Port''
+-   ''Hafen''
 
--   ''Compte''
+-   ''Konto''
 
--   ''Mot de passe''
+-   ''Passwort''
 
-Fréquence de rafraichissement 
+Aktualisierungsrate 
 -----------------------------
 
-Pour les entrées analogiques et les compteurs, les données sont
-récupérées par le plugin toutes les minutes. Il n’est pas possible
-d’avoir une fréquence plus élevée. Pour le reste, si le mode push est
-activé, le rafraichissement est quasi instantané.
+Für analoge Eingänge und Zähler sind die Daten
+wird jede Minute vom Plugin abgerufen. Es ist nicht möglich
+eine höhere Frequenz haben. Im Übrigen, wenn der Push-Modus ist
+aktiviert, ist die Aktualisierung fast augenblicklich.
 
-Pour activer le push, il faut cliquer sur
+Um den Push zu aktivieren, klicken Sie auf
 
 ![bouton config push](../images/bouton_config_push.jpg)
 
-Ensuite aller en bas et cliquer sur Appliquer.
+Gehen Sie dann nach unten und klicken Sie auf Übernehmen.
 
-Comportement avec l’application mobile 
+Verhalten mit der mobilen Anwendung 
 --------------------------------------
 
-Par defaut, voici le comportement :
+Standardmäßig ist hier das Verhalten :
 
--   ''L’ip800''
+-   ''Das ip800''
 
-Les commandes sont toutes paramétrées.
+Die Befehle sind alle konfiguriert.
 
--   ''les entrées analogiques''
+-   ''analoge Eingänge''
 
-Les commandes sont toutes par defaut visible et le type dépend de la
-sonde choisi.
+Die Befehle sind standardmäßig alle sichtbar und der Typ hängt von der ab
+gewählte Sonde.
 
--   ''les entrées numeriques''
+-   ''digitale Eingänge''
 
-Les commandes sont considérées comme des lumières.
+Bestellungen gelten als Lichter.
 
--   ''les relais''
+-   ''die Relais''
 
-Les commandes sont considérées comme des lumières.
+Bestellungen gelten als Lichter.
 
--   ''les compteurs d’impulsions''
+-   ''Impulszähler''
 
-Les commandes sont considérées comme des types génériques.
+Bestellungen gelten als generische Typen.
 
-Il faut noter que l’on retrouvera dans l’application les commandes à
-partir du moment où elles sont paramétrées, même si elles ne sont pas
-marquées comme visible. Pour les masquer, il faut choisir dans
-"Configuration commande" ⇒ "Type générique" ⇒ "Ne pas tenir compte de
-cette commande".
+Es ist zu beachten, dass wir in der Anwendung die Befehle zu finden
+von dem Moment an, in dem sie konfiguriert sind, auch wenn dies nicht der Fall ist
+als sichtbar markiert. Um sie auszublenden, müssen Sie in auswählen
+"Befehlskonfiguration "⇒" Generischer Typ "⇒" Ignorieren
+dieser Befehl".
 
-Quelques copies d’écran 
+Einige Screenshots 
 =======================
 
 ![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)

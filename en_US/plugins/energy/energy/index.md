@@ -1,7 +1,7 @@
 Ce plugin permet d’établir un bilan énergétique de son habitation en
 fournissant un panel donnant les postes de consommation
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
 Après téléchargement du plugin, il vous faut l’activer. Vous avez
@@ -52,7 +52,7 @@ ainsi que les heures de bascule (3 zones maximum).
 > 0.1 sinon de 0.05. Cela permet si vous avez l’information de la
 > tarification en cours de gérer tous les cas.
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements "énergie" est accessible à partir du
@@ -75,16 +75,16 @@ Une fois que vous cliquez sur l’un des équipements, vous obtenez :
 
 ![energy5](../images/energy5.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement** : nom de votre équipement énergie
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
 -   **Type** : permet de choisir le type "d’énergie" (électricité, eau
     ou gaz)
@@ -174,7 +174,7 @@ Une fois dessus vous obtenez :
 
 ![energy10](../images/energy10.PNG)
 
-FAQ 
+FAQ
 ===
 
 Mes compteurs ne semblent pas être en temps réel.

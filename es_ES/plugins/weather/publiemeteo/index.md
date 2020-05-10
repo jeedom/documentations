@@ -1,15 +1,15 @@
 ---
 layout: default
 lang: fr_FR
-title: Jeedom | Plugin Publie Meteo
+title: Jeedom | Plugin de publicación del tiempo
 ---
 
 # Description
 
-Le plugin Publie Météo permet de mettre à disposition d'autres sites les informations météo de votre domotique.
-En fonction du site dans lequel les données seront intégrées, certaines informations ne seront pas présentées.
+El complemento Weather Publish permite proporcionar a otros sitios información sobre el clima para la automatización de su hogar..
+Dependiendo del sitio en el que se integrarán los datos, cierta información no se presentará.
 
-Il est compatible avec :
+Es compatible con :
 
 >- <a href="http://www.wunderground.com">http://www.wunderground.com</a>
 >- <a href="http://www.awekas.at">http://www.awekas.at</a>
@@ -17,48 +17,48 @@ Il est compatible avec :
 
 # Configuration
 
-Pour le configurer, il suffit de sélectionner les commandes contenant les indicateurs.
+Para configurarlo, simplemente seleccione los comandos que contienen los indicadores.
 
 ![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
 
-Sinon les URL pour les sites externes sont dans la page du plugin :
+De lo contrario, las URL de los sitios externos se encuentran en la página del complemento. :
 
 ![exemple vue d'ensemble](../images/publiemeteo_screenshot1.png)
 
 
-Il faudra donc se créer une station météo chez l'un des sites supportés.
+Por lo tanto, será necesario crear una estación meteorológica en uno de los sitios compatibles.
 
 >- <a href="http://www.wunderground.com">www.wunderground.com</a>
 >- <a href="http://ma.station-meteo.com">ma.station-meteo.com</a>
 >- <a href="http://www.awekas.at">www.awekas.at</a>
 
-## Comment créer une station chez Awekia
-Il faut aller <a href="http://www.awekas.at/fr/benutzer.php?mode=new">http://www.awekas.at/fr/benutzer.php?mode=new</a>
+## Cómo crear una estación en Awekia
+Il faut aller <a href="http://www.awekas.at/fr/benutzer.php?mode=new">http://www.awekas.at/fr/benutzer.php?modo = nuevo </a>
 
->- Dans mode de transfert, choisir WSWIN (awekas.txt)
->- Chemin du fichier de données, mettre l'URL qui se trouve sur la page de paramétrage du plugin.
->- Les données seront automatiquement récupèrer régulièrement par le site
+>- En el modo de transferencia, elija WSWIN (awekas.txt)
+>- Ruta del archivo de datos, coloque la URL que se encuentra en la página de configuración del complemento.
+>- Los datos serán recuperados automáticamente por el sitio
 
-## Comment créer une station chez Wunderground
+## Cómo crear una estación en Wunderground
 Il faut aller <a href="https://www.wunderground.com/personal-weather-station/mypw">https://www.wunderground.com/personal-weather-station/mypw</a>
 
->- C'est dans le menu de profile "My Weather Stations" => "Add a New PWS"
->- Il faudra ensuite renseigner le Station ID et le mot de passe dans la page de paramétrage du plugin.
->- Les données seront envoyer régulièrement par Jeedom
+>- Está en el menú de perfil "Mis estaciones meteorológicas" => "Agregar un nuevo PWS"
+>- Luego deberá ingresar el ID y la contraseña de la estación en la página de configuración del complemento.
+>- Los datos serán enviados regularmente por Jeedom
 
-## Comment créer une station chez station-meteo
+## Cómo crear una estación en station-meteo
 Il faut aller <a href="http://ma.station-meteo.com/register/">http://ma.station-meteo.com/register/</a>
-Une fois connecter remplir le formulaire d'inscription. Ensuite dans le menu données, il faut paramétrer comme suit :
+Una vez conectado complete el formulario de registro. Luego, en el menú de datos, debe configurar de la siguiente manera :
 
->- URL d'import, mettre l'URL qui se trouve sur la page de paramétrage du plugin.
->- Type d'import, choisir awekas.txt
->- Les données seront automatiquement récupérer régulièrement par le site
+>- Importar URL, coloque la URL que se encuentra en la página de configuración del complemento.
+>- Tipo de importación, elija awekas.txt
+>- Los datos serán recuperados automáticamente por el sitio
 
 # FAQ
 
-- A quelle fréquence les données sont-elles mise à jour ?
->Les données sont mises à jour en permanence. Cela dépend donc de la fréquence de mise à jour du site.
->Pour wunderground.com elles sont envoyées toutes les 15 minutes.
+- ¿Con qué frecuencia se actualizan los datos? ?
+>Los datos se actualizan constantemente. Por lo tanto, depende de con qué frecuencia se actualiza el sitio.
+>Para wunderground.com se envían cada 15 minutos.
 
-- Ce plugin ne génère pas de log, comment peut-on en avoir ?
->Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug).
+- Este complemento no genera un registro, ¿cómo podemos tener uno? ?
+>Es necesario de antemano activar temporalmente la depuración de Jeedom (Menú de configuración => Configuración de registros y mensajes => Activar + Nivel de registro = Depurar).

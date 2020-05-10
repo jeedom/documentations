@@ -1,13 +1,13 @@
-Le plugin Alarme permet à Jeedom d’avoir un vrai système d’alarme pour
-sa domotique, très simple à utiliser et à configurer.
+The Alarm plugin allows Jeedom to have a real alarm system for
+its home automation, very simple to use and configure.
 
-Configuration du plugin
+Plugin configuration
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
 il n’y a aucune configuration supplémentaire à ce niveau.
 
-Notion immédiate
+Immediate concept
 ================
 
 C’est une notion très importante du plugin Alarme et il est
@@ -17,7 +17,7 @@ compte des délais de déclenchement (attention elle prend bien en compte
 les délais d’activation) et une 2ème alarme qui elle, prend en compte
 les délais de déclenchement.
 
-**Pourquoi cette notion immédiate ?**
+**Why this immediate notion?**
 
 Cette notion immédiate permet de déclencher des actions bien
 spécifiques. Par exemple : vous rentrez chez vous et vous n’avez pas
@@ -26,40 +26,40 @@ diffuser un message rappellant de bien désactiver l’alarme et si ce
 n’est pas fait 1 minute plus tard (délai d’activation de 1 minute donc)
 d’activer la sirène.
 
-Cette notion se retrouve dans différents types d’actions, à chaque fois
-son principe sera détaillé.
+This notion is found in different types of actions, each time
+its principle will be detailed.
 
-Equipements
+Devices
 ===========
 
-La configuration des équipements Alarme est accessible à partir du menu
-Plugin &gt; Sécurité.
+The alarm equipment configuration is accessible from the menu
+Plugin &gt; Security.
 
-Une fois une alarme ajoutée vous vous retrouvez avec :
+Once an alarm is added you are left with:
 
--   **Nom de l’équipement alarme** : nom de votre alarme,
+-   **Name of alarm equipment**: name of your alarm,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment,
 
--   **Catégorie** : la catégorie de l’équipement (sécurité en général
-    pour une alarme),
+-   **Category**: the category of equipment (general safety
+    for an alarm),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible**: makes your equipment visible on the dashboard,
 
--   **Actif en permanence** : indique que l’alarme sera en permanence
-    active (par exemple pour une alarme de détection d’incendie),
+-   **Always active**: indicates that the alarm will be permanently
+    active (for example for a fire alarm),
 
--   **Armement visible** : permet de rendre visible ou non la commande
-    d’armement de l’alarme sur le widget,
+-   **Arming visible**: makes it possible to make visible or not the order
+    arming the alarm on the widget,
 
--   **Statut immédiat visible** : permet de rendre le statut immédiat de
-    l’alarme visible (voir plus bas pour l’explication),
+-   **Immediate status visible**: allows to make the immediate status of
+    the visible alarm (see below for the explanation),
 
--   **Historiser état et statut de l’alarme** : permet d’historiser ou
-    non l’état et le statut de l’alarme.
+-   **History and status of the alarm**: allows you to log or
+    not the state and status of the alarm.
 
 -   **Séparer les zones** : permet de rendre les zones indépendantes en terme d'alerte. En temps normal si une zone est en alerte le plugin va ignorer les autres zones. En séparant les zones il répetera les actions pour les autres zones qui entreraient en alerte
 
@@ -72,28 +72,28 @@ Une fois une alarme ajoutée vous vous retrouvez avec :
 > Pour chaque action il est possible de spécifier le mode dans lequel
 > elle doit s’exécuter ou dans tous les modes
 
-Zones
+Areas
 =====
 
-Partie principale de l’alarme. C’est ici que vous configurez les
-différentes zones et les actions (immédiates et différées par zone, à
-noter qu’il est aussi possible de les configurer globalement) à faire en
-cas de déclenchement. Une zone peut aussi bien être volumétrique (pour
-la journée par exemple) que périmétrique (pour la nuit) ou aussi des
-zones de la maison (garage, chambre, dépendances…​.).
+Main part of the alarm. This is where you set up
+different zones and actions (immediate and delayed by zone,
+note that it is also possible to configure them globally) to do
+triggering case. An area may be volumetric (for
+the day for example) that perimetric (for the night) or also
+areas of the house (garage, bedroom, outbuildings ....).
 
-Un bouton en haut à droite vous permet d’en ajouter autant que vous
-voulez.
+A button at the top right allows you to add as many as you
+want.
 
 > **Tip**
 >
-> Il est possible d’éditer le nom de la zone en cliquant sur le nom de
-> celle-ci (en face du label "Nom de la zone").
+> It is possible to edit the name of the zone by clicking on the name of the
+> this one (in front of the label "Name of the zone").
 
-Une zone est constituée de différents éléments : - déclencheur, - action
-immédiate, - action.
+A zone consists of different elements: - trigger, - action
+immediate, - action.
 
-Déclencheur
+Trigger
 -----------
 
 Un déclencheur est une commande binaire, qui lorsqu’elle vaut 1 va
@@ -120,26 +120,26 @@ d’inverser l’état déclencheur du capteur (0 au lieu de 1).
 
 Vous avez aussi un paramètre **Maintient** qui permet de spécifier un délai de maintient du déclencheur avant de déclencher l'alarme. Ex si vous avez un détecteur de fumée qui remonte parfois de fausses alarmes vous pouvez spécifier un délai de 2s. Lors du déclenchement de l'alarme Jeedom va attendre 2s et vérifier que le détecteur de fumée est toujours en alerte si ce n'est pas le cas il ne déclenchera pas l'alarme.  
 
-Petit exemple pour bien comprendre : sur le premier déclencheur
-(*\[Salon\]\[Oeil\]\[Présence\]*) j’ai ici un délai d’activation de 5
-minutes et de déclenchement de 1 minute. Cela veut dire que lorsque
-j’active l’alarme, pendant les 5 premières minutes aucun déclenchement
-de l’alarme ne pourra avoir lieu à cause de ce capteur. Passé ce délai
-de 5 minutes, si un mouvement est détecté par le capteur, l’alarme va
-attendre 1 minute (le temps de me laisser désactiver l’alarme) avant de
-déclencher les actions. Si j’avais eu des actions immédiates celles-ci
-se seraient déclenchées immédiatement sans attendre la fin du délai
-d’activation, les actions non immédiates auraient eu lieu après (1
-minute après les actions immédiates).
+Small example to understand: on the first trigger
+(* \ [Salon \] \ [Eye \] \ [Presence \] *) Here I have an activation time of 5
+minutes and 1 minute trigger. It means that when
+I activate the alarm, during the first 5 minutes no triggering
+the alarm can not take place because of this sensor. After this time
+5 minutes, if motion is detected by the sensor, the alarm will
+wait 1 minute (the time to let me turn off the alarm) before
+trigger the actions. If I had immediate actions these
+would have started immediately without waiting for the end of
+activation, non-immediate actions would have taken place after (1
+minute after the immediate actions).
 
-Action immédiate
+Immediate action
 ----------------
 
-Comme décrit plus haut, ce sont des actions qui se déclenchent dès le
-déclenchement en ne tenant pas compte du délai de déclenchement (mais en
-tenant compte quand même du délai d’activation). Vous avez juste à
-sélectionner la commande d’action voulue puis en fonction de celle-ci
-remplir les paramètres d’exécution.
+As described above, these are actions that are triggered as soon as
+triggering by not taking into account the triggering delay (but in
+taking into account any activation delay). You just have to
+select the desired action command and then according to it
+fill in the execution parameters.
 
 > **Note**
 >
@@ -149,8 +149,8 @@ remplir les paramètres d’exécution.
 Modes
 =====
 
-Les modes sont assez simples à configurer, il suffit juste d’indiquer
-les zones actives en fonction du mode.
+The modes are simple enough to configure, just indicate
+active zones according to the mode.
 
 > **Tip**
 >
@@ -184,10 +184,10 @@ périmètre de l’alarme, sinon ça la déclenche).
 
 > **Important**
 >
-> Les actions d’activation OK ne prennent pas en compte les délais
-> d’activation. Si vous avez un délai sur l’activation d’un capteur
-> d’ouverture, même si votre porte est ouverte les actions d’activation
-> seront exécutées.
+> OK activation actions do not take into account deadlines
+> activation. If you have a delay on activating a sensor
+> opening, even if your door is open activation actions
+> will be executed.
 
 Activation KO
 =============
@@ -206,16 +206,16 @@ configuré des actions spécifiques par zone.
 Désactivation OK
 ================
 
-Ces actions sont exécutées lorsque l’alarme est désactivée et qu’elle
-n’est pas déclenchée. Exemple vous rentrez chez vous, en ouvrant la
-porte cela déclenche l’alarme, mais vous avez mis un délai de
-déclenchement sur le capteur et vous coupez l’alarme avant la fin du
-délai, les actions de désactivation OK seront exécutées. Si par contre
-vous aviez arrêté l’alarme après la fin de délai de déclenchement cela
-n’aurait pas été le cas.
+These actions are executed when the alarm is disabled and
+is not triggered. Example you go home, opening the
+door that sounds the alarm, but you put a delay of
+trigger on the sensor and you turn off the alarm before the end of the
+delay, the OK deactivation actions will be executed. If however
+you had stopped the alarm after the end of the triggering time this
+would not have been the case.
 
-Réinitialisation
-================
+Reset
+=======
 
 Cette partie vous permet de définir les actions à faire lorsque l’alarme
 est déclenchée puis désactivée. Ici aussi il y a des actions immédiates

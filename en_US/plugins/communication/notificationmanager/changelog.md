@@ -1,13 +1,11 @@
-# 29/04/2019
-
 - Possibilité d'ajouter un test pour chaque notification
 - Possibilité d'ajouter un test pour chaque commande de notification
-- Ajout d'une clef API spécifique au plugin
+- Adding a plugin-specific API key
 
-# 20/03/2018
+# 2018-03-20
 
-- Ajout d'un systeme de texte conditionnel
+- Adding a conditional text system
 
-# 19/03/2018
+# 2018-03-19
 
-- Version initial
+- Initial version

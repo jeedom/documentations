@@ -1,7 +1,3 @@
-# 06/01/2020
-
-- Amélioration du support des cartes
-
 # 30/12/2019
 
 - Mise à jour de la doc

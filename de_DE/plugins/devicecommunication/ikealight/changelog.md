@@ -1,15 +1,12 @@
-# 12/01/2020
-
 - Correction de bug dans le script d'installation des dépendances
-- Inversion du widget pour les store (attention necessite de supprime les équipements de type store et de relancer le demon)
 
 # 16/10/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 14/10/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 10/10/10
 

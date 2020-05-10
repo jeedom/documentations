@@ -1,57 +1,57 @@
 Description
 ===
 
-Plugin pour remonter les informations photovoltaïques des passerelles Envoy
+Plugin to collect photovoltaic information from Envoy gateways
 
 Configuration
 ===
 
-Afin de configurer le plugin, il est nécessaire de renseigner les informations suivantes :
+In order to configure the plugin, it is necessary to fill in the following information :
 
-- Adresse IP de la passerelle envoy
-- Mot de passe de l'envoy (si celui-ci n'a pas été modifié, il s'agit des 6 derniers caractères du numéro de série.)
+- Gateway IP address sent
+- Sender password (if it has not been changed, these are the last 6 characters of the serial number.)
 
-Ensuite, en cliquant sur le bouton "Synchroniser", tous les équipements seront automatiquement créés.
+Then, by clicking on the "Synchronize" button, all equipment will be automatically created.
 
-Informations remontées
+Information reported
 ===
 
-Le plugin permet de remonter les informations suivantes (si vous disposez d'un Envoy-s Metered) :
+The plugin allows you to upload the following information (if you have an Envoy-s Metered) :
 
-__*- General (maj toutes les minutes)*__
+__ * - General (shift every minute) * __
 
-    - Nombre de micro-onduleurs
-    - Nombre de batteries
-    - Etat des batteries (charging/discharging/idle)
-    - % de charge des batteries
-    - Production des batteries (en W)
-    - Production instantanée (en W)
-    - Production de la journée (en Wh)
-    - Production des 7 derniers jours (en Wh)
-    - Production depuis la mise en service (en Wh)
-    - Puissance totale instantanée (en W)
-    - Consommation de la journée (en Wh)
-    - Consommation des 7 derniers jours (en Wh)
-    - Consommation depuis la mise en service (en Wh)
-    - Puissance nette instantanée (en W)
-    - Consommation nette de la journée (en Wh)
-    - Consommation nette des 7 derniers jours (en Wh)
-    - Consommation nette depuis la mise en service (en Wh)
+    - Number of microinverters
+    - Number of batteries
+    - Battery status (charging / discharging / idle)
+    - % of battery charge
+    - Battery production (in W)
+    - Instantaneous production (in W)
+    - Production of the day (in Wh)
+    - Production of the last 7 days (in Wh)
+    - Production since commissioning (in Wh)
+    - Total instantaneous power (in W)
+    - Consumption of the day (in Wh)
+    - Consumption of the last 7 days (in Wh)
+    - Consumption since commissioning (in Wh)
+    - Instantaneous net power (in W)
+    - Daily net consumption (in Wh)
+    - Net consumption for the last 7 days (in Wh)
+    - Net consumption since commissioning (in Wh)
 
-  __*- Pour chaque micro-onduleur (maj toutes les 5 minutes)*__
+  __ * - For each microinverter (shift every 5 minutes) * __
 
-    - Provisionné (Oui/Non)
-    - Communication (Oui/Non)
-    - Production (Oui/Non)
-    - Puissance (en W)
-    - Puissance Max (en W)
+    - Provisioned (Yes / No)
+    - Communication (Yes / No)
+    - Production (Yes / No)
+    - Power (in W)
+    - Max power (in W)
 
-  __*- Pour chaque batterie (maj toutes les 5 minutes)*__
+  __ * - For each battery (shift every 5 minutes) * __
 
-    - Provisionné (Oui/Non)
-    - Communication (Oui/Non)
-    - Production (Oui/Non)
-    - Puissance (en W)
-    - Puissance Max (en W)
-    - % de charge
-    - Température maximale (en °C)
+    - Provisioned (Yes / No)
+    - Communication (Yes / No)
+    - Production (Yes / No)
+    - Power (in W)
+    - Max power (in W)
+    - % dump
+    - Maximum temperature (in ° C)

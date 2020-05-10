@@ -1,16 +1,16 @@
 ---
 layout: default
 lang: fr_FR
-title: Jeedom | Plugin Publie Meteo
+title: Jeedom | Plugin de publicação do tempo
 ---
 
-# Version 20200428
-- Migration vers font-awesome 5
-- Migration affichage au format core V4
-- Migration documentations format md
+# Versão 20200428
+- Migração para fonte incrível 5
+- Exibir migração no formato principal V4
+- Formato das documentações de migração md
 
-# Anciennes Updates
-- Suppression du lien Paypal pour être conforme avec Jeedom V3.1
-- Modification pour compatibilité Jeedom V3
-- Plus de suivi de version
-- Initialisation du plugin
+# Atualizações antigas
+- Remoção do link Paypal para conformidade com Jeedom V3.1
+- Modificação para compatibilidade com Jeedom V3
+- Chega de rastreamento de versão
+- Inicialização de plugins

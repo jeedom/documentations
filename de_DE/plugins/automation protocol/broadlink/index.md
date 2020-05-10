@@ -1,6 +1,6 @@
 Plugin permettant de s’interfacer avec des équipements broadlink
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après avoir installé le plugin, il faut l’activer et s’assurer de la
@@ -17,7 +17,7 @@ Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
 fois sur la page cliquez sur MODE INCLUSION. En toute logique l’ensemble
 des produits Broadlink de votre réseau sera reconnu.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 Sélectionnez un de vos équipements. Si ce sont des produits de type

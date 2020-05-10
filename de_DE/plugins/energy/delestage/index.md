@@ -3,7 +3,7 @@ Délestage
 
 ![delestage](../images/delestage_screenshot1.png)
 
-Description 
+Beschreibung
 ===========
 
 Plugin permettant de gérer le délestage électrique. Le plugin gère 3
@@ -15,7 +15,7 @@ types de délestage :
 
 -   Délestage cascado-cyclique.
 
-Fonctionnement 
+Funktionsweise
 ==============
 
 Délestage intelligent. 
@@ -51,10 +51,10 @@ en mode hiérarchisé sur les autres.
 
 ![cascadocyclique](../images/cascadocyclique.png)
 
-Configuration 
+Konfiguration
 =============
 
-Configuration générale 
+Allgemeine Konfiguration
 ----------------------
 
 Voici les paramètres à configurer sur le plugin :
@@ -96,14 +96,14 @@ Les paramètres suivants peuvent être réglés:
 
 ![Configuration avancée](../images/configuration_avancee.png)
 
-FAQ 
+FAQ
 ===
 
 Pour l’instant seul le plugin thermostat officiel est géré par le
 délestage intelligent. Il est cependant possible d’utiliser les 2 autres
 modes de délestage avec les autres thermostats.
 
-Troubleshoting 
+Problembehebung
 ==============
 
 Attention à bien activer le mode "Auto" sur le widget afin d’activer le

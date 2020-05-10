@@ -79,7 +79,7 @@ Installation/Paramétrage
 
 Ce plugin ne nécessite aucun pre-requis d’installation.
 
-FAQ 
+Preguntas frecuentes
 ===
 
 Il faut dans le menu gauche cliquer sur l’icône suivant pour y avoir
@@ -120,7 +120,7 @@ Oui, il n’a pas été rédigé par mes soins, mais a le mérite d’exister.
 Merci au rédacteur.
 <http://blog.domadoo.fr/guides/jeedom-guide-dutilisation-plugin-ecodevice/>
 
-Changelog 
+cambios
 =========
 
 > **Warning**

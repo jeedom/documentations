@@ -1,33 +1,31 @@
-# 30/03/2020
+- Support for XTHL probes
 
-- Support des sondes XTHL
+# 09/18/2019
 
-# 18/09/2019
+- Optimizations
 
-- Optimisations
+# 06/13/2019
 
-# 13/06/2019
+- Suppression of the restarting of the daemon at each change on the equipments (it is necessary now when you modify an equipment relaunch the daemon manually)
 
-- Suppression du redemarrage du démon a chaque changement sur les équipements (il faut maintenant lorsque vous modifiez un équipement relance le démon manuellement)
+# 02/20/2019
 
-# 20/02/2019
+- Support for Pilot Wire (please note the latest firmware version of RT2,2.00.34 B1)
 
-- Support des Fil Pilote (attention il faut la derniere version du firmware du RT2,2.00.34 B1)
+# 01/17/2019
 
-# 17/01/2019
+- Bug fix
 
-- Correction de bug
+# 12/14/2018
 
-# 14/12/2018
+- Bug fix
+- Setting the update frequency possible (in seconds)
 
-- Correction de bug
-- Réglage de la fréquence de mise à jour possible (en seconde)
+# 11/06/2018
 
-# 06/11/2018
+- Addition of sub-station management
+- Addition of an automatic backup system every day of rt2
 
-- Ajout de la gestion des sous-postes
-- Ajout d'un systeme de sauvegarde automatique tout les jours des rt2
+# 02/14/2018
 
-# 14/02/2018
-
-- Correction de la gestion des fils pilote
+- Correction of the management of pilot wires

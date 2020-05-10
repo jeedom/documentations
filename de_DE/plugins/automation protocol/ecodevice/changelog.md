@@ -1,6 +1,6 @@
 # 02/01/2020
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 03/10/2019
 
@@ -8,4 +8,4 @@
 
 # 15/09/2019
 
-- Correction de bugs
+- Fehlerbehebungen

@@ -1,162 +1,162 @@
-# Description
+# descripción
 
-Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil deconz qui permet de faire du zigbee (module xiaomi, philips hue, ikea...).
+Este complemento permite, a través de una clave de conbee (1 o 2), controlar la herramienta deconz que permite zigbee (módulo xiaomi, philips hue, ikea ...).
 
-Ce plugin est totalement cloudless, il ne fait donc aucune communication vers l'exterieure (serveur tierce) et fonction 100% en local !!!!
+Este complemento no tiene nubes, por lo que no se comunica con el exterior (servidor de terceros) y funciona 100% localmente !!!!
 
-Attention le Zigbee ne marche pas du tout comme le Zwave, la liste des modules inclus n'est pas du tout sauvegardé dans la clef (rien n'est sauvegardé dans la clef). Donc il est facile de remplacer la clef (par backup/restaure, le backup peut etre récupéré depuis jeedom mais pas restauré depuis jeedom, il faut pour la restauration passer par Deconz, si vous etes en installation local c'est IP_JEEDOM:8484). Par contre en cas de déplacement de la clef d'un systeme à un autre il faut aussi faire un backup /restaure.
+Atención, el Zigbee no funciona en absoluto como el Zwave, la lista de módulos incluidos no se guarda en absoluto en la clave (nada se guarda en la clave). Por lo tanto, es fácil reemplazar la clave (mediante copia de seguridad / restauración, la copia de seguridad se puede recuperar de jeedom pero no se puede restaurar desde jeedom, es necesario que la restauración pase por Deconz, si está en una instalación local es IP_JEEDOM:8484). Por contra en caso de mover la llave de un sistema a otro, también es necesario hacer una copia de seguridad / restaurar.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Ce plugin nécessite une clé USB [CONBEE](http://bit.ly/2n4VyWc)
+> Este complemento requiere una llave USB [CONBEE] (http://bit.ly/2n4VyWc)
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Il faut absolument Debian Strech (debian 9) ou plus pour que le plugin puisse fonctionner
+> Debian Strech (debian 9) o superior es absolutamente necesario para que el complemento funcione
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Le plugin n'est pas compatible avec une architecture 32bits (les vieux hardware). Le module est compatible avec tous les Raspberry Pi
+> El complemento no es compatible con una arquitectura de 32 bits (hardware antiguo). El módulo es compatible con todas las Raspberry Pi.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Sur RPI il faut désactiver les options serial pour que la clef conbee fonctionne correctement (ca se passe en ssh dans raspi-config)
+> En RPI, debe desactivar las opciones de serie para que la clave conbee funcione correctamente (ocurre en ssh en raspi-config)
 
-# Module compatible
+# Módulo compatible
 
-Vous trouvez ici la liste des modules compatible deconz [ici](https://phoscon.de/en/conbee/compatible)
+Aquí encontrará la lista de módulos compatibles con deconz [aquí] (https://phoscon.de/en/conbee/compatible)
 
->**NOTE**
+>**NOTA**
 >
-> L'ajout de module n'est pas geré directement pas Jeedom SAS mais par la societé editrice de la gataway Deconz. Donc nous ne pouvons garantir qu'une demande de support d'un nouveau module aboutisse. Il est donc fortement conseillé d'acheter un module compatible
+> Agregar un módulo no es administrado directamente por Jeedom SAS sino por el editor de la escapada Deconz. Por lo tanto, no podemos garantizar que una solicitud de soporte para un nuevo módulo tenga éxito. Por lo tanto, se recomienda comprar un módulo compatible.
 
->**NOTE**
+>**NOTA**
 >
-> En cas d'un module dit compatible non supporté ou partiellement supporté la soceité Jeedom SAS ne pourra etre tenu responsable et n'a aucune obligatoire de résultat sur la correction du soucis
+> En el caso de un denominado módulo compatible que no es compatible o parcialmente compatible, la empresa Jeedom SAS no se hace responsable y no tiene obligación de resultado en la corrección de inquietudes.
 
-# Configuration du plugins
+# Configuración de complementos
 
-Le plugin support plusieurs gateway deconz (1 clef conbee par gateway). Une gateway conbee peut etre installer sur :
-- jeedom lui meme (smart, rpi  et x64_86 supporté)
-- un rpi deporté
-- ou tout autre carte compatible avec deconz.
+El complemento admite varias puertas de enlace deconz (1 clave de conbee por puerta de enlace). Se puede instalar una puerta de enlace conbee en :
+- Jeedom en sí (compatible con smart, rpi y x64_86)
+- un rpi remoto
+- o cualquier otra tarjeta compatible con deconz.
 
-Pour l'installation en deporté voici la [documentation](https://phoscon.de/en/conbee/install)
+Para la instalación remota aquí está la [documentación] (https://phoscon.de/en/conbee/install)
 
-Pour l'installation sur jeedom vous avez juste à cliquer sur le bouton pour installer deconz en local.
+Para la instalación en jeedom solo tiene que hacer clic en el botón para instalar deconz localmente.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Il ne faut SURTOUT PAS faire les 2 methodes d'installation sur le meme système c'est l'un ou l'autre
+> NO DEBE hacer los 2 métodos de instalación en el mismo sistema, es uno u otro.
 
->**NOTE**
+>**NOTA**
 >
->Pour mettre à jour deconz en local il vous suffit de recliquer sur le bouton d'installation de deconz en local
+>Para actualizar la descontaminación local, simplemente haga clic en el botón de instalación de descontaminación local.
 
-## Ajout des gateways
+## Agregar puertas de enlace
 
-Pour ajouter de nouvelles gateway au plugin il faut soit sur la page de configuration du plugin (Plugin -> Gestion de plugins puis deconz), cliquer sur decouverte (ca ne marche pas toujours) ou alors a la main ajouter au moins l'ip de la gateway et le port.
+Para agregar nuevas puertas de enlace al complemento, ya sea en la página de configuración del complemento (Complemento -&gt; Administración del complemento y luego descontaminar), haga clic en descubrimiento (no siempre funciona) o agregue manualmente al menos la ip de la puerta de entrada y el puerto.
 
-Ensuite dans deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer "Authenticate App" et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API".
+Luego, en deconz (Phoscon, si lo instaló localmente, debe ir a IPJEEDOM:8484) luego en el menú en la parte superior izquierda (las 3 líneas pequeñas) debe ir a &quot;puerta de enlace&quot; y luego &quot;avanzado&quot; y hacer clic en &quot;Autenticar aplicación&quot; y finalmente en los años 60 vaya a la configuración del complemento en Jeedom, guarde el lista de puertas de enlace si la ha cambiado, haga clic en &quot;Recuperar clave de API&quot;.
 
-# Réseaux deconz
+# Redes Deconz
 
-Attention en haut a droite vous avez un bouton de selection pour choisir la gateway à regarder
+Atención en la parte superior derecha tiene un botón de selección para elegir la puerta de enlace para mirar
 
-## Résumé
+## resumen
 
-Ici vous allez retrouver les informations principal de votre réseaux deconz (en particulier la version de deconz et de firmware).
+Aquí encontrará la información principal de sus redes deconz (en particular la versión de deconz y firmware).
 
-## Action
+## acción
 
-La vous allez pouvoir :
-- mettre à jour le firmware (ne marche que si il n'y a aucune autre clef USB de branché sur la machine)
-- faire un reset (attention ca oblige à tout réassocier)
-- changer la source de mise à jour du firmware (il est déconseillé d'y touché)
-- changer le channel
+Allí podrás :
+- actualizar el firmware (solo funciona si no hay otra llave USB conectada a la máquina)
+- hacer un reinicio (cuidado, requiere volver a asociar todo)
+- cambiar la fuente de actualización de firmware (no se recomienda tocarlo)
+- cambiar el canal
 
-## Noeuds
+## nudos
 
-Vous avez ici un résumé des noeuds connu de la clef, avec la date de derniere communication, la version du firmware, le niveau de batterie et en cliquant sur le bouton info le details du noeud.
+Aquí tiene un resumen de los nodos conocidos de la clave, con la fecha de la última comunicación, la versión del firmware, el nivel de batería y haciendo clic en el botón de información los detalles del nodo.
 
->**NOTE**
+>**NOTA**
 >
->Ici les noeuds sont découpé par type, donc un module peut aparaitre plusieurs fois en fonction du nombre de type
+>Aquí los nodos se cortan por tipo, por lo que un módulo puede aparecer varias veces dependiendo del número de tipo
 
-# Inclusion
+# inclusión
 
-Pour l'inclusion vous avez juste à cliquer sur le bouton inclusion, le systeme vous demande la gateway une fois validé vous avez 3min pour faire celle-ci.
+Para la inclusión solo tiene que hacer clic en el botón de inclusión, el sistema solicita la puerta de enlace una vez validado, tiene 3 minutos para hacerlo.
 
-Pour passer le module en mode inclusion il faut aller voir la documentation du module en question
+Para cambiar el módulo al modo de inclusión, debe ir a la documentación del módulo en cuestión
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Le réseaux Zigbee est très different du réseaux Zwave, le zigbee peut passer par un repeteur mais il faut que ca soit le cas dès l'inclusion. Il faut donc lors de l'inclusion du module le faire soit au plus pres de la clef si vous ne voulez pas que la communication passe par un repeteur (attention vous pouvez avoir au maximum 32 modules en direct sur la clef conbee).Ou au plus pres du repeteur (tout module alimenté peut etre un repeteur).
+> La red Zigbee es muy diferente de la red Zwave, el zigbee puede pasar por un repetidor pero debe ser el caso desde la inclusión. Por lo tanto, es necesario durante la inclusión del módulo hacerlo lo más cerca posible de la clave si no desea que la comunicación pase por un repetidor (tenga cuidado de que puede tener un máximo de 32 módulos en vivo en la clave de conbee).O lo más cerca posible del repetidor (cualquier módulo alimentado puede ser un repetidor).
 
 
-# Synchronisation
+# sincronización
 
-Une fois l'inclusion faite Jeedom devrait vous envoyer directement sur la page du nouveau module. Si la decouverte n'a pas marché cliquez simplement sur synchroniser
+Una vez hecha la inclusión, Jeedom debería enviarlo directamente a la página del nuevo módulo.. Si el descubrimiento no funcionó, simplemente haga clic en sincronizar
 
-# Equipement
+# equipo
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+Encontrarás en la primera pestaña toda la configuración de tu equipo :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
-- Un bouton de configuration qui en fonction du module vous proposera les options possible (attention ici jeedom vous affiche les options tel que le module les proposes desfois cela n'a pas beaucoup de sens en fonction du module)
-- les informations général sur le module
-- le choix du visuel
+- Nombre del equipo : nombre de su equipo de simulación,
+- Objeto padre : indica el objeto padre al que pertenece el equipo,
+- Activar : activa su equipo,
+- visible : hace que su equipo sea visible en el tablero.
+- Un botón de configuración que, según el módulo, le ofrecerá las posibles opciones (tenga cuidado aquí, jeedom mostrará las opciones que el módulo les ofrece a veces no tiene mucho sentido dependiendo del módulo)
+- información general sobre el módulo
+- la elección de visual
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Ici les gestions des commandes n'est pds du tout comme le zwave. Lors de l'inclusion d'un module il y a plusieurs cas possible :
-> - le module a une configuration spécifique : dans ce cas vous avez le visuel du module ainsi qu'une configuration adaptée (c'est rarement le cas car peut necessaire en zigbee)
-> - le module a une configuration generique en fonction des types  : vous avez un visuel generique et les commande correspondant aux types du module (c'est le cas le plus courant)
-> - le module et les types sont inconnus de jeedom : dans ce cas il faut ouvrir une demande de support pour qu'on l'ajoute dans la mise à jour suivante du plugin
+> Aquí la gestión de pedidos no se parece en nada a la zwave. Al incluir un módulo hay varios casos posibles :
+> - el módulo tiene una configuración específica : en este caso, tiene el visual del módulo, así como una configuración adaptada (rara vez es así porque puede ser necesario en zigbee)
+> - el módulo tiene una configuración genérica dependiendo de los tipos  : tiene un visual genérico y los comandos correspondientes a los tipos del módulo (este es el caso más común)
+> - módulo y tipos son desconocidos de jeedom : en este caso, debe abrir una solicitud de soporte para agregarla en la próxima actualización del complemento
 
-# Mise à jour firmware
+# Actualización de firmware
 
 ## Conbee II
 
-Vous pouvez le faire directement depuis jeedom si la clef est branchée sur celui-ci, à partir de la configuration du plugin
+Puede hacerlo directamente desde jeedom si la clave está conectada, desde la configuración del complemento
 
 ## Conbee
 
-Aller sur [ici](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) et verifiez si il y a un nouveau firmware, si oui le récuperer
+Ir a [aquí] (https://www.dresden-elektronik.de/rpi/deconz-firmware/?C = M; O = D) y verifique si hay un nuevo firmware, si es así, recupérelo
 
 ----
 wget https://www.dresden-elektronik.de/rpi/deconz-firmware/deCONZ_Rpi_0x26300500.bin.GCF
 sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 ----
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Attention pour pouvoir flasher il faut absolument que tous les démon sur clef USb (zwave,enocean,rfxcom...) soit coupé et verifiez que la clef est bien en 0 avec GCFFlasher_internal -l. Il est conseillé de debrancher les autres clef
+>Atención para poder flashear es absolutamente necesario que todos los demonios en la tecla USb (zwave, enocean, rfxcom ...) estén cortados y verifique que la clave esté realmente en 0 con GCFFlasher_internal -l. Es recomendable desconectar las otras claves.
 
 
-# FAQ
+# Preguntas frecuentes
 
->**Le démon démarre et se coupe tout seul au bout d'une minute**
+>**El demonio comienza y se corta después de un minuto.**
 >
->Si vous etes sous RPI le serial n'a pas du etre coupé (ca se passe dans raspi-config)
+>Si está bajo RPI, la serie no debería haberse cortado (sucede en raspi-config)
 
->**J'ai un équipement daylight dans liste des noeuds mais pas dans Jeedom**
+>**Tengo un equipo de luz diurna en la lista de nodos pero no en Jeedom**
 >
->C'est normalement c'est un équipement virtuel non supprimable créé par Deconz. Vu que c'est pas un "vrai" équipement Jeedom ne le remonte pas
+>Normalmente es un equipo virtual no extraíble creado por Deconz. Como no es un equipo &quot;real&quot; de Jeedom, no lo vuelve a montar
 
->**J'ai l'erreur "Erreur lors de la requete : 127.0.0.1:8484/api/931559A482/sensors(POST), data : null erreur : 1 => unauthorized user"**
+>**Tengo el error &quot;Error durante la solicitud : 127.0.0.1:8484 / api / 931559A482 / sensores (POST), datos : error nulo : 1 =&gt; usuario no autorizado &quot;**
 >
->Vous n'avez pas autorisé Jeedom a se connecter à Deconz, il faut dans deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer Authenticate App et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API"
+>No ha autorizado a Jeedom para conectarse a Deconz, debe hacerlo en deconz (Phoscon, si lo instaló localmente debe ir a IPJEEDOM:8484) luego en el menú en la parte superior izquierda (las 3 líneas pequeñas) debe ir a &quot;puerta de enlace&quot; y luego &quot;avanzado&quot; y hacer clic en Autenticar aplicación y finalmente en los años 60 ir a la configuración del complemento en Jeedom, guardar la lista de puerta de enlace si la ha cambiado, haga clic en &quot;Recuperar clave de API&quot;
 
->**Mon rpi (4) ne voit pas la clef deconz**
+>**Mi rpi (4) no ve la tecla deconz**
 >
->Il faut mettre a jour le firmware de clef a l'aide d'un autre systeme (windows)
+>Debe actualizar el firmware clave utilizando otro sistema (Windows)
 
->**J'arrive a piloter mes équipements mais je n'ai pas de retour sur les commandes d'informations**
+>**Me las arreglo para controlar mi equipo pero no tengo comentarios sobre pedidos de información**
 >
->Cela vient surement d'un soucis sur les fuseaux horaires (deconz est très pointilleux la dessus). Il faut :
->- vérifier dans "Réseaux deconz" que la timezone et l'heure sont correcte si non vous pouvez soit le configurer dans deconz soit cocher la case "Fuseaux horaire" sur la gateway dans la configuration du plugin deconz (si vous faite cette derniere méthode il faut attendre 1h avant que la correction soit effective)
->- vérifier le fuseau horaire de votre OS (en particulier sur les rpi) qui doit absolument etre bon
+>Esto probablemente se deba a un problema con las zonas horarias (deconz es muy exigente al respecto). Hay que :
+>- marque en &quot;Deconz Networks&quot; que la zona horaria y la hora son correctas, si no puede configurarlo en deconz o marque la casilla &quot;Zonas horarias&quot; en la puerta de enlace en la configuración del complemento deconz (si hace este último método, debe espere 1 hora antes de que la corrección sea efectiva)
+>- compruebe la zona horaria de su sistema operativo (especialmente en el rpi) que debe ser absolutamente bueno

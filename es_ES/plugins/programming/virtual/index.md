@@ -1,76 +1,76 @@
-# Présentation
+# Presentación
 
-Le plugin Virtual (virtuel) permet la création de périphériques virtuels
-et de leurs propriétés.
+El plugin Virtual (virtual) permite la creación de dispositivos virtuales
+y sus propiedades.
 
 Nous nommerons un périphérique créé par ce plugin : périphérique
 virtuel.
 
-Un périphérique virtuel peut être créé pour les besoins suivants :
+Se puede crear un dispositivo virtual para los siguientes propósitos:
 
--   consolider dans un seul périphérique des informations ou actions de
-    plusieurs périphériques physiques/virtuels ;
+-   consolidar en un solo dispositivo las informaciones o acciones de
+    múltiples dispositivos físicos/virtuales ;
 
--   créer un périphérique alimenté par une source externe à Jeedom
+-   crear un dispositivo alimentado por una fuente externa a Jeedom
     (Zibase, IPX800…) ;
 
--   dupliquer un équipement pour le scinder en 2 par exemple ;
+-   duplicar un dispositivo para dividirlo en 2, por ejemplo ;
 
 -   effectuer un calcul sur plusieurs valeurs d'équipements ;
 
--   exécuter de multiples actions (macro).
+-   realizar múltiples acciones (macro).
 
 
 
 
-# Configuration
+# Configuración
 
-Le plugin ne nécessite aucune configuration, il faut juste l’activer :
+El plugin no requiere ninguna configuración, solo actívelo :
 
 ![virtual1](../images/virtual1.png)
 
 
 
 
-# Configuration des équipements
+# Configuración de los dispositivos
 
-La configuration des équipements virtuels est accessible à partir du
-menu plugin :
+La configuración de los dispositivos virtuales es accesible desde
+el menú plugin:
 
 ![virtual2](../images/virtual2.png)
 
-Voilà à quoi ressemble la page du plugin virtuel (ici avec déjà un
-équipement) :
+Así es como se ve la página del plugin virtual (aquí con un
+dispositivo):
 
 ![virtual3](../images/virtual3.png)
 
-Voilà à quoi ressemble la page de configuration d’un équipement virtuel
+Así es como se ve la página de configuración de un dispositivo virtual
 :
 
 ![virtual4](../images/virtual4.png)
 
-> **Tip**
+> **Sugerencia**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como en muchos lugares en Jeedom, coloque el mouse hacia la izquierda
+> permite abrir un menú de acceso rápido (puede
+>dejarlo siempre visible desde su perfil).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
--   **Nom de l'équipement virtuel** : nom de votre équipement virtuel,
+-   **Nombre del dispositivo virtual** : nombre de su dispositivo virtual,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l'équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    dispositivo,
 
 -   **Catégorie** : les catégories de l'équipement (il peut appartenir à
-    plusieurs catégories),
+    varias categorías),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
 -   **Visible** : le rend visible sur le dashboard,
 
 -   **Commentaire** : vous permet de mettre des commentaires sur
-    l'équipement.
+    el equipo.
 
 En haut à droite vous avez accès à 4 boutons :
 
@@ -92,9 +92,9 @@ En-dessous vous retrouvez la liste des commandes :
 
 -   le type et le sous-type,
 
--   la valeur : permet de donner la valeur de la commande en fonction
+-   el valor: permite dar el valor del comando de acuerdo.
     d’une autre commande, d’une clef (quand on fait un interrupteur
-    virtuel), d’un calcul, etc.
+    virtual), de un cálculo, etc.
 
 -   "Valeur de retour d'état" et "Durée avant retour d'état" : permet
     d’indiquer à Jeedom qu’après un changement sur l’information sa
@@ -117,7 +117,7 @@ En-dessous vous retrouvez la liste des commandes :
 -   min/max : bornes de la donnée (peuvent être vides),
 
 -   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
+    el control prolongado de la configuración (método de tala,
     widget, etc.),
 
 -   "Tester" : permet de tester la commande,
@@ -127,9 +127,9 @@ En-dessous vous retrouvez la liste des commandes :
 
 
 
-# Tutoriel
+# Tutorial
 
-## Interrupteur virtuel
+## Interruptor virtual
 
 Pour faire un interrupteur virtuel, il vous faut ajouter 2 commandes
 virtuelles comme cela :
@@ -163,7 +163,7 @@ un joli widget qui changera d'état lors d’un clic :
 
 
 
-## Slider virtuel
+## Slider virtual
 
 Pour faire un slider virtuel, il faut ajouter une commande virtuelle
 comme cela :
@@ -198,7 +198,7 @@ lier l'état à la commande action (attention, il ne faut pas masquer la
 commande état cette fois). Il faut aussi passer la commande info en
 sous-type binaire.
 
-Calcul
+Cálculo
 
 Pour faire un calcul sur de multiples commandes, c’est très facile ! Il
 suffit de créer une commande de type information virtuelle et dans le
@@ -216,13 +216,13 @@ Plusieurs points à réaliser correctement :
 -   Mettre des parenthèses dans les calculs, cela permet d'être sûr du
     résultat de l’opération,
 
--   Bien mettre l’unité,
+-   Tiene que poner bien la unidad,
 
 -   Cocher la case pour historiser si nécessaire,
 
 
 
-## Multiple commandes
+## Comandos multiples
 
 
 Nous allons voir ici comment faire une commande qui va éteindre 2
@@ -239,7 +239,7 @@ champs valeur doivent avoir le même sous-type (toutes "autre", ou toutes
 
 
 
-## Retour d'état virtuel
+## Estado virtual de retorno
 
 Lors de l’utilisation d’un équipement qui ne possède pas de retour
 d'état et si cet équipement est commandé seulement par Jeedom, il est
@@ -256,7 +256,7 @@ commande générale.
 
 
 
-# Affectation d’une valeur par API
+# Asignando un valor por API
 
 Il est possible de changer la valeur d’une information virtuelle par un
 appel API :

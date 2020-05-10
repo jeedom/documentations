@@ -1,94 +1,90 @@
-# 07/04/2020
+# 12/21/2019
 
-- Correction de bugs
+- Addition of option for the hot cycle threshold in order to allow the taking into account of the inertia
 
-# 21/12/2019
+# 12/17/2019
 
-- Ajout d'option pour le seuil de cycle chaud afin de permetre la prise en compte de l'inertie
+- Fixed display issues
+- Addition of an option "Cycle threshold or heating is considered hot"
 
-# 17/12/2019
+# 12/16/2019
 
-- Correction d'un soucis d'affichage
-- Ajout d'une option "Seuil de cycle ou le chauffage est considéré comme chaud"
-
-# 16/12/2019
-
-- Correction de bug sur le mode off du thermostat
-- Ajout d'une option pour limiter la durée d'un second cycle à 100% du temps (permet de prendre en compte le faite que les radiateurs sont déjà chaud)
-
-# 03/11/2019
-
-- Correction d'un bug sur les commandes orpheline
-
-# 23/10/2019
-
-- Correction d'un bug sur le off
-
-# 23/10/2019
-
-- Correction de bugs
-
-# 06/10/2019
-
-- Mise à jour de la FAQ sur les soucis de non affichage des actions/modes
-
-# 01/10/2019
-
-- Correction de bugs
-
-# 15/08/2019
-
-- Mise à jour de la doc
-- Support de php 7.3
-
-# 02/07/2019
-
-- Correction de bugs
-
-# 30/04/2019
-
-- Amélioration de l'interface
-
-# 29/04/2019
-
-- Ajout d'une option "Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID". Merci @Pierrick
+- Bug correction on thermostat off mode
+- Addition of an option to limit the duration of a second cycle to 100% of the time (allows to take into account the fact that the radiators are already hot)
 
 # 11/03/2019
 
-- Possibilité d'ajouter un message d'alerte si le thermostat est suspendu depuis plus de XX minutes
-- Ajout en mode temporel d'un delta de consigne
-- Correction de bugs
+- Correction of a bug on the orphan commands
 
-# 04/01/2019
+# 10/23/2019
 
-- Correction d'un bug sur le smart start si l'agenda est désactivé après la planification
+- Correction of a bug on the off
 
-# 28/12/2018
+# 10/23/2019
 
-- Correction de bug sur le panel mobile
+- Bugfix
 
-# 27/11/2018
+# 10/06/2019
 
-- Correction de bug
+- Update of the FAQ on the concerns of non display of actions / modes
 
-# 20/11/2018
+# 10/01/2019
 
-- Ajout d'un calcul de performance (kWh/DJU) si une commande de consommation est donnée au plugin
-- Correction d'un bug sur la gestion des alertes de défaillance des sondes de température
-- Ajout d'un champs pour une commande d'humidité (utile uniquement pour le plugin Google Smarthome)
+- Bugfix
 
-# 01/07/2018
+# 08/15/2019
 
-- Correction d'un bug sur la suspension du thermostat lors de l'ouverture d'une fenetre
+- Updating the doc
+- Support for php 7.3
+
+# 07/02/2019
+
+- Bugfix
+
+# 04/30/2019
+
+- Improved interface
+
+# 04/29/2019
+
+- Addition of an option "Limits incessant on / off cycles (pellet, gas, fuel oil) and PID". Thank you @Pierrick
+
+# 11/03/2019
+
+- Possibility to add an alert message if the thermostat has been suspended for more than XX minutes
+- Adding a set point delta in time mode
+- Bugfix
+
+# 01/04/2019
+
+- Correction of a bug on the smart start if the calendar is deactivated after planning
+
+# 12/28/2018
+
+- Bug correction on the mobile panel
+
+# 11/27/2018
+
+- Bug fix
+
+# 11/20/2018
+
+- Adding a performance calculation (kWh / DJU) if a consumption command is given to the plugin
+- Correction of a bug on the management of temperature sensor failure alerts
+- Addition of a field for a humidity control (only useful for the Google Smarthome plugin)
+
+# 07/01/2018
+
+- Correction of a bug on the suspension of the thermostat when opening a window
 
 # 06/06/2018
 
-- Correction de bug
+- Bug fix
 
-# 23/02/2018
+# 02/23/2018
 
-- Correction d'un warning dans le code
+- Correction of a warning in the code
 
-# 29/01/2018
+# 01/29/2018
 
-- Correction de bug sur les ouvertures/fermetures de fênetres
+- Bug correction on window openings / closings

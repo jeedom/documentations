@@ -1,4 +1,4 @@
-Description 
+Beschreibung
 ===========
 
 Ce plugin permet de contrôler son Karotz (fonctionnant sous
@@ -6,7 +6,7 @@ Ce plugin permet de contrôler son Karotz (fonctionnant sous
 ses oreilles en passant par les sons, la synthèse vocale et plein
 d’autres.
 
-Configuration 
+Konfiguration
 =============
 
 Configuration du plugin Jeedom : 
@@ -176,7 +176,7 @@ Informations/actions sur le dashboard :
 -   I : En cliquant sur le lapin, cela permet de le faire se coucher ou
     s’endormir
 
-FAQ 
+FAQ
 ===
 
 Quelle est la fréquence de rafraîchissement des infos

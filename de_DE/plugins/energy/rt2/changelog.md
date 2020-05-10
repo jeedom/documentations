@@ -1,33 +1,31 @@
-# 30/03/2020
+- Unterstützung für XTHL-Sonden
 
-- Support des sondes XTHL
+# 2019.09.18
 
-# 18/09/2019
+- Optimierungen
 
-- Optimisations
+# 2019.06.13
 
-# 13/06/2019
+- Unterdrückung des Neustarts des Dämons bei jeder Änderung an den Geräten (dies ist jetzt erforderlich, wenn Sie ein Gerät ändern und den Dämon manuell neu starten).
 
-- Suppression du redemarrage du démon a chaque changement sur les équipements (il faut maintenant lorsque vous modifiez un équipement relance le démon manuellement)
+# 20.02.2019
 
-# 20/02/2019
+- Unterstützung für Pilot Wire (bitte beachten Sie die neueste Firmware-Version von RT2,2.00.34 B1)
 
-- Support des Fil Pilote (attention il faut la derniere version du firmware du RT2,2.00.34 B1)
+# 17.01.2019
 
-# 17/01/2019
+- Fehlerbehebung
 
-- Correction de bug
+# 14.12.2008
 
-# 14/12/2018
+- Fehlerbehebung
+- Einstellen der Aktualisierungsfrequenz möglich (in Sekunden)
 
-- Correction de bug
-- Réglage de la fréquence de mise à jour possible (en seconde)
+# 11/06/2018
 
-# 06/11/2018
+- Hinzufügung der Unterstationsverwaltung
+- Hinzufügen eines automatischen Backup-Systems jeden Tag von RT2
 
-- Ajout de la gestion des sous-postes
-- Ajout d'un systeme de sauvegarde automatique tout les jours des rt2
+# 14.02.2008
 
-# 14/02/2018
-
-- Correction de la gestion des fils pilote
+- Korrektur der Verwaltung von Pilotdrähten

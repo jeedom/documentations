@@ -1,5 +1,3 @@
-# 29/04/2019
-
 - Possibilité d'ajouter un test pour chaque notification
 - Possibilité d'ajouter un test pour chaque commande de notification
 - Ajout d'une clef API spécifique au plugin

@@ -1,27 +1,27 @@
 Open Enocean 
 ============
 
-Description 
+Descripción 
 -----------
 
 Ce plugin est un plugin permettant une compatibilité Enocean
 
 ![openenocean icon](../images/openenocean_icon.png)
 
-Configuration 
+Configuración 
 -------------
 
-Configuration du plugin: 
+Configuración del plugin: 
 ========================
 
 a.  Installation/Création
 
-> **Tip**
+> **Punta**
 >
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+> Afin d'utiliser le plugin, vous devez le télécharger, l'installer et
+> l'activer comme tout plugin Jeedom.
 
-> **Important**
+> **Importante**
 >
 > La chose la plus importante ici est de sélectionner votre Contrôlleur
 > USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
@@ -34,11 +34,11 @@ a.  Installation/Création
 
 -   Jeedom Smart : ttyS1
 
-L’autre option disponible sur cette page est : **Supprimer
+L'autre option disponible sur cette page est : **Borrar
 automatiquement les périphériques exclus**. Celle-ci permet de supprimer
-les équipements de Jeedom lorsqu’il sont exclus.
+les équipements de Jeedom lorsqu'il sont exclus.
 
-Vous pouvez aussi vérifier l’état des dépendances et les relancer. En
+Vous pouvez aussi vérifier l'état des dépendances et les relancer. En
 cas de soucis avec le plugin toujours relancer les dépendances même si
 OK dans le doute.
 
@@ -47,13 +47,13 @@ Le plugin
 
 Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
 
-Sur cette page vous pourrez voir les modules déjà inclus.
+Sur cette page vous pourrez voir les Módulos déjà inclus.
 
 Sur la partie haute de cette page vous avez plusieurs boutons (visibles
 selon que vous êtes en mode expert ou non)
 
--   Bouton ajouter : Permet d’ajouter certains modules qui n’ont pas de
-    notions d’appairage ou qui nécessitent un envoi de commandes depuis
+-   Bouton ajouter : Permet d'ajouter certains Módulos qui n'ont pas de
+    notions d'appairage ou qui nécessitent un envoi de commandes depuis
     Jeedom
 
 -   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
@@ -61,58 +61,58 @@ selon que vous êtes en mode expert ou non)
 
 -   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
 
--   Bouton Configuation : Ce bouton permet d’ouvrir la fenêtre de
-    configuration du plugin
+-   Bouton Configuation : Ce bouton permet d'ouvrir la fenêtre de
+    Configuración del plugin
 
--   Bouton Santé : Ce bouton permet d’avoir un aperçu Santé de tous vos
-    modules
+-   Bouton Santé : Ce bouton permet d'avoir un aperçu Santé de tous vos
+    Módulos
 
-Equipement 
+Dispositivos 
 ==========
 
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page
+Lorsque que vous cliquez sur un de vos Módulos, vous arrivez sur la page
 de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
 sur la partie gauche:
 
 -   Donner un nom au module
 
--   L’activer/le rendre visible ou non
+-   L'activer/le rendre visible ou non
 
 -   Choisir son objet parent
 
 -   Lui attribuer une catégorie
 
 -   Definir un delai de surveillance de communication pour certains
-    modules
+    Módulos
 
 -   Mettre un commentaire
 
 Sur la partie droite vous trouverez :
 
--   Le profil de l’équipement (généralement auto détecté si le module
+-   Le profil de l'équipement (généralement auto détecté si le module
     le permet)
 
 -   Choisir un modèle si pour ce profil plusieurs modèles sont
-    disponibles
+    disponible
 
 -   Voir le visuel
 
-Equipement avec configuration 
+Dispositivos avec configuration 
 =============================
 
-Pour certains modules il est possible d’avoir un bouton configurer, en
+Pour certains Módulos il est possible d'avoir un bouton configurer, en
 cliquant dessus vous arriverez sur une page permettant de configurer
 celui-ci
 
-> **Important**
+> **Importante**
 >
 > Ici il vous suffit de choisir toutes les options et de cliquer sur
-> appliquer. (Attention : il tous les paramètres sont envoyés, donc
-> validez bien l’ensemble)
+> Aplicar. (Attention : il tous les paramètres sont envoyés, donc
+> validez bien l'ensemble)
 
 Liste de compatibilité 
 ======================
 
 Vous trouverez sur le site de documentation jeedom une liste de
-compatibilité de modules avec leur procédure d’inclusion si elles sont
+compatibilité de Módulos avec leur procédure d'inclusion si elles sont
 spécifiques.

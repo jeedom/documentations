@@ -1,6 +1,6 @@
 Ce plugin permet de gerer les notifications (reprise en case d'erreur, generation de texte...)
 
-# Configuration du plugin
+# Plugin Konfiguration
 
 Après téléchargement du plugin, il vous faudra simplement activer le
 plugin

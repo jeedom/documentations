@@ -1,683 +1,683 @@
-Description
+Descripción
 ===========
 
-Ce plugin permet de créer et gérer des thermostats pour piloter le
-chauffage de votre domicile. Il fonctionne selon 2 modes, au choix :
+Este complemento le permite crear y administrar termostatos para controlar el
+calentando tu casa. Funciona en 2 modos, tu eliges :
 
--   le mode **hystéresis** correspond à l’allumage et l’extinction du
-    chauffage en fonction de la température intérieure, par rapport à un
-    seuil correspondant à la consigne. L’hystéresis permet d’éviter des
-    commutations trop fréquentes lorsque la température est autour
-    la consigne.
+-   el modo **histéresis** corresponde a encender y apagar
+    calentamiento en función de la temperatura interior, en relación con un
+    umbral correspondiente al punto de ajuste. La histéresis ayuda a prevenir
+    cambio muy frecuente cuando la temperatura es de alrededor
+    la consigna.
 
 <!-- -->
 
--   le mode **temporel** calcule un pourcentage de chauffage sur un
-    cycle temporel prédéfini, en tenant compte des écarts entre la
-    consigne et les températures intérieure et extérieure (isolation).
-    Ce mode est plus précis, dispose d’un apprentissage permettant
-    d’ajuster automatiquement les coefficients mais peut nécessiter
-    quelques réglages manuels pour l’adapter à votre installation.
-    Important pour que le mode temporel marche il faut absolument une
-    sonde de température intérieure ET extérieure.
+-   el modo **temporal** calcula un porcentaje de calentamiento en un
+    ciclo de tiempo predefinido, teniendo en cuenta las diferencias entre el
+    consigna y temperatura interior y exterior (aislamiento).
+    Este modo es más preciso, tiene un aprendizaje que permite
+    ajusta automáticamente los coeficientes pero puede requerir
+    algunos ajustes manuales para adaptarlo a su instalación.
+    Importante para que el modo horario funcione, absolutamente necesitas un
+    sensor de temperatura interior y exterior.
 
-Configuration
+Configuración
 =============
 
-Ce plugin est destiné à la création de thermostats dans Jeedom. Il
-permet de piloter le chauffage, la climatisation ou les deux à la fois.
+Este complemento está destinado a la creación de termostatos en Jeedom. Él
+Puede controlar la calefacción, el aire acondicionado o ambos.
 
-L’intérêt par rapport à un thermostat classique, c’est qu’il va pouvoir
-s’intégrer totalement dans votre installation domotique. Outre la
-régulation de température, car c’est bien ce qu’on lui demande en
-premier lieu, le thermostat peut interagir avec tous les équipements de
-la maison.
+La ventaja en comparación con un termostato convencional es que
+integrarse completamente en su sistema domótico. Además del
+regulación de temperatura, porque eso es lo que le pedimos en
+primero, el termostato puede interactuar con todo el equipo
+la casa.
 
-Parmi ses caractéristiques, on trouve :
+Entre sus características están :
 
--   la prise en compte de la température extérieure, par conséquent du
-    coefficient d’isolation de la maison,
+-   teniendo en cuenta la temperatura exterior, en consecuencia el
+    coeficiente de aislamiento de la casa,
 
--   un système de régulation qui apprend pour optimiser la régulation,
+-   un sistema regulatorio que aprende a optimizar la regulación,
 
--   la possibilité de gérer les ouvrants pour débrayer le thermostat,
+-   la posibÉlidad de manejar las puertas para desconectar el termostato,
 
--   la gestion des défaillances des équipements, sondes de température
-    et appareils de chauffage,
+-   gestión de fallas de equipos, sondas de temperatura
+    y calentadores,
 
--   une programmation complète avec le plugin agenda, avec notamment la
-    possibilité d’anticiper le changement de consigne pour que la
-    température soit atteinte à l’heure programmée (smart start)
+-   programación completa con el complemento de agenda, incluido en particular el
+    posibÉlidad de anticipar el cambio de consigna para que el
+    la temperatura se alcanza a la hora programada (inicio inteligente)
 
-Dans un premier temps, nous allons vous montrer la mise en œuvre, puis
-détailler les différents réglages de la configuration du thermostat et
-enfin, au travers de quelques cas d’utilisation, comment on peut
-l’enrichir en combinaison avec d’autres plugins ou à l’aide de
-scénarios.
+Primero, le mostraremos la implementación, luego
+detallar los diferentes ajustes de la configuración del termostato y
+finalmente, a través de algunos casos de uso, cómo podemos
+enriquecerlo en combinación con otros complementos o usando
+Escenarios.
 
-La configuration en quelques clics
+Configuración en unos pocos clics
 ----------------------------------
 
-Le thermostat de Jeedom est très puissant mais pour une utilisation
-traditionnelle, sa mise en œuvre est vraiment simple et rapide, à partir
-du moment où on a compris les étapes essentielles :
+El termostato Jeedom es muy potente pero para usar
+tradicional, su implementación es realmente simple y rápida, desde
+desde el momento en que entendemos los pasos esenciales :
 
--   définition du Moteur de thermostat (hystérésis ou temporel). C’est
-    le choix de l’algorithme de régulation.
+-   definición del motor del termostato (histéresis o tiempo). Es
+    la elección del algoritmo de regulación.
 
--   la configuration et la plage de fonctionnement : chauffage
-    uniquement, climatisation ou bien les deux , températures min et
-    max d’utilisation.
+-   configuración y rango operativo : Calefacción
+    solo, aire acondicionado o ambos, min y
+    uso máximo.
 
--   La définition des actions que le thermostat doit exécuter pour
-    chauffer, refroidir ou arrêter.
+-   Definir las acciones que debe realizar el termostato para
+    calentar, enfriar o parar.
 
-On trouve ensuite différents onglets :
+Luego hay diferentes pestañas :
 
--   La configuration des modes définit des températures de
-    consignes prédéterminées. Par exemple, le mode confort à 20°C, eco
-    à 18°C. Il peut y avoir aussi jour, nuit, vacances, absence,…​vous
-    commencez à entrevoir ici les possibilités de personnalisation
-    du plugin.
+-   La configuración de los modos define temperaturas de
+    instrucciones predeterminadas. Por ejemplo, modo confort a 20 ° C, eco
+    a 18 ° C. También puede haber día, noche, vacaciones, ausencia, ... usted
+    empieza a ver aquí las posibÉlidades de personalización
+    plugin.
 
--   Pour affiner le mode de fonctionnement du thermostat, vous allez
-    pouvoir également configurer des ouvertures qui vont interrompre
-    temporairement la régulation (par exemple, une fenêtre ouverte peut
-    arrêter le chauffage). La définition de cette interruption
-    s’effectue ici simplement.
+-   Para refinar el modo de funcionamiento del termostato, deberá
+    También podrá configurar aperturas que interrumpirán
+    regulación temporal (por ejemplo, una ventana abierta puede
+    dejar de calentar). La definición de esta interrupción
+    se hace aquí simplemente.
 
--   La gestion des modes de défaillance pour les sondes de température
-    ou pour le chauffage permet de définir des actions à exécuter pour
-    un mode dégradé.
+-   Gestión de modos de falla para sensores de temperatura.
+    o para calentar permite definir acciones a ejecutar para
+    un modo degradado.
 
--   L’onglet Configuration avancée permet d’ajuster les paramètres de
-    régulation du chauffage.
+-   La pestaña Configuración avanzada le permite ajustar los parámetros de
+    regulación de calefacción.
 
--   Si de plus, vous disposez du plugin Agenda, la programmation des
-    changements de mode devient possible directement depuis
-    l’onglet programmation.
+-   Si además, tiene el complemento Agenda, la programación de
+    los cambios de modo se hacen posibles directamente desde
+    la pestaña de programación.
 
-Votre thermostat est maintenant opérationnel, et par l’utilisation de
-scénarios ou en le combinant avec d’autres plugins (agenda,
-virtuel,présence,…​), il va se fondre en douceur dans votre installation
-domotique. Voilà ce que l’on obtient sur le dashboard :
+Su termostato ahora está operativo y al usar
+escenarios o combinándolo con otros complementos (agenda,
+presencia, ...), se integrará sin problemas en su instalación
+domótica Esto es lo que tenemos en el tablero :
 
-![Aspect sur le dashboard](../images/thermostat.png)
+![Aspect sur le dashboard](../images/Termostato.png)
 
-Le verrou présent sur le widget permet de bloquer le thermostat dans une
-consigne donnée, suite à un imprévu : congés, invités,…​.
+El bloqueo en el widget le permite bloquear el termostato en un
+instrucción dada después de un evento imprevisto : dejar, invitados, ....
 
 
-La création d’un thermostat en détail
+La creación de un termostato en detalle.
 -------------------------------------
 
-Pour créer un nouveau thermostat, rendez-vous sur la page de
-configuration en déroulant le menu Plugins/Bien-être et sélectionnez
-Thermostat. Cliquez sur le bouton *Ajouter* situé en haut à gauche et
-renseignez le nom souhaité pour votre thermostat.
+Para crear un nuevo termostato, vaya a la página
+configuración desplegando el menú Complementos / Bienestar y seleccione
+Termostato Haga clic en el botón * Agregar * en la esquina superior izquierda y
+ingrese el nombre deseado para su termostato.
 
-![Configuration générale](../images/thermostat_config_générale.png)
+![Configuración générale](../images/Termostato_config_générale.png)
 
-Dans un premier temps, nous allons renseigner les paramètres généraux du
-thermostat. On les trouve en haut à gauche, section général et il faut
-préciser ici l’objet parent, l’activation et la visibilité du
-thermostat, informations habituelles pour tout utilisateur de jeedom.
+Primero, informaremos los parámetros generales de la
+termostato Se encuentran en la parte superior izquierda, sección general y es necesario
+especifique aquí el objeto principal, la activación y la visibÉlidad del
+termostato, información habitual para cualquier usuario de jeedom.
 
-Le choix de l’algorithme du thermostat
+La elección del algoritmo de termostato
 --------------------------------------
 
-![Choix de l'algorithme](../images/thermostat31.png)
+![Choix de l'algorithme](../images/Termostato31.png)
 
-En évidence sur cette image le Moteur de fonctionnement du thermostat.
-Il y a 2 algorithmes possibles pour la régulation de température.
+En esta imagen, se destaca el motor de operación del termostato..
+Hay 2 algoritmos posibles para la regulación de la temperatura..
 
-Lorsque vous sélectionnez le mode Hystérésis, la mise en route de votre
-chauffage se produit dès que la température est inférieure à la consigne
-moins l’hystérésis et il s’éteint dès que la température dépasse la
-consigne plus l’hystérésis.
+Cuando selecciona el modo de histéresis, el inicio de su
+el calentamiento ocurre tan pronto como la temperatura está por debajo del punto de ajuste
+menos la histéresis y se apaga tan pronto como la temperatura excede el
+punto de ajuste más histéresis.
 
-![Principe du mode hystérésis](../images/PrincipeHysteresis.png)
+![Principe du modo hystérésis](../images/PrincipeHysteresis.png)
 
-Par exemple, si on règle l’hystérésis à 1°C et que la valeur de consigne
-vaut 19°C, alors le chauffage s’active lorsque la température passe en
-dessous de 18°C et s’arrête dès qu’il atteint 20°C.
+Por ejemplo, si configura la histéresis a 1 ° C y el punto de ajuste
+es 19 ° C, luego el calentamiento se activa cuando la temperatura baja
+debajo de 18 ° C y se detiene tan pronto como alcanza los 20 ° C.
 
-Les paramètres à fournir sont l’hystérésis en °C et la commande qui
-permet de récupérer la mesure de température. On règlera l’hystérésis en
-fonction de la précision du capteur, par exemple pour une sonde précise
-à 0.5°C, un hystérésis de 0.2°C est un bon compromis.
+Los parámetros a suministrar son la histéresis en ° C y el comando que
+permite recuperar la medición de temperatura. Ajustaremos la histéresis en
+dependiendo de la precisión del sensor, por ejemplo, para una sonda precisa
+a 0.5 ° C, una histéresis de 0.2 ° C es un buen compromiso.
 
-> **Tip**
+> **Punta**
 >
-> Le paramètre hystérésis se trouve dans l’onglet *avancée*.
+> El parámetro de histéresis se encuentra en la pestaña * avanzada*.
 
-Dans le cas du mode temporel, la commande de chauffage ou de
-climatisation est définie sur un cycle prédéfini et la durée d’exécution
-de la commande est fonction de l’écart entre la consigne et la
-température mesurée par le capteur. L’algorithme va également calculer
-le temps de chauffe (ou de climatisation) sur un cycle en fonction de
-l’inertie et de l’isolation de la pièce.
+En el caso del modo horario, la calefacción o
+el aire acondicionado se define en un ciclo predefinido y la duración de la ejecución
+del comando es una función de la diferencia entre el punto de ajuste y el
+temperatura medida por el sensor. El algoritmo también calculará
+el tiempo de calentamiento (o enfriamiento) en un ciclo dependiendo de
+inercia y aislamiento de la habitación.
 
-![Principe du mode temporel](../images/PrincipeTemporel.png)
+![Principe du modo temporal](../images/PrincipeTemporel.png)
 
-Enfin, plus le temps de cycle sera grand, plus la régulation sera lente.
-A l’inverse, un temps trop faible provoquera des commutations fréquentes
-de votre système de chauffage qui n’aura peut-être pas le temps de
-chauffer le volume de la pièce efficacement. Il est recommandé de ne pas
-trop diminuer ce temps de cycle (les valeurs acceptables sont comprises
-entre 30 et 60mn).
+Finalmente, cuanto más largo sea el tiempo del ciclo, más lenta será la regulación.
+Por el contrario, un tiempo demasiado corto provocará cambios frecuentes
+de su sistema de calefacción que puede no tener tiempo para
+calentar el volumen de la habitación de manera efectiva. Se recomienda no
+reducir demasiado este tiempo de ciclo (se incluyen valores aceptables
+entre 30 y 60 minutos).
 
-Ce type de régulation est plus optimisé, il améliore le confort et
-permet de réaliser des économies d’énergie substantielles.
+Este tipo de regulación está más optimizada, mejora la comodidad y
+permite ahorros sustanciales de energía.
 
-La configuration
+La configuración
 ----------------
 
-Outre le moteur de fonctionnement du thermostat, vous pouvez décider si
-le thermostat est utilisé en mode chauffage, climatisation ou les deux.
-Puis vous indiquez sa plage d’utilisation : les températures minimale et
-maximale vont définir les valeurs possibles de consigne accessibles sur
-le widget.
+Además del motor de funcionamiento del termostato, puede decidir si
+El termostato se utÉliza en calefacción, aire acondicionado o ambos.
+Luego indicas su rango de uso : temperaturas mínimas y
+máximo definirá los posibles valores de consigna accesibles en
+el widget.
 
-![Configuration du fonctionnement](../images/configFonctionnement.png)
+![Configuración du fonctionnement](../images/configFonctionnement.png)
 
-Ensuite, il faut préciser les commandes qui permettent de mesurer la
-température et de piloter le chauffage ou la climatisation. Notez que le
-moteur temporel a besoin de connaître la température extérieure. Si vous
-ne disposez pas d’un capteur extérieur, celle-ci peut être fournie par
-le plugin météo.
+A continuación, especifique los comandos que miden el
+temperatura y control de la calefacción o aire acondicionado. Tenga en cuenta que el
+tiempo motor necesita saber la temperatura exterior. Si usted
+no tiene un sensor externo, esto puede ser proporcionado por
+el plugin meteorológico.
 
 ![Sélection des sondes](../images/selectionsondes.png)
 
-> **Tip**
+> **Punta**
 >
-> Les champs `Borne de température inférieure` et
+> Los campos `Límite inferior de temperatura` y
 > `Borne de température supérieure` définissent la plage de
-> fonctionnement du thermostat en dehors de laquelle une défaillance du
-> chauffage est enclenchée. Voir ci dessous le paragraphe sur les
-> actions de défaillance.
+> funcionamiento del termostato fuera del cual una falla del
+> la calefacción está encendida. Ver abajo el párrafo sobre
+> acciones por defecto.
 
-Pour la commande du radiateur ou du climatiseur, il est décrit dans
-l’onglet *Actions*. On peut ici définir plusieurs
-actions, ce qui donne la possibilité à notre thermostat de piloter
-différents équipements (cas d’un fonctionnement par zone par exemple ou
-contrôle d’un autre thermostat)
+Para el control del radiador o aire acondicionado, se describe en
+* Pestaña Acciones*. Aquí podemos definir varios
+acciones, lo que le da a nuestro termostato la capacidad de controlar
+diferentes equipos (caso de operación por zona por ejemplo o
+control de otro termostato)
 
-![Actions sur les appareils](../images/actionssurappareil.png)
+![Actions sur les appareÉls](../images/actionssurappareÉl.png)
 
-Les actions sont celles qui permettent de chauffer, de refroidir
-(climatisation), d’arrêter la commande. Une action complémentaire peut
-être envisagée à chaque changement de consigne, que ce soit en mode
-manuel ou automatique.
+Las acciones son aquellas que calientan, enfrían
+(aire acondicionado), pare el comando. Una acción complementaria puede
+ser considerado en cada cambio de punto de ajuste, ya sea en modo
+manual o automático.
 
-Les modes : le point de départ pour l’automatisation
+Las modas : el punto de partida para la automatización
 ----------------------------------------------------
 
-Les modes (définis dans l’onglet *Modes*) sont des
-consignes prédéterminées du thermostat qui correspondent à votre mode de
-vie. Par exemple, le mode **Nuit** ou **Eco** donne la température que
-vous souhaitez lorsque tout le monde dort. Le mode **Jour** ou
-**Confort** détermine le comportement du thermostat pour avoir une
-température de confort lorsque vous êtes présent au domicile. Ici, rien
-n’est figé. Vous pouvez définir autant de modes que vous le souhaitez pour
-les utiliser via des scénarios (Nous y reviendrons plus tard).
+Los modos (definidos en la pestaña * Modos *) son
+puntos de consigna predeterminados del termostato que corresponden a su modo de
+la vida Por ejemplo, el modo **Noche** o **Eco** dar la temperatura que
+deseas cuando todos duermen. El modo **Día** o
+**Confort** determina el comportamiento del termostato para tener un
+temperatura de confort cuando estás en casa. Nada aqui
+no está congelado. Puede definir tantos modos como desee para
+úselos a través de escenarios (volveremos a eso más adelante).
 
-Dans l’image ci-dessous, le mode **Confort** a une valeur de consigne de
-19°C et pour le mode **Eco**, le thermostat est réglé à 17°C. Le mode
-**Vacances** programme le thermostat à 15°C en cas d’absence prolongée.
-Il n’est pas visible sur le dashboard, car c’est un scénario qui
-programme tous les équipements en *vacances* et ainsi positionner le
-thermostat sur ce mode.
+En la imagen de abajo, el modo **Confort** tiene un punto de ajuste de
+19 ° C y para modo **Eco**, el termostato se ajusta a 17 ° C. El modo
+**Vacaciones** programa el termostato a 15 ° C en caso de ausencia prolongada.
+No es visible en el tablero, porque es un escenario que
+programar todo el equipo en * vacaciones * y así posicionar el
+termostato en este modo.
 
-![Définition des modes](../images/Definitionmodes.png)
+![Définition des modos](../images/Definitionmodos.png)
 
-Pour définir un mode, procédez comme suit :
+Para definir un modo, proceda de la siguiente manera :
 
--   Cliquez sur le bouton *Ajouter Mode*,
+-   Haga clic en el botón * Agregar modo*,
 
--   donnez un nom à ce mode, par exemple `Eco`,
+-   donnez un nom à ce modo, par exemple `Eco`,
 
--   ajoutez une action et choisissez la commande *Thermostat* de votre
-    équipement thermostat,
+-   agregue una acción y elija el comando * Termostato * en su
+    equipo de termostato,
 
--   ajustez la température souhaitée pour ce mode,
+-   ajustar la temperatura deseada para este modo,
 
--   cochez la case **Visible** pour faire apparaître ce mode sur le
-    widget du thermostat sur le Dashboard.
+-   marca la casÉlla **Visible** para que aparezca este modo en el
+    widget de termostato en el tablero.
 
 
->**IMPORTANT**
+>**Importante**
 >
->Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+>Atención durante el cambio de nombre de un modo es absolutamente necesario revisar los escenarios / equipos que usan el nombre antiguo para pasarlos al nuevo
 
 
-Les ouvertures : pour interrompre temporairement le thermostat
+Las aberturas : para interrumpir temporalmente el termostato
 --------------------------------------------------------------
 
-Imaginons que vous souhaitez arrêter momentanément votre chauffage ou
-votre climatiseur, par exemple pour aérer la pièce pour laquelle le
-thermostat est actif. Pour détecter l’ouverture de la fenêtre, vous
-utiliserez un capteur situé sur l’ouvrant de votre fenêtre, vous
-permettant ainsi de réaliser cette interruption en l’ajoutant dans
-l’onglet de configuration des ouvertures. Deux paramètres
-supplémentaires sont réglables ici, ce sont les durées d’ouverture et de
-fermeture de la fenêtre qui vont provoquer l’interruption et la reprise
-du fonctionnement du thermostat.
+Imagine que desea detener temporalmente su calefacción o
+su aire acondicionado, por ejemplo, para ventÉlar la habitación para la cual
+el termostato está activo. Para detectar la apertura de la ventana, usted
+use un sensor ubicado en la abertura de su ventana, usted
+permitiendo así llevar a cabo esta interrupción agregándola en
+pestaña de configuración de aperturas. Dos parámetros
+adicionales son ajustables aquí, estos son los horarios de apertura y
+cierre de la ventana que causará la interrupción y la reanudación
+como funciona el termostato.
 
-![Configuration des ouvertures](../images/configouvertures.png)
+![Configuración des overtures](../images/configovertures.png)
 
-Pour configurer le fonctionnement à l’ouverture de la fenêtre :
+Para configurar la operación cuando se abre la ventana :
 
--   sélectionnez l’info du capteur d’ouverture dans le champ `Ouverture`
+-   sélectionnez l'info du capteur d'overture dans le champ `Ouverture`
 
--   ajuster le temps avant coupure du thermostat après l’ouverture dans
-    le champ `Eteindre si ouvert plus de (min) :`
+-   Ajuste el tiempo antes de que el termostato se apague después de abrir
+    el campo `Apagar si está abierto más de (min) :`
 
--   ajuster le temps après fermeture de la fenêtre permettant de
-    relancer le thermostat dans le champ
+-   ajustar el tiempo después de cerrar la ventana permitiendo
+    reiniciar el termostato en el campo
     `Rallumer si fermé depuis (min) :`
 
--   cliquez sur le bouton *Sauvegarder* pour enregistrer la prise en
-    compte des ouvertures
+-   haga clic en el botón * Guardar * para guardar la toma
+    cuenta de aperturas
 
-> **Tip**
+> **Punta**
 >
-> Il est possible de définir plusieurs ouvertures, ceci est nécessaire
-> lorsque le thermostat contrôle une zone composée de plusieurs pièces.
+> Es posible definir varias aberturas, esto es necesario
+> cuando el termostato controla un área compuesta por varias habitaciones.
 
-> **Tip**
+> **Punta**
 >
-> Il est possible de définir une alerte si l'ouverture dure plus de xx minutes.
+> Es posible establecer una alerta si la apertura dura más de xx minutos.
 
 
-Prévoir un mode dégradé grâce à la gestion des défaillances
+Predecir un modo degradado gracias a la gestión de fallos
 -----------------------------------------------------------
 
-Les défaillances peuvent provenir soit des sondes de température, soit
-de la commande de chauffage. Le thermostat peut détecter un défaut lors
-d’un écart prolongé de la température avec la consigne.
+Las fallas pueden provenir de sensores de temperatura o
+del control de calefacción. El termostato puede detectar una falla durante
+una desviación prolongada de la temperatura desde el punto de ajuste.
 
-### Défaillance des sondes de température
+### Falla de la sonda de temperatura
 
-Si les sondes utilisées par le thermostat ne renvoient pas de **changement**
-de température, par exemple en cas d’usure des piles, alors le
-thermostat enclenche les actions de défaillance. Lorsque le défaut
-survient, il est possible de mettre l’appareil dans un mode de
-fonctionnement prédéterminé, par exemple forcer l’ordre d’un radiateur
-fil pilote. Plus simplement l’envoi d’un message par sms ou d’une
-notification permet d’être prévenu et d’intervenir manuellement.
+Si las sondas utÉlizadas por el termostato no devuelven ninguna **cambiar**
+temperatura, por ejemplo, si las baterías están gastadas, entonces el
+el termostato inicia acciones de falla. Cuando la culpa
+ocurre, es posible poner el dispositivo en un
+funcionamiento predeterminado, por ejemplo, forzar el orden de un radiador
+Cable pÉloto. Más simplemente enviando un mensaje de texto o un
+notificación permite ser advertido e intervenir manualmente.
 
-> **Tip**
+> **Punta**
 >
-> Le paramètre qui permet au thermostat de décider d’une défaillance de
-> sonde est situé dans l’onglet *Avancée*. Il s’agit du
+> El parámetro que permite al termostato decidir sobre una falla de
+> la sonda se encuentra en la pestaña * Avanzado*. Este es el
 > `délai max entre 2 relevés de température`.
 
-![Défaillance des sondes](../images/defaillancesonde.png)
+![DéfaÉllance des sondes](../images/defaÉllancesonde.png)
 
-Pour définir une action de défaillance :
+Para definir una acción de falla :
 
--   cliquez sur l’onglet *Défaillance sonde*,
+-   haga clic en la pestaña * Error de sonda*,
 
--   cliquez sur le bouton *Ajoutez une action de défaillance*
+-   haga clic en el botón * Agregar una acción de falla*
 
--   sélectionnez une action et remplissez les champs associés
+-   seleccione una acción y complete los campos asociados
 
-Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence
-et dans le cas d’actions plus complexes, faire appel à un scénario
-(taper `scenario` sans accent dans le champs action puis cliquer
-ailleurs pour pouvoir saisir le nom du scénario).
+Puede ingresar varias acciones, que se ejecutarán en secuencia
+y en el caso de acciones más complejas, use un escenario
+(escriba `escenario` sin acento en el campo de acción y luego haga clic en
+en otro lugar para poder ingresar el nombre del escenario).
 
-### Défaillance du chauffage/climatisation
+### Falla de calefacción / aire acondicionado
 
-Le bon fonctionnement du chauffage ou de la climatisation est
-conditionné par un bon suivi de consigne. Ainsi, si la température
-s’écarte de la plage de fonctionnement du thermostat, celui-ci enclenche
-les actions de défaillance du chauffage/climatisation. Cette analyse
-s’effecue sur plusieurs cycles.
+El buen funcionamiento de la calefacción o del aire acondicionado es
+condicionado por un buen seguimiento del depósito. Entonces si la temperatura
+se desvía del rango operativo del termostato, se enciende
+acciones de falla de calefacción / aire acondicionado. Este analisis
+tiene lugar durante varios ciclos.
 
-> **Tip**
+> **Punta**
 >
-> Le paramètre qui permet au thermostat de décider d’une défaillance de
-> sonde est situé dans l’onglet *Avancée*. Il s’agit de la
-> `Marge de défaillance chaud` pour le chauffage et de la
-> `Marge de défaillance froid` pour la climatisation.
+> El parámetro que permite al termostato decidir sobre una falla de
+> la sonda se encuentra en la pestaña * Avanzado*. Se trata de la
+> `Marge de défaÉllance chaud` por le Calefacción et de la
+> `Marge de défaÉllance froid` por la climatisation.
 
-Sur cette image, l’action de défaillance envoie l’ordre de passage en
-mode ECO du radiateur par le fil pilote, puis envoie un message par le
+En esta imagen, la acción de falla envía la orden para cambiar a
+Modo ECO del radiador por el cable pÉloto, luego envía un mensaje por el
 plugin pushbullet.
 
-![Défaillance du chauffage](../images/defaillancechauffage.png)
+![DéfaÉllance calefaccion](../images/defaÉllanceCalefacción.png)
 
-Pour définir une action de défaillance :
+Para definir una acción de falla :
 
--   cliquez sur l’onglet *Défaillance du chauffage/climatisation*,
+-   haga clic en la pestaña * Fallo de calefacción / aire acondicionado*,
 
--   cliquez sur le bouton *Ajoutez une action de défaillance*
+-   haga clic en el botón * Agregar una acción de falla*
 
--   sélectionnez une action et remplissez les champs associés
+-   seleccione una acción y complete los campos asociados
 
-Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence
-et dans le cas d’actions plus complexes, faire appel à un scénario
-(taper `scenario` sans accent dans le champs action puis cliquer
-ailleurs pour pouvoir saisir le nom du scénario).
+Puede ingresar varias acciones, que se ejecutarán en secuencia
+y en el caso de acciones más complejas, use un escenario
+(escriba `escenario` sin acento en el campo de acción y luego haga clic en
+en otro lugar para poder ingresar el nombre del escenario).
 
-Gérer des cas particuliers avec la configuration avancée du thermostat
+Gestione casos especiales con la configuración avanzada del termostato
 ---------------------------------------------------------------------
 
-Cet onglet contient tous les paramètres de réglage du thermostat en mode
-temporel. Dans la plupart des cas, il n’est pas nécessaire de modifier
-ces valeurs, car l’auto-apprentisssage va calculer automatiquement les
-coefficients. Cependant, même si le thermostat peut s’adapter à la
-plupart des cas de figure, il est possible d’ajuster les coefficients
-pour une configuration optimisée à votre installation.
+Esta pestaña contiene todos los parámetros para ajustar el termostato en modo
+temporal En la mayoría de los casos, no hay necesidad de modificar
+estos valores, porque el autoaprendizaje calculará automáticamente el
+coeficientes Sin embargo, incluso si el termostato puede adaptarse a la
+en la mayoría de los casos, es posible ajustar los coeficientes
+para una configuración optimizada para su instalación.
 
-![Configuration avancée du
-thermostat](../images/configurationavancee.png)
+![Configuración avancée du
+termostato] (../ images / configurationavancee.png)
 
-Les coefficients sont les suivants :
+Los coeficientes son los siguientes :
 
--   **Coefficient de chauffage / Coefficient de climatisation** : il
-    s’agit du gain du système de régulation . Cette valeur est
-    multipliée par l’écart entre la consigne et la température
-    intérieure mesurée pour déduire le temps de chauffage/climatisation.
+-   **Coeficiente de calentamiento / coeficiente de enfriamiento** : Él
+    es la ganancia del sistema regulatorio . Este valor es
+    multiplicado por la diferencia entre el punto de ajuste y la temperatura
+    interior medido para deducir el tiempo de calentamiento / enfriamiento.
 
--   **Apprentissage chaud / Apprentissage froid** : ce paramètre indique
-    l’état d’avancement de l’apprentissage. Une valeur de 1 indique le
-    début de l’apprentissage, l’algorithme effectue un réglage grossier
-    des coefficients. Puis au fur et à mesure que ce paramètre augmente,
-    le réglage s’affine. Une valeur de 50 indique la fin
-    de l’apprentissage.
+-   **Aprendizaje en caliente / aprendizaje en frío** : este parámetro indica
+    progreso de aprendizaje. Un valor de 1 indica el
+    inicio del aprendizaje, el algoritmo realiza un ajuste aproximado
+    coeficientes. Luego, a medida que este parámetro aumenta,
+    la configuración es refinada. Un valor de 50 indica el final
+    de aprendizaje.
 
--   **Isolation chauffage / Isolation clim** : ce coefficient est
-    multiplié par l’écart entre la consigne et la température extérieure
-    mesurée pour déduire le temps de chauffage/climatisation. Il
-    représente la contribution de la température extérieure au temps de
-    chauffage/climatisation et sa valeur est normalement inférieure au
-    coefficient de chauffage/climatisation, dans le cas d’une pièce
-    bien isolée.
+-   **Aislamiento de calefacción / aislamiento de aire acondicionado** : este coeficiente es
+    multiplicado por la diferencia entre el punto de ajuste y la temperatura exterior
+    medido para deducir el tiempo de calentamiento / enfriamiento. Él
+    representa la contribución de la temperatura exterior al tiempo de
+    calefacción / aire acondicionado y su valor es normalmente menor que
+    coeficiente de calefacción / aire acondicionado, en el caso de una habitación
+    bien aislado.
 
--   **Apprentissage isolation chaud / Apprentissage isolation froid** :
-    même fonction que ci-dessus, mais pour les coefficients d’isolation.
+-   **Aprenda aislamiento en caliente / Aprenda aislamiento en frío** :
+    misma función que la anterior, pero para los coeficientes de aislamiento.
 
--   **Offset chauffage(%) / Offset clim(%)** : L’offset du chauffage
-    permet de tenir compte des *apports internes*, normalement il ne
-    devrait pas être fixe mais on suppose que l’apprentissage intègre la
-    partie dynamique dans les 2 autres coefficients. Les *apports
-    internes*, c’est par exemple un ordinateur qui va provoquer une
-    élévation de température lorsqu’on l’allume, mais ce peut-être aussi
-    les individus (1 personne =80W en moyenne), le réfrigérateur dans
-    la cuisine. Dans une pièce au sud, c’est une façade ensoleillée qui
-    peut réaliser un apport d’énergie supplémentaire. En théorie, ce
-    coefficient est négatif.
+-   **Compensación de calefacción (%) / Compensación de aire acondicionado (%)** : El desplazamiento de calentamiento
+    permite tener en cuenta * contribuciones internas *, normalmente no
+    no debe repararse, pero se supone que el aprendizaje integra el
+    parte dinámica en los otros 2 coeficientes. Los aportes
+    interno *, es por ejemplo una computadora que causará un
+    aumento de temperatura cuando se enciende, pero también puede ser
+    individuos (1 persona = 80 W en promedio), el refrigerador en
+    la cocina. En una habitación al sur, es una fachada soleada que
+    puede proporcionar energía adicional. En teoría, esto
+    coeficiente es negativo.
 
-- **Offset à appliquer si le radiateur est considéré chaud (%)** : à utiliser si votre système de contrôle du chauffage a une inertie non négligeable, que ce soit du fait des radiateurs, de la configuration de la pièce (distance entre le radiateur et la sonde de température) ou de la sonde de température elle-même (selon les modèles, leur réactivité est plus ou moins grande). La conséquence visible de cette inertie est un dépassement temporaire de la consigne lors des montées en température importantes (consigne qui passe de 15°C à 19°C par exemple). Ce paramètre correspond au décalage constaté entre la période de chauffe (= le chauffage est allumé) et la période où la température relevée par la sonde augmente, divisé par la longueur du cycle paramétrée. Par exemple, si on constate un décalage de 30 minutes entre le début de la chauffe et le début de l’élévation de température, et que la durée des cycles de chauffe est réglée sur 60 minutes, on peut mettre ce paramètre 50%. Ainsi, quand un cycle de chauffe à 100% est suivi par une autre chauffe, ce paramètre permet de prendre en compte la chaleur générée par le radiateur au premier cycle mais non encore mesurée par la sonde pour le calcul du deuxième cycle, en diminuant d’autant sa puissance de chauffe. La puissance du deuxième cycle sera alors diminuée de 50% par rapport au calcul réalisé en fonction de la température mesurée par la sonde.
+- **Desplazamiento a aplicar si el radiador se considera caliente (%)** : para usar si su sistema de control de calefacción tiene una inercia significativa, ya sea debido a los radiadores, la configuración de la habitación (distancia entre el radiador y el sensor de temperatura) o el propio sensor de temperatura ( dependiendo del modolo, su reactividad es más o menos). La consecuencia visible de esta inercia es un sobreimpulso temporal del punto de ajuste durante aumentos significativos de temperatura (punto de ajuste que va de 15 ° C a 19 ° C, por ejemplo). Este parámetro corresponde a la diferencia observada entre el período de calentamiento (= el calentamiento está encendido) y el período en que aumenta la temperatura medida por la sonda, dividida por la duración del ciclo configurado.. Por ejemplo, si hay una diferencia de 30 minutos entre el inicio del calentamiento y el inicio del aumento de la temperatura, y la duración de los ciclos de calentamiento se establece en 60 minutos, podemos establecer este parámetro en un 50%. Por lo tanto, cuando un ciclo de calentamiento al 100% es seguido por otro calentamiento, este parámetro hace posible tener en cuenta el calor generado por el radiador en el primer ciclo pero aún no medido por la sonda para el cálculo del segundo ciclo, reduciendo d '' su potencia de calentamiento. La potencia del segundo ciclo se reducirá en un 50% en comparación con el cálculo realizado de acuerdo con la temperatura medida por la sonda..
 
--   **Auto apprentissage** : case à cocher pour activer/désactiver
-    l’apprentissage des coefficients.
+-   **Autoaprendizaje** : casÉlla de verificación para activar / desactivar
+    aprendiendo los coeficientes.
 
--   **Smart start** : Cette option permet de donner de l’intelligence au
-    thermostat, en anticipant le changement de consigne pour que la
-    température soit atteinte à l’heure programmée. Cette option
-    nécessite d’avoir le plugin agenda. Attention pour que le smart start marche
-    il faut absolument que l'apprentissage soit à plus de 25. Autre point il ne
-    prend que l'évenement le plus proche à venir
+-   **Inicio inteligente** : Esta opción le da inteligencia al
+    termostato, anticipando el cambio del punto de ajuste para que el
+    temperatura alcanzada a la hora programada. Esta opcion
+    requiere el complemento de agenda. Atención para el comienzo inteligente de trabajar
+    el aprendizaje debe ser más de 25. Otro punto
+    toma ese evento más cercano para venir
 
--   **cycle (min)** : il s’agit du cycle de calcul du thermostat. En fin
-    de cycle et en fonction de l’écart entre les températures et la
-    consigne, le thermostat calcule le temps de chauffe pour le
-    cycle suivant.
+-   **Ciclo (min)** : este es el ciclo de cálculo del termostato. Al final
+    ciclo y en función de la diferencia entre las temperaturas y el
+    punto de ajuste, el termostato calcula el tiempo de calentamiento para el
+    siguiente ciclo.
 
--   **Temps de chauffe minimum (% du cycle)** : Si le calcul aboutit à
-    un temps de chauffe inférieur à cette valeur, alors le thermostat
-    considère qu’il n’est pas nécessaire de chauffer/climatiser, la
-    commande se reportera sur le cycle suivant. Cela permet d’éviter
-    d’endommager certains appareils comme les poêles, mais aussi
-    d’obtenir une réelle efficacité énergétique.
+-   **Tiempo de calentamiento mínimo (% del ciclo)** : Si el cálculo da como resultado
+    un tiempo de calentamiento inferior a este valor, luego el termostato
+    considera que no es necesario calentar / enfriar, el
+    el comando pasará al siguiente ciclo. Esto evita
+    dañar ciertos dispositivos como estufas, pero también
+    lograr una eficiencia energética real.
 
--   **Marge de défaillance chaud / Marge de défaillance froid** : cette
-    valeur est utilisée pour détecter un défaut de fonctionnement
-    du chauffage/climatisation. Lorsque la température sort de cette
-    marge par rapport à la consigne pendant plus de 3 cycles
-    consécutifs, le thermostat passe en mode de défaillance
-    du chauffage.
+-   **Margen de falla en caliente / Margen de falla en frío** : este
+    el valor se usa para detectar un mal funcionamiento
+    calefacción / aire acondicionado. Cuando la temperatura sale de esto
+    margen en comparación con el punto de ajuste durante más de 3 ciclos
+    el termostato cambia al modo de falla
+    calefaccion.
 
-- **Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID** : LCette option permet de faire de la régulation avec différents niveaux de chauffe. Le retour de la puissance du prochain cycle doit donné la nouvelle consigne de niveau de chauffe à l'appareil de chauffage. Les cycles se terminent à 100%, il faut donc avoir un temps de cycle court.
+- **Limita los ciclos de encendido / apagado incesante (pellet, gas, fuel oÉl) y PID** : Esta opción le permite regular con diferentes niveles de calefacción.. El retorno de energía del siguiente ciclo debe dar el nuevo punto de ajuste del nivel de calefacción al calentador. Los ciclos terminan al 100%, por lo tanto, tenga un tiempo de ciclo corto.
 
-> **Tip**
+> **Punta**
 >
-> L’apprentissage est toujours actif. Mais la phase d’initialisation
-> peut être relativement longue (compter environ 3 jours). Pendant cette
-> phase, il convient d’avoir des périodes suffisamment longues pendant
-> lesquelles la consigne ne change pas.
+> El aprendizaje siempre está activo. Pero la fase de inicialización
+> puede ser relativamente largo (alrededor de 3 días). Durante este
+> fase, es necesario tener períodos suficientemente largos durante
+> que el punto de ajuste no cambia.
 
-Les commandes du thermostat
+Controles del termostato
 ---------------------------
 
-Le widget du thermostat est intégré au plugin, les commandes du
-thermostat ne sont donc pas toutes directement accessibles dans la
-configuration du plugin. Il faudra utiliser le *Résumé Domotique* (menu
-Général) pour les paramétrer. Elles seront également utilisables dans
-les scénarios.
+El widget del termostato está integrado en el complemento, los controles de la
+Por lo tanto, no todos los termostatos son directamente accesibles en el
+Configuración del plugin. Deberá utÉlizar el * Resumen de automatización del hogar * (menú
+General) para configurarlos. También serán utÉlizables en
+los escenarios.
 
-![Liste des commandes dans le résumé
-domotique](../images/thermostatlistecommandes.png)
+![Liste des Comandos dans le résumé
+domótica] (../ images / TermostatolisteComandos.png)
 
-Toutes les commandes ne sont pas accessibles en programmation, certaines
-sont des informations d’état renvoyées par le plugin. Dans les
-scénarios, on trouve :
+No todos los comandos son accesibles en la programación, algunos
+son información de estado devuelta por el complemento. En
+escenarios que encontramos :
 
-![Liste des commandes dans les
-scénarios](../images/thermostatcommandesscenario.png)
+![Liste des Comandos dans les
+escenarios] (../ images / TermostatoComandosscenario.png)
 
--   **Les modes** : il est possible de faire les changements de mode, en
-    exécutant directement les commandes (ici, Confort, Confort matin,
-    Eco, Vacances)
+-   **Las modas** : es posible hacer cambios de modo, por
+    ejecutando directamente los comandos (aquí, Comfort, Comfort morning,
+    Eco, vacaciones)
 
--   **Off** : cette commande coupe le thermostat, la régulation n’est
-    plus active, le chauffage/climatisation est arrêté
+-   **Apagado** : este comando corta el termostato, la regulación no es
+    más activo, la calefacción / aire acondicionado se detiene
 
--   **Thermostat** : il s’agit de la consigne du thermostat
+-   **Termostato** : este es el punto de ajuste del termostato
 
--   **lock** : commande de verrouillage, il n’est pas possible de
-    modifier l’état du thermostat (changement de mode, consigne)
+-   **cerradura** : comando de bloqueo, no es posible
+    modificar el estado del termostato (cambio de modo, punto de ajuste)
 
--   **unlock** : déverrouille le thermostat permetant de modifier son
-    état
+-   **desbloquear** : desbloquea el termostato permitiéndole cambiar su
+    Estado
 
--   **Chauffage seulement** : la régulation n’intervient que pour
-    chauffer
+-   **Solo calefacción** : la regulación solo interviene para
+    calor
 
--   **Climatisation seulement** : la régulation n’est active que pour
-    refroidir
+-   **Solo aire acondicionado** : la regulación solo está activa para
+    genial
 
--   **Offset chauffage** : modifie le coefficient d’offset du chauffage
-    correspondant aux apports internes : un scénario peut modifier ce
-    paramètre en fonction d’un détecteur de présence par exemple
+-   **Compensación de calentamiento** : modifica el coeficiente de compensación del calentamiento
+    correspondiente a contribuciones internas : un escenario puede cambiar esto
+    parámetro basado en un detector de presencia, por ejemplo
 
--   **Offset froid** : comme ci-dessus mais pour la climatisation
+-   **Compensación en frío** : como arriba pero para aire acondicionado
 
--   **Tout autorisé** : modifie le comportement du thermostat pour agir
-    à la fois en chauffage et en climatisation
+-   **Permitir todo** : cambia el comportamiento del termostato para actuar
+    tanto calefacción como aire acondicionado
 
--   **Puissance** : uniquement disponible en mode temporel, cette commande indique le pourcentage de temps de chauffe/refroidissement sur le temps de cycle.
+-   **Potencia** : solo disponible en modo horario, este comando indica el porcentaje de tiempo de calentamiento / enfriamiento durante el tiempo del ciclo.
 
--   **Performance** : uniquement disponible si vous avez une commande de températeur extérieure et une commande de consommation (en kwh, remis à 0 tous les jours à 00h00). Celle-ci vous indique la performance de votre systeme de chauffage par rapport au degrès jour unifié.
+-   **Rendimiento** : solo está disponible si tiene un control de temperatura exterior y un control de consumo (en kWh, restablezca a 0 todos los días a las 00:00). Esto le muestra el rendimiento de su sistema de calefacción en comparación con el día de grado unificado.
 
--   **Delta consigne** : uniquement disponible en mode temporel, cette commande permet de saisir un delta de calcul sur la consigne. Si > 0 alors le thermostat va chercher si il doit chauffer pour (consigne - delta/2) si oui alors il va chercher à chauffer jusqu'à (consigne + delta/2). L'interêt est de chauffer plus longtemps mais moins souvent.
+-   **Punto de ajuste delta** : solo disponible en modo horario, este comando le permite ingresar un delta de cálculo en el punto de ajuste. Si> 0, entonces el termostato buscará si debe calentarse (punto de ajuste - delta / 2) si es así, buscará calentarse a (punto de ajuste + delta / 2). La ventaja es calentar más tiempo pero con menos frecuencia..
 
-> **Tip**
+> **Punta**
 >
-> L’utilisation du thermostat en mode `Chauffage seulement` nécesite
-> d’avoir défini les commandes *Pour chauffer je dois ?* et *Pour tout
-> arrêter je dois ?* En mode `Climatisation seulement`, il faut les
-> commandes *Pour refroidir je dois ?* et *Pour tout arrêter je dois ?*.
-> Et en mode `Tout autorisé`, il est nécessaire d’avoir saisi les 3
-> commandes.
+> El uso del termostato en modo `Solo calefacción` requiere
+> haber definido los comandos * Para calentar debo ?* y * para todo
+> parar tengo que ?* En el modo `Solo aire acondicionado`, debe
+> * Para enfriar tengo que ?* y * Para detener todo lo que tengo que ?*.
+> Y en el modo `Todos autorizados`, debe haber ingresado el 3
+> Comandos.
 
-Un exemple concret d’utilisation du thermostat
+Un ejemplo concreto del uso del termostato.
 ----------------------------------------------
 
-Lorsque votre thermostat est configuré, il faut réaliser la
-programmation. La meilleure méthode pour l’expliquer est de prendre un
-cas d’utilisation. Ainsi, on souhaite programmer notre thermostat en
-fonction des heures de présence des occupants de la maison.
+Cuando su termostato está configurado, debe realizar el
+programación La mejor manera de explicarlo es tomar un
+caso de uso. Entonces, queremos programar nuestro termostato en
+según las horas de presencia de los ocupantes de la casa.
 
-Dans un premier temps, nous allons utiliser 2 scénarios pour mettre le
-chauffage en mode **Confort** (consigne 20°C) tous les matins de la
-semaine entre 5h et 7h30, puis le soir entre 17h et 21h. Le mode
-**Confort** sera également activé le mercredi après-midi de 12h à 21h et
-le week-end de 8h à 22h. Le reste du temps, le chauffage bascule en mode
-**Eco**, avec une consigne de 18°C.
+Primero, usaremos 2 escenarios para poner el
+calefacción en modo **Confort** (punto de ajuste 20 ° C) todas las mañanas del
+semana entre las 5 a.m. y las 7:30 a.m., luego en la noche entre las 5 p.m. y las 9 p.m.. El modo
+**Confort** también se activará el miércoles por la tarde de 12 p.m. a 9 p.m. y
+fines de semana de 8 a.m. a 10 p.m.. El resto del tiempo, la calefacción cambia a
+**Eco**, con un punto de ajuste de 18 ° C.
 
-On crée donc le scénario ***Chauffage confort***, en mode programmé :
+Entonces creamos el escenario ***Calefacción de confort***, en modo programado :
 
-![Scénario programmé](../images/thermostat11.png)
+![Scénario programmé](../images/Termostato11.png)
 
-et le code :
+y el código :
 
-![Scenario mode confort](../images/scenarioconfort.png)
+![Scenario modo confort](../images/scenarioconfort.png)
 
-Sur le même principe, le scénario "Chauffage Eco" :
+Sobre el mismo principio, el escenario "Ecocalentamiento"" :
 
-![Scénario programmé en mode Eco](../images/thermostat13.png)
+![Scénario programmé en modo Eco](../images/Termostato13.png)
 
-et son code :
+y su código :
 
-![Scénario en mode Eco](../images/scenarioeco.png)
+![Scénario en modo Eco](../images/scenarioeco.png)
 
-Notez que dans les scénarios, le pilotage du thermostat est complet
-puisqu’on peut agir sur le mode de fonctionnement (chauffage ou
-climatisation seulement), les modes, la valeur de consigne et le verrou
-(lock, unlock).
+Tenga en cuenta que en los escenarios, el control del termostato está completo
+ya que podemos actuar en el modo de funcionamiento (calefacción o
+solo), modos, consigna y bloqueo
+(bloquear, desbloquear).
 
-Si la création de scénario est parfois compliqué, pour le cas de la
-programmation d’un thermostat, la combinaison des actions du thermostat
-avec le calendrier du plugin agenda permet de réaliser ceci simplement.
+Si la creación de escenarios es a veces complicada, para el caso de
+programar un termostato, la combinación de acciones del termostato
+con el calendario del complemento de agenda permite hacer esto simplemente.
 
-Le plugin agenda permet d’aller plus loin dans la programmation et
-surtout présente moins de risque de se tromper. En effet, par rapport à
-la programmation précédente, le calendrier va apparaître en clair sur
-l’écran et on va pouvoir tenir compte des jours fériés, des
-vacances…​.Bref, piloter le thermostat en fonction de son mode de vie.
+El complemento de agenda le permite ir más allá en la programación y
+especialmente presenta menos riesgo de estar equivocado. De hecho, en comparación con
+programación anterior, el calendario aparecerá en claro en
+la pantalla y podremos tomar días festivos,
+vacaciones ... En resumen, controle el termostato de acuerdo con su estÉlo de vida.
 
-Programmation avec le plugin agenda
+Programación con el complemento de agenda
 -----------------------------------
 
-Nous ne présentons pas ici le plugin Agenda, l’objectif étant de le
-coupler avec la programmation du thermostat. A noter que si vous
-disposez du plugin agenda, un onglet *Programmation* apparaît dans la
-configuration du thermostat, permettant d’accéder directement à l’agenda
-associé.
+No presentamos aquí el complemento Agenda, el objetivo es
+emparejar con la programación del termostato. Tenga en cuenta que si usted
+tiene el complemento de agenda, aparece una pestaña * Programación * en el
+configuración del termostato, que permite el acceso directo a la agenda
+asociado.
 
-Nous allons donc créer un nouvel agenda nommé **Programmation
-chauffage**, auquel on ajoutera les événements de changement de mode du
-thermostat.
+Entonces vamos a crear una nueva agenda llamada **Programación
+Calefacción**, a lo que agregaremos los eventos de cambio de modo de la
+Termostato.
 
-Une fois l’agenda créé, on va ajouter les événements Matin (du lundi au
-vendredi de 5h à 7h30), Soir (le lundi, mardi, jeudi et vendredi de 17h
-à 21h), Mercredi (le mercredi de 12h à 21h), Weekend (de 8h à 22h),
-Jours fériés. Tous ces événements, ont comme action de début la
-sélection du mode **Confort** du thermostat et comme action de fin le
-mode **Eco** :
+Una vez creado el calendario, agregaremos los eventos de la mañana (lunes a
+Viernes de 5 a.m. a 7:30 a.m.), tarde (lunes, martes, jueves y viernes de 5 p.m.
+9 p.m.), miércoles (miércoles mediodía a 9 p.m.), fin de semana (8 a.m. a 10 p.m.),
+Días feriados. Todos estos eventos tienen como acción inicial el
+selección de modo **Confort** del termostato y como acción final el
+modo **Eco** :
 
 ![Actions de l'agenda](../images/agendaactions.png)
 
-Pour la programmation de l’évènement Soir :
+Para la programación del evento vespertino :
 
-![Programmation de l'évènement](../images/agendaprogrammation.png)
+![Programación de l'évènement](../images/agendaprogrammation.png)
 
-Il suffit de réitérer pour chaque évènement pour obtenir cet agenda
-mensuel coloré :
+Simplemente repita para cada evento para obtener esta agenda
+colorido mensual :
 
 ![affichage mensuel de l'agenda](../images/agendamensuel.png)
 
-En revenant dans la configuration du thermostat, on peut accéder aux
-évènements de l’agenda directement depuis l’onglet programmation :
+Volviendo a la configuración del termostato, puede acceder a
+calendario de eventos directamente desde la pestaña de programación :
 
 ![onglet programmation du
-thermostat](../images/thermostatongletprogrammation.png)
+termostato] (../ images / termostato tabprogrammation.png)
 
-Visualisation du fonctionnement du thermostat
+Visualización del funcionamiento del termostato.
 ---------------------------------------------
 
-Une fois le thermostat configuré, il est important de vérifier son
-efficacité.
+Una vez que el termostato está configurado, es importante verificar su
+eficiencia.
 
 ![Menu de visualisation des
-thermostats](../images/menuaccueilthermostats.png)
+termostatos] (../ images / menuaccueÉlTermostatos.png)
 
-Dans le menu `Accueil`, on trouve le sous-menu `Thermostat`. La fenêtre
-qui s’affiche lorsqu’on sélectionne ce menu est découpée en trois zones
+Dans le menu `AccueÉl`, on trove le sos-menu `Termostato`. Ventana
+que se muestra cuando se selecciona este menú se divide en tres áreas
 :
 
--   Le *widget* thermostat, pour visualiser l’état instantané du
-    thermostat,
+-   El widget del termostato para ver el estado instantáneo del
+    Termostato,
 
--   un graphique représentant le cumul du temps de chauffe par jour (en
-    nombre d’heures),
+-   un gráfico que representa el tiempo de calentamiento acumulado por día (en
+    número de horas),
 
--   un autre graphique qui affiche les courbes de consigne, température
-    intérieure et état du chauffage.
+-   otro gráfico que muestra el punto de ajuste, las curvas de temperatura
+    estado interior y calefacción.
 
 ![cumul du temps de chauffe du
-thermostat](../images/graphecumultempsdechauffe.png)
+termostato] (../ images / graphecumultempsdechauffe.png)
 
-*Graphe du cumul du temps de chauffe*
+*Gráfico de tiempo de calentamiento acumulado*
 
-![graphe des courbes du
-thermostat](../images/graphecourbesthermostat.png)
+![graphe des corbes du
+termostato] (../ images / graphecorbesTermostato.png)
 
-*Graphe des courbes du thermostat*
+*Gráfico de curva del termostato*
 
-FAQ
+Preguntas frecuentes
 ===
 
->**Peut-on utiliser le thermostat avec un plancher chauffant, qui présente une forte inertie ?**
+>**¿Podemos usar el termostato con un piso calentado, que tiene una alta inercia ?**
 >
->    Le thermostat s’adapte pratiquement à tous les cas de figure mais
->    cela nécessite une analyse approfondie de votre installation pour
->    ajuster les coefficients, si vous êtes dans une
->    situation particulière. Consultez la section sur la *configuration
->    avancée* pour ajuster les coefficients, notamment dans le cas d’un
->    plancher chauffant. Plusieurs sujets sur le forum traitent de
->    l’utilisation du thermostat pour les différents types de chauffage
->    (poêle, chaudière plancher chauffant,…​etc)
+>    El termostato se adapta prácticamente a todos los casos pero
+>    esto requiere un análisis exhaustivo de su instalación para
+>    ajustar los coeficientes, si estás en un
+>    situación especial. Vea la sección sobre * configuración
+>    avanzado * para ajustar los coeficientes, especialmente en el caso de un
+>    calefacción por suelo radiante. Varios temas en el foro tratan
+>    utÉlizando el termostato para diferentes tipos de calefacción
+>    (estufa, caldera de suelo radiante, etc.)
 
->**Mes coefficients n’arrêtent pas de bouger**
+>**Mis coeficientes siguen moviéndose**
 >
->   C’est normal, le système corrige en permanence ses coefficients
->   grâce au système d’auto-apprentissage
+>   Esto es normal, el sistema corrige constantemente sus coeficientes
+>   gracias al sistema de autoaprendizaje
 
->**Combien de temps faut-il, en mode temporel, pour apprendre ?**
+>**¿Cuánto tiempo lleva, en el modo de tiempo, aprender ?**
 >
->   Il faut en moyenne 7 jours pour que le système apprenne et régule de
->   maniere optimale
+>   El sistema tarda en promedio 7 días en aprender y regular
+>   forma óptima
 
->**Je n’arrive pas à programmer mon thermostat**
+>**No puedo programar mi termostato**
 >
->   La programmation du thermostat peut se faire soit par un scénario,
->   soit avec l’utilisation du plugin Agenda.
+>   La programación del termostato se puede hacer por un escenario,
+>   ya sea con el uso del complemento Agenda.
 
->**Mon thermostat semble ne jamais passer en mode chauffage ou climatisation**
+>**Mi termostato nunca parece entrar en modo de calefacción o aire acondicionado.**
 >
->   Si le thermostat n’a pas de commande correspondant au chauffage
->    et/ou à la climatisation celui-ci ne peut pas passer dans ces modes.
+>   Si el termostato no tiene control correspondiente a la calefacción
+>    y / o aire acondicionado no puede cambiar a estos modos.
 
->**J’ai beau changer la température ou le mode, le thermostat revient toujours à l’état précedent**
+>**No importa cómo cambie la temperatura o el modo, el termostato siempre vuelve al estado anterior.**
 >
->   Verifiez que votre thermostat n’est pas verouillé
+>   Verifique que su termostato no esté bloqueado
 
->**En mode histéresis mon thermostat ne change jamais d’état**
+>**En modo historial, mi termostato nunca cambia de estado**
 >
->   C’est que les sondes de température ne remontent pas automatiquement
->    leur valeur, il est conseillé de mettre en place un "Cron de
->    contrôle"
+>   Es que los sensores de temperatura no suben automáticamente
+>    su valor, es aconsejable configurar un "Cron de
+>    control"
 
->**Les courbes du thermostat (en particulier la consigne) ne semblent pas être juste**
+>**Las curvas del termostato (especialmente el punto de ajuste) no parecen ser correctas**
 >
->   Regarder du coté du lissage de l'historique des commandes en question. En effet pour gagner en efficacité Jeedom fait une moyenne des valeurs sur 5 min puis sur l'heure.
+>   Mire el lado suavizado del historial de pedidos en cuestión. De hecho, para ganar eficiencia, Jeedom promedia los valores durante 5 minutos y luego durante la hora.
 
->**L'onglet mode/action est vide et quand je clique sur les boutons ajouter ca ne fait rien**
+>**La pestaña de modo / acción está vacía y cuando hago clic en los botones Agregar no hace nada**
 >
-> Essayez de désactiver Adblock (ou tout autre bloqueur de publicité), pour une raison inconnu ceux-ci bloque sans raison le JavaScript de la page.
+> Intente deshabÉlitar Adbcerradura (o cualquier otro bloqueador de anuncios), por alguna razón desconocida estos bloquean el JavaScript de la página sin motivo.

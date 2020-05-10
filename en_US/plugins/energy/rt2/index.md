@@ -1,117 +1,117 @@
-Ce plugin permet de gérer un IPX 800 v4
+This plugin allows you to manage an IPX 800 v4
 
-Configuration du plugin
+Plugin configuration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just need to activate it,
+there is no configuration at this level.
 
-> **Note**
+> **NOTE**
 >
-> Vous pouvez voir sur cette page l’état du démon qui surveille l’ecoRT2
+> You can see on this page the state of the daemon that monitors ecoRT2
 
-Configuration des équipements
+Equipment configuration
 =============================
 
-La configuration des équipements ecoRT2 est accessible à partir du menu
-plugin puis protocole domotique :
+The configuration of ecoRT2 equipment is accessible from the menu
+plugin then home automation protocol :
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement ecoRT2** : nom de votre équipement ecoRT2,
+-   **EcoRT2 equipment name** : name of your ecoRT2 equipment,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent object** : indicates the parent object to which belongs
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Activate** : makes your equipment active,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible** : makes your equipment visible on the dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Category** : equipment categories (it may belong to
+    multiple categories),
 
--   **IP** : L’ip de l’ecoRT2,
+-   **IP** : The ecoRT2 ip,
 
--   **Clef API** : clef api de l’ecoRT2 (par default la clef API
-    est apikey)
+-   **API key** : ecoRT2 API key (by default API key
+    is apikey)
 
--   **Extension** : il faut ici indiquer les extensions présente sur
-    l’ecoRT2 pour que jeedom puisse les interroger. Exemple pour enOcean
-    il faut mettre ENO (si vous en avez plusieurs il faut les séparer
-    par des ,). Toutes les extensions sont normalement supportée, pour
-    le code de l’extension à mettre il faut se reporter à la
-    documentation de celle-ci.
+-   **Extension** : here you must indicate the extensions present on
+    ecoRT2 so that jeedom can interrogate them. EnOcean example
+    you must put ENO (if you have several you must separate them
+    by ,). All extensions are normally supported, for
+    the code of the extension to put you must refer to the
+    documentation thereof.
 
-Le plugin par defaut ne creer rien, ca sera à vous de le faire en
-fonction de votre configuration, mais vous serez guider.
+The default plugin does not create anything, it will be up to you to do so by
+depending on your configuration but you will be guide.
 
-Commande
+Command
 ========
 
 Action
 ------
 
-Vous avez les types d’action :
+You have the types of action :
 
--   **On** : permet de mettre à 1 une sortie (ou entrée virtuelle), ou
-    d’affecter une valeur à une entrée analogique (ou compteur)
+-   **We** : allows you to set an output (or virtual input) to 1, or
+    assign a value to an analog input (or counter)
 
--   **Off** : permet de mettre à 0 une sortie (ou entrée virtuelle)
+-   **Off** : allows you to set an output (or virtual input) to 0
 
--   **Bascule** : permet d’inverser l’état d’une sortie (ou
-    entrée virtuelle)
+-   **Toggle** : allows to reverse the state of an output (or
+    virtual entrance)
 
-Vous avez les types d’actionneurs :
+You have the types of actuators :
 
--   **Relais**
+-   **Relay**
 
--   **Sortie virtuelle**
+-   **Virtual output**
 
--   **Compteur**
+-   **Counter**
 
--   **Fil pilote**
+-   **Pilot wire**
 
-> **Note**
+> **NOTE**
 >
-> Certain type d’actionneur peuvent etre masqué en fonction du type
-> d’action
+> Certain type of actuator can be hidden depending on the type
+> Action
 
-Ensuite en fonction du type d’action et de l’actionneur vous avez
-plusieurs paramètres qui peuvent être :
+Then depending on the type of action and the actuator you have
+several parameters which can be :
 
--   numéro du relai
+-   relay number
 
--   numéro de la sortie virtuelle
+-   virtual output number
 
--   numéro du compteur et opération (ex +200 ou -100)
+-   counter number and operation (ex +200 or -100)
 
--   numéro du fil pilote ainsi que valeur de la commande (0 confort, 1 eco, 2 hors gel, 3 arrêt, 4 confort-1, 5 confort-2)
+-   pilot wire number and order value (0 comfort, 1 eco, 2 frost-free, 3 off, 4 comfort-1, 5 comfort-2)
 
 Info
 ----
 
-Vous avez les types differents :
+You have different types :
 
--   Instantanée poste
--   Relais
--   Sortie virtuelle
--   Entrée digital
--   Compteur
+-   Instant post
+-   Relay
+-   Virtual output
+-   Digital input
+-   Counter
 -   EnOcean
--   Index compteur
--   Index tore
--   Index tore consommation
--   Index tore distribution
--   Index télé-information
--   Index poste
--   Index/Jour poste
--   Cumul prix compteur
--   Cumul prix tore
--   Cumul prix tore consommation
--   Cumul prix tore distribution
--   Cumul prix télé-information
--   Cumul prix poste
--   Cumul prix/Jour poste
--   Fil pilote
+-   Counter index
+-   Torus index
+-   Toro consumption index
+-   Distribution torus index
+-   Tele-information index
+-   Position index
+-   Index / Post day
+-   Total counter price
+-   Total torus price
+-   Total consumption torus price
+-   Total distribution toroid price
+-   Combination of tele-information prices
+-   Cumulative post price
+-   Price accumulation / Post day
+-   Pilot wire
 
-Pour chaque type jeedom vous demandera le numéro de l’information voulue
+For each type jeedom will ask you the number of the desired information

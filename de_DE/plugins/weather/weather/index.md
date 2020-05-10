@@ -1,44 +1,40 @@
 Configuration
 =============
 
-Le plugin Weather permet de récupérer les données météorologiques pour
-une ou plusieurs villes. Il permet entre autre d’avoir les informations
-de lever et coucher du soleil, de température, de prévision, de vent,
-etc. Les informations récupérées viennent du site internet
-openweathermap.
+Mit dem Wetter-Plugin können Sie meteorologische Daten für eine oder
+mehrere Städte abrufen. Es ermöglicht unter anderem die Information von
+Sonnenaufgang und Sonnenuntergang, Temperatur, Vorhersage, Wind usw. 
+Die abgerufenen Informationen stammen von der openweathermap-Website.
 
 Configuration du plugin
 -----------------------
 
-Après avoir installé le plugin, il faut l’activer puis renseigner votre
-clef api/
+Nach der Installation des Plugins, müssen sie es erst aktivieren und den
+API-Schlüssel eingeben.
 
-Pour obtenir votre clef api il faut aller
-[ici](https://home.openweathermap.org), créer un compte et ensuite il
-faut copier votre clef api dans la zone prévue sur la page de
-configuration du Plugin.
+Um ihren API-Schlüssel zu erhalten, müssen Sie [hier](https://home.openweathermap.org) auf den Link gehen und ein Konto erstellen, dann müssen Sie Ihren API-Schlüssel in das Eingabefeld auf der Konfiguration Seite vom Plugin kopieren.
 
 > **Important**
 >
-> Il faut attendre quelques heures ensuite le temps que la clef soit
-> active avant de pouvoir récupérer des informations
+> Es ist notwendig, ein paar Stunden zu warten, bis der Schlüssel aktiv ist,
+> bevor Informationen abgerufen werden können.
 
 Configuration des équipements
 -----------------------------
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Hier finden sie die ganze Konfiguration Ihrer Geräte:
 
--   **Nom de l’équipement météo** : nom de votre équipement météo
+-   **Name der Wetterausrüstung** : Name Ihrer Wetterausrüstung 
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren** : ermöglicht es Ihnen, Ihr Gerät zu aktivieren
 
--   **Visible** : rend votre équipement visible sur le dashboard
+-   **Sichtbar** : macht Ihr Gerät auf dem Armaturenbrett sichtbar
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Eltern-Objekt** : gibt das übergeordnete Objekt an, zu dem das
+    Gerät gehört
 
--   **Ville** : Il faut mettre le nom de votre ville suivi du code pays,
-    ex : Paris,fr
+-   **Stadt** : Sie müssen den Namen ihrer Stadt mit den Ländercode eingeben,
+    z.B.: Paris,fr
 
 -   **Affichage complet en mobile** : permet d’afficher toutes les
     informations météo ou non en mobile
@@ -48,7 +44,7 @@ possibilité d’historiser ou non les valeurs numériques. Le code (numéro)
 en fonction des conditions est disponible
 [ici](https://openweathermap.org/weather-conditions)
 
-Le rafraîchissement des données météo s’effectue toutes les 30 minutes.
+Die Wetter-Daten-Aktualisierung erfolgt alle 30 min. 
 
 > **Tip**
 >

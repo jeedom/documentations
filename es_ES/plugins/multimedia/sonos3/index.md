@@ -35,18 +35,18 @@ Sonos en donnant l’IP à Jeedom ou cliquer sur "Rechercher les
 > Les messages trop longs ne peuvent être transmis en TTS (la limite
 > dépend du fournisseur de TTS, en général environ 100 caractères)
 
-# Configuration des équipements
+# Configuración de los dispositivos
 
 La configuration des équipements Sonos est accessible à partir du menu
 Plugins puis multimedia
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Sonos** : nom de votre équipement Sonos
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
+-   ** ** Activar: para que su equipo activo
+-   Visible ** **: hace visible en el tablero de instrumentos
 -   **Modèle** : le modèle de votre Sonos (à ne changer que si ce n’est
     pas le bon)
 -   **IP** : l’IP de votre Sonos, peut être utile si votre Sonos change
@@ -166,6 +166,6 @@ Sonos. Disponible à partir du menu Accueil → Sonos Controller :
 
 # FAQ
 
-** Erreur "No devices in this collection" lors de la recherche d'équipement **
+**Erreur "No devices in this collection" lors de la recherche d'équipement**
 >
 > Cette erreur arrive si la decouverte automatique est bloquée (routeur qui bloque le boradcast par exemple). Ce n'est pas grave il vous faudra juste ajouter à la main vos sonos en précisant le model et l'IP.

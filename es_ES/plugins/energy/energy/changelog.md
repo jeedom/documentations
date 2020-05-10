@@ -1,7 +1,3 @@
-# 01/01/2020
-
-- Amélioration de la gestion des équipements désactivés
-
 # 09/10/2019
 
 - Optimisation

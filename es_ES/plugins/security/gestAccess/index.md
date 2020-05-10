@@ -19,10 +19,10 @@ Après instalation de votre plugin, vous devez l'activer.
 
 ![activation](../images/activation.jpg)
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Sécurité** → **gestion access**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+Après avoir activé le plugin vous devriez le voir dans  **Plugins**→**Sécurité**→**gestion access**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
 ![gestionAcces](../images/path.jpg)
 
-### Présentation
+### Presentación
 
 Dans l'affichage par défaut du plugin, vous avez la possibilité d'ajouter un bagde, un utilisateur, une plage horaire ou une porte.
 
@@ -103,14 +103,14 @@ Vous pouvez ainsi indiquer :
     * Perdu,
 * Quatres champs dans lesquels vous pouvez ajouter des notes.
 
-Le bouton **Copier** prend la valeur du **Nom de l'utilisateur**, du **Prénom de l'utilisateur** et de l'**Id utilisateur** pour les attribuer au **Nom de l'équipement**, que vous pouvez voir dans l'onglet **Equipement**.
+Le bouton **Copier**prend la valeur du**Nom de l'utilisateur**, du **Prénom de l'utilisateur**et de l'**Id utilisateur** pour les attribuer au**Nom de l'équipement**, que vous pouvez voir dans l'onglet **Equipement**.
 
 Le bouton **Envoyer** permet de transmettre la photo de profil que vous souhaitez pour votre utilisateur.
 
 ![gestionAccess](../images/imgUser.jpg)
 
 Le bouton **Télecharger** télecharge la photo de l'utilisateur. 
-Le fichier sera nommé selon les valeurs indiquées dans les champs **Nom de l'utilisateur** et **Prénom de l'utilisateur** (séparés par un tiret).
+Le fichier sera nommé selon les valeurs indiquées dans les champs **Nom de l'utilisateur**et**Prénom de l'utilisateur** (séparés par un tiret).
 
 #### Configuration des groupes pour un utilisateur
  **Configuration des groupes** sert à affecter votre utilisateur à un groupe.
@@ -124,7 +124,7 @@ L'onglet **Droits utilisateur** sert à affecter des droits particuliers à l'ut
 ![gestionAccess](../images/rightUser.jpg)
 
 **Ajouter des droits**, permet de sélectionner une porte et une plage horaire qui seront affectées à l'utilisateur sélectionné. 
-Deux options sont disponible **Refuser** et **Accepter** pour l'action.
+Deux options sont disponible **Refuser**et**Accepter** pour l'action.
 
 ![gestionAccess](../images/addRightUser.jpg)
 
@@ -148,11 +148,11 @@ Dans la liste type, sélectionnez **Groupe**.
 L'onglet **Droits groupe** sert à affecter des droits particuliers à votre groupe.
 
 **Ajouter des droits**, vous permet de sélectionner une porte et une plage horaire qui seront affectées au groupe sélectionné.
-Deux options sont disponible **Refuser** et **Accepter** pour l'action.
+Deux options sont disponible **Refuser**et**Accepter** pour l'action.
 
 ![gestionAccess](../images/addRightGroup.jpg)
 
-Dans l'onglet **Droits groupe** les nouveaux droits affectés seront visibles. Le bouton **-** permet d'enlever les droits.
+Dans l'onglet **Droits groupe**les nouveaux droits affectés seront visibles. Le bouton**-** permet d'enlever les droits.
 
 ![gestionAccess](../images/rightGroup.jpg)
 
@@ -185,11 +185,11 @@ Une case passe en bleu lorsqu'elle est active.
 ## Recherche dans l'historique<a id="history"></a>
 ---
 
-**Etape importante :** pour accéder à cette partie, il est important d'effectuer un réglage en amont. Allez dans **Plugins** → **Gestion des plugins**, dans **Mes plugins**, cliquez sur **Gestion d'accès**.
+**Etape importante :**pour accéder à cette partie, il est important d'effectuer un réglage en amont. Allez dans**Plugins**→**Gestion des plugins**, dans **Mes plugins**, cliquez sur **Gestion d'accès**.
 
 ![gestionAccess](../images/gestPlug.jpg)
 
-Dans la partie **Panel** cocher **Afficher le panneau desktop** puis cliquez sur **Sauvegarder**.
+Dans la partie **Panel**cocher**Afficher le panneau desktop**puis cliquez sur**Sauvegarder**.
 
 ![gestionAccess](../images/confPlug.jpg)
 
@@ -198,7 +198,7 @@ Toutefois, si jamais elle ne s'affiche pas, veillez à bien actualiser votre pag
 
 ![gestionAccess](../images/newPlug.jpg)
 
-**Accueil** → **gestion access** pour accéder à la recherche avancées. La vue par défaut affiche les 20 derniers évenements enregistrés.
+**Accueil**→**gestion access** pour accéder à la recherche avancées. La vue par défaut affiche les 20 derniers évenements enregistrés.
 
 ![gestionAccess](../images/search.jpg)
 
@@ -216,6 +216,6 @@ La partie de gauche permet de déterminer les critères de la recherche.
 
  - **Liste des groupes** Noms des groupes recherchés. Vous pouvez sélectionner plusieurs groupes.
 
- - **Liste des actions** Sélectionner le résultat d'une action vous avez le choix entre : **Toutes**, **Refuser** et **Autoriser**.
+ - **Liste des actions**Sélectionner le résultat d'une action vous avez le choix entre :**Toutes**, **Refuser**et**Autoriser**.
 
 >Dans la partie haute du tableau, en dessous de chaque titre de colonne,  les différents champs permettent d'effectuer une seconde recherche qui triera les résultats.

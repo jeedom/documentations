@@ -1,7 +1,3 @@
-# 22/01/2020
-
-- Amélioration des logs en cas de multiple alarme
-
 # 21/10/2019
 
 - Correction d'un bug lors de la création de l'équipement
@@ -44,33 +40,33 @@
 
 - Correction d'un bug sur le déplacement des actions dans déclenchement
 
-- Possibilité d'ajouter un délai de maintient d'un déclencheur avant activation de l'alarme
+- Ability to add a trigger hold delay before activating the alarm
 
 # 01/12/2017
 
--   Correction d’un bug sur la désactivation des détecteurs
+-   Fixed a bug on disabling detectors
 
 -   Gestion des secondes sur le delai d’activation (JEED-63)
 
 -   Retour en arrière sur le non déclenchement des actions immédiates si
-    le délai d’activation est vide ou nul
+    the activation time is empty or null
 
--   Si lors de l’activation un capteur est en alerte et n’a pas de délai
+-   If during activation a sensor is on alert and has no delay
     d’activation alors l’alarme s’arme quand même en ignorant ce capteur
     (à moins qu’il revienne au repos)
 
--   Ajout d’action de déclenchement globale (plus filtrée par zone, il
-    est conseillé d’utiliser celle-ci plutot que les actions de
-    déclenchement par zone)
+-   Added global trigger action (plus filtered by zone, it
+    is advisable to use this one rather than the actions of
+    zone triggering)
 
--   Optimisation du code
+-   Code optimization
 
--   ATTENTION : l’alarme n’execute plus les actions immediates si il n’y
-    a pas de délai de déclenchement !!!!!! ⇒ Annulé
+-   ATTENTION: the alarm no longer executes immediate actions if there is no
+    has no trigger time !!!!!! ⇒ Canceled
 
--   Possibilité de filtrer la réalisation des actions par rapport au
-    mode de l’alarme
+-   Possibility of filtering the achievement of actions in relation to
+    alarm mode
 
--   Ajout commande pause/reprise
+-   Add pause / resume command
 
--   Amélioration de l’interface de configuration
+-   Improved configuration interface

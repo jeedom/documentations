@@ -4,15 +4,15 @@ ouvre une modale (fenêtre de dialogue) avec une vue contenant vos
 caméras. Cela permet par exemple lorsque quelqu’un sonne chez vous
 d’afficher directement la caméra de l’entrée sur votre Jeedom.
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just have to activate it,
+there is no configuration at this level.
 
 ![clink1](../images/clink1.PNG)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Clink est accessible à partir du menu
@@ -31,22 +31,22 @@ Voilà à quoi ressemble la page du plugin Clink (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![clink4](../images/clink4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement Clink** : nom de votre équipement Clink,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
 -   **Visible** : rend votre équipement visible sur le dashboard.
 
-En-dessous vous retrouvez la liste des commandes :
+Below you will find the list of commands:
 
 -   **Nom** : le nom affiché sur le dashboard,
 

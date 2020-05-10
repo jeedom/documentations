@@ -1,7 +1,7 @@
 Plugin permettant d’accéder aux informations de ses appareils Fitbit
 (nombre de pas, calories, distance…​)
 
-Configuration 
+Configuration
 =============
 
 Une fois le plugin Fitbit installé, allez sur :
@@ -113,7 +113,7 @@ cette page :
 
 Pour la subscription il faut en
 
-Configuration 
+Configuration
 -------------
 
 Voici les détails de la configuration du plugin :

@@ -1,6 +1,6 @@
 Plugin pour commander les lampes Philips Hue.
 
-# Configuration du plugin
+# Plugin Konfiguration
 
 Après téléchargement du plugin, il vous faudra renseigner l’adresse IP
 de votre pont hue, si ce n’est pas déja fait par le système de
@@ -13,19 +13,19 @@ découverte automatique.
 > Vous aurez toujours un équipement "Toutes les lampes" qui correspond
 > en faite au groupe 0 qui existe tout le temps
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement Hue** : nom de votre équipement Hue,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
     plusieurs catégories),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
 
 En-dessous vous retrouvez la liste des commandes :
 

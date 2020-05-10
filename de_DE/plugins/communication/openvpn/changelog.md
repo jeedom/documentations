@@ -1,10 +1,6 @@
-# 14/11/2019
-
-- Correction de bugs
-
 # 28/04/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 16/04/2019
 
@@ -41,4 +37,4 @@
 
 # 01/03/2018
 
--	Correction d'un bug sur l'upload de fichier (CA et autres)
+-   Correction d'un bug sur l'upload de fichier (CA et autres)

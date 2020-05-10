@@ -1,97 +1,94 @@
-# 27/02/2019
+- Möglichkeit zum Deaktivieren von Knotenwarnungen, die vom Gerät nicht erreicht werden können
 
-- Possibilité de désactiver les alertes de noeud injoignable par équipement
-- Mise à jour de la documentation et des traductions
+# 2019.12.27
 
-# 27/12/2019
+- Inversion des Widgets für Ikea-Stores zum Einfügen im realen Zustand
 
-- Inversion du widget pour les store ikea pour coller à l'état réel
+# 2019.12.26
 
-# 26/12/2019
+- Behebung eines Fehlers beim Firmware-Update
 
-- Correction d'un bug sur la mise à jour du firmware
+# 2019.12.24
 
-# 24/12/2019
+- Hinzufügen von Warngeräte- und ZHAAlarm-Typen
+- Ikea Store Support (Beta)
+- Probleme beim Finden der Firmware für den Schlüssel behoben
 
-- Ajout des types Warning device et ZHAAlarm
-- Support des store ikea (beta)
-- Correction du soucis sur la recherche des firmwares pour la clef
+# 2019.11.15
 
-# 15/11/2019
+- Zurück zu Deconz 2.0.69 Da die 70 zu viele Fehler aufweist, müssen Sie die lokale Deconz-Installation neu starten
 
-- Retour arriere sur deconz 2.0.69 car la 70 à trop de bug il faut relancer l'installation deconz local
+# 2019.11.14
 
-# 14/11/2019
+- Ein Problem mit der Installation von deconz wurde behoben
 
-- Correction d'un soucis sur l'installation de deconz
+# 2019.08.11
 
-# 08/11/2019
+- Aktualisierung des Dokuments (Hinzufügung der Deaktivierung der Seriennummer auf RPI, andernfalls ist der Dämon instabil)
+- Verbesserung der Ventilunterstützung
 
-- Mise à jour de la doc (ajout de la desactivation du serial sur RPI sinon le démon est instable)
-- Amélioration support vanne
+# 2019.03.11
 
-# 03/11/2019
+- Installationsunterstützung auf RPI1
 
-- Support de l'installation sur RPI1
+# 2019.10.27
 
-# 27/10/2019
+- Fehlerbehebungen
+- Thermostatventilhalterung
 
-- Correction de bugs
-- Support des vannes thermostatique
+# 2019.10.14
 
-# 14/10/2019
+- Möglichkeit, die Firmware eines Conbee 2-Schlüssels von jeedom zu aktualisieren
+- Starten einer erzwungenen Synchronisierung beim Starten des Dämons
+- Behebung eines Fehlers bei der Installation von Abhängigkeiten
 
-- Possibilité de mettre à jour le firmware d'une clef Conbee 2 depuis jeedom
-- Lancement d'une synchronisation forcé au démarrage du démon
-- Correction d'un bug sur l'installation des dépendances
+# 2019.09.23
 
-# 23/09/2019
+- Aktualisieren des Dokuments
 
-- Mise à jour de la doc
+# 2019.09.23
 
-# 23/09/2019
+- Fehlerbehebungen
+- Aktualisieren des Dokuments
 
-- Correction de bugs
-- Mise à jour de la doc
+# 2019.09.09
 
-# 09/09/2019
+- Korrektur eines Fehlers auf der Protokollebene von deconz in der lokalen Installation
+- Update der lokalen Version von deconz auf 2.5.69 (Achten Sie darauf, dass in der Plugin-Konfiguration die Installation von Deconz neu gestartet und der Dämon dann neu gestartet wird.)
 
-- Correction d'un bug sur le niveau de log de deconz en installation local
-- Mise à jour de la version local de deconz en 2.5.69 (attention pour l'avoir il faut dans la configuration du plugin relancer l'installation de Deconz et relancer le demon ensuite)
+# 2019.08.28
 
-# 28/08/2019
+- Update der lokalen Version von deconz auf 2.5.67 (Achten Sie darauf, dass in der Plugin-Konfiguration die Installation von Deconz neu gestartet wird.)
 
-- Mise à jour de la version local de deconz en 2.5.67 (attention pour l'avoir il faut dans la configuration du plugin relancer l'installation de Deconz)
+# 2019.08.13
 
-# 13/08/2019
+- Verbesserte Unterstützung für den Xiaomi-Würfel (merc @kaktusatomik)
+- Hinzufügen des Knotenstatus in ZigBee-Netzwerken
+- Tägliche Analyse der Netzwerke mit Berichterstellung, wenn ein Problem mit einem Modul vorliegt
 
-- Amélioration du support du cube Xiaomi (merc @kaktusatomik)
-- Ajout de l'état du noeud dans le réseaux Zigbee
-- Analyse quotidien du réseaux avec signalement si il y a un soucis sur un module
+# 2019.07.24
 
-# 24/07/2019
+- Behebung eines Fehlers bei der Deaktivierung von Geräten
 
-- Correction d'un bug sur la désactivation des équipements
+# 2019.07.22
 
-# 22/07/2019
+- Möglichkeit, einen Knoten zu löschen
+- Fügen Sie eine Link-Schaltfläche direkt zur Deconz-Oberfläche hinzu
+- Hinzufügen des Namens des Jeedom-Geräts in der Tabelle mit den Knoten
+- Hinzufügen der Temperatur bei einigen Xiaomi-Modulen
+- Unterstützung für Doppelrelaismodule
+- Verbesserte Unterstützung für Sensor- und Aktormodule
 
-- Possibilité de supprimer un noeud
-- Ajout d'un bouton de lien directement vers l'interface de deconz
-- Ajout du nom de l'équipement Jeedom dans le tableau listant les noeuds
-- Ajout de la température sur quelques modules xiaomi
-- Support des modules double relais
-- Amélioration du support des modules capteur et actionneurs
+Achtung, wir haben Fälle festgestellt, in denen es zu doppelten Bestellungen kam (wenn Sie diese erfüllen, zögern Sie nicht, den Support zu kontaktieren).
 
-Attention nous avons detecté des cas ou il y avait des duplication des commandes (si vous le rencontrez n'hesitez pas a contacter le support)
+# 2019.07.08
 
-# 08/07/2019
+- Unterstützung des Xiaomi-Vibrationserkennungsmoduls
 
-- Support du module de detection de vibration Xiaomi
+# 2019.04.07
 
-# 04/07/2019
+- Fehlerbehebungen
 
-- Correction de bugs
+# 2019.06.30
 
-# 30/06/2019
-
-- Correction d'un bug sur l'installation des dépendances empechant le lancement du démon
+- Korrektur eines Fehlers bei der Installation von Abhängigkeiten, der den Start des Dämons verhindert

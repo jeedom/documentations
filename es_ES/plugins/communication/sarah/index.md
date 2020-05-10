@@ -64,7 +64,7 @@ Vous retrouvez ici :
 -   **Objet parent** : indique l’objet parent auquel
     appartient l’équipement.
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
 -   **Adresse du nodeJS** : IP de S.A.R.A.H. + port du node JS (par
     défaut le port est le 8080)
@@ -86,7 +86,7 @@ Chaque équipement de type S.A.R.A.H. crée aussi une commande :
 
 -   **Jouer** : Qui permet d’exécuter un fichier audio de type .mp3
     ou .wav. Ces fichiers audio doivent être placés pour la **v3** :
-    dans le dossier **"medias"** à la racine ou **v4** : dans le dossier
+    dans le dossier **"medias"**à la racine ou**v4** : dans le dossier
     **"client/medias"** de votre application S.A.R.A.H. Dans votre
     scénario, il suffira d’indiquer le nom de votre fichier audio
     à exécuter.

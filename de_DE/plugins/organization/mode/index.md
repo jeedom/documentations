@@ -1,37 +1,37 @@
-Plugin permettant de gérer différents modes d’un
-appartement/maison/pièce, mais aussi des ambiances.
+Plugin für die Verwaltung von verschiedenen Modi der
+Wohnung/Haus/Zimmer, aber auch Stimmungen.
 
 Configuration du plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
+gibt es auf dieser Ebene keine Konfiguration.
 
 Configuration des équipements
 =============================
 
-La configuration des équipements mode est accessible à partir du menu
-plugin puis organisation :
+Der Konfigurationsmodus Gerät ist aus dem Menü verfügbar
+Plugin und Organisation:
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   **Gerätename** Modus: Modus Namen Ihrer Ausrüstung,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
+    mehrere Kategorien).
 
--   **Ajouter mode** : bouton permettant d’ajouter un nouveau mode
+-   **hinzufügen** Art und Weise: die Schaltfläche, um eine neue Form hinzufügen
 
-En-dessous vous retrouvez la liste des modes, en cliquant dessus vous
-allez pouvoir choisir les actions à faire lors de l’entrée dans ce mode
-et lors de la sortie.
+Weiter unten finden Sie die Liste der Profile finden, indem Sie darauf klicken Sie
+in der Lage, die Aktionen zu wählen, zu tun, wenn Sie diesen Modus eintritt
+und am Ausgang.
 
 >**IMPORTANT**
 >

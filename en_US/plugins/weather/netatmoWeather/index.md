@@ -1,8 +1,7 @@
 Plugin permettant de récupérer les informations des stations météo
 Netatmo.
 
-Configuration du plugin 
-=======================
+== Plugin configuration
 
 Une fois le plugin installé, il vous faut renseigner vos informations de
 connexion Netatmo :
@@ -60,7 +59,7 @@ précedent)
 > Attention il faut bien que l’url de callback soit à "None" sinon ca ne
 > marchera pas.
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Netatmo est accessible à partir du menu
@@ -83,16 +82,16 @@ Une fois que vous cliquez sur un équipement vous obtenez :
 
 ![netatmoWeather5](../images/netatmoWeather5.png)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object** : means the parent object the equipment depend
+    equipment
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
 -   **Identifiant** : identifiant unique de l’équipement
 
@@ -109,7 +108,7 @@ En dessous vous retrouvez la liste des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
 Widget 
 ======
@@ -122,7 +121,7 @@ Et en mobile :
 
 ![netatmoWeather7](../images/netatmoWeather7.png)
 
-FAQ 
+FAQ
 ===
 
 Quelle est la fréquence de rafraîchissement ?

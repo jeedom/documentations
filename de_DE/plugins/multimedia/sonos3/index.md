@@ -3,7 +3,7 @@ Sonos Connect AMP et Sonos Playbar. Il va vous permettre de voir l’état
 du/des Sonos et d’effectuer des actions dessus (lecture, pause, suivant,
 précédent, volume, choix d’une playlist…​)
 
-# Configuration du plugin
+# Plugin Konfiguration
 
 La configuration est très simple, après téléchargement du plugin, il
 vous suffit de l’activer et c’est tout. Le plugin va rechercher les
@@ -40,13 +40,13 @@ Sonos en donnant l’IP à Jeedom ou cliquer sur "Rechercher les
 La configuration des équipements Sonos est accessible à partir du menu
 Plugins puis multimedia
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie finden hier die ganze Konfiguration von ihrem Gerät :
 
 -   **Nom de l’équipement Sonos** : nom de votre équipement Sonos
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   **Eltern Objekt** : gibt das übergeordnete Objekt an, zu dem das
+    Gerät gehört
+-   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
+-   **Sichtbar** : macht es auf dem Armaturenbrett sichtbar
 -   **Modèle** : le modèle de votre Sonos (à ne changer que si ce n’est
     pas le bon)
 -   **IP** : l’IP de votre Sonos, peut être utile si votre Sonos change
@@ -56,8 +56,8 @@ En-dessous vous retrouvez la liste des commandes :
 
 -   **Nom** : nom de la commande
 -   **Configuration avancée (petites roues crantées)** : permet
-    d’afficher la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+    die erweiterte Konfiguration des Befehls anzuzeigen (Informationen,
+    Archivierung, Widget ...)
 -   **Tester** : permet de tester la commande
 
 Comme commande vous retrouverez :
@@ -166,6 +166,6 @@ Sonos. Disponible à partir du menu Accueil → Sonos Controller :
 
 # FAQ
 
-** Erreur "No devices in this collection" lors de la recherche d'équipement **
+**Erreur "No devices in this collection" lors de la recherche d'équipement**
 >
 > Cette erreur arrive si la decouverte automatique est bloquée (routeur qui bloque le boradcast par exemple). Ce n'est pas grave il vous faudra juste ajouter à la main vos sonos en précisant le model et l'IP.

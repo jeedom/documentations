@@ -100,7 +100,7 @@ Les infos sont rafraichies une fois toutes les 30 minutes. Vous pouvez
 les rafraîchir à la demande via scénario avec la commande rafraîchir, ou
 via le dash avec les doubles flêches
 
-Changelog 
+cambios
 =========
 
 Changelog détaillé :

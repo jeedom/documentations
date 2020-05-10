@@ -1,10 +1,6 @@
-# 14/11/2019
-
-- Correction de bugs
-
 # 05/11/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 03/11/2019
 
@@ -13,7 +9,7 @@
 
 # 16/09/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 05/09/2019
 
@@ -27,14 +23,14 @@
 # 16/08/2019
 
 - Possibilité de repeter une simulation
-- Correction de bugs
+- Corrección de errores
 
 # 11/08/2019
 
 - Support d'une heure de fin a la palce d'une durée
 - Possibilité de regorganiser les actions dans une simulation
 - Ajout de commande pour l'heure de levée et couché du soleil
-- Mise à jour de la doc
+- Actualización de la documentación
 
 # 12/07/2019
 

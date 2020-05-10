@@ -50,7 +50,7 @@ précedent)
 
 ![netatmoWelcome15](../images/netatmoWelcome15.png)
 
-# Configuration des équipements
+# Configuración de los dispositivos
 
 La configuration des équipements Netatmo est accessible à partir du menu
 plugin -> Securité -> Netatmo Security
@@ -59,16 +59,16 @@ Une fois que vous cliquez sur un équipement vous retrouvez ici toute la configu
 
 -   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
 -   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   ** ** Activar: para que su equipo activo
+-   Visible ** **: hace visible en el tablero de instrumentos
 
-En dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de ordenes :
 
 -   le nom de la commande
 -   historiser : permet d’historiser la donnée
 -   configuration avancée (petites roues crantées) : permet d’afficher
     la configuration avancée de la commande (méthode d’historisation, widget…​)
--   Tester : permet de tester la commande
+-   Prueba: prueba el comando
 
 # FAQ
 

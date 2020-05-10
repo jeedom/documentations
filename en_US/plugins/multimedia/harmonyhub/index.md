@@ -1,7 +1,7 @@
 Harmony Hub 
 ===========
 
-Description 
+Description
 -----------
 
 Ce plugin permet de controller et de récupérer tous les dispositifs de
@@ -17,12 +17,12 @@ Ce plugin de récupérer vos activités et vos dispositifs. Et ensuite de
 pouvoir ajouter automatiquement toutes les commandes associées, pour
 pouvoir les controller via scénarios, virtuels, dashboard etc…​.
 
-Configuration 
+Configuration
 -------------
 
 ### Configuration du plugin Harmony Hub : 
 
-a.  Installation/Création
+a. Installation/Creation
 
 Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
 l’activer comme tout plugin Jeedom.

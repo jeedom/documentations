@@ -3,7 +3,7 @@ informations d’humidité, de température, de luminosité et les conseils
 pour vos plantes. Vous pourrez aussi indiquer qu’une plante a été arosé,
 vaporisée, que de l’engrais à été ajouté…​
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Une fois le plugin koubachi installé, il faut le relier à votre compte
@@ -25,7 +25,7 @@ champ "Clef application" :
 
 Cliquez ensuite sur "Synchroniser mes équipements".
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 Vous retrouvez ensuite la liste de vos plantes ici :

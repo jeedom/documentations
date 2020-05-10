@@ -3,7 +3,7 @@ informations d’humidité, de température, de luminosité et les conseils
 pour vos plantes. Vous pourrez aussi indiquer qu’une plante a été arosé,
 vaporisée, que de l’engrais à été ajouté…​
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Une fois le plugin koubachi installé, il faut le relier à votre compte
@@ -25,7 +25,7 @@ champ "Clef application" :
 
 Cliquez ensuite sur "Synchroniser mes équipements".
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 Vous retrouvez ensuite la liste de vos plantes ici :
@@ -39,9 +39,9 @@ Vous devriez voir ici la liste de vos plantes enregistrées dans Koubachi
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
+> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
+> immer sichtbar einstellen).  
 
 En cliquant sur l’une d’elle vous obtenez :
 

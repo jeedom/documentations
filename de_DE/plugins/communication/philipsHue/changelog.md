@@ -1,14 +1,10 @@
-# 02/01/2020
-
-- Ajout d'image pour les ampoules générique
-
 # 10/10/2019
 
 - Correction de la remise à 0 de l'état de la lampe lorsqu'on la rallume
 
 # 23/09/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 - Optimisations
 
 # 01/08/2019
@@ -39,7 +35,7 @@
 
 # 15/01/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 - Correction d'un bug sur l'état des bouton lors du redemarrage du pont
 - Ajout Hue lightstrip outdoor
 
@@ -63,25 +59,25 @@
 
 # 31/05/2018
 
--	LTC001 (Hue ambiance ceiling)
+-   LTC001 (Hue ambiance ceiling)
 
 # 14/04/2018
 
 -   Correction d'un bug sur l'heure des valeurs des capteurs
 -   FLOALT panel WS 30x90
 -   TRADFRI bulb E14 WS opal 400lm
--	TRADFRI E27 WS opal 980lm
--	TRADFRI E27 couleur 600lm
+-   TRADFRI E27 WS opal 980lm
+-   TRADFRI E27 couleur 600lm
 
 # 23/02/2018
 
--	TRADFRI bulb E27 W opal 1000lm
--	TRADFRI bulb GU10 WS 400lm
--	TRADFRI bulb E27 opal 1000lm
+-   TRADFRI bulb E27 W opal 1000lm
+-   TRADFRI bulb GU10 WS 400lm
+-   TRADFRI bulb E27 opal 1000lm
 
 # 21/01/2018
 
-- 	Passage sur le nouveau système de doc
+-   Passage sur le nouveau système de doc
 -   Ajout du modèle MWB001
 -   Ajout du modèle ltw010
 -   Ajout du modèle OSRAM

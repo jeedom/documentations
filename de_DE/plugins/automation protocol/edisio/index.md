@@ -1,12 +1,12 @@
 Plugin permettant d’utiliser le protocole Edisio avec Jeedom
 
-Configuration 
+Konfiguration
 =============
 
 Le plugin edisio permet de dialoguer avec l’ensemble des périphériques
 compatibles avec le module edisio USB.
 
-Configuration du plugin 
+Plugin Konfiguration
 -----------------------
 
 Après téléchargement du plugin, il vous suffit de l’activer et de mettre
@@ -38,7 +38,7 @@ Cependant vous pouvez modifier cette configuration. Voici le détail
         équipements correspondants. Les identifiants doivent être
         séparés par des espaces. Exemple : "1356AD87 DB54AF".
 
--   **Démon local** ou **Démon XXX** : paramètres de configuration
+-   **Démon local**ou**Démon XXX** : paramètres de configuration
     locale (ou déportée, en fonction de l’intitulé) du démon.
 
     -   *Port edisio* : le port USB sur lequel votre interface edisio
@@ -51,7 +51,7 @@ Cependant vous pouvez modifier cette configuration. Voici le détail
 
     -   *Port socket interne (modification dangereuse, doit être la même
         valeur sur tous les Jeedom déportés edisio)* : permet de
-        modifier le port de communication interne du démon.
+        den internen Kommunikationsport des Dämon zu modifizieren.
 
 > **Important**
 >
@@ -67,7 +67,7 @@ démon.
 > ne faut pas oublier de cliquer sur "Redémarrer" pour sortir du mode
 > debug !! :
 
-Configuration des équipements 
+Geräte Konfiguration
 -----------------------------
 
 La configuration des équipements edisio est accessible à partir du menu
@@ -99,11 +99,11 @@ Vous retrouvez ici :
 
 -   enfin en dessous vous retrouvez la liste de vos équipements
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![edisio3](../images/edisio3.JPG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   Nom de l’équipement edisio : nom de votre équipement edisio
 
@@ -145,9 +145,9 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
 -   Statut : statut de l’équipement (peut être timeout par exemple)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
--   le nom affiché sur le dashboard
+-   Der Name, der auf dem Armaturenbrett angezeigt wird
 
 -   le type et le sous-type
 
@@ -165,7 +165,7 @@ En dessous vous retrouvez la liste des commandes :
     mouvement (et s’il n’y a en pas eu de nouvelles depuis) Jeedom
     remette la valeur de l’information à 0 (plus de mouvement détecté)
 
--   historiser : permet d’historiser la donnée
+-   Chronik : erlaubt das Archivieren der Daten
 
 -   afficher : permet d’afficher la donnée sur le dashboard
 
@@ -176,11 +176,11 @@ En dessous vous retrouvez la liste des commandes :
 
 -   min/max : bornes de la donnée (peuvent être vides)
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
 -   supprimer (signe -) : permet de supprimer la commande
 

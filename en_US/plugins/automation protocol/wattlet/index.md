@@ -1,7 +1,7 @@
 Ce plugin permet de piloter les modules Wattcubes de Wattlet via le
 Wattcube Web.
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
@@ -9,7 +9,7 @@ puis de configurer l’adresse IP du Wattcube Web.
 
 ![wattlet](../images/wattlet.png)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La synchronisation des équipements Wattlets est accessible à partir du
@@ -21,17 +21,17 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![wattlet3](../images/wattlet3.png)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement Wattlet** : nom de votre équipement Wattlet
     sur le dashboard,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible**: makes your equipment visible on the dashboard,
 
 -   **Catégorie** : catégorie de votre équipement Wattlet
 

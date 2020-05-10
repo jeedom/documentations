@@ -1,7 +1,7 @@
 Jarvis 
 ======
 
-Description 
+Beschreibung 
 -----------
 
 Plugin permettant de gérer un ou plusieurs Jarvis (voir

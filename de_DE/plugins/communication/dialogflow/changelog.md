@@ -1,61 +1,57 @@
-# 31/03/2020
+# 27.03.2020
 
-- Mise à jour de la documentation
+- Korrektur eines Sprachproblems
 
-# 27/03/2020
+# 01/11/2020
 
-- Correction d'un soucis de langue
+- Aktualisieren des Dokuments
 
-# 11/01/2020
+# 15.10.2019
 
-- Mise a jour de la doc
+- Automatisches Senden der Konfiguration an den Markt während der Installation
 
-# 15/10/2019
+# 2019.08.13
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Aktualisierung der Dokumentation
 
-# 13/08/2019
+# 08/03/2019
 
-- Mise à jour de la documentation
+- Fehlerbehebung
+- Löschen des sicheren Modus nach dem Löschen der Kennung auf der Google-Seite
 
-# 03/08/2019
+# 16.06.2019
 
-- Correction de bug
-- Suppression du mode securisé suite à la supression de l'identifiant coté google
+- Fehlerbehebungen
 
-# 16/06/2019
+# 06/03/2019
 
-- Correction de bugs
+- Hinzufügen von Abonnementinformationen zu Sprachdiensten
 
-# 03/06/20198
+# 31.05.2019
 
-- Ajout de l'information sur l'abonnement aux services vocaux
+- Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
-# 31/05/2019
+# 19.06.2008
 
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Aktualisierung der Dokumentation
 
-# 19/06/2018
+# 05/07/2018
 
-- Mise à jour de la documentation
+- Aktualisierung der Dokumentation zur Klärung des Google-Zeitlimits
 
-# 07/05/2018
+# 25.03.2008
 
-- Mise à jour de la documentation pour préciser le timeout google
+- Korrektur eines Fehlers beim Verbindungstest unter Firefox
 
-# 25/03/2018
+# 21.03.2008
 
-- Correction d'un bug sur le test de connexion sous firefox
+- Aktualisieren des Dokuments
 
-# 21/03/2018
+# 22.02.2008
 
-- Mise à jour de la doc
+- Symbolwechsel
 
-# 22/02/2018
+# 20.02.2008
 
-- Changement de l'icone
-
-# 20/02/2018
-
-- Ajout d'un bouton pour envoyer la configuration automatiquement au market
-- Corrections de bugs
+- Fügen Sie eine Schaltfläche hinzu, um die Konfiguration automatisch an den Markt zu senden
+- Fehlerbehebungen

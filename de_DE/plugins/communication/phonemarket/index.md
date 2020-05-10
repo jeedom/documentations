@@ -8,8 +8,8 @@ messages automatiques à partir de Jeedom.
 
 > **Tip**
 >
-> Le plugin marche sur un système de crédit, 1 SMS  = 1 crédit pour la France sinon 2 crédits, 1 appel =
-> 2 crédits pour la France sinon 4 crédits. Vous pouvez consulter votre crédit
+> Le plugin marche sur un système de crédit, 1 SMS = 1 crédit, 1 appel =
+> 2 crédits. Vous pouvez consulter votre crédit
 > [ici](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En cas
 > de crédits faibles (moins de 5), un mail vous sera envoyé.
 
@@ -17,15 +17,15 @@ messages automatiques à partir de Jeedom.
 >
 > Les SMS sont limités à 140 caractères et les appels à 450 caractères.
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
+gibt es auf dieser Ebene keine Konfiguration.
 
 ![phonemarket1](../images/phonemarket1.PNG)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Phonemarket est accessible à partir du
@@ -40,23 +40,23 @@ Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
+> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
+> immer sichtbar einstellen).  
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![phonemarket4](../images/phonemarket4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement Phonemarket** : nom de votre équipement
     Phonemarket,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
 -   **Visible** : rend votre équipement visible sur le dashboard.
 

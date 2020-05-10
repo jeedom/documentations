@@ -1,11 +1,11 @@
 Ce plugin permet de gérer vos bouilloires Ikettle de Smarter (attention uniquement V1 et V2).
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre bouilloire et sauvegarder. Logiquement l'équipement se créera tout seul.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Ikettle est accessible à partir du menu
@@ -25,12 +25,12 @@ commandes.
 
 -   **Nom de l’équipement** : nom de votre équipement
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren**: auf Ihre aktiven Geräte machen
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: macht es sichtbar auf dem Armaturenbrett
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung
 
 
 -   **Onglet Commandes** :

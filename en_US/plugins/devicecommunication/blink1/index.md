@@ -3,14 +3,14 @@ Description
 
 Plugin servant à piloter une clef blink(1).
 
-Configuration 
+Configuration
 =============
 
-Le plugin ne nécessite aucune configuration, il faut juste l’activer :
+The plugin does not require any configuration, just activate it:
 
 ![blink1](../images/blink1.png)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements blink(1) est accessible à partir du
@@ -34,21 +34,21 @@ Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement blink(1)** : nom de votre équipement blink(1)
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
 -   **Mode** : le mode dans lequel vous voulez faire fonctionner
     votre blink(1) (voir plus bas pour la description)
 
-Ci-dessous vous retrouvez la liste des commandes :
+Here below you can fond the list of commands :
 
 -   le nom affiché sur le dashboard
 
@@ -66,7 +66,7 @@ Ci-dessous vous retrouvez la liste des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
 -   supprimer (signe -) : permet de supprimer la commande
 

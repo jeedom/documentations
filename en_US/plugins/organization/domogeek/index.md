@@ -4,29 +4,29 @@ DomoGeek
 Description 
 -----------
 
-Plugin pour récuperer les informations du site DomoGeek.
+Plugin to retrieve information from the DomoGeek site.
 
 ![domogeek screenshot1](../images/domogeek_screenshot1.png)
 
 Configuration 
 -------------
 
-La configuration se fait dans le plugin Domogeek.
+Configuration is done in the Domogeek plugin.
 
 ![domogeek1](../images/domogeek1.png)
 
 FAQ 
 ---
 
-Le système récupère les informations toutes les 2 heures.
+The system retrieves information every 2 hours.
 
 Changelog 
 ---------
 
--   V1.2 : Ajout Saison, saint du jour et saint du lendemain
+-   V1.2 : Addition Season, Saint of the day and Saint of the following day
 
--   V1.1 : Ajout EJT et Adresse IP
+-   V1.1 : Adding WCY and IP Address
 
--   V1 : Première release
+-   V1 : First release
 
 

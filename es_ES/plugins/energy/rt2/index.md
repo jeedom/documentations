@@ -1,117 +1,117 @@
-Ce plugin permet de gérer un IPX 800 v4
+Este complemento le permite administrar un IPX 800 v4
 
-Configuration du plugin
+Configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el complemento, solo necesita activarlo,
+no hay configuración a este nivel.
 
-> **Note**
+> **Nota**
 >
-> Vous pouvez voir sur cette page l’état du démon qui surveille l’ecoRT2
+> Puede ver en esta página el estado del demonio que monitorea ecoRT2
 
-Configuration des équipements
+Configuración del equipo
 =============================
 
-La configuration des équipements ecoRT2 est accessible à partir du menu
-plugin puis protocole domotique :
+Se puede acceder a la configuración del equipo ecoRT2 desde el menú
+plugin luego protocolo de automatización del hogar :
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement ecoRT2** : nom de votre équipement ecoRT2,
+-   **Nombre del equipo EcoRT2** : nombre de su equipo ecoRT2,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : indica el objeto padre al que pertenece
+    equipo,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Activar** : activa su equipo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible** : hace que su equipo sea visible en el tablero,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Categoría** : categorías de equipos (puede pertenecer a
+    categorías múltiples),
 
--   **IP** : L’ip de l’ecoRT2,
+-   **IP** : La ecoRT2 ip,
 
--   **Clef API** : clef api de l’ecoRT2 (par default la clef API
-    est apikey)
+-   **Clave API** : Clave API ecoRT2 (por defecto Clave API
+    es apikey)
 
--   **Extension** : il faut ici indiquer les extensions présente sur
-    l’ecoRT2 pour que jeedom puisse les interroger. Exemple pour enOcean
-    il faut mettre ENO (si vous en avez plusieurs il faut les séparer
-    par des ,). Toutes les extensions sont normalement supportée, pour
-    le code de l’extension à mettre il faut se reporter à la
-    documentation de celle-ci.
+-   **Extensión** : aquí debe indicar las extensiones presentes en
+    ecoRT2 para que Jeedom pueda interrogarlos. Ejemplo de EnOcean
+    debes poner ENO (si tienes varios debes separarlos
+    por,). Todas las extensiones son normalmente compatibles, para
+    el código de la extensión para poner debe referirse a
+    documentación del mismo.
 
-Le plugin par defaut ne creer rien, ca sera à vous de le faire en
-fonction de votre configuration, mais vous serez guider.
+El complemento predeterminado no crea nada, dependerá de usted hacerlo
+dependiendo de tu configuración pero serás guía.
 
-Commande
+Comando
 ========
 
-Action
+Acción
 ------
 
-Vous avez les types d’action :
+Tienes los tipos de acción :
 
--   **On** : permet de mettre à 1 une sortie (ou entrée virtuelle), ou
-    d’affecter une valeur à une entrée analogique (ou compteur)
+-   **Uno** : le permite establecer una salida (o entrada virtual) a 1, o
+    asignar un valor a una entrada analógica (o contador)
 
--   **Off** : permet de mettre à 0 une sortie (ou entrée virtuelle)
+-   **Apagado** : le permite establecer una salida (o entrada virtual) a 0
 
--   **Bascule** : permet d’inverser l’état d’une sortie (ou
-    entrée virtuelle)
+-   **Alternar** : permite invertir el estado de una salida (o
+    entrada virtual)
 
-Vous avez les types d’actionneurs :
+Tienes los tipos de actuadores :
 
--   **Relais**
+-   **Relé**
 
--   **Sortie virtuelle**
+-   **Salida virtual**
 
--   **Compteur**
+-   **Contador**
 
--   **Fil pilote**
+-   **Cable piloto**
 
-> **Note**
+> **Nota**
 >
-> Certain type d’actionneur peuvent etre masqué en fonction du type
-> d’action
+> Cierto tipo de actuador puede ocultarse dependiendo del tipo
+> acción
 
-Ensuite en fonction du type d’action et de l’actionneur vous avez
-plusieurs paramètres qui peuvent être :
+Luego, dependiendo del tipo de acción y el actuador que tenga
+varios parámetros que pueden ser :
 
--   numéro du relai
+-   número de relevo
 
--   numéro de la sortie virtuelle
+-   número de salida virtual
 
--   numéro du compteur et opération (ex +200 ou -100)
+-   Número de contador y operación (ex +200 o -100)
 
--   numéro du fil pilote ainsi que valeur de la commande (0 confort, 1 eco, 2 hors gel, 3 arrêt, 4 confort-1, 5 confort-2)
+-   número de cable piloto y valor de pedido (0 confort, 1 eco, 2 sin escarcha, 3 apagado, 4 confort-1, 5 confort-2)
 
-Info
+Información
 ----
 
-Vous avez les types differents :
+Tienes diferentes tipos :
 
--   Instantanée poste
--   Relais
--   Sortie virtuelle
--   Entrée digital
--   Compteur
+-   Publicación instantánea
+-   Relé
+-   Salida virtual
+-   Entrada digital
+-   Contador
 -   EnOcean
--   Index compteur
--   Index tore
--   Index tore consommation
--   Index tore distribution
--   Index télé-information
--   Index poste
--   Index/Jour poste
--   Cumul prix compteur
--   Cumul prix tore
--   Cumul prix tore consommation
--   Cumul prix tore distribution
--   Cumul prix télé-information
--   Cumul prix poste
--   Cumul prix/Jour poste
--   Fil pilote
+-   Índice de contador
+-   Índice toro
+-   Índice de consumo de Toro
+-   Índice de distribución del toro
+-   Índice de teleinformación
+-   Índice de posición
+-   Índice / día de publicación
+-   Precio total del mostrador
+-   Precio total del toro
+-   Consumo total precio toro
+-   Distribución total precio toroidal
+-   Combinación de precios de teleinformación
+-   Precio acumulativo de contabilización
+-   Acumulación de precios / día posterior
+-   Cable piloto
 
-Pour chaque type jeedom vous demandera le numéro de l’information voulue
+Para cada tipo, jeedom le preguntará el número de la información deseada.

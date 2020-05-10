@@ -1,61 +1,57 @@
-# 31/03/2020
-
-- Mise à jour de la documentation
-
 # 27/03/2020
 
-- Correction d'un soucis de langue
+- Corrección de un problema de lenguaje.
 
-# 11/01/2020
+# 01/11/2020
 
-- Mise a jour de la doc
+- Actualizando el documento
 
 # 15/10/2019
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Envío automático de la configuración al mercado durante la instalación.
 
-# 13/08/2019
+# 08/13/2019
 
-- Mise à jour de la documentation
+- Actualización de la documentación
 
-# 03/08/2019
+# 08/03/2019
 
-- Correction de bug
-- Suppression du mode securisé suite à la supression de l'identifiant coté google
+- Corrección de errores
+- Eliminación del modo seguro después de la eliminación del identificador en el lado de Google
 
 # 16/06/2019
 
-- Correction de bugs
+- Correcciones de errores
 
-# 03/06/20198
+# 06/03/2019
 
-- Ajout de l'information sur l'abonnement aux services vocaux
+- Agregar información de suscripción a servicios de voz
 
 # 31/05/2019
 
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Importante : a partir del 01/06/2019 los servicios de voz cobran, puede ver su estado en su página de perfil en el mercado, pestaña mis servicios
 
 # 19/06/2018
 
-- Mise à jour de la documentation
+- Actualización de la documentación
 
 # 07/05/2018
 
-- Mise à jour de la documentation pour préciser le timeout google
+- Actualización de documentación para aclarar el tiempo de espera de Google
 
 # 25/03/2018
 
-- Correction d'un bug sur le test de connexion sous firefox
+- Corrección de un error en la prueba de conexión bajo firefox
 
 # 21/03/2018
 
-- Mise à jour de la doc
+- Actualizando el documento
 
 # 22/02/2018
 
-- Changement de l'icone
+- Cambio de icono
 
 # 20/02/2018
 
-- Ajout d'un bouton pour envoyer la configuration automatiquement au market
-- Corrections de bugs
+- Agregue un botón para enviar automáticamente la configuración al mercado
+- Correcciones de errores

@@ -7,7 +7,7 @@ compatibles avec le module RFXCOM USB. Parmi ces périphériques on
 retrouve les marques suivantes : Oregon, LaCross, Chacon, X10, DI-O,
 Blyss, etc.
 
-Configuration du plugin
+Configuración de plugin
 =======================
 
 Après installation du plugin, il vous suffit de l’activer et de mettre
@@ -105,14 +105,14 @@ commandes.
 -   **ID** : l’id de votre sonde (à ne modifier qu’en connaissance
     de cause)
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: hace visible en el tablero de instrumentos
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
     plusieurs catégories)
 
 -   **Ne pas vérifier la batterie** : indique à Jeedom de ne pas vous
@@ -192,7 +192,7 @@ commandes.
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Prueba: prueba el comando
 
 -   supprimer (signe -) : permet de supprimer la commande
 
@@ -301,7 +301,7 @@ Vous pouvez désormais commander votre volet Somfy RTS avec Jeedom.
 Questions fréquentes
 ====================
 
-FAQ
+Preguntas frecuentes
 ===
 
 >**Simuler/reconnaître une télécommande rfxcom chinoise (undecoded).**

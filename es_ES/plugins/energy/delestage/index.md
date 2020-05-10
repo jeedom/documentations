@@ -96,7 +96,7 @@ Les paramètres suivants peuvent être réglés:
 
 ![Configuration avancée](../images/configuration_avancee.png)
 
-FAQ 
+Preguntas frecuentes
 ===
 
 Pour l’instant seul le plugin thermostat officiel est géré par le

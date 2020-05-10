@@ -5,13 +5,13 @@ Plugin permettant à Jeedom de communiquer avec l’application S.A.R.A.H
 (reconnaissance vocale). D’effectuer des annonces vocales et de jouer
 des sons à partir de Jeedom.
 
-Configuration 
+Configuration
 =============
 
 Le plugin S.A.R.A.H. ajoute la reconnaissance vocale permettant de
 parler à Jeedom, faire une annonce ou jouer un son à partir de Jeedom.
 
-Configuration du plugin 
+Plugin configuration
 -----------------------
 
 Une fois le plugin S.A.R.A.H. installé sur Jeedom à partir du Market,
@@ -33,7 +33,7 @@ poste client (compatible Windows uniquement) :
 Quand c’est fait, vous pouvez redémarrer le client et le serveur
 S.A.R.A.H..
 
-Configuration des équipements 
+Equipment configuration
 -----------------------------
 
 La configuration des équipements S.A.R.A.H. est accessible à partir du
@@ -52,7 +52,7 @@ Voilà à quoi ressemble la page du plugin S.A.R.A.H. (Ici, avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![sarah4](../images/sarah4.PNG)
 
@@ -64,7 +64,7 @@ Vous retrouvez ici :
 -   **Objet parent** : indique l’objet parent auquel
     appartient l’équipement.
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
 -   **Adresse du nodeJS** : IP de S.A.R.A.H. + port du node JS (par
     défaut le port est le 8080)
@@ -86,7 +86,7 @@ Chaque équipement de type S.A.R.A.H. crée aussi une commande :
 
 -   **Jouer** : Qui permet d’exécuter un fichier audio de type .mp3
     ou .wav. Ces fichiers audio doivent être placés pour la **v3** :
-    dans le dossier **"medias"** à la racine ou **v4** : dans le dossier
+    dans le dossier **"medias"**à la racine ou**v4** : dans le dossier
     **"client/medias"** de votre application S.A.R.A.H. Dans votre
     scénario, il suffira d’indiquer le nom de votre fichier audio
     à exécuter.

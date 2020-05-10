@@ -1,7 +1,7 @@
 Waze in Time 
 ============
 
-Description 
+Beschreibung 
 -----------
 
 Ce plugin permet d’avoir les infos de trajet (trafic pris en compte) via
@@ -10,7 +10,7 @@ interroge son site
 
 ![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
-Configuration 
+Konfiguration
 -------------
 
 ### Configuration du plugin: 
@@ -32,15 +32,15 @@ pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
 
 ![wazeintime screenshot2](../images/wazeintime_screenshot2.jpg)
 
-Cliquez sur le bouton Ajouter un Trajet ou sur le bouton + :
+Klicken sie auf die Schaltfläche "Route hinzufügen" oder "+" :
 
 ![config2](../images/config2.jpg)
 
-Vous arriverez ensuite sur la page de configuration de votre Trajet:
+Dann kommen Sie auf die Konfigurationsseite Ihrer Route :
 
 ![wazeintime screenshot3](../images/wazeintime_screenshot3.jpg)
 
-Sur cette page vous trouverez trois sections :
+Auf dieser Seite finden sie drei Abschnitte :
 
 i.  Général
 
@@ -82,7 +82,7 @@ point de départ et d’arrivée :
 
 -   Rafraîchir : Permet de rafraîchir les infos
 
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
+All diese Befehle sind verfügbar über Szenarien und das Armaturenbrett
 
 ### Le widget : 
 
@@ -100,7 +100,7 @@ Les infos sont rafraichies une fois toutes les 30 minutes. Vous pouvez
 les rafraîchir à la demande via scénario avec la commande rafraîchir, ou
 via le dash avec les doubles flêches
 
-Changelog 
+Changelog
 =========
 
 Changelog détaillé :

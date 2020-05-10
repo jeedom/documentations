@@ -1,70 +1,70 @@
 Description 
 ===========
 
-Le plugin agenda permet de récupérer les événements de son Google
-Agenda. Il peut aussi lancer une interaction lors d’un évènement
+The agenda plugin allows you to retrieve events from your Google
+Diary. He can also initiate an interaction during an event
 
-Configuration 
+Setup 
 =============
 
-Creer un équipement Google Agenda 
+Create a Google Calendar device 
 =================================
 
-Coté Jeedom il vous faut creer un équipement Google Agenda et récuperer l’URL de redirection. 
+On the Jeedom side, you need to create a Google Calendar device and retrieve the redirect URL. 
 
-> **IMPORTANT**
+> **Important**
 >
-> L'url d'accès externe a votre Jeedom doit absolument etre en https. Google n'autorise pas les connexions non cryptées.
+> The url of external access to your Jeedom must absolutely be in https. Google doesn't allow unencrypted connections.
 
-Creer un compte developpeur chez Google 
+Create a developer account at Google 
 =======================================
 
-Il vous faut creer un compte developpeur chez google pour avoir accès
-aux API, allez
+You need to create a developer account with google to have access
+API, go
 [ici](https://console.developers.google.com/apis/credentials) puis
-faites "Creer identifiants" et "ID client Oauth", selectionnez
-"Application Web" et dans "URI de redirection autorisés" mettez celle
-donnée sur la page de configuration de l’équipement jeedom.
+do "Create identifiers" and "Oauth customer ID", select
+"Web application "and in" Authorized redirect URIs "put the one
+given on the jeedom equipment configuration page.
 
-> **IMPORTANT**
+> **Important**
 >
-> Attention lorsque vous saisiez "URI de redirection autorisés" il faut faire attention à : 
-> - avoir autorisé le domaine ici avant [ici](https://console.developers.google.com/apis/credentials/consent). Google vous le signal normalement
-> - bien appuyer sur la touche entrée après avoir copier/coller l'url de redirection depuis jeedom vers la page de configuration Google (appuyer sur le bouton de sauvegarde directement après le copier/collier sans appuyer sur la touche entrée ne marche pas!!!)
+> Be careful when you enter "Authorized redirect URIs" you must pay attention to : 
+> - having authorized the domain here before [here] (https://console.developers.google.com/apis/credentials/consent). Google will signal you normally
+> - well press the enter key after copying / pasting the redirect url from jeedom to the Google configuration page (pressing the save button directly after copying / coltheting without pressing the enter key does not work !!!)
 
-Récuperez la clef client et le secret client (il vous faudra les mettres
-coté Jeedom dans l’équipement)
+Get the client key and client secret (you will need to put them
+Jeedom side in the equipment)
 
-Il vous faut ensuite ajouter l’API Google Calendar en allant
+Then you need to add the Google Calendar API by going
 [ici](https://console.developers.google.com/apis/dashboard), puis en
-faisant "Activer l’api" et recherchez "Google Calendar API" puis ajoutez
-la.
+doing "Activate the API" and search for "Google Calendar API" then add
+the.
 
-Liée le compte Google à jeedom 
+Linked the Google account to jeedom 
 ==============================
 
-Copiez la clef client et le secrey client coté Jeedom puis cliquez sur
-le bouton Lier, validez tout.
+Copy the customer key and the customer secrey on the Jeedom side then click on
+the Link button, validate all.
 
->**IMPORTANT**
+>**Important**
 >
->Attention pour lier les 2 comptes (Google et Jeedom) il faut ABSOLUMENT être connecté à Jeedom par son url externe (vous pouvez la voir dans le centre de configuration Jeedom partie réseaux)
+>Be careful to link the 2 accounts (Google and Jeedom) you MUST be connected to Jeedom by its external url (you can see it in the Jeedom configuration center in the network section)
 
-Commande 
+Command 
 ========
 
-Le plugin ne comporte que une commande qui vous donne le titre de
-l’évenement en cours
+The plugin only has one command that gives you the title of
+the current event
 
 Interaction 
 ===========
 
-Jeedom peut interpreter le titre d’un évènement comme une interaction et
-donc déclencher une action. Pour cela il vous faut activer les
-intéractions sur la page de configuration de l’équipement.
+Jeedom can interpret the title of an event as an interaction and
+so trigger an action. For this you need to activate the
+equipment configuration page interactions.
 
-Vous pouvez aussi indiquer une commande de retour par laquel jeedom va
-répondre suite à l’éxecution de l’interaction.
+You can also indicate a return order by which jeedom will
+respond following the execution of the interaction.
 
-FAQ 
+Faq 
 ===

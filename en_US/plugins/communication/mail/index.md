@@ -23,20 +23,20 @@ vous pouvez en mettre autant que vous voulez avec le bouton "Ajouter") :
 
 ![mail3](../images/mail3.PNG)
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![mail4](../images/mail4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement mail** : nom de votre équipement mail
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object** : means the parent object the equipment depend
+    equipment
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : rend votre équipement visible sur le dashboard
+-   **Visible**: makes your equipment visible on the dashboard
 
 -   **Nom expéditeur** : nom de l’expéditeur du mail (ex : Jeedom)
 

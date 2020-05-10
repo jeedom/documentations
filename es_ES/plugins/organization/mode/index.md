@@ -1,37 +1,37 @@
 Plugin permettant de gérer différents modes d’un
 appartement/maison/pièce, mais aussi des ambiances.
 
-Configuration du plugin
+Configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el plugin, sólo hay que activarlo,
+no hay ninguna configuración a este nivel.
 
 Configuration des équipements
 =============================
 
-La configuration des équipements mode est accessible à partir du menu
-plugin puis organisation :
+El equipo de modo de configuración está disponible en el menú
+plugin y organización:
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   ** ** Nombre del dispositivo Modo: Modo nombre de su equipo,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    la mayoría de categorías).
 
--   **Ajouter mode** : bouton permettant d’ajouter un nouveau mode
+-   ** ** Añadir la moda: el botón para añadir una nueva forma
 
-En-dessous vous retrouvez la liste des modes, en cliquant dessus vous
-allez pouvoir choisir les actions à faire lors de l’entrée dans ce mode
-et lors de la sortie.
+A continuación encontrará la lista de perfiles, haga clic en él se
+será capaz de elegir las acciones que hacer al entrar en este modo de
+y en la salida.
 
 >**IMPORTANT**
 >

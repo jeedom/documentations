@@ -1,6 +1,6 @@
 Plugin permettant de controller les thermostats Netatmo
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Une fois le plugin installé, il vous faut renseigner vos informations de
@@ -55,7 +55,7 @@ précedent)
 
 ![netatmoWeather15](../images/netatmoWeather15.png)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements Netatmo est accessible à partir du menu
@@ -67,23 +67,23 @@ plugin.
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: hace visible en el tablero de instrumentos
 
 -   **Identifiant** : identifiant unique de l’équipement
 
 -   **Type** : type de votre équipement (station, sonde intérieure,
     sonde extérieures…​)
 
-En dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de ordenes :
 
 -   le nom affiché sur le dashboard
 
@@ -93,14 +93,14 @@ En dessous vous retrouvez la liste des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Prueba: prueba el comando
 
 > **Tip**
 >
 > Lors du changement de mode de widget il est conseillé de cliquer sur
 > synchroniser pour voir le resultat immédiatement
 
-FAQ 
+Preguntas frecuentes
 ===
 
 Quelle est la fréquence de rafraichissement ?

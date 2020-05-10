@@ -5,7 +5,7 @@ Ce plugin permet de gerer les notifications (reprise en case d'erreur, generatio
 Après téléchargement du plugin, il vous faudra simplement activer le
 plugin
 
-# Configuration des équipements
+# Configuración de los dispositivos
 
 ## Equipement
 
@@ -57,7 +57,7 @@ Voici un exemple pour la méteo du matin avec texte conditionnel et génération
 
 \[Bonjour\|Salut\|Coucou\] \[j'espères que tu as bien dormis ?\|bien dormis ?\|ça va ?\] . \[Aujourd'hui il fera\|Aujourd'hui le temps sera\|La météo annonce\] \#[Maison\]\[Météo\]\[Condition\]\# \[et la température sera de\|avec\] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \[oula il va faire froid\|oula il caille\]: } \#\[Maison\]\[Météo\]\[Température Max\]\# degrés.
 
-FAQ
+Preguntas frecuentes
 ===
 
 >**Le plugin gere t-il ask ?**

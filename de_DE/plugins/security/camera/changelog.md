@@ -1,7 +1,3 @@
-# 17/10/2019
-
-- Optimisation de la fonction de nettoyage des dossiers de capture des cameras
-
 # 10/10/2019
 
 - Correction d'un bug sur la prise de video sous debian 10
@@ -12,12 +8,12 @@
 
 # 23/09/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 - Ajout d'un champs pour mettre des options flux video (rtsp)
 
 # 20/09/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 14/09/2019
 
@@ -27,7 +23,7 @@
 # 28/08/2019
 
 - Amélioration du support du rtsp
-- Correction de bugs
+- Fehlerbehebungen
 
 # 06/06/2019
 
@@ -37,19 +33,19 @@
 
 # 21/01/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 - Correction d'un bug sur le panel
 
 # 17/01/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 - Correction d'un soucis sur la configuration de Wanscam q3(s)
 
 # 15/01/2019
 
 - Ajout de la camera Wanscam q3(s)
 - Selection du mode automatiquement en fonction de l'url de capture et du flux vidéo (RTSP)
-- Correction de bugs
+- Fehlerbehebungen
 - Ajout du remplacement de #username# et #password# dans les commandes
 - Correction d'un soucis sur les dépendance
 
@@ -65,14 +61,14 @@
 
 # 10/03/2018
 
-- Mise à jour de la doc
-- Optimisation du code
+- Aktualisierung des Dokuments
+- Code-Optimierung
 
 # 05/03/2018
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 12/02/2018
 
-- Correction de bugs
+- Fehlerbehebungen
 - Ajout d'une option pour désactiver toute compression d'image coté Jeedom

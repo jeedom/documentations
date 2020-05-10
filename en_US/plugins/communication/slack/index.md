@@ -2,15 +2,14 @@ Ce plugin permet d’établir une connexion entre Slack et Jeedom pour
 envoyer des alertes à partir de Jeedom ou discuter avec Jeedom (en
 utilisant les interactions).
 
-Configuration du plugin 
-=======================
+== Plugin configuration
 
 Après téléchargement du plugin, il vous faut l’activer, celui-ci ne
 nécessite aucune autre configuration.
 
 ![slack1](../images/slack1.PNG)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Slack est accessible à partir du menu
@@ -29,17 +28,17 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![slack4](../images/slack4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement** : nom de votre équipement Slack
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
 -   **Domaine** : nom de domaine de votre Slack (permet notamment si
     vous avez plusieurs Slack de les différencier)
@@ -52,22 +51,22 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Slack (attention il faut que votre Jeedom soit accessible
     de l’extérieur)
 
-En dessous vous retrouvez la configuration des commandes :
+Below you find the command configuration:
 
--   **Nom** : nom de la commande
+-   **Name**: name of the command
 
 -   **Webhook** : URL à appeler pour envoyer un message sur Slack
 
 -   **Destination** : non obligatoire, permet de forcer l’envoi d’un
     message vers un channel (canal) ou un utilisateur
 
--   Configuration avancée (petites roues crantées) : permet d’afficher
+-   Advanced configuration (small wheels): displays
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
--   Supprimer (signe -) : permet de supprimer la commande
+-   Delete (sign -): delete the command
 
 > **Tip**
 >

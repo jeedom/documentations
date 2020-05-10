@@ -1,7 +1,3 @@
-# 24/01/2020
-
-- Support du Sonos One S22
-
 # 11/01/2020
 
 - Ajout Sonos Move
@@ -61,7 +57,7 @@
 
 # 2018
 
-- 	Ajout de la gestion des favoris sonos
+-   Ajout de la gestion des favoris sonos
 -   Ajout Sonos One et Playbase
 -   Correction de la langue avec picotts
 -   Ajout d’une commande "entrée de ligne"

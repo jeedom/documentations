@@ -1,11 +1,11 @@
 Ce plugin permet de gérer vos cafetière de Smarter (attention uniquement V1 pas la version compatible ifttt).
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre cafetière et sauvegarder. Logiquement l'équipement se créera tout seul.
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Smarter Coffee est accessible à partir du menu
@@ -25,12 +25,12 @@ commandes.
 
 -   **Nom de l’équipement** : nom de votre équipement
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
 
--   **Visible** : le rend visible sur le dashboard
+-   **Sichtbar** : macht es auf dem Armaturenbrett sichtbar
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Eltern Objekt** : gibt das übergeordnete Objekt an, zu dem das
+    Gerät gehört
 
 
 -   **Onglet Commandes** :

@@ -1,70 +1,70 @@
-Description 
+Beschreibung 
 ===========
 
-Le plugin agenda permet de récupérer les événements de son Google
-Agenda. Il peut aussi lancer une interaction lors d’un évènement
+Mit dem Agenda-Plugin können Sie Ereignisse von Ihrem Google abrufen
+Tagebuch. Er kann auch während eines Ereignisses eine Interaktion initiieren
 
-Configuration 
+Konfiguration 
 =============
 
-Creer un équipement Google Agenda 
+Erstellen Sie ein Google Kalender-Gerät 
 =================================
 
-Coté Jeedom il vous faut creer un équipement Google Agenda et récuperer l’URL de redirection. 
+Auf der Jeedom-Seite müssen Sie ein Google Kalender-Gerät erstellen und die Weiterleitungs-URL abrufen. 
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> L'url d'accès externe a votre Jeedom doit absolument etre en https. Google n'autorise pas les connexions non cryptées.
+> Die URL des externen Zugriffs auf Ihr Jeedom muss unbedingt in https angegeben sein. Google erdieubt keine unverschlüsselten Verbindungen.
 
-Creer un compte developpeur chez Google 
+Erstellen Sie ein Entwicklerkonto bei Google 
 =======================================
 
-Il vous faut creer un compte developpeur chez google pour avoir accès
-aux API, allez
+Sie müssen ein Entwicklerkonto bei Google erstellen, um Zugriff zu haben
+API, los
 [ici](https://console.developers.google.com/apis/credentials) puis
-faites "Creer identifiants" et "ID client Oauth", selectionnez
-"Application Web" et dans "URI de redirection autorisés" mettez celle
-donnée sur la page de configuration de l’équipement jeedom.
+Wählen Sie "Kennungen erstellen" und "Oauth-Kunden-ID" aus
+"Webanwendung "und in" Autorisierte Weiterleitungs-URIs "geben Sie die ein
+auf der Konfigurationsseite für Jeedom-Geräte angegeben.
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Attention lorsque vous saisiez "URI de redirection autorisés" il faut faire attention à : 
-> - avoir autorisé le domaine ici avant [ici](https://console.developers.google.com/apis/credentials/consent). Google vous le signal normalement
-> - bien appuyer sur la touche entrée après avoir copier/coller l'url de redirection depuis jeedom vers la page de configuration Google (appuyer sur le bouton de sauvegarde directement après le copier/collier sans appuyer sur la touche entrée ne marche pas!!!)
+> Seien Sie vorsichtig, wenn Sie "Authorized Redirect URIs" eingeben, auf die Sie achten müssen : 
+> - die Domain hier vor [hier] autorisiert haben (https://console.developers.google.com/apis/credentials/consent). Google wird Sie normal signalisieren
+> - Drücken Sie die Eingabetaste, nachdem Sie die Weiterleitungs-URL von jeedom auf die Google-Konfigurationsseite kopiert / eingefügt haben (das Drücken der Schaltfläche Speichern direkt nach dem Kopieren / Sortieren ohne Drücken der Eingabetaste funktioniert nicht !!!)
 
-Récuperez la clef client et le secret client (il vous faudra les mettres
-coté Jeedom dans l’équipement)
+Holen Sie sich den Client-Schlüssel und das Client-Geheimnis (Sie müssen sie ablegen
+Jeedom Seite in der Ausrüstung)
 
-Il vous faut ensuite ajouter l’API Google Calendar en allant
+Anschließend müssen Sie die Google Kalender-API hinzufügen, indem Sie fortfahren
 [ici](https://console.developers.google.com/apis/dashboard), puis en
-faisant "Activer l’api" et recherchez "Google Calendar API" puis ajoutez
-la.
+Führen Sie "API aktivieren" aus und suchen Sie nach "Google Kalender-API". Fügen Sie dann hinzu
+die.
 
-Liée le compte Google à jeedom 
+Verknüpft das Google-Konto mit jeedom 
 ==============================
 
-Copiez la clef client et le secrey client coté Jeedom puis cliquez sur
-le bouton Lier, validez tout.
+Kopieren Sie den Kundenschlüssel und das Kunden-Secrey auf der Jeedom-Seite und klicken Sie dann auf
+Klicken Sie auf die Schaltfläche Verknüpfen, um alle zu überprüfen.
 
->**IMPORTANT**
+>**Wichtig**
 >
->Attention pour lier les 2 comptes (Google et Jeedom) il faut ABSOLUMENT être connecté à Jeedom par son url externe (vous pouvez la voir dans le centre de configuration Jeedom partie réseaux)
+>Um die beiden Konten (Google und Jeedom) zu verknüpfen, ist es ABSOLUT erforderlich, über die externe URL mit Jeedom verbunden zu sein (Sie können dies im Jeedom-Teilnetzwerk des Konfigurationszentrums sehen).
 
-Commande 
+Befehl 
 ========
 
-Le plugin ne comporte que une commande qui vous donne le titre de
-l’évenement en cours
+Das Plugin hat nur einen Befehl, der Ihnen den Titel gibt
+das aktuelle Ereignis
 
-Interaction 
+Interaktion 
 ===========
 
-Jeedom peut interpreter le titre d’un évènement comme une interaction et
-donc déclencher une action. Pour cela il vous faut activer les
-intéractions sur la page de configuration de l’équipement.
+Jeedom kann den Titel eines Ereignisses als Interaktion interpretieren und
+also eine Aktion auslösen. Dazu müssen Sie das aktivieren
+Interaktionen auf der Gerätekonfigurationsseite.
 
-Vous pouvez aussi indiquer une commande de retour par laquel jeedom va
-répondre suite à l’éxecution de l’interaction.
+Sie können auch einen Rückgabeauftrag angeben, mit dem jeedom dies tun wird
+Antworten Sie nach der Ausführung der Interaktion.
 
-FAQ 
+Faq 
 ===

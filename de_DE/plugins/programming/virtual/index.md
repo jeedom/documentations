@@ -55,17 +55,17 @@ Voilà à quoi ressemble la page de configuration d’un équipement virtuel
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l'équipement virtuel** : nom de votre équipement virtuel,
 
--   **Objet parent** : indique l’objet parent auquel appartient
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
     l'équipement,
 
 -   **Catégorie** : les catégories de l'équipement (il peut appartenir à
     plusieurs catégories),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
 -   **Visible** : le rend visible sur le dashboard,
 
@@ -116,8 +116,8 @@ En-dessous vous retrouvez la liste des commandes :
 
 -   min/max : bornes de la donnée (peuvent être vides),
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Die erweiterte Steuerung der Konfiguration (Methode der Protokollierung,
     widget, etc.),
 
 -   "Tester" : permet de tester la commande,

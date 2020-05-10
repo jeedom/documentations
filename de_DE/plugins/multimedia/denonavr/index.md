@@ -4,37 +4,37 @@ l’amplificateur et contrôler le volume. Vous avez aussi un retour d’état
 indiquant si la zone est active, le niveau de volume, l’entrée
 selectionnée et le type audio.
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après téléchargement du plugin, il vous faudra simplement activer le
 plugin
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Denon est accessible à partir du menu
 Plugins puis multimedia
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Nom de l’équipement Denon** : nom de votre équipement Denon,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
     plusieurs catégories),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
 
 -   **IP** : IP de l’amplificateur denon
 
 -   **Zone** : zone à contrôler (principale ou zone 2)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

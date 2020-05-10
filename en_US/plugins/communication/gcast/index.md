@@ -11,7 +11,7 @@ faire du TTS ou interagir avec Jeedom via les interactions
 Configuration
 -------------
 
-Configuration du plugin
+Plugin configuration
 =======================
 
 Après téléchargement du plugin il vous faut l’activer et renseigner l’IP

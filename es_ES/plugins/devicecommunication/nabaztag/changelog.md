@@ -1,8 +1,8 @@
-# 29/032020
+# 29/03/2020
 
-- Augmentation du timeout sur les requetes
+- Mayor tiempo de espera en solicitudes
 
-# 13/08/2019
+# 08/13/2019
 
-- Support de PHP 7.3
+- Soporte para php 7.3
 

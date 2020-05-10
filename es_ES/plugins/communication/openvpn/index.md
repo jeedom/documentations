@@ -2,29 +2,29 @@ Ce plugin permet de connecter Jeedom à un serveur openvpn. Il est aussi
 utilisé et donc obligatoire pour le service DNS Jeedom qui vous permet
 d’accèder à votre Jeedom depuis internet
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer et
 d’installer les dépendances openvpn (clic sur le bouton Installer/Mettre
 à jour)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Openvpn** : nom de votre équipement Openvpn,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    varias categorías),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
 > **Note**
 >

@@ -26,16 +26,16 @@ configuration du Plugin.
 Configuration des équipements
 -----------------------------
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement météo** : nom de votre équipement météo
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
 -   **Visible** : rend votre équipement visible sur le dashboard
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipo
 
 -   **Ville** : Il faut mettre le nom de votre ville suivi du code pays,
     ex : Paris,fr

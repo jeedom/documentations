@@ -2,7 +2,7 @@ Ce plugin permet d’établir une connexion entre Slack et Jeedom pour
 envoyer des alertes à partir de Jeedom ou discuter avec Jeedom (en
 utilisant les interactions).
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
 Après téléchargement du plugin, il vous faut l’activer, celui-ci ne
@@ -10,7 +10,7 @@ nécessite aucune autre configuration.
 
 ![slack1](../images/slack1.PNG)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
 La configuration des équipements Slack est accessible à partir du menu
@@ -29,17 +29,17 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![slack4](../images/slack4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Hier finden sie die ganze Konfiguration Ihrer Geräte:
 
 -   **Nom de l’équipement** : nom de votre équipement Slack
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren**: auf Ihre aktiven Geräte machen
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: macht es sichtbar auf dem Armaturenbrett
 
 -   **Domaine** : nom de domaine de votre Slack (permet notamment si
     vous avez plusieurs Slack de les différencier)
@@ -61,13 +61,13 @@ En dessous vous retrouvez la configuration des commandes :
 -   **Destination** : non obligatoire, permet de forcer l’envoi d’un
     message vers un channel (canal) ou un utilisateur
 
--   Configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Advanced Configuration (kleine Zahnräder): Zeigt
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
--   Supprimer (signe -) : permet de supprimer la commande
+-   Löschen (- Zeichen): Löschen-Befehl
 
 > **Tip**
 >

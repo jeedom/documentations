@@ -8,10 +8,9 @@ Le plugin Gcast permet d’établir un lien entre votre Google Assistant et
 Jeedom. Il sera possible d’utiliser votre Google Home / Google Mini pour
 faire du TTS ou interagir avec Jeedom via les interactions
 
-Configuration
--------------
+Configuracion
 
-Configuration du plugin
+Configuración del plugin
 =======================
 
 Après téléchargement du plugin il vous faut l’activer et renseigner l’IP

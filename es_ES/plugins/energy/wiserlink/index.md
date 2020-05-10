@@ -1,7 +1,7 @@
-Configuration du plugin 
+configuración del plugin
 =======================
 
-Le plugin ne comporte pas de configuration générale.
+El plugin no tiene configuración general.
 
 Création des équipements 
 ========================

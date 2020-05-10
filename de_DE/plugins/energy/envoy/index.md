@@ -1,57 +1,57 @@
 Description
 ===
 
-Plugin pour remonter les informations photovoltaïques des passerelles Envoy
+Plugin zum Sammeln von Photovoltaik-Informationen von Envoy-Gateways
 
 Configuration
 ===
 
-Afin de configurer le plugin, il est nécessaire de renseigner les informations suivantes :
+Um das Plugin zu konfigurieren, müssen die folgenden Informationen eingegeben werden :
 
-- Adresse IP de la passerelle envoy
-- Mot de passe de l'envoy (si celui-ci n'a pas été modifié, il s'agit des 6 derniers caractères du numéro de série.)
+- Gateway-IP-Adresse gesendet
+- Absenderpasswort (falls es nicht geändert wurde, sind dies die letzten 6 Zeichen der Seriennummer.)
 
-Ensuite, en cliquant sur le bouton "Synchroniser", tous les équipements seront automatiquement créés.
+Durch Klicken auf die Schaltfläche "Synchronisieren" werden dann alle Geräte automatisch erstellt.
 
-Informations remontées
+Informationen gemeldet
 ===
 
-Le plugin permet de remonter les informations suivantes (si vous disposez d'un Envoy-s Metered) :
+Mit dem Plugin können Sie die folgenden Informationen hochladen (wenn Sie einen Envoy-s Metered haben) :
 
-__*- General (maj toutes les minutes)*__
+__ * - Allgemein (jede Minute wechseln) * __
 
-    - Nombre de micro-onduleurs
-    - Nombre de batteries
-    - Etat des batteries (charging/discharging/idle)
-    - % de charge des batteries
-    - Production des batteries (en W)
-    - Production instantanée (en W)
-    - Production de la journée (en Wh)
-    - Production des 7 derniers jours (en Wh)
-    - Production depuis la mise en service (en Wh)
-    - Puissance totale instantanée (en W)
-    - Consommation de la journée (en Wh)
-    - Consommation des 7 derniers jours (en Wh)
-    - Consommation depuis la mise en service (en Wh)
-    - Puissance nette instantanée (en W)
-    - Consommation nette de la journée (en Wh)
-    - Consommation nette des 7 derniers jours (en Wh)
-    - Consommation nette depuis la mise en service (en Wh)
+    - Anzahl der Mikro-Wechselrichter
+    - Anzahl der Batterien
+    - Batteriestatus (Laden / Entladen / Leerlauf)
+    - % der Batterieladung
+    - Batterieproduktion (in W)
+    - Sofortige Produktion (in W)
+    - Produktion des Tages (in Wh)
+    - Produktion der letzten 7 Tage (in Wh)
+    - Produktion seit Inbetriebnahme (in Wh)
+    - Momentane Gesamtleistung (in W)
+    - Verbrauch des Tages (in Wh)
+    - Verbrauch der letzten 7 Tage (in Wh)
+    - Verbrauch seit Inbetriebnahme (in Wh)
+    - Momentane Nettoleistung (in W)
+    - Täglicher Nettoverbrauch (in Wh)
+    - Nettoverbrauch der letzten 7 Tage (in Wh)
+    - Nettoverbrauch seit Inbetriebnahme (in Wh)
 
-  __*- Pour chaque micro-onduleur (maj toutes les 5 minutes)*__
+  __ * - Für jeden Mikro-Wechselrichter (Schicht alle 5 Minuten) * __
 
-    - Provisionné (Oui/Non)
-    - Communication (Oui/Non)
-    - Production (Oui/Non)
-    - Puissance (en W)
-    - Puissance Max (en W)
+    - Vorausgesetzt (Ja / Nein)
+    - Kommunikation (Ja / Nein)
+    - Produktion (Ja / Nein)
+    - Leistung (in W)
+    - Maximale Leistung (in W)
 
-  __*- Pour chaque batterie (maj toutes les 5 minutes)*__
+  __ * - Für jede Batterie (alle 5 Minuten wechseln) * __
 
-    - Provisionné (Oui/Non)
-    - Communication (Oui/Non)
-    - Production (Oui/Non)
-    - Puissance (en W)
-    - Puissance Max (en W)
-    - % de charge
-    - Température maximale (en °C)
+    - Vorausgesetzt (Ja / Nein)
+    - Kommunikation (Ja / Nein)
+    - Produktion (Ja / Nein)
+    - Leistung (in W)
+    - Maximale Leistung (in W)
+    - % Last
+    - Maximale Temperatur (in ° C)

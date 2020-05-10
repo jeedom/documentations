@@ -1,11 +1,11 @@
 Ce plugin permet de contrôler vos brumisateurs Alfawise.
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
 Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Alfawise est accessible à partir du menu
@@ -27,12 +27,12 @@ commandes.
 
 -   **Nom de l’équipement** : nom de votre équipement
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment
 
 -   **Identifiant du brumisateur** : c'est l'identifiant que vous retrouvez dans l'application (généralement c'est l'adresse mac du brumisateur)
 

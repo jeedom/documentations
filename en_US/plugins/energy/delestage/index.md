@@ -51,7 +51,7 @@ en mode hiérarchisé sur les autres.
 
 ![cascadocyclique](../images/cascadocyclique.png)
 
-Configuration 
+Configuration
 =============
 
 Configuration générale 
@@ -96,7 +96,7 @@ Les paramètres suivants peuvent être réglés:
 
 ![Configuration avancée](../images/configuration_avancee.png)
 
-FAQ 
+FAQ
 ===
 
 Pour l’instant seul le plugin thermostat officiel est géré par le

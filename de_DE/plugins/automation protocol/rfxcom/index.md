@@ -53,7 +53,7 @@ paramètres :
         > modèle de contrôleur.
 
     -   \_Port socket interne (modification dangereuse : permet de
-        modifier le port de communication interne du démon.
+        den internen Kommunikationsport des Dämon zu modifizieren.
 
         > **Important**
         >
@@ -105,14 +105,14 @@ commandes.
 -   **ID** : l’id de votre sonde (à ne modifier qu’en connaissance
     de cause)
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren**: auf Ihre aktiven Geräte machen
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: macht es sichtbar auf dem Armaturenbrett
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   ** ** Kategorie: Gerätekategorien (es kann gehören
     plusieurs catégories)
 
 -   **Ne pas vérifier la batterie** : indique à Jeedom de ne pas vous
@@ -155,7 +155,7 @@ commandes.
 
 -   **Onglet Commandes** :
 
--   le nom affiché sur le dashboard
+-   Der Name, der auf dem Armaturenbrett angezeigt wird
 
 -   le type et le sous-type
 
@@ -177,7 +177,7 @@ commandes.
     mouvement (et s’il n’y a en pas eu de nouvelles depuis) Jeedom
     remette la valeur de l’information à 0 (plus de mouvement détecté)
 
--   historiser : permet d’historiser la donnée
+-   Chronik : erlaubt das Archivieren der Daten
 
 -   afficher : permet d’afficher la donnée sur le dashboard
 
@@ -188,11 +188,11 @@ commandes.
 
 -   min/max : bornes de la donnée (peuvent être vides)
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
 -   supprimer (signe -) : permet de supprimer la commande
 

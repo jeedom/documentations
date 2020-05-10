@@ -1,7 +1,3 @@
-02-04-2020
-
-Amélioration du profil MAS Ventilairsec
-
 21-01-2020
 
 Code pour pouvoir gérer des futures trames de type MSC

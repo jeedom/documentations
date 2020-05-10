@@ -26,9 +26,9 @@ Vous retrouvez dans le premier onglet toute la configuration de votre équipemen
 - Visible : rend votre équipement visible sur le dashboard.
 
 
-## Configuration
+## Configuración
 
-### Configuration
+### Configuración
 
 - Vérification : fréquence de verification des conditions et position des volets
 - Reprendre la main : interdit au systeme de gestion de volet de modifier la position de celui-ci si il a été bougé manuellement. Exemple le systeme ferme le volet, vous l'ouvrez il n'y touchera plus jusqu'a ce que la commande "Reprendre gestion" soit déclenchée ou si le délai de reprise de main est passé

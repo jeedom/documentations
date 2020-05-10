@@ -1,7 +1,7 @@
 SqueezeBox Control 
 ==================
 
-Description 
+Description
 -----------
 
 Ce plugin permet de contrôler tout votre environnement SqueezeBox
@@ -18,7 +18,7 @@ synchroniser, les faire parler etc…​.
 
  \
 
-Configuration 
+Configuration
 -------------
 
  \

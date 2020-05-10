@@ -1,14 +1,11 @@
-# 23/10/2019
-
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 - Supression forcé des " lors d'un calcul sur une commande
-- Correction de bug de calcul si le résultat à pour valeur"Faux"
 
 # 10/09/2019
 
 - Correction de l'arrondit forcé sur 2 chiffres sur les commandes numérique
 - Ajout d'un systeme de template pour créer des équipements rapidement
-- Correction de bugs
+- Fehlerbehebungen
 
 # 26/04/2019
 
@@ -20,19 +17,19 @@
 
 # 18/03/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 - Ajout d'une securité en cas de boucle infini
 
 # 13/03/2019
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 22/01/2019
 
--   Correction de bugs
+-   Fehlerbehebungen
 
 # 21/01/2019
 
 -   Correction d'un bug sur les valeurs déclenchant une mise à jour d'une commande info
--		Correction de l'erreur lors de la copie d'un équipement si la commande Rafraichir existe.
+-       Correction de l'erreur lors de la copie d'un équipement si la commande Rafraichir existe.
 -   Ajout du testeur d'expressions

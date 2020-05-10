@@ -1,4 +1,4 @@
-# Description
+# Beschreibung
 
 Ce plugin permet de simuler facilement une présence dans la maison quand on est absent de manière crédible (heure et durée aléatoire des évènements)
 

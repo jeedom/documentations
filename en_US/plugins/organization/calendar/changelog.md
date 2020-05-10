@@ -1,45 +1,41 @@
-# 20/03/2020
+# 11/15/2019
 
-- Correction de bug en espagnol
-
-# 15/11/2019
-
-- Correction de bugs
+- Bugfix
 
 # 23/10/2019
 
 - Amélioration du widget
 
-# 14/10/2019
+# 10/14/2019
 
 - Amélioration de l'interface
 
 # 03/06/2019
 
-- Correction de bugs
+- Bugfix
 
 # 13/05/2019
 
-- Correction de bugs
+- Bugfix
 
 # 09/05/2019
 
-- Correction de bugs
+- Bugfix
 
 # 28/04/2019
 
-- Correction de bugs
+- Bugfix
 
 # 08/04/2019
 
-- Correction de bugs
+- Bugfix
 - Amélioration de l'interface
 
 # 18/03/2019
 
 - Lors de la supression d'un évènement les actions de fin ne sont plus éxecutées
 - Amélioration de l'interface
-- Correction de bugs
+- Bugfix
 
 # 08/01/2018
 

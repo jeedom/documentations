@@ -1,94 +1,90 @@
-# 07/04/2020
+# 21.12.2019
 
-- Correction de bugs
+- Hinzufügung einer Option für die Heißzyklusschwelle, um die Berücksichtigung der Trägheit zu ermöglichen
 
-# 21/12/2019
+# 17.12.2019
 
-- Ajout d'option pour le seuil de cycle chaud afin de permetre la prise en compte de l'inertie
+- Anzeigeprobleme behoben
+- Hinzufügen einer Option "Zyklusschwelle oder Erwärmung wird als heiß angesehen"
 
-# 17/12/2019
+# 16.12.2019
 
-- Correction d'un soucis d'affichage
-- Ajout d'une option "Seuil de cycle ou le chauffage est considéré comme chaud"
+- Fehlerkorrektur im Thermostat-Aus-Modus
+- Hinzufügen einer Option zur Begrenzung der Dauer eines zweiten Zyklus auf 100% der Zeit (ermöglicht die Berücksichtigung der Tatsache, dass die Heizkörper bereits heiß sind)
 
-# 16/12/2019
+# 2019.03.11
 
-- Correction de bug sur le mode off du thermostat
-- Ajout d'une option pour limiter la durée d'un second cycle à 100% du temps (permet de prendre en compte le faite que les radiateurs sont déjà chaud)
+- Korrektur eines Fehlers in den Orphan-Befehlen
 
-# 03/11/2019
+# 23.10.2019
 
-- Correction d'un bug sur les commandes orpheline
+- Korrektur eines Fehlers im Off
 
-# 23/10/2019
+# 23.10.2019
 
-- Correction d'un bug sur le off
+- Fehlerbehebungen
 
-# 23/10/2019
+# 10/06/2019
 
-- Correction de bugs
+- Aktualisierung der FAQ zu den Bedenken, dass Aktionen / Modi nicht angezeigt werden
 
-# 06/10/2019
+# 10/01/2019
 
-- Mise à jour de la FAQ sur les soucis de non affichage des actions/modes
+- Fehlerbehebungen
 
-# 01/10/2019
+# 15.08.2019
 
-- Correction de bugs
+- Aktualisieren des Dokuments
+- Unterstützung für PHP 7.3
 
-# 15/08/2019
+# 07/02/2019
 
-- Mise à jour de la doc
-- Support de php 7.3
+- Fehlerbehebungen
 
-# 02/07/2019
+# 30.04.2019
 
-- Correction de bugs
+- Verbesserte Oberfläche
 
-# 30/04/2019
+# 29.04.2019
 
-- Amélioration de l'interface
+- Hinzufügen einer Option "Begrenzt unaufhörliche Ein- / Ausschaltzyklen (Pellet, Gas, Heizöl) und PID". Vielen Dank, dass Sie @Pierrick
 
-# 29/04/2019
+# 2019.03.11
 
-- Ajout d'une option "Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID". Merci @Pierrick
+- Möglichkeit, eine Warnmeldung hinzuzufügen, wenn der Thermostat länger als XX Minuten angehalten wurde
+- Hinzufügen eines Sollwertdeltas im Zeitmodus
+- Fehlerbehebungen
 
-# 11/03/2019
+# 01/04/2019
 
-- Possibilité d'ajouter un message d'alerte si le thermostat est suspendu depuis plus de XX minutes
-- Ajout en mode temporel d'un delta de consigne
-- Correction de bugs
+- Behebung eines Fehlers beim Smart Start, wenn der Kalender nach der Planung deaktiviert wird
 
-# 04/01/2019
+# 28.12.2008
 
-- Correction d'un bug sur le smart start si l'agenda est désactivé après la planification
+- Fehlerkorrektur auf dem mobilen Panel
 
-# 28/12/2018
+# 27.11.2008
 
-- Correction de bug sur le panel mobile
+- Fehlerbehebung
 
-# 27/11/2018
+# 20.11.2008
 
-- Correction de bug
+- Hinzufügen einer Leistungsberechnung (kWh / DJU), wenn dem Plugin ein Verbrauchsbefehl gegeben wird
+- Behebung eines Fehlers bei der Verwaltung von Temperatursensor-Fehlerwarnungen
+- Hinzufügen eines Feldes zur Feuchtigkeitskontrolle (nur nützlich für das Google Smarthome-Plugin)
 
-# 20/11/2018
+# 07/01/2018
 
-- Ajout d'un calcul de performance (kWh/DJU) si une commande de consommation est donnée au plugin
-- Correction d'un bug sur la gestion des alertes de défaillance des sondes de température
-- Ajout d'un champs pour une commande d'humidité (utile uniquement pour le plugin Google Smarthome)
-
-# 01/07/2018
-
-- Correction d'un bug sur la suspension du thermostat lors de l'ouverture d'une fenetre
+- Korrektur eines Fehlers an der Aufhängung des Thermostats beim Öffnen eines Fensters
 
 # 06/06/2018
 
-- Correction de bug
+- Fehlerbehebung
 
-# 23/02/2018
+# 23.02.2008
 
-- Correction d'un warning dans le code
+- Korrektur einer Warnung im Code
 
-# 29/01/2018
+# 29.01.2008
 
-- Correction de bug sur les ouvertures/fermetures de fênetres
+- Fehlerkorrektur beim Öffnen / Schließen von Fenstern

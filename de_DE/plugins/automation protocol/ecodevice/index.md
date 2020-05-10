@@ -40,7 +40,7 @@ Puis cliquer sur le bouton en haut à gauche "'''Ajouter un
 
 Puis saisir le nom de l’équipement (ex. Ecodevice 1).
 
-Puis définir :
+Dann definieren Sie :
 
 -   '''Objet parent'''
 
@@ -79,7 +79,7 @@ Installation/Paramétrage
 
 Ce plugin ne nécessite aucun pre-requis d’installation.
 
-FAQ 
+FAQ
 ===
 
 Il faut dans le menu gauche cliquer sur l’icône suivant pour y avoir
@@ -120,7 +120,7 @@ Oui, il n’a pas été rédigé par mes soins, mais a le mérite d’exister.
 Merci au rédacteur.
 <http://blog.domadoo.fr/guides/jeedom-guide-dutilisation-plugin-ecodevice/>
 
-Changelog 
+Changelog
 =========
 
 > **Warning**

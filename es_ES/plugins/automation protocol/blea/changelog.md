@@ -1,6 +1,3 @@
-# 30/08/2019
-- Rajout d'une gestion d'exception
-
 # 22/08/2019
 - Rajout du Divoom Tivoo
 - Améliorations mineures

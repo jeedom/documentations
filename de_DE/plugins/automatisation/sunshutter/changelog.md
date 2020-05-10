@@ -1,18 +1,14 @@
-# 09/10/2019
-
-- Correction de bugs
-
 # 30/08/2019
 
-- Correction de bugs
+- Fehlerbehebungen
 
 # 26/08/2019
 
-- Correction de bugs
-- Mise à jour de la doc
+- Fehlerbehebungen
+- Aktualisierung des Dokuments
 - Correction de l'affichage des checkbox
 
 # 12/08/2019
 
-- Correction de bugs
-- Mise à jour de la doc
+- Fehlerbehebungen
+- Aktualisierung des Dokuments

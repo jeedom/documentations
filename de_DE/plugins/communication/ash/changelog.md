@@ -1,97 +1,97 @@
-# 30/04/2020
+# 30.04.2020
 
-- Correction d'un soucis sur la commande descente des volets
+- Behebung eines Problems mit der Verschlussabstiegssteuerung
 
-# 28/04/2020
+# 28.04.2020
 
-- Correction d'un soucis sur l'allumage des lampes
-- Amélioration du support des volets
-- Amélioration de l'interface
-- Support des équipements de type mode
+- Ein Problem mit dem Anzünden der Lampen wurde behoben
+- Verbesserte Verschlussunterstützung
+- Verbesserte Oberfläche
+- Unterstützung für Modeausrüstung
 
-# 23/01/2020
+# 23.01.2020
 
-- Correction de soucis sur la decouverte d'équipements
+- Korrektur von Bedenken hinsichtlich der Entdeckung von Geräten
 
-# 20/01/2020
+# 20.01.2020
 
-- Préparation du support de la synchronisation sans cache
+- Vorbereiten der Synchronisierungsunterstützung ohne Cache
 
-# 30/12/2019
+# 2019.12.30
 
-- Correction d'un bug sur les thermostats
+- Korrektur eines Fehlers an Thermostaten
 
-# 13/12/2019
+# 13.12.2019
 
-- Correction d'un soucis d'icone
+- Korrektur eines Symbolproblems
 
-# 11/12/2019
+# 12/11/2019
 
-- Mise à jour de la documentation
+- Aktualisierung der Dokumentation
 
-# 02/12/2019
+# 12/02/2019
 
-- Corretion de bug sur la geestion de multiple générique type de type etat
+- Fehlerkorrektur bei der Verwaltung mehrerer generischer Typstatusarten
 
-# 15/10/2019
+# 15.10.2019
 
-- Envoi automatique des informations au market lors de l'installation du plugin
+- Automatisches Senden von Informationen an den Markt bei der Installation des Plugins
 
-# 23/06/2019
+# 23.06.2019
 
-- Mise à jour de la doc
-- Amélioration du support des volets
-- Possibilité d'inverser le sens des volets
+- Aktualisieren des Dokuments
+- Verbesserte Verschlussunterstützung
+- Möglichkeit, die Richtung der Klappen umzukehren
 
-# 05/06/2019
+# 06/05/2019
 
-- Correction de bug
-- Possibilité d'avoir les informations sur les type générique necessaire lors du click sur le label NOK
+- Fehlerbehebung
+- Möglichkeit, Informationen über den generischen Typ zu erhalten, die beim Klicken auf das NOK-Etikett erforderlich sind
 
-# 03/06/2019
+# 06/03/2019
 
-- Mise à jour de la doc
-- Ajout de d'information et d'un lien vers le service Assistant Vocaux
+- Aktualisieren des Dokuments
+- Hinzufügen von Informationen und eines Links zum Voice Assistant-Dienst
 
-# 31/05/2019
+# 31.05.2019
 
-- Support des volets
-- Support des capteurs (mouvement,contact, température)
-- Correction de bugs
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Verschlussunterstützung
+- Sensorunterstützung (Bewegung, Kontakt, Temperatur)
+- Fehlerbehebungen
+- Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
-# 24/04/2019
+# 24.04.2019
 
-- Nouvelle methode de synchronisation des péripheriques
+- Neue Gerätesynchronisationsmethode
 
-# 02/11/2018
+# 11/02/2018
 
-- Mise à jour de la doc
+- Aktualisieren des Dokuments
 
-# 25/10/2018
+# 25.10.2008
 
-- Correction d'un bug sur les volets
-- Mise à jour de la doc
+- Korrektur eines Fehlers in den Scheiben
+- Aktualisieren des Dokuments
 
 # 10/10/2018
 
-- Mise à jour de la doc
+- Aktualisieren des Dokuments
 
-# 09/10/2018
+# 10/09/2018
 
-- Correction de nombreux bug sur les retours d'état (lumière, prise, température, thermostat...)
+- Korrektur vieler Fehler bei Statusrückgaben (Licht, Steckdose, Temperatur, Thermostat ...)
 
-# 08/10/2018
+# 10/08/2018
 
-- Correction de bug sur les prises, volets...
+- Fehlerkorrektur an Steckdosen, Fensterläden...
 
-# 05/10/2018
+# 10/05/2018
 
-- Amélioration de la gestion des noms des équipements
-- Possibilité de mettre un pseudo à un équipement
-- Correction d'un bug indiquant un soucis de serveur
+- Verbesserte Verwaltung von Gerätenamen
+- Möglichkeit, ein Gerät zu klauen
+- Korrektur eines Fehlers, der auf ein Serverproblem hinweist
 
-# 04/10/2018
+# 10/04/2018
 
-- Correction d'un bug lors de l'envoi de la configuration
-- Correction d'un bug lors de la demande de la température
+- Behebung eines Fehlers beim Senden der Konfiguration
+- Korrektur eines Fehlers während der Temperaturanforderung

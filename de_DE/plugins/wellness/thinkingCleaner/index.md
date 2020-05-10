@@ -1,7 +1,7 @@
 ThinkingCleaner 
 ===============
 
-Description 
+Beschreibung 
 -----------
 
 Plugin permettant de controller les aspirateurs Roomba à l’aide du
@@ -11,7 +11,7 @@ module Thinking Cleaner. Les fonctions disponibles sont : - Clean - Spot
 ![thinkingCleaner
 screenshot1](../images/thinkingCleaner_screenshot1.png)
 
-Configuration 
+Konfiguration
 -------------
 
 Une fois le plugin installé, il vous suffit de sauvegarder le plugin
@@ -38,7 +38,7 @@ FAQ
 
 Le systeme recupère les informations toutes les 5 minutes.
 
-Changelog 
+Änderungsprotokoll
 ---------
 
 -   V0.1 : Première release

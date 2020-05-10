@@ -1,46 +1,51 @@
-Ce plugin permet d’envoyer un évènement à IFTTT
+This plugin allows to send an event to IFTTT
 
-Configuration du plugin 
-=======================
+== Plugin configuration
 
-Après téléchargement du plugin il vous faut l’activer, celui-ci ne
-nécessite aucune autre configuration.
+After downloading the plugin you have to activate it, this one does not
+requires no other configuration.
 
 ![ifttt7](../images/ifttt7.PNG)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
-La configuration des équipements IFTTT est accessible à partir du menu
-plugins :
+IFTTT device configuration is accessible from the menu
+plugins:
 
 ![ifttt8](../images/ifttt8.PNG)
 
-Voilà à quoi ressemble la page du plugin IFTTT (ici avec déjà 1
-équipement) :
+That's what the IFTTT plugin page looks like (here with already 1
+device) :
 
 ![ifttt9](../images/ifttt9.PNG)
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+> **Tip**
+>
+> As in many places in Jeedom, moving the mouse towards the far left opens a quick options menu (you can have it always visible by setting your profile's options).
+>
+>
+
+Once you click on one of them, you get:
 
 ![ifttt10](../images/ifttt10.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
--   **Nom de l’équipement** : nom de votre équipement IFTTT
+-   **Device name**: name of your IFTTT device
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
--   **Clef** : clef IFTTT que vous trouverez dans la configuration du
-    service Webhooks (qui remplace channel maker)
+-   **Key**: IFTTT key that you will find in the configuration of the
+    Webhooks service (which replaces channel maker)
 
-En dessous vous retrouvez la configuration des commandes :
+Below you find the command configuration:
 
--   **Nom** : nom de la commande
+-   **Name**: name of the command
 
--   **Sous-type** : sous-type de l’équipement
+-   **Subtype**: device subtype
 
 -   **Evènement** : nom de l’èvenement configuré dans IFTTT
 
@@ -52,7 +57,7 @@ En dessous vous retrouvez la configuration des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
 -   supprimer (signe -) : permet de supprimer la commande
 
@@ -103,15 +108,15 @@ Puis cliquez sur "New applet" :
 
 ![ifttt13](../images/ifttt13.PNG)
 
-Cliquez sur le "this" :
+Click on the "this":
 
 ![ifttt14](../images/ifttt14.png)
 
-Puis cherchez "Webhooks" et cliquez dessus :
+Then search for "Webhooks" and click on it:
 
 ![ifttt15](../images/ifttt15.png)
 
-Cliquez sur "Receive a web request"
+Click on "Receive a web request"
 
 ![ifttt16](../images/ifttt16.png)
 
@@ -121,7 +126,7 @@ mémoriser, puis validez :
 
 ![ifttt17](../images/ifttt17.png)
 
-Cliquez ensuite sur le that :
+Then click on that:
 
 ![ifttt18](../images/ifttt18.png)
 
@@ -192,32 +197,32 @@ chose à faire, créer une nouvelle applet :
 
 ![ifttt25](../images/ifttt25.png)
 
-Cliquez ensuite sur le "this" :
+Then click on "this":
 
 ![ifttt26](../images/ifttt26.png)
 
-Sélectionnez "Location" :
+Select "Location":
 
 ![ifttt27](../images/ifttt27.png)
 
-Choisissez votre déclencheur (ici je vais prendre quand on rentre dans
-une zone) :
+Choose your trigger (here I'm going to take when we enter in
+a zone) :
 
 ![ifttt28](../images/ifttt28.png)
 
-Marquez votre zone puis faites "Create Trigger" :
+Mark your zone then do "Create Trigger":
 
 ![ifttt29](../images/ifttt29.png)
 
-Cliquez sur "that" :
+Click on "that":
 
 ![ifttt30](../images/ifttt30.png)
 
-Cherchez "Webhooks" et cliquez dessus :
+Search for "Webhooks" and click on it:
 
 ![ifttt31](../images/ifttt31.png)
 
-Cliquez sur "Make a web request" :
+Click on "Make a web request":
 
 ![ifttt32](../images/ifttt32.png)
 
@@ -267,7 +272,3 @@ voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
 >
 > Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne
 > sera pas prévenu lors de votre sortie de la zone
-
-> **NOTE**
->
-> Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https://ifttt.com/maker_webhooks) puis cliquer sur documentation

@@ -1,6 +1,6 @@
 Plugin permettant de récupérer les informations des équipements Netatmo Security
 
-# Configuration du plugin
+# Plugin configuration
 
 Une fois le plugin installé, il vous faut renseigner vos informations de
 connexion Netatmo :
@@ -50,7 +50,7 @@ précedent)
 
 ![netatmoWelcome15](../images/netatmoWelcome15.png)
 
-# Configuration des équipements
+# Device configuration
 
 La configuration des équipements Netatmo est accessible à partir du menu
 plugin -> Securité -> Netatmo Security
@@ -59,8 +59,8 @@ Une fois que vous cliquez sur un équipement vous retrouvez ici toute la configu
 
 -   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
 -   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   **Enable**: makes your equipment active
+-   **Visible**: makes it visible on the dashboard
 
 En dessous vous retrouvez la liste des commandes :
 
@@ -68,7 +68,7 @@ En dessous vous retrouvez la liste des commandes :
 -   historiser : permet d’historiser la donnée
 -   configuration avancée (petites roues crantées) : permet d’afficher
     la configuration avancée de la commande (méthode d’historisation, widget…​)
--   Tester : permet de tester la commande
+-   Test: test the command
 
 # FAQ
 

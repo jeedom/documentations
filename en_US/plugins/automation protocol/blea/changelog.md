@@ -1,6 +1,3 @@
-# 30/08/2019
-- Rajout d'une gestion d'exception
-
 # 22/08/2019
 - Rajout du Divoom Tivoo
 - Améliorations mineures
@@ -64,8 +61,8 @@
 
 # 09/03/2019
 
-- Ajout de la gestion automatique du daemon sur les antennes.
-- Gestion temp négative
+- Added automatic daemon management on antennas.
+- Negative temp management
 - Correction sur le rafraichissement des nuts (info batterie)
 
 # 16/01/2019
@@ -79,7 +76,7 @@
 
 # 06/04/2018
 
-- Correction probable d'un bug de refresh notification sur Hygrothermographe et Miflora (necessite probablement une relance des dépendances pour les gens impactés)
+- Fix a refresh notification bug on Hygrothermograph and Miflora (probably needs relaunching of dependencies for impacted people)
 
 # 28/03/2018
 
@@ -90,7 +87,7 @@
 
 # 10/02/2018
 
-- Correction d'un bug sur la modal de graph réseau si jamais un équipement n'avait pas d'objet
+- Fixed a bug on the network graph modal if a device had no object
 
 # 01/03/2018
 

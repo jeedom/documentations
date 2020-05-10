@@ -2,7 +2,7 @@
 
 Ce plugin permet d'intercepter certaine demandes de TTS (passant par le TTS jeedom et uniquement celui-ci) et de le remplacer par le son de votre choix.
 
-# Configuration
+# Configuración
 
 Ce plugin ne necessite aucune configuration particuliere
 

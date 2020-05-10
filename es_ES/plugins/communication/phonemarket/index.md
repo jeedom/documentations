@@ -8,8 +8,8 @@ messages automatiques à partir de Jeedom.
 
 > **Tip**
 >
-> Le plugin marche sur un système de crédit, 1 SMS  = 1 crédit pour la France sinon 2 crédits, 1 appel =
-> 2 crédits pour la France sinon 4 crédits. Vous pouvez consulter votre crédit
+> Le plugin marche sur un système de crédit, 1 SMS = 1 crédit, 1 appel =
+> 2 crédits. Vous pouvez consulter votre crédit
 > [ici](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En cas
 > de crédits faibles (moins de 5), un mail vous sera envoyé.
 
@@ -17,15 +17,15 @@ messages automatiques à partir de Jeedom.
 >
 > Les SMS sont limités à 140 caractères et les appels à 450 caractères.
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el plugin, sólo hay que activarlo,
+no hay ninguna configuración a este nivel.
 
 ![phonemarket1](../images/phonemarket1.PNG)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements Phonemarket est accessible à partir du
@@ -48,15 +48,15 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![phonemarket4](../images/phonemarket4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Phonemarket** : nom de votre équipement
     Phonemarket,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Objeto padre** : especifica el objeto padre al que pertenece
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
 -   **Visible** : rend votre équipement visible sur le dashboard.
 

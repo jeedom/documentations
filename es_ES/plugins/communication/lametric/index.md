@@ -1,7 +1,7 @@
 Plugin permettant d’afficher des notifications / informations sur
 LaMetric.
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Une fois le plugin installé, il est nécessaire de créer une "indicator

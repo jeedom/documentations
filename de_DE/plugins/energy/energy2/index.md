@@ -8,7 +8,7 @@ Il vous donne aussi la tendance et les variations par rapport à la periode pré
 > N'oubliez pas d'activer le panel (desktop et mobile) du plugin dans la configuration de celui-ci
 
 
-# Configuration
+# Konfiguration
 
 La configuration du plugin est très simple il vous demandera juste la surface habitable (chauffé) de votre logement (pour le calcul de DPE)
 

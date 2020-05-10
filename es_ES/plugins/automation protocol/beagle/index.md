@@ -1,11 +1,12 @@
-Odace SFSP
+Open Enocean 
 ============
 
 Description 
 -----------
 
-Ce plugin est un plugin permettant une compatibilité avec la gamme Odace Sans Fil Sans Pile de Schneider.
+Ce plugin est un plugin permettant une compatibilité Enocean
 
+![openenocean icon](../images/openenocean_icon.png)
 
 Configuration 
 -------------
@@ -22,8 +23,20 @@ a.  Installation/Création
 
 > **Important**
 >
-> La chose la plus importante sur la page de configuration du plugin est de sélectionner votre Contrôleur Bluetooth
-> Il est très important d'utiliser un dongle bluetooth dédié pour ce plugin pour un bon fonctionnement de celui-ci.
+> La chose la plus importante ici est de sélectionner votre Contrôlleur
+> USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
+> USB300). Pour tout autre modèle il est préférable de le choisir dans
+> la liste :
+
+-   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
+
+-   USB310 : FTDI FT232R\_USB\_UART
+
+-   Jeedom Smart : ttyS1
+
+L’autre option disponible sur cette page est : **Supprimer
+automatiquement les périphériques exclus**. Celle-ci permet de supprimer
+les équipements de Jeedom lorsqu’il sont exclus.
 
 Vous pouvez aussi vérifier l’état des dépendances et les relancer. En
 cas de soucis avec le plugin toujours relancer les dépendances même si
@@ -36,19 +49,23 @@ Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
 
 Sur cette page vous pourrez voir les modules déjà inclus.
 
-Sur la partie haute de cette page vous avez plusieurs boutons
+Sur la partie haute de cette page vous avez plusieurs boutons (visibles
+selon que vous êtes en mode expert ou non)
 
--   Bouton Lancer Scan : Permet d'intégrer un nouveau device. Bien mettre le device en question en appairage, conformément à la documentation de celui-ci.
+-   Bouton ajouter : Permet d’ajouter certains modules qui n’ont pas de
+    notions d’appairage ou qui nécessitent un envoi de commandes depuis
+    Jeedom
 
--   Bouton Configuration : Permet de se rendre directement sur la page configuration du plugin
+-   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
+    (plusieurs modes, seul le premier est disponible pour le moment)
+
+-   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
+
+-   Bouton Configuation : Ce bouton permet d’ouvrir la fenêtre de
+    configuration du plugin
 
 -   Bouton Santé : Ce bouton permet d’avoir un aperçu Santé de tous vos
     modules
-
-
--   Bouton Scènes : Permet d'interroger les devices pour connaître les scènes qu'ils disposent
-
--   Bouton Groupes : Permet d'interroger les devices pour connaître les groupes qu'ils disposent
 
 Equipement 
 ==========
@@ -65,12 +82,37 @@ sur la partie gauche:
 
 -   Lui attribuer une catégorie
 
+-   Definir un delai de surveillance de communication pour certains
+    modules
+
+-   Mettre un commentaire
+
 Sur la partie droite vous trouverez :
 
--   Un visuel du module. Pour les interrupteurs le visuel est le même peut importe son type
+-   Le profil de l’équipement (généralement auto détecté si le module
+    le permet)
 
--   Des infos spécifiques comme la version du firmware, le modèle, l'identifiant unique du module, son adresse mac
+-   Choisir un modèle si pour ce profil plusieurs modèles sont
+    disponibles
 
--   Dans le cas d'un actionneur vous trouverez aussi une information de "Pairage", si après inclusion celle-ci n'est pas sur "Pairé" vous pourrez retenter l'appairage en cliquant sur le bouton orange "trame pairing"
-"en ayant pris soin de mettre le module en appairage"
+-   Voir le visuel
 
+Equipement avec configuration 
+=============================
+
+Pour certains modules il est possible d’avoir un bouton configurer, en
+cliquant dessus vous arriverez sur une page permettant de configurer
+celui-ci
+
+> **Important**
+>
+> Ici il vous suffit de choisir toutes les options et de cliquer sur
+> appliquer. (Attention : il tous les paramètres sont envoyés, donc
+> validez bien l’ensemble)
+
+Liste de compatibilité 
+======================
+
+Vous trouverez sur le site de documentation jeedom une liste de
+compatibilité de modules avec leur procédure d’inclusion si elles sont
+spécifiques.

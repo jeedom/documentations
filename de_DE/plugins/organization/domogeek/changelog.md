@@ -1,3 +1,3 @@
-# 31/05/2018
+# 2018.05.31
 
-- Modification du systeme de synchronisation avec Domogeek pour lisser les demandes
+- Änderung des Synchronisationssystems mit Domogeek zur Glättung von Anfragen

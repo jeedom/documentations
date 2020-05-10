@@ -1,15 +1,15 @@
 Ce plugin permet de mettre à jour un service de DNS dynamique
 (dyndns,noip,duckdns,…​)
 
-Configuration du plugin 
+Plugin configuration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just have to activate it,
+there is no configuration at this level.
 
 ![dyndns](../images/dyndns.PNG)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Dyndns est accessible à partir du menu
@@ -28,24 +28,24 @@ Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez, à
 > partir de votre profil, le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![dyndns4](../images/dyndns4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+You can find here the full configuration of your device :
 
 -   **Nom de l’équipement Ambilight** : nom de votre équipement
     Ambilight,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Parent Object**: Specifies the parent object to which belongs
+    equipment,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
+-   **Category**: categories of equipment (it may belong to
     plusieurs catégories),
 
--   **Activer** : permet de rendre votre équipement actif,
+-   **Enable**: to make your equipment active,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Visible**: makes your equipment visible on the dashboard,
 
 -   **Service** : Le nom du service utilisé (dyndns.org, noip.com)
 
@@ -57,13 +57,13 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
 -   **Token** : token utilisé pour duckdns
 
-En-dessous vous retrouvez la liste des commandes :
+Below you will find the list of commands:
 
 -   **Nom** : le nom affiché sur le dashboard,
 
 -   **Afficher** : permet d’afficher la donnée sur le dashboard,
 
--   **Tester** : permet de tester la commande
+-   **Test**: allows to test the command
 
 > **Note**
 >

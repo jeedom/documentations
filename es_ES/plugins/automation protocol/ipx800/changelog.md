@@ -1,60 +1,56 @@
-# 2020-04-12
+# 12/27/2019
 
-- Correction de bug avec jeedom v4
+- Corrección de errores en el atributo xmlstatus
 
-# 27/12/2019
+# 10/11/2018
 
-- Correciton de bug sur l'attribut xmlstatus
-
-# 11/10/2018
-
-- Correction de bugs sur Jeedom V4
+- Corrección de errores en Jeedom V4
 
 # 16/10/2018
 
-- Correction de bug sur le push
+- Corrección de errores
 
-# Anciennes évolutions
+# Desarrollos antiguos
 
--   Ajout de configuration push pour entrée analogique
--   Ajout d’une Clef API specifique au plugin
--   Modification pour compatibilité Jeedom V3
--   Plus de suivi de version
--   Correction du nombre d’entrée pour l’extention X800-2
--   Prise en compte des sondes CT100A et ORP Probe.
--   Continue la collecte lorsque une IPX est HS.
--   Trappe certains messages d’erreur.
--   Ajout du type LIGHT\_TOGGL pour les relais.
--   Définition template des relais boutons.
--   Modification être compatible avec le plugin mobile.
--   Mise a jour des entrées analogiques, même si la valeur ne change pas
-    pour les graphiques.
--   Compatibilité Jeedom 2.0.
--   Modification de cron pour plus d’autonomie.
--   Modification de l’extension du logo.
--   Compatibilité Imperihome.
--   Retrait de la suppression des équipements lors de la désactivation
-    du plugin.
--   Correction par rapport au nouveau core.
--   Correction des formules pour les pinces ampèremetriques.
--   Message de debug pour les receptions de push.
--   Prise en compte du port pour jeedom et de l’IP sans qu’il soit
-    nécessaire que ce soit renseigné au niveau globale.
--   Correction des fréquences d’impulsion par minute.
--   Message de debug pour les calculs d’impulsion/minute.
--   Supression de l’info `updatetime`.
--   Ajout des pinces 50A.
--   Ajout de Correction automatique par rapport au seuil Min et Max.
--   Ajout de lien vers les options d’affichage.
--   Correction de double cron.
--   Prise en charge des compteurs indépendament des boutons.
--   Ajout du nombre d’impulsions par minute.
--   Ajout d’une information status.
--   Redéclenchement jusqu’à 3 fois en cas d’indispo de l’IPX.
--   Prise en compte des extensions x800 et x400.
--   Correction pour la réception des push pour les entrées numériques.
--   Prise en compte des unitées pour les entrées analogiques.
--   Correction de la cron pour ne prendre que les changements d’état.
--   Possibilité de configurer le push que sur certaines entrées.
--   Ajout des formules pour les entrée analogiques.
+-   Adición de configuración push para entrada analógica
+-   Adición de una clave API específica al complemento
+-   Modificación para compatibilidad con Jeedom V3
+-   No más seguimiento de versiones
+-   Corrección del número de entradas para la extensión X800-2
+-   Teniendo en cuenta las sondas CT100A y ORP Probe.
+-   Continuar la recolección cuando un IPX es HS.
+-   Atrapa ciertos mensajes de error.
+-   Adición del tipo LIGHT \ _TOGGL para relés.
+-   Definición de plantilla de relé de botón.
+-   Modificación para ser compatible con el complemento móvil.
+-   Actualización de entradas analógicas, incluso si el valor no cambia
+    para gráficos.
+-   Compatibilidad con Jeedom 2.0.
+-   Modificación de Cron para mayor autonomía..
+-   Modificación de la extensión del logo..
+-   Compatibilidad Imperihome.
+-   Retiro del retiro del equipo durante la desactivación
+    plugin.
+-   Corrección en comparación con el nuevo núcleo.
+-   Corrección de fórmulas para pinzas actuales.
+-   Mensaje de depuración para recepciones push.
+-   Teniendo en cuenta el puerto para la libertad y la IP sin que sea
+    requerido para ser completado globalmente.
+-   Corrección de frecuencias de pulso por minuto..
+-   Mensaje de depuración para cálculos de pulso / minuto.
+-   Supression de l'info `updatetime`.
+-   Adición de abrazaderas 50A.
+-   Adición de corrección automática con respecto al umbral mínimo y máximo.
+-   Agregar enlace para mostrar opciones.
+-   Corrección cron doble.
+-   Soporte para contadores independientemente de los botones.
+-   Suma del número de pulsos por minuto..
+-   Agregar información de estado.
+-   Vuelva a disparar hasta 3 veces en caso de falta de disponibilidad de IPX.
+-   Teniendo en cuenta las extensiones x800 y x400.
+-   Corrección por recibir impulsos para entradas digitales.
+-   Consideración de las unidades para entradas analógicas..
+-   Corregido cron para tomar solo cambios de estado.
+-   Posibilidad de configurar la inserción solo en ciertas entradas.
+-   Agregar fórmulas para entradas analógicas.
 -   Ajout `all on` et `all off`.

@@ -1,109 +1,108 @@
-Plugin permettant de controller les thermostats Netatmo
+Plugin, um Netatmo Thermostate zu steuern 
 
-Configuration du plugin 
+Plugin-Konfiguration
 =======================
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Netatmo :
+Nach der Installation des Plugin, müssen Sie Ihre Netatmo Zugangsdaten
+eingeben :
 
--   **Client ID** : votre client ID (voir partie configuration)
+-   **Kunden ID** : Ihre Kunden-ID (siehe Konfigurationsabschnitt)
 
--   **Client secret** : votre client secret (voir partie configuration)
+-   **Kunden Schlüssel** : Ihr Kunden Schlüssel (siehe Konfigurationsabschnitt)
 
--   **Nom d’utilisateur** : nom d’utilisateur de votre compte netatmo
+-   **Benutzername** : Benutzername Ihres Netatmo Kontos 
 
--   **Mot de passe** : mot de passe de votre compte Netatmo
+-   **Passwort** : Passwort Ihres Netatmo Kontos
 
--   **Utiliser le design alternatif** : permet d’utiliser un autre
-    design (voir partie widget)
+-   **Alternatives Design verwenden** : ermöglicht ein individuelles
+    Design zu benutzen (siehe Widget Teil)
 
--   **Synchroniser** : permet de synchroniser Jeedom avec votre compte
-    Netamo pour découvrir automatiquement vos équipements Netamo. A
-    faire après avoir sauvegardé les paramètres précedent.
+-   **Synchronisieren** : ermöglicht das Synchronisieren von Jeedom mit Ihrem 
+    Netamo-Konto, um Ihre Netamo-Geräte automatisch zu erkennen.
+    Erst ausführen, nachdem Sie die vorherigen Einstellungen gespeichert haben.
 
-Recupération des informations de connexion 
+Verbindungsdaten abrufen
 ==========================================
 
-Pour intégrer votre station, vous devez posséder un client\_id et un
-client\_secret généré sur le site <http://dev.netatmo.com>.
+Um Ihre Station zu integrieren, benötigen sie eine Kunden_ID und einen
+Kunden_Schlüssel, der auf der Website <http://dev.netatmo.com> erzeugt wird.
 
-Une fois dessus cliquez sur start :
+Klicken sie einmal auf Start :
 
 ![netatmoWeather10](../images/netatmoWeather10.png)
 
-Puis sur "create an app"
+Anschließend auf "create an app"
 
 ![netatmoWeather11](../images/netatmoWeather11.png)
 
-Identifiez vous, avec votre mail et mot de passe
+Melden Sie sich mit Ihrer E-Mail und Passwort an
 
 ![netatmoWeather12](../images/netatmoWeather12.png)
 
-Remplissez les champs "Name" et "Description" (peux importe ce que vous
-mettez ca n’a aucune importance) :
+Füllen Sie die Felder "Name" und "Description" aus (was Sie hineinschreiben
+spielt keine Rolle) :
 
 ![netatmoWeather13](../images/netatmoWeather13.png)
 
-Puis tout en bas de la page cochez la case "I accept the terms of use"
-puis cliquez sur "Create"
+Dann am Ende der Seite wählen Sie "I accept the terms of use" und
+klicken Sie auf "Create"
 
 ![netatmoWeather14](../images/netatmoWeather14.png)
 
-Recuperer les informations "CLient id" et "Client secret" et copier les
-dans la partie configuration du plugin dans Jeedom (voir chapitre
-précedent)
+Sie erhalten dann die Kunden_ID="Client-ID" und Kunden_Schlüssel="Secret
+Client" zurück. Kopieren Sie die diese dann im Konfigurations Teil des
+Jeedom Plugin hinein (siehe vorheriges Kapitel)
 
 ![netatmoWeather15](../images/netatmoWeather15.png)
 
-Configuration des équipements 
+Gerätekonfiguration
 =============================
 
-La configuration des équipements Netatmo est accessible à partir du menu
-plugin.
+Die Netatmo Gerätekonfiguration ist über das Menü Plugins erreichbar.
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
+> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
+> immer sichtbar einstellen).  
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
--   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
+-   **Name des Netatmo Gerätes** : Name Ihrer Netatmo Geräte 
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+-   **Eltern Objekt** : gibt das übergeordnete Objekt an, zu dem das
+    Gerät gehört
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
 
--   **Visible** : le rend visible sur le dashboard
+-   **Sichtbar** : macht es auf dem Armaturenbrett sichtbar
 
--   **Identifiant** : identifiant unique de l’équipement
+-   **Kennung** : eindeutige Kennung des Geräts
 
--   **Type** : type de votre équipement (station, sonde intérieure,
-    sonde extérieures…​)
+-   **Typ** : Ihr Geräte Typ (Station, interne Sonde,
+    externe Sonde...)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
--   le nom affiché sur le dashboard
+-   Der Name, der auf dem Armaturenbrett angezeigt wird
 
--   historiser : permet d’historiser la donnée
+-   Chronik : erlaubt das Archivieren der Daten
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
--   Tester : permet de tester la commande
+-   Test: prüft den Befehl
 
 > **Tip**
 >
-> Lors du changement de mode de widget il est conseillé de cliquer sur
-> synchroniser pour voir le resultat immédiatement
+> Wenn sie den Widget Modus ändern, ist es empfehlenswert, auf
+> Synchronisieren zu klicken, um das Ergebnis sofort zu sehen.
 
-FAQ 
+FAQ
 ===
 
-Quelle est la fréquence de rafraichissement ?
-Le systeme recupère les informations toutes les 15 min.
+Wie häufig werden Informationen aktualisiert ?
+Das System ruft alle 15 Minuten die Informationen ab.  
 
 

@@ -1,7 +1,7 @@
 Ce plugin permet de connecter les controleurs de piscine Swimo avec Jeedom.
 Le plugin permet de récupérer les valeurs des différents capteurs ainsi que contrôler les actionneurs. (changement de modes, On/Off, changement des consignes)
 
-Configuration du plugin
+Configuración del plugin
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
