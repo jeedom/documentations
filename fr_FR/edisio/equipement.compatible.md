@@ -1,3 +1,5 @@
+# Compatibilité des équipements Edisio
+
 | Nom                     | Remarque                | Lien                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module pour Luminaire     |                         | [Acheter](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
@@ -19,6 +21,4 @@
 
 > **Note**
 >
-> Cette liste est basée sur des retours utilisateurs, l’équipe Jeedom ne
-> peut donc garantir que tous les modules de cette liste sont 100%
-> fonctionels
+> Cette liste est basée sur des retours utilisateurs, l’équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels
