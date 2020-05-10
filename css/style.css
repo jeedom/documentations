@@ -109,7 +109,9 @@ body #div_content{
 button {
   cursor: pointer;
 }
-
+strong {
+  font-weight: bold !important;
+}
 
 .sidenav {
   width: 280px !important;
