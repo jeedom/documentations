@@ -2,7 +2,7 @@
 
 Mit diesem Plugin können Sie eine IPX 800 v4 verwalten
 
-## Plugin Konfiguration
+# Plugin Konfiguration
 
 Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und die Kontrollkästchen aktivieren, die Sie für Anfragen an IPX800v4 betreffen (Beispiel: Überprüfen Sie X-Dimmer, wenn Sie einen X-Dimmer haben).. Sie können auch die Häufigkeit der Anforderungen auswählen, um die Belastung von ipx800v4 zu verringern
 
@@ -18,7 +18,7 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und 
 >
 > Auf dieser Seite sehen Sie den Status des Dämons, der den IPX800 überwacht
 
-## Gerätekonfiguration
+# Gerätekonfiguration
 
 Auf die Konfiguration von IPX800-Geräten kann über das Menü zugegriffen werden
 Plugin dann Hausautomationsprotokoll :
@@ -36,9 +36,9 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies zu tun
 Abhängig von Ihrer Konfiguration werden Sie jedoch als Leitfaden dienen.
 
-## Commande
+# Commande
 
-### Action
+## Action
 
 Sie haben die Arten von Aktionen :
 
@@ -71,7 +71,7 @@ Dann haben Sie abhängig von der Art der Aktion und dem Aktuator mehrere Paramet
 - Pilotdrahtnummer und Bestellwert (0 Komfort, 1 Öko, 2 Frostfrei, 3 Aus, 4 Komfort-1, 5 Komfort-2)
 - ...
 
-### Info
+## Info
 
 Sie haben verschiedene Typen (abhängig von Ihren Erweiterungen) :
 
@@ -96,6 +96,6 @@ Sie haben verschiedene Typen (abhängig von Ihren Erweiterungen) :
 
 Für jeden Typ fragt jeedom Sie nach der Nummer der gewünschten Informationen
 
-## Template
+# Template
 
 Um Ihnen zu helfen, gibt es eine Vorlage, mit der Sie bestimmte Arten von Bestellungen gleichzeitig und schneller erstellen können.

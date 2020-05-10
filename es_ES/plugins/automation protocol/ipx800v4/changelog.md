@@ -1,7 +1,11 @@
+>**IMPORTANT**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+
 # 05/09/2020
 
 - Se agregó soporte para la extensión 0-10v
-- optimisation
+- Optimisation
 
 # 12/30/2019
 

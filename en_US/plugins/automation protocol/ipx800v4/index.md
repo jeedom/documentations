@@ -2,7 +2,7 @@
 
 This plugin allows you to manage an IPX 800 v4
 
-## Plugin configuration
+# Plugin configuration
 
 After downloading the plugin, you just need to activate it and check the boxes that concern you for requests to IPX800v4 (example check X-Dimmer if you have an X-dimmer). You can also choose the frequency of requests to lighten the load on ipx800v4
 
@@ -18,7 +18,7 @@ After downloading the plugin, you just need to activate it and check the boxes t
 >
 > You can see on this page the status of the daemon monitoring the IPX800
 
-## Equipment configuration
+# Equipment configuration
 
 The configuration of IPX800 devices is accessible from the menu
 plugin then home automation protocol :
@@ -36,9 +36,9 @@ Here you find all the configuration of your equipment :
 The default plugin does not create anything, it will be up to you to do so by
 depending on your configuration but you will be guide.
 
-## Commande
+# Commande
 
-### Action
+## Action
 
 You have the types of action :
 
@@ -71,7 +71,7 @@ Then depending on the type of action and the actuator you have several parameter
 - pilot wire number and order value (0 comfort, 1 eco, 2 frost-free, 3 off, 4 comfort-1, 5 comfort-2)
 - ...
 
-### Info
+## Info
 
 You have different types (depending on your extensions) :
 
@@ -96,6 +96,6 @@ You have different types (depending on your extensions) :
 
 For each type jeedom will ask you the number of the desired information
 
-## Template
+# Template
 
 To help you there is a template that allows you to create certain types of orders at once and faster.

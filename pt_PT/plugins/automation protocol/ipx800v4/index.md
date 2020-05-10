@@ -2,7 +2,7 @@
 
 Este plug-in permite gerenciar um IPX 800 v4
 
-## Configuração do plugin
+# Configuração do plugin
 
 Após o download do plug-in, basta ativá-lo e marcar as caixas que lhe interessam para solicitações de IPX800v4 (por exemplo, verifique o X-Dimmer se você tiver um X-dimmer). Você também pode escolher a frequência das solicitações para aliviar a carga no ipx800v4
 
@@ -18,7 +18,7 @@ Após o download do plug-in, basta ativá-lo e marcar as caixas que lhe interess
 >
 > Você pode ver nesta página o status do daemon que monitora o IPX800
 
-## Configuração do equipamento
+# Configuração do equipamento
 
 A configuração dos dispositivos IPX800 pode ser acessada no menu
 plugin, em seguida, protocolo de automação residencial :
@@ -36,9 +36,9 @@ Aqui você encontra toda a configuração do seu equipamento :
 O plug-in padrão não cria nada, você deve fazer isso até
 dependendo da sua configuração, mas você será um guia.
 
-## Commande
+# Commande
 
-### Action
+## Action
 
 Você tem os tipos de ação :
 
@@ -71,7 +71,7 @@ Então, dependendo do tipo de ação e do atuador, você tem vários parâmetros
 - número do fio piloto e valor do pedido (0 conforto, 1 eco, 2 sem gelo, 3 desligados, 4 conforto-1, 5 conforto-2)
 - ...
 
-### Info
+## Info
 
 Você tem tipos diferentes (dependendo das suas extensões) :
 
@@ -96,6 +96,6 @@ Você tem tipos diferentes (dependendo das suas extensões) :
 
 Para cada tipo, o jeedom solicitará o número da informação desejada
 
-## Template
+# Template
 
 Para ajudá-lo, existe um modelo que permite criar certos tipos de pedidos de uma só vez e mais rapidamente.

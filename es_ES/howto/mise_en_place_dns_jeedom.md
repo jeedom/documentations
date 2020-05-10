@@ -20,7 +20,7 @@ Este principio tiene la ventaja de no exponer su Jeedom en Internet, no hay aper
 
 > **IMPORTANT**
 >
-> Para que esto funcione, su caja debe permitir una conexión saliente en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001 en UDP. En particular, para el Huawei Livebox y el enrutador 4g, se debe bajar el nivel del firewall, para los Delta Freeboxes, se debe desactivar el control parental.
+> Para que esto funcione, su caja debe permitir una conexión saliente en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001 en UDP. En particular, para el Huawei Livebox y el enrutador 4g, debe reducir el nivel del firewall, para las personas gratuitas también a veces tiene que cambiar a una IP fija (de lo contrario, compartir su IP entre varios usuarios es gratis) Freebox Delta tienes que desactivar el control parental
 
 Actualmente tenemos 6 servidores DNS distribuidos en 2 máquinas físicas diferentes, cada una con una conexión de 500Mbit / s. 
 

@@ -20,7 +20,7 @@ Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar
 
 > **IMPORTANT**
 >
-> Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router muss die Firewall-Stufe gesenkt werden, für die Delta Freeboxes muss die Kindersicherung deaktiviert sein.
+> Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router müssen Sie die Firewall-Ebene senken. Für freie Benutzer müssen Sie manchmal auch zu einer festen IP wechseln (andernfalls können Sie Ihre IP kostenlos zwischen mehreren Benutzern teilen, was Bedenken hinsichtlich DNS aufwirft) Freebox Delta müssen Sie die Kindersicherung deaktivieren
 
 Wir haben derzeit 6 DNS-Server, die auf 2 verschiedenen physischen Computern mit jeweils einer 500-Mbit / s-Verbindung verteilt sind. 
 
