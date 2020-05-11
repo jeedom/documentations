@@ -43,7 +43,7 @@ further).
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -76,11 +76,11 @@ Technical characteristics
 
 -   Max load : 1800W (resistive), 460VA (inductive)
 
--   Fuse: T8AH
+-   Fuse : T8AH
 
 -   Frequency : 868.42 Mhz
 
--   Dimensions: 52 x 52 x 31mm
+-   Dimensions : 52 x 52 x 31mm
 
 -   Temperature range : 0 ° C / + 40 ° C
 
@@ -91,9 +91,9 @@ Module data
 
 \
 
--   Mark: Popp / Duwi
+-   Mark : Popp / Duwi
 
--   Name: ZW ESJ Blind Control
+-   Name : ZW ESJ Blind Control
 
 -   Manufacturer ID : 100
 
@@ -103,14 +103,14 @@ Module data
 
 \
 
-Connection
+Connection 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -121,7 +121,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put the module in inclusion mode, press three times
 > on the ascent or descent. Exclusion is done the same way.
@@ -136,7 +136,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -153,17 +153,17 @@ Here is the list of commands :
 
 \
 
--   State: this is the current position of the shutter, in percentage from 0 to 99
+-   State : this is the current position of the shutter, in percentage from 0 to 99
 
--   Go down: command to descend completely
+-   Go down : command to descend completely
 
--   Ascend: command to mount completely
+-   Ascend : command to mount completely
 
--   STOP: immediate movement stop
+-   STOP : immediate movement stop
 
 -   Refresh : refresh the current state of the module
 
--   Level: slider to position a partial opening
+-   Level : slider to position a partial opening
 
 \
 
@@ -224,7 +224,7 @@ and the second for the descent.
 The values are coded in hexadecimal in the module and reset
 decimal in Jeedom display.
 
-For example : for 4626, this gives in hexadecimal :0x1212 Either 0x12
+For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
 for ascent and 0x12 for descent. Or, brought back again in
 decimal : 18s for ascent and descent.
 
@@ -232,7 +232,7 @@ To note : forcing a value to zero for this parameter will imply that the
 module will switch on ascent or descent without time limit. It will take
 then send a 'Stop' to interrupt.
 
--   1 : Stop-functionnality: Enabled or Disabled :
+-   1 : Stop-functionnality : Enabled or Disabled :
 
 Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction
@@ -240,7 +240,7 @@ opposé.
 
 \
 
-### Groups
+### Groups 
 
 \
 

@@ -1,18 +1,18 @@
 # Materialien
 
-Hardware| Zustand| Remarques
+Hardware | Zustand | Remarques
 --- | --- | ---
-Jeedomboard            | Stabil                 |
-Brummbrett           | Stabil                 |
-Odroid C2               | Stabil                 |                          
-SMART                  | Stabil                 |                          
-RPI1                   | Stabil                 |                          
-RPI2                   | Inoffiziell / stabil     |                          
-RPI3                   | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
-RPI4                   | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
-64 Bit                 | Stabil                 |                          
+Jeedomboard             | Stabil                  |
+Brummbrett            | Stabil                  |
+Odroid C2               | Stabil                  |                          
+SMART                   | Stabil                  |                          
+RPI1                    | Stabil                  |                          
+RPI2                    | Inoffiziell / stabil     |                          
+RPI3                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
+RPI4                    | Inoffiziell / stabil     | Achtung, wenn Sie ein Razberry Wifi / Bluetooth verwenden, funktioniert nicht
+64 Bit                 | Stabil                  |                          
 32 Bit                 | Wird nicht unterstützt            |                          
-VMware                 | Stabil                 | Keine Unterstützung für VMware, nur für Jeedom.
+VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom.
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
@@ -25,29 +25,29 @@ Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
 Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 
-| Bilder        | Hardware      | Zustand          | SSH-Zugang      | Bemerkungen     |
+| Bilder         | Hardware       | Zustand           | SSH-Zugang      | Bemerkungen      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard   | Jeedomboard und | Stabil        | root / Mjeedom96 |                |
-|                | Brummbrett  |                |                |                |
-| Docker        |                | Beta          | root / Mjeedom96 |                |
+| Jeedomboard    | Jeedomboard und | Stabil         | root / Mjeedom96 |                |
+|                | Brummbrett   |                |                |                |
+| Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
 Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [Doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution, die Ihrer Hardware entspricht : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
 
 #  Logiciel
 
-> **Important**
+> **Wichtig**
 >
 > Jeedom unterstützt nur Debian Jessie (nicht empfohlen), Stretch (nicht empfohlen) und Buster (stabil). Jede andere Version (Wheezy…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
 
-| Name                    | Zustand                   | Bemerkungen               |
+| Name                     | Zustand                    | Bemerkungen                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 oder weniger        | Wird nicht unterstützt            |                          |
-| PHP 5.6                 | Stabil                 |                          |
-| PHP 7.X                 | Stabil                 |                          |
-| MySQL 5.5 / 5.6           | Stabil                 |                          |
-| MySQL 5.7               | Stabil                 |                          |
-| MariaBD                | Stabil                 |                          |
+| PHP 5.6                 | Stabil                  |                          |
+| PHP 7.X                 | Stabil                  |                          |
+| MySQL 5.5 / 5.6           | Stabil                  |                          |
+| MySQL 5.7               | Stabil                  |                          |
+| MariaBD                 | Stabil                  |                          |
 
 
 # Bluetooth
@@ -99,7 +99,7 @@ Sie finden die Liste [hier](https://phoscon.de/en/conbee/compatible) Jeedom-komp
 Z-Wave-Controller :
 
 -   SIGMA DESIGNS Z-Wave Plus USB-Controller
--  Z-WAVEME - Z-Wave Plus UZB1 Mini-USB-Controller
+-   Z-WAVE.ME - Z-Wave Plus UZB1 Mini-USB-Controller
 -   AEON LABS Z-Wellen-Controller Aeon Labs Z-Stick S2
 -   AEON LABS - Z-Wave Plus Z-Stick GEN5 USB-Controller (empfohlen)
 

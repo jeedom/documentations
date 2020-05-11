@@ -32,7 +32,7 @@ Puede conectarse usando la dirección indicada en la página:
 
 Recuerde asignar el puerto USB de Delta a la VM si desea usar una antena.
 
-No**pas** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del consumo excesivo).
+No **no** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del consumo excesivo).
 
 La dirección IP de su Jeedom en Freebox Delta está escrita en la parte superior, debajo de su nombre.
 

@@ -35,7 +35,7 @@ configure the Z-Wave network.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -63,9 +63,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave controller
 
--   Color: Blanc
+-   Color : Blanc
 
--   Food: internal rechargeable battery via USB
+-   Food : internal rechargeable battery via USB
 
 -   Affichage: Blue and red LED
 
@@ -73,7 +73,7 @@ Technical characteristics
 
 -   Scope : up to 30 m
 
--   Dimensions: 0.8cm x 3.3cm x 9.3cm
+-   Dimensions : 0.8cm x 3.3cm x 9.3cm
 
 -   Operating temperature : -35 to +85 ° C
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark: Aeotec
+-   Mark : Aeotec
 
--   Name: Minimote
+-   Name : Minimote
 
 -   Manufacturer ID : 134
 
@@ -96,7 +96,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -107,7 +107,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper documentation.
@@ -126,7 +126,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -143,7 +143,7 @@ Here is the list of commands :
 
 \
 
--   Buttons: it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 1 : Button 1 short press
 
@@ -167,10 +167,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -210,7 +210,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -230,7 +230,7 @@ Good to know
 
 ### Specificities 
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -260,7 +260,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

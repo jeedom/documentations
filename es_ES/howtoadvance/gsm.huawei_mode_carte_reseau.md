@@ -23,7 +23,7 @@ luego agrega esto :
 
 Luego guarde presionando Ctrl + x
 
-3. reiniciar
+3. reiniciar 
 =========
 
 > reinicio de sudo

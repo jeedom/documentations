@@ -31,7 +31,7 @@ Klicken Sie auf **Erstellen Sie ein Konto**
 ![tuto.github1](images/tuto.github1.png)
 
 Sie kommen also auf einer zweiten Seite wie unten an und ändern sich nicht
-nichts, du klickst **Continue**
+nichts, du klickst **Mach weiter**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -92,7 +92,7 @@ Geben Sie den gesuchten Text an (ein wichtiges Element und a
 Nur Zeile, nicht ein ganzer Block auf einmal). Bestätigen Sie mit "Enter"
 Starten Sie die Suche.
 
-> **Tip**
+> **Spitze**
 >
 > Wenn Sie nicht in das Fenster klicken, das den Text oder den Code enthält
 > Wenn Sie suchen, wird die Browsersuche geöffnet und
@@ -124,7 +124,7 @@ Senden Sie die Änderung
 Senden Sie eine Änderung 
 --------------------------
 
-Die**commit** oben betrifft nur die Gabelung des Projekts in
+Die **begehen** oben betrifft nur die Gabelung des Projekts in
 dein GitHub-Speicherplatz. Änderungen am ursprünglichen Projekt einreichen,
 Sie müssen eine PR (Pull Request) durchführen
 

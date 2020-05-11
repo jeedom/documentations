@@ -23,7 +23,7 @@ Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
     - Sprachen
     - kompatible Hardware
     - ggf. einen Hinweis zur Verwendung
-  - Github: Hier legen Sie die Informationen zwischen dem Markt und Github ab
+  - Github : Hier legen Sie die Informationen zwischen dem Markt und Github ab
     - das Token (nur setzen, wenn Ihr Plugin auf einer privaten Einzahlung ist)
     - Ihr Github-Benutzername
     - Der Name des Repositorys auf Github

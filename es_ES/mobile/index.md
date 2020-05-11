@@ -10,14 +10,14 @@ Esta versión adaptada también se simplifica, por motivos de visualización y r
 
 ![Web App](images/webApp.png)
 
-- Dispositivos: Acceda al tablero por objeto. También puedes ver el Resumen.
-- Mensajes: Ver centro de mensajes.
-- Vistas: Accede a tus vistas.
-- Diseños: Acceda a su diseño o diseño 3D. (La visualización de un diseño es a pantalla completa, haga clic con tres dedos para volver a la página de inicio).
+- Dispositivos : Acceda al tablero por objeto. También puedes ver el Resumen.
+- Mensajes : Ver centro de mensajes.
+- Vistas : Accede a tus vistas.
+- Diseños : Acceda a su diseño o diseño 3D. (La visualización de un diseño es a pantalla completa, haga clic con tres dedos para volver a la página de inicio).
 - Escenario : Visualización de los cuadros de sus escenarios, por grupo, con la posibilidad de activar / desactivar, detener / iniciar. Al hacer clic en el título del script, accederá a su registro.
-- Análisis: Acceda a la línea de tiempo, registros, análisis de equipos, cronos, demonios y salud.
-- Otro: Cambie entre los temas principales y alternativos, acceda a la versión de escritorio, fuerce la actualización, acceda a la documentación, sobre o cierre la sesión.
-- Plugins: Algunos complementos pueden tener una pantalla de aplicación web dedicada. Estarán disponibles aquí.
+- Análisis : Acceda a la línea de tiempo, registros, análisis de equipos, cronos, demonios y salud.
+- Otro : Cambie entre los temas principales y alternativos, acceda a la versión de escritorio, fuerce la actualización, acceda a la documentación, sobre o cierre la sesión.
+- Plugins : Algunos complementos pueden tener una pantalla de aplicación web dedicada. Estarán disponibles aquí.
 
 > Tips
 >

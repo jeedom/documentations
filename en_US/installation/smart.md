@@ -19,7 +19,7 @@ Jeedom offers a service with automatic backup subscription on private cloud Jeed
 
 Necessary material : a USB key (minimum 8GB).
 
->**Note**
+>**NOTE**
 >
 >Remember to set aside (locally) a Jeedom configuration backup
 
@@ -35,6 +35,6 @@ Necessary material : a USB key (minimum 8GB).
 
 > **Important**
 >
-> Be careful! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, you only need to restore it afterwards.
+> Be careful ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, you only need to restore it afterwards.
 
 This Recovery Mode is only compatible with Jeedom Smart.

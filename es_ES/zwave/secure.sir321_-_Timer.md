@@ -39,7 +39,7 @@ SES002 y SES003.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer: Horstmann
+-   Hacer : Horstmann
 
--   Nombre: Temporizador de cuenta regresiva RF SIR 321
+-   Nombre : Temporizador de cuenta regresiva RF SIR 321
 
 -   ID del fabricante : 89
 
@@ -95,7 +95,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -106,7 +106,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón (hasta que parpadee rápidamente) y suéltelo, de acuerdo con
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -143,9 +143,9 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno: este es el comando para encender el relé
+-   Uno : este es el comando para encender el relé
 
--   Apagado: es el comando para apagar el relé
+-   Apagado : es el comando para apagar el relé
 
 -   Temperatura : este es el comando de medición de temperatura si un
     sonda externa está presente
@@ -194,7 +194,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 

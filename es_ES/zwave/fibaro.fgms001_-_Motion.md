@@ -41,7 +41,7 @@ y sistemas de vigilancia y / o seguridad.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro: Batería CR123A 3,6VDC
+-   Suministro : Batería CR123A 3,6VDC
 
 -   Altura recomendada para la instalación : 2,4m
 
@@ -96,7 +96,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Certificaciones: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
 \
@@ -106,9 +106,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -118,7 +118,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -129,7 +129,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -148,7 +148,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -170,12 +170,12 @@ Aquí está la lista de comandos :
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo: es el comando que hace posible aumentar el brillo
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje: este es el comando de sabotaje (se activa en caso de que
+-   Sabotaje : este es el comando de sabotaje (se activa en caso de que
     vibración)
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -183,10 +183,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -219,7 +219,7 @@ Detalles del parámetro :
 
 \
 
--   Despertador: Este es el intervalo de activación del módulo (valor
+-   Despertador : Este es el intervalo de activación del módulo (valor
     7200 recomendado)
 
 -   1: ajusta la sensibilidad del sensor de presencia
@@ -297,7 +297,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -319,13 +319,13 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
->fabrica Es esencial despertarlo bien después de la inclusión
+> fabrica. Es esencial despertarlo bien después de la inclusión
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
->Cuenta
+> Cuenta.
 
 \
 
@@ -337,7 +337,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -374,7 +374,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -37,7 +37,7 @@ turn the plug on or off directly.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -60,7 +60,7 @@ Technical characteristics
 
 \
 
--   Food: 230V AC +/- 10% - 50Hz
+-   Food : 230V AC +/- 10% - 50Hz
 
 -   Maximum power : 3000W continuous / 3500W cyclic
     (Resistive load) Intrinsic consumption : &lt;1W
@@ -85,9 +85,9 @@ Module data
 
 \
 
--   Mark: Nodon
+-   Mark : Nodon
 
--   Name: Smartplug
+-   Name : Smartplug
 
 -   Manufacturer ID : 357
 
@@ -97,7 +97,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -108,11 +108,11 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > until the light turns red, according to its documentation
->paper
+> paper.
 
 \
 
@@ -128,7 +128,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -145,14 +145,14 @@ Here is the list of commands :
 
 \
 
--   State: It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     socket (On / Off)
 
--   We: This is the command that turns on the outlet
+-   We : This is the command that turns on the outlet
 
--   Off: It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
--   Status: Used to find out whether the outlet is powered or not
+-   Status : Used to find out whether the outlet is powered or not
     (Power failure / disconnection detection)
 
 \
@@ -211,7 +211,7 @@ Parameter details :
     In order to properly configure your alarms, the online form:
     www.nodon.fr/support/asp3/alarm will guide you
 
-### Groups
+### Groups 
 
 \
 
@@ -262,7 +262,7 @@ This module has 8 association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > At a minimum Jeedom should be found in groups 1 and 4 \
 
@@ -282,7 +282,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -298,13 +298,13 @@ Faq.
 
 You should not have the option to download auto widgets
 activated. You can retrieve the mobile and dashboard widgets on the
-Market: alarm\_back.
+Market : alarm\_back.
 
 \
 
 Have you set parameter 2 correctly? ? Do you have Jeedom well at least
 in groups 1 and 4 ? Do you allow time for the battery to
-load?
+load ?
 
 \
 

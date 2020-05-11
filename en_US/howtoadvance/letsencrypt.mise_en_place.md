@@ -31,7 +31,7 @@ Attention it is necessary to open port 80 on the router (ISP) !
 Activation of virtualHost and SSL module 
 ------------------------------------------
 
-> **Note**
+> **NOTE**
 >
 > Connect in SSH on the Jeedom box.
 
@@ -39,7 +39,7 @@ Activation of virtualHost and SSL module
     a2ensite default-ssl.conf
     apache2 restart service
 
-> **Note**
+> **NOTE**
 >
 > No certificate will be issued by LetsEncrypt as long as your site
 > in HTTPS will not be reachable from the outside.
@@ -50,13 +50,13 @@ You need to replace the settings <email@domaine.com> and domaine.com
 by your values. Normally the parameters for adding the HTTPS protocol
 are added by the script in Apache.
 
-> **Note**
+> **NOTE**
 >
 > If you use the automatic renewal method below,
 > you can disable virtualHost **default-ssl.conf** with the
-> Command**a2dissite default-ssl.conf** Remember to report the code by
+> Command **a2dissite default-ssl.conf** Remember to report the code by
 > default below in the virtualHost created by the script
-> renewal:
+> renewal :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
@@ -98,7 +98,7 @@ And finally restart the Nginx server.
 
     service nginx restart
 
-Renewal
+Renewal 
 ==============
 
 Renewal is done with the order :
@@ -114,7 +114,7 @@ Automatic method
 It's still better when it's automatic. To do this, here are the
 steps to follow :
 
--   Install**bc**, used in the le-renew script :
+-   Install **bc**, used in the le-renew script :
 
 <!-- -->
 
@@ -159,7 +159,7 @@ steps to follow :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **IMPORTANT**
 >
 > Be careful to adapt the path to the script.
 
@@ -170,7 +170,7 @@ steps to follow :
 > <https://crontab.guru/#0_5_*_*_1>
 
 -   Save the file then exit the text editor by
-    backing up:
+    backing up :
 
 <!-- -->
 

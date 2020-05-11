@@ -31,7 +31,7 @@ Atención, es necesario abrir el puerto 80 en el enrutador (ISP) !
 Activación del módulo virtualHost y SSL 
 ------------------------------------------
 
-> **Note**
+> **Nota**
 >
 > Conéctese en SSH en el cuadro Jeedom.
 
@@ -39,7 +39,7 @@ Activación del módulo virtualHost y SSL
     a2ensite default-ssl.conf
     servicio de reinicio apache2
 
-> **Note**
+> **Nota**
 >
 > LetsEncrypt no emitirá ningún certificado mientras su sitio
 > en HTTPS no será accesible desde el exterior.
@@ -50,13 +50,13 @@ Necesita reemplazar la configuración <email@domaine.com> y domaine.com
 por tus valores. Normalmente los parámetros para agregar el protocolo HTTPS
 son agregados por el script en Apache.
 
-> **Note**
+> **Nota**
 >
 > Si usa el método de renovación automática a continuación,
 > puedes deshabilitar virtualHost **default-ssl.conf** con el
-> Comando**a2dissite default-ssl.conf** Recuerde informar el código por
+> Comando **a2dissite default-ssl.conf** Recuerde informar el código por
 > predeterminado a continuación en el VirtualHost creado por el script
-> renovación:
+> renovación :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
     <FilesMatch "\.(cgi|shtml|phtml|php)$">
@@ -98,7 +98,7 @@ Y finalmente reinicie el servidor Nginx.
 
     servicio reinicio nginx
 
-Renovación
+Renovación 
 ==============
 
 La renovación se realiza con el pedido :
@@ -114,7 +114,7 @@ Método automático
 Todavía es mejor cuando es automático. Para hacer esto, aquí están los
 pasos a seguir :
 
--   Instalar**bc**, utilizado en la secuencia de comandos le-renovar :
+-   Instalar **bc**, utilizado en la secuencia de comandos le-renovar :
 
 <!-- -->
 
@@ -159,18 +159,18 @@ pasos a seguir :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **Importante**
 >
 > Tenga cuidado de adaptar la ruta al guión.
 
-> **Tip**
+> **Punta**
 >
 > Para entender la planificación 0 5 \* \* 1, mira aquí y
 > ajústelo a sus necesidades si es necesario :
 > <https://crontab.guru/#0_ _5_ _*_ _*_1>
 
 -   Guarde el archivo y luego salga del editor de texto
-    copia de seguridad:
+    copia de seguridad :
 
 <!-- -->
 

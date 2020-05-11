@@ -17,7 +17,7 @@ E ingrese su clave de licencia
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Note**
+> **Nota**
 >
 > Como recordatorio, si no lo hace, es posible que su ESXi ya no sea
 > operar después de 60 días
@@ -41,7 +41,7 @@ archivos "y marque la casilla" Habilitar NFS" :
 Luego haga clic en "Carpeta compartida", luego elija la carpeta para
 compartir (aquí Copia de seguridad), haga clic en modificar y luego en "Autorización NFS" y
 finalmente en crear (aquí ya tengo uno, tu lista debería ser
-vacio):
+vacio) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -68,7 +68,7 @@ Luego haga clic en "Nueva base de datos" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 Allí selecciona "Montar una base de datos NFS" y luego
-Próximo:
+Próximo :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -94,7 +94,7 @@ Montajes NFS (para una explicación, vea
 
 Para ver si lo tiene, debe conectarse con el cliente grueso
 (No encontré la información en el cliente web) y vaya a configuración →
-almacenamiento:
+almacenamiento :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
@@ -174,12 +174,12 @@ Luego transfiere el zip a una de tus tiendas de datos y crea :
 
     Actualización de vib del software esxcli -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Note**
+> **Nota**
 >
 > Reemplace la ruta y el nombre postal de acuerdo con su
 > configuration
 
-> **Important**
+> **Importante**
 >
 > Tenga cuidado de poner el camino completo al zip, de lo contrario no
 > no funciona
@@ -246,32 +246,32 @@ En "Nombre de host" (en el nivel de origen) debe poner el DNS deseado
 (por ejemplo, monesxi.mondsn.synology.yo) y en "Nombre de host" (en el nivel
 del destino) debe poner la IP del ESXi
 
-> **Note**
+> **Nota**
 >
 > También puede hacer lo mismo para acceder a jeedom pero por
 > esta vez poniendo la IP de la libertad (desde el vm si estás en
 > virtualizado) y el puerto 80
 
-> **Note**
+> **Nota**
 >
 > Una vez que hayas hecho eso y tu DNS esté apuntando correctamente
 > en el NAS puede generar un certificado SSL válido de forma gratuita
 > con Encriptemos, yendo a Secrity ⇒ certificado y haciendo
->Añadir Entonces no olvides hacer clic en configurar para
+> Añadir. Entonces no olvides hacer clic en configurar para
 > asignarlo a su proxy inverso
 
 Luego para acceder a su ESXi solo necesita con su navegador
 vaya a su DNS o IP externo agregando / ui al final y eso es
 bon.
 
-> **Important**
+> **Importante**
 >
 > Si utiliza el proxy inverso de NAS, la consola en modo web de
 > Sin embargo, las máquinas virtuales no funcionan (porque pasa por websocket)
 > si pasa por VMware Remote Console, todo debería estar bien (esto
 > pasa por el puerto 902)
 
-> **Note**
+> **Nota**
 >
 > También hay una aplicación Vmware Watchlist en Android para
 > tener acceso a ESXi y a las consolas VM

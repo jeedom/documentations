@@ -20,7 +20,7 @@ is compact and discreet.
 
 Integrated LED indicator signals any change of state.
 
-Functions
+Functions 
 =========
 
 -   Wireless battery-powered temperature sensor
@@ -41,11 +41,11 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Use: Indoors
+-   Use : Indoors
 
--   Food: 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium Battery ER14250)
 
--   Autonomy: Up to 3 years
+-   Autonomy : Up to 3 years
 
 -   Frequency : 868.3 MHz
 
@@ -53,16 +53,16 @@ Technical characteristics
 
 -   Range in free field : 100M
 
--   Dimensions: 25x79x19mm
+-   Dimensions : 25x79x19mm
 
 -   Degree of protection : IP20
 
 Module data 
 =================
 
--   Mark: Edisio Smart Home
+-   Mark : Edisio Smart Home
 
--   Name: ETS-200
+-   Name : ETS-200
 
 General configuration 
 ======================
@@ -71,7 +71,7 @@ To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
 [Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -112,7 +112,7 @@ Once, your associated equipment, you should get this :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Commands
+Commands 
 ---------
 
 Once your equipment is created, you should get the orders
@@ -124,23 +124,23 @@ Here is the list of commands :
 
 -   Temperature : It is the command which indicates the temperature read
 
--   Drums: Indicates the battery status
+-   Drums : Indicates the battery status
 
-Information
+Information 
 ------------
 
 Once your equipment is associated with Jeedom, various information will be
-available:
+available :
 
 ![Commands](images/ets200/ets200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication: Indicates the last communication recorded between
+-   Communication : Indicates the last communication recorded between
     Jeedom and the micro-module
 
--   Drums: Indicates the battery status of the battery modules
+-   Drums : Indicates the battery status of the battery modules
 
--   STATUS: Returns the status of the module
+-   STATUS : Returns the status of the module
 
 **@Jamsta**

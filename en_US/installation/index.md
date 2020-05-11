@@ -45,9 +45,9 @@ I want to install Jeedom :
 - On a [mini +](https://doc.jeedom.com/en_US/installation/mini)
 - On a [Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
 - On a [Freebox Delta](https://doc.jeedom.com/en_US/installation/freeboxdelta)
-- In[command line](https://doc.jeedom.com/en_US/installation/cli)
+- In [command line](https://doc.jeedom.com/en_US/installation/cli)
 - On a [VM](https://doc.jeedom.com/en_US/installation/vm)
-- On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE: We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
-- On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE: We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
+- On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
+- On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
 
 Once installation do not forget to consult the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

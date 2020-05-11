@@ -41,7 +41,7 @@ In der "Box \ $ TTS\_ENGINE in" zu haben :
                  *) MP3_ID = $ (AcapelaTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE $ MUTE) ;;
     esac
 
-Verwendung
+Verwendung 
 ===========
 
 Sie müssen nur die URL mit der Zahnradnummer anrufen (hier 3) :

@@ -39,7 +39,7 @@ who used his badge.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -68,9 +68,9 @@ Technical characteristics
 
 \
 
--   Type: Z-Wave slave
+-   Type : Z-Wave slave
 
--   Food: 2x AA 1.5V batteries
+-   Food : 2x AA 1.5V batteries
 
 -   Frequency : 868.42 MHz
 
@@ -78,7 +78,7 @@ Technical characteristics
 
 -   RFID protocol : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Buzzer: 60dBa at 10 cm distance
+-   Buzzer : 60dBa at 10 cm distance
 
 -   Storage temperature : -5 ° C to + 65 ° C
 
@@ -88,9 +88,9 @@ Technical characteristics
 
 -   Operating humidity : 30% to 80%
 
--   Dimensions: 62 x 62 x 20 mm
+-   Dimensions : 62 x 62 x 20 mm
 
--   Certifications: Security : UL EMC : FCC, CE RoHS
+-   Certifications : Security : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,9 +99,9 @@ Module data
 
 \
 
--   Mark: Zipato
+-   Mark : Zipato
 
--   Name: Zipato Mini Keypad RFID
+-   Name : Zipato Mini Keypad RFID
 
 -   Manufacturer ID : 151
 
@@ -111,7 +111,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -122,7 +122,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, just press two
 > seconds on the metal tab (the red LED on the front panel
@@ -143,7 +143,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -160,16 +160,16 @@ Here is the list of commands :
 
 \
 
--   ACTION: it is the command which will go up the home / away (5 for away 6
+-   ACTION : it is the command which will go up the home / away (5 for away 6
     for home)
 
--   Sabotage: this is the sabotage command (it is triggered in
+-   Sabotage : this is the sabotage command (it is triggered in
     tearing out)
 
--   CODED: displays the badge or keypad code when the code entered
+-   CODED : displays the badge or keypad code when the code entered
     is not in one of the memories
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 \
 
@@ -177,10 +177,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -221,7 +221,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -233,7 +233,7 @@ This module has two association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For optimum operation of your module. Jeedom must
 > be associated at least with group 1.
@@ -274,7 +274,7 @@ This allows you to add codes. You will see a table there.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > Remember to wake up the module after adding a code or badge.
 
@@ -322,7 +322,7 @@ The keypad reads codes / badges in two ways :
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -358,7 +358,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wake up, after a

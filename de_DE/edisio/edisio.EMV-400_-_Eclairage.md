@@ -26,11 +26,11 @@ Schließlich kann jedes Modul im Remote-Modus verwendet werden, es ist sehr
 praktisch, weil es ermöglicht, einen Sender zuzuordnen, ohne auf den zugreifen zu müssen
 Empfänger.
 
-> **Important**
+> **Wichtig**
 >
 > Neutral ist nur für den "Shutter" -Modus erforderlich"
 
-Funktionen
+Funktionen 
 =========
 
 -   2 Relaisausgänge geliefert
@@ -85,9 +85,9 @@ Technische Daten
 Moduldaten 
 =================
 
--   Machen Sie: Edisio Smart Home
+-   Machen Sie : Edisio Smart Home
 
--   Name: EMV-400
+-   Name : EMV-400
 
 Allgemeine Konfiguration 
 ======================
@@ -96,15 +96,15 @@ So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
 [Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Important**
+> **Wichtig**
 >
 > Umgekehrt müssen Edisio-Empfänger manuell in erstellt werden
->Jeedom
+> Jeedom.
 
 DIP-Schalter und Taste "R" : 
 --------------------------
@@ -116,11 +116,11 @@ DIP-Schalter und Taste "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Aktivieren Sie niemals den Modus, um unnötige Redundanzen zu vermeiden
 > "Repeater "an allen Empfängern, maximal 5 Empfänger pro
->Installation
+> Installation.
 
 -   Mit der Taste "R" kann dem Empfänger ein Sender zugeordnet werden,
     Aktivieren oder deaktivieren Sie die Timer-Funktion und aktivieren Sie den Modus
@@ -128,7 +128,7 @@ DIP-Schalter und Taste "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Durch Drücken von R 3x wird der Fernbedienungsmodus aktiviert.
 
@@ -138,7 +138,7 @@ Funktionsplan
 Weiter, wenn Ihr Sender im Modus "1 Taste" oder "2" konfiguriert ist
 Schlüssel ", so funktioniert das Modul:
 
-> **Note**
+> **Notiz**
 >
 > Informationen hierzu finden Sie in der Dokumentation des Herstellers
 > Konfigurieren Sie Ihren Sender.
@@ -151,7 +151,7 @@ Timer-Funktion
 Die Timer-Funktion schaltet die Relais am Ende automatisch aus
 30 oder 60 Minuten.
 
--   Aktivieren: Drücken Sie 4x "R" am Empfänger, Bestätigung mit einem einfachen
+-   Aktivieren : Drücken Sie 4x "R" am Empfänger, Bestätigung mit einem einfachen
     kontinuierlicher Piepton
 
 -   Deactivate: Drücken Sie 5x "R" am Empfänger, Bestätigung durch 3 einfach
@@ -167,7 +167,7 @@ Die Timer-Funktion schaltet die Relais am Ende automatisch aus
 Im "Beleuchtungs" -Modus können Sie 2 elektrische Geräte steuern
 distance.
 
-> **Important**
+> **Wichtig**
 >
 > Neutral ist nicht erforderlich
 
@@ -176,12 +176,12 @@ Elektrische Konfiguration und Anschlüsse :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **Important**
+> **Wichtig**
 >
 > Damit sich das Modul im "Beleuchtungs" -Modus befindet, muss sich der DIP-Schalter 2 befinden
 > auf
 
-> **Important**
+> **Wichtig**
 >
 > NIEMALS UNTER SPANNUNG ANSCHLIESSEN
 
@@ -197,7 +197,7 @@ Sobald Ihre Ausrüstung erstellt ist, sollten Sie diese erhalten :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Denken Sie daran, Ihre neue Ausrüstung zu aktivieren.
 
@@ -206,7 +206,7 @@ Licht" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Befehle
+Befehle 
 ---------
 
 Sobald Ihre Ausrüstung gespeichert ist, sollten Sie die Bestellungen erhalten
@@ -216,38 +216,38 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Ein: Es ist der Befehl, der Relais 1 aktiviert
+-   Ein : Es ist der Befehl, der Relais 1 aktiviert
 
--   Aus: Es ist der Befehl, der es ermöglicht, Relais 1 zu deaktivieren
+-   Aus : Es ist der Befehl, der es ermöglicht, Relais 1 zu deaktivieren
 
 -   Wir 2 : Es ist der Befehl, der Relais 2 aktiviert
 
 -   Aus 2: Es ist der Befehl, der Relais 2 deaktiviert
 
--   E: Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
+-   E. : Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
 
-> **Important**
+> **Wichtig**
 >
 > Die Statusrückmeldung wird von Jeedom simuliert. Deshalb, wenn Sie
 > Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
-Information
+Information 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar:
+verfügbar :
 
 ![Befehle](images/emv.400/infos_eclairage.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation: Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie: Zeigt den Batteriestatus für Batteriemodule an
+-   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS: Gibt den Status des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================
@@ -255,7 +255,7 @@ Assoziation des Mikromoduls mit Jeedom
 Damit du mit Jeedom interagieren kannst, als wäre es ein
 Edisio Sender.
 
-> **Note**
+> **Notiz**
 >
 > Einer der großen Vorteile von Edisio ist, dass ein Empfänger haben kann
 > mehrere assoziierte Emittenten
@@ -342,7 +342,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
-> **Note**
+> **Notiz**
 >
 > Sie können so oft neu starten, wie Sie zuordnen möchten
 > vom Sender zum Empfänger

@@ -78,7 +78,7 @@ ip -s -c -h a
 
 Su dirección IP, escriba 192.168.0.XX aparece en rojo. Solo ingrésalo en tu navegador.
 
-> **Warning**
+> **Advertencia**
 >
 > Si esto no funciona, no ha configurado su tarjeta de red como Puente de red como se indica al inicio.
 

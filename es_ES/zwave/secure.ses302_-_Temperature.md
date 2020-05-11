@@ -45,7 +45,7 @@ puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Indice de PROTECCION : IP30
 
--   Dimensiones: 86 x 85 x 30 mm
+-   Dimensiones : 86 x 85 x 30 mm
 
 \
 
@@ -93,9 +93,9 @@ Datos del módulo
 
 \
 
--   Hacer: Horstmann
+-   Hacer : Horstmann
 
--   Nombre: Sensor de temperatura SES 302
+-   Nombre : Sensor de temperatura SES 302
 
 -   ID del fabricante : 89
 
@@ -105,7 +105,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -116,7 +116,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón en la parte posterior y suelte, de acuerdo con su documentación en papel.
@@ -135,7 +135,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -154,7 +154,7 @@ Aquí está la lista de comandos :
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 Varias temperaturas no visibles también están disponibles y serán
 útil si ha conectado sondas externas
@@ -165,10 +165,10 @@ Varias temperaturas no visibles también están disponibles y serán
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -206,7 +206,7 @@ sondas externas posiblemente conectadas
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -235,7 +235,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -263,7 +263,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un

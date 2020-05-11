@@ -31,14 +31,14 @@ The url of push is of the form :
 
 With parameters :
 
--   Id: the feed id found on emoncms
+-   Id : the feed id found on emoncms
 
--   apikey: the api key of read & write for emoncms
+-   apikey : the api key of read & write for emoncms
 
--   value: we must leave *value* for Jeedom to send the
+-   value : we must leave *value* for Jeedom to send the
     value of info
 
--   power: to modify for
+-   power : to modify for
 
 Notification to Jeedom or recovery from Jeedom 
 ======================================================
@@ -99,7 +99,7 @@ special conf need a classic repertoire
             try_files = $ uri $ uri / @missing;
 
        location ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

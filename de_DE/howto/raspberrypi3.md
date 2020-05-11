@@ -1,4 +1,4 @@
-Ziel
+Ziel 
 ========
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem
@@ -40,12 +40,12 @@ Starten Sie dann PI3 neu
 
     sudo neu starten
 
-> **Important**
+> **Wichtig**
 >
 > Wählen Sie eine mSATA-SSD, um Stromprobleme zu vermeiden
 > geringer Verbrauch.
 
-> **Tip**
+> **Spitze**
 >
 > Sie können Jeedom jetzt installieren, indem Sie genau dasselbe befolgen
 > Verfahren mit einer SD-Karte.
@@ -56,7 +56,7 @@ Mögliche Anpassungen
 
 **Die folgenden Bemerkungen müssen dann berücksichtigt werden :**
 
-> **Important**
+> **Wichtig**
 >
 > Die folgenden Änderungen sind das Ergebnis von Problemen, auf die gestoßen ist
 > die Benutzer. Sie müssen sie an Ihren Fall anpassen. Unterstützung

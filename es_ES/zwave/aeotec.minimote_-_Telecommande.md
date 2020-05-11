@@ -35,7 +35,7 @@ configurar la red Z-Wave.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -63,9 +63,9 @@ Características técnicas
 
 -   Tipo de módulo : Controlador Z-Wave
 
--   Color: Blanc
+-   Color : Blanc
 
--   Suministro: batería interna recargable a través de USB
+-   Suministro : batería interna recargable a través de USB
 
 -   Affichage: LED azul y rojo
 
@@ -73,7 +73,7 @@ Características técnicas
 
 -   Alcance : hasta 30 m
 
--   Dimensiones: 0.8cm x 3.3cm x 9.3cm
+-   Dimensiones : 0.8cm x 3.3cm x 9.3cm
 
 -   Temperatura de funcionamiento : -35 a +85 ° C
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer: Aeotec
+-   Hacer : Aeotec
 
--   Nombre: Minimote
+-   Nombre : Minimote
 
 -   ID del fabricante : 134
 
@@ -96,7 +96,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -107,7 +107,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > APRENDER, de acuerdo con su documentación en papel.
@@ -126,7 +126,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -143,7 +143,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones: es el comando que empujará el botón hacia arriba
+-   Botones : es el comando que empujará el botón hacia arriba
 
 1 : Botón 1 pulsación corta
 
@@ -167,10 +167,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -210,7 +210,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -230,7 +230,7 @@ Bueno saber
 
 ### Específicos 
 
-Despertador
+Despertador 
 ------
 
 \
@@ -260,7 +260,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

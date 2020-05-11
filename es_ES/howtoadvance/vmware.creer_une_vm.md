@@ -26,7 +26,7 @@ Vaya a IP\_ESXI / ui con su navegador de Internet, debe tener :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 
-> **Note**
+> **Nota**
 >
 > Si no tienes nada te aconsejo que instales
 > interfaz web, toda la información
@@ -87,7 +87,7 @@ Luego puede seguir el progreso del envío :
 ![vmware.createvm23]((images/vmware.createvm23.PNG)
 
 Una vez terminado, puede ver que su iso ha llegado al
-almacén de datos:
+almacén de datos :
 
 ![vmware.createvm24]((images/vmware.createvm24.PNG)
 
@@ -116,7 +116,7 @@ duro, cpu, memoria ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
 
-> **Note**
+> **Nota**
 >
 > Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta
 > sin embargo, no es realmente posible reducir el tamaño
@@ -161,7 +161,7 @@ su sistema operativo :
 
 ![vmware.createvm17]((images/vmware.createvm17.PNG)
 
-> **Important**
+> **Importante**
 >
 > Una vez que su máquina esté instalada, DEBE instalar
 > Herramientas de VMware (esto permite que VMware tenga información sobre su VM
@@ -174,7 +174,7 @@ Para el resto de la instalación, los invito a leer esto
 Montar dispositivos USB en la VM 
 =======================================
 
-> **Note**
+> **Nota**
 >
 > Si no tiene las siguientes opciones, es necesario actualizar
 > el cliente de host integrado ESXi, toda la información
@@ -185,7 +185,7 @@ de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM
 conectado y tuve que conectarlos a mi máquina virtual Jeedom para poder
 úsalo.
 
-> **Note**
+> **Nota**
 >
 > Para Zwave, RFXcom, edisio y enOcean no hay problema, para
 > Claves GSM debe seguir esto
@@ -201,7 +201,7 @@ Haga clic en "Agregar otro dispositivo" y luego en el controlador USB :
 
 ![vmware.createvm26]((images/vmware.createvm26.PNG)
 
-> **Note**
+> **Nota**
 >
 > El siguiente paso debe repetirse para cada dispositivo USB que
 > quieres conectarte

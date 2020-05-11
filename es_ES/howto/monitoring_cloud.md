@@ -37,11 +37,11 @@ El procedimiento es bastante simple, tienes que :
 
 Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "probar" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
 
->**IMPORTANT**
+>**Importante**
 >
 > Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta
 
->**IMPORTANT**
+>**Importante**
 >
 > Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

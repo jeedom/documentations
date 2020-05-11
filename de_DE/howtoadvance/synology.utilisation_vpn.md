@@ -22,7 +22,7 @@ Wählen Sie die Option L2TP / IPsec-VPN-Server aktivieren
 
 Geben Sie unter Dynamische IP-Adresse eine Nummer ein, die dem Sub entspricht
 Netzwerk zum Zuweisen der IPs Ihrer Geräte in VPN im internen Netzwerk
-von deinem Platz. NB: Wählen Sie nicht das Gleiche wie das
+von deinem Platz. NB : Wählen Sie nicht das Gleiche wie das
 Standard-Subnetz Ihrer Box ex kostenlos das Subnetz von
 Maschinen ist 192.168.1.0 also setzen wir im Beispiel 2
 
@@ -56,7 +56,7 @@ Deaktivieren Sie alle Kontrollkästchen unter PPTP Öffnen Sie VPN und L2TP
 Aktivieren Sie nur das Kontrollkästchen vor dem gewünschten Benutzer
 erlauben, VPN zu verwenden .
 
-> **Tip**
+> **Spitze**
 >
 > Es wird empfohlen, einen Benutzer nur für das VPN zu erstellen
 > und ohne andere Rechte / Berechtigungen als mit dem VPN zu tun.
@@ -85,7 +85,7 @@ Fügen Sie eine Weiterleitung hinzu
 
 Geben Sie die Parameter wie folgt ein.
 
-> **Tip**
+> **Spitze**
 >
 > Die Ziel-ID ist das einzige, was von Ihrer Installation abhängt,
 > Sie müssen die IP Ihres Synology NAS eingeben

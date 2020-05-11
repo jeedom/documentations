@@ -1,4 +1,4 @@
-Description
+Description 
 ===========
 
 The procedure will allow you to connect to your box in SFTP in order to
@@ -27,11 +27,11 @@ information at the top of the Filezilla window :
 
 -   Hostname : Jeedom IP address (sftp:// is added automatically)
 
--   Login: jeedom
+-   Login : jeedom
 
 -   Password : Mjeedom96
 
--   Harbor: 22
+-   Harbor : 22
 
 Then click on "Quick Connection"
 

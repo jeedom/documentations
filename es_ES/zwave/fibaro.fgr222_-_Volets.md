@@ -43,11 +43,11 @@ Cada módulo Z-Wave funciona como un repetidor inalámbrico con el
 otros módulos, para garantizar una cobertura total de su
 habitation.
 
-Nota: Este módulo requiere neutral para operar.
+Nota : Este módulo requiere neutral para operar.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -82,7 +82,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro: 230V, 50 Hz
+-   Suministro : 230V, 50 Hz
 
 -   El consumo de energía : &lt; 0,8W
 
@@ -102,7 +102,7 @@ Características técnicas
 
 -   Temperatura límite : 105°C
 
--   Normas: LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
+-   Normas : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
 \
 
@@ -111,9 +111,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Fibaro FGR-222
+-   Nombre : Fibaro FGR-222
 
 -   ID del fabricante : 271
 
@@ -123,7 +123,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -134,7 +134,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -153,7 +153,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -172,34 +172,34 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: Es el comando que permite conocer la posición de
+-   Estado : Es el comando que permite conocer la posición de
     tu obturador
 
--   Posicionamiento: Es el comando que hace posible definir el
+-   Posicionamiento : Es el comando que hace posible definir el
     porcentaje de apertura
 
--   Arriba: Este es el comando que le permite abrir completamente el obturador
+-   Arriba : Este es el comando que le permite abrir completamente el obturador
 
--   Abajo: Es el comando que cierra completamente el obturador
+-   Abajo : Es el comando que cierra completamente el obturador
 
 -   Refrescar : Es el comando que permite volver a preguntar la posición
     de la persiana
 
--   Potencia: Comando que permite tener el consumo del módulo
+-   Potencia : Comando que permite tener el consumo del módulo
 
--   El consumo: Control que permite conocer el poder
+-   El consumo : Control que permite conocer el poder
     Instantáneo utilizado por el módulo
 
--   Detener: Control para detener el movimiento del obturador
+-   Detener : Control para detener el movimiento del obturador
 
 -   DETENER BSO : Comando para detener el movimiento (en modo
     listón ajustable)
 
--   Inclinación: Le permite inclinar las lamas (modo de lamas ajustable)
+-   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
 
 -   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 
--   No: Se usa para definir el paso para presionar Rechazar o
+-   No : Se usa para definir el paso para presionar Rechazar o
     Incliner
 
 \
@@ -281,7 +281,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -299,7 +299,7 @@ Bueno saber
 
 \
 
-### Restablecer
+### Restablecer 
 
 \
 
@@ -312,11 +312,11 @@ en este botón disponible en la pestaña Sistema.
 
 \
 
-### Importante
+### Importante 
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para que los comentarios de estado funcionen en Jeedom, es necesario
 > forzar la calibración del equipo (parámetro 29 a "Sí") y la
@@ -333,7 +333,7 @@ en este botón disponible en la pestaña Sistema.
 
 \
 
-Despertador
+Despertador 
 ------
 
 \

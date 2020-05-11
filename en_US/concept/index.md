@@ -28,13 +28,13 @@ These can be viewed in a browser on a desktop computer, or on a smartphone with 
 
 In order to organize your devices, you can create [Objects](/en_US/core/4.1/object).
 
-These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **Maison**, then objects **Salon** **Chambre** object child **Maison**. Once on the Dashboard, the object **Maison** will also display, below, its child objects.
+These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** **Bedroom** object child **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
 
 ![Objand](images/concept-objet.jpg)
 
 > Tips
 >
-> IN**Settings → Preferences** you can define on which object you wish to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
+> IN **Settings → Preferences** you can define on which object you wish to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -48,16 +48,16 @@ To interact with our home automation, you need commands ! These are of two types
 >
 > Rest assured, orders are normally created automatically ! These explanations are for a better understanding.
 
-- The orders *info* :
+- The orders *Info* :
 These commands store information from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc.
 These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.1/history)
 
 These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
-- The orders *action* :
-These commands allow you to control your actuators. For example, commands **on** and**off** of a controlled outlet will allow you to turn it on and off.
+- The orders *Action* :
+These commands allow you to control your actuators. For example, commands **We** and **off** of a controlled outlet will allow you to turn it on and off.
 
-Action commands are usually linked to info commands. Here our take has two actions **on** and**off**, usually related to information **Etat**.
+Action commands are usually linked to info commands. Here our take has two actions **We** and **off**, usually related to information **State**.
 
 ![Commands](images/concept-commands.jpg)
 
@@ -80,7 +80,7 @@ These commands are grouped in a tile corresponding to your equipment. And this t
 
 Whatever your device, it will be created in the form of equipment, from a [Plugin](/en_US/core/4.1/plugin).
 
-This device will have its own commands *info* or*action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
+This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
 You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
 

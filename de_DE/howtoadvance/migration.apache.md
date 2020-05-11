@@ -1,4 +1,4 @@
-Warum? 
+Warum ? 
 ==========
 
 -   Apache wird mit Jeedom allmählich zur Norm
@@ -20,13 +20,13 @@ Voraussetzungen
 
 -   Mit dem Internet verbunden sein.
 
-> **Important**
+> **Wichtig**
 >
 > Bei Bedenken kann das Jeedom-Team nicht zur Verantwortung gezogen werden und
 > kann jede Supportanfrage ablehnen. Die Handhabung liegt bei Ihnen
 > Risiken und Gefahren.
 
-> **Important**
+> **Wichtig**
 >
 > Bitte beachten Sie, dass einige inoffizielle Plugins nicht kompatibel sind
 > Apache, finde es schon lange heraus.
@@ -62,7 +62,7 @@ Installation und Konfiguration von Apache
     systemctl starte apache2 neu
     rm /var/www/html/index.html
 
-> **Note**
+> **Notiz**
 >
 > Wenn Sie während der Installation vom System gefragt werden, ob Sie oder möchten
 > Behalten Sie keine geänderte Version einer Datei bei : "Halten Sie die lokale
@@ -89,7 +89,7 @@ NICHT WEITER.
 Crontab-Update 
 -------------------------
 
-MAKE:
+MAKE :
 
     crontab -e
 
@@ -97,7 +97,7 @@ Aktualisieren Sie dann den Pfad zu Jeedom und ersetzen Sie ihn :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / usr / share / nginx / www / jeedom / core / php / jeeCron.php '>> / dev / null 2> & 1
 
-Von:
+Von :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / var / www / html / core / php / jeeCron.php '>> / dev / null 2> & 1
 
@@ -118,7 +118,7 @@ Dienste neu starten
 Stellen Sie dann eine Verbindung zu Ihrem Jeedom her und aktivieren Sie die Task-Engine erneut
 und die Szenarien. Sie können auch die Dämonen wiederbeleben.
 
-> **Important**
+> **Wichtig**
 >
 > Es wird empfohlen, nach der Migration ein Update von zu starten
 > Jeedom (auch wenn es dir nichts bietet).

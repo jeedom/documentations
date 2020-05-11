@@ -17,7 +17,7 @@ Und geben Sie Ihren Lizenzschlüssel ein
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Note**
+> **Notiz**
 >
 > Wenn Sie dies nicht tun, ist Ihr ESXi möglicherweise nicht mehr vorhanden
 > Betrieb nach 60 Tagen
@@ -41,7 +41,7 @@ Dateien "und aktivieren Sie das Kontrollkästchen" NFS aktivieren "" :
 Klicken Sie dann auf "Freigegebener Ordner" und wählen Sie den Ordner aus
 Teilen (hier Backup), klicken Sie auf Ändern, dann auf "NFS-Autorisierung" und
 endlich auf erstellen (hier habe ich schon eine, deine liste sollte sein
-leer):
+leer) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -68,7 +68,7 @@ Klicken Sie dann auf "Neue Datenbank" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 Dort wählen Sie "NFS-Datenbank bereitstellen" und tun dies dann
-folgende:
+folgende :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -94,7 +94,7 @@ NFS-Halterungen (eine Erklärung finden Sie unter
 
 Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden
 (Ich habe die Informationen auf dem Webclient nicht gefunden) und gehe zu Konfiguration →
-Lagerung:
+Lagerung :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
@@ -174,12 +174,12 @@ Patch, den Sie mit Ihrer Build-Nummer vergleichen können.
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Note**
+> **Notiz**
 >
 > Ersetzen Sie den Pfad und den Postleitzahlnamen entsprechend Ihrer
 > configuration
 
-> **Important**
+> **Wichtig**
 >
 > Achten Sie darauf, den vollständigen Pfad zum Reißverschluss anzugeben, da dies sonst nicht der Fall ist
 > nicht funktionieren
@@ -246,32 +246,32 @@ Unter "Hostname" (auf Quellenebene) müssen Sie das gewünschte DNS eingeben
 (Zum Beispiel monesxi.mondsn.synology.ich) und in "Hostname" (auf der Ebene
 des Ziels) müssen Sie die IP des ESXi eingeben
 
-> **Note**
+> **Notiz**
 >
 > Sie können das Gleiche auch tun, um auf jeedom zuzugreifen, jedoch über
 > diesmal setze die jeedom IP (von der vm wenn du drin bist
 > virtualisiert) und Port 80
 
-> **Note**
+> **Notiz**
 >
 > Sobald Sie dies getan haben und Ihr DNS richtig zeigt
 > Auf dem NAS können Sie kostenlos ein gültiges SSL-Zertifikat erstellen
 > mit Lassen Sie uns verschlüsseln, indem Sie zu Secrity ⇒ Zertifikat gehen und dies tun
->Hinzufügen Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
+> Hinzufügen. Dann vergessen Sie nicht, auf Konfigurieren auf zu klicken
 > Weisen Sie es Ihrem Reverse-Proxy zu
 
 Um dann auf Ihr ESXi zuzugreifen, benötigen Sie nur Ihren Browser
 Gehen Sie zu Ihrem externen DNS oder Ihrer IP, indem Sie am Ende / ui hinzufügen, und das ist
 bon.
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie über den NAS-Reverse-Proxy gehen, befindet sich die Konsole im Web-Modus von
 > VMs funktionieren jedoch nicht (da sie über den Websocket übertragen werden)
 > Wenn Sie VMware Remote Console verwenden, sollte alles in Ordnung sein (dies
 > geht durch Port 902)
 
-> **Note**
+> **Notiz**
 >
 > Es gibt auch eine Vmware Watchlist App auf Android für
 > Zugriff auf ESXi sowie VM-Konsolen

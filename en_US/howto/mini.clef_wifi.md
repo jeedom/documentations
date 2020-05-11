@@ -1,4 +1,4 @@
-Goal
+Goal 
 ========
 
 Here, in case, an end-to-end procedure for installing a key
@@ -11,12 +11,12 @@ Jeedom box, same WiFi authentication) . Of course this can
 also work for other components (or not) but without any
 garantie.
 
-> **Important**
+> **IMPORTANT**
 >
 > Attention this procedure is especially not to do on mini + under
 > trouble losing access to it and having to reinstall everything.
 
-> **Important**
+> **IMPORTANT**
 >
 > This doc is to be applied at your own risk in case of concerns
 > the Jeedom team can in no way be held responsible.

@@ -37,7 +37,7 @@ enciende o apaga el enchufe directamente.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -60,7 +60,7 @@ Características técnicas
 
 \
 
--   Suministro: 230V AC +/- 10% - 50Hz
+-   Suministro : 230V AC +/- 10% - 50Hz
 
 -   Potencia máxima : 3000W continuo / 3500W cíclico
     (Carga resistiva) Consumo intrínseco : &lt;1W
@@ -85,9 +85,9 @@ Datos del módulo
 
 \
 
--   Hacer: Nodon
+-   Hacer : Nodon
 
--   Nombre: Smartplug
+-   Nombre : Smartplug
 
 -   ID del fabricante : 357
 
@@ -97,7 +97,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -108,11 +108,11 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > hasta que la luz se vuelva roja, de acuerdo con su documentación
->papel
+> papel.
 
 \
 
@@ -128,7 +128,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -145,14 +145,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: Es el comando que permite conocer el estado de la
+-   Estado : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
 
--   Uno: Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
--   Apagado: Es el comando que hace posible extinguir la captura
+-   Apagado : Es el comando que hace posible extinguir la captura
 
--   Estado: Se usa para averiguar si la toma de corriente está alimentada o no
+-   Estado : Se usa para averiguar si la toma de corriente está alimentada o no
     (Detección de falla de energía / desconexión)
 
 \
@@ -211,7 +211,7 @@ Detalles del parámetro :
     Para configurar correctamente sus alarmas, el formulario en línea:
     www.nodon.fr/support/asp3/alarm lo guiará
 
-### Grupos
+### Grupos 
 
 \
 
@@ -262,7 +262,7 @@ Este módulo tiene 8 grupos de asociación.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debe encontrarse en los grupos 1 y 4 \
 
@@ -282,7 +282,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -298,13 +298,13 @@ Faq.
 
 No debería tener la opción de descargar widgets automáticos
 activado. Puede recuperar los widgets móviles y del tablero en el
-Mercado: alarma.
+Mercado : alarma.
 
 \
 
 ¿Ha configurado correctamente el parámetro 2? ? ¿Tienes al menos Jeedom bien?
 en los grupos 1 y 4 ? ¿Da tiempo para que la batería
-Cargar?
+Cargar ?
 
 \
 

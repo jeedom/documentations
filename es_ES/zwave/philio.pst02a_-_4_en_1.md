@@ -56,7 +56,7 @@ se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
 si ya tienes una red existente. \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -92,7 +92,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro: 1 batería CR123A 3V
+-   Suministro : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -108,13 +108,13 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones:
+-   Dimensiones :
 
 -   Detector : 28 x 96 x 23 mm
 
--   Imán: 10 x 50 x 12 mm
+-   Imán : 10 x 50 x 12 mm
 
--   Peso: 52g
+-   Peso : 52g
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
@@ -131,9 +131,9 @@ Datos del módulo
 
 \
 
--   Hacer: Philio Technology Corporation
+-   Hacer : Philio Technology Corporation
 
--   Nombre: PST02-A Multisensor 4 en 1
+-   Nombre : PST02-A Multisensor 4 en 1
 
 -   ID del fabricante : 316
 
@@ -143,7 +143,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -154,7 +154,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -192,18 +192,18 @@ Aquí está la lista de comandos :
 
 -   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura: es el comando que generará una detección
+-   Apertura : es el comando que generará una detección
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo: es el comando que hace posible aumentar el brillo
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje: Este es el comando de sabotaje (se activa en
+-   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -211,10 +211,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -294,7 +294,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -320,7 +320,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -350,7 +350,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -16,7 +16,7 @@ Espere hasta que termine la instalación :
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> **Important**
+> **Importante**
 >
 > Para acceder al paquete Docker, debe tener DSM 5.2 y un NAS compatible
 
@@ -82,7 +82,7 @@ Marque "Ejecutar este contenedor cuando el asistente haya terminado" y luego hag
 > - APACHE_PORT : permite cambiar el puerto predeterminado (80) para escuchar el servidor web
 > - MODE_HOST : indica que la red está en modo host
 
-> **IMPORTANT**
+> **Importante**
 >
 > Cierto complemento necesita tener la transmisión de red (tipo de complemento Xioami), para eso debe cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambiar el puerto de escucha predeterminado del servidor web y ssh por puertos no utilizados (escriba 9080 para el servidor web y 9022 para el ssh), y establezca la variable MODE_HOST en 1
 

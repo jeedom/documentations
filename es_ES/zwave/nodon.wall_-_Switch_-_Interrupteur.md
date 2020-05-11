@@ -36,7 +36,7 @@ doble cara en la parte posterior del plato.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -58,7 +58,7 @@ Características técnicas
 
 \
 
--   Suministro: Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
@@ -66,14 +66,14 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
--   Altitud: 2000m
+-   Altitud : 2000m
 
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.06
 
 -   Alcance : 40m en interiores / 70m en exteriores
 
--   Dimensiones: 80 \*80 \*15mm
+-   Dimensiones : 80 \*80 \*15mm
 
 -   2 años de garantia
 
@@ -94,9 +94,9 @@ Datos del módulo
 
 \
 
--   Hacer: Nodon
+-   Hacer : Nodon
 
--   Nombre: CWS-3-1-01 Interruptor de pared
+-   Nombre : CWS-3-1-01 Interruptor de pared
 
 -   ID del fabricante : 357
 
@@ -106,7 +106,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -117,7 +117,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
@@ -137,7 +137,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -154,10 +154,10 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones: es el comando que empujará el botón hacia arriba
+-   Botones : es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones       | Apoyo         | Pulsación larga     | Relajamiento   | Doble soporte   |
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -174,10 +174,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -204,18 +204,18 @@ Detalles del parámetro :
 
 \
 
--   1-2: Le permite elegir el perfil de los botones cuando se usa en
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7: Elija el modo de funcionamiento del botón (en caso de que
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Grupos
+### Grupos 
 
 \
 
@@ -241,7 +241,7 @@ Este módulo tiene 7 grupos de asociación.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -260,7 +260,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -284,7 +284,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

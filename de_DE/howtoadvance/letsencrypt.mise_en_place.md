@@ -31,7 +31,7 @@ Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen !
 Aktivierung des virtualHost- und SSL-Moduls 
 ------------------------------------------
 
-> **Note**
+> **Notiz**
 >
 > Schließen Sie SSH an der Jeedom-Box an.
 
@@ -39,7 +39,7 @@ Aktivierung des virtualHost- und SSL-Moduls
     a2ensite default-ssl.conf
     apache2 Neustartdienst
 
-> **Note**
+> **Notiz**
 >
 > Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
 > in HTTPS ist von außen nicht erreichbar.
@@ -50,16 +50,16 @@ Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
 durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
 werden vom Skript in Apache hinzugefügt.
 
-> **Note**
+> **Notiz**
 >
 > Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
 > Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
-> Befehl**a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
+> Befehl **a2dissite default-ssl.conf** Denken Sie daran, den Code bis zu melden
 > Standard unten in dem vom Skript erstellten virtualHost
-> Erneuerung:
+> Erneuerung :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
-    <FilesMatch "\.(cgi|shtml|phtml|php)$">
+    <FilesMatch "\..(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
     </FilesMatch>
     <Directory /usr/lib/cgi-bin>
@@ -98,7 +98,7 @@ Und schließlich starten Sie den Nginx-Server neu.
 
     Service Nginx Neustart
 
-Erneuerung
+Erneuerung 
 ==============
 
 Die Verlängerung erfolgt mit der Bestellung :
@@ -114,7 +114,7 @@ Automatische Methode
 Es ist immer noch besser, wenn es automatisch ist. Um dies zu tun, hier sind die
 Schritte zu folgen :
 
--   Installieren**bc**, wird im Skript le-erneuern verwendet :
+-   Installieren **bc**, wird im Skript le-erneuern verwendet :
 
 <!-- -->
 
@@ -159,18 +159,18 @@ Schritte zu folgen :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **Wichtig**
 >
 > Passen Sie den Pfad unbedingt an das Skript an.
 
-> **Tip**
+> **Spitze**
 >
-> Um die Planung zu verstehen 0 5 \* \* 1, schauen Sie hier und
+> Um die Planung zu verstehen 0 5 \* \.* 1, schauen Sie hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 
 -   Speichern Sie die Datei und beenden Sie den Texteditor mit
-    Sichern:
+    Sichern :
 
 <!-- -->
 

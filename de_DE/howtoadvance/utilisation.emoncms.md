@@ -27,18 +27,18 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\.#value\.#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
 
 Mit Parametern :
 
--   Identifikation: Die auf Emoncms gefundene Feed-ID
+-   Identifikation : Die auf Emoncms gefundene Feed-ID
 
--   apikey: der API-Schlüssel zum Lesen und Schreiben für Emoncms
+-   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
 
--   Wert: wir müssen gehen *value* für Jeedom, um die zu senden
+-   Wert : wir müssen gehen *Wert* für Jeedom, um die zu senden
     Wert der Info
 
--   Macht: zu ändern für
+-   Macht : zu ändern für
 
 Benachrichtigung an Jeedom oder Wiederherstellung von Jeedom 
 ======================================================
@@ -99,7 +99,7 @@ Special Conf brauchen ein klassisches Repertoire
             try_files = $ uri $ uri / @missing;
 
        Ort ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

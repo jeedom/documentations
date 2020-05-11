@@ -50,7 +50,7 @@ distance.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -81,13 +81,13 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color: noire
+-   Color : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
 -   Potencia máxima : 660W
 
--   El consumo: &lt; 0,08W
+-   El consumo : &lt; 0,08W
 
 -   Indice de PROTECCION: IP20
 
@@ -95,13 +95,13 @@ Características técnicas
 
 -   Radiofrecuencia : 868,42 MHz (UE)
 
--  Dist transmission: Hasta 30 m en interiores (depende de los materiales)
+-   Dist. transmission: Hasta 30 m en interiores (depende de los materiales)
 
--  Temp funcionando: 0 - 40 ° C
+-   Temp. funcionando : 0 - 40 ° C
 
 -   Pantalla de encendido / apagado : LEDs azules
 
--   Dimensiones: 84 x 32 x 29 mm
+-   Dimensiones : 84 x 32 x 29 mm
 
 -   Normas de la UE : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer: Swiid
+-   Hacer : Swiid
 
--   Nombre: Swiidinter
+-   Nombre : Swiidinter
 
 -   ID del fabricante : 358
 
@@ -124,7 +124,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -135,7 +135,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > en la parte posterior, de acuerdo con su documentación en papel
@@ -154,7 +154,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -171,12 +171,12 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: Es el comando que permite conocer el estado de la
+-   Estado : Es el comando que permite conocer el estado de la
     Iluminación
 
--   Uno: Es el control que enciende la luz
+-   Uno : Es el control que enciende la luz
 
--   Apagado: Es el comando que apaga la luz
+-   Apagado : Es el comando que apaga la luz
 
 \
 
@@ -217,7 +217,7 @@ swiidinter a otro módulo (pulsación larga)
 
 \
 
--   Inactivo: no tendrá efecto en otras luces
+-   Inactivo : no tendrá efecto en otras luces
 
 -   Solo apagado : será efectivo solo para apagar a otros
     luces
@@ -230,7 +230,7 @@ swiidinter a otro módulo (pulsación larga)
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -242,7 +242,7 @@ Este módulo tiene dos grupos de asociación.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 2.

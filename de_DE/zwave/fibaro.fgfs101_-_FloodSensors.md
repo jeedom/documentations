@@ -1,28 +1,28 @@
 Fibaro FGFS-101 "Hochwassersensor" 
 ==============================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/fibaro.fgfs101/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
 Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
@@ -51,12 +51,12 @@ FGFS-101.
 Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
 stellt die korrekte Funktion des Sensors während seiner Installation sicher.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Hochwassermelder (Vorhandensein von Wasser über Kontakte)
 
@@ -70,12 +70,12 @@ Funktionen
 
 -   Z-Wave Repeater ?? (siehe Abschnitt "Gut zu wissen")
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave Sender
 
@@ -95,29 +95,29 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 72 x 28 mm (Durchmesser x Höhe)
+-   Abmessungen : 72 x 28 mm (Durchmesser x Höhe)
 
 -   Betriebstemperatur : 0-40 ° C (-20 ° C bis 70 ° C, wenn
     externe Stromversorgung)
 
--   Temperaturmessbereich : -20 bis 100 ° C
+-   Temperaturmessbereich : -20 bis 100 ° C.
 
 -   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 40 ° C)
 
--   Standards: EMC 2004/108 / EC und R & TTE 199/5 / WE
+-   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Fibar Group
+-   Machen Sie : Fibar Group
 
 -   Modell : Hochwassersensor FGFS101
 
--   Hersteller: FIBARO-System
+-   Hersteller : FIBARO-System
 
 -   Hersteller ID : 271
 
@@ -125,112 +125,112 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
 > Papier (die schwarze Lasche).
 
-\
+\.
 
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/fibaro.fgfs101/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Leck: Dies ist der Modulalarmbefehl (für die Anwesenheit
+-   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
     Wasser, Überschwemmungen ...)
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage: Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
     des Falles
 
--   Batterie: Es ist der Batteriebefehl
+-   Batterie : Es ist der Batteriebefehl
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
->Einbeziehung
+> Einbeziehung.
 
-\
+\.
 
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/fibaro.fgfs101/config1.jpg)
 
 ![Config2](images/fibaro.fgfs101/config2.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
--   Aufwachen: Dies ist das Modul-Aufweckintervall (Wert
+-   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
 
 -   1 \. Verzögerung der Alarmstornierung nach Erkennung einer Überschwemmung :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     stoppt sofort)
 
--   2 \. Wahl des Alarmtyps. Wert:
+-   2 \. Wahl des Alarmtyps. Wert :
 
         0 : Akustischer und optischer Alarm deaktiviert
         1 : Akustischer Alarm deaktiviert und visueller Alarm aktiviert
@@ -240,7 +240,7 @@ Parameterdetails :
 -   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : 1 bis 65.535 s
     (Standardmäßig 300). Achten Sie darauf, keinen Übertragswert zu setzen
     nahe beieinander unter der Strafe, dass die Batterie des Moduls überhaupt schmilzt
-    Geschwindigkeit! (1800 wird empfohlen)
+    Geschwindigkeit ! (1800 wird empfohlen)
 
 -   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (standardmäßig 50
     = 0,5 °). Gemäß Parameter 10 ist dies auch möglich
@@ -262,20 +262,20 @@ Parameterdetails :
 -   75 \. Einstellen der Dauer des Alarms : von 0 bis 65535s (standardmäßig 0,
     Der Alarm stoppt, sobald kein Fehler mehr erkannt wird.)
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
 zumindest mit den Gruppen 1, 4 und 5 verbunden:
 
-\
+\.
 
 ![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
@@ -287,49 +287,49 @@ Die Verkabelung für eine externe Stromversorgung. \
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-\
+\.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
-\
+\.
 
 Dieses Modul ist standardmäßig ein Batteriemodul, das neue
 Die Konfiguration wird beim nächsten Aufwecken berücksichtigt.
 
-\
+\.
 
 Wichtiger Hinweis 
 ---------------
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\
+\.
 
-\
+\.
 Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro-Dokumentation :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
-\
+\.
 

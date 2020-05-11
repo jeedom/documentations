@@ -1,6 +1,6 @@
 # Jeeodm Installation auf einem Mini +
 
-> **Tip**
+> **Spitze**
 >
 > Der Name des Jeedom-Bildes kann sich von dem der in dieser Dokumentation vorgenommenen Aufnahmen unterscheiden
 
@@ -28,7 +28,7 @@ Legen Sie Ihre SD-Karte in Ihren Computer ein, starten Sie die Etcher-Software, 
 
 Sie müssen nur die SD-Karte in das Jeedomboard (oder Hummingboard) einlegen, das Netzwerk und die Stromversorgung verbinden, Ihr Jeedom startet (5 Minuten) und Sie sollten es im Netzwerk sehen.
 
-> **Tip**
+> **Spitze**
 >
 > SSH-IDs sind jeedom / Mjeedom96
 

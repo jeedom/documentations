@@ -1,4 +1,4 @@
-Why? 
+Why ? 
 ==========
 
 -   Apache will gradually become the norm with Jeedom
@@ -20,13 +20,13 @@ Prerequisites
 
 -   Being connected to the internet.
 
-> **Important**
+> **IMPORTANT**
 >
 > In case of concerns, the Jeedom team cannot be held responsible and
 > may refuse any support request. Handling is yours
 > risks and dangers.
 
-> **Important**
+> **IMPORTANT**
 >
 > Please note that some unofficial plugins are not compatible
 > Apache, find out well before.
@@ -62,7 +62,7 @@ Installation and configuration of Apache
     systemctl restart apache2
     rm /var/www/html/index.html
 
-> **Note**
+> **NOTE**
 >
 > If during installation the system asks you if you want or
 > not keep a modified version of a file, do : "Keep the local
@@ -89,7 +89,7 @@ NOT CONTINUE.
 Crontab update 
 -------------------------
 
-MAKE:
+MAKE :
 
     crontab -e
 
@@ -97,7 +97,7 @@ Then update the path to Jeedom, replace :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / usr / share / nginx / www / jeedom / core / php / jeeCron.php '>> / dev / null 2> & 1
 
-By:
+By :
 
     * * * * * su --shell = / bin / bash - www-data -c '/ usr / bin / php / var / www / html / core / php / jeeCron.php '>> / dev / null 2> & 1
 
@@ -118,7 +118,7 @@ Restarting services
 Then connect to your Jeedom and reactivate the task engine
 and the scenarios. You can also revive the demons.
 
-> **Important**
+> **IMPORTANT**
 >
 > It is recommended after migration to launch an update of
 > Jeedom (even if it doesn't offer you anything).

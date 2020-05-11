@@ -32,7 +32,7 @@ compatible.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -52,7 +52,7 @@ Technical characteristics
 
 \
 
--   Food: CR2032 battery - Autonomy 1,5 - 2 years
+-   Food : CR2032 battery - Autonomy 1,5 - 2 years
 
 -   4 buttons
 
@@ -78,9 +78,9 @@ Module data
 
 \
 
--   Mark: Nodon
+-   Mark : Nodon
 
--   Name: CRC-3-6-0x Soft Remote
+-   Name : CRC-3-6-0x Soft Remote
 
 -   Manufacturer ID : 357
 
@@ -90,7 +90,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -101,7 +101,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the two
 > button (+ and 0 full) until the light turns pink then
@@ -121,7 +121,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -138,13 +138,13 @@ Here is the list of commands :
 
 \
 
--   Buttons: it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Buttons       | Support         | Long press     | Relaxation   | Double support   |
+| Buttons        | Support          | Long press     | Relaxation    | Double support   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| plein)**       |                |                |                |                |
+| full)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -153,7 +153,7 @@ Here is the list of commands :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Drums: it is the command which raises the level of the batteries
+-   Drums : it is the command which raises the level of the batteries
 
 \
 
@@ -161,10 +161,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -191,18 +191,18 @@ Parameter details :
 
 \
 
--   1-2: Allows you to choose the profile of the buttons when used in
+-   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
 -   3 : Important parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7: Choose the button operating mode (in case
+-   4-7 : Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groups
+### Groups 
 
 \
 
@@ -226,7 +226,7 @@ This module has 7 association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -245,7 +245,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -269,7 +269,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

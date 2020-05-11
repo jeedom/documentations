@@ -20,11 +20,11 @@ Fill in the different fields and validate. You should then be in your Market acc
 
 If you bought a Jeedom box then you should have received an email containing a code for your service pack.
 
-> **Important**
+> **IMPORTANT**
 >
 > It is important to fill it in because this code gives you access to certain plugins for free, as well as to exclusive services.
 
-> **Important**
+> **IMPORTANT**
 >
 > If you buy a service pack from the Jeedom Market you have nothing to do, it is automatically assigned to you.
 
@@ -54,7 +54,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 >
 > Please note, you must be on the same network as the Jeedom box for this method to work.
 
-> **Important**
+> **IMPORTANT**
 >
 > Depending on your ADSL box this functionality may not work. If so, nothing serious, you just need to connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. This is not when adding your Jeedom to your market account is done.
 
@@ -82,7 +82,7 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Below, click on the tab **Market**
 
--   Check the box **activer**
+-   Check the box **Activate**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -107,7 +107,7 @@ Then go to the "Networks" part"
 
 Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market
 
-> **Important**
+> **IMPORTANT**
 >
 > If you have just linked your Jeedom to your Market account, you must wait 24 to 48 hours before being able to use the DNS service
 
@@ -152,7 +152,7 @@ Then just click on Market:
 
 You will then have the list of all plugins that can be installed.
 
-> **Important**
+> **IMPORTANT**
 >
 > Please note, some are official and others are not. In the event of a problem with an unofficial plugin, the Jeedom team cannot be held responsible.
 
@@ -191,7 +191,7 @@ The forum is very active and contains a lot of information. If you have a questi
 
 ## Support requests (or tickets)
 
-> **Important**
+> **IMPORTANT**
 >
 > Please note, all support requests must have an account on the Market.
 

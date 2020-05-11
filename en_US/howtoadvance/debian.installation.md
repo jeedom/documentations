@@ -27,7 +27,7 @@ configure like this :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> **Note**
+> **NOTE**
 >
 > Remember to select the ISO file that you downloaded
 > just before
@@ -44,7 +44,7 @@ to the ISO (remember to connect it) and you start the machine. See
 [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html)
 for more details.
 
-Setup
+Setup 
 ============
 
 Press enter to start the installation :
@@ -59,7 +59,7 @@ Here you have to choose "French"
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-Same:
+Same :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
@@ -103,7 +103,7 @@ Confirm by pressing enter :
 
 ![debian.installation13](images/debian.installation13.PNG)
 
-Same:
+Same :
 
 ![debian.installation14](images/debian.installation14.PNG)
 
@@ -127,7 +127,7 @@ Confirm by pressing enter :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-Same:
+Same :
 
 ![debian.installation20](images/debian.installation20.PNG)
 
@@ -163,7 +163,7 @@ Optimization for Jeedom
 ========================
 
 To prepare the installation of Jeedom you can do some
-Optimizations:
+Optimizations :
 
 Add vim and sudo 
 -------------------

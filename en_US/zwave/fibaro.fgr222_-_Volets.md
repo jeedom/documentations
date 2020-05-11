@@ -43,11 +43,11 @@ Each Z-Wave module functions as a wireless repeater with the
 other modules, to ensure full coverage of your
 habitation.
 
-NOTE: This module requires neutral to operate.
+NOTE : This module requires neutral to operate.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -82,7 +82,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food: 230V, 50 Hz
+-   Food : 230V, 50 Hz
 
 -   Power consumption : &lt; 0,8W
 
@@ -102,7 +102,7 @@ Technical characteristics
 
 -   Limit temperature : 105°C
 
--   Standards: LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
+-   Standards : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
 \
 
@@ -111,9 +111,9 @@ Module data
 
 \
 
--   Mark: Fibar Group
+-   Mark : Fibar Group
 
--   Name: Fibaro FGR-222
+-   Name : Fibaro FGR-222
 
 -   Manufacturer ID : 271
 
@@ -123,7 +123,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -134,7 +134,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -153,7 +153,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -172,34 +172,34 @@ Here is the list of commands :
 
 \
 
--   State: It is the command which allows to know the position of
+-   State : It is the command which allows to know the position of
     your shutter
 
--   Positioning: It is the command which makes it possible to define the
+-   Positioning : It is the command which makes it possible to define the
     opening percentage
 
--   Up: This is the command that allows you to fully open the shutter
+-   Up : This is the command that allows you to fully open the shutter
 
--   Down: It is the command that completely closes the shutter
+-   Down : It is the command that completely closes the shutter
 
 -   Refresh : It is the command which allows to ask again the position
     of the shutter
 
--   Power: Command allowing to have the consumption of the module
+-   Power : Command allowing to have the consumption of the module
 
--   Consumption: Control allowing to know the power
+-   Consumption : Control allowing to know the power
     instant used by the module
 
--   STOP: Control to stop the movement of the shutter
+-   STOP : Control to stop the movement of the shutter
 
 -   STOP BSO : Command to stop the movement (in mode
     adjustable slat)
 
--   Tilt: Allows you to tilt the slats (adjustable slat mode)
+-   Tilt : Allows you to tilt the slats (adjustable slat mode)
 
 -   Decline : Allows to decline the slats (adjustable slat mode)
 
--   Not: Used to define the step for pressing Decline or
+-   Not : Used to define the step for pressing Decline or
     Incliner
 
 \
@@ -281,7 +281,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -299,7 +299,7 @@ Good to know
 
 \
 
-### Reset
+### Reset 
 
 \
 
@@ -312,11 +312,11 @@ on this button available in the System tab.
 
 \
 
-### IMPORTANT
+### IMPORTANT 
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For status feedback to work in Jeedom, it is necessary to
 > force the equipment calibration (parameter 29 to "Yes") and the
@@ -333,7 +333,7 @@ on this button available in the System tab.
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

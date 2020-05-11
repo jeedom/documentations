@@ -57,7 +57,7 @@ PC a mano y conectada a internet.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -91,7 +91,7 @@ Características técnicas
 
 -   Rango de temperatura ajustable: 5 ° C a 30 ° C
 
--   Suministro: 2 pilas AAA (LR3)
+-   Suministro : 2 pilas AAA (LR3)
 
 -   Duración de la batería : 2 años
 
@@ -103,7 +103,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 
--   Dimensiones: 86 x 86 x 36.25 mm
+-   Dimensiones : 86 x 86 x 36.25 mm
 
 \
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer: Horstmann
+-   Hacer : Horstmann
 
--   Nombre: SRT 323 Termostato ambiental electrónico y temperatura
+-   Nombre : SRT 323 Termostato ambiental electrónico y temperatura
 
 -   ID del fabricante : 89
 
@@ -124,7 +124,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -135,7 +135,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, debe poner el interruptor 1 en
 > posición ON y luego con la pantalla del dial L y presione el dial,
@@ -147,7 +147,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Este módulo es meticuloso en la inclusión. Durante una primera inclusión
 > siempre active el módulo inmediatamente después de la inclusión. Para hacer esto
@@ -168,7 +168,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -187,14 +187,14 @@ Aquí está la lista de comandos :
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Estado: es el comando que da la instrucción actual
+-   Estado : es el comando que da la instrucción actual
 
--   Consigna: es el comando que hace posible ajustar el punto de ajuste
+-   Consigna : es el comando que hace posible ajustar el punto de ajuste
 
 -   Estado de calentamiento : es el comando que hace posible saber si el
     el termostato está en modo calefacción o no
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -234,7 +234,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -256,7 +256,7 @@ Bueno saber
 
 \
 
-> **Important**
+> **Importante**
 >
 > Este módulo está en batería. Por eso es importante tener en cuenta que
 > El cambio del punto de ajuste solo se tendrá en cuenta al despertar. Por
@@ -266,7 +266,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -293,7 +293,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

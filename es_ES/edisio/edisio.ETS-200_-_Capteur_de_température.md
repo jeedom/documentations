@@ -20,7 +20,7 @@ es compacto y discreto.
 
 El indicador LED integrado señala cualquier cambio de estado.
 
-Funciones
+Funciones 
 =========
 
 -   Sensor inalámbrico de temperatura alimentado por batería
@@ -41,11 +41,11 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Uso: En el interior
+-   Uso : En el interior
 
--   Suministro: 3VDC (batería de litio ER14250)
+-   Suministro : 3VDC (batería de litio ER14250)
 
--   Autonomía: Hasta 3 años
+-   Autonomía : Hasta 3 años
 
 -   Frecuencia : 868.3 MHz
 
@@ -53,16 +53,16 @@ Características técnicas
 
 -   Rango en campo libre : 100M
 
--   Dimensiones: 25x79x19mm
+-   Dimensiones : 25x79x19mm
 
 -   Grado de protección : IP20
 
 Datos del módulo 
 =================
 
--   Hacer: Edisio Smart Home
+-   Hacer : Edisio Smart Home
 
--   Nombre: ETS-200
+-   Nombre : ETS-200
 
 Configuración general 
 ======================
@@ -71,12 +71,12 @@ Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
 [Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Tip**
+> **Punta**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
 > la temperatura deseada.
@@ -112,7 +112,7 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Comandos
+Comandos 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos
@@ -124,23 +124,23 @@ Aquí está la lista de comandos :
 
 -   Temperatura : Es el comando que indica la temperatura leída
 
--   Batería: Indica el estado de la batería
+-   Batería : Indica el estado de la batería
 
-Información
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
-disponible:
+disponible :
 
 ![Comandos](images/ets200/ets200.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo
 
--   Comunicación: Indica la última comunicación registrada entre
+-   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería: Indica el estado de la batería de los módulos de batería
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado: Devuelve el estado del módulo
+-   Estado : Devuelve el estado del módulo
 
 **@Jamsta**

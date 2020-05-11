@@ -82,7 +82,7 @@ Check "Run this container when the wizard has finished" then click on "Apply".
 > - APACHE_PORT : allows to change the default port (80) for listening to the web server
 > - MODE_HOST : indicates that the network is in host mode
 
-> **IMPORTANT**
+> **Important**
 >
 > Certain plugin you need to have the network broadcast (Xioami plugin type), for that you must ABSOLUTELY switch to the network in host mode (only possible during creation), change the default listening port of the web server and ssh by unused ports (type 9080 for the web server and 9022 for the ssh), and set the variable MODE_HOST to 1
 

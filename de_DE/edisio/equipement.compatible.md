@@ -1,6 +1,6 @@
 # Kompatibilität von Edisio-Geräten
 
-| Name                    | Bemerkung               | Link                    |
+| Name                     | Bemerkung                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Modul für Leuchte     |                         | [Kaufen](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
 | DIO2 - Modul für Rollladen     |                         | [Kaufen](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
@@ -19,6 +19,6 @@
 
 
 
-> **Note**
+> **Notiz**
 >
 > Diese Liste basiert auf Benutzerfeedback. Das Jeedom-Team kann nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind

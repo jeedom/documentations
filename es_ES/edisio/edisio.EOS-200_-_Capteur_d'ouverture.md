@@ -22,7 +22,7 @@ elemento magnético. El indicador LED integrado señala cualquier cambio
 estado Nivel de batería bajo indicado por 3 "pitidos" audibles en el
 receptor
 
-Funciones
+Funciones 
 =========
 
 -   Sensor magnético inalámbrico alimentado por baterías
@@ -46,7 +46,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro: 3VDC (batería de litio ER14250)
+-   Suministro : 3VDC (batería de litio ER14250)
 
 -   Frecuencia : 868.3 MHz
 
@@ -54,18 +54,18 @@ Características técnicas
 
 -   Rango en campo libre : 100M
 
--   Dimensiones: 25x79x19mm
+-   Dimensiones : 25x79x19mm
 
 -   Grado de protección : IP20
 
--   Uso: En el interior
+-   Uso : En el interior
 
 Datos del módulo 
 =================
 
--   Hacer: Edisio Smart Home
+-   Hacer : Edisio Smart Home
 
--   Nombre: EOS-200
+-   Nombre : EOS-200
 
 Configuración general 
 ======================
@@ -74,7 +74,7 @@ Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
 [Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -87,14 +87,14 @@ Sensor de temperatura.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Configuración
+Configuración 
 -------------
 
 Por defecto, el sensor está configurado en NO (normalmente abierto)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **Nota**
 >
 > Por lo tanto, tendrá que configurar su sensor, si desea tener un
 > widget con una puerta cerrada cuando está cerrada.
@@ -114,12 +114,12 @@ Una vez que su equipo está emparejado, debe obtener esto :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Tip**
+> **Punta**
 >
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.
 
-Comandos
+Comandos 
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos
@@ -129,27 +129,27 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Puerta: Es el comando que indica si la puerta está abierta o
+-   Puerta : Es el comando que indica si la puerta está abierta o
     cerrado
 
--   Batería: Indica el estado de la batería
+-   Batería : Indica el estado de la batería
 
-Información
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
-disponible:
+disponible :
 
 ![Comandos](images/eos200/eos200.informations.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo
 
--   Comunicación: Indica la última comunicación registrada entre
+-   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el módulo
 
--   Batería: Indica el estado de la batería de los módulos de batería
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado: Devuelve el estado del módulo
+-   Estado : Devuelve el estado del módulo
 
 Visual alternativo 
 =================

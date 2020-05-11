@@ -7,7 +7,7 @@ Sobald der Dienst gekauft wurde, ist es in jeedom notwendig :
   - [Backup Cloud] Passwort : Backup-Verschlüsselungskennwort. Seien Sie vorsichtig, wenn Sie es verlieren, gehen die Backups verloren. Es ist unmöglich, das Passwort wiederherzustellen
 - Aktivieren Sie in der Sicherungsverwaltung das Kontrollkästchen "Sicherungen senden" auf der Ebene "Marktsicherungen""
 
->**NOTE**
+>**Notiz**
 >
 >Es ist möglich, die Jeedom-Sicherungsdateien direkt von Ihrer Profilseite auf dem Markt anzuzeigen, meine Dienste zu tabulieren und dann auf der Ebene des Cloud-Sicherungsdienstes zu konfigurieren
 

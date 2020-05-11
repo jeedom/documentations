@@ -37,7 +37,7 @@ Controlador compatible estándar Z-Wave
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -46,7 +46,7 @@ Funciones
 
 -   Control de microchip.
 
--   Elemento de ejecución:Relé
+-   Elemento de ejecución: Relé.
 
 -   Medida de potencia activa de corriente y energía eléctrica
     del receptor.
@@ -60,7 +60,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro: 230V, 50Hz
+-   Suministro : 230V, 50Hz
 
 -   El consumo de energía : hasta 0.8W
 
@@ -76,7 +76,7 @@ Características técnicas
 
 -   Temperatura límite : 105°C
 
--   Normas: LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
+-   Normas : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
 \
 
@@ -85,9 +85,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Enchufe de pared FGWPE-101
+-   Nombre : Enchufe de pared FGWPE-101
 
 -   ID del fabricante : 271
 
@@ -97,7 +97,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -108,7 +108,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -127,7 +127,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -144,17 +144,17 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: Es el comando que permite conocer el estado de la
+-   Estado : Es el comando que permite conocer el estado de la
     prise
 
--   Uno: Este es el comando que enciende la salida
+-   Uno : Este es el comando que enciende la salida
 
--   Apagado: Es el comando que hace posible extinguir la captura
+-   Apagado : Es el comando que hace posible extinguir la captura
 
--   Potencia: Este es el comando que trae el poder instantáneo
+-   Potencia : Este es el comando que trae el poder instantáneo
     consumido
 
--   El consumo: Es el orden que informa el consumo total
+-   El consumo : Es el orden que informa el consumo total
 
 \
 
@@ -244,7 +244,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -262,7 +262,7 @@ Bueno saber
 
 \
 
-### Restablecer
+### Restablecer 
 
 \
 
@@ -284,7 +284,7 @@ PressButton.
 
 \
 
-Despertador
+Despertador 
 ------
 
 \

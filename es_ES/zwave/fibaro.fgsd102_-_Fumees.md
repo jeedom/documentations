@@ -50,7 +50,7 @@ alta eficiencia, independientemente de lo que se queme.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -87,7 +87,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro: Batería de litio CR123A de 3V
+-   Suministro : Batería de litio CR123A de 3V
 
 -   Duración de la batería : 3 años
 
@@ -95,7 +95,7 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 65 x 28 mm (diámetro x altura)
+-   Dimensiones : 65 x 28 mm (diámetro x altura)
 
 -   Temperatura de funcionamiento : 0-55 ° C
 
@@ -110,9 +110,9 @@ Características técnicas
 
 -   Precisión de medición : 0.5 ° C (en un rango de 0 a 55 ° C)
 
--   Normas: EMC 2004/108 / EC y R & TTE 199/5 / WE
+-   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
 
--   Certificaciones: EN 14604:2005
+-   Certificaciones : EN 14604:2005
 
 \
 
@@ -121,9 +121,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Sensor de humo Fibaro FGSD-002
+-   Nombre : Sensor de humo Fibaro FGSD-002
 
 -   ID del fabricante : 271
 
@@ -133,7 +133,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -144,7 +144,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón central de inclusión, de acuerdo con su documentación en papel.
@@ -163,7 +163,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -185,7 +185,7 @@ Aquí está la lista de comandos :
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Sabotaje: este es el comando de sabotaje. Señala la apertura
+-   Sabotaje : este es el comando de sabotaje. Señala la apertura
     del caso
 
 -   Alerta de prueba : Es el comando el que mostrará el hecho de que el módulo
@@ -194,7 +194,7 @@ Aquí está la lista de comandos :
 -   Alerta de calor : es el control el que generará una alerta de calor
     (no confiable todavía)
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -202,10 +202,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -234,13 +234,13 @@ Detalles del parámetro :
 
 \
 
--   Despertador: este es el intervalo de activación del módulo (valor
+-   Despertador : este es el intervalo de activación del módulo (valor
     recomendado 21600)
 
 -   1: ajusta la sensibilidad de la detección de humo
 
 -   2: le permite elegir qué notificaciones se enviarán a Jeedom
-    (consejo: toutes)
+    (consejo : toutes)
 
 -   3: le permite elegir qué notificaciones irán acompañadas de un
     indicación visual
@@ -272,7 +272,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -302,7 +302,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -330,7 +330,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

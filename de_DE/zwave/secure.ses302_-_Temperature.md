@@ -1,28 +1,28 @@
 SES 302 "Temperatur sichern" 
 ============================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/secure.ses302/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/secure.ses302/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Die Sonde SES302 ermöglicht die Messung der Umgebungstemperatur
 Innenraum. Es wird mit 2 AA-Batterien betrieben und ist Z-Wave-zertifiziert
@@ -43,12 +43,12 @@ Zentralheizungssteuerungsanwendungen oder andere
 lokaler Druckknopf und eine Anzeige-LED auf der Rückseite. Wir
 kann es leicht in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Genaue Temperaturmessung
 
@@ -63,12 +63,12 @@ Funktionen
 
 -   Bericht über niedrigen Batteriestand
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Type: Tragbar / Wandhalterung
 
@@ -84,18 +84,18 @@ Technische Daten
 
 -   Schutzindex : IP30
 
--   Abmessungen: 86 x 85 x 30 mm
+-   Abmessungen : 86 x 85 x 30 mm
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Horstmann
+-   Machen Sie : Horstmann
 
--   Name: Temperatursensor SES 302
+-   Name : Temperatursensor SES 302
 
 -   Hersteller ID : 89
 
@@ -103,97 +103,97 @@ Moduldaten
 
 -   Produkt-ID : 2
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie 1 Sekunde auf
 > Drücken Sie den Knopf auf der Rückseite und lassen Sie ihn gemäß der Papierdokumentation los.
 
-\
+\.
 
 ![inclusion](images/secure.ses302/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/secure.ses302/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/secure.ses302/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Batterie: Es ist der Batteriebefehl
+-   Batterie : Es ist der Batteriebefehl
 
 Einige nicht sichtbare Temperaturen sind ebenfalls verfügbar und werden es auch sein
 nützlich, wenn Sie externe Sonden angeschlossen haben
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
->Einbeziehung
+> Einbeziehung.
 
-\
+\.
 
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/secure.ses302/config1.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   1: Stellt ein, um wie viel die Temperatur variieren muss
     Das Modul sendet es an Jeedom (in Schritten von 0,1)
@@ -204,71 +204,71 @@ Parameterdetails :
 Alle anderen Parameter sind identisch und entsprechen allen
 externe Sonden möglicherweise angeschlossen
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat nur eine Zuordnungsgruppe, es ist wichtig
 
-\
+\.
 
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
-\
+\.
 
 ### Alternative visuelle 
 
-\
+\.
 
 ![widget1](images/secure.ses302/widget1.jpg)
 
-\
+\.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Um dieses Modul zu aktivieren, drücken Sie einmal die Taste auf der Rückseite
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Dieses Modul wird durch einmaliges Drücken der Einschlusstaste aktiviert.
 
-\
+\.
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-\
+\.
 
 Wichtiger Hinweis 
 ---------------
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufwachens, nach a
 > Änderung der Assoziationsgruppen
 
-\
+\.
 
 **@sarakha63**

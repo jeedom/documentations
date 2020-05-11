@@ -47,7 +47,7 @@ ya una red existente.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -91,12 +91,12 @@ Datos del módulo
 
 \
 
--   Hacer: D-Link
+-   Hacer : D-Link
 
 -   Modelo : Detector de apertura de puertas y ventanas DCH-Z110
     mydlink ™ Inicio
 
--   Fabricante: Sistema FIBARO
+-   Fabricante : Sistema FIBARO
 
 -   ID del fabricante : 264 \ [0x0108 \]
 
@@ -106,7 +106,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -117,7 +117,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > No instale el módulo en la ventana / puerta antes de tenerlo
 > configurado correctamente y preste atención a la alineación de
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -158,18 +158,18 @@ Aquí está la lista de comandos :
 
 \
 
--   Apertura: es el comando que generará una detección
+-   Apertura : es el comando que generará una detección
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo: es el comando que hace posible aumentar el brillo
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje: Este es el comando de sabotaje (se activa en
+-   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -177,7 +177,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión o modificación, guarde
 > siempre active el módulo presionando el botón de asociación.
@@ -253,7 +253,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -283,7 +283,7 @@ Visual alternativo
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -318,7 +318,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

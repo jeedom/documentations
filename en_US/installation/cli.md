@@ -20,11 +20,11 @@ chmod +x install.sh
 
 Then just go to ``IP_JEEDOM`` from your internet browser.
 
-> **Note**
+> **NOTE**
 >
 > The default credentials are admin / admin
 
-> **Note**
+> **NOTE**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root password
 

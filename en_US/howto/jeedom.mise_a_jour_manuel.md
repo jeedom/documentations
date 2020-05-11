@@ -10,10 +10,10 @@ Prerequisites
 
 -   have Internet access from the Jeedom box
 
-> **Important**
+> **IMPORTANT**
 >
 > Remember to make and export a backup before any update
->manual
+> manual.
 
 Download and unzip 
 ===============================
@@ -37,7 +37,7 @@ Still in SSH:
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
 
-> **Important**
+> **IMPORTANT**
 >
 > If your installation of Jeedom is a little old, it is necessary to replace
 > all / var / www / html by / usr / share / nginx / www / jeedom

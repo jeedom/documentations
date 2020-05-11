@@ -23,7 +23,7 @@ then add this :
 
 Then save by pressing Ctrl + x
 
-3.Reboot
+3.Reboot 
 =========
 
 > sudo reboot

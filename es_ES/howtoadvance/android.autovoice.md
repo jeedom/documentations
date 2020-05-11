@@ -1,4 +1,4 @@
-Objetivo
+Objetivo 
 ========
 
 El propósito de este artículo es guiarte en el uso de Android
@@ -6,7 +6,7 @@ hablar con Jeedom. Utilizaremos el motor de interacciones Jeedom que
 permite que se realicen solicitudes y Jeedom responda a ellas (y también, si nosotros
 deseo, activar diferentes escenarios o elementos).
 
-Instalación
+Instalación 
 ============
 
 Prerrequisitos 
@@ -38,7 +38,7 @@ será para declarar el regreso de Jeedom.
 Creación de perfil 
 ==================
 
-Agregamos un nuevo perfil con un **état** como un disparador.
+Agregamos un nuevo perfil con un **Estado** como un disparador.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -50,7 +50,7 @@ En tipo de complemento, seleccionamos **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-En el submenú **AutoVoice**, Seleccionamos **Recognized**.
+En el submenú **AutoVoice**, Seleccionamos **Reconocido**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
@@ -70,8 +70,8 @@ ejemplo, podría llamarse "API de Jeedom".
 
 ![android.autovoice6](images/android.autovoice6.png)
 
-La tarea finalmente agrupará 2 acciones : **Llamada API** y**di el
-retour**.
+La tarea finalmente agrupará 2 acciones : **Llamada API** y **di el
+Regreso**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -84,11 +84,11 @@ Luego seleccionamos **Obtener HTTP**.
 ![android.autovoice9](images/android.autovoice9.png)
 
 Aquí rellenaremos con información de Jeedom. Aquí está la información para
-Entrar:
+Entrar :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Ruta:
+-   Ruta :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
 No olvides poner tu clave API en lugar de la cadena
@@ -97,7 +97,7 @@ reemplazado por la devolución de Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Agregar una acción de tipo **Dire**. Para hacer esto, filtre las acciones por
+Agregar una acción de tipo **Decir**. Para hacer esto, filtre las acciones por
 poniendo "decir" en la lupa.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -113,14 +113,14 @@ Jeedom interacciones y puedes preguntarle lo que quieras
 querer Desde "cuál es la temperatura en la sala de estar" hasta "encender la luz
 salon".
 
-> **Tip**
+> **Punta**
 >
 > Si no funciona desde el principio, a menudo es porque AutoVoice
 > no está activo. Para ese lanzamiento, haga clic en Google Now
 > Integración y en la primera opción en la parte superior y autorizar
->AutoVoice
+> AutoVoice.
 
-> **Tip**
+> **Punta**
 >
 > Por defecto, AutoVoice deshabilita la búsqueda de Google Now, es
 > posible cancelar este comportamiento, para eso en Tasker haga clic en

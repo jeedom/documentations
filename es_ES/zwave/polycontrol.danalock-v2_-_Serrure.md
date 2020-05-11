@@ -25,7 +25,7 @@ Resumen
  
 
 **Asegure su hogar con la cerradura electrónica Z-Wave de
-Poly-Control!**
+Poly-Control !**
 
 No más llaves, use su teléfono inteligente para bloquear y
 abre tu puerta ! Danalock es una nueva solución que
@@ -95,7 +95,7 @@ bisel de aluminio anodizado sólido y tecnologías avanzadas
 Bluetooth y Z-Wave. Un diseño danés discreto construido para durar.
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -136,17 +136,17 @@ Características técnicas
 
 \
 
--   Suministro: 4 baterías CR123 3V
+-   Suministro : 4 baterías CR123 3V
 
--   Versiones: V2
+-   Versiones : V2
 
 -   Material : Aluminio anodizado sólido
 
--   Comunicación: Bluetooth y Z-Wave
+-   Comunicación : Bluetooth y Z-Wave
 
--   Dimensiones: 79 mm x 49 mm (diámetro x altura)
+-   Dimensiones : 79 mm x 49 mm (diámetro x altura)
 
--   Peso: 363g
+-   Peso : 363g
 
 \
 
@@ -155,9 +155,9 @@ Datos del módulo
 
 \
 
--   Hacer: Poly-Control
+-   Hacer : Poly-Control
 
--   Nombre: Danalock V2 BTZE
+-   Nombre : Danalock V2 BTZE
 
 -   ID del fabricante : 010e
 
@@ -167,7 +167,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -178,7 +178,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Es esencial incluir este módulo en modo seguro..
 
@@ -201,7 +201,7 @@ SEGURO (INCLUSIÓN)"
 
 \
 
-> **Important**
+> **Importante**
 >
 > Suponemos que ha instalado la aplicación en
 > su teléfono inteligente o iphone y creó una cuenta. Si aún no lo es
@@ -224,7 +224,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -241,14 +241,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: es el comando que subirá la última acción
+-   Estado : es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
 
--   Abrir: es el comando que abre la cerradura
+-   Abrir : es el comando que abre la cerradura
 
--   Cerca: es el comando que hace posible cerrar la cerradura
+-   Cerca : es el comando que hace posible cerrar la cerradura
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -256,7 +256,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Warning**
+> **Advertencia**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -332,7 +332,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -353,7 +353,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -362,7 +362,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo devuelve su estado si opera el bloqueo con la mano
 > El estado se actualizará. \
@@ -375,7 +375,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \

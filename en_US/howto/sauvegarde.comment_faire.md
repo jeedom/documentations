@@ -1,4 +1,4 @@
-Description
+Description 
 ===========
 
 There are two ways to save Jeedom and each has
@@ -61,7 +61,7 @@ Windows
 You will have to start by downloading third-party software for example :
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
 
-1.  **Sauvegarde**
+1.  **Safeguard**
 
     -   Launch the software and check that the letter below
         *Device* matches that of your card / reader
@@ -73,7 +73,7 @@ You will have to start by downloading third-party software for example :
     -   Finally click on the button *Read*, in order to create the image.
         image::images / save-restore09.jpg \ [align = "center" \]
 
-2.  **Restauration**
+2.  **Restoration**
 
     -   Launch the software and check that the letter below
         *Device* matches that of your card / reader
@@ -95,7 +95,7 @@ To make your task easier, you can download the software
 
 ![save restore11](images/save-restore11.jpg)
 
-1.  **Sauvegarde**
+1.  **Safeguard**
 
     -   With ApplePi-Baker : Select the correct card from the list
         *Pi-Crust*, and click *Create backup* in order to create a
@@ -109,11 +109,11 @@ To make your task easier, you can download the software
 
         -   Start creating the image by entering the command :
             `sudo dd if = / dev / disk1 of = ~ / Desktop / Backup_Jeedom.img bs = 1m`
-            *Remarque: In this example, the name of the card disk
+            *Note: In this example, the name of the card disk
             is `/ dev / disk1`, so enter in the command
             backup \ `/ dev / disk1 \`*
 
-2.  **Restauration**
+2.  **Restoration**
 
     -   With ApplePi-Baker : Select the correct card from the list
         *Pi-Crust*, put the path to the image file to restore
@@ -125,7 +125,7 @@ To make your task easier, you can download the software
 
         -   In order to find the disk corresponding to the card, open
             a terminal and enter the same command as for the
-            Safeguard: `diskutil list`
+            Safeguard : `diskutil list`
 
         -   Unmount the partitions of the card by typing the command :
             `sudo diskutil unmountDisk / dev / disk1`
@@ -133,14 +133,14 @@ To make your task easier, you can download the software
         -   Restore the image on the microSD card by typing the command
             :
             `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img of = / dev / disk1`
-            *Note: In this example, the name of the card disk
+            *Note : In this example, the name of the card disk
             is `/ dev / disk1`, so enter in the command
             backup \ `/ dev / disk1 \`*
 
 Under Linux 
 ----------
 
-1.  **Sauvegarde**
+1.  **Safeguard**
 
     -   In order to find the disk corresponding to the card, open a
         terminal and enter the command : `sudo fdisk -l | grep Dis`
@@ -156,7 +156,7 @@ Under Linux
         `sudo dd if = / dev / sdc of = Backup_Jeedom.img bs = 1m` * Note: Dans
         this example, the name of the card disk is / dev / sdc.*
 
-2.  **Restauration**
+2.  **Restoration**
 
     -   In order to find the disk corresponding to the card, open a
         terminal and enter the command : `sudo fdisk -l | grep Dis`

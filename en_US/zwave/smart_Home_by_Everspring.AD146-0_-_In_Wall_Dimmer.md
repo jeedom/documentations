@@ -43,7 +43,7 @@ which Z-Wave controller in your network.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -81,9 +81,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food: 230 V, 50 Hz
+-   Food : 230 V, 50 Hz
 
--   Consumption: 0.5W
+-   Consumption : 0.5W
 
 -   Maximum power :
 
@@ -99,7 +99,7 @@ Technical characteristics
 
 -   Affichage: LED on the button
 
--   Dimensions: 42mm x 43mm x 16mm
+-   Dimensions : 42mm x 43mm x 16mm
 
 \
 
@@ -108,9 +108,9 @@ Module data
 
 \
 
--   Mark: SmartHome by Everspring
+-   Mark : SmartHome by Everspring
 
--   Name: In Wall Dimmer
+-   Name : In Wall Dimmer
 
 -   Manufacturer ID : 96
 
@@ -120,7 +120,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -131,7 +131,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
@@ -152,7 +152,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -169,14 +169,14 @@ Here is the list of commands :
 
 \
 
--   Intensity: This is the command used to adjust the intensity of the
+-   Intensity : This is the command used to adjust the intensity of the
     Light
 
--   We: It is the control that turns on the light
+-   We : It is the control that turns on the light
 
--   Off: It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
--   State: It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     Light
 
 \
@@ -228,7 +228,7 @@ Parameter details :
 -   5 : This parameter defines whether the switch will operate in
     variation mode or on / off mode
 
-### Groups
+### Groups 
 
 \
 
@@ -240,7 +240,7 @@ This module has 2 association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -254,7 +254,7 @@ Good to know
 \
 
 -   Status feedback cannot be configured below 3
-   seconds \
+    seconds. \
 
 ### Alternative visual 
 
@@ -264,7 +264,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

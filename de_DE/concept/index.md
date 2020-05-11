@@ -28,13 +28,13 @@ Diese können in einem Browser auf einem Desktop-Computer oder auf einem Smartph
 
 Um Ihre Geräte zu organisieren, können Sie erstellen [Objekte](/de_DE/core/4.1/object).
 
-Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Maison**, dann Objekte **Salon** **Chambre** Objekt Kind **Maison**. Einmal im Dashboard, das Objekt **Maison** zeigt auch unten seine untergeordneten Objekte an.
+Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Haus**, dann Objekte **Wohnzimmer** **Schlafzimmer** Objekt Kind **Haus**. Einmal im Dashboard, das Objekt **Haus** zeigt auch unten seine untergeordneten Objekte an.
 
 ![Objund](images/concept-objet.jpg)
 
 > Tips
 >
-> IN**Einstellungen → Einstellungen** Sie können festlegen, für welches Objekt Sie im Dashboard ankommen möchten. [Vorlieben](/de_DE/core/4.1/profils)
+> IN **Einstellungen → Einstellungen** Sie können festlegen, für welches Objekt Sie im Dashboard ankommen möchten. [Vorlieben](/de_DE/core/4.1/profils)
 
 ![Armaturenbrett](images/concept-dashboard.jpg)
 
@@ -48,16 +48,16 @@ Für die Interaktion mit unserer Hausautomation benötigen Sie Befehle ! Es gibt
 >
 > Seien Sie versichert, Bestellungen werden normalerweise automatisch erstellt ! Diese Erklärungen dienen dem besseren Verständnis.
 
-- Bestellungen *info* :
+- Bestellungen *Info* :
 Diese Befehle speichern Informationen von Sensoren. Zum Beispiel die Temperatur einer Sonde, eine Bewegung eines Anwesenheitssensors usw.
 Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/de_DE/core/4.1/history)
 
 Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den von Ihren Sensoren gemeldeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
-- Bestellungen *action* :
-Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle **on** und**off** Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
+- Bestellungen *Aktion* :
+Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle **Ein** und **Aus** Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
 
-Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen **on** und**off**, in der Regel im Zusammenhang mit Informationen **Etat**.
+Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen **Ein** und **Aus**, in der Regel im Zusammenhang mit Informationen **Zustand**.
 
 ![Befehle](images/concept-commands.jpg)
 
@@ -80,7 +80,7 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 Unabhängig von Ihrem Gerät wird es in Form von Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
 
-Dieses Gerät verfügt über eigene Befehle *info* oder*action*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
+Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, Ihre Hausautomation zu organisieren und zu wissen, wo Sie suchen müssen.
 

@@ -20,11 +20,11 @@ Füllen Sie die verschiedenen Felder aus und validieren Sie. Sie sollten sich da
 
 Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail mit einem Code für Ihr Service Pack erhalten haben.
 
-> **Important**
+> **Wichtig**
 >
 > Es ist wichtig, es auszufüllen, da Sie mit diesem Code kostenlos auf bestimmte Plugins sowie auf exklusive Dienste zugreifen können.
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie ein Service Pack auf dem Jeedom Market kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
@@ -36,7 +36,7 @@ Dann gehen Sie zu Ihrer Profilseite:
 
 Klicken Sie dann auf die Registerkarte "Meine Dienste", geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie.
 
-> **Tip**
+> **Spitze**
 >
 > Wenn Sie eine offizielle Jeedom-Box gekauft haben, sollte die Service Pack-Nummer per E-Mail an Sie gesendet worden sein. Wenn Sie nichts erhalten haben, wenden Sie sich bitte an das Geschäft, in dem Sie Ihre Box gekauft haben.
 
@@ -50,11 +50,11 @@ Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist,
 
 Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig von der Konfiguration Ihres Internetzugangs). Sie müssen die Box starten und etwa 10 Minuten warten (seien Sie vorsichtig, wenn Sie ein Image vom Typ Netzinstallation verwenden, es dauert eher 30 Minuten). und geh [hier](https://www.jeedom.com/market/index.php?v=d&p=find)
 
-> **Tip**
+> **Spitze**
 >
 > Bitte beachten Sie, dass Sie sich im selben Netzwerk wie die Jeedom-Box befinden müssen, damit diese Methode funktioniert.
 
-> **Important**
+> **Wichtig**
 >
 > Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht. Wenn ja, nichts Ernstes, müssen Sie nur eine Verbindung zu Ihrer ADSL-Box herstellen und die Jeedom-IP darin finden. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Dies ist nicht der Fall, wenn das Hinzufügen Ihres Jeedom zu Ihrem Marktkonto abgeschlossen ist.
 
@@ -80,9 +80,9 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Klicken Sie auf die Registerkarte **Updates**
 
--   Klicken Sie unten auf die Registerkarte **Market**
+-   Klicken Sie unten auf die Registerkarte **Markt**
 
--   Aktivieren Sie das Kontrollkästchen **activer**
+-   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -107,7 +107,7 @@ Gehen Sie dann zum Teil "Netzwerke""
 
 Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann in der Zeile "Verwaltung" "Neustart" ausführen. Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Profilseite anpassen vom Markt
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie gerade Ihr Jeedom mit Ihrem Market-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst nutzen können
 
@@ -128,7 +128,7 @@ Sie werden Ihr erstes Objekt erstellen, aber zuerst müssen Sie wissen, was ein 
 
 In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend Ihren Räumen zu tun.
 
-> **Tip**
+> **Spitze**
 >
 > Es ist möglich, Beziehungen zwischen Objekten zu definieren. Exemple : Das Wohnzimmer gehört zum Objekt im Erdgeschoss, das selbst zum Hausobjekt gehört.
 
@@ -152,7 +152,7 @@ Dann klicken Sie einfach auf Markt:
 
 Sie haben dann die Liste aller Plugins, die installiert werden können.
 
-> **Important**
+> **Wichtig**
 >
 > Bitte beachten Sie, dass einige offiziell sind und andere nicht. Im Falle eines Problems mit einem inoffiziellen Plugin kann das Jeedom-Team nicht verantwortlich gemacht werden.
 
@@ -191,7 +191,7 @@ Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage h
 
 ## Supportanfragen (oder Tickets)
 
-> **Important**
+> **Wichtig**
 >
 > Bitte beachten Sie, dass alle Supportanfragen ein Konto auf dem Markt haben müssen.
 
@@ -209,7 +209,7 @@ Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, könn
 
 Alle weiteren Austausche erfolgen per E-Mail.
 
-> **Tip**
+> **Spitze**
 >
 > Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, bedeutet dies, dass Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Supportanfragen pro Monat beschränkt sind.
 

@@ -39,7 +39,7 @@ quien usó su placa.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -68,9 +68,9 @@ Características técnicas
 
 \
 
--   Tipo: Esclavo Z-Wave
+-   Tipo : Esclavo Z-Wave
 
--   Suministro: 2 pilas AA 1.5V
+-   Suministro : 2 pilas AA 1.5V
 
 -   Frecuencia : 868.42 MHz
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Protocolo RFID : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Zumbador: 60dBa a 10 cm de distancia
+-   Zumbador : 60dBa a 10 cm de distancia
 
 -   Temperatura de almacenamiento : -5 ° C a + 65 ° C
 
@@ -88,9 +88,9 @@ Características técnicas
 
 -   Humedad de funcionamiento : 30% a 80%
 
--   Dimensiones: 62 x 62 x 20 mm
+-   Dimensiones : 62 x 62 x 20 mm
 
--   Certificaciones: Seguridad : UL EMC : FCC, CE RoHS
+-   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,9 +99,9 @@ Datos del módulo
 
 \
 
--   Hacer: Zipato
+-   Hacer : Zipato
 
--   Nombre: Mini teclado Zipato RFID
+-   Nombre : Mini teclado Zipato RFID
 
 -   ID del fabricante : 151
 
@@ -111,7 +111,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -122,7 +122,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, solo presione dos
 > segundos en la pestaña de metal (el LED rojo en el panel frontal
@@ -143,7 +143,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -160,16 +160,16 @@ Aquí está la lista de comandos :
 
 \
 
--   Acción: es el comando que subirá a casa / fuera (5 para fuera 6
+-   Acción : es el comando que subirá a casa / fuera (5 para fuera 6
     para el hogar)
 
--   Sabotaje: Este es el comando de sabotaje (se activa en
+-   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   CODIGO: muestra la insignia o el código del teclado cuando se ingresa el código
+-   CODIGO : muestra la insignia o el código del teclado cuando se ingresa el código
     no está en uno de los recuerdos
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -177,10 +177,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -221,7 +221,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -233,7 +233,7 @@ Este módulo tiene dos grupos de asociación.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 1.
@@ -274,7 +274,7 @@ Esto le permite agregar códigos. Verás una mesa allí.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Recuerde activar el módulo después de agregar un código o insignia.
 
@@ -322,7 +322,7 @@ El teclado lee códigos / insignias de dos maneras :
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -358,7 +358,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un

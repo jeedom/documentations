@@ -1,4 +1,4 @@
-Objetivo
+Objetivo 
 ========
 
 Aquí, en el caso, un procedimiento de extremo a extremo para instalar una clave
@@ -11,12 +11,12 @@ Jeedom box, misma autenticación WiFi) . Por supuesto que esto puede
 También funciona para otros componentes (o no) pero sin ningún
 garantie.
 
-> **Important**
+> **Importante**
 >
 > Atención, este procedimiento es especialmente para no hacer en mini + bajo
 > problemas para perder el acceso y tener que reinstalar todo.
 
-> **Important**
+> **Importante**
 >
 > Este documento debe aplicarse bajo su propio riesgo en caso de inquietudes
 > el equipo de Jeedom no puede ser considerado responsable.

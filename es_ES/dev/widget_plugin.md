@@ -46,13 +46,13 @@ public static function templateWidget(){
 
 Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
-> **IMPORTANT**
+> **Importante**
 >
 > Cada plantilla es para un tipo y subtipo dado, por lo que debe verificar que la plantilla que desea usar existe para el tipo y subtipo
 
 Luego, dado que es una plantilla con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en la parte de prueba de la tabla.
 
-Ejemplo: para la primera prueba decimos que si el valor del comando vale 2, entonces tendremos que reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por </i>
+Ejemplo : para la primera prueba decimos que si el valor del comando vale 2, entonces tendremos que reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por </i>
 
 Otro ejemplo basado en otra plantilla podría ser :
 
@@ -72,7 +72,7 @@ public static function templateWidget(){
 
 Aquí creo un widget de toto basado en la plantilla "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
 
->**TIPS**
+>**Consejos**
 >
 > Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con la ruta)
 

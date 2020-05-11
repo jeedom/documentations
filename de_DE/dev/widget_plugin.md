@@ -46,13 +46,13 @@ public static function templateWidget(){
 
 Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (Sie haben die Liste der Vorlagen [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) Es sind diejenigen mit tmpl im Namen), für einen Befehl vom Typ info und unter Zeichenfolgentyp.
 
-> **IMPORTANT**
+> **Wichtig**
 >
 > Jede Vorlage ist für einen bestimmten Typ und Untertyp bestimmt. Sie müssen daher überprüfen, ob die Vorlage, die Sie verwenden möchten, für den Typ und den Untertyp vorhanden ist
 
 Da es sich dann um eine Vorlage mit mehreren Status handelt, müssen Sie die Symbole entsprechend dem Status definieren. Dies erfolgt im Testteil der Tabelle.
 
-Beispiel: Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, müssen wir das Tag ersetzen #\_state_# (im HTML-Code der Vorlage) von </i>
+Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, müssen wir das Tag ersetzen #\_state_# (im HTML-Code der Vorlage) von </i>
 
 Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 
@@ -72,7 +72,7 @@ public static function templateWidget(){
 
 Hier erstelle ich ein Toto-Widget basierend auf der Vorlage "tmplicon" im Infotyp und im Binärtyp. Wenn es 1 ist, wird das Symbol sein <i class='icon_green icon jeedom-porte-ferme'></i> und wenn es 0 dauert, wird es sein </i>
 
->**TIPS**
+>**Tipps**
 >
 > Kleiner Tipp Sie können anstelle eines Symbols ein Bild-Tag einfügen (Vorsicht mit dem Pfad)
 

@@ -25,7 +25,7 @@ Summary
  
 
 **Secure your home using the Z-Wave electronic lock from
-Poly-Control!**
+Poly-Control !**
 
 No more keys, use your smartphone to lock and
 unlock your door ! Danalock is a new solution that
@@ -95,7 +95,7 @@ solid anodized aluminum bezel and advanced technologies
 Bluetooth and Z-Wave. A discreet Danish design built to last.
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -136,17 +136,17 @@ Technical characteristics
 
 \
 
--   Food: 4 CR123 3V batteries
+-   Food : 4 CR123 3V batteries
 
--   Versions: V2
+-   Versions : V2
 
 -   Material : Solid anodized aluminum
 
--   Communication: Bluetooth and Z-Wave
+-   Communication : Bluetooth and Z-Wave
 
--   Dimensions: 79 mm x 49 mm (diameter x height)
+-   Dimensions : 79 mm x 49 mm (diameter x height)
 
--   Weight: 363g
+-   Weight : 363g
 
 \
 
@@ -155,9 +155,9 @@ Module data
 
 \
 
--   Mark: Poly-Control
+-   Mark : Poly-Control
 
--   Name: Danalock V2 BTZE
+-   Name : Danalock V2 BTZE
 
 -   Manufacturer ID : 010e
 
@@ -167,7 +167,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -178,7 +178,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > It is essential to include this module in secure mode..
 
@@ -201,7 +201,7 @@ SECURE (INCLUSION)"
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > We assume that you have installed the application on
 > your smartphone or iphone and created an account. If it is not already
@@ -224,7 +224,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -241,14 +241,14 @@ Here is the list of commands :
 
 \
 
--   Status: it is the command which will go up the last action
+-   Status : it is the command which will go up the last action
     executed (open / close)
 
--   Open: it is the command which opens the lock
+-   Open : it is the command which opens the lock
 
--   To close: it is the command which makes it possible to close the lock
+-   To close : it is the command which makes it possible to close the lock
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 \
 
@@ -332,7 +332,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -375,7 +375,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

@@ -32,7 +32,7 @@ compatible.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -52,7 +52,7 @@ Características técnicas
 
 \
 
--   Suministro: Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
@@ -78,9 +78,9 @@ Datos del módulo
 
 \
 
--   Hacer: Nodon
+-   Hacer : Nodon
 
--   Nombre: CRC-3-6-0x Control remoto suave
+-   Nombre : CRC-3-6-0x Control remoto suave
 
 -   ID del fabricante : 357
 
@@ -90,7 +90,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -101,7 +101,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (+ y 0 lleno) hasta que la luz se vuelva rosa
@@ -121,7 +121,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -138,13 +138,13 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones: es el comando que empujará el botón hacia arriba
+-   Botones : es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones       | Apoyo         | Pulsación larga     | Relajamiento   | Doble soporte   |
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| plein)**       |                |                |                |                |
+| completo)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -153,7 +153,7 @@ Aquí está la lista de comandos :
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Batería: es el comando que eleva el nivel de las baterías
+-   Batería : es el comando que eleva el nivel de las baterías
 
 \
 
@@ -161,10 +161,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -191,18 +191,18 @@ Detalles del parámetro :
 
 \
 
--   1-2: Le permite elegir el perfil de los botones cuando se usa en
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7: Elija el modo de funcionamiento del botón (en caso de que
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Grupos
+### Grupos 
 
 \
 
@@ -226,7 +226,7 @@ Este módulo tiene 7 grupos de asociación.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -245,7 +245,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -269,7 +269,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

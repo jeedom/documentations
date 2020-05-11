@@ -1,28 +1,28 @@
 Aeotec Garagentorsteuerung 
 ====================================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/aeotec.garagedoorcontroller/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Einfach an den vorhandenen Türmotor, die Steuerung, anzuschließen
 Garagentor erweitert es mit einer Reihe von Sicherheitssensoren und
@@ -33,12 +33,12 @@ smart kommt mit der garagentorsteuerung weiß ob die tür
 ist offen oder geschlossen und kann Sie benachrichtigen, wenn dies nicht der Fall ist
 sollte nicht.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Steuern und überwachen Sie Ihr Garagentor aus der Ferne.
 
@@ -70,16 +70,16 @@ Funktionen
 
 -   Optimierung der Antenne, Reichweite 300 Meter.
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
--   Versorgung: Aktuator: 5 VDC (Adapter mitgeliefert) Sensor : Pile
+-   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Pile
     Lithium 3V 800mA CR2
 
 -   Standby-Verbrauch : 1W
@@ -100,16 +100,16 @@ Technische Daten
 
 -   Certifications: FCC, UL, CE, ROHS
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Aeotec
+-   Machen Sie : Aeotec
 
--   Name: Garagentorsteuerung (ZW062)
+-   Name : Garagentorsteuerung (ZW062)
 
 -   Hersteller ID : 134
 
@@ -117,95 +117,95 @@ Moduldaten
 
 -   Produkt-ID : 62
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Z-Wave gemäß seiner Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/aeotec.garagedoorcontroller/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/aeotec.garagedoorcontroller/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/aeotec.garagedoorcontroller/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
 -   Öffnen / Schließen : Öffnen, schließen oder stoppen Sie das Garagentor.
 
--   Position: Aktuelle Garagentorposition.
+-   Position : Aktuelle Garagentorposition.
 
--   Lautstärke: Aktuelle Lautsprecherlautstärke.
+-   Lautstärke : Aktuelle Lautsprecherlautstärke.
 
 -   Temperatur : Zonentemperatur, kein automatischer Aufstieg.
 
--   Sabotage: Textsabotagestatus.
+-   Sabotage : Textsabotagestatus.
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/aeotec.garagedoorcontroller/config1.jpg)
 
 ![Config1](images/aeotec.garagedoorcontroller/config2.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   34: Ermöglicht das Starten der Kalibrierung der Öffnungszeit von
     die Tür.
@@ -217,25 +217,25 @@ Parameterdetails :
 
 -   255 : Ermöglicht das Zurücksetzen der Werkskonfiguration
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat zwei Zuordnungsgruppen. Die erste "Rettungsleine" ist
 indispensable.
 
-\
+\.
 
 ![Groupe](images/aeotec.garagedoorcontroller/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
@@ -257,7 +257,7 @@ Die Kalibrierung ist abgeschlossen
 
 -   Parameter 35 wird mit der berechneten Öffnungszeit aktualisiert.
 
-\
+\.
 
 Sabotage zurückgesetzt:
 
@@ -271,13 +271,13 @@ Die Kalibrierung ist abgeschlossen
 
 -   Parameter 41 wird aktualisiert mit "Sensor wird nicht entfernt".
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
-\
+\.
 
 **@nechry**

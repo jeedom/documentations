@@ -1,4 +1,4 @@
-Goal
+Goal 
 ========
 
 Here you will find the documentation to install Jeedom on a
@@ -40,7 +40,7 @@ Then restart PI3
 
     sudo reboot
 
-> **Important**
+> **IMPORTANT**
 >
 > To avoid power issues, choose an mSATA SSD
 > low consumption.
@@ -56,7 +56,7 @@ Possible adjustments
 
 **The following remarks must then be taken into account :**
 
-> **Important**
+> **IMPORTANT**
 >
 > The following changes are the result of problems encountered by
 > the users. You must adapt them to your case. The support

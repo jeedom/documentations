@@ -31,7 +31,7 @@ haga clic en **Crear una cuenta**
 ![tuto.github1](images/tuto.github1.png)
 
 Entonces llega a la segunda página como se muestra a continuación y no cambia
-nada, haces clic **Continue**
+nada, haces clic **Continúa**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -92,7 +92,7 @@ especifique el texto que está buscando (un elemento significativo y un
 solo línea, no un bloque completo a la vez). Confirme con "Enter" para
 comenzar la búsqueda.
 
-> **Tip**
+> **Punta**
 >
 > Si no hace clic en la ventana que contiene el texto o el código
 > que está buscando, se abrirá la búsqueda del navegador y
@@ -124,7 +124,7 @@ Envía el cambio
 Enviar un cambio 
 --------------------------
 
-El**commit** hecho arriba solo se refiere a la bifurcación del proyecto en
+El **cometer** hecho arriba solo se refiere a la bifurcación del proyecto en
 tu espacio GitHub. Para enviar cambios al proyecto original,
 debe realizar una PR (solicitud de extracción)
 

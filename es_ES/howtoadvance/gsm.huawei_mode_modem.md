@@ -5,7 +5,7 @@ Jeedom en una VM (VMware ESXi). De hecho, si no lo pasas
 Modo GSM solo la clave no aparecerá en la lista de
 Dispositivos USB que puede pasar a la VM.
 
-> **Important**
+> **Importante**
 >
 > Este tutorial se realizó en Windows 10
 
@@ -52,7 +52,7 @@ en la tecla "Enter"" :
 
     AT ^ u2diag = 0
 
-> **Important**
+> **Importante**
 >
 > Tenga cuidado cuando escriba el texto, no verá nada en
 > la pantalla es normal, el texto aún se tiene en cuenta.

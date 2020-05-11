@@ -31,14 +31,14 @@ La url de empuje es de la forma :
 
 Con parámetros :
 
--   Identificación: la identificación del feed que se encuentra en emoncms
+-   Identificación : la identificación del feed que se encuentra en emoncms
 
--   apikey: La clave de API de lectura y escritura para emoncms
+-   apikey : La clave de API de lectura y escritura para emoncms
 
--   valor: debemos irnos *value* para que Jeedom envíe el
+-   valor : debemos irnos *valor* para que Jeedom envíe el
     valor de la información
 
--   poder: modificar para
+-   poder : modificar para
 
 Notificación a Jeedom o recuperación de Jeedom 
 ======================================================
@@ -99,7 +99,7 @@ conf especial necesita un repertorio clásico
             try_files = $ uri $ uri / @missing;
 
        ubicación ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                incluir fastcgi_params;

@@ -37,16 +37,16 @@ Eso hace 4 referencias :
 -   i3 M2 : [Intel NUC
     NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
 
--   i3 M2 + 2.5 pulgadas: [Intel NUC
+-   i3 M2 + 2.5 pulgadas : [Intel NUC
     NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
 
 -   i5 M2 : [Intel NUC
     NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
 
--   i5 M2 + 2.5 pulgadas: [Intel NUC
+-   i5 M2 + 2.5 pulgadas : [Intel NUC
     NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
-SSD
+SSD 
 ---
 
 Tienes que agregar un SSD y memoria. SSD nivel I usted
@@ -56,7 +56,7 @@ o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
 que una VM básica (sin almacenamiento) tiene entre 20 y 40 GB, agregue a
 este 40GB para VMware se llena rápidamente.
 
-> **Important**
+> **Importante**
 >
 > VMware no admite agregar discos USB, por lo que es difícil
 > para ampliar el espacio disponible
@@ -104,7 +104,7 @@ recuperar VMware y ponerlo en una llave USB.
 Descarga de VMware 
 ------------------------
 
-> **Important**
+> **Importante**
 >
 > Si pones vmware 6.5, hay un problema con la nueva administración
 > USB y llaves Zwave, para que esto funcione debes aplicar esto
@@ -204,11 +204,11 @@ Instalación de VMware
 Ahí es muy simple, solo coloque la llave USB en uno de los puertos
 NUC USB, conecte una pantalla al puerto HDMI, un teclado y
 comida Enciende el NUC, la instalación comenzará
-solo:
+solo :
 
 ![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
 
-> **Note**
+> **Nota**
 >
 > Olvidé capturar la validación de la licencia,
 > solo acepta seguir las instrucciones

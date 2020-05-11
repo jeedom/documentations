@@ -32,7 +32,7 @@ Sie können eine Verbindung über die auf der Seite angegebene Adresse herstelle
 
 Denken Sie daran, der VM den USB-Anschluss des Delta zuzuweisen, wenn Sie eine Antenne verwenden möchten.
 
-Tu es nicht**pas** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum).
+Tu es nicht **nicht** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von Überkonsum).
 
 Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
 

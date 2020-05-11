@@ -7,7 +7,7 @@ Instalación de Nodered
 =======================
 
 Aquí están los comandos para iniciar la instalación de nodered con un nodejs
-funcional:
+funcional :
 
     sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
     sudo npm install -g nodo-rojo

@@ -41,7 +41,7 @@ and surveillance and / or security systems.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -78,7 +78,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave + transmitter
 
--   Food: CR123A 3,6VDC battery
+-   Food : CR123A 3,6VDC battery
 
 -   Recommended height for installation : 2,4m
 
@@ -96,7 +96,7 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Certifications: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Certifications : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
 \
@@ -106,9 +106,9 @@ Module data
 
 \
 
--   Mark: Fibar Group
+-   Mark : Fibar Group
 
--   Name: Fibaro FGMS-001-ZW5 \ [Motion Sensor \]
+-   Name : Fibaro FGMS-001-ZW5 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -118,7 +118,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -129,7 +129,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -149,7 +149,7 @@ drop-down list you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -172,15 +172,15 @@ Here is the list of commands :
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness: it is the command which makes it possible to raise the brightness
+-   Brightness : it is the command which makes it possible to raise the brightness
 
--   Seismic: it is the command which allows to increase the intensity
+-   Seismic : it is the command which allows to increase the intensity
     sismique
 
--   Sabotage: this is the sabotage command (it is triggered in case
+-   Sabotage : this is the sabotage command (it is triggered in case
     vibration)
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 \
 
@@ -188,10 +188,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -224,7 +224,7 @@ Parameter details :
 
 \
 
--   Wakeup: this is the module wake-up interval (value
+-   Wakeup : this is the module wake-up interval (value
     7200 recommended)
 
 -   1: adjusts the sensitivity of the presence sensor
@@ -302,7 +302,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -346,10 +346,10 @@ Good to know
 > **Tip**
 >
 > This module is very finicky on wakeup and very badly configured
->factory It is essential to wake it up well after inclusion
+> factory. It is essential to wake it up well after inclusion
 > (several times are better than one), to configure it according to your
 > wishes, and to wake it up well so that the config is taken into account
->Account
+> Account.
 
 \
 
@@ -361,7 +361,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -398,7 +398,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

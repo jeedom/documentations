@@ -26,11 +26,11 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy
 práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
-> **Important**
+> **Importante**
 >
 > Neutral solo es necesario para el modo "Obturador""
 
-Funciones
+Funciones 
 =========
 
 -   2 salidas de relé suministradas
@@ -85,9 +85,9 @@ Características técnicas
 Datos del módulo 
 =================
 
--   Hacer: Edisio Smart Home
+-   Hacer : Edisio Smart Home
 
--   Nombre: EMV-400
+-   Nombre : EMV-400
 
 Configuración general 
 ======================
@@ -96,15 +96,15 @@ Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
 [Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Important**
+> **Importante**
 >
 > Por el contrario, los receptores Edisio deben crearse manualmente en
->Jeedom
+> Jeedom.
 
 Interruptor DIP y botón "R" : 
 --------------------------
@@ -116,11 +116,11 @@ Interruptor DIP y botón "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Note**
+> **Nota**
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
->Instalación
+> Instalación.
 
 -   El botón "R", permitirá asociar un transmisor al receptor,
     activar o desactivar la función del temporizador y activar el modo
@@ -128,7 +128,7 @@ Interruptor DIP y botón "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Note**
+> **Nota**
 >
 > Al presionar R 3x se activa el modo remoto.
 
@@ -138,7 +138,7 @@ Diagrama de funciones
 A continuación, si su transmisor está configurado en "1 tecla" o "modo 2
 teclas ", así es como funciona el módulo:
 
-> **Note**
+> **Nota**
 >
 > Consulte la documentación del fabricante para poder
 > configura tu transmisor.
@@ -151,7 +151,7 @@ Función de temporizador
 La función de temporizador apaga automáticamente los relés al final
 30 o 60 minutos.
 
--   Activar: Presione 4x "R" en el receptor, confirmación con un simple
+-   Activar : Presione 4x "R" en el receptor, confirmación con un simple
     pitido continuo
 
 -   Desactivar: Presione 5x "R" en el receptor, confirmación por 3 simples
@@ -167,7 +167,7 @@ Modo "Iluminación""
 El modo "Iluminación" le permite controlar 2 dispositivos eléctricos para
 distance.
 
-> **Important**
+> **Importante**
 >
 > Neutral no es necesario
 
@@ -176,12 +176,12 @@ Configuracion electrica y conexiones :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **Important**
+> **Importante**
 >
 > Para que el módulo esté en modo "Iluminación", el interruptor DIP 2 debe estar
 > en alto
 
-> **Important**
+> **Importante**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
@@ -197,7 +197,7 @@ Una vez que se crea su equipo, debe obtener esto :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Note**
+> **Nota**
 >
 > Recuerde activar su nuevo equipo.
 
@@ -206,7 +206,7 @@ Iluminación" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Comandos
+Comandos 
 ---------
 
 Una vez que guarde su equipo, debe recibir los pedidos
@@ -216,38 +216,38 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Uno: Es el comando que activa el relé 1
+-   Uno : Es el comando que activa el relé 1
 
--   Apagado: Es el comando que permite desactivar el relé 1
+-   Apagado : Es el comando que permite desactivar el relé 1
 
 -   Nosotros 2 : Es el comando que activa el relé 2
 
 -   Apagado 2: Es el comando que desactiva el relé 2
 
--   E: Este es el comando que te permite usar el modo remoto
+-   E : Este es el comando que te permite usar el modo remoto
 
-> **Important**
+> **Importante**
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
 > use otro transmisor, Jeedom no podrá actualizar el estado
 > del receptor.
 
-Información
+Información 
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
-disponible:
+disponible :
 
 ![Comandos](images/emv.400/infos_eclairage.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo
 
--   Comunicación: Indica la última comunicación registrada entre
+-   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería: Indica el estado de la batería para los módulos de batería
+-   Batería : Indica el estado de la batería para los módulos de batería
 
--   Estado: Devuelve el estado del módulo
+-   Estado : Devuelve el estado del módulo
 
 Asociación del micromódulo con Jeedom 
 ===================================
@@ -255,7 +255,7 @@ Asociación del micromódulo con Jeedom
 Para que pueda interactuar con Jeedom, como si fuera un
 Transmisor Edisio.
 
-> **Note**
+> **Nota**
 >
 > Una de las grandes ventajas de Edisio es que un receptor puede tener
 > varios emisores asociados
@@ -342,7 +342,7 @@ ahora reemplaza el botón "R" en el receptor.
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
-> **Note**
+> **Nota**
 >
 > Puede comenzar de nuevo tantas veces como quiera asociar
 > de transmisores a receptor

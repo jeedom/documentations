@@ -1,28 +1,28 @@
 Fibaro FGRM-222 "Rollladen" 
 ===============================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Mit dem Mikromodul FGRM-222 können Sie die Motorisierungen von verwalten
 elektronische Rollläden, Jalousien oder Türen
@@ -43,14 +43,14 @@ Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
 habitation.
 
-Notiz: Dieses Modul benötigt zum Betrieb einen Neutralleiter.
+Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 
@@ -73,16 +73,16 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung: 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Stromverbrauch : &lt; 0,8W
 
@@ -102,18 +102,18 @@ Technische Daten
 
 -   Temperatur begrenzen : 105°C
 
--   Standards: LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
+-   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Fibar Group
+-   Machen Sie : Fibar Group
 
--   Name: Fibaro FGRM-222
+-   Name : Fibaro FGRM-222
 
 -   Hersteller ID : 271
 
@@ -121,107 +121,107 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
 ![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Zustand: Es ist der Befehl, der es ermöglicht, die Position von zu kennen
+-   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
 
--   Positionierung: Es ist der Befehl, der es ermöglicht, das zu definieren
+-   Positionierung : Es ist der Befehl, der es ermöglicht, das zu definieren
     Öffnungsprozentsatz
 
--   Auf: Mit diesem Befehl können Sie den Verschluss vollständig öffnen
+-   Auf : Mit diesem Befehl können Sie den Verschluss vollständig öffnen
 
--   Runter: Es ist der Befehl, der den Verschluss vollständig schließt
+-   Runter : Es ist der Befehl, der den Verschluss vollständig schließt
 
--   Aktualisieren: Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
+-   Aktualisieren : Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
     des Verschlusses
 
--   Macht: Befehl, der den Verbrauch des Moduls zulässt
+-   Macht : Befehl, der den Verbrauch des Moduls zulässt
 
--   Verbrauch: Kontrolle, um die Leistung zu kennen
+-   Verbrauch : Kontrolle, um die Leistung zu kennen
     Sofort vom Modul verwendet
 
--   STOP: Steuerung, um die Bewegung des Verschlusses zu stoppen
+-   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
 
 -   STOP BSO : Befehl zum Stoppen der Bewegung (im Modus
     verstellbare Lamelle)
 
--   Kippen: Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
+-   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
--   Nicht: Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
+-   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
     Incliner
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +231,11 @@ Einstellungen)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   1: ermöglicht das Blockieren des Moduls (um einen Verschluss einzufrieren) (in dem Fall
     Drücken eines Schalters)
@@ -279,76 +279,76 @@ Parameterdetails :
 -   50: Hier können Sie auswählen, ob das Modul die Informationen an die Knoten senden soll
     in Assoziation im Szenenmodus oder im Assoziationsmodus
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
 indispensable.
 
-\
+\.
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
-### Zurücksetzen
+### Zurücksetzen 
 
-\
+\.
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
-\
+\.
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
-\
+\.
 
-### Wichtig
+### Wichtig 
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Damit Status-Feedback in Jeedom funktioniert, ist dies erforderlich
 > Erzwingen Sie die Gerätekalibrierung (Parameter 29 auf "Ja") und die
 > Positionierung muss aktiv sein (Parameter 10 mit Werten "Aktiv
 > direkt "," Active Venetian "oder" Active Door ").
 
-\
+\.
 
 ### Alternative visuelle 
 
-\
+\.
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-\
+\.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Lesen Sie den Abschnitt Zurücksetzen in diesem Dokument.
 
-\
+\.
 
 **@sarakha63**

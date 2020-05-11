@@ -81,6 +81,6 @@ complete documentation : [Documentation
 Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
 video tutorials : [Video tutorials](https://doc.jeedom.com/en_US/presentation/index#tocAnchor-1-3).
 Do not hesitate to go to the Jeedom Forum for any other
-Question: [Jeedom forum](https://www.jeedom.com/forum/).
+Question : [Jeedom forum](https://www.jeedom.com/forum/).
 
 Thank you, and good discovery of home automation with Jeedom.

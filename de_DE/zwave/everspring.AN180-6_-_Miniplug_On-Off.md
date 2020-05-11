@@ -1,28 +1,28 @@
 Everspring Miniplug Ein / Aus - AN180-6 
 ====================================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/everspring.AN180-6/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/everspring.AN180-6/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Der Mini-Ein / Aus-Stecker dient zur Steuerung der Zündung und
 Ausschalten der Lichter und elektrischen Geräte Ihres
@@ -35,12 +35,12 @@ für die Arbeit mit allen Z-Wave ™ -kompatiblen Netzwerken. Sie kann
 von einer Fernbedienung, einer PC-Software oder einer anderen gesteuert werden
 Z-Wave-Controller für Ihr Netzwerk.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Steuern Sie eine Lampe oder ein Gerät fern
 
@@ -60,18 +60,18 @@ Funktionen
 
 -   Z-Wave-Repeater-Funktion
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung: 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
--   Verbrauch: 0.6W
+-   Verbrauch : 0,6 W.
 
 -   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
     : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
@@ -83,18 +83,18 @@ Technische Daten
 
 -   Affichage: LED auf der Taste
 
--   Abmessungen: Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
+-   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Everspring
+-   Machen Sie : Everspring
 
--   Name: Ministecker ein / aus
+-   Name : Ministecker ein / aus
 
 -   Hersteller ID : 96
 
@@ -102,97 +102,97 @@ Moduldaten
 
 -   Produkt-ID : 7
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
 > Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
 > Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
 > gehört zu keinem Netzwerk und wird mit Strom versorgt
 
-\
+\.
 
 ![inclusion](images/everspring.AN180-6/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/everspring.AN180-6/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Zustand: Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Ein: Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus: Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
-\
+\.
 
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
 das gleiche Symbol.
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
@@ -203,51 +203,51 @@ Parameterdetails :
 -   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
     (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat 2 Zuordnungsgruppen.
 
-\
+\.
 
 ![Groupe](images/everspring.AN180-6/groupe.jpg)
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Jeedom sollte mindestens in Gruppe 1 landen
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
-\
+\.
 
 -   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-   Sekunden \
+    Sekunden. \.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
 secondes.
 
-\
+\.
 
 **@sarakha63**

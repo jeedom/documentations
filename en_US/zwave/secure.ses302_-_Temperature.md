@@ -45,7 +45,7 @@ can easily include / exclude it in a Z-Wave network.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Protection sign : IP30
 
--   Dimensions: 86 x 85 x 30 mm
+-   Dimensions : 86 x 85 x 30 mm
 
 \
 
@@ -93,9 +93,9 @@ Module data
 
 \
 
--   Mark: Horstmann
+-   Mark : Horstmann
 
--   Name: SES 302 Temperature Sensor
+-   Name : SES 302 Temperature Sensor
 
 -   Manufacturer ID : 89
 
@@ -105,7 +105,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -116,7 +116,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press 1 second on
 > the button on the back and release, according to its paper documentation.
@@ -135,7 +135,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -154,7 +154,7 @@ Here is the list of commands :
 
 -   Temperature : it is the temperature measurement command
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 Several non visible temperatures are also available and will be
 useful if you have connected external probes
@@ -165,10 +165,10 @@ useful if you have connected external probes
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -206,7 +206,7 @@ external probes possibly connected
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -235,7 +235,7 @@ Good to know
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -263,7 +263,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wake up, after a

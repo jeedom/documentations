@@ -39,7 +39,7 @@ well used as primary as secondary controller.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -67,7 +67,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food: 1 Lithium 3V CR2450 battery
+-   Food : 1 Lithium 3V CR2450 battery
 
 -   Battery life : 1 year
 
@@ -77,7 +77,7 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C to 50 ° C
 
--   Dimensions: 55 x 30 x 13mm (L x W x H)
+-   Dimensions : 55 x 30 x 13mm (L x W x H)
 
 \
 
@@ -86,9 +86,9 @@ Module data
 
 \
 
--   Mark: Aeotec
+-   Mark : Aeotec
 
--   Name: Key Fob
+-   Name : Key Fob
 
 -   Manufacturer ID : 134
 
@@ -98,7 +98,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -109,7 +109,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper documentation.
@@ -128,7 +128,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -145,7 +145,7 @@ Here is the list of commands :
 
 \
 
--   Buttons: it is the command which will push the button up
+-   Buttons : it is the command which will push the button up
 
 1 : Button 1 short press
 
@@ -169,10 +169,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -207,7 +207,7 @@ between the remote control and modules.
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -242,7 +242,7 @@ To use this module as a remote control, proceed as follows :
 -   5 : Change the operating mode of the remote control while remaining
     press the two buttons on the back for 3 seconds.
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -272,7 +272,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

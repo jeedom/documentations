@@ -23,7 +23,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - Las lenguas
     - hardware compatible
     - una nota sobre el uso si es necesario
-  - Github: aquí es donde colocará la información entre el mercado y Github
+  - Github : aquí es donde colocará la información entre el mercado y Github
     - el token (solo se pone si su complemento está en un depósito privado)
     - tu nombre de usuario github
     - el nombre del repositorio en github

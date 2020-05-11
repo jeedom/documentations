@@ -1,4 +1,4 @@
-Ziel
+Ziel 
 ========
 
 Der Zweck dieses Artikels ist es, Sie bei der Verwendung von Android zu unterstützen
@@ -6,7 +6,7 @@ mit Jeedom sprechen. Wir werden die Jeedom Interaktions-Engine verwenden, die
 ermöglicht es, Anfragen zu stellen und Jeedom darauf zu antworten (und auch, wenn wir
 wünschen, verschiedene Szenarien oder Elemente aktivieren).
 
-Installation
+Installation 
 ============
 
 Die Voraussetzungen 
@@ -38,7 +38,7 @@ wird sein, die Rückkehr von Jeedom zu erklären.
 Profilerstellung 
 ==================
 
-Wir fügen ein neues Profil mit einem hinzu **état** als Auslöser.
+Wir fügen ein neues Profil mit einem hinzu **Zustand** als Auslöser.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -50,7 +50,7 @@ Im Plugin-Typ wählen wir **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-Im Untermenü **AutoVoice**, Wir wählen **Recognized**.
+Im Untermenü **AutoVoice**, Wir wählen **Anerkannt**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
@@ -70,8 +70,8 @@ Beispielsweise könnte es als "Jeedom API" bezeichnet werden".
 
 ![android.autovoice6](images/android.autovoice6.png)
 
-Die Aufgabe gruppiert schließlich 2 Aktionen : **API-Aufruf** und**sag das
-retour**.
+Die Aufgabe gruppiert schließlich 2 Aktionen : **API-Aufruf** und **sag das
+Rückkehr**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -84,11 +84,11 @@ Dann wählen wir **Holen Sie sich HTTP**.
 ![android.autovoice9](images/android.autovoice9.png)
 
 Hier werden wir mit Jeedom Informationen füllen. Hier sind die Informationen zu
-eingeben:
+eingeben :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Weg:
+-   Weg :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interag & query =% avcommnofilter & utf8 = 1`
 
 Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette zu platzieren
@@ -97,7 +97,7 @@ ersetzt durch die Rückgabe von Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Fügen Sie eine Typaktion hinzu **Dire**. Filtern Sie dazu die Aktionen nach
+Fügen Sie eine Typaktion hinzu **Zu sagen**. Filtern Sie dazu die Aktionen nach
 "Sagen" an der Lupe.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -113,14 +113,14 @@ Jeedom Interaktionen und Sie können ihn fragen, was auch immer Sie
 wollen. Von "Was ist die Temperatur im Wohnzimmer" bis "Licht einschalten"
 salon".
 
-> **Tip**
+> **Spitze**
 >
 > Wenn es von Anfang an nicht funktioniert, liegt es oft an AutoVoice
 > ist nicht aktiv. Klicken Sie dazu auf Google Now
 > Integration und auf die erste Wahl ganz oben und autorisieren
->AutoVoice
+> AutoVoice.
 
-> **Tip**
+> **Spitze**
 >
 > Standardmäßig deaktiviert AutoVoice die Google Now-Suche
 > Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf

@@ -1,28 +1,28 @@
 Fibaro Dimmer - REA-211 
 =======================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/fibaro.fgd211/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Mit dem Dimmermodul FGD-211 können Sie a steuern
 Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
@@ -52,12 +52,12 @@ wenn Sie bereits ein vorhandenes Netzwerk haben. Jedes Z-Wave-Modul funktioniert
 als drahtloser Repeater mit den anderen Modulen zu gewährleisten
 Gesamtabdeckung Ihres Hauses.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Fernbeleuchtung
 
@@ -75,16 +75,16 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung: 230 V, 50 Hz
+-   Versorgung : 230 V, 50 Hz
 
 -   Verkabelung : Neutral nicht erforderlich
 
@@ -95,7 +95,7 @@ Technische Daten
 
 -   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
--   Sicherung: 2.5A
+-   Sicherung : 2.5A
 
 -   Frequenz : 868,42 MHz
 
@@ -107,18 +107,18 @@ Technische Daten
 
 -   Temperatur begrenzen : 105°C
 
--   Standards: EN 55015 und EN 60669-2-1
+-   Standards : EN 55015 und EN 60669-2-1
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Fibar Group
+-   Machen Sie : Fibar Group
 
--   Name: Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -126,96 +126,96 @@ Moduldaten
 
 -   Produkt-ID : 4106
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
-\
+\.
 
-> **Tip**
+> **Spitze**
 >
 > Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
 > durch viele hin und her auf dem Schalter oder viele
 > Drücken Sie, wenn Sie einen Druckknopfschalter haben.
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/fibaro.fgd211/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Intensität: Mit diesem Befehl können Sie die Intensität des einstellen
+-   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein: Es ist die Steuerung, die das Licht einschaltet
+-   Ein : Es ist die Steuerung, die das Licht einschaltet
 
--   Aus: Es ist der Befehl, der das Licht ausschaltet
+-   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand: Es ist der Befehl, mit dem der Status des
+-   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 icone
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/fibaro.fgd211/config1.jpg)
 
@@ -223,11 +223,11 @@ Einstellungen)
 
 ![Config3](images/fibaro.fgd211/config3.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   1: ALL ON / ALL OFF-Funktionen : wird nur verwendet, wenn Sie die zugeordnet haben
     REA-211 zu einem anderen Modul
@@ -277,68 +277,68 @@ Parameterdetails :
 
 -   41: Ermöglicht das Aktivieren oder Nicht-Aktivieren der Szenenaktivierungsfunktion
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
 indispensable.
 
-\
+\.
 
 ![Groupe](images/fibaro.fgd211/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
-\
+\.
 
-> **Caution**
+> **Kaution**
 >
 > Der wichtigste Parameter der Konfiguration ist 14. Es
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
 > ist auf monostabil eingestellt.
 
-\
+\.
 
 Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
 Schalter Sie können Ihren Schalter mehrmals drücken
 (oder bei einem bistabilen Schalter hin und her gehen)
 
-\
+\.
 
 ### Alternative visuelle 
 
-\
+\.
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-\
+\.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
 auf dem Schalter.
 
-\
+\.
 **@sarakha63**

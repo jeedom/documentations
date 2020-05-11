@@ -1,4 +1,4 @@
-Ziel
+Ziel 
 ========
 
 Hier für den Fall eine End-to-End-Prozedur zum Installieren eines Schlüssels
@@ -11,12 +11,12 @@ Jeedom Box, gleiche WiFi-Authentifizierung) . Natürlich kann das
 Arbeiten Sie auch für andere Komponenten (oder nicht), jedoch ohne
 garantie.
 
-> **Important**
+> **Wichtig**
 >
 > Achtung, dieses Verfahren ist besonders bei mini + under nicht zu machen
 > Probleme, den Zugriff darauf zu verlieren und alles neu installieren zu müssen.
 
-> **Important**
+> **Wichtig**
 >
 > Dieses Dokument ist bei Bedenken auf eigenes Risiko anzuwenden
 > Das Jeedom-Team kann in keiner Weise zur Verantwortung gezogen werden.

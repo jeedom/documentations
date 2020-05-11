@@ -50,7 +50,7 @@ distance.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -81,13 +81,13 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Color: noire
+-   Color : noire
 
 -   Alimentation: 230V ± 10% - 50Hz
 
 -   Max power : 660W
 
--   Consumption: &lt; 0,08W
+-   Consumption : &lt; 0,08W
 
 -   Protection sign: IP20
 
@@ -95,13 +95,13 @@ Technical characteristics
 
 -   Radio frequency : 868.42 MHz (EU)
 
--  Dist transmission: Up to 30m indoors (depends on materials)
+-   Dist. transmission: Up to 30m indoors (depends on materials)
 
--  Temp operation: 0 - 40 ° C
+-   Temp. operation : 0 - 40 ° C
 
 -   On / off display : Blue LEDs
 
--   Dimensions: 84 x 32 x 29 mm
+-   Dimensions : 84 x 32 x 29 mm
 
 -   EU standards : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark: Swiid
+-   Mark : Swiid
 
--   Name: Swiidinter
+-   Name : Swiidinter
 
 -   Manufacturer ID : 358
 
@@ -124,7 +124,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -135,7 +135,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > on the back, in accordance with its paper documentation
@@ -154,7 +154,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -171,12 +171,12 @@ Here is the list of commands :
 
 \
 
--   State: It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     Light
 
--   We: It is the control that turns on the light
+-   We : It is the control that turns on the light
 
--   Off: It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
 \
 
@@ -217,7 +217,7 @@ swiidinter to another module (long press)
 
 \
 
--   Inactive: will have no effect on other lights
+-   Inactive : will have no effect on other lights
 
 -   Only OFF : will be effective only to turn off others
     Lights
@@ -230,7 +230,7 @@ swiidinter to another module (long press)
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -242,7 +242,7 @@ This module has two association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For optimum operation of your module. Jeedom must
 > be associated at least with group 2.

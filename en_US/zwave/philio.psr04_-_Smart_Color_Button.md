@@ -51,7 +51,7 @@ low energy consumption allowing greater autonomy.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -87,7 +87,7 @@ Technical characteristics
 
 \
 
--   Food: Lithium Polymer 3 Battery.7V, 220mA v
+-   Food : Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
 
 -   Standby consumption : 18µA
@@ -98,9 +98,9 @@ Technical characteristics
 
 -   Transmission distance : 100m outdoors, 40m indoors
 
--   Dimensions:
+-   Dimensions :
 
-Support: 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
+Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
 mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
 x thickness) \* Certifications :
 
@@ -114,9 +114,9 @@ Module data
 
 \
 
--   Mark: Philio
+-   Mark : Philio
 
--   Name: PSR04 Smart Color Button
+-   Name : PSR04 Smart Color Button
 
 -   Manufacturer ID : 316
 
@@ -126,7 +126,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -137,7 +137,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
@@ -157,7 +157,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -174,10 +174,10 @@ Here is the list of commands :
 
 \
 
--   State: it is the command which will move the button position from 0 to
+-   State : it is the command which will move the button position from 0 to
     100%
 
--   Drums: this is the command that reports the battery status of the
+-   Drums : this is the command that reports the battery status of the
     module
 
 \
@@ -186,10 +186,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -231,7 +231,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -261,7 +261,7 @@ adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -289,7 +289,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

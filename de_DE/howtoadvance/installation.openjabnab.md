@@ -1,7 +1,7 @@
 Hier ist ein Tutorial, wie man openjabnab lokal installiert (auf einem RPI oder
 humming)
 
-> **Note**
+> **Notiz**
 >
 > Dieses Tutorial ist weitgehend inspiriert von
 > [dieser hier](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -43,7 +43,7 @@ Das Ergebnis ist :
 
 Hier lautet die IP-Adresse 192.168.0.162.
 
-> **Note**
+> **Notiz**
 >
 > Für den Rest des Tutorials werde ich diese IP verwenden, das ist es natürlich
 > Ersetzen Sie je nachdem, welche Sie tatsächlich
@@ -77,7 +77,7 @@ Und hinzufügen :
 
 Erstellen Sie die Datei db.raspberry.pi
 
-vim db.raspberry.pi---
+vim db.raspberry.pi ---
 
 Und steck es ein :
 
@@ -110,7 +110,7 @@ Und setzen :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, die 162 in der letzten Zeile durch die letzte zu ersetzen
 > Teil Ihres Systems IP
@@ -136,7 +136,7 @@ Das solltest du haben :
     4 Pakete gesendet, 4 empfangen, 0% Paketverlust, Zeit 3000ms
     rtt min / avg / max / mdev = 0,059 / 0,065 / 0,069 / 0.010 ms
 
-> **Note**
+> **Notiz**
 >
 > Sie müssen Strg + C drücken, um den Ping zu beenden
 
@@ -165,7 +165,7 @@ Dann klone openjabnab :
 Webserverkonfiguration 
 ============================
 
-Tun:
+Tun :
 
     cd / etc / apache2 / sites-available /
     vim ojn.conf
@@ -210,21 +210,21 @@ Dann starten wir Apache neu :
 Installation von openjabnab 
 =========================
 
-Tun:
+Tun :
 
     su ojn
     cd / home / ojn / OpenJabNab / server
     qmake -r
     make
 
-> **Note**
+> **Notiz**
 >
 > Dieser Schritt kann sehr lang sein (bis zu 45 Minuten)
 
 Openjabnab-Konfiguration 
 ==========================
 
-Tun:
+Tun :
 
     cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
@@ -236,7 +236,7 @@ Und ändern Sie die folgenden Zeilen :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-Und alle ersetzen *my.domain.com* Von*ojn.raspberry.pi*
+Und alle ersetzen *my.domain.com* Von *ojn.raspberry.pi*
 
 Openjabnab-Webserverkonfiguration 
 =======================================
@@ -265,7 +265,7 @@ Jetzt geh zu :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Note**
+> **Notiz**
 >
 > Wenn alles in Ordnung ist, sollten Sie die Statistiken haben, die in angezeigt werden
 > bas
@@ -281,7 +281,7 @@ Dann sollten Sie mit Ihrem PC ein neues WLAN-Netzwerk haben
 nabaztagXX, stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
 
 Geben Sie einmal Ihre WLAN-Konfiguration und Informationen ein
-folgenden:
+folgenden :
 
     DHCP aktiviert : no
     Lokale Maske : 255.255.255.0
@@ -293,7 +293,7 @@ Openjabnab Server Überwachung und Autostart
 
 Wie Sie feststellen werden, wenn Sie sich vom Server abmelden
 openjabnab bleibt stehen. Sie müssen also ein kleines Skript hinzufügen
-Überwachen Sie den Server und starten Sie ihn automatisch. Tun:
+Überwachen Sie den Server und starten Sie ihn automatisch. Tun :
 
     cd / home / ojn
     vim checkojn.sh
@@ -318,7 +318,7 @@ Und hinzufügen :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Important**
+> **Wichtig**
 >
 > Es ist absolut notwendig, es in die Wurzel crontab zu legen, wenn Sie sind
 > wieder mit Benutzer ojn do ctrl + D
@@ -335,7 +335,7 @@ Sie müssen haben :
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
 Sie müssen jetzt ein Konto erstellen, indem Sie auf "Erstellen" klicken
-Benutzer:
+Benutzer :
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
@@ -399,7 +399,7 @@ Setzen Sie das TTS lokal ein
 Alles ist lokal, außer dem TTS, das durch die Acapela-Site geht, aber es ist
 möglich, indem einige Dateien so geändert werden, dass sie lokal übergeben werden
 
-> **Note**
+> **Notiz**
 >
 > Ich werde in Betracht ziehen, dass Oenjabnab in installiert ist
 > / home / ojn / OpenJabNab und Sie sind als angemeldet
@@ -434,10 +434,10 @@ Dann müssen Sie 3 Dateien erstellen :
     LIBS + = -L ../../ bin / -lcommon
     MOC_DIR = ./tmp/moc
     OBJECTS_DIR = ./tmp/obj
-    win32{
+    win32 {
       QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
-    Unix{
+    Unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
       QMAKE_CXXFLAGS + = -Fehler
     }
@@ -549,7 +549,7 @@ Dann müssen Sie 3 Dateien erstellen :
       return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
-> **Note**
+> **Notiz**
 >
 > Vergessen Sie nicht, die TODOs zu ersetzen
 
@@ -559,7 +559,7 @@ Aktivieren Sie dann die tts jeedom, indem Sie die Datei ändern
     TEMPLATE = Unterverzeichnisse
     SUBDIRS = acapela google jeedom
 
-Neu kompilieren
+Neu kompilieren 
 -------------
 
     cd / home / ojn / OpenJabNab / server

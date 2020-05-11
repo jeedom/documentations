@@ -37,16 +37,16 @@ Das sind 4 Referenzen :
 -   i3 M2 : [Intel NUC
     NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
 
--   i3 M2 + 2.5 Zoll: [Intel NUC
+-   i3 M2 + 2.5 Zoll : [Intel NUC
     NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
 
 -   i5 M2 : [Intel NUC
     NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
 
--   i5 M2 + 2.5 Zoll: [Intel NUC
+-   i5 M2 + 2.5 Zoll : [Intel NUC
     NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
-SSD
+SSD 
 ---
 
 Sie müssen eine SSD und einen Speicher hinzufügen. SSD Level ich dir
@@ -56,7 +56,7 @@ oder um ein Synology NAS zu haben, um die iSCSI-LUN zu erstellen. Vergiss nicht
 Fügen Sie hinzu, dass eine Basis-VM (kein Speicher) zwischen 20 und 40 GB groß ist
 Diese 40 GB für VMware selbst füllen sich schnell.
 
-> **Important**
+> **Wichtig**
 >
 > VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist dies schwierig
 > um den verfügbaren Platz zu erweitern
@@ -104,7 +104,7 @@ Stellen Sie VMware wieder her und stecken Sie es auf einen USB-Stick.
 VMware-Download 
 ------------------------
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie VMware 6 setzen.5 gibt es ein Problem mit der neuen Verwaltung
 > USB- und Zwave-Schlüssel, damit dies funktioniert, müssen Sie dies anwenden
@@ -204,11 +204,11 @@ VMware-Installation
 Dort ist es sehr einfach, einfach den USB-Stick an einen der Ports zu stecken
 NUC USB, stecken Sie einen Bildschirm in den HDMI-Anschluss, eine Tastatur und
 Essen. Wenn Sie den NUC einschalten, wird die Installation gestartet
-allein:
+allein :
 
 ![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Ich habe vergessen, die Lizenzvalidierung zu erfassen
 > stimme einfach zu, den Anweisungen zu folgen

@@ -63,7 +63,7 @@ a TV cabinet or to control computer equipment located
 in an office and thus avoid having to use 6 Z-Wave sockets
 individual. \
 
-Functions
+Functions 
 ---------
 
 \
@@ -90,7 +90,7 @@ Technical characteristics
 
 \
 
--   Food: 250V AC, 50Hz
+-   Food : 250V AC, 50Hz
 
 -   Maximum charge current : 10A
 
@@ -123,9 +123,9 @@ Module data
 
 \
 
--   Mark: GreenWave
+-   Mark : GreenWave
 
--   Name: GreenWave \ [6 x sockets \]
+-   Name : GreenWave \ [6 x sockets \]
 
 -   Manufacturer ID : 153
 
@@ -135,7 +135,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -146,7 +146,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present on the socket.
@@ -165,7 +165,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -190,82 +190,82 @@ Here is the list of commands :
 
 \
 
--   State-1: It is the command which allows to know the status of the
+-   State-1 : It is the command which allows to know the status of the
     take 1
 
--   On-1: This is the command that turns on socket 1
+-   On-1 : This is the command that turns on socket 1
 
--   Off-1: It is the command which switches off socket 1
+-   Off-1 : It is the command which switches off socket 1
 
--   Power-1: This is the command that brings up the instantaneous power
+-   Power-1 : This is the command that brings up the instantaneous power
     taken from intake 1
 
--   Conso-1: It is the command which reports the total consumption of the
+-   Conso-1 : It is the command which reports the total consumption of the
     take 1
 
--   State-2: It is the command which allows to know the status of the
+-   State-2 : It is the command which allows to know the status of the
     taken 2
 
--   On-2: It is the command which turns on socket 2
+-   On-2 : It is the command which turns on socket 2
 
--   Off-2: It is the command which switches off socket 2
+-   Off-2 : It is the command which switches off socket 2
 
--   Power-2: This is the command that brings up the instantaneous power
+-   Power-2 : This is the command that brings up the instantaneous power
     taken from intake 2
 
--   Conso-2: It is the command which reports the total consumption of the
+-   Conso-2 : It is the command which reports the total consumption of the
     taken 2
 
--   State-3: It is the command which allows to know the status of the
+-   State-3 : It is the command which allows to know the status of the
     take 3
 
--   On-3: This is the command that turns on socket 3
+-   On-3 : This is the command that turns on socket 3
 
--   Off-3: It is the command which switches off socket 3
+-   Off-3 : It is the command which switches off socket 3
 
--   Power-3: This is the command that brings up the instantaneous power
+-   Power-3 : This is the command that brings up the instantaneous power
     taken from intake 3
 
--   Conso-3: It is the command which reports the total consumption of the
+-   Conso-3 : It is the command which reports the total consumption of the
     take 3
 
--   State-4: It is the command which allows to know the status of the
+-   State-4 : It is the command which allows to know the status of the
     take 4
 
--   On-4: It is the command which turns on socket 4
+-   On-4 : It is the command which turns on socket 4
 
--   Off-4: It is the command which switches off socket 4
+-   Off-4 : It is the command which switches off socket 4
 
--   Power 4: This is the command that brings up the instantaneous power
+-   Power 4 : This is the command that brings up the instantaneous power
     taken from intake 4
 
--   Conso-4: It is the command which reports the total consumption of the
+-   Conso-4 : It is the command which reports the total consumption of the
     take 4
 
--   State-5: It is the command which allows to know the status of the
+-   State-5 : It is the command which allows to know the status of the
     take 5
 
--   On-5: It is the command which turns on socket 5
+-   On-5 : It is the command which turns on socket 5
 
--   Off-5: It is the command which switches off socket 5
+-   Off-5 : It is the command which switches off socket 5
 
--   Power-5: This is the command that brings up the instantaneous power
+-   Power-5 : This is the command that brings up the instantaneous power
     taken from intake 5
 
--   Conso-5: It is the command which reports the total consumption of the
+-   Conso-5 : It is the command which reports the total consumption of the
     take 5
 
--   State-6: It is the command which allows to know the status of the
+-   State-6 : It is the command which allows to know the status of the
     take 6
 
--   On-6: It is the command which turns on socket 6
+-   On-6 : It is the command which turns on socket 6
 
--   Off-6: It is the command which switches off socket 6
+-   Off-6 : It is the command which switches off socket 6
 
--   Power-6: This is the command that brings up the instantaneous power
+-   Power-6 : This is the command that brings up the instantaneous power
     taken from intake 6
 
--   Conso-6: It is the command which reports the total consumption of the
+-   Conso-6 : It is the command which reports the total consumption of the
     take 6
 
 \
@@ -315,7 +315,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -368,7 +368,7 @@ of 6 takes.
 
 \
 
-### Reset
+### Reset 
 
 \
 
@@ -382,7 +382,7 @@ taken). Choose PressButton.
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

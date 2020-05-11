@@ -54,7 +54,7 @@ cobertura total de su hogar.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro: 230V, 50 Hz
+-   Suministro : 230V, 50 Hz
 
 -   Cableado : neutral no requerido
 
@@ -95,7 +95,7 @@ Características técnicas
 
 -   Tipo de lámpara compatible (no regulable) : Fluorescente compacta, LED
 
--   Fusible: 2.5A
+-   Fusible : 2.5A
 
 -   Frecuencia : 868.42 Mhz
 
@@ -107,7 +107,7 @@ Características técnicas
 
 -   Temperatura límite : 105°C
 
--   Normas: EN 55015 y EN 60669-2-1
+-   Normas : EN 55015 y EN 60669-2-1
 
 \
 
@@ -116,9 +116,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -128,7 +128,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -139,7 +139,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -150,7 +150,7 @@ inclusión refiérase a esto
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos de ida y vuelta en el interruptor o muchos
@@ -166,7 +166,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -183,14 +183,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Intensidad: Este es el comando que le permite ajustar la intensidad de la
+-   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno: Es el control que enciende la luz
+-   Uno : Es el control que enciende la luz
 
--   Apagado: Es el comando que apaga la luz
+-   Apagado : Es el comando que apaga la luz
 
--   Estado: Es el comando que permite conocer el estado de la
+-   Estado : Es el comando que permite conocer el estado de la
     Iluminación
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
@@ -279,7 +279,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -301,7 +301,7 @@ Bueno saber
 
 \
 
-> **Caution**
+> **Depositar**
 >
 > El parámetro más importante de la configuración es 14. Es
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado
@@ -323,7 +323,7 @@ interruptor puede presionar su interruptor varias veces
 
 \
 
-Despertador
+Despertador 
 ------
 
 \

@@ -24,7 +24,7 @@ Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die
 - Fügen Sie eine SMS-Benachrichtigung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist)
 - Hinzufügen einer Benachrichtigung per Benachrichtigung (erfordert die mobile App) 
 
-> **Telegram**
+> **Teleg**
 >
 > Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegrammausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
 
@@ -37,11 +37,11 @@ Das Verfahren ist recht einfach, das muss man :
 
 Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsbereich warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).
 
->**IMPORTANT**
+>**Wichtig**
 >
 > Sobald der Dienst aktiviert ist, überwacht er alle mit Ihrem Konto verbundenen Jeedom
 
->**IMPORTANT**
+>**Wichtig**
 >
 > Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

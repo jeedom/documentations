@@ -23,7 +23,7 @@ Once connected with your dev account on the market you must :
     - languages
     - compatible hardware
     - a note on use if necessary
-  - Github: this is where you will put the information between the market and Github
+  - Github : this is where you will put the information between the market and Github
     - the token (only put if your plugin is on a private deposit)
     - your github username
     - the name of the repository on github

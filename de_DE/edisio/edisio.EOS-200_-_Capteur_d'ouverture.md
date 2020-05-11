@@ -22,7 +22,7 @@ magnetisches Element. Die integrierte LED-Anzeige signalisiert Änderungen
 Zustand. Niedriger Batteriestand durch 3 akustische "Pieptöne" am
 Empfänger
 
-Funktionen
+Funktionen 
 =========
 
 -   Drahtloser Magnetsensor mit Batterien
@@ -46,7 +46,7 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung: 3VDC (Lithiumbatterie ER14250)
+-   Versorgung : 3VDC (Lithiumbatterie ER14250)
 
 -   Frequenz : 868,3 MHz
 
@@ -54,18 +54,18 @@ Technische Daten
 
 -   Reichweite im freien Feld : 100M
 
--   Abmessungen: 25x79x19mm
+-   Abmessungen : 25x79x19mm
 
 -   Schutzart : IP20
 
--   Verwendung: Drinnen
+-   Verwendung : Drinnen
 
 Moduldaten 
 =================
 
--   Machen Sie: Edisio Smart Home
+-   Machen Sie : Edisio Smart Home
 
--   Name: EOS-200
+-   Name : EOS-200
 
 Allgemeine Konfiguration 
 ======================
@@ -74,7 +74,7 @@ So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
 [Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
@@ -87,14 +87,14 @@ Temperatursensor.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Konfiguration
+Konfiguration 
 -------------
 
 Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Sie müssen daher Ihren Sensor konfigurieren, wenn Sie einen haben möchten
 > Widget mit geschlossener Tür, wenn sie geschlossen ist.
@@ -114,12 +114,12 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Tip**
+> **Spitze**
 >
 > Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
 > Ihre Ausrüstung in einem Objekt.
 
-Befehle
+Befehle 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
@@ -129,27 +129,27 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Tür: Es ist der Befehl, der angibt, ob die Tür offen ist oder
+-   Tür : Es ist der Befehl, der angibt, ob die Tür offen ist oder
     geschlossen
 
--   Batterie: Zeigt den Batteriestatus an
+-   Batterie : Zeigt den Batteriestatus an
 
-Information
+Information 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar:
+verfügbar :
 
 ![Befehle](images/eos200/eos200.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation: Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Modul
 
--   Batterie: Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS: Gibt den Status des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
 Alternative visuelle 
 =================

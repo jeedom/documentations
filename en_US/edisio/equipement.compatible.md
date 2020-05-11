@@ -1,6 +1,6 @@
 # Compatibility of Edisio equipment
 
-| Name                    | Note               | Link                    |
+| Name                     | Note                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module for Luminaire     |                         | [Buy](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
 | DIO2 - Module for Roller Shutter     |                         | [Buy](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |
@@ -19,6 +19,6 @@
 
 
 
-> **Note**
+> **NOTE**
 >
 > This list is based on user feedback, the Jeedom team cannot guarantee that all the modules in this list are 100% functional

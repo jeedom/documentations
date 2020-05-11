@@ -54,7 +54,7 @@ total coverage of your home.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -84,7 +84,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food: 230V, 50 Hz
+-   Food : 230V, 50 Hz
 
 -   Wiring : neutral not required
 
@@ -95,7 +95,7 @@ Technical characteristics
 
 -   Compatible lamp type (not dimmable) : Compact fluorescent, LED
 
--   Fuse: 2.5A
+-   Fuse : 2.5A
 
 -   Frequency : 868.42 Mhz
 
@@ -107,7 +107,7 @@ Technical characteristics
 
 -   Limit temperature : 105°C
 
--   Standards: EN 55015 and EN 60669-2-1
+-   Standards : EN 55015 and EN 60669-2-1
 
 \
 
@@ -116,9 +116,9 @@ Module data
 
 \
 
--   Mark: Fibar Group
+-   Mark : Fibar Group
 
--   Name: Fibaro FGMS-001 \ [Motion Sensor \]
+-   Name : Fibaro FGMS-001 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -128,7 +128,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -139,7 +139,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -166,7 +166,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -183,14 +183,14 @@ Here is the list of commands :
 
 \
 
--   Intensity: This is the command that allows you to adjust the intensity of the
+-   Intensity : This is the command that allows you to adjust the intensity of the
     Light
 
--   We: It is the control that turns on the light
+-   We : It is the control that turns on the light
 
--   Off: It is the command that turns off the light
+-   Off : It is the command that turns off the light
 
--   State: It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     Light
 
 Note that on the dashboard all the information is found on the same
@@ -279,7 +279,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -301,7 +301,7 @@ Good to know
 
 \
 
-> **Caution**
+> **Bail**
 >
 > The most important parameter of the configuration is 14. It
 > allows to choose the type of switch used. Default type
@@ -323,7 +323,7 @@ switch you can press your switch multiple times
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

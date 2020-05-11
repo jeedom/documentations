@@ -17,7 +17,7 @@ And enter your license key
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Note**
+> **NOTE**
 >
 > As a reminder, if you don't do this your ESXi may no longer be
 > operate after 60 days
@@ -41,7 +41,7 @@ files "and check the box" Enable NFS" :
 Then click on "Shared folder", then choose the folder to
 share (here Backup), click on modify then "NFS authorization" and
 finally on create (here I already have one, your list should be
-empty):
+empty) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -68,7 +68,7 @@ Then click on "New database" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 There you select "Mount an NFS database" then do
-next:
+next :
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -94,7 +94,7 @@ NFS mounts (for an explanation, see
 
 To see if you have it, you have to connect with the thick client
 (I did not find the info on the web client) and go to configuration →
-storage:
+storage :
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
@@ -174,12 +174,12 @@ Then transfer the zip to one of your datastores and make :
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Note**
+> **NOTE**
 >
 > Replace the path and the zip name according to your
 > configuration
 
-> **Important**
+> **IMPORTANT**
 >
 > Be careful to put the full path to the zip otherwise it won't
 > not working
@@ -246,32 +246,32 @@ In "Host name" (at source level) you must put the desired DNS
 (for example monesxi.mondsn.synology.me) and in "Hostname" (at the level
 of the destination) you must put the IP of the ESXi
 
-> **Note**
+> **NOTE**
 >
 > You can also do the same to access jeedom but by
 > this time putting the jeedom IP (from the vm if you are in
 > virtualized) and port 80
 
-> **Note**
+> **NOTE**
 >
 > Once you've done that and your DNS is pointing correctly
 > on the NAS you can generate a valid SSL certificate for free
 > with Let's encrypt, by going to Secrity ⇒ certificate and doing
->Add Then don't forget to click on configure to
+> Add. Then don't forget to click on configure to
 > assign it to your reverse proxy
 
 Then to access your ESXi you just need with your browser
 go to your external DNS or IP by adding / ui at the end and that's
 bon.
 
-> **Important**
+> **IMPORTANT**
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
 > if you go through VMware Remote Console everything should be ok (this
 > goes through port 902)
 
-> **Note**
+> **NOTE**
 >
 > There is also a Vmware Watchlist app on Android for
 > have access to ESXi as well as VM consoles

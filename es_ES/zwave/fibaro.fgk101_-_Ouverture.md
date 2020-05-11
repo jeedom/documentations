@@ -49,7 +49,7 @@ existant.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -80,9 +80,9 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Color: Blanco (FGK-101/102/103/104/105/106/107 según el color)
+-   Color : Blanco (FGK-101/102/103/104/105/106/107 según el color)
 
--   Suministro: Batería ER14250 (1 / 2AA) 3.6V
+-   Suministro : Batería ER14250 (1 / 2AA) 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
@@ -99,9 +99,9 @@ Datos del módulo
 
 \
 
--   Hacer: Grupo Fibar
+-   Hacer : Grupo Fibar
 
--   Nombre: Fibaro FGK-101 con sonda de temperatura (DS18B20)
+-   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
 -   ID del fabricante : 271
 
@@ -111,7 +111,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -122,7 +122,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -158,10 +158,10 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: es el comando que elevará el estado abierto o cerrado del
+-   Estado : es el comando que elevará el estado abierto o cerrado del
     module
 
--   Batería: es el comando que permite subir el estado del
+-   Batería : es el comando que permite subir el estado del
     batterie
 
 \
@@ -174,10 +174,10 @@ Puede ocultar o mostrar estos comandos como desee.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -206,7 +206,7 @@ Detalles del parámetro :
 
 \
 
--   Despertador: Este es el intervalo de activación del módulo (valor
+-   Despertador : Este es el intervalo de activación del módulo (valor
     7200 recomendado)
 
 -   1: establece el retraso para cancelar la alarma de entrada IN
@@ -235,7 +235,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -257,7 +257,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo es muy meticuloso al despertar y requiere un muy
 > fuerte proximidad al controlador cuando está incluido
@@ -272,7 +272,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -309,7 +309,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

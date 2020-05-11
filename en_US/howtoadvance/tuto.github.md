@@ -31,7 +31,7 @@ click on **Create an account**
 ![tuto.github1](images/tuto.github1.png)
 
 So you arrive on a 2nd page as below and you do not change
-nothing, you click **Continue**
+nothing, you click **Keep on going**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -124,7 +124,7 @@ Submit the change
 Submit a change 
 --------------------------
 
-The**commit** done above only concerns the fork of the project in
+The **commit** done above only concerns the fork of the project in
 your GitHub space. To submit changes to the original project,
 you must perform a PR (Pull Request)
 

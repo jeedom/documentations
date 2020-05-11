@@ -78,7 +78,7 @@ ip -s -c -h a
 
 Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. Geben Sie es einfach in Ihren Browser ein.
 
-> **Warning**
+> **Warnung**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Netzwerkkarte nicht wie zu Beginn angegeben als Netzwerkbrücke konfiguriert.
 

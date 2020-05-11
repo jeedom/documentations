@@ -25,7 +25,7 @@ Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 interagieren mit den Rezeptoren der Marke Edisio, mit Jeedom, aber
 auch von jedem Z-Wave-Empfänger in Ihrem Netzwerk.
 
-Funktionen
+Funktionen 
 =========
 
 -   Art der Verwendung : Beleuchtung, Dimmer
@@ -39,9 +39,9 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Versorgung: 3VDC (CR2032 Lithiumbatterie)
+-   Versorgung : 3VDC (CR2032 Lithiumbatterie)
 
--   Kanäle: 1
+-   Kanäle : 1
 
 -   Funkprotokoll : 868,3 MHz
 
@@ -49,7 +49,7 @@ Technische Daten
 
 -   Betriebstemperatur : -10 ° C + 50 ° C
 
--   Abmessungen: 65 x 18 mm
+-   Abmessungen : 65 x 18 mm
 
 -   Schutzart : IP64
 
@@ -58,9 +58,9 @@ Technische Daten
 Moduldaten 
 =================
 
--   Machen Sie: Edisio Smart Home
+-   Machen Sie : Edisio Smart Home
 
--   Name: ETC1
+-   Name : ETC1
 
 -   Referenz : P01 / Y01 / L01
 
@@ -71,7 +71,7 @@ So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
 [Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
@@ -104,7 +104,7 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Befehle
+Befehle 
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
@@ -114,35 +114,35 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   bt01: Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
+-   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 
--   Batterie: Zeigt den Batteriestatus an
+-   Batterie : Zeigt den Batteriestatus an
 
-Information
+Information 
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar:
+verfügbar :
 
 ![Befehle](images/etc1/etc1.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation: Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie: Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS: Gibt den Status des Moduls zurück
+-   STATUS : Gibt den Status des Moduls zurück
 
-Verwendung
+Verwendung 
 -----------
 
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der
 Jeedom-Szenario-Plugin, interagieren Sie mit Ihrer Fernbedienung auf Jeedom
 und seine Ausrüstung.
 
-> **Note**
+> **Notiz**
 >
 > Die Fernbedienung mit binärer Statusrückmeldung.
 

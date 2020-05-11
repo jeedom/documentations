@@ -1,28 +1,28 @@
 Aeotec Minimote 
 ===============
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/aeotec.minimote/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/aeotec.minimote/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Dieser Aeon Labs Mini-Controller ist mit einer Vielzahl von kompatibel
 Z-Wave-Module wie Schalter, Dimmer,
@@ -33,12 +33,12 @@ Ihr Z-Wave-Netzwerk und verknüpfen Sie Szenen mit den Schaltflächen auf dem
 Fernbedienung. Eine Schiebeklappe verbirgt die Knöpfe für
 Konfigurieren Sie das Z-Wave-Netzwerk.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Z-Wave-Netzwerkkonfiguration (Einschluss / Ausschluss von Modulen)
 
@@ -54,18 +54,18 @@ Funktionen
 
 -   Firmware-Update über USB
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave-Controller
 
--   Farbe: Blanc
+-   Farbe : Blanc
 
--   Versorgung: interner Akku über USB
+-   Versorgung : interner Akku über USB
 
 -   Affichage: Blaue und rote LED
 
@@ -73,20 +73,20 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 30 m
 
--   Abmessungen: 0.8 cm x 3.3 cm x 9,3 cm
+-   Abmessungen : 0.8 cm x 3.3 cm x 9,3 cm
 
 -   Betriebstemperatur : -35 bis +85 ° C
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Aeotec
+-   Machen Sie : Aeotec
 
--   Name: Minimote
+-   Name : Minimote
 
 -   Hersteller ID : 134
 
@@ -94,56 +94,56 @@ Moduldaten
 
 -   Produkt-ID : 3
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/aeotec.minimote/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/aeotec.minimote/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Tasten: Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
 1 : Taste 1 kurz drücken
 
@@ -161,41 +161,41 @@ Hier ist die Liste der Befehle :
 
 8 : Taste 4 lange drücken
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
->Einbeziehung
+> Einbeziehung.
 
-\
+\.
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/aeotec.minimote/config1.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   241: Betriebsart Taste 1 (standardmäßig verlassen)
 
@@ -208,64 +208,64 @@ Parameterdetails :
 -   250: Betriebsart der Fernbedienung (unbedingt verlassen
     Szene für Fernbedienung)
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat vier Zuordnungsgruppen, keine ist erforderlich
 um es als Fernbedienung in Jeedom zu verwenden.
 
-\
+\.
 
 ![Groupe](images/aeotec.minimote/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Halten Sie die LEARN-Taste 3 Sekunden lang gedrückt
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Dieses Modul wird aktiviert, indem Sie die LEARN-Taste 3 Sekunden lang gedrückt halten.
 
-\
+\.
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
-\
+\.
 
 Wichtiger Hinweis 
 ---------------
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\
+\.
 
 **@sarakha63**

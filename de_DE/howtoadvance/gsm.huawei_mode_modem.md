@@ -5,7 +5,7 @@ Jeedom auf einer VM (VMware ESXi). In der Tat, wenn Sie es nicht weitergeben
 Im GSM-Modus wird nur der Schlüssel nicht in der Liste von angezeigt
 USB-Geräte, die Sie an die VM übergeben können.
 
-> **Important**
+> **Wichtig**
 >
 > Dieses Tutorial wurde unter Windows 10 durchgeführt
 
@@ -52,7 +52,7 @@ auf die "Enter" -Taste" :
 
     AT ^ u2diag = 0
 
-> **Important**
+> **Wichtig**
 >
 > Seien Sie vorsichtig, wenn Sie den Text eingeben, bei dem Sie nichts sehen
 > Der Bildschirm ist normal, der Text wird weiterhin berücksichtigt.

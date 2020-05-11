@@ -1,4 +1,4 @@
-Goal
+Goal 
 ========
 
 The purpose of this article is to guide you in the use of Android
@@ -6,7 +6,7 @@ to talk to Jeedom. We will use the Jeedom interactions engine which
 allows requests to be made and Jeedom to respond to them (and also, if we
 wish, activate different scenarios or elements).
 
-Setup
+Setup 
 ============
 
 Prerequisites 
@@ -38,7 +38,7 @@ will be to state the return of Jeedom.
 Profile creation 
 ==================
 
-We add a new profile with a **état** as a trigger.
+We add a new profile with a **State** as a trigger.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -70,8 +70,8 @@ example, it could be called "Jeedom API".
 
 ![android.autovoice6](images/android.autovoice6.png)
 
-The task will finally group 2 actions : **API call** and**say the
-retour**.
+The task will finally group 2 actions : **API call** and **say the
+Return**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -84,11 +84,11 @@ Then we select **Get HTTP**.
 ![android.autovoice9](images/android.autovoice9.png)
 
 Here we will fill in with Jeedom information. Here is the information to
-enter:
+enter :
 
 -   Serveur:Port : `https://mondomain.tld`
 
--   Path:
+-   Path :
     `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
 
 Do not forget to put your API key in place of the chain
@@ -97,7 +97,7 @@ replaced by the return of Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Add a type action **Dire**. To do this, filter the actions by
+Add a type action **Say**. To do this, filter the actions by
 putting "say" at the magnifying glass.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -118,7 +118,7 @@ salon".
 > If it doesn't work right from the start, it's often because AutoVoice
 > is not active. For that launch it, click on Google Now
 > Integration and on the first choice at the very top and authorize
->AutoVoice
+> AutoVoice.
 
 > **Tip**
 >

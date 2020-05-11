@@ -47,7 +47,7 @@ already an existing network.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -91,12 +91,12 @@ Module data
 
 \
 
--   Mark: D-Link
+-   Mark : D-Link
 
 -   Model : DCH-Z110 Door and window opening detector
     mydlink ™ Home
 
--   Maker: FIBARO System
+-   Maker : FIBARO System
 
 -   Manufacturer ID : 264 \ [0x0108 \]
 
@@ -106,7 +106,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -117,7 +117,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > Do not install the module on the window / door before having it
 > correctly configured, and pay attention to the alignment of
@@ -141,7 +141,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -158,18 +158,18 @@ Here is the list of commands :
 
 \
 
--   Opening: it is the command which will raise a detection
+-   Opening : it is the command which will raise a detection
     d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness: it is the command which makes it possible to raise the brightness
+-   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage: this is the sabotage command (it is triggered in
+-   Sabotage : this is the sabotage command (it is triggered in
     tearing out)
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 \
 
@@ -177,7 +177,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion, or a modification, save then
 > always wake up the module by pressing the association button.
@@ -253,7 +253,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -283,7 +283,7 @@ Alternative visual
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -318,7 +318,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

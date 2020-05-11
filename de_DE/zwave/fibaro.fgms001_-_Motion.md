@@ -1,28 +1,28 @@
 Fibaro-Bewegungssensor - FGMS-001 
 ===============================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/fibaro.fgms001/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/fibaro.fgms001/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Der Fibaro-Bewegungsmelder ist ein Z-Wave-Multifunktionsdetektor.
 Neben der Bewegungserkennung misst dieses Gerät die
@@ -39,12 +39,12 @@ befindet sich im Z-Wave-Netzwerk.
 Der Bewegungsmelder kann zum Beleuchten von Szenen verwendet werden
 und Überwachungs- und / oder Sicherheitssysteme.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Drahtloser Bewegungsmelder
 
@@ -69,16 +69,16 @@ Funktionen
 
 -   Einfache Installation an einer Wand oder einer anderen Oberfläche
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung: CR123A 3,6VDC Batterie
+-   Versorgung : CR123A 3,6VDC Batterie
 
 -   Empfohlene Höhe für die Installation : 2,4m
 
@@ -96,19 +96,19 @@ Technische Daten
 
 -   Betriebstemperatur : 0-40 ° C
 
--   Zertifizierungen: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Zertifizierungen : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Fibar Group
+-   Machen Sie : Fibar Group
 
--   Name: Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -116,94 +116,94 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/fibaro.fgms001/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/fibaro.fgms001/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/fibaro.fgms001/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit: Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
+-   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage: Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
+-   Sabotage : Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
     Vibration)
 
--   Batterie: Es ist der Batteriebefehl
+-   Batterie : Es ist der Batteriebefehl
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
->Einbeziehung
+> Einbeziehung.
 
-\
+\.
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/fibaro.fgms001/config1.jpg)
 
@@ -213,13 +213,13 @@ Einstellungen)
 
 ![Config3](images/fibaro.fgms001/config4.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
--   Aufwachen: Dies ist das Aufweckintervall des Moduls (Wert
+-   Aufwachen : Dies ist das Aufweckintervall des Moduls (Wert
     7200 empfohlen)
 
 -   1: Stellt die Empfindlichkeit des Anwesenheitssensors ein
@@ -295,52 +295,52 @@ Parameterdetails :
 -   89: Ermöglicht es der LED, bei blau / weiß / rot zu blinken
     sabotage
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
 indispensable.
 
-\
+\.
 
 ![Groupe](images/fibaro.fgms001/groupe.jpg)
 
-\
+\.
 
 Gut zu wissen 
 ------------
 
-\
+\.
 
 ### Besonderheiten 
 
-\
+\.
 
-> **Tip**
+> **Spitze**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und sehr schlecht konfiguriert
->Fabrik Es ist wichtig, es nach der Aufnahme gut aufzuwecken
+> Fabrik. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
 > (mehrmals sind besser als eins), um es nach Ihren Wünschen zu konfigurieren
 > wünscht, und es gut aufzuwecken, damit die Konfiguration berücksichtigt wird
->Konto
+> Konto.
 
-\
+\.
 
 ### Alternative visuelle 
 
-\
+\.
 
 ![vuewidget](images/fibaro.fgms001/vuewidget.jpg)
 
-\
+\.
 
-Aufwachen
+Aufwachen 
 ------
 
-\
+\.
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
@@ -348,38 +348,38 @@ Um dieses Modul aufzuwecken, gibt es nur einen Weg :
     in blau). Selbst wenn das Licht aufleuchtet, kann dies erforderlich sein
     mach es mehrmals hintereinander (2 oder 3)
 
-\
+\.
 
 Faq. 
 ------
 
-\
+\.
 
 Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
-\
+\.
 
 Dieses Modul ist sehr pingelig. Es ist ratsam, aufzunehmen
 näher an Ihrer Box und heben Sie sie mehrmals auf.
 
-\
+\.
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-\
+\.
 
 Wichtiger Hinweis 
 ---------------
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\
+\.
 
 **@sarakha63**

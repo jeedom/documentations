@@ -53,7 +53,7 @@ ensures the correct functioning of the sensor during its installation.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -95,7 +95,7 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions: 72 x 28 mm (diameter x height)
+-   Dimensions : 72 x 28 mm (diameter x height)
 
 -   Operating temperature : 0-40 ° C (-20 ° C to 70 ° C if
     external power supply)
@@ -104,7 +104,7 @@ Technical characteristics
 
 -   Measurement accuracy : 0.5 ° C (in a range of 0 to 40 ° C)
 
--   Standards: EMC 2004/108 / EC and R & TTE 199/5 / WE
+-   Standards : EMC 2004/108 / EC and R & TTE 199/5 / WE
 
 \
 
@@ -113,11 +113,11 @@ Module data
 
 \
 
--   Mark: Fibar Group
+-   Mark : Fibar Group
 
 -   Model : FGFS101 Flood Sensor
 
--   Maker: FIBARO System
+-   Maker : FIBARO System
 
 -   Manufacturer ID : 271
 
@@ -127,7 +127,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -138,7 +138,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > central inclusion button, identified TMP, according to its documentation
@@ -158,7 +158,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -175,15 +175,15 @@ Here is the list of commands :
 
 \
 
--   Leak: this is the module alert command (for the presence
+-   Leak : this is the module alert command (for the presence
     water, flooding ...)
 
 -   Temperature : it is the temperature measurement command
 
--   Sabotage: this is the sabotage command. It signals the opening
+-   Sabotage : this is the sabotage command. It signals the opening
     of the case
 
--   Drums: it's the battery command
+-   Drums : it's the battery command
 
 \
 
@@ -191,10 +191,10 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
->inclusion
+> inclusion.
 
 \
 
@@ -223,14 +223,14 @@ Parameter details :
 
 \
 
--   Wakeup: this is the module wake-up interval (value
+-   Wakeup : this is the module wake-up interval (value
     recommended 21600)
 
 -   1 \. Alarm cancellation delay after detection of a flood :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     stops instantly)
 
--   2 \. Choice of alarm type. Value:
+-   2 \. Choice of alarm type. Value :
 
         0 : Audible and visual alarm deactivated
         1 : Audible alarm deactivated and visual alarm activated
@@ -240,7 +240,7 @@ Parameter details :
 -   10 \. Transfer time between two temperature readings : 1 to 65,535 s
     (300 by default). Be careful not to put a carry-over value too
     close together under penalty of seeing the module battery melt at all
-    speed! (1800 is recommended)
+    speed ! (1800 is recommended)
 
 -   12 \. Temperature difference between two reports : from 1 to 1000 (50 by default
     = 0.5 °). In accordance with parameter 10, it is also possible to
@@ -264,7 +264,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -289,7 +289,7 @@ The wiring for an external power supply. \
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \
@@ -317,7 +317,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

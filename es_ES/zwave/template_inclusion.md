@@ -40,7 +40,7 @@ los comandos se realizan automáticamente una vez que Jeedom reconoce el módulo
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Es preferible hacer una exclusión antes de una inclusión. Para
 > No excluya nada complicado, solo haga clic en

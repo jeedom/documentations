@@ -48,7 +48,7 @@ red existente.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro: 1 batería CR123A 3V
+-   Suministro : 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -100,9 +100,9 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones: 28 x 96 x 23 mm
+-   Dimensiones : 28 x 96 x 23 mm
 
--   Peso: 39g
+-   Peso : 39g
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
@@ -119,9 +119,9 @@ Datos del módulo
 
 \
 
--   Hacer: Philio Technology Corporation
+-   Hacer : Philio Technology Corporation
 
--   Nombre: Philio PSP01
+-   Nombre : Philio PSP01
 
 -   ID del fabricante : 316
 
@@ -131,7 +131,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -142,7 +142,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -161,7 +161,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -180,18 +180,18 @@ Aquí está la lista de comandos :
 
 -   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura: es el comando que generará una detección
+-   Apertura : es el comando que generará una detección
     d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo: es el comando que hace posible aumentar el brillo
+-   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje: Este es el comando de sabotaje (se activa en
+-   Sabotaje : Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería: es el comando de la batería
+-   Batería : es el comando de la batería
 
 \
 
@@ -202,10 +202,10 @@ correspondiente a su módulo.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -264,7 +264,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -286,7 +286,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo tiene una particularidad, no tener un informe basado en el
 > variaciones, pero solo con el tiempo, envía toda su información a
@@ -305,7 +305,7 @@ Bueno saber
 
 \
 
-Despertador
+Despertador 
 ------
 
 \
@@ -339,7 +339,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

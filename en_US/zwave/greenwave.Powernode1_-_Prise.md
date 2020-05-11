@@ -61,7 +61,7 @@ internal located in the socket.
 
 \
 
-Functions
+Functions 
 ---------
 
 \
@@ -91,7 +91,7 @@ Technical characteristics
 
 \
 
--   Food: 250V AC, 50Hz
+-   Food : 250V AC, 50Hz
 
 -   Maximum charge current : 10A
 
@@ -124,9 +124,9 @@ Module data
 
 \
 
--   Mark: GreenWave
+-   Mark : GreenWave
 
--   Name: GreenWave \ [1 x plug \]
+-   Name : GreenWave \ [1 x plug \]
 
 -   Manufacturer ID : 153
 
@@ -136,7 +136,7 @@ Module data
 
 \
 
-Setup
+Setup 
 -------------
 
 \
@@ -147,7 +147,7 @@ inclusion refer to this
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present under the socket.
@@ -166,7 +166,7 @@ Once included you should get this :
 
 \
 
-### Commands
+### Commands 
 
 \
 
@@ -183,17 +183,17 @@ Here is the list of commands :
 
 \
 
--   State: It is the command which allows to know the status of the
+-   State : It is the command which allows to know the status of the
     prise
 
--   We: This is the command that turns on the outlet
+-   We : This is the command that turns on the outlet
 
--   Off: It is the command which makes it possible to extinguish the catch
+-   Off : It is the command which makes it possible to extinguish the catch
 
--   Power: It is the control which brings up the instantaneous power
+-   Power : It is the control which brings up the instantaneous power
     consumed
 
--   Consumption: It is the order which reports the total consumption
+-   Consumption : It is the order which reports the total consumption
 
 \
 
@@ -242,7 +242,7 @@ Parameter details :
 
 \
 
-### Groups
+### Groups 
 
 \
 
@@ -265,7 +265,7 @@ polling to boost consumption.
 
 \
 
-### Reset
+### Reset 
 
 \
 
@@ -283,7 +283,7 @@ PressButton.
 
 \
 
-Wakeup
+Wakeup 
 ------
 
 \

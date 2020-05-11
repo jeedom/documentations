@@ -1,7 +1,7 @@
 Here is a tutorial on how to install openjabnab locally (on an rpi or
 humming)
 
-> **Note**
+> **NOTE**
 >
 > This tutorial is largely inspired by
 > [this one](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -43,7 +43,7 @@ The result is :
 
 Here the IP address is 192.168.0.162.
 
-> **Note**
+> **NOTE**
 >
 > For the rest of the tutorial I will use this IP, it is of course
 > replace depending on which one you actually
@@ -77,7 +77,7 @@ And add :
 
 Create the db.raspberry.pi file
 
-vim db.raspberry.pi---
+vim db.raspberry.pi ---
 
 And put in it :
 
@@ -110,7 +110,7 @@ And put :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Important**
+> **IMPORTANT**
 >
 > Remember to replace the 162 on the last line with the last
 > part of your system ip
@@ -136,7 +136,7 @@ You should have :
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **Note**
+> **NOTE**
 >
 > You have to do ctrl + c to quit the ping
 
@@ -165,7 +165,7 @@ Then clone openjabnab :
 Web server configuration 
 ============================
 
-Do:
+Do :
 
     cd / etc / apache2 / sites-available /
     vim ojn.conf
@@ -210,21 +210,21 @@ Then we restart apache :
 Installation of openjabnab 
 =========================
 
-Do:
+Do :
 
     su ojn
     cd / home / ojn / OpenJabNab / server
     qmake -r
     make
 
-> **Note**
+> **NOTE**
 >
 > This step can be very long (up to 45min)
 
 Openjabnab configuration 
 ==========================
 
-Do:
+Do :
 
     cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
@@ -236,7 +236,7 @@ And change the following lines :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-And replace all *my.domain.com* by*ojn.raspberry.pi*
+And replace all *my.domain.com* by *ojn.raspberry.pi*
 
 Openjabnab web server configuration 
 =======================================
@@ -265,7 +265,7 @@ Now go to :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Note**
+> **NOTE**
 >
 > If everything is good you should have the statistics that appear in
 > bas
@@ -281,7 +281,7 @@ Then with your PC you should have a new wifi network
 nabaztagXX, connect to it by typing 192.168.0.1.
 
 Once on enter your wifi configuration and information
-following:
+following :
 
     DHCP enabled : no
     Local Mask : 255.255.255.0
@@ -293,7 +293,7 @@ Openjabnab server monitoring and auto start
 
 As you will notice if you log off the server
 openjabnab stops. So you have to add a little script to
-monitor the server and start it automatically. Do:
+monitor the server and start it automatically. Do :
 
     cd / home / ojn
     vim checkojn.sh
@@ -318,7 +318,7 @@ And add :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Important**
+> **IMPORTANT**
 >
 > It is absolutely necessary to put it in the root crontab, if you are
 > again with user ojn do ctrl + D
@@ -335,7 +335,7 @@ You must have :
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
 You must now create an account by clicking on create a
-User:
+User :
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
@@ -399,7 +399,7 @@ Put the TTS locally
 Everything is local except the TTS which goes through the Acapela site but it is
 possible by modifying some files to pass it locally
 
-> **Note**
+> **NOTE**
 >
 > I will consider that oenjabnab is installed in
 > / home / ojn / OpenJabNab and you are logged in as
@@ -434,10 +434,10 @@ Then you have to make 3 files :
     LIBS + = -L ../../ bin / -lcommon
     MOC_DIR = ./tmp/moc
     OBJECTS_DIR = ./tmp/obj
-    win32{
+    win32 {
       QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
-    unix{
+    unix {
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
       QMAKE_CXXFLAGS + = -Werror
     }
@@ -549,7 +549,7 @@ Then you have to make 3 files :
       return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
-> **Note**
+> **NOTE**
 >
 > Don't forget to replace the TODOs
 
@@ -559,7 +559,7 @@ Then activate the tts jeedom by modifying the file
     TEMPLATE = subdirs
     SUBDIRS = acapela google jeedom
 
-Recompile
+Recompile 
 -------------
 
     cd / home / ojn / OpenJabNab / server

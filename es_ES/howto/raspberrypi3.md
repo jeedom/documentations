@@ -1,4 +1,4 @@
-Objetivo
+Objetivo 
 ========
 
 Aquí encontrará la documentación para instalar Jeedom en un
@@ -40,12 +40,12 @@ Luego reinicie PI3
 
     reinicio de sudo
 
-> **Important**
+> **Importante**
 >
 > Para evitar problemas de alimentación, elija un SSD mSATA
 > bajo consumo.
 
-> **Tip**
+> **Punta**
 >
 > Ahora puede instalar Jeedom siguiendo exactamente lo mismo
 > procedimiento con una tarjeta SD.
@@ -56,7 +56,7 @@ Posibles ajustes
 
 **Deben tenerse en cuenta las siguientes observaciones :**
 
-> **Important**
+> **Importante**
 >
 > Los siguientes cambios son el resultado de problemas encontrados por
 > los usuarios. Debes adaptarlos a tu caso. El apoyo

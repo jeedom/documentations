@@ -51,7 +51,7 @@ bajo consumo de energía que permite una mayor autonomía.
 
 \
 
-Funciones
+Funciones 
 ---------
 
 \
@@ -87,7 +87,7 @@ Características técnicas
 
 \
 
--   Suministro: Batería de polímero de litio 3.7V, 220mA v
+-   Suministro : Batería de polímero de litio 3.7V, 220mA v
     la batería : 6 meses por 2 horas de carga
 
 -   Consumo en espera : 18µA
@@ -98,9 +98,9 @@ Características técnicas
 
 -   Distancia de transmisión : 100m en exteriores, 40m en interiores
 
--   Dimensiones:
+-   Dimensiones :
 
-Apoyo: Botón 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
+Apoyo : Botón 71,16 x 10,94 mm (diámetro x grosor) : 59,99 x 14,89
 mm (diámetro x grosor) Soporte + Botón : 71,16 x 17,22 mm (diámetro
 x espesor) \* Certificaciones :
 
@@ -114,9 +114,9 @@ Datos del módulo
 
 \
 
--   Hacer: Philio
+-   Hacer : Philio
 
--   Nombre: Botón de color inteligente PSR04
+-   Nombre : Botón de color inteligente PSR04
 
 -   ID del fabricante : 316
 
@@ -126,7 +126,7 @@ Datos del módulo
 
 \
 
-Configuración
+Configuración 
 -------------
 
 \
@@ -137,7 +137,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, colóquelo en posición
 > bajo (inclusión) y presione el botón de acuerdo con su
@@ -157,7 +157,7 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos
+### Comandos 
 
 \
 
@@ -174,10 +174,10 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado: es el comando que moverá la posición del botón de 0 a
+-   Estado : es el comando que moverá la posición del botón de 0 a
     100%
 
--   Batería: Este es el comando que informa el estado de la batería del
+-   Batería : Este es el comando que informa el estado de la batería del
     module
 
 \
@@ -186,10 +186,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
->inclusión
+> inclusión.
 
 \
 
@@ -231,7 +231,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos
+### Grupos 
 
 \
 
@@ -261,7 +261,7 @@ agregando Jeedom al grupo 2, esto permite recibir la posición del
 botón y, por tanto, úselo para controlar un escenario (establezca un
 volumen por ejemplo)
 
-Despertador
+Despertador 
 ------
 
 \
@@ -289,7 +289,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

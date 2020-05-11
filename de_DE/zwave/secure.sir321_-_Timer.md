@@ -1,28 +1,28 @@
 Sicherer SIR 321 "Timer" 
 ======================
 
-\
+\.
 
 -   **Das Modul**
 
-\
+\.
 
 ![module](images/secure.sir321/module.jpg)
 
-\
+\.
 
 -   **Das Jeedom Visual**
 
-\
+\.
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-\
+\.
 
 Zusammenfassung 
 ------
 
-\
+\.
 
 Der digitale Timer SIR321 ist ein einfacher Wechsel zu
 Druckknopf, der daran erinnert, dass Sie Ihre Geräte für Sie ausgeschaltet haben
@@ -37,12 +37,12 @@ Boost reicht von 30 bis 120 Minuten.
 SIR 321 unterstützt externe Temperatursensoren SES001,
 SES002 und SES003.
 
-\
+\.
 
-Funktionen
+Funktionen 
 ---------
 
-\
+\.
 
 -   Booster für Tauchsieder, Plattenheizkörper, beheizter Handtuchhalter,
     Ölbadkühler
@@ -57,12 +57,12 @@ Funktionen
 
 -   Energie sparen
 
-\
+\.
 
 Technische Daten 
 ---------------------------
 
-\
+\.
 
 -   Type: Elektronischer Timer
 
@@ -77,106 +77,106 @@ Technische Daten
 
 -   Betriebstemperatur: 0 ° C bis 35 ° C
 
-\
+\.
 
 Moduldaten 
 -----------------
 
-\
+\.
 
--   Machen Sie: Horstmann
+-   Machen Sie : Horstmann
 
--   Name: SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Countdown Timer
 
 -   Hersteller ID : 89
 
 -   Produkttyp : 1/2 (abhängig davon, ob es in einer Sonde enthalten ist
     oder nicht)
 
-\
+\.
 
-Konfiguration
+Konfiguration 
 -------------
 
-\
+\.
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
-\
+\.
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie 1 Sekunde auf
 > die Taste (bis zum schnellen Blinken) drücken und entsprechend loslassen
 > Papierdokumentation.
 
-\
+\.
 
 ![inclusion](images/secure.sir321/inclusion.jpg)
 
-\
+\.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\
+\.
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-\
+\.
 
-### Befehle
+### Befehle 
 
-\
+\.
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\
+\.
 
 ![Befehle](images/secure.sir321/commandes.jpg)
 
-\
+\.
 
 Hier ist die Liste der Befehle :
 
-\
+\.
 
--   Ein: Dies ist der Befehl zum Einschalten des Relais
+-   Ein : Dies ist der Befehl zum Einschalten des Relais
 
--   Aus: Es ist der Befehl, das Relais auszuschalten
+-   Aus : Es ist der Befehl, das Relais auszuschalten
 
 -   Temperatur : Dies ist der Temperaturmessbefehl, wenn a
     externe Sonde ist vorhanden
 
-\
+\.
 
 ### Konfiguration des Moduls 
 
-\
+\.
 
 Wenn Sie das Modul konfigurieren möchten, müssen Sie über die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\
+\.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+\.
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\
+\.
 
 ![Config1](images/secure.sir321/config1.jpg)
 
-\
+\.
 
 Parameterdetails :
 
-\
+\.
 
 -   1: Ermöglicht das Aktivieren oder Nicht-Aktivieren der ausfallsicheren Timer-Funktion (siehe
     Moduldokumentation)
@@ -192,23 +192,23 @@ Parameterdetails :
 -   5: Hier können Sie eine Abschalttemperatur einstellen, über der
     Das Modul schaltet das Relais ab
 
-\
+\.
 
-### Gruppen
+### Gruppen 
 
-\
+\.
 
 Dieses Modul hat zwei Zuordnungsgruppen. Wenn der erste ist
 wesentlich, die zweite ist aktiv und ist wesentlich, wenn eine Sonde
 der Temperatur ist verwandt.
 
-\
+\.
 
 ![Groupe](images/secure.sir321/groupe.jpg)
 
 Faq. 
 ------
 
-\
+\.
 
 **@sarakha63**

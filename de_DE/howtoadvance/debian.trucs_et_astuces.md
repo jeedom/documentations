@@ -9,7 +9,7 @@ Hier sind einige nützliche Pakete, um eine leere Installation durchzuführen :
 -   **vim** : Es ist ein Befehlszeilentexteditor
     Ersetzen Sie es auch durch Nano oder viele andere.
 
--   **net-tools** : Sammlung von Programmen zur Verwaltung des Netzwerks
+-   **Netzwerkzeuge** : Sammlung von Programmen zur Verwaltung des Netzwerks
 
 -   **dos2unix** : Textkonvertierungswerkzeug
 
@@ -38,11 +38,11 @@ Bearbeiten Sie die Datei / etc / ssh / sshd\_config und ändern Sie sie :
 
     PermitRootLogin ohne Passwort
 
-Von:
+Von :
 
     PermitRootLogin ja
 
-> **Important**
+> **Wichtig**
 >
 > Stellen Sie sicher, dass Sie ein sicheres Root-Passwort verwenden ! Die Verwendung von
 > fail2ban wird ebenfalls empfohlen.
@@ -58,7 +58,7 @@ Erstellen Sie den Einhängepunkt :
 
     mkdir / mnt / my_share
 
-> **Note**
+> **Notiz**
 >
 > Sie müssen meinen Anteil an Ihre Bedürfnisse anpassen
 
@@ -66,7 +66,7 @@ Mount in / etc / fstab hinzugefügt
 
     // IP_SERVER_SAMBA / mon_partage / mnt / mon_partage cifs uid = 0, rw, user = TODO, password = TODO 0 0
 
-> **Note**
+> **Notiz**
 >
 > Sie müssen die TODOs mit Ihrem Linux-Benutzernamen und Ihrem ändern
 > Passwort
@@ -91,7 +91,7 @@ Bevor Sie beginnen, erstellen Sie eine vollständige Sicherung über Jeedom von 
 Installation unter Jessie, dann exportieren Sie das Backup in ein anderes
 Speichermedium.
 
-> **Tip**
+> **Spitze**
 >
 > Laden Sie das Backup nicht über die Weboberfläche (SSH, FTP) herunter,
 > SAMBA, andere Ihrer Wahl), denn wenn Ihr Archiv groß ist
@@ -133,14 +133,14 @@ MYSQL unter Stretch :
     MariaDB [mysql]> exit;
     Bye
 
-> **Tip**
+> **Spitze**
 >
 > Ersetzen Sie 'monpass' durch Ihr MYSQL-Passwort, das für das verwendet wird
 > Root-Account unter "Debian 8 - Jessie". Ich gebe Root-Rechte
 > vor allem, um meine Datenbanken mit 'PHPMYADMIN' zu verwalten, aber geben Sie sie an
 > Der MYSQL-Benutzer 'jeedom' sollte ausreichen.
 
-> **Tip**
+> **Spitze**
 >
 > Das Passwort für den MYSQL jeedom-Benutzer finden Sie hier :
 > Administration → Konfiguration → OS / DB → Datenbank
@@ -161,7 +161,7 @@ ou
 
 -   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration →
     Backups → Lokale Backups : Wählen Sie das richtige Backup
-    und klicken Sie auf **Restaurer** gleich unten)
+    und klicken Sie auf **Wiederherstellen** gleich unten)
 
 -   Warten Sie während der Wiederherstellung
 
@@ -213,7 +213,7 @@ Entfernen unnötiger Bibliotheken
     apt -y entferne `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y entferne `aptitude -F% p search '~ o'`----
 
-Notiz: Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :
+Notiz : Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :
 
     a2enmod php7.0 
     systemctl starte apache2.service neu

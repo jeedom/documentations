@@ -19,7 +19,7 @@ disponible ya sea instalando un vib o desde la versión
 6.0 actualización 2. Como recordatorio, para acceder a esta interfaz solo
 ir a IP\_ESXI / ui
 
-> **Note**
+> **Nota**
 >
 > Para este tutorial usaré la interfaz web de ESXi que es
 > disponible ya sea instalando un vib o desde
@@ -34,10 +34,10 @@ Debemos recuperar esto
 y transferirlo al ESXi (en el mismo almacén de datos que el que va
 bienvenidos respaldos por ejemplo).
 
-> **Note**
+> **Nota**
 >
 > En el resto de este tutorial considero que has puesto el script
->ghettoVCBsh en /vmfs/volumes/Backup/ghettoVCB.sh. Depende de usted adaptarse
+> ghettoVCB.sh en /vmfs/volumes/Backup/ghettoVCB.sh. Depende de usted adaptarse
 > dependiendo de su configuración, los comandos / scripts provistos.
 
 Conexión en ssh 
@@ -54,14 +54,14 @@ su ESXi y usar sus credenciales
 Creación de archivo de configuración 
 ====================================
 
-> **Note**
+> **Nota**
 >
 > Para el resto de este tutorial, considero que su almacén de datos de
 > la copia de seguridad tiene ruta / vmfs / volume / Backup, tenga cuidado de cambiar si
 > este no es el caso contigo
 
 En el almacén de datos de respaldo debe crear un archivo ghettoVCB.conf quien
-contiene:
+contiene :
 
     VM_BACKUP_VOLUME = / vmfs / volume / Backup /
     DISK_BACKUP_FORMAT = delgado
@@ -97,13 +97,13 @@ Los parámetros que debe adaptar son :
 
 -   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ número de copias de seguridad por VM para mantener
 
-> **Note**
+> **Nota**
 >
 > Puedes consultar
 > [aquí](https://communities.vmware.com/docs/DOC-8760) la documentación
 > completo de ghettoVCB con una descripción de cada parámetro
 
-> **Important**
+> **Importante**
 >
 > Tenga cuidado de poner / final para el parámetro
 > VM\_BACKUP\_VOLUME de lo contrario, el script tendrá un error
@@ -124,13 +124,13 @@ que contiene 4 archivos :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--  \* - planovmdk ⇒ el disco virtual de su máquina
+-   \* - plano.vmdk ⇒ el disco virtual de su máquina
 
 -   \*.vmdk ⇒ el descriptor del disco
 
 -   \*.vmx ⇒ el archivo que contiene la configuración de su máquina
 
--  Estadook ⇒ indica que la copia de seguridad está bien
+-   Estado.ok ⇒ indica que la copia de seguridad está bien
 
 Aquí hay otra posibilidad para la línea de comando :
 
@@ -169,12 +169,12 @@ Y antes de "salir 0" agregue las siguientes líneas :
     / bin / echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     / usr / lib / vmware / busybox / bin / busybox crond
 
-> **Note**
+> **Nota**
 >
 > Aquí solicito una copia de seguridad cada 1 de cada mes, puede cambiar
 > esto modificando : 0 0 1 \* \*
 
-> **Note**
+> **Nota**
 >
 > Aquí hago una copia de seguridad de todas las máquinas virtuales, puede adaptar esto
 > reemplazando -a con -m ma\_vm, tenga cuidado si quiere poner
@@ -183,7 +183,7 @@ Y antes de "salir 0" agregue las siguientes líneas :
 > /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "y coloca uno por VM para hacer una copia de seguridad
 
-> **Important**
+> **Importante**
 >
 > No olvide adaptar la ruta al archivo de configuración de
 > ghettoVCB según su configuración :

@@ -23,7 +23,7 @@ dann füge dies hinzu :
 
 Speichern Sie dann durch Drücken von Strg + x
 
-3.Starten Sie neu
+3.Starten Sie neu 
 =========
 
 > sudo neu starten

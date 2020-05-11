@@ -1,6 +1,6 @@
 # Instalación de Docker
 
-> **Important**
+> **Importante**
 >
 > Tenga en cuenta que aquí asumimos que ya está familiarizado con Docker
 
@@ -20,9 +20,9 @@ yum install docker
 -   basado en deb
 
 ````
-apt-gyupdate
-apt-gyinstall docker
-apt-gyinstall docker.io
+apt-gy update
+apt-gy install docker
+apt-gy install docker.io
 ````
 
 ## Instalar una imagen Jeedom
@@ -35,10 +35,10 @@ Luego inicie el :
 
 ``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/mysql:/var/lib/mysql -e ROOT_PASSWORD=your-root-password -p 9080:80 jeedom/jeedom``
 
-Con:
+Con :
 
 -   ``jeedom-server`` : Se busca el nombre de Jeedom Docker
--   ``/opt/jeedom/www`` y``/opt/jeedom/mysql`` : directorio donde los datos de Jeedom se colocan en el host
+-   ``/opt/jeedom/www`` y ``/opt/jeedom/mysql`` : directorio donde los datos de Jeedom se colocan en el host
 -   ``your-root-password`` : contraseña de root para acceder a Jeedom en SSH
 
 Entonces necesita instalar Jeedom yendo a : IP\_DOCKER:9080
