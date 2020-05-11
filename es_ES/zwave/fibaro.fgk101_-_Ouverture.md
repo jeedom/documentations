@@ -7,7 +7,7 @@ Detector de apertura Fibaro - FGK-101
 
 \
 
-![Modulo](images/fibaro.fgk101-DS18B20/Modulo.jpg)
+![Modulo](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -41,15 +41,15 @@ también desde una entrada cableada, por lo que se puede usar como
 transmisor universal : dejar de lado su contacto magnético, y
 conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de su
 elección como detector de humo, gas o monóxido de carbono,
-Etcétera.
+etc.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este detector en su red si ya tiene una red
-existente.
+existant.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -80,15 +80,15 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Color : Blanco (FGK-101/102/103/104/105/106/107 según el color)
+-   Color: Blanco (FGK-101/102/103/104/105/106/107 según el color)
 
--   Suministro : Batería ER14250 (1 / 2AA) 3.6V
+-   Suministro: Batería ER14250 (1 / 2AA) 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 76 x 17 x 19 mm
+-   Dimensions: 76 x 17 x 19 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -99,9 +99,9 @@ Datos del módulo
 
 \
 
--   Hacer : Grupo Fibar
+-   Hacer: Grupo Fibar
 
--   Nombre : Fibaro FGK-101 con sonda de temperatura (DS18B20)
+-   Nombre: Fibaro FGK-101 con sonda de temperatura (DS18B20)
 
 -   ID del fabricante : 271
 
@@ -111,18 +111,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -141,12 +141,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -158,11 +158,11 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : es el comando que elevará el estado abierto o cerrado del
-    Modulo
+-   Estado: es el comando que elevará el estado abierto o cerrado del
+    module
 
--   Batería : es el comando que permite subir el estado del
-    batería
+-   Batería: es el comando que permite subir el estado del
+    batterie
 
 \
 
@@ -174,10 +174,10 @@ Puede ocultar o mostrar estos comandos como desee.
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -206,7 +206,7 @@ Detalles del parámetro :
 
 \
 
--   Despertador : Este es el intervalo de activación del módulo (valor
+-   Despertador: Este es el intervalo de activación del módulo (valor
     7200 recomendado)
 
 -   1: establece el retraso para cancelar la alarma de entrada IN
@@ -235,7 +235,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -257,7 +257,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo es muy meticuloso al despertar y requiere un muy
 > fuerte proximidad al controlador cuando está incluido
@@ -272,7 +272,7 @@ Bueno saber
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -309,7 +309,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

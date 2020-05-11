@@ -39,7 +39,7 @@ SES002 und SES003.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -64,12 +64,12 @@ Technische Daten
 
 \
 
--   Typ: Elektronischer Timer
+-   Type: Elektronischer Timer
 
 -   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis
     3kW
 
--   Versorgung: 230 V AC, 50 Hz
+-   Alimentation: 230 V AC, 50 Hz
 
 -   Abmessungen 85x85x44mm
 
@@ -84,9 +84,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Horstmann
+-   Machen Sie: Horstmann
 
--   Name : SIR 321 RF Countdown Timer
+-   Name: SIR 321 RF Countdown Timer
 
 -   Hersteller ID : 89
 
@@ -95,18 +95,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie 1 Sekunde auf
 > die Taste (bis zum schnellen Blinken) drücken und entsprechend loslassen
@@ -126,12 +126,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -143,9 +143,9 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Ein : Dies ist der Befehl zum Einschalten des Relais
+-   Ein: Dies ist der Befehl zum Einschalten des Relais
 
--   Aus : Es ist der Befehl, das Relais auszuschalten
+-   Aus: Es ist der Befehl, das Relais auszuschalten
 
 -   Temperatur : Dies ist der Temperaturmessbefehl, wenn a
     externe Sonde ist vorhanden
@@ -194,7 +194,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 

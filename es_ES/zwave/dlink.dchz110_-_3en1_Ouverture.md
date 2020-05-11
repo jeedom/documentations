@@ -47,7 +47,7 @@ ya una red existente.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -60,7 +60,7 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotección
+-   Autoprotection
 
 -   Indicación de batería baja
 
@@ -82,7 +82,7 @@ Otro enlace técnico :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-técnicas] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+técnicas](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -91,12 +91,12 @@ Datos del módulo
 
 \
 
--   Hacer : D-Link
+-   Hacer: D-Link
 
 -   Modelo : Detector de apertura de puertas y ventanas DCH-Z110
     mydlink ™ Inicio
 
--   Fabricante : Sistema FIBARO
+-   Fabricante: Sistema FIBARO
 
 -   ID del fabricante : 264 \ [0x0108 \]
 
@@ -106,18 +106,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > No instale el módulo en la ventana / puerta antes de tenerlo
 > configurado correctamente y preste atención a la alineación de
@@ -141,12 +141,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -158,18 +158,18 @@ Aquí está la lista de comandos :
 
 \
 
--   Apertura : es el comando que generará una detección
-    abriendo
+-   Apertura: es el comando que generará una detección
+    d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo : es el comando que hace posible aumentar el brillo
+-   Brillo: es el comando que hace posible aumentar el brillo
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
+-   Sabotaje: Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -177,7 +177,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión o modificación, guarde
 > siempre active el módulo presionando el botón de asociación.
@@ -246,14 +246,14 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    Reporte
+    rapport
 
 -   22: valor en% de variación de brillo para disparar
     un informe. Valor recomendado : 10
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -283,7 +283,7 @@ Visual alternativo
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -318,7 +318,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

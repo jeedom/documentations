@@ -45,7 +45,7 @@ kann es leicht in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -70,7 +70,7 @@ Technische Daten
 
 \
 
--   Typ: Tragbar / Wandhalterung
+-   Type: Tragbar / Wandhalterung
 
 -   Temperaturmessbereich: ± 0.5 ° C für 0 ° C bis 40 ° C
 
@@ -78,13 +78,13 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Versorgung: 2x AA-Batterien (LR6)
+-   Alimentation: 2x AA-Batterien (LR6)
 
 -   Geltungsbereich : bis zu 100 m im freien Feld
 
 -   Schutzindex : IP30
 
--   Abmessungen : 86 x 85 x 30 mm
+-   Abmessungen: 86 x 85 x 30 mm
 
 \
 
@@ -93,9 +93,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Horstmann
+-   Machen Sie: Horstmann
 
--   Name : SES 303 Temperatur- und Feuchtigkeitssensor
+-   Name: SES 303 Temperatur- und Feuchtigkeitssensor
 
 -   Hersteller ID : 89
 
@@ -105,18 +105,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie 1 Sekunde auf
 > Drücken Sie den Knopf auf der Rückseite und lassen Sie ihn gemäß der Papierdokumentation los.
@@ -135,12 +135,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -154,9 +154,9 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Luftfeuchtigkeit : Es ist die Feuchtigkeitsmessung
+-   Luftfeuchtigkeit: Es ist die Feuchtigkeitsmessung
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 Einige nicht sichtbare Temperaturen sind ebenfalls verfügbar und werden es auch sein
 nützlich, wenn Sie externe Sonden angeschlossen haben
@@ -167,10 +167,10 @@ nützlich, wenn Sie externe Sonden angeschlossen haben
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -214,7 +214,7 @@ externe Sonden möglicherweise angeschlossen
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -243,7 +243,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -271,7 +271,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufwachens, nach a

@@ -36,14 +36,14 @@ Seine Hauptmerkmale sind :
 -   Die Fähigkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
     Zeitlimit.
 
-Achtung: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
+Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
 Der Benutzer drückt die Tasten direkt. Du musst eine machen
 'Aktualisieren Sie die Position, um die Umfrage zu aktualisieren, oder passen Sie sie an (siehe
 weiter).
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -76,11 +76,11 @@ Technische Daten
 
 -   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv)
 
--   Sicherung : T8AH
+-   Sicherung: T8AH
 
 -   Frequenz : 868,42 MHz
 
--   Abmessungen : 52 x 52 x 31 mm
+-   Abmessungen: 52 x 52 x 31 mm
 
 -   Temperaturbereich : 0 ° C / + 40 ° C
 
@@ -91,9 +91,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Popp / Duwi
+-   Machen Sie: Popp / Duwi
 
--   Name : ZW ESJ Blind Control
+-   Name: ZW ESJ Blind Control
 
 -   Hersteller ID : 100
 
@@ -103,25 +103,25 @@ Moduldaten
 
 \
 
-Einloggen 
+Einloggen
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie dreimal, um das Modul in den Einschlussmodus zu versetzen
 > beim Auf- oder Abstieg. Der Ausschluss erfolgt auf die gleiche Weise.
@@ -136,16 +136,16 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
-![Befehle](images/duwi.05436/4-Befehle.PNG)
+![Befehle](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -153,17 +153,17 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
+-   Zustand: Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
 
--   Geh runter : Befehl, vollständig abzusteigen
+-   Geh runter: Befehl, vollständig abzusteigen
 
--   Geh hoch : Befehl, vollständig zu mounten
+-   Geh hoch: Befehl, vollständig zu mounten
 
--   STOP : Sofortiger Bewegungsstopp
+-   STOP: Sofortiger Bewegungsstopp
 
 -   Aktualisieren : Aktualisieren Sie den aktuellen Status des Moduls
 
--   Ebene : Schieberegler zum Positionieren einer Teilöffnung
+-   Ebene: Schieberegler zum Positionieren einer Teilöffnung
 
 \
 
@@ -216,7 +216,7 @@ Parameterdetails :
 -   0 : Laufzeit :
 
 Dies sind die Anstiegs- und Abfallzeiten. Sie sollten Ihre finden
-Lernen.
+apprentissage.
 
 Die Codierung erfolgt durch zwei Bytepaare : der erste für den Aufstieg
 und der zweite für den Abstieg.
@@ -224,7 +224,7 @@ und der zweite für den Abstieg.
 Die Werte werden im Modul hexadezimal codiert und zurückgesetzt
 Dezimal in der Jeedom-Anzeige.
 
-Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12
+Zum Beispiel : für 4626 ergibt dies hexadezimal :0x1212 Entweder 0x12
 für den Aufstieg und 0x12 für den Abstieg. Oder wieder reingebracht
 dezimal : 18s für Auf- und Abstieg.
 
@@ -232,15 +232,15 @@ Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet di
 Das Modul schaltet den Auf- oder Abstieg ohne zeitliche Begrenzung ein. Es wird dauern
 Senden Sie dann einen 'Stop', um zu unterbrechen.
 
--   1 : Stop-Funktionalität : Aktiviert oder deaktiviert :
+-   1 : Stop-Funktionalität: Aktiviert oder deaktiviert :
 
 Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung gedrückt wird
 Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück
-Gegenteil.
+opposé.
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -249,7 +249,7 @@ Finden Sie Ihren Z-Wave-Controller.
 
 \
 
-![Groupe](images/duwi.05436/6-Gruppen.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \
 
@@ -279,9 +279,9 @@ Gut zu wissen
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Spitze**
+> **Tip**
 >
-> Das Widget "Store \ _2 \ _IMG", das im Infobefehl "Status" verwendet wird. Das hier
+> Das Widget "Store\_2\_IMG", das im Infobefehl "Status" verwendet wird. Das hier
 > Widget ist schön, weil es "teilweise geöffnete" Zustände anzeigt'.
 
 **@Theduck38**

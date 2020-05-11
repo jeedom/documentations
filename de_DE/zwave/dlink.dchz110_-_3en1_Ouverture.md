@@ -47,7 +47,7 @@ bereits ein bestehendes Netzwerk.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -60,7 +60,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz
+-   Autoprotection
 
 -   Anzeige für niedrigen Batteriestand
 
@@ -82,7 +82,7 @@ Anderer technischer Link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-Techniken] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+Techniken](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -91,12 +91,12 @@ Moduldaten
 
 \
 
--   Machen Sie : D-Link
+-   Machen Sie: D-Link
 
 -   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
     mydlink ™ Home
 
--   Hersteller : FIBARO-System
+-   Hersteller: FIBARO-System
 
 -   Hersteller ID : 264 \ [0x0108 \]
 
@@ -106,18 +106,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Installieren Sie das Modul nicht am Fenster / an der Tür, bevor Sie es haben
 > richtig konfiguriert, und achten Sie auf die Ausrichtung von
@@ -141,12 +141,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -158,18 +158,18 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung
+-   Öffnung: Es ist der Befehl, der eine Erkennung auslöst
+    d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
+-   Helligkeit: Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-   Sabotage: Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -177,7 +177,7 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Speichern Sie dann während einer ersten Aufnahme oder Änderung
 > Wecken Sie das Modul immer durch Drücken der Zuordnungstaste auf.
@@ -246,19 +246,19 @@ Parameterdetails :
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
-    Bericht
+    rapport
 
 -   22: Wert in% der auszulösenden Helligkeitsänderung
     ein Bericht. Empfohlener Wert : 10
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-wesentlich.
+indispensable.
 
 \
 
@@ -283,7 +283,7 @@ Alternative visuelle
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -318,7 +318,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

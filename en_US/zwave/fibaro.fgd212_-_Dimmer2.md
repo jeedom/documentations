@@ -47,7 +47,7 @@ instantaneous consumption (in W) and total electrical consumption
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -63,7 +63,7 @@ Functions
 -   Integrates the Z-Wave 500 series chip
 
 -   250% faster communication compared to Z-Wave devices
-    Standard
+    standard
 
 -   Automatic load detection
 
@@ -101,9 +101,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V +/- 10%, 50Hz
+-   Food: 230V +/- 10%, 50Hz
 
--   Consumption : 1.3W
+-   Consumption: 1.3W
 
 -   Wiring : neutral not required
 
@@ -121,14 +121,14 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions : 42.5 x 38.25 x 20.3mm
+-   Dimensions: 42.5 x 38.25 x 20.3mm
 
 -   Operating temperature : 0-35 ° C
 
--   Limit temperature : 105 ° C
+-   Limit temperature : 105°C
 
--   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5 / EC
+-   Standards: RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
+    1999/5/EC
 
 \
 
@@ -137,9 +137,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : FGD212 Dimmer 2
+-   Name: FGD212 Dimmer 2
 
 -   Manufacturer ID : 271
 
@@ -149,18 +149,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation. If the
@@ -189,12 +189,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the modules will be
-available.
+disponibles.
 
 \
 
@@ -206,24 +206,24 @@ Here is the list of commands :
 
 \
 
--   Intensity : This is the command that allows you to adjust the intensity of the
+-   Intensity: This is the command that allows you to adjust the intensity of the
     Light
 
--   We : It is the control that turns on the light
+-   We: It is the control that turns on the light
 
--   Off : It is the command that turns off the light
+-   Off: It is the command that turns off the light
 
--   State : It is the command which allows to know the status of the
+-   State: It is the command which allows to know the status of the
     Light
 
--   Consumption : It is the command which allows to go up the
+-   Consumption: It is the command which allows to go up the
     module consumption
 
--   Power : It is the command which allows to raise the power
+-   Power: It is the command which allows to raise the power
     module instant
 
 Note that on the dashboard all the information is found on the same
-Icon
+icone
 
 \
 
@@ -266,12 +266,12 @@ ON GOING REDACTION
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has five association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -288,7 +288,7 @@ Good to know
 
 \
 
-> **Bail**
+> **Caution**
 >
 > The most important parameter of the configuration is 20. It
 > allows to choose the type of switch used. Default type
@@ -310,7 +310,7 @@ switch you can press your switch multiple times
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \

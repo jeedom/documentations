@@ -11,13 +11,13 @@ Summary
 
 Placed in a corridor, the living room, the garage of your house for example,
 the motion sensor detects a presence, the change of state is
-instantaneous.
+instantané.
 
 Thanks to its wide viewing angle and its range, it makes it possible to secure
 a large perimeter. Integrated LED indicator signals any changes
 state.
 
-Functions 
+Functions
 =========
 
 -   Detects movement, even in complete darkness
@@ -39,7 +39,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food: 3VDC (Lithium Battery ER14250)
 
 -   Frequency : 868.3 MHz
 
@@ -49,27 +49,27 @@ Technical characteristics
 
 -   Detection range : 6M
 
--   Dimensions : 25x79x19mm
+-   Dimensions: 25x79x19mm
 
 -   Degree of protection : IP20
 
--   Use : Indoors
+-   Use: Indoors
 
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark: Edisio Smart Home
 
--   Name : EMS-200
+-   Name: EMS-200
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -120,7 +120,7 @@ Once your equipment is paired, you should get this :
 > So that the widget is present on the dashboard, remember to place
 > your equipment in an object.
 
-Commands 
+Commands
 ---------
 
 Once your equipment is created, you should get the orders
@@ -133,24 +133,24 @@ Here is the list of commands :
 -   Presence : It is the command which indicates if a presence is
     detected
 
--   Drums : Indicates the battery status
+-   Drums: Indicates the battery status
 
-Information 
+Information
 ------------
 
 Once your equipment is associated with Jeedom, various information will be
-available :
+available:
 
 ![Commands](images/ems200/ems200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
+-   Communication: Indicates the last communication recorded between
     Jeedom and the module
 
--   Drums : Indicates the battery status of the battery modules
+-   Drums: Indicates the battery status of the battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS: Returns the status of the module
 
 Alternative visual 
 =================

@@ -26,11 +26,11 @@ Schließlich kann jedes Modul im Remote-Modus verwendet werden, es ist sehr
 praktisch, weil es ermöglicht, einen Sender zuzuordnen, ohne auf den zugreifen zu müssen
 Empfänger.
 
-> **Wichtig**
+> **Important**
 >
 > Neutral ist nur für den "Shutter" -Modus erforderlich"
 
-Funktionen 
+Funktionen
 =========
 
 -   2 Relaisausgänge geliefert
@@ -62,7 +62,7 @@ Technische Daten
 
 -   Modultyp: Edisio Empfänger
 
--   Versorgung: 230 VAC, 50 Hz
+-   Alimentation: 230 VAC, 50 Hz
 
 -   Verkabelung: 4 Drähte, 2 für die Steuerung und 2 für die Stromversorgung
 
@@ -78,33 +78,33 @@ Technische Daten
 
 -   Betriebstemperatur: -10 ° C + 45 ° C
 
--   Abmessungen: 48 x 46 x 26 mm
+-   Dimensions: 48 x 46 x 26 mm
 
 -   Schutzart: IP20
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie: Edisio Smart Home
 
--   Name : EMV-400
+-   Name: EMV-400
 
 Allgemeine Konfiguration 
 ======================
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Wichtig**
+> **Important**
 >
 > Umgekehrt müssen Edisio-Empfänger manuell in erstellt werden
-> Jeedom.
+>Jeedom
 
 DIP-Schalter und Taste "R" : 
 --------------------------
@@ -116,11 +116,11 @@ DIP-Schalter und Taste "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Aktivieren Sie niemals den Modus, um unnötige Redundanzen zu vermeiden
 > "Repeater "an allen Empfängern, maximal 5 Empfänger pro
-> Installation.
+>Installation
 
 -   Mit der Taste "R" kann dem Empfänger ein Sender zugeordnet werden,
     Aktivieren oder deaktivieren Sie die Timer-Funktion und aktivieren Sie den Modus
@@ -128,7 +128,7 @@ DIP-Schalter und Taste "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Durch Drücken von R 3x wird der Fernbedienungsmodus aktiviert.
 
@@ -138,7 +138,7 @@ Funktionsplan
 Weiter, wenn Ihr Sender im Modus "1 Taste" oder "2" konfiguriert ist
 Schlüssel ", so funktioniert das Modul:
 
-> **Notiz**
+> **Note**
 >
 > Informationen hierzu finden Sie in der Dokumentation des Herstellers
 > Konfigurieren Sie Ihren Sender.
@@ -151,7 +151,7 @@ Timer-Funktion
 Die Timer-Funktion schaltet die Relais am Ende automatisch aus
 30 oder 60 Minuten.
 
-> **Notiz**
+> **Note**
 >
 > Diese Funktion wird nur im "Beleuchtungs" -Modus verwendet"
 
@@ -161,7 +161,7 @@ Der "Shutter" -Modus"
 Im "Shutter" -Modus können Sie am Ende einen bidirektionalen Motor steuern
 elektronisches und mechanisches Distanzrennen.
 
-> **Wichtig**
+> **Important**
 >
 > Neutral ist erforderlich
 
@@ -170,12 +170,12 @@ Elektrische Konfiguration und Anschlüsse :
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **Wichtig**
+> **Important**
 >
 > Damit sich das Modul im "Shutter" -Modus befindet, muss sich der DIP-Schalter 2 in befinden
-> Niedrig
+> bas
 
-> **Wichtig**
+> **Important**
 >
 > NIEMALS UNTER SPANNUNG ANSCHLIESSEN
 
@@ -191,16 +191,16 @@ Sobald Ihre Ausrüstung erstellt ist, sollten Sie diese erhalten :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Notiz**
+> **Note**
 >
 > Denken Sie daran, Ihre neue Ausrüstung zu aktivieren.
 
 Wählen Sie in der Liste der Geräte rechts "Mikromodul-Verschluss" aus
-rollen" :
+roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-Befehle 
+Befehle
 ---------
 
 Sobald Ihre Ausrüstung gespeichert ist, sollten Sie die Bestellungen erhalten
@@ -210,38 +210,38 @@ mit dem Modul verbunden :
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Dies ist der Befehl, der die Rückkehr des Status simuliert
+-   Zustand: Dies ist der Befehl, der die Rückkehr des Status simuliert
 
--   Geh hoch : Dies ist der Befehl, der den Verschluss öffnet
+-   Geh hoch: Dies ist der Befehl, der den Verschluss öffnet
 
--   STOP : Es ist der Befehl, der es ermöglicht, die Bewegung des Verschlusses zu stoppen
+-   STOP: Es ist der Befehl, der es ermöglicht, die Bewegung des Verschlusses zu stoppen
 
--   Geh runter : Dies ist der Befehl, der den Verschluss schließt
+-   Geh runter: Dies ist der Befehl, der den Verschluss schließt
 
--   E : Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
+-   E: Dies ist der Befehl, mit dem Sie den Remote-Modus verwenden können
 
-> **Wichtig**
+> **Important**
 >
 > Die Statusrückmeldung wird von Jeedom simuliert. Deshalb, wenn Sie
 > Wenn Sie einen anderen Sender verwenden, kann Jeedom den Status nicht aktualisieren
 > des Empfängers.
 
-Information 
+Information
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar :
+verfügbar:
 
 ![Befehle](images/emv.400/infos_moteur.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation: Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie : Zeigt den Batteriestatus für Batteriemodule an
+-   Batterie: Zeigt den Batteriestatus für Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   STATUS: Gibt den Status des Moduls zurück
 
 Assoziation des Mikromoduls mit Jeedom 
 ===================================
@@ -249,7 +249,7 @@ Assoziation des Mikromoduls mit Jeedom
 Damit du mit Jeedom interagieren kannst, als wäre es ein
 Edisio Sender.
 
-> **Notiz**
+> **Note**
 >
 > Einer der großen Vorteile von Edisio ist, dass ein Empfänger haben kann
 > mehrere assoziierte Emittenten
@@ -283,10 +283,10 @@ Jeder Ausgang muss einem Jeedom-Befehl zugeordnet sein:
     -   Drücken Sie innerhalb von 10 Sekunden erneut "R" am Empfänger, um
         Bestätigen Sie die Zuordnung, der Piepton stoppt.
 
-> **Notiz**
+> **Note**
 >
 > Es ist nicht erforderlich, den Befehl "Stop" zuzuordnen
-> automatisch.
+>automatisch
 
 Remote-Methode 
 ----------------
@@ -341,7 +341,7 @@ Ersetzt jetzt die Taste "R" am Empfänger.
             Befehl "E" in Jeedom, um die Zuordnung, den Piepton zu bestätigen
             Der Ton hört auf.
 
-> **Notiz**
+> **Note**
 >
 > Sie können so oft neu starten, wie Sie zuordnen möchten
 > vom Sender zum Empfänger

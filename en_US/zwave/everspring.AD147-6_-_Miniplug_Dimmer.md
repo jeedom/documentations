@@ -37,7 +37,7 @@ which Z-Wave controller in your network.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -68,9 +68,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food: 230 V, 50 Hz
 
--   Consumption : 0.6W
+-   Consumption: 0.6W
 
 -   Maximum power : Resistive load : 250W, Incandescent bulb
     : 250W, Led bulb (not dimmable) : 6W
@@ -79,9 +79,9 @@ Technical characteristics
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions : Length (plug included) : 74mm Diameter : 52mm
+-   Dimensions: Length (plug included) : 74mm Diameter : 52mm
 
 \
 
@@ -90,9 +90,9 @@ Module data
 
 \
 
--   Mark : Everspring
+-   Mark: Everspring
 
--   Name : Miniplug Dimmer
+-   Name: Miniplug Dimmer
 
 -   Manufacturer ID : 96
 
@@ -102,18 +102,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
@@ -134,12 +134,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -151,15 +151,15 @@ Here is the list of commands :
 
 \
 
--   Intensity : This is the command used to adjust the intensity of the
-    Outlet
+-   Intensity: This is the command used to adjust the intensity of the
+    prise
 
--   We : This is the command that turns on the outlet
+-   We: This is the command that turns on the outlet
 
--   Off : It is the command which makes it possible to extinguish the catch
+-   Off: It is the command which makes it possible to extinguish the catch
 
--   State : It is the command which allows to know the status of the
-    Outlet
+-   State: It is the command which allows to know the status of the
+    prise
 
 \
 
@@ -207,7 +207,7 @@ Parameter details :
 -   4 : This parameter allows you to define whether the outlet will operate in
     variation or in on / off mode
 
-### Groups 
+### Groups
 
 \
 
@@ -219,7 +219,7 @@ This module has 2 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -233,9 +233,9 @@ Good to know
 \
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+   seconds \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -250,7 +250,7 @@ Faq.
 \
 
 Yes it is parameter 2 and it cannot be set below 3
-seconds.
+secondes.
 
 \
 

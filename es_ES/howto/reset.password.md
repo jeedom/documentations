@@ -31,12 +31,12 @@ Listo. Puede desconectarse / volver a conectarse a su Jeedom con el
 identificadores adminTmp / admin que le permitirán modificar la contraseña
 pasar otras cuentas también.
 
->**Importante**
+>**IMPORTANT**
 >
 >Recuerde que una vez que se recupere su acceso para eliminar el usuario adminTmp, dejarlo podría ser un potencial
 violación de seguridad de la cual usted es el único responsable.
 
->**Importante**
+>**IMPORTANT**
 >
 > Si ha habilitado la autenticación AD / LDAP, este método de reinicio no funcionará a menos que desactive el modo AD / LDAP. Puedes hacer esto haciendo : 
 >`` `{.bash}

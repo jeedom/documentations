@@ -35,7 +35,7 @@ sollte nicht.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -79,7 +79,7 @@ Technische Daten
 
 -   Modultyp : Empfänger und Sender der Serie Z-Wave + 500
 
--   Versorgung : Aktuator : 5 VDC (Adapter mitgeliefert) Sensor : Stapel
+-   Versorgung: Aktuator: 5 VDC (Adapter mitgeliefert) Sensor : Pile
     Lithium 3V 800mA CR2
 
 -   Standby-Verbrauch : 1W
@@ -98,7 +98,7 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 80%
 
--   Zertifizierungen: FCC, UL, CE, ROHS
+-   Certifications: FCC, UL, CE, ROHS
 
 \
 
@@ -107,9 +107,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Aeotec
+-   Machen Sie: Aeotec
 
--   Name : Garagentorsteuerung (ZW062)
+-   Name: Garagentorsteuerung (ZW062)
 
 -   Hersteller ID : 134
 
@@ -119,18 +119,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Z-Wave gemäß seiner Papierdokumentation.
@@ -149,12 +149,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -168,13 +168,13 @@ Hier ist die Liste der Befehle :
 
 -   Öffnen / Schließen : Öffnen, schließen oder stoppen Sie das Garagentor.
 
--   Position : Aktuelle Garagentorposition.
+-   Position: Aktuelle Garagentorposition.
 
--   Lautstärke : Aktuelle Lautsprecherlautstärke.
+-   Lautstärke: Aktuelle Lautsprecherlautstärke.
 
 -   Temperatur : Zonentemperatur, kein automatischer Aufstieg.
 
--   Sabotage : Textsabotagestatus.
+-   Sabotage: Textsabotagestatus.
 
 \
 
@@ -219,12 +219,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat zwei Zuordnungsgruppen. Die erste "Rettungsleine" ist
-wesentlich.
+indispensable.
 
 \
 

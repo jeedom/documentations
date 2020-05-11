@@ -48,7 +48,7 @@ bestehendes Netzwerk.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -67,7 +67,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz
+-   Autoprotection
 
 -   Anzeige für niedrigen Batteriestand
 
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 CR123A 3V Batterie
+-   Versorgung: 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -100,9 +100,9 @@ Technische Daten
 
 -   PIR-Erfassungsbereich : 8 bis 10 m
 
--   Abmessungen : 28 x 96 x 23 mm
+-   Abmessungen: 28 x 96 x 23 mm
 
--   Gewicht : 39g
+-   Gewicht: 39g
 
 -   Betriebstemperatur : -10 bis 40 ° C
 
@@ -119,9 +119,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Philio Technology Corporation
+-   Machen Sie: Philio Technology Corporation
 
--   Name : Philio PSP01
+-   Name: Philio PSP01
 
 -   Hersteller ID : 316
 
@@ -131,18 +131,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -161,12 +161,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -180,18 +180,18 @@ Hier ist die Liste der Befehle :
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung
+-   Öffnung: Es ist der Befehl, der eine Erkennung auslöst
+    d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
+-   Helligkeit: Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-   Sabotage: Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -202,10 +202,10 @@ entsprechend Ihrem Modul.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -264,12 +264,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-wesentlich.
+indispensable.
 
 \
 
@@ -286,7 +286,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul hat eine Besonderheit und keinen Bericht, der auf dem basiert
 > Variationen, aber nur im Laufe der Zeit, sendet es alle seine Informationen an
@@ -305,7 +305,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -339,7 +339,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

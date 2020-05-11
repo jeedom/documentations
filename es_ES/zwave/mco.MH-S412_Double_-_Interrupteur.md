@@ -35,7 +35,7 @@ iluminación o un electrodoméstico.
 El interruptor también está equipado con un indicador LED que indica su
 estado \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -66,9 +66,9 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : Blanco, Blanca
+-   Color: Blanc
 
--   Suministro : 230 V, 50 Hz
+-   Suministro: 230 V, 50 Hz
 
 -   Cableado : 3 hilos, neutro requerido
 
@@ -78,9 +78,9 @@ Características técnicas
 
 -   Alcance : hasta 30 m
 
--   Dimensiones : 86 x 86 x 43 mm
+-   Dimensiones: 86 x 86 x 43 mm
 
--   Visualización: LED azul / rojo
+-   Affichage: LED azul / rojo
 
 \
 
@@ -89,9 +89,9 @@ Datos del módulo
 
 \
 
--   Hacer : MC HOME
+-   Hacer: MC HOME
 
--   Nombre : MH-S412 doble
+-   Nombre: MH-S412 doble
 
 -   ID del fabricante : 351
 
@@ -101,18 +101,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione solo uno
 > 2 botones en el panel frontal durante 3 segundos, de acuerdo con su
@@ -126,12 +126,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -168,7 +168,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -199,7 +199,7 @@ no está tripulado
 4 \) este interruptor puede controlar su carga en modo autónomo (no
 conectado a un controlador de onda z)
 
-Despertador 
+Despertador
 ------
 
 \

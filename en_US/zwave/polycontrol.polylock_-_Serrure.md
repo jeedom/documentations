@@ -1,4 +1,4 @@
-PolyLock 
+PolyLock
 ========
 
 \
@@ -25,7 +25,7 @@ Summary
  
 
 Secure your home using the Z-Wave electronic lock from
-Poly-Control !
+Poly-Control!
 
 The Poly-Lock electronic lock is designed to adapt to almost
 all the doors in the world. It mounts very easily in 5
@@ -51,7 +51,7 @@ battery replacement.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -61,7 +61,7 @@ Functions
 -   Fits most doors
 
 -   Can be integrated into Z-Wave scenes, for example for a system
-    alarm
+    d'alarme
 
 -   Suitable for home or business use
 
@@ -76,16 +76,16 @@ Technical characteristics
 
 \
 
--   Food : 3.6V Lithium-Chloride battery
+-   Food: 3.6V Lithium-Chloride battery
 
 -   Frequency : 868.42 Mhz
 
 -   Scope : up to 100 m outdoors, up to 30 m in
     buildings
 
--   Dimensions : 120 x 52 x 60 mm (L x W x H)
+-   Dimensions: 120 x 52 x 60 mm (L x W x H)
 
--   Weight : 370g
+-   Weight: 370g
 
 \
 
@@ -94,9 +94,9 @@ Module data
 
 \
 
--   Mark : Poly-Control
+-   Mark: Poly-Control
 
--   Name : PolyLock
+-   Name: Polylock
 
 -   Manufacturer ID : 270
 
@@ -106,18 +106,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 1 time
 > inclusion button, according to its paper documentation.
@@ -136,12 +136,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -153,14 +153,14 @@ Here is the list of commands :
 
 \
 
--   Status : it is the command which will go up the last action
+-   Status: it is the command which will go up the last action
     executed (open / close)
 
--   Open : it is the command which opens the lock
+-   Open: it is the command which opens the lock
 
--   To close : it is the command which makes it possible to close the lock
+-   To close: it is the command which makes it possible to close the lock
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -217,7 +217,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 

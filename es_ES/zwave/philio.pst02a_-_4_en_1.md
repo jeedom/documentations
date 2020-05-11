@@ -29,7 +29,7 @@ movimiento, detección de apertura, sensor de temperatura y detector
 brillo Consta de dos partes : un detector y un imán.
 Están diseñados para colocarse en una puerta o ventana con
 el imán fijado en la parte que se abre y el detector en la parte
-arreglado.
+fixe.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
 detector, que activará el detector que enviará una señal Z-Wave
@@ -41,7 +41,7 @@ alertas al detectar cambios en los niveles de radiación
 infrarrojo o puerta / ventana de apertura. Si una persona se muda
 el campo de visión del detector o abre una puerta / ventana, una señal
 se transmite la radio, que activa una alarma para disuadir
-intruso.
+intrus.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
@@ -56,7 +56,7 @@ se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
 si ya tienes una red existente. \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -75,7 +75,7 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotección
+-   Autoprotection
 
 -   Indicación de batería baja
 
@@ -92,7 +92,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería CR123A 3V
+-   Suministro: 1 batería CR123A 3V
 
 -   Duración de la batería : 2 años
 
@@ -108,13 +108,13 @@ Características técnicas
 
 -   Rango de detección PIR : 8 a 10m
 
--   Dimensiones :
+-   Dimensiones:
 
 -   Detector : 28 x 96 x 23 mm
 
--   Imán : 10 x 50 x 12 mm
+-   Imán: 10 x 50 x 12 mm
 
--   Peso : 52g
+-   Peso: 52g
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
@@ -131,9 +131,9 @@ Datos del módulo
 
 \
 
--   Hacer : Philio Technology Corporation
+-   Hacer: Philio Technology Corporation
 
--   Nombre : PST02-A Multisensor 4 en 1
+-   Nombre: PST02-A Multisensor 4 en 1
 
 -   ID del fabricante : 316
 
@@ -143,18 +143,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -173,12 +173,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -192,18 +192,18 @@ Aquí está la lista de comandos :
 
 -   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura : es el comando que generará una detección
-    abriendo
+-   Apertura: es el comando que generará una detección
+    d'ouverture
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo : es el comando que hace posible aumentar el brillo
+-   Brillo: es el comando que hace posible aumentar el brillo
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
+-   Sabotaje: Este es el comando de sabotaje (se activa en
     arrancando)
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -211,10 +211,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -287,14 +287,14 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    Reporte
+    rapport
 
 -   22: valor en% de variación de brillo para activar un
     Informar valor recomendado : 10
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -320,7 +320,7 @@ Bueno saber
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -350,7 +350,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

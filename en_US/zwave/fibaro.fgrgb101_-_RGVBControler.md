@@ -33,13 +33,13 @@ or RGB + white or even to connect analog probes using
 
 -   4 dimmer outputs (PWM) to control :
 
--   \ * i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
+-   \* i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
 
--   \ * or 4 channels of white LEDs 12 / 24V
+-   \* or 4 channels of white LEDs 12 / 24V
 
--   \ * or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
+-   \* or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
 
--   \ * or 12 / 24V fans.
+-   \* or 12 / 24V fans.
 
 -   Requires separate 12 / 24V power supply.
 
@@ -49,7 +49,7 @@ or RGB + white or even to connect analog probes using
 
 \
 
-Functions 
+Functions
 ---------
 
 -   Order low voltage lights 12 / 24V (halogen or LED)
@@ -69,23 +69,23 @@ Functions
 Technical characteristics 
 ---------------------------
 
--   Food : 12 V or 24 V DC
+-   Food: 12 V or 24 V DC
 
 -   Maximum output power :
 
--   \ * 12A in total (addition of all channels),
+-   \* 12A in total (addition of all channels),
 
--   \ * 6A max. per channel
+-   \* 6A max. per channel
 
 -   Maximum power with halogen lamps :
 
--   \ * 12V - 144W total (all channels),
+-   \* 12V - 144W total (all channels),
 
--   \ * 24V - 288W total (all channels)
+-   \* 24V - 288W total (all channels)
 
 -   PWM modulation frequency : 244 Hz
 
--   Consumption : 0.3W
+-   Consumption: 0,3W
 
 -   Radio protocol : Z-Wave at 868.4 MHz (EU)
 
@@ -95,7 +95,7 @@ Technical characteristics
 
 -   For installation in boxes : Ø≥50 mm
 
--   Dimensions : 42 x 37 x 17 mm
+-   Dimensions: 42 x 37 x 17 mm
 
 -   European standards : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -106,9 +106,9 @@ Technical characteristics
 Module data 
 -----------------
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : Fibaro FGRGB-101 RGBW
+-   Name: Fibaro FGRGB-101 RGBW
 
 -   Manufacturer ID : 271
 
@@ -118,16 +118,16 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -146,10 +146,10 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -161,21 +161,21 @@ available.
 
 Here is the list of commands :
 
--   Color : It is the command which allows to set the color code to
-    Pin up
+-   Color: It is the command which allows to set the color code to
+    afficher
 
 -   Fireplace : It is the command that simulates an atmosphere of
     Fireplace
 
--   Thunderstorm : This is the command that simulates a Storm atmosphere
+-   Thunderstorm: This is the command that simulates a Storm atmosphere
 
--   Dawn : This is the command that simulates an Aude atmosphere
+-   Dawn: This is the command that simulates an Aude atmosphere
     (progressive sunrise)
 
--   Fading : This is the command that simulates the entire
+-   Fading: This is the command that simulates the entire
     color spectrum
 
--   RBB : This is the command that simulates a cop atmosphere
+-   RBB: This is the command that simulates a cop atmosphere
 
 -   White cold : This is the command that simulates having a
     cool white color, if the color strip allows it. (this
@@ -185,16 +185,16 @@ Here is the list of commands :
     warm white color, if the color strip allows it. (this
     command is not visible by default)
 
--   We : This is the command that turns on the strip on the
+-   We: This is the command that turns on the strip on the
     last color chooses before
 
--   Off : This is the command that turns off the banner
+-   Off: This is the command that turns off the banner
 
--   Intensity : It is the command which allows to adjust the intensity
-    bright
+-   Intensity: It is the command which allows to adjust the intensity
+    lumineuse
 
 Note that on the dashboard all the information is found on the same
-Icon
+icone
 
 \
 
@@ -226,10 +226,10 @@ being translated into french.
 
 \
 
-### Groups 
+### Groups
 
 This module has five association groups, only the fifth is
-essential.
+indispensable.
 
 \
 
@@ -244,7 +244,7 @@ Use of 0-10V sensors.
 
 \
 
-> **Bail**
+> **Caution**
 >
 > For now, the default configuration of jeedom does not allow it
 > not, but a specific configuration can be considered.
@@ -257,7 +257,7 @@ Use of 0-10V sensors.
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 No notion of wakeup on this module.

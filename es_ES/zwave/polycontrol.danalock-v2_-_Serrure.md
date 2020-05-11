@@ -25,7 +25,7 @@ Resumen
  
 
 **Asegure su hogar con la cerradura electrónica Z-Wave de
-Poly-Control !**
+Poly-Control!**
 
 No más llaves, use su teléfono inteligente para bloquear y
 abre tu puerta ! Danalock es una nueva solución que
@@ -62,7 +62,7 @@ Bloquear y desbloquear con el botón, la función TwistAssist o
 usando su teléfono inteligente. Y con la función de desbloqueo automático,
 La cerradura Danalock abre automáticamente la puerta cuando
 acércate a tu casa y ciérrala justo después de
-regresado.
+rentré.
 
 **Batería de larga duración**
 
@@ -95,7 +95,7 @@ bisel de aluminio anodizado sólido y tecnologías avanzadas
 Bluetooth y Z-Wave. Un diseño danés discreto construido para durar.
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -136,17 +136,17 @@ Características técnicas
 
 \
 
--   Suministro : 4 baterías CR123 3V
+-   Suministro: 4 baterías CR123 3V
 
--   Versiones : V2
+-   Versiones: V2
 
 -   Material : Aluminio anodizado sólido
 
--   Comunicación : Bluetooth y Z-Wave
+-   Comunicación: Bluetooth y Z-Wave
 
--   Dimensiones : 79 mm x 49 mm (diámetro x altura)
+-   Dimensiones: 79 mm x 49 mm (diámetro x altura)
 
--   Peso : 363g
+-   Peso: 363g
 
 \
 
@@ -155,9 +155,9 @@ Datos del módulo
 
 \
 
--   Hacer : Poly-Control
+-   Hacer: Poly-Control
 
--   Nombre : Danalock V2 BTZE
+-   Nombre: Danalock V2 BTZE
 
 -   ID del fabricante : 010e
 
@@ -167,18 +167,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Es esencial incluir este módulo en modo seguro..
 
@@ -189,7 +189,7 @@ seguro : simplemente vaya a la página de administración del módulo Z-wave
 y haga clic en el icono "Red Zwave"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
+1](images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
 
 \
 
@@ -197,11 +197,11 @@ Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO
 SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
+2](images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
 
 \
 
-> **Importante**
+> **Important**
 >
 > Suponemos que ha instalado la aplicación en
 > su teléfono inteligente o iphone y creó una cuenta. Si aún no lo es
@@ -224,12 +224,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -241,14 +241,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : es el comando que subirá la última acción
+-   Estado: es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
 
--   Abrir : es el comando que abre la cerradura
+-   Abrir: es el comando que abre la cerradura
 
--   Cerca : es el comando que hace posible cerrar la cerradura
+-   Cerca: es el comando que hace posible cerrar la cerradura
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -256,7 +256,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Advertencia**
+> **Warning**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -290,7 +290,7 @@ Detalles del parámetro :
 
 -   1 : Dirección 0-1 : 0 = el motor gira en sentido horario
     bloqueado, 1 = el motor va en sentido antihorario cuando
-    bloqueado
+    verrouillé
 
 -   2 : Velocidad 1 = más lenta, 2 = lenta, 3 = Normal, 4 = Rápida, 5 = la
     más rápido
@@ -332,7 +332,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -353,7 +353,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -362,7 +362,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo devuelve su estado si opera el bloqueo con la mano
 > El estado se actualizará. \
@@ -375,7 +375,7 @@ Bueno saber
 
 \
 
-Despertador 
+Despertador
 ------
 
 \

@@ -2,14 +2,14 @@
 # Verbundene Objekte
 
 
->**Wichtig**
+>**IMPORTANT**
 >Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=devicecommunication) Alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="blink1/blink1_icon.png" class="pluginLogo" width="100" />|Blink (1)|Plugin zur Steuerung eines Blinkschlüssels (1)|[Dokumentation](blink1/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1244)<br/>[Änderungsprotokoll](blink1/changelog.md)|
+|<img src="blink1/blink1_icon.png" class="pluginLogo" width="100" />|Blink(1)|Plugin zur Steuerung eines Blinkschlüssels (1)|[Dokumentation](blink1/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1244)<br/>[Änderungsprotokoll](blink1/changelog.md)|
 |<img src="husqvarna/husqvarna_icon.png" class="pluginLogo" width="100" />|Husqvarna||[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3101)|
 |<img src="ikealight/ikealight_icon.png" class="pluginLogo" width="100" />|Ikea|Mit dem Ikea-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Ikea-Leuchten, Steckdosen und Jalousien steuern und erhalten eine Echtzeit-Statusrückmeldung.|[Dokumentation](ikealight/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3039)<br/>[Änderungsprotokoll](ikealight/changelog.md)|
 |<img src="karotz/karotz_icon.png" class="pluginLogo" width="100" />|Karotz|Plugin um den Karotz zu bestellen|[Dokumentation](karotz/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=148)<br/>[Änderungsprotokoll](karotz/changelog.md)|

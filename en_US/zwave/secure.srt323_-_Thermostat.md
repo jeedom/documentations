@@ -57,7 +57,7 @@ PC at hand and connected to the internet.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -87,11 +87,11 @@ Technical characteristics
 
 -   Integrated TPI algorithm
 
--   Relay: 3 (1) A 230V AC
+-   Relai: 3 (1) A 230V AC
 
 -   Adjustable temperature range: 5 ° C to 30 ° C
 
--   Food : 2x AAA batteries (LR3)
+-   Food: 2x AAA batteries (LR3)
 
 -   Battery life : 2 years
 
@@ -103,7 +103,7 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C to 40 ° C
 
--   Dimensions : 86 x 86 x 36.25 mm
+-   Dimensions: 86 x 86 x 36.25 mm
 
 \
 
@@ -112,9 +112,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark: Horstmann
 
--   Name : SRT 323 Electronic Room Thermostat and Temperature
+-   Name: SRT 323 Electronic Room Thermostat and Temperature
 
 -   Manufacturer ID : 89
 
@@ -124,18 +124,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, you must put switch 1 in
 > position ON then with the dial display L and press the dial,
@@ -147,7 +147,7 @@ inclusion refer to this
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > This module is finicky at inclusion. During a first inclusion
 > always wake up the module immediately after inclusion. To do this
@@ -168,12 +168,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -187,14 +187,14 @@ Here is the list of commands :
 
 -   Temperature : it is the temperature measurement command
 
--   State : it is the command which gives the current instruction
+-   State: it is the command which gives the current instruction
 
--   Instructions : it is the command which makes it possible to adjust the setpoint
+-   Instructions: it is the command which makes it possible to adjust the setpoint
 
 -   Heating State : it is the command which makes it possible to know if the
     thermostat is in heating mode or not
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -234,7 +234,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -256,7 +256,7 @@ Good to know
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > This module is on battery. So it’s important to note that
 > change of setpoint will only be taken into account upon awakening. By
@@ -266,7 +266,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -293,7 +293,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

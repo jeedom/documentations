@@ -31,7 +31,7 @@ The Core includes among others :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historical
+## Historiques
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 

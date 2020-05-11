@@ -13,13 +13,13 @@ El mini control remoto e-Trendy de 4 canales es simple, robusto y elegante,
 fue creado para complacer. Se conecta fácilmente a receptores y
 puede controlar su encendido / apagado y luces regulables, motorizaciones,
 persianas, persianas, portones, puertas de garaje. Tiene dos modos de
-Programación.
+programmation.
 
 Además, la interacción con otros protocolos es posible, puede
 interactuar con los receptores de la marca Edisio, con Jeedom, pero
 también por cualquier receptor Z-Wave en su red.
 
-Funciones 
+Funciones
 =========
 
 -   Modo de uso : Encendido / Apagado, Abrir / Parar / Cerrar, Atenuador,
@@ -36,33 +36,33 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor Edisio
 
--   Suministro : 3VDC (batería de litio CR2430)
+-   Suministro: 3VDC (batería de litio CR2430)
 
--   Canales : 4
+-   Canales: 4
 
 -   Frecuencia : 868.3 MHz
 
 -   Temperatura de funcionamiento : -10 ° C + 50 ° C
 
--   Dimensiones : 52x28x12mm
+-   Dimensiones: 52x28x12mm
 
 -   Grado de protección : IP40
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer: Edisio Smart Home
 
--   Nombre : ETC4
+-   Nombre: ETC4
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -124,7 +124,7 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-Comandos 
+Comandos
 ---------
 
 Una vez que haya creado su equipo, debe recibir los pedidos
@@ -134,40 +134,40 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   bt01 : Es el comando que te permite interactuar con el botón 1
+-   bt01: Es el comando que te permite interactuar con el botón 1
 
--   bt02 : Es el comando que permite interactuar con el botón 2
+-   bt02: Es el comando que permite interactuar con el botón 2
 
--   bt03 : Es el comando que permite interactuar con el botón 3
+-   bt03: Es el comando que permite interactuar con el botón 3
 
--   bt04 : Es el comando que te permite interactuar con el botón 4
+-   bt04: Es el comando que te permite interactuar con el botón 4
 
--   Batería : Indica el estado de la batería
+-   Batería: Indica el estado de la batería
 
-Información 
+Información
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
-disponible :
+disponible:
 
 ![Comandos](images/etc4/infos.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo
 
--   Comunicación : Indica la última comunicación registrada entre
+-   Comunicación: Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería para los módulos de batería
+-   Batería: Indica el estado de la batería para los módulos de batería
 
--   Estado : Devuelve el estado del módulo
+-   Estado: Devuelve el estado del módulo
 
-Uso 
+Uso
 -----------
 
 Una vez que su control remoto está configurado, puede hacerlo con
 El plugin Jeedom Scenario interactúa con su control remoto en Jeedom.
 
-> **Nota**
+> **Note**
 >
 > Cada clave para un estado binario devuelve.
 

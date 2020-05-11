@@ -51,7 +51,7 @@ home automation boxing will no longer be possible.
 PowerNode controlled outlet also has a status indicator
 bright which gives different information depending on its color :
 sockets on or off, limited radio range, inclusion mode and
-Exclusion.
+exclusion.
 
 The PowerNode plug module is equipped with protection against
 overcurrents to protect the connected device. The PowerNode socket will
@@ -61,7 +61,7 @@ internal located in the socket.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -91,7 +91,7 @@ Technical characteristics
 
 \
 
--   Food : 250V AC, 50Hz
+-   Food: 250V AC, 50Hz
 
 -   Maximum charge current : 10A
 
@@ -124,9 +124,9 @@ Module data
 
 \
 
--   Mark : GreenWave
+-   Mark: GreenWave
 
--   Name : GreenWave \ [1 x plug \]
+-   Name: GreenWave \ [1 x plug \]
 
 -   Manufacturer ID : 153
 
@@ -136,18 +136,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present under the socket.
@@ -166,12 +166,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -183,17 +183,17 @@ Here is the list of commands :
 
 \
 
--   State : It is the command which allows to know the status of the
-    Outlet
+-   State: It is the command which allows to know the status of the
+    prise
 
--   We : This is the command that turns on the outlet
+-   We: This is the command that turns on the outlet
 
--   Off : It is the command which makes it possible to extinguish the catch
+-   Off: It is the command which makes it possible to extinguish the catch
 
--   Power : It is the control which brings up the instantaneous power
+-   Power: It is the control which brings up the instantaneous power
     consumed
 
--   Consumption : It is the order which reports the total consumption
+-   Consumption: It is the order which reports the total consumption
 
 \
 
@@ -242,12 +242,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has four association groups, only the 3rd group is
-essential.
+indispensable.
 
 \
 
@@ -265,7 +265,7 @@ polling to boost consumption.
 
 \
 
-### Reset 
+### Reset
 
 \
 
@@ -283,7 +283,7 @@ PressButton.
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \

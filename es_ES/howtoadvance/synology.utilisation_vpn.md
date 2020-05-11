@@ -22,7 +22,7 @@ Elija la opción Habilitar servidor VPN L2TP / IPsec
 
 En Dirección IP dinámica, ingrese un número que corresponderá al sub
 red para asignar las IP de sus dispositivos en VPN en la red interna
-desde tu lugar. NB : no elijas lo mismo que el
+desde tu lugar. NB: no elijas lo mismo que el
 subred predeterminada de su caja ex en libre la subred de
 máquinas es 192.168.1.0 así que en el ejemplo ponemos 2
 
@@ -56,7 +56,7 @@ Desmarque todas las casillas bajo PPTP Open VPN y L2TP
 Marque solo la casilla en frente del usuario que desea
 permitir usar VPN .
 
-> **Punta**
+> **Tip**
 >
 > Es recomendable crear un usuario solo para la VPN
 > y sin ningún otro derecho / autorización que hacer con la VPN.
@@ -85,7 +85,7 @@ Agregar una redirección
 
 Ingrese los parámetros de la siguiente manera.
 
-> **Punta**
+> **Tip**
 >
 > El ID de destino es lo único que depende de su instalación,
 > debe poner la IP de su Synology NAS

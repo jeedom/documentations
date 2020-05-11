@@ -37,7 +37,7 @@ Z-Wave standard compatible controller
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -46,7 +46,7 @@ Functions
 
 -   Microchip control.
 
--   Execution element: Relay.
+-   Execution element:Relay
 
 -   Measurement of active power of current and electrical energy
     of the receiver.
@@ -60,7 +60,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230V, 50Hz
+-   Food: 230V, 50Hz
 
 -   Power consumption : up to 0.8W
 
@@ -74,9 +74,9 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105 ° C
+-   Limit temperature : 105°C
 
--   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
+-   Standards: LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
 \
 
@@ -85,9 +85,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : Wall Plug FGWPE-101
+-   Name: Wall Plug FGWPE-101
 
 -   Manufacturer ID : 271
 
@@ -97,18 +97,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -127,12 +127,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -144,17 +144,17 @@ Here is the list of commands :
 
 \
 
--   State : It is the command which allows to know the status of the
-    Outlet
+-   State: It is the command which allows to know the status of the
+    prise
 
--   We : This is the command that turns on the outlet
+-   We: This is the command that turns on the outlet
 
--   Off : It is the command which makes it possible to extinguish the catch
+-   Off: It is the command which makes it possible to extinguish the catch
 
--   Power : This is the command that brings up the instantaneous power
+-   Power: This is the command that brings up the instantaneous power
     consumed
 
--   Consumption : It is the order which reports the total consumption
+-   Consumption: It is the order which reports the total consumption
 
 \
 
@@ -199,7 +199,7 @@ Parameter details :
 -   1: allows to block the module in always ON
 
 -   16: allows you to remember the last state in the event of a power cut
-    Current
+    courant
 
 -   34: allows you to choose the type of alarm on the Zwave network
     must react
@@ -222,7 +222,7 @@ Parameter details :
     of a variation
 
 -   49: take into account the consumption of the module itself in the
-    Values
+    valeurs
 
 -   50: minimum value used by param 52
 
@@ -244,12 +244,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has 3 association groups, only the third is
-essential.
+indispensable.
 
 \
 
@@ -262,7 +262,7 @@ Good to know
 
 \
 
-### Reset 
+### Reset
 
 \
 
@@ -284,7 +284,7 @@ PressButton.
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \

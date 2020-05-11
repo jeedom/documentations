@@ -35,7 +35,7 @@ no deberia.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -79,7 +79,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor y transmisor de la serie Z-Wave + 500
 
--   Suministro : Actuador : Sensor de 5 V CC (adaptador incluido) : Pila
+-   Suministro: Actuador: Sensor de 5 V CC (adaptador incluido) : Pile
     Litio 3V 800mA CR2
 
 -   Consumo en espera : 1W
@@ -98,7 +98,7 @@ Características técnicas
 
 -   Humedad de funcionamiento : 80%
 
--   Certificaciones: FCC, UL, CE, ROHS
+-   Certifications: FCC, UL, CE, ROHS
 
 \
 
@@ -107,9 +107,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer: Aeotec
 
--   Nombre : Controlador de puerta de garaje (ZW062)
+-   Nombre: Controlador de puerta de garaje (ZW062)
 
 -   ID del fabricante : 134
 
@@ -119,18 +119,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > Z-Wave, de acuerdo con su documentación en papel.
@@ -149,12 +149,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -168,13 +168,13 @@ Aquí está la lista de comandos :
 
 -   Abrir / cerrar : Abrir, cerrar o detener la puerta del garaje.
 
--   Posición : Posición actual de la puerta del garaje.
+-   Posición: Posición actual de la puerta del garaje.
 
--   Volumen : Volumen actual del altavoz.
+-   Volumen: Volumen actual del altavoz.
 
 -   Temperatura : Temperatura de zona, sin ascenso automático.
 
--   Sabotaje : Estado de sabotaje de texto.
+-   Sabotaje: Estado de sabotaje de texto.
 
 \
 
@@ -219,7 +219,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 

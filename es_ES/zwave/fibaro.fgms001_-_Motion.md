@@ -28,7 +28,7 @@ El detector de movimiento Fibaro es un detector multifunción Z-Wave.
 Además de la detección de movimiento, este dispositivo mide la
 temperatura e intensidad de luz. Este detector también incluye un
 Acelerómetro incorporado para detectar cualquier intento de alterar el
-Dispositivo.
+dispositif.
 
 El detector de movimiento Fibaro funciona con batería y está diseñado
 para ser instalado rápida y fácilmente en cualquier
@@ -41,7 +41,7 @@ y sistemas de vigilancia y / o seguridad.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -78,13 +78,13 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : Batería CR123A 3,6VDC
+-   Suministro: Batería CR123A 3,6VDC
 
--   Altura recomendada para la instalación : 2.4m
+-   Altura recomendada para la instalación : 2,4m
 
 -   Rango de temperatura medido : -20 ° C a 100 ° C
 
--   Precisión de medición : 0.5 ° C
+-   Precisión de medición : 0,5°C
 
 -   Rango de medición de brillo : 0-32000 LUX
 
@@ -92,11 +92,11 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones: 4.4 cm de diámetro
+-   Dimensions: 4.4 cm de diámetro
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Certificaciones: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
 \
@@ -106,9 +106,9 @@ Datos del módulo
 
 \
 
--   Hacer : Grupo Fibar
+-   Hacer: Grupo Fibar
 
--   Nombre : Fibaro FGMS-001 \ [Sensor de movimiento \]
+-   Nombre: Fibaro FGMS-001 \ [Sensor de movimiento \]
 
 -   ID del fabricante : 271
 
@@ -118,18 +118,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -148,12 +148,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -170,12 +170,12 @@ Aquí está la lista de comandos :
 -   Temperatura : es el comando que permite subir el
     Temperatura
 
--   Brillo : es el comando que hace posible aumentar el brillo
+-   Brillo: es el comando que hace posible aumentar el brillo
 
--   Sabotaje : este es el comando de sabotaje (se activa en caso de que
+-   Sabotaje: este es el comando de sabotaje (se activa en caso de que
     vibración)
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -183,10 +183,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -219,7 +219,7 @@ Detalles del parámetro :
 
 \
 
--   Despertador : Este es el intervalo de activación del módulo (valor
+-   Despertador: Este es el intervalo de activación del módulo (valor
     7200 recomendado)
 
 -   1: ajusta la sensibilidad del sensor de presencia
@@ -242,9 +242,9 @@ Detalles del parámetro :
 -   12: cambiar solo si sabes por qué lo estás haciendo
     (asociación con un módulo por ejemplo)
 
--   14: ídem
+-   14: idem
 
--   16: ídem
+-   16: idem
 
 -   20: sensibilidad del sensor giroscópico (valor recomendado 15)
 
@@ -293,11 +293,11 @@ Detalles del parámetro :
     (vinculado al parámetro 81)
 
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de
-    Sabotaje
+    sabotage
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -319,13 +319,13 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
-> fabrica. Es esencial despertarlo bien después de la inclusión
+>fabrica Es esencial despertarlo bien después de la inclusión
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
-> Cuenta.
+>Cuenta
 
 \
 
@@ -337,7 +337,7 @@ Bueno saber
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -374,7 +374,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

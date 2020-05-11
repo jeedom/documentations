@@ -7,7 +7,7 @@ Fibaro Opening detector - FGK-101
 
 \
 
-![Module](images/fibaro.fgk101-DS18B20/Module.jpg)
+![Module](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -41,15 +41,15 @@ also from a wired input, so it can be used as a
 universal transmitter : leave aside its magnetic contact, and
 connect its screw inputs to any detector (normally closed) of your
 choice such as smoke, gas or carbon monoxide detector,
-Etc.
+etc.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
-existing.
+existant.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -80,9 +80,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Color : White (FGK-101/102/103/104/105/106/107 depending on color)
+-   Color: White (FGK-101/102/103/104/105/106/107 depending on color)
 
--   Food : ER14250 (1 / 2AA) 3.6V battery
+-   Food: ER14250 (1 / 2AA) 3.6V battery
 
 -   Frequency : 868.42 Mhz
 
@@ -99,9 +99,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : Fibaro FGK-101 with temperature probe (DS18B20)
+-   Name: Fibaro FGK-101 with temperature probe (DS18B20)
 
 -   Manufacturer ID : 271
 
@@ -111,18 +111,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -141,12 +141,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -158,11 +158,11 @@ Here is the list of commands :
 
 \
 
--   State : it is the command which will raise the open or closed state of the
-    Module
+-   State: it is the command which will raise the open or closed state of the
+    module
 
--   Drums : it is the command which allows to go up the state of the
-    drums
+-   Drums: it is the command which allows to go up the state of the
+    batterie
 
 \
 
@@ -174,10 +174,10 @@ You can hide or show these commands as you wish.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -206,7 +206,7 @@ Parameter details :
 
 \
 
--   Wakeup : this is the module's wake-up interval (value
+-   Wakeup: this is the module's wake-up interval (value
     7200 recommended)
 
 -   1: sets the delay for canceling the IN input alarm
@@ -235,12 +235,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has three association groups, only the third is
-essential.
+indispensable.
 
 \
 
@@ -272,7 +272,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -309,7 +309,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

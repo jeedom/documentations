@@ -31,7 +31,7 @@ Klicken Sie auf **Erstellen Sie ein Konto**
 ![tuto.github1](images/tuto.github1.png)
 
 Sie kommen also auf einer zweiten Seite wie unten an und ändern sich nicht
-nichts, du klickst **Mach weiter**
+nichts, du klickst **Continue**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -75,7 +75,7 @@ genau hier : Kern / Klasse /
     das Repository, in dem ich mich befinde (Kern, siehe Small 1)
 
 3. Wir haben also unsere Akte *history.class.php* - Wir klicken auf die
-    Datei
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
@@ -92,7 +92,7 @@ Geben Sie den gesuchten Text an (ein wichtiges Element und a
 Nur Zeile, nicht ein ganzer Block auf einmal). Bestätigen Sie mit "Enter"
 Starten Sie die Suche.
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie nicht in das Fenster klicken, das den Text oder den Code enthält
 > Wenn Sie suchen, wird die Browsersuche geöffnet und
@@ -124,7 +124,7 @@ Senden Sie die Änderung
 Senden Sie eine Änderung 
 --------------------------
 
-Die **begehen** oben betrifft nur die Gabelung des Projekts in
+Die**commit** oben betrifft nur die Gabelung des Projekts in
 dein GitHub-Speicherplatz. Änderungen am ursprünglichen Projekt einreichen,
 Sie müssen eine PR (Pull Request) durchführen
 
@@ -151,7 +151,7 @@ Sie müssen eine PR (Pull Request) durchführen
 
 Es ist wichtig, die eingereichten Änderungen klar zu erläutern, damit die
 Original-Projektentwickler verstehen und können Ihre validieren
-Anwendung.
+demande.
 
 1. Wir klicken auf die drei kleinen Punkte
 

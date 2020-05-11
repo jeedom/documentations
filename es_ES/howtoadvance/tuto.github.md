@@ -31,7 +31,7 @@ haga clic en **Crear una cuenta**
 ![tuto.github1](images/tuto.github1.png)
 
 Entonces llega a la segunda página como se muestra a continuación y no cambia
-nada, haces clic **Continúa**
+nada, haces clic **Continue**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -75,7 +75,7 @@ precisamente aqui : núcleo / clase /
     el repositorio donde estoy (núcleo, ver Pequeño 1)
 
 3. Entonces tenemos nuestro archivo *history.class.php* - Hacemos clic en el
-    Expediente
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
@@ -92,7 +92,7 @@ especifique el texto que está buscando (un elemento significativo y un
 solo línea, no un bloque completo a la vez). Confirme con "Enter" para
 comenzar la búsqueda.
 
-> **Punta**
+> **Tip**
 >
 > Si no hace clic en la ventana que contiene el texto o el código
 > que está buscando, se abrirá la búsqueda del navegador y
@@ -124,7 +124,7 @@ Envía el cambio
 Enviar un cambio 
 --------------------------
 
-El **cometer** hecho arriba solo se refiere a la bifurcación del proyecto en
+El**commit** hecho arriba solo se refiere a la bifurcación del proyecto en
 tu espacio GitHub. Para enviar cambios al proyecto original,
 debe realizar una PR (solicitud de extracción)
 
@@ -151,7 +151,7 @@ debe realizar una PR (solicitud de extracción)
 
 Es importante explicar claramente los cambios presentados para que el
 los desarrolladores originales del proyecto entienden y pueden validar su
-Solicitud.
+demande.
 
 1. Hacemos clic en los tres puntos pequeños
 

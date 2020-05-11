@@ -45,7 +45,7 @@ can also be used as a medallion around the neck.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -73,7 +73,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 1 Lithium 3V CR2450 battery
+-   Food: 1 Lithium 3V CR2450 battery
 
 -   Battery life : 2 to 3 months for 10 to 20 uses
     per day
@@ -82,7 +82,7 @@ Technical characteristics
 
 -   Transmission distance : 30m indoors
 
--   Dimensions : 55 x 30 x 11mm (L x W x H)
+-   Dimensions: 55 x 30 x 11mm (L x W x H)
 
 \
 
@@ -91,9 +91,9 @@ Module data
 
 \
 
--   Mark : Aeotec
+-   Mark: Aeotec
 
--   Name : Panic Button
+-   Name: Panic Button
 
 -   Manufacturer ID : 134
 
@@ -103,18 +103,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper documentation.
@@ -133,12 +133,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -150,7 +150,7 @@ Here is the list of commands :
 
 \
 
--   Buttons : it is the command which will push the button up
+-   Buttons: it is the command which will push the button up
 
 1 : Short press button
 
@@ -162,10 +162,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -199,12 +199,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has a single association group. It is
-essential.
+indispensable.
 
 \
 
@@ -234,7 +234,7 @@ To use this module as a remote control, proceed as follows :
 -   5 : Change the operating mode of the remote control while remaining
     press the two buttons on the back for 3 seconds.
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -264,7 +264,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

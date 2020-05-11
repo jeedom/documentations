@@ -42,7 +42,7 @@ which Z-Wave controller in your network.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -76,9 +76,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food: 230 V, 50 Hz
 
--   Consumption : 0.5W
+-   Consumption: 0.5W
 
 -   Maximum power : Resistive load : 2500W Incandescent bulb
     : 1200W Compact Fluorescent Bulb : 320W
@@ -87,9 +87,9 @@ Technical characteristics
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions : 42mm x 43mm x 16mm
+-   Dimensions: 42mm x 43mm x 16mm
 
 \
 
@@ -98,9 +98,9 @@ Module data
 
 \
 
--   Mark : SmartHome by Everspring
+-   Mark: SmartHome by Everspring
 
--   Name : In Wall On Off
+-   Name: In Wall On Off
 
 -   Manufacturer ID : 96
 
@@ -110,18 +110,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
@@ -142,12 +142,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -159,11 +159,11 @@ Here is the list of commands :
 
 \
 
--   We : It is the control that turns on the light
+-   We: It is the control that turns on the light
 
--   Off : It is the command that turns off the light
+-   Off: It is the command that turns off the light
 
--   State : It is the command which allows to know the status of the
+-   State: It is the command which allows to know the status of the
     Light
 
 \
@@ -212,7 +212,7 @@ Parameter details :
 -   4 : This parameter defines the type
     switch (push / bistable)
 
-### Groups 
+### Groups
 
 \
 
@@ -224,7 +224,7 @@ This module has 2 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -238,7 +238,7 @@ Good to know
 \
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+   seconds \
 
 ### Alternative visual 
 
@@ -263,7 +263,7 @@ Faq.
 \
 
 Yes it is parameter 2 and it cannot be set below 3
-seconds.
+secondes.
 
 \
 

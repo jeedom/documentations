@@ -34,15 +34,15 @@ If you want your console (bash) to use colors :
 Allow root login in SSH 
 ==================================
 
-Edit the file / etc / ssh / sshd \ _config and change :
+Edit the file / etc / ssh / sshd\_config and change :
 
     PermitRootLogin without-password
 
-By :
+By:
 
     PermitRootLogin yes
 
-> **IMPORTANT**
+> **Important**
 >
 > Be sure to use a strong root password ! The use of
 > fail2ban is also recommended.
@@ -58,7 +58,7 @@ Create the mount point :
 
     mkdir / mnt / my_share
 
-> **NOTE**
+> **Note**
 >
 > You have to adapt my share according to your needs
 
@@ -66,7 +66,7 @@ Added mount in / etc / fstab
 
     // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, user = TODO, password = TODO 0 0
 
-> **NOTE**
+> **Note**
 >
 > You must change the TODOs with your linux username and your
 > Password
@@ -150,7 +150,7 @@ previous :
 
     GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
 
-or
+ou
 
     GRANT ALL PRIVILEGES ON *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
 
@@ -161,7 +161,7 @@ or
 
 -   Launch the restoration via the Jeedom interface (Administration →
     Backups → Local Backups : Choose the right backup
-    and click **Restore** just below)
+    and click **Restaurer** just below)
 
 -   Wait during the restoration
 
@@ -213,7 +213,7 @@ Removal of unnecessary libraries
     apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y remove `aptitude -F% p search '~ o'`----
 
-NOTE : If when you open your Jeedom page you get a php code, activate it by running the following commands :
+NOTE: If when you open your Jeedom page you get a php code, activate it by running the following commands :
 
     a2enmod php7.0 
     systemctl restart apache2.service

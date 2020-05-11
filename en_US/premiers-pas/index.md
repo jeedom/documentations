@@ -20,11 +20,11 @@ Fill in the different fields and validate. You should then be in your Market acc
 
 If you bought a Jeedom box then you should have received an email containing a code for your service pack.
 
-> **IMPORTANT**
+> **Important**
 >
 > It is important to fill it in because this code gives you access to certain plugins for free, as well as to exclusive services.
 
-> **IMPORTANT**
+> **Important**
 >
 > If you buy a service pack from the Jeedom Market you have nothing to do, it is automatically assigned to you.
 
@@ -54,7 +54,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 >
 > Please note, you must be on the same network as the Jeedom box for this method to work.
 
-> **IMPORTANT**
+> **Important**
 >
 > Depending on your ADSL box this functionality may not work. If so, nothing serious, you just need to connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. This is not when adding your Jeedom to your market account is done.
 
@@ -82,7 +82,7 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Below, click on the tab **Market**
 
--   Check the box **Activate**
+-   Check the box **activer**
 
 -   Remplissez l'adresse : `https://www.jeedom.com/market`
 
@@ -107,7 +107,7 @@ Then go to the "Networks" part"
 
 Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market
 
-> **IMPORTANT**
+> **Important**
 >
 > If you have just linked your Jeedom to your Market account, you must wait 24 to 48 hours before being able to use the DNS service
 
@@ -130,7 +130,7 @@ In Jeedom, it can be anything and everything, but it is recommended to do it acc
 
 > **Tip**
 >
-> It is possible to define relationships between objects. Example: the living room belongs to the ground floor object which itself belongs to the house object.
+> It is possible to define relationships between objects. Exemple : the living room belongs to the ground floor object which itself belongs to the house object.
 
 Nothing could be simpler to create an object :
 
@@ -152,7 +152,7 @@ Then just click on Market:
 
 You will then have the list of all plugins that can be installed.
 
-> **IMPORTANT**
+> **Important**
 >
 > Please note, some are official and others are not. In the event of a problem with an unofficial plugin, the Jeedom team cannot be held responsible.
 
@@ -191,7 +191,7 @@ The forum is very active and contains a lot of information. If you have a questi
 
 ## Support requests (or tickets)
 
-> **IMPORTANT**
+> **Important**
 >
 > Please note, all support requests must have an account on the Market.
 
@@ -215,7 +215,7 @@ All further exchanges will be by email.
 
 The different service packs are :
 - Community (free): 2 tickets / month (on paid plugins only)
-- Power: 10 tickets / month
-- Pro: 100 tickets / month
+- Power : 10 tickets / month
+- Pro : 100 tickets / month
 
 You can find the detail of the service packs [here](https://www.jeedom.com/site/fr/soft.html#obtenir)

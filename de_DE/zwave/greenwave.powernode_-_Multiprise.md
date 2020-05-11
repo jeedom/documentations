@@ -49,7 +49,7 @@ Vermeiden Sie ein versehentliches Ausschalten, sondern steuern Sie von der Box a
 Hausautomation wird nicht mehr möglich sein.
 
 Die PowerNode-Steckdosenleiste verfügt außerdem über eine Leuchtstatusanzeige
-Dies gibt je nach Farbe unterschiedliche Informationen : genommen
+Dies gibt je nach Farbe unterschiedliche Informationen : prises
 Ein oder Aus, begrenzte Funkreichweite, Einschluss- und Ausschlussmodus.
 
 Die PowerNode-Steckdosenleiste ist mit einem Schutz gegen ausgestattet
@@ -63,7 +63,7 @@ ein TV-Schrank oder zur Steuerung von Computergeräten
 in einem Büro und vermeiden Sie daher die Verwendung von 6 Z-Wave-Buchsen
 individuell. \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -90,7 +90,7 @@ Technische Daten
 
 \
 
--   Versorgung : 250 V AC, 50 Hz
+-   Versorgung: 250 V AC, 50 Hz
 
 -   Maximaler Ladestrom : 10A
 
@@ -104,7 +104,7 @@ Technische Daten
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868,42 MHz
+-   Z-Wave-Radiofrequenz : 868.42MHz
 
 -   Maximale Reichweite Z-Wave : 30m
 
@@ -123,9 +123,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Grünwelle
+-   Machen Sie: GreenWave
 
--   Name : GreenWave \ [6 x Sockets \]
+-   Name: GreenWave \ [6 x Sockets \]
 
 -   Hersteller ID : 153
 
@@ -135,18 +135,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss an der Steckdose vorhanden.
@@ -165,12 +165,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -190,82 +190,82 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand-1 : Es ist der Befehl, mit dem der Status des
+-   Zustand-1: Es ist der Befehl, mit dem der Status des
     nimm 1
 
--   On-1 : Dies ist der Befehl, der Socket 1 einschaltet
+-   On-1: Dies ist der Befehl, der Socket 1 einschaltet
 
--   Aus-1 : Es ist der Befehl, der Socket 1 ausschaltet
+-   Aus-1: Es ist der Befehl, der Socket 1 ausschaltet
 
--   Power-1 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-1: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 1
 
--   Conso-1 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-1: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 1
 
--   Zustand-2 : Es ist der Befehl, mit dem der Status des
+-   Zustand-2: Es ist der Befehl, mit dem der Status des
     nimm 2
 
--   On-2 : Es ist der Befehl, der Socket 2 einschaltet
+-   On-2: Es ist der Befehl, der Socket 2 einschaltet
 
--   Aus-2 : Es ist der Befehl, der Sockel 2 ausschaltet
+-   Aus-2: Es ist der Befehl, der Sockel 2 ausschaltet
 
--   Power-2 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-2: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 2
 
--   Conso-2 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-2: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 2
 
--   Zustand-3 : Es ist der Befehl, mit dem der Status des
+-   Zustand-3: Es ist der Befehl, mit dem der Status des
     nimm 3
 
--   On-3 : Dies ist der Befehl, der Socket 3 einschaltet
+-   On-3: Dies ist der Befehl, der Socket 3 einschaltet
 
--   Aus-3 : Es ist der Befehl, der Socket 3 ausschaltet
+-   Aus-3: Es ist der Befehl, der Socket 3 ausschaltet
 
--   Power-3 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-3: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 3
 
--   Conso-3 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-3: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 3
 
--   Zustand-4 : Es ist der Befehl, mit dem der Status des
+-   Zustand-4: Es ist der Befehl, mit dem der Status des
     nimm 4
 
--   On-4 : Es ist der Befehl, der Socket 4 einschaltet
+-   On-4: Es ist der Befehl, der Socket 4 einschaltet
 
--   Aus-4 : Es ist der Befehl, der Socket 4 ausschaltet
+-   Aus-4: Es ist der Befehl, der Socket 4 ausschaltet
 
--   Power-4 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-4: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 4
 
--   Conso-4 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-4: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 4
 
--   Zustand-5 : Es ist der Befehl, mit dem der Status des
+-   Zustand-5: Es ist der Befehl, mit dem der Status des
     nimm 5
 
--   On-5 : Es ist der Befehl, der Socket 5 einschaltet
+-   On-5: Es ist der Befehl, der Socket 5 einschaltet
 
--   Aus-5 : Es ist der Befehl, der Socket 5 ausschaltet
+-   Aus-5: Es ist der Befehl, der Socket 5 ausschaltet
 
--   Power-5 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-5: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 5
 
--   Conso-5 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-5: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 5
 
--   Zustand-6 : Es ist der Befehl, mit dem der Status des
+-   Zustand-6: Es ist der Befehl, mit dem der Status des
     nimm 6
 
--   On-6 : Es ist der Befehl, der Socket 6 einschaltet
+-   On-6: Es ist der Befehl, der Socket 6 einschaltet
 
--   Aus-6 : Es ist der Befehl, der Socket 6 ausschaltet
+-   Aus-6: Es ist der Befehl, der Socket 6 ausschaltet
 
--   Power-6 : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Power-6: Dies ist der Befehl, der die momentane Leistung erhöht
     entnommen aus Aufnahme 6
 
--   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch des
+-   Conso-6: Es ist der Befehl, der den Gesamtverbrauch des
     nimm 6
 
 \
@@ -315,12 +315,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe
-wesentlich.
+indispensable.
 
 \
 
@@ -368,7 +368,7 @@ von 6 nimmt.
 
 \
 
-### Zurücksetzen 
+### Zurücksetzen
 
 \
 
@@ -382,7 +382,7 @@ genommen). Wählen Sie PressButton.
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -401,7 +401,7 @@ Hast du für einen CRON bezahlt?.
 \
 
 Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein Stück schwarzes Klebeband
-oben.
+dessus.
 
 \
 **@sarakha63**

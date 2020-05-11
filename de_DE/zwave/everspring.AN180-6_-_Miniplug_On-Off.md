@@ -37,7 +37,7 @@ Z-Wave-Controller für Ihr Netzwerk.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -69,9 +69,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
--   Verbrauch : 0,6 W
+-   Verbrauch: 0.6W
 
 -   Maximale Leistung : Widerstandslast : 1500W, Glühlampe
     : 800W, Kompaktleuchtstofflampe : 200W, LED-Lampe (nicht dimmbar) :
@@ -81,9 +81,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED auf der Taste
+-   Affichage: LED auf der Taste
 
--   Abmessungen : Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
+-   Abmessungen: Länge (Stecker enthalten) : 74mm Durchmesser : 52mm
 
 \
 
@@ -92,9 +92,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Everspring
+-   Machen Sie: Everspring
 
--   Name : Ministecker ein / aus
+-   Name: Ministecker ein / aus
 
 -   Hersteller ID : 96
 
@@ -104,18 +104,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
 > Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
@@ -136,12 +136,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -153,12 +153,12 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein: Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus: Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
 \
 
@@ -203,7 +203,7 @@ Parameterdetails :
 -   3 : Mit diesem Parameter wird festgelegt, ob der Socket seinen Status wieder aufnehmen soll
     (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -215,7 +215,7 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in Gruppe 1 landen
 
@@ -229,9 +229,9 @@ Gut zu wissen
 \
 
 -   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-    Sekunden. \
+   Sekunden \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -246,7 +246,7 @@ Faq.
 \
 
 Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
-Sekunden.
+secondes.
 
 \
 

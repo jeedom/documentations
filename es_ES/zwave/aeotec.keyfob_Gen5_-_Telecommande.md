@@ -45,7 +45,7 @@ rápido en comparación con los productos Z-Wave anteriores.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -69,7 +69,7 @@ Funciones
 -   Integra el chip de la serie Z-Wave 500
 
 -   Comunicación 250% más rápida en comparación con los dispositivos Z-Wave
-    Estándar
+    standard
 
 -   Optimización de la antena, alcance 100 metros
 
@@ -84,7 +84,7 @@ Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 
--   Suministro : 1 batería de litio 3V CR2450
+-   Suministro: 1 batería de litio 3V CR2450
 
 -   Duración de la batería : 1 año
 
@@ -94,7 +94,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 ° C a 50 ° C
 
--   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto)
+-   Dimensiones: 55 x 30 x 13 mm (largo x ancho x alto)
 
 \
 
@@ -103,9 +103,9 @@ Datos del módulo
 
 \
 
--   Hacer : Aeotec
+-   Hacer: Aeotec
 
--   Nombre : Llavero ZW088 Gen5
+-   Nombre: Llavero ZW088 Gen5
 
 -   ID del fabricante : 134
 
@@ -115,18 +115,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > APRENDER, de acuerdo con su documentación en papel.
@@ -145,12 +145,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -162,7 +162,7 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones : es el comando que empujará el botón hacia arriba
+-   Botones: es el comando que empujará el botón hacia arriba
 
 1 : Botón 1 pulsación corta
 
@@ -186,10 +186,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -223,7 +223,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -257,7 +257,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 -   5 : Cambie el modo de funcionamiento del control remoto mientras permanece
     presione los dos botones en la parte posterior durante 3 segundos.
 
-Despertador 
+Despertador
 ------
 
 \
@@ -287,7 +287,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

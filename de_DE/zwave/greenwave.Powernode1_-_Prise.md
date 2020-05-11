@@ -51,7 +51,7 @@ Heimautomationsboxen ist nicht mehr möglich.
 Die PowerNode-gesteuerte Steckdose verfügt auch über eine Statusanzeige
 hell, was je nach Farbe unterschiedliche Informationen liefert :
 Steckdosen ein oder aus, begrenzte Funkreichweite, Einschlussmodus und
-Ausschluss.
+exclusion.
 
 Das PowerNode-Steckermodul ist mit einem Schutz gegen ausgestattet
 Überströme zum Schutz des angeschlossenen Geräts. Die PowerNode-Buchse wird
@@ -61,7 +61,7 @@ intern befindet sich in der Steckdose.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -91,7 +91,7 @@ Technische Daten
 
 \
 
--   Versorgung : 250 V AC, 50 Hz
+-   Versorgung: 250 V AC, 50 Hz
 
 -   Maximaler Ladestrom : 10A
 
@@ -105,7 +105,7 @@ Technische Daten
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868,42 MHz
+-   Z-Wave-Radiofrequenz : 868.42MHz
 
 -   Maximale Reichweite Z-Wave : 30m
 
@@ -124,9 +124,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Grünwelle
+-   Machen Sie: GreenWave
 
--   Name : GreenWave \ [1 x Stecker \]
+-   Name: GreenWave \ [1 x Stecker \]
 
 -   Hersteller ID : 153
 
@@ -136,18 +136,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss unter der Steckdose vorhanden.
@@ -166,12 +166,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -183,17 +183,17 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Steckdose
+-   Zustand: Es ist der Befehl, mit dem der Status des
+    prise
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein: Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus: Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht : Es ist die Steuerung, die die momentane Kraft erhöht
+-   Macht: Es ist die Steuerung, die die momentane Kraft erhöht
     verbraucht
 
--   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
+-   Verbrauch: Es ist die Bestellung, die den Gesamtverbrauch angibt
 
 \
 
@@ -242,12 +242,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat vier Zuordnungsgruppen, nur die 3. Gruppe
-wesentlich.
+indispensable.
 
 \
 
@@ -265,7 +265,7 @@ Umfragen zur Steigerung des Verbrauchs.
 
 \
 
-### Zurücksetzen 
+### Zurücksetzen
 
 \
 
@@ -275,7 +275,7 @@ Umfragen zur Steigerung des Verbrauchs.
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
-Drücken Sie die Taste.
+PressButton.
 
 \
 
@@ -283,7 +283,7 @@ Drücken Sie die Taste.
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

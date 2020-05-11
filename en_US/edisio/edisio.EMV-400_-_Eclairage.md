@@ -26,11 +26,11 @@ Finally, each module can be used in remote mode, it's very
 practical because it allows to associate a transmitter without having to access the
 receiver.
 
-> **IMPORTANT**
+> **Important**
 >
 > Neutral is only necessary for "Shutter" mode"
 
-Functions 
+Functions
 =========
 
 -   2 relay outputs supplied
@@ -62,7 +62,7 @@ Technical characteristics
 
 -   Type of module: Edisio receiver
 
--   Food: 230VAC, 50Hz
+-   Alimentation: 230VAC, 50Hz
 
 -   Wiring: 4 wires, 2 for controls and 2 for power
 
@@ -85,26 +85,26 @@ Technical characteristics
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark: Edisio Smart Home
 
--   Name : EMV-400
+-   Name: EMV-400
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
 
-> **IMPORTANT**
+> **Important**
 >
 > Conversely, Edisio receivers must be created manually in
-> Jeedom.
+>Jeedom
 
 DIP Switch and button "R" : 
 --------------------------
@@ -116,11 +116,11 @@ DIP Switch and button "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **NOTE**
+> **Note**
 >
 > To avoid unnecessary redundancies, never activate the mode
 > "Repeater "on all receivers, maximum 5 receivers per
-> Setup.
+>Setup
 
 -   The button "R", will allow to associate a transmitter to the receiver,
     activate or deactivate the timer function and activate the mode
@@ -128,7 +128,7 @@ DIP Switch and button "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Pressing R 3x activates the remote mode.
 
@@ -138,7 +138,7 @@ Function diagram
 Next if your transmitter is configured in "1 key" or "2 mode
 keys ", this is how the module works:
 
-> **NOTE**
+> **Note**
 >
 > Refer to the manufacturer's documentation in order to be able to
 > configure your transmitter.
@@ -151,7 +151,7 @@ Timer function
 The timer function automatically switches off the relays at the end
 30 or 60 minutes.
 
--   Activate : Press 4x "R" on the receiver, confirmation with a simple
+-   Activate: Press 4x "R" on the receiver, confirmation with a simple
     continuous beep
 
 -   Deactivate: Press 5x "R" on the receiver, confirmation by 3 simple
@@ -165,9 +165,9 @@ The timer function automatically switches off the relays at the end
 ===================
 
 The "Lighting" mode allows you to control 2 electrical devices to
-Range.
+distance.
 
-> **IMPORTANT**
+> **Important**
 >
 > Neutral is not necessary
 
@@ -176,12 +176,12 @@ Electrical configuration and connections :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **IMPORTANT**
+> **Important**
 >
 > In order for the module to be in "Lighting" mode the DIP Switch 2 must be
 > up
 
-> **IMPORTANT**
+> **Important**
 >
 > NEVER CONNECT UNDER VOLTAGE
 
@@ -197,7 +197,7 @@ Once your equipment is created, you should get this :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Remember to activate your new equipment.
 
@@ -206,7 +206,7 @@ Light" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-Commands 
+Commands
 ---------
 
 Once your equipment is saved, you should get the orders
@@ -216,38 +216,38 @@ associated with the module :
 
 Here is the list of commands :
 
--   We : It is the command which activates relay 1
+-   We: It is the command which activates relay 1
 
--   Off : It is the command which makes it possible to deactivate relay 1
+-   Off: It is the command which makes it possible to deactivate relay 1
 
 -   We 2 : It is the command which activates relay 2
 
 -   Off 2: It is the command which deactivates relay 2
 
--   E : This is the command that allows you to use the remote mode
+-   E: This is the command that allows you to use the remote mode
 
-> **IMPORTANT**
+> **Important**
 >
 > Status feedback is simulated by Jeedom. Therefore, if you
 > use another transmitter, Jeedom will not be able to update the status
 > of the receiver.
 
-Information 
+Information
 ------------
 
 Once your equipment is associated with Jeedom, various information will be
-available :
+available:
 
 ![Commands](images/emv.400/infos_eclairage.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
+-   Communication: Indicates the last communication recorded between
     Jeedom and the micro-module
 
--   Drums : Indicates the battery status for battery modules
+-   Drums: Indicates the battery status for battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS: Returns the status of the module
 
 Association of the micromodule with Jeedom 
 ===================================
@@ -255,7 +255,7 @@ Association of the micromodule with Jeedom
 So that you can interact with Jeedom, as if it were a
 Edisio transmitter.
 
-> **NOTE**
+> **Note**
 >
 > One of the big advantages of Edisio is that a receiver can have
 > several associated issuers
@@ -342,7 +342,7 @@ now replaces the "R" button on the receiver.
             command "E" in Jeedom, to validate the association, the beep
             sound stops.
 
-> **NOTE**
+> **Note**
 >
 > You can start again as many times as you want to associate
 > from transmitters to receiver

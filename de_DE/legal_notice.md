@@ -10,7 +10,7 @@ Gemeinschaftsinterne Umsatzsteuer-Identifikationsnummer : FR31810505784
 
 Präsident: ENOXA SAS
 
-## Kontakt
+## Contact
 
 Unser Kundenservice kann per E-Mail unter contact@jeedom.com erreicht werden
 

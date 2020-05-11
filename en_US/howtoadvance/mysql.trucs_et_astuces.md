@@ -1,5 +1,5 @@
 Not really a howto here but more a collection of tips and tricks on
-MYSQL
+MySQL
 
 Disable schema performance 
 ================================
@@ -12,7 +12,7 @@ Edit the file /etc/mysql/mysql.conf.d/mysqld.cnf and add in :
 Optimizing MySQL 
 ===============
 
-> **IMPORTANT**
+> **Important**
 >
 > This method is at your own risk. In case of any worries
 > support will only be possible.

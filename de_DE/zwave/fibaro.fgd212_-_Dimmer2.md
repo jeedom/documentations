@@ -47,7 +47,7 @@ Momentanverbrauch (in W) und Gesamtstromverbrauch
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -63,7 +63,7 @@ Funktionen
 -   Integriert den Chip der Z-Wave 500-Serie
 
 -   250% schnellere Kommunikation im Vergleich zu Z-Wave-Geräten
-    Standard
+    standard
 
 -   Automatische Lasterkennung
 
@@ -101,9 +101,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V +/- 10%, 50 Hz
+-   Versorgung: 230 V +/- 10%, 50 Hz
 
--   Verbrauch : 1,3W
+-   Verbrauch: 1.3W
 
 -   Verkabelung : Neutral nicht erforderlich
 
@@ -121,14 +121,14 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 42.5 x 38.25 x 20,3 mm
+-   Abmessungen: 42.5 x 38.25 x 20,3 mm
 
 -   Betriebstemperatur : 0-35 ° C
 
--   Temperatur begrenzen : 105 ° C
+-   Temperatur begrenzen : 105°C
 
--   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
-    1999/5 / EG
+-   Standards: RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
+    1999/5/EC
 
 \
 
@@ -137,9 +137,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : REA-Dimmer 2
+-   Name: REA-Dimmer 2
 
 -   Hersteller ID : 271
 
@@ -149,18 +149,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation. Wenn die
@@ -173,7 +173,7 @@ Aufnahme beziehen sich darauf
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
 > durch viele Rundfahrten auf dem Schalter oder
@@ -189,12 +189,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -206,24 +206,24 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
+-   Intensität: Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein: Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus: Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Licht
 
--   Verbrauch : Es ist der Befehl, der es erlaubt, die
+-   Verbrauch: Es ist der Befehl, der es erlaubt, die
     Modulverbrauch
 
--   Macht : Es ist der Befehl, mit dem die Leistung erhöht werden kann
+-   Macht: Es ist der Befehl, mit dem die Leistung erhöht werden kann
     Modul sofort
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \
 
@@ -266,12 +266,12 @@ ENTWURF SEIN
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat fünf Zuordnungsgruppen, nur die erste ist
-wesentlich.
+indispensable.
 
 \
 
@@ -288,7 +288,7 @@ Gut zu wissen
 
 \
 
-> **Kaution**
+> **Caution**
 >
 > Der wichtigste Parameter der Konfiguration ist 20. Es
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
@@ -310,7 +310,7 @@ Schalter Sie können Ihren Schalter mehrmals drücken
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

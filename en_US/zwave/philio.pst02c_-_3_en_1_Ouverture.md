@@ -45,11 +45,11 @@ is detected.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
-existing.
+existant.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -68,7 +68,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection
+-   Autoprotection
 
 -   Low battery indication
 
@@ -85,7 +85,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 1 CR123A 3V battery
+-   Food: 1 CR123A 3V battery
 
 -   Battery life : 3 years (for 14 trips per day)
 
@@ -97,13 +97,13 @@ Technical characteristics
 
 -   Brightness sensor : 0 to 500 lux
 
--   Dimensions :
+-   Dimensions:
 
 -   Detector : 28 x 96 x 23 mm
 
--   Magnet : 10 x 50 x 12 mm
+-   Magnet: 10 x 50 x 12 mm
 
--   Weight : 52g
+-   Weight: 52g
 
 -   Operating temperature : -10 to 40 ° C
 
@@ -120,9 +120,9 @@ Module data
 
 \
 
--   Mark : Philio Technology Corporation
+-   Mark: Philio Technology Corporation
 
--   Name : PST02-C Door / Window 3 in 1 sensor
+-   Name: PST02-C Door / Window 3 in 1 sensor
 
 -   Manufacturer ID : 316
 
@@ -132,18 +132,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -162,12 +162,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -179,15 +179,15 @@ Here is the list of commands :
 
 \
 
--   Opening : it is the command which will raise a detection
-    opening
+-   Opening: it is the command which will raise a detection
+    d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : it is the command which makes it possible to raise the brightness
+-   Brightness: it is the command which makes it possible to raise the brightness
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -195,10 +195,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -265,19 +265,19 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report
+    rapport
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has two association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -298,7 +298,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -328,7 +328,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

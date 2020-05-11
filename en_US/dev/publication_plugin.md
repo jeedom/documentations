@@ -6,16 +6,16 @@
 - Waiting for validation of the market account as a developer
 - Have your plugin on github (private deposit or not)
 
-## Setup
+## Configuration
 
 Once connected with your dev account on the market you must : 
 
 - click on market then add
 - fill in the information on your plugin : 
   - Main : 
-    - Price
+    - Prix
     - Id (the one in the info.json file)
-    - Name
+    - Nom
     - Category
     - Whether it is private or not to start
   - Documentation and links
@@ -23,7 +23,7 @@ Once connected with your dev account on the market you must :
     - languages
     - compatible hardware
     - a note on use if necessary
-  - Github : this is where you will put the information between the market and Github
+  - Github: this is where you will put the information between the market and Github
     - the token (only put if your plugin is on a private deposit)
     - your github username
     - the name of the repository on github
@@ -31,8 +31,8 @@ Once connected with your dev account on the market you must :
     
    Once saved by returning to the github tab you will have 3-4 fields to indicate the branches : 
    
-   - Beta
-   - Stable
+   - beta
+   - stable
    - pro (is useless in 99% of cases)
    - stablev3 (coming soon)
    

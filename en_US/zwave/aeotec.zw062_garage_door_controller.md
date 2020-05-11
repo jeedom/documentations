@@ -35,7 +35,7 @@ should not.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -79,7 +79,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave + 500 series receiver and transmitter
 
--   Food : Actuator : 5 VDC (adapter supplied) Sensor : Battery
+-   Food: Actuator: 5 VDC (adapter supplied) Sensor : Pile
     Lithium 3V 800mA CR2
 
 -   Standby consumption : 1W
@@ -107,9 +107,9 @@ Module data
 
 \
 
--   Mark : Aeotec
+-   Mark: Aeotec
 
--   Name : Garage Door Controller (ZW062)
+-   Name: Garage Door Controller (ZW062)
 
 -   Manufacturer ID : 134
 
@@ -119,18 +119,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > Z-Wave, in accordance with its paper documentation.
@@ -149,12 +149,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -168,13 +168,13 @@ Here is the list of commands :
 
 -   Open / Close : Open, close or stop the garage door.
 
--   Position : Current garage door position.
+-   Position: Current garage door position.
 
--   Volume : Current speaker volume.
+-   Volume: Current speaker volume.
 
 -   Temperature : Zone temperature, no automatic ascent.
 
--   Sabotage : Text sabotage status.
+-   Sabotage: Text sabotage status.
 
 \
 
@@ -219,12 +219,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has two association groups. The first "Lifeline" is
-essential.
+indispensable.
 
 \
 

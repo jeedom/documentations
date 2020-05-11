@@ -30,12 +30,12 @@ Mehrfarbige RGB-LEDs und eine integrierte Sirene. Das große Format der
 Gitter kann so die kleinste Rauchmenge erkennen
 schnell reagieren. Es wird also sehr leicht seine finden
 Platzieren Sie es in Ihrem Haus, um die Sicherheit des Ganzen zu gewährleisten
-Familie.
+famille.
 
 Der Rauchmelder Fibaro FGSD-002 ist ein Alarmmelder
 Autonomer Rauch (DAAF) gemäß Norm EN 14604:2005. Gut
 So autonom kommuniziert es auch dank der Z-Wave-Technologie
-Mehr.
+Plus.
 
 Einige Materialien brennen ohne zu rauchen. Deshalb die Ingenieure bei
 Fibaro hat beschlossen, zusätzlichen Schutz in ihre aufzunehmen
@@ -50,7 +50,7 @@ hohe Effizienz, unabhängig davon, was brennt.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -87,7 +87,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 3V CR123A Lithiumbatterie
+-   Versorgung: 3V CR123A Lithiumbatterie
 
 -   Akkulaufzeit : 3 Jahre
 
@@ -95,7 +95,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 65 x 28 mm (Durchmesser x Höhe)
+-   Abmessungen: 65 x 28 mm (Durchmesser x Höhe)
 
 -   Betriebstemperatur : 0-55 ° C
 
@@ -110,9 +110,9 @@ Technische Daten
 
 -   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 55 ° C)
 
--   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
+-   Standards: EMC 2004/108 / EC und R & TTE 199/5 / WE
 
--   Zertifizierungen : EN 14604:2005
+-   Zertifizierungen: EN 14604:2005
 
 \
 
@@ -121,9 +121,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro Rauchsensor FGSD-002
+-   Name: Fibaro Rauchsensor FGSD-002
 
 -   Hersteller ID : 271
 
@@ -133,18 +133,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf gemäß Papierdokumentation.
@@ -163,12 +163,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -185,7 +185,7 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-   Sabotage: Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
     des Falles
 
 -   Testalarm : Es ist der Befehl, der die Tatsache aufzeigt, dass das Modul
@@ -194,7 +194,7 @@ Hier ist die Liste der Befehle :
 -   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst
     (noch nicht zuverlässig)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -202,10 +202,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -234,13 +234,13 @@ Parameterdetails :
 
 \
 
--   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
+-   Aufwachen: Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
 
 -   1: Passt die Empfindlichkeit der Raucherkennung an
 
 -   2: Hier können Sie auswählen, welche Benachrichtigungen an Jeedom gesendet werden sollen
-    (Rat : alle)
+    (Rat: toutes)
 
 -   3: Hier können Sie auswählen, welche Benachrichtigungen von einem begleitet werden sollen
     visuelle Anzeige
@@ -250,7 +250,7 @@ Parameterdetails :
     das Modul klingelt)
 
 -   10: Ändern Sie diese Einstellung nur, wenn Sie wissen, was Sie tun
-    tun
+    faites
 
 -   11: idem
 
@@ -272,7 +272,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -302,7 +302,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -330,7 +330,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

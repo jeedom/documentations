@@ -30,7 +30,7 @@ comparable a un interruptor de cable ordinario.
 
 Se puede usar tanto manualmente como cualquier
 interruptor de cable ordinario y remoto a través del controlador
-Onda Z.
+Z-Wave.
 
 El interruptor SwiidInter también ofrece posibilidades de asociación
 y este bidireccional. Por lo tanto, puede ser operado automáticamente por un
@@ -46,11 +46,11 @@ en cordón ordinario : así que es una instalación rápida y fácil que
 no requiere herramientas especializadas. Luego debe configurarse para
 integrarse en una "red" Z-Wave, esta red puede ser tan simple
 solo un control remoto que controla su interruptor SwiidInter a
-distancia.
+distance.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -81,13 +81,13 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : negro
+-   Color: noire
 
--   Suministro: 230V ± 10% - 50Hz
+-   Alimentation: 230V ± 10% - 50Hz
 
 -   Potencia máxima : 660W
 
--   El consumo : &lt; 0,08W
+-   El consumo: &lt; 0,08W
 
 -   Indice de PROTECCION: IP20
 
@@ -95,13 +95,13 @@ Características técnicas
 
 -   Radiofrecuencia : 868,42 MHz (UE)
 
--   Dist. transmisión: Hasta 30 m en interiores (depende de los materiales)
+-  Dist transmission: Hasta 30 m en interiores (depende de los materiales)
 
--   Temp. funcionando : 0 - 40 ° C
+-  Temp funcionando: 0 - 40 ° C
 
 -   Pantalla de encendido / apagado : LEDs azules
 
--   Dimensiones : 84 x 32 x 29 mm
+-   Dimensiones: 84 x 32 x 29 mm
 
 -   Normas de la UE : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Datos del módulo
 
 \
 
--   Hacer : Swiid
+-   Hacer: Swiid
 
--   Nombre : SwiidInter
+-   Nombre: Swiidinter
 
 -   ID del fabricante : 358
 
@@ -124,18 +124,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > en la parte posterior, de acuerdo con su documentación en papel
@@ -154,12 +154,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -171,17 +171,17 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Es el comando que permite conocer el estado de la
+-   Estado: Es el comando que permite conocer el estado de la
     Iluminación
 
--   Uno : Es el control que enciende la luz
+-   Uno: Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz
+-   Apagado: Es el comando que apaga la luz
 
 \
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -217,7 +217,7 @@ swiidinter a otro módulo (pulsación larga)
 
 \
 
--   Inactivo : no tendrá efecto en otras luces
+-   Inactivo: no tendrá efecto en otras luces
 
 -   Solo apagado : será efectivo solo para apagar a otros
     luces
@@ -230,7 +230,7 @@ swiidinter a otro módulo (pulsación larga)
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -242,7 +242,7 @@ Este módulo tiene dos grupos de asociación.
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 2.

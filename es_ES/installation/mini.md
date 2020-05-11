@@ -1,6 +1,6 @@
 # Instalación de Jeeodm en un mini +
 
-> **Punta**
+> **Tip**
 >
 > El nombre de la imagen de Jeedom puede ser diferente al de las capturas realizadas en esta documentación
 
@@ -10,7 +10,7 @@ Debes descargar el software Etcher [aquí](https://etcher.io/) luego instálalo 
 
 ## Jeedom recuperación de imagen
 
-Tiene que ir [aquí](https://images.jeedom.com/jeeboard/),luego, en la carpeta Imágenes, recupere la imagen jeedom-jeeboard - \ *. rar
+Tiene que ir [aquí](https://images.jeedom.com/jeeboard/),luego, en la carpeta Imágenes, recupere la imagen jeedom-jeeboard - \*. rar
 
 ![install humming 1](images/install_humming_1.PNG)
 
@@ -28,7 +28,7 @@ Inserte su tarjeta SD en su computadora, inicie el software Etcher, dele la ruta
 
 Solo tiene que colocar la tarjeta SD en el Jeedomboard (o Hummingboard), conectar la red y la fuente de alimentación, su Jeedom se iniciará (5 min) y debería verlo en la red.
 
-> **Punta**
+> **Tip**
 >
 > Las ID de SSH son jeedom / Mjeedom96
 

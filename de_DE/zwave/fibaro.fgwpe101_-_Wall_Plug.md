@@ -37,7 +37,7 @@ Z-Wave Standard kompatibler Controller
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -46,7 +46,7 @@ Funktionen
 
 -   Mikrochip-Steuerung.
 
--   Ausführungselement: Relais.
+-   Ausführungselement:Relais
 
 -   Messung der Wirkleistung von Strom und elektrischer Energie
     des Empfängers.
@@ -60,23 +60,23 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
 -   Stromverbrauch : bis zu 0,8W
 
--   Maximale Belastung : 2,5 kW
+-   Maximale Belastung : 2.5kW
 
 -   Frequenz : 868,42 MHz EU
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 17 x 42 x 37 mm
+-   Dimensions: 17 x 42 x 37 mm
 
 -   Betriebstemperatur : 0-40 ° C
 
--   Temperatur begrenzen : 105 ° C
+-   Temperatur begrenzen : 105°C
 
--   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
+-   Standards: LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
 \
 
@@ -85,9 +85,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Wandstecker FGWPE-101
+-   Name: Wandstecker FGWPE-101
 
 -   Hersteller ID : 271
 
@@ -97,18 +97,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -127,12 +127,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -144,17 +144,17 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Steckdose
+-   Zustand: Es ist der Befehl, mit dem der Status des
+    prise
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein: Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus: Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Macht : Dies ist der Befehl, der die momentane Leistung erhöht
+-   Macht: Dies ist der Befehl, der die momentane Leistung erhöht
     verbraucht
 
--   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
+-   Verbrauch: Es ist die Bestellung, die den Gesamtverbrauch angibt
 
 \
 
@@ -199,7 +199,7 @@ Parameterdetails :
 -   1: ermöglicht das Blockieren des Moduls in immer EIN
 
 -   16: Ermöglicht es Ihnen, sich den letzten Zustand im Falle eines Stromausfalls zu merken
-    Strom
+    courant
 
 -   34: Mit dieser Option können Sie die Art des Alarms im Zwave-Netzwerk auswählen
     muss reagieren
@@ -222,7 +222,7 @@ Parameterdetails :
     einer Variation
 
 -   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in der
-    Werte
+    valeurs
 
 -   50: Mindestwert von Parameter 52
 
@@ -244,12 +244,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -262,7 +262,7 @@ Gut zu wissen
 
 \
 
-### Zurücksetzen 
+### Zurücksetzen
 
 \
 
@@ -272,7 +272,7 @@ Gut zu wissen
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
-Drücken Sie die Taste.
+PressButton.
 
 \
 
@@ -284,7 +284,7 @@ Drücken Sie die Taste.
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

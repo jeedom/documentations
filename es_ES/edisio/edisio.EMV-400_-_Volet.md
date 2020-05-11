@@ -26,11 +26,11 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy
 práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
-> **Importante**
+> **Important**
 >
 > Neutral solo es necesario para el modo "Obturador""
 
-Funciones 
+Funciones
 =========
 
 -   2 salidas de relé suministradas
@@ -62,7 +62,7 @@ Características técnicas
 
 -   Tipo de módulo: Receptor Edisio
 
--   Suministro: 230VAC, 50Hz
+-   Alimentation: 230VAC, 50Hz
 
 -   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
@@ -78,33 +78,33 @@ Características técnicas
 
 -   Temperatura de funcionamiento: -10 ° C + 45 ° C
 
--   Dimensiones: 48x46x26mm
+-   Dimensions: 48x46x26mm
 
 -   Grado de protección: IP20
 
 Datos del módulo 
 =================
 
--   Hacer : Edisio Smart Home
+-   Hacer: Edisio Smart Home
 
--   Nombre : EMV-400
+-   Nombre: EMV-400
 
 Configuración general 
 ======================
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
 
-> **Importante**
+> **Important**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Importante**
+> **Important**
 >
 > Por el contrario, los receptores Edisio deben crearse manualmente en
-> Jeedom.
+>Jeedom
 
 Interruptor DIP y botón "R" : 
 --------------------------
@@ -116,11 +116,11 @@ Interruptor DIP y botón "R" :
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Nota**
+> **Note**
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
-> Instalación.
+>Instalación
 
 -   El botón "R", permitirá asociar un transmisor al receptor,
     activar o desactivar la función del temporizador y activar el modo
@@ -128,7 +128,7 @@ Interruptor DIP y botón "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Nota**
+> **Note**
 >
 > Al presionar R 3x se activa el modo remoto.
 
@@ -138,7 +138,7 @@ Diagrama de funciones
 A continuación, si su transmisor está configurado en "1 tecla" o "modo 2
 teclas ", así es como funciona el módulo:
 
-> **Nota**
+> **Note**
 >
 > Consulte la documentación del fabricante para poder
 > configura tu transmisor.
@@ -151,7 +151,7 @@ Función de temporizador
 La función de temporizador apaga automáticamente los relés al final
 30 o 60 minutos.
 
-> **Nota**
+> **Note**
 >
 > Esta función solo se utiliza en el modo "Iluminación""
 
@@ -161,7 +161,7 @@ El modo "Obturador""
 El modo "Obturador" le permite controlar un motor bidireccional al final de
 carreras de distancia electrónicas y mecánicas.
 
-> **Importante**
+> **Important**
 >
 > Neutral es requerido
 
@@ -170,12 +170,12 @@ Configuracion electrica y conexiones :
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **Importante**
+> **Important**
 >
 > Para que el módulo esté en modo "Obturador", el interruptor DIP 2 debe estar en
-> Bajo
+> bas
 
-> **Importante**
+> **Important**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
@@ -191,16 +191,16 @@ Una vez que se crea su equipo, debe obtener esto :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Nota**
+> **Note**
 >
 > Recuerde activar su nuevo equipo.
 
 En la lista de equipos, a la derecha, seleccione "Obturador de micro módulo
-rodando" :
+roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-Comandos 
+Comandos
 ---------
 
 Una vez que guarde su equipo, debe recibir los pedidos
@@ -210,38 +210,38 @@ asociado con el módulo :
 
 Aquí está la lista de comandos :
 
--   Estado : Este es el comando que simula el retorno del estado
+-   Estado: Este es el comando que simula el retorno del estado
 
--   Subir : Este es el comando que abre el obturador
+-   Subir: Este es el comando que abre el obturador
 
--   Detener : Es el comando que hace posible detener el movimiento del obturador
+-   Detener: Es el comando que hace posible detener el movimiento del obturador
 
--   Bajar : Este es el comando que cierra el obturador
+-   Bajar: Este es el comando que cierra el obturador
 
--   E : Este es el comando que te permite usar el modo remoto
+-   E: Este es el comando que te permite usar el modo remoto
 
-> **Importante**
+> **Important**
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
 > use otro transmisor, Jeedom no podrá actualizar el estado
 > del receptor.
 
-Información 
+Información
 ------------
 
 Una vez que su equipo esté asociado con Jeedom, se le dará diversa información
-disponible :
+disponible:
 
 ![Comandos](images/emv.400/infos_moteur.jpg)
 
 -   Creación : Indica la fecha en que se creó el equipo
 
--   Comunicación : Indica la última comunicación registrada entre
+-   Comunicación: Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería para los módulos de batería
+-   Batería: Indica el estado de la batería para los módulos de batería
 
--   Estado : Devuelve el estado del módulo
+-   Estado: Devuelve el estado del módulo
 
 Asociación del micromódulo con Jeedom 
 ===================================
@@ -249,7 +249,7 @@ Asociación del micromódulo con Jeedom
 Para que pueda interactuar con Jeedom, como si fuera un
 Transmisor Edisio.
 
-> **Nota**
+> **Note**
 >
 > Una de las grandes ventajas de Edisio es que un receptor puede tener
 > varios emisores asociados
@@ -283,10 +283,10 @@ Cada salida debe estar asociada con un comando Jeedom:
     -   Dentro de 10 segundos, presione "R" nuevamente en el receptor, para
         confirmar la asociación, el pitido se detiene.
 
-> **Nota**
+> **Note**
 >
 > No hay necesidad de asociar el comando "Stop", ya está hecho
-> automáticamente.
+>automáticamente
 
 Método remoto 
 ----------------
@@ -341,7 +341,7 @@ ahora reemplaza el botón "R" en el receptor.
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
-> **Nota**
+> **Note**
 >
 > Puede comenzar de nuevo tantas veces como quiera asociar
 > de transmisores a receptor

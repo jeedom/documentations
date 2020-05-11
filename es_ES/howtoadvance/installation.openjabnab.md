@@ -1,7 +1,7 @@
 Aquí hay un tutorial sobre cómo instalar openjabnab localmente (en un rpi o
-tarareando)
+humming)
 
-> **Nota**
+> **Note**
 >
 > Este tutorial está inspirado en gran medida por
 > [este](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -34,16 +34,16 @@ El resultado es :
 
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162  Bcast:192.168.0.255 máscara:255.255.255.0
-              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Enlace
+              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
               UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
               Paquetes TX:6477 errores:0 caído:0 desbordamientos:0 transportista:0
-              colisiones:0 txqueuelen:1000
+              collisions:0 txqueuelen:1000
               Bytes RX:2032942 (1.9 MiB) bytes TX:1230703 (1.1 MiB)
 
 Aquí la dirección IP es 192.168.0.162.
 
-> **Nota**
+> **Note**
 >
 > Para el resto del tutorial usaré esta IP, por supuesto es
 > reemplazar dependiendo de cuál realmente
@@ -77,7 +77,7 @@ Y añadir :
 
 Cree el archivo db.raspberry.pi
 
-vim db.raspberry.pi ---
+vim db.raspberry.pi---
 
 Y poner en ello :
 
@@ -110,7 +110,7 @@ Y poner :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Importante**
+> **Important**
 >
 > Recuerde reemplazar el 162 en la última línea con el último
 > parte de su sistema ip
@@ -131,12 +131,12 @@ Deberías tener :
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 tiempo = 0.067 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 tiempo = 0.059 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 tiempo = 0.068 ms
-    ^ C
+    ^C
     --- ojn.raspberry.pi ping statistics ---
     4 paquetes transmitidos, 4 recibidos, 0% de pérdida de paquetes, tiempo 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **Nota**
+> **Note**
 >
 > Tienes que hacer ctrl + c para salir del ping
 
@@ -165,7 +165,7 @@ Luego clone openjabnab :
 Configuración del servidor web 
 ============================
 
-Hacer :
+Hacer:
 
     cd / etc / apache2 / sites-available /
     vim ojn.conf
@@ -210,21 +210,21 @@ Luego reiniciamos apache :
 Instalación de openjabnab 
 =========================
 
-Hacer :
+Hacer:
 
     su ojn
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    hacer
+    make
 
-> **Nota**
+> **Note**
 >
 > Este paso puede ser muy largo (hasta 45 minutos)
 
 Configuración de Openjabnab 
 ==========================
 
-Hacer :
+Hacer:
 
     cp openjabnab.ini-dist bin / openjabnab.ini
     vim bin / openjabnab.ini
@@ -236,7 +236,7 @@ Y cambia las siguientes líneas :
     AllowUserManageBunny = true
     AllowUserManageZtamp = true
 
-Y reemplazar todo *my.domain.com* por *ojn.raspberry.pi*
+Y reemplazar todo *my.domain.com* por*ojn.raspberry.pi*
 
 Configuración del servidor web Openjabnab 
 =======================================
@@ -259,16 +259,16 @@ Ahora todo está listo, todo lo que queda es iniciar el servidor :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./ openjabnab
+    ./openjabnab
 
 Ahora ve a :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Nota**
+> **Note**
 >
 > Si todo está bien, debería tener las estadísticas que aparecen en
-> Bajo
+> bas
 
 Configuración de conejo 
 ======================
@@ -281,7 +281,7 @@ Luego, con su PC, debe tener una nueva red wifi
 nabaztagXX, conéctese escribiendo 192.168.0.1.
 
 Una vez encendido, ingrese su configuración e información wifi
-siguiendo :
+siguiendo:
 
     DHCP habilitado : no
     Máscara local : 255.255.255.0
@@ -293,7 +293,7 @@ Supervisión del servidor Openjabnab e inicio automático
 
 Como notará si cierra la sesión del servidor
 Openjabnab se detiene. Entonces tienes que agregar un pequeño script a
-supervisar el servidor e iniciarlo automáticamente. Hacer :
+supervisar el servidor e iniciarlo automáticamente. Hacer:
 
     cd / home / ojn
     vim checkojn.sh
@@ -318,7 +318,7 @@ Y añadir :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Importante**
+> **Important**
 >
 > Es absolutamente necesario ponerlo en el crontab raíz, si está
 > de nuevo con el usuario ojn do ctrl + D
@@ -335,7 +335,7 @@ Usted debe tener :
 ![installation.openjabnab](images/installation.openjabnab.PNG)
 
 Ahora debe crear una cuenta haciendo clic en crear un
-Usuario :
+Usuario:
 
 ![installation.openjabnab2](images/installation.openjabnab2.PNG)
 
@@ -399,7 +399,7 @@ Poner el TTS localmente
 Todo es local excepto el TTS que pasa por el sitio de Acapela pero es
 posible modificando algunos archivos para pasarlos localmente
 
-> **Nota**
+> **Note**
 >
 > Consideraré que oenjabnab está instalado en
 > / home / ojn / OpenJabNab y estás conectado como
@@ -434,19 +434,19 @@ Entonces tienes que hacer 3 archivos :
     LIBS + = -L ../../ bin / -lcommon
     MOC_DIR = ./tmp/moc
     OBJECTS_DIR = ./tmp/obj
-    win32 {
+    win32{
       QMAKE_CXXFLAGS_WARN_ON + = -WX
     }
-    unix {
+    unix{
       QMAKE_LFLAGS + = -Wl, -rpath, \ '\ $$ ORIGIN \'
       QMAKE_CXXFLAGS + = -Werror
     }
 
-    # De entrada
+    # Input
     HEADERS + = tts_jeedom.h
     FUENTES + = tts_jeedom.cpp
 
--   tts \ _jeedom.h
+-   tts\_jeedom.h
 
 <!-- -->
 
@@ -464,17 +464,17 @@ Entonces tienes que hacer 3 archivos :
       Q_OBJECT
       Q_INTERFACES (TTSInterface)
 
-    publico:
-      TTSJeedom ();
+    public:
+      TTSJeedom();
       virtual ~ TTSJeedom ();
       QByteArray CreateNewSound (QString, QString, bool);
 
-    privado:
+    private:
     };
 
     #endif
 
--   tts \ _jeedom.cpp
+-   tts\_jeedom.cpp
 
 <!-- -->
 
@@ -490,26 +490,26 @@ Entonces tienes que hacer 3 archivos :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom::~ TTSJeedom ()
+    TTSJeedom::~TTSJeedom()
     {
     }
 
     QByteArray TTSJeedom::CreateNewSound (texto QString, voz QString, bool forceOverwrite)
     {
       QEventLoop loop;
-      si (!voiceList.contains (voz))
+      if(!voiceList.contains (voz))
         voz = "fr";
       // Verifique (y cree si es necesario) la carpeta de salida
       QDir outputFolder = ttsFolder;
-      si (!outputFolder.exists (voz))
+      if(!outputFolder.exists (voz))
         outputFolder.mkdir (voz);
 
-      si (!outputFolder.cd (voz))
+      if(!outputFolder.cd (voz))
       {
         LogError (QString ("No se puede crear la carpeta TTS : % 1 "). Arg (ttsFolder.absoluteFilePath (voz)));
         devolver QByteArray ();
@@ -519,7 +519,7 @@ Entonces tienes que hacer 3 archivos :
       QString fileName = QCryptographicHash::hash (texto.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
       QString filePath = outputFolder.absoluteFilePath (fileName);
 
-      si (!forceOverwrite && QFile::existe (filePath))
+      if(!forceOverwrite && QFile::existe (filePath))
         volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
 
       // Recuperar MP3
@@ -539,9 +539,9 @@ Entonces tienes que hacer 3 archivos :
       loop.exec ();
 
       Archivo QFile (filePath);
-      si (!file.open (QIODevice::Escribir solo))
+      si (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("No se puede abrir el archivo de sonido para escribir : "+ filePath);
+        LogError ("No se puede abrir el archivo de sonido para escribir : "+filePath);
         devolver QByteArray ();
       }
       file.write (http.readAll ());
@@ -549,7 +549,7 @@ Entonces tienes que hacer 3 archivos :
       volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
     }
 
-> **Nota**
+> **Note**
 >
 > No olvides reemplazar los TODOs
 
@@ -559,12 +559,12 @@ Luego active el tts jeedom modificando el archivo
     PLANTILLA = subdirs
     SUBDIRS = acapela google jeedom
 
-Recompilar 
+Recompilar
 -------------
 
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    hacer
+    make
 
 Modificación del servicio tts 
 ------------------------------
@@ -574,7 +574,7 @@ y cambiar :
 
     TTS = acapela
 
-Por
+Par
 
     TTS = libertad
 

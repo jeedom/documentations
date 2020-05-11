@@ -20,7 +20,7 @@ ist kompakt und diskret.
 
 Die integrierte LED-Anzeige signalisiert jede Zustandsänderung.
 
-Funktionen 
+Funktionen
 =========
 
 -   Drahtloser batteriebetriebener Temperatursensor
@@ -41,11 +41,11 @@ Technische Daten
 
 -   Modultyp : Edisio Sender
 
--   Verwendung : Drinnen
+-   Verwendung: Drinnen
 
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
+-   Versorgung: 3VDC (Lithiumbatterie ER14250)
 
--   Autonomie : Bis zu 3 Jahre
+-   Autonomie: Bis zu 3 Jahre
 
 -   Frequenz : 868,3 MHz
 
@@ -53,30 +53,30 @@ Technische Daten
 
 -   Reichweite im freien Feld : 100M
 
--   Abmessungen : 25x79x19mm
+-   Abmessungen: 25x79x19mm
 
 -   Schutzart : IP20
 
 Moduldaten 
 =================
 
--   Machen Sie : Edisio Smart Home
+-   Machen Sie: Edisio Smart Home
 
--   Name : ETS-200
+-   Name: ETS-200
 
 Allgemeine Konfiguration 
 ======================
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Spitze**
+> **Tip**
 >
 > Die Platzierung wird in einer Höhe von 150 cm und in der Nähe empfohlen
 > die gewünschte Temperatur.
@@ -104,7 +104,7 @@ Assoziation des Sensors mit Jeedom
 Die Kombination des Temperatursensors ist ein Kinderspiel. Es ist genug
 Drücken Sie die Taste "E" unter dem Sensor. Dieser wird
 automatisch erkannt. Platziere es in einem Objekt, gib ihm einen Namen und
-Speichern.
+sauvegarder.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
@@ -112,7 +112,7 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-Befehle 
+Befehle
 ---------
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
@@ -124,23 +124,23 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Befehl, der die gelesene Temperatur anzeigt
 
--   Batterie : Zeigt den Batteriestatus an
+-   Batterie: Zeigt den Batteriestatus an
 
-Information 
+Information
 ------------
 
 Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar :
+verfügbar:
 
 ![Befehle](images/ets200/ets200.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
+-   Kommunikation: Zeigt die letzte zwischen aufgezeichnete Kommunikation an
     Jeedom und das Mikromodul
 
--   Batterie : Zeigt den Batteriestatus der Batteriemodule an
+-   Batterie: Zeigt den Batteriestatus der Batteriemodule an
 
--   STATUS : Gibt den Status des Moduls zurück
+-   STATUS: Gibt den Status des Moduls zurück
 
 **@Jamsta**

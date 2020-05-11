@@ -28,7 +28,7 @@ The Fibaro motion detector is a Z-Wave multifunction detector.
 In addition to motion detection, this device measures the
 temperature and light intensity. This detector also includes a
 built-in accelerometer to detect any attempt to alter the
-Devices.
+dispositif.
 
 The Fibaro motion detector is battery powered and designed
 to be installed quickly and easily on any
@@ -41,7 +41,7 @@ and surveillance and / or security systems.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -78,13 +78,13 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : CR123A 3,6VDC battery
+-   Food: CR123A 3,6VDC battery
 
--   Recommended height for installation : 2.4m
+-   Recommended height for installation : 2,4m
 
 -   Measured temperature range : -20 ° C to 100 ° C
 
--   Measurement accuracy : 0.5 ° C
+-   Measurement accuracy : 0,5°C
 
 -   Brightness measurement range : 0-32000 LUX
 
@@ -96,7 +96,7 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Certifications : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Certifications: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
 \
@@ -106,9 +106,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : Fibaro FGMS-001 \ [Motion Sensor \]
+-   Name: Fibaro FGMS-001 \ [Motion Sensor \]
 
 -   Manufacturer ID : 271
 
@@ -118,18 +118,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -148,12 +148,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -170,12 +170,12 @@ Here is the list of commands :
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : it is the command which makes it possible to raise the brightness
+-   Brightness: it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in case
+-   Sabotage: this is the sabotage command (it is triggered in case
     vibration)
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -183,10 +183,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -219,7 +219,7 @@ Parameter details :
 
 \
 
--   Wakeup : this is the module's wake-up interval (value
+-   Wakeup: this is the module's wake-up interval (value
     7200 recommended)
 
 -   1: adjusts the sensitivity of the presence sensor
@@ -242,9 +242,9 @@ Parameter details :
 -   12: to change only if you know why you are doing it
     (association with a module for example)
 
--   14: Same
+-   14: idem
 
--   16: Same
+-   16: idem
 
 -   20: sensitivity of the gyro sensor (recommended value 15)
 
@@ -293,16 +293,16 @@ Parameter details :
     (linked to parameter 81)
 
 -   89: allows the LED to flash in blue / white / red in case of
-    Sabotage
+    sabotage
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has three association groups, only the third is
-essential.
+indispensable.
 
 \
 
@@ -322,10 +322,10 @@ Good to know
 > **Tip**
 >
 > This module is very finicky on wakeup and very badly configured
-> factory. It is essential to wake it up well after inclusion
+>factory It is essential to wake it up well after inclusion
 > (several times are better than one), to configure it according to your
 > wishes, and to wake it up well so that the config is taken into account
-> Account.
+>Account
 
 \
 
@@ -337,7 +337,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -374,7 +374,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

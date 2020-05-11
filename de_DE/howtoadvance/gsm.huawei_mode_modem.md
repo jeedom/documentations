@@ -5,7 +5,7 @@ Jeedom auf einer VM (VMware ESXi). In der Tat, wenn Sie es nicht weitergeben
 Im GSM-Modus wird nur der Schlüssel nicht in der Liste von angezeigt
 USB-Geräte, die Sie an die VM übergeben können.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Tutorial wurde unter Windows 10 durchgeführt
 
@@ -15,7 +15,7 @@ Treiberinstallation
 Sobald der Schlüssel mit einem Windows 10-PC verbunden ist, müssen Sie einen haben
 neues CD-ROM-Laufwerk. Sie müssen darauf doppelklicken und das installieren
 vorgeschlagene Software (es gibt nichts zu ändern, einfach alles zu tun
-lang).
+long).
 
 ![gsmonly](images/gsmonly.PNG)
 
@@ -34,7 +34,7 @@ Kitt herunterladen
 =======================
 
 Dann Kitt herunterladen
-[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) und
+[hier](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
 Starten Sie die heruntergeladene Datei
 
 Kittkonfiguration und nur in den GSM-Modus wechseln 
@@ -52,7 +52,7 @@ auf die "Enter" -Taste" :
 
     AT ^ u2diag = 0
 
-> **Wichtig**
+> **Important**
 >
 > Seien Sie vorsichtig, wenn Sie den Text eingeben, bei dem Sie nichts sehen
 > Der Bildschirm ist normal, der Text wird weiterhin berücksichtigt.

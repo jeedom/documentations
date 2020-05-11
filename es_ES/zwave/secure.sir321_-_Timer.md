@@ -39,7 +39,7 @@ SES002 y SES003.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -64,12 +64,12 @@ Características técnicas
 
 \
 
--   Tipo: Temporizador electrónico
+-   Type: Temporizador electrónico
 
--   Relé: 13 (3) A, 230 V CA, adecuado para cargas de hasta
+-   Relais: 13 (3) A, 230 V CA, adecuado para cargas de hasta
     3kW
 
--   Suministro: 230 V CA, 50 Hz
+-   Alimentation: 230 V CA, 50 Hz
 
 -   Dimensiones 85x85x44mm
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer : Horstmann
+-   Hacer: Horstmann
 
--   Nombre : Temporizador de cuenta regresiva RF SIR 321
+-   Nombre: Temporizador de cuenta regresiva RF SIR 321
 
 -   ID del fabricante : 89
 
@@ -95,18 +95,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón (hasta que parpadee rápidamente) y suéltelo, de acuerdo con
@@ -126,12 +126,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -143,9 +143,9 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : este es el comando para encender el relé
+-   Uno: este es el comando para encender el relé
 
--   Apagado : es el comando para apagar el relé
+-   Apagado: es el comando para apagar el relé
 
 -   Temperatura : este es el comando de medición de temperatura si un
     sonda externa está presente
@@ -194,7 +194,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 

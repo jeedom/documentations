@@ -38,7 +38,7 @@ angeschlossene Last und ist gegen Überspannung geschützt.
 
 Für Leuchtstofflampen, die keine Variation unterstützen, ist die
 Das Modul fungiert dann automatisch als Schaltmodul (EIN / AUS)
-nur).
+uniquement).
 
 Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
 vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
@@ -54,7 +54,7 @@ Gesamtabdeckung Ihres Hauses.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -84,7 +84,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
 -   Verkabelung : Neutral nicht erforderlich
 
@@ -95,19 +95,19 @@ Technische Daten
 
 -   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
 
--   Sicherung : 2.5A
+-   Sicherung: 2.5A
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 15 x 42 x 36 mm
+-   Dimensions: 15 x 42 x 36 mm
 
 -   Betriebstemperatur : 0-40 ° C
 
--   Temperatur begrenzen : 105 ° C
+-   Temperatur begrenzen : 105°C
 
--   Standards : EN 55015 und EN 60669-2-1
+-   Standards: EN 55015 und EN 60669-2-1
 
 \
 
@@ -116,9 +116,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
+-   Name: Fibaro FGMS-001 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -128,18 +128,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -150,7 +150,7 @@ Aufnahme beziehen sich darauf
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
 > durch viele hin und her auf dem Schalter oder viele
@@ -166,12 +166,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -183,18 +183,18 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
+-   Intensität: Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein: Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus: Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Licht
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \
 
@@ -279,12 +279,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -301,7 +301,7 @@ Gut zu wissen
 
 \
 
-> **Kaution**
+> **Caution**
 >
 > Der wichtigste Parameter der Konfiguration ist 14. Es
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
@@ -323,7 +323,7 @@ Schalter Sie können Ihren Schalter mehrmals drücken
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

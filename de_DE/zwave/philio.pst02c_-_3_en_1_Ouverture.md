@@ -45,11 +45,11 @@ erkannt wird.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie diesen Detektor in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-vorhanden.
+existant.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -68,7 +68,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Selbstschutz
+-   Autoprotection
 
 -   Anzeige für niedrigen Batteriestand
 
@@ -85,7 +85,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Versorgung : 1 CR123A 3V Batterie
+-   Versorgung: 1 CR123A 3V Batterie
 
 -   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
 
@@ -97,13 +97,13 @@ Technische Daten
 
 -   Helligkeitssensor : 0 bis 500 Lux
 
--   Abmessungen :
+-   Abmessungen:
 
 -   Detektor : 28 x 96 x 23 mm
 
--   Magnet : 10 x 50 x 12 mm
+-   Magnet: 10 x 50 x 12 mm
 
--   Gewicht : 52 g
+-   Gewicht: 52g
 
 -   Betriebstemperatur : -10 bis 40 ° C
 
@@ -120,9 +120,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Philio Technology Corporation
+-   Machen Sie: Philio Technology Corporation
 
--   Name : PST02-C Tür / Fenster 3 in 1 Sensor
+-   Name: PST02-C Tür / Fenster 3 in 1 Sensor
 
 -   Hersteller ID : 316
 
@@ -132,18 +132,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -162,12 +162,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -179,15 +179,15 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    Öffnung
+-   Öffnung: Es ist der Befehl, der eine Erkennung auslöst
+    d'ouverture
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
+-   Helligkeit: Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -195,10 +195,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -265,19 +265,19 @@ Parameterdetails :
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
-    Bericht
+    rapport
 
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
     Empfohlenen Wert melden : 10
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-wesentlich.
+indispensable.
 
 \
 
@@ -298,7 +298,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -328,7 +328,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

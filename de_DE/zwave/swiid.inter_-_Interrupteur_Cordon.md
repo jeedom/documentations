@@ -30,7 +30,7 @@ vergleichbar mit einem normalen Kabelschalter.
 
 Es kann wie jedes manuell verwendet werden
 gewöhnlicher und entfernter Kabelschalter über Controller
-Z-WAVE.
+Z-Wave.
 
 Der SwiidInter-Schalter bietet auch Zuordnungsmöglichkeiten
 und das in beide Richtungen. Somit kann es automatisch von a bedient werden
@@ -46,11 +46,11 @@ auf gewöhnlicher Schnur : Es ist also eine schnelle und einfache Installation
 erfordert keine speziellen Werkzeuge. Es muss dann konfiguriert werden zu
 In ein Z-Wave "Netzwerk" integrieren, kann dieses Netzwerk so einfach sein
 Nur eine Fernbedienung, die Ihren SwiidInter-Schalter steuert
-Entfernung.
+distance.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -81,13 +81,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Farbe : schwarz
+-   Farbe: noire
 
--   Versorgung: 230 V ± 10% - 50 Hz
+-   Alimentation: 230 V ± 10% - 50 Hz
 
 -   Maximale Leistung : 660W
 
--   Verbrauch : &lt; 0,08W
+-   Verbrauch: &lt; 0,08W
 
 -   Schutzindex: IP20
 
@@ -95,13 +95,13 @@ Technische Daten
 
 -   Radiofrequenz : 868,42 MHz (EU)
 
--   Dist. Übertragung: Bis zu 30 m in Innenräumen (abhängig von den Materialien)
+-  Dist transmission: Bis zu 30 m in Innenräumen (abhängig von den Materialien)
 
--   Temp. Funktionieren : 0 - 40 ° C
+-  Temp Funktionieren: 0 - 40 ° C
 
 -   Ein / Aus-Anzeige : Blaue LEDs
 
--   Abmessungen : 84 x 32 x 29 mm
+-   Abmessungen: 84 x 32 x 29 mm
 
 -   EU-Standards : EN 61058-2-1:2011 EN 55015
 
@@ -112,9 +112,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Swiid
+-   Machen Sie: Swiid
 
--   Name : SwiidInter
+-   Name: Swiidinter
 
 -   Hersteller ID : 358
 
@@ -124,18 +124,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > auf der Rückseite gemäß der Papierdokumentation
@@ -154,12 +154,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -171,17 +171,17 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein: Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus: Es ist der Befehl, der das Licht ausschaltet
 
 \
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \
 
@@ -217,7 +217,7 @@ swiidinter zu einem anderen Modul wechseln (lange drücken)
 
 \
 
--   Inaktiv : hat keine Auswirkung auf andere Lichter
+-   Inaktiv: hat keine Auswirkung auf andere Lichter
 
 -   Nur AUS : wird nur wirksam sein, um andere auszuschalten
     Lichter
@@ -230,7 +230,7 @@ swiidinter zu einem anderen Modul wechseln (lange drücken)
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -242,7 +242,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
 > mindestens mit Gruppe 2 verbunden sein.

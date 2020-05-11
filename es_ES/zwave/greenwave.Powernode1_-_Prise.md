@@ -51,7 +51,7 @@ el boxeo de domótica ya no será posible.
 El tomacorriente controlado por PowerNode también tiene un indicador de estado
 brillante que proporciona información diferente según su color :
 enchufes de encendido o apagado, alcance de radio limitado, modo de inclusión y
-Exclusión.
+exclusion.
 
 El módulo de enchufe PowerNode está equipado con protección contra
 sobrecorrientes para proteger el dispositivo conectado. El zócalo PowerNode
@@ -61,7 +61,7 @@ interno ubicado en el zócalo.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -91,7 +91,7 @@ Características técnicas
 
 \
 
--   Suministro : 250 V CA, 50 Hz
+-   Suministro: 250 V CA, 50 Hz
 
 -   Corriente de carga máxima : 10A
 
@@ -124,9 +124,9 @@ Datos del módulo
 
 \
 
--   Hacer : Greenwave
+-   Hacer: GreenWave
 
--   Nombre : GreenWave \ [1 x enchufe \]
+-   Nombre: GreenWave \ [1 x enchufe \]
 
 -   ID del fabricante : 153
 
@@ -136,18 +136,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente bajo el zócalo.
@@ -166,12 +166,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -183,17 +183,17 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Es el comando que permite conocer el estado de la
-    Salida
+-   Estado: Es el comando que permite conocer el estado de la
+    prise
 
--   Uno : Este es el comando que enciende la salida
+-   Uno: Este es el comando que enciende la salida
 
--   Apagado : Es el comando que hace posible extinguir la captura
+-   Apagado: Es el comando que hace posible extinguir la captura
 
--   Potencia : Es el control que trae el poder instantáneo
+-   Potencia: Es el control que trae el poder instantáneo
     consumido
 
--   El consumo : Es el orden que informa el consumo total
+-   El consumo: Es el orden que informa el consumo total
 
 \
 
@@ -242,7 +242,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -265,7 +265,7 @@ encuestas para aumentar el consumo.
 
 \
 
-### Restablecer 
+### Restablecer
 
 \
 
@@ -283,7 +283,7 @@ PressButton.
 
 \
 
-Despertador 
+Despertador
 ------
 
 \

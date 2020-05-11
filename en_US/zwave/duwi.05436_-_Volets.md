@@ -36,14 +36,14 @@ Its main features are :
 -   The ability to send a continuous up / down signal without
     time limit.
 
-Be careful: this module does not send its status to the z-wave controller when
+Attention: this module does not send its status to the z-wave controller when
 the user presses the buttons directly. You have to make a
 'Refresh 'on its position to update, or adjust the Poll (see
 further).
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -76,11 +76,11 @@ Technical characteristics
 
 -   Max load : 1800W (resistive), 460VA (inductive)
 
--   Fuse : T8AH
+-   Fuse: T8AH
 
 -   Frequency : 868.42 Mhz
 
--   Dimensions : 52 x 52 x 31mm
+-   Dimensions: 52 x 52 x 31mm
 
 -   Temperature range : 0 ° C / + 40 ° C
 
@@ -91,9 +91,9 @@ Module data
 
 \
 
--   Mark : Popp / Duwi
+-   Mark: Popp / Duwi
 
--   Name : ZW ESJ Blind Control
+-   Name: ZW ESJ Blind Control
 
 -   Manufacturer ID : 100
 
@@ -103,25 +103,25 @@ Module data
 
 \
 
-Connection 
+Connection
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put the module in inclusion mode, press three times
 > on the ascent or descent. Exclusion is done the same way.
@@ -136,16 +136,16 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
-![Commands](images/duwi.05436/4-Commands.PNG)
+![Commands](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -153,17 +153,17 @@ Here is the list of commands :
 
 \
 
--   State : this is the current position of the shutter, in percentage from 0 to 99
+-   State: this is the current position of the shutter, in percentage from 0 to 99
 
--   Go down : command to descend completely
+-   Go down: command to descend completely
 
--   Ascend : command to mount completely
+-   Ascend: command to mount completely
 
--   STOP : immediate movement stop
+-   STOP: immediate movement stop
 
 -   Refresh : refresh the current state of the module
 
--   Level : slider to position a partial opening
+-   Level: slider to position a partial opening
 
 \
 
@@ -216,7 +216,7 @@ Parameter details :
 -   0 : Running Time :
 
 These are the rise and fall times. You should find your
-learning.
+apprentissage.
 
 Coding is done by two pairs of bytes : the first for the climb
 and the second for the descent.
@@ -224,7 +224,7 @@ and the second for the descent.
 The values are coded in hexadecimal in the module and reset
 decimal in Jeedom display.
 
-For example : for 4626, this gives in hexadecimal : 0x1212. Either 0x12
+For example : for 4626, this gives in hexadecimal :0x1212 Either 0x12
 for ascent and 0x12 for descent. Or, brought back again in
 decimal : 18s for ascent and descent.
 
@@ -232,15 +232,15 @@ To note : forcing a value to zero for this parameter will imply that the
 module will switch on ascent or descent without time limit. It will take
 then send a 'Stop' to interrupt.
 
--   1 : Stop-functionnality : Enabled or Disabled :
+-   1 : Stop-functionnality: Enabled or Disabled :
 
 Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction
-opposite.
+opposé.
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -249,7 +249,7 @@ find your Z-Wave controller.
 
 \
 
-![Groupe](images/duwi.05436/6-Groups.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \
 
@@ -281,7 +281,7 @@ Good to know
 
 > **Tip**
 >
-> The "Store \ _2 \ _IMG" Widget used on the "Status" info command. This
+> The "Store\_2\_IMG" Widget used on the "Status" info command. This
 > widget is nice because it shows 'partially open' states'.
 
 **@Theduck38**

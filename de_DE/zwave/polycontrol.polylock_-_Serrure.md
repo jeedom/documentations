@@ -1,4 +1,4 @@
-PolyLock 
+PolyLock
 ========
 
 \
@@ -25,7 +25,7 @@ Zusammenfassung
  
 
 Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
-Poly-Control !
+Poly-Control!
 
 Das elektronische Poly-Lock-Schloss ist so konzipiert, dass es sich fast anpasst
 alle Türen der Welt. Es lässt sich sehr leicht in 5 montieren
@@ -51,7 +51,7 @@ Batteriewechsel.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -61,7 +61,7 @@ Funktionen
 -   Passend für die meisten Türen
 
 -   Kann beispielsweise für ein System in Z-Wave-Szenen integriert werden
-    Alarm
+    d'alarme
 
 -   Geeignet für den privaten oder geschäftlichen Gebrauch
 
@@ -76,16 +76,16 @@ Technische Daten
 
 \
 
--   Versorgung : 3,6 V Lithium-Chlorid-Batterie
+-   Versorgung: 3,6 V Lithium-Chlorid-Batterie
 
 -   Frequenz : 868,42 MHz
 
 -   Geltungsbereich : bis zu 100 m im Freien, bis zu 30 m in
     Gebäude
 
--   Abmessungen : 120 x 52 x 60 mm (L x B x H)
+-   Abmessungen: 120 x 52 x 60 mm (L x B x H)
 
--   Gewicht : 370 g
+-   Gewicht: 370g
 
 \
 
@@ -94,9 +94,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Poly-Control
+-   Machen Sie: Poly-Control
 
--   Name : PolyLock
+-   Name: Polylock
 
 -   Hersteller ID : 270
 
@@ -106,18 +106,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste 1 Mal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -136,12 +136,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -153,14 +153,14 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Status : Es ist der Befehl, der die letzte Aktion ausführt
+-   Status: Es ist der Befehl, der die letzte Aktion ausführt
     ausgeführt (öffnen / schließen)
 
--   Öffnen : Es ist der Befehl, der das Schloss öffnet
+-   Öffnen: Es ist der Befehl, der das Schloss öffnet
 
--   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
+-   Schließen: Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -168,7 +168,7 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Warnung**
+> **Warning**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -217,7 +217,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -256,7 +256,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -265,7 +265,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul gibt seinen Status nicht zurück, wenn Sie die Sperre am
 > Andererseits bleibt der Zustand derselbe. \

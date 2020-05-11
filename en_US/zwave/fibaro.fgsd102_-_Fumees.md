@@ -30,12 +30,12 @@ Multicolor RGB LEDs and an integrated siren. The large format of the
 grid can detect the smallest amount of smoke so
 get a quick reaction. It will thus very easily find its
 place in your home to preserve the security of the whole
-family.
+famille.
 
 The Fibaro FGSD-002 smoke detector is an Alarm Detector
 Autonomous Smoke (DAAF) compliant with standard EN 14604:2005. Good
 that autonomous, it is also communicating thanks to Z-Wave technology
-More.
+Plus.
 
 Some materials burn without smoking. This is why the engineers at
 Fibaro have decided to include additional protection in their
@@ -50,7 +50,7 @@ high efficiency, regardless of what burns.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -87,7 +87,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 3V CR123A Lithium Battery
+-   Food: 3V CR123A Lithium Battery
 
 -   Battery life : 3 years
 
@@ -95,7 +95,7 @@ Technical characteristics
 
 -   Transmission distance : 50m free field, 30m indoors
 
--   Dimensions : 65 x 28 mm (diameter x height)
+-   Dimensions: 65 x 28 mm (diameter x height)
 
 -   Operating temperature : 0-55 ° C
 
@@ -110,9 +110,9 @@ Technical characteristics
 
 -   Measurement accuracy : 0.5 ° C (in a range of 0 to 55 ° C)
 
--   Standards : EMC 2004/108 / EC and R & TTE 199/5 / WE
+-   Standards: EMC 2004/108 / EC and R & TTE 199/5 / WE
 
--   Certifications : EN 14604:2005
+-   Certifications: EN 14604:2005
 
 \
 
@@ -121,9 +121,9 @@ Module data
 
 \
 
--   Mark : Fibar Group
+-   Mark: Fibar Group
 
--   Name : Fibaro Smoke Sensor FGSD-002
+-   Name: Fibaro Smoke Sensor FGSD-002
 
 -   Manufacturer ID : 271
 
@@ -133,18 +133,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > central inclusion button, according to its paper documentation.
@@ -163,12 +163,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -185,7 +185,7 @@ Here is the list of commands :
 
 -   Temperature : it is the temperature measurement command
 
--   Sabotage : this is the sabotage command. It signals the opening
+-   Sabotage: this is the sabotage command. It signals the opening
     of the case
 
 -   Test alert : it is the command which will bring up the fact that the module
@@ -194,7 +194,7 @@ Here is the list of commands :
 -   Heat alert : it is the control which will raise a heat alert
     (not reliable yet)
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -202,10 +202,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -234,13 +234,13 @@ Parameter details :
 
 \
 
--   Wakeup : this is the module wake-up interval (value
+-   Wakeup: this is the module wake-up interval (value
     recommended 21600)
 
 -   1: adjusts the sensitivity of smoke detection
 
 -   2: allows you to choose which notifications will be sent to Jeedom
-    (advice : all)
+    (advice: toutes)
 
 -   3: allows you to choose which notifications will be accompanied by a
     visual indication
@@ -250,11 +250,11 @@ Parameter details :
     the module will ring)
 
 -   10: don't change this setting unless you know what you
-    do
+    faites
 
--   11: Same
+-   11: idem
 
--   12: Same
+-   12: idem
 
 -   13: allows to notify other zwave modules (to deactivate unless
     you know why you activate it)
@@ -272,7 +272,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -302,7 +302,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -330,7 +330,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

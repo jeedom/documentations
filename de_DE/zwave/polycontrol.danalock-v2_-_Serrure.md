@@ -25,7 +25,7 @@ Zusammenfassung
  
 
 **Sichern Sie Ihr Zuhause mit dem elektronischen Schloss Z-Wave von
-Poly-Control !**
+Poly-Control!**
 
 Keine Schlüssel mehr, verwenden Sie Ihr Smartphone zum Sperren und
 Schließ deine Tür auf ! Danalock ist eine neue Lösung, die
@@ -62,7 +62,7 @@ Sperren und entsperren Sie mit der Taste, der TwistAssist-Funktion oder
 mit Ihrem Smartphone. Und mit der Auto-Unlock-Funktion,
 Das Danalock-Schloss entriegelt automatisch die Tür, wenn Sie
 nähere dich deinem Haus und schließe es gleich ab, nachdem du es bist
-zurückgegeben.
+rentré.
 
 **Lange Akkulaufzeit**
 
@@ -95,7 +95,7 @@ Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
 Bluetooth und Z-Wave. Ein diskretes dänisches Design für die Ewigkeit.
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -136,17 +136,17 @@ Technische Daten
 
 \
 
--   Versorgung : 4 CR123 3V Batterien
+-   Versorgung: 4 CR123 3V Batterien
 
--   Versionen : V2
+-   Versionen: V2
 
 -   Material : Massives eloxiertes Aluminium
 
--   Kommunikation : Bluetooth und Z-Wave
+-   Kommunikation: Bluetooth und Z-Wave
 
--   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
+-   Abmessungen: 79 mm x 49 mm (Durchmesser x Höhe)
 
--   Gewicht : 363 g
+-   Gewicht: 363g
 
 \
 
@@ -155,9 +155,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Poly-Control
+-   Machen Sie: Poly-Control
 
--   Name : Danalock V2 BTZE
+-   Name: Danalock V2 BTZE
 
 -   Hersteller ID : 010e
 
@@ -167,18 +167,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
 
@@ -189,7 +189,7 @@ sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
 und klicken Sie auf das Symbol "Zwave Network"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
+1](images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
 \
 
@@ -197,11 +197,11 @@ Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜ
 SICHER (INKLUSION)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
+2](images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wir gehen davon aus, dass Sie die Anwendung installiert haben
 > Ihr Smartphone oder iPhone und erstellt ein Konto. Wenn es nicht schon ist
@@ -224,12 +224,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -241,14 +241,14 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Status : Es ist der Befehl, der die letzte Aktion ausführt
+-   Status: Es ist der Befehl, der die letzte Aktion ausführt
     ausgeführt (öffnen / schließen)
 
--   Öffnen : Es ist der Befehl, der das Schloss öffnet
+-   Öffnen: Es ist der Befehl, der das Schloss öffnet
 
--   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
+-   Schließen: Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -256,7 +256,7 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Warnung**
+> **Warning**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -290,7 +290,7 @@ Parameterdetails :
 
 -   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
     gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
-    gesperrt
+    verrouillé
 
 -   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
     schneller
@@ -332,7 +332,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -353,7 +353,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie.
 > Dies bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Er
@@ -362,7 +362,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul gibt seinen Status zurück, wenn Sie das Schloss von Hand bedienen
 > Der Status wird aktualisiert. \
@@ -375,7 +375,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

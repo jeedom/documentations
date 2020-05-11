@@ -1,4 +1,4 @@
-PolyLock 
+PolyLock
 ========
 
 \
@@ -25,7 +25,7 @@ Resumen
  
 
 Asegure su hogar con la cerradura electrónica Z-Wave de
-Poly-Control !
+Poly-Control!
 
 La cerradura electrónica Poly-Lock está diseñada para adaptarse a casi
 todas las puertas del mundo. Se monta muy fácilmente en 5
@@ -51,7 +51,7 @@ reemplazo de la batería.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -61,7 +61,7 @@ Funciones
 -   Se adapta a la mayoría de las puertas
 
 -   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema
-    alarma
+    d'alarme
 
 -   Adecuado para uso doméstico o comercial
 
@@ -76,16 +76,16 @@ Características técnicas
 
 \
 
--   Suministro : Batería de cloruro de litio de 3.6V
+-   Suministro: Batería de cloruro de litio de 3.6V
 
 -   Frecuencia : 868.42 Mhz
 
 -   Alcance : hasta 100 m en exteriores, hasta 30 m en
     edificios
 
--   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
+-   Dimensiones: 120 x 52 x 60 mm (largo x ancho x alto)
 
--   Peso : 370g
+-   Peso: 370g
 
 \
 
@@ -94,9 +94,9 @@ Datos del módulo
 
 \
 
--   Hacer : Poly-Control
+-   Hacer: Poly-Control
 
--   Nombre : PolyLock
+-   Nombre: Polylock
 
 -   ID del fabricante : 270
 
@@ -106,18 +106,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 1 vez
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -136,12 +136,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -153,14 +153,14 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : es el comando que subirá la última acción
+-   Estado: es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
 
--   Abrir : es el comando que abre la cerradura
+-   Abrir: es el comando que abre la cerradura
 
--   Cerca : es el comando que hace posible cerrar la cerradura
+-   Cerca: es el comando que hace posible cerrar la cerradura
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -168,7 +168,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Advertencia**
+> **Warning**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -217,7 +217,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -256,7 +256,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -265,7 +265,7 @@ Bueno saber
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Este módulo no devuelve su estado, si opera el bloqueo en el
 > mano el estado seguirá siendo el mismo. \

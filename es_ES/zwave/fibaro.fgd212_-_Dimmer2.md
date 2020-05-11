@@ -47,7 +47,7 @@ consumo instantáneo (en W) y consumo eléctrico total
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -63,7 +63,7 @@ Funciones
 -   Integra el chip de la serie Z-Wave 500
 
 -   Comunicación 250% más rápida en comparación con los dispositivos Z-Wave
-    Estándar
+    standard
 
 -   Detección automática de carga
 
@@ -101,9 +101,9 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230V +/- 10%, 50Hz
+-   Suministro: 230V +/- 10%, 50Hz
 
--   El consumo : 1.3W
+-   El consumo: 1.3W
 
 -   Cableado : neutral no requerido
 
@@ -121,14 +121,14 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones : 42.5 x 38.25 x 20.3 mm
+-   Dimensiones: 42.5 x 38.25 x 20.3 mm
 
 -   Temperatura de funcionamiento : 0-35 ° C
 
--   Temperatura límite : 105 ° C
+-   Temperatura límite : 105°C
 
--   Normas : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5 / CE
+-   Normas: RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
+    1999/5/EC
 
 \
 
@@ -137,9 +137,9 @@ Datos del módulo
 
 \
 
--   Hacer : Grupo Fibar
+-   Hacer: Grupo Fibar
 
--   Nombre : FGD212 Dimmer 2
+-   Nombre: FGD212 Dimmer 2
 
 -   ID del fabricante : 271
 
@@ -149,18 +149,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel. Si el
@@ -173,7 +173,7 @@ inclusión refiérase a esto
 
 \
 
-> **Punta**
+> **Tip**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos viajes de ida y vuelta en el interruptor o
@@ -189,12 +189,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponible.
+disponibles.
 
 \
 
@@ -206,24 +206,24 @@ Aquí está la lista de comandos :
 
 \
 
--   Intensidad : Este es el comando que le permite ajustar la intensidad de la
+-   Intensidad: Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno : Es el control que enciende la luz
+-   Uno: Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz
+-   Apagado: Es el comando que apaga la luz
 
--   Estado : Es el comando que permite conocer el estado de la
+-   Estado: Es el comando que permite conocer el estado de la
     Iluminación
 
--   El consumo : Es el comando que permite subir el
+-   El consumo: Es el comando que permite subir el
     consumo de módulo
 
--   Potencia : Es el comando que permite elevar el poder
+-   Potencia: Es el comando que permite elevar el poder
     módulo instantáneo
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -266,7 +266,7 @@ Ser redactado
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -288,7 +288,7 @@ Bueno saber
 
 \
 
-> **Depositar**
+> **Caution**
 >
 > El parámetro más importante de la configuración es 20. Se
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado
@@ -310,7 +310,7 @@ interruptor puede presionar su interruptor varias veces
 
 \
 
-Despertador 
+Despertador
 ------
 
 \

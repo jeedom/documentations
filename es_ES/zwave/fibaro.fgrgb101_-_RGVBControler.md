@@ -33,13 +33,13 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   4 salidas de dimmer (PWM) para controlar :
 
--   \ * es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
+-   \* es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 
--   \ * o 4 canales de LED blancos 12 / 24V
+-   \* o 4 canales de LED blancos 12 / 24V
 
--   \ * o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
+-   \* o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
 
--   \ * o ventiladores 12 / 24V.
+-   \* o ventiladores 12 / 24V.
 
 -   Requiere fuente de alimentación separada de 12 / 24V.
 
@@ -49,7 +49,7 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 \
 
-Funciones 
+Funciones
 ---------
 
 -   Ordene luces de bajo voltaje 12 / 24V (halógeno o LED)
@@ -69,23 +69,23 @@ Funciones
 Características técnicas 
 ---------------------------
 
--   Suministro : 12 V o 24 V CC
+-   Suministro: 12 V o 24 V CC
 
 -   Máxima potencia de salida :
 
--   \ * 12A en total (suma de todos los canales),
+-   \* 12A en total (suma de todos los canales),
 
--   \ * 6A máx. por canal
+-   \* 6A máx. por canal
 
 -   Máxima potencia con lámparas halógenas :
 
--   \ * 12V - 144W en total (todos los canales),
+-   \* 12V - 144W en total (todos los canales),
 
--   \ * 24V - 288W en total (todos los canales)
+-   \* 24V - 288W en total (todos los canales)
 
 -   Frecuencia de modulación PWM : 244 Hz
 
--   El consumo : 0.3W
+-   El consumo: 0,3W
 
 -   Protocolo de radio : Onda Z a 868,4 MHz (UE)
 
@@ -95,7 +95,7 @@ Características técnicas
 
 -   Para instalar en cajas : Ø≥50 mm
 
--   Dimensiones : 42 x 37 x 17 mm
+-   Dimensiones: 42 x 37 x 17 mm
 
 -   Normas europeas : EMC 2004/108 / EC R & TTE 199/5 / WE
 
@@ -106,9 +106,9 @@ Características técnicas
 Datos del módulo 
 -----------------
 
--   Hacer : Grupo Fibar
+-   Hacer: Grupo Fibar
 
--   Nombre : Fibaro FGRGB-101 RGBW
+-   Nombre: Fibaro FGRGB-101 RGBW
 
 -   ID del fabricante : 271
 
@@ -118,16 +118,16 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -146,10 +146,10 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -161,21 +161,21 @@ disponible.
 
 Aquí está la lista de comandos :
 
--   Color : Es el comando que permite configurar el código de color para
-    Mostrar
+-   Color: Es el comando que permite configurar el código de color para
+    afficher
 
 -   Chimenea : Es el comando que simula una atmósfera de
     Chimenea
 
--   Tormenta : Este es el comando que simula una atmósfera de tormenta
+-   Tormenta: Este es el comando que simula una atmósfera de tormenta
 
--   Alba : Este es el comando que simula una atmósfera de Aude
+-   Alba: Este es el comando que simula una atmósfera de Aude
     (amanecer progresivo)
 
--   Desvanecimiento : Este es el comando que simula todo
+-   Desvanecimiento: Este es el comando que simula todo
     espectro de color
 
--   RBB : Este es el comando que simula una atmósfera de policía
+-   RBB: Este es el comando que simula una atmósfera de policía
 
 -   Blanco frio : Este es el comando que simula tener un
     color blanco frío, si la tira de color lo permite. (este
@@ -185,16 +185,16 @@ Aquí está la lista de comandos :
     color blanco cálido, si la tira de colores lo permite. (este
     el comando no es visible por defecto)
 
--   Uno : Este es el comando que activa la tira en el
+-   Uno: Este es el comando que activa la tira en el
     último color elige antes
 
--   Apagado : Este es el comando que apaga el banner
+-   Apagado: Este es el comando que apaga el banner
 
--   Intensidad : Es el comando que permite ajustar la intensidad
-    brillante
+-   Intensidad: Es el comando que permite ajustar la intensidad
+    lumineuse
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-Icono
+icone
 
 \
 
@@ -226,7 +226,7 @@ siendo traducido al francés.
 
 \
 
-### Grupos 
+### Grupos
 
 Este módulo tiene cinco grupos de asociación, solo el quinto es
 indispensable.
@@ -244,7 +244,7 @@ Uso de sensores de 0-10 V.
 
 \
 
-> **Depositar**
+> **Caution**
 >
 > Por ahora, la configuración predeterminada de jeedom no lo permite
 > no, pero se puede considerar una configuración específica.
@@ -257,7 +257,7 @@ Uso de sensores de 0-10 V.
 
 \
 
-Despertador 
+Despertador
 ------
 
 No hay noción de activación en este módulo.

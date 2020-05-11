@@ -36,7 +36,7 @@ double-sided on the back of the plate.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -58,7 +58,7 @@ Technical characteristics
 
 \
 
--   Food : CR2032 battery - Autonomy 1,5 - 2 years
+-   Food: CR2032 battery - Autonomy 1,5 - 2 years
 
 -   4 buttons
 
@@ -66,14 +66,14 @@ Technical characteristics
 
 -   Operating temperature : 0 ° C to 40 ° C
 
--   Altitude : 2000m
+-   Altitude: 2000m
 
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave compatible
     Plus® SDK 06.51.06
 
 -   Scope : 40m indoors / 70m outdoors
 
--   Dimensions : 80 \*80 \*15mm
+-   Dimensions: 80 \*80 \*15mm
 
 -   2 years warranty
 
@@ -94,9 +94,9 @@ Module data
 
 \
 
--   Mark : Nodon
+-   Mark: Nodon
 
--   Name : CWS-3-1-01 Wall Switch
+-   Name: CWS-3-1-01 Wall Switch
 
 -   Manufacturer ID : 357
 
@@ -106,18 +106,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the two
 > button (1 and 2) until the light turns pink then press
@@ -137,12 +137,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the modules will be
-available.
+disponibles.
 
 \
 
@@ -154,10 +154,10 @@ Here is the list of commands :
 
 \
 
--   Buttons : it is the command which will push the button up
+-   Buttons: it is the command which will push the button up
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Buttons        | Support          | Long press     | Relaxation    | Double support   |
+| Buttons       | Support         | Long press     | Relaxation   | Double support   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -174,10 +174,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -204,18 +204,18 @@ Parameter details :
 
 \
 
--   1-2 : Allows you to choose the profile of the buttons when used in
+-   1-2: Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
 
 -   3 : Important parameter to say if the switch should work
     in Scene or Central Scene mode (Absolutely set Scene)
 
--   4-7 : Choose the button operating mode (in case
+-   4-7: Choose the button operating mode (in case
     group associations)
 
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groups 
+### Groups
 
 \
 
@@ -241,7 +241,7 @@ This module has 7 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -260,7 +260,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -284,7 +284,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

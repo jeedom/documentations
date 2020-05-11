@@ -35,7 +35,7 @@ Haga clic en nuevo y complete los campos a continuación :
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Haga clic en Aceptar \ * Haga clic en Inicio
+-   Haga clic en Aceptar \* Haga clic en Inicio
 
 ## Instalación de Debian 9
 
@@ -78,7 +78,7 @@ ip -s -c -h a
 
 Su dirección IP, escriba 192.168.0.XX aparece en rojo. Solo ingrésalo en tu navegador.
 
-> **Advertencia**
+> **Warning**
 >
 > Si esto no funciona, no ha configurado su tarjeta de red como Puente de red como se indica al inicio.
 

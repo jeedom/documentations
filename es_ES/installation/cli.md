@@ -2,11 +2,11 @@
 
 Aquí encontrará la documentación para instalar Jeedom en la mayoría de los sistemas Linux (probado y aprobado en la distribución Debian)
 
-> **Importante**
+> **Important**
 >
 > Debian 10 (Buster) es la distribución oficialmente compatible para la versión 3.3.X o más Jeedom (pero Stretch sigue siendo perfectamente funcional). Si no tiene un comando mínimo de entornos Linux, le recomendamos que comience con un Smart.
 
-> **Importante**
+> **Important**
 >
 > La secuencia de comandos de instalación puede ser peligrosa porque supone que su sistema está en blanco. De lo contrario, lea el guión e instálelo a mano.
 
@@ -20,11 +20,11 @@ chmod +x install.sh
 
 Entonces solo ve a ``IP_JEEDOM`` desde su navegador de internet.
 
-> **Nota**
+> **Note**
 >
 > Las credenciales predeterminadas son admin / admin
 
-> **Nota**
+> **Note**
 >
 > Se pueden usar los siguientes argumentos : -w = carpeta del servidor web -z = dependencias de instalación z-wave -m = contraseña de root mysql deseada
 

@@ -32,7 +32,7 @@ o caída rápida de temperatura.
 Está equipado con un sensor de inclinación que envía una alerta
 inmediatamente a la red Z-Wave si el detector es movido o robado
 (retroalimenta al controlador Z-Wave la inclinación o
-movimiento).
+mouvement).
 
 Este detector universal de inundación y temperatura puede ser alimentado
 por batería o por una fuente de alimentación externa de 12 o 24 VCC. Cuando es
@@ -41,7 +41,7 @@ poder de emergencia.
 
 Gracias a su sensor de temperatura puedes controlar la temperatura de
 tu suelo. Es resistente al agua, en caso de inundación flota sobre la superficie de
-agua.
+l'eau.
 
 También tiene una alarma de sirena que puede sonar en caso de
 problema. Puede conectar la salida de contacto seco a un sistema
@@ -53,7 +53,7 @@ asegura el correcto funcionamiento del sensor durante su instalación.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Duración de la batería : 2 años
 
--   Consumo en fuente de alimentación externa : 0.4W
+-   Consumo en fuente de alimentación externa : 0,4W
 
 -   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
 
@@ -95,7 +95,7 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensiones : 72 x 28 mm (diámetro x altura)
+-   Dimensiones: 72 x 28 mm (diámetro x altura)
 
 -   Temperatura de funcionamiento : 0-40 ° C (-20 ° C a 70 ° C si
     fuente de alimentación externa)
@@ -104,7 +104,7 @@ Características técnicas
 
 -   Precisión de medición : 0.5 ° C (en un rango de 0 a 40 ° C)
 
--   Normas : EMC 2004/108 / EC y R & TTE 199/5 / WE
+-   Normas: EMC 2004/108 / EC y R & TTE 199/5 / WE
 
 \
 
@@ -113,11 +113,11 @@ Datos del módulo
 
 \
 
--   Hacer : Grupo Fibar
+-   Hacer: Grupo Fibar
 
 -   Modelo : Sensor de inundación FGFS101
 
--   Fabricante : Sistema FIBARO
+-   Fabricante: Sistema FIBARO
 
 -   ID del fabricante : 271
 
@@ -127,18 +127,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión central, TMP identificado, de acuerdo con su documentación
@@ -158,12 +158,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -175,15 +175,15 @@ Aquí está la lista de comandos :
 
 \
 
--   Fuga : este es el comando de alerta del módulo (para la presencia
+-   Fuga: este es el comando de alerta del módulo (para la presencia
     agua, inundaciones ...)
 
 -   Temperatura : es el comando de medición de temperatura
 
--   Sabotaje : este es el comando de sabotaje. Señala la apertura
+-   Sabotaje: este es el comando de sabotaje. Señala la apertura
     del caso
 
--   Batería : es el comando de la batería
+-   Batería: es el comando de la batería
 
 \
 
@@ -191,10 +191,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -223,14 +223,14 @@ Detalles del parámetro :
 
 \
 
--   Despertador : este es el intervalo de activación del módulo (valor
+-   Despertador: este es el intervalo de activación del módulo (valor
     recomendado 21600)
 
 -   1 \. Retraso de cancelación de alarma después de la detección de una inundación :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     se detiene al instante)
 
--   2 \. Elección del tipo de alarma. Valor :
+-   2 \. Elección del tipo de alarma. Valor:
 
         0 : Alarma audible y visual desactivada
         1 : Alarma sonora desactivada y alarma visual activada
@@ -240,7 +240,7 @@ Detalles del parámetro :
 -   10 \. Tiempo de transferencia entre dos lecturas de temperatura : 1 a 65,535 s
     (300 por defecto). Tenga cuidado de no poner un valor de arrastre también
     muy juntos bajo pena de ver la batería del módulo derretirse
-    velocidad ! (Se recomienda 1800)
+    velocidad! (Se recomienda 1800)
 
 -   12 \. Diferencia de temperatura entre dos informes : de 1 a 1000 (50 por defecto
     = 0.5 °). De acuerdo con el parámetro 10, también es posible
@@ -264,7 +264,7 @@ Detalles del parámetro :
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -289,7 +289,7 @@ El cableado para una fuente de alimentación externa. \
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -317,7 +317,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -25,7 +25,7 @@ In addition, interaction with other protocols is possible, it can
 interact with the Edisio brand receptors, with Jeedom, but
 also by any Z-Wave receiver on your network.
 
-Functions 
+Functions
 =========
 
 -   Mode of use : Lighting, Dimmer
@@ -39,9 +39,9 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (CR2032 Lithium Battery)
+-   Food: 3VDC (CR2032 Lithium Battery)
 
--   Canals : 1
+-   Canals: 1
 
 -   Radio protocol : 868.3 MHz
 
@@ -49,7 +49,7 @@ Technical characteristics
 
 -   Operating temperature : -10 ° C + 50 ° C
 
--   Dimensions : 65x18mm
+-   Dimensions: 65x18mm
 
 -   Degree of protection : IP64
 
@@ -58,9 +58,9 @@ Technical characteristics
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark: Edisio Smart Home
 
--   Name : ETC1
+-   Name: ETC1
 
 -   Reference : P01 / Y01 / L01
 
@@ -69,9 +69,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -104,7 +104,7 @@ Once, your associated equipment, you should get this :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Commands 
+Commands
 ---------
 
 Once your equipment is created, you should get the orders
@@ -114,35 +114,35 @@ associated with the module :
 
 Here is the list of commands :
 
--   bt01 : It is the command that allows you to interact with button 1
+-   bt01: It is the command that allows you to interact with button 1
 
--   Drums : Indicates the battery status
+-   Drums: Indicates the battery status
 
-Information 
+Information
 ------------
 
 Once your equipment is associated with Jeedom, various information will be
-available :
+available:
 
 ![Commands](images/etc1/etc1.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
+-   Communication: Indicates the last communication recorded between
     Jeedom and the micro-module
 
--   Drums : Indicates the battery status of the battery modules
+-   Drums: Indicates the battery status of the battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS: Returns the status of the module
 
-Use 
+Use
 -----------
 
 Once your remote control is configured, you can with the
 Jeedom Scenario plugin, interact with your remote control on Jeedom
 and its equipment.
 
-> **NOTE**
+> **Note**
 >
 > The remote control with binary status feedback.
 

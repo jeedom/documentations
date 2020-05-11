@@ -25,7 +25,7 @@ Summary
  
 
 **Secure your home using the Z-Wave electronic lock from
-Poly-Control !**
+Poly-Control!**
 
 No more keys, use your smartphone to lock and
 unlock your door ! Danalock is a new solution that
@@ -62,7 +62,7 @@ Lock and unlock with the button, the TwistAssist function or
 using your smartphone. And with the auto-unlock function,
 Danalock lock automatically unlocks the door when you
 approach your house and lock it right after you are
-returns.
+rentré.
 
 **Long battery life**
 
@@ -95,7 +95,7 @@ solid anodized aluminum bezel and advanced technologies
 Bluetooth and Z-Wave. A discreet Danish design built to last.
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -136,17 +136,17 @@ Technical characteristics
 
 \
 
--   Food : 4 CR123 3V batteries
+-   Food: 4 CR123 3V batteries
 
--   Versions : V2
+-   Versions: V2
 
 -   Material : Solid anodized aluminum
 
--   Communication : Bluetooth and Z-Wave
+-   Communication: Bluetooth and Z-Wave
 
--   Dimensions : 79 mm x 49 mm (diameter x height)
+-   Dimensions: 79 mm x 49 mm (diameter x height)
 
--   Weight : 363g
+-   Weight: 363g
 
 \
 
@@ -155,9 +155,9 @@ Module data
 
 \
 
--   Mark : Poly-Control
+-   Mark: Poly-Control
 
--   Name : Danalock V2 BTZE
+-   Name: Danalock V2 BTZE
 
 -   Manufacturer ID : 010e
 
@@ -167,18 +167,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > It is essential to include this module in secure mode..
 
@@ -189,7 +189,7 @@ secure : just go to the Z-wave module management page
 and click on the icon "Zwave Network"
 
 ![inclusion securise jeedom
-1] (images / polycontrol.danalock / inclusion-securise-jeedom-1.jpg)
+1](images / polycontrol.danalock / inclusion-securise-jeedom-1.jpg)
 
 \
 
@@ -197,11 +197,11 @@ Then in the "Actions" tab click on : "ADD MODULE IN MODE
 SECURE (INCLUSION)"
 
 ![inclusion securise jeedom
-2] (images / polycontrol.danalock / inclusion-securise-jeedom-2.jpg)
+2](images / polycontrol.danalock / inclusion-securise-jeedom-2.jpg)
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > We assume that you have installed the application on
 > your smartphone or iphone and created an account. If it is not already
@@ -224,12 +224,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -241,14 +241,14 @@ Here is the list of commands :
 
 \
 
--   Status : it is the command which will go up the last action
+-   Status: it is the command which will go up the last action
     executed (open / close)
 
--   Open : it is the command which opens the lock
+-   Open: it is the command which opens the lock
 
--   To close : it is the command which makes it possible to close the lock
+-   To close: it is the command which makes it possible to close the lock
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -290,7 +290,7 @@ Parameter details :
 
 -   1 : Direction 0-1 : 0 = Motor goes clockwise
     locked, 1 = Motor goes counterclockwise when
-    Locked
+    verrouillé
 
 -   2 : Speed 1 = slowest, 2 = slow, 3 = Normal, 4 = Fast, 5 = the
     faster
@@ -332,7 +332,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -375,7 +375,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \

@@ -36,7 +36,7 @@ doppelseitig auf der Rückseite der Platte.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -58,7 +58,7 @@ Technische Daten
 
 \
 
--   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
+-   Versorgung: CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
 -   4 Tasten
 
@@ -66,14 +66,14 @@ Technische Daten
 
 -   Betriebstemperatur : 0 ° C bis 40 ° C
 
--   Höhe : 2000m
+-   Höhe: 2000m
 
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
     Plus® SDK 06.51.06
 
 -   Geltungsbereich : 40 m drinnen / 70 m draußen
 
--   Abmessungen : 80 \*80 \*15mm
+-   Abmessungen: 80 \*80 \*15mm
 
 -   2 Jahre Garantie
 
@@ -94,9 +94,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Nicken
+-   Machen Sie: Nodon
 
--   Name : CWS-3-1-01 Wandschalter
+-   Name: CWS-3-1-01 Wandschalter
 
 -   Hersteller ID : 357
 
@@ -106,18 +106,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die beiden Tasten, um dieses Modul in den Einschlussmodus zu versetzen
 > Taste (1 und 2) drücken, bis das Licht rosa wird, dann drücken
@@ -137,12 +137,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -154,10 +154,10 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
+-   Tasten: Es ist der Befehl, der den Knopf nach oben drückt
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
+| Tasten       | Unterstützung         | Lange drücken     | Entspannung   | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -174,10 +174,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -204,18 +204,18 @@ Parameterdetails :
 
 \
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
+-   1-2: Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
 
 -   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
     im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
+-   4-7: Wählen Sie die Tastenbetriebsart (falls vorhanden)
     Gruppenverbände)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -241,7 +241,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in Gruppe 1 landen
 
@@ -260,7 +260,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -284,7 +284,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

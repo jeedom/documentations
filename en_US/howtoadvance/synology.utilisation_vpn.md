@@ -22,7 +22,7 @@ Choose the option Enable L2TP / IPsec VPN server
 
 In Dynamic IP Address, enter a number that will correspond to the sub
 network for assigning the IPs of your devices in VPN on the internal network
-from your place. NB : do not choose the same thing as the
+from your place. NB: do not choose the same thing as the
 default subnet of your box ex at free the subnet of
 machines is 192.168.1.0 so in the example we put 2
 

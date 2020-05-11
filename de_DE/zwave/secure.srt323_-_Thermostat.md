@@ -57,7 +57,7 @@ PC zur Hand und mit dem Internet verbunden.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -87,11 +87,11 @@ Technische Daten
 
 -   Integrierter TPI-Algorithmus
 
--   Relais: 3 (1) A 230V AC
+-   Relai: 3 (1) A 230V AC
 
 -   Einstellbarer Temperaturbereich: 5 ° C bis 30 ° C
 
--   Versorgung : 2x AAA-Batterien (LR3)
+-   Versorgung: 2x AAA-Batterien (LR3)
 
 -   Akkulaufzeit : 2 Jahre
 
@@ -103,7 +103,7 @@ Technische Daten
 
 -   Betriebstemperatur : 0 ° C bis 40 ° C
 
--   Abmessungen : 86 x 86 x 36,25 mm
+-   Abmessungen: 86 x 86 x 36,25 mm
 
 \
 
@@ -112,9 +112,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Horstmann
+-   Machen Sie: Horstmann
 
--   Name : SRT 323 Elektronischer Raumthermostat und Temperatur
+-   Name: SRT 323 Elektronischer Raumthermostat und Temperatur
 
 -   Hersteller ID : 89
 
@@ -124,18 +124,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, müssen Sie Schalter 1 einschalten
 > Stellen Sie dann mit der Wählscheibe L auf ON und drücken Sie die Wählscheibe,
@@ -147,7 +147,7 @@ Aufnahme beziehen sich darauf
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Modul ist bei der Aufnahme schwierig. Während einer ersten Aufnahme
 > Wecken Sie das Modul immer sofort nach der Aufnahme auf. Um dies zu tun
@@ -168,12 +168,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -187,14 +187,14 @@ Hier ist die Liste der Befehle :
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Staat : Es ist der Befehl, der die aktuelle Anweisung gibt
+-   Staat: Es ist der Befehl, der die aktuelle Anweisung gibt
 
--   Anleitung : Es ist der Befehl, mit dem der Sollwert eingestellt werden kann
+-   Anleitung: Es ist der Befehl, mit dem der Sollwert eingestellt werden kann
 
 -   Heizzustand : es ist der Befehl, der es ermöglicht zu wissen, ob die
     Thermostat ist im Heizmodus oder nicht
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -234,7 +234,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -256,7 +256,7 @@ Gut zu wissen
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Modul ist batteriebetrieben. Es ist also wichtig, das zu beachten
 > Eine Änderung des Sollwerts wird erst beim Aufwachen berücksichtigt. Von
@@ -266,7 +266,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -293,7 +293,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

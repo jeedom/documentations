@@ -35,7 +35,7 @@ configure the Z-Wave network.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -63,17 +63,17 @@ Technical characteristics
 
 -   Type of module : Z-Wave controller
 
--   Color : White
+-   Color: Blanc
 
--   Food : internal rechargeable battery via USB
+-   Food: internal rechargeable battery via USB
 
--   Viewing: Blue and red LED
+-   Affichage: Blue and red LED
 
--   Frequency : 868.42MHz
+-   Frequency : 868,42MHz
 
 -   Scope : up to 30 m
 
--   Dimensions : 0.8cm x 3.3cm x 9.3cm
+-   Dimensions: 0.8cm x 3.3cm x 9.3cm
 
 -   Operating temperature : -35 to +85 ° C
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : Aeotec
+-   Mark: Aeotec
 
--   Name : Minimote
+-   Name: Minimote
 
 -   Manufacturer ID : 134
 
@@ -96,18 +96,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper documentation.
@@ -126,12 +126,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -143,7 +143,7 @@ Here is the list of commands :
 
 \
 
--   Buttons : it is the command which will push the button up
+-   Buttons: it is the command which will push the button up
 
 1 : Button 1 short press
 
@@ -167,10 +167,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -210,7 +210,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -230,7 +230,7 @@ Good to know
 
 ### Specificities 
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -260,7 +260,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

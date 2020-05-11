@@ -39,7 +39,7 @@ SES002 and SES003.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -66,10 +66,10 @@ Technical characteristics
 
 -   Type: Electronic timer
 
--   Relay: 13 (3) A, 230V AC, suitable for loads up to
+-   Relais: 13 (3) A, 230V AC, suitable for loads up to
     3kW
 
--   Food: 230V AC, 50Hz
+-   Alimentation: 230V AC, 50Hz
 
 -   Dimensions 85x85x44mm
 
@@ -84,9 +84,9 @@ Module data
 
 \
 
--   Mark : Horstmann
+-   Mark: Horstmann
 
--   Name : SIR 321 RF Countdown Timer
+-   Name: SIR 321 RF Countdown Timer
 
 -   Manufacturer ID : 89
 
@@ -95,18 +95,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press 1 second on
 > the button (until rapid flashing) and release, in accordance with
@@ -126,12 +126,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -143,9 +143,9 @@ Here is the list of commands :
 
 \
 
--   We : this is the command to turn on the relay
+-   We: this is the command to turn on the relay
 
--   Off : it is the command to switch off the relay
+-   Off: it is the command to switch off the relay
 
 -   Temperature : this is the temperature measurement command if a
     external probe is present
@@ -194,7 +194,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 

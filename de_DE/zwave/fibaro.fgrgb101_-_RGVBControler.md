@@ -35,11 +35,11 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 
--   \ * oder 4 Kanäle mit weißen LEDs 12 / 24V
+-   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
 
--   \ * oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
+-   \* oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
 
--   \ * oder 12 / 24V-Lüfter.
+-   \* oder 12 / 24V-Lüfter.
 
 -   Benötigt separate 12 / 24V Stromversorgung.
 
@@ -49,7 +49,7 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 -   Bestellen Sie Niederspannungslichter 12 / 24V (Halogen oder LED)
@@ -69,23 +69,23 @@ Funktionen
 Technische Daten 
 ---------------------------
 
--   Versorgung : 12 V oder 24 V DC
+-   Versorgung: 12 V oder 24 V DC
 
 -   Maximale Ausgangsleistung :
 
--   \ * 12A insgesamt (Addition aller Kanäle),
+-   \* 12A insgesamt (Addition aller Kanäle),
 
--   \ * 6A max. pro Kanal
+-   \* 6A max. pro Kanal
 
 -   Maximale Leistung mit Halogenlampen :
 
--   \ * 12V - 144W insgesamt (alle Kanäle),
+-   \* 12V - 144W insgesamt (alle Kanäle),
 
--   \ * 24V - 288W insgesamt (alle Kanäle)
+-   \* 24V - 288W insgesamt (alle Kanäle)
 
 -   PWM-Modulationsfrequenz : 244 Hz
 
--   Verbrauch : 0,3 W
+-   Verbrauch: 0,3W
 
 -   Funkprotokoll : Z-Wave bei 868,4 MHz (EU)
 
@@ -95,7 +95,7 @@ Technische Daten
 
 -   Zur Installation in Boxen : Ø ≥ 50 mm
 
--   Abmessungen : 42 x 37 x 17 mm
+-   Abmessungen: 42 x 37 x 17 mm
 
 -   Europäische Standards : EMV 2004/108 / EG R & TTE 199/5 / WE
 
@@ -106,9 +106,9 @@ Technische Daten
 Moduldaten 
 -----------------
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro FGRGB-101 RGBW
+-   Name: Fibaro FGRGB-101 RGBW
 
 -   Hersteller ID : 271
 
@@ -118,16 +118,16 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -146,10 +146,10 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -161,21 +161,21 @@ verfügbar.
 
 Hier ist die Liste der Befehle :
 
--   Farbe : Mit diesem Befehl können Sie den Farbcode auf einstellen
-    Anzeige
+-   Farbe: Mit diesem Befehl können Sie den Farbcode auf einstellen
+    afficher
 
 -   Schornstein : Es ist der Befehl, der eine Atmosphäre von simuliert
     Schornstein
 
--   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
+-   Gewitter: Dies ist der Befehl, der eine Sturmatmosphäre simuliert
 
--   Morgendämmerung : Dies ist der Befehl, der eine Aude-Atmosphäre simuliert
+-   Morgendämmerung: Dies ist der Befehl, der eine Aude-Atmosphäre simuliert
     (progressiver Sonnenaufgang)
 
--   Verblassen : Dies ist der Befehl, der das gesamte simuliert
+-   Verblassen: Dies ist der Befehl, der das gesamte simuliert
     Farbspektrum
 
--   RBB : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
+-   RBB: Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
 
 -   Kaltes Weiß : Dies ist der Befehl, der simuliert, dass a
     kühle weiße Farbe, wenn der Farbstreifen es erlaubt. (das
@@ -185,16 +185,16 @@ Hier ist die Liste der Befehle :
     warmweiße Farbe, wenn der Farbstreifen dies zulässt. (das
     Befehl ist standardmäßig nicht sichtbar)
 
--   Ein : Dies ist der Befehl, der den Streifen auf dem Bildschirm einschaltet
+-   Ein: Dies ist der Befehl, der den Streifen auf dem Bildschirm einschaltet
     letzte Farbe wählt vor
 
--   Aus : Dies ist der Befehl, der das Banner ausschaltet
+-   Aus: Dies ist der Befehl, der das Banner ausschaltet
 
--   Intensität : Mit diesem Befehl können Sie die Intensität einstellen
-    hell
+-   Intensität: Mit diesem Befehl können Sie die Intensität einstellen
+    lumineuse
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-Symbol
+icone
 
 \
 
@@ -226,10 +226,10 @@ ins Französische übersetzt werden.
 
 \
 
-### Gruppen 
+### Gruppen
 
 Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -244,7 +244,7 @@ Verwendung von 0-10V Sensoren.
 
 \
 
-> **Kaution**
+> **Caution**
 >
 > Die Standardkonfiguration von jeedom erlaubt dies derzeit nicht
 > nicht, aber eine bestimmte Konfiguration kann berücksichtigt werden.
@@ -257,7 +257,7 @@ Verwendung von 0-10V Sensoren.
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

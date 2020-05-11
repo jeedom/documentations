@@ -19,7 +19,7 @@ Jeedom ofrece un servicio con suscripción automática de respaldo en la nube pr
 
 Material requerido : una llave USB (mínimo 8GB).
 
->**Nota**
+>**Note**
 >
 >Recuerde reservar (localmente) una copia de seguridad de configuración de Jeedom
 
@@ -31,10 +31,10 @@ Material requerido : una llave USB (mínimo 8GB).
 - reiniciar el Smart
 - espere unos 30 minutos, caja no accesible **NO DESCONECTE**
 - encuentra tu Smart en la red
-- reconectarse con el inicio de sesión : administrador y contraseña : Administración
+- reconectarse con el inicio de sesión : administrador y contraseña : admin
 
-> **Importante**
+> **Important**
 >
-> Atención ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si tiene una copia de seguridad de su configuración de Jeedom, solo necesita restaurarla después.
+> Atención! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Si tiene una copia de seguridad de su configuración de Jeedom, solo necesita restaurarla después.
 
 Este modo de recuperación solo es compatible con Jeedom Smart.

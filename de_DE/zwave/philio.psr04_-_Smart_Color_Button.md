@@ -7,7 +7,7 @@ Philio Smart Farbknopf
 
 \
 
-![Modul](images/philio.psr04/Modul.jpg)
+![Modul](images/philio.psr04/module.jpg)
 
 \
 
@@ -51,7 +51,7 @@ Niedriger Energieverbrauch für mehr Autonomie.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -64,7 +64,7 @@ Funktionen
 
 -   Integrierte Timerfunktion
 
--   Wasserdicht
+-   Etanche
 
 -   Passt sich jedem Dekorationsstil an
 
@@ -87,10 +87,10 @@ Technische Daten
 
 \
 
--   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v
+-   Versorgung: Lithium Polymer 3 Batterie.7 V, 220 mA v
     die Batterie : 6 Monate für 2 Stunden aufladen
 
--   Standby-Verbrauch : 18 uA
+-   Standby-Verbrauch : 18µA
 
 -   Verbrauch in Betrieb : 45mA
 
@@ -98,11 +98,11 @@ Technische Daten
 
 -   Übertragungsentfernung : 100 m draußen, 40 m drinnen
 
--   Abmessungen :
+-   Abmessungen:
 
-Unterstützung : 71,16 x 10,94 mm (Durchmesser x Dicke) Taste : 59,99 x 14,89
+Unterstützung: 71,16 x 10,94 mm (Durchmesser x Dicke) Taste : 59,99 x 14,89
 mm (Durchmesser x Dicke) Unterstützung + Taste : 71,16 x 17,22 mm (Durchmesser
-x Dicke) \ * Zertifizierungen :
+x Dicke) \* Zertifizierungen :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Teil 15 B, FCC Teil 15 C
@@ -114,9 +114,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Philio
+-   Machen Sie: Philio
 
--   Name : PSR04 Smart Color Button
+-   Name: PSR04 Smart Color Button
 
 -   Hersteller ID : 316
 
@@ -126,18 +126,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, bringen Sie es in Position
 > niedrig (Einschluss) und drücken Sie die Taste entsprechend seiner
@@ -157,12 +157,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -174,11 +174,11 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
+-   Zustand: Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
     100%
 
--   Batterie : Dies ist der Befehl, der den Batteriestatus des
-    Modul
+-   Batterie: Dies ist der Befehl, der den Batteriestatus des
+    module
 
 \
 
@@ -186,10 +186,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -231,7 +231,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -261,7 +261,7 @@ Durch Hinzufügen von Jeedom zu Gruppe 2 kann die Position des erhalten werden
 Schaltfläche und verwenden Sie es daher, um ein Szenario zu steuern (setzen Sie a
 Volumen zum Beispiel)
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -289,7 +289,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

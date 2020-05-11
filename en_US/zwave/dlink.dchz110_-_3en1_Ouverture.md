@@ -47,7 +47,7 @@ already an existing network.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -60,7 +60,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection
+-   Autoprotection
 
 -   Low battery indication
 
@@ -82,7 +82,7 @@ Other technical link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-techniques] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
+techniques](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -91,12 +91,12 @@ Module data
 
 \
 
--   Mark : D-Link
+-   Mark: D-Link
 
 -   Model : DCH-Z110 Door and window opening detector
     mydlink ™ Home
 
--   Maker : FIBARO System
+-   Maker: FIBARO System
 
 -   Manufacturer ID : 264 \ [0x0108 \]
 
@@ -106,18 +106,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > Do not install the module on the window / door before having it
 > correctly configured, and pay attention to the alignment of
@@ -141,12 +141,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -158,18 +158,18 @@ Here is the list of commands :
 
 \
 
--   Opening : it is the command which will raise a detection
-    opening
+-   Opening: it is the command which will raise a detection
+    d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : it is the command which makes it possible to raise the brightness
+-   Brightness: it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in
+-   Sabotage: this is the sabotage command (it is triggered in
     tearing out)
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -177,7 +177,7 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion, or a modification, save then
 > always wake up the module by pressing the association button.
@@ -246,19 +246,19 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report
+    rapport
 
 -   22: value in% of variation of brightness to trigger
     a report. Recommended value : 10
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has two association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -283,7 +283,7 @@ Alternative visual
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -318,7 +318,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

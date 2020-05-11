@@ -42,7 +42,7 @@ qué controlador Z-Wave en su red.
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -76,9 +76,9 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Suministro : 230 V, 50 Hz
+-   Suministro: 230 V, 50 Hz
 
--   El consumo : 0.5W
+-   El consumo: 0.5W
 
 -   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
     : Bombilla fluorescente compacta de 1200 vatios : 320W
@@ -87,9 +87,9 @@ Características técnicas
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Visualización: LED en el botón
+-   Affichage: LED en el botón
 
--   Dimensiones : 42 mm x 43 mm x 16 mm
+-   Dimensiones: 42 mm x 43 mm x 16 mm
 
 \
 
@@ -98,9 +98,9 @@ Datos del módulo
 
 \
 
--   Hacer : Smarthome por everspring
+-   Hacer: Smarthome por everspring
 
--   Nombre : En pared encendido apagado
+-   Nombre: En pared encendido apagado
 
 -   ID del fabricante : 96
 
@@ -110,18 +110,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
@@ -142,12 +142,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -159,11 +159,11 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : Es el control que enciende la luz
+-   Uno: Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz
+-   Apagado: Es el comando que apaga la luz
 
--   Estado : Es el comando que permite conocer el estado de la
+-   Estado: Es el comando que permite conocer el estado de la
     Iluminación
 
 \
@@ -212,7 +212,7 @@ Detalles del parámetro :
 -   4 : Este parámetro define el tipo
     interruptor (push / biestable)
 
-### Grupos 
+### Grupos
 
 \
 
@@ -224,7 +224,7 @@ Este módulo tiene 2 grupos de asociación.
 
 \
 
-> **Importante**
+> **Important**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -238,7 +238,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos \
+   segundos \
 
 ### Visual alternativo 
 
@@ -263,7 +263,7 @@ Faq.
 \
 
 Sí, es el parámetro 2 y no se puede establecer por debajo de 3
-segundos.
+secondes.
 
 \
 

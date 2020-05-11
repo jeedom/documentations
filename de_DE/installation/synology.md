@@ -16,7 +16,7 @@ Warten Sie, bis die Installation abgeschlossen ist :
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> **Wichtig**
+> **Important**
 >
 > Um auf das Docker-Paket zugreifen zu können, benötigen Sie DSM 5.2 und ein kompatibles NAS
 
@@ -82,10 +82,10 @@ Aktivieren Sie "Diesen Container ausführen, wenn der Assistent fertig ist" und 
 > - APACHE_PORT : Ermöglicht das Ändern des Standardports (80) zum Abhören des Webservers
 > - MODE_HOST : zeigt an, dass sich das Netzwerk im Host-Modus befindet
 
-> **Wichtig**
+> **IMPORTANT**
 >
 > Für bestimmte Plugins muss das Netzwerk gesendet werden (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Netzwerk wechseln (nur während der Erstellung möglich), den Standard-Listening-Port des Webservers ändern und ssh über nicht verwendete Ports (geben Sie 9080 für den Webserver und 9022 für den ssh ein) und setzen Sie die Variable MODE_HOST auf 1
 
-Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP \ _NAS:9080
+Jetzt müssen Sie Jeedom installieren, es ist sehr einfach, gehen Sie zu IP\_NAS:9080
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

@@ -5,7 +5,7 @@ Jeedom en una VM (VMware ESXi). De hecho, si no lo pasas
 Modo GSM solo la clave no aparecerá en la lista de
 Dispositivos USB que puede pasar a la VM.
 
-> **Importante**
+> **Important**
 >
 > Este tutorial se realizó en Windows 10
 
@@ -15,7 +15,7 @@ Instalación del controlador
 Una vez que la clave está conectada a una PC con Windows 10, debe tener un
 nueva unidad de CD-ROM. Tienes que hacer doble clic en él e instalar el
 software propuesto (no hay nada que cambiar, solo haga todo
-largo).
+long).
 
 ![gsmonly](images/gsmonly.PNG)
 
@@ -34,7 +34,7 @@ Descarga de masilla
 =======================
 
 Luego descarga masilla
-[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) y
+[aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
 iniciar el archivo descargado
 
 Configuración de masilla y cambio al modo GSM solamente 
@@ -52,7 +52,7 @@ en la tecla "Enter"" :
 
     AT ^ u2diag = 0
 
-> **Importante**
+> **Important**
 >
 > Tenga cuidado cuando escriba el texto, no verá nada en
 > la pantalla es normal, el texto aún se tiene en cuenta.

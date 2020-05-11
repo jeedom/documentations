@@ -29,7 +29,7 @@ movement, opening detection, temperature sensor and detector
 brightness. It consists of two parts : a detector and a magnet.
 They are designed to be placed on a door or window with
 the magnet fixed on the part which opens and the detector on the part
-fixed.
+fixe.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
@@ -41,7 +41,7 @@ alerts when detecting changes in radiation levels
 infrared or door / window opening. If a person moves in
 the detector's field of vision or opens a door / window, a signal
 radio is transmitted, which triggers an alarm to deter
-intruder.
+intrus.
 
 The detector can also be used in combination with a
 Z-Wave controller for home automation uses, by detecting both
@@ -56,7 +56,7 @@ opening / closing are detected. A Z-Wave controller (remote control,
 dongle…) is necessary in order to integrate this detector into your network
 if you already have an existing network. \
 
-Functions 
+Functions
 ---------
 
 \
@@ -75,7 +75,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Self-protection
+-   Autoprotection
 
 -   Low battery indication
 
@@ -92,7 +92,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 
--   Food : 1 CR123A 3V battery
+-   Food: 1 CR123A 3V battery
 
 -   Battery life : 2 years
 
@@ -108,13 +108,13 @@ Technical characteristics
 
 -   PIR detection range : 8 to 10m
 
--   Dimensions :
+-   Dimensions:
 
 -   Detector : 28 x 96 x 23 mm
 
--   Magnet : 10 x 50 x 12 mm
+-   Magnet: 10 x 50 x 12 mm
 
--   Weight : 52g
+-   Weight: 52g
 
 -   Operating temperature : -10 to 40 ° C
 
@@ -131,9 +131,9 @@ Module data
 
 \
 
--   Mark : Philio Technology Corporation
+-   Mark: Philio Technology Corporation
 
--   Name : PST02-A 4 in 1 Multi-Sensor
+-   Name: PST02-A 4 in 1 Multi-Sensor
 
 -   Manufacturer ID : 316
 
@@ -143,18 +143,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -173,12 +173,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -192,18 +192,18 @@ Here is the list of commands :
 
 -   Presence : it is the command which will detect a presence detection
 
--   Opening : it is the command which will raise a detection
-    opening
+-   Opening: it is the command which will raise a detection
+    d'ouverture
 
 -   Temperature : it is the command which allows to go up the
     Temperature
 
--   Brightness : it is the command which makes it possible to raise the brightness
+-   Brightness: it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in
+-   Sabotage: this is the sabotage command (it is triggered in
     tearing out)
 
--   Drums : it's the battery command
+-   Drums: it's the battery command
 
 \
 
@@ -211,10 +211,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -287,19 +287,19 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    Report
+    rapport
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has two association groups, only the first is
-essential.
+indispensable.
 
 \
 
@@ -320,7 +320,7 @@ Good to know
 
 \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -350,7 +350,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

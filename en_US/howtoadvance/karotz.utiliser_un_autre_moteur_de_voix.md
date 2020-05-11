@@ -11,7 +11,7 @@ Go to / www / cgi-bin / and edit the tts file.inc, add a
 function (example for Jeedom) :
 
     jeedomTTS function {
-       TTS = $ 1
+       TTS=$1
        MD5FILE = $ (echo "$ TTS" | md5sum | cut -d '' -f 1)
        eval $ (echo "curl -A '$ {UA}' -o $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 'http://TODO/core/api/tts.php?apikey = TODO & text = $ {TTS} '") >> / dev / null 2 >> / dev / null
        echo $ (echo "$ RAW_TTS" | UrlDecode)> $ CNF_DATADIR / Tmp / $ {MD5FILE} .txt
@@ -32,7 +32,7 @@ Then edit the tts file and add :
 
     3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
 
-In the "box \ $ TTS \ _ENGINE in" to have :
+In the "box \ $ TTS\_ENGINE in" to have :
 
      box $ TTS_ENGINE in
                  1) MP3_ID = $ (GoogleTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
@@ -41,7 +41,7 @@ In the "box \ $ TTS \ _ENGINE in" to have :
                  *) MP3_ID = $ (AcapelaTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE $ MUTE) ;;
     esac
 
-Use 
+Use
 ===========
 
 You just need to call the url giving the gear number (here 3) :

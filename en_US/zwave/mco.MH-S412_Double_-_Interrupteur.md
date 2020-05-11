@@ -35,7 +35,7 @@ lighting or an electrical appliance.
 The switch is also equipped with an LED indicator that indicates its
 state. \
 
-Functions 
+Functions
 ---------
 
 \
@@ -66,9 +66,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Color : White
+-   Color: Blanc
 
--   Food : 230 V, 50 Hz
+-   Food: 230 V, 50 Hz
 
 -   Wiring : 3 wire, neutral required
 
@@ -78,9 +78,9 @@ Technical characteristics
 
 -   Scope : up to 30 m
 
--   Dimensions : 86 x 86 x 43 mm
+-   Dimensions: 86 x 86 x 43 mm
 
--   Viewing: Blue / red LED
+-   Affichage: Blue / red LED
 
 \
 
@@ -89,9 +89,9 @@ Module data
 
 \
 
--   Mark : MC HOME
+-   Mark: MC HOME
 
--   Name : MH-S412 Double
+-   Name: MH-S412 Double
 
 -   Manufacturer ID : 351
 
@@ -101,18 +101,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press only one
 > 2 buttons on the front panel for 3 sec, in accordance with its
@@ -126,12 +126,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -168,12 +168,12 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
 This module has 3 association groups. Only the third is
-essential.
+indispensable.
 
 \
 
@@ -199,7 +199,7 @@ is unmanned
 4 \) this switch can control its load in autonomous mode (not
 attached to a z-wave controller)
 
-Wakeup 
+Wakeup
 ------
 
 \

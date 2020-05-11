@@ -28,7 +28,7 @@ Der Fibaro-Bewegungsmelder ist ein Z-Wave-Multifunktionsdetektor.
 Neben der Bewegungserkennung misst dieses Gerät die
 Temperatur und Lichtintensität. Dieser Detektor enthält auch a
 eingebauter Beschleunigungsmesser, um jeden Versuch zu erkennen, die zu ändern
-Gerät.
+dispositif.
 
 Der Fibaro-Bewegungsmelder ist batteriebetrieben und ausgelegt
 schnell und einfach auf jedem zu installieren
@@ -41,7 +41,7 @@ und Überwachungs- und / oder Sicherheitssysteme.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -78,13 +78,13 @@ Technische Daten
 
 -   Modultyp : Z-Wave + Sender
 
--   Versorgung : CR123A 3,6VDC Batterie
+-   Versorgung: CR123A 3,6VDC Batterie
 
--   Empfohlene Höhe für die Installation : 2,4 m
+-   Empfohlene Höhe für die Installation : 2,4m
 
 -   Gemessener Temperaturbereich : -20 ° C bis 100 ° C
 
--   Messgenauigkeit : 0,5 ° C
+-   Messgenauigkeit : 0,5°C
 
 -   Helligkeitsmessbereich : 0-32000 LUX
 
@@ -92,11 +92,11 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 4,4 cm Durchmesser
+-   Dimensions: 4,4 cm Durchmesser
 
 -   Betriebstemperatur : 0-40 ° C
 
--   Zertifizierungen : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
+-   Zertifizierungen: LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
 \
@@ -106,9 +106,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro FGMS-001-ZW5 \ [Bewegungssensor \]
+-   Name: Fibaro FGMS-001-ZW5 \ [Bewegungssensor \]
 
 -   Hersteller ID : 271
 
@@ -118,18 +118,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -149,7 +149,7 @@ Dropdown-Liste sollten Sie diese bekommen :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
@@ -172,15 +172,15 @@ Hier ist die Liste der Befehle :
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
 
--   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
+-   Helligkeit: Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Seismisch : Es ist der Befehl, mit dem die Intensität erhöht werden kann
-    Seismisch
+-   Seismisch: Es ist der Befehl, mit dem die Intensität erhöht werden kann
+    sismique
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
+-   Sabotage: Dies ist der Sabotagebefehl (er wird für den Fall ausgelöst
     Vibration)
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -188,10 +188,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -224,7 +224,7 @@ Parameterdetails :
 
 \
 
--   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
+-   Aufwachen: Dies ist das Modul-Aufweckintervall (Wert
     7200 empfohlen)
 
 -   1: Stellt die Empfindlichkeit des Anwesenheitssensors ein
@@ -298,11 +298,11 @@ Parameterdetails :
     (verknüpft mit Parameter 81)
 
 -   89: Ermöglicht es der LED, bei blau / weiß / rot zu blinken
-    Sabotage
+    sabotage
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -310,7 +310,7 @@ Parameterdetails :
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul hat fünf Zuordnungsgruppen
 > Controller auf 1, 4 und 5 und entfernen Sie die 3.
@@ -343,13 +343,13 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und sehr schlecht konfiguriert
-> Fabrik. Es ist wichtig, es nach der Aufnahme gut aufzuwecken
+>Fabrik Es ist wichtig, es nach der Aufnahme gut aufzuwecken
 > (mehrmals sind besser als eins), um es nach Ihren Wünschen zu konfigurieren
 > wünscht, und es gut aufzuwecken, damit die Konfiguration berücksichtigt wird
-> Konto.
+>Konto
 
 \
 
@@ -361,7 +361,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -398,7 +398,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

@@ -35,7 +35,7 @@ Beleuchtung oder ein Elektrogerät.
 Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seine Anzeige anzeigt
 Zustand. \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -66,9 +66,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Farbe : Weiß
+-   Farbe: Blanc
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
 -   Verkabelung : 3 Draht, Neutralleiter erforderlich
 
@@ -78,9 +78,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 30 m
 
--   Abmessungen : 86 x 86 x 43 mm
+-   Abmessungen: 86 x 86 x 43 mm
 
--   Anzeigen: Blaue / rote LED
+-   Affichage: Blaue / rote LED
 
 \
 
@@ -89,9 +89,9 @@ Moduldaten
 
 \
 
--   Machen Sie : MC HOME
+-   Machen Sie: MC HOME
 
--   Name : MH-S412 Double
+-   Name: MH-S412 Double
 
 -   Hersteller ID : 351
 
@@ -101,18 +101,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie nur eine
 > 2 Tasten auf der Vorderseite für 3 Sekunden, entsprechend seiner
@@ -126,12 +126,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -168,12 +168,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -199,7 +199,7 @@ ist unbemannt
 4 \) Dieser Schalter kann seine Last im autonomen Modus steuern (nicht
 an einen Z-Wave-Controller angeschlossen)
 
-Aufwachen 
+Aufwachen
 ------
 
 \

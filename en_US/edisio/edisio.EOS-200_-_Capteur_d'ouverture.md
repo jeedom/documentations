@@ -22,7 +22,7 @@ magnetic element. Integrated LED indicator signals any changes
 state. Low battery level indicated by 3 audible "beeps" on the
 receiver
 
-Functions 
+Functions
 =========
 
 -   Wireless magnetic sensor powered by batteries
@@ -46,7 +46,7 @@ Technical characteristics
 
 -   Type of module : Edisio transmitter
 
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food: 3VDC (Lithium Battery ER14250)
 
 -   Frequency : 868.3 MHz
 
@@ -54,27 +54,27 @@ Technical characteristics
 
 -   Range in free field : 100M
 
--   Dimensions : 25x79x19mm
+-   Dimensions: 25x79x19mm
 
 -   Degree of protection : IP20
 
--   Use : Indoors
+-   Use: Indoors
 
 Module data 
 =================
 
--   Mark : Edisio Smart Home
+-   Mark: Edisio Smart Home
 
--   Name : EOS-200
+-   Name: EOS-200
 
 General configuration 
 ======================
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
 
-> **IMPORTANT**
+> **Important**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -87,14 +87,14 @@ Temperature sensor.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Setup 
+Setup
 -------------
 
 By default, the sensor is configured in NO (Normally Open)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **NOTE**
+> **Note**
 >
 > You will therefore have to configure your sensor, if you wish to have a
 > widget with a door closed when it is closed.
@@ -119,7 +119,7 @@ Once your equipment is paired, you should get this :
 > So that the widget is present on the dashboard, remember to place
 > your equipment in an object.
 
-Commands 
+Commands
 ---------
 
 Once your equipment is created, you should get the orders
@@ -129,27 +129,27 @@ associated with the module :
 
 Here is the list of commands :
 
--   Door : It is the command which indicates whether the door is open or
+-   Door: It is the command which indicates whether the door is open or
     closed
 
--   Drums : Indicates the battery status
+-   Drums: Indicates the battery status
 
-Information 
+Information
 ------------
 
 Once your equipment is associated with Jeedom, various information will be
-available :
+available:
 
 ![Commands](images/eos200/eos200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 
--   Communication : Indicates the last communication recorded between
+-   Communication: Indicates the last communication recorded between
     Jeedom and the module
 
--   Drums : Indicates the battery status of the battery modules
+-   Drums: Indicates the battery status of the battery modules
 
--   STATUS : Returns the status of the module
+-   STATUS: Returns the status of the module
 
 Alternative visual 
 =================

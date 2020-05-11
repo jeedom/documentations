@@ -10,7 +10,7 @@ Número de IVA intracomunitario : FR31810505784
 
 Presidente: ENOXA SAS
 
-## Contactar
+## Contact
 
 Puede comunicarse con nuestro servicio al cliente por correo electrónico a contact@jeedom.com
 

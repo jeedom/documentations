@@ -39,7 +39,7 @@ wer hat sein Abzeichen benutzt.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -68,9 +68,9 @@ Technische Daten
 
 \
 
--   Typ : Z-Wave-Slave
+-   Typ: Z-Wave-Slave
 
--   Versorgung : 2x AA 1,5V Batterien
+-   Versorgung: 2x AA 1,5V Batterien
 
 -   Frequenz : 868.42 MHz
 
@@ -78,7 +78,7 @@ Technische Daten
 
 -   RFID-Protokoll : ISO15693, ISO18000-3, Tag-it ™, RFID
 
--   Summer : 60 dBa in 10 cm Entfernung
+-   Summer: 60 dBa in 10 cm Entfernung
 
 -   Lagertemperatur : -5 ° C bis + 65 ° C
 
@@ -88,9 +88,9 @@ Technische Daten
 
 -   Betriebsfeuchtigkeit : 30% bis 80%
 
--   Abmessungen : 62 x 62 x 20 mm
+-   Abmessungen: 62 x 62 x 20 mm
 
--   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
+-   Zertifizierungen: Sicherheit : UL EMC : FCC, CE RoHS
 
 \
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Zipato
+-   Machen Sie: Zipato
 
--   Name : Zipato Mini Keypad RFID
+-   Name: Zipato Mini Keypad RFID
 
 -   Hersteller ID : 151
 
@@ -111,18 +111,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie einfach zwei
 > Sekunden auf der Metalllasche (die rote LED auf der Vorderseite
@@ -143,12 +143,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -160,16 +160,16 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
+-   Aktion: Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
     für zu Hause)
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
+-   Sabotage: Dies ist der Sabotagebefehl (er wird ausgelöst in
     herausreißen)
 
--   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
+-   Code: Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
     ist nicht in einer der Erinnerungen
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -177,10 +177,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -221,7 +221,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -233,7 +233,7 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss
 > mindestens mit Gruppe 1 verbunden sein.
@@ -259,7 +259,7 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 \
 
 -   In dieser Tabelle können Sie die auf Ihrem Computer belegten Speicher anzeigen
-    Tastatur
+    clavier
 
 -   Um einen neuen Code zu registrieren, klicken Sie auf die grüne Schaltfläche auf der
     gewünschter Speicher und folgen Sie den Schritten
@@ -274,7 +274,7 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
@@ -322,7 +322,7 @@ Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -344,7 +344,7 @@ Faq.
 
 Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
 entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
-Geben Sie ein.
+Enter.
 
 \
 
@@ -358,7 +358,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufwachens, nach a

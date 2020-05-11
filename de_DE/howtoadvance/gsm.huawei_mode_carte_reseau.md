@@ -17,13 +17,13 @@ dann füge dies hinzu :
 
 > TargetProductList=“14db,14dc”
 
-> HuaweiNewMode = 1
+> HuaweiNewMode=1
 
-> NoDriverLoading = 1
+> NoDriverLoading=1
 
 Speichern Sie dann durch Drücken von Strg + x
 
-3.Starten Sie neu 
+3.Starten Sie neu
 =========
 
 > sudo neu starten

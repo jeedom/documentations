@@ -43,7 +43,7 @@ welcher Z-Wave-Controller in Ihrem Netzwerk.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -81,9 +81,9 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
--   Verbrauch : 0,5 W
+-   Verbrauch: 0.5W
 
 -   Maximale Leistung :
 
@@ -97,9 +97,9 @@ Technische Daten
 
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 
--   Anzeigen: LED auf der Taste
+-   Affichage: LED auf der Taste
 
--   Abmessungen : 42 mm x 43 mm x 16 mm
+-   Abmessungen: 42 mm x 43 mm x 16 mm
 
 \
 
@@ -108,9 +108,9 @@ Moduldaten
 
 \
 
--   Machen Sie : SmartHome von Everspring
+-   Machen Sie: SmartHome von Everspring
 
--   Name : Im Wanddimmer
+-   Name: Im Wanddimmer
 
 -   Hersteller ID : 96
 
@@ -120,18 +120,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
 > Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
@@ -152,12 +152,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -169,14 +169,14 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
+-   Intensität: Dies ist der Befehl zum Einstellen der Intensität des
     Licht
 
--   Ein : Es ist die Steuerung, die das Licht einschaltet
+-   Ein: Es ist die Steuerung, die das Licht einschaltet
 
--   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Aus: Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Licht
 
 \
@@ -228,7 +228,7 @@ Parameterdetails :
 -   5 : Dieser Parameter definiert, ob der Schalter in funktioniert
     Variationsmodus oder Ein / Aus-Modus
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -240,7 +240,7 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in Gruppe 1 landen
 
@@ -254,7 +254,7 @@ Gut zu wissen
 \
 
 -   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-    Sekunden. \
+   Sekunden \
 
 ### Alternative visuelle 
 
@@ -264,7 +264,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -279,7 +279,7 @@ Faq.
 \
 
 Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
-Sekunden.
+secondes.
 
 \
 

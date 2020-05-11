@@ -37,7 +37,7 @@ Z-Wave controller for your network.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -69,9 +69,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Food : 230 V, 50 Hz
+-   Food: 230 V, 50 Hz
 
--   Consumption : 0.6W
+-   Consumption: 0.6W
 
 -   Maximum power : Resistive load : 1500W, Incandescent bulb
     : 800W, Compact fluorescent bulb : 200W, Led bulb (not dimmable) :
@@ -81,9 +81,9 @@ Technical characteristics
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Viewing: LED on the button
+-   Affichage: LED on the button
 
--   Dimensions : Length (plug included) : 74mm Diameter : 52mm
+-   Dimensions: Length (plug included) : 74mm Diameter : 52mm
 
 \
 
@@ -92,9 +92,9 @@ Module data
 
 \
 
--   Mark : Everspring
+-   Mark: Everspring
 
--   Name : Miniplug On / Off
+-   Name: Miniplug On / Off
 
 -   Manufacturer ID : 96
 
@@ -104,18 +104,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
@@ -136,12 +136,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the modules will be
-available.
+disponibles.
 
 \
 
@@ -153,12 +153,12 @@ Here is the list of commands :
 
 \
 
--   State : It is the command which allows to know the status of the
+-   State: It is the command which allows to know the status of the
     socket (On / Off)
 
--   We : This is the command that turns on the outlet
+-   We: This is the command that turns on the outlet
 
--   Off : It is the command which makes it possible to extinguish the catch
+-   Off: It is the command which makes it possible to extinguish the catch
 
 \
 
@@ -203,7 +203,7 @@ Parameter details :
 -   3 : This parameter is used to define whether the socket will resume its status
     (ON or OFF) after a power recovery.
 
-### Groups 
+### Groups
 
 \
 
@@ -215,7 +215,7 @@ This module has 2 association groups.
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -229,9 +229,9 @@ Good to know
 \
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+   seconds \
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -246,7 +246,7 @@ Faq.
 \
 
 Yes it is parameter 2 and it cannot be set below 3
-seconds.
+secondes.
 
 \
 

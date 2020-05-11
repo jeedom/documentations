@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 - [Huawei GSM network mode](/en_US/howtoadvance/gsm.huawei_mode_carte_reseau)
 - [Huawei GSM modem mode](/en_US/howtoadvance/gsm.huawei_mode_modem)

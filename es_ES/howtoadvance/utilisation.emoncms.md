@@ -16,7 +16,7 @@ Enviar un valor de Jeedom a EmonCMS
 
 Para enviar un valor de Jeedom a EmonCMS, la solución más simple
 ya que está disponible de forma nativa es usar la URL Push de un
-Información
+information
 
 En Jeedom, puede acceder a la configuración avanzada haciendo clic en el
 rueda dentada a la derecha.
@@ -27,18 +27,18 @@ queremos llenar
 
 La url de empuje es de la forma :
 
-[https://serveur/emoncms/input/post.json?json = {poder:\#valor\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {poder:#valor#}& apikey = xxx)
+[https://serveur/emoncms/input/post.json?json = {poder:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {poder:#value#}& apikey = xxx)
 
 Con parámetros :
 
--   Identificación : la identificación del feed que se encuentra en emoncms
+-   Identificación: la identificación del feed que se encuentra en emoncms
 
--   apikey : La clave de API de lectura y escritura para emoncms
+-   apikey: La clave de API de lectura y escritura para emoncms
 
--   valor : debemos irnos *valor* para que Jeedom envíe el
+-   valor: debemos irnos *value* para que Jeedom envíe el
     valor de la información
 
--   poder : modificar para
+-   poder: modificar para
 
 Notificación a Jeedom o recuperación de Jeedom 
 ======================================================
@@ -49,9 +49,9 @@ Para tomar datos de emoncms en Jeedom, hay dos posibilidades
 -   El primero es crear una información a través del complemento de script en Jeedom
     y use la URL de API del feed. Este método requiere recuperación
     el valor regularmente o por escenario, por ejemplo y normalmente
-    no es útil porque los datos tienen su fuente en jeedom \ _setting
+    no es útil porque los datos tienen su fuente en jeedom\_setting
 
-        https://serveur/emoncms/feed/valor.json?Identificación=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
 
 -   La segunda posibilidad es usar el complemento Evento emoncms
     para desencadenar una acción en ciertas condiciones. Este metodo
@@ -98,8 +98,8 @@ conf especial necesita un repertorio clásico
            index index.php;
             try_files = $ uri $ uri / @missing;
 
-       ubicación ~ [^ /] \.php (/|$) {
-               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
+       ubicación ~ [^ /] \.php(/|$) {
+               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                incluir fastcgi_params;

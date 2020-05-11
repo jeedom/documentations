@@ -7,7 +7,7 @@ Philio Smart Color Button
 
 \
 
-![Module](images/philio.psr04/Module.jpg)
+![Module](images/philio.psr04/module.jpg)
 
 \
 
@@ -51,7 +51,7 @@ low energy consumption allowing greater autonomy.
 
 \
 
-Functions 
+Functions
 ---------
 
 \
@@ -64,7 +64,7 @@ Functions
 
 -   Integrated timer function
 
--   Waterproof
+-   Etanche
 
 -   Adapts to any decoration style
 
@@ -87,7 +87,7 @@ Technical characteristics
 
 \
 
--   Food : Lithium Polymer 3 Battery.7V, 220mA v
+-   Food: Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
 
 -   Standby consumption : 18µA
@@ -98,11 +98,11 @@ Technical characteristics
 
 -   Transmission distance : 100m outdoors, 40m indoors
 
--   Dimensions :
+-   Dimensions:
 
-Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
+Support: 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
 mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
-x thickness) \ * Certifications :
+x thickness) \* Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Part 15 B, FCC Part 15 C
@@ -114,9 +114,9 @@ Module data
 
 \
 
--   Mark : Philio
+-   Mark: Philio
 
--   Name : PSR04 Smart Color Button
+-   Name: PSR04 Smart Color Button
 
 -   Manufacturer ID : 316
 
@@ -126,18 +126,18 @@ Module data
 
 \
 
-Setup 
+Setup
 -------------
 
 \
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > To put this module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
@@ -157,12 +157,12 @@ Once included you should get this :
 
 \
 
-### Commands 
+### Commands
 
 \
 
 Once the module has been recognized, the commands associated with the module will be
-available.
+disponibles.
 
 \
 
@@ -174,11 +174,11 @@ Here is the list of commands :
 
 \
 
--   State : it is the command which will move the button position from 0 to
+-   State: it is the command which will move the button position from 0 to
     100%
 
--   Drums : this is the command that reports the battery status of the
-    Module
+-   Drums: this is the command that reports the battery status of the
+    module
 
 \
 
@@ -186,10 +186,10 @@ Here is the list of commands :
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > During a first inclusion always wake up the module just after
-> inclusion.
+>inclusion
 
 \
 
@@ -231,7 +231,7 @@ Parameter details :
 
 \
 
-### Groups 
+### Groups
 
 \
 
@@ -261,7 +261,7 @@ adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
 
-Wakeup 
+Wakeup
 ------
 
 \
@@ -289,7 +289,7 @@ Important note
 
 \
 
-> **IMPORTANT**
+> **Important**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -32,7 +32,7 @@ oder schneller Temperaturabfall.
 Es ist mit einem Neigungssensor ausgestattet, der einen Alarm sendet
 sofort zum Z-Wave-Netzwerk, wenn der Detektor bewegt oder gestohlen wird
 (gibt die Neigung oder Rückmeldung an den Z-Wave-Controller zurück
-Bewegung).
+mouvement).
 
 Dieser universelle Hochwasser- und Temperaturdetektor kann mit Strom versorgt werden
 durch Batterie oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
@@ -41,7 +41,7 @@ Notstromversorgung.
 
 Dank seines Temperatursensors können Sie die Temperatur von steuern
 dein Boden. Es ist wasserdicht, im Hochwasser schwimmt es auf der Oberfläche von
-Wasser.
+l'eau.
 
 Es hat auch einen Sirenenalarm, der im Falle von ertönen kann
 Problem. Sie können den Trockenkontaktausgang an ein System anschließen
@@ -53,7 +53,7 @@ stellt die korrekte Funktion des Sensors während seiner Installation sicher.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -85,7 +85,7 @@ Technische Daten
 
 -   Akkulaufzeit : 2 Jahre
 
--   Verbrauch an externer Stromversorgung : 0,4 W
+-   Verbrauch an externer Stromversorgung : 0,4W
 
 -   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
 
@@ -95,7 +95,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen : 72 x 28 mm (Durchmesser x Höhe)
+-   Abmessungen: 72 x 28 mm (Durchmesser x Höhe)
 
 -   Betriebstemperatur : 0-40 ° C (-20 ° C bis 70 ° C, wenn
     externe Stromversorgung)
@@ -104,7 +104,7 @@ Technische Daten
 
 -   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 40 ° C)
 
--   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
+-   Standards: EMC 2004/108 / EC und R & TTE 199/5 / WE
 
 \
 
@@ -113,11 +113,11 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
 -   Modell : Hochwassersensor FGFS101
 
--   Hersteller : FIBARO-System
+-   Hersteller: FIBARO-System
 
 -   Hersteller ID : 271
 
@@ -127,18 +127,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
@@ -158,12 +158,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -175,15 +175,15 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
+-   Leck: Dies ist der Modulalarmbefehl (für die Anwesenheit
     Wasser, Überschwemmungen ...)
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
--   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
+-   Sabotage: Dies ist der Sabotagebefehl. Es signalisiert die Öffnung
     des Falles
 
--   Batterie : Es ist der Batteriebefehl
+-   Batterie: Es ist der Batteriebefehl
 
 \
 
@@ -191,10 +191,10 @@ Hier ist die Liste der Befehle :
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -223,14 +223,14 @@ Parameterdetails :
 
 \
 
--   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
+-   Aufwachen: Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
 
 -   1 \. Verzögerung der Alarmstornierung nach Erkennung einer Überschwemmung :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     stoppt sofort)
 
--   2 \. Wahl des Alarmtyps. Wert :
+-   2 \. Wahl des Alarmtyps. Wert:
 
         0 : Akustischer und optischer Alarm deaktiviert
         1 : Akustischer Alarm deaktiviert und visueller Alarm aktiviert
@@ -240,7 +240,7 @@ Parameterdetails :
 -   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : 1 bis 65.535 s
     (Standardmäßig 300). Achten Sie darauf, keinen Übertragswert zu setzen
     nahe beieinander unter der Strafe, dass die Batterie des Moduls überhaupt schmilzt
-    Geschwindigkeit ! (1800 wird empfohlen)
+    Geschwindigkeit! (1800 wird empfohlen)
 
 -   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (standardmäßig 50
     = 0,5 °). Gemäß Parameter 10 ist dies auch möglich
@@ -264,7 +264,7 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -289,7 +289,7 @@ Die Verkabelung für eine externe Stromversorgung. \
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -317,7 +317,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

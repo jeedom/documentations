@@ -28,16 +28,16 @@ El Octan Remote NodOn® le permite controlar cualquier receptor
 Compatible con Z-Wave® o Z-Wave Plus®, como la toma del control remoto
 NodOn® (modo de controlador principal - Independiente), o incluso disparador
 escenas / acciones a través de un sistema de automatización del hogar compatible (modo
-Puerta de enlace)
+Gateway)
 
 Su imán integrado permite su fijación en todas partes, desde el radiador hasta la puerta
 refrigerador, a través de su soporte de pared. Entre control remoto
 y cambia, el control remoto Octan revoluciona el control de objetos
-domestico
+domestiques
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -59,7 +59,7 @@ Características técnicas
 
 \
 
--   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
+-   Suministro: Batería CR2032 - Autonomía 1,5 - 2 años
 
 -   4 botones
 
@@ -73,7 +73,7 @@ Características técnicas
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
     Plus® SDK 06.51.01 Alcance: 40m interior / 80m exterior
 
--   Dimensiones : 80 \*80 \*15mm
+-   Dimensiones: 80 \*80 \*15mm
 
 -   2 años de garantia
 
@@ -84,9 +84,9 @@ Datos del módulo
 
 \
 
--   Hacer : Mediodía
+-   Hacer: Nodon
 
--   Nombre : CRC-3-1-00 Octan Remote
+-   Nombre: CRC-3-1-00 Octan Remote
 
 -   ID del fabricante : 357
 
@@ -96,18 +96,18 @@ Datos del módulo
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
@@ -127,12 +127,12 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
@@ -144,10 +144,10 @@ Aquí está la lista de comandos :
 
 \
 
--   Botones : es el comando que empujará el botón hacia arriba
+-   Botones: es el comando que empujará el botón hacia arriba
 
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
+| Botones       | Apoyo         | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -164,10 +164,10 @@ Aquí está la lista de comandos :
 
 \
 
-> **Importante**
+> **Important**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
-> inclusión.
+>inclusión
 
 \
 
@@ -194,18 +194,18 @@ Detalles del parámetro :
 
 \
 
--   1-2 : Le permite elegir los perfiles de botón cuando se usa en
+-   1-2: Le permite elegir los perfiles de botón cuando se usa en
     central (no es necesario para usar en Jeedom)
 
 -   3 : Parámetro importante para decir si el interruptor debería funcionar
     en el modo de escena o escena central (escena configurada absolutamente)
 
--   4-7 : Elija el modo de funcionamiento del botón (en caso de que
+-   4-7: Elija el modo de funcionamiento del botón (en caso de que
     asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Grupos 
+### Grupos
 
 \
 
@@ -231,7 +231,7 @@ Este módulo tiene 7 grupos de asociación.
 
 \
 
-> **Importante**
+> **Important**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -250,7 +250,7 @@ Bueno saber
 
 \
 
-Despertador 
+Despertador
 ------
 
 \
@@ -274,7 +274,7 @@ Nota importante
 
 \
 
-> **Importante**
+> **Important**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

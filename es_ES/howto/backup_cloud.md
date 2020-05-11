@@ -7,11 +7,11 @@ Una vez que se compra el servicio, debe estar en libertad :
   - [Copia de seguridad de la nube] Contraseña : contraseña de cifrado de respaldo. Tenga cuidado si lo pierde, las copias de seguridad se pierden, es imposible recuperar la contraseña
 - en la gestión de copias de seguridad, marque la casilla "Enviar copias de seguridad" en el nivel "Copias de seguridad del mercado""
 
->**Nota**
+>**NOTE**
 >
 >Es posible ver los archivos de copia de seguridad de Jeedom directamente desde su página de perfil en el mercado, tabular mis servicios y luego la configuración a nivel del servicio de copia de seguridad en la nube
 
-## Preguntas frecuentes
+## FAQ
 
 > **Valor de mandato de especificación de error para diferir atributo en la línea 19, columna 146**
 >

@@ -4,7 +4,7 @@ VMware
 Agrega tu licencia 
 ==================
 
-Una vez conectado en la interfaz web (IP \ _ESXI / ui) debe ir a
+Una vez conectado en la interfaz web (IP\_ESXI / ui) debe ir a
 "Gestionar" :
 
 ![vmware.tips](images/vmware.tips.PNG)
@@ -17,7 +17,7 @@ E ingrese su clave de licencia
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Nota**
+> **Note**
 >
 > Como recordatorio, si no lo hace, es posible que su ESXi ya no sea
 > operar después de 60 días
@@ -41,7 +41,7 @@ archivos "y marque la casilla" Habilitar NFS" :
 Luego haga clic en "Carpeta compartida", luego elija la carpeta para
 compartir (aquí Copia de seguridad), haga clic en modificar y luego en "Autorización NFS" y
 finalmente en crear (aquí ya tengo uno, tu lista debería ser
-vacio) :
+vacio):
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -68,7 +68,7 @@ Luego haga clic en "Nueva base de datos" :
 ![vmware.tips9](images/vmware.tips9.PNG)
 
 Allí selecciona "Montar una base de datos NFS" y luego
-Próximo :
+Próximo:
 
 ![vmware.tips10](images/vmware.tips10.PNG)
 
@@ -83,7 +83,7 @@ Haga clic en finalizar :
 ![vmware.tips12](images/vmware.tips12.PNG)
 
 Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en
-"Actualizar ").
+"Actualiser").
 
 Complemento VAAI Synology agregado para montaje NFS 
 ==============================================
@@ -94,7 +94,7 @@ Montajes NFS (para una explicación, vea
 
 Para ver si lo tiene, debe conectarse con el cliente grueso
 (No encontré la información en el cliente web) y vaya a configuración →
-almacenamiento :
+almacenamiento:
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
@@ -127,7 +127,7 @@ Encontrarás toda la información
 [aquí](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 Para ver si tiene la interfaz web, simplemente vaya con
-su navegador en IP \ _ESXI / ui si no tiene nada que necesita
+su navegador en IP\_ESXI / ui si no tiene nada que necesita
 instálelo, primero debe conectarse en SSH en el ESXI y luego :
 
     esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
@@ -162,7 +162,7 @@ Actualización de ESXi
 =====================
 
 El procedimiento es bastante fácil, primero debes recuperar el parche
-yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (Él
+yendo [aquí](https://my.vmware.com/group/vmware/patch#search) (il
 probablemente tendrá que iniciar sesión con su cuenta de VMware). En la
 La lista "Seleccione un producto" ponga "ESXi (Embebido e Instalable)", en
 Deje la última versión de VMware y haga "Buscar". Después
@@ -174,12 +174,12 @@ Luego transfiere el zip a una de tus tiendas de datos y crea :
 
     Actualización de vib del software esxcli -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Nota**
+> **Note**
 >
 > Reemplace la ruta y el nombre postal de acuerdo con su
-> Configuración
+> configuration
 
-> **Importante**
+> **Important**
 >
 > Tenga cuidado de poner el camino completo al zip, de lo contrario no
 > no funciona
@@ -246,32 +246,32 @@ En "Nombre de host" (en el nivel de origen) debe poner el DNS deseado
 (por ejemplo, monesxi.mondsn.synology.yo) y en "Nombre de host" (en el nivel
 del destino) debe poner la IP del ESXi
 
-> **Nota**
+> **Note**
 >
 > También puede hacer lo mismo para acceder a jeedom pero por
 > esta vez poniendo la IP de la libertad (desde el vm si estás en
 > virtualizado) y el puerto 80
 
-> **Nota**
+> **Note**
 >
 > Una vez que hayas hecho eso y tu DNS esté apuntando correctamente
 > en el NAS puede generar un certificado SSL válido de forma gratuita
 > con Encriptemos, yendo a Secrity ⇒ certificado y haciendo
-> Añadir. Entonces no olvides hacer clic en configurar para
+>Añadir Entonces no olvides hacer clic en configurar para
 > asignarlo a su proxy inverso
 
 Luego para acceder a su ESXi solo necesita con su navegador
 vaya a su DNS o IP externo agregando / ui al final y eso es
-bueno.
+bon.
 
-> **Importante**
+> **Important**
 >
 > Si utiliza el proxy inverso de NAS, la consola en modo web de
 > Sin embargo, las máquinas virtuales no funcionan (porque pasa por websocket)
 > si pasa por VMware Remote Console, todo debería estar bien (esto
 > pasa por el puerto 902)
 
-> **Nota**
+> **Note**
 >
 > También hay una aplicación Vmware Watchlist en Android para
 > tener acceso a ESXi y a las consolas VM

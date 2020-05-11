@@ -2,7 +2,7 @@ Monit is a service supervision service. He takes care of
 check that a service is still started.
 
 For this we indicate the evaluation criteria and the actions to
-to take.
+prendre.
 
 Installation of Monit 
 =====================

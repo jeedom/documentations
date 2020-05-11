@@ -2,7 +2,7 @@
 # Protocolo de domótica
 
 
->**Importante**
+>**IMPORTANT**
 >Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de los otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) todos los complementos oficiales en esta categoría
 
@@ -13,7 +13,7 @@
 |<img src="blea/blea_icon.png" class="pluginLogo" width="100" />|Anuncio de Bluetooth|Complemento de gestión de seguridad|[Documentación](blea/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2554)<br/>[Cambios](blea/changelog.md)|
 |<img src="broadlink/broadlink_icon.png" class="pluginLogo" width="100" />|Broadlink|Complemento que agrega soporte para ciertos productos Broadlink como (RM, A1 y ccc)|[Documentación](broadlink/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2699)<br/>[Cambios](broadlink/changelog.md)|
 |<img src="deconz/deconz_icon.png" class="pluginLogo" width="100" />|Deconz|Plugin para Deconz (conBee)|[Documentación](deconz/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3610)<br/>[Cambios](deconz/changelog.md)|
-|<img src="ecodevice/ecodevice_icon.png" class="pluginLogo" width="100" />|Dispositivo ecológico||[Documentación](ecodevice/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=342)<br/>[Cambios](ecodevice/changelog.md)|
+|<img src="ecodevice/ecodevice_icon.png" class="pluginLogo" width="100" />|Eco-device||[Documentación](ecodevice/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=342)<br/>[Cambios](ecodevice/changelog.md)|
 |<img src="edimaxplug/edimaxplug_icon.png" class="pluginLogo" width="100" />|Enchufe Edimax||[Documentación](edimaxplug/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2455)<br/>[Cambios](edimaxplug/changelog.md)|
 |<img src="edisio/edisio_icon.png" class="pluginLogo" width="100" />|Edisio|Complemento que agrega soporte para el protocolo Edisio a Jeedom|[Documentación](edisio/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1541)<br/>[Cambios](edisio/changelog.md)|
 |<img src="ipx800/ipx800_icon.png" class="pluginLogo" width="100" />|ipx800 V3||[Documentación](ipx800/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=344)<br/>[Cambios](ipx800/changelog.md)|
@@ -21,7 +21,7 @@
 |<img src="ipx800v4/ipx800v4_icon.png" class="pluginLogo" width="100" />|IPX 800 v4|Complemento para controlar el IPX 800|[Documentación](ipx800v4/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2046)<br/>[Cambios](ipx800v4/changelog.md)|
 |<img src="myhomescs/myhomescs_icon.png" class="pluginLogo" width="100" />|MyhomeSCS|Le permite administrar el protocolo MyHome Bus.|[Documentación](myhomescs/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3107)<br/>[Cambios](myhomescs/changelog.md)|
 |<img src="openenocean/openenocean_icon.png" class="pluginLogo" width="100" />|EnOcean|Plugin que agrega soporte de EnOcean a Jeedom|[Documentación](openenocean/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2622)<br/>[Cambios](openenocean/changelog.md)|
-|<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Onda Z|Complemento para administrar el protocolo Z-Wave|[Documentación](openzwave/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Cambios](openzwave/changelog.md)|
+|<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Z-Wave|Complemento para administrar el protocolo Z-Wave|[Documentación](openzwave/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Cambios](openzwave/changelog.md)|
 |<img src="rfplayer2/rfplayer2_icon.png" class="pluginLogo" width="100" />|RfPlayer2|Complemento que agrega soporte para la clave RfPlayer de Ziblue a Jeedom. Este complemento eventualmente reemplazará al primer complemento. Se pondrá a disposición de todos los propietarios del primer complemento. Esto permitirá que todos migren en silencio. Debido a que la filosofía del complemento ha cambiado y los identificadores también, deberá incluir sus dispositivos en este nuevo complemento.|[Documentación](rfplayer2/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3349)<br/>[Cambios](rfplayer2/changelog.md)|
 |<img src="rfxcom/rfxcom_icon.png" class="pluginLogo" width="100" />|RFXcom|Plugin para usar el RFXcom USB. Le permite controlar equipos de automatización del hogar de 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss)|[Documentación](rfxcom/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=52)<br/>[Cambios](rfxcom/changelog.md)|
 |<img src="wattlet/wattlet_icon.png" class="pluginLogo" width="100" />|Wattlet|Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube.|[Documentación](wattlet/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2600)<br/>[Cambios](wattlet/changelog.md)|

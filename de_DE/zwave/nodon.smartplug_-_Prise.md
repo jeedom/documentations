@@ -37,15 +37,15 @@ Schalten Sie den Stecker direkt ein oder aus.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
 
 -   Netzstromverlusterkennung
 
--   Ergonomisch: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
-    Niedrig
+-   Ergonomique: Möglichkeit des Verstopfens des Kopfes / Kopfsteckers
+    bas
 
 -   Intelligentes Alarmmanagement
 
@@ -60,7 +60,7 @@ Technische Daten
 
 \
 
--   Versorgung : 230 V AC +/- 10% - 50 Hz
+-   Versorgung: 230 V AC +/- 10% - 50 Hz
 
 -   Maximale Leistung : 3000 W kontinuierlich / 3500 W zyklisch
     (Widerstandslast) Eigenverbrauch : &lt;1W
@@ -72,7 +72,7 @@ Technische Daten
 
 -   Geltungsbereich: 40 m innen / 80 m außen
 
--   Abmessungen: 104 \*51 \*36mm
+-   Dimensions: 104 \*51 \*36mm
 
 -   2 Jahre Garantie
 
@@ -85,9 +85,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Nicken
+-   Machen Sie: Nodon
 
--   Name : Smartplug
+-   Name: Smartplug
 
 -   Hersteller ID : 357
 
@@ -97,22 +97,22 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > bis das Licht laut Dokumentation rot wird
-> Papier.
+>Papier
 
 \
 
@@ -128,12 +128,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -145,14 +145,14 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, mit dem der Status des
+-   Zustand: Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
 
--   Ein : Dies ist der Befehl, der die Steckdose einschaltet
+-   Ein: Dies ist der Befehl, der die Steckdose einschaltet
 
--   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
+-   Aus: Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
--   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht
+-   Status: Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht
     (Stromausfall / Unterbrechungserkennung)
 
 \
@@ -206,12 +206,12 @@ Parameterdetails :
     Stecker aktiviert). Wenn die Einstellung aktiviert ist, ist dies nicht der Fall
     möglich, den Smart Plug (lokal oder Radio) auszuschalten
 
--   Parameter 5 bis 20 : Über die Konfigurationsparameter \ # 5 bis
-    \ # 20, es ist möglich, bis zu 8 verschiedene Alarme zu konfigurieren.
+-   Parameter 5 bis 20 : Über die Konfigurationsparameter \# 5 bis
+    \# 20, es ist möglich, bis zu 8 verschiedene Alarme zu konfigurieren.
     Um Ihre Alarme richtig zu konfigurieren, das Online-Formular:
     www.nodon.fr/support/asp3/alarm wird Sie führen
 
-### Gruppen 
+### Gruppen
 
 \
 
@@ -262,7 +262,7 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Jeedom sollte mindestens in den Gruppen 1 und 4 gefunden werden
 
@@ -282,7 +282,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -298,13 +298,13 @@ Faq.
 
 Sie sollten nicht die Möglichkeit haben, automatische Widgets herunterzuladen
 aktiviert. Sie können die Mobil- und Dashboard-Widgets auf der Website abrufen
-Markt : Alarm \ _back.
+Markt: Alarm\_back.
 
 \
 
 Haben Sie Parameter 2 richtig eingestellt? ? Hast du Jeedom wenigstens gut?
 in den Gruppen 1 und 4 ? Lassen Sie der Batterie Zeit
-aufladen ?
+aufladen?
 
 \
 

@@ -24,7 +24,7 @@ By default you are notified by an email on your email configured in your profile
 - Add an SMS alert (note that this requires that you have SMS credit on the market)
 - Add an alert by Notification (requires the mobile app) 
 
-> **Teleg**
+> **Telegram**
 >
 > You can find your chatid from jeedom by going to the telegram equipment then advanced configuration of the desired recipient's command then the information button and in the configuration field you have the chatid
 
@@ -43,7 +43,7 @@ After adding cloud monitoring credit, you must either wait a few hours (around 2
 
 >**IMPORTANT**
 >
-> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint /"
+> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 
 ## It is compatible with everything ?
 

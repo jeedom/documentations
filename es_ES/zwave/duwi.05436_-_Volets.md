@@ -36,14 +36,14 @@ Sus características principales son :
 -   La capacidad de enviar una señal continua arriba / abajo sin
     límite de tiempo.
 
-Atención: este módulo no envía su estado al controlador de onda z cuando
+Attention: este módulo no envía su estado al controlador de onda z cuando
 el usuario presiona los botones directamente. Tienes que hacer un
 'Actualizar 'en su posición para actualizar o ajustar la Encuesta (ver
 más lejos).
 
 \
 
-Funciones 
+Funciones
 ---------
 
 \
@@ -76,11 +76,11 @@ Características técnicas
 
 -   Carga máxima : 1800W (resistivo), 460VA (inductivo)
 
--   Fusible : T8AH
+-   Fusible: T8AH
 
 -   Frecuencia : 868.42 Mhz
 
--   Dimensiones : 52 x 52 x 31 mm
+-   Dimensiones: 52 x 52 x 31 mm
 
 -   Rango de temperatura : 0 ° C / + 40 ° C
 
@@ -91,9 +91,9 @@ Datos del módulo
 
 \
 
--   Hacer : Popp / Duwi
+-   Hacer: Popp / Duwi
 
--   Nombre : Control de persianas ZW ESJ
+-   Nombre: Control de persianas ZW ESJ
 
 -   ID del fabricante : 100
 
@@ -103,25 +103,25 @@ Datos del módulo
 
 \
 
-Conexión 
+Conexión
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
 \
 
-Configuración 
+Configuración
 -------------
 
 \
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Importante**
+> **Important**
 >
 > Para poner el módulo en modo de inclusión, presione tres veces
 > en el ascenso o descenso. La exclusión se realiza de la misma manera.
@@ -136,16 +136,16 @@ Una vez incluido, deberías obtener esto :
 
 \
 
-### Comandos 
+### Comandos
 
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponible.
+disponibles.
 
 \
 
-![Comandos](images/duwi.05436/4-Comandos.PNG)
+![Comandos](images/duwi.05436/4-Commandes.PNG)
 
 \
 
@@ -153,17 +153,17 @@ Aquí está la lista de comandos :
 
 \
 
--   Estado : Esta es la posición actual del obturador, en porcentaje de 0 a 99
+-   Estado: Esta es la posición actual del obturador, en porcentaje de 0 a 99
 
--   Bajar : comando para descender por completo
+-   Bajar: comando para descender por completo
 
--   Subir : comando para montar completamente
+-   Subir: comando para montar completamente
 
--   Detener : parada inmediata del movimiento
+-   Detener: parada inmediata del movimiento
 
 -   Refrescar : actualizar el estado actual del módulo
 
--   Nivel : control deslizante para colocar una abertura parcial
+-   Nivel: control deslizante para colocar una abertura parcial
 
 \
 
@@ -216,7 +216,7 @@ Detalles del parámetro :
 -   0 : Tiempo de funcionamiento :
 
 Estos son los tiempos de subida y bajada. Deberías encontrar tu
-aprendiendo.
+apprentissage.
 
 La codificación se realiza mediante dos pares de bytes : el primero para la escalada
 y el segundo para el descenso.
@@ -224,7 +224,7 @@ y el segundo para el descenso.
 Los valores se codifican en hexadecimal en el módulo y se restablecen
 decimal en la pantalla Jeedom.
 
-Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. O 0x12
+Por ejemplo : para 4626, esto da en hexadecimal :0x1212 O 0x12
 para ascenso y 0x12 para descenso. O, traído de nuevo en
 decimal : 18 años para ascenso y descenso.
 
@@ -232,15 +232,15 @@ Anotar : forzar un valor a cero para este parámetro implicará que el
 el módulo activará el ascenso o descenso sin límite de tiempo. Habrá que
 luego envíe un 'Stop' para interrumpir.
 
--   1 : Funcionalidad de parada : Habilitado o deshabilitado :
+-   1 : Funcionalidad de parada: Habilitado o deshabilitado :
 
 Se usa para indicar si presionar en la dirección opuesta durante un
 el desplazamiento detiene el obturador o lo devuelve inmediatamente en la dirección
-opuesto.
+opposé.
 
 \
 
-### Grupos 
+### Grupos
 
 \
 
@@ -249,7 +249,7 @@ encuentra tu controlador Z-Wave.
 
 \
 
-![Groupe](images/duwi.05436/6-Grupos.PNG)
+![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 \
 
@@ -279,9 +279,9 @@ Bueno saber
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Punta**
+> **Tip**
 >
-> El widget "Store \ _2 \ _IMG" utilizado en el comando de información "Estado". Este
+> El widget "Store\_2\_IMG" utilizado en el comando de información "Estado". Este
 > el widget es bueno porque muestra estados 'parcialmente abiertos''.
 
 **@Theduck38**

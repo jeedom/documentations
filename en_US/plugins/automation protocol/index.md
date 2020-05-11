@@ -2,7 +2,7 @@
 # Domotic protocol
 
 
->**Important**
+>**IMPORTANT**
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) all official plugins in this category
 
@@ -21,7 +21,7 @@
 |<img src="ipx800v4/ipx800v4_icon.png" class="pluginLogo" width="100" />|IPX 800 v4|Plugin to control the IPX 800|[Documentation](ipx800v4/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2046)<br/>[Changelog](ipx800v4/changelog.md)|
 |<img src="myhomescs/myhomescs_icon.png" class="pluginLogo" width="100" />|MyhomeSCS|Allows you to manage the MyHome Bus protocol.|[Documentation](myhomescs/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3107)<br/>[Changelog](myhomescs/changelog.md)|
 |<img src="openenocean/openenocean_icon.png" class="pluginLogo" width="100" />|EnOcean|Plugin adding EnOcean support to Jeedom|[Documentation](openenocean/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2622)<br/>[Changelog](openenocean/changelog.md)|
-|<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Z-WAVE|Plugin for managing the Z-Wave protocol|[Documentation](openzwave/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Changelog](openzwave/changelog.md)|
+|<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Z-Wave|Plugin for managing the Z-Wave protocol|[Documentation](openzwave/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Changelog](openzwave/changelog.md)|
 |<img src="rfplayer2/rfplayer2_icon.png" class="pluginLogo" width="100" />|RfPlayer2|Plugin adding support for the RfPlayer key from Ziblue to Jeedom. This plugin will eventually replace the first plugin. It will be made available to all owners of the first plugin. This will allow everyone to migrate quietly. Because the philosophy of the plugin having changed and the ids too, you will have to include your devices on this new plugin.|[Documentation](rfplayer2/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3349)<br/>[Changelog](rfplayer2/changelog.md)|
 |<img src="rfxcom/rfxcom_icon.png" class="pluginLogo" width="100" />|RFXcom|Plugin to use the RFXcom USB. Allows you to control 433Mhz home automation equipment (Chacon, Oregon, La Crosse, X10, DI-O, Blyss)|[Documentation](rfxcom/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=52)<br/>[Changelog](rfxcom/changelog.md)|
 |<img src="wattlet/wattlet_icon.png" class="pluginLogo" width="100" />|Wattlet|This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web.|[Documentation](wattlet/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2600)<br/>[Changelog](wattlet/changelog.md)|

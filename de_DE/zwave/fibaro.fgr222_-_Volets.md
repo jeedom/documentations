@@ -33,21 +33,21 @@ von der Taste am Mikromodul.
 
 Darüber hinaus kann dieses Mikromodul den Verbrauch übertragen
 Momentane (W) und kumulative (KWh) elektrische Leistung des Geräts
-beigefügt.
+rattaché.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie dieses Modul in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-vorhanden.
+existant.
 
 Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
-Wohnung.
+habitation.
 
-Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
+Notiz: Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -55,7 +55,7 @@ Funktionen
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 
 -   Kompatibel mit BSO und Jalousie mit Positionierung von
-    Lamellen
+    lamelles
 
 -   Wird hinter einem vorhandenen Switch installiert
 
@@ -82,7 +82,7 @@ Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 
--   Versorgung : 230 V, 50 Hz
+-   Versorgung: 230 V, 50 Hz
 
 -   Stromverbrauch : &lt; 0,8W
 
@@ -96,13 +96,13 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 17 x 42 x 37 mm
+-   Dimensions: 17 x 42 x 37 mm
 
 -   Betriebstemperatur : 0-40 ° C
 
--   Temperatur begrenzen : 105 ° C
+-   Temperatur begrenzen : 105°C
 
--   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
+-   Standards: LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
 
 \
 
@@ -111,9 +111,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro FGR-222
+-   Name: Fibaro FGR-222
 
 -   Hersteller ID : 271
 
@@ -123,18 +123,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -153,12 +153,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -172,35 +172,35 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
+-   Zustand: Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
 
--   Positionierung : Es ist der Befehl, der es ermöglicht, das zu definieren
+-   Positionierung: Es ist der Befehl, der es ermöglicht, das zu definieren
     Öffnungsprozentsatz
 
--   Auf : Mit diesem Befehl können Sie den Verschluss vollständig öffnen
+-   Auf: Mit diesem Befehl können Sie den Verschluss vollständig öffnen
 
--   Runter : Es ist der Befehl, der den Verschluss vollständig schließt
+-   Runter: Es ist der Befehl, der den Verschluss vollständig schließt
 
 -   Aktualisieren : Es ist der Befehl, mit dem die Position erneut abgefragt werden kann
     des Verschlusses
 
--   Macht : Befehl, der den Verbrauch des Moduls zulässt
+-   Macht: Befehl, der den Verbrauch des Moduls zulässt
 
--   Verbrauch : Kontrolle, um die Leistung zu kennen
+-   Verbrauch: Kontrolle, um die Leistung zu kennen
     Sofort vom Modul verwendet
 
--   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
+-   STOP: Steuerung, um die Bewegung des Verschlusses zu stoppen
 
 -   STOP BSO : Befehl zum Stoppen der Bewegung (im Modus
     verstellbare Lamelle)
 
--   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
+-   Kippen: Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
--   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
-    Kippen
+-   Nicht: Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
+    Incliner
 
 \
 
@@ -281,12 +281,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -299,7 +299,7 @@ Gut zu wissen
 
 \
 
-### Zurücksetzen 
+### Zurücksetzen
 
 \
 
@@ -312,11 +312,11 @@ auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
 \
 
-### Wichtig 
+### Wichtig
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Damit Status-Feedback in Jeedom funktioniert, ist dies erforderlich
 > Erzwingen Sie die Gerätekalibrierung (Parameter 29 auf "Ja") und die
@@ -333,7 +333,7 @@ auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \

@@ -7,7 +7,7 @@ Fibaro Öffnungsdetektor - FGK-101
 
 \
 
-![Modul](images/fibaro.fgk101-DS18B20/Modul.jpg)
+![Modul](images/fibaro.fgk101-DS18B20/module.jpg)
 
 \
 
@@ -41,15 +41,15 @@ auch von einem kabelgebundenen Eingang, so dass es als verwendet werden kann
 Universalsender : lassen Sie seinen Magnetkontakt beiseite und
 Schließen Sie die Schraubeingänge an einen Detektor (normalerweise geschlossen) Ihres Geräts an
 Wahl wie Rauch-, Gas- oder Kohlenmonoxiddetektor,
-Usw.
+etc.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie diesen Detektor in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-vorhanden.
+existant.
 
 \
 
-Funktionen 
+Funktionen
 ---------
 
 \
@@ -80,15 +80,15 @@ Technische Daten
 
 -   Modultyp : Z-Wave Sender
 
--   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
+-   Farbe: Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
 
--   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
+-   Versorgung: ER14250 (1 / 2AA) 3,6-V-Batterie
 
 -   Frequenz : 868,42 MHz
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Abmessungen: 76 x 17 x 19 mm
+-   Dimensions: 76 x 17 x 19 mm
 
 -   Betriebstemperatur : 0-40 ° C
 
@@ -99,9 +99,9 @@ Moduldaten
 
 \
 
--   Machen Sie : Fibar Group
+-   Machen Sie: Fibar Group
 
--   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
+-   Name: Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 
 -   Hersteller ID : 271
 
@@ -111,18 +111,18 @@ Moduldaten
 
 \
 
-Konfiguration 
+Konfiguration
 -------------
 
 \
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
@@ -141,12 +141,12 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 \
 
-### Befehle 
+### Befehle
 
 \
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-verfügbar.
+disponibles.
 
 \
 
@@ -158,11 +158,11 @@ Hier ist die Liste der Befehle :
 
 \
 
--   Zustand : Es ist der Befehl, der den offenen oder geschlossenen Zustand des
-    Modul
+-   Zustand: Es ist der Befehl, der den offenen oder geschlossenen Zustand des
+    module
 
--   Batterie : es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
-    Batterie
+-   Batterie: es ist der Befehl, der es erlaubt, den Zustand des zu erhöhen
+    batterie
 
 \
 
@@ -174,10 +174,10 @@ Sie können diese Befehle nach Belieben ein- oder ausblenden.
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+>Einbeziehung
 
 \
 
@@ -206,7 +206,7 @@ Parameterdetails :
 
 \
 
--   Aufwachen : Dies ist das Aufweckintervall des Moduls (Wert
+-   Aufwachen: Dies ist das Aufweckintervall des Moduls (Wert
     7200 empfohlen)
 
 -   1: Legt die Verzögerung für das Aufheben des IN-Eingangsalarms fest
@@ -235,12 +235,12 @@ Parameterdetails :
 
 \
 
-### Gruppen 
+### Gruppen
 
 \
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
-wesentlich.
+indispensable.
 
 \
 
@@ -257,7 +257,7 @@ Gut zu wissen
 
 \
 
-> **Spitze**
+> **Tip**
 >
 > Dieses Modul ist beim Aufwecken sehr pingelig und erfordert eine sehr
 > starke Nähe zum Controller, wenn enthalten
@@ -272,7 +272,7 @@ Gut zu wissen
 
 \
 
-Aufwachen 
+Aufwachen
 ------
 
 \
@@ -309,7 +309,7 @@ Wichtiger Hinweis
 
 \
 
-> **Wichtig**
+> **Important**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a

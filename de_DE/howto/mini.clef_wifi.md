@@ -1,4 +1,4 @@
-Ziel 
+Ziel
 ========
 
 Hier für den Fall eine End-to-End-Prozedur zum Installieren eines Schlüssels
@@ -9,14 +9,14 @@ Bitte beachten Sie, dass dieses Verfahren nur so funktioniert, wie es in der
 strenger Rahmen der zuvor angegebenen Umgebung (gleiches Modell, gleiches
 Jeedom Box, gleiche WiFi-Authentifizierung) . Natürlich kann das
 Arbeiten Sie auch für andere Komponenten (oder nicht), jedoch ohne
-Garantie.
+garantie.
 
-> **Wichtig**
+> **Important**
 >
 > Achtung, dieses Verfahren ist besonders bei mini + under nicht zu machen
 > Probleme, den Zugriff darauf zu verlieren und alles neu installieren zu müssen.
 
-> **Wichtig**
+> **Important**
 >
 > Dieses Dokument ist bei Bedenken auf eigenes Risiko anzuwenden
 > Das Jeedom-Team kann in keiner Weise zur Verantwortung gezogen werden.
@@ -86,10 +86,10 @@ Hier ist meine Betriebsakte zu Hause :
     update_config = 1
     eapol_version = 1
     ap_scan = 2
-    Netzwerk={
+    network={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            Modus = 0
+            mode=0
             proto = WPA2
             paarweise = CCMP
             Gruppe = CCMP

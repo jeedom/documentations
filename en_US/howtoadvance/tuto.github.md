@@ -31,7 +31,7 @@ click on **Create an account**
 ![tuto.github1](images/tuto.github1.png)
 
 So you arrive on a 2nd page as below and you do not change
-nothing, you click **Keep on going**
+nothing, you click **Continue**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -75,7 +75,7 @@ precisely here : core / class /
     the repository where I am (core, see Small 1)
 
 3. So we have our file *history.class.php* - We click on the
-    File
+    fichier
 
 ![tuto.github5](images/tuto.github5.png)
 
@@ -124,7 +124,7 @@ Submit the change
 Submit a change 
 --------------------------
 
-The **commit** done above only concerns the fork of the project in
+The**commit** done above only concerns the fork of the project in
 your GitHub space. To submit changes to the original project,
 you must perform a PR (Pull Request)
 
@@ -151,7 +151,7 @@ you must perform a PR (Pull Request)
 
 It is important to clearly explain the changes submitted so that the
 original project developer (s) understand and can validate your
-Request.
+demande.
 
 1. We click on the three small dots
 
