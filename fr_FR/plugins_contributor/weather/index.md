@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="rosee/rosee_icon.png" class="pluginLogo" width="100" />|Rosée - Givre - Tendance|Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />Compatible V4 et Debian Buster (10)|[Documentation](https://jealg.github.io/plugin-rosee/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1653)|
+|<img src="rosee/rosee_icon.png" class="pluginLogo" width="100" />|Rosée - Givre - Tendance|Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />Compatible V4 et Debian Buster (10)|[Documentation](https://jealg.github.io/plugin-rosee/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1653)|

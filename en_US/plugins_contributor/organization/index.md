@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="programmateur/programmateur_icon.png" class="pluginLogo" width="100" />|Programmateur|Plugin to add a programmer to an order|[Documentation](https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3942)|
+|<img src="programmateur/programmateur_icon.png" class="pluginLogo" width="100" />|Programmateur|Plugin to add a programmer to an order|[Documentation](https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3942)|

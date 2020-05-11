@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sequencing/sequencing_icon.png" class="pluginLogo" width="100" />|Reihenfolge der Aktionen|Plugin zum Verwalten von sequenzierten Aktionen|[Dokumentation](https://agp42.github.io/sequencing/de_DE/) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3982)|
+|<img src="Volets/Volets_icon.png" class="pluginLogo" width="100" />|Verschlussmanagement|Dieses Plugin verwaltet das Öffnen und Schließen unserer Fensterläden|[Dokumentation](https://mika-nt28.github.io/Documentations/Volets/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2612)|
+|<img src="sequencing/sequencing_icon.png" class="pluginLogo" width="100" />|Reihenfolge der Aktionen|Plugin zum Verwalten von sequenzierten Aktionen|[Dokumentation](https://agp42.github.io/sequencing/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3982)|

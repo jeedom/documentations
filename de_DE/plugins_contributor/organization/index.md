@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="programmateur/programmateur_icon.png" class="pluginLogo" width="100" />|Programmateur|Plugin zum Hinzufügen eines Programmiergeräts zu einer Bestellung|[Dokumentation](https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3942)|
+|<img src="programmateur/programmateur_icon.png" class="pluginLogo" width="100" />|Programmateur|Plugin zum Hinzufügen eines Programmiergeräts zu einer Bestellung|[Dokumentation](https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3942)|

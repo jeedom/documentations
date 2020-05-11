@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />|Reconocimiento facial|Este complemento permite usar OpenCv para detectar su visión y reconocerlo.Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos)|[Documentación](http://mika-nt28.github.io/Documentations/facerecognition/es_ES/) - [Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)|
+|<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />|Reconocimiento facial|Este complemento permite usar OpenCv para detectar su visión y reconocerlo.Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos)|[Documentación](http://mika-nt28.github.io/Documentations/facerecognition/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)|

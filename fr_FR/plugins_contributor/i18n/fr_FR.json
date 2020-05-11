@@ -1,7 +1,11 @@
 {
     "plugins_contributor\/automation protocol\/index.md": {
+        "Mochad - X10": "Mochad - X10",
+        "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15",
         "Jeedouino": "Jeedouino",
         "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos": "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos",
+        "EIB - KN": "EIB - KN",
+        "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation": "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
         "Protocole domotique": "Protocole domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -16,6 +20,8 @@
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Séquencement d'actions",
         "Plugin pour gérer des actions séquencées": "Plugin pour gérer des actions séquencées",
+        "Gestion de Volets": "Gestion de Volets",
+        "Ce plugin gère l'ouverture et la fermeture de nos volets": "Ce plugin gère l'ouverture et la fermeture de nos volets",
         "Automatisme": "Automatisme",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -213,8 +219,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market",
-        "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo"
+        "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo",
+        "Market": "Market"
     },
     "plugins_contributor\/wellness\/index.md": {
         "Qivivo": "Qivivo",

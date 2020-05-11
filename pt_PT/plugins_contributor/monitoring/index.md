@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Plugin de journalisation d’activité pour les équipements, scénarios, et fichiers log|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)|
+|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Plugin de journalisation d’activité pour les équipements, scénarios, et fichiers log|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)|

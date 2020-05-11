@@ -1,6 +1,10 @@
 {
     "plugins_contributor\/automation protocol\/index.md": {
+        "Mochad - X10": "Mochad - X10",
+        "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Plugin to manage X10 devices via the Mochad daemon and a CM15 computer interface",
         "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos": "Jeedouino plugin to manage Arduino board (s) (via Ethernet or USB), R.PI GPIOs, PiFace boards (piRack), RPI IO Plus 32e \/ s boards, MCP23017 (on RPI) or ESP8266 \/ NodeMCU \/ Wemos",
+        "EIB - KN": "EIB - KN",
+        "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation": "Connect Jeedom with your KNX home automation system and Jeedom will become a participant in your installation",
         "Protocole domotique": "Domotic protocol",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
@@ -36,6 +40,8 @@
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Sequencing actions",
         "Plugin pour gérer des actions séquencées": "Plugin to manage sequenced actions",
+        "Gestion de Volets": "Shutter management",
+        "Ce plugin gère l'ouverture et la fermeture de nos volets": "This plugin manages the opening and closing of our shutters",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",

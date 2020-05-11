@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sequencing/sequencing_icon.png" class="pluginLogo" width="100" />|Séquencement d'actions|Plugin pour gérer des actions séquencées|[Documentation](https://agp42.github.io/sequencing/fr_FR/) - [Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3982)|
+|<img src="Volets/Volets_icon.png" class="pluginLogo" width="100" />|Gestion de Volets|Ce plugin gère l'ouverture et la fermeture de nos volets|[Documentation](https://mika-nt28.github.io/Documentations/Volets/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2612)|
+|<img src="sequencing/sequencing_icon.png" class="pluginLogo" width="100" />|Séquencement d'actions|Plugin pour gérer des actions séquencées|[Documentation](https://agp42.github.io/sequencing/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3982)|

@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Warte rechtzeitig|Plugin für die Reisezeit zwischen zwei Punkten|[Dokumentation](wazeintime/index.md) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|
+|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Warte rechtzeitig|Plugin für die Reisezeit zwischen zwei Punkten|[Dokumentation](wazeintime/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)|
