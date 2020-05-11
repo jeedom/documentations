@@ -1,177 +1,107 @@
-MyHomeSCS 
-=========
+# MyhomeSCS 
 
-Description 
------------
+Plugin zur Verwendung des F454-Gateways
 
-Plugin permettant d’utiliser la passerelle F454
+# Konfiguration 
 
-Configuration 
--------------
+Mit dem MyHomeSCS-Plugin können Sie über das F454-Gateway mit allen MyHomeSCS-Geräten von Legrand kommunizieren
 
-Le plugin MyHomeSCS permet de dialoguer avec l’ensemble des
-périphériques MyHomeSCS de Legrand via la gateway F454
+>**ATTENTION**
+>
+>Um das Plugin verwenden zu können, muss die Authentifizierung des MyHome-Gateways deaktiviert und die IP-Adresse von JEEDOM in der Whitelist des Gateways autorisiert werden.
 
-* ATTENTION : Afin d'utiliser le plugin, il est nécessaire de désactiver l'authentification de la passerelle MyHome et d'autoriser l'adresse IP de JEEDOM dans la liste blanche de la passerelle.
-
-Après l’avoir téléchargé sur le Market, il sera nécessaire de configurer
-l’ip et les ports utilise pour se connecter à la passerelle F454. Le
-port de socket interne : 55005 est le port par défaut utilisé par le
-daemon MyHomeSCS. Il vaut mieux éviter de le changer sans connaitre le
-fonctionnement du daemon.
+Nach dem Herunterladen vom Markt müssen Sie die IP-Adresse und die Ports konfigurieren, über die eine Verbindung zum F454-Gateway hergestellt wird. Interner Socket-Port : 55005 ist der Standardport, der vom MyHomeSCS-Dämon verwendet wird. Es ist besser, eine Änderung zu vermeiden, ohne zu wissen, wie der Dämon funktioniert.
 
 ![myhomescs1](./images/myhomescs1.png)
 
-Une fois configuré, on accède à la page du plugin MyHomeSCS.
+Nach der Konfiguration greifen Sie auf die MyHomeSCS-Plugin-Seite zu.
 
-A gauche, la liste des modules MyHomeSCS, et au centre les onglets
-Général, Information et Commandes.
+Links die Liste der MyHomeSCS-Module und in der Mitte die Registerkarten Allgemein, Informationen und Bestellungen.
 
 ![myhomescs2](./images/myhomescs2.png)
 
-Le menu à gauche présente l’ensemble des modules MyHomeSCS détectés
-et/ou configurés sur son installation domotique. Pour l’instant le
-plugin détecte les modules Legrand, mais ne les reconnait pas
-automatiquement. Une fois que Jeedom a détecté le nouveau module, il va
-le créer, mais sans lui affecter de commande. Pour cela, il sera
-nécessaire soit de choisir un module dans la liste déroulante
-complétement à droite (si le module existe dans la base de données),
-soit de créer les commandes une à une.
+Das Menü auf der linken Seite zeigt alle MyHomeSCS-Module an, die bei der Installation der Hausautomation erkannt und / oder konfiguriert wurden. Im Moment erkennt das Plugin Legrand-Module, erkennt sie jedoch nicht automatisch. Sobald Jeedom das neue Modul erkannt hat, wird es erstellt, ohne ihm einen Befehl zuzuweisen. Dazu müssen Sie entweder ein Modul in der Dropdown-Liste ganz rechts auswählen (sofern das Modul in der Datenbank vorhanden ist) oder die Befehle einzeln erstellen.
 
-Le bouton "Ajouter équipement" permet d’ajouter des équipements
-spécifiques MyHomeSCS, en générale pour des tests ou des commandes de
-type "Managements" ou "Spéciales".
+Mit der Schaltfläche "Ausrüstung hinzufügen" können Sie bestimmte MyHomeSCS-Geräte hinzufügen, im Allgemeinen für Tests oder Bestellungen vom Typ "Management" oder "Spezial".".
 
 ![myhomescs3](./images/myhomescs3.png)
 
-Lorsqu’on passe en mode Expert, on a accès à d’autres options : Type de
-commande, unit, type de communication, trame brute.
+Wenn Sie in den Expertenmodus wechseln, haben Sie Zugriff auf andere Optionen : Befehlstyp, Einheit, Kommunikationstyp, Rohrahmen.
 
-Le champ type permet de choisir entre une commande de type action ou une
-commande de type info, le type de l’action ou de l’info (Action,
-curseur, message, etc…​) et l’action (ON, OFF, etc…​). Le champ unit
-permet de saisir l’unit utilisée pour la commande ou pour le retour
-d’état. Le champ communication permet de choisir le type de
-communication (Multicast, Unicast ou Broadcast). Le champ LogicalID ou
-commande brute permet de nommer l’info ou de renseigner la trame
-"brute".
+Im Feld Typ können Sie zwischen einem Befehl vom Typ Aktion oder einem Befehl vom Typ Info, dem Typ der Aktion oder Info (Aktion, Cursor, Nachricht usw.) und der Aktion (EIN, AUS usw.) wählen. …). Das Einheitenfeld wird verwendet, um die Einheit einzugeben, die für den Befehl oder für die Statusrückmeldung verwendet wird. Im Kommunikationsfeld können Sie die Art der Kommunikation auswählen (Multicast, Unicast oder Broadcast).. Das Befehlsfeld LogicalID oder raw wird verwendet, um die Informationen zu benennen oder den "raw" -Rahmen auszufüllen".
 
 ![myhomescs4](./images/myhomescs4.png)
 
-L’onglet Information précise le type de l’équipement.
+Die Registerkarte Informationen gibt den Gerätetyp an.
 
 ![myhomescs6](./images/myhomescs6.png)
 
-L’onglet général permet de choisir le nom de l’équipement, sa
-destination dans l’arborescence de sa domotique, la catégorie du module
-(dans le jargon Legrand : WHO), la possibilité de rendre inactif le
-module dans Jeedom, ou encore de rendre visible ou invisible le module
-dans l’interface.
+Auf der Registerkarte Allgemein können Sie den Namen des Geräts, sein Ziel in der Baumstruktur seiner Hausautomation und die Kategorie des Moduls (im Legrand-Jargon) auswählen : WHO), die Möglichkeit, das Modul in Jeedom inaktiv zu machen oder das Modul in der Schnittstelle sichtbar oder unsichtbar zu machen.
 
 ![myhomescs7](./images/myhomescs7.png)
 
-L’onglet Commandes détaille l’ensemble des commandes (certains éléments
-ne sont disponibles qu’en mode expert).
+Auf der Registerkarte Bestellungen werden alle Bestellungen aufgeführt (bestimmte Elemente sind nur im Expertenmodus verfügbar)..
 
-Ces commandes sont automatiquement remplies si on choisit le type de
-module dans le champ "Equipements". Les paramètres utiles sont
-Historiser, Afficher(la commande), Evènement (permet de forcer la
-demande d’info sur le module).
+Diese Befehle werden automatisch ausgefüllt, wenn Sie den Modultyp im Feld "Ausrüstung" auswählen". Nützliche Parameter sind Historize, Display (der Befehl), Event (ermöglicht das Erzwingen der Informationsanforderung für das Modul)..
 
 ![myhomescs8](./images/myhomescs8.png)
 
-Dans une prochaine version et avec l’aide de tous, on pourrait imaginer
-que les modules soient reconnus automatiquement
+In einer nächsten Version und mit jedermanns Hilfe könnten wir uns vorstellen, dass die Module automatisch erkannt werden
 
-Liste des modules testés 
-------------------------
+## Liste der getesteten Module 
 
-- Volets roulants : F401
+- Rollläden : F401
 - DALI : F429
 - Dimmer : F418
-- Switch 4x : F411
-- Détecteur de mouvements : 0 672 26
+- 4x Schalter : F411
+- Bewegungsmelder : 0 672 26
 
-Ajouter un Equipement 
----------------------
+## Ausrüstung hinzufügen 
 
-La plupart des équipements sont rajoutés dans le plugin MyHomeSCS dès
-qu’ils sont détectés
+Die meisten Geräte werden dem MyHomeSCS-Plugin hinzugefügt, sobald sie erkannt werden
 
-Une fois le module créé dans le plugin, deux solutions s’offrent à vous.
+Sobald das Modul im Plugin erstellt wurde, stehen Ihnen zwei Lösungen zur Verfügung.
 
-Soit le module existe dans le menu déroulant : Equipement et là il
-suffit de le choisir, puis de faire sauvegarder pour que les commandes
-soit automatiquement ajoutées.
+Entweder ist das Modul im Dropdown-Menü vorhanden : Ausrüstung und dort reicht es aus, sie auszuwählen und dann zu speichern, damit die Bestellungen automatisch hinzugefügt werden.
 
-Soit le module n’existe pas (encore) dans le plugin et alors il vous
-faudra créer les commandes une à une.
+Entweder existiert das Modul (noch) nicht im Plugin und dann müssen Sie die Befehle einzeln erstellen.
 
-Les commandes info sont nécessaires pour récupérer l’état de
-l’équipement. Exemple pour les modules light, une info "bouton" est
-créée et permet de connaitre l’état du bouton du module (ON ou OFF par
-exemple). Cette info permet notamment de gérer les widgets ou est
-utilisée pour le déclenchement de scénarios
+Info-Befehle sind erforderlich, um den Status des Geräts abzurufen. Beispiel für Lichtmodule wird eine "Tasten" -Information erstellt, mit der der Status der Modultaste ermittelt werden kann (z. B. EIN oder AUS).. Diese Informationen werden insbesondere zum Verwalten von Widgets oder zum Auslösen von Szenarien verwendet
 
-Les commandes actions permettent d’effectuer des actions sur
-l’équipement. En fonction de la catégorie de l’équipement, vous aurez
-différents choix.
+Mit Aktionsbefehlen können Sie Aktionen am Gerät ausführen. Abhängig von der Kategorie der Ausrüstung haben Sie unterschiedliche Möglichkeiten.
 
-Les trames Legrand s’orientent autour de 3 variables et sont sous la
-forme (pour une trame de type BUS-COMMAND) \*WHO\*WHAT\*WHERE\#\#
+Legrand-Frames orientieren sich an 3 Variablen und haben die Form (für einen Frame vom Typ BUS-COMMAND) \*WHO\*WAS \* WO \#\#
 
-Le WHO correspond à la catégorie (lumière, automatisme, etc…). Si dans
-la trame brute vous saisissez \#WHO\\\#, celle-ci sera remplacée par
-l’ID de la catégorie de l’équipement.
+Die WHO entspricht der Kategorie (Licht, Automatisierung usw.). Wenn Sie im Rohrahmen \ eingeben#WHO\\\#, Dies wird durch die Gerätekategorie-ID ersetzt.
 
-Le WHAT correspond à l’ID de l’action. Si vous saisissez \#WHAT\\\#,
-cette variable sera remplacée par le code correspondant de la commande
-choisie.
+WAS entspricht der Aktions-ID. Wenn Sie \ eingeben#WHAT\\\#, Diese Variable wird durch den entsprechenden Code des ausgewählten Befehls ersetzt.
 
-Enfin, le WHERE correspond à la concaténation du mode de communication
-(unicast, multicast, broadcast), de l’ID.UNIT et du media(*9 pour le
-Zigbee). Dans mon plugin, vous pouvez saisir \\\#WHERE* qui sera
-remplacé par le code correspondant au type de communication choisi et
-vous pouvez saisir \#IDUNIT\# qui sera remplacé par l’UNIT correspondant
-au 4 derniers digits de l’adresse mac du module convertit en décimal
-suivi de l’ID sur deux digits.
+Schließlich entspricht das WHERE der Verkettung des Kommunikationsmodus (Unicast, Multicast, Broadcast) der ID.EINHEIT und Medien (* 9 für ZigBee). In meinem Plugin können Sie \\\ eingeben#WHERE* qui sera remplacé par le code correspondant au type de communication choisi et vous pouvez saisir \#IDUNIT \#, die durch die UNIT ersetzt wird, die den letzten 4 Ziffern der Mac-Adresse des Moduls entspricht, wird in eine Dezimalzahl konvertiert, gefolgt von der zweistelligen ID.
 
-En gros, cela donne
-\*\#WHO\\\#\\\*\#WHAT\\\#\*\#WHERE\\\#\#IDUNIT\\\#\#\#
+Grundsätzlich gibt es ``\*\#WHO\\\#\\\*\#WHAT\\\#\*\#WHERE\\\#\#IDUNIT\\\#\#\#``
 
-En dehors de ces variables, vous pouvez saisir la trame brute
-directement, par exemple : \*2\*2\*\#121301\#9\#\#
+Neben diesen Variablen können Sie beispielsweise den Rohrahmen direkt eingeben : ``\*2\*2\*\#121301\#9\#\#``
 
-Pour connaitre tous les types de trames, valeur WHO, WHAT, WHERE, les
-types de communication ou les codes media, vous pouvez vous reporter au
-document Legrand : Open Web Net Zigbee
+Informationen zu allen Arten von Frames, WHO, WHAT, WHERE-Werten, Kommunikationsarten oder Mediencodes finden Sie im Legrand-Dokument : Öffnen Sie Web Net Zigbee
 
-Une fois que vous avez créé toutes les commandes de votre équipement, il
-est possible de créer un fichier "Equipement" au format JSON. Pour cela,
-vous pouvez vous inspirer des modules existants.
+Nachdem Sie alle Bestellungen für Ihre Geräte erstellt haben, können Sie eine "Geräte" -Datei im JSON-Format erstellen. Hierfür können Sie sich von vorhandenen Modulen inspirieren lassen.
 
-Ensuite vous pourrez le partager avec la communauté (grâce à la fonction
-: Envoyer une configuration). Cela permettra de rajouter les commandes
-en automatique pour les prochains utilisateurs du plugin MyHomeSCS.
+Dann können Sie es mit der Community teilen (dank der Funktion : Konfiguration senden). Dadurch werden automatische Befehle für die nächsten Benutzer des MyHomeSCS-Plugins hinzugefügt..
 
-Merci à vous.
+Danke dir.
 
-FAQ 
----
+# Faq 
 
-Troubleshooting 
----------------
+Versuchen Sie, es im Debug-Modus zu starten, um den Fehler zu sehen
 
-Essayer de le démarrer en mode debug pour voir l’erreur
+Warten Sie eine Minute, um festzustellen, ob das Problem weiterhin besteht
+In SSH tun : "sudo rm /tmp/myhomescscmd.pid"
 
-Attendez une minute pour voir si le problème persiste, si c’est le cas
-en ssh faites : "sudo rm /tmp/myhomescscmd.pid"
+Dies bedeutet, dass der Deamon gestartet wird, Jeedom dies jedoch nicht kann
+Hör auf. Sie können entweder das gesamte System oder in ssh neu starten
+mache "killall -9 myhomescs.py"
 
-Cela veut dire que le deamon est démarré mais que Jeedom n’arrive pas à
-le stopper. Vous pouvez soit redémarrer tout le système, soit en ssh
-faire "killall -9 myhomescs.py"
-
-Assurez-vous d’avoir bien coché la case pour la création automatique des
-équipements, vérifiez que le deamon est bien en marche. Vous pouvez
-aussi le redémarrer en debug pour voir s’il reçoit bien les messages de
-vos équipements
+Stellen Sie sicher, dass Sie das Kontrollkästchen für die automatische Erstellung von aktiviert haben
+Überprüfen Sie die Ausrüstung, ob der Deamon läuft. Du kannst
+Starten Sie es auch im Debug neu, um zu sehen, ob es Nachrichten von empfängt
+Ihre Ausrüstung

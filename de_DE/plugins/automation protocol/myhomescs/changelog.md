@@ -1,19 +1,24 @@
-Changelog 
----------
+>**IMPORTANT**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-### V1.100 du 26/01/2018
-Prise en charge du plugin par l'equipe Jeedom Officiel, nouvelle fonction de commande. prise en charge des widgets de Jeedom.
-Test sur diférents materiels.
+# 10.05.2020
 
-### V1.000 du 21/11/2017 
+- Fehlerbehebungen
 
-Modification du logicalID (concatenation du A et du PL). Plus de PL dans
-les commandes
+# V1.100 vom 26.01.2008
 
-### V0.002 du 21/11/2017 
+- Unterstützung des Plugins durch das Jeedom Official Team, neue Bestellfunktion. Unterstützung für Jeedom-Widgets.
+- Test an verschiedenen Materialien.
 
-Correction d’un problème de dependance python
+# V1.000 vom 21.11.2017 
 
-### V0.001 du 11/11/2017 
+-Änderung der logischen ID (Verkettung von A und PL). Mehr PL in Bestellungen
 
-Version initiale
+# V0.002 vom 21.11.2017 
+
+- Problem mit der Python-Abhängigkeit behoben
+
+# V0.001 vom 11.11.2017 
+
+- Erstveröffentlichung

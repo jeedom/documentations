@@ -1,3 +1,7 @@
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
 # 10/05/2020
 
 - Correction de bugs
@@ -13,8 +17,3 @@
 
 # V0.002 du 21/11/2017 
 
-- Correction d’un problème de dependance python
-
-# V0.001 du 11/11/2017 
-
-- Version initiale
