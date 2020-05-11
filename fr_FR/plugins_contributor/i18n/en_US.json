@@ -435,6 +435,9 @@
         "Market]": "Market]"
     },
     "plugins_contributor\/security\/index.md": {
+        "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Attention, all the same to what you authorized with this plugin because it is quite simple to deceive the system (Twins, photos)",
+        "Reconnaissance facial": "Facial recognition",
+        "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre": "This plugin allows use OpenCv to detect your visiage and recognize you",
         "Sécurité": "Security",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
@@ -450,7 +453,17 @@
         " ici?": " here?",
         "ici ": "here ",
         "[ici": "[here",
-        "ici]": "here]"
+        "ici]": "here]",
+        " Documentation.": " Documentation.",
+        " Documentation?": " Documentation?",
+        "Documentation ": "Documentation ",
+        "[Documentation": "[Documentation",
+        "Documentation]": "Documentation]",
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        "[Market": "[Market",
+        "Market]": "Market]"
     },
     "plugins_contributor\/weather\/index.md": {
         "Rosée - Givre - Tendance": "Dew - Frost - Trend",

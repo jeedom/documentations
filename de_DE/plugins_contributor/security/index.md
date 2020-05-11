@@ -7,3 +7,6 @@
 >Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) Alle offiziellen Plugins in dieser Kategorie
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />|Gesichtserkennung|Mit diesem Plugin können Sie OpenCv verwenden, um Ihr Visier zu erkennen und Sie zu erkennen.Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ganz einfach, das System zu täuschen (Zwillinge, Fotos)|[Dokumentation](http://mika-nt28.github.io/Documentations/facerecognition/de_DE/) - [Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)|
