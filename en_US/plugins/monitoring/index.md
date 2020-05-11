@@ -9,7 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="monitoring2/monitoring2_icon.png" class="pluginLogo" width="100" />|Monitoring|Local and remote monitoring plugin by SSH|[Documentation](monitoring2/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)<br/>[Changelog](monitoring2/changelog)|
-|<img src="nut/nut_icon.png" class="pluginLogo" width="100" />|Inverter (NUT)|Plugin to retrieve information from inverters via nut|[Documentation](nut/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)<br/>[Changelog](nut/changelog)|
-|<img src="octoprint/octoprint_icon.png" class="pluginLogo" width="100" />|Octoprint|Plugin to monitor your 3D print servers|[Documentation](octoprint/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)<br/>[Changelog](octoprint/changelog)|
-|<img src="ventilairsec/ventilairsec_icon.png" class="pluginLogo" width="100" />|Ventilairsec||[Documentation](ventilairsec/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)<br/>[Changelog](ventilairsec/changelog)|
+|<img src="monitoring2/monitoring2_icon.png" class="pluginLogo" width="100" />|Monitoring|Local and remote monitoring plugin by SSH|[Documentation](monitoring2/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)<br/>[Changelog](monitoring2/changelog.md)|
+|<img src="nut/nut_icon.png" class="pluginLogo" width="100" />|Inverter (NUT)|Plugin to retrieve information from inverters via nut|[Documentation](nut/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)<br/>[Changelog](nut/changelog.md)|
+|<img src="octoprint/octoprint_icon.png" class="pluginLogo" width="100" />|Octoprint|Plugin to monitor your 3D print servers|[Documentation](octoprint/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)<br/>[Changelog](octoprint/changelog.md)|
+|<img src="ventilairsec/ventilairsec_icon.png" class="pluginLogo" width="100" />|Ventilairsec||[Documentation](ventilairsec/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)|

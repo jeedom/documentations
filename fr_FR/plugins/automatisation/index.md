@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestion Volets|Plugin pour gerer l'ouverture/fermeture des volets en fonction du soleil|[Documentation](sunshutter/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestion Volets|Plugin pour gerer l'ouverture/fermeture des volets en fonction du soleil|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog.md)|

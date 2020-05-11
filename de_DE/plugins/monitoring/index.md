@@ -9,7 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="monitoring2/monitoring2_icon.png" class="pluginLogo" width="100" />|Monitoring|Plugin für lokale und Fernüberwachung per SSH|[Dokumentation](monitoring2/index)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)<br/>[Änderungsprotokoll](monitoring2/changelog)|
-|<img src="nut/nut_icon.png" class="pluginLogo" width="100" />|Wechselrichter (NUT)|Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter|[Dokumentation](nut/index)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)<br/>[Änderungsprotokoll](nut/changelog)|
-|<img src="octoprint/octoprint_icon.png" class="pluginLogo" width="100" />|Octoprint|Plugin zur Überwachung Ihrer 3D-Druckserver|[Dokumentation](octoprint/index)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)<br/>[Änderungsprotokoll](octoprint/changelog)|
-|<img src="ventilairsec/ventilairsec_icon.png" class="pluginLogo" width="100" />|Ventilairsec||[Dokumentation](ventilairsec/index)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)<br/>[Änderungsprotokoll](ventilairsec/changelog)|
+|<img src="monitoring2/monitoring2_icon.png" class="pluginLogo" width="100" />|Monitoring|Plugin für lokale und Fernüberwachung per SSH|[Dokumentation](monitoring2/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3317)<br/>[Änderungsprotokoll](monitoring2/changelog.md)|
+|<img src="nut/nut_icon.png" class="pluginLogo" width="100" />|Wechselrichter (NUT)|Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter|[Dokumentation](nut/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1500)<br/>[Änderungsprotokoll](nut/changelog.md)|
+|<img src="octoprint/octoprint_icon.png" class="pluginLogo" width="100" />|Octoprint|Plugin zur Überwachung Ihrer 3D-Druckserver|[Dokumentation](octoprint/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3295)<br/>[Änderungsprotokoll](octoprint/changelog.md)|
+|<img src="ventilairsec/ventilairsec_icon.png" class="pluginLogo" width="100" />|Ventilairsec||[Dokumentation](ventilairsec/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3895)|

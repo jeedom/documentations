@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Waze in Time|Plugin to have the journey time between two points|[Documentation](wazeintime/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[Changelog](wazeintime/changelog)|
+|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Waze in Time|Plugin to have the journey time between two points|[Documentation](wazeintime/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[Changelog](wazeintime/changelog.md)|
