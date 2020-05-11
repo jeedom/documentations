@@ -38,7 +38,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/automation protocol\/index.md": {
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube",
@@ -147,7 +152,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/automatisation\/index.md": {
         "Gestion Volets": "Gestión de persianas",
@@ -181,7 +191,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/communication\/index.md": {
         "Plugin pour la gestion des équipements wifipower": "Complemento de gestión de equipos Wifipower",
@@ -345,6 +360,11 @@
         "Market ": "Mercado ",
         "[Market": "[Mercado",
         "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]",
         " Important.": " Importante.",
         " Important?": " Importante?",
         "Important ": "Importante ",
@@ -438,7 +458,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "En cada caso, los iconos son personalizables, así como los nombres y tenemos el poder y la energía.",
@@ -515,6 +540,11 @@
         "Market ": "Mercado ",
         "[Market": "[Mercado",
         "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]",
         " Etat.": " Estado.",
         " Etat?": " Estado?",
         "Etat ": "Estado ",
@@ -572,7 +602,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/health\/index.md": {
         "Plugin pour SevenHugs": "Plugin SevenHugs",
@@ -616,7 +651,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/home automation protocol\/index.md": {
         "Passerelle domotique": "Pasarela domótica",
@@ -697,7 +737,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "Muchas otras funciones también están presentes",
@@ -776,6 +821,11 @@
         "Market ": "Mercado ",
         "[Market": "[Mercado",
         "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]",
         " Slobberbone.": " Slobberbone.",
         " Slobberbone?": " Slobberbone?",
         "Slobberbone ": "Slobberbone ",
@@ -829,7 +879,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/organization\/index.md": {
         "Plugin pour gerer different mode de sa maison\/son appartement": "Complemento para administrar diferentes modos de su casa \/ apartamento",
@@ -891,7 +946,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/other\/index.md": {
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
@@ -982,7 +1042,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/security\/index.md": {
         "Il permet aussi de configurer le bridge en mode push": "También le permite configurar el puente en modo push",
@@ -1030,7 +1095,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Waze in Time",
@@ -1059,7 +1129,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/weather\/index.md": {
         "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "Querías comprar una estación meteorológica, este complemento puede hacerte cambiar de opinión",
@@ -1100,7 +1175,12 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",
@@ -1188,6 +1268,11 @@
         " Market?": " Mercado?",
         "Market ": "Mercado ",
         "[Market": "[Mercado",
-        "Market]": "Mercado]"
+        "Market]": "Mercado]",
+        " Changelog.": " Cambios.",
+        " Changelog?": " Cambios?",
+        "Changelog ": "Cambios ",
+        "[Changelog": "[Cambios",
+        "Changelog]": "Cambios]"
     }
 }

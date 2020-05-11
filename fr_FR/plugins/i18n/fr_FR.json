@@ -14,7 +14,8 @@
         "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée": "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée",
         "L'équipe technique Jeedom assurera l'assistance sur ce plugin sans obligation de résultat": "L'équipe technique Jeedom assurera l'assistance sur ce plugin sans obligation de résultat",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/automation protocol\/index.md": {
         "Wes": "Wes",
@@ -61,6 +62,7 @@
         "Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double)": "Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double)",
         "Il permet de contrôler les actionneurs (volet\/dcl)": "Il permet de contrôler les actionneurs (volet\/dcl)",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Ce plugin remplacera à terme le premier plugin": "Ce plugin remplacera à terme le premier plugin",
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Il sera mis à disposition de tous les possesseurs du premier plugin",
         "Cela permettra à chacun de migrer tranquillement": "Cela permettra à chacun de migrer tranquillement"
@@ -77,7 +79,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/communication\/index.md": {
         "Wifipower": "Wifipower",
@@ -138,6 +141,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Thomas Guenneguez": "Thomas Guenneguez",
         "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée": "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée",
         "L'équipe technique Jeedom assurera l'assistance sur ce plugin sans obligation de résultat": "L'équipe technique Jeedom assurera l'assistance sur ce plugin sans obligation de résultat",
@@ -198,7 +202,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie",
@@ -231,6 +236,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Le widget permet de voir toutes les infos": "Le widget permet de voir toutes les infos",
         "Etat": "Etat",
         "Puissance": "Puissance",
@@ -252,7 +258,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/health\/index.md": {
         "SevenHugs": "SevenHugs",
@@ -268,7 +275,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/home automation protocol\/index.md": {
         "Passerelle domotique": "Passerelle domotique",
@@ -305,7 +313,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
@@ -339,6 +348,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Slobberbone": "Slobberbone",
         "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée": "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée",
         "Permet de controler les play1,3,5, connect, connect AMP et playbar": "Permet de controler les play1,3,5, connect, connect AMP et playbar",
@@ -361,7 +371,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/organization\/index.md": {
         "Mode": "Mode",
@@ -386,6 +397,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Il est capable d'interpréter les titres des événements comme interaction": "Il est capable d'interpréter les titres des événements comme interaction",
         "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact)": "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact)"
     },
@@ -426,7 +438,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/security\/index.md": {
         "Il permet aussi de configurer le bridge en mode push": "Il permet aussi de configurer le bridge en mode push",
@@ -450,7 +463,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Waze in Time",
@@ -463,7 +477,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins\/weather\/index.md": {
         "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis",
@@ -482,6 +497,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Météo. toutes les informations météos utiles pour votre système domotique": "Météo. toutes les informations météos utiles pour votre système domotique",
         "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir": "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir",
         "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres": "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres"
@@ -519,6 +535,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Il permet de lancer un cycle de nettoyage turbo ou eco": "Il permet de lancer un cycle de nettoyage turbo ou eco",
         "De mettre en pause": "De mettre en pause",
         "De reprendre": "De reprendre",

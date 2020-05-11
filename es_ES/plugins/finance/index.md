@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio|Complemento para enviar y recibir información de su Pokfolio|[Documentación](porkfolio/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)|
+|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio|Complemento para enviar y recibir información de su Pokfolio|[Documentación](porkfolio/index)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)<br/>[Cambios](porkfolio/changelog)|

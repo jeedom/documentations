@@ -9,5 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Plugin pour commander un arrosage automatique via le module GreenIQ|[Documentation](greeniq/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)|
-|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin pour les capteurs de plante koubachi|[Documentation](koubachi/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)|
+|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Plugin pour commander un arrosage automatique via le module GreenIQ|[Documentation](greeniq/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Changelog](greeniq/changelog)|
+|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin pour les capteurs de plante koubachi|[Documentation](koubachi/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Changelog](koubachi/changelog)|

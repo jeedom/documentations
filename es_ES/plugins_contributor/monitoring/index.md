@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Complemento de registro de actividades para equipos, escenarios y archivos de registro|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/jeelog/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)|
+|<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Complemento de registro de actividades para equipos, escenarios y archivos de registro|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/jeelog/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)<br/>[Cambios](https://kiboost.github.io/jeedom_docs/plugins/jeelog/es_ES/changelog.html)|

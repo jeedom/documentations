@@ -35,7 +35,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Reihenfolge der Aktionen",
@@ -71,7 +76,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/communication\/index.md": {
         "Plugin pour Livebox 2, play, 4": "Plugin für Livebox 2, spielen, 4",
@@ -121,7 +131,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
@@ -165,7 +180,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "CO2-Überwachung",
@@ -205,7 +225,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/health\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
@@ -300,7 +325,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimedia",
@@ -378,7 +408,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/other\/index.md": {
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
@@ -438,7 +473,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/security\/index.md": {
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ganz einfach, das System zu täuschen (Zwillinge, Fotos)",
@@ -469,7 +509,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/weather\/index.md": {
         "Rosée - Givre - Tendance": "Tau - Frost - Trend",
@@ -500,7 +545,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins_contributor\/wellness\/index.md": {
         "Intégration du Thermostat Qivivo": "Integration des Qivivo Thermostats",
@@ -542,6 +592,11 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     }
 }

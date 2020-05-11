@@ -38,7 +38,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/automation protocol\/index.md": {
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern",
@@ -147,7 +152,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/automatisation\/index.md": {
         "Gestion Volets": "Verschlussmanagement",
@@ -181,7 +191,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/communication\/index.md": {
         "Plugin pour la gestion des équipements wifipower": "Wifipower Equipment Management Plugin",
@@ -345,6 +360,11 @@
         "Market ": "Markt ",
         "[Market": "[Markt",
         "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]",
         " Important.": " Wichtig.",
         " Important?": " Wichtig?",
         "Important ": "Wichtig ",
@@ -438,7 +458,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "In jedem Fall sind die Symbole sowie die Namen anpassbar und wir haben die Kraft und die Energie",
@@ -515,6 +540,11 @@
         "Market ": "Markt ",
         "[Market": "[Markt",
         "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]",
         " Etat.": " Zustand.",
         " Etat?": " Zustand?",
         "Etat ": "Zustand ",
@@ -572,7 +602,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/health\/index.md": {
         "Plugin pour SevenHugs": "SevenHugs Plugin",
@@ -616,7 +651,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/home automation protocol\/index.md": {
         "Passerelle domotique": "Hausautomations-Gateway",
@@ -697,7 +737,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "Viele andere Funktionen sind ebenfalls vorhanden",
@@ -776,6 +821,11 @@
         "Market ": "Markt ",
         "[Market": "[Markt",
         "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]",
         " Slobberbone.": " Slobberbone.",
         " Slobberbone?": " Slobberbone?",
         "Slobberbone ": "Slobberbone ",
@@ -829,7 +879,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/organization\/index.md": {
         "Plugin pour gerer different mode de sa maison\/son appartement": "Plugin zur Verwaltung verschiedener Modi Ihres Hauses \/ Ihrer Wohnung",
@@ -891,7 +946,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/other\/index.md": {
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
@@ -982,7 +1042,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/security\/index.md": {
         "Il permet aussi de configurer le bridge en mode push": "Außerdem können Sie die Bridge im Push-Modus konfigurieren",
@@ -1030,7 +1095,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Warte rechtzeitig",
@@ -1059,7 +1129,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/weather\/index.md": {
         "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "Sie wollten eine Wetterstation kaufen, dieses Plugin kann Sie dazu bringen, Ihre Meinung zu ändern",
@@ -1100,7 +1175,12 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Reiniger denken",
@@ -1188,6 +1268,11 @@
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
-        "Market]": "Markt]"
+        "Market]": "Markt]",
+        " Changelog.": " Änderungsprotokoll.",
+        " Changelog?": " Änderungsprotokoll?",
+        "Changelog ": "Änderungsprotokoll ",
+        "[Changelog": "[Änderungsprotokoll",
+        "Changelog]": "Änderungsprotokoll]"
     }
 }

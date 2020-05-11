@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Shutter management|Plugin to manage the opening / closing of the shutters according to the sun|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Shutter management|Plugin to manage the opening / closing of the shutters according to the sun|[Documentation](sunshutter/index)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog)|

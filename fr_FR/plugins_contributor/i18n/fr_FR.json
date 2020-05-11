@@ -15,7 +15,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Séquencement d'actions",
@@ -31,7 +32,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/communication\/index.md": {
         "Livebox": "Livebox",
@@ -49,7 +51,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
@@ -73,6 +76,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "lampes, leds, prises de marques diverses": "lampes, leds, prises de marques diverses"
     },
     "plugins_contributor\/energy\/index.md": {
@@ -89,7 +93,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/health\/index.md": {
         "Santé": "Santé",
@@ -132,7 +137,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimédia",
@@ -166,7 +172,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/other\/index.md": {
         "Autre": "Autre",
@@ -190,7 +197,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/security\/index.md": {
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)",
@@ -205,7 +213,8 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/weather\/index.md": {
         "Rosée - Givre - Tendance": "Rosée - Givre - Tendance",
@@ -220,7 +229,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/wellness\/index.md": {
         "Qivivo": "Qivivo",
@@ -238,6 +248,7 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
-        "Market": "Market"
+        "Market": "Market",
+        "Changelog": "Changelog"
     }
 }

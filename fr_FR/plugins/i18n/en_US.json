@@ -38,7 +38,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/automation protocol\/index.md": {
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web",
@@ -147,7 +152,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/automatisation\/index.md": {
         "Gestion Volets": "Shutter management",
@@ -181,7 +191,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/communication\/index.md": {
         "Plugin pour la gestion des équipements wifipower": "Wifipower equipment management plugin",
@@ -345,6 +360,11 @@
         "Market ": "Market ",
         "[Market": "[Market",
         "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]",
         " Important.": " Important.",
         " Important?": " Important?",
         "Important ": "Important ",
@@ -438,7 +458,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "In each case the icons are customizable as well as the names and we have the power and the energy",
@@ -515,6 +540,11 @@
         "Market ": "Market ",
         "[Market": "[Market",
         "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]",
         " Etat.": " State.",
         " Etat?": " State?",
         "Etat ": "State ",
@@ -572,7 +602,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/health\/index.md": {
         "Plugin pour SevenHugs": "SevenHugs plugin",
@@ -616,7 +651,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/home automation protocol\/index.md": {
         "Passerelle domotique": "Home automation gateway",
@@ -697,7 +737,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "Many other functions are also present",
@@ -776,6 +821,11 @@
         "Market ": "Market ",
         "[Market": "[Market",
         "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]",
         " Slobberbone.": " Slobberbone.",
         " Slobberbone?": " Slobberbone?",
         "Slobberbone ": "Slobberbone ",
@@ -829,7 +879,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/organization\/index.md": {
         "Plugin pour gerer different mode de sa maison\/son appartement": "Plugin to manage different mode of your house \/ apartment",
@@ -891,7 +946,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/other\/index.md": {
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
@@ -982,7 +1042,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/security\/index.md": {
         "Il permet aussi de configurer le bridge en mode push": "It also allows you to configure the bridge in push mode",
@@ -1030,7 +1095,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Waze in Time",
@@ -1059,7 +1129,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/weather\/index.md": {
         "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "You wanted to buy a weather station, this plugin may make you change your mind",
@@ -1100,7 +1175,12 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",
@@ -1188,6 +1268,11 @@
         " Market?": " Market?",
         "Market ": "Market ",
         "[Market": "[Market",
-        "Market]": "Market]"
+        "Market]": "Market]",
+        " Changelog.": " Changelog.",
+        " Changelog?": " Changelog?",
+        "Changelog ": "Changelog ",
+        "[Changelog": "[Changelog",
+        "Changelog]": "Changelog]"
     }
 }
