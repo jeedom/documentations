@@ -1,3 +1,5 @@
+# Kompatibilität von Bluetooth-Geräten
+
 
 # Amazfit
 
