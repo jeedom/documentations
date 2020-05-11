@@ -83,4 +83,4 @@ video tutoriales : [Video tutoriales](https://doc.jeedom.com/es_ES/presentation/
 No dudes en ir al Foro de Jeedom por cualquier otro
 Pregunta : [Foro de Jeedom](https://www.jeedom.com/forum/).
 
-Gracias y buen descubrimiento de la automatización del hogar con Jeedom..
+Gracias y buen descubrimiento de la automatización del hogar con Jeedom.

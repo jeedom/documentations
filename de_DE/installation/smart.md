@@ -19,7 +19,7 @@ Jeedom bietet einen Service mit automatischem Backup-Abonnement für die Private
 
 Erforderliches Material : ein USB-Stick (mindestens 8 GB).
 
->**Note**
+>**Notiz**
 >
 >Denken Sie daran, (lokal) eine Jeedom-Konfigurationssicherung beiseite zu legen
 
@@ -33,7 +33,7 @@ Erforderliches Material : ein USB-Stick (mindestens 8 GB).
 - Finden Sie Ihren Smart im Netzwerk
 - Verbinden Sie sich erneut mit dem Login : Administrator und Passwort : admin
 
-> **Important**
+> **Wichtig**
 >
 > Achtung ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. Wenn Sie eine Sicherungskopie Ihrer Jeedom-Konfiguration haben, müssen Sie diese erst anschließend wiederherstellen.
 

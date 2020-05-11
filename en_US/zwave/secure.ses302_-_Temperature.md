@@ -27,7 +27,7 @@ Summary
 The SES302 probe allows the measurement of the ambient temperature
 interior. It is powered by 2 AA batteries and is Z-Wave certified
 More. In addition to its main function, it is possible to wire
-various SECURE external probes on the module, i.e.:
+various SECURE external probes on the module, i.e:
 
 -   An external NTC temperature sensor (SES001)
 
@@ -78,7 +78,7 @@ Technical characteristics
 
 -   Frequency : 868.42 Mhz
 
--   Alimentation: 2x AA batteries (LR6)
+-   Food: 2x AA batteries (LR6)
 
 -   Scope : up to 100 m in free field
 
@@ -112,11 +112,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press 1 second on
 > the button on the back and release, according to its paper documentation.
@@ -140,7 +140,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -165,7 +165,7 @@ useful if you have connected external probes
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -263,7 +263,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wake up, after a

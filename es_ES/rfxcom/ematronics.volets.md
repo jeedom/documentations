@@ -37,7 +37,7 @@ su control remoto Ematronic.
 Buscar ID de control remoto 
 -------------------------------------
 
-Remarque: Los controles remotos de Ematronic siempre comienzan con : 09 19 03
+Observación: Los controles remotos de Ematronic siempre comienzan con : 09 19 03
 entonces el área que nos interesa comienza desde "Mensaje de prueba" : 09 19 03.
 
 Identificar : Id1 e Id2 y agregue el siguiente hexadecimal : en mi ejemplo
@@ -50,7 +50,7 @@ Detenga el modo de depuración con el botón "Detener / reiniciar el demonio"
 
 ![image06](images/volet.ematronic/image06.png)
 
-Creación del control remoto bajo JeeDom. 
+Creación del control remoto bajo JeeDom 
 =======================================
 
 Vaya a Complementos, Protocolo de inicio, RFXcom.
@@ -58,11 +58,11 @@ Vaya a Complementos, Protocolo de inicio, RFXcom.
 ![image10](images/volet.ematronic/image10.png)
 
 Haga clic en "Agregar" e ingrese un nombre para su control remoto
-virtuelle.
+virtual.
 
 ![image00](images/volet.ematronic/image00.png)
 
-Elija la plantilla de la lista de equipos. : "Obturador ematronic -
+Elija la plantilla de la lista de equipos : "Obturador ematronic -
 Por defecto".
 
 Reemplace la identificación automática con la que extrajo anteriormente
@@ -85,35 +85,35 @@ Asocia tu control remoto virtual JeeDom con tu motor Ematronic:
 Reinicio del motor: 
 ---------------------------
 
--   Desconectar eléctricamente el motor..
+-   Desconectar eléctricamente el motor.
 
 -   En el control remoto original, deje el botón "Arriba" presionado 3 o 4
     segundos, el LED se vuelve rojo sólido.
 
 -   Conectar eléctricamente el motor.
 
--   Suelte el botón en el control remoto..
+-   Suelte el botón en el control remoto.
 
--   El motor emitirá 5 pitidos..
+-   El motor emitirá 5 pitidos.
 
 -   Presione rápidamente el "micro botón" con un clip
     la parte posterior del control remoto.
 
--   El motor emitirá 3 pitidos..
+-   El motor emitirá 3 pitidos.
 
 Asociación del control remoto virtual JeeDom con el motor Ematronic: 
 ====================================================================
 
--   Desconectar eléctricamente el motor..
+-   Desconectar eléctricamente el motor.
 
 -   En el control remoto original, deje el botón "Arriba" Presione 3 o 4
     segundos, el LED se vuelve rojo sólido.
 
 -   Conectar eléctricamente el motor.
 
--   Suelte el botón en el control remoto..
+-   Suelte el botón en el control remoto.
 
--   El motor emitirá 5 pitidos..
+-   El motor emitirá 5 pitidos.
 
 -   Presione el comando "Montar" en el control remoto virtual de
     JeeDom. foto::images / shutter.ematronic / image09.png \ [\]

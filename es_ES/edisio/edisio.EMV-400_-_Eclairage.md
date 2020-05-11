@@ -26,7 +26,7 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy
 práctico porque permite asociar un transmisor sin tener que acceder al
 receptor.
 
-> **Important**
+> **Importante**
 >
 > Neutral solo es necesario para el modo "Obturador""
 
@@ -53,16 +53,16 @@ Funciones
 
 -   Nivel bajo de batería del transmisor
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 Características técnicas 
 ===========================
 
 -   Tipo de módulo: Receptor Edisio
 
--   Alimentation: 230VAC, 50Hz
+-   Suministro: 230VAC, 50Hz
 
 -   Cableado: 4 cables, 2 para controles y 2 para alimentación
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento: -10 ° C + 45 ° C
 
--   Dimensions: 48x46x26mm
+-   Dimensiones: 48x46x26mm
 
 -   Grado de protección: IP20
 
@@ -94,14 +94,14 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Important**
+> **Importante**
 >
 > Por el contrario, los receptores Edisio deben crearse manualmente en
 > Jeedom.
@@ -111,12 +111,12 @@ Interruptor DIP y botón "R" :
 
 ![bouton association](images/emv.400/bouton_association.jpg)
 
--   El interruptor DIP le permitirá ajustar los parámetros.
+-   El interruptor DIP le permitirá ajustar los parámetros
     (Modo repetidor / obturador / iluminación / temporizador) del módulo:
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **Note**
+> **Nota**
 >
 > Para evitar redundancias innecesarias, nunca active el modo
 > "Repetidor "en todos los receptores, máximo 5 receptores por
@@ -128,7 +128,7 @@ Interruptor DIP y botón "R" :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **Note**
+> **Nota**
 >
 > Al presionar R 3x se activa el modo remoto.
 
@@ -138,7 +138,7 @@ Diagrama de funciones
 A continuación, si su transmisor está configurado en "1 tecla" o "modo 2
 teclas ", así es como funciona el módulo:
 
-> **Note**
+> **Nota**
 >
 > Consulte la documentación del fabricante para poder
 > configura tu transmisor.
@@ -165,9 +165,9 @@ Modo "Iluminación""
 ===================
 
 El modo "Iluminación" le permite controlar 2 dispositivos eléctricos para
-distance.
+distancia.
 
-> **Important**
+> **Importante**
 >
 > Neutral no es necesario
 
@@ -176,16 +176,16 @@ Configuracion electrica y conexiones :
 
 ![mode eclairage](images/emv.400/mode_eclairage.jpg)
 
-> **Important**
+> **Importante**
 >
 > Para que el módulo esté en modo "Iluminación", el interruptor DIP 2 debe estar
 > en alto
 
-> **Important**
+> **Importante**
 >
 > NUNCA CONECTE BAJO VOLTAJE
 
-Creación del módulo en Jeedom. 
+Creación del módulo en Jeedom 
 ------------------------------
 
 Para asociar un módulo receptor Edisio con Jeedom, debe crear
@@ -197,7 +197,7 @@ Una vez que se crea su equipo, debe obtener esto :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **Note**
+> **Nota**
 >
 > Recuerde activar su nuevo equipo.
 
@@ -226,7 +226,7 @@ Aquí está la lista de comandos :
 
 -   E : Este es el comando que te permite usar el modo remoto
 
-> **Important**
+> **Importante**
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto si
 > use otro transmisor, Jeedom no podrá actualizar el estado
@@ -240,14 +240,14 @@ disponible :
 
 ![Comandos](images/emv.400/infos_eclairage.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería para los módulos de batería.
+-   Batería : Indica el estado de la batería para los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 Asociación del micromódulo con Jeedom 
 ===================================
@@ -255,7 +255,7 @@ Asociación del micromódulo con Jeedom
 Para que pueda interactuar con Jeedom, como si fuera un
 Transmisor Edisio.
 
-> **Note**
+> **Nota**
 >
 > Una de las grandes ventajas de Edisio es que un receptor puede tener
 > varios emisores asociados
@@ -342,7 +342,7 @@ ahora reemplaza el botón "R" en el receptor.
             comando "E" en Jeedom, para validar la asociación, el pitido
             el sonido se detiene.
 
-> **Note**
+> **Nota**
 >
 > Puede comenzar de nuevo tantas veces como quiera asociar
 > de transmisores a receptor

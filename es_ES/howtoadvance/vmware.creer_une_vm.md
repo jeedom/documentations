@@ -5,7 +5,7 @@ camino del gerente :
 
 -   la interfaz web (presente por defecto en 6.0 actualización 2, o por
     a través de un vib para las otras versiones), accedemos a él por
-    IP\_ESXI / ui
+    IP \ _ESXI / ui
 
 -   El cliente pesado e histórico de VMware (cliente vSphere)
 
@@ -19,14 +19,14 @@ en VMware, de hecho, es probable que encuentre algunos errores o
 ralentiza con un poco de actualización de la página y que
 deja sin preocupaciones.
 
-Conexión a la interfaz web. 
+Conexión a la interfaz web 
 ===========================
 
-Vaya a IP\_ESXI / ui con su navegador de Internet, debe tener :
+Vaya a IP \ _ESXI / ui con su navegador de Internet, debe tener :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 
-> **Note**
+> **Nota**
 >
 > Si no tienes nada te aconsejo que instales
 > interfaz web, toda la información
@@ -116,7 +116,7 @@ duro, cpu, memoria ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
 
-> **Note**
+> **Nota**
 >
 > Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta
 > sin embargo, no es realmente posible reducir el tamaño
@@ -138,7 +138,7 @@ Entonces haz lo siguiente :
 ![vmware.createvm12]((images/vmware.createvm12.PNG)
 
 Luego tiene un resumen de su configuración, haga clic en
-"Terminer" :
+"Terminar" :
 
 ![vmware.createvm13]((images/vmware.createvm13.PNG)
 
@@ -161,20 +161,20 @@ su sistema operativo :
 
 ![vmware.createvm17]((images/vmware.createvm17.PNG)
 
-> **Important**
+> **Importante**
 >
 > Una vez que su máquina esté instalada, DEBE instalar
 > Herramientas de VMware (esto permite que VMware tenga información sobre su VM
 > y apágalo correctamente). Bajo debian solo haz
 > "sudo apt-get -y install open-vm-tools".
 
-Para el resto de la instalación, los invito a leer esto.
+Para el resto de la instalación, los invito a leer esto
 [Tutorial]((https://doc.jeedom.com/es_ES/howto/doc-howto-debian.installation.html#_installation)
 
 Montar dispositivos USB en la VM 
 =======================================
 
-> **Note**
+> **Nota**
 >
 > Si no tiene las siguientes opciones, es necesario actualizar
 > el cliente de host integrado ESXi, toda la información
@@ -185,7 +185,7 @@ de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM
 conectado y tuve que conectarlos a mi máquina virtual Jeedom para poder
 úsalo.
 
-> **Note**
+> **Nota**
 >
 > Para Zwave, RFXcom, edisio y enOcean no hay problema, para
 > Claves GSM debe seguir esto
@@ -201,7 +201,7 @@ Haga clic en "Agregar otro dispositivo" y luego en el controlador USB :
 
 ![vmware.createvm26]((images/vmware.createvm26.PNG)
 
-> **Note**
+> **Nota**
 >
 > El siguiente paso debe repetirse para cada dispositivo USB que
 > quieres conectarte

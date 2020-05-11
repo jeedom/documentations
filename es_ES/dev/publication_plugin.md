@@ -6,16 +6,16 @@
 - A la espera de la validación de la cuenta de mercado como desarrollador
 - Tenga su complemento en github (depósito privado o no)
 
-## Configuration
+## Configuración
 
 Una vez conectado con su cuenta de desarrollador en el mercado, debe : 
 
 - haga clic en el mercado y luego agregue
 - complete la información en su complemento : 
   - Principal : 
-    - Prix
+    - Precio
     - Id (el que está en el archivo info.json)
-    - Nom
+    - Nombre
     - Categoría
     - Si es privado o no comenzar
   - Documentación y enlaces
@@ -31,8 +31,8 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     
    Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
    
-   - beta
-   - stable
+   - Beta
+   - Estable
    - pro (es inútil en el 99% de los casos)
    - stablev3 (próximamente)
    

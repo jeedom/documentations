@@ -31,7 +31,7 @@ Attention it is necessary to open port 80 on the router (ISP) !
 Activation of virtualHost and SSL module 
 ------------------------------------------
 
-> **Note**
+> **NOTE**
 >
 > Connect in SSH on the Jeedom box.
 
@@ -39,7 +39,7 @@ Activation of virtualHost and SSL module
     a2ensite default-ssl.conf
     apache2 restart service
 
-> **Note**
+> **NOTE**
 >
 > No certificate will be issued by LetsEncrypt as long as your site
 > in HTTPS will not be reachable from the outside.
@@ -50,7 +50,7 @@ You need to replace the settings <email@domaine.com> and domaine.com
 by your values. Normally the parameters for adding the HTTPS protocol
 are added by the script in Apache.
 
-> **Note**
+> **NOTE**
 >
 > If you use the automatic renewal method below,
 > you can disable virtualHost **default-ssl.conf** with the
@@ -105,7 +105,7 @@ Renewal is done with the order :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-You will receive an email automatically when the deadline expires.
+You will receive an email automatically when the deadline expires
 certificate that will remind you to launch this command.
 
 Automatic method 
@@ -159,7 +159,7 @@ steps to follow :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **IMPORTANT**
 >
 > Be careful to adapt the path to the script.
 

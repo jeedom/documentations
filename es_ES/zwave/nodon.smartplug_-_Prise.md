@@ -44,8 +44,8 @@ Funciones
 
 -   Detección de pérdida de corriente de línea
 
--   Ergonomique: Posibilidad de enchufar la cabeza arriba / enchufe de la cabeza
-    bas
+-   Ergonómico: Posibilidad de enchufar la cabeza arriba / enchufe de la cabeza
+    Bajo
 
 -   Gestión inteligente de alarmas
 
@@ -72,7 +72,7 @@ Características técnicas
 
 -   Alcance: 40m interior / 80m exterior
 
--   Dimensions: 104 \*51 \*36mm
+-   Dimensiones: 104 \*51 \*36mm
 
 -   2 años de garantia
 
@@ -85,7 +85,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : Smartplug
 
@@ -104,11 +104,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > hasta que la luz se vuelva roja, de acuerdo con su documentación
@@ -133,7 +133,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -150,7 +150,7 @@ Aquí está la lista de comandos :
 
 -   Uno : Este es el comando que enciende la salida
 
--   Apagado : Es el comando que hace posible extinguir la captura.
+-   Apagado : Es el comando que hace posible extinguir la captura
 
 -   Estado : Se usa para averiguar si la toma de corriente está alimentada o no
     (Detección de falla de energía / desconexión)
@@ -200,14 +200,14 @@ Detalles del parámetro :
     documentación en papel o burbuja de ayuda en libertad). El es
     recomienda establecer este parámetro en 1.
 
--   3 : Este parámetro permite activar o desactivar los grupos 2 y 3..
+-   3 : Este parámetro permite activar o desactivar los grupos 2 y 3.
 
 -   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart
     Enchufe activado). Cuando la configuración está habilitada, no está
     posible apagar el Smart Plug (local o radio)
 
--   Parámetros 5 a 20 : A través de los parámetros de configuración \# 5 para
-    \# 20, es posible configurar hasta 8 alarmas diferentes.
+-   Parámetros 5 a 20 : A través de los parámetros de configuración \ # 5 para
+    \ # 20, es posible configurar hasta 8 alarmas diferentes.
     Para configurar correctamente sus alarmas, el formulario en línea:
     www.nodon.fr/support/asp3/alarm lo guiará
 
@@ -215,7 +215,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene 8 grupos de asociación..
+Este módulo tiene 8 grupos de asociación.
 
 \
 
@@ -262,7 +262,7 @@ Este módulo tiene 8 grupos de asociación..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debe encontrarse en los grupos 1 y 4 \
 

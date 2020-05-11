@@ -26,7 +26,7 @@ Resumen
 
 El control remoto del llavero Aeon Labs con un diseño moderno y agradable
 tiene 4 botones para controlar todo tipo de dispositivos
-Z-Wave como lámparas, persianas, etc.
+Z-Wave como lámparas, persianas, etc
 
 Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
 en tu bolsillo. Fácil de usar y elegante, está equipado con un
@@ -56,7 +56,7 @@ Funciones
 
 -   Solapa de protección deslizante
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -105,11 +105,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > APRENDER, de acuerdo con su documentación en papel.
@@ -133,7 +133,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponibles.
+disponible.
 
 \
 
@@ -169,7 +169,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -272,7 +272,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

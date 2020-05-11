@@ -1,28 +1,28 @@
 D-Link DCH-Z110 - "3 in 1 Öffnung" 
 ====================================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/dlink.dchz110/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Der Detektor DCH-Z110 bietet 3 verschiedene Funktionen : Erkennung
 Öffnung, Temperatursensor und Lichtdetektor. Es ist
@@ -39,18 +39,18 @@ Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
 Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
 und der Raum ist dunkel.
 
-Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h
 im Falle einer wesentlichen Änderung und jedes Mal das Öffnen / Schließen
 erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…?) Ist
 notwendig, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie haben
 bereits ein bestehendes Netzwerk.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
 
@@ -60,7 +60,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Autoprotection
+-   Selbstschutz
 
 -   Anzeige für niedrigen Batteriestand
 
@@ -68,12 +68,12 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 Offizielle Seite :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
@@ -82,14 +82,14 @@ Anderer technischer Link :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-Techniken](images / dlink.dchz110 / caracteristiques_techniques.jpg)
+Techniken] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
 -   Machen Sie : D-Link
 
@@ -104,20 +104,20 @@ Moduldaten
 
 -   Produkt-ID : 14 \ [0x000e \]
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Installieren Sie das Modul nicht am Fenster / an der Tür, bevor Sie es haben
 > richtig konfiguriert, und achten Sie auf die Ausrichtung von
@@ -127,39 +127,39 @@ Aufnahme beziehen sich darauf
 > zweitens gemäß seiner Dokumentation. (konstant rot blinkend
 > im Assoziationsmodus)
 
-\.
+\
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/dlink.dchz110/commandes.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    d'ouverture
+    Öffnung
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
@@ -171,44 +171,44 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Speichern Sie dann während einer ersten Aufnahme oder Änderung
 > Wecken Sie das Modul immer durch Drücken der Zuordnungstaste auf.
 > Es sollte rot blinken und den Status ändern.
 
-\.
+\
 
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/dlink.dchz110/config1.jpg)
 
 ![Config2](images/dlink.dchz110/config2.jpg)
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
     Verein 2
@@ -246,25 +246,25 @@ Parameterdetails :
     empfohlen : 10
 
 -   21: Temperaturänderungswert in ° F zum Auslösen von a
-    rapport
+    Bericht
 
 -   22: Wert in% der auszulösenden Helligkeitsänderung
     ein Bericht. Empfohlener Wert : 10
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/dlink.dchz110/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
@@ -272,21 +272,21 @@ Gut zu wissen
 Zuordnung / Benachrichtigung mit anderen Modulen möglich (Beispiel: Meerjungfrau
 DCH-Z510 Glockenspielbenachrichtigung beim Öffnen von Tür / Fenster)
 
-\.
+\
 
 Alternative visuelle 
 -----------------
 
-\.
+\
 
 ![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
@@ -295,34 +295,34 @@ Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 -   Verringern Sie das Aufweckintervall in der Modulkonfiguration / im System
     (in Sekunden)
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Dieses Modul wird durch Drücken der Zuordnungstaste aktiviert.
 
-\.
+\
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt. (Zuordnungstaste für
 Kraft, daher das Interesse, das Modul nicht vor seiner zu installieren
 gute Konfiguration)
 
-\.
+\
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+\
 

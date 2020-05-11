@@ -5,8 +5,8 @@ There are several ways in Jeedom to report a concern :
 - Put the concern back on the [community](https://community.jeedom.com), this is usually where you will get the quickest response.
 - Report a concern to the Jeedom team :
   - **Support request** (requires a service pack power or more or even if the concern is on a plugin / paid service), this request is **private** and will put you directly in contact with the Jeedom support team which analyzes your particular case.
-  - **Bug report**, in this case the request is **publique** and will be posted on the community.
-  - **Request for improvement**, in this case the request is **publique** and will be posted on the community.
+  - **Bug report**, in this case the request is **public** and will be posted on the community.
+  - **Request for improvement**, in this case the request is **public** and will be posted on the community.
 
 > **NOTE**
 >
@@ -34,5 +34,5 @@ Then take a screenshot of what will be displayed, in particular the red line :
 
 Here if you follow all this well you should have answers to your problem much faster and much more accurate and maybe even allow the person who helped you to help another person faster.
 
-- You have a problem with a demon ? it is absolutely necessary to put the log in debug of it otherwise no help will be possible. You can also add the dependencies installation log (often in\_update).
-- You have a problem installing dependencies ? it is absolutely necessary to put the log of their installation (often in\_update).
+- You have a problem with a demon ? it is absolutely necessary to put the log in debug of it otherwise no help will be possible. You can also add the dependencies installation log (often in \ _update).
+- You have a problem installing dependencies ? it is absolutely necessary to put the log of their installation (often in \ _update).

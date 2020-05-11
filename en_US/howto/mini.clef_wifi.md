@@ -9,14 +9,14 @@ Please note, this procedure only works as it is in the
 strict framework of the environment indicated previously (same model, same
 Jeedom box, same WiFi authentication) . Of course this can
 also work for other components (or not) but without any
-garantie.
+guarantee.
 
-> **Important**
+> **IMPORTANT**
 >
 > Attention this procedure is especially not to do on mini + under
 > trouble losing access to it and having to reinstall everything.
 
-> **Important**
+> **IMPORTANT**
 >
 > This doc is to be applied at your own risk in case of concerns
 > the Jeedom team can in no way be held responsible.
@@ -89,7 +89,7 @@ Here is my operational file at home :
     network={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            mode=0
+            mode = 0
             proto = WPA2
             pairwise = CCMP
             group = CCMP

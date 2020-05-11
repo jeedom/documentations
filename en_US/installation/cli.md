@@ -8,7 +8,7 @@ Here you will find the documentation to install Jeedom on most linux systems (te
 
 > **Important**
 >
-> Installation script can be dangerous because it assumes your system is blank. If not, please read the script and install by hand..
+> Installation script can be dangerous because it assumes your system is blank. If not, please read the script and install by hand.
 
 Connect in SSH to your system and do :
 
@@ -20,11 +20,11 @@ chmod +x install.sh
 
 Then just go to ``IP_JEEDOM`` from your internet browser.
 
-> **Note**
+> **NOTE**
 >
 > The default credentials are admin / admin
 
-> **Note**
+> **NOTE**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root password
 

@@ -32,7 +32,7 @@ or rapid temperature drop.
 It is equipped with a tilt sensor which sends an alert
 immediately to the Z-Wave network if the detector is moved or stolen
 (feeds back to the Z-Wave controller the tilt or
-mouvement).
+movement).
 
 This universal flood and temperature detector can be powered
 by battery or by an external 12 or 24 VDC power supply. When he is
@@ -41,7 +41,7 @@ emergency power.
 
 Thanks to its temperature sensor you can control the temperature of
 your soil. It is waterproof, in case of flood it floats on the surface of
-l'eau.
+the water.
 
 It also has a siren alarm which can sound in the event of
 problem. You can connect the dry contact output to a system
@@ -85,7 +85,7 @@ Technical characteristics
 
 -   Battery life : 2 years
 
--   Consumption on external power supply : 0,4W
+-   Consumption on external power supply : 0.4W
 
 -   Maximum current supported at output (ALARM NC, TAMP NC) :25mA
 
@@ -134,11 +134,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > central inclusion button, identified TMP, according to its documentation
@@ -163,7 +163,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -191,7 +191,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -317,7 +317,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -32,7 +32,7 @@ o caída rápida de temperatura.
 Está equipado con un sensor de inclinación que envía una alerta
 inmediatamente a la red Z-Wave si el detector es movido o robado
 (retroalimenta al controlador Z-Wave la inclinación o
-mouvement).
+movimiento).
 
 Este detector universal de inundación y temperatura puede ser alimentado
 por batería o por una fuente de alimentación externa de 12 o 24 VCC. Cuando es
@@ -41,7 +41,7 @@ poder de emergencia.
 
 Gracias a su sensor de temperatura puedes controlar la temperatura de
 tu suelo. Es resistente al agua, en caso de inundación flota sobre la superficie de
-l'eau.
+agua.
 
 También tiene una alarma de sirena que puede sonar en caso de
 problema. Puede conectar la salida de contacto seco a un sistema
@@ -85,7 +85,7 @@ Características técnicas
 
 -   Duración de la batería : 2 años
 
--   Consumo en fuente de alimentación externa : 0,4W
+-   Consumo en fuente de alimentación externa : 0.4W
 
 -   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
 
@@ -134,11 +134,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión central, TMP identificado, de acuerdo con su documentación
@@ -163,7 +163,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -191,7 +191,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -230,19 +230,19 @@ Detalles del parámetro :
     valeur de 0 à 3600 s (0 par défaut/ dès qu‘il n'y a plus de détection il
     se detiene al instante)
 
--   2 \. Elección del tipo de alarma.. Valor :
+-   2 \. Elección del tipo de alarma. Valor :
 
         0 : Alarma audible y visual desactivada
         1 : Alarma sonora desactivada y alarma visual activada
         2 : Alarma sonora activada y alarma visual desactivada
         3 : Alarma audible y visual activada.
 
--   10 \. Tiempo de transferencia entre dos lecturas de temperatura. : 1 a 65,535 s
+-   10 \. Tiempo de transferencia entre dos lecturas de temperatura : 1 a 65,535 s
     (300 por defecto). Tenga cuidado de no poner un valor de arrastre también
     muy juntos bajo pena de ver la batería del módulo derretirse
     velocidad ! (Se recomienda 1800)
 
--   12 \. Diferencia de temperatura entre dos informes. : de 1 a 1000 (50 por defecto
+-   12 \. Diferencia de temperatura entre dos informes : de 1 a 1000 (50 por defecto
     = 0.5 °). De acuerdo con el parámetro 10, también es posible
     gestionar la transferencia de temperatura según la variación de
     estos últimos.
@@ -260,7 +260,7 @@ Detalles del parámetro :
     la temperatura actual
 
 -   75 \. Establecer la duración de la alarma : de 0 a 65535s (0 por defecto,
-    La alarma se detiene tan pronto como ya no detecta una falla).
+    La alarma se detiene tan pronto como ya no detecta una falla)
 
 \
 
@@ -317,7 +317,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

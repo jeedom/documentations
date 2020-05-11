@@ -47,7 +47,7 @@ Technische Daten
 
 -   Reichweite im freien Feld : 100M
 
--   Betriebstemperatur : -10 ° C + 50 ° C.
+-   Betriebstemperatur : -10 ° C + 50 ° C
 
 -   Abmessungen : 65 x 18 mm
 
@@ -69,9 +69,9 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
@@ -142,7 +142,7 @@ Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der
 Jeedom-Szenario-Plugin, interagieren Sie mit Ihrer Fernbedienung auf Jeedom
 und seine Ausrüstung.
 
-> **Note**
+> **Notiz**
 >
 > Die Fernbedienung mit binärer Statusrückmeldung.
 

@@ -1,28 +1,28 @@
 Philio PSP01 
 ============
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/philio.psp01/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Der PSP01-Detektor bietet 3 verschiedene Funktionen : Erkennung von
 Bewegung, Temperatursensor und Lichtdetektor.
@@ -40,18 +40,18 @@ Z-Wave-Controller für die Heimautomation, indem beide erkannt werden
 Änderungen in der Helligkeit. Also können wir a auslösen
 Beleuchtung, wenn Bewegung im Dunkeln erkannt wird.
 
-Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h.
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h
 signifikante Änderung, und jedes Mal, wenn eine Bewegung ist
 erkannt. Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich
 um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits einen haben
 bestehendes Netzwerk.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
 
@@ -67,7 +67,7 @@ Funktionen
 
 -   Taste zum Ein- / Ausschließen des Detektors
 
--   Autoprotection
+-   Selbstschutz
 
 -   Anzeige für niedrigen Batteriestand
 
@@ -75,12 +75,12 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Modultyp : Z-Wave Sender
 
@@ -92,7 +92,7 @@ Technische Daten
 
 -   Übertragungsentfernung : 30m drinnen
 
--   Temperatursensor : -10 bis 70 ° C.
+-   Temperatursensor : -10 bis 70 ° C
 
 -   Helligkeitssensor : 0 bis 500 Lux
 
@@ -104,7 +104,7 @@ Technische Daten
 
 -   Gewicht : 39g
 
--   Betriebstemperatur : -10 bis 40 ° C.
+-   Betriebstemperatur : -10 bis 40 ° C
 
 -   Betriebsfeuchtigkeit : 85% rF max
 
@@ -112,12 +112,12 @@ Technische Daten
 
 -   Z-Wave-Zertifizierung : ZC08-13050003
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
 -   Machen Sie : Philio Technology Corporation
 
@@ -129,59 +129,59 @@ Moduldaten
 
 -   Produkt-ID : 2
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\.
+\
 
 ![inclusion](images/philio.psp01/inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/philio.psp01/commandes.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
 -   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    d'ouverture
+    Öffnung
 
 -   Temperatur : es ist der Befehl, der es erlaubt, die
     Temperatur
@@ -193,46 +193,46 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+\
 
 Alle Module des Bereichs haben die gleichen IDs. Es liegt an Ihnen, diese anzuzeigen
 entsprechend Ihrem Modul.
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-\.
+\
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/philio.psp01/config1.jpg)
 
 ![Config2](images/philio.psp01/config2.jpg)
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
     Verein 2
@@ -262,31 +262,31 @@ Parameterdetails :
 -   13: Ermöglicht die Definition der Zeit zwischen zwei Temperaturberichten
     (eine Einheit = 30 Minuten)
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
 
-\.
+\
 
 ### Besonderheiten 
 
-\.
+\
 
-> **Tip**
+> **Spitze**
 >
 > Dieses Modul hat eine Besonderheit und keinen Bericht, der auf dem basiert
 > Variationen, aber nur im Laufe der Zeit, sendet es alle seine Informationen an
@@ -295,56 +295,56 @@ Gut zu wissen
 > Feld "Ereignis bei Änderung" auf der Anwesenheit, wenn Sie dies verwenden
 > Befehl im Szenario-Trigger.
 
-\.
+\
 
 ### Alternative visuelle 
 
-\.
+\
 
 ![vuewidget](images/philio.psp01/vuewidget.jpg)
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
 
-\.
+\
 
 Aktivieren Sie das Kontrollkästchen "Ereignis bei Änderung"".
 
-\.
+\
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-\.
+\
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+\
 
 **@sarakha63**

@@ -1,7 +1,7 @@
 Here is a tutorial on how to install openjabnab locally (on an rpi or
 humming)
 
-> **Note**
+> **NOTE**
 >
 > This tutorial is largely inspired by
 > [this one](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
@@ -43,7 +43,7 @@ The result is :
 
 Here the IP address is 192.168.0.162.
 
-> **Note**
+> **NOTE**
 >
 > For the rest of the tutorial I will use this IP, it is of course
 > replace depending on which one you actually
@@ -110,7 +110,7 @@ And put :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Important**
+> **IMPORTANT**
 >
 > Remember to replace the 162 on the last line with the last
 > part of your system ip
@@ -131,12 +131,12 @@ You should have :
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 time = 0.067 ms
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 time = 0.059 ms
     64 bytes from ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 time = 0.068 ms
-    ^C
+    ^ C
     --- ojn.raspberry.pi ping statistics ---
     4 packets transmitted, 4 received, 0% packet loss, time 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **Note**
+> **NOTE**
 >
 > You have to do ctrl + c to quit the ping
 
@@ -217,7 +217,7 @@ Do :
     qmake -r
     make
 
-> **Note**
+> **NOTE**
 >
 > This step can be very long (up to 45min)
 
@@ -242,7 +242,7 @@ Openjabnab web server configuration
 =======================================
 
 On your post you must edit the file
-C:\\ Windows \\ System32 \\ drivers \\ etc and add :
+VS:\\ Windows \\ System32 \\ drivers \\ etc and add :
 
     192.168.0.162 ojn.raspberry.pi
 
@@ -259,16 +259,16 @@ Now everything is ready, all that remains is to launch the server :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./openjabnab
+    ./ openjabnab
 
 Now go to :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Note**
+> **NOTE**
 >
 > If everything is good you should have the statistics that appear in
-> bas
+> Low
 
 Rabbit configuration 
 ======================
@@ -318,7 +318,7 @@ And add :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Important**
+> **IMPORTANT**
 >
 > It is absolutely necessary to put it in the root crontab, if you are
 > again with user ojn do ctrl + D
@@ -399,7 +399,7 @@ Put the TTS locally
 Everything is local except the TTS which goes through the Acapela site but it is
 possible by modifying some files to pass it locally
 
-> **Note**
+> **NOTE**
 >
 > I will consider that oenjabnab is installed in
 > / home / ojn / OpenJabNab and you are logged in as
@@ -446,7 +446,7 @@ Then you have to make 3 files :
     HEADERS + = tts_jeedom.h
     SOURCES + = tts_jeedom.cpp
 
--   tts\_jeedom.h
+-   tts \ _jeedom.h
 
 <!-- -->
 
@@ -465,7 +465,7 @@ Then you have to make 3 files :
       Q_INTERFACES (TTSInterface)
 
     public:
-      TTSJeedom();
+      TTSJeedom ();
       virtual ~ TTSJeedom ();
       QByteArray CreateNewSound (QString, QString, bool);
 
@@ -474,7 +474,7 @@ Then you have to make 3 files :
 
     #endif
 
--   tts\_jeedom.cpp
+-   tts \ _jeedom.cpp
 
 <!-- -->
 
@@ -490,26 +490,26 @@ Then you have to make 3 files :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom::~TTSJeedom()
+    TTSJeedom::~ TTSJeedom ()
     {
     }
 
     QByteArray TTSJeedom::CreateNewSound (QString text, QString voice, bool forceOverwrite)
     {
       QEventLoop loop;
-      if(!voiceList.contains (voice))
+      if (!voiceList.contains (voice))
         voice = "fr";
       // Check (and create if needed) output folder
       QDir outputFolder = ttsFolder;
-      if(!outputFolder.exists (voice))
+      if (!outputFolder.exists (voice))
         outputFolder.mkdir (voice);
 
-      if(!outputFolder.cd (voice))
+      if (!outputFolder.cd (voice))
       {
         LogError (QString ("Cant create TTS Folder : % 1 "). Arg (ttsFolder.absoluteFilePath (voice)));
         return QByteArray ();
@@ -519,7 +519,7 @@ Then you have to make 3 files :
       QString fileName = QCryptographicHash::hash (text.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
       QString filePath = outputFolder.absoluteFilePath (fileName);
 
-      if(!forceOverwrite && QFile::exists (filePath))
+      if (!forceOverwrite && QFile::exists (filePath))
         return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
 
       // Fetch MP3
@@ -541,7 +541,7 @@ Then you have to make 3 files :
       QFile file (filePath);
       if (!file.open (QIODevice::WriteOnly))
       {
-        LogError ("Cannot open sound file for writing : "+filePath);
+        LogError ("Cannot open sound file for writing : "+ filePath);
         return QByteArray ();
       }
       file.write (http.readAll ());
@@ -549,7 +549,7 @@ Then you have to make 3 files :
       return ttsHTTPUrl.arg (voice, fileName) .toAscii ();
     }
 
-> **Note**
+> **NOTE**
 >
 > Don't forget to replace the TODOs
 
@@ -574,7 +574,7 @@ and change :
 
     TTS = acapela
 
-Par
+By
 
     TTS = jeedom
 

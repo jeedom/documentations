@@ -1,23 +1,23 @@
 Fibaro RGVB Controler - FGRGB-101 
 =================================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-\.
+\
 
 Zusammenfassung 
 ------
@@ -35,11 +35,11 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 
--   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
+-   \ * oder 4 Kanäle mit weißen LEDs 12 / 24V
 
--   \* oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
+-   \ * oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
 
--   \* oder 12 / 24V-Lüfter.
+-   \ * oder 12 / 24V-Lüfter.
 
 -   Benötigt separate 12 / 24V Stromversorgung.
 
@@ -47,7 +47,7 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   Repeater-Funktion (Router) zur Erweiterung des Z-Wave-Netzwerks.
 
-\.
+\
 
 Funktionen 
 ---------
@@ -64,7 +64,7 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+\
 
 Technische Daten 
 ---------------------------
@@ -73,25 +73,25 @@ Technische Daten
 
 -   Maximale Ausgangsleistung :
 
--   \* 12A insgesamt (Addition aller Kanäle),
+-   \ * 12A insgesamt (Addition aller Kanäle),
 
--   \* 6A max. pro Kanal
+-   \ * 6A max. pro Kanal
 
 -   Maximale Leistung mit Halogenlampen :
 
--   \* 12V - 144W insgesamt (alle Kanäle),
+-   \ * 12V - 144W insgesamt (alle Kanäle),
 
--   \* 24V - 288W insgesamt (alle Kanäle)
+-   \ * 24V - 288W insgesamt (alle Kanäle)
 
 -   PWM-Modulationsfrequenz : 244 Hz
 
--   Verbrauch : 0,3W
+-   Verbrauch : 0,3 W
 
 -   Funkprotokoll : Z-Wave bei 868,4 MHz (EU)
 
 -   Z-Wave Sendeleistung : 1mW
 
--   Betriebstemperatur : 0 - 40 C.
+-   Betriebstemperatur : 0 - 40 C
 
 -   Zur Installation in Boxen : Ø ≥ 50 mm
 
@@ -101,7 +101,7 @@ Technische Daten
 
 -   Für dieses Modul ist ein Z-Wave-Controller erforderlich.
 
-\.
+\
 
 Moduldaten 
 -----------------
@@ -116,53 +116,53 @@ Moduldaten
 
 -   Produkt-ID : 4096
 
-\.
+\
 
 Konfiguration 
 -------------
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\.
+\
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-\.
+\
 
 ### Befehle 
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/fibaro.fgrgb101/commande_1.png)
 
 ![Befehle](images/fibaro.fgrgb101/commande_2.png)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
 -   Farbe : Mit diesem Befehl können Sie den Farbcode auf einstellen
-    afficher
+    Anzeige
 
 -   Schornstein : Es ist der Befehl, der eine Atmosphäre von simuliert
     Schornstein
@@ -191,12 +191,12 @@ Hier ist die Liste der Befehle :
 -   Aus : Dies ist der Befehl, der das Banner ausschaltet
 
 -   Intensität : Mit diesem Befehl können Sie die Intensität einstellen
-    lumineuse
+    hell
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-icone
+Symbol
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
@@ -204,34 +204,34 @@ Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
-\.
+\
 
 Parameterdetails :
 
 Bitte beachten Sie den vorherigen Screenshot, die Einstellungen
 ins Französische übersetzt werden.
 
-\.
+\
 
 ### Gruppen 
 
 Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
@@ -242,27 +242,27 @@ Gut zu wissen
 
 Verwendung von 0-10V Sensoren.
 
-\.
+\
 
-> **Caution**
+> **Kaution**
 >
 > Die Standardkonfiguration von jeedom erlaubt dies derzeit nicht
 > nicht, aber eine bestimmte Konfiguration kann berücksichtigt werden.
 
 ### Alternative visuelle 
 
-\.
+\
 
 ![Alternative visuelle](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-\.
+\
 
 Aufwachen 
 ------
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+\
 
 Faq. 
 ------
@@ -270,5 +270,5 @@ Faq.
 Die Standardkonfiguration von jeedom erlaubt dies derzeit nicht,
 Es kann jedoch eine bestimmte Konfiguration in Betracht gezogen werden.
 
-\.
+\
 

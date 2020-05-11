@@ -13,7 +13,7 @@ The 4-channel e-Trendy mini remote control is simple, robust and stylish,
 it was created to please. It easily connects to receivers and
 can control your On / Off and dimmable lights, motorizations,
 blinds, shutters, gates, garage doors. It has two modes of
-programmation.
+Programming.
 
 In addition, interaction with other protocols is possible, it can
 interact with the Edisio brand receptors, with Jeedom, but
@@ -60,9 +60,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -167,7 +167,7 @@ Use
 Once your remote control is configured, you can with the
 Jeedom Scenario plugin interact with your remote on Jeedom.
 
-> **Note**
+> **NOTE**
 >
 > Each key to a binary status return.
 

@@ -35,7 +35,7 @@ Click on new and fill in the fields as below :
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Click OK \* Click start
+-   Click OK \ * Click start
 
 ## Debian 9 installation
 
@@ -66,7 +66,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
--   and let it go ...
+-   and let it go
 
 ## Jeedom launch
 

@@ -16,7 +16,7 @@ Send a value from Jeedom to EmonCMS
 
 To send a value from Jeedom to EmonCMS, the simplest solution
 since it is available natively is to use the Push URL of a
-information
+Information
 
 In Jeedom, you can access the advanced settings by clicking on the
 toothed wheel on the right.
@@ -49,9 +49,9 @@ To take a data from emoncms in Jeedom, there are two possibilities
 -   The first is to create an info via the script plugin in Jeedom
     and use the API URL of the feed. This method requires recovering
     the value regularly or via scenario for example and normally
-    not useful because the data has its source in jeedom\_setting
+    not useful because the data has its source in jeedom \ _setting
 
-        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
+        https://serveur/emoncms/feed/value.json?Id=1&apikey=xxx
 
 -   The second possibility is to use the emoncms Event plugin
     to trigger an action on certain conditions. This method
@@ -98,8 +98,8 @@ special conf need a classic repertoire
            index index.php;
             try_files = $ uri $ uri / @missing;
 
-       location ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\.php)(/.*)$;
+       location ~ [^ /] \.php (/|$) {
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

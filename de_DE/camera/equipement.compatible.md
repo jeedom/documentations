@@ -25,8 +25,8 @@
 | Hikvision DS-2CD2232-I5 |                         |                          |
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
-| Hikvision.DS-7216HWI-SH / A. |                         |                          |
-| IP\_Linkcom Videotür-Eingangseinheit |                         |                          |
+| Hikvision.DS-7216HWI-SH / A |                         |                          |
+| IP \ _Linkcom Videotür-Eingangseinheit |                         |                          |
 | Konx Videotür-Eingangseinheit      |                         |                          |
 | Motorisierte Mustcam HD    |                         |                          |
 | Panasonic BL-C121       |                         |                          |
@@ -44,7 +44,7 @@
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **Note**
+> **Notiz**
 >
 > Diese Liste wird dank des Benutzerfeedbacks des Teams erstellt
 > Jeedom kann daher nicht garantieren, dass alle Kameras auf dieser Liste stehen

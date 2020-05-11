@@ -4,7 +4,7 @@
 
 We will see in this documentation how to do the documentation of your plugin.
 
-## Principe
+## Principle
 
 The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com/en_US/dev/structure_info_json) ) in the documentation field.
 
@@ -28,7 +28,7 @@ Github asciidoc and markedown (md) support for pages, we will only see markedown
 
 We will not describe the complete markdown syntax to you, other sites already do this very well, [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Emplacement
+### Location
 
 We recommend in your plugin (hosted on github) to make a folder and copy the files and directory from the docs folder into the template plugin (see [here](https://github.com/jeedom/plugin-template/tree/master/docs) )
 
@@ -48,9 +48,9 @@ Github va ensuite vous fournir un lien de type "https://jeedom.github.io / plugi
 Now you need to put the links of your documentation in the info file.json of your plugin for that it is necessary : 
 
 - Add #language#/ pour le lien vers la documentation, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/"
-- Add #language#/ changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/changelog"
+- Add #language#/ changelog pour le lien vers votre changement, cela donne donc sur notre exemple "https://jeedom.github.io/plugin-template/#language#/ changelog"
 
-> **Note**
+> **NOTE**
 >
 > You will understand when the user will ask to see your jeedom doc or the market will automatically replace #language# by the user's language to point to the correct language (if your documentation is not available in the user's language then this will automatically return to French)
 
@@ -59,10 +59,10 @@ Now you need to put the links of your documentation in the info file.json of you
 If your plugin is structured as advice above then the translation management is very simple to set up in addition to being automatic, just authorize the user github zoic21 to push / pull on your repository and in the market on the edition page of your plugin in the github tab to check "Activate the generation of documentation and translation". The robot goes every day at 12 noon (more or less 2 hours depending on the workload) to retrieve the French documentation of your plugin and the changelog (beta branch) push it on transiflex (community translation system), retrieve the news translation and push it on your github repository in the right folders.
 
 
-> **Important**
+> **IMPORTANT**
 >
 > For the translation management part to work automatically, your plugin must be hosted on Github
 
-> **Note**
+> **NOTE**
 >
 > Note that once your info file.json renseigné et pousser en version stable le site de documentation Jeedom (https://doc.jeedom.com) will automatically add your plugin.

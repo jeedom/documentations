@@ -38,7 +38,7 @@ configuración, sin embargo, puede ingresar un nombre en el campo
 « Serveur Z-wave nom » (ici Jeebox), même chose si vous êtes sur une
 Instalación de bricolaje pero sin modo remoto. De lo contrario, el
 la configuración deberá adaptarse según su tipo de instalación
-(Modo remoto, Openzwave, etc.
+(Modo remoto, Openzwave, etc
 
 \
 

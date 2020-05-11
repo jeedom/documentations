@@ -31,12 +31,12 @@ Los geht's. Sie können die Verbindung zu Ihrem Jeedom mit dem trennen / wieder 
 adminTmp / admin-IDs, mit denen Sie das Kennwort ändern können
 Übergeben Sie auch andere Konten.
 
->**IMPORTANT**
+>**Wichtig**
 >
 >Denken Sie daran, dass nach dem Wiederherstellen Ihres Zugriffs der Benutzer adminTmp möglicherweise gelöscht wird
 Sicherheitsverletzung, für die Sie allein verantwortlich sind.
 
->**IMPORTANT**
+>**Wichtig**
 >
 > Wenn Sie die AD / LDAP-Authentifizierung aktiviert haben, funktioniert diese Rücksetzmethode nur, wenn Sie den AD / LDAP-Modus deaktivieren. Sie können dies tun, indem Sie dies tun : 
 >`` `{.bash}

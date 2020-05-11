@@ -1,12 +1,12 @@
 Aquí hay un tutorial sobre cómo instalar openjabnab localmente (en un rpi o
-humming)
+tarareando)
 
-> **Note**
+> **Nota**
 >
 > Este tutorial está inspirado en gran medida por
 > [este](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
-Instalación de dependencias. 
+Instalación de dependencias 
 ============================
 
 Una vez que el sistema instalado en SSH haya terminado :
@@ -34,16 +34,16 @@ El resultado es :
 
     eth0 Link encap:Ethernet HWaddr d0:63:b4:00:54:98
               inet addr:192.168.0.162  Bcast:192.168.0.255 máscara:255.255.255.0
-              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Link
+              inet6 addr: fe80::d263:b4ff:fe00:Alcance 5498/64:Enlace
               UP BROADCAST RUNNING MULTICAST MTU:1500 métrico:1
               Paquetes RX:10721 errores:0 caído:0 desbordamientos:0 cuadros:0
               Paquetes TX:6477 errores:0 caído:0 desbordamientos:0 transportista:0
-              collisions:0 txqueuelen:1000
+              colisiones:0 txqueuelen:1000
               Bytes RX:2032942 (1.9 MiB) bytes TX:1230703 (1.1 MiB)
 
 Aquí la dirección IP es 192.168.0.162.
 
-> **Note**
+> **Nota**
 >
 > Para el resto del tutorial usaré esta IP, por supuesto es
 > reemplazar dependiendo de cuál realmente
@@ -110,7 +110,7 @@ Y poner :
     @ IN NS ojn.raspberry.pi.
     162 IN PTR ojn.raspberry.pi.
 
-> **Important**
+> **Importante**
 >
 > Recuerde reemplazar el 162 en la última línea con el último
 > parte de su sistema ip
@@ -131,12 +131,12 @@ Deberías tener :
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 2 ttl = 64 tiempo = 0.067 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 3 ttl = 64 tiempo = 0.059 ms
     64 bytes de ojn.raspberry.ft (192.168.0.162): icmp_seq = 4 ttl = 64 tiempo = 0.068 ms
-    ^C
+    ^ C
     --- ojn.raspberry.pi ping statistics ---
     4 paquetes transmitidos, 4 recibidos, 0% de pérdida de paquetes, tiempo 3000ms
     rtt min / avg / max / mdev = 0.059 / 0.065 / 0.069 / 0.010 ms
 
-> **Note**
+> **Nota**
 >
 > Tienes que hacer ctrl + c para salir del ping
 
@@ -215,9 +215,9 @@ Hacer :
     su ojn
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    make
+    hacer
 
-> **Note**
+> **Nota**
 >
 > Este paso puede ser muy largo (hasta 45 minutos)
 
@@ -259,16 +259,16 @@ Ahora todo está listo, todo lo que queda es iniciar el servidor :
 
     su ojn
     cd ~ / OpenJabNab / server / bin
-    ./openjabnab
+    ./ openjabnab
 
 Ahora ve a :
 
     http://ojn.raspberry.pi/ojn_admin/index.php
 
-> **Note**
+> **Nota**
 >
 > Si todo está bien, debería tener las estadísticas que aparecen en
-> bas
+> Bajo
 
 Configuración de conejo 
 ======================
@@ -318,7 +318,7 @@ Y añadir :
     @reboot /home/ojn/checkojn.sh
     */ 15 * * * * /home/ojn/checkojn.sh
 
-> **Important**
+> **Importante**
 >
 > Es absolutamente necesario ponerlo en el crontab raíz, si está
 > de nuevo con el usuario ojn do ctrl + D
@@ -386,7 +386,7 @@ Y agregue la siguiente línea :
 
     192.168.0.162 ojn.raspberry.pi
 
-Entonces todo sucede en Jeedom, después de crear tu conejo aquí.
+Entonces todo sucede en Jeedom, después de crear tu conejo aquí
 la configuración para poner:
 
 ![installation.openjabnab10](images/installation.openjabnab10.PNG)
@@ -399,7 +399,7 @@ Poner el TTS localmente
 Todo es local excepto el TTS que pasa por el sitio de Acapela pero es
 posible modificando algunos archivos para pasarlos localmente
 
-> **Note**
+> **Nota**
 >
 > Consideraré que oenjabnab está instalado en
 > / home / ojn / OpenJabNab y estás conectado como
@@ -442,11 +442,11 @@ Entonces tienes que hacer 3 archivos :
       QMAKE_CXXFLAGS + = -Werror
     }
 
-    # Input
+    # De entrada
     HEADERS + = tts_jeedom.h
     FUENTES + = tts_jeedom.cpp
 
--   tts\_jeedom.h
+-   tts \ _jeedom.h
 
 <!-- -->
 
@@ -464,17 +464,17 @@ Entonces tienes que hacer 3 archivos :
       Q_OBJECT
       Q_INTERFACES (TTSInterface)
 
-    public:
-      TTSJeedom();
+    publico:
+      TTSJeedom ();
       virtual ~ TTSJeedom ();
       QByteArray CreateNewSound (QString, QString, bool);
 
-    private:
+    privado:
     };
 
     #endif
 
--   tts\_jeedom.cpp
+-   tts \ _jeedom.cpp
 
 <!-- -->
 
@@ -490,26 +490,26 @@ Entonces tienes que hacer 3 archivos :
 
     Q_EXPORT_PLUGIN2 (tts_jeedom, TTSJeedom)
 
-    TTSJeedom::TTSJeedom():TTSInterface ("jeedom", "Jeedom")
+    TTSJeedom::TTSJeedom ():TTSInterface ("jeedom", "Jeedom")
     {
       voiceList.insert ("fr", "fr");
     }
 
-    TTSJeedom::~TTSJeedom()
+    TTSJeedom::~ TTSJeedom ()
     {
     }
 
     QByteArray TTSJeedom::CreateNewSound (texto QString, voz QString, bool forceOverwrite)
     {
       QEventLoop loop;
-      if(!voiceList.contains (voz))
+      si (!voiceList.contains (voz))
         voz = "fr";
       // Verifique (y cree si es necesario) la carpeta de salida
       QDir outputFolder = ttsFolder;
-      if(!outputFolder.exists (voz))
+      si (!outputFolder.exists (voz))
         outputFolder.mkdir (voz);
 
-      if(!outputFolder.cd (voz))
+      si (!outputFolder.cd (voz))
       {
         LogError (QString ("No se puede crear la carpeta TTS : % 1 "). Arg (ttsFolder.absoluteFilePath (voz)));
         devolver QByteArray ();
@@ -519,7 +519,7 @@ Entonces tienes que hacer 3 archivos :
       QString fileName = QCryptographicHash::hash (texto.toAscii (), QCryptographicHash::Md5) .toHex (). Append (". Mp3");
       QString filePath = outputFolder.absoluteFilePath (fileName);
 
-      if(!forceOverwrite && QFile::existe (filePath))
+      si (!forceOverwrite && QFile::existe (filePath))
         volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
 
       // Recuperar MP3
@@ -539,9 +539,9 @@ Entonces tienes que hacer 3 archivos :
       loop.exec ();
 
       Archivo QFile (filePath);
-      si (!file.open (QIODevice::WriteOnly))
+      si (!file.open (QIODevice::Escribir solo))
       {
-        LogError ("No se puede abrir el archivo de sonido para escribir : "+filePath);
+        LogError ("No se puede abrir el archivo de sonido para escribir : "+ filePath);
         devolver QByteArray ();
       }
       file.write (http.readAll ());
@@ -549,7 +549,7 @@ Entonces tienes que hacer 3 archivos :
       volver ttsHTTPUrl.arg (voz, nombre de archivo) .toAscii ();
     }
 
-> **Note**
+> **Nota**
 >
 > No olvides reemplazar los TODOs
 
@@ -564,7 +564,7 @@ Recompilar
 
     cd / home / ojn / OpenJabNab / server
     qmake -r
-    make
+    hacer
 
 Modificación del servicio tts 
 ------------------------------
@@ -574,7 +574,7 @@ y cambiar :
 
     TTS = acapela
 
-Par
+Por
 
     TTS = libertad
 

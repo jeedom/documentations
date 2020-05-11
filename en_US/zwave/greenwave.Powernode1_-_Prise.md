@@ -51,7 +51,7 @@ home automation boxing will no longer be possible.
 PowerNode controlled outlet also has a status indicator
 bright which gives different information depending on its color :
 sockets on or off, limited radio range, inclusion mode and
-exclusion.
+Exclusion.
 
 The PowerNode plug module is equipped with protection against
 overcurrents to protect the connected device. The PowerNode socket will
@@ -143,11 +143,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present under the socket.
@@ -171,7 +171,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -184,7 +184,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    prise
+    Outlet
 
 -   We : This is the command that turns on the outlet
 
@@ -247,7 +247,7 @@ Parameter details :
 \
 
 This module has four association groups, only the 3rd group is
-indispensable.
+essential.
 
 \
 

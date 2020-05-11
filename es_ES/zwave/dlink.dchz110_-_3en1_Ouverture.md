@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El detector DCH-Z110 ofrece 3 funciones diferentes. : detección
+El detector DCH-Z110 ofrece 3 funciones diferentes : detección
 apertura, sensor de temperatura y detector de luz. El se
 consta de dos partes : un detector y un imán. Estan disenados
 para ser colocado en una puerta o ventana con el imán fijado en el
@@ -39,7 +39,7 @@ nivel de brillo. Por ejemplo, el sensor enviará una señal a
 Interruptor Z-Wave para encender la luz cuando se abre la puerta
 y el cuarto esta oscuro.
 
-El detector también aumentará el brillo y la temperatura, es decir.
+El detector también aumentará el brillo y la temperatura, es decir
 en caso de un cambio significativo, y cada vez que la apertura / cierre
 se detecta. Un controlador Z-Wave (control remoto, dongle ...?) Es
 necesario para integrar este detector en su red si tiene
@@ -52,7 +52,7 @@ Funciones
 
 \
 
--   Detector 3 en 1: Apertura, temperatura, luz.
+-   Detector 3 en 1: Apertura, temperatura, luz
 
 -   Rango de antena optimizado
 
@@ -60,13 +60,13 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotection
+-   Autoprotección
 
 -   Indicación de batería baja
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -82,7 +82,7 @@ Otro enlace técnico :
 <http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
 
 ![caracteristiques
-técnicas](images / dlink.dchz110 / caracteristiques_techniques.jpg)
+técnicas] (images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
 \
 
@@ -113,11 +113,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > No instale el módulo en la ventana / puerta antes de tenerlo
 > configurado correctamente y preste atención a la alineación de
@@ -146,7 +146,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -159,7 +159,7 @@ Aquí está la lista de comandos :
 \
 
 -   Apertura : es el comando que generará una detección
-    d'ouverture
+    abriendo
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
@@ -177,7 +177,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión o modificación, guarde
 > siempre active el módulo presionando el botón de asociación.
@@ -246,7 +246,7 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    rapport
+    Reporte
 
 -   22: valor en% de variación de brillo para disparar
     un informe. Valor recomendado : 10
@@ -290,7 +290,7 @@ Despertador
 
 Para activar este módulo, solo hay una forma :
 
--   Suelte el botón de asociación y presiónelo nuevamente.
+-   Suelte el botón de asociación y presiónelo nuevamente
 
 -   Reduzca el intervalo de activación en la configuración / sistema del módulo
     (en segundos)
@@ -318,7 +318,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El detector ZIP-PSM01 ofrece 3 funciones diferentes. : detección
+El detector ZIP-PSM01 ofrece 3 funciones diferentes : detección
 apertura, sensor de temperatura y detector de luz. El se
 consta de dos partes : un detector y un imán. Estan disenados
 para ser colocado en una puerta o ventana con el imán fijado en el
@@ -39,13 +39,13 @@ nivel de brillo. Por ejemplo, el sensor enviará una señal a
 Interruptor Z-Wave para encender la luz cuando se abre la puerta
 y el cuarto esta oscuro.
 
-El detector también aumentará el brillo y la temperatura, es decir.
+El detector también aumentará el brillo y la temperatura, es decir
 en caso de un cambio significativo, y cada vez que la apertura / cierre
 se detecta.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este detector en su red si ya tiene una red
-existant.
+existente.
 
 \
 
@@ -54,7 +54,7 @@ Funciones
 
 \
 
--   Detector 3 en 1: Apertura, temperatura, luz.
+-   Detector 3 en 1: Apertura, temperatura, luz
 
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir
     operaciones multicanal y más rendimiento de datos
@@ -68,13 +68,13 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotection
+-   Autoprotección
 
 -   Indicación de batería baja
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -107,7 +107,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
--   Humedad de funcionamiento : 85% HR máx.
+-   Humedad de funcionamiento : 85% HR máx
 
 -   Norma CE : EN300 220-1
 
@@ -139,11 +139,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -167,7 +167,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -180,7 +180,7 @@ Aquí está la lista de comandos :
 \
 
 -   Apertura : es el comando que generará una detección
-    d'ouverture
+    abriendo
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
@@ -195,7 +195,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -265,7 +265,7 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    rapport
+    Reporte
 
 -   22: valor en% de variación de brillo para activar un
     Informar valor recomendado : 10
@@ -328,7 +328,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

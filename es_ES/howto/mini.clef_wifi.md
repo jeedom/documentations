@@ -9,14 +9,14 @@ Tenga en cuenta que este procedimiento solo funciona como está en el
 Marco estricto del entorno indicado anteriormente (mismo modelo, mismo
 Jeedom box, misma autenticación WiFi) . Por supuesto que esto puede
 También funciona para otros componentes (o no) pero sin ningún
-garantie.
+garantía.
 
-> **Important**
+> **Importante**
 >
 > Atención, este procedimiento es especialmente para no hacer en mini + bajo
 > problemas para perder el acceso y tener que reinstalar todo.
 
-> **Important**
+> **Importante**
 >
 > Este documento debe aplicarse bajo su propio riesgo en caso de inquietudes
 > el equipo de Jeedom no puede ser considerado responsable.
@@ -86,10 +86,10 @@ Aquí está mi archivo operativo en casa :
     update_config = 1
     eapol_version = 1
     ap_scan = 2
-    network={
+    red={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            mode=0
+            modo = 0
             proto = WPA2
             pairwise = CCMP
             grupo = CCMP
@@ -99,7 +99,7 @@ Aquí está mi archivo operativo en casa :
      }
      ----
 
-     Tenga cuidado de reemplazar los parámetros indicados a continuación con los suyos. :
+     Tenga cuidado de reemplazar los parámetros indicados a continuación con los suyos :
 
     * NOM_DE_TON_RESEAU_SSID por el nombre de su propia red, manteniendo las comillas ("")
     * TA_CLE_WIFI por el nombre de su propia red, manteniendo las comillas ("")

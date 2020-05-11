@@ -11,7 +11,7 @@ Summary
 
 Placed in a corridor, the living room, the garage of your house for example,
 the motion sensor detects a presence, the change of state is
-instantané.
+instantaneous.
 
 Thanks to its wide viewing angle and its range, it makes it possible to secure
 a large perimeter. Integrated LED indicator signals any changes
@@ -67,9 +67,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.

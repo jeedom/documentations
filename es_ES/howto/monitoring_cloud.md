@@ -1,10 +1,10 @@
 # Monitoreo en la nube
 
-## Description
+## Descripción
 
 El monitoreo en la nube es un servicio pago de Jeedom SAS que monitorea permanentemente tus Jeedoms o tus Jeedoms y te advierte en caso de problemas.
 
-Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres. : 
+Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres : 
 
 - 12 meses : 1 mes gratis
 - 24 meses : 4 meses gratis
@@ -12,7 +12,7 @@ Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres. :
 
 ## Lo que se está monitoreando
 
-Jeedom envía regularmente la información de la página de salud a nuestro servicio de monitoreo, que la analiza y le alerta si tiene alguna inquietud.. Además, si su casilla no envía información durante más de 15 minutos, nuestro servicio de monitoreo le advierte que hay un problema.
+Jeedom envía regularmente la información de la página de salud a nuestro servicio de monitoreo, que la analiza y le alerta si tiene alguna inquietud. Además, si su casilla no envía información durante más de 15 minutos, nuestro servicio de monitoreo le advierte que hay un problema.
 
 ## Como me avisan
 
@@ -37,13 +37,13 @@ El procedimiento es bastante simple, tienes que :
 
 Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "probar" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
 
->**IMPORTANT**
+>**Importante**
 >
 > Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta
 
->**IMPORTANT**
+>**Importante**
 >
-> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:endpoint/"
+> Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:punto final /"
 
 ## Es compatible con todo ?
 

@@ -66,7 +66,7 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Color : Blanc
+-   Color : White
 
 -   Food : 230 V, 50 Hz
 
@@ -80,7 +80,7 @@ Technical characteristics
 
 -   Dimensions : 86 x 86 x 43 mm
 
--   Affichage: Blue / red LED
+-   Viewing: Blue / red LED
 
 \
 
@@ -108,11 +108,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press only one
 > 2 buttons on the front panel for 3 sec, in accordance with its
@@ -131,7 +131,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -173,7 +173,7 @@ Parameter details :
 \
 
 This module has 3 association groups. Only the third is
-indispensable.
+essential.
 
 \
 

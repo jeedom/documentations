@@ -1,28 +1,28 @@
 Fibaro FGRM-222 "Rollladen" 
 ===============================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Mit dem Mikromodul FGRM-222 können Sie die Motorisierungen von verwalten
 elektronische Rollläden, Jalousien oder Türen
@@ -33,29 +33,29 @@ direkt von der Taste am Mikromodul.
 
 Darüber hinaus kann dieses Mikromodul den Verbrauch übertragen
 Momentane (W) und kumulative (KWh) elektrische Leistung des Geräts
-rattaché.
+beigefügt.
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um
 Integrieren Sie dieses Modul in Ihr Netzwerk, wenn Sie bereits ein Netzwerk haben
-existant.
+vorhanden.
 
 Jedes Z-Wave-Modul fungiert als drahtloser Repeater mit dem
 andere Module, um eine vollständige Abdeckung Ihrer
-habitation.
+Wohnung.
 
 Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 
 -   Kompatibel mit BSO und Jalousie mit Positionierung von
-    lamelles
+    Lamellen
 
 -   Wird hinter einem vorhandenen Switch installiert
 
@@ -73,12 +73,12 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Modultyp : Z-Wave Empfänger
 
@@ -96,20 +96,20 @@ Technische Daten
 
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
 
--   Dimensions: 17 x 42 x 37 mm
+-   Abmessungen: 17 x 42 x 37 mm
 
--   Betriebstemperatur : 0-40 ° C.
+-   Betriebstemperatur : 0-40 ° C
 
--   Temperatur begrenzen : 105°C
+-   Temperatur begrenzen : 105 ° C
 
 -   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
 -   Machen Sie : Fibar Group
 
@@ -121,56 +121,56 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\.
+\
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
 ![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
@@ -200,28 +200,28 @@ Hier ist die Liste der Befehle :
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 
 -   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
-    Incliner
+    Kippen
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +231,11 @@ Einstellungen)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   1: ermöglicht das Blockieren des Moduls (um einen Verschluss einzufrieren) (in dem Fall
     Drücken eines Schalters)
@@ -279,76 +279,76 @@ Parameterdetails :
 -   50: Hier können Sie auswählen, ob das Modul die Informationen an die Knoten senden soll
     in Assoziation im Szenenmodus oder im Assoziationsmodus
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
 
-\.
+\
 
 ### Zurücksetzen 
 
-\.
+\
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
-\.
+\
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
-\.
+\
 
 ### Wichtig 
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Damit Status-Feedback in Jeedom funktioniert, ist dies erforderlich
 > Erzwingen Sie die Gerätekalibrierung (Parameter 29 auf "Ja") und die
 > Positionierung muss aktiv sein (Parameter 10 mit Werten "Aktiv
 > direkt "," Active Venetian "oder" Active Door ").
 
-\.
+\
 
 ### Alternative visuelle 
 
-\.
+\
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Lesen Sie den Abschnitt Zurücksetzen in diesem Dokument.
 
-\.
+\
 
 **@sarakha63**

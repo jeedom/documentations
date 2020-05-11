@@ -19,7 +19,7 @@ en tres colores diferentes.
 
 Se conectan fácilmente a diferentes receptores y, por lo tanto, pueden
 controlar las luces de encendido / apagado, luces variables,
-persianas, portones, puertas de garaje. Disponible en 3 colores..
+persianas, portones, puertas de garaje. Disponible en 3 colores.
 
 Además, la interacción con otros protocolos es posible, puede
 interactuar con los receptores de la marca Edisio, con Jeedom, pero
@@ -30,9 +30,9 @@ Funciones
 
 -   Modo de uso : Iluminación, dimmer
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 Características técnicas 
 ===========================
@@ -69,9 +69,9 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -107,7 +107,7 @@ Una vez, su equipo asociado, debería obtener esto :
 Comandos 
 ---------
 
-Una vez que haya creado su equipo, debe recibir los pedidos.
+Una vez que haya creado su equipo, debe recibir los pedidos
 asociado con el módulo :
 
 ![Comandos](images/etc1/etc1.commandes.jpg)
@@ -116,7 +116,7 @@ Aquí está la lista de comandos :
 
 -   bt01 : Es el comando que te permite interactuar con el botón 1
 
--   Batería : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería
 
 Información 
 ------------
@@ -126,14 +126,14 @@ disponible :
 
 ![Comandos](images/etc1/etc1.informations.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería de los módulos de batería.
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 Uso 
 -----------
@@ -142,8 +142,8 @@ Una vez que su control remoto está configurado, puede hacerlo con
 Plugin Jeedom Scenario, interactúa con tu control remoto en Jeedom
 y su equipamiento.
 
-> **Note**
+> **Nota**
 >
-> El control remoto con retroalimentación de estado binario..
+> El control remoto con retroalimentación de estado binario.
 
 **@Jamsta**

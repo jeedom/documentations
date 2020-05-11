@@ -9,14 +9,14 @@ Bitte beachten Sie, dass dieses Verfahren nur so funktioniert, wie es in der
 strenger Rahmen der zuvor angegebenen Umgebung (gleiches Modell, gleiches
 Jeedom Box, gleiche WiFi-Authentifizierung) . Natürlich kann das
 Arbeiten Sie auch für andere Komponenten (oder nicht), jedoch ohne
-garantie.
+Garantie.
 
-> **Important**
+> **Wichtig**
 >
 > Achtung, dieses Verfahren ist besonders bei mini + under nicht zu machen
 > Probleme, den Zugriff darauf zu verlieren und alles neu installieren zu müssen.
 
-> **Important**
+> **Wichtig**
 >
 > Dieses Dokument ist bei Bedenken auf eigenes Risiko anzuwenden
 > Das Jeedom-Team kann in keiner Weise zur Verantwortung gezogen werden.
@@ -86,10 +86,10 @@ Hier ist meine Betriebsakte zu Hause :
     update_config = 1
     eapol_version = 1
     ap_scan = 2
-    network={
+    Netzwerk={
             ssid = "NOM_DE_TON_RESEAU_SSID"
             scan_ssid = 1
-            mode=0
+            Modus = 0
             proto = WPA2
             paarweise = CCMP
             Gruppe = CCMP
@@ -104,7 +104,7 @@ Hier ist meine Betriebsakte zu Hause :
     * NOM_DE_TON_RESEAU_SSID mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
     * TA_CLE_WIFI mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
 
-    Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen)..
+    Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen).
 
     == WiFi-Aktivierung
 

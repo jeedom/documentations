@@ -17,14 +17,14 @@ absolut 2 Datenspeicher. Dafür haben Sie mehrere Möglichkeiten :
 Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden
 verfügbar entweder durch Installation einer Vib oder von der Version
 6.0 Update 2. Zur Erinnerung, um einfach auf diese Schnittstelle zuzugreifen
-Gehen Sie zu IP\_ESXI / ui
+Gehen Sie zu IP \ _ESXI / ui
 
-> **Note**
+> **Notiz**
 >
 > Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden
 > verfügbar entweder durch Installation einer Vib oder von der
 > Version 6.0 Update 2. Damit Erinnerungen auf diese Schnittstelle zugreifen können
-> Gehen Sie einfach zu IP\_ESXI / ui
+> Gehen Sie einfach zu IP \ _ESXI / ui
 
 GhettoVCB Installation 
 =========================
@@ -34,7 +34,7 @@ Wir müssen das wiederherstellen
 und übertragen Sie es auf den ESXi (im selben Datenspeicher wie der, der sich befindet
 willkommene Backups zum Beispiel).
 
-> **Note**
+> **Notiz**
 >
 > Im Rest dieses Tutorials denke ich, dass Sie das Skript eingefügt haben
 > ghettoVCB.sh in /vmfs/volumes/Backup/ghettoVCB.sh. Es liegt an Ihnen, sich anzupassen
@@ -54,7 +54,7 @@ Ihr ESXi und verwenden Sie Ihre Anmeldeinformationen daraus
 Erstellung der Konfigurationsdatei 
 ====================================
 
-> **Note**
+> **Notiz**
 >
 > Für den Rest dieses Tutorials halte ich Ihren Datenspeicher für
 > Backup hat den Pfad / vmfs / volume / Backup. Achten Sie darauf, wenn zu ändern
@@ -93,20 +93,20 @@ enthält :
 
 Die Parameter, die Sie anpassen müssen, sind :
 
--   **VM\_BACKUP\_VOLUME** ⇒ Speicherort Ihres Sicherungsdatenspeichers
+-   **VM \ _BACKUP \ _VOLUME** ⇒ Speicherort Ihres Sicherungsdatenspeichers
 
--   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ Anzahl der Sicherungen pro VM, die aufbewahrt werden sollen
+-   **VM \ _BACKUP \ _ROTATION \ _COUNT** ⇒ Anzahl der Sicherungen pro VM, die aufbewahrt werden sollen
 
-> **Note**
+> **Notiz**
 >
 > Sie können konsultieren
 > [hier](https://communities.vmware.com/docs/DOC-8760) Dokumentation
 > komplett von ghettoVCB mit einer Beschreibung jedes Parameters
 
-> **Important**
+> **Wichtig**
 >
 > Achten Sie darauf, das / final für den Parameter einzugeben
-> VM\_BACKUP\_VOLUME, andernfalls ist das Skript fehlerhaft
+> VM \ _BACKUP \ _VOLUME, andernfalls ist das Skript fehlerhaft
 
 Backup-Test 
 ==============
@@ -124,11 +124,11 @@ mit 4 Dateien :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \* - flach.vmdk ⇒ die virtuelle Festplatte Ihres Computers
+-   \ * - flach.vmdk ⇒ die virtuelle Festplatte Ihres Computers
 
--   \.*.vmdk ⇒ der Deskriptor der Disc
+-   \*.vmdk ⇒ der Deskriptor der Disc
 
--   \.*.vmx ⇒ die Datei, die die Konfiguration Ihres Computers enthält
+-   \*.vmx ⇒ die Datei, die die Konfiguration Ihres Computers enthält
 
 -   STATUS.ok ⇒ zeigt an, dass das Backup in Ordnung ist
 
@@ -169,21 +169,21 @@ Und vor "exit 0" fügen Sie die folgenden Zeilen hinzu :
     / bin / echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
     / usr / lib / vmware / Busybox / Bin / Busybox Crond
 
-> **Note**
+> **Notiz**
 >
 > Hier fordere ich jeden 1. des Monats ein Backup an, das Sie ändern können
-> dies durch Ändern : 0 0 1 \* \.*
+> dies durch Ändern : 0 0 1 \* \*
 
-> **Note**
+> **Notiz**
 >
 > Hier mache ich ein Backup aller VMs, Sie können dies anpassen, indem Sie
-> Ersetzen Sie -a durch -m ma\_vm. Seien Sie vorsichtig, wenn Sie setzen möchten
-> Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \ duplizieren* \.*
+> Ersetzen Sie -a durch -m ma \ _vm. Seien Sie vorsichtig, wenn Sie setzen möchten
+> Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \ duplizieren* \*
 > / vmfs / volume / Backup / ghettoVCB.sh -a -g
 > /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
 > / var / spool / cron / crontabs / root "und legen Sie eine pro VM für die Sicherung ab
 
-> **Important**
+> **Wichtig**
 >
 > Vergessen Sie nicht, den Pfad an die Konfigurationsdatei von anzupassen
 > ghettoVCB entsprechend Ihrer Konfiguration :

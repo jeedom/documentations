@@ -24,7 +24,7 @@ Resumen
 
 \
 
-La sonda SES302 permite medir la temperatura ambiente.
+La sonda SES302 permite medir la temperatura ambiente
 interior Está alimentado por 2 baterías AA y tiene certificación Z-Wave
 Más. Además de su función principal, es posible cablear
 varias sondas externas seguras en el módulo, es decir:
@@ -52,14 +52,14 @@ Funciones
 
 -   Medición precisa de temperatura
 
--   Aplicación en sistemas de control dinámico.
+-   Aplicación en sistemas de control dinámico
     tanques / tubos / pisos calentados /…
 
 -   Posibilidad de conectar sensores externos
 
 -   Interoperable con productos y sistemas certificados Z-Wave
 
--   Instalación rápida y fácil.
+-   Instalación rápida y fácil
 
 -   Informe de batería baja
 
@@ -70,7 +70,7 @@ Características técnicas
 
 \
 
--   Type: Portátil / montaje en pared
+-   Tipo: Portátil / montaje en pared
 
 -   Rango de medición de temperatura: ± 0.5 ° C para 0 ° C a 40 ° C
 
@@ -78,7 +78,7 @@ Características técnicas
 
 -   Frecuencia : 868.42 Mhz
 
--   Alimentation: 2 pilas AA (LR6)
+-   Suministro: 2 pilas AA (LR6)
 
 -   Alcance : hasta 100 m en campo libre
 
@@ -112,11 +112,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón en la parte posterior y suelte, de acuerdo con su documentación en papel.
@@ -140,7 +140,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -165,7 +165,7 @@ Varias temperaturas no visibles también están disponibles y serán
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -263,7 +263,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un

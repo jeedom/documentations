@@ -37,7 +37,7 @@ your Ematronic remote control.
 Search for remote control ID 
 -------------------------------------
 
-Remarque: Ematronic remote controls always start with : 09 19 03
+Note: Ematronic remote controls always start with : 09 19 03
 so the area that interests us starts from "Test message" : 09 19 03.
 
 Spot : Id1 and Id2 and add the following hexadecimal : in my example
@@ -58,7 +58,7 @@ Go to Plugins, Home Protocol, RFXcom.
 ![image10](images/volet.ematronic/image10.png)
 
 Click on "Add" and enter a name for your remote control
-virtuelle.
+Virtual.
 
 ![image00](images/volet.ematronic/image00.png)
 

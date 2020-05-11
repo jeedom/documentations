@@ -2,7 +2,7 @@ Monit ist ein Serviceüberwachungsdienst. Er kümmert sich darum
 Überprüfen Sie, ob ein Dienst noch gestartet ist.
 
 Hierzu geben wir die Bewertungskriterien und die Maßnahmen an
-prendre.
+nehmen.
 
 Installation von Monit 
 =====================

@@ -7,7 +7,7 @@ Detector de apertura Fibaro - FGK-101
 
 \
 
-![Modulo](images/fibaro.fgk101-DS18B20/module.jpg)
+![Modulo](images/fibaro.fgk101-DS18B20/Modulo.jpg)
 
 \
 
@@ -41,11 +41,11 @@ también desde una entrada cableada, por lo que se puede usar como
 transmisor universal : dejar de lado su contacto magnético, y
 conecte sus entradas de tornillo a cualquier detector (normalmente cerrado) de su
 elección como detector de humo, gas o monóxido de carbono,
-etc.
+Etcétera.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este detector en su red si ya tiene una red
-existant.
+existente.
 
 \
 
@@ -69,7 +69,7 @@ Funciones
 
 -   Muy pequeño, dimensiones reducidas
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -88,7 +88,7 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 76 x 17 x 19 mm
+-   Dimensiones: 76 x 17 x 19 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -118,11 +118,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -146,7 +146,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -159,10 +159,10 @@ Aquí está la lista de comandos :
 \
 
 -   Estado : es el comando que elevará el estado abierto o cerrado del
-    module
+    Modulo
 
 -   Batería : es el comando que permite subir el estado del
-    batterie
+    batería
 
 \
 
@@ -174,7 +174,7 @@ Puede ocultar o mostrar estos comandos como desee.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -257,7 +257,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo es muy meticuloso al despertar y requiere un muy
 > fuerte proximidad al controlador cuando está incluido
@@ -309,7 +309,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

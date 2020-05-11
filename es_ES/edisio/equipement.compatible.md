@@ -1,4 +1,4 @@
-# Compatibilidad del equipo Edisio.
+# Compatibilidad del equipo Edisio
 
 | Nombre                     | Observación                | Enlace                     |
 |-------------------------|-------------------------|--------------------------|
@@ -9,7 +9,7 @@
 | Edisio - ETC1 - Transmisor "Smile" - 1 canal        | Todas las "sonrisas" son compatibles   | [Documentación](https://doc.jeedom.com/es_ES/edisio/edisio.ETC1_-_Télécommande_Smile.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2782-edisio-emetteur-8683-mhz-smile-bleu-1-canal-5420074900757.html)    |
 | Edisio - EMSD-300 - Receptor de encendido / apagado / atenuador    |                         | [Comprar](http://www.domadoo.fr/fr/peripheriques/2779-edisio-recepteur-8683-mhz-marchearretdimmer-5420074900726.html)    |
 | Edisio - EMSD-300A - Receptor de encendido / apagado / atenuador - sin neutro |                         | [Comprar](http://www.domadoo.fr/fr/peripheriques/2780-edisio-recepteur-8683-mhz-marchearretdimmer-sans-phase-neutre-5420074900733.html)          |
-| Edisio - EMV-400 - Iniciar / Parar o Abrir / Parar / Cerrar (2 x 2A)   |                         | [Documentación éclairage](https://doc.jeedom.com/es_ES/edisio/edisio.EMV-400_-_Eclairage.html) [Documentación volet](https://doc.jeedom.com/es_ES/edisio/edisio.EMV-400_-_Volet.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2781-edisio-recepteur-8683-mhz-2x-marchearret-ou-ouvrirstopfermer-2-x-2a-5420074900740.html)    |
+| Edisio - EMV-400 - Iniciar / Parar o Abrir / Parar / Cerrar (2 x 2A)   |                         | [Documentación de iluminación](https://doc.jeedom.com/es_ES/edisio/edisio.EMV-400_-_Eclairage.html) [Documentación de componentes](https://doc.jeedom.com/es_ES/edisio/edisio.EMV-400_-_Volet.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2781-edisio-recepteur-8683-mhz-2x-marchearret-ou-ouvrirstopfermer-2-x-2a-5420074900740.html)    |
 | Edisio - ETC4 - Control remoto e-Trendy - 4 canales        |                         | [Documentación](https://www.jeedom.fr/doc/documentation/edisio-modules/es_ES/doc-edisio-modules-edisio.ETC4_-_Télécommande.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2785-edisio-telecommande-e-trendy-8683-mhz-4-canaux-5420074900788.html) |
 | Edisio - EOS-200 - Sensor de apertura     |                         | [Documentación](https://www.jeedom.fr/doc/documentation/edisio-modules/es_ES/doc-edisio-modules-edisio.EOS-200_-_Capteur_d'ouverture.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2787-edisio-capteur-d-o uverture-8683mhz-5420074900818.html)             |
 | Edisio - EMS-200 - Sensor de movimiento     |                         | [Documentación](https://www.jeedom.fr/doc/documentation/edisio-modules/es_ES/doc-edisio-modules-edisio.EMS-200_-_Capteur_de_mouvement.html) [Comprar](http://www.domadoo.fr/fr/peripheriques/2789-edisio-capteur-de-mouvement-8683mhz-5420074900832.html)            |
@@ -19,6 +19,6 @@
 
 
 
-> **Note**
+> **Nota**
 >
-> Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales.
+> Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales

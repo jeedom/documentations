@@ -30,7 +30,7 @@ Funciones
 -   Señal transmitida instantáneamente durante un aumento o disminución
     temperatura
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 -   Montaje en pared por tornillos o doble cara
 
@@ -51,7 +51,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100M
+-   Rango en campo libre : 100 millones
 
 -   Dimensiones : 25x79x19mm
 
@@ -69,14 +69,14 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Tip**
+> **Punta**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
 > la temperatura deseada.
@@ -101,10 +101,10 @@ establecer este parámetro:
 Asociación del sensor con Jeedom 
 ===============================
 
-La combinación del sensor de temperatura es muy sencilla.. Simplemente
+La combinación del sensor de temperatura es muy sencilla. Simplemente
 presione el botón "E", ubicado debajo del sensor. Este lo hará
 reconocido automáticamente. Colóquelo en un objeto, asígnele un nombre y
-sauvegarder.
+Guardar.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 
@@ -115,16 +115,16 @@ Una vez, su equipo asociado, debería obtener esto :
 Comandos 
 ---------
 
-Una vez que haya creado su equipo, debe recibir los pedidos.
+Una vez que haya creado su equipo, debe recibir los pedidos
 asociado con el módulo :
 
 ![Comandos](images/ets200/ets200.commandes.jpg)
 
 Aquí está la lista de comandos :
 
--   Temperatura : Es el comando que indica la temperatura leída.
+-   Temperatura : Es el comando que indica la temperatura leída
 
--   Batería : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería
 
 Información 
 ------------
@@ -134,13 +134,13 @@ disponible :
 
 ![Comandos](images/ets200/ets200.informations.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería de los módulos de batería.
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 **@Jamsta**

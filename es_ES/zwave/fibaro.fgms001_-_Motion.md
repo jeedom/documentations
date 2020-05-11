@@ -28,7 +28,7 @@ El detector de movimiento Fibaro es un detector multifunción Z-Wave.
 Además de la detección de movimiento, este dispositivo mide la
 temperatura e intensidad de luz. Este detector también incluye un
 Acelerómetro incorporado para detectar cualquier intento de alterar el
-dispositif.
+Dispositivo.
 
 El detector de movimiento Fibaro funciona con batería y está diseñado
 para ser instalado rápida y fácilmente en cualquier
@@ -67,7 +67,7 @@ Funciones
 
 -   Muy pequeño, dimensiones reducidas
 
--   Fácil instalación en una pared o cualquier otra superficie.
+-   Fácil instalación en una pared o cualquier otra superficie
 
 \
 
@@ -80,11 +80,11 @@ Características técnicas
 
 -   Suministro : Batería CR123A 3,6VDC
 
--   Altura recomendada para la instalación : 2,4m
+-   Altura recomendada para la instalación : 2.4m
 
 -   Rango de temperatura medido : -20 ° C a 100 ° C
 
--   Precisión de medición : 0,5°C
+-   Precisión de medición : 0.5 ° C
 
 -   Rango de medición de brillo : 0-32000 LUX
 
@@ -92,7 +92,7 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 4.4 cm de diámetro
+-   Dimensiones: 4.4 cm de diámetro
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
@@ -125,11 +125,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -153,7 +153,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -183,7 +183,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -242,9 +242,9 @@ Detalles del parámetro :
 -   12: cambiar solo si sabes por qué lo estás haciendo
     (asociación con un módulo por ejemplo)
 
--   14: idem
+-   14: ídem
 
--   16: idem
+-   16: ídem
 
 -   20: sensibilidad del sensor giroscópico (valor recomendado 15)
 
@@ -293,7 +293,7 @@ Detalles del parámetro :
     (vinculado al parámetro 81)
 
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de
-    sabotage
+    Sabotaje
 
 \
 
@@ -319,10 +319,10 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo es muy complicado al despertar y está muy mal configurado
-> fabrica. Es esencial despertarlo bien después de la inclusión.
+> fabrica. Es esencial despertarlo bien después de la inclusión
 > (varias veces son mejores que uno), para configurarlo de acuerdo a su
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
 > Cuenta.
@@ -359,7 +359,7 @@ Este módulo se activa presionando 3 veces en su botón de inclusión.
 
 \
 
-Este módulo es muy meticuloso.. Es recomendable incluir
+Este módulo es muy meticuloso. Es recomendable incluir
 más cerca de tu caja y recógela varias veces.
 
 \
@@ -374,7 +374,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

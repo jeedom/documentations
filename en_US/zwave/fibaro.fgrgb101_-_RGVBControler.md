@@ -33,13 +33,13 @@ or RGB + white or even to connect analog probes using
 
 -   4 dimmer outputs (PWM) to control :
 
--   \* i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
+-   \ * i.e. 1 channel of RGB + White LED (RGBW) 12 / 24V
 
--   \* or 4 channels of white LEDs 12 / 24V
+-   \ * or 4 channels of white LEDs 12 / 24V
 
--   \* or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
+-   \ * or 4 channels of 12 / 24V halogen lamps (144W 12V / 288W 24V max.)
 
--   \* or 12 / 24V fans.
+-   \ * or 12 / 24V fans.
 
 -   Requires separate 12 / 24V power supply.
 
@@ -73,19 +73,19 @@ Technical characteristics
 
 -   Maximum output power :
 
--   \* 12A in total (addition of all channels),
+-   \ * 12A in total (addition of all channels),
 
--   \* 6A max. per channel
+-   \ * 6A max. per channel
 
 -   Maximum power with halogen lamps :
 
--   \* 12V - 144W total (all channels),
+-   \ * 12V - 144W total (all channels),
 
--   \* 24V - 288W total (all channels)
+-   \ * 24V - 288W total (all channels)
 
 -   PWM modulation frequency : 244 Hz
 
--   Consumption : 0,3W
+-   Consumption : 0.3W
 
 -   Radio protocol : Z-Wave at 868.4 MHz (EU)
 
@@ -123,11 +123,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -149,7 +149,7 @@ Once included you should get this :
 ### Commands 
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -162,7 +162,7 @@ disponibles.
 Here is the list of commands :
 
 -   Color : It is the command which allows to set the color code to
-    afficher
+    Pin up
 
 -   Fireplace : It is the command that simulates an atmosphere of
     Fireplace
@@ -191,10 +191,10 @@ Here is the list of commands :
 -   Off : This is the command that turns off the banner
 
 -   Intensity : It is the command which allows to adjust the intensity
-    lumineuse
+    bright
 
 Note that on the dashboard all the information is found on the same
-icone
+Icon
 
 \
 
@@ -229,7 +229,7 @@ being translated into french.
 ### Groups 
 
 This module has five association groups, only the fifth is
-indispensable.
+essential.
 
 \
 
@@ -244,7 +244,7 @@ Use of 0-10V sensors.
 
 \
 
-> **Caution**
+> **Bail**
 >
 > For now, the default configuration of jeedom does not allow it
 > not, but a specific configuration can be considered.

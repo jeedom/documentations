@@ -2,7 +2,7 @@ Monit es un servicio de supervisión de servicio. El cuida
 compruebe que todavía se ha iniciado un servicio.
 
 Para ello indicamos los criterios de evaluación y las acciones para
-prendre.
+tomar.
 
 Instalación de Monit 
 =====================

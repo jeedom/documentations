@@ -10,7 +10,7 @@ Voraussetzungen
 
 -   haben Internetzugang von der Jeedom Box
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, vor jedem Update ein Backup zu erstellen und zu exportieren
 > Handbuch.
@@ -37,7 +37,7 @@ Immer noch in SSH:
     chmod 775 -R / var / www / html
     www-data chown:www-data -R / var / www / html
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Ihre Installation von Jeedom etwas alt ist, muss sie ersetzt werden
 > all / var / www / html von / usr / share / nginx / www / jeedom

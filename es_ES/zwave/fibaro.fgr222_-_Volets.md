@@ -31,17 +31,17 @@ existente. Por lo tanto, podrá activar el motor conectado
 usando el interruptor existente, un transmisor Z-Wave o directamente
 desde el botón en el micromódulo.
 
-Además, este micromódulo es capaz de transmitir el consumo.
+Además, este micromódulo es capaz de transmitir el consumo
 potencia eléctrica instantánea (W) y acumulativa (KWh) del equipo
-rattaché.
+adjunto.
 
 Se requiere un controlador Z-Wave (control remoto, dongle, etc.) para
 integre este módulo en su red si ya tiene una red
-existant.
+existente.
 
 Cada módulo Z-Wave funciona como un repetidor inalámbrico con el
 otros módulos, para garantizar una cobertura total de su
-habitation.
+vivienda.
 
 Nota : Este módulo requiere neutral para operar.
 
@@ -55,23 +55,23 @@ Funciones
 -   Controle sus persianas o persianas de forma remota
 
 -   Compatible con BSO y persiana veneciana con posicionamiento de
-    lamelles
+    listones
 
 -   Se instala detrás de un interruptor existente
 
 -   Arriba / abajo y función de posicionamiento
 
--   Compatible con motores con parada mecánica o electrónica.
+-   Compatible con motores con parada mecánica o electrónica
 
--   Medición del consumo instantáneo y acumulativo.
+-   Medición del consumo instantáneo y acumulativo
 
 -   Actualización inalámbrica con la caja Fibaro Home Center 2
 
 -   Función de prueba de cobertura de red Z-Wave
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -96,11 +96,11 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 17 x 42 x 37 mm
+-   Dimensiones: 17 x 42 x 37 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Temperatura límite : 105°C
+-   Temperatura límite : 105 ° C
 
 -   Normas : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
@@ -130,11 +130,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -158,7 +158,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -180,9 +180,9 @@ Aquí está la lista de comandos :
 
 -   Arriba : Este es el comando que le permite abrir completamente el obturador
 
--   Abajo : Es el comando que cierra completamente el obturador.
+-   Abajo : Es el comando que cierra completamente el obturador
 
--   Refrescar : Es el comando que permite volver a preguntar la posición.
+-   Refrescar : Es el comando que permite volver a preguntar la posición
     de la persiana
 
 -   Potencia : Comando que permite tener el consumo del módulo
@@ -190,7 +190,7 @@ Aquí está la lista de comandos :
 -   El consumo : Control que permite conocer el poder
     Instantáneo utilizado por el módulo
 
--   Detener : Control para detener el movimiento del obturador.
+-   Detener : Control para detener el movimiento del obturador
 
 -   DETENER BSO : Comando para detener el movimiento (en modo
     listón ajustable)
@@ -200,7 +200,7 @@ Aquí está la lista de comandos :
 -   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 
 -   No : Se usa para definir el paso para presionar Rechazar o
-    Incliner
+    Inclinación
 
 \
 
@@ -316,7 +316,7 @@ en este botón disponible en la pestaña Sistema.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para que los comentarios de estado funcionen en Jeedom, es necesario
 > forzar la calibración del equipo (parámetro 29 a "Sí") y la

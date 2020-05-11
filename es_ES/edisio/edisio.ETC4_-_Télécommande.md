@@ -9,11 +9,11 @@
 Resumen 
 ======
 
-El mini control remoto e-Trendy de 4 canales es simple, robusto y elegante.,
+El mini control remoto e-Trendy de 4 canales es simple, robusto y elegante,
 fue creado para complacer. Se conecta fácilmente a receptores y
 puede controlar su encendido / apagado y luces regulables, motorizaciones,
 persianas, persianas, portones, puertas de garaje. Tiene dos modos de
-programmation.
+Programación.
 
 Además, la interacción con otros protocolos es posible, puede
 interactuar con los receptores de la marca Edisio, con Jeedom, pero
@@ -27,9 +27,9 @@ Funciones
 
 -   2 modos de programación
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 Características técnicas 
 ===========================
@@ -60,9 +60,9 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -78,7 +78,7 @@ Los controles remotos de e-Trendy tienen 2 modos de funcionamiento, MODO 1 y MOD
 -   MODO 1 : Control de 1 botón : Encendido / Apagado, Abrir / Cerrar,
     Variación + / Variación-, Impulso
 
--   MODO 2 : Control en 2 teclas. :
+-   MODO 2 : Control en 2 teclas :
 
     -   Teclas ARRIBA: Detener, Cerrar, Variación, Impulso
 
@@ -127,7 +127,7 @@ Una vez, su equipo asociado, debería obtener esto :
 Comandos 
 ---------
 
-Una vez que haya creado su equipo, debe recibir los pedidos.
+Una vez que haya creado su equipo, debe recibir los pedidos
 asociado con el módulo :
 
 ![Comandos](images/etc4/commandes.jpg)
@@ -142,7 +142,7 @@ Aquí está la lista de comandos :
 
 -   bt04 : Es el comando que te permite interactuar con el botón 4
 
--   Batería : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería
 
 Información 
 ------------
@@ -152,14 +152,14 @@ disponible :
 
 ![Comandos](images/etc4/infos.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el micro módulo
 
--   Batería : Indica el estado de la batería para los módulos de batería.
+-   Batería : Indica el estado de la batería para los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 Uso 
 -----------
@@ -167,7 +167,7 @@ Uso
 Una vez que su control remoto está configurado, puede hacerlo con
 El plugin Jeedom Scenario interactúa con su control remoto en Jeedom.
 
-> **Note**
+> **Nota**
 >
 > Cada clave para un estado binario devuelve.
 
@@ -178,6 +178,6 @@ Cómo eliminar la asociación de una clave con un receptor ?
 
 :   Presione 5 segundos en la "R" del receptor, una señal sonora simple
     modo de desprogramación activado. Presione la tecla "C" para eliminar.
-    Repita esta operación para borrar todas las teclas..
+    Repita esta operación para borrar todas las teclas.
 
 **@Jamsta**

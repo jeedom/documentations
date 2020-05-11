@@ -13,7 +13,7 @@ Die 4-Kanal-Mini-Fernbedienung e-Trendy ist einfach, robust und elegant,
 es wurde geschaffen, um zu gefallen. Es lässt sich leicht an Empfänger anschließen und
 kann Ihre Ein / Aus und dimmbaren Lichter, Motorisierungen steuern,
 Jalousien, Fensterläden, Tore, Garagentore. Es hat zwei Modi von
-programmation.
+Programmierung.
 
 Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
 interagieren mit den Rezeptoren der Marke Edisio, mit Jeedom, aber
@@ -42,7 +42,7 @@ Technische Daten
 
 -   Frequenz : 868,3 MHz
 
--   Betriebstemperatur : -10 ° C + 50 ° C.
+-   Betriebstemperatur : -10 ° C + 50 ° C
 
 -   Abmessungen : 52 x 28 x 12 mm
 
@@ -60,9 +60,9 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
@@ -167,7 +167,7 @@ Verwendung
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der
 Das Jeedom-Szenario-Plugin interagiert mit Ihrer Fernbedienung auf Jeedom.
 
-> **Note**
+> **Notiz**
 >
 > Jeder Schlüssel zu einem Binärstatus gibt zurück.
 

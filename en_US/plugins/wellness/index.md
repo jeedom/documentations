@@ -1,8 +1,8 @@
 
-# Confort
+# Comfort
 
 
->**IMPORTANT**
+>**Important**
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=wellness) all official plugins in this category
 
@@ -17,5 +17,5 @@
 |<img src="netatmoThermostat/netatmoThermostat_icon.png" class="pluginLogo" width="100" />|Netatmo Thermostat|Plugin to control your Netatmo thermostat.<br/><br/>The plugin allows to :<br/>-Choose the thermostat operating mode (program, max, absent, frost-free, off, manual setpoint)<br/>-Choose your calendar (holidays, switchboard etc ...)<br/>- Know the battery and the signal levels of the thermostat<br/>- Know the current schedule as well as the next one (and the end time of the current schedule)<br/>- Define the day and time when the modes end (absent, frost-free, max and manual)<br/>- All functions are available via scenarios<br/>- The two widgets (dashboard and mobile) provide access to all of these features|[Documentation](netatmoThermostat/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1969)<br/>[Changelog](netatmoThermostat/changelog.md)|
 |<img src="smartercoffee/smartercoffee_icon.png" class="pluginLogo" width="100" />|Smarter coffee|Plugin to manage the smarter coffee maker|[Documentation](smartercoffee/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2285)<br/>[Changelog](smartercoffee/changelog.md)|
 |<img src="swimo/swimo_icon.png" class="pluginLogo" width="100" />|Swimo|Allows you to control a Swimo pool controller|[Documentation](swimo/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3747)<br/>[Changelog](swimo/changelog.md)|
-|<img src="thermostat/thermostat_icon.png" class="pluginLogo" width="100" />|Thermostat|This very powerful and very complete plugin will allow you to finely manage the temperature of your accommodation, whether to heat or cool it.. The plugin learns by itself the best way to save energy over time while maintaining optimal comfort in your home.|[Documentation](thermostat/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=77)<br/>[Changelog](thermostat/changelog.md)|
+|<img src="thermostat/thermostat_icon.png" class="pluginLogo" width="100" />|Thermostat|This very powerful and very complete plugin will allow you to finely manage the temperature of your accommodation, whether to heat or cool it. The plugin learns by itself the best way to save energy over time while maintaining optimal comfort in your home.|[Documentation](thermostat/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=77)<br/>[Changelog](thermostat/changelog.md)|
 |<img src="thinkingCleaner/thinkingCleaner_icon.png" class="pluginLogo" width="100" />|Thinking Cleaner|Plugin to order roombas via the Thinking Cleaner module|[Documentation](thinkingCleaner/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1712)<br/>[Changelog](thinkingCleaner/changelog.md)|

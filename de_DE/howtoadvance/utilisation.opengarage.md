@@ -17,7 +17,7 @@ Verwendung ist :
 Das Ergebnis ist ein Json. Verwenden Sie also Geräte
 Skript- und Infobefehl vom Typ json
 
-Für den Status des Relais der Name der Eigenschaft des JSON : door
+Für den Status des Relais der Name der Eigenschaft des JSON : Tür
 
 Für den Abstandssensor : dist
 

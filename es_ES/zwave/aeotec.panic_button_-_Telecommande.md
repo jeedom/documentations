@@ -26,7 +26,7 @@ Resumen
 
 Este control remoto de llavero con un diseño moderno y agradable tiene un
 botón para controlar todos los tipos de dispositivos Z-Wave como
-lámparas, persianas, etc..
+lámparas, persianas, etc.
 
 Con sus dimensiones muy pequeñas, puedes ponerlo fácilmente
 en tu bolsillo. Fácil de usar y elegante, está equipado con un
@@ -62,7 +62,7 @@ Funciones
 
 -   Se puede usar como botón de emergencia / pánico
 
--   Úselo alrededor del cuello como medallón de emergencia.
+-   Úselo alrededor del cuello como medallón de emergencia
 
 \
 
@@ -110,11 +110,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > APRENDER, de acuerdo con su documentación en papel.
@@ -138,7 +138,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -162,7 +162,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -264,7 +264,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

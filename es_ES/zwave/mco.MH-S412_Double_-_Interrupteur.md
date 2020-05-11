@@ -27,7 +27,7 @@ El interruptor MH-S412-EU se usa para cambiar las 2 cargas conectadas,
 ya sea manualmente como un interruptor convencional o de forma remota a través de
 Protocolo inalámbrico Z-Wave.
 
-Su acabado y diseño de vidrio aporta un estilo moderno..
+Su acabado y diseño de vidrio aporta un estilo moderno.
 
 El interruptor MH-S412-EU puede controlar cualquier tipo de carga,
 iluminación o un electrodoméstico.
@@ -49,11 +49,11 @@ Funciones
 
 -   Soporta comandos de asociación (Grupo 1 y Grupo 2)
 
--   Control local de los dos cargos.
+-   Control local de los dos cargos
 
 -   LED de estado
 
--   Acabado de vidrio, diseño moderno.
+-   Acabado de vidrio, diseño moderno
 
 -   Botones táctiles
 
@@ -66,7 +66,7 @@ Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 
--   Color : Blanc
+-   Color : Blanco, Blanca
 
 -   Suministro : 230 V, 50 Hz
 
@@ -80,7 +80,7 @@ Características técnicas
 
 -   Dimensiones : 86 x 86 x 43 mm
 
--   Affichage: LED azul / rojo
+-   Visualización: LED azul / rojo
 
 \
 
@@ -108,11 +108,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione solo uno
 > 2 botones en el panel frontal durante 3 segundos, de acuerdo con su
@@ -131,7 +131,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -172,7 +172,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene 3 grupos de asociación.. Solo el tercero es
+Este módulo tiene 3 grupos de asociación. Solo el tercero es
 indispensable.
 
 \

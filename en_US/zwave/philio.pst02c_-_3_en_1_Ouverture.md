@@ -39,13 +39,13 @@ brightness level. For example, the sensor will send a signal to
 Z-Wave switch to turn on the light when the door opens
 and the room is dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and the temperature, i.e
 in the event of a significant change, and each time the opening / closing
 is detected.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
-existant.
+existing.
 
 \
 
@@ -68,7 +68,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Autoprotection
+-   Self-protection
 
 -   Low battery indication
 
@@ -139,11 +139,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -167,7 +167,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -180,7 +180,7 @@ Here is the list of commands :
 \
 
 -   Opening : it is the command which will raise a detection
-    d'ouverture
+    opening
 
 -   Temperature : it is the command which allows to go up the
     Temperature
@@ -195,7 +195,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -265,7 +265,7 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    rapport
+    Report
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
@@ -277,7 +277,7 @@ Parameter details :
 \
 
 This module has two association groups, only the first is
-indispensable.
+essential.
 
 \
 
@@ -328,7 +328,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -33,13 +33,13 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   4 salidas de dimmer (PWM) para controlar :
 
--   \* es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
+-   \ * es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 
--   \* o 4 canales de LED blancos 12 / 24V
+-   \ * o 4 canales de LED blancos 12 / 24V
 
--   \* o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
+-   \ * o 4 canales de lámparas halógenas de 12 / 24V (144W 12V / 288W 24V máx.)
 
--   \* o ventiladores 12 / 24V.
+-   \ * o ventiladores 12 / 24V.
 
 -   Requiere fuente de alimentación separada de 12 / 24V.
 
@@ -60,9 +60,9 @@ Funciones
 
 -   ON / OFF y función de variación
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -73,19 +73,19 @@ Características técnicas
 
 -   Máxima potencia de salida :
 
--   \* 12A en total (suma de todos los canales),
+-   \ * 12A en total (suma de todos los canales),
 
--   \* 6A máx.. por canal
+-   \ * 6A máx. por canal
 
--   Máxima potencia con lámparas halógenas. :
+-   Máxima potencia con lámparas halógenas :
 
--   \* 12V - 144W en total (todos los canales),
+-   \ * 12V - 144W en total (todos los canales),
 
--   \* 24V - 288W en total (todos los canales)
+-   \ * 24V - 288W en total (todos los canales)
 
 -   Frecuencia de modulación PWM : 244 Hz
 
--   El consumo : 0,3W
+-   El consumo : 0.3W
 
 -   Protocolo de radio : Onda Z a 868,4 MHz (UE)
 
@@ -123,11 +123,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -149,7 +149,7 @@ Una vez incluido, deberías obtener esto :
 ### Comandos 
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -162,20 +162,20 @@ disponibles.
 Aquí está la lista de comandos :
 
 -   Color : Es el comando que permite configurar el código de color para
-    afficher
+    Mostrar
 
 -   Chimenea : Es el comando que simula una atmósfera de
     Chimenea
 
 -   Tormenta : Este es el comando que simula una atmósfera de tormenta
 
--   Alba : Este es el comando que simula una atmósfera de Aude.
+-   Alba : Este es el comando que simula una atmósfera de Aude
     (amanecer progresivo)
 
 -   Desvanecimiento : Este es el comando que simula todo
     espectro de color
 
--   RBB : Este es el comando que simula una atmósfera de policía.
+-   RBB : Este es el comando que simula una atmósfera de policía
 
 -   Blanco frio : Este es el comando que simula tener un
     color blanco frío, si la tira de color lo permite. (este
@@ -190,11 +190,11 @@ Aquí está la lista de comandos :
 
 -   Apagado : Este es el comando que apaga el banner
 
--   Intensidad : Es el comando que permite ajustar la intensidad.
-    lumineuse
+-   Intensidad : Es el comando que permite ajustar la intensidad
+    brillante
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-icone
+Icono
 
 \
 
@@ -244,7 +244,7 @@ Uso de sensores de 0-10 V.
 
 \
 
-> **Caution**
+> **Depositar**
 >
 > Por ahora, la configuración predeterminada de jeedom no lo permite
 > no, pero se puede considerar una configuración específica.

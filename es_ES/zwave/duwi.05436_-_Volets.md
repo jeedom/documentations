@@ -36,7 +36,7 @@ Sus características principales son :
 -   La capacidad de enviar una señal continua arriba / abajo sin
     límite de tiempo.
 
-Attention: este módulo no envía su estado al controlador de onda z cuando
+Atención: este módulo no envía su estado al controlador de onda z cuando
 el usuario presiona los botones directamente. Tienes que hacer un
 'Actualizar 'en su posición para actualizar o ajustar la Encuesta (ver
 más lejos).
@@ -50,7 +50,7 @@ Funciones
 
 -   Arriba / abajo
 
--   Un cable común que se activará en ascenso o descenso.
+-   Un cable común que se activará en ascenso o descenso
 
 -   Requiere neutral para operar
 
@@ -117,14 +117,14 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner el módulo en modo de inclusión, presione tres veces
-> en el ascenso o descenso. La exclusión se realiza de la misma manera..
+> en el ascenso o descenso. La exclusión se realiza de la misma manera.
 
 \
 
@@ -141,11 +141,11 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
-![Comandos](images/duwi.05436/4-Commandes.PNG)
+![Comandos](images/duwi.05436/4-Comandos.PNG)
 
 \
 
@@ -169,7 +169,7 @@ Aquí está la lista de comandos :
 
 #### Establecer los tiempos de subida y bajada : 
 
-Se debe quitar el interruptor para acceder a los dos botones.
+Se debe quitar el interruptor para acceder a los dos botones
 "ascenso "y" descenso".
 
 Coloque la aleta en la parte superior si desea ajustar el
@@ -182,7 +182,7 @@ Luego presione y mantenga presionado el botón hacia abajo o hacia arriba,
 hasta alcanzar la posición deseada. Cuando sueltas el botón, el
 El LED se ilumina en verde continuo durante unos segundos. El tiempo es memorizado.
 
-Repita la operación en la otra dirección..
+Repita la operación en la otra dirección.
 
 \
 
@@ -216,9 +216,9 @@ Detalles del parámetro :
 -   0 : Tiempo de funcionamiento :
 
 Estos son los tiempos de subida y bajada. Deberías encontrar tu
-apprentissage.
+aprendiendo.
 
-La codificación se realiza mediante dos pares de bytes. : el primero para la escalada
+La codificación se realiza mediante dos pares de bytes : el primero para la escalada
 y el segundo para el descenso.
 
 Los valores se codifican en hexadecimal en el módulo y se restablecen
@@ -236,7 +236,7 @@ luego envíe un 'Stop' para interrumpir.
 
 Se usa para indicar si presionar en la dirección opuesta durante un
 el desplazamiento detiene el obturador o lo devuelve inmediatamente en la dirección
-opposé.
+opuesto.
 
 \
 
@@ -249,7 +249,7 @@ encuentra tu controlador Z-Wave.
 
 \
 
-![Groupe](images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-Grupos.PNG)
 
 \
 
@@ -279,9 +279,9 @@ Bueno saber
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 
-> **Tip**
+> **Punta**
 >
-> El widget "Store\_2\_IMG" utilizado en el comando de información "Estado". Este
+> El widget "Store \ _2 \ _IMG" utilizado en el comando de información "Estado". Este
 > el widget es bueno porque muestra estados 'parcialmente abiertos''.
 
 **@Theduck38**

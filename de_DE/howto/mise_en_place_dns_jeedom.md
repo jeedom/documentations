@@ -1,10 +1,10 @@
 # Implementierung von Jeedom DNS
 
-## Objectif
+## Ziel
 
 Richten Sie Jeedom DNS so ein, dass Sie extern über eine HTTPS-URL auf Ihr Jeedom zugreifen können
 
-> **IMPORTANT**
+> **Wichtig**
 >
 >Das Jeedom-DNS fungiert als Reverse-Proxy, sodass nur in https auf Ihr Jeedom zugegriffen werden kann. Daher ist es nicht möglich, mit dem Jeedom-DNS remote auf Ihr Jeedom in SSH zuzugreifen
 
@@ -12,13 +12,13 @@ Richten Sie Jeedom DNS so ein, dass Sie extern über eine HTTPS-URL auf Ihr Jeed
 
 Um auf Jeedom DNS zugreifen zu können, ist ein Service Pack oder mehr erforderlich.
 
-## Principe
+## Prinzip
 
-Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung zu einem unserer VPN-Server her (verschlüsselte Verbindung).. Dann macht dieser fragliche Server bei uns während der Anfrage "Reverse Proxy" : Es nimmt Ihre Anfrage, sich mit Ihrem Jeedom zu verbinden, und überträgt sie an dieses.
+Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung zu einem unserer VPN-Server her (verschlüsselte Verbindung). Dann macht dieser fragliche Server bei uns während der Anfrage "Reverse Proxy" : Es nimmt Ihre Anfrage, sich mit Ihrem Jeedom zu verbinden, und überträgt sie an dieses.
 
 Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar machen und keine Portöffnung durchführen müssen.
 
-> **IMPORTANT**
+> **Wichtig**
 >
 > Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router müssen Sie die Firewall-Ebene senken. Für freie Benutzer müssen Sie manchmal auch zu einer festen IP wechseln (andernfalls können Sie Ihre IP kostenlos zwischen mehreren Benutzern teilen, was Bedenken hinsichtlich DNS aufwirft) Freebox Delta müssen Sie die Kindersicherung deaktivieren
 
@@ -30,7 +30,7 @@ Wir haben derzeit 6 DNS-Server, die auf 2 verschiedenen physischen Computern mit
 
 Dort ist es super einfach, Sie müssen Ihr Jeedom mit dem Markt verbinden (siehe Dokumentation erster Schritt). 
 
-### Market
+### Markt
 
 Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = Profile) und schließlich auf der Registerkarte "Meine Jeedoms".
 
@@ -40,13 +40,13 @@ Sobald der Marktstatus bei "Verbindung möglich" ist, gehen Sie zu Ihrem Jeedom,
 
 Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
 
-> **IMPORTANT**
+> **Wichtig**
 >
 > Sie können diese URL ändern, indem Sie zu Ihrer Marktprofilseite und dann zu meinen Jeedoms gehen. Bitte beachten Sie, dass jede Änderung 24 Stunden dauert, bevor sie wirksam wird
 
 Hier ist Ihr Jeedom von außen in https zugänglich
 
-## FAQ
+## Faq
 
 > **Muss ich Ports an meiner Box öffnen?**
 >
@@ -58,7 +58,7 @@ Hier ist Ihr Jeedom von außen in https zugänglich
 
 > **Ich habe den internen Listening-Port meines Jeedom geändert und der Jeedom-DNS funktioniert nicht mehr**
 >
-> In der Tat funktioniert der Jeedom DNS nur, wenn Ihr Jeedom den lokalen Port 80 überwacht (alle anderen Ports auf der VPN-Schnittstelle sind beim Herstellen einer Verbindung geschlossen).. Dies wirft keine Sicherheitsbedenken auf, da das VPN einen verschlüsselten Tunnel erstellt. Selbst wenn der Fluss an Port 80 frei ist, wird er im VPN-Tunnel verschlüsselt.
+> In der Tat funktioniert der Jeedom DNS nur, wenn Ihr Jeedom den lokalen Port 80 überwacht (alle anderen Ports auf der VPN-Schnittstelle sind beim Herstellen einer Verbindung geschlossen). Dies wirft keine Sicherheitsbedenken auf, da das VPN einen verschlüsselten Tunnel erstellt. Selbst wenn der Fluss an Port 80 frei ist, wird er im VPN-Tunnel verschlüsselt.
 
 > **Ich habe keine Anmeldeseite, kann mich aber nicht anmelden**
 >

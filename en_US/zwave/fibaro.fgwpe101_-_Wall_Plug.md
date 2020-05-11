@@ -74,7 +74,7 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105°C
+-   Limit temperature : 105 ° C
 
 -   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
@@ -104,11 +104,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -132,7 +132,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -145,7 +145,7 @@ Here is the list of commands :
 \
 
 -   State : It is the command which allows to know the status of the
-    prise
+    Outlet
 
 -   We : This is the command that turns on the outlet
 
@@ -199,7 +199,7 @@ Parameter details :
 -   1: allows to block the module in always ON
 
 -   16: allows you to remember the last state in the event of a power cut
-    courant
+    Current
 
 -   34: allows you to choose the type of alarm on the Zwave network
     must react
@@ -222,7 +222,7 @@ Parameter details :
     of a variation
 
 -   49: take into account the consumption of the module itself in the
-    valeurs
+    Values
 
 -   50: minimum value used by param 52
 
@@ -249,7 +249,7 @@ Parameter details :
 \
 
 This module has 3 association groups, only the third is
-indispensable.
+essential.
 
 \
 

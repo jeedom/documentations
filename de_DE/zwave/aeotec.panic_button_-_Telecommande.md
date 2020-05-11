@@ -1,32 +1,32 @@
 Aeotec Panikknopf 
 ===================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/aeotec.panicbutton/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/aeotec.panicbutton/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Diese Schlüsselbundfernbedienung mit einem modernen und angenehmen Design hat eine
 Taste zur Steuerung aller Arten von Z-Wave-Geräten wie z
-Lampen, Jalousien usw..
+Lampen, Jalousien usw.
 
 Mit seinen sehr kleinen Abmessungen können Sie es leicht setzen
 in deiner Tasche. Einfach zu bedienen und elegant, ist es mit einem ausgestattet
@@ -43,12 +43,12 @@ befindet sich in einer anderen Notsituation, er muss nur drücken
 Die Taste und ein Z-Wave-Signal werden ausgegeben. In diesem Fall dieses Gerät
 kann auch als Medaillon um den Hals verwendet werden.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   Schlüsselanhänger Fernbedienung
 
@@ -64,12 +64,12 @@ Funktionen
 
 -   Verwenden Sie um den Hals als Notfallmedaillon
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Modultyp : Z-Wave Sender
 
@@ -84,12 +84,12 @@ Technische Daten
 
 -   Abmessungen : 55 x 30 x 11 mm (L x B x H)
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
 -   Machen Sie : Aeotec
 
@@ -101,54 +101,54 @@ Moduldaten
 
 -   Produkt-ID : 38
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > LERNEN Sie gemäß seiner Papierdokumentation.
 
-\.
+\
 
 ![inclusion](images/aeotec.panicbutton/inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/aeotec.panicbutton/commandes.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
@@ -156,66 +156,66 @@ Hier ist die Liste der Befehle :
 
 2 : Langer Druckknopf
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-\.
+\
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/aeotec.panicbutton/config1.jpg)
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   250: Betriebsart der Fernbedienung (absolut
     Szene für Fernbedienung)
 
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat eine einzelne Zuordnungsgruppe. Er ist
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/aeotec.panicbutton/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
 
-\.
+\
 
 ### Besonderheiten 
 
@@ -237,39 +237,39 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 Aufwachen 
 ------
 
-\.
+\
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Halten Sie die LEARN-Taste 3 Sekunden lang gedrückt
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Dieses Modul wird aktiviert, indem die LEARN-Taste 3 Sekunden lang gedrückt wird.
 
-\.
+\
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
-\.
+\
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+\
 
 **@sarakha63**

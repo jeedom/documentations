@@ -17,7 +17,7 @@ uso                    | Información adicional a la documentación sobre el uso
 Licencia *                | Tipo de licencia.                                                                                                          |
 autor *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
 exigir *                | Versión mínima de Jeedom.                                                                                                |
-categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación.** |
+categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación** |
 visualización                  | si el complemento utiliza un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
 Móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
 Cambios *              | Enlace HTML al registro de cambios.                                                                                              |
@@ -28,19 +28,19 @@ idiomas                | Lista de idiomas disponibles para el complemento:franc�
 compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, acoplador, rpi, bricolaje, mobileapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
-maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos..                                            |
+maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
 problema                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
-**Exemple** :
+**Ejemplo** :
 
-[Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Información/info.json)
 
 
 
 
 **CATEGORÍA NOMENCLATURA**
 
-Mercado de la libertad         | Información.JSON               |
+Mercado de la libertad         | info.json               |
 --------------------- | ----------------------- |
 Comunicación         | Comunicación           |
 Confort               | bienestar                |

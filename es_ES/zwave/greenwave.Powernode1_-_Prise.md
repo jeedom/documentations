@@ -40,7 +40,7 @@ el dispositivo de forma remota a través de un navegador web o teléfono intelig
 un calendario para activar o desactivar automáticamente su dispositivo
 en tiempos predefinidos.
 
-Una pequeña rueda en el costado del zócalo le permite elegir un color.
+Una pequeña rueda en el costado del zócalo le permite elegir un color
 que representará la sala a la que está asignado. Por ejemplo "
 azul para el dormitorio ". Este consejo le permitirá diferenciar su
 diferentes enchufes PowerNode y múltiples enchufes. También podemos ajustar
@@ -51,7 +51,7 @@ el boxeo de domótica ya no será posible.
 El tomacorriente controlado por PowerNode también tiene un indicador de estado
 brillante que proporciona información diferente según su color :
 enchufes de encendido o apagado, alcance de radio limitado, modo de inclusión y
-exclusion.
+Exclusión.
 
 El módulo de enchufe PowerNode está equipado con protección contra
 sobrecorrientes para proteger el dispositivo conectado. El zócalo PowerNode
@@ -124,7 +124,7 @@ Datos del módulo
 
 \
 
--   Hacer : GreenWave
+-   Hacer : Greenwave
 
 -   Nombre : GreenWave \ [1 x enchufe \]
 
@@ -143,11 +143,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente bajo el zócalo.
@@ -171,7 +171,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -184,16 +184,16 @@ Aquí está la lista de comandos :
 \
 
 -   Estado : Es el comando que permite conocer el estado de la
-    prise
+    Salida
 
 -   Uno : Este es el comando que enciende la salida
 
--   Apagado : Es el comando que hace posible extinguir la captura.
+-   Apagado : Es el comando que hace posible extinguir la captura
 
 -   Potencia : Es el control que trae el poder instantáneo
     consumido
 
--   El consumo : Es el orden que informa el consumo total.
+-   El consumo : Es el orden que informa el consumo total
 
 \
 
@@ -301,7 +301,7 @@ Faq.
 
 \
 
-No El módulo no lo permite.. Ponle un pequeño trozo de cinta
+No El módulo no lo permite. Ponle un pequeño trozo de cinta
 adhesivo negro.
 
 \

@@ -14,7 +14,7 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 [here](https://etcher.io/)
 
-> **Note**
+> **NOTE**
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
@@ -65,17 +65,17 @@ Log in with credentials **pi / raspberry**
 
 **The sudo password is also raspberry**
 
-> **Note**
+> **NOTE**
 >
 > Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
 
-Then just go to IP\_MACHINE\_JEEDOM
+Then just go to IP \ _MACHINE \ _JEEDOM
 
-> **Note**
+> **NOTE**
 >
 > The default credentials are admin / admin
 
-> **Note**
+> **NOTE**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root password
 

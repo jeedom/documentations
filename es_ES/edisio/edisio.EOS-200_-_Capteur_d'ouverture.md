@@ -17,7 +17,7 @@ Dependiendo del estado, el sensor controla el encendido o la extinción de su
 luces, cierre o apertura de persianas, o la
 alarma activada por un escenario.
 
-La señal solo se envía a la separación del sensor de sonido.
+La señal solo se envía a la separación del sensor de sonido
 elemento magnético. El indicador LED integrado señala cualquier cambio
 estado Nivel de batería bajo indicado por 3 "pitidos" audibles en el
 receptor
@@ -31,7 +31,7 @@ Funciones
 
 -   Ultra compacto
 
--   Instalación fácil y gratuita.
+-   Instalación fácil y gratuita
 
 -   Señal transmitida instantáneamente durante la apertura / cierre
 
@@ -39,7 +39,7 @@ Funciones
 
 -   Información de nivel de batería
 
--   Montaje en pared con tornillos o cinta de doble cara.
+-   Montaje en pared con tornillos o cinta de doble cara
 
 Características técnicas 
 ===========================
@@ -52,7 +52,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100M
+-   Rango en campo libre : 100 millones
 
 -   Dimensiones : 25x79x19mm
 
@@ -72,9 +72,9 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
@@ -94,7 +94,7 @@ Por defecto, el sensor está configurado en NO (normalmente abierto)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **Nota**
 >
 > Por lo tanto, tendrá que configurar su sensor, si desea tener un
 > widget con una puerta cerrada cuando está cerrada.
@@ -114,7 +114,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Tip**
+> **Punta**
 >
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.
@@ -122,7 +122,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 Comandos 
 ---------
 
-Una vez que haya creado su equipo, debe recibir los pedidos.
+Una vez que haya creado su equipo, debe recibir los pedidos
 asociado con el módulo :
 
 ![Comandos](images/eos200/eos200.commandes.jpg)
@@ -132,7 +132,7 @@ Aquí está la lista de comandos :
 -   Puerta : Es el comando que indica si la puerta está abierta o
     cerrado
 
--   Batería : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería
 
 Información 
 ------------
@@ -142,14 +142,14 @@ disponible :
 
 ![Comandos](images/eos200/eos200.informations.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el módulo
 
--   Batería : Indica el estado de la batería de los módulos de batería.
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 Visual alternativo 
 =================

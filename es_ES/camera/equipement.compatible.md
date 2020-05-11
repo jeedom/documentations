@@ -26,7 +26,7 @@
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
 | Hikvision.DS-7216HWI-SH / A |                         |                          |
-| Unidad de videoportero IP\_Linkcom |                         |                          |
+| Unidad de videoportero IP \ _Linkcom |                         |                          |
 | Videoportero Konx      |                         |                          |
 | Mustcam HD motorizado    |                         |                          |
 | Panasonic BL-C121       |                         |                          |
@@ -44,7 +44,7 @@
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **Note**
+> **Nota**
 >
 > Esta lista está elaborada gracias a los comentarios de los usuarios, el equipo
 > Por lo tanto, Jeedom no puede garantizar que todas las cámaras de esta lista

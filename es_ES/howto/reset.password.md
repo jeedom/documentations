@@ -4,14 +4,14 @@ modificándolo en la base de datos, en caso de que lo haya olvidado
 Lo primero que debe hacer es conectarse en SSH a Jeedom (con un
 software de gatito o masilla).
 
-Una vez conectado, debe recuperar los identificadores de la base de datos.
+Una vez conectado, debe recuperar los identificadores de la base de datos
 Datos :
 
 `` `{.bash}
 cat /var/www/html/core/config/common.config.php
 `` ''
 
-Aquí encontrará la contraseña para acceder a la base de datos.
+Aquí encontrará la contraseña para acceder a la base de datos
 Jeedom, entonces tienes que hacer :
 
 `` `{.bash}
@@ -31,12 +31,12 @@ Listo. Puede desconectarse / volver a conectarse a su Jeedom con el
 identificadores adminTmp / admin que le permitirán modificar la contraseña
 pasar otras cuentas también.
 
->**IMPORTANT**
+>**Importante**
 >
 >Recuerde que una vez que se recupere su acceso para eliminar el usuario adminTmp, dejarlo podría ser un potencial
 violación de seguridad de la cual usted es el único responsable.
 
->**IMPORTANT**
+>**Importante**
 >
 > Si ha habilitado la autenticación AD / LDAP, este método de reinicio no funcionará a menos que desactive el modo AD / LDAP. Puedes hacer esto haciendo : 
 >`` `{.bash}

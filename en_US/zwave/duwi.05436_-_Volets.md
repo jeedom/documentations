@@ -36,7 +36,7 @@ Its main features are :
 -   The ability to send a continuous up / down signal without
     time limit.
 
-Attention: this module does not send its status to the z-wave controller when
+Be careful: this module does not send its status to the z-wave controller when
 the user presses the buttons directly. You have to make a
 'Refresh 'on its position to update, or adjust the Poll (see
 further).
@@ -117,11 +117,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put the module in inclusion mode, press three times
 > on the ascent or descent. Exclusion is done the same way.
@@ -141,11 +141,11 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
-![Commands](images/duwi.05436/4-Commandes.PNG)
+![Commands](images/duwi.05436/4-Commands.PNG)
 
 \
 
@@ -216,7 +216,7 @@ Parameter details :
 -   0 : Running Time :
 
 These are the rise and fall times. You should find your
-apprentissage.
+learning.
 
 Coding is done by two pairs of bytes : the first for the climb
 and the second for the descent.
@@ -236,7 +236,7 @@ then send a 'Stop' to interrupt.
 
 Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction
-opposé.
+opposite.
 
 \
 
@@ -249,7 +249,7 @@ find your Z-Wave controller.
 
 \
 
-![Groupe](images/duwi.05436/6-Groupes.PNG)
+![Groupe](images/duwi.05436/6-Groups.PNG)
 
 \
 
@@ -281,7 +281,7 @@ Good to know
 
 > **Tip**
 >
-> The "Store\_2\_IMG" Widget used on the "Status" info command. This
+> The "Store \ _2 \ _IMG" Widget used on the "Status" info command. This
 > widget is nice because it shows 'partially open' states'.
 
 **@Theduck38**

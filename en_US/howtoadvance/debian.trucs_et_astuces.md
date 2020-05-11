@@ -34,7 +34,7 @@ If you want your console (bash) to use colors :
 Allow root login in SSH 
 ==================================
 
-Edit the file / etc / ssh / sshd\_config and change :
+Edit the file / etc / ssh / sshd \ _config and change :
 
     PermitRootLogin without-password
 
@@ -42,7 +42,7 @@ By :
 
     PermitRootLogin yes
 
-> **Important**
+> **IMPORTANT**
 >
 > Be sure to use a strong root password ! The use of
 > fail2ban is also recommended.
@@ -58,7 +58,7 @@ Create the mount point :
 
     mkdir / mnt / my_share
 
-> **Note**
+> **NOTE**
 >
 > You have to adapt my share according to your needs
 
@@ -66,7 +66,7 @@ Added mount in / etc / fstab
 
     // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, user = TODO, password = TODO 0 0
 
-> **Note**
+> **NOTE**
 >
 > You must change the TODOs with your linux username and your
 > Password
@@ -150,7 +150,7 @@ previous :
 
     GRANT ALL PRIVILEGES ON *.* TO root @ 'localhost' IDENTIFIED BY 'monpass';
 
-ou
+or
 
     GRANT ALL PRIVILEGES ON *.* TO jeedom @ 'localhost' IDENTIFIED BY 'monpass';
 
@@ -161,7 +161,7 @@ ou
 
 -   Launch the restoration via the Jeedom interface (Administration →
     Backups → Local Backups : Choose the right backup
-    and click **Restaurer** just below)
+    and click **Restore** just below)
 
 -   Wait during the restoration
 

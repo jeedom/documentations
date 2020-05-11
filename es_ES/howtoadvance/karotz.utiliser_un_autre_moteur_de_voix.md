@@ -11,7 +11,7 @@ Vaya a / www / cgi-bin / y edite el archivo tts.inc, agregue un
 función (ejemplo para Jeedom) :
 
     función jeedomTTS {
-       TTS=$1
+       TTS = $ 1
        MD5FILE = $ (echo "$ TTS" | md5sum | cortar -d '' -f 1)
        eval $ (echo "curl -A '$ {UA}' -o $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 'http://TODO/core/api/tts.php?apikey = TODO & text = $ {TTS} '") >> / dev / null 2 >> / dev / null
        echo $ (echo "$ RAW_TTS" | UrlDecode)> $ CNF_DATADIR / Tmp / $ {MD5FILE} .txt
@@ -22,7 +22,7 @@ función (ejemplo para Jeedom) :
         si ["$ NOCACHE" == "1"]; entonces
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.mp3 >> / dev / null 2 >> / dev / null
             rm -f $ CNF_DATADIR / Tmp / $ {MD5FILE}.txt >> / dev / null 2 >> / dev / null
-         else
+         otro
             Registro "[TTS]" "Almacenamiento de sonido $ {MD5FILE}.mp3 a caché"
          fi
        echo $ {MD5FILE}
@@ -32,7 +32,7 @@ Luego edite el archivo tts y agregue :
 
     3) MP3_ID = $ (jeedomTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;
 
-En el "cuadro \ $ TTS\_ENGINE in" para tener :
+En el "cuadro \ $ TTS \ _ENGINE in" para tener :
 
      box $ TTS_ENGINE en
                  1) MP3_ID = $ (GoogleTTS $ TTS $ VOICE $ NO_CACHE $ RAW_VOICE) ;;

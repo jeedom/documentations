@@ -24,12 +24,12 @@ Resumen
 
 \
 
-El detector ZIP-PSM02-EU ofrece 4 funciones diferentes. : detección de
+El detector ZIP-PSM02-EU ofrece 4 funciones diferentes : detección de
 movimiento, detección de apertura, sensor de temperatura y detector
 brillo Consta de dos partes : un detector y un imán.
 Están diseñados para colocarse en una puerta o ventana con
 el imán fijado en la parte que se abre y el detector en la parte
-fixe.
+arreglado.
 
 Abrir la puerta o ventana mantendrá el imán alejado de
 detector, que activará el detector que enviará una señal Z-Wave
@@ -41,7 +41,7 @@ alertas al detectar cambios en los niveles de radiación
 infrarrojo o puerta / ventana de apertura. Si una persona se muda
 el campo de visión del detector o abre una puerta / ventana, una señal
 se transmite la radio, que activa una alarma para disuadir
-intrus.
+intruso.
 
 El detector también se puede usar en combinación con un
 Controlador Z-Wave para usos de domótica, detectando ambos
@@ -50,7 +50,7 @@ apertura de puerta / ventana y cambios en el nivel de
 brillo Por lo tanto, uno puede activar una iluminación durante una detección
 movimiento de puerta o apertura en la oscuridad.
 
-El detector también aumentará el brillo y la temperatura, es decir.
+El detector también aumentará el brillo y la temperatura, es decir
 cambio significativo, y siempre que un movimiento o
 se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
@@ -75,13 +75,13 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotection
+-   Autoprotección
 
 -   Indicación de batería baja
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -118,7 +118,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
--   Humedad de funcionamiento : 85% HR máx.
+-   Humedad de funcionamiento : 85% HR máx
 
 -   Norma CE : EN300 220-1
 
@@ -150,11 +150,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -178,7 +178,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -193,7 +193,7 @@ Aquí está la lista de comandos :
 -   Presencia : es el comando que detectará una detección de presencia
 
 -   Apertura : es el comando que generará una detección
-    d'ouverture
+    abriendo
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
@@ -211,7 +211,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -287,7 +287,7 @@ Detalles del parámetro :
     recomendado : 10
 
 -   21: valor de variación de temperatura en ° F para activar un
-    rapport
+    Reporte
 
 -   22: valor en% de variación de brillo para activar un
     Informar valor recomendado : 10
@@ -350,7 +350,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

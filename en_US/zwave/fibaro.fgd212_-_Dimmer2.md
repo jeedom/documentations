@@ -63,7 +63,7 @@ Functions
 -   Integrates the Z-Wave 500 series chip
 
 -   250% faster communication compared to Z-Wave devices
-    standard
+    Standard
 
 -   Automatic load detection
 
@@ -74,7 +74,7 @@ Functions
 -   Active power and energy measurement function
 
 -   Works with different types of push button switches,
-    rocker, three-way, etc..
+    rocker, three-way, etc.
 
 -   Soft-start function
 
@@ -125,10 +125,10 @@ Technical characteristics
 
 -   Operating temperature : 0-35 ° C
 
--   Limit temperature : 105°C
+-   Limit temperature : 105 ° C
 
 -   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5/EC
+    1999/5 / EC
 
 \
 
@@ -156,11 +156,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation. If the
@@ -194,7 +194,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the modules will be
-disponibles.
+available.
 
 \
 
@@ -223,7 +223,7 @@ Here is the list of commands :
     module instant
 
 Note that on the dashboard all the information is found on the same
-icone
+Icon
 
 \
 
@@ -271,7 +271,7 @@ ON GOING REDACTION
 \
 
 This module has five association groups, only the first is
-indispensable.
+essential.
 
 \
 
@@ -288,7 +288,7 @@ Good to know
 
 \
 
-> **Caution**
+> **Bail**
 >
 > The most important parameter of the configuration is 20. It
 > allows to choose the type of switch used. Default type

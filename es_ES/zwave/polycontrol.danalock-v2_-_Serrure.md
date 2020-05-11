@@ -37,7 +37,7 @@ Diferentes configuraciones le permitirán controlar el acceso a su
 casa Danalock tiene una función de bloqueo automático que permite
 cerradura de puerta automática. Ideal cuando no
 no manos libres, por ejemplo. Además, se proporcionan 5 llaves. Vosotras
-puede usarlos desde afuera. La instalación es rápida y fácil.
+puede usarlos desde afuera. La instalación es rápida y fácil
 a realizar independientemente del tipo de puerta. La aplicación correspondiente
 es compatible con iPhone 4S, Android 4.4 y teléfono inteligente. El danalock hace
 No se requiere fuente de alimentación externa. Comida
@@ -62,7 +62,7 @@ Bloquear y desbloquear con el botón, la función TwistAssist o
 usando su teléfono inteligente. Y con la función de desbloqueo automático,
 La cerradura Danalock abre automáticamente la puerta cuando
 acércate a tu casa y ciérrala justo después de
-rentré.
+regresado.
 
 **Batería de larga duración**
 
@@ -80,7 +80,7 @@ Acceso familiar rápido y fácil con sus Smartphones. A tu esposa
 limpieza o sus invitados, acceso por tiempo limitado o recurrente y
 recibir notificaciones cuando su candado está en uso y por quién.
 
-**Control total de la casa.**
+**Control total de la casa**
 
 Desarrolle el control de su hogar inteligente con un Danalock,
 el iniciador perfecto para todos sus pedidos de casas. Danalock
@@ -174,11 +174,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Es esencial incluir este módulo en modo seguro..
 
@@ -189,7 +189,7 @@ seguro : simplemente vaya a la página de administración del módulo Z-wave
 y haga clic en el icono "Red Zwave"
 
 ![inclusion securise jeedom
-1](images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
+1] (images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
 
 \
 
@@ -197,11 +197,11 @@ Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO
 SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom
-2](images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
+2] (images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
 
 \
 
-> **Important**
+> **Importante**
 >
 > Suponemos que ha instalado la aplicación en
 > su teléfono inteligente o iphone y creó una cuenta. Si aún no lo es
@@ -229,7 +229,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -256,7 +256,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Warning**
+> **Advertencia**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -290,7 +290,7 @@ Detalles del parámetro :
 
 -   1 : Dirección 0-1 : 0 = el motor gira en sentido horario
     bloqueado, 1 = el motor va en sentido antihorario cuando
-    verrouillé
+    bloqueado
 
 -   2 : Velocidad 1 = más lenta, 2 = lenta, 3 = Normal, 4 = Rápida, 5 = la
     más rápido
@@ -320,7 +320,7 @@ Detalles del parámetro :
 
 -   10 : Brake & GoBack 0 = Deshabilitado. 1⇒15 segundos para frenar. Cuando
     se usa el freno de bloqueo por x cantidad de segundos, luego
-    retroceder 75 grados. Diseñado para puertas especiales.
+    retroceder 75 grados. Diseñado para puertas especiales
     sin palanca. (Solo al desbloquear).
 
 -   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando async está activado el
@@ -353,7 +353,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -362,7 +362,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo devuelve su estado si opera el bloqueo con la mano
 > El estado se actualizará. \

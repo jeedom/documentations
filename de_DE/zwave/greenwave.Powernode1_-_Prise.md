@@ -1,28 +1,28 @@
 Greenwave PowerNode - 1 Stecker 
 =============================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Das PowerNode-Steckermodul von GreenWave ist ein intelligentes Gerät, das
 verbindet sich mit einem Ihrer Haushaltsgeräte und Elektronik zu
@@ -51,7 +51,7 @@ Heimautomationsboxen ist nicht mehr möglich.
 Die PowerNode-gesteuerte Steckdose verfügt auch über eine Statusanzeige
 hell, was je nach Farbe unterschiedliche Informationen liefert :
 Steckdosen ein oder aus, begrenzte Funkreichweite, Einschlussmodus und
-exclusion.
+Ausschluss.
 
 Das PowerNode-Steckermodul ist mit einem Schutz gegen ausgestattet
 Überströme zum Schutz des angeschlossenen Geräts. Die PowerNode-Buchse wird
@@ -59,12 +59,12 @@ bei defektem Gerät deaktiviert oder
 Kurzschluss. Zusätzlichen Schutz bietet die Sicherung
 intern befindet sich in der Steckdose.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   Steuern Sie eine Lampe oder ein Gerät fern
 
@@ -84,12 +84,12 @@ Funktionen
 
 -   Lichtstatusanzeige
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Versorgung : 250 V AC, 50 Hz
 
@@ -97,34 +97,34 @@ Technische Daten
 
 -   Maximale Lastleistung : 2400 W (bei 240 V)
 
--   Standby-Verbrauch : 0,4 W.
+-   Standby-Verbrauch : 0,4 W
 
--   Messgenauigkeit : ± 0,1 W.
+-   Messgenauigkeit : ± 0,1 W
 
 -   Überstromschutz : 10A interne Sicherung
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868.42MHz
+-   Z-Wave-Radiofrequenz : 868,42 MHz
 
 -   Maximale Reichweite Z-Wave : 30m
 
--   Betriebstemperatur : 0 ° C bis + 25 ° C.
+-   Betriebstemperatur : 0 ° C bis + 25 ° C
 
--   Lagertemperatur : -20 ° C bis + 60 ° C.
+-   Lagertemperatur : -20 ° C bis + 60 ° C
 
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
 
 -   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
--   Machen Sie : GreenWave
+-   Machen Sie : Grünwelle
 
 -   Name : GreenWave \ [1 x Stecker \]
 
@@ -134,57 +134,57 @@ Moduldaten
 
 -   Produkt-ID : 2
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss unter der Steckdose vorhanden.
 
-\.
+\
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/greenwave.Powernode1/commandes.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
-    prise
+    Steckdose
 
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 
@@ -195,44 +195,44 @@ Hier ist die Liste der Befehle :
 
 -   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
 
-\.
+\
 
 Beachten Sie, dass im Dashboard die Befehle ON / OFF / STATUS zusammengefasst sind
 in einer Taste.
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/greenwave.Powernode1/config1.jpg)
 
-\.
+\
 
 Wie Sie sehen, gibt es nicht viel Konfiguration
 für dieses Modul.
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   1 : Verzögerung, bevor die Taste blinkt : Anzahl der Sekunden
     Minimum zwischen zwei Kommunikationen (wenn diese Verzögerung überschritten wird, die Taste
@@ -240,70 +240,70 @@ Parameterdetails :
 
 -   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat vier Zuordnungsgruppen, nur die 3. Gruppe
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
 
-\.
+\
 
 Im Gegensatz zu seiner großen Schwester Mehrfachsteckdose benötigt diese Steckdose nicht
 Umfragen zur Steigerung des Verbrauchs.
 
-\.
+\
 
 ### Zurücksetzen 
 
-\.
+\
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
-\.
+\
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. Du musst wählen
-PressButton.
+Drücken Sie die Taste.
 
-\.
+\
 
 ### Besonderheiten 
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Haben Sie Gruppe 3 des Moduls mit Jeedom verknüpft? ?
 
-\.
+\
 
 Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein kleines Stück Band darauf
 schwarzer Kleber.
 
-\.
+\
 
 **@sarakha63**

@@ -7,7 +7,7 @@ Philio Smart Color Button
 
 \
 
-![Module](images/philio.psr04/module.jpg)
+![Module](images/philio.psr04/Module.jpg)
 
 \
 
@@ -64,7 +64,7 @@ Functions
 
 -   Integrated timer function
 
--   Etanche
+-   Waterproof
 
 -   Adapts to any decoration style
 
@@ -102,7 +102,7 @@ Technical characteristics
 
 Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89
 mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diameter
-x thickness) \* Certifications :
+x thickness) \ * Certifications :
 
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Part 15 B, FCC Part 15 C
@@ -133,11 +133,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, put it in position
 > low (inclusion) and press the button in accordance with its
@@ -162,7 +162,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -178,7 +178,7 @@ Here is the list of commands :
     100%
 
 -   Drums : this is the command that reports the battery status of the
-    module
+    Module
 
 \
 
@@ -186,7 +186,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -289,7 +289,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -66,10 +66,10 @@ Technical characteristics
 
 -   Type: Electronic timer
 
--   Relais: 13 (3) A, 230V AC, suitable for loads up to
+-   Relay: 13 (3) A, 230V AC, suitable for loads up to
     3kW
 
--   Alimentation: 230V AC, 50Hz
+-   Food: 230V AC, 50Hz
 
 -   Dimensions 85x85x44mm
 
@@ -102,11 +102,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press 1 second on
 > the button (until rapid flashing) and release, in accordance with
@@ -131,7 +131,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 

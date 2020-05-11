@@ -30,7 +30,7 @@ comparable to an ordinary cord switch.
 
 It can be used both manually like any
 ordinary and remote cord switch via controller
-Z-Wave.
+Z-WAVE.
 
 The SwiidInter switch also offers association possibilities
 and this two-way. Thus, it can be operated automatically by a
@@ -46,7 +46,7 @@ on ordinary cord : so it's a quick and easy installation that
 requires no specialized tools. It must then be configured to
 integrate into a Z-Wave "network", this network can be as simple
 only one remote control that controls your SwiidInter switch to
-distance.
+Range.
 
 \
 
@@ -81,9 +81,9 @@ Technical characteristics
 
 -   Type of module : Z-Wave receiver
 
--   Color : noire
+-   Color : black
 
--   Alimentation: 230V ± 10% - 50Hz
+-   Food: 230V ± 10% - 50Hz
 
 -   Max power : 660W
 
@@ -114,7 +114,7 @@ Module data
 
 -   Mark : Swiid
 
--   Name : Swiidinter
+-   Name : SwiidInter
 
 -   Manufacturer ID : 358
 
@@ -131,11 +131,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > on the back, in accordance with its paper documentation
@@ -159,7 +159,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -181,7 +181,7 @@ Here is the list of commands :
 \
 
 Note that on the dashboard all the information is found on the same
-icone
+Icon
 
 \
 
@@ -242,7 +242,7 @@ This module has two association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For optimum operation of your module. Jeedom must
 > be associated at least with group 2.

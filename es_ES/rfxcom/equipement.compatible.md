@@ -36,7 +36,7 @@
 | 54703          | Movimiento      |                |                |                |
 | DI.O por Chacon | Mando a distancia 3 | AC             |                |                |
 | 54760          | Canales         |                |                |                |
-| DI.O por Chacon | Control remoto   | AC             |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm)      |
+| DI.O por Chacon | Control remoto   | AC             |                | [Comprar](http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-Canales-Blanche-%28gamme-DI-O%29.htm)      |
 | DI.O por Chacon | Salida          | AC             |                |                |
 | 54746          | al aire libre     |                |                |                |
 | DI-O por Chacon | Detector      | AC             |                |                |
@@ -68,14 +68,14 @@
 | OWL TSE200-001 | Transmisor para pinza de corriente (ref TSE000-001 o TSE000-002)  | Oregón         |                |                |
 | SIMU RSA HZ    | Puerta de garaje         |                |                |                |
 | Somfy Freevia 300  | Operador de puerta   | Coloque RFXcom en el motor para asociarlo con el motor como si fuera un control remoto   |                |                |
-| Somfy Evolvia 400/450 | Operador de puerta   | Coloque RFXcom en el motor para asociarlo con el motor como si fuera un control remoto.La cubierta del motor debe estar abierta y debe ser ligera.. El procedimiento no funciona si está oscuro.          |                |                |
+| Somfy Evolvia 400/450 | Operador de puerta   | Coloque RFXcom en el motor para asociarlo con el motor como si fuera un control remoto.La cubierta del motor debe estar abierta y debe ser ligera. El procedimiento no funciona si está oscuro.          |                |                |
 | Somfy RTS      | Persianas enrollables y otros dispositivos Somfy RTS      |                |                |                |
 | Termómetro TX320   | Temperatura Humedad con pantalla      |                |                |                |
 | TFA 30.3139 SENSOR DE RADIO    | Temperatura    |                |                |                |
 | WD18           | Detector de agua     | X10            |                |                |
 
-> **Note**
+> **Nota**
 >
 > Esta lista se basa en los comentarios de los usuarios, el equipo de Jeedom no
 > por lo tanto, puede garantizar que todos los módulos de esta lista sean 100%
-> fonctionels
+> funcional

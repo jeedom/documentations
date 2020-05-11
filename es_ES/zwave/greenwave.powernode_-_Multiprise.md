@@ -49,7 +49,7 @@ evite apagarlo accidentalmente, pero controle desde la caja
 la domótica ya no será posible.
 
 La regleta de alimentación PowerNode también tiene un indicador luminoso de estado
-que da información diferente dependiendo de su color : prises
+que da información diferente dependiendo de su color : tomado
 encendido o apagado, alcance de radio limitado, modo de inclusión y exclusión.
 
 La regleta de alimentación PowerNode está equipada con protección contra
@@ -123,7 +123,7 @@ Datos del módulo
 
 \
 
--   Hacer : GreenWave
+-   Hacer : Greenwave
 
 -   Nombre : GreenWave \ [6 x tomas \]
 
@@ -142,11 +142,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente en el zócalo.
@@ -170,7 +170,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -400,8 +400,8 @@ Faq.
 
 \
 
-No El módulo no lo permite.. Pon un trozo de cinta negra
-dessus.
+No El módulo no lo permite. Pon un trozo de cinta negra
+arriba.
 
 \
 **@sarakha63**

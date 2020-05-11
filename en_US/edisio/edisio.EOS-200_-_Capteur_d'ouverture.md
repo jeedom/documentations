@@ -72,9 +72,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -94,7 +94,7 @@ By default, the sensor is configured in NO (Normally Open)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Note**
+> **NOTE**
 >
 > You will therefore have to configure your sensor, if you wish to have a
 > widget with a door closed when it is closed.

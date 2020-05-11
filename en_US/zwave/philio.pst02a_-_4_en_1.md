@@ -29,7 +29,7 @@ movement, opening detection, temperature sensor and detector
 brightness. It consists of two parts : a detector and a magnet.
 They are designed to be placed on a door or window with
 the magnet fixed on the part which opens and the detector on the part
-fixe.
+fixed.
 
 Opening the door or window will keep the magnet away from
 detector, which will trigger the detector which will send a Z-Wave signal
@@ -41,7 +41,7 @@ alerts when detecting changes in radiation levels
 infrared or door / window opening. If a person moves in
 the detector's field of vision or opens a door / window, a signal
 radio is transmitted, which triggers an alarm to deter
-intrus.
+intruder.
 
 The detector can also be used in combination with a
 Z-Wave controller for home automation uses, by detecting both
@@ -50,7 +50,7 @@ door / window opening and changes in the level of
 brightness. Thus, one can trigger a lighting during a detection
 door movement or opening in the dark.
 
-The detector will also raise the brightness and the temperature, i.e.
+The detector will also raise the brightness and the temperature, i.e
 significant change, and whenever a movement or
 opening / closing are detected. A Z-Wave controller (remote control,
 dongle…) is necessary in order to integrate this detector into your network
@@ -75,7 +75,7 @@ Functions
 
 -   Button to include / exclude the detector
 
--   Autoprotection
+-   Self-protection
 
 -   Low battery indication
 
@@ -150,11 +150,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -178,7 +178,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -193,7 +193,7 @@ Here is the list of commands :
 -   Presence : it is the command which will detect a presence detection
 
 -   Opening : it is the command which will raise a detection
-    d'ouverture
+    opening
 
 -   Temperature : it is the command which allows to go up the
     Temperature
@@ -211,7 +211,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -287,7 +287,7 @@ Parameter details :
     recommended : 10
 
 -   21: temperature variation value in ° F to trigger a
-    rapport
+    Report
 
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
@@ -299,7 +299,7 @@ Parameter details :
 \
 
 This module has two association groups, only the first is
-indispensable.
+essential.
 
 \
 
@@ -350,7 +350,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

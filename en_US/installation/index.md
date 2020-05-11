@@ -9,10 +9,10 @@ Jeedom can be installed on different hardware components :
 
 You can also buy a ready-made box with Jeedom preinstalled which also contains a service pack (more support and services) and plugins offered :
 
--   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
--   [Jeedom Smart Z-Wave + and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
--   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
--   [Jeedom Smart EnOcean and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
+-   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-SMART-z-wave.html)
+-   [Jeedom Smart Z-Wave + and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-SMART-z-wave-et-interface-rfxcom.html)
+-   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-SMART-enocean.html)
+-   [Jeedom Smart EnOcean and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-SMART-enocean-et-interface-rfxcom.html)
 
 Here is a "typical" configuration to get started with Jeedom in Z-Wave :
 
@@ -37,17 +37,17 @@ A total of € 125 for an open source home automation box with complete control 
 >
 > Service pack ? What is it ? You can see [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
-# Installation
+# Setup
 
 I want to install Jeedom :
 
-- On a [SMART](https://doc.jeedom.com/en_US/installation/smart)
+- On a [SMART](https://doc.jeedom.com/en_US/installation/SMART)
 - On a [mini +](https://doc.jeedom.com/en_US/installation/mini)
 - On a [Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
 - On a [Freebox Delta](https://doc.jeedom.com/en_US/installation/freeboxdelta)
 - In [command line](https://doc.jeedom.com/en_US/installation/cli)
 - On a [VM](https://doc.jeedom.com/en_US/installation/vm)
-- On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode.
-- On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode.
+- On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
+- On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of the Docker network mode
 
 Once installation do not forget to consult the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

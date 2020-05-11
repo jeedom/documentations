@@ -11,7 +11,7 @@ Zusammenfassung
 
 In einem Korridor platziert, zum Beispiel im Wohnzimmer, in der Garage Ihres Hauses,
 Der Bewegungssensor erkennt eine Anwesenheit, die Zustandsänderung ist
-instantané.
+Schnappschuss.
 
 Dank seines weiten Betrachtungswinkels und seiner Reichweite ist eine Sicherung möglich
 ein großer Umfang. Die integrierte LED-Anzeige signalisiert Änderungen
@@ -43,7 +43,7 @@ Technische Daten
 
 -   Frequenz : 868,3 MHz
 
--   Betriebstemperatur : 0 ° C + 45 ° C.
+-   Betriebstemperatur : 0 ° C + 45 ° C
 
 -   Reichweite im freien Feld : 100M
 
@@ -67,14 +67,14 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Tip**
+> **Spitze**
 >
 > Die Platzierung wird in einer Höhe von 150 cm und in der Nähe empfohlen
 > die gewünschte Temperatur.
@@ -115,7 +115,7 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Tip**
+> **Spitze**
 >
 > Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
 > Ihre Ausrüstung in einem Objekt.

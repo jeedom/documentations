@@ -2,7 +2,7 @@
 
 Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Herzen mit mehreren Funktionen : Einfaches und erweitertes Szenariomanagement, Interaktion mit der Installation der Hausautomation in Text und Ton, Visualisierung des Verlaufs und Generierung von Kurven und Grafiken, Verknüpfung aller angeschlossenen Geräte und Objekte, Anpassung der Benutzeroberfläche...
 
-Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten..
+Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten.
 
 Dank seiner Flexibilität und zahlreichen Anpassungsparametern kann jeder Benutzer seine eigene Jeedom-Hausautomation erstellen. Mit Widgets, Ansichten und Designs können Sie sich auf Wunsch Ihre eigene Benutzeroberfläche vorstellen.
 
@@ -12,7 +12,7 @@ Jeedom bietet viele Möglichkeiten einschließlich :
 - Automatisieren Sie die Heizung für besseren Komfort und Energieeinsparungen,
 - Visualisieren und verwalten Sie den Energieverbrauch, um Ausgaben zu antizipieren und den Verbrauch zu senken,
 - Kommunizieren Sie per Sprache, SMS, E-Mail oder mobilen Anwendungen,
-- Verwalten Sie alle Automatisierungen im Haus, Fensterläden, Tore, Lichter usw..,
+- Verwalten Sie alle Automatisierungen im Haus, Fensterläden, Tore, Lichter usw.,
 - Verwalten Sie Audio- und Video-Multimedia-Geräte sowie verbundene Objekte.
 
 
@@ -31,7 +31,7 @@ Der Kern umfasst unter anderem :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historiques
+## Historisch
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
@@ -49,7 +49,7 @@ Der Kern umfasst unter anderem :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Interactions
+## Interaktion
 
 *Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
@@ -62,7 +62,7 @@ Der Kern umfasst unter anderem :
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Market
+# Markt
 
 Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
@@ -78,5 +78,5 @@ Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, di
 
 ![Page Markt](images/doc-presentation-market.jpg)
 
-Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt ...
+Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt
 

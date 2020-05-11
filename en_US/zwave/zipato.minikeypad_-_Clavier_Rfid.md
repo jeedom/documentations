@@ -118,11 +118,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, just press two
 > seconds on the metal tab (the red LED on the front panel
@@ -148,7 +148,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -177,7 +177,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -233,7 +233,7 @@ This module has two association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For optimum operation of your module. Jeedom must
 > be associated at least with group 1.
@@ -259,7 +259,7 @@ This allows you to add codes. You will see a table there.
 \
 
 -   This table allows you to view the memories occupied on your
-    clavier
+    keyboard
 
 -   To register a new code click on the green button on the
     desired memory and follow the steps
@@ -274,7 +274,7 @@ This allows you to add codes. You will see a table there.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > Remember to wake up the module after adding a code or badge.
 
@@ -358,7 +358,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wake up, after a

@@ -41,6 +41,6 @@ With :
 -   ``/opt/jeedom/www`` and ``/opt/jeedom/mysql`` : directory where Jeedom data is put on the host
 -   ``your-root-password`` : root password to access Jeedom in SSH
 
-Then you need to install Jeedom by going to : IP\_DOCKER:9080
+Then you need to install Jeedom by going to : IP \ _DOCKER:9080
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

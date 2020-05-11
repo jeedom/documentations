@@ -30,12 +30,12 @@ Multicolor RGB LEDs and an integrated siren. The large format of the
 grid can detect the smallest amount of smoke so
 get a quick reaction. It will thus very easily find its
 place in your home to preserve the security of the whole
-famille.
+family.
 
 The Fibaro FGSD-002 smoke detector is an Alarm Detector
 Autonomous Smoke (DAAF) compliant with standard EN 14604:2005. Good
 that autonomous, it is also communicating thanks to Z-Wave technology
-Plus.
+More.
 
 Some materials burn without smoking. This is why the engineers at
 Fibaro have decided to include additional protection in their
@@ -140,11 +140,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > central inclusion button, according to its paper documentation.
@@ -168,7 +168,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -202,7 +202,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -240,7 +240,7 @@ Parameter details :
 -   1: adjusts the sensitivity of smoke detection
 
 -   2: allows you to choose which notifications will be sent to Jeedom
-    (advice : toutes)
+    (advice : all)
 
 -   3: allows you to choose which notifications will be accompanied by a
     visual indication
@@ -250,11 +250,11 @@ Parameter details :
     the module will ring)
 
 -   10: don't change this setting unless you know what you
-    faites
+    do
 
--   11: idem
+-   11: Same
 
--   12: idem
+-   12: Same
 
 -   13: allows to notify other zwave modules (to deactivate unless
     you know why you activate it)
@@ -330,7 +330,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

@@ -31,16 +31,16 @@ hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sin
 maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
 issue                    | URL to the bugtracker if external (if not filled then you will receive an email)
 
-**Exemple** :
+**Example** :
 
-[Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_Info/info.json)
 
 
 
 
 **CATEGORY NOMENCLATURE**
 
-Jeedom Market         | Info.JSON               |
+Jeedom Market         | info.json               |
 --------------------- | ----------------------- |
 Communication         | Communication           |
 Comfort               | wellness                |

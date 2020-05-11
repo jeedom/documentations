@@ -1,6 +1,6 @@
 # Instalación de Docker
 
-> **Important**
+> **Importante**
 >
 > Tenga en cuenta que aquí asumimos que ya está familiarizado con Docker
 
@@ -41,6 +41,6 @@ Con :
 -   ``/opt/jeedom/www`` y ``/opt/jeedom/mysql`` : directorio donde los datos de Jeedom se colocan en el host
 -   ``your-root-password`` : contraseña de root para acceder a Jeedom en SSH
 
-Entonces necesita instalar Jeedom yendo a : IP\_DOCKER:9080
+Entonces necesita instalar Jeedom yendo a : IP \ _DOCKER:9080
 
 Por lo demás, puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)

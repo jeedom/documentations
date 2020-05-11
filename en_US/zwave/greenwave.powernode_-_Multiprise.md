@@ -49,7 +49,7 @@ avoid accidentally switching it off, but control from the box
 home automation will no longer be possible.
 
 The PowerNode power strip also has a light status indicator
-which gives different information depending on its color : prises
+which gives different information depending on its color : Taken
 on or off, limited radio range, inclusion and exclusion mode.
 
 The PowerNode power strip is equipped with protection against
@@ -142,11 +142,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present on the socket.
@@ -170,7 +170,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -320,7 +320,7 @@ Parameter details :
 \
 
 This module has four association groups, only the 1st group is
-indispensable.
+essential.
 
 \
 
@@ -401,7 +401,7 @@ Did you pay for a CRON.
 \
 
 No. The module does not allow it. Put a piece of black tape
-dessus.
+above.
 
 \
 **@sarakha63**

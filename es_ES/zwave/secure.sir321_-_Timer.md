@@ -49,7 +49,7 @@ Funciones
 
 -   Temporizador de caldera
 
--   Ventilación forzada en salas de conferencias.
+-   Ventilación forzada en salas de conferencias
 
 -   Medición de la temperatura del suelo radiante (con sensores opcionales)
 
@@ -64,12 +64,12 @@ Características técnicas
 
 \
 
--   Type: Temporizador electrónico
+-   Tipo: Temporizador electrónico
 
--   Relais: 13 (3) A, 230 V CA, adecuado para cargas de hasta
+-   Relé: 13 (3) A, 230 V CA, adecuado para cargas de hasta
     3kW
 
--   Alimentation: 230 V CA, 50 Hz
+-   Suministro: 230 V CA, 50 Hz
 
 -   Dimensiones 85x85x44mm
 
@@ -102,11 +102,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón (hasta que parpadee rápidamente) y suéltelo, de acuerdo con
@@ -131,7 +131,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -181,7 +181,7 @@ Detalles del parámetro :
 -   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte
     documentación del módulo)
 
--   2: Ajusta la unidad de temperatura.
+-   2: Ajusta la unidad de temperatura
 
 -   3: Le permite configurar el intervalo de tiempo de envío de temperatura
     en Jeedom (en segundos)
@@ -198,7 +198,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene dos grupos de asociación.. Si el primero es
+Este módulo tiene dos grupos de asociación. Si el primero es
 esencial, el segundo está activo y es esencial si una sonda
 de temperatura está relacionado.
 

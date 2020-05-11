@@ -31,7 +31,7 @@ click on **Create an account**
 ![tuto.github1](images/tuto.github1.png)
 
 So you arrive on a 2nd page as below and you do not change
-nothing, you click **Continue**
+nothing, you click **Keep on going**
 
 ![tuto.github2](images/tuto.github2.png)
 
@@ -75,7 +75,7 @@ precisely here : core / class /
     the repository where I am (core, see Small 1)
 
 3. So we have our file *history.class.php* - We click on the
-    fichier
+    File
 
 ![tuto.github5](images/tuto.github5.png)
 
@@ -151,7 +151,7 @@ you must perform a PR (Pull Request)
 
 It is important to clearly explain the changes submitted so that the
 original project developer (s) understand and can validate your
-demande.
+Request.
 
 1. We click on the three small dots
 

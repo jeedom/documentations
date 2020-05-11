@@ -11,7 +11,7 @@ Resumen
 
 Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo,
 el sensor de movimiento detecta una presencia, el cambio de estado es
-instantané.
+instantáneo.
 
 Gracias a su amplio ángulo de visión y su alcance, permite asegurar
 un gran perímetro. El indicador LED integrado señala cualquier cambio
@@ -20,7 +20,7 @@ estado.
 Funciones 
 =========
 
--   Detecta movimiento, incluso en completa oscuridad.
+-   Detecta movimiento, incluso en completa oscuridad
 
 -   Ultra compacto
 
@@ -28,7 +28,7 @@ Funciones
 
 -   Autoprotección contra el levantamiento
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 -   Montaje en pared por tornillos o doble cara
 
@@ -45,9 +45,9 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0 ° C + 45 ° C
 
--   Rango en campo libre : 100M
+-   Rango en campo libre : 100 millones
 
--   Rango de detección : 6M
+-   Rango de detección : Los 6M
 
 -   Dimensiones : 25x79x19mm
 
@@ -67,14 +67,14 @@ Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom,
 referirse a esto
-[Documentación](https://www.jeedom.fr/doc/documentation/plugins/edisio/es_ES/edisio.html).
+[Documentación](https://www.jeedom.fr/doc/Documentación/plugins/edisio/es_ES/edisio.html).
 
-> **Important**
+> **Importante**
 >
 > Para que Jeedom cree automáticamente sus módulos transmisores, recuerde
 > no active la opción en la configuración del complemento.
 
-> **Tip**
+> **Punta**
 >
 > Se recomienda su colocación a una altura de 150 cm y cerca
 > la temperatura deseada.
@@ -90,7 +90,7 @@ de temperatura.
 Detección 
 ---------
 
-El sensor detecta el más mínimo movimiento dentro de un radio de unos 6 m.
+El sensor detecta el más mínimo movimiento dentro de un radio de unos 6 m
 
 ![ems200.detection](images/ems200/ems200.detection.jpg)
 
@@ -115,7 +115,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Tip**
+> **Punta**
 >
 > Para que el widget esté presente en el tablero, recuerde colocar
 > su equipo en un objeto.
@@ -123,7 +123,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 Comandos 
 ---------
 
-Una vez que haya creado su equipo, debe recibir los pedidos.
+Una vez que haya creado su equipo, debe recibir los pedidos
 asociado con el módulo :
 
 ![Comandos](images/ems200/ems200.commande.jpg)
@@ -133,7 +133,7 @@ Aquí está la lista de comandos :
 -   Presencia : Es el comando que indica si hay presencia
     detectado
 
--   Batería : Indica el estado de la batería.
+-   Batería : Indica el estado de la batería
 
 Información 
 ------------
@@ -143,14 +143,14 @@ disponible :
 
 ![Comandos](images/ems200/ems200.informations.jpg)
 
--   Creación : Indica la fecha en que se creó el equipo.
+-   Creación : Indica la fecha en que se creó el equipo
 
 -   Comunicación : Indica la última comunicación registrada entre
     Jeedom y el módulo
 
--   Batería : Indica el estado de la batería de los módulos de batería.
+-   Batería : Indica el estado de la batería de los módulos de batería
 
--   Estado : Devuelve el estado del módulo.
+-   Estado : Devuelve el estado del módulo
 
 Visual alternativo 
 =================

@@ -24,9 +24,9 @@ Resumen
 
 \
 
-El SRT323 es un termostato de batería montado en la pared.. Tiene
+El SRT323 es un termostato de batería montado en la pared. Tiene
 un botón giratorio que permite al usuario ajustar la temperatura
-en la sala. Este termostato incorpora un relé de control.
+en la sala. Este termostato incorpora un relé de control
 cobrar. Por lo tanto, no es necesario instalar un actuador cerca
 de la caldera.
 
@@ -87,7 +87,7 @@ Características técnicas
 
 -   Algoritmo TPI integrado
 
--   Relai: 3 (1) A 230V CA
+-   Relé: 3 (1) A 230V CA
 
 -   Rango de temperatura ajustable: 5 ° C a 30 ° C
 
@@ -131,11 +131,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, debe poner el interruptor 1 en
 > posición ON y luego con la pantalla del dial L y presione el dial,
@@ -147,7 +147,7 @@ inclusión refiérase a esto
 
 \
 
-> **Important**
+> **Importante**
 >
 > Este módulo es meticuloso en la inclusión. Durante una primera inclusión
 > siempre active el módulo inmediatamente después de la inclusión. Para hacer esto
@@ -173,7 +173,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -256,7 +256,7 @@ Bueno saber
 
 \
 
-> **Important**
+> **Importante**
 >
 > Este módulo está en batería. Por eso es importante tener en cuenta que
 > El cambio del punto de ajuste solo se tendrá en cuenta al despertar. Por
@@ -293,7 +293,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

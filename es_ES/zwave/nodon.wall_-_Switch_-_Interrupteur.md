@@ -29,7 +29,7 @@ Dispositivo compatible con Z-Wave® o Z-Wave Plus®, como un enchufe
 NodOn® smart o disparar escenas a través de una central
 domótica compatible.
 
-El interruptor tiene una placa de montaje para un fácil montaje.
+El interruptor tiene una placa de montaje para un fácil montaje
 en la casa: usando los tornillos de una olla empotrada, por
 atornillar a la pared, o simplemente pegándolo con adhesivos
 doble cara en la parte posterior del plato.
@@ -43,7 +43,7 @@ Funciones
 
 -   Control solo o con un sistema domótico
 
--   Fácil de montar y desmontar.
+-   Fácil de montar y desmontar
 
 -   Agradable sentimiento de apoyo
 
@@ -94,7 +94,7 @@ Datos del módulo
 
 \
 
--   Hacer : Nodon
+-   Hacer : Mediodía
 
 -   Nombre : CWS-3-1-01 Interruptor de pared
 
@@ -113,11 +113,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione los dos
 > botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
@@ -142,7 +142,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponibles.
+disponible.
 
 \
 
@@ -174,7 +174,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -219,7 +219,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene 7 grupos de asociación..
+Este módulo tiene 7 grupos de asociación.
 
 \
 
@@ -241,7 +241,7 @@ Este módulo tiene 7 grupos de asociación..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -284,7 +284,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

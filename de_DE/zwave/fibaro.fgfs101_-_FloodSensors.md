@@ -1,28 +1,28 @@
 Fibaro FGFS-101 "Hochwassersensor" 
 ==============================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/fibaro.fgfs101/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
 Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
@@ -32,7 +32,7 @@ oder schneller Temperaturabfall.
 Es ist mit einem Neigungssensor ausgestattet, der einen Alarm sendet
 sofort zum Z-Wave-Netzwerk, wenn der Detektor bewegt oder gestohlen wird
 (gibt die Neigung oder Rückmeldung an den Z-Wave-Controller zurück
-mouvement).
+Bewegung).
 
 Dieser universelle Hochwasser- und Temperaturdetektor kann mit Strom versorgt werden
 durch Batterie oder durch eine externe 12 oder 24 VDC Stromversorgung. Wenn er ist
@@ -41,7 +41,7 @@ Notstromversorgung.
 
 Dank seines Temperatursensors können Sie die Temperatur von steuern
 dein Boden. Es ist wasserdicht, im Hochwasser schwimmt es auf der Oberfläche von
-l'eau.
+Wasser.
 
 Es hat auch einen Sirenenalarm, der im Falle von ertönen kann
 Problem. Sie können den Trockenkontaktausgang an ein System anschließen
@@ -51,12 +51,12 @@ FGFS-101.
 Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
 stellt die korrekte Funktion des Sensors während seiner Installation sicher.
 
-\.
+\
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   Hochwassermelder (Vorhandensein von Wasser über Kontakte)
 
@@ -70,12 +70,12 @@ Funktionen
 
 -   Z-Wave Repeater ?? (siehe Abschnitt "Gut zu wissen")
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Modultyp : Z-Wave Sender
 
@@ -85,7 +85,7 @@ Technische Daten
 
 -   Akkulaufzeit : 2 Jahre
 
--   Verbrauch an externer Stromversorgung : 0,4W
+-   Verbrauch an externer Stromversorgung : 0,4 W
 
 -   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
 
@@ -100,18 +100,18 @@ Technische Daten
 -   Betriebstemperatur : 0-40 ° C (-20 ° C bis 70 ° C, wenn
     externe Stromversorgung)
 
--   Temperaturmessbereich : -20 bis 100 ° C.
+-   Temperaturmessbereich : -20 bis 100 ° C
 
 -   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 40 ° C)
 
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
 -   Machen Sie : Fibar Group
 
@@ -125,55 +125,55 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
 > Papier (die schwarze Lasche).
 
-\.
+\
 
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/fibaro.fgfs101/commandes.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
     Wasser, Überschwemmungen ...)
@@ -185,43 +185,43 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-\.
+\
 
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/fibaro.fgfs101/config1.jpg)
 
 ![Config2](images/fibaro.fgfs101/config2.jpg)
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
@@ -262,20 +262,20 @@ Parameterdetails :
 -   75 \. Einstellen der Dauer des Alarms : von 0 bis 65535s (standardmäßig 0,
     Der Alarm stoppt, sobald kein Fehler mehr erkannt wird.)
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
 zumindest mit den Gruppen 1, 4 und 5 verbunden:
 
-\.
+\
 
 ![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
@@ -283,53 +283,53 @@ Gut zu wissen
 Dieses von außen betriebene Modul kann als Repeater verwendet werden
 Z-Welle (Informationen derzeit nicht bestätigt)
 
-Die Verkabelung für eine externe Stromversorgung. \.
+Die Verkabelung für eine externe Stromversorgung. \
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
 
-\.
+\
 
 Dieses Modul ist standardmäßig ein Batteriemodul, das neue
 Die Konfiguration wird beim nächsten Aufwecken berücksichtigt.
 
-\.
+\
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+\
 
-\.
+\
 Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro-Dokumentation :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
 
-\.
+\
 

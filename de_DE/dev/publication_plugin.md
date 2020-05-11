@@ -6,16 +6,16 @@
 - Warten auf die Validierung des Marktkontos als Entwickler
 - Habe dein Plugin auf Github (private Einzahlung oder nicht)
 
-## Configuration
+## Konfiguration
 
 Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie : 
 
 - Klicken Sie auf Markt und fügen Sie hinzu
 - Füllen Sie die Informationen auf Ihrem Plugin aus : 
   - Allgemein : 
-    - Prix
+    - Preis
     - ID (die in der Datei info.json)
-    - Nom
+    - Name
     - Kategorie
     - Ob es privat ist oder nicht
   - Dokumentation und Links
@@ -31,8 +31,8 @@ Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
     
    Nach dem Speichern durch Zurückkehren zur Registerkarte Github haben Sie 3-4 Felder, um die Zweige anzuzeigen : 
    
-   - beta
-   - stable
+   - Beta
+   - Stabil
    - pro (ist in 99% der Fälle nutzlos)
    - Stablev3 (in Kürze)
    

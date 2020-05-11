@@ -1,10 +1,10 @@
 Not really a howto here but more a collection of tips and tricks on
-VMware
+Vmware
 
 Add your license 
 ==================
 
-Once connected on the web interface (IP\_ESXI / ui) you have to go to
+Once connected on the web interface (IP \ _ESXI / ui) you have to go to
 "Manage" :
 
 ![vmware.tips](images/vmware.tips.PNG)
@@ -17,7 +17,7 @@ And enter your license key
 
 ![vmware.tips3](images/vmware.tips3.PNG)
 
-> **Note**
+> **NOTE**
 >
 > As a reminder, if you don't do this your ESXi may no longer be
 > operate after 60 days
@@ -83,7 +83,7 @@ Click on finish :
 ![vmware.tips12](images/vmware.tips12.PNG)
 
 And now your new datastore should appear (otherwise click on
-"Actualiser").
+"Refresh ").
 
 Added VAAI Synology plugin for NFS mounting 
 ==============================================
@@ -104,7 +104,7 @@ ESXi SSH (on the web interface, go to action ⇒ services
 identifiers are the same as to access the interface). Then he
 you just do :
 
-    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f
+    esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/Vmware_ESXi/esx-nfsplugin.vib -f
 
 You must have :
 
@@ -127,7 +127,7 @@ You will find all the information
 [here](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
 To see if you have the web interface, just go with
-your browser on IP\_ESXI / ui if you have nothing you need
+your browser on IP \ _ESXI / ui if you have nothing you need
 install it, you must first connect in SSH on the ESXI then do :
 
     esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib
@@ -162,7 +162,7 @@ ESXi update
 =====================
 
 The procedure is quite easy, you must first recover the patch
-going [here](https://my.vmware.com/group/vmware/patch#search) (il
+going [here](https://my.vmware.com/group/vmware/patch#search) (he
 you will probably have to log in with your VMware account). On the
 "Select a Product" list put "ESXi (Embedded and Installable)", in
 face leave the latest version of VMware and do "Search". Then
@@ -174,12 +174,12 @@ Then transfer the zip to one of your datastores and make :
 
     esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 
-> **Note**
+> **NOTE**
 >
 > Replace the path and the zip name according to your
-> configuration
+> Setup
 
-> **Important**
+> **IMPORTANT**
 >
 > Be careful to put the full path to the zip otherwise it won't
 > not working
@@ -246,13 +246,13 @@ In "Host name" (at source level) you must put the desired DNS
 (for example monesxi.mondsn.synology.me) and in "Hostname" (at the level
 of the destination) you must put the IP of the ESXi
 
-> **Note**
+> **NOTE**
 >
 > You can also do the same to access jeedom but by
 > this time putting the jeedom IP (from the vm if you are in
 > virtualized) and port 80
 
-> **Note**
+> **NOTE**
 >
 > Once you've done that and your DNS is pointing correctly
 > on the NAS you can generate a valid SSL certificate for free
@@ -262,16 +262,16 @@ of the destination) you must put the IP of the ESXi
 
 Then to access your ESXi you just need with your browser
 go to your external DNS or IP by adding / ui at the end and that's
-bon.
+Well.
 
-> **Important**
+> **IMPORTANT**
 >
 > If you go through the NAS reverse proxy, the console in web mode of
 > VMs do not work (because it goes through websocket), however
 > if you go through VMware Remote Console everything should be ok (this
 > goes through port 902)
 
-> **Note**
+> **NOTE**
 >
 > There is also a Vmware Watchlist app on Android for
 > have access to ESXi as well as VM consoles

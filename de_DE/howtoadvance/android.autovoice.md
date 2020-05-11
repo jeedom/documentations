@@ -14,9 +14,9 @@ Die Voraussetzungen
 
 Natürlich benötigen Sie ein Android-Gerät (Tablet, Telefon, PC mit
 Mikrofon und Lautsprecher) und installieren
-[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr)
-et
-[AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr).
+[Tasker](https://play.google.com/store/apps/dundails?id=nund.dinglisch.android.taskerm&hl=fr)
+und
+[AutoVoice](https://play.google.com/store/apps/dundails?id=com.joaomgcd.autovoice&hl=fr).
 Mit letzterem können Sie Ihre eigenen Sprachbefehle für Google Now erstellen
 Aufgaben mit Sprache zu automatisieren.
 
@@ -24,7 +24,7 @@ Hinweis : AutoVoice ist nur die Komponente für das Gespräch mit Jeedom, jedoch
 Erlaube Jeedom nicht zu antworten. Damit er das tun kann, brauchst du es nicht
 Tasker-Plugin. Wir können dieses Beispiel auch verwenden, indem wir das ersetzen
 AutoVoice-Spracherkennung durch NFC-Tag, Geolokalisierung,
-eine SMS erhalten ...
+eine SMS erhalten
 
 Das Prinzip 
 -----------
@@ -38,7 +38,7 @@ wird sein, die Rückkehr von Jeedom zu erklären.
 Profilerstellung 
 ==================
 
-Wir fügen ein neues Profil mit einem hinzu **état** als Auslöser.
+Wir fügen ein neues Profil mit einem hinzu **Zustand** als Auslöser.
 
 ![android.autovoice1](images/android.autovoice1.png)
 
@@ -50,7 +50,7 @@ Im Plugin-Typ wählen wir **AutoVoice**.
 
 ![android.autovoice3](images/android.autovoice3.png)
 
-Im Untermenü **AutoVoice**, Wir wählen **Recognized**.
+Im Untermenü **AutoVoice**, Wir wählen **Anerkannt**.
 
 ![android.autovoice4](images/android.autovoice4.png)
 
@@ -71,7 +71,7 @@ Beispielsweise könnte es als "Jeedom API" bezeichnet werden".
 ![android.autovoice6](images/android.autovoice6.png)
 
 Die Aufgabe gruppiert schließlich 2 Aktionen : **API-Aufruf** und **sag das
-retour**.
+Rückkehr**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -97,7 +97,7 @@ ersetzt durch die Rückgabe von Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Fügen Sie eine Typaktion hinzu **Dire**. Filtern Sie dazu die Aktionen nach
+Fügen Sie eine Typaktion hinzu **Zu sagen**. Filtern Sie dazu die Aktionen nach
 "Sagen" an der Lupe.
 
 ![android.autovoice11](images/android.autovoice11.png)
@@ -111,16 +111,16 @@ angerufen und Sie haben die Antwort in den Interaktionen konfiguriert, die
 wird von Ihrem Telefon gesprochen. Vergessen Sie nicht, das zu konfigurieren
 Jeedom Interaktionen und Sie können ihn fragen, was auch immer Sie
 wollen. Von "Was ist die Temperatur im Wohnzimmer" bis "Licht einschalten"
-salon".
+Wohnzimmer".
 
-> **Tip**
+> **Spitze**
 >
 > Wenn es von Anfang an nicht funktioniert, liegt es oft an AutoVoice
 > ist nicht aktiv. Klicken Sie dazu auf Google Now
 > Integration und auf die erste Wahl ganz oben und autorisieren
 > AutoVoice.
 
-> **Tip**
+> **Spitze**
 >
 > Standardmäßig deaktiviert AutoVoice die Google Now-Suche
 > Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf

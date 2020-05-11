@@ -36,7 +36,7 @@ El nuevo disco Fibaro FGD-212 está equipado con un
 detección inteligente de fuente de luz que facilita
 configuración y garantiza una alta compatibilidad del dispositivo. Él
 tiene autoprotección contra sobrecarga y la función de
-inicio suave. En el caso de fuentes de luz no regulables.,
+inicio suave. En el caso de fuentes de luz no regulables,
 solo es posible la función ON / OFF (en conexión de 3 hilos).
 
 Es compatible con todos los tipos de lámparas que admiten variaciones o
@@ -63,7 +63,7 @@ Funciones
 -   Integra el chip de la serie Z-Wave 500
 
 -   Comunicación 250% más rápida en comparación con los dispositivos Z-Wave
-    standard
+    Estándar
 
 -   Detección automática de carga
 
@@ -74,7 +74,7 @@ Funciones
 -   Poder activo y función de medición de energía
 
 -   Funciona con diferentes tipos de interruptores de botón,
-    rockero, de tres vías, etc..
+    rockero, de tres vías, etc.
 
 -   Función de arranque suave
 
@@ -88,9 +88,9 @@ Funciones
 
 -   Opciones de configuración avanzada
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -125,10 +125,10 @@ Características técnicas
 
 -   Temperatura de funcionamiento : 0-35 ° C
 
--   Temperatura límite : 105°C
+-   Temperatura límite : 105 ° C
 
 -   Normas : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
-    1999/5/EC
+    1999/5 / CE
 
 \
 
@@ -156,11 +156,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel. Si el
@@ -173,7 +173,7 @@ inclusión refiérase a esto
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos viajes de ida y vuelta en el interruptor o
@@ -194,7 +194,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponibles.
+disponible.
 
 \
 
@@ -209,9 +209,9 @@ Aquí está la lista de comandos :
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz.
+-   Apagado : Es el comando que apaga la luz
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
@@ -219,11 +219,11 @@ Aquí está la lista de comandos :
 -   El consumo : Es el comando que permite subir el
     consumo de módulo
 
--   Potencia : Es el comando que permite elevar el poder.
+-   Potencia : Es el comando que permite elevar el poder
     módulo instantáneo
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-icone
+Icono
 
 \
 
@@ -288,7 +288,7 @@ Bueno saber
 
 \
 
-> **Caution**
+> **Depositar**
 >
 > El parámetro más importante de la configuración es 20. Se
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado

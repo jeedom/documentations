@@ -56,7 +56,7 @@ Deaktivieren Sie alle Kontrollkästchen unter PPTP Öffnen Sie VPN und L2TP
 Aktivieren Sie nur das Kontrollkästchen vor dem gewünschten Benutzer
 erlauben, VPN zu verwenden .
 
-> **Tip**
+> **Spitze**
 >
 > Es wird empfohlen, einen Benutzer nur für das VPN zu erstellen
 > und ohne andere Rechte / Berechtigungen als mit dem VPN zu tun.
@@ -85,7 +85,7 @@ Fügen Sie eine Weiterleitung hinzu
 
 Geben Sie die Parameter wie folgt ein.
 
-> **Tip**
+> **Spitze**
 >
 > Die Ziel-ID ist das einzige, was von Ihrer Installation abhängt,
 > Sie müssen die IP Ihres Synology NAS eingeben

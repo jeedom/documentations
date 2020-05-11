@@ -56,7 +56,7 @@ Funciones
 
 -   Protección contra manipulaciones
 
--   Indicador LED para confirmar cada acción.
+-   Indicador LED para confirmar cada acción
 
 -   Zumbador integrado para indicación audible de armado / desarmado
     la alarma por ejemplo
@@ -118,11 +118,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, solo presione dos
 > segundos en la pestaña de metal (el LED rojo en el panel frontal
@@ -148,7 +148,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -177,7 +177,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -225,7 +225,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene dos grupos de asociación..
+Este módulo tiene dos grupos de asociación.
 
 \
 
@@ -233,7 +233,7 @@ Este módulo tiene dos grupos de asociación..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 1.
@@ -250,7 +250,7 @@ En la página del equipo hay una pestaña Asistente.
 
 \
 
-Esto le permite agregar códigos. Verás una mesa allí..
+Esto le permite agregar códigos. Verás una mesa allí.
 
 \
 
@@ -259,7 +259,7 @@ Esto le permite agregar códigos. Verás una mesa allí..
 \
 
 -   Esta tabla le permite ver los recuerdos ocupados en su
-    clavier
+    teclado
 
 -   Para registrar un nuevo código, haga clic en el botón verde en el
     memoria deseada y siga los pasos
@@ -274,7 +274,7 @@ Esto le permite agregar códigos. Verás una mesa allí..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Recuerde activar el módulo después de agregar un código o insignia.
 
@@ -344,7 +344,7 @@ Faq.
 
 Este módulo se activa presionando el botón de manipulación y
 relajante También puede despertarse presionando Inicio, luego 1 y luego
-Enter.
+Entrar.
 
 \
 
@@ -358,7 +358,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un

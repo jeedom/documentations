@@ -62,7 +62,7 @@ Lock and unlock with the button, the TwistAssist function or
 using your smartphone. And with the auto-unlock function,
 Danalock lock automatically unlocks the door when you
 approach your house and lock it right after you are
-rentré.
+returns.
 
 **Long battery life**
 
@@ -174,11 +174,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > It is essential to include this module in secure mode..
 
@@ -189,7 +189,7 @@ secure : just go to the Z-wave module management page
 and click on the icon "Zwave Network"
 
 ![inclusion securise jeedom
-1](images / polycontrol.danalock / inclusion-securise-jeedom-1.jpg)
+1] (images / polycontrol.danalock / inclusion-securise-jeedom-1.jpg)
 
 \
 
@@ -197,11 +197,11 @@ Then in the "Actions" tab click on : "ADD MODULE IN MODE
 SECURE (INCLUSION)"
 
 ![inclusion securise jeedom
-2](images / polycontrol.danalock / inclusion-securise-jeedom-2.jpg)
+2] (images / polycontrol.danalock / inclusion-securise-jeedom-2.jpg)
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > We assume that you have installed the application on
 > your smartphone or iphone and created an account. If it is not already
@@ -229,7 +229,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -290,7 +290,7 @@ Parameter details :
 
 -   1 : Direction 0-1 : 0 = Motor goes clockwise
     locked, 1 = Motor goes counterclockwise when
-    verrouillé
+    Locked
 
 -   2 : Speed 1 = slowest, 2 = slow, 3 = Normal, 4 = Fast, 5 = the
     faster

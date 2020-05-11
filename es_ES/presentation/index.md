@@ -1,18 +1,18 @@
-# Presentación 
+# Presentación
 
-Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades. : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz...
+Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz...
 
-Jeedom no requiere acceso a servidores externos para operar. Toda su instalación se gestiona localmente y, por lo tanto, usted es el único que tiene acceso a ella para garantizar una total confidencialidad..
+Jeedom no requiere acceso a servidores externos para operar. Toda su instalación se gestiona localmente y, por lo tanto, usted es el único que tiene acceso a ella para garantizar una total confidencialidad.
 
 Gracias a su flexibilidad y numerosos parámetros de personalización, cada usuario puede crear su propia automatización del hogar Jeedom. Usando widgets, vistas y diseños, tiene total libertad para imaginar su propia interfaz si lo desea.
 
 Jeedom permite muchas posibilidades, incluyendo :
 
-- Gestionar la seguridad de bienes y personas.,
-- Automatice la calefacción para una mayor comodidad y ahorro de energía.,
-- Visualice y gestione el consumo de energía, anticipe los gastos y reduzca el consumo.,
+- Gestionar la seguridad de bienes y personas,
+- Automatice la calefacción para una mayor comodidad y ahorro de energía,
+- Visualice y gestione el consumo de energía, anticipe los gastos y reduzca el consumo,
 - Comunícate por voz, SMS, correos electrónicos o aplicaciones móviles,
-- Gestiona todas las automatizaciones de la casa, persianas, portones, luces, etc..,
+- Gestiona todas las automatizaciones de la casa, persianas, portones, luces, etc.,
 - Administre dispositivos multimedia de audio y video y objetos conectados.
 
 
@@ -24,14 +24,14 @@ The Core incluye entre otros :
 
 ## Panel de control / Resumen
 
-*El equipo, incluidos los actuadores o sensores, está organizado por objetos.. Los objetos pueden, por ejemplo, representar partes físicas*.
+*El equipo, incluidos los actuadores o sensores, está organizado por objetos. Los objetos pueden, por ejemplo, representar partes físicas*.
 
 ![Synthèse](images/doc-presentation-synthese.jpg)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historiques
+## Histórico
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
@@ -39,30 +39,30 @@ The Core incluye entre otros :
 
 ## Escenarios
 
-*Los escenarios le permiten automatizar todo o parte de su equipo. Están construidos con diferentes bloques.. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades..*
+*Los escenarios le permiten automatizar todo o parte de su equipo. Están construidos con diferentes bloques. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades.*
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
 ## Creación de widgets
 
-*Jeedom ofrece un motor de creación de widgets para pedidos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos.. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
+*Jeedom ofrece un motor de creación de widgets para pedidos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Interactions
+## Interacciones
 
-*El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz..*
+*El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz.*
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
 ## Centro de actualizaciones
 
-*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos.. Otras funciones de administración de extensiones están disponibles (eliminar, reinstalar, verificar, etc.).*
+*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos. Otras funciones de administración de extensiones están disponibles (eliminar, reinstalar, verificar, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Market
+# Mercado
 
 Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 
@@ -78,5 +78,5 @@ Estos complementos se pueden instalar desde Market y le permiten ampliar las pos
 
 ![Page Mercado](images/doc-presentation-market.jpg)
 
-Jeedom permite que cualquier complemento chatee con otro de forma estandarizada. Esto permite, por ejemplo, usar el termostato o los complementos de alarma con cualquier protocolo de automatización del hogar o incluso un complemento IP u objeto de comunicación ...
+Jeedom permite que cualquier complemento chatee con otro de forma estandarizada. Esto permite, por ejemplo, usar el termostato o los complementos de alarma con cualquier protocolo de automatización del hogar o incluso un complemento IP u objeto de comunicación
 

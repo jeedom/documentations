@@ -44,8 +44,8 @@ Functions
 
 -   Line current loss detection
 
--   Ergonomique: Possibility of plugging the head up / head plug
-    bas
+-   Ergonomic: Possibility of plugging the head up / head plug
+    Low
 
 -   Intelligent alarm management
 
@@ -104,11 +104,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > until the light turns red, according to its documentation
@@ -133,7 +133,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -206,8 +206,8 @@ Parameter details :
     Plug activated). When the setting is enabled, it is not
     possible to switch off the Smart Plug (local or radio)
 
--   Parameters 5 to 20 : Through the configuration parameters \# 5 to
-    \# 20, it is possible to configure up to 8 different alarms.
+-   Parameters 5 to 20 : Through the configuration parameters \ # 5 to
+    \ # 20, it is possible to configure up to 8 different alarms.
     In order to properly configure your alarms, the online form:
     www.nodon.fr/support/asp3/alarm will guide you
 
@@ -262,7 +262,7 @@ This module has 8 association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > At a minimum Jeedom should be found in groups 1 and 4 \
 
@@ -298,7 +298,7 @@ Faq.
 
 You should not have the option to download auto widgets
 activated. You can retrieve the mobile and dashboard widgets on the
-Market : alarm\_back.
+Market : alarm \ _back.
 
 \
 

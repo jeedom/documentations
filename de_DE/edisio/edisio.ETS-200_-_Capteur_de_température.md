@@ -49,7 +49,7 @@ Technische Daten
 
 -   Frequenz : 868,3 MHz
 
--   Betriebstemperatur : 0 ° C + 45 ° C.
+-   Betriebstemperatur : 0 ° C + 45 ° C
 
 -   Reichweite im freien Feld : 100M
 
@@ -69,14 +69,14 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://www.jeedom.fr/doc/Dokumentation/plugins/edisio/de_DE/edisio.html).
 
-> **Important**
+> **Wichtig**
 >
 > Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
 > Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
 
-> **Tip**
+> **Spitze**
 >
 > Die Platzierung wird in einer Höhe von 150 cm und in der Nähe empfohlen
 > die gewünschte Temperatur.
@@ -104,7 +104,7 @@ Assoziation des Sensors mit Jeedom
 Die Kombination des Temperatursensors ist ein Kinderspiel. Es ist genug
 Drücken Sie die Taste "E" unter dem Sensor. Dieser wird
 automatisch erkannt. Platziere es in einem Objekt, gib ihm einen Namen und
-sauvegarder.
+Speichern.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 

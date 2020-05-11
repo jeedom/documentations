@@ -28,7 +28,7 @@ The Fibaro motion detector is a Z-Wave multifunction detector.
 In addition to motion detection, this device measures the
 temperature and light intensity. This detector also includes a
 built-in accelerometer to detect any attempt to alter the
-dispositif.
+Devices.
 
 The Fibaro motion detector is battery powered and designed
 to be installed quickly and easily on any
@@ -80,11 +80,11 @@ Technical characteristics
 
 -   Food : CR123A 3,6VDC battery
 
--   Recommended height for installation : 2,4m
+-   Recommended height for installation : 2.4m
 
 -   Measured temperature range : -20 ° C to 100 ° C
 
--   Measurement accuracy : 0,5°C
+-   Measurement accuracy : 0.5 ° C
 
 -   Brightness measurement range : 0-32000 LUX
 
@@ -125,11 +125,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -175,7 +175,7 @@ Here is the list of commands :
 -   Brightness : it is the command which makes it possible to raise the brightness
 
 -   Seismic : it is the command which allows to increase the intensity
-    sismique
+    Seismic
 
 -   Sabotage : this is the sabotage command (it is triggered in case
     vibration)
@@ -188,7 +188,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -247,9 +247,9 @@ Parameter details :
 -   12: to change only if you know why you are doing it
     (association with a module for example)
 
--   14: idem
+-   14: Same
 
--   16: idem
+-   16: Same
 
 -   20: sensitivity of the gyro sensor (recommended value 15)
 
@@ -298,7 +298,7 @@ Parameter details :
     (linked to parameter 81)
 
 -   89: allows the LED to flash in blue / white / red in case of
-    sabotage
+    Sabotage
 
 \
 
@@ -398,7 +398,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

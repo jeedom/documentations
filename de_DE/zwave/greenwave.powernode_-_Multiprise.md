@@ -1,28 +1,28 @@
 Greenwave PowerNode - 6 Sockel 
 ==============================
 
-\.
+\
 
 -   **Das Modul**
 
-\.
+\
 
 ![module](images/greenwave.powernode/module.jpg)
 
-\.
+\
 
 -   **Das Jeedom Visual**
 
-\.
+\
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-\.
+\
 
 Zusammenfassung 
 ------
 
-\.
+\
 
 Die GreenWave PowerNode-Steckdosenleiste ist ein intelligentes Gerät, das
 verbindet sich mit Ihren Haushaltsgeräten und Elektronik für Sie
@@ -49,7 +49,7 @@ Vermeiden Sie ein versehentliches Ausschalten, sondern steuern Sie von der Box a
 Hausautomation wird nicht mehr möglich sein.
 
 Die PowerNode-Steckdosenleiste verfügt außerdem über eine Leuchtstatusanzeige
-Dies gibt je nach Farbe unterschiedliche Informationen : prises
+Dies gibt je nach Farbe unterschiedliche Informationen : genommen
 Ein oder Aus, begrenzte Funkreichweite, Einschluss- und Ausschlussmodus.
 
 Die PowerNode-Steckdosenleiste ist mit einem Schutz gegen ausgestattet
@@ -61,12 +61,12 @@ Dies wird durch die interne Sicherung in der Steckdosenleiste sichergestellt.
 Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in
 ein TV-Schrank oder zur Steuerung von Computergeräten
 in einem Büro und vermeiden Sie daher die Verwendung von 6 Z-Wave-Buchsen
-individuell. \.
+individuell. \
 
 Funktionen 
 ---------
 
-\.
+\
 
 -   6-Port Z-Wave Steckdosenleiste
 
@@ -83,12 +83,12 @@ Funktionen
 
 -   Lichtstatusanzeige
 
-\.
+\
 
 Technische Daten 
 ---------------------------
 
-\.
+\
 
 -   Versorgung : 250 V AC, 50 Hz
 
@@ -96,34 +96,34 @@ Technische Daten
 
 -   Maximale Lastleistung : 2400 W (bei 240 V)
 
--   Standby-Verbrauch : 0,4 W.
+-   Standby-Verbrauch : 0,4 W
 
--   Messgenauigkeit : ± 0,1 W.
+-   Messgenauigkeit : ± 0,1 W
 
 -   Überstromschutz : 10A interne Sicherung
 
 -   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 
--   Z-Wave-Radiofrequenz : 868.42MHz
+-   Z-Wave-Radiofrequenz : 868,42 MHz
 
 -   Maximale Reichweite Z-Wave : 30m
 
--   Betriebstemperatur : 0 ° C bis + 25 ° C.
+-   Betriebstemperatur : 0 ° C bis + 25 ° C
 
--   Lagertemperatur : -20 ° C bis + 60 ° C.
+-   Lagertemperatur : -20 ° C bis + 60 ° C
 
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
 
 -   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
-\.
+\
 
 Moduldaten 
 -----------------
 
-\.
+\
 
--   Machen Sie : GreenWave
+-   Machen Sie : Grünwelle
 
 -   Name : GreenWave \ [6 x Sockets \]
 
@@ -133,46 +133,46 @@ Moduldaten
 
 -   Produkt-ID : 4
 
-\.
+\
 
 Konfiguration 
 -------------
 
-\.
+\
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://jeedom.fr/doc/Dokumentation/plugins/openzwave/de_DE/openzwave.html).
 
-\.
+\
 
-> **Important**
+> **Wichtig**
 >
 > Drücken Sie die Taste, um dieses Modul in den Einschlussmodus zu versetzen
 > Einschluss an der Steckdose vorhanden.
 
-\.
+\
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
-\.
+\
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+\
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-\.
+\
 
 ### Befehle 
 
-\.
+\
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+verfügbar.
 
-\.
+\
 
 ![Befehle](images/greenwave.powernode/commandes.jpg)
 
@@ -184,11 +184,11 @@ disponibles.
 
 ![Befehle](images/greenwave.powernode/commandes5.jpg)
 
-\.
+\
 
 Hier ist die Liste der Befehle :
 
-\.
+\
 
 -   Zustand-1 : Es ist der Befehl, mit dem der Status des
     nimm 1
@@ -268,44 +268,44 @@ Hier ist die Liste der Befehle :
 -   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch des
     nimm 6
 
-\.
+\
 
 Beachten Sie, dass im Dashboard die Befehle ON / OFF / STATUS zusammengefasst sind
 in einer Taste.
 
-\.
+\
 
 ### Konfiguration des Moduls 
 
-\.
+\
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\.
+\
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+\
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+\
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
-\.
+\
 
 Wie Sie sehen, gibt es nicht viel Konfiguration
 für dieses Modul.
 
-\.
+\
 
 Parameterdetails :
 
-\.
+\
 
 -   1 : Verzögerungen, bevor die Taste blinkt : Anzahl der Sekunden
     Minimum zwischen zwei Kommunikationen (wenn diese Verzögerung überschritten wird, die Taste
@@ -313,95 +313,95 @@ Parameterdetails :
 
 -   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-\.
+\
 
 ### Gruppen 
 
-\.
+\
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe
-indispensable.
+wesentlich.
 
-\.
+\
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-\.
+\
 
 Gut zu wissen 
 ------------
 
-\.
+\
 
 ### Besonderheiten / Polling 
 
-\.
+\
 
 Im Gegensatz zu seiner kleinen Schwester "Une Preis" benötigt diese Steckdosenleiste
 Umfragen zur Steigerung des Verbrauchs.
 
-\.
+\
 
 ![Config2](images/greenwave.powernode/config2.jpg)
 
-\.
+\
 
 Es ist nur notwendig, es für den Power-Befehl eines jeden zu aktivieren
-genommen. Dies hat zur Folge, dass die beiden Werte erhöht werden (Verbrauch und Leistung).
+genommen. Dies hat zur Folge, dass die beiden Werte erhöht werden (Verbrauch und Leistung)
 
-\.
+\
 
 ### Gesamtverbrauch 
 
-\.
+\
 
 ![consocumul](images/greenwave.powernode/consocumul.jpg)
 
-\.
+\
 
 Sie können eine virtuelle verwenden, um einen kumulativen Verbrauch zu erstellen
 von 6 nimmt.
 
-\.
+\
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-\.
+\
 
 ### Zurücksetzen 
 
-\.
+\
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-\.
+\
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar. (Es erfolgt ein Reset von
 genommen). Wählen Sie PressButton.
 
-\.
+\
 
 Aufwachen 
 ------
 
-\.
+\
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+\
 
 Faq. 
 ------
 
-\.
+\
 
 Hast du für einen CRON bezahlt?.
 
-\.
+\
 
 Nein, nein. Das Modul erlaubt es nicht. Legen Sie ein Stück schwarzes Klebeband
-dessus.
+oben.
 
-\.
+\
 **@sarakha63**

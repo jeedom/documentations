@@ -79,7 +79,7 @@ Technical characteristics
 
 -   Scope : up to 70 m outdoors, up to 30 m in buildings
 
--   Affichage: LED on the button
+-   Viewing: LED on the button
 
 -   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
@@ -109,11 +109,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press 3 times on its
 > button, according to its paper documentation. It's important to
@@ -139,7 +139,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -152,14 +152,14 @@ Here is the list of commands :
 \
 
 -   Intensity : This is the command used to adjust the intensity of the
-    prise
+    Outlet
 
 -   We : This is the command that turns on the outlet
 
 -   Off : It is the command which makes it possible to extinguish the catch
 
 -   State : It is the command which allows to know the status of the
-    prise
+    Outlet
 
 \
 
@@ -219,7 +219,7 @@ This module has 2 association groups.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > At a minimum Jeedom should end up in group 1 \
 
@@ -250,7 +250,7 @@ Faq.
 \
 
 Yes it is parameter 2 and it cannot be set below 3
-secondes.
+seconds.
 
 \
 

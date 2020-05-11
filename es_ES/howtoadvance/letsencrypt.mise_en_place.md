@@ -31,7 +31,7 @@ Atención, es necesario abrir el puerto 80 en el enrutador (ISP) !
 Activación del módulo virtualHost y SSL 
 ------------------------------------------
 
-> **Note**
+> **Nota**
 >
 > Conéctese en SSH en el cuadro Jeedom.
 
@@ -39,7 +39,7 @@ Activación del módulo virtualHost y SSL
     a2ensite default-ssl.conf
     servicio de reinicio apache2
 
-> **Note**
+> **Nota**
 >
 > LetsEncrypt no emitirá ningún certificado mientras su sitio
 > en HTTPS no será accesible desde el exterior.
@@ -50,7 +50,7 @@ Necesita reemplazar la configuración <email@domaine.com> y domaine.com
 por tus valores. Normalmente los parámetros para agregar el protocolo HTTPS
 son agregados por el script en Apache.
 
-> **Note**
+> **Nota**
 >
 > Si usa el método de renovación automática a continuación,
 > puedes deshabilitar virtualHost **default-ssl.conf** con el
@@ -101,11 +101,11 @@ Y finalmente reinicie el servidor Nginx.
 Renovación 
 ==============
 
-La renovación se realiza con el pedido. :
+La renovación se realiza con el pedido :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-Recibirá un correo electrónico automáticamente cuando expire el plazo.
+Recibirá un correo electrónico automáticamente cuando expire el plazo
 certificado que le recordará que inicie este comando.
 
 Método automático 
@@ -159,11 +159,11 @@ pasos a seguir :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **Importante**
 >
 > Tenga cuidado de adaptar la ruta al guión.
 
-> **Tip**
+> **Punta**
 >
 > Para entender la planificación 0 5 \* \* 1, mira aquí y
 > ajústelo a sus necesidades si es necesario :

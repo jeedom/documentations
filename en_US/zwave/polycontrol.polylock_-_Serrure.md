@@ -61,7 +61,7 @@ Functions
 -   Fits most doors
 
 -   Can be integrated into Z-Wave scenes, for example for a system
-    d'alarme
+    alarm
 
 -   Suitable for home or business use
 
@@ -96,7 +96,7 @@ Module data
 
 -   Mark : Poly-Control
 
--   Name : Polylock
+-   Name : PolyLock
 
 -   Manufacturer ID : 270
 
@@ -113,11 +113,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 1 time
 > inclusion button, according to its paper documentation.
@@ -141,7 +141,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 

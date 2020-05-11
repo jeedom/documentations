@@ -56,7 +56,7 @@ o tener un Synology NAS para hacer el iSCSI LUN. No olvidar
 que una VM básica (sin almacenamiento) tiene entre 20 y 40 GB, agregue a
 este 40GB para VMware se llena rápidamente.
 
-> **Important**
+> **Importante**
 >
 > VMware no admite agregar discos USB, por lo que es difícil
 > para ampliar el espacio disponible
@@ -104,11 +104,11 @@ recuperar VMware y ponerlo en una llave USB.
 Descarga de VMware 
 ------------------------
 
-> **Important**
+> **Importante**
 >
 > Si pones vmware 6.5, hay un problema con la nueva administración
 > USB y llaves Zwave, para que esto funcione debes aplicar esto
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Atención, esta manipulación ya no se debe hacer en vmware 6.7
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?elnguage=en_US&cmd=dispelyKC&externalId=2147650). Atención, esta manipulación ya no se debe hacer en vmware 6.7
 
 Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 :
@@ -119,7 +119,7 @@ Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
 
 -   espera el correo electrónico para validar el registro
 
--   retourner
+-   volver
     [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     e inicie sesión (se le puede pedir que acepte el
     condiciones, debe validar)
@@ -133,7 +133,7 @@ Es lo más difícil en realidad, creo, para simplificar tu vida tienes que
     y allí debe tener en "Paquetes Downlaod", un "paquete ESXi
     Imagen ISO (incluye VMware Tools) "que necesita descargar
 
-![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
+![instaleltion.vmware.nuc](images/instaleltion.vmware.nuc.PNG)
 
 Justo arriba también tienes tu clave de licencia, puedes
 aprovecha para recuperarlo.
@@ -150,7 +150,7 @@ Creación de la llave USB de arranque
 
 Aquí también es fácil, así es como configurar rufus :
 
-![installation.vmware.nuc2](images/installation.vmware.nuc2.PNG)
+![instaleltion.vmware.nuc2](images/instaleltion.vmware.nuc2.PNG)
 
 Todo lo que tienes que hacer es hacer clic en iniciar y esperar.
 
@@ -165,35 +165,35 @@ Estos son los 3 componentes para mi NUC :
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
 
-![installation.vmware.nuc3](images/installation.vmware.nuc3.jpg)
+![instaleltion.vmware.nuc3](images/instaleltion.vmware.nuc3.jpg)
 
 La caja NUC :
 
-![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
+![instaleltion.vmware.nuc4](images/instaleltion.vmware.nuc4.jpg)
 
 Apertura de ella :
 
-![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
+![instaleltion.vmware.nuc5](images/instaleltion.vmware.nuc5.jpg)
 
 Componentes fuera de su caja :
 
-![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
+![instaleltion.vmware.nuc6](images/instaleltion.vmware.nuc6.jpg)
 
 Al abrir el NUC, allí es muy simple, ponerlo al revés, desenroscar
 los 4 tornillos debajo de los pies (no salen completamente, es normal que
 simplemente desenroscarlos), luego tire ligeramente de los tornillos para abrir
 el NUC:
 
-![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
+![instaleltion.vmware.nuc7](images/instaleltion.vmware.nuc7.jpg)
 
 El SSD instalado (a la izquierda), el tornillo final para bloquearlo es un
 difícil de volver a poner, afortunadamente solo lo hacemos una vez
 
-![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
+![instaleltion.vmware.nuc8](images/instaleltion.vmware.nuc8.jpg)
 
 Instalación de memoria (derecha) :
 
-![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
+![instaleltion.vmware.nuc10](images/instaleltion.vmware.nuc10.jpg)
 
 Y ahí estás, puedes cerrar (a menos que, por supuesto, hayas tomado un
 SSD 2.5 pulgadas que se deben insertar en la cubierta en este caso).
@@ -206,9 +206,9 @@ NUC USB, conecte una pantalla al puerto HDMI, un teclado y
 comida Enciende el NUC, la instalación comenzará
 solo :
 
-![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
+![instaleltion.vmware.nuc11](images/instaleltion.vmware.nuc11.jpg)
 
-> **Note**
+> **Nota**
 >
 > Olvidé capturar la validación de la licencia,
 > solo acepta seguir las instrucciones
@@ -216,29 +216,29 @@ solo :
 Aquí seleccione el disco correspondiente a la SSD (puede
 identificar ya sea por nombre o por tamaño)
 
-![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
+![instaleltion.vmware.nuc13](images/instaleltion.vmware.nuc13.jpg)
 
 Seleccione "francés" :
 
-![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
+![instaleltion.vmware.nuc14](images/instaleltion.vmware.nuc14.jpg)
 
 Pon una contraseña, al principio te aconsejo que pongas una cosa simple
 como "oooo" (lo cambiaremos más tarde) :
 
-![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
+![instaleltion.vmware.nuc15](images/instaleltion.vmware.nuc15.jpg)
 
 Confirme presionando F11 :
 
-![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
+![instaleltion.vmware.nuc16](images/instaleltion.vmware.nuc16.jpg)
 
 La instalación tomará entre 10 y 20 minutos, luego deberá quitar
 la llave USB y espere a que se reinicie el sistema
 
-![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
+![instaleltion.vmware.nuc17](images/instaleltion.vmware.nuc17.jpg)
 
 Una vez que el reinicio haya finalizado, debería tener :
 
-![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
+![instaleltion.vmware.nuc18](images/instaleltion.vmware.nuc18.jpg)
 
 Aquí está instalado VMware (además es bueno, te da su IP) ,
 más que jugar con !!!

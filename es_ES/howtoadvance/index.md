@@ -1,4 +1,4 @@
-# Sommaire
+# Resumen
 
 - [Modo de red GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_carte_reseau)
 - [Modo de módem GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_modem)
@@ -8,16 +8,16 @@
 ## Debian
 
 - [Instalación](/es_ES/howtoadvance/debian.installation)
-- [Consejos y trucos.](/es_ES/howtoadvance/debian.trucs_et_astuces)
+- [Consejos y trucos](/es_ES/howtoadvance/debian.trucs_et_astuces)
 
-## Vmware
+## VMware
 
 - [Crear una máquina virtual](/es_ES/howtoadvance/vmware.creer_une_vm)
 - [Instalación en NUC](/es_ES/howtoadvance/vmware.installation_sur_nuc)
 - [Copia de seguridad / restaurar](/es_ES/howtoadvance/vmware.mise_en_place_des_backups)
 - [Sugerencia y consejo](/es_ES/howtoadvance/vmware.trucs_et_astuces)
 
-## Archive
+## Archivo
 
 - [Autovoice de Android](/es_ES/howtoadvance/android.autovoice)
 - [Instalar monit](/es_ES/howtoadvance/installation.monit)

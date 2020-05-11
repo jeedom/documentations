@@ -1,8 +1,8 @@
 
-# Programmation
+# Programming
 
 
->**IMPORTANT**
+>**Important**
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=programming) all official plugins in this category
 
@@ -15,5 +15,5 @@
 |<img src="jeeasy/jeeasy_icon.png" class="pluginLogo" width="100" />|Jeeasy|Plugin to easily configure Jeedom|[Documentation](jeeasy/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3828)|
 |<img src="script/script_icon.png" class="pluginLogo" width="100" />|Script|Plugin adding script support in Jeedom. The scripts are programs in Python / PHP / Shell / Ruby etc ... which allow to add functions to Jeedom|[Documentation](script/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=20)<br/>[Changelog](script/changelog.md)|
 |<img src="simupre/simupre_icon.png" class="pluginLogo" width="100" />|Presence simulation|Plugin for presence simulation|[Documentation](simupre/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3762)<br/>[Changelog](simupre/changelog.md)|
-|<img src="virtual/virtual_icon.png" class="pluginLogo" width="100" />|Virtuel|Plugin to manage virtual equipment|[Documentation](virtual/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=21)<br/>[Changelog](virtual/changelog.md)|
+|<img src="virtual/virtual_icon.png" class="pluginLogo" width="100" />|Virtual|Plugin to manage virtual equipment|[Documentation](virtual/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=21)<br/>[Changelog](virtual/changelog.md)|
 |<img src="widget/widget_icon.png" class="pluginLogo" width="100" />|Widget|Plugin to apply / modify / create widgets|[Documentation](widget/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=9)<br/>[Changelog](widget/changelog.md)|

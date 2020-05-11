@@ -5,7 +5,7 @@ Jeedom on a VM (VMware ESXi). Indeed if you do not pass it in
 GSM mode only the key will not appear in the list of
 USB devices that you can pass to the VM.
 
-> **Important**
+> **IMPORTANT**
 >
 > This tutorial was done on a Windows 10
 
@@ -34,7 +34,7 @@ Putty Download
 =======================
 
 Then download putty
-[here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) et
+[here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) and
 launch the downloaded file
 
 Putty configuration and switch to GSM mode only 
@@ -52,7 +52,7 @@ on the "Enter" key" :
 
     AT ^ u2diag = 0
 
-> **Important**
+> **IMPORTANT**
 >
 > Be careful when you type the text you will not see anything at
 > the screen is normal, the text is still taken into account.

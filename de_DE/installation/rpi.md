@@ -2,7 +2,7 @@
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**
 
-> **Important**
+> **Wichtig**
 >
 > Debian 10 (Buster) ist die offiziell unterstützte Distribution.
 
@@ -14,21 +14,21 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 [hier](https://etcher.io/)
 
-> **Note**
+> **Notiz**
 >
-> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt)..
+> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt).
 
 ## Aktivieren Sie den SSH-Zugriff
 
-> **Warning**
+> **Warnung**
 >
 > Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Also musst du es aktivieren.
 
-Auf der Boot-Partition muss eine leere SSH-Datei erstellt werden (die einzige, auf die unter Windows zugegriffen werden kann)..
+Auf der Boot-Partition muss eine leere SSH-Datei erstellt werden (die einzige, auf die unter Windows zugegriffen werden kann).
 
 Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne es in "ssh" um" **ohne Verlängerung**
 
-> **Important**
+> **Wichtig**
 >
 > Unter Windows müssen Sie daher im Explorer Ihre Konfiguration in Anzeige / Optionen / Ordner ändern und Suchoptionen ändern /
 
@@ -55,7 +55,7 @@ Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf Ö
 
 Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
-> **Important**
+> **Wichtig**
 >
 > Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares der Himbeere basieren. (Befehl passwd und sudo passwd)
 
@@ -65,17 +65,17 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
 
-> **Note**
+> **Notiz**
 >
 > Abhängig von Ihrer Internetgeschwindigkeit kann die Installation 45 bis 90 Minuten dauern. Sie dürfen den Vorgang nicht vor dem Ende unterbrechen. Andernfalls müssen Sie den gesamten Vorgang wiederholen.
 
-Dann gehen Sie einfach zu IP\_MACHINE\_JEEDOM
+Dann gehen Sie einfach zu IP \ _MACHINE \ _JEEDOM
 
-> **Note**
+> **Notiz**
 >
 > Die Standardanmeldeinformationen sind admin / admin
 
-> **Note**
+> **Notiz**
 >
 > Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
 

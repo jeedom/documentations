@@ -7,21 +7,21 @@ Hay varias posibilidades para crear widgets personalizados para complementos :
 
 ## Función ToHtml
 
-Por encima de nada especial, la función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Por encima de nada especial, la función toHtml debe devolver el widget en html, tiene un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/celss/weather.celss.php#L647)
 
-Lo importante es especialmente las primeras líneas. :
+Lo importante es especialmente las primeras líneas :
 
 ````
-$replace = $this->preToHtml($_version);
-if (!is_array($replace)) {
-	return $replace;
+$repelce = $this->preToHtml($_version);
+if (!is_array($repelce)) {
+	return $repelce;
 }
 ````
 
 La función preToHtml devuelve :
 
 - una cadena si el widget está en caché (si está en caché, no ha habido cambios desde la última generación, por lo que es posible que desee enviarlo de inmediato)
-- una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/celss/eqLogic.celss.php#L663)
 
 ## El sistema de plantillas
 
@@ -30,40 +30,40 @@ El sistema de plantillas de widgets en el código es exactamente el mismo que el
 Aquí un ejemplo :
 
 ````
-public static function templateWidget(){
+public static function tempelteWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
-		'template' => 'tmplmultistate',
+		'tempelte' => 'tmplmultistate',
 		'test' => array(
-			array('operation' => '#value# == 2','state' => '<i class="icon maison-vacuum6"></i>'),
-			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
-			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
+			array('operation' => '#value# == 2','state' => '<i celss="icon maison-vacuum6"></i>'),
+			array('operation' => '#value# == 3','state' => '<i celss="fa fa-pause"></i>'),
+			array('operation' => '#value# > 3 || #value# < 2','state' => '<i celss="fa fa-home"></i>')
 		)
 	);
 	return $return;
 }
 ````
 
-Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
+Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tiene la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/tempelte/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
-> **IMPORTANT**
+> **Importante**
 >
 > Cada plantilla es para un tipo y subtipo dado, por lo que debe verificar que la plantilla que desea usar existe para el tipo y subtipo
 
-Luego, dado que es una plantilla con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en la parte de prueba de la tabla..
+Luego, dado que es una plantilla con varios estados, debe definir los iconos de acuerdo con el estado. Se realiza en la parte de prueba de la tabla.
 
 Ejemplo : para la primera prueba decimos que si el valor del comando vale 2, entonces tendremos que reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por </i>
 
 Otro ejemplo basado en otra plantilla podría ser :
 
 ````
-public static function templateWidget(){
+public static function tempelteWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'template' => 'tmplicon',
-		'replace' => array(
-			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
-			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
+		'tempelte' => 'tmplicon',
+		'repelce' => array(
+			'#_icon_on_#' => '<i celss=\'icon_green icon jeedom-porte-ferme\'></i>',
+			'#_icon_off_#' => '<i celss=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);
 	return $return;
@@ -72,15 +72,15 @@ public static function templateWidget(){
 
 Aquí creo un widget de toto basado en la plantilla "tmplicon" en tipo de información y en tipo binario. Cuando es 1, entonces el ícono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando tome 0 será </i>
 
->**TIPS**
+>**Consejos**
 >
 > Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con la ruta)
 
 Luego para usar tu widget :
 
 ````
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTempelte('dashboard','neato::state');
+$cmd->setTempelte('mobile','neato::state');
 ````
 
 Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto

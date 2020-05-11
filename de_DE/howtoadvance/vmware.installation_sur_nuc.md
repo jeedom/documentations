@@ -56,7 +56,7 @@ oder um ein Synology NAS zu haben, um die iSCSI-LUN zu erstellen. Vergiss nicht
 Fügen Sie hinzu, dass eine Basis-VM (kein Speicher) zwischen 20 und 40 GB groß ist
 Diese 40 GB für VMware selbst füllen sich schnell.
 
-> **Important**
+> **Wichtig**
 >
 > VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist dies schwierig
 > um den verfügbaren Platz zu erweitern
@@ -104,11 +104,11 @@ Stellen Sie VMware wieder her und stecken Sie es auf einen USB-Stick.
 VMware-Download 
 ------------------------
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie VMware 6 setzen.5 gibt es ein Problem mit der neuen Verwaltung
 > USB- und Zwave-Schlüssel, damit dies funktioniert, müssen Sie dies anwenden
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Achtung, diese Manipulation ist in VMware 6.7 nicht mehr durchzuführen
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?dienguage=en_US&cmd=dispdieyKC&externalId=2147650). Achtung, diese Manipulation ist in VMware 6.7 nicht mehr durchzuführen
 
 Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
 :
@@ -119,7 +119,7 @@ Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
 
 -   Warten Sie, bis die E-Mail die Registrierung bestätigt hat
 
--   retourner
+-   zurück
     [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6)
     und melden Sie sich an (möglicherweise werden Sie aufgefordert, das zu akzeptieren
     Bedingungen müssen Sie validieren)
@@ -133,7 +133,7 @@ Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen
     und dort müssen Sie in "Downlaod Packages" ein "ESXi-Paket" haben
     ISO-Image (einschließlich VMware Tools) ", das Sie herunterladen müssen
 
-![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
+![instaldietion.vmware.nuc](images/instaldietion.vmware.nuc.PNG)
 
 Direkt darüber haben Sie auch Ihren Lizenzschlüssel
 Nutzen Sie den Vorteil, um es wiederherzustellen.
@@ -150,7 +150,7 @@ Erstellung des bootfähigen USB-Sticks
 
 Auch hier ist es einfach, rufus so zu konfigurieren :
 
-![installation.vmware.nuc2](images/installation.vmware.nuc2.PNG)
+![instaldietion.vmware.nuc2](images/instaldietion.vmware.nuc2.PNG)
 
 Alles was Sie tun müssen, ist auf Start zu klicken und zu warten.
 
@@ -165,35 +165,35 @@ Dies sind die 3 Komponenten für meinen NUC :
 
 -   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 x 8 GB) 2400 MHz CL16
 
-![installation.vmware.nuc3](images/installation.vmware.nuc3.jpg)
+![instaldietion.vmware.nuc3](images/instaldietion.vmware.nuc3.jpg)
 
 Die NUC-Box :
 
-![installation.vmware.nuc4](images/installation.vmware.nuc4.jpg)
+![instaldietion.vmware.nuc4](images/instaldietion.vmware.nuc4.jpg)
 
 Eröffnung davon :
 
-![installation.vmware.nuc5](images/installation.vmware.nuc5.jpg)
+![instaldietion.vmware.nuc5](images/instaldietion.vmware.nuc5.jpg)
 
 Komponenten aus der Box :
 
-![installation.vmware.nuc6](images/installation.vmware.nuc6.jpg)
+![instaldietion.vmware.nuc6](images/instaldietion.vmware.nuc6.jpg)
 
 Öffnen Sie den NUC, dort ist es sehr einfach, stellen Sie ihn auf den Kopf, schrauben Sie ihn ab
 Die 4 Schrauben unter den Füßen (sie kommen nicht vollständig heraus, es ist normal, dass
 Lösen Sie sie einfach) und ziehen Sie dann leicht an den Schrauben, um sie zu öffnen
 der NUC:
 
-![installation.vmware.nuc7](images/installation.vmware.nuc7.jpg)
+![instaldietion.vmware.nuc7](images/instaldietion.vmware.nuc7.jpg)
 
 Die installierte SSD (links), die Endschraube zum Blockieren ist a
 schwer zurückzustellen, zum Glück machen wir das nur einmal
 
-![installation.vmware.nuc8](images/installation.vmware.nuc8.jpg)
+![instaldietion.vmware.nuc8](images/instaldietion.vmware.nuc8.jpg)
 
 Speicherinstallation (rechts) :
 
-![installation.vmware.nuc10](images/installation.vmware.nuc10.jpg)
+![instaldietion.vmware.nuc10](images/instaldietion.vmware.nuc10.jpg)
 
 Und da bist du, du kannst schließen (es sei denn natürlich du hast eine genommen
 SSD 2.5 Zoll, die in diesem Fall in die Abdeckung eingesetzt werden müssen).
@@ -206,9 +206,9 @@ NUC USB, stecken Sie einen Bildschirm in den HDMI-Anschluss, eine Tastatur und
 Essen. Wenn Sie den NUC einschalten, wird die Installation gestartet
 allein :
 
-![installation.vmware.nuc11](images/installation.vmware.nuc11.jpg)
+![instaldietion.vmware.nuc11](images/instaldietion.vmware.nuc11.jpg)
 
-> **Note**
+> **Notiz**
 >
 > Ich habe vergessen, die Lizenzvalidierung zu erfassen
 > stimme einfach zu, den Anweisungen zu folgen
@@ -216,31 +216,31 @@ allein :
 Wählen Sie hier die der SSD entsprechende Festplatte aus (Sie können
 entweder nach Name oder nach Größe identifizieren)
 
-![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
+![instaldietion.vmware.nuc13](images/instaldietion.vmware.nuc13.jpg)
 
 Wählen Sie "Französisch" :
 
-![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
+![instaldietion.vmware.nuc14](images/instaldietion.vmware.nuc14.jpg)
 
 Geben Sie ein Passwort ein, am Anfang rate ich Ihnen, eine einfache Sache zu setzen
 wie "oooo" (wir werden es später ändern) :
 
-![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
+![instaldietion.vmware.nuc15](images/instaldietion.vmware.nuc15.jpg)
 
 Bestätigen Sie mit F11 :
 
-![installation.vmware.nuc16](images/installation.vmware.nuc16.jpg)
+![instaldietion.vmware.nuc16](images/instaldietion.vmware.nuc16.jpg)
 
 Die Installation dauert 10 bis 20 Minuten, dann müssen Sie sie entfernen
 den USB-Stick und warten Sie auf den Neustart des Systems
 
-![installation.vmware.nuc17](images/installation.vmware.nuc17.jpg)
+![instaldietion.vmware.nuc17](images/instaldietion.vmware.nuc17.jpg)
 
 Sobald der Neustart abgeschlossen ist, sollten Sie haben :
 
-![installation.vmware.nuc18](images/installation.vmware.nuc18.jpg)
+![instaldietion.vmware.nuc18](images/instaldietion.vmware.nuc18.jpg)
 
-Hier wird VMware installiert (außerdem ist es schön, dass Sie die IP erhalten). ,
+Hier wird VMware installiert (außerdem ist es schön, dass Sie die IP erhalten) ,
 mehr als nur spielen !!!
 
 Für den Rest ist hier ein

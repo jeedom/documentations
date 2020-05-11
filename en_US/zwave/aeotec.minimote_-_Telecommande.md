@@ -63,13 +63,13 @@ Technical characteristics
 
 -   Type of module : Z-Wave controller
 
--   Color : Blanc
+-   Color : White
 
 -   Food : internal rechargeable battery via USB
 
--   Affichage: Blue and red LED
+-   Viewing: Blue and red LED
 
--   Frequency : 868,42MHz
+-   Frequency : 868.42MHz
 
 -   Scope : up to 30 m
 
@@ -103,11 +103,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > LEARN, in accordance with its paper documentation.
@@ -131,7 +131,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -167,7 +167,7 @@ Here is the list of commands :
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
@@ -260,7 +260,7 @@ Important note
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a

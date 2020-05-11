@@ -50,7 +50,7 @@ Funciones
 -   Función ON / OFF para controlar lámparas o dispositivos (no
     variación)
 
--   Control de carga local mediante botón integrado.
+-   Control de carga local mediante botón integrado
 
 -   Tecnología Z-Wave Plus
 
@@ -81,7 +81,7 @@ Características técnicas
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Affichage: LED en el botón
+-   Visualización: LED en el botón
 
 -   Dimensiones : Longitud (enchufe incluido) : 74 mm de diámetro : 52mm
 
@@ -111,11 +111,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
-disponibles.
+disponible.
 
 \
 
@@ -158,7 +158,7 @@ Aquí está la lista de comandos :
 
 -   Uno : Este es el comando que enciende la salida
 
--   Apagado : Es el comando que hace posible extinguir la captura.
+-   Apagado : Es el comando que hace posible extinguir la captura
 
 \
 
@@ -207,7 +207,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene 2 grupos de asociación..
+Este módulo tiene 2 grupos de asociación.
 
 \
 
@@ -215,7 +215,7 @@ Este módulo tiene 2 grupos de asociación..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -229,7 +229,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos. \
+    segundos \
 
 Despertador 
 ------
@@ -246,7 +246,7 @@ Faq.
 \
 
 Sí, es el parámetro 2 y no se puede establecer por debajo de 3
-secondes.
+segundos.
 
 \
 

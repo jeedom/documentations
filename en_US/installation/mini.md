@@ -10,7 +10,7 @@ You must download Etcher software [here](https://etcher.io/) then install it on 
 
 ## Jeedom image recovery
 
-You have to go [here](https://images.jeedom.com/jeeboard/),then in the Images folder recover the jeedom-jeeboard - \*. rar image
+You have to go [here](https://images.jeedom.com/jeeboard/),then in the Images folder recover the jeedom-jeeboard - \ *. rar image
 
 ![install humming 1](images/install_humming_1.PNG)
 

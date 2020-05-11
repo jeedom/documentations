@@ -37,7 +37,7 @@ Ihre Ematronic-Fernbedienung.
 Suchen Sie nach der Fernbedienungs-ID 
 -------------------------------------
 
-Remarque: Ematronic-Fernbedienungen beginnen immer mit : 09 19 03
+Bemerkung: Ematronic-Fernbedienungen beginnen immer mit : 09 19 03
 Der Bereich, der uns interessiert, beginnt also mit "Testnachricht"" : 09 19 03.
 
 Spot : Id1 und Id2 und fügen Sie das folgende Hexadezimal hinzu : in meinem Beispiel
@@ -58,7 +58,7 @@ Gehen Sie zu Plugins, Home Protocol, RFXcom.
 ![image10](images/volet.ematronic/image10.png)
 
 Klicken Sie auf "Hinzufügen" und geben Sie einen Namen für Ihre Fernbedienung ein
-virtuelle.
+virtuell.
 
 ![image00](images/volet.ematronic/image00.png)
 

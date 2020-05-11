@@ -1,7 +1,7 @@
 Paquetes utiles 
 ==============
 
-Aquí hay algunos paquetes útiles para instalar en blanco. :
+Aquí hay algunos paquetes útiles para instalar en blanco :
 
 -   **fail2ban** : Le permite prohibir las IP que intentan conectarse
     maquina.
@@ -9,7 +9,7 @@ Aquí hay algunos paquetes útiles para instalar en blanco. :
 -   **vim** : Es un editor de texto de línea de comando, puedes
     también reemplazarlo con nano o muchos otros.
 
--   **net-tools** : colección de programas para administrar la red
+-   **herramientas de red** : colección de programas para administrar la red
 
 -   **dos2unix** : herramienta de conversión de texto
 
@@ -34,7 +34,7 @@ Si quieres que tu consola (bash) use colores :
 Permitir inicio de sesión raíz en SSH 
 ==================================
 
-Edite el archivo / etc / ssh / sshd\_config y cambie :
+Edite el archivo / etc / ssh / sshd \ _config y cambie :
 
     PermitRootLogin sin contraseña
 
@@ -42,7 +42,7 @@ Por :
 
     PermitRootLogin yes
 
-> **Important**
+> **Importante**
 >
 > Asegúrese de usar una contraseña de root segura ! El uso de
 > fail2ban también se recomienda.
@@ -58,7 +58,7 @@ Crea el punto de montaje :
 
     mkdir / mnt / my_share
 
-> **Note**
+> **Nota**
 >
 > Tienes que adaptar mi parte de acuerdo a tus necesidades
 
@@ -66,7 +66,7 @@ Montaje agregado en / etc / fstab
 
     // IP_SERVER_SAMBA / my_sharing / mnt / my_sharing cifs uid = 0, rw, usuario = TODO, contraseña = TODO 0 0
 
-> **Note**
+> **Nota**
 >
 > Debe cambiar los TODO con su nombre de usuario de Linux y su
 > Contraseña
@@ -91,7 +91,7 @@ Antes de comenzar, haga una copia de seguridad completa a través de Jeedom de s
 instalación bajo Jessie, luego exportar la copia de seguridad a otro
 medio de almacenamiento.
 
-> **Tip**
+> **Punta**
 >
 > Descargue la copia de seguridad que no sea a través de la interfaz web (SSH, FTP,
 > SAMBA, otros de su elección), porque si su archivo es grande
@@ -131,16 +131,16 @@ MYSQL, bajo Estiramiento :
     MariaDB [mysql]> OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
     Consulta OK, 0 filas afectadas (0.00 segundos)
     MariaDB [mysql]> salir;
-    Bye
+    Adios
 
-> **Tip**
+> **Punta**
 >
 > Reemplace 'monpass' con su contraseña MYSQL utilizada para
 > cuenta raíz bajo "Debian 8 - Jessie". Doy derechos de root
 > especialmente para administrar mis bases de datos con 'PHPMYADMIN', pero darles a
 > el usuario MYSQL 'jeedom' debería ser suficiente.
 
-> **Tip**
+> **Punta**
 >
 > Encontrará la contraseña para el usuario de MYSQL jeedom aquí :
 > Administración → Configuración → OS / DB → Base de datos
@@ -150,7 +150,7 @@ anterior :
 
     OTORGA TODOS LOS PRIVILEGIOS EN *.* TO root @ 'localhost' IDENTIFICADO POR 'monpass';
 
-ou
+o
 
     OTORGA TODOS LOS PRIVILEGIOS EN *.* TO jeedom @ 'localhost' IDENTIFICADO POR 'monpass';
 
@@ -161,14 +161,14 @@ ou
 
 -   Inicie la restauración a través de la interfaz Jeedom (Administración →
     Copias de seguridad → Copias de seguridad locales : Elija la copia de seguridad correcta
-    y haga clic **Restaurer** justo debajo)
+    y haga clic **Restaurar** justo debajo)
 
 -   Esperar durante la restauración
 
 -   Restaurar los derechos de www-data en todos los Jeedom :
     `chown -R www-data: / var / www / html / `
 
--   Reinicia la caja : `reboot`
+-   Reinicia la caja : reiniciar
 
 -   Conéctese a Jeedom con sus antiguos identificadores a través de
     interfaz web
@@ -208,7 +208,7 @@ Actualización de Jeedom
     sh / var / www / html / install / install.sh -s 7
     sh / var / www / html / install / install.sh -s 10
 
-Eliminación de bibliotecas innecesarias.
+Eliminación de bibliotecas innecesarias
 
     apt -y remove `aptitude -F% p search '~ o' | grep -E -v ^ lib`
     apt -y remove `aptitude -F% p search '~ o'`----

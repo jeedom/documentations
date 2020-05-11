@@ -69,9 +69,9 @@ General configuration
 
 To configure the Edisio plugin and associate a module with Jeedom,
 refer to this
-[Documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/en_US/edisio.html).
+[Documentation](https://www.jeedom.fr/doc/Documentation/plugins/edisio/en_US/edisio.html).
 
-> **Important**
+> **IMPORTANT**
 >
 > To have Jeedom automatically create your transmitter modules, remember
 > not activate the option in the plugin configuration.
@@ -104,7 +104,7 @@ Association of the sensor with Jeedom
 The combination of the temperature sensor is a breeze. It is enough
 press the "E" button, located under the sensor. This one will
 automatically recognized. Place it in an object, give it a name and
-sauvegarder.
+Save.
 
 ![ets200.association](images/ets200/ets200.association.jpg)
 

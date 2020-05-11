@@ -10,7 +10,7 @@ Probleme erzeugen (Korruption).
 
 **Der Installationsvorgang ist streng identisch mit dem auf a
 microSD-Karte, aber stellen Sie sicher, dass Sie Firmware haben
-jour.**
+Tag.**
 
 Öffnen Sie dazu eine SSH-Verbindung. (wenn du nicht weißt wie,
 Beobachten Sie die Installation auf microSD :
@@ -28,11 +28,11 @@ USB. Wenn es nichts findet, startet es normal auf einer Karte
 microSD.
 
 Wenn die Rückgabe anders ist, müssen Sie nur aktualisieren
-jour.
+Tag.
 
     sudo apt-get update; sudo apt-get install rpi-update
 
-puis
+dann
 
     sudo rpi-update
 
@@ -40,12 +40,12 @@ Starten Sie dann PI3 neu
 
     sudo neu starten
 
-> **Important**
+> **Wichtig**
 >
 > Wählen Sie eine mSATA-SSD, um Stromprobleme zu vermeiden
 > geringer Verbrauch.
 
-> **Tip**
+> **Spitze**
 >
 > Sie können Jeedom jetzt installieren, indem Sie genau dasselbe befolgen
 > Verfahren mit einer SD-Karte.
@@ -56,7 +56,7 @@ Mögliche Anpassungen
 
 **Die folgenden Bemerkungen müssen dann berücksichtigt werden :**
 
-> **Important**
+> **Wichtig**
 >
 > Die folgenden Änderungen sind das Ergebnis von Problemen, auf die gestoßen ist
 > die Benutzer. Sie müssen sie an Ihren Fall anpassen. Unterstützung
@@ -78,7 +78,7 @@ Mögliche Anpassungen
 
     CONF_SWAPSIZE = 100
 
--   Ändern Sie dann beispielsweise den Wert von CONF\_SWAPSIZE in 1024
+-   Ändern Sie dann beispielsweise den Wert von CONF \ _SWAPSIZE in 1024
     neu starten :
 
 <!-- -->

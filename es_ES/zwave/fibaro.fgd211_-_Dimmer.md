@@ -38,7 +38,7 @@ carga conectada y está protegida contra sobretensión.
 
 Para bombillas fluorescentes que no admiten variación, el
 El módulo actúa automáticamente como un módulo de conmutación (ON / OFF
-uniquement).
+unicamente).
 
 Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un
 interruptor existente, o tres cables con fuente de alimentación convencional de
@@ -71,9 +71,9 @@ Funciones
 
 -   Protegido contra sobrecargas
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -101,11 +101,11 @@ Características técnicas
 
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
 
--   Dimensions: 15 x 42 x 36 mm
+-   Dimensiones: 15 x 42 x 36 mm
 
 -   Temperatura de funcionamiento : 0-40 ° C
 
--   Temperatura límite : 105°C
+-   Temperatura límite : 105 ° C
 
 -   Normas : EN 55015 y EN 60669-2-1
 
@@ -135,11 +135,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -150,7 +150,7 @@ inclusión refiérase a esto
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Si ya ha integrado su módulo en la pared, puede incluirlo
 > haciendo muchos de ida y vuelta en el interruptor o muchos
@@ -171,7 +171,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -186,15 +186,15 @@ Aquí está la lista de comandos :
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
 
--   Uno : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz.
+-   Apagado : Es el comando que apaga la luz
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
 
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
-icone
+Icono
 
 \
 
@@ -301,7 +301,7 @@ Bueno saber
 
 \
 
-> **Caution**
+> **Depositar**
 >
 > El parámetro más importante de la configuración es 14. Es
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado

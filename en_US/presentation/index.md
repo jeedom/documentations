@@ -2,7 +2,7 @@
 
 Jeedom is free open-source software that can be installed on any Linux system. It is based on a heart with multiple functionalities : simple and advanced scenario management, interaction with the home automation installation in text and sound, visualization of history and generation of curves and graphs, linking of all equipment and connected objects, customization of the interface...
 
-Jeedom does not require access to external servers to operate. Your entire installation is managed locally and you are therefore the only ones who have access to it to guarantee complete confidentiality..
+Jeedom does not require access to external servers to operate. Your entire installation is managed locally and you are therefore the only ones who have access to it to guarantee complete confidentiality.
 
 Thanks to its flexibility and numerous customization parameters, each user can create their own Jeedom home automation. Using widgets, views and designs, you have complete freedom to imagine your own interface if you wish.
 
@@ -12,7 +12,7 @@ Jeedom allows many possibilities including :
 - Automate heating for better comfort and energy savings,
 - Visualize and manage energy consumption, to anticipate expenditure and reduce consumption,
 - Communicate by voice, SMS, emails or mobile applications,
-- Manage all the automations in the house, shutters, gate, lights, etc..,
+- Manage all the automations in the house, shutters, gate, lights, etc.,
 - Manage audio and video multimedia devices, and connected objects.
 
 
@@ -31,7 +31,7 @@ The Core includes among others :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historiques
+## Historical
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 
@@ -78,5 +78,5 @@ These plugins can be installed from the Market and allow you to extend the possi
 
 ![Page Market](images/doc-presentation-market.jpg)
 
-Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object ...
+Jeedom allows any plugin to chat with another on a standardized basis. This allows for example to use the thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object
 

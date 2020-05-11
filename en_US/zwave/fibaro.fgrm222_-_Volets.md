@@ -33,15 +33,15 @@ directly from the button on the micromodule.
 
 In addition, this micromodule is capable of transmitting consumption
 instantaneous (W) and cumulative (KWh) electrical power of the equipment
-rattaché.
+attached to.
 
 A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this module into your network if you already have a network
-existant.
+existing.
 
 Each Z-Wave module functions as a wireless repeater with the
 other modules, to ensure full coverage of your
-habitation.
+dwelling.
 
 NOTE : This module requires neutral to operate.
 
@@ -55,7 +55,7 @@ Functions
 -   Control your blinds or roller shutters remotely
 
 -   Compatible with BSO and Venetian blind with positioning of
-    lamelles
+    slats
 
 -   Installs behind an existing switch
 
@@ -100,7 +100,7 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105°C
+-   Limit temperature : 105 ° C
 
 -   Standards : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
@@ -130,11 +130,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -158,7 +158,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -200,7 +200,7 @@ Here is the list of commands :
 -   Decline : Allows to decline the slats (adjustable slat mode)
 
 -   Not : Used to define the step for pressing Decline or
-    Incliner
+    Tilt
 
 \
 
@@ -258,7 +258,7 @@ Parameter details :
 
 -   18: engine safety power
 
--   22: NA
+-   22: N / A
 
 -   29: allows to calibrate the flap
 
@@ -286,7 +286,7 @@ Parameter details :
 \
 
 This module has 3 association groups, only the third is
-indispensable.
+essential.
 
 \
 
@@ -316,7 +316,7 @@ on this button available in the System tab.
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > For status feedback to work in Jeedom, it is necessary to
 > force the equipment calibration (parameter 29 to "Yes") and the

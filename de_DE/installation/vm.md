@@ -16,11 +16,11 @@ Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
 
 ![VirtualBox1](images/VirtualBox1.PNG)
 
--   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 sind ausreichend).
+-   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 sind ausreichend)
 -   Klicken Sie auf Weiter und erstellen Sie jetzt eine virtuelle Festplatte
 -   Klicken Sie auf Erstellen und wählen Sie VDI
 -   Klicken Sie auf Weiter, dynamisch zugeordnet
--   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend).
+-   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend)
 -   Klicken Sie auf Erstellen
 
 ## VM-Start
@@ -35,11 +35,11 @@ Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Klicken Sie auf OK \* Klicken Sie auf Start
+-   Klicken Sie auf OK \ * Klicken Sie auf Start
 
 ## Debian 9 Installation
 
-Es ist klassisch ...
+Es ist klassisch
 
 ![VirtualBox4](images/VirtualBox4.PNG)
 
@@ -66,7 +66,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
--   und lass es gehen ...
+-   und lass es gehen
 
 ## Jeedom starten
 
@@ -78,7 +78,7 @@ ip -s -c -h a
 
 Geben Sie Ihre IP-Adresse 192.168.0 ein.XX erscheint in rot. Geben Sie es einfach in Ihren Browser ein.
 
-> **Warning**
+> **Warnung**
 >
 > Wenn dies nicht funktioniert, haben Sie Ihre Netzwerkkarte nicht wie zu Beginn angegeben als Netzwerkbrücke konfiguriert.
 

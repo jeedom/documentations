@@ -35,11 +35,11 @@ Haga clic en nuevo y complete los campos a continuación :
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   Haga clic en Aceptar \* Haga clic en Inicio
+-   Haga clic en Aceptar \ * Haga clic en Inicio
 
 ## Instalación de Debian 9
 
-Es clásico ...
+Es clásico
 
 ![VirtualBox4](images/VirtualBox4.PNG)
 
@@ -47,7 +47,7 @@ Es clásico ...
 -   Instale el debian preferiblemente sin interfaz gráfica porque inútil. El nombre de usuario no importa. En la mayoría de las pantallas, solo tiene que validar la opción predeterminada. Puedes dejar campos vacíos, no está bloqueando.
 -   Para la selección de software :
 ![VirtualBox5](images/VirtualBox5.PNG)
--   Para Grub, no se preocupe, el sector de arranque es el de la VM, no el de su PC. No hay riesgo de romper nada..
+-   Para Grub, no se preocupe, el sector de arranque es el de la VM, no el de su PC. No hay riesgo de romper nada.
 
 ## Instalación Jeedom
 
@@ -66,7 +66,7 @@ chmod +x install.sh
 ./install.sh
 ````
 
--   y déjalo ir ...
+-   y déjalo ir
 
 ## Lanzamiento de Jeedom
 
@@ -78,7 +78,7 @@ ip -s -c -h a
 
 Su dirección IP, escriba 192.168.0.XX aparece en rojo. Solo ingrésalo en tu navegador.
 
-> **Warning**
+> **Advertencia**
 >
 > Si esto no funciona, no ha configurado su tarjeta de red como Puente de red como se indica al inicio.
 

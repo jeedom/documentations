@@ -19,7 +19,7 @@ Jeedom offers a service with automatic backup subscription on private cloud Jeed
 
 Necessary material : a USB key (minimum 8GB).
 
->**Note**
+>**NOTE**
 >
 >Remember to set aside (locally) a Jeedom configuration backup
 

@@ -6,7 +6,7 @@ So oder so) finden Sie in dieser Dokumentation die Mittel
 um es umzusetzen.
 
 Ein kurzes Memo zur Installation von Emoncms ist ebenfalls verfügbar (dies
-Die Installation wird derzeit in Jeedom nicht nativ angeboten.
+Die Installation wird derzeit in Jeedom nicht nativ angeboten
 
 EmonCMS kann neben Jeedom oder anderswo installiert werden. Du kannst
 Verwenden Sie sogar die Instanz emoncms.org
@@ -16,7 +16,7 @@ Senden Sie einen Wert von Jeedom an EmonCMS
 
 Um einen Wert von Jeedom an EmonCMS zu senden, ist dies die einfachste Lösung
 da es nativ verfügbar ist, ist die Push-URL von a zu verwenden
-information
+Informationen
 
 In Jeedom können Sie auf die erweiterten Einstellungen zugreifen, indem Sie auf klicken
 Zahnrad rechts.
@@ -27,7 +27,7 @@ wir wollen füllen
 
 Die URL von Push hat die Form :
 
-[https://serveur/emoncms/input/post.json?json = {power:\.#value\.#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
+[https://serveur/emoncms/input/post.json?json = {power:\#Wert\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#Wert#}& apikey = xxx)
 
 Mit Parametern :
 
@@ -35,7 +35,7 @@ Mit Parametern :
 
 -   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
 
--   Wert : wir müssen gehen *value* für Jeedom, um die zu senden
+-   Wert : wir müssen gehen *Wert* für Jeedom, um die zu senden
     Wert der Info
 
 -   Macht : zu ändern für
@@ -49,9 +49,9 @@ Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten
 -   Die erste besteht darin, Informationen über das Skript-Plugin in Jeedom zu erstellen
     und verwenden Sie die API-URL des Feeds. Diese Methode erfordert eine Wiederherstellung
     der Wert regelmäßig oder über Szenario zum Beispiel und normal
-    nicht nützlich, da die Daten ihre Quelle in jeedom\_setting haben
+    nicht nützlich, da die Daten ihre Quelle in jeedom \ _setting haben
 
-        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
+        https://serveur/emoncms/feed/Wert.json?Identifikation=1&apikey=xxx
 
 -   Die zweite Möglichkeit ist die Verwendung des emoncms Event Plugins
     unter bestimmten Bedingungen eine Aktion auslösen. Diese Methode
@@ -98,8 +98,8 @@ Special Conf brauchen ein klassisches Repertoire
            index index.php;
             try_files = $ uri $ uri / @missing;
 
-       Ort ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\..php)(/.*)$;
+       Ort ~ [^ /] \.PHP (/|$) {
+               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
                fastcgi_pass unix:/var/run/php5-fpm.sock;
                fastcgi_index index.php;
                include fastcgi_params;

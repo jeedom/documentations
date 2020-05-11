@@ -38,7 +38,7 @@ connected load and is protected against overvoltage.
 
 For fluorescent bulbs that do not support variation, the
 module then acts automatically as a switch module (ON / OFF
-uniquement).
+only).
 
 It can be used in 2-wire mode (without neutral), replacing a
 existing switch, or three wires with conventional power supply from
@@ -105,7 +105,7 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
--   Limit temperature : 105°C
+-   Limit temperature : 105 ° C
 
 -   Standards : EN 55015 and EN 60669-2-1
 
@@ -135,11 +135,11 @@ Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://jeedom.fr/doc/Documentation/plugins/openzwave/en_US/openzwave.html).
 
 \
 
-> **Important**
+> **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
@@ -171,7 +171,7 @@ Once included you should get this :
 \
 
 Once the module has been recognized, the commands associated with the module will be
-disponibles.
+available.
 
 \
 
@@ -194,7 +194,7 @@ Here is the list of commands :
     Light
 
 Note that on the dashboard all the information is found on the same
-icone
+Icon
 
 \
 
@@ -284,7 +284,7 @@ Parameter details :
 \
 
 This module has three association groups, only the third is
-indispensable.
+essential.
 
 \
 
@@ -301,7 +301,7 @@ Good to know
 
 \
 
-> **Caution**
+> **Bail**
 >
 > The most important parameter of the configuration is 14. It
 > allows to choose the type of switch used. Default type

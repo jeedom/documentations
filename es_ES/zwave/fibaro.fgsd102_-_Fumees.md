@@ -26,23 +26,23 @@ Resumen
 
 Con líneas suaves, una superficie pulida y un tamaño pequeño, esto
 el detector de humo le permitirá ser alertado de una amenaza con
-LED RGB multicolor y una sirena integrada.. El gran formato de la
+LED RGB multicolor y una sirena integrada. El gran formato de la
 la cuadrícula puede detectar la menor cantidad de humo
 obtener una reacción rápida. Por lo tanto, encontrará muy fácilmente su
 colocar en su hogar para preservar la seguridad del conjunto
-famille.
+familia.
 
 El detector de humo Fibaro FGSD-002 es un detector de alarma
 Humo autónomo (DAAF) compatible con la norma EN 14604:2005. bueno
 así de autónomo, también se está comunicando gracias a la tecnología Z-Wave
-Plus.
+Más.
 
 Algunos materiales se queman sin fumar. Por eso los ingenieros de
 Fibaro ha decidido incluir protección adicional en sus
 detector de humo en forma de sensor de temperatura. Si la
 no hay suficiente humo para hacer sonar la alarma,
 el dispositivo aún podrá detectar una amenaza al detectar
-Un cambio rápido de temperatura causado por un incendio.. Cambio
+Un cambio rápido de temperatura causado por un incendio. Cambio
 El aumento o aumento rápido de la temperatura a 54 ° C es suficiente
 para que el sensor de humo detecte una amenaza y la informe a
 habitantes de la casa. Solo este tipo de sensor de humo ofrece
@@ -65,9 +65,9 @@ Funciones
 
 -   Alarma señalizada por sonido, luz LED y señal Z-Wave
 
--   Detección de incendios midiendo la temperatura del aire.
+-   Detección de incendios midiendo la temperatura del aire
 
--   Prueba de eficiencia automática, realizada cada 5 segundos.
+-   Prueba de eficiencia automática, realizada cada 5 segundos
 
 -   Probador de cobertura de red Z-Wave integrado
 
@@ -140,11 +140,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón central de inclusión, de acuerdo con su documentación en papel.
@@ -168,7 +168,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -202,7 +202,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -240,7 +240,7 @@ Detalles del parámetro :
 -   1: ajusta la sensibilidad de la detección de humo
 
 -   2: le permite elegir qué notificaciones se enviarán a Jeedom
-    (consejo : toutes)
+    (consejo : todas)
 
 -   3: le permite elegir qué notificaciones irán acompañadas de un
     indicación visual
@@ -250,11 +250,11 @@ Detalles del parámetro :
     el módulo sonará)
 
 -   10: no cambie esta configuración a menos que sepa lo que
-    faites
+    hacer
 
--   11: idem
+-   11: ídem
 
--   12: idem
+-   12: ídem
 
 -   13: permite notificar a otros módulos zwave (para desactivar a menos que
     sabes por qué lo activas)
@@ -330,7 +330,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un

@@ -1,6 +1,6 @@
 # Materials
 
-Hardware | State | Remarques
+Hardware | State | Remarks
 --- | --- | ---
 Jeedomboard             | Stable                  |
 Hummingboard            | Stable                  |
@@ -21,7 +21,7 @@ The jeedom team recommends you (depending on your budget) :
 - Intel Nuc gen (extreme performance, see the tutorial category for the choice in different models and installation)
 - RPI4
 
-#  Images
+#  Pictures
 
 You can find all Jeedom images [here](https://images.jeedom.com/)
 
@@ -32,11 +32,11 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 | Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
-All other previously downloadable images are no longer maintained, it is better to go through the manual installation of Jeedom [Doc](https://doc.jeedom.com/en_US/installation/index) after installing a linux distribution corresponding to your hardware : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
+All other previously downloadable images are no longer maintained, it is better to go through the manual installation of Jeedom [Doc](https://Doc.jeedom.com/en_US/installation/index) after installing a linux distribution corresponding to your hardware : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
 
-#  Logiciel
+#  Software
 
-> **Important**
+> **IMPORTANT**
 >
 > Jeedom only supports Debian Jessie (not recommended), Stretch (not recommended) and Buster (stable). Any other version (Wheezy…) or distribution (Ubuntu…) is not supported by Jeedom.
 
@@ -52,15 +52,15 @@ All other previously downloadable images are no longer maintained, it is better 
 
 # Bluetooth
 
-You will find the list [here](https://doc.jeedom.com/en_US/blea/equipement.compatible) Jeedom compatible Bluetooth modules
+You will find the list [here](https://Doc.jeedom.com/en_US/blea/equipement.compatible) Jeedom compatible Bluetooth modules
 
 # Cameras
 
-You will find the list [here](https://doc.jeedom.com/en_US/camera/equipement.compatible) Jeedom compatible cameras
+You will find the list [here](https://Doc.jeedom.com/en_US/camera/equipement.compatible) Jeedom compatible cameras
 
 # Edisio
 
-You will find the list [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible) Jeedom compatible Edisio modules
+You will find the list [here](https://Doc.jeedom.com/en_US/edisio/equipement.compatible) Jeedom compatible Edisio modules
 
 # EnOcean
 
@@ -69,7 +69,7 @@ ENOCEAN controller :
 -   EnOcean USB300 USB key
 -   EnOcean USB310 USB stick (Recommended)
 
-You will find the list [here](https://doc.jeedom.com/en_US/enocean/equipement.compatible) Jeedom compatible EnOcean modules
+You will find the list [here](https://Doc.jeedom.com/en_US/enocean/equipement.compatible) Jeedom compatible EnOcean modules
 
 # RFXcom
 
@@ -78,7 +78,7 @@ RFXcom controller :
 -   RFXtrx433 USB
 -   RFXtrx433E USB (Recommended)
 
-You will find the list [here](https://doc.jeedom.com/en_US/rfxcom/equipement.compatible) Jef-compatible Rfxcom modules
+You will find the list [here](https://Doc.jeedom.com/en_US/rfxcom/equipement.compatible) Jef-compatible Rfxcom modules
 
 # SMS (GSM)
 
@@ -103,4 +103,4 @@ Z-Wave controller :
 -   AEON LABS Z-Wave Controller Aeon Labs Z-Stick S2
 -   AEON LABS - Z-Wave Plus Z-Stick GEN5 USB Controller (Recommended)
 
-You will find the list [here](https://doc.jeedom.com/en_US/zwave/equipement.compatible) Jeedom compatible Z-wave modules
+You will find the list [here](https://Doc.jeedom.com/en_US/zwave/equipement.compatible) Jeedom compatible Z-wave modules

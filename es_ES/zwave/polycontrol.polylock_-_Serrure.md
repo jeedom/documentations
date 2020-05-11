@@ -44,7 +44,7 @@ Poly-Control también puede funcionar con otras escenas de Z-Wave, donde
 las luces se encienden y el sistema de alarma se desactiva cuando
 desbloqueado a través de su control remoto.
 
-El sistema Poly-Control se puede utilizar en un entorno.
+El sistema Poly-Control se puede utilizar en un entorno
 doméstica o laboral. El Poly-Lock funciona con
 batería, y ha sido probado para funcionar durante 1 año, sin
 reemplazo de la batería.
@@ -61,9 +61,9 @@ Funciones
 -   Se adapta a la mayoría de las puertas
 
 -   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema
-    d'alarme
+    alarma
 
--   Adecuado para uso doméstico o comercial.
+-   Adecuado para uso doméstico o comercial
 
 -   Rueda para cierre manual
 
@@ -96,7 +96,7 @@ Datos del módulo
 
 -   Hacer : Poly-Control
 
--   Nombre : Polylock
+-   Nombre : PolyLock
 
 -   ID del fabricante : 270
 
@@ -113,11 +113,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 1 vez
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -141,7 +141,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -168,7 +168,7 @@ Aquí está la lista de comandos :
 
 \
 
-> **Warning**
+> **Advertencia**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -256,7 +256,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Aunque este módulo funciona con batería, utiliza la tecnología Flirs.
 > Esto significa que no tiene el concepto de despertar y despertar. Él
@@ -265,7 +265,7 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo no devuelve su estado, si opera el bloqueo en el
 > mano el estado seguirá siendo el mismo. \

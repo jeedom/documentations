@@ -26,7 +26,7 @@ Resumen
 
 Micromódulo de pared ON / OFF de la marca SmartHome Europe by Everspring,
 está diseñado para controlar la iluminación de encendido y apagado y
-electrodomésticos en su hogar. Dos juegos de contactos secos.
+electrodomésticos en su hogar. Dos juegos de contactos secos
 permitir la conexión de dos interruptores.
 
 Por razones de seguridad, la unidad puede detectar sobrecalentamiento y se apagará
@@ -87,7 +87,7 @@ Características técnicas
 
 -   Alcance : hasta 70 m en exteriores, hasta 30 m en edificios
 
--   Affichage: LED en el botón
+-   Visualización: LED en el botón
 
 -   Dimensiones : 42 mm x 43 mm x 16 mm
 
@@ -117,11 +117,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 3 veces en su
 > botón, de acuerdo con su documentación en papel. Es importante
@@ -147,7 +147,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -159,9 +159,9 @@ Aquí está la lista de comandos :
 
 \
 
--   Uno : Es el control que enciende la luz.
+-   Uno : Es el control que enciende la luz
 
--   Apagado : Es el comando que apaga la luz.
+-   Apagado : Es el comando que apaga la luz
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
@@ -216,7 +216,7 @@ Detalles del parámetro :
 
 \
 
-Este módulo tiene 2 grupos de asociación..
+Este módulo tiene 2 grupos de asociación.
 
 \
 
@@ -224,7 +224,7 @@ Este módulo tiene 2 grupos de asociación..
 
 \
 
-> **Important**
+> **Importante**
 >
 > Como mínimo, Jeedom debería terminar en el grupo 1 \
 
@@ -238,7 +238,7 @@ Bueno saber
 \
 
 -   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos. \
+    segundos \
 
 ### Visual alternativo 
 
@@ -263,7 +263,7 @@ Faq.
 \
 
 Sí, es el parámetro 2 y no se puede establecer por debajo de 3
-secondes.
+segundos.
 
 \
 

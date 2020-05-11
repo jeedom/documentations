@@ -14,10 +14,10 @@ uso es :
 
     http://addropengarage/jc
 
-El resultado es un json.. Así que usa equipo tipo
+El resultado es un json. Así que usa equipo tipo
 Script y comando de información de tipo json
 
-Para el estado del relé, el nombre de la propiedad del json : door
+Para el estado del relé, el nombre de la propiedad del json : puerta
 
 Para el sensor de distancia : dist
 

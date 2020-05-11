@@ -19,7 +19,7 @@ Apache-Konfiguration
 Damit der Let'sEncrypt-Prozess erfolgreich abgeschlossen werden kann, ist dies der Fall
 notwendig, um die drei folgenden Schritte vorher auszuführen :
 
-Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen. ! 
+Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen ! 
 
 -   Aktivieren Sie das Apache-SSL-Modul der Jeedom-Box.
 
@@ -31,7 +31,7 @@ Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen. !
 Aktivierung des virtualHost- und SSL-Moduls 
 ------------------------------------------
 
-> **Note**
+> **Notiz**
 >
 > Schließen Sie SSH an der Jeedom-Box an.
 
@@ -39,7 +39,7 @@ Aktivierung des virtualHost- und SSL-Moduls
     a2ensite default-ssl.conf
     apache2 Neustartdienst
 
-> **Note**
+> **Notiz**
 >
 > Solange Ihre Site vorhanden ist, wird von LetsEncrypt kein Zertifikat ausgestellt
 > in HTTPS ist von außen nicht erreichbar.
@@ -50,7 +50,7 @@ Sie müssen die Einstellungen ersetzen <email@domaine.com> und domaine.com
 durch Ihre Werte. Normalerweise die Parameter zum Hinzufügen des HTTPS-Protokolls
 werden vom Skript in Apache hinzugefügt.
 
-> **Note**
+> **Notiz**
 >
 > Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden,
 > Sie können virtualHost deaktivieren **default-ssl.conf** mit dem
@@ -59,7 +59,7 @@ werden vom Skript in Apache hinzugefügt.
 > Erneuerung :
 > /etc/apache2/sites-available/000-default-le-ssl.conf \ `
 
-    <FilesMatch "\..(cgi|shtml|phtml|php)$">
+    <FilesMatch "\.(cgi|shtml|phtml|php)$">
        SSLOptions + StdEnvVars
     </FilesMatch>
     <Directory /usr/lib/cgi-bin>
@@ -105,7 +105,7 @@ Die Verlängerung erfolgt mit der Bestellung :
 
     / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
 
-Sie erhalten automatisch eine E-Mail, wenn die Frist abgelaufen ist.
+Sie erhalten automatisch eine E-Mail, wenn die Frist abgelaufen ist
 Zertifikat, das Sie daran erinnert, diesen Befehl zu starten.
 
 Automatische Methode 
@@ -120,7 +120,7 @@ Schritte zu folgen :
 
     apt-get install -y bc
 
--   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei).
+-   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei)
     :
 
 <!-- -->
@@ -159,13 +159,13 @@ Schritte zu folgen :
 
     0 5 * * 1 /bin/certletsencryptrenew.sh
 
-> **Important**
+> **Wichtig**
 >
 > Passen Sie den Pfad unbedingt an das Skript an.
 
-> **Tip**
+> **Spitze**
 >
-> Um die Planung zu verstehen 0 5 \* \.* 1, schauen Sie hier und
+> Um die Planung zu verstehen 0 5 \* \* 1, schauen Sie hier und
 > Passen Sie es bei Bedarf an Ihre Bedürfnisse an :
 > <https://crontab.guru/#0_5_*_*_1>
 

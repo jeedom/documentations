@@ -5,7 +5,7 @@ way of the manager :
 
 -   the web interface (present by default in 6.0 update 2, or by
     through a vib for the other versions), we access it by
-    IP\_ESXI / ui
+    IP \ _ESXI / ui
 
 -   the heavy and historical client of VMware (vSphere client)
 
@@ -22,11 +22,11 @@ leaves without worries.
 Connection to the web interface 
 ===========================
 
-Go to IP\_ESXI / ui with your internet browser, you must have :
+Go to IP \ _ESXI / ui with your internet browser, you must have :
 
 ![vmware.createvm3]((images/vmware.createvm3.PNG)
 
-> **Note**
+> **NOTE**
 >
 > If you have nothing I advise you to install
 > web interface, all information
@@ -116,7 +116,7 @@ hard, cpu, memory ...) :
 
 ![vmware.createvm9]((images/vmware.createvm9.PNG)
 
-> **Note**
+> **NOTE**
 >
 > All these parameters can be modified afterwards without worries, note
 > however it is not really possible to reduce the size
@@ -138,7 +138,7 @@ Then do next :
 ![vmware.createvm12]((images/vmware.createvm12.PNG)
 
 You then have a summary of your configuration, click on
-"Terminer" :
+"Finish" :
 
 ![vmware.createvm13]((images/vmware.createvm13.PNG)
 
@@ -161,7 +161,7 @@ your OS :
 
 ![vmware.createvm17]((images/vmware.createvm17.PNG)
 
-> **Important**
+> **IMPORTANT**
 >
 > Once your machine is installed you MUST install the
 > VMware tools (this allows VMware to have information about your VM
@@ -174,7 +174,7 @@ For the rest of the installation I invite you to read this
 Mount USB devices in the VM 
 =======================================
 
-> **Note**
+> **NOTE**
 >
 > If you do not have the options below it is necessary to update
 > the ESXi Embedded Host Client, all information
@@ -185,7 +185,7 @@ indeed I have on my ESXi the keys Zwave, RFXcom, edisio, enOcean and GSM
 connected and I had to connect them to my Jeedom VM to be able to
 use it.
 
-> **Note**
+> **NOTE**
 >
 > For Zwave, RFXcom, edisio and enOcean there is no problem, for
 > GSM keys you must follow this
@@ -201,7 +201,7 @@ Click on "Add another device" then USB controller :
 
 ![vmware.createvm26]((images/vmware.createvm26.PNG)
 
-> **Note**
+> **NOTE**
 >
 > The following step should be repeated for each USB device that
 > you want to connect
@@ -219,4 +219,4 @@ And now your device is plugged into your VM. Every
 restart it will be automatically reconnected to the VM and if you
 physically disconnect / connect then it will be reconnected to
 your VM. In other words the use is now totally
-transparente.
+transparent.

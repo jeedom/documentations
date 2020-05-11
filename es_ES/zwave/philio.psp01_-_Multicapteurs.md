@@ -24,7 +24,7 @@ Resumen
 
 \
 
-El detector PSP01 ofrece 3 funciones diferentes. : detección de
+El detector PSP01 ofrece 3 funciones diferentes : detección de
 movimiento, sensor de temperatura y detector de luz.
 
 Este detector puede usarse para seguridad o para
@@ -40,7 +40,7 @@ cambios en los niveles de radiación infrarroja (presencia) y
 cambios en el nivel de brillo. Entonces podemos desencadenar un
 iluminación cuando se detecta movimiento en la oscuridad.
 
-El detector también aumentará el brillo y la temperatura, es decir.
+El detector también aumentará el brillo y la temperatura, es decir
 cambio significativo, y cada vez que un movimiento es
 detectado Se requiere un controlador Z-Wave (control remoto, dongle, etc.)
 para integrar este detector en su red si ya tiene un
@@ -67,13 +67,13 @@ Funciones
 
 -   Botón para incluir / excluir el detector
 
--   Autoprotection
+-   Autoprotección
 
 -   Indicación de batería baja
 
--   Pequeño, discreto y estético.
+-   Pequeño, discreto y estético
 
--   Facilidad de uso e instalación.
+-   Facilidad de uso e instalación
 
 \
 
@@ -106,7 +106,7 @@ Características técnicas
 
 -   Temperatura de funcionamiento : -10 a 40 ° C
 
--   Humedad de funcionamiento : 85% HR máx.
+-   Humedad de funcionamiento : 85% HR máx
 
 -   Norma CE : EN300 220-1
 
@@ -138,11 +138,11 @@ Configuración
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://jeedom.fr/doc/Documentación/plugins/openzwave/es_ES/openzwave.html).
 
 \
 
-> **Important**
+> **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
@@ -166,7 +166,7 @@ Una vez incluido, deberías obtener esto :
 \
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
-disponibles.
+disponible.
 
 \
 
@@ -181,7 +181,7 @@ Aquí está la lista de comandos :
 -   Presencia : es el comando que detectará una detección de presencia
 
 -   Apertura : es el comando que generará una detección
-    d'ouverture
+    abriendo
 
 -   Temperatura : es el comando que permite subir el
     Temperatura
@@ -202,7 +202,7 @@ correspondiente a su módulo.
 
 \
 
-> **Important**
+> **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
@@ -286,11 +286,11 @@ Bueno saber
 
 \
 
-> **Tip**
+> **Punta**
 >
 > Este módulo tiene una particularidad, no tener un informe basado en el
 > variaciones, pero solo con el tiempo, envía toda su información a
-> cada detección. También envía la señal varias veces.
+> cada detección. También envía la señal varias veces
 > detección de presencia después. Por lo tanto, es aconsejable marcar el
 > Cuadro "Evento en cambio" en la presencia si usa esto
 > comando en desencadenador de escenario.
@@ -339,7 +339,7 @@ Nota importante
 
 \
 
-> **Important**
+> **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un
