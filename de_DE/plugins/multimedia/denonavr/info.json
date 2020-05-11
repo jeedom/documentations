@@ -1,11 +1,11 @@
 {
-	"id" : "denonavr",
-	"name" : "Denon",
-	"description" : "Plugin permettant de piloter les amplificateurs Denon",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "multimedia",
-	"changelog" : "https://jeedom.github.io/plugin-denonavr/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-denonavr/#language#/"
+    "id": "denonavr",
+    "name": "Denon",
+    "description": "Plugin permettant de piloter les amplificateurs Denon",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "multimedia",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/"
 }

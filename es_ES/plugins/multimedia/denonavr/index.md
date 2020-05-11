@@ -1,55 +1,32 @@
-Plugin pour commander les amplificateurs Denon. Vous pourrez contrôler
-les entrées à utiliser, sortie de veille, mettre en veille
-l’amplificateur et contrôler le volume. Vous avez aussi un retour d’état
-indiquant si la zone est active, le niveau de volume, l’entrée
-selectionnée et le type audio.
+# Complemento Denon AVR
 
-configuración del plugin
-=======================
+Plugin para controlar amplificadores Denon. Podrá controlar las entradas para usar, despertar, poner el amplificador en espera y controlar el volumen. También tiene comentarios de estado que indican si la zona está activa, el nivel de volumen, la entrada seleccionada y el tipo de audio.
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+# Configuración del plugin
 
-Configuración del dispositivo
-=============================
+Después de descargar el complemento, simplemente deberá activar el complemento
 
-La configuration des équipements Denon est accessible à partir du menu
-Plugins puis multimedia
+# Configuración del equipo
 
-Aquí encontrará toda la configuración de su dispositivo:
+Se puede acceder a la configuración del equipo Denon desde el menú Complementos y luego multimedia
 
--   **Nom de l’équipement Denon** : nom de votre équipement Denon,
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
+-   **Nombre de l'équipement Denon** : nombre de su equipo Denon,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **IP** : Denon amplificador ip
+-   **Zona** : zona a controlar (principal o zona 2)
 
--   ** ** Categoría: categorías de equipos (que pueden pertenecer a
-    varias categorías),
+A continuación encontrará la lista de pedidos :
 
--   ** ** Activar: para que su equipo activo,
+-   **Nombre** : el nombre que se muestra en el tablero,
+-   **Configuración avanzada** : muestra la ventana de configuración avanzada del comando,
+-   **Opciones** : le permite mostrar u ocultar ciertos comandos y / o registrarlos
+-   **Probar** : Se usa para probar el comando
 
--   ** ** visible hace que su equipo visible en el salpicadero,
-
--   **IP** : IP de l’amplificateur denon
-
--   **Zone** : zone à contrôler (principale ou zone 2)
-
-A continuación encontrará la lista de ordenes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Configuration avancé** : permet d’afficher la fenêtre de
-    configuration avancée de la commande,
-
--   **Options** : vous permet d’afficher ou de masquer certaines
-    commandes et/ou d’en historiser
-
--   **Tester** : permet de tester la commande
-
-> **Note**
+> **Nota**
 >
-> Les commandes sont générées automatiquement en fonction du modèle de
-> votre amplificateur
-
-Changelog détaillé :
-<https://github.com/jeedom/plugin-denonavr/commits/stable>
+> Los comandos se generan automáticamente de acuerdo con el modelo de su amplificador

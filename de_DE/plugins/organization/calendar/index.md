@@ -1,193 +1,99 @@
-Plugin permettant de créer un agenda et de déclencher des actions
-(commande ou scénario).
+# Kalender-Plugin
 
-Plugin Konfiguration
-=======================
+Plugin zum Erstellen einer Agenda und Auslösen von Aktionen (Befehl oder Szenario).
 
-La configuration est très simple, après téléchargement du plugin, il
-vous suffit de l'activer et c'est tout.
+# Plugin Konfiguration
 
-Gerätekonfiguration
-=============================
+Die Konfiguration ist sehr einfach. Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und fertig.
 
-La configuration des équipements Agenda est accessible à partir du menu
-Plugins puis Organisation.
+# Gerätekonfiguration
 
-Une fois dessus vous retrouvez alors la liste de vos Agenda.
+Auf die Konfiguration der Agenda-Geräte kann über das Plugins-Menü und dann über Organisation zugegriffen werden.
+
+Sobald Sie darauf sind, finden Sie die Liste Ihrer Agenda.
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name der Ausrüstung** : nom de votre agenda.
+-   **Name der Ausrüstung** : Name Ihres Kalenders.
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv.
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar.
+-   **Widget, Anzahl der Tage** : Legt die Anzahl der Ereignistage fest, die im Widget angezeigt werden sollen.
+-   **Maximale Anzahl von Ereignissen** : Definiert die maximale Anzahl von Ereignissen, die im Dashboard angezeigt werden sollen.
+-   **Status- und Aktivierungs- / Deaktivierungsbefehle nicht anzeigen** : Mit dieser Option können Sie den Status des Kalenders sowie die Befehle zum Aktivieren oder Nichtaktivieren des Kalenders ausblenden.
+-   **Liste der Kalenderereignisse** : Anzeige unter der Liste aller Kalenderereignisse (klicken Sie darauf, um das Ereignis direkt zu bearbeiten).
+-   **Ereignis hinzufügen** : Fügen Sie dem Kalender ein Ereignis hinzu.
+-   **Agenda** : Anzeige einer Agenda-Ansicht mit allen Ereignissen, in die Sie sich bewegen können. Wählen Sie diese nach Woche oder Tag aus, verschieben Sie Ereignisse (Drag & Drop) und ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster.
 
--   **Übergeordnetes Objekt** : indique l'objet parent auquel
-    appartient l'équipement.
+# Ereignis bearbeiten
 
--   **Kategorie** : Gerätekategorien (es kann gehören
-    plusieurs catégories).
+Der wichtigste Teil des Plugins ist, dass Sie hier Ihre Veranstaltung konfigurieren können.
 
--   **Aktivieren** : permet de rendre votre équipement actif.
+## Ereignis
 
--   **Sichtbar** : le rend visible sur le dashboard.
+Hier finden Sie :
 
--   **Widget, Anzahl der Tage** : définit le nombre de jours
-    d'événements à afficher sur le widget.
+-   **Name der Veranstaltung** : Name Ihrer Veranstaltung.
+-   **Symbol** : Mit dieser Option können Sie ein Symbol vor dem Namen Ihres Geräts einfügen (klicken Sie dazu auf "Symbol auswählen").
+-   **Farbe** : Mit dieser Option können Sie die Farbe Ihrer Veranstaltung auswählen (mit einem Häkchen können Sie sie auch transparent machen).
+-   **Farbe du texte** : Mit dieser Option können Sie die Farbe Ihres Veranstaltungstextes auswählen.
+-   **Nicht im Dashboard anzeigen** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
 
--   **Maximale Anzahl von Ereignissen** : défini le nombre maximum
-    d'événements à afficher sur le dashboard.
+## Aktion starten
 
--   **Ne pas afficher le statut et les commandes
-    d'activation/désactivation** : permet de masquer le statut de
-    l'agenda ainsi que les commandes d'activation ou non de celui-ci.
+Ermöglicht die Auswahl der Aktion (en), die beim Starten des Ereignisses ausgeführt werden sollen.
 
--   **Liste der Kalenderereignisse** : affichage en dessous de la
-    liste de tous les événements de l'agenda (un clic dessus permet
-    d'éditer l'événement directement).
-
--   **Ereignis hinzufügen** : permet d'ajouter un événement à l'agenda.
-
--   **Agenda** : Affichage d'une vue type agenda avec tous les
-    événements vous pouvez vous déplacer dedans, choisir de l'afficher
-    par semaine ou jour, déplacer des événements (glisser/déposer) et un
-    clic sur un événement vous ouvrira sa fenêtre d'édition.
-
-Edition d'un événement
-======================
-
-Partie la plus importante du plugin, c'est ici que vous allez pouvoir
-configurer votre événement.
-
-Ereignis
----------
-
-Ici vous retrouvez :
-
--   **Name der Veranstaltung** : Nom de votre événement.
-
--   **Symbol** : permet d'ajouter une icône devant le nom de votre
-    équipement (pour ce faire il faut cliquer sur "Choisir une icône").
-
--   **Farbe** : permet de choisir la couleur de votre événement (une
-    coche vous permet aussi de le rendre transparent).
-
--   **Textfarbe** : permet de choisir la couleur du texte de
-    votre événement.
-
--   **Ne pas afficher dans le dashboard** : permet de ne pas afficher
-    cet événement sur le widget.
-
-Action de début
----------------
-
-Permet de choisir la ou les actions à faire lors du lancement de
-l'événement.
-
-Pour ajouter une action il suffit de cliquer sur le bouton + au bout de
-la ligne puis vous allez avoir un bouton pour chercher une commande une
-fois dieses hier trouvée vous aurez le choix des options si elle en a. Vous
-pouvez ajouter autant d'action que vous le voulez.
+Um eine Aktion hinzuzufügen, klicken Sie einfach auf die Schaltfläche + am Ende der Zeile. Sie haben dann eine Schaltfläche, mit der Sie nach einer Bestellung suchen können, sobald diese gefunden wurde. Sie haben die Wahl zwischen Optionen, falls vorhanden. Sie können so viel Aktion hinzufügen, wie Sie möchten.
 
 > **Spitze**
 >
-> Il est possible de modifier l'ordre des actions en maintenant/glissant
-> dieses hier
+> Es ist möglich, die Reihenfolge der Aktionen durch Halten / Ziehen zu ändern
 
 
 > **Spitze**
 >
->Il est possible de faire les memes action que dans les scénarios (voir [ici](https://jeedom.github.io/core/fr_FR/scenario))
+>Es ist möglich, die gleichen Aktionen wie in den Szenarien auszuführen (siehe [hier](https://jeedom.github.io/core/de_DE/scenario))
 
-Action de fin
--------------
+## Aktion beenden
 
-Idem à l'action de début mais cette fois ci c'est la ou les action(s) à
-effectuer à la fin de l'événement.
+Wie die Startaktion, diesmal jedoch die Aktion (en), die am Ende des Ereignisses ausgeführt werden sollen.
 
-Programmierung
--------------
+## Programmation
 
-C'est ici que se trouve toute la gestion temporelle de votre événement :
+Hier befindet sich das gesamte Zeitmanagement Ihrer Veranstaltung :
 
--   **Anfang** : Date de début de l'événement.
-
--   **Ende** : Date de fin de l'événement.
-
--   **Den ganzen Tag** : permet de définir l'événement sur toute
-    la journée.
-
--   **In einen anderen Kalender aufnehmen** : Permet d'inclure un autre
-    événement dans votre événement courant. Par exemple, si vous avez un
-    événement A répété tous les lundis, et que vous incluez cet
-    événement A dans votre événement courant, alors celui-ci sera
-    automatiquement répété tous les lundis.
-
--   **Inclure** : permet de forcer une date d'occurence, vous pouvez en
-    mettre plusieurs en les séparant par des , (virgules), vous pouvez
-    aussi définir une plage avec des : (deux points).
-
--   **Répété** : permet de dire que votre événement est répété (si cette
-    case n'est pas cochée vous n'aurez pas les options qui suivent).
-
--   **Wiederholungsmodus** : permet de spécifier le mode de répétition,
-    soit simple : tous les jours, tous les X jours…​ ou répétition tous
-    les 1er, 2ème…​ pour répéter un événement tous les 3ème lundis du
-    mois Zum Beispiel (les options qui suivent peuvent être différentes
-    en fonction de ce choix).
-
--   **Wiederholen Sie alle** : \[mode répétition simple seulement\] permet
-    de définir la fréquence de répétition de l'événement (ex tous les 3
-    jours ou tous les 2 mois…​).
-
--   **Die** : \[mode répétition le premier, le deuxième…​ seulement\] :
-    permet de choisir une répetition tous les 2ème lundis du mois
-    Zum Beispiel.
-
--   **Nur die** : permet de restreindre la répétition à certains
-    jours de la semaine.
-
--   **Einschränkung** : permet de restreindre l'événement seulement les
-    jours fériés ou d'exclure les jours fériés.
-
--   **Bis zu** : donne la date de fin d'occurence de l'événement.
-
--   **Durch einen anderen Kalender ausschließen** : permet de mettre en exclusion cet
-    événement en fonction d'un autre agenda (pour éviter Zum Beispiel que
-    2 événements contradictoires se retrouvent ensemble).
-
--   **Exclure** : idem que "Inclure" mais cette fois pour exclure
-    des dates.
+-   **Anfang** : Startdatum des Ereignisses.
+-   **Ende** : Ereignisenddatum.
+-   **Den ganzen Tag** : ermöglicht es, das Ereignis über den ganzen Tag zu definieren.
+-   **Einschließen par un autre agenda** : Ermöglicht es Ihnen, ein anderes Ereignis in Ihr aktuelles Ereignis aufzunehmen. Wenn Sie beispielsweise ein Ereignis A jeden Montag wiederholen lassen und dieses Ereignis A in Ihr aktuelles Ereignis aufnehmen, wird dieses Ereignis automatisch jeden Montag wiederholt.
+-   **Einschließen** : Ermöglicht das Erzwingen eines Auftrittsdatums. Sie können mehrere setzen, indem Sie sie durch (Kommas) trennen. Sie können auch einen Bereich mit definieren : (zwei Punkte).
+-   **Wiederholt** : Nehmen wir an, Ihr Ereignis wird wiederholt (wenn dieses Kontrollkästchen nicht aktiviert ist, haben Sie nicht die folgenden Optionen).
+-   **Wiederholungsmodus** : ermöglicht die Angabe des Wiederholungsmodus, entweder einfach : jeden Tag, alle X Tage ... oder Wiederholung jeden 1., 2. ... um ein Ereignis beispielsweise jeden 3. Montag im Monat zu wiederholen (die folgenden Optionen können je nach Auswahl unterschiedlich sein).
+-   **Wiederholen Sie alle** : \ [nur einfacher Wiederholungsmodus \] ermöglicht das Definieren der Wiederholungshäufigkeit des Ereignisses (z. B. alle 3 Tage oder alle 2 Monate…).
+-   **Die** : Mit \ [Wiederholungsmodus der erste, der zweite… nur \] können Sie beispielsweise jeden 2. Montag im Monat eine Wiederholung auswählen.
+-   **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
+-   **Einschränkung** : erlaubt es, die Veranstaltung nur an Feiertagen einzuschränken oder Feiertage auszuschließen.
+-   **Bis zu** : gibt das Enddatum des Auftretens des Ereignisses an.
+-   **Ausschließen par un autre agenda** : ermöglicht es, dieses Ereignis nach einem anderen Kalender auszuschließen (um beispielsweise zu vermeiden, dass sich zwei widersprüchliche Ereignisse treffen).
+-   **Ausschließen** : wie "Einschließen", diesmal jedoch, um Daten auszuschließen.
 
 > **Notiz**
 >
-> Dies jours feriés sont ceux Francais et uniquement les Francais cela ne
-> marche donc pas pour les autres pays
+> Feiertage sind französisch und nur französisch, dies funktioniert nicht für andere Länder
 
 > **Notiz**
 >
-> En haut à droite vous avez 3 boutons, un pour supprimer, un pour
-> sauvegarder et un pour dupliquer. Lors du clic sur ce dernier jeedom
-> vous affiche l'evenement resultant de la duplication pour que vous
-> puissiez changer le nom Zum Beispiel.Il ne faut donc pas oublier de
-> sauvegarder suite à un clic sur le bouton dupliquer
+> Oben rechts haben Sie 3 Schaltflächen, eine zum Löschen, eine zum Speichern und eine zum Duplizieren. Wenn Sie auf das letztere klicken, zeigt jeedom das Ereignis an, das sich aus der Duplizierung ergibt, so dass Sie beispielsweise den Namen ändern können.Vergessen Sie also nicht, nach einem Klick auf die Schaltfläche "Duplizieren" zu speichern
 
-Agenda, commandes et scénario
-=============================
+## Tagebuch, Bestellungen und Szenario
 
-Un agenda possède les commandes :
+Eine Agenda hat Kontrollen :
 
--   **In Bearbeitung** : donne la liste des événements en cours séparés par
-    des virgules, pour l'utiliser dans un scénario le plus simple et
-    d'utiliser l'opérateur contient ( matches ) ou ne contient pas ( not
-    matches ), Zum Beispiel *\[Appartement\]\[test\]\[In Bearbeitung\]* matches
-    "/Anniv/", sera vrai si dans la liste des événements en cours il y a
-    un "Anniv"
-
-- **Fügen Sie ein Datum hinzu** : permet depuis un scénario d'ajouter une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
-
-- **Entfernen Sie ein Datum** : permet depuis un scénario d'exclure une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
+-   **In Bearbeitung** : gibt eine Liste von aktuellen Ereignissen an, die durch Kommas getrennt sind, um sie im einfachsten Szenario zu verwenden und um den Operator zu verwenden, der beispielsweise enthält (Übereinstimmungen) oder nicht enthält (keine Übereinstimmungen) *\ [Wohnung \] \ [Test \] \ [In Bearbeitung \]* entspricht "/ Anniv /", ist wahr, wenn in der Liste der aktuellen Ereignisse ein "Anniv"
+- **Fügen Sie ein Datum hinzu** : Ermöglicht es einem Szenario, einem Ereignis ein Datum hinzuzufügen (seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, müssen Sie ihn auch im Szenario korrigieren). Sie können mehrere Ereignisse getrennt durch setzen ,
+- **Entfernen Sie ein Datum** : Ermöglicht es einem Szenario, ein Datum von einem Ereignis auszuschließen (seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, müssen Sie ihn auch im Szenario korrigieren). Sie können mehrere Ereignisse getrennt durch setzen ,
 
 > **Notiz**
 >
-> Il est possible d'utiliser la commande "In Bearbeitung" comme déclencheur
-> dans un scénario, chaque mise à jour de l'information déclenchera
-> l'éxecution du scénario. Cependant, Il est préférable d'utiliser cette
-> commande dans un scénario programmé avec un test sur la valeur.
+> Es ist möglich, den Befehl "In Bearbeitung" als Auslöser in einem Szenario zu verwenden. Jede Aktualisierung der Informationen löst die Ausführung des Szenarios aus. Es ist jedoch vorzuziehen, diesen Befehl in einem programmierten Szenario mit einem Test des Werts zu verwenden.

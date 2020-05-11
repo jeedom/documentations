@@ -1,7 +1,7 @@
 {
     "id": "ash",
     "name": "Alexa",
-    "description": "Alexa",
+    "description": "Plugin permettant d'utiliser Amazon Alexa (echo, dot...) pour piloter votre Jeedom. Important : le plugin nécessite un abonnement aux services vocaux . Pour gérer cet abonnement : https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.2.1",

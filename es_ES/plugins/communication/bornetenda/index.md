@@ -1,4 +1,4 @@
-Presentación 
+Presentación
 ============
 
 Este complemento permite gestionar los terminales tenda W301A.
@@ -8,25 +8,25 @@ Habilita wifi y lo desactiva.
 Instalación / Configuración
 ========================
 
-Ahora configuraremos un dispositivo. Para hacerlo, haga clic en * '' Complementos / Comunicación / terminal tenda W301A*''
+Ahora configuraremos un dispositivo. Para hacerlo, haga clic en *''Complementos / Comunicación / terminal tenda W301A*''
 
-Luego haga clic en el botón en la esquina superior izquierda "* '' Agregar equipo*''"
+Luego haga clic en el botón en la parte superior izquierda "*''Agregar equipo*''"
 
-Luego ingrese el nombre del equipo (ej.. Terminal 1)
+Luego ingrese el nombre del equipo (ej. Terminal 1)
 
 Luego defina :
 
 -   *''Objeto padre*''
 
--   *''Categoría '*' (opcional)
+-   *''Categoría '*'(optionnelle)
 
--   *''Active '*' (marque, de lo contrario el equipo no será utilizable)
+-   *''Activar '*'(marque, de lo contrario el equipo no será utilizable)
 
--   *''Visible '*' (opcional si no desea que sea visible en el Tablero)
+-   *''Visible '*'(opcional si no desea que sea visible en el Tablero)
 
 -   *''Dirección IP*''
 
--   *''Compte*''
+-   *''Cuenta*''
 
 -   *''Contraseña*''
 
@@ -36,7 +36,7 @@ FAQ
 ¿Con qué frecuencia se actualizan los datos? ?
 -------------------------------------------------------
 
-Los datos se actualizan cada minuto..
+Los datos se actualizan cada minuto.
 
 Este complemento no genera un registro, cómo tenerlo ?
 --------------------------------------------------
@@ -54,4 +54,4 @@ Es completamente posible a través de
 
 Dónde encontrar el registro de cambios
 -----------------------
-[Aquí](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Aquí](https://jeedom.github.io/plugin-bornetenda/es_ES/changelog.html)

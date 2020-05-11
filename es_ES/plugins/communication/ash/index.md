@@ -1,20 +1,20 @@
-# Alexa Smarthome
+# Complemento Alexa Smarthome
 
 Este complemento permite hacer el enlace entre su Jeedom y Alexa
 
 Puede operar a través de un servicio en la nube proporcionado por Jeedom.
 
-> **Important**
+> **Importante**
 >
-> El complemento requiere una suscripción a los servicios de voz.. Puedes gestionar tu suscripción [aquí](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> El complemento requiere una suscripción a los servicios de voz. Puedes gestionar tu suscripción [aquí](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-> **Important**
+> **Importante**
 >
 > El complemento no es compatible con equipos con funciones duales (2 salidas como cierto módulo zwave Fibaro). Absolutamente tienes que pasar por 2 virtuales para descomponerlo.
 
 # Establecer la conexión a Alexa
 
-> **IMPORTANT**
+> **Importante**
 >
 > Es importante realizar los siguientes pasos en el orden indicado !!!
 
@@ -26,14 +26,14 @@ Después de instalar el complemento, solo necesita ir a la parte de configuraci�
 
 Una vez que el servicio está activo, debe hacerlo en la aplicación Alexa o en el [sitio web](https://alexa.amazon.fr/spa/index.html) vaya a la parte de habilidad y busque la habilidad Jeedom, luego actívela, le pedirá identificadores que debe colocar en el mercado (tenga cuidado de poner sus identificadores de mercado y no los de su Jeedom)
 
-> **IMPORTANT**
+> **Importante**
 >
 > Si tiene un mensaje de error que le indica que su contraseña de usuario o no es correcta, debe :
 > - compruebe que Amazon Alexa esté activa en el mercado
 > - Si este es el caso, asegúrese de sus credenciales (atención debe respetar mayúsculas / minúsculas) ?
 > - si este es el caso, cambie su contraseña en el mercado y en la configuración del servicio de asistente de voz (pestaña de página de perfiles de mercado mis servicios) guarde
 
-> **IMPORTANT**
+> **Importante**
 >
 >Cualquier modificación a la configuración del equipo transmitido a Alexa (adición de equipo, eliminación de equipo, cambio de un tipo genérico de un pedido) necesariamente requiere ir a Plugin -> Comunicación -> Alexa y luego guardar y en la aplicación Alexa para rehacer un descubrimiento
 
@@ -41,13 +41,13 @@ Una vez que el servicio está activo, debe hacerlo en la aplicación Alexa o en 
 
 En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de equipos seleccione el equipo que se transmitirá a Alexa, así como el tipo de equipo.
 
-> **IMPORTANT**
+> **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar.. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/es_ES/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/es_ES/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
 
-También puede crear escenas en la pestaña de escena, con acciones de entrada y salida..
+También puede crear escenas en la pestaña de escena, con acciones de entrada y salida.
 
-> **IMPORTANT**
+> **Importante**
 >
 > Si no envía ningún equipo (no está bien en la lista de equipos en el complemento de Alexa), Amazon considera que es un error y utiliza la última configuración conocida. Entonces, si olvida todo y no envía ningún equipo, Amazon tomará la última configuración conocida y, por lo tanto, hará que todo vuelva a aparecer.
 

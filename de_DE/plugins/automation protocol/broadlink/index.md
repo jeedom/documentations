@@ -1,60 +1,60 @@
-Plugin permettant de s’interfacer avec des équipements broadlink
+Plugin zur Anbindung an Broadlink-Geräte
 
-Plugin-Konfiguration
+Plugin Konfiguration 
 =======================
 
-Après avoir installé le plugin, il faut l’activer et s’assurer de la
-bonne installation des dépendances.
+Nach der Installation des Plugins müssen Sie es aktivieren und sicherstellen, dass
+gute Installation von Nebengebäuden.
 
-> **Important**
+> **Wichtig**
 >
-> Il est déconseillé de changer le port
+> Es wird nicht empfohlen, den Port zu ändern
 
-Inclusion des équipements 
+Einbeziehung der Ausrüstung 
 =========================
 
 Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
-fois sur la page cliquez sur MODE INCLUSION. En toute logique l’ensemble
-des produits Broadlink de votre réseau sera reconnu.
+Klicken Sie auf der Seite auf INKLUSIONSMODUS. Logischerweise das Ganze
+Broadlink-Produkte in Ihrem Netzwerk werden erkannt.
 
-Gerätekonfiguration
+Gerätekonfiguration 
 =============================
 
-Sélectionnez un de vos équipements. Si ce sont des produits de type
-Infra rouge, un bouton apprendre une commande apparait en haut. Il vous
-suffit de cliquer dessus, vous avez ensuite 5 secondes pour apprendre
-une commande infrarouge ou 433 a votre broadlink. Suite à cela le plugin
-vous confirmera le succès de l’opération et créera la commande associée
-qu’il vous suffira simplement de nommer.
+Wählen Sie eines Ihrer Geräte aus. Wenn dies Typprodukte sind
+Infrarot wird oben eine Schaltfläche zum Erlernen eines Befehls angezeigt. Da bist du
+Klicken Sie einfach darauf, Sie haben dann 5 Sekunden Zeit zu lernen
+ein Infrarot- oder 433-Befehl an Ihren Broadlink. Anschließend das Plugin
+bestätigt den Erfolg des Vorgangs und erstellt die zugehörige Bestellung
+Sie müssen nur benennen.
 
-> **Tip**
+> **Spitze**
 >
-> Pour éviter d’apprendre ce qui pourrait venir de l’environnement
-> (télécommande d’un voisin ou autre), le broadlink en mode
-> apprentissage se met VOLONTAIREMENT en niveau de réception très
-> faible, il faut donc être TRES proche du broadlink pour apprendre une
-> commande surtout si c’est une commande 433Mhz.
+> Um nicht zu lernen, was aus der Umwelt kommen könnte
+> (Fernbedienung eines Nachbarn oder eines anderen), der Broadlink im Modus
+> Das freiwillige Lernen geht in eine sehr empfängliche Ebene
+> schwach, also muss man SEHR nah am Broadlink sein, um a zu lernen
+> Bestellen Sie besonders, wenn es sich um eine 433-MHz-Bestellung handelt.
 
-Synchroniser 
+Synchronize 
 ============
 
-Sur l’onglet Commandes d’un équipement vous trouvez le bouton
-Synchroniser. Si vous possédez plusieurs broadlink vous pouvez
-transférer les commandes apprises d’un broadlink à un autre.
+Auf der Registerkarte Gerätesteuerung finden Sie die Schaltfläche
+Synchronisieren. Wenn Sie mehr als einen Broadlink haben, können Sie
+Übertragen Sie gelernte Befehle von einem Broadlink auf einen anderen.
 
-> **Tip**
+> **Spitze**
 >
-> Cela marche d’un rm-pro vers un mini ou vice versa.
+> Es funktioniert von einem RM-Pro zu einem Mini oder umgekehrt.
 
-Vous pouvez choisir les commandes à transférer ainsi que les broadlink
-vers lesquels vous voulez les transférer. (Le nom de la commande sera
-bien évidemment convervé (ON télévision, ventilateur off, etc.)
+Sie können die zu übertragenden Bestellungen sowie die Broadlinks auswählen
+auf die Sie sie übertragen möchten. (Der Name der Bestellung lautet
+offensichtlich Convervé (im Fernsehen, Fan aus, etc.)
 
-> **Tip**
+> **Spitze**
 >
-> Si vous ajouteé manuellement votre device car pas autodétecté. La MAC a renseigner est 
-> l'adresse MAC inversé par paquet de deux en minuscules sans les : exemple AA:BB:CC:DD:EE
-> devient eeddccbbaa
+> Wenn Sie Ihr Gerät manuell hinzugefügt haben, weil es nicht automatisch erkannt wurde. Der zu informierende MAC ist 
+> umgekehrte MAC-Adresse im Zweierpaket in Kleinbuchstaben ohne : Beispiel AA:BB:CC:DD:EE
+> wird eeddccbbaa
 
-Changelog détaillé :
+Changelog detailliert :
 <https://github.com/jeedom/plugin-broadlink/commits/stable>

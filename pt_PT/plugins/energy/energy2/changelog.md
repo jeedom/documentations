@@ -1,14 +1,15 @@
-- Supression de la commande pour ajouter des commandes
-- Amélioration de la gestion des équipements désactivés
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 # 16/05/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 01/02/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 29/01/2019
 
-- Version initial
+- Versão inicial

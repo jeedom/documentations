@@ -1,76 +1,84 @@
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 20.03.2020
+
+- Fehlerbehebung in Spanisch
+
 # 2019.11.15
 
 - Fehlerbehebungen
 
-# 23/10/2019
+# 23.10.2019
 
-- Amélioration du widget
+- Widget-Verbesserung
 
 # 2019.10.14
 
-- Amélioration de l'interface
+- Verbesserte Oberfläche
 
-# 03/06/2019
-
-- Fehlerbehebungen
-
-# 13/05/2019
+# 06/03/2019
 
 - Fehlerbehebungen
 
-# 09/05/2019
+# 13.05.2019
 
 - Fehlerbehebungen
 
-# 28/04/2019
+# 05/09/2019
 
 - Fehlerbehebungen
 
-# 08/04/2019
+# 2019.04.28
 
 - Fehlerbehebungen
-- Amélioration de l'interface
 
-# 18/03/2019
+# 04/08/2019
 
-- Lors de la supression d'un évènement les actions de fin ne sont plus éxecutées
-- Amélioration de l'interface
+- Fehlerbehebungen
+- Verbesserte Oberfläche
+
+# 18.03.2019
+
+- Wenn ein Ereignis gelöscht wird, werden die Endaktionen nicht mehr ausgeführt
+- Verbesserte Oberfläche
 - Fehlerbehebungen
 
-# 08/01/2018
+# 01/08/2018
 
-- Correction d'un bug lors de l'inclusion/exclusion de dates si celles-ci sont excluses/incluses
+- Korrektur eines Fehlers beim Einschließen / Ausschließen von Daten, wenn diese ausgeschlossen / eingeschlossen sind
 
-# 14/10/2018
+# 14.10.2008
 
-- Correction de bug sur les événements non répétés
+- Fehlerkorrektur bei nicht wiederholten Ereignissen
 
-# 12/10/2018
+# 10/12/2018
 
-- Ajout d'une reprogrammation de tous évènements tous les jours à 00h00
+- Hinzufügen einer Neuprogrammierung aller Ereignisse jeden Tag um 00:00 Uhr
 
-# 16/10/2018
+# 16.10.2008
 
-- Correction mineur de l'interface
-- Ajout de commande pour l'inclusion/exclusion de date depuis les scénarios
+- Kleinere Schnittstellenkorrektur
+- Hinzufügung der Bestellung zum Einschluss / Ausschluss des Datums aus den Szenarien
 
-# 15/10/2018
+# 15.10.2008
 
-- Correction d'un bug sur l'inclusion de date
+- Korrektur eines Fehlers bei Aufnahme des Datums
 
-# 29/03/2018
+# 29.03.2008
 
-- Correction d'un bug sur le "jusqu'à" si la répétition n'est pas une répétition simple
+- Korrektur eines Fehlers bei "bis", wenn die Wiederholung keine einfache Wiederholung ist
 
-# 26/03/2018
+# 26.03.2008
 
-- Correction d'un bug sur les images de la page de configuration
-- Correction d'un bug lors du calcul de la recurrence des événements si aucune borne n'est definie.
+- Behebung eines Fehlers auf den Bildern der Konfigurationsseite
+- Korrektur eines Fehlers während der Berechnung der Wiederholung von Ereignissen, wenn keine Grenze definiert ist.
 
-# 02/03/2018
+# 03/02/2018
 
-- Lors de la réactivation de l'agenda si on est dans un evenement les actions de début sont lancée
+- Wenn Sie die Agenda reaktivieren, wenn Sie sich in einem Ereignis befinden, werden die Startaktionen gestartet
 
-# 27/02/2018
+# 27.02.2008
 
--	Suppression des commandes d'activations/désactivations (pour désactiver un agenda dans un scénario il faut maintenant utiliser la fonction de désactivation d'équipment)
+-	Löschen von Aktivierungs- / Deaktivierungsbefehlen (um eine Agenda in einem Szenario zu deaktivieren, müssen Sie jetzt die Gerätedeaktivierungsfunktion verwenden)

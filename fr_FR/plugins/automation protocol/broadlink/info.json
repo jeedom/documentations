@@ -1,13 +1,13 @@
 {
-	"id" : "broadlink",
-	"name" : "Broadlink",
-	"description" : "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
-	"licence" : "AGPL",
-	"author" : "Ludovic",
-	"require" : "3.0",
-	"category" : "automation protocol",
-	"hasDependency" : true,
-        "hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-broadlink/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-broadlink/#language#/"
+    "id": "broadlink",
+    "name": "Broadlink",
+    "description": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+    "licence": "AGPL",
+    "author": "Ludovic",
+    "require": "3.0",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/broadlink\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/broadlink\/"
 }

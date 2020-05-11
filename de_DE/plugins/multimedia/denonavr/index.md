@@ -1,55 +1,32 @@
-Plugin pour commander les amplificateurs Denon. Vous pourrez contrôler
-les entrées à utiliser, sortie de veille, mettre en veille
-l’amplificateur et contrôler le volume. Vous avez aussi un retour d’état
-indiquant si la zone est active, le niveau de volume, l’entrée
-selectionnée et le type audio.
+# Denon AVR Plugin
 
-Plugin-Konfiguration
-=======================
+Plugin zur Steuerung von Denon-Verstärkern. Sie können die zu verwendenden Eingänge steuern, aufwachen, den Verstärker in den Standby-Modus versetzen und die Lautstärke steuern. Sie haben auch eine Statusrückmeldung, die angibt, ob die Zone aktiv ist, den Lautstärkepegel, den ausgewählten Eingang und den Audiotyp.
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+# Plugin Konfiguration
 
-Gerätekonfiguration
-=============================
+Nach dem Herunterladen des Plugins müssen Sie das Plugin lediglich aktivieren
 
-La configuration des équipements Denon est accessible à partir du menu
-Plugins puis multimedia
+# Gerätekonfiguration
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Auf die Konfiguration der Denon-Geräte kann über das Plugins-Menü und dann über Multimedia zugegriffen werden
 
--   **Nom de l’équipement Denon** : nom de votre équipement Denon,
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+-   **Name de l'équipement Denon** : Name Ihrer Denon-Ausrüstung,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **IP** : Denon-Verstärker ip
+-   **Bereich** : zu kontrollierende Zone (Haupt- oder Zone 2)
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories),
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+-   **Name** : Der im Dashboard angezeigte Name,
+-   **Erweiterte Konfiguration** : Zeigt das erweiterte Konfigurationsfenster des Befehls an,
+-   **Optionen** : Mit dieser Option können Sie bestimmte Befehle anzeigen oder ausblenden und / oder protokollieren
+-   **Test** : Wird zum Testen des Befehls verwendet
 
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   **IP** : IP de l’amplificateur denon
-
--   **Zone** : zone à contrôler (principale ou zone 2)
-
-Im unteren Bereich finden sie eine Liste der Befehle :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Configuration avancé** : permet d’afficher la fenêtre de
-    configuration avancée de la commande,
-
--   **Options** : vous permet d’afficher ou de masquer certaines
-    commandes et/ou d’en historiser
-
--   **Tester** : permet de tester la commande
-
-> **Note**
+> **Notiz**
 >
-> Les commandes sont générées automatiquement en fonction du modèle de
-> votre amplificateur
-
-Changelog détaillé :
-<https://github.com/jeedom/plugin-denonavr/commits/stable>
+> Die Befehle werden automatisch entsprechend dem Modell Ihres Verstärkers generiert

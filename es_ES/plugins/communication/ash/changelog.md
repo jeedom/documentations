@@ -1,6 +1,6 @@
->**IMPORTANT**
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 # 30/04/2020
 
@@ -8,14 +8,14 @@
 
 # 28/04/2020
 
-- Se solucionó un problema al encender las lámparas.
+- Se solucionó un problema al encender las lámparas
 - Soporte de obturador mejorado
 - Interfaz mejorada
-- Soporte para equipos de moda.
+- Soporte para equipos de moda
 
 # 23/01/2020
 
-- Corrección de problemas en la detección de equipos.
+- Corrección de problemas en la detección de equipos
 
 # 20/01/2020
 
@@ -23,7 +23,7 @@
 
 # 12/30/2019
 
-- Corrección de un error en los termostatos.
+- Corrección de un error en los termostatos
 
 # 13/12/2019
 
@@ -45,7 +45,7 @@
 
 - Actualizando el documento
 - Soporte de obturador mejorado
-- Posibilidad de invertir la dirección de las aletas.
+- Posibilidad de invertir la dirección de las aletas
 
 # 05/06/2019
 
@@ -74,7 +74,7 @@
 
 # 25/10/2018
 
-- Corrección de un error en los paneles.
+- Corrección de un error en los paneles
 - Actualizando el documento
 
 # 10/10/2018
@@ -91,11 +91,11 @@
 
 # 10/05/2018
 
-- Gestión mejorada de los nombres de los equipos.
+- Gestión mejorada de los nombres de los equipos
 - Posibilidad de robar un dispositivo
 - Corrección de un error que indica un problema del servidor
 
 # 10/04/2018
 
 - Corrección de un error al enviar la configuración
-- Corrección de un error durante la solicitud de temperatura.
+- Corrección de un error durante la solicitud de temperatura

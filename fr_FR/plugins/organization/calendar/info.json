@@ -1,14 +1,28 @@
 {
-	"id" : "calendar",
-	"name" : "Agenda",
-	"description" : "Plugin pour créer un calendrier",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3",
-	"category" : "organization",
-	"mobile" : "event",
-	"changelog" : "https://jeedom.github.io/plugin-calendar/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-calendar/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "calendar",
+    "name": "Agenda",
+    "description": "Plugin pour créer un calendrier",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "organization",
+    "mobile": "event",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

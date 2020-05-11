@@ -1,7 +1,7 @@
 Protokoll ändern
 ==========
 
-> **Warning**
+> **Warnung**
 >
 > Ausführliche Informationen zu Aktualisierungen unter [Verlauf
 > Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)

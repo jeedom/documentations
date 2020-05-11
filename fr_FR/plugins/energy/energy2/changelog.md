@@ -1,5 +1,13 @@
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 11/05/2020
+
 - Supression de la commande pour ajouter des commandes
 - Amélioration de la gestion des équipements désactivés
+
 
 # 16/05/2019
 

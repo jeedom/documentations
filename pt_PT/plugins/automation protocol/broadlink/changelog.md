@@ -1,11 +1,11 @@
 # 11/09/2019
 
-- Adaptation pour jeedom v4
+- Adaptação para jeedom v4
 
-# 09/05/2018
+# 09/09/2018
 
-- Rajout de l'image des SC1
+- Adição da imagem do SC1
 
 # 10/03/2018
 
-- Force yes sur les dependances
+- Forçar sim em dependências

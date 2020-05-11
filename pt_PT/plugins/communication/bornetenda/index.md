@@ -8,25 +8,25 @@ Permite wifi e desativa.
 Instalação / Configuração
 ========================
 
-Agora vamos configurar um dispositivo. Para fazer isso, clique em * '' Plugins / Comunicação / terminal tenda W301A*''
+Agora vamos configurar um dispositivo. Para fazer isso, clique em *''Plugins / Comunicação / terminal tenda W301A*''
 
-Em seguida, clique no botão no canto superior esquerdo "* '' Adicionar equipamento*''"
+Em seguida, clique no botão no canto superior esquerdo "*''Adicionar equipamento*''"
 
-Em seguida, digite o nome do equipamento (ex.. Terminal 1)
+Em seguida, digite o nome do equipamento (ex. Terminal 1)
 
 Então defina :
 
 -   *''Objeto pai*''
 
--   *''Categoria '*' (opcional)
+-   *''Categoria '*'(optionnelle)
 
--   *''Ative '*' (marque, caso contrário, o equipamento não será utilizável)
+-   *''Ativar '*'(verifique, caso contrário, o equipamento não será utilizável)
 
--   *''Visível '*' (opcional se você não deseja torná-lo visível no Painel)
+-   *''Visivél '*'(opcional se você não quiser torná-lo visível no painel)
 
 -   *''Endereço IP*''
 
--   *''Compte*''
+-   *''Conta*''
 
 -   *''Senha*''
 
@@ -54,4 +54,4 @@ Gostaria de relatar erros / modificações diretamente no código ?
 
 Onde encontrar o changelog
 -----------------------
-[Aqui](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Aqui](https://jeedom.github.io/plugin-bornetenda/pt_PT/changelog.html)

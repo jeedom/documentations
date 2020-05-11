@@ -1,80 +1,84 @@
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 20/03/2020
 
-- Correction de bug en espagnol
+- Correção de bug em espanhol
 
 # 15/11/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 23/10/2019
 
-- Amélioration du widget
+- Melhoria de widget
 
 # 14/10/2019
 
-- Amélioration de l'interface
+- Interface melhorada
 
-# 03/06/2019
+# 03/03/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 13/05/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 09/05/2019
+# 09/09/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 28/04/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 08/04/2019
+# 08/08/2019
 
-- Correction de bugs
-- Amélioration de l'interface
+- Correções de bugs
+- Interface melhorada
 
 # 18/03/2019
 
-- Lors de la supression d'un évènement les actions de fin ne sont plus éxecutées
-- Amélioration de l'interface
-- Correction de bugs
+- Quando um evento é excluído, as ações finais não são mais executadas
+- Interface melhorada
+- Correções de bugs
 
-# 08/01/2018
+# 01/08/2018
 
-- Correction d'un bug lors de l'inclusion/exclusion de dates si celles-ci sont excluses/incluses
+- Correção de um bug durante a inclusão / exclusão de datas, se estas forem excluídas / incluídas
 
 # 14/10/2018
 
-- Correction de bug sur les événements non répétés
+- Correção de bug em eventos não repetidos
 
-# 12/10/2018
+# 12/12/2018
 
-- Ajout d'une reprogrammation de tous évènements tous les jours à 00h00
+- Adicionando uma reprogramação de todos os eventos todos os dias às 00:00
 
 # 16/10/2018
 
-- Correction mineur de l'interface
-- Ajout de commande pour l'inclusion/exclusion de date depuis les scénarios
+- Correção menor da interface
+- Adição de ordem para inclusão / exclusão de data dos cenários
 
 # 15/10/2018
 
-- Correction d'un bug sur l'inclusion de date
+- Correção de um bug na inclusão de data
 
 # 29/03/2018
 
-- Correction d'un bug sur le "jusqu'à" si la répétition n'est pas une répétition simple
+- Correção de um bug em "até" se a repetição não for uma repetição simples
 
 # 26/03/2018
 
-- Correction d'un bug sur les images de la page de configuration
-- Correction d'un bug lors du calcul de la recurrence des événements si aucune borne n'est definie.
+- Correção de um bug nas imagens da página de configuração
+- Correção de um erro durante o cálculo da recorrência de eventos se nenhum limite for definido.
 
-# 02/03/2018
+# 02/02/2018
 
-- Lors de la réactivation de l'agenda si on est dans un evenement les actions de début sont lancée
+- Ao reativar a agenda, se você estiver em um evento, as ações iniciais são iniciadas
 
 # 27/02/2018
 
--	Suppression des commandes d'activations/désactivations (pour désactiver un agenda dans un scénario il faut maintenant utiliser la fonction de désactivation d'équipment)
+-	Exclusão de comandos de ativação / desativação (para desativar uma agenda em um cenário, você deve agora usar a função de desativação do equipamento)

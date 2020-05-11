@@ -1,3 +1,12 @@
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 11/05/2020
+
+- Retour de la fonction de decouverte ONVIF (merci @Aidom)
+- Possibilité d'utiliser des commandes (type script) pour le controle des cameras
+
 # 17/10/2019
 
 - Optimisation de la fonction de nettoyage des dossiers de capture des cameras

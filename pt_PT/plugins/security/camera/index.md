@@ -1,272 +1,143 @@
-Plugin permettant de créer et gérer des caméras wifi (affichage et
-enregistrement)
+# Plug-in de câmera
 
-Configuration du plugin
-=======================
+Plug-in para criar e gerenciar câmeras wifi (exibição e gravação)
 
-Après installation du plugin, il vous suffit de l’activer, cependant il
-y a quelques paramètres de configuration avancée :
+# Configuração do plugin
 
--   **Chemin des enregistrements** : indique le chemin où Jeedom doit
-    stocker les images qu’il capture de vos caméras (il est déconseillé
-    d’y toucher). Si votre chemin n’est pas dans le chemin
-    d’installation de Jeedom alors vous ne pourrez visualiser les
-    captures dans Jeedom.
+Depois de instalar o plugin, você só precisa ativá-lo, no entanto, existem alguns parâmetros de configuração avançados :
 
--   **Taille maximum du dossier d’enregistrement (Mo)** : indique la
-    taille maximum autorisée pour le dossier où les captures sont
-    enregistrées (il est déconseillé d’y toucher). Si ce quotas est
-    atteint Jeedom supprimera les captures les plus anciennes.
-
--   **Le plugin caméra doit réagir aux interactions** : mots clés /
-    phrases auxquel(le)s le plugin réagira via les interactions de Jeedom.
-
--   **Panel** : Vous permet d’afficher le panel (Menu
-    Accueil -> Caméra) et d’avoir une vue sur l’ensemble de vos
-    caméras (voir plus bas). N'oubliez pas d'activer le panel dans la configuration du plugin pour y avoir accès plus tard.
+-   **Caminho do registro** : indica o caminho em que o Jeedom deve armazenar as imagens que captura de suas câmeras (não é recomendável tocá-lo). Se o seu caminho não estiver no caminho de instalação do Jeedom, você não poderá visualizar as capturas no Jeedom.
+-   **Tamanho máximo da pasta de gravação (MB)** : indica o tamanho máximo autorizado para a pasta onde as capturas são salvas (não é recomendável tocá-la). Se essa cota for atingida, o Jeedom excluirá as capturas mais antigas.
+-   **O plug-in da câmera deve reagir às interações** : palavras-chave / frases às quais o plugin reagirá por meio de interações Jeedom.
+-   **Painel** : Permite exibir o painel (Menu Home -> Câmera) e ter uma visão de todas as suas câmeras (veja abaixo). Não se esqueça de ativar o painel na configuração do plugin para acessá-lo mais tarde.
 
 
-Configuration des équipements
-=============================
+# Configuração do equipamento
 
-Equipement
-----------
+## Equipement
 
-Ici vous avez les informations principales de votre caméra :
+Aqui você tem as principais informações da sua câmera :
 
--   **Nom de l’équipement caméra** : nom de votre équipement caméra
+-   **Nome do equipamento da câmera** : nome do seu equipamento de câmera
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **IP** : o endereço IP local da sua câmera
+-   **Porta** : a porta à qual conectar a câmera
+-   **Protocolo** : o protocolo de comunicação da sua câmera (http ou https)
+-   **Nome de Usuário** : nome de usuário para efetuar login na câmera (se necessário). Observe que o plug-in não suporta caracteres especiais (você deve, portanto, limitar-se a números, letras minúsculas / maiúsculas)
+-   **Senha** : senha para conectar-se à câmera (se necessário).Observe que o plug-in não suporta caracteres especiais (você deve, portanto, limitar-se a números, letras minúsculas / maiúsculas)
+-   **URL do instantâneo** : URL de instantâneo da câmera. Mude dependendo das câmeras. Cuidado para não colocar um URL de fluxo sob pena de travar o Jeedom. Você pode adicionar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando
+-   **URL do feed** : URL da transmissão de vídeo da câmera rtsp://#username#:#password#@#ip#:554 / videoMain (exemplo para câmeras Foscam)
+-   **Modelo** : permite escolher o modelo da câmera. Tenha cuidado se alterar isso substituirá as definições de configuração
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+## Images
 
--   **Activer** : permet de rendre votre équipement actif
+Esta parte permite configurar a qualidade da imagem. Na verdade, o Jeedom diminui o tamanho da imagem ou a compactação antes de enviá-lo para o seu navegador. Isso permite que as imagens sejam mais fluidas (porque são mais claras). É também nesta parte que você pode configurar o número de quadros por segundo a serem exibidos. Todas as configurações estão disponíveis em : móvel / desktop e miniatura / normal.
 
--   **Visible** : le rend visible sur le dashboard
+-   Refresco (s) : atraso em segundos entre a exibição de 2 imagens (aqui você pode colocar números menores que 1)
+-   Compressão (%) : quanto mais baixo, menos a imagem é compactada, a 100% nenhuma compressão é feita
+-   Tamanho (% - 0) : automático) : quanto maior a%, mais próximos estamos do tamanho original da imagem. A 100%, não há redimensionamento da imagem
 
--   **IP** : l’adresse IP local de votre caméra
-
--   **Port** : le port pour sur lequel joindre la caméra
-
--   **Protocole** : le protocole de communication de votre caméra (http
-    ou https)
-
--   **Nom d’utilisateur** : nom d’utilisateur pour se connecter à la
-    caméra (si nécessaire). Attention le plugin ne supporte pas les caractères
-    spéciaux (il faut donc se limiter aux chiffres, lettres minuscule/majuscule)
-
--   **Mot de passe** : mot de passe pour se connecter à la caméra
-    (si nécessaire).Attention le plugin ne supporte pas les caractères
-    spéciaux (il faut donc se limiter aux chiffres, lettres minuscule/majuscule)
-
--   **URL de snapshot** : URL de "snapshot" de la caméra. Change en
-    fonction des caméras. Attention à ne pas mettre une url de flux sous
-    peine de planter Jeedom. Vous pouvez ajouter les tags \#username\#
-    et \#password\#, qui seront automatiquement remplacés par le nom
-    d’utilisateur et le mot de passe lors de l’utilisation de cette
-    commande
-
--   **URL du flux** : url du flux video de la caméra de type rtsp://#username#:#password#@#ip#:554/videoMain (exemple pour les caméras Foscam)
-
--   **Modèle** : permet de choisir le modèle de la caméra. Attention si
-    vous changez cela écrasera vos paramètres de configuration
-
-Images
-------
-
-Cette partie vous permet de configurer la qualité de l’image. En effet
-Jeedom diminue la taille de l’image ou la compresse avant de l’envoyer à
-votre navigateur. Cela permet de gagner en fluidité des images (car
-elles sont moins lourdes). C’est aussi dans cette partie que vous pouvez
-configurer le nombre d’images par seconde à afficher. Tous les réglages
-sont déclinés en : mobile/desktop et miniature/normal.
-
--   Rafraichissement (s) : délai en seconde entre l’affichage de 2
-    images (vous pouvez ici mettre des chiffres inférieurs à 1)
-
--   Compression (%) : plus il est faible moins on compresse l’image, à
-    100 % aucune compression n’est faite
-
--   Taille (% - 0 : automatique) : plus le % est élévé plus on est
-    proche de la taille d’origine de l’image. A 100 % aucun
-    redimensionnement de l’image n’a lieu
-
-> **Note**
+> **NOTA**
 >
-> Si vous mettez une compression de 0% et une taille de 100%, Jeedom ne
-> touchera pas à l’image en mode normal. Cela n’est pas valable en mode
-> miniature où il y a une taille maximum de l’image de 360px.
+> Se você colocar uma compressão de 0% e um tamanho de 100%, o Jeedom não tocará na imagem no modo normal. Isso não é válido no modo miniatura, onde há um tamanho máximo de imagem de 360px.
 
-Capture
--------
+## Capture
 
--   Durée maximum d’un enregistrement : durée maximum des
-    enregistrements
+-   Duração máxima de uma gravação : duração máxima das gravações
+-   Sempre faça um vídeo : força o Jeedom a sempre converter gravações de vídeo antes de gravar
+-   Número de quadros por segundo do vídeo : número de quadros por segundo de vídeos
+-   Limiar de detecção de movimento (0-100) : limiar de detecção de movimento (é recomendável definir 2). Quanto maior o valor, maior a sensibilidade.
+-   Excluir todas as capturas de câmera : exclua todas as capturas e gravações da câmera
 
--   Toujours faire une vidéo : force Jeedom à toujours transformer les
-    enregistrements en vidéo avant l’enregistrement
+## Alimentation
 
--   Nombre d’images par seconde de la vidéo : nombre d’images par
-    seconde des vidéos
+-   Comando ON : Controle de energia da câmera
+-   Comando OFF : Controle para cortar a energia da câmera
 
--   Seuil de détection mouvement (0-100) : seuil de détection de
-    mouvement (il est conseillé de mettre 2). Plus la valeur est grande
-    plus la sensibilité augmente.
+## Commandes
 
--   Supprimer toutes les captures de la caméra : supprime toutes les
-    captures et enregistrements de la caméra
+-   ID do pedido (use com comandos do tipo info para, por exemplo, levar as informações de movimento da câmera para o Jeedom por meio da API, veja abaixo)
+-   Nome do comando com a possibilidade de colocar um ícone (para excluí-lo, você deve clicar duas vezes no ícone em questão)
+-   Tipo e subtipo de pedido
+-   Pedido para enviar à câmera para executar uma ação (alternar para o modo noturno, ptz, etc.). Você pode usar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando
+-   Comando Stop : para câmeras PTZ, geralmente existe um comando que interrompe o movimento; é aqui que deve ser especificado
+-   Display : permite exibir o pedido ou não no painel
+-   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Teste : permite testar o comando
+-   Excluir (assinar -) : permite excluir o comando
 
-Alimentation
-------------
+# O widget
 
--   Commande ON : Commande permettant de mettre en marche l’alimentation
-    de la caméra
+Encontramos aqui a imagem da câmera, os comandos definidos na configuração, o comando para capturar, o comando para começar a capturar várias capturas de imagem e o comando para navegar nessas capturas.
 
--   Commande OFF : Commande permettant de couper l’alimentation de la
-    caméra
-
-Commandes
----------
-
--   ID de la commande (utiliser avec les commandes de type info pour par
-    exemple remonter l’information de mouvement de la caméra à Jeedom
-    par l’api, voir plus bas)
-
--   Nom de la commande avec la possibilité de mettre une icône à la
-    place (pour la supprimer il faut double-cliquer sur l’icône
-    en question)
-
--   Type et sous-type de la commande
-
--   Requête à envoyer à la caméra pour faire une action (passage en mode
-    nuit, ptz, etc.). Vous pouvez utiliser les tags \#username\# et
-    \#password\#, qui seront automatiquement remplacés par le nom
-    d’utilisateur et le mot de passe lors de l’utilisation de cette
-    commande
-
--   Commande stop : pour les caméras PTZ, il existe souvent une commande
-    qui arrête le mouvement, c’est ici qu’il faut la spécifier
-
--   Afficher : permet d’afficher la commande ou non sur le dashboard
-
--   Configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
-    widget, etc.)
-
--   Tester : permet de tester la commande
-
--   Supprimer (signe -) : permet de supprimer la commande
-
-Le widget
-=========
-
-On retrouve sur celui-ci l’image de la caméra, les commandes définies
-dans la configuration, la commande pour prendre une capture, la commande
-pour lancer la prise de multiples captures images et la commande pour
-parcourir ces captures.
-
-> **Tip**
+> **Dica**
 >
-> Sur le dashboard et le panel il est possible de redimensionner le
-> widget pour l’adapter à ses besoins
+> No painel e no painel, é possível redimensionar o widget para adaptá-lo às suas necessidades
 
-Un clic sur l’image permet d’afficher celle-ci dans une fenêtre et
-dans un format plus grand.
+Clique na imagem para exibi-la em uma janela e em um formato maior.
 
-Un clic sur la dernière commande pour parcourir les captures vous
-affichera celle-ci.
+Um clique no último comando para navegar pelas capturas de tela exibirá esta.
 
-Vous retrouvez ici toutes les captures organisées par jour puis par
-date, vous pouvez pour chacune d’elle :
+Você encontrará aqui todas as capturas organizadas por dia e por data, para cada uma delas :
 
--   la voir en plus en grand en cliquant sur l’image
+-   veja maior clicando na imagem
+-   faça o download
+-   exclua
 
--   la télécharger
+No celular, o widget é um pouco diferente : se você clicar na imagem da câmera, aumentará esta com os possíveis comandos.
 
--   la supprimer
+# Os painéis
 
-En mobile le widget est un peu différent : si vous cliquez sur l’image de
-la caméra vous obtenez celle-ci en plus grande avec les commandes
-possibles.
+O plug-in da câmera também fornece um painel que permite ver todas as suas câmeras de uma só vez, e pode ser acessado por Início → Câmera.
 
-Les panels
-==========
-
-Le plugin caméra met aussi à disposition un panel qui vous permet de
-voir d’un seul coup toutes vos caméras, il est accessible par Acceuil →
-Caméra.
-
-> **Note**
+> **NOTA**
 >
-> Pour l’avoir il faut l’activer sur la page de configuration du plugin
+> Para isso, você deve ativá-lo na página de configuração do plugin
 
-Il est bien sur aussi disponible en mobile par Plugin → Caméra :
+É claro que também está disponível no celular por Plugin → Câmera :
 
-Enregistrement et envoi de capture
-==================================
+# Salvar e enviar captura
 
-Cette commande un peu spécifique permet suite à la prise de capture de
-faire l’envoi de celle-ci (compatible avec le plugin slack, mail et
-transfert).
+Este comando um tanto específico permite que a captura o envie (compatível com o plugin slack, mail e transfer).
 
-La configuration est assez simple vous appelez l’action d’envoi de
-capture (dénommée "Enregistrement") dans un scénario. Dans la partie titre vous passez les options.
+A configuração é bastante simples: você chama a ação de envio de captura (chamada "Gravação") em um cenário. Na parte do título, você passa as opções.
 
-Par défaut il suffit de mettre le nombre de captures voulues dans le champ "nombre captures ou options", mais vous pouvez aller plus
-loin avec des options (voir détail ci-dessous "options avancées des captures"). Dans la partie message, vous n'avez plus qu'à renseigner la commande du plugin (actuellement slack, mail ou transfert) qui fait l’envoi des captures. Vous pouvez en mettre plusieurs séparés par des &&.
+Por padrão, basta colocar o número de capturas que você deseja no campo "número de capturas ou opções", mas você pode ir além com as opções (consulte os detalhes abaixo "opções avançadas de capturas"). Na parte da mensagem, basta preencher a ordem do plug-in (atualmente, folga, email ou transferência) que envia as capturas. Você pode colocar vários separados por &&.
 
-Options avancées des captures
----------------------------
+## Opções avançadas de captura
 
--   nbSnap : nombre de capture, si non précisé alors les captures sont
-    faites jusqu’à une demande d’arrêt d’enregistrement ou d’arrêt de la
-    caméra
+-   ``nbSnap`` : número de capturas, se não especificado, as capturas serão feitas até uma solicitação para interromper a gravação ou parar a câmera
+-   ``delay`` : atraso entre 2 capturas, se não especificado, o atraso é 1s
+-   ``wait`` : tempo de espera antes de começar a pegar, se não for especificado, nenhuma remessa será feita
+-   ``sendPacket`` : número de capturas que acionam o envio de um pacote de capturas, se não especificado, as capturas serão enviadas apenas no final
+-   ``detectMove=1`` : envie capturas apenas se houver uma alteração acima do limite de detecção (consulte a configuração da câmera)
+-   ``movie=1`` : após o término da gravação, as imagens são convertidas em vídeo
+-   ``sendFirstSnap=1`` : envia a primeira captura da gravação
 
--   delay : délai entre 2 captures, si non précisé alors le délai est de
-    1s
-
--   wait : délai d’attente avant de commencer les captures, si non
-    précié alors aucun envoi n’est fait
-
--   sendPacket : nombre de captures déclenchant l’envoi de paquet de captures, si non
-    précisé alors les captures ne seront envoyées qu’à la fin
-
--   detectMove=1 : envoi les captures que s'il y a un changement supérieur au
-    seuil de détection (voir configuration de la caméra)
-
--   movie=1 : une fois l’enregistrement terminé, les images sont
-    converties en vidéo
-
--   sendFirstSnap=1 : envoi la première capture de l’enregistrement
-
-> **Exemples**
+> **Exemplos**
 >
-> nbSnap=3 delay=5 ==> envoi 3 captures faites à 5 secondes d'intervalle (envoi déclenché via le scénario)
-> movie=1 sendFirstSnap=1 detectMove=1 ==> envoi la première capture, puis envoi d'une capture à chaque détection de mouvement et enregistre une vidéo jusqu'à la commande "Arrêter Enregistrement" à insérer dans le scénario. Le film sera stocké sur votre Jeedom.
+> nbSnap = 3 atraso = 5 ==> envia 3 capturas feitas em intervalos de 5 segundos (envio acionado pelo cenário) movie = 1 sendFirstSnap = 1 detectMove = 1 ==> envia a primeira captura e envia uma captura para cada detecção de movimento e grave um vídeo até o comando "Stop Recording" para inserir no cenário. O filme será armazenado no seu Jeedom.
 
+# Enviar detecção de movimento para Jeedom
 
-Envoi de la détection de mouvement à Jeedom
-===========================================
+Se você possui uma câmera com detecção de movimento e deseja transmiti-la ao Jeedom, este é o URL para colocar na sua câmera :
 
-Si vous avez une caméra qui possède la détection de mouvement et que
-vous voulez transmettre celle-ci à Jeedom voilà l’url à mettre sur votre
-caméra :
+``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
 
-    http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#
+Obviamente, antes de criar um comando de tipo de informação na sua câmera
 
-Il faut bien entendu avant avoir créé une commande de type info sur
-votre caméra
+# FAQ
 
-FAQ
-===
-
->**Où sont les enregistrements ?**
+>**Onde estão os registros ?**
 >
->Les enregistrements se trouvent par défaut dans plugins/camera/data/records/*ID\_CAM*, attention cela peut varier si vous avez demandé à Jeedom de les enregistrer ailleurs
+>Os registros são encontrados por padrão em plugins / camera / data / records /*ID\_CAM*, tenha cuidado, pois isso pode variar se você pedir à Jeedom para salvá-las em outro lugar
 
->**Les dépendances n'arrivents pas à s'installer ?**
+>**Vícios não conseguem resolver ?**
 >
->En ssh ou dans administration -> OS/DB -> Système faire : dpkg --configure -a
+>No ssh ou na administração -> OS / DB -> System do : dpkg --configure -a
 
->**Quelles sont les conditions pour que ma caméra soit compatible Jeedom (si elle n'est pas dans la liste de compatibilité) ?**
+>**Quais são as condições para a minha câmera ser compatível com Jeedom (se não estiver na lista de compatibilidade) ?**
 >
-> La seule condition c'est que la caméra possède une url qui renvoi une image (et bien une image pas un flux video)
+> A única condição é que a câmera tenha um URL que envie de volta uma imagem (bem, uma imagem e não um fluxo de vídeo)

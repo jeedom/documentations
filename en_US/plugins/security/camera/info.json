@@ -1,17 +1,32 @@
 {
-	"id" : "camera",
-	"name" : "Caméra",
-	"description" : "Plugin pour afficher les caméras IP.<br>/L'affichage vidéo de la caméra s'effectue par snapshot (capture) successives toutes les secondes.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2.12",
-	"category" : "security",
-	"display" : "panel",
-	"mobile" : "panel",
-	"hasOwnDeamon" : true,
-	"hasDependency" : true,
-	"changelog" : "https://jeedom.github.io/plugin-camera/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-camera/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "camera",
+    "name": "Caméra",
+    "description": "Plugin pour afficher les caméras IP L'affichage vidéo de la caméra s'effectue par snapshot (capture) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2.12",
+    "category": "security",
+    "display": "panel",
+    "mobile": "panel",
+    "hasOwnDeamon": true,
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

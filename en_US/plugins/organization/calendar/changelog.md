@@ -1,14 +1,22 @@
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 03/20/2020
+
+- Bug fix in Spanish
+
 # 11/15/2019
 
 - Bugfix
 
 # 23/10/2019
 
-- Amélioration du widget
+- Widget improvement
 
 # 10/14/2019
 
-- Amélioration de l'interface
+- Improved interface
 
 # 03/06/2019
 
@@ -29,48 +37,48 @@
 # 08/04/2019
 
 - Bugfix
-- Amélioration de l'interface
+- Improved interface
 
-# 18/03/2019
+# 03/18/2019
 
-- Lors de la supression d'un évènement les actions de fin ne sont plus éxecutées
-- Amélioration de l'interface
+- When an event is deleted, the end actions are no longer executed
+- Improved interface
 - Bugfix
 
-# 08/01/2018
+# 01/08/2018
 
-- Correction d'un bug lors de l'inclusion/exclusion de dates si celles-ci sont excluses/incluses
+- Correction of a bug during the inclusion / exclusion of dates if these are excluded / included
 
-# 14/10/2018
+# 10/14/2018
 
-- Correction de bug sur les événements non répétés
+- Bug correction on unrepeated events
 
-# 12/10/2018
+# 10/12/2018
 
-- Ajout d'une reprogrammation de tous évènements tous les jours à 00h00
+- Adding a reprogramming of all events every day at 00:00
 
-# 16/10/2018
+# 10/16/2018
 
-- Correction mineur de l'interface
-- Ajout de commande pour l'inclusion/exclusion de date depuis les scénarios
+- Minor interface correction
+- Addition of order for the inclusion / exclusion of date from the scenarios
 
-# 15/10/2018
+# 10/15/2018
 
-- Correction d'un bug sur l'inclusion de date
+- Correction of a bug on the inclusion of date
 
-# 29/03/2018
+# 03/29/2018
 
-- Correction d'un bug sur le "jusqu'à" si la répétition n'est pas une répétition simple
+- Correction of a bug on "until" if the repetition is not a simple repetition
 
-# 26/03/2018
+# 03/26/2018
 
-- Correction d'un bug sur les images de la page de configuration
-- Correction d'un bug lors du calcul de la recurrence des événements si aucune borne n'est definie.
+- Correction of a bug on the images of the configuration page
+- Correction of a bug during the calculation of the recurrence of events if no bound is defined.
 
-# 02/03/2018
+# 03/02/2018
 
-- Lors de la réactivation de l'agenda si on est dans un evenement les actions de début sont lancée
+- When reactivating the agenda if you are in an event, the start actions are launched
 
-# 27/02/2018
+# 02/27/2018
 
--	Suppression des commandes d'activations/désactivations (pour désactiver un agenda dans un scénario il faut maintenant utiliser la fonction de désactivation d'équipment)
+-	Deletion of activation / deactivation commands (to deactivate an agenda in a scenario you must now use the equipment deactivation function)

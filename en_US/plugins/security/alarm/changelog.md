@@ -1,72 +1,81 @@
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+
+# 22/01/2020
+
+- Improved logs in case of multiple alarms
+
 # 21/10/2019
 
-- Correction d'un bug lors de la création de l'équipement
+- Fixed a bug during the creation of the equipment
 
-# 14/10/2019
+# 10/14/2019
 
-- Correction d'un bug lors du renommage d'un mode
+- Fixed a bug when renaming a mode
 
 # 28/04/2019
 
-- Correction de bugs
+- Bugfix
 
 # 23/04/2019
 
-- Correction de bugs
+- Bugfix
 
-# 17/01/2019
+# 01/17/2019
 
-- Possibilité d'utiliser des variables ou calcul pour les délais de Maintient (s), Activation et Déclenchement
-- Mise à jour de la doc
+- Possibility of using variables or calculation for the Hold (s), Activation and Trigger times
+- Updating the doc
 
 # 18/07/2018
 
-- Mise à jour de la doc
-- Correction de bug sur le renommage des modes
-- Si l'alarme est déjà active l'armement ne la réactive pas
-- Ajout d'une option pour un déclenchement multi-zones (si une autre zone rentre en alerte alors l'alarme se déclenche)
-- Ajout d'action lors de la reprise de surveillance d'un capteur
-- Ajout du tag #zone#
-- Ajout d'un bouton pour dupliquer une alarme
+- Updating the doc
+- Bug fix on renaming modes
+- If the alarm is already active the arming does not reactivate it
+- Addition of an option for a multi-zone trip (if another zone goes into alert then the alarm is triggered)
+- Addition of action when resuming monitoring of a sensor
+- Adding the tag #zone#
+- Ad a button to duplicate an alarm
 
 # 06/03/2018
 
-- Ajout de la gestion des commandes orphelines
-- Si des capteurs sont désactivés alors les actions d'activation ok ne sont plus déclenchées
-- Correction de bugs
-- Les détecteurs ayant des délais d'activation et étant toujours actif après ce délai ne déclenchent plus l'alarme, mais lancent une activation KO, avec surveillance de ce détecteur exclu jusqu'à un retour à la normale
+- Addition of orphan order management
+- If sensors are disabled then ok activation actions are no longer triggered
+- Bugfix
+- Detectors with activation delays and being always active after this delay no longer trigger the alarm, but launch a KO activation, with monitoring of this excluded detector until a return to normal
 
-# 12/02/2018
+# 02/12/2018
 
-- Correction d'un bug sur le déplacement des actions dans déclenchement
+- Fixed a bug on moving actions in trigger
 
-- Ability to add a trigger hold delay before activating the alarm
+- Possibility of adding a hold delay for a trigger before triggering the alarm
 
-# 01/12/2017
+# 12/01/2017
 
--   Fixed a bug on disabling detectors
+-   Correction of a bug on deactivation of detectors
 
--   Gestion des secondes sur le delai d’activation (JEED-63)
+-   Management of seconds on the activation delay (JEED-63)
 
--   Retour en arrière sur le non déclenchement des actions immédiates si
-    the activation time is empty or null
+-   Backtracking on the non-initiation of immediate actions if
+    the activation delay is empty or zero
 
 -   If during activation a sensor is on alert and has no delay
-    d’activation alors l’alarme s’arme quand même en ignorant ce capteur
-    (à moins qu’il revienne au repos)
+    of activation then the alarm is armed nevertheless by ignoring this sensor
+    (unless he comes back to no alert state)
 
--   Added global trigger action (plus filtered by zone, it
-    is advisable to use this one rather than the actions of
+-   Addition of global trigger action (no longer filtered by zone, it
+    is recommended to use this rather than the actions of
     zone triggering)
 
 -   Code optimization
 
--   ATTENTION: the alarm no longer executes immediate actions if there is no
-    has no trigger time !!!!!! ⇒ Canceled
+-   Be careful : the alarm no longer performs immediate actions if there is no
+    trigger delay !!!!!! ⇒ Canceled
 
--   Possibility of filtering the achievement of actions in relation to
+-   Ability to filter the actions in relation to
     alarm mode
 
 -   Add pause / resume command
 
--   Improved configuration interface
+-   Improvement of the configuration interface

@@ -1,60 +1,60 @@
-Plugin permettant de s’interfacer avec des équipements broadlink
+Plugin para interface com equipamentos de banda larga
 
-Configuration du plugin 
+Configuração do plugin 
 =======================
 
-Après avoir installé le plugin, il faut l’activer et s’assurer de la
-bonne installation des dépendances.
+Após instalar o plug-in, você deve ativá-lo e garantir que
+boa instalação de dependências.
 
-> **Important**
+> **IMPORTANTE**
 >
-> Il est déconseillé de changer le port
+> Não é recomendado mudar a porta
 
-Inclusion des équipements 
+Inclusão de equipamentos 
 =========================
 
 Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
-fois sur la page cliquez sur MODE INCLUSION. En toute logique l’ensemble
-des produits Broadlink de votre réseau sera reconnu.
+Uma vez na página, clique em MODO DE INCLUSÃO. Logicamente o todo
+Os produtos Broadlink em sua rede serão reconhecidos.
 
-Configuration des équipements 
+Configuração do equipamento 
 =============================
 
-Sélectionnez un de vos équipements. Si ce sont des produits de type
-Infra rouge, un bouton apprendre une commande apparait en haut. Il vous
-suffit de cliquer dessus, vous avez ensuite 5 secondes pour apprendre
-une commande infrarouge ou 433 a votre broadlink. Suite à cela le plugin
-vous confirmera le succès de l’opération et créera la commande associée
-qu’il vous suffira simplement de nommer.
+Selecione um dos seus equipamentos. Se estes são produtos do tipo
+Infravermelho, um botão para aprender um comando aparece na parte superior. Ai voce
+basta clicar nele, você tem 5 segundos para aprender
+um comando infravermelho ou 433 para o seu broadlink. Após isso, o plugin
+confirmará o sucesso da operação e criará o pedido associado
+você só precisa citar.
 
-> **Tip**
+> **Dica**
 >
-> Pour éviter d’apprendre ce qui pourrait venir de l’environnement
-> (télécommande d’un voisin ou autre), le broadlink en mode
-> apprentissage se met VOLONTAIREMENT en niveau de réception très
-> faible, il faut donc être TRES proche du broadlink pour apprendre une
-> commande surtout si c’est une commande 433Mhz.
+> Para evitar aprender o que poderia vir do meio ambiente
+> (controle remoto de um vizinho ou outro), o link amplo no modo
+> aprendendo VOLUNTARIAMENTE entra em um nível de recepção muito
+> fraco, então você precisa estar MUITO perto do broadlink para aprender uma
+> pedido especialmente se for um 433Mhz.
 
-Synchroniser 
+Sincronizar 
 ============
 
-Sur l’onglet Commandes d’un équipement vous trouvez le bouton
-Synchroniser. Si vous possédez plusieurs broadlink vous pouvez
-transférer les commandes apprises d’un broadlink à un autre.
+Na guia Controles do equipamento, você encontra o botão
+Sincronize. Se você tiver mais de um broadlink, poderá
+transferir comandos aprendidos de um broadlink para outro.
 
-> **Tip**
+> **Dica**
 >
-> Cela marche d’un rm-pro vers un mini ou vice versa.
+> Funciona de um rm-pro a um mini ou vice-versa.
 
-Vous pouvez choisir les commandes à transférer ainsi que les broadlink
-vers lesquels vous voulez les transférer. (Le nom de la commande sera
-bien évidemment convervé (ON télévision, ventilateur off, etc.)
+Você pode escolher os pedidos a serem transferidos, bem como os links
+para o qual você deseja transferi-los. (O nome do pedido será
+obviamente conversível (na televisão, ventilador desligado, etc.)
 
-> **Tip**
+> **Dica**
 >
-> Si vous ajouteé manuellement votre device car pas autodétecté. La MAC a renseigner est 
-> l'adresse MAC inversé par paquet de deux en minuscules sans les : exemple AA:BB:CC:DD:EE
-> devient eeddccbbaa
+> Se você adicionou seu dispositivo manualmente porque não foi detectado automaticamente. O MAC para informar é 
+> endereço MAC reverso em pacotes de dois em minúsculas sem : exemplo AA:BB:CC:DD:EE
+> torna-se eeddccbbaa
 
-Changelog détaillé :
+Registro de alterações detalhado :
 <https://github.com/jeedom/plugin-broadlink/commits/stable>

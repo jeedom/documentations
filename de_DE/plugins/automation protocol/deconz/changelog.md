@@ -1,4 +1,11 @@
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 2019.02.27
+
 - Möglichkeit zum Deaktivieren von Knotenwarnungen, die vom Gerät nicht erreicht werden können
+- Aktualisierungen der Dokumentation und Übersetzung
 
 # 2019.12.27
 
@@ -79,7 +86,7 @@
 - Unterstützung für Doppelrelaismodule
 - Verbesserte Unterstützung für Sensor- und Aktormodule
 
-Achtung, wir haben Fälle festgestellt, in denen es zu doppelten Bestellungen kam (wenn Sie diese erfüllen, zögern Sie nicht, den Support zu kontaktieren).
+Achtung, wir haben Fälle festgestellt, in denen es zu doppelten Bestellungen kam (wenn Sie diese erfüllen, zögern Sie nicht, den Support zu kontaktieren)
 
 # 2019.07.08
 

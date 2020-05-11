@@ -1,4 +1,4 @@
-# Alexa Smarthome
+# Alexa Smarthome plugin
 
 This plugin makes it possible to make the link between your Jeedom and Alexa
 
@@ -14,7 +14,7 @@ It can operate through a cloud service provided by Jeedom.
 
 # Establishing the connection to Alexa
 
-> **IMPORTANT**
+> **Important**
 >
 > It is important to do the following steps in the order listed !!!
 
@@ -26,14 +26,14 @@ After installing the plugin, you just need to go to the configuration part of th
 
 Once the service is active, you have to on the Alexa app or on the [website](https://alexa.amazon.fr/spa/index.html) go to the skill part and look for the Jeedom skill then activate it, there it will ask you for identifiers you must put those from the market (be careful to put your market identifiers and not those of your Jeedom)
 
-> **IMPORTANT**
+> **Important**
 >
 > If you have an error message telling you that your user password or not is not correct you must :
 > - check that Amazon Alexa is active in the market
 > - if this is the case, be sure of your credentials (attention you must respect upper / lower case) ?
 > - if this is the case change your password on the market and on the configuration of the voice assistant service (market profiles page tab my services) have it saved
 
-> **IMPORTANT**
+> **Important**
 >
 >Any modification to the configuration of the equipment transmitted to Alexa (addition of equipment, deletion of equipment, change of a generic type of an order) necessarily requires going to Plugin -> Communication -> Alexa and then saving and in the Alexa application to redo a discovery
 
@@ -41,13 +41,13 @@ Once the service is active, you have to on the Alexa app or on the [website](htt
 
 On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment section select the equipment to be transmitted to Alexa as well as the type of equipment.
 
-> **IMPORTANT**
+> **Important**
 >
 > The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://jeedom.github.io/plugin-mobile/en_US/#tocAnchor-1-6) explanations on generic generics
 
 You can also create scenes in the scene tab, with input and output actions.
 
-> **IMPORTANT**
+> **Important**
 >
 > If you do not send any equipment (no OK in the equipment list on the Alexa plugin), Amazon considers that it is an error and uses the last known configuration. So if you forget everything and do not send any equipment amazon will take the last known configuration and therefore will make everything reappear.
 

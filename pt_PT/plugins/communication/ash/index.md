@@ -1,20 +1,20 @@
-# Alexa Smarthome
+# Alexa Smarthome plugin
 
 Este plug-in torna possível fazer o link entre seu Jeedom e Alexa
 
 Ele pode operar através de um serviço em nuvem fornecido pela Jeedom.
 
-> **Important**
+> **IMPORTANTE**
 >
 > O plug-in requer uma assinatura para serviços de voz. Você pode gerenciar sua assinatura [aqui](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-> **Important**
+> **IMPORTANTE**
 >
 > O plug-in não suporta equipamentos com funções duplas (2 saídas como determinado módulo Fibwire zwave). Você absolutamente tem que passar por 2 virtuais para quebrá-lo.
 
 # Estabelecendo a conexão com o Alexa
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > É importante executar as seguintes etapas na ordem listada !!!
 
@@ -26,28 +26,28 @@ Depois de instalar o plug-in, basta acessar a parte de configuração do plug-in
 
 Depois que o serviço estiver ativo, você precisará no aplicativo Alexa ou no [site](https://alexa.amazon.fr/spa/index.html) vá para a parte da habilidade e procure a habilidade Jeedom e ative-a; solicitará identificadores que você deve colocar no mercado (tenha cuidado em colocar seus identificadores de mercado e não os do seu Jeedom)
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > Se houver uma mensagem de erro informando que sua senha de usuário ou não está correta, você deve :
 > - verifique se o Amazon Alexa está ativo no mercado
 > - se for esse o caso, verifique suas credenciais (atenção: você deve respeitar maiúsculas / minúsculas) ?
 > - se for esse o caso, altere sua senha no mercado e na configuração do serviço de assistente de voz (guia página de perfis de mercado, meus serviços) salvou
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 >Qualquer modificação na configuração do equipamento transmitido ao Alexa (adição de equipamento, exclusão de equipamento, alteração de um tipo genérico de um pedido) requer necessariamente acessar Plugin -> Comunicação -> Alexa e salvar e no aplicativo Alexa para refazer uma descoberta
 
 ## Configuração do plugin
 
-No seu Jeedom, vá para Plugin -> Communication -> Alexa e, na seção equipment, selecione o equipamento a ser transmitido ao Alexa, bem como o tipo de equipamento..
+No seu Jeedom, vá para Plugin -> Communication -> Alexa e, na seção equipment, selecione o equipamento a ser transmitido ao Alexa, bem como o tipo de equipamento.
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente. Você pode ver [aqui](https://jeedom.github.io/plugin-mobile/pt_PT/#tocAnchor-1-6) explicações sobre genéricos genéricos
 
 Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > Se você não enviar nenhum equipamento (não há OK na lista de equipamentos no plug-in Alexa), a Amazon considera que é um erro e usa a última configuração conhecida. Portanto, se você esquecer tudo e não enviar nenhum equipamento, a amazon terá a última configuração conhecida e, portanto, fará tudo reaparecer.
 
@@ -67,7 +67,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 >**Durante a associação, tenho um erro (mas não em um problema de senha / nome de usuário)**
 >
->Se você tiver um erro durante a associação com a Jeedom, provavelmente é porque você não adicionou / transmitiu equipamento antes de fazer a associação.. Para corrigir, vá para Plugins -> Comunicação -> Alexa e marque pelo menos um equipamento para transmitir e salvar (verifique se o equipamento está em OK, se estiver em NOK, clique no NOK para ver o porquê ou perguntar sobre tipo genérico em jeedom). Depois refaça a associação
+>Se você tiver um erro durante a associação com a Jeedom, provavelmente é porque você não adicionou / transmitiu equipamento antes de fazer a associação. Para corrigir, vá para Plugins -> Comunicação -> Alexa e marque pelo menos um equipamento para transmitir e salvar (verifique se o equipamento está em OK, se estiver em NOK, clique no NOK para ver o porquê ou perguntar sobre tipo genérico em jeedom). Depois refaça a associação
 
 >**Ao adicionar equipamento, tenho NOK**
 >

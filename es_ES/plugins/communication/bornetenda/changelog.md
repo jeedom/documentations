@@ -1,14 +1,14 @@
 Cambiar registro
 ==========
 
-> **Warning**
+> **Advertencia**
 >
 > Detalles completos de las actualizaciones en [Historial
 > Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)
 
 Lista de cambios importantes en la versión actual :
 
--   Normas de gestión de equipos.
+-   Normas de gestión de equipos
 
 Desarrollos antiguos :
 
@@ -20,7 +20,7 @@ Desarrollos antiguos :
 
 -   Teniendo en cuenta la aplicación móvil
 
--   Modificación de la extensión del logo..
+-   Modificación de la extensión del logo.
 
 -   Compatibilidad Imperihome
 

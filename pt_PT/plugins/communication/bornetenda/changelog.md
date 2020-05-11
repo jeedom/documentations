@@ -1,7 +1,7 @@
 Log de alterações
 ==========
 
-> **Warning**
+> **Aviso**
 >
 > Detalhes completos das atualizações em [Histórico
 > Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)

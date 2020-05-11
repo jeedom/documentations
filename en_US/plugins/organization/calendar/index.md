@@ -1,193 +1,99 @@
-Plugin permettant de créer un agenda et de déclencher des actions
-(commande ou scénario).
+# Calendar plugin
 
-Plugin configuration
-=======================
+Plugin for creating an agenda and triggering actions (command or scenario).
 
-La configuration est très simple, après téléchargement du plugin, il
-vous suffit de l'activer et c'est tout.
+# Plugin configuration
 
-Equipment configuration
-=============================
+The configuration is very simple, after downloading the plugin, you just need to activate it and that's it.
 
-La configuration des équipements Agenda est accessible à partir du menu
-Plugins puis Organisation.
+# Equipment configuration
 
-Une fois dessus vous retrouvez alors la liste de vos Agenda.
+The configuration of the Agenda equipment is accessible from the Plugins menu then Organization.
+
+Once on it you will find the list of your Agenda.
 
 Here you find all the configuration of your equipment :
 
--   **Name of equipment** : nom de votre agenda.
+-   **Name of equipment** : name of your calendar.
+-   **Parent object** : indicates the parent object to which the equipment belongs.
+-   **Category** : equipment categories (it can belong to several categories).
+-   **Activate** : makes your equipment active.
+-   **Visible** : makes it visible on the dashboard.
+-   **Widget, number of days** : sets the number of event days to display on the widget.
+-   **Maximum number of events** : defines the maximum number of events to display on the dashboard.
+-   **Do not display status and activation / deactivation commands** : allows you to hide the status of the calendar as well as the commands for activating or not activating it.
+-   **List of calendar events** : display below the list of all calendar events (click on it to edit the event directly).
+-   **Add event** : add an event to the calendar.
+-   **Agenda** : Display of an agenda type view with all the events you can move in, choose to display it by week or day, move events (drag and drop) and a click on an event will open its editing window.
 
--   **Parent object** : indique l'objet parent auquel
-    appartient l'équipement.
+# Editing an event
 
--   **Category** : equipment categories (it may belong to
-    plusieurs catégories).
+The most important part of the plugin, this is where you will be able to configure your event.
 
--   **Activate** : permet de rendre votre équipement actif.
+## Event
 
--   **Visible** : le rend visible sur le dashboard.
+Here you find :
 
--   **Widget, number of days** : définit le nombre de jours
-    d'événements à afficher sur le widget.
+-   **Name of the event** : Name of your event.
+-   **Icon** : allows you to add an icon in front of the name of your equipment (to do this, click on "Choose an icon").
+-   **Color** : allows you to choose the color of your event (a check mark also allows you to make it transparent).
+-   **Color du texte** : allows you to choose the color of your event text.
+-   **Do not show in the dashboard** : allows not to display this event on the widget.
 
--   **Maximum number of events** : défini le nombre maximum
-    d'événements à afficher sur le dashboard.
+## Start action
 
--   **Ne pas afficher le statut et les commandes
-    d'activation/désactivation** : permet de masquer le statut de
-    l'agenda ainsi que les commandes d'activation ou non de celui-ci.
+Allows you to choose the action (s) to do when launching the event.
 
--   **List of calendar events** : affichage en dessous de la
-    liste de tous les événements de l'agenda (un clic dessus permet
-    d'éditer l'événement directement).
-
--   **Add event** : permet d'ajouter un événement à l'agenda.
-
--   **Agenda** : Affichage d'une vue type agenda avec tous les
-    événements vous pouvez vous déplacer dedans, choisir de l'afficher
-    par semaine ou jour, déplacer des événements (glisser/déposer) et un
-    clic sur un événement vous ouvrira sa fenêtre d'édition.
-
-Edition d'un événement
-======================
-
-Partie la plus importante du plugin, c'est ici que vous allez pouvoir
-configurer votre événement.
-
-Event
----------
-
-Ici vous retrouvez :
-
--   **Name of the event** : Nom de votre événement.
-
--   **Icon** : permet d'ajouter une icône devant le nom de votre
-    équipement (pour ce faire il faut cliquer sur "Choisir une icône").
-
--   **Color** : permet de choisir la couleur de votre événement (une
-    coche vous permet aussi de le rendre transparent).
-
--   **Text color** : permet de choisir la couleur du texte de
-    votre événement.
-
--   **Ne pas afficher dans le dashboard** : permet de ne pas afficher
-    cet événement sur le widget.
-
-Action de début
----------------
-
-Permet de choisir la ou les actions à faire lors du lancement de
-l'événement.
-
-Pour ajouter une action il suffit de cliquer sur le bouton + au bout de
-la ligne puis vous allez avoir un bouton pour chercher une commande une
-fois this one trouvée vous aurez le choix des options si elle en a. Vous
-pouvez ajouter autant d'action que vous le voulez.
+To add an action just click on the + button at the end of the line then you will have a button to search for an order once it is found you will have the choice of options if it has any. You can add as much action as you want.
 
 > **Tip**
 >
-> Il est possible de modifier l'ordre des actions en maintenant/glissant
-> this one
+> It is possible to modify the order of actions by holding / dragging it
 
 
 > **Tip**
 >
->Il est possible de faire les memes action que dans les scénarios (voir [ici](https://jeedom.github.io/core/fr_FR/scenario))
+>It is possible to do the same actions as in the scenarios (see [here](https://jeedom.github.io/core/en_US/scenario))
 
-Action de fin
--------------
+## End action
 
-Idem à l'action de début mais cette fois ci c'est la ou les action(s) à
-effectuer à la fin de l'événement.
+Same as the start action but this time it is the action (s) to perform at the end of the event.
 
-Programming
--------------
+## Programmation
 
-C'est ici que se trouve toute la gestion temporelle de votre événement :
+This is where all the time management of your event is located :
 
--   **Start** : Date de début de l'événement.
-
--   **End** : Date de fin de l'événement.
-
--   **All day** : permet de définir l'événement sur toute
-    la journée.
-
--   **Include by another calendar** : Permet d'inclure un autre
-    événement dans votre événement courant. Par exemple, si vous avez un
-    événement A répété tous les lundis, et que vous incluez cet
-    événement A dans votre événement courant, alors celui-ci sera
-    automatiquement répété tous les lundis.
-
--   **Inclure** : permet de forcer une date d'occurence, vous pouvez en
-    mettre plusieurs en les séparant par des , (virgules), vous pouvez
-    aussi définir une plage avec des : (deux points).
-
--   **Répété** : permet de dire que votre événement est répété (si cette
-    case n'est pas cochée vous n'aurez pas les options qui suivent).
-
--   **Repeat mode** : permet de spécifier le mode de répétition,
-    soit simple : tous les jours, tous les X jours…​ ou répétition tous
-    les 1er, 2ème…​ pour répéter un événement tous les 3ème lundis du
-    mois For example (les options qui suivent peuvent être différentes
-    en fonction de ce choix).
-
--   **Repeat every** : \[mode répétition simple seulement\] permet
-    de définir la fréquence de répétition de l'événement (ex tous les 3
-    jours ou tous les 2 mois…​).
-
--   **The** : \[mode répétition le premier, le deuxième…​ seulement\] :
-    permet de choisir une répetition tous les 2ème lundis du mois
-    For example.
-
--   **Only the** : permet de restreindre la répétition à certains
-    jours de la semaine.
-
--   **Restriction** : permet de restreindre l'événement seulement les
-    jours fériés ou d'exclure les jours fériés.
-
--   **Until** : donne la date de fin d'occurence de l'événement.
-
--   **Exclude by another calendar** : permet de mettre en exclusion cet
-    événement en fonction d'un autre agenda (pour éviter For example que
-    2 événements contradictoires se retrouvent ensemble).
-
--   **Exclure** : idem que "Inclure" mais cette fois pour exclure
-    des dates.
+-   **Start** : Event start date.
+-   **End** : Event end date.
+-   **All day** : allows to define the event over the whole day.
+-   **Include par un autre agenda** : Allows you to include another event in your current event. For example, if you have an event A repeated every Monday, and you include this event A in your current event, then this event will be automatically repeated every Monday.
+-   **Include** : allows to force an occurrence date, you can put several by separating them with, (commas), you can also define a range with : (two points).
+-   **Say again** : lets say that your event is repeated (if this box is not checked you will not have the following options).
+-   **Repeat mode** : allows to specify the repeat mode, either simple : every day, every X days ... or repetition every 1st, 2nd ... to repeat an event every 3rd Monday of the month for example (the following options may be different depending on this choice).
+-   **Repeat every** : \ [simple repeat mode only \] allows you to define the frequency of repetition of the event (eg every 3 days or every 2 months…).
+-   **The** : \ [repeat mode the first, the second… only \] allows you to choose a repeat every 2nd Monday of the month for example.
+-   **Only the** : allows you to restrict repetition to certain days of the week.
+-   **Restriction** : allows to restrict the event only on public holidays or to exclude public holidays.
+-   **Until** : gives the end date of occurrence of the event.
+-   **Exclude par un autre agenda** : allows to exclude this event according to another calendar (to avoid for example that 2 contradictory events meet together).
+-   **Exclude** : same as "Include" but this time to exclude dates.
 
 > **NOTE**
 >
-> Thes jours feriés sont ceux Francais et uniquement les Francais cela ne
-> marche donc pas pour les autres pays
+> Public holidays are French and only French this does not work for other countries
 
 > **NOTE**
 >
-> En haut à droite vous avez 3 boutons, un pour supprimer, un pour
-> sauvegarder et un pour dupliquer. Lors du clic sur ce dernier jeedom
-> vous affiche l'evenement resultant de la duplication pour que vous
-> puissiez changer le nom For example.Il ne faut donc pas oublier de
-> sauvegarder suite à un clic sur le bouton dupliquer
+> At the top right you have 3 buttons, one to delete, one to save and one to duplicate. When clicking on this last jeedom displays the event resulting from the duplication so that you can change the name for example.So don't forget to save following a click on the duplicate button
 
-Agenda, commandes et scénario
-=============================
+## Diary, orders and scenario
 
-Un agenda possède les commandes :
+An agenda has controls :
 
--   **Running** : donne la liste des événements en cours séparés par
-    des virgules, pour l'utiliser dans un scénario le plus simple et
-    d'utiliser l'opérateur contient ( matches ) ou ne contient pas ( not
-    matches ), For example *\[Appartement\]\[test\]\[Running\]* matches
-    "/Anniv/", sera vrai si dans la liste des événements en cours il y a
-    un "Anniv"
-
-- **Add a date** : permet depuis un scénario d'ajouter une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
-
-- **Remove a date** : permet depuis un scénario d'exclure une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
+-   **Running** : gives a list of current events separated by commas, to use it in the simplest scenario and to use the operator contains (matches) or does not contain (not matches), for example *\ [Apartment \] \ [test \] \ [In progress \]* matches "/ Anniv /", will be true if in the list of current events there is a "Anniv"
+- **Add a date** : allows from a scenario to add a date to an event (be careful if you change the name of the event you will have to correct it in the scenario too). You can put several events separated by ,
+- **Remove a date** : allows from a scenario to exclude a date from an event (be careful if you change the name of the event you will have to correct it in the scenario too). You can put several events separated by ,
 
 > **NOTE**
 >
-> Il est possible d'utiliser la commande "Running" comme déclencheur
-> dans un scénario, chaque mise à jour de l'information déclenchera
-> l'éxecution du scénario. Cependant, Il est préférable d'utiliser cette
-> commande dans un scénario programmé avec un test sur la valeur.
+> It is possible to use the "In progress" command as a trigger in a scenario, each update of the information will trigger the execution of the scenario. However, it is preferable to use this command in a programmed scenario with a test on the value.

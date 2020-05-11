@@ -1,72 +1,81 @@
-# 21/10/2019
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Correction d'un bug lors de la création de l'équipement
 
-# 14/10/2019
+# 22.01.2020
 
-- Correction d'un bug lors du renommage d'un mode
+- Verbesserte Protokolle bei mehreren Alarmen
 
-# 28/04/2019
+# 21.10.2019
+
+- Behebung eines Fehlers bei der Erstellung der Ausrüstung
+
+# 2019.10.14
+
+- Ein Fehler beim Umbenennen eines Modus wurde behoben
+
+# 2019.04.28
 
 - Fehlerbehebungen
 
-# 23/04/2019
+# 23.04.2019
 
 - Fehlerbehebungen
 
-# 17/01/2019
+# 17.01.2019
 
-- Possibilité d'utiliser des variables ou calcul pour les délais de Maintient (s), Activation et Déclenchement
-- Aktualisierung des Dokuments
+- Möglichkeit der Verwendung von Variablen oder Berechnungen für die Halte-, Aktivierungs- und Triggerzeiten
+- Aktualisieren des Dokuments
 
-# 18/07/2018
+# 18.07.2008
 
-- Aktualisierung des Dokuments
-- Correction de bug sur le renommage des modes
-- Si l'alarme est déjà active l'armement ne la réactive pas
-- Ajout d'une option pour un déclenchement multi-zones (si une autre zone rentre en alerte alors l'alarme se déclenche)
-- Ajout d'action lors de la reprise de surveillance d'un capteur
-- Ajout du tag #zone#
-- Ajout d'un bouton pour dupliquer une alarme
+- Aktualisieren des Dokuments
+- Fehlerbehebung beim Umbenennen von Modi
+- Wenn der Alarm bereits aktiv ist, wird er durch die Scharfschaltung nicht wieder aktiviert
+- Hinzufügen einer Option für eine Mehrzonenauslösung (wenn eine andere Zone alarmiert wird, wird der Alarm ausgelöst)
+- Hinzufügung von Maßnahmen bei Wiederaufnahme der Überwachung eines Sensors
+- Tag hinzufügen #zone#
+- Fügen Sie eine Schaltfläche hinzu, um einen Alarm zu duplizieren
 
-# 06/03/2018
+# 03/06/2018
 
-- Ajout de la gestion des commandes orphelines
-- Si des capteurs sont désactivés alors les actions d'activation ok ne sont plus déclenchées
+- Hinzufügen von Orphan Order Management
+- Wenn die Sensoren deaktiviert sind, werden keine Aktivierungsaktionen mehr ausgelöst
 - Fehlerbehebungen
-- Les détecteurs ayant des délais d'activation et étant toujours actif après ce délai ne déclenchent plus l'alarme, mais lancent une activation KO, avec surveillance de ce détecteur exclu jusqu'à un retour à la normale
+- Detektoren mit Aktivierungsverzögerungen, die nach dieser Verzögerung noch aktiv sind, lösen den Alarm nicht mehr aus, sondern leiten die KO-Aktivierung ein, wobei dieser ausgeschlossene Detektor bis zur Rückkehr zum Normalzustand überwacht wird
 
-# 12/02/2018
+# 2018.02.12
 
-- Es wurde ein Fehler beim Verschieben von Aktionen beim Auslösen behoben
+- Ein Fehler beim Verschieben von Aktionen im Trigger wurde behoben
 
-- Die Möglichkeit, eine Verzögerung hinzuzufügen, führt einen Alarmaktivierungsauslöser vor
+- Möglichkeit, eine Halteverzögerung für einen Trigger hinzuzufügen, bevor der Alarm aktiviert wird
 
-# 2017.01.12
+# 01.12.2017
 
--   Fehler behoben, zum Deaktivieren von Detektoren
+-   Korrektur eines Fehlers bei Deaktivierung von Detektoren
 
--   Gestion des secondes sur le delai d’activation (JEED-63)
+-   Verwaltung von Sekunden für die Aktivierungsverzögerung (JEED-63)
 
--   Retour en arrière sur le non déclenchement des actions immédiates si
-    die Aktivierungszeit ist leer oder null
+-   Rückverfolgung der Nichteinleitung von Sofortmaßnahmen, wenn
+    Die Aktivierungsverzögerung ist leer oder Null
 
--   Wenn, wenn ein Sensor aktiviert ist ansprechbar und hat keine Zeit
-    d’activation alors l’alarme s’arme quand même en ignorant ce capteur
-    (à moins qu’il revienne au repos)
+-   Wenn während der Aktivierung ein Sensor in Alarmbereitschaft ist und keine Verzögerung hat
+    Bei Aktivierung wird der Alarm trotzdem aktiviert, indem dieser Sensor ignoriert wird
+    (es sei denn, er kommt zurück, um sich auszuruhen)
 
--   Hinzufügen globale Trigger-Aktion (mehr gefilterten Bereich,
-    ratsam ist es als Aktionen eher zu verwenden
-    Auslösung durch Fläche)
+-   Hinzufügen einer globalen Triggeraktion (nicht mehr nach Zone gefiltert, es
+    wird empfohlen, dies anstelle der Aktionen von zu verwenden
+    Zonenauslösung)
 
--   Code-Optimierung
+-   Codeoptimierung
 
--   ACHTUNG: Der Alarm mehr Aktien ausgeführt werden, wenn immediates
-    keine Triggerverzögerung !!!!!! ⇒ Abbrechen
+-   Achtung : Der Alarm führt keine Sofortaktionen mehr aus, wenn keine vorhanden sind
+    keine Triggerverzögerung !!!!!! ⇒ Abgebrochen
 
--   Die Fähigkeit zu filtern, um die Maßnahmen in Bezug auf die Durchführung
+-   Fähigkeit, die Leistung von Aktionen in Bezug auf zu filtern
     Alarmmodus
 
--   Hinzufügen Pause Befehl / Erholung
+-   Befehl Pause / Fortsetzen hinzufügen
 
--   Verbesserte Konfigurationsschnittstelle
+-   Verbesserung der Konfigurationsoberfläche

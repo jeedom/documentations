@@ -1,76 +1,81 @@
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+
 # 22/01/2020
 
-- Amélioration des logs en cas de multiple alarme
+- Logs aprimorados em caso de vários alarmes
 
 # 21/10/2019
 
-- Correction d'un bug lors de la création de l'équipement
+- Correção de um bug durante a criação do equipamento
 
 # 14/10/2019
 
-- Correction d'un bug lors du renommage d'un mode
+- Corrigido um erro ao renomear um modo
 
 # 28/04/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 23/04/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 17/01/2019
 
-- Possibilité d'utiliser des variables ou calcul pour les délais de Maintient (s), Activation et Déclenchement
-- Mise à jour de la doc
+- Possibilidade de usar variáveis ou cálculos para os tempos de espera, ativação e disparo
+- Atualizando o documento
 
 # 18/07/2018
 
-- Mise à jour de la doc
-- Correction de bug sur le renommage des modes
-- Si l'alarme est déjà active l'armement ne la réactive pas
-- Ajout d'une option pour un déclenchement multi-zones (si une autre zone rentre en alerte alors l'alarme se déclenche)
-- Ajout d'action lors de la reprise de surveillance d'un capteur
-- Ajout du tag #zone#
-- Ajout d'un bouton pour dupliquer une alarme
+- Atualizando o documento
+- Correção de bug nos modos de renomeação
+- Se o alarme já estiver ativo, o armamento não o reativará
+- Adição de uma opção para uma viagem de várias zonas (se outra zona entrar em alerta, o alarme será acionado)
+- Adição de ação ao retomar o monitoramento de um sensor
+- Adicionando a tag #zone#
+- Adicione um botão para duplicar um alarme
 
-# 06/03/2018
+# 06/06/2018
 
-- Ajout de la gestion des commandes orphelines
-- Si des capteurs sont désactivés alors les actions d'activation ok ne sont plus déclenchées
-- Correction de bugs
-- Les détecteurs ayant des délais d'activation et étant toujours actif après ce délai ne déclenchent plus l'alarme, mais lancent une activation KO, avec surveillance de ce détecteur exclu jusqu'à un retour à la normale
+- Adição de gerenciamento de pedidos órfãos
+- Se os sensores estiverem desativados, as ações de ativação ok não serão mais acionadas
+- Correções de bugs
+- Detectores com atrasos na ativação e sempre ativos após esse atraso não acionam mais o alarme, mas iniciam uma ativação KO, com o monitoramento desse detector excluído até o retorno ao normal
 
-# 12/02/2018
+# 12/12/2018
 
-- Correction d'un bug sur le déplacement des actions dans déclenchement
+- Corrigido um erro ao mover ações no gatilho
 
-- Possibilité d'ajouter un délai de maintient d'un déclencheur avant activation de l'alarme
+- Possibilidade de adicionar um atraso de espera a um gatilho antes de ativar o alarme
 
 # 01/12/2017
 
--   Correction d’un bug sur la désactivation des détecteurs
+-   Correção de um bug na desativação de detectores
 
--   Gestion des secondes sur le delai d’activation (JEED-63)
+-   Gerenciamento de segundos no atraso de ativação (JEED-63)
 
--   Retour en arrière sur le non déclenchement des actions immédiates si
-    le délai d’activation est vide ou nul
+-   Retrocedendo na não iniciação de ações imediatas se
+    o atraso de ativação está vazio ou zero
 
--   Si lors de l’activation un capteur est en alerte et n’a pas de délai
-    d’activation alors l’alarme s’arme quand même en ignorant ce capteur
-    (à moins qu’il revienne au repos)
+-   Se durante a ativação um sensor estiver em alerta e não tiver atraso
+    ativação, o alarme é acionado, ignorando esse sensor
+    (a menos que ele volte a descansar)
 
--   Ajout d’action de déclenchement globale (plus filtrée par zone, il
-    est conseillé d’utiliser celle-ci plutot que les actions de
-    déclenchement par zone)
+-   Adição de ação de acionamento global (não filtrada mais por zona,
+    é aconselhável usar isso em vez das ações de
+    zona de disparo)
 
--   Optimisation du code
+-   Otimização de código
 
--   ATTENTION : l’alarme n’execute plus les actions immediates si il n’y
-    a pas de délai de déclenchement !!!!!! ⇒ Annulé
+-   Atenção : o alarme não executa mais ações imediatas se não houver
+    sem atraso de disparo !!!!!! ⇒ Cancelado
 
--   Possibilité de filtrer la réalisation des actions par rapport au
-    mode de l’alarme
+-   Capacidade de filtrar o desempenho das ações em relação a
+    modo de alarme
 
--   Ajout commande pause/reprise
+-   Adicionar comando de pausa / retomar
 
--   Amélioration de l’interface de configuration
+-   Melhoria da interface de configuração

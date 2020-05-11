@@ -1,7 +1,15 @@
-# 01/02/2019
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Correction de bugs
+# 05/16/2019
 
-# 29/01/2019
+- Bugfix
+
+# 02/01/2019
+
+- Bugfix
+
+# 01/29/2019
 
 - Initial version

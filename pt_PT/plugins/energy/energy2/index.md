@@ -1,25 +1,25 @@
-Ce plugin permet d'avoir un apercu simple et rapide de ses dépenses énergetique.
+# Plugin de contagem
 
-Il gere l'eau, le gaz et l'electricité seulement et vous fournira un graphique des postes des dépenses/consommations.
-Il vous donne aussi la tendance et les variations par rapport à la periode précedente (vous pouvez avoir en periode le Jour, la semaine, le mois ou l'année)
+Este plugin permite que você tenha uma visão geral rápida e simples de seus gastos com energia.
 
-> **IMPORTANT**
+Ele gerencia apenas água, gás e eletricidade e fornece um gráfico dos itens de despesa / consumo.Também fornece a tendência e as variações do período anterior (você pode ter o dia, semana, mês ou ano no período)
+
+> **IMPORTANTE**
 >
-> N'oubliez pas d'activer le panel (desktop et mobile) du plugin dans la configuration de celui-ci
-
+> Não se esqueça de ativar o painel (desktop e móvel) do plug-in na configuração dele
 
 # Configuration
 
-La configuration du plugin est très simple il vous demandera juste la surface habitable (chauffé) de votre logement (pour le calcul de DPE)
+A configuração do plug-in é muito simples; ele solicitará apenas o espaço de vida (aquecido) do seu alojamento (para o cálculo do DPE)
 
 # Equipements
 
-Vous pouvez faire autant d'équipement de comptage que vous voulez :
+Você pode fabricar o equipamento de contagem que desejar :
 
-* Type :  Eau, Gaz ou Electricité.
-* Instantanné : commande donnant la consommation instantanné (attention le plugin n'est pas capable de calculer la consommation journaliere à partir de l'instantanné)
-* Consommation : commande donnant la consommation journaliere (donc elle doit revenir à 0 à 00h00)
-* Coût : commande donnant la coût journaliere (donc elle doit revenir à 0 à 00h00) en €
-* Ajouter au total : indique d'ajouter au total de la consommation de ce type d'energie
-* Ceci est mon energie de chauffage : a cocher pour effectuer le calcul de DPE sur cette energie (a noter que si votre energie de chauffage est le gaz la consommation doit etre en m3 pour les calculs de DPE)
-* Renseigner des valeurs : permet de renseigner manuellement sa consommation sur une période
+* Tipo :  Água, Gás ou Eletricidade.
+* Instantâneo : comando que fornece o consumo instantâneo (atenção, o plug-in não pode calcular o consumo diário a partir do instantâneo)
+* CONSUMO : ordem que fornece o consumo diário (portanto, deve retornar de 0 a 00h00)
+* Custo : ordem que fornece o custo diário (portanto, ele deve retornar às 0 às 00:00) em €
+* Adicionar ao total : indica aumentar o consumo total desse tipo de energia
+* Esta é a minha energia de aquecimento : marque para executar o cálculo do DPE nesta energia (observe que, se sua energia de aquecimento é consumo de gás, deve ser em m3 para os cálculos do DPE)
+* Inserir valores : permite inserir manualmente seu consumo por um período

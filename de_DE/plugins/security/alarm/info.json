@@ -1,11 +1,11 @@
 {
-	"id" : "alarm",
-	"name" : "Alarme",
-	"description" : "Plugin pour la gestion de la sécurité",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "security",
-	"changelog" : "https://jeedom.github.io/plugin-alarm/#language#/changelog",
-    	"documentation" : "https://jeedom.github.io/plugin-alarm/#language#/"
+    "id": "alarm",
+    "name": "Alarme",
+    "description": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable.",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "security",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/"
 }

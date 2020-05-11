@@ -1,12 +1,12 @@
+# Plugin Comptage
+
 Ce plugin permet d'avoir un apercu simple et rapide de ses dépenses énergetique.
 
-Il gere l'eau, le gaz et l'electricité seulement et vous fournira un graphique des postes des dépenses/consommations.
-Il vous donne aussi la tendance et les variations par rapport à la periode précedente (vous pouvez avoir en periode le Jour, la semaine, le mois ou l'année)
+Il gere l'eau, le gaz et l'electricité seulement et vous fournira un graphique des postes des dépenses/consommations.Il vous donne aussi la tendance et les variations par rapport à la periode précedente (vous pouvez avoir en periode le Jour, la semaine, le mois ou l'année)
 
 > **IMPORTANT**
 >
 > N'oubliez pas d'activer le panel (desktop et mobile) du plugin dans la configuration de celui-ci
-
 
 # Configuration
 

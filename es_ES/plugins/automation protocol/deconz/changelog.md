@@ -1,4 +1,11 @@
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 02/27/2019
+
 - Capacidad para desactivar alertas de nodo a las que no puede llegar el dispositivo
+- Actualizaciones de documentación y traducción
 
 # 12/27/2019
 
@@ -6,7 +13,7 @@
 
 # 12/26/2019
 
-- Corrección de un error en la actualización del firmware.
+- Corrección de un error en la actualización del firmware
 
 # 12/24/2019
 
@@ -22,7 +29,7 @@
 
 - Se solucionó un problema con la instalación de deconz
 
-# 08/11/2019
+# 11/08/2019
 
 - Actualización del documento (adición de la desactivación de la serie en RPI; de lo contrario, el demonio es inestable)
 - Mejora de soporte de válvula
@@ -40,7 +47,7 @@
 
 - Posibilidad de actualizar el firmware de una clave Conbee 2 desde jeedom
 - Lanzar una sincronización forzada cuando se inicia el demonio
-- Corrección de un error en la instalación de dependencias.
+- Corrección de un error en la instalación de dependencias
 
 # 09/23/2019
 
@@ -53,7 +60,7 @@
 
 # 09/09/2019
 
-- Corrección de un error en el nivel de registro de deconz en la instalación local.
+- Corrección de un error en el nivel de registro de deconz en la instalación local
 - Actualización de la versión local de deconz a 2.5.69 (tenga cuidado de tenerlo en la configuración del complemento reinicie la instalación de Deconz y luego reinicie el demonio)
 
 # 08/28/2019
@@ -68,7 +75,7 @@
 
 # 07/24/2019
 
-- Corrección de un error en la desactivación del equipo.
+- Corrección de un error en la desactivación del equipo
 
 # 07/22/2019
 
@@ -76,19 +83,19 @@
 - Agregue un botón de enlace directamente a la interfaz deconz
 - Agregar el nombre del dispositivo Jeedom en la tabla que enumera los nodos
 - Agregar la temperatura en algunos módulos xiaomi
-- Soporte para módulos de doble relé.
+- Soporte para módulos de doble relé
 - Soporte mejorado para módulos de sensores y actuadores
 
 Atención, detectamos casos en los que hubo duplicación de pedidos (si lo cumple, no dude en ponerse en contacto con el soporte)
 
 # 07/08/2019
 
-- Soporte del módulo de detección de vibraciones Xiaomi.
+- Soporte del módulo de detección de vibraciones Xiaomi
 
-# 04/07/2019
+# 07/04/2019
 
 - Correcciones de errores
 
 # 06/30/2019
 
-- Corrección de un error en la instalación de dependencias que impiden el lanzamiento del demonio.
+- Corrección de un error en la instalación de dependencias que impiden el lanzamiento del demonio

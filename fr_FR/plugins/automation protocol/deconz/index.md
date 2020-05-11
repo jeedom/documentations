@@ -1,4 +1,4 @@
-# Description
+# Plugin Deconz
 
 Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil deconz qui permet de faire du zigbee (module xiaomi, philips hue, ikea...).
 
@@ -37,6 +37,7 @@ Vous trouvez ici la liste des modules compatible deconz [ici](https://phoscon.de
 # Configuration du plugins
 
 Le plugin support plusieurs gateway deconz (1 clef conbee par gateway). Une gateway conbee peut etre installer sur :
+
 - jeedom lui meme (smart, rpi  et x64_86 supporté)
 - un rpi deporté
 - ou tout autre carte compatible avec deconz.
@@ -70,6 +71,7 @@ Ici vous allez retrouver les informations principal de votre réseaux deconz (en
 ## Action
 
 La vous allez pouvoir :
+
 - mettre à jour le firmware (ne marche que si il n'y a aucune autre clef USB de branché sur la machine)
 - faire un reset (attention ca oblige à tout réassocier)
 - changer la source de mise à jour du firmware (il est déconseillé d'y touché)
@@ -93,7 +95,6 @@ Pour passer le module en mode inclusion il faut aller voir la documentation du m
 >
 > Le réseaux Zigbee est très different du réseaux Zwave, le zigbee peut passer par un repeteur mais il faut que ca soit le cas dès l'inclusion. Il faut donc lors de l'inclusion du module le faire soit au plus pres de la clef si vous ne voulez pas que la communication passe par un repeteur (attention vous pouvez avoir au maximum 32 modules en direct sur la clef conbee).Ou au plus pres du repeteur (tout module alimenté peut etre un repeteur).
 
-
 # Synchronisation
 
 Une fois l'inclusion faite Jeedom devrait vous envoyer directement sur la page du nouveau module. Si la decouverte n'a pas marché cliquez simplement sur synchroniser
@@ -112,7 +113,7 @@ Vous retrouvez dans le premier onglet toute la configuration de votre équipemen
 
 >**IMPORTANT**
 >
-> Ici les gestions des commandes n'est pds du tout comme le zwave. Lors de l'inclusion d'un module il y a plusieurs cas possible :
+> Ici la gestion des commandes n'est pas du tout comme le zwave. Lors de l'inclusion d'un module il y a plusieurs cas possible :
 > - le module a une configuration spécifique : dans ce cas vous avez le visuel du module ainsi qu'une configuration adaptée (c'est rarement le cas car peut necessaire en zigbee)
 > - le module a une configuration generique en fonction des types  : vous avez un visuel generique et les commande correspondant aux types du module (c'est le cas le plus courant)
 > - le module et les types sont inconnus de jeedom : dans ce cas il faut ouvrir une demande de support pour qu'on l'ajoute dans la mise à jour suivante du plugin
@@ -127,15 +128,14 @@ Vous pouvez le faire directement depuis jeedom si la clef est branchée sur celu
 
 Aller sur [ici](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) et verifiez si il y a un nouveau firmware, si oui le récuperer
 
-----
+````
 wget https://www.dresden-elektronik.de/rpi/deconz-firmware/deCONZ_Rpi_0x26300500.bin.GCF
 sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
-----
+````
 
 >**IMPORTANT**
 >
->Attention pour pouvoir flasher il faut absolument que tous les démon sur clef USb (zwave,enocean,rfxcom...) soit coupé et verifiez que la clef est bien en 0 avec GCFFlasher_internal -l. Il est conseillé de debrancher les autres clef
-
+>Attention pour pouvoir flasher il faut absolument que tous les démon sur clef USb (zwave,enocean,rfxcom...) soit coupé et verifiez que la clef est bien en 0 avec ``GCFFlasher_internal -l``. Il est conseillé de debrancher les autres clef
 
 # FAQ
 

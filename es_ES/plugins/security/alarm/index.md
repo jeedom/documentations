@@ -1,222 +1,134 @@
-El plugin de alarma permite a Jeedom de tener un sistema de alarma real
-para su domotica, muy fácil de utilizar y configurar.
+# Plugin de alarma
 
-Configuración del plugin
-=======================
+El complemento de alarma le permite a Jeedom tener un sistema de alarma real para su domótica, muy fácil de usar y configurar.
 
-Después de descargar el plugin, solo necesitas activarlo,
-No hay configuración adicional en este nivel.
+## Configuración del plugin
 
-Concepto inmediato
-================
+Después de descargar el complemento, solo necesita activarlo, no hay configuración adicional en este nivel.
 
-Es una noción muy importante del plugin de Alarma y es
-muy importante entenderlo bien. Para esquematizar es como si
-tuvieras 2 alarmas, la primera: la alarma inmediata que no tiene en
-cuenta los tiempos de activación (ten cuidado, tiene en cuenta
-los tiempos de activación) y una segunda alarma que tiene en cuenta
-los tiempos de disparo.
+## Concepto inmediato
 
-**¿Por qué esta noción inmediata?**
+Esta es una noción muy importante del plugin de alarma y es muy importante entenderlo bien. Para simplificar es como si tuvieras 2 alarmas, la primera : la alarma inmediata que no tiene en cuenta los tiempos de activación (tenga en cuenta que tiene en cuenta los tiempos de activación) y una segunda alarma que tiene en cuenta los tiempos de activación.
 
-Esta noción inmediata permite desencadenar acciones
-específicas. Por ejemplo: vas a casa y no tienes
-desactivado la alarma, antes de activar la sirena puede ser bueno
-emitir un mensaje recordatorio de deshabilitar la alarma y si esto
-no se realiza 1 minuto más tarde (tiempo de activación de 1 minuto)
-se activa la sirena.
+**¿Por qué esta noción inmediata? ?**
 
-Este concepto se encuentra en diferentes tipos de acciones, cada vez se detallará su modo.
+Esta noción inmediata permite activar acciones muy específicas. Por ejemplo : cuando regresa a casa y no ha desactivado la alarma, antes de activar la sirena puede ser bueno transmitir un mensaje que le recuerde desactivar la alarma y si no se hace 1 minuto después (demora d '' activación de 1 minuto) para activar la sirena.
 
-Equipos
-===========
+Esta noción se encuentra en diferentes tipos de acciones, cada vez que se detallará su principio.
 
-La configuración de un sistema de alarma está disponible en el menú
-Plugin Seguridad
+## Equipements
 
-Una vez añadido una alarma te encuentras con : 
+Se puede acceder a la configuración del equipo de alarma desde el menú Complemento => Seguridad.
 
--   **Nombre del dispositivo de la alarma** Nombre de la alarma,
+Una vez que se agrega una alarma, terminas con :
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    el dispositivo,
+-   **Nombre del equipo de alarma** : nombre de tu alarma,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Categoría** : La categoría del equipo (seguridad en general para una alarma),
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **Activo todo el tiempo** : indica que la alarma estará activa permanentemente (por ejemplo, para una alarma de detección de incendios),
+-   **Armamento visible** : permite hacer visible o no el comando de armado de alarma en el widget,
+-   **Estado visible inmediato** : le permite hacer visible el estado inmediato de la alarma (consulte la explicación a continuación),
+-   **Registrar estado de alarma y estado** : permite registrar o no el estado y el estado de la alarma.
+-   **Zonas separadas** : hace que las zonas sean independientes en términos de alertas. Normalmente, si una zona está en alerta, el complemento ignorará las otras zonas. Al separar las zonas, repetirá las acciones para las otras zonas que entrarían en alerta
+-   **Reinicio automático** : cuando se activa, la alarma completa se rearma para evitar disparadores posteriores (en tiempos normales no se rearmará hasta que haya habido un escenario / acción humana para hacerlo)
+-   **No tome medidas inmediatas si el sensor no tiene retraso** : le dice a la alarma que no tome acciones inmediatas si el sensor no tiene un retraso de activación, por lo tanto, la alarma solo realizará las acciones
 
--   **Categoría** : la categoría del equipo (seguridad en general
-    para una alarma),
-
--   **Activar** : permite poner su dispositivo en modo activo,
-
--   **Visible** : hace que su equipo sea visible en el dashboard,
-
--   **Permanentemente activo** : indica que la alarma estará permanentemente
-    activo (por ejemplo una alarma de detección de incendios),
-
--   **Armamento visible**: permite hacer visible o no el comando
-    Conectar la alarma en el widget,
-
--   **Estado inmediatamente visible**: permite convertir el estado inmediato de
-    la alarma visible (ver más abajo para la explicación),
-
--   **Historial y estado de la alarma**: le permite tener un historial o
-    no el estado y el estado de la alarma.
-
--   **Zonas separadas**: hace que las zonas sean independientes en términos de alerta. Normalmente, si un área está en alerta, el plugin ignorará las otras zonas. Al separar las zonas, se repetirán las acciones para las otras zonas que se pondrían en alerta.
-
--   **Restablecimiento automático**: cuando se activa, la alarma completa se restablece para evitar activaciones posteriores (normalmente no se volverá a armar hasta que haya un escenario / acción humana para hacerlo) 
-
--   **No realice las acciones inmediatas si el sensor no tiene demora**: le indica a la alarma que no realice las acciones inmediatas si el sensor no tiene un tiempo de activación, por lo que la alarma solo hara las acciones
-
-> **Consejo**
+> **Punta**
 >
-> Para cada acción es posible especificar el modo en que
-> debe ejecutarse o en todos los modos.
+> Para cada acción es posible especificar el modo en el que debe ejecutarse o en todos los modos
 
-Zonas
-=====
+## Zones
 
-Parte principal de la alarma. Aquí es donde se configura
-diferentes zonas y acciones (inmediatas y diferidas por zona,
-tenga en cuenta que también es posible configurarlas de forma global) para hacer
-cuando se activa. Una zona puede ser o bien volumétrico (por
-día, por ejemplo) que perimetral (por la noche) o también
-zonas de la casa (garaje, dormitorio, dependencias....).
+Parte principal de la alarma. Aquí es donde configura las diferentes zonas y las acciones (inmediatas y diferidas por zona, tenga en cuenta que también es posible configurarlas globalmente) en caso de activación. Un área puede ser volumétrica (para el día, por ejemplo) o perimetral (para la noche) o también áreas de la casa (garaje, dormitorio, dependencias, etc.).
 
-Un botón de arriba a la derecha le permite añadir todas las que
-desee.
+Un botón en la parte superior derecha le permite agregar tantos como desee.
 
-> **Tip**
+> **Punta**
 >
-> Puede editar el nombre de la zona haciendo clic en el nombre de
-> esta (frente a la etiqueta de "Nombre de la zona").
+> Es posible editar el nombre de la zona haciendo clic en el nombre de la zona (delante de la etiqueta "Nombre de la zona").
 
-Una zona se compone de diferentes elementos: - disparador, - acción
-inmediata, - acción.
+Un área está compuesta de diferentes elementos : - disparador, - acción inmediata, - acción.
 
-Disparador
------------
+## Disparador
 
-Un disparador es un comando binario, que cuando vale 1, va a
-activar la alarma. Es posible invertir el disparador, de modo que
-este es el estado 0 del sensor que dispara la alarma, poniendo
-"Invertir" en SÍ. Una vez que haya seleccionado su disparador, puede
-especificar un tiempo de activación en minutos (no es posible
-ir por debajo del minuto). Este retraso permite, por ejemplo, si
-activa la alarma antes de salir de tu casa, para no disparar.
-la alarma antes de un minuto (el tiempo para dejarte salir). Otro caso,
-algunos detectores de movimiento permanecen en modo activado (valor 1)
-por un tiempo aunque no hay detección, por ejemplo
-4 minutos, por lo que es bueno cambiar la activación de estos sensores de 4
-o 5 min para que la alarma no suene inmediatamente después de la
-activación. Luego tiene el tiempo de disparo, que a la
-diferencia del retraso de activación, se produce una sola vez cuando
-se activa la alarma, se configura después de cada
-disparo de un sensor. La cinemática es la siguiente, durante la
-activación del sensor (apertura de la puerta, detección de presencia), si
-se pasaron los tiempos de activación, la alarma activará las acciones inmediatamente, pero esperará hasta que el retraso de activación termine antes de activar las acciones. Finalmente tienes el botón "invertir" que permite invertir el estado de activación del sensor (0 en lugar de 1).
+Un activador es un comando binario que, cuando se establece en 1, activará la alarma. Es posible revertir el disparador, de modo que es el estado 0 del sensor el que dispara la alarma, poniendo "revertir" en SÍ. Una vez que haya elegido su disparador, puede especificar un retraso de activación en minutos (no es posible descender por debajo del minuto). Este retraso permite, por ejemplo, si activa la alarma antes de salir de casa, no activar la alarma por un minuto (tiempo para dejarlo salir). En otros casos, algunos detectores de movimiento permanecen en modo disparado (valor 1) durante cierto tiempo, incluso si no hay detección, por ejemplo 4 minutos, por lo que es bueno retrasar la activación de estos sensores en 4 o 5 min para que la alarma no suene inmediatamente después de la activación. Luego tiene el retraso de activación, a diferencia del retraso de activación que solo se produce una vez cuando se activa la alarma, se configura después de cada activación de un sensor. La cinemática es la siguiente cuando se activa el sensor (apertura de puerta, detección de presencia), si los tiempos de activación han pasado, la alarma activará las acciones inmediatas pero esperará hasta que el tiempo de activación termine antes desencadenar acciones. Finalmente tiene el botón "invertir" que le permite invertir el estado de activación del sensor (0 en lugar de 1).
 
-También tiene un ajuste **Mantener** que le permite especificar un tiempo de espera antes de activar la alarma. Por ejemplo, si tiene un detector de humo que a veces tiene falsas alarmas, puede especificar un retraso de 2 s. Al activar la alarma, Jeedom esperará 2 segundos y comprobará que el detector de humo aún esté en alerta. Si no es así, no activará la alarma.
+También tienes un parámetro **Mantiene** que le permite especificar un tiempo de espera de activación antes de activar la alarma. Por ejemplo, si tiene un detector de humo que a veces genera falsas alarmas, puede especificar un retraso de 2 segundos. Cuando se activa la alarma, Jeedom esperará 2 segundos y comprobará que el detector de humo todavía está alerta si no es el caso, no activará la alarma.  
 
-Pequeño ejemplo para comprender: el primer disparo
-(*\[Salon\]\[Oeil\]\[Présence\]*) aqui tengo un periodo de activación de 5
-minuto y el disparador de 1 minuto. Esto significa que cuando activo la alarma, durante los primeros 5 minutos, la alarma no se dispara debido a este sensor. Después de este tiempo de 5 minutos, si el movimiento es detectado por el sensor, la alarma espera 1 minuto (el tiempo para dejarme desactivar la alarma) antes de desencadenar acciones. Si tuviera acciones inmediatas, comenzarían inmediatamente sin esperar el final del tiempo limite de activación, las acciones no inmediatas habrian tenido lugar después (1 minuto después de las acciones inmediatas).
+Pequeño ejemplo para entender : en el primer disparador (*\ [Salon \] \ [Eye \] \ [Presence \]*) aquí tengo un tiempo de activación de 5 minutos y un tiempo de activación de 1 minuto. Esto significa que cuando activo la alarma, durante los primeros 5 minutos no se puede activar la alarma debido a este sensor. Después de este retraso de 5 minutos, si el sensor detecta un movimiento, la alarma esperará 1 minuto (el tiempo para permitirme desactivar la alarma) antes de activar las acciones. Si hubiera tenido acciones inmediatas, estas se habrían disparado inmediatamente sin esperar el final del período de activación, las acciones no inmediatas habrían tenido lugar después (1 minuto después de las acciones inmediatas).
 
-Acción inmediata
-----------------
+### Acción inmediata
 
-Como se describió anteriormente, se trata de acciones que se desencadenan a partir de la
-activación ignorando el tiempo definido de disparo (pero aun teniendo en cuenta el tiempo de activación). Sólo tienes que seleccionar el control de la acción deseada y función de la misma, completar los parámetros de ejecución.
+Como se describió anteriormente, estas son acciones que se activan al disparar sin tener en cuenta el retraso del disparador (pero aún teniendo en cuenta el retraso de la activación). Solo tiene que seleccionar el comando de acción deseado y luego, de acuerdo con él, completar los parámetros de ejecución.
 
 > **Nota**
 >
-> Cuando se activan varias zonas sucesivamente, solamente las
-> acciones inmediatas de la zona 1 se ejecutaran.
+> Cuando se activan varias zonas sucesivamente, solo se ejecutan las acciones inmediatas de la primera zona activada.
 
-Modos
-=====
+## Modes
 
-Los modos son bastante fáciles de configurar, sólo hay que indicar
-las zonas activas en función del modo.
+Los modos son bastante simples de configurar, solo tiene que indicar las zonas activas de acuerdo con el modo.
 
-> **Tip**
+> **Punta**
 >
-> Il est possible de renommer le mode en cliquant sur le nom de celui-ci
-> (en face du label "Nom du mode"). Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+> Es posible cambiar el nombre del modo haciendo clic en su nombre (opuesto a la etiqueta "Nombre del modo"). Atención durante el cambio de nombre de un modo es absolutamente necesario revisar los escenarios / equipos que usan el nombre antiguo para pasarlos al nuevo
 
-> **Note**
+> **Nota**
 >
-> Lors du renommage d’un mode, il faut sur le widget de l’alarme
-> recliquer sur le mode en question pour une prise en compte complète
-> (sinon Jeedom reste sur l’ancien mode)
-
-> **Important**
->
-> Il faut absolument créer au moins un mode et lui affecter des zones
-> sinon votre alarme ne marchera pas.
-
-Activacion OK
-=============
-
-En esta parte se definen las acciones a realizar despues de la
-activación de la alarma. Aquí nuevamente, encontrarás la noción inmediata que representa las acciones a realizar inmediatamente después del armamento de la alarma, luego vienen las acciones de activación que se ejecutaran después de los tiempos de activación.
-
-En el ejemplo, aquí enciendo por ejemplo una lámpara en rojo para
-señalar de que el armamento ha sido realizado y apago una vez el armamento completo (porque normalmente no hay nadie en el perímetro de la alarma, de lo contrario lo dispara).
+> Al cambiar el nombre de un modo, debe volver a hacer clic en el widget de alarma en el modo en cuestión para una consideración completa (de lo contrario, Jeedom permanece en el modo anterior)
 
 > **Importante**
 >
-> Las acciones de activación OK no tienen en cuenta el tiempo de activación. 
-> Si tiene un retraso en la activación de un sensor
-> de apertura, incluso si su puerta está abierta las medidas de activación
-> seran ejecutadas.
+> Es absolutamente necesario crear al menos un modo y asignarle zonas, de lo contrario su alarma no funcionará.
 
-Activación KO
-=============
+## Activación OK
 
-Estas acciones se ejecutan si un sensor se activa después de la activación de la alarma o después del retraso de activación de un sensor si está en alerta
+Esta parte define las acciones a tomar luego de la activación de la alarma. Aquí nuevamente, encontrará la noción inmediata que representa las acciones que se realizarán inmediatamente después de armar la alarma, luego vendrán las acciones de activación que se ejecutan después de los tiempos de activación.
 
-También puede agregar acciones aquí cuando un sensor vuelve a vigilar
+En el ejemplo, aquí enciendo, por ejemplo, una lámpara en rojo para indicar que se ha tenido en cuenta el armado y lo apago una vez que se completa el armado (porque normalmente ya no hay nadie en el perímetro de la alarma, de lo contrario lo activa).
 
-Activación
-=============
-
-Permite configurar las acciones globales que se realizarán durante la activación
-de la alarma. No tiene la obligación de agregar si tiene
-acciones específicas configuradas por zona.
-
-Desactivación OK
-================
-
-Estas acciones se ejecutan cuando la alarma esta desactivada y que no esta funcionando. Por ejemplo,  cuando llegue a su casa, abriendo la puerta se activa la alarma, pero hay un tiempo de activacion configurado en el sensor y usted corta la alarma antes del tiempo definido, las acciones de desactivacion OK seran ejecutadas. Sin embargo, si ha detenido la alarma despues del final de este tiempo definido de activacion, no habría sido el caso.
-
-Reinicio
-================
-
-Esta parte le permite definir las acciones a realizar cuando se activa la alarma esta funcionando y se desactiva. Aquí también hay acciones inmediatas y diferidas. Por ejemplo: te vas a casa, el tiempo definido de activacion se acabo, pero al abrir la puerta se dispara la alarma. Si lo desactivas (antes de los tiempos de activación), se ejecutarán las acciones de reinicio inmediato, pero
-no los reinicios normales. Si lo desactivas después despues del tiempo de activacion, las acciones de reinicio inmediato y normal serán ejecutadas.
-
-Preguntas frecuentes
-===
-
-> **¿Cuáles son las etiquetas posibles?**
+> **Importante**
 >
-> Las posibles etiquetas son:
->
-> - # modo #: nombre del modo actual
-> - # trigger #: nombre del comando que activó la alerta
-> - # zone #: nombre de la área de comando que activó la alerta
+> Las acciones de activación OK no tienen en cuenta los tiempos de activación. Si tiene un retraso en la activación de un sensor de apertura, incluso si su puerta está abierta, las acciones de activación se ejecutarán.
 
-> **¿Cómo reiniciar una alarma permanente?**
->
-> Simplemente haga clic en uno de los modos de alarma (incluso
-> el que esta activado).
+## Activación KO
 
-> **¿Puedo establecer tiempo definido en segundos?**
->
-> Es posible para el "tiempo de activación" (es necesario poner
-> números decimales, por ejemplo, 0.5 durante 30 segundos) pero no para el
-> "Tiempo de espera de activación" (no ponga dígitos decimales para
-> este parámetro).
+Estas acciones se ejecutan si se activa un sensor después de la activación de la alarma o después del retraso de activación de un sensor si está en alerta
 
-> **No entiendo mi alarma no hace nada**
+Aquí también puede agregar acciones al reanudar la supervisión de un sensor
+
+## Liberación
+
+Le permite configurar las acciones globales que se tomarán cuando se active una alarma. No tiene que agregar más si ha configurado acciones específicas por zona.
+
+## Desactivación OK
+
+Estas acciones se ejecutan cuando la alarma está desactivada y no se activa. Ejemplo, cuando va a su casa, al abrir la puerta se activa la alarma, pero ha configurado un retraso de activación en el sensor y corta la alarma antes del final del retraso, se ejecutarán las acciones de desactivación OK. Si, por otro lado, hubiera detenido la alarma después del final del retraso de activación, este no hubiera sido el caso.
+
+## Restablecer
+
+Esta parte le permite definir las acciones que se realizarán cuando se active la alarma y luego se desactive. Aquí también hay acciones inmediatas y diferidas. Aquí un ejemplo : cuando vuelves a casa, los tiempos de activación han pasado, pero abrir la puerta activa la alarma. Si lo desactiva (antes de los tiempos de activación), se ejecutarán las acciones de reinicio inmediatas, pero no las acciones de reinicio normales. Si lo desactiva después de los tiempos de activación, se ejecutarán las acciones de reinicio inmediatas y normales.
+
+## FAQ
+
+>**¿Cuáles son las posibles etiquetas? ?**
 >
-> Comprobar que la alarma tiene un modo activo
+> Las posibles etiquetas son :
+>
+> - #mode# : nombre del modo actual
+> - #trigger# : nombre del comando que activó la alerta
+> - #zone# : nombre del área del comando que activó la alerta
+
+>**Cómo restablecer una alarma permanente ?**
+>
+>Simplemente haga clic en uno de los modos de alarma (incluso el activo).
+
+>**¿Podemos poner los retrasos en segundos? ?**
+>
+>Es posible para el "Retraso de activación" (debe poner números decimales, ej : 0.5 durante 30 segundos) pero no para el "Retraso de activación" (no utilice dígitos decimales para este parámetro).
+
+>**No entiendo mi alarma no hace nada**
+>
+>Verifique que la alarma tenga un modo activo

@@ -1,4 +1,11 @@
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 02/27/2019
+
 - Ability to deactivate node alerts that cannot be reached by device
+- Documentation and translation updates
 
 # 12/27/2019
 
@@ -22,12 +29,12 @@
 
 - Fixed a problem with the installation of deconz
 
-# 08/11/2019
+# 11/08/2019
 
 - Update of the doc (addition of the deactivation of the serial on RPI otherwise the daemon is unstable)
 - Valve support improvement
 
-# 03/11/2019
+# 11/03/2019
 
 - Installation support on RPI1
 
@@ -85,7 +92,7 @@ Attention we detected cases where there were duplication of orders (if you meet 
 
 - Support of the Xiaomi vibration detection module
 
-# 04/07/2019
+# 07/04/2019
 
 - Bugfix
 
