@@ -42,8 +42,7 @@ Fonctions
 
 -   Indicador LED para confirmar cada acción
 
--   Zumbador integrado para indicación audible de armado / desarmado
-    la alarma por ejemplo
+-   Zumbador integrado para la indicación audible de alarma de armado / desarmado, por ejemplo
 
 Características técnicas
 ---------------------------
@@ -114,14 +113,11 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Acción : es el comando que subirá a casa / fuera (5 para fuera 6
-    para el hogar)
+-   Acción : es el comando que subirá a casa / fuera (5 para fuera 6 para casa)
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
-    arrancando)
+-   Sabotaje : Este es el comando de sabotaje (se activa en caso de desgarro)
 
--   CODIGO : muestra la insignia o el código del teclado cuando se ingresa el código
-    no está en uno de los recuerdos
+-   CODIGO : muestra la insignia o el código del teclado cuando el código ingresado no está en una de las memorias
 
 -   Batería : es el comando de la batería
 
@@ -149,13 +145,11 @@ Detalles del parámetro :
 
 -   2: período de cancelación (no se debe cambiar)
 
--   3: volver por pitido : permite activar o no una serie de 8 pitidos
-    después del reconocimiento de una insignia / código
+-   3: volver por pitido : permite activar o no una serie de 8 pitidos después del reconocimiento de una insignia / código
 
 -   4: cantidad de pitidos por segundo (no cambiar no tiene efecto)
 
--   5: modo de operación : modo normal o siempre despierto
-    (no recomendado porque consume mucha batería)
+-   5: modo de operación : modo normal o siempre despierto (no recomendado porque consume mucha batería)
 
 ### Groupes
 
@@ -178,19 +172,15 @@ Esto le permite agregar códigos. Verás una mesa allí.
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
--   Esta tabla le permite ver los recuerdos ocupados en su
-    clavier
+-   Esta tabla le permite ver los recuerdos ocupados en su teclado
 
--   Para registrar un nuevo código, haga clic en el botón verde en el
-    memoria deseada y siga los pasos
+-   Para registrar un nuevo código, haga clic en el botón verde en la memoria deseada y siga los pasos
 
 -   Para eliminar un código simplemente haga clic en el botón rojo.
 
--   Es imposible guardar el mismo código / insignia en dos memorias
-    diferente
+-   Es imposible guardar el mismo código / insignia en dos memorias diferentes
 
--   Es imposible (por razones de seguridad) leer el valor de un
-    código registrado
+-   Es imposible (por razones de seguridad) leer el valor de un código registrado
 
 > **Importante**
 >
@@ -217,12 +207,9 @@ Bueno saber
 
 El teclado lee códigos / insignias de dos maneras :
 
--   cuando presiona home / away durante los primeros 1 a 2
-    segundos si comienza a escribir un código, leerá ese código
+-   cuando presiona home / away durante los primeros 1 a 2 segundos si comienza a escribir un código, leerá ese código
 
--   si no se hace nada en los primeros 1 a 2 segundos, comienza
-    Modo de lectura de placa RFID (luz roja encendida). En ese momento
-    él puede leer una placa, no antes.
+-   Si no se hace nada dentro de los primeros 1 a 2 segundos, entra en modo de lectura de identificación RFID (luz roja encendida). En ese momento puede leer una placa, no antes.
 
 Wakeup
 ------

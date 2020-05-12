@@ -39,9 +39,7 @@ Fonctions
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
 
--   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
-    Mehrkanalbetrieb und mehr Datendurchsatz
-    hoch (9,6 / 40 / 100kbps)
+-   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
 
 -   Verwendet das Z-Wave 6.02 SDK
 
@@ -134,16 +132,13 @@ Hier ist die Liste der Befehle :
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    d'ouverture
+-   Öffnung : Es ist der Befehl, der eine Öffnungserkennung auslöst
 
--   Temperatur : es ist der Befehl, der es erlaubt, die
-    Temperatur
+-   Temperatur : Es ist der Befehl, der es ermöglicht, die Temperatur zu erhöhen
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
-    herausreißen)
+-   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 
 -   Batterie : Es ist der Batteriebefehl
 
@@ -172,33 +167,23 @@ Einstellungen)
 
 Parameterdetails :
 
--   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
-    Verein 2
+-   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
 
--   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 :
-    deaktiviert 99: maximale Empfindlichkeit)
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: maximale Empfindlichkeit)
 
--   4: Stellt die Helligkeitsstufe ein, ab der die
-    Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
-    Gruppe 2
+-   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 
--   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : siehe
-    auf der Dokumentation des Herstellers)
+-   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : siehe Dokumentation des Herstellers)
 
--   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen
-    : siehe Dokumentation des Herstellers)
+-   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen : siehe Dokumentation des Herstellers)
 
--   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
-    wird an Module gesendet, die der Gruppe 2 zugeordnet sind
+-   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
 
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
-    Einheit = 30 Minuten)
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = 30 Minuten)
 
--   12: wird verwendet, um die Dauer zwischen zwei Helligkeitsberichten zu definieren
-    (eine Einheit = 30 Minuten)
+-   12: Mit dieser Option können Sie die Dauer zwischen zwei Helligkeitsberichten definieren (eine Einheit = 30 Minuten)
 
--   13: Ermöglicht die Definition der Zeit zwischen zwei Temperaturberichten
-    (eine Einheit = 30 Minuten)
+-   13: Mit dieser Option können Sie die Zeit zwischen zwei Temperaturberichten definieren (eine Einheit = 30 Minuten)
 
 ### Groupes
 

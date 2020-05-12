@@ -39,16 +39,13 @@ distance.
 Fonctions
 ---------
 
--   Interruptor de cable utilizable tanto manualmente
-    (pulsación corta) y por radio remota (Z-Wave)
+-   Encienda el cable que se puede usar tanto manualmente (pulsación corta) como por radio remoto (Z-Wave)
 
--   Úselo como reemplazo de un interruptor de cable estándar
-    una lámpara de mesilla de noche, mesa o escritorio
+-   Úselo como reemplazo de un interruptor de cable estándar en una mesita de noche, mesa o lámpara de escritorio
 
 -   Función ON / OFF
 
--   Activación de un escenario de domótica en pulsación larga
-    (Asociación Z-Wave)
+-   Activación de un escenario de domótica en pulsación larga (asociación Z-Wave)
 
 -   Dimensiones comparables a un interruptor de cable ordinario
 
@@ -125,8 +122,7 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Estado : Es el comando que permite conocer el estado de la
-    Iluminación
+-   Estado : Es el comando que permite conocer el estado de la luz
 
 -   Uno : Es el control que enciende la luz
 
@@ -155,14 +151,11 @@ swiidinter a otro módulo (pulsación larga)
 
 -   Inactivo : no tendrá efecto en otras luces
 
--   Solo apagado : será efectivo solo para apagar a otros
-    luces
+-   Solo apagado : será efectivo solo para apagar otras luces
 
--   SOLO : será efectivo solo para encender a los demás
-    luces
+-   SOLO : será efectivo solo para encender las otras luces
 
--   ENCENDIDO y APAGADO (completamente) : será efectivo para encender y apagar el
-    otras luces
+-   ENCENDIDO y APAGADO (completamente) : será efectivo para encender y apagar otras luces
 
 ### Groupes
 

@@ -143,8 +143,7 @@ Here is the list of commands :
 
 -   Instructions : it is the command which makes it possible to adjust the setpoint
 
--   Heating State : it is the command which makes it possible to know if the
-    thermostat is in heating mode or not
+-   Heating State : it is the command which allows to know if the thermostat is in heating mode or not
 
 -   Drums : it's the battery command
 
@@ -167,8 +166,7 @@ Parameter details :
 
 -   2: allows to choose the temperature unit
 
--   3: allows to define the temperature variation level for
-    the module back up (in units of 0.1 ° C)
+-   3: allows you to define the temperature variation level so that the module raises it (in units of 0.1 ° C)
 
 ### Groupes
 

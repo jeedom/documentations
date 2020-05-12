@@ -98,15 +98,13 @@ Fonctions
 
 -   Verbindung über Bluetooth Smart und Z-Wave
 
--   Integration in kompatible Z-Wave-Controller (eedomus,
-    Vera,…)
+-   Integration in kompatible Z-Wave-Controller (eedomus, Vera,…)
 
 -   Aktivitätsverlauf
 
 -   Verschiedene Einstellmöglichkeiten zum Schließen und Öffnen
 
--   Zugriffsfreigabe : Geben Sie Ihrer Putzfrau oder einem Freund Zugang
-    für eine begrenzte Zeit
+-   Zugriffsfreigabe : Geben Sie Ihrer Haushälterin oder einem Freund für einen begrenzten Zeitraum Zugang
 
 -   Automatische Kalibrierung
 
@@ -114,8 +112,7 @@ Fonctions
 
 -   Batteriebetrieb
 
--   Kompatibel mit iOS (iPhone 4s oder höher), aber
-    auch Android (ab 4.4).
+-   Kompatibel mit iOS (iPhone 4s oder höher), aber auch Android (ab 4.4).
 
 Technische Daten
 ---------------------------
@@ -197,8 +194,7 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Status : Es ist der Befehl, der die letzte Aktion ausführt
-    ausgeführt (öffnen / schließen)
+-   Status : Dies ist der Befehl, der zur letzten ausgeführten Aktion zurückkehrt (Öffnen / Schließen)
 
 -   Öffnen : Es ist der Befehl, der das Schloss öffnet
 
@@ -228,45 +224,27 @@ Einstellungen)
 
 Parameterdetails :
 
--   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
-    gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
-    verrouillé
+-   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn, 1 = Motor läuft im Uhrzeigersinn gegen den Uhrzeigersinn
 
--   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = die
-    schneller
+-   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = am schnellsten
 
--   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Modus
-    volle Ausbildung (Normal)
+-   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Vollantriebsmodus (Normal)
 
 -   4 : Anzahl der Umdrehungen (1 = 10 Grad, 9 = 90 Grad usw.)
 
--   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Moment
-    Das Schloss wurde entsperrt, um es automatisch zu schließen
-    wieder. Wenn 0, ist es deaktiviert.
+-   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Zeitpunkt, zu dem die Sperre entsperrt wurde, um automatisch wieder geschlossen zu werden. Wenn 0, ist es deaktiviert.
 
--   6 : Sperrsignal deaktivieren oder aktivieren oder
-    Entsperren (0 = Deaktivieren, 1 = Aktivieren.)
+-   6 : Deaktivieren oder aktivieren Sie das akustische Signal zum Sperren oder Entsperren (0 = Deaktivieren, 1 = Aktivieren.)
 
--   7 : Batterietyp : Stellen Sie den Batterietyp ein
-    versorgt das Gerät mit Strom.
+-   7 : Batterietyp : Stellen Sie den Batterietyp ein, der das Gerät mit Strom versorgt.
 
--   8 : Batteriealarm : Wenn der Akkuladestand niedriger ist
-    Bei diesem Wert informiert das Gerät den Benutzer mit einem Signal
-    Ton nach dem Verriegeln oder Entriegeln.
+-   8 : Batteriealarm : Wenn der Akkuladestand unter diesem Wert liegt, informiert das Gerät den Benutzer nach dem Sperren oder Entsperren mit einem akustischen Signal.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
-    dreht den Griff automatisch, wenn
-    manuell bedienen.
+-   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go dreht den Griff automatisch, wenn es manuell betätigt wird.
 
--   10 : Brake & GoBack 0 = Deaktiviert. 1⇒15 Sekunden zum Bremsen. Wann
-    Dann werden die Feststellbremsen für x Sekunden verwendet
-    gehe 75 Grad zurück. Entwickelt für spezielle Türen
-    ohne Hebel. (Nur beim Entsperren).
+-   10 : Brake & GoBack 0 = Deaktiviert. 1⇒15 Sekunden zum Bremsen. Bei Verwendung der Feststellbremse für x Sekunden, dann 75 Grad zurück. Entwickelt für spezielle Türen ohne Hebel. (Nur beim Entsperren).
 
--   11 : Async 0 = Async aus, 1 = Async ein. Wenn Async aktiviert ist, wird die
-    Die Sperre wird automatisch kalibriert, wenn sie bereits entsperrt ist und
-    Wird wieder entriegelt (wird für Türschlösser verwendet
-    spezielle Tür).
+-   11 : Async 0 = Async aus, 1 = Async ein. Wenn Async aktiviert ist, wird das Schloss automatisch kalibriert, wenn es bereits entsperrt ist, und erneut entsperrt (wird für spezielle Türschlösser verwendet).
 
 -   12 : Betriebsbericht
 

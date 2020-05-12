@@ -60,8 +60,7 @@ Technische Daten
 
 -   Verbrauch : 0,5 W.
 
--   Maximale Leistung : Widerstandslast : 2500W Glühlampe
-    : 1200W Kompaktleuchtstofflampe : 320W
+-   Maximale Leistung : Widerstandslast : 2500W Glühlampe : 1200W Kompaktleuchtstofflampe : 320W
 
 -   Frequenz : 868,42 MHz
 
@@ -117,8 +116,7 @@ Hier ist die Liste der Befehle :
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Licht
+-   Zustand : Es ist der Befehl, mit dem der Status des Lichts ermittelt werden kann
 
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
 das gleiche Symbol.
@@ -138,17 +136,13 @@ Einstellungen)
 
 Parameterdetails :
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
-    empfohlen, diesen Wert zu ändern.
+-   1 : Dieser Parameter definiert den Statuswertbefehl. Es ist nicht ratsam, diesen Wert zu ändern.
 
--   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
-    Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
+-   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Mit diesem Parameter können Sie festlegen, ob der Switch seine Funktion wieder aufnehmen soll
-    Status (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
+-   3 : Mit diesem Parameter wird festgelegt, ob der Schalter nach einer Wiederherstellung der Stromversorgung seinen Status (EIN oder AUS) wieder einnimmt.
 
--   4 : Dieser Parameter definiert den Typ
-    Schalter (Push / Bistable)
+-   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
 
 ### Groupes
 
@@ -165,8 +159,7 @@ Gut zu wissen
 
 ### Besonderheiten
 
--   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-    Sekunden.
+-   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
 ### Alternative visuelle
 

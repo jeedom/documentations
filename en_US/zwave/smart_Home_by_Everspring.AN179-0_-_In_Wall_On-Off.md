@@ -60,8 +60,7 @@ Technical characteristics
 
 -   Consumption : 0.5W
 
--   Maximum power : Resistive load : 2500W Incandescent bulb
-    : 1200W Compact Fluorescent Bulb : 320W
+-   Maximum power : Resistive load : 2500W Incandescent bulb : 1200W Compact Fluorescent Bulb : 320W
 
 -   Frequency : 868.42 Mhz
 
@@ -117,8 +116,7 @@ Here is the list of commands :
 
 -   Off : It is the command that turns off the light
 
--   State : It is the command which allows to know the status of the
-    Light
+-   State : It is the command which allows to know the status of the light
 
 Note that on the dashboard, the status information, ON / OFF can be found on
 the same icon.
@@ -138,17 +136,13 @@ settings)
 
 Parameter details :
 
--   1 : This parameter defines the status value command, it is not
-    advised to change this value.
+-   1 : This parameter defines the status value command, it is not advisable to change this value.
 
--   2 : This parameter defines the delay in sending the change of state to
-    group 1 (value between 3 and 25 seconds)
+-   2 : This parameter defines the delay for sending the change of state to group 1 (value between 3 and 25 seconds)
 
--   3 : This parameter allows you to define whether the switch will resume its
-    status (ON or OFF) after a power recovery.
+-   3 : This parameter is used to define whether the switch will resume its status (ON or OFF) after a power recovery.
 
--   4 : This parameter defines the type
-    switch (push / bistable)
+-   4 : This parameter defines the type of switch (push / bistable)
 
 ### Groupes
 
@@ -165,8 +159,7 @@ Good to know
 
 ### Specificities
 
--   Status feedback cannot be configured below 3
-    seconds.
+-   Status feedback cannot be configured within 3 seconds.
 
 ### Alternative visual
 

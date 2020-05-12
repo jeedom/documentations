@@ -40,9 +40,7 @@ Fonctions
 
 -   Detector 3 en 1: Apertura, temperatura, luz
 
--   Adopta el reciente chip de la serie Z-Wave 400 para admitir
-    operaciones multicanal y más rendimiento de datos
-    alto (9.6 / 40 / 100kbps)
+-   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
 
 -   Utiliza el SDK de Z-Wave 6.02
 
@@ -133,11 +131,9 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Apertura : es el comando que generará una detección
-    d'ouverture
+-   Apertura : es el comando que generará una detección de apertura
 
--   Temperatura : es el comando que permite subir el
-    Temperatura
+-   Temperatura : es el comando que hace posible elevar la temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
@@ -167,46 +163,31 @@ configuraciones)
 
 Detalles del parámetro :
 
--   2: permite ajustar la señal enviada a los módulos en el grupo
-    asociación 2
+-   2: establece la señal enviada a los módulos en el grupo de asociación 2
 
--   4: ajusta el nivel de brillo desde el cual
-    la señal definida en el parámetro 2 se enviará a los módulos asociados con el
-    grupo 2
+-   4: ajusta el nivel de brillo desde el cual la señal definida en el parámetro 2 se enviará a los módulos asociados con el grupo 2
 
--   5: modo de funcionamiento (ver el
-    documentación del fabricante) Valor recomendado : 8
+-   5: modo de funcionamiento (consulte la documentación del fabricante) Valor recomendado : 8
 
--   6: modo de funcionamiento multisensor (ver el
-    documentación del fabricante) Valor recomendado : 4
+-   6: modo de funcionamiento multisensor (consulte la documentación del fabricante) Valor recomendado : 4
 
--   7: modo de funcionamiento multisensor personalizado (ver
-    en la documentación del fabricante) Valor recomendado : 20 (para
-    tener la apertura funcional)
+-   7: modo de funcionamiento personalizado del multisensor (consulte la documentación del fabricante) Valor recomendado : 20 (tener la apertura funcional)
 
--   9: permite definir después de cuánto tiempo será la señal OFF
-    enviado a módulos asociados con el grupo 2
+-   9: permite definir después de cuánto tiempo se enviará la señal OFF a los módulos asociados con el grupo 2
 
--   10: le permite definir la duración entre dos informes de batería (uno
-    unidad = parámetro 20)
+-   10: se usa para definir la duración entre dos informes de batería (una unidad = parámetro 20)
 
--   11: le permite definir la duración entre dos informes de apertura automáticos
-    (una unidad = parámetro 20)
+-   11: le permite definir la duración entre dos informes de apertura automáticos (una unidad = parámetro 20)
 
--   12: le permite definir la duración entre dos auto
-    brillo (una unidad = parámetro 20) Valor recomendado : 3
+-   12: le permite definir la duración entre dos informes de brillo automático (una unidad = parámetro 20) Valor recomendado : 3
 
--   13: le permite definir la duración entre dos auto
-    temperatura (una unidad = parámetro 20) Valor recomendado : 2
+-   13: permite definir el tiempo entre dos informes de temperatura automáticos (una unidad = parámetro 20) Valor recomendado : 2
 
--   20: duración de un intervalo para los parámetros 10 a 13 Valor
-    recomendado : 10
+-   20: duración de un intervalo para los parámetros 10 a 13 Valor recomendado : 10
 
--   21: valor de variación de temperatura en ° F para activar un
-    rapport
+-   21: valor de variación de temperatura en ° F para activar un informe
 
--   22: valor en% de variación de brillo para activar un
-    Informar valor recomendado : 10
+-   22: valor en% de variación de brillo para activar un informe Valor recomendado : 10
 
 ### Groupes
 

@@ -3,7 +3,7 @@ Philio Smart Color Button
 
 -   **The module**
 
-![Module](images/philio.psr04/module.jpg)
+![module](images/philio.psr04/module.jpg)
 
 -   **The Jeedom visual**
 
@@ -67,8 +67,7 @@ Fonctions
 Technical characteristics
 ---------------------------
 
--   Food : Lithium Polymer 3 Battery.7V, 220mA v
-    battery : 6 months for 2 hours charge
+-   Food : Lithium Polymer 3 Battery.7V, 220mA v Battery life : 6 months for 2 hours charge
 
 -   Standby consumption : 18µA
 
@@ -128,11 +127,9 @@ disponibles.
 
 Here is the list of commands :
 
--   State : it is the command which will move the button position from 0 to
-    100%
+-   State : it is the command which will raise the position of the button from 0 to 100%
 
--   Drums : this is the command that reports the battery status of the
-    module
+-   Drums : it is the command which reports the battery status of the module
 
 ### Configuration of the module
 
@@ -160,12 +157,9 @@ Parameter details :
 
 -   10 : battery ascent time interval
 
--   25 : allows to define if the module sends its position
-    automatically after rotation (1s delay) or if it is necessary to press
-    on the button to validate the sending
+-   25 : allows to define if the module sends its position automatically after rotation (1s delay) or if it is necessary to press the button to validate the sending
 
--   26 : activates the sending of scene or not on pressing of the central button
-    (parameter not taken into account in Jeedom)
+-   26 : activates the sending of scene or not on pressing of the central button (parameter not taken into account in Jeedom)
 
 ### Groupes
 

@@ -98,15 +98,13 @@ Fonctions
 
 -   Connection via Bluetooth Smart and Z-Wave
 
--   Integration in compatible Z-Wave controllers (eedomus,
-    Vera,…)
+-   Integration in compatible Z-Wave controllers (eedomus, Vera,…)
 
 -   Activity history
 
 -   Different setting options for closing and opening
 
--   Access sharing : give access to your cleaning lady or a friend
-    for a limited time
+-   Access sharing : give access to your housekeeper or a friend for a limited period
 
 -   Automatic calibration
 
@@ -114,8 +112,7 @@ Fonctions
 
 -   Battery operation
 
--   Compatible with iOS (iPhone 4s or later), but
-    also Android (from 4.4).
+-   Compatible with iOS (iPhone 4s or later), but also Android (from 4.4).
 
 Technical characteristics
 ---------------------------
@@ -197,8 +194,7 @@ disponibles.
 
 Here is the list of commands :
 
--   Status : it is the command which will go up the last action
-    executed (open / close)
+-   Status : this is the command that will go back to the last action executed (open / close)
 
 -   Open : it is the command which opens the lock
 
@@ -228,45 +224,27 @@ settings)
 
 Parameter details :
 
--   1 : Direction 0-1 : 0 = Motor goes clockwise
-    locked, 1 = Motor goes counterclockwise when
-    verrouillé
+-   1 : Direction 0-1 : 0 = Motor goes clockwise locked, 1 = Motor goes counterclockwise when locked
 
--   2 : Speed 1 = slowest, 2 = slow, 3 = Normal, 4 = Fast, 5 = the
-    faster
+-   2 : Speed 1 = slowest, 2 = slow, 3 = Normal, 4 = Fast, 5 = fastest
 
--   3 : Mode 1 = Motor drive (energy saving), 2 = mode
-    full training (Normal)
+-   3 : Mode 1 = Motor drive (energy saving), 2 = full drive mode (Normal)
 
 -   4 : Number of turns (1 = 10 degrees, 9 = 90 degrees, etc.)
 
--   5 : Auto lock 0-60 How many seconds from the moment
-    the lock has been unlocked to automatically close
-    again. If 0, it is disabled.
+-   5 : Auto lock 0-60 How many seconds from the moment the lock was unlocked to automatically close again. If 0, it is disabled.
 
--   6 : Deactivate or activate the lock signal or
-    unlocking (0 = Deactivate, 1 = Activate.)
+-   6 : Deactivate or activate the locking or unlocking acoustic signal (0 = Deactivate, 1 = Activate.)
 
--   7 : Battery type : Set the type of battery that
-    powers the device.
+-   7 : Battery type : Set the type of battery that powers the device.
 
--   8 : Battery alarm : When the battery level is lower
-    at this value, the device will inform the user with a signal
-    sound after locking or unlocking.
+-   8 : Battery alarm : When the battery level is lower than this value, the device will inform the user with an audible signal after locking or unlocking.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
-    will turn the handle automatically when
-    operate it manually.
+-   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go will turn the handle automatically when manually operated.
 
--   10 : Brake & GoBack 0 = Disabled. 1⇒15 seconds to brake. When
-    it is used the lock brakes for x amount of seconds, then
-    go back 75 degrees. Designed for special doors
-    without lever. (Only when unlocking).
+-   10 : Brake & GoBack 0 = Disabled. 1⇒15 seconds to brake. When used the lock brakes for x amount of seconds, then back 75 degrees back. Designed for special doors without lever. (Only when unlocking).
 
--   11 : Async 0 = Async off, 1 = Async On. When async is activated the
-    lock will be automatically calibrated if it is already unlocked and
-    Unlocks again (used for door locks
-    special door).
+-   11 : Async 0 = Async off, 1 = Async On. When async is activated the lock will be automatically calibrated if it is already unlocked and Unlock again (used for special door locks).
 
 -   12 : operation report
 

@@ -40,9 +40,7 @@ Fonctions
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
 
--   Nimmt den aktuellen Z-Wave 400series-Chip zur Unterstützung an
-    Mehrkanalbetrieb und mehr Datendurchsatz
-    hoch (9,6 / 40 / 100kbps)
+-   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
 
 -   Verwendet das Z-Wave 6.02 SDK
 
@@ -133,11 +131,9 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    d'ouverture
+-   Öffnung : Es ist der Befehl, der eine Öffnungserkennung auslöst
 
--   Temperatur : es ist der Befehl, der es erlaubt, die
-    Temperatur
+-   Temperatur : Es ist der Befehl, der es ermöglicht, die Temperatur zu erhöhen
 
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 
@@ -167,46 +163,31 @@ Einstellungen)
 
 Parameterdetails :
 
--   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
-    Verein 2
+-   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
 
--   4: Stellt die Helligkeitsstufe ein, ab der die
-    Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
-    Gruppe 2
+-   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 
--   5: Betriebsart (siehe die
-    Herstellerdokumentation) Empfohlener Wert : 8
+-   5: Betriebsart (siehe Herstellerdokumentation) Empfohlener Wert : 8
 
--   6: Multisensor-Betriebsart (siehe
-    Herstellerdokumentation) Empfohlener Wert : 4
+-   6: Multisensor-Betriebsmodus (siehe Herstellerdokumentation) Empfohlener Wert : 4
 
--   7: personalisierte Multisensor-Betriebsart (siehe
-    auf der Dokumentation des Herstellers) Empfohlener Wert : 20 (für
-    die funktionale Öffnung haben)
+-   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : 20 (um die funktionale Öffnung zu haben)
 
--   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
-    wird an Module gesendet, die der Gruppe 2 zugeordnet sind
+-   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
 
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
-    Einheit = Parameter 20)
+-   10: wird verwendet, um die Dauer zwischen zwei Batterieberichten zu definieren (eine Einheit = Parameter 20)
 
--   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
-    (eine Einheit = Parameter 20)
+-   11: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Eröffnungsberichten definieren (eine Einheit = Parameter 20)
 
--   12: Hier können Sie die Dauer zwischen zwei Auto definieren
-    Helligkeit (eine Einheit = Parameter 20) Empfohlener Wert : 3
+-   12: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Helligkeitsberichten definieren (eine Einheit = Parameter 20). Empfohlener Wert : 3
 
--   13: Hier können Sie die Dauer zwischen zwei Auto definieren
-    Temperatur (eine Einheit = Parameter 20) Empfohlener Wert : 2
+-   13: Ermöglicht die Definition der Zeit zwischen zwei automatischen Temperaturberichten (eine Einheit = Parameter 20). Empfohlener Wert : 2
 
--   20: Dauer eines Intervalls für Parameter 10 bis 13 Wert
-    empfohlen : 10
+-   20: Dauer eines Intervalls für die Parameter 10 bis 13 Empfohlener Wert : 10
 
--   21: Temperaturänderungswert in ° F zum Auslösen von a
-    rapport
+-   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
 
--   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
-    Empfohlenen Wert melden : 10
+-   22: Wert in% der Helligkeitsschwankung zum Auslösen eines Berichts Empfohlener Wert : 10
 
 ### Groupes
 

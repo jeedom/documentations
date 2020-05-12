@@ -46,8 +46,7 @@ Fonctions
 
 -   Passend für die meisten Türen
 
--   Kann beispielsweise für ein System in Z-Wave-Szenen integriert werden
-    d'alarme
+-   Kann in Z-Wave-Szenen integriert werden, beispielsweise für ein Alarmsystem
 
 -   Geeignet für den privaten oder geschäftlichen Gebrauch
 
@@ -62,8 +61,7 @@ Technische Daten
 
 -   Frequenz : 868,42 MHz
 
--   Geltungsbereich : bis zu 100 m im Freien, bis zu 30 m in
-    Gebäude
+-   Geltungsbereich : bis zu 100 m im Freien, bis zu 30 m in Gebäuden
 
 -   Abmessungen : 120 x 52 x 60 mm (L x B x H)
 
@@ -109,8 +107,7 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Status : Es ist der Befehl, der die letzte Aktion ausführt
-    ausgeführt (öffnen / schließen)
+-   Status : Dies ist der Befehl, der zur letzten ausgeführten Aktion zurückkehrt (Öffnen / Schließen)
 
 -   Öffnen : Es ist der Befehl, der das Schloss öffnet
 
@@ -140,20 +137,15 @@ Einstellungen)
 
 Parameterdetails :
 
--   0: Ermöglicht das Ändern der Drehrichtung für die Befehle
-    öffnen / schließen
+-   0: Ermöglicht das Ändern der Drehrichtung für die Befehle zum Öffnen / Schließen
 
--   1: Hier können Sie festlegen, wie lange sich das Schloss drehen soll
-    offen (0 bis 15 s)
+-   1: Hier können Sie festlegen, wie lange sich das Schloss öffnen soll (0 bis 15 s)
 
--   2: Hier können Sie festlegen, wie lange sich das Schloss drehen soll
-    schließen (0 bis 15 s)
+-   2: Hier können Sie festlegen, wie lange sich das Schloss zum Schließen drehen soll (0 bis 15 s)
 
--   3: Dient zum Definieren der Drehzahl des Schlosses (0 bis 15),
-    15 ist das langsamste)
+-   3: wird verwendet, um die Drehzahl des Schlosses zu definieren (0 bis 15, wobei 15 die langsamste ist)
 
--   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten
-    (Drehmoment, Kraft, Leistung usw.)
+-   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten (Drehmoment, Kraft, Leistung usw.)
 
 ### Groupes
 

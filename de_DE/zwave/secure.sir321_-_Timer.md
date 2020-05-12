@@ -28,8 +28,7 @@ SES002 und SES003.
 Fonctions
 ---------
 
--   Booster für Tauchsieder, Plattenheizkörper, beheizter Handtuchhalter,
-    Ölbadkühler
+-   Booster für Tauchsieder, Plattenheizkörper, Handtuchheizkörper, Ölbadkühler
 
 -   Kessel-Timer
 
@@ -46,8 +45,7 @@ Technische Daten
 
 -   Type: Elektronischer Timer
 
--   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis
-    3kW
+-   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis 3 kW
 
 -   Alimentation: 230 V AC, 50 Hz
 
@@ -66,8 +64,7 @@ Moduldaten
 
 -   Hersteller ID : 89
 
--   Produkttyp : 1/2 (abhängig davon, ob es in einer Sonde enthalten ist
-    oder nicht)
+-   Produkttyp : 1/2 (abhängig davon, ob es mit einem Temperaturfühler geliefert wird oder nicht)
 
 Configuration
 -------------
@@ -101,8 +98,7 @@ Hier ist die Liste der Befehle :
 
 -   Aus : Es ist der Befehl, das Relais auszuschalten
 
--   Temperatur : Dies ist der Temperaturmessbefehl, wenn a
-    externe Sonde ist vorhanden
+-   Temperatur : Dies ist der Befehl zur Temperaturmessung, wenn eine externe Sonde vorhanden ist
 
 ### Konfiguration des Moduls
 
@@ -118,19 +114,15 @@ Einstellungen)
 
 Parameterdetails :
 
--   1: Ermöglicht das Aktivieren oder Nicht-Aktivieren der ausfallsicheren Timer-Funktion (siehe
-    Moduldokumentation)
+-   1: Ermöglicht das Aktivieren oder Nicht-Aktivieren der ausfallsicheren Timer-Funktion (siehe Moduldokumentation)
 
 -   2: Stellt die Temperatureinheit ein
 
--   3: Hier können Sie das Zeitintervall für das Senden der Temperatur einstellen
-    bei Jeedom (in Sekunden)
+-   3: Stellen Sie das Zeitintervall für das Senden der Temperatur an Jeedom ein (in Sekunden)
 
--   4: Stellt ein, um wie viel die Temperatur variieren muss
-    Das Modul sendet es an Jeedom (in Schritten von 0).1 10- → 0,1)
+-   4: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0).1 10- → 0,1)
 
--   5: Hier können Sie eine Abschalttemperatur einstellen, über der
-    Das Modul schaltet das Relais ab
+-   5: Hier können Sie eine Abschalttemperatur einstellen, oberhalb derer das Modul das Relais abschaltet
 
 ### Groupes
 

@@ -39,16 +39,13 @@ distance.
 Fonctions
 ---------
 
--   Kabelschalter beide manuell verwendbar
-    (kurzes Drücken) und per Fernfunk (Z-Wave)
+-   Schalten Sie das Kabel ein, das sowohl manuell (kurzes Drücken) als auch per Funkfernbedienung (Z-Wave) verwendet werden kann
 
--   Verwendung als Ersatz für einen Standard-Kabelschalter
-    eine Nachttisch-, Tisch- oder Schreibtischlampe
+-   Verwendung als Ersatz für einen Standard-Kabelschalter an einer Nachttisch-, Tisch- oder Schreibtischlampe
 
 -   EIN / AUS-Funktion
 
--   Aktivierung eines Hausautomationsszenarios bei langer Druckmaschine
-    (Z-Wave-Assoziation)
+-   Aktivierung eines Hausautomationsszenarios bei langem Drücken (Z-Wave-Assoziation)
 
 -   Abmessungen vergleichbar mit einem normalen Kabelschalter
 
@@ -125,8 +122,7 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Licht
+-   Zustand : Es ist der Befehl, mit dem der Status des Lichts ermittelt werden kann
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
@@ -155,14 +151,11 @@ swiidinter zu einem anderen Modul wechseln (lange drücken)
 
 -   Inaktiv : hat keine Auswirkung auf andere Lichter
 
--   Nur AUS : wird nur wirksam sein, um andere auszuschalten
-    Lichter
+-   Nur AUS : wird nur wirksam, um andere Lichter auszuschalten
 
--   NUR NUR : wird nur wirksam sein, um die anderen einzuschalten
-    Lichter
+-   NUR NUR : wird nur wirksam, um die anderen Lichter einzuschalten
 
--   EIN und AUS (vollständig) : wird effektiv sein, um die ein- und auszuschalten
-    andere Lichter
+-   EIN und AUS (vollständig) : wird effektiv sein, um andere Lichter ein- und auszuschalten
 
 ### Groupes
 

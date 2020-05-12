@@ -28,8 +28,7 @@ SES002 y SES003.
 Fonctions
 ---------
 
--   Booster para calentador de inmersión, radiador de panel, toallero calentado,
-    radiador de baño de aceite
+-   Booster para calentador de inmersión, radiador de panel, radiador de toalla, radiador de baño de aceite
 
 -   Temporizador de caldera
 
@@ -46,8 +45,7 @@ Características técnicas
 
 -   Type: Temporizador electrónico
 
--   Relais: 13 (3) A, 230 V CA, adecuado para cargas de hasta
-    3kW
+-   Relais: 13 (3) A, 230 V CA, adecuado para cargas de hasta 3 kW
 
 -   Alimentation: 230 V CA, 50 Hz
 
@@ -66,8 +64,7 @@ Datos del módulo
 
 -   ID del fabricante : 89
 
--   Tipo de producto : 1/2 (dependiendo de si se incluye con una sonda
-    o no)
+-   Tipo de producto : 1/2 (dependiendo de si se incluye con una sonda de temperatura o no)
 
 Configuration
 -------------
@@ -101,8 +98,7 @@ Aquí está la lista de comandos :
 
 -   Apagado : es el comando para apagar el relé
 
--   Temperatura : este es el comando de medición de temperatura si un
-    sonda externa está presente
+-   Temperatura : es el comando de medición de temperatura si hay una sonda externa presente
 
 ### Configuracion del modulo
 
@@ -118,19 +114,15 @@ configuraciones)
 
 Detalles del parámetro :
 
--   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte
-    documentación del módulo)
+-   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte la documentación del módulo)
 
 -   2: Ajusta la unidad de temperatura
 
--   3: Le permite configurar el intervalo de tiempo de envío de temperatura
-    en Jeedom (en segundos)
+-   3: Establezca el intervalo de tiempo para enviar la temperatura a Jeedom (en segundos)
 
--   4: Ajusta cuánto debe variar la temperatura para
-    el módulo lo envía a Jeedom (en pasos de 0.1 10- → 0.1)
+-   4: Le permite establecer cuánto debe variar la temperatura para que el módulo lo envíe a Jeedom (en pasos de 0.1 10- → 0.1)
 
--   5: Le permite establecer una temperatura de corte por encima de la cual
-    el módulo cortará el relé
+-   5: Le permite establecer una temperatura de corte por encima de la cual el módulo cortará el relé
 
 ### Groupes
 

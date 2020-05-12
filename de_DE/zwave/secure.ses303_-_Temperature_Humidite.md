@@ -19,11 +19,9 @@ Verdrahten Sie verschiedene externe SICHERE Sonden mit dem Modul, d.h:
 
 -   Ein externer NTC-Temperatursensor (SES001)
 
--   4 verdrahtete Temperatursensoren für Schlauch oder Tank (SES002)
-    durch 1m Kabel verbunden
+-   4 verdrahtete Temperatursensoren für Schlauch oder Tank (SES002), die über 1 m lange Kabel verbunden sind
 
--   1 verdrahteter Temperatursensor für Schlauch oder Tank (SES003)
-    durch ein 4m Kabel verbunden
+-   1 verdrahteter Temperatursensor für Schlauch oder Tank (SES003), angeschlossen über ein 4 m langes Kabel
 
 Diese Module sind ideal für die Temperaturmessung in
 Zentralheizungssteuerungsanwendungen oder andere
@@ -36,8 +34,7 @@ Fonctions
 
 -   Präzise Messung von Temperatur und Luftfeuchtigkeit
 
--   Anwendung in dynamischen Steuerungssystemen
-    Tanks / Rohre / Fußbodenheizung /…
+-   Anwendung in dynamischen Steuerungssystemen von Tanks / Rohren / Fußbodenheizungen /…
 
 -   Möglichkeit, externe Sensoren anzuschließen
 
@@ -135,17 +132,13 @@ Einstellungen)
 
 Parameterdetails :
 
--   1: Stellt ein, um wie viel die Temperatur variieren muss
-    Das Modul sendet es an Jeedom (in Schritten von 0,1)
+-   1: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0,1)
 
--   2: Hier können Sie das Zeitintervall für das Senden der Temperatur einstellen
-    in Jeedom (in Minuten)
+-   2: Hier können Sie das Zeitintervall für das Senden der Temperatur an Jeedom festlegen (in Minuten)
 
--   3: Stellt ein, wie stark die Luftfeuchtigkeit variieren muss, damit die
-    Modul sendet es an Jeedom (um%)
+-   3: Hier können Sie festlegen, wie stark die Luftfeuchtigkeit variieren muss, damit das Modul sie an Jeedom sendet (um%)
 
--   4: Legt das Zeitintervall für das Senden von Feuchtigkeit an fest
-    Jeedom (in Minuten)
+-   4: Legt das Intervall für das Senden von Feuchtigkeit an Jeedom fest (in Minuten)
 
 Alle anderen Parameter sind identisch und entsprechen allen
 externe Sonden möglicherweise angeschlossen

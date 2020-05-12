@@ -123,15 +123,13 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Intensität : Dies ist der Befehl zum Einstellen der Intensität des
-    Licht
+-   Intensität : Dies ist der Befehl zum Einstellen der Lichtintensität
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Licht
+-   Zustand : Es ist der Befehl, mit dem der Status des Lichts ermittelt werden kann
 
 Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
 auf dem gleichen Symbol gefunden.
@@ -151,20 +149,15 @@ Einstellungen)
 
 Parameterdetails :
 
--   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
-    empfohlen, diesen Wert zu ändern.
+-   1 : Dieser Parameter definiert den Statuswertbefehl. Es ist nicht ratsam, diesen Wert zu ändern.
 
--   2 : Dieser Parameter definiert die Verzögerung beim Senden der Statusänderung an
-    Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
+-   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 
--   3 : Mit diesem Parameter können Sie festlegen, ob der Switch seine Funktion wieder aufnehmen soll
-    Status (EIN oder AUS) nach einer Wiederherstellung der Stromversorgung.
+-   3 : Mit diesem Parameter wird festgelegt, ob der Schalter nach einer Wiederherstellung der Stromversorgung seinen Status (EIN oder AUS) wieder einnimmt.
 
--   4 : Dieser Parameter definiert den Typ
-    Schalter (Push / Bistable)
+-   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
 
--   5 : Dieser Parameter definiert, ob der Schalter in funktioniert
-    Variationsmodus oder Ein / Aus-Modus
+-   5 : Dieser Parameter definiert, ob der Schalter im Dimmmodus oder im Ein / Aus-Modus arbeitet
 
 ### Groupes
 
@@ -181,8 +174,7 @@ Gut zu wissen
 
 ### Besonderheiten
 
--   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-    Sekunden.
+-   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
 ### Alternative visuelle
 

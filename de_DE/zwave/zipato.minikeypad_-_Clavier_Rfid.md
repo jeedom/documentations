@@ -42,8 +42,7 @@ Fonctions
 
 -   LED-Anzeige zur Bestätigung jeder Aktion
 
--   Integrierter Summer zur akustischen Anzeige von Aktivierung / Deaktivierung
-    der Alarm zum Beispiel
+-   Integrierter Summer zum Beispiel zur akustischen Anzeige der Alarmschaltung / -entschaltung
 
 Technische Daten
 ---------------------------
@@ -114,14 +113,11 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
-    für zu Hause)
+-   Aktion : es ist der Befehl, der nach Hause / weg geht (5 für weg 6 für zu Hause)
 
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
-    herausreißen)
+-   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 
--   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn der Code eingegeben wurde
-    ist nicht in einer der Erinnerungen
+-   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn sich der eingegebene Code nicht in einem der Speicher befindet
 
 -   Batterie : Es ist der Batteriebefehl
 
@@ -149,13 +145,11 @@ Parameterdetails :
 
 -   2: Widerrufsfrist (nicht zu ändern)
 
--   3: Rückkehr per Piepton : Ermöglicht das Aktivieren oder Nicht-Aktivieren einer Reihe von 8 Signaltönen
-    nach Erkennung eines Ausweises / Codes
+-   3: Rückkehr per Piepton : Ermöglicht das Aktivieren oder Nicht-Aktivieren einer Reihe von 8 Signaltönen nach Erkennung eines Ausweises / Codes
 
 -   4: Anzahl der Pieptöne pro Sekunde (nicht ändern hat keine Auswirkung)
 
--   5: Betriebsart : normaler oder immer wacher Modus
-    (nicht empfohlen, da sehr sehr batterieverbrauchend)
+-   5: Betriebsart : normaler oder immer wacher Modus (nicht empfohlen, da sehr, sehr batterieintensiv)
 
 ### Groupes
 
@@ -178,19 +172,15 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
--   In dieser Tabelle können Sie die auf Ihrem Computer belegten Speicher anzeigen
-    clavier
+-   In dieser Tabelle können Sie die auf Ihrer Tastatur belegten Speicher anzeigen
 
--   Um einen neuen Code zu registrieren, klicken Sie auf die grüne Schaltfläche auf der
-    gewünschter Speicher und folgen Sie den Schritten
+-   Um einen neuen Code zu registrieren, klicken Sie auf die grüne Schaltfläche im gewünschten Speicher und befolgen Sie die Schritte
 
 -   Um einen Code zu löschen, klicken Sie einfach auf die rote Schaltfläche.
 
--   Es ist unmöglich, denselben Code / dasselbe Abzeichen in zwei Speichern zu speichern
-    anders
+-   Es ist unmöglich, denselben Code / dasselbe Abzeichen in zwei verschiedenen Speichern zu speichern
 
--   Es ist (aus Sicherheitsgründen) unmöglich, den Wert von a zu lesen
-    registrierter Code
+-   Es ist (aus Sicherheitsgründen) unmöglich, den Wert eines registrierten Codes zu lesen
 
 > **Wichtig**
 >
@@ -217,12 +207,9 @@ Gut zu wissen
 
 Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
--   wenn Sie für die ersten 1 bis 2 nach Hause / weg drücken
-    Sekunden, wenn Sie anfangen, einen Code einzugeben, wird dieser Code gelesen
+-   Wenn Sie die ersten 1 bis 2 Sekunden auf Home / Away drücken und einen Code eingeben, wird dieser Code gelesen
 
--   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, beginnt es
-    Lesemodus für RFID-Ausweise (rotes Licht an). Zu dieser Zeit
-    er kann ein Abzeichen lesen, nicht vorher.
+-   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, wechselt es in den RFID-Ausweislesemodus (rotes Licht an). Zu dieser Zeit kann er ein Abzeichen lesen, nicht vorher.
 
 Wakeup
 ------

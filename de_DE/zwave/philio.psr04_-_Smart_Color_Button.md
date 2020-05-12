@@ -3,7 +3,7 @@ Philio Smart Farbknopf
 
 -   **Das Modul**
 
-![Modul](images/philio.psr04/module.jpg)
+![module](images/philio.psr04/module.jpg)
 
 -   **Das Jeedom Visual**
 
@@ -67,8 +67,7 @@ Fonctions
 Technische Daten
 ---------------------------
 
--   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v
-    die Batterie : 6 Monate für 2 Stunden aufladen
+-   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v Akkulaufzeit : 6 Monate für 2 Stunden aufladen
 
 -   Standby-Verbrauch : 18µA
 
@@ -128,11 +127,9 @@ disponibles.
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
-    100%
+-   Zustand : Es ist der Befehl, der die Position der Taste von 0 auf 100% erhöht
 
--   Batterie : Dies ist der Befehl, der den Batteriestatus des
-    module
+-   Batterie : Es ist der Befehl, der den Batteriestatus des Moduls meldet
 
 ### Konfiguration des Moduls
 
@@ -160,12 +157,9 @@ Parameterdetails :
 
 -   10 : Zeitintervall für den Batterieaufstieg
 
--   25 : ermöglicht zu definieren, ob das Modul seine Position sendet
-    automatisch nach Drehung (1s Verzögerung) oder wenn es notwendig ist zu drücken
-    auf die Schaltfläche, um das Senden zu bestätigen
+-   25 : Hiermit können Sie festlegen, ob das Modul seine Position nach der Drehung automatisch sendet (1s Verzögerung) oder ob die Taste gedrückt werden muss, um das Senden zu bestätigen
 
--   26 : Aktiviert das Senden einer Szene oder nicht, wenn die zentrale Taste gedrückt wird
-    (Parameter in Jeedom nicht berücksichtigt)
+-   26 : Aktiviert das Senden einer Szene oder nicht beim Drücken der zentralen Taste (Parameter in Jeedom nicht berücksichtigt)
 
 ### Groupes
 

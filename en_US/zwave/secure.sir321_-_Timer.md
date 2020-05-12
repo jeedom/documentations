@@ -28,8 +28,7 @@ SES002 and SES003.
 Fonctions
 ---------
 
--   Booster for immersion heater, panel radiator, heated towel rail,
-    oil bath radiator
+-   Booster for immersion heater, panel radiator, towel radiator, oil bath radiator
 
 -   Boiler timer
 
@@ -46,8 +45,7 @@ Technical characteristics
 
 -   Type: Electronic timer
 
--   Relais: 13 (3) A, 230V AC, suitable for loads up to
-    3kW
+-   Relais: 13 (3) A, 230V AC, suitable for loads up to 3kW
 
 -   Alimentation: 230V AC, 50Hz
 
@@ -66,8 +64,7 @@ Module data
 
 -   Manufacturer ID : 89
 
--   Product Type : 1/2 (depending on whether it is included with a probe
-    or not)
+-   Product Type : 1/2 (depending on whether it is included with a temperature probe or not)
 
 Configuration
 -------------
@@ -101,8 +98,7 @@ Here is the list of commands :
 
 -   Off : it is the command to switch off the relay
 
--   Temperature : this is the temperature measurement command if a
-    external probe is present
+-   Temperature : it is the temperature measurement command if an external probe is present
 
 ### Configuration of the module
 
@@ -118,19 +114,15 @@ settings)
 
 Parameter details :
 
--   1: Allows you to activate or not the fail safe timer function (refer to
-    module documentation)
+-   1: Allows you to activate or not the fail safe timer function (refer to the module documentation)
 
 -   2: Adjusts the temperature unit
 
--   3: Allows you to set the temperature sending time interval
-    at Jeedom (in seconds)
+-   3: Set the time interval for sending the temperature to Jeedom (in seconds)
 
--   4: Adjusts how much the temperature must vary for
-    the module sends it to Jeedom (in steps of 0.1 10- → 0.1)
+-   4: Allows you to set how much the temperature must vary for the module to send it to Jeedom (in steps of 0.1 10- → 0.1)
 
--   5: Allows you to set a cut off temperature above which
-    the module will cut off the relay
+-   5: Allows you to set a cut off temperature above which the module will cut off the relay
 
 ### Groupes
 

@@ -39,9 +39,7 @@ Fonctions
 
 -   Detector 3 en 1: movimiento, temperatura, luz
 
--   Adopta el reciente chip de la serie Z-Wave 400 para admitir
-    operaciones multicanal y más rendimiento de datos
-    alto (9.6 / 40 / 100kbps)
+-   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
 
 -   Utiliza el SDK de Z-Wave 6.02
 
@@ -134,16 +132,13 @@ Aquí está la lista de comandos :
 
 -   Presencia : es el comando que detectará una detección de presencia
 
--   Apertura : es el comando que generará una detección
-    d'ouverture
+-   Apertura : es el comando que generará una detección de apertura
 
--   Temperatura : es el comando que permite subir el
-    Temperatura
+-   Temperatura : es el comando que hace posible elevar la temperatura
 
 -   Brillo : es el comando que hace posible aumentar el brillo
 
--   Sabotaje : Este es el comando de sabotaje (se activa en
-    arrancando)
+-   Sabotaje : Este es el comando de sabotaje (se activa en caso de desgarro)
 
 -   Batería : es el comando de la batería
 
@@ -172,33 +167,23 @@ Configuraciones)
 
 Detalles del parámetro :
 
--   2: permite ajustar la señal enviada a los módulos en el grupo
-    asociación 2
+-   2: establece la señal enviada a los módulos en el grupo de asociación 2
 
--   3: ajusta la sensibilidad del sensor de presencia (0 :
-    discapacitado 99: máxima sensibilidad)
+-   3: ajusta la sensibilidad del sensor de presencia (0 : discapacitado 99: máxima sensibilidad)
 
--   4: ajusta el nivel de brillo desde el cual
-    la señal definida en el parámetro 2 se enviará a los módulos asociados con el
-    grupo 2
+-   4: ajusta el nivel de brillo desde el cual la señal definida en el parámetro 2 se enviará a los módulos asociados con el grupo 2
 
--   5: modo de funcionamiento (no se recomienda cambiarlo : referir
-    en la documentación del fabricante)
+-   5: modo de funcionamiento (no se recomienda cambiarlo : consulte la documentación del fabricante)
 
--   6: modo de funcionamiento multisensor (no se recomienda cambiarlo
-    : consulte la documentación del fabricante)
+-   6: modo de funcionamiento multisensor (no se recomienda cambiarlo : consulte la documentación del fabricante)
 
--   9: permite definir después de cuánto tiempo será la señal OFF
-    enviado a módulos asociados con el grupo 2
+-   9: permite definir después de cuánto tiempo se enviará la señal OFF a los módulos asociados con el grupo 2
 
--   10: le permite definir la duración entre dos informes de batería (uno
-    unidad = 30 minutos)
+-   10: le permite definir la duración entre dos informes de batería (una unidad = 30 minutos)
 
--   12: se usa para definir la duración entre dos informes de brillo
-    (una unidad = 30 minutos)
+-   12: le permite definir la duración entre dos informes de brillo (una unidad = 30 minutos)
 
--   13: permite definir el tiempo entre dos informes de temperatura
-    (una unidad = 30 minutos)
+-   13: le permite definir el tiempo entre dos informes de temperatura (una unidad = 30 minutos)
 
 ### Groupes
 

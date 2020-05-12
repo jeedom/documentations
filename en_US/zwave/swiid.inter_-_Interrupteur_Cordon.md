@@ -39,16 +39,13 @@ distance.
 Fonctions
 ---------
 
--   Cord switch usable both manually
-    (short press) and by remote radio (Z-Wave)
+-   Switch on cord usable both manually (short press) and by radio remote (Z-Wave)
 
--   Use as a replacement for a standard cord switch
-    a bedside, table or desk lamp
+-   Use as a replacement for a standard cord switch on a bedside, table, or desk lamp
 
 -   ON / OFF function
 
--   Activation of a home automation scenario on long press
-    (Z-Wave association)
+-   Activation of a home automation scenario on long press (Z-Wave association)
 
 -   Dimensions comparable to an ordinary cord switch
 
@@ -125,8 +122,7 @@ disponibles.
 
 Here is the list of commands :
 
--   State : It is the command which allows to know the status of the
-    Light
+-   State : It is the command which allows to know the status of the light
 
 -   We : It is the control that turns on the light
 
@@ -155,14 +151,11 @@ swiidinter to another module (long press)
 
 -   Inactive : will have no effect on other lights
 
--   Only OFF : will be effective only to turn off others
-    Lights
+-   Only OFF : will be effective only to turn off other lights
 
--   ON ONLY : will be effective only to turn on the others
-    Lights
+-   ON ONLY : will be effective only to turn on the other lights
 
--   ON and OFF (fully) : will be effective to turn on and off the
-    other lights
+-   ON and OFF (fully) : will be effective to turn other lights on and off
 
 ### Groupes
 

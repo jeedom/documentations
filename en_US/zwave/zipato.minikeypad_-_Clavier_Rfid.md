@@ -42,8 +42,7 @@ Fonctions
 
 -   LED indicator to confirm each action
 
--   Integrated buzzer for audible indication of arming / disarming
-    the alarm for example
+-   Integrated buzzer for audible indication of alarm arming / disarming for example
 
 Technical characteristics
 ---------------------------
@@ -114,14 +113,11 @@ disponibles.
 
 Here is the list of commands :
 
--   ACTION : it is the command which will go up the home / away (5 for away 6
-    for home)
+-   ACTION : it is the command which will go up the home / away (5 for away 6 for home)
 
--   Sabotage : this is the sabotage command (it is triggered in
-    tearing out)
+-   Sabotage : this is the sabotage command (it is triggered in the event of tearing)
 
--   CODED : displays the badge or keypad code when the code entered
-    is not in one of the memories
+-   CODED : displays the badge or keypad code when the code entered is not in one of the memories
 
 -   Drums : it's the battery command
 
@@ -149,13 +145,11 @@ Parameter details :
 
 -   2: cancellation period (not to be changed)
 
--   3: return by beep : allows to activate or not a series of 8 beeps
-    after recognition of a badge / code
+-   3: return by beep : allows to activate or not a series of 8 beeps after recognition of a badge / code
 
 -   4: number of beeps per second (do not change has no effect)
 
--   5: operating mode : normal or always awake mode
-    (not recommended because very very battery consuming)
+-   5: operating mode : normal or always awake mode (not recommended because very very battery consuming)
 
 ### Groupes
 
@@ -178,19 +172,15 @@ This allows you to add codes. You will see a table there.
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
--   This table allows you to view the memories occupied on your
-    clavier
+-   This table allows you to view the memories occupied on your keyboard
 
--   To register a new code click on the green button on the
-    desired memory and follow the steps
+-   To register a new code click on the green button on the desired memory and follow the steps
 
 -   To delete a code just click on the red button.
 
--   It is impossible to save the same code / badge on two memories
-    different
+-   It is impossible to save the same code / badge on two different memories
 
--   It is impossible (for security reasons) to read the value of a
-    registered code
+-   It is impossible (for security reasons) to read the value of a registered code
 
 > **IMPORTANT**
 >
@@ -217,12 +207,9 @@ Good to know
 
 The keypad reads codes / badges in two ways :
 
--   when you press home / away for the first 1 to 2
-    seconds if you start typing a code it will read that code
+-   when you press home / away for the first 1 to 2 seconds if you start typing a code, it will read that code
 
--   if nothing is done within the first 1 to 2 seconds, it starts
-    RFID badge reading mode (red light on). At this moment
-    he can read a badge, not before.
+-   if nothing is done within the first 1 to 2 seconds, it goes into RFID badge reading mode (red light on). At that time he can read a badge, not before.
 
 Wakeup
 ------

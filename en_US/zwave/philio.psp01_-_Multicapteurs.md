@@ -39,9 +39,7 @@ Fonctions
 
 -   3 in 1 detector: movement, temperature, light
 
--   Adopts the recent Z-Wave 400series chip to support
-    multichannel operations and more data throughput
-    high (9.6 / 40 / 100kbps)
+-   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
 
 -   Uses the Z-Wave 6.02 SDK
 
@@ -134,16 +132,13 @@ Here is the list of commands :
 
 -   Presence : it is the command which will detect a presence detection
 
--   Opening : it is the command which will raise a detection
-    d'ouverture
+-   Opening : it is the command which will raise an opening detection
 
--   Temperature : it is the command which allows to go up the
-    Temperature
+-   Temperature : it is the command which makes it possible to raise the temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
--   Sabotage : this is the sabotage command (it is triggered in
-    tearing out)
+-   Sabotage : this is the sabotage command (it is triggered in the event of tearing)
 
 -   Drums : it's the battery command
 
@@ -172,33 +167,23 @@ Settings)
 
 Parameter details :
 
--   2: allows to adjust the signal sent to the modules in the group
-    association 2
+-   2: sets the signal sent to the modules in association group 2
 
--   3: adjusts the sensitivity of the presence sensor (0 :
-    disabled 99: maximum sensitivity)
+-   3: adjusts the sensitivity of the presence sensor (0 : disabled 99: maximum sensitivity)
 
--   4: adjusts the brightness level from which the
-    signal defined in parameter 2 will be sent to the modules associated with the
-    group 2
+-   4: adjusts the brightness level from which the signal defined in parameter 2 will be sent to the modules associated with group 2
 
--   5: operating mode (not recommended to change it : report to
-    on the manufacturer's documentation)
+-   5: operating mode (not recommended to change it : refer to the manufacturer's documentation)
 
--   6: multi-sensor operating mode (not recommended to change it
-    : refer to the manufacturer's documentation)
+-   6: multi-sensor operating mode (not recommended to change it : refer to the manufacturer's documentation)
 
--   9: allows to define after how long the OFF signal will be
-    sent to modules associated with group 2
+-   9: allows to define after how long the OFF signal will be sent to the modules associated with group 2
 
--   10: allows you to define the duration between two battery reports (one
-    unit = 30 minutes)
+-   10: allows you to define the duration between two battery reports (one unit = 30 minutes)
 
--   12: used to define the duration between two brightness reports
-    (one unit = 30 minutes)
+-   12: allows you to define the duration between two brightness reports (one unit = 30 minutes)
 
--   13: allows to define the time between two temperature reports
-    (one unit = 30 minutes)
+-   13: allows you to define the time between two temperature reports (one unit = 30 minutes)
 
 ### Groupes
 

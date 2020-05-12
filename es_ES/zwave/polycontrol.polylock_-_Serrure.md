@@ -46,8 +46,7 @@ Fonctions
 
 -   Se adapta a la mayoría de las puertas
 
--   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema
-    d'alarme
+-   Se puede integrar en escenas Z-Wave, por ejemplo, para un sistema de alarma
 
 -   Adecuado para uso doméstico o comercial
 
@@ -62,8 +61,7 @@ Características técnicas
 
 -   Frecuencia : 868.42 Mhz
 
--   Alcance : hasta 100 m en exteriores, hasta 30 m en
-    edificios
+-   Alcance : hasta 100 m en exteriores, hasta 30 m en edificios
 
 -   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
 
@@ -109,8 +107,7 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Estado : es el comando que subirá la última acción
-    ejecutado (abrir / cerrar)
+-   Estado : Este es el comando que volverá a la última acción ejecutada (abrir / cerrar)
 
 -   Abrir : es el comando que abre la cerradura
 
@@ -140,20 +137,15 @@ configuraciones)
 
 Detalles del parámetro :
 
--   0: permite cambiar la dirección de rotación de los comandos
-    abrir / cerrar
+-   0: permite cambiar la dirección de rotación de los comandos de apertura / cierre
 
--   1: le permite definir cuánto tiempo girará la cerradura
-    abierto (0 a 15 s)
+-   1: le permite definir cuánto tiempo se abrirá la cerradura para abrir (0 a 15 s)
 
--   2: le permite definir cuánto tiempo girará la cerradura
-    cerrar (0 a 15 s)
+-   2: le permite definir cuánto tiempo se cerrará la cerradura (0 a 15 s)
 
--   3: Se utiliza para definir la velocidad de rotación de la cerradura (0 a 15,
-    15 siendo el más lento)
+-   3: se usa para definir la velocidad de rotación de la cerradura (de 0 a 15, siendo 15 la más lenta)
 
--   4: le permite elegir entre diferentes modos de operación
-    (par, fuerza, potencia, etc.)
+-   4: le permite elegir entre diferentes modos de funcionamiento (par, fuerza, potencia, etc.)
 
 ### Groupes
 

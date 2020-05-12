@@ -46,8 +46,7 @@ Fonctions
 
 -   Fits most doors
 
--   Can be integrated into Z-Wave scenes, for example for a system
-    d'alarme
+-   Can be integrated into Z-Wave scenes, for example for an alarm system
 
 -   Suitable for home or business use
 
@@ -62,8 +61,7 @@ Technical characteristics
 
 -   Frequency : 868.42 Mhz
 
--   Scope : up to 100 m outdoors, up to 30 m in
-    buildings
+-   Scope : up to 100 m outdoors, up to 30 m in buildings
 
 -   Dimensions : 120 x 52 x 60 mm (L x W x H)
 
@@ -109,8 +107,7 @@ disponibles.
 
 Here is the list of commands :
 
--   Status : it is the command which will go up the last action
-    executed (open / close)
+-   Status : this is the command that will go back to the last action executed (open / close)
 
 -   Open : it is the command which opens the lock
 
@@ -140,20 +137,15 @@ settings)
 
 Parameter details :
 
--   0: allows to change the direction of rotation for the commands
-    open close
+-   0: allows to change the direction of rotation for the open / close commands
 
--   1: allows you to define how long the lock will turn for
-    open (0 to 15 s)
+-   1: allows you to define how long the lock will turn to open (0 to 15 s)
 
--   2: allows you to define how long the lock will turn for
-    close (0 to 15 s)
+-   2: allows you to define how long the lock will turn to close (0 to 15 s)
 
--   3: used to define the speed of rotation of the lock (0 to 15,
-    15 being the slowest)
+-   3: used to define the speed of rotation of the lock (0 to 15, 15 being the slowest)
 
--   4: allows you to choose from different operating modes
-    (torque, force, power etc…)
+-   4: allows you to choose from different operating modes (torque, force, power, etc.)
 
 ### Groupes
 

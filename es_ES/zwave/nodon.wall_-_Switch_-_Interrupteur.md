@@ -48,8 +48,7 @@ Características técnicas
 
 -   Altitud : 2000m
 
--   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave
-    Plus® SDK 06.51.06
+-   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave Plus® SDK 06.51.06
 
 -   Alcance : 40m en interiores / 70m en exteriores
 
@@ -142,14 +141,11 @@ configuraciones)
 
 Detalles del parámetro :
 
--   1-2 : Le permite elegir el perfil de los botones cuando se usa en
-    central (no es necesario para usar en Jeedom)
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa centralmente (inútil para usar en Jeedom)
 
--   3 : Parámetro importante para decir si el interruptor debería funcionar
-    en el modo de escena o escena central (escena configurada absolutamente)
+-   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (escena configurada absolutamente)
 
--   4-7 : Elija el modo de funcionamiento del botón (en caso de que
-    asociaciones de grupo)
+-   4-7 : Elija el modo de operación del botón (en caso de asociaciones de grupo)
 
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
@@ -161,15 +157,11 @@ Este módulo tiene 7 grupos de asociación.
 
 ![Groupe](images/nodon.wallswitch/groupe2.jpg)
 
--   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
-    transferir información del Smart Plug al controlador principal
-    de la red.
+-   Grupo 1 - Línea de vida : Este grupo se usa generalmente para informar información del Smart Plug al controlador de red principal.
 
--   Grupo 2 a 5: los dispositivos de estos grupos están controlados por
-    botón correspondiente según perfil MONO
+-   Grupo 2 a 5: los dispositivos de estos grupos se controlan mediante el botón correspondiente según el perfil MONO
 
--   Grupo 6 a 7: los dispositivos de estos grupos están controlados por
-    botón correspondiente según perfil DUO
+-   Grupo 6 a 7: los dispositivos de estos grupos se controlan mediante el botón correspondiente según el perfil DUO
 
 > **Importante**
 >
@@ -180,9 +172,7 @@ Bueno saber
 
 ### Específicos
 
--   Este módulo puede ser complicado en la inclusión. No dudes en
-    despertarse 1 o 2 veces después de la inclusión. Y revisa el
-    grupo de asociación.
+-   Este módulo puede ser complicado en la inclusión. No dudes en despertarlo 1 o 2 veces después de la inclusión. Bueno revisa el grupo de asociación.
 
 Wakeup
 ------

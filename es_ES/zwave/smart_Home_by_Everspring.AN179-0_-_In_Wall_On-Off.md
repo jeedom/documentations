@@ -60,8 +60,7 @@ Características técnicas
 
 -   El consumo : 0.5W
 
--   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W
-    : Bombilla fluorescente compacta de 1200 vatios : 320W
+-   Potencia máxima : Carga resistiva : Bombilla incandescente de 2500W : Bombilla fluorescente compacta de 1200 vatios : 320W
 
 -   Frecuencia : 868.42 Mhz
 
@@ -117,8 +116,7 @@ Aquí está la lista de comandos :
 
 -   Apagado : Es el comando que apaga la luz
 
--   Estado : Es el comando que permite conocer el estado de la
-    Iluminación
+-   Estado : Es el comando que permite conocer el estado de la luz
 
 Tenga en cuenta que en el tablero, la información de estado, ON / OFF, se puede encontrar en
 el mismo icono.
@@ -138,17 +136,13 @@ configuraciones)
 
 Detalles del parámetro :
 
--   1 : Este parámetro define el comando de valor de estado, no es
-    aconseja cambiar este valor.
+-   1 : Este parámetro define el comando de valor de estado, no es aconsejable cambiar este valor.
 
--   2 : Este parámetro define el retraso en el envío del cambio de estado a
-    grupo 1 (valor entre 3 y 25 segundos)
+-   2 : Este parámetro define el retraso para enviar el cambio de estado al grupo 1 (valor entre 3 y 25 segundos)
 
--   3 : Este parámetro le permite definir si el interruptor reanudará su
-    estado (ON u OFF) después de una recuperación de energía.
+-   3 : Este parámetro se usa para definir si el interruptor reanudará su estado (ON u OFF) después de una recuperación de energía.
 
--   4 : Este parámetro define el tipo
-    interruptor (push / biestable)
+-   4 : Este parámetro define el tipo de interruptor (push / bistable)
 
 ### Groupes
 
@@ -165,8 +159,7 @@ Bueno saber
 
 ### Específicos
 
--   La retroalimentación de estado no se puede configurar por debajo de 3
-    segundos.
+-   La retroalimentación de estado no se puede configurar en 3 segundos.
 
 ### Visual alternativo
 

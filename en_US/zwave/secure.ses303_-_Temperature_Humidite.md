@@ -19,11 +19,9 @@ wire various external SECURE probes to the module, i.e:
 
 -   An external NTC temperature sensor (SES001)
 
--   4 wired temperature sensors for hose or tank (SES002)
-    connected by 1m cables
+-   4 wired temperature sensors for hose or tank (SES002) connected by 1m cables
 
--   1 wired temperature sensor for hose or tank (SES003)
-    connected by a 4m cable
+-   1 wired temperature sensor for hose or tank (SES003) connected by a 4m cable
 
 These modules are ideal for temperature measurement in
 central heating control applications or any other
@@ -36,8 +34,7 @@ Fonctions
 
 -   Precise measurement of temperature and humidity
 
--   Application in dynamic control systems
-    tanks / tubes / heated floors /…
+-   Application in dynamic control systems of tanks / tubes / heated floors /…
 
 -   Possibility to connect external sensors
 
@@ -135,17 +132,13 @@ settings)
 
 Parameter details :
 
--   1: Adjusts how much the temperature must vary for
-    the module sends it to Jeedom (in steps of 0.1)
+-   1: Allows you to set how much the temperature must vary for the module to send it to Jeedom (in steps of 0.1)
 
--   2: Allows you to set the temperature sending time interval
-    in Jeedom (in minutes)
+-   2: Allows you to set the time interval for sending the temperature to Jeedom (in minutes)
 
--   3: Adjusts how much the humidity must vary so that the
-    module sends it to Jeedom (by%)
+-   3: Allows you to set how much the humidity must vary for the module to send it to Jeedom (by%)
 
--   4: Sets the time interval for sending humidity to
-    Jeedom (in minutes)
+-   4: Sets the interval for sending humidity to Jeedom (in minutes)
 
 All other parameters are identical and correspond to all
 external probes possibly connected

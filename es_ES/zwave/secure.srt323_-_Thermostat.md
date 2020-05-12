@@ -143,8 +143,7 @@ Aquí está la lista de comandos :
 
 -   Consigna : es el comando que hace posible ajustar el punto de ajuste
 
--   Estado de calentamiento : es el comando que hace posible saber si el
-    el termostato está en modo calefacción o no
+-   Estado de calentamiento : Es el comando que permite saber si el termostato está en modo calefacción o no
 
 -   Batería : es el comando de la batería
 
@@ -167,8 +166,7 @@ Detalles del parámetro :
 
 -   2: permite elegir la unidad de temperatura
 
--   3: permite definir el nivel de variación de temperatura para
-    Copia de seguridad del módulo (en unidades de 0.1 ° C)
+-   3: le permite definir el nivel de variación de temperatura para que el módulo lo eleve (en unidades de 0.1 ° C)
 
 ### Groupes
 

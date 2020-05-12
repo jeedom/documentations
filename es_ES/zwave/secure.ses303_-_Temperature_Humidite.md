@@ -19,11 +19,9 @@ conecte varias sondas seguras externas al módulo, es decir:
 
 -   Un sensor de temperatura externo NTC (SES001)
 
--   4 sensores de temperatura con cable para manguera o tanque (SES002)
-    conectado por cables de 1 m
+-   4 sensores de temperatura con cable para manguera o tanque (SES002) conectados por cables de 1 m
 
--   1 sensor de temperatura con cable para manguera o tanque (SES003)
-    conectado por un cable de 4 m
+-   1 sensor de temperatura con cable para manguera o tanque (SES003) conectado por un cable de 4 m
 
 Estos módulos son ideales para la medición de temperatura en
 aplicaciones de control de calefacción central o cualquier otra
@@ -36,8 +34,7 @@ Fonctions
 
 -   Medición precisa de temperatura y humedad
 
--   Aplicación en sistemas de control dinámico
-    tanques / tubos / pisos calentados /…
+-   Aplicación en sistemas de control dinámico de tanques / tubos / suelos calentados /
 
 -   Posibilidad de conectar sensores externos
 
@@ -135,17 +132,13 @@ configuraciones)
 
 Detalles del parámetro :
 
--   1: Ajusta cuánto debe variar la temperatura para
-    el módulo lo envía a Jeedom (en pasos de 0.1)
+-   1: Le permite establecer cuánto debe variar la temperatura para que el módulo lo envíe a Jeedom (en pasos de 0.1)
 
--   2: Le permite configurar el intervalo de tiempo de envío de temperatura
-    en Jeedom (en minutos)
+-   2: Le permite establecer el intervalo de tiempo para enviar la temperatura a Jeedom (en minutos)
 
--   3: Ajusta cuánto debe variar la humedad para que
-    el módulo lo envía a Jeedom (por%)
+-   3: Le permite establecer cuánto debe variar la humedad para que el módulo lo envíe a Jeedom (en%)
 
--   4: Establece el intervalo de tiempo para enviar humedad a
-    Jeedom (en minutos)
+-   4: Establece el intervalo para enviar humedad a Jeedom (en minutos)
 
 Todos los demás parámetros son idénticos y corresponden a todos
 sondas externas posiblemente conectadas

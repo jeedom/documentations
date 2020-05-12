@@ -98,15 +98,13 @@ Fonctions
 
 -   Conexión a través de Bluetooth Smart y Z-Wave
 
--   Integración en controladores Z-Wave compatibles (eedomus,
-    Vera, ...)
+-   Integración en controladores Z-Wave compatibles (eedomus, Vera, ...)
 
 -   Historial de actividad
 
 -   Diferentes opciones de configuración para cerrar y abrir
 
--   Acceso compartido : dar acceso a su señora de la limpieza o un amigo
-    por tiempo limitado
+-   Acceso compartido : dar acceso a su ama de llaves o un amigo por un período limitado
 
 -   Calibración automática
 
@@ -114,8 +112,7 @@ Fonctions
 
 -   Funcionamiento de la batería
 
--   Compatible con iOS (iPhone 4s o posterior), pero
-    también Android (desde 4.4).
+-   Compatible con iOS (iPhone 4s o posterior), pero también Android (desde 4.4).
 
 Características técnicas
 ---------------------------
@@ -197,8 +194,7 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Estado : es el comando que subirá la última acción
-    ejecutado (abrir / cerrar)
+-   Estado : Este es el comando que volverá a la última acción ejecutada (abrir / cerrar)
 
 -   Abrir : es el comando que abre la cerradura
 
@@ -228,45 +224,27 @@ configuraciones)
 
 Detalles del parámetro :
 
--   1 : Dirección 0-1 : 0 = el motor gira en sentido horario
-    bloqueado, 1 = el motor va en sentido antihorario cuando
-    verrouillé
+-   1 : Dirección 0-1 : 0 = El motor gira en sentido horario bloqueado, 1 = El motor gira en sentido antihorario cuando está bloqueado
 
--   2 : Velocidad 1 = más lenta, 2 = lenta, 3 = Normal, 4 = Rápida, 5 = la
-    más rápido
+-   2 : Velocidad 1 = más lenta, 2 = lenta, 3 = Normal, 4 = Rápida, 5 = más rápida
 
--   3 : Modo 1 = accionamiento del motor (ahorro de energía), 2 = modo
-    entrenamiento completo (Normal)
+-   3 : Modo 1 = accionamiento del motor (ahorro de energía), 2 = modo de accionamiento completo (normal)
 
 -   4 : Número de vueltas (1 = 10 grados, 9 = 90 grados, etc.)
 
--   5 : Bloqueo automático 0-60 ¿Cuántos segundos desde el momento?
-    la cerradura se ha desbloqueado para cerrar automáticamente
-    de nuevo. Si 0, está deshabilitado.
+-   5 : Bloqueo automático 0-60 Cuántos segundos desde el momento en que se desbloqueó el bloqueo para cerrarse automáticamente nuevamente. Si 0, está deshabilitado.
 
--   6 : Desactivar o activar la señal de bloqueo o
-    desbloqueo (0 = Desactivar, 1 = Activar)
+-   6 : Desactive o active la señal acústica de bloqueo o desbloqueo (0 = Desactivar, 1 = Activar)
 
--   7 : Tipo de batería : Configure el tipo de batería que
-    alimenta el dispositivo.
+-   7 : Tipo de batería : Configure el tipo de batería que alimenta el dispositivo.
 
--   8 : Alarma de la batería : Cuando el nivel de la batería es más bajo
-    a este valor, el dispositivo informará al usuario con una señal
-    sonido después de bloquear o desbloquear.
+-   8 : Alarma de la batería : Cuando el nivel de la batería es inferior a este valor, el dispositivo informará al usuario con una señal audible después de bloquear o desbloquear.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
-    girará la manija automáticamente cuando
-    operarlo manualmente.
+-   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go girará la manija automáticamente cuando se opera manualmente.
 
--   10 : Brake & GoBack 0 = Deshabilitado. 1⇒15 segundos para frenar. Cuando
-    se usa el freno de bloqueo por x cantidad de segundos, luego
-    retroceder 75 grados. Diseñado para puertas especiales
-    sin palanca. (Solo al desbloquear).
+-   10 : Brake & GoBack 0 = Deshabilitado. 1⇒15 segundos para frenar. Cuando se usan los frenos de bloqueo por x cantidad de segundos, luego retroceden 75 grados. Diseñado para puertas especiales sin palanca. (Solo al desbloquear).
 
--   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando async está activado el
-    el bloqueo se calibrará automáticamente si ya está desbloqueado y
-    Desbloquea nuevamente (usado para cerraduras de puertas
-    puerta especial).
+-   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando se activa asíncrono, la cerradura se calibrará automáticamente si ya está desbloqueada y se desbloqueará nuevamente (se usa para cerraduras especiales).
 
 -   12 : informe de operación
 

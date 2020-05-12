@@ -48,8 +48,7 @@ Technische Daten
 
 -   Höhe : 2000m
 
--   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    Plus® SDK 06.51.06
+-   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Kompatibles Z-Wave Plus® SDK 06.51.06
 
 -   Geltungsbereich : 40 m drinnen / 70 m draußen
 
@@ -142,14 +141,11 @@ Einstellungen)
 
 Parameterdetails :
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
-    zentral (für den Einsatz in Jeedom nicht erforderlich)
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar)
 
--   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
-    im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
+-   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
 
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
-    Gruppenverbände)
+-   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
@@ -161,15 +157,11 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 ![Groupe](images/nodon.wallswitch/groupe2.jpg)
 
--   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
-    Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
-    des Netzwerks.
+-   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen verwendet, um Informationen vom Smart Plug an den Hauptnetzwerkcontroller zu melden.
 
--   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
-    entsprechende Schaltfläche entsprechend MONO-Profil
+-   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden über die entsprechende Schaltfläche entsprechend dem MONO-Profil gesteuert
 
--   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
-    entsprechende Schaltfläche entsprechend DUO-Profil
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden über die entsprechende Schaltfläche entsprechend dem DUO-Profil gesteuert
 
 > **Wichtig**
 >
@@ -180,9 +172,7 @@ Gut zu wissen
 
 ### Besonderheiten
 
--   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
-    1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
-    Assoziationsgruppe.
+-   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
 Wakeup
 ------

@@ -143,8 +143,7 @@ Hier ist die Liste der Befehle :
 
 -   Anleitung : Es ist der Befehl, mit dem der Sollwert eingestellt werden kann
 
--   Heizzustand : es ist der Befehl, der es ermöglicht zu wissen, ob die
-    Thermostat ist im Heizmodus oder nicht
+-   Heizzustand : Mit diesem Befehl können Sie feststellen, ob sich der Thermostat im Heizmodus befindet oder nicht
 
 -   Batterie : Es ist der Batteriebefehl
 
@@ -167,8 +166,7 @@ Parameterdetails :
 
 -   2: ermöglicht die Auswahl der Temperatureinheit
 
--   3: ermöglicht die Definition des Temperaturschwankungsniveaus für
-    das Modul sichern (in Einheiten von 0,1 ° C)
+-   3: Mit dieser Option können Sie den Temperaturschwankungsgrad so definieren, dass das Modul ihn anhebt (in Einheiten von 0,1 ° C)
 
 ### Groupes
 

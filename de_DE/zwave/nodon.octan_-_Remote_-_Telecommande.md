@@ -1,87 +1,53 @@
-Nodon Fernbedienung - Octan
-==========================
+# Nodon Fernbedienung - Octan
 
--   **Das Modul**
+**Das Modul**
 
 ![module](images/nodon.octan/module.jpg)
 
--   **Das Jeedom Visual**
+**Das Jeedom Visual**
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
-Mit der Octan Remote NodOn® können Sie jeden Empfänger steuern
-Z-Wave®- oder Z-Wave Plus®-kompatibel wie die Fernbedienungsbuchse
-NodOn® (Hauptcontrollermodus - Standalone) oder sogar Trigger
-Szenen / Aktionen über ein kompatibles Hausautomationssystem (Modus
-Gateway)
+Mit der Octan Remote NodOn® können Sie jeden Z-Wave®- oder Z-Wave Plus®-kompatiblen Empfänger wie die NodOn®-Fernbedienungsbuchse (Hauptsteuerungsmodus - Standalone) steuern oder sogar Szenen / Aktionen über ein Hausautomationssystem auslösen kompatibel (Gateway-Modus)
 
-Dank seines integrierten Magneten kann er überall befestigt werden, vom Kühler bis zur Tür
-Kühlschrank, durch seine Wandhalterung. Zwischen Fernbedienung
-und schalten, die Octan Remote revolutioniert die Objektsteuerung
-domestiques
+Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom Kühler bis zur Kühlschranktür befestigt werden. Zwischen Fernbedienung und Schalter revolutioniert die Octan-Fernbedienung die Steuerung von Haushaltsgegenständen
 
-Fonctions
----------
+## Fonctions
 
 -   Steuerung allein oder mit einem Hausautomationssystem
-
 -   Integrierter Magnet
-
 -   Farbig geführt
-
 -   Wandplatte
-
 -   2 Jahre Batterie
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
-
 -   4 Tasten
-
--   Wandhalterung mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben
-    (nicht enthalten)
-
+-   Wandhalterung mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten)
 -   Integrierter Magnet zur Befestigung an der Metalloberfläche
-
 -   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
-
--   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave kompatibel
-    Plus® SDK 06.51.01 Geltungsbereich: 40 m innen / 80 m außen
-
+-   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave Plus® SDK 06.51 kompatibel.01 Geltungsbereich: 40 m innen / 80 m außen
 -   Abmessungen : 80 \*80 \*15mm
-
 -   2 Jahre Garantie
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Nodon
-
 -   Name : CRC-3-1-00 Octan Remote
-
 -   Hersteller ID : 357
-
 -   Produkttyp : 2
-
 -   Produkt-ID : 1
 
-Configuration
--------------
+## Configuration
 
-So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
-Aufnahme beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 > **Wichtig**
 >
-> Drücken Sie die beiden Tasten, um dieses Modul in den Einschlussmodus zu versetzen
-> Taste (1 und 2) drücken, bis das Licht rosa wird, dann drücken
-> Taste 1 gemäß der Papierdokumentation.
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die beiden Tasten (1 und 2), bis das Licht rosa wird, und drücken Sie dann die Taste 1 gemäß der Papierdokumentation.
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
@@ -91,8 +57,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ### Commandes
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
 ![Befehle](images/nodon.octan/commandes.jpg)
 
@@ -116,31 +81,21 @@ Hier ist die Liste der Befehle :
 
 > **Wichtig**
 >
-> Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
-> Einbeziehung.
+> Wecken Sie das Modul bei einer ersten Aufnahme immer unmittelbar nach der Aufnahme auf.
 
-Dann, wenn Sie das Modul entsprechend konfigurieren möchten
-Ihrer Installation müssen Sie durch die Schaltfläche gehen
-"Konfiguration "des OpenZwave-Plugins von Jeedom.
+Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
-Einstellungen)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/nodon.octan/config1.jpg)
 
 Parameterdetails :
 
--   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei Verwendung in
-    zentral (für den Einsatz in Jeedom nicht erforderlich)
-
--   3 : Wichtiger Parameter, um zu sagen, ob der Schalter funktionieren soll
-    im Szenen- oder zentralen Szenenmodus (Szene absolut einstellen)
-
--   4-7 : Wählen Sie die Tastenbetriebsart (falls vorhanden)
-    Gruppenverbände)
-
+-   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar)
+-   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
+-   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Groupes
@@ -151,47 +106,26 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
--   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
-    Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
-    des Netzwerks.
-
--   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden von der gesteuert
-    entsprechende Schaltfläche entsprechend MONO-Profil
-
--   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
-    entsprechende Schaltfläche entsprechend DUO-Profil
+-   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen verwendet, um Informationen vom Smart Plug an den Hauptnetzwerkcontroller zu melden.
+-   Gruppe 2 bis 5 - Die Geräte in diesen Gruppen werden über die entsprechende Schaltfläche entsprechend dem MONO-Profil gesteuert
+-   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden über die entsprechende Schaltfläche entsprechend dem DUO-Profil gesteuert
 
 > **Wichtig**
 >
 > Zumindest sollte Jeedom in Gruppe 1 landen
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
--   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
-    Wachen Sie 1 oder 2 Mal nach der Aufnahme auf und überprüfen Sie die
-    Assoziationsgruppe.
+-   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken, und überprüfen Sie die Assoziationsgruppe sorgfältig.
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 
-Faq.
-------
-
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
-Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
-
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >
-> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
-> der Konfiguration, nach einer Änderung des Aufweckens, nach a
-> Änderung der Assoziationsgruppen
-
-**@sarakha63**
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung der Konfiguration, nach einer Änderung des Aufweckens, nach einer Änderung der Assoziationsgruppen

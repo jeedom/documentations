@@ -40,9 +40,7 @@ Fonctions
 
 -   3 in 1 detector: Aperture, temperature, light
 
--   Adopts the recent Z-Wave 400series chip to support
-    multichannel operations and more data throughput
-    high (9.6 / 40 / 100kbps)
+-   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
 
 -   Uses the Z-Wave 6.02 SDK
 
@@ -133,11 +131,9 @@ disponibles.
 
 Here is the list of commands :
 
--   Opening : it is the command which will raise a detection
-    d'ouverture
+-   Opening : it is the command which will raise an opening detection
 
--   Temperature : it is the command which allows to go up the
-    Temperature
+-   Temperature : it is the command which makes it possible to raise the temperature
 
 -   Brightness : it is the command which makes it possible to raise the brightness
 
@@ -167,46 +163,31 @@ settings)
 
 Parameter details :
 
--   2: allows to adjust the signal sent to the modules in the group
-    association 2
+-   2: sets the signal sent to the modules in association group 2
 
--   4: adjusts the brightness level from which the
-    signal defined in parameter 2 will be sent to the modules associated with the
-    group 2
+-   4: adjusts the brightness level from which the signal defined in parameter 2 will be sent to the modules associated with group 2
 
--   5: operating mode (see the
-    manufacturer documentation) Recommended value : 8
+-   5: operating mode (refer to the manufacturer's documentation) Recommended value : 8
 
--   6: multi-sensor operating mode (see the
-    manufacturer documentation) Recommended value : 4
+-   6: multi-sensor operating mode (refer to the manufacturer's documentation) Recommended value : 4
 
--   7: personalized multi-sensor operating mode (see
-    on the manufacturer's documentation) Recommended value : 20 (for
-    have the functional opening)
+-   7: personalized operating mode of the multi-sensor (refer to the manufacturer's documentation) Recommended value : 20 (to have the functional opening)
 
--   9: allows to define after how long the OFF signal will be
-    sent to modules associated with group 2
+-   9: allows to define after how long the OFF signal will be sent to the modules associated with group 2
 
--   10: allows you to define the duration between two battery reports (one
-    unit = parameter 20)
+-   10: used to define the duration between two battery reports (one unit = parameter 20)
 
--   11: allows you to define the duration between two self-opening reports
-    (one unit = parameter 20)
+-   11: allows you to define the duration between two automatic opening reports (one unit = parameter 20)
 
--   12: allows you to define the duration between two auto
-    brightness (one unit = parameter 20) Recommended value : 3
+-   12: allows you to define the duration between two auto brightness reports (one unit = parameter 20) Recommended value : 3
 
--   13: allows you to define the duration between two auto
-    temperature (one unit = parameter 20) Recommended value : 2
+-   13: allows to define the time between two auto temperature reports (one unit = parameter 20) Recommended value : 2
 
--   20: duration of an interval for parameters 10 to 13 Value
-    recommended : 10
+-   20: duration of an interval for parameters 10 to 13 Recommended value : 10
 
--   21: temperature variation value in ° F to trigger a
-    rapport
+-   21: temperature variation value in ° F to trigger a report
 
--   22: value in% of brightness variation to trigger a
-    Report Recommended value : 10
+-   22: value in% of brightness variation to trigger a report Recommended value : 10
 
 ### Groupes
 

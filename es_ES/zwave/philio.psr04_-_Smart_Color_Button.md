@@ -3,7 +3,7 @@ Botón de color inteligente Philio
 
 -   **El módulo**
 
-![Modulo](images/philio.psr04/module.jpg)
+![module](images/philio.psr04/module.jpg)
 
 -   **El visual de Jeedom**
 
@@ -67,8 +67,7 @@ Fonctions
 Características técnicas
 ---------------------------
 
--   Suministro : Batería de polímero de litio 3.7V, 220mA v
-    la batería : 6 meses por 2 horas de carga
+-   Suministro : Batería de polímero de litio 3.7V, 220mA v Duración de la batería : 6 meses por 2 horas de carga
 
 -   Consumo en espera : 18µA
 
@@ -128,11 +127,9 @@ disponibles.
 
 Aquí está la lista de comandos :
 
--   Estado : es el comando que moverá la posición del botón de 0 a
-    100%
+-   Estado : es el comando que elevará la posición del botón de 0 a 100%
 
--   Batería : Este es el comando que informa el estado de la batería del
-    module
+-   Batería : es el comando que informa el estado de la batería del módulo
 
 ### Configuracion del modulo
 
@@ -160,12 +157,9 @@ Detalles del parámetro :
 
 -   10 : intervalo de tiempo de ascenso de la batería
 
--   25 : permite definir si el módulo envía su posición
-    automáticamente después de la rotación (1s de retraso) o si es necesario presionar
-    en el botón para validar el envío
+-   25 : permite definir si el módulo envía su posición automáticamente después de la rotación (1s de retraso) o si es necesario presionar el botón para validar el envío
 
--   26 : activa el envío de escena o no al presionar el botón central
-    (parámetro no tomado en cuenta en Jeedom)
+-   26 : activa el envío de escena o no al presionar el botón central (parámetro no tomado en cuenta en Jeedom)
 
 ### Groupes
 
