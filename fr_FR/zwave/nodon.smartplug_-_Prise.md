@@ -1,28 +1,16 @@
-Nodon Prise Intelligente - Smartplug 
+Nodon Prise Intelligente - Smartplug
 ====================================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/nodon.smartplug/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 La prise télécommandée NodOn® est pilotable via une centrale domotique
 compatible Z- Wave® ou Z-Wave Plus® ou directement via d’autres
@@ -35,12 +23,8 @@ fûts voisins sur une multiprise. L’apprentissage de la prise avec son
 contrôleur nécessite seulement quelques secondes. Un bouton local permet
 d’allumer ou d’éteindre la prise directement.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Détection perte de courant secteur
 
@@ -53,12 +37,8 @@ Fonctions
 
 -   Ampérage maximum: 16A
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Alimentation : 230V AC +/-10% - 50Hz
 
@@ -78,12 +58,8 @@ Caractéristiques techniques
 
 -   Type EU
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Nodon
 
@@ -95,18 +71,12 @@ Données du module
 
 -   Produit ID : 1
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
@@ -114,36 +84,20 @@ inclusion référez-vous à cette
 > jusqu’à que la lumière devienne rouge, conformément à sa documentation
 > papier.
 
-
-
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/nodon.smartplug/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Etat : C’est la commande qui permet de connaitre le statut de la
     prise (Allumée/Eteinte)
@@ -155,41 +109,25 @@ Voici la liste des commandes :
 -   Statut : Permet de savoir si la prise est alimentée ou non
     (Détection coupure de courant / débranchement)
 
-
-
 A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 le même icone.
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin Zwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
-
-
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   1 : Ce paramètre déﬁnit l’état (ON/OFF) de la Smart Plug après une
     coupure de courant ou après branchement
@@ -211,17 +149,11 @@ Détails des paramètres :
     Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
     www.nodon.fr/support/asp3/alarm vous guidera
 
-### Groupes 
-
-
+### Groupes
 
 Ce module possède 8 groupes d’association.
 
-
-
 ![Groupe](images/nodon.smartplug/groupe.jpg)
-
-
 
 -   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
     reporter des informations de la Smart Plug au contrôleur principal
@@ -260,52 +192,34 @@ Ce module possède 8 groupes d’association.
 -   Groupe 8 – Désactivation sur retour de courant Lorsque la Smart Plug
     détecte un retour du courant, elle désactive les appareils associés
 
-
-
 > **Important**
 >
-> A minima Jeedom devrait se retrouver dans les groupes 1 et 4 
+> A minima Jeedom devrait se retrouver dans les groupes 1 et 4
 
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 -   Il est inutile de s’amuser à brancher/débrancher la prise pour
     observer l’alarme. Celle ci ne marchera à peu près que 3 fois. Au
     delà la prise doit rester alimentée un petit moment pour recharger
     la pile interne.
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pas de notion de wakeup sur ce module.
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Vous ne deviez pas avoir l’option télécharger les widgets auto
 d’activée. Vous pouvez récupérer les widgets mobile et dashboard sur le
 market : alarme\_prise.
 
-
-
 Avez-vous bien paramétré le paramètre 2 ? Avez-vous bien Jeedom au moins
 dans les groupes 1 et 4 ? Avez-vous laisser le temps à la pile pour se
 charger ?
-
-
 
 **@sarakha63**

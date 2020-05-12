@@ -1,25 +1,15 @@
-Danalock V2 BTZE 
+Danalock V2 BTZE
 ================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/polycontrol.danalock/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
 
  
@@ -95,10 +85,8 @@ une lunette en aluminium massif anodisé et les technologies de pointe
 Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
 
 
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Contrôlez votre porte d’entrée à distance
 
@@ -129,12 +117,8 @@ Fonctions
 -   Compatible avec iOS (iPhone 4s ou une version ultérieure), mais
     aussi Android (à partir de 4.4).
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Alimentation : 4 piles 3V CR123
 
@@ -148,12 +132,8 @@ Caractéristiques techniques
 
 -   Poids : 363g
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Poly-Control
 
@@ -165,24 +145,16 @@ Données du module
 
 -   Produit ID : 1
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
-
-
 > **Important**
 >
 > Il faut absolument inclure ce module en mode sécurisé..
-
-
 
 Pour mettre le plugin Z-Wave (openzwave) dans Jeedom en mode inclusion
 sécurisée : il suffit d’aller sur la page de gestion des modules Z-wave
@@ -191,15 +163,11 @@ et de cliquer sur l’icône "Réseau Zwave"
 ![inclusion securise jeedom
 1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
 
-
-
 Puis dans l’onglet "Actions" cliquez sur : "AJOUTER MODULE EN MODE
 SECURISE (INCLUSION)"
 
 ![inclusion securise jeedom
 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
-
-
 
 > **Important**
 >
@@ -218,28 +186,16 @@ sur "CONNECT".
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/polycontrol.danalock/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Statut : c’est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
@@ -250,11 +206,7 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Warning**
 >
@@ -263,30 +215,18 @@ Voici la liste des commandes :
 > récupérera toutes modifications de configutation en quasi temps réel
 > comme un module secteur.
 
-
-
 Si vous voulez effectuer la configuration du module en fonction de votre
 installation, il faut pour cela passer par la bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
-
-
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   1 : Direction 0-1 : 0 = Le moteur va dans le sens horaire
     verrouillé, 1 = Le moteur va dans le sens antihoraire lorsque
@@ -330,28 +270,16 @@ Détails des paramètres :
 
 -   12 : rapport d’opération
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède un seul groupe d’association.
 
-
-
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 > **Tip**
 >
@@ -360,37 +288,23 @@ Bon à savoir
 > récupérera toutes modifications de configutation en quasi temps réel
 > comme un module secteur.
 
-
-
 > **Tip**
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main
-> l’état sera mis à jour. 
+> l’état sera mis à jour.
 
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Il n’y a pas de notion de wake up pour ce module.
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
 
-
-
 Pas de notion de wake up sur ce module; lire le paragraphe Spécificités.
-
-
 
 **@noumea**

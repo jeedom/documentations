@@ -1,28 +1,16 @@
 Fibaro FGFS-101 "Flood Sensor" 
 ==============================
 
-
-
 -   **Le module**
-
-
 
 ![module](images/fibaro.fgfs101/module.jpg)
 
-
-
 -   **Le visuel jeedom**
-
-
 
 ![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Le capteur FGFS-101 est compact et possède une grande variété de
 fonctions. Avec sa technologie de pointe et de précision, le capteur
@@ -51,12 +39,8 @@ FGFS-101.
 Ce capteur intègre un testeur de portée de réseau Z-Wave,ce qui vous
 assure du bon fonctionnement du capteur lors de son installation.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Détecteur d’inondation (présence d’eau via contacts)
 
@@ -70,12 +54,8 @@ Fonctions
 
 -   Répeteur Z-Wave ?? (voir rubrique "Bon à savoir")
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type de module : Emetteur Z-Wave
 
@@ -106,12 +86,8 @@ Caractéristiques techniques
 
 -   Normes : EMC 2004/108/EC et R&TTE 199/5/WE
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Fibar Group
 
@@ -125,18 +101,12 @@ Données du module
 
 -   Produit ID : 4097
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
@@ -144,36 +114,20 @@ inclusion référez-vous à cette
 > bouton central d’inclusion,repéré TMP, conformément à sa documentation
 > papier (la languette noir).
 
-
-
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/fibaro.fgfs101/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Fuite : c’est la commande d’alerte du module (pour la présence
     d’eau, inondation …​)
@@ -185,43 +139,27 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite il est nécessaire d’effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
-
-
 
 ![Config1](images/fibaro.fgfs101/config1.jpg)
 
 ![Config2](images/fibaro.fgfs101/config2.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   Wakeup : c’est l’intervalle de réveil du module (valeur
     recommandée 21600)
@@ -262,60 +200,38 @@ Détails des paramètres :
 -   75\. Définition de la durée de l’alarme : de 0 à 65535s (0 par défaut,
     L’alarme s’arrête dès quelle ne détecte plus de défaut.)
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit
 associé à minima aux groupes 1, 4 et 5:
 
-
-
 ![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
 Alimenté par l’extérieur ce module permet de faire office de répéteur
 Z-wave (information non confirmée actuellement)
 
-Le cablage pour une alimentation extérieure. 
+Le cablage pour une alimentation extérieure.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
 
-
-
 Ce module se réveille en appuyant 3 fois sur son bouton d’inclusion.
-
-
 
 Ce module est, par défaut, un module sur batterie, la nouvelle
 configuration sera prise en compte au prochain wakeup.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
@@ -324,12 +240,7 @@ Note importante
 > changement des groupes d’association
 
 
-
-
 Detail d’utilsation :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Documentation fibaro (en) :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
-
-
-

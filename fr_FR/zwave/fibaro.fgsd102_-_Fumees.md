@@ -1,28 +1,16 @@
 Fibaro FGSD-002 "Smoke Sensor 2" 
 ================================
 
-
-
 -   **Le module**
-
-
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
-
-
 -   **Le visuel jeedom**
-
-
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Doté de lignes douces, d’une surface polie et d’une petite taille, ce
 détecteur de fumée vous permettra d’être alerté d’une menace avec des
@@ -48,12 +36,8 @@ pour que le capteur de fumée détecte une menace et le signale aux
 habitants de la maison. Seul ce type de capteur de fumée offre une
 efficacité élevée, indépendamment de ce qui brûle.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Détecteur de fumée Z-Wave
 
@@ -78,12 +62,8 @@ Fonctions
 -   Installation très simple - il suffit de l’installer dans un endroit
     ou il y a un risque de feu
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type de module : Emetteur Z-Wave
 
@@ -114,12 +94,8 @@ Caractéristiques techniques
 
 -   Certifications : EN 14604:2005
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Fibar Group
 
@@ -131,54 +107,32 @@ Données du module
 
 -   Produit ID : 4098
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton central d’inclusion, conformément à sa documentation papier.
 
-
-
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/fibaro.fgsd102/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Fumées : c’est la commande d’alerte du module (pour la fumée, la
     chaleur …​)
@@ -196,43 +150,27 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite il est nécessaire d’effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
-
-
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   Wakeup : c’est l’intervalle de réveil du module (valeur
     recommandée 21600)
@@ -270,72 +208,42 @@ Détails des paramètres :
 
 -   32: intervalle de signal si perte de Zwave
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit
 associé à minima aux groupes 1 4 et 5:
 
-
-
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
+### Spécificités
 
-
-### Spécificités 
-
-
-
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![widget1](images/fibaro.fgsd102/widget1.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
 
-
-
 Ce module se réveille en appuyant 3 fois sur son bouton d’inclusion.
-
-
 
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
-
-
 
 **@sarakha63**

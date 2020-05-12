@@ -1,25 +1,15 @@
-PolyLock 
+PolyLock
 ========
-
-
 
 -   **Le module**
 
-
-
 ![module](images/polycontrol.polylock/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
 
  
@@ -49,12 +39,8 @@ domestique ou de travail. La serrure Poly-Lock est alimentée par
 batterie, et a été testée pour fonctionner pendant 1 an, sans
 remplacement de la batterie.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Contrôlez votre porte d’entrée à distance
 
@@ -69,12 +55,8 @@ Fonctions
 
 -   Installation facile
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 
@@ -87,12 +69,8 @@ Caractéristiques techniques
 
 -   Poids : 370g
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Poly-Control
 
@@ -104,54 +82,32 @@ Données du module
 
 -   Produit ID : 1
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
-
-
 ![inclusion](images/polycontrol.polylock/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/polycontrol.polylock/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Statut : c’est la commande qui remontera la dernière action
     éxécutée (ouvrir/fermer)
@@ -162,11 +118,7 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Warning**
 >
@@ -175,30 +127,18 @@ Voici la liste des commandes :
 > récupérera toutes modifications de configutation en quasi temps réel
 > comme un module secteur.
 
-
-
 Si vous voulez effectuer la configuration du module en fonction de votre
 installation, il faut pour cela passer par la bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
-
-
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   0: permet de changer le sens de rotation pour les commandes
     ouvrir/fermer
@@ -215,28 +155,16 @@ Détails des paramètres :
 -   4: permet de choisir parmi différents modes de fonctionnement
     (couple, force, puissance etc…​)
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède un seul groupe d’association.
 
-
-
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-
-
-Exemples d’utilisation 
+Exemples d’utilisation
 ----------------------
 
-
-
 ![exemple](images/polycontrol.polylock/exemple.jpg)
-
-
 
 L’élément déclencheur est la commande évènement d’un clavier zipato
 (cela peut être n’importe quoi d’autre). Si la valeur est 6 (home) on
@@ -245,16 +173,10 @@ la porte à clé. Sinon (forcément 5) on ouvre la porte à clé et 2 minutes
 après on la referme. En effet, on veut sortir, la porte s’ouvre et se
 refermera peu de temps après.
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 > **Tip**
 >
@@ -263,37 +185,23 @@ Bon à savoir
 > récupérera toutes modifications de configutation en quasi temps réel
 > comme un module secteur.
 
-
-
 > **Tip**
 >
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la
-> main l’état restera le même. 
+> main l’état restera le même.
 
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
 
-
-
-Wake up 
+Wake up
 -------
-
-
 
 Il n’y a pas de notion de wake up pour ce module.
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
 
-
-
 Pas de notion de wake up sur ce module, lire le paragraphe spécificités.
-
-
 
 **@sarakha63**

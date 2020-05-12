@@ -1,28 +1,16 @@
-Nodon Télécommande - Soft Remote 
+Nodon Télécommande - Soft Remote
 ================================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/nodon.softremote/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 La Soft Remote NodOn® peut contrôler directement n’importe quel appareil
 compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn®.
@@ -30,12 +18,8 @@ compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn®.
 Elle peut également déclencher des scènes via une centrale domotique
 compatible.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Contrôle n’importe quel appareil compatible Z-Wave
 
@@ -45,12 +29,8 @@ Fonctions
 
 -   6 coloris disponibles
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
 
@@ -71,12 +51,8 @@ Caractéristiques techniques
 
 -   Garantie 2 ans
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Nodon
 
@@ -88,18 +64,12 @@ Données du module
 
 -   Produit ID : 2
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
@@ -107,36 +77,20 @@ inclusion référez-vous à cette
 > bouton (+ et 0 plein) jusqu’à que la lumière devienne rose puis
 > appuyer sur le bouton +, conformément à sa documentation papier.
 
-
-
 ![inclusion](images/nodon.softremote/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/nodon.softremote/commandes.png)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Boutons : c’est la commande qui remontera le bouton appuyé
 
@@ -155,41 +109,25 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande qui remonte le niveau des piles
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
-
-
 ![Config1](images/nodon.softremote/config1.png)
 
-
-
 Détails des paramètres :
-
-
 
 -   1-2 : Permet de choisir le profil des boutons en cas d’usage en
     central (inutile pour un usage dans Jeedom)
@@ -202,17 +140,11 @@ Détails des paramètres :
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
-### Groupes 
-
-
+### Groupes
 
 Ce module possède 7 groupes d’association.
 
-
-
 ![Groupe](images/nodon.softremote/groupe.png)
-
-
 
 -   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
     reporter des informations de la Smart Plug au contrôleur principal
@@ -224,57 +156,37 @@ Ce module possède 7 groupes d’association.
 -   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par les
     boutons correspondants selon le profil DUO
 
-
-
 > **Important**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1 
+> A minima Jeedom devrait se retrouver dans le groupe 1
 
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 -   Ce module peut être capricieux à l’inclusion. Ne pas hésiter à le
     réveiller 1 ou 2 fois après l’inclusion. Et bien vérifier le
     groupe d’association.
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pour réveiller ce module il suffit d’appuyer sur un des boutons
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Ce module est un module sur batterie, la nouvelle configuration ne sera
 prise en compte que si vous réveillez la télécommande.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
-
-
 
 **@lunarok**

@@ -1,28 +1,16 @@
-Greenwave PowerNode - 1 prise 
+Greenwave PowerNode - 1 prise
 =============================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/greenwave.Powernode1/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Le module prise PowerNode de GreenWave est un appareil intelligent qui
 se connecte à un de vos appareils électroménagers et électroniques pour
@@ -59,12 +47,8 @@ désactivée en cas du dysfonctionnement d’un appareil défectueux ou d’un
 court-circuit. Une protection supplémentaire est assurée par le fusible
 interne situé dans la prise.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Commander une lampe ou un appareil à distance
 
@@ -84,12 +68,8 @@ Fonctions
 
 -   Indicateur d’état lumineux
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Alimentation : 250V \~ AC, 50Hz
 
@@ -117,12 +97,8 @@ Caractéristiques techniques
 
 -   Classe IP (Tolérance d’humidité) : IP20
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : GreenWave
 
@@ -134,54 +110,32 @@ Données du module
 
 -   Produit ID : 2
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sous la prise.
 
-
-
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/greenwave.Powernode1/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Etat : C’est la commande qui permet de connaître le statut de la
     prise
@@ -195,44 +149,26 @@ Voici la liste des commandes :
 
 -   Conso : C’est la commande qui remonte la consommation totale
 
-
-
 A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
 en un seul bouton.
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
-
-
 ![Config1](images/greenwave.Powernode1/config1.jpg)
-
-
 
 Comme vous pourrez le constater il n’y a pas beaucoup de configuration
 pour ce module.
 
-
-
 Détails des paramètres :
-
-
 
 -   1 : Délai avant le clignotement du bouton : nombres de secondes
     minimum entre deux communications (si ce délai est dépassé le bouton
@@ -240,70 +176,40 @@ Détails des paramètres :
 
 -   2 : Couleur selectionnée de la molette (détectée automatiquement)
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède quatre groupes d’association, seul le 3ème groupe est
 indispensable.
 
-
-
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
-
-
 
 Contrairement à sa grande soeur multiprise, cette prise ne nécessite pas
 de polling pour remonter la consommation.
 
-
-
-### Reset 
-
-
+### Reset
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
-
-
 
 Vous pouvez remettre à zéro votre compteur de consommation en cliquant
 sur ce bouton disponible dans l’onglet Système. Il faut choisir
 PressButton.
 
+### Spécificités
 
-
-### Spécificités 
-
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pas de notion de wakeup sur ce module.
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Avez-vous associé le groupe 3 du module à Jeedom ?
 
-
-
 Non. Le module ne le permet pas. Mettez dessus un petit morceau de ruban
 adhésif noir.
-
-
 
 **@sarakha63**

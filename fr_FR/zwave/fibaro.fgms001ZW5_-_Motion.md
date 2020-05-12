@@ -1,28 +1,16 @@
-Fibaro Motion Sensor - FGMS-001 
+Fibaro Motion Sensor - FGMS-001
 ===============================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/fibaro.fgms001zw5/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave.
 En plus de la détection de mouvement, ce dispositif mesure la
@@ -39,12 +27,8 @@ est dans le réseau Z-Wave.
 Le détecteur de mouvement peut être utilisé pour les scènes d’éclairage
 et les systèmes de surveillance et/ou de sécurité.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Détecteur de mouvement sans fil
 
@@ -69,12 +53,8 @@ Fonctions
 
 -   Facilité d’installation sur un mur ou toute autre surface
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type de module : Emetteur Z-Wave+
 
@@ -99,12 +79,8 @@ Caractéristiques techniques
 -   Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS
     II
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Fibar Group
 
@@ -116,56 +92,34 @@ Données du module
 
 -   Produit ID : 4097
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
-
-
 ![inclusion](images/fibaro.fgms001zw5/inclusion.jpg)
-
-
 
 Une fois inclus, vous devez appliquer la configuration zwave+ via la
 liste déroulante, vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Il faut cliquer une fois sur la loupe pour récupérer les commandes du
 module. Une fois le module reconnu, les commandes associées au module
 seront disponibles.
 
-
-
 ![Commandes](images/fibaro.fgms001zw5/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Présence : c’est la commande qui remontera une détection de présence
 
@@ -182,33 +136,21 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
-
-
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -218,11 +160,7 @@ paramètres)
 
 ![Config3](images/fibaro.fgms001zw5/config4.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   Wakeup : c’est l’intervalle de réveil du module (valeur
     recommandée 7200)
@@ -300,15 +238,9 @@ Détails des paramètres :
 -   89: permet de faire clignoter la led en bleu/blanc/rouge en cas de
     sabotage
 
-
-
-### Groupes 
-
-
+### Groupes
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
-
-
 
 > **Tip**
 >
@@ -332,16 +264,10 @@ Les noms des groupes de la version Z-Wave+ sont les suivant:
     compatibilité descendante avec les contrôleurs ne supportant pas le
     protocole Z-Wave+.
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 > **Tip**
 >
@@ -351,20 +277,12 @@ Bon à savoir
 > souhaits, et de bien le réveiller pour que la config soit prise en
 > compte.
 
-
-
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
@@ -372,38 +290,24 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
     en bleue). Même si la lumière s’allume, il peut être nécessaire de
     le faire plusieurs fois de suite (2 ou 3)
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
 
-
-
 Ce module se réveille en appuyant 3 fois sur son bouton d’inclusion.
-
-
 
 Ce module est très capricieux. Il est conseillé de faire l’inclusion au
 plus proche de votre box et de s’y reprendre à plusieurs fois.
 
-
-
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
-
-
 
 **@nechry**

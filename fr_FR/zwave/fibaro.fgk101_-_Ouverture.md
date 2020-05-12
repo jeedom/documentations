@@ -1,28 +1,16 @@
 Fibaro Détecteur d’ouverture - FGK-101 
 ======================================
 
-
-
 -   **Le module**
-
-
 
 ![module](images/fibaro.fgk101-DS18B20/module.jpg)
 
-
-
 -   **Le visuel Jeedom**
-
-
 
 ![vuedefaut1](images/fibaro.fgk101-DS18B20/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Ce détecteur alimenté par pile et compatible Z-Wave dispose d’un capteur
 reed, un interrupteur de proximité à fonctionnement magnétique, qui
@@ -47,12 +35,8 @@ Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin
 d’intégrer ce détecteur dans votre réseau si vous avez déjà un réseau
 existant.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Détecteur d’ouverture
 
@@ -71,12 +55,8 @@ Fonctions
 
 -   Facilité d’utilisation et d’installation
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type de module : Emetteur Z-Wave
 
@@ -92,12 +72,8 @@ Caractéristiques techniques
 
 -   Température de fonctionnement : 0-40°C
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Fibar Group
 
@@ -109,54 +85,32 @@ Données du module
 
 -   Produit ID : 4096
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
-
-
 ![inclusion](images/fibaro.fgk101-DS18B20/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Etat : c’est la commande qui remontera l’état ouvert ou fermé du
     module
@@ -164,47 +118,29 @@ Voici la liste des commandes :
 -   Batterie : c’est la commande qui permet de remonter l’état de la
     batterie
 
-
-
 Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
-
-
 
 ![Config1](images/fibaro.fgk101-DS18B20/config1.jpg)
 
 ![Config2](images/fibaro.fgk101-DS18B20/config2.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   Wakeup : c’est l’interval de réveil du module (valeur
     recommandée 7200)
@@ -233,88 +169,54 @@ Détails des paramètres :
 
 -   14: permet d’activer la fonctionnalité d’activation de scènes
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède trois groupes d’association, seul le troisième est
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgk101-DS18B20/groupe.jpg)
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 > **Tip**
 >
 > Ce module est très capricieux sur les wakeup et nécessite une très
 > forte proximité avec le contrôleur lors de son inclusion
 
-
-
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   appuyer 3/4 fois sur le bouton d’inclusion. Il peut être nécessaire
     de le faire plusieurs fois de suite (2 ou 3)
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Ce module se réveille en appuyant 3 fois sur un des boutons tamper. Mais
 il faut que l’autre bouton tamper soit enfoncé.
 
-
-
 Ce module à une portée très faible. Il est conseillé de faire
 l’inclusion au plus proche de votre box.
-
-
 
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
-
-
 
 **@sarakha63**

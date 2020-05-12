@@ -1,28 +1,16 @@
-Swiid Interrupteur - Swiidinter 
+Swiid Interrupteur - Swiidinter
 ===============================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/swiid.inter/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 SwiidInter est le premier interrupteur sur cordon dans l’environnement
 domotique Z-Wave qui soit suffisamment petit et discret pour être
@@ -48,12 +36,8 @@ s’intégrer dans un "réseau" Z-Wave, ce réseau pouvant être aussi simple
 qu’une seule télécommande qui commande votre interrupteur SwiidInter à
 distance.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Interrupteur sur cordon utilisable à la fois manuellement
     (appui court) et par radio à distance (Z-Wave)
@@ -72,12 +56,8 @@ Fonctions
 
 -   Convient pour tous types d’ampoules de lampe
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type de module : Récepteur Z-Wave
 
@@ -105,12 +85,8 @@ Caractéristiques techniques
 
 -   Normes UE : EN 61058-2-1:2011 EN 55015
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Swiid
 
@@ -122,54 +98,32 @@ Données du module
 
 -   Produit ID : 256
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > à l’arrière, conformément à sa documentation papier
 
-
-
 ![inclusion](images/swiid.inter/inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![Commandes](images/swiid.inter/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Etat : C’est la commande qui permet de connaître le statut de la
     lumière
@@ -178,44 +132,26 @@ Voici la liste des commandes :
 
 -   OFF : C’est la commande qui permet d’éteindre la lumière
 
-
-
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
 icone
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
-
-
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
-
-
 ![Config1](images/swiid.inter/config1.jpg)
-
-
 
 Détails du paramètre :
 
-
-
 Ce paramètre permet de choisir le comportement lorsque vous associez le
 swiidinter à un autre module (appui long)
-
-
 
 -   Inactif : n’aura aucun effet sur les autres lumières
 
@@ -228,72 +164,42 @@ swiidinter à un autre module (appui long)
 -   ON et OFF (fully) : sera effectif pour allumer et éteindre les
     autres lumières
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède deux groupes d’association.
 
-
-
 ![Groupe](images/swiid.inter/groupe.jpg)
-
-
 
 > **Important**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 2.
 
-
-
-Associer à une autre lumière 
+Associer à une autre lumière
 ----------------------------
-
-
 
 Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de
 l’allumage d’une autre lumière, il suffit de la rajouter au groupe
 d’association 1 via l’écran cité au-dessus.
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Visuel alternatif 
-
-
+### Visuel alternatif
 
 ![vuewidget](images/swiid.inter/vuewidget.jpg)
 
-
-
-Wake up 
+Wake up
 -------
-
-
 
 Pas de notion de wake up sur ce module.
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Avez-vous associé les deux modules et avez-vous bien configuré la partie
 spécifique.
 
-
-
 Non. Le module ne le permet pas.
-
-
 
 **@sarakha63**

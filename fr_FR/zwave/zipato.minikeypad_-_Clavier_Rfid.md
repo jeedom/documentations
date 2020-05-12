@@ -1,28 +1,16 @@
-Zipato miniKeypad RFID 
+Zipato miniKeypad RFID
 ======================
-
-
 
 -   **Le module**
 
-
-
 ![module](images/zipato.minikeypad/module.jpg)
-
-
 
 -   **Le visuel Jeedom**
 
-
-
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-
-
-Résumé 
+Résumé
 ------
-
-
 
 Contrôlez votre système de sécurité grâce à ce mini clavier mural Zipato
 !
@@ -37,12 +25,8 @@ contrôleur domotique l’identifiant du badge qui a été reconnu. Vous
 pouvez ainsi facilement créer des scénarios en fonction de la personne
 qui a utilisé son badge.
 
-
-
-Fonctions 
+Fonctions
 ---------
-
-
 
 -   Clavier à code et RFID
 
@@ -61,12 +45,8 @@ Fonctions
 -   Buzzer intégré pour indication sonore de l’armement/désarmement de
     l’alarme par exemple
 
-
-
-Caractéristiques techniques 
+Caractéristiques techniques
 ---------------------------
-
-
 
 -   Type : Esclave Z-Wave
 
@@ -92,12 +72,8 @@ Caractéristiques techniques
 
 -   Certifications : Sécurité : UL EMC : FCC, CE RoHS
 
-
-
-Données du module 
+Données du module
 -----------------
-
-
 
 -   Marque : Zipato
 
@@ -109,18 +85,12 @@ Données du module
 
 -   Produit ID : 17665
 
-
-
-Configuration 
+Configuration
 -------------
-
-
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Important**
 >
@@ -129,36 +99,20 @@ inclusion référez-vous à cette
 > doit clignoter deux fois) et relâcher la languette pour que
 > l’inclusion s’opère.
 
-
-
 ![inclusion](images/zipato.minikeypad//inclusion.jpg)
-
-
 
 Une fois inclus vous devriez obtenir ceci :
 
-
-
 ![information](images/zipato.minikeypad/information.jpg)
 
-
-
-### Commandes 
-
-
+### Commandes
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
-
-
 ![commandes](images/zipato.minikeypad/commandes.jpg)
 
-
-
 Voici la liste des commandes :
-
-
 
 -   Action : c’est la commande qui remontera le home/away (5 pour away 6
     pour home)
@@ -171,41 +125,25 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
-
-
-### Configuration du module 
-
-
+### Configuration du module
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
-
-
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
-
-
 ![bouton configuration](images/plugin/bouton_configuration.jpg)
-
-
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
-
-
 ![config1](images/zipato.minikeypad/config1.jpg)
 
-
-
 Détails des paramètres :
-
-
 
 -   1: permet de remettre la config par défaut (déconseillé)
 
@@ -219,44 +157,26 @@ Détails des paramètres :
 -   5: mode de fonctionnement : normal ou mode toujours reveillé
     (déconseillé car très très consommateur de piles)
 
-
-
-### Groupes 
-
-
+### Groupes
 
 Ce module possède deux groupes d’association.
 
-
-
 ![groupe](images/zipato.minikeypad/groupe.jpg)
-
-
 
 > **Important**
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom
 > soit associé à minima au groupe 1.
 
-### Les badges /codes 
-
-
+### Les badges /codes
 
 Dans la page de l’équipement il y a un onglet Assistant.
 
-
-
 ![bouton assistant](images/plugin/bouton_assistant.jpg)
-
-
 
 Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
-
-
 ![config2](images/zipato.minikeypad/config2.jpg)
-
-
 
 -   Ce tableau vous permet de visualiser les mémoires occupées sur votre
     clavier
@@ -272,22 +192,14 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 -   Il est impossible (par mesure de sécurité) de lire la valeur d’un
     code enregistré
 
-
-
 > **Important**
 >
 > Pensez à réveiller le module après l’ajout d’un code ou badge.
 
-
-
-Exemples d’utilisation 
+Exemples d’utilisation
 ----------------------
 
-
-
 ![exemple](images/zipato.minikeypad/exemple.jpg)
-
-
 
 L’élément déclencheur est la commande évènement, en effet celle-ci est
 mise à jour uniquement lorsqu’un code/badge valide à été présenté. Si la
@@ -298,20 +210,12 @@ synhtèse vocale pour faire un bilan météo par exemple. Sinon (forcément
 5) on active l’alarme, on coupe la multiprise, on envoie une
 notification pour signaler que la maison est vide.
 
-
-
-Bon à savoir 
+Bon à savoir
 ------------
 
-
-
-### Spécificités 
-
-
+### Spécificités
 
 Le keypad lit les codes/badges de deux manières :
-
-
 
 -   lorsque vous appuyez sur home/away pendant les 1 à 2 premières
     secondes si vous commencez à taper un code, il lira ce code
@@ -320,50 +224,32 @@ Le keypad lit les codes/badges de deux manières :
     mode lecture de badge RFID (lumière rouge allumée). A ce moment là
     il peut lire un badge, pas avant.
 
-
-
-Wakeup 
+Wakeup
 ------
 
-
-
 Pour réveiller ce module il y a deux façons de procéder :
-
-
 
 -   appuyer sur le bouton tamper puis relâcher au bout de 1 à 2 secondes
 
 -   appuyer sur Home, un chiffre au hasard et Enter
 
-
-
-F.A.Q. 
+F.A.Q.
 ------
-
-
 
 Ce module se réveille en appuyant sur le bouton tamper et en le
 relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis
 Enter.
 
-
-
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wake up.
 
-
-
-Note importante 
+Note importante
 ---------------
-
-
 
 > **Important**
 >
 > Il faut réveiller le module : après son inclusion, après un changement
 > de la configuration , après un changement de wake up, après un
 > changement des groupes d’association
-
-
 
 **@sarakha63**
