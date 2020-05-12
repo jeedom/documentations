@@ -12,7 +12,7 @@
 
 Placé dans une pièce, la température de la pièce voulue remontera automatiquement. De plus, associé à un récepteur de type EMR-2000 ou EDR-B4 (4 sorties) vous aurez un thermostat connecté et contrôlable depuis n’importe ou dans le monde à travers internet.
 
-Le signal est uniquement envoyé après avoir détecté une différence de température de o,5°C ou 1°C ou toutes les 5 minutes. De plus, le capteur est compact et discret.
+Le signal est uniquement envoyé après avoir détecté une différence de température de 0,5°C ou 1°C ou toutes les 5 minutes. De plus, le capteur est compact et discret.
 
 L’indicateur LED intégré signal tout changement d’état.
 
