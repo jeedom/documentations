@@ -1,32 +1,18 @@
-Aeotec Keyfob 
+# Aeotec Keyfob 
 =============
-
- \
 
 -   **Le module**
 
- \
-
 ![module](images/aeotec.keyfob/module.jpg)
-
- \
 
 -   **Le visuel Jeedom**
 
- \
-
 ![vuedefaut1](images/aeotec.keyfob/vuedefaut1.jpg)
-
- \
 
 Résumé 
 ------
 
- \
-
-La télécommande porte-clés Aeon Labs au design moderne et agréable
-dispose de 4 boutons permettant de contrôler tout type de dispositifs
-Z-Wave tels que des lampes, stores, etc…​
+La télécommande porte-clés Aeon Labs au design moderne et agréable dispose de 4 boutons permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc…​
 
 Avec ses dimensions très réduites, vous pourrez facilement la mettre
 dans votre poche. Facile à utiliser et élégante, elle est équipée d’un
