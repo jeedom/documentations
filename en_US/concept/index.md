@@ -55,9 +55,9 @@ These commands can be logged in order to keep this information over time in the 
 These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
 - The orders *Action* :
-These commands allow you to control your actuators. For example, commands **We** and **off** of a controlled outlet will allow you to turn it on and off.
+These commands allow you to control your actuators. For example, commands ``on`` and ``off`` of a controlled outlet will allow you to turn it on and off.
 
-Action commands are usually linked to info commands. Here our take has two actions **We** and **off**, usually related to information **State**.
+Action commands are usually linked to info commands. Here our take has two actions ``on`` and ``off``, usually related to information **State**.
 
 ![Commands](images/concept-commands.jpg)
 
@@ -83,5 +83,3 @@ Whatever your device, it will be created in the form of equipment, from a [Plugi
 This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
 You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
-
-

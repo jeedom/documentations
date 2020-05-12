@@ -1,102 +1,71 @@
--   **Das Modul**
+# Edisio ETC1
+
+**Das Modul**
 
 ![etc1.module 1](images/etc1/etc1.module-1.jpg)
 
 ![etc1.module 2](images/etc1/etc1.module-2.png)
 
--   **Das Jeedom Visual**
+**Das Jeedom Visual**
 
 ![etc1.vue default](images/etc1/etc1.vue-default.jpg)
 
-Zusammenfassung 
-======
+## Zusammenfassung 
 
-Les Fernbedienungs “Smile” ont un canal, elles sont idéales pour la table
-Bett, Bad und vor allem für Kinder, weil diese sind
-sehr robust dank des verwendeten Materials. Sehr einfach und gleichzeitig
-“fun” elles ont pour but d'être pratiques dans l'habitat. Sie existieren
-in drei verschiedenen Farben.
+Les télécommandes “Smile” ont un canal, elles sont idéales pour la table de chevet, salle de bain et surtout pour les enfants, car celles-ci sont très robustes grâce au matériau utilisé. Ultra simples et à la fois “fun” elles ont pour but d'être pratiques dans l'habitat. Sie existieren in drei verschiedenen Farben.
 
-Sie können problemlos an verschiedene Empfänger angeschlossen werden und können daher
-steuern Sie die Ein / Aus-Lichter, variable Lichter,
-Fensterläden, Tore, Garagentore. Erhältlich in 3 Farben.
+Sie lassen sich leicht an die verschiedenen Empfänger anschließen und können daher Ein / Aus-Lichter, variable Lichter, Rollläden, Tore und Garagentore steuern. Erhältlich in 3 Farben.
 
-Darüber hinaus ist eine Interaktion mit anderen Protokollen möglich
-interagieren mit den Rezeptoren der Marke Edisio, mit Jeedom, aber
-auch von jedem Z-Wave-Empfänger in Ihrem Netzwerk.
+Darüber hinaus ist die Interaktion mit anderen Protokollen möglich. Sie kann mit Empfängern der Marke Edisio, mit Jeedom, aber auch mit jedem Z-Wave-Empfänger in Ihrem Netzwerk interagieren.
 
-Funktionen 
-=========
+## Fonctions
 
 -   Art der Verwendung : Beleuchtung, Dimmer
-
 -   Klein, diskret und ästhetisch
-
 -   Benutzerfreundlichkeit und Installation
 
-Technische Daten 
-===========================
+## Technische Daten
 
 -   Modultyp : Edisio Sender
-
 -   Versorgung : 3VDC (CR2032 Lithiumbatterie)
-
 -   Kanäle : 1
-
 -   Funkprotokoll : 868,3 MHz
-
 -   Reichweite im freien Feld : 100M
-
 -   Betriebstemperatur : -10 ° C + 50 ° C
-
 -   Abmessungen : 65 x 18 mm
-
 -   Schutzart : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
-Moduldaten 
-=================
+## Moduldaten
 
 -   Machen Sie : Edisio Smart Home
-
 -   Name : ETC1
-
 -   Referenz : P01 / Y01 / L01
 
-Allgemeine Konfiguration 
-======================
+## Allgemeine Konfiguration
 
-So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
-beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
+Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
 > **Wichtig**
 >
-> Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
-> Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
+> Vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren, damit Jeedom Ihre Sendermodule automatisch erstellt.
 
-Funktionsplan 
----------------------------
+### Funktionsplan
 
 So funktioniert die Fernbedienung :
 
 ![etc1.diagramme](images/etc1/etc1.diagramme.jpg)
 
-Batteriewechsel 
------------------------
+### Batteriewechsel
 
-Gehen Sie wie folgt vor, um die Batterie Ihrer Fernbedienung auszutauschen
-:
+Gehen Sie wie folgt vor, um die Batterie Ihrer Fernbedienung auszutauschen :
 
 ![etc1.remplacement pile](images/etc1/etc1.remplacement-pile.jpg)
 
-Assoziation der Fernbedienung mit Jeedom 
-=======================================
+## Assoziation der Fernbedienung mit Jeedom
 
-Die Zuordnung eines Edisio-Senders ist einfach und
-automatisch. Drücken Sie einfach die Taste auf Ihrem
-Fernbedienung.
+Die Zuordnung eines Edisio-Senders ist einfach und automatisch. Drücken Sie einfach die Taste auf Ihrer Fernbedienung.
 
 ![Befehle](images/etc1/etc1.touche-c.jpg)
 
@@ -104,46 +73,32 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-Befehle 
----------
+### Commandes
 
-Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
-mit dem Modul verbunden :
+Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
 ![Befehle](images/etc1/etc1.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
 -   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
-
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
-------------
+### Informations
 
-Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar :
+Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 
 ![Befehle](images/etc1/etc1.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
-
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
-    Jeedom und das Mikromodul
-
+-   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Mikromodul aufgezeichnete Kommunikation an
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
-
 -   STATUS : Gibt den Status des Moduls zurück
 
-Verwendung 
------------
+### Utilisation
 
-Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit der
-Jeedom-Szenario-Plugin, interagieren Sie mit Ihrer Fernbedienung auf Jeedom
-und seine Ausrüstung.
+Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit dem Jeedom-Szenario-Plugin mit Ihrer Fernbedienung auf Jeedom und seinen Geräten interagieren.
 
 > **Notiz**
 >
 > Die Fernbedienung mit binärer Statusrückmeldung.
-
-**@Jamsta**

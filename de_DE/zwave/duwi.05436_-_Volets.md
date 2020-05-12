@@ -1,287 +1,126 @@
-DUWI 05436 "Rollladen" 
-==========================
+# DUWI 05436 "Rollladen"
 
-
-
--   **Das Modul**
-
-
+ **Das Modul**
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
-
-
--   **Das Jeedom Visual**
-
-
+**Das Jeedom Visual**
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
+## Zusammenfassung 
 
-
-Zusammenfassung 
-------
-
-
-
-Das Rollladenmodul DUWI 05436 dient zur Steuerung von Rollläden
-in zwei Richtungen rollen.
+Mit dem Rollladenmodul DUWI 05436 können Sie Rollläden in zwei Richtungen steuern.
 
 Seine Hauptmerkmale sind :
 
--   Die Möglichkeit, ein "Common" zu verwenden, um den Aufstieg zu wechseln
-    oder der Abstieg. So ist es möglich, beide zu bestellen
-    Richtungen mit jeder Art von Spannung, auch ein Neutralleiter.
+-   Die Möglichkeit, ein "Common" zu verwenden, um den Aufstieg oder Abstieg zu wechseln. Plötzlich ist es möglich, beide Richtungen mit jeder Art von Spannung zu steuern, sogar mit einem Neutralleiter.
+-   Die Möglichkeit, ein kontinuierliches Auf- / Abstiegssignal ohne zeitliche Begrenzung zu senden.
 
--   Die Fähigkeit, ein kontinuierliches Auf / Ab-Signal ohne zu senden
-    Zeitlimit.
+Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn der Benutzer die Tasten direkt drückt. Sie müssen an seiner Position eine Aktualisierung durchführen, um die Umfrage zu aktualisieren oder anzupassen (siehe unten).
 
-Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn
-Der Benutzer drückt die Tasten direkt. Du musst eine machen
-'Aktualisieren Sie die Position, um die Umfrage zu aktualisieren, oder passen Sie sie an (siehe
-weiter).
-
-
-
-Funktionen 
----------
-
-
+## Fonctions
 
 -   Hoch / runter
-
 -   Ein gemeinsamer Draht, der beim Auf- oder Abstieg eingeschaltet wird
-
 -   Zum Betrieb ist Neutral erforderlich
-
 -   Sicherungsschutz
-
--   Anstiegs- und Abfallzeiten einstellbar durch Einstellen oder durch
-    Modul lernen
-
+-   Anstiegs- und Abfallzeiten können durch Parametereinstellung oder durch Lernen am Modul eingestellt werden
 -   Der Schalter wird mit dem Modul geliefert und ist nicht austauschbar
 
-
-
-Technische Daten 
----------------------------
-
-
+## Technische Daten
 
 -   Modultyp : Z-Wave Empfänger / Aktor
-
 -   230V, 50Hz Stromversorgung
-
 -   Neutral erforderlich
-
 -   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv)
-
 -   Sicherung : T8AH
-
 -   Frequenz : 868,42 MHz
-
 -   Abmessungen : 52 x 52 x 31 mm
-
 -   Temperaturbereich : 0 ° C / + 40 ° C
 
-
-
-Moduldaten 
------------------
-
-
+## Moduldaten
 
 -   Machen Sie : Popp / Duwi
-
 -   Name : ZW ESJ Blind Control
-
 -   Hersteller ID : 100
-
 -   Produkttyp : 16385
-
 -   Produkt-ID : 0
 
-
-
-Einloggen 
----------
+## Connexion
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
+## Configuration
 
-
-Konfiguration 
--------------
-
-
-
-So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
-Aufnahme beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
+Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 > **Wichtig**
 >
-> Drücken Sie dreimal, um das Modul in den Einschlussmodus zu versetzen
-> beim Auf- oder Abstieg. Der Ausschluss erfolgt auf die gleiche Weise.
-
-
+> Um das Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal die Auf- oder Ab-Taste. Der Ausschluss erfolgt auf die gleiche Weise.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
+### Commandes
 
-
-### Befehle 
-
-
-
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
-
-
+Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
 ![Befehle](images/duwi.05436/4-Commandes.PNG)
 
-
-
 Hier ist die Liste der Befehle :
 
-
-
 -   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
-
 -   Geh runter : Befehl, vollständig abzusteigen
-
 -   Geh hoch : Befehl, vollständig zu mounten
-
 -   STOP : Sofortiger Bewegungsstopp
-
 -   Aktualisieren : Aktualisieren Sie den aktuellen Status des Moduls
-
 -   Ebene : Schieberegler zum Positionieren einer Teilöffnung
 
+#### Einstellen der Anstiegs- und Abfallzeiten :
 
+Der Schalter muss entfernt werden, um Zugriff auf die beiden Tasten "Auf" und "Ab" zu haben".
 
-#### Einstellen der Anstiegs- und Abfallzeiten : 
+Positionieren Sie die Klappe ganz oben, wenn Sie die Abstiegszeit anpassen möchten, und umgekehrt.
 
-Der Schalter muss entfernt werden, um auf die beiden Tasten zugreifen zu können
-"Aufstieg "und" Abstieg".
+Drücken Sie mindestens 2 Sekunden lang auf beiden Tasten (nach oben und unten) gleichzeitig. Die LED sollte grün blinken.
 
-Positionieren Sie die Klappe ganz oben, wenn Sie die Einstellung vornehmen möchten
-Abstieg und umgekehrt.
-
-Drücken Sie mindestens 2 Sekunden auf beiden Tasten (nach oben und unten)
-gleichzeitig. Die LED sollte grün blinken.
-
-Halten Sie dann die Abwärts- oder Aufwärts-Taste gedrückt,
-bis zum Erreichen der gewünschten Position. Wenn Sie die Taste loslassen, wird die
-Die LED leuchtet einige Sekunden lang grün. Die Zeit wird gespeichert.
+Halten Sie dann die Abwärts- oder Aufwärts-Taste gedrückt, bis Sie die gewünschte Position erreicht haben. Wenn Sie die Taste loslassen, leuchtet die LED einige Sekunden lang grün. Die Zeit wird gespeichert.
 
 Wiederholen Sie den Vorgang in die andere Richtung.
 
+### Konfiguration des Moduls
 
-
-### Konfiguration des Moduls 
-
-
-
-Dann, wenn Sie das Modul entsprechend konfigurieren möchten
-Ihrer Installation müssen Sie durch die Schaltfläche gehen
-"Konfiguration "des OpenZwave-Plugins von Jeedom.
-
-
+Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-
-
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
-Einstellungen)
-
-
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
-
-
 Parameterdetails :
 
-
-
 -   0 : Laufzeit :
-
-Dies sind die Anstiegs- und Abfallzeiten. Sie sollten Ihre finden
-apprentissage.
-
-Die Codierung erfolgt durch zwei Bytepaare : der erste für den Aufstieg
-und der zweite für den Abstieg.
-
-Die Werte werden im Modul hexadezimal codiert und zurückgesetzt
-Dezimal in der Jeedom-Anzeige.
-
-Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12
-für den Aufstieg und 0x12 für den Abstieg. Oder wieder reingebracht
-dezimal : 18s für Auf- und Abstieg.
-
-Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet dies, dass die
-Das Modul schaltet den Auf- oder Abstieg ohne zeitliche Begrenzung ein. Es wird dauern
-Senden Sie dann einen 'Stop', um zu unterbrechen.
-
+Dies sind die Anstiegs- und Abfallzeiten. Sie sollten Ihr Lernen dort finden.
+Die Codierung erfolgt durch zwei Bytepaare : der erste für den Aufstieg und der zweite für den Abstieg.
+Die Werte werden im Modul hexadezimal codiert und in der Anzeige von Jeedom dezimal zurückgesetzt.
+Zum Beispiel : für 4626 ergibt dies hexadezimal : 0x1212. Entweder 0x12 für den Aufstieg und 0x12 für den Abstieg. Entweder auf Dezimal gebracht : 18s für Auf- und Abstieg.
+Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet dies, dass das Modul ohne zeitliche Begrenzung nach oben oder unten schaltet. Es wird dann notwendig sein, einen 'Stop' zu senden, um zu unterbrechen.
 -   1 : Stop-Funktionalität : Aktiviert oder deaktiviert :
+Wird verwendet, um anzuzeigen, ob durch Drücken in die entgegengesetzte Richtung während der Bewegung der Verschluss gestoppt oder sofort in die entgegengesetzte Richtung zurückgeschaltet wird.
 
-Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung gedrückt wird
-Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück
-opposé.
+### Groupes
 
-
-
-### Gruppen 
-
-
-
-Dieses Modul hat nur eine Zuordnungsgruppe, in der es sein muss
-Finden Sie Ihren Z-Wave-Controller.
-
-
+Dieses Modul hat nur eine Zuordnungsgruppe, in der sich Ihr Z-Wave-Controller befinden muss.
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
+## Gut zu wissen
 
-
-Gut zu wissen 
-------------
-
-
-
--   Wie zu Beginn angegeben, meldet das Modul keine Änderungen in
-    Positionen, die der Benutzer durch direktes Drücken gemacht hat
-    auf dem Schalter. Für eine Rückkehr des Staates ist es daher notwendig :
-
-        o Konfigurieren Sie entweder eine Umfrage nach 5 Minuten in der Konfiguration, Registerkarte 'Werte'
-
+-   Wie zu Beginn angegeben, meldet das Modul die vom Benutzer durch direktes Drücken des Schalters vorgenommenen Positionsänderungen nicht. Für eine Rückkehr des Staates ist es daher notwendig :
+    - Konfigurieren Sie entweder eine Umfrage nach 5 Minuten in der Konfiguration, Registerkarte 'Werte'
 ![Groupe](images/duwi.05436/7-Poll.PNG)
-
-    o Erstellen Sie entweder ein Szenario, in dem der Befehl 'Aktualisieren' alle x Minuten (mindestens 1 Minute) gestartet wird
-
--   Das Einstellen einer Operation ohne zeitliche Begrenzung kann sich als richtig erweisen
-    nützlich für VMC-Befehle
-
-
-
-### Alternative visuelle 
-
-
-
-![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
-
-> **Spitze**
->
-> Das Widget "Store\_2\_IMG", das im Infobefehl "Status" verwendet wird. Das hier
-> Widget ist schön, weil es "teilweise geöffnete" Zustände anzeigt'.
-
-**@Theduck38**
+  - Erstellen Sie entweder ein Szenario, in dem der Befehl 'Aktualisieren' alle x Minuten (mindestens 1 Minute) gestartet wird
+-   Das Festlegen des Betriebs ohne Zeitlimit kann für VMC-Befehle hilfreich sein

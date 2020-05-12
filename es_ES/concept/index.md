@@ -55,9 +55,9 @@ Estos comandos se pueden registrar para mantener esta información a lo largo de
 Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
 
 - Las órdenes *Acción* :
-Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos **Uno** y **Apagado** de un tomacorriente controlado le permitirá encenderlo y apagarlo.
+Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ``on`` y ``off`` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
-Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones **Uno** y **Apagado**, generalmente relacionado con la información **Estado**.
+Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ``on`` y ``off``, generalmente relacionado con la información **Estado**.
 
 ![Comandos](images/concept-commands.jpg)
 
@@ -83,5 +83,3 @@ Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plug
 Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar.
-
-
