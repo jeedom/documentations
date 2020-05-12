@@ -7898,6 +7898,10 @@
         "*dessus": "*oben",
         "dessus*": "oben*"
     },
+    "zwave\/index.md": {
+        "Documentation module Z-wave": "Dokumentation des Z-Wave-Moduls",
+        "Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Z-wave": "Hier finden Sie die Dokumentation, die wir für bestimmte Z-Wave-Module als nützlich erachtet haben"
+    },
     "zwave\/mco.MH-S412_Double_-_Interrupteur.md": {
         "MCO MH-S412 Double": "MCO MH-S412 Double",
         " \\": "\\.",

@@ -3746,6 +3746,10 @@
         "Mettez un morceau de ruban adhésif noir": "Mettez un morceau de ruban adhésif noir",
         "dessus": "dessus"
     },
+    "zwave\/index.md": {
+        "Documentation module Z-wave": "Documentation module Z-wave",
+        "Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Z-wave": "Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Z-wave"
+    },
     "zwave\/mco.MH-S412_Double_-_Interrupteur.md": {
         "MCO MH-S412 Double": "MCO MH-S412 Double",
         " \\": " \\",
