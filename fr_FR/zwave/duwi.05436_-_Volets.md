@@ -1,28 +1,28 @@
 DUWI 05436 "Volet roulant" 
 ==========================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le module volet roulant DUWI 05436 permet de contrôler des volets
 roulants dans deux directions.
@@ -41,12 +41,12 @@ l’utilisateur appuie directement sur les boutons. Il faut faire un
 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir
 plus loin).
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Montée / descente
 
@@ -61,12 +61,12 @@ Fonctions
 
 -   L’interrupteur est fourni avec le module, non interchangeable
 
- \
+
 
 Caractéristiques Techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : récepteur / actionneur Z-Wave
 
@@ -84,12 +84,12 @@ Caractéristiques Techniques
 
 -   Plage de température : 0°C / +40°C
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Popp/Duwi
 
@@ -101,57 +101,57 @@ Données du module
 
 -   Produit ID : 0
 
- \
+
 
 Connexion 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
 > Pour mettre le module en mode inclusion, il faut appuyer trois fois
 > sur la montée ou la descente. L’exclusion se fait de la même manière.
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/duwi.05436/4-Commandes.PNG)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Etat : c’est la position actuelle du volet, en pourcentage de 0 à 99
 
@@ -165,7 +165,7 @@ Voici la liste des commandes :
 
 -   Niveau : slider pour positionner une ouverture partielle
 
- \
+
 
 #### Réglage des temps de montée et de descente : 
 
@@ -184,34 +184,34 @@ led s’allume en vert fixe quelques secondes. Le temps est mémorisé.
 
 Recommencer l’opération dans l’autre sens.
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   0 : Running Time :
 
@@ -238,25 +238,25 @@ Sert à indiquer si un appui dans la direction opposée pendant un
 déplacement stoppe le volet ou le renvoie immédiatement dans le sens
 opposé.
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module ne possède qu’un seul groupe d’association dans lequel doit se
 trouver votre contrôleur Z-Wave.
 
- \
+
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 -   Comme précisé au début, le module ne reporte pas les changements de
     positions faits par l’utilisateur en appuyant directement
@@ -271,11 +271,11 @@ Bon à savoir
 -   Paramétrer un fonctionnement sans limite de temps peut s’avérer
     utile pour les commandes de VMC
 
- \
+
 
 ### Visuel alternatif 
 
- \
+
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 

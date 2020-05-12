@@ -1,28 +1,28 @@
 Fibaro Dimmer - FGD-211 
 =======================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/fibaro.fgd211/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le micromodule variateur FGD-211 va vous permettre de contrôler une
 lampe ou plafonnier à distance grâce au protocole Z-Wave tout en
@@ -52,12 +52,12 @@ si vous avez déjà un réseau existant. Chaque module Z-Wave fonctionne
 comme un répéteur sans fil avec les autres modules, afin d’assurer une
 couverture totale de votre habitation.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Commander un éclairage à distance
 
@@ -75,12 +75,12 @@ Fonctions
 
 -   Facilité d’utilisation et d’installation
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Récepteur Z-Wave
 
@@ -109,12 +109,12 @@ Caractéristiques techniques
 
 -   Normes : EN 55015 et EN 60669-2-1
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Fibar Group
 
@@ -126,29 +126,29 @@ Données du module
 
 -   Produit ID : 4106
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
- \
+
 
 ![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
- \
+
 
 > **Tip**
 >
@@ -156,32 +156,32 @@ inclusion référez-vous à cette
 > en faisant de nombreux aller retour sur l’interrupteur ou de nombreux
 > appuis si vous avez un interrupteur sur bouton poussoir.
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/fibaro.fgd211/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Intensité : C’est la commande qui permet de régler l’intensité de la
     lumière
@@ -196,26 +196,26 @@ Voici la liste des commandes :
 A noter que sur le dashboard toutes les infos se retrouvent sur le même
 icone
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
- \
+
 
 ![Config1](images/fibaro.fgd211/config1.jpg)
 
@@ -223,11 +223,11 @@ Paramètres)
 
 ![Config3](images/fibaro.fgd211/config3.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1: Fonctions ALL ON / ALL OFF : utilisé que si vous avez associé le
     FGD-211 à un autre module
@@ -277,29 +277,29 @@ Détails des paramètres :
 
 -   41: permet d’activer ou non la fonction d’Activations des scènes
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède trois groupes d’association, seul le troisième est
 indispensable.
 
- \
+
 
 ![Groupe](images/fibaro.fgd211/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 > **Caution**
 >
@@ -307,38 +307,38 @@ Bon à savoir
 > permet de choisir le type d’interrupteur utilisé. Par défaut le type
 > est défini sur monostable.
 
- \
+
 
 Si vous voulez exclure/inclure le module sans démonter votre
 interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur
 (ou faire des allers retours en cas d’interrupteur bi stable)
 
- \
+
 
 ### Visuel alternatif 
 
- \
+
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pas de notion de wakeup sur ce module.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Non. ce module peut s’inclure ou s’exclure en appuyant plusieurs fois
 sur l’interrupteur.
 
- \
+
 **@sarakha63**

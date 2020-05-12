@@ -1,28 +1,28 @@
 D-Link DCH-Z110 - "3 en 1 Ouverture" 
 ====================================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/dlink.dchz110/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le détecteur DCH-Z110 propose 3 fonctions différentes : détection
 d’ouverture, capteur de température et détecteur de luminosité. Il se
@@ -45,12 +45,12 @@ est détectée. Un contrôleur Z-Wave (télécommande, dongle …?) est
 nécessaire afin d’intégrer ce détecteur dans votre réseau si vous avez
 déjà un réseau existant.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Détecteur 3 en 1: Ouverture, température, lumière
 
@@ -68,12 +68,12 @@ Fonctions
 
 -   Facilité d’utilisation et d’installation
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 Site officiel :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
@@ -84,12 +84,12 @@ Autre lien technique :
 ![caracteristiques
 techniques](images/dlink.dchz110/caracteristiques_techniques.jpg)
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : D-Link
 
@@ -104,18 +104,18 @@ Données du module
 
 -   Produit ID : 14 \[0x000e\]
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -127,36 +127,36 @@ inclusion référez-vous à cette
 > seconde, conformément à sa documentation. (clignotement rouge constant
 > en mode association)
 
- \
+
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/dlink.dchz110/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Ouverture : c’est la commande qui remontera une détection
     d’ouverture
@@ -171,11 +171,11 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 > **Important**
 >
@@ -183,32 +183,32 @@ Voici la liste des commandes :
 > réveillez toujours le module en appuyant sur le bouton d’association.
 > Il devrait clignoter rouge et changer de statut.
 
- \
+
 
 Ensuite il est nécessaire d’effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
- \
+
 
 ![Config1](images/dlink.dchz110/config1.jpg)
 
 ![Config2](images/dlink.dchz110/config2.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   2: permet de régler le signal envoyé aux modules dans le groupe
     d’association 2
@@ -251,20 +251,20 @@ Détails des paramètres :
 -   22: valeur en % de variation de luminosité pour déclencher
     un rapport. Valeur recommandée : 10
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède deux groupes d’association, seul le premier est
 indispensable.
 
- \
+
 
 ![Groupe](images/dlink.dchz110/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
@@ -272,21 +272,21 @@ Bon à savoir
 Association/Notification possible avec d’autres modules (exemple: Sirène
 DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
- \
+
 
 Visuel alternatif 
 -----------------
 
- \
+
 
 ![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
@@ -295,28 +295,28 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 -   Baissez le wake-up interval dans la configuration/système du module
     (en secondes)
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Ce module se réveille en appuyant sur son bouton association.
 
- \
+
 
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup. (bouton d’association pour le
 forcer, d’où l’interêt de ne pas mettre en place le module avant sa
 bonne configuration)
 
- \
+
 
 Note importante 
 ---------------
 
- \
+
 
 > **Important**
 >
@@ -324,5 +324,5 @@ Note importante
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
 
- \
+
 

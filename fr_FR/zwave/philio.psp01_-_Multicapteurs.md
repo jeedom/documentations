@@ -1,28 +1,28 @@
 Philio PSP01 
 ============
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/philio.psp01/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le détecteur PSP01 propose 3 fonctions différentes : détection de
 mouvement, capteur de température et détecteur de luminosité.
@@ -46,12 +46,12 @@ détecté. Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire
 afin d’intégrer ce détecteur dans votre réseau si vous avez déjà un
 réseau existant.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Détecteur 3 en 1: mouvement, température, lumière
 
@@ -75,12 +75,12 @@ Fonctions
 
 -   Facilité d’utilisation et d’installation
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Emetteur Z-Wave
 
@@ -112,12 +112,12 @@ Caractéristiques techniques
 
 -   Certification Z-Wave : ZC08-13050003
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Philio Technology Corporation
 
@@ -129,54 +129,54 @@ Données du module
 
 -   Produit ID : 2
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
- \
+
 
 ![inclusion](images/philio.psp01/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/philio.psp01/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Présence : c’est la commande qui remontera une détection de présence
 
@@ -193,46 +193,46 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
- \
+
 
 Tous les modules de la gamme ayant les mêmes ids, à vous d’afficher ceux
 correspondant à votre module.
 
 ### Configuration du module 
 
- \
+
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
- \
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
- \
+
 
 ![Config1](images/philio.psp01/config1.jpg)
 
 ![Config2](images/philio.psp01/config2.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   2: permet de régler le signal envoyé aux modules dans le groupe
     d’association 2
@@ -262,29 +262,29 @@ Détails des paramètres :
 -   13: permet de définir la durée entre deux rapports de température
     (une unité = 30 minutes)
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède deux groupes d’association, seul le premier est
 indispensable.
 
- \
+
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 > **Tip**
 >
@@ -295,49 +295,49 @@ Bon à savoir
 > case "Evènement sur changement" sur la présence si vous utilisez cette
 > commande en déclencheur de scénario.
 
- \
+
 
 ### Visuel alternatif 
 
- \
+
 
 ![vuewidget](images/philio.psp01/vuewidget.jpg)
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   relachez le bouton tamper et réappuyez dessus
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Ce module se réveille en appuyant sur son bouton tamper.
 
- \
+
 
 Cochez la case "Evènement sur changement".
 
- \
+
 
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wakeup.
 
- \
+
 
 Note importante 
 ---------------
 
- \
+
 
 > **Important**
 >
@@ -345,6 +345,6 @@ Note importante
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
 
- \
+
 
 **@sarakha63**

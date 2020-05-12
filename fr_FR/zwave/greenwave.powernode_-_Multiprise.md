@@ -1,28 +1,28 @@
 Greenwave PowerNode - 6 prises 
 ==============================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/greenwave.powernode/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 La multiprise PowerNode de GreenWave est un appareil intelligent qui se
 connecte à vos appareils électroménagers et électroniques pour vous
@@ -61,12 +61,12 @@ assurée par le fusible interne situé dans la multiprise.
 Cette multiprise est idéale pour contrôler des appareils multimédia dans
 un meuble de télévision ou pour piloter du matériel informatique situé
 dans un bureau et ainsi éviter d’avoir à utiliser 6 prises Z-Wave
-individuelles.  \
+individuelles. 
 
 Fonctions 
 ---------
 
- \
+
 
 -   Multiprise Z-Wave 6 ports
 
@@ -83,12 +83,12 @@ Fonctions
 
 -   Indicateur d’état lumineux
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Alimentation : 250V \~ AC, 50Hz
 
@@ -116,12 +116,12 @@ Caractéristiques techniques
 
 -   Classe IP (Tolérance d’humidité) : IP20
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : GreenWave
 
@@ -133,46 +133,46 @@ Données du module
 
 -   Produit ID : 4
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer sur le bouton
 > inclusion présent sur la prise.
 
- \
+
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/greenwave.powernode/commandes.jpg)
 
@@ -184,11 +184,11 @@ disponibles.
 
 ![Commandes](images/greenwave.powernode/commandes5.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Etat-1 : C’est la commande qui permet de connaître le statut de la
     prise 1
@@ -268,44 +268,44 @@ Voici la liste des commandes :
 -   Conso-6 : C’est la commande qui remonte la consommation totale de la
     prise 6
 
- \
+
 
 A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
 en un seul bouton.
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 Paramètres)
 
- \
+
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
- \
+
 
 Comme vous pourrez le constater il n’y a pas beaucoup de configuration
 pour ce module.
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1 : Délais avant le clignotement du bouton : nombres de secondes
     minimum entre deux communications (si ce délai est dépassé le bouton
@@ -313,95 +313,95 @@ Détails des paramètres :
 
 -   2 : Couleur selectionnée de la molette (détectée automatiquement)
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède quatre groupes d’association, seul le 1er groupe est
 indispensable.
 
- \
+
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités / Polling 
 
- \
+
 
 Contrairement à sa petite soeur "Une prise", cette multiprise nécessite
 un polling pour remonter la consommation.
 
- \
+
 
 ![Config2](images/greenwave.powernode/config2.jpg)
 
- \
+
 
 Il est juste nécessaire de l’activer pour la commande Power de chaque
 prise. Cela aura pour effet de remonter les deux (conso et puissance)
 
- \
+
 
 ### Consommation Globale 
 
- \
+
 
 ![consocumul](images/greenwave.powernode/consocumul.jpg)
 
- \
+
 
 Vous pouvez à l’aide d’un virtuel vous créer un cumul de consommation
 des 6 prises.
 
- \
+
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
- \
+
 
 ### Reset 
 
- \
+
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
- \
+
 
 Vous pouvez remettre à zéro votre compteur de consommation en cliquant
 sur ce bouton disponible dans l’onglet Système. (Il y a un reset par
 prise). Il faut choisir PressButton.
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pas de notion de wakeup sur ce module.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Avez vous réglé un CRON.
 
- \
+
 
 Non. Le module ne le permet pas. Mettez un morceau de ruban adhésif noir
 dessus.
 
- \
+
 **@sarakha63**

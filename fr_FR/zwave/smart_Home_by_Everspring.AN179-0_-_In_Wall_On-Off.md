@@ -1,28 +1,28 @@
 SmartHome by Everspring In Wall On Off - AN179-0 
 ================================================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/smarthomebyeverspring.AN179-0/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring,
 est conçu pour contrôler l’allumage et l’extinction des luminaires et
@@ -40,12 +40,12 @@ destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il
 peut être contrôlé par une télécommande, un logiciel PC, ou n’importe
 quel contrôleur Z-Wave de votre réseau.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Commandez un éclairage/appareil à distance
 
@@ -67,12 +67,12 @@ Fonctions
 
 -   Fonction répéteur Z-Wave
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Récepteur Z-Wave
 
@@ -91,12 +91,12 @@ Caractéristiques techniques
 
 -   Dimensions : 42mm x 43mm x 16mm
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : SmartHome by Everspring
 
@@ -108,18 +108,18 @@ Données du module
 
 -   Produit ID : 8
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -128,36 +128,36 @@ inclusion référez-vous à cette
 > noter que ce module se met directement en inclusion lorsqu’il
 > n’appartient à aucun réseau et qu’il est alimenté
 
- \
+
 
 ![inclusion](images/smarthomebyeverspring.AN179-0/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/smarthomebyeverspring.AN179-0/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   On : C’est la commande qui permet d’allumer la lumière
 
@@ -166,39 +166,39 @@ Voici la liste des commandes :
 -   Etat : C’est la commande qui permet de connaitre le statut de la
     lumière
 
- \
+
 
 A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 le même icone.
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/smarthomebyeverspring.AN179-0/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas
     conseillé de changer cette valeur.
@@ -214,62 +214,62 @@ Détails des paramètres :
 
 ### Groupes 
 
- \
+
 
 Ce module possède 2 groupes d’association.
 
- \
+
 
 ![Groupe](images/smarthomebyeverspring.AN179-0/groupe.jpg)
 
- \
+
 
 > **Important**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> A minima Jeedom devrait se retrouver dans le groupe 1 
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 -   Le retour d’état ne peut pas être configuré en dessous de 3
-    secondes.  \
+    secondes. 
 
 ### Visuel alternatif 
 
- \
+
 
 ![vuewidget](images//smarthomebyeverspring.AN179-0/vuewidget.jpg)
 
- \
+
 
 Wake up 
 -------
 
- \
+
 
 Pas de notion de wake up sur ce module.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Oui c’est le paramètre 2 et il ne peut pas être réglé en dessous de 3
 secondes.
 
- \
+
 
 Non. ce module peut s’inclure ou s’exclure en appuyant plusieurs fois
 sur l’interrupteur.
 
- \
+
 
 **@sarakha63**

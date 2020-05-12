@@ -1,28 +1,28 @@
 Everspring Miniplug On/Off - AN180-6 
 ====================================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/everspring.AN180-6/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/everspring.AN180-6/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 La Mini Prise On/Off est conçue pour contrôler l’allumage et
 l’extinction des luminaires et des équipements électriques de votre
@@ -35,12 +35,12 @@ pour fonctionner avec tous les réseaux compatibles Z-Wave™. Elle peut
 être contrôlée par une télécommande, un logiciel PC, ou n’importe quel
 contrôleur Z-Wave de votre réseau.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Commander une lampe ou un appareil à distance
 
@@ -60,12 +60,12 @@ Fonctions
 
 -   Fonction répéteur Z-Wave
 
- \
+
 
 Caractéristiques Techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Récepteur Z-Wave
 
@@ -85,12 +85,12 @@ Caractéristiques Techniques
 
 -   Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Everspring
 
@@ -102,18 +102,18 @@ Données du module
 
 -   Produit ID : 7
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -122,36 +122,36 @@ inclusion référez-vous à cette
 > noter que ce module se met directement en inclusion lorsqu’il
 > n’appartient à aucun réseau et qu’il est alimenté
 
- \
+
 
 ![inclusion](images/everspring.AN180-6/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées aux modules seront
 disponibles.
 
- \
+
 
 ![Commandes](images/everspring.AN180-6/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Etat : C’est la commande qui permet de connaitre le statut de la
     prise (Allumée/éteinte)
@@ -160,39 +160,39 @@ Voici la liste des commandes :
 
 -   Off : C’est la commande qui permet d’éteindre la prise
 
- \
+
 
 A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 la même icône.
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Vous pouvez effectuer la configuration du module en fonction de votre
 installation. Il faut pour cela passer par le bouton "Configuration" du
 plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas
     conseillé de changer cette valeur.
@@ -205,49 +205,49 @@ Détails des paramètres :
 
 ### Groupes 
 
- \
+
 
 Ce module possède 2 groupes d’association.
 
- \
+
 
 ![Groupe](images/everspring.AN180-6/groupe.jpg)
 
- \
+
 
 > **Important**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> A minima Jeedom devrait se retrouver dans le groupe 1 
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 -   Le retour d’état ne peut pas être configuré en dessous de 3
-    secondes.  \
+    secondes. 
 
 Wakeup 
 ------
 
- \
+
 
 Pas de notion de wakeup sur ce module.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Oui c’est le paramètre 2 et il ne peut pas être réglé en dessous de 3
 secondes.
 
- \
+
 
 **@sarakha63**

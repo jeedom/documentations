@@ -1,28 +1,28 @@
 Fibaro FGRM-222 "Volet roulant" 
 ===============================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de
 volets à butée électronique, les stores vénitiens ou encore les portes
@@ -45,12 +45,12 @@ habitation.
 
 Note : Ce module nécessite le neutre pour fonctionner.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Commandez vos stores ou volets roulants à distance
 
@@ -73,12 +73,12 @@ Fonctions
 
 -   Facilité d’utilisation et d’installation
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Récepteur Z-Wave
 
@@ -104,12 +104,12 @@ Caractéristiques techniques
 
 -   Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Fibar Group
 
@@ -121,56 +121,56 @@ Données du module
 
 -   Produit ID : 4097
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le
 > bouton d’inclusion, conformément à sa documentation papier.
 
- \
+
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/fibaro.fgrm222/commandes.jpg)
 
 ![Commandes](images/fibaro.fgrm222/commandes2.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Etat : C’est la commande qui permet de connaître la position de
     votre volet
@@ -202,26 +202,26 @@ Voici la liste des commandes :
 -   Pas : Permet de définir le pas pour un appui sur Décliner ou
     Incliner
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +231,11 @@ paramètres)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1: permet de bloquer le module (pour figer un volet) (dasn le cas
     d’un appui sur un interrupteur)
@@ -279,42 +279,42 @@ Détails des paramètres :
 -   50: permet de choisir si le module doit envoyer les infos aux noeuds
     en association en mode scene ou en mode association
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède 3 groupes d’association, seul le troisième est
 indispensable.
 
- \
+
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Reset 
 
- \
+
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
- \
+
 
 Vous pouvez remettre à zéro votre compteur de consommation en cliquant
 sur ce bouton disponible dans l’onglet Système.
 
- \
+
 
 ### Important 
 
- \
+
 
 > **Important**
 >
@@ -323,32 +323,32 @@ sur ce bouton disponible dans l’onglet Système.
 > positionnement doit être actif (paramètre 10 aux valeurs "Active
 > direct", "Active vénitien" ou "Active porte").
 
- \
+
 
 ### Visuel alternatif 
 
- \
+
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pas de notion de wakeup sur ce module.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Lire la section Reset de cette doc.
 
- \
+
 
 **@sarakha63**

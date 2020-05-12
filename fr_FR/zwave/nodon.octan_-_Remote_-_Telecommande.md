@@ -1,28 +1,28 @@
 Nodon Télécommande - Octan 
 ==========================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/nodon.octan/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 La Octan Remote NodOn® permet de contrôler n’importe quels récepteurs
 compatibles Z- Wave® ou Z-Wave Plus® tels que la prise télécommandée
@@ -35,12 +35,12 @@ de réfrigérateur, en passant par son support mural. Entre télécommande
 et interrupteur, la Octan Remote révolutionne le contrôle des objets
 domestiques
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Contrôle seul ou avec une centrale domotique
 
@@ -52,12 +52,12 @@ Fonctions
 
 -   2 ans de batterie
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
 
@@ -77,12 +77,12 @@ Caractéristiques techniques
 
 -   Garantie 2 ans
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Nodon
 
@@ -94,18 +94,18 @@ Données du module
 
 -   Produit ID : 1
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -113,36 +113,36 @@ inclusion référez-vous à cette
 > bouton (1 et 2) jusqu’à que la lumière devienne rose puis appuyer sur
 > le bouton 1, conformément à sa documentation papier.
 
- \
+
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/nodon.octan/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Boutons : c’est la commande qui remontera le bouton appuyé
 
@@ -158,41 +158,41 @@ Voici la liste des commandes :
 | **4**          | 40             | 42             | 41             | 43             |
 +----------------+----------------+----------------+----------------+----------------+
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 > **Important**
 >
 > Lors d’une première inclusion réveillez toujours le module juste après
 > l’inclusion.
 
- \
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/nodon.octan/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1-2 : Permet de choisir le profils des boutons en cas d’usage en
     central (inutile pour un usage dans Jeedom)
@@ -207,17 +207,17 @@ Détails des paramètres :
 
 ### Groupes 
 
- \
+
 
 Ce module possède 7 groupes d’association.
 
- \
+
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
- \
+
 
 -   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
     reporter des informations de la Smart Plug au contrôleur principal
@@ -229,50 +229,50 @@ Ce module possède 7 groupes d’association.
 -   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
     bouton correspondant selon le profil DUO
 
- \
+
 
 > **Important**
 >
-> A minima Jeedom devrait se retrouver dans le groupe 1  \
+> A minima Jeedom devrait se retrouver dans le groupe 1 
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 -   Ce module peut être capricieux à l’inclusion. Ne pas hésiter à le
     réveiller 1 ou 2 fois après l’inclusion, et bien vérifier le
     groupe d’association.
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pour réveiller ce module il suffit d’appuyer sur un des boutons
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Ce module est un module sur batterie, la nouvelle configuration ne sera
 prise en compte que si vous réveillez la télécommande.
 
- \
+
 
 Note importante 
 ---------------
 
- \
+
 
 > **Important**
 >
@@ -280,6 +280,6 @@ Note importante
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
 
- \
+
 
 **@sarakha63**

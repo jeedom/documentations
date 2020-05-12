@@ -1,28 +1,28 @@
 Secure SIR 321 "Timer" 
 ======================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/secure.sir321/module.jpg)
 
- \
+
 
 -   **Le visuel jeedom**
 
- \
+
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le minuteur numérique SIR321 est un simple interrupteur à
 bouton-poussoir qui se souvient d’éteindre, à votre place, vos appareils
@@ -37,12 +37,12 @@ boost va de 30 à 120 minutes.
 Le SIR 321 prend en charge les capteurs de température externe SES001,
 SES002 et SES003.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Booster pour thermoplongeur, radiateur panneau, sèche-serviettes,
     radiateur à bain d’huile
@@ -57,12 +57,12 @@ Fonctions
 
 -   Réalise des économies d’énergie
 
- \
+
 
 Caractéristiques Techniques 
 ---------------------------
 
- \
+
 
 -   Type: Minuteur électronique
 
@@ -77,12 +77,12 @@ Caractéristiques Techniques
 
 -   Température de fonctionnement: 0°C à 35°C
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Horstmann
 
@@ -93,18 +93,18 @@ Données du module
 -   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde
     de température ou non)
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -112,36 +112,36 @@ inclusion référez-vous à cette
 > le bouton (jusqu’au clignotement rapide) et relacher, conformément à
 > sa documentation papier.
 
- \
+
 
 ![inclusion](images/secure.sir321/inclusion.jpg)
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/secure.sir321/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   On : c’est la commande permettant d’allumer le relais
 
@@ -150,33 +150,33 @@ Voici la liste des commandes :
 -   Température : c’est la commande de mesure de la température si une
     sonde externe est présente
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Si vous voulez configurer le module il faut passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/secure.sir321/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1: Permet d’activer ou non la fonction fail safe timer (se référer à
     la documentation du module)
@@ -192,23 +192,23 @@ Détails des paramètres :
 -   5: Permet de régler une température de cut off au delà de laquelle
     le module coupera le relais
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède deux groupes d’association. Si le premier est
 indispensable, le deuxième est actif et est indispensable si une sonde
 de température est reliée.
 
- \
+
 
 ![Groupe](images/secure.sir321/groupe.jpg)
 
 F.A.Q. 
 ------
 
- \
+
 
 **@sarakha63**

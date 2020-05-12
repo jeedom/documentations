@@ -1,28 +1,28 @@
 MCO MH-S412 Double 
 ==================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/mco.mhs412/module.jpg)
 
- \
+
 
 -   **Le visuel Jeedom**
 
- \
+
 
 ![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 L’interrupteur MH-S412-EU permet de commuter les 2 charges connectées,
 soit manuellement comme un interrupteur classique, ou à distance via le
 protocole sans fil Z-Wave.
@@ -33,12 +33,12 @@ L’interrupteur MH-S412-EU peut contrôler n’importe quel type de charge,
 un éclairage ou un appareil électrique.
 
 L’interrupteur est également équipé d’un voyant LED qui indique son
-état.  \
+état. 
 
 Fonctions 
 ---------
 
- \
+
 
 -   Commander deux lampes ou appareils à distance
 
@@ -57,12 +57,12 @@ Fonctions
 
 -   Boutons tactiles
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Récepteur Z-Wave
 
@@ -82,12 +82,12 @@ Caractéristiques techniques
 
 -   Affichage: LED bleue/rouge
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : MC HOME
 
@@ -99,18 +99,18 @@ Données du module
 
 -   Produit ID : 514
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -120,71 +120,71 @@ inclusion référez-vous à cette
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/mco.mhs412/commandes.jpg)
 
- \
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction
 de votre installation, il faut pour cela passer par la bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/mco.mhs412/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1: Saving state before power failure : enable ( permet de retrouver
     le dernier état des interrupteurs juste avant la coupure secteur )
     diseable (les interrupteurs seront a l’état OFF au retour secteur )
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Ce module possède 3 groupes d’association. Seul le troisieme est
 indispensable.
 
- \
+
 
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
@@ -202,18 +202,18 @@ rattaché à un contrôleur z-wave)
 Wakeup 
 ------
 
- \
+
 
 Ce module étant raccordé au secteur (220v) , le reveil est instantanné
 et ne necessite donc pas d’action particulière lors d’un changement de
 paramètres
 
- \
+
 
 F.A.Q. 
 ------
 
- \
+
 
 Pour exclure ce modèle, mettre Openzwave en mode exclusion et appuyer
 sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa
@@ -222,5 +222,5 @@ documentation papier.
 Pour restaurer les paramètres usine, appuyer sur un seul des 2 boutons
 en face avant pendant 10 sec, conformément à sa documentation papier.
 
- \
+
 

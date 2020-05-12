@@ -1,28 +1,28 @@
 Secure SRT 323 "Thermostat" 
 ===========================
 
- \
+
 
 -   **Le module**
 
- \
+
 
 ![module](images/secure.srt323/module.jpg)
 
- \
+
 
 -   **Le visuel jeedom**
 
- \
+
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
- \
+
 
 Résumé 
 ------
 
- \
+
 
 Le SRT323 est un thermostat mural fonctionnant sur batterie. Il dispose
 d’un bouton rotatif permettant à l’utilisateur de régler la température
@@ -55,12 +55,12 @@ chauffage. Vous n’aurez plus à vous soucier de rentrer chez vous dans
 une maison froide, tant que vous avez un smartphone, une tablette ou un
 PC à portée de main et connecté à internet.
 
- \
+
 
 Fonctions 
 ---------
 
- \
+
 
 -   Thermostat pour application domestique
 
@@ -76,12 +76,12 @@ Fonctions
 
 -   Un seul bouton
 
- \
+
 
 Caractéristiques techniques 
 ---------------------------
 
- \
+
 
 -   Type de module : Contrôleur Z-Wave
 
@@ -105,12 +105,12 @@ Caractéristiques techniques
 
 -   Dimensions : 86 x 86 x 36,25 mm
 
- \
+
 
 Données du module 
 -----------------
 
- \
+
 
 -   Marque : Horstmann
 
@@ -122,18 +122,18 @@ Données du module
 
 -   Produit ID : 4
 
- \
+
 
 Configuration 
 -------------
 
- \
+
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en
 inclusion référez-vous à cette
 [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
- \
+
 
 > **Important**
 >
@@ -141,11 +141,11 @@ inclusion référez-vous à cette
 > position ON puis avec la molette afficher L et appuyer sur la molette,
 > conformément à sa documentation papier.
 
- \
+
 
 ![inclusion](images/secure.srt323/inclusion.jpg)
 
- \
+
 
 > **Important**
 >
@@ -158,32 +158,32 @@ inclusion référez-vous à cette
 > Inclusion/Exclusion. Ensuite sur la page de votre module cliquez sur
 > la loupe en haut à droite.
 
- \
+
 
 Une fois inclus vous devriez obtenir ceci :
 
- \
+
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
- \
+
 
 ### Commandes 
 
- \
+
 
 Une fois le module reconnu, les commandes associées au module seront
 disponibles.
 
- \
+
 
 ![Commandes](images/secure.srt323/commandes.jpg)
 
- \
+
 
 Voici la liste des commandes :
 
- \
+
 
 -   Température : c’est la commande de mesure de la température
 
@@ -196,34 +196,34 @@ Voici la liste des commandes :
 
 -   Batterie : c’est la commande batterie
 
- \
+
 
 ### Configuration du module 
 
- \
+
 
 Ensuite il est nécessaire d’effectuer la configuration du module en
 fonction de votre installation. Il faut pour cela passer par le bouton
 "Configuration" du plugin OpenZwave de Jeedom.
 
- \
+
 
 ![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
- \
+
 
 Vous arriverez sur cette page (après avoir cliqué sur l’onglet
 paramètres)
 
- \
+
 
 ![Config1](images/secure.srt323/config1.jpg)
 
- \
+
 
 Détails des paramètres :
 
- \
+
 
 -   1: permet d’activer ou non le capteur de température interne
 
@@ -232,29 +232,29 @@ Détails des paramètres :
 -   3: permet de définir le palier de variation de la température pour
     que le module la remonte (par unité de 0.1°C)
 
- \
+
 
 ### Groupes 
 
- \
+
 
 Pour un fonctionnement optimum de votre module il faut que Jeedom soit
 associé aux 5 groupes
 
- \
+
 
 ![Groupe](images/secure.srt323/groupe.jpg)
 
- \
+
 
 Bon à savoir 
 ------------
 
- \
+
 
 ### Spécificités 
 
- \
+
 
 > **Important**
 >
@@ -264,34 +264,34 @@ Bon à savoir
 > le diminuer à 10 minutes environ. Ainsi un changement de consigne sera
 > pris en compte par le module au maximum après 10 minutes
 
- \
+
 
 Wakeup 
 ------
 
- \
+
 
 Pour réveiller ce module il faut mettre le switch 1 en position ON et
 avec la molette choisir n et appuyer sur la molette.
 
- \
+
 
 F.A.Q. 
 ------
 
- \
 
- \
+
+
 
 Ce module est un module sur batterie, la nouvelle configuration sera
 prise en compte au prochain wake up.
 
- \
+
 
 Note importante 
 ---------------
 
- \
+
 
 > **Important**
 >
@@ -299,6 +299,6 @@ Note importante
 > de la configuration , après un changement de wakeup, après un
 > changement des groupes d’association
 
- \
+
 
 **@sarakha63**
