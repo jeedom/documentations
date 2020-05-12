@@ -67,8 +67,7 @@ Fonctions
 Caractéristiques techniques
 ---------------------------
 
--   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de
-    la batterie : 6 mois pour 2h de charge
+-   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de la batterie : 6 mois pour 2h de charge
 
 -   Consommation en veille : 18µA
 
@@ -128,11 +127,9 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Etat : c’est la commande qui remontera la position du bouton de 0 à
-    100%
+-   Etat : c’est la commande qui remontera la position du bouton de 0 à 100%
 
--   Batterie : c’est la commande qui remonte l’état de batterie du
-    module
+-   Batterie : c’est la commande qui remonte l’état de batterie du module
 
 ### Configuration du module
 
@@ -160,12 +157,9 @@ Détails des paramètres :
 
 -   10 : intervalle de temps de remontée de batterie
 
--   25 : permet de définir si le module envoie sa positon
-    automatiquement après rotation (1s de délai) ou si il faut appuyer
-    sur le bouton pour valider l’envoi
+-   25 : permet de définir si le module envoie sa positon automatiquement après rotation (1s de délai) ou si il faut appuyer sur le bouton pour valider l’envoi
 
--   26 : active l’envoi de scène ou non sur appui du bouton centrale
-    (paramètre non pris en compte dans Jeedom)
+-   26 : active l’envoi de scène ou non sur appui du bouton centrale (paramètre non pris en compte dans Jeedom)
 
 ### Groupes
 

@@ -39,16 +39,13 @@ distance.
 Fonctions
 ---------
 
--   Interrupteur sur cordon utilisable à la fois manuellement
-    (appui court) et par radio à distance (Z-Wave)
+-   Interrupteur sur cordon utilisable à la fois manuellement (appui court) et par radio à distance (Z-Wave)
 
--   Utilisation en remplacement d’un interrupteur à cordon standard
-    d’une lampe de chevet, de table ou de bureau
+-   Utilisation en remplacement d’un interrupteur à cordon standard d’une lampe de chevet, de table ou de bureau
 
 -   Fonction ON/OFF
 
--   Activation d’un scénario domotique sur appui long
-    (association Z-Wave)
+-   Activation d’un scénario domotique sur appui long (association Z-Wave)
 
 -   Dimensions comparables à un interrupteur sur cordon ordinaire
 
@@ -125,8 +122,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Etat : C’est la commande qui permet de connaître le statut de la
-    lumière
+-   Etat : C’est la commande qui permet de connaître le statut de la lumière
 
 -   ON : C’est la commande qui permet d’allumer la lumière
 
@@ -155,14 +151,11 @@ swiidinter à un autre module (appui long)
 
 -   Inactif : n’aura aucun effet sur les autres lumières
 
--   Uniquement OFF : sera effectif uniquement pour éteindre les autres
-    lumières
+-   Uniquement OFF : sera effectif uniquement pour éteindre les autres lumières
 
--   Uniquement ON : sera effectif uniquement pour allumer les autres
-    lumières
+-   Uniquement ON : sera effectif uniquement pour allumer les autres lumières
 
--   ON et OFF (fully) : sera effectif pour allumer et éteindre les
-    autres lumières
+-   ON et OFF (fully) : sera effectif pour allumer et éteindre les autres lumières
 
 ### Groupes
 

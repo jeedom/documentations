@@ -42,8 +42,7 @@ Fonctions
 
 -   Indicateur LED pour confirmer chaque action
 
--   Buzzer intégré pour indication sonore de l’armement/désarmement de
-    l’alarme par exemple
+-   Buzzer intégré pour indication sonore de l’armement/désarmement de l’alarme par exemple
 
 Caractéristiques techniques
 ---------------------------
@@ -114,14 +113,11 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Action : c’est la commande qui remontera le home/away (5 pour away 6
-    pour home)
+-   Action : c’est la commande qui remontera le home/away (5 pour away 6 pour home)
 
--   Sabotage : c’est la commande sabotage (elle est déclenchée en
-    cas d’arrachement)
+-   Sabotage : c’est la commande sabotage (elle est déclenchée en cas d’arrachement)
 
--   Code : affiche le code du badge ou du clavier lorsque le code saisi
-    n’est pas dans une des mémoires
+-   Code : affiche le code du badge ou du clavier lorsque le code saisi n’est pas dans une des mémoires
 
 -   Batterie : c’est la commande batterie
 
@@ -149,13 +145,11 @@ Détails des paramètres :
 
 -   2: durée d’annulation (à ne pas modifier)
 
--   3: retour par bip : permet d’activer ou non une série de 8 bips
-    après reconnaissance d’un badge/code
+-   3: retour par bip : permet d’activer ou non une série de 8 bips après reconnaissance d’un badge/code
 
 -   4: nombre de bips par seconde (ne pas modifier n’a pas d’effet)
 
--   5: mode de fonctionnement : normal ou mode toujours reveillé
-    (déconseillé car très très consommateur de piles)
+-   5: mode de fonctionnement : normal ou mode toujours reveillé (déconseillé car très très consommateur de piles)
 
 ### Groupes
 
@@ -178,19 +172,15 @@ Celui-ci permet de rajouter des codes. Vous y verrez un tableau.
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
--   Ce tableau vous permet de visualiser les mémoires occupées sur votre
-    clavier
+-   Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
 
--   Pour enregistrer un nouveau code cliquez sur le bouton vert sur la
-    mémoire désirée et suivez les étapes
+-   Pour enregistrer un nouveau code cliquez sur le bouton vert sur la mémoire désirée et suivez les étapes
 
 -   Pour supprimer un code il suffit de cliquer sur le bouton rouge.
 
--   Il est impossible d’enregistrer le même code/badge sur deux mémoires
-    différentes
+-   Il est impossible d’enregistrer le même code/badge sur deux mémoires différentes
 
--   Il est impossible (par mesure de sécurité) de lire la valeur d’un
-    code enregistré
+-   Il est impossible (par mesure de sécurité) de lire la valeur d’un code enregistré
 
 > **Important**
 >
@@ -217,12 +207,9 @@ Bon à savoir
 
 Le keypad lit les codes/badges de deux manières :
 
--   lorsque vous appuyez sur home/away pendant les 1 à 2 premières
-    secondes si vous commencez à taper un code, il lira ce code
+-   lorsque vous appuyez sur home/away pendant les 1 à 2 premières secondes si vous commencez à taper un code, il lira ce code
 
--   si rien n’est fait dans les 1 à 2 premières secondes, il se met en
-    mode lecture de badge RFID (lumière rouge allumée). A ce moment là
-    il peut lire un badge, pas avant.
+-   si rien n’est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge, pas avant.
 
 Wakeup
 ------

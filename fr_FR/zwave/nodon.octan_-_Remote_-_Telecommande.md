@@ -43,15 +43,13 @@ Caractéristiques techniques
 
 -   4 boutons
 
--   Support mural fixé par adhésif double face (inclus) ou vis
-    (non incluses)
+-   Support mural fixé par adhésif double face (inclus) ou vis (non incluses)
 
 -   Aimant intégré pour fixation sur surface métallique
 
 -   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
-    Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
+-   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
 
 -   Dimensions : 80\*80\*15mm
 
@@ -132,14 +130,11 @@ paramètres)
 
 Détails des paramètres :
 
--   1-2 : Permet de choisir le profils des boutons en cas d’usage en
-    central (inutile pour un usage dans Jeedom)
+-   1-2 : Permet de choisir le profils des boutons en cas d’usage en central (inutile pour un usage dans Jeedom)
 
--   3 : Paramètre important pour dire si l’interrupteur doit fonctionner
-    en mode Scene ou Central Scene (Absolument mettre Scene)
+-   3 : Paramètre important pour dire si l’interrupteur doit fonctionner en mode Scene ou Central Scene (Absolument mettre Scene)
 
--   4-7 : Choisir le mode de fonctionnement des boutons (en cas
-    d’associations groupes)
+-   4-7 : Choisir le mode de fonctionnement des boutons (en cas d’associations groupes)
 
 -   8 : Permet de choisir le mode de fonctionnement de la LED
 
@@ -151,15 +146,11 @@ Ce module possède 7 groupes d’association.
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au contrôleur principal du réseau.
 
--   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil MONO
+-   Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil MONO
 
--   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le
-    bouton correspondant selon le profil DUO
+-   Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil DUO
 
 > **Important**
 >
@@ -170,9 +161,7 @@ Bon à savoir
 
 ### Spécificités
 
--   Ce module peut être capricieux à l’inclusion. Ne pas hésiter à le
-    réveiller 1 ou 2 fois après l’inclusion, et bien vérifier le
-    groupe d’association.
+-   Ce module peut être capricieux à l’inclusion. Ne pas hésiter à le réveiller 1 ou 2 fois après l’inclusion, et bien vérifier le groupe d’association.
 
 Wakeup
 ------

@@ -60,8 +60,7 @@ Caractéristiques techniques
 
 -   Consommation : 0.5W
 
--   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence
-    : 1200W Ampoule Fluocompacte : 320W
+-   Puissance maximum : Charge résistive : 2500W Ampoule à incandesence : 1200W Ampoule Fluocompacte : 320W
 
 -   Fréquence : 868,42 Mhz
 
@@ -117,8 +116,7 @@ Voici la liste des commandes :
 
 -   Off : C’est la commande qui permet d’éteindre la lumière
 
--   Etat : C’est la commande qui permet de connaitre le statut de la
-    lumière
+-   Etat : C’est la commande qui permet de connaitre le statut de la lumière
 
 A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 le même icone.
@@ -138,17 +136,13 @@ paramètres)
 
 Détails des paramètres :
 
--   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas
-    conseillé de changer cette valeur.
+-   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas conseillé de changer cette valeur.
 
--   2 : Ce paramètre définit le délai d’envoi du changement d’état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : Ce paramètre définit le délai d’envoi du changement d’état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 
--   3 : Ce paramètre permet de définir si l’interrupteur reprendra son
-    statut (ON ou OFF) après une reprise de courant.
+-   3 : Ce paramètre permet de définir si l’interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
 
--   4 : Ce paramètre permet de définir le type
-    d’interrupteur (poussoir/bistable)
+-   4 : Ce paramètre permet de définir le type d’interrupteur (poussoir/bistable)
 
 ### Groupes
 
@@ -165,8 +159,7 @@ Bon à savoir
 
 ### Spécificités
 
--   Le retour d’état ne peut pas être configuré en dessous de 3
-    secondes.
+-   Le retour d’état ne peut pas être configuré en dessous de 3 secondes.
 
 ### Visuel alternatif
 

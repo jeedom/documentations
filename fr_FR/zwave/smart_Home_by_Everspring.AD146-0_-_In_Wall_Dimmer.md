@@ -123,15 +123,13 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Intensité : C’est la commande permettant de régler l’intensité de la
-    lumière
+-   Intensité : C’est la commande permettant de régler l’intensité de la lumière
 
 -   On : C’est la commande qui permet d’allumer la lumière
 
 -   Off : C’est la commande qui permet d’éteindre la lumière
 
--   Etat : C’est la commande qui permet de connaître le statut de la
-    lumière
+-   Etat : C’est la commande qui permet de connaître le statut de la lumière
 
 A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se
 retrouvent sur le même icone.
@@ -151,20 +149,15 @@ paramètres)
 
 Détails des paramètres :
 
--   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas
-    conseillé de changer cette valeur.
+-   1 : Ce paramètre déﬁnit la commande de valeur d’état, il n’est pas conseillé de changer cette valeur.
 
--   2 : Ce paramètre définit le délai d’envoi du changement d’état au
-    groupe 1 (valeur comprise entre 3 et 25 secondes)
+-   2 : Ce paramètre définit le délai d’envoi du changement d’état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 
--   3 : Ce paramètre permet de définir si l’interrupteur reprendra son
-    statut (ON ou OFF) après une reprise de courant.
+-   3 : Ce paramètre permet de définir si l’interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
 
--   4 : Ce paramètre permet de définir le type
-    d’interrupteur (poussoir/bistable)
+-   4 : Ce paramètre permet de définir le type d’interrupteur (poussoir/bistable)
 
--   5 : Ce paramètre permet de définir si l’interrupteur fontionnera en
-    mode variation ou en mode on/off
+-   5 : Ce paramètre permet de définir si l’interrupteur fontionnera en mode variation ou en mode on/off
 
 ### Groupes
 
@@ -181,8 +174,7 @@ Bon à savoir
 
 ### Spécificités
 
--   Le retour d’état ne peut pas être configuré en dessous de 3
-    secondes.
+-   Le retour d’état ne peut pas être configuré en dessous de 3 secondes.
 
 ### Visuel alternatif
 

@@ -143,8 +143,7 @@ Voici la liste des commandes :
 
 -   Consigne : c’est la commande qui permet de régler la consigne
 
--   Etat Chauffe : c’est la commande qui permet de savoir si le
-    thermostat est en mode chauffe ou non
+-   Etat Chauffe : c’est la commande qui permet de savoir si le thermostat est en mode chauffe ou non
 
 -   Batterie : c’est la commande batterie
 
@@ -167,8 +166,7 @@ Détails des paramètres :
 
 -   2: permet de choisir l’unité de la température
 
--   3: permet de définir le palier de variation de la température pour
-    que le module la remonte (par unité de 0.1°C)
+-   3: permet de définir le palier de variation de la température pour que le module la remonte (par unité de 0.1°C)
 
 ### Groupes
 

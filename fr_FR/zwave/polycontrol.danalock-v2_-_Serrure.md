@@ -98,15 +98,13 @@ Fonctions
 
 -   Connexion via Bluetooth Smart et Z-Wave
 
--   Intégration dans les contrôleurs Z-Wave compatibles (eedomus,
-    Vera, …​)
+-   Intégration dans les contrôleurs Z-Wave compatibles (eedomus, Vera, …​)
 
 -   Historique d’activités
 
 -   Différentes possibilités de réglage pour la fermeture et l’ouverture
 
--   Partage d’accès : donnez l’accès à votre femme de ménage ou à un ami
-    pendant une période limitée
+-   Partage d’accès : donnez l’accès à votre femme de ménage ou à un ami pendant une période limitée
 
 -   Calibration automatique
 
@@ -114,8 +112,7 @@ Fonctions
 
 -   Fonctionnement avec des piles
 
--   Compatible avec iOS (iPhone 4s ou une version ultérieure), mais
-    aussi Android (à partir de 4.4).
+-   Compatible avec iOS (iPhone 4s ou une version ultérieure), mais aussi Android (à partir de 4.4).
 
 Caractéristiques techniques
 ---------------------------
@@ -197,8 +194,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Statut : c’est la commande qui remontera la dernière action
-    éxécutée (ouvrir/fermer)
+-   Statut : c’est la commande qui remontera la dernière action éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c’est la commande qui permet d’ouvrir la serrure
 
@@ -228,45 +224,27 @@ paramètres)
 
 Détails des paramètres :
 
--   1 : Direction 0-1 : 0 = Le moteur va dans le sens horaire
-    verrouillé, 1 = Le moteur va dans le sens antihoraire lorsque
-    verrouillé
+-   1 : Direction 0-1 : 0 = Le moteur va dans le sens horaire verrouillé, 1 = Le moteur va dans le sens antihoraire lorsque verrouillé
 
--   2 : Vitesse 1 = le plus lent, 2 = lent, 3 = Normal, 4 = Fast, 5 = le
-    plus rapide
+-   2 : Vitesse 1 = le plus lent, 2 = lent, 3 = Normal, 4 = Fast, 5 = le plus rapide
 
--   3 : Mode 1 = Entraînement de moteur (économie d’énergie), 2 = mode
-    complet d’entraînement (Normal)
+-   3 : Mode 1 = Entraînement de moteur (économie d’énergie), 2 = mode complet d’entraînement (Normal)
 
 -   4 : Nombre de tours (1 = 10 degrés, 9 = 90 degrés, etc.)
 
--   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où
-    la serrure a été déverrouillée pour automatiquement se fermer
-    à nouveau. Si 0, il est désactivé.
+-   5 : Auto verrouillage 0-60 Combien de secondes à partir du moment où la serrure a été déverrouillée pour automatiquement se fermer à nouveau. Si 0, il est désactivé.
 
--   6 : Désactiver ou activer le signal sonore de verrouillage ou
-    déverrouillage (0 = Désactiver, 1 = Activer.)
+-   6 : Désactiver ou activer le signal sonore de verrouillage ou déverrouillage (0 = Désactiver, 1 = Activer.)
 
--   7 : Type de batterie : Réglez le type de batterie qui
-    alimente l’appareil.
+-   7 : Type de batterie : Réglez le type de batterie qui alimente l’appareil.
 
--   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur
-    à cette valeur, le dispositif informera l’utilisateur avec un signal
-    sonore après le verrouillage ou déverrouillage.
+-   8 : Alarme batterie : Lorsque le niveau de la batterie est inférieur à cette valeur, le dispositif informera l’utilisateur avec un signal sonore après le verrouillage ou déverrouillage.
 
--   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go
-    tournera la poignée automatiquement lorsqu’on
-    l’actionne manuellement.
+-   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go tournera la poignée automatiquement lorsqu’on l’actionne manuellement.
 
--   10 : Brake & GoBack 0 = Désactivé. 1⇒15 secondes pour freiner. Quand
-    il est utilisé le verrou freine pour x quantité de secondes, puis
-    reviens à 75 degrés en arrière. Conçu pour des portes spéciales
-    sans levier. (Uniquement lors du déverrouillage).
+-   10 : Brake & GoBack 0 = Désactivé. 1⇒15 secondes pour freiner. Quand il est utilisé le verrou freine pour x quantité de secondes, puis reviens à 75 degrés en arrière. Conçu pour des portes spéciales sans levier. (Uniquement lors du déverrouillage).
 
--   11 : Async 0 = Async off, 1 = Async On. Lorsqu’async est activé le
-    verrou sera automatiquement calibré s’il est déjà déverrouillé et
-    Déverrouille à nouveau (utilisé pour des serrures de
-    porte spéciales).
+-   11 : Async 0 = Async off, 1 = Async On. Lorsqu’async est activé le verrou sera automatiquement calibré s’il est déjà déverrouillé et Déverrouille à nouveau (utilisé pour des serrures de porte spéciales).
 
 -   12 : rapport d’opération
 

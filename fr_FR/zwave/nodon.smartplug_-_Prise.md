@@ -28,8 +28,7 @@ Fonctions
 
 -   Détection perte de courant secteur
 
--   Ergonomique: Possibilité de brancher la prise tête en haut/tête en
-    bas
+-   Ergonomique: Possibilité de brancher la prise tête en haut/tête en bas
 
 -   Gestion intelligente des alarmes
 
@@ -42,13 +41,11 @@ Caractéristiques techniques
 
 -   Alimentation : 230V AC +/-10% - 50Hz
 
--   Puissance maximum : 3000W en continue / 3500W cyclique
-    (Charge résistive) Consommation intrinsèque : &lt;1W
+-   Puissance maximum : 3000W en continue / 3500W cyclique (Charge résistive) Consommation intrinsèque : &lt;1W
 
 -   Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
 
--   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave
-    Plus® SDK 06.51.01
+-   Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.01
 
 -   Portée: 40m indoor / 80m outdoor
 
@@ -99,15 +96,13 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Etat : C’est la commande qui permet de connaitre le statut de la
-    prise (Allumée/Eteinte)
+-   Etat : C’est la commande qui permet de connaitre le statut de la prise (Allumée/Eteinte)
 
 -   On : C’est la commande qui permet d’allumer la prise
 
 -   Off : C’est la commande qui permet d’éteindre la prise
 
--   Statut : Permet de savoir si la prise est alimentée ou non
-    (Détection coupure de courant / débranchement)
+-   Statut : Permet de savoir si la prise est alimentée ou non (Détection coupure de courant / débranchement)
 
 A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur
 le même icone.
@@ -129,25 +124,15 @@ paramètres)
 
 Détails des paramètres :
 
--   1 : Ce paramètre déﬁnit l’état (ON/OFF) de la Smart Plug après une
-    coupure de courant ou après branchement
+-   1 : Ce paramètre déﬁnit l’état (ON/OFF) de la Smart Plug après une coupure de courant ou après branchement
 
--   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de
-    coupure/retour de courant, ainsi que les groupes associés (Groupes
-    4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à
-    la documentation papier ou à la bulle d’aide dans jeedom). Il est
-    recommandé de mettre ce paramètre à 1.
+-   2 : Ce paramètre permet de conﬁgurer les rapports de notiﬁcation de coupure/retour de courant, ainsi que les groupes associés (Groupes 4, 5, 6, 7, 8). Plusieurs combinaisons sont possibles (se référer à la documentation papier ou à la bulle d’aide dans jeedom). Il est recommandé de mettre ce paramètre à 1.
 
 -   3 : Ce paramètre permet d’activer ou désactiver les groupes 2 et 3.
 
--   4 : Le paramètre force l’état de la Smart Plug à « ON » (Smart
-    Plug activée). Lorsque que la paramètre est activée, il n’est pas
-    possible d’éteindre la Smart Plug (local ou radio)
+-   4 : Le paramètre force l’état de la Smart Plug à « ON » (Smart Plug activée). Lorsque que la paramètre est activée, il n’est pas possible d’éteindre la Smart Plug (local ou radio)
 
--   Paramètres 5 à 20 : Au travers des paramètres de conﬁgurations \#5 à
-    \#20, il est possible de conﬁgurer jusqu’à 8 alarmes différentes.
-    Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne:
-    www.nodon.fr/support/asp3/alarm vous guidera
+-   Paramètres 5 à 20 : Au travers des paramètres de conﬁgurations \#5 à \#20, il est possible de conﬁgurer jusqu’à 8 alarmes différentes. Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne: www.nodon.fr/support/asp3/alarm vous guidera
 
 ### Groupes
 
@@ -155,42 +140,21 @@ Ce module possède 8 groupes d’association.
 
 ![Groupe](images/nodon.smartplug/groupe.jpg)
 
--   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour
-    reporter des informations de la Smart Plug au contrôleur principal
-    du réseau.
+-   Groupe 1 – Lifeline : Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au contrôleur principal du réseau.
 
--   Groupe 2 – Suivi de l’état de la Smart Plug Lorsque la Smart Plug
-    est activée (respectivement désactivée) via le bouton local,
-    celle-ci envoie une commande d’activation
-    (respectivement désactivation) aux appareils associés. Aucune
-    commande n’est envoyée si le changement d’état de la Smart Plug a
-    été provoqué par une commande radio
+-   Groupe 2 – Suivi de l’état de la Smart Plug Lorsque la Smart Plug est activée (respectivement désactivée) via le bouton local, celle-ci envoie une commande d’activation (respectivement désactivation) aux appareils associés. Aucune commande n’est envoyée si le changement d’état de la Smart Plug a été provoqué par une commande radio
 
--   Groupe 3 – Suivi de l’état complémentaire Lorsque que la Smart Plug
-    est activée (respectivement désactivée) via le bouton local,
-    celle-ci envoie une commande de désactivation
-    (respectivement d’activation) aux appareils associés. Aucune
-    commande n’est envoyée si le changement d’état de la Smart Plug a
-    été provoqué par une commande radio.
+-   Groupe 3 – Suivi de l’état complémentaire Lorsque que la Smart Plug est activée (respectivement désactivée) via le bouton local, celle-ci envoie une commande de désactivation (respectivement d’activation) aux appareils associés. Aucune commande n’est envoyée si le changement d’état de la Smart Plug a été provoqué par une commande radio.
 
--   Groupe 4 – Notiﬁcation de coupure de courant Lorsque la Smart Plug
-    détecte une coupure de courant ou un retour du courant, un rapport
-    de notiﬁcation est envoyé aux appareils associés. Le rapport envoyé
-    est un « Notiﬁcation Report : Power Management - AC disconnected
-    / Re-connected).
+-   Groupe 4 – Notiﬁcation de coupure de courant Lorsque la Smart Plug détecte une coupure de courant ou un retour du courant, un rapport de notiﬁcation est envoyé aux appareils associés. Le rapport envoyé est un « Notiﬁcation Report : Power Management - AC disconnected / Re-connected).
 
--   Groupe 5 – Activation sur coupure de courant Lorsque la Smart Plug
-    détecte une coupure de courant, elle active les appareils associés.
+-   Groupe 5 – Activation sur coupure de courant Lorsque la Smart Plug détecte une coupure de courant, elle active les appareils associés.
 
--   Groupe 6 – Désactivation sur coupure de courant Lorsque la Smart
-    Plug détecte une coupure de courant, elle désactive les appareils
-    associés
+-   Groupe 6 – Désactivation sur coupure de courant Lorsque la Smart Plug détecte une coupure de courant, elle désactive les appareils associés
 
--   Groupe 7 – Activation sur retour de courant Lorsque la Smart Plug
-    détecte un retour du courant, elle active les appareils associés.
+-   Groupe 7 – Activation sur retour de courant Lorsque la Smart Plug détecte un retour du courant, elle active les appareils associés.
 
--   Groupe 8 – Désactivation sur retour de courant Lorsque la Smart Plug
-    détecte un retour du courant, elle désactive les appareils associés
+-   Groupe 8 – Désactivation sur retour de courant Lorsque la Smart Plug détecte un retour du courant, elle désactive les appareils associés
 
 > **Important**
 >
@@ -201,10 +165,7 @@ Bon à savoir
 
 ### Spécificités
 
--   Il est inutile de s’amuser à brancher/débrancher la prise pour
-    observer l’alarme. Celle ci ne marchera à peu près que 3 fois. Au
-    delà la prise doit rester alimentée un petit moment pour recharger
-    la pile interne.
+-   Il est inutile de s’amuser à brancher/débrancher la prise pour observer l’alarme. Celle ci ne marchera à peu près que 3 fois. Au delà la prise doit rester alimentée un petit moment pour recharger la pile interne.
 
 Wakeup
 ------

@@ -52,15 +52,13 @@ Fonctions
 
 -   Commander une lampe ou un appareil à distance
 
--   Module prise s’intégrant directement entre une prise électrique et
-    la charge à commander
+-   Module prise s’intégrant directement entre une prise électrique et la charge à commander
 
 -   Permet le suivi de consommation de l’appareil branché
 
 -   Fonction ON/OFF
 
--   Possibilité de lui affecter un numéro et une couleur afin de
-    différencier les différentes PowerNode d’une même installation
+-   Possibilité de lui affecter un numéro et une couleur afin de différencier les différentes PowerNode d’une même installation
 
 -   Bouton On/Off directement sur la prise
 
@@ -137,15 +135,13 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Etat : C’est la commande qui permet de connaître le statut de la
-    prise
+-   Etat : C’est la commande qui permet de connaître le statut de la prise
 
 -   On : C’est la commande qui permet d’allumer la prise
 
 -   Off : C’est la commande qui permet d’éteindre la prise
 
--   Puissance : C’est la commande qui remonte la puissance instantanée
-    consommée
+-   Puissance : C’est la commande qui remonte la puissance instantanée consommée
 
 -   Conso : C’est la commande qui remonte la consommation totale
 
@@ -170,9 +166,7 @@ pour ce module.
 
 Détails des paramètres :
 
--   1 : Délai avant le clignotement du bouton : nombres de secondes
-    minimum entre deux communications (si ce délai est dépassé le bouton
-    de la prise clignotera)
+-   1 : Délai avant le clignotement du bouton : nombres de secondes minimum entre deux communications (si ce délai est dépassé le bouton de la prise clignotera)
 
 -   2 : Couleur selectionnée de la molette (détectée automatiquement)
 

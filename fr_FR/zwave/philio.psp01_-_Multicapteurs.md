@@ -39,9 +39,7 @@ Fonctions
 
 -   Détecteur 3 en 1: mouvement, température, lumière
 
--   Adopte la récente puce Z-Wave 400series pour supporter les
-    opérations multicanaux et un débit de données plus
-    élevé (9.6/40/100kbps)
+-   Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
 
 -   Utilise le SDK Z-Wave 6.02
 
@@ -134,16 +132,13 @@ Voici la liste des commandes :
 
 -   Présence : c’est la commande qui remontera une détection de présence
 
--   Ouverture : c’est la commande qui remontera une détection
-    d’ouverture
+-   Ouverture : c’est la commande qui remontera une détection d’ouverture
 
--   Température : c’est la commande qui permet de remonter la
-    température
+-   Température : c’est la commande qui permet de remonter la température
 
 -   Luminosité : c’est la commande qui permet de remonter la luminosité
 
--   Sabotage : c’est la commande sabotage (elle est déclenchée en
-    cas d’arrachement)
+-   Sabotage : c’est la commande sabotage (elle est déclenchée en cas d’arrachement)
 
 -   Batterie : c’est la commande batterie
 
@@ -172,33 +167,23 @@ Paramètres)
 
 Détails des paramètres :
 
--   2: permet de régler le signal envoyé aux modules dans le groupe
-    d’association 2
+-   2: permet de régler le signal envoyé aux modules dans le groupe d’association 2
 
--   3: permet de régler la sensibilité du capteur de présence (0 :
-    désactivé 99: sensibilité max)
+-   3: permet de régler la sensibilité du capteur de présence (0 : désactivé 99: sensibilité max)
 
--   4: permet de régler le niveau de luminosité à partir duquel le
-    signal défini en paramètre 2 sera envoyé aux modules associés au
-    groupe 2
+-   4: permet de régler le niveau de luminosité à partir duquel le signal défini en paramètre 2 sera envoyé aux modules associés au groupe 2
 
--   5: mode de fonctionnement (déconseillé de le changer : se reporter
-    sur la documentation constructeur)
+-   5: mode de fonctionnement (déconseillé de le changer : se reporter sur la documentation constructeur)
 
--   6: mode de fonctionnement du multi-sensor (déconseillé de le changer
-    : se reporter sur la documentation constructeur)
+-   6: mode de fonctionnement du multi-sensor (déconseillé de le changer : se reporter sur la documentation constructeur)
 
--   9: permet de définir au bout de combien de temps le signal OFF sera
-    envoyé aux modules associés au groupe 2
+-   9: permet de définir au bout de combien de temps le signal OFF sera envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
-    unité = 30 minutes)
+-   10: permet de définir la durée entre deux rapports de batterie (une unité = 30 minutes)
 
--   12: permet de définir la durée entre deux rapports de luminosité
-    (une unité = 30 minutes)
+-   12: permet de définir la durée entre deux rapports de luminosité (une unité = 30 minutes)
 
--   13: permet de définir la durée entre deux rapports de température
-    (une unité = 30 minutes)
+-   13: permet de définir la durée entre deux rapports de température (une unité = 30 minutes)
 
 ### Groupes
 

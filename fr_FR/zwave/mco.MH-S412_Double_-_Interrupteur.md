@@ -30,8 +30,7 @@ Fonctions
 
 -   Commander deux lampes ou appareils à distance
 
--   S’installe à la place d’un interrupteur existant (s’insère
-    parfaitement dans une boite d’encastrement de 40mm)
+-   S’installe à la place d’un interrupteur existant (s’insère parfaitement dans une boite d’encastrement de 40mm)
 
 -   Fonction ON / OFF
 
@@ -116,9 +115,7 @@ paramètres)
 
 Détails des paramètres :
 
--   1: Saving state before power failure : enable ( permet de retrouver
-    le dernier état des interrupteurs juste avant la coupure secteur )
-    diseable (les interrupteurs seront a l’état OFF au retour secteur )
+-   1: Saving state before power failure : enable ( permet de retrouver le dernier état des interrupteurs juste avant la coupure secteur ) diseable (les interrupteurs seront a l’état OFF au retour secteur )
 
 ### Groupes
 

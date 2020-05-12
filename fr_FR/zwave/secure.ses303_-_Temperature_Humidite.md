@@ -19,11 +19,9 @@ câbler différentes sondes externes SECURE sur le module, soit:
 
 -   Une sonde de température externe NTC (SES001)
 
--   4 capteurs de température filaires pour tuyau ou réservoir (SES002)
-    reliés par des câbles de 1m
+-   4 capteurs de température filaires pour tuyau ou réservoir (SES002) reliés par des câbles de 1m
 
--   1 capteur de température filaire pour tuyau ou réservoir (SES003)
-    relié par un câble de 4m
+-   1 capteur de température filaire pour tuyau ou réservoir (SES003) relié par un câble de 4m
 
 Ces modules sont parfaits pour la mesure de température dans des
 applications de contrôles de chauffage central ou toute autre
@@ -36,8 +34,7 @@ Fonctions
 
 -   Mesure précise de la température et de l’humidité
 
--   Application dans des systèmes de contrôle dynamique de
-    réservoirs/tubes/planchers chauffants/…​
+-   Application dans des systèmes de contrôle dynamique de réservoirs/tubes/planchers chauffants/…​
 
 -   Possibilité de brancher des sonde externes
 
@@ -135,17 +132,13 @@ paramètres)
 
 Détails des paramètres :
 
--   1: Permet de régler de combien doit varier la température pour que
-    le module l’envoie à Jeedom (par pas de 0.1)
+-   1: Permet de régler de combien doit varier la température pour que le module l’envoie à Jeedom (par pas de 0.1)
 
--   2: Permet de régler l’intervalle de temps d’envoi de la température
-    à Jeedom (en minutes)
+-   2: Permet de régler l’intervalle de temps d’envoi de la température à Jeedom (en minutes)
 
--   3: Permet de régler de combien doit varier l’humidité pour que le
-    module l’envoie à Jeedom (par %)
+-   3: Permet de régler de combien doit varier l’humidité pour que le module l’envoie à Jeedom (par %)
 
--   4: Permet de régler l’intervalle de temps d’envoi de l’humidité à
-    Jeedom (en minutes)
+-   4: Permet de régler l’intervalle de temps d’envoi de l’humidité à Jeedom (en minutes)
 
 Tous les autres paramètres sont identiques et correspondent à toutes les
 sondes externes éventuellement branchées

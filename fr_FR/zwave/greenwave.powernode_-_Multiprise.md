@@ -60,8 +60,7 @@ Fonctions
 
 -   Fonction ON/OFF
 
--   Possibilité de lui affecter un numéro et une couleur afin de
-    différencier les différentes PowerNode d’une même installation.
+-   Possibilité de lui affecter un numéro et une couleur afin de différencier les différentes PowerNode d’une même installation.
 
 -   Bouton On/Off directement sur la multiprise
 
@@ -146,83 +145,65 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Etat-1 : C’est la commande qui permet de connaître le statut de la
-    prise 1
+-   Etat-1 : C’est la commande qui permet de connaître le statut de la prise 1
 
 -   On-1 : C’est la commande qui permet d’allumer la prise 1
 
 -   Off-1 : C’est la commande qui permet d’éteindre la prise 1
 
--   Puissance-1 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 1
+-   Puissance-1 : C’est la commande qui remonte la puissance instatanée consommée de la prise 1
 
--   Conso-1 : C’est la commande qui remonte la consommation totale de la
-    prise 1
+-   Conso-1 : C’est la commande qui remonte la consommation totale de la prise 1
 
--   Etat-2 : C’est la commande qui permet de connaître le statut de la
-    prise 2
+-   Etat-2 : C’est la commande qui permet de connaître le statut de la prise 2
 
 -   On-2 : C’est la commande qui permet d’allumer la prise 2
 
 -   Off-2 : C’est la commande qui permet d’éteindre la prise 2
 
--   Puissance-2 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 2
+-   Puissance-2 : C’est la commande qui remonte la puissance instatanée consommée de la prise 2
 
--   Conso-2 : C’est la commande qui remonte la consommation totale de la
-    prise 2
+-   Conso-2 : C’est la commande qui remonte la consommation totale de la prise 2
 
--   Etat-3 : C’est la commande qui permet de connaître le statut de la
-    prise 3
+-   Etat-3 : C’est la commande qui permet de connaître le statut de la prise 3
 
 -   On-3 : C’est la commande qui permet d’allumer la prise 3
 
 -   Off-3 : C’est la commande qui permet d’éteindre la prise 3
 
--   Puissance-3 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 3
+-   Puissance-3 : C’est la commande qui remonte la puissance instatanée consommée de la prise 3
 
--   Conso-3 : C’est la commande qui remonte la consommation totale de la
-    prise 3
+-   Conso-3 : C’est la commande qui remonte la consommation totale de la prise 3
 
--   Etat-4 : C’est la commande qui permet de connaître le statut de la
-    prise 4
+-   Etat-4 : C’est la commande qui permet de connaître le statut de la prise 4
 
 -   On-4 : C’est la commande qui permet d’allumer la prise 4
 
 -   Off-4 : C’est la commande qui permet d’éteindre la prise 4
 
--   Puissance-4 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 4
+-   Puissance-4 : C’est la commande qui remonte la puissance instatanée consommée de la prise 4
 
--   Conso-4 : C’est la commande qui remonte la consommation totale de la
-    prise 4
+-   Conso-4 : C’est la commande qui remonte la consommation totale de la prise 4
 
--   Etat-5 : C’est la commande qui permet de connaître le statut de la
-    prise 5
+-   Etat-5 : C’est la commande qui permet de connaître le statut de la prise 5
 
 -   On-5 : C’est la commande qui permet d’allumer la prise 5
 
 -   Off-5 : C’est la commande qui permet d’éteindre la prise 5
 
--   Puissance-5 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 5
+-   Puissance-5 : C’est la commande qui remonte la puissance instatanée consommée de la prise 5
 
--   Conso-5 : C’est la commande qui remonte la consommation totale de la
-    prise 5
+-   Conso-5 : C’est la commande qui remonte la consommation totale de la prise 5
 
--   Etat-6 : C’est la commande qui permet de connaître le statut de la
-    prise 6
+-   Etat-6 : C’est la commande qui permet de connaître le statut de la prise 6
 
 -   On-6 : C’est la commande qui permet d’allumer la prise 6
 
 -   Off-6 : C’est la commande qui permet d’éteindre la prise 6
 
--   Puissance-6 : C’est la commande qui remonte la puissance instatanée
-    consommée de la prise 6
+-   Puissance-6 : C’est la commande qui remonte la puissance instatanée consommée de la prise 6
 
--   Conso-6 : C’est la commande qui remonte la consommation totale de la
-    prise 6
+-   Conso-6 : C’est la commande qui remonte la consommation totale de la prise 6
 
 A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées
 en un seul bouton.
@@ -245,9 +226,7 @@ pour ce module.
 
 Détails des paramètres :
 
--   1 : Délais avant le clignotement du bouton : nombres de secondes
-    minimum entre deux communications (si ce délai est dépassé le bouton
-    de la prise clignotera)
+-   1 : Délais avant le clignotement du bouton : nombres de secondes minimum entre deux communications (si ce délai est dépassé le bouton de la prise clignotera)
 
 -   2 : Couleur selectionnée de la molette (détectée automatiquement)
 

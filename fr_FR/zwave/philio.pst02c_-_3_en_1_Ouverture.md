@@ -40,9 +40,7 @@ Fonctions
 
 -   Détecteur 3 en 1: Ouverture, température, lumière
 
--   Adopte la récente puce Z-Wave 400series pour supporter les
-    opérations multicanaux et un débit de données plus
-    élevé (9.6/40/100kbps)
+-   Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
 
 -   Utilise le SDK Z-Wave 6.02
 
@@ -133,11 +131,9 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Ouverture : c’est la commande qui remontera une détection
-    d’ouverture
+-   Ouverture : c’est la commande qui remontera une détection d’ouverture
 
--   Température : c’est la commande qui permet de remonter la
-    température
+-   Température : c’est la commande qui permet de remonter la température
 
 -   Luminosité : c’est la commande qui permet de remonter la luminosité
 
@@ -167,46 +163,31 @@ paramètres)
 
 Détails des paramètres :
 
--   2: permet de régler le signal envoyé aux modules dans le groupe
-    d’association 2
+-   2: permet de régler le signal envoyé aux modules dans le groupe d’association 2
 
--   4: permet de régler le niveau de luminosité à partir duquel le
-    signal défini en paramètre 2 sera envoyé aux modules associés au
-    groupe 2
+-   4: permet de régler le niveau de luminosité à partir duquel le signal défini en paramètre 2 sera envoyé aux modules associés au groupe 2
 
--   5: mode de fonctionnement (se reporter sur la
-    documentation constructeur) Valeur recommandée : 8
+-   5: mode de fonctionnement (se reporter sur la documentation constructeur) Valeur recommandée : 8
 
--   6: mode de fonctionnement du multi-sensor (se reporter sur la
-    documentation constructeur) Valeur recommandée : 4
+-   6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 4
 
--   7: mode de fonctionnement personnalisée du multi-sensor (se reporter
-    sur la documentation constructeur) Valeur recommandée : 20 (pour
-    avoir l’ouverture de fonctionnelle)
+-   7: mode de fonctionnement personnalisée du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 20 (pour avoir l’ouverture de fonctionnelle)
 
--   9: permet de définir au bout de combien de temps le signal OFF sera
-    envoyé aux modules associés au groupe 2
+-   9: permet de définir au bout de combien de temps le signal OFF sera envoyé aux modules associés au groupe 2
 
--   10: permet de définir la durée entre deux rapports de batterie (une
-    unité = parametre 20)
+-   10: permet de définir la durée entre deux rapports de batterie (une unité = parametre 20)
 
--   11: permet de définir la durée entre deux rapports auto d’ouverture
-    (une unité = parametre 20)
+-   11: permet de définir la durée entre deux rapports auto d’ouverture (une unité = parametre 20)
 
--   12: permet de définir la durée entre deux rapports auto de
-    luminosité (une unité = parametre 20) Valeur recommandée : 3
+-   12: permet de définir la durée entre deux rapports auto de luminosité (une unité = parametre 20) Valeur recommandée : 3
 
--   13: permet de définir la durée entre deux rapports auto de
-    température (une unité = parametre 20) Valeur recommandée : 2
+-   13: permet de définir la durée entre deux rapports auto de température (une unité = parametre 20) Valeur recommandée : 2
 
--   20: durée d’un intervalle pour les paramètres 10 à 13 Valeur
-    recommandée : 10
+-   20: durée d’un intervalle pour les paramètres 10 à 13 Valeur recommandée : 10
 
--   21: valeur de variation en °F de température pour déclencher un
-    rapport
+-   21: valeur de variation en °F de température pour déclencher un rapport
 
--   22: valeur en % de variation de luminosité pour déclencher un
-    rapport Valeur recommandée : 10
+-   22: valeur en % de variation de luminosité pour déclencher un rapport Valeur recommandée : 10
 
 ### Groupes
 

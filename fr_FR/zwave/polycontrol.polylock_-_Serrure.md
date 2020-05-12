@@ -46,8 +46,7 @@ Fonctions
 
 -   S’adapte à la plupart des portes
 
--   Peut s’intégrer dans des scènes Z-Wave, par exemple pour un système
-    d’alarme
+-   Peut s’intégrer dans des scènes Z-Wave, par exemple pour un système d’alarme
 
 -   Convient à un usage domestique ou d’entreprise
 
@@ -62,8 +61,7 @@ Caractéristiques techniques
 
 -   Fréquence : 868,42 Mhz
 
--   Portée : jusqu’à 100 m à l’extérieur, jusqu’à 30 m dans les
-    bâtiments
+-   Portée : jusqu’à 100 m à l’extérieur, jusqu’à 30 m dans les bâtiments
 
 -   Dimensions : 120 x 52 x 60 mm (L x l x h)
 
@@ -109,8 +107,7 @@ disponibles.
 
 Voici la liste des commandes :
 
--   Statut : c’est la commande qui remontera la dernière action
-    éxécutée (ouvrir/fermer)
+-   Statut : c’est la commande qui remontera la dernière action éxécutée (ouvrir/fermer)
 
 -   Ouvrir : c’est la commande qui permet d’ouvrir la serrure
 
@@ -140,20 +137,15 @@ paramètres)
 
 Détails des paramètres :
 
--   0: permet de changer le sens de rotation pour les commandes
-    ouvrir/fermer
+-   0: permet de changer le sens de rotation pour les commandes ouvrir/fermer
 
--   1: permet de définir combien de temps va tourner la serrure pour
-    ouvrir (0 à 15 s)
+-   1: permet de définir combien de temps va tourner la serrure pour ouvrir (0 à 15 s)
 
--   2: permet de définir combien de temps va tourner la serrure pour
-    fermer (0 à 15 s)
+-   2: permet de définir combien de temps va tourner la serrure pour fermer (0 à 15 s)
 
--   3: permet de définir la vitesse de rotation de la serrure (0 à 15,
-    15 étant le plus lent)
+-   3: permet de définir la vitesse de rotation de la serrure (0 à 15, 15 étant le plus lent)
 
--   4: permet de choisir parmi différents modes de fonctionnement
-    (couple, force, puissance etc…​)
+-   4: permet de choisir parmi différents modes de fonctionnement (couple, force, puissance etc…​)
 
 ### Groupes
 

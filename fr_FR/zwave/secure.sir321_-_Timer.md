@@ -28,8 +28,7 @@ SES002 et SES003.
 Fonctions
 ---------
 
--   Booster pour thermoplongeur, radiateur panneau, sèche-serviettes,
-    radiateur à bain d’huile
+-   Booster pour thermoplongeur, radiateur panneau, sèche-serviettes, radiateur à bain d’huile
 
 -   Minuterie pour chaudière
 
@@ -46,8 +45,7 @@ Caractéristiques Techniques
 
 -   Type: Minuteur électronique
 
--   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu’à
-    3kW
+-   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu’à 3kW
 
 -   Alimentation: 230V AC, 50Hz
 
@@ -66,8 +64,7 @@ Données du module
 
 -   Fabricant ID : 89
 
--   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde
-    de température ou non)
+-   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde de température ou non)
 
 Configuration
 -------------
@@ -101,8 +98,7 @@ Voici la liste des commandes :
 
 -   Off : c’est la commande permettant d’éteindre le relais
 
--   Température : c’est la commande de mesure de la température si une
-    sonde externe est présente
+-   Température : c’est la commande de mesure de la température si une sonde externe est présente
 
 ### Configuration du module
 
@@ -118,19 +114,15 @@ paramètres)
 
 Détails des paramètres :
 
--   1: Permet d’activer ou non la fonction fail safe timer (se référer à
-    la documentation du module)
+-   1: Permet d’activer ou non la fonction fail safe timer (se référer à la documentation du module)
 
 -   2: Permet de régler l’unité de la température
 
--   3: Permet de régler l’intervalle de temps d’envoi de la température
-    à Jeedom (en secondes)
+-   3: Permet de régler l’intervalle de temps d’envoi de la température à Jeedom (en secondes)
 
--   4: Permet de régler de combien doit varier la température pour que
-    le module l’envoie à Jeedom (par pas de 0.1 10-→0.1)
+-   4: Permet de régler de combien doit varier la température pour que le module l’envoie à Jeedom (par pas de 0.1 10-→0.1)
 
--   5: Permet de régler une température de cut off au delà de laquelle
-    le module coupera le relais
+-   5: Permet de régler une température de cut off au delà de laquelle le module coupera le relais
 
 ### Groupes
 
