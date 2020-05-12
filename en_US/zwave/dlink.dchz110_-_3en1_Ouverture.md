@@ -1,28 +1,28 @@
 D-Link DCH-Z110 - "3 in 1 Opening" 
 ====================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/dlink.dchz110/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The DCH-Z110 detector offers 3 different functions : detection
 opening, temperature sensor and light detector. It is
@@ -45,12 +45,12 @@ is detected. A Z-Wave controller (remote control, dongle…?) Is
 necessary in order to integrate this detector into your network if you have
 already an existing network.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   3 in 1 detector: Aperture, temperature, light
 
@@ -68,12 +68,12 @@ Functions
 
 -   Ease of use and installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 Official site :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
@@ -84,12 +84,12 @@ Other technical link :
 ![caracteristiques
 techniques](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : D-Link
 
@@ -104,18 +104,18 @@ Module data
 
 -   Product ID : 14 \ [0x000e \]
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -127,36 +127,36 @@ inclusion refer to this
 > second, according to its documentation. (constant red flashing
 > in association mode)
 
-\
+
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/dlink.dchz110/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Opening : it is the command which will raise a detection
     d'ouverture
@@ -171,11 +171,11 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 > **IMPORTANT**
 >
@@ -183,32 +183,32 @@ Here is the list of commands :
 > always wake up the module by pressing the association button.
 > It should flash red and change status.
 
-\
+
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![Config1](images/dlink.dchz110/config1.jpg)
 
 ![Config2](images/dlink.dchz110/config2.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   2: allows to adjust the signal sent to the modules in the group
     association 2
@@ -251,20 +251,20 @@ Parameter details :
 -   22: value in% of variation of brightness to trigger
     a report. Recommended value : 10
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has two association groups, only the first is
 indispensable.
 
-\
+
 
 ![Groupe](images/dlink.dchz110/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
@@ -272,21 +272,21 @@ Good to know
 Association / Notification possible with other modules (example: Mermaid
 DCH-Z510 chime notification on door / window opening)
 
-\
+
 
 Alternative visual 
 -----------------
 
-\
+
 
 ![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 To wake up this module there is only one way :
 
@@ -295,28 +295,28 @@ To wake up this module there is only one way :
 -   Lower the wake-up interval in the module configuration / system
     (in seconds)
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 This module wakes up by pressing its association button.
 
-\
+
 
 This module is a battery module, the new configuration will be
 taken into account at the next wakeup. (association button for
 force, hence the interest of not installing the module before its
 good configuration)
 
-\
+
 
 Important note 
 ---------------
 
-\
+
 
 > **IMPORTANT**
 >
@@ -324,5 +324,5 @@ Important note
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 
-\
+
 

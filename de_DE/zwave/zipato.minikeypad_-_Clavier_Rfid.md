@@ -1,28 +1,28 @@
 Zipato miniKeypad RFID 
 ======================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/zipato.minikeypad/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-\.
+
 
 Zusammenfassung 
 ------
 
-\.
+
 
 Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur
 !
@@ -37,12 +37,12 @@ Hausautomationssteuerung die Kennung des erkannten Ausweises. Sie
 kann leicht Szenarien basierend auf der Person erstellen
 wer hat sein Abzeichen benutzt.
 
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Code- und RFID-Tastatur
 
@@ -61,12 +61,12 @@ Funktionen
 -   Integrierter Summer zur akustischen Anzeige von Aktivierung / Deaktivierung
     der Alarm zum Beispiel
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Typ : Z-Wave-Slave
 
@@ -92,12 +92,12 @@ Technische Daten
 
 -   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Zipato
 
@@ -109,18 +109,18 @@ Moduldaten
 
 -   Produkt-ID : 17665
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
@@ -129,36 +129,36 @@ Aufnahme beziehen sich darauf
 > zweimal blinken) und lassen Sie die Lasche so los
 > Inklusion erfolgt.
 
-\.
+
 
 ![inclusion](images/zipato.minikeypad//inclusion.jpg)
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![commandes](images/zipato.minikeypad/commandes.jpg)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6
     für zu Hause)
@@ -171,41 +171,41 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-\.
+
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+
 
 ![bouton configuration](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![config1](images/zipato.minikeypad/config1.jpg)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 -   1: ermöglicht das Zurücksetzen der Standardkonfiguration (nicht empfohlen)
 
@@ -219,19 +219,19 @@ Parameterdetails :
 -   5: Betriebsart : normaler oder immer wacher Modus
     (nicht empfohlen, da sehr sehr batterieverbrauchend)
 
-\.
+
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat zwei Zuordnungsgruppen.
 
-\.
+
 
 ![groupe](images/zipato.minikeypad/groupe.jpg)
 
-\.
+
 
 > **Wichtig**
 >
@@ -240,23 +240,23 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 
 ### Abzeichen / Codes 
 
-\.
+
 
 Auf der Ausrüstungsseite befindet sich eine Registerkarte Assistent.
 
-\.
+
 
 ![bouton assistant](images/plugin/bouton_assistant.jpg)
 
-\.
+
 
 Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 
-\.
+
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
-\.
+
 
 -   In dieser Tabelle können Sie die auf Ihrem Computer belegten Speicher anzeigen
     clavier
@@ -272,22 +272,22 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 -   Es ist (aus Sicherheitsgründen) unmöglich, den Wert von a zu lesen
     registrierter Code
 
-\.
+
 
 > **Wichtig**
 >
 > Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
-\.
+
 
 Anwendungsbeispiele 
 ----------------------
 
-\.
+
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
-\.
+
 
 Der Auslöser ist der Ereignisbefehl, tatsächlich ist dies der Fall
 wird nur aktualisiert, wenn ein gültiger Code / Ausweis vorgelegt wurde. Wenn die
@@ -298,20 +298,20 @@ Sprachsynthese, um beispielsweise einen Wetterbericht zu erstellen. Ansonsten (u
 5) Wir aktivieren den Alarm, wir schneiden die Steckdosenleiste ab, wir senden eine
 Benachrichtigung, um zu melden, dass das Haus leer ist.
 
-\.
+
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 ### Besonderheiten 
 
-\.
+
 
 Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
-\.
+
 
 -   wenn Sie für die ersten 1 bis 2 nach Hause / weg drücken
     Sekunden, wenn Sie anfangen, einen Code einzugeben, wird dieser Code gelesen
@@ -320,43 +320,43 @@ Die Tastatur liest Codes / Ausweise auf zwei Arten :
     Lesemodus für RFID-Ausweise (rotes Licht an). Zu dieser Zeit
     er kann ein Abzeichen lesen, nicht vorher.
 
-\.
+
 
 Aufwachen 
 ------
 
-\.
+
 
 Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
-\.
+
 
 -   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
 
 -   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 
-\.
+
 
 Faq. 
 ------
 
-\.
+
 
 Dieses Modul wird durch Drücken der Sabotage-Taste und aktiviert
 entspannend. Er kann auch aufwachen, indem er Home und dann 1 drückt
 Enter.
 
-\.
+
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-\.
+
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+
 
 > **Wichtig**
 >
@@ -364,6 +364,6 @@ Wichtiger Hinweis
 > der Konfiguration, nach einer Änderung des Aufwachens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+
 
 **@sarakha63**

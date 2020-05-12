@@ -54,7 +54,8 @@
         "Caméras": "Caméras",
         "des caméras compatibles Jeedom": "des caméras compatibles Jeedom",
         "Edisio": "Edisio",
-        "des modules Edisio compatibles Jeedom": "des modules Edisio compatibles Jeedom",
+        "des modules Edisio compatibles Jeedom et": "des modules Edisio compatibles Jeedom et",
+        "la documentation pour certains modules": "la documentation pour certains modules",
         "EnOcean": "EnOcean",
         "Contrôleur EnOcean": "Contrôleur EnOcean",
         "Clef USB EnOcean USB300": "Clef USB EnOcean USB300",
@@ -64,7 +65,7 @@
         "Contrôleur RFXcom": "Contrôleur RFXcom",
         "RFXtrx433 USB": "RFXtrx433 USB",
         "RFXtrx433E USB (Recommandé)": "RFXtrx433E USB (Recommandé)",
-        "des modules Rfxcom compatibles Jeedom": "des modules Rfxcom compatibles Jeedom",
+        "des modules Rfxcom compatibles Jeedom et": "des modules Rfxcom compatibles Jeedom et",
         "SMS (GSM)": "SMS (GSM)",
         "HUAWEI E220 (Recommandé)": "HUAWEI E220 (Recommandé)",
         "Alcatel one touch X220L": "Alcatel one touch X220L",
@@ -81,6 +82,6 @@
         "ME - Mini contrôleur USB Z-Wave Plus UZB1": "ME - Mini contrôleur USB Z-Wave Plus UZB1",
         "AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2": "AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2",
         "AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)": "AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)",
-        "des modules Z-wave compatibles Jeedom": "des modules Z-wave compatibles Jeedom"
+        "des modules Z-wave compatibles Jeedom et": "des modules Z-wave compatibles Jeedom et"
     }
 }

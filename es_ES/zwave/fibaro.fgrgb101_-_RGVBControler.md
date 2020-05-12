@@ -1,23 +1,23 @@
 Controlador Fibaro RGVB - FGRGB-101 
 =================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-\
+
 
 Resumen 
 ------
@@ -47,7 +47,7 @@ o RGB + blanco o incluso para conectar sondas analógicas usando
 
 -   Función de repetidor (enrutador) para extender la red Z-Wave.
 
-\
+
 
 Funciones 
 ---------
@@ -64,7 +64,7 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-\
+
 
 Características técnicas 
 ---------------------------
@@ -101,7 +101,7 @@ Características técnicas
 
 -   Este módulo requiere un controlador Z-Wave para funcionar.
 
-\
+
 
 Datos del módulo 
 -----------------
@@ -116,48 +116,48 @@ Datos del módulo
 
 -   ID del producto : 4096
 
-\
+
 
 Configuración 
 -------------
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-\
+
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-\
+
 
 ### Comandos 
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/fibaro.fgrgb101/commande_1.png)
 
 ![Comandos](images/fibaro.fgrgb101/commande_2.png)
 
-\
+
 
 Aquí está la lista de comandos :
 
@@ -196,7 +196,7 @@ Aquí está la lista de comandos :
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
 
-\
+
 
 ### Configuracion del modulo 
 
@@ -204,34 +204,34 @@ Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
-\
+
 
 Detalles del parámetro :
 
 Consulte la captura de pantalla anterior, la configuración
 siendo traducido al francés.
 
-\
+
 
 ### Grupos 
 
 Este módulo tiene cinco grupos de asociación, solo el quinto es
 indispensable.
 
-\
+
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
@@ -242,7 +242,7 @@ Bueno saber
 
 Uso de sensores de 0-10 V.
 
-\
+
 
 > **Depositar**
 >
@@ -251,18 +251,18 @@ Uso de sensores de 0-10 V.
 
 ### Visual alternativo 
 
-\
+
 
 ![Visual alternativo](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-\
+
 
 Despertador 
 ------
 
 No hay noción de activación en este módulo.
 
-\
+
 
 Faq. 
 ------
@@ -270,5 +270,5 @@ Faq.
 Por ahora, la configuración predeterminada de jeedom no lo permite,
 pero se puede considerar una configuración específica.
 
-\
+
 

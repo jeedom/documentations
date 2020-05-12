@@ -1,28 +1,28 @@
 Fibaro FGRM-222 "Roller shutter" 
 ===============================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The FGRM-222 micromodule will allow you to manage the motorizations of
 electronic shutters, Venetian blinds or doors
@@ -45,12 +45,12 @@ habitation.
 
 NOTE : This module requires neutral to operate.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control your blinds or roller shutters remotely
 
@@ -73,12 +73,12 @@ Functions
 
 -   Ease of use and installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver
 
@@ -104,12 +104,12 @@ Technical characteristics
 
 -   Standards : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Fibar Group
 
@@ -121,56 +121,56 @@ Module data
 
 -   Product ID : 4097
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-\
+
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/fibaro.fgrm222/commandes.jpg)
 
 ![Commands](images/fibaro.fgrm222/commandes2.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   State : It is the command which allows to know the position of
     your shutter
@@ -202,26 +202,26 @@ Here is the list of commands :
 -   Not : Used to define the step for pressing Decline or
     Incliner
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +231,11 @@ settings)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1: allows to block the module (to freeze a shutter) (in the case
     pressing a switch)
@@ -279,42 +279,42 @@ Parameter details :
 -   50: allows to choose if the module should send the info to the nodes
     in association in scene mode or in association mode
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has 3 association groups, only the third is
 indispensable.
 
-\
+
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Reset 
 
-\
+
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
-\
+
 
 You can reset your consumption meter by clicking
 on this button available in the System tab.
 
-\
+
 
 ### IMPORTANT 
 
-\
+
 
 > **IMPORTANT**
 >
@@ -323,32 +323,32 @@ on this button available in the System tab.
 > positioning must be active (parameter 10 with values "Active
 > direct "," Active Venetian "or" Active door ").
 
-\
+
 
 ### Alternative visual 
 
-\
+
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Read the Reset section of this doc.
 
-\
+
 
 **@sarakha63**

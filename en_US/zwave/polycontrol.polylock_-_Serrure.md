@@ -1,23 +1,23 @@
 PolyLock 
 ========
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/polycontrol.polylock/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
@@ -49,12 +49,12 @@ domestic or work. The Poly-Lock is powered by
 battery, and has been tested to operate for 1 year, without
 battery replacement.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control your front door remotely
 
@@ -69,12 +69,12 @@ Functions
 
 -   Easy installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Food : 3.6V Lithium-Chloride battery
 
@@ -87,12 +87,12 @@ Technical characteristics
 
 -   Weight : 370g
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Poly-Control
 
@@ -104,54 +104,54 @@ Module data
 
 -   Product ID : 1
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 1 time
 > inclusion button, according to its paper documentation.
 
-\
+
 
 ![inclusion](images/polycontrol.polylock/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/polycontrol.polylock/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Status : it is the command which will go up the last action
     executed (open / close)
@@ -162,11 +162,11 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 > **Warning**
 >
@@ -175,30 +175,30 @@ Here is the list of commands :
 > will recover any configuration changes in near real time
 > as a sector module.
 
-\
+
 
 If you want to configure the module according to your
 installation, you have to go through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   0: allows to change the direction of rotation for the commands
     open close
@@ -215,28 +215,28 @@ Parameter details :
 -   4: allows you to choose from different operating modes
     (torque, force, power etc…)
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has only one association group.
 
-\
+
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-\
+
 
 Examples of use 
 ----------------------
 
-\
+
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
-\
+
 
 The trigger is the event command of a zipato keyboard
 (it can be anything else). If the value is 6 (home) on
@@ -245,16 +245,16 @@ the key door. Otherwise (necessarily 5) the door is opened with a key and 2 minu
 after we close it. Indeed, we want to go out, the door opens and
 will close soon after.
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 > **Tip**
 >
@@ -263,37 +263,37 @@ Good to know
 > will recover any configuration changes in near real time
 > as a sector module.
 
-\
+
 
 > **Tip**
 >
 > This module does not return its state, if you operate the lock at the
-> hand the state will remain the same. \
+> hand the state will remain the same. 
 
 ### Alternative visual 
 
-\
+
 
 ![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
 
-\
+
 
 Wake up 
 -------
 
-\
+
 
 There is no concept of wake up for this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 No concept of wake up on this module, read the specifics paragraph.
 
-\
+
 
 **@sarakha63**

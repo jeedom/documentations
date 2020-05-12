@@ -1,28 +1,28 @@
 Fibaro FGSD-002 "Sensor de humo 2" 
 ================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
-\
+
 
 -   **El visual de la libertad**
 
-\
+
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 Con líneas suaves, una superficie pulida y un tamaño pequeño, esto
 el detector de humo le permitirá ser alertado de una amenaza con
@@ -48,12 +48,12 @@ para que el sensor de humo detecte una amenaza y la informe a
 habitantes de la casa. Solo este tipo de sensor de humo ofrece
 alta eficiencia, independientemente de lo que se queme.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Detector de humo Z-Wave
 
@@ -78,12 +78,12 @@ Funciones
 -   Instalación muy simple: simplemente instálela en un lugar
     o existe riesgo de incendio
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Transmisor de onda Z
 
@@ -114,12 +114,12 @@ Características técnicas
 
 -   Certificaciones : EN 14604:2005
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Grupo Fibar
 
@@ -131,54 +131,54 @@ Datos del módulo
 
 -   ID del producto : 4098
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón central de inclusión, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/fibaro.fgsd102/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Humo : Este es el comando de alerta del módulo (para humo,
     calor ...)
@@ -196,43 +196,43 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-\
+
 
 Entonces es necesario configurar el módulo en
 dependiendo de su instalación. Esto requiere pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   Despertador : este es el intervalo de activación del módulo (valor
     recomendado 21600)
@@ -270,65 +270,65 @@ Detalles del parámetro :
 
 -   32: intervalo de señal si la pérdida de Zwave
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Para un funcionamiento óptimo de su módulo. Jeedom debe ser
 al menos asociado con los grupos 1 4 y 5:
 
-\
+
 
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 ### Visual alternativo 
 
-\
+
 
 ![widget1](images/fibaro.fgsd102/widget1.jpg)
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, presione el botón central 3 veces
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo se activa presionando 3 veces en su botón de inclusión.
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -336,6 +336,6 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@sarakha63**

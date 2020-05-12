@@ -1,28 +1,28 @@
 Temporizador seguro SIR 321 "" 
 ======================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/secure.sir321/module.jpg)
 
-\
+
 
 -   **El visual de la libertad**
 
-\
+
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El temporizador digital SIR321 es un simple cambio a
 botón pulsador que recuerda apagar sus dispositivos por usted
@@ -37,12 +37,12 @@ el impulso varía de 30 a 120 minutos.
 SIR 321 admite sensores de temperatura externos SES001,
 SES002 y SES003.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Booster para calentador de inmersión, radiador de panel, toallero calentado,
     radiador de baño de aceite
@@ -57,12 +57,12 @@ Funciones
 
 -   Ahorrar energía
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Type: Temporizador electrónico
 
@@ -77,12 +77,12 @@ Características técnicas
 
 -   Temperatura de funcionamiento: 0 ° C a 35 ° C
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Horstmann
 
@@ -93,18 +93,18 @@ Datos del módulo
 -   Tipo de producto : 1/2 (dependiendo de si se incluye con una sonda
     o no)
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -112,36 +112,36 @@ inclusión refiérase a esto
 > el botón (hasta que parpadee rápidamente) y suéltelo, de acuerdo con
 > documentación en papel.
 
-\
+
 
 ![inclusion](images/secure.sir321/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/secure.sir321/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Uno : este es el comando para encender el relé
 
@@ -150,33 +150,33 @@ Aquí está la lista de comandos :
 -   Temperatura : este es el comando de medición de temperatura si un
     sonda externa está presente
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Si desea configurar el módulo, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/secure.sir321/config1.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte
     documentación del módulo)
@@ -192,23 +192,23 @@ Detalles del parámetro :
 -   5: Le permite establecer una temperatura de corte por encima de la cual
     el módulo cortará el relé
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene dos grupos de asociación. Si el primero es
 esencial, el segundo está activo y es esencial si una sonda
 de temperatura está relacionado.
 
-\
+
 
 ![Groupe](images/secure.sir321/groupe.jpg)
 
 Faq. 
 ------
 
-\
+
 
 **@sarakha63**

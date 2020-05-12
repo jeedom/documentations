@@ -1,28 +1,28 @@
 Philio PST02 C - 3 in 1 Opening 
 =================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/philio.pst02c/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The ZIP-PSM01 detector offers 3 different functions : detection
 opening, temperature sensor and light detector. It is
@@ -47,12 +47,12 @@ A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
 existant.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   3 in 1 detector: Aperture, temperature, light
 
@@ -76,12 +76,12 @@ Functions
 
 -   Ease of use and installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave transmitter
 
@@ -113,12 +113,12 @@ Technical characteristics
 
 -   Z-Wave certification : ZC08-13050003
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Philio Technology Corporation
 
@@ -130,54 +130,54 @@ Module data
 
 -   Product ID : 14
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-\
+
 
 ![inclusion](images/philio.pst02c/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/philio.pst02c/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Opening : it is the command which will raise a detection
     d'ouverture
@@ -189,33 +189,33 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -223,11 +223,11 @@ settings)
 
 ![Config3](images/philio.pst02c/config3.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   2: allows to adjust the signal sent to the modules in the group
     association 2
@@ -270,63 +270,63 @@ Parameter details :
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has two association groups, only the first is
 indispensable.
 
-\
+
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Alternative visual 
 
-\
+
 
 ![vuewidget](images/philio.pst02c/vuewidget.jpg)
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 To wake up this module there is only one way :
 
 -   release the tamper button and press it again
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 This module wakes up by pressing its tamper button.
 
-\
+
 
 This module is a battery module, the new configuration will be
 taken into account at the next wakeup.
 
-\
+
 
 Important note 
 ---------------
 
-\
+
 
 > **IMPORTANT**
 >
@@ -334,6 +334,6 @@ Important note
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 
-\
+
 
 **@sarakha63**

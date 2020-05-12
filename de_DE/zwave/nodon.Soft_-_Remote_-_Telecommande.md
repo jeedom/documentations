@@ -1,28 +1,28 @@
 Nodon Fernbedienung - Soft Remote 
 ================================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/nodon.softremote/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
-\.
+
 
 Zusammenfassung 
 ------
 
-\.
+
 
 Die Soft Remote NodOn® kann jedes Gerät direkt steuern
 Z-Wave®- oder Z-Wave Plus®-kompatibel wie der NodOn® Smart Plug.
@@ -30,12 +30,12 @@ Z-Wave®- oder Z-Wave Plus®-kompatibel wie der NodOn® Smart Plug.
 Es kann auch Szenen über ein Hausautomationssystem auslösen
 compatible.
 
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Steuern Sie jedes Z-Wave-kompatible Gerät
 
@@ -45,12 +45,12 @@ Funktionen
 
 -   6 Farben erhältlich
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 
@@ -71,12 +71,12 @@ Technische Daten
 
 -   2 Jahre Garantie
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Nodon
 
@@ -88,18 +88,18 @@ Moduldaten
 
 -   Produkt-ID : 2
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
@@ -107,36 +107,36 @@ Aufnahme beziehen sich darauf
 > Taste (+ und 0 voll), bis das Licht dann rosa wird
 > Drücken Sie die Taste + gemäß der Papierdokumentation.
 
-\.
+
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/nodon.softremote/commandes.png)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
 
@@ -155,41 +155,41 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-\.
+
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/nodon.softremote/config1.png)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 -   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei Verwendung in
     zentral (für den Einsatz in Jeedom nicht erforderlich)
@@ -204,15 +204,15 @@ Parameterdetails :
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
-\.
+
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
-\.
+
 
 -   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
     Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
@@ -224,50 +224,50 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 -   Gruppe 6 bis 7 - Die Geräte in diesen Gruppen werden von der gesteuert
     entsprechende Schaltflächen entsprechend DUO-Profil
 
-\.
+
 
 > **Wichtig**
 >
-> Jeedom sollte mindestens in Gruppe 1 landen
+> Zumindest sollte Jeedom in Gruppe 1 landen 
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 ### Besonderheiten 
 
-\.
+
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht
     1 oder 2 mal nach der Aufnahme aufwachen. Und überprüfen Sie die
     Assoziationsgruppe.
 
-\.
+
 
 Aufwachen 
 ------
 
-\.
+
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 
-\.
+
 
 Faq. 
 ------
 
-\.
+
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie die Fernbedienung aktivieren.
 
-\.
+
 
 Wichtiger Hinweis 
 ---------------
 
-\.
+
 
 > **Wichtig**
 >
@@ -275,6 +275,6 @@ Wichtiger Hinweis
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
 
-\.
+
 
 **@lunarok**

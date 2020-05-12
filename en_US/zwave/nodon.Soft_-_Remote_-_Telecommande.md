@@ -1,28 +1,28 @@
 Nodon Remote Control - Soft Remote 
 ================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/nodon.softremote/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The Soft Remote NodOn® can directly control any device
 Z-Wave® or Z-Wave Plus® compatible such as the NodOn® smart plug.
@@ -30,12 +30,12 @@ Z-Wave® or Z-Wave Plus® compatible such as the NodOn® smart plug.
 It can also trigger scenes via a home automation system
 compatible.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control any Z-Wave compatible device
 
@@ -45,12 +45,12 @@ Functions
 
 -   6 colors available
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Food : CR2032 battery - Autonomy 1,5 - 2 years
 
@@ -71,12 +71,12 @@ Technical characteristics
 
 -   2 years warranty
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Nodon
 
@@ -88,18 +88,18 @@ Module data
 
 -   Product ID : 2
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -107,36 +107,36 @@ inclusion refer to this
 > button (+ and 0 full) until the light turns pink then
 > press the + button, in accordance with its paper documentation.
 
-\
+
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/nodon.softremote/commandes.png)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Buttons : it is the command which will push the button up
 
@@ -155,41 +155,41 @@ Here is the list of commands :
 
 -   Drums : it is the command which raises the level of the batteries
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/nodon.softremote/config1.png)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1-2 : Allows you to choose the profile of the buttons when used in
     central (not necessary for use in Jeedom)
@@ -204,15 +204,15 @@ Parameter details :
 
 ### Groups 
 
-\
+
 
 This module has 7 association groups.
 
-\
+
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
-\
+
 
 -   Group 1 - Lifeline : This group is generally used for
     transfer information from the Smart Plug to the main controller
@@ -224,50 +224,50 @@ This module has 7 association groups.
 -   Group 6 to 7 - The devices in these groups are controlled by the
     corresponding buttons according to DUO profile
 
-\
+
 
 > **IMPORTANT**
 >
-> At a minimum Jeedom should end up in group 1 \
+> At least Jeedom should end up in group 1 
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 -   This module can be finicky on inclusion. Do not hesitate to
     wake up 1 or 2 times after inclusion. And check the
     association group.
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 To wake up this module, just press one of the buttons
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 This module is a battery module, the new configuration will not be
 take into account that if you wake up the remote control.
 
-\
+
 
 Important note 
 ---------------
 
-\
+
 
 > **IMPORTANT**
 >
@@ -275,6 +275,6 @@ Important note
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 
-\
+
 
 **@lunarok**

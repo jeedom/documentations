@@ -1,28 +1,28 @@
 Fibaro Dimmer - FGD-211 
 =======================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/fibaro.fgd211/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The FGD-211 dimmer module will allow you to control a
 lamp or ceiling lamp remotely thanks to the Z-Wave protocol while
@@ -52,12 +52,12 @@ if you already have an existing network. Each Z-Wave module works
 as a wireless repeater with the other modules, to ensure
 total coverage of your home.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Remote lighting control
 
@@ -75,12 +75,12 @@ Functions
 
 -   Ease of use and installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver
 
@@ -109,12 +109,12 @@ Technical characteristics
 
 -   Standards : EN 55015 and EN 60669-2-1
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Fibar Group
 
@@ -126,29 +126,29 @@ Module data
 
 -   Product ID : 4106
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-\
+
 
 ![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
-\
+
 
 > **Tip**
 >
@@ -156,32 +156,32 @@ inclusion refer to this
 > by doing many back and forth on the switch or many
 > press if you have a push button switch.
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/fibaro.fgd211/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Intensity : This is the command that allows you to adjust the intensity of the
     Light
@@ -196,26 +196,26 @@ Here is the list of commands :
 Note that on the dashboard all the information is found on the same
 icone
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![Config1](images/fibaro.fgd211/config1.jpg)
 
@@ -223,11 +223,11 @@ Settings)
 
 ![Config3](images/fibaro.fgd211/config3.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1: ALL ON / ALL OFF functions : used only if you have associated the
     FGD-211 to another module
@@ -277,29 +277,29 @@ Parameter details :
 
 -   41: allows to activate or not the Scene Activation function
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has three association groups, only the third is
 indispensable.
 
-\
+
 
 ![Groupe](images/fibaro.fgd211/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 > **Bail**
 >
@@ -307,38 +307,38 @@ Good to know
 > allows to choose the type of switch used. Default type
 > is set to monostable.
 
-\
+
 
 If you want to exclude / include the module without dismantling your
 switch you can press your switch multiple times
 (or go back and forth in the event of a bi-stable switch)
 
-\
+
 
 ### Alternative visual 
 
-\
+
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 No. this module can be included or excluded by pressing several times
 on the switch.
 
-\
+
 **@sarakha63**

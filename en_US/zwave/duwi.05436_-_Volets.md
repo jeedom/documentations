@@ -1,28 +1,28 @@
 DUWI 05436 "Roller shutter" 
 ==========================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The DUWI 05436 roller shutter module is used to control shutters
 rolling in two directions.
@@ -41,12 +41,12 @@ the user presses the buttons directly. You have to make a
 'Refresh 'on its position to update, or adjust the Poll (see
 further).
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Down up
 
@@ -61,12 +61,12 @@ Functions
 
 -   The switch is supplied with the module, not interchangeable
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver / actuator
 
@@ -84,12 +84,12 @@ Technical characteristics
 
 -   Temperature range : 0 ° C / + 40 ° C
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Popp / Duwi
 
@@ -101,57 +101,57 @@ Module data
 
 -   Product ID : 0
 
-\
+
 
 Connection 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put the module in inclusion mode, press three times
 > on the ascent or descent. Exclusion is done the same way.
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/duwi.05436/4-Commandes.PNG)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   State : this is the current position of the shutter, in percentage from 0 to 99
 
@@ -165,7 +165,7 @@ Here is the list of commands :
 
 -   Level : slider to position a partial opening
 
-\
+
 
 #### Setting the rise and fall times : 
 
@@ -184,34 +184,34 @@ LED lights up solid green for a few seconds. Time is memorized.
 
 Repeat the operation in the other direction.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   0 : Running Time :
 
@@ -238,25 +238,25 @@ Used to indicate whether pressing in the opposite direction during a
 displacement stops the shutter or immediately returns it in the direction
 opposé.
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has only one association group in which must be
 find your Z-Wave controller.
 
-\
+
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 -   As specified at the beginning, the module does not report changes in
     positions made by the user by pressing directly
@@ -271,11 +271,11 @@ Good to know
 -   Setting an operation without time limit may prove to be
     useful for VMC commands
 
-\
+
 
 ### Alternative visual 
 
-\
+
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 

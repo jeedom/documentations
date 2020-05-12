@@ -1,28 +1,28 @@
 Everspring Miniplug Dimmer - AD147-6 
 ====================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/everspring.AD147-6/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/everspring.AD147-6/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The Mini Dimmer Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
@@ -35,12 +35,12 @@ designed to work with all Z-Wave ™ compatible networks. She
 can be controlled by a remote control, PC software, or any
 which Z-Wave controller in your network.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control a lamp remotely
 
@@ -59,12 +59,12 @@ Functions
 
 -   Z-Wave repeater function
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver
 
@@ -83,12 +83,12 @@ Technical characteristics
 
 -   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Everspring
 
@@ -100,18 +100,18 @@ Module data
 
 -   Product ID : 3
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -120,36 +120,36 @@ inclusion refer to this
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
-\
+
 
 ![inclusion](images/everspring.AD147-6/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/everspring.AD147-6/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Intensity : This is the command used to adjust the intensity of the
     prise
@@ -161,39 +161,39 @@ Here is the list of commands :
 -   State : It is the command which allows to know the status of the
     prise
 
-\
+
 
 Note that on the dashboard, the status information, ON / OFF, intensity is
 found on the same icon.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![Config1](images/everspring.AD147-6/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1 : This parameter defines the status value command, it is not
     advised to change this value.
@@ -209,49 +209,49 @@ Parameter details :
 
 ### Groups 
 
-\
+
 
 This module has 2 association groups.
 
-\
+
 
 ![Groupe](images/everspring.AD147-6/groupe.jpg)
 
-\
+
 
 > **IMPORTANT**
 >
-> At a minimum Jeedom should end up in group 1 \
+> At least Jeedom should end up in group 1 
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+    seconds. 
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Yes it is parameter 2 and it cannot be set below 3
 secondes.
 
-\
+
 
 **@sarakha63**

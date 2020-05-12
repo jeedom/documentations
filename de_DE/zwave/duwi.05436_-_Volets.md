@@ -1,28 +1,28 @@
 DUWI 05436 "Rollladen" 
 ==========================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
-\.
+
 
 Zusammenfassung 
 ------
 
-\.
+
 
 Das Rollladenmodul DUWI 05436 dient zur Steuerung von Rollläden
 in zwei Richtungen rollen.
@@ -41,12 +41,12 @@ Der Benutzer drückt die Tasten direkt. Du musst eine machen
 'Aktualisieren Sie die Position, um die Umfrage zu aktualisieren, oder passen Sie sie an (siehe
 weiter).
 
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Hoch / runter
 
@@ -61,12 +61,12 @@ Funktionen
 
 -   Der Schalter wird mit dem Modul geliefert und ist nicht austauschbar
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Modultyp : Z-Wave Empfänger / Aktor
 
@@ -84,12 +84,12 @@ Technische Daten
 
 -   Temperaturbereich : 0 ° C / + 40 ° C
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Popp / Duwi
 
@@ -101,57 +101,57 @@ Moduldaten
 
 -   Produkt-ID : 0
 
-\.
+
 
 Einloggen 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
 > Drücken Sie dreimal, um das Modul in den Einschlussmodus zu versetzen
 > beim Auf- oder Abstieg. Der Ausschluss erfolgt auf die gleiche Weise.
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/duwi.05436/4-Commandes.PNG)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Zustand : Dies ist die aktuelle Position des Verschlusses in Prozent von 0 bis 99
 
@@ -165,7 +165,7 @@ Hier ist die Liste der Befehle :
 
 -   Ebene : Schieberegler zum Positionieren einer Teilöffnung
 
-\.
+
 
 #### Einstellen der Anstiegs- und Abfallzeiten : 
 
@@ -184,34 +184,34 @@ Die LED leuchtet einige Sekunden lang grün. Die Zeit wird gespeichert.
 
 Wiederholen Sie den Vorgang in die andere Richtung.
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 -   0 : Laufzeit :
 
@@ -238,25 +238,25 @@ Wird verwendet, um anzuzeigen, ob während a in die entgegengesetzte Richtung ge
 Die Verschiebung stoppt den Verschluss oder bringt ihn sofort in die Richtung zurück
 opposé.
 
-\.
+
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat nur eine Zuordnungsgruppe, in der es sein muss
 Finden Sie Ihren Z-Wave-Controller.
 
-\.
+
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
-\.
+
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 -   Wie zu Beginn angegeben, meldet das Modul keine Änderungen in
     Positionen, die der Benutzer durch direktes Drücken gemacht hat
@@ -271,11 +271,11 @@ Gut zu wissen
 -   Das Einstellen einer Operation ohne zeitliche Begrenzung kann sich als richtig erweisen
     nützlich für VMC-Befehle
 
-\.
+
 
 ### Alternative visuelle 
 
-\.
+
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 

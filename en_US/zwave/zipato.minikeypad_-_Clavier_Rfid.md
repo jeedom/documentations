@@ -1,28 +1,28 @@
 Zipato miniKeypad RFID 
 ======================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/zipato.minikeypad/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 Control your security system with this mini Zipato wall keypad
 !
@@ -37,12 +37,12 @@ home automation controller the identifier of the badge which has been recognized
 can easily create scenarios based on the person
 who used his badge.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Code and RFID keypad
 
@@ -61,12 +61,12 @@ Functions
 -   Integrated buzzer for audible indication of arming / disarming
     the alarm for example
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type : Z-Wave slave
 
@@ -92,12 +92,12 @@ Technical characteristics
 
 -   Certifications : Security : UL EMC : FCC, CE RoHS
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Zipato
 
@@ -109,18 +109,18 @@ Module data
 
 -   Product ID : 17665
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -129,36 +129,36 @@ inclusion refer to this
 > flash twice) and release the tab so that
 > inclusion takes place.
 
-\
+
 
 ![inclusion](images/zipato.minikeypad//inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![commandes](images/zipato.minikeypad/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   ACTION : it is the command which will go up the home / away (5 for away 6
     for home)
@@ -171,41 +171,41 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![bouton configuration](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![config1](images/zipato.minikeypad/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1: allows to reset the default config (not recommended)
 
@@ -219,19 +219,19 @@ Parameter details :
 -   5: operating mode : normal or always awake mode
     (not recommended because very very battery consuming)
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has two association groups.
 
-\
+
 
 ![groupe](images/zipato.minikeypad/groupe.jpg)
 
-\
+
 
 > **IMPORTANT**
 >
@@ -240,23 +240,23 @@ This module has two association groups.
 
 ### Badges / codes 
 
-\
+
 
 In the equipment page there is an Assistant tab.
 
-\
+
 
 ![bouton assistant](images/plugin/bouton_assistant.jpg)
 
-\
+
 
 This allows you to add codes. You will see a table there.
 
-\
+
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
-\
+
 
 -   This table allows you to view the memories occupied on your
     clavier
@@ -272,22 +272,22 @@ This allows you to add codes. You will see a table there.
 -   It is impossible (for security reasons) to read the value of a
     registered code
 
-\
+
 
 > **IMPORTANT**
 >
 > Remember to wake up the module after adding a code or badge.
 
-\
+
 
 Examples of use 
 ----------------------
 
-\
+
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
-\
+
 
 The trigger is the event command, in fact this is
 updated only when a valid code / badge has been presented. If the
@@ -298,20 +298,20 @@ voice synthesis to make a weather report for example. Otherwise (necessarily
 5) we activate the alarm, we cut the power strip, we send a
 notification to report that the house is empty.
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 The keypad reads codes / badges in two ways :
 
-\
+
 
 -   when you press home / away for the first 1 to 2
     seconds if you start typing a code it will read that code
@@ -320,43 +320,43 @@ The keypad reads codes / badges in two ways :
     RFID badge reading mode (red light on). At this moment
     he can read a badge, not before.
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 To wake up this module there are two ways to proceed :
 
-\
+
 
 -   press the tamper button then release after 1 to 2 seconds
 
 -   press Home, a random number and Enter
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 This module wakes up by pressing the tamper button and
 relaxing. He can also wake up by pressing Home then 1 then
 Enter.
 
-\
+
 
 This module is a battery module, the new configuration will be
 taken into account at the next wake up.
 
-\
+
 
 Important note 
 ---------------
 
-\
+
 
 > **IMPORTANT**
 >
@@ -364,6 +364,6 @@ Important note
 > of the configuration, after a change of wake up, after a
 > change of association groups
 
-\
+
 
 **@sarakha63**

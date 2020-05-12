@@ -1,28 +1,28 @@
 D-Link DCH-Z110 - "Apertura 3 en 1" 
 ====================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/dlink.dchz110/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El detector DCH-Z110 ofrece 3 funciones diferentes : detección
 apertura, sensor de temperatura y detector de luz. El se
@@ -45,12 +45,12 @@ se detecta. Un controlador Z-Wave (control remoto, dongle ...?) Es
 necesario para integrar este detector en su red si tiene
 ya una red existente.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Detector 3 en 1: Apertura, temperatura, luz
 
@@ -68,12 +68,12 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 Sitio oficial :
 <http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
@@ -84,12 +84,12 @@ Otro enlace técnico :
 ![caracteristiques
 técnicas](images / dlink.dchz110 / caracteristiques_techniques.jpg)
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : D-Link
 
@@ -104,18 +104,18 @@ Datos del módulo
 
 -   ID del producto : 14 \ [0x000e \]
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -127,36 +127,36 @@ inclusión refiérase a esto
 > segundo, según su documentación. (parpadeo rojo constante
 > en modo asociación)
 
-\
+
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/dlink.dchz110/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Apertura : es el comando que generará una detección
     d'ouverture
@@ -171,11 +171,11 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
@@ -183,32 +183,32 @@ Aquí está la lista de comandos :
 > siempre active el módulo presionando el botón de asociación.
 > Debería parpadear en rojo y cambiar de estado.
 
-\
+
 
 Entonces es necesario configurar el módulo en
 dependiendo de su instalación. Esto requiere pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/dlink.dchz110/config1.jpg)
 
 ![Config2](images/dlink.dchz110/config2.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   2: permite ajustar la señal enviada a los módulos en el grupo
     asociación 2
@@ -251,20 +251,20 @@ Detalles del parámetro :
 -   22: valor en% de variación de brillo para disparar
     un informe. Valor recomendado : 10
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene dos grupos de asociación, solo el primero es
 indispensable.
 
-\
+
 
 ![Groupe](images/dlink.dchz110/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
@@ -272,21 +272,21 @@ Bueno saber
 Asociación / Notificación posible con otros módulos (ejemplo: Sirena
 Notificación de campanilla DCH-Z510 al abrir la puerta / ventana)
 
-\
+
 
 Visual alternativo 
 -----------------
 
-\
+
 
 ![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, solo hay una forma :
 
@@ -295,28 +295,28 @@ Para activar este módulo, solo hay una forma :
 -   Reduzca el intervalo de activación en la configuración / sistema del módulo
     (en segundos)
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo se activa presionando su botón de asociación.
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar. (botón de asociación para
 fuerza, de ahí el interés de no instalar el módulo antes de su
 buena configuración)
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -324,5 +324,5 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 

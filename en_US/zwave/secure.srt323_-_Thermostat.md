@@ -1,28 +1,28 @@
 Secure SRT 323 "Thermostat" 
 ===========================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/secure.srt323/module.jpg)
 
-\
+
 
 -   **The jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The SRT323 is a wall-mounted battery-operated thermostat. He has
 a rotary knob allowing the user to adjust the temperature
@@ -55,12 +55,12 @@ heater. You will no longer have to worry about going home in
 a cold house, as long as you have a smartphone, tablet or
 PC at hand and connected to the internet.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Thermostat for domestic application
 
@@ -76,12 +76,12 @@ Functions
 
 -   One button
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave controller
 
@@ -105,12 +105,12 @@ Technical characteristics
 
 -   Dimensions : 86 x 86 x 36.25 mm
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Horstmann
 
@@ -122,18 +122,18 @@ Module data
 
 -   Product ID : 4
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -141,11 +141,11 @@ inclusion refer to this
 > position ON then with the dial display L and press the dial,
 > according to its paper documentation.
 
-\
+
 
 ![inclusion](images/secure.srt323/inclusion.jpg)
 
-\
+
 
 > **IMPORTANT**
 >
@@ -158,32 +158,32 @@ inclusion refer to this
 > Inclusion / Exclusion. Then on the page of your module click on
 > magnifying glass top right.
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/secure.srt323/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Temperature : it is the temperature measurement command
 
@@ -196,34 +196,34 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/secure.srt323/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1: allows to activate or not the internal temperature sensor
 
@@ -232,29 +232,29 @@ Parameter details :
 -   3: allows to define the temperature variation level for
     the module back up (in units of 0.1 ° C)
 
-\
+
 
 ### Groups 
 
-\
+
 
 For optimal functioning of your module, Jeedom must be
 associated with the 5 groups
 
-\
+
 
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 > **IMPORTANT**
 >
@@ -264,34 +264,34 @@ Good to know
 > decrease it to about 10 minutes. Thus a change of setpoint will be
 > taken into account by the module at most after 10 minutes
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 To wake up this module you must put switch 1 in the ON position and
 with the wheel choose n and press the wheel.
 
-\
+
 
 Faq. 
 ------
 
-\
 
-\
+
+
 
 This module is a battery module, the new configuration will be
 taken into account at the next wake up.
 
-\
+
 
 Important note 
 ---------------
 
-\
+
 
 > **IMPORTANT**
 >
@@ -299,6 +299,6 @@ Important note
 > of the configuration, after a change of wakeup, after a
 > change of association groups
 
-\
+
 
 **@sarakha63**

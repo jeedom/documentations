@@ -1,23 +1,23 @@
 Fibaro RGVB Controler - FGRGB-101 
 =================================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-\.
+
 
 Zusammenfassung 
 ------
@@ -47,7 +47,7 @@ oder RGB + weiß oder sogar zum Anschließen von analogen Sonden mit
 
 -   Repeater-Funktion (Router) zur Erweiterung des Z-Wave-Netzwerks.
 
-\.
+
 
 Funktionen 
 ---------
@@ -64,7 +64,7 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+
 
 Technische Daten 
 ---------------------------
@@ -101,7 +101,7 @@ Technische Daten
 
 -   Für dieses Modul ist ein Z-Wave-Controller erforderlich.
 
-\.
+
 
 Moduldaten 
 -----------------
@@ -116,48 +116,48 @@ Moduldaten
 
 -   Produkt-ID : 4096
 
-\.
+
 
 Konfiguration 
 -------------
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\.
+
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-\.
+
 
 ### Befehle 
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/fibaro.fgrgb101/commande_1.png)
 
 ![Befehle](images/fibaro.fgrgb101/commande_2.png)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
@@ -196,7 +196,7 @@ Hier ist die Liste der Befehle :
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 icone
 
-\.
+
 
 ### Konfiguration des Moduls 
 
@@ -204,34 +204,34 @@ Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
-\.
+
 
 Parameterdetails :
 
 Bitte beachten Sie den vorherigen Screenshot, die Einstellungen
 ins Französische übersetzt werden.
 
-\.
+
 
 ### Gruppen 
 
 Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist
 indispensable.
 
-\.
+
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
@@ -242,7 +242,7 @@ Gut zu wissen
 
 Verwendung von 0-10V Sensoren.
 
-\.
+
 
 > **Kaution**
 >
@@ -251,18 +251,18 @@ Verwendung von 0-10V Sensoren.
 
 ### Alternative visuelle 
 
-\.
+
 
 ![Alternative visuelle](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-\.
+
 
 Aufwachen 
 ------
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+
 
 Faq. 
 ------
@@ -270,5 +270,5 @@ Faq.
 Die Standardkonfiguration von jeedom erlaubt dies derzeit nicht,
 Es kann jedoch eine bestimmte Konfiguration in Betracht gezogen werden.
 
-\.
+
 

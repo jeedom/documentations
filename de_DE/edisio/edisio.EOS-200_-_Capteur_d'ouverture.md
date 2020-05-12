@@ -72,7 +72,7 @@ Allgemeine Konfiguration
 
 So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
 beziehen sich darauf
-[Dokumentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/de_DE/edisio.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
 > **Wichtig**
 >

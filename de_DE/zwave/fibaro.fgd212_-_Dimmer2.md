@@ -1,28 +1,28 @@
 Fibaro Dimmer2 - REA-212 
 ========================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/fibaro.fgd212/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
 
-\.
+
 
 Zusammenfassung 
 ------
 
-\.
+
 
 Mit dem Dimmermodul FGD-212 können Sie a steuern
 Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
@@ -45,12 +45,12 @@ Messen Sie den Stromverbrauch der angeschlossenen Last. Die Werte
 Momentanverbrauch (in W) und Gesamtstromverbrauch
 (in kWh) kann angezeigt werden.
 
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Fernbeleuchtung
 
@@ -92,12 +92,12 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Modultyp : Z-Wave Empfänger
 
@@ -130,12 +130,12 @@ Technische Daten
 -   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EG, EMV 2004/108 / EG, R & TTE
     1999/5/EC
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Fibar Group
 
@@ -147,18 +147,18 @@ Moduldaten
 
 -   Produkt-ID : 4096
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
@@ -167,11 +167,11 @@ Aufnahme beziehen sich darauf
 > Modul ist nicht bereits enthalten, es wird enthalten sein
 > automatisch beim Einschalten.
 
-\.
+
 
 ![inclusion](images/fibaro.fgd212/inclusion.jpg)
 
-\.
+
 
 > **Spitze**
 >
@@ -179,32 +179,32 @@ Aufnahme beziehen sich darauf
 > durch viele Rundfahrten auf dem Schalter oder
 > viele Drücke, wenn Sie einen Druckknopfschalter haben.
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/fibaro.fgd212/commandes.jpg)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
     Licht
@@ -225,26 +225,26 @@ Hier ist die Liste der Befehle :
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 icone
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/fibaro.fgd212/config1.jpg)
 
@@ -256,37 +256,37 @@ Einstellungen)
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 ENTWURF SEIN
 
-\.
+
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat fünf Zuordnungsgruppen, nur die erste ist
 indispensable.
 
-\.
+
 
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-\.
+
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 ### Besonderheiten 
 
-\.
+
 
 > **Kaution**
 >
@@ -294,38 +294,38 @@ Gut zu wissen
 > ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
 > ist auf monostabil eingestellt.
 
-\.
+
 
 Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
 Schalter Sie können Ihren Schalter mehrmals drücken
 (oder im Falle eines bistabilen Schalters hin und her gehen)
 
-\.
+
 
 ### Alternative visuelle 
 
-\.
+
 
 ![vuewidget](images/fibaro.fgd212/vuewidget.jpg)
 
-\.
+
 
 Aufwachen 
 ------
 
-\.
+
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-\.
+
 
 Faq. 
 ------
 
-\.
+
 
 Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
 auf dem Schalter.
 
-\.
+
 **@sarakha63**

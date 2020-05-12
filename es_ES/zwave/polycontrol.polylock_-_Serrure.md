@@ -1,23 +1,23 @@
 PolyLock 
 ========
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/polycontrol.polylock/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
@@ -49,12 +49,12 @@ doméstica o laboral. El Poly-Lock funciona con
 batería, y ha sido probado para funcionar durante 1 año, sin
 reemplazo de la batería.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Controla tu puerta de entrada de forma remota
 
@@ -69,12 +69,12 @@ Funciones
 
 -   Instalación fácil
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Suministro : Batería de cloruro de litio de 3.6V
 
@@ -87,12 +87,12 @@ Características técnicas
 
 -   Peso : 370g
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Poly-Control
 
@@ -104,54 +104,54 @@ Datos del módulo
 
 -   ID del producto : 1
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 1 vez
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/polycontrol.polylock/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/polycontrol.polylock/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Estado : es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
@@ -162,11 +162,11 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Advertencia**
 >
@@ -175,30 +175,30 @@ Aquí está la lista de comandos :
 > recuperará cualquier cambio de configuración en tiempo casi real
 > como módulo sectorial.
 
-\
+
 
 Si desea configurar el módulo de acuerdo a su
 instalación, debe pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   0: permite cambiar la dirección de rotación de los comandos
     abrir / cerrar
@@ -215,28 +215,28 @@ Detalles del parámetro :
 -   4: le permite elegir entre diferentes modos de operación
     (par, fuerza, potencia, etc.)
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene solo un grupo de asociación.
 
-\
+
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-\
+
 
 Ejemplos de uso 
 ----------------------
 
-\
+
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
-\
+
 
 El disparador es el comando de evento de un teclado zipato
 (puede ser cualquier otra cosa). Si el valor es 6 (inicio) en
@@ -245,16 +245,16 @@ la puerta de la llave. De lo contrario (necesariamente 5) la puerta se abre con 
 después de cerrarlo. De hecho, queremos salir, la puerta se abre y
 se cerrará poco después.
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 > **Punta**
 >
@@ -263,37 +263,37 @@ Bueno saber
 > recuperará cualquier cambio de configuración en tiempo casi real
 > como módulo sectorial.
 
-\
+
 
 > **Punta**
 >
 > Este módulo no devuelve su estado, si opera el bloqueo en el
-> mano el estado seguirá siendo el mismo. \
+> entregar el estado seguirá siendo el mismo. 
 
 ### Visual alternativo 
 
-\
+
 
 ![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
 
-\
+
 
 Despertar 
 -------
 
-\
+
 
 No hay concepto de despertar para este módulo.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 No hay concepto de despertar en este módulo, lea el párrafo específico.
 
-\
+
 
 **@sarakha63**

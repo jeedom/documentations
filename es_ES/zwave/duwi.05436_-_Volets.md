@@ -1,28 +1,28 @@
 DUWI 05436 "Persiana enrollable" 
 ==========================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El módulo de persiana enrollable DUWI 05436 se utiliza para controlar persianas
 rodando en dos direcciones.
@@ -41,12 +41,12 @@ el usuario presiona los botones directamente. Tienes que hacer un
 'Actualizar 'en su posición para actualizar o ajustar la Encuesta (ver
 más lejos).
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Arriba / abajo
 
@@ -61,12 +61,12 @@ Funciones
 
 -   El interruptor se suministra con el módulo, no intercambiable
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Receptor / actuador Z-Wave
 
@@ -84,12 +84,12 @@ Características técnicas
 
 -   Rango de temperatura : 0 ° C / + 40 ° C
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Popp / Duwi
 
@@ -101,57 +101,57 @@ Datos del módulo
 
 -   ID del producto : 0
 
-\
+
 
 Conexión 
 ---------
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner el módulo en modo de inclusión, presione tres veces
 > en el ascenso o descenso. La exclusión se realiza de la misma manera.
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/duwi.05436/4-Commandes.PNG)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Estado : Esta es la posición actual del obturador, en porcentaje de 0 a 99
 
@@ -165,7 +165,7 @@ Aquí está la lista de comandos :
 
 -   Nivel : control deslizante para colocar una abertura parcial
 
-\
+
 
 #### Establecer los tiempos de subida y bajada : 
 
@@ -184,34 +184,34 @@ El LED se ilumina en verde continuo durante unos segundos. El tiempo es memoriza
 
 Repita la operación en la otra dirección.
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   0 : Tiempo de funcionamiento :
 
@@ -238,25 +238,25 @@ Se usa para indicar si presionar en la dirección opuesta durante un
 el desplazamiento detiene el obturador o lo devuelve inmediatamente en la dirección
 opposé.
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene solo un grupo de asociación en el que debe estar
 encuentra tu controlador Z-Wave.
 
-\
+
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 -   Como se especificó al principio, el módulo no informa los cambios en
     posiciones hechas por el usuario presionando directamente
@@ -271,11 +271,11 @@ Bueno saber
 -   Establecer una operación sin límite de tiempo puede resultar ser
     útil para los comandos de VMC
 
-\
+
 
 ### Visual alternativo 
 
-\
+
 
 ![Visuel custom](images/duwi.05436/Visuel_custom.PNG)
 

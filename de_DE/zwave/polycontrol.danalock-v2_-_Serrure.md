@@ -1,23 +1,23 @@
 Danalock V2 BTZE 
 ================
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/polycontrol.danalock/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-\.
+
 
 Zusammenfassung 
 ------
@@ -93,12 +93,12 @@ Ich kann mich nicht in dein Haus hacken.
 Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit
 Lünette aus massiv eloxiertem Aluminium und fortschrittliche Technologien
 Bluetooth und Z-Wave. Ein diskretes dänisches Design für die Ewigkeit.
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Steuern Sie Ihre Haustür fern
 
@@ -129,12 +129,12 @@ Funktionen
 -   Kompatibel mit iOS (iPhone 4s oder höher), aber
     auch Android (ab 4.4).
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Versorgung : 4 CR123 3V Batterien
 
@@ -148,12 +148,12 @@ Technische Daten
 
 -   Gewicht : 363g
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Poly-Control
 
@@ -165,24 +165,24 @@ Moduldaten
 
 -   Produkt-ID : 1
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
 > Es ist wichtig, dieses Modul in den sicheren Modus zu versetzen..
 
-\.
+
 
 So versetzen Sie das Z-Wave-Plugin (openzwave) im Einschlussmodus in Jeedom
 sicher : Gehen Sie einfach zur Seite zur Verwaltung von Z-Wave-Modulen
@@ -191,7 +191,7 @@ und klicken Sie auf das Symbol "Zwave Network"
 ![inclusion securise jeedom
 1](images / polycontrol.danalock / Inclusion-Securise-Jeedom-1.jpg)
 
-\.
+
 
 Klicken Sie dann auf der Registerkarte "Aktionen" auf : "MODUL IM MODUS HINZUFÜGEN
 SICHER (INKLUSION)"
@@ -199,7 +199,7 @@ SICHER (INKLUSION)"
 ![inclusion securise jeedom
 2](images / polycontrol.danalock / Inclusion-Securise-Jeedom-2.jpg)
 
-\.
+
 
 > **Wichtig**
 >
@@ -218,28 +218,28 @@ auf "CONNECT".
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/polycontrol.danalock/commandes.jpg)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Status : Es ist der Befehl, der die letzte Aktion ausführt
     ausgeführt (öffnen / schließen)
@@ -250,11 +250,11 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 > **Warnung**
 >
@@ -263,30 +263,30 @@ Hier ist die Liste der Befehle :
 > Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
 > als Sektormodul.
 
-\.
+
 
 Wenn Sie das Modul entsprechend Ihrer Konfiguration konfigurieren möchten
 Installation müssen Sie über die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 -   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn
     gesperrt, 1 = Motor läuft gegen den Uhrzeigersinn, wenn
@@ -330,28 +330,28 @@ Parameterdetails :
 
 -   12 : Betriebsbericht
 
-\.
+
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat nur eine Zuordnungsgruppe.
 
-\.
+
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-\.
+
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 ### Besonderheiten 
 
-\.
+
 
 > **Spitze**
 >
@@ -360,37 +360,37 @@ Gut zu wissen
 > Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
 > als Sektormodul.
 
-\.
+
 
 > **Spitze**
 >
 > Dieses Modul gibt seinen Status zurück, wenn Sie das Schloss von Hand bedienen
-> Der Status wird aktualisiert. \
+> Status wird aktualisiert. 
 
 ### Alternative visuelle 
 
-\.
+
 
 ![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
-\.
+
 
 Aufwachen 
 ------
 
-\.
+
 
 Für dieses Modul gibt es kein Konzept zum Aufwecken.
 
-\.
+
 
 Faq. 
 ------
 
-\.
+
 
 Keine Vorstellung von Aufwachen in diesem Modul; Lesen Sie den Abschnitt Besonderheiten.
 
-\.
+
 
 **@noumea**

@@ -1,28 +1,28 @@
 Greenwave PowerNode - 6 enchufes 
 ==============================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/greenwave.powernode/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 La regleta de alimentación GreenWave PowerNode es un dispositivo inteligente que
 se conecta a sus electrodomésticos y productos electrónicos para usted
@@ -61,12 +61,12 @@ asegurado por el fusible interno ubicado en la regleta.
 Esta regleta es ideal para controlar dispositivos multimedia en
 un gabinete de TV o para controlar equipos informáticos ubicados
 en una oficina y así evitar tener que usar 6 enchufes Z-Wave
-individual. \
+individuelles. 
 
 Funciones 
 ---------
 
-\
+
 
 -   Regleta de 6 puertos Z-Wave
 
@@ -83,12 +83,12 @@ Funciones
 
 -   Indicador de estado de luz
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Suministro : 250 V CA, 50 Hz
 
@@ -116,12 +116,12 @@ Características técnicas
 
 -   Clase de IP (tolerancia a la humedad) : IP20
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : GreenWave
 
@@ -133,46 +133,46 @@ Datos del módulo
 
 -   ID del producto : 4
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente en el zócalo.
 
-\
+
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/greenwave.powernode/commandes.jpg)
 
@@ -184,11 +184,11 @@ disponibles.
 
 ![Comandos](images/greenwave.powernode/commandes5.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Estado-1 : Es el comando que permite conocer el estado de la
     toma 1
@@ -268,44 +268,44 @@ Aquí está la lista de comandos :
 -   Conso-6 : Es el comando que informa el consumo total de
     toma 6
 
-\
+
 
 Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS están agrupados
 en un botón.
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
-\
+
 
 Como puede ver, no hay mucha configuración
 para este módulo.
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1 : Retrasos antes de que el botón parpadee : cantidad de segundos
     mínimo entre dos comunicaciones (si se supera este retraso, el botón
@@ -313,95 +313,95 @@ Detalles del parámetro :
 
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene cuatro grupos de asociación, solo el primer grupo es
 indispensable.
 
-\
+
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Especificidades / Encuesta 
 
-\
+
 
 A diferencia de su hermana pequeña "Une award", esta regleta requiere
 encuestas para aumentar el consumo.
 
-\
+
 
 ![Config2](images/greenwave.powernode/config2.jpg)
 
-\
+
 
 Solo es necesario activarlo para el comando Power de cada
 tomado. Esto tendrá el efecto de aumentar los dos (consumo y potencia)
 
-\
+
 
 ### Consumo general 
 
-\
+
 
 ![consocumul](images/greenwave.powernode/consocumul.jpg)
 
-\
+
 
 Puedes usar un virtual para crear un consumo acumulativo
 de 6 tomas.
 
-\
+
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-\
+
 
 ### Restablecer 
 
-\
+
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-\
+
 
 Puede restablecer su medidor de consumo haciendo clic en
 en este botón disponible en la pestaña Sistema. (Hay un reinicio por
 tomado). Elija PressButton.
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 No hay noción de activación en este módulo.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 ¿Pagaste un CRON?.
 
-\
+
 
 No El módulo no lo permite. Pon un trozo de cinta negra
 dessus.
 
-\
+
 **@sarakha63**
