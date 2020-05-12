@@ -1,11 +1,11 @@
 {
-	"id" : "sarah",
-	"name" : "Sarah",
-	"description" : "Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-        "category" : "communication",
-        "changelog" : "https://jeedom.github.io/plugin-sarah/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-sarah/#language#/"
+    "id": "sarah",
+    "name": "Sarah",
+    "description": "Plugin pour utiliser Sarah (http:\/\/encausse.wordpress.com\/s-a-r-a-h\/)",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sarah\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sarah\/"
 }

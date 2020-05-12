@@ -1,27 +1,33 @@
-# 06/07/2018
+# Registro de cambios de monitoreo
 
-- Correction d'un bug sur le swap
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 03/07/2018
+# 07/06/2018
 
-- Correction d'un bug sur la commande ping
+- Corrección de un error en el intercambio
+
+# 07/03/2018
+
+- Corrección de un error en el comando ping
 
 #22/04/2018
 
-- Correction d'un bug sur la mémoire utilisée en SNMP
+- Corrección de un error en la memoria utilizada en SNMP
 
-# 15/04/2018
+# 04/15/2018
 
-- Correction d'un bug sur la mise à jour des valeurs
+- Corrección de un error al actualizar valores
 
 # 11/04/2018
 
-- Correction d'un soucis sur les dépendances
+- Se corrigió un problema de dependencia
 
 # 09/04/2018
 
-- Correction d'un soucis sur les dépendances
+- Se corrigió un problema de dependencia
 
 # 03/04/2018
 
-- Version stable
+- Versión estable

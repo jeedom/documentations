@@ -1,346 +1,191 @@
-Plugin zum Ausführen von Skripten (Shell, PHP, Ruby…),
-Http-Anforderungen zum Abrufen von Informationen in XML oder JSON.
+# Skript-Plugin
 
-Plugin Konfiguration 
-=======================
+Plugin zum Ausführen von Skripten (Shell, PHP, Ruby…) und http-Anforderungen zum Abrufen von Informationen in XML oder JSON.
 
-Die Konfiguration ist sehr einfach, nach dem Herunterladen des Plugins ist es
-Sie aktivieren es einfach und das wars.
+# Plugin Konfiguration 
+
+Die Konfiguration ist sehr einfach. Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und fertig.
 
 ![script1](./images/script1.PNG)
 
-Die einzige Option ist, wo jeedom die Standardskripte setzt, es
-wird empfohlen, es nicht zu berühren.
+Die einzige Möglichkeit besteht darin, dass jeedom die Skripte standardmäßig ablegt. Es wird empfohlen, sie nicht zu berühren.
 
-Gerätekonfiguration 
-=============================
+# Gerätekonfiguration 
 
-Die Konfiguration der Skriptausrüstung ist über das Menü zugänglich
-Plugin :
+Auf die Konfiguration der Skriptausrüstung kann über das Plugin-Menü zugegriffen werden :
 
 ![script2](./images/script2.PNG)
 
-So sieht die Skript-Plugin-Seite aus (hier mit bereits 1
-Ausrüstung) :
+So sieht die Script-Plugin-Seite aus (hier mit bereits 1 Gerät) :
 
 ![script3](./images/script3.PNG)
 
-Hier ist die Liste Ihrer Skripte. Sobald Sie klicken
-auf Ausrüstung bekommen Sie :
+Hier ist die Liste Ihrer Skripte. Sobald Sie auf ein Gerät klicken, erhalten Sie :
 
 ![script4](./images/script4.PNG)
 
-> **Spitze**
->
-> Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
-> ruft ein Schnellzugriffsmenü auf (Sie können
-> von deinem Profil immer sichtbar lassen).
-
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name der Skriptausrüstung** : Name Ihrer Skriptausrüstung
-
--   **Kategorie** : Gerätekategorien (es kann gehören
-    mehrere Kategorien)
-
+-   **Name de l'équipement script** : Name Ihrer Skriptausrüstung
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
-
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
-
--   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
-    Ausrüstung
-
--   **Selbstverwirklichung** : Ermöglicht die Angabe eines Aktualisierungs-Cron
-    automatisch für alle Befehle vom Typ Info.
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+-   **Selbstverwirklichung** : Ermöglicht die Angabe eines Cron für die automatische Aktualisierung aller Befehle vom Typ "Info".
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Name** : Dieses Feld enthält den Namen, dem Sie geben möchten
-    Ihre Bestellung / Informationen.
-
--   **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in
-    Dieser Jeedom-Fall ersetzt den Namen durch das Symbol im Dashboard..
-
--   **Skripttyp** :
-
-    -   Der Http-Typ : ermöglicht das Senden einer Anfrage an ein Gerät
-        extern, ohne unbedingt auf die Rückgabe dieses Befehls zu warten.
-        Das Beispiel, das als Unterstützung für den Http-Typ dient, ist das
-        Konfiguration einer Anfrage an eine Vera zum Einschalten
-        ein Licht.
-
-    -   Der Skripttyp : Wird hauptsächlich zum Ausführen von Skripten verwendet
-        innerhalb von Jeedom. Das Beispiel, das den Typ unterstützt
-        Skript ist die Konfiguration des Temperaturüberwachungsskripts
-        Himbeere auf dem Markt erhältlich.
-
-    -   XML-Typ : ermöglicht das Abrufen von Informationen, die in codiert sind
-        XML von entfernten Geräten. Das Beispiel, das als dienen wird
-        XML-Typunterstützung ist die Skriptkonfiguration für
-        ein Öko-Gerät abfragen.
-
-    -   Der JSON-Typ : ermöglicht das Abrufen von Informationen, die in codiert sind
-        JSON von einem Remote-Gerät. Das Beispiel, das als dienen wird
-        Unterstützung für Typ JSON ist die Skriptkonfiguration für
-        befragen Sickbeard (oder XBMC).
-
+-   **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
+-   **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
+-   **Typ de script** :
+    -   Der http-Typ : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen.Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
+    -   Der Skripttyp : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des auf dem Markt erhältlichen Himbeer-Temperaturüberwachungsskripts.
+    -   XML-Typ : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
+    -   Der JSON-Typ : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC).
 -   **der Typ** und die **Untertyp**
-
 -   Das Feld **Petition**
-
-    -   Dieses Feld muss die Abfrage selbst oder den Pfad der enthalten
-        Skript, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche
-        "Reise" : Mit dieser Option können Sie die in der Datei enthaltene Datei auswählen
-        interne Datei bei Jeedom.
-
+    -   Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
         > **Spitze**
         >
-        > Auf diese Datei kann in SSH zugegriffen werden
-        > in / usr / share / nginx / www / jeedom / Plugins / script / core / resources /.
-        > Zu Ihrer Information, der SSH-Befehl zum Zuweisen von WWW-Datenrechten
-        > zu einer Datei ist : Sudo Chown
-        > www-Daten:www-Daten NOMDUSCRIPT.EXTENSION. Beachten Sie, dass für
-        > Führen Sie ein Skript aus, es muss über WWW-Datenrechte verfügen.
-
-    -   Die Schaltfläche **Bearbeiten** : Ermöglicht das Bearbeiten mit einem Editor
-        interner Code eine der im Verzeichnis enthaltenen Dateien
-        Zugriff auf den Dateicode ermöglichen.
-
+        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/core/ressources/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
+    -   Die Schaltfläche **Bearbeiten** : Mit dieser Option können Sie eine der im Verzeichnis enthaltenen Dateien mit einem internen Code-Editor bearbeiten und so auf den Dateicode zugreifen.
     -   Die Schaltfläche **Neu** : ermöglicht das Erstellen einer Befehlsdatei.
-
         > **Spitze**
         >
-        > Vergessen Sie nicht, den Namen der Datei sowie deren Namen einzugeben
-        > volle Ausdehnung auf Schmerzen, Ihr großartiges Skript nicht zu sehen
-        > nicht funktionieren. Ohne Erweiterung wird Jeedom es nicht wissen
-        > Erkennen Sie die mit Ihrer Datei verknüpfte Sprache. CF. :
-        > Allgemeinheit
-
-    -   Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Datei
-        der Ordnung.
-
-    -   Die Schaltfläche **Aktie** : eines der wichtigsten und danach
-        validierte die CGU-Entwickler in Ihrem Profil auf dem Markt,
-        Ermöglicht es Ihnen, Ihre Kreation mit der Community zu teilen.
-
--   Das Feld **Optionen** : Feld mit variablen Optionen je nach Auswahl
-    Skripttyp.
-
+        > Vergessen Sie nicht, den Namen der Datei und ihre vollständige Erweiterung einzugeben, da sonst Ihr hervorragendes Skript nicht funktioniert. Ohne Erweiterung kann Jeedom die mit Ihrer Datei verknüpfte Sprache nicht erkennen. CF. : Allgemeinheit
+    -   Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Befehlsdatei.
+    -   Die Schaltfläche **Aktie** : Mit einer der wichtigsten und nach Überprüfung der Entwickler-AGB in Ihrem Profil auf dem Markt können Sie Ihre Kreation mit der Community teilen.
+-   Das Feld **Optionen** : Feld mit variablen Optionen abhängig von der Wahl des Skripttyps.
 -   **Unit** : Dateneinheit (kann leer sein).
-
 -   **min / max** : Datengrenzen (können leer sein).
-
 -   **Chronik** : ermöglicht das Historisieren der Daten.
-
 -   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
-
--   **Ereignis** : Rückgabe im Falle von Ereignissen. Im Fall von RFXcom
-    Dieses Kontrollkästchen muss immer aktiviert sein, da Sie keine Abfrage durchführen können
-    ein RFXcom-Modul.
-
--   **Memcache zulassen** : ermöglicht Jeedom, den Cache für zu verwenden
-    Wert (Standard 5 Minuten), bevor das Skript erneut ausgeführt werden muss
-    neuer Wert.
-
--   **Lebenslanger Cache** : Ermöglicht das Ändern der Lebensdauer des Caches
-    (Standard 5 min).
+-   **Ereignis** : Rückgabe im Falle von Ereignissen. Bei RFXcom muss dieses Kontrollkästchen immer aktiviert sein, da Sie ein RFXcom-Modul nicht abfragen können.
+-   **Memcache zulassen** : Erlauben Sie Jeedom, den Cache für den Wert zu verwenden (Standard 5 Minuten), bevor Sie das Skript erneut ausführen, um den Wert erneut abzurufen.
+-   **Lebenslanger Cache** : ermöglicht das Ändern der Lebensdauer des Caches (standardmäßig 5 Minuten).
 
 > **Wichtig**
 >
-> Vermeiden Sie so viel wie möglich im Skriptpfad oder in
-> die Parameter davon Sonderzeichen. Die Charaktere
-> erlaubt sein : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
+> Vermeiden Sie so weit wie möglich im Skriptpfad oder in seinen Parametern Sonderzeichen. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
 ![script5](./images/script5.PNG)
 
 Ermöglicht das Aufrufen einer URL oder das Abrufen der Rückgabe einer URL.
 
--   ein Kontrollkästchen "SSL nicht aktivieren" : Wenn aktiviert, wird Jeedom zugelassen
-    die Felder "Benutzer" und "Passwort" nicht an zu senden
-    die Anfrage. Jeedom wird nicht versuchen, sich mit zu identifizieren
-    Remote-Standort / Maschine.
-
--   ein Kontrollkästchen "Leere Antwort zulassen" : wenn aktiviert, erlaubt
-    Jeedom, nicht auf eine Antwort zu warten oder eine Antwort auf zu ignorieren
-    der übertragene Rahmen. Im Allgemeinen prüfen wir, ob Jeedom uns eine "Locke" sendet
-    Fehler : Leere Antwort vom Server".
-
--   ein Kontrollkästchen "Niemals Fehler melden" : lass uns nicht
-    im Fehlerfall keine Warnung auslösen.
-
--   ein Timeout-Feld" : ohne informiert zu werden, das Timeout der Anfrage
-    Der Standardwert ist 2 Sekunden, andernfalls ist der eingegebene Wert wert.
-
+-   ein Kontrollkästchen "SSL nicht aktivieren" : Wenn diese Option aktiviert ist, kann Jeedom auf Anfrage die Felder "Benutzer" und "Kennwort" nicht senden. Jeedom wird nicht versuchen, sich gegenüber dem Remote-Standort / der Remote-Maschine zu identifizieren.
+-   ein Kontrollkästchen "Leere Antwort zulassen" : Wenn diese Option aktiviert ist, kann Jeedom nicht auf eine Antwort warten oder eine Antwort auf den übertragenen Frame ignorieren. Im Allgemeinen prüfen wir, ob Jeedom einen "Curl-Fehler" zurückgibt : Leere Antwort vom Server".
+-   ein Kontrollkästchen "Niemals Fehler melden" : Ermöglicht es, im Fehlerfall keine Warnung auszulösen.
+-   ein Timeout-Feld" : Ohne Eingabe beträgt das Zeitlimit der Anforderung standardmäßig 2 Sekunden, andernfalls ist es den eingegebenen Wert wert.
 -   ein Feld "Maximale Versuche" : Standardmäßig maximal 4 Tests.
-
 -   ein "Benutzer" -Feld" : um einen Benutzernamen einzugeben.
-
 -   ein "Passwort" Feld" : um ein Passwort einzugeben.
 
-Die HTML-Auswahl 
-=============
+# Die HTML-Auswahl 
 
 ![script8](./images/script8.PNG)
 
-Analysieren Sie eine Webseite (HTML-Datei), um einen Wert abzurufen
-oben. Die Syntax ist dieselbe wie für jquery.
+Analysieren Sie eine Webseite (HTML-Datei), um einen obigen Wert abzurufen. Die Syntax ist dieselbe wie für jquery.
 
-Das Optionenfeld enthält ein Feld "HTML-Datei-URL"" : dieses Feld
-enthält daher den Link zu dem Computer, auf dem sich die HTML-Datei befindet
-Frage.
+Das Optionsfeld enthält ein Feld "HTML-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende HTML-Datei befindet.
 
-Die XML-Auswahl 
-============
+# Die XML-Auswahl 
 
 ![script6](./images/script6.PNG)
 
-Ermöglicht das Abrufen von XML und das gezielte Suchen nach einem Wert
-in.
+Ermöglicht es Ihnen, XML wiederherzustellen und gezielt nach einem Wert darin zu suchen.
 
-Das Optionenfeld enthält das Feld "URL der XML-Datei"" : dieses Feld
-enthält daher den Link zu dem Computer, auf dem sich die XML-Datei befindet
-Frage.
+Das Optionsfeld enthält das Feld "URL der XML-Datei"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende XML-Datei befindet.
 
 > **Wichtig**
 >
-> Es können nur Werte abgerufen werden, Attribute nicht
-> kann wiederhergestellt werden.
+> Es können nur Werte abgerufen werden, Attribute können nicht abgerufen werden.
 
-Die JSON-Wahl 
-=============
+# Die JSON-Wahl 
 
 ![script7](./images/script7.PNG)
 
-Ermöglicht die Wiederherstellung von json und die gezielte Suche nach a
-Wert in.
+Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wert darin.
 
-Das Optionenfeld enthält ein Feld "JSON-Datei-URL"" : dieses Feld
-enthält daher den Link zu dem Computer, auf dem sich die JSON-Datei befindet
-Frage.
+Das Optionsfeld enthält ein Feld "JSON-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende JSON-Datei befindet.
 
-HTTP-Beispiel : Eine Vera steuern 
-==================================
+# HTTP-Beispiel : Eine Vera steuern 
 
-Das Beispiel basiert auf einer Vera und besteht darin, eine Glühbirne anzutreiben
-dimmbar. Ich werde nicht darüber nachdenken, wie man eine Vera fährt
-Auf Http-Anfrage wird das TLD-Forum mit Antworten gefüllt. Darüber hinaus,
-Das Beispiel entspricht meiner Materialart und muss angepasst werden
-Ihre.
+Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbaren Glühbirne. Ich werde nicht näher darauf eingehen, wie eine Vera per http-Anfrage gesteuert werden kann. Das TLD-Forum ist voller Antworten. Außerdem entspricht das Beispiel meiner Materialart und muss an Ihre angepasst werden.
 
 > **Spitze**
 >
-> Eine Methode für diejenigen, die nach dem Schreiben von Http-Anfragen suchen,
-> Überprüfen Sie zuerst die Syntax in Ihrem Browser und erst dann
-> Gehen Sie zur Konfiguration unter Jeedom. Wenn ein Aktionsskript dies nicht tut
-> funktioniert nicht, wechseln Sie zu Info / Anderes Skript, damit Sie den Fehler sehen können
-> zurück.
+> Eine Methode für diejenigen, die nach dem Schreiben von http-Anfragen suchen. Überprüfen Sie zuerst die Syntax in Ihrem Browser und wechseln Sie dann zur Konfiguration unter Jeedom. Wenn ein Aktionsskript nicht funktioniert, können Sie durch Umschalten auf das Skript "Info / Andere" den zurückgegebenen Fehler sehen.
 
 Lassen Sie uns gehen :
 
--   Wir schaffen Ausrüstung : Zum Beispiel LUM CUISINE (ich denke wir haben
-    alle eine Küche zur Hand)
-
--   Wir verknüpfen es mit einem übergeordneten Objekt : Zum Beispiel VERA, es erlaubt mir
-    Zentralisieren Sie alle Bestellungen im Zusammenhang mit VERA auf a
-    Alleinerziehende.
-
+-   Wir schaffen Ausrüstung : zum Beispiel LUM KÜCHE (ich denke wir haben alle eine Küche zur Hand)
+-   Wir verknüpfen es mit einem übergeordneten Objekt : Mit VERA kann ich beispielsweise alle mit VERA verbundenen Bestellungen auf einem einzigen Elternteil zentralisieren.
 -   Wählen Sie Ihre Kategorie.
-
--   Aktivieren Sie Ihre Ausrüstung, überprüfen Sie nicht sichtbar, wir werden ein wenig sehen
-    später, wie man es mit einem virtuellen assoziiert (sexier, mehr WAF)
-
--   Geben Sie zur Selbstaktualisierung nichts ein, es ist ein Befehl
-    Impuls verbunden mit einem Knopfdruck oder einem Szenario !
-
+-   Aktivieren Sie Ihre Ausrüstung, überprüfen Sie sie nicht sichtbar, wir werden etwas später sehen, wie Sie sie mit einer virtuellen (sexier, more WAF) verknüpfen können
+-   Geben Sie zur Selbstaktualisierung nichts ein, es handelt sich um einen Impulsbefehl, der mit einem Knopfdruck oder einem Szenario verknüpft ist !
 -   Fügen Sie einen Skriptbefehl hinzu
-
 -   Denken Sie daran, zu speichern
 
 Erklärungen :
 
 -   Name : 100%, weil wir ein Licht mit voller Leistung einschalten
-
--   Skripttyp : Http
-
+-   Skripttyp : http
 -   Typ : Aktion (es ist eine Bestellung)
-
 -   Untertyp : Standard
-
 -   Petition :
 
 ````
-Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
+http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
 ````
 
 > **Spitze**
 >
-> Die "100" am Ende der Anforderung entspricht dem Leistungsprozentsatz
-> Um dies zuzuweisen, setzen Sie "0" am Ende der Anfrage entsprechend
-> Schalten Sie die Glühbirne aus.
+> Die "100" am Ende der Anforderung entspricht dem Prozentsatz der zuzuweisenden Leistung. Wenn Sie also "0" am Ende der Anforderung setzen, entspricht dies dem Ausschalten der Glühlampe.
 
 Mit der Schaltfläche "Test" können Sie Ihre Bestellung testen !
 
-Sie können daher Bestellungen in derselben Ausrüstung mit multiplizieren
-Wenn Sie beispielsweise eine 60% ige Bestellung für ein schwaches Licht aufgeben, erstellen Sie
-ein Drittel bei 30% für Nachtfahrten, die in a kombiniert werden sollen
-Szenario,…
+Sie können daher Bestellungen in derselben Ausrüstung multiplizieren, indem Sie beispielsweise eine Bestellung mit 60% für schwaches Licht aufgeben und eine dritte Bestellung mit 30% für Nachtfahrten erstellen, die in einem Szenario kombiniert werden sollen usw
 
-Es ist auch möglich, einen Befehl vom Typ Schieberegler zu erstellen, indem Sie den Befehl eingeben
-tag \ #slider \ # in der Anfrage :
+Es ist auch möglich, einen Befehl vom Typ Schieberegler zu erstellen, indem Sie das Tag \ einfügen#slider\# in der Anfrage :
 
 ````
-Http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
+http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
 ````
 
 > **Spitze**
 >
-> Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie Tags verwenden
-> \ #message \ # und \ #title \ #, gleich für eine Farbbestellung mit
-> das Tag \ #color \ # oder vom Typ Slider mit # Slider # oder Liste mit #select#
+> Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie die Tags \ verwenden#message\# und \#title\#, Das Gleiche gilt für eine Farbbestellung mit dem Tag \#color\#, oder Schieberegler mit #slider# oder Liste mit #select#
 
-HTTP-Beispiel : Benachrichtigung an XBMC senden 
-==============================================
+# HTTP-Beispiel : Benachrichtigung an XBMC senden 
 
-Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Tür öffnen
-Eingang.
+Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Vordertür öffnen.
 
 -   Name : XBMC DRÜCKEN
-
--   Skripttyp : Http
-
+-   Skripttyp : http
 -   Typ : Aktion (es ist eine Bestellung)
-
 -   Untertyp : Standard
-
 -   Petition :
 
 ````
-Http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement%20Detecté%22,%22message%22:%22Porte%20Entrée%22},%22id%22:1}
+http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement% 20Detecté%22,%22message%22:%22Porte% 20Entrée%22},%22id%22:1}
 ````
 
 Es liegt an Ihnen, dies beispielsweise in einem Szenario zu testen !
 
-XBMC-API [hier] (Http://wiki.xbmc.org/index.php?title = JSON-RPC_API / v6)
-(nur die mit "erforderlich" gekennzeichneten Felder sind obligatorisch)
+XBMC-API [hier](http://wiki.xbmc.org/index.php?title=JSON-RPC_API/v6) (nur die mit "erforderlich" gekennzeichneten Felder sind obligatorisch)
 
-Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn die Temperatur sinkt
-unterhalb einer bestimmten Schwelle
+Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn die Temperatur einen bestimmten Schwellenwert unterschreitet
 
 Nehmen Sie das obige Beispiel :
 
 -   Ersetzen Sie "Bewegung% 20 erkannt" durch "Risiko% 20 von% 20gel""
+-   Ersetzen Sie "Tür% 20Eingang" durch "Temperatur% 20exterior% 20":% 20 \#\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]\#% 20"
 
--   Ersetzen Sie "Porte% 20Entrée" durch
-    "Temperatur %% 20 20extérieur:20% \ # \ [OUTER \] \ [OUTER \] \ [TEMPERATURE \] \% # 20"
+Testen Sie ein Szenario *\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]* &lt; 15 par exemple
 
-Testez sur un scénario *\[EXTERIEUR\]\[EXTERIEUR\]\[TEMPERATURE\]* &lt;
-15 zum Beispiel
+Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist !
 
-Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist
-!
-
-SCRIPT-Beispiel 
-==============
+# SCRIPT-Beispiel 
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
@@ -350,14 +195,11 @@ Voraussetzungen : wissen, wie man ein Skript in PHP, Python oder Ruby entwickelt
 >
 > Die Erweiterung Ihres Skripts muss unbedingt dem Typ entsprechen. Ex .PHP für einen PHP-Typ. In der Tat basiert Jeedom auf der Erweiterung des Skripts für den Start der ausführbaren Datei (php if .PHP, Python wenn .py ....)
 
-Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel
-für die Verwendung des Skripttyps : Skript
+Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel für die Verwendung des Skripttyps : Script
 
-Nachdem Sie das Skript vom Markt heruntergeladen haben, klicken Sie auf die Schaltfläche "Durchsuchen""
-Mit dieser Option können Sie die Datei temp \ _rasp.php auswählen.
+Nachdem Sie das Skript vom Markt heruntergeladen haben, können Sie über die Schaltfläche "Durchsuchen" die Datei temp\_rasp.php auswählen.
 
-Aus Neugier können Sie den Inhalt der Datei durch Drücken von anzeigen
-Auf der Schaltfläche "Bearbeiten" sollten Sie den folgenden Code erhalten :
+Aus Neugier können Sie den Inhalt der Datei anzeigen, indem Sie auf die Schaltfläche "Bearbeiten" klicken. Sie sollten den folgenden Code erhalten :
 
 Dies ist ein PHP-Skript, das außerhalb von Jeedom wiederverwendet werden kann !
 
@@ -370,44 +212,19 @@ Dies ist ein PHP-Skript, das außerhalb von Jeedom wiederverwendet werden kann !
  ?>
  ````
 
-Notiz : konkret ist es die PHP "Echo" -Funktion, die das gibt
-Wert für Jeedom
+Notiz : konkret ist es die PHP "Echo" -Funktion, die Jeedom den Wert gibt
 
-Die Parameter 
---------------
+## Die Parameter 
 
-Holen Sie sich Jeedom&#39;s Informationen, um sie in einem Skript zu verwenden. die
-Die Wiederherstellung hängt von der Art des verwendeten Skripts ab :
+Holen Sie sich Jeedom's Informationen, um sie in einem Skript zu verwenden. Die Wiederherstellung hängt von der Art des verwendeten Skripts ab :
 
-Beispiel :
+-   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php`` list, das Argument "list" ist eine Zeichenfolge (fest), die im PHP-Skript mit der folgenden Funktion \ $ argv \ [1 \] abgerufen wird : Google für weitere Informationen zum Abrufen von Einstellungen in PHP.
+-   Wir haben zuvor gesehen, dass es möglich ist, dynamische Werte aus Jeedom abzurufen.
+-   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py`` FLUG *Schieber* , das Argument "*Schieber*" wird auf diese Weise abgerufen argv \ [2 \]. Wenn das Skript von jeedom ausgeführt wird, wird es automatisch ersetzt *Schieber* durch den Wert (numerisch) des Schiebereglers. CF. : Weitere Informationen zum Abrufen von Einstellungen in Python finden Sie bei Google.
 
--   In der Leitung :
-    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/MON\_SCRIPT\_PHP.php
-    Liste, das Argument "Liste" ist eine Zeichenfolge (fest)
-    mit der folgenden Funktion aus dem PHP-Skript abgerufen
-    \ $ argv \ [1 \] vgl : Google für weitere Details zum Abrufen
-    Parameter in PHP.
-
--   Wir haben zuvor gesehen, dass es möglich war, sich zu erholen
-    dynamische Werte von Jeedom.
-
--   In der Leitung :
-    /usr/share/nginx/www/jeedom/Plugins/script/core/ressources/radio.py
-    VOL * slider *, daraus wird das Argument "* slider *" abgerufen
-    argv \ [2 \]. Wenn jeedom das Skript ausführt, ist es
-    ersetzt automatisch * slider * durch den Wert (numerisch)
-    Schieberegler. CF.. : Google für weitere Details zum Abrufen
-    Parameter in Python.
-
--   Stärker : Potenziell alle Variablen, auf die über zugegriffen werden kann
-    Jeedom kann vom Skript-Plugin verwendet werden :
-
-    -   Sie möchten den Wert der Küchentemperatur wiederherstellen
-        es außerhalb von Jeedom zu historisieren ?
-
-    -   Übergeben Sie * \ [KÜCHE \] \ [KÜCHE \] \ [Temperatur \] * als Parameter
-        zum Skript und Jeedom wird es durch den Wert ersetzen, der während gelesen wird
-        der Sendung.
+-   Stärker : Möglicherweise können alle Variablen, auf die Jeedom zugreifen kann, vom Skript-Plugin verwendet werden :
+    -   Sie möchten den Wert der Küchentemperatur wiederherstellen, um sie außerhalb von Jeedom zu speichern ?
+    -   Überspringen *\ [KÜCHE \] \ [KÜCHE \] \ [Temperatur \]* Jeedom ersetzt das Skript durch den beim Lesen gelesenen Wert.
 
 Empfehlung zum Testen der Parameter im PHP-Skript :
 
@@ -422,8 +239,7 @@ if (isset($argv)) {
 }
 ````
 
-Einfaches XML-Beispiel 
-==================
+# Einfaches XML-Beispiel 
 
 Hier ist das Format der Standard-XML :
 
@@ -436,15 +252,11 @@ Hier ist das Format der Standard-XML :
 </root>
 ````
 
-Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. wenn
-Sie möchten den Wert von led1, dem Sohn der von Ihnen gesetzten LEDs
-leds &gt; led1.
+Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. Si vous voulez la valeur de la led1 qui est le fils de leds vous mettez leds &gt; led1.
 
-Notizz que l'élément racine &lt;root&gt; n'est pas à préciser dans le
-Anforderungsfeld.
+Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petition.
 
-Komplexes XML-Beispiel 
-====================
+# Komplexes XML-Beispiel 
 
 ````
  <root>
@@ -460,11 +272,9 @@ Komplexes XML-Beispiel
 
 Die Syntax lautet :
 
-leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de
-Array-Zeile !
+leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-Komplexeres XML-Beispiel 
-=========================
+# Komplexeres XML-Beispiel 
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -508,42 +318,29 @@ Informationen aus dem Feld Wert des 1. Blocks abrufen:
 
 ``MesPar>0>Wert>0 qui retourne donc "268.56 "``
 
-Um das folgende Element in der Wert "Struktur" zurückzugeben, müssen Sie
-Geben Sie einfach die Bestellnummer in der Struktur an. Welches gibt
-pour l'élément '&lt;Wert Typ="delta24"&gt;0.051&lt;/Wert&gt;' le code
-folgende :
+Um das nächste Element in der Wert "Struktur" zurückzugeben, müssen Sie nur die Bestellnummer in der Struktur angeben. Ce qui donne pour l'élément '&lt;Wert Typ="delta24"&gt;0.051&lt;/Wert&gt;' le code suivant :
 
 ``MesPar>1>Wert>2``
 
-Um zum nächsten "MyPar" -Block zu wechseln, müssen Sie daher den Index in ändern
-Ergebnis : die 1 mal 2 zum Beispiel.
+Um zum nächsten "MyPar" -Block zu gelangen, müssen Sie daher den Index entsprechend ändern : die 1 mal 2 zum Beispiel.
 
-ACHTUNG : Wenn sich in der XML-Datei die Reihenfolge ändert, wird die Anforderung nicht geändert
-funktioniert mehr. Die Anforderung muss entsprechend der Bestellung angepasst werden
-zurück.
+ACHTUNG : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
 
-JSON-Beispiel 
-============
+# JSON-Beispiel 
 
-Wie beim XML-Typ ist es möglich, Informationen aus zu lesen
-eine JSON-Rückkehr.
+Wie beim XML-Typ ist es möglich, Informationen aus einer JSON-Rückgabe zu lesen.
 
-Zur Erklärung werde ich mich auf JSON-Informationen mit stützen
-die Sickbeard-Anwendung (boo… cpasbien) aber hier nur die Technik
-Premium, nicht das Werkzeug !
+Zur Erklärung werde ich mich auf JSON-Informationen mit der Sickbeard-Anwendung (boo… cpasbien) stützen, aber hier nur auf die Haupttechnik, nicht auf das Tool !
 
 Der Zugriff auf diese Datei ist über die folgende URL möglich :
 
-``Http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
+``http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
 
 Notiz : XXXX ist die für jeden SICKBEARD spezifische API-Schlüsselnummer.
 
-Zunächst, bevor Sie mit der Konfiguration des Skript-Plugins beginnen
-JSON, es geht darum, die wiederherzustellenden Informationen korrekt zu identifizieren., Auto
-Hier werden wir einen Array-Begriff in die Retouren integrieren.
+Bevor Sie mit der Konfiguration des JSON-Skript-Plugins beginnen, müssen Sie zunächst die wiederherzustellenden Informationen korrekt identifizieren., denn hier werden wir einen Begriff des Arrays in die Rückgaben integrieren.
 
-Überprüfen Sie die Anzeige von Informationen in Ihrem Browser (Test
-unter Chrome).
+Überprüfen Sie die Anzeige von Informationen in Ihrem Browser (Test in Chrome).
 
 Beispiel für die Rückgabe :
 
@@ -582,7 +379,7 @@ Beispiel für die Rückgabe :
              "resource": "XXXX",
              "resource_path": "XXXX",
              "season": 1,
- ICI -->     "show_name": "Totovaplusauski aber Totovaalaplage S1E1",
+ ICI -->     "show_name": "Totovaplusauski mais Totovaalaplage S1E1",
              "status": "Snatched",
              "tvdbid": XXXX
          }
@@ -592,59 +389,41 @@ Beispiel für die Rückgabe :
  }
  ````
 
-Für den Fall, dass wir den show \ _name des 3. zurückgeben möchten
-Element in PHP (HIER markiert), wäre es notwendig zu tun : data &gt; 2
-&gt;show \ _name, der Rückgabearray-Index, der bei Null beginnt.
+In der Hypothese, in der wir den show\_name des 3. Elements in php (HIER markiert) zurückgeben möchten, müssten wir dies tun : data> 2> show\_name, der Rückgabearray-Index, der bei Null beginnt.
 
-In diesem Beispiel gibt die Schaltfläche "Test" "Totovaplusauski" zurück
-aber Totovaalaplage S1E1".
+In diesem Beispiel gibt die Schaltfläche "Test" "Totovaplusauski aber Totovaalaplage S1E1" zurück".
 
 Präzisierungen :
 
-Beachten Sie die Syntax des Befehls Request vom Typ element0 &gt;
-index du tableau &gt; élément1
+Beachten Sie die Syntax des Abfragebefehls vom Typ element0> Array-Index> element1
 
 Nachteile :
 
 -   Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
+-   Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
 
--   Wenn wir alle Werte von "show \ _name" zurückgeben möchten, ist dies
-    ist leider nicht möglich, müssen Sie das Skript duplizieren
-    so oft wie nötig.
-
-HTML-Beispiel 
-============
+# HTML-Beispiel 
 
 Hier werden wir versuchen, die letzte FML abzurufen.
 
 Zunächst müssen Sie die URL konfigurieren :
 
-``Http://www.viedemerde.fr``
+``http://www.viedemerde.fr``
 
-Dann müssen Sie den "Pfad" der letzten FML finden. Um dies zu tun,
-Sie müssen zur Site gehen und dann mit der rechten Maustaste auf das gewünschte Element klicken
-Inspizieren Sie den Artikel, wir bekommen :
+Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
 ![script9](./images/script9.PNG)
 
-Hier ist es der komplexeste Teil, der eine kleine Analyse erfordert. hier
-Mein Text befindet sich in einem "a" -Tag, das sich in einem p-Typ-Element befindet
-Das ist eine Klasse div "Post Artikel". Also muss ich auswählen
-das erste div-Element der Klasse "post" und "Artikel", dann das erste
-Element p und dass ich alles in den "a" -Tags bekomme, dass es
-enthält. Also habe ich : "div.post.Artikel:erste p:zuerst a".
+Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
 ![script10](./images/script10.PNG)
 
-Für ein Echtzeit-Update ist es möglich, einen Cron zu platzieren
-Update.
+Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 
 > **Spitze**
 >
-> Bei der Installation eines Update-Cron wird Jeedom
-> Aktivieren Sie automatisch das Kontrollkästchen Ereignis. Dies ist völlig normal.
+> Bei der Installation eines Update-Cron aktiviert Jeedom automatisch das Kontrollkästchen Ereignis. Dies ist völlig normal.
 
-Hier können Sie sich dann ein Szenario vorstellen, das Sie per SMS sendet
-die letzte FML.
+Hier können Sie sich dann ein Szenario vorstellen, das Ihnen per SMS die letzte FML sendet.

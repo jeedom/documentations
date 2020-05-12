@@ -1,48 +1,29 @@
-Beschreibung
-===========
+# Mpower Plugin
 
-Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet
-de voir toutes les infos :
+Mit diesem Plugin können Sie Ihre Mpower-Mehrfachbuchsen steuern. Mit dem Widget können Sie alle Informationen anzeigen : Zustand Stromverbrauch Stromspannung und Leistungsfaktor
 
-Etat Puissance Consommation Courant Voltage et Facteur de puissance
+Die Daten werden alle 15 Minuten und nach einer Aktion von jeedom aktualisiert
 
-Les données sont rafraîchies toutes les 15 minutes et après une action
-depuis jeedom
+# Plugin Konfiguration
 
-Plugin-Konfiguration
-=======================
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
-Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
-gibt es auf dieser Ebene keine Konfiguration.
+# Gerätekonfiguration
 
-Gerätekonfiguration
-=============================
+Gehen Sie zum Menü Plugins / Energie, dort finden Sie das PluginMpower
 
-Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
-Mpower
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+-   **Gerätename Modus** : Name Ihres Gerätemodus,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
+-   **IP-Adresse** : Socket-IP-Adresse
+-   **Login** : Login Login (Standard ubnt)
+-   **Passwort** : Passwort (Standard ubnt)
+-   **Nimm die Nummer** : Steckdosenummer (beginnt bei 1)
 
--   **Gerätename** Modus: Modus Namen Ihrer Ausrüstung,
-
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
-
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
-
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    mehrere Kategorien).
-
--   **Adresse IP** : addresse IP de la prise
-
--   **Login** : login de connexion (par defaut ubnt)
-
--   **Mot de passe** : mot de passe (par defaut ubnt)
-
--   **Numéro de prise** : numéro de la prise (commence à 1)
-
-> **Note**
+> **Notiz**
 >
-> Il faut faire un équipement par prise
+> Pro Steckdose muss ein Gerät mitgenommen werden

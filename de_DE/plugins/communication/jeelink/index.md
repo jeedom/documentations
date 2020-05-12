@@ -1,161 +1,96 @@
-Jeelink 
-=======
+# Jeelink Plugin 
 
-Beschreibung 
------------
+Plugin zum Verknüpfen von 2 Jeedoms
 
-Plugin servant à lier 2 Jeedoms
+# Funktionsprinzip 
 
-Principe de fonctionnement 
-==========================
-
-Le plugin *Jeedom Link* (aussi appelé jeelink) permet la remontée d’un
-ou plusieurs équipement(s) d’un Jeedom sur un autre.
+Das Plugin *Jeedom Link* (auch Jeelink genannt) ermöglicht den Aufstieg einer oder mehrerer Geräte von einem Jeedom zum anderen.
 
 ![jeelink1](./images/jeelink1.png)
 
-> **Important**
+> **Wichtig**
 >
-> Il faut que le plugin soit installé sur les tous les Jeedoms, Source
-> et Cible.
+> Das Plugin muss auf allen Jeedoms, Source und Target installiert sein.
 
-> **Tip**
+> **Spitze**
 >
-> Pour une bonne compréhension, il est important d’appréhender les
-> quelques termes suivants :\
-> \
-> **Jeedom Source** : serveur Jeedom sur lequel sont présents les
-> équipements à remonter sur le **Jeedom Cible**\
-> \
-> **Jeedom Cible** : serveur Jeedom qui recevra les équipements remontés
-> par le(s) **Jeedom(s) Source(s)**\
-> Le **Jeedom Cible** centralisera ces équipements et ceux de tous le(s)
-> **Jeedom(s) Source(s)** configuré(s).\
-> \
-> **Affectation**: configuration effectuée côté du**Jeedom Source**
-> pour inclure les équipements qui seront remontés sur le **Jeedom
-> Cible**
+> Für ein gutes Verständnis ist es wichtig, die folgenden Begriffe zu verstehen : **Jeedom Source** : Jeedom Server, auf dem die Ausrüstung wieder zusammengebaut werden soll **Jeedom Ziel** **Jeedom Ziel** : Jeedom-Server, der die von der **Jeedom (s) Quelle (n)** Die **Jeedom Ziel** Zentralisieren Sie diese Ausrüstung und die aller Personen **Jeedom (s) Quelle (n)** konfiguriert.**Zuordnung** : Konfiguration durchgeführt am **Jeedom Source** um die Ausrüstung einzuschließen, die auf dem wieder zusammengebaut wird **Jeedom Ziel**
 
-> **Note**
+> **Notiz**
 >
-> Pour une meilleure lecture et compréhension de ce tutoriel :\
-> \
-> Les copies d’écran sur fond noir correspondent au **Jeedom Cible**.\
-> \
-> Les copies d’écran sur fond blanc correspondent au **Jeedom Source**.\
+> Zum besseren Lesen und Verstehen dieses Tutorials : Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Source**.\.
 
-Plugin-Konfiguration
-=======================
+# Plugin Konfiguration 
 
-Après installation, il vous suffit d’activer le plugin. Celui-ci ne
-nécessite aucune configuration spécifique.
+Nach der Installation müssen Sie nur das Plugin aktivieren. Dies erfordert keine spezielle Konfiguration.
 
-Configuration des Jeedoms Cibles 
-================================
+# Konfiguration der Ziel-Jeedome 
 
-A partir du **Jeedom Source**, une fois sur la page du plugin (en allant
-sur Gestion des plugins → Communication → Jeedom link), il vous suffit
-de cliquer sur "Configurer les Jeedoms Cibles".
+Von **Jeedom Source**, Sobald Sie auf der Plugin-Seite sind (über Plugins-Verwaltung → Kommunikation → Jeedom-Link), müssen Sie nur noch auf "Konfigurieren der Ziel-Jeedoms" klicken".
 
-Une fenêtre va apparaître et vous pourrez à partir de celle-ci
-configurer ou ajouter des **Jeedom(s) Cible(s)**.
+Ein Fenster wird angezeigt und von dort aus können Sie konfigurieren oder hinzufügen **Jeedom (s) Ziel (e)**.
 
-Pour ajouter un **Jeedom Cible**, il suffit de donner :
+Hinzufügen eines **Jeedom Ziel**, gib einfach :
 
--   Le nom du **Jeedom Cible**.
-
--   L’adresse IP ou le nom DNS du **Jeedom Cible**.
-
--   La clé API du **Jeedom Cible**.
-
--   Indiquer si la communication est interne ou externe (utilisée pour
-    le retour d’informations, du **Jeedom Source**vers le**Jeedom
-    Cible**). Et sauvegarder la configuration.
+-   Der Name von **Jeedom Ziel**.
+-   Die IP-Adresse oder der DNS-Name des **Jeedom Ziel**.
+-   Der API-Schlüssel von **Jeedom Ziel**.
+-   Geben Sie an, ob die Kommunikation intern oder extern ist (wird für Feedback verwendet, von **Jeedom Source** in Richtung **Jeedom Ziel**). Und speichern Sie die Konfiguration.
 
 ![jeelink2](./images/jeelink2.png)
 
-> **Important**
+> **Wichtig**
 >
-> Il faut **ABSOLUMENT** que les configurations réseaux de tous les
-> Jeedoms (Source et Cible) soient OK sinon le plugin ne fonctionnera
-> pas.
+> Du musst **ABSOLUT** dass die Netzwerkkonfigurationen aller Jeedoms (Quelle und Ziel) in Ordnung sind, sonst funktioniert das Plugin nicht.
 
-Affectation des équipements 
-===========================
+# Ausrüstungszuordnung 
 
-Après avoir effectué la configuration du **Jeedom Cible** sur votre
-**Jeedom Source**, il faut aller dans l’onglet *Affectation* pour
-spécifier les équipements à transmettre au **Jeedom Cible**. Toutes les
-commandes de l’équipement seront automatiquement créées et configurées
-sur le **Jeedom Cible**.
+Nach der Konfiguration der **Jeedom Ziel** Auf deine **Jeedom Source**, Sie müssen zur Registerkarte gehen *Zuordnung* um die Ausrüstung anzugeben, an die übertragen werden soll **Jeedom Ziel**. Alle Gerätebestellungen werden automatisch auf dem erstellt und konfiguriert **Jeedom Ziel**.
 
-Dans l’onglet *Affectation*, ajouter les équipements que vous désirez
-remonter vers le **Jeedom Cible**.
+In der Registerkarte *Zuordnung*, Fügen Sie die Ausrüstung hinzu, zu der Sie zurückkehren möchten **Jeedom Ziel**.
 
 ![jeelink3](./images/jeelink3.png)
 
-Cliquer sur *Ajouter un équipement* Sélectionner l’objet et l’équipement
-à ajouter :
+Klicken Sie auf *Ausrüstung hinzufügen* Wählen Sie das Objekt und die Ausrüstung aus, die hinzugefügt werden sollen :
 
 ![jeelink5](./images/jeelink5.png)
 
-> **Tip**
+> **Spitze**
 >
-> Attention : les plugins ayant un widget spécifique ne l’auront pas sur
-> le **Jeedom Cible** (plugin camera, netatmo, network…​).
+> Achtung : Plugins mit einem bestimmten Widget haben es nicht auf dem **Jeedom Ziel** (Kamera-Plugin, Netzwerk…).
 
-> **Important**
+> **Wichtig**
 >
-> La suppression de l’équipement sur la page de configuration des
-> **Jeedoms Cibles**ne le supprime pas automatiquement sur le**Jeedom
-> Source**, cela est volontaire et non un bug (c’est une sécurité).
+> Das Löschen des Gerätes auf der Konfigurationsseite des **Ziel Jeedoms** löscht es nicht automatisch auf dem **Jeedom Source**, Dies ist freiwillig und kein Fehler (es ist Sicherheit).
 
-Les équipements "Mes jeelinks" 
-==============================
+# "Meine Jeelinks" Ausrüstung" 
 
-Après avoir rafraîchi la page *Mes JeeLinks* du **Jeedom Cible**, vous
-devez constater la création automatique de l’équipement :
+Nach dem Aktualisieren der Seite *Meine Jeelinks* die **Jeedom Ziel**, Sie sollten die automatische Erstellung der Ausrüstung sehen :
 
 ![jeelink4](./images/jeelink4.png)
 
-Comme tout équipement Jeedom, vous pouvez activer/désactiver et afficher
-ou non l’équipement, ses commandes,…​ ou changer la catégorie. Mais
-aussi
+Wie bei allen Jeedom-Geräten können Sie das Gerät, seine Steuerelemente usw. aktivieren / deaktivieren und anzeigen oder nicht oder die Kategorie ändern. Aber auch
 
 ![jeelink6](./images/jeelink6.png)
 
-Dans l’onglet *Commandes*, vous accédez à tous les paramètres des
-commandes de l’équipement :
+In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuerung zu :
 
 ![jeelink7](./images/jeelink7.png)
 
-Modification du Jeedom Source d’un JeeLink 
-==========================================
+# Ändern der Jeedom-Quelle eines JeeLink 
 
-Les 3 paramètres suivants vous permettent de changer le Jeedom Source,
-par exemple lors du remplacement d’un Jeedom sans perdre les données
-(historique par exemple). Pour cela, il vous suffit de mettre la
-nouvelle adresse et clef API du Jeedom Source et de changer les
-identifiants de l’équipement et des commandes (vous les trouverez dans
-la configuration avancée de ceux-ci en cliquant sur la roue crantée).
+Mit den folgenden 3 Parametern können Sie die Jeedom-Quelle ändern, z. B. wenn Sie ein Jeedom ersetzen, ohne die Daten zu verlieren (z. B. Verlauf). Dazu müssen Sie nur die neue Adresse und den neuen API-Schlüssel der Jeedom-Quelle eingeben und die Kennungen der Geräte und Befehle ändern (Sie finden sie in der erweiterten Konfiguration, indem Sie auf das Zahnrad klicken).
 
--   adresse du Jeedom Source;
+-   Jeedom Quelladresse;
+-   Jeedom Source API-Schlüssel;
+-   Quellausrüstung und Bestell-IDs.
 
--   API key du Jeedom Source;
+# Migration im alten Slave-Modus
 
--   ID de l’équipement Source et des commandes.
+Ein Tutorial ist verfügbar, [hier](https://jeedom.github.io/documentation/howto/de_DE/jeelink.migration.html) Festlegen der Vorgehensweise zum Migrieren eines Jeedom Slave in den neuen Jeedom Link-Betriebsmodus.
 
-Migration ancien mode Esclave
-=============================
+# Faq 
 
-Un tutoriel est disponible,
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/jeelink.migration.html)
-précisant la procédure à suivre pour effectuer la migration d’un Jeedom
-Esclave vers le nouveau mode de fonctionnement Jeedom Link.
-
-FAQ
-===
-
->**Lors de la suppression d'équipement sur le jeedom source ceux-ci ne sont pas supprimé du jeedom cible**
+>**Beim Löschen von Geräten auf dem Quell-Jeedom werden diese nicht aus dem Ziel-Jeedom gelöscht**
 >
->C'est normalement la synchronisation source/cible ne fait que de la création jamais de suppression
+>Dies ist normalerweise die Quell- / Zielsynchronisation, die nur zum Erstellen und niemals zum Löschen führt

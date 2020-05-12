@@ -1,24 +1,30 @@
+# Registro de cambios de seguridad de Netatmo
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
 # 16/10/2019
 
-- Actualización de la documentación
+- Actualizando el documento
 
-# 14/10/2019
+# 10/14/2019
 
-- Possibilité de modifier l'état de surveillance
-- Support des capteurs d'ouverture de porte
-- Support des caméra présence
-- Support de la sirene (juste retour d'état)
-- Refonte complete du moteur de communication avec Netatmo
-- Support du detecteur d'incendie
-- Renommage en netatmo security
+- Posibilidad de cambiar el estado de monitoreo
+- Soporte para sensores de apertura de puerta
+- Soporte para cámaras de presencia
+- Soporte de sirena (solo comentarios de estado)
+- Revisión completa del motor de comunicación con Netatmo
+- Soporte detector de incendios
+- Renombrar en seguridad netatmo
 
 
-IMPORTANT : cette version est une reecriture complete du plugin, il y a donc un impact sur les widgets (qui est maintenant standard au core, changement majeur de l'affichage de celui-ci). Il est vivement conseillé de supprimer les équipement crées et de refaire une synchronisation
+Importante : esta versión es una reescritura completa del complemento, por lo que hay un impacto en los widgets (que ahora es estándar en el núcleo, un cambio importante en la visualización de este). Se recomienda encarecidamente eliminar el equipo creado y rehacer una sincronización
 
 # 21/06/2018
 
-- Correction du framework Netatmo (nouvelle données renvoyé par Netatmo non pris en compte dans leur code)
+- Corrección del marco de Netatmo (los nuevos datos devueltos por Netatmo no se tienen en cuenta en su código)
 
 # 03/04/2018
 
-- Correction du bug des images
+- Corrección del error de imagen

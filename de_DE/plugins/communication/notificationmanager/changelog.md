@@ -1,11 +1,19 @@
-- Possibilité d'ajouter un test pour chaque notification
-- Possibilité d'ajouter un test pour chaque commande de notification
-- Ajout d'une clef API spécifique au plugin
+# Changelog Notification Manager
 
-# 20/03/2018
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Ajout d'un systeme de texte conditionnel
+# 29.04.2019
 
-# 19/03/2018
+- Möglichkeit, für jede Benachrichtigung einen Test hinzuzufügen
+- Möglichkeit, für jeden Benachrichtigungsbefehl einen Test hinzuzufügen
+- Hinzufügen eines bestimmten API-Schlüssels zum Plugin
 
-- Version initial
+# 20.03.2008
+
+- Hinzufügen eines bedingten Textsystems
+
+# 2018.03.19
+
+- Erstversion

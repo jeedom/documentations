@@ -1,63 +1,63 @@
-Plugin permet de monitorer des systèmes, il possede plusieurs moteur CLI (bash), SNMP, ping et URL
+# Monitoring plugin
 
-> **IMPORTANT**
+Plugin allows to monitor systems, it has several CLI engine (bash), SNMP, ping and URL
+
+> **Important**
 >
-> Ce plugin est assez complexe et necessite donc de bien lire la documentation et quelques connaissance. IL N'EST PAS PLUG AND PLAY
+> This plugin is quite complex and therefore needs to read the documentation and some knowledge. IT IS NOT PLUG AND PLAY
 
-# Configuration 
+# Configuration
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+After downloading the plugin, you will simply need to activate the plugin
 
 # Equipements
 
-La configuration des équipements Monitoring est accessible à partir du menu
-Plugins puis Monitoring
+The configuration of the Monitoring equipment is accessible from the Plugins menu then Monitoring
 
-- Nom de l'équipement
-- Objet parent
-- Catégorie
+- Name of equipment
+- Parent object
+- Category
 - Activer
 - Visible
-- Fréquence de mise à jour : sous format cron (ex */15 * * * *)
-- Moteur : moteur à activer pour l'équipement en question.
-- Paramètres Bash/Shell
-		- Mode : local ou distant (si local il n'y a rien d'autre à remplir)
+- Update frequency : in cron format (ex \*/ 15 \* \* \* \*)
+- Engine : motor to activate for the equipment in question.
+- Bash / Shell settings
+		- Fashion : local or remote (if local there is nothing else to fill in)
 		- IP
-		- Nom d'utilisateur
-		- Mot de passe
-- Paramètres SNMP
+		- Username
+		- Password
+- SNMP settings
 		- IP
 		- Protocole
-		- Nom d'utilisateur 
-		- Mot de passe
-		- Authentification mode
-		- Sécurité 
-		- Priv protocole 
-		- Priv passphrase 
-- Paramètres ping
-		- IP 
+		- Username
+		- Password
+		- Fashion authentication
+		- Security
+		- Private protocol
+		- Priv passphrase
+- Ping settings
+		- IP
 
 # Moteur
 
-SNMP 
+SNMP
 ----
 
-Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer des valeurs. Ci dessous les exemple de OID SNMP
+The SNMP engine allows you to connect to machines in SNMP and retrieve values. Below the example of SNMP OID
 
-### OIDs général 
+### General OIDs
 
-#### Load 
+#### Load
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.4.1.2021.10.1.3.1           | 1 minute Load                        |
 | .1.3.6.1.4.1.2021.10.1.3.2           | 5 minute Load                        |
 | .1.3.6.1.4.1.2021.10.1.3.3           | 15 minute Load                       |
 
-#### CPU 
+#### CPU
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.4.1.2021.11.9.0             | Percentage of user CPU time          |
 | .1.3.6.1.4.1.2021.11.50.0            | Raw user cpu time                    |
@@ -67,9 +67,9 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.11.53.0            | Raw idle cpu time                    |
 | .1.3.6.1.4.1.2021.11.51.0            | Raw nice cpu time                    |
 
-#### Memory Statistics 
+#### Memory Statistics
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.4.1.2021.4.3.0              | Total Swap Size                      |
 | .1.3.6.1.4.1.2021.4.4.0              | Available Swap Space                 |
@@ -80,107 +80,107 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.4.14.0             | Total RAM Buffered                   |
 | .1.3.6.1.4.1.2021.4.15.0             | Total Cached Memory                  |
 
-#### Disk 
+#### Disk
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.4.1.2021.9.1.2.X            | Path where the disk is mounted       |
 | .1.3.6.1.4.1.2021.9.1.3.X            | Path of the device for the partition |
-| .1.3.6.1.4.1.2021.9.1.6.X            | Total size of the disk/partion (kBytes)                             |
+| .1.3.6.1.4.1.2021.9.1.6.X            | Total size of the disk / partion (kBytes)                             |
 | .1.3.6.1.4.1.2021.9.1.7.X            | Available space on the disk          |
 | .1.3.6.1.4.1.2021.9.1.8.X            | Used space on the disk               |
 | .1.3.6.1.4.1.2021.9.1.9.X            | Percentage of space used on disk     |
 | .1.3.6.1.4.1.2021.9.1.10.X           | Percentage of inodes used on disk    |
 
-#### System 
+#### System
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.2.1.1.3.0                   | System Uptime                        |
 
-### OIDs VMware 
+### VMware OIDs
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.2.1.25.2.3.1.6.6            | Utilisation mémoire                  |
-| .1.3.6.1.4.1.6876.1.2.0              | Version de VMware                    |
+| .1.3.6.1.2.1.25.2.3.1.6.6            | Memory usage                  |
+| .1.3.6.1.4.1.6876.1.2.0              | VMware version                    |
 
-### OIDs Synology 
+### OIDs Synology
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.6574.1.5.1.0            | Modèle                               |
-| .1.3.6.1.4.1.6574.1.5.3.0            | Version DSM                          |
-| .1.3.6.1.4.1.6574.1.1.0              | Statut Système                       |
-| .1.3.6.1.4.1.6574.3.1.1.2.0          | Affiche l’état du RAID               |
-| .1.3.6.1.4.1.6574.1.4.2.0            | Fan CPU                              |
-| .1.3.6.1.4.1.6574.1.4.1.0            | Fan Système                          |
-| .1.3.6.1.4.1.2021.11.9.0             | Charge CPU                           |
-| .1.3.6.1.4.1.6574.1.2.0              | Temp Système                         |
-| .1.3.6.1.4.1.6574.2.1.1.5.X          | Status du disque X (commence à 0)    |
-| .1.3.6.1.4.1.6574.2.1.1.6.X          | Température du disque X (commence à  0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status du raid X (commence à 0)      |
-| .1.3.6.1.4.1.6574.6.1.1.3.1          | Nombre d’utilisateur connecté en CIFS                                 |
-| .1.3.6.1.4.1.6574.6.1.1.3.2          | Nombre d’utilisateur connecté en AFP |
-| .1.3.6.1.4.1.6574.6.1.1.3.3          | Nombre d’utilisateur connecté en NFS |
-| .1.3.6.1.4.1.6574.6.1.1.3.4          | Nombre d’utilisateur connecté en FTP |
-| .1.3.6.1.4.1.6574.6.1.1.3.5          | Nombre d’utilisateur connecté en SFTP                                 |
-| .1.3.6.1.4.1.6574.6.1.1.3.6          | Nombre d’utilisateur connecté en HTTP/HTTPS                           |
-| .1.3.6.1.4.1.6574.6.1.1.3.7          | Nombre d’utilisateur connecté en TELNET                               |
-| .1.3.6.1.4.1.6574.6.1.1.3.8          | Nombre d’utilisateur connecté en SSH |
-| .1.3.6.1.4.1.6574.6.1.1.3.9          | Nombre d’utilisateur connecté en OTHER                                |
+| .1.3.6.1.4.1.6574.1.5.1.0            | Model                               |
+| .1.3.6.1.4.1.6574.1.5.3.0            | DSM version                          |
+| .1.3.6.1.4.1.6574.1.1.0              | System Status                       |
+| .1.3.6.1.4.1.6574.3.1.1.2.0          | Displays RAID status               |
+| .1.3.6.1.4.1.6574.1.4.2.0            | CPU fan                              |
+| .1.3.6.1.4.1.6574.1.4.1.0            | Fan System                          |
+| .1.3.6.1.4.1.2021.11.9.0             | CPU load                           |
+| .1.3.6.1.4.1.6574.1.2.0              | System Temp                         |
+| .1.3.6.1.4.1.6574.2.1.1.5.X          | Disk X status (starts at 0)    |
+| .1.3.6.1.4.1.6574.2.1.1.6.X          | Disk X temperature (starts at 0)                                   |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Raid status X (starts at 0)      |
+| .1.3.6.1.4.1.6574.6.1.1.3.1          | Number of users connected in CIFS                                 |
+| .1.3.6.1.4.1.6574.6.1.1.3.2          | Number of users logged in AFP |
+| .1.3.6.1.4.1.6574.6.1.1.3.3          | Number of users logged in NFS |
+| .1.3.6.1.4.1.6574.6.1.1.3.4          | Number of users logged in via FTP |
+| .1.3.6.1.4.1.6574.6.1.1.3.5          | Number of users connected in SFTP                                 |
+| .1.3.6.1.4.1.6574.6.1.1.3.6          | Number of users logged in HTTP / HTTPS                           |
+| .1.3.6.1.4.1.6574.6.1.1.3.7          | Number of users connected in TELNET                               |
+| .1.3.6.1.4.1.6574.6.1.1.3.8          | Number of users logged in SSH |
+| .1.3.6.1.4.1.6574.6.1.1.3.9          | Number of users logged in OTHER                                |
 
-### OIDs Synology UPS 
+### OIDs Synology UPS
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.6574.4.1.1.0            | Modèle                               |
+| .1.3.6.1.4.1.6574.4.1.1.0            | Model                               |
 | .1.3.6.1.4.1.6574.4.2.1.0            | Status                               |
 | .1.3.6.1.4.1.6574.4.2.12.1.0         | Charge                               |
-| .1.3.6.1.4.1.6574.4.3.1.1.0          | Etat batterie                        |
-| .1.3.6.1.4.1.6574.4.3.6.1.0          | Autonomie                            |
+| .1.3.6.1.4.1.6574.4.3.1.1.0          | Battery status                        |
+| .1.3.6.1.4.1.6574.4.3.6.1.0          | Autonomy                            |
 
-### OIDs calculé par le plugin 
+### OIDs calculated by the plugin
 
-| OID                                  | Données                              |
+| OID                                  | Data                              |
 |--------------------------------------|--------------------------------------|
-| sysuptime                            | Uptime du système formaté            |
-| memoryused                           | Utilisation réel de la mémoire       |
-| cpuused                              | Utilisation moyenné du CPU sous VMware                               |
-| vmwarerunvm                          | Nombre de VM démarrée sur vmware     |
-| diskused::X                          | Taux de remplissage du disque X      |
-| networkin::X                         | Débit moyenné de l’interface X en sortie                               |
-| networkout::X                        | Débit moyenné de l’interface X en entrée                               |
-| runprocess::X                        | Donne le nombre de process X qui tourne                               |
+| sysuptime                            | Formatted system uptime            |
+| memoryused                           | Actual memory usage       |
+| cpuused                              | Average CPU usage under VMware                               |
+| vmwarerunvm                          | Number of VMs started on vmware     |
+| diskused::X                          | Disc fill rate X      |
+| networkin::X                         | Average output interface X throughput                               |
+| networkout::X                        | Average flow of the input X interface                               |
+| runprocess::X                        | Gives the number of X processes that are running                               |
 
-Ping 
+Ping
 ----
 
-Pour le ping il y a 2 commandes possible :
+For ping there are 2 commands possible :
 
-| Commande                             | Données                              |
+| Command                             | Data                              |
 |--------------------------------------|--------------------------------------|
-| ping                                 | Resultat du ping                     |
-| latency                              | test de latence                      |
+| ping                                 | Ping result                     |
+| latency                              | latency test                      |
 
-CLI 
+CLI
 ---
 
-Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite par le plugin : 
+Here you can use all bash commands or commands pre-made by the plugin :
 
-| Commande                             | Données                              |
+| Command                             | Data                              |
 |--------------------------------------|--------------------------------------|
-| cpufreq                              | Fréquence CPU                        |
-| cputemp                              | Température CPU                      |
-| memuse                               | % de mémoire utilisé                 |
-| swap                                 | % de swap utilisé                    |
-| loadavg15                            | Charge sur 15min                     |
-| uptime                               | Uptime de la machine                 |
-| hdduse::\#mount\#                    | % d’utilisation du point de montage *mount*                              |
+| cpufreq                              | CPU frequency                        |
+| cputemp                              | CPU temperature                      |
+| memuse                               | % of memory used                 |
+| swap                                 | % of swap used                    |
+| loadavg15                            | Charge over 15min                     |
+| uptime                               | Uptime of the machine                 |
+| hdduse::\#mount\#                    | % of use of the mounting point *mount*                              |
 
-URL 
+URL
 ---
 
-| Commande                             | Données                              |
+| Command                             | Data                              |
 |--------------------------------------|--------------------------------------|
-| access::\#url\#::\#username\#::\#password\# | Test l’accès à une URL avec *url* : url à tester (ex <http://www.google.fr>), *username*: nom d’utilisateur (si nécessaire),*password* : mot de passe de l’utilisateur (peut etre vide)       |
+| access::\#url\#::\#username\#::\#password\# | Test access to a URL with *URL* : URL à tester (ex <http://www.google.fr>), *Username*: username (if required),*Password* : user password (may be blank)       |

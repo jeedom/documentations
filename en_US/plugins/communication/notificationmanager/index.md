@@ -1,65 +1,63 @@
-This plugin allows to manage the notifications (recovery in case of error, generation of text ...)
+# Notification Manager plugin
+
+This plugin allows you to manage notifications (recovery in case of error, generation of text ...)
 
 # Plugin configuration
 
-After downloading the plugin, you will only have to activate the
-plugin
+After downloading the plugin, you will simply need to activate the plugin.
 
-# Device configuration
+# Equipment configuration
 
-## Device
+## Equipement
 
-The configuration of the Notification Manager devices is accessible from the menu
-Plugins then Communication
+The configuration of the Notification Manager devices is accessible from the Plugins menu then Communication. You will find here the configuration of your equipment :
 
-Vous retrouverez ici la configuration de votre équipement :
-
-- Notify device name: name of the device
-- Parent object: its parent object
-- Enable
+- Name of the equipment to notify : Name of equipment
+- Parent object : its parent object
+- Activer
 - Visible
 
-## Command
+## Commande
 
-This is where you will be able to add notifications commands. Once added for each command you will be able to define the message commands to be used in the order of precedence.
+This is where you will be able to add notification commands. Once add for each command you will be able to define the message type commands to use in order of priority.
 
-Vous avez comme options :
+You have options :
 
-- Test d'éxécution : permet d'ajouter un test avant l'execution de la notification, si le test est faux le plugin ne fera rien, si il est vrai alors il executera les notification dans l'ordre de prioritées jusqu'a trouver une qui marche. Si le champs est vide alors le test est ignoré.
+- Execution test : allows to add a test before the execution of the notification, if the test is false the plugin will do nothing, if it is true then it will execute the notifications in the order of priorities until finding one that works. If the field is empty then the test is ignored.
 
 > **NOTE**
 >
-> Vous avez aussi un test par commande dans la notification
+> You also have a test per order in the notification.
 
 
 **Simple example**
 
-Example you can put first a Slack command and then an SMS command. If sending by Slack does not work then it will send the message via SMS
+Example you can put a Slack type command first and then an SMS type command. If sending by Slack does not work then it will send the message by SMS.
 
 **More complex example**
 
-Example you can put first a Slack command and an SMS command (in the same box separated by &&), then mail. When used the plugin will first send the message on Slack and SMS, if both do not work then it will send it by email
+Example you can put a Slack type command and an SMS command first (in the same box separated by &&), then email. When using the plugin will first send the message on Slack and SMS, if the two do not work then it will send by email.
 
 # Text generation
 
-Le plugin offre aussi une possibilité de generation de texte pour que les messages ne soit pas toujours les meme. Le systeme est le meme que pour les interactions :
-- [Hey\|Hi] how are you? => Will give either "Hey how are you?" or "Hi how are you?"
+The plugin also offers a possibility of text generation so that the messages are not always the same. The system is the same as for interactions :
+
+- [Hello\|Hi, how are you ? => Will give either "Hi, how are you?" or "Hi how are you ?"
 
 # Conditional text
 
-You can also put conditional text as {(test)? true : false}.
+You can also put conditional text in the form {(test) ? True : faux}.
 
-> **IMPORTANT**
+> **Important**
 >
-> It is absolutely necessary to put the test (the condition) between brackets
+> It is absolutely necessary to put the test (the condition) in parenthesis
 
-Voici un exemple pour la méteo du matin avec texte conditionnel et génération de texte :
+Here is an example for the morning weather with conditional text and text generation :
 
-\[Hello\|Hi\|Hey\] \[I hope you slept well?\|Did you get a good night?\|How are you?\]. \[Today it will be\|Today the weather will be\|Weather forecast\]\#[House\]\[Weather\]\[Condition\]\#\[and the temperature will be\|\] {(\#\[House\]\[Weather\]\[Temperature Max\]\#<6)?\[gonna be cold\it is freezing outside\]:} \#\[House\]\[Weather\]\[Temperature Max\]\# degrees.
+\[Hello\|Salut\|Hi \] \ [I hope you slept well ?\|sleep well ?\|It's okay ?\] . \ [Today it will be \|Today the weather will be \|Weather forecast \] \#[Maison\]\[Météo\]\[Condition\]\# \ [and the temperature will be \|with \] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \ [oula it will be cold \|oula it curdles \]: } \#\[Maison\]\[Météo\]\[Température Max\]\# degrees.
 
-FAQ
-===
+# FAQ
 
-> **Does the plugin handle ask feature?**
+>**Does the plugin manage ask ?**
 >
-> Yes the plugin handles ask feature.
+>Yes the plugin manages the ask.

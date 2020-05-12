@@ -1,10 +1,16 @@
+# Changelog Openvpn
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 14/11/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 28/04/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 16/04/2019
 
@@ -12,7 +18,7 @@
 
 # 16/01/2019
 
-- Correction d'un soucis sur les dépendance
+- Correção de um problema de dependência
 
 # 23/11/2018
 
@@ -20,25 +26,25 @@
 
 # 09/11/2018
 
-- Possibilité d'ajouté des options sur la configuration openvpn
-- Possibilité d'executer des commandes après le démarrage du DNS (le tag #interface# permet d'avoir le nom de l'interface)
+- Possibilidade de adicionar opções na configuração do openvpn
+- Capacidade de executar comandos após iniciar o DNS (a tag #interface# permite ter o nome da interface)
 
 # 30/10/2018
 
-- Amélioration du calcul de l'installation ou non des dépendances
+- Melhoria do cálculo da instalação ou não das dependências
 
 # 29/05/2018
 
-- Optimisation du plugin pour les DNS Jeedom
+- Otimização do plugin para DNS Jeedom
 
 # 20/04/2018
 
-- Correction d'un bug sur le démarrage du plugin
+- Correção de um erro na inicialização do plugin
 
 # 15/04/2018
 
-- La vérification du status du VPN se fait maintenant toute les 5min au lieu de 15min
+- A verificação do status da VPN agora é feita a cada 5 minutos, em vez de 15 minutos
 
-# 01/03/2018
+# 01/01/2018
 
--	Correction d'un bug sur l'upload de fichier (CA et autres)
+-	Correção de um bug no upload de arquivo (CA e outros)

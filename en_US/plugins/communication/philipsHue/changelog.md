@@ -1,103 +1,117 @@
+# Changelog Philips Hue
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 05/11/2020
+
+- Addition of an order to know if the bulb is reachable or not
+
+# 01/02/2020
+
+- Addition of image for generic bulbs
+
 # 10/10/2019
 
-- Correction de la remise à 0 de l'état de la lampe lorsqu'on la rallume
+- Correction of resetting the lamp state to 0 when it is turned back on
 
-# 23/09/2019
+# 09/23/2019
 
-- Correction de bugs
+- Bugfix
 - Optimisations
 
-# 01/08/2019
+# 08/01/2019
 
 - Support Feller EDIZIOdue colore
-- Amélioration des logs de synchronisation
+- Improved synchronization logs
 
-# 24/04/2019
+# 04/24/2019
 
-- Ajout d'un bouton pour supprimer une commande
-- Correction des configuration pour les ampoules ikea (attention il faut les supprimer de jeedom et refaire une synchronisation)
+- Add a button to delete an order
+- Correction of the configuration for the ikea bulbs (attention you must remove them from jeedom and redo a synchronization)
 
-# 20/04/2019
+# 04/20/2019
 
-- Support du SML002
-- Support du retour d'état des prise OSRAM SMART (attention necessite une réinclusion)
+- SML002 support
+- Support for OSRAM SMART socket status feedback (attention requires reinclusion)
 
-# 17/01/2019
+# 01/17/2019
 
-- Ajout de la lampe LTC016
-- Ajout d'un bouton de synchronisation sur la page de gestion des équipements
+- Addition of LTC016 lamp
+- Add a synchronization button on the equipment management page
 
-# 16/01/2019
+# 01/16/2019
 
-- Ajout de configuration de lumière génerique couleur et non couleurs
-- Support de Niko 4 boutons
-- Correction de bug
+- Addition of color and non-color generic light configuration
+- Niko support 4 buttons
+- Bug fix
 
-# 15/01/2019
+# 01/15/2019
 
-- Mise à jour de la doc
-- Correction d'un bug sur l'état des bouton lors du redemarrage du pont
-- Ajout Hue lightstrip outdoor
+- Updating the doc
+- Correction of a bug on the state of the buttons when restarting the bridge
+- Adding Hue lightstrip outdoor
 
-# 16/10/2018
+# 10/16/2018
 
-- Correction d'un bug sur l'invertion de presence pour le motion sensor (pour ceux déjà créé il faudra cocher la cache d'inversion sur la ligne de la commande Présence)
+- Correction of a bug on the inversion of presence for the motion sensor (for those already created it will be necessary to tick the inversion cache on the line of the Presence command)
 
-# 12/10/2018
+# 10/12/2018
 
-- Correction d'un bug sur le statut des pieces (allumé/éteinte) si il n'y a pas de lampe de couleur dans celle-ci
-- Ajout RB 145
-- Ajout LPT003
+- Correction of a bug on the status of the pieces (on / off) if there is no color lamp in it
+- Addition RB 145
+- Addition LPT003
 
-# 09/07/2018
+# 07/09/2018
 
-- Ajout du living white plug
+- Adding the living white plug
 
-# 27/06/2018
+# 06/27/2018
 
-- Correction de bugs (merci @mixman68)
+- Bug fixes (thanks @ mixman68)
 
-# 31/05/2018
+# 05/31/2018
 
--   LTC001 (Hue ambiance ceiling)
+-	LTC001 (Hue ambiance ceiling)
 
-# 14/04/2018
+# 04/14/2018
 
--   Correction d'un bug sur l'heure des valeurs des capteurs
+-   Correction of a bug on the time of the sensor values
 -   FLOALT panel WS 30x90
 -   TRADFRI bulb E14 WS opal 400lm
--   TRADFRI E27 WS opal 980lm
--   TRADFRI E27 couleur 600lm
+-	TRADFRI E27 WS opal 980lm
+-	TRADFRI E27 color 600lm
 
-# 23/02/2018
+# 02/23/2018
 
--   TRADFRI bulb E27 W opal 1000lm
--   TRADFRI bulb GU10 WS 400lm
--   TRADFRI bulb E27 opal 1000lm
+-	TRADFRI bulb E27 W opal 1000lm
+-	TRADFRI bulb GU10 WS 400lm
+-	TRADFRI bulb E27 opal 1000lm
 
-# 21/01/2018
+# 01/21/2018
 
--   Passage sur le nouveau système de doc
--   Ajout du modèle MWB001
--   Ajout du modèle ltw010
--   Ajout du modèle OSRAM
--   Ajout du modèle TRADFRI bulb GU10 W 400lm
+- 	Switch to the new doc system
+-   Addition of model MWB001
+-   Adding the ltw010 model
+-   Addition of the OSRAM model
+-   Addition of the TRADFRI bulb GU10 W 400lm model
 
-# 20/11/2017
+# 11/20/2017
 
--   Ajout du modèle LCT015
+-   Addition of model LCT015
 
-# 28/03/2017
+# 03/28/2017
 
--   Ajout d’animation (levé et couché de soleil), attention toute les
-    lampes ne sont pas forcement compatible
+-   Addition of animation (sunrise and sunset), be careful all
+    lamps are not necessarily compatible
 
-# 21/01/2017
+# 01/21/2017
 
--   Support du hue motion
--   Support du hue tap
--   Correction des scènes
--   Correction du décalage des couleurs
--   Ajout des images des modules
--   Support de plus de modules
--   Ajout de la gestion de la température des couleurs
+-   Hue motion support
+-   Hue tap support
+-   Correction of scenes
+-   Color shift correction
+-   Adding module images
+-   Support for more modules
+-   Addition of color temperature management

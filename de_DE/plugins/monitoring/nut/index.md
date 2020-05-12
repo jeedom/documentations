@@ -1,87 +1,57 @@
-Ce plugin permet de récuperer les informations en provenance d’un
-serveur NUT (Network UPS Tools)
+# Nut Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie Informationen von einem NUT-Server abrufen (Network UPS Tools)
 
-Après téléchargement du plugin, il suffit juste de l’activer et ensuite
-de cliquer sur "Installer/Mettre à jour"
+# Plugin Konfiguration 
+
+Nachdem Sie das Plugin heruntergeladen haben, aktivieren Sie es einfach und klicken Sie auf "Installieren / Aktualisieren""
 
 ![nut](./images/nut.PNG)
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-La configuration des équipements NUT est accessible à partir du menu
-plugin :
+Auf die Konfiguration der NUT-Geräte kann über das Plugin-Menü zugegriffen werden :
 
 ![nut2](./images/nut2.PNG)
 
-Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
-équipement) :
+So sieht die NUT-Plugin-Seite aus (hier mit bereits 1 Gerät) :
 
 ![nut3](./images/nut3.PNG)
 
-> **Tip**
->
-> Comme dans beaucoup d’endroits sur Jeedom, placer la souris tout à
-> gauche permet de faire apparaître un menu d’accès rapide (vous pouvez,
-> à partir de votre profil, le laisser toujours visible).
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![nut4](./images/nut4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Onduleur** : nom de votre équipement NUT,
+-   **Name de l'équipement Onduleur** : Name Ihrer NUT-Ausrüstung,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Kategorie** : Kategorie Ihrer NUT-Ausrüstung
+-   **NUT IP-Adresse** : Die IP-Adresse des NUT-Servers
+-   **Name d'utilisateur** : Benutzername des NUT-Servers (leer lassen, wenn keiner)
+-   **Passwort** : NUT-Server-Passwort (leer lassen, wenn keines vorhanden ist)
+-   **Ups id** : Ups id
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
-
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
-
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   **Catégorie** : catégorie de votre équipement NUT
-
--   **Adresse IP NUT** : L’adresse IP du serveur NUT
-
--   **Nom d’utilisateur** : nom d’utilisateur du serveur NUT (laisser
-    vide si il n’y en a pas)
-
--   **Mot de passe** : Mot de passe du serveur NUT (laisser vide si il
-    n’y en a pas)
-
--   **ID de l’ups** : ID de l’UPS
-
-> **Note**
+> **Notiz**
 >
-> Un serveur NUT peut gérer plusieurs UPS, c’est alors l’ID de l’UPS qui
-> permet d’indiquer à Jeedom à quel UPS l’équipement fait réference
+> Ein NUT-Server kann mehrere USVs verwalten. Es ist dann die USV-ID, die Jeedom darüber informiert, auf welche USV sich das Gerät bezieht
 
-> **Tip**
+> **Spitze**
 >
-> Si vous ne connaissez pas l’ID de votre/vos UPS laissez le champs vide
-> puis enregistrez l’équipement, Jeedom va automatiquement remplir le
-> champs ID de l’UPS et créer autant d’équipement que vous avez d’UPS
-> sur votre serveur NUT.
+> Wenn Sie die ID Ihrer USV (s) nicht kennen, lassen Sie das Feld leer und registrieren Sie das Gerät. Jeedom füllt automatisch das ID-Feld der USV aus und erstellt so viele Geräte, wie Sie über eine USV auf Ihrem NUT-Server verfügen.
 
-En-dessous vous retrouvez la liste des commandes :
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Nom** : le nom affiché sur le dashboard,
+-   **Name** : Der im Dashboard angezeigte Name,
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard
+-   **Test** : Wird zum Testen des Befehls verwendet,
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
-
-> **Important**
+> **Wichtig**
 >
-> Les commandes créées peuvent être différentes en fonction des
-> installations, cela dépend de ce que renvoi le serveur NUT
+> Die erstellten Befehle können je nach Installation unterschiedlich sein. Dies hängt davon ab, was der NUT-Server zurücksendet
 
-> **Tip**
+> **Spitze**
 >
-> Si votre serveur NUT est sur un NAS Synology, le nom utilisateur est
-> 'monuser', le mot de passe 'secret' et l’ID 'ups'. Bien qu’en laissant
-> la zone vide le plugin la rempli dans la plupart des cas.
+> Wenn sich Ihr NUT-Server auf einem Synology NAS befindet, lautet der Benutzername "monuser", das Kennwort "secret" und die ID "ups"'. Obwohl der Bereich leer bleibt, füllt das Plugin ihn in den meisten Fällen.

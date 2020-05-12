@@ -1,3 +1,13 @@
+# Changelog Philips Hue
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 11/05/2020
+
+- Ajout d'une commande pour savoir si l'ampoule est joignable ou non
+
 # 02/01/2020
 
 - Ajout d'image pour les ampoules générique

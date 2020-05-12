@@ -1,31 +1,33 @@
-# 13/08/2019
+# Monitoramento de Changelog
 
-- Support de PHP 7.3
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 06/07/2018
+# 06/06/2018
 
-- Correction d'un bug sur le swap
+- Correção de um bug na troca
 
-# 03/07/2018
+# 07/03/2018
 
-- Correction d'un bug sur la commande ping
+- Correção de um bug no comando ping
 
 #22/04/2018
 
-- Correction d'un bug sur la mémoire utilisée en SNMP
+- Correção de um bug na memória usada no SNMP
 
 # 15/04/2018
 
-- Correction d'un bug sur la mise à jour des valeurs
+- Correção de um erro na atualização de valores
 
 # 11/04/2018
 
-- Correction d'un soucis sur les dépendances
+- Corrigido um problema de dependência
 
-# 09/04/2018
+# 09/09/2018
 
-- Correction d'un soucis sur les dépendances
+- Corrigido um problema de dependência
 
-# 03/04/2018
+# 04/03/2018
 
-- Version stable
+- Versão estável

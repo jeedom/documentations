@@ -1,120 +1,65 @@
-Plugin pour commander le Nabaztag.
+# Nabaztag plugin
 
-Configuration 
-=============
+Plug-in para solicitar o Nabaztag.
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-Une fois le plugin installé et activé à partir du Market, on accède à la
-page du plugin Nabaztag par :
+Depois que o plugin é instalado e ativado no Market, você acessa a página do plugin Nabaztag :
 
 ![nabaztag1](../images/nabaztag1.png)
 
-Vous retrouvez ici tous vos équipements Nabaztag :
+Aqui você encontra todo o seu equipamento Nabaztag :
 
 ![nabaztag2](../images/nabaztag2.png)
 
-> **Tip**
->
-> Comme à beaucoup d’endroit sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
-
-Une fois un équipement sélectionné vous obtenez :
+Depois que um equipamento é selecionado, você obtém :
 
 ![nabaztag3](../images/nabaztag3.png)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Nabaztag** : nom de votre équipement Nabaztag
+-   **Nome do equipamento Nabaztag** : nome do seu equipamento Nabaztag
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias)
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **Endereço (openjabnab.fr ou @IP)** : openjabnab ou endereço IP (DNS) do seu openjabnab se você o hospedar
+-   **Mac Address** : o endereço mac do seu coelho (veja abaixo)
+-   **Roxo do token da API** : Token de API (veja abaixo)
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
+Abaixo você encontra a lista de pedidos :
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories)
+-   o nome exibido no painel
+-   Display : permite exibir os dados no painel
+-   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Teste : permite testar o comando
 
--   **Activer** : permet de rendre votre équipement actif
+A lista de comandos é a seguinte :
 
--   **Visible** : le rend visible sur le dashboard
+-   **Em pé** : Acorde o coelho
+-   **Restart** : Reinicie o coelho
+-   **Hora de dormir** : Vamos dizer ao coelho para ir para a cama
+-   **Qualidade do ar** : Dá qualidade do ar (requer a ativação do plug-in correspondente no openjabnab)
+-   **Efemérides** : Dar efemérides (requer a ativação do plug-in correspondente no openjabnab)
+-   **Relógio falante** : Indique o tempo (requer a ativação do plugin correspondente no openjabnab)
+-   **Previsão do tempo** : Dá o tempo (requer a ativação do plugin correspondente no openjabnab)
+-   **Dizendo** : Dê um ditado (requer a ativação do plugin correspondente no openjabnab)
+-   **Orelha esquerda** : Permite escolher a posição da orelha esquerda (16 posições possíveis)
+-   **Orelha direita** : Permite escolher a posição da orelha direita (16 posições possíveis)
+-   **Fala** : Vamos dizer uma frase para o coelho
 
--   **Adresse (openjabnab.fr ou @IP)** : adresse openjabnab ou IP (DNS)
-    de votre openjabnab si vous l’auto-hébergez
+# Recuperar endereço máximo e token 
 
--   **Adresse MAC** : adresse mac de votre lapin (voir plus bas)
-
--   **Token d’API Violet** : token de l’api (voir plus bas)
-
-En dessous vous retrouvez la liste des commandes :
-
--   le nom affiché sur le dashboard
-
--   afficher : permet d’afficher la donnée sur le dashboard
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Tester : permet de tester la commande
-
-La liste des commandes est la suivante :
-
--   **Debout** : Permet de réveiller le lapin
-
--   **Redemarrer** : Permet de redémarrer le lapin
-
--   **Coucher** : Permet de dire au lapin d’aller se coucher
-
--   **Qualité de lair** : Donne la qualité de l’air (nécessite
-    l’activation du plugin correspondant dans openjabnab)
-
--   **Ephéméride** : Donne les ephémérides (nécessite l’activation du
-    plugin correspondant dans openjabnab)
-
--   **Horloge parlante** : Donne l’heure (nécessite l’activation du
-    plugin correspondant dans openjabnab)
-
--   **Météo** : Donne la météo (nécessite l’activation du plugin
-    correspondant dans openjabnab)
-
--   **Dicton** : Donne un dicton (nécessite l’activation du plugin
-    correspondant dans openjabnab)
-
--   **Oreille gauche** : Permet de choisir la position de l’oreille
-    gauche (16 positions possibles)
-
--   **Oreille droite** : Permet de choisir la position de l’oreille
-    droite (16 positions possibles)
-
--   **Parle** : Permet de faire dire une phrase au lapin
-
-Récupérer l’adresse max et le token 
-===================================
-
-Allez sur le site [openjabnab](http://openjabnab.fr/ojn_admin/index.php)
-puis connectez-vous à votre compte :
+Ir para o site [openjabnab](http://openjabnab.fr/ojn_admin/index.php) depois faça login na sua conta :
 
 ![nabaztag4](../images/nabaztag4.png)
 
-Cliquez sur lapin :
+Clique no coelho :
 
 ![nabaztag5](../images/nabaztag5.png)
 
-Puis cliquez sur API :
+Depois clique na API :
 
 ![nabaztag6](../images/nabaztag6.png)
 
-Ici activez l’api violet et public et récupérez l’addresse mac ainsi que
-la clef api violet pour la mettre dans la configuration de votre lapin
-sur Jeedom
-
-Widget 
-======
-
-Voici le widget obtenu après création de l’équipement :
-
-![nabaztag7](../images/nabaztag7.png)
-
-Changelog détaillé :
-<https://github.com/jeedom/plugin-nabaztag/commits/stable>
+Aqui, ative a API roxa e pública e obtenha o endereço mac e a chave roxa da API para colocá-la na configuração do seu coelho no Jeedom

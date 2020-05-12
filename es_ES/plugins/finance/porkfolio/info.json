@@ -1,11 +1,11 @@
 {
-	"id" : "porkfolio",
-	"name" : "Porkfolio",
-	"description" : "Plugin pour envoyer et recevoir des infos de votre Pokfolio",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-        "category" : "finance",
-        "changelog" : "https://jeedom.github.io/plugin-porkfolio/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-porkfolio/#language#/"
+    "id": "porkfolio",
+    "name": "Porkfolio",
+    "description": "Plugin pour envoyer et recevoir des infos de votre Pokfolio",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "finance",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/finance\/porkfolio\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/finance\/porkfolio\/"
 }

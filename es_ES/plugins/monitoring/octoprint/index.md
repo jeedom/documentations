@@ -1,47 +1,31 @@
-Ce plugin permet de monitorer et exécuter quelques actions sur vos serveurs d'impression 3D.
+# Complemento Octoprint
 
-configuración del plugin
-=======================
+Este complemento le permite monitorear y ejecutar algunas acciones en sus servidores de impresión 3D.
 
-Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
+# Configuración del plugin 
 
-Configuración del dispositivo
-=============================
+Después de instalar el complemento, solo necesita activarlo. No hay una configuración especial para hacer
 
-La configuration des équipements Octoprint est accessible à partir du menu
-plugins puis Monitoring. Vous retrouvez ici :
+# Configuración del equipo 
 
--   un bouton pour créer un équipement manuellement
+Se puede acceder a la configuración del equipo Octoprint desde el menú de complementos y luego Monitoreo. Lo encuentras aqui :
 
--   un bouton pour afficher la configuration du plugin
+-   un botón para crear equipos manualmente
+-   un botón para mostrar la configuración del complemento
+-   un botón que le brinda una visión general de todos sus equipos
+-   finalmente a continuación encontrará la lista de su equipo
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+Al hacer clic en uno de sus equipos, llega a la página de configuración de su equipo, que incluye 2 pestañas, equipos y controles.
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+-   **Pestaña del equipo** :
+    -   **Nombre del equipo** : nombre de su equipo
+    -   **Activar** : activa su equipo
+    -   **Visible** : lo hace visible en el tablero
+    -   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+    -   **IP del servidor** : la ip del servidor en cuestión
+    -   **Apikey** : API global o clave de usuario definida en Octoprint
+-   **Pestaña de pedidos** :
+    -   Hay muchos comandos. No todos se muestran por defecto. Puede cambiarles el nombre, mostrarlos o no reorganizarlos.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
-
--   **Onglet Equipement** :
-
--   **Nom de l’équipement** : nom de votre équipement
-
--   ** ** Activar: para que su equipo activo
-
--   Visible ** **: hace visible en el tablero de instrumentos
-
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
-
--   **Ip du serveur** : l'ip du serveur en question
-
--   **Apikey** : clé api global ou d'un user défini dans Octoprint lui même
-
-
--   **Onglet Commandes** :
-
--   Il existe de nombreuses commandes. Toutes ne sont pas affichées par défaut. Vous pouvez les renommer, les afficher ou non les réorganiser. 
-Vous pouvez aussi attribuer un widget au choix. Tout est standard. En ce qui concerne les actions je n'en rajouterai pas plus que celle déjà mise.
-Il n'est pas question pour moi qu'un scénario mal fait se mette à faire chauffer votre imprimante à 4h du matin a 250°C.
-
+También puede asignar un widget de su elección. Todo es estándar. En cuanto a las acciones no agregaré más de lo que ya puse.
+Para mí está fuera de lugar que un escenario mal hecho comience a calentar su impresora a las 4 am a 250 ° C.

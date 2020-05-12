@@ -1,11 +1,19 @@
-- Possibilité d'ajouter un test pour chaque notification
-- Possibilité d'ajouter un test pour chaque commande de notification
-- Adding a plugin-specific API key
+# Changelog Notification Manager
 
-# 2018-03-20
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Adding a conditional text system
+# 04/29/2019
 
-# 2018-03-19
+- Ability to add a test for each notification
+- Ability to add a test for each notification command
+- Addition of a specific API Key to the plugin
+
+# 03/20/2018
+
+- Addition of a conditional text system
+
+# 03/19/2018
 
 - Initial version

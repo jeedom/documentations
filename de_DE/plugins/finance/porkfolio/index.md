@@ -1,144 +1,95 @@
-Porkfolio 
-=========
+# Porkfolio Plugin 
 
-Description 
------------
-
-Ce plugin permet de controller et d’avoir toutes les infos de sa
-tirelire Porkfolio.
+Mit diesem Plugin können Sie alle Informationen von Ihrem Porkfolio-Sparschwein steuern und abrufen.
 
 ![porkfolio screenshot1](./images/porkfolio_screenshot1.jpg)
 ![porkfolio screenshot10](./images/porkfolio_screenshot10.jpg)
 ![porkfolio screenshot9](./images/porkfolio_screenshot9.jpg)
 ![porkfolio screenshot8](./images/porkfolio_screenshot8.jpg)
 
-Configuration 
--------------
+# Konfiguration 
 
-### Configuration du plugin Jeedom : 
+## Jeedom Plugin Konfiguration : 
 
-**Installation/Création**
+**Installation / Erstellung**
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Suite à cela il vous faudra renseigner vos identifiants (compte wink +
-api):
+Anschließend müssen Sie Ihre Anmeldeinformationen eingeben (Wink-Konto + API):
 
 ![porkfolio screenshot7](./images/porkfolio_screenshot7.jpg)
 
-Rendez vous dans le menu Plugins/Finances, vous y trouverez le plugin
-porkfolio :
+Gehen Sie zum Menü Plugins / Finanzen, dort finden Sie das Plugin für Schweinefleischportfolios :
 
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs Porkfolio) et qui vous permettra d’en créer
+Sie gelangen auf die Seite, auf der Ihre Ausrüstung aufgelistet ist (Sie können mehrere Porkfolios haben) und auf der Sie einige erstellen können
 
 ![porkfolio screenshot6](./images/porkfolio_screenshot6.jpg)
 
-Cliquez sur le bouton Ajouter :
+Klicken Sie auf die Schaltfläche Hinzufügen :
 
-Vous arriverez ensuite sur la page de configuration de votre porkfolio:
+Sie gelangen dann auf die Konfigurationsseite Ihres Schweinefleischportfolios:
 
 ![porkfolio screenshot5](./images/porkfolio_screenshot5.jpg)
 
-Sur cette page vous trouverez plusieurs sections :
+Auf dieser Seite finden Sie mehrere Abschnitte :
 
--   **Général**
+**G.énéral**
 
-Vous trouverez dans cette section toutes les configurations Jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
-visible sur le dashboard.
+In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen Ihres Geräts, das Objekt, dem Sie es zuordnen möchten, die Kategorie (vorzugsweise Multimedia), ob das Gerät aktiv sein soll oder nicht, und schließlich, ob es auf dem Gerät sichtbar sein soll Dashboard.
 
--   **Configuration**
+**Konfiguration**
 
-Cette section est utile si et seulement si vous possédez plusieurs
-porkfolio. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
-exemple). Vous pouvez laisser ce champ vide si vous possédez un seul
-porkfolio ce qui sera sûrement votre cas.
+Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere Schweinefleischportfolios haben. Sie müssen die Gerätenummer eingeben (z. B. 1, 2 oder 3). Sie können dieses Feld leer lassen, wenn Sie nur ein Schweinefleischportfolio haben, was sicherlich Ihr Fall sein wird.
 
--   **Commandes**
+**Befehle**
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+In diesem Abschnitt haben Sie nichts zu tun. Bestellungen werden automatisch erstellt.
 
--   Rafraîchir: bouton permettant de rafraîchir le widget si besoin
+-   Aktualisieren: Schaltfläche, um das Widget bei Bedarf zu aktualisieren
+-   Anmeldedatum : Datum der letzten Operation
+-   Bewegungsdatum : Datum des letzten Erkennens einer Bewegung
+-   Datum umdrehen : Datum der letzten Rückgabe des Schweinefleischportfolios
+-   Letzte Operation : Betrag der letzten Transaktion
+-   Nase : Nasenfarbe
+-   Ziel : Betrag Ihres Ziels
+-   Summe : Summe derzeit im Schweinefleischportfolio
 
--   Date de dépôt : Date de la dernière opération
+# Informationen 
 
--   Date mouvement : Date de la dernière fois où un mouvement a été
-    détecté
-
--   Date retournement : Date de la dernière fois où le porkfolio a été
-    retourné
-
--   Dernière opération : Montant de la dernière opération
-
--   Nez : Couleur du nez
-
--   Objectif : Montant de votre objectif
-
--   Somme : Somme actuellement dans le porkfolio
-
-…​
-
-Les informations 
-----------------
-
-### Informations sur le dashboard : 
+## Informationen auf dem Dashboard : 
 
 ![dashboardinfo](./images/dashboardinfo.jpg)
 
--   A : Tête du cochon qui peut changer d’humeur. En laissant la souris
-    sur sa tête il vous dira quand il a bougé pour la dernière fois
-    ainsi que la dernière fois où il a été retourné
+-   Bis : Schweinekopf, der die Stimmung verändern kann. Wenn er die Maus auf dem Kopf lässt, sagt er Ihnen, wann er sich zuletzt bewegt hat und wann er das letzte Mal umgedreht wurde
+-   B. : Schaltfläche "Aktualisieren", um Werte vom Server anzufordern
+-   C. : Betrag der letzten Transaktion. Wenn Sie die Maus darauf lassen, erhalten Sie das Datum der letzten Operation
+-   D. : Betrag Ihres Ziels
+-   E. : Nasenfarbe Ihres Schweinefleischportfolios
+-   F. : Fortschrittsbalken beim Erreichen Ihres Ziels
+-   G. : Summe aktuell in Ihrem Schweinefleischportfolio
 
--   B : Bouton rafraîchir pour redemander les valeurs au serveur
+# Aktionen 
 
--   C : Montant de la dernière opération. En laissant la souris dessus
-    vous aurez la date de la dernière opération
+## Aktionen, auf die im Dashboard zugegriffen werden kann : 
 
--   D : Montant de votre objectif
-
--   E : Couleur du nez de votre porkfolio
-
--   F : Barre de progression dans l’atteinte de votre objectif
-
--   G : Somme actuellement dans votre porkfolio
-
-…​
-
-Les actions 
------------
-
-### Actions accessibles sur le dashboard : 
-
-Plusieurs actions sont accessibles sur le dashboard :
+Im Dashboard stehen mehrere Aktionen zur Verfügung :
 
 ![dashboardactions](./images/dashboardactions.jpg)
 
--   A : En cliquant sur le billet vous pourrez déposer ou retirer une
-    somme d’argent
+-   Bis : Durch Klicken auf das Ticket können Sie einen Geldbetrag einzahlen oder abheben
 
 ![porkfolio screenshot2](./images/porkfolio_screenshot2.jpg)
 
--   B : En cliquant sur le drapeau vous pourrez modifier votre objectif
+-   B. : Durch Klicken auf die Flagge können Sie Ihr Ziel ändern
 
 ![porkfolio screenshot3](./images/porkfolio_screenshot3.jpg)
 
--   C : En cliquant sur le pinceau vous pourrez modifier la couleur du
-    nez de votre porkfolio
+-   C. : Durch Klicken auf den Pinsel können Sie die Farbe der Nase Ihres Schweinefleischportfolios ändern
 
 ![porkfolio screenshot4](./images/porkfolio_screenshot4.jpg)
 
-…​
+# Faq 
 
-FAQ 
----
+Das System ruft stündlich Informationen ab. Sie können auf den Befehl Aktualisieren klicken, um manuell zu aktualisieren.
 
-Le système recupère les informations toutes les heures. Vous pouvez
-cliquer sur la commande Rafraîchir pour rafraîchir manuellement.
-
-Assurez-vous d’avoir créé le fichier de config en sauvant vos infos dans
-la config générale du plugin.
+Stellen Sie sicher, dass Sie die Konfigurationsdatei erstellt haben, indem Sie Ihre Daten in der allgemeinen Konfiguration des Plugins speichern.

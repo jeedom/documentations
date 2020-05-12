@@ -1,13 +1,27 @@
 {
-	"id" : "nimbus",
-	"name" : "Nimbus",
-	"description" : "Plugin pour contrôller votre Nimbus.<br/><br/>Vous pouvez controller le texte affiché, la position des aiguilles. Le tout via scénario ou via le dashboard.<br/><br/>Une représentation personnalisable du nimbus sur votre dash viendra aggrémenter le tout<br/><br/>Le dashboard est complétement personnalisable<br/><br/>Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario)<br/><br/>Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans.<br/><br/><br/>Bien lire la documentation",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-        "category" : "communication",
-        "changelog" : "https://jeedom.github.io/plugin-nimbus/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-nimbus/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "nimbus",
+    "name": "Nimbus",
+    "description": "Plugin pour contrôller votre Nimbus.<br\/><br\/>Vous pouvez controller le texte affiché, la position des aiguilles. Le tout via scénario ou via le dashboard.<br\/><br\/>Une représentation personnalisable du nimbus sur votre dash viendra aggrémenter le tout<br\/><br\/>Le dashboard est complétement personnalisable<br\/><br\/>Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario)<br\/><br\/>Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans.<br\/><br\/><br\/>Bien lire la documentation",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/nimbus\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/nimbus\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

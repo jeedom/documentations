@@ -1,36 +1,24 @@
-Ce plugin permet de connecter Jeedom à un serveur openvpn. Il est aussi
-utilisé et donc obligatoire pour le service DNS Jeedom qui vous permet
-d’accèder à votre Jeedom depuis internet
+# Plugin Openvpn
 
-Configuration du plugin 
-=======================
+Ce plugin permet de connecter Jeedom à un serveur openvpn. Il est aussi utilisé et donc obligatoire pour le service DNS Jeedom qui vous permetd’accèder à votre Jeedom depuis internet
 
-Après téléchargement du plugin, il vous suffit juste d’activer et
-d’installer les dépendances openvpn (clic sur le bouton Installer/Mettre
-à jour)
+# Configuration du plugin
 
-Configuration des équipements 
-=============================
+Après téléchargement du plugin, il vous suffit juste d’activer et d’installer les dépendances openvpn (clic sur le bouton Installer/Mettreà jour)
+
+# Configuration des équipements
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
 -   **Nom de l’équipement Openvpn** : nom de votre équipement Openvpn,
-
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
-
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
-
+-   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
+-   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
 -   **Activer** : permet de rendre votre équipement actif,
-
 -   **Visible** : rend votre équipement visible sur le dashboard,
 
 > **Note**
 >
-> Les autres options ne seront pas détaillées ici, pour avoir de plus
-> amples informations merci de vous référer à la [documention
-> openvpn](https://openvpn.net/index.php/open-source/documentation.html)
+> Les autres options ne seront pas détaillées ici, pour avoir de plus amples informations merci de vous référer à la [documention openvpn](https://openvpn.net/index.php/open-source/documentation.html)
 
 > **Note**
 >
@@ -39,12 +27,9 @@ Vous retrouvez ici toute la configuration de votre équipement :
 En-dessous vous retrouvez la liste des commandes :
 
 -   **Nom** : le nom affiché sur le dashboard,
-
 -   **Afficher** : permet d’afficher la donnée sur le dashboard,
-
 -   **Tester** : permet de tester la commande
 
 > **Note**
 >
-> Jeedom va vérifier toutes les 15 minutes si le VPN est bien démarré ou
-> arreté (s’il le faut) et agir en conséquence si ce n’est pas le cas
+> Jeedom va vérifier toutes les 15 minutes si le VPN est bien démarré ou arreté (s’il le faut) et agir en conséquence si ce n’est pas le cas

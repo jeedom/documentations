@@ -1,11 +1,19 @@
-- Possibilité d'ajouter un test pour chaque notification
-- Possibilité d'ajouter un test pour chaque commande de notification
-- Ajout d'une clef API spécifique au plugin
+# Administrador de notificaciones de registro de cambios
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 29/04/2019
+
+- Posibilidad de agregar una prueba para cada notificación
+- Posibilidad de agregar una prueba para cada comando de notificación
+- Adición de una clave API específica al complemento
 
 # 20/03/2018
 
-- Ajout d'un systeme de texte conditionnel
+- Adición de un sistema de texto condicional
 
-# 19/03/2018
+# 03/19/2018
 
-- Version initial
+- Versión inicial

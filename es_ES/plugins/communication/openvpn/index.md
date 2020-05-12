@@ -1,50 +1,35 @@
-Ce plugin permet de connecter Jeedom à un serveur openvpn. Il est aussi
-utilisé et donc obligatoire pour le service DNS Jeedom qui vous permet
-d’accèder à votre Jeedom depuis internet
+# Complemento Openvpn
 
-configuración del plugin
-=======================
+Este complemento permite conectar Jeedom a un servidor openvpn. También se usa y, por lo tanto, es obligatorio para el servicio DNS de Jeedom que le permite acceder a su Jeedom desde Internet
 
-Après téléchargement du plugin, il vous suffit juste d’activer et
-d’installer les dépendances openvpn (clic sur le bouton Installer/Mettre
-à jour)
+# Configuración del plugin
 
-Configuración del dispositivo
-=============================
+Después de descargar el complemento, solo necesita activar e instalar las dependencias de openvpn (haga clic en el botón Instalar / Actualizar)
 
-Aquí encontrará toda la configuración de su dispositivo:
+# Configuración del equipo
 
--   **Nom de l’équipement Openvpn** : nom de votre équipement Openvpn,
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
+-   **Nombre de l'équipement Openvpn** : nombre de su dispositivo Openvpn,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
 
--   ** ** Categoría: categorías de equipos (que pueden pertenecer a
-    varias categorías),
-
--   ** ** Activar: para que su equipo activo,
-
--   ** ** visible hace que su equipo visible en el salpicadero,
-
-> **Note**
+> **Nota**
 >
-> Les autres options ne seront pas détaillées ici, pour avoir de plus
-> amples informations merci de vous référer à la [documention
-> openvpn](https://openvpn.net/index.php/open-source/documentation.html)
+> Las otras opciones no se detallarán aquí; para obtener más información, consulte el [documentación de openvpn](https://openvpn.net/index.php/open-source/documentation.html)
 
-> **Note**
+> **Nota**
 >
-> Pour les commandes shell executées après le démarrage vous avez le tag #interface# pour le nom de l'interface automatiquement remplacé
+> Para los comandos de shell ejecutados después del inicio, tiene la etiqueta #interface# para el nombre de la interfaz reemplazado automáticamente
 
-En-dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de pedidos :
 
--   **Nom** : le nom affiché sur le dashboard,
+-   **Nombre** : el nombre que se muestra en el tablero,
+-   **Mostrar** : permite mostrar los datos en el tablero,
+-   **Probar** : Se usa para probar el comando
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
-
--   **Tester** : permet de tester la commande
-
-> **Note**
+> **Nota**
 >
-> Jeedom va vérifier toutes les 15 minutes si le VPN est bien démarré ou
-> arreté (s’il le faut) et agir en conséquence si ce n’est pas le cas
+> Jeedom verificará cada 15 minutos si la VPN se inicia o detiene (si es necesario) y actuará en consecuencia si no es así

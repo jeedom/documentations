@@ -1,113 +1,80 @@
-Plugin pour commander les lampes Philips Hue.
+# Philips Hue plugin
+
+Plugin to integrate into the Philips Hue ecosystem.
 
 # Plugin configuration
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP
-de votre pont hue, si ce n’est pas déja fait par le système de
-découverte automatique.
+After downloading the plugin, you will need to enter the IP address of your hue bridge, if not already done by the automatic discovery system.
 
-# Device configuration
+# Equipment configuration
 
-> **Note**
+> **NOTE**
 >
-> Vous aurez toujours un équipement "Toutes les lampes" qui correspond
-> en faite au groupe 0 qui existe tout le temps
+> You will always have "All lamps" equipment which actually corresponds to group 0 which exists all the time
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Hue** : nom de votre équipement Hue,
+-   **Name de l'équipement Hue** : name of your Hue equipment,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Category** : equipment categories (it can belong to several categories),
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard,
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment,
+Below you find the list of orders :
 
--   **Category**: categories of equipment (it may belong to
-    plusieurs catégories),
+-   **Name** : the name displayed on the dashboard,
+-   **Advanced configuration** : displays the command's advanced configuration window,
+-   **Options** : allows you to display or hide certain commands and / or log them
+-   **Test** : Used to test the command
 
--   **Enable**: to make your equipment active,
+# Group 0 (All lamps)
 
--   **Visible**: makes your equipment visible on the dashboard,
+Group 0 is a bit special because it cannot be deleted or modified, it necessarily drives all the lamps and it is also it that carries the scenes.
 
-Below you will find the list of commands:
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Configuration avancé** : permet d’afficher la fenetre de
-    configuration avancée de la commande,
-
--   **Options** : vous permet d’afficher ou de masquer certaines
-    commandes et/ou d’en historiser
-
--   **Test**: allows to test the command
-
-# Le groupe 0 (Toute les lampes)
-
-Le groupe 0 est un peu particulier car il ne peut être supprimé ou
-modifié, il pilote forcement toute les lampes et c’est aussi lui qui
-porte les scénes.
-
-En effet vous pouvez faire des "scenes" sur les Philips Hue. Celle-ci
-doivent absolument être faite à partir de l’application mobile
-(impossible de les faire dans Jeedom). Et suite à l’ajout d’une scene
-vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant
-simple la configuration du plugin)
+Indeed you can make "scenes" on Philips Hue. These must absolutely be done from the mobile application (impossible to do them in Jeedom). And following the addition of a scene you must absolutely synchronize Jeedom with the correct one (by simply saving the configuration of the plugin)
 
 # Tansition
 
-Commande un peu particulier qui doit être utilisée dans un scénario,
-elle permet de dire la transistion entre l’état actuel et la prochaine
-commande doit durée X secondes.
+Command a little particular which must be used in a scenario, it makes it possible to say the transition between the current state and the next command must duration X seconds.
 
-Par exemple le matin vous pouvez vouloir simuler le levé du soleil en 3
-minutes. Dans votre scénario vous avez donc juste à appeller la commande
-transition et en parametre mettre 180, ensuite appeller la commande
-couleur vers la couleur voulu.
+For example in the morning you may want to simulate the sunrise in 3 minutes. In your scenario you therefore just have to call the transition command and in parameter set 180, then call the color command towards the desired color.
 
 # Animation
 
-Les animations sont des enchainements de transition, actuellement il
-existe :
+The animations are transition sequences, currently there are :
 
--   sunrise : pour simuler un levé de soleil. Il peut prendre en
-    parametre :
+-   sunrise : to simulate a sunrise. It can take as a parameter :
+    -   duration : to define the duration, by default 720s, ex for 5min you have to put : duration=300
+-   sunset : to simulate a sunset. It can take as a parameter :
+    -   duration : to define the duration, by default 720s, ex for 5min you have to put : duration=300
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+# Remote control button
 
--   sunset : pour simuler un couché de soleil. Il peut prendre en
-    parametre :
+Here is the list of codes for the buttons :
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+- 1002 for the On button
+- 2002 for the increase button
+- 3002 for the minimize button
+- 4002 for the off button
 
-# Bouton télécommande
+The same with XXX0 for the key pressed, XXX1 for the key held and XXX2 for the key released.
 
-Voici la liste des code pour les boutons :
+Here are the sequences for the On button for example :
 
-- 1002 pour le bouton On
-- 2002 pour le bouton augmenter
-- 3002 pour le bouton réduire
-- 4002 pour le bouton off
-
-La même chose avec XXX0 pour la touche appuyée, XXX1 pour la touche maintenue et XXX2 pour la touche relachée.
-
-Voici les séquence pour le bouton On par exemple :
-
-- Appui court : Lors de l'appui on passe sur 1000 et quand on relâche on passe sur 1002
-- Appui Long : Lors de l'appui on passe sur 1000, durant l'appui on passe sur 1001, quand on relâche on passe sur 1002
+- Short press : When pressed we go to 1000 and when we release we go to 1002
+- Long press : During the press we pass on 1000, during the press we pass on 1001, when we release we pass on 1002
 
 # FAQ
 
-> **J’ai l’impression qu’il y a un décalage sur certaine couleur entre ce que je demande et la couleur de l’ampoule.**
+> **I have the impression that there is a difference in certain color between what I ask and the color of the bulb.**
 >
-> Il semble que la grille de couleur des ampoules aient un offset,nous cherchons comment corriger
+> It seems that the color grid of the bulbs has an offset, we are looking for how to correct
 
-> **Quelle est la fréquence de rafraîchissement ?**
+> **What is the refresh rate ?**
 >
-> Le systeme recupère les informations toutes les 2s.
+> The system retrieves information every 2s.
 
-> **Mon équipement (lampe/interrupteur....) n'est pas reconnu par le plugin, comment faire ?**
+> **My equipment (lamp / switch ....) is not recognized by the plugin, how to do ?**
 >
-> Il faut :
-> - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci
-​> - nous envoyer le log en debug de la synchronisation avec le pont
-> Le tout en nous contactant par une demande de support
+> It is necessary :
+> - write us the equipment you want to add with photo and possibilities of it - send us the log debug of synchronization with the bridge while contacting us with a support request

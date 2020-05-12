@@ -1,76 +1,50 @@
-Plugin permettant d’envoyer des SMS et de passer des appels avec
-messages automatiques à partir de Jeedom.
+# Plugin Market Phone
 
-> **Important**
+Plug-in para enviar SMS e fazer chamadas com mensagens automáticas da Jeedom.
+
+> **IMPORTANTE**
 >
-> Ce plugin passe par le market c’est donc un service cloud qui
-> nécessite une connexion internet pour fonctionner.
+> Este plugin percorre o mercado, por isso é um serviço em nuvem que requer uma conexão com a Internet para funcionar.
 
-> **Tip**
+> **Dica**
 >
-> Le plugin marche sur un système de crédit, 1 SMS  = 1 crédit pour la France sinon 2 crédits, 1 appel =
-> 2 crédits pour la France sinon 4 crédits. Vous pouvez consulter votre crédit
-> [ici](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En cas
-> de crédits faibles (moins de 5), un mail vous sera envoyé.
+> O plug-in funciona em um sistema de crédito, 1 SMS = 1 crédito para a França, caso contrário, 2 créditos, 1 chamada = 2 créditos para a França, caso contrário, 4 créditos. Você pode verificar seu crédito [aqui](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). No caso de créditos baixos (menos de 5), um e-mail será enviado a você.
 
-> **Important**
+> **IMPORTANTE**
 >
-> Les SMS sont limités à 140 caractères et les appels à 450 caractères.
+> As mensagens de texto são limitadas a 140 caracteres e as chamadas a 450 caracteres.
 
-Configuration du plugin 
-=======================
+# Configuração do plugin 
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
 ![phonemarket1](../images/phonemarket1.PNG)
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-La configuration des équipements Phonemarket est accessible à partir du
-menu plugin :
+A configuração do equipamento Phonemarket pode ser acessada no menu do plugin :
 
 ![phonemarket2](../images/phonemarket2.PNG)
 
-Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
-équipement) :
+É assim que a página do plugin Phonemarket se parece (aqui com 1 dispositivo já) :
 
 ![phonemarket3](../images/phonemarket3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![phonemarket4](../images/phonemarket4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Phonemarket** : nom de votre équipement
-    Phonemarket,
+-   **Nome de l'équipement Phonemarket** : nome do seu equipamento Phonemarket,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel.
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+Abaixo você encontra a lista de pedidos :
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : rend votre équipement visible sur le dashboard.
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Type** : type de commande (appels ou sms),
-
--   **Numéro** : numéro de téléphone qui doit être appelé ou à qui un
-    SMS doit être envoyé (en fonction du type),
-
--   **Tester** : permet de tester la commande,
-
--   **Supprimer** (signe -) : permet de supprimer la commande.
-
-
+-   **Nome** : o nome exibido no painel,
+-   **Tipo** : tipo de pedido (chamadas ou sms),
+-   **Número** : número de telefone a ser chamado ou para quem um SMS deve ser enviado (dependendo do tipo),
+-   **Teste** : permite testar o comando,
+-   **Remover** (sinal -) : permite excluir o comando.

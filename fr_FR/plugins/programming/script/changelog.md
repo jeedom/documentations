@@ -1,3 +1,13 @@
+# Changelog Script
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 12/05/2020
+
+- Possibilité d'ajouter un délai de mise à jour des commandes d'information suite à une action
+
 # 31/03/2020
 
 - Correction de bugs

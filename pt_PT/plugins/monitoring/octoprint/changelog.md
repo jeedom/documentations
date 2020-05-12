@@ -1,13 +1,19 @@
+# Changelog Octoprint
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 23/10/2019
 
-- Support php 7.3
-- Support jeedom v4
+- Suporte PHP 7.3
+- Suporte Jeedom v4
 
 # 29/10/2018
 
-- Correction comamnde shutdown restart et reboot
+- Correção comamnde shutdown restart and reboot
 
-# 01/03/2018
+# 01/01/2018
 
 - Initialisation
 

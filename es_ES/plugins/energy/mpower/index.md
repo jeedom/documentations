@@ -1,48 +1,29 @@
-Description 
-===========
+# Complemento Mpower
 
-Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet
-de voir toutes les infos :
+Este complemento le permite controlar sus múltiples enchufes Mpower. El widget te permite ver toda la información : Estado Consumo eléctrico Voltaje actual y factor de potencia
 
-Etat Puissance Consommation Courant Voltage et Facteur de puissance
+Los datos se actualizan cada 15 minutos y después de una acción de jeedom
 
-Les données sont rafraîchies toutes les 15 minutes et après une action
-depuis jeedom
+# Configuración del plugin
 
-configuración del plugin
-=======================
+Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
-Después de descargar el plugin, sólo hay que activarlo,
-no hay ninguna configuración a este nivel.
+# Configuración del equipo
 
-Configuración del dispositivo
-=============================
+Vaya al menú Plugins / Energía, allí encontrará el pluginMpower
 
-Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
-Mpower
+Aquí encontrarás toda la configuración de tu equipo :
 
-Aquí encontrará toda la configuración de su dispositivo:
+-   **Nombre del equipo Modo** : nombre de su equipo Modo,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **Categoría** : categorías de equipos (puede pertenecer a varias categorías).
+-   **Dirección IP** : dirección IP de socket
+-   **Login** : login login (ubnt predeterminado)
+-   **Contraseña** : contraseña (ubnt predeterminada)
+-   **Toma el número** : número de salida (comienza en 1)
 
--   ** ** Nombre del dispositivo Modo: Modo nombre de su equipo,
-
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
-
--   ** ** Activar: para que su equipo activo,
-
--   ** ** visible hace que su equipo visible en el salpicadero,
-
--   ** ** Categoría: categorías de equipos (que pueden pertenecer a
-    la mayoría de categorías).
-
--   **Adresse IP** : addresse IP de la prise
-
--   **Login** : login de connexion (par defaut ubnt)
-
--   **Mot de passe** : mot de passe (par defaut ubnt)
-
--   **Numéro de prise** : numéro de la prise (commence à 1)
-
-> **Note**
+> **Nota**
 >
-> Il faut faire un équipement par prise
+> Se debe llevar un equipo por tomacorriente

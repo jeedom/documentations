@@ -1,8 +1,14 @@
-# 07/08/2019
+# Changelog Phone market
 
-- Mise à jour de la doc
-- Correction pour php 7.3
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 07/07/2019
+
+- Atualizando o documento
+- Correção para php 7.3
 
 # 29/04/2019
 
-- Amélioration de l'interface
+- Interface melhorada

@@ -1,186 +1,99 @@
-Description 
-===========
+# Sarah plugin
 
-Plugin permettant à Jeedom de communiquer avec l’application S.A.R.A.H
-(reconnaissance vocale). D’effectuer des annonces vocales et de jouer
-des sons à partir de Jeedom.
+Plug-in que permite ao Jeedom se comunicar com o aplicativo SARAH (reconhecimento de voz). Faça anúncios de voz e reproduza sons do Jeedom.
 
-Configuration 
-=============
+# Configuração 
 
-Le plugin S.A.R.A.H. ajoute la reconnaissance vocale permettant de
-parler à Jeedom, faire une annonce ou jouer un son à partir de Jeedom.
+O plugin SARAH adiciona reconhecimento de voz para falar com o Jeedom, fazer um anúncio ou tocar um som do Jeedom.
 
-Configuration du plugin 
------------------------
+## Configuração do plugin 
 
-Une fois le plugin S.A.R.A.H. installé sur Jeedom à partir du Market,
-cliquez sur **Activer**.
+Depois que o plug-in SARAH estiver instalado no Jeedom no Market, clique em **Ativar**.
 
-Configurer le nom de Sarah (par défaut **Sarah**, mais vous pouvez
-mettre Jarvis ou Jeedom par exemple).
+Configure o nome de Sarah (padrão **Sarah**, mas você pode colocar Jarvis ou Jeedom, por exemplo).
 
 ![sarah1](../images/sarah1.PNG)
 
-Ensuite, cliquez sur l’un des boutons afin de télécharger le plugin
-**Jeedom** pour la version de S.A.R.A.H. que vous utilisez, v3 ou v4.
+Em seguida, clique em um dos botões para baixar o plugin **Jeedom** para a versão do SARAH que você está usando, v3 ou v4.
 
-Une fois téléchargé, arrêtez le Serveur et Client S.A.R.A.H..
-Décompressez l’archive dans le dossier **plugins** de S.A.R.A.H. sur le
-poste client (compatible Windows uniquement) :
+Após o download, pare o servidor e o cliente SARAH Descompacte o arquivo na pasta **Plugins** SARAH no computador cliente (apenas compatível com Windows) :
 <http://encausse.wordpress.com/s-a-r-a-h/>
 
-Quand c’est fait, vous pouvez redémarrer le client et le serveur
-S.A.R.A.H..
+Quando terminar, você pode reiniciar o cliente e o servidor SARAH..
 
-Configuration des équipements 
------------------------------
+## Configuração do equipamento 
 
-La configuration des équipements S.A.R.A.H. est accessible à partir du
-menu Plugins :
+A configuração do equipamento SARAH pode ser acessada no menu Plugins :
 
 ![sarah2](../images/sarah2.PNG)
 
-Voilà à quoi ressemble la page du plugin S.A.R.A.H. (Ici, avec déjà 1
-équipement) :
+É assim que a página do plugin SARAH se parece (aqui, com 1 equipamento já) :
 
 ![sarah3](../images/sarah3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![sarah4](../images/sarah4.PNG)
 
-Vous retrouvez ici :
+Você encontra aqui :
 
--   **Nom de l’équipement S.A.R.A.H** : nom de votre équipement
-    S.A.R.A.H.,
+-   **Nome do equipamento SARAH** : nome do seu equipamento SARAH.,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
+-   **Ativar** : torna seu equipamento ativo,
+-   **Endereço NodeJS** : Porta do nó SARAH IP + JS (por padrão, a porta é 8080)
+-   **Endereço TTS** : Porta do servidor SARAH IP + TTS (a porta padrão é 8888)
+-   **Não relate um erro se SARAH não estiver lá** : Verifique se o SARAH não é iniciado continuamente
 
--   **Objet parent** : indique l’objet parent auquel
-    appartient l’équipement.
+Cada equipamento do tipo SARAH também cria um pedido :
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Adresse du nodeJS** : IP de S.A.R.A.H. + port du node JS (par
-    défaut le port est le 8080)
-
--   **Adresse du TTS** : IP de S.A.R.A.H. + port du serveur TTS (par
-    défaut le port est le 8888)
-
--   **Ne pas remonter d’erreur si S.A.R.A.H. n’est pas là** : A cocher
-    si S.A.R.A.H. n’est pas démarré en permanence
-
-Chaque équipement de type S.A.R.A.H. crée aussi une commande :
-
--   **Dit** : Qui permet dans les scénarios de faire dire un texte
-    à Jeedom. Il est possible d’annoncer une phrase de manière aléatoire
-    en séparant vos phrases par un pipe : | Exemple : La porte d’entrée
-    est ouverte.|Une personne a ouvert la porte d’entrée.|Porte d’entrée
-    ouverte. Ainsi, lors de l’annonce, une de ses 3 phrases sera choisie
-    au hasard.
-
--   **Jouer** : Qui permet d’exécuter un fichier audio de type .mp3
-    ou .wav. Ces fichiers audio doivent être placés pour la **v3** :
-    dans le dossier **"medias"** à la racine ou **v4** : dans le dossier
-    **"client/medias"** de votre application S.A.R.A.H. Dans votre
-    scénario, il suffira d’indiquer le nom de votre fichier audio
-    à exécuter.
+-   **Disse** : O que permite que, nos cenários, digamos um texto para Jeedom. É possível anunciar uma frase aleatoriamente, separando-as com um tubo : | Exemplo : A porta da frente está aberta.|Uma pessoa abriu a porta da frente.|Porta de entrada aberta. Assim, durante o anúncio, uma de suas três frases será escolhida aleatoriamente.
+-   **Reproduzir** : O que permite executar um arquivo de áudio do tipo .mp3 ou .wav. Esses arquivos de áudio devem ser colocados para o **v3** : na pasta **"medias"** na raiz ou **v4** : na pasta **"cliente / mídia"** do seu aplicativo SARAH No seu cenário, basta indicar o nome do seu arquivo de áudio a ser executado.
 
 ![sarah5](../images/sarah5.PNG)
 
--   **Mettre à jour la grammaire** : Qui permet par l’intermédiaire d’un
-    scénario, de regénérer la grammaire XML à partir des
-    interactions Jeedom.
+-   **Atualizar gramática** : O que permite, por meio de um cenário, regenerar a gramática XML das interações Jeedom.
 
-Le bouton "synchroniser" permet d’envoyer à S.A.R.A.H. la liste de
-toutes les interactions, il faut le faire à chaque mise à jour des
-interactions.
+O botão "sincronizar" permite enviar para a SARAH a lista de todas as interações, isso deve ser feito sempre que as interações forem atualizadas.
 
-Si vous désirez utiliser la fonction **Ask** de S.A.R.A.H., il est
-possible de le faire à partir d’un scénario Jeedom en utilisant une
-action "**Faire une Demande**".
+Se você deseja usar a função **Ask** do SARAH, é possível fazer isso a partir de um cenário Jeedom usando uma ação "**Aplicar**".
 
-Voici un simple exemple d’utilisation :
+Aqui está um exemplo simples de uso :
 
 ![sarah6](../images/sarah6.PNG)
 
-Quand vous aurez ajouté la commande action "**Faire une Demande**", vous
-allez voir apparaitre 5 champs à complèter :
+Quando você adiciona o comando action "**Aplicar**", você verá 5 campos que parecem estar preenchidos :
 
--   **Question** : La question que vous désirez que Jeedom vous pose.
+-   **Pergunta** : A pergunta que você deseja que o Jeedom faça.
+-   **Réponse** : A escolha das respostas que você deseja interagir após a pergunta. Cada resposta deve ser separada por ponto e vírgula.
+-   **Variável** : Esse será o nome da variável na qual você gostaria que sua resposta fosse registrada, para que você possa fazer uma avaliação para o restante do cenário.
+-   **Atraso (s)** : É o tempo em segundos, antes que o cenário continue a realizar a avaliação, se nenhuma resposta for fornecida (Tempo limite).
+-   **Comandos** : Será ordem "**Disse**" do seu equipamento SARAH.
 
--   **Réponse** : Les choix de réponses que vous désirez pour pouvoir
-    interagir suite à la question. Chaque réponse doit être séparée par
-    un point virgule.
+# Configuração no SARAH. 
 
--   **Variable** : Ce sera le nom de la variable dans laquelle vous
-    aimeriez que votre réponse soit enregistrée, afin de pouvoir faire
-    une évaluation pour la suite du scénario.
+Na interface SARAH, você deve ter um Portlet com o logotipo **Jeedom**.
 
--   **Délai(sec)** : C’est Le temps en seconde, avant que le scénario
-    continue pour effectuer l’évaluation, si aucune réponse n’est
-    donnée (Timeout).
+**SARAH v3** :
 
--   **Commandes** : Sera la commande "**Dit**" de votre
-    équipement SARAH.
+Clique nas setas duplas na parte superior do Portlet para girar a imagem para o resto, clique na tecla na parte inferior esquerda do Portlet para acessar a janela de configuração do Plug-in.
 
-Configuration dans S.A.R.A.H. 
------------------------------
+**SARAH v4** :
 
-Sur l’interface de S.A.R.A.H., vous devriez avoir un Portlet avec le
-Logo **Jeedom**.
+Clique na roda estrela na parte inferior do Portlet e, em seguida, em **Configure a extensão** para acessar a janela de configuração do plug-in.
 
-**S.A.R.A.H. v3** :
+Dans **addrJeedom**, substituir **\ [IP\_JEEDOM \]** pelo IP do seu Jeedom e substitua **\ [PORT\_JEEDOM \]**, vestindo seu Jeedom. Se o seu Jeedom usa a extensão **/ jeedom**, não se esqueça de indicá-lo após o uso.
 
-Cliquez sur les doubles flèches en haut du Portlet pour faire tourner
-l’image pour la suite, cliquer sur la clé en bas à gauche du Portlet
-pour accèder à la fenêtre de configuration du Plugin.
+Dans **apikeyJeedom**, substituir **\ [CLE\_API\_JEEDOM \]** pela chave API do seu Jeedom, que você pode encontrar na página Configuração do seu Jeedom.
 
-**S.A.R.A.H. v4** :
+E para finalizar, clique em Salvar.
 
-Cliquez sur la roue crantée en bas du Portlet et ensuite sur
-**Configurer l’extension** pour accèder à la fenêtre de configuration du
-plugin.
+# Casos de uso 
 
-Dans **addrJeedom**, remplacez **\[IP\_JEEDOM\]** par l’IP de votre
-Jeedom et remplacez **\[PORT\_JEEDOM\]**, par le port de votre Jeedom.
-Si votre Jeedom utilise l’extension **/jeedom**, n’oubliez pas de
-l’indiquer après le port.
+Exemplos :
 
-Dans **apikeyJeedom**, remplacez **\[CLE\_API\_JEEDOM\]** par la clef
-API de votre Jeedom que vous pouvez retrouver dans la page de
-Configuration de votre Jeedom.
+-   Cela peut vous permettre de connaître toutes les remontées d'informations des différents capteurs (type “Sarah combien fait-il dehors?” ou “Sarah qu'elle est la température de la chambre”).
+-   Vous pouvez également piloter les lumières (“Sarah allume la lumière du salon”), pour cela il faut bien sur avoir configuré les interactions.
+-   Uma pessoa pressiona o botão na campainha da porta sem fio (RF433, Z-wave, etc.), Jeedom emite um som via SARAH, anuncia a presença de um visitante e faz a pergunta ", então- Eu abro a porta ?".
+-   Sua máquina de lavar está na adega, o programa está concluído, SARAH emite um som "ding, dong" e anuncia que o programa terminou. Então ela faz a pergunta: "devo desligar a máquina de lavar ?".
 
-Et pour terminer, cliquez sur Enregistrer.
-
-Cas d’utilisation 
------------------
-
-Exemples :
-
--   Cela peut vous permettre de connaître toutes les remontées
-    d’informations des différents capteurs (type “Sarah combien fait-il
-    dehors?” ou “Sarah qu’elle est la température de la chambre”).
-
--   Vous pouvez également piloter les lumières (“Sarah allume la lumière
-    du salon”), pour cela il faut bien sur avoir configuré
-    les interactions.
-
--   Une personne appuie sur le bouton de la sonnette sans fil(RF433,
-    Z-wave, ets…​), Jeedom émet un son par l’intermédiaire de SARAH,
-    vous annonce la présence d’un visiteur et vous pose la question,
-    "puis-je ouvrir la porte ?".
-
--   Votre machine à laver se trouve à la cave, le programme est terminé,
-    SARAH joue un son "ding, dong" et vous annonce que le programme
-    est terminé. Ensuite, elle vous pose la question, "dois-je éteindre
-    la machine à laver ?".
-
--   Ets…​
-
-La seul limite sera votre imagination.
+O único limite será a sua imaginação.

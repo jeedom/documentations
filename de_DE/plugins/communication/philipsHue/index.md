@@ -1,113 +1,80 @@
-Plugin pour commander les lampes Philips Hue.
+# Philips Hue Plugin
+
+Plugin zur Integration in das Philips Hue-Ökosystem.
 
 # Plugin Konfiguration
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP
-de votre pont hue, si ce n’est pas déja fait par le système de
-découverte automatique.
+Nach dem Herunterladen des Plugins müssen Sie die IP-Adresse Ihrer Farbtonbrücke eingeben, sofern dies nicht bereits vom automatischen Erkennungssystem durchgeführt wurde.
 
-# Configuration des équipements
+# Gerätekonfiguration
 
-> **Note**
+> **Notiz**
 >
-> Vous aurez toujours un équipement "Toutes les lampes" qui correspond
-> en faite au groupe 0 qui existe tout le temps
+> Sie haben immer "Alle Lampen" Geräte, die tatsächlich der Gruppe 0 entsprechen, die ständig existiert
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Hue** : nom de votre équipement Hue,
+-   **Name de l'équipement Hue** : Name Ihrer Hue-Ausrüstung,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories),
+-   **Name** : Der im Dashboard angezeigte Name,
+-   **Erweiterte Konfiguration** : Zeigt das erweiterte Konfigurationsfenster des Befehls an,
+-   **Optionen** : Mit dieser Option können Sie bestimmte Befehle anzeigen oder ausblenden und / oder protokollieren
+-   **Test** : Wird zum Testen des Befehls verwendet
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+# Gruppe 0 (Alle Lampen)
 
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
+Gruppe 0 ist etwas Besonderes, da sie nicht gelöscht oder geändert werden kann, notwendigerweise alle Lampen antreibt und auch die Szenen trägt.
 
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Configuration avancé** : permet d’afficher la fenetre de
-    configuration avancée de la commande,
-
--   **Options** : vous permet d’afficher ou de masquer certaines
-    commandes et/ou d’en historiser
-
--   **Tester** : permet de tester la commande
-
-# Le groupe 0 (Toute les lampes)
-
-Le groupe 0 est un peu particulier car il ne peut être supprimé ou
-modifié, il pilote forcement toute les lampes et c’est aussi lui qui
-porte les scénes.
-
-En effet vous pouvez faire des "scenes" sur les Philips Hue. Celle-ci
-doivent absolument être faite à partir de l’application mobile
-(impossible de les faire dans Jeedom). Et suite à l’ajout d’une scene
-vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant
-simple la configuration du plugin)
+In der Tat können Sie "Szenen" auf Philips Hue machen. Diese müssen unbedingt über die mobile Anwendung erfolgen (in Jeedom nicht möglich). Und nach dem Hinzufügen einer Szene müssen Sie Jeedom unbedingt mit der richtigen synchronisieren (indem Sie einfach die Konfiguration des Plugins speichern)
 
 # Tansition
 
-Commande un peu particulier qui doit être utilisée dans un scénario,
-elle permet de dire la transistion entre l’état actuel et la prochaine
-commande doit durée X secondes.
+Befehl ein wenig speziell, der in einem Szenario verwendet werden muss, macht es möglich zu sagen, dass der Übergang zwischen dem aktuellen Status und dem nächsten Befehl X Sekunden dauern muss.
 
-Par exemple le matin vous pouvez vouloir simuler le levé du soleil en 3
-minutes. Dans votre scénario vous avez donc juste à appeller la commande
-transition et en parametre mettre 180, ensuite appeller la commande
-couleur vers la couleur voulu.
+Zum Beispiel möchten Sie am Morgen den Sonnenaufgang in 3 Minuten simulieren. In Ihrem Szenario müssen Sie daher nur den Übergangsbefehl und im Parametersatz 180 aufrufen und dann den Farbbefehl in Richtung der gewünschten Farbe aufrufen.
 
 # Animation
 
-Les animations sont des enchainements de transition, actuellement il
-existe :
+Die Animationen sind Übergangssequenzen, derzeit gibt es :
 
--   sunrise : pour simuler un levé de soleil. Il peut prendre en
-    parametre :
+-   Sonnenaufgang : einen Sonnenaufgang simulieren. Es kann als Parameter verwendet werden :
+    -   Dauer : Um die Dauer zu definieren, müssen Sie standardmäßig 720s, z. B. für 5 Minuten, eingeben : duration=300
+-   Sonnenuntergang : einen Sonnenuntergang simulieren. Es kann als Parameter verwendet werden :
+    -   Dauer : Um die Dauer zu definieren, müssen Sie standardmäßig 720s, z. B. für 5 Minuten, eingeben : duration=300
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+# Fernbedienungstaste
 
--   sunset : pour simuler un couché de soleil. Il peut prendre en
-    parametre :
+Hier ist die Liste der Codes für die Schaltflächen :
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+- 1002 für die Ein-Taste
+- 2002 für den Erhöhungsknopf
+- 3002 für die Minimierungstaste
+- 4002 für die Aus-Taste
 
-# Bouton télécommande
+Das gleiche gilt für XXX0 für die gedrückte Taste, XXX1 für die gehaltene Taste und XXX2 für die freigegebene Taste.
 
-Voici la liste des code pour les boutons :
+Hier sind zum Beispiel die Sequenzen für die Schaltfläche Ein :
 
-- 1002 pour le bouton On
-- 2002 pour le bouton augmenter
-- 3002 pour le bouton réduire
-- 4002 pour le bouton off
-
-La même chose avec XXX0 pour la touche appuyée, XXX1 pour la touche maintenue et XXX2 pour la touche relachée.
-
-Voici les séquence pour le bouton On par exemple :
-
-- Appui court : Lors de l'appui on passe sur 1000 et quand on relâche on passe sur 1002
-- Appui Long : Lors de l'appui on passe sur 1000, durant l'appui on passe sur 1001, quand on relâche on passe sur 1002
+- Kurz drücken : Wenn gedrückt, gehen wir zu 1000 und wenn wir loslassen, gehen wir zu 1002
+- Lange drücken : Während der Presse geben wir 1000 weiter, während der Presse geben wir 1001 weiter, wenn wir loslassen, geben wir 1002 weiter
 
 # FAQ
 
-> **J’ai l’impression qu’il y a un décalage sur certaine couleur entre ce que je demande et la couleur de l’ampoule.**
+> **Ich habe den Eindruck, dass es in bestimmten Farben einen Unterschied zwischen dem, was ich frage, und der Farbe der Glühbirne gibt.**
 >
-> Il semble que la grille de couleur des ampoules aient un offset,nous cherchons comment corriger
+> Es scheint, dass das Farbraster der Glühbirnen einen Versatz hat. Wir suchen nach einer Korrektur
 
-> **Quelle est la fréquence de rafraîchissement ?**
+> **Was ist die Bildwiederholfrequenz? ?**
 >
-> Le systeme recupère les informations toutes les 2s.
+> Das System ruft alle 2 Sekunden Informationen ab.
 
-> **Mon équipement (lampe/interrupteur....) n'est pas reconnu par le plugin, comment faire ?**
+> **Meine Ausrüstung (Lampe / Schalter ....) wird vom Plugin nicht erkannt ?**
 >
-> Il faut :
-> - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci
-​> - nous envoyer le log en debug de la synchronisation avec le pont
-> Le tout en nous contactant par une demande de support
+> Du musst :
+> - Schreiben Sie uns die Ausrüstung, die Sie hinzufügen möchten, mit Foto und Möglichkeiten - senden Sie uns das Protokoll-Debug der Synchronisation mit der Bridge, während Sie uns mit einer Support-Anfrage kontaktieren

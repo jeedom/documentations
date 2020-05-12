@@ -1,14 +1,28 @@
 {
-	"id" : "openvpn",
-	"name" : "Openvpn",
-	"description" : "Plugin permettant de gérer la connexion à un serveur openvpn",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3",
-	"category" : "communication",
-	"hasDependency" : true,
-	"changelog" : "https://jeedom.github.io/plugin-openvpn/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-openvpn/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]
+    "id": "openvpn",
+    "name": "Openvpn",
+    "description": "Plugin permettant de gérer la connexion à un serveur openvpn",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "communication",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/openvpn\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/openvpn\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }

@@ -1,113 +1,80 @@
-Plugin pour commander les lampes Philips Hue.
+# Philips Hue plugin
 
-# Configuration du plugin
+Plugin para integrar no ecossistema Philips Hue.
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP
-de votre pont hue, si ce n’est pas déja fait par le système de
-découverte automatique.
+# Configuração do plugin
 
-# Configuration des équipements
+Após o download do plug-in, você precisará inserir o endereço IP da sua ponte de matiz, se ainda não o tiver feito pelo sistema de descoberta automática.
 
-> **Note**
+# Configuração do equipamento
+
+> **NOTA**
 >
-> Vous aurez toujours un équipement "Toutes les lampes" qui correspond
-> en faite au groupe 0 qui existe tout le temps
+> Você sempre terá o equipamento "Todas as lâmpadas", que realmente corresponde ao grupo 0, que existe o tempo todo
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Hue** : nom de votre équipement Hue,
+-   **Nome de l'équipement Hue** : nome do seu equipamento Hue,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+Abaixo você encontra a lista de pedidos :
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Nome** : o nome exibido no painel,
+-   **Configuração avançada** : exibe a janela de configuração avançada do comando,
+-   **Opções** : permite exibir ou ocultar certos comandos e / ou registrá-los
+-   **Teste** : permite testar o comando
 
--   **Activer** : permet de rendre votre équipement actif,
+# Grupo 0 (todas as lâmpadas)
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+O grupo 0 é um pouco especial porque não pode ser excluído ou modificado, necessariamente aciona todas as lâmpadas e também é ele que carrega as cenas.
 
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Configuration avancé** : permet d’afficher la fenetre de
-    configuration avancée de la commande,
-
--   **Options** : vous permet d’afficher ou de masquer certaines
-    commandes et/ou d’en historiser
-
--   **Tester** : permet de tester la commande
-
-# Le groupe 0 (Toute les lampes)
-
-Le groupe 0 est un peu particulier car il ne peut être supprimé ou
-modifié, il pilote forcement toute les lampes et c’est aussi lui qui
-porte les scénes.
-
-En effet vous pouvez faire des "scenes" sur les Philips Hue. Celle-ci
-doivent absolument être faite à partir de l’application mobile
-(impossible de les faire dans Jeedom). Et suite à l’ajout d’une scene
-vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant
-simple la configuration du plugin)
+Na verdade, você pode fazer "cenas" no Philips Hue. Isso deve ser feito absolutamente a partir do aplicativo móvel (impossível fazê-lo no Jeedom). E após a adição de uma cena, você deve absolutamente sincronizar o Jeedom com a cena correta (simplesmente salvando a configuração do plugin)
 
 # Tansition
 
-Commande un peu particulier qui doit être utilisée dans un scénario,
-elle permet de dire la transistion entre l’état actuel et la prochaine
-commande doit durée X secondes.
+Comando um pouco específico que deve ser usado em um cenário, permite dizer que a transição entre o estado atual e o próximo comando deve durar X segundos.
 
-Par exemple le matin vous pouvez vouloir simuler le levé du soleil en 3
-minutes. Dans votre scénario vous avez donc juste à appeller la commande
-transition et en parametre mettre 180, ensuite appeller la commande
-couleur vers la couleur voulu.
+Por exemplo, de manhã, você pode simular o nascer do sol em 3 minutos. Portanto, no seu cenário, basta chamar o comando de transição e, no conjunto de parâmetros 180, chamar o comando color para a cor desejada.
 
 # Animation
 
-Les animations sont des enchainements de transition, actuellement il
-existe :
+As animações são sequências de transição, atualmente existem :
 
--   sunrise : pour simuler un levé de soleil. Il peut prendre en
-    parametre :
+-   nascer do sol : para simular um nascer do sol. Pode tomar como parâmetro :
+    -   duração : para definir a duração, por padrão 720s, ex por 5min, você deve colocar : duration=300
+-   pôr do sol : para simular um pôr do sol. Pode tomar como parâmetro :
+    -   duração : para definir a duração, por padrão 720s, ex por 5min, você deve colocar : duration=300
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+# Botão de controle remoto
 
--   sunset : pour simuler un couché de soleil. Il peut prendre en
-    parametre :
+Aqui está a lista de códigos para os botões :
 
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min
-        il faut mettre : duration=300
+- 1002 para o botão Ligar
+- 2002 para o botão de aumento
+- 3002 para o botão minimizar
+- 4002 para o botão desligar
 
-# Bouton télécommande
+O mesmo com XXX0 para a tecla pressionada, XXX1 para a tecla pressionada e XXX2 para a tecla liberada.
 
-Voici la liste des code pour les boutons :
+Aqui estão as sequências para o botão On, por exemplo :
 
-- 1002 pour le bouton On
-- 2002 pour le bouton augmenter
-- 3002 pour le bouton réduire
-- 4002 pour le bouton off
-
-La même chose avec XXX0 pour la touche appuyée, XXX1 pour la touche maintenue et XXX2 pour la touche relachée.
-
-Voici les séquence pour le bouton On par exemple :
-
-- Appui court : Lors de l'appui on passe sur 1000 et quand on relâche on passe sur 1002
-- Appui Long : Lors de l'appui on passe sur 1000, durant l'appui on passe sur 1001, quand on relâche on passe sur 1002
+- Pressão curta : Quando pressionado, vamos para 1000 e, quando liberamos, vamos para 1002
+- Pressão longa : Durante a imprensa, passamos a 1000, durante a imprensa, passamos a 1001, quando liberamos, passamos a 1002
 
 # FAQ
 
-> **J’ai l’impression qu’il y a un décalage sur certaine couleur entre ce que je demande et la couleur de l’ampoule.**
+> **Tenho a impressão de que há uma diferença em determinada cor entre o que peço e a cor da lâmpada.**
 >
-> Il semble que la grille de couleur des ampoules aient un offset,nous cherchons comment corriger
+> Parece que a grade de cores das lâmpadas tem um deslocamento, estamos procurando como corrigir
 
-> **Quelle est la fréquence de rafraîchissement ?**
+> **Qual é a taxa de atualização ?**
 >
-> Le systeme recupère les informations toutes les 2s.
+> O sistema recupera informações a cada 2s.
 
-> **Mon équipement (lampe/interrupteur....) n'est pas reconnu par le plugin, comment faire ?**
+> **Meu equipamento (lâmpada / interruptor ....) não é reconhecido pelo plug-in, como fazer ?**
 >
-> Il faut :
-> - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci
-​> - nous envoyer le log en debug de la synchronisation avec le pont
-> Le tout en nous contactant par une demande de support
+> Você deve :
+> - escreva-nos o equipamento que você deseja adicionar com a foto e as possibilidades - envie-nos o log de depuração da sincronização com a ponte enquanto nos contata com uma solicitação de suporte

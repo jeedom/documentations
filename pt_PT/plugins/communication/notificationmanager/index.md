@@ -1,65 +1,63 @@
-Ce plugin permet de gerer les notifications (reprise en case d'erreur, generation de texte...)
+# Plug-in do Notification Manager
 
-# Configuration du plugin
+Este plugin permite gerenciar notificações (recuperação em caso de erro, geração de texto ...)
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+# Configuração do plugin
 
-# Configuration des équipements
+Depois de baixar o plug-in, basta ativar o plug-in.
+
+# Configuração do equipamento
 
 ## Equipement
 
-La configuration des équipements Notification Manager est accessible à partir du menu
-Plugins puis Communication
+A configuração dos dispositivos do Notification Manager pode ser acessada no menu Plugins e depois em Communication. Você encontrará aqui a configuração do seu equipamento :
 
-Vous retrouverez ici la configuration de votre équipement :
-
-- Nom de l'équipement notifier : nom de l'équipement
-- Objet parent : son objet parent
+- Nome do equipamento a notificar : Nome de equipamentos
+- Objeto pai : seu objeto pai
 - Activer
 - Visible
 
 ## Commande
 
-C'est ici que vous allez pouvoir ajouter des commandes de notifications. Une fois ajouter pour chaque commande vous allez pouvoir definir les commandes de type message a utiliser dans l'ordre des prioritées.
+É aqui que você poderá adicionar comandos de notificação. Depois de adicionar para cada comando, você poderá definir os comandos do tipo de mensagem a serem usados em ordem de prioridade.
 
-Vous avez comme options :
+Você tem opções :
 
-- Test d'éxécution : permet d'ajouter un test avant l'execution de la notification, si le test est faux le plugin ne fera rien, si il est vrai alors il executera les notification dans l'ordre de prioritées jusqu'a trouver une qui marche. Si le champs est vide alors le test est ignoré.
+- Teste de execução : permite adicionar um teste antes da execução da notificação, se o teste for falso, o plug-in não fará nada, se for verdade, executará as notificações na ordem das prioridades até encontrar uma que funcione. Se o campo estiver vazio, o teste será ignorado.
 
-> **NOTE**
+> **NOTA**
 >
-> Vous avez aussi un test par commande dans la notification
+> Você também tem um teste por pedido na notificação.
 
 
-**Exemple simple**
+**Exemplo simples**
 
-Exemple vous pouvez mettre en premier une commande de type Slack puis une commande de type SMS. Si l'envoi par Slack ne marche pas alors il envera le message sur SMS
+Exemplo, você pode colocar um comando do tipo Slack primeiro e depois um comando do tipo SMS. Se o envio pelo Slack não funcionar, ele enviará a mensagem por SMS.
 
-**Exemple plus complexe**
+**Exemplo mais complexo**
 
-Exemple vous pouvez mettre en premier une commande de type Slack et une commande SMS (dans la meme case séparé par des &&), puis mail. Lors de l'utilisation le plugin va d'abord envoyé le message sur Slack et SMS, si les deux ne marchent pas alors il enverra par mail
+Exemplo: você pode colocar um comando do tipo Slack e um comando do SMS primeiro (na mesma caixa separada por &&) e enviar por e-mail. Ao usar o plug-in, a mensagem será enviada primeiro no Slack e no SMS; se os dois não funcionarem, será enviada por email.
 
-# Génération de texte
+# Geração de texto
 
-Le plugin offre aussi une possibilité de generation de texte pour que les messages ne soit pas toujours les meme. Le systeme est le meme que pour les interactions :
-- [Coucou\|Salut] ca va ? => Donnera soit "Coucou ca va ?" ou  "Salut ca va ?"
+O plugin também oferece a possibilidade de geração de texto para que as mensagens nem sempre sejam as mesmas. O sistema é o mesmo que para interações :
 
-# Texte conditionnel
+- [Olá]|Oi] tudo bem ? => Vai dar um "Oi, tudo bem?" ou "Olá, como você está? ?"
 
-Vous pouvez aussi mettre du texte conditionnel sous la forme {(test) ? vrai : faux}.
+# Texto condicional
 
-> **IMPORTANT**
+Você também pode colocar texto condicional no formato {(teste) ? Real : faux}.
+
+> **IMPORTANTE**
 >
-> Il faut absolument mettre le test (la condition) entre parenthèse
+> É absolutamente necessário colocar o teste (a condição) entre parênteses
 
-Voici un exemple pour la méteo du matin avec texte conditionnel et génération de texte :
+Aqui está um exemplo para o clima da manhã com texto condicional e geração de texto :
 
-\[Bonjour\|Salut\|Coucou\] \[j'espères que tu as bien dormis ?\|bien dormis ?\|ça va ?\] . \[Aujourd'hui il fera\|Aujourd'hui le temps sera\|La météo annonce\] \#[Maison\]\[Météo\]\[Condition\]\# \[et la température sera de\|avec\] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \[oula il va faire froid\|oula il caille\]: } \#\[Maison\]\[Météo\]\[Température Max\]\# degrés.
+\ [Olá \|Salut\|Oi \] \ [Espero que você tenha dormido bem ?\|dormi bem ?\|como vai ?\] . \ [Hoje será \|Hoje o tempo estará \|Previsão do tempo \] \#[Maison\]\[Météo\]\[Condition\]\# \ [e a temperatura será \|com \] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \ [oula estará frio \|oula ele coça \]: } \#\[Maison\]\[Météo\]\[Température Max\]\# graus.
 
-FAQ
-===
+# FAQ
 
->**Le plugin gere t-il ask ?**
+>**O plug-in gerencia perguntar ?**
 >
->Oui le plugin gere le ask.
+>Sim, o plug-in gerencia a pergunta.

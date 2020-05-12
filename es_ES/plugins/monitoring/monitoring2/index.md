@@ -1,186 +1,186 @@
-Plugin permet de monitorer des systèmes, il possede plusieurs moteur CLI (bash), SNMP, ping et URL
+# Complemento de monitoreo
 
-> **IMPORTANT**
+El complemento permite monitorear sistemas, tiene varios motores CLI (bash), SNMP, ping y URL
+
+> **Importante**
 >
-> Ce plugin est assez complexe et necessite donc de bien lire la documentation et quelques connaissance. IL N'EST PAS PLUG AND PLAY
+> Este complemento es bastante complejo y, por lo tanto, necesita leer la documentación y algunos conocimientos. NO ES ENCHUFE Y JUEGA
 
-# Configuration 
+# Configuration
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+Después de descargar el complemento, simplemente deberá activar el complemento
 
 # Equipements
 
-La configuration des équipements Monitoring est accessible à partir du menu
-Plugins puis Monitoring
+Se puede acceder a la configuración del equipo de Monitoreo desde el menú Complementos y luego Monitoreo
 
-- Nom de l'équipement
-- Objet parent
-- Catégorie
+- Nombre del equipo
+- Objeto padre
+- Categoría
 - Activer
 - Visible
-- Fréquence de mise à jour : sous format cron (ex */15 * * * *)
-- Moteur : moteur à activer pour l'équipement en question.
-- Paramètres Bash/Shell
-		- Mode : local ou distant (si local il n'y a rien d'autre à remplir)
+- Frecuencia de actualización : en formato cron (ex \*/ 15 \* \* \* \*)
+- Motor : motor para activar el equipo en cuestión.
+- Configuración de Bash / Shell
+		- Modo : local o remoto (si es local no hay nada más que completar)
 		- IP
-		- Nom d'utilisateur
-		- Mot de passe
-- Paramètres SNMP
+		- Nombre de usuario
+		- Contraseña
+- Configuración de SNMP
 		- IP
 		- Protocole
-		- Nom d'utilisateur 
-		- Mot de passe
-		- Authentification mode
-		- Sécurité 
-		- Priv protocole 
-		- Priv passphrase 
-- Paramètres ping
-		- IP 
+		- Nombre de usuario
+		- Contraseña
+		- Autenticación de moda
+		- Seguridad
+		- Protocolo privado
+		- Frase de contraseña Priv
+- Configuración de ping
+		- IP
 
 # Moteur
 
-SNMP 
+SNMP
 ----
 
-Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer des valeurs. Ci dessous les exemple de OID SNMP
+El motor SNMP le permite conectarse a máquinas en SNMP y recuperar valores. Debajo del ejemplo de SNMP OID
 
-### OIDs général 
+### OID generales
 
-#### Load 
+#### Load
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.2021.10.1.3.1           | 1 minute Load                        |
-| .1.3.6.1.4.1.2021.10.1.3.2           | 5 minute Load                        |
-| .1.3.6.1.4.1.2021.10.1.3.3           | 15 minute Load                       |
+| .1.3.6.1.4.1.2021.10.1.3.1           | 1 minuto de carga                        |
+| .1.3.6.1.4.1.2021.10.1.3.2           | 5 minutos de carga                        |
+| .1.3.6.1.4.1.2021.10.1.3.3           | 15 minutos de carga                       |
 
-#### CPU 
+#### CPU
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.2021.11.9.0             | Percentage of user CPU time          |
-| .1.3.6.1.4.1.2021.11.50.0            | Raw user cpu time                    |
-| .1.3.6.1.4.1.2021.11.10.0            | Percentages of system CPU time       |
-| .1.3.6.1.4.1.2021.11.52.0            | Raw system cpu time                  |
-| .1.3.6.1.4.1.2021.11.11.0            | Percentages of idle CPU time         |
-| .1.3.6.1.4.1.2021.11.53.0            | Raw idle cpu time                    |
-| .1.3.6.1.4.1.2021.11.51.0            | Raw nice cpu time                    |
+| .1.3.6.1.4.1.2021.11.9.0             | Porcentaje de tiempo de CPU del usuario          |
+| .1.3.6.1.4.1.2021.11.50.0            | Tiempo de CPU de usuario sin procesar                    |
+| .1.3.6.1.4.1.2021.11.10.0            | Porcentajes de tiempo de CPU del sistema       |
+| .1.3.6.1.4.1.2021.11.52.0            | Tiempo de CPU del sistema sin procesar                  |
+| .1.3.6.1.4.1.2021.11.11.0            | Porcentajes de tiempo de CPU inactivo         |
+| .1.3.6.1.4.1.2021.11.53.0            | Tiempo de CPU inactivo sin procesar                    |
+| .1.3.6.1.4.1.2021.11.51.0            | Tiempo agradable agradable de la CPU                    |
 
-#### Memory Statistics 
+#### Estadísticas de memoria
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.2021.4.3.0              | Total Swap Size                      |
-| .1.3.6.1.4.1.2021.4.4.0              | Available Swap Space                 |
-| .1.3.6.1.4.1.2021.4.5.0              | Total RAM in machine                 |
-| .1.3.6.1.4.1.2021.4.6.0              | Total RAM free                       |
-| .1.3.6.1.4.1.2021.4.11.0             | Total RAM used                       |
-| .1.3.6.1.4.1.2021.4.13.0             | Total RAM Shared                     |
-| .1.3.6.1.4.1.2021.4.14.0             | Total RAM Buffered                   |
-| .1.3.6.1.4.1.2021.4.15.0             | Total Cached Memory                  |
+| .1.3.6.1.4.1.2021.4.3.0              | Tamaño total de intercambio                      |
+| .1.3.6.1.4.1.2021.4.4.0              | Espacio de intercambio disponible                 |
+| .1.3.6.1.4.1.2021.4.5.0              | RAM total en la máquina                 |
+| .1.3.6.1.4.1.2021.4.6.0              | RAM total libre                       |
+| .1.3.6.1.4.1.2021.4.11.0             | RAM total utilizada                       |
+| .1.3.6.1.4.1.2021.4.13.0             | RAM total compartida                     |
+| .1.3.6.1.4.1.2021.4.14.0             | RAM total almacenada                   |
+| .1.3.6.1.4.1.2021.4.15.0             | Memoria total en caché                  |
 
-#### Disk 
+#### Disk
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.2021.9.1.2.X            | Path where the disk is mounted       |
-| .1.3.6.1.4.1.2021.9.1.3.X            | Path of the device for the partition |
-| .1.3.6.1.4.1.2021.9.1.6.X            | Total size of the disk/partion (kBytes)                             |
-| .1.3.6.1.4.1.2021.9.1.7.X            | Available space on the disk          |
-| .1.3.6.1.4.1.2021.9.1.8.X            | Used space on the disk               |
-| .1.3.6.1.4.1.2021.9.1.9.X            | Percentage of space used on disk     |
-| .1.3.6.1.4.1.2021.9.1.10.X           | Percentage of inodes used on disk    |
+| .1.3.6.1.4.1.2021.9.1.2.X            | Ruta donde se monta el disco       |
+| .1.3.6.1.4.1.2021.9.1.3.X            | Ruta del dispositivo para la partición |
+| .1.3.6.1.4.1.2021.9.1.6.X            | Tamaño total del disco / partición (kBytes)                             |
+| .1.3.6.1.4.1.2021.9.1.7.X            | Espacio disponible en el disco          |
+| .1.3.6.1.4.1.2021.9.1.8.X            | Espacio usado en el disco               |
+| .1.3.6.1.4.1.2021.9.1.9.X            | Porcentaje de espacio utilizado en el disco     |
+| .1.3.6.1.4.1.2021.9.1.10.X           | Porcentaje de inodes utilizados en el disco    |
 
-#### System 
+#### System
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.2.1.1.3.0                   | System Uptime                        |
+| .1.3.6.1.2.1.1.3.0                   | Tiempo de actividad del sistema                        |
 
-### OIDs VMware 
+### OID de VMware
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.2.1.25.2.3.1.6.6            | Utilisation mémoire                  |
-| .1.3.6.1.4.1.6876.1.2.0              | Version de VMware                    |
+| .1.3.6.1.2.1.25.2.3.1.6.6            | Uso de la memoria                  |
+| .1.3.6.1.4.1.6876.1.2.0              | Versión de VMware                    |
 
-### OIDs Synology 
+### OID Synology
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.6574.1.5.1.0            | Modèle                               |
-| .1.3.6.1.4.1.6574.1.5.3.0            | Version DSM                          |
-| .1.3.6.1.4.1.6574.1.1.0              | Statut Système                       |
-| .1.3.6.1.4.1.6574.3.1.1.2.0          | Affiche l’état du RAID               |
-| .1.3.6.1.4.1.6574.1.4.2.0            | Fan CPU                              |
-| .1.3.6.1.4.1.6574.1.4.1.0            | Fan Système                          |
-| .1.3.6.1.4.1.2021.11.9.0             | Charge CPU                           |
-| .1.3.6.1.4.1.6574.1.2.0              | Temp Système                         |
-| .1.3.6.1.4.1.6574.2.1.1.5.X          | Status du disque X (commence à 0)    |
-| .1.3.6.1.4.1.6574.2.1.1.6.X          | Température du disque X (commence à  0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status du raid X (commence à 0)      |
-| .1.3.6.1.4.1.6574.6.1.1.3.1          | Nombre d’utilisateur connecté en CIFS                                 |
-| .1.3.6.1.4.1.6574.6.1.1.3.2          | Nombre d’utilisateur connecté en AFP |
-| .1.3.6.1.4.1.6574.6.1.1.3.3          | Nombre d’utilisateur connecté en NFS |
-| .1.3.6.1.4.1.6574.6.1.1.3.4          | Nombre d’utilisateur connecté en FTP |
-| .1.3.6.1.4.1.6574.6.1.1.3.5          | Nombre d’utilisateur connecté en SFTP                                 |
-| .1.3.6.1.4.1.6574.6.1.1.3.6          | Nombre d’utilisateur connecté en HTTP/HTTPS                           |
-| .1.3.6.1.4.1.6574.6.1.1.3.7          | Nombre d’utilisateur connecté en TELNET                               |
-| .1.3.6.1.4.1.6574.6.1.1.3.8          | Nombre d’utilisateur connecté en SSH |
-| .1.3.6.1.4.1.6574.6.1.1.3.9          | Nombre d’utilisateur connecté en OTHER                                |
+| .1.3.6.1.4.1.6574.1.5.1.0            | Modelo                               |
+| .1.3.6.1.4.1.6574.1.5.3.0            | Versión DSM                          |
+| .1.3.6.1.4.1.6574.1.1.0              | Estado del sistema                       |
+| .1.3.6.1.4.1.6574.3.1.1.2.0          | Muestra el estado RAID               |
+| .1.3.6.1.4.1.6574.1.4.2.0            | Ventilador de la CPU                              |
+| .1.3.6.1.4.1.6574.1.4.1.0            | Sistema de ventilador                          |
+| .1.3.6.1.4.1.2021.11.9.0             | Carga de la CPU                           |
+| .1.3.6.1.4.1.6574.1.2.0              | Temperatura del sistema                         |
+| .1.3.6.1.4.1.6574.2.1.1.5.X          | Estado del disco X (comienza en 0)    |
+| .1.3.6.1.4.1.6574.2.1.1.6.X          | Temperatura del disco X (comienza en 0)                                   |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Estado de incursión X (comienza en 0)      |
+| .1.3.6.1.4.1.6574.6.1.1.3.1          | Número de usuarios conectados en CIFS                                 |
+| .1.3.6.1.4.1.6574.6.1.1.3.2          | Número de usuarios registrados en AFP |
+| .1.3.6.1.4.1.6574.6.1.1.3.3          | Número de usuarios registrados en NFS |
+| .1.3.6.1.4.1.6574.6.1.1.3.4          | Número de usuarios conectados a través de FTP |
+| .1.3.6.1.4.1.6574.6.1.1.3.5          | Número de usuarios conectados en SFTP                                 |
+| .1.3.6.1.4.1.6574.6.1.1.3.6          | Número de usuarios registrados en HTTP / HTTPS                           |
+| .1.3.6.1.4.1.6574.6.1.1.3.7          | Número de usuarios conectados en TELNET                               |
+| .1.3.6.1.4.1.6574.6.1.1.3.8          | Número de usuarios registrados en SSH |
+| .1.3.6.1.4.1.6574.6.1.1.3.9          | Número de usuarios conectados OTROS                                |
 
-### OIDs Synology UPS 
+### OID Synology UPS
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| .1.3.6.1.4.1.6574.4.1.1.0            | Modèle                               |
-| .1.3.6.1.4.1.6574.4.2.1.0            | Status                               |
-| .1.3.6.1.4.1.6574.4.2.12.1.0         | Charge                               |
-| .1.3.6.1.4.1.6574.4.3.1.1.0          | Etat batterie                        |
-| .1.3.6.1.4.1.6574.4.3.6.1.0          | Autonomie                            |
+| .1.3.6.1.4.1.6574.4.1.1.0            | Modelo                               |
+| .1.3.6.1.4.1.6574.4.2.1.0            | Estado                               |
+| .1.3.6.1.4.1.6574.4.2.12.1.0         | Carga                               |
+| .1.3.6.1.4.1.6574.4.3.1.1.0          | Estado de la batería                        |
+| .1.3.6.1.4.1.6574.4.3.6.1.0          | Autonomía                            |
 
-### OIDs calculé par le plugin 
+### OID calculados por el complemento
 
-| OID                                  | Données                              |
+| OID                                  | Datos                              |
 |--------------------------------------|--------------------------------------|
-| sysuptime                            | Uptime du système formaté            |
-| memoryused                           | Utilisation réel de la mémoire       |
-| cpuused                              | Utilisation moyenné du CPU sous VMware                               |
-| vmwarerunvm                          | Nombre de VM démarrée sur vmware     |
-| diskused::X                          | Taux de remplissage du disque X      |
-| networkin::X                         | Débit moyenné de l’interface X en sortie                               |
-| networkout::X                        | Débit moyenné de l’interface X en entrée                               |
-| runprocess::X                        | Donne le nombre de process X qui tourne                               |
+| sysuptime                            | Tiempo de actividad del sistema formateado            |
+| memoria utilizada                           | Uso de memoria real       |
+| cpuused                              | Uso promedio de CPU bajo VMware                               |
+| vmwarerunvm                          | Número de máquinas virtuales iniciadas en vmware     |
+| diskused::X                          | Velocidad de llenado del disco X      |
+| networkin::X                         | Interfaz de salida promedio X rendimiento                               |
+| networkout::X                        | Flujo promedio de la interfaz de entrada X                               |
+| runprocess::X                        | Da el número de procesos X que se están ejecutando                               |
 
-Ping 
+Ping
 ----
 
-Pour le ping il y a 2 commandes possible :
+Para ping hay 2 comandos posibles :
 
-| Commande                             | Données                              |
+| Comando                             | Datos                              |
 |--------------------------------------|--------------------------------------|
-| ping                                 | Resultat du ping                     |
-| latency                              | test de latence                      |
+| de ping                                 | Resultado de ping                     |
+| latencia                              | prueba de latencia                      |
 
-CLI 
+CLI
 ---
 
-Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite par le plugin : 
+Aquí puede usar todos los comandos bash o comandos creados previamente por el complemento :
 
-| Commande                             | Données                              |
+| Comando                             | Datos                              |
 |--------------------------------------|--------------------------------------|
-| cpufreq                              | Fréquence CPU                        |
-| cputemp                              | Température CPU                      |
-| memuse                               | % de mémoire utilisé                 |
-| swap                                 | % de swap utilisé                    |
-| loadavg15                            | Charge sur 15min                     |
-| uptime                               | Uptime de la machine                 |
-| hdduse::\#mount\#                    | % d’utilisation du point de montage *mount*                              |
+| cpufreq                              | Frecuencia de la CPU                        |
+| cputemp                              | Temperatura de la CPU                      |
+| memuse                               | % de memoria utilizada                 |
+| intercambiar                                 | % de intercambio utilizado                    |
+| loadavg15                            | Carga más de 15 minutos                     |
+| tiempo de actividad                               | Tiempo de actividad de la máquina                 |
+| hdduse::\#mount\#                    | % de uso del punto de montaje *montar*                              |
 
-URL 
+URL
 ---
 
-| Commande                             | Données                              |
+| Comando                             | Datos                              |
 |--------------------------------------|--------------------------------------|
-| access::\#url\#::\#username\#::\#password\# | Test l’accès à une URL avec *url* : url à tester (ex <http://www.google.fr>), *username*: nom d’utilisateur (si nécessaire),*password* : mot de passe de l’utilisateur (peut etre vide)       |
+| access::\#url\#::\#username\#::\#password\# | Probar el acceso a una URL con *URL* : URL à tester (ex <http://www.google.fr>), *Nombre de usuario*: nombre de usuario (si es necesario),*Contraseña* : contraseña de usuario (puede estar en blanco)       |

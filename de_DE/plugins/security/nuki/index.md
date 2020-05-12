@@ -1,30 +1,23 @@
-Ce plugin permet de piloter les serrures connectées Nuki à l’aide du
-bridge.
+# Nuki Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Brücke steuern.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-puis de configurer les informations du bridge.
+# Plugin Konfiguration
 
-Ces informations sont disponibles sur l’application mobile lors de la
-configuration du bridge.
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und dann die Bridge-Informationen konfigurieren.
+
+Diese Informationen sind in der mobilen Anwendung bei der Konfiguration der Bridge verfügbar.
 
 ![nuki1](./images/nuki1.png)
 
-Il est ensuite nécessaire de cliquer sur le bouton "Configurer le
-bridge" afin d’indiquer au bridge l’adresse de Jeedom pour le retour
-d’information.
+Es ist dann notwendig, auf die Schaltfläche "Brücke konfigurieren" zu klicken, um der Brücke die Adresse von Jeedom für die Rückmeldung anzuzeigen.
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-La synchronisation des serrures est accessible à partir du menu Plugins
-:
+Die Synchronisierung von Sperren ist über das Plugins-Menü möglich :
 
 ![nuki2](./images/nuki2.png)
 
-> **Note**
+> **Notiz**
 >
-> Les commandes sont automatiquement créées, il n’est pas nécessaire de
-> les rajouter manuellement.
+> Bestellungen werden automatisch erstellt und müssen nicht manuell hinzugefügt werden.

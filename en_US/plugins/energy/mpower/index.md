@@ -1,47 +1,29 @@
-Description 
-===========
+# Mpower plugin
 
-Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet
-de voir toutes les infos :
+This plugin allows you to control your Mpower multiple sockets. The widget allows you to see all the info : State Power Consumption Current Voltage and Power Factor
 
-Etat Puissance Consommation Courant Voltage et Facteur de puissance
+The data is refreshed every 15 minutes and after an action from jeedom
 
-Les données sont rafraîchies toutes les 15 minutes et après une action
-depuis jeedom
+# Plugin configuration
 
-== Plugin configuration
+After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
-After downloading the plugin, you just have to activate it,
-there is no configuration at this level.
+# Equipment configuration
 
-Equipment configuration
-=============================
+Go to the Plugins / Energy menu, there you will find the pluginMpower
 
-Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
-Mpower
+Here you find all the configuration of your equipment :
 
-You can find here the full configuration of your device :
+-   **Mode equipment name** : name of your equipment Mode,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard,
+-   **Category** : equipment categories (it can belong to several categories).
+-   **IP adress** : socket IP address
+-   **Login** : login login (default ubnt)
+-   **Password** : password (default ubnt)
+-   **Take number** : outlet number (starts at 1)
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
-
--   **Parent Object** : means the parent object the equipment depend
-    equipment,
-
--   **Enable**: to make your equipment active,
-
--   **Visible**: makes your equipment visible on the dashboard,
-
--   **Category**: categories of equipment (it may belong to
-    several categories).
-
--   **Adresse IP** : addresse IP de la prise
-
--   **Login** : login de connexion (par defaut ubnt)
-
--   **Mot de passe** : mot de passe (par defaut ubnt)
-
--   **Numéro de prise** : numéro de la prise (commence à 1)
-
-> **Note**
+> **NOTE**
 >
-> Il faut faire un équipement par prise
+> One equipment must be taken per outlet

@@ -1,236 +1,141 @@
-Nimbus 
-======
+# Plugin nimbus 
 
-Description 
------------
+Este plugin permite que você controle e tenha todas as informações do seu Nimbus.
 
-Ce plugin permet de controller et d’avoir toutes les infos de son ou ses
-Nimbus.
+![nimbus screenshot1](../images/nimbus_screenshot1.jpg) 
+![nimbus screenshot2](../images/nimbus_screenshot2.jpg) 
+![nimbus screenshot3](../images/nimbus_screenshot3.jpg)
 
-![nimbus screenshot1](../images/nimbus_screenshot1.jpg) ![nimbus
-screenshot2](../images/nimbus_screenshot2.jpg) ![nimbus
-screenshot3](../images/nimbus_screenshot3.jpg)
+# Configuração 
 
-Configuration 
--------------
+## Configuração do plugin Jeedom : 
 
-### Configuration du plugin Jeedom : 
+Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-a.  Installation/Création
-
-
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
-
-Suite à cela il vous faudra renseigner vos identifiants (compte wink +
-api):
-
+Depois disso, você precisará inserir suas credenciais (conta de piscadela + API):
 
 ![config plugin](../images/config_plugin.jpg)
 
+Vá para o menu plugins / comunicação, **lá você encontrará o plugin nimbus :**
 
-
-Rendez vous dans le menu plugins/Communication, **vous y trouverez le
-plugin nimbus :**
-
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs nimbus) et qui vous permettra d’en créer
-
+Você chegará à página que listará seu equipamento (você pode ter vários nimbus) e que permitirá criar algumas
 
 ![nimbus screenshot4](../images/nimbus_screenshot4.jpg)
 
+**Clique no botão Adicionar :**
 
-**Cliquez sur le bouton Ajouter :**
-
-Vous arriverez ensuite sur la page de configuration de votre nimbus :
+Você chegará à página de configuração do seu nimbus :
 
 ![config nimbus](../images/config_nimbus.jpg)
 
-Sur cette page vous trouverez plusieurs sections :
+Nesta página você encontrará várias seções :
+
+**Geral**
+
+Nesta seção, você encontrará todas as configurações do jeedom. Ou seja, o nome do seu equipamento, o objeto ao qual você deseja associá-lo, a categoria (de preferência multimídia), se você deseja que o equipamento esteja ativo ou não e, finalmente, se você deseja que ele fique visível na tela. painel de controle.
+
+-   **Configuração**
+
+Esta seção é útil se e somente se você tiver vários nimbus. Você precisará inserir o número do equipamento (1, 2 ou 3, por exemplo). Você pode deixar esse campo vazio se tiver apenas um nimbus que certamente será seu caso.
 
 
--   **Général**
+-   **Projeto**
 
-
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équipement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
-visible sur le dashboard.
-
--   **Configuration**
-
-Cette section est utile si et seulement si vous possédez plusieurs
-nimbus. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
-exemple). Vous pouvez laisser ce champ vide si vous possédez un seul
-nimbus ce qui sera surement votre cas.
-
-
--   **Design**
-
-Cette section vous permettra de personaliser l’affichage de votre nimbus
-sur le dashboard. Vous pouvez choisir parmis plusieurs fonds. Vous
-pouvez aussi choisir la couleur de l’aiguille et la couleur du texte.
-
+Esta seção permitirá que você personalize a exibição do seu nimbus no painel. Você pode escolher entre vários fundos. Você também pode escolher a cor da agulha e a cor do texto.
 
 ![nimbus screenshot6](../images/nimbus_screenshot6.jpg)
 
--   **Informations**
+-   **Informação**
 
 ![infonimb](../images/infonimb.jpg)
 
+Esta seção será preenchida por si mesma ao salvar seu equipamento. Lá você encontrará informações reais do seu nimbus (número de série, endereço mac, nome, ID)
 
-Cette section se remplira d’elle même à la sauvegarde de votre
-équipement. Vous y trouverez des informations realtives à votres nimbus
-(numéro de série, adresse mac, nom, id)
+-   **Comandos**
 
--   **Commandes**
+Você não tem nada para fazer nesta seção. Os pedidos serão criados automaticamente.
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+-   Rafraichir: para atualizar o widget, se necessário
+-   Tela 1 : Informações exibidas na tela 1
+-   Tela 2 : Informações exibidas na tela 2
+-   Tela 3 : Informações exibidas na tela 3
+-   Tela 4 : Informações exibidas na tela 4
+-   Posição 1 : Informações sobre a posição da agulha da tela 1
+-   Posição 2 : Informações sobre a posição da agulha na tela 2
+-   Posição 3 : Informações sobre a posição da agulha na tela 3
+-   Posição 4 : Informações sobre a posição da agulha da tela 4
+-   Ação de tela 1 : Comando de ação que permite em um cenário escolher a posição e / ou o texto da tela 1
+-   Ação de tela 2 : Ação de comando que permite em um cenário escolher a posição e / ou o texto da tela 2
+-   Ação de tela 3 : Comando de ação que permite em um cenário escolher a posição e / ou o texto da tela 3
+-   Ação de tela 4 : Comando de ação que permite em um cenário escolher a posição e / ou o texto da tela 1
+-   Ação da tela Tudo : Comando de ação que permite em um cenário escolher a posição e / ou o texto de todas as telas
+-   Ação da tela de frases : Ação de comando que permite em um cenário escolher a posição e / ou o texto de todas as telas (uma sentença de 4 palavras no máximo dividida nas 4 telas)
+-   Demo : Ação para iniciar uma demonstração técnica no seu nimbus
 
--   Rafraichir: bouton permettant de rafraichir le widget si besoin
+# Informação 
 
--   Ecran 1 : Information affichée sur l’écran 1
-
--   Ecran 2 : Information affichée sur l’écran 2
-
--   Ecran 3 : Information affichée sur l’écran 3
-
--   Ecran 4 : Information affichée sur l’écran 4
-
--   Position 1 : Information concernant la position de l’aiguille de
-    l’écran 1
-
--   Position 2 : Information concernant la position de l’aiguille de
-    l’écran 2
-
--   Position 3 : Information concernant la position de l’aiguille de
-    l’écran 3
-
--   Position 4 : Information concernant la position de l’aiguille de
-    l’écran 4
-
--   Action Ecran 1 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 1
-
--   Action Ecran 2 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 2
-
--   Action Ecran 3 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 3
-
--   Action Ecran 4 : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de l’écran 1
-
--   Action Ecran Tous : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de tous les écrans
-
--   Action Ecran Phrase : Action commande permettant dans un scénario de
-    choisir la position et/ou le texte de tous les écrans (une phrase de
-    4 mots maximums splittés sur les 4 écrans)
-
--   Démo : Action permettant de lancer une démo technique sur votre
-    nimbus
-
-…​
-
-Les informations 
-----------------
-
-### Informations sur le dashboard : 
+## Informações no painel : 
 
 ![nimbus screenshot1](../images/nimbus_screenshot1.jpg)
 
-Le widget est divisé en 4 cadrans représentant les 4 cadrans de votre
-nimbus.
+O widget é dividido em 4 mostradores que representam os 4 mostradores do seu nimbus.
 
--   L’aiguille indique la position de l’aiguille de l’écran
-    correspondant de votre nimbus
-
--   Le texte est le texte affiché sur votre nimbus. Ce texte est
-    cliquable pour arriver à cet écran :
-
+-   A agulha indica a posição da agulha na tela correspondente do seu nimbus
+-   O texto é o texto exibido no seu nimbus. É possível clicar neste texto para acessar esta tela :
 
 ![nimbus screenshot5](../images/nimbus_screenshot5.jpg)
 
 
-Cet écran permet de changer manuellement le texte, la position de
-l’aiguille ou les deux. Il permet de voir lorsque vous changez la valeur
-déjà affichée.
+Essa tela permite alterar manualmente o texto, a posição da agulha ou ambos. Permite ver quando você altera o valor já exibido.
 
-…​
+# Acções 
 
-Les actions 
------------
+## Ações acessíveis via cenário : 
 
-### Actions accessibles via scénario : 
-
-Plusieurs actions sont accessibles via scénario :
+Várias ações são acessíveis via cenário :
 
 ![commandes](../images/commandes.jpg)
 
-L’action Démo est independante et lance la démo technique.
+A ação Demo é independente e lança a demonstração técnica.
 
-Toutes les autres actions marchent de la même façon sur le principe.
+Todas as outras ações funcionam da mesma maneira no princípio.
 
-**Il s’agit de commande message qui permette de passer deux paramètres:**
+**Este é um comando de mensagem que permite passar dois parâmetros:**
 
--   Titre : un chiffre entre 0 et 360 correspondant à la position de
-    l’aiguille
+-   Título : um número entre 0 e 360 correspondente à posição da agulha
+-   Mensagem : a mensagem a ser exibida
 
--   Message : le message à afficher
+**Os dois são separáveis, o que significa que você pode :**
 
-**Les deux sont dissociables cela veut dire que vous pouvez :**
+-   Envie uma posição deixando o campo da mensagem em branco ou deixando *Mensagem*
+-   Envie uma mensagem deixando o campo de título em branco ou deixando *título*
+-   Envie uma posição e uma mensagem preenchendo ambos
 
--   Envoyer qu’une position en laissant le champ message vide ou en
-    laissant *message*
+**Há um pedido por tela, um pedido todo, um pedido
+Sentença :**
 
--   Envoyer qu’un message en laissant le champ titre vide ou en laissant
-    *title*
-
--   Envoyer une position et un message en renseignant les deux
-
-**Il existe une commande par écran, une commande tous, une commande
-phrase :**
-
--   Ecran : permet d’agir sur l’écran correspondant
-
--   Tous : permet de faire la même chose sur tous les écrans
-
--   Phrase : commande particulière qui découpera le message en 4 mots
-    qui seront affichés sur chacun des écrans (si un mot dépasse 8
-    caractères il sera coupé si la phrase fait plus de 4 mots elle
-    sera coupée)
+-   Ecrã : permite atuar na tela correspondente
+-   Tudo : vamos fazer o mesmo em todas as telas
+-   Sentença : comando especial que cortará a mensagem em 4 palavras que serão exibidas em cada tela (se uma palavra exceder 8 caracteres, será cortada se a frase tiver mais de 4 palavras, será cortada)
 
 ![Scenario](../images/Scenario.jpg)
 
-
 ![Scenario2](../images/Scenario2.jpg)
-
 
 ![Scenario3](../images/Scenario3.jpg)
 
 
-**COMMENT PUIS JE FAIRE AFFICHER DE MANIERE PERMANENTE DES INFOS DE MA
-DOMOTIQUE**
+**COMO POSSO MOSTRAR PERMANENTEMENTE INFORMAÇÕES SOBRE A AUTOMAÇÃO EM MINHA CASA**
 
-Si vous voulez afficher de manière continue une info de votre domotique.
-Faites un scénario programmé toutes les 5 minutes (par exemple).
+Se você deseja exibir continuamente informações da sua automação residencial.
+Crie um cenário agendado a cada 5 minutos (por exemplo).
 
 ![Scenario4](../images/Scenario4.jpg)
 
-Sur cette exemple il vous suffit de remplacer ce qui est entre crochet
-par vos commandes. Et toutes les 5 minutes vos écrans seront mis à jour
-avec les bonnes valeurs
+Neste exemplo, você só precisa substituir o que está no gancho pelos seus comandos. E a cada 5 minutos suas telas serão atualizadas com os valores corretos
 
-…​
+# Faq 
 
-FAQ 
----
+O sistema recupera informações a cada hora. Você pode clicar no comando Atualizar para atualizar manualmente.
 
-Le systeme recupère les informations toutes les heures. Vous pouvez
-cliquer sur la commande Rafraichir pour rafraichir manuellement.
-
-Assurez vous d’avoir créé le fichier de config en sauvant vos infos dans
-la config générale du plugin.
+Certifique-se de ter criado o arquivo de configuração salvando suas informações na configuração geral do plugin.

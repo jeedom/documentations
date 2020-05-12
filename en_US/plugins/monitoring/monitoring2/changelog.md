@@ -1,27 +1,33 @@
-# 06/07/2018
+# Changelog Monitoring
 
-- Correction d'un bug sur le swap
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 03/07/2018
+# 07/06/2018
 
-- Correction d'un bug sur la commande ping
+- Correction of a bug on the swap
 
-#22/04/2018
+# 07/03/2018
 
-- Correction d'un bug sur la mémoire utilisée en SNMP
+- Correction of a bug on the ping command
 
-# 15/04/2018
+#04/22/2018
 
-- Correction d'un bug sur la mise à jour des valeurs
+- Correction of a bug on the memory used in SNMP
 
-# 11/04/2018
+# 04/15/2018
 
-- Correction d'un soucis sur les dépendances
+- Correction of a bug on updating values
 
-# 09/04/2018
+# 04/11/2018
 
-- Correction d'un soucis sur les dépendances
+- Fixed a dependency issue
 
-# 03/04/2018
+# 04/09/2018
 
-- Version stable
+- Fixed a dependency issue
+
+# 04/03/2018
+
+- Stable version

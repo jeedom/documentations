@@ -1,13 +1,27 @@
 {
-	"id" : "notificationmanager",
-	"name" : "Notification Manager",
-	"description" : "Ce plugin permet de gérer les notifications (reprise en case d'erreur, génération de texte...)",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-	"category" : "communication",
-	"changelog" : "https://jeedom.github.io/plugin-notificationmanager/#language#/changelog",
-     "documentation" : "https://jeedom.github.io/plugin-notificationmanager/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "notificationmanager",
+    "name": "Notification Manager",
+    "description": "Ce plugin permet de gérer les notifications (reprise en case d'erreur, génération de texte...)",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

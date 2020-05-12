@@ -1,25 +1,25 @@
+# Plugin monitoring
+
 Plugin permet de monitorer des systèmes, il possede plusieurs moteur CLI (bash), SNMP, ping et URL
 
 > **IMPORTANT**
 >
 > Ce plugin est assez complexe et necessite donc de bien lire la documentation et quelques connaissance. IL N'EST PAS PLUG AND PLAY
 
-# Configuration 
+# Configuration
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+Après téléchargement du plugin, il vous faudra simplement activer leplugin
 
 # Equipements
 
-La configuration des équipements Monitoring est accessible à partir du menu
-Plugins puis Monitoring
+La configuration des équipements Monitoring est accessible à partir du menu Plugins puis Monitoring
 
 - Nom de l'équipement
 - Objet parent
 - Catégorie
 - Activer
 - Visible
-- Fréquence de mise à jour : sous format cron (ex */15 * * * *)
+- Fréquence de mise à jour : sous format cron (ex \*/15 \* \* \* \*)
 - Moteur : moteur à activer pour l'équipement en question.
 - Paramètres Bash/Shell
 		- Mode : local ou distant (si local il n'y a rien d'autre à remplir)
@@ -29,25 +29,25 @@ Plugins puis Monitoring
 - Paramètres SNMP
 		- IP
 		- Protocole
-		- Nom d'utilisateur 
+		- Nom d'utilisateur
 		- Mot de passe
 		- Authentification mode
-		- Sécurité 
-		- Priv protocole 
-		- Priv passphrase 
+		- Sécurité
+		- Priv protocole
+		- Priv passphrase
 - Paramètres ping
-		- IP 
+		- IP
 
 # Moteur
 
-SNMP 
+SNMP
 ----
 
 Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer des valeurs. Ci dessous les exemple de OID SNMP
 
-### OIDs général 
+### OIDs général
 
-#### Load 
+#### Load
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -55,7 +55,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.10.1.3.2           | 5 minute Load                        |
 | .1.3.6.1.4.1.2021.10.1.3.3           | 15 minute Load                       |
 
-#### CPU 
+#### CPU
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -67,7 +67,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.11.53.0            | Raw idle cpu time                    |
 | .1.3.6.1.4.1.2021.11.51.0            | Raw nice cpu time                    |
 
-#### Memory Statistics 
+#### Memory Statistics
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -80,7 +80,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.4.14.0             | Total RAM Buffered                   |
 | .1.3.6.1.4.1.2021.4.15.0             | Total Cached Memory                  |
 
-#### Disk 
+#### Disk
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -92,20 +92,20 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.2021.9.1.9.X            | Percentage of space used on disk     |
 | .1.3.6.1.4.1.2021.9.1.10.X           | Percentage of inodes used on disk    |
 
-#### System 
+#### System
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.2.1.1.3.0                   | System Uptime                        |
 
-### OIDs VMware 
+### OIDs VMware
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
 | .1.3.6.1.2.1.25.2.3.1.6.6            | Utilisation mémoire                  |
 | .1.3.6.1.4.1.6876.1.2.0              | Version de VMware                    |
 
-### OIDs Synology 
+### OIDs Synology
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -130,7 +130,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.6574.6.1.1.3.8          | Nombre d’utilisateur connecté en SSH |
 | .1.3.6.1.4.1.6574.6.1.1.3.9          | Nombre d’utilisateur connecté en OTHER                                |
 
-### OIDs Synology UPS 
+### OIDs Synology UPS
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -140,7 +140,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | .1.3.6.1.4.1.6574.4.3.1.1.0          | Etat batterie                        |
 | .1.3.6.1.4.1.6574.4.3.6.1.0          | Autonomie                            |
 
-### OIDs calculé par le plugin 
+### OIDs calculé par le plugin
 
 | OID                                  | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -153,7 +153,7 @@ Le moteur SNMP permet de se connecter à des machines en SNMP et de recuperer de
 | networkout::X                        | Débit moyenné de l’interface X en entrée                               |
 | runprocess::X                        | Donne le nombre de process X qui tourne                               |
 
-Ping 
+Ping
 ----
 
 Pour le ping il y a 2 commandes possible :
@@ -163,10 +163,10 @@ Pour le ping il y a 2 commandes possible :
 | ping                                 | Resultat du ping                     |
 | latency                              | test de latence                      |
 
-CLI 
+CLI
 ---
 
-Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite par le plugin : 
+Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite par le plugin :
 
 | Commande                             | Données                              |
 |--------------------------------------|--------------------------------------|
@@ -178,7 +178,7 @@ Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite p
 | uptime                               | Uptime de la machine                 |
 | hdduse::\#mount\#                    | % d’utilisation du point de montage *mount*                              |
 
-URL 
+URL
 ---
 
 | Commande                             | Données                              |

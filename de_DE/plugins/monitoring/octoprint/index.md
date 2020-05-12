@@ -1,47 +1,31 @@
-Ce plugin permet de monitorer et exécuter quelques actions sur vos serveurs d'impression 3D.
+# Octoprint Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie einige Aktionen auf Ihren 3D-Druckservern überwachen und ausführen.
 
-Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
+# Plugin Konfiguration 
 
-Gerätekonfiguration
-=============================
+Nach der Installation des Plugins müssen Sie es nur noch aktivieren. Es ist keine spezielle Konfiguration erforderlich
 
-La configuration des équipements Octoprint est accessible à partir du menu
-plugins puis Monitoring. Vous retrouvez ici :
+# Gerätekonfiguration 
 
--   un bouton pour créer un équipement manuellement
+Auf die Konfiguration der Octoprint-Geräte kann über das Plugins-Menü und dann über Überwachung zugegriffen werden. Sie finden hier :
 
--   un bouton pour afficher la configuration du plugin
+-   eine Schaltfläche zum manuellen Erstellen von Geräten
+-   eine Schaltfläche zum Anzeigen der Konfiguration des Plugins
+-   Eine Schaltfläche, die Ihnen einen Überblick über alle Ihre Geräte gibt
+-   Schließlich finden Sie unten die Liste Ihrer Ausrüstung
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationsseite Ihres Geräts mit 2 Registerkarten, Geräten und Steuerelementen.
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+-   **Registerkarte Ausrüstung** :
+    -   **Name der Ausrüstung** : Name Ihrer Ausrüstung
+    -   **Aktivieren** : macht Ihre Ausrüstung aktiv
+    -   **Sichtbar** : macht es auf dem Dashboard sichtbar
+    -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+    -   **Server IP** : die betreffende Server-IP
+    -   **Apikey** : globale API oder Benutzerschlüssel in Octoprint selbst definiert
+-   **Registerkarte &quot;Bestellungen&quot;** :
+    -   Es gibt viele Befehle. Standardmäßig werden nicht alle angezeigt. Sie können sie umbenennen, anzeigen oder nicht neu anordnen.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
-
--   **Onglet Equipement** :
-
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Aktivieren**: auf Ihre aktiven Geräte machen
-
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
-
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung
-
--   **Ip du serveur** : l'ip du serveur en question
-
--   **Apikey** : clé api global ou d'un user défini dans Octoprint lui même
-
-
--   **Onglet Commandes** :
-
--   Il existe de nombreuses commandes. Toutes ne sont pas affichées par défaut. Vous pouvez les renommer, les afficher ou non les réorganiser. 
-Vous pouvez aussi attribuer un widget au choix. Tout est standard. En ce qui concerne les actions je n'en rajouterai pas plus que celle déjà mise.
-Il n'est pas question pour moi qu'un scénario mal fait se mette à faire chauffer votre imprimante à 4h du matin a 250°C.
-
+Sie können auch ein Widget Ihrer Wahl zuweisen. Alles ist Standard. In Bezug auf die Aktionen werde ich nicht mehr als das bereits Gesagte hinzufügen.
+Für mich kommt es nicht in Frage, dass ein schlecht gemachtes Szenario Ihren Drucker um 4 Uhr morgens auf 250 ° C erwärmt.

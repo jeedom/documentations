@@ -1,13 +1,28 @@
 {
-	"id" : "script",
-	"description" : "Plugin ajoutant le support des scripts dans Jeedom. Les scripts sont des programmes en Python/PHP/Shell/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom",
-	"name" : "Script",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2",
-	"category" : "programming",
-	"changelog" : "https://jeedom.github.io/plugin-script/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-script/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "script",
+    "description": "Plugin ajoutant le support des scripts dans Jeedom. Les scripts sont des programmes en Python\/PHP\/Shell\/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom",
+    "name": "Script",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2",
+    "category": "programming",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/script\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/script\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

@@ -1,65 +1,63 @@
-Ce plugin permet de gerer les notifications (reprise en case d'erreur, generation de texte...)
+# Notification Manager-Plugin
+
+Mit diesem Plugin können Sie Benachrichtigungen verwalten (Wiederherstellung im Fehlerfall, Generierung von Text ...)
 
 # Plugin Konfiguration
 
-Après téléchargement du plugin, il vous faudra simplement activer le
-plugin
+Nach dem Herunterladen des Plugins müssen Sie das Plugin lediglich aktivieren.
 
-# Configuration des équipements
+# Gerätekonfiguration
 
 ## Equipement
 
-La configuration des équipements Notification Manager est accessible à partir du menu
-Plugins puis Communication
+Auf die Konfiguration der Notification Manager-Geräte kann über das Menü Plugins und dann über Kommunikation zugegriffen werden. Hier finden Sie die Konfiguration Ihrer Geräte :
 
-Vous retrouverez ici la configuration de votre équipement :
-
-- Nom de l'équipement notifier : nom de l'équipement
-- Objet parent : son objet parent
+- Name des zu benachrichtigenden Geräts : Name der Ausrüstung
+- Übergeordnetes Objekt : sein übergeordnetes Objekt
 - Activer
 - Visible
 
 ## Commande
 
-C'est ici que vous allez pouvoir ajouter des commandes de notifications. Une fois ajouter pour chaque commande vous allez pouvoir definir les commandes de type message a utiliser dans l'ordre des prioritées.
+Hier können Sie Benachrichtigungsbefehle hinzufügen. Nach dem Hinzufügen für jeden Befehl können Sie die zu verwendenden Nachrichtentypbefehle in der Reihenfolge ihrer Priorität definieren.
 
-Vous avez comme options :
+Sie haben Optionen :
 
-- Test d'éxécution : permet d'ajouter un test avant l'execution de la notification, si le test est faux le plugin ne fera rien, si il est vrai alors il executera les notification dans l'ordre de prioritées jusqu'a trouver une qui marche. Si le champs est vide alors le test est ignoré.
+- Ausführungstest : Ermöglicht das Hinzufügen eines Tests vor der Ausführung der Benachrichtigung. Wenn der Test falsch ist, führt das Plugin nichts aus. Wenn dies der Fall ist, werden die Benachrichtigungen in der Reihenfolge der Prioritäten ausgeführt, bis eine funktionierende gefunden wird. Wenn das Feld leer ist, wird der Test ignoriert.
 
-> **NOTE**
+> **Notiz**
 >
-> Vous avez aussi un test par commande dans la notification
+> Sie haben auch einen Test pro Bestellung in der Benachrichtigung.
 
 
-**Exemple simple**
+**Einfaches Beispiel**
 
-Exemple vous pouvez mettre en premier une commande de type Slack puis une commande de type SMS. Si l'envoi par Slack ne marche pas alors il envera le message sur SMS
+Beispiel: Sie können zuerst einen Befehl vom Typ Slack und dann einen Befehl vom Typ SMS eingeben. Wenn das Senden per Slack nicht funktioniert, wird die Nachricht per SMS gesendet.
 
-**Exemple plus complexe**
+**Komplexeres Beispiel**
 
-Exemple vous pouvez mettre en premier une commande de type Slack et une commande SMS (dans la meme case séparé par des &&), puis mail. Lors de l'utilisation le plugin va d'abord envoyé le message sur Slack et SMS, si les deux ne marchent pas alors il enverra par mail
+Beispiel: Sie können zuerst einen Slack-Befehl und einen SMS-Befehl (im selben durch && getrennten Feld) und dann eine E-Mail eingeben. Wenn Sie das Plugin verwenden, wird die Nachricht zuerst auf Slack und SMS gesendet. Wenn die beiden nicht funktionieren, wird sie per E-Mail gesendet.
 
-# Génération de texte
+# Texterzeugung
 
-Le plugin offre aussi une possibilité de generation de texte pour que les messages ne soit pas toujours les meme. Le systeme est le meme que pour les interactions :
-- [Coucou\|Salut] ca va ? => Donnera soit "Coucou ca va ?" ou  "Salut ca va ?"
+Das Plugin bietet auch die Möglichkeit der Texterzeugung, sodass die Nachrichten nicht immer gleich sind. Das System ist das gleiche wie für Interaktionen :
 
-# Texte conditionnel
+- [Hallo]|Hi] wie geht es dir ? => Wird entweder "Hallo, wie geht es dir?" oder "Hallo, wie geht es dir? ?"
 
-Vous pouvez aussi mettre du texte conditionnel sous la forme {(test) ? vrai : faux}.
+# Bedingter Text
 
-> **IMPORTANT**
+Sie können auch bedingten Text in das Formular {(Test) einfügen ? War : faux}.
+
+> **Wichtig**
 >
-> Il faut absolument mettre le test (la condition) entre parenthèse
+> Es ist unbedingt erforderlich, den Test (die Bedingung) in Klammern zu setzen
 
-Voici un exemple pour la méteo du matin avec texte conditionnel et génération de texte :
+Hier ist ein Beispiel für das Morgenwetter mit bedingtem Text und Texterzeugung :
 
-\[Bonjour\|Salut\|Coucou\] \[j'espères que tu as bien dormis ?\|bien dormis ?\|ça va ?\] . \[Aujourd'hui il fera\|Aujourd'hui le temps sera\|La météo annonce\] \#[Maison\]\[Météo\]\[Condition\]\# \[et la température sera de\|avec\] {(\#\[Maison\]\[Météo\]\[Température Max\]\# < 6) ? \[oula il va faire froid\|oula il caille\]: } \#\[Maison\]\[Météo\]\[Température Max\]\# degrés.
+\ [Hallo \|Salut\.|Hi \] \ [Ich hoffe du hast gut geschlafen ?\.|gut geschlafen ?\.|wie geht es dir ?\.] . \ [Heute wird es sein \|Heute wird das Wetter sein|Wettervorhersage \] \#[Maison\.]\.[Météo\.]\.[Condition\.]\.# \ [und die Temperatur wird \ sein|mit \] {(\#\.[Maison\.]\.[Météo\.]\.[Température Max\.]\.# < 6) ? \ [oula es wird kalt sein \|oula es gerinnt \]: } \.#\.[Maison\.]\.[Météo\.]\.[Température Max\.]\.# Grad.
 
-FAQ
-===
+# FAQ
 
->**Le plugin gere t-il ask ?**
+>**Verwaltet das Plugin fragen ?**
 >
->Oui le plugin gere le ask.
+>Ja, das Plugin verwaltet die Anfrage.

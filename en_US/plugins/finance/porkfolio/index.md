@@ -1,144 +1,95 @@
-Porkfolio 
-=========
+# Porkfolio plugin 
 
-Description 
------------
-
-Ce plugin permet de controller et d’avoir toutes les infos de sa
-tirelire Porkfolio.
+This plugin allows you to control and have all the info from your Porkfolio piggy bank.
 
 ![porkfolio screenshot1](./images/porkfolio_screenshot1.jpg)
 ![porkfolio screenshot10](./images/porkfolio_screenshot10.jpg)
 ![porkfolio screenshot9](./images/porkfolio_screenshot9.jpg)
 ![porkfolio screenshot8](./images/porkfolio_screenshot8.jpg)
 
-Configuration 
--------------
+# Setup 
 
-### Configuration du plugin Jeedom : 
+## Jeedom plugin configuration : 
 
-**Installation/Création**
+**Installation / Creation**
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
-Suite à cela il vous faudra renseigner vos identifiants (compte wink +
-api):
+Following this you will need to enter your credentials (wink account + API):
 
 ![porkfolio screenshot7](./images/porkfolio_screenshot7.jpg)
 
-Rendez vous dans le menu Plugins/Finances, vous y trouverez le plugin
-porkfolio :
+Go to the Plugins / Finances menu, you will find the porkfolio plugin :
 
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs Porkfolio) et qui vous permettra d’en créer
+You will arrive on the page which will list your equipment (you can have several Porkfolio) and which will allow you to create some
 
 ![porkfolio screenshot6](./images/porkfolio_screenshot6.jpg)
 
-Cliquez sur le bouton Ajouter :
+Click on the Add button :
 
-Vous arriverez ensuite sur la page de configuration de votre porkfolio:
+You will then arrive on the configuration page of your porkfolio:
 
 ![porkfolio screenshot5](./images/porkfolio_screenshot5.jpg)
 
-Sur cette page vous trouverez plusieurs sections :
+On this page you will find several sections :
 
--   **Général**
+**Général**
 
-Vous trouverez dans cette section toutes les configurations Jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
-visible sur le dashboard.
+In this section you will find all jeedom configurations. Namely the name of your equipment, the object with which you want to associate it, the category (preferably multimedia), if you want the equipment to be active or not, and finally if you want it to be visible on the dashboard.
 
--   **Configuration**
+**Setup**
 
-Cette section est utile si et seulement si vous possédez plusieurs
-porkfolio. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
-exemple). Vous pouvez laisser ce champ vide si vous possédez un seul
-porkfolio ce qui sera sûrement votre cas.
+This section is useful if and only if you have several porkfolio. You will need to enter the equipment number (1, 2 or 3 for example). You can leave this field empty if you have only one porkfolio which will surely be your case.
 
--   **Commandes**
+**Commands**
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+You have nothing to do in this section. Orders will be created automatically.
 
--   Rafraîchir: bouton permettant de rafraîchir le widget si besoin
+-   Refresh: button to refresh the widget if necessary
+-   Deposit date : Date of last operation
+-   Movement date : Date of the last time a movement was detected
+-   Flip date : Date of the last time the porkfolio was returned
+-   Last Operation : Amount of the last transaction
+-   Nose : Nose color
+-   Goal : Amount of your goal
+-   Sum : Sum currently in the porkfolio
 
--   Date de dépôt : Date de la dernière opération
+# Information 
 
--   Date mouvement : Date de la dernière fois où un mouvement a été
-    détecté
-
--   Date retournement : Date de la dernière fois où le porkfolio a été
-    retourné
-
--   Dernière opération : Montant de la dernière opération
-
--   Nez : Couleur du nez
-
--   Objectif : Montant de votre objectif
-
--   Somme : Somme actuellement dans le porkfolio
-
-…​
-
-Les informations 
-----------------
-
-### Informations sur le dashboard : 
+## Information on the dashboard : 
 
 ![dashboardinfo](./images/dashboardinfo.jpg)
 
--   A : Tête du cochon qui peut changer d’humeur. En laissant la souris
-    sur sa tête il vous dira quand il a bougé pour la dernière fois
-    ainsi que la dernière fois où il a été retourné
+-   At : Pig's head which can change mood. By leaving the mouse on his head he will tell you when he last moved as well as when he was last turned over
+-   B : Refresh button to request values from the server
+-   VS : Amount of the last transaction. By leaving the mouse on it you will have the date of the last operation
+-   D : Amount of your goal
+-   E : Nose color of your porkfolio
+-   F : Progress bar in achieving your goal
+-   G : Sum currently in your porkfolio
 
--   B : Bouton rafraîchir pour redemander les valeurs au serveur
+# The actions 
 
--   C : Montant de la dernière opération. En laissant la souris dessus
-    vous aurez la date de la dernière opération
+## Actions accessible on the dashboard : 
 
--   D : Montant de votre objectif
-
--   E : Couleur du nez de votre porkfolio
-
--   F : Barre de progression dans l’atteinte de votre objectif
-
--   G : Somme actuellement dans votre porkfolio
-
-…​
-
-Les actions 
------------
-
-### Actions accessibles sur le dashboard : 
-
-Plusieurs actions sont accessibles sur le dashboard :
+Several actions are available on the dashboard :
 
 ![dashboardactions](./images/dashboardactions.jpg)
 
--   A : En cliquant sur le billet vous pourrez déposer ou retirer une
-    somme d’argent
+-   At : By clicking on the ticket you can deposit or withdraw a sum of money
 
 ![porkfolio screenshot2](./images/porkfolio_screenshot2.jpg)
 
--   B : En cliquant sur le drapeau vous pourrez modifier votre objectif
+-   B : By clicking on the flag you can change your goal
 
 ![porkfolio screenshot3](./images/porkfolio_screenshot3.jpg)
 
--   C : En cliquant sur le pinceau vous pourrez modifier la couleur du
-    nez de votre porkfolio
+-   VS : By clicking on the brush you can change the color of the nose of your porkfolio
 
 ![porkfolio screenshot4](./images/porkfolio_screenshot4.jpg)
 
-…​
+# FAQ 
 
-FAQ 
----
+The system retrieves information every hour. You can click the Refresh command to refresh manually.
 
-Le système recupère les informations toutes les heures. Vous pouvez
-cliquer sur la commande Rafraîchir pour rafraîchir manuellement.
-
-Assurez-vous d’avoir créé le fichier de config en sauvant vos infos dans
-la config générale du plugin.
+Make sure you have created the config file by saving your info in the general config of the plugin.

@@ -1,48 +1,29 @@
-Description 
-===========
+# Plugin Mpower
 
-Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet
-de voir toutes les infos :
+Este plugin permite que você controle seus múltiplos soquetes Mpower. O widget permite que você veja todas as informações : Estado Tensão atual de consumo de energia e fator de potência
 
-Etat Puissance Consommation Courant Voltage et Facteur de puissance
+Os dados são atualizados a cada 15 minutos e após uma ação de jeedom
 
-Les données sont rafraîchies toutes les 15 minutes et après une action
-depuis jeedom
+# Configuração do plugin
 
-Configuration du plugin 
-=======================
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+# Configuração do equipamento
 
-Configuration des équipements 
-=============================
+Vá para o menu Plugins / Energy, lá você encontrará o pluginMpower
 
-Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
-Mpower
+Aqui você encontra toda a configuração do seu equipamento :
 
-Vous retrouvez ici toute la configuration de votre équipement :
+-   **Nome do equipamento Modo** : nome do seu equipamento Mode,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
+-   **Endereço IP** : endereço IP do soquete
+-   **Entrar** : login login (ubnt padrão)
+-   **Senha** : senha (ubnt padrão)
+-   **Take number** : número da tomada (começa em 1)
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
-
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
-
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : rend votre équipement visible sur le dashboard,
-
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
-
--   **Adresse IP** : addresse IP de la prise
-
--   **Login** : login de connexion (par defaut ubnt)
-
--   **Mot de passe** : mot de passe (par defaut ubnt)
-
--   **Numéro de prise** : numéro de la prise (commence à 1)
-
-> **Note**
+> **NOTA**
 >
-> Il faut faire un équipement par prise
+> Um equipamento deve ser tomado por tomada

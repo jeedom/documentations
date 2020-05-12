@@ -1,13 +1,27 @@
 {
-	"id": "mpower",
-	"name" : "Mpower",
-	"description" : "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos :<br/><br/>Etat<br/>Puissance<br/>Consommation<br/>Courant<br/>Voltage<br/>Et facteur de puissance<br/><br/>Les données sont rafraichies toutes les minutes et après une action depuis jeedom<br/><br/>Uniquement testé sur le modèle 6 prises",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-	"category" : "energy",
-    "changelog" : "https://jeedom.github.io/plugin-mpower/#language#/changelog",
-    "documentation" : "https://jeedom.github.io/plugin-mpower/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]
+    "id": "mpower",
+    "name": "Mpower",
+    "description": "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "energy",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/mpower\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/mpower\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }

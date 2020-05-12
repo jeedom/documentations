@@ -1,75 +1,50 @@
-Plugin permettant d’envoyer des SMS et de passer des appels avec
-messages automatiques à partir de Jeedom.
+# Phone Market plugin
+
+Plugin for sending SMS and making calls with automatic messages from Jeedom.
 
 > **Important**
 >
-> Ce plugin passe par le market c’est donc un service cloud qui
-> nécessite une connexion internet pour fonctionner.
+> This plugin goes through the market so it is a cloud service that requires an internet connection to function.
 
 > **Tip**
 >
-> Le plugin marche sur un système de crédit, 1 SMS = 1 crédit, 1 appel =
-> 2 crédits. Vous pouvez consulter votre crédit
-> [ici](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En cas
-> de crédits faibles (moins de 5), un mail vous sera envoyé.
+> The plugin works on a credit system, 1 SMS = 1 credit for France otherwise 2 credits, 1 call = 2 credits for France otherwise 4 credits. You can check your credit [here](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). In case of low credits (less than 5), an email will be sent to you.
 
 > **Important**
 >
-> Les SMS sont limités à 140 caractères et les appels à 450 caractères.
+> Text messages are limited to 140 characters and calls to 450 characters.
 
-== Plugin configuration
+# Plugin configuration 
 
-After downloading the plugin, you just have to activate it,
-there is no configuration at this level.
+After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
 ![phonemarket1](./images/phonemarket1.PNG)
 
-Equipment configuration
-=============================
+# Equipment configuration 
 
-La configuration des équipements Phonemarket est accessible à partir du
-menu plugin :
+The configuration of Phonemarket equipment is accessible from the plugin menu :
 
 ![phonemarket2](./images/phonemarket2.PNG)
 
-Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1
-équipement) :
+This is what the Phonemarket plugin page looks like (here with 1 device already) :
 
 ![phonemarket3](./images/phonemarket3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![phonemarket4](./images/phonemarket4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Phonemarket** : nom de votre équipement
-    Phonemarket,
+-   **Name de l'équipement Phonemarket** : name of your Phonemarket equipment,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard.
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment,
+Below you find the list of orders :
 
--   **Enable**: to make your equipment active,
-
--   **Visible** : rend votre équipement visible sur le dashboard.
-
-Below you will find the list of commands:
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Type** : type de commande (appels ou sms),
-
--   **Numéro** : numéro de téléphone qui doit être appelé ou à qui un
-    SMS doit être envoyé (en fonction du type),
-
--   **Tester** : permet de tester la commande,
-
--   **Supprimer** (signe -) : permet de supprimer la commande.
-
-
+-   **Name** : the name displayed on the dashboard,
+-   **Type** : type of order (calls or sms),
+-   **Number** : telephone number to be called or to whom an SMS should be sent (depending on the type),
+-   **Test** : Used to test the command,
+-   **Delete** (sign -) : allows to delete the command.

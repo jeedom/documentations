@@ -1,11 +1,11 @@
 {
-	"id" : "nabaztag",
-	"name" : "Nabaztag",
-	"description" : "Plugin pour commander le Nabaztag",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "2.3",
-        "category" : "devicecommunication",
-        "changelog" : "https://jeedom.github.io/plugin-nabaztag/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-nabaztag/#language#/"
+    "id": "nabaztag",
+    "name": "Nabaztag",
+    "description": "Plugin pour commander le Nabaztag",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "2.3",
+    "category": "devicecommunication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/nabaztag\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/nabaztag\/"
 }

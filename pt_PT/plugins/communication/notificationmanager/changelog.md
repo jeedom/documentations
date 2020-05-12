@@ -1,13 +1,19 @@
+# Gerenciador de notificações do Changelog
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 29/04/2019
 
-- Possibilité d'ajouter un test pour chaque notification
-- Possibilité d'ajouter un test pour chaque commande de notification
-- Ajout d'une clef API spécifique au plugin
+- Capacidade de adicionar um teste para cada notificação
+- Capacidade de adicionar um teste para cada comando de notificação
+- Adição de uma chave de API específica ao plug-in
 
 # 20/03/2018
 
-- Ajout d'un systeme de texte conditionnel
+- Adição de um sistema de texto condicional
 
 # 19/03/2018
 
-- Version initial
+- Versão inicial

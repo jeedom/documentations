@@ -1,8 +1,18 @@
-30/07/2018
+# Registro de cambios Nuki
 
-Correction du bug qui affichait la page d'équipement en bas lorsque le bandeau de gauche etait déplié
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-03/07/2018
+# 23/10/2019
 
-Correction d'un bug qui multipliait les serrures lors d'une synchro
-Rajout de commande pour homekit
+- Jeedom V4 soporte
+
+# 30/07/2018
+
+- Corrección del error que mostraba la página del equipo en la parte inferior cuando se desplegó el banner izquierdo
+
+# 07/03/2018
+
+- Se corrigió un error que multiplicaba los bloqueos durante la sincronización
+- Adición de comando para homekit

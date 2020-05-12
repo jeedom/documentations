@@ -1,8 +1,18 @@
-30/07/2018
+# Changelog Nuki
 
-Correction du bug qui affichait la page d'équipement en bas lorsque le bandeau de gauche etait déplié
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-03/07/2018
+# 10/23/2019
 
-Correction d'un bug qui multipliait les serrures lors d'une synchro
-Rajout de commande pour homekit
+- Jeedom V4 support
+
+# 07/30/2018
+
+- Correction of the bug which displayed the equipment page at the bottom when the left banner was unfolded
+
+# 07/03/2018
+
+- Fixed a bug that multiplied locks during sync
+- Addition of command for homekit

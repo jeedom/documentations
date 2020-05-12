@@ -1,77 +1,71 @@
-Plugin permettant de récupérer les informations des équipements Netatmo Security
+# Neatmo Security Plugin (Segurança)
 
-# Configuration du plugin
+Plug-in para recuperar informações do equipamento Netatmo Security
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Netatmo :
+# Configuração do plugin
 
--   **Client ID** : votre client ID (voir partie configuration)
+Depois que o plug-in estiver instalado, você precisará inserir suas informações de conexão Netatmo :
 
--   **Client secret** : votre client secret (voir partie configuration)
+-   **ID do cliente** : seu ID de cliente (consulte a seção de configuração)
+-   **Cliente secreto** : seu cliente secreto (consulte a seção de configuração)
+-   **Nome de Usuário** : nome de usuário da sua conta netatmo
+-   **Senha** : senha para sua conta Netatmo
+-   **Sincronizar** : permite sincronizar o Jeedom com sua conta Netamo para descobrir automaticamente seu equipamento Netamo. Um
+    faça depois de salvar as configurações anteriores.
 
--   **Nom d’utilisateur** : nom d’utilisateur de votre compte netatmo
+# Recuperando informações de conexão
 
--   **Mot de passe** : mot de passe de votre compte Netatmo
+Pour intégrer votre Welcome, vous devez posséder un client\_id et unclient\_secret généré sur le site <http://dev.netatmo.com>.
 
--   **Synchroniser** : permet de synchroniser Jeedom avec votre compte
-    Netamo pour découvrir automatiquement vos équipements Netamo. A
-    faire après avoir sauvegardé les paramètres précedent.
-
-# Recupération des informations de connexion
-
-Pour intégrer votre Welcome, vous devez posséder un client\_id et un
-client\_secret généré sur le site <http://dev.netatmo.com>.
-
-Une fois dessus cliquez sur start :
+Uma vez clique em Iniciar :
 
 ![netatmoWelcome10](../images/netatmoWelcome10.png)
 
-Puis sur "create an app"
+Em seguida, "crie um aplicativo"
 
 ![netatmoWelcome11](../images/netatmoWelcome11.png)
 
-Identifiez vous, avec votre mail et mot de passe
+Identifique-se, com seu email e senha
 
 ![netatmoWelcome12](../images/netatmoWelcome12.png)
 
-Remplissez les champs "Name" et "Description" (peux importe ce que vous
-mettez ca n’a aucune importance) :
+Preencha os campos "Nome" e "Descrição" (o que você inserir não importa) :
 
 ![netatmoWelcome13](../images/netatmoWelcome13.png)
 
-Puis tout en bas de la page cochez la case "I accept the terms of use"
-puis cliquez sur "Create"
+Em seguida, na parte inferior da página, marque a caixa "Aceito os termos de uso" e clique em "Criar"
 
 ![netatmoWelcome14](../images/netatmoWelcome14.png)
 
-Recuperer les informations "CLient id" et "Client secret" et copier les
-dans la partie configuration du plugin dans Jeedom (voir chapitre
-précedent)
+Recupere as informações "ID do cliente" e "Cliente secreto" e copie-as na parte de configuração do plug-in no Jeedom (consulte o capítulo anterior)
 
 ![netatmoWelcome15](../images/netatmoWelcome15.png)
 
-# Configuration des équipements
+# Configuração do equipamento
 
-La configuration des équipements Netatmo est accessible à partir du menu
-plugin -> Securité -> Netatmo Security
+A configuração dos dispositivos Netatmo pode ser acessada no menu do plug-in -> Segurança -> Netatmo Security
 
-Une fois que vous cliquez sur un équipement vous retrouvez ici toute la configuration de votre équipement :
+Depois de clicar em um dispositivo, você encontrará aqui toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
+-   **Nome do dispositivo Netatmo** : nome do seu equipamento Netatmo
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
 
-En dessous vous retrouvez la liste des commandes :
+Abaixo você encontra a lista de pedidos :
 
--   le nom de la commande
--   historiser : permet d’historiser la donnée
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation, widget…​)
--   Tester : permet de tester la commande
+-   o nome do comando
+-   Historicizar : permite historiar os dados
+-   configuração avançada (pequenas rodas dentadas) : permite exibir
+    configuração avançada do comando (método de registro, widget, etc.)
+-   Teste : permite testar o comando
 
 # FAQ
 
->**Je n'ai pas les évenements en temps réel mais au bout de 15min**
+>**Eu não tenho os eventos em tempo real, mas depois de 15min**
 >
->Pour avoir un retour en temps réel des évenements (déclenchement alarme incendie, personne qui passe devant la camera..) il faut ABSOLUMENT que votre jeedom ait une URL externe en https avec un certificat valide sur le port 443 (et uniquement ce port la). C'est une obligation imposé par netatmo
+>Para ter um retorno em tempo real dos eventos (acionamento do alarme de incêndio, pessoa que passa na frente da câmera ..), você DEVE ABSOLUTAMENTE que seu jeedom tenha uma URL externa em https com um certificado válido na porta 443 (e somente nesta porta). É uma obrigação imposta pela netatmo
+
+>**Não consigo desativar / ativar a vigilância**
+>
+>Atenção, se você colocar um código, essa função não é possível pelo plugin jeedom

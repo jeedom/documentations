@@ -1,31 +1,37 @@
-# 04/07/2019
+# Changelog Jeedom Link
 
-- Correction d'un bugs sur la remontée des mises à jour
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 07/04/2019
+
+- Correction of a bug on the update update
 
 # 03/06/2019
 
-- Correction de bugs
+- Bugfix
 
-# 14/05/2019
+# 05/14/2019
 
-- Amélioration de la gestion de commande avec le meme nom sur le meme équipements (erreur Duplicate entry....)
+- Improved order management with the same name on the same equipment (Duplicate entry error ....)
 
-# 13/03/2019
+# 03/13/2019
 
-- Ajout du type d'équipement réel (pourra etre utiliser par l'application mobile)
+- Addition of the actual equipment type (can be used by the mobile application)
 
-# 30/07/2018
+# 07/30/2018
 
-- Ajout d'une clef api dédié (sera a utiliser obligatoirement en jeedom 3.3)
+- Adding a dedicated API key (must be used in Jeedom 3.3)
 
-# 05/07/2018
+# 07/05/2018
 
-- Ajout de l'envoi de batterie des esclaves au maitre toute les nuits
+- Addition of sending the level of the batteries of the slaves to the master every night
 
 # 04/04/2018
 
-- Correction de bugs
+- Bugfix
 
-# 22/03/2018
+# 03/22/2018
 
-- Correction de bug sur l'interface
+- Bug fixes on the interface

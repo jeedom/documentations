@@ -1,87 +1,57 @@
-Ce plugin permet de récuperer les informations en provenance d’un
-serveur NUT (Network UPS Tools)
+# Nut Plugin
 
-configuración del plugin
-=======================
+Este complemento le permite recuperar información de un servidor NUT (Network UPS Tools)
 
-Après téléchargement du plugin, il suffit juste de l’activer et ensuite
-de cliquer sur "Installer/Mettre à jour"
+# Configuración del plugin 
+
+Después de descargar el complemento, simplemente actívelo y luego haga clic en "Instalar / Actualizar"
 
 ![nut](./images/nut.PNG)
 
-Configuración del dispositivo
-=============================
+# Configuración del equipo 
 
-La configuration des équipements NUT est accessible à partir du menu
-plugin :
+Se puede acceder a la configuración del equipo NUT desde el menú de complementos :
 
 ![nut2](./images/nut2.PNG)
 
-Voilà à quoi ressemble la page du plugin NUT (ici avec déjà 1
-équipement) :
+Así es como se ve la página del complemento NUT (aquí con 1 dispositivo ya) :
 
 ![nut3](./images/nut3.PNG)
 
-> **Tip**
->
-> Comme dans beaucoup d’endroits sur Jeedom, placer la souris tout à
-> gauche permet de faire apparaître un menu d’accès rapide (vous pouvez,
-> à partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Una vez que haces clic en uno de ellos, obtienes :
 
 ![nut4](./images/nut4.PNG)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Onduleur** : nom de votre équipement NUT,
+-   **Nombre de l'équipement Onduleur** : nombre de su equipo NUT,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **Categoría** : categoría de su equipo NUT
+-   **Dirección IP NUT** : La dirección IP del servidor NUT
+-   **Nombre d'utilisateur** : Nombre de usuario del servidor NUT (dejar en blanco si no hay ninguno)
+-   **Contraseña** : Contraseña del servidor NUT (dejar en blanco si no hay ninguna)
+-   **Identificación de ups** : Identificación de ups
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
-
--   ** ** Activar: para que su equipo activo,
-
--   ** ** visible hace que su equipo visible en el salpicadero,
-
--   **Catégorie** : catégorie de votre équipement NUT
-
--   **Adresse IP NUT** : L’adresse IP du serveur NUT
-
--   **Nom d’utilisateur** : nom d’utilisateur du serveur NUT (laisser
-    vide si il n’y en a pas)
-
--   **Mot de passe** : Mot de passe du serveur NUT (laisser vide si il
-    n’y en a pas)
-
--   **ID de l’ups** : ID de l’UPS
-
-> **Note**
+> **Nota**
 >
-> Un serveur NUT peut gérer plusieurs UPS, c’est alors l’ID de l’UPS qui
-> permet d’indiquer à Jeedom à quel UPS l’équipement fait réference
+> Un servidor NUT puede gestionar varios UPS, entonces es la ID del UPS lo que le permite a Jeedom saber a qué UPS se refiere el equipo
 
-> **Tip**
+> **Punta**
 >
-> Si vous ne connaissez pas l’ID de votre/vos UPS laissez le champs vide
-> puis enregistrez l’équipement, Jeedom va automatiquement remplir le
-> champs ID de l’UPS et créer autant d’équipement que vous avez d’UPS
-> sur votre serveur NUT.
+> Si no conoce la ID de sus UPS, deje el campo vacío y luego registre el equipo, Jeedom completará automáticamente el campo de ID de la UPS y creará la cantidad de equipos que tenga UPS en su servidor NUT.
 
-En-dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de pedidos :
 
--   **Nom** : le nom affiché sur le dashboard,
+-   **Nombre** : el nombre que se muestra en el tablero,
+-   **Mostrar** : permite mostrar los datos en el tablero
+-   **Probar** : Se usa para probar el comando,
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
-
-> **Important**
+> **Importante**
 >
-> Les commandes créées peuvent être différentes en fonction des
-> installations, cela dépend de ce que renvoi le serveur NUT
+> Los comandos creados pueden ser diferentes dependiendo de la instalación, depende de lo que envíe el servidor NUT
 
-> **Tip**
+> **Punta**
 >
-> Si votre serveur NUT est sur un NAS Synology, le nom utilisateur est
-> 'monuser', le mot de passe 'secret' et l’ID 'ups'. Bien qu’en laissant
-> la zone vide le plugin la rempli dans la plupart des cas.
+> Si su servidor NUT está en un NAS de Synology, el nombre de usuario es 'monuser', la contraseña 'secret' y el ID 'ups'. Aunque dejando el área vacía, el complemento lo llena en la mayoría de los casos.
