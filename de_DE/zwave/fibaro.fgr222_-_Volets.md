@@ -10,11 +10,11 @@
 
 ## Zusammenfassung
 
-. .
+Mit dem Mikromodul FGR-222 können Sie dank des Z-Wave-Protokolls die Motorisierungen des Verschlusses mit elektronischem Stopp, Jalousien oder sogar Garagentoren verwalten und dabei Ihren vorhandenen Schalter beibehalten. Sie können den angeschlossenen Motor daher über den vorhandenen Schalter, einen Z-Wave-Sender oder direkt über die Taste am Mikromodul aktivieren.
 
-.
+Darüber hinaus kann dieses Mikromodul den momentanen (W) und kumulativen (KWh) Stromverbrauch der daran angeschlossenen Geräte übertragen.
 
-.
+Ein Z-Wave-Controller (Fernbedienung, Dongle usw.) ist erforderlich, um dieses Modul in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
 Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modulen, um eine vollständige Abdeckung Ihres Hauses zu gewährleisten.
 
@@ -23,7 +23,7 @@ Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 ## Fonctions
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
--   
+-   Kompatibel mit BSO und Jalousie mit Lamellenpositionierung
 -   Wird hinter einem vorhandenen Switch installiert
 -   Auf / Ab und Positionierungsfunktion
 -   Kompatibel mit Motoren mit mechanischem oder elektronischem Anschlag
@@ -80,18 +80,18 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Zustand : 
--   Positionierung : 
+-   Zustand : Mit diesem Befehl können Sie die Position Ihres Verschlusses ermitteln
+-   Positionierung : Es ist der Befehl, mit dem der Prozentsatz der Öffnung definiert werden kann
 -   Auf : Mit diesem Befehl können Sie den Verschluss vollständig öffnen
 -   Runter : Es ist der Befehl, der den Verschluss vollständig schließt
--   Aktualisieren : 
+-   Aktualisieren : Mit diesem Befehl können Sie erneut nach der Position des Verschlusses fragen
 -   Macht : Befehl, der den Verbrauch des Moduls zulässt
--   Verbrauch : 
+-   Verbrauch : Befehl, mit dem die vom Modul verbrauchte Momentanleistung ermittelt werden kann
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
--   STOP BSO : 
+-   STOP BSO : Befehl zum Stoppen der Bewegung (im einstellbaren Lamellenmodus)
 -   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
--   Nicht : 
+-   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder Neigen zu definieren
 
 ### Konfiguration des Moduls
 
@@ -111,27 +111,27 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   1: 
+-   1: ermöglicht das Blockieren des Moduls (zum Einfrieren eines Verschlusses) (beim Drücken eines Schalters)
 -   2: Das Gleiche gilt für zwave-Befehle
 -   3: Art der Berichte (klassisch oder faserig)
 -   10: Betriebsart (Jalousie, Verschluss usw.)
 -   12: Dauer einer vollen Runde (im Jalousiemodus)
--   13: 
+-   13: Hier können Sie auswählen, wann die Lamellen in ihre vorherige Position zurückkehren sollen
 -   14: ermöglicht die Auswahl des Schaltertyps
--   17: 
+-   17: Hier können Sie auswählen, wie lange nach dem in 18 festgelegten Grenzwert der Verschluss stoppt
 -   18: Motorsicherheitsleistung
 -   22: NA
 -   29: ermöglicht die Kalibrierung der Klappe
--   30 bis 35: 
--   40: 
+-   30 bis 35: ermöglicht es, das Verhalten des Moduls vor den verschiedenen zwave-Alarmen zu definieren
+-   40: Leistungsdelta, um eine Erhöhung der Informationen auszulösen (auch außerhalb des in 42 definierten Zeitraums)
 -   42: Info Feedback Zeitraum
--   43: 
--   44: 
--   50: 
+-   43: Energiedelta, um einen Informationsanstieg auszulösen (auch außerhalb des in 42 definierten Zeitraums)
+-   44: ermöglicht die Auswahl, ob der Verbrauch und die Leistung den des Moduls selbst umfassen müssen oder nicht
+-   50: Hier können Sie auswählen, ob das Modul die Informationen im Szenenmodus oder im Assoziationsmodus in Zuordnung an die Knoten senden soll
 
 ### Groupes
 
-.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
@@ -141,13 +141,13 @@ Parameterdetails :
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
-.
+Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken.
 
 ### Important
 
 > **Wichtig**
 >
-> .
+> Damit die Statusrückmeldung in Jeedom funktioniert, muss die Gerätekalibrierung erzwungen werden (Parameter 29 bis "Ja") und die Positionierung muss aktiv sein (Parameter 10 mit den Werten "Active Direct", "Active Venetian" "oder" Aktive Tür ").
 
 ### Alternative visuelle
 

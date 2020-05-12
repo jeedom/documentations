@@ -10,9 +10,9 @@
 
 ## Zusammenfassung
 
-.
+Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Niederspannungsbeleuchtung (Halogen oder LED), einem weißen RGB- oder RGB + -LED-Streifen wählen oder sogar analoge Sonden mit dem 0-Standard anschließen. 10V.
 
--   .
+-   4 analoge Eingänge 0 bis 10 V zum Anschluss an viele kompatible Sensoren, Potentiometer, Drucktasten (monostabil) oder Schalter (bistabil).
 -   4 Dimmerausgänge (PWM) zur Steuerung :
 -   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 -   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
@@ -82,17 +82,17 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Farbe : 
--   Schornstein : 
+-   Farbe : Mit diesem Befehl können Sie den anzuzeigenden Farbcode anpassen
+-   Schornstein : Dies ist der Befehl, der eine Kaminatmosphäre simuliert
 -   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
--   Morgendämmerung : 
--   Verblassen : 
+-   Morgendämmerung : Es ist der Befehl, der eine Aude-Atmosphäre simuliert (progressiver Sonnenaufgang)
+-   Verblassen : Dies ist der Befehl, der das gesamte Farbspektrum simuliert
 -   RBB : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
--   Kaltes Weiß : . 
--   Warmes Weiß : . 
--   Ein : 
+-   Kaltes Weiß : Dies ist der Befehl, der eine kühle weiße Farbe simuliert, wenn der Farbstreifen dies zulässt. (Dieser Befehl ist standardmäßig nicht sichtbar.)
+-   Warmes Weiß : Dies ist der Befehl, der eine warmweiße Farbe simuliert, wenn der Farbstreifen dies zulässt. (Dieser Befehl ist standardmäßig nicht sichtbar.)
+-   Ein : Dies ist der Befehl, mit dem das Banner in der zuletzt ausgewählten Farbe aktiviert wird
 -   Aus : Dies ist der Befehl, der das Banner ausschaltet
--   Intensität : 
+-   Intensität : Es ist die Steuerung, mit der die Lichtintensität eingestellt werden kann
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf demselben Symbol befinden
 
@@ -108,11 +108,11 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
-.
+Bitte beachten Sie den vorherigen Screenshot, dessen Parameter ins Französische übersetzt werden.
 
 ### Groupes
 
-.
+Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist wesentlich.
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
@@ -124,7 +124,7 @@ Verwendung von 0-10V Sensoren.
 
 > **Kaution**
 >
-> .
+> Im Moment erlaubt die Standardkonfiguration von jeedom dies nicht, aber eine bestimmte Konfiguration kann in Betracht gezogen werden.
 
 ### Alternative visuelle
 

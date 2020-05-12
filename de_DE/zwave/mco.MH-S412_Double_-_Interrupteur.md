@@ -10,18 +10,18 @@
 
 ## Zusammenfassung
 
-.
+Mit dem MH-S412-EU-Switch können Sie die beiden angeschlossenen Lasten entweder manuell wie ein herkömmlicher Switch oder remote über das Z-Wave-Funkprotokoll umschalten.
 
 Die Glasoberfläche und das Design bringen einen modernen Stil.
 
-.
+Der Schalter MH-S412-EU kann jede Art von Last, Beleuchtung oder Elektrogerät steuern.
 
-.
+Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seinen Status anzeigt.
 
 ## Fonctions
 
 -   Steuern Sie zwei Lampen oder Geräte fern
--   
+-   Wird anstelle eines vorhandenen Schalters installiert (passt perfekt in eine 40-mm-Unterputzdose)
 -   EIN / AUS-Funktion
 -   Unterstützungszuordnungsbefehle (Gruppe 1 und Gruppe 2)
 -   Kontrolle der beiden Ladungen vor Ort
@@ -55,7 +55,7 @@ Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeed
 
 > **Wichtig**
 >
-> .
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie eine der beiden Tasten auf der Vorderseite gemäß der Papierdokumentation 3 Sekunden lang.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
@@ -77,11 +77,11 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   1: Speicherzustand vor Stromausfall : 
+-   1: Speicherzustand vor Stromausfall : enable (ermöglicht das Auffinden des letzten Zustands der Schalter unmittelbar vor dem Stromausfall) disable (die Schalter befinden sich im AUS-Zustand, wenn das Netz zurückkehrt)
 
 ### Groupes
 
-Dieses Modul hat 3 Zuordnungsgruppen. .
+Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist wesentlich.
 
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
@@ -89,14 +89,14 @@ Dieses Modul hat 3 Zuordnungsgruppen. .
 
 ### Besonderheiten
 
-- 
-- 
-- 
-- 
+- Die Touch-Tasten haben einen blauen Heiligenschein, wenn die Last gesteuert wird
+- Die Touch-Tasten haben einen orangefarbenen Heiligenschein, wenn die Last nicht gesteuert wird
+- Die Berührung ist eher angenehm und die reaktionsschnelle Steuerung
+- Dieser Schalter kann seine Last im autonomen Modus steuern (nicht an einen Z-Wave-Controller angeschlossen)
 
 ## Wakeup
 
-
+Da dieses Modul an das Stromnetz (220 V) angeschlossen ist, ist der Wecker sofort verfügbar und erfordert daher keine besonderen Maßnahmen beim Ändern von Parametern
 
 ## Faq.
 

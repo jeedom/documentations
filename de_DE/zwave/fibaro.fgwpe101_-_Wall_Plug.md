@@ -10,14 +10,14 @@
 
 ## Zusammenfassung
 
-. . . 
+Der Fibaro-Wandstecker ist ein universeller Empfänger-Sockel-Sender in Form eines Adapters zum Anschließen an eine Wandsteckdose im Stromnetz, der mit dem Z-Wave-Standard kompatibel ist. Sie können jedes Gerät mit einer maximalen Leistung von 2,5 kW verwalten und gleichzeitig die Funktionalität zur Messung der Wirkleistung des Stroms und des Energieverbrauchs der Geräte integrieren. Dieses Modul ist mit einem Lichtring mit LEDs ausgestattet, die den Status und den Energieverbrauch aller angeschlossenen Geräte anzeigen. Der Fibaro-Wandstecker kann über einen Knopf am Gehäuse oder über einen beliebigen Controller gesteuert werden, der mit dem Z-Wave-Standard kompatibel ist
 
 ## Fonctions
 
 -   Wird von einem Controller gesteuert, der mit dem Z-Wave-Standard kompatibel ist.
 -   Mikrochip-Steuerung.
 -   Ausführungselement: Relais.
--   .
+-   Messung der Wirkleistung von Strom und elektrischer Energie des Empfängers.
 
 ## Technische Daten
 
@@ -65,10 +65,10 @@ Hier ist die Liste der Befehle :
 -   Zustand : Es ist der Befehl, mit dem der Status des Sockets ermittelt werden kann
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
--   Macht : 
+-   Macht : Es ist der Befehl, der die momentan verbrauchte Energie aufruft
 -   Verbrauch : Es ist die Bestellung, die den Gesamtverbrauch angibt
 
-.
+Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
 ### Konfiguration des Moduls
 
@@ -89,28 +89,28 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 Parameterdetails :
 
 -   1: ermöglicht das Blockieren des Moduls in immer EIN
--   16: 
--   34: 
+-   16: Mit dieser Option können Sie sich bei einem Stromausfall den letzten Status merken
+-   34: Hier können Sie auswählen, auf welche Art von Zwave-Netzwerkalarm der Socket reagieren soll
 -   35: Hier können Sie festlegen, wie die Steckdose auf Alarme reagiert
 -   39: Legt die Dauer des Alarms fest
--   40: 
--   42: 
+-   40: ermöglicht zu definieren, um wie viel die Leistung variieren muss, um erhöht zu werden (in%)
+-   42: wie im Standardmodus (bis zu 5 Mal pro Schritt gemäß Parameter 43)
 -   43: Leistungsanstiegsintervall
 -   45: Verbrauchsanstiegsintervall (in kWh 10 = 0,1 kWh)
--   47: 
--   49: 
+-   47: Intervall in Sekunden für die Meldung von Informationen unabhängig von einer Abweichung
+-   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in den Werten
 -   50: Mindestwert von Parameter 52
 -   51: Maximalwert von Parameter 52 verwendet
--   52: 
+-   52: Maßnahme, die zu ergreifen ist, wenn die Leistung die in den Parametern 50 und 51 definierten Grenzen verlässt
 -   60: Strom, ab dem der Stecker lila blinkt
 -   61: Farbe, wenn der Stecker an ist
 -   62: Farbe bei ausgeschaltetem Stecker
 -   63: Farbe, wenn ein Zwave-Alarm erkannt wird
--   70: 
+-   70: Sicherheitsstrom (der Stecker wird unterbrochen, wenn der Strom diesen Schwellenwert erreicht)
 
 ### Groupes
 
-.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
@@ -120,7 +120,7 @@ Parameterdetails :
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
 
-. .
+Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. Wählen Sie PressButton.
 
 ## Wakeup
 

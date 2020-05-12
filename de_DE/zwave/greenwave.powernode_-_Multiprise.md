@@ -10,22 +10,22 @@
 
 ## Zusammenfassung
 
-. . .
+Der GreenWave PowerNode Power Strip ist ein intelligentes Gerät, das mit Ihren Geräten und Ihrer Elektronik verbunden wird, damit Sie den Stromverbrauch Ihrer Geräte über einen Webbrowser oder ein Smartphone fernüberwachen und steuern können. Mithilfe der Z-Wave-Technologie ist die PowerNode-Steckdosenleiste mit den meisten auf dem Markt erhältlichen Hausautomationsboxen wie Fibaro Home Center 2, eedomus oder Zipabox kompatibel. Ausgestattet mit 6 Anschlüssen kann es 6 verschiedene elektrische Geräte mit einer Gesamtleistung von 10A unabhängig voneinander steuern.
 
-. . . . Zum Beispiel "blau für das Schlafzimmer ". . . .
+Die PowerNode-Steckdosenleiste sammelt Daten zum Energieverbrauch angeschlossener Geräte und überträgt diese an die Hausautomationsbox. Sie können dann den Energieverbrauch jedes angeschlossenen Geräts steuern. Mit dieser Steckdosenleiste können Sie Geräte auch remote über einen Webbrowser oder ein Smartphone aktivieren oder deaktivieren oder einen Kalender definieren, um Ihre Geräte zu vordefinierten Zeiten automatisch zu aktivieren oder zu deaktivieren. Mit einem kleinen Rad an der Seite der Steckdosenleiste können Sie eine Farbe auswählen, die den Raum darstellt, dem die Steckdosenleiste zugeordnet ist. Zum Beispiel "blau für das Schlafzimmer ". Mit diesem Tipp können Sie Ihre verschiedenen PowerNode-Mehrfachsteckdosen unterscheiden. Sie können dieses Einstellrad auch auf ein Vorhängeschloss einstellen. Mit dieser Funktion können Sie die Steckdosenleiste verriegeln, um ein versehentliches Ausschalten zu vermeiden. Eine Steuerung über die Hausautomationsbox ist jedoch nicht mehr möglich.
 
- : .
+Die PowerNode-Steckdosenleiste verfügt außerdem über eine Lichtstatusanzeige, die je nach Farbe unterschiedliche Informationen liefert : Steckdosen ein oder aus, begrenzte Funkreichweite, Einschluss- und Ausschlussmodus.
 
-. . .
+Die PowerNode-Steckdosenleiste ist mit einem Überstromschutz ausgestattet, um angeschlossene Geräte zu schützen. PowerNode deaktiviert Ports bei einem fehlerhaften Gerät oder einem Kurzschluss. Zusätzlichen Schutz bietet die interne Sicherung in der Steckdosenleiste.
 
-.
+Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in einem Fernsehschrank oder für die Steuerung von Computergeräten in einem Büro, um die Verwendung von 6 einzelnen Z-Wave-Buchsen zu vermeiden.
 
 ## Fonctions
 
 -   6-Port Z-Wave Steckdosenleiste
 -   Ermöglicht die Überwachung des Verbrauchs angeschlossener Geräte
 -   EIN / AUS-Funktion
--   .
+-   Möglichkeit, ihm eine Nummer und eine Farbe zuzuweisen, um die verschiedenen PowerNodes derselben Installation zu unterscheiden.
 -   Ein / Aus-Taste direkt auf der Steckdosenleiste
 -   Überstromschutz
 -   Lichtstatusanzeige
@@ -60,7 +60,7 @@ Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeed
 
 > **Wichtig**
 >
-> .
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Einschluss-Taste am Sockel.
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
@@ -84,38 +84,38 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Zustand-1 : 
+-   Zustand-1 : Es ist der Befehl, mit dem der Status des Sockets 1 ermittelt werden kann
 -   On-1 : Dies ist der Befehl, der Socket 1 einschaltet
 -   Aus-1 : Es ist der Befehl, der Socket 1 ausschaltet
--   Power-1 : 
--   Conso-1 : 
--   Zustand-2 : 
+-   Power-1 : Es ist der Befehl, der die momentane Stromaufnahme von Buchse 1 aufruft
+-   Conso-1 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 1 meldet
+-   Zustand-2 : Es ist der Befehl, mit dem der Status von Socket 2 ermittelt werden kann
 -   On-2 : Es ist der Befehl, der Socket 2 einschaltet
 -   Aus-2 : Es ist der Befehl, der Sockel 2 ausschaltet
--   Power-2 : 
--   Conso-2 : 
--   Zustand-3 : 
+-   Power-2 : Es ist der Befehl, der den momentanen Stromverbrauch von Buchse 2 aufruft
+-   Conso-2 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 2 meldet
+-   Zustand-3 : Es ist der Befehl, mit dem der Status des Sockets 3 ermittelt werden kann
 -   On-3 : Dies ist der Befehl, der Socket 3 einschaltet
 -   Aus-3 : Es ist der Befehl, der Socket 3 ausschaltet
--   Power-3 : 
--   Conso-3 : 
--   Zustand-4 : 
+-   Power-3 : Es ist der Befehl, der den momentanen Stromverbrauch von Buchse 3 aufruft
+-   Conso-3 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 3 meldet
+-   Zustand-4 : Es ist der Befehl, mit dem der Status des Sockets 4 ermittelt werden kann
 -   On-4 : Es ist der Befehl, der Socket 4 einschaltet
 -   Aus-4 : Es ist der Befehl, der Socket 4 ausschaltet
--   Power-4 : 
--   Conso-4 : 
--   Zustand-5 : 
+-   Power-4 : Es ist der Befehl, der die momentane Stromaufnahme von Buchse 4 aufruft
+-   Conso-4 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 4 meldet
+-   Zustand-5 : Es ist der Befehl, mit dem der Status des Sockets 5 ermittelt werden kann
 -   On-5 : Es ist der Befehl, der Socket 5 einschaltet
 -   Aus-5 : Es ist der Befehl, der Socket 5 ausschaltet
--   Power-5 : 
--   Conso-5 : 
--   Zustand-6 : 
+-   Power-5 : Es ist der Befehl, der die momentane Stromaufnahme von Buchse 5 aufruft
+-   Conso-5 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 5 meldet
+-   Zustand-6 : Es ist der Befehl, mit dem der Status des Sockets 6 ermittelt werden kann
 -   On-6 : Es ist der Befehl, der Socket 6 einschaltet
 -   Aus-6 : Es ist der Befehl, der Socket 6 ausschaltet
--   Power-6 : 
--   Conso-6 : 
+-   Power-6 : Es ist der Befehl, der die momentane Stromaufnahme von Buchse 6 aufruft
+-   Conso-6 : Es ist der Befehl, der den Gesamtverbrauch von Steckdose 6 meldet
 
-.
+Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
 ### Konfiguration des Moduls
 
@@ -127,16 +127,16 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
-.
+Wie Sie sehen, gibt es für dieses Modul nicht viel Konfiguration.
 
 Parameterdetails :
 
--   1 : Verzögerungen, bevor die Taste blinkt : 
+-   1 : Verzögerungen, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
 -   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
 ### Groupes
 
-.
+Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe ist wichtig.
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
@@ -144,16 +144,16 @@ Parameterdetails :
 
 ### Besonderheiten / Polling
 
-.
+Im Gegensatz zu seiner kleinen Schwester "Une Prize" muss diese Steckdosenleiste abgefragt werden, um den Verbrauch zu steigern.
 ![Config2](images/greenwave.powernode/config2.jpg)
 
-. 
+Es ist nur erforderlich, es für den Power-Befehl jeder Buchse zu aktivieren. Dies hat zur Folge, dass die beiden Werte erhöht werden (Verbrauch und Leistung)
 
 ### Gesamtverbrauch
 
 ![consocumul](images/greenwave.powernode/consocumul.jpg)
 
-.
+Sie können eine virtuelle verwenden, um einen kumulativen Verbrauch der 6 Sockets zu erstellen.
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
@@ -161,7 +161,7 @@ Parameterdetails :
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-. . .
+Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. (Es gibt einen Reset pro Socket). Wählen Sie PressButton.
 
 ## Wakeup
 
