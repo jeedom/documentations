@@ -1,28 +1,28 @@
 Aeotec Garage door controller 
 ====================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/aeotec.garagedoorcontroller/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 Easily connected to the existing door motor, the controller
 garage door enhances it with a suite of security sensors and
@@ -33,12 +33,12 @@ smart comes with the garage door controller knows if the door
 is open or closed, and can alert you when what's going on doesn't
 should not.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control and monitor your garage door remotely.
 
@@ -70,12 +70,12 @@ Functions
 
 -   Optimization of the antenna, range 300 meters.
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave + 500 series receiver and transmitter
 
@@ -100,12 +100,12 @@ Technical characteristics
 
 -   Certifications: FCC, UL, CE, ROHS
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Aeotec
 
@@ -117,54 +117,54 @@ Module data
 
 -   Product ID : 62
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > Z-Wave, in accordance with its paper documentation.
 
-\
+
 
 ![inclusion](images/aeotec.garagedoorcontroller/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/aeotec.garagedoorcontroller/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/aeotec.garagedoorcontroller/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Open / Close : Open, close or stop the garage door.
 
@@ -176,36 +176,36 @@ Here is the list of commands :
 
 -   Sabotage : Text sabotage status.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![Config1](images/aeotec.garagedoorcontroller/config1.jpg)
 
 ![Config1](images/aeotec.garagedoorcontroller/config2.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   34: Allows you to start the calibration of the opening time of
     the door.
@@ -217,25 +217,25 @@ Parameter details :
 
 -   255 : allows resetting the factory configuration
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has two association groups. The first "Lifeline" is
 indispensable.
 
-\
+
 
 ![Groupe](images/aeotec.garagedoorcontroller/groupe.jpg)
 
-\
+
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
@@ -257,7 +257,7 @@ The calibration is completed
 
 -   Parameter 35 will be updated with the calculated opening time.
 
-\
+
 
 Sabotage reset:
 
@@ -271,13 +271,13 @@ The calibration is completed
 
 -   Parameter 41 will be updated with "Sensor is not removed".
 
-\
+
 
 Faq. 
 ------
 
-\
 
-\
+
+
 
 **@nechry**

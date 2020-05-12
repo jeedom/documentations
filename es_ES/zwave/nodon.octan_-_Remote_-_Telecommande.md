@@ -1,28 +1,28 @@
 Mando a distancia Nodon - Octan 
 ==========================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/nodon.octan/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El Octan Remote NodOn® le permite controlar cualquier receptor
 Compatible con Z-Wave® o Z-Wave Plus®, como la toma del control remoto
@@ -35,12 +35,12 @@ refrigerador, a través de su soporte de pared. Entre control remoto
 y cambia, el control remoto Octan revoluciona el control de objetos
 domestiques
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Control solo o con un sistema domótico
 
@@ -52,12 +52,12 @@ Funciones
 
 -   2 años de batería
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
@@ -77,12 +77,12 @@ Características técnicas
 
 -   2 años de garantia
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Nodon
 
@@ -94,18 +94,18 @@ Datos del módulo
 
 -   ID del producto : 1
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -113,36 +113,36 @@ inclusión refiérase a esto
 > botón (1 y 2) hasta que la luz se vuelva rosa y luego presione
 > botón 1, según su documentación en papel.
 
-\
+
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/nodon.octan/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Botones : es el comando que empujará el botón hacia arriba
 
@@ -158,41 +158,41 @@ Aquí está la lista de comandos :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/nodon.octan/config1.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1-2 : Le permite elegir los perfiles de botón cuando se usa en
     central (no es necesario para usar en Jeedom)
@@ -207,17 +207,17 @@ Detalles del parámetro :
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene 7 grupos de asociación.
 
-\
+
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
-\
+
 
 -   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
     transferir información del Smart Plug al controlador principal
@@ -229,50 +229,50 @@ Este módulo tiene 7 grupos de asociación.
 -   Grupo 6 a 7: los dispositivos de estos grupos están controlados por
     botón correspondiente según perfil DUO
 
-\
+
 
 > **Importante**
 >
-> Como mínimo, Jeedom debería terminar en el grupo 1 \
+> Al menos Jeedom debería terminar en el grupo 1 
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en
     Despierte 1 o 2 veces después de la inclusión y verifique
     grupo de asociación.
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, solo presione uno de los botones
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración no será
 tenga en cuenta que si despierta el control remoto.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -280,6 +280,6 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@sarakha63**

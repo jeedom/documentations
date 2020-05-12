@@ -1,28 +1,28 @@
 Controlador de puerta de garaje Aeotec 
 ====================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/aeotec.garagedoorcontroller/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/aeotec.garagedoorcontroller/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 Fácilmente conectado al motor de la puerta existente, el controlador
 la puerta del garaje la mejora con un conjunto de sensores de seguridad y
@@ -33,12 +33,12 @@ inteligente viene con el controlador de puerta de garaje sabe si la puerta
 está abierto o cerrado, y puede alertarlo cuando lo que está sucediendo no
 no deberia.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Controla y controla la puerta de tu garaje de forma remota.
 
@@ -70,12 +70,12 @@ Funciones
 
 -   Optimización de la antena, alcance 300 metros.
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Receptor y transmisor de la serie Z-Wave + 500
 
@@ -100,12 +100,12 @@ Características técnicas
 
 -   Certifications: FCC, UL, CE, ROHS
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Aeotec
 
@@ -117,54 +117,54 @@ Datos del módulo
 
 -   ID del producto : 62
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > Z-Wave, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/aeotec.garagedoorcontroller/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/aeotec.garagedoorcontroller/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Abrir / cerrar : Abrir, cerrar o detener la puerta del garaje.
 
@@ -176,36 +176,36 @@ Aquí está la lista de comandos :
 
 -   Sabotaje : Estado de sabotaje de texto.
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/aeotec.garagedoorcontroller/config1.jpg)
 
 ![Config1](images/aeotec.garagedoorcontroller/config2.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   34: Le permite iniciar la calibración del tiempo de apertura de
     la puerta.
@@ -217,25 +217,25 @@ Detalles del parámetro :
 
 -   255 : permite restablecer la configuración de fábrica
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene dos grupos de asociación. El primer "Lifeline" es
 indispensable.
 
-\
+
 
 ![Groupe](images/aeotec.garagedoorcontroller/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
@@ -257,7 +257,7 @@ La calibración se ha completado
 
 -   El parámetro 35 se actualizará con el tiempo de apertura calculado.
 
-\
+
 
 Reinicio de sabotaje:
 
@@ -271,13 +271,13 @@ La calibración se ha completado
 
 -   El parámetro 41 se actualizará con "El sensor no se elimina".
 
-\
+
 
 Faq. 
 ------
 
-\
 
-\
+
+
 
 **@nechry**

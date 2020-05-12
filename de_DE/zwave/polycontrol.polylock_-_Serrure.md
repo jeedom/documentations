@@ -1,23 +1,23 @@
 PolyLock 
 ========
 
-\.
+
 
 -   **Das Modul**
 
-\.
+
 
 ![module](images/polycontrol.polylock/module.jpg)
 
-\.
+
 
 -   **Das Jeedom Visual**
 
-\.
+
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-\.
+
 
 Zusammenfassung 
 ------
@@ -49,12 +49,12 @@ häuslich oder beruflich. Das Poly-Lock wird mit Strom versorgt
 Batterie, und wurde getestet, um für 1 Jahr ohne zu arbeiten
 Batteriewechsel.
 
-\.
+
 
 Funktionen 
 ---------
 
-\.
+
 
 -   Steuern Sie Ihre Haustür fern
 
@@ -69,12 +69,12 @@ Funktionen
 
 -   Einfache Installation
 
-\.
+
 
 Technische Daten 
 ---------------------------
 
-\.
+
 
 -   Versorgung : 3,6 V Lithium-Chlorid-Batterie
 
@@ -87,12 +87,12 @@ Technische Daten
 
 -   Gewicht : 370g
 
-\.
+
 
 Moduldaten 
 -----------------
 
-\.
+
 
 -   Machen Sie : Poly-Control
 
@@ -104,54 +104,54 @@ Moduldaten
 
 -   Produkt-ID : 1
 
-\.
+
 
 Konfiguration 
 -------------
 
-\.
+
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
-[Dokumentation](https://jeedom.fr/doc/documentation/plugins/openzwave/de_DE/openzwave.html).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-\.
+
 
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste 1 Mal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-\.
+
 
 ![inclusion](images/polycontrol.polylock/inclusion.jpg)
 
-\.
+
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-\.
+
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-\.
+
 
 ### Befehle 
 
-\.
+
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-\.
+
 
 ![Befehle](images/polycontrol.polylock/commandes.jpg)
 
-\.
+
 
 Hier ist die Liste der Befehle :
 
-\.
+
 
 -   Status : Es ist der Befehl, der die letzte Aktion ausführt
     ausgeführt (öffnen / schließen)
@@ -162,11 +162,11 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-\.
+
 
 ### Konfiguration des Moduls 
 
-\.
+
 
 > **Warnung**
 >
@@ -175,30 +175,30 @@ Hier ist die Liste der Befehle :
 > Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
 > als Sektormodul.
 
-\.
+
 
 Wenn Sie das Modul entsprechend Ihrer Konfiguration konfigurieren möchten
 Installation müssen Sie über die Schaltfläche "Konfiguration" der
 Jeedom OpenZwave Plugin.
 
-\.
+
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\.
+
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-\.
+
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
-\.
+
 
 Parameterdetails :
 
-\.
+
 
 -   0: Ermöglicht das Ändern der Drehrichtung für die Befehle
     öffnen / schließen
@@ -215,28 +215,28 @@ Parameterdetails :
 -   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten
     (Drehmoment, Kraft, Leistung usw.)
 
-\.
+
 
 ### Gruppen 
 
-\.
+
 
 Dieses Modul hat nur eine Zuordnungsgruppe.
 
-\.
+
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-\.
+
 
 Anwendungsbeispiele 
 ----------------------
 
-\.
+
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
-\.
+
 
 Der Auslöser ist der Ereignisbefehl einer Zipato-Tastatur
 (es kann alles andere sein). Wenn der Wert 6 (home) ist
@@ -245,16 +245,16 @@ die Schlüsseltür. Andernfalls (unbedingt 5) wird die Tür mit einem Schlüssel
 nachdem wir es geschlossen haben. In der Tat wollen wir raus, die Tür öffnet sich und
 wird bald danach schließen.
 
-\.
+
 
 Gut zu wissen 
 ------------
 
-\.
+
 
 ### Besonderheiten 
 
-\.
+
 
 > **Spitze**
 >
@@ -263,37 +263,37 @@ Gut zu wissen
 > Konfigurationsänderungen werden nahezu in Echtzeit wiederhergestellt
 > als Sektormodul.
 
-\.
+
 
 > **Spitze**
 >
 > Dieses Modul gibt seinen Status nicht zurück, wenn Sie die Sperre am
-> Andererseits bleibt der Zustand derselbe. \
+> Andererseits wird der Zustand derselbe bleiben. 
 
 ### Alternative visuelle 
 
-\.
+
 
 ![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
 
-\.
+
 
 Wach auf 
 -------
 
-\.
+
 
 Für dieses Modul gibt es kein Konzept zum Aufwecken.
 
-\.
+
 
 Faq. 
 ------
 
-\.
+
 
 Kein Konzept zum Aufwecken auf diesem Modul, lesen Sie den spezifischen Absatz.
 
-\.
+
 
 **@sarakha63**

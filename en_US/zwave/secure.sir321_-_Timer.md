@@ -1,28 +1,28 @@
 Secure SIR 321 "Timer" 
 ======================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/secure.sir321/module.jpg)
 
-\
+
 
 -   **The jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The SIR321 digital timer is a simple switch to
 push button that remembers turning off your devices for you
@@ -37,12 +37,12 @@ boost ranges from 30 to 120 minutes.
 SIR 321 supports SES001 external temperature sensors,
 SES002 and SES003.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Booster for immersion heater, panel radiator, heated towel rail,
     oil bath radiator
@@ -57,12 +57,12 @@ Functions
 
 -   Save energy
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type: Electronic timer
 
@@ -77,12 +77,12 @@ Technical characteristics
 
 -   Operating temperature: 0 ° C to 35 ° C
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Horstmann
 
@@ -93,18 +93,18 @@ Module data
 -   Product Type : 1/2 (depending on whether it is included with a probe
     or not)
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -112,36 +112,36 @@ inclusion refer to this
 > the button (until rapid flashing) and release, in accordance with
 > paper documentation.
 
-\
+
 
 ![inclusion](images/secure.sir321/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/secure.sir321/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   We : this is the command to turn on the relay
 
@@ -150,33 +150,33 @@ Here is the list of commands :
 -   Temperature : this is the temperature measurement command if a
     external probe is present
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 If you want to configure the module you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/secure.sir321/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1: Allows you to activate or not the fail safe timer function (refer to
     module documentation)
@@ -192,23 +192,23 @@ Parameter details :
 -   5: Allows you to set a cut off temperature above which
     the module will cut off the relay
 
-\
+
 
 ### Groups 
 
-\
+
 
 This module has two association groups. If the first is
 essential, the second is active and is essential if a probe
 of temperature is related.
 
-\
+
 
 ![Groupe](images/secure.sir321/groupe.jpg)
 
 Faq. 
 ------
 
-\
+
 
 **@sarakha63**

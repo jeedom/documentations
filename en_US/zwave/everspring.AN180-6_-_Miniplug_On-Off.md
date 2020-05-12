@@ -1,28 +1,28 @@
 Everspring Miniplug On / Off - AN180-6 
 ====================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/everspring.AN180-6/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/everspring.AN180-6/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The Mini On / Off Plug is designed to control ignition and
 switching off the lights and electrical equipment of your
@@ -35,12 +35,12 @@ to work with all Z-Wave ™ compatible networks. She can
 be controlled by a remote control, PC software, or any
 Z-Wave controller for your network.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control a lamp or device remotely
 
@@ -60,12 +60,12 @@ Functions
 
 -   Z-Wave repeater function
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver
 
@@ -85,12 +85,12 @@ Technical characteristics
 
 -   Dimensions : Length (plug included) : 74mm Diameter : 52mm
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Everspring
 
@@ -102,18 +102,18 @@ Module data
 
 -   Product ID : 7
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -122,36 +122,36 @@ inclusion refer to this
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
-\
+
 
 ![inclusion](images/everspring.AN180-6/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the modules will be
 disponibles.
 
-\
+
 
 ![Commands](images/everspring.AN180-6/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   State : It is the command which allows to know the status of the
     socket (On / Off)
@@ -160,39 +160,39 @@ Here is the list of commands :
 
 -   Off : It is the command which makes it possible to extinguish the catch
 
-\
+
 
 Note that on the dashboard, the status information, ON / OFF can be found on
 the same icon.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1 : This parameter defines the status value command, it is not
     advised to change this value.
@@ -205,49 +205,49 @@ Parameter details :
 
 ### Groups 
 
-\
+
 
 This module has 2 association groups.
 
-\
+
 
 ![Groupe](images/everspring.AN180-6/groupe.jpg)
 
-\
+
 
 > **IMPORTANT**
 >
-> At a minimum Jeedom should end up in group 1 \
+> At least Jeedom should end up in group 1 
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+    seconds. 
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Yes it is parameter 2 and it cannot be set below 3
 secondes.
 
-\
+
 
 **@sarakha63**

@@ -1,28 +1,28 @@
 Nodon Smart Plug - Smartplug 
 ====================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/nodon.smartplug/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 The NodOn® remote-controlled socket can be controlled via a home automation system
 Z-Wave® or Z-Wave Plus® compatible or directly via other
@@ -35,12 +35,12 @@ neighboring barrels on a power strip. Learning to take with sound
 controller requires only a few seconds. A local button allows
 turn the plug on or off directly.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Line current loss detection
 
@@ -53,12 +53,12 @@ Functions
 
 -   Maximum amperage: 16A
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Food : 230V AC +/- 10% - 50Hz
 
@@ -78,12 +78,12 @@ Technical characteristics
 
 -   EU type
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : Nodon
 
@@ -95,18 +95,18 @@ Module data
 
 -   Product ID : 1
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -114,36 +114,36 @@ inclusion refer to this
 > until the light turns red, according to its documentation
 > paper.
 
-\
+
 
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/nodon.smartplug/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   State : It is the command which allows to know the status of the
     socket (On / Off)
@@ -155,41 +155,41 @@ Here is the list of commands :
 -   Status : Used to find out whether the outlet is powered or not
     (Power failure / disconnection detection)
 
-\
+
 
 Note that on the dashboard, the status information, ON / OFF can be found on
 the same icon.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom Zwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1 : This parameter defines the state (ON / OFF) of the Smart Plug after a
     power failure or after connection
@@ -213,15 +213,15 @@ Parameter details :
 
 ### Groups 
 
-\
+
 
 This module has 8 association groups.
 
-\
+
 
 ![Groupe](images/nodon.smartplug/groupe.jpg)
 
-\
+
 
 -   Group 1 - Lifeline : This group is generally used for
     transfer information from the Smart Plug to the main controller
@@ -260,52 +260,52 @@ This module has 8 association groups.
 -   Group 8 - Deactivation on current return When the Smart Plug
     detects a return of current, it deactivates the associated devices
 
-\
+
 
 > **IMPORTANT**
 >
-> At a minimum Jeedom should be found in groups 1 and 4 \
+> At a minimum Jeedom should be found in groups 1 and 4 
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 -   There is no point in having fun plugging / unplugging the plug for
     observe the alarm. This will only work about 3 times. At
     beyond the socket must remain powered for a while to recharge
     the internal battery.
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 You should not have the option to download auto widgets
 activated. You can retrieve the mobile and dashboard widgets on the
 Market : alarm\_back.
 
-\
+
 
 Have you set parameter 2 correctly? ? Do you have Jeedom well at least
 in groups 1 and 4 ? Do you allow time for the battery to
 load ?
 
-\
+
 
 **@sarakha63**

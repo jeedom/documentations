@@ -1,28 +1,28 @@
 Zipato miniKeypad RFID 
 ======================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/zipato.minikeypad/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 Controle su sistema de seguridad con este mini teclado de pared Zipato
 !
@@ -37,12 +37,12 @@ controlador de domótica el identificador de la insignia que ha sido reconocida.
 puede crear fácilmente escenarios basados en la persona
 quien usó su placa.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Código y teclado RFID
 
@@ -61,12 +61,12 @@ Funciones
 -   Zumbador integrado para indicación audible de armado / desarmado
     la alarma por ejemplo
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo : Esclavo Z-Wave
 
@@ -92,12 +92,12 @@ Características técnicas
 
 -   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Zipato
 
@@ -109,18 +109,18 @@ Datos del módulo
 
 -   ID del producto : 17665
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -129,36 +129,36 @@ inclusión refiérase a esto
 > parpadea dos veces) y suelta la pestaña para que
 > la inclusión tiene lugar.
 
-\
+
 
 ![inclusion](images/zipato.minikeypad//inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![commandes](images/zipato.minikeypad/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Acción : es el comando que subirá a casa / fuera (5 para fuera 6
     para el hogar)
@@ -171,41 +171,41 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![bouton configuration](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![config1](images/zipato.minikeypad/config1.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1: permite restablecer la configuración predeterminada (no recomendado)
 
@@ -219,19 +219,19 @@ Detalles del parámetro :
 -   5: modo de operación : modo normal o siempre despierto
     (no recomendado porque consume mucha batería)
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene dos grupos de asociación.
 
-\
+
 
 ![groupe](images/zipato.minikeypad/groupe.jpg)
 
-\
+
 
 > **Importante**
 >
@@ -240,23 +240,23 @@ Este módulo tiene dos grupos de asociación.
 
 ### Insignias / códigos 
 
-\
+
 
 En la página del equipo hay una pestaña Asistente.
 
-\
+
 
 ![bouton assistant](images/plugin/bouton_assistant.jpg)
 
-\
+
 
 Esto le permite agregar códigos. Verás una mesa allí.
 
-\
+
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
-\
+
 
 -   Esta tabla le permite ver los recuerdos ocupados en su
     clavier
@@ -272,22 +272,22 @@ Esto le permite agregar códigos. Verás una mesa allí.
 -   Es imposible (por razones de seguridad) leer el valor de un
     código registrado
 
-\
+
 
 > **Importante**
 >
 > Recuerde activar el módulo después de agregar un código o insignia.
 
-\
+
 
 Ejemplos de uso 
 ----------------------
 
-\
+
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
-\
+
 
 El disparador es el comando de evento, de hecho, este es
 actualizado solo cuando se ha presentado un código / insignia válido. Si la
@@ -298,20 +298,20 @@ síntesis de voz para hacer un informe meteorológico, por ejemplo. De lo contra
 5) activamos la alarma, cortamos la regleta, enviamos un
 notificación para informar que la casa está vacía.
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 El teclado lee códigos / insignias de dos maneras :
 
-\
+
 
 -   cuando presiona home / away durante los primeros 1 a 2
     segundos si comienza a escribir un código, leerá ese código
@@ -320,43 +320,43 @@ El teclado lee códigos / insignias de dos maneras :
     Modo de lectura de placa RFID (luz roja encendida). En ese momento
     él puede leer una placa, no antes.
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, hay dos formas de proceder :
 
-\
+
 
 -   presione el botón de manipulación y luego suéltelo después de 1 a 2 segundos
 
 -   presione Inicio, un número aleatorio e Ingrese
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo se activa presionando el botón de manipulación y
 relajante También puede despertarse presionando Inicio, luego 1 y luego
 Enter.
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -364,6 +364,6 @@ Nota importante
 > de la configuración, después de un cambio de despertador, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@sarakha63**

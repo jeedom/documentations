@@ -1,28 +1,28 @@
 Termostato SRT seguro de 323 "" 
 ===========================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/secure.srt323/module.jpg)
 
-\
+
 
 -   **El visual de la libertad**
 
-\
+
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El SRT323 es un termostato de batería montado en la pared. Tiene
 un botón giratorio que permite al usuario ajustar la temperatura
@@ -55,12 +55,12 @@ calefaccion. Ya no tendrá que preocuparse por volver a casa en
 una casa fría, siempre que tenga un teléfono inteligente, tableta o
 PC a mano y conectada a internet.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Termostato para aplicación doméstica
 
@@ -76,12 +76,12 @@ Funciones
 
 -   Un botón
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Controlador Z-Wave
 
@@ -105,12 +105,12 @@ Características técnicas
 
 -   Dimensiones : 86 x 86 x 36.25 mm
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Horstmann
 
@@ -122,18 +122,18 @@ Datos del módulo
 
 -   ID del producto : 4
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -141,11 +141,11 @@ inclusión refiérase a esto
 > posición ON y luego con la pantalla del dial L y presione el dial,
 > de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/secure.srt323/inclusion.jpg)
 
-\
+
 
 > **Importante**
 >
@@ -158,32 +158,32 @@ inclusión refiérase a esto
 > Inclusión / Exclusión. Luego, en la página de su módulo, haga clic en
 > lupa arriba a la derecha.
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/secure.srt323/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Temperatura : es el comando de medición de temperatura
 
@@ -196,34 +196,34 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Entonces es necesario configurar el módulo en
 dependiendo de su instalación. Esto requiere pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/secure.srt323/config1.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1: permite activar o no el sensor de temperatura interno
 
@@ -232,29 +232,29 @@ Detalles del parámetro :
 -   3: permite definir el nivel de variación de temperatura para
     Copia de seguridad del módulo (en unidades de 0.1 ° C)
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Para un funcionamiento óptimo de su módulo, Jeedom debe ser
 asociado con los 5 grupos
 
-\
+
 
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 > **Importante**
 >
@@ -264,34 +264,34 @@ Bueno saber
 > disminuirlo a unos 10 minutos. Por lo tanto, un cambio de punto de ajuste será
 > tomado en cuenta por el módulo como máximo después de 10 minutos
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, debe colocar el interruptor 1 en la posición ON y
 con la rueda, elija n y presione la rueda.
 
-\
+
 
 Faq. 
 ------
 
-\
 
-\
+
+
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -299,6 +299,6 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@sarakha63**

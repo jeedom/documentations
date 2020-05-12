@@ -1,23 +1,23 @@
 Fibaro RGVB Controler - FGRGB-101 
 =================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-\
+
 
 Summary 
 ------
@@ -47,7 +47,7 @@ or RGB + white or even to connect analog probes using
 
 -   Repeater function (router) to extend the Z-Wave network.
 
-\
+
 
 Functions 
 ---------
@@ -64,7 +64,7 @@ Functions
 
 -   Ease of use and installation
 
-\
+
 
 Technical characteristics 
 ---------------------------
@@ -101,7 +101,7 @@ Technical characteristics
 
 -   This module requires a Z-Wave controller to operate.
 
-\
+
 
 Module data 
 -----------------
@@ -116,48 +116,48 @@ Module data
 
 -   Product ID : 4096
 
-\
+
 
 Setup 
 -------------
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-\
+
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-\
+
 
 ### Commands 
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/fibaro.fgrgb101/commande_1.png)
 
 ![Commands](images/fibaro.fgrgb101/commande_2.png)
 
-\
+
 
 Here is the list of commands :
 
@@ -196,7 +196,7 @@ Here is the list of commands :
 Note that on the dashboard all the information is found on the same
 icone
 
-\
+
 
 ### Configuration of the module 
 
@@ -204,34 +204,34 @@ You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-\
+
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
-\
+
 
 Parameter details :
 
 Please refer to the previous screenshot, the settings
 being translated into french.
 
-\
+
 
 ### Groups 
 
 This module has five association groups, only the fifth is
 indispensable.
 
-\
+
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
@@ -242,7 +242,7 @@ Good to know
 
 Use of 0-10V sensors.
 
-\
+
 
 > **Bail**
 >
@@ -251,18 +251,18 @@ Use of 0-10V sensors.
 
 ### Alternative visual 
 
-\
+
 
 ![Alternative visual](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-\
+
 
 Wakeup 
 ------
 
 No notion of wakeup on this module.
 
-\
+
 
 Faq. 
 ------
@@ -270,5 +270,5 @@ Faq.
 For now, the default configuration of jeedom does not allow it,
 but a specific configuration can be considered.
 
-\
+
 

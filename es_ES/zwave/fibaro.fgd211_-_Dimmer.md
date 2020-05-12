@@ -1,28 +1,28 @@
 Dimmer Fibaro - FGD-211 
 =======================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/fibaro.fgd211/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El módulo de atenuación FGD-211 le permitirá controlar un
 lámpara o lámpara de techo de forma remota gracias al protocolo Z-Wave mientras
@@ -52,12 +52,12 @@ si ya tienes una red existente. Cada módulo Z-Wave funciona
 como repetidor inalámbrico con los otros módulos, para asegurar
 cobertura total de su hogar.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Control remoto de iluminación
 
@@ -75,12 +75,12 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Receptor Z-Wave
 
@@ -109,12 +109,12 @@ Características técnicas
 
 -   Normas : EN 55015 y EN 60669-2-1
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Grupo Fibar
 
@@ -126,29 +126,29 @@ Datos del módulo
 
 -   ID del producto : 4106
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
-\
+
 
 > **Punta**
 >
@@ -156,32 +156,32 @@ inclusión refiérase a esto
 > haciendo muchos de ida y vuelta en el interruptor o muchos
 > presione si tiene un interruptor de botón.
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/fibaro.fgd211/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
@@ -196,26 +196,26 @@ Aquí está la lista de comandos :
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-\
+
 
 ![Config1](images/fibaro.fgd211/config1.jpg)
 
@@ -223,11 +223,11 @@ Configuraciones)
 
 ![Config3](images/fibaro.fgd211/config3.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1: TODAS las funciones ON / ALL OFF : utilizado solo si ha asociado el
     FGD-211 a otro módulo
@@ -277,29 +277,29 @@ Detalles del parámetro :
 
 -   41: permite activar o no la función de activación de escena
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene tres grupos de asociación, solo el tercero es
 indispensable.
 
-\
+
 
 ![Groupe](images/fibaro.fgd211/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 > **Depositar**
 >
@@ -307,38 +307,38 @@ Bueno saber
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado
 > se establece en monoestable.
 
-\
+
 
 Si desea excluir / incluir el módulo sin desmontar su
 interruptor puede presionar su interruptor varias veces
 (o ir y venir en caso de un interruptor biestable)
 
-\
+
 
 ### Visual alternativo 
 
-\
+
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 No hay noción de activación en este módulo.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 No este módulo se puede incluir o excluir presionando varias veces
 en el interruptor.
 
-\
+
 **@sarakha63**

@@ -1,28 +1,28 @@
 Philio PST02 A - 4 en 1 
 =======================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/philio.pst02a/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El detector ZIP-PSM02-EU ofrece 4 funciones diferentes : detección de
 movimiento, detección de apertura, sensor de temperatura y detector
@@ -54,12 +54,12 @@ El detector también aumentará el brillo y la temperatura, es decir
 cambio significativo, y siempre que un movimiento o
 se detectan apertura / cierre. Un controlador Z-Wave (control remoto,
 dongle ...) es necesario para integrar este detector en su red
-si ya tienes una red existente. \
+si ya tienes una red existente. 
 
 Funciones 
 ---------
 
-\
+
 
 -   Detector 4 en 1: movimiento, apertura, temperatura, luz
 
@@ -83,12 +83,12 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Tipo de módulo : Transmisor de onda Z
 
@@ -124,12 +124,12 @@ Características técnicas
 
 -   Certificación Z-Wave : ZC08-13050003
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Philio Technology Corporation
 
@@ -141,54 +141,54 @@ Datos del módulo
 
 -   ID del producto : 12
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/philio.pst02a/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/philio.pst02a/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Presencia : es el comando que detectará una detección de presencia
 
@@ -205,33 +205,33 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -239,11 +239,11 @@ configuraciones)
 
 ![Config3](images/philio.pst02a/config3.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   2: permite ajustar la señal enviada a los módulos en el grupo
     asociación 2
@@ -292,63 +292,63 @@ Detalles del parámetro :
 -   22: valor en% de variación de brillo para activar un
     Informar valor recomendado : 10
 
-\
+
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene dos grupos de asociación, solo el primero es
 indispensable.
 
-\
+
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-\
+
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Visual alternativo 
 
-\
+
 
 ![vuewidget](images/philio.pst02a/vuewidget.jpg)
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, solo hay una forma :
 
 -   suelte el botón de manipulación y presiónelo nuevamente
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo se activa presionando su botón de manipulación.
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -356,6 +356,6 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@sarakha63**

@@ -1,28 +1,28 @@
 Control remoto Nodon - Control remoto suave 
 ================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/nodon.softremote/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El Soft Remote NodOn® puede controlar directamente cualquier dispositivo
 Compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn®.
@@ -30,12 +30,12 @@ Compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn®.
 También puede desencadenar escenas a través de un sistema de automatización del hogar
 compatible.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Controla cualquier dispositivo compatible con Z-Wave
 
@@ -45,12 +45,12 @@ Funciones
 
 -   6 colores disponibles
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 
@@ -71,12 +71,12 @@ Características técnicas
 
 -   2 años de garantia
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Nodon
 
@@ -88,18 +88,18 @@ Datos del módulo
 
 -   ID del producto : 2
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -107,36 +107,36 @@ inclusión refiérase a esto
 > botón (+ y 0 lleno) hasta que la luz se vuelva rosa
 > presione el botón +, de acuerdo con su documentación en papel.
 
-\
+
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/nodon.softremote/commandes.png)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Botones : es el comando que empujará el botón hacia arriba
 
@@ -155,41 +155,41 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando que eleva el nivel de las baterías
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-\
+
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/nodon.softremote/config1.png)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1-2 : Le permite elegir el perfil de los botones cuando se usa en
     central (no es necesario para usar en Jeedom)
@@ -204,15 +204,15 @@ Detalles del parámetro :
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene 7 grupos de asociación.
 
-\
+
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
-\
+
 
 -   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
     transferir información del Smart Plug al controlador principal
@@ -224,50 +224,50 @@ Este módulo tiene 7 grupos de asociación.
 -   Grupo 6 a 7: los dispositivos de estos grupos están controlados por
     botones correspondientes según el perfil DUO
 
-\
+
 
 > **Importante**
 >
-> Como mínimo, Jeedom debería terminar en el grupo 1 \
+> Al menos Jeedom debería terminar en el grupo 1 
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en
     despertarse 1 o 2 veces después de la inclusión. Y revisa el
     grupo de asociación.
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 Para activar este módulo, solo presione uno de los botones
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Este módulo es un módulo de batería, la nueva configuración no será
 tenga en cuenta que si despierta el control remoto.
 
-\
+
 
 Nota importante 
 ---------------
 
-\
+
 
 > **Importante**
 >
@@ -275,6 +275,6 @@ Nota importante
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
 
-\
+
 
 **@lunarok**

@@ -1,28 +1,28 @@
 SmartHome by Everspring In Wall Dimmer - AD146-0 
 ================================================
 
-\
+
 
 -   **The module**
 
-\
+
 
 ![module](images/smarthomebyeverspring.AD146-0/module.jpg)
 
-\
+
 
 -   **The Jeedom visual**
 
-\
+
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
-\
+
 
 Summary 
 ------
 
-\
+
 
 This Wall Dimmer Micromodule from SmartHome Europe by
 Everspring, is designed to control the switching on and off of
@@ -41,12 +41,12 @@ designed to work with all Z-Wave ™ compatible networks. he
 can be controlled by remote control, PC software, or any
 which Z-Wave controller in your network.
 
-\
+
 
 Functions 
 ---------
 
-\
+
 
 -   Control a light / device remotely
 
@@ -72,12 +72,12 @@ Functions
 
 -   Z-Wave repeater function
 
-\
+
 
 Technical characteristics 
 ---------------------------
 
-\
+
 
 -   Type of module : Z-Wave receiver
 
@@ -101,12 +101,12 @@ Technical characteristics
 
 -   Dimensions : 42mm x 43mm x 16mm
 
-\
+
 
 Module data 
 -----------------
 
-\
+
 
 -   Mark : SmartHome by Everspring
 
@@ -118,18 +118,18 @@ Module data
 
 -   Product ID : 2
 
-\
+
 
 Setup 
 -------------
 
-\
+
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
-[Documentation](https://jeedom.fr/doc/documentation/plugins/openzwave/en_US/openzwave.html).
+[Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **IMPORTANT**
 >
@@ -138,36 +138,36 @@ inclusion refer to this
 > note that this module goes directly to inclusion when
 > does not belong to any network and is powered
 
-\
+
 
 ![inclusion](images/smarthomebyeverspring.AD146-0/inclusion.jpg)
 
-\
+
 
 Once included you should get this :
 
-\
+
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
-\
+
 
 ### Commands 
 
-\
+
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-\
+
 
 ![Commands](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
-\
+
 
 Here is the list of commands :
 
-\
+
 
 -   Intensity : This is the command used to adjust the intensity of the
     Light
@@ -179,39 +179,39 @@ Here is the list of commands :
 -   State : It is the command which allows to know the status of the
     Light
 
-\
+
 
 Note that on the dashboard, the status information, ON / OFF, intensity is
 found on the same icon.
 
-\
+
 
 ### Configuration of the module 
 
-\
+
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-\
+
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-\
+
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 
-\
+
 
 Parameter details :
 
-\
+
 
 -   1 : This parameter defines the status value command, it is not
     advised to change this value.
@@ -230,62 +230,62 @@ Parameter details :
 
 ### Groups 
 
-\
+
 
 This module has 2 association groups.
 
-\
+
 
 ![Groupe](images/smarthomebyeverspring.AD146-0/groupe.jpg)
 
-\
+
 
 > **IMPORTANT**
 >
-> At a minimum Jeedom should end up in group 1 \
+> At least Jeedom should end up in group 1 
 
 Good to know 
 ------------
 
-\
+
 
 ### Specificities 
 
-\
+
 
 -   Status feedback cannot be configured below 3
-    seconds. \
+    seconds. 
 
 ### Alternative visual 
 
-\
+
 
 ![vuewidget](images//smarthomebyeverspring.AD146-0/vuewidget.jpg)
 
-\
+
 
 Wakeup 
 ------
 
-\
+
 
 No notion of wake up on this module.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 Yes it is parameter 2 and it cannot be set below 3
 secondes.
 
-\
+
 
 No. this module can be included or excluded by pressing several times
 on the switch.
 
-\
+
 
 **@sarakha63**

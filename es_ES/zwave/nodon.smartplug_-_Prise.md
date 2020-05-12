@@ -1,28 +1,28 @@
 Enchufe inteligente Nodon - Smartplug 
 ====================================
 
-\
+
 
 -   **El módulo**
 
-\
+
 
 ![module](images/nodon.smartplug/module.jpg)
 
-\
+
 
 -   **El visual de Jeedom**
 
-\
+
 
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-\
+
 
 Resumen 
 ------
 
-\
+
 
 El enchufe con control remoto NodOn® se puede controlar a través de un sistema de automatización del hogar
 Compatible con Z-Wave® o Z-Wave Plus® o directamente a través de otro
@@ -35,12 +35,12 @@ barriles vecinos en una regleta. Aprendiendo a tomar con sonido
 el controlador requiere solo unos segundos. Un botón local permite
 enciende o apaga el enchufe directamente.
 
-\
+
 
 Funciones 
 ---------
 
-\
+
 
 -   Detección de pérdida de corriente de línea
 
@@ -53,12 +53,12 @@ Funciones
 
 -   Amperaje máximo: 16A
 
-\
+
 
 Características técnicas 
 ---------------------------
 
-\
+
 
 -   Suministro : 230V AC +/- 10% - 50Hz
 
@@ -78,12 +78,12 @@ Características técnicas
 
 -   Tipo de la UE
 
-\
+
 
 Datos del módulo 
 -----------------
 
-\
+
 
 -   Hacer : Nodon
 
@@ -95,18 +95,18 @@ Datos del módulo
 
 -   ID del producto : 1
 
-\
+
 
 Configuración 
 -------------
 
-\
+
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
-[Documentación](https://jeedom.fr/doc/documentation/plugins/openzwave/es_ES/openzwave.html).
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-\
+
 
 > **Importante**
 >
@@ -114,36 +114,36 @@ inclusión refiérase a esto
 > hasta que la luz se vuelva roja, de acuerdo con su documentación
 > papel.
 
-\
+
 
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
 
-\
+
 
 Una vez incluido, deberías obtener esto :
 
-\
+
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-\
+
 
 ### Comandos 
 
-\
+
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-\
+
 
 ![Comandos](images/nodon.smartplug/commandes.jpg)
 
-\
+
 
 Aquí está la lista de comandos :
 
-\
+
 
 -   Estado : Es el comando que permite conocer el estado de la
     zócalo (encendido / apagado)
@@ -155,41 +155,41 @@ Aquí está la lista de comandos :
 -   Estado : Se usa para averiguar si la toma de corriente está alimentada o no
     (Detección de falla de energía / desconexión)
 
-\
+
 
 Tenga en cuenta que en el tablero, la información de estado, ON / OFF, se puede encontrar en
 el mismo icono.
 
-\
+
 
 ### Configuracion del modulo 
 
-\
+
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom Zwave.
 
-\
+
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-\
+
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-\
+
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
-\
+
 
 Detalles del parámetro :
 
-\
+
 
 -   1 : Este parámetro define el estado (ON / OFF) del Smart Plug después de un
     falla de energía o después de la conexión
@@ -213,15 +213,15 @@ Detalles del parámetro :
 
 ### Grupos 
 
-\
+
 
 Este módulo tiene 8 grupos de asociación.
 
-\
+
 
 ![Groupe](images/nodon.smartplug/groupe.jpg)
 
-\
+
 
 -   Grupo 1 - Línea de vida : Este grupo se usa generalmente para
     transferir información del Smart Plug al controlador principal
@@ -260,52 +260,52 @@ Este módulo tiene 8 grupos de asociación.
 -   Grupo 8 - Desactivación en el retorno actual cuando el Smart Plug
     detecta un retorno de corriente, desactiva los dispositivos asociados
 
-\
+
 
 > **Importante**
 >
-> Como mínimo, Jeedom debe encontrarse en los grupos 1 y 4 \
+> Como mínimo, Jeedom debe encontrarse en los grupos 1 y 4 
 
 Bueno saber 
 ------------
 
-\
+
 
 ### Específicos 
 
-\
+
 
 -   No tiene sentido divertirse conectando / desconectando el enchufe
     observar la alarma. Esto solo funcionará unas 3 veces. En
     más allá del zócalo debe permanecer encendido durante un tiempo para recargarse
     la batería interna.
 
-\
+
 
 Despertador 
 ------
 
-\
+
 
 No hay noción de activación en este módulo.
 
-\
+
 
 Faq. 
 ------
 
-\
+
 
 No debería tener la opción de descargar widgets automáticos
 activado. Puede recuperar los widgets móviles y del tablero en el
 Mercado : alarma.
 
-\
+
 
 ¿Ha configurado correctamente el parámetro 2? ? ¿Tienes al menos Jeedom bien?
 en los grupos 1 y 4 ? ¿Da tiempo para que la batería
 Cargar ?
 
-\
+
 
 **@sarakha63**
