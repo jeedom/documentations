@@ -71,8 +71,6 @@ Voici la liste des commandes :
   - 1 : Bouton appui court
   - 2 : Bouton appui long
 
- 
-
 ### Configuration du module
 
 > **Important**
@@ -91,8 +89,6 @@ Détails des paramètres :
 
 -   250: mode de fonctionnement de la télécommande (absolument mettre Scene pour s’en servir en télécommande)
 -   255 : permet de resetter d’usine le Keyfob
-
- 
 
 ### Groupes
 
@@ -121,7 +117,6 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 ## F.A.Q.
  
 Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
-
 
 Ce module est un module sur batterie, la nouvelle configuration ne sera
 prise en compte que si vous réveillez la télécommande.

@@ -1,6 +1,6 @@
 # Documentation module Z-wave
 
-Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Z-wave
+Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Z-wave.
 
 Pour rappel vous pouvez trouver la liste des équipements compatible [ici](equipement.compatible.md).
 
@@ -24,7 +24,7 @@ Pour rappel vous pouvez trouver la liste des équipements compatible [ici](equip
 - [Fibaro fgrgb101](fibaro.fgrgb101_-_RGVBControler.md)
 - [Fibaro fgrm222](fibaro.fgrm222_-_Volets.md)
 - [Fibaro fgsd102](fibaro.fgsd102_-_Fumees.md)
-- [Fibaro fgwpe101_](fibaro.fgwpe101_-_Wall_Plug.md)
+- [Fibaro fgwpe101](fibaro.fgwpe101_-_Wall_Plug.md)
 - [Greenwave Powernode Prise](greenwave.Powernode1_-_Prise.md)
 - [Greenwave Powernode Multi-prise](greenwave.powernode_-_Multiprise.md)
 - [MCO Double Interrupteur](mco.MH-S412_Double_-_Interrupteur.md)

@@ -60,7 +60,7 @@ Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.com
 
 # Edisio
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/edisio/) la documentation pour certains modules
 
 # EnOcean
 
@@ -78,7 +78,7 @@ Contrôleur RFXcom :
 -   RFXtrx433 USB
 -   RFXtrx433E USB (Recommandé)
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible) des modules Rfxcom compatibles Jeedom
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible) des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules
 
 # SMS (GSM)
 
@@ -103,4 +103,4 @@ Contrôleur Z-WAVE :
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules
