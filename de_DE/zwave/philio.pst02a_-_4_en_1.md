@@ -1,28 +1,16 @@
-Philio PST02 A - 4 in 1 
+Philio PST02 A - 4 in 1
 =======================
-
-
 
 -   **Das Modul**
 
-
-
 ![module](images/philio.pst02a/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Der Detektor ZIP-PSM02-EU bietet 4 verschiedene Funktionen : Erkennung von
 Bewegung, Öffnungserkennung, Temperatursensor und Detektor
@@ -54,12 +42,10 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h
 signifikante Änderung, und wann immer eine Bewegung oder
 Öffnen / Schließen werden erkannt. Eine Z-Wave-Steuerung (Fernbedienung),
 Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
-wenn Sie bereits ein vorhandenes Netzwerk haben. 
+wenn Sie bereits ein vorhandenes Netzwerk haben.
 
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
 
@@ -83,12 +69,8 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Sender
 
@@ -124,12 +106,8 @@ Technische Daten
 
 -   Z-Wave-Zertifizierung : ZC08-13050003
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Philio Technology Corporation
 
@@ -141,54 +119,32 @@ Moduldaten
 
 -   Produkt-ID : 12
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-
-
 ![inclusion](images/philio.pst02a/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/philio.pst02a/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 
@@ -205,33 +161,21 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-
-
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
-
-
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -239,11 +183,7 @@ Einstellungen)
 
 ![Config3](images/philio.pst02a/config3.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
     Verein 2
@@ -292,70 +232,42 @@ Parameterdetails :
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen von a
     Empfohlenen Wert melden : 10
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
 indispensable.
 
-
-
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Alternative visuelle 
-
-
+### Alternative visuelle
 
 ![vuewidget](images/philio.pst02a/vuewidget.jpg)
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Dieses Modul wird durch Drücken der Sabotage-Taste aktiviert.
-
-
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-
-
-Wichtiger Hinweis 
+Wichtiger Hinweis
 ---------------
-
-
 
 > **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
-
-
 
 **@sarakha63**

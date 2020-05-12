@@ -1,28 +1,15 @@
-Fibaro Dimmer2 - FGD-212 
-========================
-
-
+# Fibaro Dimmer2 - FGD-212
 
 -   **The module**
 
-
-
 ![module](images/fibaro.fgd212/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
-
-
 
 Summary 
 ------
-
-
 
 The FGD-212 dimmer module will allow you to control a
 lamp or ceiling lamp remotely thanks to the Z-Wave protocol while
@@ -45,12 +32,8 @@ measure the electrical consumption of the connected load. Values
 instantaneous consumption (in W) and total electrical consumption
 (in kWh) can be viewed.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Remote lighting control
 
@@ -92,12 +75,8 @@ Functions
 
 -   Ease of use and installation
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave receiver
 
@@ -130,12 +109,8 @@ Technical characteristics
 -   Standards : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
     1999/5/EC
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Fibar Group
 
@@ -147,18 +122,12 @@ Module data
 
 -   Product ID : 4096
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
@@ -167,11 +136,7 @@ inclusion refer to this
 > module is not already included, it will be included
 > automatically when powered up.
 
-
-
 ![inclusion](images/fibaro.fgd212/inclusion.jpg)
-
-
 
 > **Tip**
 >
@@ -179,32 +144,18 @@ inclusion refer to this
 > by making many round trips on the switch or
 > many presses if you have a push button switch.
 
-
-
 Once included you should get this :
-
-
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the modules will be
 disponibles.
 
-
-
 ![Commands](images/fibaro.fgd212/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Intensity : This is the command that allows you to adjust the intensity of the
     Light
@@ -225,26 +176,16 @@ Here is the list of commands :
 Note that on the dashboard all the information is found on the same
 icone
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
-
-
 
 ![Config1](images/fibaro.fgd212/config1.jpg)
 
@@ -256,37 +197,21 @@ settings)
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
-
-
 Parameter details :
-
-
 
 ON GOING REDACTION
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has five association groups, only the first is
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
-
-
+### Specificities
 
 > **Bail**
 >
@@ -294,35 +219,21 @@ Good to know
 > allows to choose the type of switch used. Default type
 > is set to monostable.
 
-
-
 If you want to exclude / include the module without dismantling your
 switch you can press your switch multiple times
 (or go back and forth in the event of a bistable switch)
 
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![vuewidget](images/fibaro.fgd212/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 No notion of wakeup on this module.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 No. this module can be included or excluded by pressing several times
 on the switch.

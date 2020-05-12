@@ -1,28 +1,16 @@
 Secure SES 302 "Temperature" 
 ============================
 
-
-
 -   **The module**
-
-
 
 ![module](images/secure.ses302/module.jpg)
 
-
-
 -   **The jeedom visual**
-
-
 
 ![vuedefaut1](images/secure.ses302/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 The SES302 probe allows the measurement of the ambient temperature
 interior. It is powered by 2 AA batteries and is Z-Wave certified
@@ -43,12 +31,8 @@ similar application. Its user interface is simple, with a
 local push button and an indication LED on the rear panel. We
 can easily include / exclude it in a Z-Wave network.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Accurate temperature measurement
 
@@ -63,12 +47,8 @@ Functions
 
 -   Low battery report
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type: Portable / wall mount
 
@@ -86,12 +66,8 @@ Technical characteristics
 
 -   Dimensions : 86 x 85 x 30 mm
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Horstmann
 
@@ -103,54 +79,32 @@ Module data
 
 -   Product ID : 2
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press 1 second on
 > the button on the back and release, according to its paper documentation.
 
-
-
 ![inclusion](images/secure.ses302/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/secure.ses302/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/secure.ses302/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Temperature : it is the temperature measurement command
 
@@ -159,41 +113,25 @@ Here is the list of commands :
 Several non visible temperatures are also available and will be
 useful if you have connected external probes
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-
-
 ![Config1](images/secure.ses302/config1.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1: Adjusts how much the temperature must vary for
     the module sends it to Jeedom (in steps of 0.1)
@@ -204,71 +142,41 @@ Parameter details :
 All other parameters are identical and correspond to all
 external probes possibly connected
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has only one association group, it is essential
 
-
-
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
+### Specificities
 
-
-### Specificities 
-
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![widget1](images/secure.ses302/widget1.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module, press the button on the back once
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 This module wakes up by pressing once on its inclusion button.
-
-
 
 This module is a battery module, the new configuration will be
 taken into account at the next wake up.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wake up, after a
 > change of association groups
-
-
 
 **@sarakha63**

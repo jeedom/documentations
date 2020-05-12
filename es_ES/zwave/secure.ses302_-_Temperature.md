@@ -1,28 +1,16 @@
 Asegure la temperatura SES 302 "" 
 ============================
 
-
-
 -   **El módulo**
-
-
 
 ![module](images/secure.ses302/module.jpg)
 
-
-
 -   **El visual de la libertad**
-
-
 
 ![vuedefaut1](images/secure.ses302/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 La sonda SES302 permite medir la temperatura ambiente
 interior Está alimentado por 2 baterías AA y tiene certificación Z-Wave
@@ -43,12 +31,8 @@ aplicación similar. Su interfaz de usuario es simple, con un
 pulsador local y un LED indicador en el panel posterior. Nosotros
 puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Medición precisa de temperatura
 
@@ -63,12 +47,8 @@ Funciones
 
 -   Informe de batería baja
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Type: Portátil / montaje en pared
 
@@ -86,12 +66,8 @@ Características técnicas
 
 -   Dimensiones : 86 x 85 x 30 mm
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Horstmann
 
@@ -103,54 +79,32 @@ Datos del módulo
 
 -   ID del producto : 2
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione 1 segundo en
 > el botón en la parte posterior y suelte, de acuerdo con su documentación en papel.
 
-
-
 ![inclusion](images/secure.ses302/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/secure.ses302/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/secure.ses302/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Temperatura : es el comando de medición de temperatura
 
@@ -159,41 +113,25 @@ Aquí está la lista de comandos :
 Varias temperaturas no visibles también están disponibles y serán
 útil si ha conectado sondas externas
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-
-
 Entonces es necesario configurar el módulo en
 dependiendo de su instalación. Esto requiere pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-
-
 ![Config1](images/secure.ses302/config1.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   1: Ajusta cuánto debe variar la temperatura para
     el módulo lo envía a Jeedom (en pasos de 0.1)
@@ -204,71 +142,41 @@ Detalles del parámetro :
 Todos los demás parámetros son idénticos y corresponden a todos
 sondas externas posiblemente conectadas
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene solo un grupo de asociación, es esencial
 
-
-
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
+### Específicos
 
-
-### Específicos 
-
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![widget1](images/secure.ses302/widget1.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 Para activar este módulo, presione el botón en la parte posterior una vez
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Este módulo se activa presionando una vez su botón de inclusión.
-
-
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-
-
-Nota importante 
+Nota importante
 ---------------
-
-
 
 > **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de despertador, después de un
 > cambio de grupos de asociación
-
-
 
 **@sarakha63**

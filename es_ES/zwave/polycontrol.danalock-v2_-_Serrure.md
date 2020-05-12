@@ -1,25 +1,15 @@
-Danalock V2 BTZE 
+Danalock V2 BTZE
 ================
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/polycontrol.danalock/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
 
  
@@ -95,10 +85,8 @@ bisel de aluminio anodizado sólido y tecnologías avanzadas
 Bluetooth y Z-Wave. Un diseño danés discreto construido para durar.
 
 
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Controla tu puerta de entrada de forma remota
 
@@ -129,12 +117,8 @@ Funciones
 -   Compatible con iOS (iPhone 4s o posterior), pero
     también Android (desde 4.4).
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Suministro : 4 baterías CR123 3V
 
@@ -148,12 +132,8 @@ Características técnicas
 
 -   Peso : 363g
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Poly-Control
 
@@ -165,24 +145,16 @@ Datos del módulo
 
 -   ID del producto : 1
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-
-
 > **Importante**
 >
 > Es esencial incluir este módulo en modo seguro..
-
-
 
 Para poner el complemento Z-Wave (openzwave) en Jeedom en modo de inclusión
 seguro : simplemente vaya a la página de administración del módulo Z-wave
@@ -191,15 +163,11 @@ y haga clic en el icono "Red Zwave"
 ![inclusion securise jeedom
 1](images / polycontrol.danalock / inclusive-securise-jeedom-1.jpg)
 
-
-
 Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO
 SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom
 2](images / polycontrol.danalock / inclusive-securise-jeedom-2.jpg)
-
-
 
 > **Importante**
 >
@@ -218,28 +186,16 @@ en "CONECTAR".
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/polycontrol.danalock/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Estado : es el comando que subirá la última acción
     ejecutado (abrir / cerrar)
@@ -250,11 +206,7 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 > **Advertencia**
 >
@@ -263,30 +215,18 @@ Aquí está la lista de comandos :
 > recuperará cualquier cambio de configuración en tiempo casi real
 > como módulo sectorial.
 
-
-
 Si desea configurar el módulo de acuerdo a su
 instalación, debe pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-
-
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   1 : Dirección 0-1 : 0 = el motor gira en sentido horario
     bloqueado, 1 = el motor va en sentido antihorario cuando
@@ -330,28 +270,16 @@ Detalles del parámetro :
 
 -   12 : informe de operación
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene solo un grupo de asociación.
 
-
-
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Específicos 
-
-
+### Específicos
 
 > **Punta**
 >
@@ -360,37 +288,23 @@ Bueno saber
 > recuperará cualquier cambio de configuración en tiempo casi real
 > como módulo sectorial.
 
-
-
 > **Punta**
 >
 > Este módulo devuelve su estado si opera el bloqueo con la mano
-> el estado se actualizará. 
+> el estado se actualizará.
 
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 No hay concepto de despertar para este módulo.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 No hay noción de despertar en este módulo; lea el párrafo de especificidades.
-
-
 
 **@noumea**

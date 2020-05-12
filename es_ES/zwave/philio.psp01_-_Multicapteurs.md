@@ -1,28 +1,16 @@
-Philio PSP01 
+Philio PSP01
 ============
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/philio.psp01/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 El detector PSP01 ofrece 3 funciones diferentes : detección de
 movimiento, sensor de temperatura y detector de luz.
@@ -46,12 +34,8 @@ detectado Se requiere un controlador Z-Wave (control remoto, dongle, etc.)
 para integrar este detector en su red si ya tiene un
 red existente.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Detector 3 en 1: movimiento, temperatura, luz
 
@@ -75,12 +59,8 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Transmisor de onda Z
 
@@ -112,12 +92,8 @@ Características técnicas
 
 -   Certificación Z-Wave : ZC08-13050003
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Philio Technology Corporation
 
@@ -129,54 +105,32 @@ Datos del módulo
 
 -   ID del producto : 2
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-
-
 ![inclusion](images/philio.psp01/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/philio.psp01/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Presencia : es el comando que detectará una detección de presencia
 
@@ -193,46 +147,30 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-
-
 Todos los módulos de la gama tienen los mismos identificadores, debe mostrarlos
 correspondiente a su módulo.
 
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-
-
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
-
-
 
 ![Config1](images/philio.psp01/config1.jpg)
 
 ![Config2](images/philio.psp01/config2.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   2: permite ajustar la señal enviada a los módulos en el grupo
     asociación 2
@@ -262,29 +200,17 @@ Detalles del parámetro :
 -   13: permite definir el tiempo entre dos informes de temperatura
     (una unidad = 30 minutos)
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene dos grupos de asociación, solo el primero es
 indispensable.
 
-
-
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Específicos 
-
-
+### Específicos
 
 > **Punta**
 >
@@ -295,56 +221,34 @@ Bueno saber
 > Cuadro "Evento en cambio" en la presencia si usa esto
 > comando en desencadenador de escenario.
 
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/philio.psp01/vuewidget.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 Para activar este módulo, solo hay una forma :
 
 -   suelte el botón de manipulación y presiónelo nuevamente
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Este módulo se activa presionando su botón de manipulación.
 
-
-
 Marque la casilla "Evento en cambio".
-
-
 
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-
-
-Nota importante 
+Nota importante
 ---------------
-
-
 
 > **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
-
-
 
 **@sarakha63**

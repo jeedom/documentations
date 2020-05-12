@@ -1,28 +1,16 @@
-Philio Smart Farbknopf 
+Philio Smart Farbknopf
 =========================
-
-
 
 -   **Das Modul**
 
-
-
 ![Modul](images/philio.psr04/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Dieser einzigartige Designschalter bietet mehrere Funktionen. Sie
 kann es verwenden, um die Beleuchtung ein-, auszuschalten oder zu dimmen, anzupassen
@@ -49,12 +37,8 @@ Es verwendet den neuesten Chip der Z-Wave 500-Serie und sorgt so für eine Steig
 schnell im Vergleich zu früheren Z-Wave-Produkten sowie ein Plus
 Niedriger Energieverbrauch für mehr Autonomie.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Multifunktionsschalter
 
@@ -80,12 +64,8 @@ Funktionen
 
 -   Einfach zu installieren
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v
     die Batterie : 6 Monate für 2 Stunden aufladen
@@ -107,12 +87,8 @@ x Dicke) \* Zertifizierungen :
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Teil 15 B, FCC Teil 15 C
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Philio
 
@@ -124,18 +100,12 @@ Moduldaten
 
 -   Produkt-ID : 34
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -143,36 +113,20 @@ Aufnahme beziehen sich darauf
 > niedrig (Einschluss) und drücken Sie die Taste entsprechend seiner
 > Papierdokumentation.
 
-
-
 ![inclusion](images/philio.psr04/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/philio.psr04/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Zustand : Es ist der Befehl, der die Tastenposition von 0 auf 0 verschiebt
     100%
@@ -180,41 +134,25 @@ Hier ist die Liste der Befehle :
 -   Batterie : Dies ist der Befehl, der den Batteriestatus des
     module
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-
-
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-
-
 ![Config1](images/philio.psr04/config1.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1: definiert die unterste Grenze (Position vollständig links)
 
@@ -229,27 +167,17 @@ Parameterdetails :
 -   26 : Aktiviert das Senden einer Szene oder nicht, wenn die zentrale Taste gedrückt wird
     (Parameter in Jeedom nicht berücksichtigt)
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat zwei Zuordnungsgruppen, die erste ist die einzige
 wesentlich. Die zweite erlaubt es, die Position zu Jeedom zu erhöhen
 
-
-
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Besonderheiten 
+### Besonderheiten
 
 Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
@@ -261,40 +189,28 @@ Durch Hinzufügen von Jeedom zu Gruppe 2 kann die Position des erhalten werden
 Schaltfläche und verwenden Sie es daher, um ein Szenario zu steuern (setzen Sie a
 Volumen zum Beispiel)
 
-Aufwachen 
+Wakeup
 ------
-
-
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Stellen Sie das Modul in die niedrige Position und drücken Sie die Taste
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird nicht sein
 Berücksichtigen Sie dies, wenn Sie das Modul aufwecken.
 
-
-
-Wichtiger Hinweis 
+Wichtiger Hinweis
 ---------------
-
-
 
 > **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
-
-
 
 **@sarakha63**

@@ -1,28 +1,16 @@
-Greenwave PowerNode - 6 sockets 
+Greenwave PowerNode - 6 sockets
 ==============================
-
-
 
 -   **The module**
 
-
-
 ![module](images/greenwave.powernode/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 The GreenWave PowerNode power strip is a smart device that
 connects to your home appliances and electronics for you
@@ -61,12 +49,10 @@ ensured by the internal fuse located in the power strip.
 This power strip is ideal for controlling multimedia devices in
 a TV cabinet or to control computer equipment located
 in an office and thus avoid having to use 6 Z-Wave sockets
-individuelles. 
+individuelles.
 
-Functions 
+Fonctions
 ---------
-
-
 
 -   6-port Z-Wave power strip
 
@@ -83,12 +69,8 @@ Functions
 
 -   Light status indicator
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Food : 250V AC, 50Hz
 
@@ -116,12 +98,8 @@ Technical characteristics
 
 -   IP class (Humidity tolerance) : IP20
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : GreenWave
 
@@ -133,46 +111,28 @@ Module data
 
 -   Product ID : 4
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present on the socket.
 
-
-
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
-
-
 
 ![Commands](images/greenwave.powernode/commandes.jpg)
 
@@ -184,11 +144,7 @@ disponibles.
 
 ![Commands](images/greenwave.powernode/commandes5.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   State-1 : It is the command which allows to know the status of the
     take 1
@@ -268,44 +224,26 @@ Here is the list of commands :
 -   Conso-6 : It is the command which reports the total consumption of the
     take 6
 
-
-
 Note that on the dashboard the ON / OFF / STATUS commands are grouped together
 in one button.
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-
-
 ![Config1](images/greenwave.powernode/config1.jpg)
-
-
 
 As you can see there is not a lot of configuration
 for this module.
 
-
-
 Parameter details :
-
-
 
 -   1 : Delays before the button flashes : number of seconds
     minimum between two communications (if this delay is exceeded the button
@@ -313,92 +251,52 @@ Parameter details :
 
 -   2 : Selected wheel color (automatically detected)
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has four association groups, only the 1st group is
 indispensable.
 
-
-
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities / Polling 
-
-
+### Specificities / Polling
 
 Unlike its little sister "Une prize", this power strip requires
 polling to boost consumption.
 
-
-
 ![Config2](images/greenwave.powernode/config2.jpg)
-
-
 
 It is just necessary to activate it for the Power command of each
 taken. This will have the effect of raising the two (consumption and power)
 
-
-
-### Overall consumption 
-
-
+### Overall consumption
 
 ![consocumul](images/greenwave.powernode/consocumul.jpg)
-
-
 
 You can use a virtual to create a cumulative consumption
 of 6 takes.
 
-
-
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-
-
-### Reset 
-
-
+### Reset
 
 ![Config3](images/greenwave.powernode/config3.jpg)
-
-
 
 You can reset your consumption meter by clicking
 on this button available in the System tab. (There is a reset by
 taken). Choose PressButton.
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 No notion of wakeup on this module.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Did you pay for a CRON.
-
-
 
 No. The module does not allow it. Put a piece of black tape
 dessus.

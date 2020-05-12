@@ -1,28 +1,16 @@
 Fibaro FGSD-002 "Smoke Sensor 2" 
 ================================
 
-
-
 -   **The module**
-
-
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
-
-
 -   **The jeedom visual**
-
-
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 With soft lines, a polished surface and a small size, this
 smoke detector will allow you to be alerted of a threat with
@@ -48,12 +36,8 @@ for the smoke sensor to detect a threat and report it to
 inhabitants of the house. Only this type of smoke sensor offers
 high efficiency, regardless of what burns.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Z-Wave smoke detector
 
@@ -78,12 +62,8 @@ Functions
 -   Very simple installation - just install it in one place
     or there is a risk of fire
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave transmitter
 
@@ -114,12 +94,8 @@ Technical characteristics
 
 -   Certifications : EN 14604:2005
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Fibar Group
 
@@ -131,54 +107,32 @@ Module data
 
 -   Product ID : 4098
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > central inclusion button, according to its paper documentation.
 
-
-
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/fibaro.fgsd102/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Smoke : this is the module alert command (for smoke,
     heat…)
@@ -196,43 +150,27 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then it is necessary to configure the module in
 depending on your installation. This requires going through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 Settings)
-
-
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
-
-
 Parameter details :
-
-
 
 -   Wakeup : this is the module wake-up interval (value
     recommended 21600)
@@ -270,72 +208,42 @@ Parameter details :
 
 -   32: signal interval if loss of Zwave
 
-
-
-### Groups 
-
-
+### Groupes
 
 For optimum operation of your module. Jeedom must be
 at least associated with groups 1 4 and 5:
 
-
-
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
+### Specificities
 
-
-### Specificities 
-
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![widget1](images/fibaro.fgsd102/widget1.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module, press the central button 3 times
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 This module wakes up by pressing 3 times on its inclusion button.
-
-
 
 This module is a battery module, the new configuration will be
 taken into account at the next wakeup.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
-
-
 
 **@sarakha63**

@@ -1,28 +1,16 @@
 Fibaro Opening detector - FGK-101 
 ======================================
 
-
-
 -   **The module**
-
-
 
 ![Module](images/fibaro.fgk101-DS18B20/module.jpg)
 
-
-
 -   **The Jeedom visual**
-
-
 
 ![vuedefaut1](images/fibaro.fgk101-DS18B20/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 This battery-powered and Z-Wave compatible detector has a sensor
 reed, a proximity switch with magnetic operation, which
@@ -47,12 +35,8 @@ A Z-Wave controller (remote control, dongle, etc.) is required in order to
 integrate this detector into your network if you already have a network
 existant.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Opening detector
 
@@ -71,12 +55,8 @@ Functions
 
 -   Ease of use and installation
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave transmitter
 
@@ -92,12 +72,8 @@ Technical characteristics
 
 -   Operating temperature : 0-40 ° C
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Fibar Group
 
@@ -109,54 +85,32 @@ Module data
 
 -   Product ID : 4096
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-
-
 ![inclusion](images/fibaro.fgk101-DS18B20/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/fibaro.fgk101-DS18B20/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   State : it is the command which will raise the open or closed state of the
     module
@@ -164,47 +118,29 @@ Here is the list of commands :
 -   Drums : it is the command which allows to go up the state of the
     batterie
 
-
-
 You can hide or show these commands as you wish.
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 Settings)
-
-
 
 ![Config1](images/fibaro.fgk101-DS18B20/config1.jpg)
 
 ![Config2](images/fibaro.fgk101-DS18B20/config2.jpg)
 
-
-
 Parameter details :
-
-
 
 -   Wakeup : this is the module's wake-up interval (value
     7200 recommended)
@@ -233,88 +169,54 @@ Parameter details :
 
 -   14: activates the scene activation feature
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has three association groups, only the third is
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgk101-DS18B20/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
-
-
+### Specificities
 
 > **Tip**
 >
 > This module is very finicky on wakeup and requires a very
 > strong proximity to the controller when included
 
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module there is only one way :
 
 -   press the inclusion button 3/4 times. It may be necessary
     to do it several times in a row (2 or 3)
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 This module wakes up by pressing 3 times on one of the tamper buttons. But
 the other tamper button must be pressed.
 
-
-
 This module has a very low range. It is advisable to do
 inclusion closest to your box.
-
-
 
 This module is a battery module, the new configuration will be
 taken into account at the next wakeup.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
-
-
 
 **@sarakha63**

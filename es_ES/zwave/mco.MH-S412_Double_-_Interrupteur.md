@@ -1,25 +1,15 @@
-MCO MH-S412 Doble 
+MCO MH-S412 Doble
 ==================
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/mco.mhs412/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
 
 
@@ -33,12 +23,10 @@ El interruptor MH-S412-EU puede controlar cualquier tipo de carga,
 iluminación o un electrodoméstico.
 
 El interruptor también está equipado con un indicador LED que indica su
-état. 
+état.
 
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Controla dos lámparas o dispositivos de forma remota
 
@@ -57,12 +45,8 @@ Funciones
 
 -   Botones táctiles
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Receptor Z-Wave
 
@@ -82,12 +66,8 @@ Características técnicas
 
 -   Affichage: LED azul / rojo
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : MC HOME
 
@@ -99,18 +79,12 @@ Datos del módulo
 
 -   ID del producto : 514
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
@@ -120,73 +94,43 @@ inclusión refiérase a esto
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/mco.mhs412/commandes.jpg)
-
-
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-
-
 ![Config1](images/mco.mhs412/config1.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   1: Estado de ahorro antes de falla de energía : habilitar (permite encontrar
     el último estado de los interruptores justo antes del corte de energía)
     desechable (los interruptores estarán en estado APAGADO en el retorno de red)
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene 3 grupos de asociación. Solo el tercero es
 indispensable.
 
-
-
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Específicos 
+### Específicos
 
 1 \) los botones táctiles tienen un halo azul cuando la carga
 es piloteado
@@ -199,21 +143,15 @@ no está tripulado
 4 \) este interruptor puede controlar su carga en modo autónomo (no
 conectado a un controlador de onda z)
 
-Despertador 
+Wakeup
 ------
-
-
 
 Este módulo está conectado a la red eléctrica (220v), el despertador es instantáneo
 y por lo tanto no requiere ninguna acción particular al cambiar
 Configuraciones
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Para excluir este modelo, ponga Openzwave en modo de exclusión y presione
 en uno de los 2 botones del panel frontal durante 3 segundos, de acuerdo con su
@@ -221,6 +159,3 @@ documentación en papel.
 
 Para restaurar la configuración de fábrica, presione solo uno de los 2 botones
 en el panel frontal durante 10 segundos, de acuerdo con su documentación en papel.
-
-
-

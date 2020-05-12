@@ -1,28 +1,16 @@
-Nodon Smart Plug - Smartplug 
+Nodon Smart Plug - Smartplug
 ====================================
-
-
 
 -   **Das Modul**
 
-
-
 ![module](images/nodon.smartplug/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Die ferngesteuerte NodOn®-Buchse kann über ein Hausautomationssystem gesteuert werden
 Z-Wave® oder Z-Wave Plus® kompatibel oder direkt über andere
@@ -35,12 +23,8 @@ benachbarte Fässer auf einer Steckdosenleiste. Lernen mit Ton zu nehmen
 Die Steuerung benötigt nur wenige Sekunden. Eine lokale Schaltfläche ermöglicht
 Schalten Sie den Stecker direkt ein oder aus.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Netzstromverlusterkennung
 
@@ -53,12 +37,8 @@ Funktionen
 
 -   Maximale Stromstärke: 16A
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Versorgung : 230 V AC +/- 10% - 50 Hz
 
@@ -78,12 +58,8 @@ Technische Daten
 
 -   EU-Typ
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Nodon
 
@@ -95,18 +71,12 @@ Moduldaten
 
 -   Produkt-ID : 1
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -114,36 +84,20 @@ Aufnahme beziehen sich darauf
 > bis das Licht laut Dokumentation rot wird
 > Papier.
 
-
-
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/nodon.smartplug/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Steckdose (Ein / Aus)
@@ -155,41 +109,25 @@ Hier ist die Liste der Befehle :
 -   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht
     (Stromausfall / Unterbrechungserkennung)
 
-
-
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
 das gleiche Symbol.
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom Zwave Plugin.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
-
-
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1 : Dieser Parameter definiert den Status (EIN / AUS) des Smart Plug nach a
     Stromausfall oder nach dem Anschluss
@@ -211,17 +149,11 @@ Parameterdetails :
     Um Ihre Alarme richtig zu konfigurieren, das Online-Formular:
     www.nodon.fr/support/asp3/alarm wird Sie führen
 
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat 8 Zuordnungsgruppen.
 
-
-
 ![Groupe](images/nodon.smartplug/groupe.jpg)
-
-
 
 -   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen für verwendet
     Übertragen Sie Informationen vom Smart Plug zum Hauptcontroller
@@ -260,52 +192,34 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 -   Gruppe 8 - Deaktivierung bei Stromrückführung beim Smart Plug
     Erkennt eine Stromrückführung, deaktiviert es die zugehörigen Geräte
 
-
-
 > **Wichtig**
 >
-> Jeedom sollte mindestens in den Gruppen 1 und 4 zu finden sein 
+> Jeedom sollte mindestens in den Gruppen 1 und 4 zu finden sein
 
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Besonderheiten 
-
-
+### Besonderheiten
 
 -   Es macht keinen Sinn, Spaß daran zu haben, den Stecker zu stecken oder zu ziehen
     Beobachten Sie den Alarm. Dies funktioniert nur etwa dreimal. Bei
     jenseits der Steckdose muss zum Aufladen eine Weile mit Strom versorgt bleiben
     die interne Batterie.
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Sie sollten nicht die Möglichkeit haben, automatische Widgets herunterzuladen
 aktiviert. Sie können die Mobil- und Dashboard-Widgets auf der Website abrufen
 Markt : Alarm\_back.
 
-
-
 Haben Sie Parameter 2 richtig eingestellt? ? Hast du Jeedom wenigstens gut?
 in den Gruppen 1 und 4 ? Lassen Sie der Batterie Zeit
 aufladen ?
-
-
 
 **@sarakha63**

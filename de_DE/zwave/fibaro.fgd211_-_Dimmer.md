@@ -1,221 +1,100 @@
-Fibaro Dimmer - REA-211 
-=======================
+# Fibaro Dimmer - REA-211
 
-
-
--   **Das Modul**
-
-
+**Das Modul**
 
 ![module](images/fibaro.fgd211/module.jpg)
 
-
-
--   **Das Jeedom Visual**
-
-
+**Das Jeedom Visual**
 
 ![vuedefaut1](images/fibaro.fgd211/vuedefaut1.jpg)
 
+## Zusammenfassung
 
+Mit dem Dimmermodul FGD-211 können Sie eine Lampe oder Deckenleuchte mithilfe des Z-Wave-Protokolls fernsteuern, während Sie Ihren vorhandenen Schalter beibehalten.
 
-Zusammenfassung 
-------
+Sie können daher die angeschlossene Lampe aktivieren und ihre Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder direkt über die Taste am Mikromodul variieren. Es ist mit allen Arten von Lampen kompatibel, die Variationen unterstützen (Glühlampen, Fluo-Compact, LED, ...). Das Fibaro-Dimmermodul ist ein technologisches Konzentrat, erkennt automatisch die Art der angeschlossenen Last und ist gegen Überspannungen geschützt.
 
+Bei Leuchtstofflampen, die kein Dimmen unterstützen, fungiert das Modul automatisch als Schaltmodul (nur EIN / AUS).
 
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Modulversorgung (Phase + Neutralleiter).
 
-Mit dem Dimmermodul FGD-211 können Sie a steuern
-Lampe oder Deckenleuchte aus der Ferne dank des Z-Wave-Protokolls während
-Behalten Sie Ihren vorhandenen Schalter.
+Für Lampen mit sehr geringem Verbrauch (z. B. LED-Lampe) können Sie die Last (Bypass) FGB-001 verwenden, die einen korrekten Betrieb des Moduls ermöglicht. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen. Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modulen, um eine vollständige Abdeckung Ihres Hauses zu gewährleisten.
 
-Sie können daher die angeschlossene Lampe aktivieren und variieren
-Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder
-direkt von der Taste am Mikromodul. Er ist
-Kompatibel mit jeder Art von Lampe, die Variationen unterstützt
-(Glühlampe, Fluo-Compact, LED,…). Das Fibaro-Dimmermodul
-ist ein Konzentrat der Technologie, es erkennt automatisch die Art von
-angeschlossene Last und ist gegen Überspannung geschützt.
-
-Für Leuchtstofflampen, die keine Variation unterstützen, ist die
-Das Modul fungiert dann automatisch als Schaltmodul (EIN / AUS)
-uniquement).
-
-Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
-vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
-Modul (Phase + Neutral).
-
-Für Lampen mit sehr geringem Verbrauch (LED-Lampe von
-Beispiel) können Sie die FGB-001-Last (Bypass) verwenden, die dies ermöglicht
-korrekter Betrieb des Moduls. Eine Z-Wave-Steuerung (Fernbedienung),
-Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren
-wenn Sie bereits ein vorhandenes Netzwerk haben. Jedes Z-Wave-Modul funktioniert
-als drahtloser Repeater mit den anderen Modulen zu gewährleisten
-Gesamtabdeckung Ihres Hauses.
-
-
-
-Funktionen 
----------
-
-
+## Fonctions
 
 -   Fernbeleuchtung
-
 -   Wird hinter einem vorhandenen Switch installiert
-
 -   EIN / AUS und Variationsfunktion
-
 -   Verwendung im 2-Draht-Modus (Neutralleiter nicht erforderlich)
-
 -   Automatische Lasterkennung
-
 -   Geschützt gegen Überlastung
-
 -   Klein, diskret und ästhetisch
-
 -   Benutzerfreundlichkeit und Installation
 
-
-
-Technische Daten 
----------------------------
-
-
+## Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
-
 -   Versorgung : 230 V, 50 Hz
-
 -   Verkabelung : Neutral nicht erforderlich
-
 -   Maximale Belastung : 25-500W (ohmsche Last) oder 1.5A (induktive Last)
-
--   Kompatibler Lampentyp (dimmbar) : Glühlampe, Fluocompact,
-    Halogen (230VAC und 12VDC mit elektronischem Transformator), LED
-
+-   Kompatibler Lampentyp (dimmbar) : Glühlampe, Kompaktleuchtstofflampe, Halogen (230 VAC und 12 VDC mit elektronischem Transformator), LED
 -   Kompatibler Lampentyp (nicht dimmbar) : Kompaktleuchtstoff, LED
-
 -   Sicherung : 2.5A
-
 -   Frequenz : 868,42 MHz
-
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
-
 -   Dimensions: 15 x 42 x 36 mm
-
 -   Betriebstemperatur : 0-40 ° C
-
 -   Temperatur begrenzen : 105°C
-
 -   Standards : EN 55015 und EN 60669-2-1
 
-
-
-Moduldaten 
------------------
-
-
+## Moduldaten
 
 -   Machen Sie : Fibar Group
-
 -   Name : Fibaro FGMS-001 \ [Bewegungssensor \]
-
 -   Hersteller ID : 271
-
 -   Produkttyp : 256
-
 -   Produkt-ID : 4106
 
+## Configuration
 
-
-Konfiguration 
--------------
-
-
-
-So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
-Aufnahme beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
+Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 > **Wichtig**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
-> Einschlussknopf gemäß seiner Papierdokumentation.
-
-
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Einschlusstaste gemäß der Papierdokumentation dreimal.
 
 ![inclusion](images/fibaro.fgd211/inclusion.jpg)
 
-
-
 > **Spitze**
 >
-> Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einbinden
-> durch viele hin und her auf dem Schalter oder viele
-> Drücken Sie, wenn Sie einen Druckknopfschalter haben.
-
-
+> Wenn Sie Ihr Modul bereits an der Wand integriert haben, können Sie es einschließen, indem Sie viele Rundfahrten am Schalter ausführen oder viele Druckvorgänge ausführen, wenn Sie einen Druckknopfschalter haben.
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
+### Commandes
 
-
-### Befehle 
-
-
-
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
-
-
+Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
 ![Befehle](images/fibaro.fgd211/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
 
-
-
--   Intensität : Mit diesem Befehl können Sie die Intensität des einstellen
-    Licht
-
+-   Intensität : Es ist die Steuerung, mit der die Intensität des Lichts eingestellt werden kann
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
-
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
+-   Zustand : Es ist der Befehl, mit dem der Status des Lichts ermittelt werden kann
 
--   Zustand : Es ist der Befehl, mit dem der Status des
-    Licht
+Beachten Sie, dass sich im Dashboard alle Informationen auf demselben Symbol befinden
 
-Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
-icone
+### Konfiguration des Moduls
 
-
-
-### Konfiguration des Moduls 
-
-
-
-Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
-Jeedom OpenZwave Plugin.
-
-
+Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-
-
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
-Einstellungen)
-
-
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/fibaro.fgd211/config1.jpg)
 
@@ -223,122 +102,52 @@ Einstellungen)
 
 ![Config3](images/fibaro.fgd211/config3.jpg)
 
-
-
 Parameterdetails :
 
-
-
--   1: ALL ON / ALL OFF-Funktionen : wird nur verwendet, wenn Sie die zugeordnet haben
-    REA-211 zu einem anderen Modul
-
--   6: Nehmen wir an, wie Informationen an die Gruppe gesendet werden
-    Verein 1
-
--   7: ermöglicht es, den Status des zugeordneten Moduls vorher zu überprüfen oder nicht
-    eine Bestellung senden
-
+-   1: ALL ON / ALL OFF-Funktionen : Wird nur verwendet, wenn Sie die REA-211 einem anderen Modul zugeordnet haben
+-   6: Angenommen, Informationen werden an die Zuordnungsgruppe 1 gesendet
+-   7: Ermöglicht das Überprüfen oder Nicht-Überprüfen des Status des zugeordneten Moduls vor dem Senden einer Bestellung
 -   8: ermöglicht die Definition des Prozentsatzes der Variation (auto)
-
 -   9: Dauer der Variation zwischen den beiden Extremen (manuell)
-
 -   10: Dauer der Variation zwischen den beiden Extremen (auto)
-
 -   11: ermöglicht die Definition des Prozentsatzes der Abweichung (manuell)
-
 -   12: ermöglicht die Definition der maximal autorisierten Ebene
-
 -   13: ermöglicht das Definieren der autorisierten Mindeststufe
-
--   14: WICHTIGE EINSTELLUNG : ermöglicht die Wahl zwischen Schalter
-    BISTABLE oder MONOSTABLE (Druckknopf)
-
--   15: Aktiviert die Option, mit der die Helligkeit auf das Maximum eingestellt werden kann
-    bei doppelter Presse (oder zurück auf bistabil)
-
+-   14: WICHTIGE EINSTELLUNG : ermöglicht die Auswahl zwischen dem Schalter BISTABLE oder MONOSTABLE (Druckknopf)
+-   15: Aktiviert die Option, mit der die Helligkeit bei doppeltem Drücken auf Maximum eingestellt werden kann (oder bei bistabil zurückkehren)
 -   16: Option zum Aktivieren der Speicherung des letzten Status
-
--   17: Hier können Sie zwischen dem Hin- und Her-Modus und wählen
-    Fernbedienungsschalter
-
--   18: Ermöglicht die Synchronisierung des Variationsgrads mit anderen
-    zugehörige Laufwerke
-
--   19: Betriebsart des bistabilen Schalters (Rückwärtsfahrt)
-    oder nicht)
-
--   20: Ermöglicht die Einstellung des Mindestpegels für LEDS-Lampen
-    zum Beispiel dimmbar
-
--   30: ermöglicht die Definition der Betriebsart des Moduls bei
-    Empfang eines Rundfunkalarmsignals
-
+-   17: ermöglicht die Auswahl zwischen dem Hin- und Her-Modus und dem Fernbedienungsmodus
+-   18: ermöglicht die Synchronisation des Variationsniveaus mit den anderen zugeordneten Variatoren
+-   19: Betriebsart des bistabilen Schalters (Umkehren oder nicht)
+-   20: ermöglicht beispielsweise die Einstellung des Mindestpegels für dimmbare LEDS-Lampen
+-   30: definiert den Betriebsmodus des Moduls beim Empfang eines Rundfunkalarmsignals
 -   39: Alarmdauer definiert in Parameter 30
-
 -   41: Ermöglicht das Aktivieren oder Nicht-Aktivieren der Szenenaktivierungsfunktion
 
+### Groupes
 
-
-### Gruppen 
-
-
-
-Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist
-indispensable.
-
-
+Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![Groupe](images/fibaro.fgd211/groupe.jpg)
 
+## Gut zu wissen
 
-
-Gut zu wissen 
-------------
-
-
-
-### Besonderheiten 
-
-
+### Besonderheiten
 
 > **Kaution**
 >
-> Der wichtigste Parameter der Konfiguration ist 14. Es
-> ermöglicht die Auswahl des verwendeten Schaltertyps. Standardtyp
-> ist auf monostabil eingestellt.
+> Der wichtigste Parameter der Konfiguration ist 14. Hier können Sie den verwendeten Schaltertyp auswählen. Standardmäßig ist der Typ auf monostabil eingestellt.
 
+Wenn Sie das Modul ausschließen / einschließen möchten, ohne den Schalter zu zerlegen, können Sie den Schalter mehrmals drücken (oder bei einem bistabilen Schalter hin und her gehen)
 
-
-Wenn Sie das Modul ausschließen / einschließen möchten, ohne es zu zerlegen
-Schalter Sie können Ihren Schalter mehrmals drücken
-(oder bei einem bistabilen Schalter hin und her gehen)
-
-
-
-### Alternative visuelle 
-
-
+### Alternative visuelle
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-
-
-Aufwachen 
-------
-
-
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
+## Faq.
 
-
-Faq. 
-------
-
-
-
-Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
-auf dem Schalter.
-
-
-**@sarakha63**
+Nein, nein. Dieses Modul kann durch mehrmaliges Drücken des Schalters ein- oder ausgeschlossen werden.

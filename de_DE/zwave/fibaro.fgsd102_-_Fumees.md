@@ -1,28 +1,16 @@
 Fibaro FGSD-002 "Rauchsensor 2" 
 ================================
 
-
-
 -   **Das Modul**
-
-
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
-
-
 -   **Das Jeedom Visual**
-
-
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Mit weichen Linien, einer polierten Oberfläche und einer geringen Größe
 Mit dem Rauchmelder können Sie auf eine Bedrohung mit aufmerksam gemacht werden
@@ -48,12 +36,8 @@ damit der Rauchsensor eine Bedrohung erkennt und an meldet
 Bewohner des Hauses. Nur diese Art von Rauchsensor bietet
 hohe Effizienz, unabhängig davon, was brennt.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Z-Wave Rauchmelder
 
@@ -78,12 +62,8 @@ Funktionen
 -   Sehr einfache Installation - installieren Sie es einfach an einem Ort
     oder es besteht Brandgefahr
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Sender
 
@@ -114,12 +94,8 @@ Technische Daten
 
 -   Zertifizierungen : EN 14604:2005
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Fibar Group
 
@@ -131,54 +107,32 @@ Moduldaten
 
 -   Produkt-ID : 4098
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > zentraler Einschlussknopf gemäß Papierdokumentation.
 
-
-
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/fibaro.fgsd102/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Rauch : Dies ist der Modul-Alarmbefehl (für Rauch,
     Hitze…)
@@ -196,43 +150,27 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-
-
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
-
-
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
@@ -270,72 +208,42 @@ Parameterdetails :
 
 -   32: Signalintervall bei Verlust von Zwave
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
 zumindest mit den Gruppen 1 4 und 5 verbunden:
 
-
-
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
+### Besonderheiten
 
-
-### Besonderheiten 
-
-
-
-### Alternative visuelle 
-
-
+### Alternative visuelle
 
 ![widget1](images/fibaro.fgsd102/widget1.jpg)
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
-
-
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-
-
-Wichtiger Hinweis 
+Wichtiger Hinweis
 ---------------
-
-
 
 > **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
-
-
 
 **@sarakha63**

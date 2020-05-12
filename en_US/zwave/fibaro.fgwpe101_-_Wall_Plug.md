@@ -1,28 +1,16 @@
-Fibaro FGRWPE-101 "Wall plug" 
+Fibaro FGRWPE-101 "Wall plug"
 =============================
-
-
 
 -   **The module**
 
-
-
 ![module](images/fibaro.fgwpe101/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/fibaro.fgwpe101/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 The Fibaro Wall Plug is a universal receiver-socket-transmitter under
 form of an adapter to plug into a wall outlet to the network
@@ -35,12 +23,8 @@ of energy from any connected device. The Fibaro Wall Plug can be
 controlled by a button on its housing or from any
 Z-Wave standard compatible controller
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Controlled from a controller compatible with the Z-Wave standard.
 
@@ -51,12 +35,8 @@ Functions
 -   Measurement of active power of current and electrical energy
     of the receiver.
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave receiver
 
@@ -78,12 +58,8 @@ Technical characteristics
 
 -   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Fibar Group
 
@@ -95,54 +71,32 @@ Module data
 
 -   Product ID : 4096
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-
-
 ![inclusion](images/fibaro.fgwpe101/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/fibaro.fgwpe101/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   State : It is the command which allows to know the status of the
     prise
@@ -156,31 +110,19 @@ Here is the list of commands :
 
 -   Consumption : It is the order which reports the total consumption
 
-
-
 Note that on the dashboard the ON / OFF / STATUS commands are grouped together
 in one button.
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
-
-
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -190,11 +132,7 @@ settings)
 
 ![Config4](images/fibaro.fgwpe101/config4.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1: allows to block the module in always ON
 
@@ -242,64 +180,36 @@ Parameter details :
 -   70: safety power (the plug will cut when the power
     will reach this threshold)
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has 3 association groups, only the third is
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Reset 
-
-
+### Reset
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
-
-
 
 You can reset your consumption meter by clicking
 on this button available in the System tab. It's necessary to choose
 PressButton.
 
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![vuewidget](images/fibaro.fgwpe101/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 No notion of wakeup on this module.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Read the Reset section of this doc.
-
-
 
 **@sarakha63**

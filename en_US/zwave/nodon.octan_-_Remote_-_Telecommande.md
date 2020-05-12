@@ -1,28 +1,16 @@
-Nodon Remote Control - Octan 
+Nodon Remote Control - Octan
 ==========================
-
-
 
 -   **The module**
 
-
-
 ![module](images/nodon.octan/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 The Octan Remote NodOn® allows you to control any receiver
 Z-Wave® or Z-Wave Plus® compatible such as the remote control socket
@@ -35,12 +23,8 @@ refrigerator, through its wall support. Between remote control
 and switch, the Octan Remote revolutionizes object control
 domestiques
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Control alone or with a home automation system
 
@@ -52,12 +36,8 @@ Functions
 
 -   2 years of battery
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Food : CR2032 battery - Autonomy 1,5 - 2 years
 
@@ -77,12 +57,8 @@ Technical characteristics
 
 -   2 years warranty
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Nodon
 
@@ -94,18 +70,12 @@ Module data
 
 -   Product ID : 1
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
@@ -113,36 +83,20 @@ inclusion refer to this
 > button (1 and 2) until the light turns pink then press
 > button 1, according to its paper documentation.
 
-
-
 ![inclusion](images/nodon.octan/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/nodon.octan/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Buttons : it is the command which will push the button up
 
@@ -158,41 +112,25 @@ Here is the list of commands :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-
-
 ![Config1](images/nodon.octan/config1.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1-2 : Allows you to choose the button profiles when used in
     central (not necessary for use in Jeedom)
@@ -205,19 +143,13 @@ Parameter details :
 
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groups 
-
-
+### Groupes
 
 This module has 7 association groups.
-
-
 
 ![Groupe](images/nodon.octan/groupe.jpg)
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
-
-
 
 -   Group 1 - Lifeline : This group is generally used for
     transfer information from the Smart Plug to the main controller
@@ -229,57 +161,37 @@ This module has 7 association groups.
 -   Group 6 to 7 - The devices in these groups are controlled by the
     corresponding button according to DUO profile
 
-
-
 > **IMPORTANT**
 >
-> At least Jeedom should end up in group 1 
+> At least Jeedom should end up in group 1
 
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
-
-
+### Specificities
 
 -   This module can be finicky on inclusion. Do not hesitate to
     wake up 1 or 2 times after inclusion, and check the
     association group.
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module, just press one of the buttons
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 This module is a battery module, the new configuration will not be
 take into account that if you wake up the remote control.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
-
-
 
 **@sarakha63**

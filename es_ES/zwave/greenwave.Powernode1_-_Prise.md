@@ -1,28 +1,16 @@
-Greenwave PowerNode - 1 enchufe 
+Greenwave PowerNode - 1 enchufe
 =============================
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/greenwave.Powernode1/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 El módulo de enchufe PowerNode de GreenWave es un dispositivo inteligente que
 se conecta a uno de sus electrodomésticos y dispositivos electrónicos para
@@ -59,12 +47,8 @@ desactivado en caso de un dispositivo defectuoso o
 cortocircuito. El fusible proporciona protección adicional
 interno ubicado en el zócalo.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Controlar una lámpara o dispositivo de forma remota
 
@@ -84,12 +68,8 @@ Funciones
 
 -   Indicador de estado de luz
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Suministro : 250 V CA, 50 Hz
 
@@ -117,12 +97,8 @@ Características técnicas
 
 -   Clase de IP (tolerancia a la humedad) : IP20
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : GreenWave
 
@@ -134,54 +110,32 @@ Datos del módulo
 
 -   ID del producto : 2
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > inclusión presente bajo el zócalo.
 
-
-
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/greenwave.Powernode1/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Estado : Es el comando que permite conocer el estado de la
     prise
@@ -195,44 +149,26 @@ Aquí está la lista de comandos :
 
 -   El consumo : Es el orden que informa el consumo total
 
-
-
 Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS están agrupados
 en un botón.
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
 
-
-
 ![Config1](images/greenwave.Powernode1/config1.jpg)
-
-
 
 Como puede ver, no hay mucha configuración
 para este módulo.
 
-
-
 Detalles del parámetro :
-
-
 
 -   1 : Retraso antes de que el botón parpadee : cantidad de segundos
     mínimo entre dos comunicaciones (si se supera este retraso, el botón
@@ -240,70 +176,40 @@ Detalles del parámetro :
 
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es
 indispensable.
 
-
-
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
-
-
 
 A diferencia de su socket múltiple hermana mayor, este socket no requiere
 encuestas para aumentar el consumo.
 
-
-
-### Restablecer 
-
-
+### Reset
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
-
-
 
 Puede restablecer su medidor de consumo haciendo clic en
 en este botón disponible en la pestaña Sistema. Hay que elegir
 PressButton.
 
+### Específicos
 
-
-### Específicos 
-
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 No hay noción de activación en este módulo.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 ¿Has asociado el grupo 3 del módulo con Jeedom? ?
 
-
-
 No El módulo no lo permite. Ponle un pequeño trozo de cinta
 adhesivo negro.
-
-
 
 **@sarakha63**

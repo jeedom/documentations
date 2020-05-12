@@ -1,25 +1,15 @@
-MCO MH-S412 Double 
+MCO MH-S412 Double
 ==================
-
-
 
 -   **Das Modul**
 
-
-
 ![module](images/mco.mhs412/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
 
 
@@ -33,12 +23,10 @@ Der Schalter MH-S412-EU kann jede Art von Last steuern,
 Beleuchtung oder ein Elektrogerät.
 
 Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seine Anzeige anzeigt
-état. 
+état.
 
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Steuern Sie zwei Lampen oder Geräte fern
 
@@ -57,12 +45,8 @@ Funktionen
 
 -   Berühren Sie die Tasten
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Empfänger
 
@@ -82,12 +66,8 @@ Technische Daten
 
 -   Affichage: Blaue / rote LED
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : MC HOME
 
@@ -99,18 +79,12 @@ Moduldaten
 
 -   Produkt-ID : 514
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -120,73 +94,43 @@ Aufnahme beziehen sich darauf
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/mco.mhs412/commandes.jpg)
-
-
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-
-
 ![Config1](images/mco.mhs412/config1.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1: Speicherzustand vor Stromausfall : enable (erlaubt zu finden
     der letzte Zustand der Schalter kurz vor dem Stromausfall)
     deaktivieren (die Schalter befinden sich bei Netzrückführung im AUS-Zustand)
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist
 indispensable.
 
-
-
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Besonderheiten 
+### Besonderheiten
 
 1 \) Die Touch-Tasten haben beim Laden einen blauen Heiligenschein
 wird pilotiert
@@ -199,21 +143,15 @@ ist unbemannt
 4 \) Dieser Schalter kann seine Last im autonomen Modus steuern (nicht
 an einen Z-Wave-Controller angeschlossen)
 
-Aufwachen 
+Wakeup
 ------
-
-
 
 Wenn dieses Modul an das Stromnetz (220 V) angeschlossen ist, ist der Wecker sofort verfügbar
 und erfordert daher keine besondere Aktion beim Ändern
 Einstellungen
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Um dieses Modell auszuschließen, versetzen Sie Openzwave in den Ausschlussmodus und drücken Sie
 auf einer der 2 Tasten auf der Frontplatte für 3 Sekunden entsprechend seiner
@@ -221,6 +159,3 @@ Papierdokumentation.
 
 Drücken Sie nur eine der beiden Tasten, um die Werkseinstellungen wiederherzustellen
 auf der Frontplatte für 10 Sekunden gemäß der Papierdokumentation.
-
-
-
