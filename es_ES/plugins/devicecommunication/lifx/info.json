@@ -1,13 +1,13 @@
 {
-	"id" : "lifx",
-	"name" : "Lifx",
-	"description" : "Plugin permettant de contrôler les ampoules Lifx",
-	"licence" : "AGPL",
-	"author" : "Rocket13011",
-	"require" : "3.0",
-	"category" : "devicecommunication",
-	"hasDependency" : true,
-        "hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-lifx/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-lifx/#language#/"
+    "id": "lifx",
+    "name": "Lifx",
+    "description": "Plugin permettant de contrôler les ampoules Lifx",
+    "licence": "AGPL",
+    "author": "Rocket13011",
+    "require": "3.0",
+    "category": "devicecommunication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/"
 }

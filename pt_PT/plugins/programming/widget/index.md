@@ -1,139 +1,88 @@
-Configuration 
-=============
+# Plugin de widget
 
-Intro 
-=====
+O plugin do widget é um pouco especial, pois não permite criar equipamentos, mas modificar a renderização (exibição) de um pedido. O objetivo deste plugin é, portanto, simplesmente personalizar a maneira de exibir um valor, informação ou ação de acordo com seus gostos e desejos.
 
-Le plugin widget est un plugin un peu particulier, car il ne permet pas
-de créer des équipements mais de modifier le rendu (affichage) d’une
-commande. L’objectif de ce plugin est donc de permettre de personnaliser
-simplement la façon d’afficher une valeur, info, ou action en fonction
-de ses goûts et désirs.
+Desde a versão 1.112 do Jeedom, é possível personalizar widgets com opções específicas (criadas pelo desenvolvedor do widget). Para que possamos ter um widget que será exibido de maneira diferente de um pedido para outro.
 
-Depuis la version 1.112 de Jeedom, il est possible de personnaliser les
-widgets avec des options spécifiques (créées par le développeur du
-widget). On peut donc avoir un widget qui s’affichera différemment d’une
-commande à l’autre.
+Assim, podemos ter o mesmo widget escrito em azul em um pedido e em verde em outro.
 
-Ainsi, on peut avoir un même widget écrit en bleu sur une commande et en
-vert sur une autre.
-
-> **Note**
+> **NOTA**
 >
-> Widget et Tuile, à ne pas confondre.
+> Widget e lado a lado, para não confundir.
 >
-> Le widget, c’est la partie qui va se charger de mettre en forme et
-> afficher une info ou commande. Un widget ne doit s’occuper que d’une
-> seule commande ou info.
+> O widget é a parte que cuidará da formatação e exibição de informações ou pedidos. Um widget deve lidar apenas com um comando ou informação.
 >
-> La Tuile, c’est un regroupement de widgets pour un module. C’est la
-> zone dans laquelle vont s’afficher les différents widgets appliqués
-> aux commandes et infos du module.
+> La Tuile é um agrupamento de widgets para um módulo. Essa é a área na qual os diferentes widgets aplicados aos comandos e informações do módulo serão exibidos.
 
-Installation du plugin Widget 
-=============================
+# Instalando o plugin Widget 
 
-Comme pour tout plugin, le plugin Widget s’installe depuis l’interface
-Jeedom, menu "Général"⇒"Plugins"
+Como em qualquer plugin, o plugin Widget é instalado na interface do Jeedom, menu "Geral" ⇒ "Plugins"
 
 ![capture001](../images/capture001.png)
 
-Cliquer sur l’icône verte pour accéder directement au Market. Dans cette
-fenêtre cliquer sur "Officiel" et dans le champ de recherche mettre
-"Widget".
+Clique no ícone verde para ir diretamente ao mercado. Nesta janela, clique em "Oficial" e, no campo de pesquisa, coloque "Widget"".
 
 ![capture002](../images/capture002.png)
 
-Cliquer sur l’icône du plugin. Cela ouvre la fiche du plugin dans
-laquelle se trouvent plusieurs informations.
+Clique no ícone do plugin. Isso abre o arquivo do plugin, onde várias informações são encontradas.
 
 ![capture003](../images/capture003.png)
 
-Cliquer sur le bouton "Installer stable". Une fois installé, Jeedom vous
-demande si vous souhaitez aller à la page de configuration du plugin.
-Répondre oui. Sur la page de configuration du plugin widget, nous
-n’avons pour ce plugin qu’une seule option : activer ou désactiver.
+Clique no botão "Instalar estável"". Uma vez instalado, o Jeedom pergunta se você deseja ir para a página de configuração do plugin. Responda sim. Na página de configuração do plugin do widget, temos apenas uma opção para este plugin : ativar ou desativar.
 
-Par défaut le plugin est désactivé. je vous invite donc à cliquer sur le
-bouton vert "activer".
+Por padrão, o plug-in está desativado. Convido você a clicar no botão verde "ativar".
 
-Dès à présent le plugin est actif et opérationnel.
+A partir de agora o plug-in está ativo e operacional.
 
-Présentation et fonction de base du Plugin Widget 
-=================================================
+# Apresentação e função básica do Widget Plugin 
 
-Afin de se rendre dans le plugin Widget, il faut aller dans le menu
-"Plugins"⇒"Programmation"⇒"Widget".
+Para acessar o plugin Widget, vá ao menu "Plugins" ⇒ "Programming" ⇒ "Widget".
 
 ![capture005](../images/capture005.png)
 
-On se trouve donc sur la page principale du plugin. Ce dernier dispose
-par défaut d’un éventail de widgets dès son installation Il est possible
-d’en télécharger d’autres via le market ou de créer ses propres widgets
-(voir plus bas).
+Então, nós estamos na página principal do plugin. Por padrão, este último possui uma variedade de widgets assim que é instalado.Você pode fazer o download de outros no mercado ou criar seus próprios widgets (veja abaixo).
 
 ![capture006](../images/capture006.png)
 
-En cliquant sur l’un des widgets de la liste du menu de droite ou de
-gauche vous allez ouvrir la page de configuration du widget, dans
-laquelle vous pouvez modifier, voir un aperçu du widget (si Jeedom
-trouve une commande compatible) et tout un tas d’infos de configuration
-comme le code source du widget
+Ao clicar em um dos widgets da lista no menu direito ou esquerdo, você abrirá a página de configuração do widget, na qual poderá modificar, ver uma prévia do widget (se o Jeedom encontrar um comando compatível) e um todo muitas informações de configuração, como código-fonte do widget
 
 ![capture007](../images/capture007.png)
 
-> **Warning**
+> **Aviso**
 >
-> Si vous modifiez un widget qui n’est pas une de vos créations, il est
-> préférable de le dupliquer pour éviter de perdre vos modifs si le
-> widget original est mis à jour.
+> Se você modificar um widget que não é uma de suas criações, é preferível duplicá-lo para evitar perder suas modificações se o widget original for atualizado.
 
-Pour plus d’infos sur la configuration et création de widget voir plus
-bas.
+Para mais informações sobre configuração e criação de widget, veja abaixo.
 
-Appliquer le widget sur une commande 
-------------------------------------
+## Aplique o widget em um pedido 
 
-Pour appliquer un widget sur une seule commande ou modifier celui
-appliqué, il faut vous rendre sur la page de configuration du module. Le
-chemin pour accéder au module diverge en fonction du type de ce dernier.
-Voici quelques exemples :
+Para aplicar um widget a um único comando ou modificar o aplicado, você deve ir para a página de configuração do módulo. O caminho para acessar o módulo difere de acordo com o tipo deste último. Aqui estão alguns exemplos :
 
-Pour les modules Z-Wave, "Plugins"⇒"Protocole domotique"⇒"Z-wave", puis
-choisir le module de la commande que vous souhaitez modifier.
+Para módulos Z-Wave, "Plugins" ⇒ "Protocolo de automação residencial" ⇒ "Z-wave" e escolha o módulo do comando que você deseja modificar.
 
 ![capture024](../images/capture024.png)
 
-Sur la page de configuration du module, se rendre sur la commande et
-cliquer sur les roues crantées. Dans la nouvelle fenêtre, se rendre dans
-l’onglet "Affichage avancé"
+Na página de configuração do módulo, acesse o comando e clique nas rodas dentadas. Na nova janela, vá para a guia "Visualização avançada""
 
 ![capture025](../images/capture025.png)
 
-Vous pouvez ici modifier le widget appliqué pour les ordinateurs et
-mobiles avec les listes déroulantes dédiées.
+Aqui você pode modificar o widget aplicado a computadores e celulares com as listas suspensas dedicadas.
 
 ![capture014](../images/capture014.png)
 
-> **Note**
+> **NOTA**
 >
-> Les listes déroulantes sont auto filtrantes. Elles ne fournissent que
-> les widgets compatibles avec le type de commande.
+> As listas suspensas são auto-filtradas. Eles fornecem apenas widgets compatíveis com o tipo de comando.
 
-Appliquer le widget sur plusieurs commandes {#ancre-1}
--------------------------------------------
+## Aplique o widget em vários comandos
 
-En cliquant sur le bouton “Appliquer sur des commandes” vous ouvrez une
-fenêtre qui liste toutes les commandes compatibles avec le type du
-widget. Vous pouvez donc simplement appliquer ou retirer le widget à de
-nombreuses commandes en une seule fois.
+En cliquant sur le bouton “Appliquer sur des commandes” vous ouvrez une fenêtre qui liste toutes les commandes compatibles avec le type du widget. Assim, você pode simplesmente aplicar ou remover o widget a vários pedidos de uma só vez.
 
 ![capture008](../images/capture008.png)
 
-Il suffit de cocher les commandes sur lesquelles vous souhaiter
-appliquer le widget
+Basta verificar os comandos nos quais você deseja aplicar o widget
 
-### Divers exemples pour une même commande 
+### Vários exemplos para a mesma ordem 
 
 ![Widget : badge-transparent](../images/capture009.png)
 
@@ -141,236 +90,148 @@ appliquer le widget
 
 ![Widget : ConsoIMG](../images/capture011.png)
 
-Options de personnalisation des widgets 
----------------------------------------
+## Opções de personalização de widget 
 
-Depuis la version 1.112 de Jeedom, il est possible de personnaliser les
-widgets avec des options spécifiques (créées par le développeur du
-widget) et communes à tous les widgets. On peut donc avoir un widget qui
-s’affichera différemment d’une commande à l’autre.
+Desde a versão 1.112 do Jeedom, é possível personalizar widgets com opções específicas (criadas pelo desenvolvedor do widget) e comuns a todos os widgets. Para que possamos ter um widget que será exibido de maneira diferente de um pedido para outro.
 
-On peut accéder à ces options de 2 façons. Soit par l’arbre Domotique
-qui se trouve dans le menu "Général" ⇒ "Résumé Domotique"
+Existem 2 maneiras de acessar essas opções. Ou pela árvore da automação residencial, que está no menu "Geral" ⇒ "Resumo da automação residencial"
 
 ![capture012](../images/capture012.png)
 
-Sur cette page vous trouvez tous vos éléments domotiques, les objets,
-les modules, les commandes. Cliquez sur la petite roue crantée pour
-accèder à la page de configuration.
+Nesta página, você encontra todos os elementos, objetos, módulos, comandos de automação residencial. Clique na pequena roda dentada para acessar a página de configuração.
 
 ![capture013](../images/capture013.png)
 
-Soit depuis la page de configuration des modules.
+Na página de configuração do módulo.
 
 ![capture015](../images/capture015.png)
 
-### Ajouter une option personnalisée 
+### Adicionar uma opção personalizada 
 
-Dans l’onglet "Affichage avancé" on trouve 2 listes déroulantes qui
-permettent de changer pour la commande le widget utilisé sur un
-ordinateur et l’autre pour les mobiles. Il y a aussi d’autres options,
-pour afficher ou non les noms et stats, forcer le retour à la ligne
-avant/après le widget s’il y a plusieurs commandes dans un module
-(retours à la ligne dans la tuile). Enfin la liste des paramètres
-optionnels Widget appliqués (la liste disponible se trouve sur le forum
-ou Wiki, un système de doc est à l’étude)
+Na guia "Exibição avançada", existem 2 listas suspensas que permitem alterar o widget usado em um computador para o pedido e o outro para dispositivos móveis. Também existem outras opções: exibir ou não os nomes e as estatísticas, forçar a quebra de linha antes / depois do widget, se houver vários comandos em um módulo (quebras de linha no bloco). Finalmente, a lista de parâmetros opcionais do Widget aplicados
 
 ![capture014](../images/capture014.png)
 
-![exemple 1 de valeur pour afficher un compteur
-spécifique](../images/capture016.png)
+![exemple 1 de valeur pour afficher un compteur spécifique](../images/capture016.png)
 
-![exemple 2 de valeur pour afficher un autre
-compteur](../images/capture017.png)
+![exemple 2 de valeur pour afficher un autre compteur](../images/capture017.png)
 
-> **Note**
+> **NOTA**
 >
-> Pour ajouter une option il vous suffit de cliquer sur le bouton
-> "Ajouter", de renseigner le nom de l’option avec les bonnes minuscules
-> et majuscules, ainsi que la valeur à attribuer à l’option. Pour
-> trouver les options, consulter le forum ou/et le Wiki
+> Para adicionar uma opção, basta clicar no botão "Adicionar", digite o nome da opção com as letras maiúsculas e minúsculas corretas, bem como o valor a ser atribuído à opção.
 
-Configuration avancée 
----------------------
+## Configuração avançada
 
-Voir la doc sur le Résumé domotique ⇒
-[ICI](https://jeedom.github.io/core/fr_FR/display)
+Consulte o documento no resumo da automação residencial ⇒ [Aqui](https://jeedom.github.io/core/pt_PT/display)
 
-Création / Modification de widget 
----------------------------------
+## Criação / modificação de widget
+O plugin oferece 2 possibilidades para a criação de Widgets, o modo fácil, que permite fazer widgets básicos facilmente com um assistente de criação, e o modo avançado, que também permite a modificação de todos os widgets a partir de então.
 
-Le plugin offre 2 possibilités pour la création de Widgets, le mode
-facile qui permet de faire des widgets basiques facilement avec un
-assistant de création, et le mode avancé qui permet aussi la
-modification par la suite de tous les widgets.
-
-> **Note**
+> **NOTA**
 >
-> Le mode avancé apporte une souplesse sans limite. Toutefois, il vous
-> faut avoir quelques connaissances en langage de programmation basique
-> telle que HTML et CSS pour la base et JavaScript pour pouvoir réaliser
-> des choses un peu plus complexes.
+> O modo avançado fornece flexibilidade ilimitada. No entanto, você precisa ter algum conhecimento da linguagem de programação básica, como HTML e CSS para a base e JavaScript, para poder fazer as coisas um pouco mais complexas.
 
-### Mode création facile 
+### Modo de criação fácil
 
-Pour réaliser un widget avec l’assistant, il vous suffit de vous rendre
-dans le plugin : menu "Plugins"⇒"Programmation"⇒"Widget". A partir de
-cette page, cliquer sur le bouton "Mode création facile" en haut à
-gauche.
+Para criar um widget com o assistente, basta acessar o plugin : Menu "Plugins" ⇒ "Programação" ⇒ "Widget". Nesta página, clique no botão "Modo de criação fácil" no canto superior esquerdo.
 
 ![capture026](../images/capture026.png)
 
-Sur la nouvelle page, vous pouvez dans la partie de droite, visualiser
-les icônes de base Jeedom, les images que vous avez importées et les
-packs importés. Sur la partie de gauche, en premier un bouton pour
-importer des packs ou images, puis 3 boutons pour la création de widget.
+Na nova página, você pode, na parte direita, visualizar os ícones básicos do Jeedom, as imagens importadas e os pacotes importados. No lado esquerdo, primeiro um botão para importar pacotes ou imagens, depois três botões para criar um widget.
 
 ![capture027](../images/capture027.png)
 
--   Widget On/Off ⇒ Destiné aux commandes bouton pour les on/off
+-   Widget On / Off ⇒ Destinado a comandos de botão para on / off
+-   Widget de Estado Simples ⇒ Destinado a comandos com feedback de status
+-   Widget Numérico ⇒ Destinado a comandos que enviam um valor numérico (exemplo : Temperatura, brilho ... etc)
 
--   Widget Simple Etat ⇒ Destiné aux commandes qui ont un retour d’état
+#### Exemplo com a criação de um widget de status 
 
--   Widget Numérique ⇒ Destiné aux commandes qui envoient une valeur
-    numérique (exemple : Température, luminosité …​ etc)
-
-#### Exemple avec la création d’un widget d’état 
-
-> **Note**
+> **NOTA**
 >
-> Cet exemple reste applicable pour les 2 autres types de création
+> Este exemplo permanece aplicável aos outros 2 tipos de criação
 
-Cliquer sur le bouton "Widget Simple Etat". On arrive sur la page de
-configuration assistée. Il faut donner un nom au widget (nom unique), le
-type d’interface, si le widget est destiné au PC (Dashboard) ou mobile,
-puis la bibliothèque à utiliser (Jeedom, Image perso ou packs).
+Clique no botão "Simple State Widget". Chegamos à página de configuração assistida. Você deve dar um nome ao widget (nome exclusivo), o tipo de interface, se o widget for destinado ao PC (painel) ou dispositivo móvel, e depois à biblioteca a ser usada (Jeedom, imagem pessoal ou pacotes).
 
 ![capture028](../images/capture028.png)
 
-Puis il vous faut choisir l’icône pour l’Etat 0 et 1, ainsi que la
-taille de l’icône (valeur en "EM" = % de la taille d’origine de la
-police du navigateur, 1 = 100%). Ceci fait, le code source apparaît en
-dessous de la zone de configuration.
+Em seguida, você deve escolher o ícone para os estados 0 e 1, bem como o tamanho do ícone (valor em "EM" =% do tamanho original da fonte do navegador, 1 = 100%). Feito isso, o código fonte aparece abaixo da área de configuração.
 
-> **Warning**
+> **Aviso**
 >
-> Ne pas modifier ces informations si vous ne savez pas ce que vous
-> faites.
+> Não modifique essas informações se você não souber o que está fazendo.
 
-Il ne reste plus qu’à valider pour finaliser la création du widget. Vous
-serez automatiquement redirigé sur la page de configuration avancée qui
-vous permet d’appliquer le widget à plusieurs commandes (voir le
-chapitre [Appliquer le widget sur plusieurs commandes](#ancre-1))
+Resta validar para finalizar a criação do widget. Você será redirecionado automaticamente para a página de configuração avançada, que permite aplicar o widget a vários comandos
 
-### Création / modification en mode avancé 
+### Criação / modificação no modo avançado 
 
-En mode avancé, il faut avoir des connaissances en langage de
-programmation "HTML", "CSS" et "JavaScript" pour pouvoir modifier
-correctement un widget.
+No modo avançado, você deve ter conhecimento da linguagem de programação "HTML", "CSS" e "JavaScript" para poder modificar um widget corretamente.
 
-> **Note**
+> **NOTA**
 >
-> Il existe plusieurs sites en FR sur le web pour apprendre ces
-> langages, je vous conseille OpenClassRoom qui explique tout depuis le
-> début.
+> Existem vários sites em FR na web para aprender esses idiomas, eu recomendo o OpenClassRoom, que explica tudo desde o início.
 
-Pour accéder au mode avancé, il vous suffit de vous rendre dans le
-plugin widget, de choisir le widget à modifier ou de cliquer sur le
-bouton "Ajouter un widget"
+Para acessar o modo avançado, basta acessar o plugin do widget, escolher o widget a ser modificado ou clicar no botão "Adicionar widget""
 
-#### Création d’un widget 
+#### Criando um widget 
 
-Depuis la page principale du plugin, cliquer sur "Ajouter un Widget".
-Jeedom vous demande quelques infos sur le futur widget.
+Na página principal do plug-in, clique em "Adicionar um widget". Jeedom pede algumas informações sobre o widget futuro.
 
 ![capture029](../images/capture029.png)
 
--   Le nom doit être un nom unique. Vérifiez donc que ce nom n’existe
-    pas déjà.
+-   O nome deve ser um nome exclusivo. Portanto, verifique se esse nome ainda não existe.
+-   Versão, corresponde ao tipo de dispositivo a que se destina (PC ou Celular).
+-   Tipo, corresponde ao tipo de comando que usará o widget: nenhum, informação ou ação.
+-   Subtipo, fornece precisão ao tipo escolhido anteriormente.
 
--   Version, correspond au type d’appareil pour lequel il est destiné
-    (PC ou Mobile).
+Você pode alterar o nome, o tipo e o subtipo posteriormente. No entanto, isso pode ter implicações se o widget já estiver aplicado a um ou mais comandos. Portanto, é melhor evitá-lo.
 
--   Type, correspond au type de commande qui utilisera le widget: aucun,
-    info ou action.
+##### Informações do tipo 
 
--   Sous-type, donne une précision au type choisi précédemment.
+O tipo "info" é usado para comandos que retornam um valor, por exemplo, um estado do módulo, um valor numérico (temperatura, brilho, umidade etc.), um texto ou qualquer outra informação.
 
-On peut modifier le nom, type et sous-type par la suite. Toutefois, cela
-peut avoir des incidences si le widget est déjà appliqué à une ou
-plusieurs commandes. Il vaut donc mieux l’éviter.
+-   Digital : para números
+-   Binário : para estados liga / desliga (0/1)
+-   Outro : para todos os outros tipos de informações, como textos
 
-##### Le type Info 
+##### O tipo de ação 
 
-Le type "info" est utilisé pour des commandes qui renvoient une valeur,
-par exemple, un état de module, une valeur numérique (température,
-luminosité, humidité etc), un texte ou toute autre information.
+O tipo "action" é usado para comandos que terão uma ação no Jeedom ou em equipamento externo.
 
--   Numérique : pour les nombres
+-   Falha : usado para criar botões de ação
+-   Slider : usado para criar cursores para alterar valores numéricos
+-   Mensagem : Usado para criar uma área de entrada de texto com o botão enviar
+-   Cor : usado para criar um botão de escolha de cores
 
--   Binaire : pour les états on/off (0/1)
-
--   Autre : pour tous les autres types d’infos comme les textes
-
-##### Le type action 
-
-Le type "action" est utilisé pour des commandes qui vont avoir une
-action dans Jeedom ou sur un équipement externe.
-
--   Défaut : utilisé pour créer des boutons d’action
-
--   Curseur : utilisé pour créer des curseurs permettant de modifier des
-    valeurs numériques
-
--   Message : Utilisé pour créer une zone de saisie de texte avec bouton
-    d’envoi
-
--   Couleur : utilisé pour créer un bouton de choix de couleur
-
-Une fois paramétré, cliquer sur "Ajouter". Jeedom vous redirige sur la
-page principale de la configuration/modification du Widget. A partir de
-là, le widget est créé dans Jeedom mais ne contient pour le moment pas
-de code pour l’affichage de la commande.
+Depois de configurado, clique em "Adicionar". O Jeedom o redireciona para a página principal de configuração / modificação de Widget. A partir daí, o widget é criado no Jeedom, mas atualmente não contém nenhum código para exibir o comando.
 
 ![capture030](../images/capture030.png)
 
-#### Modification d’un widget 
+#### Editando um widget 
 
-Une fois sur la page principale de config d’un widget, c’est dans la
-partie "code source" que les modifications de l’apparence s’appliquent.
+Uma vez na página principal de configuração de um widget, é na parte "código fonte" que as alterações na aparência se aplicam.
 
-> **Warning**
+> **Aviso**
 >
-> Pour modifier ces infos il faut avoir quelques bases en programmation
-> HTML, CSS et JavaScript. Les modifications peuvent avoir un impact
-> important sur l’affichage du widget et sur l’affichage d’autres
-> widgets, voire bloquer l’affichage de tous les widgets.
+> Para modificar essas informações, você precisa ter noções básicas de programação em HTML, CSS e JavaScript. As modificações podem ter um impacto significativo na exibição do widget e na exibição de outros widgets, ou mesmo bloquear a exibição de todos os widgets.
 
-La base (squelette) d’un widget se fait en HTML. Cela permet de
-structurer l’affichage et de retrouver plus simplement les informations.
+A base (esqueleto) de um widget está em HTML. Isso permite que você estruture a exibição e encontre informações de maneira mais simples.
 
-Dans Jeedom pour les widgets, le premier bout de code à créer c’est une
-"div" qui fera office de conteneur principal pour tout le code de notre
-Widget.
+No Jeedom para widgets, o primeiro pedaço de código a ser criado é um "div" que atuará como o contêiner principal de todo o código em nosso Widget.
 
-Dans cette "div", on peut y trouver jusqu’à 3 sous-parties distinctes :
+Nesta "div", você pode encontrar até 3 sub-partes distintas :
 
--   La partie HTML qui va afficher les informations
+-   A parte HTML que exibirá as informações
+-   A parte CSS, que a tornará mais atraente, formatando a parte HTML (parte opcional)
+-   A parte JavaScript que permite trabalhar em várias ações, cálculos e animações
 
--   La partie CSS qui va rendre plus joli en mettant en forme la parte
-    HTML (Partie Facultative)
+##### Código HTML 
 
--   La partie JavaScript qui permet de travailler sur diverses actions,
-    calculs et animations
+Em vez de discursos longos, aqui está um exemplo de código básico para um widget
 
-##### Code HTML 
+**Estrutura HTML básica.**
 
-Plutôt que de longs discours, voici un exemple de code de base pour un
-widget
-
-**Structure HTML de base.**
-
-``` {.html}
+````
 <div>
     <center>
         <span></span>
@@ -384,42 +245,21 @@ widget
 
     </script>
 </div>
-```
+````
 
-La structure de base qui schématise les différents emplacements dans
-notre widget est maintenant créée. Pour autant, on n’a rien qui
-s’affiche, c’est normal.
+A estrutura básica que esquematiza os diferentes locais em nosso widget agora é criada. No entanto, não temos nada exibido, é normal.
 
-div
+- ``div`` : recipiente multiuso relativamente versátil com alimentação de linha após
+- ``center`` : tag que centraliza seu conteúdo
+- ``span`` : recipiente multiuso relativamente versátil, sem alimentação de linha após
+- ``style`` : Contêiner para o código CSS que será aplicado em geral (tenha cuidado, seu conteúdo pode afetar todos os elementos da página)
+- ``script`` : tag que conterá JavaScript
 
-:   conteneur multifonction relativement polyvalent avec retour à la
-    ligne après lui
+Como é, é difícil fazer qualquer coisa com esse pedaço de código. É por isso que adicionaremos algumas opções (denominadas Atributo na linguagem HTML) em nossas tags.
 
-center
+**Adição de atributos básicos.**
 
-:   balise qui centre son contenu
-
-span
-
-:   conteneur multifonction relativement polyvalent sans retour à la
-    ligne après lui
-
-style
-
-:   Conteneur pour le code CSS qui sera appliqué de façon générale
-    (attention son contenu peut affecter tous les éléments de la page)
-
-script
-
-:   balise qui vas contenir du JavaScript
-
-En l’état, il est difficile de faire quoi que ce soit avec ce bout de
-code. C’est pourquoi on va ajouter quelques options (appelées Attribut
-en langage HTML) dans nos balises.
-
-**Ajout des attributs de base.**
-
-``` {.html}
+````
 <div class="Doc-#id# cmd tooltips cmd-widget #history#" title="" data-type="info" data-subtype="numeric" data-cmd_id="#id#" >
 
     <center>
@@ -434,298 +274,116 @@ en langage HTML) dans nos balises.
 
     </script>
 </div>
-```
+````
 
-Dans notre "div" principal on a ajouté plusieurs attributs :
+No nosso ``div`` principal nós adicionamos vários atributos :
 
-id
+``id`` : O atributo "id" não é recomendado no Jeedom
 
-:   L’attribut "id" est déconseillé sur Jeedom
-
-> **Important**
+> **IMPORTANTE**
 >
-> Pour être sûr d’éviter un conflit au niveau des IDs (ce qui peut
-> planter toute la page web), sous Jeedom nous utilisons des class-id et
-> des attribut "data-". Cela permet d’être sûr qu’en cas de collision,
-> toute la page web ne soit pas plantée.
+> Para evitar conflitos no nível de IDs (que podem travar toda a página da web), no Jeedom, usamos identificações de classe e atributos "data"-". Isso possibilita garantir que, em caso de colisão, a página da Web inteira não seja bloqueada.
 
-class
+classe : Classes diferentes dos IDs não são exclusivas. Eles são usados para aplicar um estilo definido na parte do estilo (a tag). Assim, podemos simplesmente reproduzir a mesma formatação que criamos uma vez e que reutilizamos por palavra-chave (classe). Aqui, adicionamos várias classes básicas definidas e disponíveis no Jeedom (consulte a classe Jeedom abaixo).
 
-:   Les class contrairement aux ids ne sont pas uniques. Elle servent à
-    appliquer un style défini dans la partie style (la balise). On peut
-    ainsi reproduire simplement une même mise en forme que l’on crée une
-    fois et que l’on réutilise par mot clé (class). Ici on ajoute
-    plusieurs class définies et disponibles de base dans Jeedom (voir
-    plus bas les class Jeedom).
+O Jeedom usa, em vez do atributo id, uma classe como id, isso torna possível tornar um elemento único na página para encontrá-lo e direcioná-lo mais facilmente. É imperativo que seu valor seja único na página. Para isso, aconselho que você use uma palavra que represente nosso elemento. No nosso exemplo, a div representa todo o nosso widget, para que possamos usar o nome do nosso widget ou uma abreviação (aqui eu escolhi Doc-). Então, para garantir que o ID da classe seja único, colocaremos uma tag "#id#" (para obter mais informações sobre tags Jeedom, veja abaixo), que fornece "Doc-#id#".
 
-        Jeedom utilise à la place de l'attribut id, une class comme id, cela permet de rendre un élément unique sur la page afin de le retrouver et le cibler plus facilement. Il est impératif que sa valeur soit unique sur la page. Pour cela je vous conseille d'utiliser un mot qui représente notre élément. Dans notre exemple la div représente l'ensemble de notre widget, donc on peut utiliser le nom de notre widget ou une abréviation (ici j'ai choisi Doc-). Ensuite, afin de garantir que la class-id soit unique, on va y mettre un tag "#id#" (pour plus d'info sur les tags Jeedom voir plus bas), ce qui donne "Doc-#id#".
+- ``data-type`` : esse atributo permite armazenar o tipo de comando no qual o widget será aplicado. Portanto, seu valor deve corresponder ao parâmetro de tipo acima da área de código.
+- ``data-subtype`` : esse atributo permite armazenar o subtipo do comando no qual o widget será aplicado. Portanto, seu valor deve corresponder ao parâmetro subtipo acima da área de código.
+- ``data-cmd\_id`` : Este atributo assume como valor o Tag \#id\#. É usado pelo Jeedom para atualizar o Painel.
 
-data-type
+A partir daí, temos uma base que corresponde ao padrão Jeedom. É
+o código minimalista necessário para ter um widget que respeite o
+Regra / regra Jeedom
 
-:   cette attribut permet de stocker le type de la commande sur laquelle
-    le widget vas être appliqué. Il faut donc que sa valeur corresponde
-    au paramètre type au dessus de la zone de code.
-
-data-subtype
-
-:   cette attribut permet de stocker le sous-type de la commande sur
-    laquelle le widget vas être appliqué. Il faut donc que sa valeur
-    corresponde au paramètre sous-type au dessus de la zone de code.
-
-data-cmd\_id
-
-:   Cet attribut prend comme valeur le Tag \#id\#. Il est utilisé par
-    Jeedom pour la mise à jour du Dashboard.
-
-A partir de là, on a une base qui correspond au standard Jeedom. C’est
-le code minimaliste qu’il faut pour avoir un widget qui respecte la
-charte/règle Jeedom
-
-> **Important**
+> **IMPORTANTE**
 >
-> Ne pas oublier de modifier l’attribut data-type et data-subtype si
-> vous modifiez ces valeur dans la config du widget.
+> Não se esqueça de modificar o atributo data-type e data-subttype se você modificar esses valores na configuração do widget.
 
-##### Code CSS 
+##### Código CSS 
 
-Cette partie qui vient s’ajouter entre les 2 balises "style", permet de
-déclarer des règles de mise en forme. Cette partie est facultative car
-on peut ajouter les mises en forme directement dans l’attribut style
-d’une balise ou à l’aide de JavaScript. L’utilisation de cette partie
-est donc une question de préférence pour bien séparer le HTML et le CSS
+Esta parte que é adicionada entre as duas tags "style", permite declarar regras de formatação. Esta parte é opcional porque você pode adicionar a formatação diretamente no atributo style de uma tag ou usando JavaScript. O uso desta parte é, portanto, uma questão de preferência para separar adequadamente HTML e CSS
 
-> **Warning**
+> **Aviso**
 >
-> Tout code déclaré dans des balises style, s’applique à toute la page.
-> Il faut donc bien faire attention au sélecteur CSS que vous choisissez
-> d’utiliser pour ne pas altérer les autres widgets.
+> Qualquer código declarado em tags de estilo se aplica a toda a página. Portanto, tenha cuidado com o seletor de CSS que você escolher para não alterar os outros widgets.
 
-Afin de ne pas impacter d’autres widgets involontairement par le code
-CSS que vous allez y mettre, je vous conseille d’utiliser le sélecteur
-id qui cible votre widget.
+Para não afetar acidentalmente outros widgets pelo código CSS que você colocará lá, aconselhamos que você use o seletor de identificação que segmenta seu widget.
 
-Exemple, si je veux mettre en rouge le texte situé dans la balise
-"Span", on aurait tendance à écrire :
+Por exemplo, se eu quiser colocar em vermelho o texto localizado na tag "Span", tenderemos a escrever :
 
-**Code mis dans la balise Style.**
+**Código inserido na tag Style.**
 
-``` {.CSS}
+````
 span{
     color: red;
 }
-```
+````
 
-Mais cela aurait pour effet de changer la couleur du texte de tous les
-span de la page. Donc pour éviter cela, ajouter un sélecteur id qui vise
-votre widget pour délimiter son action :
+Mas isso mudaria a cor do texto de toda a extensão da página. Portanto, para evitar isso, adicione um seletor de ID direcionado ao seu widget para limitar sua ação :
 
-**Code mis dans la balise Style et délimité.**
+**Código inserido na tag Style e delimitado.**
 
-``` {.CSS}
+````
 .Doc-#id# span{
     color: red;
 }
-```
+````
 
-En ajoutant .Doc-\#id\# devant le sélecteur span, on délimite la
-modification à l’intérieur de notre widget.
+Adicionando .Doc- \#id\# na frente do seletor de span, delimitamos a modificação dentro do nosso widget.
 
-##### Code JavaScript 
+##### Código JavaScript 
 
-Le JavaScript se met entre les balises "Script". On utilise le
-JavaScript pour faire des calculs, convertir des données, animer le
-widget, mettre en forme le widget, réaliser des actions sur le widget en
-fonction d’événements. En plus du JavaScript de base, Jeedom intègre par
-défaut plusieurs Frameworks qui permettent de simplifier le code
-JavaScript. On peut donc utiliser sans les initialiser :
+JavaScript é colocado entre as tags "Script". Usamos JavaScript para fazer cálculos, converter dados, animar o widget, formatar o widget, executar ações no widget com base em eventos. Além do JavaScript básico, o Jeedom incorpora, por padrão, várias estruturas que simplificam o código JavaScript. Para que possamos usar sem inicializá-los :
 
 -   Jquery
-
--   Jquery UI
-
+-   UI do Jquery
 -   Bootstrap
 
-> **Warning**
+> **Aviso**
 >
-> En cas d’erreur dans le code JS, cela peut bloquer tous les codes JS
-> qui pourraient suivre, que ce soit dans le widget ou d’autres widgets.
-> Il faut donc être prudent lors des modifications.
+> No caso de um erro no código JS, isso pode bloquear todos os códigos JS que podem ser seguidos, seja no widget ou em outros widgets. Portanto, tenha cuidado ao fazer alterações.
 
-> **Tip**
+> **Dica**
 >
-> Si après avoir enregistré une modification de widget, la roue crantée
-> contenue à tourner indéfiniment, il se peut que vous ayiez fait une
-> erreur JS qui fais planter la suite de l’exécution JS sur la page.
-> Pour pouvoir corriger il vous suffit de passer la div
-> id=jqueryLoadingDiv en display none à l’aide de la console du
-> navigateur, corriger le code et enregistrer. Il faut aussi faire F5
-> pour actualiser la page.
+> Se, após salvar uma modificação de um widget, a roda dentada contida para girar indefinidamente, você pode ter cometido um erro de JS que causa o travamento da continuação da execução do JS na página. Para poder corrigi-lo, basta passar o div id = jqueryLoadingDiv no display none usando o console do navegador, corrigir o código e salvar. Você também precisa fazer o F5 para atualizar a página.
 
-### Les tags Jeedom 
+### Tags Jeedom 
 
-Dans Jeedom vous rencontrerez souvent les tags qui sont des noms
-entourer de "\#". Le principe de fonctionnement de ces tags est simple :
-Jeedom vas les remplacer par la valeur qui correspond au tag. Les Tags
-sont des sortes de variables (boîtes) dans lesquelles sont stockées des
-valeurs que l’on ne connait pas au moment où l’on écrit le code. C’est
-un peu comme si l’on faisait un texte avec des blancs pour y mettre plus
-tard des mots qui donneraient un sens variable au texte.
+No Jeedom, você encontrará frequentemente tags com nomes entre "\#". O princípio de operação dessas tags é simples : Jeedom irá substituí-los pelo valor que corresponde à tag. Tags são tipos de variáveis (caixas) nas quais os valores desconhecidos no momento da gravação do código são armazenados. É um pouco como criar um texto com espaços em branco para colocar palavras mais tarde que dariam significado variável ao texto.
 
-Tous les tags ne sont pas disponibles avec tous les types de commande,
-voici donc la liste et leur détail :
+Nem todas as tags estão disponíveis com todos os tipos de pedidos, então aqui está a lista e seus detalhes :
 
-\#id\#
-
-:   ID de la commande créé par Jeedom à la création de la commande
-    (valeur numérique unique).
-
-        A utiliser comme du texte, en JS ou dans les attributs HTML
-
-\#logicalId\#
-
-:   ID logique de la commande (peut être vide).
-
-        A utiliser comme du texte ou en JS
-
-\#name\#
-
-:   Nom de la commande.
-
-        A utiliser comme du texte ou en JS
-
-\#name\_display\#
-
-:   Nom de la commande. A utiliser pour l’affichage du nom de la
-    commande au niveau du widget.
-
-        A utiliser comme du texte ou en JS
-
-\#hideCmdName\#
-
-:   Vide si le nom de la commande doit être affiché. Et "display:none;"
-    si le nom de la commande ne doit pas être affiché.
-
-        A utiliser dans les attributs HTML style (CSS)
-
-\#maxValue\#
-
-:   Valeur maximale que peut prendre la commande.
-
-        A utiliser comme du texte, en JS ou dans les attributs HTML
-
-<!-- -->
-
-\#valueName\#
-
-:   Nom de la commande info liée, si la commande action est liée à une
-    commande info, nom de la commande action sinon.
-
-        A utiliser comme du texte ou en JS
-
-\#lastValue\#
-
-:   Dernière valeur de la commande (peut être vide).
-
-        A utiliser comme du texte ou en JS
-
-<!-- -->
-
-\#unite\#
-
-:   Unité de la commande
-
-        A utiliser comme du texte ou en JS
-
-\#collectDate\#
-
-:   Retourne la date et heure de la dernière mise à jour du widget au
-    format "yyyy-mm-dd hh:mn:ss"
-
-        A utiliser comme du texte, en JS, ou dans l'attribut titre
-
-\#state\#
-
-:   Valeur de la commande
-
-        A utiliser comme du texte ou en JS
-
-\#displayHistory\#
-
-:   Permet de prendre en compte l’option "Afficher les statistiques sur
-    les widgets" dans le menu "Général"⇒"Administration"⇒"Configuration"
-    onglet "Configuration des commandes". Si l’option est sur oui, le
-    tag retournera un vide sinon 'display : none;'
-
-        A utiliser dans l'attribut "style" d'une balise html à afficher si l'historisation est activée dans la config Jeedom
-
-\#averageHistoryValue\#
-
-:   Valeur moyenne sur les x dernières heures de la commande
-
-        A utiliser comme du texte ou en JS
-
-\#minHistoryValue\#
-
-:   Minimum sur les x dernières heures de la commande
-
-        A utiliser comme du texte ou en JS
-
-\#maxHistoryValue\#
-
-:   Maximum sur les x dernières heures de la commande
-
-        A utiliser comme du texte ou en JS
-
-\#tendance\#
-
-:   Permet si l’historique de la valeur est activé de retourner les
-    class : 'fa fa-minus', 'fa fa-arrow-up' ou 'fa fa-arrow-down' (icone
-    trait, flèche bas, flèche haut), liées à la tendance de la valeur
-
-        A utiliser dans l'attribut "class" d'une balise "i"
-
-\#history\#
-
-:   Permet si l’historique de la valeur est activé de retourner les
-    class : 'history cursor' (Voir les class CSS Jeedom), sinon il sera
-    remplacé par un vide. Le tag permet donc d’afficher ou non le
-    graphique d’historique sur le dashboard.
-
-        A utiliser dans l'attribut "class" de la div principale
+- \#id\# : ID do pedido criado por Jeedom quando o pedido foi criado (valor numérico único). Use como texto, em JS ou em atributos HTML
+- \#logicalId\# : ID do pedido lógico (pode estar vazio). Use como texto ou em JS
+- \#name\# : Nome do comando.  Use como texto ou em JS
+- \#name\_display\# : Nome do comando. Para ser usado para exibir o nome do comando no nível do widget. Use como texto ou em JS
+- \#hideCmdName\# : Vazio se o nome do comando precisar ser exibido. E "exibição:none; "se o nome do comando não for exibido. Use nos atributos de estilo HTML (CSS)
+- \#maxValue\# : Valor máximo que pode receber o pedido. Use como texto, em JS ou em atributos HTML
+- \#valueName\# : Nome do comando info vinculado, se o comando action estiver vinculado a um comando info, caso contrário, nome do comando action. Use como texto ou em JS
+- \#lastValue\# : Último valor do pedido (pode estar vazio). Use como texto ou em JS
+- \#unite\# : Unidade de comando Para ser usado como texto ou em JS
+- \#collectDate\# : Retorna a data e hora da última atualização do widget em formato ``yyyy-mm-dd hh:mn:ss`` Use como texto, em JS ou no atributo title
+- \#state\# : Valor do comando Para ser usado como texto ou em JS
+- \#displayHistory\# : Permite que você leve em consideração a opção "Exibir estatísticas em widgets" no menu "Geral" ⇒ "Administração" ⇒ guia "Configuração" "Configuração de comandos". Se a opção estiver ativada, a tag retornará um espaço em branco, caso contrário ``display : none;`` Para ser usado no atributo "style" de uma tag html para exibir se o log estiver ativado na configuração do Jeedom
+- \#averageHistoryValue\# : Valor médio nas últimas x horas do comando Para ser usado como texto ou em JS
+- \#minHistoryValue\# : Mínimo nas últimas x horas do pedido Para ser usado como texto ou em JS
+- \#maxHistoryValue\# : Máximo nas últimas x horas do pedido Para ser usado como texto ou em JS
+- \#tendance\# : Permite se o histórico do valor estiver ativado para retornar a classe : ``fa fa-minus``, ``fa fa-arrow-up`` onde ``fa fa-arrow-down`` (ícone de linha, seta para baixo, seta para cima), vinculada à tendência do valor A ser usado no atributo ``class`` uma etiqueta ``i``
+- \#history\# : Permite se o histórico do valor estiver ativado para retornar a classe : 'cursor de histórico '(consulte a classe CSS Jeedom), caso contrário, ele será substituído por um. A tag, portanto, permite exibir ou não o gráfico do histórico no painel. Para ser usado no atributo "class" da div principal
 
 ![Exemple de retour de valeur](../images/capture031.png)
 
-### Les class CSS Jeedom 
+### Classes CSS Jeedom 
 
-cmd:   
-    - Doit impérativement être ajouté à l’attribut "class" de la div
-    principale, cette class permet la mise à jour du widget. Sans cette
-    class le widget ne se met à jour que par actualisation de la page.
+- ``cmd`` : Deve ser adicionada ao atributo "class" da div principal, essa classe permite que o widget seja atualizado. Sem essa classe, o widget é atualizado apenas atualizando a página.
+- ``cmd-widget`` : Essa classe é recomendada porque permite adicionar alguns parâmetros CSS padrão ao widget para um bom comportamento.
+- ``cursor`` : Permite alterar o ponteiro na mão.
+- ``history`` : Essa classe permite modificar o ponteiro na mão e ao clicar para exibir o histórico do valor do widget.
+- ``tooltips`` : É para o título de um elemento, em vez de ser amarelo, torna-se preto translúcido com o texto em branco
 
-cmd-widget:   
-    - Cette class est recommandée car elle permet d’ajouter quelques
-    paramètres CSS par défaut au widget pour un bon comportement.
+# Faq 
 
-cursor:   
-    - Permet de modifier le pointeur en main.
-
-history:
-    - Cette class permet de modifier le pointeur en main, et lors du clic
-    d’afficher l’historique de la valeur du widget.
-
-tooltips:   
-    - C’est pour le title d’un élément au lieu d’être jaune il devient
-    noir translucide avec le texte en blanc
-
-FAQ 
-===
-
-Comment apprendre à faire un widget ?
-
-:   Le système de widget s’appuie sur les langages HTML et Javascript,
-    il est donc conseillé de regarder les cours (très nombreux) sur
-    ces langages. De plus il est intéressant de lire aussi des cours sur
-    Jquery (et Jquery mobile pour la version mobile des widgets).
-
-Une autre façon est de faire un widget en "création facile", ainsi le
-plugin génèrera automatiquement le code de vos widgets.
+>**Como aprender a criar um widget ?**
+>
+>O sistema de widgets é baseado nas linguagens HTML e Javascript, por isso é aconselhável assistir aos cursos (muito numerosos) nessas linguagens. Além disso, é interessante ler também cursos sobre Jquery (e Jquery mobile para a versão móvel de widgets). Outra maneira é criar um widget em "criação fácil", para que o plugin gere automaticamente o código dos seus widgets.

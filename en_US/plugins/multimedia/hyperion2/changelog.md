@@ -1,7 +1,17 @@
-# 29/03/2018
+# Changelog Ambilight
 
-- Correction d'un bug suite à l'ajout de la commande off
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 27/03/2018
+# 12/16/2019
 
-- Ajout commande Off
+- Bug fix for widget under jeedom v4
+
+# 03/29/2018
+
+- Correction of a bug following the addition of the command off
+
+# 03/27/2018
+
+- Add command Off

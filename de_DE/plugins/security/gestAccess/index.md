@@ -1,221 +1,222 @@
-# Gestion d'accès
----
-Ce plugin est utilisé pour une gestion avancée d'un système d'accès, à l'aide des fonctionnalités suivantes :
+# Access Management Plugin
 
-* [Activation et présentation du plugin](#activation)
-* [Création et gestion des portes](#readers)
-* [Création et gestion des utilisateurs](#users)
-* [Création et gestion des groupes](#group)
-* [Création et gestion des plages horaires](#timelapse)
-* [Recherche dans l'historique](#history)
+Dieses Plugin wird für die erweiterte Verwaltung eines Zugriffssystems unter Verwendung der folgenden Funktionen verwendet :
 
->Toutes les captures d'écrans sont effectués sous un thème, si l'apparence de votre Jeedom n'est pas exactement la même ne vous inquiètez pas.
----
-## Activation et présentation du plugin gestion d'accès<a id="activation"></a> 
+- Aktivierung und Präsentation des Plugins
+- Erstellung und Verwaltung von Türen
+- Benutzererstellung und -verwaltung
+- Erstellung und Verwaltung von Gruppen
+- Erstellung und Verwaltung von Zeitfenstern
+- Verlaufssuche
+
+>Alle Screenshots werden unter einem Thema aufgenommen. Wenn das Erscheinungsbild Ihres Jeedom nicht genau gleich ist, machen Sie sich keine Sorgen.
+
+## Aktivierung und Präsentation des Access Management Plugins
 
 ### Activation
-Après instalation de votre plugin, vous devez l'activer.
->Si vous utiliser KNX, dans le groupe **Configuration** renseignez les champs.
+Nach der Installation Ihres Plugins müssen Sie es aktivieren.
+
+>Wenn Sie KNX verwenden, in der Gruppe **Konfiguration** Füllen Sie die Felder aus.
 
 ![activation](./images/activation.jpg)
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins**→**Sécurité**→**gestion access**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+Nachdem Sie das Plugin aktiviert haben, sollten Sie es in sehen  **Plugins** → **Sicherheit** → **Zugriffsverwaltung**. Wenn dies nicht der Fall ist, zögern Sie nicht, Ihre Seite zu aktualisieren (Strg + F5 oder Cmd + R).
+
 ![gestionAcces](./images/path.jpg)
 
 ### Präsentation
 
-Dans l'affichage par défaut du plugin, vous avez la possibilité d'ajouter un bagde, un utilisateur, une plage horaire ou une porte.
+In der Standardansicht des Plugins können Sie eine Bagde, einen Benutzer, ein Zeitfenster oder eine Tür hinzufügen.
 
-En dessous, différents onglets permettent de retrouver facilement chacun des éléments.
-La barre de recherche aidera à faire le tri dans chaque catégorie pour retrouver plus facilement un élément.
+Auf verschiedenen Registerkarten können Sie die einzelnen Elemente leicht finden.
+Die Suchleiste hilft beim Sortieren in jeder Kategorie, um einen Artikel leichter zu finden.
 
 ![gestionAcces](./images/base.jpg)
 
-Sur le **Dashbord** un historique des 20 derniers évènements est disponible.
+Auf dem **Dashboard** Eine Historie der letzten 20 Ereignisse ist verfügbar.
 
 ![gestionAcces](./images/dashbord.jpg)
-</br>
-## Création et gestion des portes<a id="readers"></a>
-----
-#### Création d'une porte
 
-**Ajouter** pour créer une porte.
-Le champ vous permet de définir le nom de la porte.
+## Erstellung und Verwaltung von Türen </a>
+
+
+#### Türerstellung
+
+**Hinzufügen** eine Tür schaffen.
+In diesem Feld können Sie den Namen der Tür definieren.
 
 ![gestionAcces](./images/nameEqu.jpg)
 
-Dans la liste *type*, sélectionnez **Porte / Lecteur**.
+In der Liste *Typ*, auswählen **Tür / Leser**.
 
 ![gestionAcces](./images/selEqu.jpg)
 
-#### Configuration de la porte
+#### Türkonfiguration
 
-**Configuration équipement** permet de configurer la porte.
+**Konfiguration équipement** ermöglicht die Konfiguration der Tür.
 
 ![gestionAcces](./images/confReader.jpg)
 
-#### Droits équipement
-**Droits équipement** sert à affecter des plages horaires particulières à la porte pendant lesquels les usagers n'auront pas besoin de leurs badges pour passer.
+#### Ausrüstungsrechte
+
+**Ausrüstungsrechte** wird verwendet, um der Tür bestimmte Zeitfenster zuzuweisen, in denen Benutzer ihre Ausweise nicht zum Passieren benötigen.
 
 ![gestionAcces](./images/rightReader.jpg)
 
-**Ajouter des droits** permet de sélectionner une plage horaire déjà exitstante pour l'attribuer à votre porte.
->Tous les utilisateurs reliés à la plage horraire sélectionnée pourrons passer par cette porte pendant les horaires parametrés sur celle-ci.
+**Hinzufügen des droits** Mit dieser Option können Sie ein bereits vorhandenes Zeitfenster auswählen, um es Ihrer Tür zuzuweisen.
+>Alle Benutzer, die mit der ausgewählten Zeitzone verbunden sind, können diese Tür während der darauf festgelegten Zeiten passieren.
 
 ![gestionAcces](./images/scheduleReader.jpg)
 
 ![gestionAcces](./images/rightReader0.jpg)
 
-Le bouton **-** permet d'enlever la plage horaire.
+Die Schaltfläche **-** Entfernt das Zeitfenster.
 
-## Création et gestion des utilisateurs<a id="users"></a>
+## Benutzererstellung und -verwaltung </a>
 ---
 
-#### Création de l'utilisateur
+#### Benutzererstellung
 
-**Ajouter** sert à créer un utilisateur.
-Le champ vous permet de définir le nom de l'utilisateur.
+**Hinzufügen** wird verwendet, um einen Benutzer zu erstellen.
+In diesem Feld können Sie den Benutzernamen definieren.
 
 ![gestionAcces](./images/nameEqu.jpg)
 
-Dans la liste *type*, indiquez **Utilisateur**.
+In der Liste *Typ*, anzeigen **Benutzer**.
 
 ![gestionAcces](./images/selUser.jpg)
 
-#### Configuration de l'utilisateur
+#### Benutzerkonfiguration
 
-**Configuration utilisateur** est utilisé pour configurer. 
+**Konfiguration utilisateur** wird zum Konfigurieren verwendet. 
 
 ![gestionAcces](./images/confUser.jpg)
 
-Plusieurs champs sont personnalisables.
-Vous pouvez ainsi indiquer :
+Mehrere Felder sind anpassbar.
+Sie können angeben :
 
-* un id utilisateur (correspondant au numéros du badge de l'utilisateur),
-* le nom,
-* le prénom,
-* la photo de profil de l'utilisateur,
-* la date de début, qui correspond au premier jour de votre nouvel utilisateur,
-* la date de fin, qui correspond au dernier jour de votre nouvel utilisateur,
-* le statut de l'utilisateur :
-    * En service _(statut par défaut)_,
-    * Volé,
-    * Perdu,
-* Quatres champs dans lesquels vous pouvez ajouter des notes.
+- eine Benutzer-ID (entsprechend den Ausweisnummern des Benutzers),
+- der Name,
+- der Vorname,
+- Benutzerprofilbild,
+- Das Startdatum ist der erste Tag Ihres neuen Benutzers,
+- das Enddatum, das der letzte Tag Ihres neuen Benutzers ist,
+- Benutzerstatus :
+    - In Dienst _ (Standardstatus) _,
+    - Volé,
+    - Perdu,
+- Vier Felder, in denen Sie Notizen hinzufügen können.
 
-Le bouton **Copier**prend la valeur du**Nom de l'utilisateur**, du **Prénom de l'utilisateur**et de l'**Id utilisateur** pour les attribuer au**Nom de l'équipement**, que vous pouvez voir dans l'onglet **Equipement**.
+Die Schaltfläche **Kopie** nimmt den Wert von **Benutzername**, die **Vorname des Benutzers** und von'**Benutzer-ID** um sie zuzuweisen **Name der Ausrüstung**, was Sie in der Registerkarte sehen können **Gerät**.
 
-Le bouton **Envoyer** permet de transmettre la photo de profil que vous souhaitez pour votre utilisateur.
+Die Schaltfläche **Senden** Mit dieser Option können Sie das gewünschte Profilfoto für Ihren Benutzer übertragen.
 
 ![gestionAccess](./images/imgUser.jpg)
 
-Le bouton **Télecharger** télecharge la photo de l'utilisateur. 
-Le fichier sera nommé selon les valeurs indiquées dans les champs **Nom de l'utilisateur**et**Prénom de l'utilisateur** (séparés par un tiret).
+Die Schaltfläche **Download** Benutzerfoto hochladen. 
+Die Datei wird gemäß den in den Feldern angegebenen Werten benannt **Benutzername** und **Vorname des Benutzers** (durch einen Bindestrich getrennt).
 
-#### Configuration des groupes pour un utilisateur
- **Configuration des groupes** sert à affecter votre utilisateur à un groupe.
->Cochez une case pour sélectionner le groupe correspondant.
+#### Gruppen für einen Benutzer konfigurieren
+
+ **Konfiguration des groupes** wird verwendet, um Ihren Benutzer einer Gruppe zuzuweisen.
+>Aktivieren Sie ein Kontrollkästchen, um die entsprechende Gruppe auszuwählen.
 
 ![gestionAccess](./images/confGUser.jpg)
 
-#### Droits utilisateur
-L'onglet **Droits utilisateur** sert à affecter des droits particuliers à l'utilisateur.
+#### Benutzerrechte
+
+Die Registerkarte **Benutzerrechte** wird verwendet, um dem Benutzer bestimmte Rechte zuzuweisen.
 
 ![gestionAccess](./images/rightUser.jpg)
 
-**Ajouter des droits**, permet de sélectionner une porte et une plage horaire qui seront affectées à l'utilisateur sélectionné. 
-Deux options sont disponible **Refuser**et**Accepter** pour l'action.
+**Hinzufügen des droits**, Ermöglicht die Auswahl einer Tür und eines Zeitbereichs, die dem ausgewählten Benutzer zugewiesen werden. 
+Es stehen zwei Optionen zur Verfügung **Ablehnen** und **Akzeptiere** zum Handeln.
 
 ![gestionAccess](./images/addRightUser.jpg)
 
-Les nouveaux droits affectés sont visibles dans l'onglet **Droits utilisateur**. Le bouton **-** permet d'enlever les droits.
+Die neu zugewiesenen Rechte werden auf der Registerkarte angezeigt **Benutzerrechte**. Die Schaltfläche **-** entfernt Rechte.
 
 ![gestionAccess](./images/rightUser0.jpg)
 
-## Création et gestion des groupes<a id="group"></a>
----
-#### Création d'un groupe
-Utilisez le bouton **Ajouter** pour créer un groupe.
-Le champ vous permet de définir le nom du groupe.
+## Erstellung und Verwaltung von Gruppen
+
+#### Erstellung einer Gruppe
+Verwenden Sie die Schaltfläche **Hinzufügen** um eine Gruppe zu erstellen.
+In diesem Feld können Sie den Gruppennamen definieren.
 
 ![gestionAccess](./images/nameEqu.jpg)
 
-Dans la liste type, sélectionnez **Groupe**.
+Wählen Sie in der Typenliste aus **Gruppe**.
 
 ![gestionAccess](./images/selGroup.jpg)
 
-#### Droits d'un groupe
-L'onglet **Droits groupe** sert à affecter des droits particuliers à votre groupe.
+#### Rechte einer Gruppe
 
-**Ajouter des droits**, vous permet de sélectionner une porte et une plage horaire qui seront affectées au groupe sélectionné.
-Deux options sont disponible **Refuser**et**Accepter** pour l'action.
+Die Registerkarte **Gruppenrechte** wird verwendet, um Ihrer Gruppe bestimmte Rechte zuzuweisen.
+
+**Hinzufügen des droits**, Mit dieser Option können Sie eine Tür und einen Zeitbereich auswählen, die der ausgewählten Gruppe zugewiesen werden.
+Es stehen zwei Optionen zur Verfügung **Ablehnen** und **Akzeptiere** zum Handeln.
 
 ![gestionAccess](./images/addRightGroup.jpg)
 
-Dans l'onglet **Droits groupe**les nouveaux droits affectés seront visibles. Le bouton**-** permet d'enlever les droits.
+In der Registerkarte **Gruppenrechte** Die neuen betroffenen Rechte werden angezeigt. Die Schaltfläche **-** entfernt Rechte.
 
 ![gestionAccess](./images/rightGroup.jpg)
 
-## Création et gestion des plages horaires<a id="timelapse"></a>
----
-#### Création d'une plage horaire
-Utilisez le bouton **Ajouter** pour créer une plage horaire.
-Le champ vous permet de définir le nom de la plage horaire.
+## Erstellung und Verwaltung von Zeitfenstern
+
+#### Erstellung eines Zeitfensters
+Verwenden Sie die Schaltfläche **Hinzufügen** um einen Zeitbereich zu erstellen.
+In diesem Feld können Sie den Namen des Zeitfensters definieren.
 
 ![gestionAccess](./images/nameEqu.jpg)
 
-Dans la liste type, sélectionnez **Plage Horaire**.
+Wählen Sie in der Typenliste aus **Zeitbereich**.
 
 ![gestionAccess](./images/selTimelapse.jpg)
 
-#### Configuration de la plage horaire
-L'onglet **Configuration plage horaire** permet de configurer une nouvelle plage horaire. 
+#### Zeitbereichskonfiguration
+
+Die Registerkarte **Konfiguration plage horaire** ermöglicht die Konfiguration eines neuen Zeitfensters. 
 
 ![gestionAccess](./images/confTimelapse.jpg)
 
->**Conseils :** 
-> - Pour configurer une plage horaire, faites un clic gauche sur les cases qui vous intéresses en fonction du jour et de l'heure. 
-Une case passe en bleu lorsqu'elle est active.
- Par défaut, les cases sont actives tous les jours de 10h30 à 19h00. 
- Pour désactiver une case, il faut faire un clic droit sur la elle. Celle-ci passera alors en transparent.
-> - Par défaut les jours fériés sont pris en compte, veillez à bien désélectionner les cases bleues sur la ligne **"Jours Fériés"**.
-> - Faites glisser vers la droite la barre défilante en bas du tableau pour voir plus d'horaires.
-</br>
+>**Tipps :** 
+> - Um ein Zeitfenster zu konfigurieren, klicken Sie mit der linken Maustaste auf die Felder, die Sie je nach Tag und Uhrzeit interessieren. 
+Ein Feld wird blau, wenn es aktiv ist.
+ Standardmäßig sind die Boxen täglich von 10:30 bis 19:00 Uhr aktiv. 
+ Um eine Box zu deaktivieren, klicken Sie mit der rechten Maustaste darauf. Dies wird dann transparent.
+> - Standardmäßig werden Feiertage berücksichtigt. Deaktivieren Sie die blauen Kästchen in der Zeile **"Feiertage"**.
+> - Schieben Sie die Bildlaufleiste am unteren Rand der Tabelle nach rechts, um weitere Zeitpläne anzuzeigen.
 
-## Recherche dans l'historique<a id="history"></a>
----
 
-**Etape importante :**pour accéder à cette partie, il est important d'effectuer un réglage en amont. Allez dans**Plugins**→**Gestion des plugins**, dans **Mes plugins**, cliquez sur **Gestion d'accès**.
+## Verlaufssuche
+
+**Wichtiger Schritt :** Um auf diesen Teil zugreifen zu können, ist es wichtig, eine Anpassung vorab vorzunehmen. Gehe zu **Plugins** → **Plugin Verwaltung**, IN **Meine Plugins**, Klicken Sie auf **Zugriffsverwaltung**.
 
 ![gestionAccess](./images/gestPlug.jpg)
 
-Dans la partie **Panel**cocher**Afficher le panneau desktop**puis cliquez sur**Sauvegarder**.
+Im Spiel **Platte** überprüfen **Desktop-Panel anzeigen** dann klicken Sie auf **Speichern**.
 
 ![gestionAccess](./images/confPlug.jpg)
 
-Une fois le changement effectué, une nouvelle section dans le menu **Accueil** est disponible.
-Toutefois, si jamais elle ne s'affiche pas, veillez à bien actualiser votre page.
+Sobald die Änderung vorgenommen wurde, wird ein neuer Abschnitt im Menü angezeigt **Mein Haus** ist verfügbar.
+Wenn es jedoch nicht angezeigt wird, aktualisieren Sie Ihre Seite unbedingt.
 
 ![gestionAccess](./images/newPlug.jpg)
 
-**Accueil**→**gestion access** pour accéder à la recherche avancées. La vue par défaut affiche les 20 derniers évenements enregistrés.
+**Mein Haus** → **Zugriffsverwaltung** um auf die erweiterte Suche zuzugreifen. In der Standardansicht werden die letzten 20 aufgezeichneten Ereignisse angezeigt.
 
 ![gestionAccess](./images/search.jpg)
 
-La partie de gauche permet de déterminer les critères de la recherche.
+Im linken Teil können Sie die Suchkriterien festlegen.
 
- - **Liste utilisateurs :** Noms des utilisateurs  recherchés. Vous pouvez sélectionner plusieurs utilisateurs.
+ - **Benutzerliste :** Namen der gesuchten Benutzer. Sie können mehrere Benutzer auswählen.
+ - **Ausrüstungsliste :** Namen der gesuchten Ausrüstung. Sie können mehrere Geräte auswählen.
+ - **Liste der Zeitfenster :** Titelnamen gesucht. Sie können mehrere Zeitfenster auswählen.
+ - **Startdatum :** Geben Sie ein Startdatum und eine Startzeit für Ihre Suche ein.
+ - **Datum Ende** Geben Sie ein Enddatum und eine Uhrzeit für Ihre Suche an.
+ - **Liste der Gruppen** Namen der gesuchten Gruppen. Sie können mehrere Gruppen auswählen.
+ - **Liste der Aktionen** Wählen Sie das Ergebnis einer Aktion aus, zwischen denen Sie wählen können : **Alle**, **Ablehnen** und **Erlaube**.
 
- - **Liste équipements :** Noms des équipements recherchés. Vous pouvez sélectionner plusieurs équipements.
-
- - **Liste plages horaires :** Noms des plages recherché. Vous pouvez sélectionner plusieurs plages horaires.
-
- - **Date de début :** Indiquez une date de début ainsi qu'une heure pour votre recherche.
-
- - **Date de fin** Indiquer une date de fin ainsi qu'une heure pour votre recherche.
-
- - **Liste des groupes** Noms des groupes recherchés. Vous pouvez sélectionner plusieurs groupes.
-
- - **Liste des actions**Sélectionner le résultat d'une action vous avez le choix entre :**Toutes**, **Refuser**et**Autoriser**.
-
->Dans la partie haute du tableau, en dessous de chaque titre de colonne,  les différents champs permettent d'effectuer une seconde recherche qui triera les résultats.
+>Im oberen Teil der Tabelle, unter jedem Spaltentitel, können Sie in den verschiedenen Feldern eine zweite Suche durchführen, um die Ergebnisse zu sortieren.

@@ -1,3 +1,9 @@
+# Changelog Widget
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
 # 05/09/2019
 
 - Bug correction (thanks @Salvialf)

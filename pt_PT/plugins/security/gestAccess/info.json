@@ -1,14 +1,14 @@
 {
-	"id" : "gestAccess",
-	"name" : "gestion access",
-	"description" : "Plugin de gestion d'acces via un système de bagdes",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3",
-	"display" : "panel",
-	"category" : "security",
-	"changelog" : "https://jeedom.github.io/plugin-gestAccess/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-gestAccess/#language#/",
-	"language" : "",
-	"compatibility" : ""
+    "id": "gestAccess",
+    "name": "gestion access",
+    "description": "Plugin de gestion d'acces via un système de bagdes",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "display": "panel",
+    "category": "security",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/",
+    "language": "",
+    "compatibility": ""
 }

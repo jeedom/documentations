@@ -1,80 +1,51 @@
-Lifx 
-====
+# Complemento Lifx 
 
-Description 
------------
+Plugin para interactuar con bombillas Lifx (Local)
 
-Plugin permettant d’interagir avec les ampoules Lifx (en Local)
+# Instala el complemento 
 
-Installer le Plugin 
--------------------
-
-Installer le Plugin 
-===================
-
-Après installation du plugin, il vous suffit de l’activer :
+Después de instalar el complemento, solo necesita activarlo :
 
 ![doc lifx 1](./images/doc_lifx_1.png)
 
-**Dépendances**
+**Dependencias**
 
-Normalement les dépendances sont lancées automatiquement, si non il vous
-faudra cliquer sur **relancer**
+Normalmente las dependencias se inician automáticamente, de lo contrario tendrá que hacer clic en **Reiniciar**
 
 ![doc lifx 2](./images/doc_lifx_2.png)
 
-Configuration : Scanner votre réseau 
-------------------------------------
+# Configuración : Escanea tu red 
 
-Configuration : Scanner votre réseau 
-====================================
+**Configuración**
 
-**Configuration**
+Para configurar el complemento, debe escanear su red automáticamente a través del complemento.
 
-Pour configurer le plugin, vous devez scanner votre réseau
-automatiquement via le plugin.
-
-Pour Ajouter des Lifx automatiquement : **Plugins**-→**Objets
-communicants**-→**Lifx**-→**Scanner**
+Para agregar Lifxes automáticamente : **Plugins** -→ **Comunicando objetos** -→ **Lifx** -→ **Escáner**
 
 ![doc lifx 3](./images/doc_lifx_3.png)
 
-Une fois le scan fini, vous verrez les Lifx détectées.
+Una vez finalizado el escaneo, verá el Lifx detectado.
 
 ![doc lifx 4](./images/doc_lifx_4.png)
 
-Vous pouvez alors pour les activer cliquer sur une des Lifx (qui a pris
-le nom que vous lui avez donné sur l’application Lifx), puis l’activer
-et sauvegarder pour avoir toutes les commandes associées à votre Lifx.
+Luego puede activarlos, haga clic en uno de los Lifx (que tomó el nombre que le dio en la aplicación Lifx), luego actívelo y guárdelo para tener todos los comandos asociados con su Lifx.
 
 ![doc lifx 5](./images/doc_lifx_5.png)
 
-**Partie dashboard** :
+**Sección del tablero** :
 
 ![doc lifx 6](./images/doc_lifx_6.png)
 
-Créer un nouveau mode Couleur 
------------------------------
+# Crear un nuevo modo de color 
 
-Créer un nouveau mode Couleur 
-=============================
+Si nos gusta un color que aplicamos con la aplicación Lifx, podemos recuperarlo fácilmente en el complemento Lifx.
 
-Si une couleur que l’on applique avec l’application Lifx nous plaît, on
-peut facilement la récupérer dans le plugin Lifx.
+Solo tienes que ir a **Plugins** -→ **Comunicando objetos** -→ **Lifx** -→ luego elija el lifx donde desea copiar el color
 
-Il suffit pour cela de se rendre dans **Plugins**-→**Objets
-communicants**-→**Lifx** -→ puis choisir la lifx où on souhaite copier
-la couleur
-
-Puis après cliquez sur **tester**sur la commande**Créer un mode**
+Luego haga clic en **Probar** en la orden **Crea un modo**
 
 ![doc lifx 7](./images/doc_lifx_7.png)
 
-Il suffit de recharger la page pour voir apparaître une nouvelle
-commande qui a en configuration la couleur actuelle de la Lifx. Vous
-pouvez à tout moment changer son nom.
+Simplemente vuelva a cargar la página para ver aparecer un nuevo comando que tiene la configuración de color Lifx actual. Puedes cambiar su nombre en cualquier momento.
 
 ![doc lifx 8](./images/doc_lifx_8.png)
-
-FAQ 
----

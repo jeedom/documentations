@@ -1,60 +1,40 @@
-Ce plugin permet la gestion d’un serveur hyperion (il faut que le
-serveur Json soit actif), avec la gestion des couleurs et le lancement
-d’effet
+# Ambilight Plugin
 
-Plugin-Konfiguration
-=======================
+Dieses Plugin ermöglicht die Verwaltung eines Hyperion-Servers (der Json-Server muss aktiv sein) mit Farbverwaltung und Effektstart.
 
-Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
-gibt es auf dieser Ebene keine Konfiguration.
+# Plugin Konfiguration 
+
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
 ![hyperion](./images/hyperion.PNG)
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-La configuration des équipements Ambilight est accessible à partir du
-menu Plugins :
+Auf die Konfiguration der Ambilight-Geräte kann über das Plugins-Menü zugegriffen werden :
 
 ![hyperion2](./images/hyperion2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
-équipement) :
+So sieht die Ambilight-Plugin-Seite aus (hier mit bereits 1 Gerät) :
 
 ![hyperion3](./images/hyperion3.PNG)
 
-> **Tip**
->
-> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
-> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
-> immer sichtbar einstellen).  
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![hyperion4](./images/hyperion4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **Name de l'équipement Ambilight** : Name Ihrer Ambilight-Ausrüstung,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **IP** : Die Hyperion-Server-IP
+-   **Hafen** : der Port des Hyperion JSON-Servers (standardmäßig 19444)
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
-
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   **IP** : L’IP du serveur hyperion
-
--   **Port** : le port du serveur hyperion json (par défaut 19444)
-
-Im unteren Bereich finden sie eine Liste der Befehle :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
+-   **Name** : Der im Dashboard angezeigte Name,
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard
+-   **Test** : Wird zum Testen des Befehls verwendet,
 
 

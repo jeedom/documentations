@@ -1,6 +1,12 @@
+# Changelog Deconz
+
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 05/12/2020
+
+- Addition of an automatic restart of the connection to deconz in case of loss
 
 # 02/27/2019
 

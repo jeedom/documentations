@@ -1,6 +1,12 @@
+# Registro de cambios Deconz
+
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 12/05/2020
+
+- Adición de un reinicio automático de la conexión a deconz en caso de pérdida
 
 # 02/27/2019
 

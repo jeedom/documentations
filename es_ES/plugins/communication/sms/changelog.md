@@ -1,16 +1,26 @@
-# 11/08/2019
+# Changelog SMS
 
-- Support de PHP 7.3
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 09/25/2019
+
+- Cambio a la interfaz jeedom v4
+
+# 08/11/2019
+
+- Soporte para php 7.3
 
 # 18/10/2018
 
-- Amélioration de la verification du numéro d'expediteur
-- Correction d'un bug si le niveau de log est sur aucun
+- Verificación mejorada del número del remitente
+- Corrección de un error si el nivel de registro es ninguno
 
 # 26/04/2018
 
-- Actualización de la documentación
+- Actualizando el documento
 
 # 25/04/2018
 
-- Correction du lien de la doc
+- Corrección del enlace doc

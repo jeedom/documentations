@@ -1,16 +1,30 @@
 {
-	"id" : "mobile",
-	"name" : "App Mobile",
-	"description" : "L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G/4G de votre opérateur.<br/><br/>L'app se connecte automatiquement à votre Jeedom avec une initialisation automatique par QRcode, aucune configuration n'est nécessaire. (possibilité de le faire manuellement)<br/>Vous retrouverez sur votre mobile toutes les fonctionnalités de votre Jeedom.<br/>Vous pourrez personnaliser votre application avec des raccourcis et plus encore...<br/><br/>Fonctionnalités actuelles:<br/>- Gestion de vos scénarios.<br/>- Gestion de votre domotique en fonction de vos pièces et équipements.<br/>- Maj et retour d'état automatique<br/>- Compatibilité aves les plugins, tel que thermostat, alarme, caméra etc...<br/>- Interface personnalisable avec les raccourcis.<br/>- Résumé domotique général et par pièce<br/>- Notifications (avec prise en charge du ASK)<br/>- Affichage des Designs <br/><br/>D'autres fonctionnalités et compatibilités sont à venir dans les prochaines mises à jour !<br/><br/>Respect de la vie privée.<br/>Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs.",
-	"icon" : "fa fa-mobile",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3",
-	"installation" : "Aucune",
-	"category" : "communication",
-	"version" : "0.4",
-	"changelog" : "https://jeedom.github.io/plugin-mobile/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-mobile/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "mobile",
+    "name": "App Mobile",
+    "description": "L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur.<br\/><br\/>L'app se connecte automatiquement à votre Jeedom avec une initialisation automatique par QRcode, aucune configuration n'est nécessaire. (possibilité de le faire manuellement)<br\/>Vous retrouverez sur votre mobile toutes les fonctionnalités de votre Jeedom.<br\/>Vous pourrez personnaliser votre application avec des raccourcis et plus encore...<br\/><br\/>Fonctionnalités actuelles:<br\/>- Gestion de vos scénarios.<br\/>- Gestion de votre domotique en fonction de vos pièces et équipements.<br\/>- Maj et retour d'état automatique<br\/>- Compatibilité aves les plugins, tel que thermostat, alarme, caméra etc...<br\/>- Interface personnalisable avec les raccourcis.<br\/>- Résumé domotique général et par pièce<br\/>- Notifications (avec prise en charge du ASK)<br\/>- Affichage des Designs <br\/><br\/>D'autres fonctionnalités et compatibilités sont à venir dans les prochaines mises à jour !<br\/><br\/>Respect de la vie privée.<br\/>Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "installation": "Aucune",
+    "category": "communication",
+    "version": "0.4",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mobile\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mobile\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

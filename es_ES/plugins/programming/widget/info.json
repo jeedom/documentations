@@ -1,11 +1,11 @@
 {
-	"id" : "widget",
-	"name" : "Widget",
-	"description" : "Plugin pour appliquer/modifier/créer des widgets",
-	"licence" : "AGPL",
-	"author" : "Loïc - Skyline-ch",
-	"require" : "3.1.7",
-        "category" : "programming",
-        "changelog" : "https://jeedom.github.io/plugin-widget/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-widget/#language#/"
+    "id": "widget",
+    "name": "Widget",
+    "description": "Plugin pour appliquer\/modifier\/créer des widgets",
+    "licence": "AGPL",
+    "author": "Loïc - Skyline-ch",
+    "require": "3.1.7",
+    "category": "programming",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/widget\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/widget\/"
 }

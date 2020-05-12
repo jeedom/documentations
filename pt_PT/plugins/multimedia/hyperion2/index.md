@@ -1,60 +1,40 @@
-Ce plugin permet la gestion d’un serveur hyperion (il faut que le
-serveur Json soit actif), avec la gestion des couleurs et le lancement
-d’effet
+# Plug-in Ambilight
 
-Configuration du plugin 
-=======================
+Esse plug-in permite o gerenciamento de um servidor hyperion (o servidor Json deve estar ativo), com gerenciamento de cores e ativação de efeitos.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+# Configuração do plugin 
+
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-La configuration des équipements Ambilight est accessible à partir du
-menu Plugins :
+A configuração do equipamento Ambilight pode ser acessada no menu Plugins :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
-équipement) :
+É assim que a página do plugin Ambilight se parece (aqui com um dispositivo já) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **Nome de l'équipement Ambilight** : nome do seu equipamento Ambilight,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
+-   **IP** : O IP do servidor hyperion
+-   **Porta** : a porta do servidor hyperion json (por padrão 19444)
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+Abaixo você encontra a lista de pedidos :
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : rend votre équipement visible sur le dashboard,
-
--   **IP** : L’IP du serveur hyperion
-
--   **Port** : le port du serveur hyperion json (par défaut 19444)
-
-En dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
+-   **Nome** : o nome exibido no painel,
+-   **Display** : permite exibir os dados no painel
+-   **Teste** : permite testar o comando,
 
 

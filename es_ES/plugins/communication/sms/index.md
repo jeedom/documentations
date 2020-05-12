@@ -1,265 +1,189 @@
-Configuration 
-=============
+# Complemento de SMS
 
-Le plugin SMS permet de dialoguer avec Jeedom par l’intermediaire des
-SMS, il permet aussi à Jeedom de vous envoyer un SMS en cas d’alerte
-(plugin alarme, scénario…​)
+El complemento de SMS le permite comunicarse con Jeedom a través de SMS, también le permite a Jeedom enviarle un SMS en caso de alerta (complemento de alarma, escenario, etc.)
 
-> **Important**
+> **Importante**
 >
-> Pour dialoguer avec Jeedom il faut avoir configuré des interactions.
+> Para interactuar con Jeedom debe haber configurado interacciones.
 
-Configuration du plugin 
------------------------
+# Configuración del plugin 
 
-Après téléchargement du plugin, il vous suffit de l’activer et de
-configurer le port. Après sauvegarde le démon devrait se lancer. Le
-plugin est déjà configuré par défaut ; vous n’avez donc rien à faire de
-plus. Cependant vous pouvez modifier cette configuration. Voici le
-détail (certains paramètres peuvent n’être visibles qu’en mode expert) :
+Después de descargar el complemento, solo necesita activarlo y configurar el puerto. Después de salvar al demonio debería lanzar. El complemento ya está configurado de manera predeterminada; no tienes que hacer nada más. Sin embargo, puede modificar esta configuración. Aquí está el detalle (algunos parámetros solo pueden ser visibles en modo experto) :
 
--   *Port SMS* : le port USB sur lequel votre clef GSM
-        est connectée.
+-   *Puerto de SMS* : el puerto USB en el que está conectada su llave GSM.
 
-> **Tip**
+> **Punta**
 >
-> Si vous ne savez pas quel port USB est utilisé, vous pouvez simplement
-> indiquer "Auto". Attention le mode auto ne marche qu’avec les clefs
-> Huawai E220.
+> Si no sabe qué puerto USB se utiliza, simplemente puede indicar "Auto". Tenga en cuenta que el modo automático solo funciona con las teclas Huawai E220.
 
-> **Important**
+> **Importante**
 >
-> Attention certaines clefs 3G sont par défaut en mode modem et non GSM.
-> Il faut à l’aide du logiciel de votre fabricant de clef, changer le
-> mode de la clef sur GSM (ou texte, ou série). 
+> Tenga en cuenta que algunas teclas 3G están por defecto en modo módem y no GSM. Usando el software de su fabricante clave, debe cambiar el modo clave en GSM (o texto, o serie). 
 
--   **Code pin** : Permet d’indiquer le code pin de la carte SIM, à laisser vide si vous n’en avez pas. 
--   **Texte mode** : Mode de compatibilité étendu, à n’utiliser que si l’envoi et/ou la réception des messages ne marchent pas.
--   **Découper les messages par paquet de caractères** : Indique le nombre de caractères maximum par texto.
--   **Passerelle SMS / SMS Gateway (modifier en cas d’erreur : CMS 330 SMSC number not set)** : A nechanger que si vous avez l’erreur "CMS 330 SMSC number not set", dans ce cas il faut indiquer le numéro de passerelle SMS de votre opérateur téléphonique. 
--   **Force du signal** : Force de réception du signal devotre clef GSM.
--   **Réseau** : Réseau téléphonique de votre clef GSM (peut être à "None" si Jeedom n’arrive pas à le récupérer). 
--   **socket interne (modification dangereuse)** : permet de modifier le port de communication interne du démon.
--   **Cycle (s)** : cycle de scrutation du démon pour l'envoi et la reception des SMS. Un chiffre trop bas peut amener certaine instabilité
+-   **Código PIN** : Le permite indicar el código PIN de la tarjeta SIM, dejar en blanco si no tiene una. 
+-   **Modo de texto** : Modo de compatibilidad extendida, para ser usado solo si enviar y / o recibir mensajes no funciona.
+-   **Cortar mensajes por paquete de caracteres** : Indica el número máximo de caracteres por texto.
+-   **SMS / SMS Gateway (modificar en caso de error : CMS 330 número SMSC no establecido)** : Tenga en cuenta que si tiene el error "Número de SMSC CMS 330 no establecido", en este caso debe indicar el número de puerta de enlace de SMS de su operador telefónico. 
+-   **Fuerza de la señal** : Intensidad de recepción de señal de su clave GSM.
+-   **Red** : Red telefónica de su clave GSM (puede ser "Ninguna" si Jeedom no puede recuperarla). 
+-   **toma interna (modificación peligrosa)** : permite modificar el puerto de comunicación interna del demonio.
+-   **Ciclo (s)** : ciclo de escaneo de demonios para enviar y recibir SMS. Un número demasiado bajo puede causar inestabilidad
 
-Configuration des équipements 
------------------------------
+# Configuración del equipo 
 
-La configuration des équipements SMS est accessible à partir du menu
-plugin puis communication
+Se puede acceder a la configuración del equipo de SMS desde el menú del complemento y luego por la comunicación
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement SMS** : nom de votre équipement SMS,
+-   **Nombre de l'équipement SMS** : nombre de su equipo de SMS,
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo.
 
--   **Activer** : permet de rendre votre équipement actif,
+A continuación encontrará la lista de pedidos :
 
--   **Visible** : rend votre équipement visible sur le dashboard,
-
--   **Objet parent** : indique l’objet parent auquel
-    appartient l’équipement.
-
-En dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Utilisateur** : utilisateur correspondant dans Jeedom (permet de
-    restreindre certaines interactions à certains utilisateurs),
-
--   **Numéro** : numéro de téléphone à qui envoyer les messages. Vous
-    pouvez mettre plusieurs numéros en les séparant avec des ; (ex
-    : 0612345678;0698765432).
-
-    > **Important**
+-   **Nombre** : el nombre que se muestra en el tablero,
+-   **Usuario** : usuario correspondiente en Jeedom (permite restringir ciertas interacciones a ciertos usuarios),
+-   **Número** : número de teléfono al que enviar mensajes. Puede poner varios números separándolos con; (ex: 0612345678; 0698765432).
+    > **Importante**
     >
-    > Seul les numéros de téléphone déclarés dans un équipement pouront
-    > utiliser les interactions car seuls eux seront autorisés.
+    > Solo los números de teléfono declarados en un dispositivo podrán usar las interacciones porque solo ellos estarán autorizados.
+-   **Mostrar** : permite mostrar los datos en el tablero,
+-   **Configuración avanzada** (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.),
+-   **Probar** : Se usa para probar el comando,
+-   **Borrar** (signo -) : permite eliminar el comando.
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
+# Usando el complemento 
 
--   **Configuration avancée** (petites roues crantées) : permet
-    d’afficher la configuration avancée de la commande (méthode
-    d’historisation, widget…​),
+Esto es bastante estándar en su funcionamiento, en la página General → Complemento y luego seleccionando el complemento de SMS :
 
--   **Tester** : permet de tester la commande,
+-   El puerto (ruta) al dispositivo que sirve como módem (por ejemplo, puede ser / dev / ttyUSB0, para verlo simplemente iniciar ``dmesg`` luego conecte el módem)
+-   El código pin de la tarjeta sim
 
--   **Supprimer** (signe -) : permet de supprimer la commande.
+Por lo tanto, debe agregar nuevo equipo y luego configurarlo :
 
-Utilisation du plugin 
----------------------
+-   El nombre,
+-   Si está activo o no,
 
-Celui-ci est assez standard dans son fonctionnement, sur la page Général
-→ Plugin puis en sélectionnant le plugin SMS :
+Luego debe agregar los comandos que estarán compuestos por un nombre y un número, solo los números que figuran en la lista de comandos pueden recibir una respuesta de Jeedom (esto permite asegurar, mientras evita poner una contraseña en cada inicio de SMS enviado a Jeedom). También puede indicar qué usuario está vinculado a este número (para administrar derechos en el nivel de interacción).
 
--   Le port (chemin) jusqu’au périphérique qui sert de modem (par
-    exemple ce peut être /dev/ttyUSB0, pour le voir il suffit de lancer
-    “dmesg” puis de brancher le modem)
+Para comunicarse con Jeedom, será suficiente enviarle un mensaje desde un número autorizado, todas las interacciones provienen del sistema de interacción.
 
--   Le code pin de la carte sim
+Pequeño ejemplo de interacción : Pregunta : "¿Cuál es la temperatura de la habitación? ?" Respuesta : "16.3 C"
 
-    Il faut donc ajouter un nouvel équipement puis le configurer :
-
--   Le nom de celui-ci,
-
--   S’il est actif ou non,
-
-    Puis il faut ajouter les commandes qui seront composées d’un nom et
-    d’un numéro, seuls les numéros listés dans la liste des commandes
-    peuvent recevoir une réponse de Jeedom (cela permet de sécuriser,
-    tout en évitant de mettre un mot de passe à chaque début de SMS
-    envoyé à Jeedom). Vous pouvez aussi indiquer quel utilisateur est
-    lié à ce numéro (pour la gestion des droits au niveau
-    des interactions).
-
-Pour communiquer avec Jeedom, il suffira ensuite de lui envoyer un
-message à partir d’un numéro autorisé, toutes les interactions venant du
-système d’interactions.
-
-Petit exemple d’interaction : Question : “Quelle est la température de
-la chambre ?” Réponse : “16.3 C”
-
-Liste des clefs compatibles 
----------------------------
+# Lista de claves compatibles 
 
 -   HUAWEI E220
 -   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G Wireless
+-   HSDPA 7.2MBPS 3G inalámbrico
 -   HUAWEI E3372
 
+# Preguntas frecuentes 
 
-FAQ 
-===
+> **No consigo nada con una llave huwaei e160.**
+>
+>Debe instalar minicom (sudo apt-get install -y minicom), ejecutarlo y conectarse al módem, luego hacer :
+>
+>`` `{.bash}
+>AT ^ CURC = 0
+>AT ^ u2diag = 0
+>`` ''
+>
+>Y en el complemento hacer :
+>
+>-   Elija el primer puerto USB y no el segundo
+>-   Velocidad : 9600
+>-   Modo de texto desactivado
 
-> **Je ne reçois rien avec une clef huwaei e160.**
+> **No puedo ver el puerto USB en mi llave**
 >
->Il faut installer minicom (sudo apt-get install -y minicom), lancer
->celui-ci et se connecter au modem, puis faire :
->
->``` {.bash}
->AT^CURC=0
->AT^U2DIAG=0
->```
->
->Et sur le plugin faire :
->
->-   Choisir premier port USB et non le second
->
->-   Vitesse : 9600
->
->-   Mode texte désactivé
+>Asegúrese de que no tiene que instalar brltty (`sudo apt-get remove brltty` para eliminarlo)
 
-> **Je ne vois pas le port USB de ma clef**
+> **Después de unas pocas horas / días ya no recibo un SMS y ya no puedo enviar uno, un recordatorio del demonio corrige**
 >
->Vérifiez que vous n’avez pas brltty d’installer (`sudo apt-get remove brltty` pour le supprimer)
+>Verifique su cable USB (un cable USB defectuoso a menudo causa este tipo de problema, tampoco debería ser demasiado largo), también verifique su fuente de alimentación, se recomienda encarecidamente un concentrador USB
 
-> **Au bout de quelques heures/jours je ne recois plus de SMS et ne peux plus en envoyer, une relance du démon corrige**
+> **Tengo un error de CME XX**
 >
->Vérifiez votre cable USB (un mauvais cable USB entraine souvent ce
->genre de soucis, il ne faut pas qu’il soit trop long non plus),
->verifiez aussi votre alimentation, un hub USB est fortement
->conseillé
+>Puedes encontrar [aquí](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) descripción de los diferentes errores de CME
 
-> **J’ai une erreur CME XX**
+> **Configuración de la tecla Alcatel one touch X220L**
 >
->Vous pouvez trouver [ici](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) la description des differente erreurs CME
-
-> **Configuration de la clef Alcatel one touch X220L**
+>Cuando insertamos la clave, tenemos esto :
 >
->Lorsque l’on insère la clef, on a ceci :
+>`` ''`
+>root @ jeedom:# lsusb
+>Bus 002 Dispositivo 003: ID 1bbb:Teléfonos móviles f000 T&A
+>`` ''`
 >
->``` {.bash}
->root@jeedom:# lsusb
->Bus 002 Device 003: ID 1bbb:f000 T & A Mobile Phones
->```
+>Ten cuidado si no tienes ``1bbb:f000`` sobre todo, no siga esta documentación, agregue las siguientes líneas al final del archivo ``/etc/usb\_modeswitch.conf`` :
 >
->Attention si vous n’avez pas 1bbb:f000 il ne faut surtout pas faire la
->suite de cette documentation
->
->il faut ajouter les lignes suivantes à la fin du fichier
->/etc/usb\_modeswitch.conf :
->
->``` {.bash}
+>`` ''`
 >########################################################
 ># Alcatel X220L
->DefaultVendor= 0x1bbb
->DefaultProduct= 0xf000
->MessageContent="55534243123456788000000080000606f50402527000000000000000000000"
+>DefaultVendor = 0x1bbb
+>DefaultProduct = 0xf000
+>MessageContent = "55534243123456788000000080000606f50402527000000000000000000000"
 >########################################################
->```
+>`` ''`
 >
->Puis lancer la commande suivante pour tester :
+>Luego ejecute el siguiente comando para probar :
 >
->``` {.bash}
->/usr/sbin/usb_modeswitch -c
+>`` ''`
+>/ usr / sbin / usb_modeswitch -c
 >/etc/usb_modeswitch.conf
->```
+>`` ''`
 >
->On obtient ceci :
+>Entendemos esto :
 >
->``` {.bash}
->root@jeedom:~# lsusb
->Bus 002 Device 003: ID 1bbb:0017 T & A Mobile Phones
->```
+>`` ''`
+>root @ jeedom:~ # lsusb
+>Bus 002 Dispositivo 003: ID 1bbb:0017 T & A Teléfonos móviles
+>`` ''`
 >
->et les liens sous /dev sont bien ajoutés :
+>y se agregan los enlaces bajo / dev :
 >
->``` {.bash}
->root@jeedom:~# ls /dev/ttyUSB*
->/dev/ttyUSB0 /dev/ttyUSB1 /dev/ttyUSB2 /dev/ttyUSB3 /dev/ttyUSB4
->```
+>`` ''`
+>root @ jeedom:~ # ls / dev / ttyUSB*
+>/ dev / ttyUSB0 / dev / ttyUSB1 / dev / ttyUSB2 / dev / ttyUSB3 / dev / ttyUSB4
+>`` ''`
 >
->Maintenant il faut automatiser le lancement de la commande précédente
->via udev :
+>Ahora tiene que automatizar el lanzamiento del comando anterior a través de udev :
 >
->``` {.bash}
->root@jeedom:# vi /etc/udev/rules.d99-usb_modeswitch.rules
->SUBSYSTEM=="usb", ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="f000", RUN+="/usr/sbin/usb_modeswitch -c /etc/usb_modeswitch.conf"
->```
+>`` ''`
+>root @ jeedom:# vi /etc/udev/rules.d99-usb_modeswitch.rules
+>SUBSISTEMA == "usb", ATTRS {idVendor} == "1bbb", ATTRS {idProduct} == "f000", RUN + = "/ usr / sbin / usb_modeswitch -c /etc/usb_modeswitch.conf"
+>`` ''`
 >
->Sous jeedom dans le plugin SMS, il faut (dans mon cas) utiliser le "port
->SMS" suivant : /dev/ttyUSB3. En gros il faut essayer chaque port pour
->trouver le bon…
+>Bajo libertad en el complemento de SMS, debe (en mi caso) utilizar el siguiente "puerto de SMS" : ``/dev/ttyUSB3``. Básicamente tienes que probar cada puerto para encontrar el correcto
 
-> **Le démons SMS est bien démarré, mais vous ne recevez aucun SMS**
+> **El daemon de SMS se inicia, pero no recibe ningún SMS**
 >
->Une des causes probables est la mauvaise configuration réseau. Dans
->"Général" -> "Configuration" -> "Administration" ->
->"Configuration réseaux", vérifier le contenu du champ "Adresse URL ou IP".
->
->Ce dernier ne doit pas être localhost ou 127.0.0.1 mais l’adresse IP de
->votre Jeedom ou son nom DNS.
+>Una de las causas probables es la configuración de red incorrecta. En "General" -> "Configuración" -> "Administración" -> "Configuración de red", verifique el contenido del campo "URL o dirección IP". Este último no debe ser localhost o 127.0.0.1 pero la dirección IP de su Jeedom o su nombre DNS.
 
-> **En mode debug j’ai l’erreur "timeout" qui apparaît**
+> **En modo de depuración tengo el error "timeout" que aparece**
 >
->Cette erreur arrive quand la clef ne répond pas dans les 10 secondes
->qui suivent une demande. Les causes connues peuvent être :
+>Este error ocurre cuando la clave no responde dentro de los 10 segundos de una solicitud. Las causas conocidas pueden ser :
 >
->-   incompatibilité de la clef GSM,
->
->-   problème avec la version du firmware de la clef.
+>-   incompatibilidad de la clave GSM,
+>-   problema con la versión de firmware del stick.
 
-> **Lors du démarrage en mode debug j’ai : "socket already in use"**
+> **Al comenzar en modo de depuración tengo : "zócalo ya en uso"**
 >
->Cela veut dire que le démon est démarré mais que Jeedom n’arrive pas
->à le stopper. Vous pouvez soit redémarrer tout le système, soit en
->SSH faire "killall -9 refxcmd.py".
+>Esto significa que el demonio se inicia pero que Jeedom no puede detenerlo. Puede reiniciar todo el sistema o en SSH hacer "killall -9 refxcmd.py".
 
-> **Le démon refuse de démarrer**
+> **El demonio se niega a comenzar**
 >
->Essayez de le démarrer en mode debug pour voir l’erreur.
+>Intenta iniciarlo en modo de depuración para ver el error.
 
-> **J’ai plusieurs port USB pour ma clef GSM alors que je n’en ai qu’une**
+> **Tengo varios puertos USB para mi llave GSM, mientras que solo tengo uno**
 >
->C’est normal, pour une raison inconnue les clef GSM créent 2 (et
->même plus) ports USB au niveau système. Il suffit d’en choisir un,
->peut importe lequel.
+>Esto es normal, por alguna razón desconocida, las claves GSM crean 2 (e incluso más) puertos USB a nivel del sistema. Solo elige uno, no importa cuál.
 
-> **Jeedom n’envoie plus et ne reçoit plus de SMS**
+> **Jeedom ya no envía ni recibe SMS**
 >
->Ceci arrive en général si la clef GSM n’arrive plus à se connecter
->au réseau. Essayer de la déplacer et de voir si ça revient au bout
->de quelques minutes.
+>Esto suele suceder si la clave GSM ya no puede conectarse a la red. Intente moverlo y vea si vuelve> después de unos minutos.
 
->**J'ai des soucis de reception qui marche quelques heures puis plus rien**
+>**Tengo problemas de recepción que funcionan durante unas horas y luego nada**
 >
->Mettez la carte SIM sur un téléphone portable et videz tous les sms (envoyé et recu) de la carte.
+>Coloque la tarjeta SIM en un teléfono móvil y vacíe todos los sms (enviados y recibidos) de la tarjeta.

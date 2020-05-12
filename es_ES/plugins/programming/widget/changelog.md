@@ -1,3 +1,9 @@
+# Changelog Widget
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
 # 05/09/2019
 
 - Corrección de errores (gracias @Salvialf)
@@ -8,7 +14,7 @@
 
 # 05/07/2018
 
-- Corrección de un error en las imágenes.
+- Corrección de un error en las imágenes
 
 # 25/04/2018
 

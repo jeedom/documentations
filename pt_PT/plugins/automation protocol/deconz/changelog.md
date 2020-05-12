@@ -1,6 +1,12 @@
+# Changelog Deconz
+
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 05/12/2020
+
+- Adição de um reinício automático da conexão ao deconz em caso de perda
 
 # 27/02/2019
 

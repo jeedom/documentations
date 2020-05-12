@@ -1,15 +1,21 @@
-# 09/05/2019
+# Changelog Widget
 
-- Correction de de bug (merci @Salvialf)
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 09/09/2019
+
+- Correção de bugs (obrigado @Salvialf)
 
 # 16/10/2018
 
-- Correction d'un bug sur l'option "Appliquer sur" lorsque les commandes sont invisibles
+- Correção de um erro na opção "Aplicar em" quando os comandos estão invisíveis
 
-# 05/07/2018
+# 07/05/2018
 
-- Correction d'un bug sur les images
+- Correção de um bug nas imagens
 
 # 25/04/2018
 
-- Correction d'un soucis d'envoi de widget sur le market
+- Corrigido um problema ao enviar um widget para o mercado
