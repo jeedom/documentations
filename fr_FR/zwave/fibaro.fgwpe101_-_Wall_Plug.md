@@ -8,21 +8,18 @@
 
 ![vuedefaut1](images/fibaro.fgwpe101/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous forme d\`un adaptateur à brancher sur une prise murale au réseau électrique, compatible avec le standard Z-Wave. Il permet de gérer n’importe quel dispositif ayant une puissance maximale de 2,5kW, tout en intégrant la fonctionnalité de mesurer la puissance active du courant et la consommation d’énergie des dispositifs. Ce module est équipé d\`un anneau lumineux avec des LEDs signalant son état et la consommation d’énergie de tout dispositif branché. Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien depuis n’importe quel contrôleur compatible avec le standard Z-Wave
 
-Fonctions
----------
+## Fonctions
 
 -   Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
 -   Contrôle à micro-chips.
 -   Élément d\`exécution: relais.
 -   Mesure de puissance active du courant et de l\`énergie électrique du récepteur.
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 -   Alimentation : 230V, 50Hz
@@ -35,8 +32,7 @@ Caractéristiques techniques
 -   Température limite : 105°C
 -   Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Fibar Group
 -   Nom : Wall Plug FGWPE-101
@@ -44,8 +40,7 @@ Données du module
 -   Type Produit : 1536
 -   Produit ID : 4096
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -119,8 +114,7 @@ Ce module possède 3 groupes d’association, seul le troisième est indispensab
 
 ![Groupe](images/fibaro.fgwpe101/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Reset
 
@@ -128,7 +122,6 @@ Bon à savoir
 
 Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l’onglet Système. Il faut choisir PressButton.
 
-Wakeup
-------
+## Wakeup
 
 Pas de notion de wakeup sur ce module.

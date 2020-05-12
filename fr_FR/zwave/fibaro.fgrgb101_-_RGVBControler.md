@@ -1,5 +1,4 @@
-Fibaro RGVB Controler - FGRGB-101
-=================================
+# Fibaro RGVB Controler - FGRGB-101
 
 -   **Le module**
 
@@ -9,8 +8,7 @@ Fibaro RGVB Controler - FGRGB-101
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-Résumé
-------
+## Résumé
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclairages basse tension 12/24V (halogène ou LED), un ruban LED RVB ou RVB+blanc ou bien encore de relier des sondes analogiques utilisant la norme 0-10V.
 
@@ -24,8 +22,7 @@ Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclai
 -   Mesure de consommation globale ou par canal instantanée ou cumulée.
 -   Fonction répéteur (routeur) pour étendre le réseau Z-Wave.
 
-Fonctions
----------
+## Fonctions
 
 -   Commander des éclairages basse tension 12/24V (halogène ou LED)
 -   S’installe derrière un interrupteur existant
@@ -34,8 +31,7 @@ Fonctions
 -   Petit, discret et esthétique
 -   Facilité d’utilisation et d’installation
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Alimentation : 12 V ou 24 V continu
 -   Puissance maximale de sortie :
@@ -54,8 +50,7 @@ Caractéristiques techniques
 -   Normes Européenes : EMC 2004/108/EC R&TTE 199/5/WE
 -   Ce module nécessite un contrôleur Z-Wave pour fonctionner.
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Fibar Group
 -   Nom : Fibaro FGRGB-101 RGBW
@@ -63,8 +58,7 @@ Données du module
 -   Type Produit : 2304
 -   Produit ID : 4096
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -122,8 +116,7 @@ Ce module possède cinq groupes d’association, seul le cinquième est indispen
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -137,7 +130,6 @@ Utilisation des capteurs 0-10V.
 
 ![Visuel alternatif](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-Wakeup
-------
+## Wakeup
 
 Pas de notion de wakeup sur ce module.

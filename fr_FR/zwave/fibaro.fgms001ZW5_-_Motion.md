@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave. En plus de la détection de mouvement, ce dispositif mesure la température et l’intensité lumineuse. Ce détecteur comporte aussi un accéléromètre intégré afin de détecter toute tentative d’altération du dispositif.
 
@@ -17,8 +16,7 @@ Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu pour 
 
 Le détecteur de mouvement peut être utilisé pour les scènes d’éclairage et les systèmes de surveillance et/ou de sécurité.
 
-Fonctions
----------
+## Fonctions
 
 -   Détecteur de mouvement sans fil
 -   Détecte les mouvements à l’aide d’un capteur infrarouge passif
@@ -32,8 +30,7 @@ Fonctions
 -   Très petit, dimensions réduites
 -   Facilité d’installation sur un mur ou toute autre surface
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave+
 -   Alimentation : Pile CR123A 3,6VDC
@@ -47,8 +44,7 @@ Caractéristiques techniques
 -   Température de fonctionnement : 0-40°C
 -   Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS II
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Fibar Group
 -   Nom : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
@@ -56,8 +52,7 @@ Données du module
 -   Type Produit : 2048
 -   Produit ID : 4097
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -153,8 +148,7 @@ Les noms des groupes de la version Z-Wave+ sont les suivant:
 -   4 : Motion BC, capteur de mouvement. Ce groupe a pour but d’assurer la compatibilité descendante avec les contrôleurs ne supportant pas le protocole Z-Wave+.
 -   5 : Tamper BC, alerte sabotage. Ce groupe a pour but d’assurer la compatibilité descendante avec les contrôleurs ne supportant pas le protocole Z-Wave+.
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -166,15 +160,13 @@ Bon à savoir
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   appuyer 3 fois sur le bouton d’inclusion (la lumière s’allume en bleue). Même si la lumière s’allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
-F.A.Q.
-------
+## F.A.Q.
 
 Ce module se réveille en appuyant 3 fois sur son bouton d’inclusion.
 
@@ -182,8 +174,7 @@ Ce module est très capricieux. Il est conseillé de faire l’inclusion au plus
 
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

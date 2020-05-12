@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Doté de lignes douces, d’une surface polie et d’une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multicouleurs et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
 
@@ -17,8 +16,7 @@ Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome d
 
 Certains matériaux brûlent sans fumer. C’est pourquoi les ingénieurs de Fibaro ont décidé d’inclure une protection supplémentaire dans leur détecteur de fumée sous la forme d’un capteur de température. Si la quantité de fumée n’est pas suffisante pour déclencher l’alarme, l’appareil sera toujours en mesure de détecter une menace en détectant un changement rapide de la température causée par le feu. Un changement rapide de la température ou une augmentation jusqu’à 54°C est suffisant pour que le capteur de fumée détecte une menace et le signale aux habitants de la maison. Seul ce type de capteur de fumée offre une efficacité élevée, indépendamment de ce qui brûle.
 
-Fonctions
----------
+## Fonctions
 
 -   Détecteur de fumée Z-Wave
 -   Alimenté sur batterie
@@ -32,8 +30,7 @@ Fonctions
 -   Compatible Z-Wave Plus
 -   Installation très simple - il suffit de l’installer dans un endroit ou il y a un risque de feu
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 -   Alimentation : Batterie Lithium 3V CR123A
@@ -50,8 +47,7 @@ Caractéristiques techniques
 -   Normes : EMC 2004/108/EC et R&TTE 199/5/WE
 -   Certifications : EN 14604:2005
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Fibar Group
 -   Nom : Fibaro Smoke Sensor FGSD-002
@@ -59,8 +55,7 @@ Données du module
 -   Type Produit : 3074
 -   Produit ID : 4098
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -128,18 +123,15 @@ Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé
 
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >
