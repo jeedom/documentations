@@ -1,328 +1,134 @@
-D-Link DCH-Z110 - "3 in 1 Öffnung" 
-====================================
+# D-Link DCH-Z110 - "3 in 1 Öffnung"
 
-
-
--   **Das Modul**
-
-
+**Das Modul**
 
 ![module](images/dlink.dchz110/module.jpg)
 
-
-
--   **Das Jeedom Visual**
-
-
+**Das Jeedom Visual**
 
 ![vuedefaut1](images/dlink.dchz110/vuedefaut1.jpg)
 
+## Zusammenfassung
 
+Der Detektor DCH-Z110 bietet 3 verschiedene Funktionen : Öffnungserkennung, Temperatursensor und Lichtdetektor. Es besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie können an einer Tür oder einem Fenster angebracht werden, wobei der Magnet am Öffnungsteil und der Detektor am Festteil befestigt sind.
 
-Zusammenfassung 
-------
+Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt, wodurch der Detektor ausgelöst wird, der ein Z-Wave-Alarmsignal sendet, wenn das System scharfgeschaltet ist (dieses Signal kann von einer Sirene oder von einem gesteuert werden) Hausautomationsbox zum Beispiel). Der Sensor kann je nach Helligkeitsstufe auch zur automatischen Lichtsteuerung verwendet werden. Beispielsweise sendet der Sensor ein Signal an den Z-Wave-Schalter, um das Licht einzuschalten, wenn sich die Tür öffnet und der Raum dunkel ist.
 
+Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung, und jedes Mal, wenn das Öffnen / Schließen erfasst wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…?) Ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits ein Netzwerk haben.
 
-
-Der Detektor DCH-Z110 bietet 3 verschiedene Funktionen : Erkennung
-Öffnung, Temperatursensor und Lichtdetektor. Es ist
-besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie sind entworfen
-an einer Tür oder einem Fenster mit dem Magneten an der Tür anbringen
-Öffnungsteil und Detektor am festen Teil.
-
-Durch Öffnen der Tür oder des Fensters wird der Magnet ferngehalten
-Detektor, der den Detektor auslöst, der ein Z-Wave-Signal sendet
-Alarm, wenn das System scharfgeschaltet ist (dieses Signal kann von a verwendet werden
-Sirene oder von einer Hausautomationsbox zum Beispiel). Der Sensor kann auch
-für die automatische Lichtsteuerung verwendet werden, abhängig von der
-Helligkeitsstufe. Beispielsweise sendet der Sensor ein Signal an
-Z-Wave-Schalter zum Einschalten des Lichts beim Öffnen der Tür
-und der Raum ist dunkel.
-
-Der Detektor erhöht auch die Helligkeit und die Temperatur, d.h
-im Falle einer wesentlichen Änderung und jedes Mal das Öffnen / Schließen
-erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…?) Ist
-notwendig, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie haben
-bereits ein bestehendes Netzwerk.
-
-
-
-Funktionen 
----------
-
-
+## Fonctions
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
-
 -   Optimierte Antennenreichweite
-
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
-
 -   Taste zum Ein- / Ausschließen des Detektors
-
 -   Autoprotection
-
 -   Anzeige für niedrigen Batteriestand
-
 -   Klein, diskret und ästhetisch
-
 -   Benutzerfreundlichkeit und Installation
 
+## Technische Daten
 
+Standort [Beamte](http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf)
 
-Technische Daten 
----------------------------
+Anderer Link [technisch](http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF)
 
+![caracteristiques techniques](images/dlink.dchz110/caracteristiques_techniques.jpg)
 
-
-Offizielle Seite :
-<http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf>
-
-Anderer technischer Link :
-<http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF>
-
-![caracteristiques
-Techniken](images / dlink.dchz110 / caracteristiques_techniques.jpg)
-
-
-
-Moduldaten 
------------------
-
-
+## Moduldaten
 
 -   Machen Sie : D-Link
-
--   Modell : DCH-Z110 Tür- und Fensteröffnungsdetektor
-    mydlink ™ Home
-
+-   Modell : DCH-Z110 mydlink ™ Sensor zum Öffnen von Türen und Fenstern
 -   Hersteller : FIBARO-System
-
 -   Hersteller ID : 264 \ [0x0108 \]
-
 -   Produkttyp : 2 \ [0x0002 \]
-
 -   Produkt-ID : 14 \ [0x000e \]
 
+## Configuration
 
-
-Konfiguration 
--------------
-
-
-
-So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
-Aufnahme beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
+Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 > **Wichtig**
 >
-> Installieren Sie das Modul nicht am Fenster / an der Tür, bevor Sie es haben
-> richtig konfiguriert, und achten Sie auf die Ausrichtung von
-> der Magnet bei Tests auf einer ebenen Fläche und während der Installation.
-> (Verwenden Sie ggf. Unterlegscheiben.) Um dieses Modul in den Modus zu versetzen
-> Aufnahme ist es notwendig, dreimal auf die Assoziationstaste in 1.5 zu drücken
-> zweitens gemäß seiner Dokumentation. (konstant rot blinkend
-> im Assoziationsmodus)
-
-
+> Installieren Sie das Modul nicht am Fenster / an der Tür, bevor Sie es richtig konfiguriert haben, und achten Sie beim Testen auf einer ebenen Fläche und bei der Installation sorgfältig auf die Ausrichtung des Magneten. (Verwenden Sie ggf. Unterlegscheiben.) Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Zuordnungstaste dreimal 3.5 Sekunden laut Dokumentation. (konstantes rotes Blinken im Assoziationsmodus)
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
-
-
 Einmal enthalten, sollten Sie dies erhalten :
-
-
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
+### Commandes
 
-
-### Befehle 
-
-
-
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
-
-
+Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
 ![Befehle](images/dlink.dchz110/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
 
-
-
--   Öffnung : Es ist der Befehl, der eine Erkennung auslöst
-    d'ouverture
-
--   Temperatur : es ist der Befehl, der es erlaubt, die
-    Temperatur
-
+-   Öffnung : Es ist der Befehl, der eine Öffnungserkennung auslöst
+-   Temperatur : Es ist der Befehl, der es ermöglicht, die Temperatur zu erhöhen
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
-
--   Sabotage : Dies ist der Sabotagebefehl (er wird ausgelöst in
-    herausreißen)
-
+-   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 -   Batterie : Es ist der Batteriebefehl
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
-> Speichern Sie dann während einer ersten Aufnahme oder Änderung
-> Wecken Sie das Modul immer durch Drücken der Zuordnungstaste auf.
-> Es sollte rot blinken und den Status ändern.
+> Speichern Sie das Modul während einer ersten Aufnahme oder Änderung und aktivieren Sie es immer durch Drücken der Zuordnungstaste. Es sollte rot blinken und den Status ändern.
 
-
-
-Dann muss das Modul in konfiguriert werden
-abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
-"Konfiguration "des OpenZwave-Plugins von Jeedom.
-
-
+Dann ist es notwendig, das Modul entsprechend Ihrer Installation zu konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-
-
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
-Einstellungen)
-
-
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/dlink.dchz110/config1.jpg)
 
 ![Config2](images/dlink.dchz110/config2.jpg)
 
-
-
 Parameterdetails :
 
+-   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
+-   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
+-   5: Betriebsart (siehe Herstellerdokumentation)
+-   6: Multisensor-Betriebsart (siehe Herstellerdokumentation). Empfohlener Wert : 7
+-   7: Benutzerdefinierte Betriebsart des Multisensors (siehe Herstellerdokumentation). Empfohlener Wert : 20 (um die funktionale Öffnung zu haben)
+-   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
+-   10: wird verwendet, um die Dauer zwischen zwei Batterieberichten zu definieren (eine Einheit = Parameter 20)
+-   11: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Eröffnungsberichten definieren (eine Einheit = Parameter 20)
+-   12: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Helligkeitsberichten definieren (eine Einheit = Parameter 20). Empfohlener Wert : 6
+-   13: ermöglicht die Definition der Dauer zwischen zwei automatischen Temperaturberichten (eine Einheit = Parameter 20). Empfohlener Wert : 2
+-   20: Dauer eines Intervalls für die Parameter 10 bis 13. Empfohlener Wert : 10
+-   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
+-   22: Wert in% der Helligkeitsschwankung, um einen Bericht auszulösen. Empfohlener Wert : 10
 
+### Groupes
 
--   2: Ermöglicht das Anpassen des an die Module in der Gruppe gesendeten Signals
-    Verein 2
-
--   4: Stellt die Helligkeitsstufe ein, ab der die
-    Das in Parameter 2 definierte Signal wird an die Module gesendet, die dem zugeordnet sind
-    Gruppe 2
-
--   5: Betriebsart (siehe die
-    Herstellerdokumentation)
-
--   6: Multisensor-Betriebsart (siehe
-    Herstellerdokumentation). Empfohlener Wert : 7
-
--   7: personalisierte Multisensor-Betriebsart (siehe
-    auf der Dokumentation des Herstellers). Empfohlener Wert : 20 (für
-    funktionale Öffnung haben)
-
--   9: Ermöglicht die Festlegung, wie lange das AUS-Signal dauern soll
-    wird an Module gesendet, die der Gruppe 2 zugeordnet sind
-
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (einer
-    Einheit = Parameter 20)
-
--   11: Mit dieser Option können Sie die Dauer zwischen zwei sich selbst öffnenden Berichten definieren
-    (eine Einheit = Parameter 20)
-
--   12: Hier können Sie die Dauer zwischen zwei Auto definieren
-    Helligkeit (eine Einheit = Parameter 20). Empfohlener Wert : 6
-
--   13: Hier können Sie die Dauer zwischen zwei Auto definieren
-    Temperatur (eine Einheit = Parameter 20). Empfohlener Wert : 2
-
--   20: Dauer eines Intervalls für die Parameter 10 bis 13. Wert
-    empfohlen : 10
-
--   21: Temperaturänderungswert in ° F zum Auslösen von a
-    rapport
-
--   22: Wert in% der auszulösenden Helligkeitsänderung
-    ein Bericht. Empfohlener Wert : 10
-
-
-
-### Gruppen 
-
-
-
-Dieses Modul hat zwei Zuordnungsgruppen, nur die erste
-indispensable.
-
-
+Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/dlink.dchz110/groupe.jpg)
 
+## Gut zu wissen
 
+Zuordnung / Benachrichtigung mit anderen Modulen möglich (Beispiel: Benachrichtigung über das Sirenenglockenspiel DCH-Z510 bei Tür- / Fensteröffnung)
 
-Gut zu wissen 
-------------
-
-Zuordnung / Benachrichtigung mit anderen Modulen möglich (Beispiel: Meerjungfrau
-DCH-Z510 Glockenspielbenachrichtigung beim Öffnen von Tür / Fenster)
-
-
-
-Alternative visuelle 
------------------
-
-
-
-![Groupe](images/dlink.dchz110/autre_visuel_jeedom.jpg)
-
-
-
-Aufwachen 
-------
-
-
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Lassen Sie die Zuordnungstaste los und drücken Sie sie erneut
+-   Verringern Sie das Aufweckintervall in der Modulkonfiguration / im Modulsystem (in Sekunden)
 
--   Verringern Sie das Aufweckintervall in der Modulkonfiguration / im System
-    (in Sekunden)
-
-
-
-Faq. 
-------
-
-
+## Faq.
 
 Dieses Modul wird durch Drücken der Zuordnungstaste aktiviert.
 
+Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird beim nächsten Aufwecken berücksichtigt. (Zuordnungstaste, um es zu erzwingen, daher der Vorteil, dass das Modul nicht installiert wird, bevor es ordnungsgemäß konfiguriert wurde)
 
-
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
-beim nächsten Aufwachen berücksichtigt. (Zuordnungstaste für
-Kraft, daher das Interesse, das Modul nicht vor seiner zu installieren
-gute Konfiguration)
-
-
-
-Wichtiger Hinweis 
----------------
-
-
+## Wichtiger Hinweis
 
 > **Wichtig**
 >
-> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
-> der Konfiguration, nach einer Änderung des Aufweckens, nach a
-> Änderung der Assoziationsgruppen
-
-
-
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung der Konfiguration, nach einer Änderung des Aufweckens, nach einer Änderung der Assoziationsgruppen

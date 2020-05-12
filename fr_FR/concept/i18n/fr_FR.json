@@ -62,8 +62,6 @@
         "afin d'automatiser des actions en fonctions des informations remontées par vos capteurs": "afin d'automatiser des actions en fonctions des informations remontées par vos capteurs",
         "Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière": "Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière",
         "action": "action",
-        "on": "on",
-        "off": "off",
         "Ces commandes permettent de piloter vos actionneurs": "Ces commandes permettent de piloter vos actionneurs",
         "Par exemple, les commandes": "Par exemple, les commandes",
         "et": "et",

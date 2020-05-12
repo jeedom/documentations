@@ -1,94 +1,63 @@
--   **Das Modul**
+# Edisio EOS 200
+
+**Das Modul**
 
 ![eos200.module](images/eos200/eos200.module.jpg)
 
--   **Das Jeedom Visual**
+**Das Jeedom Visual**
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
-Zusammenfassung 
-======
+## Zusammenfassung
 
-Platziert an einer Tür, einem Fenster, einem Garagentor, einer Schublade, allen Öffnungen
-Mit dem kompakten und diskreten Sensor können Sie den Zustand erkennen
-Öffnen oder Schließen des letzteren.
+Dieser kompakte und diskrete Sensor befindet sich an einer Tür, einem Fenster, einem Garagentor, einer Schublade und allen Öffnungen und ermöglicht es Ihnen, den Öffnungs- oder Schließzustand des letzteren zu erkennen.
 
-Je nach Zustand steuert der Sensor die Zündung oder das Erlöschen Ihres
-Lichter, Schließen oder Öffnen der Fensterläden oder der
-Alarm durch ein Szenario ausgelöst.
+Je nach Status steuert der Sensor das Ein- und Ausschalten Ihrer Lichter, das Schließen oder Öffnen der Rollläden oder sogar das Auslösen eines Alarms über ein Szenario.
 
-Das Signal wird nur an die Trennung des Schallsensors gesendet
-magnetisches Element. Die integrierte LED-Anzeige signalisiert Änderungen
-Zustand. Niedriger Batteriestand durch 3 akustische "Pieptöne" am
-Empfänger
+Das Signal wird nur gesendet, wenn der Sensor von seinem Magnetelement getrennt ist. Die integrierte LED-Anzeige signalisiert Statusänderungen. Niedriger Batteriestand durch 3 akustische "Pieptöne" am Empfänger
 
-Funktionen 
-=========
+## Fonctions
 
 -   Drahtloser Magnetsensor mit Batterien
-
 -   Erkennt Öffnungen / Verschlüsse
-
 -   Ultrakompakt
-
 -   Einfache und kostenlose Installation
-
 -   Signal wird sofort beim Öffnen / Schließen übertragen
-
 -   Selbstschutz gegen Anheben
-
 -   Informationen zum Batteriestand
-
 -   Wandmontage mit Schrauben oder doppelseitigem Klebeband
 
-Technische Daten 
-===========================
+## Technische Daten
 
 -   Modultyp : Edisio Sender
-
 -   Versorgung : 3VDC (Lithiumbatterie ER14250)
-
 -   Frequenz : 868,3 MHz
-
 -   Betriebstemperatur : 0 ° C + 45 ° C
-
 -   Reichweite im freien Feld : 100M
-
 -   Abmessungen : 25x79x19mm
-
 -   Schutzart : IP20
-
 -   Verwendung : Drinnen
 
-Moduldaten 
-=================
+## Moduldaten
 
 -   Machen Sie : Edisio Smart Home
-
 -   Name : EOS-200
 
-Allgemeine Konfiguration 
-======================
+## Allgemeine Konfiguration
 
-So konfigurieren Sie das Edisio-Plugin und ordnen Jeedom ein Modul zu,
-beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
+Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
 > **Wichtig**
 >
-> Denken Sie daran, dass Jeedom Ihre Sendermodule automatisch erstellt
-> Aktivieren Sie die Option in der Plugin-Konfiguration nicht.
+> Vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren, damit Jeedom Ihre Sendermodule automatisch erstellt.
 
-"E" -Taste" 
-----------
+### "E" -Taste"
 
-Sie finden unter der Schaltfläche "E" die Zuordnungsschaltfläche der
-Temperatursensor.
+Unter der Schaltfläche "E" befindet sich die Zuordnungstaste des Temperatursensors.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-Konfiguration 
--------------
+### Configuration
 
 Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert
 
@@ -96,19 +65,13 @@ Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert
 
 > **Notiz**
 >
-> Sie müssen daher Ihren Sensor konfigurieren, wenn Sie einen haben möchten
-> Widget mit geschlossener Tür, wenn sie geschlossen ist.
+> Sie müssen daher Ihren Sensor konfigurieren, wenn Sie ein Widget mit geschlossener Tür haben möchten.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
 
-Assoziation des Sensors mit Jeedom 
-===============================
+## Assoziation des Sensors mit Jeedom
 
-Das Koppeln des Bewegungssensors ist einfach. Er
-Drücken Sie einfach die Taste "E" unter dem Sensor. Dieser wird
-automatisch von Jeedom erkannt. Geh einfach zum
-Edisio Plugin. Sie können es dann in ein Objekt einfügen und ihm ein geben
-benennen und speichern.
+Das Koppeln des Bewegungssensors ist einfach. Drücken Sie einfach die Taste "E" unter dem Sensor. Dies wird von Jeedom automatisch erkannt. Gehen Sie einfach zum Edisio-Plugin. Sie können es in ein Objekt einfügen, ihm einen Namen geben und es speichern.
 
 Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 
@@ -116,55 +79,30 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 
 > **Spitze**
 >
-> Denken Sie daran, das Widget zu platzieren, damit es im Dashboard angezeigt wird
-> Ihre Ausrüstung in einem Objekt.
+> Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget im Dashboard angezeigt wird.
 
-Befehle 
----------
+### Befehle 
 
-Sobald Ihre Ausrüstung erstellt ist, sollten Sie die Bestellungen erhalten
-mit dem Modul verbunden :
+Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
 ![Befehle](images/eos200/eos200.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
--   Tür : Es ist der Befehl, der angibt, ob die Tür offen ist oder
-    geschlossen
-
+-   Tür : Dies ist der Befehl, der angibt, ob die Tür geöffnet oder geschlossen ist
 -   Batterie : Zeigt den Batteriestatus an
 
-Information 
-------------
+### Informations
 
-Sobald Ihre Ausrüstung mit Jeedom verbunden ist, werden verschiedene Informationen angezeigt
-verfügbar :
+Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 
 ![Befehle](images/eos200/eos200.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
-
--   Kommunikation : Zeigt die letzte zwischen aufgezeichnete Kommunikation an
-    Jeedom und das Modul
-
+-   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Modul aufgezeichnete Kommunikation an
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
-
 -   STATUS : Gibt den Status des Moduls zurück
 
-Alternative visuelle 
-=================
+## Alternative visuelle
 
 ![eos200.vue alternative](images/eos200/eos200.vue-alternative.jpg)
-
-Faq. 
-======
-
-So steuern Sie einen Z-Wave-Empfänger?
-
-:   Mit dem Jeedom Scenario Plugin.
-
-Wie kann ich das gleiche Bild haben ?
-
-:   Mit dem Jeedom Widgets Plugin.
-
-**@Jamsta**

@@ -55,9 +55,9 @@ Diese Befehle können protokolliert werden, um diese Informationen über die Zei
 Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den von Ihren Sensoren gemeldeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
 - Bestellungen *Aktion* :
-Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle **Ein** und **Aus** Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
+Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ``on`` und ``off`` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
 
-Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen **Ein** und **Aus**, in der Regel im Zusammenhang mit Informationen **Zustand**.
+Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen ``on`` und ``off``, in der Regel im Zusammenhang mit Informationen **Zustand**.
 
 ![Befehle](images/concept-commands.jpg)
 
@@ -83,5 +83,3 @@ Unabhängig von Ihrem Gerät wird es in Form von Geräten erstellt, aus a [Plugi
 Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, Ihre Hausautomation zu organisieren und zu wissen, wo Sie suchen müssen.
-
-
