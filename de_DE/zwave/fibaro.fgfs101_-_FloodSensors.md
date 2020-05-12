@@ -1,28 +1,16 @@
 Fibaro FGFS-101 "Hochwassersensor" 
 ==============================
 
-
-
 -   **Das Modul**
-
-
 
 ![module](images/fibaro.fgfs101/module.jpg)
 
-
-
 -   **Das Jeedom Visual**
-
-
 
 ![vuedefaut1](images/fibaro.fgfs101/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Der FGFS-101-Sensor ist kompakt und verfügt über eine Vielzahl von
 Funktionen. Mit seiner fortschrittlichen Technologie und Präzision ist der Sensor
@@ -51,12 +39,8 @@ FGFS-101.
 Dieser Sensor enthält einen Z-Wave-Netzwerkbereichstester, mit dem Sie
 stellt die korrekte Funktion des Sensors während seiner Installation sicher.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Hochwassermelder (Vorhandensein von Wasser über Kontakte)
 
@@ -70,12 +54,8 @@ Funktionen
 
 -   Z-Wave Repeater ?? (siehe Abschnitt "Gut zu wissen")
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Sender
 
@@ -106,12 +86,8 @@ Technische Daten
 
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Fibar Group
 
@@ -125,18 +101,12 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -144,36 +114,20 @@ Aufnahme beziehen sich darauf
 > zentraler Einschlussknopf, identifiziert TMP, gemäß seiner Dokumentation
 > Papier (die schwarze Lasche).
 
-
-
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/fibaro.fgfs101/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Leck : Dies ist der Modulalarmbefehl (für die Anwesenheit
     Wasser, Überschwemmungen ...)
@@ -185,43 +139,27 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
 > Einbeziehung.
 
-
-
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
-
-
 
 ![Config1](images/fibaro.fgfs101/config1.jpg)
 
 ![Config2](images/fibaro.fgfs101/config2.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   Aufwachen : Dies ist das Modul-Aufweckintervall (Wert
     empfohlen 21600)
@@ -262,60 +200,38 @@ Parameterdetails :
 -   75 \. Einstellen der Dauer des Alarms : von 0 bis 65535s (standardmäßig 0,
     Der Alarm stoppt, sobald kein Fehler mehr erkannt wird.)
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss sein
 zumindest mit den Gruppen 1, 4 und 5 verbunden:
 
-
-
 ![Groupe](images/fibaro.fgfs101/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
 Dieses von außen betriebene Modul kann als Repeater verwendet werden
 Z-Welle (Informationen derzeit nicht bestätigt)
 
-Verkabelung für externe Stromversorgung. 
+Verkabelung für externe Stromversorgung.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Dieses Modul wird durch dreimaliges Drücken der Einschlusstaste aktiviert.
-
-
 
 Dieses Modul ist standardmäßig ein Batteriemodul, das neue
 Die Konfiguration wird beim nächsten Aufwecken berücksichtigt.
 
-
-
-Wichtiger Hinweis 
+Wichtiger Hinweis
 ---------------
-
-
 
 > **Wichtig**
 >
@@ -324,12 +240,7 @@ Wichtiger Hinweis
 > Änderung der Assoziationsgruppen
 
 
-
-
 Verwendungsdetails :
 <http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/>
 Fibaro-Dokumentation :
 <http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf>
-
-
-

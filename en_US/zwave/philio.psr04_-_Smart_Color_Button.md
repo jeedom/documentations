@@ -1,28 +1,16 @@
-Philio Smart Color Button 
+Philio Smart Color Button
 =========================
-
-
 
 -   **The module**
 
-
-
 ![Module](images/philio.psr04/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 This unique design switch offers several functions. You
 can use it to turn on, off or dim the lighting, adjust
@@ -49,12 +37,8 @@ It uses the latest Z-Wave 500 series chip, providing an increase
 fast compared to previous Z-Wave products, as well as a plus
 low energy consumption allowing greater autonomy.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Multifunction switch
 
@@ -80,12 +64,8 @@ Functions
 
 -   Easy to install
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Food : Lithium Polymer 3 Battery.7V, 220mA v
     battery : 6 months for 2 hours charge
@@ -107,12 +87,8 @@ x thickness) \* Certifications :
 EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950
 FCC Part 15 B, FCC Part 15 C
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Philio
 
@@ -124,18 +100,12 @@ Module data
 
 -   Product ID : 34
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
@@ -143,36 +113,20 @@ inclusion refer to this
 > low (inclusion) and press the button in accordance with its
 > paper documentation.
 
-
-
 ![inclusion](images/philio.psr04/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/philio.psr04/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   State : it is the command which will move the button position from 0 to
     100%
@@ -180,41 +134,25 @@ Here is the list of commands :
 -   Drums : this is the command that reports the battery status of the
     module
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-
-
 ![Config1](images/philio.psr04/config1.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1: defines the lowest bound (position completely left)
 
@@ -229,27 +167,17 @@ Parameter details :
 -   26 : activates the sending of scene or not on pressing of the central button
     (parameter not taken into account in Jeedom)
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has two association groups, the first is the only one
 essential. The second allows to go up the position to Jeedom
 
-
-
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
+### Specificities
 
 To use this module as a remote control, proceed as follows :
 
@@ -261,40 +189,28 @@ adding Jeedom to group 2, this allows to receive the position of the
 button and therefore use it to control a scenario (set a
 volume for example)
 
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module there is only one way :
 
 -   put the module in the low position and press the button
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 
 
 This module is a battery module, the new configuration will not be
 take into account that if you wake up the module.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
-
-
 
 **@sarakha63**

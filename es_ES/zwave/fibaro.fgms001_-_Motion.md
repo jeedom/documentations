@@ -1,28 +1,16 @@
-Sensor de movimiento Fibaro - FGMS-001 
+Sensor de movimiento Fibaro - FGMS-001
 ===============================
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/fibaro.fgms001/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/fibaro.fgms001/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 El detector de movimiento Fibaro es un detector multifunción Z-Wave.
 Además de la detección de movimiento, este dispositivo mide la
@@ -39,12 +27,8 @@ está en la red Z-Wave.
 El detector de movimiento se puede usar para iluminar escenas
 y sistemas de vigilancia y / o seguridad.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Detector de movimiento inalámbrico
 
@@ -69,12 +53,8 @@ Funciones
 
 -   Fácil instalación en una pared o cualquier otra superficie
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Transmisor de onda Z
 
@@ -99,12 +79,8 @@ Características técnicas
 -   Certificaciones : LVD 2006/95 / WE EMC 2004/108 / WE R & TTE 1999/5 / WE RoHS
     II
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Grupo Fibar
 
@@ -116,54 +92,32 @@ Datos del módulo
 
 -   ID del producto : 4097
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-
-
 ![inclusion](images/fibaro.fgms001/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/fibaro.fgms001/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/fibaro.fgms001/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Presencia : es el comando que detectará una detección de presencia
 
@@ -177,33 +131,21 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando de la batería
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
 > inclusión.
 
-
-
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 Configuraciones)
-
-
 
 ![Config1](images/fibaro.fgms001/config1.jpg)
 
@@ -213,11 +155,7 @@ Configuraciones)
 
 ![Config3](images/fibaro.fgms001/config4.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   Despertador : Este es el intervalo de activación del módulo (valor
     7200 recomendado)
@@ -295,29 +233,17 @@ Detalles del parámetro :
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de
     sabotage
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene tres grupos de asociación, solo el tercero es
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgms001/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Específicos 
-
-
+### Específicos
 
 > **Punta**
 >
@@ -327,20 +253,12 @@ Bueno saber
 > deseos, y despertarlo bien para que la configuración se tenga en cuenta
 > Cuenta.
 
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/fibaro.fgms001/vuewidget.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 Para activar este módulo, solo hay una forma :
 
@@ -348,38 +266,24 @@ Para activar este módulo, solo hay una forma :
     en azul). Incluso si la luz se enciende, puede ser necesario
     hazlo varias veces seguidas (2 o 3)
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Este módulo se activa presionando 3 veces en su botón de inclusión.
-
-
 
 Este módulo es muy meticuloso. Es recomendable incluir
 más cerca de tu caja y recógela varias veces.
 
-
-
 Este módulo es un módulo de batería, la nueva configuración será
 tomado en cuenta en el próximo despertar.
 
-
-
-Nota importante 
+Nota importante
 ---------------
-
-
 
 > **Importante**
 >
 > Tienes que despertar el módulo : después de su inclusión, después de un cambio
 > de la configuración, después de un cambio de activación, después de un
 > cambio de grupos de asociación
-
-
 
 **@sarakha63**

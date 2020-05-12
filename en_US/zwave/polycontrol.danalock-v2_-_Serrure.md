@@ -1,25 +1,15 @@
-Danalock V2 BTZE 
+Danalock V2 BTZE
 ================
-
-
 
 -   **The module**
 
-
-
 ![module](images/polycontrol.danalock/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
 
  
@@ -95,10 +85,8 @@ solid anodized aluminum bezel and advanced technologies
 Bluetooth and Z-Wave. A discreet Danish design built to last.
 
 
-Functions 
+Fonctions
 ---------
-
-
 
 -   Control your front door remotely
 
@@ -129,12 +117,8 @@ Functions
 -   Compatible with iOS (iPhone 4s or later), but
     also Android (from 4.4).
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Food : 4 CR123 3V batteries
 
@@ -148,12 +132,8 @@ Technical characteristics
 
 -   Weight : 363g
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Poly-Control
 
@@ -165,24 +145,16 @@ Module data
 
 -   Product ID : 1
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-
-
 > **IMPORTANT**
 >
 > It is essential to include this module in secure mode..
-
-
 
 To put the Z-Wave plugin (openzwave) in Jeedom in inclusion mode
 secure : just go to the Z-wave module management page
@@ -191,15 +163,11 @@ and click on the icon "Zwave Network"
 ![inclusion securise jeedom
 1](images / polycontrol.danalock / inclusion-securise-jeedom-1.jpg)
 
-
-
 Then in the "Actions" tab click on : "ADD MODULE IN MODE
 SECURE (INCLUSION)"
 
 ![inclusion securise jeedom
 2](images / polycontrol.danalock / inclusion-securise-jeedom-2.jpg)
-
-
 
 > **IMPORTANT**
 >
@@ -218,28 +186,16 @@ on "CONNECT".
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/polycontrol.danalock/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Status : it is the command which will go up the last action
     executed (open / close)
@@ -250,11 +206,7 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **Warning**
 >
@@ -263,30 +215,18 @@ Here is the list of commands :
 > will recover any configuration changes in near real time
 > as a sector module.
 
-
-
 If you want to configure the module according to your
 installation, you have to go through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-
-
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1 : Direction 0-1 : 0 = Motor goes clockwise
     locked, 1 = Motor goes counterclockwise when
@@ -330,28 +270,16 @@ Parameter details :
 
 -   12 : operation report
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has only one association group.
 
-
-
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
-
-
+### Specificities
 
 > **Tip**
 >
@@ -360,37 +288,23 @@ Good to know
 > will recover any configuration changes in near real time
 > as a sector module.
 
-
-
 > **Tip**
 >
 > This module returns its status if you operate the lock by hand
-> status will be updated. 
+> status will be updated.
 
-### Alternative visual 
-
-
+### Alternative visual
 
 ![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 There is no concept of wake up for this module.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 No notion of wake up on this module; read the Specificities paragraph.
-
-
 
 **@noumea**

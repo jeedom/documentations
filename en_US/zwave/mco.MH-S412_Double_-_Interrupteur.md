@@ -1,25 +1,15 @@
-MCO MH-S412 Double 
+MCO MH-S412 Double
 ==================
-
-
 
 -   **The module**
 
-
-
 ![module](images/mco.mhs412/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/mco.mhs412/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
 
 
@@ -33,12 +23,10 @@ MH-S412-EU switch can control any type of load,
 lighting or an electrical appliance.
 
 The switch is also equipped with an LED indicator that indicates its
-état. 
+état.
 
-Functions 
+Fonctions
 ---------
-
-
 
 -   Control two lamps or devices remotely
 
@@ -57,12 +45,8 @@ Functions
 
 -   Touch buttons
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave receiver
 
@@ -82,12 +66,8 @@ Technical characteristics
 
 -   Affichage: Blue / red LED
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : MC HOME
 
@@ -99,18 +79,12 @@ Module data
 
 -   Product ID : 514
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
@@ -120,73 +94,43 @@ inclusion refer to this
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/mco.mhs412/commandes.jpg)
-
-
 
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
 
-
-
 ![Config1](images/mco.mhs412/config1.jpg)
 
-
-
 Parameter details :
-
-
 
 -   1: Saving state before power failure : enable (allows to find
     the last state of the switches just before the power cut)
     diseable (the switches will be in the OFF state on mains return)
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has 3 association groups. Only the third is
 indispensable.
 
-
-
 ![Groupe](images/mco.mhs412/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Specificities 
+### Specificities
 
 1 \) the touch buttons have a blue halo when the charge
 is piloted
@@ -199,21 +143,15 @@ is unmanned
 4 \) this switch can control its load in autonomous mode (not
 attached to a z-wave controller)
 
-Wakeup 
+Wakeup
 ------
-
-
 
 This module being connected to the mains (220v), the alarm clock is instantaneous
 and therefore does not require any particular action when changing
 Settings
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 To exclude this model, put Openzwave in exclusion mode and press
 on one of the 2 buttons on the front panel for 3 sec, in accordance with its
@@ -221,6 +159,3 @@ paper documentation.
 
 To restore the factory settings, press only one of the 2 buttons
 on the front panel for 10 sec, in accordance with its paper documentation.
-
-
-

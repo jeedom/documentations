@@ -1,28 +1,16 @@
-Sicherer SRT 323 "Thermostat" 
+Sicherer SRT 323 "Thermostat"
 ===========================
-
-
 
 -   **Das Modul**
 
-
-
 ![module](images/secure.srt323/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Der SRT323 ist ein wandmontierter batteriebetriebener Thermostat. Er hat
 Ein Drehknopf, mit dem der Benutzer die Temperatur einstellen kann
@@ -55,12 +43,8 @@ Heizung. Sie müssen sich keine Sorgen mehr machen, nach Hause zu gehen
 ein kaltes Haus, solange Sie ein Smartphone, Tablet oder
 PC zur Hand und mit dem Internet verbunden.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Thermostat für den Hausgebrauch
 
@@ -76,12 +60,8 @@ Funktionen
 
 -   Ein Knopf
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave-Controller
 
@@ -105,12 +85,8 @@ Technische Daten
 
 -   Abmessungen : 86 x 86 x 36,25 mm
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Horstmann
 
@@ -122,18 +98,12 @@ Moduldaten
 
 -   Produkt-ID : 4
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -141,11 +111,7 @@ Aufnahme beziehen sich darauf
 > Stellen Sie dann mit der Wählscheibe L auf ON und drücken Sie die Wählscheibe,
 > gemäß seiner Papierdokumentation.
 
-
-
 ![inclusion](images/secure.srt323/inclusion.jpg)
-
-
 
 > **Wichtig**
 >
@@ -158,32 +124,18 @@ Aufnahme beziehen sich darauf
 > Einschluss / Ausschluss. Klicken Sie dann auf der Seite Ihres Moduls auf
 > Lupe oben rechts.
 
-
-
 Einmal enthalten, sollten Sie dies erhalten :
-
-
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/secure.srt323/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Temperatur : Es ist der Temperaturmessbefehl
 
@@ -196,34 +148,20 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Batteriebefehl
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 Dann muss das Modul in konfiguriert werden
 abhängig von Ihrer Installation. Dies erfordert das Durchgehen der Schaltfläche
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-
-
 ![Config1](images/secure.srt323/config1.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1: ermöglicht die Aktivierung oder Nichtaktivierung des internen Temperatursensors
 
@@ -232,29 +170,17 @@ Parameterdetails :
 -   3: ermöglicht die Definition des Temperaturschwankungsniveaus für
     das Modul sichern (in Einheiten von 0,1 ° C)
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Für eine optimale Funktion Ihres Moduls muss Jeedom sein
 mit den 5 Gruppen verbunden
 
-
-
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Besonderheiten 
-
-
+### Besonderheiten
 
 > **Wichtig**
 >
@@ -264,41 +190,27 @@ Gut zu wissen
 > verringern Sie es auf ungefähr 10 Minuten. Somit wird eine Änderung des Sollwerts sein
 > vom Modul spätestens nach 10 Minuten berücksichtigt
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Um dieses Modul aufzuwecken, müssen Sie den Schalter 1 auf ON stellen und
 Wählen Sie mit dem Rad n und drücken Sie das Rad.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 
 
 Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird sein
 beim nächsten Aufwachen berücksichtigt.
 
-
-
-Wichtiger Hinweis 
+Wichtiger Hinweis
 ---------------
-
-
 
 > **Wichtig**
 >
 > Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung
 > der Konfiguration, nach einer Änderung des Aufweckens, nach a
 > Änderung der Assoziationsgruppen
-
-
 
 **@sarakha63**

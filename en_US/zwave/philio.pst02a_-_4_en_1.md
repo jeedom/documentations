@@ -1,28 +1,16 @@
-Philio PST02 A - 4 in 1 
+Philio PST02 A - 4 in 1
 =======================
-
-
 
 -   **The module**
 
-
-
 ![module](images/philio.pst02a/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 The ZIP-PSM02-EU detector offers 4 different functions : detection of
 movement, opening detection, temperature sensor and detector
@@ -54,12 +42,10 @@ The detector will also raise the brightness and the temperature, i.e
 significant change, and whenever a movement or
 opening / closing are detected. A Z-Wave controller (remote control,
 dongle…) is necessary in order to integrate this detector into your network
-if you already have an existing network. 
+if you already have an existing network.
 
-Functions 
+Fonctions
 ---------
-
-
 
 -   4 in 1 detector: movement, aperture, temperature, light
 
@@ -83,12 +69,8 @@ Functions
 
 -   Ease of use and installation
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Type of module : Z-Wave transmitter
 
@@ -124,12 +106,8 @@ Technical characteristics
 
 -   Z-Wave certification : ZC08-13050003
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : Philio Technology Corporation
 
@@ -141,54 +119,32 @@ Module data
 
 -   Product ID : 12
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button 3 times
 > inclusion button, according to its paper documentation.
 
-
-
 ![inclusion](images/philio.pst02a/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/philio.pst02a/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   Presence : it is the command which will detect a presence detection
 
@@ -205,33 +161,21 @@ Here is the list of commands :
 
 -   Drums : it's the battery command
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
 > inclusion.
 
-
-
 Then if you want to configure the module according to
 of your installation, you have to go through the button
 "Configuration "of Jeedom's OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 settings)
-
-
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -239,11 +183,7 @@ settings)
 
 ![Config3](images/philio.pst02a/config3.jpg)
 
-
-
 Parameter details :
-
-
 
 -   2: allows to adjust the signal sent to the modules in the group
     association 2
@@ -292,70 +232,42 @@ Parameter details :
 -   22: value in% of brightness variation to trigger a
     Report Recommended value : 10
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has two association groups, only the first is
 indispensable.
 
-
-
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
 
-
-
-### Alternative visual 
-
-
+### Alternative visual
 
 ![vuewidget](images/philio.pst02a/vuewidget.jpg)
 
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 To wake up this module there is only one way :
 
 -   release the tamper button and press it again
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 This module wakes up by pressing its tamper button.
-
-
 
 This module is a battery module, the new configuration will be
 taken into account at the next wakeup.
 
-
-
-Important note 
+Important note
 ---------------
-
-
 
 > **IMPORTANT**
 >
 > You have to wake up the module : after its inclusion, after a change
 > of the configuration, after a change of wakeup, after a
 > change of association groups
-
-
 
 **@sarakha63**

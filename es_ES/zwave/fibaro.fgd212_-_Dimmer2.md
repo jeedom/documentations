@@ -1,28 +1,15 @@
-Fibaro Dimmer2 - FGD-212 
-========================
-
-
+# Fibaro Dimmer2 - FGD-212
 
 -   **El módulo**
 
-
-
 ![module](images/fibaro.fgd212/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
-
-
 
 Resumen 
 ------
-
-
 
 El módulo de atenuación FGD-212 le permitirá controlar un
 lámpara o lámpara de techo de forma remota gracias al protocolo Z-Wave mientras
@@ -45,12 +32,8 @@ medir el consumo eléctrico de la carga conectada. Los valores
 consumo instantáneo (en W) y consumo eléctrico total
 (en kWh) se puede ver.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Control remoto de iluminación
 
@@ -92,12 +75,8 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Receptor Z-Wave
 
@@ -130,12 +109,8 @@ Características técnicas
 -   Normas : RoHS 2011/65 / EU, LVD 2006/95 / EC, EMC 2004/108 / EC, R & TTE
     1999/5/EC
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Grupo Fibar
 
@@ -147,18 +122,12 @@ Datos del módulo
 
 -   ID del producto : 4096
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
@@ -167,11 +136,7 @@ inclusión refiérase a esto
 > el módulo no está incluido, se incluirá
 > automáticamente cuando se enciende.
 
-
-
 ![inclusion](images/fibaro.fgd212/inclusion.jpg)
-
-
 
 > **Punta**
 >
@@ -179,32 +144,18 @@ inclusión refiérase a esto
 > haciendo muchos viajes de ida y vuelta en el interruptor o
 > muchas prensas si tiene un interruptor de botón.
 
-
-
 Una vez incluido, deberías obtener esto :
-
-
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
 disponibles.
 
-
-
 ![Comandos](images/fibaro.fgd212/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Intensidad : Este es el comando que le permite ajustar la intensidad de la
     Iluminación
@@ -225,26 +176,16 @@ Aquí está la lista de comandos :
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
-
-
 
 ![Config1](images/fibaro.fgd212/config1.jpg)
 
@@ -256,37 +197,21 @@ configuraciones)
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 Ser redactado
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene cinco grupos de asociación, solo el primero es
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Específicos 
-
-
+### Específicos
 
 > **Depositar**
 >
@@ -294,35 +219,21 @@ Bueno saber
 > permite elegir el tipo de interruptor utilizado. Tipo predeterminado
 > se establece en monoestable.
 
-
-
 Si desea excluir / incluir el módulo sin desmontar su
 interruptor puede presionar su interruptor varias veces
 (o ir y venir en caso de un interruptor biestable)
 
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/fibaro.fgd212/vuewidget.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 No hay noción de activación en este módulo.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 No este módulo se puede incluir o excluir presionando varias veces
 en el interruptor.

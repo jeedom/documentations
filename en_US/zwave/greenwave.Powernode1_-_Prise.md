@@ -1,28 +1,16 @@
-Greenwave PowerNode - 1 plug 
+Greenwave PowerNode - 1 plug
 =============================
-
-
 
 -   **The module**
 
-
-
 ![module](images/greenwave.Powernode1/module.jpg)
-
-
 
 -   **The Jeedom visual**
 
-
-
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
-
-
-Summary 
+Summary
 ------
-
-
 
 GreenWave's PowerNode plug module is a smart device that
 connects to one of your home appliances and electronics to
@@ -59,12 +47,8 @@ deactivated in the event of a faulty device or
 short circuit. Additional protection is provided by the fuse
 internal located in the socket.
 
-
-
-Functions 
+Fonctions
 ---------
-
-
 
 -   Control a lamp or device remotely
 
@@ -84,12 +68,8 @@ Functions
 
 -   Light status indicator
 
-
-
-Technical characteristics 
+Technical characteristics
 ---------------------------
-
-
 
 -   Food : 250V AC, 50Hz
 
@@ -117,12 +97,8 @@ Technical characteristics
 
 -   IP class (Humidity tolerance) : IP20
 
-
-
-Module data 
+Module data
 -----------------
-
-
 
 -   Mark : GreenWave
 
@@ -134,54 +110,32 @@ Module data
 
 -   Product ID : 2
 
-
-
-Setup 
+Configuration
 -------------
-
-
 
 To configure the OpenZwave plugin and know how to put Jeedom in
 inclusion refer to this
 [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-
-
 
 > **IMPORTANT**
 >
 > To put this module in inclusion mode, press the button
 > inclusion present under the socket.
 
-
-
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
-
-
 
 Once included you should get this :
 
-
-
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-
-
-### Commands 
-
-
+### Commandes
 
 Once the module has been recognized, the commands associated with the module will be
 disponibles.
 
-
-
 ![Commands](images/greenwave.Powernode1/commandes.jpg)
 
-
-
 Here is the list of commands :
-
-
 
 -   State : It is the command which allows to know the status of the
     prise
@@ -195,44 +149,26 @@ Here is the list of commands :
 
 -   Consumption : It is the order which reports the total consumption
 
-
-
 Note that on the dashboard the ON / OFF / STATUS commands are grouped together
 in one button.
 
-
-
-### Configuration of the module 
-
-
+### Configuration of the module
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
 Jeedom OpenZwave plugin.
 
-
-
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 You will arrive on this page (after clicking on the tab
 Settings)
 
-
-
 ![Config1](images/greenwave.Powernode1/config1.jpg)
-
-
 
 As you can see there is not a lot of configuration
 for this module.
 
-
-
 Parameter details :
-
-
 
 -   1 : Delay before the button flashes : number of seconds
     minimum between two communications (if this delay is exceeded the button
@@ -240,70 +176,40 @@ Parameter details :
 
 -   2 : Selected wheel color (automatically detected)
 
-
-
-### Groups 
-
-
+### Groupes
 
 This module has four association groups, only the 3rd group is
 indispensable.
 
-
-
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
-
-
-Good to know 
+Good to know
 ------------
-
-
 
 Unlike its big sister multiple socket, this socket does not require
 polling to boost consumption.
 
-
-
-### Reset 
-
-
+### Reset
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
-
-
 
 You can reset your consumption meter by clicking
 on this button available in the System tab. It's necessary to choose
 PressButton.
 
+### Specificities
 
-
-### Specificities 
-
-
-
-Wakeup 
+Wakeup
 ------
-
-
 
 No notion of wakeup on this module.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Have you associated group 3 of the module with Jeedom ?
 
-
-
 No. The module does not allow it. Put a small piece of ribbon on it
 black adhesive.
-
-
 
 **@sarakha63**

@@ -1,28 +1,16 @@
-SmartHome von Everspring In Wall On Off - AN179-0 
+SmartHome von Everspring In Wall On Off - AN179-0
 ================================================
-
-
 
 -   **Das Modul**
 
-
-
 ![module](images/smarthomebyeverspring.AN179-0/module.jpg)
-
-
 
 -   **Das Jeedom Visual**
 
-
-
 ![vuedefaut1](images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 SmartHome Europe von Everspring Marke ON / OFF Wandmikromodul,
 dient zum Ein- und Ausschalten der Beleuchtung und
@@ -40,12 +28,8 @@ Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
 kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
 welcher Z-Wave-Controller in Ihrem Netzwerk.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Steuern Sie ein Licht / Gerät fern
 
@@ -67,12 +51,8 @@ Funktionen
 
 -   Z-Wave-Repeater-Funktion
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Empfänger
 
@@ -91,12 +71,8 @@ Technische Daten
 
 -   Abmessungen : 42 mm x 43 mm x 16 mm
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : SmartHome von Everspring
 
@@ -108,18 +84,12 @@ Moduldaten
 
 -   Produkt-ID : 8
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
@@ -128,36 +98,20 @@ Aufnahme beziehen sich darauf
 > Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
 > gehört zu keinem Netzwerk und wird mit Strom versorgt
 
-
-
 ![inclusion](images/smarthomebyeverspring.AN179-0/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/smarthomebyeverspring.AN179-0/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
 
-
-
 ![Befehle](images/smarthomebyeverspring.AN179-0/commandes.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
 
@@ -166,39 +120,23 @@ Hier ist die Liste der Befehle :
 -   Zustand : Es ist der Befehl, mit dem der Status des
     Licht
 
-
-
 Beachten Sie, dass im Dashboard die Statusinformationen ON / OFF auf angezeigt werden
 das gleiche Symbol.
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
 Jeedom OpenZwave Plugin.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
 
-
-
 ![Config1](images/smarthomebyeverspring.AN179-0/config1.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1 : Dieser Parameter definiert den Statuswertbefehl, dies ist jedoch nicht der Fall
     empfohlen, diesen Wert zu ändern.
@@ -212,64 +150,40 @@ Parameterdetails :
 -   4 : Dieser Parameter definiert den Typ
     Schalter (Push / Bistable)
 
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat 2 Zuordnungsgruppen.
 
-
-
 ![Groupe](images/smarthomebyeverspring.AN179-0/groupe.jpg)
-
-
 
 > **Wichtig**
 >
-> Zumindest sollte Jeedom in Gruppe 1 landen 
+> Zumindest sollte Jeedom in Gruppe 1 landen
 
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Besonderheiten 
-
-
+### Besonderheiten
 
 -   Die Statusrückmeldung kann nicht unter 3 konfiguriert werden
-    Sekunden. 
+    Sekunden.
 
-### Alternative visuelle 
-
-
+### Alternative visuelle
 
 ![vuewidget](images//smarthomebyeverspring.AN179-0/vuewidget.jpg)
 
-
-
-Wach auf 
+Wach auf
 -------
-
-
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
 secondes.
 
-
-
 Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
 auf dem Schalter.
-
-
 
 **@sarakha63**

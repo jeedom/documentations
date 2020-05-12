@@ -1,28 +1,16 @@
 Fibaro FGRM-222 "Rollladen" 
 ===============================
 
-
-
 -   **Das Modul**
-
-
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-
-
 -   **Das Jeedom Visual**
-
-
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-
-
-Zusammenfassung 
+Zusammenfassung
 ------
-
-
 
 Mit dem Mikromodul FGRM-222 können Sie die Motorisierungen von verwalten
 elektronische Rollläden, Jalousien oder Türen
@@ -45,12 +33,8 @@ habitation.
 
 Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
-
-
-Funktionen 
+Fonctions
 ---------
-
-
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 
@@ -73,12 +57,8 @@ Funktionen
 
 -   Benutzerfreundlichkeit und Installation
 
-
-
-Technische Daten 
+Technische Daten
 ---------------------------
-
-
 
 -   Modultyp : Z-Wave Empfänger
 
@@ -104,12 +84,8 @@ Technische Daten
 
 -   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
 
-
-
-Moduldaten 
+Moduldaten
 -----------------
-
-
 
 -   Machen Sie : Fibar Group
 
@@ -121,56 +97,34 @@ Moduldaten
 
 -   Produkt-ID : 4097
 
-
-
-Konfiguration 
+Configuration
 -------------
-
-
 
 So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
 Aufnahme beziehen sich darauf
 [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Wichtig**
 >
 > Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste dreimal
 > Einschlussknopf gemäß seiner Papierdokumentation.
 
-
-
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
-
-
 
 Einmal enthalten, sollten Sie dies erhalten :
 
-
-
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-
-
-### Befehle 
-
-
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
 disponibles.
-
-
 
 ![Befehle](images/fibaro.fgrm222/commandes.jpg)
 
 ![Befehle](images/fibaro.fgrm222/commandes2.jpg)
 
-
-
 Hier ist die Liste der Befehle :
-
-
 
 -   Zustand : Es ist der Befehl, der es ermöglicht, die Position von zu kennen
     dein Verschluss
@@ -202,26 +156,16 @@ Hier ist die Liste der Befehle :
 -   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder zu definieren
     Incliner
 
-
-
-### Konfiguration des Moduls 
-
-
+### Konfiguration des Moduls
 
 Dann, wenn Sie das Modul entsprechend konfigurieren möchten
 Ihrer Installation müssen Sie durch die Schaltfläche gehen
 "Konfiguration "des OpenZwave-Plugins von Jeedom.
 
-
-
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 Einstellungen)
-
-
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +175,7 @@ Einstellungen)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-
-
 Parameterdetails :
-
-
 
 -   1: ermöglicht das Blockieren des Moduls (um einen Verschluss einzufrieren) (in dem Fall
     Drücken eines Schalters)
@@ -279,42 +219,24 @@ Parameterdetails :
 -   50: Hier können Sie auswählen, ob das Modul die Informationen an die Knoten senden soll
     in Assoziation im Szenenmodus oder im Assoziationsmodus
 
-
-
-### Gruppen 
-
-
+### Groupes
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-
-
-Gut zu wissen 
+Gut zu wissen
 ------------
 
-
-
-### Zurücksetzen 
-
-
+### Reset
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
-
-
 
 Sie können Ihre Verbrauchsanzeige zurücksetzen, indem Sie auf klicken
 auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 
-
-
-### Wichtig 
-
-
+### Important
 
 > **Wichtig**
 >
@@ -323,32 +245,18 @@ auf dieser Schaltfläche auf der Registerkarte System verfügbar.
 > Positionierung muss aktiv sein (Parameter 10 mit Werten "Aktiv
 > direkt "," Active Venetian "oder" Active Door ").
 
-
-
-### Alternative visuelle 
-
-
+### Alternative visuelle
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-
-
-Aufwachen 
+Wakeup
 ------
-
-
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Lesen Sie den Abschnitt Zurücksetzen in diesem Dokument.
-
-
 
 **@sarakha63**

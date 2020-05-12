@@ -1,28 +1,16 @@
-Interruptor Swiid - Swiidinter 
+Interruptor Swiid - Swiidinter
 ===============================
-
-
 
 -   **El módulo**
 
-
-
 ![module](images/swiid.inter/module.jpg)
-
-
 
 -   **El visual de Jeedom**
 
-
-
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 SwiidInter es el primer interruptor de cable del entorno
 Domótica Z-Wave que es lo suficientemente pequeña y discreta como para ser
@@ -48,12 +36,8 @@ integrarse en una "red" Z-Wave, esta red puede ser tan simple
 solo un control remoto que controla su interruptor SwiidInter a
 distance.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Interruptor de cable utilizable tanto manualmente
     (pulsación corta) y por radio remota (Z-Wave)
@@ -72,12 +56,8 @@ Funciones
 
 -   Apto para todo tipo de bombillas
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Receptor Z-Wave
 
@@ -105,12 +85,8 @@ Características técnicas
 
 -   Normas de la UE : EN 61058-2-1:2011 EN 55015
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Swiid
 
@@ -122,54 +98,32 @@ Datos del módulo
 
 -   ID del producto : 256
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón
 > en la parte posterior, de acuerdo con su documentación en papel
 
-
-
 ![inclusion](images/swiid.inter/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
-
-
 ![Comandos](images/swiid.inter/commandes.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Estado : Es el comando que permite conocer el estado de la
     Iluminación
@@ -178,44 +132,26 @@ Aquí está la lista de comandos :
 
 -   Apagado : Es el comando que apaga la luz
 
-
-
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
 Complemento Jeedom OpenZwave.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
 
-
-
 ![Config1](images/swiid.inter/config1.jpg)
-
-
 
 Detalles del parámetro :
 
-
-
 Este parámetro le permite elegir el comportamiento cuando asocia el
 swiidinter a otro módulo (pulsación larga)
-
-
 
 -   Inactivo : no tendrá efecto en otras luces
 
@@ -228,72 +164,42 @@ swiidinter a otro módulo (pulsación larga)
 -   ENCENDIDO y APAGADO (completamente) : será efectivo para encender y apagar el
     otras luces
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene dos grupos de asociación.
 
-
-
 ![Groupe](images/swiid.inter/groupe.jpg)
-
-
 
 > **Importante**
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe
 > estar asociado al menos con el grupo 2.
 
-
-
-Asociarse con otra luz 
+Asociarse con otra luz
 ----------------------------
-
-
 
 Para asociar el swiidinter con otra luz y poder beneficiarse de
 encender otra luz, solo agréguela al grupo
 de asociación 1 a través de la pantalla citada anteriormente.
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/swiid.inter/vuewidget.jpg)
 
-
-
-Despertar 
+Despertar
 -------
-
-
 
 No hay noción de despertar en este módulo.
 
-
-
-Faq. 
+Faq.
 ------
-
-
 
 ¿Ha combinado los dos módulos y ha configurado la pieza correctamente?
 Especifico.
 
-
-
 No El módulo no lo permite.
-
-
 
 **@sarakha63**

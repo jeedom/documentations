@@ -1,28 +1,16 @@
 Fibaro FGRM-222 "Persiana enrollable" 
 ===============================
 
-
-
 -   **El módulo**
-
-
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-
-
 -   **El visual de Jeedom**
-
-
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-
-
-Resumen 
+Resumen
 ------
-
-
 
 El micromódulo FGRM-222 le permitirá gestionar las motorizaciones de
 persianas electrónicas, persianas o puertas venecianas
@@ -45,12 +33,8 @@ habitation.
 
 Nota : Este módulo requiere neutral para operar.
 
-
-
-Funciones 
+Fonctions
 ---------
-
-
 
 -   Controle sus persianas o persianas de forma remota
 
@@ -73,12 +57,8 @@ Funciones
 
 -   Facilidad de uso e instalación
 
-
-
-Características técnicas 
+Características técnicas
 ---------------------------
-
-
 
 -   Tipo de módulo : Receptor Z-Wave
 
@@ -104,12 +84,8 @@ Características técnicas
 
 -   Normas : LVD (2006/95 / EC), EMC (2004 / 10B / EC), R & TTE (1999/5 / EC)
 
-
-
-Datos del módulo 
+Datos del módulo
 -----------------
-
-
 
 -   Hacer : Grupo Fibar
 
@@ -121,56 +97,34 @@ Datos del módulo
 
 -   ID del producto : 4097
 
-
-
-Configuración 
+Configuration
 -------------
-
-
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
 inclusión refiérase a esto
 [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-
-
 
 > **Importante**
 >
 > Para poner este módulo en modo de inclusión, presione el botón 3 veces
 > botón de inclusión, de acuerdo con su documentación en papel.
 
-
-
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
-
-
 
 Una vez incluido, deberías obtener esto :
 
-
-
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-
-
-### Comandos 
-
-
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
-
-
 
 ![Comandos](images/fibaro.fgrm222/commandes.jpg)
 
 ![Comandos](images/fibaro.fgrm222/commandes2.jpg)
 
-
-
 Aquí está la lista de comandos :
-
-
 
 -   Estado : Es el comando que permite conocer la posición de
     tu obturador
@@ -202,26 +156,16 @@ Aquí está la lista de comandos :
 -   No : Se usa para definir el paso para presionar Rechazar o
     Incliner
 
-
-
-### Configuracion del modulo 
-
-
+### Configuracion del modulo
 
 Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
 "Configuración "del complemento OpenZwave de Jeedom.
 
-
-
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-
 
 Llegará a esta página (después de hacer clic en la pestaña
 configuraciones)
-
-
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -231,11 +175,7 @@ configuraciones)
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-
-
 Detalles del parámetro :
-
-
 
 -   1: permite bloquear el módulo (para congelar un obturador) (en el caso
     presionando un interruptor)
@@ -279,42 +219,24 @@ Detalles del parámetro :
 -   50: permite elegir si el módulo debe enviar la información a los nodos
     en asociación en modo escena o en modo asociación
 
-
-
-### Grupos 
-
-
+### Groupes
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es
 indispensable.
 
-
-
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-
-
-Bueno saber 
+Bueno saber
 ------------
 
-
-
-### Restablecer 
-
-
+### Reset
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
-
-
 
 Puede restablecer su medidor de consumo haciendo clic en
 en este botón disponible en la pestaña Sistema.
 
-
-
-### Importante 
-
-
+### Important
 
 > **Importante**
 >
@@ -323,32 +245,18 @@ en este botón disponible en la pestaña Sistema.
 > el posicionamiento debe estar activo (parámetro 10 con valores "Activo
 > directo "," Veneciano activo "o" Puerta activa ").
 
-
-
-### Visual alternativo 
-
-
+### Visual alternativo
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-
-
-Despertador 
+Wakeup
 ------
-
-
 
 No hay noción de activación en este módulo.
 
-
-
-Faq. 
+Faq.
 ------
 
-
-
 Lea la sección Restablecer de este documento.
-
-
 
 **@sarakha63**
